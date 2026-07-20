@@ -1,0 +1,59 @@
+<svg viewBox="0 0 560 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="60" y="24" fill="#8a8a8a" font-style="italic">One deviation trades a one-time gain for a permanent stream of losses.</text>
+
+  <!-- shaded loss band: R - P forfeited every period from t = 1 on -->
+  <rect x="150" y="150" width="360" height="100" fill="#e0645c" opacity="0.12"/>
+  <!-- shaded gain sliver at t = 0: T - R grabbed once -->
+  <rect x="79" y="100" width="22" height="50" fill="#3f9b6d" opacity="0.22"/>
+
+  <!-- axes -->
+  <line x1="55" y1="300" x2="545" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="55" y1="70" x2="55" y2="312" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="545,300 535,295 535,305" fill="#8a8a8a"/>
+  <polygon points="55,70 50,80 60,80" fill="#8a8a8a"/>
+  <text x="500" y="292" fill="#8a8a8a">period t</text>
+  <text x="30" y="74" fill="#8a8a8a">payoff</text>
+
+  <!-- payoff gridline markers T, R, P -->
+  <line x1="52" y1="100" x2="58" y2="100" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="40" y="105" fill="#8a8a8a">T</text>
+  <line x1="52" y1="150" x2="58" y2="150" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="40" y="155" fill="#8a8a8a">R</text>
+  <line x1="52" y1="250" x2="58" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="40" y="255" fill="#8a8a8a">P</text>
+
+  <!-- period tick labels -->
+  <text x="86" y="320" fill="#8a8a8a">0</text>
+  <text x="156" y="320" fill="#8a8a8a">1</text>
+  <text x="226" y="320" fill="#8a8a8a">2</text>
+  <text x="296" y="320" fill="#8a8a8a">3</text>
+  <text x="366" y="320" fill="#8a8a8a">4</text>
+  <text x="436" y="320" fill="#8a8a8a">5</text>
+  <text x="486" y="320" fill="#8a8a8a">···</text>
+  <text x="520" y="320" fill="#8a8a8a">&#8734;</text>
+
+  <!-- cooperate-forever track: R every period (blue, dashed guide + dots) -->
+  <line x1="85" y1="150" x2="515" y2="150" stroke="#4a90d9" stroke-width="2" stroke-dasharray="5 4"/>
+  <circle cx="90" cy="150" r="5" fill="#4a90d9"/>
+  <circle cx="160" cy="150" r="5" fill="#4a90d9"/>
+  <circle cx="230" cy="150" r="5" fill="#4a90d9"/>
+  <circle cx="300" cy="150" r="5" fill="#4a90d9"/>
+  <circle cx="370" cy="150" r="5" fill="#4a90d9"/>
+  <circle cx="440" cy="150" r="5" fill="#4a90d9"/>
+
+  <!-- deviate-then-punished track: T at t=0, then P forever (red step) -->
+  <path d="M 90 100 L 160 250 L 515 250" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <circle cx="90" cy="100" r="5" fill="#e0645c"/>
+  <circle cx="160" cy="250" r="5" fill="#e0645c"/>
+  <circle cx="230" cy="250" r="5" fill="#e0645c"/>
+  <circle cx="300" cy="250" r="5" fill="#e0645c"/>
+  <circle cx="370" cy="250" r="5" fill="#e0645c"/>
+  <circle cx="440" cy="250" r="5" fill="#e0645c"/>
+
+  <!-- inline labels -->
+  <text x="250" y="60" fill="#4a90d9">cooperate forever &#183; earn R each period</text>
+  <text x="250" y="80" fill="#e0645c">deviate at t = 0 &#183; grab T, then punished with P</text>
+  <text x="104" y="96" fill="#3f9b6d">+ (T &#8722; R) once</text>
+  <text x="250" y="205" fill="#e0645c">&#8722; (R &#8722; P) every period thereafter</text>
+</svg>

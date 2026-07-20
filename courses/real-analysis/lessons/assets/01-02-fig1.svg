@@ -1,0 +1,49 @@
+<svg viewBox="0 0 560 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- shaded region: all upper bounds of A (everything at or right of sup A) -->
+  <rect x="360" y="168" width="170" height="24" fill="#8a8a8a" opacity="0.16"/>
+  <text x="445" y="150" fill="#8a8a8a" text-anchor="middle">upper bounds of A</text>
+  <line x1="445" y1="156" x2="420" y2="176" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- number line -->
+  <line x1="40" y1="180" x2="530" y2="180" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="530,180 520,175 520,185" fill="#8a8a8a"/>
+  <polygon points="40,180 50,175 50,185" fill="#8a8a8a"/>
+
+  <!-- the set A: dots accumulating up toward its least upper bound -->
+  <circle cx="110" cy="180" r="4" fill="#4a90d9"/>
+  <circle cx="170" cy="180" r="4" fill="#4a90d9"/>
+  <circle cx="215" cy="180" r="4" fill="#4a90d9"/>
+  <circle cx="252" cy="180" r="4" fill="#4a90d9"/>
+  <circle cx="283" cy="180" r="4" fill="#4a90d9"/>
+  <circle cx="309" cy="180" r="4" fill="#4a90d9"/>
+  <!-- the element a caught inside the epsilon window -->
+  <circle cx="335" cy="180" r="5" fill="#e0645c"/>
+  <circle cx="346" cy="180" r="3.5" fill="#4a90d9"/>
+  <circle cx="352" cy="180" r="3" fill="#4a90d9"/>
+  <circle cx="356" cy="180" r="2.5" fill="#4a90d9"/>
+  <text x="150" y="212" fill="#4a90d9" text-anchor="middle">the set A</text>
+
+  <!-- sup A tick -->
+  <line x1="360" y1="166" x2="360" y2="194" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="360" y="232" fill="#4a90d9" text-anchor="middle" font-weight="bold">sup A</text>
+  <text x="360" y="250" fill="#4a90d9" text-anchor="middle" font-size="12">least upper bound</text>
+
+  <!-- s - epsilon tick -->
+  <line x1="290" y1="170" x2="290" y2="190" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="3 4"/>
+  <text x="290" y="232" fill="#8a8a8a" text-anchor="middle" font-size="12">s &#8722; &#949;</text>
+
+  <!-- epsilon brace above the window (s-eps, s] -->
+  <line x1="290" y1="120" x2="360" y2="120" stroke="#e0645c" stroke-width="1.5"/>
+  <line x1="290" y1="120" x2="290" y2="128" stroke="#e0645c" stroke-width="1.5"/>
+  <line x1="360" y1="120" x2="360" y2="128" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="325" y="113" fill="#e0645c" text-anchor="middle">width &#949;</text>
+
+  <!-- point to the caught element a -->
+  <line x1="335" y1="128" x2="335" y2="172" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="405" y="196" fill="#e0645c" font-size="12">a &#8712; A with a &gt; s &#8722; &#949;</text>
+  <line x1="402" y1="192" x2="340" y2="182" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- caption -->
+  <text x="40" y="40" fill="#8a8a8a" font-style="italic">sup A is the leftmost of all the upper bounds — so no matter how small &#949; is,</text>
+  <text x="40" y="58" fill="#8a8a8a" font-style="italic">the point s &#8722; &#949; fails to be an upper bound, and some a in A slips past it.</text>
+</svg>

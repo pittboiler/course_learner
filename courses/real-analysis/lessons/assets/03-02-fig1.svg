@@ -1,0 +1,40 @@
+<svg viewBox="0 0 560 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="80" y="30" fill="#8a8a8a" font-style="italic">Left-endpoint bars of height f(k) sit above y = f(x): so &#931; f(k) &#8805; &#8747; f.</text>
+
+  <!-- bars: rectangle on [k, k+1] with height f(k); left edge touches the curve, so each bar caps the area -->
+  <rect x="90"  y="100" width="80" height="180" fill="#4a90d9" opacity="0.14" stroke="#4a90d9" stroke-width="1.5"/>
+  <rect x="170" y="190" width="80" height="90"  fill="#4a90d9" opacity="0.14" stroke="#4a90d9" stroke-width="1.5"/>
+  <rect x="250" y="220" width="80" height="60"  fill="#4a90d9" opacity="0.14" stroke="#4a90d9" stroke-width="1.5"/>
+  <rect x="330" y="235" width="80" height="45"  fill="#4a90d9" opacity="0.14" stroke="#4a90d9" stroke-width="1.5"/>
+  <rect x="410" y="244" width="80" height="36"  fill="#4a90d9" opacity="0.14" stroke="#4a90d9" stroke-width="1.5"/>
+
+  <!-- axes -->
+  <line x1="60" y1="280" x2="530" y2="280" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="70" y1="45"  x2="70"  y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="530,280 520,275 520,285" fill="#8a8a8a"/>
+  <polygon points="70,45 65,55 75,55" fill="#8a8a8a"/>
+  <text x="536" y="285" fill="#8a8a8a">x</text>
+
+  <!-- curve y = f(x), decreasing; passes through each bar's top-left corner -->
+  <path d="M 90 100 L 130 160 L 170 190 L 210 208 L 250 220 L 290 228.6 L 330 235 L 370 240 L 410 244 L 450 247.3 L 490 250"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+
+  <!-- dots where the curve meets each bar's top-left corner -->
+  <circle cx="90"  cy="100" r="4" fill="#e0645c"/>
+  <circle cx="170" cy="190" r="4" fill="#e0645c"/>
+  <circle cx="250" cy="220" r="4" fill="#e0645c"/>
+  <circle cx="330" cy="235" r="4" fill="#e0645c"/>
+  <circle cx="410" cy="244" r="4" fill="#e0645c"/>
+
+  <!-- x-axis ticks at the integers k = 1..5 (left edge of each bar) -->
+  <text x="86"  y="298" fill="#8a8a8a">1</text>
+  <text x="166" y="298" fill="#8a8a8a">2</text>
+  <text x="246" y="298" fill="#8a8a8a">3</text>
+  <text x="326" y="298" fill="#8a8a8a">4</text>
+  <text x="406" y="298" fill="#8a8a8a">5</text>
+
+  <!-- labels -->
+  <text x="112" y="200" fill="#4a90d9">f(1)</text>
+  <text x="360" y="200" fill="#e0645c">y = f(x)</text>
+</svg>

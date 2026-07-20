@@ -1,0 +1,48 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- shaded allowed radial region: between the energy line and U_eff, from perihelion to aphelion -->
+  <path d="M 105 190.4 L 255 190.4 L 215 195.6 L 195 198.8 L 175 202.2 L 155 205.6 L 145 206.9 L 135 207.5 L 127 206.9 L 119 204.5 L 111 198.8 L 105 190.4 Z"
+        fill="#e0645c" opacity="0.15"/>
+
+  <!-- vertical U axis -->
+  <line x1="60" y1="30" x2="60" y2="242" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="60,30 55,40 65,40" fill="#8a8a8a"/>
+  <text x="40" y="42" fill="#8a8a8a">U</text>
+
+  <!-- horizontal r axis, drawn at the U = 0 level -->
+  <line x1="60" y1="160" x2="546" y2="160" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="546,160 536,155 536,165" fill="#8a8a8a"/>
+  <text x="550" y="165" fill="#8a8a8a">r</text>
+  <text x="502" y="153" fill="#8a8a8a" font-size="12">U = 0</text>
+
+  <!-- U_eff(r) curve -->
+  <path d="M 83 43.7 L 85 75.6 L 87 100.6 L 89 120.6 L 91 136.5 L 93 149.5 L 95 160 L 99 175.7 L 105 190.4 L 111 198.8 L 119 204.5 L 127 206.9 L 135 207.5 L 145 206.9 L 155 205.6 L 175 202.2 L 195 198.8 L 215 195.6 L 255 190.4 L 295 186.4 L 335 183.3 L 375 180.8 L 415 178.8 L 455 177.1 L 495 175.7 L 535 174.5"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- total-energy line E < 0 -->
+  <line x1="70" y1="190.4" x2="300" y2="190.4" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="306" y="194" fill="#e0645c">E &lt; 0  (total energy)</text>
+
+  <!-- turning points and circular-orbit minimum -->
+  <line x1="105" y1="190.4" x2="105" y2="236" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="255" y1="190.4" x2="255" y2="236" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <circle cx="105" cy="190.4" r="4.5" fill="#e0645c"/>
+  <circle cx="255" cy="190.4" r="4.5" fill="#e0645c"/>
+  <circle cx="135" cy="207.5" r="4.5" fill="#4a90d9"/>
+  <text x="105" y="250" fill="#8a8a8a" text-anchor="middle" font-size="13">perihelion</text>
+  <text x="255" y="250" fill="#8a8a8a" text-anchor="middle" font-size="13">aphelion</text>
+  <line x1="135" y1="207.5" x2="135" y2="221" stroke="#4a90d9" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="135" y="234" fill="#4a90d9" text-anchor="middle" font-size="13">circular orbit</text>
+
+  <!-- centrifugal barrier annotation -->
+  <line x1="112" y1="54" x2="90" y2="70" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="115" y="52" fill="#4a90d9">centrifugal barrier</text>
+  <text x="115" y="68" fill="#8a8a8a" font-size="12">wall from L, ∝ L²/r²</text>
+
+  <!-- equation label in the empty upper-right -->
+  <text x="300" y="100" fill="#4a90d9">U_eff(r) = −GMm/r + L²/(2mr²)</text>
+  <text x="300" y="120" fill="#8a8a8a" font-size="12">attract (−1/r) + repel (+1/r²)</text>
+
+  <!-- caption -->
+  <text x="60" y="300" fill="#8a8a8a" font-style="italic" font-size="13">A horizontal E-line read against U_eff(r): E &lt; 0 is trapped between two turning</text>
+  <text x="60" y="318" fill="#8a8a8a" font-style="italic" font-size="13">points; the well's minimum is the one circular orbit; E ≥ 0 escapes to r → ∞.</text>
+</svg>

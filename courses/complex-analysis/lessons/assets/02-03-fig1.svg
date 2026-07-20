@@ -1,0 +1,40 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- ================= left panel: the z-plane ================= -->
+  <text x="60" y="40" fill="#8a8a8a" font-style="italic">z-plane</text>
+
+  <!-- two curves crossing at z0, at angle alpha -->
+  <path d="M75,205 Q120,199 160,190 Q205,182 248,176" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <path d="M126,264 Q150,225 160,190 Q172,150 196,116" fill="none" stroke="#e0645c" stroke-width="3"/>
+
+  <!-- crossing point z0 -->
+  <circle cx="160" cy="190" r="4.5" fill="#333"/>
+  <text x="150" y="212" fill="#333">z&#8320;</text>
+
+  <!-- angle arc alpha -->
+  <path d="M193,185 A34,34 0 0 0 174,159" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="197" y="172" fill="#8a8a8a">&#945;</text>
+
+  <!-- ================= the map f ================= -->
+  <line x1="288" y1="185" x2="352" y2="185" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="352,185 342,180 342,190" fill="#8a8a8a"/>
+  <text x="308" y="176" fill="#333">f</text>
+  <text x="270" y="212" fill="#8a8a8a" font-style="italic" font-size="12">rotate &amp; scale</text>
+
+  <!-- ================= right panel: the w-plane ================= -->
+  <text x="440" y="40" fill="#8a8a8a" font-style="italic">w-plane</text>
+
+  <!-- image curves: rotated and scaled, SAME angle alpha -->
+  <path d="M405,252 Q440,222 470,190 Q505,157 535,128" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <path d="M484,269 Q476,232 470,190 Q464,148 456,111" fill="none" stroke="#e0645c" stroke-width="3"/>
+
+  <!-- image crossing point f(z0) -->
+  <circle cx="470" cy="190" r="4.5" fill="#333"/>
+  <text x="474" y="210" fill="#333">f(z&#8320;)</text>
+
+  <!-- angle arc alpha (preserved) -->
+  <path d="M495,167 A34,34 0 0 0 464,157" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="484" y="150" fill="#8a8a8a">&#945;</text>
+
+  <!-- caption -->
+  <text x="60" y="315" fill="#8a8a8a" font-style="italic">The image curves may bend and turn, but they still cross at the same angle &#945; &#8212; that is conformality.</text>
+</svg>

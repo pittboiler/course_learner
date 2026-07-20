@@ -1,0 +1,31 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- axes -->
+  <line x1="60" y1="300" x2="540" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="60" y1="18" x2="60" y2="322" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="540,300 530,295 530,305" fill="#8a8a8a"/>
+  <polygon points="60,18 55,28 65,28" fill="#8a8a8a"/>
+  <text x="546" y="305" fill="#8a8a8a">&#969;</text>
+  <text x="40" y="30" fill="#8a8a8a">A</text>
+
+  <!-- natural frequency marker -->
+  <line x1="300" y1="40" x2="300" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="288" y="318" fill="#8a8a8a">&#969;&#8320;</text>
+
+  <!-- heavy damping: short, broad peak -->
+  <path d="M 70.0 238.6 L 79.2 238.6 L 88.4 238.3 L 97.6 237.9 L 106.8 237.4 L 116.0 236.6 L 125.2 235.7 L 134.4 234.6 L 143.6 233.3 L 152.8 231.8 L 162.0 230.1 L 171.2 228.2 L 180.4 225.9 L 189.6 223.5 L 198.8 220.8 L 208.0 217.8 L 217.2 214.6 L 226.4 211.3 L 235.6 207.9 L 244.8 204.7 L 254.0 202.0 L 263.2 199.9 L 272.4 198.9 L 281.6 199.2 L 290.8 200.9 L 300.0 204.1 L 309.2 208.5 L 318.4 213.7 L 327.6 219.3 L 336.8 225.1 L 346.0 230.7 L 355.2 236.0 L 364.4 240.9 L 373.6 245.4 L 382.8 249.5 L 392.0 253.3 L 401.2 256.6 L 410.4 259.7 L 419.6 262.4 L 428.8 264.9 L 438.0 267.1 L 447.2 269.1 L 456.4 271.0 L 465.6 272.7 L 474.8 274.2 L 484.0 275.6 L 493.2 276.9 L 502.4 278.1 L 511.6 279.2 L 520.8 280.2 L 530.0 281.2"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- light damping: tall, narrow peak -->
+  <path d="M 70.0 238.6 L 79.2 238.5 L 88.4 238.3 L 97.6 237.8 L 106.8 237.1 L 116.0 236.2 L 125.2 235.0 L 134.4 233.6 L 143.6 231.9 L 152.8 229.8 L 162.0 227.4 L 171.2 224.5 L 180.4 221.1 L 189.6 217.1 L 198.8 212.3 L 208.0 206.5 L 217.2 199.4 L 226.4 190.8 L 235.6 180.1 L 244.8 166.6 L 254.0 149.6 L 263.2 128.0 L 272.4 101.4 L 281.6 71.9 L 290.8 47.9 L 300.0 44.3 L 309.2 66.3 L 318.4 100.8 L 327.6 134.2 L 336.8 161.7 L 346.0 183.3 L 355.2 200.1 L 364.4 213.4 L 373.6 224.0 L 382.8 232.6 L 392.0 239.7 L 401.2 245.6 L 410.4 250.6 L 419.6 254.9 L 428.8 258.6 L 438.0 261.8 L 447.2 264.6 L 456.4 267.1 L 465.6 269.3 L 474.8 271.3 L 484.0 273.1 L 493.2 274.7 L 502.4 276.2 L 511.6 277.5 L 520.8 278.7 L 530.0 279.8"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+
+  <!-- peak marker -->
+  <circle cx="295" cy="46" r="4" fill="#e0645c"/>
+
+  <!-- labels -->
+  <text x="330" y="90" fill="#e0645c">light damping: tall, narrow peak</text>
+  <text x="330" y="200" fill="#4a90d9">heavy damping: short, broad</text>
+
+  <!-- caption -->
+  <text x="80" y="38" fill="#8a8a8a" font-style="italic">Steady-state amplitude vs. driving frequency &#969; &#8212; the response peaks near &#969;&#8320;.</text>
+</svg>

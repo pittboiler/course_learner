@@ -1,0 +1,36 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="26" fill="#8a8a8a" font-style="italic">Two Cartesian numbers pinned by one constraint collapse to a single coordinate θ.</text>
+
+  <!-- constraint arc: the circle of allowed bob positions, radius ℓ about the pivot -->
+  <path d="M 190 211 A 180 180 0 0 1 427 158" fill="none" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="4 5"/>
+  <text x="150" y="230" fill="#8a8a8a">wire: x² + y² = ℓ²</text>
+
+  <!-- vertical reference (θ = 0) -->
+  <line x1="280" y1="55" x2="280" y2="238" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- right-triangle legs: Cartesian coordinates of the bob -->
+  <line x1="280" y1="202" x2="383" y2="202" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="280" y1="55"  x2="280" y2="202" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- the rod / rigid constraint (the reduced picture) -->
+  <line x1="280" y1="55" x2="383" y2="202" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- angle arc θ between vertical and rod -->
+  <path d="M 280 95 A 40 40 0 0 1 303 88" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <text x="289" y="86" fill="#e0645c">θ</text>
+
+  <!-- pivot and bob -->
+  <circle cx="280" cy="55" r="4" fill="#8a8a8a"/>
+  <text x="252" y="52" fill="#8a8a8a">pivot</text>
+  <circle cx="383" cy="202" r="9" fill="#e0645c"/>
+
+  <!-- length + coordinate labels -->
+  <text x="338" y="122" fill="#4a90d9">ℓ</text>
+  <text x="300" y="220" fill="#8a8a8a">x = ℓ sin θ</text>
+  <text x="196" y="135" fill="#8a8a8a">y = ℓ cos θ</text>
+
+  <!-- the reduction statement -->
+  <text x="330" y="285" fill="#8a8a8a">2 coords − 1 constraint</text>
+  <text x="330" y="305" fill="#e0645c">= 1 DOF: the angle θ</text>
+</svg>

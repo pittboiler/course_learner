@@ -1,0 +1,43 @@
+<svg viewBox="0 0 560 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="60" y="26" fill="#8a8a8a" font-style="italic">The EMP mirrors the UMP: fix the curve u = ū, slide the budget line inward to</text>
+  <text x="60" y="44" fill="#8a8a8a" font-style="italic">the cheapest one still touching it — tangency gives Hicksian demand h(p, ū).</text>
+
+  <!-- axes -->
+  <line x1="65" y1="305" x2="540" y2="305" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="65" y1="305" x2="65" y2="60" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="540,305 530,300 530,310" fill="#8a8a8a"/>
+  <polygon points="65,60 60,70 70,70" fill="#8a8a8a"/>
+  <text x="533" y="325" fill="#8a8a8a">x₁</text>
+  <text x="44" y="70" fill="#8a8a8a">x₂</text>
+
+  <!-- lower budget line: too cheap to reach ū (dashed) -->
+  <line x1="65" y1="165" x2="259" y2="305" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 5"/>
+  <text x="72" y="300" fill="#e0645c" font-style="italic">budget too small</text>
+  <text x="72" y="316" fill="#e0645c" font-style="italic">to reach ū</text>
+
+  <!-- fixed indifference curve u = ū -->
+  <path d="M 110 95 L 130 130 L 150 158 L 175 185 L 205 210 L 240 232 L 285 250 L 330 262 L 380 272 L 425 279"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="360" y="252" fill="#4a90d9">u(x) = ū</text>
+
+  <!-- minimizing budget line: tangent to the curve -->
+  <line x1="65" y1="109" x2="336" y2="305" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="300" y="120" fill="#e0645c">p·x = e(p, ū)</text>
+  <text x="300" y="138" fill="#e0645c" font-style="italic">slope = −p₁/p₂</text>
+
+  <!-- tangency point = Hicksian demand -->
+  <circle cx="205" cy="210" r="5" fill="#e0645c"/>
+  <text x="214" y="200" fill="#e0645c">h(p, ū)</text>
+
+  <!-- droplines to the axes -->
+  <line x1="205" y1="210" x2="205" y2="305" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="205" y1="210" x2="65" y2="210" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="192" y="322" fill="#8a8a8a">h₁</text>
+  <text x="46" y="214" fill="#8a8a8a">h₂</text>
+
+  <!-- direction of decreasing expenditure -->
+  <line x1="150" y1="128" x2="110" y2="152" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="3 4"/>
+  <polygon points="110,152 122,151 117,142" fill="#8a8a8a"/>
+  <text x="128" y="112" fill="#8a8a8a" font-style="italic">cost falls</text>
+</svg>

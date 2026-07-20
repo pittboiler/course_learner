@@ -1,0 +1,32 @@
+<svg viewBox="0 0 560 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- unit disk: |phi| <= 1 always -->
+  <circle cx="280" cy="180" r="130" fill="#4a90d9" opacity="0.06" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="4 4"/>
+
+  <!-- axes: complex plane -->
+  <line x1="120" y1="180" x2="470" y2="180" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="280" y1="30" x2="280" y2="340" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="470,180 460,175 460,185" fill="#8a8a8a"/>
+  <polygon points="280,30 275,40 285,40" fill="#8a8a8a"/>
+  <text x="474" y="185" fill="#8a8a8a">Re</text>
+  <text x="288" y="40" fill="#8a8a8a">Im</text>
+
+  <!-- the characteristic-function curve t -> phi(t), spiralling inward toward 0 -->
+  <path d="M 410 180 L 390.5 119.7 L 342 83.5 L 286.9 82.1 L 247.2 108.2 L 232.3 144.4 L 238.1 174 L 253.7 189.9 L 268.5 193.3"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- start point phi(0) = 1, on the boundary -->
+  <circle cx="410" cy="180" r="5" fill="#e0645c"/>
+  <text x="398" y="205" fill="#e0645c">&#966;(0) = 1</text>
+
+  <!-- terminal drift toward origin -->
+  <circle cx="280" cy="180" r="4" fill="#8a8a8a"/>
+  <text x="256" y="172" fill="#8a8a8a">0</text>
+
+  <!-- t increasing arrow annotation -->
+  <text x="330" y="70" fill="#4a90d9" font-style="italic">t increases</text>
+  <line x1="345" y1="76" x2="330" y2="88" stroke="#4a90d9" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- boundary label -->
+  <text x="150" y="60" fill="#8a8a8a" font-style="italic">| &#966;(t) | &#8804; 1 : the whole curve lives in the unit disk.</text>
+  <text x="150" y="360" fill="#8a8a8a" font-style="italic">Starts at 1, spirals toward 0 as | t | grows (nondegenerate X).</text>
+</svg>

@@ -1,0 +1,42 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- ================= LEFT: nested events filling up to A ================= -->
+  <!-- limit event A: dashed outer boundary -->
+  <rect x="40" y="40" width="200" height="200" fill="none" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <!-- nested increasing events, largest drawn first so all borders show -->
+  <rect x="40" y="70"  width="170" height="170" fill="#cfe0f2" stroke="#4a90d9" stroke-width="1"/>
+  <rect x="40" y="110" width="130" height="130" fill="#a8ccec" stroke="#4a90d9" stroke-width="1"/>
+  <rect x="40" y="150" width="90"  height="90"  fill="#7fb3e3" stroke="#4a90d9" stroke-width="1"/>
+  <rect x="40" y="190" width="50"  height="50"  fill="#4a90d9" stroke="#2f6ba8" stroke-width="1"/>
+
+  <text x="52"  y="212" fill="#ffffff">A₁</text>
+  <text x="98"  y="180" fill="#2f6ba8">A₂</text>
+  <text x="140" y="140" fill="#2f6ba8">A₃</text>
+  <text x="182" y="100" fill="#2f6ba8">A₄</text>
+  <text x="215" y="58"  fill="#8a8a8a">A = ⋃ₙ Aₙ</text>
+  <text x="40"  y="28"  fill="#8a8a8a" font-style="italic">A₁ ⊆ A₂ ⊆ A₃ ⊆ ⋯  ↑  A</text>
+
+  <!-- ================= RIGHT: P(Aₙ) climbing to P(A) ================= -->
+  <!-- axes -->
+  <line x1="320" y1="240" x2="540" y2="240" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="320" y1="40"  x2="320" y2="240" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="524" y="256" fill="#8a8a8a">n</text>
+
+  <!-- limit line P(A) -->
+  <line x1="320" y1="70" x2="540" y2="70" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="360" y="64" fill="#e0645c">P(A) = limₙ P(Aₙ)</text>
+
+  <!-- climbing bars: heights approach the P(A) line -->
+  <rect x="340" y="200" width="26" height="40"  fill="#4a90d9"/>
+  <rect x="380" y="150" width="26" height="90"  fill="#7fb3e3"/>
+  <rect x="420" y="110" width="26" height="130" fill="#a8ccec"/>
+  <rect x="460" y="88"  width="26" height="152" fill="#cfe0f2" stroke="#4a90d9" stroke-width="1"/>
+  <rect x="500" y="76"  width="26" height="164" fill="#cfe0f2" stroke="#4a90d9" stroke-width="1"/>
+
+  <text x="346" y="256" fill="#8a8a8a">1</text>
+  <text x="386" y="256" fill="#8a8a8a">2</text>
+  <text x="426" y="256" fill="#8a8a8a">3</text>
+  <text x="466" y="256" fill="#8a8a8a">4</text>
+  <text x="509" y="256" fill="#8a8a8a">⋯</text>
+
+  <text x="330" y="300" fill="#8a8a8a" font-style="italic">Nested events fill up to A, and their probabilities rise to P(A).</text>
+</svg>

@@ -1,0 +1,38 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- shading gap: the bid-shading region between truthful line b=v and equilibrium b=(3/4)v -->
+  <path d="M 60 300 L 520 60 L 520 120 Z" fill="#e0645c" opacity="0.18"/>
+
+  <!-- axes -->
+  <line x1="60" y1="300" x2="540" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="60" y1="40" x2="60" y2="312" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="540,300 530,295 530,305" fill="#8a8a8a"/>
+  <polygon points="60,40 55,50 65,50" fill="#8a8a8a"/>
+  <text x="544" y="305" fill="#8a8a8a">v</text>
+  <text x="40" y="52" fill="#8a8a8a">b</text>
+
+  <!-- droplines to the point (1,1) -->
+  <line x1="520" y1="300" x2="520" y2="60" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="60" y1="60" x2="520" y2="60" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="516" y="318" fill="#8a8a8a">1</text>
+  <text x="46" y="65" fill="#8a8a8a">1</text>
+
+  <!-- truthful 45-degree line b = v -->
+  <line x1="60" y1="300" x2="520" y2="60" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- equilibrium bid function b = (n-1)/n * v, drawn for n = 4 -->
+  <line x1="60" y1="300" x2="520" y2="120" stroke="#e0645c" stroke-width="3"/>
+
+  <!-- endpoint dot at (1,1) -->
+  <circle cx="520" cy="60" r="5" fill="#8a8a8a"/>
+
+  <!-- labels on the two lines -->
+  <text x="300" y="150" fill="#4a90d9">b(v) = v · bid your value</text>
+  <text x="255" y="252" fill="#e0645c">b(v) = ((n−1)/n) v · equilibrium bid</text>
+
+  <!-- shading-gap annotation -->
+  <text x="352" y="105" fill="#8a8a8a">gap = v/n</text>
+  <line x1="378" y1="110" x2="500" y2="98" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- caption -->
+  <text x="70" y="30" fill="#8a8a8a" font-style="italic">First-price bidders shade below their value; the gap widens with v, shrinks as n grows (here n = 4).</text>
+</svg>

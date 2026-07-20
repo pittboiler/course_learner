@@ -1,0 +1,38 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="60" y="34" fill="#8a8a8a" font-style="italic">Cheapest way to make q: slide the isocost toward the origin until it just kisses the isoquant.</text>
+
+  <!-- cheaper, unreachable isocost (parallel, closer to origin) -->
+  <line x1="60" y1="150" x2="333" y2="300" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="70" y="146" fill="#8a8a8a">cheaper — but output &lt; q</text>
+
+  <!-- isoquant f(K,L) = q -->
+  <path d="M 160 80 L 180 116.7 L 200 142.9 L 220 162.5 L 240 177.8 L 260 190 L 300 208.3 L 340 221.4 L 380 231.25 L 420 238.9 L 460 245"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+  <text x="392" y="238" fill="#e0645c">f(K, L) = q</text>
+
+  <!-- cost-minimizing isocost line: slope -w/r, tangent at the optimum -->
+  <line x1="60" y1="80" x2="460" y2="300" stroke="#555555" stroke-width="2.5"/>
+  <text x="70" y="76" fill="#555555">isocost:  wL + rK = c*   (slope −w/r)</text>
+
+  <!-- axes -->
+  <line x1="30" y1="300" x2="540" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="60" y1="18" x2="60" y2="322" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="540,300 530,295 530,305" fill="#8a8a8a"/>
+  <polygon points="60,18 55,28 65,28" fill="#8a8a8a"/>
+  <text x="546" y="305" fill="#8a8a8a">L</text>
+  <text x="44" y="26" fill="#8a8a8a">K</text>
+
+  <!-- droplines to the optimum -->
+  <line x1="260" y1="190" x2="260" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="60" y1="190" x2="260" y2="190" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="252" y="318" fill="#8a8a8a">L*</text>
+  <text x="42" y="195" fill="#8a8a8a">K*</text>
+
+  <!-- optimum point -->
+  <circle cx="260" cy="190" r="5" fill="#e0645c"/>
+
+  <!-- tangency annotation -->
+  <text x="272" y="172" fill="#333333">MRTS = w/r</text>
+  <line x1="300" y1="176" x2="268" y2="187" stroke="#333333" stroke-width="1" stroke-dasharray="3 3"/>
+</svg>

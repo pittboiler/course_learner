@@ -1,0 +1,37 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- shaded finite tail: area under y = 1/x^2 from x = 1 onward -->
+  <path d="M 118 60 L 123.8 101.7 L 129.6 133.3 L 138.3 168.3 L 147 193.3 L 161.5 221.6 L 176 240 L 190.5 252.6 L 205 261.6 L 234 273.3 L 263 280.4 L 292 285 L 321 288.1 L 350 290.4 L 379 292.1 L 408 293.3 L 437 294.3 L 466 295.1 L 495 295.7 L 524 296.3 L 524 300 L 118 300 Z"
+        fill="#e0645c" opacity="0.18"/>
+
+  <!-- axes -->
+  <line x1="30" y1="300" x2="540" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="60" y1="18" x2="60" y2="322" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="540,300 530,295 530,305" fill="#8a8a8a"/>
+  <polygon points="60,18 55,28 65,28" fill="#8a8a8a"/>
+  <text x="546" y="305" fill="#8a8a8a">x</text>
+
+  <!-- droplines marking the common start point (1, 1) -->
+  <line x1="118" y1="60" x2="118" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="60" y1="60" x2="118" y2="60" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="114" y="318" fill="#8a8a8a">1</text>
+  <text x="46" y="65" fill="#8a8a8a">1</text>
+
+  <!-- y = 1/x -->
+  <path d="M 118 60 L 123.8 81.8 L 129.6 100 L 138.3 122.2 L 147 140 L 161.5 162.9 L 176 180 L 190.5 193.3 L 205 204 L 234 220 L 263 231.4 L 292 240 L 321 246.7 L 350 252 L 379 256.4 L 408 260 L 437 263.1 L 466 265.7 L 495 268 L 524 270"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- y = 1/x^2 -->
+  <path d="M 118 60 L 123.8 101.7 L 129.6 133.3 L 138.3 168.3 L 147 193.3 L 161.5 221.6 L 176 240 L 190.5 252.6 L 205 261.6 L 234 273.3 L 263 280.4 L 292 285 L 321 288.1 L 350 290.4 L 379 292.1 L 408 293.3 L 437 294.3 L 466 295.1 L 495 295.7 L 524 296.3"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+
+  <!-- common start point -->
+  <circle cx="118" cy="60" r="5" fill="#8a8a8a"/>
+
+  <!-- labels -->
+  <text x="250" y="122" fill="#4a90d9">y = 1/x · area from 1 to b is ln b → ∞</text>
+  <text x="250" y="146" fill="#e0645c">y = 1/x² · entire shaded tail = 1</text>
+  <line x1="330" y1="154" x2="304" y2="278" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- caption -->
+  <text x="80" y="38" fill="#8a8a8a" font-style="italic">Same start, both → 0 — but only 1/x² dies fast enough to enclose finite area.</text>
+</svg>

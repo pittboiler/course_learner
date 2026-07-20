@@ -1,0 +1,45 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- ============ LEFT: unit square, area 1 ============ -->
+  <!-- axes -->
+  <line x1="50" y1="250" x2="185" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="70" y1="270" x2="70" y2="130" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="185,250 176,246 176,254" fill="#8a8a8a"/>
+  <polygon points="70,130 66,139 74,139" fill="#8a8a8a"/>
+
+  <!-- unit square: corners (0,0)(1,0)(1,1)(0,1), unit = 40px, origin (70,250) -->
+  <polygon points="70,250 110,250 110,210 70,210" fill="#4a90d9" opacity="0.18"/>
+  <polygon points="70,250 110,250 110,210 70,210" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="76" y="234" fill="#4a90d9">area = 1</text>
+  <text x="112" y="266" fill="#8a8a8a" font-size="12">e₁</text>
+  <text x="52" y="206" fill="#8a8a8a" font-size="12">e₂</text>
+
+  <!-- ============ map arrow ============ -->
+  <line x1="205" y1="190" x2="290" y2="190" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="298,190 288,185 288,195" fill="#8a8a8a"/>
+  <text x="222" y="182" fill="#8a8a8a" font-style="italic">A = [[2,1],[1,2]]</text>
+
+  <!-- ============ RIGHT: image parallelogram, area = det = 3 ============ -->
+  <!-- axes; origin (330,250), unit = 40px -->
+  <line x1="315" y1="250" x2="500" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="330" y1="270" x2="330" y2="105" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="500,250 491,246 491,254" fill="#8a8a8a"/>
+  <polygon points="330,105 326,114 334,114" fill="#8a8a8a"/>
+
+  <!-- parallelogram: (0,0)->(2,1)->(3,3)->(1,2) -->
+  <polygon points="330,250 410,210 450,130 370,170" fill="#e0645c" opacity="0.18"/>
+  <polygon points="330,250 410,210 450,130 370,170" fill="none" stroke="#e0645c" stroke-width="2.5"/>
+
+  <!-- the two column vectors (images of e1, e2) -->
+  <line x1="330" y1="250" x2="410" y2="210" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="410,210 399,209 404,219" fill="#4a90d9"/>
+  <line x1="330" y1="250" x2="370" y2="170" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="370,170 360,174 369,181" fill="#e0645c"/>
+  <text x="412" y="212" fill="#4a90d9" font-size="12">Ae₁=(2,1)</text>
+  <text x="374" y="164" fill="#e0645c" font-size="12">Ae₂=(1,2)</text>
+
+  <text x="398" y="205" fill="#8a8a8a" font-weight="bold">area = |det A| = 3</text>
+
+  <!-- caption -->
+  <text x="40" y="316" fill="#8a8a8a" font-style="italic">The map inflates the unit square's area by |det A|. If the columns were parallel, the</text>
+  <text x="40" y="334" fill="#8a8a8a" font-style="italic">parallelogram would collapse to a segment — area 0 — which is exactly det A = 0.</text>
+</svg>

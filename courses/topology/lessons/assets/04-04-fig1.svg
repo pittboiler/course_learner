@@ -1,0 +1,40 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- the product X x Y as a rectangle -->
+  <rect x="60" y="40" width="460" height="260" fill="#f4f6f8" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- the tube W x Y: a uniform vertical strip fitting inside N -->
+  <rect x="255" y="40" width="50" height="260" fill="#4a90d9" opacity="0.16"/>
+  <line x1="255" y1="40" x2="255" y2="300" stroke="#4a90d9" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <line x1="305" y1="40" x2="305" y2="300" stroke="#4a90d9" stroke-width="1.2" stroke-dasharray="4 3"/>
+
+  <!-- the open set N hugging the slice: an irregular band -->
+  <path d="M 230 40 L 220 80 L 238 120 L 225 170 L 240 220 L 228 270 L 235 300
+           L 330 300 L 318 270 L 332 220 L 320 170 L 335 120 L 322 80 L 330 40 Z"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <!-- the slice {x0} x Y: a vertical segment -->
+  <line x1="280" y1="40" x2="280" y2="300" stroke="#e0645c" stroke-width="3"/>
+
+  <!-- x0 tick on the X-axis -->
+  <line x1="280" y1="300" x2="280" y2="310" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="275" y="326" fill="#e0645c">x&#8320;</text>
+
+  <!-- W bracket under the tube -->
+  <line x1="255" y1="314" x2="305" y2="314" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="266" y="343" fill="#4a90d9">W</text>
+
+  <!-- axis labels -->
+  <text x="530" y="305" fill="#8a8a8a">X</text>
+  <text x="40" y="46" fill="#8a8a8a">Y</text>
+
+  <!-- callout labels -->
+  <text x="360" y="150" fill="#e0645c">slice {x&#8320;} &#215; Y</text>
+  <line x1="358" y1="146" x2="284" y2="150" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="360" y="205" fill="#4a90d9">open N &#8835; the slice</text>
+  <line x1="358" y1="201" x2="333" y2="220" stroke="#4a90d9" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="70" y="240" fill="#4a90d9">tube W &#215; Y</text>
+  <line x1="118" y1="236" x2="256" y2="200" stroke="#4a90d9" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- caption -->
+  <text x="66" y="30" fill="#8a8a8a" font-style="italic">Tube lemma: a uniform-width strip W &#215; Y slips inside any open N that hugs the slice.</text>
+</svg>

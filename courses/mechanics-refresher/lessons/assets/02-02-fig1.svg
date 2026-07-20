@@ -1,0 +1,43 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- shaded well interior below the energy line: the region the trapped ball can reach -->
+  <path d="M 122 150 L 135 180 L 152 208 L 172 232 L 195 250 L 218 240 L 242 215 L 268 182 L 295 150 Z"
+        fill="#e0645c" opacity="0.12"/>
+
+  <!-- axes -->
+  <line x1="30" y1="300" x2="540" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="60" y1="18" x2="60" y2="322" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="540,300 530,295 530,305" fill="#8a8a8a"/>
+  <polygon points="60,18 55,28 65,28" fill="#8a8a8a"/>
+  <text x="546" y="305" fill="#8a8a8a">x</text>
+  <text x="42" y="30" fill="#8a8a8a">U</text>
+
+  <!-- total-energy line E -->
+  <line x1="60" y1="150" x2="520" y2="150" stroke="#e0645c" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="470" y="143" fill="#e0645c">E (total)</text>
+
+  <!-- U(x): high left wall, a well (min), a barrier (max), descending right -->
+  <path d="M 90 60 L 105 105 L 120 145 L 135 180 L 152 208 L 172 232 L 195 250 L 218 240 L 242 215 L 268 182 L 295 150 L 325 118 L 355 95 L 385 78 L 410 72 L 435 86 L 462 112 L 490 145 L 518 175"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="120" y="52" fill="#4a90d9">U(x)</text>
+
+  <!-- K = E - U shown as the vertical gap at the well bottom (kinetic energy is largest here) -->
+  <line x1="195" y1="150" x2="195" y2="250" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="200" y="205" fill="#8a8a8a">K = E − U</text>
+
+  <!-- turning points: where E meets U, so K = 0 -->
+  <circle cx="122" cy="150" r="5" fill="#e0645c"/>
+  <circle cx="295" cy="150" r="5" fill="#e0645c"/>
+  <text x="70" y="140" fill="#e0645c">turning pt</text>
+  <text x="285" y="140" fill="#e0645c">turning pt</text>
+
+  <!-- stable minimum -->
+  <circle cx="195" cy="250" r="5" fill="#4a90d9"/>
+  <text x="150" y="272" fill="#4a90d9">stable min (U′=0, U″&gt;0)</text>
+
+  <!-- unstable maximum -->
+  <circle cx="410" cy="72" r="5" fill="#4a90d9"/>
+  <text x="345" y="64" fill="#4a90d9">unstable max (U′=0, U″&lt;0)</text>
+
+  <!-- caption -->
+  <text x="66" y="330" fill="#8a8a8a" font-style="italic" font-size="13">A ball rolls on the U-curve: valleys stable, hilltops unstable; it turns where E = U.</text>
+</svg>

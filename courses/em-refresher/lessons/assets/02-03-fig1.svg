@@ -1,0 +1,38 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- asymptote Q_inf = C E -->
+  <line x1="60" y1="60" x2="524" y2="60" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="30" y="65" fill="#8a8a8a">Q&#8734;</text>
+
+  <!-- axes -->
+  <line x1="30" y1="300" x2="540" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="60" y1="18" x2="60" y2="322" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="540,300 530,295 530,305" fill="#8a8a8a"/>
+  <polygon points="60,18 55,28 65,28" fill="#8a8a8a"/>
+  <text x="546" y="305" fill="#8a8a8a">t</text>
+  <text x="44" y="30" fill="#8a8a8a">q</text>
+
+  <!-- t = tau dropline -->
+  <line x1="152.8" y1="60" x2="152.8" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="140" y="318" fill="#8a8a8a">&#964; = RC</text>
+
+  <!-- charging curve: q = Q_inf (1 - e^{-t/tau}) -->
+  <path d="M 60 300 L 106.4 205.6 L 152.8 148.3 L 199.2 113.5 L 245.6 92.5 L 292 79.7 L 338.4 72.0 L 384.8 67.2 L 431.2 64.4 L 477.6 62.7 L 524 61.6"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- discharging curve: q = q_0 e^{-t/tau} -->
+  <path d="M 60 60 L 106.4 154.4 L 152.8 211.7 L 199.2 246.5 L 245.6 267.5 L 292 280.3 L 338.4 288.1 L 384.8 291.2 L 431.2 295.6 L 524 298.4"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+
+  <!-- markers at t = tau: 63% charged, 37% remaining -->
+  <circle cx="152.8" cy="148.3" r="5" fill="#4a90d9"/>
+  <circle cx="152.8" cy="211.7" r="5" fill="#e0645c"/>
+  <text x="160" y="145" fill="#4a90d9">63% of Q&#8734;</text>
+  <text x="160" y="228" fill="#e0645c">37% of q&#8320;</text>
+
+  <!-- curve labels -->
+  <text x="250" y="112" fill="#4a90d9">charging: q = Q&#8734;(1 &#8722; e&#8722;&#7511;/&#7458;&#7580;)</text>
+  <text x="290" y="270" fill="#e0645c">discharging: q = q&#8320; e&#8722;&#7511;/&#7458;&#7580;</text>
+
+  <!-- caption -->
+  <text x="80" y="40" fill="#8a8a8a" font-style="italic">One time constant &#964; = RC per step: the capacitor closes 63% of the remaining gap each &#964;.</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- the annulus r < |z - z0| < R, shaded as a ring (evenodd punches the hole) -->
+  <path d="M 280 175 m -128 0 a 128 128 0 1 0 256 0 a 128 128 0 1 0 -256 0 Z
+           M 280 175 m -58 0 a 58 58 0 1 1 116 0 a 58 58 0 1 1 -116 0 Z"
+        fill="#4a90d9" opacity="0.16" fill-rule="evenodd"/>
+
+  <!-- outer boundary circle |z - z0| = R (open, so dashed) -->
+  <circle cx="280" cy="175" r="128" fill="none" stroke="#4a90d9" stroke-width="2.5" stroke-dasharray="6 5"/>
+  <!-- inner boundary circle |z - z0| = r (open, so dashed) -->
+  <circle cx="280" cy="175" r="58" fill="none" stroke="#4a90d9" stroke-width="2.5" stroke-dasharray="6 5"/>
+
+  <!-- a contour circle gamma living inside the ring -->
+  <circle cx="280" cy="175" r="93" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="378" y="120" fill="#8a8a8a" font-style="italic">&#947;</text>
+
+  <!-- center z0 -->
+  <circle cx="280" cy="175" r="3" fill="#8a8a8a"/>
+  <text x="286" y="171" fill="#8a8a8a">z&#8320;</text>
+
+  <!-- singularity inside the inner hole -->
+  <circle cx="255" cy="150" r="5" fill="#e0645c"/>
+  <text x="200" y="142" fill="#e0645c">singularity</text>
+
+  <!-- singularity outside the outer edge -->
+  <circle cx="452" cy="252" r="5" fill="#e0645c"/>
+  <text x="410" y="285" fill="#e0645c">singularity</text>
+
+  <!-- radius spokes labelling r and R -->
+  <line x1="280" y1="175" x2="280" y2="117" stroke="#4a90d9" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="258" y="150" fill="#4a90d9">r</text>
+  <line x1="280" y1="175" x2="393" y2="175" stroke="#4a90d9" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="330" y="167" fill="#4a90d9">R</text>
+
+  <!-- caption -->
+  <text x="60" y="32" fill="#8a8a8a" font-style="italic">The ring is the widest singularity-free annulus about z&#8320;: one bad point in the hole, one past the rim.</text>
+  <text x="150" y="330" fill="#8a8a8a">Laurent series converges on the open ring r &lt; |z &#8722; z&#8320;| &lt; R.</text>
+</svg>

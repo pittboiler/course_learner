@@ -1,0 +1,54 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="60" y="34" fill="#8a8a8a" font-style="italic">Monopoly sets MR = MC at qₘ, charges pₘ off demand; the shaded wedge out to qᴄ is lost surplus.</text>
+
+  <!-- deadweight-loss triangle: between demand and MC, from q_m to q_c -->
+  <polygon points="220,144 220,248 380,248" fill="#8a8a8a" opacity="0.22"/>
+
+  <!-- axes -->
+  <line x1="30" y1="300" x2="540" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="60" y1="18" x2="60" y2="322" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="540,300 530,295 530,305" fill="#8a8a8a"/>
+  <polygon points="60,18 55,28 65,28" fill="#8a8a8a"/>
+  <text x="546" y="305" fill="#8a8a8a">q</text>
+  <text x="44" y="26" fill="#8a8a8a">p</text>
+
+  <!-- marginal cost: MC = 20 -->
+  <line x1="60" y1="248" x2="460" y2="248" stroke="#555555" stroke-width="2.5"/>
+  <text x="404" y="242" fill="#555555">MC = 20</text>
+
+  <!-- demand: p = 100 - q -->
+  <line x1="60" y1="40" x2="460" y2="300" stroke="#4a90d9" stroke-width="3"/>
+  <text x="360" y="205" fill="#4a90d9">demand (p = 100 − q)</text>
+
+  <!-- marginal revenue: MR = 100 - 2q, twice as steep -->
+  <line x1="60" y1="40" x2="260" y2="300" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="150" y="150" fill="#e0645c">MR</text>
+
+  <!-- droplines to the monopoly optimum -->
+  <line x1="220" y1="144" x2="220" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="60" y1="144" x2="220" y2="144" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="380" y1="248" x2="380" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- MR = MC point -->
+  <circle cx="220" cy="248" r="4" fill="#555555"/>
+  <text x="86" y="278" fill="#555555">MR = MC</text>
+  <line x1="128" y1="273" x2="216" y2="250" stroke="#555555" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- monopoly price/quantity point on demand -->
+  <circle cx="220" cy="144" r="5" fill="#e0645c"/>
+  <text x="228" y="138" fill="#e0645c">monopoly</text>
+
+  <!-- competitive point where demand meets MC -->
+  <circle cx="380" cy="248" r="5" fill="#4a90d9"/>
+  <text x="388" y="243" fill="#4a90d9">competition</text>
+
+  <!-- deadweight-loss label -->
+  <text x="248" y="230" fill="#5a5a5a">deadweight loss</text>
+
+  <!-- tick labels grounded in P1's numbers -->
+  <text x="214" y="318" fill="#8a8a8a">40</text>
+  <text x="374" y="318" fill="#8a8a8a">80</text>
+  <text x="40" y="149" fill="#8a8a8a">60</text>
+  <text x="40" y="253" fill="#8a8a8a">20</text>
+</svg>

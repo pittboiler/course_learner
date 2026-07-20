@@ -1,0 +1,35 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="70" y="26" fill="#8a8a8a" font-style="italic">One closed orbit in phase space: its area is the action J.</text>
+
+  <!-- shaded interior = J -->
+  <ellipse cx="280" cy="192" rx="150" ry="104" fill="#e0645c" opacity="0.18"/>
+
+  <!-- axes -->
+  <line x1="40" y1="192" x2="520" y2="192" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="280" y1="40" x2="280" y2="344" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="520,192 510,187 510,197" fill="#8a8a8a"/>
+  <polygon points="280,40 275,50 285,50" fill="#8a8a8a"/>
+  <text x="526" y="197" fill="#8a8a8a">q</text>
+  <text x="288" y="48" fill="#8a8a8a">p</text>
+
+  <!-- the orbit -->
+  <ellipse cx="280" cy="192" rx="150" ry="104" fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- direction-of-motion arrowhead (counter-clockwise, at top) -->
+  <polygon points="252,88 268,84 262,97" fill="#4a90d9"/>
+
+  <!-- radius to the moving point, at theta -->
+  <line x1="280" y1="192" x2="403" y2="132" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <circle cx="403" cy="132" r="5" fill="#4a90d9"/>
+
+  <!-- theta arc from the q-axis up to the radius -->
+  <path d="M 322 192 A 42 42 0 0 0 315 168" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="330" y="178" fill="#8a8a8a" font-style="italic">&#952;</text>
+
+  <!-- action label inside the shaded region -->
+  <text x="214" y="238" fill="#c0453d" font-style="italic">J = enclosed area</text>
+
+  <!-- caption line -->
+  <text x="150" y="330" fill="#8a8a8a">J = enclosed area,   &#969; = &#8706;H/&#8706;J = 1/T</text>
+</svg>

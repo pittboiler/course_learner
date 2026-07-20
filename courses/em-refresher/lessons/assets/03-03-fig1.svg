@@ -1,0 +1,51 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="70" y="26" fill="#8a8a8a" font-style="italic">A rod sliding on rails sweeps out new area, so the flux changes — Faraday turns that into an EMF.</text>
+
+  <!-- B into page: field of small crosses filling the region -->
+  <g fill="#8a8a8a" font-size="16" text-anchor="middle">
+    <text x="120" y="120">&#215;</text><text x="200" y="120">&#215;</text><text x="280" y="120">&#215;</text>
+    <text x="120" y="180">&#215;</text><text x="280" y="180">&#215;</text>
+    <text x="120" y="240">&#215;</text><text x="200" y="240">&#215;</text><text x="280" y="240">&#215;</text>
+    <text x="410" y="120">&#215;</text><text x="470" y="120">&#215;</text>
+    <text x="410" y="180">&#215;</text><text x="470" y="180">&#215;</text>
+    <text x="410" y="240">&#215;</text><text x="470" y="240">&#215;</text>
+  </g>
+  <text x="405" y="322" fill="#8a8a8a" font-style="italic">B into page</text>
+
+  <!-- rails -->
+  <line x1="70" y1="90" x2="490" y2="90" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="70" y1="250" x2="490" y2="250" stroke="#8a8a8a" stroke-width="2"/>
+  <!-- left connector with resistor box -->
+  <line x1="70" y1="90" x2="70" y2="150" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="70" y1="190" x2="70" y2="250" stroke="#8a8a8a" stroke-width="2"/>
+  <rect x="58" y="150" width="24" height="40" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="40" y="175" fill="#8a8a8a">R</text>
+
+  <!-- induced current arrows (counter-clockwise): red -->
+  <!-- top rail: leftward -->
+  <line x1="230" y1="90" x2="175" y2="90" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="168,90 180,85 180,95" fill="#e0645c"/>
+  <!-- resistor branch: downward -->
+  <polygon points="70,222 65,210 75,210" fill="#e0645c"/>
+  <!-- bottom rail: rightward -->
+  <line x1="175" y1="250" x2="230" y2="250" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="237,250 225,245 225,255" fill="#e0645c"/>
+  <!-- rod: upward -->
+  <polygon points="340,150 335,162 345,162" fill="#e0645c"/>
+  <text x="248" y="82" fill="#e0645c">I (induced)</text>
+
+  <!-- the sliding rod (blue conductor) -->
+  <line x1="340" y1="90" x2="340" y2="250" stroke="#4a90d9" stroke-width="4"/>
+  <!-- length dimension L -->
+  <line x1="322" y1="92" x2="322" y2="248" stroke="#4a90d9" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="306" y="175" fill="#4a90d9">L</text>
+
+  <!-- velocity arrow (blue) -->
+  <line x1="340" y1="170" x2="408" y2="170" stroke="#4a90d9" stroke-width="3"/>
+  <polygon points="415,170 403,165 403,175" fill="#4a90d9"/>
+  <text x="420" y="175" fill="#4a90d9">v</text>
+
+  <!-- EMF label -->
+  <text x="350" y="278" fill="#8a8a8a" font-style="italic">&#8496; = BLv</text>
+</svg>

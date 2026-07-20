@@ -1,0 +1,32 @@
+<svg viewBox="0 0 640 210" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, sans-serif">
+  <!-- boxes -->
+  <rect x="30" y="60" width="110" height="56" rx="8" fill="none" stroke="#5b8dd6" stroke-width="2"/>
+  <rect x="245" y="60" width="130" height="56" rx="8" fill="none" stroke="#5b8dd6" stroke-width="2"/>
+  <rect x="480" y="60" width="130" height="56" rx="8" fill="none" stroke="#d08a3e" stroke-width="2"/>
+
+  <!-- box labels -->
+  <text x="85" y="94" text-anchor="middle" font-size="18" fill="#5b8dd6">x</text>
+  <text x="310" y="94" text-anchor="middle" font-size="18" fill="#5b8dd6">u = g(x)</text>
+  <text x="545" y="94" text-anchor="middle" font-size="18" fill="#d08a3e">y = f(u)</text>
+
+  <!-- arrows -->
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="8" refX="8" refY="4" orient="auto">
+      <path d="M0,0 L9,4 L0,8 z" fill="#8a919e"/>
+    </marker>
+  </defs>
+  <line x1="140" y1="88" x2="238" y2="88" stroke="#8a919e" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="375" y1="88" x2="473" y2="88" stroke="#8a919e" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- arrow labels: local exchange rates -->
+  <text x="189" y="76" text-anchor="middle" font-size="15" fill="#c26565">× g′(x)</text>
+  <text x="424" y="76" text-anchor="middle" font-size="15" fill="#c26565">× f′(u)</text>
+
+  <!-- nudge annotations under boxes -->
+  <text x="85" y="140" text-anchor="middle" font-size="13" fill="#8a919e">nudge dx</text>
+  <text x="310" y="140" text-anchor="middle" font-size="13" fill="#8a919e">du = g′(x) dx</text>
+  <text x="545" y="140" text-anchor="middle" font-size="13" fill="#8a919e">dy = f′(u) du</text>
+
+  <!-- bottom line: composition -->
+  <text x="320" y="185" text-anchor="middle" font-size="15" fill="#c26565">dy = f′(g(x)) · g′(x) · dx — exchange rates multiply</text>
+</svg>

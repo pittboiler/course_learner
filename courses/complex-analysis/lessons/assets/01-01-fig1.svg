@@ -1,0 +1,63 @@
+<svg viewBox="0 0 700 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+
+  <!-- ============ PANEL A: a point in polar form ============ -->
+  <text x="185" y="34" fill="#8a8a8a" font-style="italic" text-anchor="middle">a point in polar form</text>
+
+  <!-- axes -->
+  <line x1="40" y1="240" x2="330" y2="240" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="120" y1="50" x2="120" y2="290" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="330,240 320,235 320,245" fill="#8a8a8a"/>
+  <polygon points="120,50 115,60 125,60" fill="#8a8a8a"/>
+  <text x="332" y="258" fill="#8a8a8a">Re</text>
+  <text x="98" y="52" fill="#8a8a8a">Im</text>
+
+  <!-- projections -->
+  <line x1="231" y1="140" x2="231" y2="240" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="231" y1="140" x2="120" y2="140" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="225" y="258" fill="#8a8a8a">x</text>
+  <text x="99" y="145" fill="#8a8a8a">y</text>
+
+  <!-- modulus line to z -->
+  <line x1="120" y1="240" x2="231" y2="140" stroke="#4a90d9" stroke-width="3"/>
+  <circle cx="231" cy="140" r="4.5" fill="#4a90d9"/>
+  <text x="238" y="137" fill="#4a90d9">z</text>
+  <text x="160" y="181" fill="#4a90d9">r</text>
+
+  <!-- angle arc -->
+  <path d="M 154 240 A 34 34 0 0 0 145 217" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="152" y="223" fill="#8a8a8a">&#952;</text>
+
+  <text x="185" y="306" fill="#8a8a8a" font-style="italic" text-anchor="middle">z = x + iy = r e^(i&#952;)</text>
+
+  <!-- ============ PANEL B: multiplication = rotate + scale ============ -->
+  <text x="500" y="34" fill="#8a8a8a" font-style="italic" text-anchor="middle">multiplying = rotate + scale</text>
+
+  <!-- axes -->
+  <line x1="350" y1="240" x2="650" y2="240" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="430" y1="50" x2="430" y2="290" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="650,240 640,235 640,245" fill="#8a8a8a"/>
+  <polygon points="430,50 425,60 435,60" fill="#8a8a8a"/>
+  <text x="652" y="258" fill="#8a8a8a">Re</text>
+  <text x="408" y="52" fill="#8a8a8a">Im</text>
+
+  <!-- product arc (arg = theta1 + theta2) -->
+  <path d="M 470 240 A 40 40 0 0 0 444 202" fill="none" stroke="#6f4bb2" stroke-width="1.5"/>
+
+  <!-- z1 -->
+  <line x1="430" y1="240" x2="496" y2="216" stroke="#4a90d9" stroke-width="3"/>
+  <circle cx="496" cy="216" r="4.5" fill="#4a90d9"/>
+  <text x="501" y="214" fill="#4a90d9">z&#8321;</text>
+
+  <!-- z2 -->
+  <line x1="430" y1="240" x2="485" y2="175" stroke="#e0645c" stroke-width="3"/>
+  <circle cx="485" cy="175" r="4.5" fill="#e0645c"/>
+  <text x="491" y="171" fill="#e0645c">z&#8322;</text>
+
+  <!-- z1 z2 -->
+  <line x1="430" y1="240" x2="474" y2="118" stroke="#6f4bb2" stroke-width="3"/>
+  <circle cx="474" cy="118" r="4.5" fill="#6f4bb2"/>
+  <text x="448" y="112" fill="#6f4bb2">z&#8321;z&#8322;</text>
+
+  <text x="500" y="306" fill="#8a8a8a" font-style="italic" text-anchor="middle">|z&#8321;z&#8322;| = |z&#8321;|&#183;|z&#8322;|,  arg = &#952;&#8321; + &#952;&#8322;</text>
+
+</svg>

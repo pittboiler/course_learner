@@ -1,0 +1,37 @@
+<svg viewBox="0 0 660 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Two lines in the plane: they cross once, never, or everywhere — the three fates of Ax = b.</text>
+
+  <!-- ===================== Panel A: unique ===================== -->
+  <!-- axes -->
+  <line x1="110" y1="45" x2="110" y2="225" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="30" y1="135" x2="190" y2="135" stroke="#8a8a8a" stroke-width="1"/>
+  <!-- two lines that cross -->
+  <line x1="40" y1="75" x2="180" y2="195" stroke="#4a90d9" stroke-width="3"/>
+  <line x1="40" y1="195" x2="180" y2="75" stroke="#e0645c" stroke-width="3"/>
+  <!-- intersection -->
+  <line x1="110" y1="135" x2="110" y2="225" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <circle cx="110" cy="135" r="5" fill="#8a8a8a"/>
+  <text x="70" y="255" fill="#4a90d9">one solution</text>
+  <text x="52" y="273" fill="#8a8a8a" font-style="italic">2 pivots, no free var</text>
+
+  <!-- ===================== Panel B: none ===================== -->
+  <!-- axes -->
+  <line x1="330" y1="45" x2="330" y2="225" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="250" y1="135" x2="410" y2="135" stroke="#8a8a8a" stroke-width="1"/>
+  <!-- two parallel lines -->
+  <line x1="260" y1="80" x2="400" y2="180" stroke="#4a90d9" stroke-width="3"/>
+  <line x1="260" y1="120" x2="400" y2="220" stroke="#e0645c" stroke-width="3"/>
+  <text x="300" y="255" fill="#e0645c">no solution</text>
+  <text x="272" y="273" fill="#8a8a8a" font-style="italic">a row says 0 = nonzero</text>
+
+  <!-- ===================== Panel C: infinite ===================== -->
+  <!-- axes -->
+  <line x1="550" y1="45" x2="550" y2="225" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="470" y1="135" x2="630" y2="135" stroke="#8a8a8a" stroke-width="1"/>
+  <!-- coincident lines: blue solid, red dashed on top -->
+  <line x1="480" y1="85" x2="620" y2="195" stroke="#4a90d9" stroke-width="4"/>
+  <line x1="480" y1="85" x2="620" y2="195" stroke="#e0645c" stroke-width="2" stroke-dasharray="6 6"/>
+  <text x="500" y="255" fill="#8a8a8a">infinitely many</text>
+  <text x="512" y="273" fill="#8a8a8a" font-style="italic">a free variable</text>
+</svg>

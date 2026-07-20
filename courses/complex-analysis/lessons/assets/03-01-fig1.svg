@@ -1,0 +1,48 @@
+<svg viewBox="0 0 560 420" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- center of the plane -->
+  <!-- cx=280 cy=220 ; R -> 150 px ; r -> 92 px -->
+
+  <!-- exterior "divergence" wash: a light red frame outside the big disk, drawn as a full rect with the disk punched via even-odd -->
+  <path d="M 20 40 L 540 40 L 540 400 L 20 400 Z
+           M 280 220 m -150 0 a 150 150 0 1 0 300 0 a 150 150 0 1 0 -300 0 Z"
+        fill="#e0645c" opacity="0.08" fill-rule="evenodd"/>
+
+  <!-- disk of convergence: interior shaded blue -->
+  <circle cx="280" cy="220" r="150" fill="#4a90d9" opacity="0.14"/>
+  <!-- boundary circle: dashed, "case-by-case" -->
+  <circle cx="280" cy="220" r="150" fill="none" stroke="#8a8a8a" stroke-width="2" stroke-dasharray="6 5"/>
+
+  <!-- nested compact subdisk radius r < R: uniform convergence -->
+  <circle cx="280" cy="220" r="92" fill="#4a90d9" opacity="0.20"/>
+  <circle cx="280" cy="220" r="92" fill="none" stroke="#4a90d9" stroke-width="2"/>
+
+  <!-- axes through the plane -->
+  <line x1="60" y1="220" x2="500" y2="220" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="280" y1="60" x2="280" y2="392" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="504" y="224" fill="#8a8a8a">Re</text>
+  <text x="286" y="70" fill="#8a8a8a">Im</text>
+
+  <!-- center point z0 -->
+  <circle cx="280" cy="220" r="4" fill="#8a8a8a"/>
+  <text x="286" y="238" fill="#8a8a8a">z₀</text>
+
+  <!-- R radius arrow (center to boundary, up-right) -->
+  <line x1="280" y1="220" x2="386" y2="114" stroke="#e0645c" stroke-width="2"/>
+  <text x="330" y="158" fill="#e0645c">R</text>
+
+  <!-- r radius arrow (center to subdisk edge, down-left) -->
+  <line x1="280" y1="220" x2="215" y2="285" stroke="#4a90d9" stroke-width="2"/>
+  <text x="228" y="270" fill="#4a90d9">r &lt; R</text>
+
+  <!-- labels -->
+  <text x="300" y="360" fill="#4a90d9">converges (holomorphic here)</text>
+  <text x="392" y="90" fill="#e0645c">diverges: |z − z₀| &gt; R</text>
+  <text x="150" y="330" fill="#4a90d9" font-size="12">uniform on |z−z₀| ≤ r</text>
+
+  <!-- boundary flag -->
+  <line x1="280" y1="70" x2="330" y2="52" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="300" y="46" fill="#8a8a8a" font-style="italic">boundary |z−z₀| = R: case-by-case</text>
+
+  <!-- caption -->
+  <text x="20" y="30" fill="#8a8a8a" font-style="italic">The disk of convergence: the "radius" R is now a literal radius in the plane.</text>
+</svg>

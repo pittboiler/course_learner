@@ -1,0 +1,51 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="60" y="20" fill="#8a8a8a" font-style="italic">Edgeworth box: A measures from the bottom-left, B (rotated 180°) from the top-right.</text>
+  <text x="60" y="36" fill="#8a8a8a" font-style="italic">At E the indifference curves are tangent — MRSᴬ = p₁/p₂ = MRSᴮ — a point on the contract curve.</text>
+
+  <!-- box border -->
+  <rect x="60" y="40" width="440" height="260" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- origin arrows for A (bottom-left) -->
+  <polygon points="150,300 140,296 140,304" fill="#8a8a8a"/>
+  <polygon points="60,210 56,220 64,220" fill="#8a8a8a"/>
+  <text x="150" y="316" fill="#8a8a8a">x₁ᴬ →</text>
+  <text x="24" y="205" fill="#8a8a8a">x₂ᴬ ↑</text>
+  <text x="40" y="316" fill="#8a8a8a">Oᴬ</text>
+
+  <!-- origin arrows for B (top-right) -->
+  <polygon points="410,40 420,36 420,44" fill="#8a8a8a"/>
+  <polygon points="500,130 496,120 504,120" fill="#8a8a8a"/>
+  <text x="360" y="30" fill="#8a8a8a">← x₁ᴮ</text>
+  <text x="506" y="135" fill="#8a8a8a">x₂ᴮ ↓</text>
+  <text x="505" y="52" fill="#8a8a8a">Oᴮ</text>
+
+  <!-- contract curve: Oᴬ → E → Oᴮ (amber) -->
+  <path d="M 60 300 L 133 288 L 207 271 L 280 248 L 353 213 L 427 156 L 463 109 L 500 40"
+        fill="none" stroke="#c98a2b" stroke-width="2.5"/>
+  <text x="86" y="266" fill="#c98a2b">contract curve</text>
+  <line x1="140" y1="270" x2="200" y2="272" stroke="#c98a2b" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- consumer A indifference curve through E (red, x2 = 32/x1^2) -->
+  <path d="M 236 59 L 258 110 L 280 146 L 317 187 L 353 213 L 390 231 L 427 245 L 478 257"
+        fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="196" y="52" fill="#e0645c">uᴬ</text>
+
+  <!-- consumer B indifference curve through E (blue) -->
+  <path d="M 170 156 L 207 163 L 243 171 L 280 181 L 317 195 L 353 213 L 390 240 L 427 285"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="146" y="150" fill="#4a90d9">uᴮ</text>
+
+  <!-- budget / price line through ω and E (anti-diagonal, slope -p1/p2) -->
+  <line x1="60" y1="40" x2="500" y2="300" stroke="#555555" stroke-width="2"/>
+  <text x="96" y="86" fill="#555555">price line (slope −p₁/p₂)</text>
+  <line x1="150" y1="90" x2="120" y2="106" stroke="#555555" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- endowment point -->
+  <circle cx="280" cy="170" r="5" fill="#2e8b57"/>
+  <text x="258" y="164" fill="#2e8b57">ω</text>
+
+  <!-- equilibrium point -->
+  <circle cx="353" cy="213" r="5.5" fill="#333333"/>
+  <text x="361" y="230" fill="#333333">E</text>
+</svg>

@@ -1,0 +1,36 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- axes -->
+  <line x1="30" y1="300" x2="540" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="60" y1="18" x2="60" y2="322" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="540,300 530,295 530,305" fill="#8a8a8a"/>
+  <polygon points="60,18 55,28 65,28" fill="#8a8a8a"/>
+  <text x="546" y="305" fill="#8a8a8a">t</text>
+  <text x="48" y="30" fill="#8a8a8a">P</text>
+
+  <!-- carrying-capacity line P = K (stable equilibrium) -->
+  <line x1="60" y1="155" x2="524" y2="155" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="46" y="160" fill="#8a8a8a">K</text>
+
+  <!-- P = 0 marker (unstable equilibrium) -->
+  <text x="46" y="304" fill="#8a8a8a">0</text>
+
+  <!-- solution starting below K: rises to K -->
+  <path d="M 60 288.4 L 93.1 281.8 L 126.3 272.3 L 159.4 259.3 L 192.6 243.3 L 225.7 225.4 L 258.9 207.8 L 292.0 192.4 L 325.1 180.2 L 358.3 171.4 L 391.4 165.4 L 424.6 161.5 L 457.7 159.0 L 490.9 157.5 L 524.0 156.5"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- solution starting above K: falls to K -->
+  <path d="M 60 53.5 L 93.1 106.7 L 126.3 129.1 L 159.4 140.3 L 192.6 146.4 L 225.7 149.9 L 258.9 152.0 L 292.0 153.2 L 325.1 153.9 L 391.4 154.6 L 457.7 154.85 L 524.0 155.0"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+
+  <!-- start points -->
+  <circle cx="60" cy="288.4" r="5" fill="#4a90d9"/>
+  <circle cx="60" cy="53.5" r="5" fill="#e0645c"/>
+
+  <!-- labels -->
+  <text x="300" y="80" fill="#e0645c">start above K → decays down to K</text>
+  <text x="300" y="270" fill="#4a90d9">start below K → S-curve up to K</text>
+  <text x="360" y="149" fill="#8a8a8a" font-style="italic">stable equilibrium</text>
+
+  <!-- caption -->
+  <text x="80" y="40" fill="#8a8a8a" font-style="italic">From below or above, every solution is drawn to K — that is what "stable" means.</text>
+</svg>

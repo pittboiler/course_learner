@@ -1,0 +1,42 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- axes -->
+  <line x1="60" y1="300" x2="540" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="60" y1="18" x2="60" y2="322" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="540,300 530,295 530,305" fill="#8a8a8a"/>
+  <text x="544" y="305" fill="#8a8a8a">X</text>
+
+  <!-- convex curve phi (blue) -->
+  <path d="M 124 296.4 L 160 300 L 190 297.5 L 220 290 L 250 277.5 L 280 260 L 310 237.5 L 340 210 L 370 177.5 L 400 140 L 430 97.5 L 460 50"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- chord across two sample values (red) -->
+  <line x1="220" y1="290" x2="460" y2="50" stroke="#e0645c" stroke-width="2.5"/>
+  <circle cx="220" cy="290" r="4" fill="#e0645c"/>
+  <circle cx="460" cy="50" r="4" fill="#e0645c"/>
+
+  <!-- supporting (tangent) line at E[X] (grey dashed) -->
+  <line x1="244" y1="306" x2="470" y2="80" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="5 4"/>
+
+  <!-- vertical dropline at E[X] -->
+  <line x1="340" y1="300" x2="340" y2="170" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- the two key points at x = E[X] -->
+  <circle cx="340" cy="170" r="5" fill="#e0645c"/>
+  <circle cx="340" cy="210" r="5" fill="#4a90d9"/>
+
+  <!-- Jensen gap bracket -->
+  <line x1="352" y1="170" x2="352" y2="210" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="358" y="194" fill="#8a8a8a" font-size="12">Jensen gap</text>
+
+  <!-- x-axis mark -->
+  <text x="330" y="318" fill="#8a8a8a">E[X]</text>
+
+  <!-- labels -->
+  <text x="150" y="255" fill="#4a90d9">y = &#966;(X) convex</text>
+  <text x="196" y="150" fill="#e0645c">chord lies above the curve</text>
+  <text x="366" y="166" fill="#e0645c" font-size="13">E[&#966;(X)]</text>
+  <text x="366" y="222" fill="#4a90d9" font-size="13">&#966;(E[X])</text>
+
+  <!-- caption -->
+  <text x="70" y="38" fill="#8a8a8a" font-style="italic">Averaging inputs then bending (&#966;(E[X])) undershoots bending then averaging (E[&#966;(X)]).</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg viewBox="0 0 560 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- the number line R (equator of the picture) -->
+  <line x1="20" y1="280" x2="548" y2="280" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="548,280 538,275 538,285" fill="#8a8a8a"/>
+  <text x="536" y="303" fill="#8a8a8a">R</text>
+
+  <!-- the circle sitting on the line (cross-section of S^n) -->
+  <circle cx="280" cy="220" r="60" fill="#4a90d9" fill-opacity="0.07" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <!-- projection rays from the north pole -->
+  <line x1="280" y1="160" x2="400" y2="280" stroke="#8a8a8a" stroke-width="1.2" stroke-dasharray="4 4"/>
+  <line x1="280" y1="160" x2="520" y2="280" stroke="#8a8a8a" stroke-width="1.2" stroke-dasharray="4 4"/>
+
+  <!-- north pole = the point at infinity -->
+  <circle cx="280" cy="160" r="5" fill="#e0645c"/>
+  <text x="290" y="156" fill="#e0645c">N &#8596; &#8734;</text>
+
+  <!-- south pole = origin 0 -->
+  <circle cx="280" cy="280" r="4" fill="#e0645c"/>
+  <text x="272" y="303" fill="#8a8a8a">0</text>
+
+  <!-- projected circle point P and its image x on the line -->
+  <circle cx="340" cy="220" r="4.5" fill="#e0645c"/>
+  <text x="346" y="216" fill="#e0645c">P</text>
+  <circle cx="400" cy="280" r="4.5" fill="#e0645c"/>
+  <text x="392" y="303" fill="#e0645c">x</text>
+
+  <!-- a point nearer N maps much farther out -->
+  <circle cx="328" cy="184" r="4" fill="#e0645c"/>
+  <text x="334" y="182" fill="#8a8a8a" font-size="12">Q</text>
+  <circle cx="520" cy="280" r="4.5" fill="#e0645c"/>
+  <text x="512" y="303" fill="#e0645c">x'</text>
+
+  <!-- caption -->
+  <text x="24" y="34" fill="#8a8a8a" font-style="italic">Stereographic projection: a ray from N hits the circle at one point and the line at its image.</text>
+  <text x="24" y="54" fill="#8a8a8a" font-style="italic">Points near N (like Q) fly off toward &#177;&#8734; &#8212; so N itself is the single added point &#8734;.</text>
+</svg>

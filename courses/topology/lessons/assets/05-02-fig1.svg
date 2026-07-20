@@ -1,0 +1,33 @@
+<svg viewBox="0 0 560 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- frame: the whole space X -->
+  <rect x="14" y="14" width="532" height="292" rx="10" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="24" y="34" fill="#8a8a8a" font-style="italic">X (normal)</text>
+
+  <!-- level curves of the Urysohn function, sweeping A -> B -->
+  <!-- f = 1/4 (near A, blue-leaning) -->
+  <path d="M 205 40 C 165 110, 165 210, 205 280" fill="none" stroke="#4a90d9" stroke-width="2" stroke-dasharray="5 4"/>
+  <text x="188" y="300" fill="#4a90d9">¼</text>
+  <!-- f = 1/2 (middle, grey) -->
+  <path d="M 280 40 C 262 110, 262 210, 280 280" fill="none" stroke="#8a8a8a" stroke-width="2" stroke-dasharray="5 4"/>
+  <text x="272" y="300" fill="#8a8a8a">½</text>
+  <!-- f = 3/4 (near B, red-leaning) -->
+  <path d="M 355 40 C 395 110, 395 210, 355 280" fill="none" stroke="#e0645c" stroke-width="2" stroke-dasharray="5 4"/>
+  <text x="352" y="300" fill="#e0645c">¾</text>
+
+  <!-- closed set A: value 0 -->
+  <path d="M 70 130 C 60 100, 110 92, 128 112 C 150 100, 168 132, 152 158 C 168 188, 130 214, 104 202 C 74 214, 52 178, 70 158 C 60 148, 62 138, 70 130 Z"
+        fill="#4a90d9" opacity="0.22" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="96" y="162" fill="#4a90d9" font-weight="bold" text-anchor="middle">A</text>
+  <text x="96" y="182" fill="#4a90d9" text-anchor="middle" font-size="13">f = 0</text>
+
+  <!-- closed set B: value 1 -->
+  <path d="M 470 120 C 500 108, 520 140, 506 164 C 522 192, 486 220, 460 206 C 436 220, 414 190, 428 166 C 414 140, 442 108, 470 120 Z"
+        fill="#e0645c" opacity="0.22" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="466" y="162" fill="#e0645c" font-weight="bold" text-anchor="middle">B</text>
+  <text x="466" y="182" fill="#e0645c" text-anchor="middle" font-size="13">f = 1</text>
+
+  <!-- sweep arrow -->
+  <line x1="160" y1="70" x2="404" y2="70" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 5"/>
+  <polygon points="404,70 394,65 394,75" fill="#8a8a8a"/>
+  <text x="200" y="62" fill="#8a8a8a" font-style="italic" font-size="13">f climbs 0 → 1 continuously</text>
+</svg>

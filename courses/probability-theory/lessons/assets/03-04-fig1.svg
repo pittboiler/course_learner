@@ -1,0 +1,53 @@
+<svg viewBox="0 0 560 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- ===== TOP: sliding-box schematic ===== -->
+  <text x="70" y="28" fill="#8a8a8a" font-style="italic">Slide one box past the other; the overlap length is the density value.</text>
+
+  <!-- mini baseline -->
+  <line x1="70" y1="135" x2="330" y2="135" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- overlap shaded region [0.4,1] -->
+  <rect x="118" y="95" width="42" height="40" fill="#8a8a8a" opacity="0.28"/>
+
+  <!-- box for f_Y on [0,1]  (x: 90..160) -->
+  <rect x="90" y="95" width="70" height="40" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="96" y="88" fill="#4a90d9">f_Y on [0,1]</text>
+
+  <!-- box for f_X(z - .) on [z-1,z], z=1.4  (x: 118..188) -->
+  <rect x="118" y="95" width="70" height="40" fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="188" y="88" fill="#e0645c">f_X(z − x)</text>
+
+  <!-- overlap callout -->
+  <text x="115" y="152" fill="#8a8a8a">overlap = f(z)</text>
+
+  <!-- ===== BOTTOM: triangular density on [0,2] ===== -->
+  <!-- z axis 0..2 -> x 70..530 ; baseline y=340 ; peak height 1 -> y=200 -->
+  <line x1="55" y1="340" x2="545" y2="340" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="70" y1="185" x2="70" y2="352" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="545,340 535,335 535,345" fill="#8a8a8a"/>
+  <text x="548" y="345" fill="#8a8a8a">z</text>
+
+  <!-- shaded tent -->
+  <path d="M 70 340 L 300 200 L 530 340 Z" fill="#e0645c" opacity="0.15"/>
+  <!-- tent outline -->
+  <path d="M 70 340 L 300 200 L 530 340" fill="none" stroke="#e0645c" stroke-width="3"/>
+
+  <!-- peak dropline -->
+  <line x1="300" y1="200" x2="300" y2="340" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="70" y1="200" x2="300" y2="200" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="52" y="205" fill="#8a8a8a">1</text>
+
+  <!-- z=1.4 sample point matching the schematic (f = 0.6) -->
+  <circle cx="392" cy="244" r="4.5" fill="#4a90d9"/>
+  <line x1="392" y1="244" x2="392" y2="340" stroke="#4a90d9" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- ticks -->
+  <text x="66" y="358" fill="#8a8a8a">0</text>
+  <text x="296" y="358" fill="#8a8a8a">1</text>
+  <text x="388" y="358" fill="#4a90d9">1.4</text>
+  <text x="526" y="358" fill="#8a8a8a">2</text>
+
+  <!-- curve labels -->
+  <text x="150" y="270" fill="#e0645c">f(z) = z</text>
+  <text x="405" y="270" fill="#e0645c">f(z) = 2 − z</text>
+  <text x="220" y="180" fill="#8a8a8a">triangular (tent) density of X + Y</text>
+</svg>

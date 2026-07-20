@@ -1,0 +1,50 @@
+<svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- ================= LEFT: an open contour from A to B ================= -->
+  <text x="40" y="34" fill="#8a8a8a" font-style="italic">An open contour γ: the integral depends only on A, B</text>
+
+  <!-- faint plane frame -->
+  <line x1="40" y1="300" x2="270" y2="300" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="55" y1="300" x2="55" y2="60" stroke="#8a8a8a" stroke-width="1.2"/>
+  <polygon points="270,300 260,295 260,305" fill="#8a8a8a"/>
+  <polygon points="55,60 50,70 60,70" fill="#8a8a8a"/>
+
+  <!-- the arc gamma (blue) -->
+  <path d="M 90 250 C 120 120, 200 130, 245 95" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <!-- direction arrowhead midway (tangent near the top bend) -->
+  <polygon points="176,131 163,132 171,142" fill="#4a90d9"/>
+
+  <!-- endpoints -->
+  <circle cx="90" cy="250" r="5" fill="#e0645c"/>
+  <circle cx="245" cy="95" r="5" fill="#e0645c"/>
+  <text x="72" y="270" fill="#e0645c">A = γ(a)</text>
+  <text x="205" y="86" fill="#e0645c">B = γ(b)</text>
+  <text x="150" y="205" fill="#4a90d9">γ</text>
+
+  <!-- ================= RIGHT: the circle |z| = r, counterclockwise ============= -->
+  <text x="360" y="34" fill="#8a8a8a" font-style="italic">A closed loop around 0: sees the singularity</text>
+
+  <!-- circle centered at (470,180), r=85 -->
+  <circle cx="470" cy="180" r="85" fill="#4a90d9" opacity="0.10"/>
+  <circle cx="470" cy="180" r="85" fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- counterclockwise arrowhead at the top of the circle (moving left) -->
+  <polygon points="470,95 481,99 476,109" fill="#4a90d9"/>
+
+  <!-- center / singularity -->
+  <circle cx="470" cy="180" r="4" fill="#e0645c"/>
+  <text x="452" y="200" fill="#e0645c">0</text>
+
+  <!-- radius r -->
+  <line x1="470" y1="180" x2="555" y2="180" stroke="#8a8a8a" stroke-width="1.4" stroke-dasharray="4 4"/>
+  <text x="505" y="173" fill="#8a8a8a">r</text>
+
+  <!-- moving point z = r e^{it} -->
+  <circle cx="530" cy="120" r="4.5" fill="#4a90d9"/>
+  <text x="538" y="112" fill="#4a90d9">z = r e^{it}</text>
+
+  <!-- direction label -->
+  <text x="392" y="118" fill="#4a90d9">ccw = +</text>
+
+  <!-- the headline result -->
+  <text x="372" y="300" fill="#e0645c" font-size="16">∮ dz / z = 2πi   (never zero)</text>
+</svg>

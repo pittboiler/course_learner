@@ -1,0 +1,47 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- shaded separating range for e* on the high-wage line -->
+  <rect x="210" y="104" width="220" height="12" fill="#e0645c" opacity="0.18"/>
+
+  <!-- axes -->
+  <line x1="30" y1="300" x2="540" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="60" y1="18" x2="60" y2="322" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="540,300 530,295 530,305" fill="#8a8a8a"/>
+  <polygon points="60,18 55,28 65,28" fill="#8a8a8a"/>
+  <text x="544" y="305" fill="#8a8a8a">e</text>
+  <text x="46" y="30" fill="#8a8a8a">w</text>
+
+  <!-- competitive wage lines w = theta -->
+  <line x1="60" y1="110" x2="500" y2="110" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="60" y1="230" x2="500" y2="230" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="506" y="114" fill="#8a8a8a">w = θ_H</text>
+  <text x="506" y="234" fill="#8a8a8a">w = θ_L</text>
+
+  <!-- low-type indifference line through A: steep, slope 1/theta_L -->
+  <line x1="60" y1="230" x2="260" y2="70" stroke="#4a90d9" stroke-width="3"/>
+  <!-- high-type indifference line through A: flat, slope 1/theta_H; reaches w=theta_H at e_max=430 -->
+  <line x1="60" y1="230" x2="450" y2="103" stroke="#e0645c" stroke-width="3"/>
+
+  <!-- common start point A = (0, theta_L): the pooling/low outcome -->
+  <circle cx="60" cy="230" r="5" fill="#8a8a8a"/>
+  <text x="66" y="248" fill="#8a8a8a">A: low type (e=0, w=θ_L)</text>
+
+  <!-- least-cost separating point for the high type -->
+  <circle cx="210" cy="110" r="5" fill="#111111"/>
+  <text x="150" y="98" fill="#111111">H: high type (e*, w=θ_H)</text>
+
+  <!-- droplines marking e_min and e_max -->
+  <line x1="210" y1="110" x2="210" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="430" y1="110" x2="430" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="166" y="316" fill="#8a8a8a">θ_L(θ_H−θ_L)</text>
+  <text x="388" y="316" fill="#8a8a8a">θ_H(θ_H−θ_L)</text>
+
+  <!-- line labels -->
+  <text x="150" y="60" fill="#4a90d9">low type: slope 1/θ_L (steep)</text>
+  <text x="330" y="150" fill="#e0645c">high type: slope 1/θ_H (flat)</text>
+
+  <!-- separating-range label -->
+  <text x="222" y="132" fill="#e0645c" font-style="italic">separating range for e*</text>
+
+  <!-- caption -->
+  <text x="80" y="40" fill="#8a8a8a" font-style="italic">Single crossing: the cheap-signal high type accepts education the low type won't.</text>
+</svg>

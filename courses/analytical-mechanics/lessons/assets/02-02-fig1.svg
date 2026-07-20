@@ -1,0 +1,42 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="26" fill="#8a8a8a" font-style="italic">Slide the whole system by ε: the separation x₁−x₂ never changes, so V doesn't either.</text>
+
+  <!-- ORIGINAL system, top track -->
+  <line x1="70" y1="120" x2="490" y2="120" stroke="#8a8a8a" stroke-width="1.5"/>
+  <!-- interaction spring (represents V(x1-x2)) -->
+  <path d="M 150 120 L 158.75 110 L 176.25 130 L 193.75 110 L 211.25 130 L 228.75 110 L 246.25 130 L 263.75 110 L 281.25 130 L 290 120"
+        fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <circle cx="140" cy="120" r="10" fill="#4a90d9"/>
+  <circle cx="300" cy="120" r="10" fill="#e0645c"/>
+  <text x="130" y="100" fill="#4a90d9">m₁</text>
+  <text x="292" y="100" fill="#e0645c">m₂</text>
+  <text x="188" y="150" fill="#8a8a8a">V(x₁ − x₂)</text>
+  <text x="126" y="140" fill="#8a8a8a">x₁</text>
+  <text x="296" y="140" fill="#8a8a8a">x₂</text>
+
+  <!-- shift arrows: each particle moves right by ε -->
+  <line x1="140" y1="120" x2="205" y2="245" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="300" y1="120" x2="365" y2="245" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="245" y="192" fill="#8a8a8a" font-style="italic">shift by ε</text>
+
+  <!-- SHIFTED (transformed) copy, bottom track -->
+  <line x1="70" y1="250" x2="490" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <path d="M 220 250 L 228.75 240 L 246.25 260 L 263.75 240 L 281.25 260 L 298.75 240 L 316.25 260 L 333.75 240 L 351.25 260 L 360 250"
+        fill="none" stroke="#8a8a8a" stroke-width="2" stroke-dasharray="4 3" opacity="0.7"/>
+  <circle cx="210" cy="250" r="10" fill="#4a90d9" opacity="0.5"/>
+  <circle cx="370" cy="250" r="10" fill="#e0645c" opacity="0.5"/>
+  <text x="188" y="272" fill="#8a8a8a">x₁+ε</text>
+  <text x="356" y="272" fill="#8a8a8a">x₂+ε</text>
+
+  <!-- separation braces (equal) -->
+  <line x1="140" y1="86" x2="300" y2="86" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="140" y1="82" x2="140" y2="90" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="300" y1="82" x2="300" y2="90" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="210" y1="292" x2="370" y2="292" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="210" y1="288" x2="210" y2="296" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="370" y1="288" x2="370" y2="296" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- conclusion -->
+  <text x="30" y="326" fill="#e0645c">Noether:  symmetry  ⟹  conserved current   p₁ + p₂  (total momentum)</text>
+</svg>

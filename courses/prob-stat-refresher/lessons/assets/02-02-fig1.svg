@@ -1,0 +1,58 @@
+<svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="26" fill="#8a8a8a" font-style="italic">Two counting shapes: the binomial is symmetric about its mean; the Poisson leans right, with a thin tail of rare large counts.</text>
+
+  <!-- ============ LEFT PANEL: Binomial(10, 0.5) ============ -->
+  <text x="160" y="72" fill="#4a90d9" text-anchor="middle" font-size="15">Binomial(10, 0.5)</text>
+
+  <!-- bars -->
+  <rect x="55"  y="279.3" width="16" height="0.7"   fill="#4a90d9" opacity="0.85"/>
+  <rect x="75"  y="272.7" width="16" height="7.3"   fill="#4a90d9" opacity="0.85"/>
+  <rect x="95"  y="247.0" width="16" height="33.0"  fill="#4a90d9" opacity="0.85"/>
+  <rect x="115" y="192.1" width="16" height="87.9"  fill="#4a90d9" opacity="0.85"/>
+  <rect x="135" y="126.2" width="16" height="153.8" fill="#4a90d9" opacity="0.85"/>
+  <rect x="155" y="95.4"  width="16" height="184.6" fill="#4a90d9" opacity="0.85"/>
+  <rect x="175" y="126.2" width="16" height="153.8" fill="#4a90d9" opacity="0.85"/>
+  <rect x="195" y="192.1" width="16" height="87.9"  fill="#4a90d9" opacity="0.85"/>
+  <rect x="215" y="247.0" width="16" height="33.0"  fill="#4a90d9" opacity="0.85"/>
+  <rect x="235" y="272.7" width="16" height="7.3"   fill="#4a90d9" opacity="0.85"/>
+  <rect x="255" y="279.3" width="16" height="0.7"   fill="#4a90d9" opacity="0.85"/>
+
+  <!-- axis -->
+  <line x1="45" y1="280" x2="282" y2="280" stroke="#8a8a8a" stroke-width="1.5"/>
+  <!-- mean marker at np = 5 (bar k=5 center x=163) -->
+  <line x1="163" y1="90" x2="163" y2="288" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- x labels -->
+  <text x="63"  y="298" fill="#8a8a8a" text-anchor="middle">0</text>
+  <text x="163" y="298" fill="#8a8a8a" text-anchor="middle">5</text>
+  <text x="263" y="298" fill="#8a8a8a" text-anchor="middle">10</text>
+  <text x="160" y="320" fill="#8a8a8a" text-anchor="middle">successes k · symmetric, peak at np = 5</text>
+
+  <!-- ============ RIGHT PANEL: Poisson(3) ============ -->
+  <text x="490" y="72" fill="#e0645c" text-anchor="middle" font-size="15">Poisson(3)</text>
+
+  <!-- bars -->
+  <rect x="385" y="242.7" width="16" height="37.3"  fill="#e0645c" opacity="0.85"/>
+  <rect x="405" y="168.0" width="16" height="112.0" fill="#e0645c" opacity="0.85"/>
+  <rect x="425" y="112.0" width="16" height="168.0" fill="#e0645c" opacity="0.85"/>
+  <rect x="445" y="112.0" width="16" height="168.0" fill="#e0645c" opacity="0.85"/>
+  <rect x="465" y="154.0" width="16" height="126.0" fill="#e0645c" opacity="0.85"/>
+  <rect x="485" y="204.4" width="16" height="75.6"  fill="#e0645c" opacity="0.85"/>
+  <rect x="505" y="242.2" width="16" height="37.8"  fill="#e0645c" opacity="0.85"/>
+  <rect x="525" y="263.8" width="16" height="16.2"  fill="#e0645c" opacity="0.85"/>
+  <rect x="545" y="273.9" width="16" height="6.1"   fill="#e0645c" opacity="0.85"/>
+  <rect x="565" y="278.0" width="16" height="2.0"   fill="#e0645c" opacity="0.85"/>
+  <rect x="585" y="279.4" width="16" height="0.6"   fill="#e0645c" opacity="0.85"/>
+
+  <!-- axis -->
+  <line x1="375" y1="280" x2="612" y2="280" stroke="#8a8a8a" stroke-width="1.5"/>
+  <!-- mean marker at lambda = 3 (bar k=3 center x=453) -->
+  <line x1="453" y1="90" x2="453" y2="288" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- x labels -->
+  <text x="393" y="298" fill="#8a8a8a" text-anchor="middle">0</text>
+  <text x="493" y="298" fill="#8a8a8a" text-anchor="middle">5</text>
+  <text x="593" y="298" fill="#8a8a8a" text-anchor="middle">10</text>
+  <text x="490" y="320" fill="#8a8a8a" text-anchor="middle">events k · right-skewed, peak near &#955; = 3</text>
+</svg>

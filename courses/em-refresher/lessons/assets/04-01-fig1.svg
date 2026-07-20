@@ -1,0 +1,33 @@
+<svg viewBox="0 0 660 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="15">
+  <!-- column headers -->
+  <text x="28" y="34" fill="#8a8a8a" font-style="italic" font-size="13">Differential form (local)</text>
+  <text x="350" y="34" fill="#8a8a8a" font-style="italic" font-size="13">Integral form (global)</text>
+  <line x1="20" y1="46" x2="640" y2="46" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- Row 1: Gauss for E -->
+  <text x="28" y="82" fill="#4a90d9">&#8711;&#183;E = &#961;/&#949;&#8320;</text>
+  <text x="350" y="82" fill="#4a90d9">&#8750;E&#183;dA = Q<tspan baseline-shift="sub" font-size="11">enc</tspan>/&#949;&#8320;</text>
+  <text x="28" y="102" fill="#8a8a8a" font-style="italic" font-size="12">Gauss: charge is the source of E &#183; (divergence theorem)</text>
+  <line x1="20" y1="116" x2="640" y2="116" stroke="#8a8a8a" stroke-width="0.75" stroke-dasharray="2 4"/>
+
+  <!-- Row 2: no monopoles -->
+  <text x="28" y="152" fill="#4a90d9">&#8711;&#183;B = 0</text>
+  <text x="350" y="152" fill="#4a90d9">&#8750;B&#183;dA = 0</text>
+  <text x="28" y="172" fill="#8a8a8a" font-style="italic" font-size="12">No monopoles: B has no sources; its lines always close &#183; (divergence theorem)</text>
+  <line x1="20" y1="186" x2="640" y2="186" stroke="#8a8a8a" stroke-width="0.75" stroke-dasharray="2 4"/>
+
+  <!-- Row 3: Faraday -->
+  <text x="28" y="222" fill="#4a90d9">&#8711;&#215;E = &#8722;&#8706;B/&#8706;t</text>
+  <text x="350" y="222" fill="#4a90d9">&#8750;E&#183;d&#8467; = &#8722;d&#934;<tspan baseline-shift="sub" font-size="11">B</tspan>/dt</text>
+  <text x="28" y="242" fill="#8a8a8a" font-style="italic" font-size="12">Faraday: a changing B curls up an E &#183; (Stokes' theorem)</text>
+  <line x1="20" y1="256" x2="640" y2="256" stroke="#8a8a8a" stroke-width="0.75" stroke-dasharray="2 4"/>
+
+  <!-- Row 4: Ampere-Maxwell -->
+  <text x="28" y="292" fill="#4a90d9">&#8711;&#215;B = &#956;&#8320;J + <tspan fill="#e0645c">&#956;&#8320;&#949;&#8320; &#8706;E/&#8706;t</tspan></text>
+  <text x="350" y="292" fill="#4a90d9">&#8750;B&#183;d&#8467; = &#956;&#8320;I<tspan baseline-shift="sub" font-size="11">enc</tspan> + <tspan fill="#e0645c">&#956;&#8320;&#949;&#8320; d&#934;<tspan baseline-shift="sub" font-size="11">E</tspan>/dt</tspan></text>
+  <text x="28" y="312" fill="#8a8a8a" font-style="italic" font-size="12">Amp&#232;re&#8211;Maxwell: currents <tspan fill="#e0645c">and a changing E</tspan> make B &#183; (Stokes' theorem)</text>
+
+  <!-- caption -->
+  <line x1="20" y1="326" x2="640" y2="326" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="28" y="348" fill="#8a8a8a" font-style="italic" font-size="12">Rows 1&#8211;2 are the divergence theorem; rows 3&#8211;4 are Stokes'. The red term is Maxwell's displacement current &#8212; the missing symmetry that makes light.</text>
+</svg>

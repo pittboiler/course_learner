@@ -1,0 +1,91 @@
+<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <!-- ============ LEFT PANEL: a basic open rectangle U x V in the plane ============ -->
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">A basic open set in R x R: a rectangle U x V (and a ball fits inside)</text>
+
+  <!-- axes -->
+  <line x1="55" y1="300" x2="290" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="55" y1="300" x2="55" y2="55" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="290,300 281,296 281,304" fill="#8a8a8a"/>
+  <polygon points="55,55 51,64 59,64" fill="#8a8a8a"/>
+  <text x="278" y="318" fill="#8a8a8a">X</text>
+  <text x="38" y="62" fill="#8a8a8a">Y</text>
+
+  <!-- rectangle U x V, shaded blue -->
+  <rect x="120" y="120" width="120" height="110" fill="#4a90d9" opacity="0.16"/>
+  <rect x="120" y="120" width="120" height="110" fill="none" stroke="#4a90d9" stroke-width="2"/>
+
+  <!-- inscribed open ball (red) -->
+  <circle cx="180" cy="175" r="48" fill="#e0645c" opacity="0.16"/>
+  <circle cx="180" cy="175" r="48" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <circle cx="180" cy="175" r="2.5" fill="#e0645c"/>
+  <text x="150" y="179" fill="#e0645c">ball</text>
+
+  <!-- U on x-axis -->
+  <line x1="120" y1="300" x2="120" y2="230" stroke="#4a90d9" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="240" y1="300" x2="240" y2="230" stroke="#4a90d9" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="120" y1="308" x2="240" y2="308" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="172" y="326" fill="#4a90d9">U open in X</text>
+
+  <!-- V on y-axis -->
+  <line x1="120" y1="120" x2="55" y2="120" stroke="#4a90d9" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="120" y1="230" x2="55" y2="230" stroke="#4a90d9" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="47" y1="120" x2="47" y2="230" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="12" y="178" fill="#4a90d9">V open</text>
+
+  <text x="200" y="140" fill="#4a90d9">U x V</text>
+
+  <!-- ============ RIGHT PANEL: box vs product for an infinite product ============ -->
+  <line x1="340" y1="40" x2="340" y2="360" stroke="#d8d8d8" stroke-width="1"/>
+
+  <!-- BOX row -->
+  <text x="360" y="60" fill="#e0645c">BOX: every coordinate pinned to a small open set</text>
+  <!-- factor lines (full extent grey) -->
+  <g stroke="#8a8a8a" stroke-width="1.5">
+    <line x1="380" y1="78" x2="380" y2="170"/>
+    <line x1="425" y1="78" x2="425" y2="170"/>
+    <line x1="470" y1="78" x2="470" y2="170"/>
+    <line x1="515" y1="78" x2="515" y2="170"/>
+    <line x1="560" y1="78" x2="560" y2="170"/>
+  </g>
+  <!-- red restriction on every factor -->
+  <g stroke="#e0645c" stroke-width="6" stroke-linecap="round">
+    <line x1="380" y1="112" x2="380" y2="136"/>
+    <line x1="425" y1="112" x2="425" y2="136"/>
+    <line x1="470" y1="112" x2="470" y2="136"/>
+    <line x1="515" y1="112" x2="515" y2="136"/>
+    <line x1="560" y1="112" x2="560" y2="136"/>
+  </g>
+  <text x="585" y="128" fill="#8a8a8a">· · ·</text>
+  <text x="380" y="186" fill="#8a8a8a">X&#8321;</text>
+  <text x="425" y="186" fill="#8a8a8a">X&#8322;</text>
+  <text x="470" y="186" fill="#8a8a8a">X&#8323;</text>
+  <text x="515" y="186" fill="#8a8a8a">X&#8324;</text>
+  <text x="560" y="186" fill="#8a8a8a">X&#8325;</text>
+
+  <!-- PRODUCT row -->
+  <text x="360" y="240" fill="#4a90d9">PRODUCT: all but finitely many coordinates free</text>
+  <g stroke="#8a8a8a" stroke-width="1.5">
+    <line x1="380" y1="258" x2="380" y2="350"/>
+    <line x1="425" y1="258" x2="425" y2="350"/>
+    <line x1="470" y1="258" x2="470" y2="350"/>
+    <line x1="515" y1="258" x2="515" y2="350"/>
+    <line x1="560" y1="258" x2="560" y2="350"/>
+  </g>
+  <!-- free factors: full-height thick grey bars -->
+  <g stroke="#8a8a8a" stroke-width="6" stroke-linecap="round" opacity="0.5">
+    <line x1="470" y1="260" x2="470" y2="348"/>
+    <line x1="515" y1="260" x2="515" y2="348"/>
+    <line x1="560" y1="260" x2="560" y2="348"/>
+  </g>
+  <!-- blue restriction on first two factors only -->
+  <g stroke="#4a90d9" stroke-width="6" stroke-linecap="round">
+    <line x1="380" y1="292" x2="380" y2="316"/>
+    <line x1="425" y1="292" x2="425" y2="316"/>
+  </g>
+  <text x="585" y="308" fill="#8a8a8a">· · ·</text>
+  <text x="380" y="366" fill="#8a8a8a">X&#8321;</text>
+  <text x="425" y="366" fill="#8a8a8a">X&#8322;</text>
+  <text x="470" y="366" fill="#8a8a8a">X&#8323;</text>
+  <text x="515" y="366" fill="#8a8a8a">X&#8324;</text>
+  <text x="560" y="366" fill="#8a8a8a">X&#8325;</text>
+</svg>

@@ -1,0 +1,47 @@
+<svg viewBox="0 0 560 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- ============ TOP ROW: blobs ============ -->
+
+  <!-- LEFT: one connected blob -->
+  <path d="M 60 70 C 40 40, 130 30, 150 55 C 185 45, 200 95, 175 115 C 195 145, 130 160, 100 145 C 55 155, 35 100, 60 70 Z"
+        fill="#4a90d9" fill-opacity="0.16" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="115" y="100" text-anchor="middle" fill="#4a90d9">X</text>
+  <text x="115" y="185" text-anchor="middle" fill="#8a8a8a">connected — one piece</text>
+  <text x="115" y="203" text-anchor="middle" fill="#8a8a8a" font-style="italic" font-size="12">no way to split</text>
+
+  <!-- RIGHT: a separation into U and V -->
+  <path d="M 330 65 C 315 40, 375 32, 388 55 C 408 50, 415 95, 393 108 C 400 135, 345 145, 325 128 C 300 130, 305 80, 330 65 Z"
+        fill="#4a90d9" fill-opacity="0.16" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="360" y="95" text-anchor="middle" fill="#4a90d9">U</text>
+
+  <path d="M 445 72 C 435 48, 490 42, 500 63 C 518 60, 522 100, 502 112 C 508 138, 460 146, 445 128 C 422 128, 425 88, 445 72 Z"
+        fill="#e0645c" fill-opacity="0.16" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="475" y="98" text-anchor="middle" fill="#e0645c">V</text>
+
+  <!-- gap marker between U and V -->
+  <line x1="418" y1="55" x2="418" y2="135" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="418" y="150" text-anchor="middle" fill="#8a8a8a" font-size="12">gap</text>
+
+  <text x="425" y="185" text-anchor="middle" fill="#8a8a8a">a separation: U, V open, disjoint, U &#8746; V = X</text>
+  <text x="425" y="203" text-anchor="middle" fill="#8a8a8a" font-style="italic" font-size="12">disconnected</text>
+
+  <!-- ============ BOTTOM ROW: number lines ============ -->
+
+  <!-- connected interval -->
+  <line x1="60" y1="285" x2="500" y2="285" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="500,285 492,281 492,289" fill="#8a8a8a"/>
+  <line x1="140" y1="285" x2="300" y2="285" stroke="#4a90d9" stroke-width="6"/>
+  <circle cx="140" cy="285" r="4" fill="#4a90d9"/>
+  <circle cx="300" cy="285" r="4" fill="#4a90d9"/>
+  <text x="136" y="273" fill="#8a8a8a" font-size="12">a</text>
+  <text x="296" y="273" fill="#8a8a8a" font-size="12">b</text>
+  <text x="360" y="290" fill="#4a90d9">[a, b] connected</text>
+
+  <!-- separated two-interval set -->
+  <line x1="60" y1="345" x2="500" y2="345" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="500,345 492,341 492,349" fill="#8a8a8a"/>
+  <line x1="120" y1="345" x2="200" y2="345" stroke="#e0645c" stroke-width="6"/>
+  <line x1="260" y1="345" x2="340" y2="345" stroke="#e0645c" stroke-width="6"/>
+  <line x1="230" y1="345" x2="230" y2="322" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="230" y="316" text-anchor="middle" fill="#8a8a8a" font-size="12">gap point</text>
+  <text x="360" y="350" fill="#e0645c">[0,1] &#8746; [2,3] separated</text>
+</svg>

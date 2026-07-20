@@ -1,0 +1,50 @@
+<svg viewBox="0 0 560 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- filled upper half-disk enclosed by the contour -->
+  <path d="M 60 250 L 500 250 A 220 220 0 0 0 60 250 Z" fill="#4a90d9" opacity="0.10"/>
+
+  <!-- real axis -->
+  <line x1="20" y1="250" x2="540" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="540,250 530,245 530,255" fill="#8a8a8a"/>
+  <text x="544" y="255" fill="#8a8a8a">Re</text>
+
+  <!-- imaginary axis -->
+  <line x1="280" y1="300" x2="280" y2="20" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="280,20 275,30 285,30" fill="#8a8a8a"/>
+  <text x="290" y="28" fill="#8a8a8a">Im</text>
+
+  <!-- the closed contour: segment [-R,R] on the real axis (blue), drawn on axis -->
+  <line x1="60" y1="250" x2="500" y2="250" stroke="#4a90d9" stroke-width="3"/>
+  <!-- the upper semicircular arc, radius R, centre origin -->
+  <path d="M 500 250 A 220 220 0 0 0 60 250" fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- direction arrows (counterclockwise) -->
+  <polygon points="300,250 288,245 288,255" fill="#4a90d9"/>
+  <polygon points="497,182 488,190 500,193" fill="#4a90d9"/>
+
+  <!-- endpoints -R and R -->
+  <circle cx="60" cy="250" r="3.5" fill="#4a90d9"/>
+  <circle cx="500" cy="250" r="3.5" fill="#4a90d9"/>
+  <text x="44" y="270" fill="#4a90d9">-R</text>
+  <text x="496" y="270" fill="#4a90d9">R</text>
+
+  <!-- poles in the UHP (enclosed): marked as red crosses -->
+  <g stroke="#e0645c" stroke-width="2.5">
+    <line x1="215" y1="150" x2="227" y2="162"/><line x1="227" y1="150" x2="215" y2="162"/>
+    <line x1="345" y1="150" x2="357" y2="162"/><line x1="357" y1="150" x2="345" y2="162"/>
+  </g>
+  <text x="192" y="140" fill="#e0645c">poles inside</text>
+  <text x="196" y="180" fill="#e0645c" font-size="12">(only these count)</text>
+
+  <!-- a pole in the LOWER half-plane, NOT enclosed -->
+  <g stroke="#8a8a8a" stroke-width="2">
+    <line x1="345" y1="298" x2="357" y2="310"/><line x1="357" y1="298" x2="345" y2="310"/>
+  </g>
+  <text x="366" y="308" fill="#8a8a8a" font-size="12">lower pole — excluded</text>
+
+  <!-- arc annotation -->
+  <text x="120" y="70" fill="#4a90d9" font-style="italic">arc contribution → 0 as R → ∞</text>
+  <line x1="200" y1="76" x2="150" y2="120" stroke="#4a90d9" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- caption -->
+  <text x="20" y="332" fill="#8a8a8a" font-style="italic" font-size="12">Close the real integral with an upper arc; push R → ∞ and the integral equals 2πi times the sum of the enclosed residues.</text>
+</svg>

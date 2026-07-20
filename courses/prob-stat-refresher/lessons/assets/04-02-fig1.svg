@@ -1,0 +1,74 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Each bar is one sample's 95% interval X̄ ± margin — the interval is random, μ is not.</text>
+
+  <!-- the fixed true mean: a vertical line the intervals try to catch -->
+  <line x1="300" y1="44" x2="300" y2="322" stroke="#4a4a4a" stroke-width="2"/>
+  <text x="292" y="340" fill="#4a4a4a">true μ</text>
+
+  <!-- interval 1: covers -->
+  <line x1="255" y1="60" x2="335" y2="60" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="255" y1="54" x2="255" y2="66" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="335" y1="54" x2="335" y2="66" stroke="#4a90d9" stroke-width="2.5"/>
+  <circle cx="295" cy="60" r="3" fill="#4a90d9"/>
+
+  <!-- interval 2: covers -->
+  <line x1="272" y1="85" x2="352" y2="85" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="272" y1="79" x2="272" y2="91" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="352" y1="79" x2="352" y2="91" stroke="#4a90d9" stroke-width="2.5"/>
+  <circle cx="312" cy="85" r="3" fill="#4a90d9"/>
+
+  <!-- interval 3: MISSES (entirely right of μ) -->
+  <line x1="308" y1="110" x2="388" y2="110" stroke="#e0645c" stroke-width="2.5"/>
+  <line x1="308" y1="104" x2="308" y2="116" stroke="#e0645c" stroke-width="2.5"/>
+  <line x1="388" y1="104" x2="388" y2="116" stroke="#e0645c" stroke-width="2.5"/>
+  <circle cx="348" cy="110" r="3" fill="#e0645c"/>
+
+  <!-- interval 4: covers -->
+  <line x1="248" y1="135" x2="328" y2="135" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="248" y1="129" x2="248" y2="141" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="328" y1="129" x2="328" y2="141" stroke="#4a90d9" stroke-width="2.5"/>
+  <circle cx="288" cy="135" r="3" fill="#4a90d9"/>
+
+  <!-- interval 5: covers -->
+  <line x1="265" y1="160" x2="345" y2="160" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="265" y1="154" x2="265" y2="166" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="345" y1="154" x2="345" y2="166" stroke="#4a90d9" stroke-width="2.5"/>
+  <circle cx="305" cy="160" r="3" fill="#4a90d9"/>
+
+  <!-- interval 6: covers -->
+  <line x1="230" y1="185" x2="310" y2="185" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="230" y1="179" x2="230" y2="191" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="310" y1="179" x2="310" y2="191" stroke="#4a90d9" stroke-width="2.5"/>
+  <circle cx="270" cy="185" r="3" fill="#4a90d9"/>
+
+  <!-- interval 7: covers -->
+  <line x1="282" y1="210" x2="362" y2="210" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="282" y1="204" x2="282" y2="216" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="362" y1="204" x2="362" y2="216" stroke="#4a90d9" stroke-width="2.5"/>
+  <circle cx="322" cy="210" r="3" fill="#4a90d9"/>
+
+  <!-- interval 8: MISSES (entirely left of μ) -->
+  <line x1="218" y1="235" x2="298" y2="235" stroke="#e0645c" stroke-width="2.5"/>
+  <line x1="218" y1="229" x2="218" y2="241" stroke="#e0645c" stroke-width="2.5"/>
+  <line x1="298" y1="229" x2="298" y2="241" stroke="#e0645c" stroke-width="2.5"/>
+  <circle cx="258" cy="235" r="3" fill="#e0645c"/>
+
+  <!-- interval 9: covers -->
+  <line x1="260" y1="260" x2="340" y2="260" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="260" y1="254" x2="260" y2="266" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="340" y1="254" x2="340" y2="266" stroke="#4a90d9" stroke-width="2.5"/>
+  <circle cx="300" cy="260" r="3" fill="#4a90d9"/>
+
+  <!-- interval 10: covers -->
+  <line x1="275" y1="285" x2="355" y2="285" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="275" y1="279" x2="275" y2="291" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="355" y1="279" x2="355" y2="291" stroke="#4a90d9" stroke-width="2.5"/>
+  <circle cx="315" cy="285" r="3" fill="#4a90d9"/>
+
+  <!-- legend -->
+  <line x1="410" y1="255" x2="440" y2="255" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="446" y="260" fill="#4a90d9">covers μ</text>
+  <line x1="410" y1="278" x2="440" y2="278" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="446" y="283" fill="#e0645c">misses (2 of 10)</text>
+</svg>

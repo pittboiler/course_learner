@@ -1,0 +1,39 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- axes -->
+  <line x1="30" y1="300" x2="525" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="60" y1="18" x2="60" y2="322" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="525,300 515,295 515,305" fill="#8a8a8a"/>
+  <polygon points="60,18 55,28 65,28" fill="#8a8a8a"/>
+  <text x="532" y="305" fill="#8a8a8a">x</text>
+
+  <!-- tangent line at a -->
+  <line x1="120" y1="298.7" x2="470" y2="169.3" stroke="#e0645c" stroke-width="2"/>
+  <text x="293" y="247" fill="#e0645c">tangent line L(x)</text>
+
+  <!-- curve f(x) -->
+  <path d="M 80 285 Q 300 285 500 60" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="506" y="55" fill="#4a90d9">f(x)</text>
+
+  <!-- droplines -->
+  <line x1="231.6" y1="257.4" x2="231.6" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="420" y1="187.8" x2="420" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="226" y="318" fill="#8a8a8a">a</text>
+  <text x="403" y="318" fill="#8a8a8a">a + h</text>
+
+  <!-- error gap between curve and tangent at a+h -->
+  <line x1="420" y1="140.3" x2="420" y2="187.8" stroke="#c98a2b" stroke-width="2.5"/>
+  <line x1="413" y1="140.3" x2="427" y2="140.3" stroke="#c98a2b" stroke-width="2.5"/>
+  <line x1="413" y1="187.8" x2="427" y2="187.8" stroke="#c98a2b" stroke-width="2.5"/>
+  <text x="438" y="158" fill="#c98a2b">error</text>
+  <text x="438" y="176" fill="#c98a2b">≈ ½ f″(c) h²</text>
+
+  <!-- points -->
+  <circle cx="231.6" cy="257.4" r="5" fill="#e0645c"/>
+  <circle cx="420" cy="140.3" r="5" fill="#4a90d9"/>
+  <circle cx="420" cy="187.8" r="4" fill="#e0645c"/>
+  <text x="350" y="133" fill="#4a90d9">f(a + h)</text>
+  <text x="432" y="208" fill="#e0645c">L(a + h)</text>
+
+  <!-- caption -->
+  <text x="75" y="40" fill="#8a8a8a" font-style="italic">Exact at a; walk h away and the miss grows like h².</text>
+</svg>

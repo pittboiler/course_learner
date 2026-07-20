@@ -1,0 +1,57 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="20" fill="#8a8a8a" font-style="italic">Pendulum phase portrait: libration inside the separatrix, rotation outside; a blob shears but keeps its area.</text>
+
+  <!-- axes -->
+  <line x1="40" y1="175" x2="520" y2="175" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="280" y1="30" x2="280" y2="320" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="520,175 510,170 510,180" fill="#8a8a8a"/>
+  <polygon points="280,30 275,40 285,40" fill="#8a8a8a"/>
+  <text x="524" y="180" fill="#8a8a8a">q = &#952;</text>
+  <text x="288" y="40" fill="#8a8a8a">p</text>
+
+  <!-- upper rotation orbits (p never reaches 0 -> the pendulum whirls over the top) -->
+  <path d="M 60 68 L 115 61 L 170 54 L 225 49 L 280 47 L 335 49 L 390 54 L 445 61 L 500 68"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <path d="M 60 108 L 115 100 L 170 92 L 225 87 L 280 85.5 L 335 87 L 390 92 L 445 100 L 500 108"
+        fill="none" stroke="#4a90d9" stroke-width="2.5" opacity="0.6"/>
+  <polygon points="335,47 325,44 325,50" fill="#4a90d9"/>
+
+  <!-- lower rotation orbits (p<0: whirls the other way) -->
+  <path d="M 60 282 L 115 289 L 170 296 L 225 301 L 280 303 L 335 301 L 390 296 L 445 289 L 500 282"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <path d="M 60 242 L 115 250 L 170 258 L 225 263 L 280 264.5 L 335 263 L 390 258 L 445 250 L 500 242"
+        fill="none" stroke="#4a90d9" stroke-width="2.5" opacity="0.6"/>
+  <polygon points="225,303 235,306 235,300" fill="#4a90d9"/>
+
+  <!-- separatrix (H = 2 m g l): the knife-edge orbit, p = +/- p0 cos(theta/2) -->
+  <path d="M 60 175 L 115 140.6 L 170 111.4 L 225 91.8 L 280 85 L 335 91.8 L 390 111.4 L 445 140.6 L 500 175"
+        fill="none" stroke="#e0645c" stroke-width="3" stroke-dasharray="7 4"/>
+  <path d="M 60 175 L 115 209.4 L 170 238.6 L 225 258.2 L 280 265 L 335 258.2 L 390 238.6 L 445 209.4 L 500 175"
+        fill="none" stroke="#e0645c" stroke-width="3" stroke-dasharray="7 4"/>
+  <text x="360" y="150" fill="#e0645c">separatrix</text>
+
+  <!-- libration orbits (closed): the pendulum swings back and forth -->
+  <ellipse cx="280" cy="175" rx="95" ry="62" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <ellipse cx="280" cy="175" rx="48" ry="34" fill="none" stroke="#4a90d9" stroke-width="2.5" opacity="0.7"/>
+  <polygon points="280,113 270,116 280,120" fill="#4a90d9"/>
+  <polygon points="280,237 290,234 280,230" fill="#4a90d9"/>
+
+  <!-- fixed points -->
+  <circle cx="280" cy="175" r="5" fill="#333"/>
+  <text x="286" y="196" fill="#333">center (bottom)</text>
+  <circle cx="60" cy="175" r="5" fill="#333"/>
+  <circle cx="500" cy="175" r="5" fill="#333"/>
+  <text x="18" y="167" fill="#333">saddle</text>
+  <text x="474" y="167" fill="#333">saddle</text>
+  <text x="42" y="193" fill="#8a8a8a">&#8722;&#960;</text>
+  <text x="498" y="193" fill="#8a8a8a">&#960;</text>
+
+  <!-- phase-space area element: a square that shears to a parallelogram of EQUAL area -->
+  <rect x="192" y="112" width="20" height="20" fill="#e0645c" opacity="0.30" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="312,120 332,120 338,140 318,140" fill="#e0645c" opacity="0.30" stroke="#e0645c" stroke-width="1.5"/>
+  <path d="M 214 118 Q 265 96 312 122" fill="none" stroke="#8a8a8a" stroke-width="1.2" stroke-dasharray="3 4"/>
+  <polygon points="312,122 302,117 305,126" fill="#8a8a8a"/>
+  <text x="150" y="106" fill="#e0645c">area A</text>
+  <text x="316" y="112" fill="#e0645c">same area</text>
+</svg>

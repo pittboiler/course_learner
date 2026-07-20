@@ -1,0 +1,40 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- axes -->
+  <line x1="40" y1="300" x2="540" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="70" y1="30" x2="70" y2="322" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="540,300 530,295 530,305" fill="#8a8a8a"/>
+  <text x="546" y="305" fill="#8a8a8a">X</text>
+  <text x="52" y="44" fill="#8a8a8a">ℝ</text>
+
+  <!-- compact domain [a,b] on the axis -->
+  <line x1="110" y1="300" x2="500" y2="300" stroke="#4a90d9" stroke-width="5"/>
+  <line x1="110" y1="294" x2="110" y2="306" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="500" y1="294" x2="500" y2="306" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="105" y="320" fill="#4a90d9">a</text>
+  <text x="495" y="320" fill="#4a90d9">b</text>
+  <text x="270" y="320" fill="#4a90d9" font-style="italic">compact domain</text>
+
+  <!-- vertical boundary droplines to the curve endpoints -->
+  <line x1="110" y1="200" x2="110" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="500" y1="150" x2="500" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- the continuous curve f -->
+  <path d="M 110 200 C 160 200, 190 80, 230 80 C 270 80, 320 260, 360 260 C 400 260, 460 150, 500 150"
+        fill="none" stroke="#8a8a8a" stroke-width="3"/>
+  <text x="150" y="150" fill="#8a8a8a" font-style="italic">f</text>
+
+  <!-- max marker -->
+  <line x1="70" y1="80" x2="230" y2="80" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <circle cx="230" cy="80" r="5" fill="#e0645c"/>
+  <text x="42" y="84" fill="#e0645c">M</text>
+  <text x="238" y="76" fill="#e0645c">max attained</text>
+
+  <!-- min marker -->
+  <line x1="70" y1="260" x2="360" y2="260" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <circle cx="360" cy="260" r="5" fill="#e0645c"/>
+  <text x="44" y="264" fill="#e0645c">m</text>
+  <text x="368" y="278" fill="#e0645c">min attained</text>
+
+  <!-- caption -->
+  <text x="80" y="24" fill="#8a8a8a" font-style="italic">Continuous f on a compact domain: the top value M and bottom value m are actually hit — not just approached.</text>
+</svg>

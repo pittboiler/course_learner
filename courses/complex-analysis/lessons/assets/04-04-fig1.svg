@@ -1,0 +1,61 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <!-- title -->
+  <text x="20" y="26" fill="#8a8a8a" font-style="italic">One estimate, a whole cascade — each arrow is a few lines of work.</text>
+
+  <!-- box helper style via repeated rects -->
+  <!-- CIF (source) -->
+  <rect x="20" y="52" width="150" height="46" rx="6" fill="#4a90d9" opacity="0.14" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="95" y="72" fill="#4a90d9" text-anchor="middle" font-weight="bold">Cauchy integral</text>
+  <text x="95" y="88" fill="#4a90d9" text-anchor="middle" font-weight="bold">formula (4.3)</text>
+
+  <!-- infinite differentiability -->
+  <rect x="245" y="52" width="170" height="46" rx="6" fill="#8a8a8a" opacity="0.12" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="330" y="72" fill="#8a8a8a" text-anchor="middle" font-weight="bold">f is infinitely</text>
+  <text x="330" y="88" fill="#8a8a8a" text-anchor="middle" font-weight="bold">differentiable</text>
+
+  <!-- Cauchy estimates -->
+  <rect x="245" y="140" width="170" height="46" rx="6" fill="#8a8a8a" opacity="0.12" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="330" y="160" fill="#8a8a8a" text-anchor="middle" font-weight="bold">Cauchy estimates</text>
+  <text x="330" y="177" fill="#8a8a8a" text-anchor="middle">|f⁽ⁿ⁾(z₀)| ≤ n!M / rⁿ</text>
+
+  <!-- Liouville -->
+  <rect x="245" y="228" width="170" height="46" rx="6" fill="#e0645c" opacity="0.14" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="330" y="248" fill="#e0645c" text-anchor="middle" font-weight="bold">Liouville:</text>
+  <text x="330" y="265" fill="#e0645c" text-anchor="middle">bounded entire ⟹ constant</text>
+
+  <!-- FTA -->
+  <rect x="470" y="228" width="150" height="46" rx="6" fill="#e0645c" opacity="0.14" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="545" y="248" fill="#e0645c" text-anchor="middle" font-weight="bold">Fund. Thm.</text>
+  <text x="545" y="265" fill="#e0645c" text-anchor="middle" font-weight="bold">of Algebra</text>
+
+  <!-- Morera (converse, separate) -->
+  <rect x="20" y="228" width="170" height="46" rx="6" fill="#4a90d9" opacity="0.10" stroke="#4a90d9" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="105" y="248" fill="#4a90d9" text-anchor="middle" font-weight="bold">Morera (converse):</text>
+  <text x="105" y="265" fill="#4a90d9" text-anchor="middle">all △-integrals 0 ⟹ f holo.</text>
+
+  <!-- arrows -->
+  <defs>
+    <marker id="ah" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#8a8a8a"/>
+    </marker>
+    <marker id="ahr" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#e0645c"/>
+    </marker>
+  </defs>
+
+  <!-- CIF -> infinite diff -->
+  <line x1="170" y1="75" x2="240" y2="75" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#ah)"/>
+  <text x="205" y="66" fill="#8a8a8a" text-anchor="middle">diff. under ∫</text>
+
+  <!-- infinite diff -> Cauchy estimates -->
+  <line x1="330" y1="98" x2="330" y2="138" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#ah)"/>
+  <text x="392" y="122" fill="#8a8a8a" text-anchor="middle">ML-bound</text>
+
+  <!-- Cauchy estimates -> Liouville -->
+  <line x1="330" y1="186" x2="330" y2="226" stroke="#e0645c" stroke-width="1.5" marker-end="url(#ahr)"/>
+  <text x="378" y="210" fill="#e0645c" text-anchor="middle">r → ∞</text>
+
+  <!-- Liouville -> FTA -->
+  <line x1="415" y1="251" x2="468" y2="251" stroke="#e0645c" stroke-width="1.5" marker-end="url(#ahr)"/>
+  <text x="442" y="242" fill="#e0645c" text-anchor="middle">1/p</text>
+</svg>

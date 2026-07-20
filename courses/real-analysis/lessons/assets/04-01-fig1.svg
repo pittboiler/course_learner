@@ -1,0 +1,57 @@
+<svg viewBox="0 0 560 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- ============ TOP PANEL: OPEN SET — every point has wiggle room ============ -->
+  <text x="40" y="34" fill="#8a8a8a" font-style="italic">Open: every x sits in an ε-ball still inside the set.</text>
+
+  <!-- number line -->
+  <line x1="40" y1="90" x2="520" y2="90" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="520,90 510,85 510,95" fill="#8a8a8a"/>
+
+  <!-- the open interval (a,b): hollow endpoints, blue segment -->
+  <line x1="140" y1="90" x2="440" y2="90" stroke="#4a90d9" stroke-width="4" opacity="0.55"/>
+  <circle cx="140" cy="90" r="6" fill="#ffffff" stroke="#4a90d9" stroke-width="2.5"/>
+  <circle cx="440" cy="90" r="6" fill="#ffffff" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="132" y="118" fill="#4a90d9">a</text>
+  <text x="434" y="118" fill="#4a90d9">b</text>
+
+  <!-- the ε-ball around interior point x, shaded, safely inside -->
+  <rect x="248" y="78" width="120" height="24" fill="#4a90d9" opacity="0.16"/>
+  <line x1="248" y1="78" x2="248" y2="102" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="368" y1="78" x2="368" y2="102" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="308" cy="90" r="5" fill="#4a90d9"/>
+  <text x="303" y="72" fill="#4a90d9">x</text>
+  <text x="222" y="132" fill="#8a8a8a">x−ε</text>
+  <text x="352" y="132" fill="#8a8a8a">x+ε</text>
+  <text x="270" y="132" fill="#8a8a8a" font-style="italic">(x−ε, x+ε) ⊆ set</text>
+
+  <!-- ============ BOTTOM PANEL: LIMIT POINT — a sequence sneaking up ============ -->
+  <text x="40" y="222" fill="#8a8a8a" font-style="italic">Limit point L: points of A crowd every neighborhood of L.</text>
+
+  <!-- number line -->
+  <line x1="40" y1="278" x2="520" y2="278" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="520,278 510,273 510,283" fill="#8a8a8a"/>
+
+  <!-- sequence in A closing in on L from the left (grey dots) -->
+  <circle cx="150" cy="278" r="5" fill="#8a8a8a"/>
+  <circle cx="235" cy="278" r="5" fill="#8a8a8a"/>
+  <circle cx="300" cy="278" r="5" fill="#8a8a8a"/>
+  <circle cx="345" cy="278" r="4.5" fill="#8a8a8a"/>
+  <circle cx="372" cy="278" r="4" fill="#8a8a8a"/>
+  <circle cx="388" cy="278" r="3.5" fill="#8a8a8a"/>
+  <circle cx="398" cy="278" r="3" fill="#8a8a8a"/>
+  <circle cx="404" cy="278" r="2.5" fill="#8a8a8a"/>
+
+  <!-- shrinking neighborhood around L, catching infinitely many dots -->
+  <rect x="378" y="266" width="64" height="24" fill="#e0645c" opacity="0.14"/>
+  <line x1="378" y1="266" x2="378" y2="290" stroke="#e0645c" stroke-width="2"/>
+  <line x1="442" y1="266" x2="442" y2="290" stroke="#e0645c" stroke-width="2"/>
+
+  <!-- the limit point L itself (hollow: it need not belong to A) -->
+  <circle cx="410" cy="278" r="6" fill="#ffffff" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="405" y="262" fill="#e0645c">L</text>
+
+  <!-- arrow of approach -->
+  <path d="M 200 300 C 300 320, 360 312, 402 292" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <polygon points="402,292 404,301 410,294" fill="#8a8a8a"/>
+  <text x="150" y="316" fill="#8a8a8a">aₙ → L</text>
+  <text x="452" y="282" fill="#8a8a8a">every ε</text>
+</svg>

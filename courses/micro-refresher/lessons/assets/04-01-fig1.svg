@@ -1,0 +1,43 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- consumer surplus: under demand, above price line p*=60, from Q=0 to Q*=40 -->
+  <path d="M 60 40 L 60 144 L 236 144 Z" fill="#4a90d9" opacity="0.20"/>
+  <!-- producer surplus: above supply, below price line p*=60, from Q=0 to Q*=40 -->
+  <path d="M 60 144 L 60 248 L 236 144 Z" fill="#e0645c" opacity="0.20"/>
+
+  <!-- axes -->
+  <line x1="30" y1="300" x2="540" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="60" y1="18" x2="60" y2="322" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="540,300 530,295 530,305" fill="#8a8a8a"/>
+  <polygon points="60,18 55,28 65,28" fill="#8a8a8a"/>
+  <text x="546" y="305" fill="#8a8a8a">q</text>
+  <text x="50" y="14" fill="#8a8a8a">p</text>
+
+  <!-- equilibrium droplines -->
+  <line x1="236" y1="144" x2="236" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="60" y1="144" x2="236" y2="144" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- demand: p = 100 - q, from (0,100) to (100,0) -->
+  <line x1="60" y1="40" x2="500" y2="300" stroke="#4a90d9" stroke-width="3"/>
+  <!-- supply: p = 20 + q, from (0,20) to (80,100) -->
+  <line x1="60" y1="248" x2="412" y2="40" stroke="#e0645c" stroke-width="3"/>
+
+  <!-- equilibrium point -->
+  <circle cx="236" cy="144" r="5" fill="#333333"/>
+
+  <!-- surplus labels -->
+  <text x="98" y="100" fill="#3a7ec2" font-weight="bold">CS</text>
+  <text x="98" y="192" fill="#c8524a" font-weight="bold">PS</text>
+
+  <!-- curve labels -->
+  <text x="376" y="292" fill="#4a90d9">Demand  p = 100 − q</text>
+  <text x="330" y="60" fill="#e0645c">Supply  p = 20 + q</text>
+
+  <!-- axis ticks -->
+  <text x="22" y="148" fill="#333333">p*=60</text>
+  <text x="214" y="318" fill="#333333">q*=40</text>
+  <text x="40" y="45" fill="#8a8a8a">100</text>
+  <text x="48" y="252" fill="#8a8a8a">20</text>
+
+  <!-- caption -->
+  <text x="70" y="338" fill="#8a8a8a" font-style="italic">Competitive equilibrium (q*, p*): consumer surplus above price, producer surplus below — together, the largest the pie can be.</text>
+</svg>

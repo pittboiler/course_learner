@@ -1,0 +1,35 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- axes -->
+  <line x1="30" y1="175" x2="540" y2="175" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="280" y1="18" x2="280" y2="332" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="540,175 530,170 530,180" fill="#8a8a8a"/>
+  <polygon points="280,18 275,28 285,28" fill="#8a8a8a"/>
+  <text x="546" y="180" fill="#8a8a8a">x₁</text>
+  <text x="266" y="16" fill="#8a8a8a">x₂</text>
+
+  <!-- stable eigenline (decaying), direction [1,-2]: arrows point inward toward O -->
+  <line x1="227" y1="69" x2="333" y2="281" stroke="#4a90d9" stroke-width="3"/>
+  <polygon points="255,126 246,119.3 255,114.9" fill="#4a90d9"/>
+  <polygon points="305,228 314,234.7 305,239.1" fill="#4a90d9"/>
+
+  <!-- unstable eigenline (growing), direction [1,2]: arrows point outward away from O -->
+  <line x1="218" y1="298" x2="342" y2="52" stroke="#e0645c" stroke-width="3"/>
+  <polygon points="342,52 342,63.2 333,58.8" fill="#e0645c"/>
+  <polygon points="218,298 218,286.9 227,291.4" fill="#e0645c"/>
+
+  <!-- a general trajectory: rushes in along the blue line, bends out along the red -->
+  <path d="M 340 294 L 317 246 L 305 212 L 308 172 L 354 59"
+        fill="none" stroke="#6b4fa0" stroke-width="2.5"/>
+  <polygon points="354,59 345.6,70.2 354.8,66.4" fill="#6b4fa0"/>
+
+  <!-- origin (the saddle equilibrium) -->
+  <circle cx="280" cy="175" r="5" fill="#8a8a8a"/>
+
+  <!-- labels -->
+  <text x="60" y="120" fill="#e0645c">along v₁: mode grows like e³ᵗ</text>
+  <text x="60" y="300" fill="#4a90d9">along v₂: mode decays like e⁻ᵗ</text>
+  <text x="372" y="150" fill="#6b4fa0">general trajectory</text>
+
+  <!-- caption -->
+  <text x="70" y="38" fill="#8a8a8a" font-style="italic">A saddle: a solution rushes in along one eigenvector, then out along the other.</text>
+</svg>

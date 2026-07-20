@@ -1,0 +1,68 @@
+<svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- ============ LEFT: total boundedness — a blob under a finite ε-net ============ -->
+  <text x="30" y="28" fill="#8a8a8a" font-style="italic">Totally bounded: finitely many ε-balls cover everything</text>
+
+  <!-- the blob X -->
+  <path d="M 70 120 C 60 80, 130 60, 175 78 C 220 60, 270 90, 255 130 C 285 160, 250 215, 200 210 C 165 250, 90 235, 85 190 C 45 175, 55 140, 70 120 Z"
+        fill="#4a90d9" opacity="0.10" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="250" y="255" fill="#8a8a8a">X</text>
+
+  <!-- finite ε-net: small ε-balls (blue) with center dots (grey) -->
+  <g stroke="#4a90d9" stroke-width="1.3" fill="#4a90d9" fill-opacity="0.07">
+    <circle cx="105" cy="115" r="26"/>
+    <circle cx="150" cy="100" r="26"/>
+    <circle cx="195" cy="108" r="26"/>
+    <circle cx="120" cy="160" r="26"/>
+    <circle cx="168" cy="155" r="26"/>
+    <circle cx="213" cy="150" r="26"/>
+    <circle cx="145" cy="200" r="26"/>
+    <circle cx="192" cy="196" r="26"/>
+  </g>
+  <g fill="#8a8a8a">
+    <circle cx="105" cy="115" r="3"/>
+    <circle cx="150" cy="100" r="3"/>
+    <circle cx="195" cy="108" r="3"/>
+    <circle cx="120" cy="160" r="3"/>
+    <circle cx="168" cy="155" r="3"/>
+    <circle cx="213" cy="150" r="3"/>
+    <circle cx="145" cy="200" r="3"/>
+    <circle cx="192" cy="196" r="3"/>
+  </g>
+  <!-- radius marker on one ball -->
+  <line x1="168" y1="155" x2="194" y2="155" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="172" y="148" fill="#e0645c">ε</text>
+
+  <!-- divider -->
+  <line x1="310" y1="40" x2="310" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 5"/>
+
+  <!-- ============ RIGHT: sequential compactness — a convergent subsequence ============ -->
+  <text x="345" y="28" fill="#8a8a8a" font-style="italic">Sequentially compact: some subsequence converges in X</text>
+
+  <!-- scattered sequence points -->
+  <g fill="#8a8a8a">
+    <circle cx="360" cy="90" r="3.5"/>
+    <circle cx="560" cy="110" r="3.5"/>
+    <circle cx="380" cy="230" r="3.5"/>
+    <circle cx="575" cy="220" r="3.5"/>
+    <circle cx="350" cy="160" r="3.5"/>
+    <circle cx="590" cy="165" r="3.5"/>
+  </g>
+
+  <!-- the subsequence spiralling to a limit L (red) -->
+  <g fill="#4a90d9">
+    <circle cx="420" cy="120" r="4"/>
+    <circle cx="500" cy="215" r="4"/>
+    <circle cx="540" cy="150" r="4"/>
+    <circle cx="450" cy="185" r="4"/>
+    <circle cx="495" cy="140" r="4"/>
+    <circle cx="470" cy="170" r="4"/>
+    <circle cx="483" cy="158" r="4"/>
+  </g>
+  <!-- shrinking neighborhoods around the limit -->
+  <circle cx="478" cy="162" r="46" fill="none" stroke="#e0645c" stroke-width="1" stroke-dasharray="4 4"/>
+  <circle cx="478" cy="162" r="26" fill="none" stroke="#e0645c" stroke-width="1" stroke-dasharray="4 4"/>
+  <!-- the limit point -->
+  <circle cx="478" cy="162" r="5" fill="#e0645c"/>
+  <text x="488" y="158" fill="#e0645c">L</text>
+  <text x="405" y="245" fill="#4a90d9">subsequence → L</text>
+</svg>

@@ -1,0 +1,54 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- Increasing f on [a,b], partitioned into 4 pieces.
+       Lower rectangles reach the inf (left-endpoint value, blue);
+       the red band on top of each is the extra the upper sum adds
+       (reaching the sup = right-endpoint value). Total red = U - L. -->
+
+  <!-- lower rectangles (under-estimate L): top at left-endpoint value -->
+  <rect x="100" y="240" width="100" height="60"  fill="#4a90d9" opacity="0.16"/>
+  <rect x="200" y="200" width="100" height="100" fill="#4a90d9" opacity="0.16"/>
+  <rect x="300" y="150" width="100" height="150" fill="#4a90d9" opacity="0.16"/>
+  <rect x="400" y="110" width="100" height="190" fill="#4a90d9" opacity="0.16"/>
+
+  <!-- gap bands (U - L): between left- and right-endpoint values -->
+  <rect x="100" y="200" width="100" height="40" fill="#e0645c" opacity="0.28"/>
+  <rect x="200" y="150" width="100" height="50" fill="#e0645c" opacity="0.28"/>
+  <rect x="300" y="110" width="100" height="40" fill="#e0645c" opacity="0.28"/>
+  <rect x="400" y="80"  width="100" height="30" fill="#e0645c" opacity="0.28"/>
+
+  <!-- upper rectangle tops (reaching the sup) -->
+  <line x1="100" y1="200" x2="200" y2="200" stroke="#e0645c" stroke-width="1.5"/>
+  <line x1="200" y1="150" x2="300" y2="150" stroke="#e0645c" stroke-width="1.5"/>
+  <line x1="300" y1="110" x2="400" y2="110" stroke="#e0645c" stroke-width="1.5"/>
+  <line x1="400" y1="80"  x2="500" y2="80"  stroke="#e0645c" stroke-width="1.5"/>
+
+  <!-- axes -->
+  <line x1="60" y1="300" x2="530" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="60" y1="40"  x2="60"  y2="322" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="530,300 520,295 520,305" fill="#8a8a8a"/>
+  <text x="536" y="305" fill="#8a8a8a">x</text>
+
+  <!-- partition gridlines -->
+  <line x1="200" y1="300" x2="200" y2="308" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="300" y1="300" x2="300" y2="308" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="400" y1="300" x2="400" y2="308" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- the curve y = f(x), increasing, through the partition-point heights -->
+  <path d="M 100 240 C 150 222, 165 212, 200 200 C 245 184, 265 168, 300 150 C 340 130, 365 122, 400 110 C 440 96, 465 87, 500 80"
+        fill="none" stroke="#333333" stroke-width="3"/>
+
+  <!-- partition tick labels -->
+  <text x="94"  y="320" fill="#8a8a8a">a</text>
+  <text x="188" y="320" fill="#8a8a8a">x&#8321;</text>
+  <text x="288" y="320" fill="#8a8a8a">x&#8322;</text>
+  <text x="388" y="320" fill="#8a8a8a">x&#8323;</text>
+  <text x="496" y="320" fill="#8a8a8a">b</text>
+
+  <!-- legend -->
+  <rect x="88" y="52" width="16" height="12" fill="#4a90d9" opacity="0.16"/>
+  <text x="110" y="62" fill="#8a8a8a">lower sum L (rectangles to the inf)</text>
+  <rect x="88" y="72" width="16" height="12" fill="#e0645c" opacity="0.28"/>
+  <text x="110" y="82" fill="#8a8a8a">the gap U &#8722; L (upper sum adds these)</text>
+
+  <text x="88" y="34" fill="#8a8a8a" font-style="italic">Refine the partition and the red gap shrinks; if it &#8594; 0, the area is unambiguous.</text>
+</svg>

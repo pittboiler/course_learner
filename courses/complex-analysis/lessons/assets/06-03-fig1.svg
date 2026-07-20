@@ -1,0 +1,20 @@
+<svg viewBox="0 0 520 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- axes through the image-plane origin (250,185) -->
+  <line x1="90" y1="185" x2="410" y2="185" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="250" y1="55" x2="250" y2="315" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- the image curve f(gamma): a spiral that wraps the origin twice -->
+  <path d="M 282.0 185.0 L 282.6 176.3 L 280.7 167.3 L 276.3 158.7 L 269.5 151.3 L 260.5 145.7 L 250.0 142.6 L 238.6 142.4 L 227.1 145.3 L 216.4 151.4 L 207.3 160.4 L 200.7 171.8 L 197.3 185.0 L 197.4 199.1 L 201.3 213.1 L 209.0 226.0 L 220.2 236.7 L 234.1 244.3 L 250.0 248.1 L 266.8 247.6 L 283.3 242.6 L 298.3 233.3 L 310.6 220.0 L 319.3 203.6 L 323.5 185.0 L 322.6 165.5 L 316.6 146.5 L 305.6 129.4 L 290.2 115.4 L 271.3 105.7 L 250.0 101.2 L 227.9 102.4 L 206.4 109.4 L 187.1 122.1 L 171.4 139.6 L 160.7 161.1 L 155.8 185.0 L 157.3 209.8 L 165.4 233.8 L 179.7 255.3 L 199.4 272.6 L 223.4 284.3 L 250.0 289.6 L 277.5 287.7 L 304.0 278.6 L 327.6 262.6 L 346.5 240.7 L 359.4 214.3 L 364.9 185.0"
+        fill="#4a90d9" fill-opacity="0.06" stroke="#4a90d9" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- direction-of-travel arrowhead at the outer end -->
+  <polygon points="364.9,183.0 368.6,197.9 356.8,195.7" fill="#4a90d9"/>
+
+  <!-- the origin w = 0 -->
+  <circle cx="250" cy="185" r="5" fill="#e0645c"/>
+  <text x="256" y="203" fill="#e0645c">0</text>
+
+  <!-- annotations -->
+  <text x="150" y="40" fill="#8a8a8a" font-style="italic">The image curve f(&#947;) in the w-plane winds around 0 twice.</text>
+  <text x="150" y="345" fill="#4a90d9">winding number = 2  &#8658;  Z &#8722; P = 2 zeros (minus poles) inside &#947;</text>
+</svg>

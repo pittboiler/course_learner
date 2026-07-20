@@ -1,0 +1,46 @@
+<svg viewBox="0 0 560 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- number line -->
+  <line x1="30" y1="250" x2="540" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="540,250 530,245 530,255" fill="#8a8a8a"/>
+
+  <!-- the compact interval [a,b], drawn thick in red -->
+  <line x1="110" y1="250" x2="470" y2="250" stroke="#e0645c" stroke-width="5"/>
+  <line x1="110" y1="242" x2="110" y2="258" stroke="#e0645c" stroke-width="2.5"/>
+  <line x1="470" y1="242" x2="470" y2="258" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="106" y="277" fill="#e0645c">a</text>
+  <text x="466" y="277" fill="#e0645c">b</text>
+
+  <!-- five open patches from the cover; each arc spans an open interval and
+       overlaps its neighbors, so together they already cover [a,b] -->
+  <!-- U1 -->
+  <path d="M 88 230 Q 139 214 190 230" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="88" y1="230" x2="88" y2="250" stroke="#4a90d9" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="190" y1="230" x2="190" y2="250" stroke="#4a90d9" stroke-width="1" stroke-dasharray="3 3"/>
+  <!-- U2 -->
+  <path d="M 168 208 Q 219 192 270 208" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="168" y1="208" x2="168" y2="250" stroke="#4a90d9" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="270" y1="208" x2="270" y2="250" stroke="#4a90d9" stroke-width="1" stroke-dasharray="3 3"/>
+  <!-- U3 -->
+  <path d="M 248 186 Q 299 170 350 186" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="248" y1="186" x2="248" y2="250" stroke="#4a90d9" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="350" y1="186" x2="350" y2="250" stroke="#4a90d9" stroke-width="1" stroke-dasharray="3 3"/>
+  <!-- U4 -->
+  <path d="M 328 208 Q 379 192 430 208" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="328" y1="208" x2="328" y2="250" stroke="#4a90d9" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="430" y1="208" x2="430" y2="250" stroke="#4a90d9" stroke-width="1" stroke-dasharray="3 3"/>
+  <!-- U5 -->
+  <path d="M 408 230 Q 459 214 510 230" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="408" y1="230" x2="408" y2="250" stroke="#4a90d9" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="510" y1="230" x2="510" y2="250" stroke="#4a90d9" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- patch labels -->
+  <text x="132" y="228" fill="#4a90d9" font-size="12">U₁</text>
+  <text x="212" y="206" fill="#4a90d9" font-size="12">U₂</text>
+  <text x="292" y="184" fill="#4a90d9" font-size="12">U₃</text>
+  <text x="372" y="206" fill="#4a90d9" font-size="12">U₄</text>
+  <text x="452" y="228" fill="#4a90d9" font-size="12">U₅</text>
+
+  <!-- caption -->
+  <text x="70" y="40" fill="#8a8a8a" font-style="italic">An open cover of [a,b] may have infinitely many patches —</text>
+  <text x="70" y="60" fill="#8a8a8a" font-style="italic">but finitely many (here just 5) already cover the whole interval.</text>
+</svg>

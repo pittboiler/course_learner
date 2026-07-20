@@ -1,0 +1,192 @@
+:root {
+  --bg: #faf9f6;
+  --panel: #ffffff;
+  --ink: #1d1d1f;
+  --muted: #6e6e73;
+  --line: #e4e2dc;
+  --accent: #1f6feb;
+  --accent-ink: #ffffff;
+  --good: #2f9e44;
+  --warn: #b0851f;
+  --locked: #a8a29a;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #17181a;
+    --panel: #1f2124;
+    --ink: #e8e6e3;
+    --muted: #9a9a9f;
+    --line: #33353a;
+    --accent: #539bf5;
+    --accent-ink: #0e1116;
+    --good: #57ab5a;
+    --warn: #d4a72c;
+    --locked: #6b6d72;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font: 16px/1.6 -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+}
+header {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 14px 24px; border-bottom: 1px solid var(--line);
+  position: sticky; top: 0; background: var(--bg); z-index: 5;
+}
+.brand { font-weight: 700; font-size: 18px; text-decoration: none; color: var(--ink); }
+nav a { margin-left: 18px; text-decoration: none; color: var(--muted); font-weight: 500; }
+nav a:hover { color: var(--ink); }
+main { max-width: 860px; margin: 0 auto; padding: 28px 24px 80px; }
+
+/* Installed-app (PWA) safe areas: clear the notch, rounded corners, home bar */
+@supports (padding: max(0px)) {
+  header {
+    padding-top: max(14px, env(safe-area-inset-top));
+    padding-left: max(24px, env(safe-area-inset-left));
+    padding-right: max(24px, env(safe-area-inset-right));
+  }
+  main {
+    padding-left: max(24px, env(safe-area-inset-left));
+    padding-right: max(24px, env(safe-area-inset-right));
+    padding-bottom: max(80px, env(safe-area-inset-bottom));
+  }
+}
+/* Don't let a stray text selection flicker while writing on the pad */
+.ink-canvas { -webkit-user-select: none; user-select: none; }
+h1 { font-size: 26px; margin: 8px 0 4px; }
+h2 { font-size: 20px; margin-top: 32px; }
+.muted { color: var(--muted); }
+a { color: var(--accent); }
+
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 14px; margin-top: 14px; }
+.card {
+  background: var(--panel); border: 1px solid var(--line); border-radius: 10px;
+  padding: 14px 16px; text-decoration: none; color: var(--ink); display: block;
+}
+.card:hover { border-color: var(--accent); }
+.card .title { font-weight: 600; margin-bottom: 2px; }
+.card .blurb { font-size: 13px; color: var(--muted); margin: 4px 0 10px; }
+.card.locked { opacity: 0.55; pointer-events: none; }
+.badge {
+  display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: 0.04em;
+  text-transform: uppercase; padding: 1px 8px; border-radius: 99px;
+  border: 1px solid var(--line); color: var(--muted);
+}
+.badge.active { color: var(--good); border-color: var(--good); }
+.badge.ready { color: var(--accent); border-color: var(--accent); }
+.badge.locked { color: var(--locked); }
+
+.bar { height: 6px; border-radius: 3px; background: var(--line); overflow: hidden; margin-top: 8px; }
+.bar > div { height: 100%; background: var(--accent); }
+
+.stat-row { display: flex; gap: 14px; flex-wrap: wrap; margin: 18px 0; }
+.stat {
+  background: var(--panel); border: 1px solid var(--line); border-radius: 10px;
+  padding: 12px 18px; min-width: 140px;
+}
+.stat .num { font-size: 26px; font-weight: 700; }
+.stat .lbl { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; }
+
+.lesson-list { list-style: none; padding: 0; margin: 12px 0; }
+.lesson-list li {
+  display: flex; align-items: center; gap: 10px;
+  padding: 9px 12px; border: 1px solid var(--line); border-radius: 8px;
+  margin-bottom: 6px; background: var(--panel);
+}
+.lesson-list .check { width: 20px; text-align: center; }
+.lesson-list a { text-decoration: none; }
+
+.crumbs { font-size: 13px; margin-bottom: 6px; }
+.crumbs a { color: var(--muted); text-decoration: none; }
+.crumbs a:hover { color: var(--accent); }
+
+/* Rendered markdown */
+.md { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 28px 34px; }
+.md h1 { font-size: 24px; }
+.md h2 { border-bottom: 1px solid var(--line); padding-bottom: 4px; }
+.md img { max-width: 100%; }
+.md blockquote { border-left: 3px solid var(--accent); margin: 0; padding: 2px 16px; color: var(--muted); }
+.md table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
+.md th, .md td { border: 1px solid var(--line); padding: 6px 10px; text-align: left; }
+.md code { background: var(--bg); padding: 1px 5px; border-radius: 4px; font-size: 0.9em; }
+.md details { border: 1px solid var(--line); border-radius: 8px; padding: 8px 14px; margin: 10px 0; }
+.md details summary { cursor: pointer; font-weight: 600; color: var(--accent); }
+.md .katex-display { overflow-x: auto; padding: 4px 0; }
+
+.complete-box {
+  margin-top: 20px; padding: 16px 20px; background: var(--panel);
+  border: 1px solid var(--line); border-radius: 12px;
+  display: flex; align-items: center; gap: 14px; flex-wrap: wrap;
+}
+.complete-box.done { border-color: var(--good); }
+select, button {
+  font: inherit; padding: 6px 12px; border-radius: 8px;
+  border: 1px solid var(--line); background: var(--bg); color: var(--ink);
+}
+button.primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); cursor: pointer; font-weight: 600; }
+button:disabled { opacity: 0.5; cursor: wait; }
+
+/* Grading */
+.grade-box {
+  margin-top: 16px; padding: 16px 20px; background: var(--panel);
+  border: 1px solid var(--line); border-radius: 12px;
+}
+.grade-box label { display: inline-block; margin: 10px 0 6px; }
+.grade-box textarea {
+  width: 100%; font: inherit; padding: 10px; border-radius: 8px;
+  border: 1px solid var(--line); background: var(--bg); color: var(--ink);
+  resize: vertical; margin-top: 8px;
+}
+.answer-actions { display: flex; align-items: center; gap: 12px; margin-top: 10px; flex-wrap: wrap; }
+.file-label {
+  border: 1px dashed var(--line); border-radius: 8px; padding: 6px 12px;
+  cursor: pointer; color: var(--muted);
+}
+.file-label:hover { border-color: var(--accent); color: var(--accent); }
+/* Handwriting answer pad */
+.inkpad { margin: 4px 0 10px; }
+.ink-toolbar {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 10px; flex-wrap: wrap; margin-bottom: 8px;
+}
+.ink-hint { color: var(--muted); font-size: 13px; }
+.ink-tools { display: flex; gap: 8px; }
+.ink-tools button { padding: 6px 12px; font-size: 13px; cursor: pointer; }
+.ink-pages { display: flex; flex-direction: column; gap: 12px; }
+.ink-canvas {
+  width: 100%; height: 640px; display: block;
+  background: #ffffff; border: 1px solid var(--line); border-radius: 10px;
+  touch-action: pan-y; /* finger scrolls the page; Pencil draws */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06); cursor: crosshair;
+}
+.type-answer { margin: 4px 0 2px; }
+.type-answer > summary { cursor: pointer; color: var(--muted); font-size: 13px; }
+
+.feedback { margin-top: 14px; padding: 12px 16px; border-radius: 10px; border: 1px solid var(--line); }
+.feedback.correct { border-color: var(--good); }
+.feedback.partial { border-color: var(--warn); }
+.feedback.incorrect { border-color: #c94f4f; }
+.feedback .verdict { font-weight: 700; margin-bottom: 6px; }
+.md-inline p { margin: 6px 0; }
+.error { color: #c94f4f; }
+.toolbar { display: flex; justify-content: flex-end; margin-bottom: 8px; }
+
+/* Print / save-as-PDF: strip app chrome, force light ink, paginate cleanly */
+@media print {
+  :root {
+    --bg: #ffffff; --panel: #ffffff; --ink: #000000; --muted: #444444;
+    --line: #bbbbbb; --accent: #000000;
+  }
+  header, nav, .crumbs, .complete-box, .grade-box, .toolbar, .bar { display: none !important; }
+  body { background: #fff; color: #000; font-size: 12pt; }
+  main { max-width: none; padding: 0; }
+  .md { border: none; border-radius: 0; padding: 0; background: #fff; }
+  .md a { color: inherit; text-decoration: none; }
+  .md h1, .md h2, .md h3 { break-after: avoid; }
+  .md img, .md table, .md .katex-display, .md blockquote, .md details { break-inside: avoid; }
+  .md details { border: 1px solid #bbb; }
+  .md details summary { color: #000; }
+}

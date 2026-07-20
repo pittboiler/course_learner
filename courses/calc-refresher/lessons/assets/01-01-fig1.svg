@@ -1,0 +1,32 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- axes -->
+  <line x1="30" y1="300" x2="525" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="60" y1="18" x2="60" y2="322" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="525,300 515,295 515,305" fill="#8a8a8a"/>
+  <polygon points="60,18 55,28 65,28" fill="#8a8a8a"/>
+  <text x="532" y="305" fill="#8a8a8a">x</text>
+
+  <!-- secant through (a, f(a)) and (a+h, f(a+h)) -->
+  <line x1="225" y1="280.5" x2="480" y2="76.5" stroke="#7bb662" stroke-width="2" stroke-dasharray="7 5"/>
+  <text x="360" y="150" fill="#7bb662">secant, slope = Δf/Δx</text>
+
+  <!-- tangent at a -->
+  <line x1="150" y1="313.5" x2="465" y2="124.5" stroke="#e0645c" stroke-width="2"/>
+  <text x="120" y="200" fill="#e0645c">tangent at a,</text>
+  <text x="120" y="218" fill="#e0645c">slope = f′(a)</text>
+
+  <!-- curve y = x^2 -->
+  <path d="M 30 298.8 Q 255 316.8 480 64.8" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="490" y="60" fill="#4a90d9">f(x)</text>
+
+  <!-- droplines and points -->
+  <line x1="285" y1="232.5" x2="285" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="435" y1="112.5" x2="435" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <circle cx="285" cy="232.5" r="5" fill="#e0645c"/>
+  <circle cx="435" cy="112.5" r="5" fill="#7bb662"/>
+  <text x="280" y="318" fill="#8a8a8a">a</text>
+  <text x="418" y="318" fill="#8a8a8a">a + h</text>
+
+  <!-- caption -->
+  <text x="80" y="40" fill="#8a8a8a" font-style="italic">As h → 0, the secant swings into the tangent.</text>
+</svg>

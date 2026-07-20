@@ -1,0 +1,47 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- the epsilon-band around the limit f: everything between f-eps and f+eps -->
+  <path d="M 80 192 L 120 172 L 160 154 L 200 138 L 240 124 L 280 114 L 320 108 L 360 105 L 400 105 L 440 107 L 480 110
+           L 480 166 L 440 163 L 400 161 L 360 161 L 320 164 L 280 170 L 240 180 L 200 194 L 160 210 L 120 228 L 80 248 Z"
+        fill="#8a8a8a" opacity="0.15"/>
+
+  <!-- dashed band boundaries -->
+  <polyline points="80,192 120,172 160,154 200,138 240,124 280,114 320,108 360,105 400,105 440,107 480,110"
+            fill="none" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 4"/>
+  <polyline points="80,248 120,228 160,210 200,194 240,180 280,170 320,164 360,161 400,161 440,163 480,166"
+            fill="none" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 4"/>
+
+  <!-- axes -->
+  <line x1="40" y1="300" x2="530" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="60" y1="70" x2="60" y2="318" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="530,300 520,295 520,305" fill="#8a8a8a"/>
+  <text x="522" y="318" fill="#8a8a8a">x</text>
+
+  <!-- f_n : continuous, wiggling, but trapped inside the band -->
+  <polyline points="80,232 120,190 160,196 200,154 240,164 280,130 320,148 360,122 400,144 440,124 480,150"
+            fill="none" stroke="#e0645c" stroke-width="2.5"/>
+
+  <!-- the limit f : the spine of the band -->
+  <polyline points="80,220 120,200 160,182 200,166 240,152 280,142 320,136 360,133 400,133 440,135 480,138"
+            fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- vertical double-arrow showing half-width epsilon (f up to upper boundary) -->
+  <line x1="430" y1="135" x2="430" y2="107" stroke="#8a8a8a" stroke-width="1.2"/>
+  <polygon points="430,107 426,115 434,115" fill="#8a8a8a"/>
+  <polygon points="430,135 426,127 434,127" fill="#8a8a8a"/>
+  <text x="438" y="126" fill="#8a8a8a">&#949;</text>
+
+  <!-- point x0 and a nearby x, illustrating the wiggle that transfers -->
+  <line x1="240" y1="152" x2="240" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <circle cx="240" cy="152" r="4" fill="#4a90d9"/>
+  <text x="232" y="316" fill="#8a8a8a">x&#8320;</text>
+
+  <!-- labels -->
+  <text x="486" y="140" fill="#4a90d9">f</text>
+  <text x="486" y="153" fill="#e0645c">f&#8345;</text>
+  <text x="150" y="118" fill="#4a90d9" font-weight="bold">limit f</text>
+  <text x="150" y="266" fill="#e0645c">every f&#8345; (n &gt; N) lives in the band</text>
+
+  <!-- caption -->
+  <text x="70" y="52" fill="#8a8a8a" font-style="italic">Uniform convergence = one &#949;-band holds all late f&#8345; at once.</text>
+  <text x="70" y="90" fill="#8a8a8a" font-style="italic">A continuity wiggle of f&#8345; can only shift f by &#8804; &#949;/3 + &#949;/3 + &#949;/3.</text>
+</svg>

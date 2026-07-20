@@ -1,0 +1,37 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- Sample space Omega as a blob on the left -->
+  <ellipse cx="140" cy="190" rx="95" ry="110" fill="#f0f2f5" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="70" y="70" fill="#8a8a8a" font-style="italic">Ω  (sample space)</text>
+
+  <!-- Preimage X^{-1}(B): two lobes, to stress it need not be an interval -->
+  <path d="M 95 150 C 70 135, 70 185, 100 190 C 120 194, 130 165, 115 150 C 108 143, 102 145, 95 150 Z"
+        fill="#4a90d9" opacity="0.30" stroke="#4a90d9" stroke-width="1.5"/>
+  <path d="M 130 235 C 105 225, 108 270, 140 268 C 165 266, 168 238, 150 230 C 143 227, 136 230, 130 235 Z"
+        fill="#4a90d9" opacity="0.30" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="150" y="200" fill="#4a90d9" font-size="13">X⁻¹(B)</text>
+  <text x="150" y="216" fill="#4a90d9" font-size="11" font-style="italic">an event</text>
+
+  <!-- The map X: arrow from Omega to the real line -->
+  <line x1="242" y1="150" x2="352" y2="150" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="352,150 340,145 340,155" fill="#8a8a8a"/>
+  <text x="285" y="140" fill="#8a8a8a" font-style="italic">X</text>
+
+  <!-- Real line on the right -->
+  <line x1="330" y1="245" x2="545" y2="245" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="545,245 535,240 535,250" fill="#8a8a8a"/>
+  <text x="533" y="268" fill="#8a8a8a">ℝ</text>
+
+  <!-- Borel set B: a red segment on the line -->
+  <line x1="400" y1="245" x2="470" y2="245" stroke="#e0645c" stroke-width="5"/>
+  <line x1="400" y1="238" x2="400" y2="252" stroke="#e0645c" stroke-width="2.5"/>
+  <line x1="470" y1="238" x2="470" y2="252" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="425" y="230" fill="#e0645c">B</text>
+  <text x="388" y="292" fill="#e0645c" font-size="11" font-style="italic">a Borel set</text>
+
+  <!-- Dashed guides: preimage lobes map into B -->
+  <line x1="112" y1="170" x2="405" y2="243" stroke="#4a90d9" stroke-width="1" stroke-dasharray="3 4" opacity="0.7"/>
+  <line x1="140" y1="250" x2="460" y2="247" stroke="#4a90d9" stroke-width="1" stroke-dasharray="3 4" opacity="0.7"/>
+
+  <!-- Caption -->
+  <text x="30" y="325" fill="#8a8a8a" font-style="italic">Ask "is X in B?" — the ω that answer yes form X⁻¹(B). Measurability: that set is always an event.</text>
+</svg>

@@ -1,0 +1,56 @@
+<svg viewBox="0 0 640 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <defs>
+    <!-- arrowhead for the "generate" arrow -->
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#8a8a8a"/>
+    </marker>
+    <!-- cut the A-disc out of the red rectangle to show A^c -->
+    <mask id="cutA">
+      <rect x="250" y="175" width="120" height="84" fill="white"/>
+      <ellipse cx="288" cy="217" rx="24" ry="24" fill="black"/>
+    </mask>
+  </defs>
+
+  <text x="20" y="28" fill="#8a8a8a" font-style="italic">Insist on one event A, and the axioms force exactly these four — that closed set is a &#963;-algebra.</text>
+
+  <!-- ================= INPUT: the collection C = {A} ================= -->
+  <rect x="40" y="112" width="120" height="84" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <ellipse cx="78" cy="154" rx="24" ry="24" fill="#4a90d9" opacity="0.30"/>
+  <ellipse cx="78" cy="154" rx="24" ry="24" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="70" y="159" fill="#4a90d9">A</text>
+  <text x="150" y="126" fill="#8a8a8a" text-anchor="end">&#937;</text>
+  <text x="100" y="214" fill="#8a8a8a" text-anchor="middle">&#119966; = { A }</text>
+
+  <!-- ================= generate arrow ================= -->
+  <line x1="168" y1="154" x2="238" y2="154" stroke="#8a8a8a" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="203" y="145" fill="#8a8a8a" text-anchor="middle">&#963;( &#8901; )</text>
+  <text x="203" y="172" fill="#8a8a8a" text-anchor="middle" font-style="italic" font-size="12">generate</text>
+
+  <!-- ================= OUTPUT: sigma(A) = { empty, A, A^c, Omega } ================= -->
+
+  <!-- box 1: empty set -->
+  <rect x="250" y="50" width="120" height="84" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <ellipse cx="288" cy="92" rx="24" ry="24" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="310" y="152" fill="#8a8a8a" text-anchor="middle">&#8709;</text>
+
+  <!-- box 2: A -->
+  <rect x="400" y="50" width="120" height="84" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <ellipse cx="438" cy="92" rx="24" ry="24" fill="#4a90d9" opacity="0.30"/>
+  <ellipse cx="438" cy="92" rx="24" ry="24" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="460" y="152" fill="#4a90d9" text-anchor="middle">A</text>
+
+  <!-- box 3: A^c -->
+  <rect x="250" y="175" width="120" height="84" fill="#e0645c" opacity="0.28" mask="url(#cutA)"/>
+  <rect x="250" y="175" width="120" height="84" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <ellipse cx="288" cy="217" rx="24" ry="24" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <text x="310" y="277" fill="#e0645c" text-anchor="middle">A&#8288;&#7580;</text>
+
+  <!-- box 4: Omega -->
+  <rect x="400" y="175" width="120" height="84" fill="#8a8a8a" opacity="0.28"/>
+  <rect x="400" y="175" width="120" height="84" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="460" y="277" fill="#8a8a8a" text-anchor="middle">&#937;</text>
+
+  <!-- brace label for the output family -->
+  <text x="530" y="100" fill="#8a8a8a" font-style="italic" font-size="12">closed under</text>
+  <text x="530" y="118" fill="#8a8a8a" font-style="italic" font-size="12">&#172; and &#8746;</text>
+</svg>

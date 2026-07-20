@@ -1,0 +1,42 @@
+<svg viewBox="0 0 560 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- x-coordinate map: value v -> px = 280 + 160*v  (so -1->120, 0->280, 1/2->360, 1->440) -->
+
+  <!-- Lane 1: ambient open set U = (-1, 1/2) in R -->
+  <text x="40" y="55" fill="#4a90d9">U = (-1, ½)  open in ℝ</text>
+  <line x1="120" y1="70" x2="360" y2="70" stroke="#4a90d9" stroke-width="4"/>
+  <circle cx="120" cy="70" r="6" fill="white" stroke="#4a90d9" stroke-width="2.5"/>
+  <circle cx="360" cy="70" r="6" fill="white" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <!-- Lane 2: subspace A = [0,1] -->
+  <text x="40" y="125" fill="#8a8a8a">A = [0, 1]  the subspace</text>
+  <line x1="280" y1="140" x2="440" y2="140" stroke="#8a8a8a" stroke-width="6"/>
+  <circle cx="280" cy="140" r="6" fill="#8a8a8a"/>
+  <circle cx="440" cy="140" r="6" fill="#8a8a8a"/>
+
+  <!-- vertical guides showing the "cut" at 0 and 1/2 -->
+  <line x1="280" y1="70" x2="280" y2="230" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="360" y1="70" x2="360" y2="230" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- Lane 3: intersection A ∩ U = [0, 1/2) -->
+  <text x="40" y="200" fill="#e0645c">A ∩ U = [0, ½)  open in A</text>
+  <line x1="280" y1="210" x2="360" y2="210" stroke="#e0645c" stroke-width="5"/>
+  <circle cx="280" cy="210" r="6" fill="#e0645c"/>
+  <circle cx="360" cy="210" r="6" fill="white" stroke="#e0645c" stroke-width="2.5"/>
+
+  <!-- the real line -->
+  <line x1="40" y1="265" x2="520" y2="265" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="520,265 510,260 510,270" fill="#8a8a8a"/>
+  <text x="524" y="270" fill="#8a8a8a">ℝ</text>
+  <!-- ticks -->
+  <line x1="120" y1="261" x2="120" y2="269" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="112" y="284" fill="#8a8a8a">-1</text>
+  <line x1="280" y1="261" x2="280" y2="269" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="276" y="284" fill="#8a8a8a">0</text>
+  <line x1="360" y1="261" x2="360" y2="269" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="354" y="284" fill="#8a8a8a">½</text>
+  <line x1="440" y1="261" x2="440" y2="269" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="436" y="284" fill="#8a8a8a">1</text>
+
+  <!-- caption -->
+  <text x="40" y="30" fill="#8a8a8a" font-style="italic">Trace an ambient open set onto A: the left end 0 survives the cut, so [0, ½) is open in A.</text>
+</svg>

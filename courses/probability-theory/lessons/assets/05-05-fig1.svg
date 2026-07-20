@@ -1,0 +1,34 @@
+<svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- the band [a,b]: a nonneg martingale can only cross it upward finitely often -->
+  <rect x="70" y="140" width="535" height="60" fill="#4a90d9" opacity="0.12"/>
+  <line x1="70" y1="140" x2="605" y2="140" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="70" y1="200" x2="605" y2="200" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="44" y="145" fill="#8a8a8a">b</text>
+  <text x="44" y="205" fill="#8a8a8a">a</text>
+
+  <!-- almost-sure limit X_infinity: horizontal asymptote -->
+  <line x1="70" y1="170" x2="620" y2="170" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="612" y="164" fill="#e0645c" text-anchor="end" font-style="italic">X&#8734;</text>
+
+  <!-- axes -->
+  <line x1="60" y1="330" x2="628" y2="330" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="60" y1="60" x2="60" y2="330" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="628,330 618,325 618,335" fill="#8a8a8a"/>
+  <text x="620" y="348" fill="#8a8a8a">n</text>
+  <text x="30" y="66" fill="#8a8a8a">Xn</text>
+
+  <!-- the sample path: oscillates with shrinking amplitude, settles onto X_infinity -->
+  <polyline points="70,95 105,235 148,118 192,225 233,128 278,195 320,150 360,185 400,162 440,176 480,166 520,172 560,169 605,170"
+            fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <!-- first upcrossing: path rises through the band from below a to above b -->
+  <polygon points="140,132 135,143 145,143" fill="#e0645c"/>
+  <text x="150" y="118" fill="#e0645c" font-size="12">upcrossing 1</text>
+
+  <!-- second upcrossing -->
+  <polygon points="228,132 223,143 233,143" fill="#e0645c"/>
+  <text x="238" y="118" fill="#e0645c" font-size="12">upcrossing 2</text>
+
+  <!-- caption -->
+  <text x="72" y="80" fill="#8a8a8a" font-style="italic">Bounded in L&#185;, it can't drift or blow up &#8212; only finitely many upcrossings, so it settles.</text>
+</svg>

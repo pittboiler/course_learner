@@ -1,0 +1,45 @@
+<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- Goursat bisection: triangle split by edge-midpoints into 4 similar sub-triangles -->
+
+  <!-- vertices: A=(300,50) B=(90,330) C=(510,330); midpoints P=(195,190) Q=(300,330) R=(405,190) -->
+
+  <!-- sub-triangle fills -->
+  <polygon points="300,50 195,190 405,190" fill="#4a90d9" opacity="0.08"/>   <!-- top T1 -->
+  <polygon points="195,190 90,330 300,330" fill="#4a90d9" opacity="0.08"/>   <!-- lower-left T2 -->
+  <polygon points="405,190 300,330 510,330" fill="#4a90d9" opacity="0.08"/>  <!-- lower-right T3 -->
+  <polygon points="195,190 405,190 300,330" fill="#4a90d9" opacity="0.20"/>  <!-- middle (flipped) T4 -->
+
+  <!-- outer boundary of T -->
+  <polygon points="300,50 90,330 510,330" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+
+  <!-- interior midlines -->
+  <line x1="195" y1="190" x2="405" y2="190" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <line x1="195" y1="190" x2="300" y2="330" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <line x1="405" y1="190" x2="300" y2="330" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="5 4"/>
+
+  <!-- vertex + midpoint dots -->
+  <circle cx="300" cy="50" r="4" fill="#8a8a8a"/>
+  <circle cx="90" cy="330" r="4" fill="#8a8a8a"/>
+  <circle cx="510" cy="330" r="4" fill="#8a8a8a"/>
+  <circle cx="195" cy="190" r="4" fill="#8a8a8a"/>
+  <circle cx="300" cy="330" r="4" fill="#8a8a8a"/>
+  <circle cx="405" cy="190" r="4" fill="#8a8a8a"/>
+
+  <!-- sub-triangle labels -->
+  <text x="293" y="150" fill="#4a90d9" font-style="italic">T&#8321;</text>
+  <text x="168" y="290" fill="#4a90d9" font-style="italic">T&#8322;</text>
+  <text x="418" y="290" fill="#4a90d9" font-style="italic">T&#8323;</text>
+  <text x="290" y="240" fill="#4a90d9" font-style="italic">T&#8324;</text>
+
+  <!-- the shared horizontal interior edge, walked twice in opposite directions -->
+  <!-- blue: rightward (belongs to T1's boundary) -->
+  <line x1="225" y1="182" x2="368" y2="182" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="378,182 366,177 366,187" fill="#4a90d9"/>
+  <!-- red: leftward (belongs to T4's boundary) -->
+  <line x1="375" y1="198" x2="232" y2="198" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="222,198 234,193 234,203" fill="#e0645c"/>
+
+  <!-- caption -->
+  <text x="30" y="30" fill="#8a8a8a" font-style="italic">Bisect at the midpoints: &#8747;&#8706;T = &#8747;&#8706;T&#8321; + &#8747;&#8706;T&#8322; + &#8747;&#8706;T&#8323; + &#8747;&#8706;T&#8324;</text>
+  <text x="30" y="378" fill="#8a8a8a" font-style="italic">Every interior edge is traversed once each way (blue &#8594; and red &#8592;) &#8212; the two cancel, leaving only &#8706;T.</text>
+</svg>

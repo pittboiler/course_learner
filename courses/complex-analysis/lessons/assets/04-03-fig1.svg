@@ -1,0 +1,38 @@
+<svg viewBox="0 0 480 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- shaded annular region between gamma and C_rho: holomorphic integrand lives here -->
+  <path d="M 90 180
+           C 90 100, 160 55, 245 65
+           C 330 75, 410 120, 398 195
+           C 386 270, 300 305, 215 293
+           C 130 281, 90 258, 90 180 Z
+           M 236 195 A 36 36 0 1 0 308 195 A 36 36 0 1 0 236 195 Z"
+        fill="#4a90d9" fill-rule="evenodd" opacity="0.12"/>
+
+  <!-- outer contour gamma (blue) -->
+  <path d="M 90 180
+           C 90 100, 160 55, 245 65
+           C 330 75, 410 120, 398 195
+           C 386 270, 300 305, 215 293
+           C 130 281, 90 258, 90 180 Z"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- counterclockwise orientation arrow on gamma -->
+  <polygon points="398,195 388,182 404,180" fill="#4a90d9"/>
+
+  <!-- small circle C_rho around z0 (red) -->
+  <circle cx="272" cy="195" r="36" fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="272,159 261,166 262,152" fill="#e0645c"/>
+
+  <!-- radius rho -->
+  <line x1="272" y1="195" x2="308" y2="195" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="285" y="189" fill="#e0645c">&#961;</text>
+
+  <!-- the point z0 -->
+  <circle cx="272" cy="195" r="4.5" fill="#8a8a8a"/>
+  <text x="279" y="212" fill="#8a8a8a">z&#8320;</text>
+
+  <!-- labels -->
+  <text x="150" y="120" fill="#4a90d9">&#947;</text>
+  <text x="196" y="250" fill="#e0645c">C&#961;</text>
+  <text x="60" y="340" fill="#8a8a8a" font-style="italic">Shaded ring: integrand f(z)/(z&#8722;z&#8320;) is holomorphic &#8212; so &#8748;&#947; = &#8748;C&#961;.</text>
+</svg>

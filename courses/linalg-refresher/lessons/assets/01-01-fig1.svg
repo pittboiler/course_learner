@@ -1,0 +1,45 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- Grid origin at (80, 300); 1 unit = 55 px. v1 = (2,1) -> tip (190,245); v2 = (1,2) -> tip (135,190). -->
+  <!-- combination 2*v1 + 1*v2 = (5,4) -> tip (355,80) -->
+
+  <!-- filled parallelogram spanned by v1 and v2 (the unit cell) -->
+  <polygon points="80,300 190,245 245,135 135,190" fill="#4a90d9" opacity="0.18"/>
+
+  <!-- shaded combination parallelogram: from origin along 2*v1, then +v2 -->
+  <polygon points="80,300 300,190 355,80 135,190" fill="#e0645c" opacity="0.10"/>
+
+  <!-- axes -->
+  <line x1="30" y1="300" x2="540" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="80" y1="18" x2="80" y2="322" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="540,300 530,295 530,305" fill="#8a8a8a"/>
+  <polygon points="80,18 75,28 85,28" fill="#8a8a8a"/>
+  <text x="546" y="305" fill="#8a8a8a">x</text>
+  <text x="70" y="16" fill="#8a8a8a">y</text>
+
+  <!-- dashed guides showing 2*v1 then translate v2 to reach the target -->
+  <line x1="190" y1="245" x2="300" y2="190" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="300" y1="190" x2="355" y2="80" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="355" y1="80" x2="80" y2="80" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="355" y1="80" x2="355" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="62" y="85" fill="#8a8a8a">4</text>
+  <text x="350" y="318" fill="#8a8a8a">5</text>
+
+  <!-- v1 = (2,1), blue -->
+  <line x1="80" y1="300" x2="190" y2="245" stroke="#4a90d9" stroke-width="3"/>
+  <polygon points="190,245 178,244 185,255" fill="#4a90d9"/>
+  <text x="150" y="288" fill="#4a90d9">v&#8321;</text>
+
+  <!-- v2 = (1,2), red -->
+  <line x1="80" y1="300" x2="135" y2="190" stroke="#e0645c" stroke-width="3"/>
+  <polygon points="135,190 124,197 137,203" fill="#e0645c"/>
+  <text x="96" y="228" fill="#e0645c">v&#8322;</text>
+
+  <!-- resultant combination 2*v1 + v2 = (5,4), gray solid -->
+  <line x1="80" y1="300" x2="355" y2="80" stroke="#8a8a8a" stroke-width="2.5"/>
+  <polygon points="355,80 343,86 352,94" fill="#8a8a8a"/>
+  <circle cx="355" cy="80" r="4" fill="#8a8a8a"/>
+  <text x="362" y="76" fill="#8a8a8a">2v&#8321; + v&#8322; = (5, 4)</text>
+
+  <!-- caption -->
+  <text x="90" y="40" fill="#8a8a8a" font-style="italic">Every point of the plane is some c&#8321;v&#8321; + c&#8322;v&#8322; — the span of these two arrows is all of R&#178;.</text>
+</svg>

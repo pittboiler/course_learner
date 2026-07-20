@@ -1,0 +1,84 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <defs>
+    <marker id="cur" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#4a90d9"/>
+    </marker>
+  </defs>
+
+  <!-- ===================== SERIES LOOP (main) ===================== -->
+  <!-- top wire: corner -> R1 -> R2 -> corner -->
+  <line x1="100" y1="120" x2="150" y2="120" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="215" y1="120" x2="260" y2="120" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="325" y1="120" x2="360" y2="120" stroke="#8a8a8a" stroke-width="2"/>
+
+  <!-- R1 (zigzag) -->
+  <line x1="150" y1="120" x2="157" y2="120" stroke="#8a8a8a" stroke-width="2"/>
+  <path d="M157,120 L162,112 L172,128 L182,112 L192,128 L202,112 L207,120"
+        fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="207" y1="120" x2="215" y2="120" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="181" y="104" fill="#8a8a8a" text-anchor="middle">R₁</text>
+
+  <!-- R2 (zigzag) -->
+  <line x1="260" y1="120" x2="267" y2="120" stroke="#8a8a8a" stroke-width="2"/>
+  <path d="M267,120 L272,112 L282,128 L292,112 L302,128 L312,112 L317,120"
+        fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="317" y1="120" x2="325" y2="120" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="291" y="104" fill="#8a8a8a" text-anchor="middle">R₂</text>
+
+  <!-- right + bottom wires -->
+  <line x1="360" y1="120" x2="360" y2="270" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="360" y1="270" x2="100" y2="270" stroke="#8a8a8a" stroke-width="2"/>
+
+  <!-- left wire, broken for the battery -->
+  <line x1="100" y1="120" x2="100" y2="188" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="100" y1="202" x2="100" y2="270" stroke="#8a8a8a" stroke-width="2"/>
+
+  <!-- battery plates: long = +, short (thick) = - -->
+  <line x1="80" y1="188" x2="120" y2="188" stroke="#e0645c" stroke-width="2.5"/>
+  <line x1="90" y1="202" x2="110" y2="202" stroke="#e0645c" stroke-width="5"/>
+  <text x="128" y="187" fill="#e0645c" font-weight="bold">+</text>
+  <text x="128" y="210" fill="#e0645c" font-weight="bold">−</text>
+
+  <!-- emf label -->
+  <text x="52" y="199" fill="#e0645c">V</text>
+
+  <!-- current: exits +, flows clockwise -->
+  <line x1="115" y1="120" x2="141" y2="120" stroke="#4a90d9" stroke-width="2.5" marker-end="url(#cur)"/>
+  <text x="124" y="110" fill="#4a90d9" font-weight="bold">I</text>
+
+  <!-- junction dots -->
+  <circle cx="100" cy="120" r="3" fill="#8a8a8a"/>
+  <circle cx="360" cy="120" r="3" fill="#8a8a8a"/>
+
+  <text x="230" y="300" fill="#8a8a8a" text-anchor="middle" font-style="italic" font-size="12">series: one path, same I</text>
+
+  <!-- ===================== PARALLEL INSET ===================== -->
+  <text x="480" y="128" fill="#8a8a8a" font-style="italic" font-size="12">parallel</text>
+
+  <!-- rails -->
+  <line x1="420" y1="155" x2="420" y2="205" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="540" y1="155" x2="540" y2="205" stroke="#8a8a8a" stroke-width="2"/>
+  <!-- leads out -->
+  <line x1="400" y1="180" x2="420" y2="180" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="540" y1="180" x2="555" y2="180" stroke="#8a8a8a" stroke-width="2"/>
+
+  <!-- top branch -->
+  <line x1="420" y1="155" x2="460" y2="155" stroke="#8a8a8a" stroke-width="2"/>
+  <path d="M460,155 L465,147 L475,163 L485,147 L495,163 L505,147 L510,155"
+        fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="510" y1="155" x2="540" y2="155" stroke="#8a8a8a" stroke-width="2"/>
+
+  <!-- bottom branch -->
+  <line x1="420" y1="205" x2="460" y2="205" stroke="#8a8a8a" stroke-width="2"/>
+  <path d="M460,205 L465,197 L475,213 L485,197 L495,213 L505,197 L510,205"
+        fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="510" y1="205" x2="540" y2="205" stroke="#8a8a8a" stroke-width="2"/>
+
+  <circle cx="420" cy="180" r="3" fill="#8a8a8a"/>
+  <circle cx="540" cy="180" r="3" fill="#8a8a8a"/>
+
+  <text x="480" y="300" fill="#8a8a8a" text-anchor="middle" font-style="italic" font-size="12">parallel: shared ends, same V</text>
+
+  <!-- ===================== caption ===================== -->
+  <text x="40" y="326" fill="#8a8a8a" font-style="italic">The battery V drives current I clockwise; series adds resistance (Rₑ = R₁+R₂), parallel adds conductance.</text>
+</svg>

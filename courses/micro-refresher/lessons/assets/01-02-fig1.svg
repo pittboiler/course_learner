@@ -1,0 +1,44 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="72" y="34" fill="#8a8a8a" font-style="italic">The optimum: the budget line just touches the highest reachable indifference curve.</text>
+
+  <!-- unattainable indifference curve (x1 x2 = 36) -->
+  <path d="M 180 40 L 220 102 L 260 141.6 L 300 168 L 340 186.9 L 380 201 L 420 212 L 460 220.7"
+        fill="none" stroke="#c2c2c2" stroke-width="2" stroke-dasharray="4 4"/>
+  <text x="428" y="208" fill="#c2c2c2">unattainable</text>
+
+  <!-- attainable-but-beatable indifference curve (x1 x2 = 16), crosses budget twice -->
+  <path d="M 140 124 L 160 159.2 L 180 182.7 L 220 212 L 260 229.6 L 300 241.3 L 340 249.7 L 380 256"
+        fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="120" y="118" fill="#4a90d9">u = 16</text>
+
+  <!-- optimal (tangent) indifference curve (x1 x2 = 25) -->
+  <path d="M 160 80 L 180 116.7 L 200 142.9 L 220 162.5 L 240 177.8 L 260 190 L 300 208.3 L 340 221.4 L 380 231.25 L 420 238.9 L 460 245"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+  <text x="392" y="243" fill="#e0645c">u* = 25</text>
+
+  <!-- budget line: p1 x1 + p2 x2 = w -->
+  <line x1="60" y1="80" x2="460" y2="300" stroke="#555555" stroke-width="2.5"/>
+  <text x="86" y="72" fill="#555555">budget:  p·x = w</text>
+
+  <!-- axes -->
+  <line x1="30" y1="300" x2="540" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="60" y1="18" x2="60" y2="322" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="540,300 530,295 530,305" fill="#8a8a8a"/>
+  <polygon points="60,18 55,28 65,28" fill="#8a8a8a"/>
+  <text x="546" y="305" fill="#8a8a8a">x₁</text>
+  <text x="44" y="26" fill="#8a8a8a">x₂</text>
+
+  <!-- droplines to the optimum -->
+  <line x1="260" y1="190" x2="260" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="60" y1="190" x2="260" y2="190" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="253" y="318" fill="#8a8a8a">x₁*</text>
+  <text x="40" y="195" fill="#8a8a8a">x₂*</text>
+
+  <!-- optimum point -->
+  <circle cx="260" cy="190" r="5" fill="#e0645c"/>
+
+  <!-- tangency annotation -->
+  <text x="272" y="176" fill="#333333">MRS = p₁/p₂</text>
+  <line x1="300" y1="180" x2="268" y2="188" stroke="#333333" stroke-width="1" stroke-dasharray="3 3"/>
+</svg>

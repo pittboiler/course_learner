@@ -1,0 +1,33 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="70" y="20" fill="#8a8a8a" font-style="italic">Resonance: response amplitude peaks near ω₀ — taller and sharper when damping is light.</text>
+
+  <!-- axes -->
+  <line x1="30" y1="300" x2="540" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="60" y1="34" x2="60" y2="322" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="540,300 530,295 530,305" fill="#8a8a8a"/>
+  <polygon points="60,34 55,44 65,44" fill="#8a8a8a"/>
+  <text x="524" y="318" fill="#8a8a8a">ω (drive)</text>
+  <text x="14" y="50" fill="#8a8a8a">A(ω)</text>
+
+  <!-- natural-frequency marker -->
+  <line x1="290" y1="70" x2="290" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="282" y="318" fill="#8a8a8a">ω₀</text>
+
+  <!-- broad, heavily damped (small Q) -->
+  <path d="M 60 252 L 106 250.4 L 152 245 L 198 234.6 L 221 227.3 L 244 220 L 267 216.1 L 290 220 L 313 230.7 L 336 243.1 L 382 262.4 L 428 273.8 L 474 280.7 L 520 285.1"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- sharp, lightly damped (large Q) -->
+  <path d="M 60 252 L 106 250 L 152 243.1 L 175 236.5 L 198 226.3 L 221 209.2 L 244 178.2 L 255.5 152.5 L 267 116.6 L 278.5 75.2 L 290 60 L 301.5 94.6 L 313 142.2 L 324.5 178.9 L 336 204.2 L 359 234.9 L 382 252 L 405 262.7 L 428 269.9 L 474 278.8 L 520 284.1"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+
+  <!-- peak marker -->
+  <circle cx="290" cy="60" r="5" fill="#e0645c"/>
+
+  <!-- labels -->
+  <text x="332" y="120" fill="#e0645c">light damping (large Q): tall, sharp</text>
+  <line x1="330" y1="115" x2="296" y2="66" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="360" y="196" fill="#4a90d9">heavy damping (small Q): low, broad</text>
+  <line x1="358" y1="191" x2="300" y2="222" stroke="#4a90d9" stroke-width="1" stroke-dasharray="3 4"/>
+</svg>

@@ -1,0 +1,29 @@
+<svg viewBox="0 0 560 220" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="60" y="30" fill="#8a8a8a" font-style="italic">Two cases, no overlap, nothing left out: every real x is either &lt; 0 or ≥ 0.</text>
+
+  <!-- case bands under the line -->
+  <rect x="40" y="96" width="240" height="18" fill="#4a90d9" opacity="0.15"/>
+  <rect x="280" y="96" width="240" height="18" fill="#e0645c" opacity="0.15"/>
+
+  <!-- number line -->
+  <line x1="30" y1="105" x2="530" y2="105" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="530,105 520,100 520,110" fill="#8a8a8a"/>
+  <polygon points="30,105 40,100 40,110" fill="#8a8a8a"/>
+
+  <!-- split point at 0 -->
+  <line x1="280" y1="78" x2="280" y2="132" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <circle cx="280" cy="105" r="5" fill="#8a8a8a"/>
+  <text x="275" y="152" fill="#8a8a8a">0</text>
+
+  <!-- tick labels -->
+  <text x="150" y="152" fill="#4a90d9">x &lt; 0</text>
+  <text x="395" y="152" fill="#e0645c">x ≥ 0</text>
+
+  <!-- case definitions -->
+  <text x="90" y="185" fill="#4a90d9">Case 1:  |x| = −x</text>
+  <text x="340" y="185" fill="#e0645c">Case 2:  |x| = x</text>
+
+  <!-- both give |x| ≥ 0 -->
+  <text x="60" y="70" fill="#8a8a8a">|x| is defined by a split at 0 — you prove a fact about |x| by proving it on each side.</text>
+</svg>

@@ -1,0 +1,72 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <!-- ============ SYMMETRIC MODE (row 1) ============ -->
+  <text x="45" y="30" fill="#8a8a8a" font-style="italic">Symmetric mode: masses move in phase — middle spring never stretches — lower frequency</text>
+
+  <!-- left wall -->
+  <line x1="45" y1="72" x2="45" y2="118" stroke="#555" stroke-width="3"/>
+  <line x1="45" y1="74" x2="38" y2="81" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="45" y1="86" x2="38" y2="93" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="45" y1="98" x2="38" y2="105" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="45" y1="110" x2="38" y2="117" stroke="#8a8a8a" stroke-width="1"/>
+  <!-- right wall -->
+  <line x1="515" y1="72" x2="515" y2="118" stroke="#555" stroke-width="3"/>
+  <line x1="515" y1="74" x2="522" y2="81" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="515" y1="86" x2="522" y2="93" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="515" y1="98" x2="522" y2="105" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="515" y1="110" x2="522" y2="117" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- springs -->
+  <path d="M45,95 l12,0 l7,-9 l7,9 l7,-9 l7,9 l7,-9 l7,9 l7,-9 l7,9 l7,-9 l7,9 l7,-9 l7,9 l7,-9 l7,9 l7,-9 l7,9 l18,0" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <path d="M223,95 l12,0 l7,-9 l7,9 l7,-9 l7,9 l7,-9 l7,9 l7,-9 l7,9 l7,-9 l7,9 l7,-9 l7,9 l18,0" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <path d="M373,95 l12,0 l7,-9 l7,9 l7,-9 l7,9 l7,-9 l7,9 l7,-9 l7,9 l7,-9 l7,9 l7,-9 l7,9 l7,-9 l7,9 l7,-9 l7,9 l18,0" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- masses -->
+  <rect x="187" y="77" width="36" height="36" rx="3" fill="#cfe0f0" stroke="#4a90d9" stroke-width="2"/>
+  <rect x="337" y="77" width="36" height="36" rx="3" fill="#cfe0f0" stroke="#4a90d9" stroke-width="2"/>
+  <text x="205" y="100" fill="#333" text-anchor="middle">m</text>
+  <text x="355" y="100" fill="#333" text-anchor="middle">m</text>
+
+  <!-- in-phase arrows (both right) -->
+  <line x1="197" y1="62" x2="233" y2="62" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="240,62 231,58 231,66" fill="#4a90d9"/>
+  <line x1="347" y1="62" x2="383" y2="62" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="390,62 381,58 381,66" fill="#4a90d9"/>
+  <text x="430" y="66" fill="#4a90d9">&#969;&#8321; = &#8730;(k/m)</text>
+
+  <!-- ============ ANTISYMMETRIC MODE (row 2) ============ -->
+  <text x="45" y="200" fill="#8a8a8a" font-style="italic">Antisymmetric mode: masses move out of phase — middle spring stretches hard — higher frequency</text>
+
+  <!-- left wall -->
+  <line x1="45" y1="232" x2="45" y2="278" stroke="#555" stroke-width="3"/>
+  <line x1="45" y1="234" x2="38" y2="241" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="45" y1="246" x2="38" y2="253" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="45" y1="258" x2="38" y2="265" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="45" y1="270" x2="38" y2="277" stroke="#8a8a8a" stroke-width="1"/>
+  <!-- right wall -->
+  <line x1="515" y1="232" x2="515" y2="278" stroke="#555" stroke-width="3"/>
+  <line x1="515" y1="234" x2="522" y2="241" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="515" y1="246" x2="522" y2="253" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="515" y1="258" x2="522" y2="265" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="515" y1="270" x2="522" y2="277" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- springs -->
+  <path d="M45,255 l12,0 l7,-9 l7,9 l7,-9 l7,9 l7,-9 l7,9 l7,-9 l7,9 l7,-9 l7,9 l7,-9 l7,9 l7,-9 l7,9 l7,-9 l7,9 l18,0" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <path d="M223,255 l12,0 l7,-9 l7,9 l7,-9 l7,9 l7,-9 l7,9 l7,-9 l7,9 l7,-9 l7,9 l7,-9 l7,9 l18,0" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <path d="M373,255 l12,0 l7,-9 l7,9 l7,-9 l7,9 l7,-9 l7,9 l7,-9 l7,9 l7,-9 l7,9 l7,-9 l7,9 l7,-9 l7,9 l18,0" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- masses -->
+  <rect x="187" y="237" width="36" height="36" rx="3" fill="#f4d4d1" stroke="#e0645c" stroke-width="2"/>
+  <rect x="337" y="237" width="36" height="36" rx="3" fill="#f4d4d1" stroke="#e0645c" stroke-width="2"/>
+  <text x="205" y="260" fill="#333" text-anchor="middle">m</text>
+  <text x="355" y="260" fill="#333" text-anchor="middle">m</text>
+
+  <!-- out-of-phase arrows (left mass left, right mass right) -->
+  <line x1="213" y1="222" x2="177" y2="222" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="170,222 179,218 179,226" fill="#e0645c"/>
+  <line x1="347" y1="222" x2="383" y2="222" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="390,222 381,218 381,226" fill="#e0645c"/>
+  <text x="430" y="226" fill="#e0645c">&#969;&#8322; = &#8730;(3k/m)</text>
+
+  <!-- caption -->
+  <text x="45" y="325" fill="#8a8a8a" font-style="italic">Two masses m, three identical springs k (wall&#8211;m&#8211;m&#8211;wall). Any motion is a mix of these two normal modes.</text>
+</svg>

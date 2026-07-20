@@ -1,0 +1,42 @@
+<svg viewBox="0 0 560 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- LEFT: the circle S^1 with an antipodal pair at equal temperature -->
+  <!-- warm and cool halves, just a visual hint that f varies around the loop -->
+  <path d="M 150 70 A 100 100 0 0 1 150 270" fill="none" stroke="#e0645c" stroke-width="6" opacity="0.9"/>
+  <path d="M 150 70 A 100 100 0 0 0 150 270" fill="none" stroke="#4a90d9" stroke-width="6" opacity="0.9"/>
+
+  <!-- diameter through the antipodal pair -->
+  <line x1="224.3" y1="103.1" x2="75.7" y2="236.9" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <circle cx="150" cy="170" r="3" fill="#8a8a8a"/>
+
+  <!-- antipodal points x and -x -->
+  <circle cx="224.3" cy="103.1" r="6" fill="#333333"/>
+  <circle cx="75.7" cy="236.9" r="6" fill="#333333"/>
+  <text x="234" y="98" fill="#333333">x</text>
+  <text x="38" y="250" fill="#333333">&#8722;x</text>
+
+  <!-- equal-temperature callouts -->
+  <text x="228" y="128" fill="#333333" font-style="italic">f(x)</text>
+  <text x="30" y="228" fill="#333333" font-style="italic">f(&#8722;x)</text>
+  <text x="118" y="315" fill="#333333">f(x) = f(&#8722;x)</text>
+
+  <text x="150" y="52" fill="#8a8a8a" text-anchor="middle">S&#185; (the equator)</text>
+
+  <!-- RIGHT: the auxiliary function g(x) = f(x) - f(-x) crossing zero -->
+  <!-- axes -->
+  <line x1="330" y1="170" x2="540" y2="170" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="360" y1="70" x2="360" y2="270" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="546" y="174" fill="#8a8a8a">x</text>
+  <text x="366" y="82" fill="#8a8a8a">g</text>
+
+  <!-- g curve: starts positive, ends its mirror negative, must cross 0 -->
+  <path d="M 360 110 C 400 95, 430 130, 460 170 C 490 210, 515 245, 535 230"
+        fill="none" stroke="#7b52c9" stroke-width="3"/>
+  <!-- the guaranteed zero -->
+  <circle cx="460" cy="170" r="5" fill="#7b52c9"/>
+  <line x1="460" y1="170" x2="460" y2="185" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="446" y="200" fill="#7b52c9">g = 0</text>
+
+  <text x="366" y="108" fill="#7b52c9" font-style="italic">g(x) &gt; 0</text>
+  <text x="470" y="248" fill="#7b52c9" font-style="italic">g(&#8722;x) = &#8722;g(x) &lt; 0</text>
+  <text x="435" y="300" fill="#8a8a8a" text-anchor="middle">opposite signs on a connected loop &#8594; a zero</text>
+</svg>

@@ -1,0 +1,34 @@
+<svg viewBox="0 0 400 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- one plane, three unit balls centered at the origin (200,200), radius 1 = 110px -->
+
+  <!-- d_inf ball: the square |x|,|y| < 1 -->
+  <rect x="90" y="90" width="220" height="220" fill="#8a8a8a" opacity="0.10"/>
+  <rect x="90" y="90" width="220" height="220" fill="none" stroke="#8a8a8a" stroke-width="3"/>
+
+  <!-- d_2 ball: the round disk x^2+y^2 < 1 -->
+  <circle cx="200" cy="200" r="110" fill="#4a90d9" opacity="0.12"/>
+  <circle cx="200" cy="200" r="110" fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- d_1 ball: the diamond |x|+|y| < 1 -->
+  <polygon points="200,90 310,200 200,310 90,200" fill="#e0645c" opacity="0.14"/>
+  <polygon points="200,90 310,200 200,310 90,200" fill="none" stroke="#e0645c" stroke-width="3"/>
+
+  <!-- axes -->
+  <line x1="40" y1="200" x2="360" y2="200" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="200" y1="40" x2="200" y2="360" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="360,200 350,195 350,205" fill="#8a8a8a"/>
+  <polygon points="200,40 195,50 205,50" fill="#8a8a8a"/>
+
+  <!-- center + unit tick -->
+  <circle cx="200" cy="200" r="3.5" fill="#8a8a8a"/>
+  <text x="188" y="222" fill="#8a8a8a">0</text>
+  <text x="312" y="196" fill="#8a8a8a">1</text>
+
+  <!-- labels -->
+  <text x="300" y="118" fill="#8a8a8a">square: d∞</text>
+  <text x="286" y="150" fill="#4a90d9">circle: d₂</text>
+  <text x="212" y="196" fill="#e0645c">diamond: d₁</text>
+
+  <!-- caption -->
+  <text x="40" y="376" fill="#8a8a8a" font-style="italic" font-size="13">One plane, three unit balls — all "within 1 of the origin."</text>
+</svg>

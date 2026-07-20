@@ -1,0 +1,34 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="60" y="30" fill="#8a8a8a" font-style="italic">Only the force component along the motion does work: W = F d cos θ.</text>
+
+  <!-- ground / displacement line -->
+  <line x1="60" y1="235" x2="520" y2="235" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- box being dragged -->
+  <rect x="100" y="205" width="50" height="30" fill="#8a8a8a" opacity="0.18" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- displacement vector d (blue) -->
+  <line x1="150" y1="235" x2="440" y2="235" stroke="#4a90d9" stroke-width="3"/>
+  <polygon points="440,235 428,229 428,241" fill="#4a90d9"/>
+  <text x="300" y="228" fill="#4a90d9">displacement d</text>
+
+  <!-- force vector F (red) at angle theta -->
+  <line x1="150" y1="235" x2="264.9" y2="138.6" stroke="#e0645c" stroke-width="3"/>
+  <polygon points="264.9,138.6 259.6,150.9 251.8,141.7" fill="#e0645c"/>
+  <text x="272" y="134" fill="#e0645c">F</text>
+
+  <!-- angle theta arc -->
+  <path d="M 195 235 A 45 45 0 0 0 184.5 206.1" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="200" y="222" fill="#8a8a8a">θ</text>
+
+  <!-- dropline: perpendicular part (gray dashed) -->
+  <line x1="264.9" y1="138.6" x2="264.9" y2="246" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="274" y="192" fill="#8a8a8a">F sin θ — no work</text>
+
+  <!-- component F cos theta along the motion (red bracket below the line) -->
+  <line x1="150" y1="252" x2="264.9" y2="252" stroke="#e0645c" stroke-width="3"/>
+  <line x1="150" y1="247" x2="150" y2="257" stroke="#e0645c" stroke-width="2"/>
+  <line x1="264.9" y1="247" x2="264.9" y2="257" stroke="#e0645c" stroke-width="2"/>
+  <text x="158" y="272" fill="#e0645c">F cos θ (does the work)</text>
+</svg>

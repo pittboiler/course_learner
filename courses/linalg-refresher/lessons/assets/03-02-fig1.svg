@@ -1,0 +1,38 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <defs>
+    <marker id="blue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <polygon points="0,0 9,3 0,6" fill="#4a90d9"/>
+    </marker>
+    <marker id="red" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <polygon points="0,0 9,3 0,6" fill="#e0645c"/>
+    </marker>
+  </defs>
+
+  <!-- eigen-axes through the origin (the eigenbasis) -->
+  <line x1="90" y1="260" x2="315" y2="35" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="3 4"/>
+  <line x1="72" y1="122" x2="248" y2="298" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="3 4"/>
+  <text x="300" y="34" fill="#8a8a8a">&#955; = 3 direction (stretch &#215;3)</text>
+  <text x="188" y="300" fill="#8a8a8a">&#955; = 1 direction (fixed)</text>
+
+  <!-- origin -->
+  <circle cx="150" cy="200" r="4" fill="#8a8a8a"/>
+  <text x="130" y="216" fill="#8a8a8a">O</text>
+
+  <!-- offset guides: each vector dropped onto the lambda=3 axis (offset = lambda=1 component) -->
+  <line x1="215" y1="187" x2="189" y2="161" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 3"/>
+  <line x1="293" y1="109" x2="267" y2="83" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 3"/>
+  <circle cx="189" cy="161" r="3" fill="#8a8a8a"/>
+  <circle cx="267" cy="83" r="3" fill="#8a8a8a"/>
+
+  <!-- the vector x and its image Ax -->
+  <line x1="150" y1="200" x2="215" y2="187" stroke="#4a90d9" stroke-width="3" marker-end="url(#blue)"/>
+  <line x1="150" y1="200" x2="293" y2="109" stroke="#e0645c" stroke-width="3" marker-end="url(#red)"/>
+  <text x="222" y="188" fill="#4a90d9">x = (2.5, 0.5)</text>
+  <text x="300" y="108" fill="#e0645c">A x = (5.5, 3.5)</text>
+
+  <!-- feet ticks showing the 3x stretch of the lambda=3 component -->
+  <text x="150" y="150" fill="#8a8a8a" font-size="12">foot moves 3&#215; out</text>
+
+  <!-- caption -->
+  <text x="70" y="330" fill="#8a8a8a" font-style="italic">In the eigenbasis A is pure scaling: the &#955;=3 component triples, the &#955;=1 component holds &#8212; so A only bends x toward the &#955;=3 line.</text>
+</svg>

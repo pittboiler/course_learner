@@ -1,0 +1,35 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- zero baseline: the rod, and the fixed-zero boundary condition -->
+  <line x1="40" y1="175" x2="545" y2="175" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="545,175 535,170 535,180" fill="#8a8a8a"/>
+  <text x="548" y="180" fill="#8a8a8a">x</text>
+
+  <!-- endpoints x = 0 and x = L, where every mode is pinned to zero -->
+  <line x1="70" y1="70" x2="70" y2="285" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="530" y1="70" x2="530" y2="285" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <circle cx="70" cy="175" r="4" fill="#8a8a8a"/>
+  <circle cx="530" cy="175" r="4" fill="#8a8a8a"/>
+  <text x="62" y="303" fill="#8a8a8a">0</text>
+  <text x="525" y="303" fill="#8a8a8a">L</text>
+
+  <!-- n = 1: one hump, the slowest-decaying mode -->
+  <path d="M 70 175 L 93 160 L 116 146 L 139 132 L 162 119 L 185 108 L 208 98 L 231 90 L 254 85 L 277 81 L 300 80 L 323 81 L 346 85 L 369 90 L 392 98 L 415 108 L 438 119 L 461 132 L 484 146 L 507 160 L 530 175"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- n = 2: one node in the middle -->
+  <path d="M 70 175 L 93 146 L 116 119 L 139 98 L 162 85 L 185 80 L 208 85 L 231 98 L 254 119 L 277 146 L 300 175 L 323 204 L 346 231 L 369 252 L 392 265 L 415 270 L 438 265 L 461 252 L 484 231 L 507 204 L 530 175"
+        fill="none" stroke="#e0645c" stroke-width="2.5"/>
+
+  <!-- n = 3: two interior nodes, wiggliest → fastest decay -->
+  <path d="M 70 175 L 93 132 L 116 98 L 139 81 L 162 85 L 185 108 L 208 146 L 231 190 L 254 231 L 277 260 L 300 270 L 323 260 L 346 231 L 369 190 L 392 146 L 415 108 L 438 85 L 461 81 L 484 98 L 507 132 L 530 175"
+        fill="none" stroke="#4aa06a" stroke-width="2"/>
+
+  <!-- labels -->
+  <text x="300" y="72" fill="#4a90d9" text-anchor="middle">sin(πx/L)  ·  n = 1</text>
+  <text x="185" y="54" fill="#e0645c">sin(2πx/L)  ·  n = 2</text>
+  <text x="300" y="292" fill="#4aa06a" text-anchor="middle">sin(3πx/L)  ·  n = 3</text>
+
+  <!-- caption -->
+  <text x="40" y="30" fill="#8a8a8a" font-style="italic">Standing-wave modes on [0, L], all pinned to zero at both ends.</text>
+  <text x="40" y="332" fill="#8a8a8a" font-style="italic">More wiggles → larger λₙ → the heat factor e^(−αλₙt) decays faster: high modes vanish first.</text>
+</svg>

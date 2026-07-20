@@ -1,0 +1,39 @@
+<svg viewBox="0 0 580 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <defs>
+    <marker id="ah" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#8a8a8a"/>
+    </marker>
+  </defs>
+
+  <!-- italic caption -->
+  <text x="40" y="30" fill="#8a8a8a" font-style="italic">Base case topples the first; the inductive step passes the fall down the whole line.</text>
+
+  <!-- ground line -->
+  <line x1="40" y1="250" x2="560" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- Domino 1: the base case, already tipping into the next -->
+  <rect x="89" y="170" width="22" height="80" fill="#e0645c" opacity="0.18"
+        stroke="#e0645c" stroke-width="2.5" transform="rotate(40 111 250)"/>
+  <!-- motion guide showing where it fell from -->
+  <rect x="89" y="170" width="22" height="80" fill="none"
+        stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- Upright dominoes 2..5 (blue) -->
+  <rect x="199" y="170" width="22" height="80" fill="#4a90d9" opacity="0.12" stroke="#4a90d9" stroke-width="2.5"/>
+  <rect x="299" y="170" width="22" height="80" fill="#4a90d9" opacity="0.12" stroke="#4a90d9" stroke-width="2.5"/>
+  <rect x="399" y="170" width="22" height="80" fill="#4a90d9" opacity="0.12" stroke="#4a90d9" stroke-width="2.5"/>
+  <rect x="499" y="170" width="22" height="80" fill="#4a90d9" opacity="0.12" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <!-- Arrows: each domino tips the next, labelled P(k) => P(k+1) -->
+  <line x1="150" y1="205" x2="196" y2="205" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#ah)"/>
+  <line x1="224" y1="205" x2="296" y2="205" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#ah)"/>
+  <line x1="324" y1="205" x2="396" y2="205" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#ah)"/>
+  <line x1="424" y1="205" x2="496" y2="205" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#ah)"/>
+
+  <!-- inductive-step label over one representative arrow -->
+  <text x="330" y="195" fill="#4a90d9">P(k) ⟹ P(k+1)</text>
+
+  <!-- base-case label -->
+  <text x="70" y="278" fill="#e0645c">base case P(1)</text>
+  <text x="360" y="278" fill="#4a90d9" font-style="italic">…and so on for every n</text>
+</svg>

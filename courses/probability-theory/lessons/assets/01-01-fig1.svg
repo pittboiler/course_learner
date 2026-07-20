@@ -1,0 +1,57 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="26" fill="#8a8a8a" font-style="italic">[0,1) glued end to end: "add q mod 1" becomes "rotate by q".</text>
+
+  <!-- the circle = [0,1) wrapped -->
+  <circle cx="200" cy="185" r="120" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- the seam at 0 = 1 -->
+  <line x1="320" y1="185" x2="336" y2="185" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="326" y="205" fill="#8a8a8a">0=1</text>
+
+  <!-- rotation arrow: adding q -->
+  <path d="M 296 118 A 120 120 0 0 0 262 78" fill="none" stroke="#8a8a8a" stroke-width="1.2" stroke-dasharray="3 4"/>
+  <polygon points="262,78 272,80 266,89" fill="#8a8a8a"/>
+  <text x="278" y="96" fill="#8a8a8a">+q</text>
+
+  <!-- V (grey): the chosen representatives -->
+  <circle cx="315.9" cy="153.9" r="5" fill="#8a8a8a"/>
+  <circle cx="241.0" cy="72.2"  r="5" fill="#8a8a8a"/>
+  <circle cx="131.2" cy="86.7"  r="5" fill="#8a8a8a"/>
+  <circle cx="84.1"  cy="216.1" r="5" fill="#8a8a8a"/>
+  <circle cx="168.9" cy="300.9" r="5" fill="#8a8a8a"/>
+  <circle cx="291.9" cy="262.1" r="5" fill="#8a8a8a"/>
+
+  <!-- V + q1 (blue): a rotated copy -->
+  <circle cx="295.8" cy="112.8" r="5" fill="#4a90d9"/>
+  <circle cx="195.8" cy="65.1"  r="5" fill="#4a90d9"/>
+  <circle cx="99.3"  cy="119.6" r="5" fill="#4a90d9"/>
+  <circle cx="104.2" cy="257.2" r="5" fill="#4a90d9"/>
+  <circle cx="214.6" cy="304.1" r="5" fill="#4a90d9"/>
+  <circle cx="314.1" cy="222.1" r="5" fill="#4a90d9"/>
+
+  <!-- V + q2 (red): another rotated copy -->
+  <circle cx="261.8" cy="82.1"  r="5" fill="#e0645c"/>
+  <circle cx="151.2" cy="75.4"  r="5" fill="#e0645c"/>
+  <circle cx="82.2"  cy="162.1" r="5" fill="#e0645c"/>
+  <circle cx="138.2" cy="287.9" r="5" fill="#e0645c"/>
+  <circle cx="258.2" cy="290.0" r="5" fill="#e0645c"/>
+  <circle cx="319.7" cy="176.6" r="5" fill="#e0645c"/>
+
+  <!-- legend / the argument -->
+  <circle cx="378" cy="70" r="5" fill="#8a8a8a"/>
+  <text x="392" y="75" fill="#8a8a8a">V</text>
+  <circle cx="378" cy="98" r="5" fill="#4a90d9"/>
+  <text x="392" y="103" fill="#4a90d9">V ⊕ q₁</text>
+  <circle cx="378" cy="126" r="5" fill="#e0645c"/>
+  <text x="392" y="131" fill="#e0645c">V ⊕ q₂</text>
+  <text x="378" y="159" fill="#8a8a8a">… ⊕ q₃, q₄, …</text>
+
+  <text x="378" y="200" fill="#8a8a8a">Every copy is congruent</text>
+  <text x="378" y="220" fill="#8a8a8a">(same size p), disjoint,</text>
+  <text x="378" y="240" fill="#8a8a8a">and together they fill</text>
+  <text x="378" y="260" fill="#8a8a8a">the whole circle.</text>
+
+  <text x="378" y="296" fill="#e0645c">p + p + p + ⋯ = 1 ?</text>
+  <text x="378" y="316" fill="#8a8a8a">Impossible: 0 or ∞, never 1.</text>
+</svg>

@@ -1,0 +1,40 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- staircase: left-endpoint bars of height 1/n^2 over [n, n+1], sitting above the curve -->
+  <rect x="90"  y="60"    width="70" height="240"  fill="#4a90d9" opacity="0.18" stroke="#4a90d9" stroke-width="1"/>
+  <rect x="160" y="240"   width="70" height="60"   fill="#4a90d9" opacity="0.18" stroke="#4a90d9" stroke-width="1"/>
+  <rect x="230" y="273.3" width="70" height="26.7" fill="#4a90d9" opacity="0.18" stroke="#4a90d9" stroke-width="1"/>
+  <rect x="300" y="285"   width="70" height="15"   fill="#4a90d9" opacity="0.18" stroke="#4a90d9" stroke-width="1"/>
+  <rect x="370" y="290.4" width="70" height="9.6"  fill="#4a90d9" opacity="0.18" stroke="#4a90d9" stroke-width="1"/>
+  <rect x="440" y="293.3" width="70" height="6.7"  fill="#4a90d9" opacity="0.18" stroke="#4a90d9" stroke-width="1"/>
+
+  <!-- axes -->
+  <line x1="30" y1="300" x2="540" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="60" y1="18"  x2="60"  y2="322" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="540,300 530,295 530,305" fill="#8a8a8a"/>
+  <polygon points="60,18 55,28 65,28" fill="#8a8a8a"/>
+  <text x="546" y="305" fill="#8a8a8a">x</text>
+
+  <!-- integer tick labels at bar left edges -->
+  <text x="86"  y="318" fill="#8a8a8a">1</text>
+  <text x="156" y="318" fill="#8a8a8a">2</text>
+  <text x="226" y="318" fill="#8a8a8a">3</text>
+  <text x="296" y="318" fill="#8a8a8a">4</text>
+  <text x="366" y="318" fill="#8a8a8a">5</text>
+  <text x="436" y="318" fill="#8a8a8a">6</text>
+
+  <!-- droplines marking the first term a_1 = 1 -->
+  <line x1="60" y1="60" x2="90" y2="60" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="46" y="65" fill="#8a8a8a">1</text>
+
+  <!-- curve y = 1/x^2 (x=1 at px 90, 70 px per unit) -->
+  <path d="M 90 60 L 125 106.7 L 160 240 L 195 261.6 L 230 273.3 L 265 280.4 L 300 285 L 370 290.4 L 440 293.3 L 510 295.1"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+
+  <!-- labels -->
+  <text x="250" y="130" fill="#4a90d9">bars: the series &#931; 1/n&#178;  (each bar = one term)</text>
+  <text x="250" y="154" fill="#e0645c">curve: the integral &#8747; 1/x&#178; dx</text>
+  <line x1="330" y1="162" x2="300" y2="283" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- caption -->
+  <text x="80" y="38" fill="#8a8a8a" font-style="italic">Each bar caps the curve on its strip, so the series and the improper integral live or die together.</text>
+</svg>

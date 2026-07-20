@@ -1,0 +1,41 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="60" y="28" fill="#8a8a8a" font-style="italic">Partial sums of an alternating series bracket the limit — each step overshoots by less.</text>
+
+  <!-- the limit line S -->
+  <line x1="45" y1="195" x2="540" y2="195" stroke="#4a90d9" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="46" y="188" fill="#4a90d9">S = ln 2</text>
+
+  <!-- baseline / n-axis -->
+  <line x1="45" y1="315" x2="540" y2="315" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="540,315 530,310 530,320" fill="#8a8a8a"/>
+  <text x="536" y="333" fill="#8a8a8a">n</text>
+
+  <!-- zigzag through the partial sums -->
+  <polyline points="60,62 126,278 191,134 257,242 323,156 389,228 454,166 520,220"
+            fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- odd partial sums (above S) in red -->
+  <circle cx="60"  cy="62"  r="4.5" fill="#e0645c"/>
+  <circle cx="191" cy="134" r="4.5" fill="#e0645c"/>
+  <circle cx="323" cy="156" r="4.5" fill="#e0645c"/>
+  <circle cx="454" cy="166" r="4.5" fill="#e0645c"/>
+  <!-- even partial sums (below S) in blue -->
+  <circle cx="126" cy="278" r="4.5" fill="#4a90d9"/>
+  <circle cx="257" cy="242" r="4.5" fill="#4a90d9"/>
+  <circle cx="389" cy="228" r="4.5" fill="#4a90d9"/>
+  <circle cx="520" cy="220" r="4.5" fill="#4a90d9"/>
+
+  <!-- labels for the first few -->
+  <text x="52"  y="54"  fill="#e0645c">S₁</text>
+  <text x="118" y="296" fill="#4a90d9">S₂</text>
+  <text x="183" y="126" fill="#e0645c">S₃</text>
+  <text x="249" y="260" fill="#4a90d9">S₄</text>
+
+  <!-- error bracket: S is trapped between S7 (above) and S8 (below); gap = first omitted term -->
+  <line x1="500" y1="166" x2="500" y2="220" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="495" y1="166" x2="505" y2="166" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="495" y1="220" x2="505" y2="220" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="330" y="120" fill="#8a8a8a">gap = b₈, and S lies inside it</text>
+  <line x1="430" y1="126" x2="498" y2="180" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+</svg>

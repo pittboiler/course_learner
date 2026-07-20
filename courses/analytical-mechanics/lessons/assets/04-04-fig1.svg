@@ -1,0 +1,48 @@
+<svg viewBox="0 0 560 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="28" fill="#8a8a8a" font-style="italic">The three principal axes of a body, and its inertia ellipsoid ω·Iω = 1.</text>
+
+  <!-- inertia ellipsoid: silhouette + equator, longest along smallest moment (e1) -->
+  <ellipse cx="285" cy="185" rx="150" ry="92" fill="#4a90d9" opacity="0.10"/>
+  <ellipse cx="285" cy="185" rx="150" ry="92" fill="none" stroke="#4a90d9" stroke-width="1.5" stroke-dasharray="2 5" opacity="0.7"/>
+  <ellipse cx="285" cy="185" rx="150" ry="30" fill="none" stroke="#4a90d9" stroke-width="1" stroke-dasharray="2 5" opacity="0.5"/>
+
+  <!-- rigid body: a book/box in oblique projection -->
+  <!-- back face -->
+  <polygon points="250,150 370,150 370,230 250,230" fill="#8a8a8a" opacity="0.10"/>
+  <!-- front face -->
+  <polygon points="200,180 320,180 320,260 200,260" fill="#8a8a8a" opacity="0.16"/>
+  <!-- edges -->
+  <g stroke="#6a6a6a" stroke-width="1.6" fill="none">
+    <polygon points="200,180 320,180 320,260 200,260"/>
+    <polyline points="200,180 250,150 370,150 320,180"/>
+    <line x1="320" y1="260" x2="370" y2="230"/>
+    <line x1="370" y1="230" x2="370" y2="150"/>
+  </g>
+  <!-- hidden edges -->
+  <g stroke="#9a9a9a" stroke-width="1" fill="none" stroke-dasharray="3 4">
+    <line x1="200" y1="260" x2="250" y2="230"/>
+    <line x1="250" y1="230" x2="370" y2="230"/>
+    <line x1="250" y1="230" x2="250" y2="150"/>
+  </g>
+
+  <!-- principal axes from body center (285,205) -->
+  <!-- e1: long axis, smallest moment I1 -->
+  <line x1="285" y1="205" x2="470" y2="205" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="470,205 459,200 459,210" fill="#e0645c"/>
+  <text x="476" y="210" fill="#e0645c">ê₁ · I₁</text>
+  <!-- e2: vertical, largest moment I3 (drawn up) -->
+  <line x1="285" y1="205" x2="285" y2="70" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="285,70 280,81 290,81" fill="#4a90d9"/>
+  <text x="292" y="72" fill="#4a90d9">ê₃ · I₃</text>
+  <!-- e3: depth axis, middle moment I2 -->
+  <line x1="285" y1="205" x2="380" y2="120" stroke="#3aa06a" stroke-width="2.5"/>
+  <polygon points="380,120 367,122 374,131" fill="#3aa06a"/>
+  <text x="386" y="118" fill="#3aa06a">ê₂ · I₂</text>
+
+  <!-- center dot -->
+  <circle cx="285" cy="205" r="4" fill="#6a6a6a"/>
+
+  <!-- note -->
+  <text x="30" y="340" fill="#8a8a8a" font-style="italic">Semi-axis length ∝ 1/√Iᵢ — the ellipsoid stretches along the easy-to-spin axis (smallest I).</text>
+</svg>

@@ -1,0 +1,45 @@
+<svg viewBox="0 0 560 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="60" y="26" fill="#8a8a8a" font-style="italic">Entry game. Payoffs (Entrant, Incumbent); the Entrant moves first.</text>
+
+  <!-- SPE path highlight (drawn first, underneath): Enter, then Accommodate -->
+  <line x1="260" y1="66" x2="405" y2="150" stroke="#4a9d5b" stroke-width="7" opacity="0.30" stroke-linecap="round"/>
+  <line x1="410" y1="156" x2="500" y2="278" stroke="#4a9d5b" stroke-width="7" opacity="0.30" stroke-linecap="round"/>
+
+  <!-- edges from Entrant -->
+  <line x1="260" y1="60" x2="110" y2="172" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="260" y1="60" x2="408" y2="152" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- edges from Incumbent -->
+  <line x1="410" y1="160" x2="342" y2="278" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <line x1="410" y1="160" x2="500" y2="278" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- decision nodes -->
+  <circle cx="260" cy="60" r="6" fill="#4a90d9"/>
+  <circle cx="410" cy="160" r="6" fill="#e0645c"/>
+  <text x="248" y="55" fill="#4a90d9" text-anchor="end">Entrant</text>
+  <text x="424" y="158" fill="#e0645c" text-anchor="start">Incumbent</text>
+
+  <!-- edge labels -->
+  <text x="168" y="108" fill="#8a8a8a" text-anchor="end">Stay out</text>
+  <text x="342" y="98" fill="#8a8a8a" text-anchor="start">Enter</text>
+  <text x="360" y="224" fill="#e0645c" text-anchor="end">Fight</text>
+  <text x="462" y="224" fill="#8a8a8a" text-anchor="start">Accommodate</text>
+
+  <!-- terminal nodes -->
+  <circle cx="110" cy="172" r="3.5" fill="#8a8a8a"/>
+  <circle cx="340" cy="280" r="3.5" fill="#8a8a8a"/>
+  <circle cx="500" cy="280" r="3.5" fill="#8a8a8a"/>
+
+  <!-- payoffs at terminals: Entrant blue, Incumbent red -->
+  <text x="110" y="194" text-anchor="middle"><tspan fill="#8a8a8a">(</tspan><tspan fill="#4a90d9">0</tspan><tspan fill="#8a8a8a">, </tspan><tspan fill="#e0645c">2</tspan><tspan fill="#8a8a8a">)</tspan></text>
+  <text x="340" y="302" text-anchor="middle"><tspan fill="#8a8a8a">(</tspan><tspan fill="#4a90d9">&#8722;1</tspan><tspan fill="#8a8a8a">, </tspan><tspan fill="#e0645c">&#8722;1</tspan><tspan fill="#8a8a8a">)</tspan></text>
+  <text x="500" y="302" text-anchor="middle"><tspan fill="#8a8a8a">(</tspan><tspan fill="#4a90d9">1</tspan><tspan fill="#8a8a8a">, </tspan><tspan fill="#e0645c">1</tspan><tspan fill="#8a8a8a">)</tspan></text>
+
+  <!-- non-credible flag on the Fight branch -->
+  <text x="300" y="258" fill="#e0645c" text-anchor="middle" font-style="italic" font-size="12">&#10007; not credible</text>
+
+  <!-- key -->
+  <text x="60" y="338" fill="#4a9d5b">SPE path: Enter, then Accommodate &#8594; (1, 1)</text>
+  <text x="60" y="356" fill="#e0645c">&#8220;Fight&#8221; supports a Nash eq. but fails once entry occurs: 1 &gt; &#8722;1</text>
+</svg>

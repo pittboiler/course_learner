@@ -1,0 +1,44 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- Marschak Machina probability triangle over three outcomes x1 < x2 < x3.
+       Horizontal axis p1 (prob of worst x1), vertical axis p3 (prob of best x3);
+       p2 = 1 minus p1 minus p3 is implied. Expected-utility indifference sets are
+       PARALLEL STRAIGHT lines: the fingerprint of linearity in probabilities. -->
+
+  <!-- simplex interior tint -->
+  <path d="M 90 300 L 450 300 L 90 60 Z" fill="#4a90d9" opacity="0.06"/>
+
+  <!-- parallel EU indifference lines (slope (u2-u1)/(u3-u2) = 1.5 in p-space) -->
+  <line x1="234" y1="300" x2="320.4" y2="213.6" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="162" y1="300" x2="277.2" y2="184.8" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="90"  y1="300" x2="234"   y2="156"   stroke="#4a90d9" stroke-width="2"/>
+  <line x1="90"  y1="228" x2="190.8" y2="127.2" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="90"  y1="156" x2="147.6" y2="98.4"  stroke="#4a90d9" stroke-width="2"/>
+
+  <!-- preference-increasing direction: up and to the left -->
+  <line x1="300" y1="238" x2="232" y2="160" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="232,160 244,164 236,173" fill="#e0645c"/>
+  <text x="250" y="205" fill="#e0645c" font-style="italic">more preferred</text>
+
+  <!-- simplex edges (drawn over the tint) -->
+  <line x1="90" y1="300" x2="450" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="90" y1="300" x2="90"  y2="60"  stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="450" y1="300" x2="90" y2="60"  stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- axis arrows + labels -->
+  <polygon points="450,300 440,295 440,305" fill="#8a8a8a"/>
+  <polygon points="90,60 85,70 95,70" fill="#8a8a8a"/>
+  <text x="300" y="330" fill="#8a8a8a">p&#8321; = P(worst outcome x&#8321;)</text>
+  <text x="20" y="180" fill="#8a8a8a" transform="rotate(-90 20 180)">p&#8323; = P(best outcome x&#8323;)</text>
+
+  <!-- vertices (degenerate = sure) -->
+  <circle cx="90"  cy="300" r="4" fill="#8a8a8a"/>
+  <circle cx="450" cy="300" r="4" fill="#8a8a8a"/>
+  <circle cx="90"  cy="60"  r="4" fill="#8a8a8a"/>
+  <text x="66" y="317" fill="#8a8a8a">sure x&#8322;</text>
+  <text x="430" y="290" fill="#8a8a8a">sure x&#8321;</text>
+  <text x="100" y="58" fill="#8a8a8a">sure x&#8323;</text>
+
+  <!-- caption -->
+  <text x="120" y="36" fill="#8a8a8a" font-style="italic">Each point is a lottery; each line is an indifference set.</text>
+  <text x="120" y="53" fill="#8a8a8a" font-style="italic">Expected utility &#8658; the lines are straight and parallel.</text>
+</svg>

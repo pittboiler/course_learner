@@ -1,0 +1,22 @@
+<svg viewBox="0 0 560 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- sample space box: Omega -->
+  <rect x="40" y="45" width="480" height="255" fill="#8a8a8a" opacity="0.05" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="52" y="68" fill="#8a8a8a" font-style="italic">&#937; (all outcomes)</text>
+
+  <!-- event A: blue disk -->
+  <circle cx="230" cy="185" r="105" fill="#4a90d9" opacity="0.18" stroke="#4a90d9" stroke-width="2.5"/>
+  <!-- event B: red disk -->
+  <circle cx="340" cy="185" r="105" fill="#e0645c" opacity="0.18" stroke="#e0645c" stroke-width="2.5"/>
+
+  <!-- extra fill on the lens so the overlap reads as counted-twice -->
+  <clipPath id="clipA"><circle cx="230" cy="185" r="105"/></clipPath>
+  <circle cx="340" cy="185" r="105" fill="#e0645c" opacity="0.22" clip-path="url(#clipA)"/>
+
+  <!-- labels -->
+  <text x="150" y="128" fill="#4a90d9" font-size="18" font-weight="bold">A</text>
+  <text x="405" y="128" fill="#e0645c" font-size="18" font-weight="bold">B</text>
+
+  <!-- intersection callout -->
+  <text x="256" y="322" fill="#8a8a8a" font-style="italic">A &#8745; B counted twice &#8594; subtract once</text>
+  <line x1="285" y1="308" x2="285" y2="230" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+</svg>

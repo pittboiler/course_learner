@@ -1,0 +1,63 @@
+<svg viewBox="0 0 720 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="360" y="22" fill="#333" text-anchor="middle" font-weight="bold" font-size="15">Standardized coin-flip sums Z&#8345; converge to the same bell curve</text>
+  <text x="360" y="288" fill="#8a8a8a" text-anchor="middle" font-style="italic">Blue: histogram of Z&#8345; = S&#8345;/&#8730;n for &#177;1 flips. Red: the standard normal N(0,1) &#8212; same summands, one universal limit.</text>
+
+  <!-- panel n=1 -->
+  <text x="108.0" y="46" fill="#333" text-anchor="middle" font-weight="bold">n = 1</text>
+  <rect x="48.0" y="156.0" width="60.0" height="94.0" fill="#4a90d9" opacity="0.30" stroke="#4a90d9" stroke-width="0.8"/>
+  <rect x="108.0" y="156.0" width="60.0" height="94.0" fill="#4a90d9" opacity="0.30" stroke="#4a90d9" stroke-width="0.8"/>
+  <polyline points="18.0 248.3 22.5 247.4 27.0 246.1 31.5 244.2 36.0 241.6 40.5 238.1 45.0 233.5 49.5 227.6 54.0 220.3 58.5 211.5 63.0 201.3 67.5 189.7 72.0 177.0 76.5 163.6 81.0 150.0 85.5 136.8 90.0 124.7 94.5 114.4 99.0 106.6 103.5 101.7 108.0 100.0 112.5 101.7 117.0 106.6 121.5 114.4 126.0 124.7 130.5 136.8 135.0 150.0 139.5 163.6 144.0 177.0 148.5 189.7 153.0 201.3 157.5 211.5 162.0 220.3 166.5 227.6 171.0 233.5 175.5 238.1 180.0 241.6 184.5 244.2 189.0 246.1 193.5 247.4 198.0 248.3" fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <line x1="12.0" y1="250" x2="204.0" y2="250" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="48.0" y1="250" x2="48.0" y2="254" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="48.0" y="268" fill="#8a8a8a" text-anchor="middle">-2</text>
+  <line x1="108.0" y1="250" x2="108.0" y2="254" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="108.0" y="268" fill="#8a8a8a" text-anchor="middle">0</text>
+  <line x1="168.0" y1="250" x2="168.0" y2="254" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="168.0" y="268" fill="#8a8a8a" text-anchor="middle">2</text>
+
+  <!-- panel n=4 -->
+  <text x="348.0" y="46" fill="#333" text-anchor="middle" font-weight="bold">n = 4</text>
+  <rect x="273.0" y="226.5" width="30.0" height="23.5" fill="#4a90d9" opacity="0.30" stroke="#4a90d9" stroke-width="0.8"/>
+  <rect x="303.0" y="156.0" width="30.0" height="94.0" fill="#4a90d9" opacity="0.30" stroke="#4a90d9" stroke-width="0.8"/>
+  <rect x="333.0" y="109.0" width="30.0" height="141.0" fill="#4a90d9" opacity="0.30" stroke="#4a90d9" stroke-width="0.8"/>
+  <rect x="363.0" y="156.0" width="30.0" height="94.0" fill="#4a90d9" opacity="0.30" stroke="#4a90d9" stroke-width="0.8"/>
+  <rect x="393.0" y="226.5" width="30.0" height="23.5" fill="#4a90d9" opacity="0.30" stroke="#4a90d9" stroke-width="0.8"/>
+  <polyline points="258.0 248.3 262.5 247.4 267.0 246.1 271.5 244.2 276.0 241.6 280.5 238.1 285.0 233.5 289.5 227.6 294.0 220.3 298.5 211.5 303.0 201.3 307.5 189.7 312.0 177.0 316.5 163.6 321.0 150.0 325.5 136.8 330.0 124.7 334.5 114.4 339.0 106.6 343.5 101.7 348.0 100.0 352.5 101.7 357.0 106.6 361.5 114.4 366.0 124.7 370.5 136.8 375.0 150.0 379.5 163.6 384.0 177.0 388.5 189.7 393.0 201.3 397.5 211.5 402.0 220.3 406.5 227.6 411.0 233.5 415.5 238.1 420.0 241.6 424.5 244.2 429.0 246.1 433.5 247.4 438.0 248.3" fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <line x1="252.0" y1="250" x2="444.0" y2="250" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="288.0" y1="250" x2="288.0" y2="254" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="288.0" y="268" fill="#8a8a8a" text-anchor="middle">-2</text>
+  <line x1="348.0" y1="250" x2="348.0" y2="254" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="348.0" y="268" fill="#8a8a8a" text-anchor="middle">0</text>
+  <line x1="408.0" y1="250" x2="408.0" y2="254" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="408.0" y="268" fill="#8a8a8a" text-anchor="middle">2</text>
+
+  <!-- panel n=32 -->
+  <text x="588.0" y="46" fill="#333" text-anchor="middle" font-weight="bold">n = 32</text>
+  <rect x="487.2" y="249.2" width="10.6" height="0.8" fill="#4a90d9" opacity="0.30" stroke="#4a90d9" stroke-width="0.8"/>
+  <rect x="497.8" y="247.4" width="10.6" height="2.6" fill="#4a90d9" opacity="0.30" stroke="#4a90d9" stroke-width="0.8"/>
+  <rect x="508.5" y="243.1" width="10.6" height="6.9" fill="#4a90d9" opacity="0.30" stroke="#4a90d9" stroke-width="0.8"/>
+  <rect x="519.1" y="234.0" width="10.6" height="16.0" fill="#4a90d9" opacity="0.30" stroke="#4a90d9" stroke-width="0.8"/>
+  <rect x="529.7" y="218.1" width="10.6" height="31.9" fill="#4a90d9" opacity="0.30" stroke="#4a90d9" stroke-width="0.8"/>
+  <rect x="540.3" y="194.1" width="10.6" height="55.9" fill="#4a90d9" opacity="0.30" stroke="#4a90d9" stroke-width="0.8"/>
+  <rect x="550.9" y="164.0" width="10.6" height="86.0" fill="#4a90d9" opacity="0.30" stroke="#4a90d9" stroke-width="0.8"/>
+  <rect x="561.5" y="133.3" width="10.6" height="116.7" fill="#4a90d9" opacity="0.30" stroke="#4a90d9" stroke-width="0.8"/>
+  <rect x="572.1" y="109.9" width="10.6" height="140.1" fill="#4a90d9" opacity="0.30" stroke="#4a90d9" stroke-width="0.8"/>
+  <rect x="582.7" y="101.2" width="10.6" height="148.8" fill="#4a90d9" opacity="0.30" stroke="#4a90d9" stroke-width="0.8"/>
+  <rect x="593.3" y="109.9" width="10.6" height="140.1" fill="#4a90d9" opacity="0.30" stroke="#4a90d9" stroke-width="0.8"/>
+  <rect x="603.9" y="133.3" width="10.6" height="116.7" fill="#4a90d9" opacity="0.30" stroke="#4a90d9" stroke-width="0.8"/>
+  <rect x="614.5" y="164.0" width="10.6" height="86.0" fill="#4a90d9" opacity="0.30" stroke="#4a90d9" stroke-width="0.8"/>
+  <rect x="625.1" y="194.1" width="10.6" height="55.9" fill="#4a90d9" opacity="0.30" stroke="#4a90d9" stroke-width="0.8"/>
+  <rect x="635.7" y="218.1" width="10.6" height="31.9" fill="#4a90d9" opacity="0.30" stroke="#4a90d9" stroke-width="0.8"/>
+  <rect x="646.3" y="234.0" width="10.6" height="16.0" fill="#4a90d9" opacity="0.30" stroke="#4a90d9" stroke-width="0.8"/>
+  <rect x="656.9" y="243.1" width="10.6" height="6.9" fill="#4a90d9" opacity="0.30" stroke="#4a90d9" stroke-width="0.8"/>
+  <rect x="667.5" y="247.4" width="10.6" height="2.6" fill="#4a90d9" opacity="0.30" stroke="#4a90d9" stroke-width="0.8"/>
+  <rect x="678.2" y="249.2" width="10.6" height="0.8" fill="#4a90d9" opacity="0.30" stroke="#4a90d9" stroke-width="0.8"/>
+  <polyline points="498.0 248.3 502.5 247.4 507.0 246.1 511.5 244.2 516.0 241.6 520.5 238.1 525.0 233.5 529.5 227.6 534.0 220.3 538.5 211.5 543.0 201.3 547.5 189.7 552.0 177.0 556.5 163.6 561.0 150.0 565.5 136.8 570.0 124.7 574.5 114.4 579.0 106.6 583.5 101.7 588.0 100.0 592.5 101.7 597.0 106.6 601.5 114.4 606.0 124.7 610.5 136.8 615.0 150.0 619.5 163.6 624.0 177.0 628.5 189.7 633.0 201.3 637.5 211.5 642.0 220.3 646.5 227.6 651.0 233.5 655.5 238.1 660.0 241.6 664.5 244.2 669.0 246.1 673.5 247.4 678.0 248.3" fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <line x1="492.0" y1="250" x2="684.0" y2="250" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="528.0" y1="250" x2="528.0" y2="254" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="528.0" y="268" fill="#8a8a8a" text-anchor="middle">-2</text>
+  <line x1="588.0" y1="250" x2="588.0" y2="254" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="588.0" y="268" fill="#8a8a8a" text-anchor="middle">0</text>
+  <line x1="648.0" y1="250" x2="648.0" y2="254" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="648.0" y="268" fill="#8a8a8a" text-anchor="middle">2</text>
+</svg>

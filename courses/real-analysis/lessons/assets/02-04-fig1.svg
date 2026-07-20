@@ -1,0 +1,48 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- the epsilon-band: all terms past N live inside it -->
+  <rect x="250" y="158" width="286" height="32" fill="#4a90d9" opacity="0.12"/>
+  <line x1="250" y1="158" x2="536" y2="158" stroke="#4a90d9" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="250" y1="190" x2="536" y2="190" stroke="#4a90d9" stroke-width="1" stroke-dasharray="4 4"/>
+
+  <!-- axes -->
+  <line x1="30" y1="300" x2="540" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="60" y1="18" x2="60" y2="322" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="540,300 530,295 530,305" fill="#8a8a8a"/>
+  <text x="546" y="305" fill="#8a8a8a">n</text>
+
+  <!-- vertical marker at N -->
+  <line x1="262" y1="150" x2="262" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="256" y="318" fill="#8a8a8a">N</text>
+
+  <!-- early, scattered terms (before N) -->
+  <circle cx="94"  cy="90"  r="4" fill="#e0645c"/>
+  <circle cx="118" cy="250" r="4" fill="#e0645c"/>
+  <circle cx="142" cy="120" r="4" fill="#e0645c"/>
+  <circle cx="166" cy="215" r="4" fill="#e0645c"/>
+  <circle cx="190" cy="140" r="4" fill="#e0645c"/>
+  <circle cx="214" cy="195" r="4" fill="#e0645c"/>
+  <circle cx="238" cy="155" r="4" fill="#e0645c"/>
+
+  <!-- terms past N: all inside the band -->
+  <circle cx="262" cy="185" r="4" fill="#4a90d9"/>
+  <circle cx="286" cy="162" r="4" fill="#4a90d9"/>
+  <circle cx="310" cy="180" r="4" fill="#4a90d9"/>
+  <circle cx="334" cy="166" r="4" fill="#4a90d9"/>
+  <circle cx="358" cy="177" r="4" fill="#4a90d9"/>
+  <circle cx="382" cy="168" r="4" fill="#4a90d9"/>
+  <circle cx="406" cy="175" r="4" fill="#4a90d9"/>
+  <circle cx="430" cy="169" r="4" fill="#4a90d9"/>
+  <circle cx="454" cy="174" r="4" fill="#4a90d9"/>
+  <circle cx="478" cy="170" r="4" fill="#4a90d9"/>
+  <circle cx="502" cy="173" r="4" fill="#4a90d9"/>
+  <circle cx="526" cy="171" r="4" fill="#4a90d9"/>
+
+  <!-- epsilon bracket on the right -->
+  <line x1="548" y1="158" x2="548" y2="190" stroke="#4a90d9" stroke-width="1.5"/>
+  <line x1="544" y1="158" x2="552" y2="158" stroke="#4a90d9" stroke-width="1.5"/>
+  <line x1="544" y1="190" x2="552" y2="190" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="536" y="145" fill="#4a90d9">&#949;</text>
+
+  <!-- caption -->
+  <text x="80" y="38" fill="#8a8a8a" font-style="italic">Past some N, every term is within &#949; of every other — no limit line needed.</text>
+</svg>

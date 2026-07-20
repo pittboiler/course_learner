@@ -1,0 +1,45 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- funnel fill between the two jaws -->
+  <path d="M 90 50 L 134 110 L 178 130 L 222 140 L 266 146 L 310 150 L 354 152.9 L 398 155 L 442 156.7 L 486 158
+           L 486 182 L 442 183.3 L 398 185 L 354 187.1 L 310 190 L 266 194 L 222 200 L 178 210 L 134 230 L 90 290 Z"
+        fill="#4a90d9" opacity="0.10"/>
+
+  <!-- axes -->
+  <line x1="45" y1="315" x2="540" y2="315" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="70" y1="20" x2="70" y2="330" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="540,315 530,310 530,320" fill="#8a8a8a"/>
+  <text x="533" y="333" fill="#8a8a8a">n</text>
+
+  <!-- limit line L -->
+  <line x1="70" y1="170" x2="515" y2="170" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="5 5"/>
+  <text x="48" y="175" fill="#8a8a8a">L</text>
+
+  <!-- upper jaw c_n (falls to L) -->
+  <polyline points="90,50 134,110 178,130 222,140 266,146 310,150 354,152.9 398,155 442,156.7 486,158"
+            fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <!-- lower jaw a_n (rises to L) -->
+  <polyline points="90,290 134,230 178,210 222,200 266,194 310,190 354,187.1 398,185 442,183.3 486,182"
+            fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <!-- trapped sequence b_n (wiggly, red) -->
+  <polyline points="90,100 134,205 178,142 222,185 266,155 310,183 354,160 398,179 442,165 486,176"
+            fill="none" stroke="#e0645c" stroke-width="1.4" stroke-dasharray="2 3" opacity="0.7"/>
+  <circle cx="90"  cy="100" r="4" fill="#e0645c"/>
+  <circle cx="134" cy="205" r="4" fill="#e0645c"/>
+  <circle cx="178" cy="142" r="4" fill="#e0645c"/>
+  <circle cx="222" cy="185" r="4" fill="#e0645c"/>
+  <circle cx="266" cy="155" r="4" fill="#e0645c"/>
+  <circle cx="310" cy="183" r="4" fill="#e0645c"/>
+  <circle cx="354" cy="160" r="4" fill="#e0645c"/>
+  <circle cx="398" cy="179" r="4" fill="#e0645c"/>
+  <circle cx="442" cy="165" r="4" fill="#e0645c"/>
+  <circle cx="486" cy="176" r="4" fill="#e0645c"/>
+
+  <!-- labels -->
+  <text x="150" y="88"  fill="#4a90d9">c_n → L  (upper jaw)</text>
+  <text x="150" y="268" fill="#4a90d9">a_n → L  (lower jaw)</text>
+  <text x="300" y="130" fill="#e0645c">b_n trapped between them</text>
+
+  <!-- caption -->
+  <text x="70" y="36" fill="#8a8a8a" font-style="italic">The jaws close on L; whatever is caught between them has nowhere to go but L.</text>
+</svg>

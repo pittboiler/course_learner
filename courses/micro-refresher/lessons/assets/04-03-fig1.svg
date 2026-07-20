@@ -1,0 +1,29 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- axes -->
+  <line x1="60" y1="300" x2="540" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="60" y1="18" x2="60" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="540,300 530,295 530,305" fill="#8a8a8a"/>
+  <polygon points="60,18 55,28 65,28" fill="#8a8a8a"/>
+  <text x="544" y="305" fill="#8a8a8a">q₁</text>
+  <text x="48" y="30" fill="#8a8a8a">q₂</text>
+
+  <!-- BR1: firm 1's reaction, q1 = (a-c)/2b - q2/2 ; steep in this plane -->
+  <line x1="60" y1="50" x2="260" y2="300" stroke="#4a90d9" stroke-width="3"/>
+  <!-- BR2: firm 2's reaction, q2 = (a-c)/2b - q1/2 ; shallow -->
+  <line x1="60" y1="175" x2="460" y2="300" stroke="#e0645c" stroke-width="3"/>
+
+  <!-- Nash equilibrium at (1/3, 1/3) -->
+  <line x1="193" y1="217" x2="193" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="60" y1="217" x2="193" y2="217" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <circle cx="193" cy="217" r="5" fill="#3a3a3a"/>
+  <text x="203" y="212" fill="#3a3a3a">Nash equilibrium</text>
+  <text x="176" y="318" fill="#8a8a8a">q₁*</text>
+  <text x="38" y="222" fill="#8a8a8a">q₂*</text>
+
+  <!-- curve labels -->
+  <text x="118" y="118" fill="#4a90d9">q₁ = BR₁(q₂)</text>
+  <text x="360" y="270" fill="#e0645c">q₂ = BR₂(q₁)</text>
+
+  <!-- caption -->
+  <text x="72" y="40" fill="#8a8a8a" font-style="italic">Each firm's best reply slopes down — more rival output, less of mine.</text>
+</svg>

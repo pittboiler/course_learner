@@ -1,0 +1,35 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="70" y="34" fill="#8a8a8a" font-style="italic">Each firm's optimum shrinks as the rival grows; the lines cross once — the Nash equilibrium.</text>
+
+  <!-- axes -->
+  <line x1="60" y1="300" x2="540" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="60" y1="300" x2="60" y2="52" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="540,300 530,295 530,305" fill="#8a8a8a"/>
+  <polygon points="60,52 55,62 65,62" fill="#8a8a8a"/>
+  <text x="524" y="292" fill="#8a8a8a">q₁</text>
+  <text x="70" y="64" fill="#8a8a8a">q₂</text>
+  <text x="44" y="304" fill="#8a8a8a">0</text>
+
+  <!-- BR1 (blue): q1 = (a-c)/2b - q2/2, from (q1,q2)=(6,0) to (0,12) -->
+  <line x1="180" y1="300" x2="60" y2="60" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- BR2 (red): q2 = (a-c)/2b - q1/2, from (q1,q2)=(0,6) to (12,0) -->
+  <line x1="60" y1="180" x2="300" y2="300" stroke="#e0645c" stroke-width="3"/>
+
+  <!-- droplines to the Nash equilibrium (q1*,q2*) = (4,4) at pixel (140,220) -->
+  <line x1="140" y1="220" x2="140" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="140" y1="220" x2="60" y2="220" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <circle cx="140" cy="220" r="5" fill="#333333"/>
+
+  <!-- NE tick labels -->
+  <text x="120" y="318" fill="#8a8a8a">q₁*</text>
+  <text x="30" y="225" fill="#8a8a8a">q₂*</text>
+  <text x="150" y="212" fill="#333333">Nash eq.</text>
+
+  <!-- curve labels -->
+  <text x="196" y="112" fill="#4a90d9">BR₁: q₁ = (a−c)/2b − q₂/2</text>
+  <line x1="194" y1="108" x2="130" y2="140" stroke="#4a90d9" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="316" y="286" fill="#e0645c">BR₂: q₂ = (a−c)/2b − q₁/2</text>
+  <line x1="314" y1="282" x2="270" y2="290" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+</svg>

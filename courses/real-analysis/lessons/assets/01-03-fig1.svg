@@ -1,0 +1,49 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="26" fill="#8a8a8a" font-style="italic">Closed intervals nested inside one another, collapsing onto a single point.</text>
+
+  <!-- vertical dashed line marking the shared point x* -->
+  <line x1="300" y1="48" x2="300" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- nested closed intervals, each a bar with square end-caps -->
+  <!-- n = 1 -->
+  <line x1="90"  y1="60"  x2="500" y2="60"  stroke="#4a90d9" stroke-width="3"/>
+  <line x1="90"  y1="50"  x2="90"  y2="70"  stroke="#4a90d9" stroke-width="3"/>
+  <line x1="500" y1="50"  x2="500" y2="70"  stroke="#4a90d9" stroke-width="3"/>
+  <text x="72"  y="55" fill="#4a90d9">a&#8321;</text>
+  <text x="506" y="55" fill="#4a90d9">b&#8321;</text>
+
+  <!-- n = 2 -->
+  <line x1="150" y1="100" x2="430" y2="100" stroke="#4a90d9" stroke-width="3"/>
+  <line x1="150" y1="91"  x2="150" y2="109" stroke="#4a90d9" stroke-width="3"/>
+  <line x1="430" y1="91"  x2="430" y2="109" stroke="#4a90d9" stroke-width="3"/>
+  <text x="132" y="95" fill="#4a90d9">a&#8322;</text>
+  <text x="436" y="95" fill="#4a90d9">b&#8322;</text>
+
+  <!-- n = 3 -->
+  <line x1="210" y1="140" x2="370" y2="140" stroke="#4a90d9" stroke-width="3"/>
+  <line x1="210" y1="132" x2="210" y2="148" stroke="#4a90d9" stroke-width="3"/>
+  <line x1="370" y1="132" x2="370" y2="148" stroke="#4a90d9" stroke-width="3"/>
+  <text x="192" y="135" fill="#4a90d9">a&#8323;</text>
+  <text x="376" y="135" fill="#4a90d9">b&#8323;</text>
+
+  <!-- n = 4 -->
+  <line x1="255" y1="180" x2="335" y2="180" stroke="#4a90d9" stroke-width="3"/>
+  <line x1="255" y1="173" x2="255" y2="187" stroke="#4a90d9" stroke-width="3"/>
+  <line x1="335" y1="173" x2="335" y2="187" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- n = 5 -->
+  <line x1="283" y1="212" x2="317" y2="212" stroke="#4a90d9" stroke-width="3"/>
+  <line x1="283" y1="206" x2="283" y2="218" stroke="#4a90d9" stroke-width="3"/>
+  <line x1="317" y1="206" x2="317" y2="218" stroke="#4a90d9" stroke-width="3"/>
+
+  <text x="360" y="184" fill="#8a8a8a">&#8942;</text>
+
+  <!-- number line -->
+  <line x1="40" y1="270" x2="540" y2="270" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="540,270 530,265 530,275" fill="#8a8a8a"/>
+
+  <!-- the shared point -->
+  <circle cx="300" cy="270" r="5" fill="#e0645c"/>
+  <text x="256" y="294" fill="#e0645c">x = sup aₙ</text>
+</svg>

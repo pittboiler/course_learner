@@ -1,0 +1,7 @@
+node_modules/
+.anthropic_key
+.DS_Store
+**/.DS_Store
+*.log
+npm-debug.log*
+.claude/settings.local.json

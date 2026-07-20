@@ -1,0 +1,49 @@
+<svg viewBox="0 0 560 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- shaded holomorphic region between the big contour and the excised disks -->
+  <path d="M 100 180
+           C 100 90, 200 40, 300 55
+           C 420 72, 500 130, 490 210
+           C 482 285, 380 330, 260 320
+           C 150 311, 100 260, 100 180 Z
+           M 190 150 m -34 0 a 34 34 0 1 0 68 0 a 34 34 0 1 0 -68 0 Z
+           M 340 130 m -30 0 a 30 30 0 1 0 60 0 a 30 30 0 1 0 -60 0 Z
+           M 320 250 m -30 0 a 30 30 0 1 0 60 0 a 30 30 0 1 0 -60 0 Z"
+        fill="#4a90d9" opacity="0.10" fill-rule="evenodd"/>
+
+  <!-- big outer contour gamma (counterclockwise) -->
+  <path d="M 100 180
+           C 100 90, 200 40, 300 55
+           C 420 72, 500 130, 490 210
+           C 482 285, 380 330, 260 320
+           C 150 311, 100 260, 100 180 Z"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- CCW orientation arrowhead on the big contour (left side, pointing up) -->
+  <polygon points="100,180 92,196 108,193" fill="#4a90d9"/>
+  <text x="70" y="150" fill="#4a90d9" font-style="italic">&#947;</text>
+
+  <!-- small circle 1 around z1 -->
+  <circle cx="190" cy="150" r="34" fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="224,150 216,135 232,138" fill="#e0645c"/>
+  <line x1="182" y1="142" x2="198" y2="158" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="198" y1="142" x2="182" y2="158" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="200" y="146" fill="#8a8a8a">z&#8321;</text>
+
+  <!-- small circle 2 around z2 -->
+  <circle cx="340" cy="130" r="30" fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="370,130 362,115 378,118" fill="#e0645c"/>
+  <line x1="332" y1="122" x2="348" y2="138" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="348" y1="122" x2="332" y2="138" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="350" y="126" fill="#8a8a8a">z&#8322;</text>
+
+  <!-- small circle 3 around z3 -->
+  <circle cx="320" cy="250" r="30" fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="350,250 342,235 358,238" fill="#e0645c"/>
+  <line x1="312" y1="242" x2="328" y2="258" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="328" y1="242" x2="312" y2="258" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="330" y="246" fill="#8a8a8a">z&#8323;</text>
+
+  <!-- caption -->
+  <text x="60" y="345" fill="#8a8a8a" font-style="italic">Deform &#947; onto small circles around each singularity: the big loop = sum of the small loops.</text>
+  <text x="410" y="60" fill="#e0645c" font-size="13">C&#8321;, C&#8322;, C&#8323;</text>
+</svg>

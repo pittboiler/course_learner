@@ -1,0 +1,40 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- axes -->
+  <line x1="40" y1="300" x2="540" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="60" y1="20" x2="60" y2="322" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="540,300 530,295 530,305" fill="#8a8a8a"/>
+  <polygon points="60,20 55,30 65,30" fill="#8a8a8a"/>
+  <text x="546" y="305" fill="#8a8a8a">x</text>
+
+  <!-- horizontal target level y = gamma -->
+  <line x1="60" y1="170" x2="520" y2="170" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="30" y="175" fill="#e0645c">&#947;</text>
+
+  <!-- reference dashes for f(a) and f(b) -->
+  <line x1="60" y1="250" x2="110" y2="250" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="60" y1="70" x2="500" y2="70" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="22" y="255" fill="#8a8a8a">f(a)</text>
+  <text x="22" y="75" fill="#8a8a8a">f(b)</text>
+
+  <!-- the continuous curve: from f(a) below gamma up to f(b) above -->
+  <path d="M 110 250 L 150 264 L 195 250 L 235 218 L 270 192 L 300 170 L 335 146 L 375 122 L 420 112 L 460 92 L 500 70"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- droplines from the crossing point (c, gamma) -->
+  <line x1="300" y1="170" x2="300" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="60" y1="170" x2="300" y2="170" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- endpoints and the crossing -->
+  <circle cx="110" cy="250" r="5" fill="#4a90d9"/>
+  <circle cx="500" cy="70" r="5" fill="#4a90d9"/>
+  <circle cx="300" cy="170" r="6" fill="#e0645c"/>
+
+  <!-- x-axis ticks/labels -->
+  <text x="106" y="318" fill="#8a8a8a">a</text>
+  <text x="296" y="318" fill="#8a8a8a">c</text>
+  <text x="496" y="318" fill="#8a8a8a">b</text>
+
+  <!-- caption -->
+  <text x="80" y="42" fill="#8a8a8a" font-style="italic">Starting below &#947; and ending above it, an unbroken curve must cross &#947; — at some c.</text>
+  <text x="330" y="162" fill="#e0645c">f(c) = &#947;</text>
+</svg>

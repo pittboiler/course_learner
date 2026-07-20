@@ -1,0 +1,66 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- ===== Lane A: original strategic mechanism (top) ===== -->
+  <text x="30" y="42" fill="#8a8a8a" font-style="italic">Original: any mechanism, agents play strategically</text>
+
+  <!-- Agent box A -->
+  <rect x="30" y="56" width="120" height="52" rx="6" fill="#4a90d9" opacity="0.12"/>
+  <rect x="30" y="56" width="120" height="52" rx="6" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="90" y="79" fill="#4a90d9" text-anchor="middle">Agent i</text>
+  <text x="90" y="97" fill="#4a90d9" text-anchor="middle">type &#952;&#7522; (private)</text>
+
+  <!-- Mechanism box A -->
+  <rect x="250" y="56" width="170" height="52" rx="6" fill="#e0645c" opacity="0.12"/>
+  <rect x="250" y="56" width="170" height="52" rx="6" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <text x="335" y="79" fill="#e0645c" text-anchor="middle">Mechanism M</text>
+  <text x="335" y="97" fill="#e0645c" text-anchor="middle">(message game)</text>
+
+  <!-- Outcome box A -->
+  <rect x="460" y="56" width="90" height="52" rx="6" fill="#8a8a8a" opacity="0.12"/>
+  <rect x="460" y="56" width="90" height="52" rx="6" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="505" y="88" fill="#8a8a8a" text-anchor="middle">outcome x</text>
+
+  <!-- arrows A -->
+  <line x1="150" y1="82" x2="242" y2="82" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="250,82 240,78 240,86" fill="#8a8a8a"/>
+  <text x="196" y="74" fill="#8a8a8a" text-anchor="middle" font-size="12">plays &#963;*(&#952;&#7522;)</text>
+  <line x1="420" y1="82" x2="452" y2="82" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="460,82 450,78 450,86" fill="#8a8a8a"/>
+
+  <!-- ===== Fold: absorb the equilibrium strategy into the rules ===== -->
+  <line x1="335" y1="108" x2="335" y2="204" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <polygon points="335,212 331,202 339,202" fill="#e0645c"/>
+  <text x="345" y="162" fill="#e0645c" font-size="12" font-style="italic">fold &#963;* into the rules</text>
+
+  <line x1="505" y1="108" x2="505" y2="204" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="513" y="162" fill="#8a8a8a" font-size="12">same x</text>
+
+  <!-- ===== Lane B: truthful direct mechanism (bottom) ===== -->
+  <text x="30" y="242" fill="#8a8a8a" font-style="italic">Equivalent: direct mechanism, honesty is optimal</text>
+
+  <!-- Agent box B -->
+  <rect x="30" y="256" width="120" height="52" rx="6" fill="#4a90d9" opacity="0.12"/>
+  <rect x="30" y="256" width="120" height="52" rx="6" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="90" y="279" fill="#4a90d9" text-anchor="middle">Agent i</text>
+  <text x="90" y="297" fill="#4a90d9" text-anchor="middle">type &#952;&#7522; (private)</text>
+
+  <!-- Direct mechanism box B -->
+  <rect x="250" y="256" width="170" height="52" rx="6" fill="#e0645c" opacity="0.12"/>
+  <rect x="250" y="256" width="170" height="52" rx="6" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <text x="335" y="279" fill="#e0645c" text-anchor="middle">Direct mechanism</text>
+  <text x="335" y="297" fill="#e0645c" text-anchor="middle">f = g &#8728; &#963;*</text>
+
+  <!-- Outcome box B -->
+  <rect x="460" y="256" width="90" height="52" rx="6" fill="#8a8a8a" opacity="0.12"/>
+  <rect x="460" y="256" width="90" height="52" rx="6" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="505" y="288" fill="#8a8a8a" text-anchor="middle">outcome x</text>
+
+  <!-- arrows B -->
+  <line x1="150" y1="282" x2="242" y2="282" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="250,282 240,278 240,286" fill="#8a8a8a"/>
+  <text x="196" y="274" fill="#8a8a8a" text-anchor="middle" font-size="12">reports &#952;&#7522; (truth)</text>
+  <line x1="420" y1="282" x2="452" y2="282" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="460,282 450,278 450,286" fill="#8a8a8a"/>
+
+  <!-- caption -->
+  <text x="30" y="336" fill="#8a8a8a" font-style="italic" font-size="12">Revelation principle: anything an equilibrium of some mechanism achieves, a truthful direct mechanism achieves too.</text>
+</svg>

@@ -1,0 +1,45 @@
+<svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- ==================== LEFT PANEL: concatenation ==================== -->
+  <text x="30" y="34" fill="#8a8a8a" font-style="italic">Two loops at x0, then their product γ·δ</text>
+
+  <!-- gamma: left loop, tangent to basepoint -->
+  <circle cx="120" cy="200" r="65" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <!-- direction arrow on gamma (moving left across the top) -->
+  <polygon points="120,133 132,139 132,127" fill="#4a90d9"/>
+  <text x="70" y="205" fill="#4a90d9">γ</text>
+
+  <!-- delta: right loop, tangent to basepoint -->
+  <circle cx="250" cy="200" r="65" fill="none" stroke="#e0645c" stroke-width="3"/>
+  <!-- direction arrow on delta (moving right across the top) -->
+  <polygon points="250,133 238,127 238,139" fill="#e0645c"/>
+  <text x="258" y="205" fill="#e0645c">δ</text>
+
+  <!-- basepoint x0 where both loops meet -->
+  <circle cx="185" cy="200" r="5.5" fill="#333333"/>
+  <text x="176" y="290" fill="#333333">x0</text>
+  <line x1="185" y1="205" x2="185" y2="276" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <text x="30" y="330" fill="#8a8a8a">γ·δ: run γ (double speed), land back at x0, then run δ.</text>
+
+  <!-- panel divider -->
+  <line x1="345" y1="30" x2="345" y2="335" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 5"/>
+
+  <!-- ==================== RIGHT PANEL: contraction ==================== -->
+  <text x="378" y="34" fill="#8a8a8a" font-style="italic">Simply connected: every loop shrinks to x0</text>
+
+  <!-- nested loops, all based at the same point, shrinking inward -->
+  <circle cx="500" cy="280" r="92" fill="none" stroke="#8a8a8a" stroke-width="2.5"/>
+  <circle cx="500" cy="280" r="64" fill="none" stroke="#7f9bbf" stroke-width="2.5"/>
+  <circle cx="500" cy="280" r="40" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <circle cx="500" cy="280" r="20" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <!-- inward arrow showing the shrink -->
+  <line x1="500" y1="140" x2="500" y2="240" stroke="#e0645c" stroke-width="2" stroke-dasharray="4 4"/>
+  <polygon points="500,252 494,238 506,238" fill="#e0645c"/>
+
+  <!-- basepoint (limit = constant loop) -->
+  <circle cx="500" cy="280" r="5.5" fill="#e0645c"/>
+  <text x="512" y="286" fill="#e0645c">x0</text>
+
+  <text x="378" y="332" fill="#8a8a8a">The limit is the constant loop e — the identity of π1.</text>
+</svg>

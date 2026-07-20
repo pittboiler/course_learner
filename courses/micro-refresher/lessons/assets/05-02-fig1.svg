@@ -1,0 +1,54 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- deadweight-loss triangle: between MSC (top) and MSB=demand (bottom), from q*=70 to q^m=80 -->
+  <path d="M 368 222 L 412 222 L 412 248 Z" fill="#d0403a" opacity="0.28"/>
+
+  <!-- axes -->
+  <line x1="30" y1="300" x2="540" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="60" y1="18" x2="60" y2="322" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="540,300 530,295 530,305" fill="#8a8a8a"/>
+  <polygon points="60,18 55,28 65,28" fill="#8a8a8a"/>
+  <text x="546" y="305" fill="#8a8a8a">q</text>
+  <text x="50" y="14" fill="#8a8a8a">p</text>
+
+  <!-- quantity droplines -->
+  <line x1="368" y1="222" x2="368" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="412" y1="248" x2="412" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="60" y1="222" x2="368" y2="222" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="60" y1="248" x2="412" y2="248" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- MSB = demand: p = 100 - q, from (0,100)=(60,40) to (100,0)=(500,300) -->
+  <line x1="60" y1="40" x2="500" y2="300" stroke="#4a90d9" stroke-width="3"/>
+  <!-- MPC = 20 (constant private marginal cost) -->
+  <line x1="60" y1="248" x2="462" y2="248" stroke="#e0645c" stroke-width="3"/>
+  <!-- MSC = MPC + MEC = 30 (constant social marginal cost) -->
+  <line x1="60" y1="222" x2="462" y2="222" stroke="#7b4fb0" stroke-width="3"/>
+
+  <!-- Pigouvian tax wedge = MEC, drawn between MPC and MSC at the efficient quantity -->
+  <line x1="330" y1="248" x2="330" y2="222" stroke="#333333" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <polygon points="330,222 326,230 334,230" fill="#333333"/>
+  <polygon points="330,248 326,240 334,240" fill="#333333"/>
+  <text x="196" y="239" fill="#333333">Pigouvian tax  t = MEC = 10</text>
+
+  <!-- equilibrium points -->
+  <circle cx="368" cy="222" r="5" fill="#333333"/>
+  <circle cx="412" cy="248" r="5" fill="#333333"/>
+
+  <!-- curve labels -->
+  <text x="360" y="292" fill="#4a90d9">MSB = Demand  p = 100 − q</text>
+  <text x="468" y="252" fill="#e0645c">MPC = 20</text>
+  <text x="468" y="219" fill="#7b4fb0">MSC = 30</text>
+
+  <!-- DWL label with leader -->
+  <text x="300" y="180" fill="#c8322c" font-weight="bold">DWL = 50</text>
+  <line x1="360" y1="184" x2="394" y2="232" stroke="#c8322c" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- axis ticks -->
+  <text x="26" y="226" fill="#333333">30</text>
+  <text x="26" y="252" fill="#333333">20</text>
+  <text x="40" y="45" fill="#8a8a8a">100</text>
+  <text x="352" y="318" fill="#333333">q*=70</text>
+  <text x="398" y="318" fill="#333333">q&#8202;&#7504;=80</text>
+
+  <!-- caption -->
+  <text x="70" y="338" fill="#8a8a8a" font-style="italic">A negative externality: MSC sits above MPC by the external cost MEC. The market trades at q&#8202;&#7504; (MSB=MPC), past the efficient q* (MSB=MSC) — the shaded wedge is lost.</text>
+</svg>

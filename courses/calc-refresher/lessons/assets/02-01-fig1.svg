@@ -1,0 +1,84 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Two panels showing left Riemann sums under the curve y = 1 + x squared over 4 on the interval 0 to 4: with 4 rectangles the sum is 7.5, with 16 rectangles it is about 8.84, converging to the true area 28/3, about 9.33">
+  <!-- Function: f(x) = 1 + x^2/4 on [0,4].
+       Pixel map (both panels): X = x0 + 55x, Y = 290 - 44*f(x)  =>  curve Y = 246 - 11x^2.
+       Left Riemann rectangles: height 44*f(x_i), top at 290 - 44*f(x_i). -->
+
+  <!-- ======== Panel 1: n = 4, x0 = 40 ======== -->
+  <text x="150" y="30" font-family="sans-serif" font-size="14" fill="#8a8a8a" text-anchor="middle">n = 4</text>
+
+  <!-- rectangles: heights 44*f(0)=44, 44*f(1)=55, 44*f(2)=88, 44*f(3)=143 -->
+  <g fill="#7bb662" fill-opacity="0.28" stroke="#7bb662" stroke-opacity="0.9" stroke-width="1">
+    <rect x="40"  y="246" width="55" height="44"/>
+    <rect x="95"  y="235" width="55" height="55"/>
+    <rect x="150" y="202" width="55" height="88"/>
+    <rect x="205" y="147" width="55" height="143"/>
+  </g>
+
+  <!-- curve: parabola through (40,246),(260,70); exact quadratic Bezier -->
+  <path d="M 40 246 Q 150 246 260 70" fill="none" stroke="#4a90d9" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="84" y="112" font-family="sans-serif" font-size="13" fill="#4a90d9">y = 1 + x&#178;/4</text>
+
+  <!-- axes -->
+  <g stroke="#8a8a8a" stroke-width="1.5">
+    <line x1="30" y1="290" x2="272" y2="290"/>
+    <line x1="40" y1="298" x2="40" y2="58"/>
+    <line x1="260" y1="290" x2="260" y2="296"/>
+  </g>
+  <g fill="#8a8a8a" stroke="none">
+    <path d="M 272 286 L 280 290 L 272 294 Z"/>
+    <path d="M 36 60 L 40 52 L 44 60 Z"/>
+  </g>
+  <g font-family="sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">
+    <text x="40" y="308">0</text>
+    <text x="260" y="308">4</text>
+    <text x="150" y="326">shaded sum = 7.5</text>
+  </g>
+
+  <!-- ======== between panels ======== -->
+  <text x="281" y="185" font-family="sans-serif" font-size="16" fill="#8a8a8a" text-anchor="middle">&#8594;</text>
+
+  <!-- ======== Panel 2: n = 16, x0 = 300 ======== -->
+  <text x="410" y="30" font-family="sans-serif" font-size="14" fill="#8a8a8a" text-anchor="middle">n = 16</text>
+
+  <!-- rectangles: width 13.75, heights 44 + 0.6875*i^2 for i = 0..15 -->
+  <g fill="#7bb662" fill-opacity="0.28" stroke="#7bb662" stroke-opacity="0.9" stroke-width="0.75">
+    <rect x="300"    y="246"    width="13.75" height="44"/>
+    <rect x="313.75" y="245.31" width="13.75" height="44.69"/>
+    <rect x="327.5"  y="243.25" width="13.75" height="46.75"/>
+    <rect x="341.25" y="239.81" width="13.75" height="50.19"/>
+    <rect x="355"    y="235"    width="13.75" height="55"/>
+    <rect x="368.75" y="228.81" width="13.75" height="61.19"/>
+    <rect x="382.5"  y="221.25" width="13.75" height="68.75"/>
+    <rect x="396.25" y="212.31" width="13.75" height="77.69"/>
+    <rect x="410"    y="202"    width="13.75" height="88"/>
+    <rect x="423.75" y="190.31" width="13.75" height="99.69"/>
+    <rect x="437.5"  y="177.25" width="13.75" height="112.75"/>
+    <rect x="451.25" y="162.81" width="13.75" height="127.19"/>
+    <rect x="465"    y="147"    width="13.75" height="143"/>
+    <rect x="478.75" y="129.81" width="13.75" height="160.19"/>
+    <rect x="492.5"  y="111.25" width="13.75" height="178.75"/>
+    <rect x="506.25" y="91.31"  width="13.75" height="198.69"/>
+  </g>
+
+  <!-- curve -->
+  <path d="M 300 246 Q 410 246 520 70" fill="none" stroke="#4a90d9" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- axes -->
+  <g stroke="#8a8a8a" stroke-width="1.5">
+    <line x1="290" y1="290" x2="532" y2="290"/>
+    <line x1="300" y1="298" x2="300" y2="58"/>
+    <line x1="520" y1="290" x2="520" y2="296"/>
+  </g>
+  <g fill="#8a8a8a" stroke="none">
+    <path d="M 532 286 L 540 290 L 532 294 Z"/>
+    <path d="M 296 60 L 300 52 L 304 60 Z"/>
+  </g>
+  <g font-family="sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">
+    <text x="300" y="308">0</text>
+    <text x="520" y="308">4</text>
+    <text x="410" y="326">shaded sum &#8776; 8.84</text>
+  </g>
+
+  <!-- caption -->
+  <text x="280" y="345" font-family="sans-serif" font-size="12.5" fill="#8a8a8a" text-anchor="middle">Finer slices leave less daylight under the curve: the sums climb toward the true area 28/3 &#8776; 9.33.</text>
+</svg>

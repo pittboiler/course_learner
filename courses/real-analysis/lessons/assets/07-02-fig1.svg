@@ -1,0 +1,73 @@
+<svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <!-- ================= LEFT: monotone curve with oscillation boxes ================= -->
+  <!-- axes -->
+  <line x1="55" y1="290" x2="352" y2="290" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="60" y1="300" x2="60" y2="45" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="352,290 342,285 342,295" fill="#8a8a8a"/>
+  <polygon points="60,45 55,55 65,55" fill="#8a8a8a"/>
+
+  <!-- oscillation boxes: box i spans [x_{i-1},x_i] from f(x_{i-1}) up to f(x_i) -->
+  <rect x="80"  y="230" width="44" height="30" fill="#4a90d9" opacity="0.16" stroke="#4a90d9" stroke-width="1"/>
+  <rect x="124" y="185" width="44" height="45" fill="#4a90d9" opacity="0.16" stroke="#4a90d9" stroke-width="1"/>
+  <rect x="168" y="140" width="44" height="45" fill="#4a90d9" opacity="0.16" stroke="#4a90d9" stroke-width="1"/>
+  <rect x="212" y="105" width="44" height="35" fill="#4a90d9" opacity="0.16" stroke="#4a90d9" stroke-width="1"/>
+  <rect x="256" y="80"  width="44" height="25" fill="#4a90d9" opacity="0.16" stroke="#4a90d9" stroke-width="1"/>
+
+  <!-- the increasing curve through (x_{i-1},f) -> (x_i,f): the box corners -->
+  <polyline points="80,260 124,230 168,185 212,140 256,105 300,80"
+            fill="none" stroke="#e0645c" stroke-width="3"/>
+  <circle cx="80"  cy="260" r="3.5" fill="#e0645c"/>
+  <circle cx="300" cy="80"  r="3.5" fill="#e0645c"/>
+
+  <!-- partition ticks -->
+  <g stroke="#8a8a8a" stroke-width="1">
+    <line x1="80"  y1="290" x2="80"  y2="295"/>
+    <line x1="124" y1="290" x2="124" y2="295"/>
+    <line x1="168" y1="290" x2="168" y2="295"/>
+    <line x1="212" y1="290" x2="212" y2="295"/>
+    <line x1="256" y1="290" x2="256" y2="295"/>
+    <line x1="300" y1="290" x2="300" y2="295"/>
+  </g>
+  <text x="76"  y="309" fill="#8a8a8a">a</text>
+  <text x="296" y="309" fill="#8a8a8a">b</text>
+  <text x="150" y="309" fill="#8a8a8a">uniform partition, width Δx</text>
+
+  <!-- annotate one box height = M_i - m_i -->
+  <line x1="168" y1="185" x2="150" y2="200" stroke="#4a90d9" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="70" y="196" fill="#4a90d9">one box height = M</text>
+  <text x="164" y="196" fill="#4a90d9">− m</text>
+  <text x="152" y="199" fill="#4a90d9" font-size="9">i</text>
+  <text x="188" y="199" fill="#4a90d9" font-size="9">i</text>
+  <text x="60" y="66" fill="#e0645c" font-style="italic">y = f(x), increasing</text>
+
+  <!-- ================= RIGHT: boxes stacked into one column ================= -->
+  <!-- baseline -->
+  <line x1="400" y1="290" x2="560" y2="290" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- stacked column (same 5 heights, edge to edge) -->
+  <rect x="450" y="260" width="44" height="30" fill="#4a90d9" opacity="0.16" stroke="#4a90d9" stroke-width="1"/>
+  <rect x="450" y="215" width="44" height="45" fill="#4a90d9" opacity="0.16" stroke="#4a90d9" stroke-width="1"/>
+  <rect x="450" y="170" width="44" height="45" fill="#4a90d9" opacity="0.16" stroke="#4a90d9" stroke-width="1"/>
+  <rect x="450" y="135" width="44" height="35" fill="#4a90d9" opacity="0.16" stroke="#4a90d9" stroke-width="1"/>
+  <rect x="450" y="110" width="44" height="25" fill="#4a90d9" opacity="0.16" stroke="#4a90d9" stroke-width="1"/>
+
+  <!-- total-height brace -->
+  <line x1="508" y1="110" x2="508" y2="290" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="508,110 504,120 512,120" fill="#e0645c"/>
+  <polygon points="508,290 504,280 512,280" fill="#e0645c"/>
+  <text x="514" y="196" fill="#e0645c">f(b) − f(a)</text>
+
+  <!-- width label -->
+  <line x1="450" y1="300" x2="494" y2="300" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="456" y="313" fill="#8a8a8a">Δx</text>
+
+  <!-- arrow from left to right -->
+  <path d="M 360 165 C 385 165, 405 165, 428 165" fill="none" stroke="#8a8a8a" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <polygon points="428,165 418,160 418,170" fill="#8a8a8a"/>
+  <text x="360" y="150" fill="#8a8a8a" font-style="italic">stack</text>
+
+  <!-- caption -->
+  <text x="405" y="66" fill="#8a8a8a" font-style="italic">The oscillations telescope into</text>
+  <text x="405" y="84" fill="#8a8a8a" font-style="italic">one column of height f(b) − f(a):</text>
+  <text x="405" y="102" fill="#8a8a8a" font-style="italic">U − L = Δx · (f(b) − f(a)) → 0.</text>
+</svg>

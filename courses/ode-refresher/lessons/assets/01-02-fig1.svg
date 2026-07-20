@@ -1,0 +1,39 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- equilibrium band: solutions all funnel toward y = 1 -->
+  <rect x="60" y="164" width="464" height="12" fill="#e0645c" opacity="0.10"/>
+
+  <!-- axes -->
+  <line x1="30" y1="235" x2="540" y2="235" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="60" y1="18" x2="60" y2="322" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="540,235 530,230 530,240" fill="#8a8a8a"/>
+  <polygon points="60,18 55,28 65,28" fill="#8a8a8a"/>
+  <text x="546" y="240" fill="#8a8a8a">t</text>
+  <text x="46" y="34" fill="#8a8a8a">y</text>
+
+  <!-- equilibrium line y = 1 -->
+  <line x1="60" y1="170" x2="524" y2="170" stroke="#e0645c" stroke-width="2" stroke-dasharray="3 4"/>
+  <text x="46" y="175" fill="#e0645c">1</text>
+
+  <!-- solution curves y = 1 + C e^{-t} for C = 2, 1, -1, -2 -->
+  <path d="M 60 40 L 106.4 91.2 L 152.8 122.2 L 199.2 141 L 245.6 152.4 L 292 159.3 L 338.4 163.5 L 384.8 166.1 L 431.2 167.6 L 477.6 168.6 L 524 169.1"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <path d="M 60 105 L 106.4 130.6 L 152.8 146.1 L 199.2 155.5 L 245.6 161.2 L 292 164.7 L 338.4 166.8 L 384.8 168 L 431.2 168.8 L 477.6 169.3 L 524 169.6"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <path d="M 60 235 L 106.4 209.4 L 152.8 193.9 L 199.2 184.5 L 245.6 178.8 L 292 175.3 L 338.4 173.2 L 384.8 172 L 431.2 171.2 L 477.6 170.7 L 524 170.4"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <path d="M 60 300 L 106.4 248.8 L 152.8 217.8 L 199.2 199 L 245.6 187.6 L 292 180.7 L 338.4 176.5 L 384.8 173.9 L 431.2 172.4 L 477.6 171.4 L 524 170.9"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- initial-condition dots on the t = 0 axis: each starting height fixes one C -->
+  <circle cx="60" cy="40" r="4" fill="#8a8a8a"/>
+  <circle cx="60" cy="105" r="4" fill="#8a8a8a"/>
+  <circle cx="60" cy="235" r="4" fill="#8a8a8a"/>
+  <circle cx="60" cy="300" r="4" fill="#8a8a8a"/>
+
+  <!-- labels -->
+  <text x="360" y="150" fill="#4a90d9">y = 1 + C e&#8722;&#7511;</text>
+  <text x="360" y="192" fill="#e0645c">y = 1 (equilibrium)</text>
+
+  <!-- caption -->
+  <text x="80" y="332" fill="#8a8a8a" font-style="italic">One general formula, a whole family; the starting height y(0) fixes C and picks a single curve.</text>
+</svg>

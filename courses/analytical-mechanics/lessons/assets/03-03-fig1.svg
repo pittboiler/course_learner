@@ -1,0 +1,53 @@
+<svg viewBox="0 0 560 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- ================= LEFT PANEL: fundamental-bracket table ================= -->
+  <text x="30" y="34" fill="#8a8a8a" font-style="italic">The fundamental brackets — the symplectic skeleton</text>
+
+  <!-- column headers -->
+  <text x="120" y="70" fill="#4a90d9" text-anchor="middle">q_j</text>
+  <text x="196" y="70" fill="#e0645c" text-anchor="middle">p_j</text>
+  <!-- row headers -->
+  <text x="58" y="112" fill="#4a90d9" text-anchor="middle">q_i</text>
+  <text x="58" y="170" fill="#e0645c" text-anchor="middle">p_i</text>
+
+  <!-- 2x2 grid -->
+  <rect x="82" y="84" width="152" height="116" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="158" y1="84" x2="158" y2="200" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="82" y1="142" x2="234" y2="142" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- entries: {q,q}=0, {q,p}=+delta, {p,q}=-delta, {p,p}=0 -->
+  <text x="120" y="118" fill="#8a8a8a" text-anchor="middle">0</text>
+  <text x="196" y="118" fill="#333333" text-anchor="middle">+&#948;&#8347;&#8355;</text>
+  <text x="120" y="176" fill="#333333" text-anchor="middle">&#8722;&#948;&#8347;&#8355;</text>
+  <text x="196" y="176" fill="#8a8a8a" text-anchor="middle">0</text>
+
+  <text x="30" y="228" fill="#8a8a8a" font-size="13">entry (i,j) = { row , column }</text>
+  <text x="30" y="248" fill="#8a8a8a" font-size="13">antisymmetric: swapping slots flips the sign.</text>
+
+  <!-- ================= divider ================= -->
+  <line x1="290" y1="30" x2="290" y2="250" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- ================= RIGHT PANEL: the flow of an observable ================= -->
+  <text x="330" y="34" fill="#8a8a8a" font-style="italic">Every observable flows under H</text>
+
+  <!-- f box -->
+  <rect x="330" y="86" width="70" height="48" rx="6" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <text x="365" y="116" fill="#4a90d9" text-anchor="middle" font-size="18">f</text>
+
+  <!-- arrow -->
+  <line x1="404" y1="110" x2="470" y2="110" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="470,110 460,105 460,115" fill="#8a8a8a"/>
+  <text x="437" y="100" fill="#e0645c" text-anchor="middle" font-size="15">{&#8201;f , H&#8201;}</text>
+
+  <!-- df/dt box -->
+  <rect x="474" y="86" width="70" height="48" rx="6" fill="#e0645c" opacity="0.12" stroke="#e0645c" stroke-width="2"/>
+  <text x="509" y="116" fill="#e0645c" text-anchor="middle" font-size="16">df/dt</text>
+
+  <text x="330" y="168" fill="#333333">df/dt = {&#8201;f , H&#8201;} + &#8706;f/&#8706;t</text>
+  <text x="330" y="192" fill="#8a8a8a" font-size="13">{&#8201;f , H&#8201;} = 0  &#8658;  f is conserved.</text>
+  <text x="330" y="214" fill="#8a8a8a" font-size="13">q, p are just the special cases f = q, f = p.</text>
+
+  <!-- ================= bottom caption: bracket -> commutator ================= -->
+  <line x1="30" y1="282" x2="530" y2="282" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="280" y="308" fill="#8a8a8a" text-anchor="middle" font-style="italic">Dirac's bridge to quantum mechanics:  { f , g }  &#8594;  (1 / i&#8463;) [ f&#770; , g&#770; ]</text>
+  <text x="280" y="328" fill="#8a8a8a" text-anchor="middle" font-size="12">the Poisson bracket is the classical shadow of the commutator.</text>
+</svg>

@@ -1,0 +1,53 @@
+<svg viewBox="0 0 600 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <!-- caption -->
+  <text x="98" y="24" fill="#8a8a8a" font-style="italic">A bounded sequence oscillates forever — yet hides a subsequence that homes in on L.</text>
+
+  <!-- axes -->
+  <line x1="90" y1="30" x2="90" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="90" y1="290" x2="500" y2="290" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="500,290 490,285 490,295" fill="#8a8a8a"/>
+  <text x="498" y="308" fill="#8a8a8a">n</text>
+
+  <!-- the L line (the target the nested boxes and subsequence agree on) -->
+  <line x1="90" y1="135" x2="490" y2="135" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="494" y="139" fill="#e0645c">L</text>
+
+  <!-- nested bisection brackets, halving down onto L; the outer one IS [a,b] -->
+  <path d="M 47 45 L 40 45 L 40 270 L 47 270" fill="none" stroke="#4a90d9" stroke-width="2.2"/>
+  <path d="M 61 45 L 54 45 L 54 157.5 L 61 157.5" fill="none" stroke="#4a90d9" stroke-width="2.2"/>
+  <path d="M 75 101.25 L 68 101.25 L 68 157.5 L 75 157.5" fill="none" stroke="#4a90d9" stroke-width="2.2"/>
+  <path d="M 88 129.4 L 82 129.4 L 82 157.5 L 88 157.5" fill="none" stroke="#4a90d9" stroke-width="2.2"/>
+  <polygon points="90,135 83,131 83,139" fill="#e0645c"/>
+  <text x="20" y="49" fill="#8a8a8a">b</text>
+  <text x="20" y="274" fill="#8a8a8a">a</text>
+  <text x="30" y="320" fill="#4a90d9">halve, keep the half with</text>
+  <text x="30" y="336" fill="#4a90d9">infinitely many terms, nest &#8594; L</text>
+
+  <!-- faint thread joining the convergent subsequence -->
+  <polyline points="206,168.75 278,153 350,144 422,139.5 470,135" fill="none" stroke="#4a90d9" stroke-width="1.5" opacity="0.45" stroke-dasharray="4 3"/>
+
+  <!-- grey dots: the full oscillating sequence -->
+  <circle cx="110" cy="225" r="4" fill="#8a8a8a"/>
+  <circle cx="134" cy="67.5" r="4" fill="#8a8a8a"/>
+  <circle cx="158" cy="191.25" r="4" fill="#8a8a8a"/>
+  <circle cx="182" cy="78.75" r="4" fill="#8a8a8a"/>
+  <circle cx="230" cy="236.25" r="4" fill="#8a8a8a"/>
+  <circle cx="254" cy="56.25" r="4" fill="#8a8a8a"/>
+  <circle cx="302" cy="213.75" r="4" fill="#8a8a8a"/>
+  <circle cx="326" cy="72" r="4" fill="#8a8a8a"/>
+  <circle cx="374" cy="247.5" r="4" fill="#8a8a8a"/>
+  <circle cx="398" cy="63" r="4" fill="#8a8a8a"/>
+  <circle cx="446" cy="202.5" r="4" fill="#8a8a8a"/>
+
+  <!-- blue dots: the convergent subsequence -->
+  <circle cx="206" cy="168.75" r="5" fill="#4a90d9"/>
+  <circle cx="278" cy="153" r="5" fill="#4a90d9"/>
+  <circle cx="350" cy="144" r="5" fill="#4a90d9"/>
+  <circle cx="422" cy="139.5" r="5" fill="#4a90d9"/>
+  <circle cx="470" cy="135" r="5" fill="#4a90d9"/>
+
+  <!-- labels -->
+  <text x="250" y="112" fill="#4a90d9">convergent subsequence a(n_k) &#8594; L</text>
+  <line x1="300" y1="118" x2="330" y2="142" stroke="#4a90d9" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="360" y="230" fill="#8a8a8a">full sequence never settles</text>
+</svg>

@@ -1,0 +1,46 @@
+<svg viewBox="0 0 600 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- highlight: the trap cell (top-right), where the two questions diverge -->
+  <rect x="397.5" y="110" width="187.5" height="107.5" fill="#e0645c" opacity="0.16"/>
+
+  <!-- table grid -->
+  <rect x="210" y="110" width="375" height="215" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="397.5" y1="110" x2="397.5" y2="325" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="210" y1="217.5" x2="585" y2="217.5" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- column headers: the h = E question -->
+  <text x="397" y="34" fill="#8a8a8a" text-anchor="middle" font-style="italic">Does h = E ?  (set by the form of T)</text>
+  <text x="303.5" y="66" fill="#4a90d9" text-anchor="middle">T is quadratic in q̇</text>
+  <text x="303.5" y="85" fill="#8a8a8a" text-anchor="middle" font-size="12">fixed constraints ⟹ h = E</text>
+  <text x="491" y="66" fill="#e0645c" text-anchor="middle">T has a T₁ or T₀ piece</text>
+  <text x="491" y="85" fill="#8a8a8a" text-anchor="middle" font-size="12">moving constraints ⟹ h ≠ E</text>
+
+  <!-- row headers: the conservation question -->
+  <text x="20" y="200" fill="#8a8a8a" font-style="italic" font-size="12">Is h conserved?</text>
+  <text x="20" y="216" fill="#8a8a8a" font-style="italic" font-size="12">(set by ∂L/∂t)</text>
+  <text x="200" y="158" fill="#4a90d9" text-anchor="end">∂L/∂t = 0</text>
+  <text x="200" y="176" fill="#8a8a8a" text-anchor="end" font-size="12">h conserved</text>
+  <text x="200" y="266" fill="#e0645c" text-anchor="end">∂L/∂t ≠ 0</text>
+  <text x="200" y="284" fill="#8a8a8a" text-anchor="end" font-size="12">h not conserved</text>
+
+  <!-- cell TL: happy case -->
+  <text x="303.5" y="158" fill="#333333" text-anchor="middle">h = E, conserved</text>
+  <text x="303.5" y="180" fill="#8a8a8a" text-anchor="middle" font-size="12">1-D particle · P1</text>
+
+  <!-- cell TR: the trap -->
+  <text x="491" y="150" fill="#333333" text-anchor="middle">h conserved,</text>
+  <text x="491" y="169" fill="#333333" text-anchor="middle">but h ≠ E</text>
+  <text x="491" y="191" fill="#e0645c" text-anchor="middle" font-size="12">rotating hoop · P2  (the trap)</text>
+
+  <!-- cell BL -->
+  <text x="303.5" y="266" fill="#333333" text-anchor="middle">h = E,</text>
+  <text x="303.5" y="285" fill="#333333" text-anchor="middle">but not conserved</text>
+  <text x="303.5" y="307" fill="#8a8a8a" text-anchor="middle" font-size="12">driven oscillator · P3</text>
+
+  <!-- cell BR -->
+  <text x="491" y="266" fill="#333333" text-anchor="middle">h ≠ E,</text>
+  <text x="491" y="285" fill="#333333" text-anchor="middle">not conserved</text>
+  <text x="491" y="307" fill="#8a8a8a" text-anchor="middle" font-size="12">generic driven + moving</text>
+
+  <!-- caption -->
+  <text x="30" y="360" fill="#8a8a8a" font-style="italic">Two independent switches: ∂L/∂t decides conservation (rows), the form of T decides whether h = E (columns).</text>
+</svg>

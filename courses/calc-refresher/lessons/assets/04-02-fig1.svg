@@ -1,0 +1,47 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- axes -->
+  <line x1="60" y1="300" x2="540" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="60" y1="18" x2="60" y2="322" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="540,300 530,295 530,305" fill="#8a8a8a"/>
+  <polygon points="60,18 55,28 65,28" fill="#8a8a8a"/>
+  <text x="546" y="305" fill="#8a8a8a">x</text>
+  <text x="50" y="30" fill="#8a8a8a">y</text>
+
+  <!-- level curve f = xy = 16 (achievable, not optimal) -->
+  <path d="M 132 40 L 150 92 L 172.5 133.6 L 195 161.3 L 240 196 L 285 216.8 L 330 230.7 L 420 248 L 510 258.4"
+        fill="none" stroke="#4a90d9" stroke-width="1.5" opacity="0.55"/>
+  <!-- level curve f = xy = 36 (unreachable on the constraint) -->
+  <path d="M 222 40 L 240 66 L 262.5 92 L 285 112.8 L 330 144 L 375 166.3 L 420 183 L 465 196 L 510 206.4"
+        fill="none" stroke="#4a90d9" stroke-width="1.5" opacity="0.55"/>
+  <!-- level curve f = xy = 25 (the tangent one — the optimum) -->
+  <path d="M 172.5 40 L 195 83.3 L 217.5 114.4 L 240 137.5 L 262.5 155.6 L 285 170 L 307.5 181.8 L 330 191.7 L 375 207.1 L 420 218.75 L 465 227.8 L 510 235"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- constraint g = x + y = 10 -->
+  <line x1="60" y1="40" x2="510" y2="300" stroke="#e0645c" stroke-width="3"/>
+
+  <!-- tangency / optimum at (5,5) -->
+  <line x1="285" y1="170" x2="285" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="60" y1="170" x2="285" y2="170" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="279" y="318" fill="#8a8a8a">5</text>
+  <text x="46" y="175" fill="#8a8a8a">5</text>
+  <circle cx="285" cy="170" r="5" fill="#e0645c"/>
+
+  <!-- parallel gradients at the optimum (both point up-right, normal to the line) -->
+  <line x1="285" y1="170" x2="324" y2="131" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="324,131 320.4,141.6 313.4,134.6" fill="#e0645c"/>
+  <line x1="292" y1="177" x2="331" y2="138" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="331,138 327.4,148.6 320.4,141.6" fill="#8a8a8a"/>
+  <text x="330" y="126" fill="#e0645c" font-style="italic">∇f</text>
+  <text x="337" y="150" fill="#8a8a8a" font-style="italic">∇g</text>
+  <text x="300" y="108" fill="#8a8a8a" font-style="italic">parallel here</text>
+
+  <!-- labels -->
+  <text x="360" y="252" fill="#4a90d9">f = 16</text>
+  <text x="118" y="70" fill="#4a90d9">f = 36</text>
+  <text x="150" y="118" fill="#4a90d9" font-weight="bold">f = 25 (max)</text>
+  <text x="70" y="292" fill="#e0645c">x + y = 10</text>
+
+  <!-- caption -->
+  <text x="150" y="338" fill="#8a8a8a" font-style="italic">Slide to the highest level curve still touching the line — it touches tangentially, so ∇f ∥ ∇g.</text>
+</svg>

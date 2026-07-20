@@ -1,0 +1,87 @@
+{
+  "settings": {
+    "lesson_target_minutes": 15,
+    "max_active_courses": 2,
+    "review_intervals_days": {
+      "1": 1,
+      "2": 2,
+      "3": 5,
+      "4": 10,
+      "5": 21
+    }
+  },
+  "courses": {
+    "calc-refresher": {
+      "status": "available",
+      "started": "2026-07-14",
+      "lessons": {}
+    },
+    "proofs-primer": {
+      "status": "available",
+      "started": "2026-07-15",
+      "lessons": {}
+    },
+    "linalg-refresher": {
+      "status": "available",
+      "started": "2026-07-15",
+      "lessons": {}
+    },
+    "ode-refresher": {
+      "status": "available",
+      "started": "2026-07-15",
+      "lessons": {}
+    },
+    "prob-stat-refresher": {
+      "status": "available",
+      "started": "2026-07-15",
+      "lessons": {}
+    },
+    "mechanics-refresher": {
+      "status": "available",
+      "started": "2026-07-15",
+      "lessons": {}
+    },
+    "em-refresher": {
+      "status": "available",
+      "started": "2026-07-15",
+      "lessons": {}
+    },
+    "micro-refresher": {
+      "status": "available",
+      "started": "2026-07-15",
+      "lessons": {}
+    },
+    "game-theory-refresher": {
+      "status": "available",
+      "started": "2026-07-15",
+      "lessons": {}
+    },
+    "analytical-mechanics": {
+      "status": "available",
+      "started": "2026-07-15",
+      "lessons": {}
+    },
+    "real-analysis": {
+      "status": "available",
+      "started": "2026-07-16",
+      "lessons": {}
+    },
+    "complex-analysis": {
+      "status": "available",
+      "started": "2026-07-16",
+      "lessons": {}
+    },
+    "topology": {
+      "status": "available",
+      "started": "2026-07-16",
+      "lessons": {}
+    },
+    "probability-theory": {
+      "status": "available",
+      "started": "2026-07-16",
+      "lessons": {}
+    }
+  },
+  "review_queue": [],
+  "log": []
+}

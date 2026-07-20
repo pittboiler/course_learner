@@ -1,0 +1,53 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <defs>
+    <marker id="ahG" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto">
+      <polygon points="0,0 8,4 0,8" fill="#8a8a8a"/>
+    </marker>
+    <marker id="ahB" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto">
+      <polygon points="0,0 8,4 0,8" fill="#4a90d9"/>
+    </marker>
+    <marker id="ahR" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto">
+      <polygon points="0,0 8,4 0,8" fill="#e0645c"/>
+    </marker>
+  </defs>
+
+  <!-- caption / title -->
+  <text x="70" y="30" fill="#8a8a8a" font-style="italic">Weight mg split along the incline (mg sin θ) and into it (mg cos θ).</text>
+
+  <!-- wedge -->
+  <path d="M 80 300 L 480 300 L 480 69 Z" fill="#8a8a8a" opacity="0.12"/>
+  <line x1="80" y1="300" x2="480" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="80" y1="300" x2="480" y2="69"  stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="480" y1="300" x2="480" y2="69" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- angle theta -->
+  <path d="M 125 300 A 45 45 0 0 0 119 277.5" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="98" y="292" fill="#8a8a8a">θ</text>
+
+  <!-- decomposition rectangle (light dashed) -->
+  <path d="M 229 189 L 194.4 209 L 229 269 L 263.6 249 Z"
+        fill="none" stroke="#4a90d9" stroke-width="1" stroke-dasharray="3 4" opacity="0.7"/>
+
+  <!-- block -->
+  <rect x="199" y="169" width="60" height="40" rx="3"
+        transform="rotate(-30 229 189)" fill="#ffffff" stroke="#4a4a4a" stroke-width="1.6"/>
+  <circle cx="229" cy="189" r="2.5" fill="#4a4a4a"/>
+
+  <!-- weight mg (solid blue, straight down) -->
+  <line x1="229" y1="189" x2="229" y2="269" stroke="#4a90d9" stroke-width="3" marker-end="url(#ahB)"/>
+  <text x="235" y="286" fill="#4a90d9">mg</text>
+
+  <!-- components (dashed blue) -->
+  <line x1="229" y1="189" x2="194.4" y2="209" stroke="#4a90d9" stroke-width="2.4" stroke-dasharray="6 4" marker-end="url(#ahB)"/>
+  <text x="96" y="224" fill="#4a90d9">mg sin θ</text>
+  <line x1="229" y1="189" x2="263.6" y2="249" stroke="#4a90d9" stroke-width="2.4" stroke-dasharray="6 4" marker-end="url(#ahB)"/>
+  <text x="270" y="266" fill="#4a90d9">mg cos θ</text>
+
+  <!-- normal force (solid red, out of surface) -->
+  <line x1="229" y1="189" x2="194.4" y2="129" stroke="#e0645c" stroke-width="3" marker-end="url(#ahR)"/>
+  <text x="170" y="120" fill="#e0645c">N</text>
+
+  <!-- friction (solid red, up the slope) -->
+  <line x1="229" y1="189" x2="263.6" y2="169" stroke="#e0645c" stroke-width="3" marker-end="url(#ahR)"/>
+  <text x="272" y="160" fill="#e0645c">f</text>
+</svg>

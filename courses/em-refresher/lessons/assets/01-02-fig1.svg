@@ -1,0 +1,39 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#4a90d9"/>
+    </marker>
+  </defs>
+
+  <!-- 3D hint: faint equator ellipse -->
+  <ellipse cx="270" cy="180" rx="100" ry="30" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4" opacity="0.5"/>
+
+  <!-- Gaussian surface: the closed sphere -->
+  <circle cx="270" cy="180" r="100" fill="#4a90d9" fill-opacity="0.06" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="6 5"/>
+
+  <!-- radial E arrows, uniform, crossing the surface -->
+  <g stroke="#4a90d9" stroke-width="2.5" marker-end="url(#arrow)">
+    <line x1="336" y1="180" x2="420" y2="180"/>
+    <line x1="316.7" y1="226.7" x2="376.1" y2="286.1"/>
+    <line x1="270" y1="246" x2="270" y2="330"/>
+    <line x1="223.3" y1="226.7" x2="163.9" y2="286.1"/>
+    <line x1="204" y1="180" x2="120" y2="180"/>
+    <line x1="223.3" y1="133.3" x2="163.9" y2="73.9"/>
+    <line x1="270" y1="114" x2="270" y2="30"/>
+    <line x1="316.7" y1="133.3" x2="376.1" y2="73.9"/>
+  </g>
+
+  <!-- the enclosed point charge -->
+  <circle cx="270" cy="180" r="14" fill="#e0645c"/>
+  <text x="270" y="185" fill="#ffffff" text-anchor="middle" font-size="16" font-weight="bold">+</text>
+  <text x="290" y="176" fill="#e0645c" font-weight="bold">Q</text>
+
+  <!-- labels -->
+  <text x="426" y="184" fill="#4a90d9">E</text>
+  <text x="300" y="88" fill="#8a8a8a">Gaussian surface</text>
+  <line x1="330" y1="92" x2="342" y2="118" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- caption -->
+  <text x="40" y="32" fill="#8a8a8a" font-style="italic">By symmetry E is the same size everywhere on the sphere and points straight out —</text>
+  <text x="40" y="50" fill="#8a8a8a" font-style="italic">so total flux = E·(4πr²), and it counts only the charge inside, not the sphere's size.</text>
+</svg>

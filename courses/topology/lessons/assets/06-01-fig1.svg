@@ -1,0 +1,32 @@
+<svg viewBox="0 0 560 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- intermediate paths of the homotopy: grey family sweeping from gamma_0 down to gamma_1, endpoints pinned -->
+  <path d="M 90 180 Q 280 96 470 180"  fill="none" stroke="#9aa4b0" stroke-width="1.5" opacity="0.8"/>
+  <path d="M 90 180 Q 280 128 470 180" fill="none" stroke="#9aa4b0" stroke-width="1.5" opacity="0.8"/>
+  <path d="M 90 180 Q 280 160 470 180" fill="none" stroke="#9aa4b0" stroke-width="1.5" opacity="0.8"/>
+  <path d="M 90 180 Q 280 192 470 180" fill="none" stroke="#9aa4b0" stroke-width="1.5" opacity="0.8"/>
+  <path d="M 90 180 Q 280 224 470 180" fill="none" stroke="#9aa4b0" stroke-width="1.5" opacity="0.8"/>
+  <path d="M 90 180 Q 280 256 470 180" fill="none" stroke="#9aa4b0" stroke-width="1.5" opacity="0.8"/>
+
+  <!-- gamma_0 : top boundary path (blue) -->
+  <path d="M 90 180 Q 280 64 470 180" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <!-- gamma_1 : bottom boundary path (red) -->
+  <path d="M 90 180 Q 280 288 470 180" fill="none" stroke="#e0645c" stroke-width="3"/>
+
+  <!-- sweep-direction arrow between the two boundary paths -->
+  <line x1="280" y1="96" x2="280" y2="252" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <polygon points="280,258 275,247 285,247" fill="#8a8a8a"/>
+  <text x="290" y="182" fill="#8a8a8a" font-style="italic">H_s</text>
+
+  <!-- pinned endpoints -->
+  <circle cx="90" cy="180" r="5.5" fill="#8a8a8a"/>
+  <circle cx="470" cy="180" r="5.5" fill="#8a8a8a"/>
+  <text x="66" y="205" fill="#8a8a8a">x&#8320;</text>
+  <text x="480" y="205" fill="#8a8a8a">x&#8321;</text>
+
+  <!-- path labels -->
+  <text x="300" y="88" fill="#4a90d9">&#947;&#8320;</text>
+  <text x="300" y="278" fill="#e0645c">&#947;&#8321;</text>
+
+  <!-- caption -->
+  <text x="40" y="34" fill="#8a8a8a" font-style="italic">A path homotopy: &#947;&#8320; deforms into &#947;&#8321; through a family of paths, endpoints x&#8320;, x&#8321; pinned throughout.</text>
+</svg>

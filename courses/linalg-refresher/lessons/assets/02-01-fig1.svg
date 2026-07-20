@@ -1,0 +1,49 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- LEFT: input unit square with basis e1, e2. Origin (70,250), 1 unit = 50px. -->
+  <!-- RIGHT: image under shear A = [[1,1],[0,1]]. Origin (330,250), 1 unit = 50px. -->
+
+  <!-- left unit square (0,0)(1,0)(1,1)(0,1) -->
+  <polygon points="70,250 120,250 120,200 70,200" fill="#4a90d9" opacity="0.14"/>
+  <!-- right image parallelogram (0,0)(1,0)(2,1)(1,1) -->
+  <polygon points="330,250 380,250 430,200 380,200" fill="#e0645c" opacity="0.12"/>
+
+  <!-- left axes -->
+  <line x1="40" y1="250" x2="235" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="70" y1="255" x2="70" y2="60" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="235,250 227,246 227,254" fill="#8a8a8a"/>
+  <polygon points="70,60 66,68 74,68" fill="#8a8a8a"/>
+
+  <!-- right axes -->
+  <line x1="300" y1="250" x2="500" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="330" y1="255" x2="330" y2="60" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="500,250 492,246 492,254" fill="#8a8a8a"/>
+  <polygon points="330,60 326,68 334,68" fill="#8a8a8a"/>
+
+  <!-- left basis vectors -->
+  <line x1="70" y1="250" x2="120" y2="250" stroke="#4a90d9" stroke-width="3"/>
+  <polygon points="120,250 110,245 110,255" fill="#4a90d9"/>
+  <text x="88" y="268" fill="#4a90d9">e&#8321;</text>
+  <line x1="70" y1="250" x2="70" y2="200" stroke="#e0645c" stroke-width="3"/>
+  <polygon points="70,200 65,210 75,210" fill="#e0645c"/>
+  <text x="46" y="222" fill="#e0645c">e&#8322;</text>
+
+  <!-- right image vectors: Ae1 = (1,0), Ae2 = (1,1) -->
+  <line x1="330" y1="250" x2="380" y2="250" stroke="#4a90d9" stroke-width="3"/>
+  <polygon points="380,250 370,245 370,255" fill="#4a90d9"/>
+  <text x="345" y="268" fill="#4a90d9">Ae&#8321;=(1,0)</text>
+  <line x1="330" y1="250" x2="380" y2="200" stroke="#e0645c" stroke-width="3"/>
+  <polygon points="380,200 369,203 376,211" fill="#e0645c"/>
+  <text x="386" y="196" fill="#e0645c">Ae&#8322;=(1,1)</text>
+
+  <!-- transformation arrow between panels -->
+  <line x1="245" y1="150" x2="298" y2="150" stroke="#8a8a8a" stroke-width="2.5"/>
+  <polygon points="298,150 288,145 288,155" fill="#8a8a8a"/>
+  <text x="243" y="138" fill="#8a8a8a">A = [1 1 ; 0 1]</text>
+
+  <!-- panel titles -->
+  <text x="60" y="300" fill="#8a8a8a">input: unit square</text>
+  <text x="330" y="300" fill="#8a8a8a">output: sheared</text>
+
+  <!-- caption -->
+  <text x="40" y="38" fill="#8a8a8a" font-style="italic">A matrix is a verb: its columns are where e&#8321;, e&#8322; land, and every other point rides along.</text>
+</svg>

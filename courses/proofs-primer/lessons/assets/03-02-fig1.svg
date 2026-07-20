@@ -1,0 +1,80 @@
+<svg viewBox="0 0 720 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <defs>
+    <marker id="ah" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto">
+      <polygon points="0,0 8,3 0,6" fill="#4a90d9"/>
+    </marker>
+  </defs>
+
+  <!-- faint dashed dividers between the three panels -->
+  <line x1="255" y1="58" x2="255" y2="288" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="495" y1="58" x2="495" y2="288" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- ================= PANEL 1: INJECTIVE ================= -->
+  <text x="135" y="44" fill="#4a90d9" text-anchor="middle" font-weight="bold">injective</text>
+  <text x="135" y="62" fill="#8a8a8a" text-anchor="middle" font-style="italic" font-size="12">no target shared</text>
+
+  <!-- domain dots A -->
+  <circle cx="75" cy="120" r="7" fill="#8a8a8a"/>
+  <circle cx="75" cy="175" r="7" fill="#8a8a8a"/>
+  <circle cx="75" cy="230" r="7" fill="#8a8a8a"/>
+  <text x="55" y="124" fill="#8a8a8a">a</text>
+  <text x="55" y="179" fill="#8a8a8a">b</text>
+  <text x="55" y="234" fill="#8a8a8a">c</text>
+  <!-- codomain dots B -->
+  <circle cx="195" cy="100" r="7" fill="#8a8a8a"/>
+  <circle cx="195" cy="150" r="7" fill="#8a8a8a"/>
+  <circle cx="195" cy="200" r="7" fill="#8a8a8a"/>
+  <circle cx="195" cy="250" r="7" fill="#8a8a8a"/>
+  <text x="207" y="104" fill="#8a8a8a">1</text>
+  <text x="207" y="154" fill="#8a8a8a">2</text>
+  <text x="207" y="204" fill="#8a8a8a">3</text>
+  <text x="207" y="254" fill="#8a8a8a">4</text>
+  <!-- arrows: distinct targets, dot 2 left unhit -->
+  <line x1="84" y1="118" x2="185" y2="102" stroke="#4a90d9" stroke-width="2" marker-end="url(#ah)"/>
+  <line x1="84" y1="176" x2="185" y2="199" stroke="#4a90d9" stroke-width="2" marker-end="url(#ah)"/>
+  <line x1="84" y1="231" x2="185" y2="249" stroke="#4a90d9" stroke-width="2" marker-end="url(#ah)"/>
+
+  <!-- ================= PANEL 2: SURJECTIVE ================= -->
+  <text x="375" y="44" fill="#4a90d9" text-anchor="middle" font-weight="bold">surjective</text>
+  <text x="375" y="62" fill="#8a8a8a" text-anchor="middle" font-style="italic" font-size="12">no target missed</text>
+
+  <!-- domain dots -->
+  <circle cx="315" cy="105" r="7" fill="#8a8a8a"/>
+  <circle cx="315" cy="155" r="7" fill="#8a8a8a"/>
+  <circle cx="315" cy="205" r="7" fill="#8a8a8a"/>
+  <circle cx="315" cy="255" r="7" fill="#8a8a8a"/>
+  <!-- codomain dots -->
+  <circle cx="435" cy="120" r="7" fill="#8a8a8a"/>
+  <circle cx="435" cy="185" r="7" fill="#8a8a8a"/>
+  <circle cx="435" cy="250" r="7" fill="#8a8a8a"/>
+  <!-- arrows: two into top dot (a collision), all three targets hit -->
+  <line x1="324" y1="107" x2="425" y2="119" stroke="#4a90d9" stroke-width="2" marker-end="url(#ah)"/>
+  <line x1="324" y1="155" x2="425" y2="123" stroke="#4a90d9" stroke-width="2" marker-end="url(#ah)"/>
+  <line x1="324" y1="205" x2="425" y2="186" stroke="#4a90d9" stroke-width="2" marker-end="url(#ah)"/>
+  <line x1="324" y1="255" x2="425" y2="250" stroke="#4a90d9" stroke-width="2" marker-end="url(#ah)"/>
+  <!-- highlight the collision target in red -->
+  <circle cx="435" cy="120" r="9" fill="none" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="3 4"/>
+
+  <!-- ================= PANEL 3: BIJECTIVE ================= -->
+  <text x="615" y="44" fill="#4a90d9" text-anchor="middle" font-weight="bold">bijective</text>
+  <text x="615" y="62" fill="#8a8a8a" text-anchor="middle" font-style="italic" font-size="12">perfect pairing</text>
+
+  <!-- domain dots -->
+  <circle cx="555" cy="120" r="7" fill="#8a8a8a"/>
+  <circle cx="555" cy="175" r="7" fill="#8a8a8a"/>
+  <circle cx="555" cy="230" r="7" fill="#8a8a8a"/>
+  <!-- codomain dots -->
+  <circle cx="675" cy="120" r="7" fill="#8a8a8a"/>
+  <circle cx="675" cy="175" r="7" fill="#8a8a8a"/>
+  <circle cx="675" cy="230" r="7" fill="#8a8a8a"/>
+  <!-- one-to-one and onto: each target hit exactly once -->
+  <line x1="564" y1="120" x2="665" y2="120" stroke="#4a90d9" stroke-width="2" marker-end="url(#ah)"/>
+  <line x1="564" y1="175" x2="665" y2="175" stroke="#4a90d9" stroke-width="2" marker-end="url(#ah)"/>
+  <line x1="564" y1="230" x2="665" y2="230" stroke="#4a90d9" stroke-width="2" marker-end="url(#ah)"/>
+  <!-- backward arrow hint: the inverse -->
+  <line x1="666" y1="250" x2="565" y2="250" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="3 4" marker-end="url(#ah)"/>
+  <text x="615" y="272" fill="#e0645c" text-anchor="middle" font-style="italic" font-size="12">run it backwards = f⁻¹</text>
+
+  <!-- caption -->
+  <text x="360" y="322" fill="#8a8a8a" text-anchor="middle" font-style="italic">Domain dots on the left, codomain dots on the right — an arrow from each input to its output.</text>
+</svg>

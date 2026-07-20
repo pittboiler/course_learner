@@ -1,0 +1,40 @@
+<svg viewBox="0 0 480 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="90" y="20" fill="#8a8a8a" font-style="italic">Two step-shaped best responses in mixing space cross once, in the interior.</text>
+
+  <!-- unit-square boundary -->
+  <rect x="90" y="40" width="300" height="270" fill="none" stroke="#c9c9c9" stroke-width="1" stroke-dasharray="2 4"/>
+
+  <!-- axes -->
+  <line x1="90" y1="310" x2="415" y2="310" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="90" y1="310" x2="90" y2="30" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="415,310 405,305 405,315" fill="#8a8a8a"/>
+  <polygon points="90,30 85,40 95,40" fill="#8a8a8a"/>
+  <text x="420" y="315" fill="#8a8a8a">p</text>
+  <text x="80" y="30" fill="#8a8a8a">q</text>
+
+  <!-- axis ticks -->
+  <text x="79" y="325" fill="#8a8a8a">0</text>
+  <text x="385" y="328" fill="#8a8a8a">1</text>
+  <text x="74" y="45" fill="#8a8a8a">1</text>
+
+  <!-- player 2's best response q = BR2(p): decreasing step (red) -->
+  <polyline points="90,40 270,40 270,310 390,310" fill="none" stroke="#e0645c" stroke-width="3"/>
+
+  <!-- player 1's best response p = BR1(q): increasing step (blue) -->
+  <polyline points="90,310 90,188 390,188 390,40" fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- droplines to the equilibrium point -->
+  <line x1="270" y1="188" x2="270" y2="310" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="270" y1="188" x2="90" y2="188" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="264" y="328" fill="#8a8a8a">p*</text>
+  <text x="72" y="192" fill="#8a8a8a">q*</text>
+
+  <!-- equilibrium marker -->
+  <circle cx="270" cy="188" r="5.5" fill="#2f2f2f"/>
+  <text x="282" y="176" fill="#2f2f2f">mixed NE (p*, q*)</text>
+
+  <!-- curve labels -->
+  <text x="112" y="118" fill="#4a90d9">p = BR&#8321;(q)  · player 1</text>
+  <text x="150" y="300" fill="#e0645c">q = BR&#8322;(p)  · player 2</text>
+</svg>

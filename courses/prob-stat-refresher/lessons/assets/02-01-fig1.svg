@@ -1,0 +1,40 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="70" y="26" fill="#8a8a8a" font-style="italic">A pmf as a set of weights on a beam: it balances at the mean.</text>
+
+  <!-- pmf bars (p = 0.4, 0.3, 0.2, 0.1 on x = 0,1,2,3) -->
+  <rect x="80"  y="90"  width="60" height="160" fill="#4a90d9" fill-opacity="0.18" stroke="#4a90d9" stroke-width="2.5"/>
+  <rect x="180" y="130" width="60" height="120" fill="#4a90d9" fill-opacity="0.18" stroke="#4a90d9" stroke-width="2.5"/>
+  <rect x="280" y="170" width="60" height="80"  fill="#4a90d9" fill-opacity="0.18" stroke="#4a90d9" stroke-width="2.5"/>
+  <rect x="380" y="210" width="60" height="40"  fill="#4a90d9" fill-opacity="0.18" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <!-- probability labels atop bars -->
+  <text x="110" y="82"  fill="#4a90d9" text-anchor="middle">0.4</text>
+  <text x="210" y="122" fill="#4a90d9" text-anchor="middle">0.3</text>
+  <text x="310" y="162" fill="#4a90d9" text-anchor="middle">0.2</text>
+  <text x="410" y="202" fill="#4a90d9" text-anchor="middle">0.1</text>
+
+  <!-- baseline (the beam) -->
+  <line x1="60" y1="250" x2="480" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="480,250 470,245 470,255" fill="#8a8a8a"/>
+  <text x="486" y="255" fill="#8a8a8a">x</text>
+
+  <!-- value axis labels -->
+  <text x="110" y="268" fill="#8a8a8a" text-anchor="middle">0</text>
+  <text x="210" y="268" fill="#8a8a8a" text-anchor="middle">1</text>
+  <text x="310" y="268" fill="#8a8a8a" text-anchor="middle">2</text>
+  <text x="410" y="268" fill="#8a8a8a" text-anchor="middle">3</text>
+
+  <!-- mean line + fulcrum at x = 1 -->
+  <line x1="210" y1="110" x2="210" y2="250" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <polygon points="210,274 197,292 223,292" fill="#e0645c"/>
+  <text x="210" y="108" fill="#e0645c" text-anchor="middle">&#956; = E[X] = 1</text>
+
+  <!-- +/- sigma span (sigma = 1, so from x = 0 to x = 2) -->
+  <line x1="110" y1="316" x2="110" y2="250" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="310" y1="316" x2="310" y2="250" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="110" y1="316" x2="310" y2="316" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="110,316 120,311 120,321" fill="#8a8a8a"/>
+  <polygon points="310,316 300,311 300,321" fill="#8a8a8a"/>
+  <text x="210" y="338" fill="#8a8a8a" text-anchor="middle" font-style="italic">width = 2&#963;  (&#963; = 1)</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg viewBox="0 0 560 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="70" y="30" fill="#8a8a8a" font-style="italic">Indifference map for u = x₁x₂: convex-to-origin level sets; the MRS (tangent slope) flattens along a curve.</text>
+
+  <!-- axes -->
+  <line x1="65" y1="305" x2="540" y2="305" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="65" y1="305" x2="65" y2="45" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="540,305 530,300 530,310" fill="#8a8a8a"/>
+  <polygon points="65,45 60,55 70,55" fill="#8a8a8a"/>
+  <text x="533" y="325" fill="#8a8a8a">x₁</text>
+  <text x="44" y="55" fill="#8a8a8a">x₂</text>
+
+  <!-- inner indifference curve -->
+  <path d="M 98 187.7 L 109 217 L 120 234.6 L 131 246.3 L 153 261 L 175 269.8 L 197 275.7 L 241 283 L 285 287.4 L 329 290.3"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <!-- middle indifference curve (carries the tangents) -->
+  <path d="M 109 129 L 120 164.2 L 131 187.7 L 142 204.5 L 153 217 L 175 234.6 L 197 246.3 L 219 254.6 L 241 261 L 285 269.8 L 329 275.7 L 373 279.9"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <!-- outer indifference curve -->
+  <path d="M 131 99.7 L 142 129 L 153 151 L 175 181.8 L 197 202.3 L 219 217 L 241 228 L 285 243.4 L 329 253.7 L 373 261"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <!-- tangent at A: steep MRS (large x2/x1) -->
+  <line x1="91" y1="116.5" x2="171" y2="258.9" stroke="#e0645c" stroke-width="2.5"/>
+  <circle cx="131" cy="187.7" r="4.5" fill="#e0645c"/>
+  <text x="150" y="150" fill="#e0645c">steep: MRS = x₂/x₁ large</text>
+
+  <!-- tangent at B: flat MRS (small x2/x1) -->
+  <line x1="196" y1="249.75" x2="286" y2="272.25" stroke="#e0645c" stroke-width="2.5"/>
+  <circle cx="241" cy="261" r="4.5" fill="#e0645c"/>
+  <text x="300" y="292" fill="#e0645c">flat: MRS small</text>
+
+  <!-- direction of increasing preference -->
+  <line x1="255" y1="150" x2="300" y2="118" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="3 4"/>
+  <polygon points="300,118 289,120 295,129" fill="#8a8a8a"/>
+  <text x="305" y="112" fill="#8a8a8a" font-style="italic">u increases</text>
+</svg>

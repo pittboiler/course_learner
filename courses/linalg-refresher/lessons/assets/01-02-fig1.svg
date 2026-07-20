@@ -1,0 +1,50 @@
+<svg viewBox="0 0 560 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <defs>
+    <marker id="ah-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#4a90d9"/>
+    </marker>
+    <marker id="ah-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#e0645c"/>
+    </marker>
+  </defs>
+
+  <!-- caption -->
+  <text x="30" y="26" fill="#8a8a8a" font-style="italic">Independent = no redundancy: the two arrows reach the whole plane. Collinear = one is wasted: they cover only a line.</text>
+
+  <!-- ===================== LEFT PANEL: independent ===================== -->
+  <!-- light fill suggesting the whole plane is reachable -->
+  <polygon points="120,215 270,215 270,55 50,55 50,215" fill="#4a90d9" opacity="0.10"/>
+
+  <!-- reference axes -->
+  <line x1="50" y1="215" x2="272" y2="215" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="120" y1="250" x2="120" y2="52" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- parallelogram spanned by v1, v2 (a sample reachable cell) -->
+  <polygon points="120,215 205,185 245,80 160,110" fill="#4a90d9" opacity="0.14" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- v1 (blue), v2 (red) -->
+  <line x1="120" y1="215" x2="205" y2="185" stroke="#4a90d9" stroke-width="3" marker-end="url(#ah-blue)"/>
+  <line x1="120" y1="215" x2="160" y2="110" stroke="#e0645c" stroke-width="3" marker-end="url(#ah-red)"/>
+  <circle cx="120" cy="215" r="4" fill="#8a8a8a"/>
+
+  <text x="200" y="203" fill="#4a90d9">v₁</text>
+  <text x="163" y="108" fill="#e0645c">v₂</text>
+  <text x="88" y="72" fill="#8a8a8a" font-style="italic">spans ℝ²</text>
+
+  <!-- ===================== RIGHT PANEL: dependent ===================== -->
+  <!-- reference axes -->
+  <line x1="330" y1="215" x2="552" y2="215" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="400" y1="250" x2="400" y2="52" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- the single line both vectors lie on -->
+  <line x1="340" y1="242" x2="505" y2="169" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- v1 (blue, long) and v2 = -0.5 v1 (red, opposite) — collinear -->
+  <line x1="400" y1="215" x2="490" y2="175" stroke="#4a90d9" stroke-width="3" marker-end="url(#ah-blue)"/>
+  <line x1="400" y1="215" x2="355" y2="235" stroke="#e0645c" stroke-width="3" marker-end="url(#ah-red)"/>
+  <circle cx="400" cy="215" r="4" fill="#8a8a8a"/>
+
+  <text x="470" y="167" fill="#4a90d9">v₁</text>
+  <text x="343" y="252" fill="#e0645c">v₂ = −½v₁</text>
+  <text x="452" y="205" fill="#8a8a8a" font-style="italic">spans only a line</text>
+</svg>

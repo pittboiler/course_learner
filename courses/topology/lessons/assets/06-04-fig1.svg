@@ -1,0 +1,62 @@
+<svg viewBox="0 0 620 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- ===================== TOP ROW: groups (algebra) ===================== -->
+  <text x="20" y="40" fill="#8a8a8a" font-style="italic">groups</text>
+
+  <!-- group pi_1(X,x0) -->
+  <ellipse cx="150" cy="70" rx="95" ry="46" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="150" y="52" fill="#8a8a8a" text-anchor="middle">&#960;&#8321;(X, x&#8320;)</text>
+  <text x="150" y="90" fill="#4a90d9" text-anchor="middle" font-style="italic">[&#947;]</text>
+  <circle cx="112" cy="80" r="2.5" fill="#8a8a8a"/>
+
+  <!-- group pi_1(Y,y0) -->
+  <ellipse cx="470" cy="70" rx="95" ry="46" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="470" y="52" fill="#8a8a8a" text-anchor="middle">&#960;&#8321;(Y, y&#8320;)</text>
+  <text x="470" y="90" fill="#4a90d9" text-anchor="middle" font-style="italic">[f&#8728;&#947;]</text>
+  <circle cx="432" cy="80" r="2.5" fill="#8a8a8a"/>
+
+  <!-- induced homomorphism f_* -->
+  <line x1="248" y1="70" x2="372" y2="70" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="372,70 361,65 361,75" fill="#e0645c"/>
+  <text x="310" y="60" fill="#e0645c" text-anchor="middle" font-style="italic">f&#8407;</text>
+  <text x="310" y="98" fill="#e0645c" text-anchor="middle" font-size="12">homomorphism</text>
+
+  <!-- ===================== VERTICAL: the pi_1 functor ===================== -->
+  <line x1="150" y1="250" x2="150" y2="120" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <polygon points="150,120 145,131 155,131" fill="#8a8a8a"/>
+  <text x="163" y="190" fill="#8a8a8a" font-style="italic">&#960;&#8321;</text>
+
+  <line x1="470" y1="250" x2="470" y2="120" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <polygon points="470,120 465,131 475,131" fill="#8a8a8a"/>
+  <text x="483" y="190" fill="#8a8a8a" font-style="italic">&#960;&#8321;</text>
+
+  <!-- ===================== BOTTOM ROW: spaces (topology) ===================== -->
+  <text x="20" y="300" fill="#8a8a8a" font-style="italic">spaces</text>
+
+  <!-- space X with a loop -->
+  <path d="M 90 300 C 70 260 110 250 150 258 C 200 250 240 275 225 310 C 235 345 190 360 150 350 C 105 358 75 340 90 300 Z"
+        fill="#4a90d9" opacity="0.08" stroke="#8a8a8a" stroke-width="1.5"/>
+  <ellipse cx="150" cy="308" rx="34" ry="26" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <circle cx="150" cy="334" r="3.5" fill="#4a90d9"/>
+  <text x="150" y="352" fill="#4a90d9" text-anchor="middle" font-size="12" font-style="italic">x&#8320;</text>
+  <text x="122" y="298" fill="#4a90d9" font-style="italic" font-size="12">&#947;</text>
+  <text x="98" y="272" fill="#8a8a8a" font-style="italic">X</text>
+
+  <!-- space Y with the image loop -->
+  <path d="M 400 300 C 385 255 430 250 470 260 C 525 252 560 280 545 315 C 555 350 505 362 465 352 C 415 360 388 342 400 300 Z"
+        fill="#4a90d9" opacity="0.08" stroke="#8a8a8a" stroke-width="1.5"/>
+  <path d="M 448 292 C 420 300 425 330 458 334 C 495 338 505 305 485 292 C 472 283 460 288 448 292 Z"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <circle cx="453" cy="333" r="3.5" fill="#4a90d9"/>
+  <text x="453" y="352" fill="#4a90d9" text-anchor="middle" font-size="12" font-style="italic">y&#8320;</text>
+  <text x="500" y="285" fill="#4a90d9" font-style="italic" font-size="12">f&#8728;&#947;</text>
+  <text x="410" y="272" fill="#8a8a8a" font-style="italic">Y</text>
+
+  <!-- continuous map f -->
+  <line x1="248" y1="305" x2="372" y2="305" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="372,305 361,300 361,310" fill="#e0645c"/>
+  <text x="310" y="296" fill="#e0645c" text-anchor="middle" font-style="italic">f</text>
+  <text x="310" y="330" fill="#e0645c" text-anchor="middle" font-size="12">continuous</text>
+
+  <!-- caption -->
+  <text x="310" y="392" fill="#8a8a8a" text-anchor="middle" font-style="italic" font-size="12">A map of spaces (bottom) is turned into a map of groups (top), carrying [&#947;] to [f&#8728;&#947;].</text>
+</svg>

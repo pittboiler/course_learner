@@ -1,0 +1,41 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- axes -->
+  <line x1="50" y1="325" x2="540" y2="325" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="50" y1="25" x2="50" y2="325" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="540,325 530,320 530,330" fill="#8a8a8a"/>
+  <polygon points="50,25 45,35 55,35" fill="#8a8a8a"/>
+  <text x="512" y="343" fill="#8a8a8a">time n</text>
+  <text x="18" y="30" fill="#8a8a8a">value</text>
+
+  <!-- flat mean line (the martingale forecast level) -->
+  <line x1="70" y1="175" x2="520" y2="175" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="5 5"/>
+  <text x="378" y="170" fill="#8a8a8a" font-style="italic">mean stays flat</text>
+
+  <!-- three fair martingale paths: no drift, hovering around the mean -->
+  <polyline points="70,175 115,158 160,170 205,152 250,163 295,148 340,160 385,150 430,162 475,153 520,158"
+            fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <polyline points="70,175 115,188 160,178 205,192 250,180 295,195 340,185 385,197 430,188 475,182 520,190"
+            fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <polyline points="70,175 115,167 160,158 205,168 250,157 295,166 340,155 385,164 430,158 475,150 520,160"
+            fill="none" stroke="#4a90d9" stroke-width="2"/>
+
+  <!-- submartingale: drifts UP (favorable) -->
+  <polyline points="70,175 115,166 160,160 205,150 250,145 295,135 340,130 385,120 430,113 475,105 520,98"
+            fill="none" stroke="#e0645c" stroke-width="3"/>
+  <text x="430" y="90" fill="#e0645c">submartingale ↑</text>
+
+  <!-- supermartingale: drifts DOWN (unfavorable) -->
+  <polyline points="70,175 115,183 160,190 205,192 250,202 295,208 340,215 385,223 430,230 475,240 520,250"
+            fill="none" stroke="#6a6a6a" stroke-width="3"/>
+  <text x="416" y="264" fill="#6a6a6a">supermartingale ↓</text>
+
+  <!-- common start point -->
+  <circle cx="70" cy="175" r="5" fill="#8a8a8a"/>
+  <text x="30" y="180" fill="#8a8a8a">X₀</text>
+
+  <!-- label for the blue band -->
+  <text x="150" y="222" fill="#4a90d9">fair martingales · no edge</text>
+
+  <!-- caption -->
+  <text x="70" y="18" fill="#8a8a8a" font-style="italic">Fair (blue) wanders with no drift; favorable rises, unfavorable falls.</text>
+</svg>

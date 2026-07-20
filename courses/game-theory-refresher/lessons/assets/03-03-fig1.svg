@@ -1,0 +1,93 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <!-- caption -->
+  <text x="12" y="16" fill="#8a8a8a" font-style="italic">Signaling game — Nature draws the worker's type (H w.p. 1/3, L w.p. 2/3); the worker sends E or N; the firm assigns job h or &#8467;.</text>
+  <text x="12" y="32" fill="#8a8a8a" font-style="italic">Dashed = firm's information sets; &#956; = firm's belief the worker is H. Payoffs (Worker, Firm).</text>
+
+  <!-- separating-PBE path highlight (drawn first, underneath): H->E->h and L->N->l -->
+  <line x1="320" y1="200" x2="320" y2="120" stroke="#4a9d5b" stroke-width="7" opacity="0.30" stroke-linecap="round"/>
+  <line x1="320" y1="120" x2="460" y2="90"  stroke="#4a9d5b" stroke-width="7" opacity="0.30" stroke-linecap="round"/>
+  <line x1="460" y1="90"  x2="570" y2="55"  stroke="#4a9d5b" stroke-width="7" opacity="0.30" stroke-linecap="round"/>
+  <line x1="320" y1="200" x2="320" y2="280" stroke="#4a9d5b" stroke-width="7" opacity="0.30" stroke-linecap="round"/>
+  <line x1="320" y1="280" x2="180" y2="310" stroke="#4a9d5b" stroke-width="7" opacity="0.30" stroke-linecap="round"/>
+  <line x1="180" y1="310" x2="70"  y2="345" stroke="#4a9d5b" stroke-width="7" opacity="0.30" stroke-linecap="round"/>
+
+  <!-- information sets (dashed): signal N on the left, signal E on the right -->
+  <line x1="180" y1="90" x2="180" y2="310" stroke="#e0645c" stroke-width="1.2" stroke-dasharray="4 5"/>
+  <line x1="460" y1="90" x2="460" y2="310" stroke="#e0645c" stroke-width="1.2" stroke-dasharray="4 5"/>
+  <text x="172" y="204" fill="#e0645c" text-anchor="end" font-style="italic">&#956;<tspan baseline-shift="sub" font-size="10">N</tspan></text>
+  <text x="468" y="204" fill="#e0645c" text-anchor="start" font-style="italic">&#956;<tspan baseline-shift="sub" font-size="10">E</tspan></text>
+
+  <!-- structural edges -->
+  <line x1="320" y1="200" x2="320" y2="120" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="320" y1="200" x2="320" y2="280" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="320" y1="120" x2="180" y2="90"  stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="320" y1="120" x2="460" y2="90"  stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="320" y1="280" x2="180" y2="310" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="320" y1="280" x2="460" y2="310" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="180" y1="90"  x2="70"  y2="55"  stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="180" y1="90"  x2="70"  y2="125" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="180" y1="310" x2="70"  y2="285" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="180" y1="310" x2="70"  y2="345" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="460" y1="90"  x2="570" y2="55"  stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="460" y1="90"  x2="570" y2="125" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="460" y1="310" x2="570" y2="285" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="460" y1="310" x2="570" y2="345" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- signal edge labels -->
+  <text x="250" y="98"  fill="#8a8a8a">N</text>
+  <text x="388" y="98"  fill="#8a8a8a">E</text>
+  <text x="250" y="312" fill="#8a8a8a">N</text>
+  <text x="388" y="312" fill="#8a8a8a">E</text>
+
+  <!-- response edge labels -->
+  <text x="126" y="64"  fill="#8a8a8a">h</text>
+  <text x="126" y="120" fill="#8a8a8a">&#8467;</text>
+  <text x="126" y="290" fill="#8a8a8a">h</text>
+  <text x="126" y="340" fill="#8a8a8a">&#8467;</text>
+  <text x="510" y="64"  fill="#8a8a8a">h</text>
+  <text x="510" y="120" fill="#8a8a8a">&#8467;</text>
+  <text x="510" y="290" fill="#8a8a8a">h</text>
+  <text x="510" y="340" fill="#8a8a8a">&#8467;</text>
+
+  <!-- nature node -->
+  <circle cx="320" cy="200" r="5" fill="#8a8a8a"/>
+  <text x="330" y="204" fill="#8a8a8a">Nature</text>
+  <text x="330" y="160" fill="#8a8a8a" font-size="12">H, &#8531;</text>
+  <text x="330" y="248" fill="#8a8a8a" font-size="12">L, &#8532;</text>
+
+  <!-- worker (sender) decision nodes -->
+  <circle cx="320" cy="120" r="6" fill="#4a90d9"/>
+  <circle cx="320" cy="280" r="6" fill="#4a90d9"/>
+  <text x="326" y="116" fill="#4a90d9" font-size="12">worker H</text>
+  <text x="326" y="298" fill="#4a90d9" font-size="12">worker L</text>
+
+  <!-- firm (receiver) decision nodes -->
+  <circle cx="180" cy="90"  r="6" fill="#e0645c"/>
+  <circle cx="180" cy="310" r="6" fill="#e0645c"/>
+  <circle cx="460" cy="90"  r="6" fill="#e0645c"/>
+  <circle cx="460" cy="310" r="6" fill="#e0645c"/>
+
+  <!-- terminal nodes -->
+  <circle cx="70"  cy="55"  r="3.5" fill="#8a8a8a"/>
+  <circle cx="70"  cy="125" r="3.5" fill="#8a8a8a"/>
+  <circle cx="70"  cy="285" r="3.5" fill="#8a8a8a"/>
+  <circle cx="70"  cy="345" r="3.5" fill="#8a8a8a"/>
+  <circle cx="570" cy="55"  r="3.5" fill="#8a8a8a"/>
+  <circle cx="570" cy="125" r="3.5" fill="#8a8a8a"/>
+  <circle cx="570" cy="285" r="3.5" fill="#8a8a8a"/>
+  <circle cx="570" cy="345" r="3.5" fill="#8a8a8a"/>
+
+  <!-- payoffs (Worker blue, Firm red) -->
+  <text x="62" y="59"  text-anchor="end"><tspan fill="#8a8a8a">(</tspan><tspan fill="#4a90d9">3</tspan><tspan fill="#8a8a8a">, </tspan><tspan fill="#e0645c">1</tspan><tspan fill="#8a8a8a">)</tspan></text>
+  <text x="62" y="129" text-anchor="end"><tspan fill="#8a8a8a">(</tspan><tspan fill="#4a90d9">1</tspan><tspan fill="#8a8a8a">, </tspan><tspan fill="#e0645c">0</tspan><tspan fill="#8a8a8a">)</tspan></text>
+  <text x="62" y="289" text-anchor="end"><tspan fill="#8a8a8a">(</tspan><tspan fill="#4a90d9">3</tspan><tspan fill="#8a8a8a">, </tspan><tspan fill="#e0645c">0</tspan><tspan fill="#8a8a8a">)</tspan></text>
+  <text x="62" y="349" text-anchor="end"><tspan fill="#8a8a8a">(</tspan><tspan fill="#4a90d9">1</tspan><tspan fill="#8a8a8a">, </tspan><tspan fill="#e0645c">1</tspan><tspan fill="#8a8a8a">)</tspan></text>
+  <text x="578" y="59"  text-anchor="start"><tspan fill="#8a8a8a">(</tspan><tspan fill="#4a90d9">2</tspan><tspan fill="#8a8a8a">, </tspan><tspan fill="#e0645c">1</tspan><tspan fill="#8a8a8a">)</tspan></text>
+  <text x="578" y="129" text-anchor="start"><tspan fill="#8a8a8a">(</tspan><tspan fill="#4a90d9">0</tspan><tspan fill="#8a8a8a">, </tspan><tspan fill="#e0645c">0</tspan><tspan fill="#8a8a8a">)</tspan></text>
+  <text x="578" y="289" text-anchor="start"><tspan fill="#8a8a8a">(</tspan><tspan fill="#4a90d9">0</tspan><tspan fill="#8a8a8a">, </tspan><tspan fill="#e0645c">0</tspan><tspan fill="#8a8a8a">)</tspan></text>
+  <text x="578" y="349" text-anchor="start"><tspan fill="#8a8a8a">(</tspan><tspan fill="#4a90d9">&#8722;2</tspan><tspan fill="#8a8a8a">, </tspan><tspan fill="#e0645c">1</tspan><tspan fill="#8a8a8a">)</tspan></text>
+
+  <!-- key -->
+  <text x="12" y="382" fill="#4a9d5b">Separating PBE (green): H educates, L doesn't &#8594; firm infers the type. (H,E,h)=(2,1); (L,N,&#8467;)=(1,1).</text>
+  <text x="12" y="398" fill="#8a8a8a">Pooling PBE: both play N; firm assigns &#8467; (on-path belief &#8531;), sustained only by pessimistic off-path &#956;<tspan baseline-shift="sub" font-size="10">E</tspan>.</text>
+</svg>

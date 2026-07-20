@@ -1,0 +1,48 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <defs>
+    <marker id="ah" markerWidth="9" markerHeight="9" refX="6.5" refY="3" orient="auto">
+      <polygon points="0 0, 7 3, 0 6" fill="#e0645c"/>
+    </marker>
+  </defs>
+
+  <!-- faint bowl shading -->
+  <circle cx="250" cy="175" r="120" fill="#4a90d9" opacity="0.05"/>
+  <circle cx="250" cy="175" r="80"  fill="#4a90d9" opacity="0.05"/>
+  <circle cx="250" cy="175" r="40"  fill="#4a90d9" opacity="0.05"/>
+
+  <!-- level curves (contours) of f = x^2 + y^2 -->
+  <circle cx="250" cy="175" r="40"  fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <circle cx="250" cy="175" r="80"  fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <circle cx="250" cy="175" r="120" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <!-- contour value labels -->
+  <text x="238" y="140" fill="#4a90d9">f=1</text>
+  <text x="238" y="100" fill="#4a90d9">f=4</text>
+  <text x="238" y="60"  fill="#4a90d9">f=9</text>
+
+  <!-- center (minimum) -->
+  <circle cx="250" cy="175" r="4" fill="#8a8a8a"/>
+  <text x="258" y="192" fill="#8a8a8a" font-style="italic">min</text>
+
+  <!-- gradient arrows: radial (perpendicular to circles), longer where slope is steeper -->
+  <!-- top, on r=40 (gentle) -->
+  <line x1="250" y1="135" x2="250" y2="112" stroke="#e0645c" stroke-width="2.5" marker-end="url(#ah)"/>
+  <!-- right, on r=80 -->
+  <line x1="330" y1="175" x2="368" y2="175" stroke="#e0645c" stroke-width="2.5" marker-end="url(#ah)"/>
+  <!-- lower-right, on r=80 -->
+  <line x1="306.6" y1="231.6" x2="335.5" y2="260.5" stroke="#e0645c" stroke-width="2.5" marker-end="url(#ah)"/>
+  <!-- upper-left, on r=120 (steepest) -->
+  <line x1="165.1" y1="90.1" x2="123.5" y2="48.5" stroke="#e0645c" stroke-width="2.5" marker-end="url(#ah)"/>
+
+  <!-- right-angle tick showing perpendicularity where the right arrow meets the r=80 circle -->
+  <polyline points="330,164 341,164 341,175" fill="none" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- legend -->
+  <line x1="392" y1="250" x2="418" y2="250" stroke="#e0645c" stroke-width="2.5" marker-end="url(#ah)"/>
+  <text x="424" y="255" fill="#e0645c">&#8711;f (steepest ascent)</text>
+  <line x1="392" y1="278" x2="418" y2="278" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="424" y="283" fill="#4a90d9">level curve (f constant)</text>
+
+  <!-- caption -->
+  <text x="30" y="330" fill="#8a8a8a" font-style="italic">Every gradient arrow crosses its contour at a right angle, points uphill, and grows where the slope steepens.</text>
+</svg>

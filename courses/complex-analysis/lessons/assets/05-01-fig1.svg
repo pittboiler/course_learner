@@ -1,0 +1,38 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- axes (complex plane) -->
+  <line x1="30" y1="200" x2="530" y2="200" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="230" y1="30" x2="230" y2="330" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="530,200 520,195 520,205" fill="#8a8a8a"/>
+  <polygon points="230,30 225,40 235,40" fill="#8a8a8a"/>
+  <text x="516" y="220" fill="#8a8a8a">Re</text>
+  <text x="238" y="42" fill="#8a8a8a">Im</text>
+
+  <!-- disk of convergence, centred at z0, radius = distance to nearest pole -->
+  <circle cx="230" cy="200" r="118" fill="#4a90d9" opacity="0.12"/>
+  <circle cx="230" cy="200" r="118" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <!-- centre z0 -->
+  <circle cx="230" cy="200" r="4" fill="#8a8a8a"/>
+  <text x="236" y="194" fill="#8a8a8a">z₀</text>
+
+  <!-- radius line to the touching singularity -->
+  <line x1="230" y1="200" x2="313.5" y2="116.5" stroke="#4a90d9" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="252" y="150" fill="#4a90d9">R</text>
+
+  <!-- nearest singularity: pole on the boundary circle -->
+  <g stroke="#e0645c" stroke-width="3">
+    <line x1="307" y1="110" x2="320" y2="123"/>
+    <line x1="320" y1="110" x2="307" y2="123"/>
+  </g>
+  <text x="326" y="112" fill="#e0645c">nearest singularity</text>
+
+  <!-- a farther singularity, outside the disk, does not constrain R -->
+  <g stroke="#e0645c" stroke-width="2.5" opacity="0.55">
+    <line x1="430" y1="270" x2="442" y2="282"/>
+    <line x1="442" y1="270" x2="430" y2="282"/>
+  </g>
+  <text x="382" y="300" fill="#e0645c" opacity="0.7">farther pole (irrelevant)</text>
+
+  <!-- caption -->
+  <text x="60" y="335" fill="#8a8a8a" font-style="italic">The Taylor disk grows until its boundary just kisses the closest singularity: radius = distance to nearest singularity.</text>
+</svg>

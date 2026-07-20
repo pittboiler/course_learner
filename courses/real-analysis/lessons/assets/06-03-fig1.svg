@@ -1,0 +1,39 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- shaded error gap between f and P2: pinched to zero at a, widening away -->
+  <path d="M 115.4 284.25 L 170.8 275.24 L 226.2 263.08 L 281.5 246.66 L 300 240 L 336.9 224.5 L 392.3 194.6 L 447.7 154.2 L 484.6 119.7 L 521.5 77.6 L 521.5 105.6 L 484.6 135 L 392.3 196.25 L 300 240 L 207.7 266.25 L 115.4 275 Z"
+        fill="#e0645c" opacity="0.16"/>
+
+  <!-- axes -->
+  <line x1="40" y1="310" x2="548" y2="310" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="60" y1="22" x2="60" y2="326" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="548,310 538,305 538,315" fill="#8a8a8a"/>
+  <polygon points="60,22 55,32 65,32" fill="#8a8a8a"/>
+  <text x="551" y="315" fill="#8a8a8a">x</text>
+
+  <!-- vertical marker at the expansion point a -->
+  <line x1="300" y1="240" x2="300" y2="310" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="296" y="326" fill="#8a8a8a">a</text>
+
+  <!-- P1: the tangent line (degree 1) -->
+  <line x1="115.4" y1="310" x2="521.5" y2="156" stroke="#8a8a8a" stroke-width="2.5" stroke-dasharray="6 5"/>
+
+  <!-- P2: degree-2 Taylor parabola -->
+  <path d="M 115.4 275 L 207.7 266.25 L 300 240 L 392.3 196.25 L 484.6 135 L 521.5 105.6"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+
+  <!-- f(x) = e^x, the true function -->
+  <path d="M 115.4 284.25 L 170.8 275.24 L 226.2 263.08 L 281.5 246.66 L 300 240 L 336.9 224.5 L 392.3 194.6 L 447.7 154.2 L 484.6 119.7 L 521.5 77.6"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- expansion point (a, f(a)) -->
+  <circle cx="300" cy="240" r="5" fill="#8a8a8a"/>
+
+  <!-- labels -->
+  <text x="470" y="70" fill="#4a90d9">f(x)</text>
+  <text x="470" y="122" fill="#e0645c">P&#8322;</text>
+  <text x="150" y="330" fill="#8a8a8a">P&#8321; (tangent)</text>
+
+  <!-- caption -->
+  <text x="70" y="42" fill="#8a8a8a" font-style="italic">Both match f at a; P&#8322; also matches the curvature,</text>
+  <text x="70" y="60" fill="#8a8a8a" font-style="italic">so its error gap (shaded) closes far faster.</text>
+</svg>

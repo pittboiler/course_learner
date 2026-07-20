@@ -1,0 +1,40 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- axes: horizontal t, vertical x (configuration vs. time) -->
+  <line x1="30" y1="300" x2="540" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="60" y1="18" x2="60" y2="322" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="540,300 530,295 530,305" fill="#8a8a8a"/>
+  <polygon points="60,18 55,28 65,28" fill="#8a8a8a"/>
+  <text x="546" y="305" fill="#8a8a8a">t</text>
+  <text x="44" y="30" fill="#8a8a8a">x</text>
+
+  <!-- pinned endpoints A = (t1, x1) and B = (t2, x2) -->
+  <line x1="110" y1="250" x2="110" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="500" y1="110" x2="500" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="96" y="318" fill="#8a8a8a">t₁</text>
+  <text x="486" y="318" fill="#8a8a8a">t₂</text>
+
+  <!-- trial paths: same endpoints, wrong interior -->
+  <path d="M 110 250 Q 305 150 500 110" fill="none" stroke="#8a8a8a" stroke-width="2" stroke-dasharray="4 4"/>
+  <path d="M 110 250 Q 305 292 500 110" fill="none" stroke="#8a8a8a" stroke-width="2" stroke-dasharray="4 4"/>
+
+  <!-- the physical trajectory: the stationary path -->
+  <path d="M 110 250 Q 305 224 500 110" fill="none" stroke="#e0645c" stroke-width="3"/>
+
+  <!-- variation arrow: true path -> a nearby trial at midpoint -->
+  <line x1="305" y1="222" x2="305" y2="176" stroke="#4a90d9" stroke-width="1.5"/>
+  <polygon points="305,170 301,180 309,180" fill="#4a90d9"/>
+  <text x="312" y="200" fill="#4a90d9">δx(t)</text>
+
+  <!-- endpoints -->
+  <circle cx="110" cy="250" r="5" fill="#8a8a8a"/>
+  <circle cx="500" cy="110" r="5" fill="#8a8a8a"/>
+  <text x="70" y="248" fill="#8a8a8a">A</text>
+  <text x="508" y="108" fill="#8a8a8a">B</text>
+
+  <!-- labels -->
+  <text x="250" y="270" fill="#e0645c">physical path · δS = 0</text>
+  <text x="120" y="140" fill="#8a8a8a">trial paths · S larger</text>
+
+  <!-- caption -->
+  <text x="72" y="40" fill="#8a8a8a" font-style="italic">Pin both endpoints; the physical motion is the path where S = ∫L dt is stationary.</text>
+</svg>

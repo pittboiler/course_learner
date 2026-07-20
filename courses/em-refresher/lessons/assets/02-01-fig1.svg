@@ -1,0 +1,42 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- shaded field region between the plates -->
+  <rect x="150" y="106" width="260" height="108" fill="#e0645c" opacity="0.10"/>
+
+  <!-- top plate: +Q -->
+  <rect x="150" y="98" width="260" height="8" fill="#e0645c"/>
+  <text x="415" y="106" fill="#e0645c">+Q</text>
+
+  <!-- bottom plate: -Q -->
+  <rect x="150" y="214" width="260" height="8" fill="#4a90d9"/>
+  <text x="415" y="228" fill="#4a90d9">&#8722;Q</text>
+
+  <!-- uniform downward field lines -->
+  <g stroke="#8a8a8a" stroke-width="2">
+    <line x1="180" y1="108" x2="180" y2="205"/>
+    <line x1="225" y1="108" x2="225" y2="205"/>
+    <line x1="270" y1="108" x2="270" y2="205"/>
+    <line x1="315" y1="108" x2="315" y2="205"/>
+    <line x1="360" y1="108" x2="360" y2="205"/>
+  </g>
+  <g fill="#8a8a8a">
+    <polygon points="180,212 175,202 185,202"/>
+    <polygon points="225,212 220,202 230,202"/>
+    <polygon points="270,212 265,202 275,202"/>
+    <polygon points="315,212 310,202 320,202"/>
+    <polygon points="360,212 355,202 365,202"/>
+  </g>
+  <text x="278" y="165" fill="#8a8a8a" font-style="italic">E</text>
+
+  <!-- separation d -->
+  <line x1="120" y1="102" x2="120" y2="218" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <polygon points="120,102 115,112 125,112" fill="#8a8a8a"/>
+  <polygon points="120,218 115,208 125,208" fill="#8a8a8a"/>
+  <text x="128" y="164" fill="#8a8a8a">d</text>
+
+  <!-- plate area A -->
+  <text x="255" y="90" fill="#8a8a8a">area A</text>
+
+  <!-- caption -->
+  <text x="150" y="270" fill="#8a8a8a" font-style="italic">Charge +Q and &#8722;Q on plates of area A, gap d, hold a uniform field E between them.</text>
+  <text x="150" y="298" fill="#8a8a8a" font-style="italic">Capacitance C = &#949;&#8320; A / d — how much charge the pair banks per volt.</text>
+</svg>

@@ -1,0 +1,44 @@
+<svg viewBox="0 0 560 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#4a90d9"/>
+    </marker>
+  </defs>
+
+  <!-- axes: Re (horizontal), Im (vertical) -->
+  <line x1="30" y1="330" x2="540" y2="330" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="45" y1="20" x2="45" y2="345" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="540,330 530,325 530,335" fill="#8a8a8a"/>
+  <polygon points="45,20 40,30 50,30" fill="#8a8a8a"/>
+  <text x="524" y="350" fill="#8a8a8a" font-style="italic">Re</text>
+  <text x="52" y="30" fill="#8a8a8a" font-style="italic">Im</text>
+
+  <!-- open disk D(z0, r): dashed boundary = not included -->
+  <circle cx="300" cy="190" r="110" fill="#4a90d9" opacity="0.10"/>
+  <circle cx="300" cy="190" r="110" fill="none" stroke="#4a90d9" stroke-width="2" stroke-dasharray="5 5"/>
+
+  <!-- radius r -->
+  <line x1="300" y1="190" x2="410" y2="190" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="345" y="183" fill="#8a8a8a">r</text>
+
+  <!-- center z0 -->
+  <circle cx="300" cy="190" r="5" fill="#e0645c"/>
+  <text x="308" y="212" fill="#e0645c">z&#8320;</text>
+
+  <!-- approach arrows from several directions, all aimed at z0 -->
+  <line x1="405" y1="190" x2="332" y2="190" stroke="#4a90d9" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="195" y1="190" x2="268" y2="190" stroke="#4a90d9" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="300" y1="85"  x2="300" y2="158" stroke="#4a90d9" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="300" y1="295" x2="300" y2="222" stroke="#4a90d9" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="374" y1="116" x2="323" y2="167" stroke="#4a90d9" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <line x1="226" y1="264" x2="277" y2="213" stroke="#4a90d9" stroke-width="2.5" marker-end="url(#arrow)"/>
+
+  <!-- an excluded boundary point -->
+  <circle cx="222" cy="112" r="4.5" fill="#ffffff" stroke="#4a90d9" stroke-width="2"/>
+  <text x="70" y="100" fill="#4a90d9">boundary point:</text>
+  <text x="70" y="118" fill="#4a90d9">on &#8706;D, not in D</text>
+  <line x1="150" y1="112" x2="216" y2="112" stroke="#4a90d9" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- caption -->
+  <text x="70" y="45" fill="#8a8a8a" font-style="italic">Open disk D(z&#8320;,r) = { z : |z &#8722; z&#8320;| &lt; r }. In &#8450;, "z &#8594; z&#8320;" means from EVERY direction at once.</text>
+</svg>

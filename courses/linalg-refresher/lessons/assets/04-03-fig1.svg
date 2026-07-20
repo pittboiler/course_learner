@@ -1,0 +1,32 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="30" fill="#8a8a8a" font-style="italic">Gram–Schmidt: subtract v₂'s shadow on q₁; the orthogonal remainder becomes q₂.</text>
+
+  <!-- projection shadow of v2 onto q1: low-opacity thick blue segment O to foot -->
+  <line x1="80" y1="300" x2="300" y2="300" stroke="#4a90d9" stroke-width="7" opacity="0.16"/>
+
+  <!-- q1 axis (blue), drawn past the foot to read as a direction -->
+  <line x1="80" y1="300" x2="420" y2="300" stroke="#4a90d9" stroke-width="3"/>
+  <polygon points="420,300 408,294 408,306" fill="#4a90d9"/>
+  <text x="428" y="305" fill="#4a90d9" font-style="italic">q₁</text>
+
+  <!-- v2 (red) -->
+  <line x1="80" y1="300" x2="300" y2="120" stroke="#e0645c" stroke-width="3"/>
+  <polygon points="300,120 292.2,134.15 284.6,124.85" fill="#e0645c"/>
+  <text x="268" y="112" fill="#e0645c" font-style="italic">v₂</text>
+
+  <!-- orthogonal remainder u2 = v2 - proj, from foot up to tip of v2; becomes q2 (blue) -->
+  <line x1="300" y1="300" x2="300" y2="120" stroke="#4a90d9" stroke-width="3"/>
+  <polygon points="300,120 294,133 306,133" fill="#4a90d9"/>
+
+  <!-- right-angle mark at the foot, between q1 (left) and the remainder (up) -->
+  <path d="M 285 300 L 285 285 L 300 285" fill="none" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- labels -->
+  <text x="150" y="320" fill="#8a8a8a" font-style="italic" font-size="12">proj₍q₁₎ v₂  (v₂'s shadow on q₁)</text>
+  <text x="312" y="206" fill="#4a90d9" font-style="italic" font-size="13">v₂ − proj₍q₁₎ v₂  ⟶  q₂</text>
+
+  <!-- origin -->
+  <circle cx="80" cy="300" r="4" fill="#8a8a8a"/>
+  <text x="60" y="318" fill="#8a8a8a">O</text>
+</svg>

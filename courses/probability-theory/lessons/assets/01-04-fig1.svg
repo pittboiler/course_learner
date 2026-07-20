@@ -1,0 +1,44 @@
+<svg viewBox="0 0 560 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- title / annotation -->
+  <text x="40" y="34" fill="#8a8a8a" font-style="italic">Cover the set A by open intervals; the outer measure is the cheapest such cover.</text>
+
+  <!-- the number line -->
+  <line x1="30" y1="250" x2="540" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="540,250 530,245 530,255" fill="#8a8a8a"/>
+  <text x="524" y="272" fill="#8a8a8a">R</text>
+
+  <!-- the set A: scattered blue pieces sitting ON the line -->
+  <line x1="82"  y1="250" x2="132" y2="250" stroke="#4a90d9" stroke-width="6"/>
+  <line x1="212" y1="250" x2="246" y2="250" stroke="#4a90d9" stroke-width="6"/>
+  <line x1="312" y1="250" x2="334" y2="250" stroke="#4a90d9" stroke-width="6"/>
+  <line x1="392" y1="250" x2="406" y2="250" stroke="#4a90d9" stroke-width="6"/>
+  <line x1="446" y1="250" x2="456" y2="250" stroke="#4a90d9" stroke-width="6"/>
+  <text x="90" y="284" fill="#4a90d9">A</text>
+
+  <!-- the covering intervals I_k, open (round caps), of decreasing length -->
+  <!-- I1 -->
+  <line x1="74"  y1="200" x2="140" y2="200" stroke="#e0645c" stroke-width="4" stroke-linecap="round"/>
+  <line x1="74"  y1="194" x2="74"  y2="250" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="140" y1="194" x2="140" y2="250" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="90"  y="188" fill="#e0645c">I₁</text>
+  <!-- I2 -->
+  <line x1="206" y1="200" x2="252" y2="200" stroke="#e0645c" stroke-width="4" stroke-linecap="round"/>
+  <line x1="206" y1="194" x2="206" y2="250" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="252" y1="194" x2="252" y2="250" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="218" y="188" fill="#e0645c">I₂</text>
+  <!-- I3 -->
+  <line x1="306" y1="200" x2="340" y2="200" stroke="#e0645c" stroke-width="4" stroke-linecap="round"/>
+  <line x1="306" y1="194" x2="306" y2="250" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="340" y1="194" x2="340" y2="250" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="314" y="188" fill="#e0645c">I₃</text>
+  <!-- I4 -->
+  <line x1="387" y1="200" x2="411" y2="200" stroke="#e0645c" stroke-width="4" stroke-linecap="round"/>
+  <text x="392" y="188" fill="#e0645c">I₄</text>
+  <!-- I5 -->
+  <line x1="442" y1="200" x2="460" y2="200" stroke="#e0645c" stroke-width="4" stroke-linecap="round"/>
+  <text x="446" y="188" fill="#e0645c">…</text>
+
+  <!-- the infimum annotation -->
+  <text x="150" y="110" fill="#8a8a8a" font-size="16">λ*(A) = inf Σₖ ℓ(Iₖ)</text>
+  <text x="150" y="134" fill="#8a8a8a">over all countable open covers  A ⊆ ⋃ₖ Iₖ</text>
+</svg>

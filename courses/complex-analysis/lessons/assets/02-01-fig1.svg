@@ -1,0 +1,54 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="28" fill="#8a8a8a" font-style="italic">For f(z)=z̄, the difference quotient h̄/h is constant on each ray — and every ray gives a different value.</text>
+
+  <!-- ============ LEFT PANEL: directions of approach in the h-plane ============ -->
+  <text x="140" y="60" fill="#8a8a8a" text-anchor="middle">h → 0 along a direction</text>
+
+  <!-- axes -->
+  <line x1="40" y1="200" x2="240" y2="200" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="140" y1="100" x2="140" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <circle cx="140" cy="200" r="3" fill="#8a8a8a"/>
+  <text x="150" y="215" fill="#8a8a8a">0</text>
+
+  <!-- real-axis approach (blue), arrow pointing inward to origin -->
+  <line x1="230" y1="200" x2="152" y2="200" stroke="#4a90d9" stroke-width="3"/>
+  <polygon points="140,200 154,194 154,206" fill="#4a90d9"/>
+  <text x="182" y="192" fill="#4a90d9">real axis</text>
+
+  <!-- imaginary-axis approach (red), from top toward origin -->
+  <line x1="140" y1="110" x2="140" y2="188" stroke="#e0645c" stroke-width="3"/>
+  <polygon points="140,200 134,186 146,186" fill="#e0645c"/>
+  <text x="146" y="120" fill="#e0645c">imag axis</text>
+
+  <!-- diagonal approach (grey), 45deg from upper-right toward origin -->
+  <line x1="205" y1="135" x2="149" y2="191" stroke="#8a8a8a" stroke-width="2.5" stroke-dasharray="5 4"/>
+  <polygon points="140,200 149,186 156,193" fill="#8a8a8a"/>
+  <text x="188" y="132" fill="#8a8a8a">45°</text>
+
+  <!-- ============ big arrow ============ -->
+  <text x="290" y="205" fill="#8a8a8a" text-anchor="middle" font-size="26">→</text>
+
+  <!-- ============ RIGHT PANEL: where h̄/h lands (value plane) ============ -->
+  <text x="410" y="60" fill="#8a8a8a" text-anchor="middle">value of h̄/h = e^{-2iθ}</text>
+
+  <!-- axes -->
+  <line x1="330" y1="200" x2="490" y2="200" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="410" y1="120" x2="410" y2="280" stroke="#8a8a8a" stroke-width="1.5"/>
+  <!-- unit circle -->
+  <circle cx="410" cy="200" r="68" fill="#4a90d9" opacity="0.06"/>
+  <circle cx="410" cy="200" r="68" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- landing points -->
+  <!-- +1 (real approach) -->
+  <circle cx="478" cy="200" r="6" fill="#4a90d9"/>
+  <text x="486" y="196" fill="#4a90d9">+1</text>
+  <!-- -1 (imaginary approach) -->
+  <circle cx="342" cy="200" r="6" fill="#e0645c"/>
+  <text x="316" y="196" fill="#e0645c">−1</text>
+  <!-- -i (45 deg approach) -->
+  <circle cx="410" cy="268" r="6" fill="#8a8a8a"/>
+  <text x="418" y="285" fill="#8a8a8a">−i</text>
+
+  <text x="410" y="315" fill="#8a8a8a" text-anchor="middle">no single limit — so f'(z₀) does not exist</text>
+</svg>

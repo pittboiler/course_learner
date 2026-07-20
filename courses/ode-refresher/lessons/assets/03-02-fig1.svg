@@ -1,0 +1,77 @@
+<svg viewBox="0 0 770 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- Three mini phase portraits of x' = A x near the origin: stable spiral, saddle, stable node. -->
+
+  <defs>
+    <marker id="aBlue" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#4a90d9"/>
+    </marker>
+    <marker id="aRed" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#e0645c"/>
+    </marker>
+    <marker id="aGray" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#8a8a8a"/>
+    </marker>
+  </defs>
+
+  <!-- ===================== PANEL 1: STABLE SPIRAL ===================== -->
+  <text x="140" y="28" fill="#8a8a8a" text-anchor="middle" font-style="italic">stable spiral</text>
+  <!-- axes -->
+  <g stroke="#bbbbbb" stroke-width="1">
+    <line x1="45" y1="150" x2="235" y2="150"/>
+    <line x1="140" y1="55" x2="140" y2="245"/>
+  </g>
+  <!-- spiral into the origin, part A (outer) -->
+  <path d="M 225 150 L 193.5 203.5 L 140 217.2 L 97.8 192.2 L 86.9 150 L 106.6 116.6 L 140 108.1 L 166.4 123.6 L 173.1 150"
+        fill="none" stroke="#4a90d9" stroke-width="2.5" marker-end="url(#aBlue)"/>
+  <!-- spiral into the origin, part B (inner) -->
+  <path d="M 173.1 150 L 160.8 170.8 L 140 176.2 L 123.5 166.5 L 119.3 150 L 127 137 L 140 133.7 L 150.3 139.7 L 141 148"
+        fill="none" stroke="#4a90d9" stroke-width="2.5" marker-end="url(#aBlue)"/>
+  <circle cx="140" cy="150" r="4" fill="#4a90d9"/>
+  <text x="140" y="272" fill="#4a90d9" text-anchor="middle">&#955; = a &#177; bi,  a &lt; 0</text>
+
+  <!-- ===================== PANEL 2: SADDLE ===================== -->
+  <text x="390" y="28" fill="#8a8a8a" text-anchor="middle" font-style="italic">saddle</text>
+  <!-- axes -->
+  <g stroke="#bbbbbb" stroke-width="1">
+    <line x1="295" y1="150" x2="485" y2="150"/>
+    <line x1="390" y1="55" x2="390" y2="245"/>
+  </g>
+  <!-- eigen-lines with flow: horizontal = unstable (out), vertical = stable (in) -->
+  <g stroke="#8a8a8a" stroke-width="1.5" fill="none">
+    <path d="M 430 150 L 470 150" marker-end="url(#aGray)"/>
+    <path d="M 350 150 L 310 150" marker-end="url(#aGray)"/>
+    <path d="M 390 78 L 390 116" marker-end="url(#aGray)"/>
+    <path d="M 390 222 L 390 184" marker-end="url(#aGray)"/>
+  </g>
+  <!-- hyperbolic trajectories: in along the vertical eigen-line, out along the horizontal -->
+  <g stroke="#e0645c" stroke-width="2.5" fill="none">
+    <path d="M 410 70 L 418 93 L 430 110 L 447 122 L 470 130" marker-end="url(#aRed)"/>
+    <path d="M 370 70 L 362 93 L 350 110 L 333 122 L 310 130" marker-end="url(#aRed)"/>
+    <path d="M 410 230 L 418 207 L 430 190 L 447 178 L 470 170" marker-end="url(#aRed)"/>
+    <path d="M 370 230 L 362 207 L 350 190 L 333 178 L 310 170" marker-end="url(#aRed)"/>
+  </g>
+  <circle cx="390" cy="150" r="3.5" fill="#8a8a8a"/>
+  <text x="390" y="272" fill="#e0645c" text-anchor="middle">&#955;&#8321; &lt; 0 &lt; &#955;&#8322;  (real, opposite sign)</text>
+
+  <!-- ===================== PANEL 3: STABLE NODE ===================== -->
+  <text x="630" y="28" fill="#8a8a8a" text-anchor="middle" font-style="italic">stable node</text>
+  <!-- axes -->
+  <g stroke="#bbbbbb" stroke-width="1">
+    <line x1="535" y1="150" x2="725" y2="150"/>
+    <line x1="630" y1="55" x2="630" y2="245"/>
+  </g>
+  <!-- trajectories drawn straight into the origin, tangent to the slow (horizontal) eigen-direction -->
+  <g stroke="#4a90d9" stroke-width="2.5" fill="none">
+    <path d="M 710 80 L 690 104.5 L 670 125.3 L 650 141.25 L 638 147.8 L 630 150" marker-end="url(#aBlue)"/>
+    <path d="M 710 220 L 690 195.5 L 670 174.7 L 650 158.75 L 638 152.2 L 630 150" marker-end="url(#aBlue)"/>
+    <path d="M 550 80 L 570 104.5 L 590 125.3 L 610 141.25 L 622 147.8 L 630 150" marker-end="url(#aBlue)"/>
+    <path d="M 550 220 L 570 195.5 L 590 174.7 L 610 158.75 L 622 152.2 L 630 150" marker-end="url(#aBlue)"/>
+    <path d="M 630 66 L 630 150" marker-end="url(#aBlue)"/>
+    <path d="M 630 234 L 630 150" marker-end="url(#aBlue)"/>
+  </g>
+  <circle cx="630" cy="150" r="4" fill="#4a90d9"/>
+  <text x="630" y="272" fill="#4a90d9" text-anchor="middle">&#955;&#8321;, &#955;&#8322; &lt; 0  (real, same sign)</text>
+
+  <!-- caption -->
+  <text x="385" y="312" fill="#8a8a8a" text-anchor="middle" font-style="italic">Arrows point the way trajectories flow: into the origin (stable) or out (unstable). The eigenvalues alone decide the shape.</text>
+</svg>

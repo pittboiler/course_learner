@@ -1,0 +1,40 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- epsilon-tube around the limit f = 0 on [0,1) -->
+  <rect x="80" y="252" width="420" height="48" fill="#8a8a8a" opacity="0.16"/>
+  <line x1="80" y1="252" x2="500" y2="252" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="506" y="257" fill="#8a8a8a">&#949;</text>
+
+  <!-- axes -->
+  <line x1="60" y1="300" x2="540" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="80" y1="30" x2="80" y2="322" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="540,300 530,295 530,305" fill="#8a8a8a"/>
+  <text x="546" y="305" fill="#8a8a8a">x</text>
+
+  <!-- x = 1 dropline -->
+  <line x1="500" y1="60" x2="500" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="496" y="318" fill="#8a8a8a">1</text>
+  <text x="66" y="65" fill="#8a8a8a">1</text>
+
+  <!-- the curves y = x^n, larger n hugs the axis longer then spikes at x=1 -->
+  <!-- n = 1 -->
+  <path d="M 80 300 L 500 60" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <!-- n = 2 -->
+  <path d="M 80 300 L 122 297.6 L 164 290.4 L 206 278.4 L 248 261.6 L 290 240 L 332 213.6 L 374 182.4 L 416 146.4 L 458 105.6 L 500 60" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <!-- n = 4 -->
+  <path d="M 80 300 L 122 299.98 L 164 299.6 L 206 298.1 L 248 293.9 L 290 285 L 332 268.9 L 374 242.4 L 416 201.7 L 458 142.5 L 500 60" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <!-- n = 8 -->
+  <path d="M 80 300 L 122 300 L 164 300 L 206 299.98 L 248 299.8 L 290 299.1 L 332 296 L 374 286.2 L 416 259.7 L 458 196.7 L 500 60" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <!-- the discontinuous limit f: 0 on [0,1), jump to 1 at x=1 -->
+  <line x1="80" y1="300" x2="497" y2="300" stroke="#e0645c" stroke-width="3"/>
+  <circle cx="500" cy="300" r="4.5" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <circle cx="500" cy="60" r="4.5" fill="#e0645c"/>
+
+  <!-- labels -->
+  <text x="250" y="120" fill="#4a90d9">y = x&#8319;  (n = 1, 2, 4, 8, growing)</text>
+  <text x="330" y="184" fill="#4a90d9" font-size="12">larger n &#8594;</text>
+  <text x="150" y="290" fill="#e0645c">limit f: 0 on [0,1), then 1</text>
+
+  <!-- caption -->
+  <text x="80" y="24" fill="#8a8a8a" font-style="italic">Every x&#8322;&lt;1 slides to 0, but each curve pokes out of the &#949;-tube near x=1 &#8212; no single N works.</text>
+</svg>

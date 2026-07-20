@@ -1,0 +1,37 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- light fill under the n = 30 near-normal curve, to show how narrow it is -->
+  <path d="M 145 297 L 160 289 L 174 271.6 L 190 234 L 207 173 L 224 115 L 240 90 L 256 115 L 273 173 L 290 234 L 306 271.6 L 320 289 L 335 297 L 335 300 L 145 300 Z"
+        fill="#e0645c" opacity="0.15"/>
+
+  <!-- axes -->
+  <line x1="30" y1="300" x2="540" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="60" y1="18" x2="60" y2="322" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="540,300 530,295 530,305" fill="#8a8a8a"/>
+  <polygon points="60,18 55,28 65,28" fill="#8a8a8a"/>
+  <text x="470" y="318" fill="#8a8a8a">value of X̄ₙ</text>
+
+  <!-- mean line at mu -->
+  <line x1="240" y1="60" x2="240" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="233" y="318" fill="#8a8a8a" font-style="italic">μ</text>
+
+  <!-- n = 1: skewed parent (monotone decay, no interior peak) -->
+  <path d="M 60 180 L 105 206.5 L 150 227 L 195 243 L 240 256 L 285 265 L 330 273 L 375 279 L 420 284 L 465 287.5 L 510 290"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- n = 5: partly de-skewed, medium width, peak still left of mu -->
+  <path d="M 87 289 L 114 264 L 150 197.5 L 168 171 L 186 155 L 204 150 L 222 154.5 L 240 165.4 L 258 181 L 276 197.3 L 294 214 L 312 230 L 348 256 L 384 274 L 420 285.5 L 456 291 L 474 293"
+        fill="none" stroke="#d9a441" stroke-width="3"/>
+
+  <!-- n = 30: symmetric, tall, narrow, centered on mu -->
+  <path d="M 145 297 L 160 289 L 174 271.6 L 190 234 L 207 173 L 224 115 L 240 90 L 256 115 L 273 173 L 290 234 L 306 271.6 L 320 289 L 335 297"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+
+  <!-- curve labels -->
+  <text x="300" y="252" fill="#4a90d9">n = 1 · the skewed parent</text>
+  <text x="300" y="200" fill="#d9a441">n = 5 · still leaning left</text>
+  <text x="285" y="98" fill="#e0645c">n = 30 · near-normal</text>
+
+  <!-- caption -->
+  <text x="80" y="38" fill="#8a8a8a" font-style="italic">Average more i.i.d. draws: the mean's spread shrinks like 1/√n and its shape</text>
+  <text x="80" y="54" fill="#8a8a8a" font-style="italic">bends toward a bell — whatever the parent looked like.</text>
+</svg>

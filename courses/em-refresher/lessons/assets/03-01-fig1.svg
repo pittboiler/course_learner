@@ -1,0 +1,43 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- B into the page: a uniform grid of x marks -->
+  <g fill="#8a8a8a" font-size="16" text-anchor="middle">
+    <text x="95"  y="60">&#215;</text><text x="165" y="60">&#215;</text><text x="235" y="60">&#215;</text><text x="305" y="60">&#215;</text><text x="375" y="60">&#215;</text><text x="445" y="60">&#215;</text><text x="515" y="60">&#215;</text>
+    <text x="95"  y="125">&#215;</text><text x="165" y="125">&#215;</text><text x="235" y="125">&#215;</text><text x="305" y="125">&#215;</text><text x="375" y="125">&#215;</text><text x="445" y="125">&#215;</text><text x="515" y="125">&#215;</text>
+    <text x="95"  y="190">&#215;</text><text x="165" y="190">&#215;</text><text x="235" y="190">&#215;</text><text x="445" y="190">&#215;</text><text x="515" y="190">&#215;</text>
+    <text x="95"  y="255">&#215;</text><text x="165" y="255">&#215;</text><text x="235" y="255">&#215;</text><text x="445" y="255">&#215;</text><text x="515" y="255">&#215;</text>
+  </g>
+
+  <!-- circular path of the charge (trajectory) -->
+  <circle cx="300" cy="165" r="80" fill="none" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="5 5"/>
+  <!-- circulation arrowhead at the top: moving left (counter-clockwise) -->
+  <polygon points="292,85 302,80 302,90" fill="#8a8a8a"/>
+
+  <!-- center + radius -->
+  <circle cx="300" cy="165" r="3" fill="#8a8a8a"/>
+  <line x1="300" y1="165" x2="380" y2="165" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="322" y="158" fill="#8a8a8a" font-style="italic">r = mv / qB</text>
+
+  <!-- the charge, at the bottom of the circle -->
+  <circle cx="300" cy="245" r="7" fill="#e0645c"/>
+  <text x="286" y="268" fill="#e0645c">+q</text>
+
+  <!-- velocity: tangent, to the right -->
+  <line x1="300" y1="245" x2="360" y2="245" stroke="#4a90d9" stroke-width="3"/>
+  <polygon points="366,245 354,240 354,250" fill="#4a90d9"/>
+  <text x="352" y="238" fill="#4a90d9" font-style="italic">v</text>
+
+  <!-- force: toward the center (up), perpendicular to v -->
+  <line x1="300" y1="245" x2="300" y2="187" stroke="#e0645c" stroke-width="3"/>
+  <polygon points="300,181 295,193 305,193" fill="#e0645c"/>
+  <text x="222" y="212" fill="#e0645c" font-style="italic">F = q v &#215; B</text>
+
+  <!-- right-angle marker between v and F at the charge -->
+  <polyline points="312,245 312,233 300,233" fill="none" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- labels -->
+  <text x="70" y="40" fill="#8a8a8a" font-style="italic">B into the page (the &#215; marks)</text>
+
+  <!-- caption -->
+  <text x="70" y="302" fill="#8a8a8a" font-style="italic">A positive charge moving with velocity v through B (into the page) feels F = qv&#215;B, always &#8869; to v —</text>
+  <text x="70" y="324" fill="#8a8a8a" font-style="italic">so B does no work; it only bends the path into a circle of radius r = mv/qB.</text>
+</svg>

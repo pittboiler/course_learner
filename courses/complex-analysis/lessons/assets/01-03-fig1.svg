@@ -1,0 +1,60 @@
+<svg viewBox="0 0 720 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- ============ LEFT PANEL: z-plane (domain) ============ -->
+  <text x="60" y="34" fill="#8a8a8a" font-style="italic">z-plane (z = x + iy)</text>
+
+  <!-- fundamental strip of height 2pi: -pi < y <= pi -->
+  <rect x="50" y="150" width="270" height="80" fill="#4a90d9" opacity="0.07"/>
+
+  <!-- axes -->
+  <line x1="50" y1="190" x2="325" y2="190" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="120" y1="60" x2="120" y2="330" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="325,190 315,185 315,195" fill="#8a8a8a"/>
+  <text x="330" y="195" fill="#8a8a8a">x</text>
+
+  <!-- horizontal blue line y = c (const) -> maps to a ray -->
+  <line x1="50" y1="120" x2="320" y2="120" stroke="#4a90d9" stroke-width="3"/>
+  <polygon points="320,120 310,115 310,125" fill="#4a90d9"/>
+  <text x="228" y="112" fill="#4a90d9">y = c</text>
+
+  <!-- vertical red segment x = a, over one full period 2pi -> maps to a circle -->
+  <line x1="250" y1="150" x2="250" y2="230" stroke="#e0645c" stroke-width="3"/>
+  <circle cx="250" cy="150" r="3.5" fill="#e0645c"/>
+  <circle cx="250" cy="230" r="3.5" fill="#e0645c"/>
+  <text x="258" y="196" fill="#e0645c">x = a</text>
+  <!-- brace-ish label for height 2pi -->
+  <line x1="238" y1="150" x2="230" y2="150" stroke="#e0645c" stroke-width="1"/>
+  <line x1="238" y1="230" x2="230" y2="230" stroke="#e0645c" stroke-width="1"/>
+  <text x="188" y="195" fill="#e0645c">2&#960;</text>
+
+  <!-- ============ ARROW between panels ============ -->
+  <text x="352" y="176" fill="#8a8a8a" font-style="italic">e&#7611;</text>
+  <line x1="345" y1="190" x2="400" y2="190" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="400,190 390,185 390,195" fill="#8a8a8a"/>
+
+  <!-- ============ RIGHT PANEL: w-plane (image) ============ -->
+  <text x="470" y="34" fill="#8a8a8a" font-style="italic">w-plane (w = e&#7611;)</text>
+
+  <!-- axes, origin at (560,190) -->
+  <line x1="430" y1="190" x2="700" y2="190" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="560" y1="60" x2="560" y2="330" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="700,190 690,185 690,195" fill="#8a8a8a"/>
+
+  <!-- red circle |w| = e^a : image of the vertical segment -->
+  <circle cx="560" cy="190" r="58" fill="none" stroke="#e0645c" stroke-width="3"/>
+  <text x="566" y="126" fill="#e0645c">|w| = e&#7491;</text>
+
+  <!-- blue ray arg w = c : image of the horizontal line -->
+  <line x1="560" y1="190" x2="688" y2="115" stroke="#4a90d9" stroke-width="3"/>
+  <polygon points="688,115 676,116 683,126" fill="#4a90d9"/>
+  <text x="612" y="150" fill="#4a90d9">arg w = c</text>
+
+  <!-- angle marker -->
+  <path d="M 590 190 A 30 30 0 0 0 585 173" fill="none" stroke="#4a90d9" stroke-width="1"/>
+  <text x="592" y="182" fill="#4a90d9" font-size="12">c</text>
+
+  <!-- origin hole: e^z is never 0 -->
+  <circle cx="560" cy="190" r="3.5" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- caption -->
+  <text x="60" y="362" fill="#8a8a8a" font-style="italic">Horizontal lines &#8594; rays; a vertical segment of height 2&#960; &#8594; a full circle. The strip repeats every 2&#960;i &#8212; so log must choose one.</text>
+</svg>

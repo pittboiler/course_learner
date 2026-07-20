@@ -1,0 +1,24 @@
+{
+  "courses": [
+    { "id": "proofs-primer", "title": "How to Read & Write Proofs", "tier": 0, "prereqs": [], "lessons_estimate": 8, "blurb": "Logic, sets, induction, proof patterns. The on-ramp to analysis and topology." },
+    { "id": "calc-refresher", "title": "Calculus", "tier": 0, "prereqs": [], "lessons_estimate": 15, "blurb": "Single + multivariable, through vector calculus." },
+    { "id": "linalg-refresher", "title": "Linear Algebra", "tier": 0, "prereqs": [], "lessons_estimate": 12, "blurb": "Through spectral theorem, SVD, and inner-product spaces." },
+    { "id": "ode-refresher", "title": "Differential Equations", "tier": 0, "prereqs": ["calc-refresher"], "lessons_estimate": 10, "blurb": "ODEs, linear systems, phase portraits, intro PDEs." },
+    { "id": "prob-stat-refresher", "title": "Probability & Statistics", "tier": 0, "prereqs": ["calc-refresher"], "lessons_estimate": 12, "blurb": "Distributions, expectation, LLN/CLT, Bayes, basic inference." },
+    { "id": "mechanics-refresher", "title": "Newtonian Mechanics", "tier": 0, "prereqs": ["calc-refresher", "ode-refresher"], "lessons_estimate": 12, "blurb": "Kinematics through rotation, oscillations, central forces." },
+    { "id": "em-refresher", "title": "Electromagnetism", "tier": 0, "prereqs": ["calc-refresher", "ode-refresher"], "lessons_estimate": 12, "blurb": "Maxwell's equations and what they mean." },
+    { "id": "game-theory-refresher", "title": "Game Theory", "tier": 0, "prereqs": ["prob-stat-refresher"], "lessons_estimate": 10, "blurb": "Normal/extensive form, Nash, mixed strategies, repeated games." },
+    { "id": "micro-refresher", "title": "Mathematical Microeconomics", "tier": 0, "prereqs": ["calc-refresher"], "lessons_estimate": 10, "blurb": "Consumer/producer theory, Lagrangians, comparative statics." },
+    { "id": "real-analysis", "title": "Real Analysis", "tier": 1, "prereqs": ["proofs-primer", "calc-refresher"], "lessons_estimate": 24, "blurb": "Sequences, limits, continuity, integration, uniform convergence — with proofs." },
+    { "id": "complex-analysis", "title": "Complex Analysis", "tier": 1, "prereqs": ["real-analysis"], "lessons_estimate": 20, "blurb": "Holomorphy, Cauchy's theorem, residues, conformal maps." },
+    { "id": "topology", "title": "Topology", "tier": 1, "prereqs": ["proofs-primer", "real-analysis"], "lessons_estimate": 22, "blurb": "Point-set core plus a taste of the fundamental group." },
+    { "id": "probability-theory", "title": "Probability Theory", "tier": 1, "prereqs": ["prob-stat-refresher", "real-analysis"], "lessons_estimate": 22, "blurb": "Measure-theoretic-lite: sigma-algebras, convergence, conditional expectation, martingales." },
+    { "id": "analytical-mechanics", "title": "Analytical Mechanics", "tier": 1, "prereqs": ["mechanics-refresher", "ode-refresher"], "lessons_estimate": 20, "blurb": "Calculus of variations, Lagrangian, Hamiltonian, Noether. The gateway to QM." },
+    { "id": "grad-game-theory", "title": "Grad Game Theory", "tier": 2, "prereqs": ["game-theory-refresher", "probability-theory", "real-analysis"], "lessons_estimate": 30, "blurb": "Optimization & fixed points, existence proofs, Bayesian games, mechanism design, folk theorems." },
+    { "id": "grad-micro", "title": "Grad Microeconomics", "tier": 2, "prereqs": ["micro-refresher", "real-analysis", "linalg-refresher"], "lessons_estimate": 32, "blurb": "Optimization module, choice axioms, general equilibrium, welfare theorems, information economics." },
+    { "id": "quantum-mechanics", "title": "Quantum Mechanics", "tier": 2, "prereqs": ["linalg-refresher", "analytical-mechanics", "complex-analysis"], "lessons_estimate": 32, "blurb": "State vectors, operators, Schrödinger equation, spin, entanglement, perturbation theory." },
+    { "id": "stat-mech", "title": "Statistical Mechanics", "tier": 2, "prereqs": ["probability-theory", "analytical-mechanics"], "lessons_estimate": 26, "blurb": "Ensembles, entropy, partition functions, phase transitions." },
+    { "id": "relativity", "title": "Relativity (SR + GR)", "tier": 2, "prereqs": ["mechanics-refresher", "em-refresher", "topology", "linalg-refresher"], "lessons_estimate": 34, "blurb": "SR from postulates, a differential-geometry interlude, then Einstein's equations and cosmology." },
+    { "id": "astrophysics", "title": "Astrophysics", "tier": 2, "prereqs": ["mechanics-refresher", "em-refresher", "stat-mech", "relativity", "quantum-mechanics"], "lessons_estimate": 30, "blurb": "Stellar structure, compact objects, galaxies, cosmology. The capstone." }
+  ]
+}

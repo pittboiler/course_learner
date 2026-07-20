@@ -1,0 +1,57 @@
+<svg viewBox="0 0 600 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- propagation (k / x) axis -->
+  <line x1="60" y1="195" x2="565" y2="195" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="565,195 555,190 555,200" fill="#8a8a8a"/>
+  <text x="475" y="212" fill="#8a8a8a">propagation, k (x)</text>
+
+  <!-- y axis (E lives here) -->
+  <line x1="90" y1="195" x2="90" y2="98" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="90,98 85,108 95,108" fill="#8a8a8a"/>
+  <text x="78" y="94" fill="#4a90d9">y</text>
+
+  <!-- z axis (B lives here) - perspective/depth direction -->
+  <line x1="90" y1="195" x2="140" y2="161" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="140,161 131,163 137,171" fill="#8a8a8a"/>
+  <text x="144" y="160" fill="#e0645c">z</text>
+
+  <!-- E field lines (vertical comb) -->
+  <line x1="127.9" y1="195" x2="127.9" y2="127.5" stroke="#4a90d9" stroke-width="1" opacity="0.35"/>
+  <line x1="165.8" y1="195" x2="165.8" y2="127.5" stroke="#4a90d9" stroke-width="1" opacity="0.35"/>
+  <line x1="241.7" y1="195" x2="241.7" y2="262.5" stroke="#4a90d9" stroke-width="1" opacity="0.35"/>
+  <line x1="279.6" y1="195" x2="279.6" y2="262.5" stroke="#4a90d9" stroke-width="1" opacity="0.35"/>
+  <line x1="355.4" y1="195" x2="355.4" y2="127.5" stroke="#4a90d9" stroke-width="1" opacity="0.35"/>
+  <line x1="393.3" y1="195" x2="393.3" y2="127.5" stroke="#4a90d9" stroke-width="1" opacity="0.35"/>
+  <line x1="469.2" y1="195" x2="469.2" y2="262.5" stroke="#4a90d9" stroke-width="1" opacity="0.35"/>
+  <line x1="507.1" y1="195" x2="507.1" y2="262.5" stroke="#4a90d9" stroke-width="1" opacity="0.35"/>
+
+  <!-- B field lines (into depth plane) -->
+  <line x1="127.9" y1="195" x2="160.1" y2="173.2" stroke="#e0645c" stroke-width="1" opacity="0.35"/>
+  <line x1="165.8" y1="195" x2="198.0" y2="173.2" stroke="#e0645c" stroke-width="1" opacity="0.35"/>
+  <line x1="241.7" y1="195" x2="209.5" y2="216.8" stroke="#e0645c" stroke-width="1" opacity="0.35"/>
+  <line x1="279.6" y1="195" x2="247.4" y2="216.8" stroke="#e0645c" stroke-width="1" opacity="0.35"/>
+  <line x1="355.4" y1="195" x2="387.6" y2="173.2" stroke="#e0645c" stroke-width="1" opacity="0.35"/>
+  <line x1="393.3" y1="195" x2="425.5" y2="173.2" stroke="#e0645c" stroke-width="1" opacity="0.35"/>
+  <line x1="469.2" y1="195" x2="437.0" y2="216.8" stroke="#e0645c" stroke-width="1" opacity="0.35"/>
+  <line x1="507.1" y1="195" x2="474.9" y2="216.8" stroke="#e0645c" stroke-width="1" opacity="0.35"/>
+
+  <!-- B wave (red) - drawn first so E sits in front where they cross -->
+  <path d="M 90.0 195.0 L 105.3 189.8 L 120.3 184.8 L 134.6 180.2 L 148.0 176.3 L 160.1 173.2 L 170.9 171.0 L 180.1 169.9 L 187.7 169.9 L 193.6 171.0 L 198.0 173.2 L 201.1 176.3 L 202.9 180.2 L 203.7 184.8 L 203.9 189.8 L 203.8 195.0 L 203.6 200.2 L 203.8 205.2 L 204.6 209.8 L 206.4 213.7 L 209.5 216.8 L 213.9 219.0 L 219.8 220.1 L 227.4 220.1 L 236.6 219.0 L 247.4 216.8 L 259.5 213.7 L 272.9 209.8 L 287.2 205.2 L 302.2 200.2 L 317.5 195.0 L 332.8 189.8 L 347.8 184.8 L 362.1 180.2 L 375.5 176.3 L 387.6 173.2 L 398.4 171.0 L 407.6 169.9 L 415.2 169.9 L 421.1 171.0 L 425.5 173.2 L 428.6 176.3 L 430.4 180.2 L 431.2 184.8 L 431.4 189.8 L 431.2 195.0 L 431.1 200.2 L 431.3 205.2 L 432.1 209.8 L 433.9 213.7 L 437.0 216.8 L 441.4 219.0 L 447.3 220.1 L 454.9 220.1 L 464.1 219.0 L 474.9 216.8 L 487.0 213.7 L 500.4 209.8 L 514.7 205.2 L 529.7 200.2 L 545.0 195.0"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+
+  <!-- E wave (blue) -->
+  <path d="M 90.0 195.0 L 97.6 178.8 L 105.2 163.3 L 112.8 149.2 L 120.3 137.0 L 127.9 127.5 L 135.5 120.8 L 143.1 117.4 L 150.7 117.4 L 158.2 120.8 L 165.8 127.5 L 173.4 137.0 L 181.0 149.2 L 188.6 163.3 L 196.2 178.8 L 203.8 195.0 L 211.3 211.2 L 218.9 226.7 L 226.5 240.8 L 234.1 253.0 L 241.7 262.5 L 249.2 269.2 L 256.8 272.6 L 264.4 272.6 L 272.0 269.2 L 279.6 262.5 L 287.2 253.0 L 294.8 240.8 L 302.3 226.7 L 309.9 211.2 L 317.5 195.0 L 325.1 178.8 L 332.7 163.3 L 340.2 149.2 L 347.8 137.0 L 355.4 127.5 L 363.0 120.8 L 370.6 117.4 L 378.2 117.4 L 385.8 120.8 L 393.3 127.5 L 400.9 137.0 L 408.5 149.2 L 416.1 163.3 L 423.7 178.8 L 431.2 195.0 L 438.8 211.2 L 446.4 226.7 L 454.0 240.8 L 461.6 253.0 L 469.2 262.5 L 476.8 269.2 L 484.3 272.6 L 491.9 272.6 L 499.5 269.2 L 507.1 262.5 L 514.7 253.0 L 522.2 240.8 L 529.8 226.7 L 537.4 211.2 L 545.0 195.0"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- wave labels -->
+  <text x="150" y="112" fill="#4a90d9">E</text>
+  <text x="196" y="168" fill="#e0645c">B</text>
+
+  <!-- wavelength bracket (one full period, crest to crest of E) -->
+  <line x1="147" y1="292" x2="374" y2="292" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="147" y1="286" x2="147" y2="298" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="374" y1="286" x2="374" y2="298" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="248" y="309" fill="#8a8a8a">wavelength λ</text>
+
+  <!-- caption -->
+  <text x="60" y="36" fill="#8a8a8a" font-style="italic">A plane wave travelling along x: E ⊥ B ⊥ k, in phase, with E = cB — each field regenerates the other.</text>
+</svg>

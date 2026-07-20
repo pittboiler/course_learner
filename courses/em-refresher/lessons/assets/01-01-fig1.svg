@@ -1,0 +1,47 @@
+<svg viewBox="0 0 620 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8a8a8a"/>
+    </marker>
+  </defs>
+
+  <!-- panel titles -->
+  <text x="140" y="40" fill="#8a8a8a" text-anchor="middle">Single + charge: lines radiate out</text>
+  <text x="450" y="40" fill="#8a8a8a" text-anchor="middle">Dipole: lines leave +, enter −</text>
+
+  <!-- divider -->
+  <line x1="290" y1="60" x2="290" y2="330" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- ===== LEFT: single positive charge, 8 radial field lines ===== -->
+  <g stroke="#8a8a8a" stroke-width="2" marker-end="url(#arrow)">
+    <line x1="156"   y1="200"   x2="218"   y2="200"/>
+    <line x1="151.3" y1="188.7" x2="195.2" y2="144.8"/>
+    <line x1="140"   y1="184"   x2="140"   y2="122"/>
+    <line x1="128.7" y1="188.7" x2="84.8"  y2="144.8"/>
+    <line x1="124"   y1="200"   x2="62"    y2="200"/>
+    <line x1="128.7" y1="211.3" x2="84.8"  y2="255.2"/>
+    <line x1="140"   y1="216"   x2="140"   y2="278"/>
+    <line x1="151.3" y1="211.3" x2="195.2" y2="255.2"/>
+  </g>
+  <circle cx="140" cy="200" r="15" fill="#e0645c" opacity="0.9"/>
+  <text x="140" y="206" fill="#ffffff" text-anchor="middle" font-size="20" font-weight="bold">+</text>
+
+  <!-- ===== RIGHT: dipole (+ at 400, − at 500), field lines from + to − ===== -->
+  <g stroke="#8a8a8a" stroke-width="2" fill="none" marker-end="url(#arrow)">
+    <!-- axis -->
+    <line x1="416" y1="200" x2="484" y2="200"/>
+    <!-- inner arcs -->
+    <path d="M 402 187 C 415 145 485 145 498 187"/>
+    <path d="M 402 213 C 415 255 485 255 498 213"/>
+    <!-- outer loops -->
+    <path d="M 392 189 C 350 95 550 95 508 189"/>
+    <path d="M 392 211 C 350 305 550 305 508 211"/>
+  </g>
+  <circle cx="400" cy="200" r="15" fill="#e0645c" opacity="0.9"/>
+  <text x="400" y="206" fill="#ffffff" text-anchor="middle" font-size="20" font-weight="bold">+</text>
+  <circle cx="500" cy="200" r="15" fill="#4a90d9" opacity="0.9"/>
+  <text x="500" y="205" fill="#ffffff" text-anchor="middle" font-size="20" font-weight="bold">&#8722;</text>
+
+  <!-- caption -->
+  <text x="310" y="360" fill="#8a8a8a" text-anchor="middle" font-style="italic">Field lines point away from +, into −; where they crowd together, the field is stronger.</text>
+</svg>

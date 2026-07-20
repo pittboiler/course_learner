@@ -1,0 +1,65 @@
+<svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- ================= LEFT: discrete chain of masses + springs ================= -->
+  <text x="30" y="34" fill="#8a8a8a" font-style="italic">N masses, spacing a</text>
+
+  <!-- equilibrium reference line -->
+  <line x1="30" y1="150" x2="270" y2="150" stroke="#c9c9c9" stroke-width="1" stroke-dasharray="2 4"/>
+
+  <!-- springs (zig-zags) between successive masses; masses sit on a displaced profile -->
+  <!-- mass x-positions: 40,86,132,178,224,270 ; displaced y from a sampled sine -->
+  <!-- y values: 150,120,104,116,146,150 -->
+  <polyline points="40,150 52,143 58,151 64,135 70,143 76,127 82,135 86,120"
+            fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polyline points="86,120 98,116 104,124 110,108 116,116 122,100 128,108 132,104"
+            fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polyline points="132,104 144,104 150,112 156,100 162,108 168,100 174,108 178,116"
+            fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polyline points="178,116 190,124 196,132 202,120 208,128 214,138 220,146 224,146"
+            fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polyline points="224,146 236,150 242,158 248,146 254,154 260,148 266,154 270,150"
+            fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- masses -->
+  <circle cx="40"  cy="150" r="6" fill="#4a90d9"/>
+  <circle cx="86"  cy="120" r="6" fill="#4a90d9"/>
+  <circle cx="132" cy="104" r="6" fill="#4a90d9"/>
+  <circle cx="178" cy="116" r="6" fill="#4a90d9"/>
+  <circle cx="224" cy="146" r="6" fill="#4a90d9"/>
+  <circle cx="270" cy="150" r="6" fill="#4a90d9"/>
+
+  <!-- spacing bracket a -->
+  <line x1="40" y1="180" x2="86" y2="180" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="40" y1="176" x2="40" y2="184" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="86" y1="176" x2="86" y2="184" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="58" y="196" fill="#8a8a8a">a</text>
+
+  <!-- one displacement labelled q_n -->
+  <line x1="132" y1="150" x2="132" y2="104" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="138" y="128" fill="#e0645c">q&#8345;</text>
+
+  <!-- ================= ARROW: continuum limit ================= -->
+  <line x1="290" y1="150" x2="350" y2="150" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="350,150 340,145 340,155" fill="#8a8a8a"/>
+  <text x="286" y="138" fill="#8a8a8a" font-style="italic">a &#8594; 0,  N &#8594; &#8734;</text>
+  <text x="292" y="172" fill="#8a8a8a" font-style="italic">q&#8345;(t) &#8594; &#966;(x,t)</text>
+
+  <!-- ================= RIGHT: continuous field phi(x,t) ================= -->
+  <text x="378" y="34" fill="#8a8a8a" font-style="italic">continuous field &#966;(x,t)</text>
+
+  <!-- equilibrium reference line -->
+  <line x1="372" y1="150" x2="600" y2="150" stroke="#c9c9c9" stroke-width="1" stroke-dasharray="2 4"/>
+
+  <!-- smooth string: same profile, now continuous -->
+  <path d="M 372 150 Q 400 105 430 111 T 486 118 Q 520 122 548 148 T 600 150"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+
+  <!-- vertical displacement arrow at a point x -->
+  <line x1="430" y1="150" x2="430" y2="111" stroke="#4a90d9" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="435" y="132" fill="#4a90d9">&#966;</text>
+  <line x1="430" y1="150" x2="430" y2="200" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="424" y="216" fill="#8a8a8a">x</text>
+
+  <!-- ================= caption ================= -->
+  <text x="30" y="262" fill="#8a8a8a" font-style="italic">A chain of masses on springs, watched as the spacing a shrinks to zero, becomes a continuous</text>
+  <text x="30" y="282" fill="#8a8a8a" font-style="italic">medium: the discrete coordinates q&#8345;(t) fuse into one field &#966;(x,t), and L = &#931; L&#8345; becomes L = &#8747; &#8466; dx.</text>
+</svg>

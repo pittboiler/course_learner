@@ -1,0 +1,63 @@
+<svg viewBox="0 0 620 310" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <defs>
+    <marker id="blue" markerWidth="9" markerHeight="9" refX="7" refY="3.2" orient="auto">
+      <polygon points="0,0 8,3.2 0,6.4" fill="#4a90d9"/>
+    </marker>
+    <marker id="red" markerWidth="9" markerHeight="9" refX="7" refY="3.2" orient="auto">
+      <polygon points="0,0 8,3.2 0,6.4" fill="#e0645c"/>
+    </marker>
+  </defs>
+
+  <!-- ===================== LEFT: orthogonal projection ===================== -->
+
+  <!-- the subspace L^2(G) drawn as a tilted plane -->
+  <polygon points="40,250 250,250 330,200 120,200" fill="#4a90d9" opacity="0.12" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="150" y="240" fill="#4a90d9">L²(𝒢)</text>
+  <text x="70" y="272" fill="#8a8a8a" font-style="italic">𝒢-measurable, square-integrable Y</text>
+
+  <!-- residual: vertical drop from X to its foot P, perpendicular to the plane -->
+  <line x1="250" y1="90" x2="250" y2="215" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="262" y="150" fill="#8a8a8a">X − E[X | 𝒢]</text>
+  <text x="262" y="167" fill="#8a8a8a" font-style="italic">⊥ plane</text>
+
+  <!-- right-angle marker at the foot P -->
+  <path d="M 236.1 213.4 L 236.1 199.4 L 250 201 L 250 215 Z" fill="none" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- projection vector O -> P  (the conditional expectation) -->
+  <line x1="110" y1="235" x2="247" y2="216" stroke="#4a90d9" stroke-width="3" marker-end="url(#blue)"/>
+  <text x="150" y="212" fill="#4a90d9">E[X | 𝒢]</text>
+
+  <!-- the vector X, off the plane -->
+  <line x1="110" y1="235" x2="248" y2="93" stroke="#e0645c" stroke-width="3" marker-end="url(#red)"/>
+  <text x="255" y="88" fill="#e0645c">X</text>
+
+  <!-- origin -->
+  <circle cx="110" cy="235" r="4" fill="#8a8a8a"/>
+  <text x="92" y="232" fill="#8a8a8a">0</text>
+  <!-- foot -->
+  <circle cx="250" cy="215" r="4" fill="#4a90d9"/>
+
+  <text x="30" y="70" fill="#8a8a8a" font-style="italic">Drop X straight onto the plane — the shadow is the best guess.</text>
+
+  <!-- ===================== RIGHT: conditioning on a partition ===================== -->
+
+  <!-- baseline (Omega) -->
+  <line x1="390" y1="250" x2="600" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <!-- partition boundaries -->
+  <line x1="443" y1="120" x2="443" y2="250" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="510" y1="120" x2="510" y2="250" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="412" y="266" fill="#8a8a8a">B₁</text>
+  <text x="470" y="266" fill="#8a8a8a">B₂</text>
+  <text x="550" y="266" fill="#8a8a8a">B₃</text>
+
+  <!-- X: a wiggly function -->
+  <polyline points="400,175 408,155 416,182 424,158 432,178 440,168 448,140 458,185 468,130 478,190 488,145 500,175 505,160 515,205 525,225 535,200 545,222 560,205 575,220 595,208"
+            fill="none" stroke="#e0645c" stroke-width="2"/>
+  <!-- E[X | G]: block averages, piecewise constant -->
+  <line x1="400" y1="170" x2="440" y2="170" stroke="#4a90d9" stroke-width="3"/>
+  <line x1="446" y1="158" x2="507" y2="158" stroke="#4a90d9" stroke-width="3"/>
+  <line x1="513" y1="211" x2="595" y2="211" stroke="#4a90d9" stroke-width="3"/>
+
+  <text x="392" y="110" fill="#8a8a8a" font-style="italic">On a partition 𝒢 = σ(B₁,B₂,…):</text>
+  <text x="392" y="127" fill="#4a90d9">E[X | 𝒢]  =  the average of  X  over each block</text>
+</svg>

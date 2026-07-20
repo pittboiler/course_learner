@@ -1,0 +1,44 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="60" y="22" fill="#8a8a8a" font-style="italic">Candidates for the global extrema: critical points + endpoints.</text>
+
+  <!-- axes -->
+  <line x1="30" y1="336" x2="540" y2="336" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="540,336 530,331 530,341" fill="#8a8a8a"/>
+  <text x="546" y="341" fill="#8a8a8a">x</text>
+
+  <!-- droplines to the axis -->
+  <line x1="60" y1="206" x2="60" y2="336" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="142.6" y1="134" x2="142.6" y2="336" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="378.5" y1="294" x2="378.5" y2="336" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="520" y1="52" x2="520" y2="336" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="55" y="352" fill="#8a8a8a">a</text>
+  <text x="136" y="352" fill="#8a8a8a">c&#8321;</text>
+  <text x="372" y="352" fill="#8a8a8a">c&#8322;</text>
+  <text x="515" y="352" fill="#8a8a8a">b</text>
+
+  <!-- the curve -->
+  <path d="M 60.0 202.5 L 75.3 176.4 L 90.7 156.6 L 106.0 142.7 L 121.3 134.1 L 136.7 130.3 L 152.0 130.7 L 167.3 134.9 L 182.7 142.3 L 198.0 152.4 L 213.3 164.6 L 228.7 178.4 L 244.0 193.3 L 259.3 208.8 L 274.7 224.3 L 290.0 239.4 L 305.3 253.4 L 320.7 265.9 L 336.0 276.3 L 351.3 284.1 L 366.7 288.8 L 382.0 289.9 L 397.3 286.8 L 412.7 278.9 L 428.0 265.9 L 443.3 247.0 L 458.7 221.9 L 474.0 190.0 L 489.3 150.7 L 504.7 103.6 L 520.0 48.1"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- local max: horizontal tangent, dot, label -->
+  <line x1="100" y1="130" x2="185" y2="130" stroke="#e0645c" stroke-width="2" stroke-dasharray="7 5"/>
+  <circle cx="142.6" cy="130" r="5" fill="#e0645c"/>
+  <text x="72" y="76" fill="#e0645c" font-weight="bold">local max</text>
+  <text x="72" y="94" fill="#e0645c">f&#8242; = 0, f&#8243; &lt; 0</text>
+  <text x="72" y="112" fill="#e0645c">(but not global!)</text>
+
+  <!-- local min: horizontal tangent, dot, label -->
+  <line x1="336" y1="290" x2="421" y2="290" stroke="#7bb662" stroke-width="2" stroke-dasharray="7 5"/>
+  <circle cx="378.5" cy="290" r="5" fill="#7bb662"/>
+  <text x="150" y="278" fill="#7bb662" font-weight="bold">local min = global min</text>
+  <text x="150" y="296" fill="#7bb662">f&#8242; = 0, f&#8243; &gt; 0</text>
+  <line x1="322" y1="288" x2="356" y2="290" stroke="#7bb662" stroke-width="1"/>
+
+  <!-- endpoints -->
+  <rect x="55" y="197.5" width="10" height="10" fill="#d9962e"/>
+  <text x="42" y="188" fill="#d9962e">endpoint</text>
+  <rect x="515" y="43.1" width="10" height="10" fill="#d9962e"/>
+  <text x="322" y="52" fill="#d9962e" font-weight="bold">global max &#8212; at the endpoint,</text>
+  <text x="322" y="70" fill="#d9962e">where f&#8242; &#8800; 0</text>
+</svg>

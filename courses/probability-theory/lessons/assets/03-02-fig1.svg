@@ -1,0 +1,60 @@
+<svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <!-- ============ LEFT PANEL: vertical slices (integrate y first) ============ -->
+  <!-- domain rectangle Omega1 x Omega2 -->
+  <rect x="55" y="55" width="200" height="180" fill="#f2f5f8" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- shaded support region of f (a blob) -->
+  <path d="M 95 95 Q 160 70 220 110 Q 235 150 200 200 Q 140 225 90 190 Q 70 140 95 95 Z"
+        fill="#e0645c" opacity="0.18" stroke="#e0645c" stroke-width="1"/>
+
+  <!-- vertical slices: fix x, sweep y  -->
+  <line x1="110" y1="55" x2="110" y2="235" stroke="#4a90d9" stroke-width="1" stroke-dasharray="2 3"/>
+  <line x1="140" y1="55" x2="140" y2="235" stroke="#4a90d9" stroke-width="1" stroke-dasharray="2 3"/>
+  <line x1="170" y1="55" x2="170" y2="235" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="200" y1="55" x2="200" y2="235" stroke="#4a90d9" stroke-width="1" stroke-dasharray="2 3"/>
+
+  <!-- highlight one inner integral along the bold slice -->
+  <text x="176" y="130" fill="#4a90d9">∫ f dμ₂</text>
+
+  <!-- axes labels -->
+  <text x="145" y="255" fill="#8a8a8a">Ω₁  (x)</text>
+  <text x="18" y="150" fill="#8a8a8a">Ω₂</text>
+  <text x="18" y="166" fill="#8a8a8a">(y)</text>
+
+  <!-- outer sweep arrow along x -->
+  <line x1="60" y1="246" x2="250" y2="246" stroke="#4a90d9" stroke-width="1.5"/>
+  <polygon points="250,246 242,242 242,250" fill="#4a90d9"/>
+  <text x="70" y="290" fill="#4a90d9">then ∫(·) dμ₁ over x</text>
+  <text x="70" y="308" fill="#8a8a8a" font-style="italic">integrate y first</text>
+
+  <!-- ============ equality sign ============ -->
+  <text x="298" y="150" fill="#8a8a8a" font-size="26">=</text>
+
+  <!-- ============ RIGHT PANEL: horizontal slices (integrate x first) ============ -->
+  <rect x="365" y="55" width="200" height="180" fill="#f2f5f8" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- same shaded support, shifted +310 in x -->
+  <path d="M 405 95 Q 470 70 530 110 Q 545 150 510 200 Q 450 225 400 190 Q 380 140 405 95 Z"
+        fill="#e0645c" opacity="0.18" stroke="#e0645c" stroke-width="1"/>
+
+  <!-- horizontal slices: fix y, sweep x -->
+  <line x1="365" y1="95"  x2="565" y2="95"  stroke="#e0645c" stroke-width="1" stroke-dasharray="2 3"/>
+  <line x1="365" y1="130" x2="565" y2="130" stroke="#e0645c" stroke-width="2.5"/>
+  <line x1="365" y1="165" x2="565" y2="165" stroke="#e0645c" stroke-width="1" stroke-dasharray="2 3"/>
+  <line x1="365" y1="200" x2="565" y2="200" stroke="#e0645c" stroke-width="1" stroke-dasharray="2 3"/>
+
+  <text x="420" y="124" fill="#e0645c">∫ f dμ₁</text>
+
+  <text x="455" y="255" fill="#8a8a8a">Ω₁  (x)</text>
+  <text x="330" y="150" fill="#8a8a8a">Ω₂</text>
+  <text x="330" y="166" fill="#8a8a8a">(y)</text>
+
+  <!-- outer sweep arrow along y -->
+  <line x1="352" y1="60" x2="352" y2="235" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="352,235 348,227 356,227" fill="#e0645c"/>
+  <text x="380" y="290" fill="#e0645c">then ∫(·) dμ₂ over y</text>
+  <text x="380" y="308" fill="#8a8a8a" font-style="italic">integrate x first</text>
+
+  <!-- title -->
+  <text x="60" y="30" fill="#8a8a8a" font-style="italic">Same solid over Ω₁×Ω₂, sliced two ways — Fubini says both totals agree.</text>
+</svg>

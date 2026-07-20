@@ -1,0 +1,44 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- shaded gap between the two paths: the variation delta y -->
+  <path d="M 90 250 C 200 150 360 130 470 90 C 360 90 200 100 90 250 Z"
+        fill="#e0645c" opacity="0.14"/>
+
+  <!-- axes -->
+  <line x1="30" y1="300" x2="540" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="60" y1="18" x2="60" y2="322" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="540,300 530,295 530,305" fill="#8a8a8a"/>
+  <polygon points="60,18 55,28 65,28" fill="#8a8a8a"/>
+  <text x="546" y="305" fill="#8a8a8a">x</text>
+  <text x="46" y="24" fill="#8a8a8a">y</text>
+
+  <!-- endpoint droplines (pinned) -->
+  <line x1="90" y1="250" x2="90" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="470" y1="90" x2="470" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="82" y="318" fill="#8a8a8a">a</text>
+  <text x="464" y="318" fill="#8a8a8a">b</text>
+
+  <!-- extremal path y(x) -->
+  <path d="M 90 250 C 200 150 360 130 470 90"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- varied path y(x) + delta y(x), pinned at both ends -->
+  <path d="M 90 250 C 200 90 360 90 470 90"
+        fill="none" stroke="#e0645c" stroke-width="2.5" stroke-dasharray="7 5"/>
+
+  <!-- pinned endpoints -->
+  <circle cx="90" cy="250" r="5" fill="#8a8a8a"/>
+  <circle cx="470" cy="90" r="5" fill="#8a8a8a"/>
+
+  <!-- the variation delta y at one interior x -->
+  <line x1="255" y1="139" x2="255" y2="93" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="255,93 251,102 259,102" fill="#e0645c"/>
+  <polygon points="255,139 251,130 259,130" fill="#e0645c"/>
+  <text x="262" y="120" fill="#e0645c" font-style="italic">δy(x)</text>
+
+  <!-- labels -->
+  <text x="300" y="205" fill="#4a90d9">y(x) — the extremal</text>
+  <text x="150" y="72" fill="#e0645c">y(x) + δy(x) — a nearby path</text>
+
+  <!-- caption -->
+  <text x="80" y="42" fill="#8a8a8a" font-style="italic">Endpoints pinned, interior free to wiggle: at the extremal δJ = 0 for every such δy.</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- ambient space X -->
+  <rect x="12" y="12" width="536" height="326" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 5"/>
+  <text x="22" y="30" fill="#8a8a8a" font-style="italic">ambient space X</text>
+
+  <!-- the set A: interior shaded (blue), boundary outline (red) -->
+  <path d="M 250 68
+           C 320 55, 385 95, 378 165
+           C 373 225, 330 270, 258 278
+           C 195 285, 132 255, 122 190
+           C 112 125, 165 70, 250 68 Z"
+        fill="#4a90d9" fill-opacity="0.15" stroke="#e0645c" stroke-width="3"/>
+
+  <!-- interior label -->
+  <text x="185" y="180" fill="#4a90d9">interior  A&#176;</text>
+  <text x="168" y="200" fill="#8a8a8a" font-size="12" font-style="italic">largest open set inside A</text>
+
+  <!-- boundary label + leader to the outline -->
+  <text x="70" y="120" fill="#e0645c">boundary  &#8706;A</text>
+  <line x1="118" y1="128" x2="150" y2="150" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- limit point p sitting ON the boundary, approached by points of A -->
+  <circle cx="377" cy="168" r="5" fill="#e0645c"/>
+  <text x="392" y="158" fill="#e0645c">limit point p</text>
+  <text x="392" y="176" fill="#8a8a8a" font-size="12" font-style="italic">every nbhd of p</text>
+  <text x="392" y="192" fill="#8a8a8a" font-size="12" font-style="italic">meets A</text>
+
+  <!-- dots of A closing in on p from inside -->
+  <circle cx="345" cy="168" r="2.6" fill="#4a90d9"/>
+  <circle cx="356" cy="168" r="2.6" fill="#4a90d9"/>
+  <circle cx="364" cy="168" r="2.6" fill="#4a90d9"/>
+  <circle cx="369" cy="168" r="2.6" fill="#4a90d9"/>
+  <circle cx="372.5" cy="168" r="2.6" fill="#4a90d9"/>
+
+  <!-- a small open neighborhood of p, straddling the boundary -->
+  <circle cx="377" cy="168" r="24" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 3"/>
+
+  <!-- an exterior point -->
+  <circle cx="470" cy="300" r="5" fill="#8a8a8a"/>
+  <text x="360" y="315" fill="#8a8a8a">exterior point (in (X\A)&#176;)</text>
+</svg>

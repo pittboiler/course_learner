@@ -1,0 +1,53 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="70" y="30" fill="#8a8a8a" font-style="italic">The normal density: almost all the mass sits within 3σ of the mean μ.</text>
+
+  <!-- shaded band: within 3σ (lightest) -->
+  <path d="M 120 300 L 120 297.6 L 135 295.0 L 150 290.3 L 165 282.5 L 180 270.2 L 180 300 Z" fill="#4a90d9" opacity="0.10"/>
+  <path d="M 420 300 L 420 270.2 L 435 282.5 L 450 290.3 L 465 295.0 L 480 297.6 L 480 300 Z" fill="#4a90d9" opacity="0.10"/>
+
+  <!-- shaded band: within 2σ (medium) -->
+  <path d="M 180 300 L 180 270.2 L 195 252.5 L 210 228.6 L 225 199.3 L 240 166.6 L 240 300 Z" fill="#4a90d9" opacity="0.18"/>
+  <path d="M 360 300 L 360 166.6 L 375 199.3 L 390 228.6 L 405 252.5 L 420 270.2 L 420 300 Z" fill="#4a90d9" opacity="0.18"/>
+
+  <!-- shaded band: within 1σ (darkest) -->
+  <path d="M 240 300 L 240 166.6 L 255 133.9 L 270 105.9 L 285 86.8 L 300 80 L 315 86.8 L 330 105.9 L 345 133.9 L 360 166.6 L 360 300 Z" fill="#4a90d9" opacity="0.30"/>
+
+  <!-- axis -->
+  <line x1="30" y1="300" x2="540" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="540,300 530,295 530,305" fill="#8a8a8a"/>
+  <text x="546" y="305" fill="#8a8a8a">x</text>
+
+  <!-- sigma gridlines -->
+  <line x1="120" y1="297.6" x2="120" y2="300" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="180" y1="270.2" x2="180" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="240" y1="166.6" x2="240" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="300" y1="80"    x2="300" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="360" y1="166.6" x2="360" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="420" y1="270.2" x2="420" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="480" y1="297.6" x2="480" y2="300" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- the bell curve -->
+  <path d="M 90 299.5 L 105 298.9 L 120 297.6 L 135 295.0 L 150 290.3 L 165 282.5 L 180 270.2 L 195 252.5 L 210 228.6 L 225 199.3 L 240 166.6 L 255 133.9 L 270 105.9 L 285 86.8 L 300 80 L 315 86.8 L 330 105.9 L 345 133.9 L 360 166.6 L 375 199.3 L 390 228.6 L 405 252.5 L 420 270.2 L 435 282.5 L 450 290.3 L 465 295.0 L 480 297.6 L 495 298.9 L 510 299.5"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- peak label -->
+  <text x="306" y="74" fill="#8a8a8a">peak height = 1/(σ√(2π))</text>
+
+  <!-- axis tick labels -->
+  <text x="103" y="318" fill="#8a8a8a">μ−3σ</text>
+  <text x="163" y="318" fill="#8a8a8a">μ−2σ</text>
+  <text x="228" y="318" fill="#8a8a8a">μ−σ</text>
+  <text x="292" y="318" fill="#8a8a8a">μ</text>
+  <text x="348" y="318" fill="#8a8a8a">μ+σ</text>
+  <text x="403" y="318" fill="#8a8a8a">μ+2σ</text>
+  <text x="463" y="318" fill="#8a8a8a">μ+3σ</text>
+
+  <!-- legend -->
+  <rect x="96" y="92" width="14" height="10" fill="#4a90d9" opacity="0.30"/>
+  <text x="116" y="101" fill="#8a8a8a">68% within μ ± σ</text>
+  <rect x="96" y="112" width="14" height="10" fill="#4a90d9" opacity="0.18"/>
+  <text x="116" y="121" fill="#8a8a8a">95% within μ ± 2σ</text>
+  <rect x="96" y="132" width="14" height="10" fill="#4a90d9" opacity="0.10"/>
+  <text x="116" y="141" fill="#8a8a8a">99.7% within μ ± 3σ</text>
+</svg>

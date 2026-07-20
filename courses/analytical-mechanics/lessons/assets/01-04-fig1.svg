@@ -1,0 +1,46 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="70" y="22" fill="#8a8a8a" font-style="italic">Effective potential of a bead on a hoop spun at rate &#937; about its vertical axis.</text>
+
+  <!-- U_eff axis (vertical) -->
+  <line x1="60" y1="312" x2="60" y2="30" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="60,30 55,40 65,40" fill="#8a8a8a"/>
+  <text x="66" y="42" fill="#8a8a8a">U_eff</text>
+
+  <!-- theta axis (U_eff = 0) -->
+  <line x1="50" y1="157" x2="540" y2="157" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="540,157 530,152 530,162" fill="#8a8a8a"/>
+  <text x="544" y="162" fill="#8a8a8a">&#952;</text>
+
+  <!-- symmetry axis at theta = 0 -->
+  <line x1="300" y1="34" x2="300" y2="308" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- theta tick labels -->
+  <text x="64" y="150" fill="#8a8a8a">&#8722;&#960;</text>
+  <text x="292" y="150" fill="#8a8a8a">0</text>
+  <text x="522" y="150" fill="#8a8a8a">&#960;</text>
+
+  <!-- subcritical: Omega^2 < g/R (single well) -->
+  <path d="M 70 50 L 108.33 71 L 146.67 123.3 L 185 183.3 L 223.33 230 L 261.67 255.7 L 300 263.3 L 338.33 255.7 L 376.67 230 L 415 183.3 L 453.33 123.3 L 491.67 71 L 530 50"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- critical: Omega^2 = g/R (flat bottom) -->
+  <path d="M 70 50 L 108.33 77.6 L 146.67 143.3 L 185 210 L 223.33 250 L 261.67 262.4 L 300 263.3 L 338.33 262.4 L 376.67 250 L 415 210 L 453.33 143.3 L 491.67 77.6 L 530 50"
+        fill="none" stroke="#8a8a8a" stroke-width="2" stroke-dasharray="5 4"/>
+
+  <!-- supercritical: Omega^2 > g/R (double well) -->
+  <path d="M 70 50 L 108.33 91 L 146.67 183.3 L 185 263.3 L 223.33 290 L 261.67 275.7 L 300 263.3 L 338.33 275.7 L 376.67 290 L 415 263.3 L 453.33 183.3 L 491.67 91 L 530 50"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+
+  <!-- equilibria on the supercritical curve -->
+  <circle cx="223.33" cy="290" r="5" fill="#e0645c"/>
+  <circle cx="376.67" cy="290" r="5" fill="#e0645c"/>
+  <circle cx="300" cy="263.3" r="5" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <text x="196" y="308" fill="#e0645c">&#8722;&#952;*</text>
+  <text x="368" y="308" fill="#e0645c">+&#952;*</text>
+
+  <!-- legend -->
+  <text x="196" y="92" fill="#4a90d9">&#937;&#178; &lt; g/R : one well at &#952;=0 (stable)</text>
+  <text x="196" y="110" fill="#8a8a8a">&#937;&#178; = g/R : critical, flat bottom</text>
+  <text x="196" y="128" fill="#e0645c">&#937;&#178; &gt; g/R : &#952;=0 unstable, two tilted wells</text>
+</svg>

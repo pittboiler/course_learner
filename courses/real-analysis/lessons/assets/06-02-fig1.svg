@@ -1,0 +1,40 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- axes -->
+  <line x1="40" y1="300" x2="540" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="60" y1="20" x2="60" y2="322" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="540,300 530,295 530,305" fill="#8a8a8a"/>
+  <polygon points="60,20 55,30 65,30" fill="#8a8a8a"/>
+  <text x="544" y="305" fill="#8a8a8a">x</text>
+
+  <!-- the curve y = f(x), concave, increasing -->
+  <path d="M 120 240 L 140 205.6 L 160 191.3 L 180 180.4 L 200 171.2 L 220 163.0 L 240 155.7 L 260 148.9 L 280 142.7 L 300 136.8 L 320 131.2 L 340 125.9 L 360 120.8 L 380 115.9 L 400 111.2 L 420 106.7 L 440 102.3 L 460 98.1 L 480 94.0 L 500 90.0"
+        fill="none" stroke="#8a8a8a" stroke-width="3"/>
+
+  <!-- secant chord from (a, f(a)) to (b, f(b)) -->
+  <line x1="120" y1="240" x2="500" y2="90" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <!-- tangent at c, parallel to the chord -->
+  <line x1="140" y1="194.6" x2="300" y2="131.5" stroke="#e0645c" stroke-width="2.5"/>
+
+  <!-- endpoints -->
+  <circle cx="120" cy="240" r="4.5" fill="#4a90d9"/>
+  <circle cx="500" cy="90" r="4.5" fill="#4a90d9"/>
+  <!-- tangent point -->
+  <circle cx="215" cy="165" r="4.5" fill="#e0645c"/>
+
+  <!-- droplines for a, c, b -->
+  <line x1="120" y1="240" x2="120" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="215" y1="165" x2="215" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="500" y1="90" x2="500" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="116" y="317" fill="#8a8a8a">a</text>
+  <text x="211" y="317" fill="#e0645c">c</text>
+  <text x="496" y="317" fill="#8a8a8a">b</text>
+
+  <!-- labels -->
+  <text x="360" y="188" fill="#4a90d9">secant: slope (f(b)−f(a))/(b−a)</text>
+  <text x="150" y="230" fill="#e0645c">tangent at c: slope f '(c)</text>
+  <line x1="205" y1="222" x2="212" y2="176" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- caption -->
+  <text x="70" y="44" fill="#8a8a8a" font-style="italic">Somewhere inside, the tangent runs exactly parallel to the chord.</text>
+</svg>

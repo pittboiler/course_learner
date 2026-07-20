@@ -1,0 +1,47 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- accumulated area A(x): under the curve from a to x -->
+  <path d="M 100 300 L 100 208 L 130 196 L 160 189 L 190 187 L 220 191 L 250 200 L 280 212 L 310 224 L 340 232 L 370 235 L 400 300 Z"
+        fill="#4a90d9" opacity="0.16"/>
+
+  <!-- the thin strip of width h at x: area ≈ f(x)·h -->
+  <rect x="400" y="235" width="26" height="65" fill="#e0645c" opacity="0.28"/>
+  <path d="M 400 235 L 426 233 L 426 300 L 400 300 Z" fill="#e0645c" opacity="0.28"/>
+
+  <!-- the curve y = f(t) -->
+  <path d="M 70 214 L 100 208 L 130 196 L 160 189 L 190 187 L 220 191 L 250 200 L 280 212 L 310 224 L 340 232 L 370 235 L 400 235 L 426 233 L 470 226 L 510 216"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- axes -->
+  <line x1="40" y1="300" x2="540" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="60" y1="20" x2="60" y2="320" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="540,300 530,295 530,305" fill="#8a8a8a"/>
+  <polygon points="60,20 55,30 65,30" fill="#8a8a8a"/>
+  <text x="546" y="305" fill="#8a8a8a">t</text>
+
+  <!-- endpoint droplines: a, x, x+h -->
+  <line x1="100" y1="208" x2="100" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="400" y1="235" x2="400" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="426" y1="233" x2="426" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="60" y1="235" x2="400" y2="235" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <text x="96" y="318" fill="#8a8a8a">a</text>
+  <text x="396" y="318" fill="#8a8a8a">x</text>
+  <text x="416" y="318" fill="#e0645c">x+h</text>
+  <text x="30" y="240" fill="#e0645c">f(x)</text>
+
+  <!-- height brace label on the strip -->
+  <text x="440" y="270" fill="#e0645c">height ≈ f(x)</text>
+  <line x1="413" y1="288" x2="436" y2="272" stroke="#e0645c" stroke-width="1" stroke-dasharray="2 3"/>
+
+  <!-- width label under the strip -->
+  <text x="392" y="336" fill="#e0645c" font-size="12">width h</text>
+
+  <!-- area labels -->
+  <text x="180" y="258" fill="#4a90d9">A(x) = ∫ₐˣ f</text>
+
+  <!-- curve label -->
+  <text x="470" y="205" fill="#4a90d9">y = f(t)</text>
+
+  <!-- caption -->
+  <text x="72" y="42" fill="#8a8a8a" font-style="italic">Growing x by h adds a strip of area ≈ f(x)·h, so A′(x) = f(x).</text>
+</svg>

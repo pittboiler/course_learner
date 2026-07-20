@@ -1,0 +1,50 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="70" y="34" fill="#8a8a8a" font-style="italic">Supply is the rising branch of MC above min AVC; a price line reads off q*.</text>
+
+  <!-- axes -->
+  <line x1="30" y1="300" x2="540" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="60" y1="18" x2="60" y2="322" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="540,300 530,295 530,305" fill="#8a8a8a"/>
+  <polygon points="60,18 55,28 65,28" fill="#8a8a8a"/>
+  <text x="544" y="305" fill="#8a8a8a">q</text>
+  <text x="30" y="52" fill="#8a8a8a">price,</text>
+  <text x="30" y="68" fill="#8a8a8a">cost</text>
+
+  <!-- ATC curve (blue) -->
+  <path d="M 120 104.4 L 140 141.6 L 160 163.9 L 180 175.2 L 194 177.5 L 220 170.4 L 240 155.6 L 260 133 L 280 102.7 L 292 81"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <!-- AVC curve (green) -->
+  <path d="M 92 143.9 L 120 181.2 L 140 199.2 L 180 213.6 L 220 199.2 L 260 156 L 300 84"
+        fill="none" stroke="#5a9e6f" stroke-width="2.5"/>
+
+  <!-- MC below shutdown: thin dashed -->
+  <path d="M 84 172.1 L 100 213.6 L 120 246 L 140 256.8 L 160 246 L 180 213.6"
+        fill="none" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 4"/>
+
+  <!-- MC above min AVC = SUPPLY: bold -->
+  <path d="M 180 213.6 L 200 159.6 L 209.3 127.2 L 220 84 L 228 47.7"
+        fill="none" stroke="#e0645c" stroke-width="4"/>
+
+  <!-- price line p -->
+  <line x1="60" y1="127.2" x2="215" y2="127.2" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="40" y="132" fill="#8a8a8a">p</text>
+
+  <!-- dropline to q* -->
+  <line x1="209.3" y1="127.2" x2="209.3" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <circle cx="209.3" cy="127.2" r="4.5" fill="#e0645c"/>
+  <text x="200" y="318" fill="#8a8a8a">q*</text>
+
+  <!-- shutdown point: MC meets min AVC -->
+  <circle cx="180" cy="213.6" r="4.5" fill="#5a9e6f"/>
+  <text x="150" y="234" fill="#5a9e6f">shutdown</text>
+
+  <!-- breakeven point: MC meets min ATC -->
+  <circle cx="194" cy="177.5" r="3.5" fill="#4a90d9"/>
+
+  <!-- curve labels -->
+  <text x="232" y="46" fill="#e0645c">MC = supply</text>
+  <text x="296" y="80" fill="#5a9e6f">AVC</text>
+  <text x="296" y="98" fill="#4a90d9">ATC</text>
+</svg>

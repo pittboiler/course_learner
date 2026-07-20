@@ -1,0 +1,46 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- the Laplace square: the hard direct road (top) vs. the easy detour (down, across, up) -->
+
+  <!-- boxes -->
+  <rect x="34" y="48" width="168" height="58" rx="6" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <rect x="358" y="48" width="168" height="58" rx="6" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <rect x="34" y="238" width="168" height="58" rx="6" fill="none" stroke="#4a90d9" stroke-width="1.5"/>
+  <rect x="358" y="238" width="168" height="58" rx="6" fill="none" stroke="#4a90d9" stroke-width="1.5"/>
+
+  <!-- box labels -->
+  <text x="118" y="72" fill="#8a8a8a" text-anchor="middle" font-weight="bold">ODE in t</text>
+  <text x="118" y="93" fill="#8a8a8a" text-anchor="middle" font-style="italic">a y&#8243;+b y&#8242;+c y = f(t)</text>
+  <text x="442" y="72" fill="#8a8a8a" text-anchor="middle" font-weight="bold">y(t)</text>
+  <text x="442" y="93" fill="#8a8a8a" text-anchor="middle" font-style="italic">the solution</text>
+  <text x="118" y="263" fill="#4a90d9" text-anchor="middle" font-weight="bold">algebra in Y(s)</text>
+  <text x="118" y="284" fill="#4a90d9" text-anchor="middle" font-style="italic">no derivatives left</text>
+  <text x="442" y="263" fill="#4a90d9" text-anchor="middle" font-weight="bold">Y(s)</text>
+  <text x="442" y="284" fill="#4a90d9" text-anchor="middle" font-style="italic">a rational function</text>
+
+  <!-- TOP arrow: the hard direct road (avoid) -->
+  <line x1="202" y1="77" x2="350" y2="77" stroke="#e0645c" stroke-width="2" stroke-dasharray="4 5"/>
+  <polygon points="358,77 348,72 348,82" fill="#e0645c"/>
+  <text x="280" y="40" fill="#e0645c" text-anchor="middle" font-style="italic">direct: calculus &#8212; hard</text>
+
+  <!-- DOWN arrow: transform -->
+  <line x1="118" y1="106" x2="118" y2="230" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="118,238 113,228 123,228" fill="#4a90d9"/>
+  <text x="128" y="160" fill="#4a90d9">&#8466;  transform</text>
+  <text x="128" y="178" fill="#4a90d9" font-style="italic">y&#8242;&#8594;sY&#8722;y(0)</text>
+
+  <!-- BOTTOM arrow: solve algebraically -->
+  <line x1="202" y1="267" x2="350" y2="267" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="358,267 348,262 348,272" fill="#4a90d9"/>
+  <text x="280" y="258" fill="#4a90d9" text-anchor="middle">solve for Y(s)</text>
+  <text x="280" y="290" fill="#4a90d9" text-anchor="middle" font-style="italic">just algebra</text>
+
+  <!-- UP arrow: invert -->
+  <line x1="442" y1="238" x2="442" y2="114" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="442,106 437,116 447,116" fill="#4a90d9"/>
+  <text x="452" y="160" fill="#4a90d9">&#8466;&#8315;&#185;  invert</text>
+  <text x="452" y="178" fill="#4a90d9" font-style="italic">partial fractions</text>
+  <text x="452" y="196" fill="#4a90d9" font-style="italic">+ the table</text>
+
+  <!-- caption -->
+  <text x="80" y="332" fill="#8a8a8a" font-style="italic">Don't cross the top. Go down, across, up &#8212; every step of the long way is easy.</text>
+</svg>

@@ -1,0 +1,39 @@
+<svg viewBox="0 0 560 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="60" y="28" fill="#8a8a8a" font-style="italic">Isoquant map for f(K,L)=√(KL): convex level sets, MRTS = tangent slope — the producer's MRS (cf. 1.1).</text>
+
+  <!-- axes -->
+  <line x1="65" y1="305" x2="540" y2="305" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="65" y1="305" x2="65" y2="45" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="540,305 530,300 530,310" fill="#8a8a8a"/>
+  <polygon points="65,45 60,55 70,55" fill="#8a8a8a"/>
+  <text x="531" y="325" fill="#8a8a8a">L (labor)</text>
+  <text x="40" y="55" fill="#8a8a8a">K (capital)</text>
+
+  <!-- inner isoquant q0 -->
+  <path d="M 115 209 L 125 225 L 145 245 L 165 257 L 185 265 L 225 275 L 265 281 L 325 286.5 L 405 290.9 L 495 293.8"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <!-- middle isoquant q1 (carries the tangent) -->
+  <path d="M 125 145 L 145 185 L 165 209 L 185 225 L 205 236.4 L 225 245 L 265 257 L 305 265 L 365 273 L 425 278.3 L 505 283.2"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <!-- outer isoquant q2 -->
+  <path d="M 135 76.4 L 155 127.2 L 175 159.5 L 195 182 L 225 205 L 265 225 L 325 243.5 L 405 258 L 505 268.6"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <!-- labels for the three isoquants -->
+  <text x="510" y="292" fill="#4a90d9">q₀</text>
+  <text x="510" y="281" fill="#4a90d9">q₁</text>
+  <text x="510" y="266" fill="#4a90d9">q₂</text>
+
+  <!-- tangent at point A on q1: slope = MRTS -->
+  <line x1="95" y1="165" x2="275" y2="285" stroke="#e0645c" stroke-width="2.5"/>
+  <circle cx="185" cy="225" r="4.5" fill="#e0645c"/>
+  <text x="196" y="220" fill="#e0645c">A</text>
+  <text x="250" y="176" fill="#e0645c">slope = −MRTS_LK = −(f_L / f_K)</text>
+  <line x1="330" y1="180" x2="270" y2="243" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- direction of increasing output -->
+  <line x1="300" y1="150" x2="345" y2="118" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="3 4"/>
+  <polygon points="345,118 334,120 340,129" fill="#8a8a8a"/>
+  <text x="350" y="112" fill="#8a8a8a" font-style="italic">q increases</text>
+</svg>

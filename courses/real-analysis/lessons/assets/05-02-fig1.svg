@@ -1,0 +1,40 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="70" y="30" fill="#8a8a8a" font-style="italic">Continuous on the closed [a,b]: the curve must touch a highest and a lowest value.</text>
+
+  <!-- axes -->
+  <line x1="40" y1="300" x2="540" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="60" y1="45" x2="60" y2="322" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="540,300 530,295 530,305" fill="#8a8a8a"/>
+  <text x="546" y="305" fill="#8a8a8a">x</text>
+
+  <!-- max level dashed line to y-axis -->
+  <line x1="60" y1="80" x2="200" y2="80" stroke="#4a90d9" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="200" y1="80" x2="200" y2="300" stroke="#4a90d9" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="40" y="85" fill="#4a90d9">M</text>
+  <text x="192" y="318" fill="#4a90d9">c</text>
+
+  <!-- min level dashed line to y-axis -->
+  <line x1="60" y1="250" x2="340" y2="250" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="340" y1="250" x2="340" y2="300" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="43" y="255" fill="#e0645c">m</text>
+  <text x="333" y="318" fill="#e0645c">d</text>
+
+  <!-- endpoints a and b -->
+  <line x1="110" y1="297" x2="110" y2="303" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="500" y1="297" x2="500" y2="303" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="105" y="318" fill="#8a8a8a">a</text>
+  <text x="495" y="318" fill="#8a8a8a">b</text>
+
+  <!-- the continuous curve on [a,b] -->
+  <path d="M 110 200 C 150 160, 175 95, 200 80 C 235 65, 275 205, 340 250 C 400 288, 455 200, 500 150"
+        fill="none" stroke="#8a8a8a" stroke-width="3"/>
+
+  <!-- attained max and min dots -->
+  <circle cx="200" cy="80" r="5" fill="#4a90d9"/>
+  <circle cx="340" cy="250" r="5" fill="#e0645c"/>
+
+  <!-- labels for the attained values -->
+  <text x="210" y="76" fill="#4a90d9">max, attained at c</text>
+  <text x="350" y="255" fill="#e0645c">min, attained at d</text>
+</svg>

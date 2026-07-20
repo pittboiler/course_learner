@@ -1,0 +1,37 @@
+<svg viewBox="0 0 560 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- italic caption -->
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">B-field lines circle the current (right-hand rule: thumb along I).</text>
+
+  <!-- outer field line (r large): back arc dashed, front arc solid -->
+  <path d="M 420 210 A 140 35 0 0 0 140 210" fill="none" stroke="#4a90d9" stroke-width="2" stroke-dasharray="4 4" opacity="0.75"/>
+  <path d="M 420 210 A 140 35 0 0 1 140 210" fill="none" stroke="#4a90d9" stroke-width="2" opacity="0.75"/>
+
+  <!-- middle field line = Amperian loop (highlighted red) -->
+  <path d="M 375 210 A 95 24 0 0 0 185 210" fill="none" stroke="#e0645c" stroke-width="3" stroke-dasharray="4 4"/>
+  <path d="M 375 210 A 95 24 0 0 1 185 210" fill="none" stroke="#e0645c" stroke-width="3"/>
+
+  <!-- inner field line (r small) -->
+  <path d="M 330 210 A 50 13 0 0 0 230 210" fill="none" stroke="#4a90d9" stroke-width="2" stroke-dasharray="4 4" opacity="0.9"/>
+  <path d="M 330 210 A 50 13 0 0 1 230 210" fill="none" stroke="#4a90d9" stroke-width="2" opacity="0.9"/>
+
+  <!-- circulation arrowheads on the Amperian loop: front (bottom) points right, back (top) points left -->
+  <polygon points="292,234 280,230 280,238" fill="#e0645c"/>
+  <polygon points="268,186 280,182 280,190" fill="#e0645c"/>
+
+  <!-- the wire, vertical, current up -->
+  <line x1="280" y1="40" x2="280" y2="330" stroke="#333333" stroke-width="3"/>
+  <polygon points="280,34 273,50 287,50" fill="#333333"/>
+  <text x="290" y="50" fill="#333333" font-weight="bold">I</text>
+
+  <!-- radius marker from wire to Amperian loop -->
+  <line x1="280" y1="210" x2="375" y2="210" stroke="#8a8a8a" stroke-width="1.2" stroke-dasharray="3 4"/>
+  <circle cx="280" cy="210" r="3" fill="#8a8a8a"/>
+  <text x="318" y="204" fill="#8a8a8a" font-style="italic">r</text>
+
+  <!-- B label on a field line -->
+  <text x="392" y="214" fill="#4a90d9">B</text>
+
+  <!-- formula + Stokes reading -->
+  <text x="30" y="300" fill="#e0645c">B = &#956;&#8320; I / (2&#960;r)  &#8212; falls off as 1/r</text>
+  <text x="30" y="326" fill="#8a8a8a">&#8750;B&#183;dl = B(2&#960;r) = &#956;&#8320; I_enc   (Stokes: &#8750;B&#183;dl = &#8747;(&#8711;&#215;B)&#183;dA = &#956;&#8320;&#8747;J&#183;dA)</text>
+</svg>

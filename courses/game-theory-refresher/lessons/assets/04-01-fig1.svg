@@ -1,0 +1,46 @@
+<svg viewBox="0 0 520 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Nash solution: where a level curve of the product (u&#8321;&#8722;d&#8321;)(u&#8322;&#8722;d&#8322;) is tangent to the frontier.</text>
+
+  <!-- feasible set U (triangle (0,0)-(1,0)-(0,1)) -->
+  <polygon points="70,300 290,300 70,80" fill="#4a90d9" opacity="0.12"/>
+
+  <!-- axes -->
+  <line x1="55" y1="300" x2="500" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="70" y1="60" x2="70" y2="320" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="500,300 490,295 490,305" fill="#8a8a8a"/>
+  <polygon points="70,60 65,70 75,70" fill="#8a8a8a"/>
+  <text x="495" y="318" fill="#8a8a8a">u&#8321;</text>
+  <text x="52" y="54" fill="#8a8a8a">u&#8322;</text>
+
+  <!-- lower level curve of the product (smaller value) -->
+  <path d="M 136 182.7 L 158 212 L 180 229.6 L 202 241.3 L 224 249.7 L 246 256"
+        fill="none" stroke="#4a90d9" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.6"/>
+
+  <!-- tangent level curve of the product = 1/4 (rectangular hyperbola) -->
+  <path d="M 136 116.7 L 147 142.9 L 158 162.5 L 169 177.8 L 180 190 L 191 200 L 202 208.3 L 213 215.4 L 224 221.4 L 235 226.7 L 246 231.3 L 253 234"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <!-- Pareto frontier u1 + u2 = 1 -->
+  <line x1="290" y1="300" x2="70" y2="80" stroke="#e0645c" stroke-width="3"/>
+
+  <!-- droplines to the Nash point (1/2, 1/2) -->
+  <line x1="180" y1="190" x2="180" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="70" y1="190" x2="180" y2="190" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="171" y="317" fill="#8a8a8a">&#189;</text>
+  <text x="52" y="194" fill="#8a8a8a">&#189;</text>
+
+  <!-- disagreement point d -->
+  <circle cx="70" cy="300" r="5" fill="#8a8a8a"/>
+  <text x="80" y="316" fill="#8a8a8a">d = (0, 0)</text>
+
+  <!-- Nash bargaining solution -->
+  <circle cx="180" cy="190" r="5.5" fill="#e0645c"/>
+  <text x="192" y="184" fill="#e0645c">Nash: (&#189;, &#189;)</text>
+
+  <!-- labels -->
+  <text x="92" y="262" fill="#4a90d9">feasible set U</text>
+  <text x="250" y="272" fill="#e0645c">frontier  u&#8321; + u&#8322; = 1</text>
+  <text x="255" y="128" fill="#4a90d9">(u&#8321;&#8722;d&#8321;)(u&#8322;&#8722;d&#8322;) = &#188;</text>
+  <line x1="253" y1="133" x2="205" y2="185" stroke="#4a90d9" stroke-width="1" stroke-dasharray="3 4"/>
+</svg>
