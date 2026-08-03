@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" font-family="sans-serif"><rect x="0" y="0" width="680" height="380" fill="#ffffff"/>
+  <defs>
+    <radialGradient id="gasglow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f6c1d0" stop-opacity="0.95"/>
+      <stop offset="60%" stop-color="#e88aa8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#e88aa8" stop-opacity="0.0"/>
+    </radialGradient>
+    <marker id="w5arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#333"/>
+    </marker>
+  </defs>
+
+  <!-- ================= LEFT: cluster mass budget ================= -->
+  <text x="175" y="26" text-anchor="middle" font-size="15" font-weight="bold" fill="#111">One galaxy cluster</text>
+  <text x="175" y="44" text-anchor="middle" font-size="12" fill="#555">~10&#178;&#8309; M&#8857;, three mass components</text>
+
+  <!-- dark matter halo -->
+  <circle cx="175" cy="205" r="128" fill="#ece7f7" stroke="#8a6fc0" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <!-- hot gas glow -->
+  <circle cx="175" cy="205" r="95" fill="url(#gasglow)"/>
+  <circle cx="175" cy="205" r="95" fill="none" stroke="#d15b83" stroke-width="1" stroke-dasharray="2 3" opacity="0.6"/>
+
+  <!-- galaxies (a few dots) -->
+  <g fill="#f2b705" stroke="#b8860b" stroke-width="1">
+    <circle cx="150" cy="175" r="4"/>
+    <circle cx="205" cy="195" r="4"/>
+    <circle cx="175" cy="230" r="4.5"/>
+    <circle cx="140" cy="225" r="3.5"/>
+    <circle cx="210" cy="235" r="3.5"/>
+    <circle cx="160" cy="205" r="3"/>
+    <circle cx="195" cy="165" r="3"/>
+    <circle cx="130" cy="195" r="3"/>
+  </g>
+
+  <!-- callout labels -->
+  <text x="175" y="98" text-anchor="middle" font-size="12" font-weight="bold" fill="#6a4fae">dark matter halo &#8776; 85%</text>
+  <text x="175" y="300" text-anchor="middle" font-size="12" font-weight="bold" fill="#c0396b">hot X-ray gas &#8776; 13%</text>
+  <text x="175" y="317" text-anchor="middle" font-size="11" fill="#c0396b">T &#8776; 10&#8311;&#8211;10&#8312; K</text>
+  <text x="175" y="352" text-anchor="middle" font-size="12" font-weight="bold" fill="#9c6208">galaxies (stars) &#8776; 2%</text>
+
+  <!-- ================= RIGHT: cosmic web ================= -->
+  <text x="510" y="26" text-anchor="middle" font-size="15" font-weight="bold" fill="#111">The cosmic web</text>
+  <text x="510" y="44" text-anchor="middle" font-size="12" fill="#555">filaments, nodes (clusters), voids</text>
+
+  <rect x="372" y="58" width="276" height="290" fill="#0e1330" rx="6"/>
+
+  <!-- filaments (thin threads connecting nodes) -->
+  <g stroke="#5b78c4" stroke-width="1.4" opacity="0.75" fill="none">
+    <path d="M410,95 Q470,150 520,120"/>
+    <path d="M520,120 Q560,90 615,110"/>
+    <path d="M520,120 Q505,190 560,230"/>
+    <path d="M410,95 Q400,180 430,250"/>
+    <path d="M430,250 Q500,270 560,230"/>
+    <path d="M560,230 Q600,270 615,320"/>
+    <path d="M430,250 Q430,300 470,325"/>
+    <path d="M615,110 Q630,180 615,230"/>
+    <path d="M615,230 L560,230"/>
+    <path d="M470,325 Q540,340 615,320"/>
+  </g>
+
+  <!-- nodes = clusters (bright dots at filament intersections) -->
+  <g fill="#ffd766">
+    <circle cx="410" cy="95" r="6"/>
+    <circle cx="520" cy="120" r="8"/>
+    <circle cx="615" cy="110" r="6"/>
+    <circle cx="430" cy="250" r="6"/>
+    <circle cx="560" cy="230" r="9"/>
+    <circle cx="615" cy="320" r="5.5"/>
+    <circle cx="470" cy="325" r="5"/>
+    <circle cx="615" cy="230" r="5"/>
+  </g>
+  <!-- scattered galaxies along filaments -->
+  <g fill="#9fb6e8">
+    <circle cx="465" cy="122" r="1.6"/><circle cx="490" cy="105" r="1.6"/>
+    <circle cx="545" cy="100" r="1.6"/><circle cx="585" cy="102" r="1.6"/>
+    <circle cx="415" cy="150" r="1.6"/><circle cx="420" cy="205" r="1.6"/>
+    <circle cx="490" cy="260" r="1.6"/><circle cx="525" cy="245" r="1.6"/>
+    <circle cx="590" cy="255" r="1.6"/><circle cx="612" cy="175" r="1.6"/>
+    <circle cx="450" cy="290" r="1.6"/><circle cx="540" cy="330" r="1.6"/>
+  </g>
+
+  <!-- voids -->
+  <text x="475" y="185" text-anchor="middle" font-size="11" fill="#7f8db5" font-style="italic">void</text>
+  <text x="585" y="300" text-anchor="middle" font-size="11" fill="#7f8db5" font-style="italic">void</text>
+  <text x="510" y="366" text-anchor="middle" font-size="11" fill="#555">nodes = clusters &#183; threads = filaments</text>
+
+  <!-- BAO ruler annotation -->
+  <line x1="382" y1="76" x2="452" y2="76" stroke="#ffd766" stroke-width="1.6" marker-start="url(#w5arr)" marker-end="url(#w5arr)"/>
+  <text x="417" y="70" text-anchor="middle" font-size="10" fill="#ffe9a8">BAO ~150 Mpc</text>
+</svg>

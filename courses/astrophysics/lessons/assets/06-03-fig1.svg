@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 660" font-family="sans-serif">
+  <rect x="0" y="0" width="720" height="660" fill="#ffffff"/>
+
+  <!-- ===================== PANEL A: last scattering ===================== -->
+  <text x="360" y="26" text-anchor="middle" font-size="17" font-weight="bold" fill="#111">The surface of last scattering</text>
+
+  <!-- opaque plasma region -->
+  <rect x="60" y="70" width="270" height="150" fill="#e8523a" opacity="0.18"/>
+  <rect x="60" y="70" width="270" height="150" fill="none" stroke="#c0392b" stroke-width="1"/>
+  <text x="195" y="90" text-anchor="middle" font-size="12" font-weight="bold" fill="#a12a17">hot opaque plasma</text>
+  <text x="195" y="106" text-anchor="middle" font-size="10.5" fill="#a12a17">free electrons + protons + photons</text>
+
+  <!-- free electrons scattered around -->
+  <g fill="#22459c">
+    <circle cx="95" cy="150" r="3"/>
+    <circle cx="130" cy="185" r="3"/>
+    <circle cx="160" cy="150" r="3"/>
+    <circle cx="190" cy="190" r="3"/>
+    <circle cx="215" cy="155" r="3"/>
+    <circle cx="250" cy="188" r="3"/>
+    <circle cx="285" cy="152" r="3"/>
+    <circle cx="120" cy="205" r="3"/>
+    <circle cx="270" cy="205" r="3"/>
+  </g>
+
+  <!-- zigzag (scattering) photon path in plasma -->
+  <polyline points="80,170 110,150 135,190 165,155 190,195 215,158 245,192 275,160 305,188 330,172"
+            fill="none" stroke="#e0a020" stroke-width="2.4"/>
+
+  <!-- transparent region -->
+  <rect x="330" y="70" width="230" height="150" fill="#4a76d6" opacity="0.08"/>
+  <text x="445" y="90" text-anchor="middle" font-size="12" font-weight="bold" fill="#22459c">neutral, transparent</text>
+  <text x="445" y="106" text-anchor="middle" font-size="10.5" fill="#22459c">photons free-stream</text>
+
+  <!-- straight free-streaming photon to the eye -->
+  <line x1="330" y1="172" x2="628" y2="172" stroke="#e0a020" stroke-width="2.6"/>
+  <polygon points="628,172 616,166 616,178" fill="#e0a020"/>
+
+  <!-- recombination / last-scattering line -->
+  <line x1="330" y1="60" x2="330" y2="232" stroke="#111" stroke-width="1.6" stroke-dasharray="6 4"/>
+  <text x="330" y="250" text-anchor="middle" font-size="11" font-weight="bold" fill="#111">recombination = last scattering</text>
+  <text x="330" y="266" text-anchor="middle" font-size="10.5" fill="#333">z &#8776; 1100 &#183; t &#8776; 380,000 yr &#183; T &#8776; 3000 K</text>
+
+  <!-- observer eye -->
+  <ellipse cx="655" cy="172" rx="20" ry="12" fill="none" stroke="#111" stroke-width="1.6"/>
+  <circle cx="655" cy="172" r="5" fill="#111"/>
+  <text x="655" y="205" text-anchor="middle" font-size="11" font-weight="bold" fill="#111">us, today</text>
+  <text x="655" y="220" text-anchor="middle" font-size="10.5" fill="#333">z = 0 &#183; T = 2.725 K</text>
+
+  <text x="360" y="292" text-anchor="middle" font-size="10.5" fill="#555" font-style="italic">Before recombination a photon random-walks; after it, the same relic light streams straight to us, redshifted 1100&#215; and cooled to microwaves.</text>
+
+  <!-- ===================== PANEL B: power spectrum ===================== -->
+  <text x="360" y="352" text-anchor="middle" font-size="17" font-weight="bold" fill="#111">The CMB anisotropy power spectrum</text>
+
+  <!-- plot frame -->
+  <rect x="90" y="375" width="590" height="225" fill="none" stroke="#333" stroke-width="1.5"/>
+
+  <!-- y axis label -->
+  <text x="40" y="490" font-size="12.5" fill="#111" transform="rotate(-90 40 490)">temperature power  &#916;T&#178;</text>
+
+  <!-- first-peak marker -->
+  <line x1="330" y1="375" x2="330" y2="600" stroke="#c0392b" stroke-width="1" stroke-dasharray="5 4"/>
+
+  <!-- power spectrum curve -->
+  <polyline points="110,520 150,512 190,508 230,500 270,470 300,435 330,410 360,438 400,490 440,540 470,555 500,520 535,492 570,525 605,550 635,522 660,532 678,548"
+            fill="none" stroke="#2b6db3" stroke-width="2.6"/>
+
+  <!-- peak callouts -->
+  <text x="330" y="400" text-anchor="middle" font-size="11" font-weight="bold" fill="#c0392b">1st acoustic peak</text>
+  <text x="330" y="628" text-anchor="middle" font-size="10.5" fill="#c0392b">&#8467; &#8776; 220  (&#8776; 1&#176;)</text>
+  <text x="535" y="480" text-anchor="middle" font-size="10" fill="#2b6db3">2nd</text>
+  <text x="647" y="512" text-anchor="middle" font-size="10" fill="#2b6db3">3rd</text>
+
+  <!-- x axis label + ticks -->
+  <text x="385" y="650" text-anchor="middle" font-size="12.5" fill="#111">multipole &#8467;   &#8212;   larger angle &#8592; &#8594; smaller angle</text>
+  <g font-size="10.5" fill="#333">
+    <line x1="130" y1="600" x2="130" y2="605" stroke="#333"/><text x="130" y="617" text-anchor="middle">90&#176;</text>
+    <line x1="330" y1="600" x2="330" y2="605" stroke="#333"/>
+    <line x1="600" y1="600" x2="600" y2="605" stroke="#333"/><text x="600" y="617" text-anchor="middle">0.2&#176;</text>
+  </g>
+
+  <!-- standard ruler annotation -->
+  <text x="470" y="392" text-anchor="middle" font-size="10.5" fill="#555" font-style="italic">peak angle = standard ruler &#8594; flat universe</text>
+</svg>

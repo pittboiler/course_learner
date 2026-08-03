@@ -1,0 +1,37 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif" font-size="14">
+  <rect x="0" y="0" width="640" height="400" fill="#ffffff"/>
+
+  <text x="20" y="30" fill="#8a8a8a" font-style="italic">A hyperplane strictly separates an external point from a closed convex set</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto">
+      <polygon points="0,0 8,3 0,6" fill="#4a90d9"/>
+    </marker>
+  </defs>
+
+  <!-- shaded half-plane on the point's side (right of the line) -->
+  <polygon points="372,50 640,50 640,380 340,380" fill="#4a90d9" opacity="0.06"/>
+
+  <!-- closed convex set C -->
+  <ellipse cx="195" cy="245" rx="135" ry="92" fill="#4a90d9" opacity="0.14" stroke="#4a90d9" stroke-width="2"/>
+  <text x="195" y="240" fill="#1a1a1a" text-anchor="middle" font-weight="bold">closed convex set C</text>
+  <text x="195" y="262" fill="#1a1a1a" text-anchor="middle">f(x) &#8804; c</text>
+
+  <!-- separating hyperplane {f = c} -->
+  <line x1="358" y1="50" x2="326" y2="380" stroke="#1a1a1a" stroke-width="2.5"/>
+  <text x="300" y="72" fill="#1a1a1a" font-weight="bold" text-anchor="end">hyperplane</text>
+  <text x="300" y="90" fill="#1a1a1a" text-anchor="end">{ f = c }</text>
+
+  <!-- normal direction of f, pointing toward the point side -->
+  <line x1="360" y1="215" x2="440" y2="207" stroke="#4a90d9" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="398" y="197" fill="#4a90d9" font-weight="bold" text-anchor="middle">f</text>
+
+  <!-- external point p -->
+  <circle cx="500" cy="160" r="6" fill="#e0645c"/>
+  <text x="512" y="156" fill="#1a1a1a" font-weight="bold">p</text>
+  <text x="512" y="176" fill="#e0645c">f(p) &gt; c</text>
+
+  <!-- gap annotation: strict separation -->
+  <text x="500" y="300" fill="#8a8a8a" text-anchor="middle" font-size="13">strictly on the far side:</text>
+  <text x="500" y="320" fill="#8a8a8a" text-anchor="middle" font-size="13">f(x) &#8804; c &lt; f(p) for all x in C</text>
+</svg>

@@ -1,0 +1,46 @@
+<svg viewBox="0 0 640 430" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="640" height="430" fill="#ffffff"/>
+  <!-- axes -->
+  <line x1="90" y1="40" x2="90" y2="370" stroke="#222222" stroke-width="2"/>
+  <line x1="90" y1="370" x2="600" y2="370" stroke="#222222" stroke-width="2"/>
+  <text x="70" y="52" font-family="sans-serif" font-size="15" fill="#222222" text-anchor="end">price</text>
+  <text x="598" y="392" font-family="sans-serif" font-size="15" fill="#222222" text-anchor="end">quantity</text>
+
+  <!-- Demand line (marginal benefit) -->
+  <line x1="90" y1="80" x2="560" y2="350" stroke="#1f6fb2" stroke-width="2.5"/>
+  <text x="566" y="352" font-family="sans-serif" font-size="14" fill="#1f6fb2">Demand = MB</text>
+
+  <!-- Private marginal cost -->
+  <line x1="90" y1="310" x2="560" y2="100" stroke="#222222" stroke-width="2.5"/>
+  <text x="566" y="102" font-family="sans-serif" font-size="14" fill="#222222">PMC</text>
+
+  <!-- Social marginal cost = PMC + d -->
+  <line x1="90" y1="270" x2="560" y2="60" stroke="#c0392b" stroke-width="2.5" stroke-dasharray="1 0"/>
+  <text x="566" y="62" font-family="sans-serif" font-size="14" fill="#c0392b">SMC = PMC + d</text>
+
+  <!-- DWL triangle: apex (276,177), (315,199), (315,160) -->
+  <polygon points="276,177 315,199 315,160" fill="#c0392b" fill-opacity="0.30" stroke="#c0392b" stroke-width="1"/>
+  <text x="360" y="182" font-family="sans-serif" font-size="13" fill="#c0392b">DWL</text>
+  <line x1="345" y1="180" x2="316" y2="180" stroke="#c0392b" stroke-width="1"/>
+
+  <!-- vertical guides -->
+  <line x1="276" y1="177" x2="276" y2="370" stroke="#666666" stroke-width="1.3" stroke-dasharray="5 4"/>
+  <line x1="315" y1="199" x2="315" y2="370" stroke="#666666" stroke-width="1.3" stroke-dasharray="5 4"/>
+  <text x="276" y="388" font-family="sans-serif" font-size="14" fill="#c0392b" text-anchor="middle">q*</text>
+  <text x="315" y="388" font-family="sans-serif" font-size="14" fill="#222222" text-anchor="middle">q_priv</text>
+
+  <!-- equilibrium dots -->
+  <circle cx="315" cy="199" r="4" fill="#222222"/>
+  <circle cx="276" cy="177" r="4" fill="#c0392b"/>
+
+  <!-- Pigouvian tax bracket: vertical gap between PMC and SMC at x=200 -->
+  <!-- PMC at x=200: y=310-0.4468*110=310-49.1=261 ; SMC at x=200: y=221 -->
+  <line x1="200" y1="261" x2="200" y2="221" stroke="#7b3f9e" stroke-width="2.5"/>
+  <polygon points="200,221 196,231 204,231" fill="#7b3f9e"/>
+  <polygon points="200,261 196,251 204,251" fill="#7b3f9e"/>
+  <text x="150" y="238" font-family="sans-serif" font-size="13" fill="#7b3f9e" text-anchor="middle">Pigouvian</text>
+  <text x="150" y="254" font-family="sans-serif" font-size="13" fill="#7b3f9e" text-anchor="middle">tax = d</text>
+
+  <!-- caption -->
+  <text x="90" y="416" font-family="sans-serif" font-size="13" fill="#444444">Market stops at q_priv (D = PMC); efficiency is at q* (D = SMC). The tax lifts PMC to SMC and closes the wedge.</text>
+</svg>

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" font-family="sans-serif">
+  <rect x="0" y="0" width="760" height="420" fill="#ffffff"/>
+
+  <!-- ===================== PANEL A: fundamental 3 (quarks) ===================== -->
+  <text x="150" y="40" text-anchor="middle" font-size="17" font-weight="bold" fill="#111">3  (quarks)</text>
+  <!-- axes -->
+  <line x1="60" y1="210" x2="240" y2="210" stroke="#bbb" stroke-width="1"/>
+  <line x1="150" y1="110" x2="150" y2="310" stroke="#bbb" stroke-width="1"/>
+  <text x="246" y="214" font-size="12" fill="#888">T₃</text>
+  <text x="156" y="120" font-size="12" fill="#888">Y</text>
+  <!-- triangle -->
+  <polygon points="200,180 100,180 150,270" fill="none" stroke="#1a66cc" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <!-- u -->
+  <circle cx="200" cy="180" r="15" fill="#1a66cc"/>
+  <text x="200" y="185" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff">u</text>
+  <text x="200" y="162" text-anchor="middle" font-size="10" fill="#555">(½, ⅓)</text>
+  <!-- d -->
+  <circle cx="100" cy="180" r="15" fill="#1a66cc"/>
+  <text x="100" y="185" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff">d</text>
+  <text x="100" y="162" text-anchor="middle" font-size="10" fill="#555">(−½, ⅓)</text>
+  <!-- s -->
+  <circle cx="150" cy="270" r="15" fill="#1a66cc"/>
+  <text x="150" y="275" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff">s</text>
+  <text x="150" y="295" text-anchor="middle" font-size="10" fill="#555">(0, −⅔)</text>
+
+  <!-- ===================== PANEL B: conjugate 3-bar (antiquarks) ===================== -->
+  <text x="380" y="40" text-anchor="middle" font-size="17" font-weight="bold" fill="#111">3̄  (antiquarks)</text>
+  <line x1="290" y1="210" x2="470" y2="210" stroke="#bbb" stroke-width="1"/>
+  <line x1="380" y1="110" x2="380" y2="310" stroke="#bbb" stroke-width="1"/>
+  <text x="476" y="214" font-size="12" fill="#888">T₃</text>
+  <text x="386" y="120" font-size="12" fill="#888">Y</text>
+  <!-- inverted triangle -->
+  <polygon points="330,240 430,240 380,150" fill="none" stroke="#cc3311" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <!-- s-bar -->
+  <circle cx="380" cy="150" r="15" fill="#fff" stroke="#cc3311" stroke-width="2"/>
+  <text x="380" y="155" text-anchor="middle" font-size="13" font-weight="bold" fill="#cc3311">s̄</text>
+  <text x="380" y="138" text-anchor="middle" font-size="10" fill="#555">(0, ⅔)</text>
+  <!-- u-bar -->
+  <circle cx="330" cy="240" r="15" fill="#fff" stroke="#cc3311" stroke-width="2"/>
+  <text x="330" y="245" text-anchor="middle" font-size="13" font-weight="bold" fill="#cc3311">ū</text>
+  <text x="330" y="266" text-anchor="middle" font-size="10" fill="#555">(−½,−⅓)</text>
+  <!-- d-bar -->
+  <circle cx="430" cy="240" r="15" fill="#fff" stroke="#cc3311" stroke-width="2"/>
+  <text x="430" y="245" text-anchor="middle" font-size="13" font-weight="bold" fill="#cc3311">d̄</text>
+  <text x="430" y="266" text-anchor="middle" font-size="10" fill="#555">(½,−⅓)</text>
+
+  <!-- ===================== PANEL C: meson octet (hexagon + center) ===================== -->
+  <text x="610" y="40" text-anchor="middle" font-size="17" font-weight="bold" fill="#111">3⊗3̄ = 8 ⊕ 1</text>
+  <line x1="520" y1="210" x2="700" y2="210" stroke="#bbb" stroke-width="1"/>
+  <line x1="610" y1="120" x2="610" y2="300" stroke="#bbb" stroke-width="1"/>
+  <text x="704" y="214" font-size="12" fill="#888">T₃</text>
+  <text x="616" y="130" font-size="12" fill="#888">Y</text>
+  <!-- hexagon outline -->
+  <polygon points="645,140 575,140 540,210 575,280 645,280 680,210"
+           fill="none" stroke="#7a3fbf" stroke-width="1.5"/>
+  <!-- nodes -->
+  <g fill="#7a3fbf">
+    <circle cx="575" cy="140" r="13"/><circle cx="645" cy="140" r="13"/>
+    <circle cx="540" cy="210" r="13"/><circle cx="680" cy="210" r="13"/>
+    <circle cx="575" cy="280" r="13"/><circle cx="645" cy="280" r="13"/>
+  </g>
+  <!-- doubly-occupied center (two rings) -->
+  <circle cx="610" cy="210" r="17" fill="none" stroke="#7a3fbf" stroke-width="1.5"/>
+  <circle cx="610" cy="210" r="13" fill="#7a3fbf"/>
+  <g font-size="12" font-weight="bold" fill="#fff" text-anchor="middle">
+    <text x="575" y="145">K⁰</text><text x="645" y="145">K⁺</text>
+    <text x="540" y="215">π⁻</text><text x="680" y="215">π⁺</text>
+    <text x="575" y="285">K⁻</text><text x="645" y="285">K̄⁰</text>
+    <text x="610" y="214">π⁰η</text>
+  </g>
+  <text x="610" y="335" text-anchor="middle" font-size="11" fill="#555">center holds π⁰, η (octet) + η′ (singlet)</text>
+</svg>

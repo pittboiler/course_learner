@@ -1,0 +1,60 @@
+<svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="640" height="320" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#1a1a1a">
+    <!-- Left panel: discrete / compact -->
+    <text x="30" y="34" font-size="16" font-weight="bold">Compact self-adjoint (4.4)</text>
+    <text x="30" y="56" font-size="14">discrete sum over eigenvalues</text>
+
+    <!-- axis -->
+    <line x1="40" y1="200" x2="290" y2="200" stroke="#1a1a1a" stroke-width="2"/>
+    <text x="292" y="205" font-size="13">&#955;</text>
+
+    <!-- spikes = projections P_n -->
+    <line x1="90"  y1="200" x2="90"  y2="120" stroke="#1a6fb0" stroke-width="4"/>
+    <line x1="160" y1="200" x2="160" y2="150" stroke="#1a6fb0" stroke-width="4"/>
+    <line x1="220" y1="200" x2="220" y2="168" stroke="#1a6fb0" stroke-width="4"/>
+    <line x1="262" y1="200" x2="262" y2="182" stroke="#1a6fb0" stroke-width="4"/>
+
+    <circle cx="90"  cy="120" r="4" fill="#1a6fb0"/>
+    <circle cx="160" cy="150" r="4" fill="#1a6fb0"/>
+    <circle cx="220" cy="168" r="4" fill="#1a6fb0"/>
+    <circle cx="262" cy="182" r="4" fill="#1a6fb0"/>
+
+    <text x="82"  y="218" font-size="12">&#955;&#8321;</text>
+    <text x="152" y="218" font-size="12">&#955;&#8322;</text>
+    <text x="212" y="218" font-size="12">&#955;&#8323;</text>
+
+    <text x="98"  y="112" font-size="12" fill="#1a6fb0">P&#8321;</text>
+    <text x="168" y="142" font-size="12" fill="#1a6fb0">P&#8322;</text>
+
+    <text x="40" y="262" font-size="15">I = &#8721;&#8345; P&#8345;</text>
+    <text x="40" y="288" font-size="15">T = &#8721;&#8345; &#955;&#8345; P&#8345;</text>
+
+    <!-- divider -->
+    <line x1="320" y1="20" x2="320" y2="300" stroke="#bbbbbb" stroke-width="1" stroke-dasharray="4 4"/>
+
+    <!-- Right panel: continuous spectrum -->
+    <text x="350" y="34" font-size="16" font-weight="bold">General self-adjoint (4.5)</text>
+    <text x="350" y="56" font-size="14">continuous smear: a measure dE(&#955;)</text>
+
+    <!-- axis -->
+    <line x1="360" y1="200" x2="610" y2="200" stroke="#1a1a1a" stroke-width="2"/>
+    <text x="612" y="205" font-size="13">&#955;</text>
+
+    <!-- shaded spectrum band -->
+    <rect x="390" y="188" width="190" height="12" fill="#cfe3f2" stroke="#1a6fb0" stroke-width="1.5"/>
+    <text x="384" y="220" font-size="12">a</text>
+    <text x="576" y="220" font-size="12">b</text>
+    <text x="452" y="182" font-size="12">&#963;(T)</text>
+
+    <!-- highlighted Borel subset B and its projection -->
+    <rect x="452" y="188" width="46" height="12" fill="#1a6fb0"/>
+    <line x1="452" y1="188" x2="452" y2="150" stroke="#1a6fb0" stroke-width="1.5" stroke-dasharray="3 3"/>
+    <line x1="498" y1="188" x2="498" y2="150" stroke="#1a6fb0" stroke-width="1.5" stroke-dasharray="3 3"/>
+    <text x="454" y="144" font-size="12" fill="#1a6fb0">E(B) projects onto</text>
+    <text x="454" y="160" font-size="12" fill="#1a6fb0">&#955; &#8712; B</text>
+
+    <text x="360" y="262" font-size="15">I = &#8747; dE(&#955;)</text>
+    <text x="360" y="288" font-size="15">T = &#8747; &#955; dE(&#955;)</text>
+  </g>
+</svg>

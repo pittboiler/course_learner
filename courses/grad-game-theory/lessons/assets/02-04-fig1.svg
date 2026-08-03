@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" font-family="sans-serif">
+  <rect x="0" y="0" width="760" height="400" fill="#ffffff"/>
+
+  <!-- ============ LEFT PANEL: the game ============ -->
+  <text x="185" y="34" font-size="17" font-weight="bold" fill="#1a1a1a" text-anchor="middle">A 3&#215;2 game (payoffs u&#8321;, u&#8322;)</text>
+
+  <!-- column headers -->
+  <text x="150" y="76" font-size="15" font-weight="bold" fill="#1a1a1a" text-anchor="middle">L</text>
+  <text x="250" y="76" font-size="15" font-weight="bold" fill="#1a1a1a" text-anchor="middle">R</text>
+
+  <!-- grid: 3 rows x 2 cols, each cell 100x56, origin x=100 y=86 -->
+  <rect x="100" y="86" width="200" height="168" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+  <line x1="200" y1="86" x2="200" y2="254" stroke="#1a1a1a" stroke-width="1.4"/>
+  <line x1="100" y1="142" x2="300" y2="142" stroke="#1a1a1a" stroke-width="1.4"/>
+  <line x1="100" y1="198" x2="300" y2="198" stroke="#1a1a1a" stroke-width="1.4"/>
+
+  <!-- row labels -->
+  <text x="88" y="120" font-size="15" font-weight="bold" fill="#1a1a1a" text-anchor="end">T</text>
+  <text x="88" y="176" font-size="15" font-weight="bold" fill="#1a1a1a" text-anchor="end">M</text>
+  <text x="88" y="232" font-size="15" font-weight="bold" fill="#888888" text-anchor="end">B</text>
+
+  <!-- cell payoffs -->
+  <text x="150" y="120" font-size="14" fill="#1a1a1a" text-anchor="middle">3, 2</text>
+  <text x="250" y="120" font-size="14" fill="#1a1a1a" text-anchor="middle">0, 0</text>
+  <text x="150" y="176" font-size="14" fill="#1a1a1a" text-anchor="middle">0, 0</text>
+  <text x="250" y="176" font-size="14" fill="#1a1a1a" text-anchor="middle">2, 3</text>
+  <text x="150" y="232" font-size="14" fill="#888888" text-anchor="middle">1, 1</text>
+  <text x="250" y="232" font-size="14" fill="#888888" text-anchor="middle">1, 1</text>
+
+  <!-- shade row B -->
+  <rect x="100" y="198" width="200" height="56" fill="#000000" fill-opacity="0.05"/>
+
+  <!-- annotation on B -->
+  <text x="185" y="286" font-size="12.5" fill="#888888" text-anchor="middle">row B: never a best response</text>
+  <text x="185" y="303" font-size="12.5" fill="#888888" text-anchor="middle">(dominated by 0.4&#183;T + 0.6&#183;M)</text>
+
+  <!-- circle the two pure NE cells -->
+  <circle cx="150" cy="116" r="26" fill="none" stroke="#1a1a1a" stroke-width="1.8"/>
+  <circle cx="250" cy="172" r="26" fill="none" stroke="#1a1a1a" stroke-width="1.8"/>
+
+  <!-- ============ RIGHT PANEL: support enumeration ============ -->
+  <text x="545" y="34" font-size="17" font-weight="bold" fill="#1a1a1a" text-anchor="middle">Support enumeration</text>
+
+  <!-- vertical divider -->
+  <line x1="380" y1="55" x2="380" y2="360" stroke="#cccccc" stroke-width="1.4"/>
+
+  <!-- rows of the search -->
+  <!-- 1 -->
+  <text x="410" y="88" font-size="14" fill="#1a1a1a">{T} &#215; {L}</text>
+  <text x="505" y="88" font-size="14" fill="#1a1a1a">&#10003; pure NE (T, L)</text>
+  <!-- 2 -->
+  <text x="410" y="124" font-size="14" fill="#1a1a1a">{M} &#215; {R}</text>
+  <text x="505" y="124" font-size="14" fill="#1a1a1a">&#10003; pure NE (M, R)</text>
+  <!-- 3 -->
+  <text x="410" y="160" font-size="14" fill="#1a1a1a">{T,M} &#215; {L,R}</text>
+  <text x="505" y="160" font-size="14" fill="#1a1a1a">&#10003; mixed:</text>
+  <text x="505" y="180" font-size="13" fill="#1a1a1a">   p = (3/5, 2/5),  q = 2/5</text>
+  <!-- 4 -->
+  <text x="410" y="216" font-size="14" fill="#1a1a1a">{T,B} &#215; {L,R}</text>
+  <text x="505" y="216" font-size="14" fill="#1a1a1a">&#10007; indiff. solves,</text>
+  <text x="505" y="236" font-size="13" fill="#1a1a1a">   but M pays more &#8594; fail</text>
+  <!-- 5 -->
+  <text x="410" y="272" font-size="14" fill="#888888">any support &#8715; B</text>
+  <text x="505" y="272" font-size="14" fill="#888888">&#10007; B never best</text>
+
+  <!-- tally box -->
+  <rect x="410" y="300" width="300" height="44" fill="none" stroke="#1a1a1a" stroke-width="1.8"/>
+  <text x="560" y="328" font-size="14.5" font-weight="bold" fill="#1a1a1a" text-anchor="middle">3 equilibria &#8212; odd &#10003;</text>
+</svg>

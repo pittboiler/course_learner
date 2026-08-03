@@ -1,0 +1,52 @@
+<svg viewBox="0 0 640 420" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="640" height="420" fill="#ffffff"/>
+
+  <!-- title -->
+  <text x="320" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">Bilateral trade: buyer value v vs. seller cost c</text>
+
+  <!-- plot box: v on x (90..370), c on y (320 bottom .. 40 top) -->
+  <!-- efficient triangle v>c : (90,320)-(370,320)-(370,40) light green -->
+  <polygon points="90,320 370,320 370,40" fill="#cfe8d6"/>
+  <!-- lost band: v-1/4 < c < v : (90,320)-(370,40)-(370,110)-(160,320) amber -->
+  <polygon points="90,320 370,40 370,110 160,320" fill="#e8b48a"/>
+
+  <!-- axes -->
+  <line x1="90" y1="320" x2="370" y2="320" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="90" y1="320" x2="90" y2="40" stroke="#1a1a1a" stroke-width="1.5"/>
+  <!-- box top/right guides -->
+  <line x1="90" y1="40" x2="370" y2="40" stroke="#1a1a1a" stroke-width="0.7" stroke-dasharray="3,3"/>
+  <line x1="370" y1="40" x2="370" y2="320" stroke="#1a1a1a" stroke-width="0.7" stroke-dasharray="3,3"/>
+
+  <!-- diagonal c = v (efficiency frontier) -->
+  <line x1="90" y1="320" x2="370" y2="40" stroke="#1a1a1a" stroke-width="1.8"/>
+  <!-- trade line c = v - 1/4 (double auction) -->
+  <line x1="160" y1="320" x2="370" y2="110" stroke="#8a3b12" stroke-width="1.8" stroke-dasharray="6,4"/>
+
+  <!-- axis labels -->
+  <text x="230" y="345" text-anchor="middle" font-size="14" fill="#1a1a1a">buyer value  v</text>
+  <text x="60" y="185" text-anchor="middle" font-size="14" fill="#1a1a1a" transform="rotate(-90 60 185)">seller cost  c</text>
+  <text x="86" y="336" text-anchor="end" font-size="12" fill="#1a1a1a">0</text>
+  <text x="370" y="336" text-anchor="middle" font-size="12" fill="#1a1a1a">1</text>
+  <text x="84" y="45" text-anchor="end" font-size="12" fill="#1a1a1a">1</text>
+
+  <!-- region labels -->
+  <text x="300" y="270" text-anchor="middle" font-size="13" fill="#1a1a1a">trade occurs</text>
+  <text x="300" y="286" text-anchor="middle" font-size="13" fill="#1a1a1a">(v &#8805; c + &#188;)</text>
+  <text x="150" y="150" text-anchor="start" font-size="12.5" fill="#1a1a1a" transform="rotate(-45 150 150)">no trade (v &lt; c)</text>
+
+  <!-- diagonal label -->
+  <text x="378" y="46" text-anchor="start" font-size="12" fill="#1a1a1a">c = v</text>
+
+  <!-- callout for the lost band -->
+  <text x="470" y="150" text-anchor="start" font-size="13" font-weight="bold" fill="#8a3b12">Money left on the table:</text>
+  <text x="470" y="170" text-anchor="start" font-size="13" fill="#1a1a1a">gains exist (v &gt; c) but</text>
+  <text x="470" y="188" text-anchor="start" font-size="13" fill="#1a1a1a">no feasible mechanism</text>
+  <text x="470" y="206" text-anchor="start" font-size="13" fill="#1a1a1a">makes the trade happen.</text>
+  <line x1="466" y1="160" x2="330" y2="170" stroke="#8a3b12" stroke-width="1" stroke-dasharray="2,2"/>
+
+  <!-- legend -->
+  <rect x="90" y="378" width="16" height="12" fill="#cfe8d6" stroke="#1a1a1a" stroke-width="0.6"/>
+  <text x="112" y="388" font-size="12" fill="#1a1a1a">efficient trade realized</text>
+  <rect x="300" y="378" width="16" height="12" fill="#e8b48a" stroke="#1a1a1a" stroke-width="0.6"/>
+  <text x="322" y="388" font-size="12" fill="#1a1a1a">efficient trade lost (Myerson&#8211;Satterthwaite)</text>
+</svg>

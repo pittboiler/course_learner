@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 280">
+  <rect x="0" y="0" width="420" height="280" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#1a1a1a" stroke="none">
+    <!-- axes -->
+    <line x1="30" y1="150" x2="390" y2="150" stroke="#999999" stroke-width="1"/>
+    <line x1="210" y1="30" x2="210" y2="255" stroke="#999999" stroke-width="1"/>
+    <!-- unit circle: input unit ball -->
+    <circle cx="210" cy="150" r="45" fill="none" stroke="#888888" stroke-width="2" stroke-dasharray="5 4"/>
+    <!-- image ellipse: semi-axes 2 and 0.5 (45px per unit) -->
+    <ellipse cx="210" cy="150" rx="90" ry="22.5" fill="none" stroke="#1a1a1a" stroke-width="2.5"/>
+    <!-- gain marker along long axis -->
+    <line x1="210" y1="150" x2="300" y2="150" stroke="#1a1a1a" stroke-width="2.5"/>
+    <circle cx="300" cy="150" r="3.5" fill="#1a1a1a"/>
+    <circle cx="255" cy="150" r="3" fill="#888888"/>
+    <!-- labels -->
+    <text x="255" y="142" font-size="13" text-anchor="middle" fill="#888888">1</text>
+    <text x="304" y="142" font-size="13" fill="#1a1a1a">2</text>
+    <text x="120" y="95" font-size="14" fill="#888888">unit ball, &#8214;x&#8214; = 1</text>
+    <text x="300" y="205" font-size="14" fill="#1a1a1a" font-style="italic">image = ellipse</text>
+    <text x="55" y="240" font-size="14" fill="#1a1a1a">T = diag(2, &#189;)</text>
+    <text x="215" y="248" font-size="13" fill="#1a1a1a">&#8214;T&#8214; = longest stretch = 2</text>
+  </g>
+</svg>

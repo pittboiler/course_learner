@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 400">
+  <rect x="0" y="0" width="520" height="400" fill="#ffffff"/>
+
+  <!-- title -->
+  <text x="260" y="28" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold" fill="#111111">Klein&#8211;Gordon dispersion relation &#969;(k)</text>
+
+  <!-- axes -->
+  <line x1="25" y1="340" x2="505" y2="340" stroke="#333333" stroke-width="2"/>
+  <polygon points="505,340 493,335 493,345" fill="#333333"/>
+  <line x1="260" y1="365" x2="260" y2="55" stroke="#333333" stroke-width="2"/>
+  <polygon points="260,55 255,67 265,67" fill="#333333"/>
+  <text x="497" y="360" font-family="sans-serif" font-size="16" fill="#333333">k</text>
+  <text x="240" y="66" font-family="sans-serif" font-size="16" fill="#333333">&#969;</text>
+
+  <!-- light line (massless): omega = c|k|, dashed red -->
+  <line x1="260" y1="340" x2="490" y2="110" stroke="#d1341f" stroke-width="2" stroke-dasharray="7 5"/>
+  <line x1="260" y1="340" x2="30" y2="110" stroke="#d1341f" stroke-width="2" stroke-dasharray="7 5"/>
+  <text x="360" y="150" font-family="sans-serif" font-size="14" fill="#d1341f" transform="rotate(-45 360 150)">&#969; = c k   (massless)</text>
+
+  <!-- massive hyperbola: omega = sqrt(c^2 k^2 + (mc^2/hbar)^2), blue -->
+  <polyline fill="none" stroke="#1a4fd6" stroke-width="3"
+    points="30.5,86.4 44,98.5 71,122.3 98,145.3 125,167.1 152,187.3 179,205.0 206,219.2 233,228.7 260,232.0 287,228.7 314,219.2 341,205.0 368,187.3 395,167.1 422,145.3 449,122.3 476,98.5 489.5,86.4"/>
+  <text x="70" y="250" font-family="sans-serif" font-size="14" fill="#1a4fd6">massive field (m &#8800; 0)</text>
+
+  <!-- mass gap at k = 0 -->
+  <line x1="245" y1="340" x2="245" y2="232" stroke="#0a7d34" stroke-width="1.5"/>
+  <polygon points="245,340 241,330 249,330" fill="#0a7d34"/>
+  <polygon points="245,232 241,242 249,242" fill="#0a7d34"/>
+  <circle cx="260" cy="232" r="4" fill="#0a7d34"/>
+  <line x1="262" y1="234" x2="300" y2="272" stroke="#777777" stroke-width="1"/>
+  <text x="303" y="278" font-family="sans-serif" font-size="14" fill="#0a7d34">&#969;(0) = mc&#178;/&#8463;  (mass gap)</text>
+</svg>

@@ -1,0 +1,57 @@
+<svg viewBox="0 0 720 480" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="720" height="480" fill="#ffffff"/>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1a1a2e"/>
+    </marker>
+  </defs>
+
+  <!-- column headers -->
+  <text x="200" y="34" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a2e">UMP — the primal</text>
+  <text x="200" y="54" text-anchor="middle" font-size="13" fill="#555">max u(x)  s.t.  p·x &#8804; m</text>
+  <text x="520" y="34" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a2e">EMP — the dual</text>
+  <text x="520" y="54" text-anchor="middle" font-size="13" fill="#555">min p·x  s.t.  u(x) &#8805; u&#772;</text>
+
+  <!-- boxes: value functions (blue), demands (green) -->
+  <rect x="100" y="80" width="200" height="58" rx="6" fill="#eef2ff" stroke="#33417a" stroke-width="2"/>
+  <text x="200" y="105" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a1a2e">V(p, m)</text>
+  <text x="200" y="125" text-anchor="middle" font-size="12" fill="#555">indirect utility</text>
+
+  <rect x="420" y="80" width="200" height="58" rx="6" fill="#eef2ff" stroke="#33417a" stroke-width="2"/>
+  <text x="520" y="105" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a1a2e">e(p, u&#772;)</text>
+  <text x="520" y="125" text-anchor="middle" font-size="12" fill="#555">expenditure function</text>
+
+  <rect x="100" y="342" width="200" height="58" rx="6" fill="#eafaf0" stroke="#1f7a4d" stroke-width="2"/>
+  <text x="200" y="367" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a1a2e">x(p, m)</text>
+  <text x="200" y="387" text-anchor="middle" font-size="12" fill="#555">Marshallian demand</text>
+
+  <rect x="420" y="342" width="200" height="58" rx="6" fill="#eafaf0" stroke="#1f7a4d" stroke-width="2"/>
+  <text x="520" y="367" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a1a2e">h(p, u&#772;)</text>
+  <text x="520" y="387" text-anchor="middle" font-size="12" fill="#555">Hicksian (compensated) demand</text>
+
+  <!-- top horizontal: V <-> e, inverse in the utility/income slot -->
+  <line x1="300" y1="109" x2="420" y2="109" stroke="#1a1a2e" stroke-width="2" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <text x="360" y="82" text-anchor="middle" font-size="12" fill="#33417a">e(p, V(p,m)) = m</text>
+  <text x="360" y="98" text-anchor="middle" font-size="12" fill="#33417a">V(p, e(p,u&#772;)) = u&#772;</text>
+
+  <!-- bottom horizontal: x <-> h, identity substitution -->
+  <line x1="300" y1="371" x2="420" y2="371" stroke="#1a1a2e" stroke-width="2" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <text x="360" y="418" text-anchor="middle" font-size="12" fill="#1f7a4d">x(p,m) = h(p, V(p,m))</text>
+  <text x="360" y="434" text-anchor="middle" font-size="12" fill="#1f7a4d">h(p,u&#772;) = x(p, e(p,u&#772;))</text>
+
+  <!-- left vertical: Roy -->
+  <line x1="200" y1="138" x2="200" y2="342" stroke="#1a1a2e" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="190" y="228" text-anchor="end" font-size="13" font-weight="bold" fill="#1a1a2e">Roy&#8217;s identity</text>
+  <text x="190" y="248" text-anchor="end" font-size="12" fill="#555">x&#7522; = &#8722;(&#8706;V/&#8706;p&#7522;)/(&#8706;V/&#8706;m)</text>
+
+  <!-- right vertical: Shephard -->
+  <line x1="520" y1="138" x2="520" y2="342" stroke="#1a1a2e" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="530" y="228" text-anchor="start" font-size="13" font-weight="bold" fill="#1a1a2e">Shephard&#8217;s lemma</text>
+  <text x="530" y="248" text-anchor="start" font-size="12" fill="#555">h&#7522; = &#8706;e/&#8706;p&#7522;</text>
+
+  <!-- center annotation -->
+  <text x="360" y="234" text-anchor="middle" font-size="13" font-weight="bold" fill="#999">DUALITY</text>
+  <text x="360" y="252" text-anchor="middle" font-size="11" fill="#999">same optimal</text>
+  <text x="360" y="266" text-anchor="middle" font-size="11" fill="#999">bundle at the</text>
+  <text x="360" y="280" text-anchor="middle" font-size="11" fill="#999">linked prices</text>
+</svg>

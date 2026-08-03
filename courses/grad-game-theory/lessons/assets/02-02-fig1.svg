@@ -1,0 +1,51 @@
+<svg viewBox="0 0 480 430" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="480" height="430" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="240" y="26" text-anchor="middle" font-size="16" fill="#1a1a1a" font-weight="bold">Best-response curves in the unit square (Battle of the Sexes)</text>
+
+  <!-- Axes -->
+  <!-- plot area: x from 70 to 370, y from 340 (bottom) to 40 (top) -->
+  <line x1="70" y1="340" x2="370" y2="340" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="70" y1="340" x2="70" y2="40" stroke="#1a1a1a" stroke-width="1.5"/>
+
+  <!-- x ticks: q = 1/3 at x=170, 2/3 at x=270, 1 at x=370 -->
+  <line x1="170" y1="340" x2="170" y2="345" stroke="#1a1a1a" stroke-width="1"/>
+  <line x1="270" y1="340" x2="270" y2="345" stroke="#1a1a1a" stroke-width="1"/>
+  <line x1="370" y1="340" x2="370" y2="345" stroke="#1a1a1a" stroke-width="1"/>
+  <text x="70"  y="360" text-anchor="middle" font-size="12" fill="#1a1a1a">0</text>
+  <text x="170" y="360" text-anchor="middle" font-size="12" fill="#1a1a1a">1/3</text>
+  <text x="270" y="360" text-anchor="middle" font-size="12" fill="#1a1a1a">2/3</text>
+  <text x="370" y="360" text-anchor="middle" font-size="12" fill="#1a1a1a">1</text>
+  <text x="220" y="382" text-anchor="middle" font-size="14" fill="#1a1a1a">q = Pr(player 2 plays O)</text>
+
+  <!-- y ticks: p = 2/3 at y=140, 1 at y=40 -->
+  <line x1="65" y1="140" x2="70" y2="140" stroke="#1a1a1a" stroke-width="1"/>
+  <line x1="65" y1="40"  x2="70" y2="40"  stroke="#1a1a1a" stroke-width="1"/>
+  <text x="60" y="344" text-anchor="end" font-size="12" fill="#1a1a1a">0</text>
+  <text x="60" y="144" text-anchor="end" font-size="12" fill="#1a1a1a">2/3</text>
+  <text x="60" y="44"  text-anchor="end" font-size="12" fill="#1a1a1a">1</text>
+  <text x="26" y="190" text-anchor="middle" font-size="14" fill="#1a1a1a" transform="rotate(-90 26 190)">p = Pr(player 1 plays O)</text>
+
+  <!-- Player 1 best response BR_1(q): p=0 for q<1/3, jump at q=1/3, p=1 for q>1/3 -->
+  <path d="M70,340 L170,340 L170,40 L370,40" fill="none" stroke="#1f5fa8" stroke-width="2.6"/>
+  <!-- Player 2 best response BR_2(p): q=0 for p<2/3, jump at p=2/3, q=1 for p>2/3 -->
+  <path d="M70,340 L70,140 L370,140 L370,40" fill="none" stroke="#c0392b" stroke-width="2.6"/>
+
+  <!-- Nash equilibria at the three crossings -->
+  <circle cx="70"  cy="340" r="6" fill="#1a1a1a"/>
+  <circle cx="370" cy="40"  r="6" fill="#1a1a1a"/>
+  <circle cx="170" cy="140" r="6" fill="#1a1a1a"/>
+
+  <text x="86"  y="330" text-anchor="start" font-size="12" fill="#1a1a1a">pure (F,F)</text>
+  <text x="356" y="58"  text-anchor="end"   font-size="12" fill="#1a1a1a">pure (O,O)</text>
+  <text x="182" y="132" text-anchor="start" font-size="12" fill="#1a1a1a">mixed (2/3, 1/3)</text>
+
+  <!-- Legend -->
+  <line x1="300" y1="300" x2="330" y2="300" stroke="#1f5fa8" stroke-width="2.6"/>
+  <text x="336" y="304" font-size="12" fill="#1a1a1a">BR of player 1</text>
+  <line x1="300" y1="320" x2="330" y2="320" stroke="#c0392b" stroke-width="2.6"/>
+  <text x="336" y="324" font-size="12" fill="#1a1a1a">BR of player 2</text>
+
+  <text x="240" y="412" text-anchor="middle" font-size="12" fill="#1a1a1a">Nash equilibria = points where the two staircases cross (each player best-responds).</text>
+</svg>

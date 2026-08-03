@@ -1,0 +1,36 @@
+<svg viewBox="0 0 520 370" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="520" height="370" fill="#ffffff"/>
+  <text x="260" y="28" font-size="15" fill="#111" text-anchor="middle">Relativity opens a gap of 2mc&#178; — enough energy to make a particle–antiparticle pair.</text>
+
+  <!-- energy axis -->
+  <line x1="90" y1="50" x2="90" y2="345" stroke="#111" stroke-width="1.4"/>
+  <text x="72" y="58" font-size="13" font-style="italic" fill="#111">E</text>
+  <text x="70" y="200" font-size="12" fill="#555" text-anchor="end">0</text>
+  <line x1="86" y1="196" x2="94" y2="196" stroke="#111"/>
+
+  <!-- positive continuum -->
+  <rect x="110" y="60" width="360" height="70" fill="#1f6fb2" fill-opacity="0.14" stroke="#1f6fb2" stroke-width="1.4"/>
+  <text x="290" y="100" font-size="13.5" fill="#1f6fb2" text-anchor="middle">positive-energy states   E &#8805; +mc&#178;</text>
+  <line x1="110" y1="130" x2="470" y2="130" stroke="#1f6fb2" stroke-width="1.2" stroke-dasharray="4,3"/>
+  <text x="478" y="134" font-size="12" fill="#1f6fb2">+mc&#178;</text>
+
+  <!-- forbidden gap -->
+  <rect x="110" y="130" width="360" height="132" fill="#eee" fill-opacity="0.6"/>
+  <text x="290" y="200" font-size="13" fill="#888" text-anchor="middle">forbidden gap  (width 2mc&#178;)</text>
+
+  <!-- negative sea -->
+  <rect x="110" y="262" width="360" height="70" fill="#c0532a" fill-opacity="0.12" stroke="#c0532a" stroke-width="1.4"/>
+  <text x="290" y="302" font-size="13.5" fill="#c0532a" text-anchor="middle">negative-energy "sea"   E &#8804; &#8722;mc&#178;</text>
+  <line x1="110" y1="262" x2="470" y2="262" stroke="#c0532a" stroke-width="1.2" stroke-dasharray="4,3"/>
+  <text x="478" y="266" font-size="12" fill="#c0532a">&#8722;mc&#178;</text>
+
+  <!-- pair creation arrow -->
+  <line x1="180" y1="290" x2="180" y2="105" stroke="#0a7d4f" stroke-width="2.2" marker-end="url(#pc)"/>
+  <defs><marker id="pc" markerWidth="9" markerHeight="9" refX="7" refY="3.2" orient="auto"><path d="M0,0 L7,3.2 L0,6.4 Z" fill="#0a7d4f"/></marker></defs>
+  <circle cx="180" cy="290" r="4" fill="#c0532a"/>
+  <circle cx="180" cy="105" r="4" fill="#1f6fb2"/>
+  <text x="196" y="200" font-size="12.5" fill="#0a7d4f">pair creation</text>
+  <text x="196" y="216" font-size="11.5" fill="#555">(needs &#8805; 2mc&#178;)</text>
+
+  <text x="260" y="360" font-size="12.5" fill="#111" text-anchor="middle">fixed particle number is impossible &#8658; need a field with variable particle number</text>
+</svg>

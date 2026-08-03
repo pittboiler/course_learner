@@ -80,6 +80,116 @@
       "status": "available",
       "started": "2026-07-16",
       "lessons": {}
+    },
+    "quantum-mechanics": {
+      "status": "available",
+      "started": "2026-07-20",
+      "lessons": {}
+    },
+    "stat-mech": {
+      "status": "available",
+      "started": "2026-07-20",
+      "lessons": {}
+    },
+    "relativity": {
+      "status": "available",
+      "started": "2026-07-20",
+      "lessons": {}
+    },
+    "grad-game-theory": {
+      "status": "available",
+      "started": "2026-07-20",
+      "lessons": {}
+    },
+    "grad-micro": {
+      "status": "available",
+      "started": "2026-07-20",
+      "lessons": {}
+    },
+    "astrophysics": {
+      "status": "available",
+      "started": "2026-07-20",
+      "lessons": {}
+    },
+    "pdes": {
+      "status": "available",
+      "started": "2026-07-22",
+      "lessons": {}
+    },
+    "functional-analysis": {
+      "status": "available",
+      "started": "2026-07-22",
+      "lessons": {}
+    },
+    "differential-geometry": {
+      "status": "available",
+      "started": "2026-07-22",
+      "lessons": {}
+    },
+    "abstract-algebra": {
+      "status": "available",
+      "started": "2026-07-22",
+      "lessons": {}
+    },
+    "dynamical-systems": {
+      "status": "available",
+      "started": "2026-07-22",
+      "lessons": {}
+    },
+    "stochastic-calculus": {
+      "status": "available",
+      "started": "2026-07-22",
+      "lessons": {}
+    },
+    "information-theory": {
+      "status": "available",
+      "started": "2026-07-22",
+      "lessons": {}
+    },
+    "representation-theory": {
+      "status": "available",
+      "started": "2026-07-22",
+      "lessons": {}
+    },
+    "qft": {
+      "status": "available",
+      "started": "2026-07-22",
+      "lessons": {}
+    },
+    "fluid-dynamics": {
+      "status": "available",
+      "started": "2026-07-22",
+      "lessons": {}
+    },
+    "grad-macro": {
+      "status": "available",
+      "started": "2026-07-22",
+      "lessons": {}
+    },
+    "econometrics": {
+      "status": "available",
+      "started": "2026-07-22",
+      "lessons": {}
+    },
+    "mathematical-finance": {
+      "status": "available",
+      "started": "2026-07-22",
+      "lessons": {}
+    },
+    "political-economy": {
+      "status": "available",
+      "started": "2026-07-22",
+      "lessons": {}
+    },
+    "statistical-learning": {
+      "status": "available",
+      "started": "2026-07-22",
+      "lessons": {}
+    },
+    "political-philosophy": {
+      "status": "available",
+      "started": "2026-07-22",
+      "lessons": {}
     }
   },
   "review_queue": [],

@@ -1,0 +1,59 @@
+<svg viewBox="0 0 760 380" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="760" height="380" fill="#ffffff"/>
+
+  <!-- ===================== Panel 1: interior tangency ===================== -->
+  <text x="205" y="26" font-family="sans-serif" font-size="15" font-weight="bold" text-anchor="middle" fill="#111111">Interior optimum: MRS = price ratio</text>
+
+  <!-- axes -->
+  <line x1="70" y1="300" x2="352" y2="300" stroke="#111111" stroke-width="2"/>
+  <line x1="70" y1="300" x2="70" y2="58" stroke="#111111" stroke-width="2"/>
+  <polygon points="352,300 344,296 344,304" fill="#111111"/>
+  <polygon points="70,58 66,66 74,66" fill="#111111"/>
+  <text x="330" y="320" font-family="sans-serif" font-size="13" fill="#111111">good 1  (x1)</text>
+  <text x="40" y="66" font-family="sans-serif" font-size="13" fill="#111111">x2</text>
+
+  <!-- budget line: p.x = m, from (70,114) to (336,300) -->
+  <line x1="70" y1="114" x2="336" y2="300" stroke="#1d4ed8" stroke-width="2.5"/>
+  <text x="150" y="128" font-family="sans-serif" font-size="12.5" fill="#1d4ed8">budget: p1 x1 + p2 x2 = m</text>
+
+  <!-- attainable indifference curve (tangent at O), convex to origin -->
+  <path d="M 110 142 Q 190 198 310 282" fill="none" stroke="#b45309" stroke-width="2.5"/>
+  <text x="300" y="250" font-family="sans-serif" font-size="12.5" fill="#b45309">u = const</text>
+
+  <!-- an unreachable higher indifference curve (dashed) -->
+  <path d="M 150 112 Q 230 168 350 252" fill="none" stroke="#b45309" stroke-width="1.6" stroke-dasharray="5 4" opacity="0.65"/>
+  <text x="300" y="150" font-family="sans-serif" font-size="11.5" fill="#b45309" opacity="0.85">higher u (unaffordable)</text>
+
+  <!-- optimum point O = (200,205) with guide lines -->
+  <line x1="200" y1="205" x2="200" y2="300" stroke="#111111" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <line x1="70" y1="205" x2="200" y2="205" stroke="#111111" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <circle cx="200" cy="205" r="5" fill="#166534"/>
+  <text x="188" y="190" font-family="sans-serif" font-size="12.5" font-weight="bold" fill="#166534">optimum</text>
+  <text x="196" y="316" font-family="sans-serif" font-size="12" fill="#111111">x1*</text>
+  <text x="46" y="209" font-family="sans-serif" font-size="12" fill="#111111">x2*</text>
+  <text x="214" y="228" font-family="sans-serif" font-size="12" fill="#111111">slope = −p1/p2</text>
+
+  <!-- ===================== Panel 2: corner solution ===================== -->
+  <text x="595" y="26" font-family="sans-serif" font-size="15" font-weight="bold" text-anchor="middle" fill="#111111">Perfect substitutes: corner solution</text>
+
+  <!-- axes -->
+  <line x1="460" y1="300" x2="742" y2="300" stroke="#111111" stroke-width="2"/>
+  <line x1="460" y1="300" x2="460" y2="58" stroke="#111111" stroke-width="2"/>
+  <polygon points="742,300 734,296 734,304" fill="#111111"/>
+  <polygon points="460,58 456,66 464,66" fill="#111111"/>
+  <text x="720" y="320" font-family="sans-serif" font-size="13" fill="#111111">good 1  (x1)</text>
+  <text x="430" y="66" font-family="sans-serif" font-size="13" fill="#111111">x2</text>
+
+  <!-- budget line, slope 0.75, from (460,120) to (700,300) -->
+  <line x1="460" y1="120" x2="700" y2="300" stroke="#1d4ed8" stroke-width="2.5"/>
+
+  <!-- straight parallel indifference lines (steeper than budget) -->
+  <line x1="560" y1="106" x2="700" y2="300" fill="none" stroke="#b45309" stroke-width="1.6" stroke-dasharray="5 4" opacity="0.6"/>
+  <line x1="620" y1="120" x2="742" y2="288" fill="none" stroke="#b45309" stroke-width="2.5"/>
+  <text x="606" y="112" font-family="sans-serif" font-size="12" fill="#b45309">u = a x1 + b x2</text>
+
+  <!-- corner optimum at x-intercept (700,300) -->
+  <circle cx="700" cy="300" r="5" fill="#166534"/>
+  <text x="600" y="270" font-family="sans-serif" font-size="12" fill="#166534">all income on good 1</text>
+  <text x="512" y="340" font-family="sans-serif" font-size="12" fill="#111111">MRS ≠ price ratio everywhere — demand jumps</text>
+</svg>

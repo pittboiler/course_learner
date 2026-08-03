@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" font-family="sans-serif">
+  <rect x="0" y="0" width="720" height="400" fill="#ffffff"/>
+
+  <!-- title -->
+  <text x="360" y="34" text-anchor="middle" font-size="18" font-weight="bold" fill="#111827">PAYG social security: an unbroken chain of transfers</text>
+
+  <!-- row labels -->
+  <text x="46" y="120" text-anchor="middle" font-size="14" fill="#6b7280">OLD</text>
+  <text x="46" y="300" text-anchor="middle" font-size="14" fill="#6b7280">YOUNG</text>
+
+  <!-- period labels -->
+  <text x="170" y="380" text-anchor="middle" font-size="14" fill="#374151">period t</text>
+  <text x="360" y="380" text-anchor="middle" font-size="14" fill="#374151">period t+1</text>
+  <text x="550" y="380" text-anchor="middle" font-size="14" fill="#374151">period t+2</text>
+
+  <!-- arrowhead defs -->
+  <defs>
+    <marker id="ah" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#b91c1c"/>
+    </marker>
+    <marker id="ag" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#9ca3af"/>
+    </marker>
+  </defs>
+
+  <!-- aging (diagonal) arrows: young at t become old at t+1 -->
+  <line x1="196" y1="288" x2="336" y2="128" stroke="#9ca3af" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#ag)"/>
+  <line x1="386" y1="288" x2="526" y2="128" stroke="#9ca3af" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#ag)"/>
+  <text x="250" y="212" text-anchor="middle" font-size="11" fill="#6b7280" transform="rotate(-38 250 212)">same cohort ages</text>
+
+  <!-- transfer (vertical) arrows: young pay, old receive, same period -->
+  <line x1="170" y1="284" x2="170" y2="146" stroke="#b91c1c" stroke-width="3" marker-end="url(#ah)"/>
+  <line x1="360" y1="284" x2="360" y2="146" stroke="#b91c1c" stroke-width="3" marker-end="url(#ah)"/>
+  <line x1="550" y1="284" x2="550" y2="146" stroke="#b91c1c" stroke-width="3" marker-end="url(#ah)"/>
+
+  <!-- old nodes -->
+  <circle cx="170" cy="120" r="26" fill="#dbeafe" stroke="#1d4ed8" stroke-width="2"/>
+  <circle cx="360" cy="120" r="26" fill="#dbeafe" stroke="#1d4ed8" stroke-width="2"/>
+  <circle cx="550" cy="120" r="26" fill="#dbeafe" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="170" y="125" text-anchor="middle" font-size="13" fill="#1e3a8a">receive</text>
+  <text x="360" y="125" text-anchor="middle" font-size="13" fill="#1e3a8a">receive</text>
+  <text x="550" y="125" text-anchor="middle" font-size="13" fill="#1e3a8a">receive</text>
+
+  <!-- young nodes -->
+  <circle cx="170" cy="300" r="26" fill="#fee2e2" stroke="#b91c1c" stroke-width="2"/>
+  <circle cx="360" cy="300" r="26" fill="#fee2e2" stroke="#b91c1c" stroke-width="2"/>
+  <circle cx="550" cy="300" r="26" fill="#fee2e2" stroke="#b91c1c" stroke-width="2"/>
+  <text x="170" y="305" text-anchor="middle" font-size="14" fill="#7f1d1d">pay d</text>
+  <text x="360" y="305" text-anchor="middle" font-size="14" fill="#7f1d1d">pay d</text>
+  <text x="550" y="305" text-anchor="middle" font-size="14" fill="#7f1d1d">pay d</text>
+
+  <!-- return annotation -->
+  <text x="655" y="215" text-anchor="middle" font-size="13" fill="#b91c1c" font-weight="bold">implicit</text>
+  <text x="655" y="233" text-anchor="middle" font-size="13" fill="#b91c1c" font-weight="bold">return</text>
+  <text x="655" y="255" text-anchor="middle" font-size="15" fill="#b91c1c" font-weight="bold">= n</text>
+</svg>

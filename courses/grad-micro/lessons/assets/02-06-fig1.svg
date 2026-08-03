@@ -1,0 +1,61 @@
+<svg viewBox="0 0 660 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13"><rect x="0" y="0" width="660" height="380" fill="#ffffff"/>
+  <!-- caption -->
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Two crossing budget lines and the chosen bundles. Left: no conflict. Right: each choice is affordable when the other is picked &#8212; a Weak Axiom violation.</text>
+
+  <!-- ===================== LEFT PANEL: WARP HOLDS ===================== -->
+  <text x="120" y="48" fill="#333" font-weight="bold">WARP holds</text>
+  <!-- axes -->
+  <line x1="40" y1="300" x2="310" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="40" y1="300" x2="40" y2="58" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="310,300 300,295 300,305" fill="#8a8a8a"/>
+  <polygon points="40,58 35,68 45,68" fill="#8a8a8a"/>
+  <text x="300" y="318" fill="#8a8a8a">x&#8321;</text>
+  <text x="20" y="66" fill="#8a8a8a">x&#8322;</text>
+
+  <!-- Budget line 1 (prices p^1): screen (40,90)-(230,300) -->
+  <line x1="40" y1="90" x2="230" y2="300" stroke="#2c6fb0" stroke-width="2.5"/>
+  <text x="52" y="86" fill="#2c6fb0">prices p&#185; (budget B&#185;)</text>
+  <!-- Budget line 2 (prices p^2): screen (40,150)-(280,300) -->
+  <line x1="40" y1="150" x2="280" y2="300" stroke="#d9663f" stroke-width="2.5"/>
+  <text x="196" y="292" fill="#d9663f">p&#178; (B&#178;)</text>
+
+  <!-- choice x^1 on B1, unaffordable under B2: screen (90,145) -->
+  <circle cx="90" cy="145" r="5" fill="#2c6fb0"/>
+  <text x="66" y="139" fill="#2c6fb0" font-weight="bold">x&#185;</text>
+  <!-- choice x^2 on B2, unaffordable under B1: screen (220,262) -->
+  <circle cx="220" cy="262" r="5" fill="#d9663f"/>
+  <text x="228" y="266" fill="#d9663f" font-weight="bold">x&#178;</text>
+
+  <text x="52" y="336" fill="#4a8f4a">x&#178; lies outside B&#185;; x&#185; lies outside B&#178;.</text>
+  <text x="52" y="352" fill="#4a8f4a">Neither is revealed over the other. Consistent.</text>
+
+  <!-- ===================== RIGHT PANEL: WARP VIOLATED ===================== -->
+  <text x="440" y="48" fill="#333" font-weight="bold">WARP violated</text>
+  <!-- axes -->
+  <line x1="370" y1="300" x2="640" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="370" y1="300" x2="370" y2="58" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="640,300 630,295 630,305" fill="#8a8a8a"/>
+  <polygon points="370,58 365,68 375,68" fill="#8a8a8a"/>
+  <text x="630" y="318" fill="#8a8a8a">x&#8321;</text>
+  <text x="350" y="66" fill="#8a8a8a">x&#8322;</text>
+
+  <!-- mutual-affordable region: below both lines near origin -->
+  <polygon points="370,300 370,150 495,228 560,300" fill="#e0645c" opacity="0.14"/>
+
+  <!-- Budget line 1: (370,90)-(560,300) -->
+  <line x1="370" y1="90" x2="560" y2="300" stroke="#2c6fb0" stroke-width="2.5"/>
+  <text x="382" y="86" fill="#2c6fb0">p&#185; (B&#185;)</text>
+  <!-- Budget line 2: (370,150)-(610,300) -->
+  <line x1="370" y1="150" x2="610" y2="300" stroke="#d9663f" stroke-width="2.5"/>
+  <text x="526" y="292" fill="#d9663f">p&#178; (B&#178;)</text>
+
+  <!-- choice x^1 on B1, affordable under B2: screen (530,267) -->
+  <circle cx="530" cy="267" r="5" fill="#2c6fb0"/>
+  <text x="538" y="271" fill="#2c6fb0" font-weight="bold">x&#185;</text>
+  <!-- choice x^2 on B2, affordable under B1: screen (430,187) -->
+  <circle cx="430" cy="187" r="5" fill="#d9663f"/>
+  <text x="406" y="181" fill="#d9663f" font-weight="bold">x&#178;</text>
+
+  <text x="382" y="336" fill="#c0392b">x&#185; is affordable at p&#178;, and x&#178; is affordable at p&#185;.</text>
+  <text x="382" y="352" fill="#c0392b">Each is chosen over an affordable rival &#8212; impossible.</text>
+</svg>

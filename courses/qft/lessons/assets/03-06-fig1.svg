@@ -1,0 +1,30 @@
+<svg viewBox="0 0 560 300" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="560" height="300" fill="#ffffff"/>
+  <defs>
+    <marker id="in" markerWidth="9" markerHeight="9" refX="7" refY="3.2" orient="auto"><path d="M0,0 L7,3.2 L0,6.4 Z" fill="#1f6fb2"/></marker>
+    <marker id="ou" markerWidth="9" markerHeight="9" refX="7" refY="3.2" orient="auto"><path d="M0,0 L7,3.2 L0,6.4 Z" fill="#0a7d4f"/></marker>
+  </defs>
+  <text x="280" y="28" font-size="15" fill="#111" text-anchor="middle">From amplitude to observable: |&#8499;|&#178; folded with phase space gives d&#963;/d&#937;.</text>
+
+  <!-- CM frame collision -->
+  <circle cx="280" cy="160" r="6" fill="#c0532a"/>
+  <!-- incoming along horizontal -->
+  <line x1="120" y1="160" x2="270" y2="160" stroke="#1f6fb2" stroke-width="2.4" marker-end="url(#in)"/>
+  <line x1="440" y1="160" x2="290" y2="160" stroke="#1f6fb2" stroke-width="2.4" marker-end="url(#in)"/>
+  <text x="110" y="150" font-size="12.5" fill="#1f6fb2">p&#8321;</text>
+  <text x="448" y="150" font-size="12.5" fill="#1f6fb2">p&#8322;</text>
+
+  <!-- outgoing at angle theta -->
+  <line x1="290" y1="155" x2="410" y2="70" stroke="#0a7d4f" stroke-width="2.4" marker-end="url(#ou)"/>
+  <line x1="270" y1="165" x2="150" y2="250" stroke="#0a7d4f" stroke-width="2.4" marker-end="url(#ou)"/>
+  <text x="418" y="66" font-size="12.5" fill="#0a7d4f">p&#8323;</text>
+  <text x="135" y="262" font-size="12.5" fill="#0a7d4f">p&#8324;</text>
+
+  <!-- angle -->
+  <path d="M 330,160 A 50 50 0 0 0 315,125" fill="none" stroke="#111" stroke-width="1.2"/>
+  <text x="342" y="140" font-size="13" font-style="italic" fill="#111">&#952;</text>
+  <!-- solid angle element -->
+  <text x="420" y="90" font-size="12" fill="#555">d&#937;</text>
+
+  <text x="280" y="290" font-size="13" fill="#111" text-anchor="middle">CM 2&#8594;2:  d&#963;/d&#937; = |&#8499;|&#178; / (64&#960;&#178;s)   (elastic)</text>
+</svg>

@@ -1,0 +1,38 @@
+<svg viewBox="0 0 540 360" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="540" height="360" fill="#ffffff"/>
+  <defs>
+    <marker id="rc" markerWidth="9" markerHeight="9" refX="7" refY="3.2" orient="auto">
+      <path d="M0,0 L7,3.2 L0,6.4 Z" fill="#c33"/>
+    </marker>
+    <marker id="rl" markerWidth="8" markerHeight="8" refX="6.5" refY="3" orient="auto">
+      <path d="M0,0 L6.5,3 L0,6 Z" fill="#0a7"/>
+    </marker>
+  </defs>
+
+  <text x="24" y="30" font-size="15" fill="#111">Curvature: transport a vector around a small loop; it returns rotated.</text>
+
+  <!-- a small closed loop (parallelogram of two directions mu, nu) -->
+  <polygon points="150,270 340,255 360,120 170,135" fill="#0a7" fill-opacity="0.08" stroke="#0a7" stroke-width="2"/>
+  <!-- loop direction arrows -->
+  <path d="M 200,266 L 300,258" stroke="#0a7" stroke-width="2" marker-end="url(#rl)"/>
+  <path d="M 352,220 L 350,160" stroke="#0a7" stroke-width="2" marker-end="url(#rl)"/>
+  <path d="M 300,131 L 205,138" stroke="#0a7" stroke-width="2" marker-end="url(#rl)"/>
+  <path d="M 162,180 L 158,235" stroke="#0a7" stroke-width="2" marker-end="url(#rl)"/>
+
+  <text x="240" y="292" font-size="14" font-style="italic" fill="#0a7">direction μ</text>
+  <text x="368" y="195" font-size="14" font-style="italic" fill="#0a7">direction ν</text>
+
+  <!-- start vector and returned (rotated) vector at the base corner -->
+  <circle cx="150" cy="270" r="4" fill="#111"/>
+  <!-- original -->
+  <line x1="150" y1="270" x2="220" y2="270" stroke="#c33" stroke-width="2.8" marker-end="url(#rc)"/>
+  <text x="200" y="290" font-size="14" fill="#c33">V (start)</text>
+  <!-- returned, rotated -->
+  <line x1="150" y1="270" x2="210" y2="235" stroke="#c33" stroke-width="2.8" marker-end="url(#rc)" stroke-dasharray="5,4"/>
+  <text x="215" y="230" font-size="13" fill="#c33">V (returned)</text>
+
+  <!-- angle marker -->
+  <path d="M 200,270 A 50 50 0 0 0 195,250" fill="none" stroke="#111" stroke-width="1.3"/>
+
+  <text x="60" y="342" font-size="14" fill="#111">rotation  ≈  R · (area of loop)   ⟹   [∇_μ, ∇_ν]V = R·V</text>
+</svg>

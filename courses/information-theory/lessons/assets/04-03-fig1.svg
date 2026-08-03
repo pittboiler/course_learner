@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="sans-serif">
+  <rect x="0" y="0" width="640" height="400" fill="#ffffff"/>
+
+  <!-- title -->
+  <text x="320" y="30" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">The rate–distortion curve R(D)</text>
+
+  <!-- axes -->
+  <line x1="90" y1="60" x2="90" y2="340" stroke="#1a1a1a" stroke-width="2"/>
+  <line x1="90" y1="340" x2="600" y2="340" stroke="#1a1a1a" stroke-width="2"/>
+  <!-- arrowheads -->
+  <polygon points="90,54 86,64 94,64" fill="#1a1a1a"/>
+  <polygon points="606,340 596,336 596,344" fill="#1a1a1a"/>
+
+  <!-- axis labels -->
+  <text x="70" y="55" text-anchor="middle" font-size="15" fill="#1a1a1a">R</text>
+  <text x="70" y="72" text-anchor="middle" font-size="12" fill="#555555">(bits)</text>
+  <text x="600" y="368" text-anchor="middle" font-size="15" fill="#1a1a1a">D</text>
+  <text x="560" y="368" text-anchor="middle" font-size="12" fill="#555555">distortion</text>
+
+  <!-- convex decreasing curve from (90,80)=R(0)=H down to (540,340)=Dmax -->
+  <path d="M 90 80 C 210 300, 320 340, 540 340" fill="none" stroke="#1565c0" stroke-width="3"/>
+
+  <!-- lossless point R(0)=H -->
+  <circle cx="90" cy="80" r="5" fill="#1a1a1a"/>
+  <line x1="90" y1="80" x2="78" y2="80" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="100" y="76" font-size="14" fill="#1a1a1a" font-weight="bold">R(0) = H</text>
+  <text x="100" y="94" font-size="12" fill="#555555">lossless limit (Lesson 2.2)</text>
+
+  <!-- Dmax point (curve hits zero) -->
+  <circle cx="540" cy="340" r="5" fill="#1a1a1a"/>
+  <line x1="540" y1="340" x2="540" y2="352" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="540" y="330" text-anchor="middle" font-size="13" fill="#1a1a1a">R = 0</text>
+  <text x="547" y="373" text-anchor="middle" font-size="13" fill="#1a1a1a" font-style="italic">D_max</text>
+
+  <!-- Gaussian annotation on the mid stretch of the curve -->
+  <text x="300" y="150" font-size="15" fill="#1565c0" font-weight="bold">Gaussian source:</text>
+  <text x="300" y="172" font-size="15" fill="#1565c0">R(D) = &#189; log(&#963;&#178;/D)</text>
+  <line x1="298" y1="178" x2="248" y2="222" stroke="#1565c0" stroke-width="1" stroke-dasharray="3,3"/>
+
+  <!-- decreasing + convex note -->
+  <text x="360" y="300" text-anchor="middle" font-size="13" fill="#555555" font-style="italic">decreasing &amp; convex:</text>
+  <text x="360" y="318" text-anchor="middle" font-size="13" fill="#555555" font-style="italic">more distortion &#8594; fewer bits</text>
+</svg>

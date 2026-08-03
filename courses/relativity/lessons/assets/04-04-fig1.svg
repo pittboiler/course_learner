@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420">
+  <rect x="0" y="0" width="560" height="420" fill="#ffffff"/>
+
+  <!-- title -->
+  <text x="280" y="26" font-family="sans-serif" font-size="15" fill="#111827" font-weight="bold" text-anchor="middle">Parallel transport around a closed loop rotates the vector</text>
+
+  <!-- sphere -->
+  <circle cx="200" cy="230" r="150" fill="#eff6ff" stroke="#93c5fd" stroke-width="1.5"/>
+
+  <!-- equator ellipse: front solid, back dashed -->
+  <path d="M50,230 A150,44 0 0 0 350,230" fill="none" stroke="#9ca3af" stroke-width="1.4"/>
+  <path d="M50,230 A150,44 0 0 1 350,230" fill="none" stroke="#cbd5e1" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <!-- a longitude ellipse for 3D feel -->
+  <path d="M200,80 A44,150 0 0 0 200,380" fill="none" stroke="#cbd5e1" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <path d="M200,80 A44,150 0 0 1 200,380" fill="none" stroke="#9ca3af" stroke-width="1.2"/>
+
+  <!-- triangle vertices: N pole, A and B on front equator -->
+  <!-- N = (200,80), A = (96,258), B = (304,258) -->
+  <!-- triangle edges (geodesic arcs) -->
+  <path d="M200,80 Q110,150 96,258" fill="none" stroke="#2563eb" stroke-width="3"/>
+  <path d="M200,80 Q290,150 304,258" fill="none" stroke="#2563eb" stroke-width="3"/>
+  <path d="M96,258 Q200,300 304,258" fill="none" stroke="#2563eb" stroke-width="3"/>
+
+  <!-- vertices -->
+  <circle cx="200" cy="80" r="4.5" fill="#111827"/>
+  <text x="200" y="72" font-family="sans-serif" font-size="13" fill="#111827" text-anchor="middle">N</text>
+  <circle cx="96" cy="258" r="4.5" fill="#111827"/>
+  <text x="78" y="262" font-family="sans-serif" font-size="13" fill="#111827">A</text>
+  <circle cx="304" cy="258" r="4.5" fill="#111827"/>
+  <text x="312" y="262" font-family="sans-serif" font-size="13" fill="#111827">B</text>
+
+  <!-- carried vectors along the loop (kept "parallel", never turned by hand) -->
+  <!-- at B: pointing north along BN -->
+  <defs>
+    <marker id="agrn" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 z" fill="#16a34a"/>
+    </marker>
+    <marker id="aorn" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 z" fill="#ea580c"/>
+    </marker>
+    <marker id="agry" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 z" fill="#6b7280"/>
+    </marker>
+  </defs>
+
+  <!-- carried copies (grey) at N and B to suggest transport -->
+  <line x1="200" y1="80" x2="238" y2="122" stroke="#6b7280" stroke-width="2" marker-end="url(#agry)"/>
+  <line x1="304" y1="258" x2="316" y2="206" stroke="#6b7280" stroke-width="2" marker-end="url(#agry)"/>
+
+  <!-- at A: initial vector (green, north) and returned vector (orange, rotated) -->
+  <line x1="96" y1="258" x2="126" y2="206" stroke="#16a34a" stroke-width="2.6" marker-end="url(#agrn)"/>
+  <text x="108" y="196" font-family="sans-serif" font-size="12" fill="#16a34a" font-weight="bold">start</text>
+  <line x1="96" y1="258" x2="152" y2="266" stroke="#ea580c" stroke-width="2.6" stroke-dasharray="6 3" marker-end="url(#aorn)"/>
+  <text x="150" y="286" font-family="sans-serif" font-size="12" fill="#ea580c" font-weight="bold">returned</text>
+
+  <!-- angle arc between start and returned at A -->
+  <path d="M120,224 A30,30 0 0 1 128,262" fill="none" stroke="#111827" stroke-width="1.3"/>
+  <text x="140" y="238" font-family="sans-serif" font-size="15" fill="#111827">&#945;</text>
+
+  <!-- caption -->
+  <text x="410" y="150" font-family="sans-serif" font-size="13" fill="#111827" font-weight="bold">Holonomy</text>
+  <text x="410" y="172" font-family="sans-serif" font-size="12" fill="#374151">carry a vector around the</text>
+  <text x="410" y="189" font-family="sans-serif" font-size="12" fill="#374151">loop A&#8594;N&#8594;B&#8594;A without</text>
+  <text x="410" y="206" font-family="sans-serif" font-size="12" fill="#374151">ever turning it; it comes</text>
+  <text x="410" y="223" font-family="sans-serif" font-size="12" fill="#374151">back rotated by angle</text>
+  <text x="410" y="248" font-family="sans-serif" font-size="14" fill="#1d4ed8" font-weight="bold">&#945; = Area / a&#178;</text>
+  <text x="410" y="272" font-family="sans-serif" font-size="12" fill="#374151">(enclosed area &#247; radius&#178;).</text>
+  <text x="410" y="296" font-family="sans-serif" font-size="12" fill="#374151">On a flat plane &#945; = 0.</text>
+  <text x="410" y="313" font-family="sans-serif" font-size="12" fill="#374151">A nonzero &#945; is the</text>
+  <text x="410" y="330" font-family="sans-serif" font-size="12" fill="#374151">fingerprint of curvature.</text>
+</svg>

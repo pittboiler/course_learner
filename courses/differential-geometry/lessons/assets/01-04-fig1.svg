@@ -1,0 +1,50 @@
+<svg viewBox="0 0 680 280" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="680" height="280" fill="#ffffff"/>
+
+  <!-- ===== Panel 1: plane, K = 0 ===== -->
+  <g>
+    <!-- flat parallelogram grid -->
+    <polygon points="40,150 170,150 210,90 80,90" fill="#111111" fill-opacity="0.05" stroke="#1a1a1a" stroke-width="1.6"/>
+    <line x1="83" y1="130" x2="170" y2="130" stroke="#888" stroke-width="0.9"/>
+    <line x1="60" y1="110" x2="190" y2="110" stroke="#888" stroke-width="0.9"/>
+    <line x1="105" y1="150" x2="145" y2="90" stroke="#888" stroke-width="0.9"/>
+    <line x1="130" y1="150" x2="170" y2="90" stroke="#888" stroke-width="0.9"/>
+    <text x="95" y="185" font-size="17" fill="#111">plane</text>
+    <text x="86" y="210" font-size="16" font-style="italic" fill="#0a7">K = 0</text>
+    <text x="52" y="234" font-size="12" fill="#555">flat: doesn't bend</text>
+  </g>
+
+  <!-- ===== Panel 2: sphere, K > 0 ===== -->
+  <g transform="translate(230,0)">
+    <circle cx="110" cy="120" r="62" fill="#111111" fill-opacity="0.05" stroke="#1a1a1a" stroke-width="1.6"/>
+    <!-- longitude arcs -->
+    <path d="M110,58 C 78,88 78,152 110,182" fill="none" stroke="#888" stroke-width="0.9"/>
+    <path d="M110,58 C 142,88 142,152 110,182" fill="none" stroke="#888" stroke-width="0.9"/>
+    <path d="M110,58 C 96,88 96,152 110,182" fill="none" stroke="#bbb" stroke-width="0.7"/>
+    <path d="M110,58 C 124,88 124,152 110,182" fill="none" stroke="#bbb" stroke-width="0.7"/>
+    <!-- latitude arcs -->
+    <path d="M48,120 C 78,133 142,133 172,120" fill="none" stroke="#888" stroke-width="0.9"/>
+    <path d="M58,96 C 84,106 136,106 162,96" fill="none" stroke="#bbb" stroke-width="0.7"/>
+    <path d="M58,144 C 84,134 136,134 162,144" fill="none" stroke="#bbb" stroke-width="0.7"/>
+    <text x="86" y="205" font-size="17" fill="#111">sphere</text>
+    <text x="82" y="228" font-size="16" font-style="italic" fill="#0a7">K &gt; 0</text>
+    <text x="44" y="252" font-size="12" fill="#555">dome: bends the same way both ways</text>
+  </g>
+
+  <!-- ===== Panel 3: saddle, K < 0 ===== -->
+  <g transform="translate(470,0)">
+    <!-- saddle: one up-curve, one down-curve -->
+    <path d="M40,150 C 80,110 150,110 190,150" fill="none" stroke="#1a1a1a" stroke-width="1.8"/>
+    <path d="M40,90 C 80,130 150,130 190,90" fill="none" stroke="#1a1a1a" stroke-width="1.8"/>
+    <path d="M40,150 L40,90" fill="none" stroke="#bbb" stroke-width="0.8"/>
+    <path d="M190,150 L190,90" fill="none" stroke="#bbb" stroke-width="0.8"/>
+    <path d="M115,120 L115,120" />
+    <!-- fill hint -->
+    <path d="M40,150 C 80,110 150,110 190,150 L190,90 C 150,130 80,130 40,90 Z" fill="#111111" fill-opacity="0.05" stroke="none"/>
+    <!-- principal direction arrows -->
+    <path d="M115,131 C 95,122 95,122 78,124" fill="none" stroke="#0a7" stroke-width="1.4"/>
+    <text x="78" y="200" font-size="17" fill="#111">saddle</text>
+    <text x="76" y="223" font-size="16" font-style="italic" fill="#c33">K &lt; 0</text>
+    <text x="34" y="247" font-size="12" fill="#555">bends up one way, down the other</text>
+  </g>
+</svg>

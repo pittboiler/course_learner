@@ -1,0 +1,49 @@
+<svg viewBox="0 0 720 430" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="720" height="430" fill="#ffffff"/>
+
+  <text x="360" y="30" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a1a1a">One rule, three worlds: the sign of the discriminant B&#178; &#8722; AC</text>
+
+  <!-- column separators -->
+  <line x1="245" y1="55" x2="245" y2="415" stroke="#cccccc" stroke-width="1"/>
+  <line x1="475" y1="55" x2="475" y2="415" stroke="#cccccc" stroke-width="1"/>
+
+  <!-- ===== ELLIPTIC ===== -->
+  <text x="130" y="80" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">ELLIPTIC</text>
+  <!-- mini axes -->
+  <line x1="70" y1="150" x2="190" y2="150" stroke="#bbbbbb" stroke-width="1"/>
+  <line x1="130" y1="105" x2="130" y2="195" stroke="#bbbbbb" stroke-width="1"/>
+  <ellipse cx="130" cy="150" rx="52" ry="32" fill="none" stroke="#1a1a1a" stroke-width="2.5"/>
+  <text x="130" y="240" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">B&#178; &#8722; AC &lt; 0</text>
+  <text x="130" y="272" text-anchor="middle" font-size="15" fill="#1a1a1a">Laplace</text>
+  <text x="130" y="294" text-anchor="middle" font-size="15" fill="#1a1a1a">u_xx + u_yy = 0</text>
+  <text x="130" y="330" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a1a1a">0 real characteristics</text>
+  <text x="130" y="360" text-anchor="middle" font-size="14" fill="#555555">equilibrium /</text>
+  <text x="130" y="380" text-anchor="middle" font-size="14" fill="#555555">smoothing</text>
+
+  <!-- ===== PARABOLIC ===== -->
+  <text x="360" y="80" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">PARABOLIC</text>
+  <line x1="300" y1="150" x2="420" y2="150" stroke="#bbbbbb" stroke-width="1"/>
+  <line x1="360" y1="105" x2="360" y2="195" stroke="#bbbbbb" stroke-width="1"/>
+  <path d="M 318 118 Q 360 205 402 118" fill="none" stroke="#1a1a1a" stroke-width="2.5"/>
+  <text x="360" y="240" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">B&#178; &#8722; AC = 0</text>
+  <text x="360" y="272" text-anchor="middle" font-size="15" fill="#1a1a1a">Heat</text>
+  <text x="360" y="294" text-anchor="middle" font-size="15" fill="#1a1a1a">u_t = u_xx</text>
+  <text x="360" y="330" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a1a1a">1 family</text>
+  <text x="360" y="360" text-anchor="middle" font-size="14" fill="#555555">diffusion /</text>
+  <text x="360" y="380" text-anchor="middle" font-size="14" fill="#555555">irreversible</text>
+
+  <!-- ===== HYPERBOLIC ===== -->
+  <text x="590" y="80" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">HYPERBOLIC</text>
+  <line x1="530" y1="150" x2="650" y2="150" stroke="#bbbbbb" stroke-width="1"/>
+  <line x1="590" y1="105" x2="590" y2="195" stroke="#bbbbbb" stroke-width="1"/>
+  <path d="M 548 110 Q 578 150 548 190" fill="none" stroke="#1a1a1a" stroke-width="2.5"/>
+  <path d="M 632 110 Q 602 150 632 190" fill="none" stroke="#1a1a1a" stroke-width="2.5"/>
+  <text x="590" y="240" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">B&#178; &#8722; AC &gt; 0</text>
+  <text x="590" y="272" text-anchor="middle" font-size="15" fill="#1a1a1a">Wave</text>
+  <text x="590" y="294" text-anchor="middle" font-size="15" fill="#1a1a1a">u_tt = u_xx</text>
+  <text x="590" y="330" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a1a1a">2 families</text>
+  <text x="590" y="360" text-anchor="middle" font-size="14" fill="#555555">propagation /</text>
+  <text x="590" y="380" text-anchor="middle" font-size="14" fill="#555555">signals travel</text>
+
+  <text x="360" y="412" text-anchor="middle" font-size="13" fill="#888888">Same names as the conic sections ax&#178; + 2bxy + cy&#178; = const &#8212; and the same discriminant decides.</text>
+</svg>

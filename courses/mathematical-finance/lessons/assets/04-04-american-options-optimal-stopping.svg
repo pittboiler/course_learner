@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 380" font-family="sans-serif">
+  <rect x="0" y="0" width="560" height="380" fill="#ffffff"/>
+
+  <!-- title -->
+  <text x="280" y="26" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">American put: the free boundary S*(t)</text>
+
+  <!-- axes -->
+  <line x1="70" y1="330" x2="510" y2="330" stroke="#111111" stroke-width="1.5"/>
+  <line x1="70" y1="330" x2="70" y2="50" stroke="#111111" stroke-width="1.5"/>
+  <text x="510" y="352" text-anchor="middle" font-size="13" fill="#111111">time t</text>
+  <text x="44" y="56" text-anchor="middle" font-size="13" fill="#111111">S</text>
+  <text x="70" y="352" text-anchor="middle" font-size="12" fill="#444444">0</text>
+  <text x="510" y="346" text-anchor="middle" font-size="12" fill="#444444">T</text>
+
+  <!-- strike level K -->
+  <line x1="70" y1="110" x2="510" y2="110" stroke="#888888" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <text x="60" y="114" text-anchor="end" font-size="12" fill="#444444">K</text>
+
+  <!-- exercise region shading (below the boundary) -->
+  <path d="M 70 275 Q 300 240 500 110 L 500 330 L 70 330 Z" fill="#f0d9d9" stroke="none"/>
+
+  <!-- boundary curve S*(t) -->
+  <path d="M 70 275 Q 300 240 500 110" fill="none" stroke="#c0392b" stroke-width="2.5"/>
+  <text x="250" y="290" font-size="13" fill="#c0392b" font-weight="bold">S*(t)  (exercise boundary)</text>
+
+  <!-- region labels -->
+  <text x="150" y="90" font-size="13" fill="#1a5276" font-weight="bold">Continuation region</text>
+  <text x="150" y="108" font-size="11.5" fill="#1a5276">hold: V solves Black–Scholes PDE</text>
+
+  <text x="150" y="315" font-size="13" fill="#7b241c" font-weight="bold">Exercise region</text>
+  <text x="300" y="315" font-size="11.5" fill="#7b241c">V = K − S (intrinsic)</text>
+
+  <!-- smooth pasting callout at boundary -->
+  <circle cx="410" cy="175" r="4" fill="#111111"/>
+  <line x1="410" y1="175" x2="470" y2="150" stroke="#111111" stroke-width="1"/>
+  <text x="474" y="147" font-size="11" fill="#111111">smooth pasting:</text>
+  <text x="474" y="161" font-size="11" fill="#111111">V and ∂V/∂S</text>
+  <text x="474" y="175" font-size="11" fill="#111111">match here</text>
+
+  <!-- boundary meets K at T -->
+  <circle cx="500" cy="110" r="3.5" fill="#c0392b"/>
+  <text x="498" y="100" text-anchor="end" font-size="10.5" fill="#7b241c">S*(T)=K</text>
+</svg>

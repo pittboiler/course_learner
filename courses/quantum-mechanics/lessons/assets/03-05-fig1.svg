@@ -1,0 +1,50 @@
+<svg viewBox="0 0 560 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- axes -->
+  <line x1="40" y1="165" x2="545" y2="165" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="60" y1="20" x2="60" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="545,165 535,160 535,170" fill="#8a8a8a"/>
+  <polygon points="60,20 55,30 65,30" fill="#8a8a8a"/>
+  <text x="548" y="180" fill="#8a8a8a">t</text>
+  <text x="40" y="34" fill="#8a8a8a">x</text>
+
+  <!-- amplitude guides -->
+  <line x1="60" y1="70" x2="530" y2="70" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 5" opacity="0.6"/>
+  <line x1="60" y1="260" x2="530" y2="260" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 5" opacity="0.6"/>
+  <text x="30" y="74" fill="#8a8a8a">+A</text>
+  <text x="34" y="264" fill="#8a8a8a">−A</text>
+
+  <!-- classical trajectory x_cl(t) = A cos(wt): the reference the centroid rides on -->
+  <path d="M 70.0 70.0 L 80.0 74.6 L 90.0 88.1 L 100.0 109.2 L 110.0 135.6 L 120.0 165.0 L 130.0 194.4 L 140.0 220.8 L 150.0 241.9 L 160.0 255.4 L 170.0 260.0 L 180.0 255.4 L 190.0 241.9 L 200.0 220.8 L 210.0 194.4 L 220.0 165.0 L 230.0 135.6 L 240.0 109.2 L 250.0 88.1 L 260.0 74.6 L 270.0 70.0 L 280.0 74.6 L 290.0 88.1 L 300.0 109.2 L 310.0 135.6 L 320.0 165.0 L 330.0 194.4 L 340.0 220.8 L 350.0 241.9 L 360.0 255.4 L 370.0 260.0 L 380.0 255.4 L 390.0 241.9 L 400.0 220.8 L 410.0 194.4 L 420.0 165.0 L 430.0 135.6 L 440.0 109.2 L 450.0 88.1 L 460.0 74.6 L 470.0 70.0 L 480.0 74.6 L 490.0 88.1 L 500.0 109.2 L 510.0 135.6 L 520.0 165.0 L 530.0 194.4"
+        fill="none" stroke="#4a90d9" stroke-width="2" stroke-dasharray="6 5"/>
+
+  <!-- wave-packet blobs: vertical Gaussian spread (width Dx) centred on the classical curve -->
+  <ellipse cx="70"  cy="70"  rx="7" ry="20" fill="#e0645c" opacity="0.22"/>
+  <ellipse cx="170" cy="260" rx="7" ry="20" fill="#e0645c" opacity="0.22"/>
+  <ellipse cx="270" cy="70"  rx="7" ry="20" fill="#e0645c" opacity="0.22"/>
+  <ellipse cx="370" cy="260" rx="7" ry="20" fill="#e0645c" opacity="0.22"/>
+  <ellipse cx="470" cy="70"  rx="7" ry="20" fill="#e0645c" opacity="0.22"/>
+  <ellipse cx="120" cy="165" rx="7" ry="20" fill="#e0645c" opacity="0.22"/>
+  <ellipse cx="220" cy="165" rx="7" ry="20" fill="#e0645c" opacity="0.22"/>
+  <ellipse cx="320" cy="165" rx="7" ry="20" fill="#e0645c" opacity="0.22"/>
+  <ellipse cx="420" cy="165" rx="7" ry="20" fill="#e0645c" opacity="0.22"/>
+
+  <!-- centroid markers: <x>(t) sits exactly on the classical curve -->
+  <circle cx="70"  cy="70"  r="4" fill="#e0645c"/>
+  <circle cx="120" cy="165" r="4" fill="#e0645c"/>
+  <circle cx="170" cy="260" r="4" fill="#e0645c"/>
+  <circle cx="220" cy="165" r="4" fill="#e0645c"/>
+  <circle cx="270" cy="70"  r="4" fill="#e0645c"/>
+  <circle cx="320" cy="165" r="4" fill="#e0645c"/>
+  <circle cx="370" cy="260" r="4" fill="#e0645c"/>
+  <circle cx="420" cy="165" r="4" fill="#e0645c"/>
+  <circle cx="470" cy="70"  r="4" fill="#e0645c"/>
+
+  <!-- legend -->
+  <line x1="330" y1="300" x2="356" y2="300" stroke="#4a90d9" stroke-width="2" stroke-dasharray="6 5"/>
+  <text x="362" y="305" fill="#4a90d9">classical x(t)=A cos ωt</text>
+  <circle cx="343" cy="285" r="4" fill="#e0645c"/>
+  <text x="362" y="290" fill="#e0645c">⟨x⟩(t) · packet centroid</text>
+
+  <!-- caption -->
+  <text x="70" y="34" fill="#8a8a8a" font-style="italic">The packet spreads (red blobs), but its centre ⟨x⟩ traces the classical orbit exactly.</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="sans-serif">
+  <rect x="0" y="0" width="640" height="400" fill="#ffffff"/>
+
+  <!-- axes -->
+  <line x1="80" y1="360" x2="610" y2="360" stroke="#222222" stroke-width="2"/>
+  <line x1="80" y1="360" x2="80" y2="40" stroke="#222222" stroke-width="2"/>
+  <polygon points="610,360 600,355 600,365" fill="#222222"/>
+  <polygon points="80,40 75,50 85,50" fill="#222222"/>
+  <text x="595" y="384" font-size="16" fill="#222222">k</text>
+  <text x="40" y="52" font-size="16" fill="#222222">value</text>
+
+  <!-- V0 : flat guess = 0 -->
+  <line x1="80" y1="350" x2="600" y2="350" stroke="#9aa0a6" stroke-width="2" stroke-dasharray="5,4"/>
+  <text x="606" y="354" font-size="14" fill="#9aa0a6">V₀</text>
+
+  <!-- V1 -->
+  <path d="M80,350 Q145,300 210,300 T340,279 T470,263 T600,250" fill="none" stroke="#4c8bf5" stroke-width="2"/>
+  <text x="606" y="253" font-size="14" fill="#4c8bf5">V₁</text>
+
+  <!-- V2 -->
+  <path d="M80,350 Q145,275 210,270 T340,237 T470,211 T600,190" fill="none" stroke="#1a73e8" stroke-width="2"/>
+  <text x="606" y="193" font-size="14" fill="#1a73e8">V₂</text>
+
+  <!-- V3 -->
+  <path d="M80,350 Q145,258 210,252 T340,211 T470,180 T600,154" fill="none" stroke="#174ea6" stroke-width="2"/>
+  <text x="606" y="157" font-size="14" fill="#174ea6">V₃</text>
+
+  <!-- fixed point V -->
+  <path d="M80,350 Q145,244 210,238 T340,191 T470,155 T600,125" fill="none" stroke="#c5221f" stroke-width="3.5"/>
+  <text x="606" y="128" font-size="15" fill="#c5221f" font-weight="bold">V</text>
+
+  <!-- convergence bracket on the right -->
+  <line x1="588" y1="250" x2="588" y2="125" stroke="#c5221f" stroke-width="1.2"/>
+  <text x="470" y="112" font-size="13" fill="#c5221f">gaps shrink by β each step</text>
+
+  <text x="150" y="30" font-size="16" fill="#222222" font-weight="bold">Value-function iteration:  Vₙ₊₁ = T Vₙ  →  V</text>
+</svg>

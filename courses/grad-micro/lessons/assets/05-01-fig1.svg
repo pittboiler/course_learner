@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" font-family="sans-serif">
+  <rect x="0" y="0" width="640" height="360" fill="#ffffff"/>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1a1a1a"/>
+    </marker>
+  </defs>
+
+  <text x="320" y="30" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a1a1a">The lemons feedback loop</text>
+
+  <!-- Box 1: top-left -->
+  <rect x="40" y="70" width="210" height="66" rx="8" fill="#eef3fb" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="145" y="98" text-anchor="middle" font-size="14" fill="#1a1a1a">Price buyers offer</text>
+  <text x="145" y="118" text-anchor="middle" font-size="14" fill="#1a1a1a">falls</text>
+
+  <!-- Box 2: top-right -->
+  <rect x="390" y="70" width="210" height="66" rx="8" fill="#eef3fb" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="495" y="98" text-anchor="middle" font-size="14" fill="#1a1a1a">Only cars with value</text>
+  <text x="495" y="118" text-anchor="middle" font-size="14" fill="#1a1a1a">below the price are offered</text>
+
+  <!-- Box 3: bottom-right -->
+  <rect x="390" y="250" width="210" height="66" rx="8" fill="#eef3fb" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="495" y="278" text-anchor="middle" font-size="14" fill="#1a1a1a">Average quality of the</text>
+  <text x="495" y="298" text-anchor="middle" font-size="14" fill="#1a1a1a">traded pool falls</text>
+
+  <!-- Box 4: bottom-left -->
+  <rect x="40" y="250" width="210" height="66" rx="8" fill="#eef3fb" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="145" y="278" text-anchor="middle" font-size="14" fill="#1a1a1a">Buyers revise willingness</text>
+  <text x="145" y="298" text-anchor="middle" font-size="14" fill="#1a1a1a">to pay downward</text>
+
+  <!-- Arrows clockwise -->
+  <line x1="250" y1="103" x2="384" y2="103" stroke="#1a1a1a" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="495" y1="136" x2="495" y2="244" stroke="#1a1a1a" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="390" y1="283" x2="256" y2="283" stroke="#1a1a1a" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="145" y1="250" x2="145" y2="142" stroke="#1a1a1a" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Center collapse label -->
+  <text x="320" y="188" text-anchor="middle" font-size="15" font-weight="bold" fill="#8a1c1c">Market unravels</text>
+  <text x="320" y="210" text-anchor="middle" font-size="15" font-weight="bold" fill="#8a1c1c">price &#8594; 0</text>
+</svg>

@@ -1,0 +1,22 @@
+<svg viewBox="0 0 640 260" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="640" height="260" fill="#ffffff"/>
+  <defs><marker id="z" markerWidth="10" markerHeight="10" refX="7" refY="3.2" orient="auto"><path d="M0,0 L7,3.2 L0,6.4 Z" fill="#0a7d4f"/></marker></defs>
+  <text x="320" y="30" font-size="15" fill="#111" text-anchor="middle">One functional Z[J] generates every correlation function by differentiation.</text>
+
+  <!-- Z[J] box -->
+  <rect x="60" y="80" width="230" height="80" rx="10" fill="#1f6fb2" fill-opacity="0.07" stroke="#1f6fb2" stroke-width="1.8"/>
+  <text x="175" y="112" font-size="15" fill="#1f6fb2" text-anchor="middle">Z[J] = &#8747;&#119967;&#966; e^(i S[&#966;] + i&#8747;J&#966;)</text>
+  <text x="175" y="138" font-size="12" fill="#555" text-anchor="middle">generating functional</text>
+
+  <!-- arrow -->
+  <line x1="295" y1="120" x2="360" y2="120" stroke="#0a7d4f" stroke-width="2" marker-end="url(#z)"/>
+  <text x="327" y="110" font-size="11" fill="#0a7d4f" text-anchor="middle">&#948;/&#948;J</text>
+
+  <!-- correlators box -->
+  <rect x="365" y="80" width="215" height="80" rx="10" fill="#c0532a" fill-opacity="0.07" stroke="#c0532a" stroke-width="1.8"/>
+  <text x="472" y="108" font-size="12.5" fill="#111" text-anchor="middle">&#10216;0|T&#966;(x&#8321;)&#8230;&#966;(x&#8345;)|0&#10217;</text>
+  <text x="472" y="132" font-size="11.5" fill="#555" text-anchor="middle">= (&#8722;i&#948;/&#948;J)&#8345; Z / Z |_(J=0)</text>
+
+  <text x="320" y="200" font-size="13" fill="#111" text-anchor="middle">functional derivative:  &#948;J(y)/&#948;J(x) = &#948;&#8308;(x&#8722;y)</text>
+  <text x="320" y="228" font-size="12.5" fill="#555" text-anchor="middle">connected correlators from W[J] = &#8722;i log Z[J]</text>
+</svg>

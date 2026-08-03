@@ -1,0 +1,37 @@
+<svg viewBox="0 0 520 400" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="520" height="400" fill="#ffffff"/>
+  <defs>
+    <marker id="gd" markerWidth="9" markerHeight="9" refX="7" refY="3.2" orient="auto">
+      <path d="M0,0 L7,3.2 L0,6.4 Z" fill="#c33"/>
+    </marker>
+  </defs>
+
+  <text x="24" y="30" font-size="15" fill="#111">Positive curvature focuses geodesics: parallel starts converge.</text>
+
+  <!-- sphere -->
+  <circle cx="250" cy="230" r="150" fill="#111111" fill-opacity="0.04" stroke="#1a1a1a" stroke-width="1.6"/>
+  <!-- equator -->
+  <ellipse cx="250" cy="230" rx="150" ry="42" fill="none" stroke="#bbb" stroke-width="1"/>
+
+  <!-- pole -->
+  <circle cx="250" cy="80" r="4" fill="#111"/>
+  <text x="258" y="76" font-size="13" fill="#111">pole (they meet)</text>
+
+  <!-- two meridians (geodesics) starting 'parallel' at equator, converging at pole -->
+  <path d="M 190,268 C 205,190 225,120 250,80" fill="none" stroke="#0a7" stroke-width="2.6"/>
+  <path d="M 310,268 C 295,190 275,120 250,80" fill="none" stroke="#0a7" stroke-width="2.6"/>
+
+  <!-- start points on equator -->
+  <circle cx="190" cy="268" r="3.5" fill="#111"/>
+  <circle cx="310" cy="268" r="3.5" fill="#111"/>
+
+  <!-- separation vector at the equator (large) -->
+  <line x1="196" y1="272" x2="304" y2="272" stroke="#c33" stroke-width="2.4" marker-end="url(#gd)"/>
+  <text x="220" y="292" font-size="14" fill="#c33">ξ (large at start)</text>
+
+  <!-- separation vector partway up (small) -->
+  <line x1="228" y1="150" x2="272" y2="150" stroke="#c33" stroke-width="2.4" marker-end="url(#gd)"/>
+  <text x="284" y="150" font-size="13" fill="#c33">ξ shrinks</text>
+
+  <text x="60" y="392" font-size="13" fill="#111">geodesic deviation:  D²ξ/dτ² = −R·(u, ξ, u)   (tidal force in GR)</text>
+</svg>

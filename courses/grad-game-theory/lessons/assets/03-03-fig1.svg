@@ -1,0 +1,70 @@
+<svg viewBox="0 0 720 400" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="720" height="400" fill="#ffffff"/>
+
+  <text x="360" y="30" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a1a1a">Grim trigger: one defection ends cooperation forever</text>
+
+  <!-- period labels along the top -->
+  <g font-size="13" fill="#555555" text-anchor="middle">
+    <text x="105" y="72">t = 0</text>
+    <text x="205" y="72">t = 1</text>
+    <text x="305" y="72">t = 2</text>
+    <text x="405" y="72">t = 3</text>
+    <text x="505" y="72">t = 4</text>
+    <text x="605" y="72">t = 5 · · ·</text>
+  </g>
+
+  <!-- TOP ROW: cooperation forever -->
+  <text x="20" y="120" font-size="14" font-weight="bold" fill="#1a1a1a">Cooperate</text>
+  <text x="20" y="138" font-size="14" font-weight="bold" fill="#1a1a1a">forever</text>
+  <g stroke="#1a1a1a" stroke-width="2" fill="#eef3ee">
+    <rect x="75"  y="90" width="60" height="42"/>
+    <rect x="175" y="90" width="60" height="42"/>
+    <rect x="275" y="90" width="60" height="42"/>
+    <rect x="375" y="90" width="60" height="42"/>
+    <rect x="475" y="90" width="60" height="42"/>
+    <rect x="575" y="90" width="60" height="42"/>
+  </g>
+  <g font-size="16" fill="#1a1a1a" text-anchor="middle" font-weight="bold">
+    <text x="105" y="117">c</text>
+    <text x="205" y="117">c</text>
+    <text x="305" y="117">c</text>
+    <text x="405" y="117">c</text>
+    <text x="505" y="117">c</text>
+    <text x="605" y="117">c</text>
+  </g>
+  <text x="660" y="117" font-size="14" fill="#1a1a1a">→ payoff stream c, c, c, …</text>
+
+  <!-- BOTTOM ROW: deviation at t = 2 -->
+  <text x="20" y="248" font-size="14" font-weight="bold" fill="#1a1a1a">Defect</text>
+  <text x="20" y="266" font-size="14" font-weight="bold" fill="#1a1a1a">at t = 2</text>
+  <g stroke="#1a1a1a" stroke-width="2">
+    <rect x="75"  y="218" width="60" height="42" fill="#eef3ee"/>
+    <rect x="175" y="218" width="60" height="42" fill="#eef3ee"/>
+    <rect x="275" y="218" width="60" height="42" fill="#d9d9d9"/>
+    <rect x="375" y="218" width="60" height="42" fill="#f4e4e4"/>
+    <rect x="475" y="218" width="60" height="42" fill="#f4e4e4"/>
+    <rect x="575" y="218" width="60" height="42" fill="#f4e4e4"/>
+  </g>
+  <g font-size="16" fill="#1a1a1a" text-anchor="middle" font-weight="bold">
+    <text x="105" y="245">c</text>
+    <text x="205" y="245">c</text>
+    <text x="305" y="245">T</text>
+    <text x="405" y="245">p</text>
+    <text x="505" y="245">p</text>
+    <text x="605" y="245">p</text>
+  </g>
+
+  <!-- labels for the deviation box and punishment region -->
+  <text x="305" y="290" font-size="12.5" fill="#1a1a1a" text-anchor="middle">tempting grab</text>
+  <text x="305" y="305" font-size="12.5" fill="#1a1a1a" text-anchor="middle">T &gt; c</text>
+  <text x="540" y="290" font-size="12.5" fill="#1a1a1a" text-anchor="middle">punishment (stage NE) forever</text>
+  <text x="540" y="305" font-size="12.5" fill="#1a1a1a" text-anchor="middle">p &lt; c</text>
+
+  <!-- trigger line -->
+  <line x1="355" y1="200" x2="355" y2="335" stroke="#b03030" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="360" y="196" font-size="12.5" fill="#b03030">trigger fires</text>
+
+  <!-- the comparison inequality -->
+  <text x="360" y="368" text-anchor="middle" font-size="15" fill="#1a1a1a">Cooperate iff the whole c-stream beats the grab-then-punished stream:</text>
+  <text x="360" y="390" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a1a1a">c + δc + δ²c + · · ·  ≥  T + δp + δ²p + · · ·   ⇔   δ ≥ (T−c)/(T−p)</text>
+</svg>

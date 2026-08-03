@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" font-family="sans-serif">
+  <rect x="0" y="0" width="480" height="360" fill="#ffffff"/>
+  <!-- basis axes -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#333333"/>
+    </marker>
+    <marker id="arrowState" markerWidth="12" markerHeight="12" refX="8" refY="3.5" orient="auto">
+      <path d="M0,0 L8,3.5 L0,7 Z" fill="#b02020"/>
+    </marker>
+  </defs>
+
+  <!-- |0> axis (horizontal) -->
+  <line x1="90" y1="290" x2="420" y2="290" stroke="#333333" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="428" y="295" font-size="19" fill="#333333">|0&#10217;</text>
+  <!-- |1> axis (vertical) -->
+  <line x1="90" y1="290" x2="90" y2="60" stroke="#333333" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="72" y="52" font-size="19" fill="#333333">|1&#10217;</text>
+
+  <!-- projection component along |0>: c0 (thick blue on axis) -->
+  <line x1="90" y1="290" x2="262" y2="290" stroke="#1f6feb" stroke-width="5"/>
+  <text x="160" y="312" font-size="18" fill="#1f6feb">c&#8320; = &#10216;0|&#968;&#10217;</text>
+
+  <!-- projection component along |1>: c1 (thick green on axis) -->
+  <line x1="90" y1="290" x2="90" y2="170" stroke="#1a7f37" stroke-width="5"/>
+  <text x="8" y="235" font-size="18" fill="#1a7f37">c&#8321; = &#10216;1|&#968;&#10217;</text>
+
+  <!-- dashed projection guides -->
+  <line x1="262" y1="170" x2="262" y2="290" stroke="#888888" stroke-width="1.5" stroke-dasharray="5,4"/>
+  <line x1="262" y1="170" x2="90" y2="170" stroke="#888888" stroke-width="1.5" stroke-dasharray="5,4"/>
+
+  <!-- state vector |psi> -->
+  <line x1="90" y1="290" x2="262" y2="170" stroke="#b02020" stroke-width="3" marker-end="url(#arrowState)"/>
+  <text x="270" y="158" font-size="21" fill="#b02020">|&#968;&#10217;</text>
+
+  <!-- right-angle tick at origin between axes -->
+  <path d="M90,270 L110,270 L110,290" fill="none" stroke="#333333" stroke-width="1"/>
+
+  <!-- caption -->
+  <text x="240" y="345" font-size="14" fill="#555555" text-anchor="middle">|&#968;&#10217; = c&#8320;|0&#10217; + c&#8321;|1&#10217;   &#8212;   components are inner products onto each basis vector</text>
+</svg>

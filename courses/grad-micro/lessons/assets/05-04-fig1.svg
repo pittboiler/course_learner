@@ -1,0 +1,44 @@
+<svg viewBox="0 0 640 420" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="640" height="420" fill="#ffffff"/>
+
+  <!-- axes -->
+  <line x1="80" y1="360" x2="605" y2="360" stroke="#1a1a1a" stroke-width="2"/>
+  <line x1="80" y1="360" x2="80" y2="35" stroke="#1a1a1a" stroke-width="2"/>
+  <polygon points="605,360 595,355 595,365" fill="#1a1a1a"/>
+  <polygon points="80,35 75,45 85,45" fill="#1a1a1a"/>
+  <text x="500" y="385" font-size="14" fill="#1a1a1a">output (failure L / success H)</text>
+  <text x="92" y="50" font-size="14" fill="#1a1a1a">wage w</text>
+
+  <!-- output category ticks -->
+  <line x1="200" y1="356" x2="200" y2="364" stroke="#1a1a1a" stroke-width="2"/>
+  <line x1="480" y1="356" x2="480" y2="364" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="192" y="382" font-size="14" fill="#1a1a1a">L</text>
+  <text x="475" y="382" font-size="14" fill="#1a1a1a">H</text>
+
+  <!-- first-best flat wage (full insurance) at w=25 -->
+  <line x1="120" y1="146" x2="560" y2="146" stroke="#2e7d32" stroke-width="2.5" stroke-dasharray="8 4"/>
+  <text x="120" y="136" font-size="13" fill="#2e7d32">first best: flat wage 25 = full insurance</text>
+
+  <!-- second-best sloped schedule -->
+  <line x1="200" y1="283" x2="480" y2="101" stroke="#2e6da4" stroke-width="2.5"/>
+  <circle cx="200" cy="283" r="5" fill="#2e6da4"/>
+  <circle cx="480" cy="101" r="5" fill="#2e6da4"/>
+  <text x="300" y="215" font-size="13" fill="#2e6da4" transform="rotate(-24 300 215)">second best: pay rises with output</text>
+
+  <!-- wage droplines / labels for second best -->
+  <line x1="200" y1="283" x2="80" y2="283" stroke="#999999" stroke-width="1" stroke-dasharray="4 3"/>
+  <line x1="480" y1="101" x2="80" y2="101" stroke="#999999" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="86" y="299" font-size="13" fill="#1a1a1a">w_L = 9</text>
+  <text x="86" y="97" font-size="13" fill="#1a1a1a">w_H = 30.25</text>
+
+  <!-- risk borne by agent: vertical spread bracket at x=520 -->
+  <line x1="520" y1="101" x2="520" y2="283" stroke="#c0392b" stroke-width="1.6"/>
+  <polygon points="520,101 516,111 524,111" fill="#c0392b"/>
+  <polygon points="520,283 516,273 524,273" fill="#c0392b"/>
+  <text x="528" y="188" font-size="13" fill="#c0392b">risk the</text>
+  <text x="528" y="204" font-size="13" fill="#c0392b">agent bears</text>
+  <text x="528" y="220" font-size="13" fill="#c0392b">(spread)</text>
+
+  <!-- annotation: same agent utility, higher expected wage -->
+  <text x="150" y="405" font-size="12.5" fill="#555555">First best fully insures; second best tilts pay to induce effort, forcing the risk-averse agent to bear spread — a risk premium the principal pays.</text>
+</svg>

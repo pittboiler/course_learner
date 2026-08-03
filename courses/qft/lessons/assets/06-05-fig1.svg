@@ -1,0 +1,30 @@
+<svg viewBox="0 0 640 260" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="640" height="260" fill="#ffffff"/>
+  <defs><marker id="r5" markerWidth="10" markerHeight="10" refX="7" refY="3.2" orient="auto"><path d="M0,0 L7,3.2 L0,6.4 Z" fill="#111"/></marker></defs>
+  <text x="320" y="30" font-size="15" fill="#111" text-anchor="middle">Renormalization: absorb the infinity into unobservable "bare" parameters.</text>
+
+  <!-- step 1: divergent -->
+  <rect x="20" y="70" width="170" height="80" rx="8" fill="#c0392b" fill-opacity="0.08" stroke="#c0392b" stroke-width="1.6"/>
+  <text x="105" y="98" font-size="13" fill="#c0392b" text-anchor="middle">divergent loop</text>
+  <text x="105" y="122" font-size="13" fill="#111" text-anchor="middle">~ &#955;&#178; ln &#923;</text>
+  <text x="105" y="142" font-size="11.5" fill="#555" text-anchor="middle">(&#923; = cutoff)</text>
+
+  <line x1="192" y1="110" x2="232" y2="110" stroke="#111" stroke-width="1.8" marker-end="url(#r5)"/>
+
+  <!-- step 2: counterterm -->
+  <rect x="235" y="70" width="170" height="80" rx="8" fill="#1f6fb2" fill-opacity="0.08" stroke="#1f6fb2" stroke-width="1.6"/>
+  <text x="320" y="98" font-size="13" fill="#1f6fb2" text-anchor="middle">add counterterm</text>
+  <text x="320" y="122" font-size="12.5" fill="#111" text-anchor="middle">&#955;&#8320; = &#955;_R + &#948;&#955;</text>
+  <text x="320" y="142" font-size="11.5" fill="#555" text-anchor="middle">&#948;&#955; cancels ln &#923;</text>
+
+  <line x1="407" y1="110" x2="447" y2="110" stroke="#111" stroke-width="1.8" marker-end="url(#r5)"/>
+
+  <!-- step 3: finite -->
+  <rect x="450" y="70" width="170" height="80" rx="8" fill="#0a7d4f" fill-opacity="0.08" stroke="#0a7d4f" stroke-width="1.6"/>
+  <text x="535" y="98" font-size="13" fill="#0a7d4f" text-anchor="middle">finite prediction</text>
+  <text x="535" y="122" font-size="12.5" fill="#111" text-anchor="middle">&#955;_R(&#956;)</text>
+  <text x="535" y="142" font-size="11.5" fill="#555" text-anchor="middle">measured at scale &#956;</text>
+
+  <text x="320" y="200" font-size="13" fill="#111" text-anchor="middle">the bare &#955;&#8320; is not observable; only the renormalized &#955;_R is measured</text>
+  <text x="320" y="228" font-size="12.5" fill="#555" text-anchor="middle">renormalizable = finitely many counterterms suffice</text>
+</svg>

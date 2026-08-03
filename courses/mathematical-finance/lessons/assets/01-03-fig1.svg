@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 380" font-family="sans-serif">
+  <rect x="0" y="0" width="660" height="380" fill="#ffffff"/>
+
+  <!-- edges -->
+  <line x1="150" y1="190" x2="470" y2="95"  stroke="#333333" stroke-width="2"/>
+  <line x1="150" y1="190" x2="470" y2="285" stroke="#333333" stroke-width="2"/>
+
+  <!-- root node -->
+  <circle cx="120" cy="190" r="40" fill="#eef2ff" stroke="#333333" stroke-width="2"/>
+  <text x="120" y="185" text-anchor="middle" font-size="15" fill="#111111">S₀ =</text>
+  <text x="120" y="205" text-anchor="middle" font-size="15" fill="#111111">100</text>
+
+  <!-- up node -->
+  <circle cx="510" cy="95" r="42" fill="#e8f5e9" stroke="#333333" stroke-width="2"/>
+  <text x="510" y="90" text-anchor="middle" font-size="15" fill="#111111">Sᵤ = 120</text>
+  <text x="510" y="110" text-anchor="middle" font-size="13" fill="#1b5e20">Vᵤ = 15</text>
+
+  <!-- down node -->
+  <circle cx="510" cy="285" r="42" fill="#fff3e0" stroke="#333333" stroke-width="2"/>
+  <text x="510" y="280" text-anchor="middle" font-size="15" fill="#111111">S_d = 90</text>
+  <text x="510" y="300" text-anchor="middle" font-size="13" fill="#8d4b00">V_d = 0</text>
+
+  <!-- edge labels: real p (blue) vs risk-neutral q (red) -->
+  <text x="300" y="120" text-anchor="middle" font-size="14" fill="#1565c0">p = 0.7</text>
+  <text x="300" y="140" text-anchor="middle" font-size="14" fill="#c62828">q = 0.5</text>
+
+  <text x="300" y="245" text-anchor="middle" font-size="14" fill="#1565c0">1−p = 0.3</text>
+  <text x="300" y="265" text-anchor="middle" font-size="14" fill="#c62828">1−q = 0.5</text>
+
+  <!-- legend -->
+  <rect x="30" y="320" width="600" height="44" fill="#fafafa" stroke="#cccccc" stroke-width="1"/>
+  <text x="45" y="338" font-size="13" fill="#1565c0">■ p = real-world probability (drives forecasts, NOT price)</text>
+  <text x="45" y="356" font-size="13" fill="#c62828">■ q = risk-neutral probability (prices: V₀ = (1/R)·E^Q[V₁], R = 1.05)</text>
+</svg>

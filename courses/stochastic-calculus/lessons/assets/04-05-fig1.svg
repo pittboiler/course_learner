@@ -1,0 +1,28 @@
+<svg viewBox="0 0 680 280" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="680" height="280" fill="#ffffff"/>
+  <defs>
+    <marker id="fk" markerWidth="10" markerHeight="10" refX="7" refY="3.2" orient="auto">
+      <path d="M0,0 L7,3.2 L0,6.4 Z" fill="#0a7d4f"/>
+    </marker>
+  </defs>
+  <text x="340" y="32" font-size="15" fill="#111" text-anchor="middle">Feynman&#8211;Kac: an expected diffusion functional solves a parabolic PDE.</text>
+
+  <!-- left: probability side -->
+  <rect x="30" y="80" width="270" height="110" rx="8" fill="#1f6fb2" fill-opacity="0.08" stroke="#1f6fb2" stroke-width="1.8"/>
+  <text x="165" y="112" font-size="13.5" fill="#1f6fb2" text-anchor="middle">PROBABILITY</text>
+  <text x="165" y="142" font-size="14.5" fill="#111" text-anchor="middle">u(t,x) =</text>
+  <text x="165" y="166" font-size="13.5" fill="#111" text-anchor="middle">E[ e^(&#8722;r(T&#8722;t)) g(X_T) | X&#8348;=x ]</text>
+
+  <!-- bridge arrows -->
+  <line x1="305" y1="122" x2="380" y2="122" stroke="#0a7d4f" stroke-width="2" marker-end="url(#fk)"/>
+  <line x1="380" y1="150" x2="305" y2="150" stroke="#0a7d4f" stroke-width="2" marker-end="url(#fk)"/>
+
+  <!-- right: PDE side -->
+  <rect x="385" y="80" width="270" height="110" rx="8" fill="#c0532a" fill-opacity="0.08" stroke="#c0532a" stroke-width="1.8"/>
+  <text x="520" y="112" font-size="13.5" fill="#c0532a" text-anchor="middle">PDE (analysis)</text>
+  <text x="520" y="142" font-size="14.5" fill="#111" text-anchor="middle">&#8706;&#8348;u + A u &#8722; r u = 0</text>
+  <text x="520" y="166" font-size="13" fill="#555" text-anchor="middle">terminal: u(T,x) = g(x)</text>
+
+  <text x="340" y="228" font-size="13" fill="#111" text-anchor="middle">A = &#956;&#8706;&#8339; + &#189;&#963;&#178;&#8706;&#8339;&#8339;   is the generator;   demand e^(&#8722;rt)u(t,X&#8348;) be a martingale.</text>
+  <text x="340" y="252" font-size="12.5" fill="#555" text-anchor="middle">for geometric Brownian motion this PDE is the Black&#8211;Scholes equation.</text>
+</svg>

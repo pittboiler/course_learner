@@ -1,0 +1,44 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="640" height="400" fill="#ffffff"/>
+
+  <!-- axes -->
+  <line x1="80" y1="60" x2="80" y2="340" stroke="#1a1a1a" stroke-width="2"/>
+  <line x1="80" y1="340" x2="608" y2="340" stroke="#1a1a1a" stroke-width="2"/>
+  <polygon points="80,54 76,64 84,64" fill="#1a1a1a"/>
+  <polygon points="614,340 604,336 604,344" fill="#1a1a1a"/>
+  <text x="52" y="66" font-size="15" fill="#1a1a1a">price</text>
+  <text x="60" y="82" font-size="15" fill="#1a1a1a">p</text>
+  <text x="560" y="366" font-size="15" fill="#1a1a1a">quantity Q</text>
+
+  <!-- firm 1 supply: q1 = p, from p=0 to p=5 -->
+  <line x1="80" y1="340" x2="340" y2="60" stroke="#2b6cb0" stroke-width="2"/>
+  <text x="346" y="66" font-size="14" fill="#2b6cb0">S₁</text>
+
+  <!-- firm 2 supply: q2 = 2(p-2), from p=2 (q=0) to p=5 (q=6) -->
+  <line x1="184" y1="228" x2="392" y2="60" stroke="#2f855a" stroke-width="2"/>
+  <text x="398" y="66" font-size="14" fill="#2f855a">S₂</text>
+
+  <!-- industry supply S = S1 + S2, kink at p=2 -->
+  <polyline points="80,340 184,228 574,88" fill="none" stroke="#9b2c2c" stroke-width="3.5"/>
+  <text x="556" y="80" font-size="14" fill="#9b2c2c" font-weight="bold">S = S₁+S₂</text>
+  <!-- kink marker -->
+  <circle cx="184" cy="228" r="3.5" fill="#9b2c2c"/>
+  <text x="150" y="222" font-size="12" fill="#9b2c2c">kink</text>
+
+  <!-- horizontal-summation slice at p = 3 (y = 172) -->
+  <line x1="80" y1="172" x2="340" y2="172" stroke="#1a1a1a" stroke-width="1" stroke-dasharray="5 4"/>
+  <text x="40" y="177" font-size="13" fill="#1a1a1a">p̄</text>
+
+  <!-- points on the three curves at p=3 -->
+  <circle cx="184" cy="172" r="4" fill="#2f855a"/>
+  <circle cx="236" cy="172" r="4" fill="#2b6cb0"/>
+  <circle cx="340" cy="172" r="4" fill="#9b2c2c"/>
+
+  <!-- braces: q2 (green) then q1 (blue) sum to Q (red) along y=172 -->
+  <text x="120" y="164" font-size="12" fill="#2b6cb0">q₁</text>
+  <text x="196" y="164" font-size="12" fill="#2f855a">q₂</text>
+  <text x="300" y="192" font-size="13" fill="#9b2c2c">Q = q₁+q₂</text>
+
+  <!-- caption -->
+  <text x="80" y="392" font-size="13" fill="#1a1a1a">At each price, add quantities sideways: industry supply is the horizontal sum of firm supplies.</text>
+</svg>

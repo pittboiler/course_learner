@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 400">
+  <rect x="0" y="0" width="660" height="400" fill="#ffffff"/>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#1a1a1a"/>
+    </marker>
+    <marker id="barrow" markerWidth="12" markerHeight="12" refX="9" refY="3.5" orient="auto">
+      <path d="M0,0 L9,3.5 L0,7 Z" fill="#b3261e"/>
+    </marker>
+  </defs>
+
+  <!-- time axis labels -->
+  <text x="100" y="30" font-family="sans-serif" font-size="15" font-weight="bold" text-anchor="middle" fill="#555">t = 0</text>
+  <text x="330" y="30" font-family="sans-serif" font-size="15" font-weight="bold" text-anchor="middle" fill="#555">t = 1</text>
+  <text x="560" y="30" font-family="sans-serif" font-size="15" font-weight="bold" text-anchor="middle" fill="#555">t = 2</text>
+
+  <!-- forward tree edges -->
+  <g stroke="#1a1a1a" stroke-width="1.6" fill="none">
+    <line x1="118" y1="192" x2="312" y2="118"/>
+    <line x1="118" y1="208" x2="312" y2="282"/>
+    <line x1="348" y1="102" x2="542" y2="62"/>
+    <line x1="348" y1="118" x2="542" y2="192"/>
+    <line x1="348" y1="282" x2="542" y2="208"/>
+    <line x1="348" y1="298" x2="542" y2="342"/>
+  </g>
+
+  <!-- edge labels u / d -->
+  <text x="205" y="140" font-family="sans-serif" font-size="13" fill="#1a5e1a">u = 1.2</text>
+  <text x="205" y="268" font-family="sans-serif" font-size="13" fill="#b3261e">d = 0.8</text>
+
+  <!-- backward-induction arrows (right -> left, in red) -->
+  <g stroke="#b3261e" stroke-width="1.6" fill="none" stroke-dasharray="5 4">
+    <path d="M540,80 C450,110 420,110 358,110" marker-end="url(#barrow)"/>
+    <path d="M310,140 C240,170 210,180 122,196" marker-end="url(#barrow)"/>
+  </g>
+
+  <!-- nodes -->
+  <g fill="#1a1a1a">
+    <circle cx="100" cy="200" r="6"/>
+    <circle cx="330" cy="110" r="6"/>
+    <circle cx="330" cy="290" r="6"/>
+    <circle cx="560" cy="55" r="6"/>
+    <circle cx="560" cy="200" r="6"/>
+    <circle cx="560" cy="345" r="6"/>
+  </g>
+
+  <!-- root labels -->
+  <text x="60" y="185" font-family="sans-serif" font-size="14" fill="#1a1a1a">S = 100</text>
+  <text x="60" y="235" font-family="sans-serif" font-size="14" font-weight="bold" fill="#1a5276">V = 20.45</text>
+
+  <!-- up node -->
+  <text x="300" y="95" font-family="sans-serif" font-size="14" text-anchor="end" fill="#1a1a1a">S = 120</text>
+  <text x="300" y="140" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="end" fill="#1a5276">V = 30</text>
+
+  <!-- down node -->
+  <text x="300" y="285" font-family="sans-serif" font-size="14" text-anchor="end" fill="#1a1a1a">S = 80</text>
+  <text x="300" y="312" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="end" fill="#1a5276">V = 0</text>
+
+  <!-- terminal nodes -->
+  <text x="578" y="50" font-family="sans-serif" font-size="14" fill="#1a1a1a">S = 144</text>
+  <text x="578" y="68" font-family="sans-serif" font-size="14" font-weight="bold" fill="#1a5e1a">payoff = 44</text>
+
+  <text x="578" y="195" font-family="sans-serif" font-size="14" fill="#1a1a1a">S = 96</text>
+  <text x="578" y="213" font-family="sans-serif" font-size="14" font-weight="bold" fill="#b3261e">payoff = 0</text>
+
+  <text x="578" y="340" font-family="sans-serif" font-size="14" fill="#1a1a1a">S = 64</text>
+  <text x="578" y="358" font-family="sans-serif" font-size="14" font-weight="bold" fill="#b3261e">payoff = 0</text>
+
+  <!-- caption for backward induction -->
+  <text x="330" y="378" font-family="sans-serif" font-size="12.5" text-anchor="middle" fill="#b3261e">backward induction:  V = (1/R)[ q·V(up) + (1−q)·V(dn) ],  q = 0.75</text>
+</svg>

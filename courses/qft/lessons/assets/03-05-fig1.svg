@@ -1,0 +1,35 @@
+<svg viewBox="0 0 620 320" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="620" height="320" fill="#ffffff"/>
+  <text x="310" y="28" font-size="15" fill="#111" text-anchor="middle">Feynman rules for &#966;&#8308;: translate each piece of a diagram into a factor.</text>
+
+  <!-- vertex -->
+  <g transform="translate(60,70)">
+    <circle cx="60" cy="45" r="6" fill="#c0532a"/>
+    <line x1="20" y1="10" x2="60" y2="45" stroke="#1f6fb2" stroke-width="2"/>
+    <line x1="20" y1="80" x2="60" y2="45" stroke="#1f6fb2" stroke-width="2"/>
+    <line x1="100" y1="10" x2="60" y2="45" stroke="#1f6fb2" stroke-width="2"/>
+    <line x1="100" y1="80" x2="60" y2="45" stroke="#1f6fb2" stroke-width="2"/>
+    <text x="60" y="115" font-size="14" fill="#c0532a" text-anchor="middle">&#8722;i&#955;</text>
+    <text x="60" y="135" font-size="11.5" fill="#555" text-anchor="middle">vertex</text>
+  </g>
+
+  <!-- internal line -->
+  <g transform="translate(280,70)">
+    <line x1="10" y1="45" x2="110" y2="45" stroke="#111" stroke-width="2.4"/>
+    <text x="60" y="115" font-size="14" fill="#111" text-anchor="middle">i / (p&#178;&#8722;m&#178;+i&#949;)</text>
+    <text x="60" y="135" font-size="11.5" fill="#555" text-anchor="middle">internal line (propagator)</text>
+  </g>
+
+  <!-- external line -->
+  <g transform="translate(480,70)">
+    <line x1="10" y1="45" x2="90" y2="45" stroke="#0a7d4f" stroke-width="2.4"/>
+    <circle cx="90" cy="45" r="4" fill="#0a7d4f"/>
+    <text x="50" y="115" font-size="14" fill="#0a7d4f" text-anchor="middle">1</text>
+    <text x="50" y="135" font-size="11.5" fill="#555" text-anchor="middle">external leg</text>
+  </g>
+
+  <!-- extra rules -->
+  <line x1="40" y1="235" x2="580" y2="235" stroke="#ddd" stroke-width="1"/>
+  <text x="310" y="262" font-size="13.5" fill="#111" text-anchor="middle">&#183; momentum conservation at each vertex   &#183; &#8747; d&#8308;&#8467;/(2&#960;)&#8308; per loop</text>
+  <text x="310" y="286" font-size="13.5" fill="#111" text-anchor="middle">&#183; divide by the symmetry factor S   &#8658;   i&#8499; = sum over diagrams</text>
+</svg>

@@ -1,0 +1,44 @@
+<svg viewBox="0 0 560 360" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif" font-size="13">
+  <rect x="0" y="0" width="560" height="360" fill="#ffffff"/>
+
+  <!-- top node -->
+  <rect x="180" y="16" width="200" height="42" rx="6" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="280" y="34" fill="#1a1a1a" text-anchor="middle">K compact — study</text>
+  <text x="280" y="50" fill="#1a1a1a" text-anchor="middle" font-weight="bold">I − K</text>
+
+  <!-- fork lines -->
+  <line x1="280" y1="58" x2="130" y2="104" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="280" y1="58" x2="430" y2="104" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="185" y="82" fill="#1a1a1a" font-style="italic">either (a)</text>
+  <text x="330" y="82" fill="#1a1a1a" font-style="italic">or (b)</text>
+
+  <!-- left branch: injective -->
+  <rect x="20" y="104" width="220" height="46" rx="6" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="130" y="124" fill="#1a1a1a" text-anchor="middle">ker(I − K) = {0}</text>
+  <text x="130" y="142" fill="#1a1a1a" text-anchor="middle" font-style="italic">only trivial homogeneous soln</text>
+
+  <line x1="130" y1="150" x2="130" y2="186" stroke="#1a1a1a" stroke-width="1.5"/>
+  <polygon points="130,192 125,182 135,182" fill="#1a1a1a"/>
+
+  <rect x="20" y="192" width="220" height="64" rx="6" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="130" y="214" fill="#1a1a1a" text-anchor="middle" font-weight="bold">I − K is bijective</text>
+  <text x="130" y="234" fill="#1a1a1a" text-anchor="middle">(I − K)x = y has a unique</text>
+  <text x="130" y="250" fill="#1a1a1a" text-anchor="middle">solution for every y</text>
+
+  <!-- right branch: nontrivial kernel -->
+  <rect x="320" y="104" width="220" height="46" rx="6" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="430" y="124" fill="#1a1a1a" text-anchor="middle">dim ker(I − K) = d ≥ 1</text>
+  <text x="430" y="142" fill="#1a1a1a" text-anchor="middle" font-style="italic">nontrivial homogeneous solns</text>
+
+  <line x1="430" y1="150" x2="430" y2="186" stroke="#1a1a1a" stroke-width="1.5"/>
+  <polygon points="430,192 425,182 435,182" fill="#1a1a1a"/>
+
+  <rect x="320" y="192" width="220" height="64" rx="6" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="430" y="214" fill="#1a1a1a" text-anchor="middle" font-weight="bold">solvable ⟺ y ⊥ ker(I − K*)</text>
+  <text x="430" y="234" fill="#1a1a1a" text-anchor="middle">dim ker(I − K*) = d,</text>
+  <text x="430" y="250" fill="#1a1a1a" text-anchor="middle">so index = 0</text>
+
+  <!-- caption -->
+  <text x="280" y="300" fill="#1a1a1a" text-anchor="middle" font-style="italic">Exactly one branch holds. Injective ⟺ surjective — the finite-dimensional dichotomy,</text>
+  <text x="280" y="318" fill="#1a1a1a" text-anchor="middle" font-style="italic">restored for I − (compact).</text>
+</svg>

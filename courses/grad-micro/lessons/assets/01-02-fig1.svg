@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 460" font-family="sans-serif">
+  <rect x="0" y="0" width="700" height="460" fill="#ffffff"/>
+
+  <!-- title -->
+  <text x="350" y="34" text-anchor="middle" font-size="18" font-weight="bold" fill="#1a1a1a">At the optimum the gradients are parallel: level set tangent to constraint</text>
+
+  <!-- axes -->
+  <line x1="90" y1="60" x2="90" y2="410" stroke="#1a1a1a" stroke-width="2"/>
+  <line x1="90" y1="410" x2="620" y2="410" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="70" y="70" text-anchor="middle" font-size="15" fill="#1a1a1a">y</text>
+  <text x="628" y="415" font-size="15" fill="#1a1a1a">x</text>
+  <text x="82" y="405" text-anchor="end" font-size="13" fill="#1a1a1a">0</text>
+
+  <!-- indifference / level curves of f (xy = const) -->
+  <!-- inner -->
+  <polyline points="132,166 146,222 174,278 202,306 258,334 314,348 360,356" fill="none" stroke="#7a7a7a" stroke-width="2"/>
+  <!-- tangent curve xy = 25 -->
+  <polyline points="160,110 174,157 202,215 230,250 265,278 323,306 370,320 410,330" fill="none" stroke="#0b60b0" stroke-width="2.5"/>
+  <!-- outer -->
+  <polyline points="188,74 230,155 269,206 325,250 370,272 398,284 430,292" fill="none" stroke="#7a7a7a" stroke-width="2"/>
+
+  <text x="150" y="105" font-size="13" fill="#7a7a7a">lower f</text>
+  <text x="435" y="300" font-size="13" fill="#7a7a7a">higher f</text>
+  <text x="322" y="335" font-size="14" fill="#0b60b0">f(x,y)=c*</text>
+
+  <!-- direction of increasing f arrow -->
+  <line x1="150" y1="360" x2="200" y2="330" stroke="#7a7a7a" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <polygon points="200,330 191,331 197,338" fill="#7a7a7a"/>
+
+  <!-- budget line: x + y = m, from (90,110) to (370,390) -->
+  <line x1="90" y1="110" x2="370" y2="390" stroke="#b02020" stroke-width="2.5"/>
+  <text x="250" y="150" font-size="14" fill="#b02020">g(x,y)=p_1x+p_2y=m</text>
+
+  <!-- tangency point -->
+  <circle cx="230" cy="250" r="5.5" fill="#111111"/>
+  <text x="238" y="272" font-size="14" fill="#111111">(x*, y*)</text>
+
+  <!-- gradient of f (points toward higher f, normal to level curve) -->
+  <line x1="230" y1="250" x2="288" y2="192" stroke="#0b60b0" stroke-width="3"/>
+  <polygon points="288,192 275,196 284,205" fill="#0b60b0"/>
+  <text x="292" y="188" font-size="15" fill="#0b60b0" font-weight="bold">&#8711;f</text>
+
+  <!-- gradient of g (normal to budget line, parallel to grad f) -->
+  <line x1="260" y1="228" x2="300" y2="188" stroke="#b02020" stroke-width="2.5" stroke-dasharray="6 4"/>
+  <polygon points="300,188 289,190 296,199" fill="#b02020"/>
+  <text x="304" y="182" font-size="15" fill="#b02020" font-weight="bold">&#8711;g</text>
+
+  <!-- parallel note -->
+  <text x="350" y="248" font-size="14" fill="#1a1a1a">&#8711;f = &#955; &#8711;g</text>
+  <text x="350" y="268" font-size="12" fill="#555555">(same direction &#8658; &#955; &gt; 0 here)</text>
+
+  <!-- caption -->
+  <text x="350" y="440" text-anchor="middle" font-size="13" fill="#555555">Push to a higher level curve until it just kisses the constraint line — one touch, no crossing.</text>
+</svg>

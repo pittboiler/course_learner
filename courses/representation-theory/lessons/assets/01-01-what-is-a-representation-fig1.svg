@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 320" font-family="sans-serif">
+  <rect x="0" y="0" width="420" height="320" fill="#ffffff"/>
+
+  <!-- reflection axes (dashed) -->
+  <line x1="210" y1="28" x2="210" y2="252" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <line x1="86" y1="219" x2="330" y2="130" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <line x1="334" y1="219" x2="90" y2="130" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="6 5"/>
+
+  <!-- triangle -->
+  <polygon points="210,50 106,230 314,230" fill="none" stroke="#1a1a1a" stroke-width="2.5"/>
+
+  <!-- vertices -->
+  <circle cx="210" cy="50" r="5" fill="#1a1a1a"/>
+  <circle cx="106" cy="230" r="5" fill="#1a1a1a"/>
+  <circle cx="314" cy="230" r="5" fill="#1a1a1a"/>
+  <text x="210" y="38" fill="#1a1a1a" font-size="18" font-weight="bold" text-anchor="middle">1</text>
+  <text x="92" y="246" fill="#1a1a1a" font-size="18" font-weight="bold" text-anchor="middle">2</text>
+  <text x="328" y="246" fill="#1a1a1a" font-size="18" font-weight="bold" text-anchor="middle">3</text>
+
+  <!-- rotation arrow around center -->
+  <path d="M 244 170 A 40 40 0 1 1 176 170" fill="none" stroke="#2471a3" stroke-width="2.5"/>
+  <polygon points="176,170 168,162 176,182" fill="#2471a3"/>
+  <text x="210" y="176" fill="#2471a3" font-size="14" font-weight="bold" text-anchor="middle">r: 120&#176;</text>
+
+  <!-- labels -->
+  <text x="210" y="286" fill="#c0392b" font-size="13" text-anchor="middle">3 reflection axes (s and its rotations)</text>
+  <text x="210" y="306" fill="#2471a3" font-size="13" text-anchor="middle">rotation r generates the 3-fold symmetry</text>
+</svg>

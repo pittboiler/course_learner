@@ -1,0 +1,37 @@
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="700" height="400" fill="#ffffff"/>
+
+  <!-- Big box: all sequences -->
+  <rect x="40" y="55" width="620" height="300" fill="#f4f4f4" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="350" y="40" font-size="19" fill="#1a1a1a" text-anchor="middle" font-weight="bold">All length-$n$ sequences</text>
+  <text x="55" y="80" font-size="16" fill="#555555">total count = |X|^n = 2^{n log|X|}</text>
+
+  <!-- scattered dots = atypical sequences (nearly all the room, almost none of the mass) -->
+  <g fill="#bbbbbb">
+    <circle cx="110" cy="130" r="3"/><circle cx="180" cy="110" r="3"/><circle cx="600" cy="120" r="3"/>
+    <circle cx="560" cy="180" r="3"/><circle cx="620" cy="260" r="3"/><circle cx="110" cy="300" r="3"/>
+    <circle cx="90" cy="220" r="3"/><circle cx="200" cy="320" r="3"/><circle cx="640" cy="330" r="3"/>
+    <circle cx="150" cy="250" r="3"/><circle cx="600" cy="200" r="3"/><circle cx="130" cy="180" r="3"/>
+    <circle cx="580" cy="310" r="3"/><circle cx="90" cy="330" r="3"/><circle cx="620" cy="90" r="3"/>
+  </g>
+
+  <!-- the single most-probable sequence (e.g. all-heads): most likely, yet OUTSIDE the typical set -->
+  <circle cx="115" cy="150" r="5" fill="#1a1a1a"/>
+  <text x="60" y="115" font-size="13" fill="#1a1a1a">most probable</text>
+  <text x="60" y="131" font-size="13" fill="#1a1a1a">single sequence</text>
+  <text x="70" y="176" font-size="13" fill="#666666">(atypical!)</text>
+  <line x1="118" y1="147" x2="128" y2="140" stroke="#1a1a1a" stroke-width="1"/>
+
+  <!-- Typical set blob -->
+  <ellipse cx="365" cy="205" rx="120" ry="82" fill="#c9ddf0" stroke="#1a1a1a" stroke-width="2.5"/>
+  <text x="365" y="190" font-size="18" fill="#1a1a1a" text-anchor="middle" font-weight="bold">Typical set A_e</text>
+  <text x="365" y="215" font-size="15" fill="#1a1a1a" text-anchor="middle">~ 2^{nH} sequences</text>
+  <text x="365" y="238" font-size="15" fill="#1a1a1a" text-anchor="middle">holds ~ ALL the probability</text>
+
+  <!-- callout: each typical sequence prob -->
+  <text x="350" y="378" font-size="15" fill="#1a1a1a" text-anchor="middle">each typical sequence has probability ~ 2^{-nH}</text>
+
+  <!-- key inequality -->
+  <text x="500" y="330" font-size="17" fill="#1a1a1a" text-anchor="middle" font-weight="bold">2^{nH}  &#8810;  |X|^n</text>
+  <text x="500" y="352" font-size="13" fill="#666666" text-anchor="middle">(tiny fraction of the box)</text>
+</svg>

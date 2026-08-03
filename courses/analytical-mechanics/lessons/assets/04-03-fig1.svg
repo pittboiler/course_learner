@@ -1,4 +1,4 @@
-<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13"><rect x="0" y="0" width="560" height="350" fill="#ffffff"/>
   <!-- ============ SYMMETRIC MODE (row 1) ============ -->
   <text x="45" y="30" fill="#8a8a8a" font-style="italic">Symmetric mode: masses move in phase — middle spring never stretches — lower frequency</text>
 

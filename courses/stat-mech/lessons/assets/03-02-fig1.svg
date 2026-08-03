@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 430" font-family="sans-serif">
+  <rect x="0" y="0" width="720" height="430" fill="#ffffff"/>
+
+  <text x="360" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">Know Z, know everything</text>
+
+  <!-- Z node -->
+  <rect x="270" y="48" width="180" height="60" rx="10" fill="#eef4ff" stroke="#1a4fa0" stroke-width="2.5"/>
+  <text x="360" y="74" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a4fa0">partition function</text>
+  <text x="360" y="98" text-anchor="middle" font-size="16" fill="#111111">Z = &#8721;&#8347; e&#8315;&#946;&#7431;&#7480;</text>
+
+  <!-- arrow Z -> ln Z -->
+  <line x1="360" y1="108" x2="360" y2="140" stroke="#333333" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="378" y="128" font-size="12" fill="#555555" font-style="italic">take log</text>
+
+  <!-- ln Z node -->
+  <rect x="290" y="144" width="140" height="46" rx="8" fill="#fff4e8" stroke="#b5651d" stroke-width="2.5"/>
+  <text x="360" y="173" text-anchor="middle" font-size="18" fill="#111111" font-weight="bold">ln Z</text>
+
+  <!-- branch lines from ln Z to leaves -->
+  <line x1="360" y1="190" x2="100" y2="300" stroke="#999999" stroke-width="2" marker-end="url(#arrow2)"/>
+  <line x1="360" y1="190" x2="230" y2="300" stroke="#999999" stroke-width="2" marker-end="url(#arrow2)"/>
+  <line x1="360" y1="190" x2="360" y2="300" stroke="#999999" stroke-width="2" marker-end="url(#arrow2)"/>
+  <line x1="360" y1="190" x2="490" y2="300" stroke="#999999" stroke-width="2" marker-end="url(#arrow2)"/>
+  <line x1="360" y1="190" x2="620" y2="300" stroke="#999999" stroke-width="2" marker-end="url(#arrow2)"/>
+
+  <!-- leaf: <E> -->
+  <rect x="40" y="306" width="120" height="86" rx="8" fill="#e9f7ee" stroke="#1c7a43" stroke-width="2"/>
+  <text x="100" y="330" text-anchor="middle" font-size="14" font-weight="bold" fill="#1c7a43">energy</text>
+  <text x="100" y="356" text-anchor="middle" font-size="15" fill="#111111">&#10216;E&#10217; =</text>
+  <text x="100" y="378" text-anchor="middle" font-size="15" fill="#111111">&#8722;&#8706;&#946; ln Z</text>
+
+  <!-- leaf: C_V / Var -->
+  <rect x="170" y="306" width="120" height="86" rx="8" fill="#e9f7ee" stroke="#1c7a43" stroke-width="2"/>
+  <text x="230" y="330" text-anchor="middle" font-size="14" font-weight="bold" fill="#1c7a43">fluctuations</text>
+  <text x="230" y="356" text-anchor="middle" font-size="15" fill="#111111">Var(E) =</text>
+  <text x="230" y="378" text-anchor="middle" font-size="15" fill="#111111">&#8706;&#946;&#178; ln Z</text>
+
+  <!-- leaf: F -->
+  <rect x="300" y="306" width="120" height="86" rx="8" fill="#e9f7ee" stroke="#1c7a43" stroke-width="2"/>
+  <text x="360" y="330" text-anchor="middle" font-size="14" font-weight="bold" fill="#1c7a43">free energy</text>
+  <text x="360" y="356" text-anchor="middle" font-size="15" fill="#111111">F =</text>
+  <text x="360" y="378" text-anchor="middle" font-size="15" fill="#111111">&#8722;k&#8342;T ln Z</text>
+
+  <!-- leaf: S -->
+  <rect x="430" y="306" width="120" height="86" rx="8" fill="#e9f7ee" stroke="#1c7a43" stroke-width="2"/>
+  <text x="490" y="330" text-anchor="middle" font-size="14" font-weight="bold" fill="#1c7a43">entropy</text>
+  <text x="490" y="356" text-anchor="middle" font-size="14" fill="#111111">S = k&#8342;(ln Z</text>
+  <text x="490" y="378" text-anchor="middle" font-size="14" fill="#111111">+ &#946;&#10216;E&#10217;)</text>
+
+  <!-- leaf: p -->
+  <rect x="560" y="306" width="120" height="86" rx="8" fill="#e9f7ee" stroke="#1c7a43" stroke-width="2"/>
+  <text x="620" y="330" text-anchor="middle" font-size="14" font-weight="bold" fill="#1c7a43">pressure</text>
+  <text x="620" y="356" text-anchor="middle" font-size="15" fill="#111111">p =</text>
+  <text x="620" y="378" text-anchor="middle" font-size="14" fill="#111111">k&#8342;T &#8706;&#7515; ln Z</text>
+
+  <text x="360" y="416" text-anchor="middle" font-size="13" fill="#555555" font-style="italic">one function, differentiated in &#946; or V &#8212; all of thermodynamics falls out</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#333333"/>
+    </marker>
+    <marker id="arrow2" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#999999"/>
+    </marker>
+  </defs>
+</svg>

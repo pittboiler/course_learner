@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340">
+  <rect x="0" y="0" width="720" height="340" fill="#ffffff"/>
+  <style>
+    .lbl { font-family: sans-serif; font-size: 15px; fill: #222; }
+    .cap { font-family: sans-serif; font-size: 14px; fill: #444; }
+    .tiny { font-family: sans-serif; font-size: 12px; fill: #666; }
+    .blk { font-family: sans-serif; font-size: 16px; fill: #111; font-weight: bold; }
+  </style>
+
+  <!-- ============ LEFT: block upper-triangular (reducible) ============ -->
+  <text x="130" y="34" class="cap" text-anchor="middle">Reducible</text>
+  <text x="130" y="52" class="tiny" text-anchor="middle">block-UPPER-triangular</text>
+
+  <!-- matrix bracket -->
+  <rect x="55" y="70" width="150" height="150" fill="none" stroke="#111" stroke-width="2"/>
+  <!-- top-left block (subrep on W) -->
+  <rect x="60" y="75" width="70" height="70" fill="#cfe3ff" stroke="#2b6cb0" stroke-width="1.5"/>
+  <text x="95" y="116" class="blk" text-anchor="middle" fill="#1a4e8a">A</text>
+  <!-- bottom-right block -->
+  <rect x="135" y="150" width="65" height="65" fill="#dfe7ee" stroke="#5a6b7a" stroke-width="1.5"/>
+  <text x="167" y="188" class="blk" text-anchor="middle" fill="#3d4a57">C</text>
+  <!-- upper-right off-diagonal (nonzero) -->
+  <rect x="135" y="75" width="65" height="70" fill="#ffe3c2" stroke="#c07a2b" stroke-width="1.5"/>
+  <text x="167" y="116" class="blk" text-anchor="middle" fill="#a8611f">B</text>
+  <!-- lower-left zero -->
+  <text x="95" y="188" class="lbl" text-anchor="middle" fill="#999">0</text>
+
+  <text x="130" y="245" class="tiny" text-anchor="middle">W invariant, W&#8869; is NOT</text>
+
+  <!-- ============ RIGHT: block-diagonal (completely reducible) ============ -->
+  <text x="430" y="34" class="cap" text-anchor="middle">Completely reducible</text>
+  <text x="430" y="52" class="tiny" text-anchor="middle">block-DIAGONAL  =  &#961;&#8321; &#8853; &#961;&#8322;</text>
+
+  <rect x="355" y="70" width="150" height="150" fill="none" stroke="#111" stroke-width="2"/>
+  <rect x="360" y="75" width="70" height="70" fill="#cfe3ff" stroke="#2b6cb0" stroke-width="1.5"/>
+  <text x="395" y="116" class="blk" text-anchor="middle" fill="#1a4e8a">A</text>
+  <rect x="435" y="150" width="65" height="65" fill="#dfe7ee" stroke="#5a6b7a" stroke-width="1.5"/>
+  <text x="467" y="188" class="blk" text-anchor="middle" fill="#3d4a57">C</text>
+  <text x="467" y="116" class="lbl" text-anchor="middle" fill="#999">0</text>
+  <text x="395" y="188" class="lbl" text-anchor="middle" fill="#999">0</text>
+
+  <text x="430" y="245" class="tiny" text-anchor="middle">W and W&#8869; both invariant</text>
+
+  <!-- arrow between -->
+  <line x1="225" y1="145" x2="345" y2="145" stroke="#2b8a3e" stroke-width="2.5" marker-end="url(#ar)"/>
+  <text x="285" y="135" class="tiny" text-anchor="middle" fill="#2b8a3e">unitary</text>
+  <text x="285" y="163" class="tiny" text-anchor="middle" fill="#2b8a3e">Maschke</text>
+
+  <!-- ============ BOTTOM: permutation rep splitting ============ -->
+  <text x="360" y="288" class="lbl" text-anchor="middle">
+    <tspan fill="#111">&#8450;&#8319; </tspan>
+    <tspan fill="#1a4e8a">= &#10216;(1,1,&#8230;,1)&#10217;</tspan>
+    <tspan fill="#111"> &#8853; </tspan>
+    <tspan fill="#a8611f">{ x : &#931; x&#7522; = 0 }</tspan>
+  </text>
+  <text x="360" y="312" class="tiny" text-anchor="middle">
+    <tspan fill="#1a4e8a">trivial (1-dim)</tspan>
+    <tspan fill="#666">        </tspan>
+    <tspan fill="#a8611f">standard ((n&#8722;1)-dim)</tspan>
+  </text>
+
+  <defs>
+    <marker id="ar" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#2b8a3e"/>
+    </marker>
+  </defs>
+</svg>

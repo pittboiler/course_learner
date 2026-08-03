@@ -1,0 +1,38 @@
+<svg viewBox="0 0 560 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- outer boundary of phase space (Gamma-space) -->
+  <ellipse cx="280" cy="205" rx="250" ry="170" fill="none" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="5 5"/>
+
+  <!-- energy shell: annulus between H=E (inner) and H=E+dE (outer) -->
+  <path fill="#e0645c" opacity="0.16" fill-rule="evenodd"
+        d="M 95 205 a 185 125 0 1 0 370 0 a 185 125 0 1 0 -370 0 Z
+           M 135 205 a 145 88 0 1 0 290 0 a 145 88 0 1 0 -290 0 Z"/>
+
+  <!-- outer energy surface H = E + dE -->
+  <ellipse cx="280" cy="205" rx="185" ry="125" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <!-- inner energy surface H = E -->
+  <ellipse cx="280" cy="205" rx="145" ry="88" fill="none" stroke="#e0645c" stroke-width="2"/>
+
+  <!-- wandering Hamiltonian trajectory, confined to the shell -->
+  <path fill="none" stroke="#4a90d9" stroke-width="2.5" stroke-linejoin="round"
+        d="M 445 205 L 413 155 L 368 107 L 280 103 L 193 108 L 146 155 L 110 205
+           L 143 256 L 194 301 L 280 307 L 367 302 L 414 255 L 445 205"/>
+
+  <!-- current microstate: one point on the trajectory -->
+  <circle cx="414" cy="255" r="5.5" fill="#4a90d9"/>
+  <text x="424" y="278" fill="#4a90d9">microstate (t)</text>
+
+  <!-- labels -->
+  <text x="220" y="30" fill="#8a8a8a" font-style="italic">Γ-space: the 6N-dimensional arena</text>
+  <text x="228" y="205" fill="#e0645c" text-anchor="middle">energy shell</text>
+  <text x="228" y="223" fill="#e0645c" text-anchor="middle">E ≤ H ≤ E+dE</text>
+
+  <!-- pointer to outer surface -->
+  <line x1="465" y1="120" x2="452" y2="140" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="470" y="118" fill="#8a8a8a">H = E + dE</text>
+  <!-- pointer to inner surface -->
+  <line x1="60" y1="300" x2="150" y2="255" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="18" y="315" fill="#8a8a8a">H = E</text>
+
+  <!-- caption -->
+  <text x="30" y="390" fill="#8a8a8a" font-style="italic">One system = one point tracing a curve; it never leaves the shell, because energy is conserved.</text>
+</svg>

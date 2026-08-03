@@ -1,0 +1,63 @@
+<svg viewBox="0 0 720 380" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="720" height="380" fill="#ffffff"/>
+
+  <!-- ===================== LEFT PANEL: indifference map + MRS ===================== -->
+  <text x="70" y="28" font-size="15" font-weight="bold" fill="#1a1a1a">Indifference map — MRS is the slope</text>
+
+  <!-- axes -->
+  <line x1="70" y1="40" x2="70" y2="300" stroke="#1a1a1a" stroke-width="2"/>
+  <line x1="70" y1="300" x2="335" y2="300" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="40" y="52" font-size="13" fill="#1a1a1a">x₂</text>
+  <text x="320" y="322" font-size="13" fill="#1a1a1a">x₁</text>
+
+  <!-- three convex-to-origin indifference curves, utility rising to NE -->
+  <path d="M 92 170 C 125 245, 190 278, 308 288" fill="none" stroke="#2b6cb0" stroke-width="2.4"/>
+  <path d="M 96 113 C 135 210, 200 260, 330 281" fill="none" stroke="#2b6cb0" stroke-width="2.4"/>
+  <path d="M 122 100 C 150 190, 220 240, 330 268" fill="none" stroke="#2b6cb0" stroke-width="2.4"/>
+
+  <!-- utility-increasing arrow toward NE -->
+  <line x1="120" y1="250" x2="270" y2="140" stroke="#718096" stroke-width="1.6" stroke-dasharray="4 4" marker-end="url(#arrowGray)"/>
+  <text x="250" y="130" font-size="12" fill="#718096">u increases</text>
+
+  <!-- tangent line showing MRS at a point on the middle curve -->
+  <line x1="114" y1="216" x2="210" y2="278" stroke="#c53030" stroke-width="2.2"/>
+  <circle cx="157" cy="244" r="4" fill="#c53030"/>
+  <text x="163" y="240" font-size="12" fill="#c53030">slope = −MRS</text>
+
+  <text x="300" y="200" font-size="12" fill="#2b6cb0">u = const</text>
+
+  <!-- ===================== RIGHT PANEL: convexity ===================== -->
+  <text x="420" y="28" font-size="15" font-weight="bold" fill="#1a1a1a">Convex: the average beats the extremes</text>
+
+  <!-- axes -->
+  <line x1="420" y1="40" x2="420" y2="300" stroke="#1a1a1a" stroke-width="2"/>
+  <line x1="420" y1="300" x2="690" y2="300" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="392" y="52" font-size="13" fill="#1a1a1a">x₂</text>
+  <text x="675" y="322" font-size="13" fill="#1a1a1a">x₁</text>
+
+  <!-- lower indifference curve through x and y -->
+  <path d="M 445 130 C 480 230, 545 265, 660 280" fill="none" stroke="#2b6cb0" stroke-width="2.4"/>
+  <!-- higher indifference curve through the midpoint -->
+  <path d="M 465 118 C 505 205, 560 226, 675 258" fill="none" stroke="#2b6cb0" stroke-width="2.4" stroke-dasharray="1 0" opacity="0.55"/>
+
+  <!-- chord between x and y -->
+  <line x1="485" y1="204" x2="575" y2="262" stroke="#c53030" stroke-width="2" stroke-dasharray="6 5"/>
+
+  <!-- points -->
+  <circle cx="485" cy="204" r="4.5" fill="#1a1a1a"/>
+  <text x="462" y="200" font-size="13" fill="#1a1a1a">x</text>
+  <circle cx="575" cy="262" r="4.5" fill="#1a1a1a"/>
+  <text x="583" y="266" font-size="13" fill="#1a1a1a">y</text>
+
+  <!-- midpoint (average) -->
+  <circle cx="530" cy="230" r="4.5" fill="#c53030"/>
+  <text x="500" y="222" font-size="12.5" fill="#c53030">½x + ½y  ≻  x, y</text>
+
+  <text x="600" y="205" font-size="12" fill="#2b6cb0">higher u</text>
+
+  <defs>
+    <marker id="arrowGray" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#718096"/>
+    </marker>
+  </defs>
+</svg>

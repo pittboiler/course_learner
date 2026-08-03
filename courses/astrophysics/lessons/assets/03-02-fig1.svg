@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 470" font-family="sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#c0301a"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="640" height="470" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="320" y="24" text-anchor="middle" font-size="17" font-weight="bold" fill="#111">One low-mass star's path across the HR diagram</text>
+
+  <!-- Plot frame -->
+  <rect x="90" y="50" width="510" height="380" fill="none" stroke="#333" stroke-width="1.5"/>
+
+  <!-- Constant-radius reference lines (L = 4 pi R^2 sigma T^4) -->
+  <!-- R = 1 R_sun -->
+  <line x1="100" y1="142" x2="600" y2="430" stroke="#9aa" stroke-width="1" stroke-dasharray="5 4"/>
+  <text x="150" y="200" font-size="10.5" fill="#788" transform="rotate(30 150 200)">R = 1 R⊙</text>
+  <!-- R = 10 R_sun -->
+  <line x1="208" y1="60" x2="600" y2="286" stroke="#9aa" stroke-width="1" stroke-dasharray="5 4"/>
+  <text x="270" y="120" font-size="10.5" fill="#788" transform="rotate(30 270 120)">R = 10 R⊙</text>
+  <!-- R = 100 R_sun -->
+  <line x1="458" y1="60" x2="600" y2="142" stroke="#9aa" stroke-width="1" stroke-dasharray="5 4"/>
+  <text x="512" y="86" font-size="10.5" fill="#788" transform="rotate(30 512 86)">R = 100 R⊙</text>
+
+  <!-- Main sequence band -->
+  <polyline points="120,95 250,190 360,260 458,348 540,392"
+            fill="none" stroke="#f4a63a" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" opacity="0.55"/>
+  <text x="300" y="252" font-size="12.5" font-weight="bold" fill="#8a5a00" transform="rotate(30 300 252)">main sequence</text>
+
+  <!-- Evolutionary track: MS turn-off up the red giant branch -->
+  <polyline points="458,348 477,312 502,283 527,233 555,168 580,112"
+            fill="none" stroke="#c0301a" stroke-width="2.6" stroke-linecap="round" marker-end="url(#arrow)"/>
+
+  <!-- Helium flash burst at RGB tip -->
+  <g transform="translate(580,110)">
+    <path d="M0,-15 L3,-4 L14,-5 L5,2 L9,13 L0,6 L-9,13 L-5,2 L-14,-5 L-3,-4 Z" fill="#ffd21e" stroke="#d89000" stroke-width="1"/>
+  </g>
+
+  <!-- Jump from flash to horizontal branch -->
+  <path d="M572,108 C540,150 510,200 500,222" fill="none" stroke="#c0301a" stroke-width="1.4" stroke-dasharray="4 3" marker-end="url(#arrow)"/>
+
+  <!-- Horizontal branch (roughly constant L, He core burning) -->
+  <polyline points="470,226 500,224 528,225"
+            fill="none" stroke="#1f7a3a" stroke-width="3.4" stroke-linecap="round"/>
+
+  <!-- AGB: back up and to the right, above the RGB tip -->
+  <polyline points="520,224 545,180 560,150 570,120 578,100 585,92"
+            fill="none" stroke="#7a2fa0" stroke-width="2.6" stroke-linecap="round" marker-end="url(#arrow)"/>
+  <!-- thermal-pulse wiggle near AGB tip -->
+  <polyline points="585,92 590,86 583,84 589,79" fill="none" stroke="#7a2fa0" stroke-width="1.6"/>
+
+  <!-- Sun marker on MS -->
+  <circle cx="458" cy="348" r="5.5" fill="#f6c026" stroke="#7a5c00" stroke-width="1.5"/>
+  <text x="446" y="366" font-size="11" font-weight="bold" fill="#7a5c00">☉ Sun (now)</text>
+
+  <!-- Stage labels -->
+  <text x="470" y="303" font-size="11" font-weight="bold" fill="#c0301a">① turn-off</text>
+  <text x="470" y="284" font-size="10.5" fill="#c0301a">② subgiant</text>
+  <text x="592" y="176" font-size="11" font-weight="bold" fill="#c0301a" transform="rotate(-58 592 176)">③ red giant branch</text>
+  <text x="588" y="108" font-size="11" font-weight="bold" fill="#b47a00">④ He flash</text>
+  <text x="416" y="240" font-size="11" font-weight="bold" fill="#1f7a3a">⑤ horizontal branch</text>
+  <text x="512" y="150" font-size="11" font-weight="bold" fill="#7a2fa0" transform="rotate(-58 512 150)">⑥ AGB</text>
+
+  <!-- "envelope swells" annotation -->
+  <text x="300" y="105" font-size="10.5" fill="#555" font-style="italic">up-right = cooler AND bigger:</text>
+  <text x="300" y="119" font-size="10.5" fill="#555" font-style="italic">the envelope is swelling</text>
+
+  <!-- Y axis label and ticks (log L / L_sun): y = 60 + (4 - logL)*72 -->
+  <text x="30" y="240" font-size="12.5" fill="#111" transform="rotate(-90 30 240)">luminosity  L / L⊙  (log)</text>
+  <g font-size="10.5" fill="#333">
+    <line x1="85" y1="60" x2="90" y2="60" stroke="#333"/><text x="80" y="64" text-anchor="end">10<tspan dy="-4" font-size="8">4</tspan></text>
+    <line x1="85" y1="132" x2="90" y2="132" stroke="#333"/><text x="80" y="136" text-anchor="end">10<tspan dy="-4" font-size="8">3</tspan></text>
+    <line x1="85" y1="204" x2="90" y2="204" stroke="#333"/><text x="80" y="208" text-anchor="end">10<tspan dy="-4" font-size="8">2</tspan></text>
+    <line x1="85" y1="276" x2="90" y2="276" stroke="#333"/><text x="80" y="280" text-anchor="end">10</text>
+    <line x1="85" y1="348" x2="90" y2="348" stroke="#333"/><text x="80" y="352" text-anchor="end">1</text>
+    <line x1="85" y1="420" x2="90" y2="420" stroke="#333"/><text x="80" y="424" text-anchor="end">0.1</text>
+  </g>
+
+  <!-- X axis label (temperature, decreasing rightward): x = 100 + (4.477 - logT)*500 -->
+  <text x="345" y="462" text-anchor="middle" font-size="12.5" fill="#111">surface temperature  T (K)  —  hotter ← → cooler</text>
+  <g font-size="10.5" fill="#333">
+    <line x1="100" y1="430" x2="100" y2="435" stroke="#333"/><text x="100" y="448" text-anchor="middle">30000</text>
+    <line x1="338" y1="430" x2="338" y2="435" stroke="#333"/><text x="338" y="448" text-anchor="middle">10000</text>
+    <line x1="458" y1="430" x2="458" y2="435" stroke="#333"/><text x="458" y="448" text-anchor="middle">5800</text>
+    <line x1="600" y1="430" x2="600" y2="435" stroke="#333"/><text x="600" y="448" text-anchor="middle">3000</text>
+  </g>
+</svg>

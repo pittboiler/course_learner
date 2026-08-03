@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 400">
+  <rect x="0" y="0" width="520" height="400" fill="#ffffff"/>
+
+  <!-- edges -->
+  <g stroke="#333333" stroke-width="1.6">
+    <!-- bottom Q to three intermediate -->
+    <line x1="260" y1="345" x2="110" y2="205"/>
+    <line x1="260" y1="345" x2="260" y2="205"/>
+    <line x1="260" y1="345" x2="410" y2="205"/>
+    <!-- three intermediate to top -->
+    <line x1="110" y1="185" x2="260" y2="65"/>
+    <line x1="260" y1="185" x2="260" y2="65"/>
+    <line x1="410" y1="185" x2="260" y2="65"/>
+  </g>
+
+  <!-- edge degree labels (bottom) -->
+  <g font-family="sans-serif" font-size="15" fill="#c0392b" font-weight="bold">
+    <text x="165" y="278" text-anchor="middle">2</text>
+    <text x="248" y="278" text-anchor="middle">2</text>
+    <text x="352" y="278" text-anchor="middle">2</text>
+    <!-- top -->
+    <text x="168" y="120" text-anchor="middle">2</text>
+    <text x="248" y="120" text-anchor="middle">2</text>
+    <text x="352" y="120" text-anchor="middle">2</text>
+  </g>
+
+  <!-- nodes: white halos then labels -->
+  <g font-family="sans-serif" font-size="17" fill="#1a1a1a" text-anchor="middle">
+    <!-- top -->
+    <rect x="190" y="35" width="140" height="30" rx="5" fill="#ffffff" stroke="#333333" stroke-width="1.2"/>
+    <text x="260" y="55">Q(&#8730;2, &#8730;3)</text>
+
+    <!-- intermediates -->
+    <rect x="55" y="180" width="110" height="30" rx="5" fill="#ffffff" stroke="#333333" stroke-width="1.2"/>
+    <text x="110" y="200">Q(&#8730;2)</text>
+
+    <rect x="205" y="180" width="110" height="30" rx="5" fill="#ffffff" stroke="#333333" stroke-width="1.2"/>
+    <text x="260" y="200">Q(&#8730;3)</text>
+
+    <rect x="355" y="180" width="110" height="30" rx="5" fill="#ffffff" stroke="#333333" stroke-width="1.2"/>
+    <text x="410" y="200">Q(&#8730;6)</text>
+
+    <!-- bottom -->
+    <rect x="225" y="340" width="70" height="30" rx="5" fill="#ffffff" stroke="#333333" stroke-width="1.2"/>
+    <text x="260" y="360">Q</text>
+  </g>
+
+  <!-- total degree note -->
+  <g font-family="sans-serif" font-size="14" fill="#2c6fbb">
+    <text x="435" y="210" text-anchor="start">total</text>
+    <text x="435" y="228" text-anchor="start">[K:Q] = 4</text>
+  </g>
+</svg>

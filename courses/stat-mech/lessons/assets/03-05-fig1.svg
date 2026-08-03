@@ -1,0 +1,43 @@
+<svg viewBox="0 0 600 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="26" fill="#8a8a8a" font-style="italic">An open system trades BOTH energy and particles with a huge reservoir held at fixed T and &#956;.</text>
+
+  <!-- reservoir -->
+  <rect x="30" y="44" width="540" height="272" rx="14" fill="#eef2f6" stroke="#9fb0c0" stroke-width="1.5"/>
+  <text x="46" y="68" fill="#6a7a88" font-size="15" font-weight="bold">RESERVOIR (bath)</text>
+  <text x="46" y="88" fill="#6a7a88">fixed temperature T, chemical potential &#956;</text>
+
+  <!-- stray particles floating in the reservoir -->
+  <circle cx="90" cy="150" r="4" fill="#4a90d9"/>
+  <circle cx="120" cy="210" r="4" fill="#4a90d9"/>
+  <circle cx="150" cy="130" r="4" fill="#4a90d9"/>
+  <circle cx="470" cy="150" r="4" fill="#4a90d9"/>
+  <circle cx="500" cy="205" r="4" fill="#4a90d9"/>
+  <circle cx="440" cy="120" r="4" fill="#4a90d9"/>
+
+  <!-- system box (dashed = permeable wall: energy AND matter pass) -->
+  <rect x="228" y="120" width="144" height="120" rx="6" fill="#ffffff" stroke="#333333" stroke-width="2.5" stroke-dasharray="6 4"/>
+  <text x="300" y="168" fill="#333333" text-anchor="middle" font-weight="bold">SYSTEM</text>
+  <text x="300" y="190" fill="#555555" text-anchor="middle" font-size="13">state s: E&#8347;, N&#8347;</text>
+  <text x="300" y="208" fill="#888888" text-anchor="middle" font-size="11">both fluctuate</text>
+  <!-- a couple of particles inside -->
+  <circle cx="252" cy="146" r="4" fill="#4a90d9"/>
+  <circle cx="348" cy="224" r="4" fill="#4a90d9"/>
+
+  <!-- ENERGY channel (left, red double arrow) -->
+  <line x1="150" y1="118" x2="222" y2="118" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="142,118 154,113 154,123" fill="#e0645c"/>
+  <polygon points="230,118 218,113 218,123" fill="#e0645c"/>
+  <text x="186" y="106" fill="#e0645c" text-anchor="middle" font-size="13">energy</text>
+
+  <!-- PARTICLE channel (right, blue double arrow with a dot) -->
+  <line x1="378" y1="118" x2="450" y2="118" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="370,118 382,113 382,123" fill="#4a90d9"/>
+  <polygon points="458,118 446,113 446,123" fill="#4a90d9"/>
+  <circle cx="414" cy="118" r="4" fill="#4a90d9"/>
+  <text x="414" y="106" fill="#4a90d9" text-anchor="middle" font-size="13">particles</text>
+
+  <!-- Gibbs weight + fugacity -->
+  <text x="300" y="278" fill="#5a6a78" text-anchor="middle" font-size="13">weight of state s &#8733; e<tspan baseline-shift="super" font-size="10">&#8722;&#946;(E&#8347; &#8722; &#956;N&#8347;)</tspan>   (the Gibbs factor)</text>
+  <text x="300" y="300" fill="#5a6a78" text-anchor="middle" font-size="13">fugacity  z = e<tspan baseline-shift="super" font-size="10">&#946;&#956;</tspan></text>
+</svg>

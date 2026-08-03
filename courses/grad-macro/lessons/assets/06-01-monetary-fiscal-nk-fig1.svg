@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 430" font-family="sans-serif">
+  <rect x="0" y="0" width="720" height="430" fill="#ffffff"/>
+
+  <!-- arrowhead -->
+  <defs>
+    <marker id="ah" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#1a1a1a"/>
+    </marker>
+    <marker id="ahg" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#2e7d32"/>
+    </marker>
+    <marker id="ahr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#c62828"/>
+    </marker>
+  </defs>
+
+  <text x="360" y="30" text-anchor="middle" font-size="19" font-weight="bold" fill="#111">The three-equation New Keynesian model</text>
+
+  <!-- Policy rule block -->
+  <rect x="40" y="90" width="180" height="110" rx="8" fill="#eef3fb" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="130" y="118" text-anchor="middle" font-size="15" font-weight="bold" fill="#111">Policy rule</text>
+  <text x="130" y="145" text-anchor="middle" font-size="14" fill="#111">central bank sets</text>
+  <text x="130" y="170" text-anchor="middle" font-size="16" fill="#111">nominal rate  i&#8348;</text>
+
+  <!-- IS block -->
+  <rect x="270" y="90" width="180" height="110" rx="8" fill="#eef3fb" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="360" y="118" text-anchor="middle" font-size="15" font-weight="bold" fill="#111">Dynamic IS</text>
+  <text x="360" y="145" text-anchor="middle" font-size="14" fill="#111">real rate drives</text>
+  <text x="360" y="170" text-anchor="middle" font-size="16" fill="#111">output gap  x&#8348;</text>
+
+  <!-- Phillips block -->
+  <rect x="500" y="90" width="180" height="110" rx="8" fill="#eef3fb" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="590" y="118" text-anchor="middle" font-size="15" font-weight="bold" fill="#111">NK Phillips</text>
+  <text x="590" y="145" text-anchor="middle" font-size="14" fill="#111">gap drives</text>
+  <text x="590" y="170" text-anchor="middle" font-size="16" fill="#111">inflation  &#960;&#8348;</text>
+
+  <!-- arrows between blocks -->
+  <line x1="220" y1="130" x2="268" y2="130" stroke="#1a1a1a" stroke-width="2.5" marker-end="url(#ah)"/>
+  <text x="244" y="120" text-anchor="middle" font-size="12" fill="#333">i&#8348;&#8722;E&#960;</text>
+  <line x1="450" y1="130" x2="498" y2="130" stroke="#1a1a1a" stroke-width="2.5" marker-end="url(#ah)"/>
+  <text x="474" y="120" text-anchor="middle" font-size="13" fill="#333">&#954;x&#8348;</text>
+
+  <!-- feedback arrow from Phillips + IS back to policy rule -->
+  <path d="M590 200 L590 250 L130 250 L130 202" fill="none" stroke="#1a1a1a" stroke-width="2.5" marker-end="url(#ah)"/>
+  <text x="360" y="270" text-anchor="middle" font-size="13" fill="#333">feedback: rule reacts to &#960;&#8348; and x&#8348;   (Taylor rule &#8594; Lesson 6.2)</text>
+
+  <!-- demand shock into IS -->
+  <line x1="360" y1="330" x2="360" y2="202" stroke="#c62828" stroke-width="2.5" marker-end="url(#ahr)"/>
+  <text x="360" y="355" text-anchor="middle" font-size="14" fill="#c62828" font-weight="bold">demand shock:  natural rate r&#8319; falls</text>
+
+  <!-- offset annotation -->
+  <line x1="130" y1="330" x2="130" y2="202" stroke="#2e7d32" stroke-width="2.5" marker-end="url(#ahg)"/>
+  <text x="130" y="355" text-anchor="middle" font-size="14" fill="#2e7d32" font-weight="bold">offset:  cut i&#8348; one-for-one</text>
+  <text x="130" y="375" text-anchor="middle" font-size="13" fill="#2e7d32">&#916;i&#8348; = &#916;r&#8319;</text>
+
+  <text x="360" y="410" text-anchor="middle" font-size="13" fill="#555">Divine coincidence: tracking r&#8319; with i&#8348; holds the real rate at r&#8319; &#8658; x&#8348;=0 and &#960;&#8348;=0.</text>
+</svg>

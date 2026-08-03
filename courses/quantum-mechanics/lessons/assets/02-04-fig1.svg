@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" font-family="sans-serif">
+  <rect x="0" y="0" width="640" height="380" fill="#ffffff"/>
+
+  <!-- shaded classically-forbidden regions (outside the well) -->
+  <rect x="60"  y="120" width="180" height="180" fill="#e7edf5" fill-opacity="0.7"/>
+  <rect x="400" y="120" width="200" height="180" fill="#e7edf5" fill-opacity="0.7"/>
+
+  <!-- x-axis (V = 0 line) with arrow -->
+  <line x1="60" y1="120" x2="612" y2="120" stroke="#222222" stroke-width="1.5"/>
+  <polygon points="612,120 600,114 600,126" fill="#222222"/>
+  <text x="616" y="126" font-size="19" fill="#222222">x</text>
+
+  <!-- potential well outline V(x) -->
+  <polyline fill="none" stroke="#1a5fb4" stroke-width="3"
+    points="60,120 240,120 240,300 400,300 400,120 600,120"/>
+
+  <!-- energy level E (dashed) -->
+  <line x1="150" y1="205" x2="510" y2="205" stroke="#333333" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <text x="514" y="211" font-size="18" fill="#333333">E</text>
+
+  <!-- wall positions -->
+  <line x1="240" y1="120" x2="240" y2="314" stroke="#888888" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="400" y1="120" x2="400" y2="314" stroke="#888888" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="228" y="333" font-size="18" fill="#222222">&#8722;a</text>
+  <text x="393" y="333" font-size="18" fill="#222222">+a</text>
+
+  <!-- level labels -->
+  <text x="66" y="112" font-size="16" fill="#1a5fb4">V = 0</text>
+  <text x="300" y="322" font-size="16" fill="#1a5fb4" text-anchor="middle">V = &#8722;V&#8320;</text>
+
+  <!-- bound-state wavefunction: cos inside, exponential decay outside -->
+  <polyline fill="none" stroke="#c01c28" stroke-width="3"
+    points="120.0,201.3 128.0,200.7 136.0,200.0 144.0,199.2 152.0,198.2 160.0,197.0 168.0,195.7 176.0,194.1 184.0,192.3 192.0,190.1 200.0,187.6 208.0,184.7 216.0,181.3 224.0,177.3 232.0,172.6 240.0,167.2 248.0,161.5 256.0,156.2 264.0,151.5 272.0,147.2 280.0,143.6 288.0,140.5 296.0,138.1 304.0,136.4 312.0,135.3 320.0,135.0 328.0,135.3 336.0,136.4 344.0,138.1 352.0,140.5 360.0,143.6 368.0,147.2 376.0,151.5 384.0,156.2 392.0,161.5 400.0,167.2 408.0,172.6 416.0,177.3 424.0,181.3 432.0,184.7 440.0,187.6 448.0,190.1 456.0,192.3 464.0,194.1 472.0,195.7 480.0,197.0 488.0,198.2 496.0,199.2 504.0,200.0 512.0,200.7 520.0,201.3"/>
+
+  <!-- annotations for the wavefunction -->
+  <text x="320" y="110" font-size="16" fill="#c01c28" text-anchor="middle">&#966;(x): oscillates inside</text>
+  <text x="470" y="180" font-size="14" fill="#c01c28">decays ~ e^(&#8722;&#954;|x|)</text>
+  <line x1="466" y1="185" x2="440" y2="197" stroke="#c01c28" stroke-width="1" stroke-dasharray="2 3"/>
+
+  <!-- forbidden-region labels -->
+  <text x="150" y="290" font-size="14" fill="#5a6b80" text-anchor="middle">forbidden</text>
+  <text x="150" y="308" font-size="14" fill="#5a6b80" text-anchor="middle">E &lt; V</text>
+  <text x="500" y="290" font-size="14" fill="#5a6b80" text-anchor="middle">forbidden</text>
+  <text x="500" y="308" font-size="14" fill="#5a6b80" text-anchor="middle">E &lt; V</text>
+
+  <!-- caption -->
+  <text x="60" y="360" font-size="14" fill="#555555" font-style="italic">Inside the well the state has energy above the floor and oscillates; outside, E lies below V, so it leaks in as a decaying exponential.</text>
+</svg>

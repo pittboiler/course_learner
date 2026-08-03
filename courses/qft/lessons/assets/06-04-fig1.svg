@@ -1,0 +1,24 @@
+<svg viewBox="0 0 600 290" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="600" height="290" fill="#ffffff"/>
+  <text x="300" y="30" font-size="15" fill="#111" text-anchor="middle">Loops integrate over an unfixed momentum &#8467; &#8212; and can diverge at large &#8467;.</text>
+
+  <!-- the one-loop "fish" -->
+  <g>
+    <circle cx="230" cy="120" r="6" fill="#c0532a"/>
+    <circle cx="330" cy="120" r="6" fill="#c0532a"/>
+    <line x1="160" y1="80" x2="230" y2="120" stroke="#1f6fb2" stroke-width="2.2"/>
+    <line x1="160" y1="160" x2="230" y2="120" stroke="#1f6fb2" stroke-width="2.2"/>
+    <line x1="400" y1="80" x2="330" y2="120" stroke="#0a7d4f" stroke-width="2.2"/>
+    <line x1="400" y1="160" x2="330" y2="120" stroke="#0a7d4f" stroke-width="2.2"/>
+    <path d="M230,120 C 255,80 305,80 330,120" fill="none" stroke="#111" stroke-width="2"/>
+    <path d="M230,120 C 255,160 305,160 330,120" fill="none" stroke="#111" stroke-width="2"/>
+    <text x="280" y="78" font-size="12" fill="#555" text-anchor="middle">&#8467;</text>
+    <text x="280" y="172" font-size="12" fill="#555" text-anchor="middle">k&#8722;&#8467;</text>
+  </g>
+
+  <!-- the integral -->
+  <text x="300" y="215" font-size="15" fill="#111" text-anchor="middle">&#8747; d&#8308;&#8467;/(2&#960;)&#8308; &#183; [i/(&#8467;&#178;&#8722;m&#178;)] &#183; [i/((k&#8722;&#8467;)&#178;&#8722;m&#178;)]</text>
+
+  <text x="300" y="248" font-size="13" fill="#c0392b" text-anchor="middle">large &#8467;:  integrand ~ 1/&#8467;&#8308;,  measure ~ &#8467;&#179;d&#8467;  &#8658;  &#8747;d&#8467;/&#8467; ~ ln&#923;</text>
+  <text x="300" y="274" font-size="12.5" fill="#111" text-anchor="middle">logarithmically UV-divergent &#8212; a short-distance (high-momentum) infinity</text>
+</svg>

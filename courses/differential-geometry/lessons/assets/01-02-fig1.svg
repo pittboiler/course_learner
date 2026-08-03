@@ -1,0 +1,52 @@
+<svg viewBox="0 0 560 380" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif" font-size="14">
+  <rect x="0" y="0" width="560" height="380" fill="#ffffff"/>
+
+  <!-- title caption -->
+  <text x="24" y="30" fill="#111111" font-size="15">A surface patch x(u,v): coordinate curves and the tangent plane at p.</text>
+
+  <!-- ===== surface mesh (u-curves: v constant) ===== -->
+  <polyline points="120,250 154,262 188,274 222,286" fill="none" stroke="#b3b3b3" stroke-width="1.5"/>
+  <polyline points="200,190 234,185 268,197 302,226" fill="none" stroke="#b3b3b3" stroke-width="1.5"/>
+  <polyline points="240,160 274,172 308,184 342,196" fill="none" stroke="#b3b3b3" stroke-width="1.5"/>
+  <!-- v-curves: u constant -->
+  <polyline points="120,250 160,220 200,190 240,160" fill="none" stroke="#b3b3b3" stroke-width="1.5"/>
+  <polyline points="188,274 228,227 268,197 308,184" fill="none" stroke="#b3b3b3" stroke-width="1.5"/>
+  <polyline points="222,286 262,256 302,226 342,196" fill="none" stroke="#b3b3b3" stroke-width="1.5"/>
+
+  <!-- highlighted coordinate curve through p: v fixed (the u-curve) -->
+  <polyline points="160,220 194,215 228,227 262,256" fill="none" stroke="#1f6fb2" stroke-width="3"/>
+  <!-- highlighted coordinate curve through p: u fixed (the v-curve) -->
+  <polyline points="154,262 194,215 234,185 274,172" fill="none" stroke="#c0532a" stroke-width="3"/>
+
+  <!-- ===== tangent plane at p (semi-transparent parallelogram) ===== -->
+  <polygon points="122,239 206,249 266,191 182,181" fill="#4a90d9" opacity="0.16"/>
+  <polygon points="122,239 206,249 266,191 182,181" fill="none" stroke="#4a90d9" stroke-width="1.5" stroke-dasharray="5 4"/>
+
+  <!-- ===== tangent vectors from p ===== -->
+  <defs>
+    <marker id="ah" markerWidth="9" markerHeight="9" refX="7" refY="3.2" orient="auto">
+      <path d="M0,0 L7,3.2 L0,6.4 Z" fill="#111111"/>
+    </marker>
+  </defs>
+  <!-- x_u along the blue u-curve direction -->
+  <line x1="194" y1="215" x2="262" y2="223" stroke="#111111" stroke-width="2.5" marker-end="url(#ah)"/>
+  <!-- x_v along the orange v-curve direction -->
+  <line x1="194" y1="215" x2="244" y2="167" stroke="#111111" stroke-width="2.5" marker-end="url(#ah)"/>
+
+  <!-- point p -->
+  <circle cx="194" cy="215" r="4.5" fill="#111111"/>
+  <text x="176" y="212" fill="#111111" font-style="italic">p</text>
+
+  <!-- vector labels -->
+  <text x="266" y="230" fill="#111111" font-weight="bold">x<tspan font-size="10" dy="4">u</tspan></text>
+  <text x="248" y="162" fill="#111111" font-weight="bold">x<tspan font-size="10" dy="4">v</tspan></text>
+
+  <!-- curve labels -->
+  <text x="250" y="270" fill="#1f6fb2" font-size="13">u-curve (v fixed)</text>
+  <text x="284" y="150" fill="#c0532a" font-size="13">v-curve (u fixed)</text>
+  <text x="300" y="215" fill="#4a90d9" font-size="13">tangent plane T</text>
+  <text x="300" y="231" fill="#4a90d9" font-size="13">at p</text>
+
+  <!-- caption bottom -->
+  <text x="24" y="352" fill="#555555" font-style="italic" font-size="13">x_u and x_v span the tangent plane; their dot products E, F, G are the first fundamental form.</text>
+</svg>

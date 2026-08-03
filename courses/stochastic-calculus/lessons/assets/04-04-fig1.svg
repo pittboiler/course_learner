@@ -1,0 +1,18 @@
+<svg viewBox="0 0 660 270" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="660" height="270" fill="#ffffff"/>
+  <text x="330" y="30" font-size="15" fill="#111" text-anchor="middle">The generator: the expected instantaneous rate of change along the diffusion.</text>
+
+  <!-- generator formula box -->
+  <rect x="150" y="70" width="360" height="56" rx="8" fill="#1f6fb2" fill-opacity="0.08" stroke="#1f6fb2" stroke-width="1.8"/>
+  <text x="330" y="106" font-size="20" fill="#1f6fb2" text-anchor="middle">A f = &#956;(x) f&#8242; + &#189; &#963;(x)&#178; f&#8243;</text>
+
+  <!-- limit meaning -->
+  <text x="330" y="160" font-size="14.5" fill="#111" text-anchor="middle">A f(x) = lim (E&#8339;[f(X&#8348;)] &#8722; f(x)) / t   as t &#8594; 0</text>
+
+  <!-- Ito split -->
+  <text x="330" y="196" font-size="14" fill="#0a7d4f" text-anchor="middle">from It&#244;:   df(X&#8348;) = A f(X&#8348;) dt + &#963; f&#8242;(X&#8348;) dW&#8348;</text>
+
+  <!-- Dynkin -->
+  <text x="330" y="230" font-size="13.5" fill="#c0392b" text-anchor="middle">Dynkin:  E&#8339;[f(X&#964;)] = f(x) + E&#8339;[ &#8747;&#8320;&#7511; A f(X&#8347;) ds ]</text>
+  <text x="330" y="252" font-size="12" fill="#555" text-anchor="middle">A f = 0 (harmonic) &#8658; f(X&#8348;) is a martingale</text>
+</svg>

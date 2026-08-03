@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 470" font-family="sans-serif">
+  <rect x="0" y="0" width="640" height="470" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="320" y="24" text-anchor="middle" font-size="17" font-weight="bold" fill="#111">The white-dwarf mass&#8211;radius relation</text>
+  <text x="320" y="42" text-anchor="middle" font-size="12" fill="#555">more massive &#8594; smaller  ·  radius collapses to zero at the Chandrasekhar mass</text>
+
+  <!-- Plot frame:  x 90..570 (M = 0..1.5 Msun),  y 60..400 (R = 0..3.2 Rearth) -->
+  <rect x="90" y="60" width="480" height="340" fill="none" stroke="#333" stroke-width="1.5"/>
+
+  <!-- light gridlines -->
+  <g stroke="#ececec" stroke-width="1">
+    <line x1="90" y1="187.5" x2="570" y2="187.5"/>
+    <line x1="90" y1="293.75" x2="570" y2="293.75"/>
+  </g>
+
+  <!-- Earth-radius reference line (R = 1 R_earth) -->
+  <line x1="90" y1="293.75" x2="570" y2="293.75" stroke="#2a6fd6" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="96" y="288" font-size="11" fill="#2a6fd6">Earth's radius (6,371 km)</text>
+
+  <!-- Chandrasekhar-mass vertical asymptote at M = 1.4 Msun  (x = 538) -->
+  <line x1="538" y1="60" x2="538" y2="400" stroke="#d8451f" stroke-width="2" stroke-dasharray="5 4"/>
+  <text x="532" y="76" text-anchor="end" font-size="12" font-weight="bold" fill="#d8451f">M_Ch &#8776; 1.4 M&#8857;</text>
+  <text x="532" y="92" text-anchor="end" font-size="10" fill="#d8451f">no equilibrium beyond &#8594;</text>
+
+  <!-- Mass-radius curve -->
+  <polyline fill="none" stroke="#111" stroke-width="3"
+    points="134.8,80.2 179.6,155.6 224.4,197.1 269.2,226.8 314,251.25 358.8,273.3 403.6,294.8 448.4,317.0 493.2,343.0 515.6,360.3 529,374.9 538,400"/>
+
+  <!-- regime labels -->
+  <text x="150" y="128" font-size="12" font-weight="bold" fill="#1f6e2c">&#947; = 5/3  (non-relativistic)</text>
+  <text x="150" y="144" font-size="11" fill="#1f6e2c">R &#8733; M&#8315;&#185;&#8260;&#179;</text>
+  <text x="470" y="250" text-anchor="end" font-size="12" font-weight="bold" fill="#b5660a">&#947; &#8594; 4/3  (ultra-rel.)</text>
+  <text x="470" y="266" text-anchor="end" font-size="11" fill="#b5660a">electrons &#8594; c,  R &#8594; 0</text>
+
+  <!-- Sirius B marker (M~1 Msun, R~0.9 Rearth) -->
+  <circle cx="403.6" cy="300" r="4.5" fill="#7b1fa2"/>
+  <text x="398" y="318" text-anchor="end" font-size="11" font-weight="bold" fill="#7b1fa2">Sirius B</text>
+  <text x="398" y="332" text-anchor="end" font-size="10" fill="#7b1fa2">~1 M&#8857;, ~Earth-sized</text>
+
+  <!-- Y axis label and ticks -->
+  <text x="26" y="230" font-size="13" fill="#111" transform="rotate(-90 26 230)">radius  R   [Earth radii]</text>
+  <g font-size="11" fill="#333">
+    <line x1="85" y1="60" x2="90" y2="60" stroke="#333"/><text x="80" y="64" text-anchor="end">3.2</text>
+    <line x1="85" y1="187.5" x2="90" y2="187.5" stroke="#333"/><text x="80" y="191" text-anchor="end">2.0</text>
+    <line x1="85" y1="293.75" x2="90" y2="293.75" stroke="#333"/><text x="80" y="297" text-anchor="end">1.0</text>
+    <line x1="85" y1="400" x2="90" y2="400" stroke="#333"/><text x="80" y="404" text-anchor="end">0</text>
+  </g>
+
+  <!-- X axis label and ticks -->
+  <text x="330" y="452" text-anchor="middle" font-size="13" fill="#111">mass  M   [solar masses M&#8857;]</text>
+  <g font-size="11" fill="#333">
+    <line x1="90" y1="400" x2="90" y2="405" stroke="#333"/><text x="90" y="418" text-anchor="middle">0</text>
+    <line x1="250" y1="400" x2="250" y2="405" stroke="#333"/><text x="250" y="418" text-anchor="middle">0.5</text>
+    <line x1="410" y1="400" x2="410" y2="405" stroke="#333"/><text x="410" y="418" text-anchor="middle">1.0</text>
+    <line x1="570" y1="400" x2="570" y2="405" stroke="#333"/><text x="570" y="418" text-anchor="middle">1.5</text>
+  </g>
+</svg>

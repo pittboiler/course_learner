@@ -1,0 +1,33 @@
+<svg viewBox="0 0 560 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="26" fill="#8a8a8a" font-style="italic">Probability of finding the two particles a separation s = x&#8321; &#8722; x&#8322; apart.</text>
+
+  <!-- baseline axis -->
+  <line x1="50" y1="280" x2="525" y2="280" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="525,280 515,275 515,285" fill="#8a8a8a"/>
+  <text x="470" y="300" fill="#8a8a8a">s = x&#8321; &#8722; x&#8322;</text>
+
+  <!-- center line: coincidence s = 0 -->
+  <line x1="290" y1="60" x2="290" y2="280" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="279" y="298" fill="#8a8a8a">0</text>
+
+  <!-- boson (symmetric) density: peaks at s = 0 -->
+  <polyline points="70,280 125,278 152.5,271 180,253 207.5,215 235,159 262.5,104 290,80 317.5,104 345,159 372.5,215 400,253 427.5,271 455,278 510,280"
+            fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- fermion (antisymmetric) density: vanishes at s = 0 (exchange hole) -->
+  <polyline points="70,279 97.5,274 125,258 152.5,220 180,161 212.3,118 235,147 262.5,232 290,280 317.5,232 345,147 367.7,118 400,161 427.5,220 455,258 482.5,274 510,279"
+            fill="none" stroke="#e0645c" stroke-width="3"/>
+
+  <!-- annotate boson peak: bunching -->
+  <circle cx="290" cy="80" r="4" fill="#4a90d9"/>
+  <text x="298" y="78" fill="#4a90d9">bosons bunch: peak at s = 0</text>
+
+  <!-- annotate fermion node: exchange hole -->
+  <circle cx="290" cy="280" r="4" fill="#e0645c"/>
+  <text x="150" y="330" fill="#e0645c">fermions avoid: exchange hole at s = 0</text>
+  <line x1="290" y1="280" x2="255" y2="322" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- fermion hump label -->
+  <text x="358" y="112" fill="#e0645c">fermion humps</text>
+</svg>

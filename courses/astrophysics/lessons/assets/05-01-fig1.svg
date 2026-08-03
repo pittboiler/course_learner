@@ -1,0 +1,54 @@
+<svg viewBox="0 0 640 420" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13"><rect x="0" y="0" width="640" height="420" fill="#ffffff"/>
+  <!-- title -->
+  <text x="70" y="24" fill="#555" font-style="italic" font-size="13">The multiphase ISM: cold-and-dense to hot-and-diffuse, threaded by one constant-pressure line.</text>
+
+  <!-- axes -->
+  <line x1="70" y1="360" x2="612" y2="360" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="70" y1="40" x2="70" y2="360" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="612,360 602,355 602,365" fill="#8a8a8a"/>
+  <polygon points="70,40 65,50 75,50" fill="#8a8a8a"/>
+
+  <!-- x ticks: number density n [cm^-3] -->
+  <text x="129" y="378" fill="#8a8a8a" text-anchor="middle">10&#8315;&#178;</text>
+  <text x="247" y="378" fill="#8a8a8a" text-anchor="middle">1</text>
+  <text x="364" y="378" fill="#8a8a8a" text-anchor="middle">10&#178;</text>
+  <text x="482" y="378" fill="#8a8a8a" text-anchor="middle">10&#8308;</text>
+  <text x="600" y="378" fill="#8a8a8a" text-anchor="middle">10&#8310;</text>
+  <text x="341" y="400" fill="#555" text-anchor="middle">number density  n  [cm&#8315;&#179;]  &#8594;</text>
+
+  <!-- y ticks: temperature T [K] -->
+  <text x="62" y="364" fill="#8a8a8a" text-anchor="end">10</text>
+  <text x="62" y="257" fill="#8a8a8a" text-anchor="end">10&#179;</text>
+  <text x="62" y="151" fill="#8a8a8a" text-anchor="end">10&#8309;</text>
+  <text x="62" y="44" fill="#8a8a8a" text-anchor="end">10&#8311;</text>
+  <text x="24" y="205" fill="#555" text-anchor="middle" transform="rotate(-90 24 205)">temperature  T  [K]  &#8594;</text>
+
+  <!-- constant-pressure line  n T = 3000 K/cm^3 -->
+  <line x1="70" y1="68" x2="393" y2="360" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="5 5"/>
+  <text x="150" y="96" fill="#8a8a8a" font-style="italic" transform="rotate(42 150 96)">n T &#8776; 3000 K cm&#8315;&#179;  (constant pressure)</text>
+
+  <!-- HIM: hot ionized medium -->
+  <ellipse cx="112" cy="93" rx="42" ry="26" fill="#d14b3f" opacity="0.22" stroke="#d14b3f" stroke-width="1.5"/>
+  <text x="112" y="90" fill="#b13a30" text-anchor="middle" font-size="12">Hot ionized</text>
+  <text x="112" y="105" fill="#b13a30" text-anchor="middle" font-size="12">~10&#8310; K</text>
+
+  <!-- WIM: warm ionized medium -->
+  <ellipse cx="181" cy="178" rx="40" ry="22" fill="#e08a3c" opacity="0.22" stroke="#e08a3c" stroke-width="1.5"/>
+  <text x="181" y="175" fill="#c06f22" text-anchor="middle" font-size="12">Warm ionized</text>
+  <text x="181" y="190" fill="#c06f22" text-anchor="middle" font-size="12">H&#8314;, ~8000 K</text>
+
+  <!-- WNM: warm neutral medium -->
+  <ellipse cx="248" cy="212" rx="42" ry="24" fill="#2f9e8f" opacity="0.22" stroke="#2f9e8f" stroke-width="1.5"/>
+  <text x="248" y="209" fill="#1f7a6e" text-anchor="middle" font-size="12">Warm neutral</text>
+  <text x="248" y="224" fill="#1f7a6e" text-anchor="middle" font-size="12">HI, ~8000 K</text>
+
+  <!-- CNM: cold neutral medium -->
+  <ellipse cx="338" cy="309" rx="44" ry="22" fill="#2f6fb0" opacity="0.22" stroke="#2f6fb0" stroke-width="1.5"/>
+  <text x="338" y="306" fill="#1f5290" text-anchor="middle" font-size="12">Cold neutral</text>
+  <text x="338" y="321" fill="#1f5290" text-anchor="middle" font-size="12">HI, ~80 K</text>
+
+  <!-- Molecular clouds -->
+  <ellipse cx="486" cy="338" rx="104" ry="20" fill="#5b3f9e" opacity="0.22" stroke="#5b3f9e" stroke-width="1.5"/>
+  <text x="486" y="335" fill="#432c7a" text-anchor="middle" font-size="12">Molecular clouds (H&#8322;, 10&#8211;50 K)  &#8212;  self-gravitating, over-pressured</text>
+  <text x="486" y="349" fill="#432c7a" text-anchor="middle" font-size="12">where stars form</text>
+</svg>

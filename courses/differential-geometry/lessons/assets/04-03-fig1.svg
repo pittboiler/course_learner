@@ -1,0 +1,28 @@
+<svg viewBox="0 0 520 400" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="520" height="400" fill="#ffffff"/>
+
+  <text x="24" y="30" font-size="15" fill="#111">Great circles are geodesics; a latitude circle (dashed) is not.</text>
+
+  <!-- sphere -->
+  <circle cx="250" cy="220" r="150" fill="#111111" fill-opacity="0.04" stroke="#1a1a1a" stroke-width="1.6"/>
+
+  <!-- equator: great circle (geodesic) -->
+  <ellipse cx="250" cy="220" rx="150" ry="44" fill="none" stroke="#0a7" stroke-width="2.6"/>
+  <text x="405" y="228" font-size="13" fill="#0a7">equator</text>
+  <text x="405" y="244" font-size="11" fill="#0a7">(geodesic)</text>
+
+  <!-- a tilted great circle (geodesic) -->
+  <ellipse cx="250" cy="220" rx="60" ry="150" fill="none" stroke="#0a7" stroke-width="2.6" transform="rotate(24 250 220)"/>
+  <text x="150" y="70" font-size="13" fill="#0a7">meridian (geodesic)</text>
+
+  <!-- a latitude circle (NOT a geodesic) -->
+  <ellipse cx="250" cy="150" rx="118" ry="34" fill="none" stroke="#c33" stroke-width="2.4" stroke-dasharray="7,5"/>
+  <text x="300" y="122" font-size="13" fill="#c33">latitude circle</text>
+  <text x="300" y="138" font-size="11" fill="#c33">(NOT a geodesic)</text>
+
+  <!-- poles -->
+  <circle cx="250" cy="70" r="3.5" fill="#111"/>
+  <circle cx="250" cy="370" r="3.5" fill="#111"/>
+
+  <text x="60" y="394" font-size="13" fill="#333">geodesic: ẍᵏ + Γᵏᵢⱼ ẋⁱ ẋʲ = 0  (straightest &amp; locally shortest)</text>
+</svg>

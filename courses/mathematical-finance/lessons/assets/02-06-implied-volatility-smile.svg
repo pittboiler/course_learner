@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" font-family="sans-serif">
+  <rect x="0" y="0" width="720" height="340" fill="#ffffff"/>
+
+  <!-- ============ Panel A: equity-index skew ============ -->
+  <text x="60" y="28" font-size="15" font-weight="bold" fill="#111111">Equity-index skew: IV vs strike</text>
+
+  <!-- axes -->
+  <line x1="70" y1="60" x2="70" y2="285" stroke="#111111" stroke-width="1.5"/>
+  <line x1="70" y1="285" x2="340" y2="285" stroke="#111111" stroke-width="1.5"/>
+  <text x="18" y="175" font-size="12" fill="#111111" transform="rotate(-90 18 175)">implied vol  &#963;_imp</text>
+  <text x="150" y="312" font-size="12" fill="#111111">strike K  (moneyness &#8594;)</text>
+
+  <!-- flat Black-Scholes line -->
+  <line x1="70" y1="185" x2="340" y2="185" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <text x="250" y="178" font-size="11" fill="#666666">Black&#8211;Scholes (flat)</text>
+
+  <!-- skew curve: high on left (OTM puts), low on right (OTM calls) -->
+  <path d="M 82 95 Q 150 140 210 185 Q 275 230 328 240" fill="none" stroke="#c0392b" stroke-width="2.5"/>
+  <text x="86" y="88" font-size="11" fill="#c0392b">OTM puts: rich</text>
+  <text x="255" y="258" font-size="11" fill="#c0392b">OTM calls: cheap</text>
+
+  <!-- ATM marker -->
+  <line x1="205" y1="60" x2="205" y2="285" stroke="#bbbbbb" stroke-width="1" stroke-dasharray="3 3"/>
+  <circle cx="205" cy="185" r="3.5" fill="#111111"/>
+  <text x="188" y="300" font-size="11" fill="#111111">ATM</text>
+  <text x="86" y="300" font-size="11" fill="#666666">low K</text>
+  <text x="300" y="300" font-size="11" fill="#666666">high K</text>
+
+  <!-- ============ Panel B: risk-neutral density ============ -->
+  <text x="420" y="28" font-size="15" font-weight="bold" fill="#111111">What it implies: the density of S_T</text>
+
+  <!-- axes -->
+  <line x1="425" y1="60" x2="425" y2="285" stroke="#111111" stroke-width="1.5"/>
+  <line x1="425" y1="285" x2="700" y2="285" stroke="#111111" stroke-width="1.5"/>
+  <text x="540" y="312" font-size="12" fill="#111111">terminal price  S_T</text>
+
+  <!-- lognormal (Black-Scholes) density -->
+  <path d="M 435 285 C 505 285 520 95 560 95 C 605 95 640 285 695 285" fill="none" stroke="#888888" stroke-width="2" stroke-dasharray="6 5"/>
+  <text x="596" y="120" font-size="11" fill="#666666">log-normal</text>
+
+  <!-- implied density: fatter left tail, thinner/peaked, negative skew -->
+  <path d="M 435 250 C 480 200 520 110 555 110 C 600 110 645 283 695 285" fill="none" stroke="#c0392b" stroke-width="2.5"/>
+  <text x="437" y="238" font-size="11" fill="#c0392b">fat left tail</text>
+  <text x="452" y="222" font-size="11" fill="#c0392b">(crash mass)</text>
+  <text x="500" y="98" font-size="11" fill="#c0392b">implied</text>
+</svg>

@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440">
+  <rect x="0" y="0" width="720" height="440" fill="#ffffff"/>
+
+  <!-- title -->
+  <text x="360" y="32" font-family="sans-serif" font-size="20" font-weight="bold" fill="#1a1a1a" text-anchor="middle">The electromagnetic stress&#8211;energy tensor  T&#8340;&#8341;</text>
+  <text x="360" y="55" font-family="sans-serif" font-size="14" fill="#444444" text-anchor="middle">symmetric  &#183;  gauge-invariant  &#183;  traceless (T&#8340;&#8342; = 0)</text>
+
+  <!-- column index labels (nu) -->
+  <text x="180" y="86" font-family="sans-serif" font-size="13" fill="#666666" text-anchor="middle" font-style="italic">&#957; = 0</text>
+  <text x="252" y="86" font-family="sans-serif" font-size="13" fill="#666666" text-anchor="middle" font-style="italic">1</text>
+  <text x="324" y="86" font-family="sans-serif" font-size="13" fill="#666666" text-anchor="middle" font-style="italic">2</text>
+  <text x="396" y="86" font-family="sans-serif" font-size="13" fill="#666666" text-anchor="middle" font-style="italic">3</text>
+  <!-- row index labels (mu) -->
+  <text x="112" y="128" font-family="sans-serif" font-size="13" fill="#666666" text-anchor="middle" font-style="italic">&#956; = 0</text>
+  <text x="120" y="200" font-family="sans-serif" font-size="13" fill="#666666" text-anchor="middle" font-style="italic">1</text>
+  <text x="120" y="272" font-family="sans-serif" font-size="13" fill="#666666" text-anchor="middle" font-style="italic">2</text>
+  <text x="120" y="344" font-family="sans-serif" font-size="13" fill="#666666" text-anchor="middle" font-style="italic">3</text>
+
+  <!-- energy density block: (0,0) -->
+  <rect x="144" y="96" width="72" height="72" fill="#f6d365" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="180" y="126" font-family="sans-serif" font-size="16" fill="#1a1a1a" text-anchor="middle" font-weight="bold">T&#8304;&#8304;</text>
+  <text x="180" y="145" font-family="sans-serif" font-size="11" fill="#7a5c00" text-anchor="middle">energy</text>
+  <text x="180" y="158" font-family="sans-serif" font-size="11" fill="#7a5c00" text-anchor="middle">density u</text>
+
+  <!-- Poynting / momentum: top row (0,i) -->
+  <rect x="216" y="96" width="216" height="72" fill="#bcdcf5" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="324" y="128" font-family="sans-serif" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="bold">T&#8304;&#8305; = S&#8341;/c</text>
+  <text x="324" y="150" font-family="sans-serif" font-size="11" fill="#1c4e80" text-anchor="middle">energy flux (Poynting) / momentum density</text>
+
+  <!-- Poynting / momentum: left column (i,0) -->
+  <rect x="144" y="168" width="72" height="216" fill="#bcdcf5" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="180" y="270" font-family="sans-serif" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="bold">T&#8305;&#8304;</text>
+  <text x="180" y="290" font-family="sans-serif" font-size="11" fill="#1c4e80" text-anchor="middle">= S&#8305;/c</text>
+
+  <!-- Maxwell stress 3x3 block (i,j) -->
+  <rect x="216" y="168" width="216" height="216" fill="#c9ecd0" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="324" y="264" font-family="sans-serif" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="bold">T&#8305;&#690;</text>
+  <text x="324" y="286" font-family="sans-serif" font-size="12" fill="#256b34" text-anchor="middle">Maxwell stress tensor</text>
+  <text x="324" y="302" font-family="sans-serif" font-size="11" fill="#256b34" text-anchor="middle">(field pressure &amp; tension)</text>
+
+  <!-- inner grid lines for the 4x4 -->
+  <g stroke="#1a1a1a" stroke-width="0.7" opacity="0.5">
+    <line x1="288" y1="168" x2="288" y2="384"/>
+    <line x1="360" y1="168" x2="360" y2="384"/>
+    <line x1="216" y1="240" x2="432" y2="240"/>
+    <line x1="216" y1="312" x2="432" y2="312"/>
+  </g>
+
+  <!-- outer border of the whole matrix -->
+  <rect x="144" y="96" width="288" height="288" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+
+  <!-- annotations on the right -->
+  <text x="470" y="120" font-family="sans-serif" font-size="13" fill="#7a5c00" font-weight="bold">energy density</text>
+  <text x="470" y="140" font-family="sans-serif" font-size="13" fill="#1a1a1a">u = &#189;(&#949;&#8320;E&#178; + B&#178;/&#956;&#8320;)</text>
+
+  <text x="470" y="184" font-family="sans-serif" font-size="13" fill="#1c4e80" font-weight="bold">Poynting flux</text>
+  <text x="470" y="204" font-family="sans-serif" font-size="13" fill="#1a1a1a">S = (1/&#956;&#8320;) E &#215; B</text>
+  <text x="470" y="222" font-family="sans-serif" font-size="12" fill="#444444">momentum density = S/c&#178;</text>
+
+  <text x="470" y="266" font-family="sans-serif" font-size="13" fill="#256b34" font-weight="bold">Maxwell stress</text>
+  <text x="470" y="286" font-family="sans-serif" font-size="12" fill="#1a1a1a">T&#8305;&#690; = &#8722;&#949;&#8320;(E&#8305;E&#690; &#8722; &#189;&#948;&#8305;&#690;E&#178;)</text>
+  <text x="470" y="304" font-family="sans-serif" font-size="12" fill="#1a1a1a">&#160;&#160;&#160;&#160;&#160;&#8722; (1/&#956;&#8320;)(B&#8305;B&#690; &#8722; &#189;&#948;&#8305;&#690;B&#178;)</text>
+
+  <!-- trace note -->
+  <text x="470" y="344" font-family="sans-serif" font-size="12" fill="#c02626" font-weight="bold">trace = 0:</text>
+  <text x="470" y="362" font-family="sans-serif" font-size="12" fill="#c02626">T&#8304;&#8304; = T&#185;&#185; + T&#178;&#178; + T&#179;&#179;</text>
+  <text x="470" y="378" font-family="sans-serif" font-size="11" fill="#883333">(the photon is massless)</text>
+
+  <!-- bottom caption -->
+  <text x="360" y="418" font-family="sans-serif" font-size="13.5" fill="#1a1a1a" text-anchor="middle">This T&#8340;&#8341; is the source that curves spacetime around any electromagnetic field &#8212; the bridge into GR.</text>
+</svg>

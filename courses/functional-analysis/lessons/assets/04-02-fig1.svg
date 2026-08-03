@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 280">
+  <rect x="0" y="0" width="460" height="280" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#1a1a1a" stroke="none">
+    <!-- baseline -->
+    <line x1="45" y1="230" x2="440" y2="230" stroke="#999999" stroke-width="1"/>
+    <text x="30" y="75" font-size="13" fill="#888888" text-anchor="middle">&#955;&#8345;</text>
+    <!-- kept: finite-rank part K_N (n = 1,2,3) -->
+    <rect x="60"  y="70"    width="40" height="160"  fill="#1a1a1a"/>
+    <rect x="120" y="150"   width="40" height="80"   fill="#1a1a1a"/>
+    <rect x="180" y="176.7" width="40" height="53.3" fill="#1a1a1a"/>
+    <!-- discarded tail (n > N): all below epsilon -->
+    <rect x="240" y="190"   width="40" height="40"   fill="#cccccc"/>
+    <rect x="300" y="198"   width="40" height="32"   fill="#cccccc"/>
+    <rect x="360" y="203.3" width="40" height="26.7" fill="#cccccc"/>
+    <!-- epsilon threshold -->
+    <line x1="45" y1="190" x2="440" y2="190" stroke="#1a1a1a" stroke-width="1.5" stroke-dasharray="6 4"/>
+    <text x="448" y="194" font-size="13" fill="#1a1a1a" text-anchor="end">&#949;</text>
+    <!-- n labels -->
+    <text x="80"  y="248" font-size="12" fill="#1a1a1a" text-anchor="middle">1</text>
+    <text x="140" y="248" font-size="12" fill="#1a1a1a" text-anchor="middle">2</text>
+    <text x="200" y="248" font-size="12" fill="#1a1a1a" text-anchor="middle">3</text>
+    <text x="260" y="248" font-size="12" fill="#888888" text-anchor="middle">4</text>
+    <text x="320" y="248" font-size="12" fill="#888888" text-anchor="middle">5</text>
+    <text x="380" y="248" font-size="12" fill="#888888" text-anchor="middle">6</text>
+    <text x="242" y="264" font-size="12" fill="#888888">n</text>
+    <!-- brackets / labels -->
+    <text x="140" y="40" font-size="13" fill="#1a1a1a" text-anchor="middle" font-style="italic">keep: finite-rank K&#8345;</text>
+    <line x1="60" y1="52" x2="220" y2="52" stroke="#1a1a1a" stroke-width="1"/>
+    <text x="340" y="112" font-size="13" fill="#888888" text-anchor="middle" font-style="italic">tail below &#949;</text>
+    <text x="340" y="130" font-size="12" fill="#888888" text-anchor="middle">&#8214;K &#8722; K&#8345;&#8214; = sup&#8345;&#8342;&#8345; &#955;&#8345;</text>
+  </g>
+</svg>

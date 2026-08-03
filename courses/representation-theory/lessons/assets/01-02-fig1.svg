@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" font-family="sans-serif">
+  <rect x="0" y="0" width="720" height="360" fill="#ffffff"/>
+  <text x="360" y="34" text-anchor="middle" font-size="19" font-weight="bold" fill="#111">The averaging trick: bend the axes until the group is a rotation</text>
+
+  <!-- LEFT: before averaging, skewed ellipse (non-unitary orbit) -->
+  <text x="180" y="70" text-anchor="middle" font-size="15" fill="#333">Before: standard inner product</text>
+  <text x="180" y="90" text-anchor="middle" font-size="13" fill="#666">the group skews vectors — not lengths-preserving</text>
+
+  <!-- axes -->
+  <line x1="60" y1="230" x2="300" y2="230" stroke="#999" stroke-width="1.5"/>
+  <line x1="180" y1="110" x2="180" y2="330" stroke="#999" stroke-width="1.5"/>
+
+  <!-- skewed orbit ellipse -->
+  <ellipse cx="180" cy="230" rx="105" ry="50" fill="none" stroke="#c0392b" stroke-width="2.5" transform="rotate(-32 180 230)"/>
+  <!-- orbit points -->
+  <circle cx="269" cy="182" r="4.5" fill="#c0392b"/>
+  <circle cx="212" cy="163" r="4.5" fill="#c0392b"/>
+  <circle cx="120" cy="245" r="4.5" fill="#c0392b"/>
+  <text x="300" y="180" font-size="13" fill="#c0392b">orbit of v</text>
+  <text x="66" y="300" font-size="12" fill="#666">‖ρ(g)v‖ varies</text>
+
+  <!-- ARROW -->
+  <line x1="330" y1="220" x2="400" y2="220" stroke="#2c3e50" stroke-width="3"/>
+  <polygon points="400,214 414,220 400,226" fill="#2c3e50"/>
+  <text x="372" y="205" text-anchor="middle" font-size="13" fill="#2c3e50">average</text>
+  <text x="372" y="243" text-anchor="middle" font-size="12" fill="#2c3e50">⟨·,·⟩_G</text>
+
+  <!-- RIGHT: after averaging, circle (unitary orbit) -->
+  <text x="540" y="70" text-anchor="middle" font-size="15" fill="#333">After: invariant inner product</text>
+  <text x="540" y="90" text-anchor="middle" font-size="13" fill="#666">the orbit is a circle — every ρ(g) is a rotation</text>
+
+  <line x1="420" y1="230" x2="660" y2="230" stroke="#999" stroke-width="1.5"/>
+  <line x1="540" y1="110" x2="540" y2="330" stroke="#999" stroke-width="1.5"/>
+
+  <circle cx="540" cy="230" r="72" fill="none" stroke="#1e8449" stroke-width="2.5"/>
+  <circle cx="612" cy="230" r="4.5" fill="#1e8449"/>
+  <circle cx="576" cy="168" r="4.5" fill="#1e8449"/>
+  <circle cx="504" cy="168" r="4.5" fill="#1e8449"/>
+  <text x="620" y="180" font-size="13" fill="#1e8449">orbit of v</text>
+  <text x="440" y="300" font-size="12" fill="#666">‖ρ(g)v‖_G constant</text>
+</svg>

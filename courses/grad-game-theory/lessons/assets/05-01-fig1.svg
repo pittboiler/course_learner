@@ -1,0 +1,39 @@
+<svg viewBox="0 0 480 400" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="480" height="400" fill="#ffffff"/>
+
+  <defs>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L7,3 L0,6 z" fill="#c0392b"/>
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <text x="240" y="26" text-anchor="middle" font-size="15" fill="#1a1a1a" font-weight="bold">Majority rule cycles: A beats B beats C beats A</text>
+
+  <!-- Node positions: A top, B lower-right, C lower-left -->
+  <!-- A -->
+  <circle cx="240" cy="90" r="28" fill="#e7f0e7" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="240" y="97" text-anchor="middle" font-size="22" fill="#1a1a1a" font-weight="bold">A</text>
+  <!-- B -->
+  <circle cx="366" cy="300" r="28" fill="#e7f0e7" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="366" y="307" text-anchor="middle" font-size="22" fill="#1a1a1a" font-weight="bold">B</text>
+  <!-- C -->
+  <circle cx="114" cy="300" r="28" fill="#e7f0e7" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="114" y="307" text-anchor="middle" font-size="22" fill="#1a1a1a" font-weight="bold">C</text>
+
+  <!-- Arrow A -> B (A beats B, 2 of 3) -->
+  <line x1="263" y1="106" x2="345" y2="278" stroke="#c0392b" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="330" y="180" text-anchor="start" font-size="13" fill="#c0392b" font-weight="bold">A &gt; B  (2&#8211;1)</text>
+
+  <!-- Arrow B -> C (B beats C, 2 of 3) -->
+  <line x1="336" y1="312" x2="146" y2="312" stroke="#c0392b" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="240" y="338" text-anchor="middle" font-size="13" fill="#c0392b" font-weight="bold">B &gt; C  (2&#8211;1)</text>
+
+  <!-- Arrow C -> A (C beats A, 2 of 3) -->
+  <line x1="135" y1="278" x2="217" y2="106" stroke="#c0392b" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="80" y="180" text-anchor="start" font-size="13" fill="#c0392b" font-weight="bold">C &gt; A  (2&#8211;1)</text>
+
+  <!-- Ballot table -->
+  <text x="240" y="372" text-anchor="middle" font-size="12" fill="#1a1a1a">Ballots &#8212; Voter 1: A&gt;B&gt;C &#160;&#160; Voter 2: B&gt;C&gt;A &#160;&#160; Voter 3: C&gt;A&gt;B</text>
+  <text x="240" y="390" text-anchor="middle" font-size="12" fill="#1a1a1a">Every option loses a head-to-head majority: no Condorcet winner exists.</text>
+</svg>

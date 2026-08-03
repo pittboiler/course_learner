@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 430" font-family="sans-serif">
+  <rect x="0" y="0" width="640" height="430" fill="#ffffff"/>
+  <!-- Title -->
+  <text x="320" y="26" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Same endpoints, different paths: U returns, Q and W don't</text>
+  <!-- Axes -->
+  <line x1="80" y1="340" x2="600" y2="340" stroke="#111111" stroke-width="2"/>
+  <line x1="80" y1="50" x2="80" y2="340" stroke="#111111" stroke-width="2"/>
+  <text x="600" y="365" text-anchor="end" font-size="14" fill="#111111">volume  V</text>
+  <text x="60" y="150" text-anchor="middle" font-size="14" fill="#111111" transform="rotate(-90 60 150)">pressure  p</text>
+  <!-- shaded loop = net work difference between the two paths -->
+  <polygon points="200,90 254,137 308,170 362,195 416,214 470,230 200,230 200,90" fill="#fff3c4" stroke="none"/>
+  <text x="300" y="205" text-anchor="middle" font-size="12" fill="#8a6d00">enclosed area</text>
+  <text x="300" y="222" text-anchor="middle" font-size="12" fill="#8a6d00">= net work &#8750;p dV</text>
+  <!-- Path I: isotherm A->B (blue) -->
+  <polyline fill="none" stroke="#1f77b4" stroke-width="3" points="200,90 254,137 308,170 362,195 416,214 470,230"/>
+  <!-- Path II: isochoric then isobaric (red) -->
+  <polyline fill="none" stroke="#d62728" stroke-width="3" points="200,90 200,230 470,230"/>
+  <!-- endpoints -->
+  <circle cx="200" cy="90" r="5" fill="#111111"/>
+  <circle cx="470" cy="230" r="5" fill="#111111"/>
+  <circle cx="200" cy="230" r="4" fill="#777777"/>
+  <text x="196" y="80" text-anchor="end" font-size="14" font-weight="bold" fill="#111111">A = (V&#8320;, 2p&#8320;)</text>
+  <text x="480" y="234" text-anchor="start" font-size="14" font-weight="bold" fill="#111111">B = (2V&#8320;, p&#8320;)</text>
+  <text x="192" y="248" text-anchor="end" font-size="12" fill="#777777">M = (V&#8320;, p&#8320;)</text>
+  <!-- path labels -->
+  <text x="415" y="178" text-anchor="middle" font-size="13" fill="#1f77b4" font-weight="bold">Path I &#183; isothermal</text>
+  <text x="150" y="165" text-anchor="middle" font-size="13" fill="#d62728" font-weight="bold" transform="rotate(-90 150 165)">Path II &#183; isochoric</text>
+  <text x="335" y="256" text-anchor="middle" font-size="13" fill="#d62728" font-weight="bold">then isobaric</text>
+  <!-- bookkeeping box -->
+  <rect x="330" y="70" width="262" height="86" fill="#ffffff" stroke="#cccccc" stroke-width="1"/>
+  <text x="342" y="90" font-size="13" fill="#111111" font-weight="bold">Both paths (T at A = T at B, ideal gas):</text>
+  <text x="342" y="110" font-size="13" fill="#111111">&#916;U = 0  (state function &#8212; same)</text>
+  <text x="342" y="129" font-size="13" fill="#1f77b4">Path I:  W = &#8722;2p&#8320;V&#8320;ln2,  Q = +2p&#8320;V&#8320;ln2</text>
+  <text x="342" y="148" font-size="13" fill="#d62728">Path II: W = &#8722;p&#8320;V&#8320;,      Q = +p&#8320;V&#8320;</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="sans-serif">
+  <rect x="0" y="0" width="640" height="420" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="320" y="30" font-size="17" font-weight="bold" text-anchor="middle" fill="#1a1a1a">The exponential map: from the flat algebra to the curved group</text>
+
+  <!-- Curved group manifold (a shaded blob) -->
+  <path d="M 90 340 C 60 250, 130 175, 250 180 C 360 184, 470 150, 545 200 C 610 244, 570 340, 460 360 C 340 382, 150 400, 90 340 Z"
+        fill="#eef3fb" stroke="#3b6fb0" stroke-width="2"/>
+  <text x="150" y="380" font-size="15" font-style="italic" fill="#3b6fb0">group manifold  G</text>
+
+  <!-- Identity point e -->
+  <circle cx="300" cy="255" r="5" fill="#1a1a1a"/>
+  <text x="308" y="252" font-size="15" font-weight="bold" fill="#1a1a1a">e</text>
+
+  <!-- Tangent plane (Lie algebra) as a parallelogram touching at e -->
+  <polygon points="180,205 470,175 500,235 210,265" fill="#fff2d9" stroke="#d98a00" stroke-width="2" opacity="0.92"/>
+  <text x="360" y="200" font-size="15" font-weight="bold" fill="#b36b00">Lie algebra  g = T_eG  (flat)</text>
+
+  <!-- Straight ray in the algebra: from e along direction X -->
+  <line x1="300" y1="255" x2="430" y2="215" stroke="#b36b00" stroke-width="3"/>
+  <polygon points="430,215 415,211 421,224" fill="#b36b00"/>
+  <text x="392" y="243" font-size="15" font-weight="bold" fill="#b36b00">tX</text>
+
+  <!-- Curved one-parameter subgroup on the manifold -->
+  <path d="M 300 255 C 360 262, 410 290, 452 328" fill="none" stroke="#c0392b" stroke-width="3"/>
+  <polygon points="452,328 438,322 440,336" fill="#c0392b"/>
+  <text x="455" y="330" font-size="15" font-weight="bold" fill="#c0392b">t &#8614; e^{tX}</text>
+
+  <!-- exp arrow from ray tip down to the curve -->
+  <path d="M 430 218 C 448 250, 452 288, 452 320" fill="none" stroke="#555" stroke-width="1.6" stroke-dasharray="5,4"/>
+  <polygon points="452,322 446,309 458,310" fill="#555"/>
+  <text x="470" y="275" font-size="14" font-style="italic" fill="#555">exp</text>
+
+  <!-- Caption -->
+  <text x="320" y="410" font-size="13" text-anchor="middle" fill="#444">exp sends a straight ray  tX  in the tangent plane to the curved one-parameter subgroup  e^{tX}  in G.</text>
+</svg>

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420">
+  <rect x="0" y="0" width="760" height="420" fill="#ffffff"/>
+
+  <!-- ================= LEFT PANEL: scale factor a(t) ================= -->
+  <text x="225" y="30" font-family="sans-serif" font-size="15" font-weight="bold" fill="#1a1a1a" text-anchor="middle">Scale factor a(t): who wins when</text>
+
+  <!-- axes -->
+  <line x1="90" y1="300" x2="365" y2="300" stroke="#333333" stroke-width="1.6"/>
+  <line x1="90" y1="300" x2="90" y2="58" stroke="#333333" stroke-width="1.6"/>
+  <polygon points="365,300 357,296 357,304" fill="#333333"/>
+  <polygon points="90,58 86,66 94,66" fill="#333333"/>
+  <text x="330" y="318" font-family="sans-serif" font-size="12.5" fill="#333333">time  t</text>
+  <text x="70" y="66" font-family="sans-serif" font-size="12.5" fill="#333333" text-anchor="end">a</text>
+
+  <!-- Big Bang marker -->
+  <circle cx="90" cy="300" r="3.5" fill="#000000"/>
+  <text x="98" y="316" font-family="sans-serif" font-size="11" fill="#555555" font-style="italic">Big Bang (a=0)</text>
+
+  <!-- radiation  a = t^(1/2) -->
+  <polyline points="90,300 116,239.4 142,214.3 168,195.0 194,178.9 220,164.5 246,151.4 272,139.6 298,128.6 324,118.1 350,108.3" fill="none" stroke="#ea580c" stroke-width="2.6"/>
+  <!-- matter  a = t^(2/3) -->
+  <polyline points="90,300 116,258.8 142,234.4 168,214.1 194,195.9 220,179.2 246,163.7 272,149.0 298,134.8 324,121.3 350,108.3" fill="none" stroke="#1d4ed8" stroke-width="2.6"/>
+  <!-- Lambda  a ~ e^(Ht) -->
+  <polyline points="90,271.3 116,264.9 142,257.1 168,247.7 194,236.0 220,221.8 246,204.5 272,183.5 298,157.6 324,126.1 350,87.6" fill="none" stroke="#7c3aed" stroke-width="2.6"/>
+
+  <!-- inline curve labels -->
+  <text x="353" y="106" font-family="sans-serif" font-size="11.5" fill="#ea580c" font-weight="bold">radiation</text>
+  <text x="353" y="146" font-family="sans-serif" font-size="11.5" fill="#1d4ed8" font-weight="bold">matter</text>
+  <text x="300" y="80" font-family="sans-serif" font-size="11.5" fill="#7c3aed" font-weight="bold">&#923; (de Sitter)</text>
+
+  <!-- power-law annotations -->
+  <text x="150" y="290" font-family="sans-serif" font-size="12" fill="#1d4ed8">a &#8733; t&#178;&#8260;&#179;</text>
+  <text x="150" y="272" font-family="sans-serif" font-size="12" fill="#ea580c">a &#8733; t&#185;&#8260;&#178;</text>
+  <text x="196" y="256" font-family="sans-serif" font-size="12" fill="#7c3aed">a &#8733; exp(Ht)</text>
+
+  <!-- ================= RIGHT PANEL: density dilution ================= -->
+  <text x="560" y="30" font-family="sans-serif" font-size="15" font-weight="bold" fill="#1a1a1a" text-anchor="middle">Density dilution  &#961; &#8733; a</text>
+  <text x="627" y="24" font-family="sans-serif" font-size="10" fill="#1a1a1a">&#8722;3(1+w)</text>
+
+  <!-- axes -->
+  <line x1="430" y1="285" x2="705" y2="285" stroke="#333333" stroke-width="1.6"/>
+  <line x1="430" y1="285" x2="430" y2="58" stroke="#333333" stroke-width="1.6"/>
+  <polygon points="705,285 697,281 697,289" fill="#333333"/>
+  <polygon points="430,58 426,66 434,66" fill="#333333"/>
+  <text x="655" y="303" font-family="sans-serif" font-size="12" fill="#333333">a  (log)</text>
+  <text x="425" y="70" font-family="sans-serif" font-size="12" fill="#333333" text-anchor="end">&#961; (log)</text>
+  <text x="690" y="303" font-family="sans-serif" font-size="10.5" fill="#555555" font-style="italic">today</text>
+  <line x1="690" y1="70" x2="690" y2="285" stroke="#bbbbbb" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- radiation slope -4 -->
+  <line x1="430" y1="85" x2="690" y2="285" stroke="#ea580c" stroke-width="2.6"/>
+  <!-- matter slope -3 -->
+  <line x1="430" y1="135" x2="690" y2="285" stroke="#1d4ed8" stroke-width="2.6"/>
+  <!-- vacuum slope 0 -->
+  <line x1="430" y1="273" x2="690" y2="273" stroke="#7c3aed" stroke-width="2.6"/>
+
+  <!-- labels for the three lines -->
+  <text x="436" y="80" font-family="sans-serif" font-size="11.5" fill="#ea580c" font-weight="bold">radiation  &#961; &#8733; a&#8315;&#8308;</text>
+  <text x="436" y="128" font-family="sans-serif" font-size="11.5" fill="#1d4ed8" font-weight="bold">matter  &#961; &#8733; a&#8315;&#179;</text>
+  <text x="500" y="267" font-family="sans-serif" font-size="11.5" fill="#7c3aed" font-weight="bold">vacuum / &#923;  &#961; = const</text>
+
+  <!-- takeaway strip -->
+  <line x1="30" y1="345" x2="730" y2="345" stroke="#d1d5db" stroke-width="1.2"/>
+  <text x="380" y="372" font-family="sans-serif" font-size="13.5" fill="#111827" text-anchor="middle" font-weight="bold">Early: radiation dominates &#183; then matter &#183; finally &#923; &#8212; because &#961; falls fastest for the stiffest equation of state.</text>
+  <text x="380" y="396" font-family="sans-serif" font-size="12.5" fill="#4b5563" text-anchor="middle" font-style="italic">Matter &amp; radiation decelerate expansion (&#228;&lt;0); &#923;, with negative pressure, accelerates it (&#228;&gt;0).</text>
+</svg>

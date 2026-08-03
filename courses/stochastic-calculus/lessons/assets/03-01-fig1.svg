@@ -1,0 +1,24 @@
+<svg viewBox="0 0 660 300" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="660" height="300" fill="#ffffff"/>
+  <text x="330" y="30" font-size="15" fill="#111" text-anchor="middle">Itô's lemma = Taylor to 2nd order, because (dW)&#178; = dt survives.</text>
+
+  <!-- Taylor expansion line -->
+  <text x="40" y="90" font-size="16" fill="#111">df = f&#8242;(W) dW</text>
+  <text x="220" y="90" font-size="16" fill="#111">+ &#189; f&#8243;(W) (dW)&#178;</text>
+  <text x="470" y="90" font-size="16" fill="#999">+ &#8531; f&#8482;(W)(dW)&#179; + &#8230;</text>
+
+  <!-- (dW)^2 = dt box -->
+  <rect x="300" y="110" width="120" height="40" fill="#0a7d4f" fill-opacity="0.12" stroke="#0a7d4f" stroke-width="1.6"/>
+  <text x="360" y="136" font-size="15" fill="#0a7d4f" text-anchor="middle">(dW)&#178; = dt</text>
+  <line x1="335" y1="98" x2="345" y2="110" stroke="#0a7d4f" stroke-width="1.2"/>
+
+  <!-- higher terms vanish -->
+  <text x="540" y="130" font-size="12.5" fill="#c0392b" text-anchor="middle">these vanish</text>
+  <text x="540" y="146" font-size="12.5" fill="#c0392b" text-anchor="middle">(order &gt; dt)</text>
+
+  <!-- result -->
+  <rect x="120" y="185" width="420" height="52" fill="#1f6fb2" fill-opacity="0.08" stroke="#1f6fb2" stroke-width="1.6"/>
+  <text x="330" y="218" font-size="18" fill="#1f6fb2" text-anchor="middle">df = f&#8242;(W) dW + &#189; f&#8243;(W) dt</text>
+
+  <text x="330" y="270" font-size="13" fill="#555" text-anchor="middle">the &#189;f&#8243; dt term is the It&#244; correction &#8212; absent in ordinary calculus</text>
+</svg>

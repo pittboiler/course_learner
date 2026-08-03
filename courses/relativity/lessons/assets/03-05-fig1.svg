@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 470">
+  <rect x="0" y="0" width="780" height="470" fill="#ffffff"/>
+  <text x="390" y="34" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#1a1a1a">One antisymmetric tensor holds both fields</text>
+  <text x="390" y="56" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#555">F<tspan font-size="10" dy="4">&#956;&#957;</tspan><tspan dy="-4"> = &#8706;</tspan><tspan font-size="10" dy="4">&#956;</tspan><tspan dy="-4">A</tspan><tspan font-size="10" dy="4">&#957;</tspan><tspan dy="-4"> &#8722; &#8706;</tspan><tspan font-size="10" dy="4">&#957;</tspan><tspan dy="-4">A</tspan><tspan font-size="10" dy="4">&#956;</tspan><tspan dy="-4">   &#8212;   signature (+,&#8722;,&#8722;,&#8722;)</tspan></text>
+
+  <!-- ===== Matrix panel ===== -->
+  <!-- block shading: time-space (E) row0 and col0, space-space (B) 3x3 -->
+  <rect x="150" y="120" width="72" height="252" fill="#fbe6e3"/>
+  <rect x="150" y="120" width="288" height="42" fill="#fbe6e3"/>
+  <rect x="222" y="162" width="216" height="210" fill="#e6eefb"/>
+
+  <!-- column index labels (nu) -->
+  <text x="186" y="108" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#888">&#957;=0</text>
+  <text x="258" y="108" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#888">1</text>
+  <text x="330" y="108" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#888">2</text>
+  <text x="402" y="108" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#888">3</text>
+  <!-- row index labels (mu) -->
+  <text x="130" y="146" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#888">&#956;=0</text>
+  <text x="130" y="218" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#888">1</text>
+  <text x="130" y="290" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#888">2</text>
+  <text x="130" y="362" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#888">3</text>
+
+  <!-- brackets -->
+  <path d="M 156 122 L 148 122 L 148 370 L 156 370" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+  <path d="M 432 122 L 440 122 L 440 370 L 432 370" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+
+  <!-- Row 0 -->
+  <text x="186" y="146" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#999">0</text>
+  <text x="258" y="146" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#c0392b">E<tspan font-size="11" dy="4">x</tspan><tspan dy="-4">/c</tspan></text>
+  <text x="330" y="146" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#c0392b">E<tspan font-size="11" dy="4">y</tspan><tspan dy="-4">/c</tspan></text>
+  <text x="402" y="146" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#c0392b">E<tspan font-size="11" dy="4">z</tspan><tspan dy="-4">/c</tspan></text>
+  <!-- Row 1 -->
+  <text x="186" y="218" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#c0392b">&#8722;E<tspan font-size="11" dy="4">x</tspan><tspan dy="-4">/c</tspan></text>
+  <text x="258" y="218" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#999">0</text>
+  <text x="330" y="218" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#1f5fbf">&#8722;B<tspan font-size="11" dy="4">z</tspan></text>
+  <text x="402" y="218" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#1f5fbf">B<tspan font-size="11" dy="4">y</tspan></text>
+  <!-- Row 2 -->
+  <text x="186" y="290" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#c0392b">&#8722;E<tspan font-size="11" dy="4">y</tspan><tspan dy="-4">/c</tspan></text>
+  <text x="258" y="290" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#1f5fbf">B<tspan font-size="11" dy="4">z</tspan></text>
+  <text x="330" y="290" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#999">0</text>
+  <text x="402" y="290" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#1f5fbf">&#8722;B<tspan font-size="11" dy="4">x</tspan></text>
+  <!-- Row 3 -->
+  <text x="186" y="362" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#c0392b">&#8722;E<tspan font-size="11" dy="4">z</tspan><tspan dy="-4">/c</tspan></text>
+  <text x="258" y="362" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#1f5fbf">&#8722;B<tspan font-size="11" dy="4">y</tspan></text>
+  <text x="330" y="362" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#1f5fbf">B<tspan font-size="11" dy="4">x</tspan></text>
+  <text x="402" y="362" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#999">0</text>
+
+  <!-- legend -->
+  <rect x="150" y="392" width="16" height="16" fill="#fbe6e3" stroke="#c0392b" stroke-width="1"/>
+  <text x="174" y="405" font-family="sans-serif" font-size="13" fill="#c0392b">time&#8211;space block = electric field E</text>
+  <rect x="150" y="414" width="16" height="16" fill="#e6eefb" stroke="#1f5fbf" stroke-width="1"/>
+  <text x="174" y="427" font-family="sans-serif" font-size="13" fill="#1f5fbf">space&#8211;space block = magnetic field B</text>
+  <text x="150" y="450" font-family="sans-serif" font-size="13" fill="#555">antisymmetric: F<tspan font-size="10" dy="3">&#957;&#956;</tspan><tspan dy="-3"> = &#8722;F</tspan><tspan font-size="10" dy="3">&#956;&#957;</tspan><tspan dy="-3">, so the diagonal is 0</tspan></text>
+
+  <!-- ===== Boost panel ===== -->
+  <line x1="500" y1="118" x2="500" y2="360" stroke="#ddd" stroke-width="1"/>
+  <text x="642" y="116" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="bold" fill="#1a1a1a">A boost mixes the blocks</text>
+  <text x="642" y="138" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#555">boost speed v along x turns E into B:</text>
+
+  <rect x="524" y="158" width="236" height="86" rx="6" fill="#f7f7f7" stroke="#bbb" stroke-width="1"/>
+  <text x="642" y="192" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#c0392b">E'<tspan font-size="11" dy="4">y</tspan><tspan dy="-4"> = &#947;(E</tspan><tspan font-size="11" dy="4">y</tspan><tspan dy="-4"> &#8722; v B</tspan><tspan font-size="11" dy="4">z</tspan><tspan dy="-4">)</tspan></text>
+  <text x="642" y="224" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#1f5fbf">B'<tspan font-size="11" dy="4">z</tspan><tspan dy="-4"> = &#947;(B</tspan><tspan font-size="11" dy="4">z</tspan><tspan dy="-4"> &#8722; v E</tspan><tspan font-size="11" dy="4">y</tspan><tspan dy="-4">/c&#178;)</tspan></text>
+
+  <text x="642" y="278" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#333">Pure E in one frame</text>
+  <text x="642" y="298" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#333">&#8595;</text>
+  <text x="642" y="318" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#333">E and B in another.</text>
+  <text x="642" y="348" text-anchor="middle" font-family="sans-serif" font-size="13" font-style="italic" fill="#7a3fa0">Magnetism = relativity + electrostatics.</text>
+</svg>

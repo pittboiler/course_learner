@@ -1,0 +1,36 @@
+<svg viewBox="0 0 560 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="60" y="28" fill="#8a8a8a" font-style="italic">Total entropy peaks where the two slopes balance: 1/T&#8321; = 1/T&#8322;.</text>
+
+  <!-- axes -->
+  <line x1="60" y1="300" x2="540" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="60" y1="45" x2="60" y2="322" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="540,300 530,295 530,305" fill="#8a8a8a"/>
+  <text x="500" y="318" fill="#8a8a8a">E&#8321; (energy in system 1)</text>
+  <text x="20" y="52" fill="#8a8a8a">S</text>
+  <text x="66" y="316" fill="#8a8a8a">0</text>
+  <text x="524" y="316" fill="#8a8a8a">E</text>
+
+  <!-- S1 rising (blue) -->
+  <path d="M 108 300 L 156 262 L 204 240 L 252 224 L 300 212 L 348 202 L 396 194 L 444 186 L 492 180"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="454" y="172" fill="#4a90d9">S&#8321;(E&#8321;) &#8599;</text>
+
+  <!-- S2 falling (green) -->
+  <path d="M 108 180 L 156 186 L 204 194 L 252 202 L 300 212 L 348 224 L 396 240 L 444 262 L 492 300"
+        fill="none" stroke="#4a9d5c" stroke-width="2.5"/>
+  <text x="96" y="172" fill="#4a9d5c">S&#8322;(E&#8722;E&#8321;) &#8600;</text>
+
+  <!-- S_total peaked (red, bold) -->
+  <path d="M 108 250 L 132 188.6 L 156 148.7 L 180 120.7 L 204 100.8 L 228 86.7 L 252 77.2 L 276 71.8 L 300 70 L 324 71.8 L 348 77.2 L 372 86.7 L 396 100.8 L 420 120.7 L 444 148.7 L 468 188.6 L 492 250"
+        fill="none" stroke="#e0645c" stroke-width="3.5"/>
+  <text x="312" y="60" fill="#e0645c">S&#8321;+S&#8322; (total)</text>
+
+  <!-- peak marker + dropline -->
+  <circle cx="300" cy="70" r="5" fill="#e0645c"/>
+  <line x1="300" y1="70" x2="300" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="286" y="316" fill="#8a8a8a">E&#8321;*</text>
+
+  <!-- equilibrium label -->
+  <text x="316" y="92" fill="#8a8a8a" font-size="12">equilibrium split</text>
+</svg>

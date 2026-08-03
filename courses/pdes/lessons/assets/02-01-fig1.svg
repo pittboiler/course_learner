@@ -1,0 +1,46 @@
+<svg viewBox="0 0 600 370" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif" font-size="14">
+  <rect x="0" y="0" width="600" height="370" fill="#ffffff"/>
+
+  <!-- title equation -->
+  <text x="300" y="28" fill="#1a1a1a" font-size="17" text-anchor="middle">u_t = k · u_xx  —  rate of warming is proportional to curvature</text>
+
+  <!-- axes -->
+  <line x1="40" y1="300" x2="565" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="45" y1="45" x2="45" y2="322" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="565,300 555,295 555,305" fill="#8a8a8a"/>
+  <text x="558" y="318" fill="#8a8a8a">x</text>
+  <text x="30" y="55" fill="#8a8a8a">u</text>
+
+  <!-- later, flattened profile (dashed) -->
+  <path d="M 60 295 L 90 289 L 120 278 L 150 260 L 180 236 L 210 207 L 240 179 L 270 158 L 300 150 L 330 158 L 360 179 L 390 207 L 420 236 L 450 260 L 480 278 L 510 289 L 540 295"
+        fill="none" stroke="#8a8a8a" stroke-width="2" stroke-dasharray="5 4"/>
+
+  <!-- initial temperature bump (solid) -->
+  <path d="M 60 299.8 L 90 299.1 L 120 296.2 L 150 286.9 L 180 264.5 L 210 222.7 L 240 165.4 L 270 112 L 300 90 L 330 112 L 360 165.4 L 390 222.7 L 420 264.5 L 450 286.9 L 480 296.2 L 510 299.1 L 540 299.8"
+        fill="none" stroke="#d1495b" stroke-width="3"/>
+
+  <!-- inflection points: u_xx = 0 -->
+  <circle cx="210" cy="222.7" r="4.5" fill="#1a1a1a"/>
+  <circle cx="390" cy="222.7" r="4.5" fill="#1a1a1a"/>
+  <line x1="210" y1="222.7" x2="210" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="390" y1="222.7" x2="390" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="300" y="255" fill="#1a1a1a" text-anchor="middle">u_xx = 0 (inflections)</text>
+
+  <!-- peak: concave down, cools — down arrow -->
+  <line x1="300" y1="46" x2="300" y2="78" stroke="#1a1a1a" stroke-width="2.5"/>
+  <polygon points="300,86 293,73 307,73" fill="#1a1a1a"/>
+  <text x="300" y="105" fill="#1a1a1a" text-anchor="middle">u_xx &lt; 0 · cools</text>
+
+  <!-- left flank: concave up, warms — up arrow -->
+  <line x1="150" y1="258" x2="150" y2="224" stroke="#1a1a1a" stroke-width="2.5"/>
+  <polygon points="150,216 143,229 157,229" fill="#1a1a1a"/>
+  <text x="150" y="208" fill="#1a1a1a" text-anchor="middle">u_xx &gt; 0 · warms</text>
+
+  <!-- right flank: concave up, warms — up arrow -->
+  <line x1="450" y1="258" x2="450" y2="224" stroke="#1a1a1a" stroke-width="2.5"/>
+  <polygon points="450,216 443,229 457,229" fill="#1a1a1a"/>
+  <text x="450" y="208" fill="#1a1a1a" text-anchor="middle">u_xx &gt; 0 · warms</text>
+
+  <!-- caption -->
+  <text x="60" y="345" fill="#8a8a8a" font-style="italic">The bump flattens (dashed): the peak sinks, the shoulders lift — smoothing driven purely by curvature.</text>
+</svg>

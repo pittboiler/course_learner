@@ -1,0 +1,59 @@
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="700" height="400" fill="#ffffff"/>
+
+  <text x="350" y="28" font-size="18" fill="#1a1a1a" text-anchor="middle" font-weight="bold">A prefix code = codewords sit at the LEAVES</text>
+
+  <!-- edges -->
+  <g stroke="#1a1a1a" stroke-width="2" fill="none">
+    <line x1="350" y1="55" x2="180" y2="135"/>
+    <line x1="350" y1="55" x2="500" y2="135"/>
+    <line x1="500" y1="145" x2="400" y2="225"/>
+    <line x1="500" y1="145" x2="600" y2="225"/>
+    <line x1="600" y1="235" x2="540" y2="315"/>
+    <line x1="600" y1="235" x2="660" y2="315"/>
+  </g>
+
+  <!-- branch labels -->
+  <g font-size="15" fill="#666666">
+    <text x="252" y="92">0</text>
+    <text x="430" y="92">1</text>
+    <text x="440" y="188">0</text>
+    <text x="560" y="188">1</text>
+    <text x="558" y="278">0</text>
+    <text x="638" y="278">1</text>
+  </g>
+
+  <!-- root -->
+  <circle cx="350" cy="50" r="6" fill="#1a1a1a"/>
+  <text x="350" y="45" font-size="12" fill="#666666" text-anchor="middle">root</text>
+
+  <!-- internal nodes (hollow) -->
+  <circle cx="500" cy="140" r="6" fill="#ffffff" stroke="#1a1a1a" stroke-width="2"/>
+  <circle cx="600" cy="230" r="6" fill="#ffffff" stroke="#1a1a1a" stroke-width="2"/>
+
+  <!-- leaves = codewords (filled squares) -->
+  <g fill="#c9ddf0" stroke="#1a1a1a" stroke-width="2">
+    <rect x="160" y="130" width="40" height="26" rx="4"/>
+    <rect x="374" y="220" width="52" height="26" rx="4"/>
+    <rect x="500" y="310" width="60" height="26" rx="4"/>
+    <rect x="628" y="310" width="60" height="26" rx="4"/>
+  </g>
+  <g font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="bold">
+    <text x="180" y="148">0</text>
+    <text x="400" y="238">10</text>
+    <text x="530" y="328">110</text>
+    <text x="658" y="328">111</text>
+  </g>
+
+  <!-- depth + claimed-fraction annotations -->
+  <g font-size="13" fill="#1a1a1a">
+    <text x="180" y="176" text-anchor="middle">l=1, claims 1/2</text>
+    <text x="400" y="266" text-anchor="middle">l=2, claims 1/4</text>
+    <text x="530" y="356" text-anchor="middle">l=3, 1/8</text>
+    <text x="658" y="356" text-anchor="middle">l=3, 1/8</text>
+  </g>
+
+  <!-- budget bar -->
+  <text x="130" y="384" font-size="15" fill="#1a1a1a" font-weight="bold">Kraft:</text>
+  <text x="350" y="384" font-size="15" fill="#1a1a1a" text-anchor="middle">1/2 + 1/4 + 1/8 + 1/8 = 1  (leaves fill the tree, no overflow)</text>
+</svg>

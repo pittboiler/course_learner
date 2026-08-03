@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" font-family="sans-serif">
+  <rect x="0" y="0" width="760" height="400" fill="#ffffff"/>
+
+  <!-- ================= LEFT: Laplace — max on the boundary ================= -->
+  <text x="40" y="40" font-size="15" fill="#1a1a1a" font-weight="bold">Laplace: extrema live on the boundary</text>
+
+  <!-- the domain Ω: a smooth blob -->
+  <path d="M 100 260 C 70 180, 120 90, 210 100 C 300 108, 340 170, 320 240 C 305 300, 160 330, 100 260 Z"
+        fill="none" stroke="#1a1a1a" stroke-width="2.5"/>
+  <text x="140" y="200" font-size="16" fill="#1a1a1a" font-style="italic">&#937;</text>
+
+  <!-- interior level curves crowding toward the boundary max -->
+  <path d="M 175 250 C 150 210, 175 165, 220 168 C 258 171, 272 210, 250 245 C 232 272, 195 278, 175 250 Z"
+        fill="none" stroke="#1a1a1a" stroke-width="1" opacity="0.55"/>
+  <path d="M 195 240 C 180 214, 200 186, 226 190 C 250 194, 258 218, 244 240 C 232 258, 208 258, 195 240 Z"
+        fill="none" stroke="#1a1a1a" stroke-width="1" opacity="0.55"/>
+  <path d="M 210 230 C 202 216, 216 202, 230 206 C 242 210, 244 224, 235 234 C 227 243, 216 240, 210 230 Z"
+        fill="none" stroke="#1a1a1a" stroke-width="1" opacity="0.55"/>
+  <text x="120" y="120" font-size="11" fill="#1a1a1a" opacity="0.8">level curves of u</text>
+
+  <!-- MAX dot on the boundary -->
+  <circle cx="285" cy="130" r="5.5" fill="#1a1a1a"/>
+  <text x="296" y="126" font-size="13" fill="#1a1a1a" font-weight="bold">max u</text>
+  <text x="296" y="142" font-size="11" fill="#1a1a1a">(on &#8706;&#937;)</text>
+
+  <!-- MIN dot on the boundary -->
+  <circle cx="108" cy="255" r="5.5" fill="#1a1a1a"/>
+  <text x="30" y="278" font-size="13" fill="#1a1a1a" font-weight="bold">min u</text>
+
+  <!-- no interior extremum note -->
+  <text x="60" y="360" font-size="12" fill="#1a1a1a">no interior peak or pit &#8212; the mean-value property forbids it</text>
+
+  <!-- ================= RIGHT: Heat — parabolic boundary ================= -->
+  <text x="430" y="40" font-size="15" fill="#1a1a1a" font-weight="bold">Heat: max on the parabolic boundary</text>
+
+  <!-- axes -->
+  <line x1="470" y1="330" x2="740" y2="330" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="470" y1="340" x2="470" y2="80" stroke="#1a1a1a" stroke-width="1.5"/>
+  <polygon points="740,330 730,325 730,335" fill="#1a1a1a"/>
+  <polygon points="470,80 465,90 475,90" fill="#1a1a1a"/>
+  <text x="732" y="352" font-size="14" fill="#1a1a1a">x</text>
+  <text x="452" y="90" font-size="14" fill="#1a1a1a">t</text>
+
+  <!-- the space-time box corners: x in [510,700], t: bottom y=330 (t=0), top y=110 (t=T) -->
+  <!-- TOP edge (final time) — NOT included: thin dashed -->
+  <line x1="510" y1="110" x2="700" y2="110" stroke="#1a1a1a" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <text x="512" y="102" font-size="11" fill="#1a1a1a">t = T  (final time &#8212; NOT included)</text>
+
+  <!-- LEFT side x=0 — included: thick -->
+  <line x1="510" y1="330" x2="510" y2="110" stroke="#1a1a1a" stroke-width="5"/>
+  <!-- RIGHT side x=L — included: thick -->
+  <line x1="700" y1="330" x2="700" y2="110" stroke="#1a1a1a" stroke-width="5"/>
+  <!-- BOTTOM edge t=0 — included: thick -->
+  <line x1="510" y1="330" x2="700" y2="330" stroke="#1a1a1a" stroke-width="5"/>
+
+  <!-- labels for the parabolic-boundary pieces -->
+  <text x="486" y="360" font-size="11" fill="#1a1a1a">x = 0</text>
+  <text x="682" y="360" font-size="11" fill="#1a1a1a">x = L</text>
+  <text x="545" y="348" font-size="11" fill="#1a1a1a">t = 0 (initial)</text>
+
+  <!-- max dot somewhere on the parabolic boundary (a spatial end) -->
+  <circle cx="510" cy="200" r="5.5" fill="#1a1a1a"/>
+  <text x="418" y="196" font-size="12" fill="#1a1a1a" font-weight="bold">max here</text>
+
+  <!-- caption -->
+  <text x="430" y="388" font-size="12" fill="#1a1a1a">the three thick edges = parabolic boundary; heat can't peak inside</text>
+</svg>

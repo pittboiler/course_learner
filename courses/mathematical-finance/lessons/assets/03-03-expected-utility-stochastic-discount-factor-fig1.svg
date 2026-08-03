@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 440">
+  <rect x="0" y="0" width="660" height="440" fill="#ffffff"/>
+  <defs>
+    <marker id="ar" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto">
+      <path d="M1,1 L7,4 L1,7" fill="none" stroke="#444444" stroke-width="1.4"/>
+    </marker>
+  </defs>
+
+  <!-- central hub -->
+  <rect x="255" y="190" width="150" height="60" rx="8" fill="#eaf2fb" stroke="#1a5fb4" stroke-width="2.5"/>
+  <text x="330" y="218" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#1a5fb4">the one equation</text>
+  <text x="330" y="240" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#0d3a6b">p = E[ m x ]</text>
+
+  <!-- arrows from hub to four corners -->
+  <line x1="270" y1="196" x2="185" y2="115" stroke="#444444" stroke-width="1.6" marker-end="url(#ar)"/>
+  <line x1="390" y1="196" x2="475" y2="115" stroke="#444444" stroke-width="1.6" marker-end="url(#ar)"/>
+  <line x1="270" y1="244" x2="185" y2="325" stroke="#444444" stroke-width="1.6" marker-end="url(#ar)"/>
+  <line x1="390" y1="244" x2="475" y2="325" stroke="#444444" stroke-width="1.6" marker-end="url(#ar)"/>
+
+  <!-- top-left: risk-free rate -->
+  <rect x="40" y="60" width="230" height="60" rx="6" fill="#ffffff" stroke="#2a7a2a" stroke-width="1.8"/>
+  <text x="55" y="84" font-family="sans-serif" font-size="12.5" fill="#2a7a2a">apply to a sure payoff x = 1:</text>
+  <text x="55" y="107" font-family="sans-serif" font-size="16" fill="#111111">R<tspan font-size="11" dy="3">f</tspan><tspan dy="-3"> = 1 / E[m]</tspan></text>
+
+  <!-- top-right: risk premium -->
+  <rect x="390" y="60" width="250" height="60" rx="6" fill="#ffffff" stroke="#c01c28" stroke-width="1.8"/>
+  <text x="405" y="84" font-family="sans-serif" font-size="12.5" fill="#c01c28">split the covariance:</text>
+  <text x="405" y="107" font-family="sans-serif" font-size="15" fill="#111111">E[R]&#8722;R<tspan font-size="11" dy="3">f</tspan><tspan dy="-3"> = &#8722;Cov(m,R)/E[m]</tspan></text>
+
+  <!-- bottom-left: CAPM -->
+  <rect x="40" y="322" width="230" height="66" rx="6" fill="#ffffff" stroke="#8f5a00" stroke-width="1.8"/>
+  <text x="55" y="345" font-family="sans-serif" font-size="12.5" fill="#8f5a00">take m = a &#8722; b R<tspan font-size="10" dy="3">M</tspan><tspan dy="-3"> (affine):</tspan></text>
+  <text x="55" y="369" font-family="sans-serif" font-size="15" fill="#111111">E[R<tspan font-size="10" dy="3">i</tspan><tspan dy="-3">]&#8722;R</tspan><tspan font-size="10" dy="3">f</tspan><tspan dy="-3"> = &#946;</tspan><tspan font-size="10" dy="3">i</tspan><tspan dy="-3">(E[R</tspan><tspan font-size="10" dy="3">M</tspan><tspan dy="-3">]&#8722;R</tspan><tspan font-size="10" dy="3">f</tspan><tspan dy="-3">)</tspan></text>
+  <text x="55" y="384" font-family="sans-serif" font-size="11.5" fill="#8f5a00">the CAPM</text>
+
+  <!-- bottom-right: risk-neutral measure -->
+  <rect x="390" y="322" width="250" height="66" rx="6" fill="#ffffff" stroke="#6a2fb5" stroke-width="1.8"/>
+  <text x="405" y="345" font-family="sans-serif" font-size="12.5" fill="#6a2fb5">reweight probabilities by m:</text>
+  <text x="405" y="369" font-family="sans-serif" font-size="15" fill="#111111">dQ/dP = R<tspan font-size="10" dy="3">f</tspan><tspan dy="-3"> m,  p = E</tspan><tspan font-size="11" dy="-6">Q</tspan><tspan dy="6">[x]/R</tspan><tspan font-size="10" dy="3">f</tspan></text>
+  <text x="405" y="384" font-family="sans-serif" font-size="11.5" fill="#6a2fb5">the risk-neutral measure</text>
+
+  <!-- kernel note -->
+  <text x="330" y="420" text-anchor="middle" font-family="sans-serif" font-size="12.5" fill="#444444">m = &#946; u&#8242;(c&#8321;)/u&#8242;(c&#8320;) &#8212; the pricing kernel: marginal utility, state by state</text>
+</svg>

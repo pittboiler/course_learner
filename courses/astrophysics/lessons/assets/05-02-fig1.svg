@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" font-family="sans-serif"><rect x="0" y="0" width="720" height="380" fill="#ffffff"/>
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#333"/>
+    </marker>
+  </defs>
+
+  <!-- ================= LEFT: edge-on Milky Way ================= -->
+  <text x="180" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="#111">The Milky Way, edge-on</text>
+
+  <!-- halo -->
+  <ellipse cx="180" cy="200" rx="155" ry="140" fill="#f4f1fa" stroke="#9a86c4" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="180" y="72" text-anchor="middle" font-size="11.5" fill="#5b3f9a">Halo: old, metal-poor (Pop II)</text>
+
+  <!-- globular clusters scattered in halo -->
+  <g fill="#f2d34e" stroke="#b8860b" stroke-width="1">
+    <circle cx="95"  cy="120" r="4"/>
+    <circle cx="270" cy="115" r="4"/>
+    <circle cx="70"  cy="255" r="4"/>
+    <circle cx="290" cy="270" r="4"/>
+    <circle cx="180" cy="92"  r="4"/>
+    <circle cx="185" cy="315" r="4"/>
+    <circle cx="315" cy="185" r="4"/>
+    <circle cx="55"  cy="185" r="4"/>
+  </g>
+  <text x="270" y="108" text-anchor="middle" font-size="10.5" fill="#8a6400">globular clusters</text>
+
+  <!-- thin disk -->
+  <ellipse cx="180" cy="200" rx="150" ry="15" fill="#bcd0f0" stroke="#4a6fb0" stroke-width="1.5" opacity="0.9"/>
+  <text x="180" y="248" text-anchor="middle" font-size="11.5" fill="#274a86">Thin disk ~30 kpc: spiral arms,</text>
+  <text x="180" y="263" text-anchor="middle" font-size="11.5" fill="#274a86">star formation (Pop I)</text>
+
+  <!-- bulge / bar -->
+  <ellipse cx="180" cy="200" rx="30" ry="21" fill="#f0a850" stroke="#b5661a" stroke-width="1.5"/>
+  <text x="180" y="204" text-anchor="middle" font-size="10.5" fill="#6b3d0e">bulge/bar</text>
+
+  <!-- Sun -->
+  <circle cx="258" cy="200" r="4.5" fill="#e8420c" stroke="#7a2000" stroke-width="1"/>
+  <line x1="258" y1="200" x2="300" y2="150" stroke="#333" stroke-width="1" marker-end="url(#arr)"/>
+  <text x="303" y="148" font-size="11" fill="#111">Sun, 8 kpc</text>
+  <text x="303" y="162" font-size="11" fill="#111">v &#8776; 220 km/s</text>
+
+  <!-- ================= RIGHT: rotation curve ================= -->
+  <text x="560" y="24" text-anchor="middle" font-size="15" font-weight="bold" fill="#111">Rotation curve v(R)</text>
+
+  <!-- axes -->
+  <line x1="430" y1="60" x2="430" y2="330" stroke="#333" stroke-width="1.5"/>
+  <line x1="430" y1="330" x2="705" y2="330" stroke="#333" stroke-width="1.5"/>
+  <text x="418" y="70" text-anchor="end" font-size="11" fill="#333">v</text>
+  <text x="700" y="348" text-anchor="middle" font-size="11" fill="#333">R (radius)</text>
+
+  <!-- observed flat curve -->
+  <path d="M430,330 C 448,235 460,150 486,138 C 525,124 575,122 705,121"
+        fill="none" stroke="#1f3b73" stroke-width="3"/>
+  <text x="600" y="112" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#1f3b73">observed: flat</text>
+
+  <!-- Keplerian dashed decline -->
+  <path d="M486,138 C 540,182 610,220 705,250"
+        fill="none" stroke="#c0392b" stroke-width="2.5" stroke-dasharray="6 4"/>
+  <text x="612" y="245" text-anchor="middle" font-size="11" fill="#c0392b">Keplerian: v &#8733; R</text>
+  <text x="660" y="245" text-anchor="middle" font-size="9" fill="#c0392b">&#8722;1/2</text>
+  <text x="640" y="262" text-anchor="middle" font-size="10.5" fill="#c0392b">(visible mass only)</text>
+
+  <!-- Sun marker -->
+  <circle cx="505" cy="130" r="4" fill="#e8420c" stroke="#7a2000" stroke-width="1"/>
+  <line x1="505" y1="130" x2="505" y2="330" stroke="#999" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="505" y="345" text-anchor="middle" font-size="10.5" fill="#333">Sun</text>
+
+  <!-- verdict -->
+  <text x="565" y="82" text-anchor="middle" font-size="11.5" fill="#5b3f9a">flat &#8658; M(R) &#8733; R &#8658; dark halo</text>
+</svg>

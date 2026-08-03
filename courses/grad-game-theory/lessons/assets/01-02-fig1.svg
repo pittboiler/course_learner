@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" font-family="sans-serif">
+  <rect x="0" y="0" width="720" height="400" fill="#ffffff"/>
+
+  <!-- ================= LEFT PANEL: uhc (closed graph) ================= -->
+  <text x="175" y="30" font-size="17" font-weight="bold" fill="#1a1a1a" text-anchor="middle">Upper hemicontinuous</text>
+  <text x="175" y="50" font-size="13" fill="#1a1a1a" text-anchor="middle">graph is CLOSED — nothing escapes in the limit</text>
+
+  <!-- axes -->
+  <line x1="60" y1="360" x2="330" y2="360" stroke="#1a1a1a" stroke-width="2"/>
+  <line x1="60" y1="360" x2="60" y2="90" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="335" y="365" font-size="14" fill="#1a1a1a">x</text>
+  <text x="45" y="100" font-size="14" fill="#1a1a1a">y</text>
+  <!-- marked point x0 -->
+  <line x1="195" y1="360" x2="195" y2="365" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="192" y="380" font-size="13" fill="#1a1a1a">x₀</text>
+
+  <!-- thin single-valued branches meeting a thick interval at x0 (closed graph) -->
+  <!-- left branch rising to top of the fat segment -->
+  <path d="M 70 320 Q 130 300 195 175" fill="none" stroke="#1a1a1a" stroke-width="2.5"/>
+  <!-- right branch leaving from bottom of the fat segment -->
+  <path d="M 195 285 Q 260 300 320 315" fill="none" stroke="#1a1a1a" stroke-width="2.5"/>
+  <!-- the fat (set-valued) segment over x0 : phi(x0) = [low, high], filled ENDPOINTS included -->
+  <line x1="195" y1="175" x2="195" y2="285" stroke="#1a1a1a" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="195" cy="175" r="5" fill="#1a1a1a"/>
+  <circle cx="195" cy="285" r="5" fill="#1a1a1a"/>
+  <text x="205" y="230" font-size="13" fill="#1a1a1a">φ(x₀)</text>
+  <text x="70" y="345" font-size="12" fill="#1a1a1a">limits land INSIDE φ(x₀) ✓</text>
+
+  <!-- ================= RIGHT PANEL: uhc FAILS ================= -->
+  <text x="545" y="30" font-size="17" font-weight="bold" fill="#1a1a1a" text-anchor="middle">uhc FAILS</text>
+  <text x="545" y="50" font-size="13" fill="#1a1a1a" text-anchor="middle">graph NOT closed — limit point escapes φ(x₀)</text>
+
+  <!-- axes -->
+  <line x1="430" y1="360" x2="700" y2="360" stroke="#1a1a1a" stroke-width="2"/>
+  <line x1="430" y1="360" x2="430" y2="90" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="705" y="365" font-size="14" fill="#1a1a1a">x</text>
+  <text x="415" y="100" font-size="14" fill="#1a1a1a">y</text>
+  <line x1="565" y1="360" x2="565" y2="365" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="562" y="380" font-size="13" fill="#1a1a1a">x₀</text>
+
+  <!-- branches approach a HIGH value, but phi(x0) is only a LOW point -->
+  <path d="M 440 320 Q 500 300 565 155" fill="none" stroke="#1a1a1a" stroke-width="2.5"/>
+  <path d="M 565 155 Q 630 300 690 320" fill="none" stroke="#1a1a1a" stroke-width="2.5"/>
+  <!-- open circle: the value the branches converge to is NOT in the graph -->
+  <circle cx="565" cy="155" r="6" fill="#ffffff" stroke="#1a1a1a" stroke-width="2.5"/>
+  <!-- phi(x0) is instead a single low point (filled) -->
+  <circle cx="565" cy="300" r="5" fill="#1a1a1a"/>
+  <text x="575" y="150" font-size="12" fill="#1a1a1a">lim ∉ φ(x₀) ✗</text>
+  <text x="575" y="305" font-size="13" fill="#1a1a1a">φ(x₀)</text>
+  <!-- dashed gap showing the jump -->
+  <line x1="565" y1="162" x2="565" y2="293" stroke="#1a1a1a" stroke-width="1" stroke-dasharray="4 4"/>
+</svg>

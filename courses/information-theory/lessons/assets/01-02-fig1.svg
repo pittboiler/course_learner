@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 380" font-family="sans-serif">
+  <rect x="0" y="0" width="560" height="380" fill="#ffffff"/>
+
+  <!-- title -->
+  <text x="280" y="34" text-anchor="middle" font-size="18" fill="#1a1a1a" font-weight="bold">The chain rule as a stacked bar</text>
+
+  <!-- axis label -->
+  <text x="70" y="190" text-anchor="middle" font-size="13" fill="#1a1a1a" transform="rotate(-90 70 190)">uncertainty (bits)</text>
+
+  <!-- baseline -->
+  <line x1="120" y1="310" x2="420" y2="310" stroke="#1a1a1a" stroke-width="1.5"/>
+
+  <!-- lower block: H(X), from y=310 up to y=180 (height 130 ~ 0.811 bits) -->
+  <rect x="180" y="180" width="120" height="130" fill="#dbe7f3" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="240" y="252" text-anchor="middle" font-size="17" fill="#1a1a1a" font-weight="bold">H(X)</text>
+  <text x="240" y="272" text-anchor="middle" font-size="13" fill="#1a1a1a">0.811</text>
+
+  <!-- upper block: H(Y|X), from y=180 up to y=70 (height 110 ~ 0.689 bits) -->
+  <rect x="180" y="70" width="120" height="110" fill="#f0e0c8" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="240" y="122" text-anchor="middle" font-size="17" fill="#1a1a1a" font-weight="bold">H(Y|X)</text>
+  <text x="240" y="142" text-anchor="middle" font-size="13" fill="#1a1a1a">0.689</text>
+
+  <!-- brace on right for total -->
+  <path d="M 320 70 h 14 v 110 h 8 v 110 h -8 v 110 h -14" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="356" y="188" font-size="16" fill="#1a1a1a" font-weight="bold">H(X,Y)</text>
+  <text x="356" y="208" font-size="13" fill="#1a1a1a">= 1.5</text>
+
+  <!-- equation -->
+  <text x="280" y="352" text-anchor="middle" font-size="17" fill="#1a1a1a">H(X,Y) = H(X) + H(Y|X)</text>
+</svg>

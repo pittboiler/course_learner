@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" font-family="sans-serif">
+  <rect x="0" y="0" width="640" height="360" fill="#ffffff"/>
+
+  <!-- title -->
+  <text x="320" y="34" text-anchor="middle" font-size="18" font-weight="bold" fill="#1a1a1a">Branching: standard rep of S&#8323; restricted to A&#8323; = &#8484;/3</text>
+
+  <!-- column headers -->
+  <text x="150" y="78" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a4a8a">S&#8323;  (full symmetry)</text>
+  <text x="490" y="78" text-anchor="middle" font-size="15" font-weight="bold" fill="#8a1a4a">A&#8323; = &#8484;/3  (subgroup)</text>
+
+  <!-- left level: standard, 2-dim -->
+  <line x1="70" y1="200" x2="230" y2="200" stroke="#1a4a8a" stroke-width="4"/>
+  <text x="150" y="192" text-anchor="middle" font-size="14" fill="#1a4a8a">std   (2-dimensional)</text>
+  <text x="150" y="228" text-anchor="middle" font-size="13" fill="#555">&#967; = (2, 0, &#8722;1)</text>
+
+  <!-- right levels: omega, omega^2 -->
+  <line x1="410" y1="150" x2="570" y2="150" stroke="#8a1a4a" stroke-width="4"/>
+  <text x="490" y="142" text-anchor="middle" font-size="14" fill="#8a1a4a">&#969;   (1-dim)</text>
+
+  <line x1="410" y1="250" x2="570" y2="250" stroke="#8a1a4a" stroke-width="4"/>
+  <text x="490" y="272" text-anchor="middle" font-size="14" fill="#8a1a4a">&#969;&#178;   (1-dim)</text>
+
+  <!-- correlation lines -->
+  <line x1="230" y1="200" x2="410" y2="150" stroke="#333" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <line x1="230" y1="200" x2="410" y2="250" stroke="#333" stroke-width="1.5" stroke-dasharray="5 4"/>
+
+  <!-- arrow labels -->
+  <text x="320" y="120" text-anchor="middle" font-size="13" fill="#333">Res: forget transpositions</text>
+  <text x="320" y="335" text-anchor="middle" font-size="13" fill="#333">the 2-dim level SPLITS into two 1-dim levels</text>
+
+  <!-- direction arrow -->
+  <line x1="255" y1="300" x2="385" y2="300" stroke="#333" stroke-width="1.5"/>
+  <polygon points="385,300 375,295 375,305" fill="#333"/>
+  <text x="320" y="293" text-anchor="middle" font-size="12" fill="#333">less symmetry</text>
+</svg>

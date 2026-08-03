@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="sans-serif">
+  <rect x="0" y="0" width="640" height="400" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="320" y="34" text-anchor="middle" font-size="18" font-weight="bold" fill="#1a1a1a">Level splitting: lower the symmetry, lift the degeneracy</text>
+
+  <!-- vertical energy axis -->
+  <line x1="60" y1="70" x2="60" y2="360" stroke="#555555" stroke-width="1.5"/>
+  <polygon points="60,66 56,76 64,76" fill="#555555"/>
+  <text x="42" y="215" text-anchor="middle" font-size="13" fill="#555555" transform="rotate(-90 42 215)">energy</text>
+
+  <!-- Column headers -->
+  <text x="200" y="96" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a1a1a">high symmetry</text>
+  <text x="200" y="114" text-anchor="middle" font-size="13" fill="#666666">group G   (C₃ᵥ)</text>
+  <text x="500" y="96" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a1a1a">lowered symmetry</text>
+  <text x="500" y="114" text-anchor="middle" font-size="13" fill="#666666">subgroup H   (Cₛ)</text>
+
+  <!-- perturbation arrow between columns -->
+  <line x1="300" y1="150" x2="400" y2="150" stroke="#b23b3b" stroke-width="1.5" stroke-dasharray="5,4"/>
+  <polygon points="404,150 394,145 394,155" fill="#b23b3b"/>
+  <text x="352" y="142" text-anchor="middle" font-size="12" fill="#b23b3b">field / distortion</text>
+
+  <!-- Degenerate E level (G) -->
+  <line x1="150" y1="200" x2="270" y2="200" stroke="#2f6fb0" stroke-width="4"/>
+  <text x="210" y="192" text-anchor="middle" font-size="15" font-weight="bold" fill="#2f6fb0">E</text>
+  <text x="128" y="205" text-anchor="end" font-size="12" fill="#666666">2-fold</text>
+
+  <!-- Split levels (H): A' and A'' -->
+  <line x1="440" y1="150" x2="560" y2="150" stroke="#2f6fb0" stroke-width="3"/>
+  <text x="500" y="143" text-anchor="middle" font-size="14" font-weight="bold" fill="#2f6fb0">A′</text>
+  <line x1="440" y1="260" x2="560" y2="260" stroke="#2f6fb0" stroke-width="3"/>
+  <text x="500" y="279" text-anchor="middle" font-size="14" font-weight="bold" fill="#2f6fb0">A″</text>
+
+  <!-- correlation / branching lines from E to the two singlets -->
+  <line x1="270" y1="200" x2="440" y2="150" stroke="#888888" stroke-width="1.2" stroke-dasharray="3,3"/>
+  <line x1="270" y1="200" x2="440" y2="260" stroke="#888888" stroke-width="1.2" stroke-dasharray="3,3"/>
+
+  <!-- branching rule label -->
+  <rect x="238" y="300" width="200" height="30" rx="6" fill="#f2f2f2" stroke="#cccccc" stroke-width="1"/>
+  <text x="338" y="320" text-anchor="middle" font-size="15" fill="#1a1a1a">E ↓ Cₛ  =  A′ ⊕ A″</text>
+
+  <!-- footnote -->
+  <text x="320" y="366" text-anchor="middle" font-size="12" fill="#888888">the 2-dim irreducible of G subduces to two 1-dim irreducibles of H — the level splits in two</text>
+</svg>

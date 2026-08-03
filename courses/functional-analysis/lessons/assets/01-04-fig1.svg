@@ -1,0 +1,47 @@
+<svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="640" height="360" fill="#ffffff"/>
+
+  <!-- title -->
+  <text x="320" y="34" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">Every two standard basis vectors sit a fixed distance &#8730;2 apart</text>
+
+  <!-- origin -->
+  <circle cx="250" cy="235" r="3.5" fill="#1a1a1a"/>
+  <text x="234" y="252" font-size="14" fill="#1a1a1a">O</text>
+
+  <!-- axes / unit vectors as arrows -->
+  <defs>
+    <marker id="arw" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#1a1a1a"/>
+    </marker>
+  </defs>
+
+  <!-- e1 : right -->
+  <line x1="250" y1="235" x2="395" y2="235" stroke="#1a1a1a" stroke-width="2" marker-end="url(#arw)"/>
+  <circle cx="400" cy="235" r="3.5" fill="#1a1a1a"/>
+  <text x="405" y="252" font-size="15" fill="#1a1a1a">e&#8321;</text>
+
+  <!-- e2 : up -->
+  <line x1="250" y1="235" x2="250" y2="95" stroke="#1a1a1a" stroke-width="2" marker-end="url(#arw)"/>
+  <circle cx="250" cy="90" r="3.5" fill="#1a1a1a"/>
+  <text x="258" y="88" font-size="15" fill="#1a1a1a">e&#8322;</text>
+
+  <!-- e3 : down-left (schematic 3rd axis) -->
+  <line x1="250" y1="235" x2="152" y2="308" stroke="#1a1a1a" stroke-width="2" marker-end="url(#arw)"/>
+  <circle cx="145" cy="313" r="3.5" fill="#1a1a1a"/>
+  <text x="118" y="322" font-size="15" fill="#1a1a1a">e&#8323;</text>
+
+  <!-- pairwise dashed distances -->
+  <line x1="400" y1="235" x2="250" y2="90" stroke="#1a1a1a" stroke-width="1.4" stroke-dasharray="5 4"/>
+  <line x1="400" y1="235" x2="145" y2="313" stroke="#1a1a1a" stroke-width="1.4" stroke-dasharray="5 4"/>
+  <line x1="250" y1="90" x2="145" y2="313" stroke="#1a1a1a" stroke-width="1.4" stroke-dasharray="5 4"/>
+
+  <!-- distance labels -->
+  <text x="338" y="150" font-size="14" fill="#1a1a1a">&#8730;2</text>
+  <text x="278" y="290" font-size="14" fill="#1a1a1a">&#8730;2</text>
+  <text x="176" y="212" font-size="14" fill="#1a1a1a">&#8730;2</text>
+
+  <!-- caption -->
+  <text x="460" y="315" text-anchor="middle" font-size="13" fill="#1a1a1a">&#8230; and this holds for</text>
+  <text x="460" y="333" text-anchor="middle" font-size="13" fill="#1a1a1a">infinitely many e&#8345;, so no</text>
+  <text x="460" y="351" text-anchor="middle" font-size="13" fill="#1a1a1a">subsequence is Cauchy.</text>
+</svg>

@@ -1,0 +1,26 @@
+<svg viewBox="0 0 640 290" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="640" height="290" fill="#ffffff"/>
+  <defs><marker id="q" markerWidth="10" markerHeight="10" refX="7" refY="3.2" orient="auto"><path d="M0,0 L7,3.2 L0,6.4 Z" fill="#0a7d4f"/></marker></defs>
+  <text x="320" y="30" font-size="15" fill="#111" text-anchor="middle">Canonical quantization: the same commutator rule, now at every point of space.</text>
+
+  <!-- left: QM -->
+  <rect x="40" y="60" width="230" height="150" rx="8" fill="#1f6fb2" fill-opacity="0.07" stroke="#1f6fb2" stroke-width="1.8"/>
+  <text x="155" y="86" font-size="13.5" fill="#1f6fb2" text-anchor="middle">Quantum Mechanics</text>
+  <text x="155" y="118" font-size="14" fill="#111" text-anchor="middle">coordinates  q&#7522;,  momenta  p&#7522;</text>
+  <text x="155" y="150" font-size="15" fill="#111" text-anchor="middle">[ q&#7522; , p&#11002; ] = i &#948;&#7522;&#11002;</text>
+  <text x="155" y="180" font-size="12" fill="#555" text-anchor="middle">finitely many degrees of freedom</text>
+
+  <!-- arrow -->
+  <line x1="275" y1="135" x2="365" y2="135" stroke="#0a7d4f" stroke-width="2" marker-end="url(#q)"/>
+  <text x="320" y="124" font-size="12" fill="#0a7d4f" text-anchor="middle">i &#8594; x</text>
+  <text x="320" y="156" font-size="11" fill="#555" text-anchor="middle">continuum</text>
+
+  <!-- right: QFT -->
+  <rect x="370" y="60" width="230" height="150" rx="8" fill="#c0532a" fill-opacity="0.07" stroke="#c0532a" stroke-width="1.8"/>
+  <text x="485" y="86" font-size="13.5" fill="#c0532a" text-anchor="middle">Quantum Field Theory</text>
+  <text x="485" y="118" font-size="14" fill="#111" text-anchor="middle">field  &#966;(x),  momentum  &#960;(x)</text>
+  <text x="485" y="150" font-size="15" fill="#111" text-anchor="middle">[ &#966;(x), &#960;(y) ] = i &#948;&#179;(x&#8722;y)</text>
+  <text x="485" y="180" font-size="12" fill="#555" text-anchor="middle">one oscillator per space point</text>
+
+  <text x="320" y="245" font-size="13" fill="#111" text-anchor="middle">&#960; = &#8706;&#8466;/&#8706;&#966;&#775; = &#966;&#775;  (for Klein&#8211;Gordon);   H = &#8747;d&#179;x [ &#189;&#960;&#178; + &#189;(&#8711;&#966;)&#178; + &#189;m&#178;&#966;&#178; ]</text>
+</svg>

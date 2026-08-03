@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" font-family="sans-serif">
+  <rect x="0" y="0" width="480" height="360" fill="#ffffff"/>
+
+  <!-- axes -->
+  <line x1="60" y1="300" x2="452" y2="300" stroke="#222222" stroke-width="2"/>
+  <line x1="60" y1="300" x2="60" y2="30" stroke="#222222" stroke-width="2"/>
+  <text x="256" y="340" font-size="15" text-anchor="middle" fill="#222222">cash-on-hand  x (assets + income)</text>
+  <text x="22" y="165" font-size="15" text-anchor="middle" fill="#222222" transform="rotate(-90 22 165)">consumption  c(x)</text>
+
+  <!-- 45-degree line c = x (spend everything) -->
+  <line x1="60" y1="300" x2="330" y2="30" stroke="#9aa0a6" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="300" y="52" font-size="13" fill="#5f6368">45&#176;: c = x</text>
+
+  <!-- consumption policy: hugs 45 near constraint, bends to shallow slope at high x -->
+  <path d="M60,300 Q120,244 176,224 T300,182 Q380,158 452,146" fill="none" stroke="#1a73e8" stroke-width="3.5"/>
+  <text x="360" y="128" font-size="14" fill="#1a73e8" font-weight="bold">c(x)</text>
+
+  <!-- target buffer x* -->
+  <line x1="210" y1="300" x2="210" y2="206" stroke="#d93025" stroke-width="1.8" stroke-dasharray="4 4"/>
+  <circle cx="210" cy="206" r="4.5" fill="#d93025"/>
+  <text x="210" y="318" font-size="14" text-anchor="middle" fill="#d93025" font-weight="bold">x*</text>
+
+  <!-- region labels -->
+  <text x="112" y="288" font-size="12" text-anchor="middle" fill="#5f6368">constrained:</text>
+  <text x="112" y="270" font-size="11" text-anchor="middle" fill="#5f6368">spend it all,</text>
+  <text x="112" y="256" font-size="11" text-anchor="middle" fill="#5f6368">rebuild buffer</text>
+
+  <text x="392" y="188" font-size="11" text-anchor="middle" fill="#5f6368">wealth-rich:</text>
+  <text x="392" y="204" font-size="11" text-anchor="middle" fill="#5f6368">PIH-like smoothing</text>
+
+  <!-- arrows showing drift toward x* -->
+  <text x="152" y="228" font-size="18" fill="#188038">&#8594;</text>
+  <text x="262" y="176" font-size="18" fill="#188038">&#8592;</text>
+</svg>

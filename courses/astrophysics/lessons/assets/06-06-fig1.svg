@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 500" font-family="sans-serif">
+  <rect x="0" y="0" width="700" height="500" fill="#ffffff"/>
+
+  <defs>
+    <marker id="arr" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto">
+      <path d="M1,1 L8,4.5 L1,8" fill="none" stroke="#333" stroke-width="1.6"/>
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <text x="350" y="24" text-anchor="middle" font-size="17" font-weight="bold" fill="#111">The &#923;CDM concordance model: one history, four independent probes</text>
+  <text x="350" y="42" text-anchor="middle" font-size="11.5" fill="#555">ribbon width = size of the observable universe (schematic, not to scale)</text>
+
+  <!-- ===================== TIMELINE RIBBON ===================== -->
+  <polygon points="60,108 110,82 200,76 320,68 430,60 510,52 610,42 660,26 660,194 610,178 510,168 430,160 320,152 200,144 110,138 60,112"
+           fill="#eaf1fb" stroke="#2b5fb0" stroke-width="1.6"/>
+
+  <!-- inflation burst highlight -->
+  <polygon points="60,108 110,82 110,138 60,112" fill="#efe4fb" stroke="#5a3a8a" stroke-width="1.4"/>
+  <text x="128" y="70" font-size="10.5" font-weight="bold" fill="#5a3a8a">exponential</text>
+  <text x="128" y="82" font-size="10.5" font-weight="bold" fill="#5a3a8a">burst</text>
+
+  <!-- event guide ticks -->
+  <g stroke="#888" stroke-width="1" stroke-dasharray="4 3">
+    <line x1="60"  y1="112" x2="60"  y2="200"/>
+    <line x1="110" y1="138" x2="110" y2="238"/>
+    <line x1="200" y1="144" x2="200" y2="200"/>
+    <line x1="320" y1="152" x2="320" y2="238"/>
+    <line x1="430" y1="160" x2="430" y2="200"/>
+    <line x1="510" y1="168" x2="510" y2="238"/>
+    <line x1="610" y1="178" x2="610" y2="200"/>
+    <line x1="660" y1="194" x2="660" y2="238"/>
+  </g>
+
+  <!-- event dots on ribbon -->
+  <g fill="#a12a17">
+    <circle cx="60" cy="110" r="3.5"/>
+    <circle cx="200" cy="76" r="3.5"/>
+    <circle cx="320" cy="68" r="3.5"/>
+    <circle cx="510" cy="52" r="3.5"/>
+    <circle cx="610" cy="42" r="4.5" stroke="#7a2600" stroke-width="1.3"/>
+  </g>
+
+  <!-- upper-row labels (Big Bang, BBN, Dark ages, Today) -->
+  <g text-anchor="middle">
+    <text x="60"  y="212" font-size="11.5" font-weight="bold" fill="#111">Big Bang</text>
+    <text x="60"  y="226" font-size="10" fill="#666">t = 0</text>
+    <text x="200" y="212" font-size="11.5" font-weight="bold" fill="#111">BBN</text>
+    <text x="200" y="226" font-size="10" fill="#666">~3 min</text>
+    <text x="430" y="212" font-size="11.5" font-weight="bold" fill="#111">Dark ages</text>
+    <text x="430" y="226" font-size="10" fill="#666">neutral gas</text>
+    <text x="610" y="212" font-size="11.5" font-weight="bold" fill="#111">Today</text>
+    <text x="610" y="226" font-size="10" fill="#666">13.8 Gyr</text>
+  </g>
+
+  <!-- lower-row labels (Inflation, CMB, First stars, Future) -->
+  <g text-anchor="middle">
+    <text x="110" y="252" font-size="11.5" font-weight="bold" fill="#5a3a8a">Inflation</text>
+    <text x="110" y="266" font-size="10" fill="#666">~10&#8315;&#179;&#8308; s</text>
+    <text x="320" y="252" font-size="11.5" font-weight="bold" fill="#111">CMB released</text>
+    <text x="320" y="266" font-size="10" fill="#666">380,000 yr</text>
+    <text x="510" y="252" font-size="11.5" font-weight="bold" fill="#111">First stars</text>
+    <text x="510" y="266" font-size="10" fill="#666">0.2&#8211;1 Gyr</text>
+    <text x="660" y="252" font-size="11.5" font-weight="bold" fill="#a12a17">Accel. future</text>
+    <text x="660" y="266" font-size="10" fill="#666">&#923;-dominated</text>
+  </g>
+
+  <!-- divider -->
+  <line x1="40" y1="292" x2="660" y2="292" stroke="#ccc" stroke-width="1"/>
+
+  <!-- ===================== PIE: energy budget ===================== -->
+  <text x="165" y="316" text-anchor="middle" font-size="13" font-weight="bold" fill="#111">Today's energy budget</text>
+
+  <!-- Lambda 68% -->
+  <path d="M150,395 L150,327 A68,68 0 1 1 88.5,424 Z" fill="#5a3a8a"/>
+  <!-- dark matter 27% -->
+  <path d="M150,395 L88.5,424 A68,68 0 0 1 129,330.3 Z" fill="#2b5fb0"/>
+  <!-- baryons 5% -->
+  <path d="M150,395 L129,330.3 A68,68 0 0 1 150,327 Z" fill="#d9480f"/>
+
+  <!-- internal % labels -->
+  <text x="178" y="418" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">68%</text>
+  <text x="112" y="384" text-anchor="middle" font-size="11.5" font-weight="bold" fill="#ffffff">27%</text>
+
+  <!-- legend -->
+  <g font-size="10.5" fill="#111">
+    <rect x="232" y="352" width="12" height="12" fill="#5a3a8a"/><text x="249" y="362">dark energy  68%</text>
+    <rect x="232" y="381" width="12" height="12" fill="#2b5fb0"/><text x="249" y="391">dark matter  27%</text>
+    <rect x="232" y="410" width="12" height="12" fill="#d9480f"/><text x="249" y="420">baryons  5%</text>
+    <text x="232" y="446" font-size="10" fill="#555">spatially flat &#183; &#937;&#8348;&#8338;&#8348;&#8343;&#8339; &#8776; 1</text>
+  </g>
+
+  <!-- ===================== CONVERGING PROBES ===================== -->
+  <text x="470" y="316" text-anchor="middle" font-size="13" font-weight="bold" fill="#111">Independent probes, one fit</text>
+
+  <g font-size="11" fill="#111">
+    <text x="352" y="344">CMB anisotropies</text>
+    <text x="352" y="378">BBN light elements</text>
+    <text x="352" y="412">BAO / large-scale structure</text>
+    <text x="352" y="446">Type Ia supernovae</text>
+  </g>
+
+  <!-- arrows to central box -->
+  <g stroke="#333" stroke-width="1.4" fill="none" marker-end="url(#arr)">
+    <path d="M520,340 Q560,360 578,385"/>
+    <path d="M520,374 L578,392"/>
+    <path d="M520,408 L578,400"/>
+    <path d="M520,442 Q560,420 578,408"/>
+  </g>
+
+  <!-- central box -->
+  <rect x="580" y="372" width="96" height="46" rx="6" fill="#eaf1fb" stroke="#2b5fb0" stroke-width="1.6"/>
+  <text x="628" y="392" text-anchor="middle" font-size="12.5" font-weight="bold" fill="#111">&#923;CDM</text>
+  <text x="628" y="408" text-anchor="middle" font-size="9.5" fill="#555">6 numbers</text>
+</svg>

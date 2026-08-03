@@ -1,0 +1,28 @@
+<svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="640" height="320" fill="#ffffff"/>
+  <text x="320" y="30" font-size="18" font-weight="bold" fill="#1a1a1a" text-anchor="middle">Same operator, different boundary conditions = different physics</text>
+
+  <!-- Left: particle in a box -->
+  <text x="160" y="66" font-size="15" font-weight="bold" fill="#1a1a1a" text-anchor="middle">Box: f(0)=f(1)=0</text>
+  <line x1="40" y1="150" x2="280" y2="150" stroke="#1a1a1a" stroke-width="2.5"/>
+  <line x1="40" y1="130" x2="40" y2="170" stroke="#1a1a1a" stroke-width="2.5"/>
+  <line x1="280" y1="130" x2="280" y2="170" stroke="#1a1a1a" stroke-width="2.5"/>
+  <circle cx="40" cy="150" r="5" fill="#1a1a1a"/>
+  <circle cx="280" cy="150" r="5" fill="#1a1a1a"/>
+  <text x="40" y="192" font-size="13" fill="#1a1a1a" text-anchor="middle">0</text>
+  <text x="280" y="192" font-size="13" fill="#1a1a1a" text-anchor="middle">1</text>
+  <!-- a standing wave inside -->
+  <path d="M 40 150 Q 160 90 280 150" fill="none" stroke="#1a1a1a" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="160" y="240" font-size="13" fill="#1a1a1a" text-anchor="middle">endpoints are walls</text>
+  <text x="160" y="262" font-size="13" fill="#1a1a1a" text-anchor="middle">SYMMETRIC, but not self-adjoint</text>
+
+  <!-- Right: particle on a ring -->
+  <text x="490" y="66" font-size="15" font-weight="bold" fill="#1a1a1a" text-anchor="middle">Ring: f(1)=e^(i&#952;)f(0)</text>
+  <circle cx="490" cy="160" r="70" fill="none" stroke="#1a1a1a" stroke-width="2.5"/>
+  <circle cx="490" cy="90" r="5" fill="#1a1a1a"/>
+  <text x="490" y="80" font-size="13" fill="#1a1a1a" text-anchor="middle">0 = 1 glued</text>
+  <path d="M 470 232 A 70 70 0 0 1 442 210" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+  <polygon points="442,210 447,220 435,216" fill="#1a1a1a"/>
+  <text x="490" y="262" font-size="13" fill="#1a1a1a" text-anchor="middle">ends joined by a phase</text>
+  <text x="490" y="284" font-size="13" fill="#1a1a1a" text-anchor="middle">SELF-ADJOINT (a U(1) family)</text>
+</svg>

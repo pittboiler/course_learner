@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" font-family="sans-serif">
+  <defs>
+    <marker id="ar" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#c0392b"/>
+    </marker>
+    <marker id="ag" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#555"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="420" fill="#ffffff"/>
+
+  <!-- ======================= LEFT PANEL ======================= -->
+  <text x="185" y="30" text-anchor="middle" font-size="15" font-weight="bold" fill="#111">Expansion: every distance scales by a(t)</text>
+
+  <!-- t1 row (compact) -->
+  <text x="24" y="100" font-size="13" font-weight="bold" fill="#333">t₁</text>
+  <line x1="45" y1="95" x2="180" y2="95" stroke="#ccc" stroke-width="1"/>
+  <circle cx="45"  cy="95" r="7" fill="#e67e22" stroke="#8a4b0c" stroke-width="1.5"/>
+  <text x="45" y="80" text-anchor="middle" font-size="10" fill="#8a4b0c">home</text>
+  <circle cx="85"  cy="95" r="6" fill="#3b6fd4"/>
+  <circle cx="125" cy="95" r="6" fill="#3b6fd4"/>
+  <circle cx="165" cy="95" r="6" fill="#3b6fd4"/>
+
+  <!-- t2 row (stretched by 2, home fixed) -->
+  <text x="24" y="255" font-size="13" font-weight="bold" fill="#333">t₂</text>
+  <text x="24" y="270" font-size="10" fill="#666">a×2</text>
+  <line x1="45" y1="250" x2="330" y2="250" stroke="#ccc" stroke-width="1"/>
+  <circle cx="45"  cy="250" r="7" fill="#e67e22" stroke="#8a4b0c" stroke-width="1.5"/>
+  <text x="45" y="235" text-anchor="middle" font-size="10" fill="#8a4b0c">home</text>
+  <circle cx="125" cy="250" r="6" fill="#3b6fd4"/>
+  <circle cx="205" cy="250" r="6" fill="#3b6fd4"/>
+  <circle cx="285" cy="250" r="6" fill="#3b6fd4"/>
+
+  <!-- dashed connectors (each galaxy drifts right by an amount ∝ its distance) -->
+  <line x1="85"  y1="102" x2="125" y2="243" stroke="#888" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="125" y1="102" x2="205" y2="243" stroke="#888" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="165" y1="102" x2="285" y2="243" stroke="#888" stroke-width="1" stroke-dasharray="3,3"/>
+
+  <!-- recession arrows: displacement measured from each galaxy's t1 x-position -->
+  <line x1="85"  y1="285" x2="122" y2="285" stroke="#c0392b" stroke-width="2.5" marker-end="url(#ar)"/>
+  <text x="103" y="300" text-anchor="middle" font-size="11" fill="#c0392b">v</text>
+  <line x1="125" y1="300" x2="202" y2="300" stroke="#c0392b" stroke-width="2.5" marker-end="url(#ar)"/>
+  <text x="163" y="315" text-anchor="middle" font-size="11" fill="#c0392b">2v</text>
+  <line x1="165" y1="315" x2="282" y2="315" stroke="#c0392b" stroke-width="2.5" marker-end="url(#ar)"/>
+  <text x="223" y="330" text-anchor="middle" font-size="11" fill="#c0392b">3v</text>
+
+  <text x="30" y="360" font-size="11.5" fill="#333">Twice as far ⇒ drifts twice as fast: <tspan font-weight="bold">v = H d</tspan>.</text>
+  <text x="30" y="378" font-size="11.5" fill="#333">Any galaxy can be "home" — the pattern looks</text>
+  <text x="30" y="393" font-size="11.5" fill="#333">identical to every observer. <tspan font-weight="bold">No center.</tspan></text>
+
+  <!-- divider -->
+  <line x1="375" y1="45" x2="375" y2="400" stroke="#ddd" stroke-width="1.5"/>
+
+  <!-- ======================= RIGHT PANEL ======================= -->
+  <text x="575" y="30" text-anchor="middle" font-size="15" font-weight="bold" fill="#111">Scale factor a(t): four fates, one "today"</text>
+
+  <!-- axes -->
+  <line x1="430" y1="340" x2="740" y2="340" stroke="#333" stroke-width="1.5"/>
+  <line x1="430" y1="340" x2="430" y2="45"  stroke="#333" stroke-width="1.5"/>
+  <text x="600" y="372" text-anchor="middle" font-size="12" fill="#111">cosmic time  t →</text>
+  <text x="405" y="200" text-anchor="middle" font-size="12" fill="#111" transform="rotate(-90 405 200)">scale factor  a(t)</text>
+
+  <!-- a=1 and today guides, common crossing point -->
+  <line x1="430" y1="200" x2="560" y2="200" stroke="#999" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="424" y="204" text-anchor="end" font-size="11" fill="#555">a=1</text>
+  <line x1="560" y1="200" x2="560" y2="345" stroke="#999" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="560" y="360" text-anchor="middle" font-size="11" fill="#555">today</text>
+  <circle cx="560" cy="200" r="4" fill="#111"/>
+
+  <text x="432" y="336" font-size="10.5" fill="#555">Big Bang (a=0)</text>
+
+  <!-- closed (recollapse) red -->
+  <polyline points="430,340 455,306 485,268 520,230 560,200 596,180 628,168 652,166 676,176 696,206 712,258 722,320 728,340"
+            fill="none" stroke="#c0392b" stroke-width="2.4"/>
+  <!-- flat teal -->
+  <polyline points="430,340 456,304 486,266 520,230 560,200 600,178 644,160 690,146 730,138"
+            fill="none" stroke="#0e9488" stroke-width="2.4"/>
+  <!-- open blue -->
+  <polyline points="430,340 455,302 485,264 520,229 560,200 602,174 648,148 694,124 730,106"
+            fill="none" stroke="#2563c9" stroke-width="2.4"/>
+  <!-- Lambda accelerating purple -->
+  <polyline points="430,340 457,304 487,265 521,229 560,200 600,170 636,136 668,100 694,66 714,42"
+            fill="none" stroke="#8e44ad" stroke-width="2.6"/>
+
+  <!-- legend (upper-left of plot, an empty region) -->
+  <g font-size="11.5">
+    <line x1="445" y1="66" x2="470" y2="66" stroke="#c0392b" stroke-width="2.6"/>
+    <text x="475" y="70" fill="#c0392b">closed (Ω&gt;1): Big Crunch</text>
+    <line x1="445" y1="84" x2="470" y2="84" stroke="#0e9488" stroke-width="2.6"/>
+    <text x="475" y="88" fill="#0e9488">flat (Ω=1): expand forever, slowing</text>
+    <line x1="445" y1="102" x2="470" y2="102" stroke="#2563c9" stroke-width="2.6"/>
+    <text x="475" y="106" fill="#2563c9">open (Ω&lt;1): coast outward</text>
+    <line x1="445" y1="120" x2="470" y2="120" stroke="#8e44ad" stroke-width="2.6"/>
+    <text x="475" y="124" fill="#8e44ad">Λ-dominated: accelerating</text>
+  </g>
+</svg>

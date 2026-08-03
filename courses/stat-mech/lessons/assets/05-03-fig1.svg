@@ -1,0 +1,60 @@
+<svg viewBox="0 0 720 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <!-- ============ PANEL A: graphical self-consistency ============ -->
+  <text x="20" y="24" fill="#555" font-style="italic">Solving m = tanh(βJz·m) at h = 0</text>
+
+  <!-- axes (centered at (180,165)) -->
+  <line x1="30" y1="165" x2="330" y2="165" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="180" y1="40" x2="180" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="330,165 320,160 320,170" fill="#8a8a8a"/>
+  <polygon points="180,40 175,50 185,50" fill="#8a8a8a"/>
+  <text x="334" y="169" fill="#8a8a8a">m</text>
+
+  <!-- y = m line -->
+  <line x1="40" y1="291" x2="320" y2="39" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="292" y="52" fill="#4a90d9">y = m</text>
+
+  <!-- tanh, a = 1.6 (T < Tc): three roots -->
+  <path d="M 40 253.0 L 60 251.2 L 80 247.95 L 100 242.1 L 120 232.0 L 140 215.8 L 160 192.9 L 180 165 L 200 137.1 L 220 114.2 L 240 98.0 L 260 87.9 L 280 82.05 L 300 78.8 L 320 76.97"
+        fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="238" y="70" fill="#e0645c">T &lt; Tc</text>
+
+  <!-- tanh, a = 0.6 (T > Tc): one root -->
+  <path d="M 40 226.7 L 60 220.5 L 80 213.3 L 100 205.2 L 120 196.1 L 140 186.2 L 160 175.7 L 180 165 L 200 154.3 L 220 143.8 L 240 133.9 L 260 124.8 L 280 116.7 L 300 109.5 L 320 103.3"
+        fill="none" stroke="#3a9d6a" stroke-width="2.5"/>
+  <text x="286" y="120" fill="#3a9d6a">T &gt; Tc</text>
+
+  <!-- intersection markers (below Tc): three roots -->
+  <circle cx="90" cy="246" r="4.5" fill="#e0645c"/>
+  <circle cx="180" cy="165" r="4.5" fill="#555"/>
+  <circle cx="270" cy="84" r="4.5" fill="#e0645c"/>
+  <text x="274" y="100" fill="#e0645c">+m₀</text>
+  <text x="52" y="242" fill="#e0645c">−m₀</text>
+  <text x="150" y="185" fill="#555">0</text>
+
+  <!-- ============ PANEL B: order parameter m(T) ============ -->
+  <text x="430" y="24" fill="#555" font-style="italic">Spontaneous magnetization m(T)</text>
+
+  <!-- axes -->
+  <line x1="380" y1="290" x2="660" y2="290" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="380" y1="115" x2="380" y2="305" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="660,290 650,285 650,295" fill="#8a8a8a"/>
+  <text x="664" y="294" fill="#8a8a8a">T</text>
+  <text x="356" y="134" fill="#8a8a8a">m</text>
+  <text x="374" y="128" fill="#8a8a8a">1</text>
+  <line x1="376" y1="130" x2="384" y2="130" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- positive branch: rises from 0 at Tc to 1 at T=0 -->
+  <path d="M 380 130 L 412 130 L 444 132.2 L 460 136.7 L 476 144.9 L 492 157.5 L 508 175.6 L 516 188.4 L 524 206.0 L 532 229.5 L 536.8 250.8 L 540 290"
+        fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="418" y="150" fill="#e0645c" font-size="12">(+ mirror branch −m)</text>
+
+  <!-- m = 0 branch above Tc -->
+  <line x1="540" y1="290" x2="650" y2="290" stroke="#3a9d6a" stroke-width="2.5"/>
+
+  <!-- Tc marker -->
+  <line x1="540" y1="290" x2="540" y2="305" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="528" y="320" fill="#8a8a8a">Tc</text>
+  <text x="446" y="180" fill="#e0645c">m ∝ (Tc−T)^½</text>
+  <line x1="470" y1="175" x2="486" y2="152" stroke="#e0645c" stroke-width="0.8" stroke-dasharray="3 3"/>
+  <text x="576" y="284" fill="#3a9d6a">m = 0</text>
+</svg>

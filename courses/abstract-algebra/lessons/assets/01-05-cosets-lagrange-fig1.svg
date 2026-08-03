@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 300" font-family="sans-serif">
+  <rect x="0" y="0" width="660" height="300" fill="#ffffff"/>
+  <text x="330" y="34" text-anchor="middle" font-size="19" font-weight="bold" fill="#111111">A finite group tiled by the cosets of H</text>
+  <text x="330" y="56" text-anchor="middle" font-size="13" fill="#555555">every coset is a perfect copy of H (same size |H|), and they never overlap</text>
+
+  <!-- Big outer group rectangle -->
+  <rect x="40" y="80" width="580" height="170" fill="none" stroke="#111111" stroke-width="2.5"/>
+  <text x="52" y="102" font-size="14" font-weight="bold" fill="#111111">G</text>
+
+  <!-- Three coset blocks, each subdivided into |H| = 4 cells -->
+  <!-- eH -->
+  <rect x="60" y="110" width="170" height="120" fill="#dbeafe" stroke="#1d4ed8" stroke-width="2"/>
+  <line x1="60" y1="170" x2="230" y2="170" stroke="#1d4ed8" stroke-width="1"/>
+  <line x1="145" y1="110" x2="145" y2="230" stroke="#1d4ed8" stroke-width="1"/>
+  <text x="145" y="102" text-anchor="middle" font-size="15" font-weight="bold" fill="#1d4ed8">eH = H</text>
+
+  <!-- gH -->
+  <rect x="245" y="110" width="170" height="120" fill="#dcfce7" stroke="#15803d" stroke-width="2"/>
+  <line x1="245" y1="170" x2="415" y2="170" stroke="#15803d" stroke-width="1"/>
+  <line x1="330" y1="110" x2="330" y2="230" stroke="#15803d" stroke-width="1"/>
+  <text x="330" y="102" text-anchor="middle" font-size="15" font-weight="bold" fill="#15803d">gH</text>
+
+  <!-- g'H -->
+  <rect x="430" y="110" width="170" height="120" fill="#fee2e2" stroke="#b91c1c" stroke-width="2"/>
+  <line x1="430" y1="170" x2="600" y2="170" stroke="#b91c1c" stroke-width="1"/>
+  <line x1="515" y1="110" x2="515" y2="230" stroke="#b91c1c" stroke-width="1"/>
+  <text x="515" y="102" text-anchor="middle" font-size="15" font-weight="bold" fill="#b91c1c">g&#8242;H</text>
+
+  <text x="330" y="272" text-anchor="middle" font-size="14" fill="#111111">|G| = [G : H] &#183; |H|  =  (number of blocks) &#215; (size of each block)  =  3 &#215; 4 = 12</text>
+</svg>

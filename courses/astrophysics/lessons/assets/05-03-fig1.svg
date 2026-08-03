@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 470" font-family="sans-serif">
+  <defs>
+    <marker id="arrUp" markerWidth="10" markerHeight="10" refX="5" refY="1" orient="auto">
+      <polygon points="5,0 1,7 9,7" fill="#7a1c0c"/>
+    </marker>
+    <marker id="arrDn" markerWidth="10" markerHeight="10" refX="5" refY="9" orient="auto">
+      <polygon points="5,10 1,3 9,3" fill="#7a1c0c"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="640" height="470" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="320" y="24" text-anchor="middle" font-size="17" font-weight="bold" fill="#111">A spiral galaxy's rotation curve: flat, not Keplerian</text>
+
+  <!-- Luminous-disk shading -->
+  <rect x="80" y="50" width="156" height="350" fill="#fff6d6"/>
+  <text x="158" y="70" text-anchor="middle" font-size="11" fill="#8a6a00">visible</text>
+  <text x="158" y="84" text-anchor="middle" font-size="11" fill="#8a6a00">stellar disk</text>
+
+  <!-- Plot frame -->
+  <rect x="80" y="50" width="520" height="350" fill="none" stroke="#333" stroke-width="1.5"/>
+
+  <!-- Edge-of-light marker -->
+  <line x1="236" y1="50" x2="236" y2="400" stroke="#8a6a00" stroke-width="1.2" stroke-dasharray="3 3"/>
+  <text x="240" y="392" font-size="10.5" fill="#8a6a00">edge of light</text>
+
+  <!-- Keplerian (visible matter only) curve: dashed orange -->
+  <polyline points="80,400 100.8,295 121.6,225 142.4,184 163.2,161 184,149 204.8,143 236,170 288,202 340,223 392,238 496,260 600,274"
+            fill="none" stroke="#c47f14" stroke-width="2.6" stroke-dasharray="7 5"/>
+  <text x="470" y="252" font-size="12.5" font-weight="bold" fill="#8a5a00" transform="rotate(11 470 252)">Keplerian prediction  v ∝ R^(−1/2)</text>
+
+  <!-- Observed (flat) curve: solid blue -->
+  <polyline points="80,400 100.8,295 121.6,225 142.4,184 163.2,161 184,149 204.8,143 236,143 288,146 340,147 392,148 496,149 600,150"
+            fill="none" stroke="#2b5fce" stroke-width="3.2"/>
+  <text x="420" y="128" font-size="13" font-weight="bold" fill="#1c3a7a">observed  (flat)</text>
+
+  <!-- Dark-matter gap arrow -->
+  <line x1="440" y1="150" x2="440" y2="243" stroke="#7a1c0c" stroke-width="2" marker-start="url(#arrUp)" marker-end="url(#arrDn)"/>
+  <rect x="356" y="188" width="150" height="20" fill="#ffffff" opacity="0.85"/>
+  <text x="431" y="203" text-anchor="end" font-size="13" font-weight="bold" fill="#7a1c0c">dark matter</text>
+
+  <!-- Y axis label and ticks (v, km/s) -->
+  <text x="26" y="230" font-size="13" fill="#111" transform="rotate(-90 26 230)">orbital speed  v  (km/s)</text>
+  <g font-size="11" fill="#333">
+    <line x1="75" y1="400" x2="80" y2="400" stroke="#333"/><text x="70" y="404" text-anchor="end">0</text>
+    <line x1="75" y1="283.3" x2="80" y2="283.3" stroke="#333"/><text x="70" y="287.3" text-anchor="end">100</text>
+    <line x1="75" y1="166.7" x2="80" y2="166.7" stroke="#333"/><text x="70" y="170.7" text-anchor="end">200</text>
+    <line x1="75" y1="50" x2="80" y2="50" stroke="#333"/><text x="70" y="54" text-anchor="end">300</text>
+  </g>
+
+  <!-- X axis label and ticks (R, kpc) -->
+  <text x="340" y="458" text-anchor="middle" font-size="13" fill="#111">radius from center  R  (kpc)  —  farther out →</text>
+  <g font-size="11" fill="#333">
+    <line x1="80" y1="400" x2="80" y2="405" stroke="#333"/><text x="80" y="418" text-anchor="middle">0</text>
+    <line x1="184" y1="400" x2="184" y2="405" stroke="#333"/><text x="184" y="418" text-anchor="middle">10</text>
+    <line x1="288" y1="400" x2="288" y2="405" stroke="#333"/><text x="288" y="418" text-anchor="middle">20</text>
+    <line x1="392" y1="400" x2="392" y2="405" stroke="#333"/><text x="392" y="418" text-anchor="middle">30</text>
+    <line x1="496" y1="400" x2="496" y2="405" stroke="#333"/><text x="496" y="418" text-anchor="middle">40</text>
+    <line x1="600" y1="400" x2="600" y2="405" stroke="#333"/><text x="600" y="418" text-anchor="middle">50</text>
+  </g>
+</svg>

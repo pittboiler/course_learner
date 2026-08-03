@@ -1,0 +1,43 @@
+<svg viewBox="0 0 720 220" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="720" height="220" fill="#ffffff"/>
+
+  <!-- title -->
+  <text x="360" y="34" fill="#1a1a1a" font-size="17" font-style="italic" text-anchor="middle">The de Rham complex on R³: one operator d, three faces</text>
+
+  <!-- nodes -->
+  <text x="80"  y="118" fill="#111111" font-size="34" text-anchor="middle">&#937;<tspan baseline-shift="super" font-size="18">0</tspan></text>
+  <text x="273" y="118" fill="#111111" font-size="34" text-anchor="middle">&#937;<tspan baseline-shift="super" font-size="18">1</tspan></text>
+  <text x="466" y="118" fill="#111111" font-size="34" text-anchor="middle">&#937;<tspan baseline-shift="super" font-size="18">2</tspan></text>
+  <text x="659" y="118" fill="#111111" font-size="34" text-anchor="middle">&#937;<tspan baseline-shift="super" font-size="18">3</tspan></text>
+
+  <!-- node subtitles -->
+  <text x="80"  y="146" fill="#666666" font-size="13" text-anchor="middle">functions</text>
+  <text x="273" y="146" fill="#666666" font-size="13" text-anchor="middle">vector fields</text>
+  <text x="466" y="146" fill="#666666" font-size="13" text-anchor="middle">vector fields</text>
+  <text x="659" y="146" fill="#666666" font-size="13" text-anchor="middle">densities</text>
+
+  <!-- arrow marker -->
+  <defs>
+    <marker id="ah" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#111111"/>
+    </marker>
+  </defs>
+
+  <!-- arrows -->
+  <line x1="120" y1="106" x2="230" y2="106" stroke="#111111" stroke-width="2" marker-end="url(#ah)"/>
+  <line x1="313" y1="106" x2="423" y2="106" stroke="#111111" stroke-width="2" marker-end="url(#ah)"/>
+  <line x1="506" y1="106" x2="616" y2="106" stroke="#111111" stroke-width="2" marker-end="url(#ah)"/>
+
+  <!-- d labels above arrows -->
+  <text x="175" y="92" fill="#111111" font-size="20" font-style="italic" text-anchor="middle">d</text>
+  <text x="368" y="92" fill="#111111" font-size="20" font-style="italic" text-anchor="middle">d</text>
+  <text x="561" y="92" fill="#111111" font-size="20" font-style="italic" text-anchor="middle">d</text>
+
+  <!-- vector-calculus names below arrows -->
+  <text x="175" y="180" fill="#b23b2e" font-size="17" text-anchor="middle">grad</text>
+  <text x="368" y="180" fill="#b23b2e" font-size="17" text-anchor="middle">curl</text>
+  <text x="561" y="180" fill="#b23b2e" font-size="17" text-anchor="middle">div</text>
+
+  <!-- d^2 = 0 annotation -->
+  <text x="360" y="210" fill="#2a5db0" font-size="14" text-anchor="middle">any two in a row compose to zero:  d&#178; = 0  (curl grad = 0,  div curl = 0)</text>
+</svg>

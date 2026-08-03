@@ -1,0 +1,25 @@
+<svg viewBox="0 0 620 270" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="620" height="270" fill="#ffffff"/>
+  <defs><marker id="tr" markerWidth="10" markerHeight="10" refX="7" refY="3.2" orient="auto"><path d="M0,0 L7,3.2 L0,6.4 Z" fill="#0a7d4f"/></marker></defs>
+  <text x="310" y="30" font-size="15" fill="#111" text-anchor="middle">Casimir's trick: spin sums turn |&#8499;|&#178; into gamma-matrix traces.</text>
+
+  <!-- step 1 -->
+  <rect x="30" y="70" width="250" height="70" rx="8" fill="#1f6fb2" fill-opacity="0.07" stroke="#1f6fb2" stroke-width="1.6"/>
+  <text x="155" y="98" font-size="13" fill="#111" text-anchor="middle">&#8721;_spins |u&#772;(p&#8323;)&#947;&#7512;u(p&#8321;)|&#178;</text>
+  <text x="155" y="122" font-size="12" fill="#555" text-anchor="middle">sum over spins</text>
+
+  <!-- arrow -->
+  <line x1="285" y1="105" x2="345" y2="105" stroke="#0a7d4f" stroke-width="2" marker-end="url(#tr)"/>
+  <text x="315" y="95" font-size="11" fill="#0a7d4f" text-anchor="middle">&#8721;u u&#772;=&#947;&#183;p+m</text>
+
+  <!-- step 2 -->
+  <rect x="350" y="70" width="250" height="70" rx="8" fill="#0a7d4f" fill-opacity="0.07" stroke="#0a7d4f" stroke-width="1.6"/>
+  <text x="475" y="98" font-size="12.5" fill="#111" text-anchor="middle">Tr[(&#947;&#183;p&#8323;+m)&#947;&#7512;(&#947;&#183;p&#8321;+m)&#947;&#7515;]</text>
+  <text x="475" y="122" font-size="12" fill="#555" text-anchor="middle">a trace &#8212; pure algebra</text>
+
+  <!-- trace theorems -->
+  <line x1="40" y1="165" x2="580" y2="165" stroke="#ddd" stroke-width="1"/>
+  <text x="310" y="192" font-size="12.5" fill="#111" text-anchor="middle">Tr[odd # &#947;] = 0  &#183;  Tr[&#947;&#7512;&#947;&#7515;] = 4&#951;&#7512;&#7515;  &#183;  Tr[&#947;&#947;&#947;&#947;] = 4(&#951;&#951; &#8722; &#951;&#951; + &#951;&#951;)</text>
+  <text x="310" y="224" font-size="13" fill="#111" text-anchor="middle">&#8594; high-energy result:  |&#8499;&#772;|&#178; = 2e&#8308;(s&#178;+u&#178;)/t&#178;</text>
+  <text x="310" y="250" font-size="12" fill="#555" text-anchor="middle">then  d&#963;/d&#937; = |&#8499;&#772;|&#178; / (64&#960;&#178;s)</text>
+</svg>

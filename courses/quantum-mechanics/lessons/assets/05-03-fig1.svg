@@ -1,0 +1,47 @@
+<svg viewBox="0 0 560 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="70" y="26" fill="#8a8a8a" font-style="italic">Same endpoints, but the quantum cosine bows past every straight LHV line.</text>
+
+  <!-- frame: E axis (vertical) and E=0 reference -->
+  <line x1="70" y1="40" x2="70" y2="320" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="70" y1="180" x2="520" y2="180" stroke="#c8c8c8" stroke-width="1" stroke-dasharray="4 4"/>
+
+  <!-- E-axis ticks/labels -->
+  <text x="40" y="45" fill="#8a8a8a">+1</text>
+  <text x="52" y="185" fill="#8a8a8a">0</text>
+  <text x="42" y="325" fill="#8a8a8a">&#8722;1</text>
+  <text x="30" y="120" fill="#8a8a8a" transform="rotate(-90 30 120)">correlation E(&#952;)</text>
+
+  <!-- theta ticks along bottom -->
+  <text x="63" y="338" fill="#8a8a8a">0&#176;</text>
+  <text x="171" y="338" fill="#8a8a8a">45&#176;</text>
+  <text x="282" y="338" fill="#8a8a8a">90&#176;</text>
+  <text x="393" y="338" fill="#8a8a8a">135&#176;</text>
+  <text x="505" y="338" fill="#8a8a8a">180&#176;</text>
+  <text x="240" y="362" fill="#8a8a8a">angle &#952; between the two axes</text>
+
+  <!-- best local hidden-variable correlation: straight line (0,-1) to (180,+1) -->
+  <line x1="70" y1="320" x2="520" y2="40" stroke="#e08a2c" stroke-width="2.5"/>
+
+  <!-- quantum correlation E = -cos(theta) -->
+  <path d="M 70 320 L 107.5 315.2 L 145 301.2 L 182.5 279 L 220 250 L 257.5 216.2 L 295 180 L 332.5 143.8 L 370 110 L 407.5 81 L 445 58.8 L 482.5 44.8 L 520 40"
+        fill="none" stroke="#2c6fbb" stroke-width="3"/>
+
+  <!-- the gap at 45 degrees (quantum below the line = stronger anticorrelation) -->
+  <line x1="182.5" y1="250" x2="182.5" y2="279" stroke="#2c6fbb" stroke-width="1.2" stroke-dasharray="2 3"/>
+  <circle cx="182.5" cy="279" r="3.5" fill="#2c6fbb"/>
+  <circle cx="182.5" cy="250" r="3.5" fill="#e08a2c"/>
+  <text x="150" y="304" fill="#2c6fbb" font-size="12">the gap = the</text>
+  <text x="150" y="318" fill="#2c6fbb" font-size="12">Bell violation</text>
+
+  <!-- gap at 135 degrees -->
+  <line x1="407.5" y1="81" x2="407.5" y2="110" stroke="#2c6fbb" stroke-width="1.2" stroke-dasharray="2 3"/>
+  <circle cx="407.5" cy="81" r="3.5" fill="#2c6fbb"/>
+  <circle cx="407.5" cy="110" r="3.5" fill="#e08a2c"/>
+
+  <!-- legend -->
+  <line x1="300" y1="150" x2="330" y2="150" stroke="#2c6fbb" stroke-width="3"/>
+  <text x="336" y="155" fill="#2c6fbb">quantum: E = &#8722;cos&#952;</text>
+  <line x1="300" y1="170" x2="330" y2="170" stroke="#e08a2c" stroke-width="2.5"/>
+  <text x="336" y="175" fill="#e08a2c">best LHV: straight line</text>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380">
+  <rect x="0" y="0" width="640" height="380" fill="#ffffff"/>
+  <!-- axes -->
+  <line x1="70" y1="340" x2="610" y2="340" stroke="#222222" stroke-width="2"/>
+  <line x1="70" y1="340" x2="70" y2="30" stroke="#222222" stroke-width="2"/>
+  <polygon points="610,340 600,335 600,345" fill="#222222"/>
+  <polygon points="70,30 65,40 75,40" fill="#222222"/>
+  <text x="600" y="362" font-family="sans-serif" font-size="16" fill="#222222">t</text>
+  <text x="30" y="40" font-family="sans-serif" font-size="16" fill="#222222">S</text>
+  <text x="560" y="362" font-family="sans-serif" font-size="14" fill="#222222">T</text>
+  <line x1="595" y1="336" x2="595" y2="344" stroke="#222222" stroke-width="2"/>
+
+  <!-- S_0 marker -->
+  <circle cx="70" cy="250" r="4" fill="#222222"/>
+  <text x="24" y="255" font-family="sans-serif" font-size="14" fill="#222222">S₀</text>
+  <line x1="66" y1="250" x2="74" y2="250" stroke="#222222" stroke-width="2"/>
+
+  <!-- drift curve  S0 e^{mu t}  (dashed) -->
+  <path d="M70,250 C 200,222 360,180 595,120" fill="none" stroke="#1a56c4" stroke-width="2.5" stroke-dasharray="7 6"/>
+  <text x="470" y="108" font-family="sans-serif" font-size="14" fill="#1a56c4">drift  S₀e^{μt}</text>
+
+  <!-- GBM sample path 1 (rises above drift) -->
+  <polyline fill="none" stroke="#c62828" stroke-width="2"
+    points="70,250 95,244 118,258 140,236 165,242 188,220 212,230 236,205 260,214 285,190 308,200 332,176 356,168 380,182 404,158 428,150 452,166 476,140 500,132 524,146 548,120 572,110 595,96"/>
+  <text x="500" y="88" font-family="sans-serif" font-size="14" fill="#c62828">a sample path Sₜ</text>
+
+  <!-- GBM sample path 2 (drifts below) -->
+  <polyline fill="none" stroke="#2e7d32" stroke-width="2"
+    points="70,250 96,256 120,248 144,266 168,258 192,274 216,264 240,282 264,272 288,290 312,280 336,296 360,286 384,300 408,292 432,306 456,298 480,312 504,304 528,316 552,308 576,318 595,314"/>
+
+  <text x="150" y="30" font-family="sans-serif" font-size="15" fill="#222222">Geometric Brownian motion: same drift, random paths</text>
+</svg>

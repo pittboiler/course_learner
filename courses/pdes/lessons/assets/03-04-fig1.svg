@@ -1,0 +1,53 @@
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="700" height="400" fill="#ffffff"/>
+
+  <!-- ===== LEFT: the S-L operator as a machine ===== -->
+  <text x="30" y="32" font-size="18" font-weight="bold" fill="#1a1a1a">The S&#8211;L operator is self-adjoint</text>
+
+  <!-- operator box -->
+  <rect x="40" y="58" width="290" height="96" rx="12" fill="#f4f4f4" stroke="#1a1a1a" stroke-width="2.5"/>
+  <text x="185" y="98" font-size="17" fill="#1a1a1a" text-anchor="middle" font-weight="bold">L&#966; = &#8722;(1/w)[(p &#966;&#8242;)&#8242; + q &#966;]</text>
+  <text x="185" y="128" font-size="14" fill="#1a1a1a" text-anchor="middle">L&#966;&#8345; = &#955;&#8345; &#966;&#8345;</text>
+
+  <!-- coefficient labels -->
+  <text x="60" y="180" font-size="13" fill="#b00020" font-weight="bold">p(x) &gt; 0</text>
+  <text x="150" y="180" font-size="13" fill="#0050b0" font-weight="bold">w(x) &gt; 0 (weight)</text>
+  <text x="60" y="200" font-size="13" fill="#7a3070">q(x) any sign</text>
+
+  <!-- consequences -->
+  <text x="40" y="240" font-size="14" fill="#1a1a1a" font-weight="bold">Guaranteed for free:</text>
+  <text x="52" y="264" font-size="13" fill="#1a1a1a">&#8226; eigenvalues &#955;&#8321; &lt; &#955;&#8322; &lt; &#8943; &#8594; &#8734; are real</text>
+  <text x="52" y="286" font-size="13" fill="#1a1a1a">&#8226; eigenfunctions orthogonal w.r.t. w</text>
+  <text x="52" y="308" font-size="13" fill="#1a1a1a">&#8226; complete: any f = &#931; c&#8345; &#966;&#8345;</text>
+
+  <text x="40" y="344" font-size="12.5" fill="#555">the &#8734;-dim analog of a symmetric matrix</text>
+  <text x="40" y="362" font-size="12.5" fill="#555">(real eigenvalues, orthogonal eigenvectors)</text>
+
+  <!-- divider -->
+  <line x1="360" y1="50" x2="360" y2="360" stroke="#ccc" stroke-width="1.5"/>
+
+  <!-- ===== RIGHT: two eigenfunctions, weighted integral = 0 ===== -->
+  <text x="390" y="32" font-size="18" font-weight="bold" fill="#1a1a1a">Orthogonal against weight w</text>
+
+  <!-- axes -->
+  <line x1="400" y1="200" x2="670" y2="200" stroke="#1a1a1a" stroke-width="1.6"/>
+  <line x1="400" y1="90"  x2="400" y2="310" stroke="#1a1a1a" stroke-width="1.6"/>
+  <text x="676" y="205" font-size="12" fill="#555">x</text>
+  <text x="404" y="86" font-size="12" fill="#555">&#966;</text>
+
+  <!-- phi_1: one hump -->
+  <path d="M 400 200 Q 535 100 670 200" fill="none" stroke="#b00020" stroke-width="2.5"/>
+  <text x="500" y="118" font-size="13" fill="#b00020" font-weight="bold">&#966;&#8321;</text>
+
+  <!-- phi_2: two humps (sign change) -->
+  <path d="M 400 200 Q 468 130 535 200 Q 602 270 670 200" fill="none" stroke="#0050b0" stroke-width="2.5"/>
+  <text x="612" y="258" font-size="13" fill="#0050b0" font-weight="bold">&#966;&#8322;</text>
+
+  <!-- weight w hint -->
+  <path d="M 400 300 Q 535 250 670 300" fill="none" stroke="#7a3070" stroke-width="2" stroke-dasharray="5 4"/>
+  <text x="450" y="292" font-size="12" fill="#7a3070">w(x)</text>
+
+  <!-- integral result -->
+  <text x="535" y="344" font-size="14.5" fill="#1a1a1a" text-anchor="middle" font-weight="bold">&#8747; &#966;&#8321; &#966;&#8322; w dx = 0</text>
+  <text x="535" y="364" font-size="12" fill="#555" text-anchor="middle">distinct eigenvalues &#8594; perpendicular</text>
+</svg>

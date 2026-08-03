@@ -1,0 +1,39 @@
+<svg viewBox="0 0 520 360" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="520" height="360" fill="#ffffff"/>
+  <defs>
+    <marker id="wa" markerWidth="10" markerHeight="10" refX="7.5" refY="3.4" orient="auto">
+      <path d="M0,0 L8,3.4 L0,6.8 Z" fill="#1a1a1a"/>
+    </marker>
+    <marker id="wo" markerWidth="10" markerHeight="10" refX="6" refY="3.4" orient="auto">
+      <path d="M0,0 L8,3.4 L0,6.8 Z" fill="#0a7"/>
+    </marker>
+  </defs>
+
+  <text x="24" y="30" font-size="15" fill="#111">α ∧ β : the oriented parallelogram (signed area) spanned by α and β.</text>
+
+  <!-- parallelogram spanned by two edges -->
+  <!-- base point -->
+  <!-- edge α = (170,0), edge β = (60,-120) -->
+  <polygon points="120,270 290,270 350,150 180,150"
+           fill="#0a7" fill-opacity="0.10" stroke="#0a7" stroke-width="1.4"/>
+
+  <!-- edge alpha -->
+  <line x1="120" y1="270" x2="290" y2="270" stroke="#1a1a1a" stroke-width="2.6" marker-end="url(#wa)"/>
+  <text x="195" y="292" font-size="18" font-style="italic" fill="#1a1a1a">α</text>
+  <!-- edge beta -->
+  <line x1="120" y1="270" x2="180" y2="150" stroke="#1a1a1a" stroke-width="2.6" marker-end="url(#wa)"/>
+  <text x="128" y="200" font-size="18" font-style="italic" fill="#1a1a1a">β</text>
+
+  <!-- orientation arrow (counterclockwise: alpha then beta) -->
+  <path d="M 235,235 A 34 34 0 1 1 200,208" fill="none" stroke="#0a7" stroke-width="2.2" marker-end="url(#wo)"/>
+  <text x="215" y="235" font-size="15" fill="#0a7">+</text>
+
+  <text x="230" y="215" font-size="17" fill="#111" font-style="italic">α ∧ β</text>
+
+  <!-- antisymmetry note -->
+  <text x="370" y="180" font-size="15" fill="#c33">β ∧ α = −α ∧ β</text>
+  <text x="370" y="205" font-size="13" fill="#555">(swap ⟹ flip</text>
+  <text x="370" y="223" font-size="13" fill="#555">orientation)</text>
+  <text x="370" y="255" font-size="14" fill="#111">α ∧ α = 0</text>
+  <text x="370" y="273" font-size="12" fill="#555">(degenerate: no area)</text>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" font-family="sans-serif">
+  <rect x="0" y="0" width="640" height="360" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="320" y="30" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">Baire: a complete space is too thick for thin pieces</text>
+
+  <!-- Left panel: the space as union of A_k -->
+  <text x="150" y="62" text-anchor="middle" font-size="13" fill="#1a1a1a">X = A₁ ∪ A₂ ∪ A₃ ∪ ⋯  (closed sets)</text>
+
+  <!-- Big square = complete space X -->
+  <rect x="40" y="78" width="220" height="220" fill="none" stroke="#1a1a1a" stroke-width="2.5"/>
+  <text x="52" y="96" font-size="13" fill="#1a1a1a">X</text>
+
+  <!-- nested layers A_k (thin strips) -->
+  <rect x="52" y="90" width="196" height="196" fill="#e8e8e8" stroke="#1a1a1a" stroke-width="0.8"/>
+  <text x="60" y="106" font-size="11" fill="#1a1a1a">A₁</text>
+  <rect x="70" y="108" width="160" height="160" fill="#dcdcdc" stroke="#1a1a1a" stroke-width="0.8"/>
+  <text x="78" y="124" font-size="11" fill="#1a1a1a">A₂</text>
+  <rect x="90" y="128" width="120" height="120" fill="#cfcfcf" stroke="#1a1a1a" stroke-width="0.8"/>
+  <text x="98" y="144" font-size="11" fill="#1a1a1a">A₃</text>
+
+  <!-- the fat A_k0 with a ball inside -->
+  <rect x="112" y="150" width="76" height="76" fill="#b8b8b8" stroke="#1a1a1a" stroke-width="1.4"/>
+  <circle cx="150" cy="188" r="26" fill="#ffffff" stroke="#1a1a1a" stroke-width="2"/>
+  <circle cx="150" cy="188" r="2.5" fill="#1a1a1a"/>
+  <text x="150" y="192" text-anchor="middle" font-size="10" fill="#1a1a1a" dx="18">x₀</text>
+  <line x1="150" y1="188" x2="176" y2="188" stroke="#1a1a1a" stroke-width="1.2"/>
+  <text x="163" y="182" text-anchor="middle" font-size="10" fill="#1a1a1a">r</text>
+
+  <text x="150" y="316" text-anchor="middle" font-size="12" fill="#1a1a1a">some A_k₀ is fat: it contains a ball B(x₀,r)</text>
+
+  <!-- Arrow -->
+  <line x1="290" y1="188" x2="360" y2="188" stroke="#1a1a1a" stroke-width="2.5" marker-end="url(#arr)"/>
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,1 L9,5 L0,9 Z" fill="#1a1a1a"/>
+    </marker>
+  </defs>
+
+  <!-- Right panel: uniform bound -->
+  <text x="480" y="100" text-anchor="middle" font-size="13" fill="#1a1a1a">On the ball, all readings ≤ k₀</text>
+  <text x="480" y="130" text-anchor="middle" font-size="13" fill="#1a1a1a">rescale ⇒ for every unit u:</text>
+
+  <rect x="392" y="150" width="176" height="70" fill="#f2f2f2" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="480" y="182" text-anchor="middle" font-size="16" fill="#1a1a1a">‖Tα u‖ ≤ 2k₀ / r</text>
+  <text x="480" y="205" text-anchor="middle" font-size="12" fill="#1a1a1a">independent of α</text>
+
+  <text x="480" y="260" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">supα ‖Tα‖ &lt; ∞</text>
+  <text x="480" y="284" text-anchor="middle" font-size="12" fill="#1a1a1a">pointwise bounded</text>
+  <text x="480" y="300" text-anchor="middle" font-size="12" fill="#1a1a1a">⇒ uniformly bounded</text>
+</svg>

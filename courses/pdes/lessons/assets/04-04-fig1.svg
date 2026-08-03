@@ -1,0 +1,62 @@
+<svg viewBox="0 0 760 440" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="760" height="440" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="380" y="30" font-size="17" font-weight="bold" fill="#1a1a1a" text-anchor="middle">The Laplace pipeline: calculus in t becomes an ODE in x</text>
+
+  <!-- Box 1: PDE -->
+  <rect x="30" y="70" width="150" height="70" rx="8" fill="#eef3fb" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="105" y="98" font-size="13" font-weight="bold" fill="#1a1a1a" text-anchor="middle">PDE in (x, t)</text>
+  <text x="105" y="120" font-size="13" fill="#1a1a1a" text-anchor="middle">u_t = k u_xx</text>
+
+  <!-- Arrow 1 -->
+  <line x1="180" y1="105" x2="235" y2="105" stroke="#1a1a1a" stroke-width="1.8"/>
+  <polygon points="235,105 225,100 225,110" fill="#1a1a1a"/>
+  <text x="207" y="90" font-size="11" fill="#7a3b12" text-anchor="middle" font-style="italic">Laplace</text>
+  <text x="207" y="102" font-size="11" fill="#7a3b12" text-anchor="middle" font-style="italic">in t</text>
+
+  <!-- Box 2: ODE in x -->
+  <rect x="240" y="60" width="190" height="90" rx="8" fill="#f2ecfa" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="335" y="86" font-size="13" font-weight="bold" fill="#1a1a1a" text-anchor="middle">ODE in x, param s</text>
+  <text x="335" y="108" font-size="13" fill="#1a1a1a" text-anchor="middle">k U'' = s U</text>
+  <text x="335" y="130" font-size="11" fill="#555555" text-anchor="middle">(initial condition built in)</text>
+
+  <!-- Arrow 2 -->
+  <line x1="430" y1="105" x2="485" y2="105" stroke="#1a1a1a" stroke-width="1.8"/>
+  <polygon points="485,105 475,100 475,110" fill="#1a1a1a"/>
+  <text x="457" y="96" font-size="11" fill="#1a5a2a" text-anchor="middle" font-style="italic">solve</text>
+
+  <!-- Box 3: U(x,s) -->
+  <rect x="490" y="70" width="160" height="70" rx="8" fill="#eafaf0" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="570" y="98" font-size="13" font-weight="bold" fill="#1a1a1a" text-anchor="middle">U(x, s)</text>
+  <text x="570" y="120" font-size="12" fill="#1a1a1a" text-anchor="middle">transform of answer</text>
+
+  <!-- Arrow 3 (down + back to bottom box) -->
+  <line x1="570" y1="140" x2="570" y2="205" stroke="#1a1a1a" stroke-width="1.8"/>
+  <polygon points="570,205 565,195 575,195" fill="#1a1a1a"/>
+  <text x="620" y="178" font-size="11" fill="#7a1240" text-anchor="middle" font-style="italic">invert</text>
+
+  <!-- Box 4: u(x,t) -->
+  <rect x="470" y="210" width="200" height="70" rx="8" fill="#fdeef2" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="570" y="238" font-size="13" font-weight="bold" fill="#1a1a1a" text-anchor="middle">u(x, t)</text>
+  <text x="570" y="260" font-size="12" fill="#1a1a1a" text-anchor="middle">the time behavior</text>
+
+  <!-- Divider -->
+  <line x1="30" y1="315" x2="730" y2="315" stroke="#cccccc" stroke-width="1"/>
+  <text x="380" y="340" font-size="13" font-weight="bold" fill="#1a1a1a" text-anchor="middle">What inversion recovers: a transient settling to steady state</text>
+
+  <!-- Transient plot axes -->
+  <line x1="120" y1="410" x2="640" y2="410" stroke="#1a1a1a" stroke-width="1.5"/>
+  <polygon points="640,410 630,405 630,415" fill="#1a1a1a"/>
+  <text x="648" y="414" font-size="12" fill="#1a1a1a">t</text>
+  <line x1="120" y1="410" x2="120" y2="355" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="112" y="360" font-size="12" fill="#1a1a1a" text-anchor="end">u</text>
+
+  <!-- steady-state dashed line -->
+  <line x1="120" y1="365" x2="640" y2="365" stroke="#7a3b12" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="648" y="369" font-size="11" fill="#7a3b12">steady</text>
+
+  <!-- transient rising curve -->
+  <path d="M 120 410 C 220 410, 250 372, 400 367 S 560 365, 640 365" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="300" y="400" font-size="11" fill="#555555" text-anchor="middle" font-style="italic">step applied at t = 0</text>
+</svg>

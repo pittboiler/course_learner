@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" font-family="sans-serif">
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#334155"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="720" height="360" fill="#ffffff"/>
+  <rect x="0.5" y="0.5" width="719" height="359" fill="none" stroke="#cbd5e1" stroke-width="1"/>
+
+  <text x="360" y="26" text-anchor="middle" font-size="18" font-weight="bold" fill="#0f172a">The cosmic distance ladder</text>
+  <text x="360" y="44" text-anchor="middle" font-size="12" fill="#475569">each rung overlaps the next, so the lower rung calibrates the one above it</text>
+
+  <!-- log distance axis: L = log10(d/pc), from -6 to 10, x = 60 + (L+6)*39.375 -->
+  <line x1="60" y1="300" x2="690" y2="300" stroke="#0f172a" stroke-width="2"/>
+  <!-- ticks -->
+  <g stroke="#0f172a" stroke-width="1">
+    <line x1="87"  y1="300" x2="87"  y2="307"/>
+    <line x1="296" y1="300" x2="296" y2="307"/>
+    <line x1="414" y1="300" x2="414" y2="307"/>
+    <line x1="533" y1="300" x2="533" y2="307"/>
+    <line x1="651" y1="300" x2="651" y2="307"/>
+  </g>
+  <g font-size="12" fill="#0f172a" text-anchor="middle">
+    <text x="87"  y="322">1 AU</text>
+    <text x="296" y="322">1 pc</text>
+    <text x="414" y="322">1 kpc</text>
+    <text x="533" y="322">1 Mpc</text>
+    <text x="651" y="322">1 Gpc</text>
+  </g>
+  <text x="375" y="346" text-anchor="middle" font-size="12" fill="#475569">distance from Earth (logarithmic scale)</text>
+
+  <!-- Rung 1: radar / AU -->
+  <rect x="80" y="80" width="98" height="20" rx="5" fill="#b45309"/>
+  <text x="80" y="73" font-size="12" fill="#0f172a">1. Radar ranging &#8594; the AU (solar system)</text>
+
+  <!-- Rung 2: parallax -->
+  <rect x="296" y="135" width="158" height="20" rx="5" fill="#2563eb"/>
+  <text x="296" y="128" font-size="12" fill="#0f172a">2. Trigonometric parallax  (d[pc] = 1/p[arcsec])</text>
+
+  <!-- Rung 3: standard candles / Cepheids -->
+  <rect x="375" y="190" width="217" height="20" rx="5" fill="#16a34a"/>
+  <text x="375" y="183" font-size="12" fill="#0f172a">3. Standard candles: main-seq. fitting &#183; Cepheid P&#8211;L</text>
+
+  <!-- Rung 4: SN Ia -->
+  <rect x="493" y="245" width="185" height="20" rx="5" fill="#dc2626"/>
+  <text x="493" y="238" font-size="12" fill="#0f172a">4. Type Ia supernovae (cosmological)</text>
+
+  <!-- handoff arrows in overlap zones -->
+  <line x1="414" y1="157" x2="414" y2="188" stroke="#334155" stroke-width="1.5" marker-end="url(#arr)"/>
+  <line x1="542" y1="212" x2="542" y2="243" stroke="#334155" stroke-width="1.5" marker-end="url(#arr)"/>
+</svg>

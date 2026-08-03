@@ -1,0 +1,24 @@
+<svg viewBox="0 0 620 320" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="620" height="320" fill="#ffffff"/>
+  <text x="310" y="28" font-size="15" fill="#111" text-anchor="middle">Spin-statistics: the spin decides commutators vs anticommutators.</text>
+
+  <!-- bosons branch -->
+  <rect x="40" y="70" width="240" height="200" rx="10" fill="#1f6fb2" fill-opacity="0.06" stroke="#1f6fb2" stroke-width="1.6"/>
+  <text x="160" y="100" font-size="14" fill="#1f6fb2" text-anchor="middle" font-weight="bold">integer spin (0, 1, &#8230;)</text>
+  <text x="160" y="132" font-size="14" fill="#111" text-anchor="middle">[a, a&#8224;] = &#948;   (commutators)</text>
+  <text x="160" y="164" font-size="13.5" fill="#111" text-anchor="middle">&#8594; BOSONS</text>
+  <text x="160" y="196" font-size="12.5" fill="#555" text-anchor="middle">symmetric states</text>
+  <text x="160" y="218" font-size="12.5" fill="#555" text-anchor="middle">any number per mode</text>
+  <text x="160" y="248" font-size="12.5" fill="#1f6fb2" text-anchor="middle">scalar &#966;, photon</text>
+
+  <!-- fermions branch -->
+  <rect x="340" y="70" width="240" height="200" rx="10" fill="#c0532a" fill-opacity="0.06" stroke="#c0532a" stroke-width="1.6"/>
+  <text x="460" y="100" font-size="14" fill="#c0532a" text-anchor="middle" font-weight="bold">half-integer spin (&#189;, &#8230;)</text>
+  <text x="460" y="132" font-size="14" fill="#111" text-anchor="middle">{a, a&#8224;} = &#948;   (anticommutators)</text>
+  <text x="460" y="164" font-size="13.5" fill="#111" text-anchor="middle">&#8594; FERMIONS</text>
+  <text x="460" y="196" font-size="12.5" fill="#555" text-anchor="middle">antisymmetric states</text>
+  <text x="460" y="218" font-size="12.5" fill="#555" text-anchor="middle">Pauli: 0 or 1 per mode</text>
+  <text x="460" y="248" font-size="12.5" fill="#c0532a" text-anchor="middle">electron, quarks</text>
+
+  <text x="310" y="298" font-size="12.5" fill="#111" text-anchor="middle">commutators on the Dirac field &#8658; energy unbounded below; anticommutators fix it.</text>
+</svg>

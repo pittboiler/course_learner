@@ -1,4 +1,4 @@
-<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14"><rect x="0" y="0" width="640" height="340" fill="#ffffff"/>
   <!-- ================= left panel: the z-plane ================= -->
   <text x="60" y="40" fill="#8a8a8a" font-style="italic">z-plane</text>
 

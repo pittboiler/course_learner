@@ -1,0 +1,33 @@
+<svg viewBox="0 0 640 260" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="640" height="260" fill="#ffffff"/>
+  <text x="320" y="34" font-family="sans-serif" font-size="18" font-weight="bold" fill="#1a1a1a" text-anchor="middle">A Cauchy sequence in the rationals with no rational limit</text>
+  <text x="320" y="56" font-family="sans-serif" font-size="13" fill="#555555" text-anchor="middle">decimal truncations of &#8730;2 crowd together, but the point they aim for is not in &#8474;</text>
+
+  <!-- number line -->
+  <line x1="70" y1="170" x2="600" y2="170" stroke="#1a1a1a" stroke-width="2"/>
+  <polygon points="600,170 590,165 590,175" fill="#1a1a1a"/>
+
+  <!-- terms -->
+  <circle cx="120" cy="170" r="5" fill="#1a1a1a"/>
+  <text x="120" y="200" font-family="sans-serif" font-size="13" fill="#1a1a1a" text-anchor="middle">1.4</text>
+  <text x="120" y="150" font-family="sans-serif" font-size="12" fill="#555555" text-anchor="middle">x&#8321;</text>
+
+  <circle cx="280" cy="170" r="5" fill="#1a1a1a"/>
+  <text x="280" y="200" font-family="sans-serif" font-size="13" fill="#1a1a1a" text-anchor="middle">1.41</text>
+  <text x="280" y="150" font-family="sans-serif" font-size="12" fill="#555555" text-anchor="middle">x&#8322;</text>
+
+  <circle cx="400" cy="170" r="5" fill="#1a1a1a"/>
+  <text x="400" y="200" font-family="sans-serif" font-size="13" fill="#1a1a1a" text-anchor="middle">1.414</text>
+
+  <circle cx="452" cy="170" r="5" fill="#1a1a1a"/>
+  <circle cx="480" cy="170" r="4" fill="#1a1a1a"/>
+  <circle cx="496" cy="170" r="3" fill="#1a1a1a"/>
+
+  <!-- the hole -->
+  <line x1="512" y1="120" x2="512" y2="200" stroke="#1a1a1a" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <circle cx="512" cy="170" r="6" fill="#ffffff" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="512" y="112" font-family="sans-serif" font-size="14" fill="#1a1a1a" text-anchor="middle" font-weight="bold">&#8730;2</text>
+  <text x="512" y="212" font-family="sans-serif" font-size="12" fill="#555555" text-anchor="middle">the hole</text>
+
+  <text x="470" y="242" font-family="sans-serif" font-size="13" fill="#1a1a1a" text-anchor="middle">&#8730;2 &#8713; &#8474; &#8212; &#8477; fills it in</text>
+</svg>

@@ -1,0 +1,38 @@
+<svg viewBox="0 0 560 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <rect x="0" y="0" width="560" height="400" fill="#ffffff"/>
+
+  <!-- l-infinity unit ball: the square, corners at (±1,±1) -->
+  <rect x="160" y="70" width="240" height="240" fill="#4a90d9" opacity="0.10"/>
+  <rect x="160" y="70" width="240" height="240" fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- l-2 unit ball: the circle, radius 1 -->
+  <circle cx="280" cy="190" r="120" fill="#2e9e6b" opacity="0.10"/>
+  <circle cx="280" cy="190" r="120" fill="none" stroke="#2e9e6b" stroke-width="3"/>
+
+  <!-- l-1 unit ball: the diamond, vertices at (±1,0),(0,±1) -->
+  <polygon points="400,190 280,70 160,190 280,310" fill="#e0645c" opacity="0.14"/>
+  <polygon points="400,190 280,70 160,190 280,310" fill="none" stroke="#e0645c" stroke-width="3"/>
+
+  <!-- axes -->
+  <line x1="90" y1="190" x2="470" y2="190" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="280" y1="40" x2="280" y2="345" stroke="#1a1a1a" stroke-width="1.5"/>
+  <polygon points="470,190 460,185 460,195" fill="#1a1a1a"/>
+  <polygon points="280,40 275,50 285,50" fill="#1a1a1a"/>
+  <text x="474" y="195" fill="#1a1a1a">x₁</text>
+  <text x="286" y="46" fill="#1a1a1a">x₂</text>
+
+  <!-- unit ticks -->
+  <circle cx="400" cy="190" r="3.5" fill="#1a1a1a"/>
+  <text x="392" y="210" fill="#1a1a1a">1</text>
+  <circle cx="280" cy="70" r="3.5" fill="#1a1a1a"/>
+  <text x="258" y="75" fill="#1a1a1a">1</text>
+
+  <!-- labels -->
+  <text x="408" y="86" fill="#4a90d9">‖x‖∞ ≤ 1  (square)</text>
+  <text x="366" y="128" fill="#2e9e6b">‖x‖₂ ≤ 1  (circle)</text>
+  <text x="300" y="176" fill="#e0645c">‖x‖₁ ≤ 1</text>
+  <text x="300" y="192" fill="#e0645c">(diamond)</text>
+
+  <!-- caption -->
+  <text x="90" y="378" fill="#1a1a1a" font-style="italic">Same vectors, same space — three norms, three unit balls. They nest: diamond ⊂ circle ⊂ square.</text>
+</svg>

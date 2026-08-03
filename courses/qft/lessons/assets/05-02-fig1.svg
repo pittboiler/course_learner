@@ -1,0 +1,30 @@
+<svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="640" height="300" fill="#ffffff"/>
+  <defs><marker id="fe" markerWidth="10" markerHeight="10" refX="6" refY="3.2" orient="auto"><path d="M0,0 L8,3.2 L0,6.4 Z" fill="#c0532a"/></marker></defs>
+  <text x="320" y="30" font-size="15" fill="#111" text-anchor="middle">Minimal coupling &#8706;&#7512; &#8594; D&#7512; forces the electron&#8211;photon interaction.</text>
+
+  <!-- QED Lagrangian -->
+  <text x="320" y="72" font-size="15" fill="#111" text-anchor="middle">&#8466;_QED = &#968;&#772;(i&#947;&#7512;&#8706;&#7512; &#8722; m)&#968;  &#8722;  &#188;F&#7512;&#7515;F&#7512;&#7515;  &#8722;  e &#968;&#772;&#947;&#7512;&#968; A&#7512;</text>
+  <text x="185" y="96" font-size="11.5" fill="#1f6fb2" text-anchor="middle">free electron</text>
+  <text x="360" y="96" font-size="11.5" fill="#0a7d4f" text-anchor="middle">free photon</text>
+  <text x="540" y="96" font-size="11.5" fill="#c0532a" text-anchor="middle">interaction (vertex)</text>
+
+  <!-- the QED vertex -->
+  <g transform="translate(200,130)">
+    <circle cx="120" cy="70" r="6" fill="#111"/>
+    <!-- incoming electron -->
+    <line x1="30" y1="20" x2="120" y2="70" stroke="#c0532a" stroke-width="2.4" marker-end="url(#fe)"/>
+    <!-- outgoing electron -->
+    <line x1="120" y1="70" x2="210" y2="20" stroke="#c0532a" stroke-width="2.4"/>
+    <polygon points="175,42 163,36 168,48" fill="#c0532a"/>
+    <!-- photon (wavy) -->
+    <path d="M120,70 q 10,15 20,0 q 10,-15 20,0 q 10,15 20,0 q 10,-15 20,0" transform="translate(0,60)" fill="none" stroke="#0a7d4f" stroke-width="2"/>
+    <line x1="120" y1="70" x2="120" y2="130" stroke="none"/>
+    <path d="M120,70 q 12,14 24,0 q 12,-14 24,0 q 12,14 24,0" fill="none" stroke="#0a7d4f" stroke-width="2" transform="rotate(90 120 70)"/>
+    <text x="20" y="18" font-size="12" fill="#c0532a">e&#8722;</text>
+    <text x="214" y="18" font-size="12" fill="#c0532a">e&#8722;</text>
+    <text x="185" y="145" font-size="12" fill="#0a7d4f">&#947; (photon)</text>
+    <text x="120" y="180" font-size="13.5" fill="#111" text-anchor="middle">vertex factor:  &#8722;ie&#947;&#7512;</text>
+  </g>
+  <text x="320" y="288" font-size="12.5" fill="#111" text-anchor="middle">coupling e is universal; &#945; = e&#178;/4&#960; &#8776; 1/137 (fine-structure constant)</text>
+</svg>

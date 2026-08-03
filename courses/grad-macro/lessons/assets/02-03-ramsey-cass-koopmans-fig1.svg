@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 440" font-family="sans-serif">
+  <rect x="0" y="0" width="620" height="440" fill="#ffffff"/>
+
+  <!-- Axes -->
+  <line x1="70" y1="380" x2="590" y2="380" stroke="#222222" stroke-width="2"/>
+  <line x1="70" y1="380" x2="70" y2="40" stroke="#222222" stroke-width="2"/>
+  <polygon points="590,380 578,374 578,386" fill="#222222"/>
+  <polygon points="70,40 64,52 76,52" fill="#222222"/>
+  <text x="562" y="404" font-size="17" fill="#222222">k</text>
+  <text x="40" y="52" font-size="17" fill="#222222">c</text>
+
+  <!-- k-dot = 0 locus: hump c = f(k) - (n+d)k -->
+  <path d="M 70 380 Q 200 150 390 112 Q 490 130 560 330" fill="none" stroke="#1f6feb" stroke-width="2.6"/>
+  <text x="495" y="168" font-size="16" fill="#1f6feb">k&#775; = 0</text>
+  <text x="470" y="186" font-size="13" fill="#1f6feb">c = f(k)&#8722;(n+&#948;)k</text>
+
+  <!-- c-dot = 0 locus: vertical line at k* -->
+  <line x1="300" y1="380" x2="300" y2="52" stroke="#c0392b" stroke-width="2.6"/>
+  <text x="308" y="66" font-size="16" fill="#c0392b">c&#775; = 0</text>
+  <text x="310" y="84" font-size="13" fill="#c0392b">f&#8242;(k)=&#961;+&#948;</text>
+  <text x="288" y="402" font-size="16" fill="#c0392b">k*</text>
+
+  <!-- Saddle path (stable manifold) -->
+  <path d="M 118 332 Q 235 240 300 143 Q 372 58 478 40" fill="none" stroke="#1a7f37" stroke-width="3" stroke-dasharray="1 0"/>
+  <text x="120" y="322" font-size="15" fill="#1a7f37">saddle path</text>
+  <!-- arrowheads riding the saddle path toward the steady state -->
+  <polygon points="252,205 240,205 249,216" fill="#1a7f37"/>
+  <polygon points="352,92 361,101 363,89" fill="#1a7f37"/>
+
+  <!-- Steady state -->
+  <circle cx="300" cy="143" r="5.5" fill="#111111"/>
+  <text x="308" y="140" font-size="15" fill="#111111">(k*, c*)</text>
+
+  <!-- Region directional arrows (grey) -->
+  <!-- NW: k<k* & above hump  ->  up-left -->
+  <line x1="176" y1="112" x2="142" y2="82" stroke="#555555" stroke-width="2.2"/>
+  <polygon points="138,78 152,84 145,92" fill="#555555"/>
+  <text x="150" y="130" font-size="12" fill="#555555">c&#775;&gt;0, k&#775;&lt;0</text>
+
+  <!-- NE: k>k* & above hump  ->  down-left -->
+  <line x1="452" y1="70" x2="414" y2="100" stroke="#555555" stroke-width="2.2"/>
+  <polygon points="410,104 418,90 424,102" fill="#555555"/>
+  <text x="408" y="60" font-size="12" fill="#555555">c&#775;&lt;0, k&#775;&lt;0</text>
+
+  <!-- SW: k<k* & below hump  ->  up-right -->
+  <line x1="128" y1="322" x2="168" y2="292" stroke="#555555" stroke-width="2.2"/>
+  <polygon points="172,288 158,294 165,302" fill="#555555"/>
+  <text x="112" y="345" font-size="12" fill="#555555">c&#775;&gt;0, k&#775;&gt;0</text>
+
+  <!-- SE: k>k* & below hump  ->  down-right -->
+  <line x1="418" y1="300" x2="460" y2="332" stroke="#555555" stroke-width="2.2"/>
+  <polygon points="464,336 450,330 455,344" fill="#555555"/>
+  <text x="418" y="290" font-size="12" fill="#555555">c&#775;&lt;0, k&#775;&gt;0</text>
+</svg>

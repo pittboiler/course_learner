@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 320" font-family="sans-serif">
+  <rect x="0" y="0" width="440" height="320" fill="#ffffff"/>
+
+  <!-- square edges -->
+  <polygon points="130,70 310,70 310,250 130,250" fill="none" stroke="#333333" stroke-width="2"/>
+
+  <!-- vertices -->
+  <circle cx="130" cy="70"  r="10" fill="#1f6feb"/>
+  <circle cx="310" cy="70"  r="10" fill="#1f6feb"/>
+  <circle cx="310" cy="250" r="10" fill="#1f6feb"/>
+  <circle cx="130" cy="250" r="10" fill="#1f6feb"/>
+
+  <!-- vertex labels -->
+  <text x="130" y="74"  font-size="14" fill="#ffffff" text-anchor="middle">1</text>
+  <text x="310" y="74"  font-size="14" fill="#ffffff" text-anchor="middle">2</text>
+  <text x="310" y="254" font-size="14" fill="#ffffff" text-anchor="middle">3</text>
+  <text x="130" y="254" font-size="14" fill="#ffffff" text-anchor="middle">4</text>
+
+  <!-- clockwise rotation arrow in the centre -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#c9302c"/>
+    </marker>
+  </defs>
+  <path d="M 260,160 A 40,40 0 1 1 220,120" fill="none" stroke="#c9302c" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="220" y="205" font-size="15" fill="#c9302c" text-anchor="middle">r  (90° cw)</text>
+
+  <!-- edge direction hints -->
+  <text x="220" y="58"  font-size="13" fill="#333333" text-anchor="middle">1 → 2</text>
+  <text x="335" y="165" font-size="13" fill="#333333" text-anchor="start">2 → 3</text>
+  <text x="220" y="278" font-size="13" fill="#333333" text-anchor="middle">4 → 3</text>
+  <text x="105" y="165" font-size="13" fill="#333333" text-anchor="end">1 → 4</text>
+
+  <text x="220" y="305" font-size="14" fill="#000000" text-anchor="middle">r acts on the vertices as the permutation (1 2 3 4)</text>
+</svg>

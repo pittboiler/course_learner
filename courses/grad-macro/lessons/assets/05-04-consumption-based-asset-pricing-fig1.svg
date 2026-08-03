@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="sans-serif">
+  <rect x="0" y="0" width="640" height="420" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="320" y="28" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">The SDF weights states by marginal utility</text>
+
+  <!-- Axes -->
+  <line x1="80" y1="360" x2="610" y2="360" stroke="#111111" stroke-width="2"/>
+  <line x1="80" y1="360" x2="80" y2="45" stroke="#111111" stroke-width="2"/>
+  <text x="600" y="388" text-anchor="middle" font-size="14" fill="#111111">consumption next period  c'</text>
+  <text x="40" y="52" text-anchor="middle" font-size="14" fill="#111111">m'</text>
+  <text x="30" y="70" text-anchor="middle" font-size="12" fill="#555555">high</text>
+  <text x="30" y="352" text-anchor="middle" font-size="12" fill="#555555">low</text>
+
+  <!-- SDF curve  m = beta c^{-gamma}, decreasing & convex -->
+  <path d="M 184 52.9 Q 236 99 340 180.8 T 600 336.8" fill="none" stroke="#1f77b4" stroke-width="3"/>
+  <polyline points="184,52.9 236,99.1 340,180.8 444,250.4 600,336.8" fill="none" stroke="#1f77b4" stroke-width="3"/>
+  <text x="150" y="60" font-size="13" fill="#1f77b4" font-weight="bold">m' = &#946; u'(c')/u'(c)</text>
+
+  <!-- Bad state: low c, high m -->
+  <line x1="236" y1="360" x2="236" y2="99.1" stroke="#d62728" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <line x1="80" y1="99.1" x2="236" y2="99.1" stroke="#d62728" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <circle cx="236" cy="99.1" r="6" fill="#d62728"/>
+  <text x="248" y="94" font-size="13" fill="#d62728" font-weight="bold">BUST: poor &#8594; big m'</text>
+  <text x="236" y="378" text-anchor="middle" font-size="12" fill="#d62728">c'_b</text>
+
+  <!-- Good state: high c, low m -->
+  <line x1="444" y1="360" x2="444" y2="250.4" stroke="#2ca02c" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <line x1="80" y1="250.4" x2="444" y2="250.4" stroke="#2ca02c" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <circle cx="444" cy="250.4" r="6" fill="#2ca02c"/>
+  <text x="456" y="245" font-size="13" fill="#2ca02c" font-weight="bold">BOOM: rich &#8594; small m'</text>
+  <text x="444" y="378" text-anchor="middle" font-size="12" fill="#2ca02c">c'_g</text>
+
+  <!-- Caption -->
+  <text x="320" y="410" text-anchor="middle" font-size="12" fill="#555555">A payoff delivered in the BUST state is priced with a heavy weight &#8212; that is why insurance is expensive.</text>
+</svg>

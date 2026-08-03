@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" font-family="sans-serif">
+  <rect x="0" y="0" width="760" height="400" fill="#ffffff"/>
+
+  <!-- ============ LEFT PANEL: characteristics crossing in the (x,t) plane ============ -->
+  <text x="70" y="34" font-size="16" font-weight="bold" fill="#1a1a1a">Characteristics cross &#8594; a shock is born</text>
+
+  <!-- axes -->
+  <line x1="70" y1="340" x2="360" y2="340" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="70" y1="340" x2="70" y2="60" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="352" y="360" font-size="14" fill="#1a1a1a">x</text>
+  <text x="52" y="70" font-size="14" fill="#1a1a1a">t</text>
+
+  <!-- left-state (fast, u_L) characteristics: steep, leaning right, converging to P -->
+  <line x1="95"  y1="340" x2="220" y2="160" stroke="#1a1a1a" stroke-width="1.2"/>
+  <line x1="125" y1="340" x2="220" y2="160" stroke="#1a1a1a" stroke-width="1.2"/>
+  <line x1="155" y1="340" x2="220" y2="160" stroke="#1a1a1a" stroke-width="1.2"/>
+  <line x1="185" y1="340" x2="220" y2="160" stroke="#1a1a1a" stroke-width="1.2"/>
+
+  <!-- right-state (slow, u_R) characteristics: near-vertical -->
+  <line x1="245" y1="340" x2="238" y2="160" stroke="#999999" stroke-width="1.2"/>
+  <line x1="280" y1="340" x2="271" y2="160" stroke="#999999" stroke-width="1.2"/>
+  <line x1="315" y1="340" x2="304" y2="160" stroke="#999999" stroke-width="1.2"/>
+
+  <!-- crossing point P -->
+  <circle cx="220" cy="160" r="4" fill="#1a1a1a"/>
+  <text x="150" y="150" font-size="13" fill="#1a1a1a">breaking point</text>
+
+  <!-- shock line rising from P (slope = average speed) -->
+  <line x1="220" y1="160" x2="265" y2="65" stroke="#1a1a1a" stroke-width="3"/>
+  <text x="268" y="80" font-size="14" font-weight="bold" fill="#1a1a1a">shock</text>
+  <text x="228" y="112" font-size="13" fill="#1a1a1a">slope 1/s</text>
+
+  <!-- region labels -->
+  <text x="120" y="290" font-size="15" fill="#1a1a1a">u&#8341;</text>
+  <text x="285" y="290" font-size="15" fill="#999999">u&#7523;</text>
+
+  <!-- ============ RIGHT PANEL: profile steepening into a jump ============ -->
+  <text x="430" y="34" font-size="16" font-weight="bold" fill="#1a1a1a">Profile steepens: smooth &#8594; vertical &#8594; jump</text>
+
+  <!-- axes -->
+  <line x1="430" y1="340" x2="730" y2="340" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="430" y1="340" x2="430" y2="60" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="722" y="360" font-size="14" fill="#1a1a1a">x</text>
+  <text x="412" y="70" font-size="14" fill="#1a1a1a">u</text>
+
+  <!-- profile at early time: gentle decreasing front -->
+  <path d="M 440 110 C 505 118, 520 320, 600 328" fill="none" stroke="#bbbbbb" stroke-width="2"/>
+  <text x="445" y="150" font-size="12" fill="#999999">t&#8320;</text>
+
+  <!-- profile at intermediate time: steeper, shifted right -->
+  <path d="M 470 110 C 555 116, 565 322, 620 328" fill="none" stroke="#777777" stroke-width="2"/>
+  <text x="512" y="105" font-size="12" fill="#777777">t&#8321;</text>
+
+  <!-- profile at shock time: a vertical jump -->
+  <path d="M 500 110 L 665 110 L 665 328 L 720 328" fill="none" stroke="#1a1a1a" stroke-width="2.6"/>
+  <text x="668" y="105" font-size="12" font-weight="bold" fill="#1a1a1a">t&#8322;</text>
+  <line x1="665" y1="110" x2="665" y2="328" stroke="#1a1a1a" stroke-width="2.6" stroke-dasharray="4 3"/>
+  <text x="600" y="230" font-size="13" fill="#1a1a1a">jump</text>
+</svg>

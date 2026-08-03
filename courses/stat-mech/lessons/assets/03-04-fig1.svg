@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 430" font-family="sans-serif">
+  <rect x="0" y="0" width="680" height="430" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="340" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">Heat capacity of a diatomic gas: the equipartition staircase</text>
+
+  <!-- Axes -->
+  <line x1="70" y1="360" x2="650" y2="360" stroke="#333333" stroke-width="2"/>
+  <line x1="70" y1="360" x2="70" y2="55" stroke="#333333" stroke-width="2"/>
+
+  <!-- Y axis label -->
+  <text x="24" y="210" text-anchor="middle" font-size="14" fill="#111111" transform="rotate(-90 24 210)">C_V / (N k_B)</text>
+  <!-- X axis label -->
+  <text x="360" y="410" text-anchor="middle" font-size="14" fill="#111111">temperature T  (log scale)</text>
+
+  <!-- Y gridlines / ticks at 3/2, 5/2, 7/2 -->
+  <!-- 3/2 -> y=241.25 ; 5/2 -> 168.75 ; 7/2 -> 96.25  (0 at 360, unit=72.5) -->
+  <line x1="70" y1="241.25" x2="650" y2="241.25" stroke="#bbbbbb" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="70" y1="168.75" x2="650" y2="168.75" stroke="#bbbbbb" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="70" y1="96.25" x2="650" y2="96.25" stroke="#bbbbbb" stroke-width="1" stroke-dasharray="4 4"/>
+
+  <text x="63" y="246" text-anchor="end" font-size="13" fill="#333333">3/2</text>
+  <text x="63" y="173" text-anchor="end" font-size="13" fill="#333333">5/2</text>
+  <text x="63" y="101" text-anchor="end" font-size="13" fill="#333333">7/2</text>
+  <text x="63" y="364" text-anchor="end" font-size="13" fill="#333333">0</text>
+
+  <!-- The staircase curve -->
+  <polyline points="70,241.25 180,241.25 250,168.75 430,168.75 520,96.25 650,96.25"
+            fill="none" stroke="#c0392b" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Plateau labels -->
+  <text x="125" y="230" text-anchor="middle" font-size="12.5" fill="#c0392b" font-weight="bold">translational</text>
+  <text x="125" y="215" text-anchor="middle" font-size="11" fill="#555555">(3 modes)</text>
+
+  <text x="340" y="158" text-anchor="middle" font-size="12.5" fill="#c0392b" font-weight="bold">+ rotational</text>
+  <text x="340" y="143" text-anchor="middle" font-size="11" fill="#555555">(2 more modes)</text>
+
+  <text x="585" y="86" text-anchor="middle" font-size="12.5" fill="#c0392b" font-weight="bold">+ vibrational</text>
+  <text x="585" y="71" text-anchor="middle" font-size="11" fill="#555555">(2 more: KE+PE)</text>
+
+  <!-- Freeze-out markers on x-axis -->
+  <line x1="215" y1="360" x2="215" y2="368" stroke="#1a4fa0" stroke-width="2"/>
+  <text x="215" y="384" text-anchor="middle" font-size="12" fill="#1a4fa0" font-weight="bold">T_rot</text>
+
+  <line x1="475" y1="360" x2="475" y2="368" stroke="#1a4fa0" stroke-width="2"/>
+  <text x="475" y="384" text-anchor="middle" font-size="12" fill="#1a4fa0" font-weight="bold">T_vib</text>
+
+  <!-- Freeze-out annotations -->
+  <text x="250" y="300" text-anchor="middle" font-size="11.5" fill="#1a4fa0" font-style="italic">rotation "wakes up"</text>
+  <text x="250" y="315" text-anchor="middle" font-size="11.5" fill="#1a4fa0" font-style="italic">when k_B T ~ level spacing</text>
+
+  <text x="520" y="225" text-anchor="middle" font-size="11.5" fill="#1a4fa0" font-style="italic">vibration "wakes up"</text>
+  <text x="520" y="240" text-anchor="middle" font-size="11.5" fill="#1a4fa0" font-style="italic">at higher T</text>
+
+  <!-- Note about quantum freeze-out below each riser -->
+  <text x="340" y="360" text-anchor="middle" font-size="0" fill="#ffffff">.</text>
+</svg>

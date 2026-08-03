@@ -1,0 +1,70 @@
+<svg viewBox="0 0 720 440" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="720" height="440" fill="#ffffff"/>
+
+  <!-- divider -->
+  <line x1="356" y1="30" x2="356" y2="410" stroke="#cccccc" stroke-width="1"/>
+
+  <!-- ===================== LEFT PANEL: dispersion relations ===================== -->
+  <text x="30" y="42" font-size="15" font-weight="bold" fill="#1a1a1a">Dispersion relation  &#969;(&#958;)</text>
+
+  <!-- axes -->
+  <line x1="70" y1="300" x2="325" y2="300" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="185" y1="300" x2="185" y2="65" stroke="#1a1a1a" stroke-width="1.5"/>
+  <polygon points="325,300 317,296 317,304" fill="#1a1a1a"/>
+  <polygon points="185,65 181,73 189,73" fill="#1a1a1a"/>
+  <text x="330" y="304" font-size="13" fill="#1a1a1a">&#958;</text>
+  <text x="176" y="60" font-size="13" fill="#1a1a1a">&#969;</text>
+
+  <!-- parabola  w = xi^2  (dispersive, red) -->
+  <path d="M 75 72 Q 130 300 185 300 Q 240 300 295 72" fill="none" stroke="#c0392b" stroke-width="2.5"/>
+  <!-- straight line w = c*xi through origin (non-dispersive, blue) -->
+  <line x1="140" y1="378" x2="305" y2="90" stroke="#1a6fb0" stroke-width="2.5"/>
+
+  <text x="228" y="128" font-size="12.5" fill="#1a6fb0" font-weight="bold">&#969; = c&#958;</text>
+  <text x="238" y="146" font-size="11" fill="#1a6fb0">wave: linear</text>
+  <text x="42" y="120" font-size="12.5" fill="#c0392b" font-weight="bold">&#969; = &#958;&#178;</text>
+  <text x="42" y="138" font-size="11" fill="#c0392b">Schr&#246;dinger: curved</text>
+
+  <text x="70" y="345" font-size="11.5" fill="#333333">Straight &#8658; every frequency shares one</text>
+  <text x="70" y="361" font-size="11.5" fill="#333333">speed. Curved &#8658; speed varies with &#958;.</text>
+
+  <!-- ===================== RIGHT PANEL: packet in time ===================== -->
+  <text x="386" y="42" font-size="15" font-weight="bold" fill="#1a1a1a">The packet as time runs</text>
+
+  <!-- TOP: non-dispersive -->
+  <text x="386" y="70" font-size="12.5" fill="#1a6fb0" font-weight="bold">Non-dispersive (wave): rigid, just translates</text>
+  <line x1="386" y1="105" x2="700" y2="105" stroke="#dddddd" stroke-width="1"/>
+
+  <!-- envelope guides (identical width) -->
+  <path d="M 398 105 Q 440 37 482 105" fill="none" stroke="#9aa7c0" stroke-width="1" stroke-dasharray="3 3"/>
+  <path d="M 513 105 Q 555 37 597 105" fill="none" stroke="#9aa7c0" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- packet 1 -->
+  <path d="M 398 105 Q 404 107 410 105 Q 416 95 422 105 Q 428 130 434 105 Q 440 71 446 105 Q 452 130 458 105 Q 464 95 470 105 Q 476 107 482 105" fill="none" stroke="#1a6fb0" stroke-width="2"/>
+  <!-- packet 2 (shifted, same shape) -->
+  <path d="M 513 105 Q 519 107 525 105 Q 531 95 537 105 Q 543 130 549 105 Q 555 71 561 105 Q 567 130 573 105 Q 579 95 585 105 Q 591 107 597 105" fill="none" stroke="#1a6fb0" stroke-width="2"/>
+
+  <line x1="486" y1="105" x2="509" y2="105" stroke="#1a1a1a" stroke-width="1.2"/>
+  <polygon points="509,105 501,101 501,109" fill="#1a1a1a"/>
+  <text x="470" y="152" font-size="11" fill="#333333">speed c</text>
+
+  <!-- BOTTOM: dispersive -->
+  <text x="386" y="222" font-size="12.5" fill="#c0392b" font-weight="bold">Dispersive (Schr&#246;dinger): envelope spreads, flattens</text>
+  <line x1="386" y1="300" x2="700" y2="300" stroke="#dddddd" stroke-width="1"/>
+
+  <!-- envelope guides: narrow-tall then wide-low -->
+  <path d="M 398 300 Q 440 224 482 300" fill="none" stroke="#d3a29a" stroke-width="1" stroke-dasharray="3 3"/>
+  <path d="M 501 300 Q 555 266 609 300" fill="none" stroke="#d3a29a" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- narrow tall packet (t = 0) -->
+  <path d="M 398 300 Q 404 302 410 300 Q 416 290 422 300 Q 428 325 434 300 Q 440 266 446 300 Q 452 325 458 300 Q 464 290 470 300 Q 476 302 482 300" fill="none" stroke="#c0392b" stroke-width="2"/>
+  <!-- wide low packet (t > 0) -->
+  <path d="M 501 300 Q 507 295 513 300 Q 519 308 525 300 Q 531 288 537 300 Q 543 316 549 300 Q 555 283 561 300 Q 567 316 573 300 Q 579 288 585 300 Q 591 308 597 300 Q 603 295 609 300" fill="none" stroke="#c0392b" stroke-width="2"/>
+
+  <line x1="486" y1="300" x2="497" y2="300" stroke="#1a1a1a" stroke-width="1.2"/>
+  <polygon points="497,300 489,296 489,304" fill="#1a1a1a"/>
+
+  <text x="410" y="348" font-size="11" fill="#333333">t = 0: crisp</text>
+  <text x="535" y="348" font-size="11" fill="#333333">t &gt; 0: broader, lower</text>
+  <text x="386" y="392" font-size="11.5" fill="#333333">Same total &#8220;mass&#8221; &#8212; nothing is lost, it is smeared out.</text>
+</svg>

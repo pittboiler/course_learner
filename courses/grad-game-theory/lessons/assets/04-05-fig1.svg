@@ -1,0 +1,66 @@
+<svg viewBox="0 0 680 470" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="680" height="470" fill="#ffffff"/>
+
+  <!-- title -->
+  <text x="340" y="26" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">Signaling game: the separating profile (green path)</text>
+
+  <!-- Nature branches -->
+  <line x1="60" y1="235" x2="170" y2="115" stroke="#888888" stroke-width="2.5"/>
+  <line x1="60" y1="235" x2="170" y2="355" stroke="#888888" stroke-width="2.5"/>
+
+  <!-- Sender edges -->
+  <!-- H sends e=1 (separating, green) -->
+  <line x1="170" y1="115" x2="400" y2="95" stroke="#1f7a4d" stroke-width="6"/>
+  <!-- H's off-equilibrium e=0 (grey) -->
+  <line x1="170" y1="115" x2="400" y2="305" stroke="#bbbbbb" stroke-width="2.5"/>
+  <!-- L's off-equilibrium e=1 (grey) -->
+  <line x1="170" y1="355" x2="400" y2="175" stroke="#bbbbbb" stroke-width="2.5"/>
+  <!-- L sends e=0 (separating, green) -->
+  <line x1="170" y1="355" x2="400" y2="385" stroke="#1f7a4d" stroke-width="6"/>
+
+  <!-- Nature node -->
+  <circle cx="60" cy="235" r="7" fill="#1a1a1a"/>
+  <text x="60" y="222" text-anchor="middle" font-size="13" fill="#1a1a1a">Nature</text>
+
+  <!-- Type / Sender nodes -->
+  <circle cx="170" cy="115" r="7" fill="#1a1a1a"/>
+  <text x="150" y="110" text-anchor="end" font-size="13.5" fill="#1a1a1a">Sender H</text>
+  <circle cx="170" cy="355" r="7" fill="#1a1a1a"/>
+  <text x="150" y="360" text-anchor="end" font-size="13.5" fill="#1a1a1a">Sender L</text>
+
+  <!-- Nature branch labels -->
+  <text x="103" y="163" text-anchor="middle" font-size="12.5" fill="#555555">H  (prob 1/2)</text>
+  <text x="103" y="312" text-anchor="middle" font-size="12.5" fill="#555555">L  (prob 1/2)</text>
+
+  <!-- Message labels -->
+  <text x="292" y="92" text-anchor="middle" font-size="13" font-weight="bold" fill="#1f7a4d">e = 1</text>
+  <text x="300" y="198" text-anchor="middle" font-size="12.5" fill="#999999">e = 0</text>
+  <text x="300" y="272" text-anchor="middle" font-size="12.5" fill="#999999">e = 1</text>
+  <text x="292" y="382" text-anchor="middle" font-size="13" font-weight="bold" fill="#1f7a4d">e = 0</text>
+
+  <!-- Receiver info-set nodes -->
+  <circle cx="400" cy="95"  r="6" fill="#1a1a1a"/>
+  <circle cx="400" cy="175" r="6" fill="#1a1a1a"/>
+  <circle cx="400" cy="305" r="6" fill="#1a1a1a"/>
+  <circle cx="400" cy="385" r="6" fill="#1a1a1a"/>
+
+  <!-- info set: message e=1 (dashed connector) -->
+  <line x1="400" y1="95" x2="400" y2="175" stroke="#1a1a1a" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="418" y="130" text-anchor="start" font-size="12.5" fill="#1a1a1a">Receiver sees e = 1</text>
+  <text x="418" y="147" text-anchor="start" font-size="12.5" fill="#1f7a4d">belief mu(H) = 1  =&gt;  wage 10</text>
+
+  <!-- info set: message e=0 (dashed connector) -->
+  <line x1="400" y1="305" x2="400" y2="385" stroke="#1a1a1a" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="418" y="340" text-anchor="start" font-size="12.5" fill="#1a1a1a">Receiver sees e = 0</text>
+  <text x="418" y="357" text-anchor="start" font-size="12.5" fill="#1f7a4d">belief mu(H) = 0  =&gt;  wage 4</text>
+
+  <!-- payoff annotations -->
+  <text x="418" y="90"  text-anchor="start" font-size="12.5" font-weight="bold" fill="#1a1a1a">H: 10 - 2 = 8</text>
+  <text x="418" y="195" text-anchor="start" font-size="11.5" fill="#999999">(if L deviated: 10 - 7 = 3)</text>
+  <text x="418" y="300" text-anchor="start" font-size="11.5" fill="#999999">(if H deviated: 4 - 2 = 2)</text>
+  <text x="418" y="400" text-anchor="start" font-size="12.5" font-weight="bold" fill="#1a1a1a">L: 4 - 0 = 4</text>
+
+  <!-- caption -->
+  <text x="340" y="440" text-anchor="middle" font-size="12" fill="#555555">Types split, so each message is on-path and Bayes pins the beliefs. Costs: c_H = 2 &lt; c_L = 7 (single crossing).</text>
+  <text x="340" y="458" text-anchor="middle" font-size="12" fill="#555555">In a pooling profile both types share one message; the Intuitive Criterion disciplines the belief at the unsent one.</text>
+</svg>

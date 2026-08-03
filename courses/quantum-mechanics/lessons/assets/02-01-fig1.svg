@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 440" font-family="sans-serif">
+  <rect x="0" y="0" width="560" height="440" fill="#ffffff"/>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#333333"/>
+    </marker>
+  </defs>
+
+  <!-- TDSE box -->
+  <rect x="70" y="18" width="420" height="118" rx="8" fill="#f2f6ff" stroke="#333333" stroke-width="2"/>
+  <text x="280" y="46" font-size="16" fill="#333333" text-anchor="middle">Time-dependent Schr&#246;dinger equation</text>
+  <text x="280" y="80" font-size="22" fill="#333333" text-anchor="middle">i&#8463; &#8706;&#968;/&#8706;t = &#292;&#968;</text>
+  <text x="280" y="106" font-size="15" fill="#333333" text-anchor="middle">&#292; = <tspan fill="#1f6feb">&#8722;(&#8463;&#178;/2m) &#8706;&#178;/&#8706;x&#178;</tspan> + <tspan fill="#1a7f37">V(x)</tspan></text>
+  <text x="280" y="126" font-size="12" fill="#888888" text-anchor="middle"><tspan fill="#1f6feb">kinetic</tspan> + <tspan fill="#1a7f37">potential</tspan> = total-energy operator</text>
+
+  <!-- arrow into separation pill -->
+  <line x1="280" y1="136" x2="280" y2="150" stroke="#333333" stroke-width="2"/>
+  <rect x="146" y="150" width="268" height="30" rx="15" fill="#fff8e0" stroke="#b8860b" stroke-width="1.5"/>
+  <text x="280" y="170" font-size="14" fill="#7a5c00" text-anchor="middle">separate variables:  &#968;(x,t) = &#966;(x)&#183;f(t)</text>
+
+  <!-- separation constant label -->
+  <text x="280" y="204" font-size="13" fill="#b02020" text-anchor="middle">E = separation constant = energy eigenvalue</text>
+
+  <!-- diverging arrows -->
+  <line x1="280" y1="180" x2="155" y2="228" stroke="#333333" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="280" y1="180" x2="405" y2="228" stroke="#333333" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Space box -->
+  <rect x="40" y="230" width="230" height="180" rx="8" fill="#eefaf0" stroke="#1a7f37" stroke-width="2"/>
+  <text x="155" y="258" font-size="15" fill="#1a7f37" text-anchor="middle">Space part</text>
+  <text x="155" y="278" font-size="12" fill="#555555" text-anchor="middle">time-independent SE</text>
+  <text x="155" y="322" font-size="24" fill="#333333" text-anchor="middle">&#292;&#966; = E&#966;</text>
+  <text x="155" y="356" font-size="12.5" fill="#555555" text-anchor="middle">an eigenvalue problem for</text>
+  <text x="155" y="374" font-size="12.5" fill="#555555" text-anchor="middle">the Hamiltonian (Lesson 1.4)</text>
+  <text x="155" y="398" font-size="12.5" fill="#333333" text-anchor="middle">&#966;(x): the stationary shape</text>
+
+  <!-- Time box -->
+  <rect x="290" y="230" width="230" height="180" rx="8" fill="#f4f0fb" stroke="#6f42c1" stroke-width="2"/>
+  <text x="405" y="258" font-size="15" fill="#6f42c1" text-anchor="middle">Time part</text>
+  <text x="405" y="278" font-size="12" fill="#555555" text-anchor="middle">universal phase clock</text>
+  <text x="405" y="308" font-size="18" fill="#333333" text-anchor="middle">i&#8463; df/dt = E f</text>
+  <text x="405" y="342" font-size="19" fill="#333333" text-anchor="middle">f(t) = e<tspan font-size="12" dy="-8">&#8722;iEt/&#8463;</tspan></text>
+  <text x="405" y="372" font-size="12.5" fill="#555555" text-anchor="middle">same form for every system</text>
+  <text x="405" y="396" font-size="12.5" fill="#333333" text-anchor="middle">|f(t)|&#178; = 1: probability-safe</text>
+</svg>

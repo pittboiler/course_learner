@@ -1,0 +1,56 @@
+<svg viewBox="0 0 720 390" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="720" height="390" fill="#ffffff"/>
+
+  <defs>
+    <marker id="arrowB" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 z" fill="#1f5fa8"/>
+    </marker>
+    <marker id="arrowR" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 z" fill="#c0392b"/>
+    </marker>
+  </defs>
+
+  <!-- ============ LEFT PANEL: fictitious play beliefs -> Nash point ============ -->
+  <text x="190" y="26" text-anchor="middle" font-size="13" fill="#1a1a1a" font-weight="bold">Fictitious play: beliefs spiral to a Nash point</text>
+
+  <!-- axes: x = P1 empirical freq(H) in [0,1] -> 60..320 ; y = P2 freq(H) -> 320..70 -->
+  <line x1="60" y1="320" x2="320" y2="320" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="60" y1="320" x2="60" y2="70" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="190" y1="320" x2="190" y2="315" stroke="#1a1a1a" stroke-width="1"/>
+  <line x1="55" y1="195" x2="60" y2="195" stroke="#1a1a1a" stroke-width="1"/>
+  <text x="190" y="336" text-anchor="middle" font-size="10" fill="#1a1a1a">1/2</text>
+  <text x="50" y="199" text-anchor="end" font-size="10" fill="#1a1a1a">1/2</text>
+  <text x="190" y="356" text-anchor="middle" font-size="11" fill="#1a1a1a">P1 empirical freq of H</text>
+  <text x="22" y="195" text-anchor="middle" font-size="11" fill="#1a1a1a" transform="rotate(-90 22 195)">P2 empirical freq of H</text>
+
+  <!-- spiral of belief point converging to (1/2,1/2) -->
+  <polyline fill="none" stroke="#1f5fa8" stroke-width="1.8"
+    points="294,95 86,95 86,295 281,295 281,120 107,120 107,270 263,270 263,140 130,140 130,245 242,245 242,163 154,163 154,220 216,220 216,180 177,180 177,203 195,195"
+    marker-end="url(#arrowB)"/>
+
+  <!-- Nash point -->
+  <circle cx="190" cy="195" r="5" fill="#c0392b"/>
+  <text x="200" y="190" text-anchor="start" font-size="11" fill="#c0392b" font-weight="bold">Nash (1/2, 1/2)</text>
+  <text x="300" y="105" text-anchor="end" font-size="10" fill="#1f5fa8">start</text>
+
+  <!-- ============ RIGHT PANEL: no-regret empirical play -> CE polytope ============ -->
+  <text x="550" y="26" text-anchor="middle" font-size="13" fill="#1a1a1a" font-weight="bold">No-regret: empirical play spirals into the CE set</text>
+
+  <!-- frame -->
+  <line x1="420" y1="320" x2="680" y2="320" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="420" y1="320" x2="420" y2="70" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="550" y="356" text-anchor="middle" font-size="11" fill="#1a1a1a">space of joint distributions over action profiles</text>
+
+  <!-- correlated-equilibrium polytope -->
+  <polygon points="500,178 548,166 576,192 556,222 508,214" fill="#e7f0e7" stroke="#6a9a6a" stroke-width="1.5"/>
+  <text x="529" y="197" text-anchor="middle" font-size="11" fill="#3f6a3f" font-weight="bold">CE set</text>
+
+  <!-- spiral of empirical joint distribution converging into the polytope -->
+  <polyline fill="none" stroke="#c0392b" stroke-width="1.8"
+    points="628,95 420,95 420,295 615,295 615,120 441,120 441,270 597,270 597,140 464,140 464,245 576,245 576,163 488,163 488,220 550,220 550,180 511,180 529,192"
+    marker-end="url(#arrowR)"/>
+  <text x="634" y="105" text-anchor="end" font-size="10" fill="#c0392b">start</text>
+
+  <!-- overall caption -->
+  <text x="360" y="378" text-anchor="middle" font-size="11" fill="#1a1a1a">Two boundedly-rational dynamics, two targets: a Nash point (special games) versus the correlated-equilibrium polytope (always).</text>
+</svg>

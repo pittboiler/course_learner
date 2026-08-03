@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 380" font-family="sans-serif">
+  <rect x="0" y="0" width="440" height="380" fill="#ffffff"/>
+
+  <text x="220" y="28" font-size="16" font-weight="bold" text-anchor="middle" fill="#111111">A trigonal AB&#8323; molecule &#8212; point group C&#8323;&#7515;</text>
+
+  <!-- three sigma_v mirror planes (dashed lines through center + each B) -->
+  <line x1="210" y1="40" x2="210" y2="330" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <line x1="70" y1="118" x2="350" y2="280" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <line x1="350" y1="118" x2="70" y2="280" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="6 5"/>
+
+  <!-- bonds -->
+  <line x1="210" y1="190" x2="210" y2="80" stroke="#333333" stroke-width="3"/>
+  <line x1="210" y1="190" x2="112" y2="260" stroke="#333333" stroke-width="3"/>
+  <line x1="210" y1="190" x2="308" y2="260" stroke="#333333" stroke-width="3"/>
+
+  <!-- B atoms -->
+  <circle cx="210" cy="80" r="18" fill="#5b8def" stroke="#1f3f7a" stroke-width="2"/>
+  <text x="210" y="86" font-size="16" font-weight="bold" text-anchor="middle" fill="#ffffff">B</text>
+  <circle cx="112" cy="260" r="18" fill="#5b8def" stroke="#1f3f7a" stroke-width="2"/>
+  <text x="112" y="266" font-size="16" font-weight="bold" text-anchor="middle" fill="#ffffff">B</text>
+  <circle cx="308" cy="260" r="18" fill="#5b8def" stroke="#1f3f7a" stroke-width="2"/>
+  <text x="308" y="266" font-size="16" font-weight="bold" text-anchor="middle" fill="#ffffff">B</text>
+
+  <!-- central A atom + C3 axis marker (out of page) -->
+  <circle cx="210" cy="190" r="22" fill="#e8a13a" stroke="#8a5a10" stroke-width="2"/>
+  <text x="210" y="197" font-size="18" font-weight="bold" text-anchor="middle" fill="#111111">A</text>
+
+  <!-- C3 rotation arrow around the axis (perpendicular to page) -->
+  <path d="M 258 172 A 52 52 0 1 1 244 152" fill="none" stroke="#2e7d32" stroke-width="2.5"/>
+  <polygon points="244,152 236,158 252,163" fill="#2e7d32"/>
+  <text x="286" y="150" font-size="15" font-weight="bold" fill="#2e7d32">C&#8323; (axis &#8869; page)</text>
+
+  <!-- mirror-plane labels -->
+  <text x="218" y="352" font-size="14" font-weight="bold" fill="#c0392b">&#963;&#7515;</text>
+  <text x="44" y="112" font-size="14" font-weight="bold" fill="#c0392b">&#963;&#7515;</text>
+  <text x="360" y="112" font-size="14" font-weight="bold" fill="#c0392b">&#963;&#7515;</text>
+</svg>

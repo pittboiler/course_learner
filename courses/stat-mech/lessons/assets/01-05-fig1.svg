@@ -1,0 +1,48 @@
+<svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14"><rect x="0" y="0" width="640" height="360" fill="#ffffff"/>
+  <!-- ================= LEFT: position space ================= -->
+  <text x="130" y="30" text-anchor="middle" fill="#8a8a8a" font-style="italic">position space</text>
+
+  <!-- container box of volume V -->
+  <rect x="40" y="55" width="180" height="180" fill="#4a90d9" opacity="0.10" stroke="#4a90d9" stroke-width="2"/>
+
+  <!-- gas molecules scattered anywhere inside -->
+  <circle cx="75"  cy="95"  r="5" fill="#4a90d9"/>
+  <circle cx="150" cy="80"  r="5" fill="#4a90d9"/>
+  <circle cx="195" cy="130" r="5" fill="#4a90d9"/>
+  <circle cx="95"  cy="160" r="5" fill="#4a90d9"/>
+  <circle cx="140" cy="200" r="5" fill="#4a90d9"/>
+  <circle cx="190" cy="205" r="5" fill="#4a90d9"/>
+  <circle cx="60"  cy="215" r="5" fill="#4a90d9"/>
+  <circle cx="120" cy="120" r="5" fill="#4a90d9"/>
+
+  <text x="130" y="215" text-anchor="middle" fill="#4a90d9" font-weight="bold">V</text>
+  <text x="130" y="262" text-anchor="middle" fill="#333">each particle: anywhere in V</text>
+  <text x="130" y="282" text-anchor="middle" fill="#4a90d9" font-weight="bold">gives a factor V</text>
+  <text x="130" y="302" text-anchor="middle" fill="#4a90d9" font-weight="bold">so V<tspan baseline-shift="super" font-size="10">N</tspan> total</text>
+
+  <!-- ================= middle: times ================= -->
+  <text x="300" y="150" text-anchor="middle" fill="#8a8a8a" font-size="30">&#215;</text>
+
+  <!-- ================= RIGHT: momentum space ================= -->
+  <text x="490" y="30" text-anchor="middle" fill="#8a8a8a" font-style="italic">momentum space</text>
+
+  <!-- the constant-energy sphere: sum p_i^2 = 2mE -->
+  <circle cx="490" cy="145" r="100" fill="#e0645c" opacity="0.14" stroke="#e0645c" stroke-width="2.5"/>
+
+  <!-- radius arrow -->
+  <line x1="490" y1="145" x2="490" y2="45" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="490,45 486,57 494,57" fill="#e0645c"/>
+  <circle cx="490" cy="145" r="3.5" fill="#e0645c"/>
+
+  <!-- one microstate: a point on the surface -->
+  <circle cx="419" cy="75" r="5.5" fill="#333"/>
+  <text x="405" y="72" text-anchor="end" fill="#333">a microstate</text>
+
+  <text x="505" y="100" fill="#e0645c" font-weight="bold">R = &#8730;(2mE)</text>
+  <text x="490" y="282" text-anchor="middle" fill="#333">all momenta with</text>
+  <text x="490" y="302" text-anchor="middle" fill="#e0645c" font-weight="bold">&#931; p<tspan baseline-shift="sub" font-size="10">i</tspan><tspan baseline-shift="super" font-size="10">2</tspan> = 2mE</text>
+  <text x="490" y="322" text-anchor="middle" fill="#333">= surface of a 3N-sphere</text>
+
+  <!-- caption -->
+  <text x="320" y="350" text-anchor="middle" fill="#8a8a8a" font-style="italic" font-size="13">&#937; = (positions) &#215; (momenta), divided by h^(3N) N! to count distinct quantum states.</text>
+</svg>

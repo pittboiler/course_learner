@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" font-family="sans-serif">
+  <rect x="0" y="0" width="720" height="400" fill="#ffffff"/>
+
+  <!-- title -->
+  <text x="360" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">Aggregate excess demand crossing zero three times</text>
+
+  <!-- frame -->
+  <rect x="70" y="55" width="590" height="270" fill="none" stroke="#bbb" stroke-width="1"/>
+
+  <!-- zero line (p-axis) -->
+  <line x1="70" y1="200" x2="660" y2="200" stroke="#444" stroke-width="1.4"/>
+  <text x="668" y="204" font-size="12" fill="#555">z(p)=0</text>
+
+  <!-- axis labels -->
+  <text x="360" y="352" text-anchor="middle" font-size="13" fill="#1a1a1a">relative price  p</text>
+  <text x="46" y="130" text-anchor="middle" font-size="13" fill="#1a1a1a" transform="rotate(-90 46 130)">z(p)</text>
+  <text x="78" y="74" font-size="11" fill="#2a7d2a">+ (excess demand)</text>
+  <text x="78" y="318" font-size="11" fill="#c05000">&#8722; (excess supply)</text>
+
+  <!-- the excess-demand curve: + , - , + , - -->
+  <path d="M 90 108
+           C 140 128, 175 200, 200 200
+           C 235 200, 258 288, 292 290
+           C 330 292, 352 200, 380 200
+           C 418 200, 438 116, 462 114
+           C 502 111, 520 200, 540 200
+           C 578 200, 616 254, 644 276"
+        fill="none" stroke="#1f6feb" stroke-width="2.6"/>
+  <text x="112" y="102" font-size="12" fill="#1f6feb">z(p)</text>
+
+  <!-- equilibria -->
+  <!-- p1: downward crossing => STABLE -->
+  <circle cx="200" cy="200" r="5.5" fill="#2a7d2a"/>
+  <line x1="200" y1="200" x2="200" y2="325" stroke="#2a7d2a" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="200" y="342" text-anchor="middle" font-size="12" fill="#2a7d2a" font-weight="bold">p&#8321;* stable</text>
+
+  <!-- p2: upward crossing => UNSTABLE -->
+  <circle cx="380" cy="200" r="5.5" fill="#d13438"/>
+  <line x1="380" y1="200" x2="380" y2="325" stroke="#d13438" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="380" y="342" text-anchor="middle" font-size="12" fill="#d13438" font-weight="bold">p&#8322;* unstable</text>
+
+  <!-- p3: downward crossing => STABLE -->
+  <circle cx="540" cy="200" r="5.5" fill="#2a7d2a"/>
+  <line x1="540" y1="200" x2="540" y2="325" stroke="#2a7d2a" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="540" y="342" text-anchor="middle" font-size="12" fill="#2a7d2a" font-weight="bold">p&#8323;* stable</text>
+
+  <!-- tatonnement arrows on the axis: dp/dt = z(p) -->
+  <!-- Region A (left of p1): z>0 -> price rises -> arrow right -->
+  <line x1="118" y1="182" x2="158" y2="182" stroke="#333" stroke-width="2"/>
+  <polygon points="158,177 170,182 158,187" fill="#333"/>
+  <!-- Region B (p1..p2): z<0 -> arrow left -->
+  <line x1="312" y1="182" x2="272" y2="182" stroke="#333" stroke-width="2"/>
+  <polygon points="272,177 260,182 272,187" fill="#333"/>
+  <!-- Region C (p2..p3): z>0 -> arrow right -->
+  <line x1="448" y1="182" x2="488" y2="182" stroke="#333" stroke-width="2"/>
+  <polygon points="488,177 500,182 488,187" fill="#333"/>
+  <!-- Region D (right of p3): z<0 -> arrow left -->
+  <line x1="632" y1="182" x2="592" y2="182" stroke="#333" stroke-width="2"/>
+  <polygon points="592,177 580,182 592,187" fill="#333"/>
+
+  <!-- caption -->
+  <text x="360" y="384" text-anchor="middle" font-size="12" fill="#555">Tâtonnement dp/dt = z(p): arrows flow INTO downward crossings (stable), AWAY FROM the upward crossing (unstable).</text>
+</svg>

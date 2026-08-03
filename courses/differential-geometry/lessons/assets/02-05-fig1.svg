@@ -1,0 +1,39 @@
+<svg viewBox="0 0 560 380" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="560" height="380" fill="#ffffff"/>
+  <defs>
+    <marker id="vv" markerWidth="10" markerHeight="10" refX="7.5" refY="3.4" orient="auto">
+      <path d="M0,0 L8,3.4 L0,6.8 Z" fill="#0a7"/>
+    </marker>
+  </defs>
+
+  <text x="24" y="30" font-size="15" fill="#111">A covector df is a stack of level lines; df(v) counts how many the vector v pierces.</text>
+
+  <!-- level sets of f (parallel lines, evenly spaced) -->
+  <g stroke="#1a1a1a" stroke-width="1.6">
+    <line x1="90" y1="330" x2="330" y2="90"/>
+    <line x1="140" y1="330" x2="380" y2="90"/>
+    <line x1="190" y1="330" x2="430" y2="90"/>
+    <line x1="240" y1="330" x2="480" y2="90"/>
+    <line x1="290" y1="330" x2="530" y2="90"/>
+  </g>
+  <!-- level labels -->
+  <text x="72" y="345" font-size="13" fill="#333">f=0</text>
+  <text x="122" y="345" font-size="13" fill="#333">f=1</text>
+  <text x="172" y="345" font-size="13" fill="#333">f=2</text>
+  <text x="222" y="345" font-size="13" fill="#333">f=3</text>
+  <text x="272" y="345" font-size="13" fill="#333">f=4</text>
+
+  <!-- the vector v, piercing 3 lines -->
+  <line x1="150" y1="250" x2="300" y2="250" stroke="#0a7" stroke-width="3" marker-end="url(#vv)"/>
+  <text x="305" y="255" font-size="18" font-style="italic" fill="#0a7">v</text>
+  <circle cx="150" cy="250" r="3.5" fill="#0a7"/>
+
+  <!-- crossing dots -->
+  <circle cx="182" cy="250" r="3" fill="#c33"/>
+  <circle cx="232" cy="250" r="3" fill="#c33"/>
+  <circle cx="282" cy="250" r="3" fill="#c33"/>
+
+  <text x="150" y="300" font-size="14" fill="#111">v crosses 3 level lines  ⟹  df(v) = 3</text>
+  <text x="360" y="150" font-size="15" font-style="italic" fill="#1a1a1a">df</text>
+  <text x="360" y="170" font-size="12" fill="#555">(closer lines = larger df)</text>
+</svg>

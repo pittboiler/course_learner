@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 430">
+  <rect x="0" y="0" width="760" height="430" fill="#ffffff"/>
+
+  <!-- title -->
+  <text x="300" y="34" font-family="sans-serif" font-size="20" font-weight="bold" fill="#14213d" text-anchor="middle">The stress&#8211;energy tensor  T<tspan font-size="13" dy="-8">&#956;&#957;</tspan></text>
+  <text x="300" y="58" font-family="sans-serif" font-size="13" fill="#555555" text-anchor="middle">row index &#956; (which momentum) &#183; column index &#957; (which direction) &#183; signature (&#8722;,+,+,+), c = 1</text>
+
+  <!-- column index headers -->
+  <text x="186" y="100" font-family="sans-serif" font-size="13" fill="#777777" text-anchor="middle">&#957;=0</text>
+  <text x="258" y="100" font-family="sans-serif" font-size="13" fill="#777777" text-anchor="middle">1</text>
+  <text x="330" y="100" font-family="sans-serif" font-size="13" fill="#777777" text-anchor="middle">2</text>
+  <text x="402" y="100" font-family="sans-serif" font-size="13" fill="#777777" text-anchor="middle">3</text>
+  <!-- row index headers -->
+  <text x="124" y="144" font-family="sans-serif" font-size="13" fill="#777777" text-anchor="middle">&#956;=0</text>
+  <text x="124" y="202" font-family="sans-serif" font-size="13" fill="#777777" text-anchor="middle">1</text>
+  <text x="124" y="260" font-family="sans-serif" font-size="13" fill="#777777" text-anchor="middle">2</text>
+  <text x="124" y="318" font-family="sans-serif" font-size="13" fill="#777777" text-anchor="middle">3</text>
+
+  <!-- brackets -->
+  <polyline points="150,110 140,110 140,342 150,342" fill="none" stroke="#14213d" stroke-width="2"/>
+  <polyline points="438,110 448,110 448,342 438,342" fill="none" stroke="#14213d" stroke-width="2"/>
+
+  <!-- Row 0 -->
+  <rect x="150" y="110" width="72" height="58" fill="#d6e4ff" stroke="#9aa0a6" stroke-width="1"/>
+  <text x="186" y="144" font-family="sans-serif" font-size="17" fill="#14213d" text-anchor="middle">T<tspan font-size="11" dy="-7">00</tspan></text>
+  <rect x="222" y="110" width="72" height="58" fill="#d5f0dd" stroke="#9aa0a6" stroke-width="1"/>
+  <text x="258" y="144" font-family="sans-serif" font-size="17" fill="#14213d" text-anchor="middle">T<tspan font-size="11" dy="-7">01</tspan></text>
+  <rect x="294" y="110" width="72" height="58" fill="#d5f0dd" stroke="#9aa0a6" stroke-width="1"/>
+  <text x="330" y="144" font-family="sans-serif" font-size="17" fill="#14213d" text-anchor="middle">T<tspan font-size="11" dy="-7">02</tspan></text>
+  <rect x="366" y="110" width="72" height="58" fill="#d5f0dd" stroke="#9aa0a6" stroke-width="1"/>
+  <text x="402" y="144" font-family="sans-serif" font-size="17" fill="#14213d" text-anchor="middle">T<tspan font-size="11" dy="-7">03</tspan></text>
+
+  <!-- Row 1 -->
+  <rect x="150" y="168" width="72" height="58" fill="#d5f0dd" stroke="#9aa0a6" stroke-width="1"/>
+  <text x="186" y="202" font-family="sans-serif" font-size="17" fill="#14213d" text-anchor="middle">T<tspan font-size="11" dy="-7">10</tspan></text>
+  <rect x="222" y="168" width="72" height="58" fill="#ffcf9e" stroke="#9aa0a6" stroke-width="1"/>
+  <text x="258" y="202" font-family="sans-serif" font-size="17" fill="#14213d" text-anchor="middle">T<tspan font-size="11" dy="-7">11</tspan></text>
+  <rect x="294" y="168" width="72" height="58" fill="#ffe3c7" stroke="#9aa0a6" stroke-width="1"/>
+  <text x="330" y="202" font-family="sans-serif" font-size="17" fill="#14213d" text-anchor="middle">T<tspan font-size="11" dy="-7">12</tspan></text>
+  <rect x="366" y="168" width="72" height="58" fill="#ffe3c7" stroke="#9aa0a6" stroke-width="1"/>
+  <text x="402" y="202" font-family="sans-serif" font-size="17" fill="#14213d" text-anchor="middle">T<tspan font-size="11" dy="-7">13</tspan></text>
+
+  <!-- Row 2 -->
+  <rect x="150" y="226" width="72" height="58" fill="#d5f0dd" stroke="#9aa0a6" stroke-width="1"/>
+  <text x="186" y="260" font-family="sans-serif" font-size="17" fill="#14213d" text-anchor="middle">T<tspan font-size="11" dy="-7">20</tspan></text>
+  <rect x="222" y="226" width="72" height="58" fill="#ffe3c7" stroke="#9aa0a6" stroke-width="1"/>
+  <text x="258" y="260" font-family="sans-serif" font-size="17" fill="#14213d" text-anchor="middle">T<tspan font-size="11" dy="-7">21</tspan></text>
+  <rect x="294" y="226" width="72" height="58" fill="#ffcf9e" stroke="#9aa0a6" stroke-width="1"/>
+  <text x="330" y="260" font-family="sans-serif" font-size="17" fill="#14213d" text-anchor="middle">T<tspan font-size="11" dy="-7">22</tspan></text>
+  <rect x="366" y="226" width="72" height="58" fill="#ffe3c7" stroke="#9aa0a6" stroke-width="1"/>
+  <text x="402" y="260" font-family="sans-serif" font-size="17" fill="#14213d" text-anchor="middle">T<tspan font-size="11" dy="-7">23</tspan></text>
+
+  <!-- Row 3 -->
+  <rect x="150" y="284" width="72" height="58" fill="#d5f0dd" stroke="#9aa0a6" stroke-width="1"/>
+  <text x="186" y="318" font-family="sans-serif" font-size="17" fill="#14213d" text-anchor="middle">T<tspan font-size="11" dy="-7">30</tspan></text>
+  <rect x="222" y="284" width="72" height="58" fill="#ffe3c7" stroke="#9aa0a6" stroke-width="1"/>
+  <text x="258" y="318" font-family="sans-serif" font-size="17" fill="#14213d" text-anchor="middle">T<tspan font-size="11" dy="-7">31</tspan></text>
+  <rect x="294" y="284" width="72" height="58" fill="#ffe3c7" stroke="#9aa0a6" stroke-width="1"/>
+  <text x="330" y="318" font-family="sans-serif" font-size="17" fill="#14213d" text-anchor="middle">T<tspan font-size="11" dy="-7">32</tspan></text>
+  <rect x="366" y="284" width="72" height="58" fill="#ffcf9e" stroke="#9aa0a6" stroke-width="1"/>
+  <text x="402" y="318" font-family="sans-serif" font-size="17" fill="#14213d" text-anchor="middle">T<tspan font-size="11" dy="-7">33</tspan></text>
+
+  <!-- legend -->
+  <rect x="486" y="112" width="20" height="20" fill="#d6e4ff" stroke="#9aa0a6" stroke-width="1"/>
+  <text x="514" y="122" font-family="sans-serif" font-size="13" fill="#14213d">T<tspan font-size="10" dy="-6">00</tspan><tspan dy="6" font-size="13">  energy density</tspan></text>
+  <text x="514" y="140" font-family="sans-serif" font-size="12" fill="#555555">how much energy sits here</text>
+
+  <rect x="486" y="168" width="20" height="20" fill="#d5f0dd" stroke="#9aa0a6" stroke-width="1"/>
+  <text x="514" y="178" font-family="sans-serif" font-size="13" fill="#14213d">T<tspan font-size="10" dy="-6">0i</tspan><tspan dy="6" font-size="13"> = T</tspan><tspan font-size="10" dy="-6">i0</tspan></text>
+  <text x="514" y="196" font-family="sans-serif" font-size="12" fill="#555555">energy flux = momentum density</text>
+
+  <rect x="486" y="224" width="20" height="20" fill="#ffe3c7" stroke="#9aa0a6" stroke-width="1"/>
+  <text x="514" y="234" font-family="sans-serif" font-size="13" fill="#14213d">T<tspan font-size="10" dy="-6">ij</tspan><tspan dy="6" font-size="13">  momentum flux (stress)</tspan></text>
+  <text x="514" y="252" font-family="sans-serif" font-size="12" fill="#555555">shear off the diagonal</text>
+
+  <rect x="486" y="280" width="20" height="20" fill="#ffcf9e" stroke="#9aa0a6" stroke-width="1"/>
+  <text x="514" y="290" font-family="sans-serif" font-size="13" fill="#14213d">T<tspan font-size="10" dy="-6">ii</tspan><tspan dy="6" font-size="13">  pressure p</tspan></text>
+  <text x="514" y="308" font-family="sans-serif" font-size="12" fill="#555555">diagonal = normal push</text>
+
+  <!-- bottom captions -->
+  <text x="380" y="376" font-family="sans-serif" font-size="14" fill="#14213d" text-anchor="middle">Symmetric (T&#8319;&#7515; = T&#7515;&#8319;) and locally conserved:  &#8706;&#956; T&#8319;&#7515; = 0   (energy: &#957;=0,  momentum: &#957;=i).</text>
+  <text x="380" y="402" font-family="sans-serif" font-size="14" font-weight="bold" fill="#1f4e9e" text-anchor="middle">This symmetric tensor is the right-hand side of Einstein&#8217;s equations &#8212; it is what sources gravity.</text>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" font-family="sans-serif">
+  <rect x="0" y="0" width="720" height="340" fill="#ffffff"/>
+
+  <!-- ================= LEFT PANEL: mean-reverting short-rate paths ================= -->
+  <text x="70" y="28" font-size="14" font-weight="bold" fill="#111111">Short rate pulled toward b</text>
+
+  <!-- axes -->
+  <line x1="70" y1="50" x2="70" y2="300" stroke="#333333" stroke-width="1.5"/>
+  <line x1="70" y1="300" x2="340" y2="300" stroke="#333333" stroke-width="1.5"/>
+  <text x="24" y="180" font-size="12" fill="#333333" transform="rotate(-90 24 180)">short rate  r_t</text>
+  <text x="180" y="322" font-size="12" fill="#333333">time  t</text>
+
+  <!-- mean level b (dashed) -->
+  <line x1="70" y1="144" x2="340" y2="144" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="345" y="148" font-size="13" fill="#c0392b" font-weight="bold">b</text>
+
+  <!-- path started high, decays down to b -->
+  <polyline points="70,66 104,92 138,80 172,112 206,126 240,116 274,136 308,141 340,146"
+            fill="none" stroke="#1f6feb" stroke-width="2"/>
+  <text x="112" y="62" font-size="11" fill="#1f6feb">r_0 &gt; b</text>
+
+  <!-- path started low, rises up to b -->
+  <polyline points="70,253 104,224 138,242 172,205 206,176 240,188 274,158 308,151 340,143"
+            fill="none" stroke="#0b7a4b" stroke-width="2"/>
+  <text x="112" y="266" font-size="11" fill="#0b7a4b">r_0 &lt; b</text>
+
+  <!-- ================= RIGHT PANEL: Vasicek yield curves ================= -->
+  <text x="420" y="28" font-size="14" font-weight="bold" fill="#111111">Vasicek yield curves</text>
+
+  <!-- axes -->
+  <line x1="420" y1="50" x2="420" y2="300" stroke="#333333" stroke-width="1.5"/>
+  <line x1="420" y1="300" x2="700" y2="300" stroke="#333333" stroke-width="1.5"/>
+  <text x="378" y="185" font-size="12" fill="#333333" transform="rotate(-90 378 185)">yield  y(t,T)</text>
+  <text x="520" y="322" font-size="12" fill="#333333">maturity  T-t</text>
+
+  <!-- long-rate limit (dashed) -->
+  <line x1="420" y1="162" x2="690" y2="162" stroke="#8a6d3b" stroke-width="1.3" stroke-dasharray="4 4"/>
+  <text x="600" y="156" font-size="11" fill="#8a6d3b">y_infinity</text>
+
+  <!-- inverted (r0 high) -->
+  <polyline points="420,60 429,73 447,93 465,107 510,128 600,144 690,150"
+            fill="none" stroke="#c0392b" stroke-width="2"/>
+  <text x="600" y="138" font-size="11" fill="#c0392b">r_0 high</text>
+
+  <!-- mid (nearly flat) -->
+  <polyline points="420,152 429,152 447,153 465,155 510,158 600,160 690,161"
+            fill="none" stroke="#6b4fa0" stroke-width="2"/>
+  <text x="640" y="176" font-size="11" fill="#6b4fa0">r_0 mid</text>
+
+  <!-- upward (r0 low) -->
+  <polyline points="420,290 429,272 447,244 465,227 510,201 600,183 690,176"
+            fill="none" stroke="#0b7a4b" stroke-width="2"/>
+  <text x="470" y="285" font-size="11" fill="#0b7a4b">r_0 low</text>
+</svg>

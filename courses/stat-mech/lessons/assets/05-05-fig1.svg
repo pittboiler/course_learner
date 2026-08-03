@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" font-family="sans-serif">
+  <rect x="0" y="0" width="720" height="560" fill="#ffffff"/>
+
+  <defs>
+    <marker id="arrowL" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto">
+      <path d="M0,3 L7,0 L7,6 Z" fill="#333333"/>
+    </marker>
+    <marker id="arrowStep" markerWidth="12" markerHeight="12" refX="8" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#555555"/>
+    </marker>
+  </defs>
+
+  <!-- ================= Panel A: block-spin coarse-graining ================= -->
+  <text x="360" y="28" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">The RG step: coarse-grain, then rescale</text>
+
+  <!-- Left 4x4 spin grid -->
+  <text x="140" y="58" text-anchor="middle" font-size="13" fill="#555555">original spins (coupling K)</text>
+  <!-- red = up, blue = down -->
+  <!-- row 0 -->
+  <circle cx="98" cy="82" r="8" fill="#c0392b"/>
+  <circle cx="126" cy="82" r="8" fill="#c0392b"/>
+  <circle cx="154" cy="82" r="8" fill="#c0392b"/>
+  <circle cx="182" cy="82" r="8" fill="#1a4fa0"/>
+  <!-- row 1 -->
+  <circle cx="98" cy="110" r="8" fill="#c0392b"/>
+  <circle cx="126" cy="110" r="8" fill="#1a4fa0"/>
+  <circle cx="154" cy="110" r="8" fill="#1a4fa0"/>
+  <circle cx="182" cy="110" r="8" fill="#1a4fa0"/>
+  <!-- row 2 -->
+  <circle cx="98" cy="138" r="8" fill="#c0392b"/>
+  <circle cx="126" cy="138" r="8" fill="#c0392b"/>
+  <circle cx="154" cy="138" r="8" fill="#1a4fa0"/>
+  <circle cx="182" cy="138" r="8" fill="#c0392b"/>
+  <!-- row 3 -->
+  <circle cx="98" cy="166" r="8" fill="#c0392b"/>
+  <circle cx="126" cy="166" r="8" fill="#c0392b"/>
+  <circle cx="154" cy="166" r="8" fill="#1a4fa0"/>
+  <circle cx="182" cy="166" r="8" fill="#1a4fa0"/>
+  <!-- 2x2 block partition lines -->
+  <rect x="82" y="66" width="56" height="56" fill="none" stroke="#999999" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <rect x="138" y="66" width="56" height="56" fill="none" stroke="#999999" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <rect x="82" y="122" width="56" height="56" fill="none" stroke="#999999" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <rect x="138" y="122" width="56" height="56" fill="none" stroke="#999999" stroke-width="1.2" stroke-dasharray="4 3"/>
+
+  <!-- Arrow: majority rule -->
+  <line x1="212" y1="124" x2="272" y2="124" stroke="#555555" stroke-width="2" marker-end="url(#arrowStep)"/>
+  <text x="242" y="112" text-anchor="middle" font-size="11.5" fill="#555555">majority</text>
+  <text x="242" y="146" text-anchor="middle" font-size="11.5" fill="#555555">rule</text>
+
+  <!-- Middle 2x2 blocked spins -->
+  <text x="322" y="58" text-anchor="middle" font-size="13" fill="#555555">one spin per block</text>
+  <circle cx="300" cy="98" r="13" fill="#c0392b"/>
+  <circle cx="344" cy="98" r="13" fill="#1a4fa0"/>
+  <circle cx="300" cy="150" r="13" fill="#c0392b"/>
+  <circle cx="344" cy="150" r="13" fill="#1a4fa0"/>
+
+  <!-- Arrow: rescale -->
+  <line x1="372" y1="124" x2="432" y2="124" stroke="#555555" stroke-width="2" marker-end="url(#arrowStep)"/>
+  <text x="402" y="112" text-anchor="middle" font-size="11.5" fill="#555555">rescale</text>
+  <text x="402" y="146" text-anchor="middle" font-size="11.5" fill="#555555">length /2</text>
+
+  <!-- Right: rescaled lattice, same form, new coupling -->
+  <text x="560" y="58" text-anchor="middle" font-size="13" fill="#555555">same model, new coupling K&#8242;</text>
+  <circle cx="512" cy="98" r="13" fill="#c0392b"/>
+  <circle cx="556" cy="98" r="13" fill="#1a4fa0"/>
+  <circle cx="600" cy="98" r="13" fill="#c0392b"/>
+  <circle cx="512" cy="150" r="13" fill="#1a4fa0"/>
+  <circle cx="556" cy="150" r="13" fill="#c0392b"/>
+  <circle cx="600" cy="150" r="13" fill="#1a4fa0"/>
+  <text x="556" y="192" text-anchor="middle" font-size="13" fill="#111111" font-weight="bold">K &#8594; K&#8242; : the RG recursion</text>
+
+  <!-- divider -->
+  <line x1="40" y1="222" x2="680" y2="222" stroke="#dddddd" stroke-width="1.5"/>
+
+  <!-- ================= Panel B: RG flow on the coupling axis ================= -->
+  <text x="360" y="256" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">The flow of K, and its fixed points</text>
+
+  <!-- Flow line 1: 1D Ising -->
+  <text x="60" y="316" font-size="13.5" fill="#111111" font-weight="bold">1D:</text>
+  <line x1="150" y1="330" x2="600" y2="330" stroke="#333333" stroke-width="2.5"/>
+  <!-- fixed points -->
+  <circle cx="150" cy="330" r="8" fill="#111111"/>
+  <circle cx="600" cy="330" r="8" fill="#ffffff" stroke="#111111" stroke-width="2.5"/>
+  <text x="150" y="360" text-anchor="middle" font-size="12.5" fill="#111111">K=0 (disordered, stable)</text>
+  <text x="600" y="360" text-anchor="middle" font-size="12.5" fill="#111111">K=&#8734; (T=0)</text>
+  <!-- leftward flow arrows -->
+  <line x1="330" y1="316" x2="250" y2="316" stroke="#c0392b" stroke-width="2.5" marker-end="url(#arrowL)"/>
+  <line x1="500" y1="316" x2="420" y2="316" stroke="#c0392b" stroke-width="2.5" marker-end="url(#arrowL)"/>
+  <text x="375" y="304" text-anchor="middle" font-size="12" fill="#c0392b" font-style="italic">every finite K flows to 0 &#8594; no transition</text>
+
+  <!-- Flow line 2: d>=2 -->
+  <text x="60" y="446" font-size="13.5" fill="#111111" font-weight="bold">d&#8805;2:</text>
+  <line x1="150" y1="460" x2="600" y2="460" stroke="#333333" stroke-width="2.5"/>
+  <circle cx="150" cy="460" r="8" fill="#111111"/>
+  <circle cx="375" cy="460" r="9" fill="#ffffff" stroke="#8e44ad" stroke-width="3"/>
+  <circle cx="600" cy="460" r="8" fill="#111111"/>
+  <text x="150" y="490" text-anchor="middle" font-size="12.5" fill="#111111">K=0 (disordered)</text>
+  <text x="375" y="490" text-anchor="middle" font-size="12.5" fill="#8e44ad" font-weight="bold">K* critical (&#958;=&#8734;)</text>
+  <text x="600" y="490" text-anchor="middle" font-size="12.5" fill="#111111">K=&#8734; (ordered)</text>
+  <!-- flow away from K* on both sides -->
+  <line x1="335" y1="446" x2="250" y2="446" stroke="#c0392b" stroke-width="2.5" marker-end="url(#arrowL)"/>
+  <line x1="415" y1="446" x2="500" y2="446" stroke="#c0392b" stroke-width="2.5" marker-end="url(#arrowL)"/>
+  <text x="375" y="432" text-anchor="middle" font-size="12" fill="#8e44ad" font-style="italic">relevant direction: flows AWAY from K*</text>
+
+  <text x="360" y="524" text-anchor="middle" font-size="12.5" fill="#555555">A phase transition exists iff the flow has a fixed point at finite K (finite T).</text>
+</svg>

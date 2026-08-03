@@ -1,4 +1,4 @@
-<svg viewBox="0 0 720 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+<svg viewBox="0 0 720 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13"><rect x="0" y="0" width="720" height="300" fill="#ffffff"/>
   <text x="360" y="22" fill="#333" text-anchor="middle" font-weight="bold" font-size="15">Standardized coin-flip sums Z&#8345; converge to the same bell curve</text>
   <text x="360" y="288" fill="#8a8a8a" text-anchor="middle" font-style="italic">Blue: histogram of Z&#8345; = S&#8345;/&#8730;n for &#177;1 flips. Red: the standard normal N(0,1) &#8212; same summands, one universal limit.</text>
 

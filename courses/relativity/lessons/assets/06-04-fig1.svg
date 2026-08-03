@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480">
+  <rect x="0" y="0" width="720" height="480" fill="#ffffff"/>
+  <defs>
+    <marker id="drag" markerWidth="9" markerHeight="9" refX="5.5" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#0891b2"/>
+    </marker>
+    <marker id="spin" markerWidth="9" markerHeight="9" refX="5.5" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#7c3aed"/>
+    </marker>
+    <marker id="force" markerWidth="9" markerHeight="9" refX="5.5" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#b45309"/>
+    </marker>
+  </defs>
+
+  <text x="300" y="32" font-family="sans-serif" font-size="18" fill="#111827" font-weight="bold" text-anchor="middle">Structure of a rotating (Kerr) black hole</text>
+  <text x="300" y="51" font-family="sans-serif" font-size="12" fill="#4b5563" font-style="italic" text-anchor="middle">cross-section — the hole spins about the vertical axis</text>
+
+  <!-- rotation axis -->
+  <line x1="300" y1="72" x2="300" y2="452" stroke="#9ca3af" stroke-width="1.3" stroke-dasharray="6 5"/>
+  <text x="308" y="86" font-family="sans-serif" font-size="11" fill="#6b7280" font-style="italic">rotation axis</text>
+
+  <!-- spin curl at top -->
+  <path d="M 279 104 A 22 12 0 1 1 321 104" fill="none" stroke="#7c3aed" stroke-width="2.4" marker-end="url(#spin)"/>
+  <text x="329" y="105" font-family="sans-serif" font-size="13" fill="#7c3aed" font-weight="bold">J  (spin)</text>
+
+  <!-- ergosphere / static-limit ellipse (oblate) -->
+  <ellipse cx="300" cy="262" rx="130" ry="70" fill="#bfdbfe" fill-opacity="0.55" stroke="#2563eb" stroke-width="2.2"/>
+  <!-- event-horizon disk (roughly spherical), sits inside, touching ellipse at the poles -->
+  <circle cx="300" cy="262" r="70" fill="#111827" stroke="#000000" stroke-width="1.5"/>
+  <!-- ring singularity, hidden inside horizon (drawn on top for reference) -->
+  <ellipse cx="300" cy="262" rx="22" ry="6.5" fill="none" stroke="#f87171" stroke-width="2"/>
+
+  <!-- frame-dragging swirl arrows (counter-clockwise on screen) -->
+  <path d="M 452 320 Q 492 262 452 204" fill="none" stroke="#0891b2" stroke-width="2.6" marker-end="url(#drag)"/>
+  <path d="M 148 204 Q 108 262 148 320" fill="none" stroke="#0891b2" stroke-width="2.6" marker-end="url(#drag)"/>
+  <path d="M 232 350 Q 300 388 368 350" fill="none" stroke="#0891b2" stroke-width="2.6" marker-end="url(#drag)"/>
+  <text x="300" y="428" font-family="sans-serif" font-size="12.5" fill="#0e7490" font-style="italic" text-anchor="middle">frame dragging: spacetime itself is swept around</text>
+
+  <!-- a test observer in the ergosphere (equatorial crescent) -->
+  <circle cx="405" cy="262" r="6.5" fill="#f59e0b" stroke="#92400e" stroke-width="1.4"/>
+  <path d="M 405 250 q 12 -14 2 -30" fill="none" stroke="#b45309" stroke-width="2.2" marker-end="url(#force)"/>
+  <text x="415" y="248" font-family="sans-serif" font-size="11.5" fill="#b45309" font-weight="bold">can't stand still —</text>
+  <text x="415" y="263" font-family="sans-serif" font-size="11.5" fill="#b45309" font-weight="bold">forced to co-rotate</text>
+
+  <!-- leader labels -->
+  <text x="300" y="200" font-family="sans-serif" font-size="11.5" fill="#e5e7eb" text-anchor="middle" font-weight="bold">event horizon</text>
+
+  <!-- ================= RIGHT: legend / key ================= -->
+  <line x1="512" y1="80" x2="512" y2="392" stroke="#e5e7eb" stroke-width="1.2"/>
+  <text x="530" y="96" font-family="sans-serif" font-size="14" fill="#111827" font-weight="bold">Key</text>
+
+  <!-- horizon -->
+  <rect x="530" y="112" width="20" height="20" fill="#111827" stroke="#000000" stroke-width="1"/>
+  <text x="558" y="120" font-family="sans-serif" font-size="12" fill="#111827" font-weight="bold">Event horizon (r</text>
+  <text x="663" y="123" font-family="sans-serif" font-size="9" fill="#111827" font-weight="bold">+</text>
+  <text x="669" y="120" font-family="sans-serif" font-size="12" fill="#111827" font-weight="bold">)</text>
+  <text x="558" y="136" font-family="sans-serif" font-size="11" fill="#4b5563">one-way surface; nothing exits</text>
+
+  <!-- static limit -->
+  <ellipse cx="540" cy="164" rx="12" ry="8" fill="none" stroke="#2563eb" stroke-width="2.2"/>
+  <text x="558" y="160" font-family="sans-serif" font-size="12" fill="#1d4ed8" font-weight="bold">Static limit</text>
+  <text x="558" y="176" font-family="sans-serif" font-size="11" fill="#4b5563">where g</text>
+  <text x="600" y="179" font-family="sans-serif" font-size="8" fill="#4b5563">tt</text>
+  <text x="608" y="176" font-family="sans-serif" font-size="11" fill="#4b5563">= 0 (oblate)</text>
+
+  <!-- ergosphere -->
+  <rect x="530" y="196" width="20" height="20" fill="#bfdbfe" fill-opacity="0.7" stroke="#2563eb" stroke-width="1"/>
+  <text x="558" y="204" font-family="sans-serif" font-size="12" fill="#1d4ed8" font-weight="bold">Ergosphere</text>
+  <text x="558" y="220" font-family="sans-serif" font-size="11" fill="#4b5563">between r</text>
+  <text x="609" y="223" font-family="sans-serif" font-size="8" fill="#4b5563">+</text>
+  <text x="614" y="220" font-family="sans-serif" font-size="11" fill="#4b5563">and static limit;</text>
+  <text x="558" y="234" font-family="sans-serif" font-size="11" fill="#4b5563">must co-rotate, can still escape</text>
+
+  <!-- ring singularity -->
+  <ellipse cx="540" cy="256" rx="12" ry="4" fill="none" stroke="#f87171" stroke-width="2"/>
+  <text x="558" y="252" font-family="sans-serif" font-size="12" fill="#b91c1c" font-weight="bold">Ring singularity</text>
+  <text x="558" y="268" font-family="sans-serif" font-size="11" fill="#4b5563">hidden inside the horizon</text>
+
+  <!-- frame dragging -->
+  <path d="M 530 292 Q 548 284 540 300" fill="none" stroke="#0891b2" stroke-width="2.4" marker-end="url(#drag)"/>
+  <text x="558" y="292" font-family="sans-serif" font-size="12" fill="#0e7490" font-weight="bold">Frame dragging</text>
+  <text x="558" y="308" font-family="sans-serif" font-size="11" fill="#4b5563">spacetime dragged with the spin</text>
+
+  <!-- spin -->
+  <path d="M 532 330 A 9 6 0 1 1 549 330" fill="none" stroke="#7c3aed" stroke-width="2.2" marker-end="url(#spin)"/>
+  <text x="558" y="330" font-family="sans-serif" font-size="12" fill="#6d28d9" font-weight="bold">J — angular momentum</text>
+  <text x="558" y="346" font-family="sans-serif" font-size="11" fill="#4b5563">bounded: J &#8804; GM&#178;/c (extremal)</text>
+
+  <!-- forced co-rotation arrow -->
+  <path d="M 532 368 q 10 -10 2 -18" fill="none" stroke="#b45309" stroke-width="2.2" marker-end="url(#force)"/>
+  <text x="558" y="368" font-family="sans-serif" font-size="12" fill="#b45309" font-weight="bold">Forced motion</text>
+  <text x="558" y="384" font-family="sans-serif" font-size="11" fill="#4b5563">no static observer in ergosphere</text>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" font-family="sans-serif">
+  <rect x="0" y="0" width="760" height="400" fill="#ffffff"/>
+
+  <!-- ================= LEFT: characteristics in the (x,t) plane ================= -->
+  <!-- axes -->
+  <line x1="60" y1="330" x2="360" y2="330" stroke="#1a1a1a" stroke-width="2"/>
+  <line x1="200" y1="345" x2="200" y2="60" stroke="#1a1a1a" stroke-width="2"/>
+  <polygon points="360,330 350,325 350,335" fill="#1a1a1a"/>
+  <polygon points="200,60 195,70 205,70" fill="#1a1a1a"/>
+  <text x="352" y="352" font-size="15" fill="#1a1a1a">x</text>
+  <text x="208" y="66" font-size="15" fill="#1a1a1a">t</text>
+  <text x="60" y="352" font-size="13" fill="#1a1a1a">t = 0</text>
+
+  <!-- domain-of-dependence interval on the t=0 axis -->
+  <line x1="120" y1="330" x2="280" y2="330" stroke="#1a1a1a" stroke-width="6"/>
+  <text x="104" y="352" font-size="13" fill="#1a1a1a">x−ct</text>
+  <text x="258" y="352" font-size="13" fill="#1a1a1a">x+ct</text>
+
+  <!-- the two characteristics meeting at P -->
+  <!-- right-moving: x - ct = const, slope up-left; left-moving: x + ct = const, slope up-right -->
+  <line x1="120" y1="330" x2="200" y2="150" stroke="#1a1a1a" stroke-width="2"/>
+  <line x1="280" y1="330" x2="200" y2="150" stroke="#1a1a1a" stroke-width="2"/>
+
+  <!-- point P -->
+  <circle cx="200" cy="150" r="4" fill="#1a1a1a"/>
+  <text x="208" y="146" font-size="15" fill="#1a1a1a">P = (x, t)</text>
+
+  <!-- characteristic labels -->
+  <text x="118" y="238" font-size="12" fill="#1a1a1a" transform="rotate(-66 118 238)">x + ct = const</text>
+  <text x="250" y="238" font-size="12" fill="#1a1a1a" transform="rotate(66 250 238)">x − ct = const</text>
+
+  <text x="60" y="45" font-size="14" fill="#1a1a1a" font-weight="bold">Domain of dependence</text>
+
+  <!-- ================= RIGHT: bump splitting into two half-bumps ================= -->
+  <!-- baseline -->
+  <line x1="430" y1="150" x2="740" y2="150" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="430" y="70" font-size="14" fill="#1a1a1a" font-weight="bold">t = 0:  one bump</text>
+  <!-- full-height bump centered -->
+  <path d="M 520 150 Q 585 55 650 150" fill="none" stroke="#1a1a1a" stroke-width="2.5"/>
+
+  <!-- baseline lower -->
+  <line x1="430" y1="330" x2="740" y2="330" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="430" y="250" font-size="14" fill="#1a1a1a" font-weight="bold">t &gt; 0:  two half-bumps apart</text>
+  <!-- left half-height bump -->
+  <path d="M 455 330 Q 495 283 535 330" fill="none" stroke="#1a1a1a" stroke-width="2.5"/>
+  <!-- right half-height bump -->
+  <path d="M 635 330 Q 675 283 715 330" fill="none" stroke="#1a1a1a" stroke-width="2.5"/>
+  <!-- arrows showing motion -->
+  <line x1="500" y1="345" x2="460" y2="345" stroke="#1a1a1a" stroke-width="1.5"/>
+  <polygon points="460,345 470,341 470,349" fill="#1a1a1a"/>
+  <line x1="670" y1="345" x2="710" y2="345" stroke="#1a1a1a" stroke-width="1.5"/>
+  <polygon points="710,345 700,341 700,349" fill="#1a1a1a"/>
+  <text x="470" y="378" font-size="12" fill="#1a1a1a">speed c</text>
+  <text x="655" y="378" font-size="12" fill="#1a1a1a">speed c</text>
+</svg>

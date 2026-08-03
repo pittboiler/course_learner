@@ -1,0 +1,33 @@
+<svg viewBox="0 0 620 330" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="620" height="330" fill="#ffffff"/>
+  <text x="310" y="28" font-size="15" fill="#111" text-anchor="middle">Non-abelian gauge theory: the gauge bosons carry charge and interact with themselves.</text>
+
+  <!-- 3-gluon vertex -->
+  <g transform="translate(70,60)">
+    <text x="90" y="14" font-size="13" fill="#111" text-anchor="middle">3-gluon vertex</text>
+    <circle cx="90" cy="90" r="5" fill="#c0532a"/>
+    <path d="M90,90 q -12,-14 -24,0 q -12,14 -24,0 q -12,-14 -24,0" transform="rotate(210 90 90)" fill="none" stroke="#0a7d4f" stroke-width="1.8"/>
+    <path d="M20,40 q 12,10 24,0 q 12,-10 24,0" fill="none" stroke="#0a7d4f" stroke-width="1.8"/>
+    <path d="M160,40 q -12,10 -24,0 q -12,-10 -24,0" fill="none" stroke="#0a7d4f" stroke-width="1.8"/>
+    <path d="M90,90 q 12,14 0,28 q -12,14 0,28" fill="none" stroke="#0a7d4f" stroke-width="1.8"/>
+    <line x1="44" y1="46" x2="90" y2="90" stroke="#0a7d4f" stroke-width="1.8"/>
+    <line x1="136" y1="46" x2="90" y2="90" stroke="#0a7d4f" stroke-width="1.8"/>
+    <line x1="90" y1="90" x2="90" y2="150" stroke="#0a7d4f" stroke-width="1.8"/>
+    <text x="90" y="180" font-size="11.5" fill="#555" text-anchor="middle">&#8733; g f^abc</text>
+  </g>
+
+  <!-- 4-gluon vertex -->
+  <g transform="translate(310,60)">
+    <text x="90" y="14" font-size="13" fill="#111" text-anchor="middle">4-gluon vertex</text>
+    <circle cx="90" cy="90" r="5" fill="#c0532a"/>
+    <line x1="40" y1="40" x2="90" y2="90" stroke="#0a7d4f" stroke-width="1.8"/>
+    <line x1="140" y1="40" x2="90" y2="90" stroke="#0a7d4f" stroke-width="1.8"/>
+    <line x1="40" y1="140" x2="90" y2="90" stroke="#0a7d4f" stroke-width="1.8"/>
+    <line x1="140" y1="140" x2="90" y2="90" stroke="#0a7d4f" stroke-width="1.8"/>
+    <text x="90" y="180" font-size="11.5" fill="#555" text-anchor="middle">&#8733; g&#178;</text>
+  </g>
+
+  <line x1="40" y1="255" x2="580" y2="255" stroke="#ddd" stroke-width="1"/>
+  <text x="310" y="282" font-size="13.5" fill="#111" text-anchor="middle">F&#7512;&#7515;&#7491; = &#8706;&#7512;A&#7515;&#7491; &#8722; &#8706;&#7515;A&#7512;&#7491; &#8722; g f&#7491;&#7495;&#7580; A&#7512;&#7495; A&#7515;&#7580;   (the extra term = self-interaction)</text>
+  <text x="310" y="310" font-size="13" fill="#0a7d4f" text-anchor="middle">Standard Model: SU(3) &#215; SU(2) &#215; U(1)  &#8212; strong, weak, electromagnetic</text>
+</svg>

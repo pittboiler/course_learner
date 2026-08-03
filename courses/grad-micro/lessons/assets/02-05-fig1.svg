@@ -1,0 +1,58 @@
+<svg viewBox="0 0 640 420" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="640" height="420" fill="#ffffff"/>
+
+  <!-- axes -->
+  <line x1="80" y1="360" x2="605" y2="360" stroke="#1a1a1a" stroke-width="2"/>
+  <line x1="80" y1="360" x2="80" y2="30" stroke="#1a1a1a" stroke-width="2"/>
+  <polygon points="605,360 595,355 595,365" fill="#1a1a1a"/>
+  <polygon points="80,30 75,40 85,40" fill="#1a1a1a"/>
+  <text x="560" y="385" font-size="14" fill="#1a1a1a">wealth x</text>
+  <text x="92" y="44" font-size="14" fill="#1a1a1a">utility u(x)</text>
+
+  <!-- concave utility curve u(x)=sqrt(x), scaled -->
+  <path d="M95,308 L130,266 L180,227 L230,197 L280,172 L330,150 L380,130 L430,111 L480,94 L530,78 L580,62"
+        fill="none" stroke="#1a1a1a" stroke-width="2.5"/>
+  <text x="545" y="58" font-size="14" fill="#1a1a1a">u</text>
+
+  <!-- chord between the two outcomes -->
+  <line x1="130" y1="266" x2="530" y2="78" stroke="#c0392b" stroke-width="2" stroke-dasharray="1 0"/>
+
+  <!-- droplines -->
+  <line x1="130" y1="266" x2="130" y2="360" stroke="#999999" stroke-width="1" stroke-dasharray="4 3"/>
+  <line x1="530" y1="78"  x2="530" y2="360" stroke="#999999" stroke-width="1" stroke-dasharray="4 3"/>
+  <line x1="330" y1="150" x2="330" y2="360" stroke="#999999" stroke-width="1" stroke-dasharray="4 3"/>
+  <line x1="280" y1="172" x2="280" y2="360" stroke="#2e6da4" stroke-width="1.4" stroke-dasharray="4 3"/>
+
+  <!-- horizontal level of E[u]: from curve at CE to chord at E[x], back to axis -->
+  <line x1="80" y1="172" x2="330" y2="172" stroke="#999999" stroke-width="1" stroke-dasharray="4 3"/>
+  <line x1="80" y1="150" x2="330" y2="150" stroke="#999999" stroke-width="1" stroke-dasharray="4 3"/>
+
+  <!-- marked points -->
+  <circle cx="130" cy="266" r="4" fill="#1a1a1a"/>
+  <circle cx="530" cy="78"  r="4" fill="#1a1a1a"/>
+  <circle cx="330" cy="150" r="4" fill="#1a1a1a"/>
+  <circle cx="330" cy="172" r="4" fill="#c0392b"/>
+  <circle cx="280" cy="172" r="4" fill="#2e6da4"/>
+
+  <!-- Jensen gap bracket -->
+  <line x1="345" y1="150" x2="345" y2="172" stroke="#2e7d32" stroke-width="1.6"/>
+  <polygon points="345,150 342,157 348,157" fill="#2e7d32"/>
+  <polygon points="345,172 342,165 348,165" fill="#2e7d32"/>
+  <text x="352" y="166" font-size="12" fill="#2e7d32">Jensen gap</text>
+
+  <!-- y-axis level labels -->
+  <text x="4" y="146" font-size="12" fill="#1a1a1a">u(E[x])</text>
+  <text x="4" y="182" font-size="12" fill="#c0392b">E[u(x)]</text>
+
+  <!-- x-axis tick labels -->
+  <text x="120" y="378" font-size="13" fill="#1a1a1a">x&#8321;</text>
+  <text x="266" y="392" font-size="13" fill="#2e6da4">CE</text>
+  <text x="316" y="378" font-size="13" fill="#1a1a1a">E[x]</text>
+  <text x="520" y="378" font-size="13" fill="#1a1a1a">x&#8322;</text>
+
+  <!-- risk premium gap along axis -->
+  <line x1="280" y1="345" x2="330" y2="345" stroke="#8e44ad" stroke-width="1.6"/>
+  <polygon points="280,345 287,342 287,348" fill="#8e44ad"/>
+  <polygon points="330,345 323,342 323,348" fill="#8e44ad"/>
+  <text x="360" y="349" font-size="12" fill="#8e44ad">&#960; = E[x] &#8722; CE  (risk premium)</text>
+</svg>

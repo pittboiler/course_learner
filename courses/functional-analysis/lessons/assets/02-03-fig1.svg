@@ -1,0 +1,71 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <rect x="0" y="0" width="640" height="400" fill="#ffffff"/>
+
+  <text x="20" y="30" fill="#8a8a8a" font-style="italic">Parseval = Pythagoras in infinitely many dimensions</text>
+
+  <defs>
+    <marker id="head" markerWidth="11" markerHeight="11" refX="8" refY="3.5" orient="auto">
+      <polygon points="0,0 9,3.5 0,7" fill="#1a1a1a"/>
+    </marker>
+    <marker id="headB" markerWidth="11" markerHeight="11" refX="8" refY="3.5" orient="auto">
+      <polygon points="0,0 9,3.5 0,7" fill="#4a90d9"/>
+    </marker>
+    <marker id="headR" markerWidth="11" markerHeight="11" refX="8" refY="3.5" orient="auto">
+      <polygon points="0,0 9,3.5 0,7" fill="#e0645c"/>
+    </marker>
+    <marker id="headG" markerWidth="11" markerHeight="11" refX="8" refY="3.5" orient="auto">
+      <polygon points="0,0 9,3.5 0,7" fill="#3fa66a"/>
+    </marker>
+  </defs>
+
+  <!-- cuboid: O=(110,330) e1=(200,0) e2=(55,-31) e3=(0,-150) -->
+  <!-- hidden edges (behind), dashed -->
+  <line x1="110" y1="330" x2="165" y2="299" stroke="#bdbdbd" stroke-width="1" stroke-dasharray="5 4"/>
+  <line x1="165" y1="299" x2="365" y2="299" stroke="#bdbdbd" stroke-width="1" stroke-dasharray="5 4"/>
+  <line x1="165" y1="299" x2="165" y2="149" stroke="#bdbdbd" stroke-width="1" stroke-dasharray="5 4"/>
+
+  <!-- visible box edges, faint -->
+  <line x1="310" y1="330" x2="310" y2="180" stroke="#d0d0d0" stroke-width="1.4"/>
+  <line x1="110" y1="180" x2="310" y2="180" stroke="#d0d0d0" stroke-width="1.4"/>
+  <line x1="310" y1="330" x2="365" y2="299" stroke="#d0d0d0" stroke-width="1.4"/>
+  <line x1="110" y1="180" x2="165" y2="149" stroke="#d0d0d0" stroke-width="1.4"/>
+  <line x1="310" y1="180" x2="365" y2="149" stroke="#d0d0d0" stroke-width="1.4"/>
+  <line x1="365" y1="299" x2="365" y2="149" stroke="#d0d0d0" stroke-width="1.4"/>
+  <line x1="165" y1="149" x2="365" y2="149" stroke="#d0d0d0" stroke-width="1.4"/>
+
+  <!-- component arrows along the three orthonormal axes from O -->
+  <!-- c1 e1 : along bottom-front edge (blue) -->
+  <line x1="110" y1="330" x2="310" y2="330" stroke="#4a90d9" stroke-width="3" marker-end="url(#headB)"/>
+  <!-- c3 e3 : up the left-front edge (green) -->
+  <line x1="110" y1="330" x2="110" y2="180" stroke="#3fa66a" stroke-width="3" marker-end="url(#headG)"/>
+  <!-- c2 e2 : into the page (red) -->
+  <line x1="110" y1="330" x2="165" y2="299" stroke="#e0645c" stroke-width="3" marker-end="url(#headR)"/>
+
+  <!-- the vector x : space diagonal O -> P=(365,149) -->
+  <line x1="110" y1="330" x2="365" y2="149" stroke="#1a1a1a" stroke-width="3.2" marker-end="url(#head)"/>
+
+  <!-- right-angle tick at O between e1 and e3 -->
+  <polyline points="128,330 128,312 110,312" fill="none" stroke="#9a9a9a" stroke-width="1"/>
+
+  <!-- origin dot -->
+  <circle cx="110" cy="330" r="3.5" fill="#1a1a1a"/>
+  <text x="92" y="349" fill="#1a1a1a">0</text>
+
+  <!-- labels -->
+  <text x="255" y="349" fill="#4a90d9" font-weight="bold">c₁e₁</text>
+  <text x="60" y="255" fill="#3fa66a" font-weight="bold">c₃e₃</text>
+  <text x="118" y="300" fill="#e0645c" font-weight="bold">c₂e₂</text>
+  <text x="240" y="228" fill="#1a1a1a" font-weight="bold" font-size="17">x</text>
+  <circle cx="365" cy="149" r="3.5" fill="#1a1a1a"/>
+
+  <!-- annotation panel -->
+  <text x="410" y="150" fill="#1a1a1a" font-size="15">x = Σ cₙ eₙ</text>
+  <text x="410" y="182" fill="#1a1a1a" font-size="15">cₙ = ⟨x, eₙ⟩</text>
+  <line x1="410" y1="205" x2="612" y2="205" stroke="#d0d0d0" stroke-width="1"/>
+  <text x="410" y="236" fill="#1a1a1a" font-size="15" font-weight="bold">‖x‖² = Σ |cₙ|²</text>
+  <text x="410" y="262" fill="#8a8a8a" font-size="12.5">(Parseval — the Pythagorean</text>
+  <text x="410" y="280" fill="#8a8a8a" font-size="12.5">theorem, extended to every</text>
+  <text x="410" y="298" fill="#8a8a8a" font-size="12.5">component axis at once)</text>
+
+  <text x="110" y="378" fill="#8a8a8a" font-size="12.5">Orthonormal axes e₁, e₂, e₃ meet at right angles; each cₙ is the shadow of x on one axis.</text>
+</svg>

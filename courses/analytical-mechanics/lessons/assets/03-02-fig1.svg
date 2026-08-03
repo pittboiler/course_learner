@@ -1,4 +1,4 @@
-<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14"><rect x="0" y="0" width="560" height="350" fill="#ffffff"/>
   <!-- caption -->
   <text x="40" y="20" fill="#8a8a8a" font-style="italic">Pendulum phase portrait: libration inside the separatrix, rotation outside; a blob shears but keeps its area.</text>
 

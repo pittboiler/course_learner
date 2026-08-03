@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 430" font-family="sans-serif">
+  <rect x="0" y="0" width="640" height="430" fill="#ffffff"/>
+
+  <!-- title -->
+  <text x="320" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#111827">The Hansen–Jagannathan bound: the SDF is not volatile enough</text>
+
+  <!-- axes -->
+  <line x1="80" y1="360" x2="610" y2="360" stroke="#111827" stroke-width="2"/>
+  <line x1="80" y1="360" x2="80" y2="55" stroke="#111827" stroke-width="2"/>
+  <text x="345" y="405" text-anchor="middle" font-size="14" fill="#111827">mean of SDF   E(m) ≈ 1/(1+r_f)</text>
+  <text x="26" y="210" text-anchor="middle" font-size="14" fill="#111827" transform="rotate(-90 26 210)">std. dev. of SDF   σ(m)</text>
+
+  <!-- feasible region above HJ bound line: shaded -->
+  <polygon points="80,360 600,53 80,53" fill="#dbeafe" opacity="0.7"/>
+  <!-- HJ bound line (slope = Sharpe ratio) -->
+  <line x1="80" y1="360" x2="600" y2="53" stroke="#1d4ed8" stroke-width="2.5"/>
+  <text x="470" y="120" font-size="13" fill="#1d4ed8" font-weight="bold">HJ bound:  σ(m)/E(m) ≥ Sharpe</text>
+  <text x="300" y="150" font-size="13" fill="#1d4ed8">feasible SDFs (consistent with the data)</text>
+  <text x="360" y="330" font-size="13" fill="#6b7280">infeasible: σ(m) too small</text>
+
+  <!-- required point (on the bound) -->
+  <circle cx="509" cy="105" r="6" fill="#b91c1c"/>
+  <text x="519" y="100" font-size="13" fill="#b91c1c" font-weight="bold">what the data demands</text>
+  <text x="519" y="118" font-size="12" fill="#b91c1c">high σ(m): a very volatile m</text>
+
+  <!-- CRRA point (far below) -->
+  <circle cx="509" cy="341" r="6" fill="#065f46"/>
+  <text x="330" y="360" font-size="13" fill="#065f46" font-weight="bold" text-anchor="end">CRRA + smooth c → tiny σ(m)</text>
+
+  <!-- the gap arrow -->
+  <line x1="509" y1="335" x2="509" y2="112" stroke="#b91c1c" stroke-width="2" stroke-dasharray="6 4"/>
+  <polygon points="509,105 503,120 515,120" fill="#b91c1c"/>
+  <text x="522" y="235" font-size="13" fill="#b91c1c" font-weight="bold">the puzzle:</text>
+  <text x="522" y="253" font-size="12" fill="#b91c1c">a ~10× gap in</text>
+  <text x="522" y="269" font-size="12" fill="#b91c1c">SDF volatility</text>
+
+  <!-- E(m) tick -->
+  <line x1="509" y1="356" x2="509" y2="364" stroke="#111827" stroke-width="2"/>
+  <text x="509" y="378" text-anchor="middle" font-size="11" fill="#111827">≈0.99</text>
+</svg>

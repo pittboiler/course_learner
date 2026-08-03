@@ -1,0 +1,52 @@
+<svg viewBox="0 0 720 480" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="720" height="480" fill="#ffffff"/>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1a1a2e"/>
+    </marker>
+  </defs>
+
+  <!-- title -->
+  <text x="360" y="34" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a2e">Cost minimization: cheapest input mix for output q</text>
+
+  <!-- axes -->
+  <line x1="90" y1="420" x2="670" y2="420" stroke="#1a1a2e" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="90" y1="420" x2="90" y2="60" stroke="#1a1a2e" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="668" y="444" text-anchor="end" font-size="14" fill="#1a1a2e">x&#8321; (input 1)</text>
+  <text x="78" y="66" text-anchor="end" font-size="14" fill="#1a1a2e">x&#8322;</text>
+  <text x="46" y="80" text-anchor="start" font-size="14" fill="#1a1a2e">(input 2)</text>
+
+  <!-- unattainable isocost (below isoquant): dashed, faint -->
+  <line x1="100" y1="160" x2="420" y2="400" stroke="#8a93c2" stroke-width="1.6" stroke-dasharray="5 5"/>
+  <text x="138" y="200" text-anchor="start" font-size="11" fill="#8a93c2">cheaper, but</text>
+  <text x="138" y="214" text-anchor="start" font-size="11" fill="#8a93c2">can&#8217;t make q</text>
+
+  <!-- binding isocost (tangent): bold blue -->
+  <line x1="140" y1="90" x2="500" y2="360" stroke="#33417a" stroke-width="2.6"/>
+  <text x="150" y="108" text-anchor="start" font-size="12" font-weight="bold" fill="#33417a">isocost  w&#183;x = c(w,q)</text>
+  <text x="150" y="124" text-anchor="start" font-size="12" fill="#33417a">slope = &#8722;w&#8321;/w&#8322;</text>
+
+  <!-- higher-cost isocost: faint blue -->
+  <line x1="260" y1="90" x2="620" y2="360" stroke="#8a93c2" stroke-width="1.6"/>
+  <text x="560" y="140" text-anchor="start" font-size="11" fill="#8a93c2">costlier</text>
+
+  <!-- isoquant f(x) = q : convex to origin, green -->
+  <path d="M 150 355 C 250 220, 380 165, 610 150" fill="none" stroke="#1f7a4d" stroke-width="3"/>
+  <text x="612" y="146" text-anchor="start" font-size="13" font-weight="bold" fill="#1f7a4d">f(x&#8321;,x&#8322;) = q</text>
+
+  <!-- tangency point -->
+  <circle cx="300" cy="215" r="6" fill="#c0392b"/>
+  <text x="314" y="208" text-anchor="start" font-size="13" font-weight="bold" fill="#c0392b">x(w, q)</text>
+  <text x="314" y="224" text-anchor="start" font-size="11" fill="#c0392b">conditional factor demand</text>
+
+  <!-- dropped guides to axes -->
+  <line x1="300" y1="215" x2="300" y2="420" stroke="#c0392b" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="300" y1="215" x2="90" y2="215" stroke="#c0392b" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="300" y="438" text-anchor="middle" font-size="12" fill="#c0392b">x&#8321;(w,q)</text>
+  <text x="82" y="219" text-anchor="end" font-size="12" fill="#c0392b">x&#8322;(w,q)</text>
+
+  <!-- tangency condition callout -->
+  <rect x="380" y="250" width="290" height="66" rx="6" fill="#eef7f1" stroke="#1f7a4d" stroke-width="1.5"/>
+  <text x="395" y="274" text-anchor="start" font-size="13" font-weight="bold" fill="#1a1a2e">At the optimum: tangency</text>
+  <text x="395" y="298" text-anchor="start" font-size="14" fill="#1a1a2e">MRTS = MP&#8321;/MP&#8322; = w&#8321;/w&#8322;</text>
+</svg>

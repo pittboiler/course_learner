@@ -1,0 +1,54 @@
+<svg viewBox="0 0 720 320" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="720" height="320" fill="#ffffff"/>
+
+  <!-- title -->
+  <text x="360" y="30" fill="#1a1a1a" font-size="17" font-style="italic" text-anchor="middle">A fiber bundle: a fiber standing over every point of the base, a section threading through</text>
+
+  <!-- fibers: vertical segments standing over sample base points -->
+  <line x1="110" y1="80" x2="110" y2="255" stroke="#9a9a9a" stroke-width="2"/>
+  <line x1="190" y1="80" x2="190" y2="255" stroke="#9a9a9a" stroke-width="2"/>
+  <line x1="270" y1="80" x2="270" y2="255" stroke="#9a9a9a" stroke-width="2"/>
+  <line x1="350" y1="80" x2="350" y2="255" stroke="#9a9a9a" stroke-width="2"/>
+  <line x1="430" y1="80" x2="430" y2="255" stroke="#9a9a9a" stroke-width="2"/>
+  <line x1="510" y1="80" x2="510" y2="255" stroke="#9a9a9a" stroke-width="2"/>
+  <line x1="590" y1="80" x2="590" y2="255" stroke="#9a9a9a" stroke-width="2"/>
+
+  <!-- highlight one fiber -->
+  <line x1="270" y1="80" x2="270" y2="255" stroke="#c0392b" stroke-width="3"/>
+  <text x="284" y="104" fill="#c0392b" font-size="13">fiber F over p</text>
+  <text x="284" y="122" fill="#c0392b" font-size="13">(here F = T_pM)</text>
+
+  <!-- base line -->
+  <line x1="70" y1="255" x2="650" y2="255" stroke="#1a1a1a" stroke-width="3"/>
+  <polygon points="650,255 640,250 640,260" fill="#1a1a1a"/>
+  <text x="600" y="285" fill="#1a1a1a" font-size="15" font-style="italic">base manifold M</text>
+
+  <!-- base points -->
+  <circle cx="110" cy="255" r="4" fill="#1a1a1a"/>
+  <circle cx="190" cy="255" r="4" fill="#1a1a1a"/>
+  <circle cx="270" cy="255" r="5" fill="#c0392b"/>
+  <circle cx="350" cy="255" r="4" fill="#1a1a1a"/>
+  <circle cx="430" cy="255" r="4" fill="#1a1a1a"/>
+  <circle cx="510" cy="255" r="4" fill="#1a1a1a"/>
+  <circle cx="590" cy="255" r="4" fill="#1a1a1a"/>
+  <text x="262" y="278" fill="#c0392b" font-size="14">p</text>
+
+  <!-- section: one chosen point of each fiber, joined smoothly -->
+  <path d="M 110 195 C 150 165, 160 150, 190 150 C 225 150, 240 130, 270 128 C 305 126, 320 155, 350 160 C 385 166, 400 195, 430 200 C 465 206, 480 180, 510 172 C 545 163, 560 150, 590 148"
+        fill="none" stroke="#1f6fb2" stroke-width="3"/>
+
+  <!-- section values on each fiber -->
+  <circle cx="110" cy="195" r="4.5" fill="#1f6fb2"/>
+  <circle cx="190" cy="150" r="4.5" fill="#1f6fb2"/>
+  <circle cx="270" cy="128" r="5.5" fill="#1f6fb2"/>
+  <circle cx="350" cy="160" r="4.5" fill="#1f6fb2"/>
+  <circle cx="430" cy="200" r="4.5" fill="#1f6fb2"/>
+  <circle cx="510" cy="172" r="4.5" fill="#1f6fb2"/>
+  <circle cx="590" cy="148" r="4.5" fill="#1f6fb2"/>
+
+  <text x="96" y="180" fill="#1f6fb2" font-size="13">section s</text>
+  <text x="300" y="118" fill="#1f6fb2" font-size="13">s(p) &#8712; F</text>
+
+  <!-- total space label -->
+  <text x="70" y="66" fill="#555555" font-size="13" font-style="italic">total space E: all fibers glued together, locally U &#215; F</text>
+</svg>

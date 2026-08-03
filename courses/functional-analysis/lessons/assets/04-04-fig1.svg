@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" font-family="sans-serif">
+  <rect x="0" y="0" width="640" height="300" fill="#ffffff"/>
+
+  <text x="320" y="34" text-anchor="middle" font-size="19" fill="#1a1a1a" font-weight="bold">The spectrum of a compact self-adjoint operator</text>
+  <text x="320" y="58" text-anchor="middle" font-size="14" fill="#555555">real eigenvalues, finite multiplicity, piling up only at 0</text>
+
+  <!-- axis -->
+  <line x1="80" y1="150" x2="600" y2="150" stroke="#1a1a1a" stroke-width="2"/>
+  <polygon points="600,150 590,145 590,155" fill="#1a1a1a"/>
+  <text x="612" y="155" font-size="14" fill="#1a1a1a">value</text>
+
+  <!-- zero: accumulation point -->
+  <circle cx="80" cy="150" r="6" fill="#ffffff" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="80" y="182" text-anchor="middle" font-size="14" fill="#1a1a1a">0</text>
+  <text x="80" y="200" text-anchor="middle" font-size="11" fill="#555555">accumulation</text>
+
+  <!-- eigenvalues as dots on the axis -->
+  <circle cx="512" cy="150" r="6" fill="#1a1a1a"/>
+  <circle cx="128" cy="150" r="6" fill="#1a1a1a"/>
+  <circle cx="97"  cy="150" r="5" fill="#1a1a1a"/>
+  <circle cx="89"  cy="150" r="4" fill="#1a1a1a"/>
+  <circle cx="85"  cy="150" r="3" fill="#1a1a1a"/>
+  <circle cx="82"  cy="150" r="2.5" fill="#1a1a1a"/>
+
+  <!-- labels for the first two -->
+  <line x1="512" y1="150" x2="512" y2="112" stroke="#555555" stroke-width="1"/>
+  <text x="512" y="104" text-anchor="middle" font-size="14" fill="#1a1a1a">&#955;&#8321; = 4/&#960;&#178;</text>
+
+  <line x1="128" y1="150" x2="128" y2="120" stroke="#555555" stroke-width="1"/>
+  <text x="150" y="114" text-anchor="middle" font-size="14" fill="#1a1a1a">&#955;&#8322;</text>
+
+  <text x="97" y="132" text-anchor="middle" font-size="12" fill="#555555">&#955;&#8323;</text>
+
+  <!-- brace note near accumulation -->
+  <text x="150" y="230" text-anchor="middle" font-size="13" fill="#555555">&#955;&#8324;, &#955;&#8325;, &#8230; &#8594; 0</text>
+
+  <text x="320" y="272" text-anchor="middle" font-size="13" fill="#1a1a1a">&#955;&#8345; = 1 / ((n &#8722; &#189;)&#178;&#960;&#178;)  for the min(x,t) kernel</text>
+</svg>

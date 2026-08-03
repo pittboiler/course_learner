@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="sans-serif">
+  <rect x="0" y="0" width="640" height="420" fill="#ffffff"/>
+  <defs>
+    <marker id="arw" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 z" fill="#1a1a1a"/>
+    </marker>
+  </defs>
+
+  <!-- Dynamic IS box -->
+  <rect x="40" y="40" width="250" height="86" rx="10" fill="#eaf2fb" stroke="#2b6cb0" stroke-width="2"/>
+  <text x="165" y="66" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a1a1a">Dynamic IS (Euler)</text>
+  <text x="165" y="92" text-anchor="middle" font-size="13" fill="#1a1a1a">x = E x' − (1/σ)(i − E π' − rⁿ)</text>
+  <text x="165" y="112" text-anchor="middle" font-size="11" fill="#555">demand: real rate → output gap</text>
+
+  <!-- NKPC box -->
+  <rect x="350" y="40" width="250" height="86" rx="10" fill="#fdeeea" stroke="#c05621" stroke-width="2"/>
+  <text x="475" y="66" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a1a1a">NKPC (Calvo pricing)</text>
+  <text x="475" y="92" text-anchor="middle" font-size="13" fill="#1a1a1a">π = β E π' + κ x</text>
+  <text x="475" y="112" text-anchor="middle" font-size="11" fill="#555">supply: gap → inflation</text>
+
+  <!-- Policy rule box -->
+  <rect x="195" y="300" width="250" height="86" rx="10" fill="#e9f7ef" stroke="#276749" stroke-width="2"/>
+  <text x="320" y="326" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a1a1a">Policy rule (Taylor, 6.2)</text>
+  <text x="320" y="352" text-anchor="middle" font-size="13" fill="#1a1a1a">i = rⁿ + φ_π π + φ_x x</text>
+  <text x="320" y="372" text-anchor="middle" font-size="11" fill="#555">sets the nominal rate</text>
+
+  <!-- arrows: gap x feeds NKPC -->
+  <line x1="290" y1="83" x2="348" y2="83" stroke="#1a1a1a" stroke-width="2" marker-end="url(#arw)"/>
+  <text x="319" y="74" text-anchor="middle" font-size="12" fill="#1a1a1a">κx</text>
+
+  <!-- NKPC inflation feeds policy -->
+  <path d="M 520 128 C 560 200, 470 260, 400 300" fill="none" stroke="#1a1a1a" stroke-width="2" marker-end="url(#arw)"/>
+  <text x="540" y="215" text-anchor="middle" font-size="12" fill="#1a1a1a">π</text>
+
+  <!-- policy rate feeds IS -->
+  <path d="M 240 300 C 120 260, 90 200, 130 128" fill="none" stroke="#1a1a1a" stroke-width="2" marker-end="url(#arw)"/>
+  <text x="96" y="215" text-anchor="middle" font-size="12" fill="#1a1a1a">i</text>
+
+  <!-- output gap x from IS also into policy rule -->
+  <path d="M 150 128 C 150 210, 230 270, 275 300" fill="none" stroke="#999" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#arw)"/>
+  <text x="188" y="230" text-anchor="middle" font-size="11" fill="#777">x</text>
+
+  <!-- expectations note -->
+  <text x="320" y="405" text-anchor="middle" font-size="12" fill="#444">Both blocks are forward-looking: today depends on E of tomorrow (E π′, E x′).</text>
+</svg>

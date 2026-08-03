@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 460" font-family="sans-serif">
+  <rect x="0" y="0" width="700" height="460" fill="#ffffff"/>
+  <text x="350" y="26" font-size="16" font-weight="bold" text-anchor="middle" fill="#111">Subgroup lattice of D_4</text>
+
+  <!-- edges: drawn first so nodes sit on top -->
+  <g stroke="#888" stroke-width="1.5">
+    <!-- D4 (top) to the three order-4 subgroups -->
+    <line x1="350" y1="70" x2="180" y2="170"/>
+    <line x1="350" y1="70" x2="350" y2="170"/>
+    <line x1="350" y1="70" x2="520" y2="170"/>
+    <!-- <r> to {e,r^2} -->
+    <line x1="350" y1="185" x2="350" y2="300"/>
+    <!-- V1 = {e,r^2,s,r^2 s} to its three order-2 subgroups -->
+    <line x1="180" y1="185" x2="110" y2="300"/>
+    <line x1="180" y1="185" x2="230" y2="300"/>
+    <line x1="180" y1="185" x2="350" y2="300"/>
+    <!-- V2 = {e,r^2,rs,r^3 s} to its three order-2 subgroups -->
+    <line x1="520" y1="185" x2="470" y2="300"/>
+    <line x1="520" y1="185" x2="590" y2="300"/>
+    <line x1="520" y1="185" x2="350" y2="300"/>
+    <!-- order-2 subgroups down to {e} -->
+    <line x1="110" y1="315" x2="350" y2="410"/>
+    <line x1="230" y1="315" x2="350" y2="410"/>
+    <line x1="350" y1="315" x2="350" y2="410"/>
+    <line x1="470" y1="315" x2="350" y2="410"/>
+    <line x1="590" y1="315" x2="350" y2="410"/>
+  </g>
+
+  <!-- top: D4 -->
+  <g text-anchor="middle">
+    <rect x="312" y="52" width="76" height="26" rx="6" fill="#dbeafe" stroke="#1d4ed8"/>
+    <text x="350" y="70" font-size="14" fill="#1e3a8a">D_4 (8)</text>
+  </g>
+
+  <!-- order-4 row -->
+  <g text-anchor="middle" font-size="12" fill="#111">
+    <rect x="120" y="167" width="120" height="26" rx="6" fill="#e0f2fe" stroke="#0369a1"/>
+    <text x="180" y="185">{e,r²,s,r²s}</text>
+    <rect x="308" y="167" width="84" height="26" rx="6" fill="#e0f2fe" stroke="#0369a1"/>
+    <text x="350" y="185">⟨r⟩ (4)</text>
+    <rect x="454" y="167" width="132" height="26" rx="6" fill="#e0f2fe" stroke="#0369a1"/>
+    <text x="520" y="185">{e,r²,rs,r³s}</text>
+  </g>
+
+  <!-- order-2 row -->
+  <g text-anchor="middle" font-size="11" fill="#111">
+    <rect x="72" y="297" width="76" height="24" rx="6" fill="#f1f5f9" stroke="#475569"/>
+    <text x="110" y="313">{e,s}</text>
+    <rect x="190" y="297" width="80" height="24" rx="6" fill="#f1f5f9" stroke="#475569"/>
+    <text x="230" y="313">{e,r²s}</text>
+    <rect x="312" y="297" width="76" height="24" rx="6" fill="#f1f5f9" stroke="#475569"/>
+    <text x="350" y="313">{e,r²}</text>
+    <rect x="432" y="297" width="76" height="24" rx="6" fill="#f1f5f9" stroke="#475569"/>
+    <text x="470" y="313">{e,rs}</text>
+    <rect x="550" y="297" width="80" height="24" rx="6" fill="#f1f5f9" stroke="#475569"/>
+    <text x="590" y="313">{e,r³s}</text>
+  </g>
+
+  <!-- bottom: trivial -->
+  <g text-anchor="middle">
+    <rect x="318" y="407" width="64" height="26" rx="6" fill="#dcfce7" stroke="#15803d"/>
+    <text x="350" y="425" font-size="13" fill="#14532d">{e} (1)</text>
+  </g>
+
+  <text x="350" y="452" font-size="11" text-anchor="middle" fill="#555">10 subgroups · height climbs by order · {e,r²} sits under all three order-4 subgroups</text>
+</svg>

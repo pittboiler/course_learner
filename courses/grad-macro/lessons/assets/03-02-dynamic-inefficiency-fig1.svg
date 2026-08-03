@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="sans-serif">
+  <rect x="0" y="0" width="640" height="420" fill="#ffffff"/>
+
+  <!-- axes -->
+  <line x1="70" y1="360" x2="610" y2="360" stroke="#222222" stroke-width="2"/>
+  <line x1="70" y1="360" x2="70" y2="40" stroke="#222222" stroke-width="2"/>
+  <text x="600" y="388" font-size="16" fill="#222222">capital per capita  k</text>
+  <text x="18" y="52" font-size="16" fill="#222222">output</text>
+
+  <!-- production function f(k) -->
+  <path d="M70,360 L123,265 L176,226 L229,196 L282,170 L340,146 L388,128 L441,109 L494,92 L600,60"
+        fill="none" stroke="#1a56c4" stroke-width="3"/>
+  <text x="602" y="56" font-size="16" fill="#1a56c4" font-weight="bold">f(k)</text>
+
+  <!-- break-even / required investment line (n+delta)k -->
+  <line x1="70" y1="360" x2="600" y2="150" stroke="#c02626" stroke-width="3"/>
+  <text x="500" y="140" font-size="16" fill="#c02626" font-weight="bold">(n+&#948;)k</text>
+
+  <!-- golden-rule gap at k_gr = 51 (x=340): f y=146, line y=253 -->
+  <line x1="340" y1="146" x2="340" y2="253" stroke="#159a3c" stroke-width="6"/>
+  <line x1="340" y1="360" x2="340" y2="253" stroke="#159a3c" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="316" y="380" font-size="15" fill="#159a3c" font-weight="bold">k_gr</text>
+  <text x="352" y="200" font-size="14" fill="#159a3c" font-weight="bold">max c</text>
+
+  <!-- over-accumulated gap at k* = 80 (x=494): f y=92, line y=192 -->
+  <line x1="494" y1="92" x2="494" y2="192" stroke="#8a3fbf" stroke-width="6"/>
+  <line x1="494" y1="360" x2="494" y2="192" stroke="#8a3fbf" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="480" y="380" font-size="15" fill="#8a3fbf" font-weight="bold">k*</text>
+  <text x="504" y="150" font-size="14" fill="#8a3fbf" font-weight="bold">smaller c</text>
+
+  <!-- annotation: slopes -->
+  <text x="150" y="315" font-size="13" fill="#159a3c">slope f&#8242;(k_gr) = n+&#948;  (tangent parallel to red line)</text>
+  <text x="150" y="335" font-size="13" fill="#8a3fbf">k* &gt; k_gr : f&#8242;(k*) &lt; n+&#948;, i.e. r* &lt; n  &#8594; over-accumulation</text>
+</svg>

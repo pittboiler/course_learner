@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 380">
+  <rect x="0" y="0" width="660" height="380" fill="#ffffff"/>
+  <defs>
+    <marker id="uhead" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 z" fill="#1a56b0"/>
+    </marker>
+    <marker id="phead" markerWidth="8" markerHeight="8" refX="6" refY="3.5" orient="auto">
+      <path d="M0,0 L7,3.5 L0,7 z" fill="#888888"/>
+    </marker>
+  </defs>
+
+  <text x="330" y="30" font-family="sans-serif" font-size="18" font-weight="bold" fill="#222222" text-anchor="middle">A fluid element on a curved background</text>
+
+  <!-- curved coordinate grid: horizontals -->
+  <path d="M80 110 Q330 90 580 110" stroke="#c9c9c9" stroke-width="1.2" fill="none"/>
+  <path d="M80 170 Q330 150 580 170" stroke="#c9c9c9" stroke-width="1.2" fill="none"/>
+  <path d="M80 230 Q330 210 580 230" stroke="#c9c9c9" stroke-width="1.2" fill="none"/>
+  <path d="M80 290 Q330 270 580 290" stroke="#c9c9c9" stroke-width="1.2" fill="none"/>
+  <!-- curved coordinate grid: verticals -->
+  <path d="M150 85 Q165 195 150 305" stroke="#c9c9c9" stroke-width="1.2" fill="none"/>
+  <path d="M250 82 Q265 192 250 302" stroke="#c9c9c9" stroke-width="1.2" fill="none"/>
+  <path d="M350 80 Q365 190 350 300" stroke="#c9c9c9" stroke-width="1.2" fill="none"/>
+  <path d="M450 82 Q465 192 450 302" stroke="#c9c9c9" stroke-width="1.2" fill="none"/>
+  <path d="M510 85 Q525 195 510 305" stroke="#c9c9c9" stroke-width="1.2" fill="none"/>
+
+  <text x="120" y="325" font-family="sans-serif" font-size="14" fill="#999999" text-anchor="middle">background metric</text>
+  <text x="120" y="343" font-family="sans-serif" font-size="15" fill="#666666" text-anchor="middle">g&#956;&#957;</text>
+
+  <!-- pressure arrows (gray, isotropic push) -->
+  <line x1="340" y1="163" x2="340" y2="132" stroke="#888888" stroke-width="1.6" marker-end="url(#phead)"/>
+  <line x1="340" y1="207" x2="340" y2="238" stroke="#888888" stroke-width="1.6" marker-end="url(#phead)"/>
+  <line x1="306" y1="185" x2="272" y2="185" stroke="#888888" stroke-width="1.6" marker-end="url(#phead)"/>
+  <line x1="374" y1="185" x2="408" y2="185" stroke="#888888" stroke-width="1.6" marker-end="url(#phead)"/>
+  <text x="430" y="190" font-family="sans-serif" font-size="15" fill="#888888">p</text>
+
+  <!-- fluid element -->
+  <ellipse cx="340" cy="185" rx="34" ry="24" fill="#cfe0f5" stroke="#1a56b0" stroke-width="2"/>
+  <text x="340" y="190" font-family="sans-serif" font-size="15" font-weight="bold" fill="#1a56b0" text-anchor="middle">T&#956;&#957;</text>
+
+  <!-- four-velocity (worldline direction) -->
+  <line x1="340" y1="185" x2="420" y2="110" stroke="#1a56b0" stroke-width="3" marker-end="url(#uhead)"/>
+  <text x="428" y="108" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1a56b0">u&#956;</text>
+
+  <!-- caption -->
+  <text x="330" y="360" font-family="sans-serif" font-size="16" fill="#222222" text-anchor="middle">&#8711;&#956; T&#956;&#957; = 0 &#8212; energy&#8211;momentum is conserved locally, at each point</text>
+</svg>

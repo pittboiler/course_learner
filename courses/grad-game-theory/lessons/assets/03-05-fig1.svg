@@ -1,0 +1,46 @@
+<svg viewBox="0 0 480 430" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="480" height="430" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="240" y="26" text-anchor="middle" font-size="15" fill="#1a1a1a" font-weight="bold">Nash bargaining: highest product level curve tangent to the frontier</text>
+
+  <!-- Axes: u1 on x (70..400), u2 on y (360 bottom .. 40 top). Origin = d = (70,360). -->
+  <line x1="70" y1="360" x2="415" y2="360" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="70" y1="360" x2="70" y2="38" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="415" y="378" text-anchor="middle" font-size="13" fill="#1a1a1a">u&#8321;</text>
+  <text x="56" y="44" text-anchor="middle" font-size="13" fill="#1a1a1a">u&#8322;</text>
+
+  <!-- Feasible set S (shaded) -->
+  <path d="M70,360 L400,360 L383.5,260 L350.5,191 L303.3,134 L243.8,88 L173,56 L70,40 Z"
+        fill="#1f5fa8" fill-opacity="0.12" stroke="none"/>
+
+  <!-- Pareto frontier -->
+  <path d="M400,360 L383.5,260 L350.5,191 L303.3,134 L243.8,88 L173,56 L70,40"
+        fill="none" stroke="#1f5fa8" stroke-width="2.6"/>
+
+  <!-- Nash-product level curve (u1-d1)(u2-d2) = const, tangent at N -->
+  <path d="M251.5,69 L268,93.3 L284.5,114 L303.3,133.7 L324,152 L344.9,168 L370,184"
+        fill="none" stroke="#c0392b" stroke-width="2.2" stroke-dasharray="6 4"/>
+
+  <!-- Disagreement point d -->
+  <circle cx="70" cy="360" r="5.5" fill="#1a1a1a"/>
+  <text x="82" y="352" text-anchor="start" font-size="12" fill="#1a1a1a">d = (d&#8321;, d&#8322;)</text>
+
+  <!-- Nash solution N -->
+  <circle cx="303.3" cy="133.7" r="6" fill="#1a1a1a"/>
+  <text x="314" y="128" text-anchor="start" font-size="12" fill="#1a1a1a">N = Nash solution</text>
+
+  <!-- gains arrows from d to N -->
+  <line x1="70" y1="360" x2="303.3" y2="133.7" stroke="#1a1a1a" stroke-width="1" stroke-dasharray="2 3"/>
+
+  <!-- Region label -->
+  <text x="150" y="240" text-anchor="middle" font-size="14" fill="#1f5fa8" font-weight="bold">S</text>
+
+  <!-- Legend -->
+  <line x1="250" y1="300" x2="282" y2="300" stroke="#1f5fa8" stroke-width="2.6"/>
+  <text x="288" y="304" font-size="11.5" fill="#1a1a1a">Pareto frontier of S</text>
+  <line x1="250" y1="320" x2="282" y2="320" stroke="#c0392b" stroke-width="2.2" stroke-dasharray="6 4"/>
+  <text x="288" y="324" font-size="11.5" fill="#1a1a1a">(u&#8321;&#8722;d&#8321;)(u&#8322;&#8722;d&#8322;) = const</text>
+
+  <text x="240" y="410" text-anchor="middle" font-size="11.5" fill="#1a1a1a">N maximizes the Nash product over S: the last hyperbola that still touches the frontier.</text>
+</svg>

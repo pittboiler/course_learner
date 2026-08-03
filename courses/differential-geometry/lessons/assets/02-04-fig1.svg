@@ -1,0 +1,44 @@
+<svg viewBox="0 0 560 380" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="560" height="380" fill="#ffffff"/>
+  <defs>
+    <marker id="v" markerWidth="8" markerHeight="8" refX="6.5" refY="3" orient="auto">
+      <path d="M0,0 L6.5,3 L0,6 Z" fill="#1a1a1a"/>
+    </marker>
+    <marker id="vc" markerWidth="9" markerHeight="9" refX="7" refY="3.2" orient="auto">
+      <path d="M0,0 L7,3.2 L0,6.4 Z" fill="#0a7"/>
+    </marker>
+  </defs>
+
+  <text x="24" y="30" font-size="15" fill="#111">A vector field X assigns a vector to each point; its integral curves flow along it.</text>
+
+  <!-- center -->
+  <g>
+    <!-- rotational field X = (-y, x): arrows on a grid -->
+    <!-- using cx=280, cy=210 as center, arrows tangent to circles -->
+    <!-- ring r ~ 60 -->
+    <line x1="280" y1="150" x2="255" y2="152" stroke="#1a1a1a" stroke-width="2" marker-end="url(#v)"/>
+    <line x1="340" y1="210" x2="338" y2="185" stroke="#1a1a1a" stroke-width="2" marker-end="url(#v)"/>
+    <line x1="280" y1="270" x2="305" y2="268" stroke="#1a1a1a" stroke-width="2" marker-end="url(#v)"/>
+    <line x1="220" y1="210" x2="222" y2="235" stroke="#1a1a1a" stroke-width="2" marker-end="url(#v)"/>
+    <!-- ring r ~ 110 -->
+    <line x1="280" y1="100" x2="248" y2="104" stroke="#1a1a1a" stroke-width="2" marker-end="url(#v)"/>
+    <line x1="390" y1="210" x2="386" y2="178" stroke="#1a1a1a" stroke-width="2" marker-end="url(#v)"/>
+    <line x1="280" y1="320" x2="312" y2="316" stroke="#1a1a1a" stroke-width="2" marker-end="url(#v)"/>
+    <line x1="170" y1="210" x2="174" y2="242" stroke="#1a1a1a" stroke-width="2" marker-end="url(#v)"/>
+    <!-- diagonal ring points r ~ 85 -->
+    <line x1="340" y1="150" x2="322" y2="132" stroke="#1a1a1a" stroke-width="2" marker-end="url(#v)"/>
+    <line x1="340" y1="270" x2="358" y2="252" stroke="#1a1a1a" stroke-width="2" marker-end="url(#v)"/>
+    <line x1="220" y1="270" x2="202" y2="252" stroke="#1a1a1a" stroke-width="2" marker-end="url(#v)"/>
+    <line x1="220" y1="150" x2="238" y2="132" stroke="#1a1a1a" stroke-width="2" marker-end="url(#v)"/>
+
+    <!-- integral curve: a circle (flow of the rotational field) -->
+    <circle cx="280" cy="210" r="85" fill="none" stroke="#0a7" stroke-width="2.4" stroke-dasharray="6,5"/>
+    <!-- an arrowhead on the integral curve to show direction -->
+    <path d="M 362,200 A 85 85 0 0 1 360,222" fill="none" stroke="#0a7" stroke-width="2.6" marker-end="url(#vc)"/>
+    <circle cx="280" cy="210" r="3" fill="#333"/>
+
+    <text x="372" y="300" font-size="14" fill="#0a7">integral curve</text>
+    <text x="372" y="318" font-size="12" fill="#555">γ̇ = X(γ)</text>
+    <text x="150" y="360" font-size="13" fill="#333">field  X = (−y, x)   (a rigid rotation)</text>
+  </g>
+</svg>

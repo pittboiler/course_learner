@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 440" font-family="sans-serif">
+  <rect x="0" y="0" width="560" height="440" fill="#ffffff"/>
+
+  <text x="280" y="30" text-anchor="middle" font-size="17" font-weight="bold" fill="#1a1a1a">BR : &#916; &#8649; &#916; as a Kakutani self-map</text>
+  <text x="280" y="50" text-anchor="middle" font-size="12.5" fill="#555">every crossing p &#8712; BR&#8321;(q) and q &#8712; BR&#8322;(p) is a fixed point = a Nash equilibrium</text>
+
+  <!-- square domain [0,1]^2 = product of two simplices -->
+  <rect x="120" y="70" width="300" height="300" fill="#f6f6f6" stroke="#bbb" stroke-width="1"/>
+
+  <!-- gridlines at the indifference thresholds -->
+  <line x1="320" y1="70" x2="320" y2="370" stroke="#ddd" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="120" y1="270" x2="420" y2="270" stroke="#ddd" stroke-width="1" stroke-dasharray="3,3"/>
+
+  <!-- axes -->
+  <line x1="120" y1="370" x2="430" y2="370" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="120" y1="370" x2="120" y2="60"  stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="425" y="390" text-anchor="middle" font-size="13" fill="#1a1a1a">p = Pr&#8321;(T)</text>
+  <text x="120" y="55"  text-anchor="middle" font-size="13" fill="#1a1a1a">q = Pr&#8322;(L)</text>
+  <text x="116" y="374" text-anchor="end" font-size="11" fill="#555">0</text>
+  <text x="420" y="386" text-anchor="middle" font-size="11" fill="#555">1</text>
+  <text x="116" y="74"  text-anchor="end" font-size="11" fill="#555">1</text>
+  <text x="318" y="386" text-anchor="middle" font-size="11" fill="#555">2/3</text>
+  <text x="112" y="273" text-anchor="end" font-size="11" fill="#555">1/3</text>
+
+  <!-- BR_1 : player 1's best response to q (blue staircase) -->
+  <polyline points="120,370 120,270 420,270 420,70" fill="none" stroke="#1f6feb" stroke-width="3"/>
+  <text x="435" y="120" font-size="13" font-weight="bold" fill="#1f6feb">BR&#8321;(q)</text>
+
+  <!-- BR_2 : player 2's best response to p (red staircase) -->
+  <polyline points="120,370 320,370 320,70 420,70" fill="none" stroke="#d1242f" stroke-width="3"/>
+  <text x="335" y="105" font-size="13" font-weight="bold" fill="#d1242f">BR&#8322;(p)</text>
+
+  <!-- fixed points -->
+  <circle cx="120" cy="370" r="6" fill="#1a1a1a"/>
+  <text x="132" y="360" font-size="12" fill="#1a1a1a">(B,R)</text>
+  <circle cx="420" cy="70" r="6" fill="#1a1a1a"/>
+  <text x="408" y="90" text-anchor="end" font-size="12" fill="#1a1a1a">(T,L)</text>
+  <circle cx="320" cy="270" r="7" fill="#0a7d33"/>
+  <text x="332" y="258" font-size="12.5" font-weight="bold" fill="#0a7d33">&#963;* = (2/3, 1/3)</text>
+  <text x="332" y="292" font-size="11" fill="#0a7d33">mixed NE</text>
+
+  <text x="280" y="425" text-anchor="middle" font-size="11.5" fill="#555">Thick segments at the thresholds = convex-valued BR (mixing). Kakutani promises &#8805;1 crossing; here there are 3.</text>
+</svg>

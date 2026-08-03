@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" font-family="sans-serif">
+  <rect x="0" y="0" width="640" height="380" fill="#ffffff"/>
+
+  <!-- axes -->
+  <line x1="70" y1="300" x2="610" y2="300" stroke="#222222" stroke-width="2"/>
+  <line x1="70" y1="300" x2="70" y2="45" stroke="#222222" stroke-width="2"/>
+  <polygon points="610,300 598,294 598,306" fill="#222222"/>
+  <polygon points="70,45 64,57 76,57" fill="#222222"/>
+
+  <!-- y gridline at P = 0.25 (100px above baseline, scale 400px/unit) -->
+  <line x1="70" y1="200" x2="610" y2="200" stroke="#cccccc" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="34" y="205" font-size="14" fill="#777777">0.25</text>
+
+  <!-- probability bars: heights = p * 400 -->
+  <!-- a=1, p=0.10 -->
+  <rect x="106" y="260" width="68" height="40" fill="#7aa7d8" fill-opacity="0.75" stroke="#1a3c5e" stroke-width="1.5"/>
+  <text x="140" y="252" font-size="15" fill="#1a3c5e" text-anchor="middle">0.10</text>
+  <!-- a=2, p=0.40 -->
+  <rect x="226" y="140" width="68" height="160" fill="#7aa7d8" fill-opacity="0.75" stroke="#1a3c5e" stroke-width="1.5"/>
+  <text x="260" y="132" font-size="15" fill="#1a3c5e" text-anchor="middle">0.40</text>
+  <!-- a=3, p=0.30 -->
+  <rect x="346" y="180" width="68" height="120" fill="#7aa7d8" fill-opacity="0.75" stroke="#1a3c5e" stroke-width="1.5"/>
+  <text x="380" y="172" font-size="15" fill="#1a3c5e" text-anchor="middle">0.30</text>
+  <!-- a=4, p=0.20 -->
+  <rect x="466" y="220" width="68" height="80" fill="#7aa7d8" fill-opacity="0.75" stroke="#1a3c5e" stroke-width="1.5"/>
+  <text x="500" y="212" font-size="15" fill="#1a3c5e" text-anchor="middle">0.20</text>
+
+  <!-- eigenvalue axis ticks + labels -->
+  <line x1="140" y1="300" x2="140" y2="309" stroke="#222222" stroke-width="2"/>
+  <line x1="260" y1="300" x2="260" y2="309" stroke="#222222" stroke-width="2"/>
+  <line x1="380" y1="300" x2="380" y2="309" stroke="#222222" stroke-width="2"/>
+  <line x1="500" y1="300" x2="500" y2="309" stroke="#222222" stroke-width="2"/>
+  <text x="140" y="328" font-size="17" fill="#222222" text-anchor="middle">a&#8321;=1</text>
+  <text x="260" y="328" font-size="17" fill="#222222" text-anchor="middle">a&#8322;=2</text>
+  <text x="380" y="328" font-size="17" fill="#222222" text-anchor="middle">a&#8323;=3</text>
+  <text x="500" y="328" font-size="17" fill="#222222" text-anchor="middle">a&#8324;=4</text>
+
+  <!-- mean marker at <A> = 2.6  ->  x = 260 + 0.6*120 = 332 -->
+  <line x1="332" y1="300" x2="332" y2="60" stroke="#b22222" stroke-width="2.5" stroke-dasharray="6 4"/>
+  <polygon points="332,300 324,314 340,314" fill="#b22222"/>
+  <text x="332" y="52" font-size="18" fill="#b22222" text-anchor="middle">&#10216;&#194;&#10217; = 2.6</text>
+
+  <!-- labels -->
+  <text x="622" y="306" font-size="18" fill="#222222">a</text>
+  <text x="76" y="40" font-size="16" fill="#222222">P = |c&#8345;|&#178;</text>
+  <text x="332" y="358" font-size="14" fill="#b22222" text-anchor="middle">the mean lands on no bar &#8212; it is not an allowed outcome</text>
+</svg>

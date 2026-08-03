@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 360" font-family="sans-serif">
+  <rect x="0" y="0" width="520" height="360" fill="#ffffff"/>
+
+  <!-- axes -->
+  <line x1="60" y1="300" x2="490" y2="300" stroke="#222222" stroke-width="2"/>
+  <line x1="60" y1="300" x2="60" y2="40" stroke="#222222" stroke-width="2"/>
+  <polygon points="490,300 482,295 482,305" fill="#222222"/>
+  <polygon points="60,40 55,48 65,48" fill="#222222"/>
+
+  <!-- axis labels -->
+  <text x="275" y="338" font-size="15" fill="#222222" text-anchor="middle">Maturity  T − t  (years)</text>
+  <text x="24" y="175" font-size="15" fill="#222222" text-anchor="middle" transform="rotate(-90 24 175)">Yield  y(t,T)</text>
+
+  <!-- tick marks on x -->
+  <g font-size="12" fill="#444444" text-anchor="middle">
+    <line x1="60" y1="300" x2="60" y2="306" stroke="#444444"/>
+    <text x="60" y="320">0</text>
+    <line x1="203" y1="300" x2="203" y2="306" stroke="#444444"/>
+    <text x="203" y="320">10</text>
+    <line x1="346" y1="300" x2="346" y2="306" stroke="#444444"/>
+    <text x="346" y="320">20</text>
+    <line x1="489" y1="300" x2="489" y2="306" stroke="#444444"/>
+    <text x="489" y="320">30</text>
+  </g>
+
+  <!-- normal, upward-sloping curve (blue) -->
+  <path d="M60,255 C170,160 310,120 489,100" fill="none" stroke="#1a5fb4" stroke-width="3"/>
+  <!-- inverted curve (red) -->
+  <path d="M60,110 C190,128 340,195 489,215" fill="none" stroke="#c01c28" stroke-width="3"/>
+  <!-- humped curve (green, dashed) -->
+  <path d="M60,215 C140,120 230,110 310,132 C390,153 445,172 489,182" fill="none" stroke="#26804e" stroke-width="2.5" stroke-dasharray="7 5"/>
+
+  <!-- legend -->
+  <g font-size="13" fill="#222222">
+    <line x1="315" y1="52" x2="345" y2="52" stroke="#1a5fb4" stroke-width="3"/>
+    <text x="352" y="56">normal (upward)</text>
+    <line x1="315" y1="74" x2="345" y2="74" stroke="#c01c28" stroke-width="3"/>
+    <text x="352" y="78">inverted</text>
+    <line x1="315" y1="96" x2="345" y2="96" stroke="#26804e" stroke-width="2.5" stroke-dasharray="7 5"/>
+    <text x="352" y="100">humped</text>
+  </g>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" font-family="sans-serif">
+  <rect x="0" y="0" width="720" height="420" fill="#ffffff"/>
+
+  <!-- energy axis -->
+  <line x1="70" y1="360" x2="70" y2="50" stroke="#333333" stroke-width="1.5"/>
+  <polygon points="70,44 65,56 75,56" fill="#333333"/>
+  <text x="52" y="52" font-size="17" fill="#333333" text-anchor="middle">E</text>
+
+  <!-- initial discrete level -->
+  <line x1="110" y1="210" x2="250" y2="210" stroke="#1a5fb4" stroke-width="4"/>
+  <text x="180" y="200" font-size="16" fill="#1a5fb4" text-anchor="middle">|i&#10217;,&#160; E&#8305;</text>
+  <text x="180" y="240" font-size="13" fill="#1a5fb4" text-anchor="middle">single initial state</text>
+
+  <!-- perturbation arrow i -> continuum -->
+  <path d="M255,208 C320,180 370,180 420,208" fill="none" stroke="#c01c28" stroke-width="2.5"/>
+  <polygon points="420,208 408,201 411,213" fill="#c01c28"/>
+  <text x="337" y="170" font-size="17" fill="#c01c28" text-anchor="middle">&#292;&#8242;</text>
+  <text x="337" y="150" font-size="12" fill="#c01c28" text-anchor="middle">perturbation</text>
+
+  <!-- continuum band -->
+  <rect x="430" y="95" width="130" height="230" fill="#eaf1fb" stroke="#7aa0d0" stroke-width="1.5"/>
+  <line x1="430" y1="106" x2="560" y2="106" stroke="#3a6ea5" stroke-width="1"/>
+  <line x1="430" y1="119" x2="560" y2="119" stroke="#3a6ea5" stroke-width="1"/>
+  <line x1="430" y1="132" x2="560" y2="132" stroke="#3a6ea5" stroke-width="1"/>
+  <line x1="430" y1="145" x2="560" y2="145" stroke="#3a6ea5" stroke-width="1"/>
+  <line x1="430" y1="158" x2="560" y2="158" stroke="#3a6ea5" stroke-width="1"/>
+  <line x1="430" y1="171" x2="560" y2="171" stroke="#3a6ea5" stroke-width="1"/>
+  <line x1="430" y1="184" x2="560" y2="184" stroke="#3a6ea5" stroke-width="1"/>
+  <line x1="430" y1="197" x2="560" y2="197" stroke="#3a6ea5" stroke-width="1"/>
+  <line x1="430" y1="223" x2="560" y2="223" stroke="#3a6ea5" stroke-width="1"/>
+  <line x1="430" y1="236" x2="560" y2="236" stroke="#3a6ea5" stroke-width="1"/>
+  <line x1="430" y1="249" x2="560" y2="249" stroke="#3a6ea5" stroke-width="1"/>
+  <line x1="430" y1="262" x2="560" y2="262" stroke="#3a6ea5" stroke-width="1"/>
+  <line x1="430" y1="275" x2="560" y2="275" stroke="#3a6ea5" stroke-width="1"/>
+  <line x1="430" y1="288" x2="560" y2="288" stroke="#3a6ea5" stroke-width="1"/>
+  <line x1="430" y1="301" x2="560" y2="301" stroke="#3a6ea5" stroke-width="1"/>
+  <line x1="430" y1="314" x2="560" y2="314" stroke="#3a6ea5" stroke-width="1"/>
+  <text x="495" y="88" font-size="13" fill="#1a5fb4" text-anchor="middle">continuum |f&#10217;</text>
+  <text x="495" y="345" font-size="13" fill="#1a5fb4" text-anchor="middle">density &#961;(E&#8323;)</text>
+
+  <!-- energy conservation line -->
+  <line x1="255" y1="210" x2="655" y2="210" stroke="#666666" stroke-width="1.5" stroke-dasharray="6,5"/>
+  <text x="612" y="204" font-size="13" fill="#444444" text-anchor="middle">E&#8323; = E&#8305;</text>
+
+  <!-- sinc^2 weight, plotted sideways: displacement to the right vs energy -->
+  <line x1="565" y1="95" x2="565" y2="325" stroke="#bbbbbb" stroke-width="1"/>
+  <polyline fill="none" stroke="#26a269" stroke-width="2.5"
+    points="565.8,95 566.2,105 565.6,115 565.0,125 566.0,135 568.1,145 568.2,155 565.7,165 566.1,175 577.9,185 602.4,195 628.7,205 640.0,210 628.7,215 602.4,225 577.9,235 566.1,245 565.7,255 568.2,265 568.1,275 566.0,285 565.0,295 565.6,305 566.2,315 565.8,325"/>
+  <text x="648" y="208" font-size="14" fill="#26a269" text-anchor="start" transform="rotate(0 648 208)">|c&#8323;(t)|&#178;</text>
+  <text x="655" y="150" font-size="12" fill="#26a269" text-anchor="middle">&#8320; sinc&#178;</text>
+
+  <!-- caption -->
+  <text x="360" y="392" font-size="13" fill="#555555" text-anchor="middle">A discrete state decays into a dense band of final states. The sinc&#178; weight sharpens with t onto E&#8323; = E&#8305;,</text>
+  <text x="360" y="410" font-size="13" fill="#555555" text-anchor="middle">so only states within &#916;E &#8776; &#8463;/t contribute &#8212; the sum over &#961;(E&#8323;) gives a constant rate.</text>
+</svg>

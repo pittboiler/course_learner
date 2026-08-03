@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440" font-family="sans-serif">
+  <rect x="0" y="0" width="720" height="440" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="360" y="30" text-anchor="middle" font-size="19" font-weight="bold" fill="#111111">Cash-and-carry: locking in the forward price</text>
+  <text x="360" y="52" text-anchor="middle" font-size="13" fill="#555555">Every cash flow is known today — nothing is forecast</text>
+
+  <!-- Column headers -->
+  <text x="255" y="90" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a5276">TODAY  (t = 0)</text>
+  <text x="560" y="90" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a5276">AT DELIVERY  (t = T)</text>
+
+  <!-- vertical timeline separators -->
+  <line x1="255" y1="100" x2="255" y2="400" stroke="#cccccc" stroke-width="1"/>
+  <line x1="560" y1="100" x2="560" y2="400" stroke="#cccccc" stroke-width="1"/>
+
+  <!-- Leg labels -->
+  <text x="20" y="150" font-size="14" font-weight="bold" fill="#111111">1. Borrow</text>
+  <text x="20" y="215" font-size="14" font-weight="bold" fill="#111111">2. Buy asset</text>
+  <text x="20" y="280" font-size="14" font-weight="bold" fill="#111111">3. Short forward</text>
+
+  <!-- Leg 1: borrow -->
+  <text x="255" y="150" text-anchor="middle" font-size="14" fill="#1e8449">+ S₀  (cash in)</text>
+  <text x="560" y="150" text-anchor="middle" font-size="14" fill="#c0392b">− S₀e<tspan dy="-6" font-size="10">rT</tspan><tspan dy="6"> </tspan>(repay loan)</text>
+
+  <!-- Leg 2: buy asset -->
+  <text x="255" y="215" text-anchor="middle" font-size="14" fill="#c0392b">− S₀  (pay for asset)</text>
+  <text x="560" y="215" text-anchor="middle" font-size="14" fill="#555555">hold the asset →</text>
+
+  <!-- Leg 3: short forward -->
+  <text x="255" y="280" text-anchor="middle" font-size="14" fill="#555555">0  (costs nothing)</text>
+  <text x="560" y="280" text-anchor="middle" font-size="14" fill="#1e8449">+ F  (deliver asset, get F)</text>
+
+  <!-- horizontal net rule -->
+  <line x1="20" y1="315" x2="700" y2="315" stroke="#333333" stroke-width="1.5"/>
+
+  <!-- Net row -->
+  <text x="20" y="350" font-size="14" font-weight="bold" fill="#111111">NET</text>
+  <text x="255" y="350" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">0</text>
+  <text x="560" y="350" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">F − S₀e<tspan dy="-6" font-size="11">rT</tspan></text>
+
+  <!-- Conclusion -->
+  <text x="360" y="392" text-anchor="middle" font-size="14" fill="#111111">Zero cost today, riskless payoff F − S₀e^(rT) later.  No free lunch ⇒</text>
+  <text x="360" y="416" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a5276">F = S₀ e<tspan dy="-7" font-size="12">rT</tspan></text>
+</svg>

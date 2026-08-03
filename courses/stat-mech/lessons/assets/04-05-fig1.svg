@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 430" font-family="sans-serif">
+  <rect x="0" y="0" width="640" height="430" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="320" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">Bose&#8211;Einstein condensation: the ground state fills up</text>
+
+  <!-- Axes -->
+  <line x1="80" y1="380" x2="610" y2="380" stroke="#333333" stroke-width="2"/>
+  <line x1="80" y1="380" x2="80" y2="55" stroke="#333333" stroke-width="2"/>
+
+  <!-- Y axis label and ticks (0 and 1) -->
+  <text x="30" y="220" text-anchor="middle" font-size="14" fill="#111111" transform="rotate(-90 30 220)">condensate fraction  N&#8320;/N</text>
+  <text x="72" y="65" text-anchor="end" font-size="13" fill="#333333">1</text>
+  <text x="72" y="385" text-anchor="end" font-size="13" fill="#333333">0</text>
+  <line x1="76" y1="60" x2="80" y2="60" stroke="#333333" stroke-width="2"/>
+
+  <!-- X axis label and ticks -->
+  <text x="345" y="418" text-anchor="middle" font-size="14" fill="#111111">temperature  T / T_c</text>
+  <text x="340" y="400" text-anchor="middle" font-size="13" fill="#c0392b" font-weight="bold">1</text>
+  <text x="600" y="400" text-anchor="middle" font-size="13" fill="#333333">2</text>
+
+  <!-- Critical temperature marker -->
+  <line x1="340" y1="60" x2="340" y2="380" stroke="#c0392b" stroke-width="1.4" stroke-dasharray="5 4"/>
+  <text x="340" y="50" text-anchor="middle" font-size="13" fill="#c0392b" font-weight="bold">T_c</text>
+
+  <!-- Condensate-fraction curve  N0/N = 1 - (T/Tc)^{3/2}  for T < Tc -->
+  <polyline points="80,60 106,70.2 132,88.5 158,112.5 184,141 210,173.3 236,208.8 262,247.5 288,289.1 314,333.3 340,380"
+            fill="none" stroke="#1a4fa0" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Flat zero for T > Tc -->
+  <line x1="340" y1="380" x2="610" y2="380" stroke="#1a4fa0" stroke-width="3.5" stroke-linecap="round"/>
+
+  <!-- Region labels -->
+  <text x="200" y="330" text-anchor="middle" font-size="13" fill="#1a4fa0" font-weight="bold">CONDENSATE</text>
+  <text x="150" y="105" text-anchor="middle" font-size="12.5" fill="#1a4fa0">1 &#8722; (T/T_c)&#179;&#8347;&#178;</text>
+  <text x="150" y="122" text-anchor="middle" font-size="11" fill="#555555">macroscopic N&#8320;</text>
+  <text x="150" y="136" text-anchor="middle" font-size="11" fill="#555555">in the ground state</text>
+
+  <text x="475" y="355" text-anchor="middle" font-size="12.5" fill="#555555">T &gt; T_c:  N&#8320;/N &#8776; 0</text>
+  <text x="475" y="371" text-anchor="middle" font-size="11" fill="#555555">no condensate; &#956; &lt; 0</text>
+
+  <!-- Annotation of the kink -->
+  <circle cx="340" cy="380" r="4.5" fill="#c0392b"/>
+  <text x="430" y="300" text-anchor="middle" font-size="11.5" fill="#c0392b" font-style="italic">transition switches on</text>
+  <text x="430" y="315" text-anchor="middle" font-size="11.5" fill="#c0392b" font-style="italic">exactly at T_c</text>
+  <line x1="400" y1="308" x2="345" y2="375" stroke="#c0392b" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- Inset: chemical potential pinning -->
+  <rect x="415" y="80" width="185" height="120" fill="#fbfbfb" stroke="#cccccc" stroke-width="1"/>
+  <text x="507" y="98" text-anchor="middle" font-size="11.5" fill="#111111" font-weight="bold">chemical potential &#956;(T)</text>
+  <!-- inset axes -->
+  <line x1="435" y1="120" x2="590" y2="120" stroke="#999999" stroke-width="1"/>
+  <text x="431" y="124" text-anchor="end" font-size="10" fill="#666666">0</text>
+  <!-- mu curve: pinned at 0 for T<Tc (left), dropping negative for T>Tc (right) -->
+  <line x1="435" y1="120" x2="507" y2="120" stroke="#2e7d32" stroke-width="2.5"/>
+  <path d="M 507 120 Q 545 122 590 175" fill="none" stroke="#2e7d32" stroke-width="2.5"/>
+  <line x1="507" y1="112" x2="507" y2="188" stroke="#c0392b" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="507" y="200" text-anchor="middle" font-size="9.5" fill="#c0392b">T_c</text>
+  <text x="470" y="113" text-anchor="middle" font-size="9.5" fill="#2e7d32">&#956; = 0 (pinned)</text>
+</svg>

@@ -1,0 +1,32 @@
+<svg viewBox="0 0 620 310" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="620" height="310" fill="#ffffff"/>
+  <text x="310" y="28" font-size="15" fill="#111" text-anchor="middle">Spin comes from the Lorentz group's representations (j&#8321;, j&#8322;).</text>
+
+  <!-- table -->
+  <g stroke="#ddd" stroke-width="1">
+    <line x1="60" y1="60" x2="560" y2="60"/>
+    <line x1="60" y1="105" x2="560" y2="105"/>
+    <line x1="60" y1="150" x2="560" y2="150"/>
+    <line x1="60" y1="195" x2="560" y2="195"/>
+    <line x1="60" y1="240" x2="560" y2="240"/>
+  </g>
+  <text x="150" y="52" font-size="13" fill="#555" text-anchor="middle">representation (j&#8321;, j&#8322;)</text>
+  <text x="400" y="52" font-size="13" fill="#555" text-anchor="middle">physical field</text>
+
+  <text x="150" y="90" font-size="15" fill="#111" text-anchor="middle">(0, 0)</text>
+  <text x="400" y="90" font-size="14" fill="#1f6fb2" text-anchor="middle">scalar (spin 0)</text>
+
+  <text x="150" y="135" font-size="15" fill="#111" text-anchor="middle">(&#189;, 0)</text>
+  <text x="400" y="135" font-size="14" fill="#c0532a" text-anchor="middle">left-handed Weyl spinor</text>
+
+  <text x="150" y="180" font-size="15" fill="#111" text-anchor="middle">(0, &#189;)</text>
+  <text x="400" y="180" font-size="14" fill="#c0532a" text-anchor="middle">right-handed Weyl spinor</text>
+
+  <text x="150" y="225" font-size="15" fill="#111" text-anchor="middle">(&#189;,0) &#8853; (0,&#189;)</text>
+  <text x="400" y="225" font-size="14" fill="#0a7d4f" text-anchor="middle">Dirac spinor (electron, spin &#189;)</text>
+
+  <text x="150" y="268" font-size="15" fill="#111" text-anchor="middle">(&#189;, &#189;)</text>
+  <text x="400" y="268" font-size="14" fill="#1f6fb2" text-anchor="middle">vector A&#7512; (spin 1, photon)</text>
+
+  <text x="310" y="298" font-size="12.5" fill="#111" text-anchor="middle">spinor reps are double-valued: rotate by 2&#960; and pick up a minus sign</text>
+</svg>

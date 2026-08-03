@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="sans-serif">
+  <rect x="0" y="0" width="640" height="420" fill="#ffffff"/>
+
+  <!-- column headers -->
+  <text x="170" y="30" font-size="17" fill="#222222" text-anchor="middle" font-weight="bold">Localize in position</text>
+  <text x="470" y="30" font-size="17" fill="#222222" text-anchor="middle" font-weight="bold">Spread in position</text>
+
+  <!-- divider -->
+  <line x1="320" y1="45" x2="320" y2="400" stroke="#cccccc" stroke-width="1" stroke-dasharray="4 4"/>
+
+  <!-- ===== TOP ROW: position distributions |psi(x)|^2 ===== -->
+  <text x="40" y="100" font-size="15" fill="#c01c28" transform="rotate(-90 40 100)" text-anchor="middle">|&#968;(x)|&#178;</text>
+
+  <!-- top-left axis -->
+  <line x1="60" y1="170" x2="290" y2="170" stroke="#222222" stroke-width="1.2"/>
+  <text x="286" y="188" font-size="14" fill="#222222">x</text>
+  <!-- narrow position peak -->
+  <polyline fill="none" stroke="#c01c28" stroke-width="2.5"
+    points="60,170 110,170 120,169.5 130,166.7 140,156 150,130.6 160,96.8 170,80 180,96.8 190,130.6 200,156 210,166.7 220,169.5 230,170 290,170"/>
+  <line x1="150" y1="150" x2="190" y2="150" stroke="#c01c28" stroke-width="1" marker-start="url(#ar)" marker-end="url(#ar)"/>
+  <text x="170" y="145" font-size="13" fill="#c01c28" text-anchor="middle">small &#963;&#8339;</text>
+
+  <!-- top-right axis -->
+  <line x1="360" y1="170" x2="590" y2="170" stroke="#222222" stroke-width="1.2"/>
+  <text x="586" y="188" font-size="14" fill="#222222">x</text>
+  <!-- wide position peak -->
+  <polyline fill="none" stroke="#c01c28" stroke-width="2.5"
+    points="360,162.4 370,158.3 380,152.8 390,145.6 400,136.9 410,126.8 420,116.0 430,105.0 440,95.1 450,87.1 460,81.8 470,80 480,81.8 490,87.1 500,95.1 510,105.0 520,116.0 530,126.8 540,136.9 550,145.6 560,152.8 570,158.3 580,162.4"/>
+  <line x1="400" y1="150" x2="540" y2="150" stroke="#c01c28" stroke-width="1" marker-start="url(#ar)" marker-end="url(#ar)"/>
+  <text x="470" y="145" font-size="13" fill="#c01c28" text-anchor="middle">large &#963;&#8339;</text>
+
+  <!-- ===== BOTTOM ROW: momentum distributions |phi(p)|^2 ===== -->
+  <text x="40" y="300" font-size="15" fill="#1a5fb4" transform="rotate(-90 40 300)" text-anchor="middle">|&#966;(p)|&#178;</text>
+
+  <!-- bottom-left axis -->
+  <line x1="60" y1="360" x2="290" y2="360" stroke="#222222" stroke-width="1.2"/>
+  <text x="286" y="378" font-size="14" fill="#222222">p</text>
+  <!-- wide momentum peak -->
+  <polyline fill="none" stroke="#1a5fb4" stroke-width="2.5"
+    points="60,352.4 70,348.3 80,342.8 90,335.6 100,326.9 110,316.8 120,306 130,295 140,285.1 150,277.1 160,271.8 170,270 180,271.8 190,277.1 200,285.1 210,295 220,306 230,316.8 240,326.9 250,335.6 260,342.8 270,348.3 280,352.4"/>
+  <line x1="100" y1="340" x2="240" y2="340" stroke="#1a5fb4" stroke-width="1" marker-start="url(#ab)" marker-end="url(#ab)"/>
+  <text x="170" y="335" font-size="13" fill="#1a5fb4" text-anchor="middle">large &#963;&#8346;</text>
+
+  <!-- bottom-right axis -->
+  <line x1="360" y1="360" x2="590" y2="360" stroke="#222222" stroke-width="1.2"/>
+  <text x="586" y="378" font-size="14" fill="#222222">p</text>
+  <!-- narrow momentum peak -->
+  <polyline fill="none" stroke="#1a5fb4" stroke-width="2.5"
+    points="360,360 410,360 420,359.5 430,356.7 440,346 450,320.6 460,286.8 470,270 480,286.8 490,320.6 500,346 510,356.7 520,359.5 530,360 590,360"/>
+  <line x1="450" y1="340" x2="490" y2="340" stroke="#1a5fb4" stroke-width="1" marker-start="url(#ab)" marker-end="url(#ab)"/>
+  <text x="470" y="335" font-size="13" fill="#1a5fb4" text-anchor="middle">small &#963;&#8346;</text>
+
+  <!-- caption -->
+  <text x="320" y="410" font-size="14" fill="#555555" text-anchor="middle" font-style="italic">Squeeze the position spread and the momentum spread balloons: the product &#963;&#8339;&#963;&#8346; can never drop below &#8463;/2.</text>
+
+  <!-- arrowhead markers -->
+  <defs>
+    <marker id="ar" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,1 L6,4 L0,7" fill="none" stroke="#c01c28" stroke-width="1"/></marker>
+    <marker id="ab" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,1 L6,4 L0,7" fill="none" stroke="#1a5fb4" stroke-width="1"/></marker>
+  </defs>
+</svg>

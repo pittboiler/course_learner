@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" font-family="sans-serif">
+  <rect x="0" y="0" width="720" height="380" fill="#ffffff"/>
+
+  <!-- ================= LEFT PANEL: 1-D Brouwer ================= -->
+  <text x="180" y="34" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">Brouwer in 1-D: g crosses the diagonal</text>
+
+  <!-- box -->
+  <rect x="60" y="60" width="240" height="240" fill="none" stroke="#888" stroke-width="1"/>
+  <!-- axes labels -->
+  <text x="180" y="330" text-anchor="middle" font-size="13" fill="#1a1a1a">p</text>
+  <text x="38" y="185" text-anchor="middle" font-size="13" fill="#1a1a1a" transform="rotate(-90 38 185)">g(p)</text>
+  <text x="56" y="316" text-anchor="middle" font-size="11" fill="#555">0</text>
+  <text x="300" y="316" text-anchor="middle" font-size="11" fill="#555">1</text>
+  <text x="46" y="64" text-anchor="middle" font-size="11" fill="#555">1</text>
+
+  <!-- diagonal g(p)=p -->
+  <line x1="60" y1="300" x2="300" y2="60" stroke="#999" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="286" y="76" text-anchor="end" font-size="11" fill="#777">g = p</text>
+
+  <!-- the continuous self-map g -->
+  <path d="M 60 180 Q 150 150 252 108 L 300 90" fill="none" stroke="#1f6feb" stroke-width="2.5"/>
+  <text x="150" y="140" text-anchor="middle" font-size="12" fill="#1f6feb">g(p)</text>
+
+  <!-- fixed point -->
+  <circle cx="252" cy="108" r="5" fill="#d13438"/>
+  <line x1="252" y1="108" x2="252" y2="300" stroke="#d13438" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="252" y="316" text-anchor="middle" font-size="12" fill="#d13438" font-weight="bold">p*</text>
+  <text x="262" y="104" font-size="11" fill="#d13438">g(p*) = p*</text>
+
+  <!-- ================= RIGHT PANEL: excess demand on simplex ================= -->
+  <text x="540" y="34" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">Excess demand vanishes at p*</text>
+
+  <!-- box -->
+  <rect x="420" y="60" width="240" height="240" fill="none" stroke="#888" stroke-width="1"/>
+  <!-- zero line -->
+  <line x1="420" y1="180" x2="660" y2="180" stroke="#999" stroke-width="1.2"/>
+  <text x="666" y="184" font-size="12" fill="#555">z&#8321; = 0</text>
+  <!-- axis label: price of good 1 along the simplex -->
+  <text x="540" y="330" text-anchor="middle" font-size="13" fill="#1a1a1a">p&#8321;  (price of good 1)</text>
+  <text x="416" y="76" text-anchor="end" font-size="11" fill="#555">+</text>
+  <text x="416" y="298" text-anchor="end" font-size="11" fill="#555">&#8722;</text>
+
+  <!-- excess-demand curve: blows up as p1 -> 0, decreasing, crosses zero, goes negative -->
+  <path d="M 442 72 C 480 120, 512 178, 540 180 C 578 183, 610 235, 636 268" fill="none" stroke="#2a7d2a" stroke-width="2.5"/>
+  <text x="470" y="100" font-size="12" fill="#2a7d2a">z&#8321;(p)</text>
+  <text x="448" y="66" font-size="10" fill="#2a7d2a">excess demand &#8593;</text>
+
+  <!-- equilibrium crossing -->
+  <circle cx="540" cy="180" r="5" fill="#d13438"/>
+  <line x1="540" y1="180" x2="540" y2="300" stroke="#d13438" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="540" y="316" text-anchor="middle" font-size="12" fill="#d13438" font-weight="bold">p*</text>
+
+  <!-- caption -->
+  <text x="360" y="366" text-anchor="middle" font-size="12" fill="#555">A fixed point of the price-adjustment map g is exactly a price where excess demand clears.</text>
+</svg>

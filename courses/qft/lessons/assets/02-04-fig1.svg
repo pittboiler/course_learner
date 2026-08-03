@@ -1,0 +1,25 @@
+<svg viewBox="0 0 560 320" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="560" height="320" fill="#ffffff"/>
+  <defs><marker id="pr" markerWidth="10" markerHeight="10" refX="7" refY="3.2" orient="auto"><path d="M0,0 L7,3.2 L0,6.4 Z" fill="#1f6fb2"/></marker></defs>
+  <text x="280" y="30" font-size="15" fill="#111" text-anchor="middle">The propagator: the amplitude for a particle to travel from y to x.</text>
+
+  <!-- time axis up -->
+  <line x1="70" y1="285" x2="70" y2="60" stroke="#111" stroke-width="1.2" marker-end="url(#t)"/>
+  <defs><marker id="t" markerWidth="9" markerHeight="9" refX="7" refY="3.2" orient="auto"><path d="M0,0 L7,3.2 L0,6.4 Z" fill="#111"/></marker></defs>
+  <text x="56" y="70" font-size="13" font-style="italic" fill="#111">t</text>
+
+  <!-- two events -->
+  <circle cx="180" cy="250" r="5" fill="#111"/>
+  <text x="168" y="272" font-size="14" font-style="italic" fill="#111">y</text>
+  <text x="150" y="272" font-size="11" fill="#555" text-anchor="end">(earlier)</text>
+  <circle cx="360" cy="110" r="5" fill="#111"/>
+  <text x="372" y="108" font-size="14" font-style="italic" fill="#111">x</text>
+  <text x="380" y="108" font-size="11" fill="#555">(later)</text>
+
+  <!-- propagator line (wavy) -->
+  <path d="M180,250 C 230,210 250,180 275,180 C 305,180 315,150 360,110"
+        fill="none" stroke="#1f6fb2" stroke-width="2.6" marker-end="url(#pr)"/>
+  <text x="235" y="165" font-size="13" fill="#1f6fb2">D_F(x&#8722;y)</text>
+
+  <text x="280" y="298" font-size="13.5" fill="#111" text-anchor="middle">D_F(x&#8722;y) = &#10216;0| T &#966;(x)&#966;(y) |0&#10217;   &#8596;   i / (p&#178; &#8722; m&#178; + i&#949;)  in momentum space</text>
+</svg>

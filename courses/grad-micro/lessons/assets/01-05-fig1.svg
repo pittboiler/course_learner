@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 460" font-family="sans-serif">
+  <rect x="0" y="0" width="700" height="460" fill="#ffffff"/>
+
+  <!-- title -->
+  <text x="350" y="34" text-anchor="middle" font-size="18" font-weight="bold" fill="#1a1a1a">Raise the parameter, the whole marginal-gain curve lifts: argmax slides right</text>
+
+  <!-- axes -->
+  <line x1="90" y1="60" x2="90" y2="410" stroke="#1a1a1a" stroke-width="2"/>
+  <line x1="90" y1="410" x2="640" y2="410" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="60" y="80" text-anchor="middle" font-size="14" fill="#1a1a1a">marginal</text>
+  <text x="60" y="96" text-anchor="middle" font-size="14" fill="#1a1a1a">gain</text>
+  <text x="648" y="415" font-size="15" fill="#1a1a1a">x</text>
+  <text x="82" y="405" text-anchor="end" font-size="13" fill="#1a1a1a">0</text>
+
+  <!-- marginal cost / zero reference line (horizontal) -->
+  <line x1="90" y1="330" x2="640" y2="330" stroke="#555555" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="596" y="322" font-size="13" fill="#555555">marginal cost</text>
+
+  <!-- low-theta marginal gain curve (downward sloping) -->
+  <polyline points="110,150 180,200 260,258 340,306 400,340 460,368" fill="none" stroke="#7a7a7a" stroke-width="2.5"/>
+  <text x="150" y="150" font-size="14" fill="#7a7a7a">MB(x; &#952;_low)</text>
+
+  <!-- high-theta marginal gain curve, shifted up (increasing differences) -->
+  <polyline points="110,96 190,140 280,190 370,240 450,286 520,326 560,350" fill="none" stroke="#0b60b0" stroke-width="2.5"/>
+  <text x="470" y="150" font-size="14" fill="#0b60b0">MB(x; &#952;_high)</text>
+
+  <!-- upward shift arrows -->
+  <line x1="300" y1="278" x2="300" y2="212" stroke="#0b60b0" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <polygon points="300,208 295,220 305,220" fill="#0b60b0"/>
+  <line x1="220" y1="230" x2="220" y2="166" stroke="#0b60b0" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <polygon points="220,162 215,174 225,174" fill="#0b60b0"/>
+
+  <!-- optimum for low theta: where grey curve crosses cost line (~x at 380,330) -->
+  <circle cx="380" cy="330" r="5.5" fill="#111111"/>
+  <line x1="380" y1="330" x2="380" y2="410" stroke="#111111" stroke-width="1.2" stroke-dasharray="3 3"/>
+  <text x="360" y="430" font-size="14" fill="#111111">x*(&#952;_low)</text>
+
+  <!-- optimum for high theta: where blue curve crosses cost line (~525,330) -->
+  <circle cx="525" cy="330" r="5.5" fill="#0b60b0"/>
+  <line x1="525" y1="330" x2="525" y2="410" stroke="#0b60b0" stroke-width="1.2" stroke-dasharray="3 3"/>
+  <text x="505" y="430" font-size="14" fill="#0b60b0">x*(&#952;_high)</text>
+
+  <!-- shift arrow along axis -->
+  <line x1="390" y1="392" x2="515" y2="392" stroke="#b02020" stroke-width="2"/>
+  <polygon points="515,392 503,387 503,397" fill="#b02020"/>
+  <text x="430" y="386" font-size="13" fill="#b02020">shifts right</text>
+
+  <!-- caption -->
+  <text x="350" y="452" text-anchor="middle" font-size="13" fill="#555555">Increasing differences = higher &#952; raises the marginal return to x everywhere, so the crossing point can only move right (never left).</text>
+</svg>

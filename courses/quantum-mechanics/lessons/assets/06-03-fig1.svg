@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 440" font-family="sans-serif">
+  <rect x="0" y="0" width="660" height="440" fill="#ffffff"/>
+
+  <text x="330" y="28" font-size="18" fill="#222222" text-anchor="middle">The variational landscape: minimize E(&#945;), and the floor E&#8320; is never breached</text>
+
+  <!-- axes -->
+  <line x1="70" y1="380" x2="620" y2="380" stroke="#222222" stroke-width="2"/>
+  <line x1="70" y1="395" x2="70" y2="50" stroke="#222222" stroke-width="2"/>
+  <polygon points="620,380 608,374 608,386" fill="#222222"/>
+  <polygon points="70,50 64,62 76,62" fill="#222222"/>
+  <text x="628" y="386" font-size="16" fill="#222222">&#945;</text>
+  <text x="52" y="58" font-size="16" fill="#222222">E</text>
+
+  <!-- the true ground-state energy E0: the floor -->
+  <line x1="70" y1="273" x2="600" y2="273" stroke="#b22222" stroke-width="2" stroke-dasharray="7 4"/>
+  <text x="486" y="267" font-size="15" fill="#b22222">E&#8320;  (true ground state &#8212; the floor)</text>
+
+  <!-- forbidden zone below E0 (no trial can reach here) -->
+  <text x="150" y="330" font-size="13" fill="#c98a8a" font-style="italic">forbidden: E(&#945;) &lt; E&#8320; is impossible</text>
+
+  <!-- E(alpha) = a*alpha + b/alpha, convex U-curve -->
+  <polyline fill="none" stroke="#1a3c5e" stroke-width="2.6"
+    points="114,78 136,164 158,202 203,232 247,238 291,234 335,226 423,202 512,174 600,143"/>
+  <text x="120" y="100" font-size="15" fill="#1a3c5e">E(&#945;) = &#10216;&#968;&#945;|H|&#968;&#945;&#10217; / &#10216;&#968;&#945;|&#968;&#945;&#10217;</text>
+
+  <!-- minimum point -->
+  <circle cx="247" cy="238" r="5" fill="#2e7d32"/>
+  <line x1="247" y1="238" x2="247" y2="380" stroke="#2e7d32" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <line x1="70" y1="238" x2="247" y2="238" stroke="#2e7d32" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <text x="247" y="398" font-size="14" fill="#2e7d32" text-anchor="middle">&#945;*</text>
+  <text x="255" y="232" font-size="14" fill="#2e7d32">best bound = min E(&#945;)</text>
+
+  <!-- the gap: the unavoidable overestimate -->
+  <line x1="150" y1="238" x2="150" y2="273" stroke="#7a3fb0" stroke-width="2"/>
+  <polygon points="150,238 145,249 155,249" fill="#7a3fb0"/>
+  <polygon points="150,273 145,262 155,262" fill="#7a3fb0"/>
+  <text x="160" y="260" font-size="13" fill="#7a3fb0">gap &#8805; 0</text>
+
+  <!-- E0 tick label on axis -->
+  <text x="64" y="278" font-size="14" fill="#b22222" text-anchor="end">E&#8320;</text>
+</svg>

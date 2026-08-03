@@ -1,0 +1,31 @@
+<svg viewBox="0 0 560 320" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="560" height="320" fill="#ffffff"/>
+  <defs>
+    <marker id="ee" markerWidth="10" markerHeight="10" refX="6" refY="3.2" orient="auto"><path d="M0,0 L8,3.2 L0,6.4 Z" fill="#c0532a"/></marker>
+    <marker id="mm" markerWidth="10" markerHeight="10" refX="6" refY="3.2" orient="auto"><path d="M0,0 L8,3.2 L0,6.4 Z" fill="#1f6fb2"/></marker>
+  </defs>
+  <text x="280" y="30" font-size="15" fill="#111" text-anchor="middle">e&#8722;&#956;&#8722; &#8594; e&#8722;&#956;&#8722;: a single photon exchanged (t-channel).</text>
+
+  <!-- electron line (top) -->
+  <line x1="60" y1="80" x2="240" y2="120" stroke="#c0532a" stroke-width="2.4" marker-end="url(#ee)"/>
+  <line x1="240" y1="120" x2="420" y2="80" stroke="#c0532a" stroke-width="2.4"/>
+  <polygon points="345,95 333,89 337,101" fill="#c0532a"/>
+  <circle cx="240" cy="120" r="5" fill="#111"/>
+  <text x="48" y="76" font-size="12.5" fill="#c0532a" text-anchor="end">e&#8722; p&#8321;</text>
+  <text x="430" y="76" font-size="12.5" fill="#c0532a">e&#8722; p&#8323;</text>
+
+  <!-- muon line (bottom) -->
+  <line x1="60" y1="260" x2="240" y2="220" stroke="#1f6fb2" stroke-width="2.4" marker-end="url(#mm)"/>
+  <line x1="240" y1="220" x2="420" y2="260" stroke="#1f6fb2" stroke-width="2.4"/>
+  <polygon points="345,245 333,239 337,251" fill="#1f6fb2"/>
+  <circle cx="240" cy="220" r="5" fill="#111"/>
+  <text x="48" y="266" font-size="12.5" fill="#1f6fb2" text-anchor="end">&#956;&#8722; p&#8322;</text>
+  <text x="430" y="266" font-size="12.5" fill="#1f6fb2">&#956;&#8722; p&#8324;</text>
+
+  <!-- photon (vertical wavy) -->
+  <path d="M240,120 q 14,12.5 0,25 q -14,12.5 0,25 q 14,12.5 0,25 q -14,12.5 0,25"
+        fill="none" stroke="#0a7d4f" stroke-width="2.2"/>
+  <text x="258" y="175" font-size="12.5" fill="#0a7d4f">&#947;, q = p&#8321;&#8722;p&#8323;</text>
+
+  <text x="280" y="305" font-size="13.5" fill="#111" text-anchor="middle">i&#8499; = (ie&#178;/q&#178;)[u&#772;(p&#8323;)&#947;&#7512;u(p&#8321;)][u&#772;(p&#8324;)&#947;&#7512;u(p&#8322;)]</text>
+</svg>

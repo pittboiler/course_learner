@@ -1,0 +1,76 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="640" height="340" fill="#ffffff"/>
+
+  <!-- Row 1: right shift R -->
+  <text x="20" y="40" font-size="18" fill="#1a1a1a" font-weight="bold">Right shift R : (x&#8321;, x&#8322;, x&#8323;, &#8230;) &#8614; (0, x&#8321;, x&#8322;, &#8230;)</text>
+
+  <!-- input boxes -->
+  <g stroke="#1a1a1a" stroke-width="1.5" fill="none">
+    <rect x="30" y="60" width="46" height="40"/>
+    <rect x="76" y="60" width="46" height="40"/>
+    <rect x="122" y="60" width="46" height="40"/>
+    <rect x="168" y="60" width="46" height="40"/>
+  </g>
+  <g font-size="16" fill="#1a1a1a" text-anchor="middle">
+    <text x="53" y="86">x&#8321;</text>
+    <text x="99" y="86">x&#8322;</text>
+    <text x="145" y="86">x&#8323;</text>
+    <text x="191" y="86">&#8230;</text>
+  </g>
+
+  <!-- arrow -->
+  <line x1="232" y1="80" x2="342" y2="80" stroke="#1a1a1a" stroke-width="1.5"/>
+  <polygon points="342,80 332,75 332,85" fill="#1a1a1a"/>
+  <text x="287" y="72" font-size="16" fill="#1a1a1a" text-anchor="middle">R</text>
+
+  <!-- output boxes -->
+  <g stroke="#1a1a1a" stroke-width="1.5" fill="none">
+    <rect x="360" y="60" width="46" height="40"/>
+    <rect x="406" y="60" width="46" height="40"/>
+    <rect x="452" y="60" width="46" height="40"/>
+    <rect x="498" y="60" width="46" height="40"/>
+  </g>
+  <g font-size="16" fill="#1a1a1a" text-anchor="middle">
+    <text x="383" y="86">0</text>
+    <text x="429" y="86">x&#8321;</text>
+    <text x="475" y="86">x&#8322;</text>
+    <text x="521" y="86">&#8230;</text>
+  </g>
+
+  <!-- Row 2: left shift L = R* -->
+  <text x="20" y="185" font-size="18" fill="#1a1a1a" font-weight="bold">Adjoint R* = L : (y&#8321;, y&#8322;, y&#8323;, &#8230;) &#8614; (y&#8322;, y&#8323;, y&#8324;, &#8230;)</text>
+
+  <g stroke="#1a1a1a" stroke-width="1.5" fill="none">
+    <rect x="30" y="205" width="46" height="40"/>
+    <rect x="76" y="205" width="46" height="40"/>
+    <rect x="122" y="205" width="46" height="40"/>
+    <rect x="168" y="205" width="46" height="40"/>
+  </g>
+  <g font-size="16" fill="#1a1a1a" text-anchor="middle">
+    <text x="53" y="231">y&#8321;</text>
+    <text x="99" y="231">y&#8322;</text>
+    <text x="145" y="231">y&#8323;</text>
+    <text x="191" y="231">&#8230;</text>
+  </g>
+
+  <line x1="232" y1="225" x2="342" y2="225" stroke="#1a1a1a" stroke-width="1.5"/>
+  <polygon points="342,225 332,220 332,230" fill="#1a1a1a"/>
+  <text x="287" y="217" font-size="16" fill="#1a1a1a" text-anchor="middle">R*</text>
+
+  <g stroke="#1a1a1a" stroke-width="1.5" fill="none">
+    <rect x="360" y="205" width="46" height="40"/>
+    <rect x="406" y="205" width="46" height="40"/>
+    <rect x="452" y="205" width="46" height="40"/>
+    <rect x="498" y="205" width="46" height="40"/>
+  </g>
+  <g font-size="16" fill="#1a1a1a" text-anchor="middle">
+    <text x="383" y="231">y&#8322;</text>
+    <text x="429" y="231">y&#8323;</text>
+    <text x="475" y="231">y&#8324;</text>
+    <text x="521" y="231">&#8230;</text>
+  </g>
+
+  <!-- caption -->
+  <text x="320" y="300" font-size="15" fill="#1a1a1a" text-anchor="middle">R* R = I  (nothing lost going right then left)</text>
+  <text x="320" y="322" font-size="15" fill="#1a1a1a" text-anchor="middle">R R* &#8800; I  (going left then right kills the first slot)</text>
+</svg>

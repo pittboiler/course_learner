@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380">
+  <rect x="0" y="0" width="680" height="380" fill="#ffffff"/>
+
+  <!-- column headers -->
+  <text x="150" y="34" font-family="sans-serif" font-size="16" fill="#1e3a8a" font-weight="bold" text-anchor="middle">CONTINUOUS SYMMETRY</text>
+  <text x="150" y="52" font-family="sans-serif" font-size="12" fill="#374151" text-anchor="middle">of the action S</text>
+  <text x="565" y="34" font-family="sans-serif" font-size="16" fill="#166534" font-weight="bold" text-anchor="middle">CONSERVED QUANTITY</text>
+  <text x="565" y="52" font-family="sans-serif" font-size="12" fill="#374151" text-anchor="middle">current J&#8305;, charge Q</text>
+
+  <!-- central Noether band -->
+  <rect x="300" y="66" width="80" height="248" rx="10" fill="#f3f4f6" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="340" y="180" font-family="sans-serif" font-size="15" fill="#111827" font-weight="bold" text-anchor="middle" transform="rotate(-90 340 190)">NOETHER</text>
+  <text x="340" y="205" font-family="sans-serif" font-size="12" fill="#374151" text-anchor="middle" transform="rotate(-90 340 205)">&#8706;&#8342; J&#8305; = 0</text>
+
+  <!-- ROW 1: spacetime translation -> energy-momentum -->
+  <rect x="30" y="72" width="240" height="66" rx="8" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+  <text x="150" y="98" font-family="sans-serif" font-size="14" fill="#1e3a8a" font-weight="bold" text-anchor="middle">spacetime translation</text>
+  <text x="150" y="122" font-family="sans-serif" font-size="13" fill="#1e3a8a" text-anchor="middle">x&#7504; &#8594; x&#7504; + a&#7504;</text>
+
+  <rect x="410" y="72" width="240" height="66" rx="8" fill="#dcfce7" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="530" y="98" font-family="sans-serif" font-size="14" fill="#166534" font-weight="bold" text-anchor="middle">energy &amp; momentum</text>
+  <text x="530" y="122" font-family="sans-serif" font-size="13" fill="#166534" text-anchor="middle">stress&#8211;energy T&#7504;&#7515;  (&#8594; 3.3)</text>
+
+  <line x1="270" y1="105" x2="300" y2="105" stroke="#6b7280" stroke-width="2"/>
+  <line x1="380" y1="105" x2="404" y2="105" stroke="#6b7280" stroke-width="2"/>
+  <polygon points="410,105 401,101 401,109" fill="#6b7280"/>
+
+  <!-- ROW 2: internal phase rotation -> charge -->
+  <rect x="30" y="164" width="240" height="66" rx="8" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+  <text x="150" y="190" font-family="sans-serif" font-size="14" fill="#1e3a8a" font-weight="bold" text-anchor="middle">internal phase rotation</text>
+  <text x="150" y="214" font-family="sans-serif" font-size="13" fill="#1e3a8a" text-anchor="middle">&#966; &#8594; e&#8305;&#945; &#966;</text>
+
+  <rect x="410" y="164" width="240" height="66" rx="8" fill="#dcfce7" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="530" y="190" font-family="sans-serif" font-size="14" fill="#166534" font-weight="bold" text-anchor="middle">electric-type charge</text>
+  <text x="530" y="214" font-family="sans-serif" font-size="13" fill="#166534" text-anchor="middle">Q = &#8747; J&#8304; d&#179;x</text>
+
+  <line x1="270" y1="197" x2="300" y2="197" stroke="#6b7280" stroke-width="2"/>
+  <line x1="380" y1="197" x2="404" y2="197" stroke="#6b7280" stroke-width="2"/>
+  <polygon points="410,197 401,193 401,201" fill="#6b7280"/>
+
+  <!-- ROW 3: rotation/boost -> angular momentum -->
+  <rect x="30" y="256" width="240" height="66" rx="8" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+  <text x="150" y="282" font-family="sans-serif" font-size="14" fill="#1e3a8a" font-weight="bold" text-anchor="middle">rotations &amp; boosts</text>
+  <text x="150" y="306" font-family="sans-serif" font-size="13" fill="#1e3a8a" text-anchor="middle">Lorentz transformation</text>
+
+  <rect x="410" y="256" width="240" height="66" rx="8" fill="#dcfce7" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="530" y="282" font-family="sans-serif" font-size="14" fill="#166534" font-weight="bold" text-anchor="middle">angular momentum</text>
+  <text x="530" y="306" font-family="sans-serif" font-size="13" fill="#166534" text-anchor="middle">M&#7504;&#7515;&#7526;</text>
+
+  <line x1="270" y1="289" x2="300" y2="289" stroke="#6b7280" stroke-width="2"/>
+  <line x1="380" y1="289" x2="404" y2="289" stroke="#6b7280" stroke-width="2"/>
+  <polygon points="410,289 401,285 401,293" fill="#6b7280"/>
+
+  <!-- footer -->
+  <text x="340" y="352" font-family="sans-serif" font-size="13" fill="#374151" text-anchor="middle" font-style="italic">Conservation laws are shadows of symmetries.</text>
+</svg>

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420">
+  <rect x="0" y="0" width="760" height="420" fill="#ffffff"/>
+
+  <!-- title -->
+  <text x="380" y="32" font-family="sans-serif" font-size="20" font-weight="bold" fill="#1a1a1a" text-anchor="middle">The metric IS the geometry</text>
+  <text x="380" y="55" font-family="sans-serif" font-size="14" fill="#444444" text-anchor="middle">ds&#178; = g&#8347;&#8341; dx&#8341; dx&#8341;  measures every little distance &#183; different g, different world</text>
+
+  <!-- ===================== LEFT: FLAT PLANE ===================== -->
+  <text x="185" y="90" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1a1a1a" text-anchor="middle">Flat plane</text>
+
+  <!-- square grid -->
+  <g stroke="#1f4e9e" stroke-width="1.2" fill="none">
+    <line x1="70" y1="110" x2="300" y2="110"/>
+    <line x1="70" y1="148" x2="300" y2="148"/>
+    <line x1="70" y1="186" x2="300" y2="186"/>
+    <line x1="70" y1="224" x2="300" y2="224"/>
+    <line x1="70" y1="262" x2="300" y2="262"/>
+    <line x1="70" y1="300" x2="300" y2="300"/>
+    <line x1="70"  y1="110" x2="70"  y2="300"/>
+    <line x1="108" y1="110" x2="108" y2="300"/>
+    <line x1="146" y1="110" x2="146" y2="300"/>
+    <line x1="184" y1="110" x2="184" y2="300"/>
+    <line x1="222" y1="110" x2="222" y2="300"/>
+    <line x1="260" y1="110" x2="260" y2="300"/>
+    <line x1="298" y1="110" x2="298" y2="300"/>
+  </g>
+
+  <!-- one grid cell highlighted -->
+  <rect x="146" y="186" width="38" height="38" fill="#1f4e9e" fill-opacity="0.12" stroke="#1f4e9e" stroke-width="1.4"/>
+  <text x="240" y="180" font-family="sans-serif" font-size="13" fill="#c02626" text-anchor="middle">g&#8347;&#8341; = &#948;&#8347;&#8341;</text>
+  <text x="240" y="197" font-family="sans-serif" font-size="12" fill="#666666" text-anchor="middle">(identity)</text>
+
+  <text x="185" y="335" font-family="sans-serif" font-size="14" fill="#1a1a1a" text-anchor="middle">ds&#178; = dx&#178; + dy&#178;</text>
+  <text x="185" y="360" font-family="sans-serif" font-size="12.5" fill="#444444" text-anchor="middle">grid straightens out globally</text>
+  <text x="185" y="378" font-family="sans-serif" font-size="12.5" fill="#444444" text-anchor="middle">&#8594; curvature = 0</text>
+
+  <!-- divider -->
+  <line x1="380" y1="80" x2="380" y2="395" stroke="#cccccc" stroke-width="1" stroke-dasharray="4 4"/>
+
+  <!-- ===================== RIGHT: 2-SPHERE ===================== -->
+  <text x="575" y="90" font-family="sans-serif" font-size="16" font-weight="bold" fill="#1a1a1a" text-anchor="middle">2-sphere (radius a)</text>
+
+  <!-- sphere outline -->
+  <circle cx="575" cy="210" r="110" fill="#1a7a3a" fill-opacity="0.06" stroke="#1a1a1a" stroke-width="1.8"/>
+
+  <!-- latitude circles (foreshortened ellipses) -->
+  <g stroke="#1a7a3a" stroke-width="1.2" fill="none">
+    <ellipse cx="575" cy="140" rx="84.9" ry="24"/>
+    <ellipse cx="575" cy="175" rx="104.3" ry="29"/>
+    <ellipse cx="575" cy="210" rx="110"  ry="31"/>
+    <ellipse cx="575" cy="245" rx="104.3" ry="29"/>
+    <ellipse cx="575" cy="280" rx="84.9" ry="24"/>
+  </g>
+
+  <!-- longitude meridians -->
+  <g stroke="#1a7a3a" stroke-width="1.2" fill="none">
+    <line x1="575" y1="100" x2="575" y2="320"/>
+    <ellipse cx="575" cy="210" rx="55" ry="110"/>
+    <ellipse cx="575" cy="210" rx="95" ry="110"/>
+  </g>
+
+  <!-- poles -->
+  <circle cx="575" cy="100" r="3.5" fill="#c02626"/>
+  <circle cx="575" cy="320" r="3.5" fill="#c02626"/>
+  <text x="575" y="94" font-family="sans-serif" font-size="11" fill="#c02626" text-anchor="middle">pole</text>
+
+  <!-- one curved "cell" highlighted -->
+  <path d="M 575 210 A 95 110 0 0 1 620 245 A 104.3 29 0 0 1 575 245 Z" fill="#c02626" fill-opacity="0.18" stroke="#c02626" stroke-width="1.3"/>
+
+  <text x="575" y="357" font-family="sans-serif" font-size="14" fill="#1a1a1a" text-anchor="middle">ds&#178; = a&#178;(d&#952;&#178; + sin&#178;&#952; d&#966;&#178;)</text>
+  <text x="575" y="380" font-family="sans-serif" font-size="12.5" fill="#444444" text-anchor="middle">no chart straightens it &#8594; genuinely curved</text>
+</svg>

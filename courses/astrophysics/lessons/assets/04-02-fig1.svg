@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 470" font-family="sans-serif">
+  <rect x="0" y="0" width="720" height="470" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="360" y="26" text-anchor="middle" font-size="17" font-weight="bold" fill="#111">The lighthouse model of a pulsar</text>
+  <text x="360" y="45" text-anchor="middle" font-size="12" fill="#555">a spinning, magnetized neutron star beams from its magnetic poles — misaligned with the spin axis</text>
+
+  <!-- ===== Left: the neutron star ===== -->
+
+  <!-- spin axis (vertical dashed) -->
+  <line x1="230" y1="80" x2="230" y2="400" stroke="#2a6fd6" stroke-width="2" stroke-dasharray="6 5"/>
+  <text x="238" y="96" font-size="12" fill="#1c4f9c" font-weight="bold">spin axis  &#937;</text>
+
+  <!-- rotation arrow around top -->
+  <path d="M 200 118 A 34 14 0 1 1 262 116" fill="none" stroke="#1c4f9c" stroke-width="2"/>
+  <polygon points="262,116 254,110 253,121" fill="#1c4f9c"/>
+  <text x="150" y="112" font-size="11" fill="#1c4f9c">rotation</text>
+
+  <!-- North radiation beam (cone from magnetic N pole) -->
+  <polygon points="265,169 374.6,59 305.4,19" fill="#f4c430" fill-opacity="0.45" stroke="#e0a800" stroke-width="1"/>
+  <!-- South radiation beam -->
+  <polygon points="195,291 154.6,440.9 85.4,400.9" fill="#f4c430" fill-opacity="0.45" stroke="#e0a800" stroke-width="1"/>
+
+  <!-- magnetic axis line through the star -->
+  <line x1="120" y1="420.9" x2="355" y2="13" stroke="#d8451f" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="392" y="66" font-size="12" fill="#d8451f" font-weight="bold">magnetic axis</text>
+
+  <!-- dipole field lines -->
+  <path d="M 265 169 C 355 150, 360 250, 265 240" fill="none" stroke="#d8451f" stroke-width="1.2" opacity="0.6"/>
+  <path d="M 195 291 C 105 310, 100 210, 195 220" fill="none" stroke="#d8451f" stroke-width="1.2" opacity="0.6"/>
+  <path d="M 265 169 C 400 140, 405 300, 195 291" fill="none" stroke="#d8451f" stroke-width="1" opacity="0.4"/>
+
+  <!-- neutron star body -->
+  <circle cx="230" cy="230" r="70" fill="#3a3f52" stroke="#111" stroke-width="2"/>
+  <circle cx="230" cy="230" r="70" fill="url(#g)" opacity="0.35"/>
+  <radialGradient id="g" cx="38%" cy="34%" r="70%">
+    <stop offset="0%" stop-color="#9aa2c0"/>
+    <stop offset="100%" stop-color="#2a2e3d"/>
+  </radialGradient>
+  <!-- magnetic poles -->
+  <circle cx="265" cy="169" r="6" fill="#d8451f"/>
+  <circle cx="195" cy="291" r="6" fill="#d8451f"/>
+  <text x="222" y="222" text-anchor="middle" font-size="13" fill="#ffffff" font-weight="bold">neutron</text>
+  <text x="222" y="240" text-anchor="middle" font-size="13" fill="#ffffff" font-weight="bold">star</text>
+  <text x="120" y="352" font-size="11" fill="#333">R &#8776; 10 km   M &#8776; 1.4 M&#8857;</text>
+
+  <!-- sweep annotation -->
+  <path d="M 300 45 A 90 90 0 0 1 388 92" fill="none" stroke="#888" stroke-width="1.5" stroke-dasharray="3 4"/>
+  <text x="392" y="90" font-size="11" fill="#666">beam sweeps</text>
+  <text x="392" y="104" font-size="11" fill="#666">a cone as it spins</text>
+
+  <!-- ===== Right: the pulse train seen at Earth ===== -->
+  <line x1="470" y1="150" x2="470" y2="330" stroke="#ccc" stroke-width="1"/>
+
+  <text x="590" y="180" text-anchor="middle" font-size="13" fill="#111" font-weight="bold">What Earth sees</text>
+  <text x="590" y="198" text-anchor="middle" font-size="11" fill="#555">one flash each time a beam points at us</text>
+
+  <!-- pulse-train baseline -->
+  <line x1="500" y1="300" x2="700" y2="300" stroke="#333" stroke-width="1.5"/>
+  <text x="496" y="304" text-anchor="end" font-size="10" fill="#333">I</text>
+
+  <!-- pulses: sharp spikes at regular period -->
+  <g stroke="#2e8b3d" stroke-width="2.5" fill="none">
+    <path d="M 512 300 L 518 224 L 524 300"/>
+    <path d="M 556 300 L 562 224 L 568 300"/>
+    <path d="M 600 300 L 606 224 L 612 300"/>
+    <path d="M 644 300 L 650 224 L 656 300"/>
+    <path d="M 688 300 L 694 224 L 700 300"/>
+  </g>
+
+  <!-- period bracket -->
+  <line x1="518" y1="318" x2="562" y2="318" stroke="#111" stroke-width="1"/>
+  <line x1="518" y1="314" x2="518" y2="322" stroke="#111" stroke-width="1"/>
+  <line x1="562" y1="314" x2="562" y2="322" stroke="#111" stroke-width="1"/>
+  <text x="540" y="334" text-anchor="middle" font-size="12" fill="#111" font-weight="bold">P</text>
+  <text x="600" y="352" text-anchor="middle" font-size="11" fill="#555">P = spin period (ms &#8211; s), steady as a clock</text>
+  <text x="590" y="384" text-anchor="middle" font-size="11" fill="#333">time  &#8594;</text>
+</svg>

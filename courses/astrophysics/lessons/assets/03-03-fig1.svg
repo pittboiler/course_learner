@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 470" font-family="sans-serif">
+  <rect x="0" y="0" width="680" height="470" fill="#ffffff"/>
+
+  <defs>
+    <marker id="arrUp" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <path d="M1,9 L5,1 L9,9" fill="none" stroke="#1f7a3d" stroke-width="2"/>
+    </marker>
+    <marker id="arrDown" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <path d="M1,9 L5,1 L9,9" fill="none" stroke="#a12a17" stroke-width="2"/>
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <text x="340" y="26" text-anchor="middle" font-size="17" font-weight="bold" fill="#111">Binding energy per nucleon — the master curve</text>
+
+  <!-- Plot frame -->
+  <rect x="90" y="50" width="540" height="350" fill="none" stroke="#333" stroke-width="1.5"/>
+
+  <!-- Iron peak vertical guide -->
+  <line x1="216" y1="50" x2="216" y2="400" stroke="#888" stroke-width="1" stroke-dasharray="5 4"/>
+
+  <!-- The curve: x = 90 + 2.25*A, y = 400 - 38.89*(B/A) -->
+  <polyline points="92,400 94.5,357 99,125 104,193 117,101 126,90 135,88 144,79 153,71 180,67.5 216,58 279,61 360,69 427,79 540,94 625.5,106"
+            fill="none" stroke="#2b5fb0" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Fusion arrow (climbing the left slope toward Fe) -->
+  <path d="M150,240 Q175,150 205,80" fill="none" stroke="#1f7a3d" stroke-width="2.5" marker-end="url(#arrUp)"/>
+  <text x="118" y="270" font-size="13" font-weight="bold" fill="#1f7a3d">FUSION</text>
+  <text x="112" y="286" font-size="11" fill="#1f7a3d">releases energy</text>
+  <text x="120" y="300" font-size="11" fill="#1f7a3d">(light &#8594; heavier)</text>
+
+  <!-- Fission arrow (descending from the heavy side toward Fe) -->
+  <path d="M470,120 Q330,80 235,70" fill="none" stroke="#a12a17" stroke-width="2.5" marker-end="url(#arrDown)"/>
+  <text x="480" y="150" font-size="13" font-weight="bold" fill="#a12a17">FISSION</text>
+  <text x="474" y="166" font-size="11" fill="#a12a17">releases energy</text>
+  <text x="470" y="180" font-size="11" fill="#a12a17">(heavy &#8594; lighter)</text>
+
+  <!-- Marked nuclei -->
+  <!-- H-1 -->
+  <circle cx="92.25" cy="400" r="4" fill="#111"/>
+  <text x="86" y="416" font-size="12" font-weight="bold" fill="#111">¹H</text>
+  <!-- He-4 -->
+  <circle cx="99" cy="125" r="4.5" fill="#c47f14"/>
+  <text x="60" y="122" font-size="12" font-weight="bold" fill="#8a5a00">⁴He</text>
+  <text x="44" y="136" font-size="9.5" fill="#8a5a00">7.07 MeV</text>
+  <!-- C-12 -->
+  <circle cx="117" cy="101" r="4.5" fill="#5a5a5a"/>
+  <text x="120" y="98" font-size="12" font-weight="bold" fill="#333">¹²C</text>
+  <!-- O-16 -->
+  <circle cx="126" cy="90" r="4" fill="#2b7a9c"/>
+  <text x="129" y="83" font-size="11" font-weight="bold" fill="#1d5a74">¹⁶O</text>
+  <!-- Fe-56 peak -->
+  <circle cx="216" cy="58" r="6" fill="#d9480f" stroke="#7a2600" stroke-width="1.5"/>
+  <text x="224" y="52" font-size="13" font-weight="bold" fill="#7a2600">⁵⁶Fe — the summit</text>
+  <text x="224" y="67" font-size="10" fill="#7a2600">most bound: 8.8 MeV/nucleon</text>
+  <!-- U-238 -->
+  <circle cx="625.5" cy="106" r="4.5" fill="#5a3a8a"/>
+  <text x="596" y="122" font-size="12" font-weight="bold" fill="#4a2a70">²³⁸U</text>
+
+  <!-- Y axis label + ticks (B/A in MeV): 0->400, 2->322.2, 4->244.4, 6->166.7, 8->88.9 -->
+  <text x="30" y="235" font-size="13" fill="#111" transform="rotate(-90 30 235)">binding energy per nucleon  (MeV)</text>
+  <g font-size="11" fill="#333">
+    <line x1="85" y1="400" x2="90" y2="400" stroke="#333"/><text x="80" y="404" text-anchor="end">0</text>
+    <line x1="85" y1="322.2" x2="90" y2="322.2" stroke="#333"/><text x="80" y="326" text-anchor="end">2</text>
+    <line x1="85" y1="244.4" x2="90" y2="244.4" stroke="#333"/><text x="80" y="248" text-anchor="end">4</text>
+    <line x1="85" y1="166.7" x2="90" y2="166.7" stroke="#333"/><text x="80" y="170" text-anchor="end">6</text>
+    <line x1="85" y1="88.9" x2="90" y2="88.9" stroke="#333"/><text x="80" y="92" text-anchor="end">8</text>
+  </g>
+
+  <!-- X axis label + ticks (mass number A): x = 90 + 2.25*A -->
+  <text x="360" y="452" text-anchor="middle" font-size="13" fill="#111">mass number  A  (number of nucleons)</text>
+  <g font-size="11" fill="#333">
+    <line x1="90" y1="400" x2="90" y2="405" stroke="#333"/><text x="90" y="418" text-anchor="middle">0</text>
+    <line x1="202.5" y1="400" x2="202.5" y2="405" stroke="#333"/><text x="202.5" y="418" text-anchor="middle">50</text>
+    <line x1="315" y1="400" x2="315" y2="405" stroke="#333"/><text x="315" y="418" text-anchor="middle">100</text>
+    <line x1="427.5" y1="400" x2="427.5" y2="405" stroke="#333"/><text x="427.5" y="418" text-anchor="middle">150</text>
+    <line x1="540" y1="400" x2="540" y2="405" stroke="#333"/><text x="540" y="418" text-anchor="middle">200</text>
+  </g>
+</svg>

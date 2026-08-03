@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" font-family="sans-serif">
+  <rect x="0" y="0" width="720" height="400" fill="#ffffff"/>
+
+  <!-- title -->
+  <text x="360" y="28" font-size="17" font-weight="bold" fill="#1a1a1a" text-anchor="middle">The value = the peak of the row player's lower envelope</text>
+  <text x="360" y="48" font-size="13" fill="#1a1a1a" text-anchor="middle">Row mixes p on the top row; each column is a line; guarantee = min of the lines</text>
+
+  <!-- axes -->
+  <line x1="90" y1="340" x2="645" y2="340" stroke="#1a1a1a" stroke-width="2"/>
+  <line x1="90" y1="60" x2="90" y2="340" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="655" y="345" font-size="13" fill="#1a1a1a">p</text>
+  <text x="330" y="378" font-size="13" fill="#1a1a1a">p = probability row plays the TOP row</text>
+  <text x="30" y="95" font-size="13" fill="#1a1a1a" transform="rotate(-90 30 95)">row's guaranteed payoff</text>
+
+  <!-- x ticks -->
+  <line x1="90" y1="340" x2="90" y2="346" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="86" y="360" font-size="12" fill="#1a1a1a">0</text>
+  <line x1="620" y1="340" x2="620" y2="346" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="616" y="360" font-size="12" fill="#1a1a1a">1</text>
+  <line x1="408" y1="340" x2="408" y2="346" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="392" y="360" font-size="12" fill="#1a1a1a">3/5</text>
+
+  <!-- y ticks: payoff -2..4, y = 340 - (v+2)*45 -->
+  <line x1="84" y1="340" x2="90" y2="340" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="66" y="344" font-size="12" fill="#1a1a1a">-2</text>
+  <line x1="84" y1="250" x2="90" y2="250" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="72" y="254" font-size="12" fill="#1a1a1a">0</text>
+  <line x1="84" y1="205" x2="90" y2="205" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="72" y="209" font-size="12" fill="#1a1a1a">1</text>
+  <line x1="84" y1="70" x2="90" y2="70" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="72" y="74" font-size="12" fill="#1a1a1a">4</text>
+
+  <!-- thin column lines -->
+  <!-- vs Col 1: f1 = 5p-2 from (90,340) to (620,115) -->
+  <line x1="90" y1="340" x2="620" y2="115" stroke="#1a1a1a" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="548" y="108" font-size="12" fill="#1a1a1a">vs Col 1: 5p−2</text>
+  <!-- vs Col 2: f2 = 4-5p from (90,70) to (620,295) -->
+  <line x1="90" y1="70" x2="620" y2="295" stroke="#1a1a1a" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="112" y="86" font-size="12" fill="#1a1a1a">vs Col 2: 4−5p</text>
+
+  <!-- lower envelope (bold): (90,340) -> (408,205) -> (620,295) -->
+  <polyline points="90,340 408,205 620,295" fill="none" stroke="#1a1a1a" stroke-width="4" stroke-linejoin="round"/>
+  <text x="150" y="300" font-size="13" font-weight="bold" fill="#1a1a1a">row's guarantee = min over columns</text>
+
+  <!-- peak / saddle -->
+  <line x1="408" y1="205" x2="408" y2="340" stroke="#1a1a1a" stroke-width="1" stroke-dasharray="3 3"/>
+  <circle cx="408" cy="205" r="6" fill="#1a1a1a"/>
+  <text x="420" y="188" font-size="14" font-weight="bold" fill="#1a1a1a">value v = 1</text>
+  <text x="420" y="205" font-size="12" fill="#1a1a1a">saddle: max of the min</text>
+
+  <!-- endpoints note -->
+  <text x="150" y="326" font-size="11" fill="#1a1a1a">pure p=0 or p=1 sits BELOW the peak — mixing pays</text>
+</svg>

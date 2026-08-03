@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 430" font-family="sans-serif">
+  <rect x="0" y="0" width="640" height="430" fill="#ffffff"/>
+
+  <!-- axes -->
+  <line x1="70" y1="40" x2="70" y2="360" stroke="#333333" stroke-width="2"/>
+  <line x1="70" y1="360" x2="610" y2="360" stroke="#333333" stroke-width="2"/>
+  <text x="40" y="45" font-size="13" fill="#333333">rate</text>
+  <text x="596" y="385" font-size="15" fill="#333333" font-style="italic">k</text>
+
+  <!-- horizontal line: n + g + delta -->
+  <line x1="70" y1="253" x2="600" y2="253" stroke="#1f6feb" stroke-width="2.5"/>
+  <text x="470" y="245" font-size="15" fill="#1f6feb">n + g + &#948;</text>
+
+  <!-- declining curve: s f(k)/k -->
+  <polyline fill="none" stroke="#c0392b" stroke-width="2.5"
+    points="112,62 123,93 150,142 176,171 229,206 282,227 335,241 401,253 494,266 600,276"/>
+  <text x="118" y="52" font-size="15" fill="#c0392b">s f(k) / k</text>
+
+  <!-- k* marker -->
+  <line x1="401" y1="253" x2="401" y2="360" stroke="#555555" stroke-width="1.5" stroke-dasharray="5,4"/>
+  <circle cx="401" cy="253" r="4" fill="#333333"/>
+  <text x="392" y="380" font-size="15" fill="#333333" font-style="italic">k*</text>
+
+  <!-- growth-rate gap at k0 (below k*) -->
+  <line x1="176" y1="360" x2="176" y2="171" stroke="#888888" stroke-width="1.5" stroke-dasharray="4,4"/>
+  <text x="163" y="380" font-size="15" fill="#333333" font-style="italic">k&#8320;</text>
+  <!-- double-headed arrow for the gap -->
+  <line x1="176" y1="171" x2="176" y2="253" stroke="#2e7d32" stroke-width="3"/>
+  <polygon points="176,168 172,178 180,178" fill="#2e7d32"/>
+  <polygon points="176,256 172,246 180,246" fill="#2e7d32"/>
+  <text x="188" y="216" font-size="14" fill="#2e7d32">growth rate</text>
+  <text x="188" y="232" font-size="14" fill="#2e7d32">of k &gt; 0</text>
+
+  <!-- convergence arrow along k-axis -->
+  <line x1="200" y1="335" x2="380" y2="335" stroke="#2e7d32" stroke-width="2"/>
+  <polygon points="388,335 376,330 376,340" fill="#2e7d32"/>
+  <text x="230" y="326" font-size="13" fill="#2e7d32">k rises toward k*</text>
+
+  <!-- note: gap shrinks as k approaches k* -->
+  <text x="410" y="300" font-size="12.5" fill="#555555">gap (= growth) shrinks</text>
+  <text x="410" y="316" font-size="12.5" fill="#555555">as k &#8594; k*  &#8658; slow catch-up</text>
+</svg>

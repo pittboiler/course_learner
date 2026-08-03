@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 430" font-family="sans-serif">
+  <rect x="0" y="0" width="720" height="430" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="360" y="26" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">Two particles, two levels: three ways to count</text>
+
+  <!-- Panel dividers -->
+  <line x1="245" y1="46" x2="245" y2="410" stroke="#dddddd" stroke-width="1.5"/>
+  <line x1="480" y1="46" x2="480" y2="410" stroke="#dddddd" stroke-width="1.5"/>
+
+  <!-- Panel headers -->
+  <text x="130" y="60" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a4fa0">Maxwell&#8211;Boltzmann</text>
+  <text x="130" y="78" text-anchor="middle" font-size="12" fill="#555555">distinguishable (a, b)</text>
+
+  <text x="362" y="60" text-anchor="middle" font-size="15" font-weight="bold" fill="#1c7a43">Bose&#8211;Einstein</text>
+  <text x="362" y="78" text-anchor="middle" font-size="12" fill="#555555">identical bosons</text>
+
+  <text x="600" y="60" text-anchor="middle" font-size="15" font-weight="bold" fill="#8e44ad">Fermi&#8211;Dirac</text>
+  <text x="600" y="78" text-anchor="middle" font-size="12" fill="#555555">identical fermions</text>
+
+  <!-- ============ MB panel (cx=130), 4 configs ============ -->
+  <!-- icon 1: both on lower -->
+  <line x1="100" y1="92" x2="160" y2="92" stroke="#999999" stroke-width="2"/>
+  <line x1="100" y1="118" x2="160" y2="118" stroke="#999999" stroke-width="2"/>
+  <text x="86" y="96" text-anchor="end" font-size="12" fill="#777777">&#949;&#8322;</text>
+  <text x="86" y="122" text-anchor="end" font-size="12" fill="#777777">&#949;&#8321;</text>
+  <circle cx="117" cy="118" r="7" fill="#1a4fa0"/>
+  <circle cx="143" cy="118" r="7" fill="#c0392b"/>
+
+  <!-- icon 2: both on upper -->
+  <line x1="100" y1="170" x2="160" y2="170" stroke="#999999" stroke-width="2"/>
+  <line x1="100" y1="196" x2="160" y2="196" stroke="#999999" stroke-width="2"/>
+  <circle cx="117" cy="170" r="7" fill="#1a4fa0"/>
+  <circle cx="143" cy="170" r="7" fill="#c0392b"/>
+
+  <!-- icon 3: a up, b down -->
+  <line x1="100" y1="248" x2="160" y2="248" stroke="#999999" stroke-width="2"/>
+  <line x1="100" y1="274" x2="160" y2="274" stroke="#999999" stroke-width="2"/>
+  <circle cx="130" cy="248" r="7" fill="#1a4fa0"/>
+  <circle cx="130" cy="274" r="7" fill="#c0392b"/>
+
+  <!-- icon 4: b up, a down -->
+  <line x1="100" y1="326" x2="160" y2="326" stroke="#999999" stroke-width="2"/>
+  <line x1="100" y1="352" x2="160" y2="352" stroke="#999999" stroke-width="2"/>
+  <circle cx="130" cy="326" r="7" fill="#c0392b"/>
+  <circle cx="130" cy="352" r="7" fill="#1a4fa0"/>
+
+  <text x="130" y="392" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">4 microstates</text>
+
+  <!-- ============ BE panel (cx=362), 3 configs ============ -->
+  <!-- icon 1: both on lower -->
+  <line x1="332" y1="92" x2="392" y2="92" stroke="#999999" stroke-width="2"/>
+  <line x1="332" y1="118" x2="392" y2="118" stroke="#999999" stroke-width="2"/>
+  <circle cx="349" cy="118" r="7" fill="#555555"/>
+  <circle cx="375" cy="118" r="7" fill="#555555"/>
+
+  <!-- icon 2: both on upper -->
+  <line x1="332" y1="170" x2="392" y2="170" stroke="#999999" stroke-width="2"/>
+  <line x1="332" y1="196" x2="392" y2="196" stroke="#999999" stroke-width="2"/>
+  <circle cx="349" cy="170" r="7" fill="#555555"/>
+  <circle cx="375" cy="170" r="7" fill="#555555"/>
+
+  <!-- icon 3: one each -->
+  <line x1="332" y1="248" x2="392" y2="248" stroke="#999999" stroke-width="2"/>
+  <line x1="332" y1="274" x2="392" y2="274" stroke="#999999" stroke-width="2"/>
+  <circle cx="362" cy="248" r="7" fill="#555555"/>
+  <circle cx="362" cy="274" r="7" fill="#555555"/>
+
+  <text x="362" y="392" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">3 states</text>
+
+  <!-- ============ FD panel (cx=600), 1 allowed + 1 forbidden ============ -->
+  <!-- forbidden: both on lower, crossed out -->
+  <line x1="570" y1="92" x2="630" y2="92" stroke="#cccccc" stroke-width="2"/>
+  <line x1="570" y1="118" x2="630" y2="118" stroke="#cccccc" stroke-width="2"/>
+  <circle cx="587" cy="118" r="7" fill="#dddddd"/>
+  <circle cx="613" cy="118" r="7" fill="#dddddd"/>
+  <line x1="566" y1="128" x2="634" y2="82" stroke="#c0392b" stroke-width="3"/>
+  <text x="600" y="146" text-anchor="middle" font-size="11" fill="#c0392b">forbidden (Pauli)</text>
+
+  <!-- allowed: one each -->
+  <line x1="570" y1="248" x2="630" y2="248" stroke="#999999" stroke-width="2"/>
+  <line x1="570" y1="274" x2="630" y2="274" stroke="#999999" stroke-width="2"/>
+  <circle cx="600" cy="248" r="7" fill="#555555"/>
+  <circle cx="600" cy="274" r="7" fill="#555555"/>
+
+  <text x="600" y="392" text-anchor="middle" font-size="14" font-weight="bold" fill="#111111">1 state</text>
+
+  <!-- Footer caption -->
+  <text x="360" y="420" text-anchor="middle" font-size="12" fill="#555555" font-style="italic">bosons over-count double occupancy relative to fermions; classical labels over-count relative to both</text>
+</svg>

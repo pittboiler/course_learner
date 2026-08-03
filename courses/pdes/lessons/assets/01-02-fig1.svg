@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="sans-serif">
+  <rect x="0" y="0" width="640" height="420" fill="#ffffff"/>
+  <defs>
+    <marker id="ink" markerWidth="10" markerHeight="10" refX="7" refY="3.2" orient="auto">
+      <path d="M0,0 L7,3.2 L0,6.4 Z" fill="#1a1a1a"/>
+    </marker>
+    <marker id="acc" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#1f5c8a"/>
+    </marker>
+  </defs>
+
+  <!-- title -->
+  <text x="70" y="30" font-size="17" font-weight="bold" fill="#1a1a1a">Characteristics fan from the initial-data line</text>
+
+  <!-- axes -->
+  <line x1="70" y1="340" x2="610" y2="340" stroke="#1a1a1a" stroke-width="2" marker-end="url(#ink)"/>
+  <line x1="70" y1="340" x2="70" y2="50" stroke="#1a1a1a" stroke-width="2" marker-end="url(#ink)"/>
+  <text x="616" y="345" font-size="15" fill="#1a1a1a" font-style="italic">x</text>
+  <text x="55" y="52" font-size="15" fill="#1a1a1a" font-style="italic">t</text>
+
+  <!-- characteristic curves (dx/ds = a, dt/ds = b) -->
+  <path d="M130,340 Q139,200 175,70" fill="none" stroke="#1f5c8a" stroke-width="2.2"/>
+  <path d="M200,340 Q218,200 260,70" fill="none" stroke="#1f5c8a" stroke-width="2.2"/>
+  <path d="M270,340 Q294,200 350,70" fill="none" stroke="#1f5c8a" stroke-width="2.2" marker-end="url(#acc)"/>
+  <path d="M340,340 Q371,200 445,70" fill="none" stroke="#1f5c8a" stroke-width="2.2"/>
+  <path d="M410,340 Q450,200 545,70" fill="none" stroke="#1f5c8a" stroke-width="2.2"/>
+
+  <!-- direction-of-s note on the labelled curve -->
+  <text x="360" y="86" font-size="13" fill="#1f5c8a" font-style="italic">s increases</text>
+
+  <!-- initial-data dots on t = 0 -->
+  <circle cx="130" cy="340" r="4.5" fill="#1a1a1a"/>
+  <circle cx="200" cy="340" r="4.5" fill="#1a1a1a"/>
+  <circle cx="270" cy="340" r="4.5" fill="#1a1a1a"/>
+  <circle cx="340" cy="340" r="4.5" fill="#1a1a1a"/>
+  <circle cx="410" cy="340" r="4.5" fill="#1a1a1a"/>
+
+  <!-- initial-data label -->
+  <text x="150" y="372" font-size="14" fill="#1a1a1a">initial-data line</text>
+  <text x="150" y="390" font-size="14" fill="#1a1a1a" font-style="italic">t = 0,  u(x,0) = g(x)</text>
+
+  <!-- collapse-to-ODE annotation -->
+  <rect x="300" y="150" width="300" height="46" rx="6" fill="#ffffff" stroke="#1f5c8a" stroke-width="1.3"/>
+  <text x="315" y="172" font-size="13.5" fill="#1a1a1a">along each curve the PDE collapses to</text>
+  <text x="315" y="189" font-size="14" fill="#1a1a1a" font-style="italic">du/ds = c&#183;u + d</text>
+</svg>

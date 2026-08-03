@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 470" font-family="sans-serif">
+  <rect x="0" y="0" width="640" height="470" fill="#ffffff"/>
+  <!-- Title -->
+  <text x="320" y="26" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">van der Waals isotherms on a p&#8211;V diagram</text>
+  <!-- Axes -->
+  <line x1="90" y1="380" x2="610" y2="380" stroke="#111111" stroke-width="2"/>
+  <line x1="90" y1="60" x2="90" y2="380" stroke="#111111" stroke-width="2"/>
+  <text x="610" y="405" text-anchor="end" font-size="14" fill="#111111">volume per particle  v = V/N</text>
+  <text x="66" y="220" text-anchor="middle" font-size="14" fill="#111111" transform="rotate(-90 66 220)">pressure  p</text>
+
+  <!-- Equal-area lobes (shaded) -->
+  <polygon points="129,296 135,318 144,325 156,321 169,311 183,303 197,296" fill="#ffd9b3" stroke="none"/>
+  <polygon points="197,296 211,291 246,287 267,287 294,288 322,291 371,296" fill="#cfe8cf" stroke="none"/>
+
+  <!-- T > Tc isotherm (blue, smooth monotone) -->
+  <polyline fill="none" stroke="#1f77b4" stroke-width="3" points="142,91 156,137 169,159 183,173 211,192 253,213 322,239 392,259 461,275 531,287 600,296"/>
+  <text x="150" y="80" text-anchor="start" font-size="13" fill="#1f77b4" font-weight="bold">T &gt; T_c</text>
+
+  <!-- T = Tc critical isotherm (purple, horizontal inflection at critical point) -->
+  <polyline fill="none" stroke="#7a3fbf" stroke-width="3" points="128,165 142,232 156,247 169,251 183,251 211,252 253,257 322,270 392,283 461,294 531,303 600,310"/>
+  <text x="118" y="158" text-anchor="start" font-size="13" fill="#7a3fbf" font-weight="bold">T = T_c</text>
+
+  <!-- T < Tc isotherm (green) with unstable loop -->
+  <polyline fill="none" stroke="#2ca02c" stroke-width="3" points="121,230 128,294 135,318 144,325 156,321 169,311 183,303 197,296 211,291 246,287 267,287 294,288 322,291 392,299 461,307 531,314 600,320"/>
+  <text x="600" y="335" text-anchor="end" font-size="13" fill="#2ca02c" font-weight="bold">T &lt; T_c</text>
+
+  <!-- Unstable branch (dp/dV > 0): dashed red overlay from local min to local max -->
+  <polyline fill="none" stroke="#d62728" stroke-width="3" stroke-dasharray="6 4" points="144,325 156,321 169,311 183,303 197,296 211,291 246,287"/>
+
+  <!-- Maxwell equal-area coexistence tie-line -->
+  <line x1="129" y1="296" x2="371" y2="296" stroke="#111111" stroke-width="2" stroke-dasharray="2 3"/>
+  <circle cx="129" cy="296" r="4" fill="#111111"/>
+  <circle cx="371" cy="296" r="4" fill="#111111"/>
+  <text x="126" y="286" text-anchor="end" font-size="12" fill="#111111">liquid</text>
+  <text x="376" y="290" text-anchor="start" font-size="12" fill="#111111">gas</text>
+
+  <!-- Critical point -->
+  <circle cx="183" cy="251" r="5" fill="#7a3fbf"/>
+  <text x="193" y="247" text-anchor="start" font-size="12" fill="#7a3fbf" font-weight="bold">critical point (v_c, p_c)</text>
+
+  <!-- Callouts -->
+  <text x="300" y="330" text-anchor="middle" font-size="12" fill="#8a5a00">equal areas &#8658; tie-line height p_coex</text>
+  <text x="238" y="270" text-anchor="middle" font-size="11.5" fill="#d62728" font-weight="bold">unstable: (&#8706;p/&#8706;V)_T &gt; 0</text>
+
+  <!-- Legend box -->
+  <rect x="405" y="70" width="200" height="86" fill="#ffffff" stroke="#cccccc" stroke-width="1"/>
+  <line x1="415" y1="88" x2="445" y2="88" stroke="#1f77b4" stroke-width="3"/>
+  <text x="452" y="92" font-size="12" fill="#111111">supercritical, no kink</text>
+  <line x1="415" y1="108" x2="445" y2="108" stroke="#7a3fbf" stroke-width="3"/>
+  <text x="452" y="112" font-size="12" fill="#111111">critical: flat inflection</text>
+  <line x1="415" y1="128" x2="445" y2="128" stroke="#2ca02c" stroke-width="3"/>
+  <text x="452" y="132" font-size="12" fill="#111111">subcritical: has a loop</text>
+  <line x1="415" y1="148" x2="445" y2="148" stroke="#d62728" stroke-width="3" stroke-dasharray="6 4"/>
+  <text x="452" y="152" font-size="12" fill="#111111">mechanically unstable</text>
+</svg>

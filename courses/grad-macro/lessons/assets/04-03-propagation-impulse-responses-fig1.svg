@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" font-family="sans-serif">
+  <rect x="0" y="0" width="760" height="400" fill="#ffffff"/>
+
+  <!-- ================= Panel A ================= -->
+  <text x="40" y="30" font-size="15" font-weight="bold" fill="#111">A. Impulse responses to a 1σ TFP shock</text>
+
+  <!-- axes -->
+  <line x1="70" y1="60" x2="70" y2="290" stroke="#333" stroke-width="1.5"/>
+  <line x1="70" y1="280" x2="360" y2="280" stroke="#333" stroke-width="1.5"/>
+  <text x="18" y="70" font-size="11" fill="#333">response</text>
+  <text x="330" y="298" font-size="11" fill="#333">t (periods)</text>
+  <!-- steady-state baseline label -->
+  <text x="74" y="293" font-size="10" fill="#777">0</text>
+
+  <!-- empirical hump (dashed grey) -->
+  <polyline fill="none" stroke="#999999" stroke-width="1.6" stroke-dasharray="5 4"
+    points="80,240 102,216 124,192 146,172 168,160 190,156 212,160 234,168 256,180 278,192 300,204 322,216 344,226"/>
+  <text x="196" y="150" font-size="10.5" fill="#777">output in the data (hump)</text>
+
+  <!-- investment (red) -->
+  <polyline fill="none" stroke="#c0392b" stroke-width="2"
+    points="80,80 102,128 124,160 146,184 168,204 190,220 212,232 234,242 256,250 278,256 300,261 322,265 344,268"/>
+  <text x="112" y="112" font-size="11" fill="#c0392b" font-weight="bold">investment</text>
+
+  <!-- output (blue) -->
+  <polyline fill="none" stroke="#2c6fbb" stroke-width="2.2"
+    points="80,200 102,196 124,198 146,203 168,210 190,216 212,222 234,229 256,234 278,240 300,245 322,249 344,253"/>
+  <text x="150" y="196" font-size="11" fill="#2c6fbb" font-weight="bold">output</text>
+
+  <!-- consumption (green) -->
+  <polyline fill="none" stroke="#1e8449" stroke-width="2"
+    points="80,252 102,246 124,243 146,242 168,242 190,242 212,244 234,246 256,248 278,250 300,253 322,255 344,258"/>
+  <text x="238" y="262" font-size="11" fill="#1e8449" font-weight="bold">consumption</text>
+
+  <text x="80" y="330" font-size="10.5" fill="#555">RBC responses are front-loaded and near-monotone;</text>
+  <text x="80" y="345" font-size="10.5" fill="#555">the data's delayed hump is the gap the model can't fill.</text>
+
+  <!-- ================= Panel B ================= -->
+  <text x="420" y="30" font-size="15" font-weight="bold" fill="#111">B. Output IRF = two geometric modes</text>
+
+  <!-- axes -->
+  <line x1="450" y1="60" x2="450" y2="335" stroke="#333" stroke-width="1.5"/>
+  <line x1="450" y1="280" x2="740" y2="280" stroke="#333" stroke-width="1.5"/>
+  <text x="454" y="293" font-size="10" fill="#777">0</text>
+  <text x="712" y="298" font-size="11" fill="#333">t (periods)</text>
+
+  <!-- phi-mode (external, orange) -->
+  <polyline fill="none" stroke="#e67e22" stroke-width="2" stroke-dasharray="6 3"
+    points="460,157 482,164 504,169 526,175 548,180 570,185 592,190 614,194 636,199 658,203 680,207 702,210 724,214"/>
+  <text x="560" y="176" font-size="10.5" fill="#e67e22" font-weight="bold">external: φ-mode (slow)</text>
+
+  <!-- alpha-mode (internal, purple) - small, negative, fast -->
+  <polyline fill="none" stroke="#7d3c98" stroke-width="2"
+    points="460,323 482,294 504,285 526,282 548,280 570,280 592,280 614,280 636,280 658,280 680,280 702,280 724,280"/>
+  <text x="466" y="337" font-size="10.5" fill="#7d3c98" font-weight="bold">internal: α-mode (capital echo, dies fast)</text>
+
+  <!-- output = sum (blue) -->
+  <polyline fill="none" stroke="#2c6fbb" stroke-width="2.4"
+    points="460,200 482,178 504,174 526,177 548,181 570,185 592,190 614,194 636,199 658,203 680,207 702,210 724,214"/>
+  <text x="486" y="170" font-size="11" fill="#2c6fbb" font-weight="bold">output = sum</text>
+
+  <text x="460" y="360" font-size="10.5" fill="#555">Beyond t≈2 the α-mode is gone: output ≈ the shock's own φ-decay.</text>
+</svg>

@@ -1,0 +1,62 @@
+<svg viewBox="0 0 720 440" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="720" height="440" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="360" y="30" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a1a1a">The pivot mechanism: you pay the harm your presence does to others</text>
+  <text x="360" y="52" text-anchor="middle" font-size="13" fill="#555555">Public project — build (B) or don't (D). Values for B; D is 0 for everyone. Total(B) = 6 − 4 − 1 = 1 &gt; 0  →  efficient choice: BUILD</text>
+
+  <!-- Three agent columns -->
+  <!-- Agent 1 -->
+  <rect x="40" y="80" width="180" height="120" rx="8" fill="#ffffff" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="130" y="106" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a1a1a">Agent 1</text>
+  <text x="130" y="132" text-anchor="middle" font-size="14" fill="#1a1a1a">value(B) = +6</text>
+  <text x="130" y="156" text-anchor="middle" font-size="13" fill="#555555">wants the park</text>
+  <rect x="60" y="168" width="140" height="22" rx="4" fill="#1a1a1a"/>
+  <text x="130" y="184" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffffff">PIVOTAL</text>
+
+  <!-- Agent 2 -->
+  <rect x="270" y="80" width="180" height="120" rx="8" fill="#ffffff" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="360" y="106" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a1a1a">Agent 2</text>
+  <text x="360" y="132" text-anchor="middle" font-size="14" fill="#1a1a1a">value(B) = −4</text>
+  <text x="360" y="156" text-anchor="middle" font-size="13" fill="#555555">mildly opposed</text>
+  <rect x="290" y="168" width="140" height="22" rx="4" fill="#ffffff" stroke="#888888" stroke-width="1.5"/>
+  <text x="360" y="184" text-anchor="middle" font-size="13" fill="#555555">not pivotal</text>
+
+  <!-- Agent 3 -->
+  <rect x="500" y="80" width="180" height="120" rx="8" fill="#ffffff" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="590" y="106" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a1a1a">Agent 3</text>
+  <text x="590" y="132" text-anchor="middle" font-size="14" fill="#1a1a1a">value(B) = −1</text>
+  <text x="590" y="156" text-anchor="middle" font-size="13" fill="#555555">mildly opposed</text>
+  <rect x="520" y="168" width="140" height="22" rx="4" fill="#ffffff" stroke="#888888" stroke-width="1.5"/>
+  <text x="590" y="184" text-anchor="middle" font-size="13" fill="#555555">not pivotal</text>
+
+  <!-- Payment computation row -->
+  <text x="360" y="240" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">Clarke payment  =  (others' best welfare WITHOUT you)  −  (others' welfare WITH you, at the chosen outcome)</text>
+
+  <!-- Agent 1 pivot box -->
+  <rect x="40" y="262" width="180" height="128" rx="8" fill="#f2f2f2" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="130" y="286" text-anchor="middle" font-size="13" fill="#1a1a1a">without 1: (2,3) pick D</text>
+  <text x="130" y="306" text-anchor="middle" font-size="13" fill="#1a1a1a">their welfare = 0</text>
+  <text x="130" y="330" text-anchor="middle" font-size="13" fill="#1a1a1a">with 1: B built, (2,3)</text>
+  <text x="130" y="350" text-anchor="middle" font-size="13" fill="#1a1a1a">get −4 + −1 = −5</text>
+  <text x="130" y="378" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a1a1a">t₁ = 0 − (−5) = 5</text>
+
+  <!-- Agent 2 pivot box -->
+  <rect x="270" y="262" width="180" height="128" rx="8" fill="#ffffff" stroke="#888888" stroke-width="1.5"/>
+  <text x="360" y="286" text-anchor="middle" font-size="13" fill="#555555">without 2: (1,3) pick B</text>
+  <text x="360" y="306" text-anchor="middle" font-size="13" fill="#555555">their welfare = 5</text>
+  <text x="360" y="330" text-anchor="middle" font-size="13" fill="#555555">with 2: (1,3) still</text>
+  <text x="360" y="350" text-anchor="middle" font-size="13" fill="#555555">get 6 + −1 = 5</text>
+  <text x="360" y="378" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a1a1a">t₂ = 5 − 5 = 0</text>
+
+  <!-- Agent 3 pivot box -->
+  <rect x="500" y="262" width="180" height="128" rx="8" fill="#ffffff" stroke="#888888" stroke-width="1.5"/>
+  <text x="590" y="286" text-anchor="middle" font-size="13" fill="#555555">without 3: (1,2) pick B</text>
+  <text x="590" y="306" text-anchor="middle" font-size="13" fill="#555555">their welfare = 2</text>
+  <text x="590" y="330" text-anchor="middle" font-size="13" fill="#555555">with 3: (1,2) still</text>
+  <text x="590" y="350" text-anchor="middle" font-size="13" fill="#555555">get 6 + −4 = 2</text>
+  <text x="590" y="378" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a1a1a">t₃ = 2 − 2 = 0</text>
+
+  <!-- Bottom takeaway -->
+  <text x="360" y="418" text-anchor="middle" font-size="13" fill="#1a1a1a">Only the pivotal agent pays — exactly the externality (5) their presence imposes. Non-pivotal agents pay nothing.</text>
+</svg>

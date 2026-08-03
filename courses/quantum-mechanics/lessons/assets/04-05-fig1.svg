@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" font-family="sans-serif">
+  <rect x="0" y="0" width="760" height="400" fill="#ffffff"/>
+
+  <!-- ================= OVEN / SOURCE ================= -->
+  <rect x="24" y="176" width="70" height="70" rx="6" fill="#f2e2c4" stroke="#a6791f" stroke-width="2"/>
+  <path d="M40,236 a10,10 0 0 1 38,0" fill="none" stroke="#a6791f" stroke-width="2"/>
+  <circle cx="59" cy="236" r="4" fill="#c01c28"/>
+  <text x="59" y="168" font-size="14" fill="#7a5a10" text-anchor="middle">oven</text>
+  <text x="59" y="262" font-size="12" fill="#7a5a10" text-anchor="middle">Ag atoms</text>
+
+  <!-- ================= COLLIMATOR ================= -->
+  <rect x="132" y="118" width="16" height="86" fill="#555555"/>
+  <rect x="132" y="216" width="16" height="86" fill="#555555"/>
+  <text x="140" y="330" font-size="12" fill="#555555" text-anchor="middle">slit</text>
+
+  <!-- ================= INCOMING BEAM (single) ================= -->
+  <line x1="94" y1="210" x2="300" y2="210" stroke="#1a5fb4" stroke-width="3"/>
+  <polygon points="300,210 288,205 288,215" fill="#1a5fb4"/>
+  <text x="222" y="200" font-size="12" fill="#1a5fb4" text-anchor="middle">unpolarized beam</text>
+
+  <!-- ================= MAGNET (inhomogeneous field) ================= -->
+  <!-- N pole: wedge on top (field is stronger near the point) -->
+  <polygon points="312,112 470,112 470,150 420,150 391,188 362,150 312,150"
+           fill="#c8d8ef" stroke="#1a5fb4" stroke-width="2"/>
+  <text x="391" y="138" font-size="20" fill="#1a5fb4" text-anchor="middle">N</text>
+  <!-- S pole: grooved flat on bottom -->
+  <polygon points="312,300 470,300 470,236 430,236 391,236 352,236 312,236"
+           fill="#f4d2d2" stroke="#c01c28" stroke-width="2"/>
+  <text x="391" y="278" font-size="20" fill="#c01c28" text-anchor="middle">S</text>
+  <!-- field-gradient arrow -->
+  <line x1="500" y1="150" x2="500" y2="236" stroke="#333333" stroke-width="1.5"/>
+  <polygon points="500,150 495,162 505,162" fill="#333333"/>
+  <text x="512" y="178" font-size="13" fill="#333333">z</text>
+  <text x="512" y="196" font-size="13" fill="#333333">&#8706;B&#8321;/&#8706;z &#8800; 0</text>
+
+  <!-- ================= SPLIT BEAMS ================= -->
+  <!-- spin up: force toward the strong-field (N) side -->
+  <path d="M300,210 Q400,210 640,150" fill="none" stroke="#26a269" stroke-width="3"/>
+  <polygon points="640,150 628,150 634,159" fill="#26a269"/>
+  <!-- spin down -->
+  <path d="M300,210 Q400,210 640,270" fill="none" stroke="#9141ac" stroke-width="3"/>
+  <polygon points="640,270 628,261 634,270" fill="#9141ac"/>
+
+  <!-- ================= DETECTOR SCREEN ================= -->
+  <rect x="648" y="108" width="12" height="204" rx="3" fill="#d9d9d9" stroke="#999999" stroke-width="1.5"/>
+  <!-- ghost of the (wrong) classical prediction: a continuous smear -->
+  <rect x="636" y="150" width="10" height="120" rx="5" fill="#bbbbbb" opacity="0.35"/>
+  <text x="612" y="212" font-size="11" fill="#999999" text-anchor="end">classical:</text>
+  <text x="612" y="226" font-size="11" fill="#999999" text-anchor="end">smear (wrong)</text>
+  <!-- the two quantum spots -->
+  <ellipse cx="654" cy="150" rx="9" ry="12" fill="#26a269"/>
+  <ellipse cx="654" cy="270" rx="9" ry="12" fill="#9141ac"/>
+  <text x="672" y="146" font-size="14" fill="#26a269">spin up</text>
+  <text x="672" y="164" font-size="13" fill="#26a269">S&#8322; = +&#8463;/2</text>
+  <text x="672" y="266" font-size="14" fill="#9141ac">spin down</text>
+  <text x="672" y="284" font-size="13" fill="#9141ac">S&#8322; = &#8722;&#8463;/2</text>
+
+  <!-- caption -->
+  <text x="360" y="386" font-size="13" fill="#666666" text-anchor="middle">A silver-atom beam splits into exactly TWO spots &#8212; spin is quantized, and s = 1/2 allows only two values of S&#8322;.</text>
+</svg>

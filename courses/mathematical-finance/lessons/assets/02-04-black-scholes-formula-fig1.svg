@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 360">
+  <rect x="0" y="0" width="520" height="360" fill="#ffffff"/>
+  <!-- axes -->
+  <line x1="60" y1="320" x2="500" y2="320" stroke="#222222" stroke-width="1.5"/>
+  <line x1="60" y1="40" x2="60" y2="320" stroke="#222222" stroke-width="1.5"/>
+  <text x="486" y="342" font-family="sans-serif" font-size="13" fill="#222222">S</text>
+  <text x="20" y="46" font-family="sans-serif" font-size="13" fill="#222222">price</text>
+  <!-- strike marker -->
+  <line x1="270" y1="320" x2="270" y2="330" stroke="#222222" stroke-width="1.5"/>
+  <text x="262" y="346" font-family="sans-serif" font-size="13" fill="#222222">K</text>
+  <!-- intrinsic value (S-K)^+ : flat then kink up -->
+  <polyline points="60,320 270,320 480,65.5" fill="none" stroke="#888888" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="392" y="96" font-family="sans-serif" font-size="12" fill="#888888">intrinsic (S&#8722;K)&#8314;</text>
+  <!-- call price curve C(S), sits above intrinsic -->
+  <path d="M 90 319 C 150 318, 210 312, 270 293 S 360 205, 438 104 L 480 53" fill="none" stroke="#1a5fb4" stroke-width="2.5"/>
+  <text x="300" y="250" font-family="sans-serif" font-size="12" fill="#1a5fb4">C(S)</text>
+  <!-- time-value gap arrow at an ITM point -->
+  <line x1="396" y1="154.8" x2="396" y2="128" stroke="#c01c28" stroke-width="1.5"/>
+  <line x1="396" y1="128" x2="396" y2="154.8" stroke="#c01c28" stroke-width="1.5" marker-end="url(#a)" marker-start="url(#a)"/>
+  <defs>
+    <marker id="a" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M1,1 L4,4 L1,7" fill="none" stroke="#c01c28" stroke-width="1.2"/>
+    </marker>
+  </defs>
+  <text x="404" y="140" font-family="sans-serif" font-size="11" fill="#c01c28">time value</text>
+  <!-- annotations -->
+  <text x="120" y="300" font-family="sans-serif" font-size="11" fill="#444444">deep OTM &#8594; 0</text>
+  <text x="360" y="44" font-family="sans-serif" font-size="11" fill="#444444">deep ITM &#8594; S&#8722;Ke&#8315;&#691;&#7511;</text>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" font-family="sans-serif">
+  <rect x="0" y="0" width="720" height="340" fill="#ffffff"/>
+
+  <!-- divider -->
+  <line x1="360" y1="20" x2="360" y2="320" stroke="#cccccc" stroke-width="1.5" stroke-dasharray="5,4"/>
+
+  <!-- LEFT: long division -->
+  <text x="30" y="42" font-size="17" font-weight="bold" fill="#111111">Division algorithm over &#8474;</text>
+  <text x="30" y="64" font-size="13" fill="#555555">divide  f = x&#179; + 2x + 1   by   g = x&#178; + 1</text>
+
+  <!-- quotient -->
+  <text x="150" y="104" font-size="16" fill="#0b5cad" font-family="monospace">x</text>
+  <line x1="120" y1="114" x2="330" y2="114" stroke="#111111" stroke-width="1.5"/>
+
+  <!-- g ) f -->
+  <text x="72" y="140" font-size="16" fill="#111111" font-family="monospace">x&#178;+1</text>
+  <path d="M 118 122 Q 128 140 118 158" fill="none" stroke="#111111" stroke-width="1.5"/>
+  <text x="130" y="140" font-size="16" fill="#111111" font-family="monospace">x&#179; + 0x&#178; + 2x + 1</text>
+
+  <!-- subtract x*(x^2+1) = x^3 + x -->
+  <text x="130" y="168" font-size="16" fill="#b1360c" font-family="monospace">x&#179;      + x</text>
+  <line x1="130" y1="176" x2="300" y2="176" stroke="#b1360c" stroke-width="1.3"/>
+  <text x="112" y="168" font-size="15" fill="#b1360c" font-family="monospace">&#8722;</text>
+
+  <!-- remainder -->
+  <text x="212" y="200" font-size="16" fill="#0b7d3e" font-family="monospace">x + 1</text>
+
+  <text x="30" y="248" font-size="14" fill="#111111">q = x,   r = x + 1     (deg r &lt; deg g)</text>
+  <text x="30" y="276" font-size="14" fill="#333333">x&#179;+2x+1 = x&#183;(x&#178;+1) + (x+1)</text>
+
+  <!-- RIGHT: irreducibility over Z/2 -->
+  <text x="388" y="42" font-size="17" font-weight="bold" fill="#111111">Irreducible over &#8484;/2&#8484;?</text>
+  <text x="388" y="64" font-size="13" fill="#555555">f = x&#179; + x + 1,   degree 3 &#8658; check roots</text>
+
+  <rect x="388" y="88" width="290" height="52" rx="6" fill="#f2f6ff" stroke="#0b5cad" stroke-width="1.3"/>
+  <text x="404" y="112" font-size="15" fill="#111111" font-family="monospace">f(0) = 0 + 0 + 1 = 1</text>
+  <text x="620" y="112" font-size="15" fill="#b1360c" font-family="monospace">&#8800; 0</text>
+  <text x="404" y="132" font-size="15" fill="#111111" font-family="monospace">f(1) = 1 + 1 + 1 = 1</text>
+  <text x="620" y="132" font-size="15" fill="#b1360c" font-family="monospace">&#8800; 0</text>
+
+  <text x="388" y="172" font-size="14" fill="#0b7d3e">no root in {0, 1}  &#8658;  irreducible</text>
+
+  <rect x="388" y="192" width="290" height="86" rx="6" fill="#eefaf1" stroke="#0b7d3e" stroke-width="1.3"/>
+  <text x="404" y="218" font-size="14" fill="#111111">so  (&#8484;/2&#8484;)[x] / (x&#179;+x+1)</text>
+  <text x="404" y="242" font-size="14" fill="#111111">is a field with 2&#179; = 8 elements</text>
+  <text x="404" y="266" font-size="14" font-weight="bold" fill="#0b7d3e">= GF(8)   (built in 4.3)</text>
+</svg>

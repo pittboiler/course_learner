@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 420" font-family="sans-serif">
+  <rect x="0" y="0" width="700" height="420" fill="#ffffff"/>
+
+  <!-- ================= Panel A: system in a bath ================= -->
+  <text x="150" y="34" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Small system in a big bath</text>
+
+  <!-- Bath -->
+  <rect x="25" y="55" width="250" height="270" rx="10" fill="#eef4ff" stroke="#1a4fa0" stroke-width="2.5"/>
+  <text x="150" y="80" text-anchor="middle" font-size="14" fill="#1a4fa0" font-weight="bold">Heat bath (reservoir)</text>
+  <text x="150" y="100" text-anchor="middle" font-size="13" fill="#1a4fa0">temperature T, huge</text>
+  <text x="150" y="300" text-anchor="middle" font-size="14" fill="#111111">E_bath , &#937;_bath(E_bath)</text>
+
+  <!-- System -->
+  <rect x="95" y="150" width="110" height="90" rx="8" fill="#fff4e8" stroke="#b5651d" stroke-width="2.5"/>
+  <text x="150" y="180" text-anchor="middle" font-size="14" fill="#b5651d" font-weight="bold">System</text>
+  <text x="150" y="204" text-anchor="middle" font-size="13" fill="#111111">microstate s</text>
+  <text x="150" y="224" text-anchor="middle" font-size="14" fill="#111111">energy E_s</text>
+
+  <!-- energy-exchange arrows -->
+  <line x1="150" y1="150" x2="150" y2="112" stroke="#333333" stroke-width="2" marker-start="url(#tip)" marker-end="url(#tip)"/>
+  <text x="196" y="132" text-anchor="middle" font-size="12" fill="#555555" font-style="italic">energy in/out</text>
+
+  <!-- conservation statement -->
+  <text x="150" y="355" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">E_total = E_s + E_bath = const</text>
+  <text x="150" y="376" text-anchor="middle" font-size="12" fill="#555555">(system + bath is isolated)</text>
+  <text x="150" y="400" text-anchor="middle" font-size="13" fill="#1c7a43">P(s) &#8733; &#937;_bath(E_total &#8722; E_s) = e^(&#8722;&#946;E_s)</text>
+
+  <!-- ================= Panel B: the tradeoff ================= -->
+  <text x="500" y="34" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Energy vs. entropy tradeoff</text>
+
+  <!-- axes -->
+  <line x1="345" y1="330" x2="675" y2="330" stroke="#333333" stroke-width="2" marker-end="url(#tip2)"/>
+  <line x1="345" y1="330" x2="345" y2="60" stroke="#333333" stroke-width="2" marker-end="url(#tip2)"/>
+  <text x="665" y="352" text-anchor="middle" font-size="13" fill="#333333">energy E</text>
+
+  <!-- Boltzmann factor: decays -->
+  <path d="M345,80 C 380,135 415,185 460,222 C 510,262 585,296 670,312" fill="none" stroke="#1a4fa0" stroke-width="2.5"/>
+  <!-- degeneracy g(E): grows -->
+  <path d="M345,322 C 395,318 445,306 490,284 C 545,255 610,205 670,150" fill="none" stroke="#b5651d" stroke-width="2.5"/>
+  <!-- product P(E): peaks -->
+  <path d="M345,325 C 385,292 425,222 468,185 C 512,222 580,288 670,318" fill="none" stroke="#1c7a43" stroke-width="3"/>
+
+  <!-- peak marker -->
+  <line x1="468" y1="185" x2="468" y2="330" stroke="#1c7a43" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <circle cx="468" cy="185" r="4" fill="#1c7a43"/>
+  <text x="468" y="348" text-anchor="middle" font-size="12" fill="#1c7a43">most-probable E</text>
+
+  <!-- legend -->
+  <line x1="360" y1="378" x2="388" y2="378" stroke="#1a4fa0" stroke-width="2.5"/>
+  <text x="394" y="382" font-size="12" fill="#111111">Boltzmann factor e^(&#8722;&#946;E)  (falls)</text>
+  <line x1="360" y1="398" x2="388" y2="398" stroke="#b5651d" stroke-width="2.5"/>
+  <text x="394" y="402" font-size="12" fill="#111111">degeneracy g(E)  (rises)</text>
+  <line x1="565" y1="378" x2="593" y2="378" stroke="#1c7a43" stroke-width="3"/>
+  <text x="599" y="382" font-size="12" fill="#111111">P(E) &#8733; g(E)e^(&#8722;&#946;E)</text>
+
+  <defs>
+    <marker id="tip" markerWidth="9" markerHeight="9" refX="4" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#333333"/>
+    </marker>
+    <marker id="tip2" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#333333"/>
+    </marker>
+  </defs>
+</svg>

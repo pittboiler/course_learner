@@ -1,0 +1,39 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif" font-size="14">
+  <rect x="0" y="0" width="640" height="400" fill="#ffffff"/>
+
+  <text x="320" y="30" fill="#6a6a6a" font-style="italic" text-anchor="middle">Hamming(7,4): 4 data bits in the overlaps, 3 parity bits fill in so every circle has even parity.</text>
+
+  <!-- three overlapping circles -->
+  <circle cx="255" cy="200" r="120" fill="#2b6cb0" fill-opacity="0.06" stroke="#1a1a1a" stroke-width="2"/>
+  <circle cx="385" cy="200" r="120" fill="#2b6cb0" fill-opacity="0.06" stroke="#1a1a1a" stroke-width="2"/>
+  <circle cx="320" cy="300" r="120" fill="#2b6cb0" fill-opacity="0.06" stroke="#1a1a1a" stroke-width="2"/>
+
+  <!-- circle names -->
+  <text x="150" y="150" fill="#1a1a1a" font-weight="bold">Circle A</text>
+  <text x="430" y="150" fill="#1a1a1a" font-weight="bold">Circle B</text>
+  <text x="360" y="392" fill="#1a1a1a" font-weight="bold">Circle C</text>
+
+  <!-- data bits: the three pairwise overlaps + the center -->
+  <!-- center (in A, B and C) -->
+  <text x="320" y="212" fill="#2b6cb0" font-weight="bold" text-anchor="middle">d1</text>
+  <!-- A and B only (top) -->
+  <text x="320" y="130" fill="#2b6cb0" font-weight="bold" text-anchor="middle">d2</text>
+  <!-- A and C only (lower left) -->
+  <text x="258" y="262" fill="#2b6cb0" font-weight="bold" text-anchor="middle">d3</text>
+  <!-- B and C only (lower right) -->
+  <text x="382" y="262" fill="#2b6cb0" font-weight="bold" text-anchor="middle">d4</text>
+
+  <!-- parity bits: one in each circle's private region -->
+  <!-- A only (far left) -->
+  <text x="188" y="200" fill="#c0392b" font-weight="bold" text-anchor="middle">p1</text>
+  <!-- B only (far right) -->
+  <text x="452" y="200" fill="#c0392b" font-weight="bold" text-anchor="middle">p2</text>
+  <!-- C only (bottom) -->
+  <text x="320" y="352" fill="#c0392b" font-weight="bold" text-anchor="middle">p3</text>
+
+  <!-- legend -->
+  <rect x="470" y="330" width="14" height="14" fill="#2b6cb0"/>
+  <text x="490" y="342" fill="#1a1a1a">data bit</text>
+  <rect x="470" y="352" width="14" height="14" fill="#c0392b"/>
+  <text x="490" y="364" fill="#1a1a1a">parity bit</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg viewBox="0 0 600 270" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="600" height="270" fill="#ffffff"/>
+  <text x="300" y="30" font-size="15" fill="#111" text-anchor="middle">Gauge-fixing lets us invert the photon kinetic term to get a propagator.</text>
+
+  <!-- wavy photon line -->
+  <path d="M120,90 q 12,15 24,0 q 12,-15 24,0 q 12,15 24,0 q 12,-15 24,0 q 12,15 24,0 q 12,-15 24,0 q 12,15 24,0"
+        fill="none" stroke="#0a7d4f" stroke-width="2.4"/>
+  <text x="240" y="80" font-size="12" fill="#555">momentum k &#8594;</text>
+
+  <!-- propagator -->
+  <text x="300" y="135" font-size="17" fill="#111" text-anchor="middle">D&#7512;&#7515;(k) = &#8722;i&#951;&#7512;&#7515; / (k&#178; + i&#949;)    (Feynman gauge)</text>
+
+  <!-- polarization counting -->
+  <line x1="80" y1="170" x2="520" y2="170" stroke="#ddd" stroke-width="1"/>
+  <text x="300" y="200" font-size="13.5" fill="#111" text-anchor="middle">A&#7512; has 4 components  &#8722; gauge (1)  &#8722; constraint (1)  =  2 physical</text>
+  <text x="300" y="228" font-size="13" fill="#0a7d4f" text-anchor="middle">2 transverse polarizations = the photon's 2 helicities (&#177;1)</text>
+  <text x="300" y="256" font-size="12" fill="#555" text-anchor="middle">physical results are independent of the gauge parameter &#958;</text>
+</svg>

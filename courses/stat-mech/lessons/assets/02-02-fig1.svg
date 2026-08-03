@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 360" font-family="sans-serif">
+  <rect x="0" y="0" width="740" height="360" fill="#ffffff"/>
+
+  <!-- ============ LEFT PANEL: p-V diagram ============ -->
+  <text x="250" y="24" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">p&#8211;V diagram</text>
+
+  <!-- axes -->
+  <line x1="70" y1="300" x2="480" y2="300" stroke="#111111" stroke-width="2"/>
+  <line x1="70" y1="45" x2="70" y2="300" stroke="#111111" stroke-width="2"/>
+  <polygon points="480,300 471,295 471,305" fill="#111111"/>
+  <polygon points="70,45 65,54 75,54" fill="#111111"/>
+  <text x="60" y="50" text-anchor="end" font-size="14" fill="#111111">p</text>
+  <text x="484" y="304" font-size="14" fill="#111111">V</text>
+
+  <!-- shaded enclosed area = net work W -->
+  <path d="M137,82 L153,126 L170,155 L187,175 L203,191 L253,236 L303,257 L370,272 L447,281 L370,276 L303,269 L258,261 L203,231 L170,189 L153,150 L137,82 Z"
+        fill="#f2d64b" opacity="0.28"/>
+
+  <!-- hot isotherm 1 -> 2 -->
+  <polyline fill="none" stroke="#d62728" stroke-width="3" points="137,82 153,126 170,155 187,175 203,191"/>
+  <!-- adiabat 2 -> 3 -->
+  <polyline fill="none" stroke="#555555" stroke-width="2.5" stroke-dasharray="6,4" points="203,191 253,236 303,257 370,272 447,281"/>
+  <!-- cold isotherm 3 -> 4 -->
+  <polyline fill="none" stroke="#1f77b4" stroke-width="3" points="447,281 370,276 303,269 258,261"/>
+  <!-- adiabat 4 -> 1 -->
+  <polyline fill="none" stroke="#555555" stroke-width="2.5" stroke-dasharray="6,4" points="258,261 203,231 170,189 153,150 137,82"/>
+
+  <!-- direction arrows (clockwise) -->
+  <polygon points="180,164 171,161 176,172" fill="#d62728"/>
+  <polygon points="333,272 342,270 336,281" fill="#1f77b4"/>
+
+  <!-- corner dots + state labels -->
+  <circle cx="137" cy="82" r="4" fill="#111111"/>
+  <circle cx="203" cy="191" r="4" fill="#111111"/>
+  <circle cx="447" cy="281" r="4" fill="#111111"/>
+  <circle cx="258" cy="261" r="4" fill="#111111"/>
+  <text x="126" y="78" text-anchor="end" font-size="13" font-weight="bold" fill="#111111">1</text>
+  <text x="212" y="188" font-size="13" font-weight="bold" fill="#111111">2</text>
+  <text x="455" y="278" font-size="13" font-weight="bold" fill="#111111">3</text>
+  <text x="262" y="252" font-size="13" font-weight="bold" fill="#111111">4</text>
+
+  <!-- process labels -->
+  <text x="230" y="120" font-size="12.5" fill="#d62728">isotherm T_h  (Q_h in)</text>
+  <text x="320" y="245" font-size="12.5" fill="#555555">adiabat</text>
+  <text x="300" y="292" font-size="12.5" fill="#1f77b4">isotherm T_c  (Q_c out)</text>
+  <text x="118" y="225" font-size="12.5" fill="#555555" transform="rotate(-64 118 225)">adiabat</text>
+  <text x="235" y="215" font-size="15" font-weight="bold" fill="#8a6d00">W</text>
+
+  <!-- ============ RIGHT PANEL: T-S diagram ============ -->
+  <text x="620" y="24" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">T&#8211;S diagram</text>
+
+  <!-- axes -->
+  <line x1="540" y1="300" x2="715" y2="300" stroke="#111111" stroke-width="2"/>
+  <line x1="540" y1="45" x2="540" y2="300" stroke="#111111" stroke-width="2"/>
+  <polygon points="715,300 706,295 706,305" fill="#111111"/>
+  <polygon points="540,45 535,54 545,54" fill="#111111"/>
+  <text x="532" y="52" text-anchor="end" font-size="14" fill="#111111">T</text>
+  <text x="719" y="304" font-size="14" fill="#111111">S</text>
+
+  <!-- W rectangle (upper): area = net work -->
+  <rect x="560" y="100" width="120" height="130" fill="#f2d64b" opacity="0.35"/>
+  <!-- Q_c rectangle (lower): rejected heat -->
+  <rect x="560" y="230" width="120" height="70" fill="#1f77b4" opacity="0.16"/>
+
+  <!-- cycle rectangle edges -->
+  <line x1="560" y1="100" x2="680" y2="100" stroke="#d62728" stroke-width="3"/>
+  <line x1="680" y1="100" x2="680" y2="230" stroke="#555555" stroke-width="2.5" stroke-dasharray="6,4"/>
+  <line x1="680" y1="230" x2="560" y2="230" stroke="#1f77b4" stroke-width="3"/>
+  <line x1="560" y1="230" x2="560" y2="100" stroke="#555555" stroke-width="2.5" stroke-dasharray="6,4"/>
+
+  <!-- direction arrows -->
+  <polygon points="626,100 617,97 617,103" fill="#d62728"/>
+  <polygon points="614,230 623,227 623,233" fill="#1f77b4"/>
+
+  <!-- temperature guide labels -->
+  <line x1="536" y1="100" x2="540" y2="100" stroke="#111111" stroke-width="2"/>
+  <line x1="536" y1="230" x2="540" y2="230" stroke="#111111" stroke-width="2"/>
+  <text x="533" y="104" text-anchor="end" font-size="13" fill="#111111">T_h</text>
+  <text x="533" y="234" text-anchor="end" font-size="13" fill="#111111">T_c</text>
+
+  <!-- S ticks -->
+  <line x1="560" y1="300" x2="560" y2="304" stroke="#111111" stroke-width="2"/>
+  <line x1="680" y1="300" x2="680" y2="304" stroke="#111111" stroke-width="2"/>
+  <text x="560" y="318" text-anchor="middle" font-size="12" fill="#111111">S_a</text>
+  <text x="680" y="318" text-anchor="middle" font-size="12" fill="#111111">S_b</text>
+
+  <!-- region labels -->
+  <text x="620" y="90" text-anchor="middle" font-size="13" fill="#d62728">Q_h = T_h &#916;S</text>
+  <text x="620" y="170" text-anchor="middle" font-size="16" font-weight="bold" fill="#8a6d00">W</text>
+  <text x="620" y="270" text-anchor="middle" font-size="13" fill="#1f77b4">Q_c = T_c &#916;S</text>
+
+  <!-- caption -->
+  <text x="370" y="348" text-anchor="middle" font-size="12.5" fill="#333333">Two isotherms (heat exchanged) + two adiabats (S constant). Net work W = enclosed area; on T&#8211;S it is a clean rectangle.</text>
+</svg>

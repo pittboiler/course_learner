@@ -1,0 +1,32 @@
+<svg viewBox="0 0 660 270" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="660" height="270" fill="#ffffff"/>
+  <defs><marker id="n" markerWidth="10" markerHeight="10" refX="7" refY="3.2" orient="auto"><path d="M0,0 L7,3.2 L0,6.4 Z" fill="#111"/></marker></defs>
+  <text x="330" y="30" font-size="15" fill="#111" text-anchor="middle">Noether: a continuous symmetry of the action gives a conserved current.</text>
+
+  <!-- symmetry: phase circle -->
+  <circle cx="105" cy="140" r="46" fill="none" stroke="#1f6fb2" stroke-width="2"/>
+  <path d="M 138,108 A 46 46 0 0 1 146,150" fill="none" stroke="#1f6fb2" stroke-width="2.4" marker-end="url(#nb)"/>
+  <defs><marker id="nb" markerWidth="9" markerHeight="9" refX="6" refY="3.2" orient="auto"><path d="M0,0 L7,3.2 L0,6.4 Z" fill="#1f6fb2"/></marker></defs>
+  <text x="105" y="146" font-size="15" fill="#1f6fb2" text-anchor="middle">&#966; &#8594; e^(i&#945;)&#966;</text>
+  <text x="105" y="208" font-size="12.5" fill="#555" text-anchor="middle">symmetry</text>
+
+  <!-- arrow 1 -->
+  <line x1="165" y1="140" x2="245" y2="140" stroke="#111" stroke-width="1.8" marker-end="url(#n)"/>
+
+  <!-- current box -->
+  <rect x="250" y="108" width="180" height="64" rx="8" fill="#0a7d4f" fill-opacity="0.08" stroke="#0a7d4f" stroke-width="1.8"/>
+  <text x="340" y="135" font-size="15" fill="#0a7d4f" text-anchor="middle">current j&#7512;</text>
+  <text x="340" y="158" font-size="14" fill="#111" text-anchor="middle">&#8706;&#7512; j&#7512; = 0</text>
+  <text x="340" y="196" font-size="12.5" fill="#555" text-anchor="middle">conserved current</text>
+
+  <!-- arrow 2 -->
+  <line x1="435" y1="140" x2="510" y2="140" stroke="#111" stroke-width="1.8" marker-end="url(#n)"/>
+
+  <!-- charge box -->
+  <rect x="515" y="108" width="120" height="64" rx="8" fill="#c0532a" fill-opacity="0.08" stroke="#c0532a" stroke-width="1.8"/>
+  <text x="575" y="135" font-size="14" fill="#c0532a" text-anchor="middle">Q = &#8747;d&#179;x j&#8304;</text>
+  <text x="575" y="158" font-size="13.5" fill="#111" text-anchor="middle">dQ/dt = 0</text>
+  <text x="575" y="196" font-size="12.5" fill="#555" text-anchor="middle">conserved charge</text>
+
+  <text x="330" y="248" font-size="12.5" fill="#111" text-anchor="middle">phase &#8594; charge · time-translation &#8594; energy · space-translation &#8594; momentum</text>
+</svg>

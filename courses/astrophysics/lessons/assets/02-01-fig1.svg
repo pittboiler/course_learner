@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" font-family="sans-serif"><rect x="0" y="0" width="720" height="380" fill="#ffffff"/>
+  <defs>
+    <radialGradient id="starcore" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff3b0"/>
+      <stop offset="45%" stop-color="#ffb300"/>
+      <stop offset="80%" stop-color="#e8590c"/>
+      <stop offset="100%" stop-color="#8a2b06"/>
+    </radialGradient>
+    <marker id="arrIn" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#1a1a1a"/>
+    </marker>
+    <marker id="arrOut" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#0b5394"/>
+    </marker>
+    <marker id="axis" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#333"/>
+    </marker>
+  </defs>
+
+  <!-- ===== LEFT: star cross-section ===== -->
+  <text x="185" y="26" text-anchor="middle" font-size="16" font-weight="bold" fill="#222">A shell in balance</text>
+  <circle cx="185" cy="200" r="140" fill="url(#starcore)" stroke="#8a2b06" stroke-width="1.5"/>
+
+  <!-- radius line up from center -->
+  <line x1="185" y1="200" x2="185" y2="60" stroke="#5a2600" stroke-width="1" stroke-dasharray="4 4"/>
+  <circle cx="185" cy="200" r="4" fill="#5a2600"/>
+  <text x="193" y="215" font-size="12" fill="#3d1a00">center</text>
+
+  <!-- fluid element (thin slab) at radius r -->
+  <rect x="150" y="112" width="70" height="26" rx="3" fill="#ffffff" fill-opacity="0.85" stroke="#0b5394" stroke-width="2"/>
+  <text x="185" y="129" text-anchor="middle" font-size="12" fill="#0b5394" font-weight="bold">gas at radius r</text>
+
+  <!-- pressure on lower face (inner) pushing OUT (up), larger -->
+  <line x1="185" y1="150" x2="185" y2="188" stroke="#0b5394" stroke-width="5" marker-end="url(#arrOut)"/>
+  <text x="196" y="176" font-size="12" fill="#0b5394">P(r) up</text>
+
+  <!-- pressure on upper face (outer) pushing IN (down), smaller -->
+  <line x1="185" y1="100" x2="185" y2="82" stroke="#0b5394" stroke-width="3" marker-end="url(#arrOut)" transform="rotate(180 185 91)"/>
+  <text x="196" y="92" font-size="12" fill="#0b5394">P(r+dr) down</text>
+
+  <!-- gravity arrow inward (down toward center) -->
+  <line x1="120" y1="125" x2="150" y2="180" stroke="#1a1a1a" stroke-width="3" marker-end="url(#arrIn)"/>
+  <text x="70" y="120" font-size="13" fill="#1a1a1a" font-weight="bold">gravity</text>
+  <text x="58" y="136" font-size="11" fill="#1a1a1a">Gm(r)ρ/r²  in</text>
+
+  <text x="185" y="368" text-anchor="middle" font-size="12" fill="#444">net outward pressure force = inward gravity</text>
+
+  <!-- ===== RIGHT: declining profiles ===== -->
+  <text x="530" y="26" text-anchor="middle" font-size="16" font-weight="bold" fill="#222">Profiles fall outward</text>
+  <!-- axes -->
+  <line x1="420" y1="320" x2="660" y2="320" stroke="#333" stroke-width="1.5" marker-end="url(#axis)"/>
+  <line x1="420" y1="320" x2="420" y2="70" stroke="#333" stroke-width="1.5" marker-end="url(#axis)"/>
+  <text x="666" y="324" font-size="12" fill="#333">r</text>
+  <text x="420" y="60" text-anchor="middle" font-size="12" fill="#333">value</text>
+  <text x="424" y="335" font-size="11" fill="#666">0 (center)</text>
+  <text x="628" y="335" font-size="11" fill="#666">R</text>
+  <line x1="640" y1="320" x2="640" y2="315" stroke="#333" stroke-width="1"/>
+
+  <!-- P(r): steep decline from high center to ~0 at R -->
+  <path d="M420,90 C500,120 560,270 640,318" fill="none" stroke="#0b5394" stroke-width="3"/>
+  <text x="452" y="104" font-size="13" fill="#0b5394" font-weight="bold">P(r)</text>
+
+  <!-- rho(r): gentler decline -->
+  <path d="M420,150 C510,180 580,285 640,314" fill="none" stroke="#c1121f" stroke-width="3" stroke-dasharray="6 4"/>
+  <text x="455" y="168" font-size="13" fill="#c1121f" font-weight="bold">ρ(r)</text>
+
+  <text x="530" y="360" text-anchor="middle" font-size="12" fill="#444">both peak at the core, vanish at the surface</text>
+</svg>

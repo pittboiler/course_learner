@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 300">
+  <rect x="0" y="0" width="440" height="300" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#1a1a1a" stroke="none">
+    <!-- axes of the product space X x Y -->
+    <line x1="40" y1="260" x2="410" y2="260" stroke="#999999" stroke-width="1.5"/>
+    <line x1="40" y1="260" x2="40" y2="30" stroke="#999999" stroke-width="1.5"/>
+    <text x="404" y="278" font-size="14" font-style="italic" fill="#1a1a1a">X</text>
+    <text x="18" y="40" font-size="14" font-style="italic" fill="#1a1a1a">Y</text>
+    <!-- the graph {(x, Tx)}: a rising curve -->
+    <path d="M 40 260 Q 200 210 390 60" fill="none" stroke="#1a1a1a" stroke-width="2.5"/>
+    <text x="300" y="120" font-size="14" font-style="italic" fill="#1a1a1a">graph of T</text>
+    <text x="255" y="138" font-size="12" fill="#888888">{(x, Tx)}</text>
+    <!-- a sequence x_n -> x on the X-axis -->
+    <circle cx="230" cy="260" r="3" fill="#888888"/>
+    <circle cx="270" cy="260" r="3" fill="#888888"/>
+    <circle cx="298" cy="260" r="3" fill="#888888"/>
+    <circle cx="315" cy="260" r="4" fill="#1a1a1a"/>
+    <text x="222" y="280" font-size="12" fill="#888888">x&#8321;</text>
+    <text x="262" y="280" font-size="12" fill="#888888">x&#8322;</text>
+    <text x="312" y="280" font-size="12" fill="#1a1a1a">x</text>
+    <!-- corresponding graph points (x_n, T x_n) -->
+    <circle cx="230" cy="196" r="3" fill="#888888"/>
+    <circle cx="270" cy="168" r="3" fill="#888888"/>
+    <circle cx="298" cy="146" r="3" fill="#888888"/>
+    <circle cx="315" cy="132" r="4.5" fill="#1a1a1a"/>
+    <!-- dashed guides from x to the graph point (x, Tx) -->
+    <line x1="315" y1="260" x2="315" y2="132" stroke="#bbbbbb" stroke-width="1" stroke-dasharray="4 3"/>
+    <line x1="40" y1="132" x2="315" y2="132" stroke="#bbbbbb" stroke-width="1" stroke-dasharray="4 3"/>
+    <text x="48" y="128" font-size="12" fill="#1a1a1a">Tx</text>
+    <!-- the "assumed" limit y sitting ON the graph point -->
+    <text x="322" y="126" font-size="12" font-style="italic" fill="#1a1a1a">y = Tx</text>
+    <!-- caption -->
+    <text x="60" y="26" font-size="13" fill="#1a1a1a">Closed graph: x&#8345; &#8594; x and Tx&#8345; &#8594; y force y = Tx</text>
+  </g>
+</svg>

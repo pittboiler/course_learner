@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 480" font-family="sans-serif">
+  <rect x="0" y="0" width="580" height="480" fill="#ffffff"/>
+
+  <defs>
+    <marker id="ahR" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" refX="8" refY="3.5" orient="auto">
+      <path d="M0,0 L9,3.5 L0,7 Z" fill="#b22222"/></marker>
+    <marker id="ahB" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" refX="8" refY="3.5" orient="auto">
+      <path d="M0,0 L9,3.5 L0,7 Z" fill="#1f5fa8"/></marker>
+    <marker id="ahP" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" refX="8" refY="3.5" orient="auto">
+      <path d="M0,0 L9,3.5 L0,7 Z" fill="#6a1b9a"/></marker>
+    <marker id="ahG" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" refX="8" refY="3.5" orient="auto">
+      <path d="M0,0 L9,3.5 L0,7 Z" fill="#1a6f2e"/></marker>
+    <marker id="ahO" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" refX="8" refY="3.5" orient="auto">
+      <path d="M0,0 L9,3.5 L0,7 Z" fill="#c77400"/></marker>
+    <marker id="ahK" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" refX="8" refY="3.5" orient="auto">
+      <path d="M0,0 L9,3.5 L0,7 Z" fill="#333333"/></marker>
+  </defs>
+
+  <!-- title -->
+  <text x="250" y="34" font-size="18" fill="#222222" text-anchor="middle">The cone picture: fixed |L|, quantized L&#8340; (shown for &#8467; = 2)</text>
+
+  <!-- z axis -->
+  <line x1="250" y1="405" x2="250" y2="105" stroke="#555555" stroke-width="2"/>
+  <polygon points="250,101 245,113 255,113" fill="#555555"/>
+  <text x="258" y="112" font-size="17" fill="#555555">z</text>
+  <circle cx="250" cy="250" r="3.5" fill="#333333"/>
+
+  <!-- level dashed lines + cones + vectors + labels -->
+  <!-- m = +2 -->
+  <line x1="180" y1="130" x2="340" y2="130" stroke="#bbbbbb" stroke-width="1" stroke-dasharray="4,4"/>
+  <ellipse cx="250" cy="130" rx="84.85" ry="18" fill="#b22222" fill-opacity="0.10" stroke="#b22222" stroke-opacity="0.5" stroke-width="1"/>
+  <line x1="250" y1="250" x2="334.85" y2="130" stroke="#b22222" stroke-width="2.5" marker-end="url(#ahR)"/>
+  <text x="410" y="135" font-size="15" fill="#b22222">m = +2 &#160; L&#8340; = +2&#8463;</text>
+
+  <!-- m = +1 -->
+  <line x1="130" y1="190" x2="390" y2="190" stroke="#bbbbbb" stroke-width="1" stroke-dasharray="4,4"/>
+  <ellipse cx="250" cy="190" rx="134.16" ry="26" fill="#1f5fa8" fill-opacity="0.08" stroke="#1f5fa8" stroke-opacity="0.5" stroke-width="1"/>
+  <line x1="250" y1="250" x2="384.16" y2="190" stroke="#1f5fa8" stroke-width="2.5" marker-end="url(#ahB)"/>
+  <text x="410" y="195" font-size="15" fill="#1f5fa8">m = +1 &#160; L&#8340; = +&#8463;</text>
+
+  <!-- m = 0 -->
+  <line x1="115" y1="250" x2="397" y2="250" stroke="#bbbbbb" stroke-width="1" stroke-dasharray="4,4"/>
+  <ellipse cx="250" cy="250" rx="147" ry="29" fill="#6a1b9a" fill-opacity="0.07" stroke="#6a1b9a" stroke-opacity="0.5" stroke-width="1"/>
+  <line x1="250" y1="250" x2="397" y2="250" stroke="#6a1b9a" stroke-width="2.5" marker-end="url(#ahP)"/>
+  <text x="410" y="255" font-size="15" fill="#6a1b9a">m = 0 &#160;&#160; L&#8340; = 0</text>
+
+  <!-- m = -1 -->
+  <line x1="130" y1="310" x2="390" y2="310" stroke="#bbbbbb" stroke-width="1" stroke-dasharray="4,4"/>
+  <ellipse cx="250" cy="310" rx="134.16" ry="26" fill="#1a6f2e" fill-opacity="0.08" stroke="#1a6f2e" stroke-opacity="0.5" stroke-width="1"/>
+  <line x1="250" y1="250" x2="384.16" y2="310" stroke="#1a6f2e" stroke-width="2.5" marker-end="url(#ahG)"/>
+  <text x="410" y="315" font-size="15" fill="#1a6f2e">m = &#8722;1 &#160; L&#8340; = &#8722;&#8463;</text>
+
+  <!-- m = -2 -->
+  <line x1="180" y1="370" x2="340" y2="370" stroke="#bbbbbb" stroke-width="1" stroke-dasharray="4,4"/>
+  <ellipse cx="250" cy="370" rx="84.85" ry="18" fill="#c77400" fill-opacity="0.10" stroke="#c77400" stroke-opacity="0.5" stroke-width="1"/>
+  <line x1="250" y1="250" x2="334.85" y2="370" stroke="#c77400" stroke-width="2.5" marker-end="url(#ahO)"/>
+  <text x="410" y="375" font-size="15" fill="#c77400">m = &#8722;2 &#160; L&#8340; = &#8722;2&#8463;</text>
+
+  <!-- |L| label -->
+  <text x="300" y="228" font-size="15" fill="#333333">|L| = &#8730;6 &#8463;</text>
+
+  <!-- ladder arrows on the left -->
+  <line x1="70" y1="330" x2="70" y2="150" stroke="#333333" stroke-width="2" marker-end="url(#ahK)"/>
+  <line x1="95" y1="170" x2="95" y2="350" stroke="#333333" stroke-width="2" marker-end="url(#ahK)"/>
+  <text x="40" y="140" font-size="15" fill="#333333">L&#770;&#8330;</text>
+  <text x="88" y="368" font-size="15" fill="#333333">L&#770;&#8331;</text>
+  <text x="30" y="252" font-size="13" fill="#555555">steps m</text>
+  <text x="30" y="268" font-size="13" fill="#555555">by &#177;1</text>
+
+  <!-- caption -->
+  <text x="290" y="452" font-size="14" fill="#555555" text-anchor="middle">All five vectors have the SAME length &#8730;&#8467;(&#8467;+1)&#8463;; only the shadow L&#8340; = m&#8463; is fixed.</text>
+  <text x="290" y="470" font-size="14" fill="#555555" text-anchor="middle">The cone = L&#8339;, L&#8342; undetermined, so the vector's azimuth is smeared around it.</text>
+</svg>

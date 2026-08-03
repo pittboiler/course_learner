@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 430" font-family="sans-serif">
+  <rect x="0" y="0" width="720" height="430" fill="#ffffff"/>
+
+  <text x="360" y="34" font-size="18" fill="#333333" text-anchor="middle">Angular probability |Y| squared (polar plots, cross-section through the z-axis)</text>
+
+  <!-- ===== LEFT: Y_0^0 sphere (s orbital) ===== -->
+  <!-- z axis -->
+  <line x1="180" y1="360" x2="180" y2="80" stroke="#999999" stroke-width="1.4"/>
+  <polygon points="180,74 175,86 185,86" fill="#999999"/>
+  <text x="192" y="82" font-size="14" fill="#999999">z</text>
+
+  <!-- uniform sphere: |Y_0^0|^2 is constant in every direction -->
+  <circle cx="180" cy="220" r="92" fill="#cfe0ef" stroke="#1a3c5e" stroke-width="2.4"/>
+  <circle cx="180" cy="220" r="3" fill="#1a3c5e"/>
+
+  <text x="180" y="392" font-size="16" fill="#1a3c5e" text-anchor="middle">Y (l=0, m=0): sphere</text>
+  <text x="180" y="412" font-size="14" fill="#555555" text-anchor="middle">uniform — the s orbital</text>
+
+  <!-- ===== RIGHT: Y_1^0 dumbbell (p_z orbital) ===== -->
+  <!-- z axis -->
+  <line x1="520" y1="378" x2="520" y2="60" stroke="#999999" stroke-width="1.4"/>
+  <polygon points="520,54 515,66 525,66" fill="#999999"/>
+  <text x="532" y="62" font-size="14" fill="#999999">z</text>
+
+  <!-- nodal plane (cos theta = 0) -->
+  <line x1="430" y1="220" x2="610" y2="220" stroke="#b22222" stroke-width="1.4" stroke-dasharray="6 4"/>
+  <text x="614" y="224" font-size="13" fill="#b22222">nodal plane</text>
+
+  <!-- dumbbell: r(theta) = cos^2 theta, cx=520 cy=220 S=150 -->
+  <polyline fill="#f2d0d0" stroke="#b22222" stroke-width="2.4"
+    points="520,70 556.2,84.8 576.3,122.6 573.0,167.0 552.5,201.3 529.7,217.4 520,220 529.7,222.6 552.5,238.8 573.0,273.0 576.3,317.4 556.2,355.2 520,370 483.8,355.2 463.8,317.4 467.0,273.0 487.5,238.8 510.3,222.6 520,220 510.3,217.4 487.5,201.3 467.0,167.0 463.8,122.6 483.8,84.8 520,70"/>
+  <circle cx="520" cy="220" r="3" fill="#b22222"/>
+
+  <text x="520" y="392" font-size="16" fill="#b22222" text-anchor="middle">Y (l=1, m=0): dumbbell</text>
+  <text x="520" y="412" font-size="14" fill="#555555" text-anchor="middle">one polar node (l - |m| = 1) — the p_z orbital</text>
+</svg>

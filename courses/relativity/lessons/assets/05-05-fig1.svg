@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 470">
+  <rect x="0" y="0" width="760" height="470" fill="#ffffff"/>
+
+  <defs>
+    <linearGradient id="photon" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0"   stop-color="#1f4e9e"/>
+      <stop offset="0.5" stop-color="#7a3fa0"/>
+      <stop offset="1"   stop-color="#c02626"/>
+    </linearGradient>
+    <marker id="arrUp" markerWidth="10" markerHeight="10" refX="5" refY="2" orient="auto">
+      <path d="M1 8 L5 1 L9 8 Z" fill="#c02626"/>
+    </marker>
+  </defs>
+
+  <!-- title -->
+  <text x="380" y="30" font-family="sans-serif" font-size="20" font-weight="bold" fill="#1a1a1a" text-anchor="middle">Gravitational time dilation &amp; redshift</text>
+  <text x="380" y="52" font-family="sans-serif" font-size="13.5" fill="#444444" text-anchor="middle">g&#8320;&#8320; IS (minus) the Newtonian potential &#183; deeper well = slower clocks, redder light</text>
+
+  <!-- ================= LEFT: the well, funnel walls ================= -->
+  <!-- funnel walls of a potential well (cross-section) -->
+  <path d="M 70 110 Q 150 350 280 375" fill="none" stroke="#555555" stroke-width="2"/>
+  <path d="M 490 110 Q 410 350 280 375" fill="none" stroke="#555555" stroke-width="2"/>
+
+  <!-- height / equipotential levels -->
+  <g stroke="#bbbbbb" stroke-width="1" stroke-dasharray="3 4">
+    <line x1="95"  y1="150" x2="465" y2="150"/>
+    <line x1="120" y1="230" x2="440" y2="230"/>
+    <line x1="175" y1="310" x2="385" y2="310"/>
+  </g>
+
+  <!-- mass at the bottom -->
+  <circle cx="280" cy="375" r="24" fill="#e8a13a" stroke="#a8721f" stroke-width="2"/>
+  <text x="280" y="381" font-family="sans-serif" font-size="15" font-weight="bold" fill="#5a3d0f" text-anchor="middle">M</text>
+  <text x="280" y="418" font-family="sans-serif" font-size="12.5" fill="#444444" text-anchor="middle">&#934; most negative (deepest)</text>
+
+  <!-- clock A: deep, slow -->
+  <circle cx="150" cy="310" r="16" fill="#ffffff" stroke="#c02626" stroke-width="2"/>
+  <line x1="150" y1="310" x2="150" y2="299" stroke="#c02626" stroke-width="2"/>
+  <line x1="150" y1="310" x2="158" y2="313" stroke="#c02626" stroke-width="2"/>
+  <text x="150" y="345" font-family="sans-serif" font-size="12.5" font-weight="bold" fill="#c02626" text-anchor="middle">runs SLOW</text>
+  <text x="150" y="362" font-family="sans-serif" font-size="11.5" fill="#666666" text-anchor="middle">d&#964; = (1+&#934;/c&#178;) dt</text>
+
+  <!-- clock B: high, fast -->
+  <circle cx="150" cy="140" r="16" fill="#ffffff" stroke="#1a7a3a" stroke-width="2"/>
+  <line x1="150" y1="140" x2="150" y2="129" stroke="#1a7a3a" stroke-width="2"/>
+  <line x1="150" y1="140" x2="161" y2="140" stroke="#1a7a3a" stroke-width="2"/>
+  <text x="150" y="115" font-family="sans-serif" font-size="12.5" font-weight="bold" fill="#1a7a3a" text-anchor="middle">runs FAST</text>
+  <text x="150" y="98"  font-family="sans-serif" font-size="11.5" fill="#666666" text-anchor="middle">&#934; &#8776; 0 (far out)</text>
+
+  <!-- ================= RIGHT: photon climbing, reddening ================= -->
+  <path d="M 600 375
+           Q 628 368 600 361
+           Q 572 354 600 347
+           Q 630 339 600 331
+           Q 570 322 600 313
+           Q 632 302 600 291
+           Q 568 279 600 267
+           Q 636 251 600 233
+           Q 564 213 600 191
+           Q 640 167 600 143
+           Q 560 118 600 96"
+        fill="none" stroke="url(#photon)" stroke-width="2.6"/>
+  <line x1="600" y1="96" x2="600" y2="78" stroke="#c02626" stroke-width="2.6" marker-end="url(#arrUp)"/>
+
+  <text x="600" y="398" font-family="sans-serif" font-size="11.5" fill="#1f4e9e" text-anchor="middle">emitted: short &#955;</text>
+  <text x="600" y="68"  font-family="sans-serif" font-size="11.5" font-weight="bold" fill="#c02626" text-anchor="middle">received: longer &#955; (redder)</text>
+
+  <text x="695" y="235" font-family="sans-serif" font-size="13" font-weight="bold" fill="#1a1a1a" text-anchor="middle" transform="rotate(90 695 235)">light climbs out</text>
+
+  <!-- redshift formula box -->
+  <rect x="512" y="418" width="235" height="34" rx="6" fill="#f4f4f4" stroke="#cccccc" stroke-width="1"/>
+  <text x="629" y="440" font-family="sans-serif" font-size="14" fill="#1a1a1a" text-anchor="middle">&#916;&#955;/&#955; &#8776; &#916;&#934;/c&#178;  (redshift)</text>
+</svg>

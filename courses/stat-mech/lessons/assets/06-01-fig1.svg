@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" font-family="sans-serif">
+  <rect x="0" y="0" width="760" height="420" fill="#ffffff"/>
+
+  <!-- ===================== LEFT PANEL: jagged random walk ===================== -->
+  <text x="195" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">A Brownian trajectory</text>
+  <text x="195" y="48" text-anchor="middle" font-size="12" fill="#555555" font-style="italic">jagged at every scale you can resolve</text>
+
+  <!-- framing box -->
+  <rect x="40" y="60" width="310" height="330" fill="#fbfcff" stroke="#cccccc" stroke-width="1"/>
+
+  <!-- the walk -->
+  <polyline fill="none" stroke="#1a4fa0" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"
+    points="190,220 205,203 197,184 216,175 233,192 224,214 244,225 260,208 274,225 262,247 278,263 259,274 240,265 226,283 243,298 262,293 253,315 233,323 214,312 203,328 184,318 196,296 176,285 160,299 143,285 152,263 132,258 145,238 128,227 143,207 123,199 137,180 158,188 151,165 170,157 186,176 178,150 198,142 214,161 224,145"/>
+
+  <!-- start marker -->
+  <circle cx="190" cy="220" r="5" fill="#1c7a43"/>
+  <text x="200" y="238" font-size="11" fill="#1c7a43">start</text>
+  <!-- end marker -->
+  <circle cx="224" cy="145" r="5" fill="#b02a2a"/>
+  <text x="234" y="143" font-size="11" fill="#b02a2a">now</text>
+
+  <!-- ===================== RIGHT PANEL: MSD crossover ===================== -->
+  <text x="580" y="30" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Mean-square displacement</text>
+  <text x="580" y="48" text-anchor="middle" font-size="12" fill="#555555" font-style="italic">ballistic &#8594; diffusive crossover</text>
+
+  <!-- axes -->
+  <line x1="450" y1="320" x2="725" y2="320" stroke="#333333" stroke-width="1.6" marker-end="url(#ax)"/>
+  <line x1="450" y1="320" x2="450" y2="70" stroke="#333333" stroke-width="1.6" marker-end="url(#ax)"/>
+  <text x="722" y="342" text-anchor="end" font-size="13" fill="#333333">time t</text>
+  <text x="446" y="80" text-anchor="end" font-size="13" fill="#333333">&#10216;&#916;x&#178;&#10217;</text>
+
+  <!-- long-time asymptote 2Dt, dashed, hits axis at t = tau -->
+  <line x1="490" y1="320" x2="715" y2="95" stroke="#b5651d" stroke-width="1.6" stroke-dasharray="6 4"/>
+  <text x="640" y="150" font-size="13" fill="#b5651d" transform="rotate(-45 640 150)">&#10216;&#916;x&#178;&#10217; = 2Dt</text>
+
+  <!-- the actual MSD curve -->
+  <path d="M450,320 L470,316 Q485,309 490,305 Q505,296 510,291 Q525,281 530,275 Q555,254 570,238 Q595,216 610,199 Q635,177 650,160 Q675,138 690,120 L715,95"
+    fill="none" stroke="#1a4fa0" stroke-width="2.4"/>
+
+  <!-- short-time parabola label -->
+  <text x="470" y="360" font-size="12.5" fill="#1c7a43">&#8733; t&#178;</text>
+  <text x="452" y="378" font-size="11.5" fill="#1c7a43">(ballistic, x&#8776;vt)</text>
+
+  <!-- tau tick -->
+  <line x1="490" y1="316" x2="490" y2="324" stroke="#333333" stroke-width="1.4"/>
+  <text x="490" y="337" text-anchor="middle" font-size="12" fill="#333333">&#964;=m/&#947;</text>
+
+  <defs>
+    <marker id="ax" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#333333"/>
+    </marker>
+  </defs>
+</svg>

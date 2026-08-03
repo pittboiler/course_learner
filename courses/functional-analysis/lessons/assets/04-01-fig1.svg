@@ -1,0 +1,43 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif" font-size="14">
+  <rect x="0" y="0" width="640" height="400" fill="#ffffff"/>
+
+  <text x="20" y="28" fill="#8a8a8a" font-style="italic">The spectrum &#963;(T) is a nonempty compact set inside the disk |&#955;| &#8804; ||T||; everything outside is the resolvent set</text>
+
+  <defs>
+    <marker id="ax" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto">
+      <polygon points="0,0 8,3 0,6" fill="#1a1a1a"/>
+    </marker>
+  </defs>
+
+  <!-- axes -->
+  <line x1="70" y1="215" x2="560" y2="215" stroke="#1a1a1a" stroke-width="1.5" marker-end="url(#ax)"/>
+  <line x1="280" y1="380" x2="280" y2="55" stroke="#1a1a1a" stroke-width="1.5" marker-end="url(#ax)"/>
+  <text x="552" y="235" fill="#1a1a1a" font-style="italic">Re</text>
+  <text x="290" y="66" fill="#1a1a1a" font-style="italic">Im</text>
+  <circle cx="280" cy="215" r="3" fill="#1a1a1a"/>
+  <text x="266" y="235" fill="#1a1a1a">0</text>
+
+  <!-- disk |lambda| = ||T|| -->
+  <circle cx="280" cy="215" r="150" fill="none" stroke="#4a90d9" stroke-width="2" stroke-dasharray="6 5"/>
+  <text x="392" y="118" fill="#4a90d9" font-weight="bold">|&#955;| = ||T||</text>
+
+  <!-- resolvent set (outside) -->
+  <text x="470" y="330" fill="#8a8a8a" text-anchor="middle" font-size="13">resolvent set &#961;(T)</text>
+  <text x="470" y="348" fill="#8a8a8a" text-anchor="middle" font-size="13">T &#8722; &#955;I boundedly invertible</text>
+
+  <!-- the spectrum: a compact shaded blob -->
+  <path d="M 200,190 C 210,150 300,145 340,180 C 380,210 360,265 310,275 C 250,285 190,260 200,190 Z"
+        fill="#e0645c" opacity="0.16" stroke="#e0645c" stroke-width="2"/>
+  <text x="250" y="235" fill="#1a1a1a" font-weight="bold" text-anchor="middle">&#963;(T)</text>
+  <text x="250" y="253" fill="#8a8a8a" text-anchor="middle" font-size="12">closed &amp; bounded</text>
+
+  <!-- continuous-spectrum arc highlighted on the boundary -->
+  <path d="M 200,190 C 210,150 300,145 340,180"
+        fill="none" stroke="#2e8b74" stroke-width="4.5"/>
+  <text x="270" y="140" fill="#2e8b74" font-weight="bold" text-anchor="middle" font-size="13">continuous spectrum (an interval, no eigenvector)</text>
+
+  <!-- isolated eigenvalue (point spectrum) -->
+  <circle cx="405" cy="255" r="6" fill="#e0645c" stroke="#1a1a1a" stroke-width="1.2"/>
+  <text x="418" y="252" fill="#1a1a1a" font-weight="bold" font-size="13">isolated eigenvalue</text>
+  <text x="418" y="269" fill="#8a8a8a" font-size="12">(point spectrum)</text>
+</svg>

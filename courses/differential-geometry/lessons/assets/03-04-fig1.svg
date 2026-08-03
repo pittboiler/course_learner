@@ -1,0 +1,52 @@
+<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif" font-size="14">
+  <rect x="0" y="0" width="640" height="380" fill="#ffffff"/>
+
+  <!-- ===== LEFT: parameter domain (uv-rectangle) ===== -->
+  <!-- rectangle -->
+  <rect x="60" y="120" width="180" height="140" fill="#dfe9f5" stroke="#1a1a1a" stroke-width="2"/>
+  <!-- interior grid -->
+  <line x1="120" y1="120" x2="120" y2="260" stroke="#7a7a7a" stroke-width="1"/>
+  <line x1="180" y1="120" x2="180" y2="260" stroke="#7a7a7a" stroke-width="1"/>
+  <line x1="60" y1="167" x2="240" y2="167" stroke="#7a7a7a" stroke-width="1"/>
+  <line x1="60" y1="213" x2="240" y2="213" stroke="#7a7a7a" stroke-width="1"/>
+  <!-- axes -->
+  <line x1="60" y1="290" x2="255" y2="290" stroke="#111" stroke-width="1.5"/>
+  <line x1="60" y1="290" x2="60" y2="100" stroke="#111" stroke-width="1.5"/>
+  <polygon points="255,290 245,285 245,295" fill="#111"/>
+  <polygon points="60,100 55,110 65,110" fill="#111"/>
+  <text x="250" y="308" fill="#111">u</text>
+  <text x="42" y="106" fill="#111">v</text>
+  <!-- highlighted du dv cell -->
+  <rect x="120" y="167" width="60" height="46" fill="#e0645c" opacity="0.35"/>
+  <text x="128" y="196" fill="#111" font-size="13">du dv</text>
+  <text x="90" y="345" fill="#111" font-style="italic">parameter domain D</text>
+  <text x="150" y="365" fill="#7a7a7a" font-size="12">(flat, you can integrate here)</text>
+
+  <!-- ===== RIGHT: curved surface patch ===== -->
+  <!-- patch outline: a bent quadrilateral -->
+  <path d="M 400 120 C 470 100 540 118 590 150 C 600 200 585 235 560 260
+           C 490 280 425 265 388 235 C 378 190 385 150 400 120 Z"
+        fill="#dfe9f5" stroke="#1a1a1a" stroke-width="2"/>
+  <!-- curved grid lines (images of u,v lines) -->
+  <path d="M 452 108 C 460 165 455 215 448 268" fill="none" stroke="#7a7a7a" stroke-width="1"/>
+  <path d="M 512 112 C 522 168 515 220 505 270" fill="none" stroke="#7a7a7a" stroke-width="1"/>
+  <path d="M 392 168 C 460 150 530 152 592 172" fill="none" stroke="#7a7a7a" stroke-width="1"/>
+  <path d="M 392 210 C 460 196 530 200 585 220" fill="none" stroke="#7a7a7a" stroke-width="1"/>
+  <!-- image of the highlighted cell -->
+  <path d="M 452 168 C 480 165 500 166 512 168 C 514 190 512 200 505 213 C 480 210 465 208 448 210 C 449 196 450 182 452 168 Z"
+        fill="#e0645c" opacity="0.35"/>
+  <text x="470" y="196" fill="#111" font-size="12">ω</text>
+  <text x="450" y="345" fill="#111" font-style="italic">surface patch F(D) &#8834; M</text>
+  <text x="470" y="365" fill="#7a7a7a" font-size="12">(the 2-form ω lives here)</text>
+
+  <!-- ===== map arrows ===== -->
+  <!-- F : D -> M  (top arrow, left to right) -->
+  <path d="M 265 150 C 320 128 350 128 385 138" fill="none" stroke="#2a6fb0" stroke-width="2.5"/>
+  <polygon points="385,138 373,133 375,145" fill="#2a6fb0"/>
+  <text x="300" y="122" fill="#2a6fb0" font-weight="bold">F</text>
+
+  <!-- F* : pull ω back to D (bottom arrow, right to left) -->
+  <path d="M 385 245 C 345 262 315 262 265 240" fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="265,240 277,240 271,251" fill="#e0645c"/>
+  <text x="300" y="278" fill="#e0645c" font-weight="bold">F*ω</text>
+</svg>

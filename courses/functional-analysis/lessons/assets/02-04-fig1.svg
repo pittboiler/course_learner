@@ -1,0 +1,27 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="640" height="400" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#1a1a1a" stroke="#1a1a1a">
+    <!-- level lines perpendicular to y -->
+    <line x1="120" y1="40" x2="40" y2="360" stroke-dasharray="5 5" stroke-width="1.5"/>
+    <line x1="300" y1="40" x2="220" y2="360" stroke-dasharray="5 5" stroke-width="1.5"/>
+    <line x1="480" y1="40" x2="400" y2="360" stroke-dasharray="5 5" stroke-width="1.5"/>
+    <!-- origin -->
+    <circle cx="130" cy="240" r="4" fill="#1a1a1a"/>
+    <!-- vector y -->
+    <line x1="130" y1="240" x2="290" y2="200" stroke-width="2.5"/>
+    <polygon points="290,200 275,196 279,210" fill="#1a1a1a" stroke="none"/>
+    <!-- point x and its projection -->
+    <circle cx="410" cy="130" r="4" fill="#1a1a1a"/>
+    <line x1="130" y1="240" x2="410" y2="130" stroke-width="1.5"/>
+    <line x1="410" y1="130" x2="352" y2="160" stroke-dasharray="3 3" stroke-width="1.2"/>
+    <!-- labels -->
+    <text x="112" y="236" font-size="17" stroke="none" text-anchor="end">0</text>
+    <text x="248" y="188" font-size="18" stroke="none">y</text>
+    <text x="418" y="126" font-size="18" stroke="none">x</text>
+    <text x="70" y="384" font-size="15" stroke="none" text-anchor="middle">f = 0</text>
+    <text x="250" y="384" font-size="15" stroke="none" text-anchor="middle">f = c</text>
+    <text x="430" y="384" font-size="15" stroke="none" text-anchor="middle">f = 2c</text>
+    <text x="150" y="90" font-size="15" stroke="none">level sets of f : hyperplanes ⟂ y</text>
+    <text x="300" y="150" font-size="15" stroke="none">f(x) = ⟨x, y⟩</text>
+  </g>
+</svg>

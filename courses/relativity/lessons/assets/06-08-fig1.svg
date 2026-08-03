@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 400">
+  <rect x="0" y="0" width="780" height="400" fill="#ffffff"/>
+
+  <!-- ===================== LEFT PANEL: density evolution ρ(a) ===================== -->
+  <text x="235" y="30" font-family="sans-serif" font-size="15" font-weight="bold" fill="#1a1a1a" text-anchor="middle">The three eras: densities scale differently</text>
+
+  <!-- era background bands -->
+  <rect x="95" y="70" width="54" height="230" fill="#fdecea"/>
+  <rect x="149" y="70" width="183" height="230" fill="#eef3fb"/>
+  <rect x="332" y="70" width="43" height="230" fill="#eafaf0"/>
+
+  <!-- axes -->
+  <line x1="95" y1="70" x2="95" y2="300" stroke="#333333" stroke-width="1.5"/>
+  <line x1="95" y1="300" x2="375" y2="300" stroke="#333333" stroke-width="1.5"/>
+
+  <!-- Lambda line (constant) -->
+  <line x1="95" y1="227" x2="375" y2="227" stroke="#1a7a3a" stroke-width="2.5"/>
+  <!-- matter line ∝ a^-3 -->
+  <line x1="95" y1="86" x2="375" y2="253" stroke="#1f4e9e" stroke-width="2.5"/>
+  <!-- radiation line ∝ a^-4 (steepest) -->
+  <line x1="95" y1="75" x2="375" y2="298" stroke="#c0392b" stroke-width="2.5"/>
+
+  <!-- equality points -->
+  <circle cx="149" cy="118" r="4" fill="#1a1a1a"/>
+  <circle cx="332" cy="227" r="4" fill="#1a1a1a"/>
+
+  <!-- today marker -->
+  <line x1="337" y1="70" x2="337" y2="300" stroke="#888888" stroke-width="1.4" stroke-dasharray="5 4"/>
+  <text x="337" y="64" font-family="sans-serif" font-size="11.5" fill="#555555" text-anchor="middle" font-weight="bold">today</text>
+
+  <!-- legend -->
+  <line x1="248" y1="86" x2="270" y2="86" stroke="#c0392b" stroke-width="2.5"/>
+  <text x="275" y="90" font-family="sans-serif" font-size="11.5" fill="#c0392b" text-anchor="start">radiation  &#961; &#8733; a&#8315;&#8308;</text>
+  <line x1="248" y1="102" x2="270" y2="102" stroke="#1f4e9e" stroke-width="2.5"/>
+  <text x="275" y="106" font-family="sans-serif" font-size="11.5" fill="#1f4e9e" text-anchor="start">matter  &#961; &#8733; a&#8315;&#179;</text>
+  <line x1="248" y1="118" x2="270" y2="118" stroke="#1a7a3a" stroke-width="2.5"/>
+  <text x="275" y="122" font-family="sans-serif" font-size="11.5" fill="#1a7a3a" text-anchor="start">&#923; (dark energy)  &#961; = const</text>
+
+  <!-- equality labels -->
+  <text x="152" y="112" font-family="sans-serif" font-size="10.5" fill="#1a1a1a" text-anchor="start">r&#8211;m equality</text>
+  <text x="152" y="123" font-family="sans-serif" font-size="9.5" fill="#666666" text-anchor="start">(z &#8776; 3000)</text>
+  <text x="328" y="246" font-family="sans-serif" font-size="10.5" fill="#1a1a1a" text-anchor="end">m&#8211;&#923; equality</text>
+  <text x="328" y="257" font-family="sans-serif" font-size="9.5" fill="#666666" text-anchor="end">(z &#8776; 0.3)</text>
+
+  <!-- axis labels -->
+  <text x="88" y="78" font-family="sans-serif" font-size="10.5" fill="#555555" text-anchor="end">high &#961;</text>
+  <text x="60" y="188" font-family="sans-serif" font-size="12" fill="#333333" text-anchor="middle" transform="rotate(-90 60 188)">energy density (log)</text>
+  <text x="122" y="316" font-family="sans-serif" font-size="10" fill="#c0392b" text-anchor="middle" font-weight="bold">radiation</text>
+  <text x="240" y="316" font-family="sans-serif" font-size="10" fill="#1f4e9e" text-anchor="middle" font-weight="bold">matter era</text>
+  <text x="353" y="316" font-family="sans-serif" font-size="10" fill="#1a7a3a" text-anchor="middle" font-weight="bold">&#923; era</text>
+  <text x="235" y="336" font-family="sans-serif" font-size="12" fill="#333333" text-anchor="middle">scale factor a  (log) &#8594; time &#8594;</text>
+  <text x="235" y="352" font-family="sans-serif" font-size="10.5" fill="#888888" text-anchor="middle">hot dense past &#8592;&#8212;&#8212;&#8594; cold accelerating future</text>
+
+  <!-- ===================== RIGHT PANEL: ΛCDM pie ===================== -->
+  <text x="600" y="30" font-family="sans-serif" font-size="15" font-weight="bold" fill="#1a1a1a" text-anchor="middle">The &#923;CDM budget of today's universe</text>
+
+  <!-- dark energy 68% -->
+  <path d="M600,210 L600,100 A110,110 0 1 1 500.5,256.9 Z" fill="#5a3d8a" stroke="#ffffff" stroke-width="2"/>
+  <!-- dark matter 27% -->
+  <path d="M600,210 L500.5,256.9 A110,110 0 0 1 566,105.4 Z" fill="#3a6ea5" stroke="#ffffff" stroke-width="2"/>
+  <!-- ordinary matter 5% -->
+  <path d="M600,210 L566,105.4 A110,110 0 0 1 600,100 Z" fill="#d9a520" stroke="#ffffff" stroke-width="2"/>
+
+  <!-- labels -->
+  <text x="618" y="238" font-family="sans-serif" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="bold">Dark energy</text>
+  <text x="618" y="256" font-family="sans-serif" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">~68%</text>
+  <text x="618" y="272" font-family="sans-serif" font-size="10.5" fill="#e8e0f2" text-anchor="middle">(&#923;)</text>
+
+  <text x="505" y="170" font-family="sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold">Dark</text>
+  <text x="505" y="185" font-family="sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold">matter</text>
+  <text x="505" y="201" font-family="sans-serif" font-size="12.5" fill="#ffffff" text-anchor="middle" font-weight="bold">~27%</text>
+
+  <line x1="583" y1="102" x2="600" y2="70" stroke="#888888" stroke-width="1"/>
+  <text x="600" y="62" font-family="sans-serif" font-size="11.5" fill="#8a6d0f" text-anchor="middle" font-weight="bold">Ordinary matter ~5%</text>
+  <text x="600" y="352" font-family="sans-serif" font-size="10.5" fill="#888888" text-anchor="middle">everything we ever see is the gold sliver</text>
+
+  <!-- divider -->
+  <line x1="410" y1="55" x2="410" y2="345" stroke="#dddddd" stroke-width="1"/>
+</svg>

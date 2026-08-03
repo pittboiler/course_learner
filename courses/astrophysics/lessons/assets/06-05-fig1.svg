@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" font-family="sans-serif"><rect x="0" y="0" width="720" height="400" fill="#ffffff"/>
+  <defs>
+    <marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#c0392b"/>
+    </marker>
+  </defs>
+
+  <!-- ================= LEFT: SN Ia Hubble diagram ================= -->
+  <text x="285" y="26" text-anchor="middle" font-size="15" font-weight="bold" fill="#111">Type Ia supernova Hubble diagram</text>
+  <text x="285" y="43" text-anchor="middle" font-size="11.5" fill="#555">distant SNe are fainter than a decelerating universe predicts</text>
+
+  <!-- axes -->
+  <line x1="70" y1="340" x2="510" y2="340" stroke="#333" stroke-width="1.5"/>
+  <line x1="70" y1="340" x2="70" y2="58" stroke="#333" stroke-width="1.5"/>
+  <!-- x ticks -->
+  <line x1="70"  y1="340" x2="70"  y2="345" stroke="#333"/>
+  <line x1="290" y1="340" x2="290" y2="345" stroke="#333"/>
+  <line x1="510" y1="340" x2="510" y2="345" stroke="#333"/>
+  <text x="70"  y="360" text-anchor="middle" font-size="11" fill="#333">0</text>
+  <text x="290" y="360" text-anchor="middle" font-size="11" fill="#333">0.5</text>
+  <text x="510" y="360" text-anchor="middle" font-size="11" fill="#333">1.0</text>
+  <text x="290" y="380" text-anchor="middle" font-size="12" fill="#333">redshift z (look-back time &#8594;)</text>
+  <!-- y label -->
+  <text x="30" y="200" text-anchor="middle" font-size="12" fill="#333" transform="rotate(-90 30 200)">fainter / more distant &#8594;</text>
+
+  <!-- decelerating model curve (dashed) -->
+  <path d="M70,340 C150,268 220,222 290,192 C360,164 440,140 510,124"
+        fill="none" stroke="#888" stroke-width="2" stroke-dasharray="6 5"/>
+  <!-- accelerating model curve (solid) -->
+  <path d="M70,340 C150,258 220,204 290,168 C360,132 440,102 510,82"
+        fill="none" stroke="#2e6db4" stroke-width="2.5"/>
+
+  <!-- data points scattered along the accelerating curve, ABOVE the dashed one -->
+  <g fill="#c0392b" stroke="#7d2018" stroke-width="0.8">
+    <circle cx="112" cy="300" r="3.5"/>
+    <circle cx="140" cy="272" r="3.5"/>
+    <circle cx="176" cy="238" r="3.5"/>
+    <circle cx="212" cy="214" r="3.5"/>
+    <circle cx="252" cy="184" r="3.5"/>
+    <circle cx="292" cy="162" r="3.5"/>
+    <circle cx="336" cy="140" r="3.5"/>
+    <circle cx="378" cy="120" r="3.5"/>
+    <circle cx="420" cy="106" r="3.5"/>
+    <circle cx="458" cy="92"  r="3.5"/>
+    <circle cx="492" cy="80"  r="3.5"/>
+  </g>
+
+  <!-- labels for the two curves -->
+  <text x="516" y="80"  font-size="11" fill="#1c4e86" font-weight="bold">accelerating</text>
+  <text x="516" y="94"  font-size="11" fill="#1c4e86">(&#923;CDM)</text>
+  <text x="516" y="124" font-size="11" fill="#777">decelerating</text>
+  <text x="516" y="138" font-size="11" fill="#777">(matter only)</text>
+
+  <!-- gap annotation -->
+  <line x1="430" y1="102" x2="430" y2="146" stroke="#c0392b" stroke-width="1.4" marker-end="url(#ar)" marker-start="url(#ar)"/>
+  <text x="300" y="230" font-size="11" fill="#c0392b">SNe sit above the</text>
+  <text x="300" y="245" font-size="11" fill="#c0392b">dashed curve &#8594;</text>
+  <text x="300" y="260" font-size="11" fill="#c0392b">expansion accelerates</text>
+
+  <!-- divider -->
+  <line x1="548" y1="34" x2="548" y2="388" stroke="#ccc" stroke-width="1" stroke-dasharray="4 4"/>
+
+  <!-- ================= RIGHT TOP: energy budget pie ================= -->
+  <text x="634" y="26" text-anchor="middle" font-size="14" font-weight="bold" fill="#111">Energy budget today</text>
+
+  <!-- dark energy 68% -->
+  <path d="M634,115 L634,57 A58,58 0 1 1 581.5,139.7 Z" fill="#6a4c93" stroke="#fff" stroke-width="1.5"/>
+  <!-- dark matter 27% -->
+  <path d="M634,115 L581.5,139.7 A58,58 0 0 1 616.1,59.8 Z" fill="#5b8a72" stroke="#fff" stroke-width="1.5"/>
+  <!-- ordinary matter 5% -->
+  <path d="M634,115 L616.1,59.8 A58,58 0 0 1 634,57 Z" fill="#f2b705" stroke="#fff" stroke-width="1.5"/>
+
+  <text x="612" y="130" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">68%</text>
+  <text x="600" y="96"  text-anchor="middle" font-size="10.5" font-weight="bold" fill="#fff">27%</text>
+
+  <!-- legend -->
+  <g font-size="10.5">
+    <rect x="586" y="182" width="11" height="11" fill="#6a4c93"/>
+    <text x="602" y="191" fill="#333">dark energy (&#923;)  68%</text>
+    <rect x="586" y="198" width="11" height="11" fill="#5b8a72"/>
+    <text x="602" y="207" fill="#333">dark matter  27%</text>
+    <rect x="586" y="214" width="11" height="11" fill="#f2b705"/>
+    <text x="602" y="223" fill="#333">ordinary matter  5%</text>
+  </g>
+  <text x="634" y="242" text-anchor="middle" font-size="10.5" fill="#555">&#937;<tspan baseline-shift="sub" font-size="8">total</tspan> &#8776; 1 (flat, from CMB)</text>
+
+  <!-- ================= RIGHT BOTTOM: a(t) turning up ================= -->
+  <line x1="580" y1="378" x2="700" y2="378" stroke="#333" stroke-width="1.3"/>
+  <line x1="580" y1="378" x2="580" y2="262" stroke="#333" stroke-width="1.3"/>
+  <text x="574" y="270" text-anchor="end" font-size="10" fill="#333">a</text>
+  <text x="700" y="392" text-anchor="end" font-size="10" fill="#333">t</text>
+
+  <!-- decelerating (concave down) then accelerating (concave up) -->
+  <path d="M580,378 C598,352 618,338 636,330 C662,318 686,296 700,262"
+        fill="none" stroke="#2e6db4" stroke-width="2.5"/>
+  <!-- inflection dot -->
+  <circle cx="636" cy="330" r="3" fill="#c0392b"/>
+  <text x="642" y="352" font-size="9.5" fill="#c0392b">accel.</text>
+  <text x="642" y="363" font-size="9.5" fill="#c0392b">begins</text>
+  <text x="640" y="290" text-anchor="middle" font-size="10" fill="#555">scale factor turns up</text>
+</svg>

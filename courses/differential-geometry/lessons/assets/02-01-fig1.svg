@@ -1,0 +1,53 @@
+<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="640" height="380" fill="#ffffff"/>
+  <defs>
+    <marker id="a1" markerWidth="9" markerHeight="9" refX="7" refY="3.2" orient="auto">
+      <path d="M0,0 L7,3.2 L0,6.4 Z" fill="#111111"/>
+    </marker>
+  </defs>
+
+  <!-- ===== the manifold M ===== -->
+  <path d="M 150,60 C 250,30 430,30 500,70 C 560,105 540,150 470,160 C 380,172 250,175 180,150 C 120,128 100,85 150,60 Z"
+        fill="#111111" fill-opacity="0.05" stroke="#1a1a1a" stroke-width="1.8"/>
+  <text x="512" y="60" font-size="18" font-style="italic" fill="#111">M</text>
+
+  <!-- chart domain U (left) -->
+  <ellipse cx="270" cy="105" rx="90" ry="45" fill="#0a7" fill-opacity="0.08" stroke="#0a7" stroke-width="1.6"/>
+  <text x="205" y="70" font-size="15" fill="#0a7">U</text>
+  <!-- chart domain V (right) -->
+  <ellipse cx="390" cy="105" rx="90" ry="45" fill="#c33" fill-opacity="0.07" stroke="#c33" stroke-width="1.6"/>
+  <text x="452" y="70" font-size="15" fill="#c33">V</text>
+  <!-- overlap label -->
+  <text x="300" y="150" font-size="12" fill="#555">U ∩ V (overlap)</text>
+  <circle cx="330" cy="105" r="3" fill="#111"/>
+  <text x="336" y="102" font-size="12" fill="#333">p</text>
+
+  <!-- ===== chart maps down ===== -->
+  <line x1="230" y1="165" x2="150" y2="235" stroke="#0a7" stroke-width="1.6" marker-end="url(#a1)"/>
+  <text x="150" y="205" font-size="15" font-style="italic" fill="#0a7">φ</text>
+  <line x1="425" y1="165" x2="500" y2="235" stroke="#c33" stroke-width="1.6" marker-end="url(#a1)"/>
+  <text x="470" y="205" font-size="15" font-style="italic" fill="#c33">ψ</text>
+
+  <!-- ===== two coordinate charts in R^2 ===== -->
+  <!-- left chart image -->
+  <rect x="55" y="245" width="150" height="105" fill="none" stroke="#0a7" stroke-width="1.6"/>
+  <g stroke="#cfe8de" stroke-width="0.8">
+    <line x1="90" y1="245" x2="90" y2="350"/><line x1="130" y1="245" x2="130" y2="350"/><line x1="170" y1="245" x2="170" y2="350"/>
+    <line x1="55" y1="280" x2="205" y2="280"/><line x1="55" y1="315" x2="205" y2="315"/>
+  </g>
+  <circle cx="120" cy="298" r="3" fill="#0a7"/>
+  <text x="60" y="368" font-size="13" fill="#0a7">φ(U) ⊂ ℝ²</text>
+
+  <!-- right chart image -->
+  <rect x="435" y="245" width="150" height="105" fill="none" stroke="#c33" stroke-width="1.6"/>
+  <g stroke="#f3d2d2" stroke-width="0.8">
+    <line x1="470" y1="245" x2="470" y2="350"/><line x1="510" y1="245" x2="510" y2="350"/><line x1="550" y1="245" x2="550" y2="350"/>
+    <line x1="435" y1="280" x2="585" y2="280"/><line x1="435" y1="315" x2="585" y2="315"/>
+  </g>
+  <circle cx="500" cy="298" r="3" fill="#c33"/>
+  <text x="440" y="368" font-size="13" fill="#c33">ψ(V) ⊂ ℝ²</text>
+
+  <!-- transition map between the images -->
+  <path d="M 215,298 C 300,335 340,335 425,298" fill="none" stroke="#111" stroke-width="1.8" marker-end="url(#a1)"/>
+  <text x="272" y="345" font-size="14" fill="#111">ψ ∘ φ⁻¹  (must be smooth)</text>
+</svg>

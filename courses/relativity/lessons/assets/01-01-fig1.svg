@@ -1,0 +1,68 @@
+<svg viewBox="0 0 640 440" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <rect x="0" y="0" width="640" height="440" fill="#ffffff"/>
+
+  <!-- title -->
+  <text x="320" y="26" fill="#333333" font-size="15" text-anchor="middle" font-weight="bold">Einstein's train: same two flashes, two verdicts on "simultaneous"</text>
+
+  <!-- ================= PANEL 1: the strikes ================= -->
+  <!-- embankment -->
+  <line x1="50" y1="170" x2="590" y2="170" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- lightning at A (rear/left) -->
+  <polyline points="100,170 92,158 106,148 96,136 104,124 100,120" fill="none" stroke="#e0a020" stroke-width="3"/>
+  <text x="94" y="188" fill="#e0a020" font-weight="bold">A</text>
+  <!-- lightning at B (front/right) -->
+  <polyline points="540,170 532,158 546,148 536,136 544,124 540,120" fill="none" stroke="#e0a020" stroke-width="3"/>
+  <text x="536" y="188" fill="#e0a020" font-weight="bold">B</text>
+
+  <!-- train -->
+  <rect x="160" y="126" width="320" height="34" fill="none" stroke="#6a6a6a" stroke-width="2"/>
+  <!-- velocity arrow -->
+  <line x1="350" y1="112" x2="458" y2="112" stroke="#6a6a6a" stroke-width="2"/>
+  <polygon points="458,107 470,112 458,117" fill="#6a6a6a"/>
+  <text x="476" y="116" fill="#6a6a6a" font-style="italic">v</text>
+
+  <!-- observers -->
+  <circle cx="320" cy="170" r="5" fill="#333333"/>
+  <text x="300" y="165" fill="#333333">M</text>
+  <circle cx="320" cy="143" r="5" fill="#7a4fb5"/>
+  <text x="300" y="140" fill="#7a4fb5">M'</text>
+
+  <text x="50" y="210" fill="#555555">t = 0: both bolts strike. M (platform) and M' (train) are side by side at the midpoint.</text>
+
+  <!-- ================= PANEL 2: the light arrives ================= -->
+  <!-- embankment -->
+  <line x1="50" y1="370" x2="590" y2="370" stroke="#8a8a8a" stroke-width="1.5"/>
+  <!-- faint strike markers -->
+  <line x1="100" y1="364" x2="100" y2="376" stroke="#c9a24a" stroke-width="2"/>
+  <text x="94" y="390" fill="#c9a24a">A</text>
+  <line x1="540" y1="364" x2="540" y2="376" stroke="#c9a24a" stroke-width="2"/>
+  <text x="536" y="390" fill="#c9a24a">B</text>
+
+  <!-- train shifted right by 60 -->
+  <rect x="220" y="326" width="320" height="34" fill="none" stroke="#6a6a6a" stroke-width="2"/>
+  <line x1="410" y1="312" x2="518" y2="312" stroke="#6a6a6a" stroke-width="2"/>
+  <polygon points="518,307 530,312 518,317" fill="#6a6a6a"/>
+  <text x="536" y="316" fill="#6a6a6a" font-style="italic">v</text>
+
+  <!-- wavefront from A: moving right, at x=230 (blue) -->
+  <line x1="230" y1="300" x2="230" y2="372" stroke="#4a90d9" stroke-width="3"/>
+  <polygon points="230,300 242,306 230,312" fill="#4a90d9"/>
+  <text x="150" y="296" fill="#4a90d9">light from A</text>
+  <!-- wavefront from B: moving left, at x=410 (red) -->
+  <line x1="410" y1="300" x2="410" y2="372" stroke="#e0645c" stroke-width="3"/>
+  <polygon points="410,300 398,306 410,312" fill="#e0645c"/>
+  <text x="418" y="296" fill="#e0645c">light from B</text>
+
+  <!-- observers -->
+  <circle cx="320" cy="370" r="5" fill="#333333"/>
+  <text x="312" y="360" fill="#333333">M</text>
+  <circle cx="380" cy="343" r="5" fill="#7a4fb5"/>
+  <text x="386" y="340" fill="#7a4fb5">M'</text>
+
+  <!-- gap annotation: B-front is only 30 from M' -->
+  <line x1="380" y1="343" x2="410" y2="343" stroke="#7a4fb5" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <text x="50" y="410" fill="#555555">Later: the two fronts stay symmetric about M (both reach it together) — but M' has slid right,</text>
+  <text x="50" y="428" fill="#555555">so it meets the B-front first. Platform verdict: A and B simultaneous. Train verdict: B before A.</text>
+</svg>

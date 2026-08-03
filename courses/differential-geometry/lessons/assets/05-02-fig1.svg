@@ -1,0 +1,36 @@
+<svg viewBox="0 0 720 250" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="720" height="250" fill="#ffffff"/>
+
+  <!-- title -->
+  <text x="360" y="30" fill="#1a1a1a" font-size="17" font-style="italic" text-anchor="middle">Two demands on a connection pick out exactly one</text>
+
+  <!-- arrow marker -->
+  <defs>
+    <marker id="ah" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#111111"/>
+    </marker>
+  </defs>
+
+  <!-- left box 1: metric compatible -->
+  <rect x="30" y="60" width="230" height="60" fill="#ffffff" stroke="#2a5db0" stroke-width="2" rx="6"/>
+  <text x="145" y="86" fill="#2a5db0" font-size="15" text-anchor="middle">metric-compatible</text>
+  <text x="145" y="108" fill="#111111" font-size="16" text-anchor="middle">&#8711;g = 0</text>
+
+  <!-- left box 2: torsion free -->
+  <rect x="30" y="140" width="230" height="60" fill="#ffffff" stroke="#b23b2e" stroke-width="2" rx="6"/>
+  <text x="145" y="166" fill="#b23b2e" font-size="15" text-anchor="middle">torsion-free</text>
+  <text x="145" y="188" fill="#111111" font-size="16" text-anchor="middle">&#915;<tspan baseline-shift="super" font-size="11">k</tspan><tspan baseline-shift="sub" font-size="11">ij</tspan> = &#915;<tspan baseline-shift="super" font-size="11">k</tspan><tspan baseline-shift="sub" font-size="11">ji</tspan></text>
+
+  <!-- braces / arrows converging -->
+  <line x1="260" y1="90"  x2="345" y2="118" stroke="#111111" stroke-width="2" marker-end="url(#ah)"/>
+  <line x1="260" y1="170" x2="345" y2="132" stroke="#111111" stroke-width="2" marker-end="url(#ah)"/>
+
+  <!-- result box -->
+  <rect x="360" y="95" width="330" height="60" fill="#ffffff" stroke="#111111" stroke-width="2" rx="6"/>
+  <text x="525" y="120" fill="#111111" font-size="15" text-anchor="middle">a UNIQUE connection</text>
+  <text x="525" y="142" fill="#666666" font-size="13" text-anchor="middle">the Levi-Civita connection</text>
+
+  <!-- formula below -->
+  <text x="360" y="230" fill="#111111" font-size="15" text-anchor="middle">&#915;<tspan baseline-shift="super" font-size="10">k</tspan><tspan baseline-shift="sub" font-size="10">ij</tspan> = &#189; g<tspan baseline-shift="super" font-size="10">kl</tspan>( &#8706;<tspan baseline-shift="sub" font-size="10">i</tspan>g<tspan baseline-shift="sub" font-size="10">jl</tspan> + &#8706;<tspan baseline-shift="sub" font-size="10">j</tspan>g<tspan baseline-shift="sub" font-size="10">il</tspan> &#8722; &#8706;<tspan baseline-shift="sub" font-size="10">l</tspan>g<tspan baseline-shift="sub" font-size="10">ij</tspan> )</text>
+  <text x="200" y="230" fill="#666666" font-size="12" text-anchor="middle"> </text>
+</svg>

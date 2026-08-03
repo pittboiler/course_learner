@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" font-family="sans-serif">
+  <rect x="0" y="0" width="640" height="380" fill="#ffffff"/>
+  <text x="320" y="28" font-size="18" font-weight="bold" text-anchor="middle" fill="#111111">The 24 rotations of a cube, by axis type</text>
+
+  <!-- Cube 1: face axis -->
+  <g transform="translate(70,70)">
+    <text x="60" y="-8" font-size="13" font-weight="bold" text-anchor="middle" fill="#111111">Face axes (3)</text>
+    <!-- front face -->
+    <rect x="10" y="30" width="80" height="80" fill="none" stroke="#111111" stroke-width="2"/>
+    <!-- back face offset -->
+    <rect x="40" y="10" width="80" height="80" fill="none" stroke="#888888" stroke-width="1.5"/>
+    <line x1="10" y1="30" x2="40" y2="10" stroke="#888888" stroke-width="1.5"/>
+    <line x1="90" y1="30" x2="120" y2="10" stroke="#888888" stroke-width="1.5"/>
+    <line x1="10" y1="110" x2="40" y2="90" stroke="#888888" stroke-width="1.5"/>
+    <line x1="90" y1="110" x2="120" y2="90" stroke="#888888" stroke-width="1.5"/>
+    <!-- axis through face centers -->
+    <line x1="65" y1="130" x2="65" y2="-2" stroke="#c0392b" stroke-width="2.5" stroke-dasharray="5,4"/>
+    <circle cx="65" cy="70" r="3" fill="#c0392b"/>
+    <text x="65" y="150" font-size="11" text-anchor="middle" fill="#c0392b">90°,180°,270°</text>
+  </g>
+
+  <!-- Cube 2: vertex axis -->
+  <g transform="translate(260,70)">
+    <text x="60" y="-8" font-size="13" font-weight="bold" text-anchor="middle" fill="#111111">Vertex axes (4)</text>
+    <rect x="10" y="30" width="80" height="80" fill="none" stroke="#111111" stroke-width="2"/>
+    <rect x="40" y="10" width="80" height="80" fill="none" stroke="#888888" stroke-width="1.5"/>
+    <line x1="10" y1="30" x2="40" y2="10" stroke="#888888" stroke-width="1.5"/>
+    <line x1="90" y1="30" x2="120" y2="10" stroke="#888888" stroke-width="1.5"/>
+    <line x1="10" y1="110" x2="40" y2="90" stroke="#888888" stroke-width="1.5"/>
+    <line x1="90" y1="110" x2="120" y2="90" stroke="#888888" stroke-width="1.5"/>
+    <!-- diagonal through opposite corners -->
+    <line x1="10" y1="110" x2="120" y2="10" stroke="#2471a3" stroke-width="2.5" stroke-dasharray="5,4"/>
+    <circle cx="10" cy="110" r="3.5" fill="#2471a3"/>
+    <circle cx="120" cy="10" r="3.5" fill="#2471a3"/>
+    <text x="65" y="150" font-size="11" text-anchor="middle" fill="#2471a3">120°, 240°</text>
+  </g>
+
+  <!-- Cube 3: edge axis -->
+  <g transform="translate(450,70)">
+    <text x="60" y="-8" font-size="13" font-weight="bold" text-anchor="middle" fill="#111111">Edge axes (6)</text>
+    <rect x="10" y="30" width="80" height="80" fill="none" stroke="#111111" stroke-width="2"/>
+    <rect x="40" y="10" width="80" height="80" fill="none" stroke="#888888" stroke-width="1.5"/>
+    <line x1="10" y1="30" x2="40" y2="10" stroke="#888888" stroke-width="1.5"/>
+    <line x1="90" y1="30" x2="120" y2="10" stroke="#888888" stroke-width="1.5"/>
+    <line x1="10" y1="110" x2="40" y2="90" stroke="#888888" stroke-width="1.5"/>
+    <line x1="90" y1="110" x2="120" y2="90" stroke="#888888" stroke-width="1.5"/>
+    <!-- through midpoints of opposite edges -->
+    <line x1="25" y1="20" x2="105" y2="100" stroke="#1e8449" stroke-width="2.5" stroke-dasharray="5,4"/>
+    <circle cx="25" cy="20" r="3.5" fill="#1e8449"/>
+    <circle cx="105" cy="100" r="3.5" fill="#1e8449"/>
+    <text x="65" y="150" font-size="11" text-anchor="middle" fill="#1e8449">180°</text>
+  </g>
+
+  <!-- tally -->
+  <text x="320" y="270" font-size="14" text-anchor="middle" fill="#111111" font-weight="bold">Rotation count: 1 identity + 6 + 3 + 8 + 6 = 24</text>
+  <text x="70" y="300" font-size="12.5" fill="#111111">• identity — 1</text>
+  <text x="70" y="322" font-size="12.5" fill="#c0392b">• face 90°/270° — 6, &#160;&#160;face 180° — 3</text>
+  <text x="360" y="300" font-size="12.5" fill="#2471a3">• vertex 120°/240° — 8</text>
+  <text x="360" y="322" font-size="12.5" fill="#1e8449">• edge 180° — 6</text>
+</svg>

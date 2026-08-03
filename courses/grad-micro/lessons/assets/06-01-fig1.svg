@@ -1,0 +1,57 @@
+<svg viewBox="0 0 720 440" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="720" height="440" fill="#ffffff"/>
+
+  <text x="80" y="28" font-size="16" font-weight="bold" fill="#1a1a1a">Monopoly: markup and deadweight loss</text>
+  <text x="80" y="46" font-size="12" fill="#555555">demand p = 120 − q,  constant MC = 20</text>
+
+  <!-- axes -->
+  <line x1="80" y1="60" x2="80" y2="360" stroke="#1a1a1a" stroke-width="2"/>
+  <line x1="80" y1="360" x2="660" y2="360" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="58" y="70" font-size="13" fill="#1a1a1a">p</text>
+  <text x="648" y="382" font-size="13" fill="#1a1a1a">q</text>
+
+  <!-- CS triangle: choke(80,60) - p_m axis(80,185) - monopoly pt(305,185) -->
+  <polygon points="80,60 80,185 305,185" fill="#2b6cb0" fill-opacity="0.18"/>
+  <!-- profit rectangle: q 0..50, p_m 70 down to MC 20 -->
+  <rect x="80" y="185" width="225" height="125" fill="#2f855a" fill-opacity="0.18"/>
+  <!-- DWL triangle: (305,185) monopoly - (305,310) MC at q_m - (530,310) competitive -->
+  <polygon points="305,185 305,310 530,310" fill="#c05621" fill-opacity="0.30"/>
+
+  <!-- Demand line: (0,120)->(120,0) : (80,60)->(620,360) -->
+  <line x1="80" y1="60" x2="620" y2="360" stroke="#1a1a1a" stroke-width="2.5"/>
+  <text x="600" y="330" font-size="13" font-weight="bold" fill="#1a1a1a">D</text>
+
+  <!-- MR line: (0,120)->(60,0) : (80,60)->(350,360) -->
+  <line x1="80" y1="60" x2="350" y2="360" stroke="#9b2c2c" stroke-width="2" stroke-dasharray="2,0"/>
+  <text x="330" y="352" font-size="13" font-weight="bold" fill="#9b2c2c">MR</text>
+
+  <!-- MC line at p=20 : y=310 -->
+  <line x1="80" y1="310" x2="620" y2="310" stroke="#2f855a" stroke-width="2.5"/>
+  <text x="628" y="314" font-size="13" font-weight="bold" fill="#2f855a">MC</text>
+
+  <!-- q_m guide -->
+  <line x1="305" y1="185" x2="305" y2="360" stroke="#1a1a1a" stroke-width="1" stroke-dasharray="4,3"/>
+  <!-- p_m guide -->
+  <line x1="80" y1="185" x2="305" y2="185" stroke="#1a1a1a" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- monopoly point -->
+  <circle cx="305" cy="185" r="4" fill="#1a1a1a"/>
+  <!-- MR=MC point -->
+  <circle cx="305" cy="310" r="4" fill="#9b2c2c"/>
+  <!-- competitive point -->
+  <circle cx="530" cy="310" r="4" fill="#1a1a1a"/>
+
+  <!-- axis value labels -->
+  <text x="52" y="190" font-size="12" fill="#1a1a1a">70</text>
+  <text x="52" y="314" font-size="12" fill="#1a1a1a">20</text>
+  <text x="290" y="378" font-size="12" fill="#1a1a1a">50</text>
+  <text x="512" y="378" font-size="12" fill="#1a1a1a">100</text>
+  <text x="255" y="392" font-size="11" fill="#555555">q_m</text>
+  <text x="495" y="392" font-size="11" fill="#555555">q_comp</text>
+
+  <!-- region labels -->
+  <text x="120" y="150" font-size="12" font-weight="bold" fill="#2b6cb0">CS</text>
+  <text x="165" y="258" font-size="12" font-weight="bold" fill="#2f855a">profit π</text>
+  <text x="360" y="272" font-size="12" font-weight="bold" fill="#c05621">DWL</text>
+  <text x="308" y="180" font-size="11" fill="#1a1a1a">MR = MC → q_m</text>
+</svg>

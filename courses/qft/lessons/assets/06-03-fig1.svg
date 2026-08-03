@@ -1,0 +1,23 @@
+<svg viewBox="0 0 640 270" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="640" height="270" fill="#ffffff"/>
+  <defs><marker id="r3" markerWidth="10" markerHeight="10" refX="7" refY="3.2" orient="auto"><path d="M0,0 L7,3.2 L0,6.4 Z" fill="#0a7d4f"/></marker></defs>
+  <text x="320" y="30" font-size="15" fill="#111" text-anchor="middle">The path integral reproduces the Feynman rules.</text>
+
+  <!-- free -->
+  <rect x="30" y="65" width="270" height="90" rx="8" fill="#1f6fb2" fill-opacity="0.07" stroke="#1f6fb2" stroke-width="1.6"/>
+  <text x="165" y="90" font-size="13" fill="#1f6fb2" text-anchor="middle">FREE: Gaussian integral</text>
+  <text x="165" y="115" font-size="12.5" fill="#111" text-anchor="middle">Z&#8320;[J] = e^(&#8722;&#189;&#8747;&#8747; J D_F J)</text>
+  <text x="165" y="140" font-size="12" fill="#555" text-anchor="middle">propagator = (&#9633;+m&#178;)&#8315;&#185; = i/(p&#178;&#8722;m&#178;+i&#949;)</text>
+
+  <!-- arrow -->
+  <line x1="305" y1="110" x2="360" y2="110" stroke="#0a7d4f" stroke-width="2" marker-end="url(#r3)"/>
+
+  <!-- interaction -->
+  <rect x="365" y="65" width="245" height="90" rx="8" fill="#c0532a" fill-opacity="0.07" stroke="#c0532a" stroke-width="1.6"/>
+  <text x="487" y="90" font-size="13" fill="#c0532a" text-anchor="middle">INTERACTION: expand e^(iS_int)</text>
+  <text x="487" y="115" font-size="12.5" fill="#111" text-anchor="middle">each &#8466;_int insertion = a vertex</text>
+  <text x="487" y="140" font-size="12" fill="#555" text-anchor="middle">(&#966; &#8594; &#8722;i&#948;/&#948;J)</text>
+
+  <text x="320" y="200" font-size="13.5" fill="#111" text-anchor="middle">propagators + vertices = the same Feynman rules as canonical quantization</text>
+  <text x="320" y="228" font-size="12.5" fill="#555" text-anchor="middle">two formulations, one physics</text>
+</svg>

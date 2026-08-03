@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 500" font-family="sans-serif">
+  <rect x="0" y="0" width="720" height="500" fill="#ffffff"/>
+
+  <!-- Wealth SDE box -->
+  <rect x="70" y="20" width="580" height="60" rx="8" fill="#eef3fb" stroke="#2b4c7e" stroke-width="2"/>
+  <text x="360" y="44" text-anchor="middle" font-size="15" fill="#1a1a1a" font-weight="bold">Wealth dynamics (two controls: fraction &#960;, consumption c)</text>
+  <text x="360" y="68" text-anchor="middle" font-size="15" fill="#1a1a1a">dX = [(r + &#960;(&#956;&#8722;r))X &#8722; c] dt  +  &#960;&#963;X dW</text>
+
+  <!-- arrow -->
+  <line x1="360" y1="80" x2="360" y2="108" stroke="#555" stroke-width="2"/>
+  <polygon points="360,116 354,104 366,104" fill="#555"/>
+
+  <!-- HJB box -->
+  <rect x="40" y="116" width="640" height="70" rx="8" fill="#fdf3e7" stroke="#b5651d" stroke-width="2"/>
+  <text x="360" y="140" text-anchor="middle" font-size="15" fill="#1a1a1a" font-weight="bold">Bellman / HJB equation</text>
+  <text x="360" y="166" text-anchor="middle" font-size="14.5" fill="#1a1a1a">&#961;V = V&#8348; + sup&#8320;&#960;,c&#8309; { u(c) + [(r+&#960;(&#956;&#8722;r))x &#8722; c]V&#8339; + &#189;&#960;&#178;&#963;&#178;x&#178;V&#8339;&#8339; }</text>
+
+  <!-- two arrows down -->
+  <line x1="230" y1="186" x2="230" y2="214" stroke="#555" stroke-width="2"/>
+  <polygon points="230,222 224,210 236,210" fill="#555"/>
+  <line x1="490" y1="186" x2="490" y2="214" stroke="#555" stroke-width="2"/>
+  <polygon points="490,222 484,210 496,210" fill="#555"/>
+
+  <!-- FOC c box -->
+  <rect x="55" y="222" width="330" height="72" rx="8" fill="#eafaef" stroke="#2e7d4f" stroke-width="2"/>
+  <text x="220" y="246" text-anchor="middle" font-size="14.5" fill="#1a1a1a" font-weight="bold">FOC in c</text>
+  <text x="220" y="270" text-anchor="middle" font-size="15" fill="#1a1a1a">u&#8242;(c*) = V&#8339;</text>
+  <text x="220" y="288" text-anchor="middle" font-size="12.5" fill="#2e7d4f">marginal utility = marginal value of wealth  (SDF, 3.3)</text>
+
+  <!-- FOC pi box -->
+  <rect x="405" y="222" width="270" height="72" rx="8" fill="#eafaef" stroke="#2e7d4f" stroke-width="2"/>
+  <text x="540" y="246" text-anchor="middle" font-size="14.5" fill="#1a1a1a" font-weight="bold">FOC in &#960;</text>
+  <text x="540" y="272" text-anchor="middle" font-size="15" fill="#1a1a1a">&#960;* = (&#956;&#8722;r) / [&#963;&#178;&#183;(&#8722;xV&#8339;&#8339;/V&#8339;)]</text>
+  <text x="540" y="288" text-anchor="middle" font-size="12.5" fill="#2e7d4f">reward-to-risk &#247; local risk aversion</text>
+
+  <!-- arrow to CRRA -->
+  <line x1="360" y1="294" x2="360" y2="322" stroke="#555" stroke-width="2"/>
+  <polygon points="360,330 354,318 366,318" fill="#555"/>
+  <text x="470" y="314" text-anchor="middle" font-size="13" fill="#555">CRRA: guess V = f(t)&#183;x&#185;&#8315;&#8543;/(1&#8722;&#947;)</text>
+
+  <!-- Results box -->
+  <rect x="90" y="330" width="540" height="130" rx="8" fill="#f3eefb" stroke="#5b3b8c" stroke-width="2"/>
+  <text x="360" y="356" text-anchor="middle" font-size="15" fill="#1a1a1a" font-weight="bold">Merton solution (constant relative risk aversion &#947;)</text>
+  <text x="360" y="388" text-anchor="middle" font-size="18" fill="#5b3b8c" font-weight="bold">&#960;* = (&#956; &#8722; r) / (&#947;&#963;&#178;)</text>
+  <text x="360" y="410" text-anchor="middle" font-size="13" fill="#1a1a1a">constant fraction in the stock  =  the mean&#8722;variance tangency weight (3.1)</text>
+  <text x="360" y="436" text-anchor="middle" font-size="16" fill="#5b3b8c" font-weight="bold">c* = (1/g(t))&#183;X</text>
+  <text x="360" y="454" text-anchor="middle" font-size="13" fill="#1a1a1a">consume a fixed proportion of current wealth</text>
+</svg>

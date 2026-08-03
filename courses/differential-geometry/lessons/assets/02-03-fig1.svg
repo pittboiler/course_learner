@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" font-family="sans-serif">
+  <rect x="0" y="0" width="640" height="440" fill="#ffffff"/>
+
+  <!-- ===== The manifold M: a curved surface patch ===== -->
+  <path d="M 70 300
+           C 180 250, 300 360, 430 300
+           C 520 265, 560 320, 600 300
+           L 600 400
+           C 470 440, 340 400, 210 420
+           C 140 430, 100 410, 70 400
+           Z"
+        fill="#eef1f4" stroke="#111111" stroke-width="2"/>
+  <!-- surface grid lines to suggest curvature -->
+  <path d="M 70 300 C 180 250, 300 360, 430 300 C 520 265, 560 320, 600 300"
+        fill="none" stroke="#9aa4ad" stroke-width="1"/>
+  <path d="M 90 340 C 200 292, 310 398, 440 340 C 525 305, 565 358, 605 340"
+        fill="none" stroke="#9aa4ad" stroke-width="1"/>
+  <path d="M 120 385 C 230 340, 335 440, 460 385"
+        fill="none" stroke="#9aa4ad" stroke-width="1"/>
+  <path d="M 150 300 C 165 340, 175 385, 190 420" fill="none" stroke="#9aa4ad" stroke-width="1"/>
+  <path d="M 300 320 C 305 355, 305 390, 315 415" fill="none" stroke="#9aa4ad" stroke-width="1"/>
+  <path d="M 450 300 C 452 335, 450 365, 455 388" fill="none" stroke="#9aa4ad" stroke-width="1"/>
+  <text x="90" y="425" font-size="17" font-style="italic" fill="#111111">M</text>
+
+  <!-- ===== The tangent plane T_pM (a parallelogram) ===== -->
+  <polygon points="150,120 470,90 530,190 210,220"
+           fill="#dfeafd" fill-opacity="0.75" stroke="#1a3a7a" stroke-width="2"/>
+  <text x="474" y="112" font-size="17" font-style="italic" fill="#1a3a7a">T</text>
+  <text x="486" y="118" font-size="12" font-style="italic" fill="#1a3a7a">p</text>
+  <text x="493" y="112" font-size="17" font-style="italic" fill="#1a3a7a">M</text>
+
+  <!-- point p where surface meets plane (foot of the tangency) -->
+  <line x1="333" y1="163" x2="333" y2="312" stroke="#111111" stroke-width="1" stroke-dasharray="4 4"/>
+  <circle cx="333" cy="312" r="5" fill="#111111"/>
+  <text x="342" y="330" font-size="17" font-style="italic" fill="#111111">p</text>
+
+  <!-- ===== velocity vectors filling the tangent plane ===== -->
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-end">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#b0201f"/>
+    </marker>
+  </defs>
+  <!-- shared base point in the plane -->
+  <g stroke="#b0201f" stroke-width="2.5" marker-end="url(#ah)">
+    <line x1="333" y1="163" x2="455" y2="140"/>
+    <line x1="333" y1="163" x2="410" y2="205"/>
+    <line x1="333" y1="163" x2="250" y2="130"/>
+    <line x1="333" y1="163" x2="300" y2="205"/>
+  </g>
+  <circle cx="333" cy="163" r="4" fill="#b0201f"/>
+  <text x="458" y="136" font-size="15" font-style="italic" fill="#b0201f">v</text>
+  <text x="228" y="124" font-size="15" font-style="italic" fill="#b0201f">w</text>
+
+  <!-- ===== curves on the surface through p (project down) ===== -->
+  <g fill="none" stroke="#0a7d46" stroke-width="2.5">
+    <path d="M 210 355 C 280 330, 380 300, 460 300"/>
+    <path d="M 290 400 C 315 360, 345 330, 400 320"/>
+    <path d="M 250 315 C 300 315, 360 320, 420 345"/>
+  </g>
+  <text x="466" y="298" font-size="14" font-style="italic" fill="#0a7d46">γ₁</text>
+  <text x="405" y="316" font-size="14" font-style="italic" fill="#0a7d46">γ₂</text>
+  <text x="426" y="352" font-size="14" font-style="italic" fill="#0a7d46">γ₃</text>
+
+  <!-- caption -->
+  <text x="320" y="40" font-size="16" fill="#111111" text-anchor="middle">Curves through p and the tangent space they generate</text>
+  <text x="320" y="62" font-size="12.5" fill="#555555" text-anchor="middle">each curve's velocity at p is a vector in T_pM; together they fill the plane</text>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 380" font-family="sans-serif">
+  <rect x="0" y="0" width="560" height="380" fill="#ffffff"/>
+
+  <!-- title -->
+  <text x="280" y="30" text-anchor="middle" font-size="17" fill="#1a1a1a" font-weight="bold">Jensen: the chord sits below a concave curve</text>
+
+  <!-- axes -->
+  <line x1="80" y1="320" x2="510" y2="320" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="80" y1="320" x2="80" y2="55" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="500" y="342" text-anchor="middle" font-size="13" fill="#1a1a1a">X</text>
+  <text x="52" y="70" text-anchor="middle" font-size="14" fill="#1a1a1a" font-style="italic">&#966;</text>
+
+  <!-- concave curve phi (log-like): from P1 to P2 bulging up -->
+  <path d="M 150 250 Q 290 40 430 130" fill="none" stroke="#1a1a1a" stroke-width="2.5"/>
+
+  <!-- chord between the two curve points -->
+  <line x1="150" y1="250" x2="430" y2="130" stroke="#1a6fb0" stroke-width="2" stroke-dasharray="6 4"/>
+
+  <!-- endpoint markers -->
+  <circle cx="150" cy="250" r="4.5" fill="#1a1a1a"/>
+  <circle cx="430" cy="130" r="4.5" fill="#1a1a1a"/>
+
+  <!-- vertical dashed line at E[X] = 290 -->
+  <line x1="290" y1="320" x2="290" y2="115" stroke="#888888" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- curve point at x=290 : phi(E[X]) = (290,115) -->
+  <circle cx="290" cy="115" r="5" fill="#b03a2e"/>
+  <!-- chord point at x=290 : E[phi(X)] = (290,190) -->
+  <circle cx="290" cy="190" r="5" fill="#1a6fb0"/>
+
+  <!-- gap bracket between the two -->
+  <line x1="290" y1="115" x2="290" y2="190" stroke="#b03a2e" stroke-width="1.5"/>
+
+  <!-- labels -->
+  <text x="302" y="108" font-size="14" fill="#b03a2e" font-weight="bold">&#966;(E[X])</text>
+  <text x="302" y="200" font-size="14" fill="#1a6fb0" font-weight="bold">E[&#966;(X)]</text>
+  <text x="356" y="158" font-size="12" fill="#b03a2e">gap &#8805; 0</text>
+
+  <!-- x-axis ticks -->
+  <line x1="150" y1="316" x2="150" y2="324" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="290" y1="316" x2="290" y2="324" stroke="#1a1a1a" stroke-width="1.5"/>
+  <line x1="430" y1="316" x2="430" y2="324" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="150" y="340" text-anchor="middle" font-size="12" fill="#1a1a1a">a</text>
+  <text x="290" y="340" text-anchor="middle" font-size="12" fill="#1a1a1a">E[X]</text>
+  <text x="430" y="340" text-anchor="middle" font-size="12" fill="#1a1a1a">b</text>
+
+  <!-- conclusion -->
+  <text x="280" y="368" text-anchor="middle" font-size="14" fill="#1a1a1a">concave &#966;:  E[&#966;(X)] &#8804; &#966;(E[X])</text>
+</svg>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" font-family="sans-serif">
+  <rect x="0" y="0" width="720" height="340" fill="#ffffff"/>
+
+  <text x="360" y="34" font-size="18" font-weight="bold" text-anchor="middle" fill="#111827">One infinite plan = the same subproblem, restarted every period</text>
+
+  <!-- arrowhead marker -->
+  <defs>
+    <marker id="ah" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L7,3 L0,6 z" fill="#111827"/>
+    </marker>
+    <marker id="ahb" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L7,3 L0,6 z" fill="#2563eb"/>
+    </marker>
+  </defs>
+
+  <!-- state nodes on the timeline -->
+  <g stroke="#111827" stroke-width="2" fill="#e0e7ff">
+    <circle cx="90"  cy="150" r="30"/>
+    <circle cx="300" cy="150" r="30"/>
+    <circle cx="510" cy="150" r="30"/>
+  </g>
+  <g font-size="17" text-anchor="middle" fill="#111827">
+    <text x="90"  y="156">k_0</text>
+    <text x="300" y="156">k_1</text>
+    <text x="510" y="156">k_2</text>
+    <text x="660" y="156" font-size="24">…</text>
+  </g>
+  <text x="90" y="205" font-size="12" text-anchor="middle" fill="#6b7280">given</text>
+
+  <!-- transition arrows with control labels -->
+  <g stroke="#111827" stroke-width="2" fill="none">
+    <line x1="122" y1="150" x2="268" y2="150" marker-end="url(#ah)"/>
+    <line x1="332" y1="150" x2="478" y2="150" marker-end="url(#ah)"/>
+    <line x1="542" y1="150" x2="630" y2="150" marker-end="url(#ah)"/>
+  </g>
+  <g font-size="13" text-anchor="middle" fill="#111827">
+    <text x="195" y="140">choose c_0</text>
+    <text x="195" y="132" font-size="11" fill="#6b7280">k_1 = f(k_0) − c_0</text>
+    <text x="405" y="140">choose c_1</text>
+    <text x="405" y="132" font-size="11" fill="#6b7280">k_2 = f(k_1) − c_1</text>
+  </g>
+
+  <!-- payoff drops -->
+  <g stroke="#2563eb" stroke-width="2" fill="none">
+    <line x1="90"  y1="180" x2="90"  y2="222" marker-end="url(#ahb)"/>
+    <line x1="300" y1="180" x2="300" y2="222" marker-end="url(#ahb)"/>
+    <line x1="510" y1="180" x2="510" y2="222" marker-end="url(#ahb)"/>
+  </g>
+  <g font-size="14" text-anchor="middle" fill="#2563eb">
+    <text x="90"  y="242">u(c_0)</text>
+    <text x="300" y="242">β u(c_1)</text>
+    <text x="510" y="242">β² u(c_2)</text>
+  </g>
+
+  <!-- self-similarity box from k_1 onward -->
+  <rect x="255" y="95" width="440" height="115" rx="14" fill="none" stroke="#dc2626" stroke-width="2" stroke-dasharray="7 5"/>
+  <text x="475" y="300" font-size="13" text-anchor="middle" fill="#dc2626">continuation from k_1 is the SAME problem with a new state → its total value is V(k_1)</text>
+  <text x="90" y="300" font-size="13" text-anchor="middle" fill="#111827">V(k_0) = max { u(c_0) + β V(k_1) }</text>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" font-family="sans-serif"><rect x="0" y="0" width="720" height="420" fill="#ffffff"/>
+  <defs>
+    <marker id="up" markerWidth="10" markerHeight="10" refX="5" refY="1" orient="auto">
+      <path d="M5 0 L9 8 L1 8 Z" fill="#d1332e"/>
+    </marker>
+    <marker id="down" markerWidth="10" markerHeight="10" refX="5" refY="8" orient="auto">
+      <path d="M5 9 L1 1 L9 1 Z" fill="#2f6fd1"/>
+    </marker>
+  </defs>
+
+  <!-- ===== Panel A: radiative diffusion ===== -->
+  <rect x="20" y="40" width="320" height="330" rx="10" fill="#f4f6fb" stroke="#33415c" stroke-width="1.5"/>
+  <text x="180" y="66" text-anchor="middle" font-size="17" font-weight="bold" fill="#33415c">Radiative diffusion</text>
+
+  <!-- surface / core labels -->
+  <line x1="40" y1="90" x2="320" y2="90" stroke="#8aa" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="180" y="84" text-anchor="middle" font-size="12" fill="#5a6b8a">surface (cool)</text>
+  <line x1="40" y1="330" x2="320" y2="330" stroke="#c66" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="180" y="348" text-anchor="middle" font-size="12" fill="#b23">core (hot)</text>
+
+  <!-- random-walk photon path from core (bottom) to surface (top) -->
+  <polyline points="70,325 92,300 78,282 108,272 90,250 124,244 104,222 138,214 120,196 150,192 132,168 168,164 152,142 186,138 170,118 206,112 190,96 224,94"
+            fill="none" stroke="#e8720c" stroke-width="2.2" stroke-linejoin="round"/>
+  <circle cx="70" cy="325" r="6" fill="#f5c518" stroke="#b8860b" stroke-width="1"/>
+  <text x="70" y="329" text-anchor="middle" font-size="9" fill="#5a4400">&#947;</text>
+  <circle cx="224" cy="94" r="4" fill="#e8720c"/>
+
+  <text x="180" y="200" text-anchor="middle" font-size="11" fill="#6b7280" transform="rotate(-38 180 200)">step &#8467; = 1/(&#954;&#961;)</text>
+
+  <text x="180" y="392" text-anchor="middle" font-size="12" fill="#33415c">one photon, ~10&#8308;&#8211;10&#8309; yr to zig-zag out</text>
+  <text x="180" y="408" text-anchor="middle" font-size="11" fill="#6b7280">net progress after N steps &#8776; &#8730;N &#183; &#8467;</text>
+
+  <!-- ===== Panel B: convection ===== -->
+  <rect x="380" y="40" width="320" height="330" rx="10" fill="#fbf5f2" stroke="#33415c" stroke-width="1.5"/>
+  <text x="540" y="66" text-anchor="middle" font-size="17" font-weight="bold" fill="#33415c">Convection</text>
+
+  <!-- boiling-pot surface -->
+  <path d="M400 96 q20 -12 40 0 t40 0 t40 0 t40 0 t40 0 t40 0" fill="none" stroke="#8aa" stroke-width="1.2"/>
+  <text x="540" y="86" text-anchor="middle" font-size="12" fill="#5a6b8a">surface</text>
+
+  <!-- rising hot plumes (red, up) -->
+  <line x1="440" y1="330" x2="440" y2="112" stroke="#d1332e" stroke-width="3.5" marker-end="url(#up)"/>
+  <line x1="620" y1="330" x2="620" y2="112" stroke="#d1332e" stroke-width="3.5" marker-end="url(#up)"/>
+  <text x="440" y="350" text-anchor="middle" font-size="11" fill="#b23">hot &#8593;</text>
+  <text x="620" y="350" text-anchor="middle" font-size="11" fill="#b23">hot &#8593;</text>
+
+  <!-- sinking cool downdrafts (blue, down) -->
+  <line x1="530" y1="112" x2="530" y2="330" stroke="#2f6fd1" stroke-width="3.5" marker-end="url(#down)"/>
+  <text x="530" y="350" text-anchor="middle" font-size="11" fill="#256">cool &#8595;</text>
+
+  <!-- circulation hints -->
+  <path d="M448 200 q40 -30 74 0" fill="none" stroke="#c99" stroke-width="1" stroke-dasharray="3 3"/>
+  <path d="M538 200 q40 -30 74 0" fill="none" stroke="#c99" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <text x="540" y="392" text-anchor="middle" font-size="12" fill="#33415c">gas overturns in bulk &#8212; like a boiling pot</text>
+  <text x="540" y="408" text-anchor="middle" font-size="11" fill="#6b7280">kicks in when the radiative gradient is too steep</text>
+</svg>

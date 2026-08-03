@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 430">
+  <rect x="0" y="0" width="760" height="430" fill="#ffffff"/>
+  <text x="380" y="30" font-family="sans-serif" font-size="19" font-weight="bold" fill="#1a1a2e" text-anchor="middle">A gravitational wave on a ring of free test masses</text>
+  <text x="380" y="52" font-family="sans-serif" font-size="13" fill="#555566" text-anchor="middle">wave travels along z (out of the page); the ring lies in the transverse x&#8211;y plane. Dashed = undisturbed circle.</text>
+
+  <!-- ===== PLUS ROW (cy = 165) ===== -->
+  <text x="380" y="98" font-family="sans-serif" font-size="15" font-weight="bold" fill="#2a5d9e" text-anchor="middle">Plus (+) polarization &#8212; stretches along the x and y axes</text>
+
+  <!-- +0  t=0  circle -->
+  <circle cx="100" cy="165" r="40" fill="none" stroke="#c9c9d6" stroke-width="1.3" stroke-dasharray="4 4"/>
+  <circle cx="100" cy="165" r="40" fill="#4a90d9" fill-opacity="0.18" stroke="#2a5d9e" stroke-width="2.3"/>
+  <circle cx="60" cy="165" r="3.6" fill="#2a5d9e"/><circle cx="140" cy="165" r="3.6" fill="#2a5d9e"/>
+  <circle cx="100" cy="125" r="3.6" fill="#2a5d9e"/><circle cx="100" cy="205" r="3.6" fill="#2a5d9e"/>
+
+  <!-- +1  t=T/4  stretched in x -->
+  <circle cx="240" cy="165" r="40" fill="none" stroke="#c9c9d6" stroke-width="1.3" stroke-dasharray="4 4"/>
+  <ellipse cx="240" cy="165" rx="55" ry="27" fill="#4a90d9" fill-opacity="0.18" stroke="#2a5d9e" stroke-width="2.3"/>
+  <circle cx="185" cy="165" r="3.6" fill="#2a5d9e"/><circle cx="295" cy="165" r="3.6" fill="#2a5d9e"/>
+  <circle cx="240" cy="138" r="3.6" fill="#2a5d9e"/><circle cx="240" cy="192" r="3.6" fill="#2a5d9e"/>
+
+  <!-- +2  t=T/2  circle -->
+  <circle cx="380" cy="165" r="40" fill="none" stroke="#c9c9d6" stroke-width="1.3" stroke-dasharray="4 4"/>
+  <circle cx="380" cy="165" r="40" fill="#4a90d9" fill-opacity="0.18" stroke="#2a5d9e" stroke-width="2.3"/>
+  <circle cx="340" cy="165" r="3.6" fill="#2a5d9e"/><circle cx="420" cy="165" r="3.6" fill="#2a5d9e"/>
+  <circle cx="380" cy="125" r="3.6" fill="#2a5d9e"/><circle cx="380" cy="205" r="3.6" fill="#2a5d9e"/>
+
+  <!-- +3  t=3T/4  stretched in y -->
+  <circle cx="520" cy="165" r="40" fill="none" stroke="#c9c9d6" stroke-width="1.3" stroke-dasharray="4 4"/>
+  <ellipse cx="520" cy="165" rx="27" ry="55" fill="#4a90d9" fill-opacity="0.18" stroke="#2a5d9e" stroke-width="2.3"/>
+  <circle cx="493" cy="165" r="3.6" fill="#2a5d9e"/><circle cx="547" cy="165" r="3.6" fill="#2a5d9e"/>
+  <circle cx="520" cy="110" r="3.6" fill="#2a5d9e"/><circle cx="520" cy="220" r="3.6" fill="#2a5d9e"/>
+
+  <!-- +4  t=T  circle -->
+  <circle cx="660" cy="165" r="40" fill="none" stroke="#c9c9d6" stroke-width="1.3" stroke-dasharray="4 4"/>
+  <circle cx="660" cy="165" r="40" fill="#4a90d9" fill-opacity="0.18" stroke="#2a5d9e" stroke-width="2.3"/>
+  <circle cx="620" cy="165" r="3.6" fill="#2a5d9e"/><circle cx="700" cy="165" r="3.6" fill="#2a5d9e"/>
+  <circle cx="660" cy="125" r="3.6" fill="#2a5d9e"/><circle cx="660" cy="205" r="3.6" fill="#2a5d9e"/>
+
+  <!-- ===== CROSS ROW (cy = 330) ===== -->
+  <text x="380" y="262" font-family="sans-serif" font-size="15" font-weight="bold" fill="#a12a48" text-anchor="middle">Cross (&#215;) polarization &#8212; same motion, rotated 45&#176; onto the diagonals</text>
+
+  <!-- x0  t=0  circle -->
+  <circle cx="100" cy="330" r="40" fill="none" stroke="#c9c9d6" stroke-width="1.3" stroke-dasharray="4 4"/>
+  <circle cx="100" cy="330" r="40" fill="#d94a6a" fill-opacity="0.16" stroke="#a12a48" stroke-width="2.3"/>
+  <circle cx="60" cy="330" r="3.6" fill="#a12a48"/><circle cx="140" cy="330" r="3.6" fill="#a12a48"/>
+  <circle cx="100" cy="290" r="3.6" fill="#a12a48"/><circle cx="100" cy="370" r="3.6" fill="#a12a48"/>
+
+  <!-- x1  t=T/4  ellipse rotated +45 -->
+  <circle cx="240" cy="330" r="40" fill="none" stroke="#c9c9d6" stroke-width="1.3" stroke-dasharray="4 4"/>
+  <g transform="rotate(45 240 330)">
+    <ellipse cx="240" cy="330" rx="55" ry="27" fill="#d94a6a" fill-opacity="0.16" stroke="#a12a48" stroke-width="2.3"/>
+    <circle cx="185" cy="330" r="3.6" fill="#a12a48"/><circle cx="295" cy="330" r="3.6" fill="#a12a48"/>
+    <circle cx="240" cy="303" r="3.6" fill="#a12a48"/><circle cx="240" cy="357" r="3.6" fill="#a12a48"/>
+  </g>
+
+  <!-- x2  t=T/2  circle -->
+  <circle cx="380" cy="330" r="40" fill="none" stroke="#c9c9d6" stroke-width="1.3" stroke-dasharray="4 4"/>
+  <circle cx="380" cy="330" r="40" fill="#d94a6a" fill-opacity="0.16" stroke="#a12a48" stroke-width="2.3"/>
+  <circle cx="340" cy="330" r="3.6" fill="#a12a48"/><circle cx="420" cy="330" r="3.6" fill="#a12a48"/>
+  <circle cx="380" cy="290" r="3.6" fill="#a12a48"/><circle cx="380" cy="370" r="3.6" fill="#a12a48"/>
+
+  <!-- x3  t=3T/4  ellipse rotated -45 -->
+  <circle cx="520" cy="330" r="40" fill="none" stroke="#c9c9d6" stroke-width="1.3" stroke-dasharray="4 4"/>
+  <g transform="rotate(-45 520 330)">
+    <ellipse cx="520" cy="330" rx="55" ry="27" fill="#d94a6a" fill-opacity="0.16" stroke="#a12a48" stroke-width="2.3"/>
+    <circle cx="465" cy="330" r="3.6" fill="#a12a48"/><circle cx="575" cy="330" r="3.6" fill="#a12a48"/>
+    <circle cx="520" cy="303" r="3.6" fill="#a12a48"/><circle cx="520" cy="357" r="3.6" fill="#a12a48"/>
+  </g>
+
+  <!-- x4  t=T  circle -->
+  <circle cx="660" cy="330" r="40" fill="none" stroke="#c9c9d6" stroke-width="1.3" stroke-dasharray="4 4"/>
+  <circle cx="660" cy="330" r="40" fill="#d94a6a" fill-opacity="0.16" stroke="#a12a48" stroke-width="2.3"/>
+  <circle cx="620" cy="330" r="3.6" fill="#a12a48"/><circle cx="700" cy="330" r="3.6" fill="#a12a48"/>
+  <circle cx="660" cy="290" r="3.6" fill="#a12a48"/><circle cx="660" cy="370" r="3.6" fill="#a12a48"/>
+
+  <!-- phase axis labels -->
+  <text x="100" y="408" font-family="sans-serif" font-size="13.5" fill="#1a1a2e" text-anchor="middle">t = 0</text>
+  <text x="240" y="408" font-family="sans-serif" font-size="13.5" fill="#1a1a2e" text-anchor="middle">t = T/4</text>
+  <text x="380" y="408" font-family="sans-serif" font-size="13.5" fill="#1a1a2e" text-anchor="middle">t = T/2</text>
+  <text x="520" y="408" font-family="sans-serif" font-size="13.5" fill="#1a1a2e" text-anchor="middle">t = 3T/4</text>
+  <text x="660" y="408" font-family="sans-serif" font-size="13.5" fill="#1a1a2e" text-anchor="middle">t = T</text>
+</svg>

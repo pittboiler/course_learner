@@ -1,0 +1,32 @@
+<svg viewBox="0 0 560 360" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="560" height="360" fill="#ffffff"/>
+  <defs>
+    <marker id="sa" markerWidth="11" markerHeight="11" refX="6" refY="3.6" orient="auto">
+      <path d="M0,0 L9,3.6 L0,7.2 Z" fill="#0a7"/>
+    </marker>
+  </defs>
+
+  <text x="24" y="30" font-size="16" fill="#111" font-style="italic">∫_M dω  =  ∫_∂M ω</text>
+  <text x="24" y="52" font-size="13" fill="#555">the integral of a derivative over a region = the values on its boundary</text>
+
+  <!-- region M -->
+  <path d="M 180,120 C 260,80 380,90 420,160 C 450,215 400,285 310,290 C 220,295 150,250 145,190 C 142,158 150,138 180,120 Z"
+        fill="#0a7" fill-opacity="0.10" stroke="#0a7" stroke-width="2.4"/>
+
+  <!-- boundary orientation arrows (counterclockwise) -->
+  <path d="M 300,86 C 340,88 380,105 402,135" fill="none" stroke="#0a7" stroke-width="2.4" marker-end="url(#sa)"/>
+  <path d="M 430,190 C 435,235 400,272 350,285" fill="none" stroke="#0a7" stroke-width="2.4" marker-end="url(#sa)"/>
+  <path d="M 250,288 C 200,282 160,250 148,205" fill="none" stroke="#0a7" stroke-width="2.4" marker-end="url(#sa)"/>
+  <path d="M 148,170 C 155,140 168,128 195,112" fill="none" stroke="#0a7" stroke-width="2.4" marker-end="url(#sa)"/>
+
+  <!-- interior label -->
+  <text x="255" y="195" font-size="18" font-style="italic" fill="#111">M</text>
+  <text x="222" y="220" font-size="14" fill="#111">interior: dω</text>
+
+  <!-- boundary label -->
+  <text x="405" y="110" font-size="15" font-style="italic" fill="#0a7">∂M</text>
+  <text x="398" y="128" font-size="12" fill="#0a7">boundary: ω</text>
+
+  <!-- classical specializations -->
+  <text x="60" y="330" font-size="13" fill="#333">n=1 FTC · n=2 Green · curl→Kelvin–Stokes · n=3 divergence theorem</text>
+</svg>

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 400" font-family="sans-serif" font-size="14">
+  <rect x="0" y="0" width="700" height="400" fill="#ffffff"/>
+
+  <defs>
+    <marker id="ah" markerWidth="9" markerHeight="9" refX="6.5" refY="3" orient="auto">
+      <path d="M0,0 L6.5,3 L0,6 Z" fill="#c0392b"/>
+    </marker>
+    <marker id="ahg" markerWidth="9" markerHeight="9" refX="6.5" refY="3" orient="auto">
+      <path d="M0,0 L6.5,3 L0,6 Z" fill="#2b6cb0"/>
+    </marker>
+    <marker id="ahk" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#555555"/>
+    </marker>
+    <marker id="ahy" markerWidth="9" markerHeight="9" refX="6.5" refY="3" orient="auto">
+      <path d="M0,0 L6.5,3 L0,6 Z" fill="#d68910"/>
+    </marker>
+  </defs>
+
+  <!-- ================= LEFT: accelerating rocket in deep space ================= -->
+  <text x="180" y="34" fill="#333333" text-anchor="middle" font-weight="bold">Rocket accelerating in deep space</text>
+  <text x="180" y="52" fill="#777777" text-anchor="middle" font-style="italic">no gravity, acceleration a = g upward</text>
+
+  <!-- box -->
+  <rect x="95" y="80" width="170" height="180" fill="none" stroke="#333333" stroke-width="2"/>
+  <!-- rocket flames -->
+  <path d="M150,260 L180,260 L172,290 L165,272 L158,290 Z" fill="#e67e22" stroke="none"/>
+  <!-- acceleration arrow (up) -->
+  <line x1="55" y1="250" x2="55" y2="95" stroke="#2b6cb0" stroke-width="3" marker-end="url(#ahg)"/>
+  <text x="42" y="175" fill="#2b6cb0" text-anchor="middle" font-weight="bold">a</text>
+
+  <!-- light ray: enters horizontally, bends down (parabola) -->
+  <path d="M95,112 Q220,112 265,178" fill="none" stroke="#c0392b" stroke-width="2.2" marker-end="url(#ah)"/>
+  <text x="118" y="104" fill="#c0392b" font-size="12">light in</text>
+
+  <!-- released ball falls toward floor -->
+  <circle cx="150" cy="120" r="6" fill="#555555"/>
+  <line x1="150" y1="132" x2="150" y2="222" stroke="#555555" stroke-width="1.4" stroke-dasharray="3 4" marker-end="url(#ahk)"/>
+  <text x="188" y="185" fill="#777777" font-size="11" text-anchor="middle">ball drifts</text>
+  <text x="188" y="199" fill="#777777" font-size="11" text-anchor="middle">to floor</text>
+
+  <!-- ================= CENTER: equivalence ================= -->
+  <text x="350" y="168" fill="#111111" text-anchor="middle" font-size="34" font-weight="bold">&#8801;</text>
+  <text x="350" y="196" fill="#777777" text-anchor="middle" font-size="12" font-style="italic">locally</text>
+  <text x="350" y="210" fill="#777777" text-anchor="middle" font-size="12" font-style="italic">identical</text>
+
+  <!-- ================= RIGHT: box at rest on a planet ================= -->
+  <text x="520" y="34" fill="#333333" text-anchor="middle" font-weight="bold">Box at rest on a planet</text>
+  <text x="520" y="52" fill="#777777" text-anchor="middle" font-style="italic">uniform gravitational field g downward</text>
+
+  <!-- box -->
+  <rect x="435" y="80" width="170" height="180" fill="none" stroke="#333333" stroke-width="2"/>
+  <!-- ground -->
+  <line x1="405" y1="260" x2="635" y2="260" stroke="#333333" stroke-width="2"/>
+  <path d="M410,260 L400,272 M430,260 L420,272 M450,260 L440,272 M470,260 L460,272 M490,260 L480,272 M510,260 L500,272 M530,260 L520,272 M550,260 L540,272 M570,260 L560,272 M590,260 L580,272 M610,260 L600,272 M630,260 L620,272" stroke="#999999" stroke-width="1.2"/>
+  <!-- gravity arrow (down) -->
+  <line x1="655" y1="95" x2="655" y2="250" stroke="#2b6cb0" stroke-width="3" marker-end="url(#ahg)"/>
+  <text x="668" y="175" fill="#2b6cb0" text-anchor="middle" font-weight="bold">g</text>
+
+  <!-- light ray: enters horizontally, bends down the SAME way -->
+  <path d="M435,112 Q560,112 605,178" fill="none" stroke="#c0392b" stroke-width="2.2" marker-end="url(#ah)"/>
+  <text x="458" y="104" fill="#c0392b" font-size="12">light in</text>
+
+  <!-- falling ball -->
+  <circle cx="490" cy="120" r="6" fill="#555555"/>
+  <line x1="490" y1="132" x2="490" y2="222" stroke="#555555" stroke-width="1.4" stroke-dasharray="3 4" marker-end="url(#ahk)"/>
+  <text x="528" y="185" fill="#777777" font-size="11" text-anchor="middle">ball</text>
+  <text x="528" y="199" fill="#777777" font-size="11" text-anchor="middle">falls</text>
+
+  <!-- ================= caption ================= -->
+  <text x="350" y="330" fill="#333333" text-anchor="middle" font-size="13">No local experiment inside the box distinguishes the two &#8212; and in both, the light ray bends downward.</text>
+  <text x="350" y="360" fill="#c0392b" text-anchor="middle" font-size="13" font-weight="bold">Free fall cancels gravity; acceleration mimics it. That equivalence is the seed of general relativity.</text>
+</svg>

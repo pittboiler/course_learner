@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 430" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <rect x="0" y="0" width="720" height="430" fill="#ffffff"/>
+
+  <defs>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="#e0645c"/>
+    </marker>
+  </defs>
+
+  <!-- ================= LEFT: rest frame ================= -->
+  <text x="180" y="34" fill="#222222" font-size="15" text-anchor="middle" font-weight="bold">Rest frame (clock at rest)</text>
+
+  <!-- mirrors -->
+  <line x1="120" y1="95" x2="240" y2="95" stroke="#4a90d9" stroke-width="4"/>
+  <line x1="120" y1="300" x2="240" y2="300" stroke="#4a90d9" stroke-width="4"/>
+  <text x="180" y="86" fill="#8a8a8a" text-anchor="middle" font-size="12">top mirror</text>
+  <text x="180" y="318" fill="#8a8a8a" text-anchor="middle" font-size="12">bottom mirror</text>
+
+  <!-- vertical photon path -->
+  <line x1="180" y1="300" x2="180" y2="103" stroke="#e0645c" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <!-- height dimension -->
+  <line x1="270" y1="95" x2="270" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="266" y1="95" x2="274" y2="95" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="266" y1="300" x2="274" y2="300" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="282" y="202" fill="#222222" font-size="13">L = c&#8201;&#916;&#964;/2</text>
+
+  <text x="180" y="360" fill="#222222" text-anchor="middle" font-size="13">round trip: &#916;&#964; = 2L/c (proper time)</text>
+
+  <!-- ================= RIGHT: lab frame ================= -->
+  <text x="510" y="34" fill="#222222" font-size="15" text-anchor="middle" font-weight="bold">Lab frame (clock moving &#8594; at v)</text>
+
+  <!-- mirrors, shifted to show motion -->
+  <line x1="390" y1="300" x2="430" y2="300" stroke="#4a90d9" stroke-width="4" opacity="0.55"/>
+  <line x1="570" y1="300" x2="610" y2="300" stroke="#4a90d9" stroke-width="4" opacity="0.55"/>
+  <line x1="460" y1="95" x2="540" y2="95" stroke="#4a90d9" stroke-width="4"/>
+
+  <!-- diagonal photon path A -> B -> C -->
+  <line x1="410" y1="300" x2="500" y2="98" stroke="#e0645c" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="500" y1="95" x2="590" y2="297" stroke="#e0645c" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <!-- base line and vertical -->
+  <line x1="410" y1="300" x2="590" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="500" y1="95" x2="500" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- point dots -->
+  <circle cx="410" cy="300" r="4" fill="#222222"/>
+  <circle cx="500" cy="95" r="4" fill="#222222"/>
+  <circle cx="590" cy="300" r="4" fill="#222222"/>
+
+  <!-- labels for the triangle -->
+  <text x="440" y="196" fill="#e0645c" font-size="13" transform="rotate(-66 440 196)">c&#8201;&#916;t/2</text>
+  <text x="508" y="205" fill="#222222" font-size="13">L = c&#8201;&#916;&#964;/2</text>
+  <text x="455" y="318" fill="#222222" font-size="13" text-anchor="middle">v&#8201;&#916;t/2</text>
+
+  <text x="510" y="360" fill="#222222" text-anchor="middle" font-size="13">longer path, same speed c &#8594; more time</text>
+
+  <!-- ================= bottom equation ================= -->
+  <line x1="40" y1="382" x2="680" y2="382" stroke="#dddddd" stroke-width="1"/>
+  <text x="360" y="408" fill="#222222" text-anchor="middle" font-size="15">(c&#8201;&#916;t/2)&#178; = (c&#8201;&#916;&#964;/2)&#178; + (v&#8201;&#916;t/2)&#178; &#8658; &#916;t = &#947;&#8201;&#916;&#964;, &#947; = 1/&#8730;(1 &#8722; v&#178;/c&#178;)</text>
+</svg>

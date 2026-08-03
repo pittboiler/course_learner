@@ -1,0 +1,73 @@
+<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif" font-size="14">
+  <rect x="0" y="0" width="640" height="380" fill="#ffffff"/>
+
+  <!-- ============ LEFT: vibrating drum, Bessel mode (n=1, one nodal circle + one nodal diameter) ============ -->
+
+  <!-- filled sign regions: opposite phases shaded faintly -->
+  <!-- outer ring split by the diameter: left-outer + / right-outer - ; inner disk reversed -->
+  <clipPath id="outerRing">
+    <path d="M 175 60 A 130 130 0 1 1 175 320 A 130 130 0 1 1 175 60 Z M 175 125 A 65 65 0 1 0 175 255 A 65 65 0 1 0 175 125 Z" fill-rule="evenodd"/>
+  </clipPath>
+  <g clip-path="url(#outerRing)">
+    <rect x="45" y="60" width="130" height="260" fill="#e0645c" opacity="0.16"/>
+    <rect x="175" y="60" width="130" height="260" fill="#4a90d9" opacity="0.16"/>
+  </g>
+  <clipPath id="innerDisk">
+    <circle cx="175" cy="190" r="65"/>
+  </clipPath>
+  <g clip-path="url(#innerDisk)">
+    <rect x="45" y="60" width="130" height="260" fill="#4a90d9" opacity="0.16"/>
+    <rect x="175" y="60" width="130" height="260" fill="#e0645c" opacity="0.16"/>
+  </g>
+
+  <!-- drum rim -->
+  <circle cx="175" cy="190" r="130" fill="none" stroke="#1a1a1a" stroke-width="2.5"/>
+
+  <!-- nodal circle (dashed) -->
+  <circle cx="175" cy="190" r="65" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-dasharray="5 4"/>
+
+  <!-- nodal diameter (dashed) -->
+  <line x1="175" y1="60" x2="175" y2="320" stroke="#1a1a1a" stroke-width="1.6" stroke-dasharray="5 4"/>
+
+  <!-- + / - phase markers -->
+  <text x="95" y="140" fill="#1a1a1a" font-size="20" text-anchor="middle">+</text>
+  <text x="255" y="140" fill="#1a1a1a" font-size="20" text-anchor="middle">&#8722;</text>
+  <text x="150" y="200" fill="#1a1a1a" font-size="20" text-anchor="middle">&#8722;</text>
+  <text x="200" y="200" fill="#1a1a1a" font-size="20" text-anchor="middle">+</text>
+
+  <!-- labels -->
+  <text x="175" y="345" fill="#1a1a1a" text-anchor="middle">drum: Bessel mode J&#8321;(kr) cos&#952;</text>
+  <text x="175" y="45" fill="#8a8a8a" text-anchor="middle" font-style="italic">nodal lines where the mode = 0</text>
+
+  <!-- callout to nodal circle -->
+  <line x1="240" y1="235" x2="285" y2="270" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="288" y="274" fill="#8a8a8a" font-size="12">nodal circle: J&#8321;(kr)=0</text>
+
+  <!-- ============ RIGHT: sphere with spherical-harmonic nodal bands (Y with latitude nodes) ============ -->
+
+  <!-- sphere outline -->
+  <circle cx="500" cy="190" r="105" fill="#f4f4f4" stroke="#1a1a1a" stroke-width="2.5"/>
+
+  <!-- faint sign shading in latitude bands -->
+  <clipPath id="sphereClip">
+    <circle cx="500" cy="190" r="105"/>
+  </clipPath>
+  <g clip-path="url(#sphereClip)">
+    <rect x="395" y="85"  width="210" height="47" fill="#e0645c" opacity="0.15"/>
+    <rect x="395" y="132" width="210" height="58" fill="#4a90d9" opacity="0.15"/>
+    <rect x="395" y="190" width="210" height="58" fill="#e0645c" opacity="0.15"/>
+    <rect x="395" y="248" width="210" height="47" fill="#4a90d9" opacity="0.15"/>
+  </g>
+
+  <!-- nodal latitude circles (drawn as ellipses for perspective) -->
+  <ellipse cx="500" cy="132" rx="94" ry="16" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-dasharray="5 4"/>
+  <ellipse cx="500" cy="190" rx="105" ry="20" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-dasharray="5 4"/>
+  <ellipse cx="500" cy="248" rx="94" ry="16" fill="none" stroke="#1a1a1a" stroke-width="1.6" stroke-dasharray="5 4"/>
+
+  <!-- pole axis (thin, for orientation) -->
+  <line x1="500" y1="80" x2="500" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 4"/>
+
+  <!-- labels -->
+  <text x="500" y="345" fill="#1a1a1a" text-anchor="middle">sphere: harmonic Y&#8467;&#7504;(&#952;,&#966;)</text>
+  <text x="500" y="45" fill="#8a8a8a" text-anchor="middle" font-style="italic">nodal circles at fixed latitudes</text>
+</svg>

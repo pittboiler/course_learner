@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 360" font-family="sans-serif">
+  <rect x="0" y="0" width="560" height="360" fill="#ffffff"/>
+
+  <!-- title -->
+  <text x="280" y="30" text-anchor="middle" font-size="17" fill="#1a1a1a" font-weight="bold">Cross-entropy = entropy floor + KL penalty</text>
+
+  <!-- y-axis -->
+  <line x1="150" y1="50" x2="150" y2="300" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="90" y="45" font-size="13" fill="#1a1a1a">bits</text>
+
+  <!-- y ticks -->
+  <line x1="145" y1="300" x2="150" y2="300" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="140" y="305" text-anchor="end" font-size="12" fill="#1a1a1a">0</text>
+  <line x1="145" y1="175" x2="150" y2="175" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="140" y="180" text-anchor="end" font-size="12" fill="#1a1a1a">0.5</text>
+  <line x1="145" y1="50" x2="150" y2="50" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="140" y="55" text-anchor="end" font-size="12" fill="#1a1a1a">1.0</text>
+
+  <!-- H(p) segment (blue), 0.881 bits -->
+  <rect x="220" y="80" width="90" height="220" fill="#1a6fb0"/>
+  <text x="265" y="200" text-anchor="middle" font-size="14" fill="#ffffff" font-weight="bold">H(p)</text>
+  <text x="265" y="220" text-anchor="middle" font-size="13" fill="#ffffff">= 0.881</text>
+
+  <!-- D(p||q) segment (red), 0.119 bits -->
+  <rect x="220" y="50" width="90" height="30" fill="#b03a2e"/>
+
+  <!-- dashed guide from top of blue -->
+  <line x1="150" y1="80" x2="220" y2="80" stroke="#888888" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- KL label -->
+  <text x="330" y="60" font-size="14" fill="#b03a2e" font-weight="bold">D(p&#8214;q) = 0.119</text>
+  <line x1="312" y1="65" x2="328" y2="65" stroke="#b03a2e" stroke-width="1.2"/>
+
+  <!-- total bracket on the right -->
+  <line x1="330" y1="50" x2="345" y2="50" stroke="#1a1a1a" stroke-width="1.2"/>
+  <line x1="345" y1="50" x2="345" y2="300" stroke="#1a1a1a" stroke-width="1.2"/>
+  <line x1="330" y1="300" x2="345" y2="300" stroke="#1a1a1a" stroke-width="1.2"/>
+  <text x="355" y="170" font-size="14" fill="#1a1a1a" font-weight="bold">H(p,q)</text>
+  <text x="355" y="190" font-size="13" fill="#1a1a1a">= 1.000 bit</text>
+
+  <!-- caption -->
+  <text x="280" y="335" text-anchor="middle" font-size="13" fill="#1a1a1a">only the red KL band depends on the model q &#8212; minimizing it = max likelihood</text>
+</svg>

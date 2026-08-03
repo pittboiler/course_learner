@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400">
+  <rect x="0" y="0" width="760" height="400" fill="#ffffff"/>
+
+  <!-- title -->
+  <text x="380" y="32" font-family="sans-serif" font-size="20" font-weight="bold" fill="#1a1a1a" text-anchor="middle">Geodesics: the straightest paths on a curved surface</text>
+
+  <!-- ================= LEFT PANEL: great circles vs latitude ================= -->
+  <text x="200" y="62" font-family="sans-serif" font-size="14" font-weight="bold" fill="#444444" text-anchor="middle">On a sphere, geodesics are great circles</text>
+
+  <!-- sphere body -->
+  <circle cx="200" cy="215" r="125" fill="#eef3fb" stroke="#999999" stroke-width="1.5"/>
+
+  <!-- equator: great circle (geodesic) -->
+  <ellipse cx="200" cy="215" rx="125" ry="40" fill="none" stroke="#1f4e9e" stroke-width="2.5"/>
+  <!-- a second great circle through the poles (meridian) -->
+  <ellipse cx="200" cy="215" rx="42" ry="125" fill="none" stroke="#1f4e9e" stroke-width="2.5"/>
+
+  <!-- latitude line: NOT a geodesic -->
+  <ellipse cx="200" cy="150" rx="98" ry="27" fill="none" stroke="#c02626" stroke-width="2.5" stroke-dasharray="7 5"/>
+
+  <!-- pole dots -->
+  <circle cx="200" cy="90" r="3.5" fill="#1a1a1a"/>
+  <circle cx="200" cy="340" r="3.5" fill="#1a1a1a"/>
+
+  <!-- labels -->
+  <text x="200" y="238" font-family="sans-serif" font-size="12.5" fill="#1f4e9e" text-anchor="middle" font-weight="bold">equator</text>
+  <text x="330" y="215" font-family="sans-serif" font-size="12.5" fill="#1f4e9e" text-anchor="start">great circle</text>
+  <text x="330" y="231" font-family="sans-serif" font-size="12.5" fill="#1f4e9e" text-anchor="start">= geodesic</text>
+
+  <path d="M 298 150 C 320 138, 336 140, 344 150" fill="none" stroke="#c02626" stroke-width="1.4"/>
+  <polygon points="344,150 335,147 338,156" fill="#c02626"/>
+  <text x="352" y="146" font-family="sans-serif" font-size="12.5" fill="#c02626" text-anchor="start">latitude line:</text>
+  <text x="352" y="162" font-family="sans-serif" font-size="12.5" fill="#c02626" text-anchor="start">NOT a geodesic</text>
+  <text x="352" y="178" font-family="sans-serif" font-size="11" fill="#888888" text-anchor="start">(it curves sideways)</text>
+
+  <!-- ================= RIGHT PANEL: nearby geodesics converge ================= -->
+  <text x="565" y="62" font-family="sans-serif" font-size="14" font-weight="bold" fill="#444444" text-anchor="middle">Parallel geodesics converge (curvature)</text>
+
+  <!-- sphere body -->
+  <circle cx="565" cy="215" r="125" fill="#eef3fb" stroke="#999999" stroke-width="1.5"/>
+  <!-- reference equator -->
+  <ellipse cx="565" cy="215" rx="125" ry="40" fill="none" stroke="#bbbbbb" stroke-width="1.5"/>
+  <!-- north pole -->
+  <circle cx="565" cy="90" r="4" fill="#1a1a1a"/>
+  <text x="565" y="82" font-family="sans-serif" font-size="12" fill="#1a1a1a" text-anchor="middle">pole</text>
+
+  <!-- two meridian geodesics from equator to pole -->
+  <path d="M 505 248 C 496 175, 540 112, 565 90" fill="none" stroke="#1a7a3a" stroke-width="2.5"/>
+  <path d="M 625 248 C 634 175, 590 112, 565 90" fill="none" stroke="#1a7a3a" stroke-width="2.5"/>
+
+  <!-- initial "parallel" arrows at the equator (both point up) -->
+  <line x1="505" y1="252" x2="502" y2="228" stroke="#1a7a3a" stroke-width="2"/>
+  <polygon points="502,225 498,234 507,232" fill="#1a7a3a"/>
+  <line x1="625" y1="252" x2="628" y2="228" stroke="#1a7a3a" stroke-width="2"/>
+  <polygon points="628,225 623,232 632,234" fill="#1a7a3a"/>
+
+  <text x="565" y="272" font-family="sans-serif" font-size="12" fill="#1a7a3a" text-anchor="middle">start parallel &amp; straight...</text>
+  <text x="565" y="132" font-family="sans-serif" font-size="12" fill="#1a7a3a" text-anchor="middle" font-weight="bold">...yet meet</text>
+
+  <!-- caption -->
+  <text x="380" y="374" font-family="sans-serif" font-size="13" fill="#1a1a1a" text-anchor="middle">A free particle in gravity follows a geodesic: it never turns, yet curvature bends its path and draws nearby paths together.</text>
+  <text x="380" y="392" font-family="sans-serif" font-size="12" fill="#888888" text-anchor="middle">The convergence of initially-parallel geodesics is tidal gravity, quantified in Lesson 4.6.</text>
+</svg>

@@ -1,0 +1,55 @@
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="700" height="400" fill="#ffffff"/>
+
+  <!-- ===== LEFT: one point source and its radial response ===== -->
+  <text x="30" y="32" font-size="17" font-weight="bold" fill="#1a1a1a">One point source: G(x,y)</text>
+
+  <!-- decaying level rings around the source -->
+  <circle cx="170" cy="205" r="105" fill="none" stroke="#cbb3d6" stroke-width="1.6"/>
+  <circle cx="170" cy="205" r="80" fill="none" stroke="#a97fc0" stroke-width="1.8"/>
+  <circle cx="170" cy="205" r="56" fill="none" stroke="#8a4fb0" stroke-width="2"/>
+  <circle cx="170" cy="205" r="34" fill="none" stroke="#6f2f9c" stroke-width="2.2"/>
+  <circle cx="170" cy="205" r="16" fill="none" stroke="#4a1070" stroke-width="2.4"/>
+
+  <!-- the source itself -->
+  <circle cx="170" cy="205" r="6" fill="#1a1a1a"/>
+  <text x="170" y="192" font-size="14" fill="#1a1a1a" text-anchor="middle" font-weight="bold">y</text>
+
+  <!-- radius arrow to a field point x -->
+  <line x1="170" y1="205" x2="275" y2="205" stroke="#1a1a1a" stroke-width="1.4"/>
+  <circle cx="275" cy="205" r="4" fill="#b00020"/>
+  <text x="283" y="200" font-size="13" fill="#b00020" font-weight="bold">x</text>
+  <text x="222" y="222" font-size="12" fill="#555" text-anchor="middle">r = |x&#8722;y|</text>
+
+  <text x="170" y="330" font-size="13" fill="#555" text-anchor="middle">response falls off with distance</text>
+  <text x="170" y="348" font-size="13" fill="#555" text-anchor="middle">(1/r in 3D, &#8722;ln r in 2D)</text>
+
+  <!-- ===== RIGHT: superposition of several sources ===== -->
+  <text x="400" y="32" font-size="17" font-weight="bold" fill="#1a1a1a">Superpose sources: u = &#8747; G f</text>
+
+  <!-- frame -->
+  <rect x="400" y="55" width="270" height="270" rx="10" fill="#fafafa" stroke="#1a1a1a" stroke-width="1.6"/>
+
+  <!-- source 1 -->
+  <circle cx="475" cy="130" r="55" fill="none" stroke="#d8c4e2" stroke-width="1.2"/>
+  <circle cx="475" cy="130" r="34" fill="none" stroke="#a97fc0" stroke-width="1.4"/>
+  <circle cx="475" cy="130" r="15" fill="none" stroke="#6f2f9c" stroke-width="1.6"/>
+  <circle cx="475" cy="130" r="4" fill="#1a1a1a"/>
+
+  <!-- source 2 -->
+  <circle cx="580" cy="180" r="55" fill="none" stroke="#d8c4e2" stroke-width="1.2"/>
+  <circle cx="580" cy="180" r="34" fill="none" stroke="#a97fc0" stroke-width="1.4"/>
+  <circle cx="580" cy="180" r="15" fill="none" stroke="#6f2f9c" stroke-width="1.6"/>
+  <circle cx="580" cy="180" r="4" fill="#1a1a1a"/>
+
+  <!-- source 3 -->
+  <circle cx="500" cy="255" r="55" fill="none" stroke="#d8c4e2" stroke-width="1.2"/>
+  <circle cx="500" cy="255" r="34" fill="none" stroke="#a97fc0" stroke-width="1.4"/>
+  <circle cx="500" cy="255" r="15" fill="none" stroke="#6f2f9c" stroke-width="1.6"/>
+  <circle cx="500" cy="255" r="4" fill="#1a1a1a"/>
+
+  <text x="535" y="315" font-size="12" fill="#555" text-anchor="middle">each f(y)dy adds a scaled copy of G</text>
+
+  <!-- plus / arrow connective between panels -->
+  <text x="352" y="212" font-size="26" fill="#1a1a1a" text-anchor="middle">&#8594;</text>
+</svg>

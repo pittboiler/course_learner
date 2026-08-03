@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" font-family="sans-serif">
+  <rect x="0" y="0" width="720" height="400" fill="#ffffff"/>
+
+  <text x="360" y="34" font-size="19" fill="#333333" text-anchor="middle">Same populations, different off-diagonals</text>
+
+  <!-- ===================== LEFT: superposition ===================== -->
+  <text x="180" y="72" font-size="17" fill="#1a5fb4" text-anchor="middle">Superposition  |+&#10217; = (|0&#10217;+|1&#10217;)/&#8730;2</text>
+
+  <!-- cells: 2x2 grid, cell 76x76, top-left at (112,96) -->
+  <!-- diagonal cells (populations) -->
+  <rect x="112" y="96"  width="76" height="76" fill="#d7e6f5" stroke="#1a5fb4" stroke-width="2"/>
+  <rect x="188" y="172" width="76" height="76" fill="#d7e6f5" stroke="#1a5fb4" stroke-width="2"/>
+  <!-- off-diagonal cells (coherences present) -->
+  <rect x="188" y="96"  width="76" height="76" fill="#f6d6d6" stroke="#c01c28" stroke-width="2"/>
+  <rect x="112" y="172" width="76" height="76" fill="#f6d6d6" stroke="#c01c28" stroke-width="2"/>
+
+  <text x="150" y="144" font-size="22" fill="#1a5fb4" text-anchor="middle">&#189;</text>
+  <text x="226" y="144" font-size="22" fill="#c01c28" text-anchor="middle">&#189;</text>
+  <text x="150" y="220" font-size="22" fill="#c01c28" text-anchor="middle">&#189;</text>
+  <text x="226" y="220" font-size="22" fill="#1a5fb4" text-anchor="middle">&#189;</text>
+
+  <!-- matrix brackets -->
+  <path d="M104,88 L96,88 L96,256 L104,256" fill="none" stroke="#333333" stroke-width="2.5"/>
+  <path d="M272,88 L280,88 L280,256 L272,256" fill="none" stroke="#333333" stroke-width="2.5"/>
+
+  <!-- basis labels -->
+  <text x="150" y="86" font-size="13" fill="#888888" text-anchor="middle">|0&#10217;</text>
+  <text x="226" y="86" font-size="13" fill="#888888" text-anchor="middle">|1&#10217;</text>
+
+  <text x="188" y="286" font-size="14" fill="#c01c28" text-anchor="middle">coherences &#8800; 0</text>
+  <text x="188" y="318" font-size="15" fill="#1a5fb4" text-anchor="middle">Tr(&#961;&#178;) = 1  &#8594;  PURE</text>
+
+  <!-- ===================== RIGHT: mixture ===================== -->
+  <text x="540" y="72" font-size="17" fill="#26a269" text-anchor="middle">Mixture  &#189;|0&#10217;&#10216;0| + &#189;|1&#10217;&#10216;1|</text>
+
+  <rect x="472" y="96"  width="76" height="76" fill="#d7efe0" stroke="#26a269" stroke-width="2"/>
+  <rect x="548" y="172" width="76" height="76" fill="#d7efe0" stroke="#26a269" stroke-width="2"/>
+  <rect x="548" y="96"  width="76" height="76" fill="#f2f2f2" stroke="#bbbbbb" stroke-width="2"/>
+  <rect x="472" y="172" width="76" height="76" fill="#f2f2f2" stroke="#bbbbbb" stroke-width="2"/>
+
+  <text x="510" y="144" font-size="22" fill="#26a269" text-anchor="middle">&#189;</text>
+  <text x="586" y="144" font-size="22" fill="#bbbbbb" text-anchor="middle">0</text>
+  <text x="510" y="220" font-size="22" fill="#bbbbbb" text-anchor="middle">0</text>
+  <text x="586" y="220" font-size="22" fill="#26a269" text-anchor="middle">&#189;</text>
+
+  <path d="M464,88 L456,88 L456,256 L464,256" fill="none" stroke="#333333" stroke-width="2.5"/>
+  <path d="M632,88 L640,88 L640,256 L632,256" fill="none" stroke="#333333" stroke-width="2.5"/>
+
+  <text x="510" y="86" font-size="13" fill="#888888" text-anchor="middle">|0&#10217;</text>
+  <text x="586" y="86" font-size="13" fill="#888888" text-anchor="middle">|1&#10217;</text>
+
+  <text x="548" y="286" font-size="14" fill="#999999" text-anchor="middle">coherences = 0</text>
+  <text x="548" y="318" font-size="15" fill="#26a269" text-anchor="middle">Tr(&#961;&#178;) = &#189;  &#8594;  MIXED</text>
+
+  <text x="360" y="360" font-size="14" fill="#666666" text-anchor="middle">A 50/50 measurement can't tell them apart &#8212; but an interference test can: the coherences are what interfere.</text>
+</svg>

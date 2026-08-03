@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 340" font-family="sans-serif">
+  <rect x="0" y="0" width="520" height="340" fill="#ffffff"/>
+
+  <!-- axes -->
+  <line x1="60" y1="290" x2="490" y2="290" stroke="#222" stroke-width="2"/>
+  <line x1="60" y1="290" x2="60" y2="40" stroke="#222" stroke-width="2"/>
+  <text x="470" y="312" font-size="15" fill="#222">time  t</text>
+  <text x="18" y="52" font-size="15" fill="#222">k</text>
+
+  <!-- k_max line (save everything corner) -->
+  <line x1="60" y1="70" x2="490" y2="70" stroke="#999" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="300" y="63" font-size="13" fill="#777">k_max  (consume nothing)</text>
+
+  <!-- k* steady state -->
+  <line x1="60" y1="205" x2="490" y2="205" stroke="#555" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="392" y="222" font-size="13" fill="#555">k*  (optimum)</text>
+
+  <!-- starting point -->
+  <circle cx="60" cy="255" r="4" fill="#222"/>
+  <text x="28" y="272" font-size="13" fill="#222">k_0</text>
+
+  <!-- optimal path: converges to k* -->
+  <path d="M60,255 C150,232 220,214 300,208 S430,205 490,205" fill="none" stroke="#1a7f37" stroke-width="3"/>
+  <text x="300" y="196" font-size="13" fill="#1a7f37" font-weight="bold">optimal: Euler + TVC</text>
+
+  <!-- TVC-violating path: over-accumulates toward k_max -->
+  <path d="M60,255 C150,238 230,214 300,178 S430,100 490,80" fill="none" stroke="#c0392b" stroke-width="3" stroke-dasharray="2 0"/>
+  <text x="150" y="120" font-size="13" fill="#c0392b" font-weight="bold">over-accumulation:</text>
+  <text x="150" y="137" font-size="13" fill="#c0392b" font-weight="bold">Euler holds, TVC fails</text>
+</svg>

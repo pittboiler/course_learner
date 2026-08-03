@@ -1,0 +1,59 @@
+<svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif" font-size="13">
+  <rect x="0" y="0" width="640" height="360" fill="#ffffff"/>
+
+  <!-- ================= LEFT PANEL: (x,t) plane, characteristics fan and cross ================= -->
+  <text x="60" y="30" fill="#1a1a1a" font-style="italic">Characteristics: speed set by the u they carry</text>
+
+  <!-- axes -->
+  <line x1="60" y1="300" x2="330" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="70" y1="310" x2="70" y2="55" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="330,300 320,295 320,305" fill="#8a8a8a"/>
+  <polygon points="70,55 65,65 75,65" fill="#8a8a8a"/>
+  <text x="335" y="304" fill="#8a8a8a">x</text>
+  <text x="60" y="55" fill="#8a8a8a">t</text>
+
+  <!-- t = 1 gridline (crossing height) -->
+  <line x1="70" y1="100" x2="300" y2="100" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="44" y="104" fill="#8a8a8a">t=1</text>
+
+  <!-- characteristics x = x0 + (1 - x0) t, all meeting at (x=1, t=1) -->
+  <line x1="70"  y1="300" x2="230" y2="100" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="110" y1="300" x2="230" y2="100" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="150" y1="300" x2="230" y2="100" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="190" y1="300" x2="230" y2="100" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="230" y1="300" x2="230" y2="100" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <!-- carried-value tags at the feet: faster on the left -->
+  <text x="60"  y="316" fill="#1a1a1a">u=1</text>
+  <text x="205" y="316" fill="#1a1a1a">u=0</text>
+
+  <!-- crossing point -->
+  <circle cx="230" cy="100" r="5" fill="#e0645c"/>
+  <text x="180" y="88" fill="#e0645c">lines cross</text>
+
+  <!-- ================= RIGHT PANEL: profile steepens to a vertical tangent ================= -->
+  <text x="360" y="30" fill="#1a1a1a" font-style="italic">The profile u(x) steepens, then goes vertical</text>
+
+  <!-- axes -->
+  <line x1="360" y1="300" x2="600" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="370" y1="310" x2="370" y2="55" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="600,300 590,295 590,305" fill="#8a8a8a"/>
+  <polygon points="370,55 365,65 375,65" fill="#8a8a8a"/>
+  <text x="605" y="304" fill="#8a8a8a">x</text>
+  <text x="352" y="55" fill="#8a8a8a">u</text>
+
+  <!-- t = 0 profile: u = 1 - x -->
+  <line x1="370" y1="100" x2="520" y2="300" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="378" y="94" fill="#4a90d9">t=0</text>
+
+  <!-- t = 0.5 profile: steeper -->
+  <line x1="445" y1="100" x2="520" y2="300" stroke="#7b6fb0" stroke-width="2.5"/>
+  <text x="450" y="94" fill="#7b6fb0">t=0.5</text>
+
+  <!-- t = 1 profile: vertical -->
+  <line x1="520" y1="100" x2="520" y2="300" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="524" y="112" fill="#e0645c">t=1: vertical</text>
+
+  <!-- gradient-blows-up marker -->
+  <text x="452" y="330" fill="#e0645c" font-size="12">gradient → ∞ (solution breaks)</text>
+</svg>
