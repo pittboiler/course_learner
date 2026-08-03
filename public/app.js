@@ -221,26 +221,34 @@ async function renderLesson(courseId, file) {
              <button class="primary" id="mark-done">Mark complete</button>`
       }
     </div>
-    <div class="grade-box">
-      <div><strong>Get a problem graded</strong> <span class="muted">— by Claude, including photos of handwritten work</span></div>
-      <label>Problem:
-        <select id="grade-problem">
-          <option>P1</option><option>P2</option><option>P3</option><option>Flashback</option>
-        </select>
-      </label>
-      ${answerFormHTML("grade", "Grade it")}
-    </div>
   `;
   renderMath($app);
 
   document.getElementById("print-lesson").onclick = () => window.print();
 
-  wireAnswerForm("grade", async (answer, fb) => {
-    const problem = document.getElementById("grade-problem").value;
+  // A grader bound to one problem label ("P1"/"P2"/"P3"/"Flashback").
+  const gradeOne = (problem) => async (answer, fb) => {
     const result = await postJSON("/api/grade", { course: courseId, lesson: file, problem, ...answer });
     fb.innerHTML = feedbackHTML(result);
     renderMath(fb);
-  });
+  };
+
+  // Put a collapsible writing workspace directly under each problem so the
+  // problem stays in view while you solve it. Fall back to one selector-based
+  // box if the problems can't be located.
+  const mdEl = $app.querySelector(".md");
+  if (attachProblemWorkspaces(mdEl, gradeOne) === 0) {
+    const box = document.createElement("div");
+    box.className = "grade-box";
+    box.innerHTML =
+      `<div><strong>Get a problem graded</strong> <span class="muted">— by Claude, including photos of handwritten work</span></div>
+      <label>Problem: <select id="grade-problem"><option>P1</option><option>P2</option><option>P3</option><option>Flashback</option></select></label>
+      ${answerFormHTML("grade", "Grade it")}`;
+    $app.appendChild(box);
+    wireAnswerForm("grade", (answer, fb) =>
+      gradeOne(document.getElementById("grade-problem").value)(answer, fb)
+    );
+  }
 
   const btn = document.getElementById("mark-done");
   if (btn)
@@ -509,6 +517,45 @@ function wireAnswerForm(idPrefix, onSubmit) {
       btn.disabled = false;
     }
   };
+}
+
+/* Inject a collapsible Apple-Pencil workspace right under each problem (P1/P2/P3
+   and the Flashback), each wired to grade that specific problem. Built lazily on
+   first open so the canvas sizes to a visible width. Returns how many it added. */
+function attachProblemWorkspaces(mdEl, gradeOne) {
+  if (!mdEl) return 0;
+  const spots = [];
+  let inProblems = false;
+  for (const el of [...mdEl.children]) {
+    if (el.tagName === "H2") inProblems = /problem/i.test(el.textContent);
+    if (inProblems && el.tagName === "P") {
+      const strong = el.querySelector("strong");
+      const m = strong && strong.textContent.trim().match(/^P(\d)\b/);
+      if (m) spots.push({ label: "P" + m[1], after: el });
+    }
+  }
+  // The Flashback retrieval problem: first paragraph under the Flashback heading.
+  const fbH = [...mdEl.querySelectorAll("h2")].find((h) => /flashback/i.test(h.textContent));
+  if (fbH) {
+    let n = fbH.nextElementSibling;
+    while (n && n.tagName !== "P") n = n.nextElementSibling;
+    if (n) spots.push({ label: "Flashback", after: n });
+  }
+  for (const { label, after } of spots) {
+    const d = document.createElement("details");
+    d.className = "work-drawer";
+    const idPrefix = "work-" + label;
+    d.innerHTML = `<summary>✍︎ Work on ${label} — write, type, or snap a photo</summary><div class="work-body"></div>`;
+    after.insertAdjacentElement("afterend", d);
+    let built = false;
+    d.addEventListener("toggle", () => {
+      if (!d.open || built) return; // build once, when first shown (canvas needs a visible width)
+      built = true;
+      d.querySelector(".work-body").innerHTML = answerFormHTML(idPrefix, "Grade it");
+      wireAnswerForm(idPrefix, gradeOne(label));
+    });
+  }
+  return spots.length;
 }
 
 function feedbackHTML(result, extraMd = "") {

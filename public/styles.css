@@ -159,11 +159,26 @@ button:disabled { opacity: 0.5; cursor: wait; }
 .ink-canvas {
   width: 100%; height: 640px; display: block;
   background: #ffffff; border: 1px solid var(--line); border-radius: 10px;
-  touch-action: pan-y; /* finger scrolls the page; Pencil draws */
+  touch-action: none;        /* Pencil draws reliably — no stroke gets stolen by scroll */
+  overscroll-behavior: contain;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06); cursor: crosshair;
 }
 .type-answer { margin: 4px 0 2px; }
 .type-answer > summary { cursor: pointer; color: var(--muted); font-size: 13px; }
+
+/* Per-problem writing workspace, injected right under each problem */
+.md .work-drawer {
+  border: 1px solid var(--accent); border-radius: 8px;
+  margin: 8px 0 20px; padding: 4px 14px; background: var(--panel);
+}
+.md .work-drawer > summary {
+  cursor: pointer; font-weight: 600; color: var(--accent);
+  font-size: 14px; padding: 6px 0; list-style: none;
+}
+.md .work-drawer > summary::-webkit-details-marker { display: none; }
+.md .work-drawer > summary::before { content: "▸ "; }
+.md .work-drawer[open] > summary::before { content: "▾ "; }
+.md .work-drawer .work-body { padding: 4px 0 8px; }
 
 .feedback { margin-top: 14px; padding: 12px 16px; border-radius: 10px; border: 1px solid var(--line); }
 .feedback.correct { border-color: var(--good); }
@@ -180,7 +195,7 @@ button:disabled { opacity: 0.5; cursor: wait; }
     --bg: #ffffff; --panel: #ffffff; --ink: #000000; --muted: #444444;
     --line: #bbbbbb; --accent: #000000;
   }
-  header, nav, .crumbs, .complete-box, .grade-box, .toolbar, .bar { display: none !important; }
+  header, nav, .crumbs, .complete-box, .grade-box, .work-drawer, .toolbar, .bar { display: none !important; }
   body { background: #fff; color: #000; font-size: 12pt; }
   main { max-width: none; padding: 0; }
   .md { border: none; border-radius: 0; padding: 0; background: #fff; }
