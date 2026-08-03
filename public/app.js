@@ -52,7 +52,8 @@ function pctDone(id) {
   return Math.min(100, Math.round((100 * doneCount(id)) / total));
 }
 function courseStatus(c) {
-  if (STATE.courses[c.id]?.hasSyllabus) return "active";
+  if (doneCount(c.id) > 0) return "active";
+  if (STATE.courses[c.id]?.hasSyllabus) return "ready";
   return c.prereqs.every((p) => pctDone(p) >= 60) ? "ready" : "locked";
 }
 function streakDays() {
@@ -71,7 +72,7 @@ function streakDays() {
 /* ---------- views ---------- */
 
 function renderDashboard() {
-  const active = STATE.roadmap.courses.filter((c) => STATE.courses[c.id]?.hasSyllabus);
+  const active = STATE.roadmap.courses.filter((c) => doneCount(c.id) > 0);
   const due = STATE.progress.review_queue.filter((r) => r.due <= STATE.today).length;
   const week = STATE.progress.log.filter(
     (e) => (new Date(STATE.today) - new Date(e.date)) / 86400000 < 7
