@@ -190,6 +190,491 @@
       "status": "available",
       "started": "2026-07-22",
       "lessons": {}
+    },
+    "arithmetic-number-sense": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "algebra-foundations": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "geometry": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "trigonometry": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "precalculus": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "discrete-math-intro": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "discrete-mathematics": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "number-theory": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "graph-theory": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "combinatorics": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "numerical-analysis": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "convex-optimization": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "fourier-analysis": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "mathematical-logic": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "waves-optics": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "thermodynamics-physics": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "mathematical-methods-physics": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "computational-physics": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "nuclear-particle-physics": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "condensed-matter": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "plasma-physics": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "biophysics": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "photonics-quantum-optics": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "statics": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "engineering-dynamics": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "mechanics-of-materials": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "engineering-thermodynamics": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "heat-transfer": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "control-systems": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "signals-systems": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "intro-nuclear-engineering": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "reactor-physics": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "reactor-thermal-hydraulics": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "nuclear-materials": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "radiation-detection-shielding": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "fusion-plasma": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "nuclear-fuel-cycle": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "materials-science": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "circuits": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "electronics": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "digital-logic": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "communications": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "power-systems": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "semiconductor-devices": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "structural-analysis": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "aerodynamics": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "orbital-mechanics": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "propulsion": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "robotics": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "transport-phenomena": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "reaction-engineering": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "operations-research": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "programming-foundations": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "algorithms": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "theory-of-computation": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "computational-complexity": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "computer-architecture": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "operating-systems": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "computer-networks": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "databases": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "programming-languages": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "cryptography": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "distributed-systems": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "machine-learning": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "deep-learning": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "reinforcement-learning": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "computer-graphics": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "quantum-computing": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "general-chemistry": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "organic-chemistry": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "physical-chemistry": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "quantum-chemistry": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "inorganic-chemistry": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "analytical-chemistry": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "biochemistry": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "electrochemistry": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "polymer-chemistry": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "geology": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "atmospheric-science": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "geophysics": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "climate-science": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "oceanography": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "planetary-science": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "cosmology": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "general-biology": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "molecular-cell-biology": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "genetics": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "evolution-ecology": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "physiology": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "neuroscience": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "computational-biology": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "systems-biology": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "immunology": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "measure-theory": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "algebraic-topology": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "algebraic-geometry": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "category-theory": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
     }
   },
   "review_queue": [],

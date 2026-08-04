@@ -78,6 +78,11 @@ a { color: var(--accent); }
 .badge.active { color: var(--good); border-color: var(--good); }
 .badge.ready { color: var(--accent); border-color: var(--accent); }
 .badge.locked { color: var(--locked); }
+.tier-tag {
+  display: inline-block; margin-left: 6px; font-size: 11px; font-weight: 600;
+  letter-spacing: 0.04em; text-transform: uppercase; padding: 1px 8px;
+  border-radius: 99px; border: 1px solid var(--line); color: var(--muted);
+}
 
 .bar { height: 6px; border-radius: 3px; background: var(--line); overflow: hidden; margin-top: 8px; }
 .bar > div { height: 100%; background: var(--accent); }

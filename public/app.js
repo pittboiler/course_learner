@@ -36,6 +36,14 @@ const esc = (s) =>
 
 const TIER_NAMES = { 0: "Tier 0 · Refreshers", 1: "Tier 1 · Bridges", 2: "Tier 2 · Destinations" };
 
+/* The library is shelved by field (primary) and tier (difficulty within a field). */
+const FIELD_ORDER = [
+  "Foundations", "Mathematics", "Computer Science", "Physics", "Chemistry",
+  "Engineering", "Earth & Space", "Life Sciences", "Economics & Finance", "Humanities",
+];
+const TIER_LABEL = { F: "Foundations", 0: "Tier 0", 1: "Tier 1", 2: "Tier 2" };
+const tierRank = (t) => (t === "F" ? -1 : Number(t));
+
 /* ---------- local persistence -------------------------------------------
    The server's filesystem is read-only on Vercel, so progress and handwriting
    are kept in the browser and merged over whatever the server can return. */
@@ -160,6 +168,7 @@ function cardHTML(c) {
     <a class="card ${status === "locked" ? "locked" : ""}" href="#/course/${c.id}">
       <div class="title">${esc(c.title)}</div>
       <span class="badge ${status}">${badge}</span>
+      <span class="tier-tag">${TIER_LABEL[c.tier] ?? `Tier ${c.tier}`}</span>
       <div class="blurb">${esc(c.blurb)}</div>
       <div class="muted" style="font-size:12px">${done} / ~${c.lessons_estimate} lessons</div>
       <div class="bar"><div style="width:${pctDone(c.id)}%"></div></div>
@@ -167,14 +176,22 @@ function cardHTML(c) {
 }
 
 function renderLibrary() {
-  const tiers = [0, 1, 2];
+  const courses = STATE.roadmap.courses;
+  // Fields in canonical order, then any not listed in FIELD_ORDER (defensive).
+  const present = [...new Set(courses.map((c) => c.field || "Mathematics"))];
+  const fields = [
+    ...FIELD_ORDER.filter((f) => present.includes(f)),
+    ...present.filter((f) => !FIELD_ORDER.includes(f)),
+  ];
   $app.innerHTML = `
     <h1>Library</h1>
-    <p class="muted">Courses unlock when each prerequisite is ~60% complete. To stand one up, run <code>/new-course &lt;id&gt;</code> in Claude Code.</p>
-    ${tiers
-      .map((t) => {
-        const cs = STATE.roadmap.courses.filter((c) => c.tier === t);
-        return `<h2>${TIER_NAMES[t]}</h2><div class="grid">${cs.map(cardHTML).join("")}</div>`;
+    <p class="muted">Shelved by field; within a field, ordered by tier. Courses unlock when each prerequisite is ~60% complete. To stand one up, run <code>/new-course &lt;id&gt;</code> in Claude Code.</p>
+    ${fields
+      .map((f) => {
+        const cs = courses
+          .filter((c) => (c.field || "Mathematics") === f)
+          .sort((a, b) => tierRank(a.tier) - tierRank(b.tier));
+        return `<h2>${esc(f)}</h2><div class="grid">${cs.map(cardHTML).join("")}</div>`;
       })
       .join("")}
   `;
@@ -745,12 +762,12 @@ async function postJSON(url, body) {
   return data;
 }
 
-/* Checkpoint quizzes: Tier 0 courses get 2 (mid + final), Tier 1/2 get 3 (thirds) */
+/* Checkpoint quizzes: Foundations & Tier 0 get 2 (mid + final), Tier 1/2 get 3 (thirds) */
 function quizCheckpoints(courseId) {
   const m = STATE.courses[courseId]?.moduleCount || 0;
   if (m < 2) return [];
   const tier = courseInfo(courseId)?.tier ?? 0;
-  const marks = tier === 0
+  const marks = (tier === 0 || tier === "F")
     ? [Math.ceil(m / 2), m]
     : [Math.max(1, Math.round(m / 3)), Math.round((2 * m) / 3), m];
   return [...new Set(marks)].sort((a, b) => a - b);

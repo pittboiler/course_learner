@@ -4,6 +4,7 @@
       "id": "proofs-primer",
       "title": "How to Read & Write Proofs",
       "tier": 0,
+      "field": "Mathematics",
       "prereqs": [],
       "lessons_estimate": 8,
       "blurb": "Logic, sets, induction, proof patterns. The on-ramp to analysis and topology."
@@ -12,6 +13,7 @@
       "id": "calc-refresher",
       "title": "Calculus",
       "tier": 0,
+      "field": "Mathematics",
       "prereqs": [],
       "lessons_estimate": 15,
       "blurb": "Single + multivariable, through vector calculus."
@@ -20,6 +22,7 @@
       "id": "linalg-refresher",
       "title": "Linear Algebra",
       "tier": 0,
+      "field": "Mathematics",
       "prereqs": [],
       "lessons_estimate": 12,
       "blurb": "Through spectral theorem, SVD, and inner-product spaces."
@@ -28,6 +31,7 @@
       "id": "ode-refresher",
       "title": "Differential Equations",
       "tier": 0,
+      "field": "Mathematics",
       "prereqs": [
         "calc-refresher"
       ],
@@ -38,6 +42,7 @@
       "id": "prob-stat-refresher",
       "title": "Probability & Statistics",
       "tier": 0,
+      "field": "Mathematics",
       "prereqs": [
         "calc-refresher"
       ],
@@ -48,6 +53,7 @@
       "id": "mechanics-refresher",
       "title": "Newtonian Mechanics",
       "tier": 0,
+      "field": "Physics",
       "prereqs": [
         "calc-refresher",
         "ode-refresher"
@@ -59,6 +65,7 @@
       "id": "em-refresher",
       "title": "Electromagnetism",
       "tier": 0,
+      "field": "Physics",
       "prereqs": [
         "calc-refresher",
         "ode-refresher"
@@ -70,6 +77,7 @@
       "id": "game-theory-refresher",
       "title": "Game Theory",
       "tier": 0,
+      "field": "Economics & Finance",
       "prereqs": [
         "prob-stat-refresher"
       ],
@@ -80,6 +88,7 @@
       "id": "micro-refresher",
       "title": "Mathematical Microeconomics",
       "tier": 0,
+      "field": "Economics & Finance",
       "prereqs": [
         "calc-refresher"
       ],
@@ -90,6 +99,7 @@
       "id": "real-analysis",
       "title": "Real Analysis",
       "tier": 1,
+      "field": "Mathematics",
       "prereqs": [
         "proofs-primer",
         "calc-refresher"
@@ -101,6 +111,7 @@
       "id": "complex-analysis",
       "title": "Complex Analysis",
       "tier": 1,
+      "field": "Mathematics",
       "prereqs": [
         "real-analysis"
       ],
@@ -111,6 +122,7 @@
       "id": "topology",
       "title": "Topology",
       "tier": 1,
+      "field": "Mathematics",
       "prereqs": [
         "proofs-primer",
         "real-analysis"
@@ -122,6 +134,7 @@
       "id": "probability-theory",
       "title": "Probability Theory",
       "tier": 1,
+      "field": "Mathematics",
       "prereqs": [
         "prob-stat-refresher",
         "real-analysis"
@@ -133,6 +146,7 @@
       "id": "analytical-mechanics",
       "title": "Analytical Mechanics",
       "tier": 1,
+      "field": "Physics",
       "prereqs": [
         "mechanics-refresher",
         "ode-refresher"
@@ -144,6 +158,7 @@
       "id": "grad-game-theory",
       "title": "Grad Game Theory",
       "tier": 2,
+      "field": "Economics & Finance",
       "prereqs": [
         "game-theory-refresher",
         "probability-theory",
@@ -156,6 +171,7 @@
       "id": "grad-micro",
       "title": "Grad Microeconomics",
       "tier": 2,
+      "field": "Economics & Finance",
       "prereqs": [
         "micro-refresher",
         "real-analysis",
@@ -168,6 +184,7 @@
       "id": "quantum-mechanics",
       "title": "Quantum Mechanics",
       "tier": 2,
+      "field": "Physics",
       "prereqs": [
         "linalg-refresher",
         "analytical-mechanics",
@@ -180,6 +197,7 @@
       "id": "stat-mech",
       "title": "Statistical Mechanics",
       "tier": 2,
+      "field": "Physics",
       "prereqs": [
         "probability-theory",
         "analytical-mechanics"
@@ -191,6 +209,7 @@
       "id": "relativity",
       "title": "Relativity (SR + GR)",
       "tier": 2,
+      "field": "Physics",
       "prereqs": [
         "mechanics-refresher",
         "em-refresher",
@@ -205,6 +224,7 @@
       "id": "astrophysics",
       "title": "Astrophysics",
       "tier": 2,
+      "field": "Physics",
       "prereqs": [
         "mechanics-refresher",
         "em-refresher",
@@ -219,6 +239,7 @@
       "id": "pdes",
       "title": "Partial Differential Equations",
       "tier": 1,
+      "field": "Mathematics",
       "prereqs": [
         "calc-refresher",
         "ode-refresher",
@@ -231,6 +252,7 @@
       "id": "functional-analysis",
       "title": "Functional Analysis",
       "tier": 1,
+      "field": "Mathematics",
       "prereqs": [
         "real-analysis",
         "linalg-refresher",
@@ -243,6 +265,7 @@
       "id": "differential-geometry",
       "title": "Differential Geometry",
       "tier": 1,
+      "field": "Mathematics",
       "prereqs": [
         "calc-refresher",
         "linalg-refresher",
@@ -255,6 +278,7 @@
       "id": "abstract-algebra",
       "title": "Abstract Algebra",
       "tier": 1,
+      "field": "Mathematics",
       "prereqs": [
         "proofs-primer",
         "linalg-refresher"
@@ -266,6 +290,7 @@
       "id": "dynamical-systems",
       "title": "Dynamical Systems & Chaos",
       "tier": 1,
+      "field": "Mathematics",
       "prereqs": [
         "ode-refresher",
         "linalg-refresher",
@@ -278,6 +303,7 @@
       "id": "stochastic-calculus",
       "title": "Stochastic Calculus",
       "tier": 1,
+      "field": "Mathematics",
       "prereqs": [
         "probability-theory",
         "real-analysis"
@@ -289,6 +315,7 @@
       "id": "information-theory",
       "title": "Information Theory",
       "tier": 1,
+      "field": "Mathematics",
       "prereqs": [
         "probability-theory",
         "linalg-refresher"
@@ -300,6 +327,7 @@
       "id": "representation-theory",
       "title": "Group & Representation Theory",
       "tier": 2,
+      "field": "Mathematics",
       "prereqs": [
         "abstract-algebra",
         "linalg-refresher"
@@ -311,6 +339,7 @@
       "id": "qft",
       "title": "Quantum Field Theory",
       "tier": 2,
+      "field": "Physics",
       "prereqs": [
         "quantum-mechanics",
         "relativity",
@@ -323,6 +352,7 @@
       "id": "fluid-dynamics",
       "title": "Fluid Dynamics",
       "tier": 2,
+      "field": "Physics",
       "prereqs": [
         "calc-refresher",
         "ode-refresher",
@@ -336,6 +366,7 @@
       "id": "grad-macro",
       "title": "Grad Macroeconomics",
       "tier": 2,
+      "field": "Economics & Finance",
       "prereqs": [
         "grad-micro",
         "real-analysis",
@@ -348,6 +379,7 @@
       "id": "econometrics",
       "title": "Econometrics",
       "tier": 2,
+      "field": "Economics & Finance",
       "prereqs": [
         "probability-theory",
         "linalg-refresher",
@@ -360,6 +392,7 @@
       "id": "mathematical-finance",
       "title": "Mathematical Finance",
       "tier": 2,
+      "field": "Economics & Finance",
       "prereqs": [
         "stochastic-calculus",
         "probability-theory",
@@ -372,6 +405,7 @@
       "id": "political-economy",
       "title": "Political Economy & Social Choice",
       "tier": 2,
+      "field": "Humanities",
       "prereqs": [
         "grad-game-theory",
         "micro-refresher"
@@ -383,6 +417,7 @@
       "id": "statistical-learning",
       "title": "Statistical Learning Theory",
       "tier": 2,
+      "field": "Economics & Finance",
       "prereqs": [
         "probability-theory",
         "linalg-refresher",
@@ -395,9 +430,1105 @@
       "id": "political-philosophy",
       "title": "Political Philosophy",
       "tier": 1,
+      "field": "Humanities",
       "prereqs": [],
       "lessons_estimate": 20,
       "blurb": "Authority, justice (Rawls/Nozick), liberty, equality, democracy. The first course in a humanities track; normative companion to political-economy."
+    },
+    {
+      "id": "arithmetic-number-sense",
+      "title": "Arithmetic & Number Sense",
+      "tier": "F",
+      "field": "Foundations",
+      "prereqs": [],
+      "lessons_estimate": 8,
+      "blurb": "Fractions, ratios, percents, estimation, mental math. The floor below algebra."
+    },
+    {
+      "id": "algebra-foundations",
+      "title": "Algebra I & II",
+      "tier": "F",
+      "field": "Foundations",
+      "prereqs": [],
+      "lessons_estimate": 12,
+      "blurb": "Equations, factoring, functions, exponents & logs. The language everything downstream is written in."
+    },
+    {
+      "id": "geometry",
+      "title": "Euclidean Geometry",
+      "tier": "F",
+      "field": "Foundations",
+      "prereqs": [],
+      "lessons_estimate": 11,
+      "blurb": "Congruence, similarity, circles, area — proof-based. The classic first taste of rigor."
+    },
+    {
+      "id": "trigonometry",
+      "title": "Trigonometry",
+      "tier": "F",
+      "field": "Foundations",
+      "prereqs": [],
+      "lessons_estimate": 8,
+      "blurb": "Unit circle, identities, triangle-solving, waves. The bridge from geometry to calculus."
+    },
+    {
+      "id": "precalculus",
+      "title": "Precalculus",
+      "tier": "F",
+      "field": "Foundations",
+      "prereqs": [],
+      "lessons_estimate": 12,
+      "blurb": "Functions, polynomials, conics, sequences, limits-at-the-door. Assembles the toolkit calculus assumes."
+    },
+    {
+      "id": "discrete-math-intro",
+      "title": "Discrete Math for Beginners",
+      "tier": "F",
+      "field": "Foundations",
+      "prereqs": [],
+      "lessons_estimate": 8,
+      "blurb": "Counting, logic, sets, basic proof. The gentle on-ramp to proofs-primer and CS."
+    },
+    {
+      "id": "discrete-mathematics",
+      "title": "Discrete Mathematics",
+      "tier": 0,
+      "field": "Mathematics",
+      "prereqs": [],
+      "lessons_estimate": 16,
+      "blurb": "Logic, sets, combinatorics, recurrences, and graphs — the mathematics of the discrete, and the backbone of CS."
+    },
+    {
+      "id": "number-theory",
+      "title": "Number Theory",
+      "tier": 1,
+      "field": "Mathematics",
+      "prereqs": [
+        "proofs-primer"
+      ],
+      "lessons_estimate": 19,
+      "blurb": "Primes, congruences, Diophantine equations, quadratic reciprocity, and the arithmetic behind RSA."
+    },
+    {
+      "id": "graph-theory",
+      "title": "Graph Theory",
+      "tier": 1,
+      "field": "Mathematics",
+      "prereqs": [
+        "proofs-primer"
+      ],
+      "lessons_estimate": 18,
+      "blurb": "Connectivity, trees, matchings, coloring, planarity, flows, and a taste of spectral graph theory."
+    },
+    {
+      "id": "combinatorics",
+      "title": "Enumerative & Algebraic Combinatorics",
+      "tier": 1,
+      "field": "Mathematics",
+      "prereqs": [
+        "proofs-primer"
+      ],
+      "lessons_estimate": 15,
+      "blurb": "Bijections, generating functions, inclusion-exclusion, permutations & partitions, and Ramsey theory."
+    },
+    {
+      "id": "numerical-analysis",
+      "title": "Numerical Analysis",
+      "tier": 1,
+      "field": "Mathematics",
+      "prereqs": [
+        "calc-refresher",
+        "linalg-refresher"
+      ],
+      "lessons_estimate": 23,
+      "blurb": "Floating point, root-finding, interpolation, quadrature, linear solvers, and ODE integrators — with error & stability."
+    },
+    {
+      "id": "convex-optimization",
+      "title": "Convex Optimization",
+      "tier": 1,
+      "field": "Mathematics",
+      "prereqs": [
+        "calc-refresher",
+        "linalg-refresher",
+        "real-analysis"
+      ],
+      "lessons_estimate": 18,
+      "blurb": "Convex sets & functions, duality, KKT conditions, and gradient/Newton/interior-point methods."
+    },
+    {
+      "id": "fourier-analysis",
+      "title": "Fourier & Harmonic Analysis",
+      "tier": 1,
+      "field": "Mathematics",
+      "prereqs": [
+        "calc-refresher",
+        "ode-refresher",
+        "real-analysis"
+      ],
+      "lessons_estimate": 14,
+      "blurb": "Fourier series & transforms, convergence, Parseval, distributions, and applications to signals and PDEs."
+    },
+    {
+      "id": "mathematical-logic",
+      "title": "Logic & Set Theory",
+      "tier": 1,
+      "field": "Mathematics",
+      "prereqs": [
+        "proofs-primer"
+      ],
+      "lessons_estimate": 18,
+      "blurb": "Propositional & first-order logic, soundness & completeness, ZFC, ordinals & cardinals, and a taste of Godel."
+    },
+    {
+      "id": "waves-optics",
+      "title": "Waves & Optics",
+      "tier": 0,
+      "field": "Physics",
+      "prereqs": [
+        "calc-refresher",
+        "ode-refresher"
+      ],
+      "lessons_estimate": 14,
+      "blurb": "Oscillations, the wave equation, interference, diffraction, polarization, and geometric & physical optics."
+    },
+    {
+      "id": "thermodynamics-physics",
+      "title": "Classical Thermodynamics",
+      "tier": 0,
+      "field": "Physics",
+      "prereqs": [
+        "calc-refresher"
+      ],
+      "lessons_estimate": 11,
+      "blurb": "The four laws, heat engines, entropy, and thermodynamic potentials — before the statistical picture."
+    },
+    {
+      "id": "mathematical-methods-physics",
+      "title": "Mathematical Methods for Physics",
+      "tier": 1,
+      "field": "Physics",
+      "prereqs": [
+        "calc-refresher",
+        "ode-refresher",
+        "linalg-refresher"
+      ],
+      "lessons_estimate": 21,
+      "blurb": "The physicist toolbox: vector calculus, special functions, complex methods, tensors, and Greens functions."
+    },
+    {
+      "id": "computational-physics",
+      "title": "Computational Physics",
+      "tier": 1,
+      "field": "Physics",
+      "prereqs": [
+        "ode-refresher",
+        "linalg-refresher"
+      ],
+      "lessons_estimate": 17,
+      "blurb": "Numerical integration of ODEs/PDEs, Monte Carlo, molecular dynamics, and simulating physical systems."
+    },
+    {
+      "id": "nuclear-particle-physics",
+      "title": "Nuclear & Particle Physics",
+      "tier": 2,
+      "field": "Physics",
+      "prereqs": [
+        "quantum-mechanics"
+      ],
+      "lessons_estimate": 25,
+      "blurb": "Nuclear structure & decay, scattering, the particle zoo, symmetries, and the Standard Model."
+    },
+    {
+      "id": "condensed-matter",
+      "title": "Condensed Matter / Solid State",
+      "tier": 2,
+      "field": "Physics",
+      "prereqs": [
+        "quantum-mechanics",
+        "stat-mech"
+      ],
+      "lessons_estimate": 28,
+      "blurb": "Crystal lattices, band structure, phonons, semiconductors, magnetism, and superconductivity."
+    },
+    {
+      "id": "plasma-physics",
+      "title": "Plasma Physics",
+      "tier": 2,
+      "field": "Physics",
+      "prereqs": [
+        "em-refresher",
+        "stat-mech"
+      ],
+      "lessons_estimate": 22,
+      "blurb": "Single-particle motion, kinetic theory, MHD, and waves & instabilities — the bridge to fusion."
+    },
+    {
+      "id": "biophysics",
+      "title": "Biophysics",
+      "tier": 2,
+      "field": "Physics",
+      "prereqs": [
+        "stat-mech"
+      ],
+      "lessons_estimate": 21,
+      "blurb": "The statistical physics of life: random walks, polymers, membranes, molecular motors, and reaction kinetics."
+    },
+    {
+      "id": "photonics-quantum-optics",
+      "title": "Quantum Optics & Photonics",
+      "tier": 2,
+      "field": "Physics",
+      "prereqs": [
+        "quantum-mechanics",
+        "em-refresher"
+      ],
+      "lessons_estimate": 20,
+      "blurb": "Quantized light, coherence, cavity QED, single photons, and the optics behind lasers."
+    },
+    {
+      "id": "statics",
+      "title": "Statics",
+      "tier": 0,
+      "field": "Engineering",
+      "prereqs": [
+        "calc-refresher"
+      ],
+      "lessons_estimate": 15,
+      "blurb": "Forces, moments, equilibrium, trusses & frames, friction, centroids — the engineering foundation for structures."
+    },
+    {
+      "id": "engineering-dynamics",
+      "title": "Dynamics",
+      "tier": 0,
+      "field": "Engineering",
+      "prereqs": [
+        "calc-refresher",
+        "ode-refresher"
+      ],
+      "lessons_estimate": 13,
+      "blurb": "Kinematics & kinetics of particles and rigid bodies, work-energy, impulse-momentum, and vibrations."
+    },
+    {
+      "id": "mechanics-of-materials",
+      "title": "Mechanics of Materials",
+      "tier": 1,
+      "field": "Engineering",
+      "prereqs": [
+        "statics"
+      ],
+      "lessons_estimate": 18,
+      "blurb": "Stress & strain, axial/torsion/bending, beam deflection, buckling, and failure criteria."
+    },
+    {
+      "id": "engineering-thermodynamics",
+      "title": "Engineering Thermodynamics",
+      "tier": 1,
+      "field": "Engineering",
+      "prereqs": [
+        "calc-refresher"
+      ],
+      "lessons_estimate": 19,
+      "blurb": "Properties, the first & second law for open systems, power & refrigeration cycles."
+    },
+    {
+      "id": "heat-transfer",
+      "title": "Heat Transfer",
+      "tier": 1,
+      "field": "Engineering",
+      "prereqs": [
+        "engineering-thermodynamics",
+        "ode-refresher"
+      ],
+      "lessons_estimate": 19,
+      "blurb": "Conduction, convection, radiation, heat exchangers, and transient conduction."
+    },
+    {
+      "id": "control-systems",
+      "title": "Control Systems",
+      "tier": 1,
+      "field": "Engineering",
+      "prereqs": [
+        "ode-refresher",
+        "linalg-refresher"
+      ],
+      "lessons_estimate": 22,
+      "blurb": "Feedback, transfer functions, root locus, Bode plots, PID, and state-space control."
+    },
+    {
+      "id": "signals-systems",
+      "title": "Signals & Systems",
+      "tier": 1,
+      "field": "Engineering",
+      "prereqs": [
+        "ode-refresher",
+        "fourier-analysis"
+      ],
+      "lessons_estimate": 21,
+      "blurb": "LTI systems, convolution, the Fourier/Laplace/z-transforms, sampling, and filtering."
+    },
+    {
+      "id": "intro-nuclear-engineering",
+      "title": "Intro to Nuclear Engineering & Radiation",
+      "tier": 1,
+      "field": "Engineering",
+      "prereqs": [
+        "em-refresher",
+        "ode-refresher"
+      ],
+      "lessons_estimate": 18,
+      "blurb": "Nuclear reactions & cross-sections, fission, ionizing radiation, and dose — the foundations of the field."
+    },
+    {
+      "id": "reactor-physics",
+      "title": "Reactor Physics & Neutron Transport",
+      "tier": 2,
+      "field": "Engineering",
+      "prereqs": [
+        "intro-nuclear-engineering",
+        "pdes"
+      ],
+      "lessons_estimate": 25,
+      "blurb": "Neutron diffusion & transport, criticality, the six-factor formula, and reactor kinetics."
+    },
+    {
+      "id": "reactor-thermal-hydraulics",
+      "title": "Reactor Thermal-Hydraulics",
+      "tier": 2,
+      "field": "Engineering",
+      "prereqs": [
+        "heat-transfer",
+        "fluid-dynamics"
+      ],
+      "lessons_estimate": 22,
+      "blurb": "Core heat removal, single- & two-phase flow, boiling, and thermal safety margins."
+    },
+    {
+      "id": "nuclear-materials",
+      "title": "Nuclear Materials",
+      "tier": 2,
+      "field": "Engineering",
+      "prereqs": [
+        "materials-science",
+        "intro-nuclear-engineering"
+      ],
+      "lessons_estimate": 21,
+      "blurb": "Radiation damage, fuels & cladding, and material behavior under irradiation."
+    },
+    {
+      "id": "radiation-detection-shielding",
+      "title": "Radiation Detection & Shielding",
+      "tier": 2,
+      "field": "Engineering",
+      "prereqs": [
+        "intro-nuclear-engineering"
+      ],
+      "lessons_estimate": 20,
+      "blurb": "Radiation interactions with matter, detectors, dosimetry, and shielding & attenuation."
+    },
+    {
+      "id": "fusion-plasma",
+      "title": "Fusion & Plasma Engineering",
+      "tier": 2,
+      "field": "Engineering",
+      "prereqs": [
+        "plasma-physics",
+        "intro-nuclear-engineering"
+      ],
+      "lessons_estimate": 22,
+      "blurb": "Magnetic & inertial confinement, tokamaks, the Lawson criterion, and the path to fusion power."
+    },
+    {
+      "id": "nuclear-fuel-cycle",
+      "title": "Nuclear Fuel Cycle & Policy",
+      "tier": 2,
+      "field": "Engineering",
+      "prereqs": [
+        "intro-nuclear-engineering"
+      ],
+      "lessons_estimate": 19,
+      "blurb": "Mining to waste: enrichment, fuel fabrication, reprocessing, waste, and proliferation & policy."
+    },
+    {
+      "id": "materials-science",
+      "title": "Materials Science & Engineering",
+      "tier": 1,
+      "field": "Engineering",
+      "prereqs": [
+        "calc-refresher"
+      ],
+      "lessons_estimate": 19,
+      "blurb": "Structure-property relationships: crystals, defects, phase diagrams, mechanical & electronic properties."
+    },
+    {
+      "id": "circuits",
+      "title": "Circuit Analysis",
+      "tier": 0,
+      "field": "Engineering",
+      "prereqs": [
+        "calc-refresher",
+        "ode-refresher"
+      ],
+      "lessons_estimate": 14,
+      "blurb": "Kirchhoff's laws, nodal/mesh analysis, RLC transients, phasors, and AC power."
+    },
+    {
+      "id": "electronics",
+      "title": "Electronics & Semiconductors",
+      "tier": 1,
+      "field": "Engineering",
+      "prereqs": [
+        "circuits"
+      ],
+      "lessons_estimate": 18,
+      "blurb": "Diodes, BJTs, MOSFETs, amplifiers, op-amps, and digital-gate basics."
+    },
+    {
+      "id": "digital-logic",
+      "title": "Digital Logic Design",
+      "tier": 1,
+      "field": "Engineering",
+      "prereqs": [
+        "discrete-mathematics"
+      ],
+      "lessons_estimate": 17,
+      "blurb": "Boolean algebra, combinational & sequential logic, finite-state machines, and datapaths."
+    },
+    {
+      "id": "communications",
+      "title": "Communication Systems",
+      "tier": 2,
+      "field": "Engineering",
+      "prereqs": [
+        "signals-systems",
+        "prob-stat-refresher"
+      ],
+      "lessons_estimate": 22,
+      "blurb": "Modulation (AM/FM/digital), noise, matched filters, and channel capacity."
+    },
+    {
+      "id": "power-systems",
+      "title": "Power Systems",
+      "tier": 2,
+      "field": "Engineering",
+      "prereqs": [
+        "circuits",
+        "em-refresher"
+      ],
+      "lessons_estimate": 22,
+      "blurb": "Three-phase power, transformers, transmission lines, load flow, and grid stability."
+    },
+    {
+      "id": "semiconductor-devices",
+      "title": "Semiconductor Devices",
+      "tier": 2,
+      "field": "Engineering",
+      "prereqs": [
+        "condensed-matter",
+        "electronics"
+      ],
+      "lessons_estimate": 22,
+      "blurb": "Band theory applied: carrier transport, p-n junctions, BJTs, MOSFETs, and photodevices."
+    },
+    {
+      "id": "structural-analysis",
+      "title": "Structural Analysis",
+      "tier": 1,
+      "field": "Engineering",
+      "prereqs": [
+        "mechanics-of-materials"
+      ],
+      "lessons_estimate": 18,
+      "blurb": "Trusses, frames, beams, deflections, indeterminate structures, and influence lines."
+    },
+    {
+      "id": "aerodynamics",
+      "title": "Aerodynamics",
+      "tier": 2,
+      "field": "Engineering",
+      "prereqs": [
+        "fluid-dynamics"
+      ],
+      "lessons_estimate": 22,
+      "blurb": "Airfoils, lift & drag, potential flow, boundary layers, and compressible/supersonic flow."
+    },
+    {
+      "id": "orbital-mechanics",
+      "title": "Astrodynamics",
+      "tier": 2,
+      "field": "Engineering",
+      "prereqs": [
+        "mechanics-refresher",
+        "ode-refresher"
+      ],
+      "lessons_estimate": 20,
+      "blurb": "Two-body orbits, Kepler's laws, orbital maneuvers, transfers, and rendezvous."
+    },
+    {
+      "id": "propulsion",
+      "title": "Propulsion",
+      "tier": 2,
+      "field": "Engineering",
+      "prereqs": [
+        "engineering-thermodynamics",
+        "fluid-dynamics"
+      ],
+      "lessons_estimate": 20,
+      "blurb": "Thermodynamic cycles, jet & rocket engines, nozzles, and the rocket equation."
+    },
+    {
+      "id": "robotics",
+      "title": "Robotics & Kinematics",
+      "tier": 2,
+      "field": "Engineering",
+      "prereqs": [
+        "control-systems",
+        "linalg-refresher"
+      ],
+      "lessons_estimate": 22,
+      "blurb": "Forward/inverse kinematics, manipulator dynamics, trajectory planning, and feedback control."
+    },
+    {
+      "id": "transport-phenomena",
+      "title": "Transport Phenomena",
+      "tier": 2,
+      "field": "Engineering",
+      "prereqs": [
+        "fluid-dynamics",
+        "heat-transfer"
+      ],
+      "lessons_estimate": 25,
+      "blurb": "Unified momentum, heat, and mass transfer — the chemical-engineering keystone."
+    },
+    {
+      "id": "reaction-engineering",
+      "title": "Chemical Reaction Engineering",
+      "tier": 2,
+      "field": "Engineering",
+      "prereqs": [
+        "engineering-thermodynamics"
+      ],
+      "lessons_estimate": 23,
+      "blurb": "Reaction kinetics, batch/CSTR/PFR reactor design, catalysis, and selectivity."
+    },
+    {
+      "id": "operations-research",
+      "title": "Operations Research",
+      "tier": 1,
+      "field": "Engineering",
+      "prereqs": [
+        "linalg-refresher",
+        "convex-optimization"
+      ],
+      "lessons_estimate": 20,
+      "blurb": "Linear & integer programming, network flows, queueing theory, and scheduling."
+    },
+    {
+      "id": "programming-foundations",
+      "title": "Programming & Data Structures",
+      "tier": 0,
+      "field": "Computer Science",
+      "prereqs": [],
+      "lessons_estimate": 15,
+      "blurb": "Programming fundamentals plus the core data structures: lists, stacks, trees, hashing, graphs — with Big-O."
+    },
+    {
+      "id": "algorithms",
+      "title": "Algorithms",
+      "tier": 1,
+      "field": "Computer Science",
+      "prereqs": [
+        "programming-foundations",
+        "discrete-mathematics"
+      ],
+      "lessons_estimate": 20,
+      "blurb": "Divide-and-conquer, dynamic programming, greedy methods, graph algorithms, and complexity analysis."
+    },
+    {
+      "id": "theory-of-computation",
+      "title": "Automata & Computability",
+      "tier": 1,
+      "field": "Computer Science",
+      "prereqs": [
+        "discrete-mathematics"
+      ],
+      "lessons_estimate": 16,
+      "blurb": "Regular & context-free languages, automata, Turing machines, decidability, and reductions."
+    },
+    {
+      "id": "computational-complexity",
+      "title": "Complexity Theory",
+      "tier": 2,
+      "field": "Computer Science",
+      "prereqs": [
+        "theory-of-computation"
+      ],
+      "lessons_estimate": 18,
+      "blurb": "P vs NP, NP-completeness & reductions, space complexity, and randomized & approximation classes."
+    },
+    {
+      "id": "computer-architecture",
+      "title": "Computer Architecture",
+      "tier": 1,
+      "field": "Computer Science",
+      "prereqs": [
+        "digital-logic"
+      ],
+      "lessons_estimate": 20,
+      "blurb": "From logic gates to CPUs: instruction sets, pipelining, caches, and the memory hierarchy."
+    },
+    {
+      "id": "operating-systems",
+      "title": "Operating Systems",
+      "tier": 1,
+      "field": "Computer Science",
+      "prereqs": [
+        "programming-foundations",
+        "computer-architecture"
+      ],
+      "lessons_estimate": 20,
+      "blurb": "Processes & threads, scheduling, virtual memory, file systems, and concurrency."
+    },
+    {
+      "id": "computer-networks",
+      "title": "Networking",
+      "tier": 1,
+      "field": "Computer Science",
+      "prereqs": [
+        "programming-foundations"
+      ],
+      "lessons_estimate": 16,
+      "blurb": "The TCP/IP stack, routing, reliable transport, congestion control, and security basics."
+    },
+    {
+      "id": "databases",
+      "title": "Database Systems",
+      "tier": 1,
+      "field": "Computer Science",
+      "prereqs": [
+        "programming-foundations"
+      ],
+      "lessons_estimate": 19,
+      "blurb": "The relational model, SQL, normalization, indexing, transactions, and query processing."
+    },
+    {
+      "id": "programming-languages",
+      "title": "Programming Languages & Compilers",
+      "tier": 2,
+      "field": "Computer Science",
+      "prereqs": [
+        "theory-of-computation",
+        "algorithms"
+      ],
+      "lessons_estimate": 21,
+      "blurb": "Lexing & parsing, type systems, semantics, the lambda calculus, and code generation."
+    },
+    {
+      "id": "cryptography",
+      "title": "Cryptography",
+      "tier": 2,
+      "field": "Computer Science",
+      "prereqs": [
+        "number-theory",
+        "algorithms"
+      ],
+      "lessons_estimate": 21,
+      "blurb": "One-way functions, symmetric & public-key crypto (AES/RSA/ECC), hashing, protocols, and zero-knowledge."
+    },
+    {
+      "id": "distributed-systems",
+      "title": "Distributed Systems",
+      "tier": 2,
+      "field": "Computer Science",
+      "prereqs": [
+        "operating-systems",
+        "computer-networks"
+      ],
+      "lessons_estimate": 20,
+      "blurb": "Time & consistency, replication, consensus (Paxos/Raft), the CAP theorem, and fault tolerance."
+    },
+    {
+      "id": "machine-learning",
+      "title": "Machine Learning",
+      "tier": 2,
+      "field": "Computer Science",
+      "prereqs": [
+        "linalg-refresher",
+        "prob-stat-refresher",
+        "convex-optimization"
+      ],
+      "lessons_estimate": 23,
+      "blurb": "Regression, SVMs, trees, clustering, and model selection — the applied companion to statistical-learning."
+    },
+    {
+      "id": "deep-learning",
+      "title": "Deep Learning",
+      "tier": 2,
+      "field": "Computer Science",
+      "prereqs": [
+        "machine-learning"
+      ],
+      "lessons_estimate": 22,
+      "blurb": "Neural networks, backpropagation, CNNs, RNNs, transformers, and training at scale."
+    },
+    {
+      "id": "reinforcement-learning",
+      "title": "Reinforcement Learning",
+      "tier": 2,
+      "field": "Computer Science",
+      "prereqs": [
+        "machine-learning",
+        "probability-theory"
+      ],
+      "lessons_estimate": 21,
+      "blurb": "MDPs, dynamic programming, TD & Q-learning, policy gradients, and deep RL."
+    },
+    {
+      "id": "computer-graphics",
+      "title": "Computer Graphics",
+      "tier": 2,
+      "field": "Computer Science",
+      "prereqs": [
+        "linalg-refresher",
+        "programming-foundations"
+      ],
+      "lessons_estimate": 20,
+      "blurb": "Rasterization, ray tracing, transformations, shading, and the linear algebra of rendering."
+    },
+    {
+      "id": "quantum-computing",
+      "title": "Quantum Computing",
+      "tier": 2,
+      "field": "Computer Science",
+      "prereqs": [
+        "linalg-refresher",
+        "quantum-mechanics"
+      ],
+      "lessons_estimate": 20,
+      "blurb": "Qubits, gates & circuits, teleportation, and the Deutsch-Jozsa, Grover, and Shor algorithms."
+    },
+    {
+      "id": "general-chemistry",
+      "title": "General Chemistry",
+      "tier": 0,
+      "field": "Chemistry",
+      "prereqs": [],
+      "lessons_estimate": 16,
+      "blurb": "Atoms, stoichiometry, bonding, thermochemistry, equilibrium, acids & bases, and redox."
+    },
+    {
+      "id": "organic-chemistry",
+      "title": "Organic Chemistry I & II",
+      "tier": 1,
+      "field": "Chemistry",
+      "prereqs": [
+        "general-chemistry"
+      ],
+      "lessons_estimate": 23,
+      "blurb": "Structure & bonding, functional groups, reaction mechanisms, stereochemistry, and synthesis."
+    },
+    {
+      "id": "physical-chemistry",
+      "title": "Physical Chemistry",
+      "tier": 2,
+      "field": "Chemistry",
+      "prereqs": [
+        "general-chemistry",
+        "quantum-mechanics"
+      ],
+      "lessons_estimate": 24,
+      "blurb": "Chemical thermodynamics, kinetics, and quantum chemistry — chemistry from physical first principles."
+    },
+    {
+      "id": "quantum-chemistry",
+      "title": "Quantum Chemistry",
+      "tier": 2,
+      "field": "Chemistry",
+      "prereqs": [
+        "physical-chemistry"
+      ],
+      "lessons_estimate": 21,
+      "blurb": "Molecular-orbital theory, the variational & Hartree-Fock methods, DFT, and computational chemistry."
+    },
+    {
+      "id": "inorganic-chemistry",
+      "title": "Inorganic Chemistry",
+      "tier": 1,
+      "field": "Chemistry",
+      "prereqs": [
+        "general-chemistry"
+      ],
+      "lessons_estimate": 18,
+      "blurb": "Periodic trends, coordination complexes, crystal-field theory, symmetry, and organometallics."
+    },
+    {
+      "id": "analytical-chemistry",
+      "title": "Analytical & Instrumental Chemistry",
+      "tier": 1,
+      "field": "Chemistry",
+      "prereqs": [
+        "general-chemistry"
+      ],
+      "lessons_estimate": 17,
+      "blurb": "Quantitative analysis, equilibria, chromatography, spectroscopy, and mass spectrometry."
+    },
+    {
+      "id": "biochemistry",
+      "title": "Biochemistry",
+      "tier": 2,
+      "field": "Chemistry",
+      "prereqs": [
+        "organic-chemistry"
+      ],
+      "lessons_estimate": 21,
+      "blurb": "Proteins & enzymes, metabolism, nucleic acids, and bioenergetics."
+    },
+    {
+      "id": "electrochemistry",
+      "title": "Electrochemistry",
+      "tier": 2,
+      "field": "Chemistry",
+      "prereqs": [
+        "physical-chemistry"
+      ],
+      "lessons_estimate": 18,
+      "blurb": "Redox thermodynamics, the Nernst equation, electrode kinetics, batteries, fuel cells, and corrosion."
+    },
+    {
+      "id": "polymer-chemistry",
+      "title": "Polymer & Materials Chemistry",
+      "tier": 2,
+      "field": "Chemistry",
+      "prereqs": [
+        "organic-chemistry",
+        "physical-chemistry"
+      ],
+      "lessons_estimate": 18,
+      "blurb": "Polymerization, molecular weight, chain conformations, the glass transition, and self-assembly."
+    },
+    {
+      "id": "geology",
+      "title": "Geology",
+      "tier": 0,
+      "field": "Earth & Space",
+      "prereqs": [],
+      "lessons_estimate": 18,
+      "blurb": "Minerals & rocks, plate tectonics, the rock cycle, geologic time, and Earth's structure."
+    },
+    {
+      "id": "atmospheric-science",
+      "title": "Atmospheric Science",
+      "tier": 1,
+      "field": "Earth & Space",
+      "prereqs": [
+        "calc-refresher",
+        "thermodynamics-physics"
+      ],
+      "lessons_estimate": 16,
+      "blurb": "Atmospheric thermodynamics, moisture & stability, circulation, and weather systems."
+    },
+    {
+      "id": "geophysics",
+      "title": "Geophysics",
+      "tier": 2,
+      "field": "Earth & Space",
+      "prereqs": [
+        "mechanics-refresher",
+        "pdes"
+      ],
+      "lessons_estimate": 21,
+      "blurb": "Seismology, gravity & magnetics, heat flow, and imaging Earth's interior."
+    },
+    {
+      "id": "climate-science",
+      "title": "Climate Physics",
+      "tier": 2,
+      "field": "Earth & Space",
+      "prereqs": [
+        "atmospheric-science"
+      ],
+      "lessons_estimate": 19,
+      "blurb": "Radiative balance, the greenhouse effect, feedbacks, the carbon cycle, and climate models."
+    },
+    {
+      "id": "oceanography",
+      "title": "Physical Oceanography",
+      "tier": 2,
+      "field": "Earth & Space",
+      "prereqs": [
+        "fluid-dynamics"
+      ],
+      "lessons_estimate": 18,
+      "blurb": "Ocean circulation, waves, tides, water masses, and the ocean's role in climate."
+    },
+    {
+      "id": "planetary-science",
+      "title": "Planetary Science",
+      "tier": 2,
+      "field": "Earth & Space",
+      "prereqs": [
+        "mechanics-refresher",
+        "thermodynamics-physics"
+      ],
+      "lessons_estimate": 20,
+      "blurb": "Planet formation, interiors, atmospheres, surfaces, and habitability."
+    },
+    {
+      "id": "cosmology",
+      "title": "Cosmology",
+      "tier": 2,
+      "field": "Physics",
+      "prereqs": [
+        "relativity"
+      ],
+      "lessons_estimate": 20,
+      "blurb": "The expanding universe, the FLRW model & ΛCDM, the CMB, nucleosynthesis, inflation, and structure formation."
+    },
+    {
+      "id": "general-biology",
+      "title": "General Biology",
+      "tier": 0,
+      "field": "Life Sciences",
+      "prereqs": [],
+      "lessons_estimate": 17,
+      "blurb": "Cells, energy & metabolism, genetics, evolution, and the organization of life."
+    },
+    {
+      "id": "molecular-cell-biology",
+      "title": "Molecular & Cell Biology",
+      "tier": 1,
+      "field": "Life Sciences",
+      "prereqs": [
+        "general-biology"
+      ],
+      "lessons_estimate": 22,
+      "blurb": "Biomolecules, DNA to RNA to protein, membranes, organelles, and cell signaling."
+    },
+    {
+      "id": "genetics",
+      "title": "Genetics",
+      "tier": 1,
+      "field": "Life Sciences",
+      "prereqs": [
+        "general-biology"
+      ],
+      "lessons_estimate": 19,
+      "blurb": "Mendelian & molecular genetics, linkage & mapping, mutation, and population genetics."
+    },
+    {
+      "id": "evolution-ecology",
+      "title": "Evolution & Ecology",
+      "tier": 1,
+      "field": "Life Sciences",
+      "prereqs": [
+        "general-biology",
+        "prob-stat-refresher"
+      ],
+      "lessons_estimate": 17,
+      "blurb": "Natural selection, drift, speciation, population dynamics, and community ecology."
+    },
+    {
+      "id": "physiology",
+      "title": "Human Physiology",
+      "tier": 1,
+      "field": "Life Sciences",
+      "prereqs": [
+        "general-biology"
+      ],
+      "lessons_estimate": 18,
+      "blurb": "Organ systems, homeostasis, nerve & muscle, circulation, and feedback control."
+    },
+    {
+      "id": "neuroscience",
+      "title": "Neuroscience",
+      "tier": 2,
+      "field": "Life Sciences",
+      "prereqs": [
+        "molecular-cell-biology"
+      ],
+      "lessons_estimate": 21,
+      "blurb": "Neurons & action potentials, synapses, neural circuits, sensory systems, and plasticity."
+    },
+    {
+      "id": "computational-biology",
+      "title": "Computational Biology",
+      "tier": 2,
+      "field": "Life Sciences",
+      "prereqs": [
+        "molecular-cell-biology",
+        "algorithms"
+      ],
+      "lessons_estimate": 20,
+      "blurb": "Sequence alignment, phylogenetics, genomics, and modeling biological data."
+    },
+    {
+      "id": "systems-biology",
+      "title": "Systems Biology",
+      "tier": 2,
+      "field": "Life Sciences",
+      "prereqs": [
+        "molecular-cell-biology",
+        "dynamical-systems"
+      ],
+      "lessons_estimate": 18,
+      "blurb": "Gene-regulatory & metabolic networks, dynamics, feedback, and modeling the cell."
+    },
+    {
+      "id": "immunology",
+      "title": "Immunology",
+      "tier": 2,
+      "field": "Life Sciences",
+      "prereqs": [
+        "molecular-cell-biology"
+      ],
+      "lessons_estimate": 20,
+      "blurb": "Innate & adaptive immunity, antibodies, T & B cells, and the logic of immune defense."
+    },
+    {
+      "id": "measure-theory",
+      "title": "Measure Theory",
+      "tier": 2,
+      "field": "Mathematics",
+      "prereqs": [
+        "real-analysis"
+      ],
+      "lessons_estimate": 20,
+      "blurb": "σ-algebras, Lebesgue measure & integration, the convergence theorems, and Lᵖ spaces."
+    },
+    {
+      "id": "algebraic-topology",
+      "title": "Algebraic Topology",
+      "tier": 2,
+      "field": "Mathematics",
+      "prereqs": [
+        "topology",
+        "abstract-algebra"
+      ],
+      "lessons_estimate": 21,
+      "blurb": "Homotopy, the fundamental group, covering spaces, and homology — the tools past π₁."
+    },
+    {
+      "id": "algebraic-geometry",
+      "title": "Algebraic Geometry",
+      "tier": 2,
+      "field": "Mathematics",
+      "prereqs": [
+        "abstract-algebra",
+        "topology"
+      ],
+      "lessons_estimate": 22,
+      "blurb": "Affine & projective varieties, the Nullstellensatz, sheaves, and a first look at schemes."
+    },
+    {
+      "id": "category-theory",
+      "title": "Category Theory",
+      "tier": 2,
+      "field": "Mathematics",
+      "prereqs": [
+        "abstract-algebra"
+      ],
+      "lessons_estimate": 16,
+      "blurb": "Categories, functors, natural transformations, universal properties, limits, and adjunctions."
     }
   ]
 }

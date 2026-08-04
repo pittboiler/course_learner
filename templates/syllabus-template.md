@@ -1,6 +1,6 @@
 # {Course Name} — Syllabus
 
-> Tier {0/1/2} · ~{N} lessons · Prereqs: {list with links} · Roadmap id: `{course-id}`
+> {Field} · Tier {F/0/1/2} · ~{N} lessons · Prereqs: {list with links} · Roadmap id: `{course-id}`
 
 ## Goal
 
