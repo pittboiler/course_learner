@@ -185,6 +185,18 @@ button:disabled { opacity: 0.5; cursor: wait; }
 .md .work-drawer[open] > summary::before { content: "▾ "; }
 .md .work-drawer .work-body { padding: 4px 0 8px; }
 
+/* Nothing in the practice widget should ever get text-selected by a stray pen
+   contact (toolbar, the "type instead / add a note" label, etc.) — except the
+   box you actually type in and the graded feedback you may want to copy. */
+.work-body, .grade-box {
+  -webkit-user-select: none; user-select: none; -webkit-touch-callout: none;
+}
+.work-body textarea, .grade-box textarea,
+.work-body .feedback, .grade-box .feedback,
+.work-body [id$="-feedback"], .grade-box [id$="-feedback"] {
+  -webkit-user-select: text; user-select: text;
+}
+
 .feedback { margin-top: 14px; padding: 12px 16px; border-radius: 10px; border: 1px solid var(--line); }
 .feedback.correct { border-color: var(--good); }
 .feedback.partial { border-color: var(--warn); }

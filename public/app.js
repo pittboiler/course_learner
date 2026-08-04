@@ -367,15 +367,27 @@ function createInkPad(mount) {
   function attachPointer(page) {
     const c = page.canvas;
     let cur = null;
+    let activeId = null; // the one pointer that owns the current stroke
     const at = (e) => {
       const r = c.getBoundingClientRect();
       return { x: e.clientX - r.left, y: e.clientY - r.top };
     };
     const lineW = (e) =>
       e.pointerType === "pen" ? 0.9 + (e.pressure > 0 ? e.pressure : 0.4) * 3.1 : 2.2;
+    const seg = (a, b) => {
+      const ctx = page.ctx;
+      ctx.strokeStyle = INK_COLOR;
+      ctx.lineWidth = b.w;
+      ctx.beginPath();
+      ctx.moveTo(a.x, a.y);
+      ctx.lineTo(b.x, b.y);
+      ctx.stroke();
+    };
     c.addEventListener("pointerdown", (e) => {
-      if (e.pointerType !== "pen" && e.pointerType !== "mouse") return; // finger = scroll
+      if (e.pointerType !== "pen" && e.pointerType !== "mouse") return; // finger/palm = ignore
+      if (cur) return; // a stroke is already in progress with another pointer
       e.preventDefault();
+      activeId = e.pointerId;
       try { c.setPointerCapture(e.pointerId); } catch {}
       try { window.getSelection()?.removeAllRanges(); } catch {} // drop any stray text highlight
       const { x, y } = at(e);
@@ -387,27 +399,29 @@ function createInkPad(mount) {
       ctx.strokeStyle = INK_COLOR;
       ctx.fillStyle = INK_COLOR;
       ctx.beginPath();
-      ctx.arc(x, y, w / 2, 0, 2 * Math.PI);
+      ctx.arc(x, y, w / 2, 0, 2 * Math.PI); // a tap alone still leaves a mark
       ctx.fill();
     });
     c.addEventListener("pointermove", (e) => {
-      if (!cur) return;
+      if (!cur || e.pointerId !== activeId) return; // only the drawing pointer
       e.preventDefault();
-      const { x, y } = at(e);
-      const w = lineW(e);
-      const prev = cur.pts[cur.pts.length - 1];
-      cur.pts.push({ x, y, w });
-      const ctx = page.ctx;
-      ctx.strokeStyle = INK_COLOR;
-      ctx.lineWidth = w;
-      ctx.beginPath();
-      ctx.moveTo(prev.x, prev.y);
-      ctx.lineTo(x, y);
-      ctx.stroke();
+      // The Pencil reports far faster than the frame rate; replay every coalesced
+      // sample so small/quick strokes keep their full shape instead of dropping points.
+      const samples = e.getCoalescedEvents ? e.getCoalescedEvents() : [];
+      for (const ev of samples.length ? samples : [e]) {
+        const p = { ...at(ev), w: lineW(ev) };
+        seg(cur.pts[cur.pts.length - 1], p);
+        cur.pts.push(p);
+      }
     });
-    const end = () => (cur = null);
+    const end = (e) => {
+      if (e && e.pointerId !== activeId) return; // a resting finger lifting must not kill the pen stroke
+      cur = null;
+      activeId = null;
+    };
     c.addEventListener("pointerup", end);
     c.addEventListener("pointercancel", end);
+    c.addEventListener("lostpointercapture", end);
     c.addEventListener("selectstart", (e) => e.preventDefault()); // no highlight from pen contact
   }
 
