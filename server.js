@@ -35,8 +35,17 @@ app.use("/vendor/marked", express.static(path.join(ROOT, "node_modules/marked"))
 app.use("/content", express.static(COURSES_DIR));
 
 const readJSON = (p) => JSON.parse(fs.readFileSync(p, "utf8"));
-const writeProgress = (data) =>
-  fs.writeFileSync(PROGRESS_PATH, JSON.stringify(data, null, 2) + "\n");
+// Best-effort: on a read-only serverless filesystem (Vercel, /var/task) this write
+// throws EROFS. Persistence there lives client-side (localStorage), so we must not
+// fail the request — the grade/quiz/review result has already been produced.
+const writeProgress = (data) => {
+  try {
+    fs.writeFileSync(PROGRESS_PATH, JSON.stringify(data, null, 2) + "\n");
+  } catch (e) {
+    if (e.code !== "EROFS" && e.code !== "EACCES")
+      console.warn("progress write failed:", e.message);
+  }
+};
 
 // Scan the courses directory for created courses and their lesson files
 function scanCourses() {

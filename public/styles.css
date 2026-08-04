@@ -159,6 +159,13 @@ button:disabled { opacity: 0.5; cursor: wait; }
 .ink-hint { color: var(--muted); font-size: 13px; }
 .ink-tools { display: flex; gap: 8px; }
 .ink-tools button { padding: 6px 12px; font-size: 13px; cursor: pointer; touch-action: manipulation; }
+.ink-toolbar .ink-swatch {
+  width: 26px; height: 26px; padding: 0; border-radius: 50%;
+  border: 2px solid var(--line); background: var(--sw); cursor: pointer; touch-action: manipulation;
+}
+.ink-toolbar .ink-swatch.active { border-color: var(--ink); box-shadow: 0 0 0 2px var(--panel), 0 0 0 4px var(--sw); }
+.ink-toolbar .ink-eraser.active { border-color: var(--accent); color: var(--accent); font-weight: 600; }
+.ink-hint { margin: 2px 0 8px; }
 .ink-pages { display: flex; flex-direction: column; gap: 12px; }
 .ink-canvas {
   width: 100%; height: 640px; display: block;

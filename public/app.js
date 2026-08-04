@@ -36,8 +36,57 @@ const esc = (s) =>
 
 const TIER_NAMES = { 0: "Tier 0 · Refreshers", 1: "Tier 1 · Bridges", 2: "Tier 2 · Destinations" };
 
+/* ---------- local persistence -------------------------------------------
+   The server's filesystem is read-only on Vercel, so progress and handwriting
+   are kept in the browser and merged over whatever the server can return. */
+const LS = {
+  get(k, fallback) { try { return JSON.parse(localStorage.getItem(k)) ?? fallback; } catch { return fallback; } },
+  set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} },
+  del(k) { try { localStorage.removeItem(k); } catch {} },
+};
+const LS_PROGRESS = "learner:progress"; // { courses:{id:{lessons:{}}}, review_queue:[], log:[] }
+const inkKey = (course, file, label) => `learner:ink:${course}:${file}:${label}`;
+
+function localProgress() {
+  const o = LS.get(LS_PROGRESS, {}) || {};
+  o.courses ||= {}; o.review_queue ||= []; o.log ||= [];
+  return o;
+}
+function recordLocal({ course, lesson, completion, review, log }) {
+  const o = localProgress();
+  if (completion) {
+    o.courses[course] ||= { status: "active", started: completion.completed, lessons: {} };
+    o.courses[course].lessons[lesson] = completion;
+  }
+  if (review) o.review_queue.push(review);
+  if (log) o.log.push(log);
+  LS.set(LS_PROGRESS, o);
+}
+// Overlay the browser's saved progress on top of the server's baseline.
+function mergeLocalProgress() {
+  const o = localProgress();
+  const p = STATE.progress;
+  for (const [cid, c] of Object.entries(o.courses)) {
+    p.courses[cid] ||= { status: "active", started: c.started, lessons: {} };
+    Object.assign(p.courses[cid].lessons, c.lessons);
+  }
+  const seen = new Set(p.review_queue.map((r) => `${r.course}|${r.lesson}|${r.due}`));
+  for (const r of o.review_queue) {
+    const k = `${r.course}|${r.lesson}|${r.due}`;
+    if (!seen.has(k)) { p.review_queue.push(r); seen.add(k); }
+  }
+  // A writable server may also have logged the same event; dedup so streak/session
+  // counts aren't doubled. (On Vercel the server can't write, so only local exists.)
+  const logSeen = new Set(p.log.map((e) => JSON.stringify(e)));
+  for (const e of o.log) {
+    const s = JSON.stringify(e);
+    if (!logSeen.has(s)) { p.log.push(e); logSeen.add(s); }
+  }
+}
+
 async function loadState() {
   STATE = await (await fetch("/api/state")).json();
+  mergeLocalProgress();
 }
 
 function courseInfo(id) {
@@ -229,15 +278,20 @@ async function renderLesson(courseId, file) {
   // A grader bound to one problem label ("P1"/"P2"/"P3"/"Flashback").
   const gradeOne = (problem) => async (answer, fb) => {
     const result = await postJSON("/api/grade", { course: courseId, lesson: file, problem, ...answer });
+    recordLocal({ course: courseId, lesson: lessonId, log: {
+      date: STATE.today, course: courseId, lesson: lessonId, problem,
+      verdict: result.verdict, weak_concepts: result.weak_concepts || [], type: "grade", source: "webapp",
+    }});
     fb.innerHTML = feedbackHTML(result);
     renderMath(fb);
   };
 
   // Put a collapsible writing workspace directly under each problem so the
-  // problem stays in view while you solve it. Fall back to one selector-based
-  // box if the problems can't be located.
+  // problem stays in view while you solve it (its ink auto-saves per problem).
+  // Fall back to one selector-based box if the problems can't be located.
   const mdEl = $app.querySelector(".md");
-  if (attachProblemWorkspaces(mdEl, gradeOne) === 0) {
+  const keyFor = (label) => inkKey(courseId, file, label);
+  if (attachProblemWorkspaces(mdEl, gradeOne, keyFor) === 0) {
     const box = document.createElement("div");
     box.className = "grade-box";
     box.innerHTML =
@@ -246,7 +300,7 @@ async function renderLesson(courseId, file) {
       ${answerFormHTML("grade", "Grade it")}`;
     $app.appendChild(box);
     wireAnswerForm("grade", (answer, fb) =>
-      gradeOne(document.getElementById("grade-problem").value)(answer, fb)
+      gradeOne(document.getElementById("grade-problem").value)(answer, fb), keyFor("grade")
     );
   }
 
@@ -254,12 +308,26 @@ async function renderLesson(courseId, file) {
   if (btn)
     btn.onclick = async () => {
       const self_rating = Number(document.getElementById("rating").value);
-      const r = await fetch("/api/complete", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ course: courseId, lesson: lessonId, self_rating }),
+      let review_due;
+      try {
+        const r = await fetch("/api/complete", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ course: courseId, lesson: lessonId, self_rating }),
+        });
+        review_due = (await r.json()).review_due;
+      } catch {}
+      if (!review_due) {
+        const days = (STATE.progress.settings?.review_intervals_days || {})[String(self_rating)] || 5;
+        review_due = new Date(Date.now() + days * 86400000).toISOString().slice(0, 10);
+      }
+      // Persist locally too — the server FS is read-only on Vercel.
+      recordLocal({
+        course: courseId, lesson: lessonId,
+        completion: { completed: STATE.today, self_rating, problems: null, weak_concepts: [] },
+        review: { course: courseId, lesson: lessonId, rating: self_rating, due: review_due },
+        log: { date: STATE.today, course: courseId, lesson: lessonId, type: "lesson", source: "webapp" },
       });
-      const { review_due } = await r.json();
       await loadState();
       document.getElementById("complete-box").className = "complete-box done";
       document.getElementById("complete-box").innerHTML =
@@ -297,26 +365,43 @@ const VERDICT_LABEL = {
 };
 
 /* Apple Pencil handwriting pad: tall "paper" pages you can add to (roomy for
-   proofs). Finger scrolls (touch-action: pan-y); pen/mouse draw. Each written
-   page exports as its own JPEG so multi-page work stays legible for grading. */
+   proofs). touch-action:none, so pen/mouse draw and every stroke is kept; scroll
+   the page from outside the pad. Pick a pen colour or the eraser; work auto-saves
+   to localStorage per problem (via storageKey) and each written page exports as
+   its own JPEG so multi-page work stays legible for grading. */
 const INK_PAGE_H = 640; // CSS px per page
-const INK_COLOR = "#111827"; // dark ink on a white page, independent of app theme
+const INK_COLORS = [
+  { name: "black", hex: "#111827" },
+  { name: "red", hex: "#dc2626" },
+  { name: "blue", hex: "#2563eb" },
+];
+const ERASER_HEX = "#ffffff"; // white "paper" — whiteout eraser, trivially exports/redraws
+const ERASER_W = 22;
 
-function createInkPad(mount) {
-  const pages = []; // { canvas, ctx, strokes:[{pts:[{x,y,w}]}] }
+function createInkPad(mount, storageKey) {
+  const pages = []; // { canvas, ctx, strokes:[{color, pts:[{x,y,w}]}] }
   const order = []; // pages in stroke order, for global undo
+  let color = INK_COLORS[0].hex;
+  let tool = "pen"; // "pen" | "erase"
 
   const wrap = document.createElement("div");
   wrap.className = "inkpad";
   wrap.innerHTML = `
     <div class="ink-toolbar">
-      <span class="ink-hint">✍️ Write your answer with Apple Pencil — add pages for long proofs</span>
+      <span class="ink-tools">
+        ${INK_COLORS.map(
+          (c, i) =>
+            `<button type="button" class="ink-swatch${i === 0 ? " active" : ""}" data-color="${c.hex}" style="--sw:${c.hex}" title="${c.name} pen" aria-label="${c.name} pen"></button>`
+        ).join("")}
+        <button type="button" class="ink-tool ink-eraser" data-tool="erase" title="Eraser">◨ Erase</button>
+      </span>
       <span class="ink-tools">
         <button type="button" data-act="undo">↶ Undo</button>
         <button type="button" data-act="clear">🗑 Clear</button>
         <button type="button" data-act="add">➕ Add page</button>
       </span>
     </div>
+    <div class="ink-hint">✍️ Apple Pencil writes; pick a colour or eraser. Your work auto-saves — add pages for long proofs.</div>
     <div class="ink-pages"></div>`;
   mount.replaceWith(wrap);
   const pagesEl = wrap.querySelector(".ink-pages");
@@ -344,9 +429,10 @@ function createInkPad(mount) {
     ctx.fillStyle = "#ffffff"; // white paper → clean JPEG background
     ctx.fillRect(0, 0, page.canvas.width, page.canvas.height);
     ctx.restore();
-    ctx.strokeStyle = INK_COLOR;
-    ctx.fillStyle = INK_COLOR;
     for (const s of page.strokes) {
+      const col = s.color || INK_COLORS[0].hex;
+      ctx.strokeStyle = col;
+      ctx.fillStyle = col;
       if (s.pts.length < 2) {
         const p = s.pts[0];
         ctx.beginPath();
@@ -364,6 +450,13 @@ function createInkPad(mount) {
     }
   }
 
+  function persist() {
+    if (!storageKey) return;
+    const data = pages.map((p) => p.strokes);
+    if (data.some((s) => s.length)) LS.set(storageKey, data);
+    else LS.del(storageKey);
+  }
+
   function attachPointer(page) {
     const c = page.canvas;
     let cur = null;
@@ -372,11 +465,15 @@ function createInkPad(mount) {
       const r = c.getBoundingClientRect();
       return { x: e.clientX - r.left, y: e.clientY - r.top };
     };
-    const lineW = (e) =>
-      e.pointerType === "pen" ? 0.9 + (e.pressure > 0 ? e.pressure : 0.4) * 3.1 : 2.2;
+    const widthFor = (e) =>
+      tool === "erase"
+        ? ERASER_W
+        : e.pointerType === "pen"
+        ? 0.9 + (e.pressure > 0 ? e.pressure : 0.4) * 3.1
+        : 2.2;
     const seg = (a, b) => {
       const ctx = page.ctx;
-      ctx.strokeStyle = INK_COLOR;
+      ctx.strokeStyle = cur.color;
       ctx.lineWidth = b.w;
       ctx.beginPath();
       ctx.moveTo(a.x, a.y);
@@ -391,13 +488,12 @@ function createInkPad(mount) {
       try { c.setPointerCapture(e.pointerId); } catch {}
       try { window.getSelection()?.removeAllRanges(); } catch {} // drop any stray text highlight
       const { x, y } = at(e);
-      const w = lineW(e);
-      cur = { pts: [{ x, y, w }] };
+      const w = widthFor(e);
+      cur = { color: tool === "erase" ? ERASER_HEX : color, pts: [{ x, y, w }] };
       page.strokes.push(cur);
       order.push(page);
       const ctx = page.ctx;
-      ctx.strokeStyle = INK_COLOR;
-      ctx.fillStyle = INK_COLOR;
+      ctx.strokeStyle = ctx.fillStyle = cur.color;
       ctx.beginPath();
       ctx.arc(x, y, w / 2, 0, 2 * Math.PI); // a tap alone still leaves a mark
       ctx.fill();
@@ -409,7 +505,7 @@ function createInkPad(mount) {
       // sample so small/quick strokes keep their full shape instead of dropping points.
       const samples = e.getCoalescedEvents ? e.getCoalescedEvents() : [];
       for (const ev of samples.length ? samples : [e]) {
-        const p = { ...at(ev), w: lineW(ev) };
+        const p = { ...at(ev), w: widthFor(ev) };
         seg(cur.pts[cur.pts.length - 1], p);
         cur.pts.push(p);
       }
@@ -418,6 +514,7 @@ function createInkPad(mount) {
       if (e && e.pointerId !== activeId) return; // a resting finger lifting must not kill the pen stroke
       cur = null;
       activeId = null;
+      persist();
     };
     c.addEventListener("pointerup", end);
     c.addEventListener("pointercancel", end);
@@ -436,20 +533,24 @@ function createInkPad(mount) {
     return page;
   }
 
+  function setActiveTool(btn) {
+    wrap.querySelectorAll(".ink-swatch, .ink-eraser").forEach((el) => el.classList.remove("active"));
+    btn.classList.add("active");
+  }
+
   wrap.querySelector(".ink-toolbar").addEventListener("click", (e) => {
-    const act = e.target.closest("button")?.dataset.act;
+    const b = e.target.closest("button");
+    if (!b) return;
+    if (b.dataset.color) { color = b.dataset.color; tool = "pen"; setActiveTool(b); return; }
+    if (b.dataset.tool === "erase") { tool = "erase"; setActiveTool(b); return; }
+    const act = b.dataset.act;
     if (act === "undo") {
       const page = order.pop();
-      if (page) {
-        page.strokes.pop();
-        redraw(page);
-      }
+      if (page) { page.strokes.pop(); redraw(page); persist(); }
     } else if (act === "clear") {
-      pages.forEach((p) => {
-        p.strokes.length = 0;
-        redraw(p);
-      });
+      pages.forEach((p) => { p.strokes.length = 0; redraw(p); });
       order.length = 0;
+      persist();
     } else if (act === "add") {
       addPage().canvas.scrollIntoView({ block: "center", behavior: "smooth" });
     }
@@ -465,6 +566,18 @@ function createInkPad(mount) {
   window.addEventListener("resize", onResize);
 
   addPage();
+
+  // Restore any previously saved work for this problem.
+  const saved = storageKey ? LS.get(storageKey) : null;
+  if (Array.isArray(saved) && saved.some((s) => s.length)) {
+    while (pages.length < saved.length) addPage();
+    saved.forEach((strokes, i) => {
+      if (!pages[i]) return;
+      pages[i].strokes = strokes;
+      strokes.forEach(() => order.push(pages[i])); // so Undo works on restored strokes too
+      redraw(pages[i]);
+    });
+  }
 
   return {
     hasInk: () => pages.some((p) => p.strokes.length),
@@ -506,8 +619,8 @@ function answerFormHTML(idPrefix, buttonLabel) {
     <div id="${idPrefix}-feedback"></div>`;
 }
 
-function wireAnswerForm(idPrefix, onSubmit) {
-  const pad = createInkPad(document.getElementById(`${idPrefix}-ink`));
+function wireAnswerForm(idPrefix, onSubmit, storageKey) {
+  const pad = createInkPad(document.getElementById(`${idPrefix}-ink`), storageKey);
   const photoInput = document.getElementById(`${idPrefix}-photo`);
   photoInput.onchange = () => {
     document.getElementById(`${idPrefix}-photo-name`).textContent = photoInput.files[0]?.name || "";
@@ -538,7 +651,7 @@ function wireAnswerForm(idPrefix, onSubmit) {
 /* Inject a collapsible Apple-Pencil workspace right under each problem (P1/P2/P3
    and the Flashback), each wired to grade that specific problem. Built lazily on
    first open so the canvas sizes to a visible width. Returns how many it added. */
-function attachProblemWorkspaces(mdEl, gradeOne) {
+function attachProblemWorkspaces(mdEl, gradeOne, keyFor) {
   if (!mdEl) return 0;
   const spots = [];
   let inProblems = false;
@@ -568,7 +681,7 @@ function attachProblemWorkspaces(mdEl, gradeOne) {
       if (!d.open || built) return; // build once, when first shown (canvas needs a visible width)
       built = true;
       d.querySelector(".work-body").innerHTML = answerFormHTML(idPrefix, "Grade it");
-      wireAnswerForm(idPrefix, gradeOne(label));
+      wireAnswerForm(idPrefix, gradeOne(label), keyFor ? keyFor(label) : null);
     });
   }
   return spots.length;
