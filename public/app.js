@@ -491,8 +491,12 @@ function createInkPad(mount, storageKey) {
     };
     c.addEventListener("pointerdown", (e) => {
       if (e.pointerType !== "pen" && e.pointerType !== "mouse") return; // finger/palm = ignore
-      if (cur) return; // a stroke is already in progress with another pointer
-      e.preventDefault();
+      e.preventDefault(); // ALWAYS suppress the default (selection/gesture) on a pen-down —
+                          // even when the previous stroke's pointerup was dropped by iPadOS
+      // Start a fresh stroke unconditionally. iPadOS sometimes drops the pointerup on a
+      // quick lift-and-retouch (writing l → i → m); the old `if (cur) return` then swallowed
+      // the next stroke AND let its pen-down fall through to a text selection. Just abandon
+      // any half-open stroke and begin anew.
       activeId = e.pointerId;
       __penDrawing = true; // block page-wide text selection until this stroke ends
       try { c.setPointerCapture(e.pointerId); } catch {}
@@ -522,6 +526,7 @@ function createInkPad(mount, storageKey) {
     });
     const end = (e) => {
       if (e && e.pointerId !== activeId) return; // a resting finger lifting must not kill the pen stroke
+      if (!cur) return; // stroke already finalized
       cur = null;
       activeId = null;
       __penDrawing = false;
@@ -531,6 +536,18 @@ function createInkPad(mount, storageKey) {
     c.addEventListener("pointercancel", end);
     c.addEventListener("lostpointercapture", end);
     c.addEventListener("selectstart", (e) => e.preventDefault()); // no highlight from pen contact
+    // Backstop: iPadOS can drop the canvas's own pointerup after a quick lift, which would
+    // strand the stroke and block the next one. A window-level listener finalizes it anyway.
+    const winEnd = (e) => {
+      if (!document.body.contains(c)) {
+        window.removeEventListener("pointerup", winEnd);
+        window.removeEventListener("pointercancel", winEnd);
+        return;
+      }
+      end(e);
+    };
+    window.addEventListener("pointerup", winEnd);
+    window.addEventListener("pointercancel", winEnd);
   }
 
   function addPage() {
