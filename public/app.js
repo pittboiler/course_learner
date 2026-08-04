@@ -466,68 +466,25 @@ function createInkPad(mount, storageKey) {
     else LS.del(storageKey);
   }
 
-  function attachPointer(page) {
+  // Drawing input. We use TOUCH events (not Pointer events) for the pen: iPadOS Safari
+  // synthesizes Pointer events on top of the native touch system and drops the pointerdown
+  // under rapid stylus input, which was silently swallowing every other letter. Touch
+  // events are the native layer and fire reliably, and tag Apple Pencil as touchType
+  // "stylus". Mouse events cover the desktop. (No Pointer events here at all.)
+  function attachInput(page) {
     const c = page.canvas;
     let cur = null;
-    let activeId = null; // the one pointer that owns the current stroke
-    const at = (e) => {
+    const at = (clientX, clientY) => {
       const r = c.getBoundingClientRect();
-      return { x: e.clientX - r.left, y: e.clientY - r.top };
+      return { x: clientX - r.left, y: clientY - r.top };
     };
-    const widthFor = (e) =>
-      tool === "erase"
-        ? ERASER_W
-        : e.pointerType === "pen"
-        ? 0.9 + (e.pressure > 0 ? e.pressure : 0.4) * 3.1
-        : 2.2;
-    const seg = (a, b) => {
-      const ctx = page.ctx;
-      ctx.strokeStyle = cur.color;
-      ctx.lineWidth = b.w;
-      ctx.beginPath();
-      ctx.moveTo(a.x, a.y);
-      ctx.lineTo(b.x, b.y);
-      ctx.stroke();
-    };
+    const penWidth = (force) =>
+      tool === "erase" ? ERASER_W : 0.9 + (force > 0 ? force : 0.4) * 3.1;
+    const mouseWidth = () => (tool === "erase" ? ERASER_W : 2.2);
 
-    // NOTE: we deliberately do NOT use setPointerCapture. On iPadOS Safari, capturing an
-    // Apple Pencil pointer frequently makes the NEXT pointerdown go missing (the classic
-    // "follow-on stroke doesn't register" bug). Instead we listen for moves/ups on the
-    // document only while a stroke is live — that catches everything (even off-canvas)
-    // without capture, and detaches on lift.
-    const onMove = (e) => {
-      if (!cur || e.pointerId !== activeId) return;
-      e.preventDefault();
-      const samples = e.getCoalescedEvents ? e.getCoalescedEvents() : [];
-      for (const ev of samples.length ? samples : [e]) {
-        const p = { ...at(ev), w: widthFor(ev) };
-        seg(cur.pts[cur.pts.length - 1], p);
-        cur.pts.push(p);
-      }
-    };
-    const detach = () => {
-      document.removeEventListener("pointermove", onMove);
-      document.removeEventListener("pointerup", onUp);
-      document.removeEventListener("pointercancel", onUp);
-    };
-    function onUp(e) {
-      if (e && e.pointerId !== activeId) return; // a different pointer lifting — ignore
-      detach();
-      cur = null;
-      activeId = null;
-      __penDrawing = false;
-      persist();
-    }
-
-    c.addEventListener("pointerdown", (e) => {
-      if (e.pointerType !== "pen" && e.pointerType !== "mouse") return; // finger/palm = ignore
-      e.preventDefault(); // always suppress the default (selection/gesture) on a pen-down
-      detach(); // abandon any half-open stroke (e.g. a dropped pointerup) and start fresh
-      activeId = e.pointerId;
-      __penDrawing = true; // block page-wide text selection until this stroke ends
+    function begin(x, y, w) {
+      __penDrawing = true;
       try { window.getSelection()?.removeAllRanges(); } catch {}
-      const { x, y } = at(e);
-      const w = widthFor(e);
       cur = { color: tool === "erase" ? ERASER_HEX : color, pts: [{ x, y, w }] };
       page.strokes.push(cur);
       order.push(page);
@@ -536,12 +493,69 @@ function createInkPad(mount, storageKey) {
       ctx.beginPath();
       ctx.arc(x, y, w / 2, 0, 2 * Math.PI); // a tap alone still leaves a mark
       ctx.fill();
-      // Track this stroke on the document (no capture) until the pen lifts.
-      document.addEventListener("pointermove", onMove, { passive: false });
-      document.addEventListener("pointerup", onUp);
-      document.addEventListener("pointercancel", onUp);
+    }
+    function extend(x, y, w) {
+      if (!cur) return;
+      const ctx = page.ctx;
+      const prev = cur.pts[cur.pts.length - 1];
+      ctx.strokeStyle = cur.color;
+      ctx.lineWidth = w;
+      ctx.beginPath();
+      ctx.moveTo(prev.x, prev.y);
+      ctx.lineTo(x, y);
+      ctx.stroke();
+      cur.pts.push({ x, y, w });
+    }
+    function finish() {
+      if (!cur) return;
+      cur = null;
+      __penDrawing = false;
+      persist();
+    }
+
+    // --- Touch (Apple Pencil on iPadOS; single-finger on non-stylus touch devices) ---
+    let touchId = null;
+    const drawableTouch = (list) => {
+      for (const t of list) if (t.touchType === "stylus" || t.touchType === undefined) return t;
+      return null; // a finger/palm while a stylus is expected → ignore (OS-level palm rejection)
+    };
+    c.addEventListener("touchstart", (e) => {
+      if (touchId !== null) return; // already drawing with another touch
+      const t = drawableTouch(e.changedTouches);
+      if (!t) return;
+      e.preventDefault(); // draw, don't scroll — and suppress the synthesized mouse events
+      touchId = t.identifier;
+      const p = at(t.clientX, t.clientY);
+      begin(p.x, p.y, penWidth(t.force));
+    }, { passive: false });
+    c.addEventListener("touchmove", (e) => {
+      if (touchId === null) return;
+      for (const t of e.changedTouches) {
+        if (t.identifier !== touchId) continue;
+        e.preventDefault();
+        const p = at(t.clientX, t.clientY);
+        extend(p.x, p.y, penWidth(t.force));
+      }
+    }, { passive: false });
+    const touchEnd = (e) => {
+      if (touchId === null) return;
+      for (const t of e.changedTouches) if (t.identifier === touchId) { touchId = null; finish(); return; }
+    };
+    c.addEventListener("touchend", touchEnd, { passive: false });
+    c.addEventListener("touchcancel", touchEnd, { passive: false });
+
+    // --- Mouse (desktop) ---
+    c.addEventListener("mousedown", (e) => {
+      e.preventDefault();
+      const p = at(e.clientX, e.clientY);
+      begin(p.x, p.y, mouseWidth());
+      const mm = (ev) => { const q = at(ev.clientX, ev.clientY); extend(q.x, q.y, mouseWidth()); };
+      const mu = () => { finish(); document.removeEventListener("mousemove", mm); document.removeEventListener("mouseup", mu); };
+      document.addEventListener("mousemove", mm);
+      document.addEventListener("mouseup", mu);
     });
-    c.addEventListener("selectstart", (e) => e.preventDefault()); // no highlight from pen contact
+
+    c.addEventListener("selectstart", (e) => e.preventDefault());
   }
 
   function addPage() {
@@ -550,7 +564,7 @@ function createInkPad(mount, storageKey) {
     const page = { canvas, ctx: null, strokes: [] };
     pagesEl.appendChild(canvas);
     sizePage(page);
-    attachPointer(page);
+    attachInput(page);
     pages.push(page);
     return page;
   }
@@ -964,9 +978,16 @@ function initInkDebug() {
   };
   ["pointerdown", "pointerup", "pointercancel"].forEach((type) =>
     window.addEventListener(type, (e) =>
-      line(`${type.slice(7).padEnd(6)} ${String(e.pointerType).padEnd(5)} id${e.pointerId} p${(e.pressure || 0).toFixed(2)} → ${tgt(e)}`), true)
+      line(`P:${type.slice(7).padEnd(6)} ${String(e.pointerType).padEnd(5)} id${e.pointerId} p${(e.pressure || 0).toFixed(2)} → ${tgt(e)}`), true)
   );
-  line("ready · write 'lim' — each pen-down should read: down  pen ... → canvas.ink-canvas");
+  // The pad now draws from TOUCH events (reliable on iPadOS); log those too.
+  ["touchstart", "touchend", "touchcancel"].forEach((type) =>
+    window.addEventListener(type, (e) => {
+      const t = e.changedTouches && e.changedTouches[0];
+      line(`T:${type.slice(5).padEnd(6)} ${String(t && t.touchType).padEnd(6)} f${((t && t.force) || 0).toFixed(2)} → ${tgt(e)}`);
+    }, true)
+  );
+  line("ready · write 'lim' — each pen contact should read: T:start stylus ... → canvas.ink-canvas");
 }
 initInkDebug();
 
