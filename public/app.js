@@ -706,6 +706,8 @@ function attachProblemWorkspaces(mdEl, gradeOne, keyFor) {
     after.insertAdjacentElement("afterend", d);
     let built = false;
     d.addEventListener("toggle", () => {
+      // Any open drawer = a writing session; kill page-wide text selection for its duration.
+      document.body.classList.toggle("ink-writing", !!mdEl.querySelector(".work-drawer[open]"));
       if (!d.open || built) return; // build once, when first shown (canvas needs a visible width)
       built = true;
       d.querySelector(".work-body").innerHTML = answerFormHTML(idPrefix, "Grade it");
@@ -934,9 +936,21 @@ window.addEventListener("afterprint", () => {
 window.addEventListener("hashchange", route);
 route();
 
-// PWA: offline shell + "Add to Home Screen" as an app
+// PWA: offline shell + "Add to Home Screen" as an app.
 if ("serviceWorker" in navigator) {
+  // When a new service worker takes control, reload once so the fresh code applies
+  // immediately (no more "refresh a few times to get the update"). Skip the reload on
+  // the very first visit, when the page loaded without a controller anyway.
+  const hadController = !!navigator.serviceWorker.controller;
+  let reloaded = false;
+  navigator.serviceWorker.addEventListener("controllerchange", () => {
+    if (reloaded || !hadController) return;
+    reloaded = true;
+    window.location.reload();
+  });
   window.addEventListener("load", () =>
-    navigator.serviceWorker.register("/service-worker.js").catch(() => {})
+    // updateViaCache:"none" → the SW script itself is never HTTP-cached, so a new
+    // version is detected on the next load instead of being masked by the cache.
+    navigator.serviceWorker.register("/service-worker.js", { updateViaCache: "none" }).catch(() => {})
   );
 }
