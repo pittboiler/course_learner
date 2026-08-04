@@ -378,6 +378,15 @@ const INK_COLORS = [
 const ERASER_HEX = "#ffffff"; // white "paper" — whiteout eraser, trivially exports/redraws
 const ERASER_W = 22;
 
+// While the Pencil is actively drawing on a pad, block text selection ANYWHERE on
+// the page. iPadOS otherwise sometimes latches a selection onto nearby lesson text
+// (e.g. the next problem's title) mid-stroke, even though the pen never left the
+// canvas — a document-level guard is the only thing that reliably stops it.
+let __penDrawing = false;
+document.addEventListener("selectstart", (e) => { if (__penDrawing) e.preventDefault(); }, true);
+window.addEventListener("pointerup", () => { __penDrawing = false; }, true);   // backstop
+window.addEventListener("pointercancel", () => { __penDrawing = false; }, true);
+
 function createInkPad(mount, storageKey) {
   const pages = []; // { canvas, ctx, strokes:[{color, pts:[{x,y,w}]}] }
   const order = []; // pages in stroke order, for global undo
@@ -485,6 +494,7 @@ function createInkPad(mount, storageKey) {
       if (cur) return; // a stroke is already in progress with another pointer
       e.preventDefault();
       activeId = e.pointerId;
+      __penDrawing = true; // block page-wide text selection until this stroke ends
       try { c.setPointerCapture(e.pointerId); } catch {}
       try { window.getSelection()?.removeAllRanges(); } catch {} // drop any stray text highlight
       const { x, y } = at(e);
@@ -514,6 +524,7 @@ function createInkPad(mount, storageKey) {
       if (e && e.pointerId !== activeId) return; // a resting finger lifting must not kill the pen stroke
       cur = null;
       activeId = null;
+      __penDrawing = false;
       persist();
     };
     c.addEventListener("pointerup", end);
