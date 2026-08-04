@@ -147,14 +147,18 @@ button:disabled { opacity: 0.5; cursor: wait; }
 }
 .file-label:hover { border-color: var(--accent); color: var(--accent); }
 /* Handwriting answer pad */
-.inkpad { margin: 4px 0 10px; }
+.inkpad {
+  margin: 4px 0 10px;
+  /* Pencil taps/drags on the toolbar must never select its text (e.g. "Add page") */
+  -webkit-user-select: none; user-select: none; -webkit-touch-callout: none;
+}
 .ink-toolbar {
   display: flex; align-items: center; justify-content: space-between;
   gap: 10px; flex-wrap: wrap; margin-bottom: 8px;
 }
 .ink-hint { color: var(--muted); font-size: 13px; }
 .ink-tools { display: flex; gap: 8px; }
-.ink-tools button { padding: 6px 12px; font-size: 13px; cursor: pointer; }
+.ink-tools button { padding: 6px 12px; font-size: 13px; cursor: pointer; touch-action: manipulation; }
 .ink-pages { display: flex; flex-direction: column; gap: 12px; }
 .ink-canvas {
   width: 100%; height: 640px; display: block;
@@ -174,6 +178,7 @@ button:disabled { opacity: 0.5; cursor: wait; }
 .md .work-drawer > summary {
   cursor: pointer; font-weight: 600; color: var(--accent);
   font-size: 14px; padding: 6px 0; list-style: none;
+  -webkit-user-select: none; user-select: none; -webkit-touch-callout: none;
 }
 .md .work-drawer > summary::-webkit-details-marker { display: none; }
 .md .work-drawer > summary::before { content: "▸ "; }

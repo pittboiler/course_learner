@@ -377,6 +377,7 @@ function createInkPad(mount) {
       if (e.pointerType !== "pen" && e.pointerType !== "mouse") return; // finger = scroll
       e.preventDefault();
       try { c.setPointerCapture(e.pointerId); } catch {}
+      try { window.getSelection()?.removeAllRanges(); } catch {} // drop any stray text highlight
       const { x, y } = at(e);
       const w = lineW(e);
       cur = { pts: [{ x, y, w }] };
@@ -407,6 +408,7 @@ function createInkPad(mount) {
     const end = () => (cur = null);
     c.addEventListener("pointerup", end);
     c.addEventListener("pointercancel", end);
+    c.addEventListener("selectstart", (e) => e.preventDefault()); // no highlight from pen contact
   }
 
   function addPage() {
