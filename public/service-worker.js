@@ -5,7 +5,7 @@
    - Lessons/assets use stale-while-revalidate: instant offline reads, and freshly
      /prep-generated lessons appear the next time you're online.
    - /api/* is NEVER cached — grading, quizzes and reviews always hit the network. */
-const CACHE = "learner-v11";
+const CACHE = "learner-v12";
 const CODE = new Set(["/", "/app.js", "/styles.css", "/manifest.json"]); // network-first
 const SHELL = [
   ...CODE,

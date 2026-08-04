@@ -930,6 +930,46 @@ window.addEventListener("afterprint", () => {
 window.addEventListener("hashchange", route);
 route();
 
+/* Ink diagnostics — off by default. Enable by visiting the site with ?inkdebug=1
+   (it sticks until you tap "off"). Shows every pointer event the OS actually delivers,
+   so a failed follow-on stroke tells us whether the pen-down even fired, and as what. */
+function initInkDebug() {
+  const q = new URLSearchParams(location.search);
+  if (q.get("inkdebug") === "1") LS.set("learner:inkdebug", 1);
+  if (q.get("inkdebug") === "0") LS.del("learner:inkdebug");
+  if (!LS.get("learner:inkdebug")) return;
+
+  const hud = document.createElement("div");
+  hud.style.cssText =
+    "position:fixed;left:6px;right:6px;bottom:6px;max-height:36vh;overflow:auto;z-index:99999;" +
+    "background:rgba(0,0,0,.86);color:#4ade80;font:11px/1.35 ui-monospace,monospace;" +
+    "padding:6px 8px;border-radius:10px;white-space:pre;touch-action:auto;";
+  const bar = document.createElement("div");
+  bar.style.cssText = "display:flex;gap:10px;align-items:center;margin-bottom:4px;color:#fff";
+  bar.innerHTML = "<b>ink debug</b>";
+  const mk = (t) => { const b = document.createElement("button"); b.textContent = t; b.style.cssText = "font:11px monospace;padding:2px 8px"; return b; };
+  const clearB = mk("clear"), offB = mk("off");
+  const log = document.createElement("div");
+  bar.append(clearB, offB); hud.append(bar, log); document.body.appendChild(hud);
+  clearB.onclick = () => (log.textContent = "");
+  offB.onclick = () => { LS.del("learner:inkdebug"); hud.remove(); };
+
+  let n = 0;
+  const line = (s) => { log.textContent = (String(n++).padStart(3, "0") + " " + s + "\n" + log.textContent).slice(0, 3500); };
+  const tgt = (e) => {
+    const t = e.target;
+    if (!t || !t.tagName) return String(t);
+    const cls = typeof t.className === "string" && t.className ? "." + t.className.split(" ")[0] : "";
+    return t.tagName.toLowerCase() + cls;
+  };
+  ["pointerdown", "pointerup", "pointercancel"].forEach((type) =>
+    window.addEventListener(type, (e) =>
+      line(`${type.slice(7).padEnd(6)} ${String(e.pointerType).padEnd(5)} id${e.pointerId} p${(e.pressure || 0).toFixed(2)} → ${tgt(e)}`), true)
+  );
+  line("ready · write 'lim' — each pen-down should read: down  pen ... → canvas.ink-canvas");
+}
+initInkDebug();
+
 // PWA: offline shell + "Add to Home Screen" as an app.
 if ("serviceWorker" in navigator) {
   // When a new service worker takes control, reload once so the fresh code applies
