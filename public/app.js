@@ -489,18 +489,43 @@ function createInkPad(mount, storageKey) {
       ctx.lineTo(b.x, b.y);
       ctx.stroke();
     };
+
+    // NOTE: we deliberately do NOT use setPointerCapture. On iPadOS Safari, capturing an
+    // Apple Pencil pointer frequently makes the NEXT pointerdown go missing (the classic
+    // "follow-on stroke doesn't register" bug). Instead we listen for moves/ups on the
+    // document only while a stroke is live — that catches everything (even off-canvas)
+    // without capture, and detaches on lift.
+    const onMove = (e) => {
+      if (!cur || e.pointerId !== activeId) return;
+      e.preventDefault();
+      const samples = e.getCoalescedEvents ? e.getCoalescedEvents() : [];
+      for (const ev of samples.length ? samples : [e]) {
+        const p = { ...at(ev), w: widthFor(ev) };
+        seg(cur.pts[cur.pts.length - 1], p);
+        cur.pts.push(p);
+      }
+    };
+    const detach = () => {
+      document.removeEventListener("pointermove", onMove);
+      document.removeEventListener("pointerup", onUp);
+      document.removeEventListener("pointercancel", onUp);
+    };
+    function onUp(e) {
+      if (e && e.pointerId !== activeId) return; // a different pointer lifting — ignore
+      detach();
+      cur = null;
+      activeId = null;
+      __penDrawing = false;
+      persist();
+    }
+
     c.addEventListener("pointerdown", (e) => {
       if (e.pointerType !== "pen" && e.pointerType !== "mouse") return; // finger/palm = ignore
-      e.preventDefault(); // ALWAYS suppress the default (selection/gesture) on a pen-down —
-                          // even when the previous stroke's pointerup was dropped by iPadOS
-      // Start a fresh stroke unconditionally. iPadOS sometimes drops the pointerup on a
-      // quick lift-and-retouch (writing l → i → m); the old `if (cur) return` then swallowed
-      // the next stroke AND let its pen-down fall through to a text selection. Just abandon
-      // any half-open stroke and begin anew.
+      e.preventDefault(); // always suppress the default (selection/gesture) on a pen-down
+      detach(); // abandon any half-open stroke (e.g. a dropped pointerup) and start fresh
       activeId = e.pointerId;
       __penDrawing = true; // block page-wide text selection until this stroke ends
-      try { c.setPointerCapture(e.pointerId); } catch {}
-      try { window.getSelection()?.removeAllRanges(); } catch {} // drop any stray text highlight
+      try { window.getSelection()?.removeAllRanges(); } catch {}
       const { x, y } = at(e);
       const w = widthFor(e);
       cur = { color: tool === "erase" ? ERASER_HEX : color, pts: [{ x, y, w }] };
@@ -511,43 +536,12 @@ function createInkPad(mount, storageKey) {
       ctx.beginPath();
       ctx.arc(x, y, w / 2, 0, 2 * Math.PI); // a tap alone still leaves a mark
       ctx.fill();
+      // Track this stroke on the document (no capture) until the pen lifts.
+      document.addEventListener("pointermove", onMove, { passive: false });
+      document.addEventListener("pointerup", onUp);
+      document.addEventListener("pointercancel", onUp);
     });
-    c.addEventListener("pointermove", (e) => {
-      if (!cur || e.pointerId !== activeId) return; // only the drawing pointer
-      e.preventDefault();
-      // The Pencil reports far faster than the frame rate; replay every coalesced
-      // sample so small/quick strokes keep their full shape instead of dropping points.
-      const samples = e.getCoalescedEvents ? e.getCoalescedEvents() : [];
-      for (const ev of samples.length ? samples : [e]) {
-        const p = { ...at(ev), w: widthFor(ev) };
-        seg(cur.pts[cur.pts.length - 1], p);
-        cur.pts.push(p);
-      }
-    });
-    const end = (e) => {
-      if (e && e.pointerId !== activeId) return; // a resting finger lifting must not kill the pen stroke
-      if (!cur) return; // stroke already finalized
-      cur = null;
-      activeId = null;
-      __penDrawing = false;
-      persist();
-    };
-    c.addEventListener("pointerup", end);
-    c.addEventListener("pointercancel", end);
-    c.addEventListener("lostpointercapture", end);
     c.addEventListener("selectstart", (e) => e.preventDefault()); // no highlight from pen contact
-    // Backstop: iPadOS can drop the canvas's own pointerup after a quick lift, which would
-    // strand the stroke and block the next one. A window-level listener finalizes it anyway.
-    const winEnd = (e) => {
-      if (!document.body.contains(c)) {
-        window.removeEventListener("pointerup", winEnd);
-        window.removeEventListener("pointercancel", winEnd);
-        return;
-      }
-      end(e);
-    };
-    window.addEventListener("pointerup", winEnd);
-    window.addEventListener("pointercancel", winEnd);
   }
 
   function addPage() {
