@@ -1,0 +1,28 @@
+<svg viewBox="0 0 360 340" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <!-- full circle -->
+  <circle cx="150" cy="240" r="130" fill="none" stroke="#333333" stroke-width="1.5" opacity="0.55"/>
+
+  <!-- center dot -->
+  <circle cx="150" cy="240" r="3.5" fill="#333333"/>
+
+  <!-- two radii bounding the angle -->
+  <line x1="150" y1="240" x2="272.2" y2="195.5" stroke="#333333" stroke-width="2.2"/>
+  <line x1="150" y1="240" x2="161.3" y2="110.5" stroke="#333333" stroke-width="2.2"/>
+
+  <!-- highlighted subtended arc s -->
+  <polyline points="272.2,195.5 262.6,175 249.6,156.4 233.6,140.4 215,127.4 194.5,117.8 172.6,112 161.3,110.5"
+            fill="none" stroke="#e8590c" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- small angle marker near the center -->
+  <polyline points="180.1,229.7 176.3,220.5 170.4,213.0"
+            fill="none" stroke="#333333" stroke-width="1.6"/>
+
+  <!-- labels -->
+  <text x="216" y="228" fill="#333333" font-size="20" font-style="italic">r</text>
+  <text x="140" y="176" fill="#333333" font-size="20" font-style="italic" text-anchor="end">r</text>
+  <text x="255" y="132" fill="#e8590c" font-size="22" font-style="italic" font-weight="bold">s</text>
+  <text x="172" y="214" fill="#333333" font-size="20" font-style="italic">&#952;</text>
+
+  <!-- caption of the relation -->
+  <text x="180" y="315" fill="#333333" font-size="18" text-anchor="middle">s = r&#952;   (&#952; in radians = s / r)</text>
+</svg>

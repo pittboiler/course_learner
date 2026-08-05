@@ -1,0 +1,37 @@
+<svg viewBox="0 0 460 280" xmlns="http://www.w3.org/2000/svg">
+  <!-- ground -->
+  <line x1="20" y1="228" x2="440" y2="228" stroke="#333333" stroke-width="2"/>
+
+  <!-- tower -->
+  <rect x="372" y="66" width="20" height="162" fill="#c9d4e0" stroke="#333333" stroke-width="2"/>
+  <polygon points="368,66 396,66 382,50" fill="#2b6cb0" stroke="#333333" stroke-width="2"/>
+
+  <!-- horizontal sight line (dashed) -->
+  <line x1="62" y1="228" x2="382" y2="228" stroke="#333333" stroke-width="1.5" stroke-dasharray="6 5"/>
+
+  <!-- line of sight to the top -->
+  <line x1="62" y1="228" x2="382" y2="58" stroke="#c05621" stroke-width="2.5"/>
+
+  <!-- height marker -->
+  <line x1="382" y1="228" x2="382" y2="58" stroke="#2f855a" stroke-width="2" stroke-dasharray="4 4"/>
+  <text x="404" y="150" fill="#2f855a" font-family="sans-serif" font-size="18" font-weight="bold">h</text>
+
+  <!-- angle of elevation arc -->
+  <path d="M 112 228 A 50 50 0 0 0 105 202" fill="none" stroke="#c05621" stroke-width="2"/>
+  <text x="120" y="214" fill="#c05621" font-family="sans-serif" font-size="17" font-weight="bold">&#952;</text>
+
+  <!-- distance label -->
+  <text x="205" y="250" fill="#333333" font-family="sans-serif" font-size="16">d</text>
+  <line x1="62" y1="244" x2="195" y2="244" stroke="#333333" stroke-width="1"/>
+  <line x1="218" y1="244" x2="382" y2="244" stroke="#333333" stroke-width="1"/>
+  <line x1="62" y1="240" x2="62" y2="248" stroke="#333333" stroke-width="1"/>
+  <line x1="382" y1="240" x2="382" y2="248" stroke="#333333" stroke-width="1"/>
+
+  <!-- observer -->
+  <circle cx="55" cy="212" r="7" fill="#333333"/>
+  <line x1="55" y1="219" x2="55" y2="228" stroke="#333333" stroke-width="3"/>
+
+  <!-- labels -->
+  <text x="30" y="270" fill="#333333" font-family="sans-serif" font-size="13">observer</text>
+  <text x="352" y="270" fill="#333333" font-family="sans-serif" font-size="13">tower</text>
+</svg>

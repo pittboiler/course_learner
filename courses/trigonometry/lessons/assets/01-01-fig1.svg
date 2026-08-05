@@ -1,0 +1,25 @@
+<svg viewBox="0 0 420 300" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <!-- Right triangle: right angle at bottom-right (B), reference angle theta at bottom-left (A) -->
+  <!-- Vertices: A (40,250) bottom-left, B (340,250) bottom-right, C (340,70) top-right -->
+  <polygon points="40,250 340,250 340,70" fill="none" stroke="#333333" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Right-angle mark at B (340,250) -->
+  <path d="M 340,228 L 318,228 L 318,250" fill="none" stroke="#333333" stroke-width="2"/>
+
+  <!-- Reference angle theta arc at A (40,250) -->
+  <path d="M 92,250 A 52,52 0 0 0 82.5,220" fill="none" stroke="#c0392b" stroke-width="2.5"/>
+  <text x="100" y="236" fill="#c0392b" font-size="22" font-style="italic">&#952;</text>
+
+  <!-- Side labels -->
+  <!-- adjacent: bottom leg A-B -->
+  <text x="190" y="278" fill="#333333" font-size="18" text-anchor="middle">adjacent</text>
+  <!-- opposite: right leg B-C -->
+  <text x="352" y="165" fill="#333333" font-size="18" text-anchor="start">opposite</text>
+  <!-- hypotenuse: A-C, drawn along the slope -->
+  <text x="150" y="145" fill="#2c6fbb" font-size="18" text-anchor="middle" transform="rotate(-31 150 145)">hypotenuse</text>
+
+  <!-- Vertex dots -->
+  <circle cx="40" cy="250" r="4" fill="#333333"/>
+  <circle cx="340" cy="250" r="4" fill="#333333"/>
+  <circle cx="340" cy="70" r="4" fill="#333333"/>
+</svg>

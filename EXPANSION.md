@@ -76,12 +76,12 @@ Lesson estimates use the house scale: **F** ≈ 6–8, **Tier 0** ≈ 10–12,
 The bottom of the ladder. No prereqs; fast to build; completes the on-ramp below
 Tier 0.
 
-- [~] `arithmetic-number-sense` — Arithmetic & Number Sense (F, 8) — syllabus ✓, lessons pending
-- [~] `algebra-foundations` — Algebra I & II (F, 12) — syllabus ✓, lessons pending
-- [~] `geometry` — Euclidean Geometry (F, 11) — syllabus ✓, lessons pending
-- [~] `trigonometry` — Trigonometry (F, 8) — syllabus ✓, lessons pending
-- [~] `precalculus` — Precalculus (F, 12) — syllabus ✓, lessons pending
-- [~] `discrete-math-intro` — Discrete Math for Beginners (F, 8) — syllabus ✓, lessons pending
+- [x] `arithmetic-number-sense` — Arithmetic & Number Sense (F, 8) — **lessons ✓** (prepped 2026-08-04)
+- [x] `algebra-foundations` — Algebra I & II (F, 12) — **lessons ✓** (prepped 2026-08-04)
+- [x] `geometry` — Euclidean Geometry (F, 11) — **lessons ✓** (prepped 2026-08-04; 11 SVG figures)
+- [x] `trigonometry` — Trigonometry (F, 8) — **lessons ✓** (prepped 2026-08-04; 8 SVG figures, dark-on-paper)
+- [x] `precalculus` — Precalculus (F, 12) — **lessons ✓** (prepped 2026-08-04; 11 SVG figures + limits doorway)
+- [x] `discrete-math-intro` — Discrete Math for Beginners (F, 8) — **lessons ✓** (prepped 2026-08-04; 7 SVG + truth tables)
 
 ### Phase 2 — Mathematics expansion (Field 2) · 8 courses · ~124 lessons
 
@@ -224,6 +224,10 @@ decision theory.
   — cosmetic only.)
 - **Phase 1 — syllabi written (2026-08-04):** all 6 Foundations syllabi generated, validated,
   and registered in progress.json (status `available`).
+- **Phase 1 — LESSONS PREPPED (2026-08-04): all 6 Foundations courses fully built** (arithmetic 8,
+  algebra 12, geometry 11, trig 8, precalculus 12, discrete-intro 8 = **59 lesson files** with SVG
+  figures, flashbacks, and full worked solutions). Also shipped a CSS fix (`.md img` on a light
+  "paper" card) so SVG figures stay legible in both themes + print. **Phase 1 is done.**
 - **Phase 2 — syllabi written (2026-08-04):** all 8 Mathematics-expansion syllabi generated,
   validated, and registered (~141 lessons planned).
 - **Phase 3 — syllabi written (2026-08-04):** all 9 Physics-breadth syllabi generated,

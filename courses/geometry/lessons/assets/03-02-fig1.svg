@@ -1,0 +1,47 @@
+<svg viewBox="0 0 360 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- the circle -->
+  <circle cx="180" cy="180" r="120" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <!-- emphasized minor arc AB (the shared arc) -->
+  <polyline points="103,272 120,284 139,293 159,298 180,300 201,298 221,293 240,284 257,272"
+            fill="none" stroke="#d9a441" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- radii OA, OB : the central angle -->
+  <line x1="180" y1="180" x2="103" y2="272" stroke="#e0645c" stroke-width="2"/>
+  <line x1="180" y1="180" x2="257" y2="272" stroke="#e0645c" stroke-width="2"/>
+  <!-- central angle arc at O -->
+  <polyline points="162,201.4 170.4,206.3 180,208 189.6,206.3 198,201.4"
+            fill="none" stroke="#e0645c" stroke-width="1.8"/>
+
+  <!-- chords CA, CB : the inscribed angle -->
+  <line x1="180" y1="60" x2="103" y2="272" stroke="#7bb662" stroke-width="2"/>
+  <line x1="180" y1="60" x2="257" y2="272" stroke="#7bb662" stroke-width="2"/>
+  <!-- inscribed angle arc at C -->
+  <polyline points="169.8,88.2 180,90 190.2,88.2"
+            fill="none" stroke="#7bb662" stroke-width="1.8"/>
+
+  <!-- tangent at T, with radius OT and right-angle mark -->
+  <line x1="180" y1="180" x2="293" y2="139" stroke="#9b59b6" stroke-width="2"/>
+  <line x1="269" y1="73" x2="317" y2="205" stroke="#9b59b6" stroke-width="2.5"/>
+  <polygon points="293,139 281.7,143.1 277.6,131.8 288.9,127.7"
+           fill="none" stroke="#9b59b6" stroke-width="1.6"/>
+
+  <!-- points -->
+  <circle cx="180" cy="180" r="3.5" fill="#333"/>
+  <circle cx="103" cy="272" r="4" fill="#e0645c"/>
+  <circle cx="257" cy="272" r="4" fill="#e0645c"/>
+  <circle cx="180" cy="60"  r="4" fill="#7bb662"/>
+  <circle cx="293" cy="139" r="4" fill="#9b59b6"/>
+
+  <!-- labels -->
+  <text x="166" y="174" fill="#333">O</text>
+  <text x="86"  y="286" fill="#e0645c">A</text>
+  <text x="262" y="286" fill="#e0645c">B</text>
+  <text x="172" y="50"  fill="#7bb662">C</text>
+  <text x="300" y="136" fill="#9b59b6">T</text>
+
+  <text x="204" y="228" fill="#e0645c">central = 80&#176;</text>
+  <text x="196" y="112" fill="#7bb662">inscribed = 40&#176;</text>
+  <text x="286" y="72"  fill="#9b59b6">tangent</text>
+  <text x="150" y="332" fill="#d9a441" font-style="italic">arc AB</text>
+</svg>

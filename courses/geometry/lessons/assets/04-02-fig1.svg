@@ -1,0 +1,67 @@
+<svg viewBox="0 0 360 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <!-- grid -->
+  <g stroke="#dcdcdc" stroke-width="1">
+    <line x1="70" y1="40" x2="70" y2="290"/>
+    <line x1="110" y1="40" x2="110" y2="290"/>
+    <line x1="150" y1="40" x2="150" y2="290"/>
+    <line x1="190" y1="40" x2="190" y2="290"/>
+    <line x1="230" y1="40" x2="230" y2="290"/>
+    <line x1="270" y1="40" x2="270" y2="290"/>
+    <line x1="310" y1="40" x2="310" y2="290"/>
+    <line x1="40" y1="70" x2="330" y2="70"/>
+    <line x1="40" y1="110" x2="330" y2="110"/>
+    <line x1="40" y1="150" x2="330" y2="150"/>
+    <line x1="40" y1="190" x2="330" y2="190"/>
+    <line x1="40" y1="230" x2="330" y2="230"/>
+    <line x1="40" y1="270" x2="330" y2="270"/>
+  </g>
+
+  <!-- axes -->
+  <line x1="40" y1="290" x2="335" y2="290" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="70" y1="35" x2="70" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="335,290 325,285 325,295" fill="#8a8a8a"/>
+  <polygon points="70,35 65,45 75,45" fill="#8a8a8a"/>
+  <text x="332" y="308" fill="#8a8a8a">x</text>
+  <text x="52" y="45" fill="#8a8a8a">y</text>
+
+  <!-- x tick labels (each cell = 1 unit, origin at 70,290) -->
+  <text x="107" y="305" fill="#8a8a8a">1</text>
+  <text x="147" y="305" fill="#8a8a8a">2</text>
+  <text x="187" y="305" fill="#8a8a8a">3</text>
+  <text x="227" y="305" fill="#8a8a8a">4</text>
+  <text x="267" y="305" fill="#8a8a8a">5</text>
+  <text x="307" y="305" fill="#8a8a8a">6</text>
+  <!-- y tick labels -->
+  <text x="55" y="275" fill="#8a8a8a">1</text>
+  <text x="55" y="235" fill="#8a8a8a">2</text>
+  <text x="55" y="195" fill="#8a8a8a">3</text>
+  <text x="55" y="155" fill="#8a8a8a">4</text>
+  <text x="55" y="115" fill="#8a8a8a">5</text>
+  <text x="55" y="75" fill="#8a8a8a">6</text>
+
+  <!-- Triangle A(1,1) B(5,1) C(1,4).  x: 70+40u, y: 290-40u -->
+  <!-- A(1,1) -> (110,250) ; B(5,1) -> (270,250) ; C(1,4) -> (110,130) -->
+  <polygon points="110,250 270,250 110,130" fill="#4a90d9" fill-opacity="0.12" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <!-- right-angle mark at A(110,250) -->
+  <polyline points="126,250 126,234 110,234" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+
+  <!-- dashed run and rise along hypotenuse BC : run = 4 (horizontal), rise = 3 (vertical) -->
+  <!-- run: from C(110,130) horizontally to (270,130) -->
+  <line x1="110" y1="130" x2="270" y2="130" stroke="#7bb662" stroke-width="1.6" stroke-dasharray="6 4"/>
+  <!-- rise: from (270,130) down to B(270,250) -->
+  <line x1="270" y1="130" x2="270" y2="250" stroke="#7bb662" stroke-width="1.6" stroke-dasharray="6 4"/>
+  <text x="175" y="123" fill="#7bb662">run = 4</text>
+  <text x="276" y="195" fill="#7bb662">rise = 3</text>
+
+  <!-- vertices -->
+  <circle cx="110" cy="250" r="4.5" fill="#4a90d9"/>
+  <circle cx="270" cy="250" r="4.5" fill="#4a90d9"/>
+  <circle cx="110" cy="130" r="4.5" fill="#4a90d9"/>
+  <text x="90" y="268" fill="#4a90d9">A(1,1)</text>
+  <text x="248" y="268" fill="#4a90d9">B(5,1)</text>
+  <text x="90" y="122" fill="#4a90d9">C(1,4)</text>
+
+  <!-- hypotenuse length label -->
+  <text x="175" y="180" fill="#333" font-style="italic">BC = 5</text>
+</svg>

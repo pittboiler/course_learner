@@ -1,0 +1,46 @@
+<svg viewBox="0 0 440 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <!-- ===== ship's two-leg route as an oblique triangle ===== -->
+  <!-- A = start (80,250), B = turn (195,154), C = end (325,229) -->
+
+  <!-- closing line A->C : the unknown direct distance -->
+  <line x1="80" y1="250" x2="325" y2="229" stroke="#c0392b" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="188" y="258" fill="#c0392b" font-size="13" font-weight="bold">c = ?</text>
+
+  <!-- Leg 1: A -> B, bearing 050, length 18 km -->
+  <line x1="80" y1="250" x2="195" y2="154" stroke="#1f6fb2" stroke-width="2.6"/>
+  <text x="112" y="198" fill="#1f6fb2" font-size="12.5" font-weight="bold">18 km</text>
+
+  <!-- Leg 2: B -> C, bearing 120, length 25 km -->
+  <line x1="195" y1="154" x2="325" y2="229" stroke="#1f6fb2" stroke-width="2.6"/>
+  <text x="268" y="182" fill="#1f6fb2" font-size="12.5" font-weight="bold">25 km</text>
+
+  <!-- North arrow at A -->
+  <line x1="80" y1="250" x2="80" y2="185" stroke="#333333" stroke-width="1.6"/>
+  <polygon points="80,180 75,192 85,192" fill="#333333"/>
+  <text x="70" y="176" fill="#333333" font-size="13" font-weight="bold">N</text>
+
+  <!-- North reference at B (dashed) -->
+  <line x1="195" y1="154" x2="195" y2="104" stroke="#333333" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <polygon points="195,100 190,111 200,111" fill="#333333"/>
+  <text x="186" y="96" fill="#333333" font-size="13" font-weight="bold">N</text>
+
+  <!-- bearing 050 arc at A (from north, clockwise to leg 1) -->
+  <path d="M 80 210 A 40 40 0 0 1 110.6 224.3" fill="none" stroke="#7a5195" stroke-width="1.6"/>
+  <text x="88" y="224" fill="#7a5195" font-size="12">050&#176;</text>
+
+  <!-- bearing 120 arc at B (from north, clockwise to leg 2) -->
+  <path d="M 195 118 A 36 36 0 0 1 226.2 172" fill="none" stroke="#7a5195" stroke-width="1.6"/>
+  <text x="205" y="140" fill="#7a5195" font-size="12">120&#176;</text>
+
+  <!-- interior turn angle at B -->
+  <path d="M 176.1 170.6 A 25 25 0 0 0 216.6 166.5" fill="none" stroke="#333333" stroke-width="1.4"/>
+  <text x="187" y="184" fill="#333333" font-size="12" font-style="italic">B</text>
+
+  <!-- vertices -->
+  <circle cx="80" cy="250" r="4.5" fill="#333333"/>
+  <text x="52" y="272" fill="#333333" font-size="12.5" font-weight="bold">Start</text>
+  <circle cx="195" cy="154" r="4.5" fill="#333333"/>
+  <text x="203" y="151" fill="#333333" font-size="12.5" font-weight="bold">Turn</text>
+  <circle cx="325" cy="229" r="4.5" fill="#333333"/>
+  <text x="331" y="234" fill="#333333" font-size="12.5" font-weight="bold">End</text>
+</svg>

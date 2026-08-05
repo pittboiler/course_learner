@@ -1,0 +1,41 @@
+<svg viewBox="0 0 560 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="15">
+  <!-- inputs -->
+  <text x="30" y="40" fill="#8a8a8a" font-style="italic">inputs (domain)</text>
+  <circle cx="70" cy="90" r="6" fill="#4a90d9"/>
+  <circle cx="70" cy="150" r="6" fill="#4a90d9"/>
+  <circle cx="70" cy="210" r="6" fill="#4a90d9"/>
+  <text x="35" y="95" fill="#4a90d9">2</text>
+  <text x="35" y="155" fill="#4a90d9">3</text>
+  <text x="35" y="215" fill="#4a90d9">-1</text>
+
+  <!-- arrows into machine -->
+  <line x1="82" y1="90" x2="205" y2="130" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="82" y1="150" x2="205" y2="150" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="82" y1="210" x2="205" y2="170" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- machine box -->
+  <rect x="210" y="95" width="140" height="110" rx="10" fill="none" stroke="#e0645c" stroke-width="3"/>
+  <text x="238" y="145" fill="#e0645c" font-size="22">f(x) =</text>
+  <text x="245" y="178" fill="#e0645c" font-size="22">x² − 1</text>
+  <text x="228" y="230" fill="#8a8a8a" font-style="italic">the rule (machine)</text>
+
+  <!-- arrows out of machine -->
+  <line x1="355" y1="130" x2="478" y2="90" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="355" y1="150" x2="478" y2="150" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="355" y1="170" x2="478" y2="210" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="478,90 466,89 470,99" fill="#8a8a8a"/>
+  <polygon points="478,150 467,145 467,155" fill="#8a8a8a"/>
+  <polygon points="478,210 470,201 466,211" fill="#8a8a8a"/>
+
+  <!-- outputs -->
+  <text x="470" y="40" fill="#8a8a8a" font-style="italic">outputs (range)</text>
+  <circle cx="490" cy="90" r="6" fill="#7bb662"/>
+  <circle cx="490" cy="150" r="6" fill="#7bb662"/>
+  <circle cx="490" cy="210" r="6" fill="#7bb662"/>
+  <text x="505" y="95" fill="#7bb662">3</text>
+  <text x="505" y="155" fill="#7bb662">8</text>
+  <text x="505" y="215" fill="#7bb662">0</text>
+
+  <!-- caption -->
+  <text x="150" y="285" fill="#8a8a8a" font-style="italic">Each input goes in; exactly one output comes out.</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg viewBox="0 0 460 240" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="460" height="240" fill="white"/>
+
+  <!-- Small triangle ABC -->
+  <polygon points="40,200 160,200 75,90" fill="none" stroke="#111111" stroke-width="2.2"/>
+  <!-- angle marks: A single (red), B double (blue), C triple (green) -->
+  <path d="M 60 200 A 20 20 0 0 1 46.06 180.94" fill="none" stroke="#d62728" stroke-width="2"/>
+  <path d="M 142 200 A 18 18 0 0 1 149.0 185.76" fill="none" stroke="#1f77b4" stroke-width="2"/>
+  <path d="M 136 200 A 24 24 0 0 1 145.34 181.02" fill="none" stroke="#1f77b4" stroke-width="2"/>
+  <path d="M 70.15 105.25 A 16 16 0 0 1 84.78 102.66" fill="none" stroke="#2ca02c" stroke-width="2"/>
+  <path d="M 68.64 110.01 A 21 21 0 0 1 87.83 106.61" fill="none" stroke="#2ca02c" stroke-width="2"/>
+  <path d="M 67.12 114.78 A 26 26 0 0 1 90.89 110.57" fill="none" stroke="#2ca02c" stroke-width="2"/>
+  <!-- side labels -->
+  <text x="100" y="217" font-size="14" text-anchor="middle" fill="#111111">6</text>
+  <text x="131" y="147" font-size="14" fill="#111111">5</text>
+  <text x="30" y="150" font-size="14" fill="#111111">4</text>
+  <!-- vertex labels -->
+  <text x="28" y="215" font-size="13" font-style="italic" fill="#111111">A</text>
+  <text x="163" y="215" font-size="13" font-style="italic" fill="#111111">B</text>
+  <text x="69" y="82" font-size="13" font-style="italic" fill="#111111">C</text>
+
+  <!-- Big triangle DEF (scale 2) -->
+  <polygon points="250,215 440,215 280,45" fill="none" stroke="#111111" stroke-width="2.2"/>
+  <path d="M 274 215 A 24 24 0 0 1 254.17 191.37" fill="none" stroke="#d62728" stroke-width="2"/>
+  <path d="M 418 215 A 22 22 0 0 1 424.9 198.94" fill="none" stroke="#1f77b4" stroke-width="2"/>
+  <path d="M 411 215 A 29 29 0 0 1 420.1 193.83" fill="none" stroke="#1f77b4" stroke-width="2"/>
+  <path d="M 276.52 64.7 A 20 20 0 0 1 293.74 59.6" fill="none" stroke="#2ca02c" stroke-width="2"/>
+  <path d="M 275.48 70.61 A 26 26 0 0 1 297.86 63.98" fill="none" stroke="#2ca02c" stroke-width="2"/>
+  <path d="M 274.43 76.52 A 32 32 0 0 1 301.98 68.36" fill="none" stroke="#2ca02c" stroke-width="2"/>
+  <!-- side labels -->
+  <text x="345" y="233" font-size="14" text-anchor="middle" fill="#111111">12</text>
+  <text x="380" y="130" font-size="14" fill="#111111">10</text>
+  <text x="230" y="132" font-size="14" fill="#111111">8</text>
+  <!-- vertex labels -->
+  <text x="238" y="230" font-size="13" font-style="italic" fill="#111111">D</text>
+  <text x="444" y="230" font-size="13" font-style="italic" fill="#111111">E</text>
+  <text x="276" y="38" font-size="13" font-style="italic" fill="#111111">F</text>
+
+  <!-- caption -->
+  <text x="230" y="20" font-size="13" text-anchor="middle" fill="#111111">△ABC ∼ △DEF   ·   4:8 = 5:10 = 6:12 = 1:2</text>
+</svg>

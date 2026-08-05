@@ -1,0 +1,36 @@
+<svg viewBox="0 0 400 360" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+  <!-- f(x) = x/(x-2): vertical asymptote x=2, horizontal asymptote y=1 -->
+  <!-- coordinate map: screen_x = 200 + 30*math_x, screen_y = 200 - 30*math_y -->
+
+  <!-- light card background -->
+  <rect x="0" y="0" width="400" height="360" fill="#faf9f6"/>
+
+  <!-- asymptotes (dashed accent) -->
+  <line x1="260" y1="40" x2="260" y2="340" stroke="#2c7a7b" stroke-width="1.8" stroke-dasharray="6 5"/>
+  <line x1="40"  y1="170" x2="390" y2="170" stroke="#2c7a7b" stroke-width="1.8" stroke-dasharray="6 5"/>
+  <text x="266" y="56"  fill="#2c7a7b" font-size="12.5" font-style="italic">x = 2</text>
+  <text x="46"  y="164" fill="#2c7a7b" font-size="12.5" font-style="italic">y = 1</text>
+
+  <!-- axes -->
+  <line x1="40"  y1="200" x2="390" y2="200" stroke="#333333" stroke-width="1.5"/>
+  <line x1="200" y1="340" x2="200" y2="40"  stroke="#333333" stroke-width="1.5"/>
+  <polygon points="390,200 382,196 382,204" fill="#333333"/>
+  <polygon points="200,40 196,48 204,48"    fill="#333333"/>
+  <text x="380" y="220" fill="#333333" font-size="13" font-style="italic">x</text>
+  <text x="208" y="50"  fill="#333333" font-size="13" font-style="italic">y</text>
+
+  <!-- left branch: comes in near y=1 from below, dives to -inf at x=2 -->
+  <polyline fill="none" stroke="#c0392b" stroke-width="2.6"
+    points="80,180 110,182 140,185 170,190 200,200 230,230 239,256 245,290 250,332"/>
+
+  <!-- right branch: drops from +inf at x=2, flattens toward y=1 from above -->
+  <polyline fill="none" stroke="#c0392b" stroke-width="2.6"
+    points="274,36 277,55 281,80 286,100 292,116 305,132 320,142 345,150 370,155 388,158"/>
+
+  <!-- intercept at origin -->
+  <circle cx="200" cy="200" r="3.6" fill="#333333"/>
+  <text x="205" y="215" fill="#333333" font-size="11">(0, 0)</text>
+
+  <!-- title -->
+  <text x="200" y="352" fill="#333333" font-size="12.5" text-anchor="middle" font-style="italic">f(x) = x / (x &#8722; 2)</text>
+</svg>

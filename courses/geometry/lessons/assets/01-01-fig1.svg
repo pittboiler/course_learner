@@ -1,0 +1,29 @@
+<svg viewBox="0 0 420 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- two lines crossing at O -->
+  <line x1="40" y1="60" x2="380" y2="240" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="40" y1="240" x2="380" y2="60" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <!-- line names -->
+  <text x="20" y="58" fill="#4a90d9">line ℓ</text>
+  <text x="20" y="248" fill="#4a90d9">line m</text>
+
+  <!-- intersection point O -->
+  <circle cx="210" cy="150" r="4" fill="#333333"/>
+  <text x="216" y="146" fill="#333333">O</text>
+
+  <!-- angle arcs: top & bottom = vertical pair (red), left & right = vertical pair (green) -->
+  <path d="M 176.4 132.2 A 38 38 0 0 1 243.6 132.2" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <path d="M 176.4 167.8 A 38 38 0 0 0 243.6 167.8" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <path d="M 176.4 132.2 A 38 38 0 0 0 176.4 167.8" fill="none" stroke="#7bb662" stroke-width="2"/>
+  <path d="M 243.6 132.2 A 38 38 0 0 1 243.6 167.8" fill="none" stroke="#7bb662" stroke-width="2"/>
+
+  <!-- angle measures -->
+  <text x="196" y="118" fill="#e0645c">125°</text>
+  <text x="196" y="196" fill="#e0645c">125°</text>
+  <text x="132" y="155" fill="#7bb662">55°</text>
+  <text x="256" y="155" fill="#7bb662">55°</text>
+
+  <!-- captions -->
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Vertical angles (same color) are equal.</text>
+  <text x="30" y="288" fill="#8a8a8a" font-style="italic">Any two adjacent angles form a linear pair: they add to 180°.</text>
+</svg>

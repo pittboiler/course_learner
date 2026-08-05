@@ -1,0 +1,36 @@
+<svg viewBox="0 0 440 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="15">
+  <!-- swing arc: side a is fixed length, pivoting at C -->
+  <path d="M 293 240 A 150 150 0 0 0 119 240" fill="none" stroke="#b9b3a7" stroke-width="1.2" stroke-dasharray="4 5"/>
+  <text x="300" y="286" fill="#b9b3a7" font-style="italic" font-size="12">a is fixed — it can swing…</text>
+
+  <!-- alternate (second-solution) triangle: A, B', C  (dashed blue) -->
+  <line x1="206" y1="118" x2="119" y2="240" stroke="#2f6fb0" stroke-width="2" stroke-dasharray="6 4"/>
+  <circle cx="119" cy="240" r="4.5" fill="#2f6fb0"/>
+  <text x="96" y="258" fill="#2f6fb0" font-weight="bold">B′</text>
+  <text x="150" y="205" fill="#2f6fb0" font-size="13">a</text>
+
+  <!-- main triangle A, B, C -->
+  <polygon points="60,240 293,240 206,118" fill="#33333310" stroke="#333333" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- angle mark at A -->
+  <path d="M 92 240 A 32 32 0 0 0 84.5 219.4" fill="none" stroke="#d9822b" stroke-width="2"/>
+
+  <!-- vertices -->
+  <circle cx="60" cy="240" r="4.5" fill="#333333"/>
+  <circle cx="293" cy="240" r="4.5" fill="#333333"/>
+  <circle cx="206" cy="118" r="4.5" fill="#333333"/>
+  <text x="44" y="258" fill="#333333" font-weight="bold">A</text>
+  <text x="300" y="258" fill="#333333" font-weight="bold">B</text>
+  <text x="200" y="108" fill="#333333" font-weight="bold">C</text>
+
+  <!-- side labels: a opp A, b opp B, c opp C -->
+  <text x="256" y="185" fill="#333333" font-style="italic">a</text>
+  <text x="118" y="185" fill="#333333" font-style="italic">b</text>
+  <text x="172" y="260" fill="#333333" font-style="italic">c</text>
+
+  <!-- angle A label -->
+  <text x="82" y="232" fill="#d9822b" font-size="13">A</text>
+
+  <!-- caption -->
+  <text x="60" y="30" fill="#333333" font-style="italic" font-size="13">An oblique triangle — and the SSA ambiguity: two triangles from the same a, b, A.</text>
+</svg>

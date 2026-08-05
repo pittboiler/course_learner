@@ -1,0 +1,49 @@
+<svg viewBox="0 0 440 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <rect x="0" y="0" width="440" height="300" fill="#faf9f6"/>
+
+  <!-- stage labels -->
+  <text x="40" y="24" fill="#333333" font-weight="bold">Stage 1: drink (2)</text>
+  <text x="200" y="24" fill="#333333" font-weight="bold">Stage 2: size (3)</text>
+
+  <!-- root -->
+  <circle cx="42" cy="150" r="6" fill="#333333"/>
+  <text x="16" y="172" fill="#333333">start</text>
+
+  <!-- stage-1 branches -->
+  <line x1="48" y1="150" x2="168" y2="86" stroke="#333333" stroke-width="2"/>
+  <line x1="48" y1="150" x2="168" y2="214" stroke="#333333" stroke-width="2"/>
+  <text x="86" y="104" fill="#333333">tea</text>
+  <text x="86" y="205" fill="#333333">coffee</text>
+
+  <!-- stage-1 nodes -->
+  <circle cx="174" cy="86" r="6" fill="#333333"/>
+  <circle cx="174" cy="214" r="6" fill="#333333"/>
+
+  <!-- stage-2 branches from tea -->
+  <line x1="180" y1="86" x2="300" y2="46" stroke="#333333" stroke-width="1.5"/>
+  <line x1="180" y1="86" x2="300" y2="86" stroke="#333333" stroke-width="1.5"/>
+  <line x1="180" y1="86" x2="300" y2="126" stroke="#333333" stroke-width="1.5"/>
+
+  <!-- stage-2 branches from coffee -->
+  <line x1="180" y1="214" x2="300" y2="174" stroke="#333333" stroke-width="1.5"/>
+  <line x1="180" y1="214" x2="300" y2="214" stroke="#333333" stroke-width="1.5"/>
+  <line x1="180" y1="214" x2="300" y2="254" stroke="#333333" stroke-width="1.5"/>
+
+  <!-- leaves -->
+  <circle cx="300" cy="46"  r="5" fill="#d1495b"/>
+  <circle cx="300" cy="86"  r="5" fill="#d1495b"/>
+  <circle cx="300" cy="126" r="5" fill="#d1495b"/>
+  <circle cx="300" cy="174" r="5" fill="#d1495b"/>
+  <circle cx="300" cy="214" r="5" fill="#d1495b"/>
+  <circle cx="300" cy="254" r="5" fill="#d1495b"/>
+
+  <text x="312" y="50"  fill="#333333">tea, S</text>
+  <text x="312" y="90"  fill="#333333">tea, M</text>
+  <text x="312" y="130" fill="#333333">tea, L</text>
+  <text x="312" y="178" fill="#333333">coffee, S</text>
+  <text x="312" y="218" fill="#333333">coffee, M</text>
+  <text x="312" y="258" fill="#333333">coffee, L</text>
+
+  <!-- count -->
+  <text x="150" y="292" fill="#d1495b" font-weight="bold">2 × 3 = 6 outcomes</text>
+</svg>

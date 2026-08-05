@@ -1,0 +1,44 @@
+<svg viewBox="0 0 420 300" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+  <rect x="0" y="0" width="420" height="300" fill="#faf9f6"/>
+  <text x="210" y="24" fill="#333333" font-size="15" font-weight="bold" text-anchor="middle">Pascal's triangle</text>
+
+  <!-- addition-identity highlight: the 6 = 3 + 3 -->
+  <!-- connecting lines from the two parents down to the child -->
+  <line x1="192" y1="160" x2="210" y2="200" stroke="#d1495b" stroke-width="2.5"/>
+  <line x1="228" y1="160" x2="210" y2="200" stroke="#d1495b" stroke-width="2.5"/>
+  <!-- parent + child accent rings -->
+  <circle cx="192" cy="160" r="14" fill="none" stroke="#d1495b" stroke-width="2"/>
+  <circle cx="228" cy="160" r="14" fill="none" stroke="#d1495b" stroke-width="2"/>
+  <circle cx="210" cy="200" r="14" fill="#d1495b"/>
+
+  <!-- Row 0 -->
+  <text x="210" y="45" fill="#333333" font-size="16" text-anchor="middle">1</text>
+  <!-- Row 1 -->
+  <text x="192" y="85" fill="#333333" font-size="16" text-anchor="middle">1</text>
+  <text x="228" y="85" fill="#333333" font-size="16" text-anchor="middle">1</text>
+  <!-- Row 2 -->
+  <text x="174" y="125" fill="#333333" font-size="16" text-anchor="middle">1</text>
+  <text x="210" y="125" fill="#333333" font-size="16" text-anchor="middle">2</text>
+  <text x="246" y="125" fill="#333333" font-size="16" text-anchor="middle">1</text>
+  <!-- Row 3 -->
+  <text x="156" y="165" fill="#333333" font-size="16" text-anchor="middle">1</text>
+  <text x="192" y="165" fill="#d1495b" font-size="16" font-weight="bold" text-anchor="middle">3</text>
+  <text x="228" y="165" fill="#d1495b" font-size="16" font-weight="bold" text-anchor="middle">3</text>
+  <text x="264" y="165" fill="#333333" font-size="16" text-anchor="middle">1</text>
+  <!-- Row 4 -->
+  <text x="138" y="205" fill="#333333" font-size="16" text-anchor="middle">1</text>
+  <text x="174" y="205" fill="#333333" font-size="16" text-anchor="middle">4</text>
+  <text x="210" y="205" fill="#ffffff" font-size="16" font-weight="bold" text-anchor="middle">6</text>
+  <text x="246" y="205" fill="#333333" font-size="16" text-anchor="middle">4</text>
+  <text x="282" y="205" fill="#333333" font-size="16" text-anchor="middle">1</text>
+  <!-- Row 5 -->
+  <text x="120" y="245" fill="#333333" font-size="16" text-anchor="middle">1</text>
+  <text x="156" y="245" fill="#333333" font-size="16" text-anchor="middle">5</text>
+  <text x="192" y="245" fill="#333333" font-size="16" text-anchor="middle">10</text>
+  <text x="228" y="245" fill="#333333" font-size="16" text-anchor="middle">10</text>
+  <text x="264" y="245" fill="#333333" font-size="16" text-anchor="middle">5</text>
+  <text x="300" y="245" fill="#333333" font-size="16" text-anchor="middle">1</text>
+
+  <!-- identity caption -->
+  <text x="210" y="284" fill="#d1495b" font-size="14" font-weight="bold" text-anchor="middle">6 = 3 + 3</text>
+</svg>

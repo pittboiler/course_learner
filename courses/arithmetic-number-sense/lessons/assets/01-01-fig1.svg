@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 160" width="720" height="160" role="img" aria-label="Integer number line from negative five to five">
+  <rect x="0" y="0" width="720" height="160" fill="#ffffff"/>
+  <!-- main axis -->
+  <line x1="30" y1="90" x2="690" y2="90" stroke="#111111" stroke-width="3"/>
+  <!-- arrowheads -->
+  <polygon points="30,90 46,82 46,98" fill="#111111"/>
+  <polygon points="690,90 674,82 674,98" fill="#111111"/>
+  <!-- ticks and labels: -5..5, 60px apart, centered at x=360 -->
+  <g stroke="#111111" stroke-width="2" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#111111" text-anchor="middle">
+    <line x1="60"  y1="80" x2="60"  y2="100"/><text x="60"  y="128">-5</text>
+    <line x1="120" y1="80" x2="120" y2="100"/><text x="120" y="128">-4</text>
+    <line x1="180" y1="80" x2="180" y2="100"/><text x="180" y="128">-3</text>
+    <line x1="240" y1="80" x2="240" y2="100"/><text x="240" y="128">-2</text>
+    <line x1="300" y1="80" x2="300" y2="100"/><text x="300" y="128">-1</text>
+    <line x1="420" y1="80" x2="420" y2="100"/><text x="420" y="128">1</text>
+    <line x1="480" y1="80" x2="480" y2="100"/><text x="480" y="128">2</text>
+    <line x1="540" y1="80" x2="540" y2="100"/><text x="540" y="128">3</text>
+    <line x1="600" y1="80" x2="600" y2="100"/><text x="600" y="128">4</text>
+    <line x1="660" y1="80" x2="660" y2="100"/><text x="660" y="128">5</text>
+  </g>
+  <!-- zero: emphasized tick and dot -->
+  <line x1="360" y1="74" x2="360" y2="106" stroke="#c0392b" stroke-width="3"/>
+  <circle cx="360" cy="90" r="6" fill="#c0392b"/>
+  <text x="360" y="132" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="bold" fill="#c0392b" text-anchor="middle">0</text>
+  <!-- direction cues -->
+  <text x="150" y="40" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#2c3e50" text-anchor="middle">negative &#8592; smaller</text>
+  <text x="560" y="40" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#2c3e50" text-anchor="middle">larger &#8594; positive</text>
+</svg>

@@ -1,0 +1,46 @@
+<svg viewBox="0 0 460 240" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="460" height="240" fill="#ffffff"/>
+
+  <!-- connecting lines (drawn first so boxes sit on top) -->
+  <g stroke="#3a5a8c" stroke-width="2" fill="none">
+    <!-- Quadrilateral -> Parallelogram, Trapezoid, Kite -->
+    <path d="M230,34 L75,63"/>
+    <path d="M230,34 L230,63"/>
+    <path d="M230,34 L385,63"/>
+    <!-- Parallelogram -> Rectangle, Rhombus -->
+    <path d="M75,99 L60,128"/>
+    <path d="M75,99 L175,128"/>
+    <!-- Rectangle, Rhombus -> Square -->
+    <path d="M60,164 L117,193"/>
+    <path d="M175,164 L117,193"/>
+  </g>
+
+  <!-- nodes -->
+  <g stroke="#1a2b4a" stroke-width="2">
+    <rect x="180" y="10"  width="100" height="24" rx="5" fill="#dbe6f7"/>
+    <rect x="25"  y="63"  width="100" height="24" rx="5" fill="#e9f0fb"/>
+    <rect x="185" y="63"  width="90"  height="24" rx="5" fill="#e9f0fb"/>
+    <rect x="345" y="63"  width="80"  height="24" rx="5" fill="#e9f0fb"/>
+    <rect x="12"  y="128" width="96"  height="24" rx="5" fill="#eef3fb"/>
+    <rect x="130" y="128" width="90"  height="24" rx="5" fill="#eef3fb"/>
+    <rect x="72"  y="193" width="90"  height="24" rx="5" fill="#cfe0f5"/>
+  </g>
+
+  <g fill="#12203a" font-size="13" text-anchor="middle">
+    <text x="230" y="27" font-weight="bold">Quadrilateral</text>
+    <text x="75"  y="80">Parallelogram</text>
+    <text x="230" y="80">Trapezoid</text>
+    <text x="385" y="80">Kite</text>
+    <text x="60"  y="145">Rectangle</text>
+    <text x="175" y="145">Rhombus</text>
+    <text x="117" y="210" font-weight="bold">Square</text>
+  </g>
+
+  <!-- caption strip: angle sum -->
+  <g fill="#12203a" font-size="12">
+    <text x="300" y="150" font-weight="bold">Interior angles of an n-gon</text>
+    <text x="300" y="170">split into (n &#8211; 2) triangles:</text>
+    <text x="300" y="192" font-size="14" font-weight="bold">(n &#8211; 2) &#215; 180&#176;</text>
+    <text x="300" y="212">exterior angles sum to 360&#176;</text>
+  </g>
+</svg>

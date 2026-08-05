@@ -1,0 +1,47 @@
+<svg viewBox="0 0 460 200" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="460" height="200" fill="#faf9f6"/>
+
+  <!-- title -->
+  <text x="30" y="34" font-size="16" fill="#333333" font-weight="bold">&#189; + &#188; + &#8539; + &#8230; fills exactly one unit</text>
+
+  <!-- full-length reference outline (length = 1) -->
+  <rect x="30" y="70" width="400" height="44" fill="none" stroke="#333333" stroke-width="2"/>
+
+  <!-- shrinking shaded pieces: each fills half of the remaining gap -->
+  <!-- 1/2 : width 200 -->
+  <rect x="30"    y="70" width="200"  height="44" fill="#2a9d8f"/>
+  <!-- 1/4 : width 100 -->
+  <rect x="230"   y="70" width="100"  height="44" fill="#e76f51"/>
+  <!-- 1/8 : width 50 -->
+  <rect x="330"   y="70" width="50"   height="44" fill="#6a4c93"/>
+  <!-- 1/16 : width 25 -->
+  <rect x="380"   y="70" width="25"   height="44" fill="#457b9d"/>
+  <!-- 1/32 : width 12.5 -->
+  <rect x="405"   y="70" width="12.5" height="44" fill="#2a9d8f"/>
+  <!-- 1/64 : width 6.25 -->
+  <rect x="417.5" y="70" width="6.25" height="44" fill="#e76f51"/>
+  <!-- 1/128 : width 3.125 -->
+  <rect x="423.75" y="70" width="3.125" height="44" fill="#6a4c93"/>
+
+  <!-- internal divider ticks -->
+  <g stroke="#faf9f6" stroke-width="1.5">
+    <line x1="230" y1="70" x2="230" y2="114"/>
+    <line x1="330" y1="70" x2="330" y2="114"/>
+    <line x1="380" y1="70" x2="380" y2="114"/>
+  </g>
+
+  <!-- piece labels -->
+  <g font-size="14" fill="#333333" text-anchor="middle">
+    <text x="130" y="98" fill="#faf9f6" font-weight="bold">&#189;</text>
+    <text x="280" y="98" fill="#faf9f6" font-weight="bold">&#188;</text>
+    <text x="355" y="98" fill="#faf9f6" font-weight="bold">&#8539;</text>
+    <text x="405" y="132">&#8230;</text>
+  </g>
+
+  <!-- total bracket under the whole bar -->
+  <path d="M30 128 L30 138 L430 138 L430 128" fill="none" stroke="#333333" stroke-width="2"/>
+  <text x="230" y="160" font-size="15" fill="#333333" text-anchor="middle" font-weight="bold">total = 1</text>
+
+  <!-- gap arrow: the ever-smaller remainder -->
+  <text x="430" y="66" font-size="12" fill="#457b9d" text-anchor="end">gap &#8594; 0</text>
+</svg>

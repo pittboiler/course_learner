@@ -1,0 +1,37 @@
+<svg viewBox="0 0 360 360" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+  <!-- Axes -->
+  <line x1="30" y1="180" x2="330" y2="180" stroke="#333333" stroke-width="1.5"/>
+  <line x1="180" y1="330" x2="180" y2="30" stroke="#333333" stroke-width="1.5"/>
+  <polygon points="330,180 322,176 322,184" fill="#333333"/>
+  <polygon points="180,30 176,38 184,38" fill="#333333"/>
+
+  <!-- Unit circle, radius 130 centered at (180,180) -->
+  <circle cx="180" cy="180" r="130" fill="none" stroke="#333333" stroke-width="1.75"/>
+
+  <!-- Reference triangle: theta ≈ 52°, P = (260, 77.5) -->
+  <!-- cos θ leg (horizontal) -->
+  <line x1="180" y1="180" x2="260" y2="180" stroke="#1f6feb" stroke-width="3.5"/>
+  <!-- sin θ leg (vertical) -->
+  <line x1="260" y1="180" x2="260" y2="77.5" stroke="#c0392b" stroke-width="3.5"/>
+  <!-- hypotenuse = radius = 1 -->
+  <line x1="180" y1="180" x2="260" y2="77.5" stroke="#1e8449" stroke-width="3.5"/>
+
+  <!-- right-angle marker at foot -->
+  <polyline points="248,180 248,168 260,168" fill="none" stroke="#333333" stroke-width="1.5"/>
+
+  <!-- angle arc at center -->
+  <path d="M 214 180 A 34 34 0 0 0 200.9 153.8" fill="none" stroke="#333333" stroke-width="1.5"/>
+
+  <!-- Point P -->
+  <circle cx="260" cy="77.5" r="3.5" fill="#333333"/>
+  <text x="266" y="72" fill="#333333" font-size="15">(cos θ, sin θ)</text>
+
+  <!-- Labels -->
+  <text x="196" y="176" fill="#333333" font-size="16" font-style="italic">θ</text>
+  <text x="210" y="200" fill="#1f6feb" font-size="16">cos θ</text>
+  <text x="266" y="135" fill="#c0392b" font-size="16">sin θ</text>
+  <text x="196" y="122" fill="#1e8449" font-size="16" transform="rotate(-52 210 128)">1</text>
+
+  <!-- Identity caption -->
+  <text x="180" y="352" fill="#333333" font-size="17" text-anchor="middle">cos²θ + sin²θ = 1</text>
+</svg>

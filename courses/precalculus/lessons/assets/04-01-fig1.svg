@@ -1,0 +1,55 @@
+<svg viewBox="0 0 460 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="11">
+  <rect x="0" y="0" width="460" height="300" fill="#faf9f6"/>
+
+  <!-- ============ PARABOLA ============ -->
+  <text x="80" y="28" fill="#333333" text-anchor="middle" font-weight="bold">Parabola</text>
+  <!-- axis of symmetry -->
+  <line x1="80" y1="60" x2="80" y2="250" stroke="#333333" stroke-width="1" stroke-dasharray="3 4"/>
+  <!-- curve: opens up, vertex at (80,190) -->
+  <path d="M 40 90 Q 80 290 120 90" fill="none" stroke="#c0392b" stroke-width="2.5"/>
+  <!-- directrix -->
+  <line x1="38" y1="212" x2="122" y2="212" stroke="#2e86c1" stroke-width="1.8"/>
+  <text x="124" y="216" fill="#2e86c1">directrix</text>
+  <!-- focus -->
+  <circle cx="80" cy="168" r="3.5" fill="#333333"/>
+  <text x="86" y="166" fill="#333333">F (focus)</text>
+  <!-- vertex -->
+  <circle cx="80" cy="190" r="3.5" fill="#c0392b"/>
+  <text x="86" y="200" fill="#333333">vertex</text>
+
+  <!-- ============ ELLIPSE ============ -->
+  <text x="230" y="28" fill="#333333" text-anchor="middle" font-weight="bold">Ellipse</text>
+  <!-- major/minor axes -->
+  <line x1="170" y1="180" x2="290" y2="180" stroke="#333333" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="230" y1="140" x2="230" y2="220" stroke="#333333" stroke-width="1" stroke-dasharray="3 4"/>
+  <!-- curve -->
+  <ellipse cx="230" cy="180" rx="55" ry="32" fill="none" stroke="#27ae60" stroke-width="2.5"/>
+  <!-- foci -->
+  <circle cx="185" cy="180" r="3.5" fill="#333333"/>
+  <circle cx="275" cy="180" r="3.5" fill="#333333"/>
+  <text x="176" y="172" fill="#333333">F₁</text>
+  <text x="272" y="172" fill="#333333">F₂</text>
+  <!-- vertices -->
+  <circle cx="175" cy="180" r="3.5" fill="#27ae60"/>
+  <circle cx="285" cy="180" r="3.5" fill="#27ae60"/>
+  <text x="188" y="205" fill="#333333">sum of distances fixed</text>
+
+  <!-- ============ HYPERBOLA ============ -->
+  <text x="385" y="28" fill="#333333" text-anchor="middle" font-weight="bold">Hyperbola</text>
+  <!-- asymptotes -->
+  <line x1="345" y1="111" x2="425" y2="249" stroke="#333333" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="345" y1="249" x2="425" y2="111" stroke="#333333" stroke-width="1" stroke-dasharray="3 4"/>
+  <!-- right branch -->
+  <path d="M 428 120 Q 392 180 428 240" fill="none" stroke="#8e44ad" stroke-width="2.5"/>
+  <!-- left branch -->
+  <path d="M 342 120 Q 378 180 342 240" fill="none" stroke="#8e44ad" stroke-width="2.5"/>
+  <!-- foci -->
+  <circle cx="335" cy="180" r="3.5" fill="#333333"/>
+  <circle cx="435" cy="180" r="3.5" fill="#333333"/>
+  <text x="326" y="172" fill="#333333">F₁</text>
+  <text x="430" y="172" fill="#333333">F₂</text>
+  <!-- vertices -->
+  <circle cx="360" cy="180" r="3.5" fill="#8e44ad"/>
+  <circle cx="410" cy="180" r="3.5" fill="#8e44ad"/>
+  <text x="352" y="270" fill="#333333">asymptotes guide the arms</text>
+</svg>

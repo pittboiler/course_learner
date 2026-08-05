@@ -1,0 +1,46 @@
+<svg viewBox="0 0 420 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <rect x="0" y="0" width="420" height="320" fill="#faf9f6"/>
+
+  <!-- title -->
+  <text x="24" y="28" font-size="15" fill="#333333" font-weight="bold">Secant slopes &#8594; tangent slope as Q &#8594; P</text>
+
+  <!-- axes -->
+  <line x1="40" y1="290" x2="405" y2="290" stroke="#333333" stroke-width="1.5"/>
+  <line x1="40" y1="48"  x2="40"  y2="298" stroke="#333333" stroke-width="1.5"/>
+  <polygon points="405,290 396,285 396,295" fill="#333333"/>
+  <polygon points="40,48 35,57 45,57" fill="#333333"/>
+  <text x="399" y="308" fill="#333333">x</text>
+
+  <!-- curve  y = x^2  (sampled) -->
+  <path d="M 40 290 L 88.5 285.5 L 137 272 L 185.5 249.5 L 234 218 L 282.5 177.5 L 331 128 L 379.5 69.5 L 389 57"
+        fill="none" stroke="#333333" stroke-width="3"/>
+  <text x="356" y="52" fill="#333333" font-style="italic">f</text>
+
+  <!-- secants through P and Q1, Q2, Q3 (dashed blue, fading toward P) -->
+  <line x1="234" y1="218" x2="370" y2="82"  stroke="#a7c4e0" stroke-width="2" stroke-dasharray="6 5"/>
+  <line x1="234" y1="218" x2="321" y2="139" stroke="#5a9bd4" stroke-width="2" stroke-dasharray="6 5"/>
+  <line x1="234" y1="218" x2="278" y2="182" stroke="#1f6fb2" stroke-width="2" stroke-dasharray="6 5"/>
+
+  <!-- tangent at P (solid, saturated crimson) -->
+  <line x1="150" y1="280.3" x2="392" y2="102.7" stroke="#d1495b" stroke-width="2.5"/>
+  <text x="118" y="264" fill="#d1495b" font-weight="bold">tangent</text>
+  <text x="118" y="279" fill="#d1495b">at P</text>
+
+  <!-- points -->
+  <circle cx="370" cy="82"  r="4.5" fill="#a7c4e0" stroke="#333333" stroke-width="0.8"/>
+  <circle cx="321" cy="139" r="4.5" fill="#5a9bd4" stroke="#333333" stroke-width="0.8"/>
+  <circle cx="278" cy="182" r="4.5" fill="#1f6fb2" stroke="#333333" stroke-width="0.8"/>
+  <circle cx="234" cy="218" r="5.5" fill="#d1495b" stroke="#333333" stroke-width="0.8"/>
+
+  <!-- labels -->
+  <text x="240" y="234" fill="#333333" font-weight="bold">P</text>
+  <text x="376" y="80"  fill="#333333">Q&#8321;</text>
+  <text x="327" y="137" fill="#333333">Q&#8322;</text>
+  <text x="257" y="176" fill="#333333">Q&#8323;</text>
+
+  <!-- sweep arrow: Q sliding toward P along the curve -->
+  <path d="M 355 96 A 90 90 0 0 1 262 200" fill="none" stroke="#333333" stroke-width="1" stroke-dasharray="2 4"/>
+  <polygon points="262,200 269,197 268,205" fill="#333333"/>
+
+  <text x="40" y="316" fill="#333333" font-style="italic" font-size="12">P fixed; as Q slides in, each secant swings toward the tangent.</text>
+</svg>

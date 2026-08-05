@@ -1,0 +1,33 @@
+<svg viewBox="0 0 360 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="16">
+  <!-- Square on hypotenuse c (tilted, drawn outward) -->
+  <polygon points="130,110 210,170 270,90 190,30" fill="#b07bd9" fill-opacity="0.16" stroke="#b07bd9" stroke-width="2.5"/>
+  <text x="185" y="102" fill="#b07bd9" font-weight="bold">c²</text>
+
+  <!-- Square on leg a (vertical, drawn to the left) -->
+  <polygon points="130,170 130,110 70,110 70,170" fill="#7bb662" fill-opacity="0.16" stroke="#7bb662" stroke-width="2.5"/>
+  <text x="86" y="145" fill="#7bb662" font-weight="bold">a²</text>
+
+  <!-- Square on leg b (horizontal, drawn downward) -->
+  <polygon points="130,170 210,170 210,250 130,250" fill="#e0a95c" fill-opacity="0.18" stroke="#e0a95c" stroke-width="2.5"/>
+  <text x="161" y="216" fill="#c98f3a" font-weight="bold">b²</text>
+
+  <!-- The right triangle -->
+  <polygon points="130,170 210,170 130,110" fill="#4a90d9" fill-opacity="0.28" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <!-- Right-angle mark at C -->
+  <polyline points="146,170 146,154 130,154" fill="none" stroke="#4a90d9" stroke-width="1.6"/>
+
+  <!-- Side labels -->
+  <text x="136" y="144" fill="#4a7a3a" font-weight="bold">a</text>
+  <text x="164" y="164" fill="#a06a1f" font-weight="bold">b</text>
+  <text x="158" y="150" fill="#8a55c0" font-weight="bold">c</text>
+
+  <!-- Vertex labels -->
+  <text x="118" y="185" fill="#8a8a8a">C</text>
+  <text x="215" y="176" fill="#8a8a8a">B</text>
+  <text x="118" y="106" fill="#8a8a8a">A</text>
+
+  <!-- Caption -->
+  <text x="18" y="300" fill="#8a8a8a" font-style="italic" font-size="14">The square on the hypotenuse equals the</text>
+  <text x="18" y="320" fill="#8a8a8a" font-style="italic" font-size="14">sum of the squares on the two legs.</text>
+</svg>

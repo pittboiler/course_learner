@@ -112,7 +112,21 @@ a { color: var(--accent); }
 .md { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 28px 34px; }
 .md h1 { font-size: 24px; }
 .md h2 { border-bottom: 1px solid var(--line); padding-bottom: 4px; }
-.md img { max-width: 100%; }
+/* Lesson figures are SVGs loaded via <img>, so they can't inherit the page theme.
+   Sit them on a stable light "paper" card so dark-ink and mid-tone SVGs alike stay
+   legible in both light and dark mode (and in Print/PDF). */
+.md img {
+  display: block;
+  width: 100%;
+  max-width: 460px;
+  height: auto;
+  margin: 16px auto;
+  background: #faf9f6;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  box-sizing: border-box;
+}
 .md blockquote { border-left: 3px solid var(--accent); margin: 0; padding: 2px 16px; color: var(--muted); }
 .md table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
 .md th, .md td { border: 1px solid var(--line); padding: 6px 10px; text-align: left; }

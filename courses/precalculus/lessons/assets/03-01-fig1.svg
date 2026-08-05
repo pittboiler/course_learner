@@ -1,0 +1,54 @@
+<svg viewBox="0 0 480 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="480" height="300" fill="#faf9f6"/>
+
+  <!-- gridlines at the marked angles -->
+  <g stroke="#cfcabd" stroke-width="1" stroke-dasharray="3 3">
+    <line x1="150" y1="70" x2="150" y2="230"/>
+    <line x1="250" y1="70" x2="250" y2="230"/>
+    <line x1="350" y1="70" x2="350" y2="230"/>
+    <line x1="450" y1="70" x2="450" y2="230"/>
+  </g>
+
+  <!-- amplitude guide lines y = +1, -1 -->
+  <g stroke="#cfcabd" stroke-width="1" stroke-dasharray="2 4">
+    <line x1="50" y1="90" x2="450" y2="90"/>
+    <line x1="50" y1="210" x2="450" y2="210"/>
+  </g>
+
+  <!-- axes -->
+  <g stroke="#333333" stroke-width="1.6">
+    <line x1="50" y1="150" x2="466" y2="150"/>
+    <line x1="50" y1="70" x2="50" y2="238"/>
+  </g>
+  <!-- x arrowhead -->
+  <path d="M466,150 l-7,-4 l0,8 z" fill="#333333"/>
+
+  <!-- cosine curve (accent) -->
+  <polyline fill="none" stroke="#c2410c" stroke-width="2.4"
+    points="50.0,90.0 62.5,91.2 75.0,94.6 87.5,100.1 100.0,107.6 112.5,116.7 125.0,127.0 137.5,138.3 150.0,150.0 162.5,161.7 175.0,173.0 187.5,183.3 200.0,192.4 212.5,199.9 225.0,205.4 237.5,208.8 250.0,210.0 262.5,208.8 275.0,205.4 287.5,199.9 300.0,192.4 312.5,183.3 325.0,173.0 337.5,161.7 350.0,150.0 362.5,138.3 375.0,127.0 387.5,116.7 400.0,107.6 412.5,100.1 425.0,94.6 437.5,91.2 450.0,90.0"/>
+
+  <!-- sine curve (dark) -->
+  <polyline fill="none" stroke="#333333" stroke-width="2.4"
+    points="50.0,150.0 62.5,138.3 75.0,127.0 87.5,116.7 100.0,107.6 112.5,100.1 125.0,94.6 137.5,91.2 150.0,90.0 162.5,91.2 175.0,94.6 187.5,100.1 200.0,107.6 212.5,116.7 225.0,127.0 237.5,138.3 250.0,150.0 262.5,161.7 275.0,173.0 287.5,183.3 300.0,192.4 312.5,199.9 325.0,205.4 337.5,208.8 350.0,210.0 362.5,208.8 375.0,205.4 387.5,199.9 400.0,192.4 412.5,183.3 425.0,173.0 437.5,161.7 450.0,150.0"/>
+
+  <!-- x-axis tick labels (radians) -->
+  <g fill="#333333" font-size="13" text-anchor="middle">
+    <text x="150" y="228">&#960;/2</text>
+    <text x="250" y="228">&#960;</text>
+    <text x="350" y="228">3&#960;/2</text>
+    <text x="450" y="228">2&#960;</text>
+    <text x="40" y="155" text-anchor="end">0</text>
+  </g>
+
+  <!-- y-axis labels -->
+  <g fill="#333333" font-size="13" text-anchor="end">
+    <text x="44" y="94">1</text>
+    <text x="42" y="214">-1</text>
+  </g>
+
+  <!-- curve labels -->
+  <text x="128" y="82" fill="#333333" font-size="14" font-style="italic">sin x</text>
+  <text x="360" y="82" fill="#c2410c" font-size="14" font-style="italic">cos x</text>
+
+  <text x="470" y="146" fill="#333333" font-size="13" font-style="italic">x</text>
+</svg>

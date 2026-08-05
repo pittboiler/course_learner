@@ -1,0 +1,28 @@
+<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- axes -->
+  <line x1="30" y1="300" x2="540" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="60" y1="14" x2="60" y2="322" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="540,300 530,295 530,305" fill="#8a8a8a"/>
+  <polygon points="60,14 55,24 65,24" fill="#8a8a8a"/>
+  <text x="544" y="305" fill="#8a8a8a">x</text>
+  <text x="40" y="18" fill="#8a8a8a">y</text>
+
+  <!-- shared starting value a = 1 at x = 0 -->
+  <circle cx="60" cy="265" r="4" fill="#8a8a8a"/>
+  <text x="24" y="270" fill="#8a8a8a">1</text>
+
+  <!-- linear contrast: y = 1 + x -->
+  <line x1="60" y1="265" x2="520" y2="125" stroke="#7bb662" stroke-width="2" stroke-dasharray="7 5"/>
+  <text x="430" y="150" fill="#7bb662">linear 1 + x</text>
+
+  <!-- exponential growth: y = 2^x -->
+  <polyline points="60,265 117.5,250.5 175,230 232.5,201 290,160 347.5,102 405,20" fill="none" stroke="#e0645c" stroke-width="3"/>
+  <text x="410" y="34" fill="#e0645c">growth 2^x</text>
+
+  <!-- exponential decay: y = (1/2)^x -->
+  <polyline points="60,265 117.5,275.3 175,282.5 232.5,287.6 290,291.25 347.5,293.9 405,295.6 520,297.8" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="360" y="285" fill="#4a90d9">decay (1/2)^x</text>
+
+  <!-- caption -->
+  <text x="80" y="40" fill="#8a8a8a" font-style="italic">Same start; a fixed ratio each step bends the curve.</text>
+</svg>

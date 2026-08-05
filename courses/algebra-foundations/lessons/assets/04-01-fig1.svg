@@ -1,0 +1,30 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="An upward-opening parabola crossing the x-axis at two roots with its vertex marked below the axis">
+  <rect x="0" y="0" width="400" height="300" fill="#ffffff"/>
+
+  <!-- x-axis -->
+  <line x1="50" y1="160" x2="360" y2="160" stroke="#333333" stroke-width="1.5"/>
+  <polygon points="360,160 352,156 352,164" fill="#333333"/>
+  <text x="356" y="150" font-family="sans-serif" font-size="13" fill="#333333">x</text>
+
+  <!-- axis of symmetry (dashed) -->
+  <line x1="200" y1="40" x2="200" y2="250" stroke="#bbbbbb" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="206" y="52" font-family="sans-serif" font-size="11" fill="#888888">axis of symmetry</text>
+
+  <!-- parabola y = 220 - 0.009375 (x-200)^2 -->
+  <polyline
+    points="105,135.4 120,160 140,186.2 160,205 180,216.2 200,220 220,216.2 240,205 260,186.2 280,160 295,135.4"
+    fill="none" stroke="#1a5fb4" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- roots -->
+  <circle cx="120" cy="160" r="5" fill="#c01c28"/>
+  <circle cx="280" cy="160" r="5" fill="#c01c28"/>
+  <text x="104" y="182" font-family="sans-serif" font-size="13" fill="#c01c28">root x₁</text>
+  <text x="264" y="182" font-family="sans-serif" font-size="13" fill="#c01c28">root x₂</text>
+
+  <!-- vertex -->
+  <circle cx="200" cy="220" r="5" fill="#2ec27e"/>
+  <text x="210" y="236" font-family="sans-serif" font-size="13" fill="#1a8a55">vertex (min)</text>
+
+  <!-- curve label -->
+  <text x="286" y="120" font-family="sans-serif" font-size="13" fill="#1a5fb4">y = ax² + bx + c</text>
+</svg>

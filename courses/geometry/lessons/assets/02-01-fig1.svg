@@ -1,0 +1,31 @@
+<svg viewBox="0 0 440 240" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <!-- triangle ABC: apex A top, base BC -->
+  <polygon points="220,30 90,200 350,200" fill="none" stroke="#111" stroke-width="2.5"/>
+  <!-- altitude A to M (foot on base) -->
+  <line x1="220" y1="30" x2="220" y2="200" stroke="#1560d4" stroke-width="2" stroke-dasharray="6 5"/>
+
+  <!-- right-angle mark at foot M -->
+  <polyline points="220,182 238,182 238,200" fill="none" stroke="#1560d4" stroke-width="2"/>
+
+  <!-- single tick on equal side AB (midpoint 155,115) -->
+  <line x1="148.9" y1="110.4" x2="161.1" y2="119.6" stroke="#c0392b" stroke-width="2.5"/>
+  <!-- single tick on equal side AC (midpoint 285,115) -->
+  <line x1="278.9" y1="110.4" x2="291.1" y2="119.6" stroke="#c0392b" stroke-width="2.5"/>
+
+  <!-- double tick on base half BM (midpoint 155,200) -->
+  <line x1="150" y1="192" x2="150" y2="208" stroke="#117a3d" stroke-width="2.5"/>
+  <line x1="160" y1="192" x2="160" y2="208" stroke="#117a3d" stroke-width="2.5"/>
+  <!-- double tick on base half MC (midpoint 285,200) -->
+  <line x1="280" y1="192" x2="280" y2="208" stroke="#117a3d" stroke-width="2.5"/>
+  <line x1="290" y1="192" x2="290" y2="208" stroke="#117a3d" stroke-width="2.5"/>
+
+  <!-- vertex labels -->
+  <circle cx="220" cy="30" r="3" fill="#111"/>
+  <circle cx="90" cy="200" r="3" fill="#111"/>
+  <circle cx="350" cy="200" r="3" fill="#111"/>
+  <circle cx="220" cy="200" r="3" fill="#111"/>
+  <text x="220" y="20" font-size="18" text-anchor="middle" fill="#111">A</text>
+  <text x="76" y="216" font-size="18" text-anchor="middle" fill="#111">B</text>
+  <text x="364" y="216" font-size="18" text-anchor="middle" fill="#111">C</text>
+  <text x="220" y="228" font-size="18" text-anchor="middle" fill="#111">M</text>
+</svg>
