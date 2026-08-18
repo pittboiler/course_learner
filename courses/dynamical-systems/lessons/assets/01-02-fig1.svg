@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 360" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="440" height="360" fill="#ffffff"/>
+
+  <defs>
+    <marker id="ah" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#1a1a1a"/>
+    </marker>
+    <marker id="ahU" markerWidth="11" markerHeight="11" refX="7.5" refY="3.2" orient="auto">
+      <path d="M0,0 L7.5,3.2 L0,6.4 Z" fill="#c0392b"/>
+    </marker>
+    <marker id="ahS" markerWidth="11" markerHeight="11" refX="7.5" refY="3.2" orient="auto">
+      <path d="M0,0 L7.5,3.2 L0,6.4 Z" fill="#1f6fb2"/>
+    </marker>
+  </defs>
+
+  <!-- axes -->
+  <line x1="20" y1="180" x2="420" y2="180" stroke="#c8c8c8" stroke-width="1"/>
+  <line x1="220" y1="12" x2="220" y2="348" stroke="#c8c8c8" stroke-width="1"/>
+
+  <!-- hyperbolic trajectories (drawn S-end -> U-end; arrowhead points outward along the unstable direction) -->
+  <path d="M150,25 Q220,120 290,25" fill="none" stroke="#1a1a1a" stroke-width="1.8" marker-end="url(#ah)"/>
+  <path d="M285,325 Q370,180 285,35" fill="none" stroke="#1a1a1a" stroke-width="1.8" marker-end="url(#ah)"/>
+  <path d="M290,335 Q220,240 150,335" fill="none" stroke="#1a1a1a" stroke-width="1.8" marker-end="url(#ah)"/>
+  <path d="M155,35 Q70,180 155,325" fill="none" stroke="#1a1a1a" stroke-width="1.8" marker-end="url(#ah)"/>
+
+  <!-- unstable eigendirection: v1=(1,2), arrows point OUTWARD from origin (lambda=3) -->
+  <line x1="220" y1="180" x2="300" y2="20" stroke="#c0392b" stroke-width="2.4" marker-end="url(#ahU)"/>
+  <line x1="220" y1="180" x2="140" y2="340" stroke="#c0392b" stroke-width="2.4" marker-end="url(#ahU)"/>
+
+  <!-- stable eigendirection: v2=(1,-2), arrows point INWARD to origin (lambda=-1) -->
+  <line x1="140" y1="20" x2="220" y2="180" stroke="#1f6fb2" stroke-width="2.4" marker-end="url(#ahS)"/>
+  <line x1="300" y1="340" x2="220" y2="180" stroke="#1f6fb2" stroke-width="2.4" marker-end="url(#ahS)"/>
+
+  <!-- fixed point -->
+  <circle cx="220" cy="180" r="4" fill="#1a1a1a"/>
+
+  <!-- labels -->
+  <text x="304" y="18" font-size="13" fill="#c0392b">unstable: v₁=(1,2), λ=3</text>
+  <text x="150" y="16" font-size="13" fill="#1f6fb2" text-anchor="end">stable: v₂=(1,−2), λ=−1</text>
+  <text x="228" y="200" font-size="12" fill="#1a1a1a">0</text>
+</svg>

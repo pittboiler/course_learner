@@ -1,0 +1,36 @@
+<svg viewBox="0 0 620 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Beta electrons come out with every energy from 0 up to the endpoint Q — not the single line a two-body decay would give.</text>
+
+  <!-- axes -->
+  <line x1="70" y1="250" x2="548" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="548,250 538,245 538,255" fill="#8a8a8a"/>
+  <text x="392" y="288" fill="#8a8a8a">electron kinetic energy  T  →</text>
+
+  <line x1="70" y1="250" x2="70" y2="55" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,55 65,65 75,65" fill="#8a8a8a"/>
+  <text x="46" y="66" fill="#8a8a8a">N(T)</text>
+  <text x="30" y="255" fill="#8a8a8a">0</text>
+
+  <!-- endpoint tick at Q -->
+  <line x1="520" y1="250" x2="520" y2="256" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="514" y="272" fill="#8a8a8a">Q</text>
+
+  <!-- continuous beta spectrum (blue): N(T) ~ sqrt(T)(Q-T)^2 -->
+  <path d="M 70 250 L 92.5 123.1 L 115 88.9 L 137.5 74 L 160 70 L 182.5 73.1 L 205 81.2 L 250 106.7 L 295 138.8 L 340 172.1 L 385 202.7 L 430 227.5 L 475 244 L 497.5 248.5 L 520 250"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="150" y="100" fill="#4a90d9">observed β spectrum</text>
+
+  <!-- shaded "missing energy" hint under falling tail -->
+  <path d="M 295 138.8 L 340 172.1 L 385 202.7 L 430 227.5 L 475 244 L 520 250 L 295 250 Z"
+        fill="#e0645c" opacity="0.15"/>
+  <text x="345" y="150" fill="#e0645c">balance carried off</text>
+  <text x="378" y="167" fill="#e0645c">by the ν̄</text>
+  <line x1="405" y1="172" x2="415" y2="205" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- two-body single-line expectation (coral spike at Q) -->
+  <line x1="520" y1="250" x2="520" y2="95" stroke="#e0645c" stroke-width="3"/>
+  <polygon points="520,95 515,105 525,105" fill="#e0645c"/>
+  <text x="428" y="88" fill="#e0645c">two-body decay would</text>
+  <text x="452" y="105" fill="#e0645c">give one line here</text>
+</svg>

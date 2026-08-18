@@ -1,0 +1,76 @@
+<svg viewBox="0 0 720 470" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="720" height="470" fill="#ffffff"/>
+
+  <!-- title -->
+  <text x="360" y="26" text-anchor="middle" font-size="18" font-weight="bold" fill="#111">The Twelvefold Way</text>
+  <text x="360" y="45" text-anchor="middle" font-size="13" fill="#444">counting functions f from k balls (domain) into n boxes (codomain)</text>
+
+  <!-- highlighted "basic count" cells (drawn under the grid) -->
+  <rect x="180" y="96" width="180" height="86" fill="#eaf2ff"/>
+  <rect x="360" y="96" width="180" height="86" fill="#eaf2ff"/>
+  <rect x="360" y="182" width="180" height="86" fill="#eaf2ff"/>
+
+  <!-- grid -->
+  <g stroke="#111" stroke-width="1.5" fill="none">
+    <line x1="0" y1="60" x2="720" y2="60"/>
+    <line x1="0" y1="96" x2="720" y2="96"/>
+    <line x1="0" y1="182" x2="720" y2="182"/>
+    <line x1="0" y1="268" x2="720" y2="268"/>
+    <line x1="0" y1="354" x2="720" y2="354"/>
+    <line x1="0" y1="440" x2="720" y2="440"/>
+    <line x1="0" y1="60" x2="0" y2="440"/>
+    <line x1="180" y1="60" x2="180" y2="440"/>
+    <line x1="360" y1="60" x2="360" y2="440"/>
+    <line x1="540" y1="60" x2="540" y2="440"/>
+    <line x1="720" y1="60" x2="720" y2="440"/>
+  </g>
+
+  <!-- column headers -->
+  <g font-size="14" font-weight="bold" fill="#111" text-anchor="middle">
+    <text x="270" y="82">Any f</text>
+    <text x="450" y="82">Injective (&#8804;1 per box)</text>
+    <text x="630" y="82">Surjective (no box empty)</text>
+  </g>
+
+  <!-- row headers -->
+  <g font-size="12.5" fill="#111" text-anchor="start">
+    <text x="10" y="132">balls: distinct</text>
+    <text x="10" y="150">boxes: distinct</text>
+
+    <text x="10" y="218">balls: identical</text>
+    <text x="10" y="236">boxes: distinct</text>
+
+    <text x="10" y="304">balls: distinct</text>
+    <text x="10" y="322">boxes: identical</text>
+
+    <text x="10" y="390">balls: identical</text>
+    <text x="10" y="408">boxes: identical</text>
+  </g>
+
+  <!-- cells -->
+  <g font-size="16" fill="#111" text-anchor="middle">
+    <!-- row 1: distinct / distinct -->
+    <text x="270" y="145">n<tspan dy="-7" font-size="11">k</tspan></text>
+    <text x="450" y="145">n! / (n&#8722;k)!</text>
+    <text x="630" y="145">n! &#183; S(k,n)</text>
+
+    <!-- row 2: identical / distinct -->
+    <text x="270" y="231">C(n+k&#8722;1, k)</text>
+    <text x="450" y="231">C(n, k)</text>
+    <text x="630" y="231">C(k&#8722;1, n&#8722;1)</text>
+
+    <!-- row 3: distinct / identical -->
+    <text x="270" y="317">S(k,1)+&#8230;+S(k,n)</text>
+    <text x="450" y="317">[ k &#8804; n ]</text>
+    <text x="630" y="317">S(k,n)</text>
+
+    <!-- row 4: identical / identical -->
+    <text x="270" y="403">p(k, &#8804;n parts)</text>
+    <text x="450" y="403">[ k &#8804; n ]</text>
+    <text x="630" y="403">p(k, n parts)</text>
+  </g>
+
+  <!-- legend -->
+  <rect x="10" y="452" width="16" height="12" fill="#eaf2ff" stroke="#111" stroke-width="0.8"/>
+  <text x="32" y="462" font-size="12" fill="#444">= the three basic counts derived in this lesson. S = Stirling 2nd kind (2.2), p = integer partitions (2.3).</text>
+</svg>

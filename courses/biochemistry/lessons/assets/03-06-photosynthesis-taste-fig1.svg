@@ -1,0 +1,88 @@
+<svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="20" y="20" fill="#8a8a8a" font-style="italic">One machine, two directions: a proton gradient spins ATP synthase in both. Blue = electrons, coral = H+.</text>
+
+  <!-- ================= LEFT: mitochondrion ================= -->
+  <text x="30" y="44" fill="#8a8a8a" font-weight="bold">MITOCHONDRION &#8212; inner membrane</text>
+  <text x="30" y="62" fill="#8a8a8a">high H+ (intermembrane space)</text>
+
+  <!-- membrane band -->
+  <rect x="30" y="120" width="250" height="30" fill="#8a8a8a" opacity="0.18" stroke="#8a8a8a" stroke-width="1"/>
+  <!-- complexes -->
+  <rect x="60" y="114" width="26" height="42" fill="#8a8a8a" opacity="0.35" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="66" y="139" fill="#8a8a8a" font-size="11">I</text>
+  <rect x="130" y="114" width="26" height="42" fill="#8a8a8a" opacity="0.35" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="134" y="139" fill="#8a8a8a" font-size="11">III</text>
+  <rect x="200" y="114" width="26" height="42" fill="#8a8a8a" opacity="0.35" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="204" y="139" fill="#8a8a8a" font-size="11">IV</text>
+
+  <!-- ATP synthase -->
+  <rect x="248" y="120" width="12" height="30" fill="#8a8a8a" opacity="0.35" stroke="#8a8a8a" stroke-width="1"/>
+  <circle cx="254" cy="176" r="15" fill="#8a8a8a" opacity="0.2" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- proton pumping up (coral) -->
+  <line x1="105" y1="185" x2="105" y2="98" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="105,98 101,106 109,106" fill="#e0645c"/>
+  <line x1="178" y1="185" x2="178" y2="98" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="178,98 174,106 182,106" fill="#e0645c"/>
+  <!-- proton return through ATP synthase (coral, down) -->
+  <line x1="254" y1="98" x2="254" y2="158" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="254,158 250,150 258,150" fill="#e0645c"/>
+
+  <!-- electron path (blue): NADH -> chain -> O2 -->
+  <line x1="46" y1="200" x2="70" y2="158" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="70,158 62,161 67,167" fill="#4a90d9"/>
+  <line x1="88" y1="135" x2="196" y2="135" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="196,135 188,131 188,139" fill="#4a90d9"/>
+  <line x1="213" y1="158" x2="206" y2="198" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="206,198 205,189 212,192" fill="#4a90d9"/>
+
+  <text x="26" y="214" fill="#4a90d9">NADH</text>
+  <text x="176" y="214" fill="#4a90d9">O2 &#8594; H2O</text>
+  <text x="272" y="180" fill="#4a90d9">ATP</text>
+  <text x="30" y="238" fill="#8a8a8a">matrix &#183; e&#8722; run downhill</text>
+
+  <!-- ================= RIGHT: chloroplast ================= -->
+  <text x="360" y="44" fill="#8a8a8a" font-weight="bold">CHLOROPLAST &#8212; thylakoid membrane</text>
+  <text x="360" y="62" fill="#8a8a8a" font-size="11">2H2O &#8594; O2 + 4H+ + 4e&#8722;  (high H+ in lumen)</text>
+
+  <!-- membrane band -->
+  <rect x="360" y="120" width="250" height="30" fill="#8a8a8a" opacity="0.18" stroke="#8a8a8a" stroke-width="1"/>
+  <!-- photosystems / cyt b6f -->
+  <rect x="388" y="114" width="28" height="42" fill="#8a8a8a" opacity="0.35" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="391" y="139" fill="#8a8a8a" font-size="11">PSII</text>
+  <rect x="458" y="114" width="28" height="42" fill="#8a8a8a" opacity="0.35" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="461" y="139" fill="#8a8a8a" font-size="10">b6f</text>
+  <rect x="528" y="114" width="28" height="42" fill="#8a8a8a" opacity="0.35" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="533" y="139" fill="#8a8a8a" font-size="11">PSI</text>
+
+  <!-- ATP synthase -->
+  <rect x="578" y="120" width="12" height="30" fill="#8a8a8a" opacity="0.35" stroke="#8a8a8a" stroke-width="1"/>
+  <circle cx="584" cy="176" r="15" fill="#8a8a8a" opacity="0.2" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- light arrows (grey) -->
+  <line x1="402" y1="74" x2="402" y2="110" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <polygon points="402,110 398,102 406,102" fill="#8a8a8a"/>
+  <line x1="542" y1="74" x2="542" y2="110" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <polygon points="542,110 538,102 546,102" fill="#8a8a8a"/>
+  <text x="388" y="88" fill="#8a8a8a" font-size="11">light</text>
+  <text x="528" y="88" fill="#8a8a8a" font-size="11">light</text>
+
+  <!-- proton pumping up (coral): water split at PSII + b6f -->
+  <line x1="418" y1="112" x2="418" y2="98" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="418,98 414,106 422,106" fill="#e0645c"/>
+  <line x1="472" y1="185" x2="472" y2="98" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="472,98 468,106 476,106" fill="#e0645c"/>
+  <!-- proton return through ATP synthase (coral, down) -->
+  <line x1="584" y1="98" x2="584" y2="158" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="584,158 580,150 588,150" fill="#e0645c"/>
+
+  <!-- electron path (blue): H2O(PSII) -> chain -> NADP+ -->
+  <line x1="416" y1="135" x2="524" y2="135" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="524,135 516,131 516,139" fill="#4a90d9"/>
+  <line x1="545" y1="158" x2="545" y2="198" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="545,198 541,190 549,190" fill="#4a90d9"/>
+
+  <text x="512" y="214" fill="#4a90d9">NADP+ &#8594; NADPH</text>
+  <text x="602" y="180" fill="#4a90d9">ATP</text>
+  <text x="360" y="238" fill="#8a8a8a">stroma &#183; light pushes e&#8722; uphill</text>
+</svg>

@@ -1,0 +1,94 @@
+<svg viewBox="0 0 620 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <defs>
+    <marker id="ah2" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto">
+      <polygon points="0,0 7,3 0,6" fill="#e0645c"/>
+    </marker>
+  </defs>
+
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Superpose: solve one source alone (kill the other), then add the node voltages.</text>
+
+  <!-- ============ PANEL 1: 12 V alone (open the 3 A source) ============ -->
+  <text x="55" y="52" fill="#e0645c">12 V alone &#8594; open the 3 A</text>
+
+  <!-- top rail (node A) -->
+  <line x1="70" y1="80" x2="250" y2="80" stroke="#8a8a8a" stroke-width="2"/>
+  <circle cx="160" cy="80" r="4" fill="#e0645c"/>
+  <text x="150" y="72" fill="#e0645c">A</text>
+  <text x="196" y="72" fill="#e0645c">V = 8 V</text>
+
+  <!-- branch V (x=90): 12 V source (coral, active) + 6 ohm -->
+  <line x1="90" y1="80" x2="90" y2="106" stroke="#8a8a8a" stroke-width="2"/>
+  <rect x="78" y="106" width="24" height="34" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="106" y="127" fill="#8a8a8a">6 &#937;</text>
+  <line x1="90" y1="140" x2="90" y2="158" stroke="#8a8a8a" stroke-width="2"/>
+  <circle cx="90" cy="178" r="20" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <line x1="90" y1="170" x2="90" y2="186" stroke="#e0645c" stroke-width="2"/>
+  <line x1="82" y1="178" x2="98" y2="178" stroke="#e0645c" stroke-width="2"/>
+  <line x1="86" y1="190" x2="94" y2="190" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="42" y="182" fill="#e0645c">12 V</text>
+  <line x1="90" y1="198" x2="90" y2="230" stroke="#8a8a8a" stroke-width="2"/>
+
+  <!-- branch I (x=160): OPEN (dead current source) -->
+  <line x1="160" y1="80" x2="160" y2="120" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="160" y1="190" x2="160" y2="230" stroke="#8a8a8a" stroke-width="2"/>
+  <circle cx="160" cy="128" r="4" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <circle cx="160" cy="182" r="4" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="168" y="159" fill="#8a8a8a">open</text>
+
+  <!-- branch R (x=230): 12 ohm to ground -->
+  <line x1="230" y1="80" x2="230" y2="110" stroke="#8a8a8a" stroke-width="2"/>
+  <rect x="218" y="110" width="24" height="60" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="248" y="145" fill="#8a8a8a">12 &#937;</text>
+  <line x1="230" y1="170" x2="230" y2="230" stroke="#8a8a8a" stroke-width="2"/>
+
+  <!-- bottom rail + ground -->
+  <line x1="90" y1="230" x2="230" y2="230" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="160" y1="230" x2="160" y2="244" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="146" y1="244" x2="174" y2="244" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="151" y1="250" x2="169" y2="250" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="156" y1="256" x2="164" y2="256" stroke="#8a8a8a" stroke-width="2"/>
+
+  <!-- ============ PLUS ============ -->
+  <text x="292" y="170" fill="#8a8a8a" font-size="30">+</text>
+
+  <!-- ============ PANEL 2: 3 A alone (short the 12 V source) ============ -->
+  <text x="360" y="52" fill="#e0645c">3 A alone &#8594; short the 12 V</text>
+
+  <!-- top rail (node A) -->
+  <line x1="360" y1="80" x2="540" y2="80" stroke="#8a8a8a" stroke-width="2"/>
+  <circle cx="450" cy="80" r="4" fill="#e0645c"/>
+  <text x="440" y="72" fill="#e0645c">A</text>
+  <text x="486" y="72" fill="#e0645c">V = 12 V</text>
+
+  <!-- branch V (x=380): 6 ohm + shorted source (grey wire) -->
+  <line x1="380" y1="80" x2="380" y2="106" stroke="#8a8a8a" stroke-width="2"/>
+  <rect x="368" y="106" width="24" height="34" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="396" y="127" fill="#8a8a8a">6 &#937;</text>
+  <line x1="380" y1="140" x2="380" y2="230" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="328" y="188" fill="#8a8a8a">short</text>
+
+  <!-- branch I (x=450): 3 A source (coral, active) -->
+  <line x1="450" y1="80" x2="450" y2="122" stroke="#8a8a8a" stroke-width="2"/>
+  <circle cx="450" cy="142" r="20" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <line x1="450" y1="154" x2="450" y2="132" stroke="#e0645c" stroke-width="2" marker-end="url(#ah2)"/>
+  <line x1="450" y1="162" x2="450" y2="230" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="462" y="146" fill="#e0645c">3 A</text>
+
+  <!-- branch R (x=520): 12 ohm to ground -->
+  <line x1="520" y1="80" x2="520" y2="110" stroke="#8a8a8a" stroke-width="2"/>
+  <rect x="508" y="110" width="24" height="60" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="538" y="145" fill="#8a8a8a">12 &#937;</text>
+  <line x1="520" y1="170" x2="520" y2="230" stroke="#8a8a8a" stroke-width="2"/>
+
+  <!-- bottom rail + ground -->
+  <line x1="380" y1="230" x2="520" y2="230" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="450" y1="230" x2="450" y2="244" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="436" y1="244" x2="464" y2="244" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="441" y1="250" x2="459" y2="250" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="446" y1="256" x2="454" y2="256" stroke="#8a8a8a" stroke-width="2"/>
+
+  <!-- ============ SUM ============ -->
+  <text x="150" y="292" fill="#e0645c" font-size="15">8 V &#160;+&#160; 12 V &#160;=&#160; V</text>
+  <text x="322" y="296" fill="#e0645c" font-size="11">A</text>
+  <text x="330" y="292" fill="#e0645c" font-size="15">= 20 V</text>
+</svg>

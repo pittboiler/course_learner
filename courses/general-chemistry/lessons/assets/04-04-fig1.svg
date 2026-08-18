@@ -1,0 +1,54 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="24" y="22" fill="#8a8a8a" font-style="italic">A galvanic cell: redox split in two &#8212; electrons flow anode &#8594; cathode through the wire, ions through the salt bridge.</text>
+
+  <!-- ===== wire (top) with voltmeter ===== -->
+  <line x1="150" y1="95" x2="150" y2="60" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="150" y1="60" x2="300" y2="60" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="340" y1="60" x2="490" y2="60" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="490" y1="60" x2="490" y2="95" stroke="#8a8a8a" stroke-width="2"/>
+  <circle cx="320" cy="60" r="20" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="314" y="65" fill="#8a8a8a">V</text>
+
+  <!-- electron-flow arrows (coral): anode up, then across to cathode -->
+  <polygon points="150,72 145,82 155,82" fill="#e0645c"/>
+  <polygon points="238,60 228,55 228,65" fill="#e0645c"/>
+  <polygon points="428,60 418,55 418,65" fill="#e0645c"/>
+  <text x="196" y="52" fill="#e0645c">e&#8722;</text>
+  <text x="386" y="52" fill="#e0645c">e&#8722;</text>
+
+  <!-- E_cell label (coral) -->
+  <text x="288" y="102" fill="#e0645c">E&#176;&#8202;cell = 1.10 V</text>
+
+  <!-- ===== salt bridge ===== -->
+  <path d="M 195 188 L 195 130 Q 195 120 205 120 L 435 120 Q 445 120 445 130 L 445 188"
+        fill="none" stroke="#8a8a8a" stroke-width="10" stroke-linecap="round" opacity="0.55"/>
+  <text x="278" y="112" fill="#8a8a8a">salt bridge</text>
+  <!-- ion flow: anions to anode (left), cations to cathode (right) -->
+  <polygon points="268,138 278,133 278,143" fill="#8a8a8a"/>
+  <text x="240" y="142" fill="#8a8a8a">anions</text>
+  <polygon points="372,138 362,133 362,143" fill="#8a8a8a"/>
+  <text x="376" y="142" fill="#8a8a8a">cations</text>
+
+  <!-- ===== left beaker (anode) ===== -->
+  <path d="M 95 155 L 95 283 L 205 283 L 205 155" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <!-- solution -->
+  <rect x="97" y="172" width="106" height="110" fill="#4a90d9" opacity="0.12"/>
+  <line x1="97" y1="172" x2="203" y2="172" stroke="#4a90d9" stroke-width="1.5" opacity="0.5"/>
+  <!-- electrode (blue = highlighted half-cell) -->
+  <rect x="142" y="95" width="16" height="160" fill="#4a90d9" opacity="0.85"/>
+  <text x="112" y="215" fill="#4a90d9">Zn</text>
+  <text x="150" y="250" fill="#4a90d9" font-size="12">Zn&#178;&#8314;</text>
+  <text x="112" y="308" fill="#8a8a8a">anode (&#8722;)</text>
+  <text x="112" y="326" fill="#8a8a8a">oxidation</text>
+
+  <!-- ===== right beaker (cathode) ===== -->
+  <path d="M 435 155 L 435 283 L 545 283 L 545 155" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <rect x="437" y="172" width="106" height="110" fill="#8a8a8a" opacity="0.12"/>
+  <line x1="437" y1="172" x2="543" y2="172" stroke="#8a8a8a" stroke-width="1.5" opacity="0.5"/>
+  <rect x="482" y="95" width="16" height="160" fill="#8a8a8a" opacity="0.7"/>
+  <text x="502" y="215" fill="#8a8a8a">Cu</text>
+  <text x="490" y="250" fill="#8a8a8a" font-size="12">Cu&#178;&#8314;</text>
+  <text x="452" y="308" fill="#8a8a8a">cathode (+)</text>
+  <text x="452" y="326" fill="#8a8a8a">reduction</text>
+</svg>

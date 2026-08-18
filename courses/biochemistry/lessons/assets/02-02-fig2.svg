@@ -1,0 +1,30 @@
+<svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Lineweaver&#8211;Burk: 1/v vs 1/[S] is a straight line &#8212; read V&#8203;max and K&#8203;m off the two intercepts.</text>
+
+  <!-- x-axis (1/[S]) at y=270, spanning negative region -->
+  <line x1="70" y1="270" x2="490" y2="270" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="490,270 480,265 480,275" fill="#8a8a8a"/>
+  <text x="452" y="292" fill="#8a8a8a">1/[S]</text>
+
+  <!-- y-axis (1/v) at x=225.6 -->
+  <line x1="225.6" y1="290" x2="225.6" y2="60" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="225.6,60 220.6,70 230.6,70" fill="#8a8a8a"/>
+  <text x="232" y="72" fill="#8a8a8a">1/v</text>
+  <text x="205" y="286" fill="#8a8a8a">0</text>
+
+  <!-- the double-reciprocal line: 1/v = (Km/Vmax)(1/[S]) + 1/Vmax -->
+  <line x1="114.5" y1="270" x2="470" y2="87.1" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- y-intercept = 1/Vmax -->
+  <circle cx="225.6" cy="212.9" r="4" fill="#e0645c"/>
+  <line x1="70" y1="212.9" x2="225.6" y2="212.9" stroke="#e0645c" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="12" y="217" fill="#e0645c">1/V&#8203;max</text>
+
+  <!-- x-intercept = -1/Km -->
+  <circle cx="114.5" cy="270" r="4" fill="#e0645c"/>
+  <text x="86" y="290" fill="#e0645c">&#8722;1/K&#8203;m</text>
+
+  <!-- slope label -->
+  <text x="352" y="150" fill="#8a8a8a" font-size="12">slope = K&#8203;m/V&#8203;max</text>
+</svg>

@@ -1,0 +1,47 @@
+<svg viewBox="0 0 640 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">A bilayer is a thin elastic sheet: because &#954; is only ~20 k_BT, thermal energy visibly ripples it.</text>
+
+  <!-- water shading (grey), top and bottom -->
+  <rect x="40" y="40" width="560" height="66" fill="#8a8a8a" opacity="0.15"/>
+  <rect x="40" y="236" width="560" height="70" fill="#8a8a8a" opacity="0.15"/>
+  <text x="52" y="60" fill="#8a8a8a" font-style="italic">water</text>
+  <text x="52" y="300" fill="#8a8a8a" font-style="italic">water</text>
+
+  <!-- bilayer band: upper leaflet forward, lower leaflet back, filled blue -->
+  <path d="M 60 148 L 80 133.1 L 100 121.6 L 125 116 L 140 118.1 L 160 126.8 L 180 140.3 L 190 148 L 200 155.7 L 220 169.2 L 255 180 L 270 177.8 L 290 169.2 L 310 155.7 L 320 148 L 340 133.1 L 360 121.6 L 385 116 L 400 118.1 L 420 126.8 L 440 140.3 L 450 148 L 470 162.8 L 490 174.3 L 510 179.8 L 540 174.3 L 560 162.8 L 580 148
+           L 580 172 L 560 186.8 L 540 198.3 L 510 203.8 L 490 198.3 L 470 186.8 L 450 172 L 440 164.3 L 420 150.8 L 400 142.1 L 385 140 L 360 145.6 L 340 157.1 L 320 172 L 310 179.7 L 290 193.2 L 270 201.8 L 255 204 L 220 193.2 L 200 179.7 L 190 172 L 180 164.3 L 160 150.8 L 140 142.1 L 125 140 L 100 145.6 L 80 157.1 L 60 172 Z"
+        fill="#4a90d9" opacity="0.15"/>
+  <!-- upper leaflet -->
+  <path d="M 60 148 L 80 133.1 L 100 121.6 L 125 116 L 140 118.1 L 160 126.8 L 180 140.3 L 190 148 L 200 155.7 L 220 169.2 L 255 180 L 270 177.8 L 290 169.2 L 310 155.7 L 320 148 L 340 133.1 L 360 121.6 L 385 116 L 400 118.1 L 420 126.8 L 440 140.3 L 450 148 L 470 162.8 L 490 174.3 L 510 179.8 L 540 174.3 L 560 162.8 L 580 148"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <!-- lower leaflet -->
+  <path d="M 60 172 L 80 157.1 L 100 145.6 L 125 140 L 140 142.1 L 160 150.8 L 180 164.3 L 190 172 L 200 179.7 L 220 193.2 L 255 204 L 270 201.8 L 290 193.2 L 310 179.7 L 320 172 L 340 157.1 L 360 145.6 L 385 140 L 400 142.1 L 420 150.8 L 440 164.3 L 450 172 L 470 186.8 L 490 198.3 L 510 203.8 L 540 198.3 L 560 186.8 L 580 172"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="590" y="164" fill="#4a90d9">fluid</text>
+  <text x="590" y="180" fill="#4a90d9">bilayer</text>
+
+  <!-- thickness bracket ~4 nm (coral) at left -->
+  <line x1="48" y1="148" x2="48" y2="172" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="48,148 44,156 52,156" fill="#e0645c"/>
+  <polygon points="48,172 44,164 52,164" fill="#e0645c"/>
+  <text x="8" y="164" fill="#e0645c">~4 nm</text>
+
+  <!-- curvature at the crest (x=125): radius of the osculating circle -->
+  <path d="M 96 128 A 40 40 0 0 1 154 128" fill="none" stroke="#e0645c" stroke-width="1.2" stroke-dasharray="4 4"/>
+  <line x1="125" y1="116" x2="125" y2="176" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="125,116 121,124 129,124" fill="#e0645c"/>
+  <circle cx="125" cy="176" r="2.5" fill="#e0645c"/>
+  <text x="131" y="152" fill="#e0645c">R</text>
+  <text x="105" y="98" fill="#e0645c">2H = 2/R</text>
+
+  <!-- Helfrich energy label -->
+  <text x="330" y="60" fill="#8a8a8a">bending cost:</text>
+  <text x="330" y="80" fill="#4a90d9">E = (&#954;/2) &#8747; (2H)&#178; dA</text>
+
+  <!-- legend of the three moduli (coral) -->
+  <line x1="330" y1="262" x2="600" y2="262" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="330" y="282" fill="#e0645c">K_A &#8776; 0.2 J/m&#178;  (stretch — stiff)</text>
+  <text x="330" y="300" fill="#e0645c">&#954; &#8776; 20 k_BT  (bend — floppy)</text>
+  <text x="330" y="318" fill="#e0645c">&#963;  (tension, penalizes area)</text>
+</svg>

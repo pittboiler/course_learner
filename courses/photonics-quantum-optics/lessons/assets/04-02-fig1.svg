@@ -1,0 +1,71 @@
+<svg viewBox="0 0 680 430" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Jaynes&#8211;Cummings ladder: each degenerate pair {|e,n&#10217;, |g,n+1&#10217;} splits into a dressed doublet by 2g&#8730;(n+1).</text>
+
+  <!-- energy axis -->
+  <line x1="42" y1="405" x2="42" y2="58" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="42,58 37,68 47,68" fill="#8a8a8a"/>
+  <text x="50" y="66" fill="#8a8a8a">energy</text>
+
+  <!-- ===== n = 2 manifold ===== -->
+  <text x="150" y="82" fill="#8a8a8a" font-size="13">|e,2&#10217;, |g,3&#10217;</text>
+  <line x1="150" y1="95" x2="270" y2="95" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <line x1="270" y1="95" x2="320" y2="71" stroke="#8a8a8a" stroke-width="0.8"/>
+  <line x1="270" y1="95" x2="320" y2="119" stroke="#8a8a8a" stroke-width="0.8"/>
+  <line x1="320" y1="71" x2="440" y2="71" stroke="#8a8a8a" stroke-width="2.5"/>
+  <line x1="320" y1="119" x2="440" y2="119" stroke="#8a8a8a" stroke-width="2.5"/>
+  <!-- coral splitting bracket -->
+  <line x1="452" y1="71" x2="452" y2="119" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="452,71 448,80 456,80" fill="#e0645c"/>
+  <polygon points="452,119 448,110 456,110" fill="#e0645c"/>
+  <text x="460" y="99" fill="#e0645c">2g&#8730;3</text>
+
+  <!-- ===== n = 1 manifold ===== -->
+  <text x="150" y="182" fill="#8a8a8a" font-size="13">|e,1&#10217;, |g,2&#10217;</text>
+  <line x1="150" y1="195" x2="270" y2="195" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <line x1="270" y1="195" x2="320" y2="175" stroke="#8a8a8a" stroke-width="0.8"/>
+  <line x1="270" y1="195" x2="320" y2="215" stroke="#8a8a8a" stroke-width="0.8"/>
+  <line x1="320" y1="175" x2="440" y2="175" stroke="#8a8a8a" stroke-width="2.5"/>
+  <line x1="320" y1="215" x2="440" y2="215" stroke="#8a8a8a" stroke-width="2.5"/>
+  <text x="444" y="171" fill="#8a8a8a" font-size="12">|1,+&#10217;</text>
+  <text x="444" y="228" fill="#8a8a8a" font-size="12">|1,&#8722;&#10217;</text>
+  <line x1="510" y1="175" x2="510" y2="215" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="510,175 506,184 514,184" fill="#e0645c"/>
+  <polygon points="510,215 506,206 514,206" fill="#e0645c"/>
+  <text x="518" y="199" fill="#e0645c">2g&#8730;2</text>
+
+  <!-- ===== n = 0 manifold (vacuum Rabi, highlighted blue) ===== -->
+  <text x="150" y="282" fill="#8a8a8a" font-size="13">|e,0&#10217;, |g,1&#10217;</text>
+  <line x1="150" y1="295" x2="270" y2="295" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <line x1="270" y1="295" x2="320" y2="281" stroke="#8a8a8a" stroke-width="0.8"/>
+  <line x1="270" y1="295" x2="320" y2="309" stroke="#8a8a8a" stroke-width="0.8"/>
+  <line x1="320" y1="281" x2="440" y2="281" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="320" y1="309" x2="440" y2="309" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="444" y="278" fill="#4a90d9" font-size="12">|0,+&#10217;</text>
+  <text x="444" y="322" fill="#4a90d9" font-size="12">|0,&#8722;&#10217;</text>
+  <line x1="452" y1="281" x2="452" y2="309" stroke="#4a90d9" stroke-width="1.5"/>
+  <polygon points="452,281 448,290 456,290" fill="#4a90d9"/>
+  <polygon points="452,309 448,300 456,300" fill="#4a90d9"/>
+  <text x="478" y="299" fill="#4a90d9" font-weight="bold">2g</text>
+  <text x="330" y="345" fill="#4a90d9" font-size="12" font-style="italic">vacuum Rabi splitting</text>
+
+  <!-- ===== ground state |g,0> (uncoupled) ===== -->
+  <line x1="320" y1="388" x2="440" y2="388" stroke="#8a8a8a" stroke-width="2.5"/>
+  <text x="444" y="392" fill="#8a8a8a" font-size="13">|g,0&#10217;</text>
+
+  <!-- ===== inset: P_e(t) = cos^2(gt) ===== -->
+  <text x="558" y="70" fill="#8a8a8a" font-style="italic" font-size="12">start |e,0&#10217;:</text>
+  <!-- axes -->
+  <line x1="560" y1="205" x2="560" y2="95" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="560" y1="185" x2="672" y2="185" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="536" y="103" fill="#8a8a8a" font-size="11">P_e</text>
+  <text x="540" y="108" fill="#8a8a8a" font-size="11"> </text>
+  <text x="548" y="103" fill="#8a8a8a" font-size="11">1</text>
+  <text x="548" y="189" fill="#8a8a8a" font-size="11">0</text>
+  <text x="666" y="200" fill="#8a8a8a" font-size="11">gt</text>
+  <!-- cos^2 curve, P=1 at y=95, P=0 at y=185 -->
+  <path d="M 560 95 L 574 108.2 L 588 140 L 602 171.8 L 616 185 L 630 171.8 L 644 140 L 658 108.2 L 672 95"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="616" y1="185" x2="616" y2="197" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="596" y="211" fill="#e0645c" font-size="11">|g,1&#10217; (photon in cavity)</text>
+</svg>

@@ -1,0 +1,59 @@
+<svg viewBox="0 0 720 250" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">One balance, three simplifications: a turbine spends &#916;h as work out, a compressor buys &#916;h with work in, a nozzle turns &#916;h into speed.</text>
+
+  <!-- ===================== TURBINE ===================== -->
+  <!-- body: narrow inlet (left), wide outlet (right) -->
+  <path d="M 65 92 L 65 130 L 175 150 L 175 72 Z" fill="#4a90d9" opacity="0.12" stroke="#4a90d9" stroke-width="2"/>
+  <!-- inlet stream -->
+  <line x1="28" y1="111" x2="62" y2="111" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="65,111 56,107 56,115" fill="#8a8a8a"/>
+  <text x="30" y="102" fill="#8a8a8a">1</text>
+  <!-- outlet stream -->
+  <line x1="177" y1="111" x2="211" y2="111" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="214,111 205,107 205,115" fill="#8a8a8a"/>
+  <text x="203" y="102" fill="#8a8a8a">2</text>
+  <!-- work out (up) -->
+  <line x1="120" y1="72" x2="120" y2="44" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="120,40 116,49 124,49" fill="#e0645c"/>
+  <text x="92" y="38" fill="#e0645c">work out</text>
+  <!-- labels -->
+  <text x="97" y="186" fill="#8a8a8a" font-weight="bold">TURBINE</text>
+  <text x="83" y="210" fill="#8a8a8a" font-size="12">W&#775; = m&#775;(h&#8321;&#8722;h&#8322;)</text>
+
+  <!-- ===================== COMPRESSOR ===================== -->
+  <!-- body: wide inlet (left), narrow outlet (right) -->
+  <path d="M 305 72 L 305 150 L 415 130 L 415 92 Z" fill="#4a90d9" opacity="0.12" stroke="#4a90d9" stroke-width="2"/>
+  <!-- inlet stream -->
+  <line x1="268" y1="111" x2="302" y2="111" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="305,111 296,107 296,115" fill="#8a8a8a"/>
+  <text x="270" y="102" fill="#8a8a8a">1</text>
+  <!-- outlet stream -->
+  <line x1="417" y1="111" x2="451" y2="111" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="454,111 445,107 445,115" fill="#8a8a8a"/>
+  <text x="443" y="102" fill="#8a8a8a">2</text>
+  <!-- work in (down) -->
+  <line x1="360" y1="44" x2="360" y2="68" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="360,72 356,63 364,63" fill="#e0645c"/>
+  <text x="334" y="38" fill="#e0645c">work in</text>
+  <!-- labels -->
+  <text x="315" y="186" fill="#8a8a8a" font-weight="bold">COMPRESSOR</text>
+  <text x="323" y="210" fill="#8a8a8a" font-size="12">W&#775; = m&#775;(h&#8322;&#8722;h&#8321;)</text>
+
+  <!-- ===================== NOZZLE ===================== -->
+  <!-- converging duct: wide inlet (left), narrow outlet (right) -->
+  <path d="M 545 82 L 655 100 L 655 122 L 545 140 Z" fill="#4a90d9" opacity="0.12" stroke="#4a90d9" stroke-width="2"/>
+  <!-- inlet: slow -->
+  <line x1="516" y1="111" x2="542" y2="111" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="545,111 536,107 536,115" fill="#8a8a8a"/>
+  <text x="512" y="102" fill="#8a8a8a">1</text>
+  <text x="498" y="132" fill="#8a8a8a" font-size="12">V&#8321; slow</text>
+  <!-- outlet: fast (long coral arrow) -->
+  <line x1="658" y1="111" x2="704" y2="111" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="710,111 699,106 699,116" fill="#e0645c"/>
+  <text x="655" y="102" fill="#e0645c">2</text>
+  <text x="650" y="132" fill="#e0645c" font-size="12">V&#8322; fast</text>
+  <!-- labels -->
+  <text x="560" y="186" fill="#8a8a8a" font-weight="bold">NOZZLE</text>
+  <text x="548" y="210" fill="#8a8a8a" font-size="12">h&#8321;+V&#8321;&#178;/2 = h&#8322;+V&#8322;&#178;/2</text>
+</svg>

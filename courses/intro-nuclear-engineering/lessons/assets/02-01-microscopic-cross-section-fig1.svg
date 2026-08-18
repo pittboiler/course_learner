@@ -1,0 +1,36 @@
+<svg viewBox="0 0 620 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="20" y="24" fill="#8a8a8a" font-style="italic">A neutron&#8217;s-eye view of the target: each nucleus blocks an effective area &#963;. The chance of a reaction</text>
+  <text x="20" y="42" fill="#8a8a8a" font-style="italic">is the fraction of the beam&#8217;s footprint its disks cover &#8212; not their real size, an effective one.</text>
+
+  <!-- incoming beam arrows -->
+  <text x="34" y="96" fill="#4a90d9">neutron beam</text>
+  <text x="34" y="114" fill="#4a90d9">(flux &#966;)</text>
+  <line x1="40" y1="150" x2="150" y2="150" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="150,150 139,145 139,155" fill="#4a90d9"/>
+  <line x1="40" y1="195" x2="150" y2="195" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="150,195 139,190 139,200" fill="#4a90d9"/>
+  <line x1="40" y1="240" x2="150" y2="240" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="150,240 139,235 139,245" fill="#4a90d9"/>
+
+  <!-- target face: the beam footprint, area A -->
+  <rect x="250" y="80" width="210" height="210" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="250" y="74" fill="#8a8a8a">beam footprint, area A</text>
+
+  <!-- nuclei as disks of effective area sigma -->
+  <circle cx="298" cy="128" r="14" fill="#e0645c" opacity="0.25" stroke="#e0645c" stroke-width="1.5"/>
+  <circle cx="372" cy="118" r="14" fill="#e0645c" opacity="0.25" stroke="#e0645c" stroke-width="1.5"/>
+  <circle cx="428" cy="158" r="14" fill="#e0645c" opacity="0.25" stroke="#e0645c" stroke-width="1.5"/>
+  <circle cx="308" cy="196" r="14" fill="#e0645c" opacity="0.25" stroke="#e0645c" stroke-width="1.5"/>
+  <circle cx="384" cy="212" r="14" fill="#e0645c" opacity="0.25" stroke="#e0645c" stroke-width="1.5"/>
+  <circle cx="330" cy="258" r="14" fill="#e0645c" opacity="0.25" stroke="#e0645c" stroke-width="1.5"/>
+  <circle cx="410" cy="262" r="14" fill="#e0645c" opacity="0.25" stroke="#e0645c" stroke-width="1.5"/>
+
+  <!-- highlighted nucleus with sigma label -->
+  <circle cx="372" cy="118" r="14" fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <line x1="386" y1="112" x2="440" y2="96" stroke="#e0645c" stroke-width="1"/>
+  <text x="444" y="100" fill="#e0645c">area = &#963;</text>
+
+  <!-- probability relation -->
+  <text x="250" y="312" fill="#8a8a8a">P(react) &#8776; (nuclei &#215; &#963;) / A</text>
+</svg>

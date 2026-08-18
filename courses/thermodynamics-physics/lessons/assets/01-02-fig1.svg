@@ -1,0 +1,39 @@
+<svg viewBox="0 0 620 315" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="70" y="22" fill="#8a8a8a" font-style="italic">Isotherms on the P–V plane: each blue hyperbola P = nRT/V is one temperature. Hotter gas sits higher.</text>
+
+  <!-- axes -->
+  <line x1="70" y1="270" x2="580" y2="270" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="580,270 570,265 570,275" fill="#8a8a8a"/>
+  <text x="576" y="288" fill="#8a8a8a">V</text>
+  <line x1="70" y1="270" x2="70" y2="45" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,45 65,55 75,55" fill="#8a8a8a"/>
+  <text x="56" y="52" fill="#8a8a8a">P</text>
+  <text x="58" y="285" fill="#8a8a8a">0</text>
+
+  <!-- ideal-gas isotherms P = C/V (blue) -->
+  <!-- T1 (lowest, C=3) -->
+  <path d="M 90.0 205.5 L 105.4 214.9 L 120.7 221.9 L 136.1 227.3 L 151.5 231.6 L 166.8 235.1 L 182.2 238.1 L 197.6 240.5 L 212.9 242.7 L 228.3 244.5 L 243.7 246.1 L 259.0 247.5 L 274.4 248.8 L 289.8 249.9 L 305.1 250.9 L 320.5 251.8 L 335.8 252.7 L 351.2 253.4 L 366.6 254.1 L 381.9 254.8 L 397.3 255.3 L 412.7 255.9 L 428.0 256.4 L 443.4 256.9 L 458.8 257.3 L 474.1 257.7 L 489.5 258.1 L 504.9 258.5 L 520.2 258.8 L 535.6 259.1 L 551.0 259.4"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="557" y="264" fill="#4a90d9">T₁</text>
+
+  <!-- T2 (middle, C=5) -->
+  <path d="M 90.0 162.5 L 105.4 178.1 L 120.7 189.8 L 136.1 198.8 L 151.5 206.0 L 166.8 211.9 L 182.2 216.8 L 197.6 220.9 L 212.9 224.4 L 228.3 227.5 L 243.7 230.2 L 259.0 232.5 L 274.4 234.6 L 289.8 236.5 L 305.1 238.2 L 320.5 239.7 L 335.8 241.1 L 351.2 242.4 L 366.6 243.5 L 381.9 244.6 L 397.3 245.6 L 412.7 246.5 L 428.0 247.3 L 443.4 248.1 L 458.8 248.8 L 474.1 249.5 L 489.5 250.2 L 504.9 250.8 L 520.2 251.3 L 535.6 251.9 L 551.0 252.4"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="557" y="253" fill="#4a90d9">T₂</text>
+
+  <!-- T3 (highest, C=8) -->
+  <path d="M 90.0 98.0 L 105.4 123.0 L 120.7 141.6 L 136.1 156.1 L 151.5 167.6 L 166.8 177.0 L 182.2 184.9 L 197.6 191.5 L 212.9 197.1 L 228.3 202.0 L 243.7 206.3 L 259.0 210.1 L 274.4 213.4 L 289.8 216.4 L 305.1 219.1 L 320.5 221.5 L 335.8 223.8 L 351.2 225.8 L 366.6 227.6 L 381.9 229.3 L 397.3 230.9 L 412.7 232.4 L 428.0 233.7 L 443.4 235.0 L 458.8 236.1 L 474.1 237.2 L 489.5 238.3 L 504.9 239.2 L 520.2 240.1 L 535.6 241.0 L 551.0 241.8"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="557" y="240" fill="#4a90d9">T₃</text>
+  <text x="516" y="112" fill="#8a8a8a" font-style="italic" font-size="12">T₁ &lt; T₂ &lt; T₃</text>
+
+  <!-- van der Waals isotherm (coral, dashed): S-wiggle below critical T -->
+  <path d="M 126.2 125.5 L 130.5 219.0 L 134.9 253.7 L 139.3 264.4 L 141.4 265.5 L 145.8 263.4 L 152.4 255.9 L 161.1 244.7 L 172.0 233.3 L 185.1 224.1 L 200.4 218.0 L 217.9 214.8 L 235.4 214.0 L 250.7 214.3 L 268.1 215.4 L 285.6 216.8 L 303.1 218.5 L 320.6 220.2 L 338.0 222.0 L 355.5 223.7 L 373.0 225.3 L 388.3 226.7"
+        fill="none" stroke="#e0645c" stroke-width="2.5" stroke-dasharray="6 4"/>
+  <text x="250" y="178" fill="#e0645c" font-size="13">van der Waals</text>
+  <text x="250" y="194" fill="#e0645c" font-size="13">(T &lt; T_c)</text>
+  <!-- little markers on the wiggle -->
+  <circle cx="141.4" cy="265.5" r="2.5" fill="#e0645c"/>
+  <circle cx="235.4" cy="214.0" r="2.5" fill="#e0645c"/>
+</svg>

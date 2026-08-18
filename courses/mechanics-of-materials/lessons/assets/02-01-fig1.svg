@@ -1,0 +1,75 @@
+<svg viewBox="0 0 680 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="26" fill="#8a8a8a" font-style="italic">Twist a round shaft: plane sections stay plane, and shear stress climbs straight-line from zero at the axis to &#964;max at the surface.</text>
+
+  <!-- ===== left: twisted shaft ===== -->
+
+  <!-- fixed wall -->
+  <line x1="60" y1="138" x2="60" y2="242" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="60" y1="146" x2="50" y2="156" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="60" y1="164" x2="50" y2="174" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="60" y1="182" x2="50" y2="192" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="60" y1="200" x2="50" y2="210" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="60" y1="218" x2="50" y2="228" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="34" y="262" fill="#8a8a8a">fixed</text>
+
+  <!-- shaft body -->
+  <line x1="60" y1="148" x2="290" y2="148" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="60" y1="232" x2="290" y2="232" stroke="#4a90d9" stroke-width="2"/>
+  <ellipse cx="290" cy="190" rx="15" ry="42" fill="#4a90d9" opacity="0.12" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="290" y1="190" x2="290" y2="148" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- straight reference generator (untwisted) -->
+  <line x1="60" y1="148" x2="290" y2="148" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 4"/>
+  <!-- twisted surface line: the same generator after the shaft rotates by phi at the free end -->
+  <line x1="60" y1="148" x2="298.6" y2="155.6" stroke="#e0645c" stroke-width="2"/>
+  <line x1="290" y1="190" x2="298.6" y2="155.6" stroke="#e0645c" stroke-width="1.5"/>
+
+  <!-- twist angle phi on the free face -->
+  <path d="M 290 152 A 38 38 0 0 1 296.6 158.5" fill="none" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="300" y="146" fill="#e0645c">&#966;</text>
+
+  <!-- applied torque curved arrow -->
+  <path d="M 300 150 C 342 160, 342 220, 300 230" fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="300,230 313,225 308,237" fill="#e0645c"/>
+  <text x="348" y="194" fill="#e0645c" font-weight="bold">T</text>
+
+  <!-- length dimension -->
+  <line x1="60" y1="286" x2="290" y2="286" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="60,286 70,282 70,290" fill="#8a8a8a"/>
+  <polygon points="290,286 280,282 280,290" fill="#8a8a8a"/>
+  <text x="170" y="302" fill="#8a8a8a">L</text>
+
+  <!-- ===== right: linear shear-stress distribution across the radius ===== -->
+
+  <!-- cross-section circle -->
+  <circle cx="530" cy="185" r="72" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <circle cx="530" cy="185" r="2.5" fill="#8a8a8a"/>
+
+  <!-- radius axis 0 to c -->
+  <line x1="530" y1="185" x2="614" y2="185" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="614,185 605,181 605,189" fill="#8a8a8a"/>
+  <text x="516" y="203" fill="#8a8a8a">0</text>
+  <text x="596" y="176" fill="#8a8a8a">r</text>
+  <text x="600" y="205" fill="#8a8a8a">c</text>
+
+  <!-- linear stress triangle: zero at center, max at surface -->
+  <polygon points="530,185 602,185 602,113" fill="#4a90d9" opacity="0.14"/>
+  <line x1="530" y1="185" x2="602" y2="113" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- growth arrows -->
+  <line x1="548" y1="185" x2="548" y2="167" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="548,167 544,175 552,175" fill="#e0645c"/>
+  <line x1="566" y1="185" x2="566" y2="149" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="566,149 562,157 570,157" fill="#e0645c"/>
+  <line x1="584" y1="185" x2="584" y2="131" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="584,131 580,139 588,139" fill="#e0645c"/>
+
+  <!-- max stress at surface -->
+  <line x1="602" y1="185" x2="602" y2="113" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="602,113 598,122 606,122" fill="#e0645c"/>
+  <text x="514" y="106" fill="#e0645c">&#964;max = Tc / J</text>
+  <text x="470" y="150" fill="#4a90d9">&#964; = Tr / J</text>
+  <text x="470" y="285" fill="#8a8a8a">stress grows with radius; the</text>
+  <text x="470" y="303" fill="#8a8a8a">core near the axis barely works</text>
+</svg>

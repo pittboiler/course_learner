@@ -1,0 +1,73 @@
+<svg viewBox="0 0 680 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <!-- caption -->
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Make ions &#8594; neutralize them &#8594; the neutral crosses B freely &#8594; it re-ionizes in the core and dumps energy + momentum.</text>
+
+  <!-- ===== ion source ===== -->
+  <rect x="20" y="128" width="64" height="44" rx="4" fill="#4a90d9" opacity="0.12" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="52" y="146" fill="#8a8a8a" text-anchor="middle">ion</text>
+  <text x="52" y="162" fill="#8a8a8a" text-anchor="middle">source</text>
+
+  <!-- accelerator grids -->
+  <line x1="100" y1="122" x2="100" y2="178" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="112" y1="122" x2="112" y2="178" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="106" y="196" fill="#8a8a8a" text-anchor="middle">accel</text>
+  <text x="106" y="210" fill="#8a8a8a" text-anchor="middle">~100 kV</text>
+
+  <!-- charged-ion segment (source -> neutralizer) -->
+  <line x1="84" y1="150" x2="150" y2="150" stroke="#8a8a8a" stroke-width="2" stroke-dasharray="4 3"/>
+  <text x="128" y="142" fill="#8a8a8a" text-anchor="middle">D&#8314;</text>
+
+  <!-- neutralizer cell -->
+  <rect x="150" y="128" width="80" height="44" rx="4" fill="#8a8a8a" opacity="0.10" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="190" y="146" fill="#8a8a8a" text-anchor="middle">neutralizer</text>
+  <text x="190" y="162" fill="#8a8a8a" text-anchor="middle">(gas cell)</text>
+
+  <!-- bending magnet peels leftover ions to a dump -->
+  <path d="M 236 152 C 236 185, 236 200, 236 214" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+  <polygon points="236,214 231,204 241,204" fill="#e0645c"/>
+  <rect x="212" y="214" width="52" height="26" rx="3" fill="#8a8a8a" opacity="0.10" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="238" y="231" fill="#8a8a8a" text-anchor="middle">ion dump</text>
+  <text x="250" y="188" fill="#e0645c">leftover ions bent away</text>
+
+  <!-- ===== fast neutral crosses the field freely ===== -->
+  <line x1="230" y1="150" x2="392" y2="150" stroke="#4a90d9" stroke-width="3"/>
+  <text x="300" y="140" fill="#4a90d9" text-anchor="middle">fast D&#8304; (neutral)</text>
+
+  <!-- ===== plasma / tokamak poloidal cross-section ===== -->
+  <circle cx="510" cy="150" r="108" fill="#4a90d9" opacity="0.06" stroke="#4a90d9" stroke-width="2"/>
+  <ellipse cx="510" cy="150" rx="78" ry="78" fill="none" stroke="#8a8a8a" stroke-width="1" opacity="0.7"/>
+  <ellipse cx="510" cy="150" rx="48" ry="48" fill="none" stroke="#8a8a8a" stroke-width="1" opacity="0.7"/>
+
+  <!-- B into the page: coral circle-dots the neutral sails past -->
+  <circle cx="452" cy="106" r="6" fill="none" stroke="#e0645c" stroke-width="1.3"/>
+  <circle cx="452" cy="106" r="1.6" fill="#e0645c"/>
+  <circle cx="470" cy="196" r="6" fill="none" stroke="#e0645c" stroke-width="1.3"/>
+  <circle cx="470" cy="196" r="1.6" fill="#e0645c"/>
+  <circle cx="560" cy="108" r="6" fill="none" stroke="#e0645c" stroke-width="1.3"/>
+  <circle cx="560" cy="108" r="1.6" fill="#e0645c"/>
+  <circle cx="566" cy="194" r="6" fill="none" stroke="#e0645c" stroke-width="1.3"/>
+  <circle cx="566" cy="194" r="1.6" fill="#e0645c"/>
+  <text x="584" y="112" fill="#e0645c">B (into page)</text>
+
+  <!-- neutral enters and drives to the core -->
+  <line x1="392" y1="150" x2="500" y2="150" stroke="#4a90d9" stroke-width="3"/>
+  <polygon points="504,150 492,145 492,155" fill="#4a90d9"/>
+
+  <!-- edge note: a CHARGED beam would just gyrate at the boundary -->
+  <path d="M 398 108 a 9 9 0 1 1 -0.1 0.1 M 389 108 l 6 -5 M 389 108 l 6 5" fill="none" stroke="#e0645c" stroke-width="1.3"/>
+  <text x="410" y="96" fill="#e0645c">a charged beam would</text>
+  <text x="410" y="110" fill="#e0645c">curl up at the edge</text>
+
+  <!-- deposition starburst at the core -->
+  <g stroke="#e0645c" stroke-width="2">
+    <line x1="510" y1="150" x2="510" y2="124"/>
+    <line x1="510" y1="150" x2="536" y2="150"/>
+    <line x1="510" y1="150" x2="510" y2="176"/>
+    <line x1="510" y1="150" x2="529" y2="131"/>
+    <line x1="510" y1="150" x2="529" y2="169"/>
+    <line x1="510" y1="150" x2="491" y2="169"/>
+  </g>
+  <circle cx="510" cy="150" r="4" fill="#e0645c"/>
+  <text x="510" y="300" fill="#e0645c" text-anchor="middle">re-ionizes &#8594; confined fast ion</text>
+  <text x="510" y="316" fill="#e0645c" text-anchor="middle">slows down &#8594; heat + momentum</text>
+</svg>

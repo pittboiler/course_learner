@@ -1,0 +1,35 @@
+<svg viewBox="0 0 620 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Same coil, three fates: on a log&#8211;log plot of size vs. length, the slope IS the scaling exponent &#957;.</text>
+
+  <!-- axes -->
+  <line x1="110" y1="300" x2="560" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="560,300 550,295 550,305" fill="#8a8a8a"/>
+  <line x1="110" y1="300" x2="110" y2="50" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="110,50 105,60 115,60" fill="#8a8a8a"/>
+  <text x="470" y="320" fill="#8a8a8a">log N&#160;&#160;(chain length)</text>
+  <text x="70" y="44" fill="#8a8a8a">log R</text>
+
+  <!-- common origin marker (all coils agree when small) -->
+  <circle cx="140" cy="255" r="3" fill="#8a8a8a"/>
+
+  <!-- good-solvent line: slope 3/5 (steepest, highlighted) -->
+  <line x1="140" y1="255" x2="540" y2="55" stroke="#e0645c" stroke-width="3"/>
+  <text x="300" y="120" fill="#e0645c">good solvent</text>
+  <text x="300" y="138" fill="#e0645c" font-style="italic">&#957; = 3/5  (swollen)</text>
+
+  <!-- ideal / theta line: slope 1/2 (middle, primary) -->
+  <line x1="140" y1="255" x2="540" y2="88" stroke="#4a90d9" stroke-width="3"/>
+  <text x="335" y="182" fill="#4a90d9">ideal / &#952;-solvent</text>
+  <text x="335" y="200" fill="#4a90d9" font-style="italic">&#957; = 1/2  (random walk)</text>
+
+  <!-- globule line: slope 1/3 (shallowest, grey) -->
+  <line x1="140" y1="255" x2="540" y2="144" stroke="#8a8a8a" stroke-width="2.5"/>
+  <text x="360" y="238" fill="#8a8a8a">collapsed globule</text>
+  <text x="360" y="256" fill="#8a8a8a" font-style="italic">&#957; = 1/3  (dense ball)</text>
+
+  <!-- slope labels at the right ends -->
+  <text x="546" y="59" fill="#e0645c">3/5</text>
+  <text x="546" y="92" fill="#4a90d9">1/2</text>
+  <text x="546" y="148" fill="#8a8a8a">1/3</text>
+</svg>

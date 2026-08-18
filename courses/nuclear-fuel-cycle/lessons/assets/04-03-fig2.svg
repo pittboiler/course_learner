@@ -1,0 +1,44 @@
+<svg viewBox="0 0 620 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">MUF = book &#8722; physical inventory. Honest plants scatter it around 0; a diversion shifts it out past the noise.</text>
+
+  <!-- axis -->
+  <line x1="60" y1="240" x2="580" y2="240" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="580,240 570,235 570,245" fill="#8a8a8a"/>
+  <text x="556" y="262" fill="#8a8a8a">MUF</text>
+
+  <!-- ticks: 0, +/-sigma, +2,+3 sigma -->
+  <line x1="200" y1="236" x2="200" y2="244" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="188" y="262" fill="#8a8a8a" font-size="11">&#8722;&#963;</text>
+  <line x1="250" y1="236" x2="250" y2="244" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="246" y="262" fill="#8a8a8a">0</text>
+  <line x1="300" y1="236" x2="300" y2="244" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="293" y="262" fill="#8a8a8a" font-size="11">+&#963;</text>
+  <line x1="350" y1="236" x2="350" y2="244" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="341" y="262" fill="#8a8a8a" font-size="11">+2&#963;</text>
+  <line x1="400" y1="236" x2="400" y2="244" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="391" y="262" fill="#8a8a8a" font-size="11">+3&#963;</text>
+
+  <!-- gaussian of MUF under "no diversion" -->
+  <path d="M 100 238.2 L 125 223.0 L 150 208.4 L 175 178.1 L 200 133.0 L 225 88.8 L 250 70 L 275 88.8 L 300 133.0 L 325 178.1 L 350 208.4 L 375 223.0 L 400 238.2"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="150" y="120" fill="#4a90d9" font-size="12">no diversion:</text>
+  <text x="150" y="137" fill="#4a90d9" font-size="12">pure measurement noise</text>
+
+  <!-- alarm threshold at +3 sigma -->
+  <line x1="400" y1="70" x2="400" y2="240" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="406" y="86" fill="#8a8a8a" font-size="11">alarm threshold</text>
+  <text x="406" y="101" fill="#8a8a8a" font-size="11">&#8776; 3&#963;</text>
+
+  <!-- observed MUF from a real diversion -->
+  <line x1="470" y1="150" x2="470" y2="238" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="470,240 465,230 475,230" fill="#e0645c"/>
+  <circle cx="470" cy="150" r="4" fill="#e0645c"/>
+  <text x="430" y="140" fill="#e0645c" font-size="12">observed MUF</text>
+  <text x="430" y="156" fill="#e0645c" font-size="11">past threshold &#8594; alarm</text>
+
+  <!-- sigma label -->
+  <line x1="250" y1="290" x2="300" y2="290" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="250,290 259,286 259,294" fill="#e0645c"/>
+  <polygon points="300,290 291,286 291,294" fill="#e0645c"/>
+  <text x="305" y="294" fill="#e0645c" font-size="11">&#963; = &#963;&#8202;(MUF), the accountancy uncertainty</text>
+</svg>

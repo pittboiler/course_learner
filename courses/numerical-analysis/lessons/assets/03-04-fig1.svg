@@ -1,0 +1,74 @@
+<svg viewBox="0 0 480 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="480" height="320" fill="#ffffff"/>
+
+  <!-- horizontal gridlines at log10(error) = 0,-1,-2,-3,-4 -->
+  <g stroke="#dddddd" stroke-width="1">
+    <line x1="55" y1="25"  x2="460" y2="25"/>
+    <line x1="55" y1="87.5" x2="460" y2="87.5"/>
+    <line x1="55" y1="150" x2="460" y2="150"/>
+    <line x1="55" y1="212.5" x2="460" y2="212.5"/>
+    <line x1="55" y1="275" x2="460" y2="275"/>
+  </g>
+
+  <!-- axes -->
+  <g stroke="#111111" stroke-width="1.5">
+    <line x1="55" y1="25" x2="55" y2="275"/>
+    <line x1="55" y1="275" x2="460" y2="275"/>
+  </g>
+
+  <!-- y tick labels: log10 of the error -->
+  <g fill="#111111" font-size="12" text-anchor="end">
+    <text x="49" y="29">10&#8304;</text>
+    <text x="49" y="91.5">10&#8315;&#185;</text>
+    <text x="49" y="154">10&#8315;&#178;</text>
+    <text x="49" y="216.5">10&#8315;&#179;</text>
+    <text x="49" y="279">10&#8315;&#8308;</text>
+  </g>
+
+  <!-- x tick labels: iteration k = 0..6 -->
+  <g fill="#111111" font-size="12" text-anchor="middle">
+    <text x="55"  y="293">0</text>
+    <text x="122.5" y="293">1</text>
+    <text x="190" y="293">2</text>
+    <text x="257.5" y="293">3</text>
+    <text x="325" y="293">4</text>
+    <text x="392.5" y="293">5</text>
+    <text x="460" y="293">6</text>
+  </g>
+
+  <!-- axis titles -->
+  <text x="257" y="313" fill="#111111" font-size="13" text-anchor="middle">iteration k</text>
+  <text x="16" y="150" fill="#111111" font-size="13" text-anchor="middle" transform="rotate(-90 16 150)">error (log scale)</text>
+
+  <!-- Jacobi: slope = log10(1/4) per step -->
+  <polyline points="55,25 122.5,62.6 190,100.25 257.5,137.9 325,175.5 392.5,213.1"
+            fill="none" stroke="#c1272d" stroke-width="2"/>
+  <g fill="#c1272d">
+    <circle cx="55" cy="25" r="3.2"/>
+    <circle cx="122.5" cy="62.6" r="3.2"/>
+    <circle cx="190" cy="100.25" r="3.2"/>
+    <circle cx="257.5" cy="137.9" r="3.2"/>
+    <circle cx="325" cy="175.5" r="3.2"/>
+    <circle cx="392.5" cy="213.1" r="3.2"/>
+  </g>
+
+  <!-- Gauss-Seidel: slope = log10(1/16) per step, twice as steep -->
+  <polyline points="55,25 122.5,100.25 190,175.5 257.5,250.75"
+            fill="none" stroke="#1f4e9c" stroke-width="2"/>
+  <g fill="#1f4e9c">
+    <circle cx="55" cy="25" r="3.2"/>
+    <circle cx="122.5" cy="100.25" r="3.2"/>
+    <circle cx="190" cy="175.5" r="3.2"/>
+    <circle cx="257.5" cy="250.75" r="3.2"/>
+  </g>
+
+  <!-- legend -->
+  <g font-size="12">
+    <line x1="315" y1="44" x2="345" y2="44" stroke="#c1272d" stroke-width="2"/>
+    <circle cx="330" cy="44" r="3.2" fill="#c1272d"/>
+    <text x="351" y="48" fill="#111111">Jacobi, &#961; = 1/4</text>
+    <line x1="315" y1="62" x2="345" y2="62" stroke="#1f4e9c" stroke-width="2"/>
+    <circle cx="330" cy="62" r="3.2" fill="#1f4e9c"/>
+    <text x="351" y="66" fill="#111111">Gauss&#8211;Seidel, &#961; = 1/16</text>
+  </g>
+</svg>

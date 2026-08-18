@@ -1,0 +1,56 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="60" y="22" fill="#8a8a8a" font-style="italic">Same start, same finish &#8212; the enzyme only lowers the hill in between.</text>
+
+  <!-- legend (top-left) -->
+  <line x1="95" y1="48" x2="125" y2="48" stroke="#e0645c" stroke-width="3"/>
+  <text x="131" y="52" fill="#e0645c">uncatalyzed</text>
+  <line x1="95" y1="68" x2="125" y2="68" stroke="#4a90d9" stroke-width="3"/>
+  <text x="131" y="72" fill="#4a90d9">catalyzed (+ enzyme)</text>
+
+  <!-- axes -->
+  <line x1="60" y1="330" x2="60" y2="45" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="60,45 55,55 65,55" fill="#8a8a8a"/>
+  <text x="42" y="60" fill="#8a8a8a">G</text>
+  <line x1="60" y1="330" x2="605" y2="330" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="605,330 595,325 595,335" fill="#8a8a8a"/>
+  <text x="300" y="356" fill="#8a8a8a" text-anchor="middle">reaction progress &#8594;</text>
+
+  <!-- reactant-level reference line -->
+  <line x1="150" y1="190" x2="565" y2="190" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <!-- product-level reference line -->
+  <line x1="430" y1="270" x2="575" y2="270" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- uncatalyzed path (coral) -->
+  <path d="M 95 190 L 150 190 C 240 190 250 78 330 78 C 410 78 420 270 510 270 L 565 270"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+  <!-- catalyzed path (blue) -->
+  <path d="M 95 190 L 150 190 C 240 190 255 147 330 147 C 405 147 420 270 510 270 L 565 270"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- transition-state label -->
+  <text x="330" y="62" fill="#8a8a8a" text-anchor="middle">transition state &#8225;</text>
+
+  <!-- uncatalyzed activation-energy arrow -->
+  <line x1="300" y1="190" x2="300" y2="82" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="300,82 295,92 305,92" fill="#e0645c"/>
+  <polygon points="300,190 295,180 305,180" fill="#e0645c"/>
+  <text x="307" y="140" fill="#e0645c">&#916;G&#8225;</text>
+
+  <!-- catalyzed activation-energy arrow -->
+  <line x1="360" y1="190" x2="360" y2="150" stroke="#4a90d9" stroke-width="1.5"/>
+  <polygon points="360,150 355,160 365,160" fill="#4a90d9"/>
+  <polygon points="360,190 355,180 365,180" fill="#4a90d9"/>
+  <text x="367" y="175" fill="#4a90d9">&#916;G&#8225;</text>
+
+  <!-- overall delta-G arrow -->
+  <line x1="545" y1="190" x2="545" y2="270" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="545,190 540,200 550,200" fill="#8a8a8a"/>
+  <polygon points="545,270 540,260 550,260" fill="#8a8a8a"/>
+  <text x="552" y="228" fill="#8a8a8a">&#916;G</text>
+  <text x="552" y="246" fill="#8a8a8a">(no change)</text>
+
+  <!-- state labels -->
+  <text x="118" y="183" fill="#8a8a8a">S</text>
+  <text x="540" y="288" fill="#8a8a8a">P</text>
+</svg>

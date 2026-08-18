@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 400" font-family="Helvetica, Arial, sans-serif">
+  <text x="280" y="24" fill="#8a8a8a" font-size="13" font-style="italic" text-anchor="middle">Tafel plot: log|j| vs &#951; &#8212; straight high-field arms, extrapolated back to log|j&#8320;| at &#951;=0</text>
+
+  <!-- log|j| axis (vertical, left) -->
+  <line x1="80" y1="60" x2="80" y2="352" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="80,52 76,64 84,64" fill="#8a8a8a"/>
+  <text x="70" y="58" fill="#8a8a8a" font-size="13" text-anchor="end">log|j|</text>
+
+  <!-- eta axis (horizontal) -->
+  <line x1="80" y1="352" x2="530" y2="352" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="538,352 526,348 526,356" fill="#8a8a8a"/>
+  <text x="524" y="374" fill="#8a8a8a" font-size="13" text-anchor="end">&#951; (V)</text>
+
+  <!-- eta = 0 vertical guide -->
+  <line x1="295" y1="60" x2="295" y2="352" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3,4"/>
+  <text x="295" y="370" fill="#8a8a8a" font-size="12" text-anchor="middle">0</text>
+  <text x="470" y="345" fill="#8a8a8a" font-size="12" text-anchor="middle">anodic (+)</text>
+  <text x="150" y="345" fill="#8a8a8a" font-size="12" text-anchor="middle">cathodic (&#8722;)</text>
+
+  <!-- real polarization curve: straight arms + downward cusp near equilibrium -->
+  <path d="M 505,84 L 340,203 C 320,225 310,272 295,276 C 280,272 270,225 250,203 L 85,84"
+        fill="none" stroke="#4a90d9" stroke-width="2.6"/>
+
+  <!-- extrapolated straight asymptotes to the intercept -->
+  <path d="M 340,203 L 295,235" fill="none" stroke="#4a90d9" stroke-width="1.6" stroke-dasharray="5,4"/>
+  <path d="M 250,203 L 295,235" fill="none" stroke="#4a90d9" stroke-width="1.6" stroke-dasharray="5,4"/>
+
+  <!-- intercept: log|j0| at eta = 0 -->
+  <line x1="80" y1="235" x2="295" y2="235" stroke="#e0645c" stroke-width="1.2" stroke-dasharray="4,4"/>
+  <circle cx="295" cy="235" r="4.5" fill="#e0645c"/>
+  <text x="88" y="229" fill="#e0645c" font-size="13">log|j&#8320;|</text>
+  <text x="302" y="252" fill="#e0645c" font-size="12">intercept = log j&#8320;</text>
+
+  <!-- slope triangle on the anodic arm -->
+  <line x1="415" y1="151" x2="465" y2="151" stroke="#e0645c" stroke-width="1.5"/>
+  <line x1="465" y1="151" x2="465" y2="115" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="440" y="167" fill="#e0645c" font-size="12" text-anchor="middle">1 decade</text>
+  <text x="472" y="136" fill="#e0645c" font-size="12">= b</text>
+  <text x="486" y="110" fill="#4a90d9" font-size="12" text-anchor="middle">slope +1/b</text>
+  <text x="118" y="110" fill="#4a90d9" font-size="12" text-anchor="middle">slope &#8722;1/b</text>
+</svg>

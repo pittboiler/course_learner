@@ -1,0 +1,45 @@
+<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="40" y="26" fill="#8a8a8a" font-style="italic">Engineering stress&#8722;strain curve: slope is E, area under it is toughness, and yield is set by the 0.2% offset line.</text>
+
+  <!-- shaded toughness area under the curve -->
+  <path d="M 80 330 L 210 170 Q 240 158 276 150 C 330 120 390 92 450 85 C 500 90 525 120 545 150 L 545 330 Z"
+        fill="#e0645c" opacity="0.12" stroke="none"/>
+
+  <!-- axes -->
+  <line x1="80" y1="330" x2="610" y2="330" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="610,330 600,325 600,335" fill="#8a8a8a"/>
+  <line x1="80" y1="330" x2="80" y2="50" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="80,50 75,60 85,60" fill="#8a8a8a"/>
+  <text x="556" y="352" fill="#8a8a8a">strain &#949;</text>
+  <text x="40" y="58" fill="#8a8a8a">stress &#963;</text>
+  <text x="66" y="346" fill="#8a8a8a">0</text>
+
+  <!-- the stress-strain curve -->
+  <path d="M 80 330 L 210 170 Q 240 158 276 150 C 330 120 390 92 450 85 C 500 90 525 120 545 150"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- 0.2% offset line, parallel to the elastic slope -->
+  <line x1="130" y1="330" x2="276" y2="150" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <line x1="130" y1="330" x2="130" y2="338" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="112" y="352" fill="#e0645c">0.2%</text>
+
+  <!-- markers -->
+  <circle cx="210" cy="170" r="4" fill="#8a8a8a"/>
+  <text x="150" y="150" fill="#8a8a8a">prop. limit</text>
+  <circle cx="276" cy="150" r="4.5" fill="#e0645c"/>
+  <text x="262" y="128" fill="#e0645c">yield</text>
+  <circle cx="450" cy="85" r="4.5" fill="#4a90d9"/>
+  <text x="416" y="76" fill="#4a90d9">ultimate</text>
+  <!-- fracture X marker -->
+  <line x1="539" y1="144" x2="551" y2="156" stroke="#e0645c" stroke-width="2.5"/>
+  <line x1="551" y1="144" x2="539" y2="156" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="512" y="176" fill="#e0645c">fracture</text>
+
+  <!-- region labels -->
+  <text x="120" y="250" fill="#4a90d9">slope = E</text>
+  <text x="120" y="268" fill="#8a8a8a">(elastic)</text>
+  <text x="330" y="250" fill="#8a8a8a">toughness =</text>
+  <text x="330" y="268" fill="#8a8a8a">area under curve</text>
+  <text x="352" y="120" fill="#8a8a8a">strain hardening</text>
+  <text x="486" y="118" fill="#8a8a8a">necking</text>
+</svg>

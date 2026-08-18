@@ -1,0 +1,100 @@
+<svg viewBox="0 0 680 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="24" y="22" fill="#8a8a8a" font-style="italic">Two walls, one law: flux = coefficient &#215; (surface value &#8722; bulk value). h and k_c are perfect twins.</text>
+
+  <text x="150" y="52" fill="#e0645c" font-size="15" text-anchor="middle">HEATED WALL (heat)</text>
+  <text x="500" y="52" fill="#4a90d9" font-size="15" text-anchor="middle">WET WALL (mass)</text>
+
+  <!-- ============ LEFT PANEL: heat ============ -->
+  <!-- wall -->
+  <rect x="62" y="70" width="8" height="180" fill="#8a8a8a" opacity="0.25"/>
+  <line x1="62" y1="70" x2="62" y2="250" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="62" y1="82" x2="54" y2="92" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="62" y1="104" x2="54" y2="114" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="62" y1="126" x2="54" y2="136" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="62" y1="148" x2="54" y2="158" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="62" y1="170" x2="54" y2="180" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="62" y1="192" x2="54" y2="202" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="62" y1="214" x2="54" y2="224" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- axes -->
+  <line x1="70" y1="250" x2="312" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="312,250 302,245 302,255" fill="#8a8a8a"/>
+  <text x="196" y="272" fill="#8a8a8a" text-anchor="middle">y  (distance from wall)</text>
+  <line x1="70" y1="250" x2="70" y2="66" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,66 65,76 75,76" fill="#8a8a8a"/>
+  <text x="82" y="76" fill="#e0645c">T</text>
+
+  <!-- bulk level -->
+  <line x1="70" y1="160" x2="300" y2="160" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="304" y="164" fill="#8a8a8a">T&#8734;</text>
+
+  <!-- profile -->
+  <path d="M 70 90 C 118 100 168 160 205 160 L 300 160" fill="none" stroke="#e0645c" stroke-width="3"/>
+  <text x="30" y="94" fill="#e0645c">T_s</text>
+
+  <!-- BL edge marker -->
+  <line x1="205" y1="160" x2="205" y2="250" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="205" y="244" fill="#e0645c" text-anchor="middle">&#948;_T</text>
+
+  <!-- driving force bracket -->
+  <line x1="88" y1="90" x2="88" y2="160" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="88,90 84,99 92,99" fill="#e0645c"/>
+  <polygon points="88,160 84,151 92,151" fill="#e0645c"/>
+  <text x="94" y="129" fill="#e0645c">&#916;T</text>
+
+  <!-- flux arrow out of wall -->
+  <line x1="70" y1="215" x2="120" y2="215" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="120,215 111,211 111,219" fill="#e0645c"/>
+  <text x="86" y="208" fill="#e0645c">q''</text>
+
+  <!-- equations -->
+  <text x="30" y="302" fill="#e0645c">q'' = h (T_s &#8722; T&#8734;)</text>
+  <text x="30" y="326" fill="#8a8a8a">Nu = hL / k</text>
+
+  <!-- ============ RIGHT PANEL: mass ============ -->
+  <!-- wall -->
+  <rect x="392" y="70" width="8" height="180" fill="#8a8a8a" opacity="0.25"/>
+  <line x1="392" y1="70" x2="392" y2="250" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="392" y1="82" x2="384" y2="92" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="392" y1="104" x2="384" y2="114" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="392" y1="126" x2="384" y2="136" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="392" y1="148" x2="384" y2="158" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="392" y1="170" x2="384" y2="180" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="392" y1="192" x2="384" y2="202" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="392" y1="214" x2="384" y2="224" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- axes -->
+  <line x1="400" y1="250" x2="642" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="642,250 632,245 632,255" fill="#8a8a8a"/>
+  <text x="526" y="272" fill="#8a8a8a" text-anchor="middle">y  (distance from wall)</text>
+  <line x1="400" y1="250" x2="400" y2="66" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="400,66 395,76 405,76" fill="#8a8a8a"/>
+  <text x="412" y="76" fill="#4a90d9">c_A</text>
+
+  <!-- bulk level -->
+  <line x1="400" y1="160" x2="630" y2="160" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="634" y="164" fill="#8a8a8a">c&#8734;</text>
+
+  <!-- profile -->
+  <path d="M 400 90 C 448 100 498 160 535 160 L 630 160" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="356" y="94" fill="#4a90d9">c_A,s</text>
+
+  <!-- BL edge marker -->
+  <line x1="535" y1="160" x2="535" y2="250" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="535" y="244" fill="#4a90d9" text-anchor="middle">&#948;_c</text>
+
+  <!-- driving force bracket -->
+  <line x1="418" y1="90" x2="418" y2="160" stroke="#4a90d9" stroke-width="1.5"/>
+  <polygon points="418,90 414,99 422,99" fill="#4a90d9"/>
+  <polygon points="418,160 414,151 422,151" fill="#4a90d9"/>
+  <text x="424" y="129" fill="#4a90d9">&#916;c</text>
+
+  <!-- flux arrow out of wall -->
+  <line x1="400" y1="215" x2="450" y2="215" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="450,215 441,211 441,219" fill="#4a90d9"/>
+  <text x="414" y="208" fill="#4a90d9">N_A</text>
+
+  <!-- equations -->
+  <text x="356" y="302" fill="#4a90d9">N_A = k_c (c_A,s &#8722; c_A,&#8734;)</text>
+  <text x="356" y="326" fill="#8a8a8a">Sh = k_c L / D_AB</text>
+</svg>

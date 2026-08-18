@@ -1,0 +1,45 @@
+<svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">H-mode grows an edge transport barrier &#8212; the pedestal &#8212; that nearly doubles &#964;E.</text>
+
+  <!-- edge transport-barrier band -->
+  <rect x="494" y="70" width="46" height="230" fill="#e0645c" opacity="0.10"/>
+
+  <!-- axes -->
+  <line x1="80" y1="300" x2="565" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="565,300 555,295 555,305" fill="#8a8a8a"/>
+  <text x="322" y="332" fill="#8a8a8a" text-anchor="middle">normalized radius&#160;&#160;r/a&#160;&#160;&#8594;</text>
+  <line x1="80" y1="300" x2="80" y2="58" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="80,58 75,68 85,68" fill="#8a8a8a"/>
+  <text x="38" y="185" fill="#8a8a8a" transform="rotate(-90 38 185)" text-anchor="middle">temperature T (or pressure p)</text>
+
+  <!-- x ticks -->
+  <text x="80" y="318" fill="#8a8a8a" text-anchor="middle">0</text>
+  <text x="80" y="52" fill="#8a8a8a" text-anchor="middle">core</text>
+  <line x1="540" y1="300" x2="540" y2="304" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="540" y="318" fill="#8a8a8a" text-anchor="middle">1</text>
+  <text x="540" y="52" fill="#8a8a8a" text-anchor="middle">edge</text>
+
+  <!-- H-mode profile (coral): lifted core + pedestal shoulder + steep edge drop -->
+  <path d="M 80 95 L 195 102 L 310 118 L 402 140 L 471 160 L 494 168 L 517 235 L 540 288"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+  <text x="150" y="124" fill="#e0645c">H-mode</text>
+
+  <!-- L-mode profile (blue): lower everywhere, no pedestal, decays to edge -->
+  <path d="M 80 175 L 195 182 L 310 200 L 402 224 L 471 248 L 517 272 L 540 298"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="150" y="205" fill="#4a90d9">L-mode</text>
+
+  <!-- pedestal start marker -->
+  <line x1="494" y1="70" x2="494" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- pedestal height double-arrow near r/a = 0.9 -->
+  <line x1="482" y1="168" x2="482" y2="260" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="482,168 478,177 486,177" fill="#e0645c"/>
+  <polygon points="482,260 478,251 486,251" fill="#e0645c"/>
+  <text x="474" y="218" fill="#e0645c" text-anchor="end">pedestal</text>
+
+  <!-- transport-barrier annotation -->
+  <text x="560" y="150" fill="#e0645c" text-anchor="end">steep edge gradient</text>
+  <text x="560" y="166" fill="#e0645c" text-anchor="end">= transport barrier</text>
+</svg>

@@ -1,0 +1,49 @@
+<svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="24" y="24" fill="#8a8a8a" font-style="italic">Same internal force, two ways to spread it: &#963; = P/A across the cut (&#8869;), &#964; = V/A along the shear plane (&#8741;).</text>
+
+  <text x="24" y="52" fill="#8a8a8a">Axial bar &#8212; normal stress</text>
+
+  <line x1="94" y1="140" x2="40" y2="140" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="40,140 50,135 50,145" fill="#8a8a8a"/>
+  <text x="30" y="128" fill="#8a8a8a">P</text>
+
+  <rect x="94" y="118" width="176" height="44" fill="#4a90d9" opacity="0.12" stroke="#4a90d9" stroke-width="2"/>
+
+  <line x1="272" y1="140" x2="326" y2="140" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="326,140 316,135 316,145" fill="#8a8a8a"/>
+  <text x="322" y="128" fill="#8a8a8a">P</text>
+
+  <line x1="182" y1="104" x2="182" y2="176" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="150" y="196" fill="#e0645c">cut, area A</text>
+
+  <line x1="182" y1="126" x2="212" y2="126" stroke="#4a90d9" stroke-width="1.5"/>
+  <polygon points="212,126 204,122 204,130" fill="#4a90d9"/>
+  <line x1="182" y1="140" x2="212" y2="140" stroke="#4a90d9" stroke-width="1.5"/>
+  <polygon points="212,140 204,136 204,144" fill="#4a90d9"/>
+  <line x1="182" y1="154" x2="212" y2="154" stroke="#4a90d9" stroke-width="1.5"/>
+  <polygon points="212,154 204,150 204,158" fill="#4a90d9"/>
+  <text x="218" y="145" fill="#4a90d9">&#963;</text>
+
+  <text x="380" y="52" fill="#8a8a8a">Bolted lap joint &#8212; shear stress</text>
+
+  <rect x="430" y="112" width="170" height="22" fill="#4a90d9" opacity="0.12" stroke="#4a90d9" stroke-width="2"/>
+  <rect x="380" y="134" width="170" height="22" fill="#4a90d9" opacity="0.12" stroke="#4a90d9" stroke-width="2"/>
+
+  <line x1="600" y1="123" x2="628" y2="123" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="628,123 618,118 618,128" fill="#8a8a8a"/>
+  <text x="608" y="112" fill="#8a8a8a">P</text>
+  <line x1="380" y1="145" x2="352" y2="145" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="352,145 362,140 362,150" fill="#8a8a8a"/>
+  <text x="356" y="170" fill="#8a8a8a">P</text>
+
+  <rect x="480" y="100" width="16" height="68" rx="4" fill="#8a8a8a" opacity="0.18" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="500" y="98" fill="#8a8a8a">pin, area A</text>
+
+  <line x1="452" y1="134" x2="528" y2="134" stroke="#e0645c" stroke-width="2" stroke-dasharray="5 4"/>
+  <line x1="490" y1="120" x2="520" y2="120" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="520,120 512,116 512,124" fill="#e0645c"/>
+  <line x1="486" y1="148" x2="456" y2="148" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="456,148 464,144 464,152" fill="#e0645c"/>
+  <text x="530" y="139" fill="#e0645c">&#964;</text>
+  <text x="452" y="182" fill="#e0645c">shear plane</text>
+</svg>

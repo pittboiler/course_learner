@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="260" viewBox="0 0 700 260" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="700" height="260" fill="#ffffff"/>
+  <defs>
+    <marker id="ah" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#111111"/>
+    </marker>
+  </defs>
+
+  <!-- divider -->
+  <line x1="350" y1="30" x2="350" y2="235" stroke="#bbbbbb" stroke-width="1" stroke-dasharray="4 4"/>
+
+  <!-- LEFT: monomorphism -->
+  <text x="175" y="32" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">monomorphism — left-cancellable</text>
+
+  <text x="55" y="141" text-anchor="middle" font-size="20" fill="#111111">X</text>
+  <text x="185" y="141" text-anchor="middle" font-size="20" fill="#111111">A</text>
+  <text x="295" y="141" text-anchor="middle" font-size="20" fill="#111111">B</text>
+
+  <path d="M70,126 Q125,96 170,124" fill="none" stroke="#111111" stroke-width="1.6" marker-end="url(#ah)"/>
+  <text x="120" y="92" text-anchor="middle" font-size="15" fill="#111111">g</text>
+  <path d="M70,146 Q125,178 170,148" fill="none" stroke="#111111" stroke-width="1.6" marker-end="url(#ah)"/>
+  <text x="120" y="188" text-anchor="middle" font-size="15" fill="#111111">h</text>
+
+  <line x1="200" y1="135" x2="280" y2="135" stroke="#111111" stroke-width="1.6" marker-end="url(#ah)"/>
+  <text x="240" y="126" text-anchor="middle" font-size="15" fill="#111111">f</text>
+
+  <text x="175" y="228" text-anchor="middle" font-size="15" fill="#111111">f∘g = f∘h  ⟹  g = h</text>
+
+  <!-- RIGHT: epimorphism -->
+  <text x="525" y="32" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">epimorphism — right-cancellable</text>
+
+  <text x="400" y="141" text-anchor="middle" font-size="20" fill="#111111">A</text>
+  <text x="510" y="141" text-anchor="middle" font-size="20" fill="#111111">B</text>
+  <text x="645" y="141" text-anchor="middle" font-size="20" fill="#111111">Y</text>
+
+  <line x1="415" y1="135" x2="495" y2="135" stroke="#111111" stroke-width="1.6" marker-end="url(#ah)"/>
+  <text x="455" y="126" text-anchor="middle" font-size="15" fill="#111111">f</text>
+
+  <path d="M525,126 Q580,96 628,124" fill="none" stroke="#111111" stroke-width="1.6" marker-end="url(#ah)"/>
+  <text x="577" y="92" text-anchor="middle" font-size="15" fill="#111111">g</text>
+  <path d="M525,146 Q580,178 628,148" fill="none" stroke="#111111" stroke-width="1.6" marker-end="url(#ah)"/>
+  <text x="577" y="188" text-anchor="middle" font-size="15" fill="#111111">h</text>
+
+  <text x="525" y="228" text-anchor="middle" font-size="15" fill="#111111">g∘f = h∘f  ⟹  g = h</text>
+</svg>

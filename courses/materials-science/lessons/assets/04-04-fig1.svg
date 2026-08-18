@@ -1,0 +1,69 @@
+<svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <!-- caption -->
+  <text x="20" y="20" fill="#8a8a8a" font-style="italic">Two failure clocks: fatigue endures a number of cycles (left); creep endures a span of time (right).</text>
+
+  <!-- ============ LEFT: S-N fatigue curve ============ -->
+  <text x="60" y="44" fill="#8a8a8a">S&#8211;N curve (fatigue)</text>
+
+  <!-- axes -->
+  <line x1="60" y1="255" x2="60" y2="60" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="60,60 55,70 65,70" fill="#8a8a8a"/>
+  <line x1="60" y1="255" x2="308" y2="255" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="308,255 298,250 298,260" fill="#8a8a8a"/>
+  <text x="18" y="120" fill="#8a8a8a">stress</text>
+  <text x="18" y="136" fill="#8a8a8a">amp. S</text>
+  <text x="212" y="274" fill="#8a8a8a">log N (cycles)</text>
+
+  <!-- aluminium: keeps dropping, no limit -->
+  <path d="M 74 92 C 120 108, 165 165, 215 205 C 250 232, 275 244, 305 248"
+        fill="none" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="222" y="222" fill="#8a8a8a">Al: no limit</text>
+
+  <!-- steel: flattens to endurance limit -->
+  <path d="M 74 92 C 120 100, 155 150, 195 182 C 232 210, 265 214, 305 214"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="238" y="205" fill="#4a90d9">steel</text>
+
+  <!-- endurance limit line -->
+  <line x1="60" y1="214" x2="308" y2="214" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="3 4"/>
+  <text x="96" y="132" fill="#e0645c">endurance limit</text>
+  <line x1="150" y1="136" x2="120" y2="210" stroke="#e0645c" stroke-width="0.8"/>
+
+  <!-- ============ RIGHT: creep strain-time curve ============ -->
+  <text x="392" y="44" fill="#8a8a8a">creep strain vs. time</text>
+
+  <!-- axes -->
+  <line x1="392" y1="255" x2="392" y2="60" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="392,60 387,70 397,70" fill="#8a8a8a"/>
+  <line x1="392" y1="255" x2="628" y2="255" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="628,255 618,250 618,260" fill="#8a8a8a"/>
+  <text x="360" y="120" fill="#8a8a8a">strain</text>
+  <text x="376" y="136" fill="#8a8a8a">&#949;</text>
+  <text x="560" y="274" fill="#8a8a8a">time t</text>
+
+  <!-- region dividers -->
+  <line x1="452" y1="255" x2="452" y2="72" stroke="#8a8a8a" stroke-width="0.8" stroke-dasharray="3 4"/>
+  <line x1="548" y1="255" x2="548" y2="72" stroke="#8a8a8a" stroke-width="0.8" stroke-dasharray="3 4"/>
+  <text x="410" y="88" fill="#8a8a8a">I</text>
+  <text x="496" y="88" fill="#8a8a8a">II</text>
+  <text x="580" y="88" fill="#8a8a8a">III</text>
+
+  <!-- instantaneous strain tick -->
+  <line x1="388" y1="218" x2="396" y2="218" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- primary (I): concave down -->
+  <path d="M 392 218 Q 420 168, 452 156" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <!-- secondary (II): straight, steady-state, highlighted -->
+  <path d="M 452 156 L 548 120" fill="none" stroke="#e0645c" stroke-width="3"/>
+  <!-- tertiary (III): concave up to rupture -->
+  <path d="M 548 120 Q 588 104, 606 62" fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- rupture marker -->
+  <line x1="600" y1="56" x2="612" y2="68" stroke="#e0645c" stroke-width="2"/>
+  <line x1="612" y1="56" x2="600" y2="68" stroke="#e0645c" stroke-width="2"/>
+  <text x="556" y="58" fill="#e0645c">rupture</text>
+
+  <!-- steady-state slope label -->
+  <text x="450" y="182" fill="#e0645c">steady-state</text>
+  <text x="450" y="197" fill="#e0645c">rate (slope)</text>
+</svg>

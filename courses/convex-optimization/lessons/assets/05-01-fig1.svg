@@ -1,0 +1,63 @@
+<svg viewBox="0 0 720 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="720" height="400" fill="#ffffff"/>
+
+  <!-- ================= LEFT: RIDGE (l2 disk) ================= -->
+  <text x="180" y="34" font-size="16" fill="#111111" font-weight="bold" text-anchor="middle">Ridge: ℓ₂ ball (disk)</text>
+
+  <!-- axes -->
+  <line x1="60" y1="220" x2="312" y2="220" stroke="#111111" stroke-width="1"/>
+  <line x1="180" y1="368" x2="180" y2="72" stroke="#111111" stroke-width="1"/>
+  <polygon points="312,220 303,216 303,224" fill="#111111"/>
+  <polygon points="180,72 176,81 184,81" fill="#111111"/>
+  <text x="316" y="224" font-size="13" fill="#111111">x₁</text>
+  <text x="186" y="76" font-size="13" fill="#111111">x₂</text>
+
+  <!-- l2 constraint ball -->
+  <circle cx="180" cy="220" r="75" fill="#3b82f6" fill-opacity="0.14" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="120" y="300" font-size="12" fill="#1d4ed8" font-weight="bold">‖x‖₂ ≤ t</text>
+
+  <!-- least-squares contours (ellipses about the OLS optimum) -->
+  <g fill="none" stroke="#b91c1c" stroke-width="1.6" transform="rotate(-33 255 130)">
+    <ellipse cx="255" cy="130" rx="105" ry="46"/>
+    <ellipse cx="255" cy="130" rx="74" ry="32"/>
+    <ellipse cx="255" cy="130" rx="46" ry="20"/>
+  </g>
+
+  <!-- OLS optimum -->
+  <circle cx="255" cy="130" r="3.5" fill="#b91c1c"/>
+  <text x="262" y="126" font-size="12" fill="#b91c1c" font-weight="bold">x̂ (OLS)</text>
+
+  <!-- constrained (ridge) solution: tangent, off the axes -->
+  <circle cx="228" cy="162" r="4.5" fill="#111111"/>
+  <text x="196" y="196" font-size="12" fill="#111111" font-weight="bold">x★ (both ≠ 0)</text>
+
+  <!-- ================= RIGHT: LASSO (l1 diamond) ================= -->
+  <text x="540" y="34" font-size="16" fill="#111111" font-weight="bold" text-anchor="middle">Lasso: ℓ₁ ball (diamond)</text>
+
+  <!-- axes -->
+  <line x1="420" y1="220" x2="672" y2="220" stroke="#111111" stroke-width="1"/>
+  <line x1="540" y1="368" x2="540" y2="72" stroke="#111111" stroke-width="1"/>
+  <polygon points="672,220 663,216 663,224" fill="#111111"/>
+  <polygon points="540,72 536,81 544,81" fill="#111111"/>
+  <text x="676" y="224" font-size="13" fill="#111111">x₁</text>
+  <text x="546" y="76" font-size="13" fill="#111111">x₂</text>
+
+  <!-- l1 constraint ball -->
+  <polygon points="615,220 540,145 465,220 540,295" fill="#10b981" fill-opacity="0.22" stroke="#047857" stroke-width="2"/>
+  <text x="470" y="300" font-size="12" fill="#047857" font-weight="bold">‖x‖₁ ≤ t</text>
+
+  <!-- least-squares contours (same shape, shifted center) -->
+  <g fill="none" stroke="#b91c1c" stroke-width="1.6" transform="rotate(-33 618 128)">
+    <ellipse cx="618" cy="128" rx="118" ry="52"/>
+    <ellipse cx="618" cy="128" rx="86" ry="38"/>
+    <ellipse cx="618" cy="128" rx="55" ry="24"/>
+  </g>
+
+  <!-- OLS optimum -->
+  <circle cx="618" cy="128" r="3.5" fill="#b91c1c"/>
+  <text x="625" y="124" font-size="12" fill="#b91c1c" font-weight="bold">x̂ (OLS)</text>
+
+  <!-- constrained (lasso) solution: hits the top corner, on the x2 axis -->
+  <circle cx="540" cy="145" r="4.5" fill="#111111"/>
+  <text x="440" y="130" font-size="12" fill="#111111" font-weight="bold">x★ (x₁ = 0)</text>
+</svg>

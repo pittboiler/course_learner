@@ -1,0 +1,85 @@
+<svg viewBox="0 0 720 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <!-- ===================== PANEL A: multiplier vs quality ===================== -->
+  <text x="60" y="28" fill="#8a8a8a" font-style="italic">Two-phase multiplier grows with quality</text>
+  <text x="60" y="44" fill="#8a8a8a" font-size="11">&#966;&#178;lo = 1 + x(&#961;f/&#961;g &#8722; 1),  homogeneous, &#961;f/&#961;g &#8776; 20</text>
+
+  <!-- axes -->
+  <line x1="90" y1="70" x2="90" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="90" y1="300" x2="335" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="34" y="66" fill="#8a8a8a" font-size="12">&#966;&#178;lo</text>
+  <text x="250" y="330" fill="#8a8a8a" font-size="12">quality x</text>
+
+  <!-- y ticks: 57.5 px/unit, phi2=0 at y=300 -->
+  <line x1="85" y1="242.5" x2="90" y2="242.5" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="72" y="247" fill="#8a8a8a" font-size="11">1</text>
+  <line x1="85" y1="185" x2="90" y2="185" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="72" y="189" fill="#8a8a8a" font-size="11">2</text>
+  <line x1="85" y1="127.5" x2="90" y2="127.5" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="72" y="132" fill="#8a8a8a" font-size="11">3</text>
+  <line x1="85" y1="70" x2="90" y2="70" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="72" y="74" fill="#8a8a8a" font-size="11">4</text>
+
+  <!-- x ticks: 1600 px/unit, x=0 at 90 -->
+  <line x1="170" y1="300" x2="170" y2="305" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="156" y="320" fill="#8a8a8a" font-size="11">0.05</text>
+  <line x1="250" y1="300" x2="250" y2="305" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="236" y="320" fill="#8a8a8a" font-size="11">0.10</text>
+  <line x1="330" y1="300" x2="330" y2="305" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="316" y="320" fill="#8a8a8a" font-size="11">0.15</text>
+
+  <!-- guide lines to exit point (x=0.15, phi2=3.9 -> y=76) -->
+  <line x1="90" y1="76" x2="330" y2="76" stroke="#8a8a8a" stroke-width="0.6" stroke-dasharray="3 3"/>
+  <line x1="330" y1="76" x2="330" y2="300" stroke="#8a8a8a" stroke-width="0.6" stroke-dasharray="3 3"/>
+
+  <!-- the multiplier line (linear): (90,242.5) start, (330,76) exit -->
+  <line x1="90" y1="242.5" x2="330" y2="76" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <!-- start point -->
+  <circle cx="90" cy="242.5" r="3.5" fill="#4a90d9"/>
+  <text x="98" y="238" fill="#8a8a8a" font-size="11">all liquid: &#966;&#178;lo = 1</text>
+
+  <!-- exit point -->
+  <circle cx="330" cy="76" r="4" fill="#e0645c"/>
+  <text x="176" y="70" fill="#e0645c" font-size="12">x = 15%, &#966;&#178;lo &#8776; 3.9</text>
+
+  <!-- ===================== PANEL B: what boiling does to each term ===================== -->
+  <text x="415" y="28" fill="#8a8a8a" font-style="italic">What boiling does to each term (boiling region)</text>
+
+  <!-- axes -->
+  <line x1="430" y1="70" x2="430" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="430" y1="300" x2="700" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="392" y="66" fill="#8a8a8a" font-size="11">kPa</text>
+
+  <!-- y ticks: 10 px/kPa, 0 at y=300 -->
+  <line x1="425" y1="200" x2="430" y2="200" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="408" y="204" fill="#8a8a8a" font-size="11">10</text>
+  <line x1="425" y1="100" x2="430" y2="100" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="408" y="104" fill="#8a8a8a" font-size="11">20</text>
+
+  <!-- FRICTION group: liquid 5.8 (y=242), two-phase 14.2 (y=158) -->
+  <rect x="449" y="242" width="22" height="58" fill="#4a90d9" opacity="0.30"/>
+  <rect x="473" y="158" width="22" height="142" fill="#e0645c"/>
+  <text x="452" y="316" fill="#8a8a8a" font-size="11">friction</text>
+  <text x="466" y="150" fill="#e0645c" font-size="14">&#8593;</text>
+
+  <!-- ACCELERATION group: liquid ~0.3 (min 4px, y=296), two-phase 8.8 (y=212) -->
+  <rect x="539" y="296" width="22" height="4" fill="#4a90d9" opacity="0.30"/>
+  <rect x="563" y="212" width="22" height="88" fill="#e0645c"/>
+  <text x="536" y="316" fill="#8a8a8a" font-size="11">accel.</text>
+  <text x="552" y="204" fill="#e0645c" font-size="14">&#8593;&#8593;</text>
+
+  <!-- GRAVITY group: liquid 21.8 (y=82), two-phase 8.8 (y=212) -->
+  <rect x="629" y="82" width="22" height="218" fill="#4a90d9" opacity="0.30"/>
+  <rect x="653" y="212" width="22" height="88" fill="#4a90d9"/>
+  <text x="632" y="316" fill="#8a8a8a" font-size="11">gravity</text>
+  <text x="659" y="204" fill="#4a90d9" font-size="14">&#8595;</text>
+
+  <!-- legend -->
+  <rect x="500" y="44" width="14" height="12" fill="#4a90d9" opacity="0.30"/>
+  <text x="518" y="54" fill="#8a8a8a" font-size="11">liquid-only</text>
+  <rect x="600" y="44" width="14" height="12" fill="#e0645c"/>
+  <text x="618" y="54" fill="#8a8a8a" font-size="11">two-phase</text>
+
+  <!-- overall caption -->
+  <text x="60" y="352" fill="#8a8a8a" font-size="11">BWR channel, 7 MPa: friction and acceleration climb, gravity head falls &#8212; the tug-of-war behind natural circulation and flow stability.</text>
+</svg>

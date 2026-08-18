@@ -1,0 +1,48 @@
+<svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Uncollided flux thins by a factor 1/e every mean free path &#955; = 1/&#931;.</text>
+
+  <!-- axes -->
+  <line x1="70" y1="240" x2="590" y2="240" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="590,240 580,235 580,245" fill="#8a8a8a"/>
+  <text x="588" y="258" fill="#8a8a8a">depth x</text>
+  <line x1="70" y1="240" x2="70" y2="60" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,60 65,70 75,70" fill="#8a8a8a"/>
+  <text x="44" y="64" fill="#8a8a8a">&#966;</text>
+
+  <!-- slab front face: hatched entry surface at x=70 -->
+  <line x1="70" y1="70" x2="62" y2="80" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="70" y1="94" x2="62" y2="104" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="70" y1="118" x2="62" y2="128" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="70" y1="142" x2="62" y2="152" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="70" y1="166" x2="62" y2="176" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="70" y1="190" x2="62" y2="200" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="70" y1="214" x2="62" y2="224" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- incoming beam arrows at the entry flux level -->
+  <line x1="20" y1="70" x2="66" y2="70" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="66,70 57,66 57,74" fill="#4a90d9"/>
+  <text x="18" y="58" fill="#4a90d9">&#966;&#8320;</text>
+
+  <!-- phi0 level marker on axis -->
+  <text x="40" y="74" fill="#8a8a8a">&#966;&#8320;</text>
+
+  <!-- the exponential attenuation curve -->
+  <path d="M 70 70 L 110 118.2 L 150 152.7 L 190 177.5 L 230 195.2 L 270 207.9 L 310 217 L 350 223.5 L 390 228.2 L 430 231.5 L 470 233.9 L 510 235.6 L 550 236.9"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="300" y="150" fill="#4a90d9">&#966;(x) = &#966;&#8320; e</text>
+  <text x="372" y="142" fill="#4a90d9" font-size="11">&#8722;&#931;x</text>
+
+  <!-- phi0/e horizontal dashed line at one mean free path -->
+  <line x1="70" y1="177.5" x2="190" y2="177.5" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="26" y="182" fill="#e0645c" font-size="12">&#966;&#8320;/e</text>
+
+  <!-- vertical drop at one mean free path -->
+  <line x1="190" y1="177.5" x2="190" y2="240" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- mean free path bracket along the axis -->
+  <line x1="70" y1="256" x2="190" y2="256" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="70,256 79,252 79,260" fill="#e0645c"/>
+  <polygon points="190,256 181,252 181,260" fill="#e0645c"/>
+  <text x="110" y="274" fill="#e0645c">&#955; = 1/&#931;</text>
+</svg>

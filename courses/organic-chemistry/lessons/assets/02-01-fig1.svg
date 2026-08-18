@@ -1,0 +1,83 @@
+<svg viewBox="0 0 680 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="24" y="22" fill="#8a8a8a" font-style="italic">One move, endlessly reused: an electron pair flows from the nucleophile (blue) to the electrophilic carbon (blue); the leaving group departs with the bond&#8217;s pair.</text>
+
+  <!-- ===== reactants ===== -->
+
+  <!-- Nu with lone pair and minus charge -->
+  <circle cx="66" cy="118" r="3" fill="#4a90d9"/>
+  <circle cx="80" cy="118" r="3" fill="#4a90d9"/>
+  <text x="60" y="150" fill="#4a90d9" font-size="20" font-weight="bold">Nu</text>
+  <text x="90" y="140" fill="#4a90d9" font-size="14">&#8722;</text>
+
+  <!-- electrophilic carbon C bonded to LG -->
+  <text x="176" y="150" fill="#4a90d9" font-size="20" font-weight="bold">C</text>
+  <text x="164" y="112" fill="#8a8a8a" font-size="13">&#948;+</text>
+  <line x1="198" y1="143" x2="234" y2="143" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="238" y="150" fill="#8a8a8a" font-size="18">LG</text>
+  <text x="240" y="112" fill="#8a8a8a" font-size="13">&#948;&#8722;</text>
+
+  <!-- curved arrow 1: Nu lone pair -> C  (coral) -->
+  <path d="M 74 108 Q 128 66 178 122" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="178,122 170,113 181,112" fill="#e0645c"/>
+
+  <!-- curved arrow 2: C-LG bond pair -> LG  (coral) -->
+  <path d="M 216 136 Q 244 100 250 118" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="250,118 242,111 253,108" fill="#e0645c"/>
+
+  <!-- ===== reaction arrow ===== -->
+  <line x1="300" y1="140" x2="384" y2="140" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="384,140 374,135 374,145" fill="#8a8a8a"/>
+
+  <!-- ===== products ===== -->
+  <text x="418" y="150" fill="#4a90d9" font-size="20" font-weight="bold">Nu</text>
+  <line x1="452" y1="143" x2="470" y2="143" stroke="#4a90d9" stroke-width="2"/>
+  <text x="472" y="150" fill="#4a90d9" font-size="20" font-weight="bold">C</text>
+
+  <text x="512" y="150" fill="#8a8a8a" font-size="18">+</text>
+
+  <circle cx="546" cy="118" r="3" fill="#8a8a8a"/>
+  <circle cx="560" cy="118" r="3" fill="#8a8a8a"/>
+  <text x="540" y="150" fill="#8a8a8a" font-size="18">LG</text>
+  <text x="572" y="140" fill="#8a8a8a" font-size="14">&#8722;</text>
+
+  <!-- new bond highlight note -->
+  <text x="404" y="180" fill="#e0645c" font-size="12" font-style="italic">new bond</text>
+  <line x1="461" y1="168" x2="461" y2="150" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- ===== divider ===== -->
+  <line x1="24" y1="216" x2="656" y2="216" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 5"/>
+  <text x="24" y="238" fill="#8a8a8a" font-size="12" font-style="italic">A few functional groups, each pre-tagged as a nucleophile (Nu, electron-rich) or electrophile (E, electron-poor) site:</text>
+
+  <!-- icon 1: alkene (Nu, pi bond) -->
+  <line x1="60" y1="280" x2="100" y2="280" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="62" y1="286" x2="98" y2="286" stroke="#e0645c" stroke-width="2"/>
+  <text x="46" y="308" fill="#8a8a8a" font-size="12">alkene &#960; (Nu)</text>
+
+  <!-- icon 2: carbonyl (E) -->
+  <line x1="210" y1="288" x2="238" y2="272" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="214" y1="292" x2="242" y2="276" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="244" y="270" fill="#e0645c" font-size="15" font-weight="bold">O</text>
+  <text x="196" y="300" fill="#4a90d9" font-size="13" font-weight="bold">C</text>
+  <text x="196" y="320" fill="#8a8a8a" font-size="12">carbonyl (E)</text>
+
+  <!-- icon 3: alkyl halide (E) -->
+  <line x1="360" y1="284" x2="392" y2="284" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="344" y="290" fill="#4a90d9" font-size="13" font-weight="bold">C</text>
+  <text x="394" y="290" fill="#e0645c" font-size="14" font-weight="bold">Br</text>
+  <text x="352" y="312" fill="#8a8a8a" font-size="12">R&#8211;X (E)</text>
+
+  <!-- icon 4: amine (Nu, lone pair) -->
+  <circle cx="516" cy="270" r="3" fill="#e0645c"/>
+  <circle cx="528" cy="270" r="3" fill="#e0645c"/>
+  <text x="510" y="290" fill="#4a90d9" font-size="15" font-weight="bold">N</text>
+  <text x="530" y="290" fill="#8a8a8a" font-size="12">H</text>
+  <text x="496" y="312" fill="#8a8a8a" font-size="12">amine (Nu)</text>
+
+  <!-- icon 5: alcohol O-H (Nu; also weak acid) -->
+  <circle cx="622" cy="270" r="3" fill="#e0645c"/>
+  <circle cx="634" cy="270" r="3" fill="#e0645c"/>
+  <text x="616" y="290" fill="#4a90d9" font-size="15" font-weight="bold">O</text>
+  <text x="636" y="290" fill="#8a8a8a" font-size="12">H</text>
+  <text x="602" y="312" fill="#8a8a8a" font-size="12">alcohol (Nu)</text>
+</svg>

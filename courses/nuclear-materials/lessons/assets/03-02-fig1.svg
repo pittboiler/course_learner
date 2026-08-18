@@ -1,0 +1,80 @@
+<svg viewBox="0 0 700 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">One number, the linear power, sets the centerline rise; the microstructure records how hot each ring ran.</text>
+
+  <!-- ============ LEFT: radial temperature profile ============ -->
+
+  <!-- hot-zone shading (region above the 1000 C threshold) -->
+  <rect x="124" y="90" width="122" height="160" fill="#e0645c" opacity="0.08"/>
+
+  <!-- T axis (vertical) -->
+  <line x1="70" y1="255" x2="70" y2="78" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,78 65,88 75,88" fill="#8a8a8a"/>
+  <text x="52" y="82" fill="#8a8a8a">T</text>
+
+  <!-- r axis (position across the pellet) -->
+  <line x1="60" y1="250" x2="312" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="312,250 302,245 302,255" fill="#8a8a8a"/>
+  <text x="316" y="255" fill="#8a8a8a">r</text>
+  <text x="60" y="270" fill="#8a8a8a">&#8722;a</text>
+  <text x="181" y="270" fill="#8a8a8a">0</text>
+  <text x="289" y="270" fill="#8a8a8a">+a</text>
+
+  <!-- T0 reference line -->
+  <line x1="70" y1="90" x2="295" y2="90" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="40" y="94" fill="#8a8a8a">T<tspan baseline-shift="sub" font-size="10">0</tspan></text>
+
+  <!-- Ts reference line -->
+  <line x1="70" y1="225" x2="295" y2="225" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="40" y="229" fill="#8a8a8a">T<tspan baseline-shift="sub" font-size="10">s</tspan></text>
+
+  <!-- 1000 C release threshold -->
+  <line x1="70" y1="131.7" x2="295" y2="131.7" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="150" y="126" fill="#e0645c" font-size="12">1000 &#176;C threshold</text>
+
+  <!-- crossings: thin verticals marking the hot zone width -->
+  <line x1="124" y1="131.7" x2="124" y2="250" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 3"/>
+  <line x1="246" y1="131.7" x2="246" y2="250" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 3"/>
+
+  <!-- parabolic T(r) -->
+  <path d="M 75 225 L 97 176.4 L 119 138.6 L 141 111.6 L 163 95.4 L 185 90 L 207 95.4 L 229 111.6 L 251 138.6 L 273 176.4 L 295 225"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="196" y="86" fill="#4a90d9" font-size="12">T(r) = T<tspan baseline-shift="sub" font-size="9">0</tspan> &#8722; (T<tspan baseline-shift="sub" font-size="9">0</tspan>&#8722;T<tspan baseline-shift="sub" font-size="9">s</tspan>)(r/a)&#178;</text>
+
+  <!-- ============ RIGHT: pellet cross-section, restructuring zones ============ -->
+
+  <!-- rim (as-fabricated) -->
+  <circle cx="480" cy="185" r="110" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <!-- equiaxed boundary -->
+  <circle cx="480" cy="185" r="80" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <!-- columnar boundary -->
+  <circle cx="480" cy="185" r="48" fill="none" stroke="#4a90d9" stroke-width="1.5"/>
+  <!-- central void -->
+  <circle cx="480" cy="185" r="20" fill="#e0645c" opacity="0.18"/>
+  <circle cx="480" cy="185" r="20" fill="none" stroke="#e0645c" stroke-width="1.5"/>
+
+  <!-- columnar-grain spokes (radial, pointing to the hot center) -->
+  <line x1="502" y1="185" x2="526" y2="185" stroke="#4a90d9" stroke-width="1"/>
+  <line x1="495.6" y1="200.6" x2="512.5" y2="217.5" stroke="#4a90d9" stroke-width="1"/>
+  <line x1="480" y1="207" x2="480" y2="231" stroke="#4a90d9" stroke-width="1"/>
+  <line x1="464.4" y1="200.6" x2="447.5" y2="217.5" stroke="#4a90d9" stroke-width="1"/>
+  <line x1="458" y1="185" x2="434" y2="185" stroke="#4a90d9" stroke-width="1"/>
+  <line x1="464.4" y1="169.4" x2="447.5" y2="152.5" stroke="#4a90d9" stroke-width="1"/>
+  <line x1="480" y1="163" x2="480" y2="139" stroke="#4a90d9" stroke-width="1"/>
+  <line x1="495.6" y1="169.4" x2="512.5" y2="152.5" stroke="#4a90d9" stroke-width="1"/>
+
+  <!-- leader lines + labels -->
+  <line x1="480" y1="165" x2="596" y2="72" stroke="#8a8a8a" stroke-width="0.8"/>
+  <text x="600" y="76" fill="#8a8a8a" font-size="12">central void (hottest)</text>
+
+  <line x1="499.5" y1="157.2" x2="596" y2="112" stroke="#8a8a8a" stroke-width="0.8"/>
+  <text x="600" y="116" fill="#4a90d9" font-size="12">columnar grains</text>
+
+  <line x1="538" y1="158" x2="596" y2="150" stroke="#8a8a8a" stroke-width="0.8"/>
+  <text x="600" y="154" fill="#8a8a8a" font-size="12">equiaxed grains</text>
+
+  <line x1="573.6" y1="168.5" x2="596" y2="188" stroke="#8a8a8a" stroke-width="0.8"/>
+  <text x="600" y="192" fill="#8a8a8a" font-size="12">as-fabricated rim</text>
+
+  <text x="405" y="315" fill="#8a8a8a" font-size="12">cross-section: hot &#8594; cool from center out</text>
+</svg>

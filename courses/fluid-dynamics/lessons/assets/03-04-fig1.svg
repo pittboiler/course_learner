@@ -1,0 +1,75 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">A thin layer hugs the plate: velocity climbs from 0 at the wall to U over a thickness δ(x) ∼ √(νx/U), growing like √x.</text>
+
+  <!-- boundary-layer region shading (coral, soft) -->
+  <path d="M 60 260 L 90 224.4 L 120 209.6 L 180 188.8 L 270 165.8 L 390 141.9 L 540 117.6 L 600 108.9 L 600 260 Z"
+        fill="#e0645c" opacity="0.15"/>
+
+  <!-- free-stream arrows (inviscid outer flow) -->
+  <line x1="90" y1="70" x2="180" y2="70" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="180,70 170,65 170,75" fill="#4a90d9"/>
+  <line x1="260" y1="70" x2="350" y2="70" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="350,70 340,65 340,75" fill="#4a90d9"/>
+  <line x1="430" y1="70" x2="520" y2="70" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="520,70 510,65 510,75" fill="#4a90d9"/>
+  <text x="300" y="58" fill="#4a90d9">U   (free stream — effectively inviscid, potential flow)</text>
+
+  <!-- velocity profiles u(y): fill from 0 at wall to U at the BL edge -->
+  <!-- station A (x small) -->
+  <line x1="180" y1="260" x2="180" y2="188.8" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <path d="M 180 260 L 196.3 245.8 L 211.2 231.5 L 223.6 217.3 L 231.9 203.0 L 235 188.8"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <!-- a few velocity vectors on station A -->
+  <line x1="180" y1="245.8" x2="196.3" y2="245.8" stroke="#4a90d9" stroke-width="1"/>
+  <polygon points="196.3,245.8 190,243 190,248.6" fill="#4a90d9"/>
+  <line x1="180" y1="217.3" x2="223.6" y2="217.3" stroke="#4a90d9" stroke-width="1"/>
+  <polygon points="223.6,217.3 217.3,214.5 217.3,220.1" fill="#4a90d9"/>
+
+  <!-- station B (x middle) -->
+  <line x1="360" y1="260" x2="360" y2="147.4" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <path d="M 360 260 L 376.3 237.5 L 391.2 215.0 L 403.6 192.4 L 411.9 169.9 L 415 147.4"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <!-- station C (x large) -->
+  <line x1="540" y1="260" x2="540" y2="117.6" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <path d="M 540 260 L 556.3 231.5 L 571.2 203.0 L 583.6 174.6 L 591.9 146.1 L 595 117.6"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <!-- boundary-layer edge δ(x) envelope (coral) -->
+  <path d="M 60 260 L 90 224.4 L 120 209.6 L 180 188.8 L 270 165.8 L 390 141.9 L 540 117.6 L 600 108.9"
+        fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="602" y="106" fill="#e0645c">δ(x)</text>
+
+  <!-- δ measuring arrow at station C -->
+  <line x1="527" y1="260" x2="527" y2="117.6" stroke="#e0645c" stroke-width="1"/>
+  <polygon points="527,117.6 523,127 531,127" fill="#e0645c"/>
+  <polygon points="527,260 523,250 531,250" fill="#e0645c"/>
+  <text x="505" y="192" fill="#e0645c">δ</text>
+
+  <!-- the plate (wall) -->
+  <line x1="60" y1="260" x2="600" y2="260" stroke="#8a8a8a" stroke-width="3"/>
+  <!-- hatching below the plate = solid wall -->
+  <line x1="72" y1="260" x2="60" y2="272" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="112" y1="260" x2="100" y2="272" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="152" y1="260" x2="140" y2="272" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="192" y1="260" x2="180" y2="272" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="232" y1="260" x2="220" y2="272" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="272" y1="260" x2="260" y2="272" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="312" y1="260" x2="300" y2="272" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="352" y1="260" x2="340" y2="272" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="392" y1="260" x2="380" y2="272" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="432" y1="260" x2="420" y2="272" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="472" y1="260" x2="460" y2="272" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="512" y1="260" x2="500" y2="272" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="552" y1="260" x2="540" y2="272" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="592" y1="260" x2="580" y2="272" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- leading edge + x axis -->
+  <text x="44" y="278" fill="#8a8a8a">0</text>
+  <text x="30" y="256" fill="#8a8a8a">no-slip: u = 0 at wall</text>
+  <line x1="60" y1="290" x2="600" y2="290" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="600,290 590,285 590,295" fill="#8a8a8a"/>
+  <text x="604" y="295" fill="#8a8a8a">x</text>
+  <text x="300" y="308" fill="#8a8a8a" font-style="italic">distance along the plate from the leading edge</text>
+</svg>

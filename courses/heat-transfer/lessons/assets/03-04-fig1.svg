@@ -1,0 +1,31 @@
+<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <!-- tube schematic across the top -->
+  <rect x="90" y="24" width="500" height="26" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="70" y="41" font-size="12" fill="#8a8a8a" text-anchor="end">flow</text>
+  <line x1="100" y1="37" x2="150" y2="37" stroke="#8a8a8a" stroke-width="1.5"/>
+  <path d="M150 37 l-8 -4 v8 z" fill="#8a8a8a"/>
+  <text x="340" y="19" font-size="12" fill="#8a8a8a" text-anchor="middle">heated wall, Ts = 90 &#176;C</text>
+
+  <!-- plot axes -->
+  <line x1="90" y1="60" x2="90" y2="320" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="90" y1="320" x2="600" y2="320" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="118" y="345" font-size="13" fill="#8a8a8a">x  (distance along tube)</text>
+  <text x="40" y="190" font-size="13" fill="#8a8a8a" transform="rotate(-90 40 190)">mean temperature  Tm(x)</text>
+
+  <!-- Ts asymptote line -->
+  <line x1="90" y1="90" x2="600" y2="90" stroke="#8a8a8a" stroke-width="1.4" stroke-dasharray="6 5"/>
+  <text x="596" y="84" font-size="12" fill="#8a8a8a" text-anchor="end">Ts  (wall temperature)</text>
+
+  <!-- inlet marker -->
+  <circle cx="90" cy="270" r="3.5" fill="#8a8a8a"/>
+  <text x="98" y="288" font-size="12" fill="#8a8a8a">Tm,i  (inlet)</text>
+
+  <!-- constant q'' : straight line, gap to wall stays fixed -->
+  <polyline points="90,270 590,150" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="470" y="205" font-size="12.5" fill="#4a90d9">constant q&#8242;&#8242; (linear rise)</text>
+
+  <!-- constant Ts : exponential approach to Ts -->
+  <polyline points="90,270 165,201 240,159 315,133 390,116 465,106 540,100 590,97"
+            fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="300" y="126" font-size="12.5" fill="#e0645c">constant Ts (exponential approach)</text>
+</svg>

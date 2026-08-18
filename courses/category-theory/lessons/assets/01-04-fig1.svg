@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 430" width="760" height="430">
+  <rect x="0" y="0" width="760" height="430" fill="#ffffff"/>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#111111"/>
+    </marker>
+    <marker id="fatarrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#111111"/>
+    </marker>
+  </defs>
+
+  <!-- category labels -->
+  <text x="40"  y="52" font-family="Helvetica, Arial, sans-serif" font-size="30" font-style="italic" fill="#111111">C</text>
+  <text x="425" y="52" font-family="Helvetica, Arial, sans-serif" font-size="30" font-style="italic" fill="#111111">D</text>
+
+  <!-- dashed frames -->
+  <rect x="24" y="70" width="300" height="330" rx="14" fill="none" stroke="#999999" stroke-width="1.5" stroke-dasharray="6 6"/>
+  <rect x="410" y="70" width="326" height="330" rx="14" fill="none" stroke="#999999" stroke-width="1.5" stroke-dasharray="6 6"/>
+
+  <!-- ===== LEFT: C ===== -->
+  <circle cx="90"  cy="315" r="6" fill="#111111"/>
+  <circle cx="205" cy="130" r="6" fill="#111111"/>
+  <circle cx="320" cy="315" r="6" fill="#111111"/>
+  <text x="66"  y="338" font-family="Helvetica, Arial, sans-serif" font-size="24" font-style="italic" fill="#111111">A</text>
+  <text x="197" y="115" font-family="Helvetica, Arial, sans-serif" font-size="24" font-style="italic" fill="#111111">B</text>
+  <text x="324" y="338" font-family="Helvetica, Arial, sans-serif" font-size="24" font-style="italic" fill="#111111">C</text>
+
+  <!-- f : A -> B -->
+  <line x1="96"  y1="305" x2="199" y2="140" stroke="#111111" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="118" y="215" font-family="Helvetica, Arial, sans-serif" font-size="22" font-style="italic" fill="#111111">f</text>
+  <!-- g : B -> C -->
+  <line x1="211" y1="140" x2="314" y2="305" stroke="#111111" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="278" y="215" font-family="Helvetica, Arial, sans-serif" font-size="22" font-style="italic" fill="#111111">g</text>
+  <!-- g o f : A -> C -->
+  <path d="M 100 328 Q 205 402 310 328" fill="none" stroke="#111111" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="176" y="392" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#111111">g&#8728;f</text>
+
+  <!-- ===== The functor F ===== -->
+  <path d="M 336 215 L 398 215" fill="none" stroke="#111111" stroke-width="3" marker-end="url(#fatarrow)"/>
+  <text x="352" y="200" font-family="Helvetica, Arial, sans-serif" font-size="26" font-style="italic" fill="#111111">F</text>
+
+  <!-- ===== RIGHT: D ===== -->
+  <circle cx="470" cy="315" r="6" fill="#111111"/>
+  <circle cx="585" cy="130" r="6" fill="#111111"/>
+  <circle cx="700" cy="315" r="6" fill="#111111"/>
+  <text x="440" y="340" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#111111">FA</text>
+  <text x="565" y="115" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#111111">FB</text>
+  <text x="704" y="340" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#111111">FC</text>
+
+  <!-- Ff -->
+  <line x1="476" y1="305" x2="579" y2="140" stroke="#111111" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="492" y="215" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#111111">Ff</text>
+  <!-- Fg -->
+  <line x1="591" y1="140" x2="694" y2="305" stroke="#111111" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="655" y="215" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#111111">Fg</text>
+  <!-- F(g o f) = Fg o Ff -->
+  <path d="M 480 328 Q 585 402 690 328" fill="none" stroke="#111111" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="512" y="392" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#111111">F(g&#8728;f) = Fg&#8728;Ff</text>
+</svg>

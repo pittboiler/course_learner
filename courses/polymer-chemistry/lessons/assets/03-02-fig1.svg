@@ -1,0 +1,40 @@
+<svg viewBox="0 0 620 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">One chain folds back and forth into a crystalline lamella; the disordered amorphous zone and its</text>
+  <text x="20" y="40" fill="#8a8a8a" font-style="italic">tie molecules are why crystallinity is never 100%.</text>
+
+  <!-- ===== lamella A (blue folded chain) ===== -->
+  <path d="M 150 60 L 150 130 A 9 6 0 0 0 168 130 L 168 60 A 9 6 0 0 1 186 60 L 186 130 A 9 6 0 0 0 204 130 L 204 60 A 9 6 0 0 1 222 60 L 222 130 A 9 6 0 0 0 240 130 L 240 60 A 9 6 0 0 1 258 60 L 258 130 A 9 6 0 0 0 276 130 L 276 60"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <!-- ===== lamella B (blue folded chain) ===== -->
+  <path d="M 150 210 L 150 280 A 9 6 0 0 0 168 280 L 168 210 A 9 6 0 0 1 186 210 L 186 280 A 9 6 0 0 0 204 280 L 204 210 A 9 6 0 0 1 222 210 L 222 280 A 9 6 0 0 0 240 280 L 240 210 A 9 6 0 0 1 258 210 L 258 280 A 9 6 0 0 0 276 280 L 276 210"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <!-- loose amorphous coil (grey squiggle) -->
+  <path d="M 66 152 C 92 140, 104 168, 90 180 C 78 190, 116 196, 130 182 C 146 168, 118 158, 142 150"
+        fill="none" stroke="#8a8a8a" stroke-width="2"/>
+
+  <!-- tie molecule (coral) bridging the two lamellae -->
+  <path d="M 222 130 C 250 148, 198 166, 236 186 C 258 197, 210 200, 222 210"
+        fill="none" stroke="#e0645c" stroke-width="2.5"/>
+
+  <!-- lamellar-thickness marker (coral) on the left of lamella A -->
+  <line x1="133" y1="60" x2="133" y2="130" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="133,60 129,69 137,69" fill="#e0645c"/>
+  <polygon points="133,130 129,121 137,121" fill="#e0645c"/>
+  <text x="116" y="99" fill="#e0645c">l</text>
+
+  <!-- labels -->
+  <text x="300" y="90" fill="#8a8a8a">crystalline lamella</text>
+  <text x="300" y="108" fill="#8a8a8a">(folded chains, ordered)</text>
+
+  <text x="300" y="165" fill="#8a8a8a">amorphous region</text>
+  <text x="300" y="183" fill="#8a8a8a">(entangled, disordered)</text>
+
+  <text x="300" y="245" fill="#8a8a8a">crystalline lamella</text>
+
+  <!-- tie-molecule leader + label -->
+  <line x1="248" y1="180" x2="296" y2="205" stroke="#e0645c" stroke-width="1"/>
+  <text x="300" y="210" fill="#e0645c">tie molecule</text>
+</svg>

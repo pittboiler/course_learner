@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 360" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="440" height="360" fill="#ffffff"/>
+
+  <!-- part labels -->
+  <text x="110" y="30" font-size="16" fill="#0057b0" text-anchor="middle" font-weight="bold">X</text>
+  <text x="330" y="30" font-size="16" fill="#0057b0" text-anchor="middle" font-weight="bold">Y</text>
+
+  <!-- non-matching edges (thin) -->
+  <line x1="110" y1="70"  x2="330" y2="150" stroke="#1a1a1a" stroke-width="2"/>
+  <line x1="110" y1="150" x2="330" y2="230" stroke="#1a1a1a" stroke-width="2"/>
+  <line x1="110" y1="230" x2="330" y2="310" stroke="#1a1a1a" stroke-width="2"/>
+  <line x1="110" y1="310" x2="330" y2="70"  stroke="#1a1a1a" stroke-width="2"/>
+
+  <!-- matching edges (bold red) -->
+  <line x1="110" y1="70"  x2="330" y2="70"  stroke="#b00020" stroke-width="5"/>
+  <line x1="110" y1="150" x2="330" y2="150" stroke="#b00020" stroke-width="5"/>
+  <line x1="110" y1="230" x2="330" y2="230" stroke="#b00020" stroke-width="5"/>
+  <line x1="110" y1="310" x2="330" y2="310" stroke="#b00020" stroke-width="5"/>
+
+  <!-- X vertices -->
+  <circle cx="110" cy="70"  r="16" fill="#cfe8ff" stroke="#1a1a1a" stroke-width="2.5"/>
+  <circle cx="110" cy="150" r="16" fill="#cfe8ff" stroke="#1a1a1a" stroke-width="2.5"/>
+  <circle cx="110" cy="230" r="16" fill="#cfe8ff" stroke="#1a1a1a" stroke-width="2.5"/>
+  <circle cx="110" cy="310" r="16" fill="#cfe8ff" stroke="#1a1a1a" stroke-width="2.5"/>
+
+  <!-- Y vertices -->
+  <circle cx="330" cy="70"  r="16" fill="#ffe3b3" stroke="#1a1a1a" stroke-width="2.5"/>
+  <circle cx="330" cy="150" r="16" fill="#ffe3b3" stroke="#1a1a1a" stroke-width="2.5"/>
+  <circle cx="330" cy="230" r="16" fill="#ffe3b3" stroke="#1a1a1a" stroke-width="2.5"/>
+  <circle cx="330" cy="310" r="16" fill="#ffe3b3" stroke="#1a1a1a" stroke-width="2.5"/>
+
+  <!-- X labels -->
+  <text x="110" y="75"  font-size="14" fill="#1a1a1a" text-anchor="middle" font-weight="bold">x1</text>
+  <text x="110" y="155" font-size="14" fill="#1a1a1a" text-anchor="middle" font-weight="bold">x2</text>
+  <text x="110" y="235" font-size="14" fill="#1a1a1a" text-anchor="middle" font-weight="bold">x3</text>
+  <text x="110" y="315" font-size="14" fill="#1a1a1a" text-anchor="middle" font-weight="bold">x4</text>
+
+  <!-- Y labels -->
+  <text x="330" y="75"  font-size="14" fill="#1a1a1a" text-anchor="middle" font-weight="bold">y1</text>
+  <text x="330" y="155" font-size="14" fill="#1a1a1a" text-anchor="middle" font-weight="bold">y2</text>
+  <text x="330" y="235" font-size="14" fill="#1a1a1a" text-anchor="middle" font-weight="bold">y3</text>
+  <text x="330" y="315" font-size="14" fill="#1a1a1a" text-anchor="middle" font-weight="bold">y4</text>
+
+  <!-- legend -->
+  <line x1="150" y1="345" x2="185" y2="345" stroke="#b00020" stroke-width="5"/>
+  <text x="193" y="350" font-size="13" fill="#1a1a1a">matching M (bold)</text>
+</svg>

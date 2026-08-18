@@ -1,0 +1,41 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">A Gaussian beam: pinched to the waist w&#8320; at z = 0, spreading into a cone of half-angle &#952; far away.</text>
+
+  <!-- optical (z) axis -->
+  <line x1="30" y1="170" x2="612" y2="170" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="612,170 602,165 602,175" fill="#8a8a8a"/>
+  <text x="600" y="190" fill="#8a8a8a">z</text>
+  <text x="308" y="326" fill="#8a8a8a">0</text>
+
+  <!-- divergence-cone asymptotes (dashed coral) -->
+  <line x1="320" y1="170" x2="600" y2="102" stroke="#e0645c" stroke-width="1.2" stroke-dasharray="4 4"/>
+  <line x1="320" y1="170" x2="600" y2="238" stroke="#e0645c" stroke-width="1.2" stroke-dasharray="4 4"/>
+
+  <!-- beam envelope: upper w(z) -->
+  <path d="M 50 100 L 95 111 L 140 121 L 185 130 L 230 139 L 275 145 L 320 148 L 365 145 L 410 139 L 455 130 L 500 121 L 545 111 L 590 100"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <!-- beam envelope: lower -w(z) -->
+  <path d="M 50 240 L 95 229 L 140 219 L 185 210 L 230 201 L 275 195 L 320 192 L 365 195 L 410 201 L 455 210 L 500 219 L 545 229 L 590 240"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- waist marker w0 (coral double arrow at z=0) -->
+  <line x1="320" y1="170" x2="320" y2="148" stroke="#e0645c" stroke-width="1.8"/>
+  <polygon points="320,148 316,157 324,157" fill="#e0645c"/>
+  <polygon points="320,170 316,161 324,161" fill="#e0645c"/>
+  <text x="284" y="145" fill="#e0645c">w&#8320;</text>
+
+  <!-- Rayleigh range z_R: dashed vertical at z = z_R, where w = sqrt(2) w0 -->
+  <line x1="410" y1="170" x2="410" y2="139" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="410" y1="139" x2="410" y2="201" stroke="#e0645c" stroke-width="1.8"/>
+  <polygon points="410,139 406,148 414,148" fill="#e0645c"/>
+  <polygon points="410,201 406,192 414,192" fill="#e0645c"/>
+  <text x="416" y="135" fill="#e0645c">&#8730;2 w&#8320;</text>
+  <!-- z_R tick on axis -->
+  <line x1="410" y1="170" x2="410" y2="238" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="398" y="256" fill="#8a8a8a">z_R</text>
+
+  <!-- divergence half-angle theta, near the axis on the right -->
+  <path d="M 470 170 A 150 150 0 0 0 470 133" fill="none" stroke="#e0645c" stroke-width="1.2"/>
+  <text x="478" y="150" fill="#e0645c">&#952;</text>
+</svg>

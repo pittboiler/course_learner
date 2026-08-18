@@ -1,0 +1,48 @@
+<svg viewBox="0 0 340 340" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#e8590c"/>
+    </marker>
+  </defs>
+
+  <!-- card -->
+  <rect x="0" y="0" width="340" height="340" rx="14" fill="#faf9f6"/>
+
+  <!-- clock face -->
+  <circle cx="170" cy="170" r="130" fill="none" stroke="#333333" stroke-width="2.5"/>
+
+  <!-- tick marks + numbers 0..6 -->
+  <!-- 0 top -->
+  <line x1="170" y1="44" x2="170" y2="58" stroke="#333333" stroke-width="2"/>
+  <text x="170" y="34" fill="#333333" font-size="20" text-anchor="middle">0</text>
+  <!-- 1 -->
+  <line x1="277.6" y1="106.2" x2="266.3" y2="112.7" stroke="#333333" stroke-width="2"/>
+  <text x="299" y="102" fill="#333333" font-size="20" text-anchor="middle">1</text>
+  <!-- 2 -->
+  <line x1="296.7" y1="199.7" x2="285.4" y2="193.2" stroke="#333333" stroke-width="2"/>
+  <text x="316" y="205" fill="#333333" font-size="20" text-anchor="middle">2</text>
+  <!-- 3 -->
+  <line x1="226.1" y1="287.1" x2="219.6" y2="275.8" stroke="#333333" stroke-width="2"/>
+  <text x="230" y="309" fill="#333333" font-size="20" text-anchor="middle">3</text>
+  <!-- 4 -->
+  <line x1="113.9" y1="287.1" x2="120.4" y2="275.8" stroke="#333333" stroke-width="2"/>
+  <text x="110" y="309" fill="#333333" font-size="20" text-anchor="middle">4</text>
+  <!-- 5 -->
+  <line x1="43.3" y1="199.7" x2="54.6" y2="193.2" stroke="#333333" stroke-width="2"/>
+  <text x="24" y="205" fill="#333333" font-size="20" text-anchor="middle">5</text>
+  <!-- 6 -->
+  <line x1="62.4" y1="106.2" x2="73.7" y2="112.7" stroke="#333333" stroke-width="2"/>
+  <text x="41" y="102" fill="#333333" font-size="20" text-anchor="middle">6</text>
+
+  <!-- accent arc: start at 5, sweep 4 steps clockwise past 0 to land on 2 -->
+  <path d="M 77.4 191.1 A 95 95 0 1 1 262.6 191.1"
+        fill="none" stroke="#e8590c" stroke-width="4" stroke-linecap="round"
+        marker-end="url(#arrow)"/>
+
+  <!-- start dot at 5 -->
+  <circle cx="77.4" cy="191.1" r="5" fill="#e8590c"/>
+
+  <!-- caption -->
+  <text x="170" y="176" fill="#333333" font-size="20" text-anchor="middle" font-weight="bold">5 + 4 &#8801; 2</text>
+  <text x="170" y="200" fill="#333333" font-size="15" text-anchor="middle">(mod 7)</text>
+</svg>

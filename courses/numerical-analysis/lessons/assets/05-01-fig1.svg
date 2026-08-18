@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 380" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="520" height="380" fill="#ffffff"/>
+
+  <!-- column space plane col(A) -->
+  <polygon points="80,240 280,300 470,250 270,190" fill="#d9e6f2" stroke="#111111" stroke-width="1.5"/>
+  <text x="95" y="288" font-size="15" fill="#1f4e79" font-style="italic">col(A)  (the plane A can reach)</text>
+
+  <!-- origin -->
+  <circle cx="230" cy="245" r="3.5" fill="#111111"/>
+  <text x="205" y="262" font-size="14" fill="#111111">O</text>
+
+  <!-- column vectors spanning the plane -->
+  <line x1="230" y1="245" x2="140" y2="278" stroke="#555555" stroke-width="1.5"/>
+  <polygon points="140,278 150,272 149,282" fill="#555555"/>
+  <text x="120" y="272" font-size="13" fill="#555555">a₁</text>
+  <line x1="230" y1="245" x2="345" y2="218" stroke="#555555" stroke-width="1.5"/>
+  <polygon points="345,218 335,216 338,226" fill="#555555"/>
+  <text x="350" y="214" font-size="13" fill="#555555">a₂</text>
+
+  <!-- b vector -->
+  <line x1="230" y1="245" x2="355" y2="105" stroke="#c0392b" stroke-width="2.5"/>
+  <polygon points="355,105 347,116 359,118" fill="#c0392b"/>
+  <text x="362" y="102" font-size="17" fill="#c0392b" font-weight="bold">b</text>
+
+  <!-- projection Ax (foot of perpendicular) -->
+  <line x1="230" y1="245" x2="330" y2="250" stroke="#1a7f37" stroke-width="2.5"/>
+  <polygon points="330,250 320,246 321,256" fill="#1a7f37"/>
+  <circle cx="330" cy="250" r="3.5" fill="#1a7f37"/>
+  <text x="300" y="272" font-size="16" fill="#1a7f37" font-weight="bold">Ax = proj</text>
+
+  <!-- residual b - Ax, orthogonal to plane -->
+  <line x1="330" y1="250" x2="355" y2="105" stroke="#b8860b" stroke-width="2.5" stroke-dasharray="7,5"/>
+  <text x="360" y="185" font-size="16" fill="#b8860b" font-weight="bold">b − Ax</text>
+
+  <!-- right-angle marker at the foot -->
+  <polyline points="341.6,246.9 343.6,235.1 332,238.2" fill="none" stroke="#111111" stroke-width="1.3"/>
+
+  <text x="150" y="35" font-size="16" fill="#111111" font-weight="bold">Least squares = drop a perpendicular from b onto col(A)</text>
+</svg>

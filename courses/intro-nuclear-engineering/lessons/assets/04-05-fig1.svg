@@ -1,0 +1,89 @@
+<svg viewBox="0 0 700 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">A PWR: fission heat rides the sealed primary loop (blue, no boiling) into the steam generator, boiling the secondary loop (coral) that spins the turbine.</text>
+
+  <!-- ===================== PRIMARY LOOP (blue) ===================== -->
+
+  <!-- reactor pressure vessel -->
+  <rect x="55" y="175" width="80" height="120" rx="9" fill="#4a90d9" opacity="0.06" stroke="#4a90d9" stroke-width="2"/>
+  <rect x="55" y="175" width="80" height="120" rx="9" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <!-- core -->
+  <rect x="76" y="212" width="38" height="72" rx="3" fill="#e0645c" opacity="0.20" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="95" y="245" fill="#e0645c" text-anchor="middle" font-size="12">core</text>
+  <text x="95" y="261" fill="#e0645c" text-anchor="middle" font-size="12">fission</text>
+  <text x="95" y="275" fill="#e0645c" text-anchor="middle" font-size="12">heat</text>
+  <text x="95" y="315" fill="#8a8a8a" text-anchor="middle" font-size="12">reactor vessel</text>
+
+  <!-- hot leg: vessel top-right to steam generator -->
+  <path d="M 135 200 L 250 200" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <polygon points="208,200 199,196 199,204" fill="#4a90d9"/>
+  <text x="172" y="192" fill="#4a90d9" text-anchor="middle" font-size="11">hot leg</text>
+
+  <!-- pressurizer on the hot leg -->
+  <line x1="195" y1="200" x2="195" y2="170" stroke="#4a90d9" stroke-width="2"/>
+  <rect x="178" y="122" width="34" height="48" rx="6" fill="#4a90d9" opacity="0.06" stroke="#4a90d9" stroke-width="2"/>
+  <text x="195" y="112" fill="#4a90d9" text-anchor="middle" font-size="11">pressurizer</text>
+
+  <!-- cold leg + primary pump: steam generator back to vessel -->
+  <path d="M 250 270 L 135 270" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <polygon points="222,270 231,266 231,274" fill="#4a90d9"/>
+  <circle cx="172" cy="270" r="14" fill="#4a90d9" opacity="0.10" stroke="#4a90d9" stroke-width="2"/>
+  <text x="172" y="298" fill="#4a90d9" text-anchor="middle" font-size="11">pump</text>
+
+  <!-- steam generator shell -->
+  <rect x="250" y="120" width="66" height="175" rx="8" fill="#4a90d9" opacity="0.05" stroke="#4a90d9" stroke-width="2"/>
+  <!-- U-tubes (primary water gives up heat) -->
+  <path d="M 262 288 L 262 156 Q 262 145 276 145 Q 290 145 290 156 L 290 288" fill="none" stroke="#4a90d9" stroke-width="1.2"/>
+  <path d="M 272 288 L 272 168 Q 272 159 282 159 Q 292 159 292 168 L 292 288" fill="none" stroke="#4a90d9" stroke-width="1.2"/>
+  <!-- boiling on the secondary side -->
+  <circle cx="303" cy="250" r="2.6" fill="#e0645c"/>
+  <circle cx="300" cy="235" r="2.2" fill="#e0645c"/>
+  <circle cx="305" cy="222" r="2.4" fill="#e0645c"/>
+  <text x="283" y="312" fill="#8a8a8a" text-anchor="middle" font-size="11">steam generator</text>
+
+  <!-- ===================== SECONDARY LOOP (coral) ===================== -->
+
+  <!-- steam line: SG top to turbine -->
+  <path d="M 283 120 L 283 90 L 445 90 L 445 118" fill="none" stroke="#e0645c" stroke-width="3"/>
+  <polygon points="400,90 391,86 391,94" fill="#e0645c"/>
+  <text x="360" y="82" fill="#e0645c" text-anchor="middle" font-size="11">steam</text>
+
+  <!-- turbine -->
+  <polygon points="445,118 515,100 515,182 445,164" fill="#e0645c" opacity="0.15" stroke="#e0645c" stroke-width="2"/>
+  <text x="480" y="146" fill="#e0645c" text-anchor="middle" font-size="12">turbine</text>
+
+  <!-- shaft to generator -->
+  <line x1="515" y1="141" x2="538" y2="141" stroke="#8a8a8a" stroke-width="2"/>
+  <circle cx="562" cy="141" r="23" fill="#e0645c" opacity="0.10" stroke="#e0645c" stroke-width="2"/>
+  <text x="562" y="146" fill="#e0645c" text-anchor="middle" font-size="13">G</text>
+  <text x="562" y="182" fill="#8a8a8a" text-anchor="middle" font-size="11">generator</text>
+
+  <!-- electrical output -->
+  <line x1="585" y1="141" x2="662" y2="141" stroke="#e0645c" stroke-width="3"/>
+  <polygon points="662,141 653,137 653,145" fill="#e0645c"/>
+  <text x="628" y="132" fill="#e0645c" text-anchor="middle" font-size="11">electricity</text>
+
+  <!-- turbine exhaust down to condenser -->
+  <path d="M 480 182 L 480 250" fill="none" stroke="#e0645c" stroke-width="3"/>
+  <polygon points="480,224 476,215 484,215" fill="#e0645c"/>
+
+  <!-- condenser -->
+  <rect x="420" y="250" width="118" height="40" rx="6" fill="#e0645c" opacity="0.06" stroke="#e0645c" stroke-width="2"/>
+  <text x="479" y="275" fill="#e0645c" text-anchor="middle" font-size="12">condenser</text>
+  <!-- cooling water through condenser (grey) -->
+  <line x1="560" y1="283" x2="524" y2="283" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="524,283 533,279 533,287" fill="#8a8a8a"/>
+  <line x1="434" y1="257" x2="398" y2="257" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="398,257 407,253 407,261" fill="#8a8a8a"/>
+  <text x="600" y="287" fill="#8a8a8a" text-anchor="middle" font-size="10">cooling water</text>
+
+  <!-- feedwater return along the bottom back to SG -->
+  <path d="M 420 285 L 420 328 L 283 328 L 283 295" fill="none" stroke="#e0645c" stroke-width="3"/>
+  <polygon points="352,328 361,324 361,332" fill="#e0645c"/>
+  <polygon points="283,300 279,309 287,309" fill="#e0645c"/>
+  <circle cx="330" cy="328" r="11" fill="#e0645c" opacity="0.10" stroke="#e0645c" stroke-width="2"/>
+  <text x="330" y="350" fill="#e0645c" text-anchor="middle" font-size="10">feed pump</text>
+
+  <!-- loop labels -->
+  <text x="150" y="345" fill="#4a90d9" font-size="11">primary loop &#8226; high pressure, no boiling</text>
+</svg>

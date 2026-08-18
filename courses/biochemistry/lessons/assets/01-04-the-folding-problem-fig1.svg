@@ -1,0 +1,47 @@
+<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">The folding funnel: many high&#8211;energy shapes at the wide rim collapse to one low&#8211;energy native fold.</text>
+
+  <!-- free-energy axis (up = higher G) -->
+  <line x1="64" y1="332" x2="64" y2="64" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="64,58 59,70 69,70" fill="#8a8a8a"/>
+  <text transform="rotate(-90 26 210)" x="26" y="210" fill="#8a8a8a">free energy G</text>
+
+  <!-- funnel interior fill -->
+  <path d="M 120 90 C 190 175 300 250 340 308 C 380 250 490 175 560 90 Z" fill="#4a90d9" opacity="0.12"/>
+
+  <!-- nested contour rings (the narrowing bowl) -->
+  <ellipse cx="340" cy="150" rx="138" ry="12" fill="none" stroke="#8a8a8a" stroke-width="1" opacity="0.4"/>
+  <ellipse cx="340" cy="212" rx="94" ry="10" fill="none" stroke="#8a8a8a" stroke-width="1" opacity="0.4"/>
+  <ellipse cx="340" cy="264" rx="50" ry="8" fill="none" stroke="#8a8a8a" stroke-width="1" opacity="0.4"/>
+
+  <!-- funnel walls -->
+  <path d="M 120 90 C 190 175 300 250 340 308 C 380 250 490 175 560 90" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <!-- rim mouth -->
+  <ellipse cx="340" cy="90" rx="220" ry="18" fill="none" stroke="#4a90d9" stroke-width="1.5" opacity="0.7"/>
+
+  <!-- unfolded states scattered on the rim -->
+  <circle cx="150" cy="94" r="5" fill="none" stroke="#4a90d9" stroke-width="1.5"/>
+  <circle cx="235" cy="86" r="5" fill="none" stroke="#4a90d9" stroke-width="1.5"/>
+  <circle cx="340" cy="82" r="5" fill="none" stroke="#4a90d9" stroke-width="1.5"/>
+  <circle cx="445" cy="86" r="5" fill="none" stroke="#4a90d9" stroke-width="1.5"/>
+  <circle cx="530" cy="94" r="5" fill="none" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="243" y="66" fill="#8a8a8a">many unfolded shapes</text>
+
+  <!-- a chain rolling down toward the native state -->
+  <circle cx="258" cy="206" r="9" fill="#e0645c"/>
+  <path d="M 268 214 C 292 236 312 258 330 292" fill="none" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <polygon points="330,292 322,284 331,282" fill="#e0645c"/>
+
+  <!-- kinetic trap on the right wall -->
+  <circle cx="452" cy="196" r="6" fill="none" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="462" y="192" fill="#8a8a8a">kinetic trap</text>
+
+  <!-- native state at the bottom -->
+  <circle cx="340" cy="308" r="8" fill="#e0645c"/>
+  <text x="300" y="332" fill="#e0645c">native fold N</text>
+
+  <!-- x-axis note -->
+  <text x="150" y="360" fill="#8a8a8a">wide rim = many conformations (high entropy)  &#8594;  narrow tip = one shape</text>
+</svg>

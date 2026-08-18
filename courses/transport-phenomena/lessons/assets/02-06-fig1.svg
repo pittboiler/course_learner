@@ -1,0 +1,81 @@
+<svg viewBox="0 0 700 356" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="12" y="22" fill="#8a8a8a" font-style="italic">The four equations of change share one skeleton: accumulation + convection = diffusion + source.</text>
+
+  <!-- header band boxes -->
+  <rect x="150" y="40" width="96" height="30" rx="5" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="198" y="59" fill="#4a90d9" text-anchor="middle">accumulation</text>
+
+  <rect x="266" y="40" width="96" height="30" rx="5" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="314" y="59" fill="#4a90d9" text-anchor="middle">convection</text>
+
+  <rect x="392" y="40" width="128" height="30" rx="5" fill="#e0645c" opacity="0.15" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="456" y="59" fill="#e0645c" text-anchor="middle">diffusion</text>
+
+  <rect x="540" y="40" width="118" height="30" rx="5" fill="#8a8a8a" opacity="0.12" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="599" y="59" fill="#8a8a8a" text-anchor="middle">source</text>
+
+  <!-- shared operators between header boxes -->
+  <text x="256" y="59" fill="#8a8a8a" text-anchor="middle">+</text>
+  <text x="377" y="59" fill="#8a8a8a" text-anchor="middle">=</text>
+  <text x="530" y="59" fill="#8a8a8a" text-anchor="middle">+</text>
+
+  <!-- row separators -->
+  <line x1="12" y1="82" x2="662" y2="82" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="12" y1="122" x2="662" y2="122" stroke="#8a8a8a" stroke-width="0.6" stroke-dasharray="2 4"/>
+  <line x1="12" y1="162" x2="662" y2="162" stroke="#8a8a8a" stroke-width="0.6" stroke-dasharray="2 4"/>
+  <line x1="12" y1="202" x2="662" y2="202" stroke="#8a8a8a" stroke-width="0.6" stroke-dasharray="2 4"/>
+  <line x1="12" y1="242" x2="662" y2="242" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="140" y1="82" x2="140" y2="242" stroke="#8a8a8a" stroke-width="0.6"/>
+
+  <!-- ===== Continuity ===== -->
+  <text x="16" y="107" fill="#8a8a8a">Continuity</text>
+  <text x="198" y="107" fill="#4a90d9" text-anchor="middle">&#8706;&#961;/&#8706;t</text>
+  <text x="256" y="107" fill="#8a8a8a" text-anchor="middle">+</text>
+  <text x="314" y="107" fill="#4a90d9" text-anchor="middle">&#8711;&#183;(&#961;v)</text>
+  <text x="377" y="107" fill="#8a8a8a" text-anchor="middle">=</text>
+  <text x="456" y="107" fill="#8a8a8a" text-anchor="middle">0 (no diffusion)</text>
+  <text x="530" y="107" fill="#8a8a8a" text-anchor="middle">+</text>
+  <text x="599" y="107" fill="#8a8a8a" text-anchor="middle">0</text>
+
+  <!-- ===== Motion ===== -->
+  <text x="16" y="147" fill="#8a8a8a">Motion</text>
+  <text x="198" y="147" fill="#4a90d9" text-anchor="middle">&#8706;(&#961;v)/&#8706;t</text>
+  <text x="256" y="147" fill="#8a8a8a" text-anchor="middle">+</text>
+  <text x="314" y="147" fill="#4a90d9" text-anchor="middle">&#8711;&#183;(&#961;vv)</text>
+  <text x="377" y="147" fill="#8a8a8a" text-anchor="middle">=</text>
+  <text x="456" y="147" text-anchor="middle"><tspan fill="#e0645c">&#957;</tspan><tspan fill="#8a8a8a">&#8711;&#178;(&#961;v)</tspan></text>
+  <text x="530" y="147" fill="#8a8a8a" text-anchor="middle">+</text>
+  <text x="599" y="147" fill="#8a8a8a" text-anchor="middle">&#961;g</text>
+
+  <!-- ===== Energy ===== -->
+  <text x="16" y="187" fill="#8a8a8a">Energy</text>
+  <text x="198" y="187" fill="#4a90d9" text-anchor="middle">&#8706;(&#961;c<tspan baseline-shift="sub" font-size="9">p</tspan>T)/&#8706;t</text>
+  <text x="256" y="187" fill="#8a8a8a" text-anchor="middle">+</text>
+  <text x="314" y="187" fill="#4a90d9" text-anchor="middle">&#8711;&#183;(&#961;c<tspan baseline-shift="sub" font-size="9">p</tspan>Tv)</text>
+  <text x="377" y="187" fill="#8a8a8a" text-anchor="middle">=</text>
+  <text x="456" y="187" text-anchor="middle"><tspan fill="#e0645c">&#945;</tspan><tspan fill="#8a8a8a">&#8711;&#178;(&#961;c</tspan><tspan baseline-shift="sub" font-size="9" fill="#8a8a8a">p</tspan><tspan fill="#8a8a8a">T)</tspan></text>
+  <text x="530" y="187" fill="#8a8a8a" text-anchor="middle">+</text>
+  <text x="599" y="187" fill="#8a8a8a" text-anchor="middle">&#956;&#934; + q&#775;</text>
+
+  <!-- ===== Species (highlighted) ===== -->
+  <rect x="13" y="204" width="648" height="37" rx="4" fill="#e0645c" opacity="0.08"/>
+  <text x="16" y="227" fill="#e0645c" font-weight="bold">Species</text>
+  <text x="198" y="227" fill="#4a90d9" text-anchor="middle">&#8706;c<tspan baseline-shift="sub" font-size="9">A</tspan>/&#8706;t</text>
+  <text x="256" y="227" fill="#8a8a8a" text-anchor="middle">+</text>
+  <text x="314" y="227" fill="#4a90d9" text-anchor="middle">&#8711;&#183;(c<tspan baseline-shift="sub" font-size="9">A</tspan>v)</text>
+  <text x="377" y="227" fill="#8a8a8a" text-anchor="middle">=</text>
+  <text x="456" y="227" text-anchor="middle"><tspan fill="#e0645c" font-weight="bold">D<tspan baseline-shift="sub" font-size="9">AB</tspan></tspan><tspan fill="#8a8a8a">&#8711;&#178;c</tspan><tspan baseline-shift="sub" font-size="9" fill="#8a8a8a">A</tspan></text>
+  <text x="530" y="227" fill="#8a8a8a" text-anchor="middle">+</text>
+  <text x="599" y="227" fill="#e0645c" text-anchor="middle" font-weight="bold">R<tspan baseline-shift="sub" font-size="9">A</tspan></text>
+
+  <!-- diffusivity strip -->
+  <text x="16" y="272" fill="#8a8a8a">diffusivity:</text>
+  <text x="198" y="272" fill="#8a8a8a" text-anchor="middle">&#8212;</text>
+  <text x="314" y="272" fill="#8a8a8a" text-anchor="middle" font-style="italic">(carried by flow)</text>
+  <text x="456" y="272" fill="#e0645c" text-anchor="middle">&#8212; &#8594; &#957; &#8594; &#945; &#8594; D<tspan baseline-shift="sub" font-size="9">AB</tspan></text>
+  <text x="599" y="272" fill="#8a8a8a" text-anchor="middle" font-style="italic">gravity / heat / R</text>
+
+  <!-- bottom takeaway -->
+  <text x="350" y="320" fill="#8a8a8a" text-anchor="middle" font-style="italic">One method, four laws. Change only the diffusivity and the source; the skeleton never moves.</text>
+  <text x="350" y="342" fill="#e0645c" text-anchor="middle">Species-continuity is the fourth: swap in D<tspan baseline-shift="sub" font-size="9">AB</tspan> and the reaction source R<tspan baseline-shift="sub" font-size="9">A</tspan>.</text>
+</svg>

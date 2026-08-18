@@ -1,0 +1,45 @@
+<svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Z = pv/RT vs reduced pressure. Far from critical, Z &#8594; 1 (ideal); near the dome (T_R = 1) it plunges.</text>
+
+  <!-- axes -->
+  <line x1="70" y1="290" x2="580" y2="290" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="580,290 570,285 570,295" fill="#8a8a8a"/>
+  <line x1="70" y1="290" x2="70" y2="50" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,50 65,60 75,60" fill="#8a8a8a"/>
+
+  <!-- axis labels -->
+  <text x="300" y="326" fill="#8a8a8a">reduced pressure  p_R = p / p_cr</text>
+  <text x="18" y="46" fill="#8a8a8a">Z</text>
+
+  <!-- x ticks -->
+  <text x="136" y="308" fill="#8a8a8a">1</text>
+  <text x="206" y="308" fill="#8a8a8a">2</text>
+  <text x="276" y="308" fill="#8a8a8a">3</text>
+  <text x="346" y="308" fill="#8a8a8a">4</text>
+  <text x="416" y="308" fill="#8a8a8a">5</text>
+  <text x="486" y="308" fill="#8a8a8a">6</text>
+  <text x="556" y="308" fill="#8a8a8a">7</text>
+
+  <!-- y ticks and Z=1 reference line -->
+  <text x="48" y="295" fill="#8a8a8a">0</text>
+  <line x1="66" y1="185.5" x2="70" y2="185.5" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="36" y="190" fill="#8a8a8a">0.5</text>
+  <line x1="70" y1="81" x2="575" y2="81" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="30" y="85" fill="#8a8a8a">1.0</text>
+  <text x="500" y="76" fill="#8a8a8a" font-style="italic">ideal gas</text>
+
+  <!-- T_R = 2 curve (stays near 1) -->
+  <path d="M 70 81 L 140 85.2 L 210 87.3 L 280 83.1 L 350 76.8 L 420 70.5 L 490 62.2 L 560 60.1"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="470" y="52" fill="#4a90d9">T_R = 2.0</text>
+
+  <!-- T_R = 1 curve (critical isotherm, plunges near p_R = 1) -->
+  <path d="M 70 81 L 84 91.5 L 105 116.5 L 126 158.3 L 140 229.4 L 175 210.6 L 210 193.9 L 280 168.8 L 350 150 L 420 133.25 L 490 116.5 L 560 99.8"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+  <text x="150" y="248" fill="#e0645c">T_R = 1.0</text>
+
+  <!-- marker at the plunge -->
+  <circle cx="140" cy="229.4" r="4" fill="#e0645c"/>
+  <text x="150" y="228" fill="#e0645c" font-size="12">Z &#8776; 0.3 near critical</text>
+</svg>

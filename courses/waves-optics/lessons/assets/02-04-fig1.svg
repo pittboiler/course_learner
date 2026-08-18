@@ -1,0 +1,34 @@
+<svg viewBox="0 0 660 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">A plane light wave: E (blue) and B (coral) oscillate in perpendicular planes, in phase, both racing along the axis at speed c.</text>
+
+  <!-- propagation axis -->
+  <line x1="50" y1="180" x2="620" y2="180" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="620,180 609,175 609,185" fill="#8a8a8a"/>
+  <text x="592" y="200" fill="#8a8a8a">c</text>
+  <text x="470" y="286" fill="#8a8a8a" font-style="italic">direction of propagation</text>
+
+  <!-- E field: vertical sinusoid, in the plane of the page (blue) -->
+  <path d="M 80 180 L 100 141.8 L 120 118.2 L 140 118.2 L 160 141.8 L 180 180 L 200 218.2 L 220 241.8 L 240 241.8 L 260 218.2 L 280 180 L 300 141.8 L 320 118.2 L 340 118.2 L 360 141.8 L 380 180 L 400 218.2 L 420 241.8 L 440 241.8 L 460 218.2 L 480 180 L 500 141.8 L 520 118.2 L 540 118.2 L 560 141.8 L 580 180"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- B field: perspective sinusoid in the perpendicular plane (coral) -->
+  <path d="M 80 180 L 100 193.4 L 120 201.6 L 140 201.6 L 160 193.4 L 180 180 L 200 166.6 L 220 158.4 L 240 158.4 L 260 166.6 L 280 180 L 300 193.4 L 320 201.6 L 340 201.6 L 360 193.4 L 380 180 L 400 166.6 L 420 158.4 L 440 158.4 L 460 166.6 L 480 180 L 500 193.4 L 520 201.6 L 540 201.6 L 560 193.4 L 580 180"
+        fill="none" stroke="#e0645c" stroke-width="2.5"/>
+
+  <!-- representative E field vectors -->
+  <line x1="120" y1="180" x2="120" y2="118.2" stroke="#4a90d9" stroke-width="1.5"/>
+  <polygon points="120,118.2 116,127 124,127" fill="#4a90d9"/>
+  <line x1="220" y1="180" x2="220" y2="241.8" stroke="#4a90d9" stroke-width="1.5"/>
+  <polygon points="220,241.8 216,233 224,233" fill="#4a90d9"/>
+
+  <!-- representative B field vectors (into/out of the perpendicular plane) -->
+  <line x1="120" y1="180" x2="154" y2="201.6" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="154,201.6 144.5,200 150,207.5" fill="#e0645c"/>
+  <line x1="220" y1="180" x2="186" y2="158.4" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="186,158.4 195.5,160 190,152.5" fill="#e0645c"/>
+
+  <!-- labels -->
+  <text x="126" y="112" fill="#4a90d9">E</text>
+  <text x="158" y="218" fill="#e0645c">B</text>
+</svg>

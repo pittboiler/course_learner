@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 470" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="620" height="470" fill="#ffffff"/>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#111111"/>
+    </marker>
+  </defs>
+
+  <!-- boxes -->
+  <g stroke="#111111" stroke-width="2" fill="#ffffff">
+    <rect x="215" y="34"  width="190" height="70" rx="6"/>
+    <rect x="30"  y="330" width="200" height="70" rx="6"/>
+    <rect x="390" y="330" width="200" height="70" rx="6"/>
+  </g>
+
+  <!-- box labels -->
+  <g fill="#111111" text-anchor="middle">
+    <text x="310" y="64"  font-size="18">Axiom of</text>
+    <text x="310" y="88"  font-size="18">Choice</text>
+
+    <text x="130" y="360" font-size="18">Zorn's</text>
+    <text x="130" y="384" font-size="18">Lemma</text>
+
+    <text x="490" y="360" font-size="18">Well-Ordering</text>
+    <text x="490" y="384" font-size="18">Theorem</text>
+  </g>
+
+  <!-- implication arrows (counterclockwise cycle) -->
+  <g stroke="#111111" stroke-width="2.5" fill="none">
+    <!-- AC => Zorn -->
+    <line x1="248" y1="108" x2="150" y2="326" marker-end="url(#arrow)"/>
+    <!-- Zorn => Well-ordering -->
+    <line x1="234" y1="365" x2="386" y2="365" marker-end="url(#arrow)"/>
+    <!-- Well-ordering => AC -->
+    <line x1="470" y1="326" x2="372" y2="108" marker-end="url(#arrow)"/>
+  </g>
+
+  <!-- arrow captions -->
+  <g fill="#555555" font-size="14">
+    <text x="150" y="220" text-anchor="end">choice lets</text>
+    <text x="150" y="238" text-anchor="end">you keep climbing</text>
+
+    <text x="310" y="342" text-anchor="middle">maximal well-order spans X</text>
+
+    <text x="470" y="220" text-anchor="start">least element</text>
+    <text x="470" y="238" text-anchor="start">= a canonical choice</text>
+  </g>
+
+  <!-- center label -->
+  <text x="310" y="240" text-anchor="middle" font-size="20" fill="#111111" font-style="italic">all equivalent</text>
+</svg>

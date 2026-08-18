@@ -1,0 +1,72 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="60" y="24" fill="#8a8a8a" font-style="italic">Cu&#8211;Ni isomorphous diagram: a tie line at T&#8321; reads off both phase compositions; the lever arms give the amounts.</text>
+
+  <!-- ===== axes ===== -->
+  <line x1="90" y1="55" x2="90" y2="345" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="90" y1="345" x2="575" y2="345" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="90,55 85,66 95,66" fill="#8a8a8a"/>
+  <polygon points="575,345 564,340 564,350" fill="#8a8a8a"/>
+  <text x="255" y="378" fill="#8a8a8a">Composition (wt&#37; Ni)</text>
+  <text x="20" y="205" fill="#8a8a8a" transform="rotate(-90 20 205)">Temperature (&#176;C)</text>
+
+  <!-- x ticks: pure Cu (0) and pure Ni (100) -->
+  <text x="82" y="362" fill="#8a8a8a">0</text>
+  <text x="78" y="362" fill="#8a8a8a" font-size="12">Cu</text>
+  <text x="548" y="362" fill="#8a8a8a">100</text>
+  <text x="556" y="362" fill="#8a8a8a" font-size="12">Ni</text>
+
+  <!-- y ticks: melting points and T1 -->
+  <line x1="86" y1="292" x2="90" y2="292" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="46" y="296" fill="#8a8a8a" font-size="12">1085</text>
+  <line x1="86" y1="85" x2="90" y2="85" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="46" y="89" fill="#8a8a8a" font-size="12">1455</text>
+  <text x="46" y="204" fill="#8a8a8a" font-size="12">1250</text>
+
+  <!-- ===== liquidus (blue) and solidus (coral) ===== -->
+  <path d="M 90 292 Q 150 250 231 200 Q 380 130 560 85" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <path d="M 90 292 Q 230 265 325 200 Q 430 155 560 85" fill="none" stroke="#e0645c" stroke-width="2.5"/>
+
+  <!-- region labels -->
+  <text x="140" y="110" fill="#4a90d9">L&#160;&#160;(liquid)</text>
+  <text x="255" y="240" fill="#8a8a8a" font-size="13">L + &#945;</text>
+  <text x="415" y="305" fill="#e0645c">&#945;&#160;&#160;(solid)</text>
+  <text x="300" y="128" fill="#4a90d9" font-size="12">liquidus</text>
+  <text x="440" y="200" fill="#e0645c" font-size="12">solidus</text>
+
+  <!-- ===== tie line at T1 = 1250 (y=200) ===== -->
+  <line x1="90" y1="200" x2="325" y2="200" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 4"/>
+  <line x1="231" y1="200" x2="325" y2="200" stroke="#8a8a8a" stroke-width="2"/>
+
+  <!-- endpoint + fulcrum markers -->
+  <circle cx="231" cy="200" r="4.5" fill="#4a90d9"/>
+  <circle cx="325" cy="200" r="4.5" fill="#e0645c"/>
+  <circle cx="297" cy="200" r="4" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+
+  <!-- composition drop-lines to axis -->
+  <line x1="231" y1="200" x2="231" y2="345" stroke="#4a90d9" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="325" y1="200" x2="325" y2="345" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="297" y1="200" x2="297" y2="345" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- composition labels on the tie line -->
+  <text x="196" y="192" fill="#4a90d9">C<tspan baseline-shift="sub" font-size="10">L</tspan></text>
+  <text x="333" y="192" fill="#e0645c">C<tspan baseline-shift="sub" font-size="10">&#945;</tspan></text>
+  <text x="286" y="188" fill="#8a8a8a">C<tspan baseline-shift="sub" font-size="10">0</tspan></text>
+
+  <!-- composition values on x-axis -->
+  <text x="222" y="338" fill="#4a90d9" font-size="11">30</text>
+  <text x="288" y="338" fill="#8a8a8a" font-size="11">44</text>
+  <text x="316" y="338" fill="#e0645c" font-size="11">50</text>
+
+  <!-- ===== lever arms below the tie line ===== -->
+  <!-- left arm (C0 to CL): proportional to W_alpha -->
+  <line x1="231" y1="228" x2="297" y2="228" stroke="#e0645c" stroke-width="2"/>
+  <line x1="231" y1="224" x2="231" y2="232" stroke="#e0645c" stroke-width="1.5"/>
+  <line x1="297" y1="224" x2="297" y2="232" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="150" y="256" fill="#e0645c" font-size="12">opposite arm &#8594; W<tspan baseline-shift="sub" font-size="9">&#945;</tspan> = 0.70</text>
+
+  <!-- right arm (C0 to Ca): proportional to W_L -->
+  <line x1="297" y1="228" x2="325" y2="228" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="325" y1="224" x2="325" y2="232" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="330" y="232" fill="#4a90d9" font-size="12">&#8594; W<tspan baseline-shift="sub" font-size="9">L</tspan> = 0.30</text>
+</svg>

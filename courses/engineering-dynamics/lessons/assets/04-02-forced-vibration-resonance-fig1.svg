@@ -1,0 +1,39 @@
+<svg viewBox="0 0 620 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="60" y="22" fill="#8a8a8a" font-style="italic">Magnification vs. frequency ratio: the peak spikes near r = 1 and sharpens as damping &#950; falls.</text>
+
+  <!-- static-deflection reference line M = 1 -->
+  <line x1="70" y1="241.9" x2="560" y2="241.9" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="565" y="246" fill="#8a8a8a">M = 1</text>
+
+  <!-- resonance guide line r = 1 -->
+  <line x1="315" y1="290" x2="315" y2="46" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- x-axis (frequency ratio) -->
+  <line x1="70" y1="290" x2="580" y2="290" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="580,290 570,285 570,295" fill="#8a8a8a"/>
+  <text x="584" y="295" fill="#8a8a8a">r</text>
+  <!-- x ticks -->
+  <line x1="315" y1="290" x2="315" y2="296" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="309" y="310" fill="#8a8a8a">1</text>
+  <line x1="560" y1="290" x2="560" y2="296" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="554" y="310" fill="#8a8a8a">2</text>
+  <text x="66" y="310" fill="#8a8a8a">0</text>
+  <text x="150" y="310" fill="#8a8a8a">r = &#969;/&#969;&#8345;</text>
+
+  <!-- y-axis (magnification) -->
+  <line x1="70" y1="290" x2="70" y2="40" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,40 65,50 75,50" fill="#8a8a8a"/>
+  <text x="30" y="46" fill="#8a8a8a">M</text>
+  <text x="18" y="200" fill="#8a8a8a" transform="rotate(-90 18 200)">M = X / (F&#8320;/k)</text>
+
+  <!-- coral curve: zeta = 0.1 (light damping, sharp peak) -->
+  <path d="M 70 241.9 L 119 239.95 L 168 233.0 L 217 216.15 L 266 167.93 L 290.5 106.3 L 302.75 64.84 L 312.55 48.4 L 315 49.6 L 327.25 84.3 L 339.5 131.9 L 364 194.1 L 413 241.9 L 462 259.8 L 511 268.8 L 560 274.1"
+        fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="322" y="58" fill="#e0645c">&#950; = 0.1</text>
+
+  <!-- blue curve: zeta = 0.3 (moderate damping, broad peak) -->
+  <path d="M 70 241.9 L 119 240.3 L 168 234.95 L 217 224.5 L 266 209.9 L 292 206.0 L 315 209.9 L 339.5 220.6 L 364 234.95 L 413 252.3 L 462 263.75 L 511 270.7 L 560 275.1"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="360" y="212" fill="#4a90d9">&#950; = 0.3</text>
+</svg>

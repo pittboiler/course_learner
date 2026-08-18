@@ -1,0 +1,47 @@
+<svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="36" y="22" fill="#8a8a8a" font-style="italic">On a log axis the one-term center temperature is a straight line once Fo &#8805; 0.2 &#8212; the Heisler idea.</text>
+
+  <!-- plot frame: top y=60 (theta=1), bottom y=280 (theta=0.01); left x=70 (Fo=0), right x=560 (Fo=3) -->
+
+  <!-- horizontal gridlines (log decades and half-decades) -->
+  <line x1="70" y1="60" x2="560" y2="60" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="70" y1="93.1" x2="560" y2="93.1" stroke="#8a8a8a" stroke-width="0.6" stroke-dasharray="2 5"/>
+  <line x1="70" y1="170" x2="560" y2="170" stroke="#8a8a8a" stroke-width="0.6" stroke-dasharray="2 5"/>
+  <line x1="70" y1="203.1" x2="560" y2="203.1" stroke="#8a8a8a" stroke-width="0.6" stroke-dasharray="2 5"/>
+  <line x1="70" y1="280" x2="560" y2="280" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- y axis -->
+  <line x1="70" y1="60" x2="70" y2="280" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="60" y="64" fill="#8a8a8a" text-anchor="end">1</text>
+  <text x="60" y="97" fill="#8a8a8a" text-anchor="end">0.5</text>
+  <text x="60" y="174" fill="#8a8a8a" text-anchor="end">0.1</text>
+  <text x="60" y="207" fill="#8a8a8a" text-anchor="end">0.05</text>
+  <text x="60" y="284" fill="#8a8a8a" text-anchor="end">0.01</text>
+  <text x="20" y="175" fill="#8a8a8a" transform="rotate(-90 20 175)" text-anchor="middle">&#952;&#8320;*  (center)</text>
+
+  <!-- x axis ticks -->
+  <text x="70" y="298" fill="#8a8a8a" text-anchor="middle">0</text>
+  <line x1="233.3" y1="280" x2="233.3" y2="285" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="233.3" y="298" fill="#8a8a8a" text-anchor="middle">1</text>
+  <line x1="396.7" y1="280" x2="396.7" y2="285" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="396.7" y="298" fill="#8a8a8a" text-anchor="middle">2</text>
+  <line x1="560" y1="280" x2="560" y2="285" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="560" y="298" fill="#8a8a8a" text-anchor="middle">3</text>
+  <text x="315" y="320" fill="#8a8a8a" text-anchor="middle">Fourier number  Fo = &#945;t / L&#178;</text>
+
+  <!-- Fo = 0.2 validity boundary -->
+  <line x1="102.7" y1="60" x2="102.7" y2="280" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="107" y="252" fill="#8a8a8a">Fo = 0.2</text>
+  <text x="107" y="268" fill="#8a8a8a" font-size="12" font-style="italic">one-term valid &#8594;</text>
+  <text x="98" y="72" fill="#8a8a8a" font-size="12" font-style="italic" text-anchor="end">&#8592; charts /</text>
+  <text x="98" y="86" fill="#8a8a8a" font-size="12" font-style="italic" text-anchor="end">many terms</text>
+
+  <!-- Bi = 1 center response: true curve for Fo<0.2 blending into one-term straight line -->
+  <path d="M 70 60 Q 86 60.3 102.7 61.7 L 560 160.7" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="470" y="150" fill="#4a90d9">Bi = 1</text>
+
+  <!-- Bi = 5 center response: steeper decay -->
+  <path d="M 70 60 Q 86 61.5 102.7 66.2 L 478.3 255.9" fill="none" stroke="#e0645c" stroke-width="3"/>
+  <text x="430" y="245" fill="#e0645c">Bi = 5</text>
+</svg>

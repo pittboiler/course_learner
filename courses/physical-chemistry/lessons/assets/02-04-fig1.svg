@@ -1,0 +1,64 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="60" y="26" fill="#8a8a8a" font-style="italic">A non-volatile solute lowers the liquid's &#956; (coral), pushing freezing down and boiling up.</text>
+
+  <!-- axes -->
+  <line x1="60" y1="300" x2="608" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="608,300 598,295 598,305" fill="#8a8a8a"/>
+  <text x="606" y="318" fill="#8a8a8a">T</text>
+  <line x1="60" y1="300" x2="60" y2="52" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="60,52 55,62 65,62" fill="#8a8a8a"/>
+  <text x="44" y="64" fill="#8a8a8a">&#956;</text>
+
+  <!-- phase lines (all slope down: slope = &#8722;S) -->
+  <!-- solid -->
+  <line x1="80" y1="120" x2="580" y2="210" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="585" y="212" fill="#8a8a8a">solid</text>
+  <!-- gas -->
+  <line x1="80" y1="70" x2="580" y2="280" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="585" y="283" fill="#8a8a8a">gas</text>
+  <!-- pure liquid -->
+  <line x1="80" y1="100" x2="580" y2="250" stroke="#4a90d9" stroke-width="3"/>
+  <!-- solution liquid (lowered) -->
+  <line x1="80" y1="112" x2="580" y2="262" stroke="#e0645c" stroke-width="3" stroke-dasharray="7 4"/>
+
+  <!-- lowering gap RT ln x_A -->
+  <line x1="524" y1="234" x2="524" y2="246" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="524,246 520,238 528,238" fill="#e0645c"/>
+  <text x="470" y="228" fill="#e0645c" font-size="12">RT ln x&#8320; &lt; 0</text>
+
+  <!-- crossings + dashed drops -->
+  <!-- Tf solution (147,132) -->
+  <line x1="147" y1="132" x2="147" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <circle cx="147" cy="132" r="3.5" fill="#e0645c"/>
+  <!-- Tf* pure (247,150) -->
+  <line x1="247" y1="150" x2="247" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <circle cx="247" cy="150" r="3.5" fill="#4a90d9"/>
+  <!-- Tb* pure (330,175) -->
+  <line x1="330" y1="175" x2="330" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <circle cx="330" cy="175" r="3.5" fill="#4a90d9"/>
+  <!-- Tb solution (430,217) -->
+  <line x1="430" y1="217" x2="430" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <circle cx="430" cy="217" r="3.5" fill="#e0645c"/>
+
+  <!-- freezing depression arrow (near axis) -->
+  <line x1="247" y1="288" x2="150" y2="288" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="150,288 159,284 159,292" fill="#e0645c"/>
+  <text x="152" y="282" fill="#e0645c" font-size="12">&#916;T_f</text>
+  <!-- boiling elevation arrow -->
+  <line x1="330" y1="288" x2="427" y2="288" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="427,288 418,284 418,292" fill="#e0645c"/>
+  <text x="360" y="282" fill="#e0645c" font-size="12">&#916;T_b</text>
+
+  <!-- axis tick labels -->
+  <text x="132" y="316" fill="#e0645c" font-size="12">T_f</text>
+  <text x="236" y="316" fill="#4a90d9" font-size="12">T_f*</text>
+  <text x="318" y="316" fill="#4a90d9" font-size="12">T_b*</text>
+  <text x="420" y="316" fill="#e0645c" font-size="12">T_b</text>
+
+  <!-- legend -->
+  <line x1="360" y1="86" x2="392" y2="86" stroke="#4a90d9" stroke-width="3"/>
+  <text x="398" y="90" fill="#8a8a8a" font-size="12">pure solvent (liquid)</text>
+  <line x1="360" y1="106" x2="392" y2="106" stroke="#e0645c" stroke-width="3" stroke-dasharray="7 4"/>
+  <text x="398" y="110" fill="#8a8a8a" font-size="12">solution (liquid, lowered)</text>
+</svg>

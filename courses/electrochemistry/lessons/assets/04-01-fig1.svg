@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Helvetica, Arial, sans-serif">
+  <text x="20" y="24" fill="#8a8a8a" font-size="13" font-style="italic">Discharge curve: cell voltage vs capacity delivered. Plateau near E_eq, sags under load, then cliffs.</text>
+
+  <!-- axes -->
+  <line x1="80" y1="60" x2="80" y2="340" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="80" y1="340" x2="600" y2="340" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="30" y="205" fill="#8a8a8a" font-size="13" transform="rotate(-90 30 205)">cell voltage E</text>
+  <text x="300" y="372" fill="#8a8a8a" font-size="13">capacity delivered (Ah)  &#8594;  empty</text>
+
+  <!-- equilibrium EMF reference line -->
+  <line x1="80" y1="88" x2="600" y2="88" stroke="#8a8a8a" stroke-width="1.2" stroke-dasharray="6 5"/>
+  <text x="490" y="82" fill="#8a8a8a" font-size="13">E_eq (open circuit)</text>
+
+  <!-- low-rate (blue) discharge curve: gentle sag, late cliff -->
+  <path d="M 80 108 C 200 116, 340 126, 460 146 L 500 158 C 512 170, 520 230, 528 300 L 536 340"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="300" y="128" fill="#4a90d9" font-size="13">low current (small C-rate)</text>
+
+  <!-- high-rate (coral) discharge curve: bigger sag, early cliff -->
+  <path d="M 80 152 C 190 170, 300 190, 400 210 L 430 222 C 442 236, 450 290, 456 320 L 462 340"
+        fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="250" y="256" fill="#e0645c" font-size="13">high current (large C-rate): sags more</text>
+
+  <!-- overpotential gap arrow at x=250, from E_eq down to coral curve -->
+  <line x1="250" y1="88" x2="250" y2="182" stroke="#8a8a8a" stroke-width="1.2"/>
+  <polygon points="250,92 246,102 254,102" fill="#8a8a8a"/>
+  <polygon points="250,178 246,168 254,168" fill="#8a8a8a"/>
+  <text x="150" y="118" fill="#e0645c" font-size="12">&#951;_act + &#951;_conc + iR</text>
+
+  <!-- knee labels -->
+  <text x="500" y="330" fill="#8a8a8a" font-size="12">cutoff</text>
+</svg>

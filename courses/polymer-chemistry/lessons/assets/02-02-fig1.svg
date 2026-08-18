@@ -1,0 +1,31 @@
+<svg viewBox="0 0 620 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">GPC sorts chains by size: big coils elute early, small ones late. The blue trace is the distribution;</text>
+  <text x="40" y="40" fill="#8a8a8a" font-style="italic">the coral calibration line converts elution volume into log M.</text>
+
+  <!-- left y-axis: detector signal -->
+  <line x1="70" y1="258" x2="70" y2="66" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,66 65,76 75,76" fill="#8a8a8a"/>
+  <text x="58" y="60" fill="#8a8a8a">signal</text>
+
+  <!-- x-axis: elution volume -->
+  <line x1="70" y1="258" x2="586" y2="258" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="586,258 576,253 576,263" fill="#8a8a8a"/>
+  <text x="470" y="278" fill="#8a8a8a">elution volume V</text>
+
+  <!-- chromatogram peak (the distribution) -->
+  <path d="M 70 256 L 130 255 L 160 253 L 175 247 L 190 237 L 205 221 L 220 199 L 235 172 L 250 143 L 265 117 L 280 101 L 290 98 L 295 99 L 310 111 L 325 133 L 340 162 L 355 191 L 370 215 L 385 233 L 400 245 L 415 251 L 430 255 L 460 256 L 560 256"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- coral calibration line: log M vs elution volume (decreasing) -->
+  <line x1="82" y1="92" x2="548" y2="212" stroke="#e0645c" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="86" y="86" fill="#e0645c">high M</text>
+  <text x="500" y="228" fill="#e0645c">low M</text>
+  <text x="360" y="120" fill="#e0645c" font-style="italic">log M</text>
+
+  <!-- size annotations -->
+  <text x="120" y="130" fill="#8a8a8a">large chains</text>
+  <text x="120" y="147" fill="#8a8a8a">(early)</text>
+  <text x="415" y="150" fill="#8a8a8a">small chains</text>
+  <text x="435" y="167" fill="#8a8a8a">(late)</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="300" viewBox="0 0 500 300" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="500" height="300" fill="#ffffff"/>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#111111"/>
+    </marker>
+  </defs>
+
+  <!-- edges -->
+  <line x1="116" y1="200" x2="224" y2="200" stroke="#111111" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="276" y1="200" x2="384" y2="200" stroke="#111111" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M 103 177 Q 250 90 397 177" fill="none" stroke="#111111" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- edge labels -->
+  <text x="170" y="223" font-size="15" fill="#111111" text-anchor="middle">E(a,b)</text>
+  <text x="330" y="223" font-size="15" fill="#111111" text-anchor="middle">E(b,c)</text>
+  <text x="250" y="108" font-size="15" fill="#111111" text-anchor="middle">E(a,c)</text>
+
+  <!-- nodes -->
+  <circle cx="90" cy="200" r="26" fill="#ffffff" stroke="#111111" stroke-width="2"/>
+  <circle cx="250" cy="200" r="26" fill="#ffffff" stroke="#111111" stroke-width="2"/>
+  <circle cx="410" cy="200" r="26" fill="#ffffff" stroke="#111111" stroke-width="2"/>
+  <text x="90" y="206" font-size="20" fill="#111111" text-anchor="middle">a</text>
+  <text x="250" y="206" font-size="20" fill="#111111" text-anchor="middle">b</text>
+  <text x="410" y="206" font-size="20" fill="#111111" text-anchor="middle">c</text>
+
+  <text x="250" y="275" font-size="14" fill="#111111" text-anchor="middle">Domain {a, b, c} with E = {(a,b), (b,c), (a,c)}</text>
+</svg>

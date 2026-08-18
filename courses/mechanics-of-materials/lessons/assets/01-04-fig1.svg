@@ -1,0 +1,81 @@
+<svg viewBox="0 0 620 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="20" y="20" fill="#8a8a8a" font-style="italic">A bar fixed at both walls: two unknown reactions, one equilibrium equation. Geometry supplies the second.</text>
+
+  <!-- ===== free-body diagram ===== -->
+
+  <!-- left wall -->
+  <line x1="70" y1="48" x2="70" y2="96" stroke="#8a8a8a" stroke-width="2.5"/>
+  <line x1="70" y1="52" x2="62" y2="60" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="70" y1="64" x2="62" y2="72" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="70" y1="76" x2="62" y2="84" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="70" y1="88" x2="62" y2="96" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- right wall -->
+  <line x1="560" y1="48" x2="560" y2="96" stroke="#8a8a8a" stroke-width="2.5"/>
+  <line x1="560" y1="52" x2="568" y2="60" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="560" y1="64" x2="568" y2="72" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="560" y1="76" x2="568" y2="84" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="560" y1="88" x2="568" y2="96" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- the bar -->
+  <rect x="70" y="55" width="490" height="34" fill="#4a90d9" opacity="0.12"/>
+  <rect x="70" y="55" width="490" height="34" fill="none" stroke="#4a90d9" stroke-width="2"/>
+
+  <!-- load point C guide -->
+  <line x1="260" y1="50" x2="260" y2="94" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- node labels -->
+  <text x="63" y="44" fill="#8a8a8a">A</text>
+  <text x="256" y="44" fill="#8a8a8a">C</text>
+  <text x="553" y="44" fill="#8a8a8a">B</text>
+
+  <!-- reaction R_A (points left) -->
+  <line x1="118" y1="72" x2="80" y2="72" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="80,72 88,68 88,76" fill="#4a90d9"/>
+  <text x="92" y="66" fill="#4a90d9">R<tspan font-size="10" dy="3">A</tspan></text>
+
+  <!-- applied load P (points right) -->
+  <line x1="260" y1="72" x2="322" y2="72" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="322,72 314,68 314,76" fill="#e0645c"/>
+  <text x="286" y="66" fill="#e0645c">P</text>
+
+  <!-- reaction R_B (points left) -->
+  <line x1="552" y1="72" x2="514" y2="72" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="514,72 522,68 522,76" fill="#4a90d9"/>
+  <text x="524" y="66" fill="#4a90d9">R<tspan font-size="10" dy="3">B</tspan></text>
+
+  <!-- dimension lines -->
+  <line x1="70" y1="108" x2="260" y2="108" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="70" y1="104" x2="70" y2="112" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="260" y1="104" x2="260" y2="112" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="140" y="124" fill="#8a8a8a">L<tspan font-size="10" dy="3">AC</tspan></text>
+
+  <line x1="260" y1="108" x2="560" y2="108" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="560" y1="104" x2="560" y2="112" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="398" y="124" fill="#8a8a8a">L<tspan font-size="10" dy="3">CB</tspan></text>
+
+  <!-- ===== compatibility: deformed sketch ===== -->
+  <text x="20" y="164" fill="#8a8a8a" font-style="italic">Both ends fixed, so the total length can't change &#8212; segment C slides but A and B stay put:</text>
+
+  <!-- reference walls -->
+  <line x1="70" y1="182" x2="70" y2="210" stroke="#8a8a8a" stroke-width="2.5"/>
+  <line x1="560" y1="182" x2="560" y2="210" stroke="#8a8a8a" stroke-width="2.5"/>
+
+  <!-- undeformed C position -->
+  <line x1="260" y1="180" x2="260" y2="214" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- stretched AC (blue) and shortened CB (coral), C moved right to 288 -->
+  <line x1="70" y1="196" x2="288" y2="196" stroke="#4a90d9" stroke-width="4"/>
+  <line x1="288" y1="196" x2="560" y2="196" stroke="#e0645c" stroke-width="4"/>
+  <circle cx="288" cy="196" r="4" fill="#8a8a8a"/>
+
+  <text x="120" y="235" fill="#4a90d9">AC stretches</text>
+  <text x="392" y="235" fill="#e0645c">CB shortens</text>
+
+  <!-- C slide arrow -->
+  <line x1="260" y1="212" x2="288" y2="212" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="288,212 282,209 282,215" fill="#8a8a8a"/>
+
+  <!-- compatibility equation -->
+  <text x="205" y="266" fill="#8a8a8a" font-size="16">&#916;AC + &#916;CB = 0</text>
+</svg>

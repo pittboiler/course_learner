@@ -1,0 +1,118 @@
+<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Each support trades restraint for reactions; equilibrium (&#8721;F, &#8721;M) hands the numbers back.</text>
+
+  <!-- ================= ROLLER ================= -->
+  <text x="72" y="48" fill="#8a8a8a" text-anchor="middle" font-weight="bold">Roller</text>
+  <text x="72" y="64" fill="#8a8a8a" text-anchor="middle">1 reaction (&#8869; surface)</text>
+  <!-- support triangle -->
+  <polygon points="72,96 56,120 88,120" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <!-- rollers -->
+  <circle cx="62" cy="126" r="5" fill="none" stroke="#4a90d9" stroke-width="1.5"/>
+  <circle cx="82" cy="126" r="5" fill="none" stroke="#4a90d9" stroke-width="1.5"/>
+  <!-- ground -->
+  <line x1="48" y1="132" x2="96" y2="132" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="50" y1="132" x2="44" y2="140" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="60" y1="132" x2="54" y2="140" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="70" y1="132" x2="64" y2="140" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="80" y1="132" x2="74" y2="140" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="90" y1="132" x2="84" y2="140" stroke="#8a8a8a" stroke-width="1"/>
+  <!-- vertical reaction -->
+  <line x1="72" y1="96" x2="72" y2="150" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="72,90 67,102 77,102" fill="#e0645c"/>
+  <text x="80" y="112" fill="#e0645c">R</text>
+
+  <!-- ================= PIN ================= -->
+  <text x="300" y="48" fill="#8a8a8a" text-anchor="middle" font-weight="bold">Pin</text>
+  <text x="300" y="64" fill="#8a8a8a" text-anchor="middle">2 reactions (H + V)</text>
+  <polygon points="300,96 284,120 316,120" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="300" cy="96" r="3.5" fill="#4a90d9"/>
+  <!-- ground -->
+  <line x1="278" y1="120" x2="322" y2="120" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="282" y1="120" x2="276" y2="128" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="292" y1="120" x2="286" y2="128" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="302" y1="120" x2="296" y2="128" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="312" y1="120" x2="306" y2="128" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="322" y1="120" x2="316" y2="128" stroke="#8a8a8a" stroke-width="1"/>
+  <!-- vertical reaction -->
+  <line x1="300" y1="96" x2="300" y2="150" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="300,90 295,102 305,102" fill="#e0645c"/>
+  <text x="307" y="112" fill="#e0645c">V</text>
+  <!-- horizontal reaction -->
+  <line x1="300" y1="108" x2="258" y2="108" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="252,108 264,103 264,113" fill="#e0645c"/>
+  <text x="258" y="100" fill="#e0645c">H</text>
+
+  <!-- ================= FIXED ================= -->
+  <text x="540" y="48" fill="#8a8a8a" text-anchor="middle" font-weight="bold">Fixed</text>
+  <text x="540" y="64" fill="#8a8a8a" text-anchor="middle">3 reactions (H + V + M)</text>
+  <!-- wall -->
+  <line x1="512" y1="82" x2="512" y2="148" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="512" y1="86" x2="504" y2="94" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="512" y1="98" x2="504" y2="106" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="512" y1="110" x2="504" y2="118" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="512" y1="122" x2="504" y2="130" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="512" y1="134" x2="504" y2="142" stroke="#8a8a8a" stroke-width="1"/>
+  <!-- beam stub -->
+  <line x1="512" y1="115" x2="556" y2="115" stroke="#4a90d9" stroke-width="3"/>
+  <!-- vertical reaction -->
+  <line x1="512" y1="115" x2="512" y2="80" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="512,74 507,86 517,86" fill="#e0645c"/>
+  <text x="518" y="86" fill="#e0645c">V</text>
+  <!-- horizontal reaction -->
+  <line x1="512" y1="128" x2="552" y2="128" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="558,128 546,123 546,133" fill="#e0645c"/>
+  <text x="546" y="146" fill="#e0645c">H</text>
+  <!-- moment reaction (curved arrow) -->
+  <path d="M 528 100 A 16 16 0 1 1 524 100" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="524,100 519,94 531,96" fill="#e0645c"/>
+  <text x="538" y="102" fill="#e0645c">M</text>
+
+  <!-- ================= WORKED BEAM ================= -->
+  <text x="30" y="210" fill="#8a8a8a" font-style="italic">Simply supported beam &#8212; solved by &#8721;M and &#8721;F:</text>
+
+  <!-- beam: A at x=120, B at x=540 (6 m span at 70 px/m) -->
+  <line x1="120" y1="252" x2="540" y2="252" stroke="#4a90d9" stroke-width="4"/>
+  <text x="112" y="245" fill="#8a8a8a">A</text>
+  <text x="540" y="245" fill="#8a8a8a">B</text>
+
+  <!-- pin at A -->
+  <polygon points="120,252 106,274 134,274" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="120" cy="252" r="3" fill="#4a90d9"/>
+  <line x1="102" y1="274" x2="138" y2="274" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="106" y1="274" x2="100" y2="282" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="116" y1="274" x2="110" y2="282" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="126" y1="274" x2="120" y2="282" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="136" y1="274" x2="130" y2="282" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- roller at B -->
+  <polygon points="540,252 526,274 554,274" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="532" cy="280" r="5" fill="none" stroke="#4a90d9" stroke-width="1.5"/>
+  <circle cx="548" cy="280" r="5" fill="none" stroke="#4a90d9" stroke-width="1.5"/>
+  <line x1="522" y1="286" x2="558" y2="286" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="526" y1="286" x2="520" y2="294" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="536" y1="286" x2="530" y2="294" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="546" y1="286" x2="540" y2="294" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="556" y1="286" x2="550" y2="294" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- applied point load P=12 kN at x=2 m -> x=260 -->
+  <line x1="260" y1="200" x2="260" y2="250" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="260,252 254,240 266,240" fill="#8a8a8a"/>
+  <text x="238" y="196" fill="#8a8a8a">P = 12 kN</text>
+
+  <!-- reactions -->
+  <line x1="120" y1="330" x2="120" y2="292" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="120,286 115,298 125,298" fill="#e0645c"/>
+  <text x="60" y="322" fill="#e0645c">R<tspan dy="3" font-size="10">A</tspan> = 8 kN</text>
+  <line x1="540" y1="330" x2="540" y2="302" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="540,296 535,308 545,308" fill="#e0645c"/>
+  <text x="556" y="322" fill="#e0645c">R<tspan dy="3" font-size="10">B</tspan> = 4 kN</text>
+
+  <!-- dimensions -->
+  <line x1="120" y1="352" x2="260" y2="352" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="120" y1="348" x2="120" y2="356" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="260" y1="348" x2="260" y2="356" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="183" y="368" fill="#8a8a8a">2 m</text>
+  <line x1="260" y1="352" x2="540" y2="352" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="540" y1="348" x2="540" y2="356" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="393" y="368" fill="#8a8a8a">4 m</text>
+</svg>

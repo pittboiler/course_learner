@@ -1,0 +1,43 @@
+<svg viewBox="0 0 620 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="60" y="26" fill="#8a8a8a" font-style="italic">A p&#8211;T phase diagram: each region is the phase with the lowest &#956;; each blue line is where two &#956; are equal.</text>
+
+  <!-- axes -->
+  <line x1="70" y1="320" x2="575" y2="320" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="575,320 565,315 565,325" fill="#8a8a8a"/>
+  <text x="560" y="345" fill="#8a8a8a">T</text>
+  <line x1="70" y1="320" x2="70" y2="48" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,48 65,58 75,58" fill="#8a8a8a"/>
+  <text x="52" y="56" fill="#8a8a8a">p</text>
+
+  <!-- phase boundary lines (blue) -->
+  <!-- sublimation: triple point down to low-T low-p -->
+  <path d="M 200 240 Q 130 300 82 316" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <!-- fusion: triple point up, tilting LEFT (water's negative slope) -->
+  <path d="M 200 240 L 172 62" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <!-- vaporization: triple point up-right to critical point -->
+  <path d="M 200 240 Q 320 210 470 110" fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- supercritical extension (faint dashed) -->
+  <line x1="470" y1="110" x2="470" y2="62" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="470" y1="110" x2="560" y2="110" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- region labels (grey) -->
+  <text x="108" y="150" fill="#8a8a8a">solid</text>
+  <text x="292" y="120" fill="#8a8a8a">liquid</text>
+  <text x="405" y="288" fill="#8a8a8a">gas</text>
+  <text x="486" y="88" fill="#8a8a8a" font-size="12" font-style="italic">supercritical</text>
+
+  <!-- boundary-line labels (grey, small) -->
+  <text x="100" y="292" fill="#8a8a8a" font-size="12">sublimation</text>
+  <text x="120" y="120" fill="#8a8a8a" font-size="12">fusion</text>
+  <text x="330" y="168" fill="#8a8a8a" font-size="12">vaporization</text>
+
+  <!-- triple point (coral) -->
+  <circle cx="200" cy="240" r="5" fill="#e0645c"/>
+  <text x="210" y="258" fill="#e0645c" font-size="12">triple point (all three &#956; equal)</text>
+
+  <!-- critical point (coral) -->
+  <circle cx="470" cy="110" r="5" fill="#e0645c"/>
+  <text x="382" y="128" fill="#e0645c" font-size="12">critical point</text>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 420" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="680" height="420" fill="#ffffff"/>
+
+  <!-- shared method box -->
+  <rect x="110" y="24" width="460" height="52" fill="#f2f2f2" stroke="#111111" stroke-width="2"/>
+  <text x="340" y="46" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">The diagonal move</text>
+  <text x="340" y="66" text-anchor="middle" font-size="13" fill="#111111">Assume a complete list. Build one object that differs from row n on entry n.</text>
+
+  <!-- fan-out arrows -->
+  <g stroke="#111111" stroke-width="1.6" fill="#111111">
+    <line x1="200" y1="76" x2="120" y2="118"/>
+    <polygon points="120,118 128,110 130,120"/>
+    <line x1="340" y1="76" x2="340" y2="118"/>
+    <polygon points="340,120 334,110 346,110"/>
+    <line x1="480" y1="76" x2="560" y2="118"/>
+    <polygon points="560,118 550,120 552,110"/>
+  </g>
+
+  <!-- three sibling columns -->
+  <!-- Cantor -->
+  <rect x="20" y="122" width="200" height="238" fill="#ffffff" stroke="#111111" stroke-width="1.5"/>
+  <text x="120" y="146" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">Cantor (4.3)</text>
+  <g font-size="12.5" fill="#111111">
+    <text x="34" y="176">List: reals r&#8321;, r&#8322;, r&#8323;, &#8230;</text>
+    <text x="34" y="206">Flip the n-th digit</text>
+    <text x="34" y="226">of r&#8345;.</text>
+    <text x="34" y="256">Get a real on no row.</text>
+  </g>
+  <text x="120" y="330" text-anchor="middle" font-size="13" fill="#111111" font-weight="bold">&#8477; is uncountable</text>
+
+  <!-- Godel -->
+  <rect x="240" y="122" width="200" height="238" fill="#ffffff" stroke="#111111" stroke-width="1.5"/>
+  <text x="340" y="146" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">G&#246;del (5.1)</text>
+  <g font-size="12.5" fill="#111111">
+    <text x="254" y="176">List: what T proves</text>
+    <text x="254" y="206">G says &#8220;G is not</text>
+    <text x="254" y="226">provable in T.&#8221;</text>
+    <text x="254" y="256">Get a truth T can't prove.</text>
+  </g>
+  <text x="340" y="330" text-anchor="middle" font-size="13" fill="#111111" font-weight="bold">T is incomplete</text>
+
+  <!-- Turing -->
+  <rect x="460" y="122" width="200" height="238" fill="#ffffff" stroke="#111111" stroke-width="1.5"/>
+  <text x="560" y="146" text-anchor="middle" font-size="14" fill="#111111" font-weight="bold">Turing (future CS)</text>
+  <g font-size="12.5" fill="#111111">
+    <text x="474" y="176">List: all programs P&#8345;</text>
+    <text x="474" y="206">Differ from P&#8345; on</text>
+    <text x="474" y="226">input n.</text>
+    <text x="474" y="256">Get a task no P does.</text>
+  </g>
+  <text x="560" y="330" text-anchor="middle" font-size="13" fill="#111111" font-weight="bold">Halting is undecidable</text>
+
+  <text x="340" y="398" text-anchor="middle" font-size="13" fill="#555555">One family, one trick: the anti-diagonal always escapes the list.</text>
+</svg>

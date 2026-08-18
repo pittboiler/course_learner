@@ -1,0 +1,71 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Cantilever, tip load P: the M/EI area gives the slope; its first moment about B gives the tip deflection.</text>
+
+  <!-- ===================== TOP: deflected elastic curve ===================== -->
+
+  <!-- wall / fixed support at A -->
+  <line x1="70" y1="60" x2="70" y2="130" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="70" y1="66" x2="60" y2="76" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="70" y1="80" x2="60" y2="90" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="70" y1="94" x2="60" y2="104" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="70" y1="108" x2="60" y2="118" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="70" y1="122" x2="60" y2="132" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- tangent at A = undeformed axis (horizontal, dashed) -->
+  <line x1="70" y1="95" x2="470" y2="95" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="330" y="88" fill="#8a8a8a">tangent at A (horizontal)</text>
+
+  <!-- deflected elastic curve -->
+  <path d="M 70 95 C 190 97, 330 122, 450 158" fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- node labels -->
+  <text x="58" y="146" fill="#8a8a8a">A</text>
+  <text x="456" y="176" fill="#4a90d9">B</text>
+
+  <!-- tip load P -->
+  <line x1="450" y1="120" x2="450" y2="152" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="450,158 445,148 455,148" fill="#e0645c"/>
+  <text x="458" y="132" fill="#e0645c">P</text>
+
+  <!-- tangential deviation t_{B/A} = tip deflection -->
+  <line x1="450" y1="95" x2="450" y2="158" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="450,95 446,104 454,104" fill="#e0645c"/>
+  <polygon points="450,158 446,149 454,149" fill="#e0645c"/>
+  <text x="480" y="130" fill="#e0645c">t</text>
+  <text x="490" y="134" fill="#e0645c" font-size="11">B/A</text>
+  <text x="505" y="130" fill="#e0645c">= &#948;</text>
+  <text x="527" y="134" fill="#e0645c" font-size="11">B</text>
+
+  <!-- ===================== BOTTOM: M/EI diagram ===================== -->
+
+  <!-- baseline -->
+  <line x1="70" y1="250" x2="470" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="470,250 460,245 460,255" fill="#8a8a8a"/>
+  <text x="474" y="255" fill="#8a8a8a">x</text>
+  <text x="30" y="255" fill="#8a8a8a">M/EI</text>
+  <text x="60" y="246" fill="#8a8a8a">A</text>
+  <text x="452" y="246" fill="#8a8a8a">B</text>
+
+  <!-- the triangular M/EI area (hogging, so below the axis) -->
+  <polygon points="70,250 70,340 450,250" fill="#4a90d9" opacity="0.16" stroke="#4a90d9" stroke-width="2"/>
+
+  <!-- peak ordinate label at the wall -->
+  <text x="14" y="345" fill="#4a90d9">&#8722;PL/EI</text>
+
+  <!-- area label inside triangle -->
+  <text x="120" y="292" fill="#4a90d9">area = &#189;&#183;L&#183;(PL/EI)</text>
+
+  <!-- centroid: L/3 from the wall -->
+  <line x1="197" y1="250" x2="197" y2="315" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <circle cx="197" cy="280" r="3.5" fill="#e0645c"/>
+  <text x="150" y="332" fill="#8a8a8a">centroid, L/3 from wall</text>
+
+  <!-- moment arm about B = 2L/3 -->
+  <line x1="197" y1="368" x2="450" y2="368" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="197,368 206,364 206,372" fill="#e0645c"/>
+  <polygon points="450,368 441,364 441,372" fill="#e0645c"/>
+  <line x1="197" y1="284" x2="197" y2="372" stroke="#8a8a8a" stroke-width="0.8" stroke-dasharray="2 3"/>
+  <line x1="450" y1="250" x2="450" y2="372" stroke="#8a8a8a" stroke-width="0.8" stroke-dasharray="2 3"/>
+  <text x="290" y="362" fill="#e0645c">arm to B = 2L/3</text>
+</svg>

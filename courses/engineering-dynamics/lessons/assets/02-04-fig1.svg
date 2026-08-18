@@ -1,0 +1,80 @@
+<svg viewBox="0 0 660 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <defs>
+    <marker id="ac" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#e0645c"/>
+    </marker>
+    <marker id="ag" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#8a8a8a"/>
+    </marker>
+  </defs>
+
+  <!-- caption -->
+  <text x="24" y="22" fill="#8a8a8a" font-style="italic">Two spheres meet along the line of impact: momentum is conserved; restitution e sets how fast they separate.</text>
+
+  <!-- ================= LEFT: direct central impact ================= -->
+
+  <!-- BEFORE -->
+  <text x="24" y="86" fill="#8a8a8a">Before</text>
+  <line x1="40" y1="120" x2="356" y2="120" stroke="#8a8a8a" stroke-width="1.2" stroke-dasharray="4 4"/>
+  <text x="238" y="112" fill="#8a8a8a" font-style="italic" font-size="12">line of impact</text>
+
+  <!-- sphere 1 -->
+  <circle cx="110" cy="120" r="26" fill="#4a90d9" fill-opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <text x="105" y="125" fill="#4a90d9">m&#8321;</text>
+  <line x1="138" y1="120" x2="196" y2="120" stroke="#e0645c" stroke-width="2.5" marker-end="url(#ac)"/>
+  <text x="156" y="110" fill="#e0645c">v&#8321;</text>
+
+  <!-- sphere 2 -->
+  <circle cx="266" cy="120" r="22" fill="#4a90d9" fill-opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <text x="261" y="125" fill="#4a90d9">m&#8322;</text>
+  <line x1="290" y1="120" x2="318" y2="120" stroke="#e0645c" stroke-width="2.5" marker-end="url(#ac)"/>
+  <text x="296" y="110" fill="#e0645c">v&#8322;</text>
+
+  <!-- AFTER -->
+  <text x="24" y="226" fill="#8a8a8a">After</text>
+  <line x1="40" y1="240" x2="356" y2="240" stroke="#8a8a8a" stroke-width="1.2" stroke-dasharray="4 4"/>
+
+  <!-- sphere 1 (slower, may reverse) -->
+  <circle cx="120" cy="240" r="26" fill="#4a90d9" fill-opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <text x="115" y="245" fill="#4a90d9">m&#8321;</text>
+  <line x1="148" y1="240" x2="172" y2="240" stroke="#e0645c" stroke-width="2.5" marker-end="url(#ac)"/>
+  <text x="150" y="230" fill="#e0645c">v&#8321;&#8242;</text>
+
+  <!-- sphere 2 (faster) -->
+  <circle cx="272" cy="240" r="22" fill="#4a90d9" fill-opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <text x="267" y="245" fill="#4a90d9">m&#8322;</text>
+  <line x1="296" y1="240" x2="348" y2="240" stroke="#e0645c" stroke-width="2.5" marker-end="url(#ac)"/>
+  <text x="308" y="230" fill="#e0645c">v&#8322;&#8242;</text>
+
+  <text x="40" y="300" fill="#8a8a8a" font-size="12">Along the line of impact:</text>
+  <text x="40" y="320" fill="#8a8a8a" font-size="12">m&#8321;v&#8321; + m&#8322;v&#8322; = m&#8321;v&#8321;&#8242; + m&#8322;v&#8322;&#8242;   and   e = (v&#8322;&#8242; &#8722; v&#8321;&#8242;)/(v&#8321; &#8722; v&#8322;)</text>
+
+  <!-- ================= RIGHT: oblique inset ================= -->
+  <rect x="392" y="52" width="252" height="300" rx="6" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="404" y="74" fill="#8a8a8a">Oblique impact</text>
+
+  <!-- t axis (tangent, vertical) -->
+  <line x1="500" y1="300" x2="500" y2="120" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#ag)"/>
+  <text x="486" y="116" fill="#8a8a8a">t</text>
+  <!-- n axis (line of impact, horizontal) -->
+  <line x1="430" y1="240" x2="628" y2="240" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#ag)"/>
+  <text x="620" y="258" fill="#8a8a8a">n</text>
+  <text x="430" y="300" fill="#8a8a8a" font-size="12">n = line of impact</text>
+  <text x="430" y="318" fill="#8a8a8a" font-size="12">t = tangent (surface)</text>
+
+  <!-- contact sphere -->
+  <circle cx="500" cy="240" r="18" fill="#4a90d9" fill-opacity="0.15" stroke="#4a90d9" stroke-width="1.5"/>
+
+  <!-- velocity vector v (up-right) -->
+  <line x1="500" y1="240" x2="596" y2="168" stroke="#e0645c" stroke-width="2.5" marker-end="url(#ac)"/>
+  <text x="600" y="164" fill="#e0645c">v</text>
+
+  <!-- normal component -->
+  <line x1="500" y1="240" x2="596" y2="240" stroke="#e0645c" stroke-width="1.6" stroke-dasharray="5 3" marker-end="url(#ac)"/>
+  <text x="548" y="258" fill="#e0645c">v&#8345;</text>
+  <!-- tangential component -->
+  <line x1="596" y1="240" x2="596" y2="168" stroke="#e0645c" stroke-width="1.6" stroke-dasharray="5 3" marker-end="url(#ac)"/>
+  <text x="602" y="210" fill="#e0645c">v&#8348;</text>
+
+  <text x="404" y="342" fill="#8a8a8a" font-size="11">e acts on v&#8345; only; v&#8348; is unchanged (smooth)</text>
+</svg>

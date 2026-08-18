@@ -1,0 +1,46 @@
+<svg viewBox="0 0 620 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Phase diagram (N = 100): binodal (outer) and spinodal (inner) meet at the critical point; above them the solution demixes.</text>
+
+  <!-- two-phase shaded region (interior of the binodal cup, capped at top) -->
+  <path d="M 95 60 L 100 150 L 110 225 L 122 238 L 133 242 L 200 234 L 270 205 L 330 158 L 380 105 L 415 60 Z"
+        fill="#e0645c" opacity="0.13"/>
+
+  <!-- axes -->
+  <line x1="90" y1="270" x2="575" y2="270" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="575,270 565,265 565,275" fill="#8a8a8a"/>
+  <text x="580" y="275" fill="#8a8a8a">&#966;</text>
+  <line x1="90" y1="270" x2="90" y2="52" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="90,52 85,62 95,62" fill="#8a8a8a"/>
+  <text x="76" y="50" fill="#8a8a8a">&#967;</text>
+
+  <!-- axis ticks -->
+  <text x="80" y="286" fill="#8a8a8a">0</text>
+  <text x="556" y="286" fill="#8a8a8a">1</text>
+  <text x="46" y="274" fill="#8a8a8a">&#189; &#952;</text>
+  <!-- phi_c tick -->
+  <line x1="133" y1="270" x2="133" y2="276" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="120" y="290" fill="#8a8a8a">&#966;c</text>
+
+  <!-- worsening-solvent arrow annotation -->
+  <text x="98" y="80" fill="#8a8a8a">&#8593; poorer solvent, lower T</text>
+
+  <!-- binodal (coral, outer cup) -->
+  <path d="M 95 60 L 100 150 L 110 225 L 122 238 L 133 242 L 200 234 L 270 205 L 330 158 L 380 105 L 415 60"
+        fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="418" y="72" fill="#e0645c">binodal</text>
+
+  <!-- spinodal (blue, inner cup) -->
+  <path d="M 92 60 L 99 202 L 109 232 L 133 242 L 160 238 L 208 221 L 278 179 L 325 136 L 361 86 L 379 60"
+        fill="none" stroke="#4a90d9" stroke-width="2.5" stroke-dasharray="6 4"/>
+  <text x="326" y="74" fill="#4a90d9">spinodal</text>
+
+  <!-- critical point -->
+  <circle cx="133" cy="242" r="5" fill="#e0645c"/>
+  <text x="142" y="234" fill="#e0645c">critical point (&#966;c, &#967;c)</text>
+
+  <!-- region labels -->
+  <text x="205" y="120" fill="#e0645c">two-phase (demixed)</text>
+  <text x="415" y="230" fill="#8a8a8a">one-phase</text>
+  <text x="415" y="248" fill="#8a8a8a">(mixed)</text>
+</svg>

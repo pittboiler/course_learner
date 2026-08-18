@@ -1,0 +1,59 @@
+<svg viewBox="0 0 620 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Pb&#8211;Sn eutectic. A 40 wt% Sn alloy (coral path) drops primary &#945;, then the leftover liquid freezes as &#945;+&#946;.</text>
+
+  <!-- ===== axes ===== -->
+  <line x1="70" y1="300" x2="565" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="565,300 555,295 555,305" fill="#8a8a8a"/>
+  <line x1="70" y1="300" x2="70" y2="52" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,52 65,62 75,62" fill="#8a8a8a"/>
+  <text x="46" y="60" fill="#8a8a8a">T</text>
+  <text x="500" y="320" fill="#8a8a8a">wt% Sn</text>
+
+  <!-- composition ticks -->
+  <text x="64" y="316" fill="#8a8a8a">0</text>
+  <text x="360" y="316" fill="#8a8a8a">61.9</text>
+  <text x="552" y="316" fill="#8a8a8a">100</text>
+  <line x1="373" y1="300" x2="373" y2="305" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- temperature labels -->
+  <text x="40" y="86" fill="#8a8a8a">327&#176;</text>
+  <text x="568" y="177" fill="#8a8a8a">232&#176;</text>
+  <text x="34" y="224" fill="#8a8a8a">183&#176;</text>
+
+  <!-- ===== phase boundaries (blue) ===== -->
+  <!-- liquidus: Pb melt -> eutectic -> Sn melt -->
+  <path d="M 70 82 L 217 149 L 373 220 L 462 198 L 560 173" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <!-- left solidus (alpha boundary) -->
+  <path d="M 70 82 L 160 220" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <!-- right solidus (beta boundary) -->
+  <path d="M 560 173 L 549 220" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <!-- eutectic isotherm -->
+  <line x1="160" y1="220" x2="549" y2="220" stroke="#4a90d9" stroke-width="2.5"/>
+  <!-- solvus lines below eutectic -->
+  <path d="M 160 220 L 80 300" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <path d="M 549 220 L 555 300" fill="none" stroke="#4a90d9" stroke-width="2"/>
+
+  <!-- eutectic point marker -->
+  <circle cx="373" cy="220" r="4" fill="#e0645c"/>
+
+  <!-- region labels -->
+  <text x="300" y="95" fill="#8a8a8a">L (liquid)</text>
+  <text x="108" y="200" fill="#8a8a8a">&#945;</text>
+  <text x="575" y="205" fill="#8a8a8a">&#946;</text>
+  <text x="182" y="176" fill="#8a8a8a">&#945; + L</text>
+  <text x="455" y="176" fill="#8a8a8a">&#946; + L</text>
+  <text x="330" y="268" fill="#8a8a8a">&#945; + &#946;</text>
+
+  <!-- ===== cooling path at 40 wt% Sn (coral) ===== -->
+  <line x1="266" y1="62" x2="266" y2="300" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="238" y="52" fill="#e0645c">40 wt% Sn</text>
+  <!-- liquidus crossing: primary alpha begins -->
+  <circle cx="266" cy="171" r="3.5" fill="#e0645c"/>
+  <text x="120" y="150" fill="#e0645c">primary &#945; forms</text>
+  <line x1="200" y1="154" x2="260" y2="169" stroke="#e0645c" stroke-width="1"/>
+  <!-- eutectic crossing -->
+  <circle cx="266" cy="220" r="3.5" fill="#e0645c"/>
+  <text x="122" y="244" fill="#e0645c">leftover L &#8594; &#945;+&#946;</text>
+  <line x1="205" y1="240" x2="260" y2="222" stroke="#e0645c" stroke-width="1"/>
+</svg>

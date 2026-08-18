@@ -1,0 +1,62 @@
+<svg viewBox="0 0 620 270" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <defs>
+    <marker id="coral1" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#e0645c"/>
+    </marker>
+    <marker id="grey1" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#8a8a8a"/>
+    </marker>
+  </defs>
+
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Free-body diagram: pin at A (two reactions), roller at B (one reaction), a point load P.</text>
+
+  <!-- the beam -->
+  <line x1="110" y1="140" x2="500" y2="140" stroke="#4a90d9" stroke-width="6"/>
+  <text x="118" y="132" fill="#4a90d9">beam</text>
+
+  <!-- pin support at A (grey triangle + ground hatch) -->
+  <polygon points="110,140 96,168 124,168" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="86" y1="168" x2="134" y2="168" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="88" y1="168" x2="80" y2="178" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="100" y1="168" x2="92" y2="178" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="112" y1="168" x2="104" y2="178" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="124" y1="168" x2="116" y2="178" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="96" y="192" fill="#8a8a8a">A (pin)</text>
+
+  <!-- roller support at B (grey triangle + circles + ground) -->
+  <polygon points="500,140 486,162 514,162" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <circle cx="491" cy="167" r="5" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <circle cx="509" cy="167" r="5" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="480" y1="172" x2="520" y2="172" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="484" y1="172" x2="476" y2="182" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="496" y1="172" x2="488" y2="182" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="508" y1="172" x2="500" y2="182" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="520" y1="172" x2="512" y2="182" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="474" y="196" fill="#8a8a8a">B (roller)</text>
+
+  <!-- applied load P (coral, down onto beam) -->
+  <line x1="250" y1="72" x2="250" y2="136" stroke="#e0645c" stroke-width="2.5" marker-end="url(#coral1)"/>
+  <text x="238" y="66" fill="#e0645c">P</text>
+
+  <!-- reaction A_y (coral up) -->
+  <line x1="110" y1="140" x2="110" y2="86" stroke="#e0645c" stroke-width="2.5" marker-end="url(#coral1)"/>
+  <text x="78" y="98" fill="#e0645c">A&#8202;&#8202;y</text>
+
+  <!-- reaction A_x (coral right) -->
+  <line x1="110" y1="140" x2="164" y2="140" stroke="#e0645c" stroke-width="2.5" marker-end="url(#coral1)"/>
+  <text x="150" y="132" fill="#e0645c">A&#8202;&#8202;x</text>
+
+  <!-- reaction B_y (coral up) -->
+  <line x1="500" y1="140" x2="500" y2="86" stroke="#e0645c" stroke-width="2.5" marker-end="url(#coral1)"/>
+  <text x="508" y="98" fill="#e0645c">B&#8202;&#8202;y</text>
+
+  <!-- dimension line a / b (grey) -->
+  <line x1="110" y1="222" x2="250" y2="222" stroke="#8a8a8a" stroke-width="1" marker-start="url(#grey1)" marker-end="url(#grey1)"/>
+  <line x1="250" y1="222" x2="500" y2="222" stroke="#8a8a8a" stroke-width="1" marker-start="url(#grey1)" marker-end="url(#grey1)"/>
+  <line x1="110" y1="202" x2="110" y2="228" stroke="#8a8a8a" stroke-width="0.8" stroke-dasharray="3 3"/>
+  <line x1="250" y1="176" x2="250" y2="228" stroke="#8a8a8a" stroke-width="0.8" stroke-dasharray="3 3"/>
+  <line x1="500" y1="202" x2="500" y2="228" stroke="#8a8a8a" stroke-width="0.8" stroke-dasharray="3 3"/>
+  <text x="172" y="240" fill="#8a8a8a">a</text>
+  <text x="368" y="240" fill="#8a8a8a">b</text>
+</svg>

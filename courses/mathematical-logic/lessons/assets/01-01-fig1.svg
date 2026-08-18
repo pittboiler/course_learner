@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 410" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="560" height="410" fill="#ffffff"/>
+
+  <!-- edges (drawn first so nodes sit on top) -->
+  <g stroke="#111111" stroke-width="2">
+    <line x1="280" y1="60"  x2="150" y2="150"/>
+    <line x1="280" y1="60"  x2="410" y2="150"/>
+    <line x1="410" y1="150" x2="330" y2="250"/>
+    <line x1="410" y1="150" x2="490" y2="250"/>
+    <line x1="330" y1="250" x2="330" y2="350"/>
+  </g>
+
+  <!-- internal nodes: connectives -->
+  <g>
+    <circle cx="280" cy="60"  r="24" fill="#ffffff" stroke="#111111" stroke-width="2"/>
+    <text x="280" y="69" text-anchor="middle" font-size="26" fill="#111111">&#8594;</text>
+
+    <circle cx="410" cy="150" r="24" fill="#ffffff" stroke="#111111" stroke-width="2"/>
+    <text x="410" y="160" text-anchor="middle" font-size="26" fill="#111111">&#8744;</text>
+
+    <circle cx="330" cy="250" r="24" fill="#ffffff" stroke="#111111" stroke-width="2"/>
+    <text x="330" y="259" text-anchor="middle" font-size="26" fill="#111111">&#172;</text>
+  </g>
+
+  <!-- leaves: atoms -->
+  <g>
+    <circle cx="150" cy="150" r="24" fill="#111111"/>
+    <text x="150" y="159" text-anchor="middle" font-size="24" fill="#ffffff" font-style="italic">p</text>
+
+    <circle cx="490" cy="250" r="24" fill="#111111"/>
+    <text x="490" y="259" text-anchor="middle" font-size="24" fill="#ffffff" font-style="italic">r</text>
+
+    <circle cx="330" cy="350" r="24" fill="#111111"/>
+    <text x="330" y="359" text-anchor="middle" font-size="24" fill="#ffffff" font-style="italic">q</text>
+  </g>
+
+  <!-- labels -->
+  <text x="280" y="24" text-anchor="middle" font-size="15" fill="#111111">root: main connective</text>
+  <text x="150" y="200" text-anchor="middle" font-size="14" fill="#555555">leaf (atom)</text>
+  <text x="490" y="300" text-anchor="middle" font-size="14" fill="#555555">leaf (atom)</text>
+  <text x="330" y="400" text-anchor="middle" font-size="14" fill="#555555">leaf (atom)</text>
+</svg>

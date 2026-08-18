@@ -1,0 +1,73 @@
+<svg viewBox="0 0 660 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Truncate T at doubles, yet the exponential still builds quadruples: two independent pair excitations on separate parts of a molecule.</text>
+
+  <!-- divider between the two panels -->
+  <line x1="300" y1="55" x2="300" y2="330" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 5"/>
+
+  <!-- ============ LEFT PANEL: connected double, T2 ============ -->
+  <text x="70" y="62" fill="#4a90d9" font-weight="bold">T&#770;&#8322; : one connected double</text>
+
+  <!-- orbital ladder (single molecule), levels centered x=170 -->
+  <line x1="130" y1="105" x2="210" y2="105" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="130" y1="135" x2="210" y2="135" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="130" y1="215" x2="210" y2="215" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="130" y1="245" x2="210" y2="245" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="216" y="123" fill="#8a8a8a" font-size="12">virtual</text>
+  <text x="216" y="233" fill="#8a8a8a" font-size="12">occupied</text>
+
+  <!-- electrons on occupied levels -->
+  <circle cx="150" cy="215" r="4" fill="#8a8a8a"/>
+  <circle cx="190" cy="215" r="4" fill="#8a8a8a"/>
+  <circle cx="150" cy="245" r="4" fill="#8a8a8a"/>
+  <circle cx="190" cy="245" r="4" fill="#8a8a8a"/>
+
+  <!-- the two promotions of ONE double excitation -->
+  <line x1="150" y1="245" x2="150" y2="141" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="150,135 145,146 155,146" fill="#4a90d9"/>
+  <line x1="190" y1="215" x2="190" y2="111" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="190,105 185,116 195,116" fill="#4a90d9"/>
+
+  <text x="90" y="300" fill="#8a8a8a">two electrons promoted</text>
+  <text x="120" y="318" fill="#8a8a8a">together (one pair)</text>
+
+  <!-- ============ RIGHT PANEL: disconnected quadruple, half T2^2 ============ -->
+  <text x="340" y="62" fill="#e0645c" font-weight="bold">&#189; T&#770;&#8322;&#178; : disconnected quadruple</text>
+
+  <!-- fragment A, centered x=410 -->
+  <text x="392" y="90" fill="#8a8a8a" font-size="12">part A</text>
+  <line x1="380" y1="115" x2="440" y2="115" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="380" y1="140" x2="440" y2="140" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="380" y1="210" x2="440" y2="210" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="380" y1="235" x2="440" y2="235" stroke="#8a8a8a" stroke-width="2"/>
+  <circle cx="396" cy="210" r="3.5" fill="#8a8a8a"/>
+  <circle cx="424" cy="210" r="3.5" fill="#8a8a8a"/>
+  <circle cx="396" cy="235" r="3.5" fill="#8a8a8a"/>
+  <circle cx="424" cy="235" r="3.5" fill="#8a8a8a"/>
+  <line x1="396" y1="235" x2="396" y2="146" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="396,140 391,151 401,151" fill="#e0645c"/>
+  <line x1="424" y1="210" x2="424" y2="121" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="424,115 419,126 429,126" fill="#e0645c"/>
+
+  <!-- far-apart gap -->
+  <line x1="452" y1="175" x2="528" y2="175" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="462" y="168" fill="#8a8a8a" font-size="12">R &#8594; &#8734;</text>
+
+  <!-- fragment B, centered x=570 -->
+  <text x="552" y="90" fill="#8a8a8a" font-size="12">part B</text>
+  <line x1="540" y1="115" x2="600" y2="115" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="540" y1="140" x2="600" y2="140" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="540" y1="210" x2="600" y2="210" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="540" y1="235" x2="600" y2="235" stroke="#8a8a8a" stroke-width="2"/>
+  <circle cx="556" cy="210" r="3.5" fill="#8a8a8a"/>
+  <circle cx="584" cy="210" r="3.5" fill="#8a8a8a"/>
+  <circle cx="556" cy="235" r="3.5" fill="#8a8a8a"/>
+  <circle cx="584" cy="235" r="3.5" fill="#8a8a8a"/>
+  <line x1="556" y1="235" x2="556" y2="146" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="556,140 551,151 561,151" fill="#e0645c"/>
+  <line x1="584" y1="210" x2="584" y2="121" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="584,115 579,126 589,126" fill="#e0645c"/>
+
+  <text x="360" y="300" fill="#8a8a8a">a double on A times a double on B —</text>
+  <text x="360" y="318" fill="#8a8a8a">four electrons, but two independent pairs</text>
+</svg>

@@ -1,0 +1,52 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <!-- caption -->
+  <text x="55" y="22" fill="#8a8a8a" font-style="italic">At power both sit at equilibrium; at scram the flux quits burning xenon, so the iodine reservoir</text>
+  <text x="55" y="38" fill="#8a8a8a" font-style="italic">keeps feeding it &#8212; xenon climbs to the iodine-pit peak (&#8776;11 h), then decays away.</text>
+
+  <!-- axes -->
+  <line x1="55" y1="270" x2="622" y2="270" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="622,270 612,265 612,275" fill="#8a8a8a"/>
+  <text x="596" y="288" fill="#8a8a8a">time (h)</text>
+  <line x1="55" y1="270" x2="55" y2="62" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="55,52 50,62 60,62" fill="#8a8a8a"/>
+  <text x="64" y="60" fill="#8a8a8a">concentration</text>
+
+  <!-- time ticks -->
+  <line x1="139" y1="270" x2="139" y2="274" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="139" y="286" fill="#8a8a8a" text-anchor="middle">0</text>
+  <line x1="244" y1="270" x2="244" y2="274" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="244" y="286" fill="#8a8a8a" text-anchor="middle">10</text>
+  <line x1="348" y1="270" x2="348" y2="274" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="348" y="286" fill="#8a8a8a" text-anchor="middle">20</text>
+  <line x1="453" y1="270" x2="453" y2="274" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="453" y="286" fill="#8a8a8a" text-anchor="middle">30</text>
+  <line x1="558" y1="270" x2="558" y2="274" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="558" y="286" fill="#8a8a8a" text-anchor="middle">40</text>
+
+  <!-- scram line -->
+  <line x1="139" y1="270" x2="139" y2="90" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="147" y="104" fill="#8a8a8a">scram (t = 0)</text>
+
+  <!-- equilibrium (at power) region label -->
+  <text x="60" y="255" fill="#8a8a8a">at power</text>
+
+  <!-- iodine curve (coral): flat then monotone decay -->
+  <path d="M 55 70 L 139 70 L 160 107.9 L 181 138.6 L 202 163.5 L 223 183.7 L 245 200.7 L 264 213.3 L 306 232.7 L 348 245.5 L 390 253.9 L 453 261.4 L 516 265.4 L 578 267.6 L 610 268.2"
+        fill="none" stroke="#e0645c" stroke-width="2.5"/>
+
+  <!-- xenon curve (blue): flat, rise to pit peak, decay -->
+  <path d="M 55 248.2 L 139 248.2 L 160 216.2 L 181 195.4 L 202 182.9 L 223 176.4 L 245 174.4 L 264 175.6 L 306 183.6 L 348 195.4 L 390 207.8 L 453 224.5 L 516 238.0 L 578 248.0 L 610 251.9"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <!-- peak marker -->
+  <circle cx="245" cy="174.4" r="3.5" fill="#4a90d9"/>
+  <line x1="245" y1="174.4" x2="245" y2="270" stroke="#4a90d9" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="252" y="150" fill="#4a90d9">iodine-pit peak</text>
+  <text x="252" y="166" fill="#4a90d9">(&#8776;11 h)</text>
+
+  <!-- legend -->
+  <line x1="470" y1="95" x2="500" y2="95" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="506" y="99" fill="#4a90d9">Xe-135 (the poison)</text>
+  <line x1="470" y1="115" x2="500" y2="115" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="506" y="119" fill="#e0645c">I-135 (the reservoir)</text>
+</svg>

@@ -1,0 +1,84 @@
+<svg viewBox="0 0 660 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">More unpaired electrons &#8594; larger spin-only moment &#956; = &#8730;(n(n+2)); paramagnets are pulled in, diamagnets pushed out.</text>
+
+  <!-- ===================== left: bar chart of mu vs n ===================== -->
+
+  <!-- y axis -->
+  <line x1="70" y1="90" x2="70" y2="285" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,90 65,100 75,100" fill="#8a8a8a"/>
+  <text x="34" y="70" fill="#8a8a8a">&#956; (&#956;&#8203;&#8202;<tspan font-size="11" dy="3">B</tspan><tspan dy="-3">)</tspan></text>
+  <!-- x axis -->
+  <line x1="70" y1="285" x2="350" y2="285" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="350,285 340,280 340,290" fill="#8a8a8a"/>
+  <text x="330" y="305" fill="#8a8a8a">n</text>
+  <text x="55" y="289" fill="#8a8a8a">0</text>
+
+  <!-- bars (blue) : baseline y=285, 32 px per Bohr magneton -->
+  <rect x="91"  y="229.6" width="28" height="55.4"  fill="#4a90d9" opacity="0.20" stroke="#4a90d9" stroke-width="2"/>
+  <rect x="136" y="194.4" width="28" height="90.6"  fill="#4a90d9" opacity="0.20" stroke="#4a90d9" stroke-width="2"/>
+  <rect x="181" y="161.2" width="28" height="123.8" fill="#4a90d9" opacity="0.20" stroke="#4a90d9" stroke-width="2"/>
+  <rect x="226" y="128.2" width="28" height="156.8" fill="#4a90d9" opacity="0.20" stroke="#4a90d9" stroke-width="2"/>
+  <rect x="271" y="95.6"  width="28" height="189.4" fill="#4a90d9" opacity="0.20" stroke="#4a90d9" stroke-width="2"/>
+
+  <!-- value labels (coral) -->
+  <text x="105" y="222" fill="#e0645c" text-anchor="middle">1.73</text>
+  <text x="150" y="187" fill="#e0645c" text-anchor="middle">2.83</text>
+  <text x="195" y="154" fill="#e0645c" text-anchor="middle">3.87</text>
+  <text x="240" y="121" fill="#e0645c" text-anchor="middle">4.90</text>
+  <text x="285" y="88"  fill="#e0645c" text-anchor="middle">5.92</text>
+
+  <!-- n tick labels -->
+  <text x="105" y="303" fill="#8a8a8a" text-anchor="middle">1</text>
+  <text x="150" y="303" fill="#8a8a8a" text-anchor="middle">2</text>
+  <text x="195" y="303" fill="#8a8a8a" text-anchor="middle">3</text>
+  <text x="240" y="303" fill="#8a8a8a" text-anchor="middle">4</text>
+  <text x="285" y="303" fill="#8a8a8a" text-anchor="middle">5</text>
+
+  <text x="120" y="325" fill="#8a8a8a" font-style="italic">unpaired electrons n</text>
+
+  <!-- ===================== right: para vs dia cartoon ===================== -->
+
+  <!-- divider -->
+  <line x1="400" y1="60" x2="400" y2="320" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 5"/>
+
+  <!-- panel A: paramagnetic (pulled in) -->
+  <text x="470" y="80" fill="#e0645c" text-anchor="middle" font-style="italic">paramagnetic</text>
+  <!-- magnet poles -->
+  <rect x="425" y="150" width="16" height="70" fill="#8a8a8a" opacity="0.18" stroke="#8a8a8a" stroke-width="1.5"/>
+  <rect x="499" y="150" width="16" height="70" fill="#8a8a8a" opacity="0.18" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="433" y="240" fill="#8a8a8a" text-anchor="middle">N</text>
+  <text x="507" y="240" fill="#8a8a8a" text-anchor="middle">S</text>
+  <!-- field lines in gap -->
+  <line x1="441" y1="165" x2="499" y2="165" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="441" y1="185" x2="499" y2="185" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="441" y1="205" x2="499" y2="205" stroke="#8a8a8a" stroke-width="1"/>
+  <!-- thread -->
+  <line x1="470" y1="95" x2="470" y2="120" stroke="#8a8a8a" stroke-width="1"/>
+  <!-- sample (coral) drawn low, drawn into the field -->
+  <rect x="458" y="120" width="24" height="24" fill="#e0645c" opacity="0.25" stroke="#e0645c" stroke-width="2"/>
+  <!-- pull-in arrow -->
+  <line x1="470" y1="146" x2="470" y2="176" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="470,180 464,169 476,169" fill="#e0645c"/>
+  <text x="470" y="300" fill="#8a8a8a" text-anchor="middle">attracted</text>
+
+  <!-- panel B: diamagnetic (pushed out) -->
+  <text x="590" y="80" fill="#8a8a8a" text-anchor="middle" font-style="italic">diamagnetic</text>
+  <!-- magnet poles -->
+  <rect x="545" y="150" width="16" height="70" fill="#8a8a8a" opacity="0.18" stroke="#8a8a8a" stroke-width="1.5"/>
+  <rect x="619" y="150" width="16" height="70" fill="#8a8a8a" opacity="0.18" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="553" y="240" fill="#8a8a8a" text-anchor="middle">N</text>
+  <text x="627" y="240" fill="#8a8a8a" text-anchor="middle">S</text>
+  <!-- field lines in gap -->
+  <line x1="561" y1="165" x2="619" y2="165" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="561" y1="185" x2="619" y2="185" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="561" y1="205" x2="619" y2="205" stroke="#8a8a8a" stroke-width="1"/>
+  <!-- thread -->
+  <line x1="590" y1="95" x2="590" y2="102" stroke="#8a8a8a" stroke-width="1"/>
+  <!-- sample (grey) drawn high, pushed up out of the field -->
+  <rect x="578" y="102" width="24" height="24" fill="#8a8a8a" opacity="0.22" stroke="#8a8a8a" stroke-width="2"/>
+  <!-- push-out arrow -->
+  <line x1="590" y1="150" x2="590" y2="134" stroke="#8a8a8a" stroke-width="2.5"/>
+  <polygon points="590,130 584,141 596,141" fill="#8a8a8a"/>
+  <text x="590" y="300" fill="#8a8a8a" text-anchor="middle">repelled</text>
+</svg>

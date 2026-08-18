@@ -1,0 +1,71 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Same beam energy, two ways to spend it: fixed-target wastes energy on CM motion (s ∝ E), the collider spends it all (s ∝ E²).</text>
+
+  <!-- ===== panel divider ===== -->
+  <line x1="320" y1="44" x2="320" y2="326" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 5"/>
+
+  <!-- ================= LEFT: fixed target ================= -->
+  <text x="90" y="66" fill="#8a8a8a" font-size="15" font-weight="bold">Fixed target</text>
+
+  <!-- before-collision axis label -->
+  <text x="30" y="96" fill="#8a8a8a" font-style="italic" font-size="12">before</text>
+
+  <!-- beam -->
+  <line x1="34" y1="118" x2="150" y2="118" stroke="#4a90d9" stroke-width="3"/>
+  <polygon points="160,118 148,112 148,124" fill="#4a90d9"/>
+  <text x="52" y="108" fill="#4a90d9">beam, E_lab</text>
+
+  <!-- target at rest -->
+  <circle cx="205" cy="118" r="14" fill="#8a8a8a" opacity="0.15" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="182" y="150" fill="#8a8a8a">target (at rest)</text>
+
+  <!-- after-collision -->
+  <text x="30" y="196" fill="#8a8a8a" font-style="italic" font-size="12">after</text>
+
+  <!-- cluster of products, all shoved forward -->
+  <circle cx="150" cy="218" r="9" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="1.5"/>
+  <circle cx="172" cy="228" r="9" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="1.5"/>
+  <circle cx="168" cy="206" r="9" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="1.5"/>
+  <circle cx="190" cy="218" r="9" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="1.5"/>
+
+  <!-- CM recoil velocity arrow (coral, wasted) -->
+  <line x1="212" y1="218" x2="278" y2="218" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="288,218 276,212 276,224" fill="#e0645c"/>
+  <text x="214" y="208" fill="#e0645c">CM still moving</text>
+
+  <!-- s scaling annotation -->
+  <text x="30" y="286" fill="#8a8a8a">s = 2m² + 2m·E_lab</text>
+  <text x="30" y="308" fill="#e0645c" font-weight="bold">s ∝ E_lab  (linear — energy wasted)</text>
+
+  <!-- ================= RIGHT: collider ================= -->
+  <text x="410" y="66" fill="#8a8a8a" font-size="15" font-weight="bold">Collider (head-on)</text>
+
+  <text x="336" y="96" fill="#8a8a8a" font-style="italic" font-size="12">before</text>
+
+  <!-- left-moving-right beam -->
+  <line x1="352" y1="118" x2="452" y2="118" stroke="#4a90d9" stroke-width="3"/>
+  <polygon points="462,118 450,112 450,124" fill="#4a90d9"/>
+  <text x="372" y="108" fill="#4a90d9">E</text>
+
+  <!-- right beam moving left -->
+  <line x1="612" y1="118" x2="512" y2="118" stroke="#4a90d9" stroke-width="3"/>
+  <polygon points="502,118 514,112 514,124" fill="#4a90d9"/>
+  <text x="588" y="108" fill="#4a90d9">E</text>
+
+  <!-- collision point -->
+  <circle cx="482" cy="118" r="4" fill="#8a8a8a"/>
+
+  <text x="336" y="196" fill="#8a8a8a" font-style="italic" font-size="12">after</text>
+
+  <!-- products at rest — symmetric cluster, no net arrow -->
+  <circle cx="470" cy="218" r="9" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="1.5"/>
+  <circle cx="494" cy="218" r="9" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="1.5"/>
+  <circle cx="482" cy="200" r="9" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="1.5"/>
+  <circle cx="482" cy="236" r="9" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="430" y="262" fill="#e0645c">CM at rest — nothing wasted</text>
+
+  <!-- s scaling annotation -->
+  <text x="360" y="286" fill="#8a8a8a">s = (2E)²</text>
+  <text x="360" y="308" fill="#e0645c" font-weight="bold">s ∝ E²  (quadratic — all available)</text>
+</svg>

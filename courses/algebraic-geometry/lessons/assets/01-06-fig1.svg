@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="380" viewBox="0 0 720 380" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="720" height="380" fill="#ffffff"/>
+  <defs>
+    <marker id="ahBlue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#1a66cc"/>
+    </marker>
+    <marker id="ahRed" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#c0392b"/>
+    </marker>
+    <marker id="ahInk" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#111111"/>
+    </marker>
+  </defs>
+
+  <!-- ===== TOP ROW: the spaces (geometry) ===== -->
+  <text x="150" y="32" text-anchor="middle" font-size="15" fill="#111111" font-style="italic">X = A<tspan dy="-6" font-size="10">1</tspan><tspan dy="6"> (the t-line)</tspan></text>
+  <text x="545" y="32" text-anchor="middle" font-size="15" fill="#111111" font-style="italic">Y = V(y² − x³)   (the cusp)</text>
+
+  <!-- the t-line -->
+  <line x1="55" y1="150" x2="250" y2="150" stroke="#111111" stroke-width="1.6" marker-start="url(#ahInk)" marker-end="url(#ahInk)"/>
+  <line x1="150" y1="145" x2="150" y2="155" stroke="#111111" stroke-width="1.4"/>
+  <circle cx="150" cy="150" r="3.5" fill="#1a66cc"/>
+  <text x="150" y="172" text-anchor="middle" font-size="12" fill="#111111">t = 0</text>
+  <text x="210" y="140" text-anchor="middle" font-size="12" fill="#111111" font-style="italic">t</text>
+
+  <!-- right coordinate frame + cusp curve -->
+  <line x1="455" y1="150" x2="640" y2="150" stroke="#bbbbbb" stroke-width="1"/>
+  <line x1="470" y1="20"  x2="470" y2="295" stroke="#bbbbbb" stroke-width="1"/>
+  <text x="646" y="154" font-size="11" fill="#888888" font-style="italic">x</text>
+  <text x="476" y="26"  font-size="11" fill="#888888" font-style="italic">y</text>
+  <polyline fill="none" stroke="#1a66cc" stroke-width="2.2"
+    points="617.2,287.2 612.3,280.4 607.4,273.8 602.7,267.5 598.1,261.3 593.5,255.4 589.0,249.7 584.6,244.2 580.3,239.0 576.0,233.9 571.9,229.0 567.8,224.3 563.8,219.8 559.9,215.5 556.1,211.3 552.3,207.4 548.7,203.6 545.1,200.0 541.6,196.5 538.2,193.3 534.9,190.1 531.6,187.2 528.5,184.3 525.4,181.7 522.4,179.1 519.5,176.7 516.7,174.5 513.9,172.4 511.2,170.4 508.7,168.5 506.2,166.7 503.8,165.1 501.4,163.5 499.2,162.1 497.0,160.8 495.0,159.6 493.0,158.5 491.0,157.4 489.2,156.5 487.5,155.6 485.8,154.8 484.2,154.1 482.7,153.5 481.3,152.9 480.0,152.4 478.7,152.0 477.6,151.6 476.5,151.3 475.5,151.0 474.6,150.8 473.8,150.6 473.0,150.4 472.3,150.3 471.8,150.2 471.3,150.1 470.8,150.1 470.5,150.0 470.3,150.0 470.1,150.0 470.0,150.0 470.0,150.0 470.1,150.0 470.3,150.0 470.5,150.0 470.8,149.9 471.3,149.9 471.8,149.8 472.3,149.7 473.0,149.6 473.8,149.4 474.6,149.2 475.5,149.0 476.5,148.7 477.6,148.4 478.7,148.0 480.0,147.6 481.3,147.1 482.7,146.5 484.2,145.9 485.8,145.2 487.5,144.4 489.2,143.5 491.0,142.6 493.0,141.5 495.0,140.4 497.0,139.2 499.2,137.9 501.4,136.5 503.8,134.9 506.2,133.3 508.7,131.5 511.2,129.6 513.9,127.6 516.7,125.5 519.5,123.3 522.4,120.9 525.4,118.3 528.5,115.7 531.6,112.8 534.9,109.9 538.2,106.7 541.6,103.5 545.1,100.0 548.7,96.4 552.3,92.6 556.1,88.7 559.9,84.5 563.8,80.2 567.8,75.7 571.9,71.0 576.0,66.1 580.3,61.0 584.6,55.8 589.0,50.3 593.5,44.6 598.1,38.7 602.7,32.5 607.4,26.2 612.3,19.6 617.2,12.8"/>
+  <circle cx="470" cy="150" r="3.8" fill="#c0392b"/>
+  <text x="470" y="172" text-anchor="middle" font-size="12" fill="#c0392b">cusp (0,0)</text>
+
+  <!-- geometry arrow: X --> Y -->
+  <line x1="270" y1="120" x2="450" y2="120" stroke="#1a66cc" stroke-width="2" marker-end="url(#ahBlue)"/>
+  <text x="360" y="110" text-anchor="middle" font-size="14" fill="#1a66cc">φ :  t ↦ (t², t³)</text>
+
+  <!-- ===== BOTTOM ROW: the rings (algebra) — arrow REVERSED ===== -->
+  <text x="150" y="345" text-anchor="middle" font-size="15" fill="#111111">k[t]</text>
+  <text x="545" y="345" text-anchor="middle" font-size="15" fill="#111111">k[Y] = k[x,y]/(y² − x³)</text>
+
+  <!-- algebra arrow: k[Y] --> k[t], pointing the OTHER way -->
+  <line x1="450" y1="335" x2="270" y2="335" stroke="#c0392b" stroke-width="2" marker-end="url(#ahRed)"/>
+  <text x="360" y="325" text-anchor="middle" font-size="14" fill="#c0392b">φ* :  g ↦ g ∘ φ</text>
+  <text x="360" y="360" text-anchor="middle" font-size="11" fill="#888888" font-style="italic">x ↦ t²,  y ↦ t³   (image = k[t²,t³] ⊊ k[t])</text>
+
+  <!-- contravariance caption -->
+  <text x="360" y="230" text-anchor="middle" font-size="12.5" fill="#111111">spaces go →,  rings go ←</text>
+  <text x="360" y="248" text-anchor="middle" font-size="12.5" fill="#111111" font-style="italic">(contravariance)</text>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 300" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="560" height="300" fill="#ffffff"/>
+
+  <!-- ===== left: the 4-cycle C4 ===== -->
+  <!-- edges -->
+  <line x1="95"  y1="70"  x2="215" y2="70"  stroke="#1a1a1a" stroke-width="3"/>
+  <line x1="215" y1="70"  x2="215" y2="190" stroke="#1a1a1a" stroke-width="3"/>
+  <line x1="215" y1="190" x2="95"  y2="190" stroke="#1a1a1a" stroke-width="3"/>
+  <line x1="95"  y1="190" x2="95"  y2="70"  stroke="#1a1a1a" stroke-width="3"/>
+
+  <!-- vertices -->
+  <circle cx="95"  cy="70"  r="18" fill="#cfe8ff" stroke="#1a1a1a" stroke-width="2.5"/>
+  <circle cx="215" cy="70"  r="18" fill="#cfe8ff" stroke="#1a1a1a" stroke-width="2.5"/>
+  <circle cx="215" cy="190" r="18" fill="#cfe8ff" stroke="#1a1a1a" stroke-width="2.5"/>
+  <circle cx="95"  cy="190" r="18" fill="#cfe8ff" stroke="#1a1a1a" stroke-width="2.5"/>
+
+  <!-- vertex labels -->
+  <text x="95"  y="76"  font-size="16" fill="#1a1a1a" text-anchor="middle" font-weight="bold">1</text>
+  <text x="215" y="76"  font-size="16" fill="#1a1a1a" text-anchor="middle" font-weight="bold">2</text>
+  <text x="215" y="196" font-size="16" fill="#1a1a1a" text-anchor="middle" font-weight="bold">3</text>
+  <text x="95"  y="196" font-size="16" fill="#1a1a1a" text-anchor="middle" font-weight="bold">4</text>
+
+  <text x="155" y="240" font-size="15" fill="#333333" text-anchor="middle" font-weight="bold">the 4-cycle C₄</text>
+
+  <!-- ===== right: its Laplacian ===== -->
+  <text x="300" y="135" font-size="20" fill="#1a1a1a" text-anchor="middle">L =</text>
+
+  <!-- brackets -->
+  <path d="M 342 60 L 334 60 L 334 198 L 342 198" fill="none" stroke="#1a1a1a" stroke-width="2.5"/>
+  <path d="M 508 60 L 516 60 L 516 198 L 508 198" fill="none" stroke="#1a1a1a" stroke-width="2.5"/>
+
+  <!-- diagonal (degrees) highlighted -->
+  <text x="360" y="83"  font-size="17" fill="#0a58a6" text-anchor="middle" font-weight="bold">2</text>
+  <text x="406" y="118" font-size="17" fill="#0a58a6" text-anchor="middle" font-weight="bold">2</text>
+  <text x="452" y="153" font-size="17" fill="#0a58a6" text-anchor="middle" font-weight="bold">2</text>
+  <text x="498" y="188" font-size="17" fill="#0a58a6" text-anchor="middle" font-weight="bold">2</text>
+
+  <!-- row 1 -->
+  <text x="406" y="83"  font-size="17" fill="#b3261e" text-anchor="middle">−1</text>
+  <text x="452" y="83"  font-size="17" fill="#1a1a1a" text-anchor="middle">0</text>
+  <text x="498" y="83"  font-size="17" fill="#b3261e" text-anchor="middle">−1</text>
+  <!-- row 2 -->
+  <text x="360" y="118" font-size="17" fill="#b3261e" text-anchor="middle">−1</text>
+  <text x="452" y="118" font-size="17" fill="#b3261e" text-anchor="middle">−1</text>
+  <text x="498" y="118" font-size="17" fill="#1a1a1a" text-anchor="middle">0</text>
+  <!-- row 3 -->
+  <text x="360" y="153" font-size="17" fill="#1a1a1a" text-anchor="middle">0</text>
+  <text x="406" y="153" font-size="17" fill="#b3261e" text-anchor="middle">−1</text>
+  <text x="498" y="153" font-size="17" fill="#b3261e" text-anchor="middle">−1</text>
+  <!-- row 4 -->
+  <text x="360" y="188" font-size="17" fill="#b3261e" text-anchor="middle">−1</text>
+  <text x="406" y="188" font-size="17" fill="#1a1a1a" text-anchor="middle">0</text>
+  <text x="452" y="188" font-size="17" fill="#b3261e" text-anchor="middle">−1</text>
+
+  <text x="425" y="240" font-size="14" fill="#0a58a6" text-anchor="middle" font-weight="bold">blue = degrees (D)</text>
+  <text x="425" y="262" font-size="14" fill="#b3261e" text-anchor="middle" font-weight="bold">red −1 = edges (−A)</text>
+  <text x="425" y="284" font-size="13" fill="#333333" text-anchor="middle">every row sums to 0</text>
+</svg>

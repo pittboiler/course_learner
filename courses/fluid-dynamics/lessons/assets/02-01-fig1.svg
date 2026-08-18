@@ -1,0 +1,50 @@
+<svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="24" y="22" fill="#8a8a8a" font-style="italic">A Venturi: the throat crowds the streamlines, so speed u rises and pressure p falls.</text>
+
+  <!-- ===== tube walls (grey) ===== -->
+  <path d="M 60 110 L 180 110 L 280 142 L 360 142 L 460 110 L 560 110" fill="none" stroke="#8a8a8a" stroke-width="2.5"/>
+  <path d="M 60 230 L 180 230 L 280 198 L 360 198 L 460 230 L 560 230" fill="none" stroke="#8a8a8a" stroke-width="2.5"/>
+
+  <!-- ===== streamlines (blue) — crowd in the throat ===== -->
+  <path d="M 60 212 L 180 212 L 280 189.6 L 360 189.6 L 460 212 L 560 212" fill="none" stroke="#4a90d9" stroke-width="1.5"/>
+  <path d="M 60 191 L 180 191 L 280 179.8 L 360 179.8 L 460 191 L 560 191" fill="none" stroke="#4a90d9" stroke-width="1.5"/>
+  <path d="M 60 170 L 180 170 L 280 170 L 360 170 L 460 170 L 560 170" fill="none" stroke="#4a90d9" stroke-width="1.5"/>
+  <path d="M 60 149 L 180 149 L 280 160.2 L 360 160.2 L 460 149 L 560 149" fill="none" stroke="#4a90d9" stroke-width="1.5"/>
+  <path d="M 60 128 L 180 128 L 280 150.4 L 360 150.4 L 460 128 L 560 128" fill="none" stroke="#4a90d9" stroke-width="1.5"/>
+
+  <!-- flow-direction arrows on the centre streamline -->
+  <polygon points="150,170 140,166 140,174" fill="#4a90d9"/>
+  <polygon points="330,170 316,165 316,175" fill="#4a90d9"/>
+  <polygon points="500,170 490,166 490,174" fill="#4a90d9"/>
+
+  <!-- speed labels -->
+  <text x="98" y="256" fill="#4a90d9">slow: u₁</text>
+  <text x="300" y="230" fill="#4a90d9" text-anchor="middle">fast: u₂</text>
+
+  <!-- ===== manometers (static-pressure gauges) ===== -->
+  <!-- reference line at inlet fluid height -->
+  <line x1="112" y1="60" x2="508" y2="60" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- inlet manometer: HIGH pressure -> tall column -->
+  <line x1="112" y1="45" x2="112" y2="110" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="128" y1="45" x2="128" y2="110" stroke="#8a8a8a" stroke-width="1.5"/>
+  <rect x="112.5" y="60" width="15" height="50" fill="#e0645c" opacity="0.85"/>
+
+  <!-- throat manometer: LOW pressure -> short column (drops below dashed line) -->
+  <line x1="302" y1="45" x2="302" y2="142" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="318" y1="45" x2="318" y2="142" stroke="#8a8a8a" stroke-width="1.5"/>
+  <rect x="302.5" y="102" width="15" height="40" fill="#e0645c" opacity="0.85"/>
+
+  <!-- outlet manometer: pressure recovers -->
+  <line x1="492" y1="45" x2="492" y2="110" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="508" y1="45" x2="508" y2="110" stroke="#8a8a8a" stroke-width="1.5"/>
+  <rect x="492.5" y="64" width="15" height="46" fill="#e0645c" opacity="0.85"/>
+
+  <!-- height labels -->
+  <text x="80" y="52" fill="#e0645c">p₁ high</text>
+  <text x="326" y="98" fill="#e0645c">p₂ low</text>
+
+  <!-- ===== the invariant ===== -->
+  <text x="320" y="300" fill="#8a8a8a" text-anchor="middle" font-size="15">½ρu² + p + ρgz = constant along a streamline</text>
+</svg>

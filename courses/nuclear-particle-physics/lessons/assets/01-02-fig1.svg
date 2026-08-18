@@ -1,0 +1,60 @@
+<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="70" y="24" fill="#8a8a8a" font-style="italic">B/A: steep climb, a peak near ⁵⁶Fe (≈8.8 MeV), then a slow decline.</text>
+
+  <!-- ===== axes ===== -->
+  <!-- y axis -->
+  <line x1="70" y1="330" x2="70" y2="50" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,50 65,60 75,60" fill="#8a8a8a"/>
+  <!-- x axis -->
+  <line x1="70" y1="330" x2="620" y2="330" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="620,330 610,325 610,335" fill="#8a8a8a"/>
+
+  <!-- y ticks (0,2,4,6,8 MeV) -->
+  <line x1="66" y1="320" x2="70" y2="320" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="52" y="325" fill="#8a8a8a" text-anchor="end">0</text>
+  <line x1="66" y1="262.2" x2="70" y2="262.2" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="52" y="267" fill="#8a8a8a" text-anchor="end">2</text>
+  <line x1="66" y1="204.4" x2="70" y2="204.4" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="52" y="209" fill="#8a8a8a" text-anchor="end">4</text>
+  <line x1="66" y1="146.7" x2="70" y2="146.7" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="52" y="151" fill="#8a8a8a" text-anchor="end">6</text>
+  <line x1="66" y1="88.9" x2="70" y2="88.9" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="52" y="93" fill="#8a8a8a" text-anchor="end">8</text>
+  <text x="26" y="190" fill="#8a8a8a" transform="rotate(-90 26 190)" text-anchor="middle">B/A  (MeV per nucleon)</text>
+
+  <!-- x ticks (A = 0,50,100,150,200) -->
+  <line x1="70" y1="330" x2="70" y2="334" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="70" y="349" fill="#8a8a8a" text-anchor="middle">0</text>
+  <line x1="182.5" y1="330" x2="182.5" y2="334" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="182.5" y="349" fill="#8a8a8a" text-anchor="middle">50</text>
+  <line x1="295" y1="330" x2="295" y2="334" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="295" y="349" fill="#8a8a8a" text-anchor="middle">100</text>
+  <line x1="407.5" y1="330" x2="407.5" y2="334" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="407.5" y="349" fill="#8a8a8a" text-anchor="middle">150</text>
+  <line x1="520" y1="330" x2="520" y2="334" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="520" y="349" fill="#8a8a8a" text-anchor="middle">200</text>
+  <text x="345" y="372" fill="#8a8a8a" text-anchor="middle">Mass number  A</text>
+
+  <!-- ===== the B/A curve ===== -->
+  <path d="M 74.5 287.9 L 76.8 245.8 L 79.0 115.7 L 83.5 166.0 L 85.8 157.9 L 90.3 133.4 L 97.0 98.1 L 106.0 89.5 L 115.0 88.0 L 124.0 81.3 L 130.8 79.4 L 160.0 73.0 L 196.0 66.1 L 211.8 67.2 L 238.8 68.4 L 272.5 69.8 L 310.8 73.0 L 340.0 74.4 L 385.0 77.9 L 430.0 82.8 L 484.0 89.2 L 538.0 92.6 L 598.8 100.7"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <!-- ===== labelled nuclei ===== -->
+  <!-- 2H -->
+  <circle cx="74.5" cy="287.9" r="3" fill="#4a90d9"/>
+  <text x="80" y="292" fill="#8a8a8a">²H</text>
+  <!-- 4He -->
+  <circle cx="79.0" cy="115.7" r="3" fill="#4a90d9"/>
+  <text x="70" y="108" fill="#8a8a8a">⁴He</text>
+  <!-- 56Fe: coral highlight -->
+  <circle cx="196.0" cy="66.1" r="5" fill="#e0645c"/>
+  <text x="200" y="58" fill="#e0645c">⁵⁶Fe  (peak ≈ 8.8)</text>
+  <!-- 235U -->
+  <circle cx="598.8" cy="100.7" r="3" fill="#4a90d9"/>
+  <text x="592" y="95" fill="#8a8a8a" text-anchor="end">²³⁵U</text>
+
+  <!-- ===== fusion / fission annotations ===== -->
+  <text x="120" y="210" fill="#e0645c" font-style="italic">fusion →</text>
+  <text x="470" y="140" fill="#e0645c" font-style="italic">← fission</text>
+</svg>

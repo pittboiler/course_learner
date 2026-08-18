@@ -1,0 +1,49 @@
+<svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <!-- caption -->
+  <text x="24" y="22" fill="#8a8a8a" font-style="italic">One length L governs everything: how fast the flux falls off, and how far a neutron wanders before capture.</text>
+
+  <!-- =============== LEFT PANEL: point-source flux =============== -->
+  <text x="70" y="52" fill="#8a8a8a">Flux from a point source</text>
+
+  <!-- axes -->
+  <line x1="70" y1="240" x2="322" y2="240" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="322,240 312,235 312,245" fill="#8a8a8a"/>
+  <text x="326" y="245" fill="#8a8a8a">r</text>
+  <line x1="70" y1="240" x2="70" y2="96" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,96 65,106 75,106" fill="#8a8a8a"/>
+  <text x="52" y="104" fill="#8a8a8a">&#966;</text>
+  <text x="58" y="256" fill="#8a8a8a">0</text>
+
+  <!-- flux curve: phi(r) proportional to e^(-r/L)/r -->
+  <path d="M 88 117 L 100 179 L 115 208.5 L 130 221.6 L 145 228.5 L 160 232.6 L 190 236.6 L 220 238.4 L 250 239 L 310 239.8"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- L marker -->
+  <line x1="130" y1="240" x2="130" y2="221.6" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="126" y="256" fill="#8a8a8a">L</text>
+  <text x="150" y="150" fill="#4a90d9">&#966;(r)</text>
+
+  <!-- =============== RIGHT PANEL: capture distribution =============== -->
+  <text x="378" y="52" fill="#8a8a8a">Where neutrons get captured</text>
+
+  <!-- axes -->
+  <line x1="360" y1="240" x2="618" y2="240" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="618,240 608,235 608,245" fill="#8a8a8a"/>
+  <text x="622" y="245" fill="#8a8a8a">r</text>
+  <line x1="360" y1="240" x2="360" y2="96" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="360,96 355,106 365,106" fill="#8a8a8a"/>
+  <text x="348" y="256" fill="#8a8a8a">0</text>
+
+  <!-- capture density: p(r) proportional to r e^(-r/L), peaks at r = L -->
+  <path d="M 360 240 L 375 214 L 384 174 L 398 137 L 411 120 L 425 115 L 439 118 L 453 126 L 480 148 L 505 168 L 535 189 L 562 204 L 590 215"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+
+  <!-- peak at L -->
+  <line x1="425" y1="240" x2="425" y2="115" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="421" y="256" fill="#8a8a8a">L</text>
+
+  <!-- rms at sqrt(6) L -->
+  <line x1="505" y1="240" x2="505" y2="168" stroke="#e0645c" stroke-width="1.2" stroke-dasharray="3 4"/>
+  <text x="492" y="256" fill="#e0645c">&#8730;6&#8201;L</text>
+  <text x="516" y="140" fill="#e0645c">rms range</text>
+</svg>

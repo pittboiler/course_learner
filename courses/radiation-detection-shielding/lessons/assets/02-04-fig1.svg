@@ -1,0 +1,72 @@
+<svg viewBox="0 0 680 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">A high-energy &#947; (2.75 MeV, Na-24): every escape route from full-energy leaves its own mark.</text>
+
+  <!-- ===== axes ===== -->
+  <line x1="60" y1="318" x2="648" y2="318" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="648,318 638,313 638,323" fill="#8a8a8a"/>
+  <text x="486" y="352" fill="#8a8a8a">Energy (MeV) &#8594;</text>
+
+  <line x1="60" y1="318" x2="60" y2="48" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="60,48 55,58 65,58" fill="#8a8a8a"/>
+  <text x="22" y="200" fill="#8a8a8a" transform="rotate(-90 22 200)">log counts</text>
+
+  <!-- x ticks: E = 0, 0.5, 1.0, 1.5, 2.0, 2.5 -->
+  <line x1="157" y1="318" x2="157" y2="323" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="149" y="337" fill="#8a8a8a" font-size="11">0.5</text>
+  <line x1="254" y1="318" x2="254" y2="323" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="246" y="337" fill="#8a8a8a" font-size="11">1.0</text>
+  <line x1="350" y1="318" x2="350" y2="323" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="342" y="337" fill="#8a8a8a" font-size="11">1.5</text>
+  <line x1="446" y1="318" x2="446" y2="323" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="438" y="337" fill="#8a8a8a" font-size="11">2.0</text>
+  <line x1="543" y1="318" x2="543" y2="323" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="535" y="337" fill="#8a8a8a" font-size="11">2.5</text>
+
+  <!-- ===== spectrum (blue) ===== -->
+  <path d="M 60 292 L 80 278 L 96 262 L 102 256
+           L 105 150 L 109 254
+           L 122 240 L 132 214 L 156 212
+           L 159 128 L 163 210
+           L 220 206 L 320 200 L 388 197
+           L 394 152 L 400 195
+           L 487 190 L 493 150 L 499 188
+           L 543 184 L 547 182
+           L 552 262 L 585 258 L 590 258
+           L 592 74 L 595 256
+           L 614 268 L 634 280"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <!-- ===== feature labels (coral) with leader lines ===== -->
+
+  <!-- backscatter peak @ x=105 -->
+  <line x1="105" y1="150" x2="95" y2="118" stroke="#e0645c" stroke-width="1"/>
+  <text x="72" y="110" fill="#e0645c" font-size="12">Backscatter</text>
+  <text x="80" y="124" fill="#e0645c" font-size="11">0.234</text>
+
+  <!-- annihilation line @ x=159 -->
+  <line x1="159" y1="128" x2="178" y2="92" stroke="#e0645c" stroke-width="1"/>
+  <text x="168" y="84" fill="#e0645c" font-size="12">0.511 line</text>
+
+  <!-- Compton continuum -->
+  <text x="250" y="228" fill="#e0645c" font-size="12">Compton continuum</text>
+
+  <!-- double escape @ x=394 -->
+  <line x1="394" y1="152" x2="360" y2="112" stroke="#e0645c" stroke-width="1"/>
+  <text x="300" y="104" fill="#e0645c" font-size="12">Double escape</text>
+  <text x="336" y="118" fill="#e0645c" font-size="11">1.732</text>
+
+  <!-- single escape @ x=493 -->
+  <line x1="493" y1="150" x2="470" y2="112" stroke="#e0645c" stroke-width="1"/>
+  <text x="430" y="104" fill="#e0645c" font-size="12">Single escape</text>
+  <text x="466" y="118" fill="#e0645c" font-size="11">2.243</text>
+
+  <!-- Compton edge @ x=547 -->
+  <line x1="547" y1="182" x2="576" y2="196" stroke="#e0645c" stroke-width="1"/>
+  <text x="560" y="212" fill="#e0645c" font-size="12">Compton edge</text>
+  <text x="584" y="226" fill="#e0645c" font-size="11">2.520</text>
+
+  <!-- photopeak @ x=592 -->
+  <line x1="592" y1="74" x2="592" y2="58" stroke="#e0645c" stroke-width="1"/>
+  <text x="536" y="52" fill="#e0645c" font-size="12">Photopeak 2.754</text>
+</svg>

@@ -1,0 +1,63 @@
+<svg viewBox="0 0 660 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">2,3-dibromobutane: two stereocenters, but only 3 stereoisomers. Fischer projections (horizontal bonds = toward you).</text>
+
+  <!-- ================= Fischer A: (2R,3R) ================= -->
+  <g stroke="#4a90d9" fill="#4a90d9">
+    <line x1="110" y1="92" x2="110" y2="250" stroke-width="2"/>
+    <!-- C2 row -->
+    <line x1="72" y1="140" x2="148" y2="140" stroke-width="2"/>
+    <!-- C3 row -->
+    <line x1="72" y1="200" x2="148" y2="200" stroke-width="2"/>
+  </g>
+  <g fill="#4a90d9" stroke="none">
+    <text x="110" y="82" text-anchor="middle">CH3</text>
+    <text x="66" y="145" text-anchor="end">Br</text>
+    <text x="154" y="145" text-anchor="start">H</text>
+    <text x="66" y="205" text-anchor="end">H</text>
+    <text x="154" y="205" text-anchor="start">Br</text>
+    <text x="110" y="270" text-anchor="middle">CH3</text>
+    <text x="110" y="300" text-anchor="middle" font-style="italic">(2R,3R)</text>
+  </g>
+
+  <!-- ================= vertical enantiomer mirror ================= -->
+  <line x1="200" y1="96" x2="200" y2="256" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- ================= Fischer B: (2S,3S) ================= -->
+  <g stroke="#4a90d9" fill="#4a90d9">
+    <line x1="290" y1="92" x2="290" y2="250" stroke-width="2"/>
+    <line x1="252" y1="140" x2="328" y2="140" stroke-width="2"/>
+    <line x1="252" y1="200" x2="328" y2="200" stroke-width="2"/>
+  </g>
+  <g fill="#4a90d9" stroke="none">
+    <text x="290" y="82" text-anchor="middle">CH3</text>
+    <text x="246" y="145" text-anchor="end">H</text>
+    <text x="334" y="145" text-anchor="start">Br</text>
+    <text x="246" y="205" text-anchor="end">Br</text>
+    <text x="334" y="205" text-anchor="start">H</text>
+    <text x="290" y="270" text-anchor="middle">CH3</text>
+    <text x="290" y="300" text-anchor="middle" font-style="italic">(2S,3S)</text>
+  </g>
+
+  <text x="200" y="322" text-anchor="middle" fill="#4a90d9">enantiomers &#8212; chiral, optically active (+ / &#8722;)</text>
+
+  <!-- ================= Fischer C: meso (2R,3S) ================= -->
+  <g stroke="#8a8a8a" fill="#8a8a8a">
+    <line x1="500" y1="92" x2="500" y2="250" stroke-width="2"/>
+    <line x1="462" y1="140" x2="538" y2="140" stroke-width="2"/>
+    <line x1="462" y1="200" x2="538" y2="200" stroke-width="2"/>
+  </g>
+  <g fill="#8a8a8a" stroke="none">
+    <text x="500" y="82" text-anchor="middle">CH3</text>
+    <text x="456" y="145" text-anchor="end">H</text>
+    <text x="544" y="145" text-anchor="start">Br</text>
+    <text x="456" y="205" text-anchor="end">H</text>
+    <text x="544" y="205" text-anchor="start">Br</text>
+    <text x="500" y="270" text-anchor="middle">CH3</text>
+    <text x="500" y="300" text-anchor="middle" font-style="italic">meso (2R,3S)</text>
+  </g>
+
+  <!-- internal mirror plane (coral) -->
+  <line x1="438" y1="170" x2="562" y2="170" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="500" y="322" text-anchor="middle" fill="#e0645c">internal mirror plane &#8594; achiral, inactive</text>
+</svg>

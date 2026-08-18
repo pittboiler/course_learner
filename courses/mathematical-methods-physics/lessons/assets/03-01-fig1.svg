@@ -1,0 +1,79 @@
+<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="25" y="22" fill="#8a8a8a" font-style="italic">The ODE feeds a recurrence; the recurrence climbs a ladder of coefficients — two free rungs, two solutions.</text>
+
+  <!-- ===== left column: the pipeline ===== -->
+  <rect x="25" y="40" width="230" height="40" rx="6" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="140" y="65" fill="#4a90d9" text-anchor="middle">y&#8243; + P(x) y&#8242; + Q(x) y = 0</text>
+
+  <line x1="140" y1="80" x2="140" y2="98" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="140,98 135,90 145,90" fill="#8a8a8a"/>
+
+  <rect x="25" y="98" width="230" height="40" rx="6" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="140" y="123" fill="#4a90d9" text-anchor="middle">substitute  y = &#931; a&#8345; x&#8319;</text>
+
+  <line x1="140" y1="138" x2="140" y2="156" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="140,156 135,148 145,148" fill="#8a8a8a"/>
+
+  <rect x="25" y="156" width="230" height="40" rx="6" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="140" y="181" fill="#4a90d9" text-anchor="middle">collect like powers of x</text>
+
+  <line x1="140" y1="196" x2="140" y2="214" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="140,214 135,206 145,206" fill="#8a8a8a"/>
+
+  <rect x="25" y="214" width="230" height="40" rx="6" fill="#e0645c" opacity="0.15"/>
+  <rect x="25" y="214" width="230" height="40" rx="6" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <text x="140" y="239" fill="#e0645c" text-anchor="middle">recurrence  a&#8345;&#8330;&#8322; = f(n) a&#8345;</text>
+
+  <!-- arrow into the ladder -->
+  <line x1="255" y1="234" x2="322" y2="150" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="322,150 313,153 318,161" fill="#8a8a8a"/>
+
+  <!-- ===== right: coefficient ladder ===== -->
+  <text x="470" y="70" fill="#8a8a8a" text-anchor="middle" font-style="italic">two free rungs a&#8320;, a&#8321;</text>
+
+  <!-- even chain -->
+  <text x="335" y="120" fill="#4a90d9">a&#8320;</text>
+  <text x="425" y="120" fill="#4a90d9">a&#8322;</text>
+  <text x="515" y="120" fill="#4a90d9">a&#8324;</text>
+  <text x="600" y="120" fill="#4a90d9">a&#8326;</text>
+  <line x1="352" y1="115" x2="418" y2="115" stroke="#4a90d9" stroke-width="1.5"/>
+  <polygon points="418,115 409,111 409,119" fill="#4a90d9"/>
+  <line x1="442" y1="115" x2="508" y2="115" stroke="#4a90d9" stroke-width="1.5"/>
+  <polygon points="508,115 499,111 499,119" fill="#4a90d9"/>
+  <line x1="532" y1="115" x2="594" y2="115" stroke="#4a90d9" stroke-width="1.5"/>
+  <polygon points="594,115 585,111 585,119" fill="#4a90d9"/>
+
+  <!-- odd chain -->
+  <text x="335" y="165" fill="#4a90d9">a&#8321;</text>
+  <text x="425" y="165" fill="#4a90d9">a&#8323;</text>
+  <text x="515" y="165" fill="#4a90d9">a&#8325;</text>
+  <text x="600" y="165" fill="#4a90d9">a&#8327;</text>
+  <line x1="352" y1="160" x2="418" y2="160" stroke="#4a90d9" stroke-width="1.5"/>
+  <polygon points="418,160 409,156 409,164" fill="#4a90d9"/>
+  <line x1="442" y1="160" x2="508" y2="160" stroke="#4a90d9" stroke-width="1.5"/>
+  <polygon points="508,160 499,156 499,164" fill="#4a90d9"/>
+  <line x1="532" y1="160" x2="594" y2="160" stroke="#4a90d9" stroke-width="1.5"/>
+  <polygon points="594,160 585,156 585,164" fill="#4a90d9"/>
+
+  <text x="470" y="192" fill="#8a8a8a" text-anchor="middle" font-style="italic">&#8594; two independent solutions</text>
+
+  <!-- ===== bottom: the x-axis classification ===== -->
+  <line x1="40" y1="320" x2="605" y2="320" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="605,320 595,315 595,325" fill="#8a8a8a"/>
+  <text x="609" y="325" fill="#8a8a8a">x</text>
+
+  <!-- ordinary point -->
+  <circle cx="150" cy="320" r="5" fill="#4a90d9"/>
+  <line x1="150" y1="320" x2="150" y2="300" stroke="#4a90d9" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="150" y="294" fill="#4a90d9" text-anchor="middle">ordinary point</text>
+  <text x="150" y="345" fill="#8a8a8a" text-anchor="middle">P, Q analytic</text>
+  <text x="150" y="362" fill="#8a8a8a" text-anchor="middle">&#8658; plain power series</text>
+
+  <!-- regular singular point -->
+  <circle cx="440" cy="320" r="5" fill="#e0645c"/>
+  <line x1="440" y1="320" x2="440" y2="300" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="440" y="294" fill="#e0645c" text-anchor="middle">regular singular point</text>
+  <text x="440" y="345" fill="#8a8a8a" text-anchor="middle">xP, x&#178;Q analytic</text>
+  <text x="440" y="362" fill="#8a8a8a" text-anchor="middle">&#8658; Frobenius  y = x&#738; &#931; a&#8345; x&#8319;</text>
+</svg>

@@ -1,0 +1,38 @@
+<svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Every trial energy sits ABOVE the true floor E&#8320;; tuning &#955; to the minimum gives the best (lowest) upper bound.</text>
+
+  <!-- ===== axes ===== -->
+  <!-- energy axis (vertical) -->
+  <line x1="70" y1="300" x2="70" y2="46" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,46 65,56 75,56" fill="#8a8a8a"/>
+  <text x="46" y="52" fill="#8a8a8a">E</text>
+  <!-- parameter axis (horizontal) -->
+  <line x1="70" y1="300" x2="588" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="588,300 578,295 578,305" fill="#8a8a8a"/>
+  <text x="592" y="305" fill="#8a8a8a">&#955;</text>
+
+  <!-- ===== true ground-state floor E0 (dashed grey) ===== -->
+  <line x1="70" y1="250" x2="560" y2="250" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <text x="470" y="270" fill="#8a8a8a">E&#8320; = true ground state</text>
+  <text x="44" y="255" fill="#8a8a8a">E&#8320;</text>
+
+  <!-- ===== the trial-energy curve E(lambda) (blue) ===== -->
+  <path d="M 100 90 L 140 133.2 L 180 166.8 L 220 190.8 L 260 205.2 L 300 210 L 340 205.2 L 380 190.8 L 420 166.8 L 460 133.2 L 500 90"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="500" y="86" fill="#4a90d9">E(&#955;)</text>
+
+  <!-- ===== optimized minimum (coral) ===== -->
+  <!-- guide lines -->
+  <line x1="300" y1="210" x2="300" y2="300" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="300" y1="210" x2="70" y2="210" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <circle cx="300" cy="210" r="5.5" fill="#e0645c"/>
+  <text x="288" y="318" fill="#e0645c">&#955;*</text>
+  <text x="16" y="215" fill="#e0645c">E(&#955;*)</text>
+
+  <!-- ===== the bound gap (coral double arrow between E(lambda*) and E0) ===== -->
+  <line x1="180" y1="167" x2="180" y2="250" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="180,167 176,176 184,176" fill="#e0645c"/>
+  <polygon points="180,250 176,241 184,241" fill="#e0645c"/>
+  <text x="190" y="213" fill="#e0645c">E &#8722; E&#8320; &#8805; 0</text>
+</svg>

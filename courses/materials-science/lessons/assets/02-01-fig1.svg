@@ -1,0 +1,49 @@
+<svg viewBox="0 0 560 375" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">A 2D crystal: blue host atoms on a regular lattice, with three point defects breaking the pattern.</text>
+
+  <!-- ===== host atoms (blue), on the lattice ===== -->
+  <!-- row 1 -->
+  <circle cx="70" cy="70" r="20" fill="#4a90d9" fill-opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="150" cy="70" r="20" fill="#4a90d9" fill-opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="230" cy="70" r="20" fill="#4a90d9" fill-opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="310" cy="70" r="20" fill="#4a90d9" fill-opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="390" cy="70" r="20" fill="#4a90d9" fill-opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <!-- row 2 (230,150 is a vacancy) -->
+  <circle cx="70" cy="150" r="20" fill="#4a90d9" fill-opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="150" cy="150" r="20" fill="#4a90d9" fill-opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="310" cy="150" r="20" fill="#4a90d9" fill-opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="390" cy="150" r="20" fill="#4a90d9" fill-opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <!-- row 3 (310,230 is a substitutional solute) -->
+  <circle cx="70" cy="230" r="20" fill="#4a90d9" fill-opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="150" cy="230" r="20" fill="#4a90d9" fill-opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="230" cy="230" r="20" fill="#4a90d9" fill-opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="390" cy="230" r="20" fill="#4a90d9" fill-opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <!-- row 4 -->
+  <circle cx="70" cy="310" r="20" fill="#4a90d9" fill-opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="150" cy="310" r="20" fill="#4a90d9" fill-opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="230" cy="310" r="20" fill="#4a90d9" fill-opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="310" cy="310" r="20" fill="#4a90d9" fill-opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="390" cy="310" r="20" fill="#4a90d9" fill-opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+
+  <!-- ===== defects ===== -->
+  <!-- vacancy: an empty lattice site -->
+  <circle cx="230" cy="150" r="20" fill="none" stroke="#8a8a8a" stroke-width="1.8" stroke-dasharray="4 4"/>
+  <!-- substitutional solute: a bigger, foreign atom on a lattice site -->
+  <circle cx="310" cy="230" r="25" fill="#e0645c" fill-opacity="0.22" stroke="#e0645c" stroke-width="2.5"/>
+  <!-- interstitial solute: a small atom squeezed into a gap -->
+  <circle cx="190" cy="190" r="8" fill="#e0645c" stroke="#e0645c" stroke-width="1.5"/>
+
+  <!-- ===== legend ===== -->
+  <circle cx="34" cy="352" r="9" fill="#4a90d9" fill-opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <text x="48" y="357" fill="#8a8a8a">host atom</text>
+
+  <circle cx="150" cy="352" r="9" fill="none" stroke="#8a8a8a" stroke-width="1.6" stroke-dasharray="3 3"/>
+  <text x="164" y="357" fill="#8a8a8a">vacancy</text>
+
+  <circle cx="262" cy="352" r="10" fill="#e0645c" fill-opacity="0.22" stroke="#e0645c" stroke-width="2"/>
+  <text x="278" y="357" fill="#8a8a8a">substitutional</text>
+
+  <circle cx="420" cy="352" r="5" fill="#e0645c" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="432" y="357" fill="#8a8a8a">interstitial</text>
+</svg>

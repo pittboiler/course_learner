@@ -1,0 +1,76 @@
+<svg viewBox="0 0 660 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Same apparatus, opposite verdicts: thermal light peaks at &#964;=0 (bunching), a single emitter dips to 0 (antibunching).</text>
+
+  <!-- ===================== LEFT: HBT setup ===================== -->
+
+  <!-- source -->
+  <rect x="25" y="128" width="56" height="28" fill="#4a90d9" opacity="0.15" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="34" y="147" fill="#8a8a8a">source</text>
+
+  <!-- input beam -->
+  <line x1="81" y1="142" x2="146" y2="142" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- 50:50 beam splitter -->
+  <line x1="136" y1="154" x2="160" y2="130" stroke="#8a8a8a" stroke-width="2.5"/>
+  <text x="120" y="120" fill="#8a8a8a">50:50</text>
+
+  <!-- transmitted beam -> D1 -->
+  <line x1="148" y1="142" x2="226" y2="142" stroke="#4a90d9" stroke-width="3"/>
+  <polygon points="226,142 217,138 217,146" fill="#4a90d9"/>
+  <!-- reflected beam -> D2 -->
+  <line x1="148" y1="142" x2="148" y2="220" stroke="#4a90d9" stroke-width="3"/>
+  <polygon points="148,220 144,211 152,211" fill="#4a90d9"/>
+
+  <!-- detectors -->
+  <rect x="228" y="128" width="40" height="28" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="240" y="147" fill="#8a8a8a">D1</text>
+  <rect x="128" y="222" width="40" height="28" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="140" y="241" fill="#8a8a8a">D2</text>
+
+  <!-- coincidence counter -->
+  <rect x="215" y="286" width="120" height="42" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <text x="228" y="304" fill="#e0645c">coincidence</text>
+  <text x="245" y="321" fill="#e0645c">counter</text>
+
+  <!-- electrical wires (dashed) to counter -->
+  <path d="M 248 156 L 248 240 L 275 240 L 275 286" fill="none" stroke="#8a8a8a" stroke-width="1.2" stroke-dasharray="3 4"/>
+  <path d="M 168 236 L 200 236 L 200 300 L 215 300" fill="none" stroke="#8a8a8a" stroke-width="1.2" stroke-dasharray="3 4"/>
+
+  <!-- delay tau annotation on one wire -->
+  <text x="285" y="256" fill="#8a8a8a" font-style="italic">delay &#964;</text>
+
+  <!-- ===================== RIGHT: g2 plot ===================== -->
+
+  <!-- axes -->
+  <line x1="410" y1="252" x2="640" y2="252" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="640,252 630,247 630,257" fill="#8a8a8a"/>
+  <text x="628" y="272" fill="#8a8a8a">&#964;</text>
+  <line x1="410" y1="252" x2="410" y2="95" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="410,95 405,105 415,105" fill="#8a8a8a"/>
+  <text x="372" y="100" fill="#8a8a8a">g&#8317;&#178;&#8318;</text>
+
+  <!-- gridline g2 = 1 (classical floor) -->
+  <line x1="410" y1="180" x2="640" y2="180" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="392" y="185" fill="#8a8a8a">1</text>
+  <text x="392" y="115" fill="#8a8a8a">2</text>
+  <text x="392" y="257" fill="#8a8a8a">0</text>
+
+  <!-- tau = 0 guide -->
+  <line x1="500" y1="252" x2="500" y2="105" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="490" y="270" fill="#8a8a8a">0</text>
+
+  <!-- thermal bunching (coral): peaks at 2 -->
+  <polyline points="410,170.5 430,165.2 450,157.0 470,144.1 485,129.8 500,110 515,129.8 530,144.1 550,157.0 570,165.2 590,170.5 610,173.9 630,176.1"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+
+  <!-- single emitter antibunching (blue): dips to 0 -->
+  <polyline points="410,189.5 430,194.8 450,203.0 470,215.9 485,230.2 500,250 515,230.2 530,215.9 550,203.0 570,194.8 590,189.5 610,186.1 630,183.9"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- legend -->
+  <line x1="500" y1="318" x2="524" y2="318" stroke="#e0645c" stroke-width="3"/>
+  <text x="530" y="323" fill="#8a8a8a">thermal</text>
+  <line x1="500" y1="338" x2="524" y2="338" stroke="#4a90d9" stroke-width="3"/>
+  <text x="530" y="343" fill="#8a8a8a">single emitter</text>
+</svg>

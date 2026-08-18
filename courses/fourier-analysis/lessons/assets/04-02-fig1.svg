@@ -1,0 +1,53 @@
+<svg viewBox="0 0 720 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="720" height="380" fill="#ffffff"/>
+
+<text x="360" y="30" text-anchor="middle" font-size="17" fill="#111">The 8 eighth-roots of unity &#8212; the discrete frequency basis (N = 8)</text>
+
+<!-- axes through center (360,190), radius 120 -->
+<line x1="200" y1="190" x2="520" y2="190" stroke="#bbb" stroke-width="1"/>
+<line x1="360" y1="330" x2="360" y2="50" stroke="#bbb" stroke-width="1"/>
+<text x="524" y="194" font-size="13" fill="#777">Re</text>
+<text x="366" y="60" font-size="13" fill="#777">Im</text>
+
+<!-- unit circle -->
+<circle cx="360" cy="190" r="120" fill="none" stroke="#1a1a1a" stroke-width="1.6"/>
+
+<!-- radial spokes -->
+<g stroke="#ccc" stroke-width="1">
+<line x1="360" y1="190" x2="480" y2="190"/>
+<line x1="360" y1="190" x2="444.85" y2="105.15"/>
+<line x1="360" y1="190" x2="360" y2="70"/>
+<line x1="360" y1="190" x2="275.15" y2="105.15"/>
+<line x1="360" y1="190" x2="240" y2="190"/>
+<line x1="360" y1="190" x2="275.15" y2="274.85"/>
+<line x1="360" y1="190" x2="360" y2="310"/>
+<line x1="360" y1="190" x2="444.85" y2="274.85"/>
+</g>
+
+<!-- the 8 roots (drawn counterclockwise by k; DFT uses the clockwise convention w = e^-2pi i/8) -->
+<g fill="#c0392b">
+<circle cx="480" cy="190" r="6"/>
+<circle cx="444.85" cy="105.15" r="6"/>
+<circle cx="360" cy="70" r="6"/>
+<circle cx="275.15" cy="105.15" r="6"/>
+<circle cx="240" cy="190" r="6"/>
+<circle cx="275.15" cy="274.85" r="6"/>
+<circle cx="360" cy="310" r="6"/>
+<circle cx="444.85" cy="274.85" r="6"/>
+</g>
+
+<!-- labels -->
+<g font-size="14" fill="#111">
+<text x="496" y="194">1</text>
+<text x="454" y="96">&#969;&#185;</text>
+<text x="368" y="60">&#969;&#178;=i</text>
+<text x="252" y="96" text-anchor="end">&#969;&#179;</text>
+<text x="224" y="194" text-anchor="end">&#969;&#8308;=&#8722;1</text>
+<text x="252" y="288" text-anchor="end">&#969;&#8309;</text>
+<text x="368" y="328">&#969;&#8310;</text>
+<text x="454" y="288">&#969;&#8311;</text>
+</g>
+
+<!-- caption -->
+<text x="360" y="356" text-anchor="middle" font-size="14" fill="#111">Row k of the DFT matrix samples the pure wave &#969;&#8319;&#7472; &#8712; { powers of the k-th root }: k = frequency, going once around per step.</text>
+</svg>

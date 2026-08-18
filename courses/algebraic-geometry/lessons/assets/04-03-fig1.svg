@@ -1,0 +1,32 @@
+<svg viewBox="0 0 620 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="620" height="330" fill="#ffffff"/>
+
+  <text x="310" y="28" text-anchor="middle" font-size="16" fill="#111">A principal divisor on a curve: zeros minus poles</text>
+
+  <!-- the smooth curve X (a sampled sine) -->
+  <polyline fill="none" stroke="#111111" stroke-width="2.2" points="60,170.0 80,152.8 100,138.2 120,128.4 140,125.0 160,128.4 180,138.2 200,152.8 220,170.0 240,187.2 260,201.8 280,211.6 300,215.0 320,211.6 340,201.8 360,187.2 380,170.0 400,152.8 420,138.2 440,128.4 460,125.0 480,128.4 500,138.2 520,152.8 540,170.0 560,187.2"/>
+  <text x="575" y="190" font-size="14" fill="#111" font-style="italic">X</text>
+
+  <!-- marked points with multiplicities; zeros blue (+), poles red (-) -->
+  <!-- p1: +2 zero -->
+  <circle cx="140" cy="125" r="5" fill="#1565c0"/>
+  <text x="140" y="108" text-anchor="middle" font-size="14" fill="#1565c0">+2&#183;[p&#8321;]</text>
+  <!-- p2: -1 pole -->
+  <circle cx="260" cy="201.8" r="5" fill="#c62828"/>
+  <text x="260" y="224" text-anchor="middle" font-size="14" fill="#c62828">&#8722;1&#183;[p&#8322;]</text>
+  <!-- p3: +1 zero -->
+  <circle cx="380" cy="170" r="5" fill="#1565c0"/>
+  <text x="380" y="153" text-anchor="middle" font-size="14" fill="#1565c0">+1&#183;[p&#8323;]</text>
+  <!-- p4: -2 pole -->
+  <circle cx="500" cy="138.2" r="5" fill="#c62828"/>
+  <text x="500" y="161" text-anchor="middle" font-size="14" fill="#c62828">&#8722;2&#183;[p&#8324;]</text>
+
+  <!-- legend -->
+  <circle cx="80" cy="272" r="5" fill="#1565c0"/>
+  <text x="92" y="277" font-size="12.5" fill="#111">+ zero (order = multiplicity)</text>
+  <circle cx="330" cy="272" r="5" fill="#c62828"/>
+  <text x="342" y="277" font-size="12.5" fill="#111">&#8722; pole (order = &#8722;multiplicity)</text>
+
+  <!-- degree caption -->
+  <text x="310" y="308" text-anchor="middle" font-size="14" fill="#111">deg div(f) = (+2) + (&#8722;1) + (+1) + (&#8722;2) = 0</text>
+</svg>

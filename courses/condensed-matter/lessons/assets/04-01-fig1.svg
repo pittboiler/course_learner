@@ -1,0 +1,59 @@
+<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">The Fermi–Dirac tail spills a few electrons over the gap into the conduction band, leaving holes behind in the valence band.</text>
+
+  <!-- energy axis -->
+  <line x1="60" y1="330" x2="60" y2="52" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="60,52 55,62 65,62" fill="#8a8a8a"/>
+  <text x="46" y="60" fill="#8a8a8a">E</text>
+
+  <!-- conduction band (empty) -->
+  <rect x="90" y="60" width="270" height="70" fill="#4a90d9" opacity="0.15"/>
+  <line x1="90" y1="130" x2="360" y2="130" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="96" y="52" fill="#8a8a8a">conduction band (empty)</text>
+  <text x="364" y="126" fill="#8a8a8a">E_c</text>
+
+  <!-- valence band (full) -->
+  <rect x="90" y="250" width="270" height="70" fill="#4a90d9" opacity="0.15"/>
+  <line x1="90" y1="250" x2="360" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="96" y="342" fill="#8a8a8a">valence band (full)</text>
+  <text x="364" y="264" fill="#8a8a8a">E_v</text>
+
+  <!-- gap arrow E_g -->
+  <line x1="120" y1="132" x2="120" y2="248" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="120,132 116,142 124,142" fill="#e0645c"/>
+  <polygon points="120,248 116,238 124,238" fill="#e0645c"/>
+  <text x="128" y="196" fill="#e0645c">E_g</text>
+
+  <!-- Fermi level near midgap -->
+  <line x1="90" y1="196" x2="510" y2="196" stroke="#e0645c" stroke-width="1.3" stroke-dasharray="6 4"/>
+  <text x="512" y="200" fill="#e0645c">E_F</text>
+
+  <!-- excited electrons in conduction band (coral filled) -->
+  <circle cx="210" cy="115" r="5" fill="#e0645c"/>
+  <circle cx="255" cy="120" r="5" fill="#e0645c"/>
+  <circle cx="300" cy="113" r="5" fill="#e0645c"/>
+  <text x="196" y="98" fill="#e0645c">electrons  n</text>
+
+  <!-- holes in valence band (blue open circles) -->
+  <circle cx="210" cy="266" r="5" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="255" cy="270" r="5" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="300" cy="264" r="5" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="210" y="298" fill="#4a90d9">holes  p</text>
+
+  <!-- Fermi-Dirac occupancy curve f(E), energy vertical, occupancy horizontal -->
+  <path d="M 390.1 70 L 390.9 110 L 392.7 130 L 397.9 150 L 411 170 L 435.9 190 L 445 196 L 465.4 210 L 485.6 230 L 494.8 250 L 499.4 290 L 499.8 310"
+        fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <!-- occupancy axis -->
+  <line x1="390" y1="330" x2="505" y2="330" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="382" y="346" fill="#8a8a8a">0</text>
+  <text x="498" y="346" fill="#8a8a8a">1</text>
+  <text x="404" y="346" fill="#8a8a8a">f(E)</text>
+
+  <!-- pointer from tail to conduction electrons -->
+  <line x1="393" y1="126" x2="315" y2="115" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- formula annotation -->
+  <text x="360" y="98" fill="#e0645c">n = N_c e</text>
+  <text x="424" y="92" fill="#e0645c" font-size="11">−(E_c−E_F)/k_BT</text>
+</svg>

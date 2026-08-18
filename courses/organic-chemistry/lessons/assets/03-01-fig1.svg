@@ -1,0 +1,48 @@
+<svg viewBox="0 0 620 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Six parallel p orbitals (coral) merge into one delocalized &#960; ring (blue). 4n+2 = 6 electrons &#8594; aromatic.</text>
+
+  <!-- ===== left: benzene, p orbitals overlapping into the delocalized ring ===== -->
+
+  <!-- hexagon skeleton -->
+  <polygon points="140,125 187.6,152.5 187.6,207.5 140,235 92.4,207.5 92.4,152.5"
+           fill="none" stroke="#8a8a8a" stroke-width="2"/>
+
+  <!-- p-orbital lobes at each carbon (coral): top lobe + bottom lobe -->
+  <g fill="#e0645c" fill-opacity="0.22" stroke="#e0645c" stroke-width="1.5">
+    <ellipse cx="140" cy="113" rx="5" ry="11"/><ellipse cx="140" cy="137" rx="5" ry="11"/>
+    <ellipse cx="187.6" cy="140.5" rx="5" ry="11"/><ellipse cx="187.6" cy="164.5" rx="5" ry="11"/>
+    <ellipse cx="187.6" cy="195.5" rx="5" ry="11"/><ellipse cx="187.6" cy="219.5" rx="5" ry="11"/>
+    <ellipse cx="140" cy="223" rx="5" ry="11"/><ellipse cx="140" cy="247" rx="5" ry="11"/>
+    <ellipse cx="92.4" cy="195.5" rx="5" ry="11"/><ellipse cx="92.4" cy="219.5" rx="5" ry="11"/>
+    <ellipse cx="92.4" cy="140.5" rx="5" ry="11"/><ellipse cx="92.4" cy="164.5" rx="5" ry="11"/>
+  </g>
+
+  <!-- delocalized pi ring (blue circle notation) -->
+  <circle cx="140" cy="180" r="30" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="118" y="185" fill="#4a90d9">6 &#960; e&#8315;</text>
+
+  <text x="96" y="290" fill="#8a8a8a">benzene &#183; aromatic</text>
+
+  <!-- ===== right: aromatic-ion gallery ===== -->
+
+  <!-- cyclopentadienyl anion -->
+  <polygon points="400,98 439.9,127 424.7,174 375.3,174 360.1,127"
+           fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <circle cx="400" cy="140" r="21" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <circle cx="452" cy="98" r="10" fill="#e0645c" fill-opacity="0.18" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="448" y="103" fill="#e0645c">&#8722;</text>
+  <text x="482" y="130" fill="#8a8a8a">cyclopentadienyl</text>
+  <text x="482" y="148" fill="#8a8a8a">anion</text>
+  <text x="482" y="168" fill="#4a90d9">6 &#960; e&#8315; &#183; aromatic</text>
+
+  <!-- tropylium (cycloheptatrienyl) cation -->
+  <polygon points="400,223 432.8,238.8 441,274.4 418.2,302.8 381.8,302.8 359,274.4 367.2,238.8"
+           fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <circle cx="400" cy="267" r="21" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <circle cx="452" cy="228" r="10" fill="#e0645c" fill-opacity="0.18" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="448" y="233" fill="#e0645c">+</text>
+  <text x="482" y="262" fill="#8a8a8a">tropylium</text>
+  <text x="482" y="280" fill="#8a8a8a">cation</text>
+  <text x="482" y="300" fill="#4a90d9">6 &#960; e&#8315; &#183; aromatic</text>
+</svg>

@@ -1,0 +1,81 @@
+<svg viewBox="0 0 720 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="12">
+  <!-- caption -->
+  <text x="12" y="22" fill="#8a8a8a" font-style="italic">Front end &#8594; reactor &#8594; back end. At the reactor the road forks: OPEN buries spent fuel; CLOSED reprocesses and recycles it.</text>
+
+  <!-- ===== front-end lane (blue boxes) ===== -->
+  <!-- Mine -->
+  <rect x="12" y="70" width="102" height="42" rx="4" fill="#4a90d9" opacity="0.14"/>
+  <rect x="12" y="70" width="102" height="42" rx="4" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="63" y="96" fill="#4a90d9" text-anchor="middle">Mine</text>
+  <!-- Mill -->
+  <rect x="132" y="70" width="102" height="42" rx="4" fill="#4a90d9" opacity="0.14"/>
+  <rect x="132" y="70" width="102" height="42" rx="4" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="183" y="96" fill="#4a90d9" text-anchor="middle">Mill</text>
+  <!-- Conversion -->
+  <rect x="252" y="70" width="102" height="42" rx="4" fill="#4a90d9" opacity="0.14"/>
+  <rect x="252" y="70" width="102" height="42" rx="4" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="303" y="96" fill="#4a90d9" text-anchor="middle">Conversion</text>
+  <!-- Enrichment -->
+  <rect x="372" y="70" width="102" height="42" rx="4" fill="#4a90d9" opacity="0.14"/>
+  <rect x="372" y="70" width="102" height="42" rx="4" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="423" y="96" fill="#4a90d9" text-anchor="middle">Enrichment</text>
+  <!-- Fabrication -->
+  <rect x="492" y="70" width="102" height="42" rx="4" fill="#4a90d9" opacity="0.14"/>
+  <rect x="492" y="70" width="102" height="42" rx="4" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="543" y="96" fill="#4a90d9" text-anchor="middle">Fabrication</text>
+
+  <!-- front-end arrows -->
+  <line x1="116" y1="91" x2="128" y2="91" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="132,91 124,87 124,95" fill="#8a8a8a"/>
+  <line x1="236" y1="91" x2="248" y2="91" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="252,91 244,87 244,95" fill="#8a8a8a"/>
+  <line x1="356" y1="91" x2="368" y2="91" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="372,91 364,87 364,95" fill="#8a8a8a"/>
+  <line x1="476" y1="91" x2="488" y2="91" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="492,91 484,87 484,95" fill="#8a8a8a"/>
+
+  <!-- Fabrication down to Reactor -->
+  <line x1="543" y1="112" x2="543" y2="164" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="543,168 539,160 547,160" fill="#8a8a8a"/>
+
+  <!-- ===== Reactor (coral, key node) ===== -->
+  <rect x="492" y="168" width="102" height="42" rx="4" fill="#e0645c" opacity="0.16"/>
+  <rect x="492" y="168" width="102" height="42" rx="4" fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="543" y="194" fill="#e0645c" text-anchor="middle">Reactor</text>
+
+  <!-- Reactor down to Interim storage -->
+  <line x1="543" y1="210" x2="543" y2="262" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="543,266 539,258 547,258" fill="#8a8a8a"/>
+  <text x="551" y="240" fill="#8a8a8a">spent fuel</text>
+
+  <!-- ===== back-end lane ===== -->
+  <!-- Interim storage -->
+  <rect x="492" y="266" width="102" height="42" rx="4" fill="#4a90d9" opacity="0.14"/>
+  <rect x="492" y="266" width="102" height="42" rx="4" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="543" y="285" fill="#4a90d9" text-anchor="middle">Interim</text>
+  <text x="543" y="300" fill="#4a90d9" text-anchor="middle">storage</text>
+
+  <!-- OPEN: Interim down to Repository -->
+  <line x1="543" y1="308" x2="543" y2="342" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="543,346 539,338 547,338" fill="#8a8a8a"/>
+  <text x="551" y="332" fill="#e0645c">OPEN</text>
+  <!-- Repository -->
+  <rect x="492" y="346" width="102" height="42" rx="4" fill="#4a90d9" opacity="0.14"/>
+  <rect x="492" y="346" width="102" height="42" rx="4" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="543" y="372" fill="#4a90d9" text-anchor="middle">Repository</text>
+
+  <!-- CLOSED: Interim left to Reprocess -->
+  <line x1="492" y1="287" x2="410" y2="287" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="406,287 414,283 414,291" fill="#8a8a8a"/>
+  <text x="416" y="279" fill="#e0645c" text-anchor="middle">CLOSED</text>
+  <!-- Reprocess -->
+  <rect x="300" y="266" width="106" height="42" rx="4" fill="#4a90d9" opacity="0.14"/>
+  <rect x="300" y="266" width="106" height="42" rx="4" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="353" y="285" fill="#4a90d9" text-anchor="middle">Reprocess</text>
+  <text x="353" y="300" fill="#4a90d9" text-anchor="middle">(PUREX)</text>
+
+  <!-- recycle loop: Reprocess up to Fabrication (dashed coral) -->
+  <polyline points="353,266 353,150 543,150 543,116" fill="none" stroke="#e0645c" stroke-width="2" stroke-dasharray="5 4"/>
+  <polygon points="543,112 539,120 547,120" fill="#e0645c"/>
+  <text x="360" y="142" fill="#e0645c">recovered U, Pu &#8594; recycle</text>
+</svg>

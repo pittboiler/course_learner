@@ -1,0 +1,60 @@
+<svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="24" y="22" fill="#8a8a8a" font-style="italic">One derivative from every direction (left) is a rigid demand; the payoff is that analytic maps preserve angles (right).</text>
+
+  <!-- ===== LEFT: same f'(z) from every approach direction ===== -->
+
+  <!-- Re axis -->
+  <line x1="40" y1="165" x2="272" y2="165" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="272,165 262,160 262,170" fill="#8a8a8a"/>
+  <text x="276" y="170" fill="#8a8a8a">Re</text>
+  <!-- Im axis -->
+  <line x1="150" y1="262" x2="150" y2="60" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="150,60 145,70 155,70" fill="#8a8a8a"/>
+  <text x="132" y="60" fill="#8a8a8a">Im</text>
+
+  <!-- approach: horizontal (Δx) -->
+  <line x1="252" y1="120" x2="196" y2="120" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="196,120 206,115 206,125" fill="#4a90d9"/>
+  <text x="222" y="112" fill="#4a90d9">Δx</text>
+  <!-- approach: vertical (iΔy) -->
+  <line x1="180" y1="58" x2="180" y2="106" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="180,106 175,96 185,96" fill="#4a90d9"/>
+  <text x="186" y="66" fill="#4a90d9">iΔy</text>
+  <!-- approach: diagonal -->
+  <line x1="236" y1="70" x2="193" y2="108" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="193,108 204,106 199,98" fill="#4a90d9"/>
+  <text x="238" y="70" fill="#4a90d9">Δz</text>
+
+  <!-- point z -->
+  <circle cx="180" cy="120" r="4.5" fill="#e0645c"/>
+  <text x="160" y="140" fill="#e0645c">z</text>
+
+  <!-- note -->
+  <text x="46" y="196" fill="#e0645c">all approaches give ONE f&#8242;(z)</text>
+  <text x="46" y="214" fill="#8a8a8a" font-style="italic">(Cauchy&#8211;Riemann is the price)</text>
+
+  <!-- ===== RIGHT: conformal map preserves the right angle ===== -->
+
+  <!-- pre-image: two straight lines crossing at right angle at p=(370,150) -->
+  <line x1="330" y1="150" x2="410" y2="150" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="370" y1="110" x2="370" y2="192" stroke="#e0645c" stroke-width="2.5"/>
+  <!-- right-angle marker -->
+  <path d="M 370 141 L 379 141 L 379 150" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="352" y="208" fill="#8a8a8a" font-style="italic">z-plane</text>
+
+  <!-- mapping arrow -->
+  <line x1="420" y1="150" x2="474" y2="150" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="474,150 464,145 464,155" fill="#8a8a8a"/>
+  <text x="426" y="142" fill="#8a8a8a">w = f(z)</text>
+  <text x="424" y="170" fill="#8a8a8a" font-style="italic">f&#8242; &#8800; 0</text>
+
+  <!-- image: two arcs crossing at right angle at q=(540,150) -->
+  <!-- curve A: arc of circle centered (540,110), r=40 -> horizontal tangent at q -->
+  <path d="M 568.3 138.3 A 40 40 0 0 1 511.7 138.3" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <!-- curve B: arc of circle centered (580,150), r=40 -> vertical tangent at q -->
+  <path d="M 551.7 178.3 A 40 40 0 0 1 551.7 121.7" fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <!-- right-angle marker at q (tangents still horizontal & vertical) -->
+  <path d="M 540 141 L 549 141 L 549 150" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="524" y="208" fill="#8a8a8a" font-style="italic">w-plane</text>
+</svg>

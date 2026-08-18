@@ -1,0 +1,64 @@
+<svg viewBox="0 0 640 430" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="20" y="18" fill="#8a8a8a" font-style="italic">Multi-barrier disposal: nested engineered barriers inside the host rock; canisters spaced so decay heat can&#8217;t cook the buffer.</text>
+
+  <!-- ground surface -->
+  <line x1="20" y1="42" x2="620" y2="42" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="30" y1="42" x2="24" y2="50" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="70" y1="42" x2="64" y2="50" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="110" y1="42" x2="104" y2="50" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="150" y1="42" x2="144" y2="50" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="24" y="36" fill="#8a8a8a">ground surface</text>
+  <text x="470" y="36" fill="#8a8a8a">repository depth &#8776; 500 m</text>
+
+  <!-- ===== left: nested-barrier cross-section ===== -->
+  <circle cx="155" cy="185" r="118" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <circle cx="155" cy="185" r="84" fill="#4a90d9" fill-opacity="0.07" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="155" cy="185" r="52" fill="#4a90d9" fill-opacity="0.16" stroke="#4a90d9" stroke-width="2.5"/>
+  <circle cx="155" cy="185" r="26" fill="#e0645c" fill-opacity="0.22" stroke="#e0645c" stroke-width="2"/>
+  <text x="140" y="190" fill="#e0645c">HLW</text>
+
+  <!-- radial tag ladder (up-right) -->
+  <text x="160" y="180" fill="#e0645c" font-size="13" font-weight="bold">1</text>
+  <text x="188" y="150" fill="#4a90d9" font-size="13" font-weight="bold">2</text>
+  <text x="210" y="128" fill="#4a90d9" font-size="13" font-weight="bold">3</text>
+  <text x="234" y="104" fill="#8a8a8a" font-size="13" font-weight="bold">4</text>
+
+  <!-- ===== right: deposition tunnel with spaced canisters ===== -->
+  <text x="338" y="112" fill="#8a8a8a">deposition tunnel</text>
+  <rect x="335" y="120" width="285" height="72" rx="10" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- canister 1 -->
+  <rect x="356" y="132" width="26" height="48" rx="8" fill="#4a90d9" fill-opacity="0.18" stroke="#4a90d9" stroke-width="2"/>
+  <!-- canister 2 -->
+  <rect x="456" y="132" width="26" height="48" rx="8" fill="#4a90d9" fill-opacity="0.18" stroke="#4a90d9" stroke-width="2"/>
+  <!-- canister 3 -->
+  <rect x="556" y="132" width="26" height="48" rx="8" fill="#4a90d9" fill-opacity="0.18" stroke="#4a90d9" stroke-width="2"/>
+
+  <!-- decay-heat squiggles above each canister -->
+  <path d="M 362 130 q 4 -8 8 0 q 4 8 8 0" fill="none" stroke="#e0645c" stroke-width="1.5"/>
+  <path d="M 462 130 q 4 -8 8 0 q 4 8 8 0" fill="none" stroke="#e0645c" stroke-width="1.5"/>
+  <path d="M 562 130 q 4 -8 8 0 q 4 8 8 0" fill="none" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="486" y="118" fill="#e0645c" font-size="12">decay heat</text>
+
+  <!-- spacing marker between canister 1 and 2 centers -->
+  <line x1="369" y1="205" x2="469" y2="205" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="369,205 378,201 378,209" fill="#e0645c"/>
+  <polygon points="469,205 460,201 460,209" fill="#e0645c"/>
+  <line x1="369" y1="182" x2="369" y2="207" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="469" y1="182" x2="469" y2="207" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="372" y="224" fill="#e0645c" font-size="12">s &#8776; 6 m &#8212; set by heat, not volume</text>
+
+  <!-- ===== legend / key with roles + timescales ===== -->
+  <rect x="22" y="300" width="14" height="14" fill="#e0645c" fill-opacity="0.22" stroke="#e0645c" stroke-width="2"/>
+  <text x="44" y="312" fill="#8a8a8a" font-size="12">1  Waste form (glass / UO&#8322;): dissolves slowly &#8212; sets release rate.  10&#8309;&#8211;10&#8310; yr</text>
+
+  <rect x="22" y="328" width="14" height="14" fill="#4a90d9" fill-opacity="0.16" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="44" y="340" fill="#8a8a8a" font-size="12">2  Canister (steel / copper): keeps water out while heat is highest.  10&#179;&#8211;10&#8309; yr</text>
+
+  <rect x="22" y="356" width="14" height="14" fill="#4a90d9" fill-opacity="0.07" stroke="#4a90d9" stroke-width="2"/>
+  <text x="44" y="368" fill="#8a8a8a" font-size="12">3  Bentonite buffer: swells to seal, slows water to diffusion.  10&#8308;&#8314; yr</text>
+
+  <rect x="22" y="384" width="14" height="14" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="44" y="396" fill="#8a8a8a" font-size="12">4  Host rock (granite / clay / salt): long slow paths, dilution.  10&#8309;&#8211;10&#8310; yr</text>
+</svg>

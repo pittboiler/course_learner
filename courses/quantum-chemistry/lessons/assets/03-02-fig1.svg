@@ -1,0 +1,76 @@
+<svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="24" y="22" fill="#8a8a8a" font-style="italic" font-size="12">CI mixes the HF reference with excited determinants; the coupling K pushes the ground state down by the correlation energy.</text>
+
+  <text x="150" y="48" fill="#8a8a8a" text-anchor="middle">promote occupied &#8594; virtual</text>
+
+  <text x="510" y="48" fill="#8a8a8a" text-anchor="middle">2&#215;2 CI lowering (H&#8322;)</text>
+
+  <line x1="55" y1="200" x2="300" y2="200" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="302" y="182" fill="#8a8a8a" font-size="11">virt.</text>
+  <text x="302" y="214" fill="#8a8a8a" font-size="11">occ.</text>
+
+  <line x1="73" y1="250" x2="117" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="73" y1="220" x2="117" y2="220" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="73" y1="175" x2="117" y2="175" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="73" y1="145" x2="117" y2="145" stroke="#8a8a8a" stroke-width="1.5"/>
+  <circle cx="87" cy="250" r="3.5" fill="#4a90d9"/>
+  <circle cx="103" cy="250" r="3.5" fill="#4a90d9"/>
+  <circle cx="87" cy="220" r="3.5" fill="#4a90d9"/>
+  <circle cx="103" cy="220" r="3.5" fill="#4a90d9"/>
+  <text x="95" y="278" fill="#4a90d9" text-anchor="middle">&#936;&#8320;</text>
+
+  <line x1="158" y1="250" x2="202" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="158" y1="220" x2="202" y2="220" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="158" y1="175" x2="202" y2="175" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="158" y1="145" x2="202" y2="145" stroke="#8a8a8a" stroke-width="1.5"/>
+  <circle cx="172" cy="250" r="3.5" fill="#4a90d9"/>
+  <circle cx="188" cy="250" r="3.5" fill="#4a90d9"/>
+  <circle cx="172" cy="220" r="3.5" fill="#4a90d9"/>
+  <circle cx="188" cy="175" r="3.5" fill="#e0645c"/>
+  <line x1="188" y1="214" x2="188" y2="182" stroke="#e0645c" stroke-width="1.3" stroke-dasharray="3 3"/>
+  <polygon points="188,175 185,183 191,183" fill="#e0645c"/>
+  <text x="180" y="278" fill="#8a8a8a" text-anchor="middle">single</text>
+
+  <line x1="243" y1="250" x2="287" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="243" y1="220" x2="287" y2="220" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="243" y1="175" x2="287" y2="175" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="243" y1="145" x2="287" y2="145" stroke="#8a8a8a" stroke-width="1.5"/>
+  <circle cx="257" cy="250" r="3.5" fill="#4a90d9"/>
+  <circle cx="273" cy="250" r="3.5" fill="#4a90d9"/>
+  <circle cx="257" cy="175" r="3.5" fill="#e0645c"/>
+  <circle cx="273" cy="175" r="3.5" fill="#e0645c"/>
+  <line x1="257" y1="214" x2="257" y2="182" stroke="#e0645c" stroke-width="1.3" stroke-dasharray="3 3"/>
+  <polygon points="257,175 254,183 260,183" fill="#e0645c"/>
+  <line x1="273" y1="214" x2="273" y2="182" stroke="#e0645c" stroke-width="1.3" stroke-dasharray="3 3"/>
+  <polygon points="273,175 270,183 276,183" fill="#e0645c"/>
+  <text x="265" y="278" fill="#8a8a8a" text-anchor="middle">double</text>
+
+  <text x="150" y="300" fill="#8a8a8a" text-anchor="middle" font-size="11">linear variation mixes all of these</text>
+
+  <line x1="345" y1="70" x2="345" y2="290" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="345,70 341,80 349,80" fill="#8a8a8a"/>
+  <text x="352" y="78" fill="#8a8a8a" font-size="11">E</text>
+
+  <line x1="400" y1="120" x2="470" y2="120" stroke="#8a8a8a" stroke-width="2.5"/>
+  <text x="396" y="116" fill="#8a8a8a" text-anchor="end">E&#8322; (&#963;u&#178;)</text>
+  <line x1="400" y1="210" x2="470" y2="210" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="396" y="214" fill="#4a90d9" text-anchor="end">E&#8320; (&#963;g&#178;)</text>
+
+  <line x1="435" y1="128" x2="435" y2="202" stroke="#e0645c" stroke-width="1.3"/>
+  <polygon points="435,120 431,130 439,130" fill="#e0645c"/>
+  <polygon points="435,210 431,200 439,200" fill="#e0645c"/>
+  <text x="443" y="169" fill="#e0645c">K</text>
+
+  <line x1="470" y1="120" x2="540" y2="95" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="470" y1="210" x2="540" y2="245" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <line x1="540" y1="95" x2="610" y2="95" stroke="#8a8a8a" stroke-width="2.5"/>
+  <text x="614" y="99" fill="#8a8a8a">E&#8330;</text>
+  <line x1="540" y1="245" x2="610" y2="245" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="614" y="249" fill="#e0645c">E&#8331; (CI)</text>
+
+  <line x1="470" y1="210" x2="600" y2="210" stroke="#4a90d9" stroke-width="1" stroke-dasharray="2 4"/>
+  <line x1="575" y1="214" x2="575" y2="241" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="575,245 571,235 579,235" fill="#e0645c"/>
+  <text x="583" y="232" fill="#e0645c" font-size="12">E_corr</text>
+</svg>

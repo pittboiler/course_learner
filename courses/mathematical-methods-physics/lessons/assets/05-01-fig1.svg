@@ -1,0 +1,35 @@
+<svg viewBox="0 0 480 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="240" y="24" fill="#8a8a8a" font-style="italic" text-anchor="middle">The true path makes J stationary: any allowed wiggle η changes J only at second order.</text>
+
+  <!-- baseline / x-axis -->
+  <line x1="40" y1="250" x2="450" y2="250" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="452" y="254" fill="#8a8a8a">x</text>
+  <line x1="60" y1="246" x2="60" y2="254" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="420" y1="246" x2="420" y2="254" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="60" y="270" fill="#8a8a8a" text-anchor="middle">a</text>
+  <text x="420" y="270" fill="#8a8a8a" text-anchor="middle">b</text>
+
+  <!-- extremal path y(x) (blue) -->
+  <path d="M 60 210 C 160 190, 300 120, 420 90" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="150" y="150" fill="#4a90d9">y(x)  extremal</text>
+
+  <!-- varied path y + eps*eta (coral dashed): same endpoints, bulges in the middle -->
+  <path d="M 60 210 C 180 140, 300 170, 420 90" fill="none" stroke="#e0645c" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="300" y="200" fill="#e0645c">y + εη  (nearby)</text>
+
+  <!-- endpoints A and B, pinned -->
+  <circle cx="60" cy="210" r="4" fill="#8a8a8a"/>
+  <circle cx="420" cy="90" r="4" fill="#8a8a8a"/>
+  <text x="48" y="205" fill="#8a8a8a" text-anchor="end">A</text>
+  <text x="428" y="88" fill="#8a8a8a">B</text>
+  <text x="60" y="196" fill="#8a8a8a" text-anchor="middle" font-style="italic">η(a)=0</text>
+  <text x="420" y="76" fill="#8a8a8a" text-anchor="middle" font-style="italic">η(b)=0</text>
+
+  <!-- perturbation eps*eta between the two curves at x ~ 205 -->
+  <line x1="205" y1="163" x2="205" y2="150" stroke="#e0645c" stroke-width="1"/>
+  <line x1="205" y1="163" x2="201" y2="157" stroke="#e0645c" stroke-width="1"/>
+  <line x1="205" y1="163" x2="209" y2="157" stroke="#e0645c" stroke-width="1"/>
+  <line x1="205" y1="150" x2="201" y2="156" stroke="#e0645c" stroke-width="1"/>
+  <line x1="205" y1="150" x2="209" y2="156" stroke="#e0645c" stroke-width="1"/>
+  <text x="214" y="160" fill="#e0645c">εη(x)</text>
+</svg>

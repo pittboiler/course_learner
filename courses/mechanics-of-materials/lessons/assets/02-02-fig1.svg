@@ -1,0 +1,62 @@
+<svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="24" y="24" fill="#8a8a8a" font-style="italic">Fixed at both ends: reactions add to the applied torque, and the two segments twist equal and opposite.</text>
+
+  <!-- left wall -->
+  <line x1="60" y1="110" x2="60" y2="200" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="60" y1="110" x2="50" y2="120" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="60" y1="124" x2="50" y2="134" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="60" y1="138" x2="50" y2="148" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="60" y1="152" x2="50" y2="162" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="60" y1="166" x2="50" y2="176" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="60" y1="180" x2="50" y2="190" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="44" y="214" fill="#8a8a8a">A</text>
+
+  <!-- right wall -->
+  <line x1="580" y1="110" x2="580" y2="200" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="580" y1="110" x2="590" y2="120" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="580" y1="124" x2="590" y2="134" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="580" y1="138" x2="590" y2="148" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="580" y1="152" x2="590" y2="162" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="580" y1="166" x2="590" y2="176" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="580" y1="180" x2="590" y2="190" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="588" y="214" fill="#8a8a8a">B</text>
+
+  <!-- shaft -->
+  <rect x="60" y="136" width="520" height="28" fill="#4a90d9" opacity="0.12" stroke="#4a90d9" stroke-width="2"/>
+
+  <!-- interior point C where torque is applied -->
+  <line x1="320" y1="120" x2="320" y2="205" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="314" y="118" fill="#e0645c">C</text>
+
+  <!-- reaction torque at A (blue, opposes applied) -->
+  <path d="M 114 150 A 26 26 0 0 0 166 150" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="114,140 109,150 119,150" fill="#4a90d9"/>
+  <text x="126" y="112" fill="#4a90d9">T<tspan font-size="10" dy="4">A</tspan></text>
+
+  <!-- applied torque at C (coral) -->
+  <path d="M 290 150 A 30 30 0 0 0 350 150" fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="350,160 345,150 355,150" fill="#e0645c"/>
+  <text x="334" y="104" fill="#e0645c">T<tspan font-size="10" dy="4">0</tspan></text>
+
+  <!-- reaction torque at B (blue, opposes applied) -->
+  <path d="M 474 150 A 26 26 0 0 0 526 150" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="474,140 469,150 479,150" fill="#4a90d9"/>
+  <text x="486" y="112" fill="#4a90d9">T<tspan font-size="10" dy="4">B</tspan></text>
+
+  <!-- length dimensions -->
+  <line x1="60" y1="205" x2="60" y2="224" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="320" y1="205" x2="320" y2="224" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="580" y1="205" x2="580" y2="224" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="60" y1="216" x2="320" y2="216" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="60,216 70,211 70,221" fill="#8a8a8a"/>
+  <polygon points="320,216 310,211 310,221" fill="#8a8a8a"/>
+  <line x1="320" y1="216" x2="580" y2="216" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="320,216 330,211 330,221" fill="#8a8a8a"/>
+  <polygon points="580,216 570,211 570,221" fill="#8a8a8a"/>
+  <text x="176" y="240" fill="#8a8a8a">L<tspan font-size="10" dy="4">AC</tspan></text>
+  <text x="436" y="240" fill="#8a8a8a">L<tspan font-size="10" dy="4">CB</tspan></text>
+
+  <!-- compatibility note -->
+  <text x="150" y="278" fill="#8a8a8a">Equilibrium: T<tspan font-size="10" dy="4">A</tspan><tspan font-size="14" dy="-4"> + T</tspan><tspan font-size="10" dy="4">B</tspan><tspan font-size="14" dy="-4"> = T</tspan><tspan font-size="10" dy="4">0</tspan></text>
+  <text x="360" y="278" fill="#e0645c">Compatibility: &#966;<tspan font-size="10" dy="4">AC</tspan><tspan font-size="14" dy="-4"> = &#966;</tspan><tspan font-size="10" dy="4">CB</tspan></text>
+</svg>

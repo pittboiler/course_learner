@@ -1,0 +1,63 @@
+<svg viewBox="0 0 680 290" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Three no-work steady-flow devices: no shaft work, so the balance collapses onto enthalpy.</text>
+
+  <!-- ================= PANEL 1: THROTTLE ================= -->
+  <!-- inlet duct walls -->
+  <line x1="40" y1="120" x2="104" y2="120" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="40" y1="160" x2="104" y2="160" stroke="#8a8a8a" stroke-width="2"/>
+  <!-- outlet duct walls -->
+  <line x1="130" y1="120" x2="200" y2="120" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="130" y1="160" x2="200" y2="160" stroke="#8a8a8a" stroke-width="2"/>
+  <!-- porous plug / restriction -->
+  <rect x="104" y="120" width="26" height="40" fill="#8a8a8a" opacity="0.18" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="104" y1="138" x2="122" y2="120" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="104" y1="158" x2="130" y2="132" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="114" y1="160" x2="130" y2="148" stroke="#8a8a8a" stroke-width="1"/>
+  <!-- flow arrows -->
+  <line x1="48" y1="140" x2="100" y2="140" stroke="#4a90d9" stroke-width="3"/>
+  <polygon points="104,140 96,136 96,144" fill="#4a90d9"/>
+  <line x1="134" y1="140" x2="196" y2="140" stroke="#4a90d9" stroke-width="3"/>
+  <polygon points="200,140 192,136 192,144" fill="#4a90d9"/>
+  <!-- state labels -->
+  <text x="62" y="112" fill="#e0645c" font-weight="bold">1</text>
+  <text x="160" y="112" fill="#e0645c" font-weight="bold">2</text>
+  <!-- annotations -->
+  <text x="120" y="192" fill="#e0645c" font-size="15" font-weight="bold" text-anchor="middle">h&#8322; = h&#8321;</text>
+  <text x="120" y="211" fill="#8a8a8a" font-size="12" text-anchor="middle">p&#8321; &#8594; p&#8322;,  T usually &#8595;</text>
+  <text x="120" y="257" fill="#8a8a8a" text-anchor="middle">Throttle / valve</text>
+
+  <!-- ================= PANEL 2: HEAT EXCHANGER (counterflow) ================= -->
+  <rect x="285" y="115" width="110" height="60" fill="none" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <!-- hot stream: left to right -->
+  <line x1="250" y1="132" x2="392" y2="132" stroke="#e0645c" stroke-width="3"/>
+  <polygon points="396,132 388,128 388,136" fill="#e0645c"/>
+  <!-- cold stream: right to left -->
+  <line x1="392" y1="158" x2="250" y2="158" stroke="#4a90d9" stroke-width="3"/>
+  <polygon points="246,158 254,154 254,162" fill="#4a90d9"/>
+  <!-- labels -->
+  <text x="244" y="128" fill="#e0645c" font-size="12" text-anchor="end">hot in</text>
+  <text x="402" y="128" fill="#e0645c" font-size="12">hot out</text>
+  <text x="244" y="168" fill="#4a90d9" font-size="12" text-anchor="end">cold out</text>
+  <text x="402" y="168" fill="#4a90d9" font-size="12">cold in</text>
+  <text x="340" y="205" fill="#8a8a8a" font-size="12" text-anchor="middle">Q flows hot &#8594; cold</text>
+  <text x="340" y="257" fill="#8a8a8a" text-anchor="middle">Heat exchanger</text>
+
+  <!-- ================= PANEL 3: MIXING CHAMBER ================= -->
+  <rect x="545" y="118" width="70" height="64" fill="#8a8a8a" opacity="0.10" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="580" y="154" fill="#8a8a8a" font-size="12" text-anchor="middle">mix</text>
+  <!-- inlet 1 hot -->
+  <line x1="478" y1="134" x2="541" y2="134" stroke="#e0645c" stroke-width="3"/>
+  <polygon points="545,134 537,130 537,138" fill="#e0645c"/>
+  <text x="474" y="138" fill="#e0645c" font-size="12" text-anchor="end">1 hot</text>
+  <!-- inlet 2 cold -->
+  <line x1="478" y1="166" x2="541" y2="166" stroke="#4a90d9" stroke-width="3"/>
+  <polygon points="545,166 537,162 537,170" fill="#4a90d9"/>
+  <text x="474" y="170" fill="#4a90d9" font-size="12" text-anchor="end">2 cold</text>
+  <!-- outlet 3 -->
+  <line x1="615" y1="150" x2="655" y2="150" stroke="#e0645c" stroke-width="3"/>
+  <polygon points="659,150 651,146 651,154" fill="#e0645c"/>
+  <text x="636" y="142" fill="#e0645c" font-size="12" font-weight="bold" text-anchor="middle">3</text>
+  <!-- annotation -->
+  <text x="580" y="205" fill="#e0645c" font-size="12" text-anchor="middle">&#7745;&#8321;h&#8321; + &#7745;&#8322;h&#8322; = &#7745;&#8323;h&#8323;</text>
+  <text x="580" y="257" fill="#8a8a8a" text-anchor="middle">Mixing chamber</text>
+</svg>

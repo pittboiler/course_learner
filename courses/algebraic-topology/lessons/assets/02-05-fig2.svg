@@ -1,0 +1,40 @@
+<svg viewBox="0 0 560 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="560" height="400" fill="#ffffff"/>
+
+  <defs>
+    <clipPath id="ball">
+      <circle cx="190" cy="190" r="130"/>
+    </clipPath>
+  </defs>
+
+  <text x="280" y="28" fill="#111111" font-size="17" font-weight="bold" text-anchor="middle">The sphere  Sⁿ  covered by two open caps</text>
+
+  <!-- caps clipped to the sphere disk -->
+  <rect x="55" y="55" width="270" height="160" fill="#2563eb" opacity="0.28" clip-path="url(#ball)"/>
+  <rect x="55" y="165" width="270" height="160" fill="#dc2626" opacity="0.28" clip-path="url(#ball)"/>
+  <!-- overlap band = U ∩ V -->
+  <rect x="55" y="165" width="270" height="50" fill="#16a34a" opacity="0.38" clip-path="url(#ball)"/>
+
+  <!-- sphere outline + latitudes -->
+  <circle cx="190" cy="190" r="130" fill="none" stroke="#111111" stroke-width="1.8"/>
+  <ellipse cx="190" cy="190" rx="130" ry="42" fill="none" stroke="#111111" stroke-width="1.3" stroke-dasharray="5 4"/>
+  <ellipse cx="190" cy="165" rx="127" ry="26" fill="none" stroke="#2563eb" stroke-width="1.4"/>
+  <ellipse cx="190" cy="215" rx="127" ry="26" fill="none" stroke="#dc2626" stroke-width="1.4"/>
+
+  <!-- equator loop marker -->
+  <text x="190" y="196" fill="#16a34a" font-size="13" font-weight="bold" text-anchor="middle">U ∩ V ≃ Sⁿ⁻¹</text>
+
+  <text x="120" y="95" fill="#2563eb" font-size="15" font-weight="bold">U</text>
+  <text x="120" y="305" fill="#dc2626" font-size="15" font-weight="bold">V</text>
+
+  <!-- takeaway -->
+  <line x1="360" y1="60" x2="360" y2="330" stroke="#dddddd" stroke-width="1"/>
+  <text x="380" y="100" fill="#2563eb" font-size="14">U = north cap ≃ pt</text>
+  <text x="380" y="122" fill="#2563eb" font-size="13">π₁(U) = 1</text>
+  <text x="380" y="152" fill="#dc2626" font-size="14">V = south cap ≃ pt</text>
+  <text x="380" y="174" fill="#dc2626" font-size="13">π₁(V) = 1</text>
+  <text x="380" y="210" fill="#16a34a" font-size="13">U∩V connected</text>
+  <text x="380" y="228" fill="#16a34a" font-size="13">for n ≥ 2</text>
+  <text x="380" y="268" fill="#111111" font-size="15" font-weight="bold">π₁(Sⁿ) = 1 ∗ 1</text>
+  <text x="380" y="292" fill="#111111" font-size="15" font-weight="bold">     = 0,  n ≥ 2</text>
+</svg>

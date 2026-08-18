@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 470" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="660" height="470" fill="#ffffff"/>
+<line x1="30" y1="155" x2="638" y2="155" stroke="#111111" stroke-width="1"/>
+<text x="640" y="147" font-size="13" fill="#111111">ξ</text>
+<polygon points="-6.0,155.0 78.0,75.0 162.0,155.0" fill="#12a150" fill-opacity="0.22" stroke="#12a150" stroke-width="1.7"/>
+<line x1="78.0" y1="152" x2="78.0" y2="158" stroke="#111111" stroke-width="1"/>
+<text x="78.0" y="173" font-size="12" fill="#111111" text-anchor="middle">−f<tspan baseline-shift="sub" font-size="8">s</tspan></text>
+<polygon points="246.0,155.0 330.0,75.0 414.0,155.0" fill="#2a7ae2" fill-opacity="0.32" stroke="#2a7ae2" stroke-width="2.2"/>
+<line x1="330.0" y1="152" x2="330.0" y2="158" stroke="#111111" stroke-width="1"/>
+<text x="330.0" y="173" font-size="12" fill="#111111" text-anchor="middle">0</text>
+<polygon points="498.0,155.0 582.0,75.0 666.0,155.0" fill="#12a150" fill-opacity="0.22" stroke="#12a150" stroke-width="1.7"/>
+<line x1="582.0" y1="152" x2="582.0" y2="158" stroke="#111111" stroke-width="1"/>
+<text x="582.0" y="173" font-size="12" fill="#111111" text-anchor="middle">f<tspan baseline-shift="sub" font-size="8">s</tspan></text>
+<line x1="414.0" y1="152" x2="414.0" y2="158" stroke="#888888" stroke-width="1"/>
+<text x="414.0" y="188" font-size="11" fill="#888888" text-anchor="middle">B</text>
+<line x1="246.0" y1="152" x2="246.0" y2="158" stroke="#888888" stroke-width="1"/>
+<text x="246.0" y="188" font-size="11" fill="#888888" text-anchor="middle">−B</text>
+<text x="30" y="38" font-size="14" fill="#111111" font-weight="bold">(A)  fₛ &gt; 2B  —  copies stay apart: signal is perfectly recoverable</text>
+<text x="30" y="55" font-size="11.5" fill="#12a150">a clean gap sits between the baseband spectrum (blue) and each replica (green)</text>
+<line x1="30" y1="395" x2="638" y2="395" stroke="#111111" stroke-width="1"/>
+<text x="640" y="387" font-size="13" fill="#111111">ξ</text>
+<polygon points="-6.0,395.0 78.0,300.0 162.0,395.0" fill="#d6431f" fill-opacity="0.22" stroke="#d6431f" stroke-width="1.7"/>
+<line x1="78.0" y1="392" x2="78.0" y2="398" stroke="#111111" stroke-width="1"/>
+<text x="78.0" y="413" font-size="12" fill="#111111" text-anchor="middle">−2f<tspan baseline-shift="sub" font-size="8">s</tspan></text>
+<polygon points="120.0,395.0 204.0,300.0 288.0,395.0" fill="#d6431f" fill-opacity="0.22" stroke="#d6431f" stroke-width="1.7"/>
+<line x1="204.0" y1="392" x2="204.0" y2="398" stroke="#111111" stroke-width="1"/>
+<text x="204.0" y="413" font-size="12" fill="#111111" text-anchor="middle">−f<tspan baseline-shift="sub" font-size="8">s</tspan></text>
+<polygon points="246.0,395.0 330.0,300.0 414.0,395.0" fill="#2a7ae2" fill-opacity="0.32" stroke="#2a7ae2" stroke-width="2.2"/>
+<line x1="330.0" y1="392" x2="330.0" y2="398" stroke="#111111" stroke-width="1"/>
+<text x="330.0" y="413" font-size="12" fill="#111111" text-anchor="middle">0</text>
+<polygon points="372.0,395.0 456.0,300.0 540.0,395.0" fill="#d6431f" fill-opacity="0.22" stroke="#d6431f" stroke-width="1.7"/>
+<line x1="456.0" y1="392" x2="456.0" y2="398" stroke="#111111" stroke-width="1"/>
+<text x="456.0" y="413" font-size="12" fill="#111111" text-anchor="middle">f<tspan baseline-shift="sub" font-size="8">s</tspan></text>
+<polygon points="498.0,395.0 582.0,300.0 666.0,395.0" fill="#d6431f" fill-opacity="0.22" stroke="#d6431f" stroke-width="1.7"/>
+<line x1="582.0" y1="392" x2="582.0" y2="398" stroke="#111111" stroke-width="1"/>
+<text x="582.0" y="413" font-size="12" fill="#111111" text-anchor="middle">2f<tspan baseline-shift="sub" font-size="8">s</tspan></text>
+<line x1="414.0" y1="392" x2="414.0" y2="398" stroke="#888888" stroke-width="1"/>
+<text x="414.0" y="428" font-size="11" fill="#888888" text-anchor="middle">B</text>
+<line x1="246.0" y1="392" x2="246.0" y2="398" stroke="#888888" stroke-width="1"/>
+<text x="246.0" y="428" font-size="11" fill="#888888" text-anchor="middle">−B</text>
+<text x="30" y="248" font-size="14" fill="#111111" font-weight="bold">(B)  fₛ &lt; 2B  —  copies overlap: ALIASING</text>
+<text x="30" y="265" font-size="11.5" fill="#d6431f">replica tails fold back into the baseband (shaded overlap), corrupting it irreparably</text>
+</svg>

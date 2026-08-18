@@ -1,0 +1,53 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">The Lawson diagram: you must land ABOVE the ignition curve &#8212; and right of the bremsstrahlung floor.</text>
+
+  <!-- axes -->
+  <line x1="70" y1="340" x2="600" y2="340" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="70" y1="340" x2="70" y2="50" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="600,340 590,335 590,345" fill="#8a8a8a"/>
+  <polygon points="70,50 65,60 75,60" fill="#8a8a8a"/>
+
+  <!-- x ticks: T in keV -->
+  <line x1="202.5" y1="340" x2="202.5" y2="345" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="335" y1="340" x2="335" y2="345" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="467.5" y1="340" x2="467.5" y2="345" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="600" y1="340" x2="600" y2="345" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="66" y="358" fill="#8a8a8a">0</text>
+  <text x="194" y="358" fill="#8a8a8a">10</text>
+  <text x="327" y="358" fill="#8a8a8a">20</text>
+  <text x="459" y="358" fill="#8a8a8a">30</text>
+  <text x="592" y="358" fill="#8a8a8a">40</text>
+  <text x="300" y="380" fill="#8a8a8a">temperature  T  (keV)</text>
+
+  <!-- y ticks: n tau_E, log scale (10^19 .. 10^21.5) -->
+  <line x1="65" y1="340" x2="70" y2="340" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="65" y1="224" x2="70" y2="224" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="65" y1="108" x2="70" y2="108" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="30" y="344" fill="#8a8a8a">10&#185;&#8313;</text>
+  <text x="30" y="228" fill="#8a8a8a">10&#178;&#8304;</text>
+  <text x="30" y="112" fill="#8a8a8a">10&#178;&#185;</text>
+  <text x="16" y="80" fill="#8a8a8a" transform="rotate(-90 16 80)">n &#964;E   (s / m&#179;)</text>
+
+  <!-- bremsstrahlung floor: vertical dashed line near T = 4.3 keV -->
+  <line x1="127" y1="340" x2="127" y2="66" stroke="#8a8a8a" stroke-width="1.3" stroke-dasharray="4 4"/>
+  <text x="82" y="60" fill="#8a8a8a">bremsstrahlung floor</text>
+  <text x="82" y="76" fill="#8a8a8a">(no ignition, any n&#964;)</text>
+
+  <!-- ignition contour (coral) -->
+  <path d="M 131 60 L 136 85 L 144 105 L 150 120 L 160 142 L 176 160 L 190 171 L 202 178 L 230 186 L 269 189 L 300 193 L 335 196 L 368 200 L 401 203 L 435 201 L 468 198 L 534 193 L 600 189"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+  <text x="470" y="182" fill="#e0645c">ignition contour</text>
+
+  <!-- region labels -->
+  <text x="430" y="120" fill="#e0645c" font-style="italic">IGNITED</text>
+  <text x="330" y="300" fill="#8a8a8a" font-style="italic">confinement too weak</text>
+
+  <!-- machine / target markers (blue) -->
+  <circle cx="242" cy="230" r="4.5" fill="#4a90d9"/>
+  <text x="180" y="234" fill="#4a90d9">JET</text>
+  <circle cx="229" cy="203" r="4.5" fill="#4a90d9"/>
+  <text x="150" y="207" fill="#4a90d9">SPARC</text>
+  <circle cx="335" cy="185" r="4.5" fill="#4a90d9"/>
+  <text x="343" y="181" fill="#4a90d9">ITER</text>
+</svg>

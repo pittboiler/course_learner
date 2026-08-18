@@ -1,0 +1,66 @@
+<svg viewBox="0 0 680 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="20" y="20" fill="#8a8a8a" font-style="italic">A vertical polarizer makes light vertical; an analyzer at angle θ passes only the component E₀cos θ, so I = I₀cos²θ.</text>
+
+  <!-- ===== unpolarized source ===== -->
+  <line x1="18" y1="170" x2="108" y2="170" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="108,170 99,166 99,174" fill="#8a8a8a"/>
+  <!-- random E-vibration burst -->
+  <line x1="65" y1="148" x2="65" y2="192" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="43" y1="170" x2="87" y2="170" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="49" y1="186" x2="81" y2="154" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="49" y1="154" x2="81" y2="186" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="26" y="252" fill="#8a8a8a">unpolarized, I₀</text>
+
+  <!-- ===== polarizer 1 (vertical axis) ===== -->
+  <rect x="115" y="118" width="22" height="104" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="120" y1="120" x2="120" y2="220" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="126" y1="120" x2="126" y2="220" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="132" y1="120" x2="132" y2="220" stroke="#4a90d9" stroke-width="2"/>
+  <text x="98" y="252" fill="#8a8a8a">polarizer (passes I₀/2)</text>
+
+  <!-- ===== vertically polarized beam ===== -->
+  <line x1="137" y1="170" x2="392" y2="170" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="392,170 383,166 383,174" fill="#8a8a8a"/>
+  <!-- vertical E arrows along the beam -->
+  <line x1="210" y1="142" x2="210" y2="198" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="210,142 206,151 214,151" fill="#4a90d9"/>
+  <polygon points="210,198 206,189 214,189" fill="#4a90d9"/>
+  <line x1="300" y1="142" x2="300" y2="198" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="300,142 296,151 304,151" fill="#4a90d9"/>
+  <polygon points="300,198 296,189 304,189" fill="#4a90d9"/>
+  <text x="200" y="130" fill="#4a90d9">vertically polarized</text>
+
+  <!-- ===== analyzer (tilted axis) ===== -->
+  <circle cx="411" cy="170" r="30" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <!-- vertical reference (dashed) -->
+  <line x1="411" y1="140" x2="411" y2="200" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <!-- transmission axis at 35 deg from vertical -->
+  <line x1="428" y1="145" x2="394" y2="195" stroke="#e0645c" stroke-width="2.5"/>
+  <line x1="434" y1="149" x2="400" y2="199" stroke="#e0645c" stroke-width="1.5" opacity="0.5"/>
+  <!-- angle arc -->
+  <path d="M 411 150 A 20 20 0 0 1 422.5 153.6" fill="none" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="415" y="146" fill="#8a8a8a">θ</text>
+  <text x="384" y="252" fill="#8a8a8a">analyzer</text>
+
+  <!-- ===== decomposition inset ===== -->
+  <!-- E0 vertical -->
+  <line x1="560" y1="240" x2="560" y2="150" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="560,148 556,158 564,158" fill="#4a90d9"/>
+  <text x="566" y="156" fill="#4a90d9">E₀</text>
+  <!-- analyzer axis (dashed coral) -->
+  <line x1="560" y1="240" x2="626" y2="146" stroke="#e0645c" stroke-width="1.2" stroke-dasharray="4 4"/>
+  <text x="600" y="140" fill="#e0645c">axis</text>
+  <!-- transmitted component E0 cos θ -->
+  <line x1="560" y1="240" x2="603" y2="178" stroke="#e0645c" stroke-width="2.8"/>
+  <polygon points="603,178 594,180 599,187" fill="#e0645c"/>
+  <text x="590" y="205" fill="#e0645c">E₀cos θ</text>
+  <!-- projection foot (dashed grey) -->
+  <line x1="560" y1="148" x2="603" y2="178" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 3"/>
+  <!-- angle arc at origin -->
+  <path d="M 560 206 A 34 34 0 0 1 579.5 212.2" fill="none" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="565" y="216" fill="#8a8a8a">θ</text>
+
+  <!-- Malus law label -->
+  <text x="250" y="288" fill="#e0645c" font-size="16">I = I₀cos²θ</text>
+</svg>

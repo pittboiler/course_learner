@@ -1,0 +1,49 @@
+<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Whoever is steepest wins: the same universe runs radiation &#8594; matter &#8594; &#923; as it expands.</text>
+
+  <!-- axes -->
+  <line x1="70" y1="320" x2="600" y2="320" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="600,320 590,315 590,325" fill="#8a8a8a"/>
+  <text x="500" y="366" fill="#8a8a8a">scale factor a &#8594;</text>
+  <line x1="70" y1="320" x2="70" y2="52" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,52 65,62 75,62" fill="#8a8a8a"/>
+  <text x="40" y="48" fill="#8a8a8a">density &#961;</text>
+
+  <!-- a-axis ticks -->
+  <line x1="158" y1="320" x2="158" y2="325" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="140" y="338" fill="#8a8a8a" font-size="12">10&#8722;&#8308;</text>
+  <line x1="335" y1="320" x2="335" y2="325" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="319" y="338" fill="#8a8a8a" font-size="12">10&#8722;&#178;</text>
+  <line x1="512" y1="320" x2="512" y2="325" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="507" y="338" fill="#8a8a8a" font-size="12">1</text>
+
+  <!-- "today a = 1" marker -->
+  <line x1="512" y1="60" x2="512" y2="320" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="516" y="74" fill="#8a8a8a" font-size="12">today</text>
+
+  <!-- radiation curve: rho ~ a^-4 (coral, steepest) -->
+  <line x1="70" y1="60" x2="600" y2="320" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="86" y="96" fill="#e0645c" font-size="13">radiation &#8733; a&#8722;&#8308;</text>
+
+  <!-- matter curve: rho ~ a^-3 (blue) -->
+  <line x1="70" y1="76" x2="600" y2="271" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="300" y="150" fill="#4a90d9" font-size="13">matter &#8733; a&#8722;&#179;</text>
+
+  <!-- Lambda: constant (coral, dashed) -->
+  <line x1="70" y1="234" x2="600" y2="234" stroke="#e0645c" stroke-width="2.5" stroke-dasharray="7 5"/>
+  <text x="404" y="228" fill="#e0645c" font-size="13">&#923; = const</text>
+
+  <!-- crossing: matter-radiation equality -->
+  <circle cx="199" cy="123" r="5" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="150" y="112" fill="#8a8a8a" font-size="12">1+z &#8776; 3400</text>
+
+  <!-- crossing: matter-Lambda equality -->
+  <circle cx="501" cy="234" r="5" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="452" y="262" fill="#8a8a8a" font-size="12">1+z &#8776; 1.3</text>
+
+  <!-- era bands under the axis -->
+  <text x="135" y="356" fill="#8a8a8a" font-size="12" text-anchor="middle">radiation era</text>
+  <text x="350" y="356" fill="#8a8a8a" font-size="12" text-anchor="middle">matter era</text>
+  <text x="556" y="356" fill="#8a8a8a" font-size="12" text-anchor="middle">&#923; era</text>
+</svg>

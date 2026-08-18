@@ -1,0 +1,74 @@
+<svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="300" fill="#ffffff"/>
+
+  <defs>
+    <marker id="a1" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="#111111"/>
+    </marker>
+    <marker id="aB" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="#2563eb"/>
+    </marker>
+  </defs>
+
+  <!-- column headings -->
+  <text x="90"  y="46" fill="#111111" font-size="17" font-weight="bold" text-anchor="middle">&#916;&#8304;</text>
+  <text x="90"  y="66" fill="#555555" font-size="12" text-anchor="middle">point</text>
+  <text x="250" y="46" fill="#111111" font-size="17" font-weight="bold" text-anchor="middle">&#916;&#185;</text>
+  <text x="250" y="66" fill="#555555" font-size="12" text-anchor="middle">edge</text>
+  <text x="470" y="46" fill="#111111" font-size="17" font-weight="bold" text-anchor="middle">&#916;&#178;</text>
+  <text x="470" y="66" fill="#555555" font-size="12" text-anchor="middle">triangle</text>
+  <text x="690" y="46" fill="#111111" font-size="17" font-weight="bold" text-anchor="middle">&#916;&#179;</text>
+  <text x="690" y="66" fill="#555555" font-size="12" text-anchor="middle">tetrahedron</text>
+
+  <!-- ===== Delta^0 : a point ===== -->
+  <circle cx="90" cy="190" r="4.5" fill="#111111"/>
+  <text x="90" y="216" fill="#111111" font-size="13" text-anchor="middle">v&#8320;</text>
+
+  <!-- ===== Delta^1 : an oriented edge v0 -> v1 ===== -->
+  <line x1="200" y1="220" x2="308" y2="120" stroke="#111111" stroke-width="2.2" marker-end="url(#a1)"/>
+  <circle cx="200" cy="220" r="4" fill="#111111"/>
+  <circle cx="308" cy="120" r="4" fill="#111111"/>
+  <text x="186" y="234" fill="#111111" font-size="13">v&#8320;</text>
+  <text x="314" y="116" fill="#111111" font-size="13">v&#8321;</text>
+
+  <!-- ===== Delta^2 : oriented triangle v0->v1->v2 ===== -->
+  <!-- vertices -->
+  <!-- v0 (400,230), v1 (540,230), v2 (470,110) -->
+  <polygon points="400,230 540,230 470,110" fill="#2563eb" fill-opacity="0.08" stroke="none"/>
+  <line x1="400" y1="230" x2="540" y2="230" stroke="#111111" stroke-width="2.2"/>
+  <line x1="540" y1="230" x2="470" y2="110" stroke="#111111" stroke-width="2.2"/>
+  <line x1="470" y1="110" x2="400" y2="230" stroke="#111111" stroke-width="2.2"/>
+  <!-- direction arrows on the boundary cycle v0->v1->v2->v0 -->
+  <line x1="460" y1="230" x2="482" y2="230" stroke="#2563eb" stroke-width="2.4" marker-end="url(#aB)"/>
+  <line x1="505" y1="170" x2="494" y2="151" stroke="#2563eb" stroke-width="2.4" marker-end="url(#aB)"/>
+  <line x1="435" y1="171" x2="424" y2="190" stroke="#2563eb" stroke-width="2.4" marker-end="url(#aB)"/>
+  <circle cx="400" cy="230" r="4" fill="#111111"/>
+  <circle cx="540" cy="230" r="4" fill="#111111"/>
+  <circle cx="470" cy="110" r="4" fill="#111111"/>
+  <text x="386" y="244" fill="#111111" font-size="13">v&#8320;</text>
+  <text x="546" y="244" fill="#111111" font-size="13">v&#8321;</text>
+  <text x="470" y="102" fill="#111111" font-size="13" text-anchor="middle">v&#8322;</text>
+
+  <!-- ===== Delta^3 : tetrahedron ===== -->
+  <!-- outer triangle v0 (625,235) v1 (775,225) v2 (700,105); v3 interior (695,180) -->
+  <polygon points="625,235 775,225 700,105" fill="#2563eb" fill-opacity="0.06" stroke="none"/>
+  <!-- front (solid) edges -->
+  <line x1="625" y1="235" x2="775" y2="225" stroke="#111111" stroke-width="2.2" marker-end="url(#a1)"/>
+  <line x1="625" y1="235" x2="700" y2="105" stroke="#111111" stroke-width="2.2" marker-end="url(#a1)"/>
+  <line x1="775" y1="225" x2="700" y2="105" stroke="#111111" stroke-width="2.2" marker-end="url(#a1)"/>
+  <!-- back vertex v3 with dashed edges -->
+  <line x1="625" y1="235" x2="695" y2="180" stroke="#111111" stroke-width="1.4" stroke-dasharray="5 4"/>
+  <line x1="775" y1="225" x2="695" y2="180" stroke="#111111" stroke-width="1.4" stroke-dasharray="5 4"/>
+  <line x1="700" y1="105" x2="695" y2="180" stroke="#111111" stroke-width="1.4" stroke-dasharray="5 4"/>
+  <circle cx="625" cy="235" r="4" fill="#111111"/>
+  <circle cx="775" cy="225" r="4" fill="#111111"/>
+  <circle cx="700" cy="105" r="4" fill="#111111"/>
+  <circle cx="695" cy="180" r="3.5" fill="#111111"/>
+  <text x="611" y="248" fill="#111111" font-size="13">v&#8320;</text>
+  <text x="781" y="238" fill="#111111" font-size="13">v&#8321;</text>
+  <text x="700" y="98"  fill="#111111" font-size="13" text-anchor="middle">v&#8322;</text>
+  <text x="704" y="196" fill="#111111" font-size="13">v&#8323;</text>
+
+  <!-- footnote -->
+  <text x="400" y="288" fill="#555555" font-size="12.5" text-anchor="middle">The standard n-simplex is the convex hull of n+1 ordered vertices; the ordering (arrows) is its orientation.</text>
+</svg>

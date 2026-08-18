@@ -1,0 +1,59 @@
+<svg viewBox="0 0 760 410" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="760" height="410" fill="#ffffff"/>
+
+  <!-- ================= LEFT PANEL: Forward Euler ================= -->
+  <text x="200" y="34" text-anchor="middle" font-size="18" font-weight="bold" fill="#111">Forward (explicit) Euler</text>
+  <text x="200" y="56" text-anchor="middle" font-size="13" fill="#333">stable set = disk  |1 + z| &#8804; 1</text>
+
+  <!-- shaded stability disk: centre z = -1, radius 1 ; scale 55 px/unit, origin (250,210) -->
+  <circle cx="195" cy="210" r="55" fill="#cfe0f5" stroke="#2b6cb0" stroke-width="2.5"/>
+
+  <!-- axes -->
+  <line x1="70" y1="210" x2="345" y2="210" stroke="#111" stroke-width="1.5"/>
+  <line x1="250" y1="90" x2="250" y2="330" stroke="#111" stroke-width="1.5"/>
+  <polygon points="345,210 337,206 337,214" fill="#111"/>
+  <polygon points="250,90 246,98 254,98" fill="#111"/>
+  <text x="352" y="214" font-size="13" fill="#111">Re z</text>
+  <text x="258" y="98" font-size="13" fill="#111">Im z</text>
+
+  <!-- real-axis ticks at 0, -1, -2 -->
+  <line x1="250" y1="206" x2="250" y2="214" stroke="#111" stroke-width="1.5"/>
+  <line x1="195" y1="206" x2="195" y2="214" stroke="#111" stroke-width="1.5"/>
+  <line x1="140" y1="206" x2="140" y2="214" stroke="#111" stroke-width="1.5"/>
+  <text x="250" y="230" text-anchor="middle" font-size="12" fill="#111">0</text>
+  <text x="195" y="230" text-anchor="middle" font-size="12" fill="#111">&#8722;1</text>
+  <text x="140" y="230" text-anchor="middle" font-size="12" fill="#111">&#8722;2</text>
+
+  <!-- real stable interval z in [-2,0] -->
+  <line x1="140" y1="210" x2="250" y2="210" stroke="#c0392b" stroke-width="4"/>
+  <text x="195" y="300" text-anchor="middle" font-size="12" fill="#c0392b">real modes: &#8722;2 &#8804; h&#955; &#8804; 0</text>
+  <text x="195" y="316" text-anchor="middle" font-size="12" fill="#c0392b">so  h &#8804; 2/|&#955;|  (capped!)</text>
+
+  <!-- ================= RIGHT PANEL: Backward Euler ================= -->
+  <text x="580" y="34" text-anchor="middle" font-size="18" font-weight="bold" fill="#111">Backward (implicit) Euler</text>
+  <text x="580" y="56" text-anchor="middle" font-size="13" fill="#333">stable set = outside disk  |1 &#8722; z| &#8805; 1</text>
+
+  <!-- shaded exterior: rect minus disk (evenodd) ; origin (610,210) scale 55, unstable disk centre +1 -->
+  <path fill="#cfe0f5" fill-rule="evenodd"
+        d="M470,90 H720 V330 H470 Z
+           M665,210 m-55,0 a55,55 0 1,0 110,0 a55,55 0 1,0 -110,0 z"/>
+  <circle cx="665" cy="210" r="55" fill="#ffffff" stroke="#999" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="665" y="214" text-anchor="middle" font-size="11" fill="#777">unstable</text>
+
+  <!-- axes -->
+  <line x1="475" y1="210" x2="722" y2="210" stroke="#111" stroke-width="1.5"/>
+  <line x1="610" y1="90" x2="610" y2="330" stroke="#111" stroke-width="1.5"/>
+  <polygon points="722,210 714,206 714,214" fill="#111"/>
+  <polygon points="610,90 606,98 614,98" fill="#111"/>
+  <text x="729" y="214" font-size="13" fill="#111">Re z</text>
+  <text x="618" y="98" font-size="13" fill="#111">Im z</text>
+
+  <line x1="610" y1="206" x2="610" y2="214" stroke="#111" stroke-width="1.5"/>
+  <line x1="665" y1="206" x2="665" y2="214" stroke="#111" stroke-width="1.5"/>
+  <text x="602" y="230" text-anchor="end" font-size="12" fill="#111">0</text>
+  <text x="665" y="230" text-anchor="middle" font-size="12" fill="#111">+1</text>
+
+  <!-- whole left half-plane shaded label -->
+  <text x="540" y="300" text-anchor="middle" font-size="12" fill="#2b6cb0">entire left half-plane</text>
+  <text x="540" y="316" text-anchor="middle" font-size="12" fill="#2b6cb0">is stable &#8594; A-stable</text>
+</svg>

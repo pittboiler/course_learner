@@ -1,0 +1,46 @@
+<svg viewBox="0 0 620 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">The reversible "duck": forward cathodic peak, reverse anodic peak; midpoint is E&#176;, gap is &#916;E&#8342; &#8776; 59/n mV.</text>
+
+  <!-- current (y) axis -->
+  <line x1="80" y1="350" x2="80" y2="70" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="80,70 75,80 85,80" fill="#8a8a8a"/>
+  <text x="60" y="82" fill="#8a8a8a">i</text>
+
+  <!-- potential (x) axis: zero-current line -->
+  <line x1="80" y1="200" x2="580" y2="200" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="580,200 570,195 570,205" fill="#8a8a8a"/>
+  <text x="566" y="222" fill="#8a8a8a">E</text>
+
+  <!-- forward sweep (blue): rises to cathodic peak, then Cottrell-like decay tail -->
+  <path d="M 100 198 L 150 196 L 190 189 L 220 168 L 240 128 L 250 96 L 263 108 L 288 140 L 330 158 L 400 170 L 480 177 L 540 180"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <!-- reverse sweep (blue): dips to anodic peak, then decay -->
+  <path d="M 540 206 L 470 209 L 410 214 L 360 244 L 335 288 L 322 306 L 310 296 L 292 262 L 268 228 L 228 213 L 175 208 L 120 205 L 100 204"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- cathodic peak marker E_pc at x=250 -->
+  <circle cx="250" cy="96" r="4" fill="#e0645c"/>
+  <line x1="250" y1="96" x2="250" y2="330" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="214" y="90" fill="#e0645c">i&#8339;&#8330;</text>
+  <text x="228" y="348" fill="#e0645c">E&#8339;&#8330;</text>
+
+  <!-- anodic peak marker E_pa at x=322 -->
+  <circle cx="322" cy="306" r="4" fill="#e0645c"/>
+  <line x1="322" y1="306" x2="322" y2="330" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="330" y="312" fill="#e0645c">i&#8339;&#8336;</text>
+  <text x="300" y="348" fill="#e0645c">E&#8339;&#8336;</text>
+
+  <!-- delta E_p double arrow between E_pc (250) and E_pa (322) -->
+  <line x1="250" y1="325" x2="322" y2="325" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="250,325 259,321 259,329" fill="#e0645c"/>
+  <polygon points="322,325 313,321 313,329" fill="#e0645c"/>
+  <text x="360" y="329" fill="#e0645c">&#916;E&#8342; &#8776; 59/n mV</text>
+
+  <!-- midpoint E-degree at x=286 -->
+  <line x1="286" y1="112" x2="286" y2="290" stroke="#e0645c" stroke-width="1.2" stroke-dasharray="2 3"/>
+  <text x="272" y="130" fill="#e0645c">E&#176;</text>
+
+  <!-- sweep-direction labels -->
+  <text x="150" y="182" fill="#8a8a8a" font-size="12">forward (reduce)</text>
+  <text x="410" y="228" fill="#8a8a8a" font-size="12">reverse (re-oxidize)</text>
+</svg>

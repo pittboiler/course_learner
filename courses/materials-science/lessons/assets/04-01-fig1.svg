@@ -1,0 +1,43 @@
+<svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="60" y="24" fill="#8a8a8a" font-style="italic">Engineering stress vs. strain: a straight elastic line of slope E, then it rolls over into permanent (plastic) flow.</text>
+
+  <!-- axes -->
+  <line x1="70" y1="290" x2="580" y2="290" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="580,290 570,285 570,295" fill="#8a8a8a"/>
+  <line x1="70" y1="290" x2="70" y2="55" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,55 65,65 75,65" fill="#8a8a8a"/>
+  <text x="588" y="295" fill="#8a8a8a">strain &#949;</text>
+  <text x="30" y="52" fill="#8a8a8a">stress &#963;</text>
+  <text x="60" y="305" fill="#8a8a8a">0</text>
+
+  <!-- blue stress-strain curve: linear elastic then plastic roll-over -->
+  <path d="M 70 290 L 210 130 C 270 92, 350 74, 415 78 C 460 81, 495 90, 520 100"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- fracture mark -->
+  <line x1="512" y1="92" x2="528" y2="108" stroke="#e0645c" stroke-width="2"/>
+  <line x1="528" y1="92" x2="512" y2="108" stroke="#e0645c" stroke-width="2"/>
+  <text x="500" y="128" fill="#e0645c">fracture</text>
+
+  <!-- slope triangle on the elastic line (coral) -->
+  <!-- points on line from (70,290) to (210,130): x=120 -> y=232.9 ; x=170 -> y=175.7 -->
+  <line x1="120" y1="232.9" x2="170" y2="232.9" stroke="#e0645c" stroke-width="1.5"/>
+  <line x1="170" y1="232.9" x2="170" y2="175.7" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="132" y="248" fill="#e0645c">&#916;&#949;</text>
+  <text x="176" y="208" fill="#e0645c">&#916;&#963;</text>
+  <text x="86" y="150" fill="#4a90d9">slope = E</text>
+  <text x="96" y="168" fill="#4a90d9">&#963; = E&#949;</text>
+
+  <!-- yield / elastic limit marker -->
+  <circle cx="210" cy="130" r="4.5" fill="#e0645c"/>
+  <text x="222" y="126" fill="#e0645c">elastic limit</text>
+  <text x="222" y="143" fill="#e0645c">(onset of plasticity)</text>
+  <line x1="210" y1="130" x2="210" y2="290" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- region labels under the axis -->
+  <line x1="72" y1="316" x2="208" y2="316" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="90" y="332" fill="#8a8a8a">elastic (recoverable)</text>
+  <line x1="212" y1="316" x2="520" y2="316" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="330" y="332" fill="#8a8a8a">plastic (permanent)</text>
+</svg>

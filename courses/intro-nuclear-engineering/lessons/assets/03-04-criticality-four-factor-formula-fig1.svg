@@ -1,0 +1,68 @@
+<svg viewBox="-70 0 760 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <defs>
+    <marker id="ahBlue" markerWidth="9" markerHeight="9" refX="6.5" refY="3" orient="auto">
+      <path d="M0,0 L6.5,3 L0,6 z" fill="#4a90d9"/>
+    </marker>
+    <marker id="ahCoral" markerWidth="9" markerHeight="9" refX="6.5" refY="3" orient="auto">
+      <path d="M0,0 L6.5,3 L0,6 z" fill="#e0645c"/>
+    </marker>
+  </defs>
+
+  <!-- caption -->
+  <text x="24" y="26" fill="#8a8a8a" font-style="italic">One generation, six multiplications: track 1 fast neutron around the loop and you land on k neutrons.</text>
+
+  <!-- ===== the six loop edges (clockwise from top) ===== -->
+  <!-- v0 top (340,55) -> v1 (585,130) : fast fission -->
+  <line x1="353.4" y1="59.1" x2="571.6" y2="125.9" stroke="#4a90d9" stroke-width="2.5" marker-end="url(#ahBlue)"/>
+  <!-- v1 (585,130) -> v2 (585,240) : fast non-leakage (coral) -->
+  <line x1="585" y1="144" x2="585" y2="226" stroke="#e0645c" stroke-width="2.5" marker-end="url(#ahCoral)"/>
+  <!-- v2 (585,240) -> v3 (340,315) : resonance escape -->
+  <line x1="571.6" y1="244.1" x2="353.4" y2="310.9" stroke="#4a90d9" stroke-width="2.5" marker-end="url(#ahBlue)"/>
+  <!-- v3 (340,315) -> v4 (95,240) : thermal non-leakage (coral) -->
+  <line x1="326.6" y1="310.9" x2="108.4" y2="244.1" stroke="#e0645c" stroke-width="2.5" marker-end="url(#ahCoral)"/>
+  <!-- v4 (95,240) -> v5 (95,130) : thermal utilization -->
+  <line x1="95" y1="226" x2="95" y2="144" stroke="#4a90d9" stroke-width="2.5" marker-end="url(#ahBlue)"/>
+  <!-- v5 (95,130) -> v0 (340,55) : reproduction -->
+  <line x1="108.4" y1="125.9" x2="326.6" y2="59.1" stroke="#4a90d9" stroke-width="2.5" marker-end="url(#ahBlue)"/>
+
+  <!-- ===== vertex dots ===== -->
+  <circle cx="340" cy="55" r="6" fill="#4a90d9"/>
+  <circle cx="585" cy="130" r="4" fill="#8a8a8a"/>
+  <circle cx="585" cy="240" r="4" fill="#8a8a8a"/>
+  <circle cx="340" cy="315" r="4" fill="#8a8a8a"/>
+  <circle cx="95" cy="240" r="4" fill="#8a8a8a"/>
+  <circle cx="95" cy="130" r="4" fill="#8a8a8a"/>
+
+  <!-- ===== vertex state labels ===== -->
+  <text x="340" y="44" fill="#4a90d9" text-anchor="middle" font-weight="bold">start: 1 fast neutron</text>
+  <text x="596" y="126" fill="#8a8a8a">+ fast fission</text>
+  <text x="596" y="252" fill="#8a8a8a">no fast leak</text>
+  <text x="340" y="336" fill="#8a8a8a" text-anchor="middle">now thermal (past resonances)</text>
+  <text x="88" y="252" fill="#8a8a8a" text-anchor="end">no thermal leak</text>
+  <text x="88" y="126" fill="#8a8a8a" text-anchor="end">absorbed in fuel</text>
+
+  <!-- ===== edge factor labels (symbol + name) ===== -->
+  <!-- fast fission, mid (462,92) -->
+  <text x="470" y="86" fill="#4a90d9" font-weight="bold" font-size="17">&#215;&#949;</text>
+  <text x="470" y="102" fill="#8a8a8a" font-size="11">fast fission (&#62;1)</text>
+  <!-- fast non-leakage, mid (585,185) -->
+  <text x="600" y="182" fill="#e0645c" font-weight="bold" font-size="17">&#215;P<tspan baseline-shift="sub" font-size="10" font-weight="normal">f</tspan></text>
+  <text x="600" y="198" fill="#8a8a8a" font-size="11">fast non-leak</text>
+  <!-- resonance escape, mid (462,278) -->
+  <text x="470" y="284" fill="#4a90d9" font-weight="bold" font-size="17">&#215;p</text>
+  <text x="470" y="300" fill="#8a8a8a" font-size="11">resonance escape</text>
+  <!-- thermal non-leakage, mid (217,278) -->
+  <text x="210" y="284" fill="#e0645c" font-weight="bold" font-size="17" text-anchor="end">&#215;P<tspan baseline-shift="sub" font-size="10" font-weight="normal">th</tspan></text>
+  <text x="210" y="300" fill="#8a8a8a" font-size="11" text-anchor="end">thermal non-leak</text>
+  <!-- thermal utilization, mid (95,185) -->
+  <text x="80" y="182" fill="#4a90d9" font-weight="bold" font-size="17" text-anchor="end">&#215;f</text>
+  <text x="80" y="198" fill="#8a8a8a" font-size="11" text-anchor="end">thermal utilization</text>
+  <!-- reproduction, mid (217,92) -->
+  <text x="210" y="86" fill="#4a90d9" font-weight="bold" font-size="17" text-anchor="end">&#215;&#951;</text>
+  <text x="210" y="102" fill="#8a8a8a" font-size="11" text-anchor="end">reproduction</text>
+
+  <!-- ===== center equation ===== -->
+  <text x="340" y="180" fill="#8a8a8a" text-anchor="middle" font-size="16">k<tspan baseline-shift="sub" font-size="11">&#8734;</tspan> = &#951; f p &#949;</text>
+  <text x="340" y="205" fill="#e0645c" text-anchor="middle" font-size="16">k<tspan baseline-shift="sub" font-size="11">eff</tspan> = k<tspan baseline-shift="sub" font-size="11">&#8734;</tspan> &#183; P<tspan baseline-shift="sub" font-size="11">NL</tspan></text>
+  <text x="340" y="228" fill="#8a8a8a" text-anchor="middle" font-size="11">P<tspan baseline-shift="sub" font-size="9">NL</tspan> = P<tspan baseline-shift="sub" font-size="9">f</tspan> &#215; P<tspan baseline-shift="sub" font-size="9">th</tspan></text>
+</svg>

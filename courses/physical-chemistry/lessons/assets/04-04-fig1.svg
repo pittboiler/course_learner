@@ -1,0 +1,64 @@
+<svg viewBox="0 0 620 420" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Bound levels E&#8345; = &#8722;13.6/n&#178; eV crowd toward 0; each downward jump emits one line. Coral = Lyman (UV, to n=1), blue = Balmer (visible, to n=2), grey = Paschen (IR, to n=3).</text>
+
+  <!-- ===== energy axis ===== -->
+  <line x1="110" y1="392" x2="110" y2="52" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="110,52 105,62 115,62" fill="#8a8a8a"/>
+  <text x="86" y="58" fill="#8a8a8a">E</text>
+
+  <!-- ===== level lines ===== -->
+  <!-- n=infinity (ionization) dashed at y=60 -->
+  <line x1="150" y1="60" x2="555" y2="60" stroke="#8a8a8a" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <text x="560" y="64" fill="#8a8a8a">n=&#8734;, 0 eV</text>
+  <text x="118" y="55" fill="#8a8a8a" font-size="12" font-style="italic">ionization</text>
+
+  <!-- n=5 y=73 -->
+  <line x1="150" y1="73" x2="555" y2="73" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="560" y="77" fill="#8a8a8a" font-size="12">n=5</text>
+  <!-- n=4 y=80 -->
+  <line x1="150" y1="80" x2="555" y2="80" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="560" y="90" fill="#8a8a8a" font-size="12">n=4</text>
+  <!-- n=3 y=95.5 -->
+  <line x1="150" y1="95.5" x2="555" y2="95.5" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="560" y="102" fill="#8a8a8a">n=3 (&#8722;1.51)</text>
+  <!-- n=2 y=140 -->
+  <line x1="150" y1="140" x2="555" y2="140" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="560" y="145" fill="#8a8a8a">n=2 (&#8722;3.40)</text>
+  <!-- n=1 y=380 -->
+  <line x1="150" y1="380" x2="555" y2="380" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="560" y="385" fill="#8a8a8a">n=1 (&#8722;13.6)</text>
+
+  <!-- ===== Lyman series (coral, down to n=1) ===== -->
+  <!-- 2->1 -->
+  <line x1="185" y1="140" x2="185" y2="374" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="185,380 181,370 189,370" fill="#e0645c"/>
+  <!-- 3->1 -->
+  <line x1="210" y1="95.5" x2="210" y2="374" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="210,380 206,370 214,370" fill="#e0645c"/>
+  <!-- 4->1 -->
+  <line x1="235" y1="80" x2="235" y2="374" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="235,380 231,370 239,370" fill="#e0645c"/>
+  <text x="176" y="260" fill="#e0645c" font-size="12">Lyman</text>
+
+  <!-- ===== Balmer series (blue, down to n=2) ===== -->
+  <!-- 3->2 (H-alpha) -->
+  <line x1="325" y1="95.5" x2="325" y2="134" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="325,140 321,130 329,130" fill="#4a90d9"/>
+  <!-- 4->2 -->
+  <line x1="350" y1="80" x2="350" y2="134" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="350,140 346,130 354,130" fill="#4a90d9"/>
+  <!-- 5->2 -->
+  <line x1="375" y1="73" x2="375" y2="134" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="375,140 371,130 379,130" fill="#4a90d9"/>
+  <text x="318" y="158" fill="#4a90d9" font-size="12">Balmer</text>
+
+  <!-- ===== Paschen series (grey, down to n=3) ===== -->
+  <!-- 4->3 -->
+  <line x1="455" y1="80" x2="455" y2="90" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="455,95.5 451,86 459,86" fill="#8a8a8a"/>
+  <!-- 5->3 -->
+  <line x1="480" y1="73" x2="480" y2="90" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="480,95.5 476,86 484,86" fill="#8a8a8a"/>
+  <text x="448" y="112" fill="#8a8a8a" font-size="12">Paschen</text>
+</svg>

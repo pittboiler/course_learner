@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 430" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="540" height="430" fill="#ffffff"/>
+  <defs>
+    <marker id="traj" markerWidth="9" markerHeight="9" refX="7" refY="3.2" orient="auto">
+      <path d="M0,0 L7,3.2 L0,6.4 Z" fill="#555555"/>
+    </marker>
+    <marker id="cross" markerWidth="9" markerHeight="9" refX="7" refY="3.2" orient="auto">
+      <path d="M0,0 L7,3.2 L0,6.4 Z" fill="#111111"/>
+    </marker>
+  </defs>
+
+  <!-- axes (these are ALSO nullclines: x=0 is x-dot=0, y=0 is y-dot=0) -->
+  <line x1="60" y1="360" x2="510" y2="360" stroke="#111111" stroke-width="1.5"/>
+  <line x1="60" y1="360" x2="60" y2="90" stroke="#111111" stroke-width="1.5"/>
+  <text x="512" y="364" font-size="14" fill="#111111">x</text>
+  <text x="50" y="86" font-size="14" fill="#111111">y</text>
+
+  <!-- x-nullcline: x + 2y = 3  (blue) -->
+  <line x1="420" y1="360" x2="60" y2="180" stroke="#1565c0" stroke-width="2.2"/>
+  <text x="300" y="212" font-size="13" fill="#1565c0">x&#775;=0 :  x+2y=3</text>
+
+  <!-- y-nullcline: x + y = 2  (red) -->
+  <line x1="300" y1="360" x2="60" y2="120" stroke="#c62828" stroke-width="2.2"/>
+  <text x="150" y="300" font-size="13" fill="#c62828">y&#775;=0 :  x+y=2</text>
+
+  <!-- separatrix: stable manifold of the saddle (green dashed) -->
+  <path d="M60,360 Q140,302 180,240 Q242,178 330,120" fill="none" stroke="#2e7d32" stroke-width="2.2" stroke-dasharray="7 5"/>
+  <text x="332" y="118" font-size="12.5" fill="#2e7d32">separatrix</text>
+
+  <!-- representative trajectories -->
+  <path d="M216,342 Q330,352 414,359" fill="none" stroke="#555555" stroke-width="1.6" marker-end="url(#traj)"/>
+  <path d="M372,252 Q412,300 419,352" fill="none" stroke="#555555" stroke-width="1.6" marker-end="url(#traj)"/>
+  <path d="M96,258 Q66,196 61,128" fill="none" stroke="#555555" stroke-width="1.6" marker-end="url(#traj)"/>
+  <path d="M176,170 Q98,150 63,126" fill="none" stroke="#555555" stroke-width="1.6" marker-end="url(#traj)"/>
+  <path d="M120,342 Q150,320 168,252" fill="none" stroke="#555555" stroke-width="1.6" marker-end="url(#traj)"/>
+
+  <!-- short arrows showing flow CROSSES nullclines (perpendicular to zeroed component) -->
+  <line x1="240" y1="258" x2="240" y2="284" stroke="#111111" stroke-width="1.4" marker-end="url(#cross)"/>
+  <line x1="132" y1="180" x2="106" y2="180" stroke="#111111" stroke-width="1.4" marker-end="url(#cross)"/>
+
+  <!-- fixed points -->
+  <!-- origin: unstable node (open) -->
+  <circle cx="60" cy="360" r="6" fill="#ffffff" stroke="#111111" stroke-width="2"/>
+  <text x="66" y="382" font-size="12.5" fill="#111111">(0,0) unstable node</text>
+  <!-- (3,0): stable node (filled) -->
+  <circle cx="420" cy="360" r="6" fill="#111111"/>
+  <text x="392" y="382" font-size="12.5" fill="#111111">(3,0) stable</text>
+  <!-- (0,2): stable node (filled) -->
+  <circle cx="60" cy="120" r="6" fill="#111111"/>
+  <text x="72" y="116" font-size="12.5" fill="#111111">(0,2) stable</text>
+  <!-- (1,1): saddle -->
+  <g stroke="#111111" stroke-width="2.2">
+    <line x1="174" y1="234" x2="186" y2="246"/>
+    <line x1="186" y1="234" x2="174" y2="246"/>
+  </g>
+  <text x="192" y="238" font-size="12.5" fill="#111111">(1,1) saddle</text>
+</svg>

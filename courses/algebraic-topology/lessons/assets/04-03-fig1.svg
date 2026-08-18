@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="720" height="380" fill="#ffffff"/>
+  <defs>
+    <marker id="ab" markerWidth="10" markerHeight="10" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 z" fill="#1a5fb4"/>
+    </marker>
+    <marker id="ag" markerWidth="10" markerHeight="10" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 z" fill="#1a7f37"/>
+    </marker>
+  </defs>
+
+  <!-- ================= LEFT: S^1 nonvanishing field ================= -->
+  <text x="30" y="34" font-size="16" fill="#111111">S&#185;: a nonvanishing tangent field</text>
+  <text x="30" y="54" font-size="14" fill="#1a7f37">n = 1 odd &#8212; comb it, no cowlick.</text>
+
+  <circle cx="180" cy="210" r="100" fill="#f3f6fb" stroke="#111111" stroke-width="2.2"/>
+
+  <!-- 8 tangent arrows circulating; base on circle, tip along the tangent -->
+  <line x1="280" y1="210" x2="280" y2="248" stroke="#1a7f37" stroke-width="2.2" marker-end="url(#ag)"/>
+  <line x1="251" y1="281" x2="226" y2="306" stroke="#1a7f37" stroke-width="2.2" marker-end="url(#ag)"/>
+  <line x1="180" y1="310" x2="142" y2="310" stroke="#1a7f37" stroke-width="2.2" marker-end="url(#ag)"/>
+  <line x1="109" y1="281" x2="84"  y2="256" stroke="#1a7f37" stroke-width="2.2" marker-end="url(#ag)"/>
+  <line x1="80"  y1="210" x2="80"  y2="172" stroke="#1a7f37" stroke-width="2.2" marker-end="url(#ag)"/>
+  <line x1="109" y1="139" x2="134" y2="114" stroke="#1a7f37" stroke-width="2.2" marker-end="url(#ag)"/>
+  <line x1="180" y1="110" x2="218" y2="110" stroke="#1a7f37" stroke-width="2.2" marker-end="url(#ag)"/>
+  <line x1="251" y1="139" x2="276" y2="164" stroke="#1a7f37" stroke-width="2.2" marker-end="url(#ag)"/>
+
+  <text x="150" y="216" font-size="15" fill="#5a6b7a">v(x)=ix</text>
+
+  <!-- ================= RIGHT: S^2 hairy ball ================= -->
+  <text x="430" y="34" font-size="16" fill="#111111">S&#178;: every tangent field vanishes</text>
+  <text x="430" y="54" font-size="14" fill="#c0392b">n = 2 even &#8212; a cowlick is forced.</text>
+
+  <circle cx="560" cy="215" r="100" fill="#f3f6fb" stroke="#111111" stroke-width="2.2"/>
+  <!-- faint latitude guides -->
+  <ellipse cx="560" cy="215" rx="100" ry="30" fill="none" stroke="#c9d4e0" stroke-width="1.3"/>
+  <ellipse cx="560" cy="215" rx="72"  ry="18" fill="none" stroke="#c9d4e0" stroke-width="1.1"/>
+
+  <!-- meridian flow: hairs combed toward the north pole, converging into the cowlick -->
+  <path d="M560,300 C558,270 556,250 556,232" fill="none" stroke="#1a5fb4" stroke-width="2" marker-end="url(#ab)"/>
+  <path d="M500,288 C505,262 512,244 520,228" fill="none" stroke="#1a5fb4" stroke-width="2" marker-end="url(#ab)"/>
+  <path d="M620,288 C615,262 608,244 600,228" fill="none" stroke="#1a5fb4" stroke-width="2" marker-end="url(#ab)"/>
+  <path d="M470,250 C482,222 498,202 516,190" fill="none" stroke="#1a5fb4" stroke-width="2" marker-end="url(#ab)"/>
+  <path d="M650,250 C638,222 622,202 604,190" fill="none" stroke="#1a5fb4" stroke-width="2" marker-end="url(#ab)"/>
+  <path d="M508,168 C522,152 538,144 552,140" fill="none" stroke="#1a5fb4" stroke-width="2" marker-end="url(#ab)"/>
+  <path d="M612,168 C598,152 582,144 568,140" fill="none" stroke="#1a5fb4" stroke-width="2" marker-end="url(#ab)"/>
+
+  <!-- the forced zero (cowlick) -->
+  <circle cx="560" cy="132" r="6" fill="#c0392b"/>
+  <text x="572" y="126" font-size="14" fill="#c0392b">zero (cowlick)</text>
+
+  <!-- caption -->
+  <text x="30" y="366" font-size="13" fill="#111111">The parity of deg(antipodal) = (&#8722;1)&#8319;&#8314;&#185; is the obstruction: a nonvanishing field exists iff n is odd.</text>
+</svg>

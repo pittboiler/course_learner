@@ -1,0 +1,37 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">A material loop is carried and distorted by the flow — yet the vorticity flux through it (coral) is unchanged: DΓ/Dt = 0.</text>
+
+  <!-- streamlines (structural, grey) -->
+  <path d="M 30 120 C 160 108, 320 110, 440 132 S 590 156, 615 162" fill="none" stroke="#8a8a8a" stroke-width="1" opacity="0.7"/>
+  <path d="M 30 185 C 160 185, 320 185, 440 190 S 590 194, 615 194" fill="none" stroke="#8a8a8a" stroke-width="1" opacity="0.7"/>
+  <path d="M 30 250 C 160 262, 320 260, 440 240 S 590 214, 615 208" fill="none" stroke="#8a8a8a" stroke-width="1" opacity="0.7"/>
+  <polygon points="615,162 605,158 606,167" fill="#8a8a8a"/>
+  <polygon points="615,194 605,190 605,199" fill="#8a8a8a"/>
+  <polygon points="615,208 605,205 607,214" fill="#8a8a8a"/>
+  <text x="40" y="300" fill="#8a8a8a" font-style="italic">streamlines</text>
+
+  <!-- ===== loop at t1 (round) ===== -->
+  <path d="M 210 185 C 210 154.6, 185.4 130, 155 130 C 124.6 130, 100 154.6, 100 185 C 100 215.4, 124.6 240, 155 240 C 185.4 240, 210 215.4, 210 185 Z"
+        fill="#e0645c" opacity="0.15"/>
+  <path d="M 210 185 C 210 154.6, 185.4 130, 155 130 C 124.6 130, 100 154.6, 100 185 C 100 215.4, 124.6 240, 155 240 C 185.4 240, 210 215.4, 210 185 Z"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="118" y="188" fill="#e0645c">Γ</text>
+  <text x="108" y="266" fill="#4a90d9" font-style="italic">loop at t₁</text>
+
+  <!-- advection arrow -->
+  <line x1="218" y1="185" x2="372" y2="185" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="5 5"/>
+  <polygon points="378,185 366,180 366,190" fill="#8a8a8a"/>
+  <text x="238" y="176" fill="#8a8a8a" font-style="italic">carried with the fluid</text>
+
+  <!-- ===== loop at t2 (stretched, sheared) ===== -->
+  <path d="M 388 205 C 406 172, 436 152, 484 152 C 532 152, 560 167, 556 191 C 552 212, 520 230, 470 227 C 424 224, 390 224, 388 205 Z"
+        fill="#e0645c" opacity="0.15"/>
+  <path d="M 388 205 C 406 172, 436 152, 484 152 C 532 152, 560 167, 556 191 C 552 212, 520 230, 470 227 C 424 224, 390 224, 388 205 Z"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="466" y="196" fill="#e0645c">Γ (same)</text>
+  <text x="452" y="256" fill="#4a90d9" font-style="italic">loop at t₂</text>
+
+  <!-- verdict -->
+  <text x="238" y="322" fill="#e0645c" font-size="16">DΓ/Dt = 0  —  circulation is frozen into the fluid</text>
+</svg>

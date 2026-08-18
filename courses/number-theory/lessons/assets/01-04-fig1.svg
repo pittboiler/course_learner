@@ -1,0 +1,45 @@
+<svg viewBox="0 0 460 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="12">
+  <!-- axes -->
+  <line x1="50" y1="260" x2="440" y2="260" stroke="#333333" stroke-width="1.5"/>
+  <line x1="50" y1="20" x2="50" y2="260" stroke="#333333" stroke-width="1.5"/>
+  <polygon points="440,260 431,255 431,265" fill="#333333"/>
+  <polygon points="50,20 45,29 55,29" fill="#333333"/>
+
+  <!-- x ticks -->
+  <line x1="126" y1="260" x2="126" y2="265" stroke="#333333" stroke-width="1"/>
+  <text x="119" y="278" fill="#333333">20</text>
+  <line x1="202" y1="260" x2="202" y2="265" stroke="#333333" stroke-width="1"/>
+  <text x="195" y="278" fill="#333333">40</text>
+  <line x1="278" y1="260" x2="278" y2="265" stroke="#333333" stroke-width="1"/>
+  <text x="271" y="278" fill="#333333">60</text>
+  <line x1="354" y1="260" x2="354" y2="265" stroke="#333333" stroke-width="1"/>
+  <text x="347" y="278" fill="#333333">80</text>
+  <line x1="430" y1="260" x2="430" y2="265" stroke="#333333" stroke-width="1"/>
+  <text x="420" y="278" fill="#333333">100</text>
+  <text x="446" y="264" fill="#333333">x</text>
+
+  <!-- y ticks -->
+  <line x1="45" y1="214" x2="50" y2="214" stroke="#333333" stroke-width="1"/>
+  <text x="30" y="218" fill="#333333">5</text>
+  <line x1="45" y1="168" x2="50" y2="168" stroke="#333333" stroke-width="1"/>
+  <text x="25" y="172" fill="#333333">10</text>
+  <line x1="45" y1="122" x2="50" y2="122" stroke="#333333" stroke-width="1"/>
+  <text x="25" y="126" fill="#333333">15</text>
+  <line x1="45" y1="76" x2="50" y2="76" stroke="#333333" stroke-width="1"/>
+  <text x="25" y="80" fill="#333333">20</text>
+  <line x1="45" y1="30" x2="50" y2="30" stroke="#333333" stroke-width="1"/>
+  <text x="25" y="34" fill="#333333">25</text>
+
+  <!-- prime-counting staircase pi(x) -->
+  <polyline fill="none" stroke="#333333" stroke-width="2"
+    points="50,260 57.6,260 57.6,250.8 61.4,250.8 61.4,241.6 69,241.6 69,232.4 76.6,232.4 76.6,223.2 91.8,223.2 91.8,214 99.4,214 99.4,204.8 114.6,204.8 114.6,195.6 122.2,195.6 122.2,186.4 137.4,186.4 137.4,177.2 160.2,177.2 160.2,168 167.8,168 167.8,158.8 190.6,158.8 190.6,149.6 205.8,149.6 205.8,140.4 213.4,140.4 213.4,131.2 228.6,131.2 228.6,122 251.4,122 251.4,112.8 274.2,112.8 274.2,103.6 281.8,103.6 281.8,94.4 304.6,94.4 304.6,85.2 319.8,85.2 319.8,76 327.4,76 327.4,66.8 350.2,66.8 350.2,57.6 365.4,57.6 365.4,48.4 388.2,48.4 388.2,39.2 418.6,39.2 418.6,30 430,30"/>
+
+  <!-- smooth approximation x / ln x -->
+  <path fill="none" stroke="#d0021b" stroke-width="2.5"
+    d="M 80.4 224.6 L 88 220.1 L 126 198.6 L 164 178.9 L 202 160.3 L 240 142.4 L 278 125.2 L 316 108.4 L 354 92 L 392 76 L 430 60.2"/>
+
+  <!-- labels -->
+  <text x="300" y="55" fill="#333333" font-weight="bold">&#960;(x)</text>
+  <text x="336" y="112" fill="#d0021b" font-weight="bold">x / ln x</text>
+  <text x="60" y="16" fill="#333333" font-style="italic">primes counted up to x</text>
+</svg>

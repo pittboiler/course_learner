@@ -1,0 +1,32 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="60" y="24" fill="#8a8a8a" font-style="italic">One curve, three losses: kinetics rules low current, ohmic tilts the middle, transport walls off the top at j_L.</text>
+
+  <!-- axes -->
+  <line x1="70" y1="288" x2="600" y2="288" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="600,288 590,283 590,293" fill="#8a8a8a"/>
+  <text x="470" y="312" fill="#8a8a8a">current density  j  &#8594;</text>
+  <line x1="70" y1="288" x2="70" y2="56" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,56 65,66 75,66" fill="#8a8a8a"/>
+  <text x="40" y="52" fill="#8a8a8a">&#951;</text>
+  <text x="55" y="304" fill="#8a8a8a">0</text>
+
+  <!-- region dividers -->
+  <line x1="215" y1="288" x2="215" y2="70" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 5"/>
+  <line x1="430" y1="288" x2="430" y2="70" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 5"/>
+
+  <!-- limiting-current asymptote -->
+  <line x1="525" y1="288" x2="525" y2="60" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="512" y="52" fill="#e0645c">j_L</text>
+
+  <!-- the polarization curve (overall) -->
+  <path d="M 72 284 C 95 225 120 192 150 178 L 215 165 L 430 120 C 478 108 508 92 522 62"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- region labels -->
+  <text x="98" y="264" fill="#e0645c" font-size="12">activation</text>
+  <text x="108" y="279" fill="#e0645c" font-size="12">(Tafel)</text>
+  <text x="285" y="200" fill="#e0645c" font-size="12">ohmic</text>
+  <text x="278" y="215" fill="#e0645c" font-size="12">(iR tilt)</text>
+  <text x="452" y="188" fill="#e0645c" font-size="12">transport</text>
+  <text x="455" y="203" fill="#e0645c" font-size="12">(plateau)</text>
+</svg>

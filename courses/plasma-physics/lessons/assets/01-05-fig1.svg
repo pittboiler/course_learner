@@ -1,0 +1,52 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">A magnetic mirror: B pinches at the throats (strong), spreads in the middle (weak). μ = const makes the orbit tighten and reflect.</text>
+
+  <!-- ===== field lines (grey) ===== -->
+  <path d="M 90 130 C 180 70, 380 70, 470 130" fill="none" stroke="#8a8a8a" stroke-width="1.3"/>
+  <path d="M 90 140 C 180 105, 380 105, 470 140" fill="none" stroke="#8a8a8a" stroke-width="1.3"/>
+  <path d="M 90 160 C 180 195, 380 195, 470 160" fill="none" stroke="#8a8a8a" stroke-width="1.3"/>
+  <path d="M 90 170 C 180 230, 380 230, 470 170" fill="none" stroke="#8a8a8a" stroke-width="1.3"/>
+  <line x1="90" y1="150" x2="470" y2="150" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 5"/>
+
+  <!-- coils / throats -->
+  <ellipse cx="90" cy="150" rx="7" ry="30" fill="none" stroke="#8a8a8a" stroke-width="2.2"/>
+  <ellipse cx="470" cy="150" rx="7" ry="30" fill="none" stroke="#8a8a8a" stroke-width="2.2"/>
+  <text x="60" y="112" fill="#8a8a8a">B_max</text>
+  <text x="447" y="112" fill="#8a8a8a">B_max</text>
+  <text x="262" y="250" fill="#8a8a8a">B_min</text>
+
+  <!-- ===== spiralling particle (blue): amplitude ~ Larmor radius, tight at throats ===== -->
+  <polyline points="120,150 140,161.9 160,150 180,127.3 200,150 220,180.9 240,150 260,114.6 280,150 300,185.4 320,150 340,119.1 360,150 380,172.7 400,150 420,138.2 440,150"
+            fill="none" stroke="#4a90d9" stroke-width="2.4"/>
+
+  <!-- reflection arrows at the throats (coral) -->
+  <path d="M 132 150 q -14 0 -14 -12" fill="none" stroke="#e0645c" stroke-width="1.6"/>
+  <polygon points="118,138 114,147 122,147" fill="#e0645c"/>
+  <path d="M 428 150 q 14 0 14 -12" fill="none" stroke="#e0645c" stroke-width="1.6"/>
+  <polygon points="442,138 438,147 446,147" fill="#e0645c"/>
+  <text x="150" y="300" fill="#e0645c">reflects where v‖ → 0 (the mirror point)</text>
+
+  <!-- ===== loss-cone inset in velocity space ===== -->
+  <text x="512" y="180" fill="#8a8a8a" font-style="italic">velocity space</text>
+  <!-- axes -->
+  <line x1="505" y1="250" x2="622" y2="250" stroke="#8a8a8a" stroke-width="1.3"/>
+  <polygon points="622,250 613,246 613,254" fill="#8a8a8a"/>
+  <text x="606" y="268" fill="#8a8a8a">v‖</text>
+  <line x1="560" y1="302" x2="560" y2="186" stroke="#8a8a8a" stroke-width="1.3"/>
+  <polygon points="560,186 556,195 564,195" fill="#8a8a8a"/>
+  <text x="566" y="196" fill="#8a8a8a">v⊥</text>
+  <!-- loss cone: wedges about the v‖ axis, half-angle θ_lc -->
+  <polygon points="560,250 607.6,222.5 607.6,277.5" fill="#e0645c" opacity="0.15"/>
+  <polygon points="560,250 512.4,222.5 512.4,277.5" fill="#e0645c" opacity="0.15"/>
+  <line x1="560" y1="250" x2="607.6" y2="222.5" stroke="#e0645c" stroke-width="1.4"/>
+  <line x1="560" y1="250" x2="607.6" y2="277.5" stroke="#e0645c" stroke-width="1.4"/>
+  <line x1="560" y1="250" x2="512.4" y2="222.5" stroke="#e0645c" stroke-width="1.4"/>
+  <line x1="560" y1="250" x2="512.4" y2="277.5" stroke="#e0645c" stroke-width="1.4"/>
+  <text x="512" y="312" fill="#e0645c">loss cone: sin²θ &lt; 1/R_m</text>
+  <text x="590" y="240" fill="#e0645c">θ_lc</text>
+  <!-- a confined particle (outside the cone) -->
+  <line x1="560" y1="250" x2="588.7" y2="209.1" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="588.7,209.1 580.5,213.5 587,218" fill="#4a90d9"/>
+  <text x="592" y="205" fill="#4a90d9">confined</text>
+</svg>

@@ -1,0 +1,67 @@
+<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <defs>
+    <marker id="coral" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#e0645c"/>
+    </marker>
+    <marker id="grey" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#8a8a8a"/>
+    </marker>
+  </defs>
+
+  <!-- caption -->
+  <text x="30" y="26" fill="#8a8a8a" font-style="italic">Drop perpendiculars from two velocity directions; they cross at the IC &#8212; the pivot the body turns about right now.</text>
+
+  <!-- wall -->
+  <line x1="120" y1="50" x2="120" y2="310" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="120" y1="60" x2="108" y2="72" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="120" y1="84" x2="108" y2="96" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="120" y1="108" x2="108" y2="120" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="120" y1="132" x2="108" y2="144" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="120" y1="156" x2="108" y2="168" stroke="#8a8a8a" stroke-width="1"/>
+  <!-- floor -->
+  <line x1="120" y1="310" x2="560" y2="310" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="140" y1="310" x2="128" y2="322" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="170" y1="310" x2="158" y2="322" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="200" y1="310" x2="188" y2="322" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="230" y1="310" x2="218" y2="322" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="260" y1="310" x2="248" y2="322" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- construction lines to the IC (grey, dashed) -->
+  <line x1="120" y1="100" x2="420" y2="100" stroke="#8a8a8a" stroke-width="1.2" stroke-dasharray="4 5"/>
+  <line x1="420" y1="310" x2="420" y2="100" stroke="#8a8a8a" stroke-width="1.2" stroke-dasharray="4 5"/>
+  <text x="255" y="94" fill="#8a8a8a" font-style="italic">r &#8712; v: horizontal</text>
+  <text x="428" y="215" fill="#8a8a8a" font-style="italic">r &#8712; v: vertical</text>
+
+  <!-- the ladder (blue rigid body) -->
+  <line x1="120" y1="100" x2="420" y2="310" stroke="#4a90d9" stroke-width="5"/>
+
+  <!-- point A on the wall -->
+  <circle cx="120" cy="100" r="4.5" fill="#4a90d9"/>
+  <text x="96" y="96" fill="#4a90d9">A</text>
+  <!-- v_A slides straight down the wall -->
+  <line x1="120" y1="100" x2="120" y2="168" stroke="#e0645c" stroke-width="2.5" marker-end="url(#coral)"/>
+  <text x="128" y="150" fill="#e0645c"><tspan>v</tspan><tspan dy="4" font-size="10">A</tspan></text>
+
+  <!-- point B on the floor -->
+  <circle cx="420" cy="310" r="4.5" fill="#4a90d9"/>
+  <text x="424" y="332" fill="#4a90d9">B</text>
+  <!-- v_B slides along the floor -->
+  <line x1="420" y1="310" x2="500" y2="310" stroke="#e0645c" stroke-width="2.5" marker-end="url(#coral)"/>
+  <text x="470" y="302" fill="#e0645c"><tspan>v</tspan><tspan dy="4" font-size="10">B</tspan></text>
+
+  <!-- the instantaneous center -->
+  <circle cx="420" cy="100" r="5.5" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <circle cx="420" cy="100" r="1.8" fill="#8a8a8a"/>
+  <text x="432" y="96" fill="#8a8a8a">IC (v = 0)</text>
+
+  <!-- omega arc about the IC -->
+  <path d="M 468 118 A 30 30 0 0 1 438 138" fill="none" stroke="#e0645c" stroke-width="2" marker-end="url(#coral)"/>
+  <text x="474" y="128" fill="#e0645c">&#969;</text>
+
+  <!-- midpoint G with its velocity, perpendicular to r_G/IC -->
+  <circle cx="270" cy="205" r="4" fill="#4a90d9"/>
+  <text x="248" y="222" fill="#4a90d9">G</text>
+  <line x1="420" y1="100" x2="270" y2="205" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 4"/>
+  <line x1="270" y1="205" x2="329" y2="289" stroke="#e0645c" stroke-width="2.5" marker-end="url(#coral)"/>
+  <text x="330" y="262" fill="#e0645c"><tspan>v</tspan><tspan dy="4" font-size="10">G</tspan></text>
+</svg>

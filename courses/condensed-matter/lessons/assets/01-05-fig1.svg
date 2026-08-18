@@ -1,0 +1,99 @@
+<svg viewBox="0 0 680 270" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Same reciprocal lattice, different lit-up peaks: the missing lines fingerprint sc vs bcc vs fcc.</text>
+
+  <!-- column header: (hkl) labels -->
+  <text x="140" y="66" fill="#8a8a8a" text-anchor="middle">100</text>
+  <text x="192" y="66" fill="#8a8a8a" text-anchor="middle">110</text>
+  <text x="244" y="66" fill="#8a8a8a" text-anchor="middle">111</text>
+  <text x="296" y="66" fill="#8a8a8a" text-anchor="middle">200</text>
+  <text x="348" y="66" fill="#8a8a8a" text-anchor="middle">210</text>
+  <text x="400" y="66" fill="#8a8a8a" text-anchor="middle">211</text>
+  <text x="452" y="66" fill="#8a8a8a" text-anchor="middle">220</text>
+  <text x="504" y="66" fill="#8a8a8a" text-anchor="middle">310</text>
+  <text x="556" y="66" fill="#8a8a8a" text-anchor="middle">311</text>
+  <text x="608" y="66" fill="#8a8a8a" text-anchor="middle">222</text>
+  <text x="340" y="86" fill="#8a8a8a" font-style="italic" text-anchor="middle">reflection (hkl), in order of increasing angle &#8594;</text>
+
+  <!-- row guide lines -->
+  <line x1="120" y1="112" x2="628" y2="112" stroke="#8a8a8a" stroke-width="0.5"/>
+  <line x1="120" y1="158" x2="628" y2="158" stroke="#8a8a8a" stroke-width="0.5"/>
+  <line x1="120" y1="204" x2="628" y2="204" stroke="#8a8a8a" stroke-width="0.5"/>
+
+  <!-- row labels -->
+  <text x="40" y="117" fill="#8a8a8a">sc</text>
+  <text x="40" y="163" fill="#8a8a8a">bcc</text>
+  <text x="40" y="209" fill="#8a8a8a">fcc</text>
+
+  <!-- ===== sc row (y=112): all present ===== -->
+  <circle cx="140" cy="112" r="7" fill="#4a90d9"/>
+  <circle cx="192" cy="112" r="7" fill="#4a90d9"/>
+  <circle cx="244" cy="112" r="7" fill="#4a90d9"/>
+  <circle cx="296" cy="112" r="7" fill="#4a90d9"/>
+  <circle cx="348" cy="112" r="7" fill="#4a90d9"/>
+  <circle cx="400" cy="112" r="7" fill="#4a90d9"/>
+  <circle cx="452" cy="112" r="7" fill="#4a90d9"/>
+  <circle cx="504" cy="112" r="7" fill="#4a90d9"/>
+  <circle cx="556" cy="112" r="7" fill="#4a90d9"/>
+  <circle cx="608" cy="112" r="7" fill="#4a90d9"/>
+
+  <!-- ===== bcc row (y=158): present when h+k+l even ===== -->
+  <!-- 100 absent -->
+  <line x1="134" y1="152" x2="146" y2="164" stroke="#e0645c" stroke-width="2"/>
+  <line x1="134" y1="164" x2="146" y2="152" stroke="#e0645c" stroke-width="2"/>
+  <!-- 110 present -->
+  <circle cx="192" cy="158" r="7" fill="#4a90d9"/>
+  <!-- 111 absent -->
+  <line x1="238" y1="152" x2="250" y2="164" stroke="#e0645c" stroke-width="2"/>
+  <line x1="238" y1="164" x2="250" y2="152" stroke="#e0645c" stroke-width="2"/>
+  <!-- 200 present -->
+  <circle cx="296" cy="158" r="7" fill="#4a90d9"/>
+  <!-- 210 absent -->
+  <line x1="342" y1="152" x2="354" y2="164" stroke="#e0645c" stroke-width="2"/>
+  <line x1="342" y1="164" x2="354" y2="152" stroke="#e0645c" stroke-width="2"/>
+  <!-- 211 present -->
+  <circle cx="400" cy="158" r="7" fill="#4a90d9"/>
+  <!-- 220 present -->
+  <circle cx="452" cy="158" r="7" fill="#4a90d9"/>
+  <!-- 310 present -->
+  <circle cx="504" cy="158" r="7" fill="#4a90d9"/>
+  <!-- 311 absent -->
+  <line x1="550" y1="152" x2="562" y2="164" stroke="#e0645c" stroke-width="2"/>
+  <line x1="550" y1="164" x2="562" y2="152" stroke="#e0645c" stroke-width="2"/>
+  <!-- 222 present -->
+  <circle cx="608" cy="158" r="7" fill="#4a90d9"/>
+
+  <!-- ===== fcc row (y=204): present when h,k,l unmixed parity ===== -->
+  <!-- 100 absent -->
+  <line x1="134" y1="198" x2="146" y2="210" stroke="#e0645c" stroke-width="2"/>
+  <line x1="134" y1="210" x2="146" y2="198" stroke="#e0645c" stroke-width="2"/>
+  <!-- 110 absent -->
+  <line x1="186" y1="198" x2="198" y2="210" stroke="#e0645c" stroke-width="2"/>
+  <line x1="186" y1="210" x2="198" y2="198" stroke="#e0645c" stroke-width="2"/>
+  <!-- 111 present -->
+  <circle cx="244" cy="204" r="7" fill="#4a90d9"/>
+  <!-- 200 present -->
+  <circle cx="296" cy="204" r="7" fill="#4a90d9"/>
+  <!-- 210 absent -->
+  <line x1="342" y1="198" x2="354" y2="210" stroke="#e0645c" stroke-width="2"/>
+  <line x1="342" y1="210" x2="354" y2="198" stroke="#e0645c" stroke-width="2"/>
+  <!-- 211 absent -->
+  <line x1="394" y1="198" x2="406" y2="210" stroke="#e0645c" stroke-width="2"/>
+  <line x1="394" y1="210" x2="406" y2="198" stroke="#e0645c" stroke-width="2"/>
+  <!-- 220 present -->
+  <circle cx="452" cy="204" r="7" fill="#4a90d9"/>
+  <!-- 310 absent -->
+  <line x1="498" y1="198" x2="510" y2="210" stroke="#e0645c" stroke-width="2"/>
+  <line x1="498" y1="210" x2="510" y2="198" stroke="#e0645c" stroke-width="2"/>
+  <!-- 311 present -->
+  <circle cx="556" cy="204" r="7" fill="#4a90d9"/>
+  <!-- 222 present -->
+  <circle cx="608" cy="204" r="7" fill="#4a90d9"/>
+
+  <!-- legend -->
+  <circle cx="150" cy="244" r="7" fill="#4a90d9"/>
+  <text x="164" y="249" fill="#8a8a8a">present (S &#8800; 0)</text>
+  <line x1="304" y1="238" x2="316" y2="250" stroke="#e0645c" stroke-width="2"/>
+  <line x1="304" y1="250" x2="316" y2="238" stroke="#e0645c" stroke-width="2"/>
+  <text x="326" y="249" fill="#8a8a8a">absent (S = 0, systematic absence)</text>
+</svg>

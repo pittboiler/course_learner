@@ -1,0 +1,60 @@
+<svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">A boiling channel's demand curve bends into an N: one supply line, three operating points, the middle won't hold.</text>
+
+  <!-- unstable (negative-slope) band: between the local max and local min in G -->
+  <rect x="230" y="70" width="145" height="230" fill="#e0645c" opacity="0.09"/>
+  <text x="238" y="86" fill="#e0645c" font-size="12">d(&#916;p)/dG &#60; 0</text>
+
+  <!-- y axis -->
+  <line x1="90" y1="300" x2="90" y2="55" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="90,55 85,66 95,66" fill="#8a8a8a"/>
+  <text x="52" y="66" fill="#8a8a8a">&#916;p</text>
+  <text x="44" y="82" fill="#8a8a8a" font-size="12">channel</text>
+
+  <!-- x axis -->
+  <line x1="90" y1="300" x2="478" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="478,300 467,295 467,305" fill="#8a8a8a"/>
+  <text x="470" y="322" fill="#8a8a8a">G</text>
+  <text x="392" y="322" fill="#8a8a8a" font-size="12">mass flux (flow)</text>
+  <text x="80" y="316" fill="#8a8a8a" font-size="12">0</text>
+
+  <!-- channel demand curve: the N -->
+  <path d="M 110 255 L 140 200 L 175 150 L 205 100 L 230 88 L 260 103 L 285 135 L 300 150 L 325 180 L 355 208 L 375 215 L 400 175 L 415 150 L 440 110 L 460 85"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="450" y="76" fill="#4a90d9" font-size="12">demand &#916;p_ch(G)</text>
+
+  <!-- supply line: nearly constant delta p -->
+  <line x1="100" y1="150" x2="472" y2="150" stroke="#e0645c" stroke-width="2" stroke-dasharray="6 4"/>
+
+  <!-- excursion arrows from the unstable point out to the two stable points -->
+  <line x1="293" y1="164" x2="188" y2="164" stroke="#e0645c" stroke-width="1.25"/>
+  <polygon points="188,164 197,160 197,168" fill="#e0645c"/>
+  <line x1="307" y1="164" x2="405" y2="164" stroke="#e0645c" stroke-width="1.25"/>
+  <polygon points="405,164 396,160 396,168" fill="#e0645c"/>
+  <text x="222" y="184" fill="#e0645c" font-size="12">flow excursion</text>
+
+  <!-- intersection markers -->
+  <circle cx="175" cy="150" r="5" fill="#4a90d9"/>
+  <circle cx="300" cy="150" r="5.5" fill="#e0645c"/>
+  <circle cx="415" cy="150" r="5" fill="#4a90d9"/>
+  <text x="150" y="140" fill="#4a90d9" font-size="12">stable</text>
+  <text x="288" y="130" fill="#e0645c" font-size="12">unstable</text>
+  <text x="405" y="140" fill="#4a90d9" font-size="12">stable</text>
+
+  <!-- branch physics notes -->
+  <text x="108" y="278" fill="#8a8a8a" font-size="12">low G: more boiling</text>
+  <text x="108" y="292" fill="#8a8a8a" font-size="12">&#8594; higher two-phase &#916;p</text>
+  <text x="418" y="292" fill="#8a8a8a" font-size="12">high G: liquid</text>
+
+  <!-- legend, right column -->
+  <circle cx="500" cy="112" r="5" fill="#4a90d9"/>
+  <text x="514" y="116" fill="#8a8a8a" font-size="12">stable: slope &#62; 0</text>
+  <circle cx="500" cy="140" r="5" fill="#e0645c"/>
+  <text x="514" y="144" fill="#8a8a8a" font-size="12">unstable: slope &#60; 0</text>
+  <line x1="490" y1="168" x2="512" y2="168" stroke="#e0645c" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="514" y="172" fill="#8a8a8a" font-size="12">supply (const. &#916;p)</text>
+  <text x="490" y="204" fill="#8a8a8a" font-size="12">Ledinegg unstable</text>
+  <text x="490" y="220" fill="#8a8a8a" font-size="12">where channel slope</text>
+  <text x="490" y="236" fill="#8a8a8a" font-size="12">&#60; supply slope</text>
+</svg>

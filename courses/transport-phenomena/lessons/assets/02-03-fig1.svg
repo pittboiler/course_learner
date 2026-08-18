@@ -1,0 +1,35 @@
+<svg viewBox="0 0 660 410" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="30" y="26" fill="#8a8a8a" font-style="italic">Mass streams through the faces of a fixed box; whatever fails to leave has to pile up inside.</text>
+
+  <!-- control volume box -->
+  <rect x="230" y="120" width="180" height="180" fill="none" stroke="#8a8a8a" stroke-width="1.6"/>
+  <text x="320" y="200" fill="#8a8a8a" text-anchor="middle" font-size="15">&#8706;&#961;/&#8706;t</text>
+  <text x="320" y="222" fill="#8a8a8a" text-anchor="middle" font-size="12">accumulation</text>
+  <text x="320" y="238" fill="#8a8a8a" text-anchor="middle" font-size="12">per volume</text>
+
+  <!-- box dimension labels -->
+  <text x="248" y="138" fill="#8a8a8a" font-size="12">&#916;x &#183; &#916;y</text>
+
+  <!-- LEFT face: mass flux in (blue) -->
+  <line x1="150" y1="210" x2="220" y2="210" stroke="#4a90d9" stroke-width="3"/>
+  <polygon points="230,210 220,204 220,216" fill="#4a90d9"/>
+  <text x="150" y="196" fill="#4a90d9" font-size="13">(&#961;v<tspan font-size="10" dy="4">x</tspan><tspan dy="-4">)</tspan> in</text>
+
+  <!-- RIGHT face: mass flux out (coral) -->
+  <line x1="410" y1="210" x2="488" y2="210" stroke="#e0645c" stroke-width="3"/>
+  <polygon points="498,210 488,204 488,216" fill="#e0645c"/>
+  <text x="498" y="196" fill="#e0645c" font-size="13">(&#961;v<tspan font-size="10" dy="4">x</tspan><tspan dy="-4">)</tspan> out</text>
+
+  <!-- BOTTOM face: mass flux in (blue) -->
+  <line x1="320" y1="362" x2="320" y2="312" stroke="#4a90d9" stroke-width="3"/>
+  <polygon points="320,302 314,312 326,312" fill="#4a90d9"/>
+  <text x="320" y="380" fill="#4a90d9" text-anchor="middle" font-size="13">(&#961;v<tspan font-size="10" dy="4">y</tspan><tspan dy="-4">)</tspan> in</text>
+
+  <!-- TOP face: mass flux out (coral) -->
+  <line x1="320" y1="118" x2="320" y2="62" stroke="#e0645c" stroke-width="3"/>
+  <polygon points="320,52 314,62 326,62" fill="#e0645c"/>
+  <text x="320" y="46" fill="#e0645c" text-anchor="middle" font-size="13">(&#961;v<tspan font-size="10" dy="4">y</tspan><tspan dy="-4">)</tspan> out</text>
+
+  <!-- bookkeeping equation -->
+  <text x="330" y="403" fill="#8a8a8a" text-anchor="middle" font-size="13">net outflow  =  &#8722;(accumulation)   &#8594;   &#8706;&#961;/&#8706;t + &#8711;&#183;(&#961;v) = 0</text>
+</svg>

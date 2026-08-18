@@ -1,0 +1,32 @@
+<svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="60" y="24" fill="#8a8a8a" font-style="italic">Rate saturates: v climbs steeply, then flattens toward V&#8203;max. K&#8203;m is the [S] that gets you halfway.</text>
+
+  <!-- axes -->
+  <line x1="70" y1="270" x2="490" y2="270" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="490,270 480,265 480,275" fill="#8a8a8a"/>
+  <text x="470" y="292" fill="#8a8a8a">[S]</text>
+  <line x1="70" y1="270" x2="70" y2="60" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,60 65,70 75,70" fill="#8a8a8a"/>
+  <text x="58" y="72" fill="#8a8a8a">v</text>
+  <text x="55" y="286" fill="#8a8a8a">0</text>
+
+  <!-- Vmax asymptote -->
+  <line x1="70" y1="70" x2="490" y2="70" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="76" y="64" fill="#8a8a8a">V&#8203;max (asymptote)</text>
+
+  <!-- the hyperbola v = Vmax S/(Km+S), Km at S=2 -->
+  <path d="M 70 270 L 86.7 230 L 103.3 203.3 L 120 184.3 L 136.7 170 L 170 150 L 203.3 136.7 L 236.7 127.1 L 270 120 L 336.7 110 L 403.3 103.3 L 470 98.6"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- half-max markers -->
+  <line x1="70" y1="170" x2="136.7" y2="170" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <line x1="136.7" y1="170" x2="136.7" y2="270" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <circle cx="136.7" cy="170" r="4" fill="#e0645c"/>
+  <text x="14" y="174" fill="#e0645c">&#189;V&#8203;max</text>
+  <text x="122" y="288" fill="#e0645c">K&#8203;m</text>
+
+  <!-- first-order vs zero-order labels -->
+  <text x="95" y="250" fill="#8a8a8a" font-size="12">v &#8776; (V&#8203;max/K&#8203;m)[S]</text>
+  <text x="330" y="130" fill="#8a8a8a" font-size="12">v &#8776; V&#8203;max</text>
+</svg>

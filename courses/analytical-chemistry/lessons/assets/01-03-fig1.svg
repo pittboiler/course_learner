@@ -1,0 +1,45 @@
+<svg viewBox="0 0 620 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Contributions add in quadrature, so the tallest bar wins — the combined result ≈ the dominant term (volume).</text>
+
+  <!-- y-axis -->
+  <line x1="80" y1="60" x2="80" y2="270" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="80,60 75,70 85,70" fill="#8a8a8a"/>
+  <text x="18" y="66" fill="#8a8a8a">rel.</text>
+  <text x="18" y="82" fill="#8a8a8a">unc.</text>
+
+  <!-- x-axis (baseline) -->
+  <line x1="80" y1="270" x2="590" y2="270" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- gridline at 0.5% -->
+  <line x1="80" y1="70" x2="590" y2="70" stroke="#8a8a8a" stroke-width="0.75" stroke-dasharray="3 4"/>
+  <text x="40" y="74" fill="#8a8a8a">0.5%</text>
+  <line x1="80" y1="170" x2="590" y2="170" stroke="#8a8a8a" stroke-width="0.75" stroke-dasharray="3 4"/>
+  <text x="40" y="174" fill="#8a8a8a">0.25%</text>
+
+  <!-- bars: baseline y=270, 0.5% -> 200px tall (top at y=70) -->
+
+  <!-- mass: 0.017% -> ~7px -->
+  <rect x="120" y="263" width="70" height="7" fill="#8a8a8a" opacity="0.35" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="128" y="288" fill="#8a8a8a">mass</text>
+  <text x="122" y="304" fill="#8a8a8a">0.017%</text>
+
+  <!-- molar mass: 0.017% -> ~7px -->
+  <rect x="220" y="263" width="70" height="7" fill="#8a8a8a" opacity="0.35" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="222" y="288" fill="#8a8a8a">molar M</text>
+  <text x="222" y="304" fill="#8a8a8a">0.017%</text>
+
+  <!-- volume: 0.50% -> 200px (dominant, coral) -->
+  <rect x="320" y="70" width="70" height="200" fill="#e0645c" opacity="0.30" stroke="#e0645c" stroke-width="2"/>
+  <text x="322" y="288" fill="#e0645c">volume</text>
+  <text x="330" y="304" fill="#e0645c">0.50%</text>
+  <text x="323" y="62" fill="#e0645c">dominant</text>
+
+  <!-- combined: 0.501% -> ~200px (blue) -->
+  <rect x="470" y="69" width="70" height="201" fill="#4a90d9" opacity="0.30" stroke="#4a90d9" stroke-width="2"/>
+  <text x="466" y="288" fill="#4a90d9">combined</text>
+  <text x="480" y="304" fill="#4a90d9">0.50%</text>
+
+  <!-- brace-ish arrow: small bars barely register -->
+  <text x="150" y="250" fill="#8a8a8a" font-style="italic" text-anchor="middle">negligible</text>
+</svg>

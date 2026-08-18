@@ -1,0 +1,66 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Even the empty rung |0&#10217; sits &#189;&#8463;&#969; above zero; a Fock state |n&#10217; has a sharp radius but no phase.</text>
+
+  <!-- ===== left: energy ladder ===== -->
+
+  <!-- energy axis -->
+  <line x1="95" y1="310" x2="95" y2="110" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="95,110 90,120 100,120" fill="#8a8a8a"/>
+  <text x="70" y="118" fill="#8a8a8a">E</text>
+
+  <!-- true zero of energy -->
+  <line x1="45" y1="300" x2="250" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="20" y="305" fill="#8a8a8a">0</text>
+
+  <!-- rungs: E_n = hw(n + 1/2), spacing hw = 40px, half = 20px -->
+  <!-- |0>  y=280 -->
+  <line x1="105" y1="280" x2="235" y2="280" stroke="#8a8a8a" stroke-width="2.5"/>
+  <text x="242" y="285" fill="#8a8a8a">|0&#10217;</text>
+  <!-- |1>  y=240 -->
+  <line x1="105" y1="240" x2="235" y2="240" stroke="#8a8a8a" stroke-width="2.5"/>
+  <text x="242" y="245" fill="#8a8a8a">|1&#10217;</text>
+  <!-- |2>  y=200 -->
+  <line x1="105" y1="200" x2="235" y2="200" stroke="#8a8a8a" stroke-width="2.5"/>
+  <text x="242" y="205" fill="#8a8a8a">|2&#10217;</text>
+  <!-- |3>  y=160 -->
+  <line x1="105" y1="160" x2="235" y2="160" stroke="#8a8a8a" stroke-width="2.5"/>
+  <text x="242" y="165" fill="#8a8a8a">|3&#10217;</text>
+  <!-- dots -->
+  <text x="165" y="140" fill="#8a8a8a">&#8942;</text>
+
+  <!-- even spacing marker: one rung gap = hw -->
+  <line x1="88" y1="240" x2="88" y2="200" stroke="#4a90d9" stroke-width="1.5"/>
+  <polygon points="88,200 84,209 92,209" fill="#4a90d9"/>
+  <polygon points="88,240 84,231 92,231" fill="#4a90d9"/>
+  <text x="52" y="224" fill="#4a90d9">&#8463;&#969;</text>
+
+  <!-- zero-point bracket: 0 -> |0>, height = 1/2 hw -->
+  <path d="M 268 300 L 276 300 L 276 280 L 268 280" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <text x="284" y="295" fill="#e0645c">&#189;&#8463;&#969;</text>
+  <text x="284" y="311" fill="#e0645c" font-size="12">(zero-point)</text>
+
+  <!-- ===== right: phase-space ring for |n> ===== -->
+
+  <!-- quadrature axes -->
+  <line x1="400" y1="215" x2="560" y2="215" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="560,215 550,210 550,220" fill="#8a8a8a"/>
+  <text x="565" y="220" fill="#8a8a8a">X</text>
+  <line x1="480" y1="290" x2="480" y2="135" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="480,135 475,145 485,145" fill="#8a8a8a"/>
+  <text x="486" y="145" fill="#8a8a8a">P</text>
+
+  <!-- the ring: definite radius (blue), all phases equally likely -->
+  <circle cx="480" cy="215" r="58" fill="#4a90d9" opacity="0.12" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <!-- radius arrow (sqrt of n+1/2-ish, drawn to the ring) -->
+  <line x1="480" y1="215" x2="521" y2="174" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="521,174 511,176 519,184" fill="#e0645c"/>
+  <text x="524" y="170" fill="#e0645c" font-size="12">&#8730;(n+&#189;)</text>
+
+  <!-- random-phase indicators around the ring -->
+  <path d="M 505 165 A 40 40 0 0 1 538 197" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 3"/>
+  <polygon points="505,165 508,173 514,166" fill="#8a8a8a"/>
+  <polygon points="538,197 531,193 533,201" fill="#8a8a8a"/>
+  <text x="470" y="310" fill="#8a8a8a" font-size="12">definite radius, random phase</text>
+</svg>

@@ -1,0 +1,65 @@
+<svg viewBox="0 0 660 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="20" fill="#8a8a8a" font-style="italic">Collisionless flow: f is carried unchanged along phase-space trajectories — and the fields that steer them are made by f itself.</text>
+
+  <!-- ===== left: 1D phase space (x, v) with flow trajectories ===== -->
+
+  <!-- axes -->
+  <line x1="55" y1="180" x2="330" y2="180" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="330,180 320,175 320,185" fill="#8a8a8a"/>
+  <text x="334" y="185" fill="#8a8a8a">x</text>
+  <line x1="70" y1="278" x2="70" y2="66" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,66 65,76 75,76" fill="#8a8a8a"/>
+  <text x="60" y="64" fill="#8a8a8a">v</text>
+
+  <!-- trajectory curves (level sets of the constant of motion): f = const along each -->
+  <ellipse cx="190" cy="180" rx="40" ry="28" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <ellipse cx="190" cy="180" rx="78" ry="52" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <ellipse cx="190" cy="180" rx="112" ry="74" fill="none" stroke="#4a90d9" stroke-width="2"/>
+
+  <!-- flow-direction arrowheads at the top of each curve (clockwise: +x at top) -->
+  <polygon points="196,152 186,147 186,157" fill="#4a90d9"/>
+  <polygon points="196,128 186,123 186,133" fill="#4a90d9"/>
+  <polygon points="196,106 186,101 186,111" fill="#4a90d9"/>
+
+  <!-- a phase-space fluid element carried along the middle trajectory -->
+  <circle cx="245" cy="143" r="4.5" fill="#e0645c"/>
+  <circle cx="255" cy="216" r="4.5" fill="#e0645c" opacity="0.45"/>
+  <text x="252" y="138" fill="#e0645c" font-size="12">f element</text>
+
+  <text x="120" y="272" fill="#8a8a8a" font-style="italic" font-size="12">trajectories: f = const</text>
+
+  <!-- ===== right: self-consistency feedback loop (coral) ===== -->
+
+  <!-- box: f -->
+  <rect x="450" y="62" width="96" height="40" rx="4" fill="#e0645c" opacity="0.15"/>
+  <rect x="450" y="62" width="96" height="40" rx="4" fill="none" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="498" y="87" fill="#e0645c" text-anchor="middle">f(x, v, t)</text>
+
+  <!-- box: rho, J -->
+  <rect x="540" y="212" width="96" height="44" rx="4" fill="#e0645c" opacity="0.15"/>
+  <rect x="540" y="212" width="96" height="44" rx="4" fill="none" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="588" y="231" fill="#e0645c" text-anchor="middle">ρ, J</text>
+  <text x="588" y="248" fill="#8a8a8a" text-anchor="middle" font-size="11">charge, current</text>
+
+  <!-- box: E, B -->
+  <rect x="360" y="212" width="96" height="44" rx="4" fill="#e0645c" opacity="0.15"/>
+  <rect x="360" y="212" width="96" height="44" rx="4" fill="none" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="408" y="231" fill="#e0645c" text-anchor="middle">E, B</text>
+  <text x="408" y="248" fill="#8a8a8a" text-anchor="middle" font-size="11">self-fields</text>
+
+  <!-- arrow f -> rho,J -->
+  <line x1="542" y1="104" x2="580" y2="206" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="580,206 571,198 581,194" fill="#e0645c"/>
+  <text x="556" y="150" fill="#8a8a8a" font-style="italic" font-size="12">moments</text>
+
+  <!-- arrow rho,J -> E,B -->
+  <line x1="536" y1="233" x2="460" y2="233" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="460,233 470,228 470,238" fill="#e0645c"/>
+  <text x="498" y="227" fill="#8a8a8a" font-style="italic" font-size="12" text-anchor="middle">Maxwell</text>
+
+  <!-- arrow E,B -> f -->
+  <line x1="408" y1="208" x2="448" y2="106" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="448,106 439,114 449,118" fill="#e0645c"/>
+  <text x="404" y="150" fill="#8a8a8a" font-style="italic" font-size="12" text-anchor="end">force</text>
+</svg>

@@ -1,0 +1,58 @@
+<svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <!-- caption -->
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">A 14 MeV neutron (80&#37; of D-T energy) enters the blanket: heat, breed, multiply.</text>
+
+  <!-- ===== plasma side (left) ===== -->
+  <text x="30" y="118" fill="#4a90d9">plasma</text>
+  <text x="30" y="164" fill="#e0645c">&#945; (3.5 MeV)</text>
+  <text x="30" y="180" fill="#e0645c">stays &#38; heats</text>
+
+  <!-- 14 MeV neutron arrow into the wall -->
+  <text x="30" y="78" fill="#4a90d9">14.1 MeV neutron</text>
+  <line x1="24" y1="92" x2="148" y2="92" stroke="#4a90d9" stroke-width="3"/>
+  <polygon points="148,92 138,87 138,97" fill="#4a90d9"/>
+
+  <!-- first wall -->
+  <rect x="150" y="62" width="12" height="238" fill="#8a8a8a" opacity="0.25" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="118" y="320" fill="#8a8a8a">first wall</text>
+
+  <!-- ===== blanket box ===== -->
+  <rect x="170" y="62" width="330" height="238" fill="#8a8a8a" opacity="0.10" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="182" y="82" fill="#8a8a8a">BLANKET &#8212; steel / SiC structure</text>
+
+  <!-- multiplier block -->
+  <rect x="188" y="98" width="118" height="52" fill="none" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="198" y="120" fill="#4a90d9">&#8313;Be / Pb (n,2n)</text>
+  <text x="198" y="138" fill="#4a90d9">1 n &#8594; 2 n</text>
+
+  <!-- neutron from wall into multiplier -->
+  <line x1="162" y1="110" x2="188" y2="116" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="188,116 178,112 180,122" fill="#4a90d9"/>
+
+  <!-- two neutrons fan out to breeding block -->
+  <line x1="306" y1="116" x2="352" y2="166" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="352,166 342,162 346,155" fill="#4a90d9"/>
+  <line x1="306" y1="130" x2="352" y2="194" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="352,194 346,185 342,192" fill="#4a90d9"/>
+
+  <!-- breeding block -->
+  <rect x="352" y="156" width="132" height="70" fill="#e0645c" opacity="0.14" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="362" y="180" fill="#e0645c">&#8310;Li(n,&#945;)&#179;H</text>
+  <text x="362" y="198" fill="#e0645c">exothermic:</text>
+  <text x="362" y="214" fill="#e0645c">breeds T + heat</text>
+
+  <!-- outputs: heat and tritium -->
+  <line x1="484" y1="178" x2="600" y2="140" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="600,140 589,141 594,150" fill="#e0645c"/>
+  <text x="508" y="128" fill="#e0645c">heat &#8594; turbine</text>
+
+  <line x1="484" y1="206" x2="600" y2="240" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="600,240 589,233 588,243" fill="#e0645c"/>
+  <text x="508" y="262" fill="#e0645c">&#179;H &#8594; fuel</text>
+
+  <!-- energy multiplication note -->
+  <text x="188" y="252" fill="#e0645c">Energy multiplication M &#8776; 1.2 (heat &#62; n in).</text>
+  <!-- activation note -->
+  <text x="188" y="274" fill="#8a8a8a">Activation: neutrons transmute steel</text>
+  <text x="188" y="290" fill="#8a8a8a">&#8594; radio-isotopes; dpa damages wall.</text>
+</svg>

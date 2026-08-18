@@ -1,0 +1,31 @@
+<svg viewBox="0 0 600 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Rotation curves stay flat where they should fall &#8212; the gap is unseen mass.</text>
+
+  <!-- axes -->
+  <line x1="60" y1="250" x2="565" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="565,250 555,245 555,255" fill="#8a8a8a"/>
+  <text x="470" y="272" fill="#8a8a8a">radius r</text>
+  <line x1="60" y1="250" x2="60" y2="55" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="60,55 55,65 65,65" fill="#8a8a8a"/>
+  <text x="18" y="120" fill="#8a8a8a" transform="rotate(-90 18 120)">orbital velocity v(r)</text>
+
+  <!-- gap shading: between observed (flat) and Keplerian -->
+  <path d="M 160 120 L 540 120 L 540 190.7 L 430 182.4 L 360 174.9 L 300 166.1 L 250 155.7 L 210 143.9 L 180 131.3 Z"
+        fill="#4a90d9" opacity="0.10"/>
+  <text x="322" y="150" fill="#8a8a8a">dark-matter halo</text>
+
+  <!-- edge of visible disk -->
+  <line x1="160" y1="120" x2="160" y2="250" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="96" y="242" fill="#8a8a8a" font-size="12">edge of visible disk</text>
+
+  <!-- observed: rise then flat (blue) -->
+  <path d="M 60 250 L 160 120 L 540 120" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="400" y="112" fill="#4a90d9">observed (flat)</text>
+
+  <!-- Keplerian expected from visible matter (coral dashed) -->
+  <path d="M 160 120 L 180 131.3 L 210 143.9 L 250 155.7 L 300 166.1 L 360 174.9 L 430 182.4 L 540 190.7"
+        fill="none" stroke="#e0645c" stroke-width="2.5" stroke-dasharray="7 5"/>
+  <text x="392" y="207" fill="#e0645c">expected: v &#8733; r</text>
+  <text x="470" y="202" fill="#e0645c" font-size="11">&#8722;1/2</text>
+</svg>

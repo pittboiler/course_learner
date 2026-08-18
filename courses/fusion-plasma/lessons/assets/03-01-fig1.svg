@@ -1,0 +1,46 @@
+<svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Ohmic heating (blue, &#8733; T&#8722;3/2) sinks as the plasma heats; it crosses the loss line at a ceiling near 1 keV &#8212; far below ignition.</text>
+
+  <!-- ===== axes ===== -->
+  <line x1="70" y1="300" x2="612" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="612,300 602,295 602,305" fill="#8a8a8a"/>
+  <text x="470" y="345" fill="#8a8a8a">plasma temperature T (keV)</text>
+  <line x1="70" y1="305" x2="70" y2="45" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,45 65,55 75,55" fill="#8a8a8a"/>
+  <text x="80" y="52" fill="#8a8a8a">power density</text>
+
+  <!-- x ticks: T = 1, 5, 10, 15 keV -->
+  <line x1="105" y1="300" x2="105" y2="305" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="99" y="318" fill="#8a8a8a">1</text>
+  <line x1="247" y1="300" x2="247" y2="305" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="241" y="318" fill="#8a8a8a">5</text>
+  <line x1="423" y1="300" x2="423" y2="305" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="414" y="318" fill="#8a8a8a">10</text>
+  <line x1="600" y1="300" x2="600" y2="305" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="591" y="318" fill="#8a8a8a">15</text>
+
+  <!-- ===== loss line: P &#8733; T (grey) ===== -->
+  <line x1="70" y1="300" x2="317" y2="50" stroke="#8a8a8a" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="238" y="86" fill="#8a8a8a">loss  W / &#964;E</text>
+
+  <!-- ===== ohmic heating curve: P &#8733; T&#8722;3/2 (blue) ===== -->
+  <path d="M 84.1 158.8 L 87.7 199.0 L 91.2 223.1 L 94.7 239.0 L 100.0 254.4 L 105.3 264.3 L 114.2 274.4 L 123.0 280.6 L 140.7 287.4 L 158.3 291.0 L 193.7 294.5 L 246.7 296.8 L 299.7 297.8"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="150" y="255" fill="#4a90d9">ohmic  P&#937; &#8733; &#951; j&#178; &#8733; T&#8722;3/2</text>
+
+  <!-- ===== ceiling: the crossing (coral) ===== -->
+  <circle cx="105.3" cy="264.3" r="4.5" fill="#e0645c"/>
+  <line x1="105.3" y1="264.3" x2="130" y2="235" stroke="#e0645c" stroke-width="1"/>
+  <text x="120" y="230" fill="#e0645c">ohmic ceiling &#8776; 1&#8211;2 keV</text>
+
+  <!-- ===== ignition line (coral) ===== -->
+  <line x1="494" y1="300" x2="494" y2="70" stroke="#e0645c" stroke-width="2" stroke-dasharray="5 4"/>
+  <text x="440" y="62" fill="#e0645c">ignition T &#8776; 10&#8211;15 keV</text>
+
+  <!-- ===== the gap auxiliary heating must close (grey arrow) ===== -->
+  <line x1="112" y1="120" x2="487" y2="120" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="487,120 478,116 478,124" fill="#8a8a8a"/>
+  <polygon points="112,120 121,116 121,124" fill="#8a8a8a"/>
+  <text x="205" y="112" fill="#8a8a8a">the gap NBI / RF must close</text>
+</svg>

@@ -1,0 +1,52 @@
+<svg viewBox="0 0 480 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <defs>
+    <marker id="load1" markerWidth="10" markerHeight="10" refX="5" refY="8" orient="auto">
+      <polygon points="5,10 1,2 9,2" fill="#e0645c"/>
+    </marker>
+  </defs>
+
+  <!-- caption -->
+  <text x="24" y="24" fill="#8a8a8a" font-style="italic">Blue = members; coral = the applied load. T/C mark the tension/compression results.</text>
+
+  <!-- members -->
+  <line x1="80" y1="210" x2="240" y2="210" stroke="#4a90d9" stroke-width="3"/>
+  <line x1="240" y1="210" x2="400" y2="210" stroke="#4a90d9" stroke-width="3"/>
+  <line x1="80" y1="210" x2="240" y2="90" stroke="#4a90d9" stroke-width="3"/>
+  <line x1="240" y1="90" x2="400" y2="210" stroke="#4a90d9" stroke-width="3"/>
+  <line x1="240" y1="210" x2="240" y2="90" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- joints -->
+  <circle cx="80" cy="210" r="4" fill="#4a90d9"/>
+  <circle cx="240" cy="210" r="4" fill="#4a90d9"/>
+  <circle cx="400" cy="210" r="4" fill="#4a90d9"/>
+  <circle cx="240" cy="90" r="4" fill="#4a90d9"/>
+
+  <!-- joint labels -->
+  <text x="62" y="206" fill="#8a8a8a">A</text>
+  <text x="220" y="230" fill="#8a8a8a">B</text>
+  <text x="408" y="206" fill="#8a8a8a">C</text>
+  <text x="248" y="86" fill="#8a8a8a">D</text>
+
+  <!-- pin support at A -->
+  <polygon points="80,210 66,234 94,234" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="64" y1="234" x2="96" y2="234" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="66" y1="234" x2="60" y2="242" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="74" y1="234" x2="68" y2="242" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="82" y1="234" x2="76" y2="242" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="90" y1="234" x2="84" y2="242" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- roller support at C -->
+  <polygon points="400,210 386,232 414,232" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <circle cx="391" cy="237" r="4" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <circle cx="409" cy="237" r="4" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="382" y1="242" x2="418" y2="242" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- applied load at B -->
+  <line x1="240" y1="212" x2="240" y2="266" stroke="#e0645c" stroke-width="2" marker-end="url(#load1)"/>
+  <text x="250" y="256" fill="#e0645c">P&#160;=&#160;12&#160;kN</text>
+
+  <!-- T/C tags -->
+  <text x="150" y="168" fill="#e0645c">C</text>
+  <text x="150" y="200" fill="#e0645c">T</text>
+  <text x="250" y="156" fill="#e0645c">T</text>
+</svg>

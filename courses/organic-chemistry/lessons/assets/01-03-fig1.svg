@@ -1,0 +1,77 @@
+<svg viewBox="0 0 640 470" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">The pKa ladder: lower on the scale = stronger acid = more stable conjugate base. Coral flags the stabilizing feature.</text>
+
+  <!-- direction labels -->
+  <text x="40" y="52" fill="#4a90d9">&#8593; stronger acid (lower pKa, more stable conjugate base)</text>
+
+  <!-- vertical pKa axis -->
+  <line x1="120" y1="60" x2="120" y2="442" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="120,60 115,72 125,72" fill="#8a8a8a"/>
+  <text x="96" y="68" fill="#8a8a8a" text-anchor="end">pKa</text>
+
+  <!-- ticks + pKa values (text-anchor end) -->
+  <!-- HCl -->
+  <line x1="112" y1="70" x2="120" y2="70" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="108" y="74" fill="#8a8a8a" text-anchor="end">-7</text>
+  <circle cx="120" cy="70" r="5" fill="#4a90d9"/>
+  <text x="134" y="74" fill="#4a90d9">HCl</text>
+
+  <!-- H3O+ -->
+  <line x1="112" y1="103.5" x2="120" y2="103.5" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="108" y="107.5" fill="#8a8a8a" text-anchor="end">-1.7</text>
+  <circle cx="120" cy="103.5" r="5" fill="#4a90d9"/>
+  <text x="134" y="107.5" fill="#4a90d9">H&#8323;O&#8314;</text>
+
+  <!-- carboxylic acid -->
+  <line x1="112" y1="144.5" x2="120" y2="144.5" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="108" y="148.5" fill="#8a8a8a" text-anchor="end">~4.8</text>
+  <circle cx="120" cy="144.5" r="5" fill="#4a90d9"/>
+  <text x="134" y="148.5" fill="#4a90d9">CH&#8323;COOH  (carboxylic acid)</text>
+  <text x="400" y="148.5" fill="#e0645c" font-style="italic">R: resonance, two equal O</text>
+
+  <!-- phenol -->
+  <line x1="112" y1="177.4" x2="120" y2="177.4" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="108" y="181.4" fill="#8a8a8a" text-anchor="end">~10</text>
+  <circle cx="120" cy="177.4" r="5" fill="#4a90d9"/>
+  <text x="134" y="181.4" fill="#4a90d9">phenol  PhOH</text>
+  <text x="400" y="181.4" fill="#e0645c" font-style="italic">R: charge into the ring</text>
+
+  <!-- water -->
+  <line x1="112" y1="213.4" x2="120" y2="213.4" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="108" y="217.4" fill="#8a8a8a" text-anchor="end">15.7</text>
+  <circle cx="120" cy="213.4" r="5" fill="#4a90d9"/>
+  <text x="134" y="217.4" fill="#4a90d9">H&#8322;O   (alcohol ROH ~16-18)</text>
+
+  <!-- ketone alpha-H -->
+  <line x1="112" y1="240.5" x2="120" y2="240.5" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="108" y="244.5" fill="#8a8a8a" text-anchor="end">~20</text>
+  <circle cx="120" cy="240.5" r="5" fill="#4a90d9"/>
+  <text x="134" y="244.5" fill="#4a90d9">ketone &#945;-C&#8211;H</text>
+  <text x="400" y="244.5" fill="#e0645c" font-style="italic">R: enolate onto O</text>
+
+  <!-- terminal alkyne -->
+  <line x1="112" y1="272.1" x2="120" y2="272.1" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="108" y="276.1" fill="#8a8a8a" text-anchor="end">25</text>
+  <circle cx="120" cy="272.1" r="5" fill="#4a90d9"/>
+  <text x="134" y="276.1" fill="#4a90d9">HC&#8801;CH  (terminal alkyne)</text>
+  <text x="400" y="276.1" fill="#e0645c" font-style="italic">O: sp carbon, high s-character</text>
+
+  <!-- amine -->
+  <line x1="112" y1="354.2" x2="120" y2="354.2" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="108" y="358.2" fill="#8a8a8a" text-anchor="end">~38</text>
+  <circle cx="120" cy="354.2" r="5" fill="#4a90d9"/>
+  <text x="134" y="358.2" fill="#4a90d9">R&#8322;N&#8211;H  (amine)</text>
+
+  <!-- alkane -->
+  <line x1="112" y1="430" x2="120" y2="430" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="108" y="434" fill="#8a8a8a" text-anchor="end">~50</text>
+  <circle cx="120" cy="430" r="5" fill="#4a90d9"/>
+  <text x="134" y="434" fill="#4a90d9">CH&#8323;CH&#8323;  (alkane)</text>
+  <text x="400" y="434" fill="#8a8a8a" font-style="italic">nothing stabilizes the carbanion</text>
+
+  <!-- coral direction bar on the right -->
+  <line x1="618" y1="430" x2="618" y2="72" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="618,62 613,74 623,74" fill="#e0645c"/>
+  <text x="632" y="270" fill="#e0645c" transform="rotate(-90 632 270)" text-anchor="middle">conjugate base more stable</text>
+</svg>

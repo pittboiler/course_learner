@@ -1,0 +1,37 @@
+<svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">A neutron falls to thermal in a staircase of elastic collisions &#8212; on a log-energy axis each step is about the same size (&#8776; &#958;).</text>
+
+  <!-- y axis (energy, log) -->
+  <line x1="70" y1="60" x2="70" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,60 65,70 75,70" fill="#8a8a8a"/>
+  <text x="18" y="66" fill="#8a8a8a">E&#8320; = 2 MeV</text>
+  <text x="16" y="160" fill="#8a8a8a" transform="rotate(-90 16 160)">energy (log scale)</text>
+
+  <!-- x axis (collisions) -->
+  <line x1="70" y1="250" x2="490" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="490,250 480,245 480,255" fill="#8a8a8a"/>
+  <text x="360" y="278" fill="#8a8a8a">collision number &#8594;</text>
+
+  <!-- staircase -->
+  <path d="M 85 70 L 110 70 L 110 95.7 L 160 95.7 L 160 121.4 L 210 121.4 L 210 147.1 L 260 147.1 L 260 172.9 L 310 172.9 L 310 198.6 L 360 198.6 L 360 224.3 L 410 224.3 L 410 250 L 460 250"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- collision dots -->
+  <circle cx="110" cy="95.7" r="3.5" fill="#4a90d9"/>
+  <circle cx="160" cy="121.4" r="3.5" fill="#4a90d9"/>
+  <circle cx="210" cy="147.1" r="3.5" fill="#4a90d9"/>
+  <circle cx="260" cy="172.9" r="3.5" fill="#4a90d9"/>
+  <circle cx="310" cy="198.6" r="3.5" fill="#4a90d9"/>
+  <circle cx="360" cy="224.3" r="3.5" fill="#4a90d9"/>
+
+  <!-- one step height marked as xi -->
+  <line x1="278" y1="147.1" x2="278" y2="172.9" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="278,147.1 274,156 282,156" fill="#e0645c"/>
+  <polygon points="278,172.9 274,164 282,164" fill="#e0645c"/>
+  <text x="286" y="164" fill="#e0645c">&#8776; &#958;</text>
+
+  <!-- thermal line -->
+  <line x1="70" y1="250" x2="480" y2="250" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="330" y="244" fill="#e0645c">thermal &#8776; 0.025 eV</text>
+</svg>

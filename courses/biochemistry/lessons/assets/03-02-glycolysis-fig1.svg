@@ -1,0 +1,50 @@
+<svg viewBox="0 0 660 500" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Spend 2 ATP to prime one C6 sugar, split it into two C3 units, then cash in 4 ATP + 2 NADH.</text>
+
+  <!-- phase labels (rotated, far left) -->
+  <text x="26" y="180" fill="#8a8a8a" transform="rotate(-90 26 180)" text-anchor="middle">INVESTMENT (spend)</text>
+  <text x="26" y="400" fill="#8a8a8a" transform="rotate(-90 26 400)" text-anchor="middle">PAYOFF (earn, &#215;2)</text>
+  <line x1="44" y1="46" x2="44" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="44" y1="312" x2="44" y2="474" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- Box 1: glucose -->
+  <rect x="90" y="46" width="240" height="42" rx="6" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <text x="210" y="72" fill="#4a90d9" text-anchor="middle">Glucose (6 C)</text>
+
+  <!-- arrow 1 + investment label -->
+  <line x1="210" y1="88" x2="210" y2="128" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="210,132 204,122 216,122" fill="#8a8a8a"/>
+  <text x="342" y="106" fill="#e0645c">&#8722;2 ATP (hexokinase, PFK-1)</text>
+
+  <!-- Box 2: F16BP -->
+  <rect x="90" y="134" width="240" height="42" rx="6" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <text x="210" y="160" fill="#4a90d9" text-anchor="middle">Fructose-1,6-bisphosphate (6 C)</text>
+
+  <!-- arrow 2 (split) -->
+  <line x1="210" y1="176" x2="210" y2="216" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="210,220 204,210 216,210" fill="#8a8a8a"/>
+  <text x="342" y="200" fill="#8a8a8a">split into two 3-carbon units</text>
+
+  <!-- Box 3: 2x G3P -->
+  <rect x="90" y="222" width="240" height="42" rx="6" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <text x="210" y="248" fill="#4a90d9" text-anchor="middle">2 &#215; G3P (3 C each)</text>
+
+  <!-- arrow 3 + payoff label -->
+  <line x1="210" y1="264" x2="210" y2="410" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="210,414 204,404 216,404" fill="#8a8a8a"/>
+  <text x="342" y="318" fill="#e0645c">+4 ATP total</text>
+  <text x="342" y="340" fill="#e0645c">+2 NADH total</text>
+  <text x="342" y="366" fill="#8a8a8a">everything here runs twice</text>
+  <text x="342" y="388" fill="#8a8a8a">(1,3-BPG and PEP donate P)</text>
+
+  <!-- Box 4: 2x pyruvate -->
+  <rect x="90" y="416" width="240" height="42" rx="6" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <text x="210" y="442" fill="#4a90d9" text-anchor="middle">2 &#215; Pyruvate (3 C each)</text>
+
+  <!-- Net tally box -->
+  <rect x="452" y="416" width="188" height="72" rx="6" fill="#e0645c" opacity="0.12" stroke="#e0645c" stroke-width="2"/>
+  <text x="546" y="438" fill="#e0645c" text-anchor="middle" font-weight="bold">NET / glucose</text>
+  <text x="546" y="460" fill="#e0645c" text-anchor="middle">2 ATP &#183; 2 NADH</text>
+  <text x="546" y="480" fill="#e0645c" text-anchor="middle">2 pyruvate</text>
+</svg>

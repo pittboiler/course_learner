@@ -1,0 +1,62 @@
+<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="20" y="24" fill="#8a8a8a" font-style="italic">The supersonic solar wind (coral) compresses the planet's dipole (blue) — bow shock, magnetopause standoff, and trapped belts.</text>
+
+  <!-- ===== solar wind: coral arrows streaming in from the left ===== -->
+  <g stroke="#e0645c" stroke-width="2.5" fill="#e0645c">
+    <line x1="18" y1="90"  x2="150" y2="90"/>
+    <polygon points="150,90 138,85 138,95"/>
+    <line x1="18" y1="150" x2="150" y2="150"/>
+    <polygon points="150,150 138,145 138,155"/>
+    <line x1="18" y1="230" x2="150" y2="230"/>
+    <polygon points="150,230 138,225 138,235"/>
+    <line x1="18" y1="290" x2="150" y2="290"/>
+    <polygon points="150,290 138,285 138,295"/>
+  </g>
+  <text x="30" y="60" fill="#e0645c">solar wind  &#961;v&#178;  (supersonic, super-Alfv&#233;nic)</text>
+
+  <!-- ===== bow shock (grey, upstream) ===== -->
+  <path d="M 250 50 C 170 130, 170 250, 250 330" fill="none" stroke="#8a8a8a" stroke-width="2" stroke-dasharray="1 0"/>
+  <text x="176" y="200" fill="#8a8a8a" font-style="italic" transform="rotate(-90 176 200)">bow shock</text>
+
+  <!-- ===== magnetopause (grey dashed, opening into a tail) ===== -->
+  <path d="M 335 190 C 335 105, 400 70, 630 58" fill="none" stroke="#8a8a8a" stroke-width="2" stroke-dasharray="6 4"/>
+  <path d="M 335 190 C 335 275, 400 310, 630 322" fill="none" stroke="#8a8a8a" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="470" y="96" fill="#8a8a8a" font-style="italic">magnetopause</text>
+
+  <!-- ===== dipole field lines (blue) ===== -->
+  <!-- dayside closed loops -->
+  <path d="M 430 175 C 405 178, 405 202, 430 205" fill="none" stroke="#4a90d9" stroke-width="1.8"/>
+  <path d="M 430 173 C 388 178, 388 202, 430 207" fill="none" stroke="#4a90d9" stroke-width="1.8"/>
+  <path d="M 430 171 C 366 181, 366 199, 430 209" fill="none" stroke="#4a90d9" stroke-width="1.8"/>
+  <!-- stretched magnetotail -->
+  <path d="M 430 176 C 480 172, 560 170, 628 168" fill="none" stroke="#4a90d9" stroke-width="1.8"/>
+  <path d="M 430 204 C 480 208, 560 210, 628 212" fill="none" stroke="#4a90d9" stroke-width="1.8"/>
+
+  <!-- planet -->
+  <circle cx="430" cy="190" r="15" fill="#4a90d9" opacity="0.15" stroke="#8a8a8a" stroke-width="1.8"/>
+
+  <!-- ===== trapped particles: drift ring + bounce ===== -->
+  <!-- drift ring (equatorial, blue dashed ellipse) -->
+  <ellipse cx="430" cy="190" rx="44" ry="13" fill="#4a90d9" opacity="0.12"/>
+  <ellipse cx="430" cy="190" rx="44" ry="13" fill="none" stroke="#4a90d9" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <!-- bounce along a field line: dot + double arrow near the poles -->
+  <circle cx="388" cy="180" r="3.5" fill="#4a90d9"/>
+  <g stroke="#4a90d9" stroke-width="1.5" fill="#4a90d9">
+    <polygon points="388,178 383,184 393,184"/>
+    <polygon points="388,202 383,196 393,196"/>
+  </g>
+  <text x="300" y="150" fill="#4a90d9">radiation belts</text>
+  <text x="300" y="166" fill="#4a90d9" font-size="12">(bounce + drift)</text>
+
+  <!-- ring-current drift direction (coral annotation on the ring) -->
+  <path d="M 468 196 A 44 13 0 0 1 452 201" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="452,201 460,199 457,206" fill="#e0645c"/>
+  <text x="474" y="232" fill="#e0645c" font-size="12">ring current (ions W)</text>
+
+  <!-- ===== standoff distance r_mp (coral) ===== -->
+  <line x1="335" y1="190" x2="415" y2="190" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="335,190 344,186 344,194" fill="#e0645c"/>
+  <polygon points="415,190 406,186 406,194" fill="#e0645c"/>
+  <text x="352" y="184" fill="#e0645c">r_mp (standoff)</text>
+</svg>

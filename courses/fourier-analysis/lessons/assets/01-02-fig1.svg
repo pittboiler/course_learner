@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="640" height="400" fill="#ffffff"/>
+
+  <!-- subspace V_N drawn as a tilted plane -->
+  <polygon points="110,320 430,320 560,225 240,225" fill="#dce8f5" stroke="#1a1a1a" stroke-width="1.5"/>
+  <text x="175" y="352" font-size="15" fill="#111"><tspan font-style="italic">V</tspan><tspan font-size="11" dy="4">N</tspan><tspan font-size="14" dy="-4"> = span{ e</tspan><tspan font-size="10" dy="4">&#8722;N</tspan><tspan font-size="14" dy="-4">, &#8230; , e</tspan><tspan font-size="10" dy="4">N</tspan><tspan font-size="14" dy="-4"> }</tspan></text>
+
+  <!-- origin -->
+  <circle cx="210" cy="275" r="3.5" fill="#111"/>
+  <text x="182" y="292" font-size="14" fill="#111">O</text>
+
+  <!-- two in-plane basis direction hints -->
+  <line x1="210" y1="275" x2="360" y2="275" stroke="#7b93b5" stroke-width="1" stroke-dasharray="4 3"/>
+  <line x1="210" y1="275" x2="270" y2="235" stroke="#7b93b5" stroke-width="1" stroke-dasharray="4 3"/>
+
+  <!-- f : vector up out of the plane -->
+  <line x1="210" y1="275" x2="415" y2="90" stroke="#c0392b" stroke-width="2.5" marker-end="url(#arrowR)"/>
+  <text x="422" y="86" font-size="18" fill="#c0392b" font-style="italic">f</text>
+
+  <!-- projection S_N f : along the plane -->
+  <line x1="210" y1="275" x2="388" y2="238" stroke="#1f5fbf" stroke-width="2.5" marker-end="url(#arrowB)"/>
+  <text x="300" y="270" font-size="15" fill="#1f5fbf" font-style="italic">S<tspan font-size="11" dy="4">N</tspan><tspan dy="-4"> f</tspan></text>
+
+  <!-- error f - S_N f : perpendicular to the plane -->
+  <line x1="388" y1="238" x2="415" y2="90" stroke="#d9822b" stroke-width="2.5" stroke-dasharray="6 4" marker-end="url(#arrowO)"/>
+  <text x="425" y="170" font-size="15" fill="#c9760f" font-style="italic">f &#8722; S<tspan font-size="11" dy="4">N</tspan><tspan dy="-4"> f</tspan></text>
+
+  <!-- right-angle marker at the foot of the perpendicular -->
+  <polyline points="404,236 407,220 391,222" fill="none" stroke="#111" stroke-width="1.3"/>
+
+  <text x="145" y="382" font-size="13" fill="#555">error &#8869; plane &#8594; the foot of the perpendicular is the closest point of the plane to f</text>
+
+  <defs>
+    <marker id="arrowR" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 z" fill="#c0392b"/>
+    </marker>
+    <marker id="arrowB" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 z" fill="#1f5fbf"/>
+    </marker>
+    <marker id="arrowO" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 z" fill="#d9822b"/>
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,53 @@
+<svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">A galvanic cell: electrons flow anode to cathode through the wire; ions flow through the salt bridge to keep each side neutral.</text>
+
+  <!-- external wire -->
+  <path d="M 137 108 L 137 66 L 300 66 M 336 66 L 497 66 L 497 108"
+        fill="none" stroke="#8a8a8a" stroke-width="2"/>
+
+  <!-- voltmeter -->
+  <circle cx="318" cy="66" r="18" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="311" y="72" fill="#8a8a8a" font-weight="bold">V</text>
+
+  <!-- electron flow arrows on the wire (coral, anode to cathode = left to right) -->
+  <polygon points="228,66 218,61 218,71" fill="#e0645c"/>
+  <polygon points="430,66 420,61 420,71" fill="#e0645c"/>
+  <text x="190" y="56" fill="#e0645c">e&#8315;</text>
+  <text x="392" y="56" fill="#e0645c">e&#8315;</text>
+
+  <!-- ===== left beaker: Zn anode ===== -->
+  <rect x="71" y="178" width="138" height="101" fill="#4a90d9" opacity="0.12"/>
+  <path d="M 70 140 L 70 280 L 210 280 L 210 140" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="72" y1="178" x2="208" y2="178" stroke="#4a90d9" stroke-width="1.5"/>
+  <!-- Zn electrode -->
+  <rect x="132" y="108" width="14" height="147" fill="#4a90d9" opacity="0.85" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="126" y="272" fill="#4a90d9" font-weight="bold">Zn</text>
+  <text x="150" y="215" fill="#8a8a8a">Zn&#178;&#8314;</text>
+
+  <!-- ===== right beaker: Cu cathode ===== -->
+  <rect x="431" y="178" width="138" height="101" fill="#4a90d9" opacity="0.12"/>
+  <path d="M 430 140 L 430 280 L 570 280 L 570 140" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="432" y1="178" x2="568" y2="178" stroke="#4a90d9" stroke-width="1.5"/>
+  <!-- Cu electrode -->
+  <rect x="490" y="108" width="14" height="147" fill="#4a90d9" opacity="0.85" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="484" y="272" fill="#4a90d9" font-weight="bold">Cu</text>
+  <text x="510" y="215" fill="#8a8a8a">Cu&#178;&#8314;</text>
+
+  <!-- ===== salt bridge (grey tube) ===== -->
+  <path d="M 168 214 L 168 120 L 472 120 L 472 214" fill="none" stroke="#8a8a8a" stroke-width="9" opacity="0.30"/>
+  <path d="M 168 214 L 168 120 L 472 120 L 472 214" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="278" y="112" fill="#8a8a8a">salt bridge</text>
+
+  <!-- ion flow in bridge (coral): cations toward cathode (right), anions toward anode (left) -->
+  <polygon points="392,120 382,115 382,125" fill="#e0645c"/>
+  <text x="330" y="137" fill="#e0645c">cations &#8594;</text>
+  <polygon points="248,120 258,115 258,125" fill="#e0645c"/>
+  <text x="205" y="137" fill="#e0645c">&#8592; anions</text>
+
+  <!-- role labels -->
+  <text x="96" y="312" fill="#8a8a8a" font-weight="bold">ANODE (&#8722;)</text>
+  <text x="96" y="330" fill="#8a8a8a">oxidation</text>
+  <text x="452" y="312" fill="#8a8a8a" font-weight="bold">CATHODE (+)</text>
+  <text x="460" y="330" fill="#8a8a8a">reduction</text>
+</svg>

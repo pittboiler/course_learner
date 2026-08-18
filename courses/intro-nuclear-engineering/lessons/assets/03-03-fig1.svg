@@ -1,0 +1,33 @@
+<svg viewBox="0 0 620 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Same start N&#8320;, three fates: each generation multiplies the population by k, so N&#8345; = N&#8320; k&#8319;.</text>
+
+  <!-- axes -->
+  <line x1="70" y1="270" x2="560" y2="270" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="560,270 550,265 550,275" fill="#8a8a8a"/>
+  <text x="500" y="292" fill="#8a8a8a">generation n</text>
+  <line x1="70" y1="270" x2="70" y2="50" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,50 65,60 75,60" fill="#8a8a8a"/>
+  <text x="18" y="150" fill="#8a8a8a">population N</text>
+
+  <!-- N0 reference dot -->
+  <circle cx="80" cy="180" r="4" fill="#8a8a8a"/>
+  <text x="40" y="185" fill="#8a8a8a">N&#8320;</text>
+
+  <!-- supercritical k>1 (coral, growing) -->
+  <path d="M 80 180 L 140 176 L 200 169 L 260 158 L 320 143 L 380 122 L 440 99 L 500 78 L 540 66"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+  <text x="546" y="70" fill="#e0645c">k &#62; 1</text>
+  <text x="546" y="86" fill="#e0645c" font-size="12">grows</text>
+
+  <!-- critical k=1 (grey, flat) -->
+  <line x1="80" y1="180" x2="540" y2="180" stroke="#8a8a8a" stroke-width="3"/>
+  <text x="546" y="184" fill="#8a8a8a">k = 1</text>
+  <text x="546" y="200" fill="#8a8a8a" font-size="12">steady</text>
+
+  <!-- subcritical k<1 (blue, decaying) -->
+  <path d="M 80 180 L 140 199 L 200 213 L 260 224 L 320 232 L 380 238 L 440 242 L 500 245 L 540 246"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="546" y="250" fill="#4a90d9">k &#60; 1</text>
+  <text x="546" y="266" fill="#4a90d9" font-size="12">dies out</text>
+</svg>

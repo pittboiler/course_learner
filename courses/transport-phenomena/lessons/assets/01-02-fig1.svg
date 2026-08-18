@@ -1,0 +1,54 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="40" y="26" fill="#8a8a8a" font-style="italic">Fast layers hand x-momentum down to slow ones: the flux runs in &#8722;y, down the velocity gradient.</text>
+
+  <!-- y axis (physics y: 0 at bottom, b at top) -->
+  <line x1="70" y1="270" x2="70" y2="70" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,70 65,80 75,80" fill="#8a8a8a"/>
+  <text x="58" y="70" fill="#8a8a8a">y</text>
+  <text x="52" y="275" fill="#8a8a8a">0</text>
+  <text x="54" y="94" fill="#8a8a8a">b</text>
+
+  <!-- bottom plate: fixed -->
+  <line x1="90" y1="270" x2="440" y2="270" stroke="#8a8a8a" stroke-width="3"/>
+  <line x1="96" y1="270" x2="88" y2="280" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="116" y1="270" x2="108" y2="280" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="136" y1="270" x2="128" y2="280" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="156" y1="270" x2="148" y2="280" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="176" y1="270" x2="168" y2="280" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="196" y1="270" x2="188" y2="280" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="216" y1="270" x2="208" y2="280" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="236" y1="270" x2="228" y2="280" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="256" y1="270" x2="248" y2="280" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="300" y="292" fill="#8a8a8a">fixed plate  (v = 0)</text>
+
+  <!-- top plate: moving with V -->
+  <line x1="90" y1="70" x2="440" y2="70" stroke="#8a8a8a" stroke-width="3"/>
+  <text x="300" y="62" fill="#8a8a8a">moving plate  (v = V)</text>
+
+  <!-- velocity-profile arrows (length grows with height) -->
+  <line x1="90" y1="70" x2="240" y2="70" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="240,70 230,65 230,75" fill="#4a90d9"/>
+  <line x1="90" y1="120" x2="202" y2="120" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="202,120 192,115 192,125" fill="#4a90d9"/>
+  <line x1="90" y1="170" x2="165" y2="170" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="165,170 155,165 155,175" fill="#4a90d9"/>
+  <line x1="90" y1="220" x2="128" y2="220" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="128,220 118,215 118,225" fill="#4a90d9"/>
+
+  <!-- linear profile envelope -->
+  <line x1="90" y1="270" x2="240" y2="70" stroke="#4a90d9" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="150" y="118" fill="#4a90d9">v(y) = V y / b</text>
+
+  <!-- momentum flux: fat coral arrow pointing down (-y) -->
+  <line x1="400" y1="88" x2="400" y2="252" stroke="#e0645c" stroke-width="4"/>
+  <polygon points="400,262 393,246 407,246" fill="#e0645c"/>
+  <text x="416" y="150" fill="#e0645c">flux of</text>
+  <text x="416" y="168" fill="#e0645c">x-momentum</text>
+  <text x="416" y="186" fill="#e0645c">(the &#8722;y direction)</text>
+
+  <!-- tau label with the plane it acts on -->
+  <line x1="470" y1="70" x2="560" y2="70" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <text x="470" y="106" fill="#e0645c">&#964;<tspan font-size="10" dy="4">yx</tspan><tspan dy="-4"> = &#8722;&#956; dv</tspan><tspan font-size="10" dy="4">x</tspan><tspan dy="-4">/dy</tspan></text>
+  <text x="470" y="126" fill="#8a8a8a" font-size="12">shear stress ON the plane</text>
+  <text x="470" y="142" fill="#8a8a8a" font-size="12">= momentum flux THROUGH it</text>
+</svg>

@@ -1,0 +1,77 @@
+<svg viewBox="0 0 620 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="24" y="22" fill="#8a8a8a" font-style="italic">Chair cyclohexane: axial bonds point straight up/down, equatorial bonds splay outward. Inset: butane's energy as the C2&#8211;C3 bond rotates.</text>
+
+  <!-- ============ left: cyclohexane chair ============ -->
+  <g transform="translate(0,34)">
+    <!-- ring skeleton -->
+    <path d="M245,112 L218,191 L162,136 L135,168 L162,89 L218,144 Z"
+          fill="none" stroke="#8a8a8a" stroke-width="2.4"/>
+    <!-- carbon vertices -->
+    <circle cx="245" cy="112" r="2.6" fill="#8a8a8a"/>
+    <circle cx="218" cy="191" r="2.6" fill="#8a8a8a"/>
+    <circle cx="162" cy="136" r="2.6" fill="#8a8a8a"/>
+    <circle cx="135" cy="168" r="2.6" fill="#8a8a8a"/>
+    <circle cx="162" cy="89"  r="2.6" fill="#8a8a8a"/>
+    <circle cx="218" cy="144" r="2.6" fill="#8a8a8a"/>
+
+    <!-- axial bonds (coral) : up on C1,C3,C5 ; down on C2,C4,C6 -->
+    <line x1="245" y1="112" x2="245" y2="72"  stroke="#e0645c" stroke-width="2"/>
+    <line x1="162" y1="136" x2="162" y2="96"  stroke="#e0645c" stroke-width="2"/>
+    <line x1="162" y1="89"  x2="162" y2="49"  stroke="#e0645c" stroke-width="2"/>
+    <line x1="218" y1="191" x2="218" y2="231" stroke="#e0645c" stroke-width="2"/>
+    <line x1="135" y1="168" x2="135" y2="208" stroke="#e0645c" stroke-width="2"/>
+    <line x1="218" y1="144" x2="218" y2="184" stroke="#e0645c" stroke-width="2"/>
+
+    <!-- equatorial bonds (blue) -->
+    <line x1="245" y1="112" x2="297" y2="131" stroke="#4a90d9" stroke-width="2"/>
+    <line x1="218" y1="191" x2="244" y2="194" stroke="#4a90d9" stroke-width="2"/>
+    <line x1="162" y1="136" x2="136" y2="178" stroke="#4a90d9" stroke-width="2"/>
+    <line x1="135" y1="168" x2="83"  y2="149" stroke="#4a90d9" stroke-width="2"/>
+    <line x1="162" y1="89"  x2="136" y2="86"  stroke="#4a90d9" stroke-width="2"/>
+    <line x1="218" y1="144" x2="244" y2="102" stroke="#4a90d9" stroke-width="2"/>
+
+    <!-- labels on C1 (both bonds emanate here) -->
+    <text x="252" y="68"  fill="#e0645c">axial</text>
+    <text x="252" y="140" fill="#4a90d9">equatorial</text>
+    <text x="150" y="256" fill="#8a8a8a" font-style="italic">chair (strain-free)</text>
+  </g>
+
+  <!-- ============ right: butane energy inset ============ -->
+  <g>
+    <text x="392" y="58" fill="#8a8a8a" font-style="italic">n-butane</text>
+
+    <!-- axes -->
+    <line x1="382" y1="215" x2="382" y2="62" stroke="#8a8a8a" stroke-width="1.5"/>
+    <polygon points="382,62 377,72 387,72" fill="#8a8a8a"/>
+    <line x1="378" y1="215" x2="602" y2="215" stroke="#8a8a8a" stroke-width="1.5"/>
+    <polygon points="602,215 592,210 592,220" fill="#8a8a8a"/>
+    <text x="470" y="234" fill="#8a8a8a">dihedral angle</text>
+    <text x="366" y="150" fill="#8a8a8a" transform="rotate(-90 366 150)">energy</text>
+
+    <!-- energy curve (flat at each extremum) -->
+    <path d="M385,77 C402.5,77 402.5,183 420,183 C437.5,183 437.5,98 455,98 C472.5,98 472.5,210 490,210 C507.5,210 507.5,98 525,98 C542.5,98 542.5,183 560,183 C577.5,183 577.5,77 595,77"
+          fill="none" stroke="#8a8a8a" stroke-width="2.4"/>
+
+    <!-- eclipsed maxima (coral = strained) -->
+    <circle cx="385" cy="77"  r="2.6" fill="#e0645c"/>
+    <circle cx="455" cy="98"  r="3.2" fill="#e0645c"/>
+    <circle cx="525" cy="98"  r="3.2" fill="#e0645c"/>
+    <circle cx="595" cy="77"  r="2.6" fill="#e0645c"/>
+    <text x="430" y="90" fill="#e0645c">eclipsed</text>
+
+    <!-- gauche minima (grey) -->
+    <circle cx="420" cy="183" r="3" fill="#8a8a8a"/>
+    <circle cx="560" cy="183" r="3" fill="#8a8a8a"/>
+    <text x="398" y="200" fill="#8a8a8a">gauche</text>
+
+    <!-- anti minimum (blue = lowest) -->
+    <circle cx="490" cy="210" r="3.6" fill="#4a90d9"/>
+    <text x="474" y="205" fill="#4a90d9">anti</text>
+
+    <!-- x ticks -->
+    <text x="379" y="228" fill="#8a8a8a" font-size="12">0</text>
+    <text x="480" y="228" fill="#8a8a8a" font-size="12">180</text>
+    <text x="585" y="228" fill="#8a8a8a" font-size="12">360</text>
+  </g>
+</svg>

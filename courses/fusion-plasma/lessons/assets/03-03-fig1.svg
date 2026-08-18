@@ -1,0 +1,46 @@
+<svg viewBox="0 0 620 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Field falls with major radius R, so a fixed-frequency wave resonates at just one radius &#8212; choose the frequency, aim the heat.</text>
+
+  <!-- axes -->
+  <line x1="60" y1="250" x2="585" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="585,250 575,245 575,255" fill="#8a8a8a"/>
+  <text x="589" y="255" fill="#8a8a8a">R</text>
+  <line x1="60" y1="250" x2="60" y2="55" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="60,55 55,65 65,65" fill="#8a8a8a"/>
+  <text x="46" y="62" fill="#8a8a8a">B</text>
+
+  <!-- B(R) profile: field falls as 1/R (grey) -->
+  <path d="M 70 72 L 131 92 L 193 108 L 254 120 L 315 131 L 376 140 L 438 148 L 499 155 L 560 161"
+        fill="none" stroke="#8a8a8a" stroke-width="2.5"/>
+  <text x="500" y="140" fill="#8a8a8a">B(R)</text>
+
+  <!-- resonant field level (dashed grey) -->
+  <line x1="60" y1="131" x2="315" y2="131" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="150" y="126" fill="#8a8a8a">resonant field</text>
+
+  <!-- resonance layer (coral band + line) -->
+  <rect x="309" y="60" width="12" height="190" fill="#e0645c" opacity="0.15"/>
+  <line x1="315" y1="60" x2="315" y2="250" stroke="#e0645c" stroke-width="2"/>
+  <circle cx="315" cy="131" r="4" fill="#e0645c"/>
+  <text x="238" y="52" fill="#e0645c">resonance layer</text>
+  <text x="248" y="78" fill="#e0645c">f = qB / 2&#960;m</text>
+
+  <!-- R_res tick -->
+  <text x="292" y="270" fill="#e0645c">R_res</text>
+
+  <!-- launched wave: enters from low-field (right) side, dumps energy at layer (blue) -->
+  <path d="M 560 200 Q 550 188 540 200 Q 530 212 520 200 Q 510 188 500 200 Q 490 212 480 200 Q 470 188 460 200 Q 450 212 440 200 Q 430 188 420 200 Q 410 212 400 200 Q 390 188 380 200 Q 370 212 360 200 Q 350 188 340 200"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="340" y1="200" x2="324" y2="200" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="318,200 328,195 328,205" fill="#4a90d9"/>
+  <text x="380" y="228" fill="#4a90d9">launched wave</text>
+
+  <!-- antenna at low-field edge -->
+  <rect x="562" y="186" width="14" height="28" fill="#8a8a8a" opacity="0.2" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="512" y="182" fill="#8a8a8a">antenna</text>
+
+  <!-- side labels -->
+  <text x="66" y="292" fill="#8a8a8a">high-field side (small R)</text>
+  <text x="430" y="292" fill="#8a8a8a">low-field side (large R)</text>
+</svg>

@@ -1,0 +1,45 @@
+<svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">A weak lattice potential splits the free parabola at the zone boundary, opening a gap of 2|U_G|.</text>
+
+  <!-- forbidden-energy strip: no k has energy inside the gap -->
+  <rect x="62" y="165.6" width="513" height="28.8" fill="#e0645c" opacity="0.15"/>
+
+  <!-- axes -->
+  <line x1="60" y1="300" x2="590" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="590,300 580,295 580,305" fill="#8a8a8a"/>
+  <text x="584" y="317" fill="#8a8a8a">k</text>
+  <line x1="60" y1="300" x2="60" y2="52" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="60,52 55,62 65,62" fill="#8a8a8a"/>
+  <text x="46" y="60" fill="#8a8a8a">ε</text>
+
+  <!-- zone-boundary guides -->
+  <line x1="140" y1="300" x2="140" y2="100" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="500" y1="300" x2="500" y2="150" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="312" y="317" fill="#8a8a8a">0</text>
+  <text x="486" y="317" fill="#8a8a8a">π/a</text>
+  <text x="118" y="317" fill="#8a8a8a">−π/a</text>
+
+  <!-- free-electron parabola (grey dashed) -->
+  <path d="M 68 64.8 L 104 127.2 L 140 180 L 176 223.2 L 212 256.8 L 248 280.8 L 284 295.2 L 320 300 L 356 295.2 L 392 280.8 L 428 256.8 L 464 223.2 L 500 180 L 536 127.2 L 572 64.8"
+        fill="none" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="150" y="120" fill="#8a8a8a" font-style="italic">free parabola</text>
+
+  <!-- lower band (blue) -->
+  <path d="M 140 194.4 L 158 206.8 L 176 225.4 L 194 242.6 L 212 257.9 L 248 281.5 L 284 295.7 L 320 300 L 356 295.7 L 392 281.5 L 428 257.9 L 446 242.6 L 464 225.4 L 482 206.8 L 500 194.4"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="196" y="278" fill="#4a90d9">lower band</text>
+
+  <!-- upper band (coral), two arcs -->
+  <path d="M 500 165.6 L 509 160.9 L 518 150.8 L 536 125.0 L 554 95.8 L 572 63.7"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+  <path d="M 140 165.6 L 131 160.9 L 122 150.8 L 104 125.0 L 86 95.8 L 68 63.7"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+  <text x="516" y="118" fill="#e0645c">upper band</text>
+
+  <!-- gap arrow at the zone boundary -->
+  <line x1="500" y1="165.6" x2="500" y2="194.4" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="500,165.6 496,174 504,174" fill="#e0645c"/>
+  <polygon points="500,194.4 496,186 504,186" fill="#e0645c"/>
+  <text x="392" y="184" fill="#e0645c">E_gap = 2|U_G|</text>
+</svg>

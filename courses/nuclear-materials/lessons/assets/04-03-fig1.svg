@@ -1,0 +1,62 @@
+<svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="20" y="18" fill="#8a8a8a" font-style="italic">(a) Oxide grows slowly (parabolic), then breaks away (linear).</text>
+
+  <!-- ============ PANEL (a): oxide thickness vs time ============ -->
+  <!-- axes -->
+  <line x1="60" y1="250" x2="300" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="300,250 291,246 291,254" fill="#8a8a8a"/>
+  <line x1="60" y1="250" x2="60" y2="52" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="60,52 56,61 64,61" fill="#8a8a8a"/>
+  <text x="150" y="270" fill="#8a8a8a">time</text>
+  <text x="18" y="70" fill="#8a8a8a" font-size="11">oxide</text>
+  <text x="18" y="83" fill="#8a8a8a" font-size="11">(&#956;m)</text>
+
+  <!-- pre-transition: parabolic, protective (blue) -->
+  <path d="M 60 250 C 80 176, 132 150, 185 140" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <!-- post-transition: linear breakaway (coral) -->
+  <line x1="185" y1="140" x2="285" y2="70" stroke="#e0645c" stroke-width="3"/>
+  <!-- extrapolated parabola for contrast (faint dashed blue) -->
+  <path d="M 185 140 C 215 133, 255 129, 285 127" fill="none" stroke="#4a90d9" stroke-width="1.2" stroke-dasharray="3 4" opacity="0.7"/>
+
+  <!-- transition marker -->
+  <line x1="185" y1="250" x2="185" y2="132" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <circle cx="185" cy="140" r="4" fill="#e0645c"/>
+  <text x="150" y="264" fill="#8a8a8a" font-size="11">transition</text>
+
+  <!-- labels -->
+  <text x="86" y="205" fill="#4a90d9" font-size="11">protective:</text>
+  <text x="86" y="218" fill="#4a90d9" font-size="11">x = &#8730;(k&#8330;t)</text>
+  <text x="212" y="92" fill="#e0645c" font-size="11">breakaway:</text>
+  <text x="212" y="105" fill="#e0645c" font-size="11">linear</text>
+  <text x="228" y="132" fill="#8a8a8a" font-size="10" opacity="0.8">(if it stayed parabolic)</text>
+
+  <!-- ============ PANEL (b): radiolysis sets the ECP ============ -->
+  <text x="345" y="18" fill="#8a8a8a" font-style="italic">(b) Radiolysis raises the ECP; dosing H&#8322; pulls it back down.</text>
+
+  <!-- ECP axis -->
+  <line x1="560" y1="248" x2="560" y2="60" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="560,60 556,69 564,69" fill="#8a8a8a"/>
+  <text x="548" y="52" fill="#8a8a8a">ECP</text>
+  <text x="568" y="90" fill="#8a8a8a" font-size="11">oxidizing</text>
+  <text x="568" y="240" fill="#8a8a8a" font-size="11">reducing</text>
+
+  <!-- radiolysis (oxidants) pushing ECP up -->
+  <text x="345" y="108" fill="#8a8a8a" font-size="11">radiolysis of water:</text>
+  <text x="345" y="122" fill="#e0645c" font-size="11">H&#8322;O &#8594; O&#8322;, H&#8322;O&#8322;, &#8226;OH</text>
+  <line x1="500" y1="116" x2="553" y2="100" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="558,99 548,97 551,106" fill="#e0645c"/>
+  <text x="470" y="140" fill="#e0645c" font-size="10">raises ECP</text>
+
+  <!-- H2 dose (scavenger) pulling ECP down -->
+  <text x="345" y="205" fill="#8a8a8a" font-size="11">dose dissolved H&#8322;:</text>
+  <text x="345" y="219" fill="#4a90d9" font-size="11">recombines O&#8322;, H&#8322;O&#8322;</text>
+  <line x1="500" y1="213" x2="553" y2="226" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="558,227 548,221 551,230" fill="#4a90d9"/>
+  <text x="466" y="200" fill="#4a90d9" font-size="10">lowers ECP</text>
+
+  <!-- operating points -->
+  <circle cx="560" cy="100" r="5" fill="#e0645c"/>
+  <text x="574" y="112" fill="#e0645c" font-size="11">BWR (NWC)</text>
+  <circle cx="560" cy="226" r="5" fill="#4a90d9"/>
+  <text x="574" y="222" fill="#4a90d9" font-size="11">PWR (+H&#8322;)</text>
+</svg>

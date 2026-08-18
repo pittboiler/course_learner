@@ -1,0 +1,93 @@
+<svg viewBox="0 0 560 470" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <defs>
+    <marker id="ah-coral" markerWidth="10" markerHeight="10" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 z" fill="#e0645c"/>
+    </marker>
+    <marker id="ah-grey" markerWidth="10" markerHeight="10" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 z" fill="#8a8a8a"/>
+    </marker>
+  </defs>
+
+  <text x="24" y="22" fill="#8a8a8a" font-style="italic">Collapse the network in stages: combine the parallel pair, add the series resistor, read off R_eq.</text>
+
+  <!-- ============ ROW 1: full network ============ -->
+  <!-- source -->
+  <line x1="70" y1="78" x2="70" y2="64" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="70" y1="110" x2="70" y2="124" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="70" cy="94" r="16" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="65" y="90" fill="#4a90d9">+</text>
+  <text x="65" y="107" fill="#4a90d9">&#8722;</text>
+  <text x="18" y="98" fill="#4a90d9">12&#160;V</text>
+
+  <!-- top rail + R1 -->
+  <line x1="70" y1="64" x2="150" y2="64" stroke="#8a8a8a" stroke-width="2"/>
+  <rect x="150" y="54" width="56" height="20" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="166" y="68" fill="#8a8a8a">R1</text>
+  <text x="158" y="46" fill="#8a8a8a">2&#160;&#937;</text>
+  <line x1="206" y1="64" x2="352" y2="64" stroke="#8a8a8a" stroke-width="2"/>
+
+  <!-- parallel pair R2, R3 (coral) -->
+  <rect x="278" y="76" width="24" height="40" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <text x="240" y="100" fill="#e0645c">6&#160;&#937;</text>
+  <rect x="340" y="76" width="24" height="40" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <text x="370" y="100" fill="#e0645c">3&#160;&#937;</text>
+  <line x1="290" y1="64" x2="290" y2="76" stroke="#e0645c" stroke-width="2"/>
+  <line x1="290" y1="116" x2="290" y2="124" stroke="#e0645c" stroke-width="2"/>
+  <line x1="352" y1="64" x2="352" y2="76" stroke="#e0645c" stroke-width="2"/>
+  <line x1="352" y1="116" x2="352" y2="124" stroke="#e0645c" stroke-width="2"/>
+
+  <!-- bottom rail -->
+  <line x1="70" y1="124" x2="352" y2="124" stroke="#8a8a8a" stroke-width="2"/>
+  <circle cx="290" cy="64" r="3" fill="#8a8a8a"/>
+  <circle cx="290" cy="124" r="3" fill="#8a8a8a"/>
+  <text x="285" y="150" fill="#e0645c">R2 || R3</text>
+
+  <!-- arrow down to row 2 -->
+  <line x1="450" y1="70" x2="450" y2="188" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#ah-grey)"/>
+  <text x="410" y="135" fill="#8a8a8a">6 || 3</text>
+  <text x="410" y="152" fill="#8a8a8a">= 2&#160;&#937;</text>
+
+  <!-- ============ ROW 2: parallel pair combined ============ -->
+  <line x1="70" y1="218" x2="70" y2="204" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="70" y1="250" x2="70" y2="264" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="70" cy="234" r="16" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="65" y="230" fill="#4a90d9">+</text>
+  <text x="65" y="247" fill="#4a90d9">&#8722;</text>
+  <text x="18" y="238" fill="#4a90d9">12&#160;V</text>
+
+  <line x1="70" y1="204" x2="150" y2="204" stroke="#8a8a8a" stroke-width="2"/>
+  <rect x="150" y="194" width="56" height="20" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="166" y="208" fill="#8a8a8a">R1</text>
+  <text x="158" y="186" fill="#8a8a8a">2&#160;&#937;</text>
+  <line x1="206" y1="204" x2="290" y2="204" stroke="#8a8a8a" stroke-width="2"/>
+
+  <rect x="278" y="216" width="24" height="40" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <text x="312" y="240" fill="#e0645c">2&#160;&#937;</text>
+  <line x1="290" y1="204" x2="290" y2="216" stroke="#e0645c" stroke-width="2"/>
+  <line x1="290" y1="256" x2="290" y2="264" stroke="#e0645c" stroke-width="2"/>
+  <line x1="70" y1="264" x2="290" y2="264" stroke="#8a8a8a" stroke-width="2"/>
+
+  <!-- arrow down to row 3 -->
+  <line x1="450" y1="210" x2="450" y2="328" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#ah-grey)"/>
+  <text x="410" y="275" fill="#8a8a8a">2 + 2</text>
+  <text x="410" y="292" fill="#8a8a8a">= 4&#160;&#937;</text>
+
+  <!-- ============ ROW 3: single Req ============ -->
+  <line x1="70" y1="358" x2="70" y2="344" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="70" y1="390" x2="70" y2="404" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="70" cy="374" r="16" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="65" y="370" fill="#4a90d9">+</text>
+  <text x="65" y="387" fill="#4a90d9">&#8722;</text>
+  <text x="18" y="378" fill="#4a90d9">12&#160;V</text>
+
+  <!-- source current arrow (coral) -->
+  <line x1="96" y1="344" x2="150" y2="344" stroke="#e0645c" stroke-width="2" marker-end="url(#ah-coral)"/>
+  <text x="100" y="336" fill="#e0645c">I = 3&#160;A</text>
+
+  <rect x="188" y="334" width="80" height="20" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <text x="205" y="348" fill="#e0645c">Req</text>
+  <text x="196" y="326" fill="#e0645c">4&#160;&#937;</text>
+  <line x1="268" y1="344" x2="290" y2="344" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="290" y1="344" x2="290" y2="404" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="70" y1="404" x2="290" y2="404" stroke="#8a8a8a" stroke-width="2"/>
+</svg>

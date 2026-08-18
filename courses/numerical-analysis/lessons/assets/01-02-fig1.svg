@@ -1,0 +1,62 @@
+<svg viewBox="0 0 680 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="680" height="360" fill="#ffffff"/>
+
+  <text x="340" y="34" text-anchor="middle" font-size="19" font-weight="bold" fill="#111111">Catastrophic cancellation: subtracting two near-equal numbers</text>
+  <text x="340" y="56" text-anchor="middle" font-size="14" fill="#555555">each stored to 8 significant figures — the last 2 digits are already round-off noise</text>
+
+  <!-- shaded band behind the agreeing (cancelling) digits -->
+  <rect x="150" y="86" width="222" height="128" fill="#dce7f5"/>
+  <text x="261" y="104" text-anchor="middle" font-size="13" fill="#2c6fb3">identical &#8594; cancel to 0</text>
+
+  <!-- shaded band behind the noisy low digits of the inputs -->
+  <rect x="452" y="86" width="80" height="128" fill="#f7dede"/>
+  <text x="492" y="104" text-anchor="middle" font-size="13" fill="#c0392b">round-off</text>
+
+  <!-- number a -->
+  <text x="60" y="150" font-size="22" fill="#111111">a =</text>
+  <text x="170" y="150" font-size="22" fill="#111111">3</text>
+  <text x="195" y="150" font-size="22" fill="#111111">.</text>
+  <text x="215" y="150" font-size="22" fill="#111111">1</text>
+  <text x="255" y="150" font-size="22" fill="#111111">4</text>
+  <text x="295" y="150" font-size="22" fill="#111111">1</text>
+  <text x="335" y="150" font-size="22" fill="#111111">5</text>
+  <text x="380" y="150" font-size="22" fill="#111111">9</text>
+  <text x="420" y="150" font-size="22" fill="#111111">2</text>
+  <text x="470" y="150" font-size="22" fill="#c0392b">2</text>
+  <text x="502" y="150" font-size="22" fill="#c0392b">6</text>
+
+  <!-- number b -->
+  <text x="60" y="190" font-size="22" fill="#111111">b =</text>
+  <text x="170" y="190" font-size="22" fill="#111111">3</text>
+  <text x="195" y="190" font-size="22" fill="#111111">.</text>
+  <text x="215" y="190" font-size="22" fill="#111111">1</text>
+  <text x="255" y="190" font-size="22" fill="#111111">4</text>
+  <text x="295" y="190" font-size="22" fill="#111111">1</text>
+  <text x="335" y="190" font-size="22" fill="#111111">5</text>
+  <text x="380" y="190" font-size="22" fill="#111111">8</text>
+  <text x="420" y="190" font-size="22" fill="#111111">0</text>
+  <text x="470" y="190" font-size="22" fill="#c0392b">0</text>
+  <text x="502" y="190" font-size="22" fill="#c0392b">8</text>
+
+  <line x1="150" y1="206" x2="532" y2="206" stroke="#111111" stroke-width="1.5"/>
+
+  <!-- result -->
+  <text x="60" y="242" font-size="22" fill="#111111">a &#8722; b =</text>
+  <text x="170" y="242" font-size="22" fill="#aaaaaa">0</text>
+  <text x="195" y="242" font-size="22" fill="#aaaaaa">.</text>
+  <text x="215" y="242" font-size="22" fill="#aaaaaa">0</text>
+  <text x="255" y="242" font-size="22" fill="#aaaaaa">0</text>
+  <text x="295" y="242" font-size="22" fill="#aaaaaa">0</text>
+  <text x="335" y="242" font-size="22" fill="#aaaaaa">0</text>
+  <text x="380" y="242" font-size="22" fill="#111111">1</text>
+  <text x="420" y="242" font-size="22" fill="#111111">1</text>
+  <text x="470" y="242" font-size="22" fill="#c0392b">8</text>
+  <text x="502" y="242" font-size="22" fill="#c0392b">?</text>
+
+  <text x="558" y="242" font-size="20" fill="#111111">= 1.18? &#215; 10</text>
+  <text x="662" y="234" font-size="14" fill="#111111">-5</text>
+
+  <text x="340" y="292" text-anchor="middle" font-size="15" fill="#111111">The 5 shared leading digits vanish; the surviving result is built from the</text>
+  <text x="340" y="314" text-anchor="middle" font-size="15" fill="#111111">low-order digits — including the promoted <tspan fill="#c0392b">round-off noise</tspan>.</text>
+  <text x="340" y="340" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">8 good figures in  &#8594;  ~3 good figures out.</text>
+</svg>

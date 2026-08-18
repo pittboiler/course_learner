@@ -1,0 +1,52 @@
+<svg viewBox="0 0 640 430" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Two axes decide everything: how hot/active a stream is (up) and how long it stays hot (right).</text>
+
+  <!-- ===== bands (activity/heat classes) ===== -->
+  <rect x="90" y="55"  width="510" height="95"  fill="#e0645c" opacity="0.12"/>
+  <rect x="90" y="150" width="510" height="105" fill="#4a90d9" opacity="0.10"/>
+  <rect x="90" y="255" width="510" height="105" fill="#8a8a8a" opacity="0.12"/>
+
+  <!-- ===== axes ===== -->
+  <line x1="90" y1="360" x2="614" y2="360" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="614,360 604,355 604,365" fill="#8a8a8a"/>
+  <line x1="90" y1="360" x2="90" y2="48" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="90,48 85,58 95,58" fill="#8a8a8a"/>
+
+  <!-- axis labels -->
+  <text transform="translate(34,300) rotate(-90)" fill="#8a8a8a">activity, heat &#8594;</text>
+  <text x="300" y="404" fill="#8a8a8a" text-anchor="middle">longevity of dominant nuclides &#8594;</text>
+  <text x="150" y="378" fill="#8a8a8a" text-anchor="middle">years</text>
+  <text x="330" y="378" fill="#8a8a8a" text-anchor="middle">centuries</text>
+  <text x="500" y="378" fill="#8a8a8a" text-anchor="middle">10&#8308;+ yr</text>
+
+  <!-- longevity divider: near-surface acceptable only to the left -->
+  <line x1="380" y1="55" x2="380" y2="360" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 5"/>
+
+  <!-- ===== class + route labels ===== -->
+  <text x="102" y="78" fill="#e0645c" font-weight="bold">HLW</text>
+  <text x="102" y="96" fill="#8a8a8a">deep geological repository</text>
+
+  <text x="102" y="174" fill="#4a90d9" font-weight="bold">ILW</text>
+  <text x="102" y="192" fill="#8a8a8a">shielded store; geological if long-lived</text>
+
+  <text x="102" y="278" fill="#8a8a8a" font-weight="bold">LLW</text>
+  <text x="102" y="296" fill="#8a8a8a">near-surface disposal</text>
+
+  <!-- ===== example streams ===== -->
+  <!-- HLW -->
+  <circle cx="470" cy="112" r="5" fill="#e0645c"/>
+  <text x="470" y="102" fill="#8a8a8a" text-anchor="middle">vitrified glass</text>
+  <circle cx="530" cy="130" r="5" fill="#e0645c"/>
+  <text x="523" y="134" fill="#8a8a8a" text-anchor="end">spent fuel</text>
+
+  <!-- ILW -->
+  <circle cx="475" cy="212" r="5" fill="#e0645c"/>
+  <text x="483" y="216" fill="#8a8a8a">cladding hulls</text>
+  <circle cx="250" cy="236" r="5" fill="#e0645c"/>
+  <text x="258" y="240" fill="#8a8a8a">resins, filters</text>
+
+  <!-- LLW -->
+  <circle cx="175" cy="322" r="5" fill="#e0645c"/>
+  <text x="183" y="326" fill="#8a8a8a">gloves, PPE, tools</text>
+</svg>

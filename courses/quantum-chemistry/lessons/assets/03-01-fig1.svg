@@ -1,0 +1,37 @@
+<svg viewBox="0 0 620 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">H2 dissociation: the exact curve levels off at 2 x E(H); RHF climbs above it. The gap is the correlation energy.</text>
+
+  <!-- axes -->
+  <line x1="90" y1="60" x2="90" y2="270" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="90,60 85,72 95,72" fill="#8a8a8a"/>
+  <text x="66" y="66" fill="#8a8a8a">E</text>
+  <line x1="90" y1="270" x2="580" y2="270" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="580,270 568,265 568,275" fill="#8a8a8a"/>
+  <text x="560" y="290" fill="#8a8a8a">R (bond length)</text>
+
+  <!-- exact asymptote: 2 x E(H) -->
+  <line x1="90" y1="120" x2="560" y2="120" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="470" y="115" fill="#4a90d9">2 &#215; E(H)</text>
+
+  <!-- exact curve (blue) -->
+  <path d="M 108 72 L 122 118 L 138 170 L 152 200 L 170 210 L 195 205 L 225 189 L 265 166 L 315 146 L 380 131 L 460 123 L 550 120"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="300" y="163" fill="#4a90d9">exact (full CI)</text>
+
+  <!-- RHF curve (coral) -->
+  <path d="M 108 70 L 122 116 L 138 167 L 152 196 L 170 206 L 195 198 L 225 174 L 265 141 L 315 111 L 380 93 L 460 83 L 550 80"
+        fill="none" stroke="#e0645c" stroke-width="3" stroke-dasharray="7 4"/>
+  <text x="330" y="100" fill="#e0645c">RHF (half-ionic)</text>
+
+  <!-- dissociation error gap at right -->
+  <line x1="555" y1="80" x2="555" y2="120" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="555,80 551,89 559,89" fill="#e0645c"/>
+  <polygon points="555,120 551,111 559,111" fill="#e0645c"/>
+  <text x="500" y="150" fill="#e0645c">dissociation</text>
+  <text x="512" y="167" fill="#e0645c">error</text>
+
+  <!-- equilibrium marker -->
+  <line x1="170" y1="210" x2="170" y2="270" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="158" y="286" fill="#8a8a8a">Re</text>
+</svg>

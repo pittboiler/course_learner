@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="340" viewBox="0 0 720 340">
+  <rect x="0" y="0" width="720" height="340" fill="#ffffff"/>
+  <defs>
+    <marker id="ah" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#111111"/>
+    </marker>
+  </defs>
+  <g font-family="Helvetica, Arial, sans-serif" fill="#111111" stroke="#111111">
+
+    <!-- ================= Panel 1: POSET ================= -->
+    <text x="120" y="34" font-size="16" text-anchor="middle" stroke="none" font-weight="bold">Poset = category,</text>
+    <text x="120" y="54" font-size="16" text-anchor="middle" stroke="none" font-weight="bold">at most one arrow</text>
+
+    <!-- objects -->
+    <circle cx="120" cy="100" r="4" fill="#111111"/>
+    <text x="120" y="92" font-size="15" text-anchor="middle" stroke="none">&#8868;</text>
+    <circle cx="72" cy="170" r="4" fill="#111111"/>
+    <text x="56" y="175" font-size="15" text-anchor="middle" stroke="none">x</text>
+    <circle cx="168" cy="170" r="4" fill="#111111"/>
+    <text x="184" y="175" font-size="15" text-anchor="middle" stroke="none">y</text>
+    <circle cx="120" cy="240" r="4" fill="#111111"/>
+    <text x="120" y="262" font-size="15" text-anchor="middle" stroke="none">&#8869;</text>
+
+    <!-- arrows (lower -> higher = the relation up) -->
+    <line x1="116" y1="236" x2="78" y2="176" stroke-width="1.6" marker-end="url(#ah)"/>
+    <line x1="124" y1="236" x2="162" y2="176" stroke-width="1.6" marker-end="url(#ah)"/>
+    <line x1="76"  y1="164" x2="114" y2="106" stroke-width="1.6" marker-end="url(#ah)"/>
+    <line x1="164" y1="164" x2="126" y2="106" stroke-width="1.6" marker-end="url(#ah)"/>
+
+    <text x="120" y="300" font-size="12.5" text-anchor="middle" stroke="none" fill="#444444">x &#8594; y  iff  x &#8804; y</text>
+    <text x="120" y="318" font-size="12.5" text-anchor="middle" stroke="none" fill="#444444">&#8728; = transitivity, id = reflexivity</text>
+
+    <!-- ================= Panel 2: MONOID ================= -->
+    <text x="360" y="34" font-size="16" text-anchor="middle" stroke="none" font-weight="bold">Monoid = one object,</text>
+    <text x="360" y="54" font-size="16" text-anchor="middle" stroke="none" font-weight="bold">arrows = elements</text>
+
+    <circle cx="360" cy="180" r="6" fill="#111111"/>
+    <text x="360" y="205" font-size="14" text-anchor="middle" stroke="none">&#8226;</text>
+
+    <!-- loop e (top) -->
+    <path d="M352 175 C 332 130, 388 130, 368 175" fill="none" stroke-width="1.6" marker-end="url(#ah)"/>
+    <text x="360" y="120" font-size="14" text-anchor="middle" stroke="none">e = id</text>
+    <!-- loop a (left) -->
+    <path d="M355 174 C 300 150, 300 210, 355 187" fill="none" stroke-width="1.6" marker-end="url(#ah)"/>
+    <text x="292" y="184" font-size="14" text-anchor="middle" stroke="none">a</text>
+    <!-- loop a^2 (right) -->
+    <path d="M365 187 C 420 210, 420 150, 365 174" fill="none" stroke-width="1.6" marker-end="url(#ah)"/>
+    <text x="430" y="184" font-size="14" text-anchor="middle" stroke="none">a&#183;a</text>
+
+    <text x="360" y="300" font-size="12.5" text-anchor="middle" stroke="none" fill="#444444">a &#8728; b = the product</text>
+    <text x="360" y="318" font-size="12.5" text-anchor="middle" stroke="none" fill="#444444">e.g. (&#8469;, +, 0)</text>
+
+    <!-- ================= Panel 3: GROUP ================= -->
+    <text x="600" y="34" font-size="16" text-anchor="middle" stroke="none" font-weight="bold">Group = one object,</text>
+    <text x="600" y="54" font-size="16" text-anchor="middle" stroke="none" font-weight="bold">every arrow invertible</text>
+
+    <circle cx="600" cy="180" r="6" fill="#111111"/>
+
+    <!-- loop e (top) -->
+    <path d="M592 175 C 572 130, 628 130, 608 175" fill="none" stroke-width="1.6" marker-end="url(#ah)"/>
+    <text x="600" y="120" font-size="14" text-anchor="middle" stroke="none">e</text>
+    <!-- loop a (left) -->
+    <path d="M595 174 C 540 150, 540 210, 595 187" fill="none" stroke-width="1.6" marker-end="url(#ah)"/>
+    <text x="532" y="184" font-size="14" text-anchor="middle" stroke="none">a</text>
+    <!-- loop a^{-1} (right) -->
+    <path d="M605 187 C 660 210, 660 150, 605 174" fill="none" stroke-width="1.6" marker-end="url(#ah)"/>
+    <text x="672" y="184" font-size="14" text-anchor="middle" stroke="none">a&#8315;&#185;</text>
+
+    <text x="600" y="300" font-size="12.5" text-anchor="middle" stroke="none" fill="#444444">a &#8728; a&#8315;&#185; = e = a&#8315;&#185; &#8728; a</text>
+    <text x="600" y="318" font-size="12.5" text-anchor="middle" stroke="none" fill="#444444">written &#119809;G</text>
+  </g>
+</svg>

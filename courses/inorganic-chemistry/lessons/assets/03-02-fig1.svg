@@ -1,0 +1,114 @@
+<svg viewBox="0 0 720 590" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <!-- caption -->
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Walk the tree top to bottom (blue path); every molecule lands on exactly one group (coral).</text>
+
+  <!-- ================= SPINE (grey decision boxes) ================= -->
+  <!-- B1 Linear? -->
+  <rect x="175" y="40" width="150" height="38" rx="6" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="250" y="64" fill="#8a8a8a" text-anchor="middle">Linear?</text>
+
+  <!-- B2 Special polyhedral? -->
+  <rect x="140" y="108" width="220" height="38" rx="6" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="250" y="132" fill="#8a8a8a" text-anchor="middle">Special: T<tspan baseline-shift="sub" font-size="10">d</tspan> / O<tspan baseline-shift="sub" font-size="10">h</tspan> / I<tspan baseline-shift="sub" font-size="10">h</tspan> ?</text>
+
+  <!-- B3 principal Cn? -->
+  <rect x="140" y="176" width="220" height="38" rx="6" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="250" y="200" fill="#8a8a8a" text-anchor="middle">Highest-order C<tspan baseline-shift="sub" font-size="10">n</tspan> axis?</text>
+
+  <!-- B4 n C2 perp? -->
+  <rect x="140" y="244" width="220" height="38" rx="6" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="250" y="268" fill="#8a8a8a" text-anchor="middle">n C<tspan baseline-shift="sub" font-size="10">2</tspan> axes &#8869; to C<tspan baseline-shift="sub" font-size="10">n</tspan> ?</text>
+
+  <!-- spine arrows (blue) -->
+  <line x1="250" y1="78" x2="250" y2="108" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="250,108 246,99 254,99" fill="#4a90d9"/>
+  <text x="258" y="96" fill="#8a8a8a" font-size="11">no</text>
+
+  <line x1="250" y1="146" x2="250" y2="176" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="250,176 246,167 254,167" fill="#4a90d9"/>
+  <text x="258" y="164" fill="#8a8a8a" font-size="11">no</text>
+
+  <line x1="250" y1="214" x2="250" y2="244" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="250,244 246,235 254,235" fill="#4a90d9"/>
+  <text x="258" y="232" fill="#8a8a8a" font-size="11">yes</text>
+
+  <!-- ================= RIGHT LEAVES (coral) ================= -->
+  <!-- L1 linear -->
+  <rect x="410" y="40" width="290" height="38" rx="6" fill="#e0645c" opacity="0.14"/>
+  <rect x="410" y="40" width="290" height="38" rx="6" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <text x="555" y="64" fill="#e0645c" text-anchor="middle">C<tspan baseline-shift="sub" font-size="10">&#8734;v</tspan> (HCl) &#183; D<tspan baseline-shift="sub" font-size="10">&#8734;h</tspan> (CO<tspan baseline-shift="sub" font-size="10">2</tspan>, has i)</text>
+  <line x1="325" y1="59" x2="410" y2="59" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="410,59 401,55 401,63" fill="#4a90d9"/>
+  <text x="352" y="53" fill="#8a8a8a" font-size="11">yes</text>
+
+  <!-- L2 polyhedral -->
+  <rect x="410" y="108" width="290" height="38" rx="6" fill="#e0645c" opacity="0.14"/>
+  <rect x="410" y="108" width="290" height="38" rx="6" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <text x="555" y="132" fill="#e0645c" text-anchor="middle">T<tspan baseline-shift="sub" font-size="10">d</tspan> (CH<tspan baseline-shift="sub" font-size="10">4</tspan>) &#183; O<tspan baseline-shift="sub" font-size="10">h</tspan> (SF<tspan baseline-shift="sub" font-size="10">6</tspan>) &#183; I<tspan baseline-shift="sub" font-size="10">h</tspan></text>
+  <line x1="360" y1="127" x2="410" y2="127" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="410,127 401,123 401,131" fill="#4a90d9"/>
+  <text x="368" y="121" fill="#8a8a8a" font-size="11">yes</text>
+
+  <!-- L3 low symmetry -->
+  <rect x="410" y="176" width="290" height="38" rx="6" fill="#e0645c" opacity="0.14"/>
+  <rect x="410" y="176" width="290" height="38" rx="6" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <text x="555" y="200" fill="#e0645c" text-anchor="middle">C<tspan baseline-shift="sub" font-size="10">s</tspan> (&#963; only) &#183; C<tspan baseline-shift="sub" font-size="10">i</tspan> (i only) &#183; C<tspan baseline-shift="sub" font-size="10">1</tspan></text>
+  <line x1="360" y1="195" x2="410" y2="195" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="410,195 401,191 401,199" fill="#4a90d9"/>
+  <text x="368" y="189" fill="#8a8a8a" font-size="11">no</text>
+
+  <!-- ================= B4 SPLIT ================= -->
+  <!-- to C panel (no) -->
+  <path d="M 220 282 L 180 305 L 180 322" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="180,322 176,313 184,313" fill="#4a90d9"/>
+  <text x="150" y="303" fill="#8a8a8a" font-size="11">no</text>
+  <!-- to D panel (yes) -->
+  <path d="M 280 282 L 540 305 L 540 322" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="540,322 536,313 544,313" fill="#4a90d9"/>
+  <text x="470" y="300" fill="#8a8a8a" font-size="11">yes (&#8869; C<tspan baseline-shift="sub" font-size="9">2</tspan>'s)</text>
+
+  <!-- ================= C PANEL ================= -->
+  <rect x="20" y="322" width="330" height="200" rx="8" fill="none" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="185" y="345" fill="#8a8a8a" text-anchor="middle" font-weight="bold">C groups &#8212; no &#8869; C<tspan baseline-shift="sub" font-size="10">2</tspan></text>
+
+  <text x="40" y="380" fill="#8a8a8a">has &#963;<tspan baseline-shift="sub" font-size="10">h</tspan> ?</text>
+  <rect x="200" y="364" width="130" height="26" rx="6" fill="#e0645c" opacity="0.14"/>
+  <rect x="200" y="364" width="130" height="26" rx="6" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+  <text x="265" y="382" fill="#e0645c" text-anchor="middle">C<tspan baseline-shift="sub" font-size="10">nh</tspan></text>
+
+  <text x="40" y="420" fill="#8a8a8a">else n &#963;<tspan baseline-shift="sub" font-size="10">v</tspan> ?</text>
+  <rect x="200" y="404" width="130" height="26" rx="6" fill="#e0645c" opacity="0.14"/>
+  <rect x="200" y="404" width="130" height="26" rx="6" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+  <text x="265" y="422" fill="#e0645c" text-anchor="middle">C<tspan baseline-shift="sub" font-size="10">nv</tspan></text>
+
+  <text x="40" y="460" fill="#8a8a8a">else</text>
+  <rect x="200" y="444" width="130" height="26" rx="6" fill="#e0645c" opacity="0.14"/>
+  <rect x="200" y="444" width="130" height="26" rx="6" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+  <text x="265" y="462" fill="#e0645c" text-anchor="middle">C<tspan baseline-shift="sub" font-size="10">n</tspan></text>
+
+  <text x="40" y="502" fill="#8a8a8a" font-size="11" font-style="italic">e.g. C<tspan baseline-shift="sub" font-size="9">2v</tspan>: H<tspan baseline-shift="sub" font-size="9">2</tspan>O &#183; C<tspan baseline-shift="sub" font-size="9">3v</tspan>: NH<tspan baseline-shift="sub" font-size="9">3</tspan></text>
+
+  <!-- ================= D PANEL ================= -->
+  <rect x="370" y="322" width="330" height="200" rx="8" fill="none" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="535" y="345" fill="#8a8a8a" text-anchor="middle" font-weight="bold">D groups &#8212; n &#8869; C<tspan baseline-shift="sub" font-size="10">2</tspan></text>
+
+  <text x="390" y="380" fill="#8a8a8a">has &#963;<tspan baseline-shift="sub" font-size="10">h</tspan> ?</text>
+  <rect x="550" y="364" width="130" height="26" rx="6" fill="#e0645c" opacity="0.14"/>
+  <rect x="550" y="364" width="130" height="26" rx="6" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+  <text x="615" y="382" fill="#e0645c" text-anchor="middle">D<tspan baseline-shift="sub" font-size="10">nh</tspan></text>
+
+  <text x="390" y="420" fill="#8a8a8a">else n &#963;<tspan baseline-shift="sub" font-size="10">d</tspan> ?</text>
+  <rect x="550" y="404" width="130" height="26" rx="6" fill="#e0645c" opacity="0.14"/>
+  <rect x="550" y="404" width="130" height="26" rx="6" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+  <text x="615" y="422" fill="#e0645c" text-anchor="middle">D<tspan baseline-shift="sub" font-size="10">nd</tspan></text>
+
+  <text x="390" y="460" fill="#8a8a8a">else</text>
+  <rect x="550" y="444" width="130" height="26" rx="6" fill="#e0645c" opacity="0.14"/>
+  <rect x="550" y="444" width="130" height="26" rx="6" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+  <text x="615" y="462" fill="#e0645c" text-anchor="middle">D<tspan baseline-shift="sub" font-size="10">n</tspan></text>
+
+  <text x="390" y="502" fill="#8a8a8a" font-size="11" font-style="italic">e.g. D<tspan baseline-shift="sub" font-size="9">3h</tspan>: BF<tspan baseline-shift="sub" font-size="9">3</tspan>, PF<tspan baseline-shift="sub" font-size="9">5</tspan> &#183; D<tspan baseline-shift="sub" font-size="9">4h</tspan>: [PtCl<tspan baseline-shift="sub" font-size="9">4</tspan>]<tspan baseline-shift="super" font-size="9">2&#8722;</tspan></text>
+
+  <!-- ================= chirality note ================= -->
+  <text x="360" y="555" fill="#8a8a8a" text-anchor="middle" font-style="italic">Chiral &#8660; pure-rotation group C<tspan baseline-shift="sub" font-size="10">n</tspan> or D<tspan baseline-shift="sub" font-size="10">n</tspan> (no &#963;, no i, no S<tspan baseline-shift="sub" font-size="10">n</tspan>).</text>
+</svg>

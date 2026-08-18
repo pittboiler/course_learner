@@ -1,0 +1,57 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="70" y="22" fill="#8a8a8a" font-style="italic">Decay heat as a fraction of full power vs. cooling time (log&#8211;log), 3000 MWth PWR, 1 yr operation.</text>
+
+  <!-- horizontal gridlines at decades of fraction -->
+  <line x1="70" y1="50" x2="600" y2="50" stroke="#8a8a8a" stroke-width="0.5" stroke-dasharray="2 5"/>
+  <line x1="70" y1="117.5" x2="600" y2="117.5" stroke="#8a8a8a" stroke-width="0.5" stroke-dasharray="2 5"/>
+  <line x1="70" y1="185" x2="600" y2="185" stroke="#8a8a8a" stroke-width="0.5" stroke-dasharray="2 5"/>
+  <line x1="70" y1="252.5" x2="600" y2="252.5" stroke="#8a8a8a" stroke-width="0.5" stroke-dasharray="2 5"/>
+  <line x1="70" y1="320" x2="600" y2="320" stroke="#8a8a8a" stroke-width="0.5" stroke-dasharray="2 5"/>
+
+  <!-- axes -->
+  <line x1="70" y1="50" x2="70" y2="320" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="70" y1="320" x2="600" y2="320" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- y tick labels (fraction of full power) -->
+  <text x="30" y="54" fill="#8a8a8a">10%</text>
+  <text x="36" y="121" fill="#8a8a8a">1%</text>
+  <text x="30" y="189" fill="#8a8a8a">0.1%</text>
+  <text x="24" y="256" fill="#8a8a8a">0.01%</text>
+  <text x="18" y="324" fill="#8a8a8a">0.001%</text>
+
+  <!-- x tick marks + labels at key times -->
+  <line x1="70" y1="320" x2="70" y2="325" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="58" y="340" fill="#8a8a8a">1 s</text>
+  <line x1="292" y1="320" x2="292" y2="325" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="279" y="340" fill="#8a8a8a">1 hr</text>
+  <line x1="378" y1="320" x2="378" y2="325" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="363" y="340" fill="#8a8a8a">1 day</text>
+  <line x1="470" y1="320" x2="470" y2="325" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="453" y="340" fill="#8a8a8a">1 mo</text>
+  <line x1="538" y1="320" x2="538" y2="325" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="524" y="340" fill="#8a8a8a">1 yr</text>
+  <line x1="600" y1="320" x2="600" y2="325" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="584" y="340" fill="#8a8a8a">10 yr</text>
+  <text x="300" y="366" fill="#8a8a8a">cooling time after shutdown</text>
+
+  <!-- passive dry-cask thermal limit (~1 kW/assembly) -->
+  <line x1="70" y1="265.4" x2="600" y2="265.4" stroke="#e0645c" stroke-width="1.3" stroke-dasharray="6 4"/>
+  <text x="76" y="261" fill="#e0645c">passive dry-cask limit (&#8776; 1 kW / assembly)</text>
+
+  <!-- decay-heat curve -->
+  <polyline points="70,63.1 132,77.2 195,91.6 292,115.4 378,139.6 440,161.7 538,223.4 581,270.5 600,293.3"
+            fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- shutdown annotation -->
+  <text x="82" y="52" fill="#4a90d9">&#8776; 6&#8211;7% at shutdown</text>
+
+  <!-- crossing marker ~5 yr -->
+  <circle cx="581" cy="270.5" r="4" fill="#e0645c"/>
+  <text x="518" y="288" fill="#e0645c">&#8776; 5 yr</text>
+
+  <!-- regime labels -->
+  <text x="150" y="150" fill="#4a90d9">POOL &#8212; water-cooled</text>
+  <text x="150" y="168" fill="#8a8a8a" font-size="11">heat too high for air alone</text>
+  <text x="405" y="300" fill="#8a8a8a">DRY CASK OK</text>
+  <text x="405" y="316" fill="#8a8a8a" font-size="11">air convection suffices</text>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 340" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="440" height="340" fill="#ffffff"/>
+
+  <!-- part labels -->
+  <text x="110" y="30" font-size="15" fill="#b00020" text-anchor="middle" font-weight="bold">S &#8838; X</text>
+  <text x="330" y="30" font-size="15" fill="#0057b0" text-anchor="middle" font-weight="bold">N(S) &#8838; Y</text>
+
+  <!-- edges: each x joined to both y -->
+  <line x1="110" y1="80"  x2="330" y2="130" stroke="#1a1a1a" stroke-width="2"/>
+  <line x1="110" y1="80"  x2="330" y2="230" stroke="#1a1a1a" stroke-width="2"/>
+  <line x1="110" y1="170" x2="330" y2="130" stroke="#1a1a1a" stroke-width="2"/>
+  <line x1="110" y1="170" x2="330" y2="230" stroke="#1a1a1a" stroke-width="2"/>
+  <line x1="110" y1="260" x2="330" y2="130" stroke="#1a1a1a" stroke-width="2"/>
+  <line x1="110" y1="260" x2="330" y2="230" stroke="#1a1a1a" stroke-width="2"/>
+
+  <!-- S vertices (red outline) -->
+  <circle cx="110" cy="80"  r="16" fill="#ffd6d6" stroke="#b00020" stroke-width="3"/>
+  <circle cx="110" cy="170" r="16" fill="#ffd6d6" stroke="#b00020" stroke-width="3"/>
+  <circle cx="110" cy="260" r="16" fill="#ffd6d6" stroke="#b00020" stroke-width="3"/>
+
+  <!-- N(S) vertices -->
+  <circle cx="330" cy="130" r="16" fill="#ffe3b3" stroke="#1a1a1a" stroke-width="2.5"/>
+  <circle cx="330" cy="230" r="16" fill="#ffe3b3" stroke="#1a1a1a" stroke-width="2.5"/>
+
+  <!-- S labels -->
+  <text x="110" y="85"  font-size="14" fill="#1a1a1a" text-anchor="middle" font-weight="bold">x1</text>
+  <text x="110" y="175" font-size="14" fill="#1a1a1a" text-anchor="middle" font-weight="bold">x2</text>
+  <text x="110" y="265" font-size="14" fill="#1a1a1a" text-anchor="middle" font-weight="bold">x3</text>
+
+  <!-- N(S) labels -->
+  <text x="330" y="135" font-size="14" fill="#1a1a1a" text-anchor="middle" font-weight="bold">y1</text>
+  <text x="330" y="235" font-size="14" fill="#1a1a1a" text-anchor="middle" font-weight="bold">y2</text>
+
+  <!-- annotations -->
+  <text x="110" y="305" font-size="15" fill="#b00020" text-anchor="middle" font-weight="bold">|S| = 3</text>
+  <text x="330" y="305" font-size="15" fill="#0057b0" text-anchor="middle" font-weight="bold">|N(S)| = 2</text>
+  <text x="220" y="330" font-size="13" fill="#1a1a1a" text-anchor="middle" font-style="italic">3 people, only 2 possible partners: no matching saturates S</text>
+</svg>

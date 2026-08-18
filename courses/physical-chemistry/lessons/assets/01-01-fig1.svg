@@ -1,0 +1,39 @@
+<svg viewBox="0 0 620 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="60" y="22" fill="#8a8a8a" font-style="italic">Same start, same expansion: work is the area under the p&#8211;V path. The isotherm (blue) stays higher, so it does more work than the adiabat (coral).</text>
+
+  <!-- shaded work area under the isotherm -->
+  <path d="M 70 80 L 151.7 146.7 L 233.3 180 L 315 200 L 396.7 213.3 L 478.3 222.9 L 560 230 L 560 280 L 70 280 Z"
+        fill="#4a90d9" opacity="0.12"/>
+
+  <!-- axes -->
+  <line x1="70" y1="280" x2="580" y2="280" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="580,280 570,275 570,285" fill="#8a8a8a"/>
+  <text x="584" y="285" fill="#8a8a8a">V</text>
+  <line x1="70" y1="280" x2="70" y2="55" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,55 65,65 75,65" fill="#8a8a8a"/>
+  <text x="58" y="62" fill="#8a8a8a">p</text>
+
+  <!-- V1, V2 tick labels -->
+  <line x1="70" y1="280" x2="70" y2="286" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="60" y="300" fill="#8a8a8a">V&#8321;</text>
+  <line x1="560" y1="280" x2="560" y2="286" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="551" y="300" fill="#8a8a8a">V&#8322;</text>
+
+  <!-- isotherm (blue): p = C/V -->
+  <path d="M 70 80 L 151.7 146.7 L 233.3 180 L 315 200 L 396.7 213.3 L 478.3 222.9 L 560 230"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="300" y="172" fill="#4a90d9">isothermal (T const)</text>
+
+  <!-- adiabat (coral): p = C/V^1.4 -->
+  <path d="M 70 80 L 151.7 166.7 L 233.3 204.2 L 315 224.6 L 396.7 237 L 478.3 245.5 L 560 251.3"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+  <text x="360" y="262" fill="#e0645c">adiabatic (q = 0)</text>
+
+  <!-- common start point -->
+  <circle cx="70" cy="80" r="4" fill="#8a8a8a"/>
+  <text x="80" y="80" fill="#8a8a8a">start (p&#8321;, V&#8321;)</text>
+
+  <!-- work label inside shaded area -->
+  <text x="150" y="255" fill="#4a90d9">w = &#8722;&#8747; p dV</text>
+</svg>

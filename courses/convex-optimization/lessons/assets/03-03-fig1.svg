@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 340" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="640" height="340" fill="#ffffff"/>
+
+  <!-- ============ LEFT PANEL: one active constraint ============ -->
+  <text x="160" y="30" font-size="15" font-weight="bold" fill="#111111" text-anchor="middle">One active constraint</text>
+  <text x="160" y="48" font-size="12" fill="#444444" text-anchor="middle">-&#8711;f&#8320; = &#955;&#8321;&#8711;f&#8321;  (parallel)</text>
+
+  <!-- feasible halfspace below the boundary line -->
+  <rect x="30" y="205" width="260" height="105" fill="#2563eb" fill-opacity="0.13"/>
+  <text x="90" y="285" font-size="12" fill="#1d4ed8">feasible: f&#8321; &#8804; 0</text>
+
+  <!-- f0 contours (circles centered above, outside feasible) -->
+  <circle cx="160" cy="125" r="80" fill="none" stroke="#b91c1c" stroke-width="1.4" stroke-opacity="0.55"/>
+  <circle cx="160" cy="125" r="118" fill="none" stroke="#b91c1c" stroke-width="1.2" stroke-opacity="0.30"/>
+  <text x="250" y="80" font-size="11" fill="#b91c1c" text-anchor="middle">f&#8320; contours</text>
+
+  <!-- constraint boundary (tangent to inner contour at x*) -->
+  <line x1="35" y1="205" x2="285" y2="205" stroke="#1d4ed8" stroke-width="2.4"/>
+  <text x="262" y="223" font-size="12" fill="#1d4ed8">f&#8321; = 0</text>
+
+  <!-- optimum x* -->
+  <circle cx="160" cy="205" r="4.5" fill="#111111"/>
+  <text x="150" y="228" font-size="13" fill="#111111" font-style="italic">x*</text>
+
+  <!-- gradient of constraint (outward normal, up) -->
+  <line x1="176" y1="205" x2="176" y2="150" stroke="#1d4ed8" stroke-width="2.2" marker-end="url(#ab)"/>
+  <text x="182" y="168" font-size="12" fill="#1d4ed8">&#8711;f&#8321;</text>
+
+  <!-- -grad f0 (up, parallel) -->
+  <line x1="144" y1="205" x2="144" y2="150" stroke="#b91c1c" stroke-width="2.2" marker-end="url(#ar)"/>
+  <text x="104" y="168" font-size="12" fill="#b91c1c">-&#8711;f&#8320;</text>
+
+  <!-- divider -->
+  <line x1="320" y1="20" x2="320" y2="320" stroke="#dddddd" stroke-width="1.5"/>
+
+  <!-- ============ RIGHT PANEL: two active constraints (a vertex) ============ -->
+  <text x="480" y="30" font-size="15" font-weight="bold" fill="#111111" text-anchor="middle">Two active constraints (a vertex)</text>
+  <text x="480" y="48" font-size="12" fill="#444444" text-anchor="middle">-&#8711;f&#8320; = &#955;&#8321;&#8711;f&#8321; + &#955;&#8322;&#8711;f&#8322;,  &#955;&#8305; &#8805; 0</text>
+
+  <!-- feasible downward wedge -->
+  <polygon points="470,210 388,315 552,315" fill="#2563eb" fill-opacity="0.13"/>
+  <text x="470" y="300" font-size="12" fill="#1d4ed8" text-anchor="middle">feasible</text>
+
+  <!-- cone of the two constraint gradients (upward wedge), faint -->
+  <polygon points="470,210 428,120 512,120" fill="#059669" fill-opacity="0.15"/>
+  <text x="470" y="112" font-size="11" fill="#047857" text-anchor="middle">cone of &#8711;f&#8321;, &#8711;f&#8322;</text>
+
+  <!-- boundary lines -->
+  <line x1="470" y1="210" x2="378" y2="317" stroke="#1d4ed8" stroke-width="2.2"/>
+  <line x1="470" y1="210" x2="562" y2="317" stroke="#1d4ed8" stroke-width="2.2"/>
+  <text x="360" y="300" font-size="12" fill="#1d4ed8">f&#8321;=0</text>
+  <text x="566" y="300" font-size="12" fill="#1d4ed8">f&#8322;=0</text>
+
+  <!-- vertex x* -->
+  <circle cx="470" cy="210" r="4.5" fill="#111111"/>
+  <text x="478" y="228" font-size="13" fill="#111111" font-style="italic">x*</text>
+
+  <!-- gradient normals (outward, up-left and up-right) -->
+  <line x1="470" y1="210" x2="426" y2="166" stroke="#047857" stroke-width="2.2" marker-end="url(#ag)"/>
+  <text x="404" y="162" font-size="12" fill="#047857">&#8711;f&#8321;</text>
+  <line x1="470" y1="210" x2="514" y2="166" stroke="#047857" stroke-width="2.2" marker-end="url(#ag)"/>
+  <text x="520" y="162" font-size="12" fill="#047857">&#8711;f&#8322;</text>
+
+  <!-- -grad f0 straight up, inside the cone -->
+  <line x1="470" y1="210" x2="470" y2="150" stroke="#b91c1c" stroke-width="2.4" marker-end="url(#ar)"/>
+  <text x="476" y="146" font-size="12" fill="#b91c1c">-&#8711;f&#8320;</text>
+
+  <defs>
+    <marker id="ab" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L7,3 L0,6 z" fill="#1d4ed8"/>
+    </marker>
+    <marker id="ar" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L7,3 L0,6 z" fill="#b91c1c"/>
+    </marker>
+    <marker id="ag" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L7,3 L0,6 z" fill="#047857"/>
+    </marker>
+  </defs>
+</svg>

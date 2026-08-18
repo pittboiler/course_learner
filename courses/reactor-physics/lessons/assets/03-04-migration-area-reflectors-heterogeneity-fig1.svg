@@ -1,0 +1,45 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="26" fill="#8a8a8a" font-style="italic">A reflector returns leaking neutrons: edge flux lifts, critical core shrinks by the saving &#948;.</text>
+
+  <!-- reflector region shading -->
+  <rect x="340" y="70" width="90" height="210" fill="#8a8a8a" opacity="0.12"/>
+  <text x="352" y="92" fill="#8a8a8a">reflector</text>
+
+  <!-- axes -->
+  <line x1="60" y1="280" x2="600" y2="280" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="600,280 590,275 590,285" fill="#8a8a8a"/>
+  <text x="470" y="300" fill="#8a8a8a">r (distance from core center)</text>
+  <line x1="60" y1="280" x2="60" y2="66" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="60,66 55,76 65,76" fill="#8a8a8a"/>
+  <text x="40" y="72" fill="#8a8a8a">&#966;</text>
+  <text x="46" y="296" fill="#8a8a8a">0</text>
+
+  <!-- interface + bare-edge markers -->
+  <line x1="340" y1="175" x2="340" y2="280" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="410" y1="280" x2="410" y2="120" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- bare critical flux (blue): quarter cosine reaching zero at the bare edge -->
+  <path d="M 60 90 L 95 92.3 L 130 99.3 L 165 110.7 L 200 126.3 L 235 145.7 L 270 168.3 L 305 193.7 L 340 221.3 L 375 250.4 L 410 280"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="300" y="238" fill="#4a90d9">bare core</text>
+
+  <!-- reflected flux (coral): flatter across a smaller core, non-zero at the interface, tail into reflector -->
+  <path d="M 60 90 L 95 91.6 L 130 96.5 L 165 104.4 L 200 114.9 L 235 127.7 L 270 142.4 L 305 158.3 L 340 175 L 365 200 L 390 228 L 410 250 L 430 270"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+  <text x="250" y="130" fill="#e0645c">reflected core</text>
+
+  <!-- reflector saving delta bracket -->
+  <line x1="340" y1="266" x2="410" y2="266" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="340,266 349,262 349,270" fill="#e0645c"/>
+  <polygon points="410,266 401,262 401,270" fill="#e0645c"/>
+  <text x="368" y="260" fill="#e0645c">&#948;</text>
+
+  <!-- edge labels -->
+  <text x="316" y="296" fill="#8a8a8a">R&#8321;</text>
+  <text x="396" y="116" fill="#8a8a8a">R&#8320;</text>
+
+  <!-- legend note -->
+  <text x="452" y="150" fill="#8a8a8a">R&#8320; = bare critical</text>
+  <text x="452" y="170" fill="#8a8a8a">R&#8321; = R&#8320; &#8722; &#948;</text>
+</svg>

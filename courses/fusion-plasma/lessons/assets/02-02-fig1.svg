@@ -1,0 +1,49 @@
+<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Poloidal cross-section: nested flux surfaces &#968; = const. Pressure is constant on each surface;</text>
+  <text x="30" y="42" fill="#8a8a8a" font-style="italic">the hot core (magnetic axis) is pushed outward &#8212; the Shafranov shift &#916;.</text>
+
+  <!-- ===== axes ===== -->
+  <!-- Z axis -->
+  <line x1="70" y1="345" x2="70" y2="70" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,70 65,80 75,80" fill="#8a8a8a"/>
+  <text x="58" y="80" fill="#8a8a8a">Z</text>
+  <!-- R axis -->
+  <line x1="70" y1="345" x2="610" y2="345" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="610,345 600,340 600,350" fill="#8a8a8a"/>
+  <text x="596" y="366" fill="#8a8a8a">R</text>
+
+  <!-- geometric center of the boundary (R0) -->
+  <line x1="330" y1="70" x2="330" y2="335" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="300" y="332" fill="#8a8a8a">R&#8320;</text>
+
+  <!-- ===== nested flux surfaces (blue), centers shift outward as they shrink ===== -->
+  <circle cx="330" cy="200" r="125" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <circle cx="346" cy="200" r="97"  fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="360" cy="200" r="70"  fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="372" cy="200" r="44"  fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="380" cy="200" r="20"  fill="none" stroke="#4a90d9" stroke-width="2"/>
+
+  <!-- one labelled surface -->
+  <text x="120" y="205" fill="#4a90d9">&#968; = const</text>
+  <line x1="180" y1="200" x2="205" y2="200" stroke="#4a90d9" stroke-width="1"/>
+
+  <!-- pressure increases inward: coral arrow along the midline toward the axis -->
+  <line x1="250" y1="200" x2="360" y2="200" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="360,200 351,196 351,204" fill="#e0645c"/>
+  <text x="255" y="222" fill="#e0645c">&#8711;p (p rises inward)</text>
+
+  <!-- magnetic axis -->
+  <circle cx="386" cy="200" r="4.5" fill="#e0645c"/>
+  <text x="398" y="205" fill="#e0645c">magnetic axis (p max)</text>
+
+  <!-- Shafranov shift: from geometric center to magnetic axis -->
+  <line x1="330" y1="150" x2="386" y2="150" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="386,150 377,146 377,154" fill="#e0645c"/>
+  <line x1="330" y1="140" x2="330" y2="160" stroke="#e0645c" stroke-width="1"/>
+  <text x="342" y="136" fill="#e0645c">&#916;</text>
+
+  <!-- inboard / outboard labels -->
+  <text x="150" y="330" fill="#8a8a8a">inboard</text>
+  <text x="470" y="330" fill="#8a8a8a">outboard</text>
+</svg>

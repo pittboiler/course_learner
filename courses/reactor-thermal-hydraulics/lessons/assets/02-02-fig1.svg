@@ -1,0 +1,77 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="24" y="24" fill="#8a8a8a" font-style="italic">Convection is the last resistance: T falls across a thin film to the bulk, a drop &#916;T_film = q''/h.</text>
+
+  <!-- ===== left panel: film temperature profile ===== -->
+
+  <!-- temperature axis -->
+  <line x1="110" y1="262" x2="110" y2="70" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="110,70 105,80 115,80" fill="#8a8a8a"/>
+  <text x="116" y="76" fill="#8a8a8a">T</text>
+  <!-- distance axis -->
+  <line x1="110" y1="262" x2="368" y2="262" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="368,262 358,257 358,267" fill="#8a8a8a"/>
+  <text x="150" y="284" fill="#8a8a8a">distance from wall into coolant</text>
+
+  <!-- clad wall strip -->
+  <rect x="92" y="82" width="18" height="180" fill="#e0645c" opacity="0.15"/>
+  <line x1="92" y1="100" x2="110" y2="88" stroke="#e0645c" stroke-width="1"/>
+  <line x1="92" y1="130" x2="110" y2="118" stroke="#e0645c" stroke-width="1"/>
+  <line x1="92" y1="160" x2="110" y2="148" stroke="#e0645c" stroke-width="1"/>
+  <line x1="92" y1="190" x2="110" y2="178" stroke="#e0645c" stroke-width="1"/>
+  <line x1="92" y1="220" x2="110" y2="208" stroke="#e0645c" stroke-width="1"/>
+  <line x1="92" y1="250" x2="110" y2="238" stroke="#e0645c" stroke-width="1"/>
+  <text x="70" y="300" fill="#e0645c">clad</text>
+
+  <!-- temperature levels -->
+  <line x1="110" y1="95" x2="368" y2="95" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="228" y1="185" x2="368" y2="185" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="372" y="99" fill="#8a8a8a">T_co</text>
+  <text x="372" y="189" fill="#8a8a8a">T_b</text>
+
+  <!-- q'' heat-out arrow -->
+  <line x1="112" y1="82" x2="152" y2="82" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="152,82 143,78 143,86" fill="#e0645c"/>
+  <text x="156" y="86" fill="#e0645c">q''</text>
+
+  <!-- temperature profile: steep near wall, flattens to bulk -->
+  <path d="M110,95 C150,120 188,181 228,185 L368,185" fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- film drop marker -->
+  <line x1="124" y1="97" x2="124" y2="183" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="124,97 120,106 128,106" fill="#e0645c"/>
+  <polygon points="124,183 120,174 128,174" fill="#e0645c"/>
+  <text x="150" y="150" fill="#e0645c">&#916;T_film = q''/h</text>
+
+  <!-- boundary-layer thickness -->
+  <line x1="228" y1="185" x2="228" y2="252" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="128" y="250" fill="#8a8a8a">boundary layer &#948;</text>
+  <text x="286" y="205" fill="#8a8a8a">bulk coolant</text>
+
+  <!-- ===== right inset: rod-bundle unit cell ===== -->
+  <text x="440" y="96" fill="#8a8a8a">rod-bundle unit cell</text>
+
+  <!-- flow area = square minus rod (even-odd fill) -->
+  <path d="M445,105 H585 V245 H445 Z M515,175 m-53,0 a53,53 0 1,0 106,0 a53,53 0 1,0 -106,0 Z" fill="#4a90d9" fill-opacity="0.13" fill-rule="evenodd" stroke="none"/>
+  <rect x="445" y="105" width="140" height="140" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <circle cx="515" cy="175" r="53" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <text x="500" y="200" fill="#e0645c">rod</text>
+
+  <!-- d marker across rod -->
+  <line x1="462" y1="175" x2="568" y2="175" stroke="#e0645c" stroke-width="1"/>
+  <polygon points="462,175 471,171 471,179" fill="#e0645c"/>
+  <polygon points="568,175 559,171 559,179" fill="#e0645c"/>
+  <text x="509" y="168" fill="#e0645c">d</text>
+
+  <!-- p marker along pitch -->
+  <line x1="445" y1="256" x2="585" y2="256" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="445,256 454,252 454,260" fill="#8a8a8a"/>
+  <polygon points="585,256 576,252 576,260" fill="#8a8a8a"/>
+  <text x="510" y="252" fill="#8a8a8a">p</text>
+  <text x="490" y="203" fill="#4a90d9">flow</text>
+
+  <!-- formulas -->
+  <text x="432" y="290" fill="#8a8a8a">A = p&#178; &#8722; &#960;d&#178;/4</text>
+  <text x="432" y="310" fill="#8a8a8a">P = &#960;d</text>
+  <text x="432" y="332" fill="#e0645c" font-weight="bold">D_h = 4A / P</text>
+</svg>

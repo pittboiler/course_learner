@@ -1,0 +1,42 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="15">
+  <!-- caption -->
+  <text x="40" y="26" fill="#8a8a8a" font-style="italic">The thermodynamic square: each edge is a potential, flanked by its two natural variables.</text>
+
+  <!-- ===== the square frame (grey structure) ===== -->
+  <line x1="210" y1="110" x2="410" y2="110" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="410" y1="110" x2="410" y2="310" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="410" y1="310" x2="210" y2="310" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="210" y1="310" x2="210" y2="110" stroke="#8a8a8a" stroke-width="2"/>
+
+  <!-- diagonals: differentiate a potential -> the diagonally opposite corner (grey, arrows up) -->
+  <line x1="210" y1="310" x2="402" y2="118" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <polygon points="410,110 398,113 405,120" fill="#8a8a8a"/>
+  <line x1="410" y1="310" x2="218" y2="118" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <polygon points="210,110 215,120 222,113" fill="#8a8a8a"/>
+
+  <!-- ===== corner variables (grey) ===== -->
+  <text x="180" y="106" fill="#8a8a8a" font-weight="bold">V</text>
+  <text x="424" y="106" fill="#8a8a8a" font-weight="bold">T</text>
+  <text x="180" y="326" fill="#8a8a8a" font-weight="bold">S</text>
+  <text x="424" y="326" fill="#8a8a8a" font-weight="bold">p</text>
+
+  <!-- ===== potentials on the edges (blue) ===== -->
+  <text x="303" y="100" fill="#4a90d9" font-weight="bold" font-size="18">A</text>
+  <text x="186" y="216" fill="#4a90d9" font-weight="bold" font-size="18">U</text>
+  <text x="303" y="332" fill="#4a90d9" font-weight="bold" font-size="18">H</text>
+  <text x="420" y="216" fill="#4a90d9" font-weight="bold" font-size="18">G</text>
+
+  <!-- little reminders of the four differentials (blue, faint) -->
+  <text x="255" y="128" fill="#4a90d9" font-size="11" opacity="0.85">A(T,V)</text>
+  <text x="255" y="300" fill="#4a90d9" font-size="11" opacity="0.85">H(S,p)</text>
+
+  <!-- ===== coral: the G Maxwell relation, read off the corners ===== -->
+  <text x="200" y="366" fill="#e0645c" font-size="15">From G:</text>
+  <text x="265" y="366" fill="#e0645c" font-size="15">(&#8706;S/&#8706;p)&#8348; = &#8722;(&#8706;V/&#8706;T)&#8346;</text>
+  <!-- coral dashed link pairing bottom edge (S,p) with top edge (V,T) -->
+  <line x1="210" y1="310" x2="410" y2="110" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="2 5" opacity="0.9"/>
+  <circle cx="210" cy="310" r="4" fill="none" stroke="#e0645c" stroke-width="1.5"/>
+  <circle cx="410" cy="310" r="4" fill="none" stroke="#e0645c" stroke-width="1.5"/>
+  <circle cx="210" cy="110" r="4" fill="none" stroke="#e0645c" stroke-width="1.5"/>
+  <circle cx="410" cy="110" r="4" fill="none" stroke="#e0645c" stroke-width="1.5"/>
+</svg>

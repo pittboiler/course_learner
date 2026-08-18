@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="720" height="360" fill="#ffffff"/>
+  <defs>
+    <marker id="ax5" markerWidth="10" markerHeight="10" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#111111"/>
+    </marker>
+    <marker id="dn5" markerWidth="12" markerHeight="12" refX="4" refY="9" orient="auto">
+      <path d="M0,0 L8,0 L4,9 Z" fill="#111111"/>
+    </marker>
+  </defs>
+
+  <!-- ============ Panel A: the doubling map graph ============ -->
+  <text x="180" y="34" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">Doubling map:  x &#8614; 2x mod 1</text>
+
+  <!-- axes -->
+  <line x1="70" y1="300" x2="308" y2="300" stroke="#111111" stroke-width="1.5" marker-end="url(#ax5)"/>
+  <line x1="70" y1="305" x2="70" y2="68" stroke="#111111" stroke-width="1.5" marker-end="url(#ax5)"/>
+  <text x="312" y="304" font-size="13" fill="#111111">x&#8345;</text>
+  <text x="60" y="64" font-size="13" fill="#111111" text-anchor="middle">x&#8345;&#8330;&#8321;</text>
+
+  <!-- tick labels -->
+  <text x="66" y="316" font-size="11" fill="#555555" text-anchor="middle">0</text>
+  <text x="180" y="316" font-size="11" fill="#555555" text-anchor="middle">&#189;</text>
+  <text x="290" y="316" font-size="11" fill="#555555" text-anchor="middle">1</text>
+  <text x="60" y="84" font-size="11" fill="#555555" text-anchor="end">1</text>
+
+  <!-- diagonal y = x -->
+  <line x1="70" y1="300" x2="290" y2="80" stroke="#999999" stroke-width="1.4" stroke-dasharray="5 4"/>
+  <text x="256" y="108" font-size="11" fill="#777777">y = x</text>
+
+  <!-- discontinuity marker at x = 1/2 -->
+  <line x1="180" y1="300" x2="180" y2="80" stroke="#cccccc" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- branch 1: y = 2x on [0, 1/2) -->
+  <line x1="70" y1="300" x2="180" y2="80" stroke="#1a6feb" stroke-width="2.8"/>
+  <!-- branch 2: y = 2x - 1 on [1/2, 1) -->
+  <line x1="180" y1="300" x2="290" y2="80" stroke="#1a6feb" stroke-width="2.8"/>
+  <!-- open/closed dots at the jump -->
+  <circle cx="180" cy="80" r="3.2" fill="#ffffff" stroke="#1a6feb" stroke-width="2"/>
+  <circle cx="180" cy="300" r="3.2" fill="#1a6feb"/>
+
+  <text x="150" y="345" text-anchor="middle" font-size="11" fill="#333333">slope 2 everywhere &#8594; stretches, then wraps</text>
+
+  <!-- ============ Panel B: the shift on binary digits ============ -->
+  <text x="530" y="34" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">= left-shift on the binary digits</text>
+
+  <!-- top row -->
+  <text x="392" y="122" font-size="13" fill="#111111">x&#8345; = 0.</text>
+  <g font-size="14" text-anchor="middle" fill="#111111">
+    <rect x="440" y="100" width="30" height="34" fill="#fce4e4" stroke="#c0392b" stroke-width="1.8"/>
+    <text x="455" y="122">b&#8321;</text>
+    <rect x="474" y="100" width="30" height="34" fill="none" stroke="#111111" stroke-width="1.3"/>
+    <text x="489" y="122">b&#8322;</text>
+    <rect x="508" y="100" width="30" height="34" fill="none" stroke="#111111" stroke-width="1.3"/>
+    <text x="523" y="122">b&#8323;</text>
+    <rect x="542" y="100" width="30" height="34" fill="none" stroke="#111111" stroke-width="1.3"/>
+    <text x="557" y="122">b&#8324;</text>
+    <rect x="576" y="100" width="30" height="34" fill="none" stroke="#111111" stroke-width="1.3"/>
+    <text x="591" y="122">b&#8325;</text>
+    <text x="626" y="122">&#8230;</text>
+  </g>
+  <text x="455" y="152" text-anchor="middle" font-size="10.5" fill="#c0392b">s&#8320; = which half</text>
+
+  <!-- arrow -->
+  <line x1="530" y1="166" x2="530" y2="196" stroke="#111111" stroke-width="1.6" marker-end="url(#dn5)"/>
+  <text x="545" y="186" font-size="11.5" fill="#333333">shift left, drop b&#8321;</text>
+
+  <!-- bottom row (shifted) -->
+  <text x="380" y="240" font-size="13" fill="#111111">x&#8345;&#8330;&#8321; = 0.</text>
+  <g font-size="14" text-anchor="middle" fill="#111111">
+    <rect x="440" y="218" width="30" height="34" fill="#fce4e4" stroke="#c0392b" stroke-width="1.8"/>
+    <text x="455" y="240">b&#8322;</text>
+    <rect x="474" y="218" width="30" height="34" fill="none" stroke="#111111" stroke-width="1.3"/>
+    <text x="489" y="240">b&#8323;</text>
+    <rect x="508" y="218" width="30" height="34" fill="none" stroke="#111111" stroke-width="1.3"/>
+    <text x="523" y="240">b&#8324;</text>
+    <rect x="542" y="218" width="30" height="34" fill="none" stroke="#111111" stroke-width="1.3"/>
+    <text x="557" y="240">b&#8325;</text>
+    <rect x="576" y="218" width="30" height="34" fill="none" stroke="#2e7d32" stroke-width="1.8" stroke-dasharray="4 3"/>
+    <text x="591" y="240">b&#8326;</text>
+    <text x="626" y="240">&#8230;</text>
+  </g>
+  <text x="455" y="270" text-anchor="middle" font-size="10.5" fill="#c0392b">s&#8321; = new half</text>
+
+  <text x="530" y="320" text-anchor="middle" font-size="11.5" fill="#333333">the n-th bit surfaces only after n steps</text>
+  <text x="530" y="338" text-anchor="middle" font-size="11.5" fill="#2e7d32" font-weight="bold">&#8594; sensitive dependence</text>
+</svg>

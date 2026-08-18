@@ -1,0 +1,69 @@
+<svg viewBox="0 0 680 560" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">The SCF loop: guess a field, solve for orbitals, rebuild the field from them, repeat until it stops changing.</text>
+
+  <!-- ===== process boxes (grey) ===== -->
+
+  <!-- Box 1: initial guess -->
+  <rect x="210" y="48" width="240" height="46" rx="5" fill="#8a8a8a" fill-opacity="0.10" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="330" y="70" fill="#8a8a8a" text-anchor="middle">Initial guess</text>
+  <text x="330" y="87" fill="#8a8a8a" text-anchor="middle">orbitals / density P(0)</text>
+
+  <!-- arrow 1 -->
+  <line x1="330" y1="94" x2="330" y2="120" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="330,122 325,113 335,113" fill="#8a8a8a"/>
+
+  <!-- Box 2: build Fock -->
+  <rect x="210" y="124" width="240" height="46" rx="5" fill="#4a90d9" fill-opacity="0.14" stroke="#4a90d9" stroke-width="2"/>
+  <text x="330" y="146" fill="#4a90d9" text-anchor="middle">Build Fock operator</text>
+  <text x="330" y="163" fill="#4a90d9" text-anchor="middle">F[P] from current density</text>
+
+  <!-- arrow 2 -->
+  <line x1="330" y1="170" x2="330" y2="196" stroke="#4a90d9" stroke-width="1.5"/>
+  <polygon points="330,198 325,189 335,189" fill="#4a90d9"/>
+
+  <!-- Box 3: solve -->
+  <rect x="210" y="200" width="240" height="46" rx="5" fill="#4a90d9" fill-opacity="0.14" stroke="#4a90d9" stroke-width="2"/>
+  <text x="330" y="222" fill="#4a90d9" text-anchor="middle">Solve  F &#967;&#7522; = &#949;&#7522; &#967;&#7522;</text>
+  <text x="330" y="239" fill="#4a90d9" text-anchor="middle">new orbitals { &#967;&#7522; }</text>
+
+  <!-- arrow 3 -->
+  <line x1="330" y1="246" x2="330" y2="272" stroke="#4a90d9" stroke-width="1.5"/>
+  <polygon points="330,274 325,265 335,265" fill="#4a90d9"/>
+
+  <!-- Box 4: new density -->
+  <rect x="210" y="276" width="240" height="46" rx="5" fill="#4a90d9" fill-opacity="0.14" stroke="#4a90d9" stroke-width="2"/>
+  <text x="330" y="298" fill="#4a90d9" text-anchor="middle">Form new density</text>
+  <text x="330" y="315" fill="#4a90d9" text-anchor="middle">P from occupied { &#967;&#7522; }</text>
+
+  <!-- arrow 4 -->
+  <line x1="330" y1="322" x2="330" y2="348" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="330,350 325,341 335,341" fill="#8a8a8a"/>
+
+  <!-- decision diamond (coral) -->
+  <polygon points="330,352 452,404 330,456 208,404" fill="#e0645c" fill-opacity="0.12" stroke="#e0645c" stroke-width="2"/>
+  <text x="330" y="399" fill="#e0645c" text-anchor="middle">Converged?</text>
+  <text x="330" y="416" fill="#e0645c" text-anchor="middle">&#916;E, &#916;P &lt; tol</text>
+
+  <!-- yes arrow -->
+  <line x1="330" y1="456" x2="330" y2="484" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="330,486 325,477 335,477" fill="#e0645c"/>
+  <text x="340" y="475" fill="#e0645c">yes</text>
+
+  <!-- output box (coral) -->
+  <rect x="188" y="488" width="284" height="50" rx="5" fill="#e0645c" fill-opacity="0.12" stroke="#e0645c" stroke-width="2"/>
+  <text x="330" y="510" fill="#e0645c" text-anchor="middle">Self-consistent field</text>
+  <text x="330" y="527" fill="#e0645c" text-anchor="middle">energy E, orbitals { &#967;&#7522; }, { &#949;&#7522; }</text>
+
+  <!-- no loop-back arrow (blue): diamond left -> up -> into Box 2 -->
+  <polyline points="208,404 100,404 100,147 208,147" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="208,147 199,142 199,152" fill="#4a90d9"/>
+  <text x="108" y="280" fill="#4a90d9">no &#8212; iterate</text>
+
+  <!-- self-consistency annotation (right, grey/coral) -->
+  <text x="478" y="196" fill="#8a8a8a">F[P] is built from</text>
+  <text x="478" y="213" fill="#8a8a8a">the orbitals it</text>
+  <text x="478" y="230" fill="#8a8a8a">will produce &#8212;</text>
+  <text x="478" y="247" fill="#e0645c">that loop is the</text>
+  <text x="478" y="264" fill="#e0645c">self-consistency.</text>
+</svg>

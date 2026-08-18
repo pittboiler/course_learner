@@ -1,0 +1,54 @@
+<svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Fission power tracks the neutron flux: an axial cosine q'(z), peaked at the core midplane.</text>
+
+  <!-- ===== fuel rod (left) ===== -->
+  <rect x="70" y="50" width="40" height="240" fill="#4a90d9" opacity="0.12" stroke="#4a90d9" stroke-width="2"/>
+  <!-- pellet-stack hint -->
+  <line x1="70" y1="80"  x2="110" y2="80"  stroke="#8a8a8a" stroke-width="0.6"/>
+  <line x1="70" y1="110" x2="110" y2="110" stroke="#8a8a8a" stroke-width="0.6"/>
+  <line x1="70" y1="140" x2="110" y2="140" stroke="#8a8a8a" stroke-width="0.6"/>
+  <line x1="70" y1="170" x2="110" y2="170" stroke="#8a8a8a" stroke-width="0.6"/>
+  <line x1="70" y1="200" x2="110" y2="200" stroke="#8a8a8a" stroke-width="0.6"/>
+  <line x1="70" y1="230" x2="110" y2="230" stroke="#8a8a8a" stroke-width="0.6"/>
+  <line x1="70" y1="260" x2="110" y2="260" stroke="#8a8a8a" stroke-width="0.6"/>
+  <text x="72" y="308" fill="#4a90d9">fuel pin</text>
+
+  <!-- active-length H dimension -->
+  <line x1="52" y1="50" x2="52" y2="290" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="52,50 48,60 56,60" fill="#8a8a8a"/>
+  <polygon points="52,290 48,280 56,280" fill="#8a8a8a"/>
+  <text x="40" y="174" fill="#8a8a8a">H</text>
+
+  <!-- extrapolated-length L_e dimension -->
+  <line x1="26" y1="37" x2="26" y2="303" stroke="#e0645c" stroke-width="1"/>
+  <polygon points="26,37 22,47 30,47" fill="#e0645c"/>
+  <polygon points="26,303 22,293 30,293" fill="#e0645c"/>
+  <text x="12" y="174" fill="#e0645c">L<tspan font-size="10" dy="4">e</tspan></text>
+
+  <!-- ===== q'(z) plot (right) ===== -->
+  <!-- z-axis / q'=0 line -->
+  <line x1="200" y1="303" x2="200" y2="40" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="200,40 195,50 205,50" fill="#8a8a8a"/>
+  <text x="188" y="40" fill="#8a8a8a">z</text>
+  <!-- q' horizontal direction -->
+  <line x1="200" y1="303" x2="368" y2="303" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="368,303 358,299 358,307" fill="#8a8a8a"/>
+  <text x="360" y="322" fill="#8a8a8a">q'</text>
+
+  <!-- midplane -->
+  <line x1="110" y1="170" x2="352" y2="170" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="252" y="164" fill="#8a8a8a" font-size="12">midplane (z = 0)</text>
+
+  <!-- cosine profile, solid across the active length -->
+  <path d="M 223 50 L 264 74 L 299 98 L 327 122 L 344 146 L 350 170 L 344 194 L 327 218 L 299 242 L 264 266 L 223 290"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <!-- extrapolated tails to the zero crossings -->
+  <path d="M 200 37 L 223 50" fill="none" stroke="#4a90d9" stroke-width="2" stroke-dasharray="4 4"/>
+  <path d="M 223 290 L 200 303" fill="none" stroke="#4a90d9" stroke-width="2" stroke-dasharray="4 4"/>
+
+  <!-- q'_max marker -->
+  <line x1="200" y1="170" x2="350" y2="170" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="350,170 341,166 341,174" fill="#e0645c"/>
+  <text x="300" y="188" fill="#e0645c">q'<tspan font-size="10" dy="4">max</tspan></text>
+</svg>

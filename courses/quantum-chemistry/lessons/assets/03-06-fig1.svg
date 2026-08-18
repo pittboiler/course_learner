@@ -1,0 +1,89 @@
+<svg viewBox="0 0 640 460" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">The Kohn&#8211;Sham trick: swap the real interacting electrons for a fake non-interacting system with the SAME density.</text>
+
+  <!-- ===== top: the KS mapping ===== -->
+
+  <!-- real interacting box -->
+  <rect x="30" y="44" width="230" height="92" rx="6" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="145" y="64" fill="#8a8a8a" text-anchor="middle" font-size="13">real: interacting electrons</text>
+  <circle cx="90" cy="102" r="9" fill="#4a90d9" opacity="0.25" stroke="#4a90d9" stroke-width="1.5"/>
+  <circle cx="145" cy="90" r="9" fill="#4a90d9" opacity="0.25" stroke="#4a90d9" stroke-width="1.5"/>
+  <circle cx="200" cy="108" r="9" fill="#4a90d9" opacity="0.25" stroke="#4a90d9" stroke-width="1.5"/>
+  <path d="M 99 100 Q 117 88 136 91" fill="none" stroke="#e0645c" stroke-width="1.3" stroke-dasharray="3 3"/>
+  <path d="M 154 94 Q 176 96 191 104" fill="none" stroke="#e0645c" stroke-width="1.3" stroke-dasharray="3 3"/>
+  <path d="M 96 110 Q 145 132 194 116" fill="none" stroke="#e0645c" stroke-width="1.3" stroke-dasharray="3 3"/>
+  <text x="145" y="130" fill="#e0645c" text-anchor="middle" font-size="11">1/r repulsion (hard)</text>
+
+  <!-- fictitious KS box -->
+  <rect x="380" y="44" width="230" height="92" rx="6" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="495" y="64" fill="#8a8a8a" text-anchor="middle" font-size="13">fictitious: KS orbitals &#966;&#7522;</text>
+  <line x1="410" y1="118" x2="450" y2="118" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="410" y1="100" x2="450" y2="100" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="410" y1="82" x2="450" y2="82" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="475" y1="118" x2="515" y2="118" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="475" y1="100" x2="515" y2="100" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="540" y1="118" x2="580" y2="118" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="495" y="132" fill="#4a90d9" text-anchor="middle" font-size="11">no repulsion (solvable)</text>
+
+  <!-- bridge arrow -->
+  <line x1="262" y1="90" x2="378" y2="90" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="378,90 368,85 368,95" fill="#8a8a8a"/>
+  <polygon points="262,90 272,85 272,95" fill="#8a8a8a"/>
+  <text x="320" y="82" fill="#4a90d9" text-anchor="middle" font-weight="bold">same &#961;(r)</text>
+
+  <!-- ===== middle: energy decomposition ===== -->
+  <text x="20" y="182" fill="#8a8a8a" font-size="13">Total energy, split into pieces we can compute &#8212; plus one we can&#8217;t:</text>
+
+  <text x="46" y="222" fill="#8a8a8a" font-size="16">E[&#961;] =</text>
+
+  <rect x="108" y="200" width="88" height="34" rx="4" fill="none" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="152" y="222" fill="#4a90d9" text-anchor="middle" font-size="15">T&#8347;[{&#966;}]</text>
+  <text x="202" y="222" fill="#8a8a8a" font-size="16">+</text>
+
+  <rect x="216" y="200" width="80" height="34" rx="4" fill="none" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="256" y="222" fill="#4a90d9" text-anchor="middle" font-size="15">V&#8345;&#8337;[&#961;]</text>
+  <text x="302" y="222" fill="#8a8a8a" font-size="16">+</text>
+
+  <rect x="316" y="200" width="72" height="34" rx="4" fill="none" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="352" y="222" fill="#4a90d9" text-anchor="middle" font-size="15">J[&#961;]</text>
+  <text x="394" y="222" fill="#8a8a8a" font-size="16">+</text>
+
+  <rect x="408" y="198" width="112" height="38" rx="4" fill="#e0645c" opacity="0.15" stroke="#e0645c" stroke-width="2"/>
+  <text x="464" y="222" fill="#e0645c" text-anchor="middle" font-size="15" font-weight="bold">E&#8339;&#8339;[&#961;]</text>
+  <line x1="464" y1="236" x2="464" y2="262" stroke="#e0645c" stroke-width="1.2"/>
+  <polygon points="464,262 460,253 468,253" fill="#e0645c"/>
+  <text x="464" y="280" fill="#e0645c" text-anchor="middle" font-size="12">unknown &#8594; approximated</text>
+
+  <!-- labels under the computable terms -->
+  <text x="152" y="252" fill="#8a8a8a" text-anchor="middle" font-size="10">exact KE</text>
+  <text x="152" y="264" fill="#8a8a8a" text-anchor="middle" font-size="10">of orbitals</text>
+  <text x="256" y="252" fill="#8a8a8a" text-anchor="middle" font-size="10">nuclear</text>
+  <text x="256" y="264" fill="#8a8a8a" text-anchor="middle" font-size="10">attraction</text>
+  <text x="352" y="252" fill="#8a8a8a" text-anchor="middle" font-size="10">classical</text>
+  <text x="352" y="264" fill="#8a8a8a" text-anchor="middle" font-size="10">Coulomb</text>
+
+  <!-- ===== bottom: the functional ladder ===== -->
+  <text x="20" y="324" fill="#8a8a8a" font-size="13">Jacob&#8217;s ladder &#8212; better E&#8339;&#8339; approximations, higher cost:</text>
+
+  <!-- ladder rungs (coral), rising to the right -->
+  <line x1="60" y1="430" x2="120" y2="430" stroke="#e0645c" stroke-width="3"/>
+  <text x="90" y="448" fill="#e0645c" text-anchor="middle" font-size="12">LDA</text>
+  <text x="90" y="420" fill="#8a8a8a" text-anchor="middle" font-size="10">uniform gas</text>
+
+  <line x1="200" y1="404" x2="260" y2="404" stroke="#e0645c" stroke-width="3"/>
+  <text x="230" y="422" fill="#e0645c" text-anchor="middle" font-size="12">GGA</text>
+  <text x="230" y="394" fill="#8a8a8a" text-anchor="middle" font-size="10">+ &#8711;&#961; (PBE, BLYP)</text>
+
+  <line x1="340" y1="378" x2="400" y2="378" stroke="#e0645c" stroke-width="3"/>
+  <text x="370" y="396" fill="#e0645c" text-anchor="middle" font-size="12">meta-GGA</text>
+  <text x="370" y="368" fill="#8a8a8a" text-anchor="middle" font-size="10">+ KE density</text>
+
+  <line x1="490" y1="352" x2="580" y2="352" stroke="#e0645c" stroke-width="3.5"/>
+  <text x="535" y="370" fill="#e0645c" text-anchor="middle" font-size="12" font-weight="bold">hybrid</text>
+  <text x="535" y="342" fill="#8a8a8a" text-anchor="middle" font-size="10">+ exact HF exchange</text>
+  <text x="535" y="386" fill="#8a8a8a" text-anchor="middle" font-size="10">B3LYP, PBE0</text>
+
+  <!-- rising dashed guide -->
+  <path d="M 90 425 L 230 399 L 370 373 L 535 347" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 4"/>
+  <polygon points="535,347 526,349 530,357" fill="#8a8a8a"/>
+</svg>

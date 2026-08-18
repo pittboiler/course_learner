@@ -1,0 +1,39 @@
+<svg viewBox="0 0 680 380" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="680" height="380" fill="#ffffff"/>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#111111"/>
+    </marker>
+  </defs>
+
+  <!-- Box A: the sentence G -->
+  <rect x="40" y="150" width="210" height="90" rx="12" fill="#ffffff" stroke="#111111" stroke-width="2.5"/>
+  <text x="145" y="185" font-family="Helvetica, Arial, sans-serif" font-size="22" text-anchor="middle" fill="#111111">a sentence</text>
+  <text x="145" y="215" font-family="Helvetica, Arial, sans-serif" font-size="30" text-anchor="middle" fill="#111111" font-style="italic">G</text>
+
+  <!-- Box B: its Godel number -->
+  <rect x="430" y="40" width="210" height="90" rx="12" fill="#ffffff" stroke="#111111" stroke-width="2.5"/>
+  <text x="535" y="75" font-family="Helvetica, Arial, sans-serif" font-size="20" text-anchor="middle" fill="#111111">a natural number</text>
+  <text x="535" y="108" font-family="Helvetica, Arial, sans-serif" font-size="28" text-anchor="middle" fill="#111111">&#8988; G &#8989;</text>
+
+  <!-- Box C: the sentence asserting unprovability -->
+  <rect x="410" y="260" width="250" height="90" rx="12" fill="#ffffff" stroke="#111111" stroke-width="2.5"/>
+  <text x="535" y="295" font-family="Helvetica, Arial, sans-serif" font-size="19" text-anchor="middle" fill="#111111">the sentence saying</text>
+  <text x="535" y="325" font-family="Helvetica, Arial, sans-serif" font-size="21" text-anchor="middle" fill="#111111">&#8220;&#8988; G &#8989; is unprovable&#8221;</text>
+
+  <!-- A -> B : code it -->
+  <path d="M 250 168 Q 360 90 425 90" fill="none" stroke="#111111" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="330" y="108" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#111111">code it</text>
+
+  <!-- B -> C : plug into psi(x) = "x is unprovable" -->
+  <path d="M 535 130 L 535 255" fill="none" stroke="#111111" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="545" y="198" font-family="Helvetica, Arial, sans-serif" font-size="16" text-anchor="start" fill="#111111">plug into</text>
+  <text x="545" y="218" font-family="Helvetica, Arial, sans-serif" font-size="16" text-anchor="start" fill="#111111">&#968;(x) = &#8220;x unprovable&#8221;</text>
+
+  <!-- C -> A : diagonal lemma identifies this sentence WITH G -->
+  <path d="M 410 305 Q 220 300 175 245" fill="none" stroke="#111111" stroke-width="2.5" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+  <text x="285" y="332" font-family="Helvetica, Arial, sans-serif" font-size="16" text-anchor="middle" fill="#111111" font-style="italic">diagonal lemma: this sentence IS G</text>
+
+  <text x="145" y="285" font-family="Helvetica, Arial, sans-serif" font-size="16" text-anchor="middle" fill="#111111">so G says</text>
+  <text x="145" y="305" font-family="Helvetica, Arial, sans-serif" font-size="16" text-anchor="middle" fill="#111111">&#8220;I am unprovable&#8221;</text>
+</svg>

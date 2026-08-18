@@ -1,0 +1,31 @@
+<svg viewBox="0 0 520 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">One chain, two lengths: the grey random walk is a compact coil spanned by R;</text>
+  <text x="30" y="42" fill="#8a8a8a" font-style="italic">fully stretched, the same chain has contour length L = Nb &#8212; far longer.</text>
+
+  <!-- ===== the random-walk coil (grey) ===== -->
+  <path d="M 110 205 L 128 190 L 122 168 L 146 166 L 158 146 L 138 138 L 150 118 L 172 128 L 192 116 L 200 138 L 180 150 L 202 160 L 224 150 L 222 128 L 244 138 L 238 160 L 258 152 L 250 174 L 228 180 L 238 200 L 216 196"
+        fill="none" stroke="#8a8a8a" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- chain ends -->
+  <circle cx="110" cy="205" r="4" fill="#8a8a8a"/>
+  <circle cx="216" cy="196" r="4" fill="#8a8a8a"/>
+
+  <!-- end-to-end vector R (coral) -->
+  <line x1="110" y1="205" x2="216" y2="196" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="216,196 205,192 207,202" fill="#e0645c"/>
+  <text x="150" y="186" fill="#e0645c" font-style="italic">R</text>
+
+  <!-- ===== length comparison bars ===== -->
+  <!-- contour length L = Nb -->
+  <line x1="90" y1="262" x2="450" y2="262" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="90" y1="256" x2="90" y2="268" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="450" y1="256" x2="450" y2="268" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="242" y="256" fill="#8a8a8a">L = Nb</text>
+
+  <!-- coil size R -->
+  <line x1="90" y1="292" x2="196" y2="292" stroke="#e0645c" stroke-width="2.5"/>
+  <line x1="90" y1="286" x2="90" y2="298" stroke="#e0645c" stroke-width="2"/>
+  <line x1="196" y1="286" x2="196" y2="298" stroke="#e0645c" stroke-width="2"/>
+  <text x="120" y="286" fill="#e0645c" font-style="italic">R &#8776; &#8730;N&#160;b</text>
+</svg>

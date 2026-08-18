@@ -1,0 +1,52 @@
+<svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">The Langmuir binding curve: a hyperbola in [L], a sigmoid on a log axis. Half-full exactly at [L] = K_d.</text>
+
+  <!-- axes -->
+  <line x1="70" y1="60" x2="70" y2="280" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="60" y1="270" x2="492" y2="270" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="492,270 482,265 482,275" fill="#8a8a8a"/>
+  <polygon points="70,60 65,70 75,70" fill="#8a8a8a"/>
+
+  <!-- y-axis ticks and labels -->
+  <line x1="66" y1="270" x2="70" y2="270" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="66" y1="170" x2="70" y2="170" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="66" y1="70" x2="70" y2="70" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="42" y="274" fill="#8a8a8a">0</text>
+  <text x="34" y="174" fill="#8a8a8a">0.5</text>
+  <text x="34" y="74" fill="#8a8a8a">1.0</text>
+  <text x="18" y="150" fill="#8a8a8a" transform="rotate(-90 18 150)">p (fraction bound)</text>
+
+  <!-- saturation plateau -->
+  <line x1="70" y1="70" x2="480" y2="70" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="392" y="64" fill="#8a8a8a" font-style="italic">saturates → 1</text>
+
+  <!-- x-axis ticks -->
+  <line x1="136.67" y1="270" x2="136.67" y2="274" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="270" y1="270" x2="270" y2="274" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="403.33" y1="270" x2="403.33" y2="274" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="118" y="288" fill="#8a8a8a">0.01 K_d</text>
+  <text x="460" y="288" fill="#8a8a8a">[L] (log)</text>
+
+  <!-- the binding sigmoid p = [L]/(K_d + [L]) -->
+  <path d="M 70 270 L 136.67 268.0 L 170 263.9 L 203.33 251.8 L 236.67 222.0 L 253.33 198.0 L 270 170 L 286.67 142.0 L 303.33 118.0 L 336.67 88.2 L 370 76.2 L 403.33 72.0 L 470 70.2"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="352" y="130" fill="#4a90d9">p = [L] / (K_d + [L])</text>
+
+  <!-- half-occupancy point at [L] = K_d -->
+  <line x1="70" y1="170" x2="270" y2="170" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <line x1="270" y1="170" x2="270" y2="270" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <circle cx="270" cy="170" r="4.5" fill="#e0645c"/>
+  <text x="248" y="304" fill="#e0645c">K_d</text>
+  <text x="150" y="164" fill="#e0645c">p = ½</text>
+
+  <!-- 10% -> 90% span markers (81-fold) -->
+  <circle cx="206.4" cy="250" r="3.5" fill="none" stroke="#e0645c" stroke-width="1.5"/>
+  <circle cx="333.6" cy="90" r="3.5" fill="none" stroke="#e0645c" stroke-width="1.5"/>
+  <line x1="206.4" y1="318" x2="333.6" y2="318" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="206.4,318 215,314 215,322" fill="#e0645c"/>
+  <polygon points="333.6,318 325,314 325,322" fill="#e0645c"/>
+  <line x1="206.4" y1="250" x2="206.4" y2="318" stroke="#e0645c" stroke-width="1" stroke-dasharray="2 4" opacity="0.7"/>
+  <line x1="333.6" y1="90" x2="333.6" y2="318" stroke="#e0645c" stroke-width="1" stroke-dasharray="2 4" opacity="0.7"/>
+  <text x="200" y="334" fill="#e0645c">10% → 90% spans 81× in [L]</text>
+</svg>

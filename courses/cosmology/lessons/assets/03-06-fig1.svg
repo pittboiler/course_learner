@@ -1,0 +1,56 @@
+<svg viewBox="0 0 680 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">The CMB power spectrum: every bump measures a number. Peak location &#8594; geometry; peak heights &#8594; the budget.</text>
+
+  <!-- y-axis -->
+  <line x1="80" y1="330" x2="80" y2="60" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="80,60 75,72 85,72" fill="#8a8a8a"/>
+  <text x="52" y="52" fill="#8a8a8a">&#119967;&#8467; = &#8467;(&#8467;+1)C&#8467; / 2&#960;</text>
+
+  <!-- x-axis -->
+  <line x1="80" y1="330" x2="640" y2="330" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="640,330 628,325 628,335" fill="#8a8a8a"/>
+  <text x="600" y="352" fill="#8a8a8a">&#8467; (multipole)</text>
+  <text x="300" y="378" fill="#8a8a8a" font-style="italic">low &#8467; = large angles &#8212;&#8212;&#8212;&#8212;&#8594; high &#8467; = small angles</text>
+
+  <!-- ell ticks -->
+  <line x1="235" y1="330" x2="235" y2="336" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="222" y="350" fill="#8a8a8a">220</text>
+  <line x1="360" y1="330" x2="360" y2="336" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="349" y="350" fill="#8a8a8a">500</text>
+  <line x1="470" y1="330" x2="470" y2="336" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="454" y="350" fill="#8a8a8a">800</text>
+
+  <!-- the power spectrum -->
+  <path d="M 90 238 L 120 236 L 145 233 L 165 224 L 185 196 L 205 146 L 222 100 L 235 92 L 250 112 L 270 166 L 290 204 L 305 218 L 320 204 L 338 176 L 355 163 L 372 174 L 388 197 L 405 217 L 420 212 L 438 190 L 455 178 L 472 172 L 488 181 L 505 198 L 520 214 L 538 232 L 560 254 L 585 276 L 610 292"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- SW plateau label -->
+  <line x1="120" y1="236" x2="120" y2="262" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="92" y="280" fill="#8a8a8a">Sachs&#8211;Wolfe plateau</text>
+
+  <!-- first-peak marker (flatness) -->
+  <circle cx="235" cy="92" r="5" fill="#e0645c"/>
+  <line x1="235" y1="92" x2="235" y2="330" stroke="#e0645c" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="248" y="88" fill="#e0645c">1st peak: &#8467;&#8321; &#8776; 220</text>
+  <text x="248" y="106" fill="#e0645c">&#8594; flat universe (&#937;&#8342; &#8776; 0)</text>
+
+  <!-- 1st vs 2nd peak height ratio (baryons) -->
+  <line x1="150" y1="100" x2="220" y2="100" stroke="#e0645c" stroke-width="1"/>
+  <line x1="150" y1="204" x2="270" y2="204" stroke="#e0645c" stroke-width="1"/>
+  <line x1="150" y1="100" x2="150" y2="204" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="150,100 146,110 154,110" fill="#e0645c"/>
+  <polygon points="150,204 146,194 154,194" fill="#e0645c"/>
+  <text x="96" y="156" fill="#e0645c">1st / 2nd</text>
+  <text x="96" y="172" fill="#e0645c">&#8594; &#937;&#8341; (baryons)</text>
+
+  <!-- second / third peak dots -->
+  <circle cx="305" cy="218" r="3.5" fill="#4a90d9"/>
+  <text x="298" y="238" fill="#8a8a8a">2nd</text>
+  <circle cx="455" cy="178" r="3.5" fill="#4a90d9"/>
+  <text x="448" y="160" fill="#8a8a8a">3rd</text>
+
+  <!-- damping tail label -->
+  <text x="516" y="300" fill="#8a8a8a">Silk</text>
+  <text x="512" y="316" fill="#8a8a8a">damping</text>
+</svg>

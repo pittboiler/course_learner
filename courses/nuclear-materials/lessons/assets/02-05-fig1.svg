@@ -1,0 +1,51 @@
+<svg viewBox="0 0 720 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="ah" markerWidth="9" markerHeight="9" refX="7" refY="3.2" orient="auto">
+      <path d="M0,0 L7,3.2 L0,6.4 Z" fill="#8a8a8a"/>
+    </marker>
+    <marker id="ahb" markerWidth="9" markerHeight="9" refX="7" refY="3.2" orient="auto">
+      <path d="M0,0 L7,3.2 L0,6.4 Z" fill="#4a90d9"/>
+    </marker>
+    <marker id="dim" markerWidth="8" markerHeight="8" refX="4" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#8a8a8a"/>
+    </marker>
+  </defs>
+
+  <!-- glide plane -->
+  <line x1="40" y1="170" x2="680" y2="170" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="48" y="162" font-size="12" fill="#8a8a8a">slip plane</text>
+
+  <!-- obstacles: coral circles pinning the line -->
+  <circle cx="130" cy="170" r="9" fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <circle cx="270" cy="170" r="9" fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <circle cx="410" cy="170" r="9" fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <circle cx="550" cy="170" r="9" fill="none" stroke="#e0645c" stroke-width="2.5"/>
+
+  <!-- dislocation line bowing between obstacles (blue) -->
+  <path d="M40,170 Q95,225 130,170" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <path d="M130,170 Q200,245 270,170" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <path d="M270,170 Q340,245 410,170" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <path d="M410,170 Q480,245 550,170" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <path d="M550,170 Q615,225 680,170" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="596" y="150" font-size="12" fill="#4a90d9">dislocation line</text>
+
+  <!-- applied shear stress arrows pushing the line forward (downward on plane) -->
+  <line x1="200" y1="95" x2="200" y2="135" stroke="#8a8a8a" stroke-width="1.4" marker-end="url(#ah)"/>
+  <line x1="340" y1="95" x2="340" y2="135" stroke="#8a8a8a" stroke-width="1.4" marker-end="url(#ah)"/>
+  <line x1="480" y1="95" x2="480" y2="135" stroke="#8a8a8a" stroke-width="1.4" marker-end="url(#ah)"/>
+  <text x="360" y="90" font-size="13" fill="#8a8a8a" text-anchor="middle">applied shear stress &#964;</text>
+
+  <!-- spacing dimension L between two obstacles -->
+  <line x1="270" y1="290" x2="410" y2="290" stroke="#8a8a8a" stroke-width="1.2" marker-start="url(#dim)" marker-end="url(#dim)"/>
+  <line x1="270" y1="179" x2="270" y2="298" stroke="#8a8a8a" stroke-width="0.8"/>
+  <line x1="410" y1="179" x2="410" y2="298" stroke="#8a8a8a" stroke-width="0.8"/>
+  <text x="340" y="315" font-size="13" fill="#8a8a8a" text-anchor="middle">obstacle spacing L</text>
+  <text x="340" y="334" font-size="12" fill="#e0645c" text-anchor="middle">L &#8776; 1 / &#8730;(Nd)</text>
+
+  <!-- obstacle label -->
+  <text x="130" y="145" font-size="12" fill="#e0645c" text-anchor="middle">obstacle</text>
+  <line x1="130" y1="150" x2="130" y2="162" stroke="#e0645c" stroke-width="0.8"/>
+
+  <!-- caption -->
+  <text x="360" y="24" font-size="13" fill="#8a8a8a" text-anchor="middle">Orowan bowing: a gliding dislocation bulges between pinning obstacles</text>
+</svg>

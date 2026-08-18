@@ -1,0 +1,73 @@
+<svg viewBox="0 0 680 540" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="20" y="24" fill="#8a8a8a" font-style="italic">One picture, three names: a linear profile, a gradient up it, and a flux down it, set by the matching diffusivity.</text>
+
+  <!-- panel separators -->
+  <line x1="16" y1="192" x2="620" y2="192" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 5"/>
+  <line x1="16" y1="352" x2="620" y2="352" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 5"/>
+
+  <!-- ============ PANEL 1: MOMENTUM ============ -->
+  <text x="18" y="105" fill="#8a8a8a" font-weight="bold">MOMENTUM</text>
+  <text x="18" y="123" fill="#8a8a8a" font-style="italic" font-size="12">Newton</text>
+
+  <!-- y axis -->
+  <line x1="150" y1="164" x2="150" y2="64" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="150,64 145,74 155,74" fill="#8a8a8a"/>
+  <text x="132" y="72" fill="#8a8a8a">y</text>
+  <!-- linear profile -->
+  <line x1="155" y1="159" x2="300" y2="72" stroke="#4a90d9" stroke-width="3"/>
+  <text x="306" y="74" fill="#4a90d9">vx</text>
+  <!-- gradient arrow (up) -->
+  <line x1="360" y1="154" x2="360" y2="84" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="360,84 355,94 365,94" fill="#8a8a8a"/>
+  <text x="366" y="120" fill="#8a8a8a">&#8711;</text>
+  <!-- flux arrow (down) -->
+  <line x1="430" y1="84" x2="430" y2="154" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="430,154 425,144 435,144" fill="#e0645c"/>
+  <text x="438" y="120" fill="#e0645c">flux</text>
+  <!-- naming -->
+  <text x="470" y="82" fill="#4a90d9">quantity  &#961;vx</text>
+  <text x="470" y="104" fill="#e0645c">flux  &#964;yx</text>
+  <text x="470" y="126" fill="#8a8a8a">diffusivity  &#957;</text>
+  <!-- flux law -->
+  <text x="150" y="184" fill="#8a8a8a" font-style="italic">&#964;yx = &#8722;&#956; dvx/dy</text>
+
+  <!-- ============ PANEL 2: HEAT ============ -->
+  <text x="18" y="265" fill="#8a8a8a" font-weight="bold">HEAT</text>
+  <text x="18" y="283" fill="#8a8a8a" font-style="italic" font-size="12">Fourier</text>
+
+  <line x1="150" y1="324" x2="150" y2="224" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="150,224 145,234 155,234" fill="#8a8a8a"/>
+  <text x="132" y="232" fill="#8a8a8a">y</text>
+  <line x1="155" y1="319" x2="300" y2="232" stroke="#4a90d9" stroke-width="3"/>
+  <text x="306" y="234" fill="#4a90d9">T</text>
+  <line x1="360" y1="314" x2="360" y2="244" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="360,244 355,254 365,254" fill="#8a8a8a"/>
+  <text x="366" y="280" fill="#8a8a8a">&#8711;</text>
+  <line x1="430" y1="244" x2="430" y2="314" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="430,314 425,304 435,304" fill="#e0645c"/>
+  <text x="438" y="280" fill="#e0645c">flux</text>
+  <text x="470" y="242" fill="#4a90d9">quantity  &#961;cpT</text>
+  <text x="470" y="264" fill="#e0645c">flux  q''</text>
+  <text x="470" y="286" fill="#8a8a8a">diffusivity  &#945;</text>
+  <text x="150" y="344" fill="#8a8a8a" font-style="italic">q'' = &#8722;k dT/dy</text>
+
+  <!-- ============ PANEL 3: MASS ============ -->
+  <text x="18" y="425" fill="#8a8a8a" font-weight="bold">MASS</text>
+  <text x="18" y="443" fill="#8a8a8a" font-style="italic" font-size="12">Fick</text>
+
+  <line x1="150" y1="484" x2="150" y2="384" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="150,384 145,394 155,394" fill="#8a8a8a"/>
+  <text x="132" y="392" fill="#8a8a8a">y</text>
+  <line x1="155" y1="479" x2="300" y2="392" stroke="#4a90d9" stroke-width="3"/>
+  <text x="306" y="394" fill="#4a90d9">cA</text>
+  <line x1="360" y1="474" x2="360" y2="404" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="360,404 355,414 365,414" fill="#8a8a8a"/>
+  <text x="366" y="440" fill="#8a8a8a">&#8711;</text>
+  <line x1="430" y1="404" x2="430" y2="474" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="430,474 425,464 435,464" fill="#e0645c"/>
+  <text x="438" y="440" fill="#e0645c">flux</text>
+  <text x="470" y="402" fill="#4a90d9">quantity  cA</text>
+  <text x="470" y="424" fill="#e0645c">flux  JA*</text>
+  <text x="470" y="446" fill="#8a8a8a">diffusivity  DAB</text>
+  <text x="150" y="504" fill="#8a8a8a" font-style="italic">JA* = &#8722;cDAB dxA/dy</text>
+</svg>

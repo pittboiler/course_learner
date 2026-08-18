@@ -1,0 +1,57 @@
+<svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Cooperativity sharpens the binding curve: all cross p = ½ at [L] = K_d, but the 10→90% window shrinks as 81^(1/n).</text>
+
+  <!-- n=4 window band (p from 0.1 to 0.9), x from 0.577 to 1.732 -->
+  <rect x="140.7" y="74" width="141.5" height="192" fill="#e0645c" opacity="0.15"/>
+
+  <!-- guide lines p=0.1, 0.5, 0.9 -->
+  <line x1="70" y1="266" x2="560" y2="266" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="70" y1="170" x2="560" y2="170" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="70" y1="74"  x2="560" y2="74"  stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="42" y="270" fill="#8a8a8a">0.1</text>
+  <text x="42" y="174" fill="#8a8a8a">½</text>
+  <text x="42" y="78"  fill="#8a8a8a">0.9</text>
+
+  <!-- vertical dashed at [L]=K_d -->
+  <line x1="192.5" y1="50" x2="192.5" y2="290" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- axes -->
+  <line x1="70" y1="290" x2="575" y2="290" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="575,290 565,285 565,295" fill="#8a8a8a"/>
+  <line x1="70" y1="290" x2="70" y2="44" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,44 65,54 75,54" fill="#8a8a8a"/>
+  <text x="580" y="295" fill="#8a8a8a">[L]/K_d</text>
+  <text x="52" y="52" fill="#8a8a8a">p</text>
+  <text x="60" y="306" fill="#8a8a8a">0</text>
+  <text x="46" y="54" fill="#8a8a8a">1</text>
+
+  <!-- x ticks -->
+  <text x="188" y="306" fill="#8a8a8a">1</text>
+  <text x="311" y="306" fill="#8a8a8a">2</text>
+  <text x="434" y="306" fill="#8a8a8a">3</text>
+  <text x="556" y="306" fill="#8a8a8a">4</text>
+
+  <!-- n=1 curve (blue, shallow) -->
+  <polyline fill="none" stroke="#4a90d9" stroke-width="3"
+    points="70,290 94.5,250 119,221.4 143.5,200 168,183.3 192.5,170 217,159.1 241.5,150 266,142.3 290.5,135.7 315,130 364,120.6 413,113.2 462,107.1 511,102.2 560,98"/>
+
+  <!-- n=2 curve (coral, dashed, intermediate) -->
+  <polyline fill="none" stroke="#e0645c" stroke-width="2.5" stroke-dasharray="7 4"
+    points="70,290 94.5,280.8 119,256.9 143.5,226.5 168,196.3 192.5,170 217,148.4 241.5,131.1 266,117.4 290.5,106.6 315,98 364,85.5 413,77.1 462,71.4 511,67.2 560,64.1"/>
+
+  <!-- n=4 curve (coral, solid, steepest) -->
+  <polyline fill="none" stroke="#e0645c" stroke-width="3"
+    points="70,290 94.5,289.6 119,284 143.5,262.5 168,220.3 192.5,170 217,128.1 241.5,99.6 266,81.8 290.5,70.9 315,64.1 364,57 413,53.8 462,52.3 511,51.4 560,50.9"/>
+
+  <!-- curve labels -->
+  <text x="565" y="102" fill="#4a90d9">n=1</text>
+  <text x="565" y="68"  fill="#e0645c">n=2</text>
+  <text x="330" y="52"  fill="#e0645c">n=4</text>
+
+  <!-- n=4 window double-arrow at p=0.1 line -->
+  <line x1="140.7" y1="266" x2="282.2" y2="266" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="140.7,266 149.7,262 149.7,270" fill="#e0645c"/>
+  <polygon points="282.2,266 273.2,262 273.2,270" fill="#e0645c"/>
+  <text x="150" y="330" fill="#e0645c">n=4 window ≈ 3×  ·  n=2 → 9×  ·  n=1 → 81×</text>
+</svg>

@@ -1,0 +1,71 @@
+<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="600" height="400" fill="#ffffff"/>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#c0392b"/>
+    </marker>
+  </defs>
+
+  <text x="300" y="30" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a1a1a">Stirling numbers of the second kind  S(n, k)</text>
+
+  <!-- column headers k=1..5 -->
+  <text x="110" y="66" text-anchor="middle" font-size="13" fill="#2b6cb0">k=1</text>
+  <text x="188" y="66" text-anchor="middle" font-size="13" fill="#2b6cb0">k=2</text>
+  <text x="266" y="66" text-anchor="middle" font-size="13" fill="#2b6cb0">k=3</text>
+  <text x="344" y="66" text-anchor="middle" font-size="13" fill="#2b6cb0">k=4</text>
+  <text x="422" y="66" text-anchor="middle" font-size="13" fill="#2b6cb0">k=5</text>
+  <text x="520" y="66" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a7a4a">B&#8345;</text>
+
+  <!-- row labels -->
+  <text x="52" y="101" text-anchor="middle" font-size="13" fill="#555">n=1</text>
+  <text x="52" y="153" text-anchor="middle" font-size="13" fill="#555">n=2</text>
+  <text x="52" y="205" text-anchor="middle" font-size="13" fill="#555">n=3</text>
+  <text x="52" y="257" text-anchor="middle" font-size="13" fill="#555">n=4</text>
+  <text x="52" y="309" text-anchor="middle" font-size="13" fill="#555">n=5</text>
+
+  <!-- highlight target cell S(4,3) -->
+  <circle cx="266" cy="252" r="19" fill="#fbe4e4" stroke="#c0392b" stroke-width="1.5"/>
+
+  <!-- triangle values -->
+  <!-- n=1 -->
+  <text x="110" y="101" text-anchor="middle" font-size="16" fill="#1a1a1a">1</text>
+  <!-- n=2 -->
+  <text x="110" y="153" text-anchor="middle" font-size="16" fill="#1a1a1a">1</text>
+  <text x="188" y="153" text-anchor="middle" font-size="16" fill="#1a1a1a">1</text>
+  <!-- n=3 -->
+  <text x="110" y="205" text-anchor="middle" font-size="16" fill="#1a1a1a">1</text>
+  <text x="188" y="205" text-anchor="middle" font-size="16" fill="#1a1a1a">3</text>
+  <text x="266" y="205" text-anchor="middle" font-size="16" fill="#1a1a1a">1</text>
+  <!-- n=4 -->
+  <text x="110" y="257" text-anchor="middle" font-size="16" fill="#1a1a1a">1</text>
+  <text x="188" y="257" text-anchor="middle" font-size="16" fill="#1a1a1a">7</text>
+  <text x="266" y="257" text-anchor="middle" font-size="16" font-weight="bold" fill="#c0392b">6</text>
+  <text x="344" y="257" text-anchor="middle" font-size="16" fill="#1a1a1a">1</text>
+  <!-- n=5 -->
+  <text x="110" y="309" text-anchor="middle" font-size="16" fill="#1a1a1a">1</text>
+  <text x="188" y="309" text-anchor="middle" font-size="16" fill="#1a1a1a">15</text>
+  <text x="266" y="309" text-anchor="middle" font-size="16" fill="#1a1a1a">25</text>
+  <text x="344" y="309" text-anchor="middle" font-size="16" fill="#1a1a1a">10</text>
+  <text x="422" y="309" text-anchor="middle" font-size="16" fill="#1a1a1a">1</text>
+
+  <!-- Bell row sums -->
+  <text x="520" y="101" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a7a4a">1</text>
+  <text x="520" y="153" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a7a4a">2</text>
+  <text x="520" y="205" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a7a4a">5</text>
+  <text x="520" y="257" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a7a4a">15</text>
+  <text x="520" y="309" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a7a4a">52</text>
+
+  <!-- divider before Bell column -->
+  <line x1="470" y1="80" x2="470" y2="318" stroke="#ccc" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- recurrence arrows into S(4,3) -->
+  <!-- vertical from S(3,3) -->
+  <line x1="266" y1="214" x2="266" y2="235" stroke="#c0392b" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <text x="286" y="230" font-size="12" fill="#c0392b">&#215; 3</text>
+  <!-- diagonal from S(3,2) -->
+  <line x1="200" y1="210" x2="250" y2="245" stroke="#c0392b" stroke-width="1.6" marker-end="url(#arrow)"/>
+
+  <!-- captions -->
+  <text x="300" y="352" text-anchor="middle" font-size="14" fill="#c0392b">S(4,3) = 3&#183;S(3,3) + S(3,2) = 3&#183;1 + 3 = 6</text>
+  <text x="300" y="378" text-anchor="middle" font-size="14" fill="#1a1a1a">S(n,k) = k&#183;S(n&#8722;1,k) + S(n&#8722;1,k&#8722;1)   &#8226;   B&#8345; = &#931;&#8342; S(n,k)</text>
+</svg>

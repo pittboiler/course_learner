@@ -1,0 +1,40 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">A fixed comoving mode holds still while the Hubble radius (blue) shrinks past it, then grows back &#8212; it exits, freezes, re-enters.</text>
+
+  <!-- axes -->
+  <line x1="70" y1="290" x2="70" y2="52" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,52 65,62 75,62" fill="#8a8a8a"/>
+  <line x1="70" y1="290" x2="614" y2="290" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="614,290 604,285 604,295" fill="#8a8a8a"/>
+
+  <!-- axis labels -->
+  <text x="300" y="312" fill="#8a8a8a">scale factor  a   (log)</text>
+  <text x="18" y="170" fill="#8a8a8a" transform="rotate(-90 18 170)">comoving Hubble radius  1/(aH)</text>
+
+  <!-- end-of-inflation divider -->
+  <line x1="280" y1="252" x2="280" y2="58" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="234" y="52" fill="#8a8a8a" font-size="12">end of inflation</text>
+  <text x="150" y="76" fill="#8a8a8a">inflation</text>
+  <text x="400" y="76" fill="#8a8a8a">hot Big Bang</text>
+
+  <!-- Hubble-radius valley (blue): shrinks during inflation, grows after -->
+  <path d="M 70 90 L 280 250 L 600 110" fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- comoving mode line (coral, horizontal = fixed) -->
+  <line x1="90" y1="150" x2="592" y2="150" stroke="#e0645c" stroke-width="2"/>
+  <text x="540" y="143" fill="#e0645c">mode 1/k</text>
+
+  <!-- crossing points -->
+  <circle cx="149" cy="150" r="5" fill="#e0645c"/>
+  <circle cx="509" cy="150" r="5" fill="#e0645c"/>
+  <text x="120" y="138" fill="#e0645c">exit</text>
+  <text x="486" y="138" fill="#e0645c">re-entry</text>
+
+  <!-- frozen region annotation -->
+  <text x="238" y="214" fill="#e0645c" font-style="italic">frozen (super-horizon)</text>
+
+  <!-- sub-horizon hints -->
+  <text x="88" y="118" fill="#8a8a8a" font-size="12">sub-horizon</text>
+  <text x="540" y="182" fill="#8a8a8a" font-size="12">sub-horizon</text>
+</svg>

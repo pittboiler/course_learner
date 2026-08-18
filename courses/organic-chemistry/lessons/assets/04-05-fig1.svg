@@ -1,0 +1,78 @@
+<svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Glucose cyclizes: its own C5&#8211;OH adds to the C1 aldehyde (a hemiacetal, from 3.3), making the anomeric carbon &#8212; new stereocenter, &#945;/&#946;.</text>
+
+  <!-- ================= LEFT: open-chain Fischer ================= -->
+  <text x="60" y="52" fill="#8a8a8a" font-style="italic" font-size="12">open chain</text>
+
+  <!-- backbone -->
+  <line x1="120" y1="86" x2="120" y2="286" stroke="#4a90d9" stroke-width="2"/>
+
+  <!-- C1 aldehyde (electrophile) -->
+  <text x="96" y="80" fill="#e0645c" font-weight="bold">CHO</text>
+  <text x="132" y="80" fill="#8a8a8a" font-size="11">C1</text>
+
+  <!-- C2 -->
+  <line x1="120" y1="116" x2="150" y2="116" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="154" y="120" fill="#8a8a8a">OH</text>
+  <text x="86" y="120" fill="#8a8a8a">H</text>
+  <!-- C3 -->
+  <line x1="120" y1="146" x2="90" y2="146" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="70" y="150" fill="#8a8a8a">HO</text>
+  <text x="154" y="150" fill="#8a8a8a">H</text>
+  <!-- C4 -->
+  <line x1="120" y1="176" x2="150" y2="176" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="154" y="180" fill="#8a8a8a">OH</text>
+  <text x="86" y="180" fill="#8a8a8a">H</text>
+
+  <!-- C5 : the nucleophilic OH -->
+  <line x1="120" y1="216" x2="152" y2="216" stroke="#e0645c" stroke-width="2"/>
+  <text x="156" y="220" fill="#e0645c" font-weight="bold">OH</text>
+  <text x="86" y="220" fill="#8a8a8a">H</text>
+  <text x="132" y="242" fill="#8a8a8a" font-size="11">C5</text>
+
+  <!-- C6 -->
+  <text x="96" y="304" fill="#8a8a8a">CH</text>
+  <text x="120" y="308" fill="#8a8a8a" font-size="10">2</text>
+  <text x="128" y="304" fill="#8a8a8a">OH</text>
+
+  <!-- curved arrow: C5-OH oxygen attacks C1 carbonyl carbon -->
+  <path d="M 182 210 C 240 150 220 90 138 76" fill="none" stroke="#e0645c" stroke-width="1.8" stroke-dasharray="5 4"/>
+  <polygon points="138,76 150,74 146,86" fill="#e0645c"/>
+
+  <!-- ================= MIDDLE arrow ================= -->
+  <line x1="278" y1="190" x2="330" y2="190" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="330,190 320,185 320,195" fill="#8a8a8a"/>
+  <text x="270" y="176" fill="#8a8a8a" font-size="11">cyclize</text>
+
+  <!-- ================= RIGHT: Haworth pyranose ================= -->
+  <text x="470" y="52" fill="#8a8a8a" font-style="italic" font-size="12">cyclic hemiacetal</text>
+
+  <!-- hexagon ring: O(top) C1(right) C2(lower-right) C3(bottom) C4(lower-left) C5(upper-left) -->
+  <polygon points="490,140 537,167 537,221 490,248 443,221 443,167"
+           fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <!-- ring oxygen -->
+  <circle cx="490" cy="140" r="11" fill="#0f0f14"/>
+  <text x="484" y="145" fill="#4a90d9" font-weight="bold">O</text>
+
+  <!-- C5 with CH2OH -->
+  <text x="410" y="163" fill="#8a8a8a" font-size="11">C5</text>
+  <line x1="443" y1="167" x2="418" y2="150" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="378" y="146" fill="#8a8a8a">CH</text>
+  <text x="402" y="150" fill="#8a8a8a" font-size="10">2</text>
+  <text x="410" y="146" fill="#8a8a8a">OH</text>
+
+  <!-- anomeric carbon C1 (coral) -->
+  <circle cx="537" cy="167" r="6" fill="#e0645c"/>
+  <text x="548" y="160" fill="#e0645c" font-weight="bold">C1</text>
+  <text x="512" y="196" fill="#e0645c" font-size="11">anomeric C</text>
+
+  <!-- beta-OH (up) and alpha-OH (down) fork at C1 -->
+  <line x1="537" y1="167" x2="565" y2="150" stroke="#e0645c" stroke-width="1.8"/>
+  <text x="570" y="150" fill="#e0645c" font-weight="bold">OH (&#946;)</text>
+  <line x1="537" y1="167" x2="565" y2="188" stroke="#e0645c" stroke-width="1.8"/>
+  <text x="570" y="192" fill="#e0645c" font-weight="bold">OH (&#945;)</text>
+
+  <!-- ring positions labels -->
+  <text x="500" y="270" fill="#8a8a8a" font-size="11">C3</text>
+</svg>

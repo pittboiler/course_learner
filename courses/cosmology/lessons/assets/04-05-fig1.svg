@@ -1,0 +1,57 @@
+<svg viewBox="0 0 620 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">The distance ladder: each rung is calibrated by the one before, reaching from parsecs to the Hubble flow.</text>
+
+  <!-- ===== distance axis (log) ===== -->
+  <line x1="55" y1="250" x2="595" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="595,250 585,245 585,255" fill="#8a8a8a"/>
+  <text x="470" y="285" fill="#8a8a8a">distance (log scale)</text>
+
+  <!-- ticks: x = 60 + 52*log10(d/pc) -->
+  <!-- 1 pc (n=0) -->
+  <line x1="60" y1="246" x2="60" y2="254" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="48" y="270" fill="#8a8a8a">1 pc</text>
+  <!-- 1 kpc (n=3) -->
+  <line x1="216" y1="246" x2="216" y2="254" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="203" y="270" fill="#8a8a8a">1 kpc</text>
+  <!-- 1 Mpc (n=6) -->
+  <line x1="372" y1="246" x2="372" y2="254" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="356" y="270" fill="#8a8a8a">1 Mpc</text>
+  <!-- 100 Mpc (n=8) -->
+  <line x1="476" y1="246" x2="476" y2="254" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="454" y="270" fill="#8a8a8a">100 Mpc</text>
+  <!-- 1 Gpc (n=9) -->
+  <line x1="528" y1="246" x2="528" y2="254" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="514" y="270" fill="#8a8a8a">1 Gpc</text>
+
+  <!-- ===== rungs ===== -->
+  <!-- Parallax: 1 pc -> ~5 kpc : x 60 -> 252 -->
+  <rect x="60" y="62" width="192" height="15" rx="4" fill="#4a90d9" opacity="0.20" stroke="#4a90d9" stroke-width="2"/>
+  <text x="66" y="56" fill="#4a90d9">Parallax (geometric)</text>
+
+  <!-- Cepheids: ~300 pc -> ~30 Mpc : x 189 -> 449 -->
+  <rect x="189" y="103" width="260" height="15" rx="4" fill="#4a90d9" opacity="0.20" stroke="#4a90d9" stroke-width="2"/>
+  <text x="195" y="97" fill="#4a90d9">Cepheid variables (standard candle)</text>
+
+  <!-- SNe Ia: ~10 Mpc -> ~4 Gpc : x 424 -> 559 -->
+  <rect x="424" y="144" width="135" height="15" rx="4" fill="#4a90d9" opacity="0.20" stroke="#4a90d9" stroke-width="2"/>
+  <text x="300" y="138" fill="#4a90d9">Type Ia supernovae (standardizable candle)</text>
+
+  <!-- Hubble flow: ~70 Mpc -> ~6 Gpc : x 468 -> 569 -->
+  <rect x="468" y="185" width="101" height="15" rx="4" fill="#4a90d9" opacity="0.20" stroke="#4a90d9" stroke-width="2"/>
+  <text x="360" y="179" fill="#4a90d9">Hubble flow &#8594; read H&#8320; from v = H&#8320;d</text>
+
+  <!-- ===== calibration handoffs (coral) ===== -->
+  <!-- parallax -> Cepheids at ~1 kpc (x~220) -->
+  <line x1="220" y1="77" x2="220" y2="103" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <polygon points="220,103 216,95 224,95" fill="#e0645c"/>
+  <!-- Cepheids -> SNe Ia at ~15 Mpc (x~436) -->
+  <line x1="436" y1="118" x2="436" y2="144" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <polygon points="436,144 432,136 440,136" fill="#e0645c"/>
+  <!-- SNe -> Hubble flow at ~150 Mpc (x~500) -->
+  <line x1="500" y1="159" x2="500" y2="185" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <polygon points="500,185 496,177 504,177" fill="#e0645c"/>
+
+  <text x="228" y="94" fill="#e0645c" font-size="11">calibrates</text>
+  <text x="444" y="135" fill="#e0645c" font-size="11">calibrates</text>
+</svg>

@@ -1,0 +1,55 @@
+<svg viewBox="0 0 640 420" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Ashby chart: stiffness vs. density on log axes. Families cluster; the slope-2 guideline ranks a light, stiff beam.</text>
+
+  <!-- gridlines -->
+  <line x1="272" y1="50" x2="272" y2="340" stroke="#8a8a8a" stroke-width="0.75" stroke-dasharray="2 5" opacity="0.5"/>
+  <line x1="464" y1="50" x2="464" y2="340" stroke="#8a8a8a" stroke-width="0.75" stroke-dasharray="2 5" opacity="0.5"/>
+  <line x1="80" y1="282" x2="560" y2="282" stroke="#8a8a8a" stroke-width="0.75" stroke-dasharray="2 5" opacity="0.5"/>
+  <line x1="80" y1="224" x2="560" y2="224" stroke="#8a8a8a" stroke-width="0.75" stroke-dasharray="2 5" opacity="0.5"/>
+  <line x1="80" y1="166" x2="560" y2="166" stroke="#8a8a8a" stroke-width="0.75" stroke-dasharray="2 5" opacity="0.5"/>
+  <line x1="80" y1="108" x2="560" y2="108" stroke="#8a8a8a" stroke-width="0.75" stroke-dasharray="2 5" opacity="0.5"/>
+
+  <!-- axes -->
+  <line x1="80" y1="340" x2="560" y2="340" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="80" y1="340" x2="80" y2="50" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="560,340 550,335 550,345" fill="#8a8a8a"/>
+  <polygon points="80,50 75,60 85,60" fill="#8a8a8a"/>
+
+  <!-- x tick labels (density, Mg/m3) -->
+  <text x="80" y="357" fill="#8a8a8a" text-anchor="middle">0.1</text>
+  <text x="272" y="357" fill="#8a8a8a" text-anchor="middle">1</text>
+  <text x="464" y="357" fill="#8a8a8a" text-anchor="middle">10</text>
+  <text x="320" y="384" fill="#8a8a8a" text-anchor="middle">Density &#961; (Mg/m&#179;)</text>
+
+  <!-- y tick labels (E, GPa) -->
+  <text x="72" y="344" fill="#8a8a8a" text-anchor="end">0.01</text>
+  <text x="72" y="286" fill="#8a8a8a" text-anchor="end">0.1</text>
+  <text x="72" y="228" fill="#8a8a8a" text-anchor="end">1</text>
+  <text x="72" y="170" fill="#8a8a8a" text-anchor="end">10</text>
+  <text x="72" y="112" fill="#8a8a8a" text-anchor="end">100</text>
+  <text x="72" y="54" fill="#8a8a8a" text-anchor="end">1000</text>
+  <text x="26" y="200" fill="#8a8a8a" text-anchor="middle" transform="rotate(-90 26 200)">Young's modulus E (GPa)</text>
+
+  <!-- family bubbles -->
+  <ellipse cx="378" cy="78" rx="44" ry="30" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <text x="378" y="82" fill="#4a90d9" text-anchor="middle" font-weight="bold">Ceramics</text>
+
+  <ellipse cx="452" cy="112" rx="42" ry="40" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <text x="452" y="116" fill="#4a90d9" text-anchor="middle" font-weight="bold">Metals</text>
+
+  <ellipse cx="278" cy="208" rx="42" ry="36" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <text x="278" y="212" fill="#4a90d9" text-anchor="middle" font-weight="bold">Polymers</text>
+
+  <ellipse cx="314" cy="128" rx="36" ry="30" fill="#e0645c" opacity="0.18" stroke="#e0645c" stroke-width="2"/>
+  <text x="314" y="132" fill="#e0645c" text-anchor="middle" font-weight="bold">Composites</text>
+
+  <!-- slope-2 guideline: E^(1/2)/rho = const -->
+  <line x1="214" y1="179" x2="427" y2="50" stroke="#e0645c" stroke-width="2" stroke-dasharray="7 5"/>
+  <text x="430" y="58" fill="#e0645c">E&#189; &#8260; &#961; = const</text>
+
+  <!-- search-direction arrow: better = up and left -->
+  <line x1="250" y1="188" x2="212" y2="158" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="212,158 223,161 218,169" fill="#e0645c"/>
+  <text x="255" y="200" fill="#e0645c">lighter &amp; stiffer</text>
+</svg>

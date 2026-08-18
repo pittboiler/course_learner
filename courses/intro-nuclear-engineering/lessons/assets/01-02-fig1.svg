@@ -1,0 +1,60 @@
+<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Binding energy per nucleon: steep climb, iron peak near 8.8 MeV, gentle fall &#8212; fusion and fission both climb toward the top.</text>
+
+  <!-- ===== axes ===== -->
+  <line x1="70" y1="320" x2="614" y2="320" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="614,320 604,315 604,325" fill="#8a8a8a"/>
+  <text x="600" y="342" fill="#8a8a8a">A (mass number)</text>
+  <line x1="70" y1="320" x2="70" y2="48" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,48 65,58 75,58" fill="#8a8a8a"/>
+  <text x="42" y="46" fill="#8a8a8a">B/A (MeV)</text>
+
+  <!-- x ticks -->
+  <line x1="180.4" y1="320" x2="180.4" y2="325" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="171" y="338" fill="#8a8a8a">50</text>
+  <line x1="290.8" y1="320" x2="290.8" y2="325" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="278" y="338" fill="#8a8a8a">100</text>
+  <line x1="401.2" y1="320" x2="401.2" y2="325" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="388" y="338" fill="#8a8a8a">150</text>
+  <line x1="511.7" y1="320" x2="511.7" y2="325" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="499" y="338" fill="#8a8a8a">200</text>
+
+  <!-- y ticks -->
+  <line x1="65" y1="262.2" x2="70" y2="262.2" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="52" y="267" fill="#8a8a8a">2</text>
+  <line x1="65" y1="204.4" x2="70" y2="204.4" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="52" y="209" fill="#8a8a8a">4</text>
+  <line x1="65" y1="146.7" x2="70" y2="146.7" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="52" y="151" fill="#8a8a8a">6</text>
+  <line x1="65" y1="88.9" x2="70" y2="88.9" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="52" y="93" fill="#8a8a8a">8</text>
+
+  <!-- ===== the B/A curve ===== -->
+  <path d="M 72.2 320 L 74.4 287.9 L 78.8 115.7 L 83.2 166.0 L 85.5 157.9 L 89.9 133.4 L 96.5 98.1 L 105.3 89.5 L 114.2 88.0 L 123.0 81.4 L 140.7 74.7 L 158.3 73.0 L 193.7 66.1 L 209.1 67.2 L 255.5 68.1 L 290.8 71.6 L 335.0 74.4 L 379.2 77.9 L 423.3 82.8 L 467.5 87.4 L 529.3 92.6 L 595.6 101.3"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- nuclide markers -->
+  <circle cx="78.8" cy="115.7" r="3.5" fill="#4a90d9"/>
+  <text x="82" y="112" fill="#8a8a8a" font-size="12">He-4</text>
+  <circle cx="96.5" cy="98.1" r="3" fill="#4a90d9"/>
+  <text x="100" y="96" fill="#8a8a8a" font-size="12">C-12</text>
+  <circle cx="595.6" cy="101.3" r="3.5" fill="#4a90d9"/>
+  <text x="560" y="118" fill="#8a8a8a" font-size="12">U-238</text>
+
+  <!-- iron peak highlighted -->
+  <circle cx="193.7" cy="66.1" r="5" fill="#e0645c"/>
+  <text x="200" y="62" fill="#e0645c">Fe-56 &#8776; 8.8</text>
+
+  <!-- fusion arrow (left limb climbs up-right toward peak) -->
+  <path d="M 92 168 Q 120 70 185 66" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="185,66 173.3,71.7 172.7,61.7" fill="#e0645c"/>
+  <text x="86" y="188" fill="#e0645c">fusion</text>
+  <text x="80" y="204" fill="#8a8a8a" font-size="12">light nuclei</text>
+
+  <!-- fission arrow (right limb climbs up-left toward peak) -->
+  <path d="M 560 90 Q 370 34 202 64" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="202,64 212.9,66.8 214.7,57.0" fill="#e0645c"/>
+  <text x="522" y="82" fill="#e0645c">fission</text>
+  <text x="516" y="98" fill="#8a8a8a" font-size="12">heavy nuclei</text>
+</svg>

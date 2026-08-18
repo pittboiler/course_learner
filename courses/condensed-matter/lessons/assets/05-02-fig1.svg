@@ -1,0 +1,38 @@
+<svg viewBox="0 0 560 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Self-consistency m = tanh((T_C/T)·m): below T_C the curve crosses the line y = m at m ≠ 0</text>
+  <text x="40" y="40" fill="#8a8a8a" font-style="italic">(a spontaneous magnet); above T_C the only crossing is m = 0.</text>
+
+  <!-- axes -->
+  <line x1="80" y1="250" x2="505" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="505,250 495,245 495,255" fill="#8a8a8a"/>
+  <text x="470" y="272" fill="#8a8a8a">m = M/M_s</text>
+  <line x1="80" y1="250" x2="80" y2="52" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="80,52 75,62 85,62" fill="#8a8a8a"/>
+  <text x="66" y="252" fill="#8a8a8a">0</text>
+  <text x="60" y="66" fill="#8a8a8a">1</text>
+
+  <!-- diagonal line y = m (grey) -->
+  <line x1="80" y1="250" x2="480" y2="60" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="486" y="64" fill="#8a8a8a">y = m</text>
+
+  <!-- blue curve: tanh(1.8 m), T < T_C -->
+  <path d="M 80 250 L 120 216.2 L 160 184.4 L 200 156.3 L 240 132.8 L 280 113.9 L 320 99.3 L 360 88.3 L 400 80.2 L 440 74.3 L 480 70.1"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="300" y="92" fill="#4a90d9">T &lt; T_C</text>
+
+  <!-- coral curve: tanh(0.6 m), T > T_C -->
+  <path d="M 80 250 L 120 238.6 L 160 227.3 L 200 216.2 L 240 205.3 L 280 194.7 L 320 184.4 L 360 174.6 L 400 165.2 L 440 156.3 L 480 148.0"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+  <text x="486" y="150" fill="#e0645c">T &gt; T_C</text>
+
+  <!-- nonzero crossing (spontaneous magnetization) -->
+  <circle cx="453" cy="73" r="5" fill="#4a90d9"/>
+  <line x1="453" y1="73" x2="453" y2="250" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="410" y="70" fill="#4a90d9">M ≠ 0</text>
+  <text x="432" y="266" fill="#8a8a8a">m*</text>
+
+  <!-- origin crossing -->
+  <circle cx="80" cy="250" r="5" fill="#e0645c"/>
+  <text x="90" y="242" fill="#e0645c">only M = 0</text>
+</svg>

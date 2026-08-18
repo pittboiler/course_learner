@@ -1,0 +1,69 @@
+<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Up and to the right: smaller, harder to ionize, greedier for electrons. Radius points the opposite way.</text>
+
+  <!-- ===== schematic periodic table (grey grid) ===== -->
+  <!-- outer frame -->
+  <rect x="40" y="50" width="300" height="170" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- vertical column guides -->
+  <line x1="70"  y1="50" x2="70"  y2="220" stroke="#8a8a8a" stroke-width="0.7" opacity="0.5"/>
+  <line x1="100" y1="50" x2="100" y2="220" stroke="#8a8a8a" stroke-width="0.7" opacity="0.5"/>
+  <line x1="130" y1="50" x2="130" y2="220" stroke="#8a8a8a" stroke-width="0.7" opacity="0.5"/>
+  <line x1="160" y1="50" x2="160" y2="220" stroke="#8a8a8a" stroke-width="0.7" opacity="0.5"/>
+  <line x1="190" y1="50" x2="190" y2="220" stroke="#8a8a8a" stroke-width="0.7" opacity="0.5"/>
+  <line x1="220" y1="50" x2="220" y2="220" stroke="#8a8a8a" stroke-width="0.7" opacity="0.5"/>
+  <line x1="250" y1="50" x2="250" y2="220" stroke="#8a8a8a" stroke-width="0.7" opacity="0.5"/>
+  <line x1="280" y1="50" x2="280" y2="220" stroke="#8a8a8a" stroke-width="0.7" opacity="0.5"/>
+  <line x1="310" y1="50" x2="310" y2="220" stroke="#8a8a8a" stroke-width="0.7" opacity="0.5"/>
+  <!-- horizontal period guides -->
+  <line x1="40" y1="84"  x2="340" y2="84"  stroke="#8a8a8a" stroke-width="0.7" opacity="0.5"/>
+  <line x1="40" y1="118" x2="340" y2="118" stroke="#8a8a8a" stroke-width="0.7" opacity="0.5"/>
+  <line x1="40" y1="152" x2="340" y2="152" stroke="#8a8a8a" stroke-width="0.7" opacity="0.5"/>
+  <line x1="40" y1="186" x2="340" y2="186" stroke="#8a8a8a" stroke-width="0.7" opacity="0.5"/>
+
+  <text x="150" y="242" fill="#8a8a8a" font-size="12">schematic periodic table</text>
+
+  <!-- coral arrow: ionization energy / electronegativity increase (up + right) -->
+  <!-- rightward along a period -->
+  <line x1="52" y1="252" x2="326" y2="252" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="336,252 322,246 322,258" fill="#e0645c"/>
+  <text x="70" y="270" fill="#e0645c" font-size="12">IE, EN increase &#8594;</text>
+  <!-- upward within a group -->
+  <line x1="360" y1="216" x2="360" y2="62" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="360,52 354,66 366,66" fill="#e0645c"/>
+  <text x="368" y="140" fill="#e0645c" font-size="12">IE, EN increase</text>
+
+  <!-- blue arrow: atomic radius increase (down + left) -->
+  <line x1="326" y1="292" x2="52" y2="292" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="42,292 56,286 56,298" fill="#4a90d9"/>
+  <text x="120" y="310" fill="#4a90d9" font-size="12">&#8592; radius increases</text>
+  <text x="120" y="326" fill="#4a90d9" font-size="12">(and down)</text>
+
+  <!-- F marker top-right = most electronegative -->
+  <rect x="280" y="50" width="30" height="34" fill="#e0645c" opacity="0.18" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="288" y="72" fill="#e0645c" font-size="13">F</text>
+
+  <!-- ===== inset: IE vs atomic number sawtooth ===== -->
+  <text x="430" y="52" fill="#8a8a8a" font-size="12" font-style="italic">IE vs. atomic number</text>
+  <!-- axes -->
+  <line x1="430" y1="70" x2="430" y2="200" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="430,64 426,74 434,74" fill="#8a8a8a"/>
+  <line x1="430" y1="200" x2="618" y2="200" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="618,200 608,196 608,204" fill="#8a8a8a"/>
+  <text x="404" y="78" fill="#8a8a8a" font-size="12">IE</text>
+  <text x="588" y="216" fill="#8a8a8a" font-size="12">Z</text>
+
+  <!-- sawtooth: rise across a period, drop at each new period (alkali = min, noble = max) -->
+  <!-- period 2: Li(low) up to Ne(high); period 3: Na(low) up to Ar(high) -->
+  <path d="M 438 188 L 452 150 L 466 158 L 480 120 L 494 132 L 508 96 L 522 78 L 536 176 L 550 142 L 564 148 L 578 112 L 592 88"
+        fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <!-- alkali minima -->
+  <circle cx="438" cy="188" r="3" fill="#4a90d9"/>
+  <circle cx="536" cy="176" r="3" fill="#4a90d9"/>
+  <text x="424" y="204" fill="#4a90d9" font-size="11">Li</text>
+  <text x="524" y="192" fill="#4a90d9" font-size="11">Na</text>
+  <!-- noble maxima -->
+  <circle cx="522" cy="78" r="3" fill="#e0645c"/>
+  <text x="516" y="72" fill="#e0645c" font-size="11">Ne</text>
+</svg>

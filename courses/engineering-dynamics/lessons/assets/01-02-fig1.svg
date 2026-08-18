@@ -1,0 +1,62 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <defs>
+    <marker id="coral" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L9,3 L0,6 Z" fill="#e0645c"/>
+    </marker>
+    <marker id="grey" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L9,3 L0,6 Z" fill="#8a8a8a"/>
+    </marker>
+  </defs>
+
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Horizontal and vertical motion run independently; together they trace a parabola. v is always tangent to the path.</text>
+
+  <!-- axes -->
+  <line x1="60" y1="280" x2="618" y2="280" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#grey)"/>
+  <text x="622" y="285" fill="#8a8a8a">x</text>
+  <line x1="60" y1="280" x2="60" y2="52" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#grey)"/>
+  <text x="47" y="58" fill="#8a8a8a">y</text>
+
+  <!-- trajectory -->
+  <path d="M 60 280 Q 330 -100 600 280" fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- launch point + initial velocity + angle -->
+  <circle cx="60" cy="280" r="4" fill="#4a90d9"/>
+  <line x1="60" y1="280" x2="103" y2="219" stroke="#e0645c" stroke-width="2.5" marker-end="url(#coral)"/>
+  <text x="106" y="214" fill="#e0645c">v&#8320;</text>
+  <path d="M 96 280 A 36 36 0 0 0 88 258" fill="none" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="98" y="272" fill="#8a8a8a">&#952;</text>
+
+  <!-- ascending point A: v with vx, vy components -->
+  <circle cx="195" cy="137" r="3.5" fill="#4a90d9"/>
+  <line x1="195" y1="137" x2="252" y2="137" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#coral)"/>
+  <line x1="252" y1="137" x2="252" y2="97" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#coral)"/>
+  <line x1="195" y1="137" x2="252" y2="97" stroke="#e0645c" stroke-width="2.5" marker-end="url(#coral)"/>
+  <text x="256" y="95" fill="#e0645c">v</text>
+  <text x="212" y="152" fill="#e0645c">v<tspan dy="4" font-size="10">x</tspan></text>
+  <text x="256" y="122" fill="#e0645c">v<tspan dy="4" font-size="10">y</tspan></text>
+
+  <!-- apex -->
+  <circle cx="330" cy="90" r="4" fill="#4a90d9"/>
+  <line x1="330" y1="90" x2="378" y2="90" stroke="#e0645c" stroke-width="2.5" marker-end="url(#coral)"/>
+  <text x="336" y="80" fill="#e0645c">v = v<tspan dy="4" font-size="10">x</tspan><tspan dy="-4">, v</tspan><tspan dy="4" font-size="10">y</tspan><tspan dy="-4"> = 0</tspan></text>
+
+  <!-- descending point B: v with vx, vy components -->
+  <circle cx="465" cy="137" r="3.5" fill="#4a90d9"/>
+  <line x1="465" y1="137" x2="522" y2="137" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#coral)"/>
+  <line x1="522" y1="137" x2="522" y2="177" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#coral)"/>
+  <line x1="465" y1="137" x2="522" y2="177" stroke="#e0645c" stroke-width="2.5" marker-end="url(#coral)"/>
+  <text x="526" y="182" fill="#e0645c">v</text>
+  <text x="482" y="130" fill="#e0645c">v<tspan dy="4" font-size="10">x</tspan></text>
+  <text x="526" y="160" fill="#e0645c">v<tspan dy="4" font-size="10">y</tspan></text>
+
+  <!-- max height H -->
+  <line x1="330" y1="90" x2="330" y2="280" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="312" y1="90" x2="312" y2="280" stroke="#e0645c" stroke-width="1.5" marker-start="url(#coral)" marker-end="url(#coral)"/>
+  <text x="290" y="190" fill="#e0645c">H</text>
+
+  <!-- range R -->
+  <circle cx="600" cy="280" r="4" fill="#4a90d9"/>
+  <line x1="60" y1="302" x2="600" y2="302" stroke="#e0645c" stroke-width="1.5" marker-start="url(#coral)" marker-end="url(#coral)"/>
+  <text x="326" y="320" fill="#e0645c">R</text>
+</svg>

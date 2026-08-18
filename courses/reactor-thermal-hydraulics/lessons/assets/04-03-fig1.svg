@@ -1,0 +1,29 @@
+<svg viewBox="0 0 660 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Feedback coefficients on a sign line: left of zero is self-correcting, right of zero feeds the excursion.</text>
+
+  <rect x="55" y="46" width="275" height="258" fill="#4a90d9" opacity="0.07"/>
+  <rect x="330" y="46" width="300" height="258" fill="#e0645c" opacity="0.07"/>
+
+  <line x1="330" y1="42" x2="330" y2="310" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="322" y="330" fill="#8a8a8a">0</text>
+  <text x="60" y="330" fill="#4a90d9">&#8722; negative: self-correcting</text>
+  <text x="430" y="330" fill="#e0645c">+ positive: self-amplifying</text>
+
+  <text x="25" y="66" fill="#8a8a8a">Doppler (fuel temperature) &#8226; prompt</text>
+  <rect x="285" y="74" width="45" height="18" fill="#4a90d9" opacity="0.75" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="278" y="88" fill="#4a90d9" text-anchor="end">&#8722;2.5 pcm/K</text>
+
+  <text x="25" y="126" fill="#8a8a8a">Moderator temperature (PWR, under-moderated)</text>
+  <rect x="220" y="134" width="110" height="18" fill="#4a90d9" opacity="0.75" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="213" y="148" fill="#4a90d9" text-anchor="end">&#8722;30 pcm/K</text>
+
+  <text x="25" y="186" fill="#8a8a8a">Void (BWR, water is the moderator)</text>
+  <rect x="155" y="194" width="175" height="18" fill="#4a90d9" opacity="0.75" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="148" y="208" fill="#4a90d9" text-anchor="end">&#8722;100 pcm/%void</text>
+
+  <text x="25" y="246" fill="#8a8a8a">Void (RBMK, graphite moderates, water absorbs)</text>
+  <rect x="330" y="254" width="95" height="18" fill="#e0645c" opacity="0.75" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="432" y="268" fill="#e0645c">+40 pcm/%void</text>
+
+  <text x="30" y="352" fill="#8a8a8a" font-size="12">Magnitudes illustrative; bar length is schematic (per-K and per-%void coefficients are not on one scale).</text>
+</svg>

@@ -1,0 +1,69 @@
+<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="24" y="24" fill="#8a8a8a" font-style="italic">Z-pinch: axial current I&#8320; makes an azimuthal B&#952;; the inward J&#215;B force balances the plasma's</text>
+  <text x="24" y="42" fill="#8a8a8a" font-style="italic">outward pressure gradient. Field and current wrap the nested flux surfaces (p = const on each).</text>
+
+  <!-- ===== left: the plasma column ===== -->
+
+  <!-- column body -->
+  <path d="M 150 84 L 150 300 A 60 16 0 0 0 270 300 L 270 84" fill="#4a90d9" opacity="0.15"/>
+  <ellipse cx="210" cy="84" rx="60" ry="16" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="1.5"/>
+  <line x1="150" y1="84" x2="150" y2="300" stroke="#4a90d9" stroke-width="1.5"/>
+  <line x1="270" y1="84" x2="270" y2="300" stroke="#4a90d9" stroke-width="1.5"/>
+  <path d="M 150 300 A 60 16 0 0 0 270 300" fill="none" stroke="#4a90d9" stroke-width="1.5"/>
+
+  <!-- azimuthal B_theta loops wrapping the column (back arc dashed, front arc solid) -->
+  <g stroke="#8a8a8a" stroke-width="1.5" fill="none">
+    <path d="M 132 140 A 78 18 0 0 1 288 140" stroke-dasharray="4 4"/>
+    <path d="M 132 140 A 78 18 0 0 0 288 140"/>
+    <path d="M 132 214 A 78 18 0 0 1 288 214" stroke-dasharray="4 4"/>
+    <path d="M 132 214 A 78 18 0 0 0 288 214"/>
+    <path d="M 132 284 A 78 18 0 0 1 288 284" stroke-dasharray="4 4"/>
+    <path d="M 132 284 A 78 18 0 0 0 288 284"/>
+  </g>
+  <!-- direction arrowheads on the front of each B_theta loop -->
+  <polygon points="132,140 142,136 141,146" fill="#8a8a8a"/>
+  <polygon points="132,214 142,210 141,220" fill="#8a8a8a"/>
+  <polygon points="132,284 142,280 141,290" fill="#8a8a8a"/>
+  <text x="292" y="219" fill="#8a8a8a">B&#952;</text>
+
+  <!-- axial current up the axis -->
+  <line x1="210" y1="312" x2="210" y2="60" stroke="#4a90d9" stroke-width="3"/>
+  <polygon points="210,52 204,66 216,66" fill="#4a90d9"/>
+  <text x="216" y="60" fill="#4a90d9">I&#8320; (J&#8320;)</text>
+
+  <!-- inward J x B pinch force at mid-height -->
+  <line x1="120" y1="214" x2="168" y2="214" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="176,214 162,208 162,220" fill="#e0645c"/>
+  <line x1="300" y1="238" x2="252" y2="238" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="244,238 258,232 258,244" fill="#e0645c"/>
+  <text x="70" y="200" fill="#e0645c">J&#215;B</text>
+  <text x="298" y="256" fill="#e0645c">pinch</text>
+
+  <text x="150" y="344" fill="#8a8a8a">plasma column</text>
+
+  <!-- ===== right: cross-section, nested flux surfaces ===== -->
+  <text x="430" y="86" fill="#8a8a8a">cross-section</text>
+
+  <circle cx="500" cy="210" r="66" fill="#4a90d9" opacity="0.15"/>
+  <circle cx="500" cy="210" r="66" fill="none" stroke="#4a90d9" stroke-width="1.5"/>
+  <circle cx="500" cy="210" r="48" fill="none" stroke="#4a90d9" stroke-width="1.5"/>
+  <circle cx="500" cy="210" r="30" fill="none" stroke="#4a90d9" stroke-width="1.5"/>
+  <circle cx="500" cy="210" r="14" fill="none" stroke="#4a90d9" stroke-width="1.5"/>
+
+  <!-- current out of page (dot in circle) -->
+  <circle cx="500" cy="210" r="4" fill="#4a90d9"/>
+  <text x="508" y="206" fill="#4a90d9">I&#8320; out</text>
+
+  <!-- azimuthal B_theta circling -->
+  <path d="M 500 128 A 82 82 0 0 1 582 210" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="582,210 576,198 588,200" fill="#8a8a8a"/>
+  <text x="586" y="150" fill="#8a8a8a">B&#952;</text>
+
+  <!-- outward pressure gradient arrow -->
+  <line x1="500" y1="210" x2="500" y2="300" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="500,308 494,294 506,294" fill="#e0645c"/>
+  <text x="470" y="326" fill="#e0645c">&#8711;p (out)</text>
+
+  <text x="418" y="360" fill="#8a8a8a" font-style="italic">p highest at core, falls to 0 at the edge</text>
+</svg>

@@ -1,0 +1,34 @@
+<svg viewBox="0 0 620 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Ideal-gas chemical potential climbs logarithmically with pressure: &#956; = &#956;&#176; + RT ln(p/p&#176;).</text>
+
+  <!-- y-axis (mu) -->
+  <line x1="70" y1="265" x2="70" y2="52" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,52 65,62 75,62" fill="#8a8a8a"/>
+  <text x="52" y="60" fill="#8a8a8a">&#956;</text>
+
+  <!-- x-axis (p) -->
+  <line x1="60" y1="260" x2="585" y2="260" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="585,260 575,255 575,265" fill="#8a8a8a"/>
+  <text x="588" y="265" fill="#8a8a8a">p</text>
+
+  <!-- mu-standard reference line (coral, dashed) -->
+  <line x1="70" y1="155" x2="560" y2="155" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="40" y="159" fill="#e0645c">&#956;&#176;</text>
+
+  <!-- p-standard guide line (grey, dashed) -->
+  <line x1="119" y1="155" x2="119" y2="260" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="110" y="278" fill="#8a8a8a">p&#176;</text>
+
+  <!-- the mu(p) logarithmic curve -->
+  <path d="M 74.9 247.1 L 79.8 219.4 L 89.6 191.7 L 99.4 175.4 L 109.2 163.9 L 119 155 L 143.5 138.8 L 168 127.3 L 217 111.1 L 266 99.5 L 315 90.6 L 364 83.3 L 413 77.2 L 462 71.8 L 511 67.1 L 560 62.9"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- standard-state point -->
+  <circle cx="119" cy="155" r="4.5" fill="#e0645c"/>
+  <text x="126" y="150" fill="#e0645c">standard state</text>
+
+  <!-- flow annotation: matter flows toward low mu -->
+  <text x="470" y="108" fill="#4a90d9">high &#956;</text>
+  <text x="150" y="212" fill="#8a8a8a">low &#956;</text>
+</svg>

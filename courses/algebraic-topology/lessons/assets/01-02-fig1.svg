@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 300" width="660" height="300" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="660" height="300" fill="#ffffff"/>
+
+  <!-- ===== LEFT PANEL: two loops at x0 ===== -->
+  <text x="165" y="28" text-anchor="middle" font-size="15" fill="#111">Two loops at the basepoint</text>
+
+  <!-- alpha petal (upper, blue) -->
+  <path d="M90,160 C120,95 210,90 245,135 C255,150 190,165 90,160 Z"
+        fill="none" stroke="#1d4ed8" stroke-width="2.5"/>
+  <polygon points="160,92 160,104 174,98" fill="#1d4ed8"/>
+  <text x="175" y="82" font-size="15" fill="#1d4ed8">&#945;</text>
+
+  <!-- beta petal (lower, red) -->
+  <path d="M90,160 C120,225 210,230 245,185 C255,170 190,160 90,160 Z"
+        fill="none" stroke="#b91c1c" stroke-width="2.5"/>
+  <polygon points="160,216 160,228 174,222" fill="#b91c1c"/>
+  <text x="175" y="255" font-size="15" fill="#b91c1c">&#946;</text>
+
+  <!-- basepoint -->
+  <circle cx="90" cy="160" r="4.5" fill="#111"/>
+  <text x="66" y="164" font-size="15" fill="#111">x&#8320;</text>
+
+  <!-- ===== RIGHT PANEL: concatenation ===== -->
+  <g transform="translate(350,0)">
+    <text x="165" y="28" text-anchor="middle" font-size="15" fill="#111">Concatenation &#945;&#183;&#946;</text>
+
+    <path d="M90,160 C120,95 210,90 245,135 C255,150 190,165 90,160 Z"
+          fill="none" stroke="#111" stroke-width="2.5"/>
+    <polygon points="160,92 160,104 174,98" fill="#111"/>
+    <text x="150" y="80" font-size="13" fill="#1d4ed8">1st: &#945; (2&#215; speed)</text>
+
+    <path d="M90,160 C120,225 210,230 245,185 C255,170 190,160 90,160 Z"
+          fill="none" stroke="#111" stroke-width="2.5"/>
+    <polygon points="160,216 160,228 174,222" fill="#111"/>
+    <text x="150" y="256" font-size="13" fill="#b91c1c">2nd: &#946; (2&#215; speed)</text>
+
+    <circle cx="90" cy="160" r="4.5" fill="#111"/>
+    <text x="66" y="164" font-size="15" fill="#111">x&#8320;</text>
+
+    <text x="165" y="290" text-anchor="middle" font-size="12" fill="#111">
+      &#945; on [0,&#189;], then &#946; on [&#189;,1]
+    </text>
+  </g>
+</svg>

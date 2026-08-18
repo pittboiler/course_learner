@@ -1,0 +1,43 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="55" y="22" fill="#8a8a8a" font-style="italic">Each factor is a step up: the core average is multiplied by nuclear peaking and engineering tolerances to the hot spot.</text>
+
+  <!-- axes -->
+  <line x1="55" y1="290" x2="612" y2="290" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="55" y1="290" x2="55" y2="60" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="20" y="180" fill="#8a8a8a" transform="rotate(-90 20 180)" text-anchor="middle">q&#8243; / q&#8243;(avg)</text>
+
+  <!-- reference dashed lines -->
+  <line x1="55" y1="213" x2="612" y2="213" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="612" y="209" fill="#8a8a8a" text-anchor="end">1&#215; average</text>
+  <line x1="55" y1="99.8" x2="612" y2="99.8" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="612" y="95" fill="#e0645c" text-anchor="end">&#8776; 2.5&#215; peak</text>
+
+  <!-- bars -->
+  <rect x="80" y="213" width="88" height="77" fill="#4a90d9" opacity="0.18" stroke="#4a90d9" stroke-width="2"/>
+  <rect x="210" y="170.6" width="88" height="119.4" fill="#4a90d9" opacity="0.18" stroke="#4a90d9" stroke-width="2"/>
+  <rect x="340" y="116.7" width="88" height="173.3" fill="#4a90d9" opacity="0.18" stroke="#4a90d9" stroke-width="2"/>
+  <rect x="470" y="99.8" width="88" height="190.2" fill="#e0645c" opacity="0.20" stroke="#e0645c" stroke-width="2"/>
+
+  <!-- cumulative value labels -->
+  <text x="124" y="207" fill="#8a8a8a" text-anchor="middle">1.00</text>
+  <text x="254" y="164" fill="#8a8a8a" text-anchor="middle">1.55</text>
+  <text x="384" y="110" fill="#8a8a8a" text-anchor="middle">2.25</text>
+  <text x="514" y="93" fill="#e0645c" font-weight="bold" text-anchor="middle">2.47</text>
+
+  <!-- step connectors -->
+  <line x1="124" y1="213" x2="254" y2="170.6" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="254" y1="170.6" x2="384" y2="116.7" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="384" y1="116.7" x2="514" y2="99.8" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 3"/>
+
+  <!-- factor labels -->
+  <text x="189" y="205" fill="#e0645c" text-anchor="middle">&#215; F_R = 1.55</text>
+  <text x="319" y="156" fill="#e0645c" text-anchor="middle">&#215; F_z = 1.45</text>
+  <text x="449" y="122" fill="#e0645c" text-anchor="middle">&#215; F_eng = 1.10</text>
+
+  <!-- category labels -->
+  <text x="124" y="308" fill="#8a8a8a" text-anchor="middle">core average</text>
+  <text x="254" y="308" fill="#8a8a8a" text-anchor="middle">radial</text>
+  <text x="384" y="308" fill="#8a8a8a" text-anchor="middle">+ axial</text>
+  <text x="514" y="308" fill="#e0645c" text-anchor="middle">hot spot</text>
+  <text x="384" y="326" fill="#8a8a8a" text-anchor="middle">nuclear F_q = 2.25</text>
+</svg>

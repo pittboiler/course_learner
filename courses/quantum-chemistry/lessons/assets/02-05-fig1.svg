@@ -1,0 +1,44 @@
+<svg viewBox="0 0 620 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">STO (blue): a cusp at the nucleus and a slow tail. One GTO (coral): too round, tail dies too fast.</text>
+  <text x="40" y="42" fill="#8a8a8a" font-style="italic">Three GTOs contracted (coral dashed) mimic the STO — that is what &#8220;STO-3G&#8221; means.</text>
+
+  <!-- axes -->
+  <line x1="70" y1="270" x2="578" y2="270" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="578,270 568,265 568,275" fill="#8a8a8a"/>
+  <text x="582" y="275" fill="#8a8a8a">r</text>
+  <line x1="70" y1="270" x2="70" y2="60" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,60 65,70 75,70" fill="#8a8a8a"/>
+  <text x="46" y="66" fill="#8a8a8a">&#966;(r)</text>
+  <text x="58" y="285" fill="#8a8a8a">0</text>
+
+  <!-- single GTO: coral thin solid (wrong shape) -->
+  <path d="M70,70 L100.6,77.4 L131.25,97.9 L161.9,127.3 L192.5,160.2 L223.1,191.7 L253.75,218.2 L315,251.9 L376.25,265.3 L437.5,268.9 L498.75,269.9 L560,270"
+        fill="none" stroke="#e0645c" stroke-width="2"/>
+
+  <!-- three-GTO contraction: coral dashed, hugs the STO -->
+  <path d="M70,80 L100.6,110 L131.25,160 L161.9,192 L192.5,214 L223.1,230 L253.75,241 L315,255.6 L376.25,262.8 L437.5,266.6 L498.75,268.4 L560,269.2"
+        fill="none" stroke="#e0645c" stroke-width="2.5" stroke-dasharray="6 4"/>
+
+  <!-- STO: blue thick solid, cusp at r=0 -->
+  <path d="M70,70 L100.6,125.5 L131.25,165.6 L161.9,194.6 L192.5,215.5 L223.1,230.6 L253.75,241.5 L315,255.1 L376.25,262.2 L437.5,266 L498.75,267.9 L560,268.9"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- annotations -->
+  <line x1="112" y1="70" x2="84" y2="82" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="116" y="74" fill="#8a8a8a" font-size="12">cusp: steep drop (STO)</text>
+
+  <line x1="150" y1="96" x2="128" y2="99" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="154" y="100" fill="#8a8a8a" font-size="12">flat top: no cusp (GTO)</text>
+
+  <line x1="415" y1="258" x2="440" y2="266" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="300" y="256" fill="#8a8a8a" font-size="12">GTO tail dies too fast</text>
+
+  <!-- legend -->
+  <line x1="400" y1="100" x2="428" y2="100" stroke="#4a90d9" stroke-width="3"/>
+  <text x="434" y="104" fill="#8a8a8a" font-size="12">STO  ~ e&#8315;&#950;&#691;</text>
+  <line x1="400" y1="122" x2="428" y2="122" stroke="#e0645c" stroke-width="2"/>
+  <text x="434" y="126" fill="#8a8a8a" font-size="12">1 GTO  ~ e&#8315;&#945;&#691;&#178;</text>
+  <line x1="400" y1="144" x2="428" y2="144" stroke="#e0645c" stroke-width="2.5" stroke-dasharray="6 4"/>
+  <text x="434" y="148" fill="#8a8a8a" font-size="12">3-GTO contraction</text>
+</svg>

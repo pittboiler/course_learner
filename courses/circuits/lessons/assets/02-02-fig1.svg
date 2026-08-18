@@ -1,0 +1,68 @@
+<svg viewBox="0 0 560 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="15">
+  <!-- caption -->
+  <text x="30" y="26" fill="#8a8a8a" font-style="italic">Two windows, two circulating currents. The shared middle branch carries I&#8321;&#8722;I&#8322;.</text>
+
+  <!-- ===== wires (grey) ===== -->
+  <!-- top wire pieces (gaps for resistor boxes) -->
+  <line x1="90" y1="80" x2="163" y2="80" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="217" y1="80" x2="363" y2="80" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="417" y1="80" x2="490" y2="80" stroke="#8a8a8a" stroke-width="2"/>
+  <!-- bottom wire -->
+  <line x1="90" y1="270" x2="490" y2="270" stroke="#8a8a8a" stroke-width="2"/>
+  <!-- left vertical (gap for source circle) -->
+  <line x1="90" y1="80" x2="90" y2="162" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="90" y1="198" x2="90" y2="270" stroke="#8a8a8a" stroke-width="2"/>
+  <!-- middle vertical (gap for R3 box) -->
+  <line x1="290" y1="80" x2="290" y2="148" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="290" y1="202" x2="290" y2="270" stroke="#8a8a8a" stroke-width="2"/>
+  <!-- right vertical (gap for source circle) -->
+  <line x1="490" y1="80" x2="490" y2="162" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="490" y1="198" x2="490" y2="270" stroke="#8a8a8a" stroke-width="2"/>
+
+  <!-- node dots -->
+  <circle cx="90" cy="80" r="3.5" fill="#8a8a8a"/>
+  <circle cx="290" cy="80" r="3.5" fill="#8a8a8a"/>
+  <circle cx="490" cy="80" r="3.5" fill="#8a8a8a"/>
+  <circle cx="90" cy="270" r="3.5" fill="#8a8a8a"/>
+  <circle cx="290" cy="270" r="3.5" fill="#8a8a8a"/>
+  <circle cx="490" cy="270" r="3.5" fill="#8a8a8a"/>
+
+  <!-- ===== sources (blue circles) ===== -->
+  <!-- V1 left, + up -->
+  <circle cx="90" cy="180" r="18" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="86" y="169" fill="#4a90d9">+</text>
+  <text x="86" y="197" fill="#4a90d9">&#8722;</text>
+  <text x="42" y="185" fill="#4a90d9">V&#8321;</text>
+  <!-- V2 right, + down -->
+  <circle cx="490" cy="180" r="18" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="486" y="169" fill="#4a90d9">&#8722;</text>
+  <text x="486" y="197" fill="#4a90d9">+</text>
+  <text x="510" y="185" fill="#4a90d9">V&#8322;</text>
+
+  <!-- ===== resistors (grey boxes) ===== -->
+  <!-- R1 top-left -->
+  <rect x="163" y="65" width="54" height="30" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="182" y="55" fill="#8a8a8a">R&#8321;</text>
+  <!-- R2 top-right -->
+  <rect x="363" y="65" width="54" height="30" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="382" y="55" fill="#8a8a8a">R&#8322;</text>
+  <!-- R3 middle (shared) -->
+  <rect x="273" y="148" width="34" height="54" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="313" y="180" fill="#8a8a8a">R&#8323;</text>
+
+  <!-- ===== mesh-current loops (coral) ===== -->
+  <!-- I1 -->
+  <circle cx="190" cy="180" r="34" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="190,146 187,141 187,151" fill="#e0645c"/>
+  <polygon points="190,146 198,146 190,151" fill="#e0645c"/>
+  <text x="181" y="186" fill="#e0645c">I&#8321;</text>
+  <!-- I2 -->
+  <circle cx="390" cy="180" r="34" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="390,146 387,141 387,151" fill="#e0645c"/>
+  <polygon points="390,146 398,146 390,151" fill="#e0645c"/>
+  <text x="381" y="186" fill="#e0645c">I&#8322;</text>
+
+  <!-- shared-branch label -->
+  <text x="243" y="300" fill="#e0645c">shared: I&#8321;&#8722;I&#8322;</text>
+  <line x1="290" y1="285" x2="290" y2="272" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 3"/>
+</svg>

@@ -1,0 +1,74 @@
+<svg viewBox="0 0 600 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="20" y="20" fill="#8a8a8a" font-style="italic">An extended source (angular size &#952;&#8347;) lights a double slit: fringes stay sharp when a &lt; &#8467;&#8869;, wash out when a &gt; &#8467;&#8869;.</text>
+
+  <!-- ================= ROW 1 : a < l_perp (coherent, sharp fringes) ================= -->
+
+  <!-- extended source (small angular size) -->
+  <ellipse cx="45" cy="100" rx="9" ry="24" fill="#8a8a8a" opacity="0.30" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="18" y="150" fill="#8a8a8a">source</text>
+
+  <!-- rays subtending theta_s at the slit -->
+  <line x1="45" y1="78" x2="275" y2="100" stroke="#8a8a8a" stroke-width="0.8" stroke-dasharray="3 3"/>
+  <line x1="45" y1="122" x2="275" y2="100" stroke="#8a8a8a" stroke-width="0.8" stroke-dasharray="3 3"/>
+  <path d="M 95 92 A 55 55 0 0 1 95 108" fill="none" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="102" y="104" fill="#8a8a8a" font-style="italic">&#952;&#8347;</text>
+
+  <!-- slit wall with two closely spaced slits (a small) -->
+  <line x1="275" y1="60" x2="275" y2="92"  stroke="#8a8a8a" stroke-width="3"/>
+  <line x1="275" y1="98" x2="275" y2="102" stroke="#8a8a8a" stroke-width="3"/>
+  <line x1="275" y1="108" x2="275" y2="140" stroke="#8a8a8a" stroke-width="3"/>
+  <!-- slit-separation a marker (grey) -->
+  <line x1="262" y1="95" x2="262" y2="105" stroke="#8a8a8a" stroke-width="1.2"/>
+  <polygon points="262,95 259,101 265,101" fill="#8a8a8a"/>
+  <polygon points="262,105 259,99 265,99" fill="#8a8a8a"/>
+  <text x="244" y="103" fill="#8a8a8a">a</text>
+  <!-- coherence length l_perp marker (coral) : longer than a -->
+  <line x1="292" y1="80" x2="292" y2="120" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="292,80 288,88 296,88" fill="#e0645c"/>
+  <polygon points="292,120 288,112 296,112" fill="#e0645c"/>
+  <text x="298" y="104" fill="#e0645c">&#8467;&#8869;</text>
+
+  <!-- screen with high-visibility fringes (transparent gaps = dark) -->
+  <rect x="405" y="55" width="150" height="90" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+  <rect x="411" y="55" width="14" height="90" fill="#4a90d9" opacity="0.9"/>
+  <rect x="439" y="55" width="14" height="90" fill="#4a90d9" opacity="0.9"/>
+  <rect x="467" y="55" width="14" height="90" fill="#4a90d9" opacity="0.9"/>
+  <rect x="495" y="55" width="14" height="90" fill="#4a90d9" opacity="0.9"/>
+  <rect x="523" y="55" width="14" height="90" fill="#4a90d9" opacity="0.9"/>
+  <text x="405" y="163" fill="#4a90d9">a &lt; &#8467;&#8869;: sharp fringes</text>
+
+  <!-- ================= ROW 2 : a > l_perp (incoherent, washed out) ================= -->
+
+  <!-- extended source -->
+  <ellipse cx="45" cy="260" rx="9" ry="24" fill="#8a8a8a" opacity="0.30" stroke="#8a8a8a" stroke-width="1.2"/>
+
+  <!-- rays -->
+  <line x1="45" y1="238" x2="275" y2="260" stroke="#8a8a8a" stroke-width="0.8" stroke-dasharray="3 3"/>
+  <line x1="45" y1="282" x2="275" y2="260" stroke="#8a8a8a" stroke-width="0.8" stroke-dasharray="3 3"/>
+
+  <!-- slit wall with widely spaced slits (a large) -->
+  <line x1="275" y1="210" x2="275" y2="232" stroke="#8a8a8a" stroke-width="3"/>
+  <line x1="275" y1="238" x2="275" y2="282" stroke="#8a8a8a" stroke-width="3"/>
+  <line x1="275" y1="288" x2="275" y2="310" stroke="#8a8a8a" stroke-width="3"/>
+  <!-- slit-separation a marker (grey) : large -->
+  <line x1="262" y1="235" x2="262" y2="285" stroke="#8a8a8a" stroke-width="1.2"/>
+  <polygon points="262,235 259,241 265,241" fill="#8a8a8a"/>
+  <polygon points="262,285 259,279 265,279" fill="#8a8a8a"/>
+  <text x="244" y="263" fill="#8a8a8a">a</text>
+  <!-- coherence length l_perp marker (coral) : shorter than a -->
+  <line x1="292" y1="250" x2="292" y2="270" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="292,250 288,258 296,258" fill="#e0645c"/>
+  <polygon points="292,270 288,262 296,262" fill="#e0645c"/>
+  <text x="298" y="264" fill="#e0645c">&#8467;&#8869;</text>
+
+  <!-- screen with washed-out fringes (filled background, low-contrast bars) -->
+  <rect x="405" y="215" width="150" height="90" fill="#4a90d9" opacity="0.22"/>
+  <rect x="405" y="215" width="150" height="90" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+  <rect x="411" y="215" width="14" height="90" fill="#4a90d9" opacity="0.16"/>
+  <rect x="439" y="215" width="14" height="90" fill="#4a90d9" opacity="0.16"/>
+  <rect x="467" y="215" width="14" height="90" fill="#4a90d9" opacity="0.16"/>
+  <rect x="495" y="215" width="14" height="90" fill="#4a90d9" opacity="0.16"/>
+  <rect x="523" y="215" width="14" height="90" fill="#4a90d9" opacity="0.16"/>
+  <text x="405" y="323" fill="#4a90d9">a &gt; &#8467;&#8869;: washed out</text>
+</svg>

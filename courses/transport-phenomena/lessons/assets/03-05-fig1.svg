@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 410" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="ah" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M1,1 L7,4 L1,7 Z" fill="#4a90d9"/>
+    </marker>
+  </defs>
+
+  <text x="30" y="28" font-size="14" fill="#8a8a8a">Heated vertical plate: buoyant rise</text>
+  <text x="330" y="28" font-size="14" fill="#8a8a8a">Velocity profile at one height</text>
+
+  <rect x="60" y="55" width="12" height="300" fill="#e0645c"/>
+  <text x="34" y="200" font-size="13" fill="#e0645c" transform="rotate(-90 34 200)">wall  Ts (hot)</text>
+
+  <path d="M92,355 C120,300 150,140 172,60" fill="none" stroke="#8a8a8a" stroke-width="1.6" stroke-dasharray="6 4"/>
+  <text x="150" y="120" font-size="14" fill="#8a8a8a">&#948;</text>
+  <text x="200" y="330" font-size="13" fill="#8a8a8a">T</text>
+  <text x="210" y="335" font-size="11" fill="#8a8a8a">&#8734;</text>
+  <text x="200" y="348" font-size="12" fill="#8a8a8a">(still, cool)</text>
+
+  <line x1="86" y1="345" x2="86" y2="300" stroke="#4a90d9" stroke-width="2" marker-end="url(#ah)"/>
+  <line x1="100" y1="270" x2="100" y2="215" stroke="#4a90d9" stroke-width="2" marker-end="url(#ah)"/>
+  <line x1="116" y1="185" x2="116" y2="120" stroke="#4a90d9" stroke-width="2" marker-end="url(#ah)"/>
+
+  <line x1="330" y1="355" x2="330" y2="60" stroke="#8a8a8a" stroke-width="1.4"/>
+  <line x1="330" y1="355" x2="560" y2="355" stroke="#8a8a8a" stroke-width="1.4"/>
+  <text x="300" y="70" font-size="13" fill="#8a8a8a">vx</text>
+  <text x="470" y="378" font-size="12" fill="#8a8a8a">distance from wall  n</text>
+  <text x="326" y="372" font-size="11" fill="#8a8a8a">wall</text>
+  <text x="500" y="372" font-size="12" fill="#8a8a8a">n = &#948;</text>
+
+  <path d="M330,355 C356,355 370,120 402,112 C436,104 474,355 500,355" fill="none" stroke="#4a90d9" stroke-width="2.4"/>
+  <text x="360" y="100" font-size="12" fill="#4a90d9">free: 0 at wall,</text>
+  <text x="360" y="116" font-size="12" fill="#4a90d9">peak inside, 0 at &#8734;</text>
+
+  <path d="M330,355 C372,355 424,180 476,166 C512,158 536,160 556,160" fill="none" stroke="#e0645c" stroke-width="2" stroke-dasharray="5 4"/>
+  <text x="470" y="150" font-size="12" fill="#e0645c">forced:</text>
+  <text x="470" y="166" font-size="12" fill="#e0645c">levels to u</text>
+  <text x="527" y="171" font-size="10" fill="#e0645c">&#8734;</text>
+
+  <text x="30" y="398" font-size="12" fill="#8a8a8a">Solutal analogue: swap &#916;T&#8594;&#916;cA, &#946;&#8594;&#946;c, Gr&#8594;Grm, Ra&#8594;Ram = Grm Sc &#8212; buoyancy can be concentration-driven.</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg viewBox="0 0 430 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="430" height="400" fill="#ffffff"/>
+
+  <!-- axes through origin (0,0) at (100,300) -->
+  <line x1="60" y1="300" x2="392" y2="300" stroke="#111111" stroke-width="1.5"/>
+  <line x1="100" y1="340" x2="100" y2="40" stroke="#111111" stroke-width="1.5"/>
+  <text x="396" y="305" font-size="14" fill="#111111" font-style="italic">x</text>
+
+  <!-- diagonal y = x -->
+  <line x1="60" y1="340" x2="360" y2="40" stroke="#888888" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="330" y="58" font-size="13" fill="#666666" font-style="italic">y = x</text>
+
+  <!-- curve y = 1 - x^2 -->
+  <polyline fill="none" stroke="#1d4ed8" stroke-width="2.5"
+    points="60,108 100,100 140,108 180,132 200,150 220,172 260,228 280,262 300,300 310,320"/>
+  <text x="120" y="86" font-size="13" fill="#1d4ed8" font-style="italic">y = 1 &#8722; x&#178;</text>
+
+  <!-- faint transient spiral converging onto the box -->
+  <polyline fill="none" stroke="#c9a3a3" stroke-width="1.2"
+    points="200,300 200,150 250,150 250,212.5 187.5,212.5 187.5,138.3 261.7,138.3 261.7,230.8 169.2,230.8 169.2,124"/>
+
+  <!-- stable 2-cycle box: (0,0)->(0,1)->(1,1)->(1,0)->(0,0) -->
+  <polyline fill="none" stroke="#b91c1c" stroke-width="2"
+    points="100,300 100,100 300,100 300,300 100,300"/>
+
+  <!-- unstable fixed point x* ~ 0.618 (open) -->
+  <circle cx="223.6" cy="176.4" r="6" fill="#ffffff" stroke="#111111" stroke-width="2"/>
+  <text x="230" y="182" font-size="12" fill="#111111" font-style="italic">x* (unstable)</text>
+
+  <!-- 2-cycle points on the diagonal (filled = stable) -->
+  <circle cx="100" cy="300" r="5.5" fill="#166534"/>
+  <circle cx="300" cy="100" r="5.5" fill="#166534"/>
+  <text x="80" y="320" font-size="12" fill="#166534">0</text>
+  <text x="304" y="96" font-size="12" fill="#166534">1</text>
+
+  <text x="70" y="392" font-size="12" fill="#b91c1c">2-cycle signature: a closed box (0 &#8596; 1)</text>
+</svg>

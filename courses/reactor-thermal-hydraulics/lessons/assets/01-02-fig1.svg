@@ -1,0 +1,48 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="24" y="24" fill="#8a8a8a" font-style="italic">Heat is born in every shell but escapes only outward, so T peaks at the centerline and sags to a parabola.</text>
+
+  <!-- ===== left: pellet cross-section ===== -->
+  <circle cx="150" cy="188" r="82" fill="#4a90d9" fill-opacity="0.08" stroke="#8a8a8a" stroke-width="2"/>
+  <circle cx="150" cy="188" r="55" fill="none" stroke="#8a8a8a" stroke-width="0.8" stroke-dasharray="2 4"/>
+  <circle cx="150" cy="188" r="28" fill="none" stroke="#8a8a8a" stroke-width="0.8" stroke-dasharray="2 4"/>
+  <circle cx="150" cy="188" r="4" fill="#e0645c"/>
+  <text x="120" y="170" fill="#e0645c">hottest</text>
+  <line x1="150" y1="188" x2="232" y2="188" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="184" y="182" fill="#8a8a8a">r&#8338;</text>
+  <text x="86" y="296" fill="#8a8a8a">cooled surface T&#8347;</text>
+  <text x="112" y="316" fill="#8a8a8a">pellet cross-section</text>
+
+  <!-- ===== right: radial temperature profile ===== -->
+  <!-- axes -->
+  <line x1="360" y1="255" x2="614" y2="255" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="614,255 604,250 604,260" fill="#8a8a8a"/>
+  <text x="618" y="260" fill="#8a8a8a">r</text>
+  <line x1="360" y1="255" x2="360" y2="74" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="360,74 355,84 365,84" fill="#8a8a8a"/>
+  <text x="352" y="70" fill="#8a8a8a">T</text>
+
+  <!-- surface-temperature level -->
+  <line x1="360" y1="210" x2="600" y2="210" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="330" y="214" fill="#8a8a8a">T&#8347;</text>
+  <!-- centerline-temperature level -->
+  <line x1="360" y1="90" x2="490" y2="90" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="330" y="94" fill="#e0645c">T&#8320;</text>
+
+  <!-- parabola T(r) across the full diameter -->
+  <path d="M 380 210 L 400 166.8 L 420 133.2 L 440 109.2 L 460 94.8 L 480 90 L 500 94.8 L 520 109.2 L 540 133.2 L 560 166.8 L 580 210"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="516" y="112" fill="#4a90d9">T(r)</text>
+
+  <!-- centerline-to-surface drop -->
+  <line x1="480" y1="210" x2="480" y2="90" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="480,90 476,99 484,99" fill="#e0645c"/>
+  <polygon points="480,210 476,201 484,201" fill="#e0645c"/>
+  <text x="486" y="154" fill="#e0645c">q&#8242;/(4&#960;k)</text>
+
+  <!-- radius ticks -->
+  <line x1="580" y1="210" x2="580" y2="255" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="572" y="273" fill="#8a8a8a">r&#8338;</text>
+  <text x="476" y="273" fill="#8a8a8a">0</text>
+  <line x1="380" y1="210" x2="380" y2="255" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="366" y="273" fill="#8a8a8a">&#8722;r&#8338;</text>
+</svg>

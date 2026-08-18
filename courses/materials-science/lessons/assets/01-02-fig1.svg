@@ -1,0 +1,85 @@
+<svg viewBox="0 0 660 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Two ways to fill a cube. Blue = corner atoms (each shared by 8 cells). Coral = the extra atoms that name the structure.</text>
+
+  <!-- ============ LEFT: FCC ============ -->
+  <text x="118" y="52" fill="#8a8a8a" font-size="16" font-weight="bold">FCC</text>
+  <text x="70" y="300" fill="#8a8a8a">4 atoms/cell &#183; CN 12</text>
+
+  <!-- cube edges: front square -->
+  <line x1="70" y1="250" x2="170" y2="250" stroke="#8a8a8a" stroke-width="1.4"/>
+  <line x1="170" y1="250" x2="170" y2="150" stroke="#8a8a8a" stroke-width="1.4"/>
+  <line x1="170" y1="150" x2="70" y2="150" stroke="#8a8a8a" stroke-width="1.4"/>
+  <line x1="70" y1="150" x2="70" y2="250" stroke="#8a8a8a" stroke-width="1.4"/>
+  <!-- back square -->
+  <line x1="115" y1="215" x2="215" y2="215" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="215" y1="215" x2="215" y2="115" stroke="#8a8a8a" stroke-width="1.4"/>
+  <line x1="215" y1="115" x2="115" y2="115" stroke="#8a8a8a" stroke-width="1.4"/>
+  <line x1="115" y1="115" x2="115" y2="215" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <!-- connectors -->
+  <line x1="70" y1="250" x2="115" y2="215" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="170" y1="250" x2="215" y2="215" stroke="#8a8a8a" stroke-width="1.4"/>
+  <line x1="170" y1="150" x2="215" y2="115" stroke="#8a8a8a" stroke-width="1.4"/>
+  <line x1="70" y1="150" x2="115" y2="115" stroke="#8a8a8a" stroke-width="1.4"/>
+
+  <!-- FCC face-center atoms (coral) -->
+  <circle cx="120" cy="200" r="9" fill="#e0645c" fill-opacity="0.30" stroke="#e0645c" stroke-width="2"/>
+  <circle cx="165" cy="165" r="9" fill="#e0645c" fill-opacity="0.30" stroke="#e0645c" stroke-width="2"/>
+  <circle cx="92.5" cy="182.5" r="9" fill="#e0645c" fill-opacity="0.30" stroke="#e0645c" stroke-width="2"/>
+  <circle cx="192.5" cy="182.5" r="9" fill="#e0645c" fill-opacity="0.30" stroke="#e0645c" stroke-width="2"/>
+  <circle cx="142.5" cy="132.5" r="9" fill="#e0645c" fill-opacity="0.30" stroke="#e0645c" stroke-width="2"/>
+  <circle cx="142.5" cy="232.5" r="9" fill="#e0645c" fill-opacity="0.30" stroke="#e0645c" stroke-width="2"/>
+
+  <!-- FCC corner atoms (blue) -->
+  <circle cx="70" cy="250" r="7" fill="#4a90d9" fill-opacity="0.30" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="170" cy="250" r="7" fill="#4a90d9" fill-opacity="0.30" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="170" cy="150" r="7" fill="#4a90d9" fill-opacity="0.30" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="70" cy="150" r="7" fill="#4a90d9" fill-opacity="0.30" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="115" cy="215" r="7" fill="#4a90d9" fill-opacity="0.30" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="215" cy="215" r="7" fill="#4a90d9" fill-opacity="0.30" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="215" cy="115" r="7" fill="#4a90d9" fill-opacity="0.30" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="115" cy="115" r="7" fill="#4a90d9" fill-opacity="0.30" stroke="#4a90d9" stroke-width="2"/>
+
+  <!-- a label on front bottom edge -->
+  <text x="112" y="270" fill="#8a8a8a" font-style="italic">a</text>
+
+  <!-- ============ RIGHT: BCC (translate +290 in x) ============ -->
+  <text x="408" y="52" fill="#8a8a8a" font-size="16" font-weight="bold">BCC</text>
+  <text x="360" y="300" fill="#8a8a8a">2 atoms/cell &#183; CN 8</text>
+
+  <!-- cube edges: front square -->
+  <line x1="360" y1="250" x2="460" y2="250" stroke="#8a8a8a" stroke-width="1.4"/>
+  <line x1="460" y1="250" x2="460" y2="150" stroke="#8a8a8a" stroke-width="1.4"/>
+  <line x1="460" y1="150" x2="360" y2="150" stroke="#8a8a8a" stroke-width="1.4"/>
+  <line x1="360" y1="150" x2="360" y2="250" stroke="#8a8a8a" stroke-width="1.4"/>
+  <!-- back square -->
+  <line x1="405" y1="215" x2="505" y2="215" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="505" y1="215" x2="505" y2="115" stroke="#8a8a8a" stroke-width="1.4"/>
+  <line x1="505" y1="115" x2="405" y2="115" stroke="#8a8a8a" stroke-width="1.4"/>
+  <line x1="405" y1="115" x2="405" y2="215" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <!-- connectors -->
+  <line x1="360" y1="250" x2="405" y2="215" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="460" y1="250" x2="505" y2="215" stroke="#8a8a8a" stroke-width="1.4"/>
+  <line x1="460" y1="150" x2="505" y2="115" stroke="#8a8a8a" stroke-width="1.4"/>
+  <line x1="360" y1="150" x2="405" y2="115" stroke="#8a8a8a" stroke-width="1.4"/>
+
+  <!-- body diagonal hint (corner to body center) -->
+  <line x1="360" y1="250" x2="505" y2="115" stroke="#e0645c" stroke-width="1" stroke-dasharray="2 4"/>
+
+  <!-- BCC body-center atom (coral) -->
+  <circle cx="432.5" cy="182.5" r="9" fill="#e0645c" fill-opacity="0.30" stroke="#e0645c" stroke-width="2"/>
+
+  <!-- BCC corner atoms (blue) -->
+  <circle cx="360" cy="250" r="7" fill="#4a90d9" fill-opacity="0.30" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="460" cy="250" r="7" fill="#4a90d9" fill-opacity="0.30" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="460" cy="150" r="7" fill="#4a90d9" fill-opacity="0.30" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="360" cy="150" r="7" fill="#4a90d9" fill-opacity="0.30" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="405" cy="215" r="7" fill="#4a90d9" fill-opacity="0.30" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="505" cy="215" r="7" fill="#4a90d9" fill-opacity="0.30" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="505" cy="115" r="7" fill="#4a90d9" fill-opacity="0.30" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="405" cy="115" r="7" fill="#4a90d9" fill-opacity="0.30" stroke="#4a90d9" stroke-width="2"/>
+
+  <!-- body-center label -->
+  <text x="440" y="180" fill="#e0645c" font-style="italic">body center</text>
+  <text x="402" y="270" fill="#8a8a8a" font-style="italic">a</text>
+</svg>

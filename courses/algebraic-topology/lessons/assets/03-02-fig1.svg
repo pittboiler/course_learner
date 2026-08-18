@@ -1,0 +1,86 @@
+<svg viewBox="0 0 720 440" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="720" height="440" fill="#ffffff"/>
+
+  <defs>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="#111111"/>
+    </marker>
+    <marker id="arrowR" markerWidth="10" markerHeight="10" refX="7" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#dc2626"/>
+    </marker>
+    <marker id="arrowB" markerWidth="10" markerHeight="10" refX="7" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#2563eb"/>
+    </marker>
+  </defs>
+
+  <!-- ============ TITLE ============ -->
+  <text x="30" y="30" font-size="16" font-weight="bold" fill="#111111">The chain complex, with ker ⊇ im nested</text>
+
+  <!-- ============ THE COMPLEX ROW ============ -->
+  <text x="34"  y="76" font-size="18" fill="#111111" text-anchor="middle">0</text>
+  <text x="104" y="76" font-size="18" fill="#111111" text-anchor="middle">C₂</text>
+  <text x="204" y="76" font-size="18" fill="#111111" text-anchor="middle">C₁</text>
+  <text x="304" y="76" font-size="18" fill="#111111" text-anchor="middle">C₀</text>
+  <text x="374" y="76" font-size="18" fill="#111111" text-anchor="middle">0</text>
+
+  <line x1="46"  y1="71" x2="86"  y2="71" stroke="#111111" stroke-width="1.4" marker-end="url(#arrow)"/>
+  <line x1="122" y1="71" x2="186" y2="71" stroke="#111111" stroke-width="1.4" marker-end="url(#arrow)"/>
+  <text x="154" y="62" font-size="13" fill="#111111" text-anchor="middle" font-style="italic">∂₂</text>
+  <line x1="222" y1="71" x2="286" y2="71" stroke="#111111" stroke-width="1.4" marker-end="url(#arrow)"/>
+  <text x="254" y="62" font-size="13" fill="#111111" text-anchor="middle" font-style="italic">∂₁</text>
+  <line x1="320" y1="71" x2="360" y2="71" stroke="#111111" stroke-width="1.4" marker-end="url(#arrow)"/>
+
+  <!-- dashed connectors from C₁ down to the zoom -->
+  <line x1="180" y1="84" x2="120" y2="150" stroke="#9ca3af" stroke-width="1" stroke-dasharray="4 3"/>
+  <line x1="228" y1="84" x2="290" y2="150" stroke="#9ca3af" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="205" y="132" font-size="12" fill="#6b7280" text-anchor="middle" font-style="italic">zoom on C₁</text>
+
+  <!-- ============ NESTED DISKS: C₁ ⊇ Z₁ ⊇ B₁ ============ -->
+  <circle cx="205" cy="285" r="100" fill="#f1f5f9" stroke="#111111" stroke-width="1.4"/>
+  <circle cx="205" cy="290" r="70"  fill="#c7d2fe" stroke="#4338ca" stroke-width="1.4"/>
+  <circle cx="205" cy="300" r="34"  fill="#6366f1" stroke="#312e81" stroke-width="1.4"/>
+
+  <!-- outer ring = not cycles (∂₁ ≠ 0) -->
+  <text x="205" y="200" font-size="13" fill="#111111" text-anchor="middle">C₁ = ⟨a,b,c⟩ ≅ Z³</text>
+  <text x="205" y="238" font-size="12" fill="#334155" text-anchor="middle" font-style="italic">outside Z₁: ∂₁ ≠ 0</text>
+
+  <!-- Z₁ band = cycles -->
+  <text x="205" y="266" font-size="13" fill="#3730a3" text-anchor="middle" font-weight="bold">Z₁ = ker ∂₁</text>
+
+  <!-- B₁ core = boundaries -->
+  <text x="205" y="298" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold">B₁ = im ∂₂</text>
+  <text x="205" y="313" font-size="11" fill="#e0e7ff" text-anchor="middle">⟨a+b−c⟩</text>
+
+  <!-- H₁ label pointing at the band between Z₁ and B₁ -->
+  <line x1="330" y1="330" x2="262" y2="322" stroke="#dc2626" stroke-width="1.4" marker-end="url(#arrowR)"/>
+  <text x="336" y="326" font-size="13" fill="#dc2626" font-weight="bold">H₁ = Z₁ / B₁</text>
+  <text x="336" y="344" font-size="11" fill="#b91c1c">the cycles that</text>
+  <text x="336" y="358" font-size="11" fill="#b91c1c">aren't boundaries</text>
+
+  <!-- ∂₂ feeds the core -->
+  <line x1="60" y1="360" x2="176" y2="312" stroke="#4338ca" stroke-width="1.4" marker-end="url(#arrow)"/>
+  <text x="40" y="378" font-size="11" fill="#4338ca">∂₂ lands here</text>
+
+  <!-- ============ DIVIDER ============ -->
+  <line x1="420" y1="60" x2="420" y2="400" stroke="#e5e7eb" stroke-width="1"/>
+
+  <!-- ============ THE TORUS with two loops ============ -->
+  <text x="575" y="30" font-size="16" font-weight="bold" fill="#111111" text-anchor="middle">A 1-cycle that is not a boundary</text>
+
+  <!-- donut body (top-down) -->
+  <ellipse cx="575" cy="250" rx="118" ry="74" fill="#eef2f6" stroke="#111111" stroke-width="1.8"/>
+  <ellipse cx="575" cy="252" rx="46"  ry="26" fill="#ffffff" stroke="#111111" stroke-width="1.8"/>
+
+  <!-- red loop: circles the central hole -->
+  <path d="M 575,197 A 80,49 0 1 1 574,197" fill="none" stroke="#dc2626" stroke-width="2.6" marker-end="url(#arrowR)"/>
+  <text x="575" y="150" font-size="13" fill="#dc2626" text-anchor="middle" font-weight="bold">loop a</text>
+
+  <!-- blue small loop: bounds a disk on the surface -->
+  <ellipse cx="662" cy="250" rx="17" ry="17" fill="none" stroke="#2563eb" stroke-width="2.4"/>
+  <path d="M 662,233 A 17,17 0 0 1 679,250" fill="none" stroke="#2563eb" stroke-width="2.4" marker-end="url(#arrowB)"/>
+
+  <!-- captions -->
+  <text x="575" y="360" font-size="12" fill="#dc2626" text-anchor="middle" font-weight="bold">a circles the hole → a cycle, but it</text>
+  <text x="575" y="376" font-size="12" fill="#dc2626" text-anchor="middle">bounds nothing → nonzero in H₁</text>
+  <text x="575" y="400" font-size="12" fill="#2563eb" text-anchor="middle">small blue loop bounds a disk → in B₁ → 0 in H₁</text>
+</svg>

@@ -1,0 +1,46 @@
+<svg viewBox="0 0 560 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">A narrow beam thins exponentially: each half-value layer (HVL) cuts the intensity in half,</text>
+  <text x="30" y="40" fill="#8a8a8a" font-style="italic">each tenth-value layer (TVL) cuts it to a tenth. Same shape as neutron attenuation e&#8722;&#931;x.</text>
+
+  <!-- axes -->
+  <line x1="70" y1="250" x2="440" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="440,250 430,245 430,255" fill="#8a8a8a"/>
+  <text x="352" y="284" fill="#8a8a8a">thickness x (cm)</text>
+  <line x1="70" y1="250" x2="70" y2="60" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,60 65,70 75,70" fill="#8a8a8a"/>
+  <text x="34" y="66" fill="#8a8a8a">I/I&#8320;</text>
+
+  <!-- y tick labels -->
+  <text x="46" y="74" fill="#8a8a8a">1.0</text>
+  <text x="46" y="164" fill="#8a8a8a">0.5</text>
+  <text x="46" y="236" fill="#8a8a8a">0.1</text>
+  <text x="54" y="254" fill="#8a8a8a">0</text>
+
+  <!-- x tick labels (cm) -->
+  <line x1="159.7" y1="250" x2="159.7" y2="255" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="156" y="270" fill="#8a8a8a">1</text>
+  <line x1="249.4" y1="250" x2="249.4" y2="255" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="246" y="270" fill="#8a8a8a">2</text>
+  <line x1="339.1" y1="250" x2="339.1" y2="255" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="336" y="270" fill="#8a8a8a">3</text>
+
+  <!-- HVL guides -->
+  <line x1="70" y1="160" x2="150.7" y2="160" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="150.7" y1="160" x2="150.7" y2="250" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="120" y="200" fill="#e0645c">HVL</text>
+  <text x="86" y="218" fill="#e0645c">&#8776; 0.90 cm</text>
+
+  <!-- TVL guides -->
+  <line x1="70" y1="232" x2="339.1" y2="232" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="339.1" y1="232" x2="339.1" y2="250" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="300" y="226" fill="#e0645c">TVL</text>
+  <text x="288" y="244" fill="#e0645c">&#8776; 2.99 cm</text>
+
+  <!-- attenuation curve -->
+  <path d="M 70 70 L 96.9 107.1 L 123.8 136.6 L 150.7 160 L 177.6 178.5 L 204.6 193.3 L 231.5 205 L 258.4 214.3 L 285.3 221.6 L 312.2 227.5 L 339.1 232.1 L 366 235.8 L 393 238.7 L 420 241.1"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- equation label -->
+  <text x="250" y="120" fill="#4a90d9">I/I&#8320; = e<tspan baseline-shift="super" font-size="10">&#8722;&#956;x</tspan></text>
+</svg>

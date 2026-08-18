@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="640" height="420" fill="#ffffff"/>
+
+  <text x="320" y="30" font-size="17" font-weight="bold" fill="#111111" text-anchor="middle">The central path</text>
+
+  <!-- feasible polytope -->
+  <polygon points="120,340 380,365 505,220 360,85 150,160"
+           fill="#2563eb" fill-opacity="0.10" stroke="#1d4ed8" stroke-width="2.5"/>
+  <text x="185" y="300" font-size="14" fill="#1d4ed8" font-style="italic">feasible set</text>
+
+  <!-- barrier level sets (sublevel sets of phi, nested toward analytic center) -->
+  <polygon points="202,292 345,306 414,226 334,152 219,193"
+           fill="none" stroke="#94a3b8" stroke-width="1.4" stroke-dasharray="5,4"/>
+  <polygon points="252,264 325,271 360,230 319,192 260,213"
+           fill="none" stroke="#94a3b8" stroke-width="1.4" stroke-dasharray="5,4"/>
+  <text x="430" y="330" font-size="12.5" fill="#64748b" text-anchor="middle">barrier level sets of &#966;</text>
+
+  <!-- central path -->
+  <path d="M303,234 C350,190 340,130 360,85" fill="none" stroke="#b91c1c" stroke-width="3"/>
+
+  <!-- analytic center (t = 0) -->
+  <circle cx="303" cy="234" r="5" fill="#111111"/>
+  <text x="238" y="238" font-size="12.5" fill="#111111" text-anchor="end">analytic center</text>
+  <text x="238" y="253" font-size="12.5" fill="#111111" text-anchor="end">(t = 0)</text>
+
+  <!-- intermediate path points -->
+  <circle cx="331" cy="180" r="4" fill="#b91c1c"/>
+  <circle cx="345" cy="132" r="4" fill="#b91c1c"/>
+  <text x="365" y="165" font-size="13" fill="#b91c1c" font-style="italic">x*(t)</text>
+
+  <!-- optimum vertex -->
+  <circle cx="360" cy="85" r="5.5" fill="#b91c1c"/>
+  <text x="372" y="80" font-size="14" fill="#b91c1c" font-style="italic">x&#9733;</text>
+  <text x="372" y="97" font-size="12" fill="#b91c1c">(t &#8594; &#8734;)</text>
+
+  <!-- objective decrease direction -->
+  <line x1="470" y1="150" x2="415" y2="110" stroke="#047857" stroke-width="2.2" marker-end="url(#arr)"/>
+  <text x="478" y="150" font-size="13" fill="#047857">f&#8320; decreasing</text>
+
+  <defs>
+    <marker id="arr" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L7,3 L0,6 z" fill="#047857"/>
+    </marker>
+  </defs>
+</svg>

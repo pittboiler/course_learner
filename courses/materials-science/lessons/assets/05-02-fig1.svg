@@ -1,0 +1,57 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <!-- caption -->
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Left: doping drops a shallow level near a band edge. Right: a photon crosses the gap only if h&#957; &#8805; E_g.</text>
+
+  <!-- ================= LEFT PANEL: doping levels ================= -->
+  <text x="60" y="52" fill="#8a8a8a">Doped band picture</text>
+
+  <!-- conduction band -->
+  <rect x="60" y="72" width="200" height="34" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <text x="70" y="93" fill="#4a90d9">conduction band (empty)</text>
+
+  <!-- valence band -->
+  <rect x="60" y="248" width="200" height="34" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <text x="70" y="269" fill="#4a90d9">valence band (full)</text>
+
+  <!-- gap arrow E_g -->
+  <line x1="160" y1="106" x2="160" y2="248" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="160,106 156,116 164,116" fill="#8a8a8a"/>
+  <polygon points="160,248 156,238 164,238" fill="#8a8a8a"/>
+  <text x="168" y="181" fill="#8a8a8a">E_g</text>
+
+  <!-- donor level: just below CB -->
+  <line x1="60" y1="124" x2="260" y2="124" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <circle cx="90" cy="124" r="4" fill="#e0645c"/>
+  <circle cx="120" cy="124" r="4" fill="#e0645c"/>
+  <text x="200" y="120" fill="#e0645c">donor (n-type)</text>
+
+  <!-- acceptor level: just above VB -->
+  <line x1="60" y1="230" x2="260" y2="230" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <circle cx="90" cy="230" r="4.5" fill="none" stroke="#e0645c" stroke-width="1.5"/>
+  <circle cx="120" cy="230" r="4.5" fill="none" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="196" y="244" fill="#e0645c">acceptor (p-type)</text>
+
+  <!-- ================= RIGHT PANEL: optical absorption ================= -->
+  <text x="392" y="52" fill="#8a8a8a">Photon vs the gap</text>
+
+  <!-- conduction band -->
+  <rect x="392" y="72" width="200" height="34" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <text x="402" y="93" fill="#4a90d9">conduction band</text>
+
+  <!-- valence band -->
+  <rect x="392" y="248" width="200" height="34" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <text x="402" y="269" fill="#4a90d9">valence band</text>
+
+  <!-- absorbed photon: excites electron across the gap -->
+  <line x1="452" y1="248" x2="452" y2="106" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="452,106 447,118 457,118" fill="#e0645c"/>
+  <circle cx="452" cy="106" r="4.5" fill="#e0645c"/>
+  <text x="416" y="180" fill="#e0645c">h&#957; &#8805; E_g</text>
+  <text x="416" y="196" fill="#e0645c">absorbed</text>
+
+  <!-- transparent photon: too little energy, passes through -->
+  <line x1="512" y1="177" x2="586" y2="177" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="586,177 574,172 574,182" fill="#4a90d9"/>
+  <text x="512" y="164" fill="#4a90d9">h&#957; &lt; E_g</text>
+  <text x="512" y="204" fill="#4a90d9">passes through</text>
+</svg>

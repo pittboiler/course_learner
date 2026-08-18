@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="420" viewBox="0 0 640 420" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="640" height="420" fill="#ffffff"/>
+  <!-- x-axis -->
+  <line x1="60" y1="281.4" x2="610" y2="281.4" stroke="#111111" stroke-width="1.5"/>
+  <polygon points="610,281.4 601,277 601,285.8" fill="#111111"/>
+  <text x="614" y="285" font-size="13" fill="#111111" font-style="italic">x</text>
+  <!-- curve y = f(x) -->
+  <polyline fill="none" stroke="#1a7f37" stroke-width="2.5"
+    points="60,328.9 103.2,318.8 146.4,306.3 189.6,291.2 232.8,273.6 276,253.5 319.2,230.8 362.4,205.7 405.6,178.0 448.8,147.9 492,115.2 535.2,80.0 578.4,42.3 600,22.5"/>
+  <text x="548" y="66" font-size="13" fill="#1a7f37" font-style="italic">y = f(x)</text>
+  <!-- vertical drop lines -->
+  <line x1="556.8" y1="281.4" x2="556.8" y2="61.4" stroke="#888888" stroke-width="1" stroke-dasharray="4 3"/>
+  <line x1="304.8" y1="281.4" x2="304.8" y2="238.6" stroke="#888888" stroke-width="1" stroke-dasharray="4 3"/>
+  <line x1="224.6" y1="281.4" x2="224.6" y2="277.1" stroke="#888888" stroke-width="1" stroke-dasharray="4 3"/>
+  <!-- tangent lines -->
+  <line x1="556.8" y1="61.4" x2="304.8" y2="281.4" stroke="#1f6feb" stroke-width="1.8"/>
+  <line x1="304.8" y1="238.6" x2="224.6" y2="281.4" stroke="#1f6feb" stroke-width="1.8"/>
+  <!-- points on curve -->
+  <circle cx="556.8" cy="61.4" r="4" fill="#111111"/>
+  <circle cx="304.8" cy="238.6" r="4" fill="#111111"/>
+  <circle cx="224.6" cy="277.1" r="4" fill="#111111"/>
+  <!-- root -->
+  <circle cx="214.3" cy="281.4" r="4.5" fill="#cf222e"/>
+  <!-- axis tick labels -->
+  <text x="551" y="300" font-size="13" fill="#111111" font-style="italic">x</text>
+  <text x="560" y="304" font-size="10" fill="#111111">0</text>
+  <text x="299" y="300" font-size="13" fill="#111111" font-style="italic">x</text>
+  <text x="308" y="304" font-size="10" fill="#111111">1</text>
+  <text x="227" y="272" font-size="13" fill="#111111" font-style="italic">x</text>
+  <text x="236" y="276" font-size="10" fill="#111111">2</text>
+  <text x="196" y="301" font-size="13" fill="#cf222e" font-style="italic">x*</text>
+  <!-- caption -->
+  <text x="60" y="360" font-size="13" fill="#111111">Each step: rise to the curve, slide down the tangent to the axis. The steps</text>
+  <text x="60" y="378" font-size="13" fill="#111111">crowd toward the root x* — the gap shrinks quadratically.</text>
+</svg>

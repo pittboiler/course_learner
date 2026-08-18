@@ -1,0 +1,30 @@
+<svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">van 't Hoff plot: ln K is linear in 1/T, slope &#8722;&#916;&#7523;H&#176;/R. Endothermic tilts one way, exothermic the other.</text>
+
+  <!-- axes -->
+  <line x1="70" y1="290" x2="560" y2="290" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="560,290 550,285 550,295" fill="#8a8a8a"/>
+  <line x1="70" y1="290" x2="70" y2="60" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,60 65,70 75,70" fill="#8a8a8a"/>
+  <text x="566" y="295" fill="#8a8a8a">1/T</text>
+  <text x="44" y="66" fill="#8a8a8a">ln K</text>
+
+  <!-- direction of increasing T (leftward on a 1/T axis) -->
+  <line x1="300" y1="312" x2="150" y2="312" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <polygon points="150,312 160,308 160,316" fill="#8a8a8a"/>
+  <text x="310" y="316" fill="#8a8a8a">T increases &#8592;</text>
+
+  <!-- endothermic line: slope = -dH/R < 0, so ln K falls as 1/T grows (K rises with T) -->
+  <line x1="110" y1="95" x2="520" y2="250" stroke="#4a90d9" stroke-width="3"/>
+  <text x="120" y="86" fill="#4a90d9">endothermic (&#916;&#7523;H&#176; &gt; 0): K &#8593; as T &#8593;</text>
+  <text x="360" y="212" fill="#4a90d9">slope = &#8722;&#916;&#7523;H&#176;/R &lt; 0</text>
+
+  <!-- exothermic line: slope > 0, ln K rises as 1/T grows (K falls with T) -->
+  <line x1="110" y1="250" x2="520" y2="95" stroke="#e0645c" stroke-width="3"/>
+  <text x="230" y="272" fill="#e0645c">exothermic (&#916;&#7523;H&#176; &lt; 0): K &#8595; as T &#8593;</text>
+  <text x="366" y="92" fill="#e0645c">slope = &#8722;&#916;&#7523;H&#176;/R &gt; 0</text>
+
+  <!-- intercept note -->
+  <text x="82" y="55" fill="#8a8a8a" font-style="italic">intercept (1/T &#8594; 0) = &#916;&#7523;S&#176;/R</text>
+</svg>

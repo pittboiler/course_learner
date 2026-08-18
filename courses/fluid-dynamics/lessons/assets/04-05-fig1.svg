@@ -1,0 +1,44 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">The turbulent energy spectrum on log–log axes: a straight −5/3 inertial range between injection (L) and dissipation (η).</text>
+
+  <!-- axes -->
+  <line x1="80" y1="350" x2="612" y2="350" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="612,350 602,345 602,355" fill="#8a8a8a"/>
+  <line x1="80" y1="350" x2="80" y2="52" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="80,52 75,62 85,62" fill="#8a8a8a"/>
+
+  <!-- axis labels -->
+  <text x="470" y="372" fill="#8a8a8a">wavenumber  log k  →</text>
+  <text x="96" y="368" fill="#8a8a8a" font-size="12">larger eddies</text>
+  <text x="470" y="386" fill="#8a8a8a" font-size="12">smaller eddies →</text>
+  <text x="40" y="70" fill="#8a8a8a">log E(k)</text>
+
+  <!-- energy-containing range (grey, flat-ish) -->
+  <path d="M 100 134 L 140 126 L 170 118 L 200 110" fill="none" stroke="#8a8a8a" stroke-width="3"/>
+  <text x="96" y="98" fill="#8a8a8a" font-size="12">energy-</text>
+  <text x="96" y="112" fill="#8a8a8a" font-size="12">containing</text>
+
+  <!-- inertial range: straight -5/3 line (blue). Decades: 120px in k, 72px in E,
+       so 5/3 slope renders at 45deg. (200,110)->(400,310). -->
+  <path d="M 200 110 L 400 310" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="300" y="170" fill="#4a90d9">inertial range</text>
+  <text x="300" y="188" fill="#4a90d9" font-size="13">E(k) ∝ ε²ᐟ³ k⁻⁵ᐟ³</text>
+
+  <!-- slope triangle: 1 decade across (120px), 5/3 decade down (120px) -->
+  <line x1="250" y1="160" x2="370" y2="160" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="370" y1="160" x2="370" y2="280" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="298" y="153" fill="#8a8a8a" font-size="12">Δlog k = 1</text>
+  <text x="376" y="224" fill="#8a8a8a" font-size="12">Δlog E = 5/3</text>
+
+  <!-- dissipation range: steep drop past k~1/eta (coral) -->
+  <path d="M 400 310 C 418 324 436 336 452 344 S 470 349 478 350" fill="none" stroke="#e0645c" stroke-width="3"/>
+  <text x="452" y="300" fill="#e0645c" font-size="12">dissipation</text>
+  <text x="452" y="314" fill="#e0645c" font-size="12">range</text>
+
+  <!-- scale markers -->
+  <line x1="200" y1="110" x2="200" y2="350" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="180" y="366" fill="#8a8a8a" font-size="13">k ~ 1/L</text>
+  <line x1="400" y1="310" x2="400" y2="350" stroke="#e0645c" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="384" y="366" fill="#e0645c" font-size="13">k ~ 1/η</text>
+</svg>

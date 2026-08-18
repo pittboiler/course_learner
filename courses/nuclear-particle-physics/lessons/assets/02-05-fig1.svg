@@ -1,0 +1,62 @@
+<svg viewBox="0 0 640 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Rest-mass energy before vs after: the step is Q. Exothermic falls (energy out); endothermic climbs —</text>
+  <text x="40" y="40" fill="#8a8a8a" font-style="italic">and the threshold you must supply exceeds |Q|, because the products are forced to keep moving.</text>
+
+  <!-- ===================== Panel A: exothermic ===================== -->
+  <text x="90" y="66" fill="#8a8a8a">Exothermic (Q &gt; 0)</text>
+
+  <!-- energy axis -->
+  <line x1="70" y1="270" x2="70" y2="80" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,80 65,90 75,90" fill="#8a8a8a"/>
+  <text x="46" y="86" fill="#8a8a8a">Mc²</text>
+
+  <!-- reactant level (high) -->
+  <line x1="85" y1="115" x2="205" y2="115" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="88" y="108" fill="#4a90d9">a + X</text>
+
+  <!-- product level (low) -->
+  <line x1="85" y1="225" x2="205" y2="225" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="88" y="243" fill="#4a90d9">Y + b</text>
+
+  <!-- Q drop (coral, down arrow = energy released) -->
+  <line x1="235" y1="115" x2="235" y2="225" stroke="#e0645c" stroke-width="1.8"/>
+  <polygon points="235,115 230,124 240,124" fill="#e0645c"/>
+  <polygon points="235,225 230,216 240,216" fill="#e0645c"/>
+  <text x="245" y="166" fill="#e0645c">Q</text>
+  <text x="245" y="184" fill="#8a8a8a" font-style="italic" font-size="12">= KE out</text>
+
+  <!-- ===================== Panel B: endothermic ===================== -->
+  <text x="405" y="66" fill="#8a8a8a">Endothermic (Q &lt; 0)</text>
+
+  <!-- energy axis -->
+  <line x1="385" y1="270" x2="385" y2="80" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="385,80 380,90 390,90" fill="#8a8a8a"/>
+  <text x="361" y="86" fill="#8a8a8a">Mc²</text>
+
+  <!-- reactant level (low) -->
+  <line x1="400" y1="235" x2="510" y2="235" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="403" y="253" fill="#4a90d9">a + X</text>
+
+  <!-- product level (high) -->
+  <line x1="400" y1="150" x2="510" y2="150" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="403" y="143" fill="#4a90d9">Y + b</text>
+
+  <!-- threshold level (dashed, above products) -->
+  <line x1="400" y1="112" x2="560" y2="112" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="5 4"/>
+
+  <!-- |Q| bracket: reactants up to products -->
+  <line x1="528" y1="235" x2="528" y2="150" stroke="#e0645c" stroke-width="1.8"/>
+  <polygon points="528,150 523,159 533,159" fill="#e0645c"/>
+  <polygon points="528,235 523,226 533,226" fill="#e0645c"/>
+  <text x="504" y="200" fill="#e0645c" font-size="12">|Q|</text>
+
+  <!-- E_th bracket: reactants up to threshold -->
+  <line x1="560" y1="235" x2="560" y2="112" stroke="#e0645c" stroke-width="1.8"/>
+  <polygon points="560,112 555,121 565,121" fill="#e0645c"/>
+  <polygon points="560,235 555,226 565,226" fill="#e0645c"/>
+  <text x="568" y="178" fill="#e0645c">E_th</text>
+
+  <!-- CM recoil note (the difference between the two tops) -->
+  <text x="405" y="106" fill="#8a8a8a" font-style="italic" font-size="12">extra = CM recoil KE</text>
+</svg>

@@ -1,0 +1,62 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Ingestion radiotoxicity vs time (log&#8211;log): fission products rule early, actinides rule the tail.</text>
+
+  <!-- ===== axes ===== -->
+  <!-- y axis -->
+  <line x1="70" y1="40" x2="70" y2="320" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,40 65,52 75,52" fill="#8a8a8a"/>
+  <!-- x axis -->
+  <line x1="70" y1="320" x2="610" y2="320" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="610,320 598,315 598,325" fill="#8a8a8a"/>
+
+  <!-- x decade ticks: d = 0..6 at x = 70 + 88.33 d -->
+  <line x1="158.3" y1="320" x2="158.3" y2="325" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="246.7" y1="320" x2="246.7" y2="325" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="335" y1="320" x2="335" y2="325" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="423.3" y1="320" x2="423.3" y2="325" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="511.7" y1="320" x2="511.7" y2="325" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="600" y1="320" x2="600" y2="325" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="64" y="337" fill="#8a8a8a">1</text>
+  <text x="149" y="337" fill="#8a8a8a">10</text>
+  <text x="234" y="337" fill="#8a8a8a">100</text>
+  <text x="322" y="337" fill="#8a8a8a">10&#179;</text>
+  <text x="411" y="337" fill="#8a8a8a">10&#8308;</text>
+  <text x="499" y="337" fill="#8a8a8a">10&#8309;</text>
+  <text x="588" y="337" fill="#8a8a8a">10&#8310;</text>
+  <text x="300" y="357" fill="#8a8a8a">time after discharge (years)</text>
+
+  <!-- y axis label -->
+  <text x="18" y="200" fill="#8a8a8a" transform="rotate(-90 18 200)">ingestion radiotoxicity (relative)</text>
+  <text x="52" y="90" fill="#8a8a8a">high</text>
+  <text x="52" y="315" fill="#8a8a8a">low</text>
+
+  <!-- natural-U ore reference line, L = 4 -> y = 273.3 -->
+  <line x1="70" y1="273.3" x2="600" y2="273.3" stroke="#8a8a8a" stroke-width="1.2" stroke-dasharray="6 4"/>
+  <text x="360" y="268" fill="#8a8a8a">natural uranium ore reference</text>
+
+  <!-- ===== actinides (coral) ===== -->
+  <path d="M158.3 180 L246.7 180 L335 186.9 L423.3 200.9 L511.7 231.3 L600 282.6"
+        fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="437" y="196" fill="#e0645c">actinides (Pu, Am, Np)</text>
+
+  <!-- ===== fission products (grey) ===== -->
+  <path d="M158.3 114.5 L246.7 137.9 L289 170.6 L317.3 245.3 L332 320"
+        fill="none" stroke="#8a8a8a" stroke-width="2.5"/>
+  <text x="150" y="104" fill="#8a8a8a">fission products (Cs-137, Sr-90)</text>
+
+  <!-- ===== total (blue) ===== -->
+  <path d="M158.3 112.2 L246.7 135.5 L289 163.6 L335 184.6 L423.3 200.9 L511.7 231.3 L600 282.6"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="516" y="255" fill="#4a90d9">total</text>
+
+  <!-- ===== reprocessed (dashed blue) ===== -->
+  <path d="M158.3 112.2 L246.7 137.9 L282 170.6 L308.5 259.3 L326.2 273.3 L370.3 278 L600 296.6"
+        fill="none" stroke="#4a90d9" stroke-width="2" stroke-dasharray="7 4"/>
+  <text x="372" y="293" fill="#4a90d9">reprocessed (U+Pu removed)</text>
+
+  <!-- crossover marker ~300 yr -->
+  <circle cx="289" cy="167" r="4.5" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <line x1="289" y1="167" x2="289" y2="320" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="240" y="150" fill="#e0645c">crossover &#8776; 300 yr</text>
+</svg>

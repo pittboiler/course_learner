@@ -1,0 +1,49 @@
+<svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Degree of polymerization vs. conversion. Stoichiometric imbalance (r &#60; 1) caps the chain length even at p = 1.</text>
+
+  <!-- axes -->
+  <line x1="75" y1="285" x2="585" y2="285" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="585,285 575,280 575,290" fill="#8a8a8a"/>
+  <line x1="75" y1="285" x2="75" y2="45" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="75,45 70,55 80,55" fill="#8a8a8a"/>
+
+  <!-- axis labels -->
+  <text x="590" y="290" fill="#8a8a8a">p</text>
+  <text x="30" y="50" fill="#8a8a8a">X<tspan dy="4" font-size="10">n</tspan></text>
+
+  <!-- x ticks -->
+  <text x="58" y="303" fill="#8a8a8a" font-size="12">0.90</text>
+  <text x="298" y="303" fill="#8a8a8a" font-size="12">0.95</text>
+  <text x="538" y="303" fill="#8a8a8a" font-size="12">1.00</text>
+  <line x1="315" y1="285" x2="315" y2="289" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="555" y1="285" x2="555" y2="289" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- y ticks -->
+  <text x="55" y="290" fill="#8a8a8a" font-size="12">0</text>
+  <text x="47" y="174" fill="#8a8a8a" font-size="12">100</text>
+  <text x="47" y="59" fill="#8a8a8a" font-size="12">200</text>
+  <line x1="71" y1="170" x2="75" y2="170" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="71" y1="55" x2="75" y2="55" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- Xn = 39 asymptote for r = 0.95 -->
+  <line x1="75" y1="240" x2="555" y2="240" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="558" y="244" fill="#8a8a8a" font-size="12">39</text>
+
+  <!-- r = 1 curve (blue): Xn = 1/(1-p), diverges -->
+  <path d="M 75 273.5 L 171 270.6 L 267 265.8 L 315 262 L 363 256.3 L 411 246.7 L 459 227.5 L 483 208.3 L 507 170 L 521 120.7 L 531 55"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <polygon points="531,50 526,62 536,62" fill="#4a90d9"/>
+  <text x="500" y="42" fill="#4a90d9" font-size="13">r = 1 &#8594; &#8734;</text>
+
+  <!-- r = 0.99 curve (coral): caps at 199 -->
+  <path d="M 75 274 L 171 271.4 L 267 267.2 L 363 259.3 L 411 252 L 459 238.9 L 507 208.2 L 531 170 L 555 56"
+        fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="560" y="60" fill="#e0645c" font-size="13">r = 0.99</text>
+  <text x="510" y="90" fill="#e0645c" font-size="12">(199)</text>
+
+  <!-- r = 0.95 curve (grey): caps at 39 -->
+  <path d="M 75 275.7 L 171 273.9 L 267 271.3 L 363 267.2 L 459 259.5 L 507 252.5 L 555 240.2"
+        fill="none" stroke="#8a8a8a" stroke-width="2.5"/>
+  <text x="452" y="228" fill="#8a8a8a" font-size="13">r = 0.95</text>
+</svg>

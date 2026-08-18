@@ -1,0 +1,43 @@
+<svg viewBox="0 0 620 420" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+<rect x="0" y="0" width="620" height="420" fill="#ffffff"/>
+
+<!-- captions -->
+<text x="60" y="28" fill="#8a8a8a" font-style="italic">A measurable set E in the plane. Fix x = x0; the slice Eₓ0 (red) is the set of y with (x0,y) in E —</text>
+<text x="60" y="46" fill="#8a8a8a" font-style="italic">its ν-length is what you integrate in x. Right: a measurable rectangle A×B, the atoms that generate 𝒜⊗ℬ.</text>
+
+<!-- blob E -->
+<path d="M 130 250 C 140 165, 225 130, 300 158 C 372 185, 382 265, 320 305 C 252 342, 148 322, 130 250 Z" fill="#2f6fb0" fill-opacity="0.18" stroke="#2f6fb0" stroke-width="1.6"/>
+<text x="190" y="240" fill="#2f6fb0" font-size="20" font-style="italic">E</text>
+
+<!-- vertical section line at x0 -->
+<line x1="250" y1="375" x2="250" y2="120" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3 3"/>
+<!-- highlighted section E_{x0} (the part of the line inside E) -->
+<line x1="250" y1="140" x2="250" y2="318" stroke="#c8362f" stroke-width="4"/>
+<line x1="245" y1="140" x2="255" y2="140" stroke="#c8362f" stroke-width="2"/>
+<line x1="245" y1="318" x2="255" y2="318" stroke="#c8362f" stroke-width="2"/>
+<text x="262" y="234" fill="#c8362f" font-style="italic">Eₓ0</text>
+
+<!-- rectangle A x B -->
+<rect x="430" y="150" width="110" height="100" fill="#2e8b57" fill-opacity="0.15" stroke="#2e8b57" stroke-width="1.8" stroke-dasharray="6 4"/>
+<text x="485" y="205" fill="#2e8b57" text-anchor="middle" font-style="italic">A × B</text>
+<!-- drops to x-axis, marking A -->
+<line x1="430" y1="250" x2="430" y2="375" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3 3"/>
+<line x1="540" y1="250" x2="540" y2="375" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3 3"/>
+<line x1="430" y1="375" x2="540" y2="375" stroke="#2e8b57" stroke-width="4"/>
+<text x="485" y="398" fill="#2e8b57" text-anchor="middle" font-style="italic">A</text>
+<!-- B on left edge -->
+<line x1="418" y1="150" x2="418" y2="250" stroke="#2e8b57" stroke-width="4"/>
+<text x="410" y="205" fill="#2e8b57" text-anchor="end" font-style="italic">B</text>
+
+<!-- axes -->
+<line x1="60" y1="375" x2="605" y2="375" stroke="#111111" stroke-width="1.4"/>
+<line x1="60" y1="375" x2="60" y2="60" stroke="#111111" stroke-width="1.4"/>
+<polygon points="605,375 594,370 594,380" fill="#111111"/>
+<polygon points="60,60 55,71 65,71" fill="#111111"/>
+<text x="600" y="395" fill="#111111" font-style="italic">x</text>
+<text x="44" y="70" fill="#111111" font-style="italic">y</text>
+
+<!-- x0 tick -->
+<line x1="250" y1="371" x2="250" y2="379" stroke="#111111" stroke-width="1.4"/>
+<text x="250" y="395" fill="#111111" text-anchor="middle" font-style="italic">x0</text>
+</svg>

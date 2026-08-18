@@ -1,0 +1,57 @@
+<svg viewBox="0 0 440 300" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+  <rect x="0" y="0" width="440" height="300" rx="10" fill="#faf9f6"/>
+
+  <!-- Stage labels -->
+  <text x="52" y="24" font-size="12" fill="#333333" text-anchor="middle">start</text>
+  <text x="192" y="24" font-size="12" fill="#333333" text-anchor="middle">shirt (3 ways)</text>
+  <text x="360" y="24" font-size="12" fill="#333333" text-anchor="middle">hat (2 ways)</text>
+
+  <!-- Branches: root -> 3 nodes -->
+  <g stroke="#333333" stroke-width="2" fill="none">
+    <path d="M62 150 L172 66"/>
+    <path d="M62 150 L172 150"/>
+    <path d="M62 150 L172 234"/>
+  </g>
+
+  <!-- Branches: each node -> 2 leaves -->
+  <g stroke="#555555" stroke-width="1.6" fill="none">
+    <path d="M188 66 L326 42"/>
+    <path d="M188 66 L326 90"/>
+    <path d="M188 150 L326 126"/>
+    <path d="M188 150 L326 174"/>
+    <path d="M188 234 L326 210"/>
+    <path d="M188 234 L326 258"/>
+  </g>
+
+  <!-- Root -->
+  <circle cx="52" cy="150" r="10" fill="#333333"/>
+
+  <!-- Stage-1 nodes -->
+  <g fill="#2f6f4f">
+    <circle cx="180" cy="66" r="9"/>
+    <circle cx="180" cy="150" r="9"/>
+    <circle cx="180" cy="234" r="9"/>
+  </g>
+
+  <!-- Leaves (saturated accent) -->
+  <g fill="#c0392b">
+    <circle cx="334" cy="42" r="9"/>
+    <circle cx="334" cy="90" r="9"/>
+    <circle cx="334" cy="126" r="9"/>
+    <circle cx="334" cy="174" r="9"/>
+    <circle cx="334" cy="210" r="9"/>
+    <circle cx="334" cy="258" r="9"/>
+  </g>
+
+  <!-- Leaf count -->
+  <g font-size="12" fill="#333333" text-anchor="start">
+    <text x="352" y="46">1</text>
+    <text x="352" y="94">2</text>
+    <text x="352" y="130">3</text>
+    <text x="352" y="178">4</text>
+    <text x="352" y="214">5</text>
+    <text x="352" y="262">6</text>
+  </g>
+
+  <text x="220" y="292" font-size="13" fill="#333333" text-anchor="middle">3 choices × 2 choices = 6 outfits</text>
+</svg>

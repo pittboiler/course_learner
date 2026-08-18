@@ -1,0 +1,51 @@
+<svg viewBox="0 0 620 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">A binding reaction relaxes to equilibrium: [C](t) rises with time constant &#964;, until k_on[A][B] and k_off[C] balance.</text>
+
+  <!-- ===== left: [C](t) exponential rise ===== -->
+
+  <!-- time axis -->
+  <line x1="60" y1="220" x2="398" y2="220" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="398,220 388,215 388,225" fill="#8a8a8a"/>
+  <text x="392" y="240" fill="#8a8a8a">t</text>
+  <!-- concentration axis -->
+  <line x1="60" y1="240" x2="60" y2="55" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="60,55 55,65 65,65" fill="#8a8a8a"/>
+  <text x="30" y="60" fill="#8a8a8a">[C]</text>
+  <text x="48" y="225" fill="#8a8a8a">0</text>
+
+  <!-- equilibrium plateau -->
+  <line x1="60" y1="70" x2="392" y2="70" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="330" y="64" fill="#8a8a8a">[C]_eq</text>
+
+  <!-- the exponential-rise curve  [C](t) = [C]_eq (1 - e^{-t/tau}) -->
+  <path d="M 60 220 L 76 186.8 L 92 161.0 L 108 140.9 L 124 125.2 L 140 113.0 L 156 103.5 L 172 96.1 L 188 90.3 L 220 82.3 L 252 77.5 L 284 74.5 L 316 72.7 L 348 71.7 L 380 71.0"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- tau marker: at t = tau the curve reaches 63% of the plateau -->
+  <line x1="124" y1="220" x2="124" y2="125.2" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="3 4"/>
+  <line x1="60" y1="125.2" x2="124" y2="125.2" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <circle cx="124" cy="125.2" r="3.5" fill="#e0645c"/>
+  <text x="118" y="238" fill="#e0645c">&#964;</text>
+  <text x="6" y="130" fill="#e0645c">63%</text>
+
+  <!-- ===== right: the reaction and its balancing rates ===== -->
+
+  <text x="430" y="130" fill="#4a90d9" font-size="18">A + B</text>
+  <text x="575" y="130" fill="#4a90d9" font-size="18">C</text>
+
+  <!-- forward arrow: k_on[A][B] -->
+  <line x1="492" y1="118" x2="568" y2="118" stroke="#e0645c" stroke-width="1.8"/>
+  <polygon points="568,118 558,113 558,123" fill="#e0645c"/>
+  <text x="484" y="106" fill="#e0645c">k_on[A][B]</text>
+
+  <!-- reverse arrow: k_off[C] -->
+  <line x1="568" y1="140" x2="492" y2="140" stroke="#e0645c" stroke-width="1.8"/>
+  <polygon points="492,140 502,135 502,145" fill="#e0645c"/>
+  <text x="505" y="158" fill="#e0645c">k_off[C]</text>
+
+  <!-- balance annotation -->
+  <text x="452" y="196" fill="#8a8a8a" font-style="italic">at equilibrium the</text>
+  <text x="452" y="214" fill="#8a8a8a" font-style="italic">two rates are equal:</text>
+  <text x="470" y="244" fill="#e0645c" font-size="16">K_d = k_off / k_on</text>
+</svg>

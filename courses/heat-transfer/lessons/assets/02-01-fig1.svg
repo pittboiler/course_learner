@@ -1,0 +1,46 @@
+<svg viewBox="0 0 620 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="60" y="24" fill="#8a8a8a" font-style="italic">When Bi &#8804; 0.1 the whole body rides one temperature, decaying as &#952;/&#952;&#8320; = e<tspan baseline-shift="super" font-size="10">&#8722;t/&#964;</tspan>; at t = &#964; it has fallen to 37%.</text>
+
+  <!-- ===== axes ===== -->
+  <line x1="70" y1="240" x2="400" y2="240" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="400,240 390,235 390,245" fill="#8a8a8a"/>
+  <text x="404" y="245" fill="#8a8a8a">t</text>
+
+  <line x1="70" y1="240" x2="70" y2="50" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,50 65,60 75,60" fill="#8a8a8a"/>
+  <text x="30" y="66" fill="#8a8a8a">&#952;/&#952;&#8320;</text>
+  <text x="55" y="65" fill="#8a8a8a">1</text>
+  <text x="58" y="256" fill="#8a8a8a">0</text>
+
+  <!-- exponential decay curve theta/theta0 = e^{-t/tau} -->
+  <path d="M 70 60 L 100 130.8 L 130 173.8 L 160 199.8 L 190 215.6 L 220 225.2 L 250 231.0 L 280 234.6 L 310 236.7 L 340 238.0 L 370 238.8"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- tau markers at t = tau (37% point) -->
+  <line x1="70" y1="173.8" x2="130" y2="173.8" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="130" y1="240" x2="130" y2="173.8" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <circle cx="130" cy="173.8" r="4" fill="#e0645c"/>
+  <text x="86" y="167" fill="#e0645c">0.37 &#952;&#8320;</text>
+  <text x="123" y="258" fill="#e0645c">&#964;</text>
+
+  <!-- one time-constant-per-tick reference -->
+  <text x="210" y="200" fill="#4a90d9">e<tspan baseline-shift="super" font-size="10">&#8722;t/&#964;</tspan></text>
+
+  <!-- ===== inset: uniform-temperature body ===== -->
+  <text x="452" y="70" fill="#8a8a8a">one T(t),</text>
+  <text x="452" y="88" fill="#8a8a8a">no gradients</text>
+
+  <!-- the body -->
+  <circle cx="510" cy="150" r="40" fill="#4a90d9" opacity="0.18" stroke="#4a90d9" stroke-width="2"/>
+  <text x="493" y="155" fill="#4a90d9">T(t)</text>
+
+  <!-- convection arrows leaving the surface, fluid at T_inf, h -->
+  <line x1="550" y1="130" x2="578" y2="118" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="578,118 568,118 573,127" fill="#e0645c"/>
+  <line x1="556" y1="150" x2="586" y2="150" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="586,150 576,145 576,155" fill="#e0645c"/>
+  <line x1="550" y1="170" x2="578" y2="182" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="578,182 568,182 573,173" fill="#e0645c"/>
+  <text x="470" y="212" fill="#e0645c">h, T&#8734;</text>
+</svg>

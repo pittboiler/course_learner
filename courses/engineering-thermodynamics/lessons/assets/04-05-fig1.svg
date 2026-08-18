@@ -1,0 +1,40 @@
+<svg viewBox="0 0 620 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Heat added at T is the whole rectangle; only the strip above the dead-state line T&#8320; is recoverable as work.</text>
+
+  <!-- s axis -->
+  <line x1="70" y1="250" x2="560" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="560,250 550,245 550,255" fill="#8a8a8a"/>
+  <text x="566" y="255" fill="#8a8a8a">s</text>
+  <!-- T axis -->
+  <line x1="70" y1="250" x2="70" y2="55" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,55 65,65 75,65" fill="#8a8a8a"/>
+  <text x="58" y="52" fill="#8a8a8a">T</text>
+  <text x="60" y="264" fill="#8a8a8a">0</text>
+
+  <!-- unavailable band (grey): T=0 up to T0 -->
+  <rect x="160" y="175" width="280" height="75" fill="#8a8a8a" opacity="0.12" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="300" y="216" fill="#8a8a8a" text-anchor="middle">unavailable</text>
+  <text x="300" y="234" fill="#8a8a8a" text-anchor="middle">= T&#8320;&#916;s</text>
+
+  <!-- available band (coral): T0 up to T_H -->
+  <rect x="160" y="95" width="280" height="80" fill="#e0645c" opacity="0.14" stroke="#e0645c" stroke-width="2"/>
+  <text x="300" y="130" fill="#e0645c" text-anchor="middle">available work</text>
+  <text x="300" y="148" fill="#e0645c" text-anchor="middle">(exergy)</text>
+
+  <!-- process temperature line T_H (blue) -->
+  <line x1="70" y1="95" x2="440" y2="95" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="40" y="99" fill="#4a90d9">T<tspan font-size="10" dy="4">H</tspan></text>
+
+  <!-- dead-state line T0 (grey dashed) -->
+  <line x1="70" y1="175" x2="520" y2="175" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="440" y="170" fill="#8a8a8a">T<tspan font-size="10" dy="4">0</tspan> (dead state)</text>
+
+  <!-- delta-s bracket -->
+  <line x1="160" y1="250" x2="160" y2="272" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="440" y1="250" x2="440" y2="272" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="160" y1="268" x2="440" y2="268" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="160,268 169,264 169,272" fill="#8a8a8a"/>
+  <polygon points="440,268 431,264 431,272" fill="#8a8a8a"/>
+  <text x="300" y="286" fill="#8a8a8a" text-anchor="middle">&#916;s</text>
+</svg>

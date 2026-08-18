@@ -1,0 +1,29 @@
+<svg viewBox="0 0 480 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="480" height="360" fill="#ffffff"/>
+
+  <text x="240" y="28" text-anchor="middle" font-size="17" fill="#111">V(xy) = V(x) &#8746; V(y)</text>
+  <text x="240" y="48" text-anchor="middle" font-size="12" fill="#555">two irreducible components, glued only at the origin</text>
+
+  <!-- x-axis = V(y), drawn in red -->
+  <line x1="48" y1="215" x2="432" y2="215" stroke="#c62828" stroke-width="3"/>
+  <polygon points="440,215 428,209 428,221" fill="#c62828"/>
+  <polygon points="40,215 52,209 52,221" fill="#c62828"/>
+
+  <!-- y-axis = V(x), drawn in blue -->
+  <line x1="240" y1="330" x2="240" y2="86" stroke="#1565c0" stroke-width="3"/>
+  <polygon points="240,78 234,90 246,90" fill="#1565c0"/>
+  <polygon points="240,338 234,326 246,326" fill="#1565c0"/>
+
+  <!-- origin -->
+  <circle cx="240" cy="215" r="4.5" fill="#111"/>
+  <text x="230" y="234" text-anchor="end" font-size="13" fill="#111">0</text>
+
+  <!-- labels -->
+  <text x="360" y="205" text-anchor="middle" font-size="14" fill="#c62828">x-axis  =  V(y)</text>
+  <text x="360" y="223" text-anchor="middle" font-size="13" fill="#c62828">prime ideal (y)</text>
+
+  <text x="240" y="108" text-anchor="middle" font-size="14" fill="#1565c0">y-axis  =  V(x)</text>
+  <text x="240" y="126" text-anchor="middle" font-size="13" fill="#1565c0">prime ideal (x)</text>
+
+  <text x="240" y="352" text-anchor="middle" font-size="12" fill="#555">I(V(xy)) = (x) &#8745; (y) = (xy)</text>
+</svg>

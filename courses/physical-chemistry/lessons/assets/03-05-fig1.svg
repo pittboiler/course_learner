@@ -1,0 +1,56 @@
+<svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Michaelis&#8211;Menten: rate climbs, then saturates at v&#8347;&#8339;&#8339; ; K&#7522; is the [S] at half-max. Reciprocals straighten it (Lineweaver&#8211;Burk).</text>
+
+  <!-- ================= LEFT: v vs [S] hyperbola ================= -->
+
+  <!-- axes -->
+  <line x1="55" y1="250" x2="345" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="345,250 335,245 335,255" fill="#8a8a8a"/>
+  <text x="330" y="270" fill="#8a8a8a">[S]</text>
+  <line x1="55" y1="250" x2="55" y2="70" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="55,70 50,80 60,80" fill="#8a8a8a"/>
+  <text x="40" y="82" fill="#8a8a8a">v</text>
+  <text x="45" y="266" fill="#8a8a8a">0</text>
+
+  <!-- v_max asymptote -->
+  <line x1="55" y1="95" x2="340" y2="95" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="292" y="90" fill="#e0645c">v&#8347;&#8339;&#8339;</text>
+
+  <!-- half v_max guide -->
+  <line x1="55" y1="172.5" x2="96.25" y2="172.5" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="6" y="177" fill="#8a8a8a">&#189;v&#8347;&#8339;&#8339;</text>
+
+  <!-- the MM hyperbola -->
+  <path d="M 55 250 L 68.75 211.25 L 82.5 188 L 96.25 172.5 L 110 161.5 L 137.5 146.6 L 165 137.3 L 192.5 130.8 L 220 126 L 247.5 122.3 L 275 119.5 L 302.5 117.2 L 330 115.2"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- K_M marker: drop from half-max point to axis -->
+  <line x1="96.25" y1="172.5" x2="96.25" y2="250" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <circle cx="96.25" cy="172.5" r="3.5" fill="#e0645c"/>
+  <text x="87" y="266" fill="#e0645c">K&#7522;</text>
+
+  <!-- ================= RIGHT: Lineweaver-Burk line ================= -->
+
+  <!-- axes (y-axis offset right so negative x-intercept shows) -->
+  <line x1="410" y1="210" x2="630" y2="210" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="630,210 620,205 620,215" fill="#8a8a8a"/>
+  <text x="600" y="230" fill="#8a8a8a">1/[S]</text>
+  <line x1="470" y1="250" x2="470" y2="70" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="470,70 465,80 475,80" fill="#8a8a8a"/>
+  <text x="452" y="82" fill="#8a8a8a">1/v</text>
+
+  <!-- the straight line -->
+  <line x1="420" y1="210" x2="560" y2="70" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- y-intercept = 1/v_max -->
+  <circle cx="470" cy="160" r="3.5" fill="#e0645c"/>
+  <text x="478" y="164" fill="#e0645c">1/v&#8347;&#8339;&#8339;</text>
+
+  <!-- x-intercept = -1/K_M -->
+  <circle cx="420" cy="210" r="3.5" fill="#e0645c"/>
+  <text x="384" y="204" fill="#e0645c">&#8722;1/K&#7522;</text>
+
+  <!-- slope label -->
+  <text x="512" y="128" fill="#8a8a8a" font-style="italic">slope = K&#7522;/v&#8347;&#8339;&#8339;</text>
+</svg>

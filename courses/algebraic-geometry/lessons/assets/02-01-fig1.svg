@@ -1,0 +1,40 @@
+<svg viewBox="0 0 660 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="660" height="340" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="30" y="34" fill="#111111" font-size="16" font-weight="bold">A rational function on the circle x² + y² = 1</text>
+
+  <!-- The curve: domain of definition drawn thick blue, poles removed -->
+  <circle cx="175" cy="200" r="115" fill="none" stroke="#2563eb" stroke-width="4"/>
+
+  <!-- excluded point (pole) at (-1,0) = left of circle -->
+  <circle cx="60" cy="200" r="7" fill="#ffffff" stroke="#dc2626" stroke-width="3"/>
+  <text x="30" y="240" fill="#dc2626" font-size="14">(−1,0)</text>
+  <text x="20" y="258" fill="#dc2626" font-size="13">POLE</text>
+
+  <!-- regular point at (1,0) = right of circle -->
+  <circle cx="290" cy="200" r="5" fill="#111111"/>
+  <text x="268" y="240" fill="#111111" font-size="14">(1,0)</text>
+  <text x="256" y="258" fill="#111111" font-size="13">value 0</text>
+
+  <!-- axes hint -->
+  <line x1="175" y1="70" x2="175" y2="330" stroke="#cccccc" stroke-width="1"/>
+  <line x1="40"  y1="200" x2="315" y2="200" stroke="#cccccc" stroke-width="1"/>
+
+  <!-- legend for the curve -->
+  <line x1="30" y1="300" x2="60" y2="300" stroke="#2563eb" stroke-width="4"/>
+  <text x="68" y="305" fill="#111111" font-size="13">regular here (domain of definition)</text>
+
+  <!-- Right caption: two faces of one function -->
+  <text x="360" y="72"  fill="#111111" font-size="15" font-style="italic">f = (1 − x) / y</text>
+  <text x="360" y="104" fill="#111111" font-size="14">One function, two fractions:</text>
+  <text x="360" y="132" fill="#111111" font-size="15">(1 − x)/y  =  y/(1 + x)</text>
+  <text x="360" y="152" fill="#555555" font-size="12">(because 1 − x² = y² on the circle)</text>
+
+  <text x="360" y="190" fill="#111111" font-size="14">at (1,0):  use y/(1+x) = 0/2 = 0   ✓</text>
+  <text x="360" y="214" fill="#dc2626" font-size="14">at (−1,0): (1−x)/y = 2/0   ✗ pole</text>
+
+  <text x="360" y="256" fill="#111111" font-size="14">Domain = circle minus one point:</text>
+  <text x="360" y="278" fill="#111111" font-size="14">open and dense — the pole set is</text>
+  <text x="360" y="298" fill="#111111" font-size="14">just the finite bad locus.</text>
+</svg>

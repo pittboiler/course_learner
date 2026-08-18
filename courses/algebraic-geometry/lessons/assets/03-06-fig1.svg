@@ -1,0 +1,71 @@
+<svg viewBox="0 0 690 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="690" height="360" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="26" y="32" fill="#111111" font-size="16" font-weight="bold">The structure sheaf: one ring of functions per open set</text>
+
+  <!-- ===== Left: the variety X with a distinguished open D(g) ===== -->
+  <text x="26" y="62" fill="#111111" font-size="13" font-style="italic">a variety X (parabola), the open D(g) = { g ≠ 0 }</text>
+
+  <!-- faint axes -->
+  <line x1="30" y1="300" x2="400" y2="300" stroke="#dddddd" stroke-width="1"/>
+
+  <!-- X drawn thick blue as D(g); two points removed (g = 0) as open red circles -->
+  <polyline points="60,210 90,182.5 120,160 150,142.5 180,130 210,122.5 240,120 270,122.5 300,130 330,142.5 360,160 390,182.5 420,210"
+            fill="none" stroke="#2563eb" stroke-width="4"/>
+
+  <!-- removed points where g vanishes -->
+  <circle cx="150" cy="142.5" r="7" fill="#ffffff" stroke="#dc2626" stroke-width="3"/>
+  <circle cx="330" cy="142.5" r="7" fill="#ffffff" stroke="#dc2626" stroke-width="3"/>
+  <text x="120" y="120" fill="#dc2626" font-size="12">g = 0</text>
+  <text x="300" y="120" fill="#dc2626" font-size="12">g = 0</text>
+
+  <!-- the point p and its stalk -->
+  <circle cx="240" cy="120" r="5.5" fill="#111111"/>
+  <text x="230" y="108" fill="#111111" font-size="13">p</text>
+
+  <!-- zoom bubble at p: the stalk = germs -->
+  <line x1="245" y1="123" x2="300" y2="235" stroke="#999999" stroke-width="1"/>
+  <line x1="240" y1="125" x2="250" y2="240" stroke="#999999" stroke-width="1"/>
+  <circle cx="200" cy="270" r="42" fill="#f4f7ff" stroke="#111111" stroke-width="1.5"/>
+  <text x="200" y="266" fill="#111111" font-size="11" text-anchor="middle">germs at p</text>
+  <text x="200" y="282" fill="#111111" font-size="12" text-anchor="middle" font-style="italic">O_{X,p}</text>
+
+  <!-- legend -->
+  <line x1="30" y1="330" x2="60" y2="330" stroke="#2563eb" stroke-width="4"/>
+  <text x="66" y="335" fill="#111111" font-size="12">D(g): X minus the finite locus g = 0</text>
+
+  <!-- ===== Right: the tower of rings ===== -->
+  <text x="445" y="62" fill="#111111" font-size="13" font-style="italic">smaller open  ⇒  more functions allowed</text>
+
+  <!-- box 1: global -->
+  <rect x="445" y="80" width="220" height="52" fill="#ffffff" stroke="#111111" stroke-width="1.5" rx="6"/>
+  <text x="555" y="102" fill="#111111" font-size="14" text-anchor="middle" font-weight="bold">O_X(X) = k[X]</text>
+  <text x="555" y="122" fill="#555555" font-size="11" text-anchor="middle">regular on all of X (affine case)</text>
+
+  <!-- arrow -->
+  <line x1="555" y1="132" x2="555" y2="160" stroke="#111111" stroke-width="1.5" marker-end="url(#ar)"/>
+  <text x="562" y="150" fill="#2563eb" font-size="11">invert g</text>
+
+  <!-- box 2: D(g) -->
+  <rect x="445" y="162" width="220" height="52" fill="#ffffff" stroke="#2563eb" stroke-width="1.5" rx="6"/>
+  <text x="555" y="184" fill="#111111" font-size="14" text-anchor="middle" font-weight="bold">O_X(D(g)) = k[X]_g</text>
+  <text x="555" y="204" fill="#555555" font-size="11" text-anchor="middle">poles allowed only on g = 0</text>
+
+  <!-- arrow -->
+  <line x1="555" y1="214" x2="555" y2="242" stroke="#111111" stroke-width="1.5" marker-end="url(#ar)"/>
+  <text x="562" y="232" fill="#2563eb" font-size="11">invert all g(p) ≠ 0</text>
+
+  <!-- box 3: stalk -->
+  <rect x="445" y="244" width="220" height="56" fill="#f4f7ff" stroke="#111111" stroke-width="1.5" rx="6"/>
+  <text x="555" y="268" fill="#111111" font-size="14" text-anchor="middle" font-weight="bold">O_{X,p} = k[X] localized at m_p</text>
+  <text x="555" y="288" fill="#555555" font-size="11" text-anchor="middle">stalk = germs = local ring (Lesson 3.2)</text>
+
+  <text x="445" y="326" fill="#111111" font-size="11">Restriction maps go downward; the sheaf glues them back together.</text>
+
+  <defs>
+    <marker id="ar" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 z" fill="#111111"/>
+    </marker>
+  </defs>
+</svg>

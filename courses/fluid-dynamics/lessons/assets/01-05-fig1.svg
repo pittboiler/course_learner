@@ -1,0 +1,37 @@
+<svg viewBox="0 0 620 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">A parcel on a streamline: the pressure push −∇p and gravity ρg add to give ρ Du/Dt.</text>
+
+  <!-- high-pressure region (soft coral shading, behind) -->
+  <ellipse cx="120" cy="255" rx="80" ry="34" fill="#e0645c" opacity="0.15"/>
+  <text x="78" y="300" fill="#8a8a8a">high pressure</text>
+  <text x="470" y="98" fill="#8a8a8a">low pressure</text>
+
+  <!-- streamline -->
+  <path d="M 40 255 C 160 255 240 195 330 175 C 430 153 505 150 585 120"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <polygon points="585,120 573.5,129.4 570.1,120.0" fill="#4a90d9"/>
+  <text x="150" y="238" fill="#8a8a8a" font-style="italic">streamline</text>
+
+  <!-- fluid parcel -->
+  <circle cx="330" cy="175" r="15" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+
+  <!-- parallelogram construction (faint) -->
+  <line x1="400" y1="130" x2="400" y2="185" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="330" y1="230" x2="400" y2="185" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- pressure-gradient force −∇p (coral) -->
+  <line x1="330" y1="175" x2="400" y2="130" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="400,130 392.6,140.7 387.2,132.3" fill="#e0645c"/>
+  <text x="404" y="126" fill="#e0645c">−∇p</text>
+
+  <!-- gravity ρg (grey) -->
+  <line x1="330" y1="175" x2="330" y2="230" stroke="#8a8a8a" stroke-width="2.5"/>
+  <polygon points="330,230 325,218 335,218" fill="#8a8a8a"/>
+  <text x="300" y="248" fill="#8a8a8a">ρg</text>
+
+  <!-- resultant ρ Du/Dt (blue) -->
+  <line x1="330" y1="175" x2="400" y2="185" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="400,185 387.4,188.3 388.8,178.3" fill="#4a90d9"/>
+  <text x="406" y="196" fill="#4a90d9">ρ Du/Dt</text>
+</svg>

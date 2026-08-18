@@ -1,0 +1,68 @@
+<svg viewBox="0 0 640 420" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Same column, four end conditions: the buckled mode and its effective-length factor K. Smaller K = shorter effective length = higher P.</text>
+
+  <!-- ===== column 1: pinned-pinned ===== -->
+  <line x1="90" y1="70" x2="90" y2="360" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 5"/>
+  <path d="M 90 360 L 98.4 323.8 L 105.6 287.5 L 110.3 251.3 L 112 215 L 110.3 178.8 L 105.6 142.5 L 98.4 106.3 L 90 70" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <polygon points="90,58 82,46 98,46" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="78" y1="46" x2="102" y2="46" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="90,362 82,374 98,374" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="78" y1="374" x2="102" y2="374" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="80" y1="374" x2="76" y2="380" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="88" y1="374" x2="84" y2="380" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="96" y1="374" x2="92" y2="380" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="90" y1="34" x2="90" y2="52" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="90,54 86,44 94,44" fill="#e0645c"/>
+  <text x="96" y="44" fill="#e0645c">P</text>
+  <text x="52" y="396" fill="#8a8a8a">pinned-pinned</text>
+  <text x="76" y="412" fill="#e0645c">K = 1</text>
+
+  <!-- ===== column 2: fixed-free ===== -->
+  <line x1="235" y1="70" x2="235" y2="360" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 5"/>
+  <path d="M 235 360 L 235.5 323.8 L 237 287.5 L 239.4 251.3 L 242.6 215 L 246.6 178.8 L 251 142.5 L 255.9 106.3 L 261 70" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <line x1="213" y1="360" x2="257" y2="360" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="219" y1="360" x2="213" y2="368" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="229" y1="360" x2="223" y2="368" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="239" y1="360" x2="233" y2="368" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="249" y1="360" x2="243" y2="368" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="261" y1="34" x2="261" y2="52" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="261,54 257,44 265,44" fill="#e0645c"/>
+  <text x="267" y="44" fill="#e0645c">P</text>
+  <text x="207" y="396" fill="#8a8a8a">fixed-free</text>
+  <text x="221" y="412" fill="#e0645c">K = 2</text>
+
+  <!-- ===== column 3: fixed-fixed ===== -->
+  <line x1="380" y1="70" x2="380" y2="360" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 5"/>
+  <path d="M 380 360 L 382.9 323.8 L 390 287.5 L 397.1 251.3 L 400 215 L 397.1 178.8 L 390 142.5 L 382.9 106.3 L 380 70" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <line x1="358" y1="360" x2="402" y2="360" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="364" y1="360" x2="358" y2="368" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="374" y1="360" x2="368" y2="368" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="384" y1="360" x2="378" y2="368" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="394" y1="360" x2="388" y2="368" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="358" y1="70" x2="402" y2="70" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="364" y1="62" x2="358" y2="70" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="374" y1="62" x2="368" y2="70" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="384" y1="62" x2="378" y2="70" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="394" y1="62" x2="388" y2="70" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="380" y1="30" x2="380" y2="48" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="380,50 376,40 384,40" fill="#e0645c"/>
+  <text x="386" y="40" fill="#e0645c">P</text>
+  <text x="352" y="396" fill="#8a8a8a">fixed-fixed</text>
+  <text x="360" y="412" fill="#e0645c">K = 0.5</text>
+
+  <!-- ===== column 4: fixed-pinned ===== -->
+  <line x1="525" y1="70" x2="525" y2="360" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 5"/>
+  <path d="M 525 360 L 528 323.8 L 534 287.5 L 540 251.3 L 542 215 L 538 178.8 L 533 142.5 L 528.5 106.3 L 525 70" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <line x1="503" y1="360" x2="547" y2="360" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="509" y1="360" x2="503" y2="368" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="519" y1="360" x2="513" y2="368" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="529" y1="360" x2="523" y2="368" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="539" y1="360" x2="533" y2="368" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="525,58 517,46 533,46" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="513" y1="46" x2="537" y2="46" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="525" y1="34" x2="525" y2="52" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="525,54 521,44 529,44" fill="#e0645c"/>
+  <text x="531" y="44" fill="#e0645c">P</text>
+  <text x="497" y="396" fill="#8a8a8a">fixed-pinned</text>
+  <text x="505" y="412" fill="#e0645c">K = 0.7</text>
+</svg>

@@ -1,0 +1,62 @@
+<svg viewBox="0 0 620 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Cut each segment to read its internal force N, then add up the stretches.</text>
+
+  <!-- length dimension lines -->
+  <line x1="55" y1="45" x2="265" y2="45" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="265" y1="45" x2="455" y2="45" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="55" y1="41" x2="55" y2="49" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="265" y1="41" x2="265" y2="49" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="455" y1="41" x2="455" y2="49" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="152" y="39" fill="#8a8a8a">L&#8321;</text>
+  <text x="356" y="39" fill="#8a8a8a">L&#8322;</text>
+
+  <!-- fixed wall -->
+  <line x1="55" y1="60" x2="55" y2="130" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="55" y1="64" x2="48" y2="70" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="55" y1="76" x2="48" y2="82" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="55" y1="88" x2="48" y2="94" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="55" y1="100" x2="48" y2="106" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="55" y1="112" x2="48" y2="118" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="55" y1="124" x2="48" y2="130" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- segment 1 (larger area) -->
+  <rect x="55" y="68" width="210" height="54" fill="#4a90d9" opacity="0.13" stroke="#4a90d9" stroke-width="2"/>
+  <text x="150" y="100" fill="#4a90d9">A&#8321;</text>
+
+  <!-- segment 2 (smaller area) -->
+  <rect x="265" y="80" width="190" height="30" fill="#4a90d9" opacity="0.13" stroke="#4a90d9" stroke-width="2"/>
+  <text x="352" y="99" fill="#4a90d9">A&#8322;</text>
+
+  <!-- joint B marker -->
+  <line x1="265" y1="56" x2="265" y2="150" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- end load P2 -->
+  <line x1="455" y1="95" x2="515" y2="95" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="515,95 507,91 507,99" fill="#e0645c"/>
+  <text x="520" y="99" fill="#e0645c">P&#8322;</text>
+
+  <!-- joint load P1 -->
+  <line x1="265" y1="120" x2="265" y2="140" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="265" y1="140" x2="325" y2="140" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="325,140 317,136 317,144" fill="#e0645c"/>
+  <text x="330" y="144" fill="#e0645c">P&#8321;</text>
+
+  <!-- internal force labels -->
+  <text x="70" y="172" fill="#e0645c">N&#8321; = P&#8321; + P&#8322;</text>
+  <text x="360" y="172" fill="#e0645c">N&#8322; = P&#8322;</text>
+
+  <!-- total elongation -->
+  <text x="70" y="210" fill="#8a8a8a" font-style="italic">&#948; = N&#8321;L&#8321;/(A&#8321;E) + N&#8322;L&#8322;/(A&#8322;E)</text>
+
+  <!-- spring analogy: two springs in series -->
+  <text x="30" y="252" fill="#8a8a8a">stiffness view:</text>
+  <line x1="120" y1="256" x2="140" y2="256" stroke="#8a8a8a" stroke-width="1.5"/>
+  <path d="M 140 256 L 146 248 L 158 264 L 170 248 L 182 264 L 188 256 L 208 256" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="150" y="242" fill="#4a90d9">k&#8321;</text>
+  <path d="M 208 256 L 214 248 L 226 264 L 238 248 L 250 264 L 256 256 L 276 256" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="228" y="242" fill="#4a90d9">k&#8322;</text>
+  <line x1="276" y1="256" x2="300" y2="256" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="300,256 292,252 292,260" fill="#e0645c"/>
+  <text x="305" y="260" fill="#e0645c">P</text>
+  <text x="330" y="260" fill="#8a8a8a">k = AE / L  (each segment)</text>
+</svg>

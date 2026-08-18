@@ -1,0 +1,51 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="26" fill="#8a8a8a" font-style="italic">The real well is asymmetric: as vibration energy rises, the midpoint of each level drifts outward — that is thermal expansion.</text>
+
+  <!-- U = 0 reference / r-axis -->
+  <line x1="90" y1="243" x2="618" y2="243" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="618,243 608,238 608,248" fill="#8a8a8a"/>
+  <text x="606" y="235" fill="#8a8a8a">r</text>
+  <text x="96" y="237" fill="#8a8a8a" font-size="12">U = 0 (atoms free)</text>
+
+  <!-- U axis -->
+  <line x1="90" y1="352" x2="90" y2="52" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="90,52 85,62 95,62" fill="#8a8a8a"/>
+  <text x="66" y="60" fill="#8a8a8a">U(r)</text>
+
+  <!-- symmetric harmonic parabola (grey dashed): midpoints never move -->
+  <path d="M 111.25 308.3 L 121.9 324.3 L 132.5 335.7 L 143.1 342.6 L 153.75 344.9 L 164.4 342.6 L 175 335.7 L 185.6 324.3 L 196.25 308.3"
+        fill="none" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="60" y="300" fill="#8a8a8a" font-size="12">harmonic</text>
+  <text x="60" y="314" fill="#8a8a8a" font-size="12">(parabola)</text>
+
+  <!-- real anharmonic potential (blue): steep wall + gentle tail -->
+  <path d="M 90 67.4 L 94.25 124.5 L 102.75 209.5 L 111.25 265.7 L 132.5 331.7 L 153.75 344.9 L 175 338.3 L 196.25 325.6 L 238.75 299.9 L 281.25 281.0 L 323.75 268.4 L 408.75 254.9 L 493.75 249.1 L 578.75 246.3 L 600 245.6"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="118" y="150" fill="#4a90d9" font-size="12">steep</text>
+  <text x="118" y="164" fill="#4a90d9" font-size="12">repulsion</text>
+  <text x="470" y="238" fill="#4a90d9" font-size="12">gentle attraction</text>
+
+  <!-- r0 marker -->
+  <line x1="153.75" y1="344.9" x2="153.75" y2="358" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="147" y="372" fill="#8a8a8a">r₀</text>
+
+  <!-- thermal vibration levels (coral horizontal segments) with midpoint dots -->
+  <!-- level 1 -->
+  <line x1="132.5" y1="331.7" x2="186.05" y2="331.7" stroke="#e0645c" stroke-width="1.5"/>
+  <circle cx="159.3" cy="331.7" r="2.6" fill="#e0645c"/>
+  <!-- level 2 -->
+  <line x1="122.3" y1="299.9" x2="238.75" y2="299.9" stroke="#e0645c" stroke-width="1.5"/>
+  <circle cx="180.5" cy="299.9" r="2.6" fill="#e0645c"/>
+  <!-- level 3 -->
+  <line x1="112.1" y1="268.4" x2="323.75" y2="268.4" stroke="#e0645c" stroke-width="1.5"/>
+  <circle cx="217.9" cy="268.4" r="2.6" fill="#e0645c"/>
+
+  <!-- drift of midpoints outward = <r> grows -->
+  <path d="M 159.3 331.7 L 180.5 299.9 L 217.9 268.4" fill="none" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <polygon points="217.9,268.4 209.0,269.6 214.2,275.8" fill="#e0645c"/>
+  <text x="228" y="266" fill="#e0645c" font-size="12">⟨r⟩ grows with T</text>
+
+  <!-- higher-T label near top level -->
+  <text x="330" y="286" fill="#8a8a8a" font-size="12">hotter → wider swing</text>
+</svg>

@@ -1,0 +1,51 @@
+<svg viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <!-- caption -->
+  <text x="40" y="20" fill="#8a8a8a" font-style="italic">Criticality is a crossing: composition sets a flat line, geometry a falling curve. They meet at one size.</text>
+
+  <!-- axes -->
+  <line x1="60" y1="260" x2="575" y2="260" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="575,260 565,255 565,265" fill="#8a8a8a"/>
+  <text x="470" y="282" fill="#8a8a8a">reactor size R &#8594;</text>
+  <line x1="60" y1="260" x2="60" y2="45" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="60,45 55,55 65,55" fill="#8a8a8a"/>
+  <text x="70" y="52" fill="#8a8a8a">buckling B&#178;</text>
+
+  <!-- geometric buckling curve  B_g^2 = (pi/R)^2 , falls as R grows -->
+  <path d="M 90 75 L 136 142 L 182 178 L 228 200 L 274 214 L 320 223 L 366 230 L 412 236 L 458 239 L 504 242 L 550 245"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="96" y="70" fill="#4a90d9">B</text>
+  <text x="107" y="74" fill="#4a90d9" font-size="10">g</text>
+  <text x="114" y="66" fill="#4a90d9" font-size="10">2</text>
+  <text x="122" y="70" fill="#4a90d9">(geometry)</text>
+
+  <!-- material buckling: horizontal line set by composition -->
+  <line x1="60" y1="178" x2="560" y2="178" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="470" y="172" fill="#e0645c">B</text>
+  <text x="481" y="176" fill="#e0645c" font-size="10">m</text>
+  <text x="490" y="168" fill="#e0645c" font-size="10">2</text>
+  <text x="498" y="172" fill="#e0645c">(composition)</text>
+
+  <!-- critical crossing -->
+  <circle cx="182" cy="178" r="5" fill="#e0645c"/>
+  <line x1="182" y1="178" x2="182" y2="260" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="150" y="276" fill="#e0645c">R</text>
+  <text x="161" y="280" fill="#e0645c" font-size="10">crit</text>
+
+  <!-- region labels -->
+  <text x="98" y="112" fill="#8a8a8a">B</text>
+  <text x="107" y="116" fill="#8a8a8a" font-size="10">g</text>
+  <text x="113" y="108" fill="#8a8a8a" font-size="10">2</text>
+  <text x="120" y="112" fill="#8a8a8a">&#62; B</text>
+  <text x="142" y="116" fill="#8a8a8a" font-size="10">m</text>
+  <text x="148" y="108" fill="#8a8a8a" font-size="10">2</text>
+  <text x="98" y="128" fill="#8a8a8a">too small:</text>
+  <text x="98" y="143" fill="#8a8a8a">leaks &#8594; subcritical</text>
+
+  <text x="330" y="205" fill="#8a8a8a">B</text>
+  <text x="339" y="209" fill="#8a8a8a" font-size="10">g</text>
+  <text x="345" y="201" fill="#8a8a8a" font-size="10">2</text>
+  <text x="352" y="205" fill="#8a8a8a">&#60; B</text>
+  <text x="373" y="209" fill="#8a8a8a" font-size="10">m</text>
+  <text x="379" y="201" fill="#8a8a8a" font-size="10">2</text>
+  <text x="330" y="221" fill="#8a8a8a">large: supercritical</text>
+</svg>

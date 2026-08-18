@@ -1,0 +1,52 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="24" y="24" fill="#8a8a8a" font-style="italic">Wu's ⁶⁰Co: reflect the experiment and the electrons flip sides but the spin does not — the two worlds differ, so parity is violated.</text>
+
+  <!-- mirror line -->
+  <line x1="320" y1="44" x2="320" y2="300" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="4 5"/>
+  <text x="300" y="58" fill="#8a8a8a" font-style="italic">mirror</text>
+
+  <!-- panel titles -->
+  <text x="90" y="80" fill="#8a8a8a">As observed</text>
+  <text x="410" y="80" fill="#8a8a8a">Mirror image (parity)</text>
+
+  <!-- ===== LEFT: as observed — spin up, electrons down ===== -->
+  <!-- emission lobe (down) -->
+  <polygon points="160,172 116,258 204,258" fill="#e0645c" opacity="0.15"/>
+  <!-- nucleus -->
+  <circle cx="160" cy="150" r="22" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <!-- spin curl -->
+  <path d="M 176 138 A 18 18 0 1 0 178 150" fill="none" stroke="#4a90d9" stroke-width="1.5"/>
+  <polygon points="178,150 172,141 183,143" fill="#4a90d9"/>
+  <!-- spin axis arrow up -->
+  <line x1="160" y1="128" x2="160" y2="102" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="160,96 154,108 166,108" fill="#4a90d9"/>
+  <text x="168" y="106" fill="#4a90d9">spin J</text>
+  <!-- electron arrow down -->
+  <line x1="160" y1="176" x2="160" y2="242" stroke="#e0645c" stroke-width="3"/>
+  <polygon points="160,250 153,236 167,236" fill="#e0645c"/>
+  <text x="70" y="284" fill="#e0645c">β electrons come out</text>
+  <text x="70" y="300" fill="#e0645c">opposite the spin</text>
+
+  <!-- ===== RIGHT: mirror — spin still up, electrons now up ===== -->
+  <!-- emission lobe (up) -->
+  <polygon points="480,128 436,42 524,42" fill="#e0645c" opacity="0.15"/>
+  <!-- nucleus -->
+  <circle cx="480" cy="150" r="22" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <!-- spin curl (mirror-reversed sense) -->
+  <path d="M 464 138 A 18 18 0 1 1 462 150" fill="none" stroke="#4a90d9" stroke-width="1.5"/>
+  <polygon points="462,150 468,141 457,143" fill="#4a90d9"/>
+  <!-- spin axis arrow up (unchanged: spin is an axial vector) -->
+  <line x1="480" y1="128" x2="480" y2="102" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="480,96 474,108 486,108" fill="#4a90d9"/>
+  <text x="488" y="106" fill="#4a90d9">spin J</text>
+  <!-- electron arrows up (flanking the spin) -->
+  <line x1="498" y1="128" x2="516" y2="66" stroke="#e0645c" stroke-width="3"/>
+  <polygon points="518,58 509,70 521,68" fill="#e0645c"/>
+  <line x1="462" y1="128" x2="444" y2="66" stroke="#e0645c" stroke-width="3"/>
+  <polygon points="442,58 439,68 451,70" fill="#e0645c"/>
+  <text x="392" y="300" fill="#e0645c">reflection predicts electrons along the spin</text>
+
+  <!-- verdict -->
+  <text x="286" y="330" fill="#e0645c" font-style="italic">≠  nature tells left from right</text>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 380" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="780" height="380" fill="#ffffff"/>
+
+  <text x="390" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Middle-thirds Cantor set: cover with boxes of size &#949;</text>
+
+  <!-- Level 0: whole interval, one box of size 1 -->
+  <text x="118" y="72" text-anchor="end" font-size="13" fill="#111111">&#949; = 1</text>
+  <rect x="140" y="58" width="520" height="26" fill="#1a6feb"/>
+  <text x="678" y="76" font-size="13" fill="#111111">N = 1</text>
+
+  <!-- Level 1: two boxes of size 1/3 -->
+  <text x="118" y="137" text-anchor="end" font-size="13" fill="#111111">&#949; = 1/3</text>
+  <rect x="140" y="123" width="173.3" height="26" fill="#1a6feb"/>
+  <rect x="486.7" y="123" width="173.3" height="26" fill="#1a6feb"/>
+  <text x="678" y="141" font-size="13" fill="#111111">N = 2</text>
+
+  <!-- Level 2: four boxes of size 1/9 -->
+  <text x="118" y="202" text-anchor="end" font-size="13" fill="#111111">&#949; = 1/9</text>
+  <rect x="140"   y="188" width="57.8" height="26" fill="#1a6feb"/>
+  <rect x="255.6" y="188" width="57.8" height="26" fill="#1a6feb"/>
+  <rect x="486.7" y="188" width="57.8" height="26" fill="#1a6feb"/>
+  <rect x="602.2" y="188" width="57.8" height="26" fill="#1a6feb"/>
+  <text x="678" y="206" font-size="13" fill="#111111">N = 4</text>
+
+  <!-- Level 3: eight boxes of size 1/27 -->
+  <text x="118" y="267" text-anchor="end" font-size="13" fill="#111111">&#949; = 1/27</text>
+  <rect x="140"   y="253" width="19.3" height="26" fill="#1a6feb"/>
+  <rect x="178.5" y="253" width="19.3" height="26" fill="#1a6feb"/>
+  <rect x="255.6" y="253" width="19.3" height="26" fill="#1a6feb"/>
+  <rect x="294.1" y="253" width="19.3" height="26" fill="#1a6feb"/>
+  <rect x="486.7" y="253" width="19.3" height="26" fill="#1a6feb"/>
+  <rect x="525.2" y="253" width="19.3" height="26" fill="#1a6feb"/>
+  <rect x="602.2" y="253" width="19.3" height="26" fill="#1a6feb"/>
+  <rect x="640.7" y="253" width="19.3" height="26" fill="#1a6feb"/>
+  <text x="678" y="271" font-size="13" fill="#111111">N = 8</text>
+
+  <!-- level bracket labels on far left -->
+  <text x="20" y="76"  font-size="12" fill="#555555">n=0</text>
+  <text x="20" y="141" font-size="12" fill="#555555">n=1</text>
+  <text x="20" y="206" font-size="12" fill="#555555">n=2</text>
+  <text x="20" y="271" font-size="12" fill="#555555">n=3</text>
+
+  <!-- pattern rule -->
+  <text x="390" y="315" text-anchor="middle" font-size="13" fill="#333333">Each step: &#949; shrinks by 3, box count doubles &#8594; N(&#949;) = 2&#8319; when &#949; = (1/3)&#8319;</text>
+
+  <!-- dimension result -->
+  <line x1="180" y1="332" x2="600" y2="332" stroke="#cccccc" stroke-width="1"/>
+  <text x="390" y="358" text-anchor="middle" font-size="15" font-weight="bold" fill="#c0392b">d = ln N / ln(1/&#949;) = ln(2&#8319;) / ln(3&#8319;) = ln2 / ln3 &#8776; 0.63</text>
+</svg>

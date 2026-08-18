@@ -1,0 +1,36 @@
+<svg viewBox="0 0 480 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Same area, different shape: the round vacuum disk (grey) is squashed into a squeezed ellipse (blue).</text>
+
+  <!-- axes -->
+  <line x1="55" y1="210" x2="445" y2="210" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="445,210 435,205 435,215" fill="#8a8a8a"/>
+  <text x="450" y="215" fill="#8a8a8a">X<tspan dy="4" font-size="10">1</tspan></text>
+
+  <line x1="230" y1="372" x2="230" y2="46" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="230,46 225,56 235,56" fill="#8a8a8a"/>
+  <text x="238" y="52" fill="#8a8a8a">X<tspan dy="4" font-size="10">2</tspan></text>
+  <text x="212" y="228" fill="#8a8a8a">0</text>
+
+  <!-- vacuum / shot-noise disk -->
+  <circle cx="230" cy="210" r="64" fill="none" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="5 5"/>
+
+  <!-- shot-noise callout -->
+  <line x1="184" y1="164" x2="120" y2="120" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="40" y="112" fill="#8a8a8a">vacuum: radius</text>
+  <text x="40" y="130" fill="#8a8a8a">&#189; (shot noise)</text>
+
+  <!-- squeezed ellipse: squashed along X1, stretched along X2 -->
+  <ellipse cx="230" cy="210" rx="32" ry="128" fill="#4a90d9" fill-opacity="0.15" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- short semi-axis marker (below shot noise) -->
+  <line x1="230" y1="210" x2="262" y2="210" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="262,210 254,206 254,214" fill="#e0645c"/>
+  <text x="268" y="199" fill="#e0645c">&#189; e<tspan dy="-6" font-size="10">&#8722;r</tspan></text>
+  <text x="268" y="224" fill="#e0645c" font-size="11">(below SQL)</text>
+
+  <!-- long semi-axis marker (above shot noise) -->
+  <line x1="230" y1="210" x2="230" y2="82" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="230,82 226,90 234,90" fill="#e0645c"/>
+  <text x="240" y="120" fill="#e0645c">&#189; e<tspan dy="-6" font-size="10">+r</tspan></text>
+</svg>

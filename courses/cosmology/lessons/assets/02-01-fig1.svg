@@ -1,0 +1,65 @@
+<svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Thermal history: the universe cools as it expands (T &#8733; t&#8722;&#189; in the radiation era); each fossil epoch is a temperature.</text>
+
+  <!-- ===== axes ===== -->
+  <!-- y-axis -->
+  <line x1="80" y1="320" x2="80" y2="52" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="80,52 75,62 85,62" fill="#8a8a8a"/>
+  <!-- x-axis -->
+  <line x1="80" y1="320" x2="608" y2="320" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="608,320 598,315 598,325" fill="#8a8a8a"/>
+
+  <!-- y ticks + labels (temperature) -->
+  <line x1="76" y1="60" x2="80" y2="60" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="72" y="64" fill="#8a8a8a" text-anchor="end" font-size="12">1 GeV</text>
+  <line x1="76" y1="138" x2="80" y2="138" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="72" y="142" fill="#8a8a8a" text-anchor="end" font-size="12">1 MeV</text>
+  <line x1="76" y1="216" x2="80" y2="216" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="72" y="220" fill="#8a8a8a" text-anchor="end" font-size="12">1 keV</text>
+  <line x1="76" y1="294" x2="80" y2="294" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="72" y="298" fill="#8a8a8a" text-anchor="end" font-size="12">1 eV</text>
+  <text x="26" y="190" fill="#8a8a8a" font-size="12" transform="rotate(-90 26 190)" text-anchor="middle">temperature  k&#8305;B T</text>
+
+  <!-- x ticks + labels (time) -->
+  <line x1="80" y1="320" x2="80" y2="324" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="80" y="338" fill="#8a8a8a" text-anchor="middle" font-size="12">10<tspan baseline-shift="super" font-size="9">&#8722;6</tspan> s</text>
+  <line x1="236" y1="320" x2="236" y2="324" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="236" y="338" fill="#8a8a8a" text-anchor="middle" font-size="12">1 s</text>
+  <line x1="392" y1="320" x2="392" y2="324" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="392" y="338" fill="#8a8a8a" text-anchor="middle" font-size="12">10<tspan baseline-shift="super" font-size="9">6</tspan> s</text>
+  <line x1="548" y1="320" x2="548" y2="324" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="548" y="338" fill="#8a8a8a" text-anchor="middle" font-size="12">10<tspan baseline-shift="super" font-size="9">12</tspan> s</text>
+  <text x="344" y="354" fill="#8a8a8a" font-size="12" text-anchor="middle">time after the Big Bang</text>
+
+  <!-- ===== the T(t) curve ===== -->
+  <line x1="80" y1="60" x2="577" y2="307" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- ===== milestone markers ===== -->
+  <!-- QCD -->
+  <circle cx="123" cy="81" r="5" fill="#e0645c"/>
+  <text x="131" y="74" fill="#e0645c" font-size="12">QCD, 150 MeV</text>
+
+  <!-- neutrino decoupling -->
+  <line x1="236" y1="138" x2="312" y2="101" stroke="#8a8a8a" stroke-width="1"/>
+  <circle cx="236" cy="138" r="5" fill="#e0645c"/>
+  <text x="316" y="98" fill="#e0645c" font-size="12">&#957; decoupling</text>
+  <text x="316" y="113" fill="#8a8a8a" font-size="11">~1 MeV</text>
+
+  <!-- e+e- annihilation -->
+  <line x1="252" y1="146" x2="360" y2="129" stroke="#8a8a8a" stroke-width="1"/>
+  <circle cx="252" cy="146" r="5" fill="#e0645c"/>
+  <text x="364" y="126" fill="#e0645c" font-size="12">e&#8314;e&#8315; annihilation</text>
+  <text x="364" y="141" fill="#8a8a8a" font-size="11">~0.5 MeV</text>
+
+  <!-- BBN -->
+  <line x1="288" y1="164" x2="400" y2="171" stroke="#8a8a8a" stroke-width="1"/>
+  <circle cx="288" cy="164" r="5" fill="#e0645c"/>
+  <text x="404" y="168" fill="#e0645c" font-size="12">BBN</text>
+  <text x="404" y="183" fill="#8a8a8a" font-size="11">~0.1 MeV</text>
+
+  <!-- recombination -->
+  <circle cx="577" cy="307" r="5" fill="#e0645c"/>
+  <text x="568" y="293" fill="#e0645c" font-size="12" text-anchor="end">recombination</text>
+  <text x="568" y="308" fill="#8a8a8a" font-size="11" text-anchor="end">0.3 eV, 380,000 yr</text>
+</svg>

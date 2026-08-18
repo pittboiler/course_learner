@@ -1,0 +1,31 @@
+<svg viewBox="0 0 620 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="60" y="24" fill="#8a8a8a" font-style="italic">Chain-growth: high MW from the start. Step-growth: spikes only as p &#8594; 1.</text>
+
+  <!-- axes -->
+  <line x1="60" y1="255" x2="580" y2="255" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="580,255 570,250 570,260" fill="#8a8a8a"/>
+  <line x1="60" y1="255" x2="60" y2="52" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="60,52 55,62 65,62" fill="#8a8a8a"/>
+
+  <!-- axis labels -->
+  <text x="300" y="288" fill="#8a8a8a" text-anchor="middle">Conversion p</text>
+  <text x="76" y="70" fill="#8a8a8a">Molecular weight (Xn)</text>
+  <text x="46" y="260" fill="#8a8a8a" text-anchor="end">0</text>
+  <text x="60" y="275" fill="#8a8a8a" text-anchor="middle">0</text>
+  <text x="576" y="275" fill="#8a8a8a" text-anchor="middle">1</text>
+
+  <!-- chain-growth: high and roughly flat from the very start -->
+  <path d="M 62 100 L 250 100 L 430 108 L 520 118 L 574 130"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- step-growth: hugs the floor, then the hockey-stick near p = 1 -->
+  <path d="M 62 248 L 300 244 L 440 230 L 505 202 L 538 152 L 556 98 L 572 60"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+
+  <!-- legend -->
+  <line x1="110" y1="180" x2="150" y2="180" stroke="#4a90d9" stroke-width="3"/>
+  <text x="158" y="185" fill="#8a8a8a">chain-growth (radical)</text>
+  <line x1="110" y1="208" x2="150" y2="208" stroke="#e0645c" stroke-width="3"/>
+  <text x="158" y="213" fill="#8a8a8a">step-growth</text>
+</svg>

@@ -1,0 +1,77 @@
+<svg viewBox="0 0 680 540" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Wilkinson's hydrogenation loop: each arrow is one elementary step; the metal's oxidation state and electron count return to start every turnover.</text>
+
+  <!-- ===== resting reservoir ===== -->
+  <rect x="252" y="44" width="176" height="46" rx="6" fill="#8a8a8a" opacity="0.12" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="340" y="66" fill="#8a8a8a" text-anchor="middle">RhCl(PPh3)3</text>
+  <text x="340" y="82" fill="#8a8a8a" text-anchor="middle">Rh(I) · 16e · resting</text>
+
+  <!-- dissociation arrow down to active species -->
+  <line x1="340" y1="90" x2="340" y2="150" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="340,150 335,140 345,140" fill="#8a8a8a"/>
+  <text x="350" y="118" fill="#8a8a8a" text-anchor="start">&#8722; PPh3 (dissociation)</text>
+
+  <!-- ===== loop nodes (blue) ===== -->
+  <!-- N1 active, top -->
+  <rect x="256" y="154" width="168" height="46" rx="6" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <text x="340" y="176" fill="#4a90d9" text-anchor="middle">RhCl(PPh3)2</text>
+  <text x="340" y="192" fill="#4a90d9" text-anchor="middle">Rh(I) · 14e (active)</text>
+
+  <!-- N2 right -->
+  <rect x="472" y="294" width="176" height="46" rx="6" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <text x="560" y="316" fill="#4a90d9" text-anchor="middle">RhClH2(PPh3)2</text>
+  <text x="560" y="332" fill="#4a90d9" text-anchor="middle">Rh(III) · 16e</text>
+
+  <!-- N3 bottom -->
+  <rect x="248" y="434" width="184" height="46" rx="6" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <text x="340" y="456" fill="#4a90d9" text-anchor="middle">RhClH2(PPh3)2(alkene)</text>
+  <text x="340" y="472" fill="#4a90d9" text-anchor="middle">Rh(III) · 18e (saturated)</text>
+
+  <!-- N4 left -->
+  <rect x="32" y="294" width="184" height="46" rx="6" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <text x="124" y="316" fill="#4a90d9" text-anchor="middle">RhClH(alkyl)(PPh3)2</text>
+  <text x="124" y="332" fill="#4a90d9" text-anchor="middle">Rh(III) · 16e</text>
+
+  <!-- ===== loop arrows (grey), clockwise ===== -->
+  <!-- N1 -> N2 -->
+  <path d="M 424 188 Q 600 210 585 294" fill="none" stroke="#8a8a8a" stroke-width="1.6"/>
+  <polygon points="585,294 579,283 590,285" fill="#8a8a8a"/>
+  <!-- N2 -> N3 -->
+  <path d="M 555 340 Q 560 430 432 448" fill="none" stroke="#8a8a8a" stroke-width="1.6"/>
+  <polygon points="432,448 444,443 442,454" fill="#8a8a8a"/>
+  <!-- N3 -> N4 -->
+  <path d="M 248 452 Q 118 432 122 340" fill="none" stroke="#8a8a8a" stroke-width="1.6"/>
+  <polygon points="122,340 116,351 128,349" fill="#8a8a8a"/>
+  <!-- N4 -> N1 -->
+  <path d="M 118 294 Q 90 200 256 184" fill="none" stroke="#8a8a8a" stroke-width="1.6"/>
+  <polygon points="256,184 244,181 247,192" fill="#8a8a8a"/>
+
+  <!-- ===== step labels (coral) ===== -->
+  <text x="470" y="238" fill="#e0645c" text-anchor="middle">oxidative</text>
+  <text x="470" y="253" fill="#e0645c" text-anchor="middle">addition</text>
+  <text x="470" y="392" fill="#e0645c" text-anchor="middle">alkene</text>
+  <text x="470" y="407" fill="#e0645c" text-anchor="middle">binds</text>
+  <text x="210" y="392" fill="#e0645c" text-anchor="middle">migratory</text>
+  <text x="210" y="407" fill="#e0645c" text-anchor="middle">insertion</text>
+  <text x="210" y="238" fill="#e0645c" text-anchor="middle">reductive</text>
+  <text x="210" y="253" fill="#e0645c" text-anchor="middle">elimination</text>
+
+  <!-- ===== substrate in (grey), product out (coral) ===== -->
+  <!-- H2 in to N1->N2 -->
+  <text x="628" y="232" fill="#8a8a8a" text-anchor="middle">+ H2</text>
+  <line x1="628" y1="240" x2="600" y2="258" stroke="#8a8a8a" stroke-width="1.2"/>
+  <polygon points="600,258 606,249 610,258" fill="#8a8a8a"/>
+  <!-- alkene in to N2->N3 -->
+  <text x="612" y="392" fill="#8a8a8a" text-anchor="middle">+ alkene</text>
+  <line x1="590" y1="398" x2="558" y2="392" stroke="#8a8a8a" stroke-width="1.2"/>
+  <polygon points="558,392 569,389 566,399" fill="#8a8a8a"/>
+  <!-- alkane out at N4->N1 (reductive elimination) -->
+  <text x="66" y="212" fill="#e0645c" text-anchor="middle">alkane &#8593;</text>
+  <line x1="82" y1="230" x2="104" y2="252" stroke="#e0645c" stroke-width="1.4"/>
+  <polygon points="82,230 92,236 84,240" fill="#e0645c"/>
+
+  <!-- turnover annotation in loop center -->
+  <text x="340" y="300" fill="#8a8a8a" text-anchor="middle" font-style="italic">one turnover</text>
+  <text x="340" y="316" fill="#8a8a8a" text-anchor="middle" font-style="italic">= one alkane</text>
+</svg>

@@ -1,0 +1,31 @@
+<svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="640" height="300" fill="#ffffff"/>
+
+  <!-- Nested increasing sets E_1 ⊂ E_2 ⊂ E_3 ⊂ ... ⊂ E, drawn outside-in so annuli show -->
+  <circle cx="170" cy="150" r="130" fill="#93c5fd"/>
+  <circle cx="170" cy="150" r="95"  fill="#bfdbfe"/>
+  <circle cx="170" cy="150" r="55"  fill="#dbeafe"/>
+
+  <!-- E boundary (the limit set) -->
+  <circle cx="170" cy="150" r="140" fill="none" stroke="#111111" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <circle cx="170" cy="150" r="130" fill="none" stroke="#111111" stroke-width="1"/>
+  <circle cx="170" cy="150" r="95"  fill="none" stroke="#111111" stroke-width="1"/>
+  <circle cx="170" cy="150" r="55"  fill="none" stroke="#111111" stroke-width="1"/>
+
+  <!-- inner labels -->
+  <text x="170" y="155" fill="#111111" font-size="15" text-anchor="middle">E₁ = A₁</text>
+  <text x="170" y="82"  fill="#111111" font-size="14" text-anchor="middle">A₂</text>
+  <text x="170" y="46"  fill="#111111" font-size="14" text-anchor="middle">A₃</text>
+
+  <!-- E label with leader -->
+  <text x="170" y="24" fill="#111111" font-size="14" text-anchor="middle" font-style="italic">E  (dashed)</text>
+
+  <!-- right-hand caption: the disjointification identity -->
+  <line x1="325" y1="150" x2="345" y2="150" stroke="#111111" stroke-width="1"/>
+  <text x="360" y="118" fill="#111111" font-size="15">Slice the growing blob into rings:</text>
+  <text x="360" y="146" fill="#111111" font-size="16">Aₙ = Eₙ \ Eₙ₋₁  (disjoint)</text>
+  <text x="360" y="182" fill="#111111" font-size="16">Eₙ = A₁ ⊎ ··· ⊎ Aₙ</text>
+  <text x="360" y="210" fill="#111111" font-size="16">E = A₁ ⊎ A₂ ⊎ A₃ ⊎ ···</text>
+  <text x="360" y="246" fill="#555555" font-size="13">so μ(Eₙ) = Σₖ₌₁ⁿ μ(Aₖ)</text>
+  <text x="360" y="266" fill="#555555" font-size="13">climbs to Σₖ μ(Aₖ) = μ(E).</text>
+</svg>

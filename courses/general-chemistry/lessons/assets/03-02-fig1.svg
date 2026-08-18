@@ -1,0 +1,56 @@
+<svg viewBox="0 0 640 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Enthalpy is a height. Products below reactants &#8594; heat falls out (exo); above &#8594; heat is lifted in (endo).</text>
+
+  <!-- ===================== LEFT: exothermic ===================== -->
+  <!-- enthalpy axis -->
+  <line x1="55" y1="290" x2="55" y2="55" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="55,55 50,66 60,66" fill="#8a8a8a"/>
+  <text x="40" y="60" fill="#8a8a8a">H</text>
+
+  <!-- reactant level (high) -->
+  <line x1="75" y1="115" x2="150" y2="115" stroke="#4a90d9" stroke-width="3"/>
+  <text x="75" y="106" fill="#8a8a8a">Reactants</text>
+  <!-- product level (low) -->
+  <line x1="225" y1="215" x2="300" y2="215" stroke="#4a90d9" stroke-width="3"/>
+  <text x="228" y="234" fill="#8a8a8a">Products</text>
+  <!-- reaction-coordinate curve over a barrier -->
+  <path d="M 150 115 C 172 115, 180 80, 187 80 C 194 80, 205 215, 225 215"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- delta-H drop (blue) -->
+  <line x1="150" y1="115" x2="262" y2="115" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="225" y1="215" x2="262" y2="215" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="255" y1="119" x2="255" y2="211" stroke="#4a90d9" stroke-width="1.5"/>
+  <polygon points="255,211 251,202 259,202" fill="#4a90d9"/>
+  <polygon points="255,119 251,128 259,128" fill="#4a90d9"/>
+  <text x="264" y="170" fill="#4a90d9">&#916;H &lt; 0</text>
+
+  <text x="90" y="312" fill="#8a8a8a" font-style="italic">exothermic &#8212; heat out</text>
+
+  <!-- ===================== RIGHT: endothermic ===================== -->
+  <!-- enthalpy axis -->
+  <line x1="345" y1="290" x2="345" y2="55" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="345,55 340,66 350,66" fill="#8a8a8a"/>
+  <text x="330" y="60" fill="#8a8a8a">H</text>
+
+  <!-- reactant level (low) -->
+  <line x1="365" y1="215" x2="440" y2="215" stroke="#e0645c" stroke-width="3"/>
+  <text x="365" y="234" fill="#8a8a8a">Reactants</text>
+  <!-- product level (high) -->
+  <line x1="515" y1="115" x2="590" y2="115" stroke="#e0645c" stroke-width="3"/>
+  <text x="518" y="106" fill="#8a8a8a">Products</text>
+  <!-- reaction-coordinate curve over a barrier -->
+  <path d="M 440 215 C 462 215, 470 80, 477 80 C 484 80, 495 115, 515 115"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+
+  <!-- delta-H rise (coral) -->
+  <line x1="440" y1="215" x2="552" y2="215" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="515" y1="115" x2="552" y2="115" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="545" y1="211" x2="545" y2="119" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="545,119 541,128 549,128" fill="#e0645c"/>
+  <polygon points="545,211 541,202 549,202" fill="#e0645c"/>
+  <text x="554" y="170" fill="#e0645c">&#916;H &gt; 0</text>
+
+  <text x="378" y="312" fill="#8a8a8a" font-style="italic">endothermic &#8212; heat in</text>
+</svg>

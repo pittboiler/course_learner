@@ -1,0 +1,51 @@
+<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="24" y="24" fill="#8a8a8a" font-style="italic">Natural convection on a heated vertical plate: buoyancy lifts warm fluid, and the boundary layer thickens upward.</text>
+
+  <!-- ===== heated vertical plate ===== -->
+  <rect x="108" y="52" width="26" height="286" fill="#e0645c" opacity="0.30" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="60" y="200" fill="#e0645c">T&#8347;</text>
+  <text x="34" y="218" fill="#8a8a8a" font-size="12">(hot wall)</text>
+
+  <!-- ===== boundary-layer edge (dashed, thickens upward) ===== -->
+  <path d="M146,336 C196,255 258,150 250,58" fill="none" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="262" y="70" fill="#8a8a8a" font-size="12">edge of boundary layer</text>
+
+  <!-- delta bracket near top (thick BL) -->
+  <line x1="134" y1="96" x2="243" y2="96" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="134,96 143,92 143,100" fill="#8a8a8a"/>
+  <polygon points="243,96 234,92 234,100" fill="#8a8a8a"/>
+  <text x="182" y="90" fill="#8a8a8a">&#948;</text>
+
+  <!-- ===== buoyant rise: upward flow arrows hugging the plate ===== -->
+  <line x1="150" y1="320" x2="150" y2="120" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="150,112 145,124 155,124" fill="#e0645c"/>
+  <text x="158" y="130" fill="#e0645c" font-size="12">buoyant rise</text>
+
+  <!-- ===== velocity profile at one height: u = 0 at wall, peak, 0 at edge ===== -->
+  <!-- base line (station where the profile is read) -->
+  <line x1="134" y1="262" x2="250" y2="262" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="256" y="266" fill="#8a8a8a" font-size="12">distance from wall &#8594;</text>
+
+  <!-- vertical velocity arrows; length = local upward speed u(y) -->
+  <line x1="142" y1="262" x2="142" y2="250" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="142,244 138,253 146,253" fill="#4a90d9"/>
+  <line x1="152" y1="262" x2="152" y2="234" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="152,228 148,237 156,237" fill="#4a90d9"/>
+  <line x1="162" y1="262" x2="162" y2="226" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="162,220 158,229 166,229" fill="#4a90d9"/>
+  <line x1="172" y1="262" x2="172" y2="232" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="172,226 168,235 176,235" fill="#4a90d9"/>
+  <line x1="182" y1="262" x2="182" y2="244" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="182,238 178,247 186,247" fill="#4a90d9"/>
+  <line x1="192" y1="262" x2="192" y2="255" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="192,250 188,258 196,258" fill="#4a90d9"/>
+
+  <!-- envelope of the profile: 0 at wall -> peak -> 0 far away -->
+  <path d="M134,262 C150,222 158,214 162,220 C170,232 186,258 205,262" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="150" y="300" fill="#4a90d9" font-size="12">u = 0 at wall, peak, then 0 far away</text>
+
+  <!-- ===== quiescent far field ===== -->
+  <text x="470" y="150" fill="#4a90d9">T&#8734; (cool)</text>
+  <text x="470" y="170" fill="#8a8a8a" font-size="12">u&#8734; = 0  (still fluid)</text>
+</svg>

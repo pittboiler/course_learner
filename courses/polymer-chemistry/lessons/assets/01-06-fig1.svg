@@ -1,0 +1,50 @@
+<svg viewBox="0 0 470 370" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="35" y="22" fill="#8a8a8a" font-style="italic">Copolymer fraction F&#8321; vs feed fraction f&#8321; &#8212; the curve&#8217;s shape is the sequence.</text>
+
+  <!-- axes -->
+  <line x1="70" y1="300" x2="410" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="70" y1="300" x2="70" y2="40" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="410,300 400,295 400,305" fill="#8a8a8a"/>
+  <polygon points="70,40 65,50 75,50" fill="#8a8a8a"/>
+
+  <!-- x ticks -->
+  <line x1="70" y1="300" x2="70" y2="305" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="240" y1="300" x2="240" y2="305" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="410" y1="300" x2="410" y2="305" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="66" y="318" fill="#8a8a8a">0</text>
+  <text x="230" y="318" fill="#8a8a8a">0.5</text>
+  <text x="402" y="318" fill="#8a8a8a">1</text>
+  <text x="228" y="338" fill="#8a8a8a">feed fraction f&#8321;</text>
+
+  <!-- y ticks -->
+  <line x1="65" y1="300" x2="70" y2="300" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="65" y1="170" x2="70" y2="170" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="65" y1="40" x2="70" y2="40" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="52" y="304" fill="#8a8a8a">0</text>
+  <text x="42" y="174" fill="#8a8a8a">0.5</text>
+  <text x="55" y="44" fill="#8a8a8a">1</text>
+  <text x="30" y="120" fill="#8a8a8a" transform="rotate(-90 30 120)">copolymer fraction F&#8321;</text>
+
+  <!-- diagonal reference: ideal, F1 = f1 -->
+  <line x1="70" y1="300" x2="410" y2="40" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="5 4"/>
+
+  <!-- alternating curve r1 = r2 = 0.1, pulled toward 0.5 -->
+  <path d="M 70 300 L 104 209.8 L 138 190.0 L 172 180.9 L 206 174.9 L 240 170 L 274 165.1 L 308 159.1 L 342 150.0 L 376 130.2 L 410 40"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- azeotropic curve r1 = 0.3, r2 = 0.7, crosses diagonal at f1 = 0.3 -->
+  <path d="M 70 300 L 104 267.8 L 138 242.7 L 172 222 L 206 204.1 L 240 187.4 L 274 170.8 L 308 152.6 L 342 130.5 L 376 98.8 L 410 40"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+
+  <!-- azeotrope crossing marker -->
+  <circle cx="172" cy="222" r="4" fill="#e0645c"/>
+  <text x="180" y="240" fill="#e0645c">azeotrope (F&#8321;=f&#8321;)</text>
+
+  <!-- legend -->
+  <line x1="250" y1="62" x2="278" y2="62" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="284" y="66" fill="#8a8a8a">ideal, r&#8321;r&#8322;=1</text>
+  <line x1="250" y1="82" x2="278" y2="82" stroke="#4a90d9" stroke-width="3"/>
+  <text x="284" y="86" fill="#4a90d9">alternating, r&#8321;,r&#8322;&#8594;0</text>
+  <line x1="250" y1="102" x2="278" y2="102" stroke="#e0645c" stroke-width="3"/>
+  <text x="284" y="106" fill="#e0645c">azeotropic case</text>
+</svg>

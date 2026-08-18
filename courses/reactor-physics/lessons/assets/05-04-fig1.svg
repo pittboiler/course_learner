@@ -1,0 +1,39 @@
+<svg viewBox="0 0 640 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Samarium steps up and stays; xenon rises then clears &#8212; the poison that never leaves.</text>
+
+  <!-- time axis -->
+  <line x1="60" y1="270" x2="608" y2="270" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="608,270 598,265 598,275" fill="#8a8a8a"/>
+  <text x="586" y="288" fill="#8a8a8a">time</text>
+  <!-- poison-worth axis -->
+  <line x1="60" y1="270" x2="60" y2="50" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="60,50 55,60 65,60" fill="#8a8a8a"/>
+  <text x="18" y="60" fill="#8a8a8a">poison</text>
+
+  <!-- scram marker -->
+  <line x1="345" y1="270" x2="345" y2="60" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="310" y="52" fill="#8a8a8a">scram (&#966; &#8594; 0)</text>
+
+  <!-- reference lines for the two samarium plateaus -->
+  <line x1="60" y1="175" x2="600" y2="175" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 5"/>
+  <text x="64" y="169" fill="#8a8a8a">S_eq</text>
+  <line x1="345" y1="120" x2="600" y2="120" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 5"/>
+  <text x="566" y="114" fill="#8a8a8a">S_&#8734;</text>
+
+  <!-- xenon contrast curve: equilibrium, post-scram bump, then clears -->
+  <path d="M 200 232 L 345 232 L 360 216 L 378 192 L 398 184 L 420 194 L 450 216 L 490 234 L 540 240 L 588 242"
+        fill="none" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="404" y="178" fill="#e0645c">Xe-135 (clears)</text>
+
+  <!-- samarium curve: startup rise, at-power plateau, post-shutdown step, new plateau -->
+  <path d="M 60 270 L 82 232 L 108 202 L 140 184 L 175 177 L 200 175 L 345 175
+           L 362 152 L 388 133 L 418 123 L 460 120 L 600 120"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="150" y="205" fill="#4a90d9">Sm-149</text>
+
+  <!-- coral bracket: the permanent step -->
+  <line x1="480" y1="175" x2="480" y2="120" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="480,120 476,129 484,129" fill="#e0645c"/>
+  <polygon points="480,175 476,166 484,166" fill="#e0645c"/>
+  <text x="488" y="152" fill="#e0645c">&#916;S (permanent)</text>
+</svg>

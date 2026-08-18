@@ -1,0 +1,64 @@
+<svg viewBox="0 0 620 470" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">The reduction ladder: everything is measured against the SHE at 0 V. The higher couple is the cathode; the lower one is forced to run backward as the anode.</text>
+
+  <!-- ===== vertical E-degree axis ===== -->
+  <line x1="140" y1="48" x2="140" y2="418" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="140,44 135,54 145,54" fill="#8a8a8a"/>
+  <text x="150" y="44" fill="#8a8a8a">more positive E&#176; = stronger oxidant (reduced more easily)</text>
+  <text x="150" y="438" fill="#8a8a8a">more negative E&#176; = stronger reductant</text>
+  <text x="98" y="52" fill="#8a8a8a" text-anchor="end" font-style="italic">E&#176;/V</text>
+
+  <!-- integer scale ticks: y = 230 - 60*E -->
+  <line x1="134" y1="50" x2="140" y2="50" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="128" y="55" fill="#8a8a8a" text-anchor="end">+3</text>
+  <line x1="134" y1="110" x2="140" y2="110" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="128" y="115" fill="#8a8a8a" text-anchor="end">+2</text>
+  <line x1="134" y1="170" x2="140" y2="170" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="128" y="175" fill="#8a8a8a" text-anchor="end">+1</text>
+  <line x1="134" y1="290" x2="140" y2="290" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="128" y="295" fill="#8a8a8a" text-anchor="end">&#8722;1</text>
+  <line x1="134" y1="350" x2="140" y2="350" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="128" y="355" fill="#8a8a8a" text-anchor="end">&#8722;2</text>
+  <line x1="134" y1="410" x2="140" y2="410" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="128" y="415" fill="#8a8a8a" text-anchor="end">&#8722;3</text>
+
+  <!-- ===== couples (blue) ===== -->
+  <!-- F2/F- : E=+2.87 -> y=58 -->
+  <circle cx="140" cy="58" r="4" fill="#4a90d9"/>
+  <line x1="144" y1="58" x2="300" y2="58" stroke="#4a90d9" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="306" y="63" fill="#4a90d9">F&#8322; / F&#8315;&#160;&#160;(+2.87)</text>
+
+  <!-- Au3+/Au : E=+1.50 -> y=140 -->
+  <circle cx="140" cy="140" r="4" fill="#4a90d9"/>
+  <line x1="144" y1="140" x2="300" y2="140" stroke="#4a90d9" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="306" y="145" fill="#4a90d9">Au&#179;&#8314; / Au&#160;&#160;(+1.50)</text>
+
+  <!-- Cu2+/Cu : E=+0.34 -> y=210 -->
+  <circle cx="140" cy="210" r="5" fill="#4a90d9"/>
+  <line x1="144" y1="210" x2="300" y2="210" stroke="#4a90d9" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="306" y="215" fill="#4a90d9">Cu&#178;&#8314; / Cu&#160;&#160;(+0.34)</text>
+
+  <!-- SHE : E=0.000 -> y=230 (coral reference) -->
+  <line x1="60" y1="230" x2="300" y2="230" stroke="#e0645c" stroke-width="1.5"/>
+  <circle cx="140" cy="230" r="5" fill="#e0645c"/>
+  <text x="306" y="235" fill="#e0645c">2H&#8314; / H&#8322;&#160;&#160;SHE&#160;&#8801;&#160;0.000</text>
+
+  <!-- Zn2+/Zn : E=-0.76 -> y=275.6 -->
+  <circle cx="140" cy="276" r="5" fill="#4a90d9"/>
+  <line x1="144" y1="276" x2="300" y2="276" stroke="#4a90d9" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="306" y="281" fill="#4a90d9">Zn&#178;&#8314; / Zn&#160;&#160;(&#8722;0.76)</text>
+
+  <!-- Li+/Li : E=-3.04 -> y=412 -->
+  <circle cx="140" cy="412" r="4" fill="#4a90d9"/>
+  <line x1="144" y1="412" x2="300" y2="412" stroke="#4a90d9" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="306" y="417" fill="#4a90d9">Li&#8314; / Li&#160;&#160;(&#8722;3.04)</text>
+
+  <!-- ===== cathode/anode pick for the Zn|Cu cell (coral) ===== -->
+  <line x1="520" y1="210" x2="520" y2="276" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="520,276 515,266 525,266" fill="#e0645c"/>
+  <text x="500" y="200" fill="#e0645c" text-anchor="middle">Cu: cathode</text>
+  <text x="540" y="245" fill="#e0645c">higher couple</text>
+  <text x="540" y="261" fill="#e0645c">drives the lower</text>
+  <text x="500" y="296" fill="#e0645c" text-anchor="middle">Zn: anode</text>
+</svg>

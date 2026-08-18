@@ -1,0 +1,52 @@
+<svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="60" y="22" fill="#8a8a8a" font-style="italic">V(x) = (2x &#8722; 1) ln[x/(1&#8722;x)]: cheap to unmix a 50/50 stream, brutally dear near pure.</text>
+
+  <!-- y axis -->
+  <line x1="70" y1="60" x2="70" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,54 65,64 75,64" fill="#8a8a8a"/>
+  <text x="24" y="66" fill="#8a8a8a">V(x)</text>
+  <!-- x axis -->
+  <line x1="70" y1="250" x2="575" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="575,250 565,245 565,255" fill="#8a8a8a"/>
+  <text x="470" y="278" fill="#8a8a8a">assay x (U-235 fraction)</text>
+
+  <!-- x ticks -->
+  <line x1="70" y1="250" x2="70" y2="255" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="66" y="268" fill="#8a8a8a">0</text>
+  <line x1="315" y1="250" x2="315" y2="255" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="305" y="268" fill="#8a8a8a">0.5</text>
+  <line x1="560" y1="250" x2="560" y2="255" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="556" y="268" fill="#8a8a8a">1</text>
+
+  <!-- the value-function curve -->
+  <path d="M 70.5 62.9 L 71.2 88.3 L 72.5 107.8 L 74.9 127.8 L 79.8 148.6 L 94.5 178.1 L 119.0 202.3 L 168.0 227.4 L 217.0 240.8 L 266.0 247.8 L 315.0 250.0 L 364.0 247.8 L 413.0 240.8 L 462.0 227.4 L 511.0 202.3 L 535.5 178.1 L 550.2 148.6 L 555.1 127.8 L 557.6 107.8 L 559.5 62.9"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <!-- divergence arrows / labels -->
+  <text x="78" y="58" fill="#4a90d9">V &#8594; &#8734;</text>
+  <text x="512" y="58" fill="#4a90d9">V &#8594; &#8734;</text>
+
+  <!-- minimum marker -->
+  <circle cx="315" cy="250" r="3.5" fill="#8a8a8a"/>
+  <text x="300" y="240" fill="#8a8a8a">V = 0 at 50/50</text>
+  <text x="286" y="226" fill="#8a8a8a">(nothing to unmix)</text>
+
+  <!-- operating points on the steep left wall -->
+  <circle cx="71.2" cy="88.3" r="4" fill="#e0645c"/>
+  <circle cx="73.5" cy="117.8" r="4" fill="#e0645c"/>
+  <circle cx="92.1" cy="174.5" r="4" fill="#e0645c"/>
+
+  <!-- leader lines -->
+  <line x1="76" y1="88.3" x2="176" y2="86" stroke="#e0645c" stroke-width="1"/>
+  <line x1="78" y1="117.8" x2="176" y2="117" stroke="#e0645c" stroke-width="1"/>
+  <line x1="97" y1="174.5" x2="196" y2="174" stroke="#e0645c" stroke-width="1"/>
+
+  <!-- point labels -->
+  <text x="180" y="90" fill="#e0645c">tails  0.25%   &#8594;  V = 5.96</text>
+  <text x="180" y="121" fill="#e0645c">feed  0.711%  &#8594;  V = 4.87</text>
+  <text x="200" y="178" fill="#e0645c">product  4.5%  &#8594;  V = 2.78</text>
+
+  <!-- note about the wall -->
+  <text x="200" y="210" fill="#8a8a8a">every real enrichment stream lives on this</text>
+  <text x="200" y="226" fill="#8a8a8a">near-vertical left wall &#8212; that is the cost.</text>
+</svg>

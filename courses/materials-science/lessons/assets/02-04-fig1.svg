@@ -1,0 +1,47 @@
+<svg viewBox="0 0 620 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Steady state: the profile C(x) holds a straight line, and atoms flux down it from C&#8321; to C&#8322;.</text>
+
+  <!-- plate / membrane region -->
+  <rect x="150" y="70" width="280" height="200" fill="#4a90d9" opacity="0.08" stroke="#4a90d9" stroke-width="1.5"/>
+
+  <!-- concentration axis (vertical) -->
+  <line x1="100" y1="285" x2="100" y2="60" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="100,60 95,70 105,70" fill="#8a8a8a"/>
+  <text x="86" y="70" fill="#8a8a8a">C</text>
+
+  <!-- position axis (horizontal) -->
+  <line x1="100" y1="270" x2="480" y2="270" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="480,270 470,265 470,275" fill="#8a8a8a"/>
+  <text x="484" y="275" fill="#8a8a8a">x</text>
+
+  <!-- linear concentration profile from C1 (high, left face) to C2 (low, right face) -->
+  <line x1="150" y1="105" x2="430" y2="195" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- C1 guide -->
+  <line x1="100" y1="105" x2="150" y2="105" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <circle cx="150" cy="105" r="3.5" fill="#4a90d9"/>
+  <text x="70" y="110" fill="#8a8a8a">C&#8321;</text>
+
+  <!-- C2 guide -->
+  <line x1="100" y1="195" x2="430" y2="195" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <circle cx="430" cy="195" r="3.5" fill="#4a90d9"/>
+  <text x="70" y="200" fill="#8a8a8a">C&#8322;</text>
+
+  <!-- face labels -->
+  <text x="122" y="52" fill="#8a8a8a">hot face</text>
+  <text x="388" y="52" fill="#8a8a8a">cold face</text>
+
+  <!-- flux arrow: down the gradient, +x -->
+  <line x1="200" y1="235" x2="370" y2="235" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="370,235 359,229 359,241" fill="#e0645c"/>
+  <text x="278" y="228" fill="#e0645c">J</text>
+
+  <!-- thickness marker -->
+  <line x1="150" y1="270" x2="150" y2="292" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="430" y1="270" x2="430" y2="292" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="150" y1="288" x2="430" y2="288" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="150,288 159,284 159,292" fill="#8a8a8a"/>
+  <polygon points="430,288 421,284 421,292" fill="#8a8a8a"/>
+  <text x="278" y="306" fill="#8a8a8a">thickness &#916;x</text>
+</svg>

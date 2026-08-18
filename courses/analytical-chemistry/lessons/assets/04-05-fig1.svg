@@ -1,0 +1,51 @@
+<svg viewBox="0 0 640 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="34" y="24" fill="#8a8a8a" font-style="italic">A defensible number: total variance is mostly sampling (left) and the method must pass every figure of merit (right).</text>
+
+  <!-- ===== left: stacked variance bar ===== -->
+  <!-- y-axis -->
+  <line x1="60" y1="278" x2="60" y2="70" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="60,70 55,80 65,80" fill="#8a8a8a"/>
+  <text x="30" y="66" fill="#8a8a8a">s&#178;</text>
+  <!-- baseline -->
+  <line x1="60" y1="278" x2="200" y2="278" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- analysis segment (small, blue, bottom) -->
+  <rect x="80" y="258" width="76" height="20" fill="#4a90d9" opacity="0.9" stroke="#4a90d9" stroke-width="1.5"/>
+  <!-- sampling segment (large, coral, top) -->
+  <rect x="80" y="90" width="76" height="168" fill="#e0645c" opacity="0.85" stroke="#e0645c" stroke-width="1.5"/>
+
+  <!-- segment labels -->
+  <text x="118" y="180" fill="#8a8a8a" text-anchor="middle" font-weight="bold">sampling</text>
+  <text x="118" y="198" fill="#8a8a8a" text-anchor="middle">s&#178;&#8202;samp</text>
+  <text x="164" y="272" fill="#4a90d9">analysis</text>
+
+  <!-- equation under bar -->
+  <text x="60" y="308" fill="#8a8a8a">s&#178;&#8202;total = s&#178;&#8202;samp + s&#178;&#8202;anal</text>
+
+  <!-- ===== right: validation dashboard tiles ===== -->
+  <text x="410" y="66" fill="#8a8a8a" text-anchor="middle" font-style="italic">figures of merit</text>
+
+  <!-- tile 1: recovery -->
+  <rect x="316" y="80" width="130" height="76" rx="6" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="381" y="118" fill="#e0645c" text-anchor="middle" font-size="26" font-weight="bold">98%</text>
+  <text x="381" y="142" fill="#8a8a8a" text-anchor="middle" font-size="12">Recovery &#183; accuracy</text>
+
+  <!-- tile 2: precision -->
+  <rect x="462" y="80" width="130" height="76" rx="6" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="527" y="118" fill="#4a90d9" text-anchor="middle" font-size="26" font-weight="bold">1.8%</text>
+  <text x="527" y="142" fill="#8a8a8a" text-anchor="middle" font-size="12">RSD &#183; precision</text>
+
+  <!-- tile 3: linearity -->
+  <rect x="316" y="170" width="130" height="76" rx="6" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="381" y="208" fill="#4a90d9" text-anchor="middle" font-size="26" font-weight="bold">0.999</text>
+  <text x="381" y="232" fill="#8a8a8a" text-anchor="middle" font-size="12">R&#178; &#183; linearity</text>
+
+  <!-- tile 4: LOD -->
+  <rect x="462" y="170" width="130" height="76" rx="6" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="527" y="208" fill="#e0645c" text-anchor="middle" font-size="26" font-weight="bold">0.08</text>
+  <text x="527" y="232" fill="#8a8a8a" text-anchor="middle" font-size="12">LOD &#183; ppm (3s/m)</text>
+
+  <!-- footer note -->
+  <text x="454" y="272" fill="#8a8a8a" text-anchor="middle" font-size="12">+ selectivity &#183; robustness &#183; range</text>
+</svg>

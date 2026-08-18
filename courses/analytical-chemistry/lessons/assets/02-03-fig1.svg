@@ -1,0 +1,33 @@
+<svg viewBox="0 0 620 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="60" y="24" fill="#8a8a8a" font-style="italic">Common-ion effect: adding a shared ion drives the equilibrium back to solid, so molar solubility collapses.</text>
+
+  <!-- y-axis -->
+  <line x1="70" y1="256" x2="70" y2="52" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,52 65,62 75,62" fill="#8a8a8a"/>
+  <text x="34" y="150" fill="#8a8a8a" transform="rotate(-90 34 150)">molar solubility s (log)</text>
+
+  <!-- x-axis -->
+  <line x1="70" y1="256" x2="585" y2="256" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="585,256 575,251 575,261" fill="#8a8a8a"/>
+  <text x="360" y="292" fill="#8a8a8a">[common ion] added &#8594;</text>
+
+  <!-- s0 reference line (solubility in pure water) -->
+  <line x1="70" y1="90" x2="560" y2="90" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="78" y="84" fill="#8a8a8a">s&#8320; (pure water)</text>
+
+  <!-- solubility curve s = Ksp/[X]^2 : steep drop then flatten -->
+  <path d="M 70 95 L 110 112 L 150 138 L 190 168 L 230 193 L 270 213 L 310 227 L 350 237 L 390 243 L 430 247 L 470 249 L 510 250 L 560 251"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="150" y="128" fill="#4a90d9">s = K&#8347;&#8346; / [X]&#8319;</text>
+
+  <!-- suppression highlight at a chosen common-ion concentration -->
+  <line x1="230" y1="256" x2="230" y2="90" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="230" y1="95" x2="230" y2="188" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="230,193 225,183 235,183" fill="#e0645c"/>
+  <text x="238" y="150" fill="#e0645c">solubility</text>
+  <text x="238" y="168" fill="#e0645c">suppressed</text>
+
+  <!-- little solid-salt marker on the axis -->
+  <text x="470" y="245" fill="#8a8a8a">salt stays undissolved</text>
+</svg>

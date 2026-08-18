@@ -1,0 +1,78 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <!-- caption -->
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">LCOE breakdown: capital dominates. A higher discount rate inflates the capital bar; fuel barely matters.</text>
+
+  <!-- y axis -->
+  <line x1="120" y1="330" x2="120" y2="42" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="120,42 115,52 125,52" fill="#8a8a8a"/>
+  <text x="44" y="46" fill="#8a8a8a">USD/MWh</text>
+
+  <!-- x axis / baseline -->
+  <line x1="120" y1="330" x2="470" y2="330" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- gridlines + tick labels: 0,20,40,60,80,100,120 -->
+  <line x1="120" y1="330" x2="465" y2="330" stroke="#8a8a8a" stroke-width="0.5" stroke-dasharray="2 5"/>
+  <text x="100" y="334" fill="#8a8a8a" text-anchor="end">0</text>
+  <line x1="120" y1="282" x2="465" y2="282" stroke="#8a8a8a" stroke-width="0.5" stroke-dasharray="2 5"/>
+  <text x="100" y="286" fill="#8a8a8a" text-anchor="end">20</text>
+  <line x1="120" y1="234" x2="465" y2="234" stroke="#8a8a8a" stroke-width="0.5" stroke-dasharray="2 5"/>
+  <text x="100" y="238" fill="#8a8a8a" text-anchor="end">40</text>
+  <line x1="120" y1="186" x2="465" y2="186" stroke="#8a8a8a" stroke-width="0.5" stroke-dasharray="2 5"/>
+  <text x="100" y="190" fill="#8a8a8a" text-anchor="end">60</text>
+  <line x1="120" y1="138" x2="465" y2="138" stroke="#8a8a8a" stroke-width="0.5" stroke-dasharray="2 5"/>
+  <text x="100" y="142" fill="#8a8a8a" text-anchor="end">80</text>
+  <line x1="120" y1="90" x2="465" y2="90" stroke="#8a8a8a" stroke-width="0.5" stroke-dasharray="2 5"/>
+  <text x="100" y="94" fill="#8a8a8a" text-anchor="end">100</text>
+  <line x1="120" y1="42" x2="465" y2="42" stroke="#8a8a8a" stroke-width="0.5" stroke-dasharray="2 5"/>
+  <text x="100" y="46" fill="#8a8a8a" text-anchor="end">120</text>
+
+  <!-- ===== Bar A: baseline (FCR 0.10), total 98 ===== -->
+  <!-- capital 76 -->
+  <rect x="180" y="147.4" width="80" height="182.6" fill="#e0645c" opacity="0.85"/>
+  <!-- O&M 15 -->
+  <rect x="180" y="111.4" width="80" height="36" fill="#4a90d9" opacity="0.85"/>
+  <!-- fuel 7 -->
+  <rect x="180" y="94.6" width="80" height="16.8" fill="#8a8a8a" opacity="0.85"/>
+  <!-- segment value labels (to the right of bar A) -->
+  <text x="266" y="243" fill="#e0645c">76 capital</text>
+  <text x="266" y="133" fill="#4a90d9">15 O&#38;M</text>
+  <text x="266" y="99" fill="#8a8a8a">7 fuel</text>
+  <!-- total label -->
+  <text x="220" y="86" fill="#8a8a8a" text-anchor="middle">98</text>
+  <text x="220" y="352" fill="#8a8a8a" text-anchor="middle">Baseline</text>
+  <text x="220" y="368" fill="#8a8a8a" text-anchor="middle">FCR 0.10</text>
+
+  <!-- ===== Bar B: discount rate +2 pts (FCR 0.12), total 113 ===== -->
+  <!-- capital 91 -->
+  <rect x="360" y="110.9" width="80" height="219.1" fill="#e0645c" opacity="0.85"/>
+  <!-- O&M 15 -->
+  <rect x="360" y="74.9" width="80" height="36" fill="#4a90d9" opacity="0.85"/>
+  <!-- fuel 7 -->
+  <rect x="360" y="58.1" width="80" height="16.8" fill="#8a8a8a" opacity="0.85"/>
+  <text x="400" y="225" fill="#e0645c" text-anchor="middle">91</text>
+  <text x="400" y="50" fill="#8a8a8a" text-anchor="middle">113</text>
+  <text x="400" y="352" fill="#8a8a8a" text-anchor="middle">Discount rate</text>
+  <text x="400" y="368" fill="#8a8a8a" text-anchor="middle">+2 pts (FCR 0.12)</text>
+
+  <!-- reference guide: baseline capital top carried across -->
+  <line x1="260" y1="147.4" x2="360" y2="147.4" stroke="#e0645c" stroke-width="1" stroke-dasharray="4 4"/>
+  <!-- capital-growth arrow: +15 -->
+  <line x1="320" y1="147.4" x2="320" y2="110.9" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="320,110.9 316,120 324,120" fill="#e0645c"/>
+  <polygon points="320,147.4 316,138 324,138" fill="#e0645c"/>
+  <text x="326" y="132" fill="#e0645c">+15</text>
+
+  <!-- legend -->
+  <rect x="500" y="60" width="14" height="14" fill="#e0645c" opacity="0.85"/>
+  <text x="520" y="72" fill="#8a8a8a">Capital</text>
+  <rect x="500" y="84" width="14" height="14" fill="#4a90d9" opacity="0.85"/>
+  <text x="520" y="96" fill="#8a8a8a">O&#38;M</text>
+  <rect x="500" y="108" width="14" height="14" fill="#8a8a8a" opacity="0.85"/>
+  <text x="520" y="120" fill="#8a8a8a">Fuel</text>
+
+  <!-- fuel sensitivity note -->
+  <text x="500" y="156" fill="#8a8a8a">Halve fuel:</text>
+  <text x="500" y="172" fill="#8a8a8a">only &#8722;3.5,</text>
+  <text x="500" y="188" fill="#8a8a8a">barely moves</text>
+  <text x="500" y="204" fill="#8a8a8a">the total.</text>
+</svg>

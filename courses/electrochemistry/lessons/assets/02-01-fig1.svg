@@ -1,0 +1,81 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">A charged electrode dresses itself in counter-ions: a rigid compact layer, then a diffuse cloud &#8212; and the potential drops across both.</text>
+
+  <!-- ===== TOP PANEL: the physical double layer ===== -->
+
+  <!-- electrode slab (negatively charged metal) -->
+  <rect x="55" y="48" width="34" height="150" fill="#8a8a8a" opacity="0.25" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="55" y="216" fill="#8a8a8a">electrode</text>
+  <text x="60" y="230" fill="#8a8a8a">(metal)</text>
+  <text x="70" y="70" fill="#8a8a8a" font-size="15">&#8722;</text>
+  <text x="70" y="100" fill="#8a8a8a" font-size="15">&#8722;</text>
+  <text x="70" y="130" fill="#8a8a8a" font-size="15">&#8722;</text>
+  <text x="70" y="160" fill="#8a8a8a" font-size="15">&#8722;</text>
+  <text x="70" y="190" fill="#8a8a8a" font-size="15">&#8722;</text>
+
+  <!-- OHP / Helmholtz plane (dashed) -->
+  <line x1="150" y1="46" x2="150" y2="252" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="118" y="42" fill="#8a8a8a" font-size="12">OHP</text>
+
+  <!-- compact (Helmholtz) layer: rigid sheet of cations -->
+  <g fill="#e0645c">
+    <circle cx="128" cy="66" r="9"/>
+    <circle cx="128" cy="98" r="9"/>
+    <circle cx="128" cy="130" r="9"/>
+    <circle cx="128" cy="162" r="9"/>
+    <circle cx="128" cy="194" r="9"/>
+  </g>
+  <g fill="#8a8a8a" font-size="12">
+    <text x="124" y="70">+</text>
+    <text x="124" y="102">+</text>
+    <text x="124" y="134">+</text>
+    <text x="124" y="166">+</text>
+    <text x="124" y="198">+</text>
+  </g>
+
+  <!-- diffuse (Gouy-Chapman) cloud: thinning cations, a few anions -->
+  <g fill="#e0645c">
+    <circle cx="178" cy="72" r="8"/>
+    <circle cx="178" cy="128" r="8"/>
+    <circle cx="178" cy="184" r="8"/>
+    <circle cx="222" cy="98" r="8"/>
+    <circle cx="222" cy="160" r="8"/>
+    <circle cx="272" cy="118" r="8"/>
+    <circle cx="322" cy="150" r="8"/>
+  </g>
+  <g fill="#8a8a8a" opacity="0.6">
+    <circle cx="204" cy="150" r="7"/>
+    <circle cx="258" cy="80" r="7"/>
+    <circle cx="300" cy="188" r="7"/>
+    <circle cx="356" cy="110" r="7"/>
+  </g>
+  <text x="360" y="130" fill="#8a8a8a">&#183;&#183;&#183; bulk solution</text>
+
+  <!-- layer brackets -->
+  <line x1="89" y1="244" x2="150" y2="244" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="92" y="262" fill="#e0645c" font-size="12">Helmholtz</text>
+  <line x1="150" y1="244" x2="360" y2="244" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="210" y="262" fill="#4a90d9" font-size="12">Gouy&#8211;Chapman (diffuse)</text>
+
+  <!-- ===== BOTTOM PANEL: potential profile ===== -->
+
+  <!-- distance axis -->
+  <line x1="89" y1="325" x2="470" y2="325" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="470,325 460,320 460,330" fill="#8a8a8a"/>
+  <text x="440" y="318" fill="#8a8a8a" font-size="12">distance x</text>
+  <!-- potential axis -->
+  <line x1="89" y1="325" x2="89" y2="278" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="89,278 84,288 94,288" fill="#8a8a8a"/>
+  <text x="52" y="284" fill="#8a8a8a" font-size="12">&#966;</text>
+
+  <!-- the potential: linear across compact layer, exponential decay across diffuse -->
+  <path d="M 89 290 L 150 305 C 178 313, 200 319, 222 322 C 260 324, 320 325, 400 325"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="60" y="294" fill="#4a90d9" font-size="12">&#966;&#8320;</text>
+
+  <!-- OHP guide down to axis, and phi_2 marker -->
+  <line x1="150" y1="305" x2="150" y2="325" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <circle cx="150" cy="305" r="3" fill="#e0645c"/>
+  <text x="154" y="302" fill="#e0645c" font-size="12">&#966;&#8322;</text>
+  <text x="360" y="320" fill="#8a8a8a" font-size="12">&#966; &#8594; 0 (bulk)</text>
+</svg>

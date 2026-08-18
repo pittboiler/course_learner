@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="720" height="300" fill="#ffffff"/>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-end">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1a1a1a"/>
+    </marker>
+  </defs>
+
+  <text x="24" y="26" font-size="15" fill="#1a1a1a">Each point sends an arrow to its image. A bijection makes every arrow-chain close into a cycle.</text>
+
+  <!-- cycle (1 3) -->
+  <path d="M100,108 Q125,80 150,108" fill="none" stroke="#1a1a1a" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M150,132 Q125,160 100,132" fill="none" stroke="#1a1a1a" stroke-width="2" marker-end="url(#arrow)"/>
+  <circle cx="80"  cy="120" r="22" fill="#ffe1e1" stroke="#1a1a1a" stroke-width="2"/>
+  <circle cx="170" cy="120" r="22" fill="#ffe1e1" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="80"  y="126" font-size="18" text-anchor="middle" fill="#1a1a1a">1</text>
+  <text x="170" y="126" font-size="18" text-anchor="middle" fill="#1a1a1a">3</text>
+  <text x="125" y="188" font-size="15" text-anchor="middle" fill="#1a1a1a">(1 3)</text>
+
+  <!-- cycle (2 5 8) -->
+  <path d="M342,89 L368,131"  fill="none" stroke="#1a1a1a" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M358,150 L302,150" fill="none" stroke="#1a1a1a" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M292,131 L318,89"  fill="none" stroke="#1a1a1a" stroke-width="2" marker-end="url(#arrow)"/>
+  <circle cx="330" cy="70"  r="22" fill="#e2edff" stroke="#1a1a1a" stroke-width="2"/>
+  <circle cx="380" cy="150" r="22" fill="#e2edff" stroke="#1a1a1a" stroke-width="2"/>
+  <circle cx="280" cy="150" r="22" fill="#e2edff" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="330" y="76"  font-size="18" text-anchor="middle" fill="#1a1a1a">2</text>
+  <text x="380" y="156" font-size="18" text-anchor="middle" fill="#1a1a1a">5</text>
+  <text x="280" y="156" font-size="18" text-anchor="middle" fill="#1a1a1a">8</text>
+  <text x="330" y="188" font-size="15" text-anchor="middle" fill="#1a1a1a">(2 5 8)</text>
+
+  <!-- cycle (6 7) -->
+  <path d="M520,108 Q545,80 570,108" fill="none" stroke="#1a1a1a" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M570,132 Q545,160 520,132" fill="none" stroke="#1a1a1a" stroke-width="2" marker-end="url(#arrow)"/>
+  <circle cx="500" cy="120" r="22" fill="#e1f5e3" stroke="#1a1a1a" stroke-width="2"/>
+  <circle cx="590" cy="120" r="22" fill="#e1f5e3" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="500" y="126" font-size="18" text-anchor="middle" fill="#1a1a1a">6</text>
+  <text x="590" y="126" font-size="18" text-anchor="middle" fill="#1a1a1a">7</text>
+  <text x="545" y="188" font-size="15" text-anchor="middle" fill="#1a1a1a">(6 7)</text>
+
+  <!-- fixed point (4) -->
+  <path d="M660,102 C648,64 692,64 680,102" fill="none" stroke="#1a1a1a" stroke-width="2" marker-end="url(#arrow)"/>
+  <circle cx="670" cy="120" r="22" fill="#fff0cf" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="670" y="126" font-size="18" text-anchor="middle" fill="#1a1a1a">4</text>
+  <text x="670" y="188" font-size="15" text-anchor="middle" fill="#1a1a1a">(4)</text>
+
+  <!-- captions -->
+  <text x="24" y="240" font-size="16" fill="#1a1a1a">One-line:  &#963; = 3 5 1 4 8 7 6 2</text>
+  <text x="24" y="268" font-size="16" fill="#1a1a1a">Disjoint cycles:  &#963; = (1 3)(2 5 8)(6 7)(4)   &#8212;   cycle type 3+2+2+1,  four cycles</text>
+</svg>

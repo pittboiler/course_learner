@@ -1,0 +1,44 @@
+<svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <!-- caption -->
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">A fast neutron scatters until slow, is captured, and the charged fragment it releases is what the detector sees.</text>
+
+  <!-- ===== incoming neutron arrow ===== -->
+  <line x1="18" y1="62" x2="40" y2="80" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="40,80 30,76 33,68" fill="#4a90d9"/>
+  <text x="14" y="55" fill="#4a90d9">fast neutron (~MeV)</text>
+
+  <!-- ===== zigzag: elastic scattering, amplitude shrinks as energy drops ===== -->
+  <path d="M 40 80 L 108 150 L 175 95 L 242 150 L 305 108 L 358 140 L 408 118 L 452 122"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <!-- moderator nuclei at each bounce -->
+  <circle cx="108" cy="150" r="7" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <circle cx="175" cy="95" r="7" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <circle cx="242" cy="150" r="7" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <circle cx="305" cy="108" r="7" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <circle cx="358" cy="140" r="7" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <circle cx="408" cy="118" r="7" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <text x="150" y="185" fill="#8a8a8a" font-style="italic">each elastic bounce steals energy &#8594; thermal</text>
+
+  <!-- ===== capture nucleus ===== -->
+  <circle cx="470" cy="120" r="15" fill="#4a90d9" opacity="0.18" stroke="#4a90d9" stroke-width="2"/>
+  <text x="458" y="124" fill="#4a90d9" font-size="12">B-10</text>
+  <text x="392" y="98" fill="#8a8a8a">n + B-10 &#8594; &#945; + Li-7</text>
+
+  <!-- ===== Li-7 recoil ===== -->
+  <line x1="470" y1="120" x2="432" y2="90" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="432,90 442,93 440,84" fill="#e0645c"/>
+  <text x="410" y="82" fill="#e0645c">Li-7</text>
+
+  <!-- ===== alpha track: dense ionization, growing toward the end (Bragg-like) ===== -->
+  <line x1="470" y1="120" x2="585" y2="205" stroke="#e0645c" stroke-width="3.5"/>
+  <polygon points="585,205 573,203 578,194" fill="#e0645c"/>
+  <!-- ion-pair ticks -->
+  <line x1="507.5" y1="141.5" x2="501.5" y2="149.5" stroke="#e0645c" stroke-width="1.5"/>
+  <line x1="525.3" y1="153.4" x2="518.2" y2="163.1" stroke="#e0645c" stroke-width="1.5"/>
+  <line x1="543.5" y1="165" x2="534.5" y2="177" stroke="#e0645c" stroke-width="1.5"/>
+  <line x1="558.2" y1="174" x2="547.5" y2="188.4" stroke="#e0645c" stroke-width="1.5"/>
+  <line x1="572.8" y1="183" x2="560.4" y2="199.8" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="500" y="230" fill="#e0645c">&#945; ionizes densely &#8594; detectable pulse</text>
+</svg>

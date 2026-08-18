@@ -1,0 +1,39 @@
+<svg viewBox="0 0 620 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Steady-state amplitude A(Ω) vs drive frequency Ω. High Q gives a tall, narrow spike; the peak sits just below ω₀.</text>
+
+  <!-- axes -->
+  <line x1="90" y1="250" x2="578" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="578,250 568,245 568,255" fill="#8a8a8a"/>
+  <text x="560" y="270" fill="#8a8a8a">Ω (drive freq)</text>
+  <line x1="90" y1="250" x2="90" y2="45" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="90,45 85,55 95,55" fill="#8a8a8a"/>
+  <text x="60" y="52" fill="#8a8a8a">A</text>
+  <text x="74" y="255" fill="#8a8a8a">0</text>
+
+  <!-- dashed vertical at natural frequency ω₀ -->
+  <line x1="325" y1="250" x2="325" y2="52" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="316" y="268" fill="#8a8a8a">ω₀</text>
+
+  <!-- low-Q (broad) curve -->
+  <path d="M 90.0 202.0 L 105.7 201.9 L 121.3 201.4 L 137.0 200.7 L 152.7 199.7 L 168.3 198.5 L 184.0 196.9 L 199.7 195.1 L 215.3 193.0 L 231.0 190.9 L 246.7 188.9 L 262.3 187.4 L 278.0 186.6 L 293.7 187.2 L 309.3 189.1 L 325.0 192.4 L 340.7 196.6 L 356.3 201.3 L 372.0 206.1 L 387.7 210.5 L 403.3 214.6 L 419.0 218.2 L 434.7 221.4 L 450.3 224.2 L 466.0 226.6 L 481.7 228.7 L 497.3 230.6 L 513.0 232.2 L 528.7 233.6 L 544.3 234.9 L 560.0 236.0"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <!-- high-Q (sharp) curve -->
+  <path d="M 90.0 202.0 L 105.7 201.8 L 121.3 201.2 L 137.0 200.1 L 152.7 198.5 L 168.3 196.2 L 184.0 193.3 L 199.7 189.3 L 215.3 184.1 L 231.0 177.0 L 241.4 170.9 L 251.9 163.2 L 262.3 153.5 L 272.8 141.0 L 283.2 124.9 L 293.7 104.5 L 304.1 81.1 L 314.6 61.2 L 319.8 56.7 L 321.3 56.5 L 325.0 58.0 L 330.2 65.0 L 335.4 76.4 L 340.7 90.1 L 351.1 118.0 L 361.6 141.5 L 372.0 159.9 L 382.4 173.9 L 392.9 184.7 L 408.6 196.9 L 424.2 205.7 L 439.9 212.3 L 455.6 217.4 L 471.2 221.4 L 486.9 224.7 L 502.6 227.4 L 518.2 229.7 L 533.9 231.6 L 549.6 233.3 L 560.0 234.2"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+
+  <!-- peak marker (just below ω₀) -->
+  <circle cx="321.3" cy="56.5" r="3.5" fill="#e0645c"/>
+  <line x1="321.3" y1="56.5" x2="321.3" y2="250" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="330" y="49" fill="#e0645c">peak at Ω_r = √(ω₀² − 2β²)</text>
+
+  <!-- FWHM width bracket on the sharp curve (half-height ~ y=153) -->
+  <text x="356" y="118" fill="#e0645c">Δω ≈ 2β</text>
+
+  <!-- legend -->
+  <line x1="430" y1="150" x2="454" y2="150" stroke="#e0645c" stroke-width="3"/>
+  <text x="460" y="155" fill="#e0645c">high Q (sharp)</text>
+  <line x1="430" y1="172" x2="454" y2="172" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="460" y="177" fill="#4a90d9">low Q (broad)</text>
+</svg>

@@ -1,0 +1,35 @@
+<svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Where the &#8776;200 MeV goes: the fragments&#8217; recoil is almost the whole story.</text>
+
+  <!-- baseline axis -->
+  <line x1="158" y1="46" x2="158" y2="244" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- Row 1: fragment KE (dominant, coral) -->
+  <text x="150" y="70" fill="#8a8a8a" text-anchor="end">fragment KE</text>
+  <rect x="158" y="54" width="396" height="24" fill="#e0645c" opacity="0.85"/>
+  <text x="560" y="70" fill="#e0645c">165 MeV</text>
+
+  <!-- Row 2: delayed beta/gamma -->
+  <text x="150" y="110" fill="#8a8a8a" text-anchor="end">delayed &#946;/&#947;</text>
+  <rect x="158" y="94" width="31" height="24" fill="#4a90d9" opacity="0.85"/>
+  <text x="195" y="110" fill="#4a90d9">13</text>
+
+  <!-- Row 3: neutrinos (escape, grey) -->
+  <text x="150" y="150" fill="#8a8a8a" text-anchor="end">neutrinos</text>
+  <rect x="158" y="134" width="24" height="24" fill="#8a8a8a" opacity="0.55"/>
+  <text x="188" y="150" fill="#8a8a8a">10 (escapes)</text>
+
+  <!-- Row 4: prompt gamma -->
+  <text x="150" y="190" fill="#8a8a8a" text-anchor="end">prompt &#947;</text>
+  <rect x="158" y="174" width="17" height="24" fill="#4a90d9" opacity="0.85"/>
+  <text x="181" y="190" fill="#4a90d9">7</text>
+
+  <!-- Row 5: prompt neutrons -->
+  <text x="150" y="230" fill="#8a8a8a" text-anchor="end">prompt neutrons</text>
+  <rect x="158" y="214" width="12" height="24" fill="#4a90d9" opacity="0.85"/>
+  <text x="176" y="230" fill="#4a90d9">5 MeV</text>
+
+  <!-- footnote -->
+  <text x="158" y="272" fill="#8a8a8a" font-size="12">Neutrinos leave the reactor &#8594; &#8776;190 MeV stays as heat; capture &#947; make up the rest to &#8776;200.</text>
+</svg>

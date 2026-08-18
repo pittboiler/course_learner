@@ -1,0 +1,80 @@
+<svg viewBox="0 0 640 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <defs>
+    <marker id="ahCoral" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto">
+      <polygon points="0,0 9,4 0,8" fill="#e0645c"/>
+    </marker>
+    <marker id="ahBlue" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto">
+      <polygon points="0,0 9,4 0,8" fill="#4a90d9"/>
+    </marker>
+    <marker id="ahGrey" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto">
+      <polygon points="0,0 9,4 0,8" fill="#8a8a8a"/>
+    </marker>
+  </defs>
+
+  <!-- caption -->
+  <text x="24" y="22" fill="#8a8a8a" font-style="italic">Moment = twist about O. Two routes: M = F&#183;d (lever arm) and M_O = r &#215; F (cross product).</text>
+
+  <!-- ================= LEFT: wrench / lever-arm view ================= -->
+
+  <!-- anchored base under the pivot -->
+  <line x1="96" y1="258" x2="164" y2="258" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="100" y1="258" x2="92" y2="268" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="114" y1="258" x2="106" y2="268" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="128" y1="258" x2="120" y2="268" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="142" y1="258" x2="134" y2="268" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="156" y1="258" x2="148" y2="268" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- lever / wrench handle (grey underlay) -->
+  <line x1="130" y1="235" x2="300" y2="120" stroke="#8a8a8a" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- pivot O -->
+  <circle cx="130" cy="235" r="5.5" fill="#8a8a8a"/>
+  <text x="108" y="250" fill="#8a8a8a">O</text>
+
+  <!-- position vector r (blue, along the handle) -->
+  <line x1="130" y1="235" x2="298" y2="121" stroke="#4a90d9" stroke-width="2.5" marker-end="url(#ahBlue)"/>
+  <text x="196" y="196" fill="#4a90d9" font-style="italic">r</text>
+
+  <!-- line of action (dashed) -->
+  <line x1="187" y1="291" x2="377" y2="3" stroke="#e0645c" stroke-width="1" stroke-dasharray="4 4" opacity="0.7"/>
+
+  <!-- applied force F (coral) at A -->
+  <line x1="300" y1="120" x2="358" y2="32" stroke="#e0645c" stroke-width="3" marker-end="url(#ahCoral)"/>
+  <text x="362" y="34" fill="#e0645c" font-style="italic">F</text>
+
+  <!-- point of application A -->
+  <circle cx="300" cy="120" r="3.5" fill="#4a90d9"/>
+  <text x="306" y="114" fill="#8a8a8a">A</text>
+
+  <!-- perpendicular lever arm d (O to line of action) -->
+  <line x1="130" y1="235" x2="196" y2="278" stroke="#e0645c" stroke-width="2" stroke-dasharray="5 3"/>
+  <text x="146" y="272" fill="#e0645c" font-style="italic">d</text>
+  <!-- right-angle marker at the foot -->
+  <polyline points="201,271 194,266 189,273" fill="none" stroke="#e0645c" stroke-width="1"/>
+
+  <!-- angle between r and F at A -->
+  <path d="M 322 105 A 26 26 0 0 0 318 92" fill="none" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="326" y="98" fill="#8a8a8a">&#952;</text>
+
+  <!-- ================= RIGHT: r x F vector view ================= -->
+
+  <!-- common origin O' -->
+  <circle cx="500" cy="215" r="4" fill="#8a8a8a"/>
+  <text x="482" y="230" fill="#8a8a8a">O</text>
+
+  <!-- r (blue) -->
+  <line x1="500" y1="215" x2="575" y2="163" stroke="#4a90d9" stroke-width="2.5" marker-end="url(#ahBlue)"/>
+  <text x="580" y="160" fill="#4a90d9" font-style="italic">r</text>
+
+  <!-- F (coral) -->
+  <line x1="500" y1="215" x2="562" y2="272" stroke="#e0645c" stroke-width="3" marker-end="url(#ahCoral)"/>
+  <text x="566" y="282" fill="#e0645c" font-style="italic">F</text>
+
+  <!-- M = r x F (coral, double arrowhead = a moment vector) -->
+  <line x1="500" y1="215" x2="500" y2="112" stroke="#e0645c" stroke-width="2.5" marker-end="url(#ahCoral)"/>
+  <polyline points="494,128 500,120 506,128" fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="452" y="104" fill="#e0645c" font-style="italic">M_O = r &#215; F</text>
+
+  <!-- right-hand-rule sweep from r toward F -->
+  <path d="M 548 186 A 40 40 0 0 1 545 244" fill="none" stroke="#8a8a8a" stroke-width="1" marker-end="url(#ahGrey)"/>
+</svg>

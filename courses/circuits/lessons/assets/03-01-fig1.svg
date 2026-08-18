@@ -1,0 +1,77 @@
+<svg viewBox="0 0 660 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Two memory elements: the cap watches the slope of its voltage, the inductor watches the slope of its current.</text>
+
+  <!-- ============ LEFT: element symbols ============ -->
+
+  <!-- capacitor -->
+  <line x1="55" y1="100" x2="140" y2="100" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="140" y1="78" x2="140" y2="122" stroke="#4a90d9" stroke-width="3"/>
+  <line x1="156" y1="78" x2="156" y2="122" stroke="#4a90d9" stroke-width="3"/>
+  <line x1="156" y1="100" x2="245" y2="100" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="132" y="150" fill="#4a90d9">C</text>
+  <!-- current arrow into the cap -->
+  <line x1="72" y1="86" x2="112" y2="86" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="112,86 103,82 103,90" fill="#e0645c"/>
+  <text x="84" y="78" fill="#e0645c">i</text>
+  <!-- voltage polarity -->
+  <text x="126" y="72" fill="#e0645c">+</text>
+  <text x="162" y="72" fill="#e0645c">&#8722;</text>
+  <text x="185" y="72" fill="#8a8a8a">v</text>
+  <!-- law -->
+  <text x="40" y="182" fill="#8a8a8a">i = C dv/dt</text>
+
+  <!-- inductor -->
+  <line x1="55" y1="250" x2="120" y2="250" stroke="#8a8a8a" stroke-width="2"/>
+  <path d="M120,250 A9,9 0 0 0 138,250 A9,9 0 0 0 156,250 A9,9 0 0 0 174,250 A9,9 0 0 0 192,250" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <line x1="192" y1="250" x2="245" y2="250" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="150" y="282" fill="#4a90d9">L</text>
+  <!-- current arrow through the inductor -->
+  <line x1="72" y1="236" x2="112" y2="236" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="112,236 103,232 103,240" fill="#e0645c"/>
+  <text x="84" y="228" fill="#e0645c">i</text>
+  <!-- voltage polarity -->
+  <text x="112" y="222" fill="#e0645c">+</text>
+  <text x="196" y="222" fill="#e0645c">&#8722;</text>
+  <text x="212" y="222" fill="#8a8a8a">v</text>
+  <!-- law -->
+  <text x="40" y="322" fill="#8a8a8a">v = L di/dt</text>
+
+  <!-- divider -->
+  <line x1="300" y1="60" x2="300" y2="340" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 5"/>
+
+  <!-- ============ RIGHT: v(t) drives i_C(t) ============ -->
+
+  <!-- v(t) axes -->
+  <line x1="360" y1="150" x2="630" y2="150" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="630,150 620,145 620,155" fill="#8a8a8a"/>
+  <text x="634" y="155" fill="#8a8a8a">t</text>
+  <line x1="365" y1="158" x2="365" y2="78" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="365,78 360,88 370,88" fill="#8a8a8a"/>
+  <text x="345" y="90" fill="#8a8a8a">v</text>
+
+  <!-- triangular voltage: ramp up, then ramp down -->
+  <polyline points="370,150 465,90 560,150" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="392" y="140" fill="#8a8a8a" font-size="12">slope &#62; 0</text>
+  <text x="495" y="140" fill="#8a8a8a" font-size="12">slope &#60; 0</text>
+
+  <!-- i_C(t) axes -->
+  <line x1="360" y1="270" x2="630" y2="270" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="630,270 620,265 620,275" fill="#8a8a8a"/>
+  <text x="634" y="275" fill="#8a8a8a">t</text>
+  <line x1="365" y1="310" x2="365" y2="230" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="365,230 360,240 370,240" fill="#8a8a8a"/>
+  <text x="336" y="242" fill="#8a8a8a">i_C</text>
+
+  <!-- constant current: +I0 while v rises, then -I0 while v falls -->
+  <line x1="370" y1="248" x2="465" y2="248" stroke="#e0645c" stroke-width="3"/>
+  <line x1="465" y1="248" x2="465" y2="292" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="465" y1="292" x2="560" y2="292" stroke="#e0645c" stroke-width="3"/>
+  <text x="400" y="242" fill="#e0645c" font-size="12">i &#62; 0</text>
+  <text x="500" y="306" fill="#e0645c" font-size="12">i &#60; 0</text>
+
+  <!-- corner guide line linking the two plots -->
+  <line x1="465" y1="90" x2="465" y2="248" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 5"/>
+
+  <text x="370" y="336" fill="#8a8a8a" font-style="italic" font-size="12">Constant slope in v &#8594; constant current; the sign flips exactly where v turns over.</text>
+</svg>

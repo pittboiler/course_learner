@@ -1,0 +1,65 @@
+<svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">A T&#8211;x boiling diagram: a horizontal tie line at temperature T names both phases; z is the seesaw fulcrum.</text>
+
+  <!-- ===== axes ===== -->
+  <line x1="70" y1="300" x2="590" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="590,300 580,295 580,305" fill="#8a8a8a"/>
+  <line x1="70" y1="300" x2="70" y2="66" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,66 65,76 75,76" fill="#8a8a8a"/>
+  <text x="52" y="80" fill="#8a8a8a">T</text>
+  <text x="46" y="318" fill="#8a8a8a">0</text>
+  <text x="12" y="304" fill="#8a8a8a">pure A</text>
+  <text x="548" y="318" fill="#8a8a8a">1</text>
+  <text x="536" y="304" fill="#8a8a8a">pure B</text>
+  <text x="300" y="334" fill="#8a8a8a">x&#8202;<tspan baseline-shift="sub" font-size="10">B</tspan>  (mole fraction of the volatile component B) &#8594;</text>
+
+  <!-- ===== dew (vapour) curve, upper ===== -->
+  <path d="M 70 100 L 94.5 105.2 L 119 110.9 L 143.5 116.9 L 168 123 L 192.5 129.3 L 217 135.6 L 266 148.5 L 315 161.7 L 364 175 L 413 188.5 L 462 202.3 L 511 216.1 L 560 230"
+        fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <!-- ===== bubble (liquidus) curve, lower ===== -->
+  <path d="M 70 100 L 94.5 146.7 L 119 159 L 143.5 167.9 L 168 175 L 192.5 180.9 L 217 186 L 266 195 L 315 203 L 364 209 L 413 215 L 462 220 L 511 225 L 560 230"
+        fill="none" stroke="#8a8a8a" stroke-width="2"/>
+
+  <!-- pure-component boiling points -->
+  <text x="34" y="104" fill="#8a8a8a">T<tspan baseline-shift="super" font-size="9">*</tspan><tspan baseline-shift="sub" font-size="10">A</tspan></text>
+  <text x="566" y="234" fill="#8a8a8a">T<tspan baseline-shift="super" font-size="9">*</tspan><tspan baseline-shift="sub" font-size="10">B</tspan></text>
+
+  <!-- curve labels -->
+  <text x="88" y="104" fill="#8a8a8a" font-style="italic">dew</text>
+  <text x="80" y="172" fill="#8a8a8a" font-style="italic">bubble</text>
+
+  <!-- region labels -->
+  <text x="120" y="92" fill="#8a8a8a">vapour</text>
+  <text x="205" y="152" fill="#8a8a8a">L + V</text>
+  <text x="300" y="285" fill="#8a8a8a">liquid</text>
+
+  <!-- ===== tie line (blue) at T, y = 175 ===== -->
+  <line x1="168" y1="175" x2="364" y2="175" stroke="#4a90d9" stroke-width="2.5"/>
+  <circle cx="168" cy="175" r="4.5" fill="#4a90d9"/>
+  <circle cx="364" cy="175" r="4.5" fill="#4a90d9"/>
+  <text x="128" y="167" fill="#4a90d9">x<tspan baseline-shift="sub" font-size="10">liq</tspan></text>
+  <text x="372" y="167" fill="#4a90d9">x<tspan baseline-shift="sub" font-size="10">vap</tspan></text>
+
+  <!-- overall composition z = fulcrum -->
+  <polygon points="241.5,181 235,192 248,192" fill="#e0645c"/>
+  <text x="235" y="205" fill="#e0645c">z</text>
+
+  <!-- ===== lever-rule arms (coral) below ===== -->
+  <line x1="168" y1="175" x2="168" y2="252" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="241.5" y1="192" x2="241.5" y2="252" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="364" y1="175" x2="364" y2="252" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <!-- arm a -->
+  <line x1="168" y1="252" x2="241.5" y2="252" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="168,252 177,248 177,256" fill="#e0645c"/>
+  <polygon points="241.5,252 232.5,248 232.5,256" fill="#e0645c"/>
+  <text x="199" y="268" fill="#e0645c">a</text>
+  <!-- arm b -->
+  <line x1="241.5" y1="252" x2="364" y2="252" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="241.5,252 250.5,248 250.5,256" fill="#e0645c"/>
+  <polygon points="364,252 355,248 355,256" fill="#e0645c"/>
+  <text x="299" y="268" fill="#e0645c">b</text>
+
+  <!-- lever equation -->
+  <text x="398" y="256" fill="#e0645c">n<tspan baseline-shift="sub" font-size="10">liq</tspan> a = n<tspan baseline-shift="sub" font-size="10">vap</tspan> b</text>
+</svg>

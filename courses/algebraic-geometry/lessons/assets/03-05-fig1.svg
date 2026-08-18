@@ -1,0 +1,79 @@
+<svg viewBox="0 0 680 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="680" height="400" fill="#ffffff"/>
+
+  <!-- ===== titles ===== -->
+  <text x="180" y="26" fill="#111111" font-size="15" text-anchor="middle" font-weight="bold">Gluing: agree on the overlap &#8658; glue</text>
+  <text x="520" y="26" fill="#111111" font-size="15" text-anchor="middle" font-weight="bold">Stalk: germs shrinking to p</text>
+
+  <!-- ===================== PANEL A ===================== -->
+  <!-- the two sections, one over U (blue) one over V (green), coinciding on the overlap -->
+  <!-- glued section curve, sampled: a gentle wave from x=50 to x=300 -->
+  <!-- U part (blue), x 50..205 -->
+  <path d="M50,150 C90,110 120,110 150,140 S200,185 205,168" fill="none" stroke="#1d4ed8" stroke-width="2.6"/>
+  <!-- V part (green), x 150..300 : shares the exact path on 150..205, then continues -->
+  <path d="M150,140 C170,158 190,180 205,168 S250,120 300,150" fill="none" stroke="#15803d" stroke-width="2.6" stroke-dasharray="5 3"/>
+
+  <text x="95" y="102" fill="#1d4ed8" font-size="12.5">section s on U</text>
+  <text x="248" y="108" fill="#15803d" font-size="12.5">section t on V</text>
+  <text x="150" y="205" fill="#111111" font-size="11.5" text-anchor="middle">agree on U&#8745;V</text>
+
+  <!-- base line -->
+  <line x1="40" y1="300" x2="315" y2="300" stroke="#111111" stroke-width="1.2"/>
+  <text x="322" y="304" fill="#111111" font-size="12">X</text>
+
+  <!-- vertical projection ticks from curve ends to base -->
+  <line x1="50" y1="150" x2="50" y2="300" stroke="#bbbbbb" stroke-width="1"/>
+  <line x1="205" y1="168" x2="205" y2="300" stroke="#bbbbbb" stroke-width="1"/>
+  <line x1="150" y1="140" x2="150" y2="300" stroke="#bbbbbb" stroke-width="1"/>
+  <line x1="300" y1="150" x2="300" y2="300" stroke="#bbbbbb" stroke-width="1"/>
+
+  <!-- U bracket -->
+  <line x1="50" y1="315" x2="205" y2="315" stroke="#1d4ed8" stroke-width="2.4"/>
+  <line x1="50" y1="310" x2="50" y2="320" stroke="#1d4ed8" stroke-width="2.4"/>
+  <line x1="205" y1="310" x2="205" y2="320" stroke="#1d4ed8" stroke-width="2.4"/>
+  <text x="112" y="333" fill="#1d4ed8" font-size="12.5" text-anchor="middle">U</text>
+
+  <!-- V bracket -->
+  <line x1="150" y1="330" x2="300" y2="330" stroke="#15803d" stroke-width="2.4"/>
+  <line x1="150" y1="325" x2="150" y2="335" stroke="#15803d" stroke-width="2.4"/>
+  <line x1="300" y1="325" x2="300" y2="335" stroke="#15803d" stroke-width="2.4"/>
+  <text x="253" y="348" fill="#15803d" font-size="12.5" text-anchor="middle">V</text>
+
+  <!-- overlap shading on base -->
+  <rect x="150" y="296" width="55" height="8" fill="#b91c1c" opacity="0.28"/>
+  <text x="177" y="290" fill="#b91c1c" font-size="11" text-anchor="middle">U&#8745;V</text>
+
+  <text x="180" y="378" fill="#111111" font-size="12" text-anchor="middle">one section s on U&#8746;V restricting to each</text>
+
+  <!-- divider -->
+  <line x1="352" y1="45" x2="352" y2="360" stroke="#dddddd" stroke-width="1.2"/>
+
+  <!-- ===================== PANEL B ===================== -->
+  <!-- nested shrinking opens around p -->
+  <ellipse cx="520" cy="180" rx="120" ry="86" fill="none" stroke="#111111" stroke-width="1.4"/>
+  <ellipse cx="516" cy="196" rx="80" ry="58" fill="none" stroke="#555555" stroke-width="1.3"/>
+  <ellipse cx="512" cy="210" rx="46" ry="34" fill="#eef2ff" stroke="#1d4ed8" stroke-width="1.4"/>
+  <ellipse cx="509" cy="222" rx="22" ry="16" fill="#dbe4ff" stroke="#1d4ed8" stroke-width="1.4"/>
+
+  <text x="600" y="112" fill="#111111" font-size="12" text-anchor="middle">U&#8321;</text>
+  <text x="566" y="150" fill="#555555" font-size="12" text-anchor="middle">U&#8322;</text>
+  <text x="536" y="188" fill="#1d4ed8" font-size="12" text-anchor="middle">U&#8323;</text>
+
+  <!-- point p -->
+  <circle cx="505" cy="230" r="4" fill="#b91c1c"/>
+  <text x="505" y="252" fill="#b91c1c" font-size="13" text-anchor="middle">p</text>
+
+  <text x="520" y="292" fill="#111111" font-size="11.5" text-anchor="middle">U&#8321; &#8839; U&#8322; &#8839; U&#8323; &#8839; &#8943; all contain p</text>
+
+  <!-- colimit arrow -->
+  <line x1="505" y1="305" x2="505" y2="332" stroke="#111111" stroke-width="1.4" marker-end="url(#ah)"/>
+  <text x="520" y="326" fill="#111111" font-size="11.5" text-anchor="start">identify germs</text>
+
+  <text x="520" y="355" fill="#111111" font-size="13" text-anchor="middle" font-weight="bold">stalk &#8497;&#8346; = lim&#8594; &#8497;(U)</text>
+
+  <defs>
+    <marker id="ah" markerWidth="9" markerHeight="9" refX="4.5" refY="4" orient="auto">
+      <path d="M0,0 L9,4 L0,8 z" fill="#111111"/>
+    </marker>
+  </defs>
+</svg>

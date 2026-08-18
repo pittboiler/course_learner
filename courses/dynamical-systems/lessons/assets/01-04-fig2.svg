@@ -1,0 +1,25 @@
+<svg viewBox="0 0 460 240" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="460" height="240" fill="#ffffff"/>
+
+  <text x="120" y="24" text-anchor="middle" font-size="13.5" fill="#111111" font-weight="bold">Linearization says: center</text>
+  <text x="340" y="24" text-anchor="middle" font-size="13.5" fill="#111111" font-weight="bold">Truth (nonlinear): stable spiral</text>
+
+  <!-- LEFT: concentric closed orbits -->
+  <g fill="none" stroke="#1f6fb4" stroke-width="2">
+    <circle cx="120" cy="130" r="28"/>
+    <circle cx="120" cy="130" r="52"/>
+    <circle cx="120" cy="130" r="76"/>
+  </g>
+  <circle cx="120" cy="130" r="3.5" fill="#111111"/>
+  <!-- CCW arrowhead at top of outer circle -->
+  <polygon points="110,54 121,49 121,59" fill="#1f6fb4"/>
+
+  <!-- RIGHT: inward spiral -->
+  <polyline fill="none" stroke="#c0392b" stroke-width="2"
+    points="418,130 372,74.6 314,85 297,130 322.5,160.3 354.5,155.1 364,130 349.5,113.5 332,116.1 327,130 334.5,139.5 344.5,137.8 340,130"/>
+  <circle cx="340" cy="130" r="3.5" fill="#111111"/>
+  <!-- inward arrowhead near outer arm -->
+  <polygon points="372,74.6 380,86 366,84" fill="#c0392b"/>
+
+  <text x="230" y="232" text-anchor="middle" font-size="11.5" fill="#333333">Same linear part (pure imaginary eigenvalues). The cubic terms — invisible to the Jacobian — decide the real fate.</text>
+</svg>

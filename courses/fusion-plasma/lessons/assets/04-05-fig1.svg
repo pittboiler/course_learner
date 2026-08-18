@@ -1,0 +1,68 @@
+<svg viewBox="0 0 720 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <!-- caption -->
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Fusion power flow: blue is the road to the grid; coral is the toll the plant pays itself (recirculating power).</text>
+
+  <!-- ===== main flow boxes (grey plant, blue contents) ===== -->
+
+  <!-- plasma -->
+  <rect x="18" y="130" width="118" height="70" rx="6" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <text x="77" y="158" fill="#4a90d9" text-anchor="middle" font-weight="bold">Plasma</text>
+  <text x="77" y="176" fill="#8a8a8a" text-anchor="middle">&#945; heat (3.5)</text>
+  <text x="77" y="192" fill="#8a8a8a" text-anchor="middle">+ 14.1 MeV n</text>
+
+  <!-- blanket -->
+  <rect x="170" y="130" width="118" height="70" rx="6" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="229" y="158" fill="#8a8a8a" text-anchor="middle" font-weight="bold">Blanket</text>
+  <text x="229" y="176" fill="#e0645c" text-anchor="middle">heat &#215; M</text>
+  <text x="229" y="192" fill="#8a8a8a" text-anchor="middle">breed T</text>
+
+  <!-- coolant / steam -->
+  <rect x="322" y="130" width="118" height="70" rx="6" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="381" y="162" fill="#8a8a8a" text-anchor="middle" font-weight="bold">Coolant</text>
+  <text x="381" y="182" fill="#8a8a8a" text-anchor="middle">&#8594; steam</text>
+
+  <!-- turbine + generator -->
+  <rect x="474" y="130" width="118" height="70" rx="6" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="533" y="158" fill="#8a8a8a" text-anchor="middle" font-weight="bold">Turbine</text>
+  <text x="533" y="178" fill="#e0645c" text-anchor="middle">&#951; &#8776; 0.35</text>
+  <text x="533" y="194" fill="#8a8a8a" text-anchor="middle">+ generator</text>
+
+  <!-- grid -->
+  <rect x="626" y="130" width="76" height="70" rx="6" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <text x="664" y="170" fill="#4a90d9" text-anchor="middle" font-weight="bold">Grid</text>
+
+  <!-- ===== main blue flow arrows ===== -->
+  <line x1="136" y1="165" x2="164" y2="165" stroke="#4a90d9" stroke-width="3"/>
+  <polygon points="170,165 160,160 160,170" fill="#4a90d9"/>
+  <line x1="288" y1="165" x2="316" y2="165" stroke="#4a90d9" stroke-width="3"/>
+  <polygon points="322,165 312,160 312,170" fill="#4a90d9"/>
+  <line x1="440" y1="165" x2="468" y2="165" stroke="#4a90d9" stroke-width="3"/>
+  <polygon points="474,165 464,160 464,170" fill="#4a90d9"/>
+  <line x1="592" y1="165" x2="620" y2="165" stroke="#4a90d9" stroke-width="3"/>
+  <polygon points="626,165 616,160 616,170" fill="#4a90d9"/>
+
+  <!-- power labels along the road -->
+  <text x="151" y="120" fill="#4a90d9" text-anchor="middle">P_fus</text>
+  <text x="533" y="120" fill="#4a90d9" text-anchor="middle">P_thermal</text>
+  <text x="664" y="120" fill="#4a90d9" text-anchor="middle">gross</text>
+
+  <!-- ===== recirculating tap (coral) ===== -->
+  <!-- tap node on the gross bus, drop down -->
+  <line x1="609" y1="165" x2="609" y2="300" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="609,306 604,296 614,296" fill="#e0645c"/>
+
+  <!-- recirculating-loads box -->
+  <rect x="230" y="306" width="380" height="52" rx="6" fill="#e0645c" opacity="0.12" stroke="#e0645c" stroke-width="2"/>
+  <text x="420" y="330" fill="#e0645c" text-anchor="middle" font-weight="bold">Magnets &#183; heating/current drive &#183; cryoplant &#183; tritium</text>
+  <text x="420" y="348" fill="#8a8a8a" text-anchor="middle">recirculating power (parasitic load)</text>
+
+  <!-- feed from box back up into plasma -->
+  <line x1="230" y1="332" x2="77" y2="332" stroke="#e0645c" stroke-width="2.5"/>
+  <line x1="77" y1="332" x2="77" y2="206" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="77,200 72,210 82,210" fill="#e0645c"/>
+  <text x="150" y="326" fill="#e0645c" text-anchor="middle">heat the plasma</text>
+
+  <!-- net electric label -->
+  <text x="664" y="238" fill="#4a90d9" text-anchor="middle" font-weight="bold">net = gross</text>
+  <text x="664" y="254" fill="#4a90d9" text-anchor="middle">&#8722; recirc</text>
+</svg>

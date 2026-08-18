@@ -1,0 +1,78 @@
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrowGrey" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#8a8a8a"/>
+    </marker>
+  </defs>
+
+  <!-- incoming neutron -->
+  <line x1="30" y1="120" x2="132" y2="152" stroke="#8a8a8a" stroke-width="2" marker-end="url(#arrowGrey)"/>
+  <text x="28" y="108" font-size="14" fill="#8a8a8a">neutron</text>
+
+  <!-- PKA impact point -->
+  <circle cx="138" cy="155" r="5" fill="#4a90d9"/>
+  <text x="96" y="180" font-size="14" fill="#4a90d9">PKA</text>
+
+  <!-- branching collision tree (blue) -->
+  <g stroke="#4a90d9" stroke-width="2" fill="none">
+    <line x1="138" y1="155" x2="270" y2="185"/>
+    <line x1="270" y1="185" x2="330" y2="140"/>
+    <line x1="270" y1="185" x2="325" y2="240"/>
+    <line x1="330" y1="140" x2="388" y2="172"/>
+    <line x1="330" y1="140" x2="360" y2="118"/>
+    <line x1="325" y1="240" x2="382" y2="232"/>
+    <line x1="325" y1="240" x2="345" y2="278"/>
+  </g>
+  <text x="150" y="130" font-size="13" fill="#8a8a8a">collision tree (&#60;1 ps)</text>
+
+  <!-- shell ring: interstitial-rich periphery -->
+  <circle cx="420" cy="205" r="120" fill="none" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="5 5"/>
+  <!-- core ring: vacancy-rich core -->
+  <circle cx="420" cy="205" r="52" fill="none" stroke="#e0645c" stroke-width="2" stroke-dasharray="4 4"/>
+
+  <!-- vacancies (coral open circles) inside core -->
+  <g stroke="#e0645c" stroke-width="2" fill="none">
+    <circle cx="405" cy="188" r="6"/>
+    <circle cx="432" cy="196" r="6"/>
+    <circle cx="414" cy="212" r="6"/>
+    <circle cx="438" cy="220" r="6"/>
+    <circle cx="398" cy="222" r="6"/>
+    <circle cx="426" cy="176" r="6"/>
+    <circle cx="448" cy="204" r="6"/>
+  </g>
+
+  <!-- interstitials (blue filled dots) in the shell -->
+  <g fill="#4a90d9">
+    <circle cx="360" cy="150" r="5"/>
+    <circle cx="486" cy="168" r="5"/>
+    <circle cx="510" cy="212" r="5"/>
+    <circle cx="492" cy="262" r="5"/>
+    <circle cx="440" cy="292" r="5"/>
+    <circle cx="376" cy="286" r="5"/>
+    <circle cx="336" cy="238" r="5"/>
+    <circle cx="344" cy="188" r="5"/>
+    <circle cx="470" cy="132" r="5"/>
+    <circle cx="516" cy="248" r="5"/>
+    <circle cx="398" cy="306" r="5"/>
+    <circle cx="330" cy="200" r="5"/>
+  </g>
+
+  <!-- labels -->
+  <text x="386" y="209" font-size="13" fill="#e0645c">core</text>
+  <line x1="420" y1="150" x2="420" y2="90" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="360" y="80" font-size="13" fill="#e0645c">vacancy-rich core</text>
+  <line x1="540" y1="205" x2="600" y2="205" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="560" y="200" font-size="13" fill="#4a90d9">interstitial-</text>
+  <text x="560" y="216" font-size="13" fill="#4a90d9">rich shell</text>
+
+  <!-- legend -->
+  <g font-size="12" fill="#8a8a8a">
+    <circle cx="40" cy="340" r="6" fill="none" stroke="#e0645c" stroke-width="2"/>
+    <text x="52" y="344">vacancy (atom driven outward)</text>
+    <circle cx="40" cy="364" r="5" fill="#4a90d9"/>
+    <text x="52" y="368">self-interstitial (pushed to periphery)</text>
+  </g>
+
+  <text x="360" y="368" font-size="12" fill="#8a8a8a">Cascade quenches in a few ps; the</text>
+  <text x="360" y="384" font-size="12" fill="#8a8a8a">core/shell split is what lets defects survive.</text>
+</svg>

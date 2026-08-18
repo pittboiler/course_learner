@@ -1,0 +1,42 @@
+<svg viewBox="0 0 620 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">EI spectrum of an unknown: M&#8314; gives the weight, the M+2 peak flags Cl, and each fragment marks a neutral lost.</text>
+
+  <!-- axes -->
+  <line x1="60" y1="250" x2="565" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="565,250 555,245 555,255" fill="#8a8a8a"/>
+  <text x="548" y="272" fill="#8a8a8a">m/z</text>
+  <line x1="60" y1="255" x2="60" y2="52" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="60,52 55,62 65,62" fill="#8a8a8a"/>
+  <text x="16" y="150" fill="#8a8a8a" transform="rotate(-90 16 150)">relative abundance</text>
+
+  <!-- x tick labels -->
+  <text x="122" y="270" fill="#8a8a8a" font-size="12">30</text>
+  <text x="222" y="270" fill="#8a8a8a" font-size="12">40</text>
+  <text x="322" y="270" fill="#8a8a8a" font-size="12">50</text>
+  <text x="422" y="270" fill="#8a8a8a" font-size="12">60</text>
+  <text x="512" y="270" fill="#8a8a8a" font-size="12">70</text>
+
+  <!-- fragment peaks (blue) -->
+  <!-- m/z 27, small unlabeled -->
+  <line x1="130" y1="250" x2="130" y2="197" stroke="#4a90d9" stroke-width="4"/>
+  <!-- m/z 29, loss of Cl (35) -->
+  <line x1="150" y1="250" x2="150" y2="117" stroke="#4a90d9" stroke-width="4"/>
+  <text x="150" y="108" fill="#4a90d9" text-anchor="middle" font-size="12">29</text>
+  <text x="150" y="94" fill="#4a90d9" text-anchor="middle" font-size="11">&#8722;35 (Cl)</text>
+  <!-- m/z 49, loss of CH3 (15) -->
+  <line x1="350" y1="250" x2="350" y2="165" stroke="#4a90d9" stroke-width="4"/>
+  <text x="350" y="156" fill="#4a90d9" text-anchor="middle" font-size="12">49</text>
+  <text x="350" y="142" fill="#4a90d9" text-anchor="middle" font-size="11">&#8722;15 (CH&#8323;)</text>
+
+  <!-- molecular ion + isotope (coral) -->
+  <!-- M+ at 64 -->
+  <line x1="500" y1="250" x2="500" y2="60" stroke="#e0645c" stroke-width="4"/>
+  <text x="500" y="51" fill="#e0645c" text-anchor="middle" font-size="12">M&#8314; 64</text>
+  <!-- M+2 at 66 -->
+  <line x1="520" y1="250" x2="520" y2="187" stroke="#e0645c" stroke-width="4"/>
+  <text x="533" y="182" fill="#e0645c" text-anchor="start" font-size="11">M+2</text>
+
+  <!-- 3:1 bracket between M and M+2 -->
+  <text x="486" y="300" fill="#e0645c" font-size="12">M : M+2 &#8776; 3 : 1  &#8594; one Cl</text>
+</svg>

@@ -1,0 +1,48 @@
+<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Each turn of the spiral clips 2 carbons off the tail, releasing 1 FADH&#8322;, 1 NADH, and 1 acetyl&#8211;CoA.</text>
+
+  <!-- loop-back arrow on the left: the spiral repeats -->
+  <path d="M 96 300 C 52 300, 52 66, 96 66" fill="none" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <polygon points="96,60 90,72 102,72" fill="#8a8a8a"/>
+  <text transform="rotate(-90 50 190)" x="50" y="190" fill="#8a8a8a" text-anchor="middle">chain re&#8211;enters, 2 C shorter</text>
+
+  <!-- ===== Round 1: C16 acyl-CoA ===== -->
+  <rect x="118" y="52" width="332" height="26" rx="13" fill="#8a8a8a" fill-opacity="0.15" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="130" y="70" fill="#8a8a8a">acyl&#8211;CoA (16 C)</text>
+  <!-- terminal 2C to be clipped -->
+  <rect x="405" y="52" width="45" height="26" rx="13" fill="#e0645c" fill-opacity="0.25" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="427" y="70" fill="#e0645c" text-anchor="middle">2C</text>
+
+  <!-- arrow 1 -> 2 -->
+  <line x1="300" y1="80" x2="300" y2="118" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="300,122 295,112 305,112" fill="#8a8a8a"/>
+  <text x="315" y="104" fill="#e0645c">+ FADH&#8322;  + NADH  + acetyl&#8211;CoA</text>
+
+  <!-- ===== Round 2: C14 acyl-CoA ===== -->
+  <rect x="118" y="124" width="290" height="26" rx="13" fill="#8a8a8a" fill-opacity="0.15" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="130" y="142" fill="#8a8a8a">acyl&#8211;CoA (14 C)</text>
+  <rect x="363" y="124" width="45" height="26" rx="13" fill="#e0645c" fill-opacity="0.25" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="385" y="142" fill="#e0645c" text-anchor="middle">2C</text>
+
+  <!-- arrow 2 -> dots -->
+  <line x1="300" y1="152" x2="300" y2="188" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="300,192 295,182 305,182" fill="#8a8a8a"/>
+  <text x="315" y="174" fill="#e0645c">+ FADH&#8322;  + NADH  + acetyl&#8211;CoA</text>
+
+  <!-- repeat marker -->
+  <text x="200" y="216" fill="#8a8a8a" text-anchor="middle" font-size="20">&#8226; &#8226; &#8226;</text>
+  <text x="300" y="216" fill="#8a8a8a">7 turns total for palmitate</text>
+
+  <!-- ===== Final turn: C4 -> two acetyl-CoA ===== -->
+  <rect x="118" y="234" width="118" height="26" rx="13" fill="#8a8a8a" fill-opacity="0.15" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="130" y="252" fill="#8a8a8a">(4 C)</text>
+
+  <line x1="180" y1="262" x2="180" y2="298" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="180,302 175,292 185,292" fill="#8a8a8a"/>
+  <text x="195" y="284" fill="#e0645c">last turn: 4 C &#8594; 2 acetyl&#8211;CoA</text>
+
+  <!-- product tally box -->
+  <rect x="118" y="312" width="404" height="34" rx="6" fill="#e0645c" fill-opacity="0.12" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="132" y="333" fill="#e0645c">C16 palmitate &#8594; 7 FADH&#8322; + 7 NADH + 8 acetyl&#8211;CoA</text>
+</svg>

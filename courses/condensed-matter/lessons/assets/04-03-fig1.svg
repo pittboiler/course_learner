@@ -1,0 +1,45 @@
+<svg viewBox="0 0 620 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">E_F starts near the donor level (freeze-out), drifts down through the gap (extrinsic), and returns to midgap (intrinsic).</text>
+
+  <!-- energy axis -->
+  <line x1="70" y1="315" x2="70" y2="40" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,40 65,52 75,52" fill="#8a8a8a"/>
+  <text x="30" y="46" fill="#8a8a8a">energy</text>
+  <!-- temperature axis -->
+  <line x1="70" y1="315" x2="580" y2="315" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="580,315 568,310 568,320" fill="#8a8a8a"/>
+  <text x="560" y="335" fill="#8a8a8a">T</text>
+
+  <!-- conduction band (above E_c), soft blue fill -->
+  <rect x="70" y="48" width="490" height="22" fill="#4a90d9" opacity="0.15"/>
+  <line x1="70" y1="70" x2="560" y2="70" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="565" y="66" fill="#4a90d9">E_c</text>
+  <text x="300" y="62" fill="#4a90d9" font-style="italic">conduction band</text>
+
+  <!-- donor level E_d, dashed just below E_c -->
+  <line x1="70" y1="88" x2="560" y2="88" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5 4"/>
+  <text x="565" y="92" fill="#8a8a8a">E_d</text>
+
+  <!-- midgap E_i, dashed -->
+  <line x1="70" y1="180" x2="560" y2="180" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5 4"/>
+  <text x="565" y="184" fill="#8a8a8a">E_i</text>
+
+  <!-- valence band (below E_v), soft coral fill -->
+  <line x1="70" y1="290" x2="560" y2="290" stroke="#8a8a8a" stroke-width="1.5"/>
+  <rect x="70" y="290" width="490" height="22" fill="#e0645c" opacity="0.15"/>
+  <text x="565" y="294" fill="#e0645c">E_v</text>
+  <text x="300" y="306" fill="#e0645c" font-style="italic">valence band</text>
+
+  <!-- regime separators -->
+  <line x1="200" y1="70" x2="200" y2="315" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 5"/>
+  <line x1="400" y1="70" x2="400" y2="315" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 5"/>
+  <text x="105" y="255" fill="#8a8a8a" font-style="italic">freeze-out</text>
+  <text x="270" y="255" fill="#8a8a8a" font-style="italic">extrinsic</text>
+  <text x="450" y="255" fill="#8a8a8a" font-style="italic">intrinsic</text>
+
+  <!-- E_F(T) trajectory: descending sigmoid from between E_d and E_c to midgap -->
+  <path d="M 70 80 L 110 81 L 150 84 L 180 90 L 210 100 L 250 118 L 300 140 L 360 158 L 410 168 L 470 174 L 520 177 L 560 178"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+  <text x="90" y="76" fill="#e0645c">E_F(T)</text>
+</svg>

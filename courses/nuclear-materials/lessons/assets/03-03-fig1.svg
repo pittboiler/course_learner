@@ -1,0 +1,50 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Thermal fission of U-235 splits asymmetrically: two humps, a deep valley &#8212; symmetric splits are rare.</text>
+
+  <!-- axes -->
+  <line x1="70" y1="280" x2="612" y2="280" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="612,280 602,275 602,285" fill="#8a8a8a"/>
+  <line x1="70" y1="280" x2="70" y2="52" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,52 65,62 75,62" fill="#8a8a8a"/>
+
+  <!-- axis labels -->
+  <text x="470" y="305" fill="#8a8a8a">mass number A</text>
+  <text x="18" y="60" fill="#8a8a8a">yield</text>
+  <text x="30" y="76" fill="#8a8a8a">(%)</text>
+
+  <!-- x ticks -->
+  <line x1="136" y1="280" x2="136" y2="285" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="127" y="299" fill="#8a8a8a">80</text>
+  <line x1="246" y1="280" x2="246" y2="285" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="234" y="299" fill="#8a8a8a">100</text>
+  <line x1="357" y1="280" x2="357" y2="285" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="345" y="299" fill="#8a8a8a">120</text>
+  <line x1="467" y1="280" x2="467" y2="285" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="455" y="299" fill="#8a8a8a">140</text>
+  <line x1="577" y1="280" x2="577" y2="285" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="565" y="299" fill="#8a8a8a">160</text>
+
+  <!-- y ticks -->
+  <line x1="65" y1="280" x2="70" y2="280" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="52" y="284" fill="#8a8a8a">0</text>
+  <line x1="65" y1="222.5" x2="70" y2="222.5" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="52" y="227" fill="#8a8a8a">2</text>
+  <line x1="65" y1="165" x2="70" y2="165" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="52" y="169" fill="#8a8a8a">4</text>
+  <line x1="65" y1="107.5" x2="70" y2="107.5" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="52" y="112" fill="#8a8a8a">6</text>
+
+  <!-- yield curve -->
+  <path d="M 81 280 L 109 280 L 136 278.2 L 164 256.5 L 180 213.3 L 191 171.3 L 202 129.4 L 219 98.9 L 235 129.4 L 246 171.3 L 263 230.8 L 279 264.7 L 301 278.2 L 324 279.9 L 340 280 L 362 279.5 L 384 274.1 L 401 255.7 L 417 211.3 L 434 145.2 L 445 107.8 L 456 93.1 L 467 107.8 L 478 145.2 L 494 211.3 L 511 255.7 L 533 276.6 L 555 279.7 L 577 280 L 605 280"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <!-- peak markers -->
+  <line x1="219" y1="98.9" x2="219" y2="280" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="196" y="92" fill="#e0645c">A ~ 95</text>
+  <line x1="456" y1="93.1" x2="456" y2="280" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="433" y="86" fill="#e0645c">A ~ 138</text>
+
+  <!-- valley call-out -->
+  <text x="300" y="262" fill="#8a8a8a" font-size="12">valley</text>
+  <text x="286" y="276" fill="#8a8a8a" font-size="12">(A ~ 117)</text>
+</svg>

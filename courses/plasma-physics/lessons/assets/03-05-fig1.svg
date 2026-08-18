@@ -1,0 +1,50 @@
+<svg viewBox="0 0 720 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="20" y="20" fill="#8a8a8a" font-style="italic">Two ways a Z-pinch (blue) tears itself apart, and the curvature that decides an interchange.</text>
+
+  <!-- ================= Panel A: sausage m=0 ================= -->
+  <!-- column with a pinched neck -->
+  <path d="M 78 60 C 78 100, 96 130, 96 162 C 96 194, 78 224, 78 264 L 142 264 C 142 224, 124 194, 124 162 C 124 130, 142 100, 142 60 Z"
+        fill="#4a90d9" fill-opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <!-- axial current arrow -->
+  <line x1="110" y1="58" x2="110" y2="266" stroke="#4a90d9" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="114" y="54" fill="#4a90d9">I</text>
+  <!-- inward pinch arrows at the neck -->
+  <line x1="52" y1="162" x2="90" y2="162" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="94,162 84,157 84,167" fill="#e0645c"/>
+  <line x1="168" y1="162" x2="130" y2="162" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="126,162 136,157 136,167" fill="#e0645c"/>
+  <text x="146" y="146" fill="#e0645c">B&#952; up</text>
+  <text x="66" y="284" fill="#8a8a8a" font-style="italic">m = 0 sausage</text>
+
+  <!-- ================= Panel B: kink m=1 ================= -->
+  <!-- bent column (bows right) -->
+  <path d="M 312 60 Q 356 162 312 264 L 348 264 Q 392 162 348 60 Z"
+        fill="#4a90d9" fill-opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <!-- bunched field lines on the concave (inner) side -->
+  <path d="M 300 120 Q 320 162 300 204" fill="none" stroke="#8a8a8a" stroke-width="1"/>
+  <path d="M 292 118 Q 314 162 292 206" fill="none" stroke="#8a8a8a" stroke-width="1"/>
+  <path d="M 284 116 Q 308 162 284 208" fill="none" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="240" y="150" fill="#8a8a8a">field</text>
+  <text x="240" y="166" fill="#8a8a8a">bunches</text>
+  <!-- coral arrow: bend grows outward -->
+  <line x1="382" y1="162" x2="420" y2="162" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="424,162 414,157 414,167" fill="#e0645c"/>
+  <text x="388" y="150" fill="#e0645c">grows</text>
+  <text x="316" y="284" fill="#8a8a8a" font-style="italic">m = 1 kink</text>
+
+  <!-- ================= Panel C: good vs bad curvature ================= -->
+  <!-- good: field concave toward plasma (plasma sits in the well) -->
+  <path d="M 520 104 Q 590 70 660 104" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="660,104 651,101 654,110" fill="#8a8a8a"/>
+  <circle cx="590" cy="120" r="15" fill="#4a90d9" fill-opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <text x="513" y="146" fill="#8a8a8a" font-style="italic">good: field hugs (concave)</text>
+
+  <!-- bad: field convex toward plasma (plasma slides off) -->
+  <path d="M 520 216 Q 590 250 660 216" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="660,216 651,210 654,219" fill="#8a8a8a"/>
+  <circle cx="590" cy="200" r="15" fill="#4a90d9" fill-opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="590" y1="185" x2="590" y2="166" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="590,162 585,172 595,172" fill="#e0645c"/>
+  <text x="513" y="262" fill="#8a8a8a" font-style="italic">bad: field bulges (convex)</text>
+</svg>

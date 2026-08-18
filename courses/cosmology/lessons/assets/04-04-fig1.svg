@@ -1,0 +1,59 @@
+<svg viewBox="0 0 620 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">The SN Ia Hubble diagram: distant supernovae sit ABOVE the decelerating curve &#8212; fainter, farther, accelerating.</text>
+
+  <!-- ===== axes ===== -->
+  <!-- y-axis (distance modulus) -->
+  <line x1="70" y1="300" x2="70" y2="66" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,66 65,76 75,76" fill="#8a8a8a"/>
+  <text x="30" y="70" fill="#8a8a8a">&#956;</text>
+  <text x="18" y="185" fill="#8a8a8a" transform="rotate(-90 18 185)">distance modulus &#956; = 5&#8201;log&#8321;&#8320;(D_L/10pc)</text>
+
+  <!-- x-axis (redshift) -->
+  <line x1="70" y1="300" x2="580" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="580,300 570,295 570,305" fill="#8a8a8a"/>
+  <text x="556" y="322" fill="#8a8a8a">redshift z</text>
+
+  <!-- x ticks -->
+  <line x1="168" y1="300" x2="168" y2="305" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="158" y="320" fill="#8a8a8a" font-size="12">0.2</text>
+  <line x1="266" y1="300" x2="266" y2="305" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="256" y="320" fill="#8a8a8a" font-size="12">0.4</text>
+  <line x1="364" y1="300" x2="364" y2="305" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="354" y="320" fill="#8a8a8a" font-size="12">0.6</text>
+  <line x1="462" y1="300" x2="462" y2="305" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="452" y="320" fill="#8a8a8a" font-size="12">0.8</text>
+  <line x1="560" y1="300" x2="560" y2="305" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="552" y="320" fill="#8a8a8a" font-size="12">1.0</text>
+
+  <!-- ===== matter-only (decelerating) curve: coral ===== -->
+  <path d="M 94 250 L 168 215 L 266 190 L 364 172 L 462 160 L 560 151"
+        fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="470" y="176" fill="#e0645c" font-size="12">matter-only</text>
+  <text x="470" y="191" fill="#e0645c" font-size="12">(decelerating)</text>
+
+  <!-- ===== LCDM (accelerating) curve: blue ===== -->
+  <path d="M 94 250 L 168 212 L 266 182 L 364 158 L 462 135 L 560 115"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="500" y="108" fill="#4a90d9" font-size="12">&#923;CDM</text>
+  <text x="470" y="123" fill="#4a90d9" font-size="12">(accelerating)</text>
+
+  <!-- ===== data points (follow LCDM, above matter-only) ===== -->
+  <circle cx="110" cy="245" r="3" fill="#4a90d9"/>
+  <circle cx="150" cy="221" r="3" fill="#4a90d9"/>
+  <circle cx="192" cy="206" r="3" fill="#4a90d9"/>
+  <circle cx="232" cy="197" r="3" fill="#4a90d9"/>
+  <circle cx="272" cy="179" r="3" fill="#4a90d9"/>
+  <circle cx="312" cy="172" r="3" fill="#4a90d9"/>
+  <circle cx="352" cy="161" r="3" fill="#4a90d9"/>
+  <circle cx="392" cy="150" r="3" fill="#4a90d9"/>
+  <circle cx="432" cy="142" r="3" fill="#4a90d9"/>
+  <circle cx="472" cy="131" r="3" fill="#4a90d9"/>
+  <circle cx="512" cy="126" r="3" fill="#4a90d9"/>
+  <circle cx="545" cy="118" r="3" fill="#4a90d9"/>
+
+  <!-- ===== the gap: fainter/farther annotation ===== -->
+  <line x1="462" y1="160" x2="462" y2="135" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 3"/>
+  <polygon points="462,135 458,144 466,144" fill="#8a8a8a"/>
+  <text x="300" y="272" fill="#8a8a8a" font-size="12">high-z SNe appear fainter than a decelerating universe predicts</text>
+</svg>

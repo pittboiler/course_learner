@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="640" height="420" fill="#ffffff"/>
+
+  <text x="320" y="30" font-size="17" font-weight="bold" fill="#111111" text-anchor="middle">The risk&#8211;return efficient frontier</text>
+
+  <!-- axes -->
+  <line x1="70" y1="360" x2="610" y2="360" stroke="#111111" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="70" y1="360" x2="70" y2="45" stroke="#111111" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="600" y="385" font-size="14" fill="#111111" text-anchor="end">risk  &#963; = &#8730;(x&#8868;&#931;x)</text>
+  <text x="52" y="55" font-size="14" fill="#111111" text-anchor="start" transform="rotate(-90 52 55)">expected return  &#956;&#8868;x</text>
+
+  <!-- feasible bullet region (light shaded) -->
+  <path d="M150,250 Q250,95 560,80 L560,320 Q320,360 150,250 Z"
+        fill="#2563eb" fill-opacity="0.08" stroke="none"/>
+
+  <!-- dominated (lower) boundary -->
+  <path d="M150,250 Q320,360 560,320" fill="none" stroke="#9ca3af"
+        stroke-width="2.5" stroke-dasharray="7 5"/>
+  <text x="430" y="352" font-size="12.5" fill="#6b7280" text-anchor="middle">dominated (same risk, less return)</text>
+
+  <!-- efficient frontier (upper) boundary -->
+  <path d="M150,250 Q250,95 560,80" fill="none" stroke="#1d4ed8" stroke-width="3.5"/>
+  <text x="360" y="105" font-size="14" fill="#1d4ed8" font-weight="bold" text-anchor="middle">efficient frontier</text>
+
+  <!-- minimum-variance portfolio (leftmost tip) -->
+  <circle cx="150" cy="250" r="5.5" fill="#111111"/>
+  <text x="158" y="272" font-size="12.5" fill="#111111">min-variance portfolio</text>
+
+  <!-- a diversified portfolio on the frontier -->
+  <circle cx="302" cy="130" r="5.5" fill="#1d4ed8"/>
+  <text x="312" y="128" font-size="12.5" fill="#1d4ed8">a diversified portfolio</text>
+
+  <!-- individual assets (interior / high risk) -->
+  <circle cx="430" cy="270" r="4.5" fill="#dc2626"/>
+  <circle cx="505" cy="165" r="4.5" fill="#dc2626"/>
+  <circle cx="545" cy="120" r="4.5" fill="#dc2626"/>
+  <text x="470" y="300" font-size="12.5" fill="#b91c1c" text-anchor="middle">individual assets</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L7,3 L0,6 z" fill="#111111"/>
+    </marker>
+  </defs>
+</svg>

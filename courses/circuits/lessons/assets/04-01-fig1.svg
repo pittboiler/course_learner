@@ -1,0 +1,60 @@
+<svg viewBox="0 0 620 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <defs>
+    <marker id="ar-blue" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#4a90d9"/>
+    </marker>
+    <marker id="ar-grey" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#8a8a8a"/>
+    </marker>
+    <marker id="ar-coral" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#e0645c"/>
+    </marker>
+  </defs>
+
+  <!-- caption -->
+  <text x="26" y="22" fill="#8a8a8a" font-style="italic">A phasor is a vector in the complex plane; spin it at &#969; and its projection traces v(t) = Vm cos(&#969;t + &#966;).</text>
+
+  <!-- ===== left: the complex plane / phasor ===== -->
+
+  <!-- axes -->
+  <line x1="70" y1="170" x2="252" y2="170" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#ar-grey)"/>
+  <text x="256" y="175" fill="#8a8a8a">Re</text>
+  <line x1="150" y1="252" x2="150" y2="88" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#ar-grey)"/>
+  <text x="132" y="96" fill="#8a8a8a">Im</text>
+
+  <!-- rotation circle (radius = Vm) -->
+  <circle cx="150" cy="170" r="70" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- rotation direction arc -->
+  <path d="M 150 92 A 78 78 0 0 1 210 108" fill="none" stroke="#8a8a8a" stroke-width="1.2" marker-end="url(#ar-grey)"/>
+  <text x="196" y="90" fill="#8a8a8a">&#969;</text>
+
+  <!-- phasor vector -->
+  <line x1="150" y1="170" x2="203.6" y2="125" stroke="#4a90d9" stroke-width="3" marker-end="url(#ar-blue)"/>
+  <text x="188" y="132" fill="#4a90d9">Vm</text>
+
+  <!-- phase-angle arc -->
+  <path d="M 188 170 A 38 38 0 0 0 179.1 145.6" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <text x="196" y="160" fill="#e0645c">&#966;</text>
+
+  <text x="120" y="272" fill="#8a8a8a">V = Vm &#8736; &#966;</text>
+
+  <!-- ===== amplitude tie-line: circle top = wave peak ===== -->
+  <line x1="150" y1="100" x2="490" y2="100" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 5"/>
+
+  <!-- ===== right: the sinusoid ===== -->
+
+  <!-- axes -->
+  <line x1="300" y1="170" x2="602" y2="170" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#ar-grey)"/>
+  <text x="596" y="188" fill="#8a8a8a">t</text>
+  <line x1="310" y1="252" x2="310" y2="88" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#ar-grey)"/>
+  <text x="292" y="96" fill="#8a8a8a">v</text>
+
+  <!-- the cosine v(t) = Vm cos(wt + phi) -->
+  <path d="M 310 116.4 L 330 153.1 L 350 196.3 L 370 229.3 L 390 239.9 L 410 223.2 L 430 187.5 L 450 143.7 L 470 110.9 L 490 100.1 L 510 116.4 L 530 153.1 L 550 196.3 L 570 229.3 L 590 239.9"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- amplitude marker at the peak -->
+  <line x1="490" y1="170" x2="490" y2="102" stroke="#e0645c" stroke-width="1.5" marker-end="url(#ar-coral)"/>
+  <text x="496" y="140" fill="#e0645c">Vm</text>
+</svg>

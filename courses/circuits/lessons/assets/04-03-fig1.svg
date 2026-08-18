@@ -1,0 +1,55 @@
+<svg viewBox="0 0 540 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <defs>
+    <marker id="ac" markerWidth="11" markerHeight="8" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#e0645c"/>
+    </marker>
+    <marker id="ab" markerWidth="11" markerHeight="8" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#4a90d9"/>
+    </marker>
+    <marker id="acd" markerWidth="11" markerHeight="8" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#e0645c"/>
+    </marker>
+  </defs>
+
+  <!-- caption -->
+  <text x="30" y="26" fill="#8a8a8a" font-style="italic">The power triangle: P works, Q sloshes, S is what the line must carry.</text>
+  <text x="30" y="44" fill="#8a8a8a" font-style="italic">A parallel capacitor pulls Q down toward the P axis, shrinking S and &#952;.</text>
+
+  <!-- ===== the 3-4-5 power triangle (to scale: P=180, Q=240, S=300 px) ===== -->
+
+  <!-- P: real power, horizontal, coral -->
+  <line x1="110" y1="330" x2="285" y2="330" stroke="#e0645c" stroke-width="3" marker-end="url(#ac)"/>
+  <text x="185" y="352" fill="#e0645c" text-anchor="middle">P  (real, W)</text>
+
+  <!-- Q: reactive power, vertical, coral -->
+  <line x1="290" y1="330" x2="290" y2="95" stroke="#e0645c" stroke-width="3" marker-end="url(#ac)"/>
+  <text x="300" y="200" fill="#e0645c">Q  (reactive, VAR)</text>
+
+  <!-- S: apparent power, hypotenuse, blue -->
+  <line x1="110" y1="330" x2="285" y2="97" stroke="#4a90d9" stroke-width="3" marker-end="url(#ab)"/>
+  <text x="150" y="200" fill="#4a90d9" text-anchor="end">S  (apparent, VA)</text>
+
+  <!-- right-angle mark at P-Q corner -->
+  <path d="M 290 314 L 274 314 L 274 330" fill="none" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- angle theta at the origin -->
+  <path d="M 158 330 A 48 48 0 0 0 141 296" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="163" y="316" fill="#8a8a8a">&#952;</text>
+
+  <!-- origin dot -->
+  <circle cx="110" cy="330" r="3.5" fill="#8a8a8a"/>
+
+  <!-- ===== pf-correction overlay: capacitor pulls Q down ===== -->
+
+  <!-- Q_C: capacitor's reactive supply, dashed coral, pulling down from Q tip -->
+  <line x1="290" y1="100" x2="290" y2="250" stroke="#e0645c" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#acd)"/>
+  <rect x="272" y="150" width="14" height="96" fill="#e0645c" opacity="0.10"/>
+  <text x="232" y="205" fill="#e0645c" font-style="italic">Q<tspan dy="4" font-size="11">C</tspan></text>
+
+  <!-- reduced hypotenuse S' after correction, dashed blue -->
+  <line x1="110" y1="330" x2="286" y2="257" stroke="#4a90d9" stroke-width="2" stroke-dasharray="5 4"/>
+  <text x="224" y="318" fill="#4a90d9" font-style="italic">S&#8242;</text>
+
+  <!-- reduced angle theta' -->
+  <text x="192" y="302" fill="#4a90d9" font-style="italic">&#952;&#8242;</text>
+</svg>

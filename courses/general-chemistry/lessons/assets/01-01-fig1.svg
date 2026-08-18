@@ -1,0 +1,59 @@
+<svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Orbitals are shapes, not orbits; the ladder is quantized &#8212; a photon &#916;E = h&#957; jumps the gaps.</text>
+
+  <!-- section labels -->
+  <text x="85" y="52" fill="#8a8a8a" text-anchor="middle">s (&#8467;=0): sphere</text>
+  <text x="330" y="52" fill="#8a8a8a" text-anchor="middle">p (&#8467;=1): dumbbell &#8212; 3 orientations</text>
+
+  <!-- ===== s orbital: sphere ===== -->
+  <circle cx="85" cy="160" r="42" fill="#4a90d9" fill-opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="85" cy="160" r="2.5" fill="#8a8a8a"/>
+  <text x="85" y="240" fill="#8a8a8a" text-anchor="middle">1 orbital, holds 2 e&#8722;</text>
+
+  <!-- ===== p orbitals: three dumbbells ===== -->
+  <!-- pz (vertical) -->
+  <ellipse cx="240" cy="132" rx="15" ry="26" fill="#4a90d9" fill-opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <ellipse cx="240" cy="188" rx="15" ry="26" fill="#4a90d9" fill-opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="240" cy="160" r="2.5" fill="#8a8a8a"/>
+  <text x="240" y="240" fill="#8a8a8a" text-anchor="middle">pz</text>
+
+  <!-- px (horizontal) -->
+  <ellipse cx="304" cy="160" rx="26" ry="15" fill="#4a90d9" fill-opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <ellipse cx="356" cy="160" rx="26" ry="15" fill="#4a90d9" fill-opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="330" cy="160" r="2.5" fill="#8a8a8a"/>
+  <text x="330" y="240" fill="#8a8a8a" text-anchor="middle">px</text>
+
+  <!-- py (diagonal) -->
+  <g transform="rotate(52 420 160)">
+    <ellipse cx="420" cy="132" rx="15" ry="26" fill="#4a90d9" fill-opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+    <ellipse cx="420" cy="188" rx="15" ry="26" fill="#4a90d9" fill-opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  </g>
+  <circle cx="420" cy="160" r="2.5" fill="#8a8a8a"/>
+  <text x="420" y="240" fill="#8a8a8a" text-anchor="middle">py</text>
+
+  <text x="330" y="262" fill="#8a8a8a" text-anchor="middle">3 orbitals, hold 6 e&#8722; total</text>
+
+  <!-- ===== energy-level ladder ===== -->
+  <text x="558" y="52" fill="#8a8a8a" text-anchor="middle">energy levels</text>
+
+  <!-- levels: higher n = higher up, converging -->
+  <line x1="510" y1="252" x2="600" y2="252" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="606" y="257" fill="#8a8a8a">n=1</text>
+  <line x1="510" y1="176" x2="600" y2="176" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="606" y="181" fill="#8a8a8a">n=2</text>
+  <line x1="510" y1="128" x2="600" y2="128" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="606" y="133" fill="#8a8a8a">n=3</text>
+  <line x1="510" y1="100" x2="600" y2="100" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="606" y="105" fill="#8a8a8a">n=4</text>
+
+  <!-- energy axis -->
+  <line x1="500" y1="264" x2="500" y2="88" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="500,88 495,98 505,98" fill="#8a8a8a"/>
+  <text x="484" y="94" fill="#8a8a8a">E</text>
+
+  <!-- photon transition: emission, n=3 -> n=2 -->
+  <line x1="536" y1="128" x2="536" y2="176" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="536,176 531,166 541,166" fill="#e0645c"/>
+  <text x="546" y="156" fill="#e0645c">&#916;E = h&#957;</text>
+</svg>

@@ -1,0 +1,59 @@
+<svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Three ways a photon and a two-level atom trade energy. Stimulated emission copies the incoming photon; spontaneous emission fires one off at random.</text>
+
+  <!-- ============ Panel 1: Absorption ============ -->
+  <text x="110" y="58" fill="#8a8a8a" text-anchor="middle" font-weight="bold">Absorption</text>
+  <!-- levels -->
+  <line x1="40" y1="100" x2="180" y2="100" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="40" y1="250" x2="180" y2="250" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="186" y="105" fill="#8a8a8a">2</text>
+  <text x="186" y="255" fill="#8a8a8a">1</text>
+  <!-- transition arrow (up) -->
+  <line x1="110" y1="248" x2="110" y2="106" stroke="#4a90d9" stroke-width="3"/>
+  <polygon points="110,100 104,112 116,112" fill="#4a90d9"/>
+  <!-- incoming photon -->
+  <path d="M 18 180 q 6 -6 12 0 q 6 6 12 0 q 6 -6 12 0 q 6 6 12 0" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="66,180 59,176 59,184" fill="#4a90d9"/>
+  <text x="30" y="168" fill="#4a90d9">&#8463;&#969;</text>
+  <text x="110" y="292" fill="#8a8a8a" text-anchor="middle">B&#8321;&#8322; &#961; N&#8321;</text>
+
+  <!-- ============ Panel 2: Stimulated emission ============ -->
+  <text x="320" y="58" fill="#8a8a8a" text-anchor="middle" font-weight="bold">Stimulated emission</text>
+  <line x1="250" y1="100" x2="390" y2="100" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="250" y1="250" x2="390" y2="250" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="396" y="105" fill="#8a8a8a">2</text>
+  <text x="396" y="255" fill="#8a8a8a">1</text>
+  <!-- transition arrow (down) -->
+  <line x1="320" y1="104" x2="320" y2="244" stroke="#4a90d9" stroke-width="3"/>
+  <polygon points="320,250 314,238 326,238" fill="#4a90d9"/>
+  <!-- incoming photon -->
+  <path d="M 200 180 q 6 -6 12 0 q 6 6 12 0 q 6 -6 12 0 q 6 6 12 0" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="248,180 241,176 241,184" fill="#4a90d9"/>
+  <!-- two identical outgoing photons -->
+  <path d="M 398 150 q 6 -6 12 0 q 6 6 12 0 q 6 -6 12 0 q 6 6 12 0" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="446,150 439,146 439,154" fill="#4a90d9"/>
+  <path d="M 398 205 q 6 -6 12 0 q 6 6 12 0 q 6 -6 12 0 q 6 6 12 0" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="446,205 439,201 439,209" fill="#4a90d9"/>
+  <text x="420" y="138" fill="#4a90d9" text-anchor="middle">2 identical</text>
+  <text x="320" y="292" fill="#8a8a8a" text-anchor="middle">B&#8322;&#8321; &#961; N&#8322;</text>
+
+  <!-- ============ Panel 3: Spontaneous emission ============ -->
+  <text x="530" y="58" fill="#8a8a8a" text-anchor="middle" font-weight="bold">Spontaneous emission</text>
+  <line x1="460" y1="100" x2="600" y2="100" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="460" y1="250" x2="600" y2="250" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="606" y="105" fill="#8a8a8a">2</text>
+  <text x="606" y="255" fill="#8a8a8a">1</text>
+  <!-- transition arrow (down) -->
+  <line x1="530" y1="104" x2="530" y2="244" stroke="#e0645c" stroke-width="3"/>
+  <polygon points="530,250 524,238 536,238" fill="#e0645c"/>
+  <!-- ghost random directions -->
+  <line x1="536" y1="150" x2="500" y2="118" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="536" y1="150" x2="576" y2="196" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <!-- one photon, random direction -->
+  <g transform="rotate(-40 536 150)">
+    <path d="M 536 150 q 6 -6 12 0 q 6 6 12 0 q 6 -6 12 0 q 6 6 12 0" fill="none" stroke="#e0645c" stroke-width="2"/>
+    <polygon points="584,150 577,146 577,154" fill="#e0645c"/>
+  </g>
+  <text x="530" y="292" fill="#8a8a8a" text-anchor="middle">A&#8322;&#8321; N&#8322;  (random direction)</text>
+</svg>

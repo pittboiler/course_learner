@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 380" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="560" height="380" fill="#ffffff"/>
+
+  <!-- column headers -->
+  <text x="140" y="40" text-anchor="middle" font-size="16" fill="#111111">lover  x</text>
+  <text x="420" y="40" text-anchor="middle" font-size="16" fill="#111111">beloved  y</text>
+
+  <!-- arrowhead marker -->
+  <defs>
+    <marker id="ah" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#111111"/>
+    </marker>
+  </defs>
+
+  <!-- edges: a->b, b->c, c->a  (each lover loves exactly one person) -->
+  <g stroke="#111111" stroke-width="2" fill="none">
+    <line x1="172" y1="100" x2="386" y2="200" marker-end="url(#ah)"/>
+    <line x1="172" y1="200" x2="386" y2="300" marker-end="url(#ah)"/>
+    <line x1="172" y1="300" x2="386" y2="100" marker-end="url(#ah)"/>
+  </g>
+
+  <!-- left nodes (lovers) -->
+  <g>
+    <circle cx="140" cy="100" r="28" fill="#111111"/>
+    <text x="140" y="108" text-anchor="middle" font-size="24" fill="#ffffff" font-style="italic">a</text>
+    <circle cx="140" cy="200" r="28" fill="#111111"/>
+    <text x="140" y="208" text-anchor="middle" font-size="24" fill="#ffffff" font-style="italic">b</text>
+    <circle cx="140" cy="300" r="28" fill="#111111"/>
+    <text x="140" y="308" text-anchor="middle" font-size="24" fill="#ffffff" font-style="italic">c</text>
+  </g>
+
+  <!-- right nodes (beloved) -->
+  <g>
+    <circle cx="420" cy="100" r="28" fill="#ffffff" stroke="#111111" stroke-width="2"/>
+    <text x="420" y="108" text-anchor="middle" font-size="24" fill="#111111" font-style="italic">a</text>
+    <circle cx="420" cy="200" r="28" fill="#ffffff" stroke="#111111" stroke-width="2"/>
+    <text x="420" y="208" text-anchor="middle" font-size="24" fill="#111111" font-style="italic">b</text>
+    <circle cx="420" cy="300" r="28" fill="#ffffff" stroke="#111111" stroke-width="2"/>
+    <text x="420" y="308" text-anchor="middle" font-size="24" fill="#111111" font-style="italic">c</text>
+  </g>
+
+  <!-- captions -->
+  <text x="280" y="355" text-anchor="middle" font-size="14" fill="#555555">every lover has an arrow out  (&#8704;x&#8707;y)  &#8212;  no beloved has all three arrows in  (&#172;&#8707;y&#8704;x)</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="280" viewBox="0 0 700 280" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="700" height="280" fill="#ffffff"/>
+  <defs>
+    <marker id="ah2" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#111111"/>
+    </marker>
+  </defs>
+
+  <!-- divider -->
+  <line x1="350" y1="30" x2="350" y2="255" stroke="#bbbbbb" stroke-width="1" stroke-dasharray="4 4"/>
+
+  <!-- LEFT: initial -->
+  <text x="165" y="30" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">initial: one arrow OUT to each object</text>
+
+  <text x="58" y="152" text-anchor="middle" font-size="22" fill="#111111">0</text>
+  <text x="248" y="72" text-anchor="middle" font-size="20" fill="#111111">A</text>
+  <text x="248" y="152" text-anchor="middle" font-size="20" fill="#111111">B</text>
+  <text x="248" y="232" text-anchor="middle" font-size="20" fill="#111111">C</text>
+
+  <path d="M74,138 L232,72" fill="none" stroke="#111111" stroke-width="1.5" stroke-dasharray="6 4" marker-end="url(#ah2)"/>
+  <path d="M74,145 L232,145" fill="none" stroke="#111111" stroke-width="1.5" stroke-dasharray="6 4" marker-end="url(#ah2)"/>
+  <path d="M74,152 L232,222" fill="none" stroke="#111111" stroke-width="1.5" stroke-dasharray="6 4" marker-end="url(#ah2)"/>
+  <text x="150" y="96" text-anchor="middle" font-size="15" fill="#111111">!</text>
+  <text x="150" y="138" text-anchor="middle" font-size="15" fill="#111111">!</text>
+  <text x="150" y="205" text-anchor="middle" font-size="15" fill="#111111">!</text>
+
+  <!-- RIGHT: terminal -->
+  <text x="535" y="30" text-anchor="middle" font-size="15" font-weight="bold" fill="#111111">terminal: one arrow IN from each object</text>
+
+  <text x="642" y="152" text-anchor="middle" font-size="22" fill="#111111">1</text>
+  <text x="452" y="72" text-anchor="middle" font-size="20" fill="#111111">A</text>
+  <text x="452" y="152" text-anchor="middle" font-size="20" fill="#111111">B</text>
+  <text x="452" y="232" text-anchor="middle" font-size="20" fill="#111111">C</text>
+
+  <path d="M468,68 L626,138" fill="none" stroke="#111111" stroke-width="1.5" stroke-dasharray="6 4" marker-end="url(#ah2)"/>
+  <path d="M468,145 L626,145" fill="none" stroke="#111111" stroke-width="1.5" stroke-dasharray="6 4" marker-end="url(#ah2)"/>
+  <path d="M468,226 L626,152" fill="none" stroke="#111111" stroke-width="1.5" stroke-dasharray="6 4" marker-end="url(#ah2)"/>
+  <text x="548" y="96" text-anchor="middle" font-size="15" fill="#111111">!</text>
+  <text x="548" y="138" text-anchor="middle" font-size="15" fill="#111111">!</text>
+  <text x="548" y="205" text-anchor="middle" font-size="15" fill="#111111">!</text>
+</svg>

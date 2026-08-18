@@ -1,0 +1,41 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="24" y="24" fill="#8a8a8a" font-style="italic">Transverse shear &#964;(y): zero at top and bottom fibers, MAXIMUM at the neutral axis &#8212; a parabola.</text>
+
+  <!-- ===== left: rectangular cross-section ===== -->
+  <text x="70" y="58" fill="#8a8a8a">cross-section</text>
+  <rect x="80" y="90" width="100" height="160" fill="#4a90d9" opacity="0.10" stroke="#4a90d9" stroke-width="2"/>
+  <text x="122" y="278" fill="#4a90d9">b</text>
+  <line x1="80" y1="266" x2="180" y2="266" stroke="#4a90d9" stroke-width="1"/>
+  <text x="52" y="174" fill="#4a90d9">h</text>
+  <line x1="66" y1="90" x2="66" y2="250" stroke="#4a90d9" stroke-width="1"/>
+
+  <!-- neutral axis through section and out to the curve -->
+  <line x1="60" y1="170" x2="340" y2="170" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="300" y="163" fill="#8a8a8a">neutral axis</text>
+
+  <!-- ===== middle: parabolic tau(y) distribution ===== -->
+  <line x1="200" y1="90" x2="200" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <path d="M 200 90 L 230.5 100 L 256.9 110 L 279.2 120 L 297.5 130 L 311.7 140 L 321.9 150 L 328.0 160 L 330.0 170 L 328.0 180 L 321.9 190 L 311.7 200 L 297.5 210 L 279.2 220 L 256.9 230 L 230.5 240 L 200 250 Z"
+        fill="#4a90d9" opacity="0.14" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <!-- tau = 0 at top and bottom -->
+  <text x="206" y="88" fill="#8a8a8a">&#964; = 0 (top fiber)</text>
+  <text x="206" y="264" fill="#8a8a8a">&#964; = 0 (bottom fiber)</text>
+
+  <!-- tau_max arrow at NA -->
+  <line x1="200" y1="170" x2="326" y2="170" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="330,170 320,165 320,175" fill="#e0645c"/>
+  <text x="248" y="188" fill="#e0645c">&#964; max = 3V / 2A</text>
+
+  <!-- ===== inset: linear bending stress, max at edge ===== -->
+  <text x="452" y="58" fill="#8a8a8a">bending &#963;: opposite</text>
+  <rect x="470" y="90" width="60" height="160" fill="#8a8a8a" opacity="0.08" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="460" y1="170" x2="620" y2="170" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="5 4"/>
+
+  <!-- stress axis and two triangles -->
+  <line x1="530" y1="90" x2="530" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="530,90 590,90 530,170" fill="#e0645c" opacity="0.16" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="530,250 470,250 530,170" fill="#e0645c" opacity="0.16" stroke="#e0645c" stroke-width="2"/>
+  <text x="592" y="96" fill="#e0645c">&#963; max</text>
+  <text x="536" y="164" fill="#8a8a8a">&#963; = 0 at NA</text>
+</svg>

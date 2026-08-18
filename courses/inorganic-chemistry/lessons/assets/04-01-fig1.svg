@@ -1,0 +1,76 @@
+<svg viewBox="0 0 680 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Ferrocene's ledger: the metal's own electrons plus what each ligand donates, tallied to 18. Right: hapticity &#951;&#8319; = how many atoms touch.</text>
+
+  <!-- ===== left: ferrocene sandwich sketch ===== -->
+  <!-- top Cp ring -->
+  <ellipse cx="105" cy="90" rx="46" ry="13" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <!-- bottom Cp ring -->
+  <ellipse cx="105" cy="230" rx="46" ry="13" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <!-- eta5 bonds metal->rings (coral) -->
+  <line x1="105" y1="160" x2="70" y2="90" stroke="#e0645c" stroke-width="1.3"/>
+  <line x1="105" y1="160" x2="140" y2="90" stroke="#e0645c" stroke-width="1.3"/>
+  <line x1="105" y1="160" x2="105" y2="90" stroke="#e0645c" stroke-width="1.3"/>
+  <line x1="105" y1="160" x2="70" y2="230" stroke="#e0645c" stroke-width="1.3"/>
+  <line x1="105" y1="160" x2="140" y2="230" stroke="#e0645c" stroke-width="1.3"/>
+  <line x1="105" y1="160" x2="105" y2="230" stroke="#e0645c" stroke-width="1.3"/>
+  <!-- Fe center -->
+  <circle cx="105" cy="160" r="18" fill="#4a90d9" opacity="0.18" stroke="#4a90d9" stroke-width="2"/>
+  <text x="93" y="165" fill="#4a90d9" font-weight="bold">Fe</text>
+  <!-- ring labels -->
+  <text x="158" y="88" fill="#e0645c" font-size="13">&#951;&#8309;-Cp</text>
+  <text x="158" y="234" fill="#e0645c" font-size="13">&#951;&#8309;-Cp</text>
+
+  <!-- ===== middle: electron ledger ===== -->
+  <text x="250" y="70" fill="#8a8a8a" font-weight="bold">Electron ledger</text>
+
+  <!-- row: Fe -->
+  <text x="250" y="102" fill="#8a8a8a">Fe (group 8)</text>
+  <text x="420" y="102" fill="#4a90d9" font-weight="bold" text-anchor="end">8</text>
+  <!-- row: Cp -->
+  <text x="250" y="130" fill="#8a8a8a">&#951;&#8309;-Cp donates</text>
+  <text x="420" y="130" fill="#e0645c" font-weight="bold" text-anchor="end">+5</text>
+  <!-- row: Cp -->
+  <text x="250" y="158" fill="#8a8a8a">&#951;&#8309;-Cp donates</text>
+  <text x="420" y="158" fill="#e0645c" font-weight="bold" text-anchor="end">+5</text>
+
+  <!-- separator -->
+  <line x1="250" y1="176" x2="420" y2="176" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- total -->
+  <text x="250" y="206" fill="#8a8a8a" font-weight="bold">Total</text>
+  <text x="420" y="208" fill="#4a90d9" font-weight="bold" font-size="22" text-anchor="end">18 e&#8315;</text>
+  <text x="250" y="234" fill="#4a90d9" font-size="13">&#10003; obeys the 18-electron rule</text>
+
+  <!-- ===== right: hapticity ===== -->
+  <line x1="455" y1="52" x2="455" y2="330" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 5"/>
+
+  <!-- eta5 : Cp pentagon, all 5 C bonded -->
+  <text x="500" y="70" fill="#8a8a8a" font-weight="bold" font-size="13">&#951;&#8309;: 5 atoms bond</text>
+  <!-- pentagon -->
+  <polygon points="558,88 590,111 578,148 538,148 526,111"
+           fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <!-- metal dot below -->
+  <circle cx="558" cy="185" r="11" fill="#4a90d9" opacity="0.18" stroke="#4a90d9" stroke-width="2"/>
+  <text x="551" y="205" fill="#4a90d9" font-size="12" font-weight="bold">M</text>
+  <!-- 5 coral bonds to each vertex -->
+  <line x1="558" y1="185" x2="558" y2="88"  stroke="#e0645c" stroke-width="1.2"/>
+  <line x1="558" y1="185" x2="590" y2="111" stroke="#e0645c" stroke-width="1.2"/>
+  <line x1="558" y1="185" x2="578" y2="148" stroke="#e0645c" stroke-width="1.2"/>
+  <line x1="558" y1="185" x2="538" y2="148" stroke="#e0645c" stroke-width="1.2"/>
+  <line x1="558" y1="185" x2="526" y2="111" stroke="#e0645c" stroke-width="1.2"/>
+
+  <!-- eta2 : ethylene, 2 C bonded -->
+  <text x="500" y="248" fill="#8a8a8a" font-weight="bold" font-size="13">&#951;&#178;: 2 atoms bond</text>
+  <!-- C=C double bond -->
+  <line x1="528" y1="268" x2="588" y2="268" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="528" y1="274" x2="588" y2="274" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="516" y="275" fill="#8a8a8a" font-size="12">C</text>
+  <text x="592" y="275" fill="#8a8a8a" font-size="12">C</text>
+  <!-- metal dot below -->
+  <circle cx="558" cy="315" r="11" fill="#4a90d9" opacity="0.18" stroke="#4a90d9" stroke-width="2"/>
+  <text x="551" y="319" fill="#4a90d9" font-size="12" font-weight="bold">M</text>
+  <!-- 2 coral bonds -->
+  <line x1="558" y1="315" x2="528" y2="271" stroke="#e0645c" stroke-width="1.2"/>
+  <line x1="558" y1="315" x2="588" y2="271" stroke="#e0645c" stroke-width="1.2"/>
+</svg>

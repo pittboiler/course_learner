@@ -1,0 +1,35 @@
+<svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="60" y="22" fill="#8a8a8a" font-style="italic">Redox titration: potential E climbs slowly (analyte couple), leaps at equivalence, then levels (titrant couple).</text>
+
+  <!-- axes -->
+  <line x1="70" y1="280" x2="585" y2="280" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="585,280 575,275 575,285" fill="#8a8a8a"/>
+  <line x1="70" y1="280" x2="70" y2="48" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,48 65,58 75,58" fill="#8a8a8a"/>
+  <text x="500" y="300" fill="#8a8a8a">volume of titrant &#8594;</text>
+  <text x="30" y="58" fill="#8a8a8a">E (V)</text>
+
+  <!-- indicator range band (straddles E_eq) -->
+  <rect x="70" y="146" width="510" height="30" fill="#e0645c" opacity="0.14"/>
+  <text x="360" y="139" fill="#e0645c" font-size="12">indicator color-change range (ferroin)</text>
+
+  <!-- equivalence potential line -->
+  <line x1="70" y1="149" x2="580" y2="149" stroke="#e0645c" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <text x="14" y="153" fill="#e0645c" font-size="12">E&#8337;&#8340;</text>
+
+  <!-- equivalence volume line -->
+  <line x1="315" y1="280" x2="315" y2="70" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="292" y="296" fill="#8a8a8a" font-size="12">V&#8337;&#8340;</text>
+
+  <!-- the titration curve -->
+  <path d="M 70 234.3 L 94.5 231.3 L 131.25 226.7 L 192.5 222.3 L 253.75 217.9 L 290.5 213.5 L 302.75 210.4 L 312.55 203.8 L 315 148.9 L 317.45 94.3 L 327.25 87.8 L 339.5 85.0 L 376.25 81.4 L 437.5 78.5 L 560 75.7"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- equivalence point dot -->
+  <circle cx="315" cy="148.9" r="4" fill="#e0645c"/>
+
+  <!-- region labels -->
+  <text x="120" y="252" fill="#4a90d9" font-size="12">analyte couple sets E</text>
+  <text x="410" y="105" fill="#4a90d9" font-size="12">titrant couple sets E</text>
+</svg>

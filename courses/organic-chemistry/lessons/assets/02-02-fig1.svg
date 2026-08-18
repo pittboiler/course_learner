@@ -1,0 +1,96 @@
+<svg viewBox="0 0 680 470" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">SN2: the nucleophile attacks the backside, the carbon turns inside-out (umbrella flip) through one</text>
+  <text x="40" y="42" fill="#8a8a8a" font-style="italic">trigonal-bipyramidal transition state &#8212; a single barrier. Rate = k[substrate][Nu].</text>
+
+  <!-- TOP: mechanism, three stages -->
+
+  <!-- Stage 1: reactant + incoming Nu -->
+  <!-- carbon center at (150,150) -->
+  <!-- two back ribs (grey) opening left -->
+  <line x1="150" y1="150" x2="112" y2="116" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="150" y1="150" x2="112" y2="184" stroke="#8a8a8a" stroke-width="2"/>
+  <!-- third substituent: wedge toward viewer (grey filled) -->
+  <polygon points="150,150 145,193 155,193" fill="#8a8a8a"/>
+  <!-- C-LG bond to the right (grey) -->
+  <line x1="150" y1="150" x2="205" y2="150" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="210" y="155" fill="#8a8a8a">LG</text>
+  <!-- carbon label -->
+  <text x="150" y="146" fill="#8a8a8a" text-anchor="middle" font-size="12">C</text>
+  <!-- Nu (blue) with lone pair, at far left -->
+  <text x="48" y="155" fill="#4a90d9">Nu</text>
+  <text x="76" y="147" fill="#4a90d9" font-size="11">&#8722;</text>
+  <!-- coral curved arrow: Nu -> backside carbon -->
+  <path d="M 84 152 Q 105 158 126 151" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="126,151 117,150 120,158" fill="#e0645c"/>
+  <!-- coral curved arrow: C-LG bond breaking, electrons to LG -->
+  <path d="M 186 148 Q 197 133 206 141" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="206,141 197,139 203,133" fill="#e0645c"/>
+
+  <!-- reaction arrow 1 -->
+  <line x1="232" y1="150" x2="268" y2="150" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="268,150 259,146 259,154" fill="#e0645c"/>
+
+  <!-- Stage 2: transition state -->
+  <!-- carbon center at (350,150) -->
+  <text x="350" y="98" fill="#8a8a8a" text-anchor="middle" font-size="18">&#8225;</text>
+  <!-- three substituents now in the plane (perpendicular to Nu...LG axis) -->
+  <line x1="350" y1="150" x2="350" y2="110" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="350" y1="150" x2="350" y2="190" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="350,150 328,146 328,154" fill="#8a8a8a"/>
+  <text x="356" y="146" fill="#8a8a8a" font-size="12">C</text>
+  <!-- partial bond to Nu (blue dashed) -->
+  <line x1="300" y1="150" x2="340" y2="150" stroke="#4a90d9" stroke-width="2" stroke-dasharray="3 3"/>
+  <text x="272" y="155" fill="#4a90d9">Nu</text>
+  <text x="285" y="172" fill="#4a90d9" font-size="11">&#948;&#8722;</text>
+  <!-- partial bond to LG (grey dashed) -->
+  <line x1="360" y1="150" x2="400" y2="150" stroke="#8a8a8a" stroke-width="2" stroke-dasharray="3 3"/>
+  <text x="405" y="155" fill="#8a8a8a">LG</text>
+  <text x="405" y="172" fill="#8a8a8a" font-size="11">&#948;&#8722;</text>
+
+  <!-- reaction arrow 2 -->
+  <line x1="432" y1="150" x2="468" y2="150" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="468,150 459,146 459,154" fill="#e0645c"/>
+
+  <!-- Stage 3: inverted product -->
+  <!-- carbon center at (545,150), ribs flipped to the right -->
+  <line x1="545" y1="150" x2="583" y2="116" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="545" y1="150" x2="583" y2="184" stroke="#8a8a8a" stroke-width="2"/>
+  <!-- third substituent now dashed (points back) = inversion of the wedge -->
+  <line x1="545" y1="150" x2="545" y2="193" stroke="#8a8a8a" stroke-width="2" stroke-dasharray="2 3"/>
+  <text x="545" y="146" fill="#8a8a8a" text-anchor="middle" font-size="12">C</text>
+  <!-- Nu now bonded on the left (blue) -->
+  <line x1="545" y1="150" x2="492" y2="150" stroke="#4a90d9" stroke-width="2"/>
+  <text x="462" y="155" fill="#4a90d9">Nu</text>
+  <!-- inversion note (coral) -->
+  <text x="545" y="222" fill="#e0645c" text-anchor="middle" font-style="italic" font-size="12">inverted</text>
+
+  <!-- BOTTOM: reaction-coordinate diagram, ONE barrier -->
+  <!-- axes -->
+  <line x1="90" y1="290" x2="90" y2="440" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="90,290 85,300 95,300" fill="#8a8a8a"/>
+  <text x="46" y="300" fill="#8a8a8a" font-size="12">energy</text>
+  <line x1="90" y1="440" x2="620" y2="440" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="620,440 610,435 610,445" fill="#8a8a8a"/>
+  <text x="470" y="458" fill="#8a8a8a" font-size="12">reaction coordinate</text>
+
+  <!-- single-barrier curve (blue) -->
+  <path d="M 120 410 L 210 410 C 285 410 315 315 360 315 C 405 315 430 388 500 388 L 590 388"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- TS marker -->
+  <text x="360" y="308" fill="#8a8a8a" text-anchor="middle" font-size="16">&#8225;</text>
+  <text x="360" y="298" fill="#8a8a8a" text-anchor="middle" font-style="italic" font-size="11">one TS</text>
+
+  <!-- activation energy (coral double arrow) -->
+  <line x1="210" y1="410" x2="360" y2="410" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="360" y1="410" x2="360" y2="317" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="360,317 356,326 364,326" fill="#e0645c"/>
+  <polygon points="360,410 356,401 364,401" fill="#e0645c"/>
+  <text x="368" y="368" fill="#e0645c" font-size="13">E</text>
+  <text x="378" y="372" fill="#e0645c" font-size="10">a</text>
+
+  <!-- level labels -->
+  <text x="120" y="426" fill="#8a8a8a" font-size="12">reactants</text>
+  <text x="522" y="404" fill="#8a8a8a" font-size="12">products</text>
+</svg>

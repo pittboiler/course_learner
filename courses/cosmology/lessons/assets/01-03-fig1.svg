@@ -1,0 +1,48 @@
+<svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Three ways to measure the same source. D&#8322; grows fastest, D&#8347; levels off, D&#8336; peaks near z&#8776;1.25 then falls.</text>
+  <text x="40" y="40" fill="#8a8a8a" font-style="italic">(vertical scale schematic, units c/H&#8320;; ordering D&#8336; &lt; D&#8347; &lt; D&#8322; is exact)</text>
+
+  <!-- axes -->
+  <line x1="70" y1="280" x2="568" y2="280" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="568,280 558,275 558,285" fill="#8a8a8a"/>
+  <text x="560" y="300" fill="#8a8a8a">z</text>
+  <line x1="70" y1="280" x2="70" y2="55" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,55 65,65 75,65" fill="#8a8a8a"/>
+  <text x="18" y="70" fill="#8a8a8a">distance</text>
+  <text x="60" y="296" fill="#8a8a8a">0</text>
+
+  <!-- z ticks -->
+  <line x1="192.5" y1="280" x2="192.5" y2="285" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="188" y="299" fill="#8a8a8a">1</text>
+  <line x1="315" y1="280" x2="315" y2="285" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="311" y="299" fill="#8a8a8a">2</text>
+  <line x1="437.5" y1="280" x2="437.5" y2="285" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="433" y="299" fill="#8a8a8a">3</text>
+  <line x1="560" y1="280" x2="560" y2="285" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="556" y="299" fill="#8a8a8a">4</text>
+
+  <!-- D_C : comoving, solid blue -->
+  <path d="M 70 280 L 131.25 212.7 L 192.5 172.6 L 253.75 145.3 L 315 125.1 L 376.25 109.3 L 437.5 96.7 L 498.75 86.2 L 560 77.3"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="566" y="75" fill="#4a90d9">D&#8322;</text>
+
+  <!-- D_L : luminosity, dashed blue, exits top -->
+  <path d="M 70 280 L 131.25 179.2 L 162 123.4 L 192.5 65.5 L 198.6 60"
+        fill="none" stroke="#4a90d9" stroke-width="2.5" stroke-dasharray="7 5"/>
+  <text x="204" y="70" fill="#4a90d9">D&#8347;</text>
+
+  <!-- D_A : angular-diameter, coral, peaks then falls -->
+  <path d="M 70 280 L 131.25 235.1 L 192.5 226.3 L 223.1 225.7 L 253.75 226.1 L 315 228.4 L 376.25 231.2 L 437.5 234.2 L 498.75 236.9 L 560 239.4"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+  <text x="566" y="243" fill="#e0645c">D&#8336;</text>
+
+  <!-- D_A peak marker -->
+  <line x1="223.1" y1="225.7" x2="223.1" y2="280" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <circle cx="223.1" cy="225.7" r="3.5" fill="#e0645c"/>
+  <text x="230" y="216" fill="#e0645c">D&#8336; max (z&#8776;1.25)</text>
+
+  <!-- duality note -->
+  <text x="340" y="150" fill="#8a8a8a">duality:</text>
+  <text x="340" y="168" fill="#e0645c">D&#8347; = (1+z)&#178; D&#8336;</text>
+</svg>

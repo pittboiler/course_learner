@@ -1,0 +1,37 @@
+<svg viewBox="0 0 620 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="60" y="24" fill="#8a8a8a" font-style="italic">Kerma is released where the photon interacts; dose is deposited a bit downstream, where the electrons stop.</text>
+
+  <!-- axes -->
+  <line x1="60" y1="260" x2="575" y2="260" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="575,260 565,255 565,265" fill="#8a8a8a"/>
+  <text x="470" y="284" fill="#8a8a8a">depth in medium &#8594;</text>
+  <line x1="60" y1="260" x2="60" y2="60" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="60,60 55,70 65,70" fill="#8a8a8a"/>
+  <text x="70" y="58" fill="#8a8a8a">energy per unit mass</text>
+  <text x="30" y="265" fill="#8a8a8a">0</text>
+  <text x="72" y="278" fill="#8a8a8a">surface</text>
+
+  <!-- buildup region marker -->
+  <line x1="90" y1="270" x2="240" y2="270" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="108" y="300" fill="#8a8a8a">buildup region</text>
+
+  <!-- d_max / CPE line -->
+  <line x1="240" y1="121" x2="240" y2="260" stroke="#e0645c" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="248" y="240" fill="#e0645c">d_max: D &#8776; K_col (CPE)</text>
+
+  <!-- kerma curve (blue) -->
+  <path d="M 90 78 L 140 94 L 190 108 L 240 121 L 290 133 L 340 144 L 390 154 L 440 163 L 490 172 L 540 179"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="96" y="70" fill="#4a90d9">kerma K (released here)</text>
+
+  <!-- dose curve (coral) -->
+  <path d="M 90 206 L 140 156 L 190 128 L 240 121 L 290 130 L 340 141 L 390 151 L 440 160 L 490 169 L 540 176"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+  <text x="360" y="196" fill="#e0645c">absorbed dose D (deposited)</text>
+
+  <!-- electrons carry energy forward -->
+  <line x1="150" y1="222" x2="210" y2="222" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="210,222 201,218 201,226" fill="#8a8a8a"/>
+  <text x="120" y="238" fill="#8a8a8a">e&#8722; carry energy forward</text>
+</svg>

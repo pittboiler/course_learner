@@ -1,0 +1,72 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">One source, two analyzers, a coincidence counter — and an S that climbs past the classical ceiling of 2.</text>
+
+  <!-- ================= top: Bell-test schematic ================= -->
+
+  <!-- beams -->
+  <line x1="305" y1="90" x2="180" y2="90" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="335" y1="90" x2="460" y2="90" stroke="#4a90d9" stroke-width="2"/>
+
+  <!-- source diamond -->
+  <polygon points="320,72 340,90 320,108 300,90" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <text x="300" y="132" fill="#8a8a8a">SPDC source</text>
+  <text x="312" y="148" fill="#4a90d9">|&#936;&#8315;&#10217;</text>
+
+  <!-- Alice analyzer (tilted bar) -->
+  <line x1="160" y1="72" x2="160" y2="108" stroke="#4a90d9" stroke-width="3" transform="rotate(35 160 90)"/>
+  <line x1="160" y1="70" x2="160" y2="110" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 3"/>
+  <path d="M 160 74 A 16 16 0 0 1 169 78" fill="none" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="168" y="72" fill="#e0645c">a</text>
+  <text x="140" y="128" fill="#8a8a8a">Alice</text>
+
+  <!-- Alice detector -->
+  <path d="M 118 78 A 12 12 0 0 0 118 102 Z" fill="#8a8a8a" opacity="0.2" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="96" y="94" fill="#8a8a8a">D&#8320;</text>
+
+  <!-- Bob analyzer (tilted bar) -->
+  <line x1="480" y1="72" x2="480" y2="108" stroke="#4a90d9" stroke-width="3" transform="rotate(-20 480 90)"/>
+  <line x1="480" y1="70" x2="480" y2="110" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 3"/>
+  <path d="M 480 74 A 16 16 0 0 0 471 79" fill="none" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="486" y="72" fill="#e0645c">b</text>
+  <text x="470" y="128" fill="#8a8a8a">Bob</text>
+
+  <!-- Bob detector -->
+  <path d="M 522 78 A 12 12 0 0 1 522 102 Z" fill="#8a8a8a" opacity="0.2" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="528" y="94" fill="#8a8a8a">D&#8321;</text>
+
+  <!-- coincidence counter -->
+  <line x1="110" y1="102" x2="110" y2="176" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="530" y1="102" x2="530" y2="176" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="110" y1="176" x2="250" y2="176" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="530" y1="176" x2="390" y2="176" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <rect x="250" y="160" width="140" height="32" fill="#e0645c" opacity="0.12" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="266" y="180" fill="#e0645c">coincidence &amp;</text>
+
+  <!-- ================= bottom: |S| vs angle plot ================= -->
+
+  <!-- axes -->
+  <line x1="60" y1="250" x2="60" y2="382" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="60" y1="382" x2="392" y2="382" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="24" y="254" fill="#8a8a8a">|S|</text>
+  <text x="396" y="386" fill="#8a8a8a">&#966;</text>
+
+  <!-- classical bound line at |S| = 2 -->
+  <line x1="60" y1="293.3" x2="392" y2="293.3" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="398" y="298" fill="#e0645c">2 (LHV limit)</text>
+
+  <!-- tick at Tsirelson peak 2.83 -->
+  <line x1="56" y1="257.5" x2="60" y2="257.5" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="16" y="261" fill="#8a8a8a">2.83</text>
+  <line x1="56" y1="382" x2="60" y2="382" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="46" y="396" fill="#8a8a8a">0</text>
+  <line x1="220" y1="382" x2="220" y2="386" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="206" y="399" fill="#8a8a8a">22.5&#176;</text>
+
+  <!-- quantum curve |S(phi)| = |3cos2phi - cos6phi| -->
+  <path d="M 60 293.3 L 95.6 289.5 L 131.1 279.5 L 166.7 267.4 L 202.2 258.8 L 220 257.5 L 237.8 258.9 L 273.3 271.7 L 308.9 298.0 L 344.4 335.8 L 380 382"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <!-- peak marker -->
+  <circle cx="220" cy="257.5" r="3.5" fill="#4a90d9"/>
+  <text x="228" y="252" fill="#4a90d9">2&#8730;2</text>
+</svg>

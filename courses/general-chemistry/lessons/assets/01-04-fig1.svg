@@ -1,0 +1,124 @@
+<svg viewBox="0 0 640 460" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="15">
+  <!-- caption -->
+  <text x="24" y="20" fill="#8a8a8a" font-style="italic" font-size="13">Two ways to fill an octet: hand electrons over (ionic) or share them (covalent). Bonds = grey lines, shared pairs = blue, lone pairs / charges = coral.</text>
+
+  <!-- ============ PANEL 1: ionic vs covalent contrast ============ -->
+  <text x="150" y="52" fill="#8a8a8a" text-anchor="middle" font-size="13">Ionic &#8212; 1 e&#8722; transferred</text>
+  <text x="470" y="52" fill="#8a8a8a" text-anchor="middle" font-size="13">Covalent &#8212; pair shared</text>
+
+  <!-- ionic: Na loses its lone valence electron to Cl -->
+  <text x="70" y="100" fill="#8a8a8a" text-anchor="middle">Na</text>
+  <circle cx="92" cy="93" r="2.6" fill="#e0645c"/>
+  <line x1="104" y1="96" x2="150" y2="96" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="150,96 141,92 141,100" fill="#8a8a8a"/>
+  <text x="127" y="90" fill="#e0645c" text-anchor="middle" font-size="11">e&#8722;</text>
+  <!-- Cl with a full complement of lone pairs (coral) -->
+  <text x="172" y="100" fill="#8a8a8a" text-anchor="middle">Cl</text>
+  <circle cx="162" cy="84" r="2.6" fill="#e0645c"/>
+  <circle cx="182" cy="84" r="2.6" fill="#e0645c"/>
+  <circle cx="194" cy="94" r="2.6" fill="#e0645c"/>
+  <circle cx="194" cy="106" r="2.6" fill="#e0645c"/>
+  <circle cx="162" cy="116" r="2.6" fill="#e0645c"/>
+  <circle cx="182" cy="116" r="2.6" fill="#e0645c"/>
+  <circle cx="152" cy="94" r="2.6" fill="#e0645c"/>
+  <circle cx="152" cy="106" r="2.6" fill="#e0645c"/>
+  <!-- result: two ions -->
+  <text x="90" y="142" fill="#8a8a8a" text-anchor="middle">Na</text>
+  <text x="104" y="135" fill="#e0645c" font-size="11">+</text>
+  <text x="128" y="142" fill="#8a8a8a" text-anchor="middle">+</text>
+  <text x="160" y="142" fill="#8a8a8a" text-anchor="middle">Cl</text>
+  <text x="174" y="135" fill="#e0645c" font-size="11">&#8722;</text>
+
+  <!-- covalent: H2, one shared pair (blue) between the two H -->
+  <text x="430" y="100" fill="#8a8a8a" text-anchor="middle">H</text>
+  <circle cx="456" cy="96" r="2.8" fill="#4a90d9"/>
+  <circle cx="468" cy="96" r="2.8" fill="#4a90d9"/>
+  <text x="494" y="100" fill="#8a8a8a" text-anchor="middle">H</text>
+  <text x="462" y="142" fill="#8a8a8a" text-anchor="middle" font-size="13">H&#8211;H &#160;(each H now sees 2 e&#8722;)</text>
+
+  <!-- divider -->
+  <line x1="24" y1="162" x2="616" y2="162" stroke="#8a8a8a" stroke-width="0.6" stroke-dasharray="2 5"/>
+
+  <!-- ============ PANEL 2: CO2 Lewis structure ============ -->
+  <text x="320" y="184" fill="#8a8a8a" text-anchor="middle" font-style="italic" font-size="13">CO&#8322; &#8212; carbon completes its octet with two double bonds</text>
+
+  <!-- atoms -->
+  <text x="230" y="230" fill="#8a8a8a" text-anchor="middle">O</text>
+  <text x="320" y="230" fill="#8a8a8a" text-anchor="middle">C</text>
+  <text x="410" y="230" fill="#8a8a8a" text-anchor="middle">O</text>
+  <!-- left double bond -->
+  <line x1="248" y1="220" x2="304" y2="220" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="248" y1="230" x2="304" y2="230" stroke="#8a8a8a" stroke-width="1.5"/>
+  <!-- right double bond -->
+  <line x1="336" y1="220" x2="392" y2="220" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="336" y1="230" x2="392" y2="230" stroke="#8a8a8a" stroke-width="1.5"/>
+  <!-- left O lone pairs (2 pairs) -->
+  <circle cx="216" cy="212" r="2.6" fill="#e0645c"/>
+  <circle cx="228" cy="212" r="2.6" fill="#e0645c"/>
+  <circle cx="216" cy="240" r="2.6" fill="#e0645c"/>
+  <circle cx="228" cy="240" r="2.6" fill="#e0645c"/>
+  <!-- right O lone pairs (2 pairs) -->
+  <circle cx="412" cy="212" r="2.6" fill="#e0645c"/>
+  <circle cx="424" cy="212" r="2.6" fill="#e0645c"/>
+  <circle cx="412" cy="240" r="2.6" fill="#e0645c"/>
+  <circle cx="424" cy="240" r="2.6" fill="#e0645c"/>
+
+  <!-- divider -->
+  <line x1="24" y1="262" x2="616" y2="262" stroke="#8a8a8a" stroke-width="0.6" stroke-dasharray="2 5"/>
+
+  <!-- ============ PANEL 3: NO3- resonance set ============ -->
+  <text x="320" y="286" fill="#8a8a8a" text-anchor="middle" font-style="italic" font-size="13">NO&#8323;&#8315; &#8212; one delocalized structure, drawn as three resonance forms</text>
+
+  <!-- group 1 (cx=110): double bond to top O -->
+  <text x="110" y="360" fill="#8a8a8a" text-anchor="middle">N</text>
+  <text x="110" y="305" fill="#8a8a8a" text-anchor="middle">O</text>
+  <text x="58" y="400" fill="#8a8a8a" text-anchor="middle">O</text>
+  <text x="162" y="400" fill="#8a8a8a" text-anchor="middle">O</text>
+  <!-- double bond up -->
+  <line x1="108.5" y1="345" x2="108.5" y2="316" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="111.5" y1="345" x2="111.5" y2="316" stroke="#8a8a8a" stroke-width="1.5"/>
+  <!-- single bonds down-left, down-right -->
+  <line x1="97.9" y1="363.9" x2="70.1" y2="384.2" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="122.1" y1="363.9" x2="149.9" y2="384.2" stroke="#8a8a8a" stroke-width="1.5"/>
+  <!-- coral -1 on the two single-bonded O -->
+  <text x="40" y="398" fill="#e0645c" font-size="12">&#8722;</text>
+  <text x="180" y="398" fill="#e0645c" font-size="12">&#8722;</text>
+
+  <!-- resonance arrow 1 -->
+  <text x="222" y="368" fill="#8a8a8a" text-anchor="middle" font-size="24">&#8596;</text>
+
+  <!-- group 2 (cx=330): double bond to bottom-right O -->
+  <text x="330" y="360" fill="#8a8a8a" text-anchor="middle">N</text>
+  <text x="330" y="305" fill="#8a8a8a" text-anchor="middle">O</text>
+  <text x="278" y="400" fill="#8a8a8a" text-anchor="middle">O</text>
+  <text x="382" y="400" fill="#8a8a8a" text-anchor="middle">O</text>
+  <!-- single bond up -->
+  <line x1="330" y1="345" x2="330" y2="316" stroke="#8a8a8a" stroke-width="1.5"/>
+  <!-- single bond down-left -->
+  <line x1="317.9" y1="363.9" x2="290.1" y2="384.2" stroke="#8a8a8a" stroke-width="1.5"/>
+  <!-- double bond down-right -->
+  <line x1="341.1" y1="362.7" x2="368.9" y2="383.0" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="343.1" y1="365.1" x2="370.9" y2="385.4" stroke="#8a8a8a" stroke-width="1.5"/>
+  <!-- coral -1 on the two single-bonded O (top, bottom-left) -->
+  <text x="338" y="303" fill="#e0645c" font-size="12">&#8722;</text>
+  <text x="260" y="398" fill="#e0645c" font-size="12">&#8722;</text>
+
+  <!-- resonance arrow 2 -->
+  <text x="442" y="368" fill="#8a8a8a" text-anchor="middle" font-size="24">&#8596;</text>
+
+  <!-- group 3 (cx=550): double bond to bottom-left O -->
+  <text x="550" y="360" fill="#8a8a8a" text-anchor="middle">N</text>
+  <text x="550" y="305" fill="#8a8a8a" text-anchor="middle">O</text>
+  <text x="498" y="400" fill="#8a8a8a" text-anchor="middle">O</text>
+  <text x="602" y="400" fill="#8a8a8a" text-anchor="middle">O</text>
+  <!-- single bond up -->
+  <line x1="550" y1="345" x2="550" y2="316" stroke="#8a8a8a" stroke-width="1.5"/>
+  <!-- double bond down-left -->
+  <line x1="536.9" y1="362.7" x2="509.1" y2="383.0" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="538.9" y1="365.1" x2="511.1" y2="385.4" stroke="#8a8a8a" stroke-width="1.5"/>
+  <!-- single bond down-right -->
+  <line x1="562.1" y1="363.9" x2="589.9" y2="384.2" stroke="#8a8a8a" stroke-width="1.5"/>
+  <!-- coral -1 on the two single-bonded O (top, bottom-right) -->
+  <text x="558" y="303" fill="#e0645c" font-size="12">&#8722;</text>
+  <text x="620" y="398" fill="#e0645c" font-size="12">&#8722;</text>
+</svg>

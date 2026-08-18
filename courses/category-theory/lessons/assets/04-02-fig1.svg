@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" width="720" height="320">
+  <rect x="0" y="0" width="720" height="320" fill="#ffffff"/>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#111111"/>
+    </marker>
+  </defs>
+
+  <!-- ============ LEFT: unit triangle  a . eta_A = id_A ============ -->
+  <text x="72"  y="72"  font-family="Helvetica, Arial, sans-serif" font-size="24" font-style="italic" fill="#111111">A</text>
+  <text x="248" y="72"  font-family="Helvetica, Arial, sans-serif" font-size="24" font-style="italic" fill="#111111">TA</text>
+  <text x="252" y="272" font-family="Helvetica, Arial, sans-serif" font-size="24" font-style="italic" fill="#111111">A</text>
+
+  <!-- eta_A : A -> TA -->
+  <line x1="98" y1="64" x2="240" y2="64" stroke="#111111" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="150" y="52" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#111111">&#951;<tspan dy="6" font-size="14">A</tspan></text>
+
+  <!-- a : TA -> A (right vertical, down) -->
+  <line x1="262" y1="84" x2="262" y2="248" stroke="#111111" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="272" y="172" font-family="Helvetica, Arial, sans-serif" font-size="20" font-style="italic" fill="#111111">a</text>
+
+  <!-- id_A : A -> A (diagonal) -->
+  <line x1="90" y1="80" x2="244" y2="252" stroke="#111111" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="122" y="196" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#111111">id<tspan dy="6" font-size="14">A</tspan></text>
+
+  <text x="70" y="300" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#111111">unit law: a &#8728; &#951;<tspan dy="4" font-size="12">A</tspan><tspan dy="-4" font-size="15"> = id</tspan></text>
+
+  <!-- ============ RIGHT: multiplication square  a . mu_A = a . Ta ============ -->
+  <text x="420" y="72"  font-family="Helvetica, Arial, sans-serif" font-size="24" font-style="italic" fill="#111111">TTA</text>
+  <text x="642" y="72"  font-family="Helvetica, Arial, sans-serif" font-size="24" font-style="italic" fill="#111111">TA</text>
+  <text x="424" y="272" font-family="Helvetica, Arial, sans-serif" font-size="24" font-style="italic" fill="#111111">TA</text>
+  <text x="648" y="272" font-family="Helvetica, Arial, sans-serif" font-size="24" font-style="italic" fill="#111111">A</text>
+
+  <!-- mu_A : TTA -> TA (top) -->
+  <line x1="478" y1="64" x2="632" y2="64" stroke="#111111" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="536" y="52" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#111111">&#956;<tspan dy="6" font-size="14">A</tspan></text>
+
+  <!-- Ta : TTA -> TA (left, down) -->
+  <line x1="438" y1="84" x2="438" y2="248" stroke="#111111" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="398" y="172" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#111111">Ta</text>
+
+  <!-- a : TA -> A (right, down) -->
+  <line x1="658" y1="84" x2="658" y2="248" stroke="#111111" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="668" y="172" font-family="Helvetica, Arial, sans-serif" font-size="20" font-style="italic" fill="#111111">a</text>
+
+  <!-- a : TA -> A (bottom) -->
+  <line x1="478" y1="264" x2="632" y2="264" stroke="#111111" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="546" y="256" font-family="Helvetica, Arial, sans-serif" font-size="20" font-style="italic" fill="#111111">a</text>
+
+  <text x="420" y="300" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#111111">assoc law: a &#8728; &#956;<tspan dy="4" font-size="12">A</tspan><tspan dy="-4" font-size="15"> = a &#8728; Ta</tspan></text>
+</svg>

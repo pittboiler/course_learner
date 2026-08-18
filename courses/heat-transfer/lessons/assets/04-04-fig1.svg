@@ -1,0 +1,69 @@
+<svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="24" y="20" fill="#8a8a8a" font-style="italic">Temperature along the exchanger: counterflow keeps &#916;T nearly uniform; parallel flow starts wide and collapses.</text>
+
+  <text x="120" y="44" fill="#8a8a8a" font-weight="bold" font-size="12">COUNTERFLOW</text>
+  <text x="452" y="44" fill="#8a8a8a" font-weight="bold" font-size="12">PARALLEL FLOW</text>
+
+  <line x1="60" y1="210" x2="298" y2="210" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="298,210 288,205 288,215" fill="#8a8a8a"/>
+  <text x="255" y="228" fill="#8a8a8a">position x</text>
+  <line x1="60" y1="210" x2="60" y2="55" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="60,55 55,65 65,65" fill="#8a8a8a"/>
+  <text x="40" y="63" fill="#8a8a8a">T</text>
+  <text x="45" y="214" fill="#8a8a8a">0</text>
+  <text x="280" y="214" fill="#8a8a8a">L</text>
+
+  <line x1="70" y1="78.8" x2="285" y2="153.8" stroke="#e0645c" stroke-width="3"/>
+  <line x1="70" y1="125.6" x2="285" y2="191.3" stroke="#4a90d9" stroke-width="3"/>
+
+  <text x="105" y="92" fill="#e0645c">hot &#8594;</text>
+  <text x="105" y="160" fill="#4a90d9">cold &#8592;</text>
+
+  <text x="72" y="72" fill="#e0645c">80&#176;</text>
+  <text x="290" y="158" fill="#e0645c">40&#176;</text>
+  <text x="70" y="120" fill="#4a90d9">55&#176;</text>
+  <text x="290" y="195" fill="#4a90d9">20&#176;</text>
+
+  <line x1="88" y1="85.2" x2="88" y2="131.1" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="88,85.2 84,93 92,93" fill="#8a8a8a"/>
+  <polygon points="88,131.1 84,123 92,123" fill="#8a8a8a"/>
+  <text x="93" y="112" fill="#8a8a8a">&#916;T&#8321;</text>
+
+  <line x1="262" y1="146.4" x2="262" y2="184.8" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="262,146.4 258,154 266,154" fill="#8a8a8a"/>
+  <polygon points="262,184.8 258,177 266,177" fill="#8a8a8a"/>
+  <text x="230" y="170" fill="#8a8a8a">&#916;T&#8322;</text>
+
+  <text x="72" y="252" fill="#8a8a8a" font-size="11">lines stay close &#8594; small, even &#916;T</text>
+
+  <line x1="392" y1="210" x2="620" y2="210" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="620,210 610,205 610,215" fill="#8a8a8a"/>
+  <text x="580" y="228" fill="#8a8a8a">position x</text>
+  <line x1="392" y1="210" x2="392" y2="55" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="392,55 387,65 397,65" fill="#8a8a8a"/>
+  <text x="372" y="63" fill="#8a8a8a">T</text>
+  <text x="377" y="214" fill="#8a8a8a">0</text>
+  <text x="602" y="214" fill="#8a8a8a">L</text>
+
+  <path d="M 402 78.8 Q 500 130 610 137" fill="none" stroke="#e0645c" stroke-width="3"/>
+  <path d="M 402 191.3 Q 500 150 610 147" fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <text x="470" y="98" fill="#e0645c">hot &#8594;</text>
+  <text x="468" y="184" fill="#4a90d9">cold &#8594;</text>
+
+  <text x="404" y="72" fill="#e0645c">80&#176;</text>
+  <text x="404" y="205" fill="#4a90d9">20&#176;</text>
+  <text x="615" y="135" fill="#e0645c">50&#176;</text>
+  <text x="615" y="152" fill="#4a90d9">45&#176;</text>
+
+  <line x1="410" y1="82" x2="410" y2="188" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="410,82 406,90 414,90" fill="#8a8a8a"/>
+  <polygon points="410,188 406,180 414,180" fill="#8a8a8a"/>
+  <text x="414" y="139" fill="#8a8a8a">&#916;T&#8321;</text>
+
+  <line x1="598" y1="138" x2="598" y2="146" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="560" y="128" fill="#8a8a8a">&#916;T&#8322;</text>
+  <line x1="565" y1="131" x2="596" y2="141" stroke="#8a8a8a" stroke-width="0.8"/>
+
+  <text x="404" y="252" fill="#8a8a8a" font-size="11">outlets crowd together; cold-out can&#8217;t pass hot-out</text>
+</svg>

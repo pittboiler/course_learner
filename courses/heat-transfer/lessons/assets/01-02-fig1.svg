@@ -1,0 +1,57 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="26" fill="#8a8a8a" font-style="italic">Energy balance on a slab of thickness dx: (conduction in) + (generation) = (conduction out) + (storage).</text>
+
+  <!-- ===== the control volume ===== -->
+  <rect x="250" y="90" width="150" height="150" fill="#4a90d9" opacity="0.12" stroke="#4a90d9" stroke-width="2"/>
+
+  <!-- conduction IN at x -->
+  <line x1="150" y1="140" x2="248" y2="140" stroke="#4a90d9" stroke-width="3"/>
+  <polygon points="250,140 238,134 238,146" fill="#4a90d9"/>
+  <text x="150" y="126" fill="#4a90d9">q&#8243;(x) A</text>
+  <text x="150" y="160" fill="#8a8a8a" font-size="12">conduction in</text>
+
+  <!-- conduction OUT at x+dx -->
+  <line x1="400" y1="140" x2="498" y2="140" stroke="#4a90d9" stroke-width="3"/>
+  <polygon points="500,140 488,134 488,146" fill="#4a90d9"/>
+  <text x="408" y="126" fill="#4a90d9">q&#8243;(x+dx) A</text>
+  <text x="408" y="160" fill="#8a8a8a" font-size="12">conduction out</text>
+
+  <!-- generation sunburst -->
+  <line x1="325" y1="128" x2="325" y2="108" stroke="#e0645c" stroke-width="2"/>
+  <line x1="325" y1="128" x2="309" y2="116" stroke="#e0645c" stroke-width="2"/>
+  <line x1="325" y1="128" x2="341" y2="116" stroke="#e0645c" stroke-width="2"/>
+  <line x1="325" y1="128" x2="307" y2="130" stroke="#e0645c" stroke-width="2"/>
+  <line x1="325" y1="128" x2="343" y2="130" stroke="#e0645c" stroke-width="2"/>
+  <circle cx="325" cy="128" r="4" fill="#e0645c"/>
+  <text x="252" y="188" fill="#e0645c">generation</text>
+  <text x="252" y="206" fill="#e0645c" font-size="13">q&#775; A dx</text>
+
+  <!-- storage label -->
+  <text x="330" y="188" fill="#8a8a8a">storage</text>
+  <text x="330" y="206" fill="#8a8a8a" font-size="13">&#961; c</text>
+  <text x="349" y="210" fill="#8a8a8a" font-size="10">p</text>
+  <text x="355" y="206" fill="#8a8a8a" font-size="13">A dx &#8706;T/&#8706;t</text>
+
+  <!-- ===== position axis ===== -->
+  <line x1="200" y1="290" x2="470" y2="290" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="470,290 460,285 460,295" fill="#8a8a8a"/>
+  <text x="474" y="295" fill="#8a8a8a">x</text>
+
+  <!-- tick at x -->
+  <line x1="250" y1="240" x2="250" y2="298" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="244" y="314" fill="#8a8a8a">x</text>
+  <!-- tick at x+dx -->
+  <line x1="400" y1="240" x2="400" y2="298" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="384" y="314" fill="#8a8a8a">x+dx</text>
+
+  <!-- dx dimension -->
+  <line x1="250" y1="272" x2="400" y2="272" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="250,272 260,268 260,276" fill="#e0645c"/>
+  <polygon points="400,272 390,268 390,276" fill="#e0645c"/>
+  <text x="318" y="266" fill="#e0645c">dx</text>
+
+  <!-- area A note on left face -->
+  <text x="196" y="110" fill="#8a8a8a" font-size="12">area A</text>
+  <line x1="210" y1="114" x2="248" y2="128" stroke="#8a8a8a" stroke-width="0.8"/>
+</svg>

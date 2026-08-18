@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" width="720" height="380">
+  <rect x="0" y="0" width="720" height="380" fill="#ffffff"/>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#111111"/>
+    </marker>
+    <marker id="dbl" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="11" markerHeight="11" orient="auto-start-reverse">
+      <path d="M0,1 L11,6 L0,11" fill="none" stroke="#111111" stroke-width="1.6"/>
+    </marker>
+  </defs>
+
+  <!-- title -->
+  <text x="360" y="34" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="21" font-weight="bold" fill="#111111">A 2-cell in Cat</text>
+  <text x="360" y="56" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="14" font-style="italic" fill="#555555">objects = categories,  1-morphisms = functors,  2-morphism = natural transformation</text>
+
+  <!-- object dots -->
+  <circle cx="150" cy="210" r="6" fill="#111111"/>
+  <text x="150" y="252" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#111111">C</text>
+  <text x="150" y="272" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="13" font-style="italic" fill="#555555">a category</text>
+
+  <circle cx="570" cy="210" r="6" fill="#111111"/>
+  <text x="570" y="252" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#111111">D</text>
+  <text x="570" y="272" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="13" font-style="italic" fill="#555555">a category</text>
+
+  <!-- top 1-morphism F : C -> D (curved up) -->
+  <path d="M162,200 C 280,120 440,120 558,200" fill="none" stroke="#111111" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="360" y="128" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="22" font-style="italic" fill="#111111">F</text>
+
+  <!-- bottom 1-morphism G : C -> D (curved down) -->
+  <path d="M162,222 C 280,302 440,302 558,222" fill="none" stroke="#111111" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="360" y="308" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="22" font-style="italic" fill="#111111">G</text>
+
+  <!-- the 2-morphism: double arrow F => G, vertical in the middle -->
+  <line x1="360" y1="168" x2="360" y2="262" stroke="#111111" stroke-width="1.8" marker-end="url(#dbl)"/>
+  <text x="392" y="222" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#111111">&#945;</text>
+  <text x="360" y="352" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="15" font-style="italic" fill="#111111">the 2-cell  &#945; : F &#8658; G   (a natural transformation)</text>
+</svg>

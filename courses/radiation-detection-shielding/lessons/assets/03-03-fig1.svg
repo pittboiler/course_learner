@@ -1,0 +1,58 @@
+<svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Same photons, bigger sphere: fluence spreads over 4&#960;d&#178;, so dose rate falls as 1/d&#178;.</text>
+
+  <!-- ===== left panel: spreading sphere ===== -->
+
+  <!-- source -->
+  <circle cx="60" cy="165" r="6" fill="#e0645c"/>
+  <text x="42" y="200" fill="#e0645c">source A</text>
+
+  <!-- rays fanning out -->
+  <line x1="60" y1="165" x2="205" y2="97" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="60" y1="165" x2="212" y2="128" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="60" y1="165" x2="215" y2="165" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="60" y1="165" x2="212" y2="202" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="60" y1="165" x2="205" y2="233" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- near shell at radius d -->
+  <path d="M 121 130 A 70 70 0 0 1 121 200" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="112" y="120" fill="#4a90d9">d</text>
+
+  <!-- far shell at radius 2d -->
+  <path d="M 181 95 A 140 140 0 0 1 181 235" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="176" y="86" fill="#4a90d9">2d</text>
+
+  <!-- area annotation -->
+  <text x="120" y="270" fill="#e0645c">area &#215;4 &#8594; rate &#215;&#188;</text>
+
+  <!-- ===== right panel: 1/d^2 curve ===== -->
+
+  <!-- axes -->
+  <line x1="380" y1="240" x2="625" y2="240" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="625,240 615,235 615,245" fill="#8a8a8a"/>
+  <text x="612" y="260" fill="#8a8a8a">d</text>
+  <line x1="380" y1="240" x2="380" y2="75" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="380,75 375,85 385,85" fill="#8a8a8a"/>
+  <text x="388" y="82" fill="#8a8a8a">D&#775;</text>
+
+  <!-- the 1/d^2 curve -->
+  <path d="M 420 90 L 435 144 L 450 173 L 465 191 L 480 203 L 510 216 L 540 223 L 570 228 L 600 231"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- marker at d = 1.5 m -->
+  <line x1="450" y1="240" x2="450" y2="173" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="380" y1="173" x2="450" y2="173" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <circle cx="450" cy="173" r="4" fill="#e0645c"/>
+  <text x="440" y="256" fill="#e0645c">d</text>
+
+  <!-- marker at 2d = 3.0 m -->
+  <line x1="540" y1="240" x2="540" y2="223" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="380" y1="223" x2="540" y2="223" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <circle cx="540" cy="223" r="4" fill="#e0645c"/>
+  <text x="528" y="256" fill="#e0645c">2d</text>
+
+  <!-- law label -->
+  <text x="470" y="120" fill="#4a90d9">D&#775; &#8733; 1/d&#178;</text>
+  <text x="486" y="212" fill="#e0645c">&#188; the rate</text>
+</svg>

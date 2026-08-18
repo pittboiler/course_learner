@@ -1,0 +1,69 @@
+<svg viewBox="0 0 640 440" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Top: a pulse reflects upside-down off a fixed end.</text>
+  <text x="40" y="40" fill="#8a8a8a" font-style="italic">Bottom: two end tensions restore a curved element.</text>
+
+  <!-- ===== Panel A: reflection at a fixed end ===== -->
+
+  <!-- wall (fixed end) -->
+  <line x1="550" y1="45" x2="550" y2="225" stroke="#8a8a8a" stroke-width="2.5"/>
+  <line x1="550" y1="50"  x2="566" y2="60"  stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="550" y1="72"  x2="566" y2="82"  stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="550" y1="94"  x2="566" y2="104" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="550" y1="116" x2="566" y2="126" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="550" y1="138" x2="566" y2="148" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="550" y1="160" x2="566" y2="170" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="550" y1="182" x2="566" y2="192" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="550" y1="204" x2="566" y2="214" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="574" y="140" fill="#8a8a8a" font-style="italic">fixed</text>
+  <text x="574" y="156" fill="#8a8a8a" font-style="italic">end</text>
+
+  <!-- snapshot 1: incoming upward pulse, baseline y=95 -->
+  <text x="40" y="78" fill="#8a8a8a">before</text>
+  <path d="M 60 95 L 360 95 C 402 95, 402 53, 430 53 C 458 53, 458 95, 500 95 L 550 95"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <!-- travel direction (to the right) -->
+  <line x1="413" y1="33" x2="451" y2="33" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="451,33 443,29 443,37" fill="#e0645c"/>
+  <text x="456" y="38" fill="#e0645c">v</text>
+
+  <!-- snapshot 2: reflected, inverted pulse, baseline y=175 -->
+  <text x="40" y="158" fill="#8a8a8a">after</text>
+  <path d="M 60 175 L 180 175 C 208 175, 208 217, 250 217 C 292 217, 292 175, 320 175 L 550 175"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+  <!-- travel direction (back to the left) -->
+  <line x1="290" y1="150" x2="252" y2="150" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="252,150 260,146 260,154" fill="#e0645c"/>
+  <text x="232" y="155" fill="#e0645c">v</text>
+  <text x="150" y="245" fill="#8a8a8a" font-style="italic">inverted: a π phase flip</text>
+
+  <!-- ===== Panel B: forces on a curved string element ===== -->
+  <text x="40" y="288" fill="#8a8a8a" font-style="italic">A crest element</text>
+
+  <!-- equilibrium reference -->
+  <line x1="150" y1="360" x2="410" y2="360" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- the curved element (a crest) -->
+  <path d="M 180 360 Q 280 316 380 360" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="392" y="336" fill="#4a90d9">string element</text>
+
+  <!-- tension at left end, pulling outward (down-left) along the string -->
+  <line x1="180" y1="360" x2="142" y2="377" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="142,377 152.7,376.6 149.5,369.3" fill="#e0645c"/>
+  <text x="128" y="392" fill="#e0645c">T</text>
+
+  <!-- tension at right end, pulling outward (down-right) along the string -->
+  <line x1="380" y1="360" x2="418" y2="377" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="418,377 407.3,376.6 410.5,369.3" fill="#e0645c"/>
+  <text x="422" y="392" fill="#e0645c">T</text>
+
+  <!-- small angle marks -->
+  <text x="196" y="352" fill="#8a8a8a">θ</text>
+  <text x="360" y="352" fill="#8a8a8a">θ</text>
+
+  <!-- net restoring force (downward, toward flat) -->
+  <line x1="280" y1="322" x2="280" y2="354" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="280,354 276,346 284,346" fill="#e0645c"/>
+  <text x="288" y="346" fill="#e0645c">F net</text>
+  <text x="60" y="412" fill="#8a8a8a" font-style="italic">both tensions tilt down → a net restoring pull ∝ curvature ∂²y/∂x²</text>
+</svg>

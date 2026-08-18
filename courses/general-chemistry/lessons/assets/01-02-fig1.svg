@@ -1,0 +1,56 @@
+<svg viewBox="0 0 480 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <!-- caption -->
+  <text x="24" y="20" fill="#8a8a8a" font-style="italic">The table IS the filling order: read left&#8594;right, top&#8594;bottom to get 1s 2s 2p 3s 3p 4s 3d 4p&#8230;</text>
+  <text x="24" y="36" fill="#8a8a8a" font-style="italic">Each block names the subshell being filled. Period = highest n. Group = valence-electron count.</text>
+
+  <!-- group numbers (top) -->
+  <text x="47"  y="52" fill="#8a8a8a" font-size="11">1</text>
+  <text x="69"  y="52" fill="#8a8a8a" font-size="11">2</text>
+  <text x="176" y="52" fill="#8a8a8a" font-size="11">3&#8211;12</text>
+  <text x="310" y="52" fill="#8a8a8a" font-size="11">13</text>
+  <text x="332" y="52" fill="#8a8a8a" font-size="11">14</text>
+  <text x="354" y="52" fill="#8a8a8a" font-size="11">15</text>
+  <text x="376" y="52" fill="#8a8a8a" font-size="11">16</text>
+  <text x="398" y="52" fill="#8a8a8a" font-size="11">17</text>
+  <text x="420" y="52" fill="#8a8a8a" font-size="11">18</text>
+
+  <!-- period numbers (left, highest n) -->
+  <text x="26" y="72"  fill="#8a8a8a" font-size="11">n=1</text>
+  <text x="26" y="94"  fill="#8a8a8a" font-size="11">n=2</text>
+  <text x="26" y="116" fill="#8a8a8a" font-size="11">n=3</text>
+  <text x="26" y="138" fill="#8a8a8a" font-size="11">n=4</text>
+  <text x="26" y="160" fill="#8a8a8a" font-size="11">n=5</text>
+  <text x="26" y="182" fill="#8a8a8a" font-size="11">n=6</text>
+  <text x="26" y="204" fill="#8a8a8a" font-size="11">n=7</text>
+
+  <!-- s-block: groups 1-2, periods 1-7 -->
+  <rect x="42" y="57" width="44" height="154" fill="#4a90d9" fill-opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <text x="52" y="140" fill="#4a90d9" font-size="26" font-weight="bold">s</text>
+  <text x="47" y="164" fill="#4a90d9" font-size="11">ns</text>
+
+  <!-- He cell (s-block, sits at group 18) -->
+  <rect x="416" y="57" width="22" height="22" fill="#4a90d9" fill-opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <text x="420" y="72" fill="#4a90d9" font-size="10">He</text>
+
+  <!-- p-block: groups 13-18, periods 2-7 -->
+  <rect x="306" y="79" width="132" height="132" fill="#4a90d9" fill-opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <text x="360" y="150" fill="#4a90d9" font-size="26" font-weight="bold">p</text>
+  <text x="352" y="174" fill="#4a90d9" font-size="11">ns np</text>
+
+  <!-- d-block: groups 3-12, periods 4-7 -->
+  <rect x="86" y="123" width="220" height="88" fill="#e0645c" fill-opacity="0.15" stroke="#e0645c" stroke-width="2"/>
+  <text x="182" y="172" fill="#e0645c" font-size="26" font-weight="bold">d</text>
+  <text x="168" y="196" fill="#e0645c" font-size="11">(n&#8722;1)d</text>
+
+  <!-- f-block: 14 wide, periods 6-7, drawn as strip below -->
+  <rect x="86" y="231" width="308" height="44" fill="#e0645c" fill-opacity="0.15" stroke="#e0645c" stroke-width="2"/>
+  <text x="228" y="260" fill="#e0645c" font-size="22" font-weight="bold">f</text>
+  <text x="94" y="248" fill="#8a8a8a" font-size="11">4f (n=6), 5f (n=7)</text>
+  <text x="316" y="264" fill="#e0645c" font-size="11">(n&#8722;2)f</text>
+
+  <!-- legend -->
+  <rect x="42" y="292" width="14" height="14" fill="#4a90d9" fill-opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <text x="62" y="303" fill="#8a8a8a">s &amp; p blocks &#8212; main-group (valence ns / np)</text>
+  <rect x="42" y="312" width="14" height="14" fill="#e0645c" fill-opacity="0.15" stroke="#e0645c" stroke-width="2"/>
+  <text x="62" y="323" fill="#8a8a8a">d &amp; f blocks &#8212; transition / inner-transition</text>
+</svg>

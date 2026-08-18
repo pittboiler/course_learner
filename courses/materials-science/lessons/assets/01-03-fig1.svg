@@ -1,0 +1,46 @@
+<svg viewBox="0 0 620 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">One cubic cell: the direction [110] is a face diagonal; the plane (111) cuts the three unit intercepts.</text>
+
+  <!-- ===== cube edges (grey) ===== -->
+  <!-- bottom face A-B-C-D -->
+  <line x1="140" y1="250" x2="300" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="300" y1="250" x2="360" y2="208" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="360" y1="208" x2="200" y2="208" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="200" y1="208" x2="140" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <!-- top face E-F-G-H -->
+  <line x1="140" y1="90" x2="300" y2="90" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="300" y1="90" x2="360" y2="48" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="360" y1="48" x2="200" y2="48" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="200" y1="48" x2="140" y2="90" stroke="#8a8a8a" stroke-width="1.5"/>
+  <!-- verticals -->
+  <line x1="140" y1="250" x2="140" y2="90" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="300" y1="250" x2="300" y2="90" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="360" y1="208" x2="360" y2="48" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="200" y1="208" x2="200" y2="48" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- ===== (111) plane: triangle through (100),(010),(001) ===== -->
+  <polygon points="300,250 140,90 200,208" fill="#4a90d9" opacity="0.18" stroke="#4a90d9" stroke-width="2"/>
+  <text x="238" y="150" fill="#4a90d9" font-weight="bold">(111)</text>
+
+  <!-- ===== [110] direction: face diagonal from origin to (110) ===== -->
+  <line x1="140" y1="250" x2="300" y2="90" stroke="#e0645c" stroke-width="3"/>
+  <polygon points="300,90 294.3,95.7 285.9,104.1" fill="#e0645c"/>
+  <text x="300" y="128" fill="#e0645c" font-weight="bold">[110]</text>
+
+  <!-- ===== corner atoms (grey dots) ===== -->
+  <circle cx="140" cy="250" r="5" fill="#8a8a8a"/>
+  <circle cx="300" cy="250" r="5" fill="#8a8a8a"/>
+  <circle cx="360" cy="208" r="5" fill="#8a8a8a"/>
+  <circle cx="200" cy="208" r="5" fill="#8a8a8a"/>
+  <circle cx="140" cy="90" r="5" fill="#8a8a8a"/>
+  <circle cx="300" cy="90" r="5" fill="#8a8a8a"/>
+  <circle cx="360" cy="48" r="5" fill="#8a8a8a"/>
+  <circle cx="200" cy="48" r="5" fill="#8a8a8a"/>
+
+  <!-- ===== axes from origin ===== -->
+  <text x="126" y="272" fill="#8a8a8a">origin</text>
+  <text x="228" y="272" fill="#8a8a8a">x</text>
+  <text x="120" y="170" fill="#8a8a8a">y</text>
+  <text x="164" y="238" fill="#8a8a8a">z</text>
+</svg>

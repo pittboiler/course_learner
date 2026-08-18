@@ -1,0 +1,48 @@
+<svg viewBox="0 0 620 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Hard likes hard, soft likes soft: the two diagonal cells (blue) give stable adducts; off-diagonal (grey) are mismatched.</text>
+
+  <!-- ===== axis labels ===== -->
+  <text x="270" y="58" fill="#8a8a8a" font-size="15" font-weight="bold">BASE (donor)</text>
+  <text x="200" y="84" fill="#8a8a8a">Hard base</text>
+  <text x="415" y="84" fill="#8a8a8a">Soft base</text>
+
+  <text x="26" y="230" fill="#8a8a8a" font-size="15" font-weight="bold" transform="rotate(-90 26 230)">ACID (acceptor)</text>
+  <text x="52" y="168" fill="#8a8a8a" transform="rotate(-90 52 168)">Hard acid</text>
+  <text x="52" y="322" fill="#8a8a8a" transform="rotate(-90 52 322)">Soft acid</text>
+
+  <!-- ===== grid: 2x2, cells 170 wide, 130 tall, origin (140,100) ===== -->
+  <!-- favored diagonal cells (blue tint) -->
+  <rect x="140" y="100" width="170" height="130" fill="#4a90d9" opacity="0.16" stroke="#4a90d9" stroke-width="2.5"/>
+  <rect x="310" y="230" width="170" height="130" fill="#4a90d9" opacity="0.16" stroke="#4a90d9" stroke-width="2.5"/>
+  <!-- disfavored off-diagonal cells (grey) -->
+  <rect x="310" y="100" width="170" height="130" fill="none" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <rect x="140" y="230" width="170" height="130" fill="none" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="4 4"/>
+
+  <!-- ===== cell: hard acid + hard base (top-left, FAVORED) ===== -->
+  <text x="225" y="128" fill="#4a90d9" text-anchor="middle" font-weight="bold" font-size="15">FAVORED</text>
+  <text x="225" y="150" fill="#8a8a8a" text-anchor="middle" font-size="12">mostly ionic</text>
+  <text x="225" y="178" fill="#e0645c" text-anchor="middle" font-size="13">H&#8314;  Mg&#178;&#8314;  Al&#179;&#8314;</text>
+  <text x="225" y="198" fill="#e0645c" text-anchor="middle" font-size="13">+  F&#8315;  O&#178;&#8315;  OH&#8315;</text>
+  <text x="225" y="218" fill="#8a8a8a" text-anchor="middle" font-size="12">e.g. MgO, Al&#8322;O&#8323;</text>
+
+  <!-- ===== cell: hard acid + soft base (top-right, DISFAVORED) ===== -->
+  <text x="395" y="150" fill="#8a8a8a" text-anchor="middle" font-size="14">mismatch</text>
+  <text x="395" y="180" fill="#8a8a8a" text-anchor="middle" font-size="13">Mg&#178;&#8314; + I&#8315;</text>
+  <text x="395" y="200" fill="#8a8a8a" text-anchor="middle" font-size="13">weak, soluble</text>
+
+  <!-- ===== cell: soft acid + hard base (bottom-left, DISFAVORED) ===== -->
+  <text x="225" y="280" fill="#8a8a8a" text-anchor="middle" font-size="14">mismatch</text>
+  <text x="225" y="310" fill="#8a8a8a" text-anchor="middle" font-size="13">Hg&#178;&#8314; + F&#8315;</text>
+  <text x="225" y="330" fill="#8a8a8a" text-anchor="middle" font-size="13">weak, soluble</text>
+
+  <!-- ===== cell: soft acid + soft base (bottom-right, FAVORED) ===== -->
+  <text x="395" y="258" fill="#4a90d9" text-anchor="middle" font-weight="bold" font-size="15">FAVORED</text>
+  <text x="395" y="280" fill="#8a8a8a" text-anchor="middle" font-size="12">mostly covalent</text>
+  <text x="395" y="308" fill="#e0645c" text-anchor="middle" font-size="13">Cu&#8314;  Ag&#8314;  Hg&#178;&#8314;</text>
+  <text x="395" y="328" fill="#e0645c" text-anchor="middle" font-size="13">+  I&#8315;  S&#178;&#8315;  CN&#8315;</text>
+  <text x="395" y="348" fill="#8a8a8a" text-anchor="middle" font-size="12">e.g. HgS, Ag&#8322;S</text>
+
+  <!-- favored diagonal arrow -->
+  <line x1="300" y1="222" x2="322" y2="240" stroke="#4a90d9" stroke-width="2" stroke-dasharray="2 3"/>
+</svg>

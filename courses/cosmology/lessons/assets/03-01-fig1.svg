@@ -1,0 +1,46 @@
+<svg viewBox="0 0 620 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Recombination: the free-electron fraction x&#8337; crashes from 1 to ~0 near z &#8776; 1100 &#8212; and the fog clears.</text>
+
+  <!-- axes -->
+  <line x1="70" y1="250" x2="585" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="585,250 575,245 575,255" fill="#8a8a8a"/>
+  <line x1="70" y1="250" x2="70" y2="50" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,50 65,60 75,60" fill="#8a8a8a"/>
+
+  <!-- axis labels -->
+  <text x="500" y="272" fill="#8a8a8a">redshift z</text>
+  <text x="560" y="272" fill="#8a8a8a" font-size="12">(earlier &#8592;)</text>
+  <text x="20" y="60" fill="#8a8a8a">x&#8337;</text>
+  <text x="52" y="65" fill="#8a8a8a" font-size="12">1</text>
+  <text x="52" y="254" fill="#8a8a8a" font-size="12">0</text>
+
+  <!-- z ticks -->
+  <line x1="70" y1="250" x2="70" y2="256" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="52" y="270" fill="#8a8a8a" font-size="12">1400</text>
+  <line x1="233" y1="250" x2="233" y2="256" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="215" y="270" fill="#8a8a8a" font-size="12">1200</text>
+  <line x1="397" y1="250" x2="397" y2="256" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="379" y="270" fill="#8a8a8a" font-size="12">1000</text>
+  <line x1="560" y1="250" x2="560" y2="256" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="546" y="270" fill="#8a8a8a" font-size="12">800</text>
+
+  <!-- last-scattering band (thickness in z) -->
+  <rect x="290" y="60" width="66" height="190" fill="#e0645c" opacity="0.13"/>
+
+  <!-- ionized / neutral labels -->
+  <text x="120" y="95" fill="#8a8a8a" font-size="12">ionized plasma</text>
+  <text x="120" y="111" fill="#8a8a8a" font-size="12">(opaque)</text>
+  <text x="440" y="225" fill="#8a8a8a" font-size="12">neutral gas</text>
+  <text x="440" y="241" fill="#8a8a8a" font-size="12">(transparent)</text>
+
+  <!-- the x_e Saha curve -->
+  <path d="M 70 60.1 L 110.8 60.4 L 151.7 61.3 L 192.5 64.3 L 233.3 74.4 L 249.7 82.6 L 266 94.7 L 282.3 111.1 L 298.7 131.7 L 315 155 L 331.3 178.3 L 347.7 198.9 L 364 215.3 L 380.3 227.4 L 396.7 235.6 L 437.5 245.6 L 478.3 248.7 L 519.2 249.6 L 560 249.9"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- last-scattering marker -->
+  <line x1="323" y1="60" x2="323" y2="250" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <circle cx="323" cy="155" r="4" fill="#e0645c"/>
+  <text x="330" y="150" fill="#e0645c" font-size="12">last scattering</text>
+  <text x="330" y="166" fill="#e0645c" font-size="12">z &#8776; 1090</text>
+</svg>

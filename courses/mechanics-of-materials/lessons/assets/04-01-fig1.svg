@@ -1,0 +1,58 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="30" y="26" fill="#8a8a8a" font-style="italic">Same point, two cuts: rotate the axes and &#963;x, &#963;y, &#964;xy become &#963;1, &#963;2 with zero shear.</text>
+
+  <!-- ============ LEFT: general element ============ -->
+  <rect x="105" y="130" width="100" height="100" fill="#4a90d9" opacity="0.08" stroke="#8a8a8a" stroke-width="2"/>
+
+  <!-- normal stress sigma_x (horizontal, tension = outward) -->
+  <line x1="205" y1="180" x2="250" y2="180" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="250,180 240,175 240,185" fill="#4a90d9"/>
+  <line x1="105" y1="180" x2="60" y2="180" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="60,180 70,175 70,185" fill="#4a90d9"/>
+  <text x="222" y="175" fill="#4a90d9">&#963;x</text>
+
+  <!-- normal stress sigma_y (vertical) -->
+  <line x1="155" y1="130" x2="155" y2="86" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="155,86 150,96 160,96" fill="#4a90d9"/>
+  <line x1="155" y1="230" x2="155" y2="274" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="155,274 150,264 160,264" fill="#4a90d9"/>
+  <text x="162" y="108" fill="#4a90d9">&#963;y</text>
+
+  <!-- shear tau_xy (tangential, CCW-consistent) -->
+  <line x1="213" y1="222" x2="213" y2="140" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="213,140 208,150 218,150" fill="#e0645c"/>
+  <line x1="97" y1="138" x2="97" y2="220" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="97,220 92,210 102,210" fill="#e0645c"/>
+  <line x1="123" y1="117" x2="187" y2="117" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="187,117 177,112 177,122" fill="#e0645c"/>
+  <line x1="187" y1="243" x2="123" y2="243" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="123,243 133,238 133,248" fill="#e0645c"/>
+  <text x="220" y="132" fill="#e0645c">&#964;xy</text>
+
+  <!-- ============ rotation arrow ============ -->
+  <path d="M 285 165 Q 345 138 405 165" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="405,165 394,161 398,171" fill="#8a8a8a"/>
+  <text x="300" y="132" fill="#8a8a8a">rotate by &#952;p</text>
+
+  <!-- ============ RIGHT: principal element ============ -->
+  <!-- horizontal reference + angle arc (unrotated) -->
+  <line x1="475" y1="180" x2="575" y2="180" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <path d="M 520 180 A 45 45 0 0 0 518.5 168.4" fill="none" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="527" y="171" fill="#8a8a8a">&#952;p</text>
+
+  <g transform="rotate(-15 475 180)">
+    <rect x="425" y="130" width="100" height="100" fill="#e0645c" opacity="0.08" stroke="#8a8a8a" stroke-width="2"/>
+    <line x1="525" y1="180" x2="570" y2="180" stroke="#4a90d9" stroke-width="2"/>
+    <polygon points="570,180 560,175 560,185" fill="#4a90d9"/>
+    <line x1="425" y1="180" x2="380" y2="180" stroke="#4a90d9" stroke-width="2"/>
+    <polygon points="380,180 390,175 390,185" fill="#4a90d9"/>
+    <text x="542" y="175" fill="#4a90d9">&#963;1</text>
+    <line x1="475" y1="130" x2="475" y2="86" stroke="#4a90d9" stroke-width="2"/>
+    <polygon points="475,86 470,96 480,96" fill="#4a90d9"/>
+    <line x1="475" y1="230" x2="475" y2="274" stroke="#4a90d9" stroke-width="2"/>
+    <polygon points="475,274 470,264 480,264" fill="#4a90d9"/>
+    <text x="482" y="108" fill="#4a90d9">&#963;2</text>
+  </g>
+
+  <text x="392" y="312" fill="#8a8a8a" font-style="italic">On the principal axes there is no shear &#8212; only &#963;1 (max) and &#963;2 (min).</text>
+</svg>

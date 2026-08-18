@@ -1,0 +1,43 @@
+<svg viewBox="0 0 620 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Butler&#8211;Volmer: net current (blue) = anodic minus cathodic exponentials (coral dashed), crossing zero at &#951; = 0.</text>
+
+  <!-- j axis (vertical, current) -->
+  <line x1="310" y1="320" x2="310" y2="46" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="310,46 305,58 315,58" fill="#8a8a8a"/>
+  <text x="318" y="56" fill="#8a8a8a">j</text>
+
+  <!-- eta axis (horizontal, overpotential) -->
+  <line x1="62" y1="185" x2="560" y2="185" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="560,185 548,180 548,190" fill="#8a8a8a"/>
+  <text x="566" y="190" fill="#8a8a8a">&#951;</text>
+  <text x="294" y="203" fill="#8a8a8a">0</text>
+
+  <!-- region labels -->
+  <text x="392" y="176" fill="#8a8a8a" font-size="12">&#951; &gt; 0 : anodic</text>
+  <text x="392" y="192" fill="#8a8a8a" font-size="12">(net oxidation)</text>
+  <text x="88" y="264" fill="#8a8a8a" font-size="12">&#951; &lt; 0 : cathodic</text>
+  <text x="88" y="280" fill="#8a8a8a" font-size="12">(net reduction)</text>
+
+  <!-- anodic component: +j0 e^{+aFn/RT} (dashed coral) -->
+  <path d="M 81.2 183.6 L 91.6 183.4 L 102.0 183.2 L 112.4 183.1 L 122.8 182.9 L 133.2 182.6 L 143.6 182.4 L 154.0 182.1 L 164.4 181.8 L 174.8 181.5 L 185.2 181.1 L 195.6 180.7 L 206.0 180.2 L 216.4 179.7 L 226.8 179.2 L 237.2 178.5 L 247.6 177.9 L 258.0 177.1 L 268.4 176.3 L 278.8 175.4 L 289.2 174.4 L 299.6 173.2 L 310.0 172.0 L 320.4 170.6 L 330.8 169.1 L 341.2 167.5 L 351.6 165.6 L 362.0 163.6 L 372.4 161.3 L 382.8 158.8 L 393.2 156.1 L 403.6 153.0 L 414.0 149.7 L 424.4 145.9 L 434.8 141.8 L 445.2 137.3 L 455.6 132.3 L 466.0 126.7 L 476.4 120.6 L 486.8 113.8 L 497.2 106.4 L 507.6 98.1 L 518.0 88.9 L 528.4 78.8 L 538.8 67.7"
+        fill="none" stroke="#e0645c" stroke-width="1.6" stroke-dasharray="5 4"/>
+  <text x="486" y="60" fill="#e0645c" font-size="12">anodic term</text>
+
+  <!-- cathodic component: -j0 e^{-cFn/RT} (dashed coral) -->
+  <path d="M 81.2 302.3 L 91.6 291.2 L 102.0 281.1 L 112.4 271.9 L 122.8 263.6 L 133.2 256.2 L 143.6 249.4 L 154.0 243.3 L 164.4 237.7 L 174.8 232.7 L 185.2 228.2 L 195.6 224.1 L 206.0 220.3 L 216.4 217.0 L 226.8 213.9 L 237.2 211.2 L 247.6 208.7 L 258.0 206.4 L 268.4 204.4 L 278.8 202.5 L 289.2 200.9 L 299.6 199.4 L 310.0 198.0 L 320.4 196.8 L 330.8 195.6 L 341.2 194.6 L 351.6 193.7 L 362.0 192.9 L 372.4 192.1 L 382.8 191.5 L 393.2 190.8 L 403.6 190.3 L 414.0 189.8 L 424.4 189.3 L 434.8 188.9 L 445.2 188.5 L 455.6 188.2 L 466.0 187.9 L 476.4 187.6 L 486.8 187.4 L 497.2 187.1 L 507.6 186.9 L 518.0 186.8 L 528.4 186.6 L 538.8 186.4"
+        fill="none" stroke="#e0645c" stroke-width="1.6" stroke-dasharray="5 4"/>
+  <text x="70" y="316" fill="#e0645c" font-size="12">cathodic term</text>
+
+  <!-- net current (blue, solid) -->
+  <path d="M 81.2 300.9 L 91.6 289.6 L 102.0 279.3 L 112.4 270.0 L 122.8 261.5 L 133.2 253.8 L 143.6 246.8 L 154.0 240.4 L 164.4 234.5 L 174.8 229.2 L 185.2 224.2 L 195.6 219.7 L 206.0 215.6 L 216.4 211.7 L 226.8 208.1 L 237.2 204.7 L 247.6 201.6 L 258.0 198.5 L 268.4 195.7 L 278.8 192.9 L 289.2 190.2 L 299.6 187.6 L 310.0 185.0 L 320.4 182.4 L 330.8 179.8 L 341.2 177.1 L 351.6 174.3 L 362.0 171.5 L 372.4 168.4 L 382.8 165.3 L 393.2 161.9 L 403.6 158.3 L 414.0 154.4 L 424.4 150.3 L 434.8 145.8 L 445.2 140.8 L 455.6 135.5 L 466.0 129.6 L 476.4 123.2 L 486.8 116.2 L 497.2 108.5 L 507.6 100.0 L 518.0 90.7 L 528.4 80.4 L 538.8 69.1"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="470" y="99" fill="#4a90d9" font-size="13">net j</text>
+
+  <!-- j0 markers at the origin (each branch equals j0 when eta=0) -->
+  <circle cx="310" cy="172" r="3.5" fill="#e0645c"/>
+  <circle cx="310" cy="198" r="3.5" fill="#e0645c"/>
+  <line x1="310" y1="185" x2="310" y2="172" stroke="#e0645c" stroke-width="1.4"/>
+  <text x="316" y="169" fill="#e0645c" font-size="13">+j&#8320;</text>
+  <text x="316" y="212" fill="#e0645c" font-size="13">&#8722;j&#8320;</text>
+  <circle cx="310" cy="185" r="3" fill="#4a90d9"/>
+</svg>

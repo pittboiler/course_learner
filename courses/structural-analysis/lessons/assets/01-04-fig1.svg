@@ -1,0 +1,94 @@
+<svg viewBox="0 0 580 470" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <!-- caption -->
+  <text x="30" y="20" fill="#8a8a8a" font-style="italic">Three panels, one x-axis: draw V as the running slope of the loads, then M as the running area under V.</text>
+
+  <!-- alignment guides across all panels -->
+  <line x1="188.3" y1="96" x2="188.3" y2="356" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="390" y1="96" x2="390" y2="424" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- ===================== Panel 1: loads ===================== -->
+  <text x="30" y="52" fill="#8a8a8a">Loads</text>
+
+  <!-- UDL top rail and arrows over AB -->
+  <line x1="60" y1="66" x2="390" y2="66" stroke="#e0645c" stroke-width="1.5"/>
+  <line x1="60" y1="66" x2="60" y2="98" stroke="#e0645c" stroke-width="1"/>
+  <line x1="115" y1="66" x2="115" y2="98" stroke="#e0645c" stroke-width="1"/>
+  <line x1="170" y1="66" x2="170" y2="98" stroke="#e0645c" stroke-width="1"/>
+  <line x1="225" y1="66" x2="225" y2="98" stroke="#e0645c" stroke-width="1"/>
+  <line x1="280" y1="66" x2="280" y2="98" stroke="#e0645c" stroke-width="1"/>
+  <line x1="335" y1="66" x2="335" y2="98" stroke="#e0645c" stroke-width="1"/>
+  <line x1="390" y1="66" x2="390" y2="98" stroke="#e0645c" stroke-width="1"/>
+  <polygon points="60,98 56,90 64,90" fill="#e0645c"/>
+  <polygon points="170,98 166,90 174,90" fill="#e0645c"/>
+  <polygon points="280,98 276,90 284,90" fill="#e0645c"/>
+  <polygon points="390,98 386,90 394,90" fill="#e0645c"/>
+  <text x="150" y="60" fill="#e0645c">w = 10 kN/m</text>
+
+  <!-- point load P at C -->
+  <line x1="500" y1="60" x2="500" y2="98" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="500,98 495,88 505,88" fill="#e0645c"/>
+  <text x="470" y="54" fill="#e0645c">P = 20 kN</text>
+
+  <!-- beam -->
+  <line x1="60" y1="100" x2="500" y2="100" stroke="#8a8a8a" stroke-width="3"/>
+
+  <!-- pin support at A -->
+  <polygon points="60,100 52,118 68,118" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="48" y1="118" x2="72" y2="118" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="52" y="136" fill="#8a8a8a">A</text>
+  <text x="40" y="100" fill="#8a8a8a">x=0</text>
+
+  <!-- roller support at B -->
+  <polygon points="390,100 382,116 398,116" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <circle cx="385" cy="120" r="3" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+  <circle cx="395" cy="120" r="3" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="378" y1="124" x2="402" y2="124" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="384" y="140" fill="#8a8a8a">B</text>
+  <text x="376" y="88" fill="#8a8a8a">6 m</text>
+
+  <!-- free end C -->
+  <text x="496" y="88" fill="#8a8a8a">C, 8 m</text>
+
+  <!-- reaction labels -->
+  <text x="30" y="150" fill="#4a90d9">RA = 23.3</text>
+  <text x="356" y="156" fill="#4a90d9">RB = 56.7</text>
+
+  <!-- ===================== Panel 2: shear ===================== -->
+  <text x="30" y="196" fill="#8a8a8a">Shear V (kN)</text>
+  <line x1="60" y1="230" x2="510" y2="230" stroke="#8a8a8a" stroke-width="1.2"/>
+
+  <!-- shaded areas under V -->
+  <polygon points="60,230 60,202 188.3,230" fill="#4a90d9" opacity="0.14"/>
+  <polygon points="188.3,230 390,274 390,230" fill="#4a90d9" opacity="0.14"/>
+  <polygon points="390,230 390,206 500,206 500,230" fill="#4a90d9" opacity="0.14"/>
+
+  <!-- V curve -->
+  <path d="M 60 202 L 390 274 L 390 206 L 500 206 L 500 230" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <!-- V = 0 crossing -->
+  <circle cx="188.3" cy="230" r="4" fill="#e0645c"/>
+  <text x="150" y="248" fill="#e0645c">V=0 at x=2.33</text>
+
+  <!-- V value labels -->
+  <text x="46" y="198" fill="#4a90d9">23.3</text>
+  <text x="360" y="288" fill="#4a90d9">&#8722;36.7</text>
+  <text x="452" y="202" fill="#4a90d9">20</text>
+
+  <!-- ===================== Panel 3: moment ===================== -->
+  <text x="30" y="346" fill="#8a8a8a">Moment M (kN&#183;m)</text>
+  <line x1="60" y1="380" x2="510" y2="380" stroke="#8a8a8a" stroke-width="1.2"/>
+
+  <!-- shaded area under M (sagging lobe) -->
+  <polygon points="60,380 115,361.7 170,353.3 188.3,352.8 225,355 280,366.7 335,388.3 390,420 500,380" fill="#e0645c" opacity="0.12"/>
+
+  <!-- M curve: parabola over AB, straight line over BC -->
+  <path d="M 60 380 L 115 361.7 L 170 353.3 L 188.3 352.8 L 225 355 L 280 366.7 L 335 388.3 L 390 420 L 500 380" fill="none" stroke="#e0645c" stroke-width="2.5"/>
+
+  <!-- Mmax marker -->
+  <circle cx="188.3" cy="352.8" r="4" fill="#e0645c"/>
+  <text x="150" y="346" fill="#e0645c">+27.2 (max)</text>
+
+  <!-- M at B marker -->
+  <circle cx="390" cy="420" r="4" fill="#8a8a8a"/>
+  <text x="356" y="436" fill="#8a8a8a">&#8722;40 at B</text>
+</svg>

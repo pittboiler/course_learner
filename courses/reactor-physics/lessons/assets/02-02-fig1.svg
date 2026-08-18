@@ -1,0 +1,56 @@
+<svg viewBox="0 0 640 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">One generation: the four-factor loop multiplies; two leakage drains siphon neutrons out for good.</text>
+
+  <!-- ===== the four-factor loop ===== -->
+  <path d="M 172 80 L 468 80 A 22 22 0 0 1 490 102 L 490 228 A 22 22 0 0 1 468 250 L 172 250 A 22 22 0 0 1 150 228 L 150 102 A 22 22 0 0 1 172 80 Z"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- clockwise direction arrowheads -->
+  <polygon points="332,80 322,75 322,85" fill="#4a90d9"/>
+  <polygon points="490,178 485,168 495,168" fill="#4a90d9"/>
+  <polygon points="308,250 318,245 318,255" fill="#4a90d9"/>
+  <polygon points="150,152 145,162 155,162" fill="#4a90d9"/>
+
+  <!-- factor node markers -->
+  <circle cx="150" cy="80" r="5" fill="#4a90d9"/>
+  <circle cx="490" cy="80" r="5" fill="#4a90d9"/>
+  <circle cx="490" cy="250" r="5" fill="#4a90d9"/>
+  <circle cx="150" cy="250" r="5" fill="#4a90d9"/>
+
+  <!-- factor labels (outside the loop) -->
+  <text x="120" y="70" fill="#4a90d9" font-size="20">&#951;</text>
+  <text x="70" y="88" fill="#8a8a8a" font-size="12">reproduction</text>
+  <text x="500" y="70" fill="#4a90d9" font-size="20">&#949;</text>
+  <text x="500" y="88" fill="#8a8a8a" font-size="12">fast fission</text>
+  <text x="500" y="262" fill="#4a90d9" font-size="20">p</text>
+  <text x="500" y="280" fill="#8a8a8a" font-size="12">resonance escape</text>
+  <text x="132" y="262" fill="#4a90d9" font-size="20">f</text>
+  <text x="60" y="280" fill="#8a8a8a" font-size="12">utilization</text>
+
+  <!-- edge annotations -->
+  <text x="200" y="72" fill="#8a8a8a" font-size="12">fast neutrons born</text>
+  <text x="418" y="205" fill="#8a8a8a" font-size="12">slowing</text>
+  <text x="248" y="242" fill="#8a8a8a" font-size="12">thermal, diffusing</text>
+
+  <!-- survivor multipliers on the loop -->
+  <text x="432" y="150" fill="#4a90d9" font-size="12" font-style="italic">&#215; P_FNL</text>
+  <text x="185" y="215" fill="#4a90d9" font-size="12" font-style="italic">&#215; P_TNL</text>
+
+  <!-- ===== fast leakage drain (right edge, while slowing) ===== -->
+  <line x1="490" y1="130" x2="596" y2="130" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="606,130 594,125 594,135" fill="#e0645c"/>
+  <text x="512" y="120" fill="#e0645c" font-size="12">fast leak</text>
+  <text x="512" y="148" fill="#e0645c" font-size="12">(1 &#8722; P_FNL)</text>
+
+  <!-- ===== thermal leakage drain (bottom edge, while diffusing) ===== -->
+  <line x1="320" y1="250" x2="320" y2="326" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="320,336 315,324 325,324" fill="#e0645c"/>
+  <text x="330" y="296" fill="#e0645c" font-size="12">thermal leak</text>
+  <text x="330" y="314" fill="#e0645c" font-size="12">(1 &#8722; P_TNL)</text>
+
+  <!-- ===== center equation ===== -->
+  <text x="320" y="150" fill="#4a90d9" font-size="15" text-anchor="middle">k&#8734; = &#951; f p &#949;</text>
+  <text x="320" y="174" fill="#e0645c" font-size="13" text-anchor="middle">drains &#215; P_FNL P_TNL</text>
+  <text x="320" y="196" fill="#8a8a8a" font-size="13" text-anchor="middle">give k_eff</text>
+</svg>

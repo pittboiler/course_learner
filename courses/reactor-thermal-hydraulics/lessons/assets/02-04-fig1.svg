@@ -1,0 +1,68 @@
+<svg viewBox="0 0 660 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="60" y="22" fill="#8a8a8a" font-style="italic">One radial profile, centerline to coolant: the fuel parabola and the gap eat almost the whole drop.</text>
+
+  <!-- y axis (temperature) -->
+  <line x1="70" y1="315" x2="70" y2="50" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,50 65,60 75,60" fill="#8a8a8a"/>
+  <text x="46" y="52" fill="#8a8a8a">T</text>
+  <!-- x axis (radius) -->
+  <line x1="70" y1="315" x2="620" y2="315" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="620,315 610,310 610,320" fill="#8a8a8a"/>
+  <text x="590" y="335" fill="#8a8a8a">r &#8594;</text>
+  <text x="46" y="319" fill="#8a8a8a">0</text>
+
+  <!-- interface guide lines down to axis -->
+  <line x1="300" y1="249" x2="300" y2="315" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="322" y1="294" x2="322" y2="315" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="402" y1="303" x2="402" y2="315" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="472" y1="310" x2="472" y2="315" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- fuel parabola (dominant, coral) -->
+  <path d="M 70 60 L 116 67.6 L 162 90.2 L 185 107.3 L 208 128.0 L 231 152.6 L 254 181.0 L 277 213.1 L 300 249"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+  <!-- gap drop (dominant, coral) -->
+  <path d="M 300 249 L 322 294" fill="none" stroke="#e0645c" stroke-width="3"/>
+  <!-- clad drop (small, blue) -->
+  <path d="M 322 294 L 402 303" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <!-- film drop (small, blue) -->
+  <path d="M 402 303 Q 437 306 472 310" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <!-- coolant bulk (flat, grey) -->
+  <path d="M 472 310 L 600 310" fill="none" stroke="#8a8a8a" stroke-width="3"/>
+
+  <!-- interface markers -->
+  <circle cx="70" cy="60" r="3.5" fill="#e0645c"/>
+  <circle cx="300" cy="249" r="3" fill="#e0645c"/>
+  <circle cx="322" cy="294" r="3" fill="#4a90d9"/>
+  <circle cx="402" cy="303" r="3" fill="#4a90d9"/>
+  <circle cx="472" cy="310" r="3" fill="#8a8a8a"/>
+
+  <!-- centerline label + melt margin arrow -->
+  <text x="82" y="58" fill="#e0645c">T&#8320; &#8776; 1720 &#176;C (centerline)</text>
+  <line x1="70" y1="52" x2="70" y2="36" stroke="#e0645c" stroke-width="1"/>
+  <polygon points="70,36 66,44 74,44" fill="#e0645c"/>
+  <text x="82" y="40" fill="#8a8a8a">still ~1140 K below UO&#8322; melt (2865 &#176;C)</text>
+
+  <!-- bulk label -->
+  <text x="500" y="306" fill="#8a8a8a">T_b = 320 &#176;C (bulk)</text>
+
+  <!-- region ticks under axis -->
+  <text x="150" y="352" fill="#8a8a8a">fuel</text>
+  <text x="332" y="352" fill="#8a8a8a">clad</text>
+  <text x="420" y="352" fill="#8a8a8a">film</text>
+  <text x="520" y="352" fill="#8a8a8a">coolant</text>
+  <line x1="303" y1="342" x2="290" y2="356" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="262" y="370" fill="#8a8a8a">gap</text>
+
+  <!-- budget legend, upper right (empty region) -->
+  <text x="430" y="90" fill="#8a8a8a">&#916;T budget</text>
+  <rect x="430" y="102" width="12" height="12" fill="#e0645c"/>
+  <text x="448" y="112" fill="#8a8a8a">fuel  1061 K  76%</text>
+  <rect x="430" y="122" width="12" height="12" fill="#e0645c"/>
+  <text x="448" y="132" fill="#8a8a8a">gap    253 K  18%</text>
+  <rect x="430" y="142" width="12" height="12" fill="#4a90d9"/>
+  <text x="448" y="152" fill="#8a8a8a">clad    48 K   3%</text>
+  <rect x="430" y="162" width="12" height="12" fill="#4a90d9"/>
+  <text x="448" y="172" fill="#8a8a8a">film    39 K   3%</text>
+  <line x1="430" y1="182" x2="600" y2="182" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="448" y="197" fill="#8a8a8a">total 1401 K = T&#8320; &#8722; T_b</text>
+</svg>

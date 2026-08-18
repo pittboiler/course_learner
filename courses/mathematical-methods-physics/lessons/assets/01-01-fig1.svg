@@ -1,0 +1,50 @@
+<svg viewBox="0 0 660 270" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <defs>
+    <marker id="ab" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#4a90d9"/>
+    </marker>
+    <marker id="ac" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#e0645c"/>
+    </marker>
+  </defs>
+
+  <!-- caption -->
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Three readings of the del operator: a slope (grad), a spread (div), and a swirl (curl).</text>
+
+  <!-- =================== (a) GRADIENT =================== -->
+  <!-- level curves of phi (peak at centre) -->
+  <circle cx="110" cy="140" r="18" fill="none" stroke="#4a90d9" stroke-width="1.8"/>
+  <circle cx="110" cy="140" r="36" fill="none" stroke="#4a90d9" stroke-width="1.8"/>
+  <circle cx="110" cy="140" r="54" fill="none" stroke="#4a90d9" stroke-width="1.8"/>
+  <!-- gradient arrow: perpendicular to level curves, pointing uphill toward the peak -->
+  <line x1="65.8" y1="108.6" x2="98.6" y2="131.6" stroke="#e0645c" stroke-width="2.4" marker-end="url(#ac)"/>
+  <text x="52" y="102" fill="#e0645c">&#8711;&#966;</text>
+  <text x="98" y="146" fill="#8a8a8a" font-style="italic">&#966; high</text>
+  <text x="20" y="205" fill="#8a8a8a" font-style="italic">&#966; low</text>
+  <text x="58" y="252" fill="#8a8a8a">(a) grad: uphill, &#8869; to level sets</text>
+
+  <!-- =================== (b) DIVERGENCE (source) =================== -->
+  <line x1="343"   y1="140"   x2="376"   y2="140"   stroke="#4a90d9" stroke-width="2" marker-end="url(#ab)"/>
+  <line x1="339.2" y1="149.2" x2="362.5" y2="172.5" stroke="#4a90d9" stroke-width="2" marker-end="url(#ab)"/>
+  <line x1="330"   y1="153"   x2="330"   y2="186"   stroke="#4a90d9" stroke-width="2" marker-end="url(#ab)"/>
+  <line x1="320.8" y1="149.2" x2="297.5" y2="172.5" stroke="#4a90d9" stroke-width="2" marker-end="url(#ab)"/>
+  <line x1="317"   y1="140"   x2="284"   y2="140"   stroke="#4a90d9" stroke-width="2" marker-end="url(#ab)"/>
+  <line x1="320.8" y1="130.8" x2="297.5" y2="107.5" stroke="#4a90d9" stroke-width="2" marker-end="url(#ab)"/>
+  <line x1="330"   y1="127"   x2="330"   y2="94"    stroke="#4a90d9" stroke-width="2" marker-end="url(#ab)"/>
+  <line x1="339.2" y1="130.8" x2="362.5" y2="107.5" stroke="#4a90d9" stroke-width="2" marker-end="url(#ab)"/>
+  <circle cx="330" cy="140" r="5" fill="#e0645c"/>
+  <text x="290" y="252" fill="#8a8a8a">(b) div: net outward spread &gt; 0</text>
+
+  <!-- =================== (c) CURL (circulation) =================== -->
+  <line x1="584"   y1="129"   x2="584"   y2="151"   stroke="#4a90d9" stroke-width="2" marker-end="url(#ab)"/>
+  <line x1="581.8" y1="156.2" x2="566.2" y2="171.8" stroke="#4a90d9" stroke-width="2" marker-end="url(#ab)"/>
+  <line x1="561"   y1="174"   x2="539"   y2="174"   stroke="#4a90d9" stroke-width="2" marker-end="url(#ab)"/>
+  <line x1="533.8" y1="171.8" x2="518.2" y2="156.2" stroke="#4a90d9" stroke-width="2" marker-end="url(#ab)"/>
+  <line x1="516"   y1="151"   x2="516"   y2="129"   stroke="#4a90d9" stroke-width="2" marker-end="url(#ab)"/>
+  <line x1="518.2" y1="123.8" x2="533.8" y2="108.2" stroke="#4a90d9" stroke-width="2" marker-end="url(#ab)"/>
+  <line x1="539"   y1="106"   x2="561"   y2="106"   stroke="#4a90d9" stroke-width="2" marker-end="url(#ab)"/>
+  <line x1="566.2" y1="108.2" x2="581.8" y2="123.8" stroke="#4a90d9" stroke-width="2" marker-end="url(#ab)"/>
+  <!-- rotation sense in the middle -->
+  <path d="M 550 128 A 12 12 0 1 1 538 141" fill="none" stroke="#e0645c" stroke-width="2.2" marker-end="url(#ac)"/>
+  <text x="512" y="252" fill="#8a8a8a">(c) curl: circulation per unit area</text>
+</svg>

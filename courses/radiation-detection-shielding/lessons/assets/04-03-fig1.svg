@@ -1,0 +1,51 @@
+<svg viewBox="0 0 620 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Split the source into elements dS; dose each at P by inverse-square &#215; attenuation, then add.</text>
+
+  <!-- ===== the extended (line) source ===== -->
+  <line x1="80" y1="70" x2="400" y2="70" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="60" y="62" fill="#8a8a8a">source</text>
+
+  <!-- source elements: grey blocks, one highlighted coral as dS -->
+  <rect x="86" y="63" width="12" height="14" fill="#8a8a8a" opacity="0.45"/>
+  <rect x="146" y="63" width="12" height="14" fill="#8a8a8a" opacity="0.45"/>
+  <rect x="206" y="63" width="12" height="14" fill="#8a8a8a" opacity="0.45"/>
+  <rect x="326" y="63" width="12" height="14" fill="#8a8a8a" opacity="0.45"/>
+  <rect x="386" y="63" width="12" height="14" fill="#8a8a8a" opacity="0.45"/>
+  <!-- highlighted element -->
+  <rect x="266" y="61" width="14" height="18" fill="#e0645c" opacity="0.25" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="284" y="58" fill="#e0645c">dS</text>
+
+  <!-- ===== field point P ===== -->
+  <circle cx="240" cy="270" r="5" fill="#e0645c"/>
+  <text x="250" y="284" fill="#e0645c">P</text>
+
+  <!-- rays from every element to P (coral, thin) -->
+  <line x1="92" y1="77" x2="240" y2="270" stroke="#e0645c" stroke-width="1" opacity="0.55"/>
+  <line x1="152" y1="77" x2="240" y2="270" stroke="#e0645c" stroke-width="1" opacity="0.55"/>
+  <line x1="212" y1="77" x2="240" y2="270" stroke="#e0645c" stroke-width="1" opacity="0.55"/>
+  <line x1="332" y1="77" x2="240" y2="270" stroke="#e0645c" stroke-width="1" opacity="0.55"/>
+  <line x1="392" y1="77" x2="240" y2="270" stroke="#e0645c" stroke-width="1" opacity="0.55"/>
+  <!-- highlighted ray r from dS to P -->
+  <line x1="273" y1="79" x2="240" y2="270" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="270" y="180" fill="#e0645c">r</text>
+
+  <!-- perpendicular distance a (grey dashed) -->
+  <line x1="240" y1="70" x2="240" y2="270" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="216" y="175" fill="#8a8a8a">a</text>
+  <!-- right-angle tick at the foot -->
+  <path d="M 240 82 L 252 82 L 252 70" fill="none" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- angle theta at P between perpendicular and highlighted ray -->
+  <path d="M 240 240 A 30 30 0 0 0 253 244" fill="none" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="256" y="238" fill="#8a8a8a">&#952;</text>
+
+  <!-- ===== annotation: the two weightings ===== -->
+  <text x="430" y="150" fill="#4a90d9">inverse-square:</text>
+  <text x="430" y="170" fill="#4a90d9">1 / r</text>
+  <text x="474" y="164" fill="#4a90d9" font-size="10">2</text>
+  <text x="430" y="210" fill="#8a8a8a">attenuation +</text>
+  <text x="430" y="230" fill="#8a8a8a">buildup:</text>
+  <text x="430" y="250" fill="#8a8a8a">B e</text>
+  <text x="452" y="244" fill="#8a8a8a" font-size="10">&#8722;&#956;r</text>
+</svg>

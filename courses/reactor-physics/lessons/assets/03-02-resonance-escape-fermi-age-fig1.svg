@@ -1,0 +1,43 @@
+<svg viewBox="0 0 600 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Two spreads from one source: fast neutrons wander &#8730;&#964; while slowing; thermal ones wander L before capture.</text>
+
+  <!-- baseline / distance axis -->
+  <line x1="70" y1="250" x2="540" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="540,250 530,245 530,255" fill="#8a8a8a"/>
+  <text x="500" y="272" fill="#8a8a8a">distance r from source</text>
+
+  <!-- density axis -->
+  <line x1="70" y1="250" x2="70" y2="70" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,70 65,80 75,80" fill="#8a8a8a"/>
+  <text x="34" y="66" fill="#8a8a8a">n(r)</text>
+
+  <!-- source marker at center -->
+  <line x1="305" y1="250" x2="305" y2="80" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <circle cx="305" cy="250" r="4.5" fill="#8a8a8a"/>
+  <text x="272" y="290" fill="#8a8a8a">point source</text>
+
+  <!-- coral (thermal) wide spread: reaches far, scale L -->
+  <path d="M 165 226.2 L 185 214.3 L 205 199.7 L 225 183.3 L 245 167 L 265 153 L 285 143.4 L 305 140 L 325 143.4 L 345 153 L 365 167 L 385 183.3 L 405 199.7 L 425 214.3 L 445 226.2"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+  <text x="392" y="196" fill="#e0645c">thermal cloud</text>
+
+  <!-- blue (fast) narrow spread: scale sqrt(tau) -->
+  <path d="M 205 227.3 L 225 209.1 L 245 178.3 L 265 139 L 285 104.1 L 305 90 L 325 104.1 L 345 139 L 365 178.3 L 385 209.1 L 405 227.3"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="150" y="120" fill="#4a90d9">fast cloud</text>
+
+  <!-- blue spread width marker: sqrt(tau) -->
+  <line x1="305" y1="170" x2="350" y2="170" stroke="#4a90d9" stroke-width="1.5"/>
+  <polygon points="350,170 341,166 341,174" fill="#4a90d9"/>
+  <text x="352" y="166" fill="#4a90d9">&#8730;&#964;</text>
+
+  <!-- coral spread width marker: L -->
+  <line x1="305" y1="220" x2="405" y2="220" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="405,220 396,216 396,224" fill="#e0645c"/>
+  <text x="408" y="224" fill="#e0645c">L</text>
+
+  <!-- legend note -->
+  <text x="150" y="138" fill="#4a90d9">while slowing</text>
+  <text x="392" y="214" fill="#e0645c">while thermal</text>
+</svg>

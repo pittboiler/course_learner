@@ -1,0 +1,52 @@
+<svg viewBox="0 0 560 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="24" y="24" fill="#8a8a8a" font-style="italic">The energy ladder, in units of k_BT (log scale). A few k_BT = thermally accessible; many k_BT = stable.</text>
+
+  <!-- thermally-accessible shaded band (below the divide) -->
+  <rect x="150" y="240" width="390" height="112" fill="#e0645c" opacity="0.15"/>
+
+  <!-- vertical rail of the ladder -->
+  <line x1="150" y1="360" x2="150" y2="52" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="150,52 145,62 155,62" fill="#8a8a8a"/>
+  <text x="128" y="48" fill="#8a8a8a">E / k_BT</text>
+
+  <!-- axis tick numbers -->
+  <text x="120" y="325" fill="#8a8a8a" text-anchor="end">1</text>
+  <text x="120" y="210" fill="#8a8a8a" text-anchor="end">10</text>
+  <text x="120" y="175" fill="#8a8a8a" text-anchor="end">20</text>
+  <text x="120" y="95" fill="#8a8a8a" text-anchor="end">100</text>
+
+  <!-- ===== rungs ===== -->
+
+  <!-- baseline: k_BT ruler at E = 1 (grey, spans full width) -->
+  <line x1="150" y1="320" x2="540" y2="320" stroke="#8a8a8a" stroke-width="2"/>
+  <circle cx="150" cy="320" r="4" fill="#8a8a8a"/>
+  <text x="180" y="316" fill="#8a8a8a">&#8776;1&#160;&#160;thermal noise &#183; a hydrogen bond</text>
+  <text x="180" y="334" fill="#8a8a8a" font-style="italic" font-size="12">constantly broken &amp; reformed &#8594; used for specificity</text>
+
+  <!-- protein folding: E = 10 (blue) -->
+  <line x1="135" y1="205" x2="175" y2="205" stroke="#4a90d9" stroke-width="3"/>
+  <circle cx="150" cy="205" r="4" fill="#4a90d9"/>
+  <text x="180" y="201" fill="#4a90d9">&#8776;10&#160;&#160;protein folding stability</text>
+  <text x="180" y="219" fill="#4a90d9" font-style="italic" font-size="12">soft &#8212; denatures easily</text>
+
+  <!-- ATP hydrolysis: E = 20 (coral, highlighted) -->
+  <line x1="135" y1="170" x2="175" y2="170" stroke="#e0645c" stroke-width="3"/>
+  <circle cx="150" cy="170" r="4" fill="#e0645c"/>
+  <text x="180" y="166" fill="#e0645c">&#8776;20&#160;&#160;ATP hydrolysis &#8212; the cell's currency</text>
+  <text x="180" y="152" fill="#e0645c" font-style="italic" font-size="12">drives motors &amp; pumps</text>
+
+  <!-- covalent bond: E = 100+ (blue) -->
+  <line x1="135" y1="90" x2="175" y2="90" stroke="#4a90d9" stroke-width="3"/>
+  <circle cx="150" cy="90" r="4" fill="#4a90d9"/>
+  <text x="180" y="86" fill="#4a90d9">&#8776;100+&#160;&#160;covalent bond</text>
+  <text x="180" y="104" fill="#4a90d9" font-style="italic" font-size="12">stable &#8212; needs an enzyme to break</text>
+
+  <!-- ===== the stability divide (coral, dashed) ===== -->
+  <line x1="150" y1="240" x2="540" y2="240" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="386" y="234" fill="#e0645c" font-style="italic" font-size="12" text-anchor="end">&#8811; k_BT: stable against jostling &#8593;</text>
+  <text x="386" y="256" fill="#e0645c" font-style="italic" font-size="12" text-anchor="end">few k_BT: made &amp; unmade by noise &#8595;</text>
+
+  <!-- pN.nm scale note -->
+  <text x="24" y="384" fill="#8a8a8a" font-style="italic">k_BT &#8776; 4.1 pN&#183;nm &#8776; 4.1&#215;10&#8315;&#178;&#185; J &#8776; 0.6 kcal/mol &#8776; 25 meV&#160;&#160;(one pN force through one nm).</text>
+</svg>

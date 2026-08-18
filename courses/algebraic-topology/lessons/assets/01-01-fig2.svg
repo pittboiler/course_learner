@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="360" height="360" fill="#ffffff"/>
+  <defs>
+    <marker id="ah2" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 z" fill="#c0392b"/>
+    </marker>
+  </defs>
+
+  <!-- target circle S^1 -->
+  <circle cx="180" cy="180" r="90" fill="none" stroke="#1a7f37" stroke-width="3"/>
+  <text x="248" y="112" font-size="16" fill="#1a7f37">S&#185;</text>
+
+  <!-- the puncture at the origin -->
+  <circle cx="180" cy="180" r="4.5" fill="#ffffff" stroke="#111111" stroke-width="1.6"/>
+  <text x="188" y="196" font-size="13" fill="#111111">0</text>
+
+  <!-- outer points pushed inward to the circle -->
+  <circle cx="314" cy="103" r="3.5" fill="#111111"/>
+  <path d="M314,103 L262,133" fill="none" stroke="#c0392b" stroke-width="1.8" marker-end="url(#ah2)"/>
+  <circle cx="153" cy="27" r="3.5" fill="#111111"/>
+  <path d="M153,27 L164,86" fill="none" stroke="#c0392b" stroke-width="1.8" marker-end="url(#ah2)"/>
+  <circle cx="34" cy="127" r="3.5" fill="#111111"/>
+  <path d="M34,127 L91,148" fill="none" stroke="#c0392b" stroke-width="1.8" marker-end="url(#ah2)"/>
+  <circle cx="70" cy="290" r="3.5" fill="#111111"/>
+  <path d="M70,290 L113,247" fill="none" stroke="#c0392b" stroke-width="1.8" marker-end="url(#ah2)"/>
+  <circle cx="258" cy="314" r="3.5" fill="#111111"/>
+  <path d="M258,314 L228,262" fill="none" stroke="#c0392b" stroke-width="1.8" marker-end="url(#ah2)"/>
+
+  <!-- inner points pushed outward to the circle -->
+  <circle cx="198" cy="142" r="3.5" fill="#111111"/>
+  <path d="M198,142 L216,103" fill="none" stroke="#c0392b" stroke-width="1.8" marker-end="url(#ah2)"/>
+  <circle cx="220" cy="194" r="3.5" fill="#111111"/>
+  <path d="M220,194 L260,209" fill="none" stroke="#c0392b" stroke-width="1.8" marker-end="url(#ah2)"/>
+
+  <text x="70" y="345" font-size="15" fill="#111111">r(x) = x / &#8214;x&#8214;   (slide along the ray)</text>
+</svg>

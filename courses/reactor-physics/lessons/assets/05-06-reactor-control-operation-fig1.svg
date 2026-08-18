@@ -1,0 +1,34 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="20" y="20" fill="#8a8a8a" font-style="italic">Fuel excess falls as it burns; shim + burnable poison are withdrawn to match &#8212; net &#961; held at 0.</text>
+
+  <!-- vertical reactivity axis -->
+  <line x1="95" y1="312" x2="95" y2="64" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="95,56 90,66 100,66" fill="#8a8a8a"/>
+  <text x="70" y="60" fill="#8a8a8a">&#961;</text>
+
+  <!-- zero-reactivity (critical) line = time axis -->
+  <line x1="95" y1="185" x2="575" y2="185" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="579,185 569,180 569,190" fill="#8a8a8a"/>
+  <text x="102" y="178" fill="#8a8a8a">&#961; = 0  (critical, k_eff = 1)</text>
+  <text x="205" y="334" fill="#8a8a8a">cycle time (burnup, MWd/kgU) &#8594;</text>
+
+  <!-- end-of-cycle marker -->
+  <line x1="525" y1="70" x2="525" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="503" y="328" fill="#8a8a8a">EOC</text>
+  <text x="78" y="328" fill="#8a8a8a">BOC</text>
+
+  <!-- blue: fuel excess reactivity, declining with burnup -->
+  <path d="M 95 70 L 138 75 L 181 82 L 224 91 L 267 102 L 310 114 L 353 126 L 396 139 L 439 154 L 482 169 L 525 185"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="150" y="53" fill="#4a90d9">fuel excess reactivity</text>
+
+  <!-- coral: negative worth held by shim + burnable poison, withdrawn to match -->
+  <path d="M 95 300 L 138 295 L 181 288 L 224 279 L 267 268 L 310 256 L 353 244 L 396 231 L 439 216 L 482 201 L 525 185"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+  <text x="243" y="300" fill="#e0645c">held down: shim + burnable poison</text>
+
+  <!-- meeting point at EOC: excess hits zero -->
+  <circle cx="525" cy="185" r="4" fill="#e0645c"/>
+  <text x="430" y="176" fill="#8a8a8a">excess &#8594; 0</text>
+</svg>

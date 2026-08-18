@@ -1,0 +1,104 @@
+<svg viewBox="0 0 680 470" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="34" y="22" fill="#8a8a8a" font-style="italic">Benzene doesn't add — it substitutes: attack E&#8314; &#8594; resonance-stabilized arenium (RDS) &#8594; lose H&#8314;, aromaticity restored.</text>
+
+  <!-- ================= TOP ROW: the mechanism ================= -->
+
+  <!-- benzene (aromatic) -->
+  <polygon points="95,80 121,95 121,125 95,140 69,125 69,95" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <circle cx="95" cy="110" r="16" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="70" y="165" fill="#8a8a8a">benzene</text>
+  <text x="66" y="181" fill="#8a8a8a" font-size="12" font-style="italic">aromatic</text>
+
+  <!-- E+ attacking, coral curved arrow -->
+  <path d="M 108 88 Q 140 66 160 82" fill="none" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="160,82 151,79 156,72" fill="#e0645c"/>
+  <text x="164" y="80" fill="#e0645c" font-weight="bold">E&#8314;</text>
+
+  <!-- reaction arrow 1 -->
+  <line x1="140" y1="118" x2="196" y2="118" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="196,118 187,114 187,122" fill="#8a8a8a"/>
+
+  <!-- arenium ion (sigma complex) -->
+  <text x="212" y="86" fill="#8a8a8a" font-size="22">[</text>
+  <text x="440" y="86" fill="#8a8a8a" font-size="22">]</text>
+  <polygon points="330,80 356,95 356,125 330,140 304,125 304,95" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <!-- broken (non-aromatic) inner arc -->
+  <path d="M 318 100 A 16 16 0 1 1 330 126" fill="none" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <!-- delocalized positive charge -->
+  <text x="325" y="106" fill="#e0645c" font-weight="bold">&#8853;</text>
+  <!-- sp3 carbon at bottom bearing H and E -->
+  <line x1="330" y1="140" x2="316" y2="158" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="303" y="170" fill="#8a8a8a">H</text>
+  <line x1="330" y1="140" x2="346" y2="158" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="349" y="170" fill="#e0645c" font-weight="bold">E</text>
+  <text x="272" y="200" fill="#8a8a8a">arenium (&#963;-complex)</text>
+  <text x="285" y="216" fill="#e0645c" font-size="12" font-style="italic">not aromatic &#183; RDS</text>
+
+  <!-- reaction arrow 2 -->
+  <line x1="452" y1="118" x2="508" y2="118" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="508,118 499,114 499,122" fill="#8a8a8a"/>
+  <text x="462" y="108" fill="#8a8a8a" font-size="13">&#8722;H&#8314;</text>
+
+  <!-- aromatic product -->
+  <polygon points="560,80 586,95 586,125 560,140 534,125 534,95" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <circle cx="560" cy="110" r="16" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="560" y1="80" x2="560" y2="58" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="555" y="52" fill="#e0645c" font-weight="bold">E</text>
+  <text x="538" y="165" fill="#4a90d9">product</text>
+  <text x="520" y="181" fill="#4a90d9" font-size="12" font-style="italic">aromaticity back</text>
+
+  <!-- ================= MIDDLE ROW: arenium resonance ================= -->
+  <text x="34" y="252" fill="#8a8a8a" font-size="12" font-style="italic">arenium resonance &#8212; the &#8853; lives on the two ortho and the para carbons (relative to E):</text>
+
+  <!-- ring 1: + on ortho -->
+  <polygon points="180,282 199,293 199,315 180,326 161,315 161,293" fill="none" stroke="#8a8a8a" stroke-width="1.6"/>
+  <line x1="180" y1="326" x2="180" y2="342" stroke="#e0645c" stroke-width="1.4"/>
+  <text x="175" y="356" fill="#e0645c" font-size="12">E</text>
+  <text x="202" y="320" fill="#e0645c" font-weight="bold" font-size="13">&#8853;</text>
+  <text x="140" y="300" fill="#8a8a8a" font-size="11">o</text>
+
+  <text x="238" y="308" fill="#e0645c" font-size="16">&#8596;</text>
+
+  <!-- ring 2: + on para -->
+  <polygon points="300,282 319,293 319,315 300,326 281,315 281,293" fill="none" stroke="#8a8a8a" stroke-width="1.6"/>
+  <line x1="300" y1="326" x2="300" y2="342" stroke="#e0645c" stroke-width="1.4"/>
+  <text x="295" y="356" fill="#e0645c" font-size="12">E</text>
+  <text x="294" y="278" fill="#e0645c" font-weight="bold" font-size="13">&#8853;</text>
+  <text x="323" y="288" fill="#8a8a8a" font-size="11">p</text>
+
+  <text x="358" y="308" fill="#e0645c" font-size="16">&#8596;</text>
+
+  <!-- ring 3: + on other ortho -->
+  <polygon points="420,282 439,293 439,315 420,326 401,315 401,293" fill="none" stroke="#8a8a8a" stroke-width="1.6"/>
+  <line x1="420" y1="326" x2="420" y2="342" stroke="#e0645c" stroke-width="1.4"/>
+  <text x="415" y="356" fill="#e0645c" font-size="12">E</text>
+  <text x="382" y="320" fill="#e0645c" font-weight="bold" font-size="13">&#8853;</text>
+  <text x="443" y="300" fill="#8a8a8a" font-size="11">o</text>
+
+  <text x="470" y="300" fill="#8a8a8a" font-size="12">a donor at o/p</text>
+  <text x="470" y="316" fill="#8a8a8a" font-size="12">can share the &#8853;</text>
+
+  <!-- ================= BOTTOM ROW: directing summary ================= -->
+  <line x1="34" y1="378" x2="646" y2="378" stroke="#8a8a8a" stroke-width="0.8"/>
+
+  <!-- o/p directors ring -->
+  <polygon points="90,398 109,409 109,431 90,442 71,431 71,409" fill="none" stroke="#8a8a8a" stroke-width="1.6"/>
+  <line x1="90" y1="398" x2="90" y2="384" stroke="#8a8a8a" stroke-width="1.4"/>
+  <text x="86" y="381" fill="#8a8a8a" font-size="11">G</text>
+  <circle cx="109" cy="409" r="3.2" fill="#4a90d9"/>
+  <circle cx="71" cy="409" r="3.2" fill="#4a90d9"/>
+  <circle cx="90" cy="442" r="3.2" fill="#4a90d9"/>
+  <text x="130" y="408" fill="#4a90d9" font-weight="bold" font-size="13">ortho / para directors</text>
+  <text x="130" y="426" fill="#8a8a8a" font-size="12">&#8722;OH, &#8722;NH&#8322;, &#8722;OR, &#8722;R (activate); halogens (deactivate)</text>
+
+  <!-- meta directors ring -->
+  <polygon points="430,398 449,409 449,431 430,442 411,431 411,409" fill="none" stroke="#8a8a8a" stroke-width="1.6"/>
+  <line x1="430" y1="398" x2="430" y2="384" stroke="#8a8a8a" stroke-width="1.4"/>
+  <text x="426" y="381" fill="#8a8a8a" font-size="11">G</text>
+  <circle cx="449" cy="431" r="3.2" fill="#e0645c"/>
+  <circle cx="411" cy="431" r="3.2" fill="#e0645c"/>
+  <text x="470" y="408" fill="#e0645c" font-weight="bold" font-size="13">meta directors</text>
+  <text x="470" y="426" fill="#8a8a8a" font-size="12">&#8722;NO&#8322;, &#8722;C(=O)R,</text>
+  <text x="470" y="442" fill="#8a8a8a" font-size="12">&#8722;COOH, &#8722;C&#8801;N (deactivate)</text>
+</svg>

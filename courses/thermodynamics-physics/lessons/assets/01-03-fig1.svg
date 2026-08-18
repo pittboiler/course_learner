@@ -1,0 +1,40 @@
+<svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Work is the area under the process curve — swap to another path between the same two states and the area changes.</text>
+
+  <!-- axes -->
+  <line x1="70" y1="280" x2="575" y2="280" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="575,280 565,275 565,285" fill="#8a8a8a"/>
+  <text x="566" y="302" fill="#8a8a8a">V</text>
+  <line x1="70" y1="280" x2="70" y2="55" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,55 65,65 75,65" fill="#8a8a8a"/>
+  <text x="52" y="62" fill="#8a8a8a">P</text>
+
+  <!-- shaded area under Path A (W = area) -->
+  <path d="M 152 280 L 152 91 L 192 154 L 233 186 L 274 205 L 315 217 L 356 226 L 397 233 L 397 280 Z"
+        fill="#e0645c" opacity="0.15"/>
+
+  <!-- Path B: isobaric-then-isochoric (the "high road"), dashed coral -->
+  <path d="M 152 91 L 397 91 L 397 233" fill="none" stroke="#e0645c" stroke-width="2" stroke-dasharray="6 5"/>
+  <text x="250" y="82" fill="#e0645c">Path B</text>
+
+  <!-- Path A: isotherm-like curve, blue -->
+  <path d="M 152 91 L 192 154 L 233 186 L 274 205 L 315 217 L 356 226 L 397 233"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="212" y="168" fill="#4a90d9">Path A</text>
+
+  <!-- state markers -->
+  <circle cx="152" cy="91" r="4" fill="#4a90d9"/>
+  <text x="132" y="88" fill="#8a8a8a">1</text>
+  <circle cx="397" cy="233" r="4" fill="#4a90d9"/>
+  <text x="405" y="238" fill="#8a8a8a">2</text>
+
+  <!-- work label inside the shaded region -->
+  <text x="196" y="262" fill="#e0645c">W = &#8747;P dV</text>
+
+  <!-- dashed drop-lines to V axis -->
+  <line x1="152" y1="91" x2="152" y2="280" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4" opacity="0.6"/>
+  <line x1="397" y1="233" x2="397" y2="280" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4" opacity="0.6"/>
+  <text x="146" y="296" fill="#8a8a8a">V&#8321;</text>
+  <text x="391" y="296" fill="#8a8a8a">V&#8322;</text>
+</svg>

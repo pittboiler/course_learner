@@ -1,0 +1,68 @@
+<svg viewBox="0 0 480 395" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <defs>
+    <marker id="coral2" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#e0645c"/>
+    </marker>
+    <marker id="grey2" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#8a8a8a"/>
+    </marker>
+  </defs>
+
+  <!-- caption -->
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Boom pinned at A, held by a cable to C; a load hangs at the midpoint. Take moments about A.</text>
+
+  <!-- wall (grey, with hatch on the left) -->
+  <line x1="110" y1="40" x2="110" y2="330" stroke="#8a8a8a" stroke-width="2.5"/>
+  <line x1="110" y1="50" x2="98" y2="62" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="110" y1="74" x2="98" y2="86" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="110" y1="98" x2="98" y2="110" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="110" y1="122" x2="98" y2="134" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="110" y1="146" x2="98" y2="158" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="110" y1="170" x2="98" y2="182" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="110" y1="194" x2="98" y2="206" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="110" y1="218" x2="98" y2="230" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="110" y1="242" x2="98" y2="254" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="110" y1="266" x2="98" y2="278" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="110" y1="290" x2="98" y2="302" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- cable C to B (grey line the tension acts along) -->
+  <line x1="110" y1="60" x2="290" y2="300" stroke="#8a8a8a" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <circle cx="110" cy="60" r="3.5" fill="#8a8a8a"/>
+  <text x="86" y="56" fill="#8a8a8a">C</text>
+
+  <!-- the boom A to B -->
+  <line x1="110" y1="300" x2="290" y2="300" stroke="#4a90d9" stroke-width="6"/>
+  <text x="180" y="322" fill="#4a90d9">boom</text>
+
+  <!-- pin at A -->
+  <circle cx="110" cy="300" r="6" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="84" y="292" fill="#8a8a8a">A</text>
+  <!-- B end marker -->
+  <circle cx="290" cy="300" r="3.5" fill="#4a90d9"/>
+  <text x="296" y="296" fill="#8a8a8a">B</text>
+
+  <!-- tension T along cable, from B toward C (coral) -->
+  <line x1="290" y1="300" x2="140" y2="100" stroke="#e0645c" stroke-width="2.5" marker-end="url(#coral2)"/>
+  <text x="196" y="176" fill="#e0645c">T</text>
+
+  <!-- weight W at midpoint (coral, down) -->
+  <line x1="200" y1="300" x2="200" y2="356" stroke="#e0645c" stroke-width="2.5" marker-end="url(#coral2)"/>
+  <text x="206" y="346" fill="#e0645c">W</text>
+
+  <!-- pin reactions A_x, A_y (coral) -->
+  <line x1="110" y1="300" x2="110" y2="248" stroke="#e0645c" stroke-width="2.5" marker-end="url(#coral2)"/>
+  <text x="116" y="262" fill="#e0645c">A&#8202;&#8202;y</text>
+  <line x1="110" y1="300" x2="162" y2="300" stroke="#e0645c" stroke-width="2.5" marker-end="url(#coral2)"/>
+  <text x="132" y="292" fill="#e0645c">A&#8202;&#8202;x</text>
+
+  <!-- angle theta at B, between boom and cable -->
+  <path d="M 262 300 A 28 28 0 0 0 268 283" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="250" y="286" fill="#8a8a8a">&#952;</text>
+
+  <!-- dimensions -->
+  <text x="60" y="184" fill="#8a8a8a">8 m</text>
+  <line x1="110" y1="372" x2="200" y2="372" stroke="#8a8a8a" stroke-width="1" marker-start="url(#grey2)" marker-end="url(#grey2)"/>
+  <line x1="200" y1="372" x2="290" y2="372" stroke="#8a8a8a" stroke-width="1" marker-start="url(#grey2)" marker-end="url(#grey2)"/>
+  <text x="146" y="388" fill="#8a8a8a">3 m</text>
+  <text x="236" y="388" fill="#8a8a8a">3 m</text>
+</svg>

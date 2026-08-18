@@ -1,0 +1,48 @@
+<svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">The bond-energy well: depth U&#8320; sets melting point/cohesion, curvature at the bottom sets stiffness.</text>
+
+  <!-- U axis -->
+  <line x1="70" y1="300" x2="70" y2="45" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,45 65,55 75,55" fill="#8a8a8a"/>
+  <text x="60" y="42" fill="#8a8a8a">U(r)</text>
+
+  <!-- r axis = U=0 line -->
+  <line x1="70" y1="110" x2="592" y2="110" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="592,110 582,105 582,115" fill="#8a8a8a"/>
+  <text x="596" y="115" fill="#8a8a8a">r</text>
+  <text x="30" y="106" fill="#8a8a8a">0</text>
+  <text x="470" y="102" fill="#8a8a8a">U &#8594; 0 as r &#8594; &#8734;</text>
+
+  <!-- well-bottom reference line -->
+  <line x1="150" y1="270" x2="245" y2="270" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- main U(r) curve -->
+  <path d="M 214 17 L 217 110 L 220 174 L 224 231 L 229 259 L 235 270 L 239 267 L 254 234 L 276 184 L 305 146 L 335 128 L 364 120 L 423 113 L 511 111 L 570 110"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="205" y="70" fill="#4a90d9">repulsion</text>
+  <text x="150" y="55" fill="#4a90d9">(+B/r&#8319;)</text>
+  <text x="430" y="135" fill="#4a90d9">attraction (&#8722;A/r&#7504;)</text>
+
+  <!-- local parabola at the bottom (the spring) -->
+  <path d="M 205 200 L 215 239 L 225 262 L 235 270 L 245 262 L 255 239 L 265 200"
+        fill="none" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="250" y="308" fill="#e0645c">&#8776; parabola = a spring</text>
+
+  <!-- equilibrium point -->
+  <circle cx="235" cy="270" r="3.5" fill="#e0645c"/>
+
+  <!-- r0 marker -->
+  <line x1="235" y1="270" x2="235" y2="110" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="228" y="128" fill="#e0645c">r&#8320;</text>
+
+  <!-- well-depth double arrow -->
+  <line x1="170" y1="112" x2="170" y2="268" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="170,110 166,119 174,119" fill="#e0645c"/>
+  <polygon points="170,270 166,261 174,261" fill="#e0645c"/>
+  <text x="120" y="195" fill="#e0645c">U&#8320;</text>
+
+  <!-- curvature callout -->
+  <text x="300" y="250" fill="#e0645c">steep &amp; narrow &#8594; stiff</text>
+  <text x="300" y="268" fill="#e0645c">deep &#8594; high melting pt</text>
+</svg>

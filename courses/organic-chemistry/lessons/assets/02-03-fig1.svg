@@ -1,0 +1,108 @@
+<svg viewBox="0 0 640 500" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">SN1: the leaving group departs first (slow), making a flat carbocation the nucleophile then hits from both faces.</text>
+
+  <!-- ============ TOP: two-step mechanism ============ -->
+
+  <!-- Stage 1: substrate R3C-LG -->
+  <text x="70" y="58" fill="#8a8a8a">substrate</text>
+  <!-- central carbon -->
+  <circle cx="90" cy="110" r="3" fill="#8a8a8a"/>
+  <!-- three R groups (grey) -->
+  <line x1="90" y1="110" x2="66" y2="92" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="90" y1="110" x2="66" y2="128" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="90" y1="110" x2="90" y2="146" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="52" y="90" fill="#8a8a8a">R</text>
+  <text x="52" y="136" fill="#8a8a8a">R</text>
+  <text x="85" y="162" fill="#8a8a8a">R</text>
+  <!-- C-LG bond (coral, breaking) -->
+  <line x1="90" y1="110" x2="126" y2="92" stroke="#e0645c" stroke-width="2"/>
+  <text x="130" y="94" fill="#e0645c">LG</text>
+  <!-- curved arrow: LG leaves with the pair -->
+  <path d="M 108 100 q 14 -20 26 -6" fill="none" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="134,94 126,92 132,86" fill="#e0645c"/>
+
+  <!-- step-1 arrow -->
+  <line x1="158" y1="112" x2="238" y2="112" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="238,112 228,107 228,117" fill="#8a8a8a"/>
+  <text x="164" y="104" fill="#8a8a8a" font-size="12">ionize</text>
+  <text x="168" y="128" fill="#e0645c" font-size="12">SLOW</text>
+
+  <!-- Stage 2: planar carbocation (blue) with p-orbital + both-face attack -->
+  <text x="292" y="58" fill="#4a90d9">planar carbocation</text>
+  <!-- p-orbital lobes (dashed) above and below -->
+  <ellipse cx="330" cy="88" rx="12" ry="20" fill="#4a90d9" opacity="0.12" stroke="#4a90d9" stroke-width="1" stroke-dasharray="3 3"/>
+  <ellipse cx="330" cy="132" rx="12" ry="20" fill="#4a90d9" opacity="0.12" stroke="#4a90d9" stroke-width="1" stroke-dasharray="3 3"/>
+  <!-- central carbon (blue) with + -->
+  <circle cx="330" cy="110" r="3" fill="#4a90d9"/>
+  <text x="336" y="106" fill="#4a90d9" font-weight="bold">+</text>
+  <!-- three R in a plane (trigonal, ~120) -->
+  <line x1="330" y1="110" x2="306" y2="96" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="330" y1="110" x2="306" y2="124" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="330" y1="110" x2="360" y2="110" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="292" y="94" fill="#8a8a8a">R</text>
+  <text x="292" y="132" fill="#8a8a8a">R</text>
+  <text x="364" y="114" fill="#8a8a8a">R</text>
+  <!-- nucleophile attack from BOTH faces (coral) -->
+  <line x1="330" y1="48" x2="330" y2="70" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="330,70 325,61 335,61" fill="#e0645c"/>
+  <text x="300" y="44" fill="#e0645c" font-size="12">Nu:  top</text>
+  <line x1="330" y1="172" x2="330" y2="150" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="330,150 325,159 335,159" fill="#e0645c"/>
+  <text x="296" y="188" fill="#e0645c" font-size="12">Nu:  bottom</text>
+
+  <!-- step-2 arrow -->
+  <line x1="396" y1="112" x2="470" y2="112" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="470,112 460,107 460,117" fill="#8a8a8a"/>
+  <text x="400" y="104" fill="#8a8a8a" font-size="12">attack</text>
+  <text x="404" y="128" fill="#4a90d9" font-size="12">fast</text>
+
+  <!-- Stage 3: two enantiomeric products (blue) -->
+  <text x="516" y="58" fill="#4a90d9">50 : 50 (racemic)</text>
+  <!-- product A: Nu on a wedge -->
+  <circle cx="536" cy="92" r="3" fill="#4a90d9"/>
+  <line x1="536" y1="92" x2="516" y2="80" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="536" y1="92" x2="516" y2="104" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="536,92 560,84 560,90" fill="#4a90d9"/>
+  <text x="564" y="88" fill="#4a90d9">Nu</text>
+  <!-- product B: Nu on a dash (mirror image) -->
+  <circle cx="536" cy="150" r="3" fill="#4a90d9"/>
+  <line x1="536" y1="150" x2="516" y2="138" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="536" y1="150" x2="516" y2="162" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="536" y1="150" x2="560" y2="146" stroke="#4a90d9" stroke-width="1.4" stroke-dasharray="2 2"/>
+  <line x1="536" y1="150" x2="558" y2="151" stroke="#4a90d9" stroke-width="1.4" stroke-dasharray="2 2"/>
+  <text x="564" y="153" fill="#4a90d9">Nu</text>
+
+  <!-- divider -->
+  <line x1="20" y1="222" x2="620" y2="222" stroke="#8a8a8a" stroke-width="0.75" stroke-dasharray="2 5"/>
+
+  <!-- ============ BOTTOM: reaction-coordinate diagram ============ -->
+  <text x="20" y="252" fill="#8a8a8a" font-style="italic">Two barriers, one intermediate valley: the first (tall) hill is rate-determining.</text>
+
+  <!-- axes -->
+  <line x1="70" y1="290" x2="70" y2="470" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,290 65,300 75,300" fill="#8a8a8a"/>
+  <text x="20" y="380" fill="#8a8a8a" font-size="12">energy</text>
+  <line x1="70" y1="470" x2="610" y2="470" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="610,470 600,465 600,475" fill="#8a8a8a"/>
+  <text x="470" y="490" fill="#8a8a8a" font-size="12">reaction progress &#8594;</text>
+
+  <!-- energy curve: substrate -> TS1(tall) -> carbocation valley -> TS2 -> product -->
+  <path d="M 90 430 C 150 430 150 310 210 310 C 262 310 275 385 330 385 C 372 385 382 345 430 345 C 500 345 520 445 590 445"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- TS1 marker (rate-determining) -->
+  <line x1="210" y1="310" x2="210" y2="278" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="150" y="272" fill="#e0645c" font-size="12">TS1 (rate-determining)</text>
+
+  <!-- carbocation intermediate valley -->
+  <circle cx="330" cy="385" r="4" fill="#4a90d9"/>
+  <text x="292" y="412" fill="#4a90d9" font-size="12">carbocation</text>
+
+  <!-- TS2 marker -->
+  <text x="404" y="333" fill="#8a8a8a" font-size="12">TS2</text>
+
+  <!-- level labels -->
+  <text x="80" y="448" fill="#8a8a8a" font-size="12">R&#8211;LG</text>
+  <text x="560" y="462" fill="#8a8a8a" font-size="12">R&#8211;Nu</text>
+</svg>

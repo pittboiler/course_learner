@@ -1,0 +1,67 @@
+<svg viewBox="0 0 620 470" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="18" y="18" fill="#8a8a8a" font-style="italic">PUREX: dissolve in acid, then TBP pulls U and Pu into oil while the fission products stay in the acid.</text>
+
+  <!-- Box 1: spent fuel -->
+  <rect x="250" y="34" width="120" height="40" rx="6" fill="#8a8a8a" opacity="0.12" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="310" y="59" fill="#8a8a8a" text-anchor="middle">Spent fuel</text>
+
+  <!-- arrow 1 -->
+  <line x1="310" y1="74" x2="310" y2="92" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="310,96 305,87 315,87" fill="#8a8a8a"/>
+
+  <!-- Box 2: dissolve -->
+  <rect x="205" y="96" width="210" height="48" rx="6" fill="#8a8a8a" opacity="0.12" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="310" y="116" fill="#8a8a8a" text-anchor="middle">Dissolve in nitric acid</text>
+  <text x="310" y="133" fill="#8a8a8a" text-anchor="middle" font-size="11">U(VI), Pu(IV), FP nitrates</text>
+
+  <!-- arrow 2 -->
+  <line x1="310" y1="144" x2="310" y2="164" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="310,168 305,159 315,159" fill="#8a8a8a"/>
+
+  <!-- Box 3: solvent extraction -->
+  <rect x="195" y="168" width="230" height="50" rx="6" fill="#8a8a8a" opacity="0.12" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="310" y="189" fill="#8a8a8a" text-anchor="middle">Solvent extraction</text>
+  <text x="310" y="207" fill="#8a8a8a" text-anchor="middle" font-size="11">30% TBP in kerosene</text>
+
+  <!-- branch right: aqueous raffinate -->
+  <line x1="425" y1="193" x2="463" y2="193" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="468,193 459,188 459,198" fill="#e0645c"/>
+  <text x="428" y="185" fill="#e0645c" font-size="11">aqueous</text>
+
+  <!-- Box R: raffinate = HLW -->
+  <rect x="468" y="160" width="146" height="66" rx="6" fill="#e0645c" opacity="0.15" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="541" y="180" fill="#e0645c" text-anchor="middle">Raffinate = HLW</text>
+  <text x="541" y="197" fill="#e0645c" text-anchor="middle" font-size="11">fission products</text>
+  <text x="541" y="213" fill="#e0645c" text-anchor="middle" font-size="11">+ minor actinides</text>
+
+  <!-- branch down: organic phase -->
+  <line x1="310" y1="218" x2="310" y2="258" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="310,262 305,253 315,253" fill="#4a90d9"/>
+  <text x="318" y="242" fill="#4a90d9" font-size="11">organic: U(VI) + Pu(IV)</text>
+
+  <!-- Box 4: partition -->
+  <rect x="195" y="262" width="230" height="52" rx="6" fill="#8a8a8a" opacity="0.12" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="310" y="283" fill="#8a8a8a" text-anchor="middle">Partition: add reductant</text>
+  <text x="310" y="301" fill="#8a8a8a" text-anchor="middle" font-size="12">Pu(IV) &#8594; Pu(III), inextractable</text>
+
+  <!-- branch to uranium product (down-left) -->
+  <line x1="248" y1="314" x2="150" y2="374" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="147,378 145,368 154,371" fill="#4a90d9"/>
+
+  <!-- branch to plutonium product (down-right) -->
+  <line x1="372" y1="314" x2="470" y2="374" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="473,378 466,371 475,368" fill="#e0645c"/>
+
+  <!-- Box U: uranium product -->
+  <rect x="55" y="380" width="178" height="60" rx="6" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="144" y="404" fill="#4a90d9" text-anchor="middle">Uranium product</text>
+  <text x="144" y="422" fill="#4a90d9" text-anchor="middle" font-size="11">&#8594; re-enrich / store</text>
+
+  <!-- Box P: plutonium product -->
+  <rect x="388" y="380" width="178" height="60" rx="6" fill="#e0645c" opacity="0.15" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="477" y="404" fill="#e0645c" text-anchor="middle">Plutonium product</text>
+  <text x="477" y="422" fill="#e0645c" text-anchor="middle" font-size="11">&#8594; MOX &#160;(separated Pu)</text>
+
+  <!-- flashpoint note -->
+  <text x="477" y="456" fill="#e0645c" text-anchor="middle" font-style="italic" font-size="11">proliferation flashpoint</text>
+</svg>

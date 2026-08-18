@@ -1,0 +1,44 @@
+<svg viewBox="0 0 600 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">A diatomic potential energy surface: fix the nuclei at each R, get one energy E(R). Nuclei then roll on this curve.</text>
+
+  <!-- E axis (vertical) -->
+  <line x1="70" y1="300" x2="70" y2="44" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,44 65,54 75,54" fill="#8a8a8a"/>
+  <text x="44" y="52" fill="#8a8a8a">E</text>
+
+  <!-- R axis (horizontal) -->
+  <line x1="70" y1="280" x2="578" y2="280" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="578,280 568,275 568,285" fill="#8a8a8a"/>
+  <text x="565" y="300" fill="#8a8a8a">R</text>
+
+  <!-- dissociation asymptote (E = 0) -->
+  <line x1="250" y1="110" x2="575" y2="110" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="392" y="102" fill="#8a8a8a">dissociation limit (atoms apart)</text>
+
+  <!-- the PES curve (Morse-like) -->
+  <path d="M 99.7 59 L 114.6 131 L 129.4 179.5 L 144.3 210.4 L 159.1 228.5 L 173.95 237.4 L 188.8 240 L 203.65 238 L 218.5 233.2 L 248.2 218.6 L 277.9 201.9 L 322.45 178.1 L 367 158.9 L 411.55 144.3 L 470.95 131 L 530.35 122.7 L 560 119.9"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- well-bottom guide -->
+  <line x1="188.8" y1="240" x2="252" y2="240" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- D_e depth marker -->
+  <line x1="250" y1="112" x2="250" y2="238" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="250,110 246,120 254,120" fill="#e0645c"/>
+  <polygon points="250,240 246,230 254,230" fill="#e0645c"/>
+  <text x="258" y="180" fill="#e0645c">D&#8342; (well depth)</text>
+
+  <!-- R_e marker -->
+  <line x1="188.8" y1="240" x2="188.8" y2="280" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="3 4"/>
+  <circle cx="188.8" cy="240" r="3.5" fill="#e0645c"/>
+  <text x="176" y="298" fill="#e0645c">R&#8342;</text>
+
+  <!-- curvature / vibration note near the minimum -->
+  <text x="150" y="262" fill="#8a8a8a" font-size="12">curvature here = k</text>
+  <text x="150" y="276" fill="#8a8a8a" font-size="12">(vibrations)</text>
+
+  <!-- repulsive-wall note -->
+  <text x="86" y="88" fill="#8a8a8a" font-size="12">repulsive</text>
+  <text x="86" y="102" fill="#8a8a8a" font-size="12">wall</text>
+</svg>

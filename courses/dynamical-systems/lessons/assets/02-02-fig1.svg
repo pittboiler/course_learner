@@ -1,0 +1,40 @@
+<svg viewBox="0 0 440 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="440" height="380" fill="#ffffff"/>
+  <defs>
+    <marker id="arrowBlue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1a5fb4"/>
+    </marker>
+    <marker id="arrowRed" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#a51d2d"/>
+    </marker>
+  </defs>
+
+  <!-- level sets V = c (concentric circles) -->
+  <circle cx="210" cy="190" r="145" fill="none" stroke="#111111" stroke-width="1.2"/>
+  <circle cx="210" cy="190" r="95"  fill="none" stroke="#111111" stroke-width="1.2"/>
+  <circle cx="210" cy="190" r="45"  fill="none" stroke="#111111" stroke-width="1.2"/>
+
+  <!-- inward-spiralling trajectory (the flow) -->
+  <polyline points="375,190 305.7,94.3 210,79.1 145.7,125.7 135.4,190 166.8,233.2 210,240.1 239.1,219.1 243.7,190 229.5,170.5 210,167.3 196.8,176.8 194.8,190 210,190"
+            fill="none" stroke="#1a5fb4" stroke-width="2.2" marker-end="url(#arrowBlue)"/>
+
+  <!-- fixed point at the centre -->
+  <circle cx="210" cy="190" r="4.5" fill="#111111"/>
+  <text x="219" y="205" font-size="13" fill="#111111">x*</text>
+
+  <!-- gradient (outward normal) vs flow (crosses inward) at one point -->
+  <line x1="292.3" y1="142.5" x2="322.6" y2="125" stroke="#a51d2d" stroke-width="2" marker-end="url(#arrowRed)"/>
+  <text x="326" y="122" font-size="13" fill="#a51d2d">&#8711;V</text>
+  <line x1="292.3" y1="142.5" x2="270" y2="168" stroke="#1a5fb4" stroke-width="2" marker-end="url(#arrowBlue)"/>
+  <text x="243" y="176" font-size="12" fill="#1a5fb4">f</text>
+  <circle cx="292.3" cy="142.5" r="2.8" fill="#111111"/>
+
+  <!-- labels for the nested level sets -->
+  <text x="205" y="60"  font-size="12.5" fill="#111111">V = c&#8323;</text>
+  <text x="216" y="110" font-size="12.5" fill="#111111">V = c&#8322;</text>
+  <text x="216" y="158" font-size="12.5" fill="#111111">V = c&#8321;</text>
+
+  <text x="20" y="28" font-size="14" fill="#111111">Nested level sets V = c (c&#8321; &lt; c&#8322; &lt; c&#8323;):</text>
+  <text x="20" y="360" font-size="13" fill="#111111">the flow crosses every level set inward, so V decreases along it &#8212; that is</text>
+  <text x="20" y="376" font-size="13" fill="#1a5fb4">V&#775; = &#8711;V &#183; f &lt; 0, and the trajectory is trapped down to x*.</text>
+</svg>

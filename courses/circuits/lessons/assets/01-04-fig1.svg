@@ -1,0 +1,103 @@
+<svg viewBox="0 0 640 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <defs>
+    <marker id="coral" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 z" fill="#e0645c"/>
+    </marker>
+    <marker id="grey" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 z" fill="#8a8a8a"/>
+    </marker>
+  </defs>
+
+  <!-- caption -->
+  <text x="24" y="22" fill="#8a8a8a" font-style="italic">Voltage divider: series R&#8322; keeps a share of v. Current divider: i splits by the OTHER resistor.</text>
+
+  <!-- ============ LEFT: voltage divider ============ -->
+  <text x="120" y="52" fill="#8a8a8a" font-weight="bold">Voltage divider</text>
+
+  <!-- voltage source (circle with + / &#8722;) -->
+  <circle cx="60" cy="175" r="22" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="60" y1="163" x2="60" y2="171" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="56" y1="167" x2="64" y2="167" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="56" y1="183" x2="64" y2="183" stroke="#4a90d9" stroke-width="2"/>
+  <text x="24" y="180" fill="#4a90d9">v</text>
+
+  <!-- top wire: source -> R1 -->
+  <line x1="60" y1="153" x2="60" y2="82" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="60" y1="82" x2="210" y2="82" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="210" y1="82" x2="210" y2="100" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- R1 box -->
+  <rect x="190" y="100" width="40" height="52" fill="#8a8a8a" opacity="0.12" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="238" y="131" fill="#8a8a8a">R&#8321;</text>
+
+  <!-- wire R1 -> tap node -->
+  <line x1="210" y1="152" x2="210" y2="184" stroke="#8a8a8a" stroke-width="1.5"/>
+  <!-- tap node (highlighted) -->
+  <circle cx="210" cy="184" r="4" fill="#e0645c"/>
+  <text x="222" y="189" fill="#e0645c">tap</text>
+
+  <!-- wire tap -> R2 -->
+  <line x1="210" y1="184" x2="210" y2="216" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- R2 box (the branch under discussion) -->
+  <rect x="190" y="216" width="40" height="52" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <text x="238" y="247" fill="#4a90d9">R&#8322;</text>
+
+  <!-- bottom wire back to source -->
+  <line x1="210" y1="268" x2="210" y2="292" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="210" y1="292" x2="60" y2="292" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="60" y1="292" x2="60" y2="197" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- ground -->
+  <line x1="60" y1="292" x2="60" y2="304" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="50" y1="304" x2="70" y2="304" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="53" y1="309" x2="67" y2="309" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="56" y1="314" x2="64" y2="314" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- v2 marker across R2 (coral) -->
+  <line x1="160" y1="184" x2="160" y2="268" stroke="#e0645c" stroke-width="1.5" marker-start="url(#coral)" marker-end="url(#coral)"/>
+  <text x="130" y="230" fill="#e0645c">v&#8322;</text>
+
+  <!-- ============ RIGHT: current divider ============ -->
+  <text x="450" y="52" fill="#8a8a8a" font-weight="bold">Current divider</text>
+
+  <!-- current source (circle with up arrow) -->
+  <circle cx="400" cy="205" r="22" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="400" y1="217" x2="400" y2="193" stroke="#4a90d9" stroke-width="2" marker-end="url(#coral)"/>
+  <text x="364" y="210" fill="#4a90d9">i</text>
+
+  <!-- top wire from source to the two branches -->
+  <line x1="400" y1="183" x2="400" y2="92" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="400" y1="92" x2="570" y2="92" stroke="#8a8a8a" stroke-width="1.5"/>
+  <!-- top node -->
+  <circle cx="480" cy="92" r="4" fill="#8a8a8a"/>
+
+  <!-- branch 1 (R1) -->
+  <line x1="480" y1="92" x2="480" y2="132" stroke="#8a8a8a" stroke-width="1.5"/>
+  <rect x="460" y="132" width="40" height="52" fill="#8a8a8a" opacity="0.12" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="446" y="163" fill="#8a8a8a">R&#8321;</text>
+  <line x1="480" y1="184" x2="480" y2="248" stroke="#8a8a8a" stroke-width="1.5"/>
+  <!-- i1 arrow (coral) -->
+  <line x1="518" y1="108" x2="518" y2="126" stroke="#e0645c" stroke-width="1.5" marker-end="url(#coral)"/>
+  <text x="524" y="122" fill="#e0645c">i&#8321;</text>
+
+  <!-- branch 2 (R2, under discussion) -->
+  <line x1="570" y1="92" x2="570" y2="132" stroke="#8a8a8a" stroke-width="1.5"/>
+  <rect x="550" y="132" width="40" height="52" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <text x="596" y="163" fill="#4a90d9">R&#8322;</text>
+  <line x1="570" y1="184" x2="570" y2="248" stroke="#8a8a8a" stroke-width="1.5"/>
+  <!-- i2 arrow (coral) -->
+  <line x1="608" y1="108" x2="608" y2="126" stroke="#e0645c" stroke-width="1.5" marker-end="url(#coral)"/>
+  <text x="614" y="122" fill="#e0645c">i&#8322;</text>
+
+  <!-- bottom rail back to source -->
+  <line x1="570" y1="248" x2="400" y2="248" stroke="#8a8a8a" stroke-width="1.5"/>
+  <circle cx="480" cy="248" r="4" fill="#8a8a8a"/>
+  <line x1="400" y1="248" x2="400" y2="227" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- ground -->
+  <line x1="400" y1="248" x2="400" y2="304" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="390" y1="304" x2="410" y2="304" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="393" y1="309" x2="407" y2="309" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="396" y1="314" x2="404" y2="314" stroke="#8a8a8a" stroke-width="1.5"/>
+</svg>

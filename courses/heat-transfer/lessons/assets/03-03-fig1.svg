@@ -1,0 +1,64 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">The boundary layer thins the flow's grip: h(x) falls as the layer grows, then jumps when it trips turbulent.</text>
+
+  <!-- ===== free-stream arrows ===== -->
+  <line x1="76" y1="58" x2="120" y2="58" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="120,58 111,54 111,62" fill="#8a8a8a"/>
+  <line x1="76" y1="80" x2="120" y2="80" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="120,80 111,76 111,84" fill="#8a8a8a"/>
+  <text x="128" y="72" fill="#8a8a8a">u&#8734; , T&#8734;</text>
+
+  <!-- ===== the plate ===== -->
+  <line x1="70" y1="180" x2="580" y2="180" stroke="#8a8a8a" stroke-width="2.5"/>
+  <line x1="76" y1="186" x2="66" y2="196" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="106" y1="186" x2="96" y2="196" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="136" y1="186" x2="126" y2="196" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="166" y1="186" x2="156" y2="196" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="196" y1="186" x2="186" y2="196" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="226" y1="186" x2="216" y2="196" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="256" y1="186" x2="246" y2="196" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="286" y1="186" x2="276" y2="196" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- laminar boundary-layer edge (grows as sqrt x) -->
+  <path d="M 70 180 Q 150 150 300 140" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <!-- turbulent boundary-layer edge (thicker, wavy) -->
+  <path d="M 300 130 L 322 125 L 345 131 L 370 122 L 395 128 L 420 118 L 448 124 L 476 114 L 508 120 L 540 110 L 580 114"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="150" y="168" fill="#4a90d9">&#948;(x)</text>
+
+  <!-- transition band -->
+  <line x1="300" y1="112" x2="300" y2="196" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="238" y="106" fill="#e0645c">Re</text>
+  <text x="262" y="110" fill="#e0645c" font-size="11">x,c</text>
+  <text x="278" y="106" fill="#e0645c">&#8776; 5&#215;10&#8309;</text>
+
+  <!-- region labels -->
+  <text x="150" y="216" fill="#8a8a8a">Laminar</text>
+  <text x="410" y="216" fill="#8a8a8a">Turbulent</text>
+
+  <!-- ===== lower panel: local h(x) ===== -->
+  <!-- axes -->
+  <line x1="70" y1="260" x2="70" y2="376" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,260 65,270 75,270" fill="#8a8a8a"/>
+  <text x="42" y="272" fill="#8a8a8a">h</text>
+  <line x1="70" y1="376" x2="580" y2="376" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="580,376 570,371 570,381" fill="#8a8a8a"/>
+  <text x="584" y="381" fill="#8a8a8a">x</text>
+
+  <!-- laminar h ~ x^-1/2 : starts high, decays to the transition min -->
+  <path d="M 80 282 Q 140 320 220 340 T 300 350" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="112" y="304" fill="#4a90d9" font-size="12">~ x&#8722;&#189;</text>
+
+  <!-- the jump at transition (coral) -->
+  <line x1="300" y1="350" x2="300" y2="306" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="300,306 295,316 305,316" fill="#e0645c"/>
+  <text x="308" y="330" fill="#e0645c">jump</text>
+
+  <!-- turbulent h ~ x^-1/5 : slow decay from the jumped-up value -->
+  <path d="M 300 306 Q 420 320 580 332" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="430" y="308" fill="#4a90d9" font-size="12">~ x&#8722;&#185;/&#8309;</text>
+
+  <!-- transition marker aligned below -->
+  <line x1="300" y1="376" x2="300" y2="384" stroke="#e0645c" stroke-width="1.5"/>
+</svg>

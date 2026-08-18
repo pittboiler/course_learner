@@ -1,0 +1,76 @@
+<svg viewBox="0 0 660 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <defs>
+    <marker id="arrowC" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 z" fill="#e0645c"/>
+    </marker>
+    <marker id="arrowB" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 z" fill="#4a90d9"/>
+    </marker>
+    <marker id="arrowG" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 z" fill="#8a8a8a"/>
+    </marker>
+  </defs>
+
+  <!-- caption -->
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Same body, two diagrams: real forces on the left must add up to the m a on the right.</text>
+
+  <!-- ===================== Panel A: free-body diagram ===================== -->
+
+  <!-- surface reference (grey, block is isolated above it) -->
+  <line x1="90" y1="204" x2="245" y2="204" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <line x1="98" y1="204" x2="90" y2="214" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="122" y1="204" x2="114" y2="214" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="146" y1="204" x2="138" y2="214" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="170" y1="204" x2="162" y2="214" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="194" y1="204" x2="186" y2="214" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="218" y1="204" x2="210" y2="214" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="242" y1="204" x2="234" y2="214" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- the block -->
+  <rect x="110" y="158" width="80" height="44" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <text x="140" y="185" fill="#4a90d9">m</text>
+
+  <!-- Weight W (down) -->
+  <line x1="150" y1="180" x2="150" y2="256" stroke="#e0645c" stroke-width="2" marker-end="url(#arrowC)"/>
+  <text x="156" y="252" fill="#e0645c">W = mg</text>
+
+  <!-- Normal N (up) -->
+  <line x1="150" y1="180" x2="150" y2="108" stroke="#e0645c" stroke-width="2" marker-end="url(#arrowC)"/>
+  <text x="156" y="112" fill="#e0645c">N</text>
+
+  <!-- Friction f (left, opposing motion) -->
+  <line x1="150" y1="180" x2="78" y2="180" stroke="#e0645c" stroke-width="2" marker-end="url(#arrowC)"/>
+  <text x="44" y="174" fill="#e0645c">f = &#956;N</text>
+
+  <!-- Applied pull P (up-right at angle) -->
+  <line x1="150" y1="180" x2="216" y2="142" stroke="#e0645c" stroke-width="2" marker-end="url(#arrowC)"/>
+  <text x="220" y="140" fill="#e0645c">P</text>
+
+  <!-- horizontal reference + angle arc for P -->
+  <line x1="150" y1="180" x2="222" y2="180" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 3"/>
+  <path d="M 188 180 A 38 38 0 0 0 182 163" fill="none" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="192" y="172" fill="#8a8a8a">&#952;</text>
+
+  <text x="70" y="300" fill="#8a8a8a">Free-body diagram (real forces)</text>
+
+  <!-- ===================== equals ===================== -->
+  <text x="322" y="192" fill="#8a8a8a" font-size="34">=</text>
+
+  <!-- ===================== Panel B: kinetic diagram ===================== -->
+
+  <!-- the same block outline -->
+  <rect x="430" y="158" width="80" height="44" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <text x="460" y="185" fill="#4a90d9">m</text>
+
+  <!-- the single m a vector -->
+  <line x1="470" y1="180" x2="586" y2="180" stroke="#4a90d9" stroke-width="3" marker-end="url(#arrowB)"/>
+  <text x="520" y="170" fill="#4a90d9">m a</text>
+
+  <!-- axes reference -->
+  <line x1="410" y1="250" x2="452" y2="250" stroke="#8a8a8a" stroke-width="1.2" marker-end="url(#arrowG)"/>
+  <text x="456" y="255" fill="#8a8a8a">x</text>
+  <line x1="410" y1="250" x2="410" y2="214" stroke="#8a8a8a" stroke-width="1.2" marker-end="url(#arrowG)"/>
+  <text x="404" y="212" fill="#8a8a8a">y</text>
+
+  <text x="440" y="300" fill="#8a8a8a">Kinetic diagram (m a)</text>
+</svg>

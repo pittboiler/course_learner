@@ -1,0 +1,25 @@
+<svg viewBox="0 0 420 280" xmlns="http://www.w3.org/2000/svg">
+  <!-- Universe rectangle -->
+  <rect x="10" y="20" width="400" height="240" rx="6"
+        fill="#33333308" stroke="#333333" stroke-width="1.5"/>
+  <text x="24" y="42" font-family="Georgia, serif" font-size="18" fill="#333333" font-style="italic">U</text>
+
+  <!-- Circle A (left) -->
+  <circle cx="165" cy="150" r="95" fill="#3a6ea5" fill-opacity="0.16" stroke="#333333" stroke-width="1.6"/>
+  <!-- Circle B (right) -->
+  <circle cx="255" cy="150" r="95" fill="#a5533a" fill-opacity="0.16" stroke="#333333" stroke-width="1.6"/>
+
+  <!-- Set labels -->
+  <text x="95" y="70" font-family="Georgia, serif" font-size="20" fill="#333333" font-style="italic">A</text>
+  <text x="315" y="70" font-family="Georgia, serif" font-size="20" fill="#333333" font-style="italic">B</text>
+
+  <!-- Region labels -->
+  <text x="105" y="156" font-family="Georgia, serif" font-size="15" fill="#333333" text-anchor="middle">A \ B</text>
+  <text x="210" y="156" font-family="Georgia, serif" font-size="15" fill="#333333" text-anchor="middle">A ∩ B</text>
+  <text x="315" y="156" font-family="Georgia, serif" font-size="15" fill="#333333" text-anchor="middle">B \ A</text>
+
+  <!-- Sub-captions -->
+  <text x="105" y="176" font-family="Georgia, serif" font-size="10.5" fill="#333333" text-anchor="middle" font-style="italic">only A</text>
+  <text x="210" y="176" font-family="Georgia, serif" font-size="10.5" fill="#333333" text-anchor="middle" font-style="italic">both</text>
+  <text x="315" y="176" font-family="Georgia, serif" font-size="10.5" fill="#333333" text-anchor="middle" font-style="italic">only B</text>
+</svg>

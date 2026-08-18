@@ -1,0 +1,84 @@
+<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Galaxies stay pinned to fixed comoving grid nodes; the grid itself stretches, so proper distance = a &#215; comoving grows.</text>
+
+  <!-- ===== panel 1: small scale factor a(t1) ===== -->
+  <text x="60" y="52" fill="#8a8a8a">a(t&#8321;)</text>
+  <!-- grid lines -->
+  <line x1="60" y1="70" x2="104" y2="70" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="60" y1="92" x2="104" y2="92" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="60" y1="114" x2="104" y2="114" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="60" y1="70" x2="60" y2="114" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="82" y1="70" x2="82" y2="114" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="104" y1="70" x2="104" y2="114" stroke="#8a8a8a" stroke-width="1"/>
+  <!-- galaxies at nodes -->
+  <circle cx="60" cy="70" r="3.5" fill="#4a90d9"/>
+  <circle cx="82" cy="70" r="3.5" fill="#4a90d9"/>
+  <circle cx="104" cy="70" r="3.5" fill="#4a90d9"/>
+  <circle cx="60" cy="92" r="3.5" fill="#4a90d9"/>
+  <circle cx="82" cy="92" r="3.5" fill="#4a90d9"/>
+  <circle cx="104" cy="92" r="3.5" fill="#4a90d9"/>
+  <circle cx="60" cy="114" r="3.5" fill="#4a90d9"/>
+  <circle cx="82" cy="114" r="3.5" fill="#4a90d9"/>
+  <circle cx="104" cy="114" r="3.5" fill="#4a90d9"/>
+  <!-- proper distance arrow (row y=92, spanning 2 cells = comoving chi) -->
+  <line x1="60" y1="130" x2="104" y2="130" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="60,130 69,126 69,134" fill="#e0645c"/>
+  <polygon points="104,130 95,126 95,134" fill="#e0645c"/>
+  <text x="70" y="146" fill="#e0645c">d&#8346;</text>
+
+  <!-- ===== expansion arrow ===== -->
+  <line x1="150" y1="92" x2="290" y2="92" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="290,92 280,87 280,97" fill="#8a8a8a"/>
+  <text x="168" y="84" fill="#8a8a8a">scale factor a grows</text>
+  <text x="176" y="110" fill="#8a8a8a">(same comoving &#967;)</text>
+
+  <!-- ===== panel 2: large scale factor a(t2) ===== -->
+  <text x="330" y="48" fill="#8a8a8a">a(t&#8322;) &gt; a(t&#8321;)</text>
+  <!-- grid lines (spacing doubled) -->
+  <line x1="330" y1="60" x2="418" y2="60" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="330" y1="104" x2="418" y2="104" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="330" y1="148" x2="418" y2="148" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="330" y1="60" x2="330" y2="148" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="374" y1="60" x2="374" y2="148" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="418" y1="60" x2="418" y2="148" stroke="#8a8a8a" stroke-width="1"/>
+  <!-- galaxies at nodes -->
+  <circle cx="330" cy="60" r="3.5" fill="#4a90d9"/>
+  <circle cx="374" cy="60" r="3.5" fill="#4a90d9"/>
+  <circle cx="418" cy="60" r="3.5" fill="#4a90d9"/>
+  <circle cx="330" cy="104" r="3.5" fill="#4a90d9"/>
+  <circle cx="374" cy="104" r="3.5" fill="#4a90d9"/>
+  <circle cx="418" cy="104" r="3.5" fill="#4a90d9"/>
+  <circle cx="330" cy="148" r="3.5" fill="#4a90d9"/>
+  <circle cx="374" cy="148" r="3.5" fill="#4a90d9"/>
+  <circle cx="418" cy="148" r="3.5" fill="#4a90d9"/>
+  <!-- proper distance arrow (longer) -->
+  <line x1="330" y1="164" x2="418" y2="164" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="330,164 339,160 339,168" fill="#e0645c"/>
+  <polygon points="418,164 409,160 409,168" fill="#e0645c"/>
+  <text x="352" y="180" fill="#e0645c">d&#8346; = a&#967;</text>
+
+  <!-- divider -->
+  <line x1="20" y1="210" x2="620" y2="210" stroke="#8a8a8a" stroke-width="0.75" stroke-dasharray="2 5"/>
+  <text x="20" y="230" fill="#8a8a8a" font-style="italic">Three spatial geometries (the shape of a slice of constant cosmic time t):</text>
+
+  <!-- ===== closed: sphere ===== -->
+  <circle cx="110" cy="300" r="42" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <ellipse cx="110" cy="300" rx="42" ry="13" fill="none" stroke="#4a90d9" stroke-width="1.25"/>
+  <ellipse cx="110" cy="300" rx="14" ry="42" fill="none" stroke="#4a90d9" stroke-width="1.25"/>
+  <text x="80" y="360" fill="#8a8a8a">k &gt; 0 closed (sphere)</text>
+
+  <!-- ===== flat: plane grid ===== -->
+  <polygon points="288,318 350,318 372,282 310,282" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="298.7" y1="300" x2="360.7" y2="300" stroke="#4a90d9" stroke-width="1.25"/>
+  <line x1="330" y1="318" x2="352" y2="282" stroke="#4a90d9" stroke-width="1.25"/>
+  <text x="300" y="360" fill="#8a8a8a">k = 0 flat (plane)</text>
+
+  <!-- ===== open: saddle ===== -->
+  <path d="M 490 288 Q 530 268 570 288" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <path d="M 490 312 Q 530 332 570 312" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <path d="M 490 288 Q 510 300 490 312" fill="none" stroke="#4a90d9" stroke-width="1.25"/>
+  <path d="M 570 288 Q 550 300 570 312" fill="none" stroke="#4a90d9" stroke-width="1.25"/>
+  <path d="M 530 268 Q 530 300 530 332" fill="none" stroke="#4a90d9" stroke-width="1.25"/>
+  <text x="500" y="360" fill="#8a8a8a">k &lt; 0 open (saddle)</text>
+</svg>

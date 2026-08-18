@@ -1,0 +1,38 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Three limits fence in the operating space; the blue wedge is where a tokamak can safely live.</text>
+
+  <!-- ===== axes ===== -->
+  <line x1="80" y1="340" x2="600" y2="340" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="600,340 590,335 590,345" fill="#8a8a8a"/>
+  <text x="470" y="366" fill="#8a8a8a">plasma current Ip &#8594;</text>
+  <line x1="80" y1="340" x2="80" y2="60" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="80,60 75,70 85,70" fill="#8a8a8a"/>
+  <text x="34" y="52" fill="#8a8a8a">density n</text>
+  <text x="60" y="345" fill="#8a8a8a">0</text>
+
+  <!-- ===== stable region (blue wedge) ===== -->
+  <!-- origin -> up Greenwald diagonal -> along beta ceiling -> down kink line -> back along axis -->
+  <path d="M 80 340 L 420 170 L 490 170 L 490 340 Z" fill="#4a90d9" opacity="0.16" stroke="none"/>
+  <text x="210" y="300" fill="#4a90d9">stable</text>
+  <text x="205" y="318" fill="#4a90d9">operating space</text>
+
+  <!-- ===== Greenwald line (rising diagonal) ===== -->
+  <line x1="80" y1="340" x2="510" y2="125" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="392" y="120" fill="#e0645c">Greenwald nG &#8733; Ip</text>
+  <text x="150" y="150" fill="#8a8a8a" font-style="italic">density limit &#8594; disrupt</text>
+
+  <!-- ===== Troyon beta ceiling (horizontal) ===== -->
+  <line x1="250" y1="170" x2="500" y2="170" stroke="#e0645c" stroke-width="2.5" stroke-dasharray="7 4"/>
+  <text x="300" y="162" fill="#e0645c">Troyon &#946; limit (&#946; &#8804; few percent)</text>
+
+  <!-- ===== kink / safety-factor limit (vertical) ===== -->
+  <line x1="490" y1="340" x2="490" y2="95" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="498" y="250" fill="#e0645c">qa = 2</text>
+  <text x="498" y="268" fill="#8a8a8a" font-style="italic">kink &#8594;</text>
+  <text x="498" y="284" fill="#8a8a8a" font-style="italic">disrupt</text>
+
+  <!-- ===== operating point ===== -->
+  <circle cx="300" cy="255" r="5" fill="#4a90d9"/>
+  <text x="310" y="250" fill="#4a90d9">operating point</text>
+</svg>

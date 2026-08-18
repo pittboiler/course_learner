@@ -1,0 +1,51 @@
+<svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <defs>
+    <marker id="arrowblue" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="12" refX="10" refY="4" orient="auto">
+      <path d="M0,0 L11,4 L0,8 Z" fill="#4a90d9"/>
+    </marker>
+    <marker id="arrowcoral" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="12" refX="10" refY="4" orient="auto">
+      <path d="M0,0 L11,4 L0,8 Z" fill="#e0645c"/>
+    </marker>
+  </defs>
+
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">One ray hits a boundary: it reflects (θ₁ = θ_r) and refracts toward the normal into the denser medium.</text>
+
+  <!-- denser medium shading (lower half) -->
+  <rect x="60" y="180" width="500" height="140" fill="#e0645c" opacity="0.15"/>
+
+  <!-- boundary -->
+  <line x1="60" y1="180" x2="560" y2="180" stroke="#8a8a8a" stroke-width="2"/>
+
+  <!-- normal (dashed) -->
+  <line x1="310" y1="46" x2="310" y2="320" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="5 5"/>
+  <text x="316" y="58" fill="#8a8a8a" font-style="italic">normal</text>
+
+  <!-- incident ray (blue), arrow into the boundary point -->
+  <line x1="180" y1="50" x2="310" y2="180" stroke="#4a90d9" stroke-width="3" marker-end="url(#arrowblue)"/>
+  <text x="168" y="46" fill="#8a8a8a">incident</text>
+
+  <!-- reflected ray (blue), arrow away -->
+  <line x1="310" y1="180" x2="440" y2="50" stroke="#4a90d9" stroke-width="3" marker-end="url(#arrowblue)"/>
+  <text x="404" y="46" fill="#8a8a8a">reflected</text>
+
+  <!-- refracted ray (coral), arrow away into dense medium -->
+  <line x1="310" y1="180" x2="380" y2="312" stroke="#e0645c" stroke-width="3" marker-end="url(#arrowcoral)"/>
+  <text x="386" y="300" fill="#8a8a8a">refracted</text>
+
+  <!-- angle arc theta_1 (incident vs normal, upper) -->
+  <path d="M 310 135 A 45 45 0 0 0 278 148" fill="none" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="276" y="128" fill="#4a90d9">θ₁</text>
+
+  <!-- angle arc theta_r (reflected vs normal, upper) -->
+  <path d="M 342 148 A 45 45 0 0 0 310 135" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="330" y="128" fill="#8a8a8a">θ_r</text>
+
+  <!-- angle arc theta_2 (refracted vs normal, lower) -->
+  <path d="M 310 222 A 42 42 0 0 1 330 217" fill="none" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="320" y="242" fill="#e0645c">θ₂</text>
+
+  <!-- medium labels -->
+  <text x="80" y="120" fill="#8a8a8a">n₁  (rarer, e.g. air ≈ 1.00)</text>
+  <text x="80" y="262" fill="#8a8a8a">n₂  (denser, e.g. glass ≈ 1.5)</text>
+</svg>

@@ -1,0 +1,81 @@
+<svg viewBox="0 0 720 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="24" y="24" fill="#8a8a8a" font-style="italic">Raise Re and the wake behind a cylinder loses stability in stages: attached &#8594; steady eddies &#8594; periodic vortex street &#8594; turbulence.</text>
+
+  <!-- panel dividers -->
+  <line x1="150" y1="52" x2="150" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 6"/>
+  <line x1="330" y1="52" x2="330" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 6"/>
+  <line x1="510" y1="52" x2="510" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 6"/>
+
+  <!-- flow-direction hint -->
+  <line x1="24" y1="66" x2="66" y2="66" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="66,66 57,62 57,70" fill="#8a8a8a"/>
+  <text x="70" y="71" fill="#8a8a8a" font-style="italic">U</text>
+
+  <!-- ================= Panel 1: attached, symmetric ================= -->
+  <path d="M 8 150 Q 50 130 92 150" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <path d="M 8 132 Q 50 118 92 132" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <path d="M 8 220 Q 50 240 92 220" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <path d="M 8 238 Q 50 252 92 238" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="8" y1="185" x2="38" y2="185" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="62" y1="185" x2="92" y2="185" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="50" cy="185" r="12" fill="#8a8a8a" opacity="0.25" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="30" y="330" fill="#8a8a8a" font-style="italic">Re &#8810; 1: attached</text>
+
+  <!-- ================= Panel 2: two steady recirculation eddies ================= -->
+  <path d="M 158 150 Q 200 132 242 150" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <path d="M 158 132 Q 200 118 242 132" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <path d="M 158 220 Q 200 238 242 220" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <path d="M 158 238 Q 200 252 242 238" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="158" y1="185" x2="188" y2="185" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="200" cy="185" r="12" fill="#8a8a8a" opacity="0.25" stroke="#8a8a8a" stroke-width="1.5"/>
+  <!-- upper eddy (CW) -->
+  <path d="M 236 171 A 10 10 0 1 1 226 173" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="226,173 220,170 225,180" fill="#e0645c"/>
+  <!-- lower eddy (CCW) -->
+  <path d="M 236 199 A 10 10 0 1 0 226 197" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="226,197 220,200 225,190" fill="#e0645c"/>
+  <text x="176" y="330" fill="#8a8a8a" font-style="italic">Re &#8776; 30: steady eddies</text>
+
+  <!-- ================= Panel 3: von Karman vortex street ================= -->
+  <line x1="338" y1="185" x2="368" y2="185" stroke="#4a90d9" stroke-width="2"/>
+  <path d="M 338 150 Q 360 138 380 150" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <path d="M 338 220 Q 360 232 380 220" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="380" cy="185" r="12" fill="#8a8a8a" opacity="0.25" stroke="#8a8a8a" stroke-width="1.5"/>
+  <!-- meandering centerline -->
+  <path d="M 392 185 Q 408 163 424 185 T 456 185 T 488 185" fill="none" stroke="#4a90d9" stroke-width="1.5" opacity="0.6"/>
+  <!-- staggered shed vortices, alternating sign -->
+  <g stroke="#e0645c" stroke-width="2" fill="none">
+    <path d="M 415 156 A 9 9 0 1 1 406 158"/>
+    <path d="M 447 214 A 9 9 0 1 0 438 212"/>
+    <path d="M 479 156 A 9 9 0 1 1 470 158"/>
+  </g>
+  <polygon points="406,158 400,155 405,165" fill="#e0645c"/>
+  <polygon points="438,212 432,215 437,205" fill="#e0645c"/>
+  <polygon points="470,158 464,155 469,165" fill="#e0645c"/>
+  <text x="356" y="330" fill="#8a8a8a" font-style="italic">Re &#8776; 100: vortex street</text>
+
+  <!-- ================= Panel 4: broadband turbulent wake ================= -->
+  <line x1="518" y1="185" x2="548" y2="185" stroke="#4a90d9" stroke-width="2"/>
+  <path d="M 518 150 Q 540 138 560 150" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <path d="M 518 220 Q 540 232 560 220" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="560" cy="185" r="12" fill="#8a8a8a" opacity="0.25" stroke="#8a8a8a" stroke-width="1.5"/>
+  <!-- widening wake envelope -->
+  <path d="M 572 173 L 706 138 M 572 197 L 706 232" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <!-- tangle of eddies of many sizes -->
+  <g stroke="#e0645c" stroke-width="2" fill="none">
+    <circle cx="586" cy="178" r="6"/>
+    <circle cx="600" cy="196" r="8"/>
+    <circle cx="616" cy="170" r="5"/>
+    <circle cx="624" cy="200" r="10"/>
+    <circle cx="640" cy="180" r="7"/>
+    <circle cx="652" cy="158" r="6"/>
+    <circle cx="660" cy="205" r="9"/>
+    <circle cx="676" cy="176" r="12"/>
+    <circle cx="686" cy="150" r="5"/>
+    <circle cx="690" cy="212" r="7"/>
+    <path d="M 596 165 q 8 -10 16 0 t 16 0"/>
+    <path d="M 636 214 q 8 10 16 0 t 16 0"/>
+  </g>
+  <text x="536" y="330" fill="#8a8a8a" font-style="italic">Re &#8819; 10&#8308;: turbulent</text>
+</svg>

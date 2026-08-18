@@ -1,0 +1,43 @@
+<svg viewBox="0 0 560 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="26" fill="#8a8a8a" font-style="italic">P–T phase diagram: three coexistence curves meet at the triple point; the liquid–gas line ends at the critical point.</text>
+
+  <!-- axes -->
+  <line x1="70" y1="345" x2="520" y2="345" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="520,345 510,340 510,350" fill="#8a8a8a"/>
+  <text x="512" y="366" fill="#8a8a8a">T</text>
+  <line x1="70" y1="345" x2="70" y2="55" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,55 65,65 75,65" fill="#8a8a8a"/>
+  <text x="52" y="62" fill="#8a8a8a">P</text>
+
+  <!-- ===== coexistence curves (blue) ===== -->
+  <!-- sublimation: solid-gas, triple point down to lower-left -->
+  <path d="M 205 250 Q 135 300 88 332" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <!-- vaporization: liquid-gas, triple point up-right to critical point -->
+  <path d="M 205 250 Q 305 240 430 120" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <!-- fusion: solid-liquid, NEGATIVE slope (leans left as P rises) -->
+  <path d="M 205 250 Q 192 155 178 68" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <!-- region labels (grey) -->
+  <text x="105" y="150" fill="#8a8a8a" font-weight="bold">SOLID</text>
+  <text x="270" y="120" fill="#8a8a8a" font-weight="bold">LIQUID</text>
+  <text x="370" y="300" fill="#8a8a8a" font-weight="bold">GAS</text>
+
+  <!-- curve labels -->
+  <text x="95" y="288" fill="#4a90d9" font-size="12">sublimation</text>
+  <text x="340" y="205" fill="#4a90d9" font-size="12">vaporization</text>
+  <text x="210" y="140" fill="#4a90d9" font-size="12">fusion</text>
+
+  <!-- negative-slope note on the fusion line (coral) -->
+  <text x="150" y="98" fill="#e0645c" font-size="11" font-style="italic">slope &lt; 0</text>
+  <text x="150" y="112" fill="#e0645c" font-size="11" font-style="italic">(water: ice</text>
+  <text x="150" y="126" fill="#e0645c" font-size="11" font-style="italic">less dense)</text>
+
+  <!-- ===== special points (coral) ===== -->
+  <!-- triple point -->
+  <circle cx="205" cy="250" r="5" fill="#e0645c"/>
+  <text x="214" y="268" fill="#e0645c">triple point</text>
+  <!-- critical point -->
+  <circle cx="430" cy="120" r="5" fill="#e0645c"/>
+  <text x="360" y="108" fill="#e0645c">critical point</text>
+</svg>

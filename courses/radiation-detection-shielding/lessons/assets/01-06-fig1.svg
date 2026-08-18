@@ -1,0 +1,106 @@
+<svg viewBox="0 0 720 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <!-- caption -->
+  <text x="24" y="22" fill="#8a8a8a" font-style="italic">Two ways to turn deposited energy into a pulse: light &#215; big gain (left) vs charge, no gain (right).</text>
+
+  <!-- ================= LEFT: scintillator + PMT ================= -->
+  <text x="30" y="52" fill="#8a8a8a" font-weight="bold">Scintillator + PMT</text>
+
+  <!-- incoming gamma -->
+  <line x1="24" y1="120" x2="66" y2="120" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="66,120 56,115 56,125" fill="#e0645c"/>
+  <text x="26" y="108" fill="#e0645c">&#947;</text>
+
+  <!-- scintillator crystal -->
+  <rect x="66" y="88" width="58" height="64" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <text x="72" y="172" fill="#4a90d9">NaI(Tl)</text>
+
+  <!-- light flash: photons toward photocathode -->
+  <line x1="124" y1="112" x2="150" y2="106" stroke="#4a90d9" stroke-width="1.5"/>
+  <line x1="124" y1="120" x2="150" y2="120" stroke="#4a90d9" stroke-width="1.5"/>
+  <line x1="124" y1="128" x2="150" y2="134" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="122" y="86" fill="#4a90d9">light</text>
+
+  <!-- photocathode -->
+  <line x1="152" y1="92" x2="152" y2="148" stroke="#8a8a8a" stroke-width="3"/>
+  <text x="136" y="184" fill="#8a8a8a">photo-</text>
+  <text x="136" y="198" fill="#8a8a8a">cathode</text>
+
+  <!-- dynode chain: growing electron cloud (coral dots) -->
+  <!-- stage 1 -->
+  <circle cx="176" cy="120" r="2.5" fill="#e0645c"/>
+  <line x1="184" y1="104" x2="196" y2="136" stroke="#8a8a8a" stroke-width="2"/>
+  <!-- stage 2 -->
+  <circle cx="208" cy="112" r="2.5" fill="#e0645c"/>
+  <circle cx="208" cy="128" r="2.5" fill="#e0645c"/>
+  <line x1="216" y1="104" x2="228" y2="136" stroke="#8a8a8a" stroke-width="2"/>
+  <!-- stage 3 -->
+  <circle cx="240" cy="106" r="2.5" fill="#e0645c"/>
+  <circle cx="240" cy="118" r="2.5" fill="#e0645c"/>
+  <circle cx="240" cy="130" r="2.5" fill="#e0645c"/>
+  <circle cx="240" cy="142" r="2.5" fill="#e0645c"/>
+  <line x1="248" y1="104" x2="260" y2="136" stroke="#8a8a8a" stroke-width="2"/>
+  <!-- stage 4 (dense) -->
+  <circle cx="272" cy="100" r="2.5" fill="#e0645c"/>
+  <circle cx="272" cy="110" r="2.5" fill="#e0645c"/>
+  <circle cx="272" cy="120" r="2.5" fill="#e0645c"/>
+  <circle cx="272" cy="130" r="2.5" fill="#e0645c"/>
+  <circle cx="272" cy="140" r="2.5" fill="#e0645c"/>
+  <circle cx="282" cy="105" r="2.5" fill="#e0645c"/>
+  <circle cx="282" cy="115" r="2.5" fill="#e0645c"/>
+  <circle cx="282" cy="125" r="2.5" fill="#e0645c"/>
+  <circle cx="282" cy="135" r="2.5" fill="#e0645c"/>
+  <text x="176" y="184" fill="#8a8a8a">dynode chain</text>
+  <text x="176" y="198" fill="#e0645c">gain &#8776; 10&#8310;</text>
+
+  <!-- anode -->
+  <line x1="300" y1="96" x2="300" y2="144" stroke="#8a8a8a" stroke-width="3"/>
+  <text x="296" y="184" fill="#8a8a8a">anode</text>
+
+  <!-- output pulse -->
+  <line x1="300" y1="120" x2="318" y2="120" stroke="#e0645c" stroke-width="2"/>
+  <path d="M 318 120 L 326 120 L 332 92 L 340 120 L 356 120" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <text x="322" y="146" fill="#e0645c">pulse</text>
+  <text x="252" y="234" fill="#8a8a8a">height &#8733; energy; few carriers &#8594; coarse resolution</text>
+
+  <!-- ================= RIGHT: semiconductor diode ================= -->
+  <text x="424" y="52" fill="#8a8a8a" font-weight="bold">Semiconductor diode</text>
+
+  <!-- incoming gamma -->
+  <line x1="418" y1="120" x2="460" y2="120" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="460,120 450,115 450,125" fill="#e0645c"/>
+  <text x="420" y="108" fill="#e0645c">&#947;</text>
+
+  <!-- depleted diode body -->
+  <rect x="470" y="80" width="150" height="90" fill="#4a90d9" opacity="0.10" stroke="#4a90d9" stroke-width="2"/>
+  <text x="476" y="188" fill="#4a90d9">Si or HPGe (reverse-biased)</text>
+
+  <!-- electrodes -->
+  <line x1="470" y1="80" x2="470" y2="170" stroke="#8a8a8a" stroke-width="3"/>
+  <text x="452" y="76" fill="#8a8a8a">&#8722;</text>
+  <line x1="620" y1="80" x2="620" y2="170" stroke="#8a8a8a" stroke-width="3"/>
+  <text x="626" y="76" fill="#8a8a8a">+</text>
+
+  <!-- e-h pairs drifting apart: electrons (blue) to +, holes (coral) to - -->
+  <!-- pair 1 -->
+  <text x="512" y="112" fill="#e0645c" font-size="15">+</text>
+  <line x1="516" y1="108" x2="496" y2="108" stroke="#e0645c" stroke-width="1" stroke-dasharray="2 3"/>
+  <text x="540" y="112" fill="#4a90d9" font-size="15">&#8722;</text>
+  <line x1="548" y1="108" x2="574" y2="108" stroke="#4a90d9" stroke-width="1" stroke-dasharray="2 3"/>
+  <!-- pair 2 -->
+  <text x="522" y="140" fill="#e0645c" font-size="15">+</text>
+  <line x1="526" y1="136" x2="500" y2="136" stroke="#e0645c" stroke-width="1" stroke-dasharray="2 3"/>
+  <text x="552" y="140" fill="#4a90d9" font-size="15">&#8722;</text>
+  <line x1="560" y1="136" x2="588" y2="136" stroke="#4a90d9" stroke-width="1" stroke-dasharray="2 3"/>
+  <!-- pair 3 -->
+  <text x="516" y="160" fill="#e0645c" font-size="15">+</text>
+  <text x="546" y="160" fill="#4a90d9" font-size="15">&#8722;</text>
+
+  <text x="486" y="216" fill="#8a8a8a">e&#8211;h pairs swept to electrodes &#8594; charge pulse</text>
+  <text x="452" y="234" fill="#4a90d9">tiny w &#8776; 3 eV &#8594; many carriers &#8594; sharp resolution</text>
+
+  <!-- ================= bottom: carriers-per-keV bar ================= -->
+  <line x1="120" y1="330" x2="600" y2="330" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="120" y="360" fill="#8a8a8a">per keV deposited:</text>
+  <text x="300" y="308" fill="#e0645c">NaI &#8776; 10 photoelectrons</text>
+  <text x="300" y="360" fill="#4a90d9">HPGe &#8776; 330 e&#8211;h pairs (33&#215; more &#8594; &#8776;6&#215; sharper)</text>
+</svg>

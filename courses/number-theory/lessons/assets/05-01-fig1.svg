@@ -1,0 +1,31 @@
+<svg viewBox="0 0 360 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <rect x="0" y="0" width="360" height="360" fill="#faf9f6"/>
+
+  <!-- axes -->
+  <line x1="40" y1="180" x2="322" y2="180" stroke="#333333" stroke-width="1.2"/>
+  <line x1="180" y1="40" x2="180" y2="322" stroke="#333333" stroke-width="1.2"/>
+  <polygon points="322,180 313,176 313,184" fill="#333333"/>
+  <polygon points="180,40 176,49 184,49" fill="#333333"/>
+  <text x="326" y="184" fill="#333333">x</text>
+  <text x="186" y="50" fill="#333333">y</text>
+
+  <!-- unit circle, center (180,180) radius 120 -->
+  <circle cx="180" cy="180" r="120" fill="none" stroke="#333333" stroke-width="2"/>
+
+  <!-- projection line from (-1,0) with slope t=1/2 through (3/5,4/5) -->
+  <line x1="60" y1="180" x2="306" y2="57" stroke="#c02a3f" stroke-width="2"/>
+
+  <!-- base point (-1,0) -->
+  <circle cx="60" cy="180" r="4.5" fill="#333333"/>
+  <text x="34" y="198" fill="#333333">(−1, 0)</text>
+
+  <!-- rational point (3/5, 4/5) -->
+  <circle cx="252" cy="84" r="5.5" fill="#c02a3f"/>
+  <text x="258" y="80" fill="#c02a3f">(3/5, 4/5)</text>
+
+  <!-- slope label along the line -->
+  <text x="120" y="128" fill="#c02a3f" font-style="italic">slope t</text>
+
+  <!-- caption -->
+  <text x="46" y="344" fill="#333333" font-style="italic">Each slope t gives one rational point; here t = 1/2 &#8594; (3,4,5).</text>
+</svg>

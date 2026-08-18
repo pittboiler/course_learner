@@ -1,0 +1,66 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Drive harder and the current rises &#8212; until transport caps it at j_L, where the surface runs dry (C_s &#8594; 0).</text>
+
+  <!-- ===== main plot: j vs overpotential ===== -->
+
+  <!-- axes -->
+  <line x1="70" y1="255" x2="415" y2="255" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="415,255 405,250 405,260" fill="#8a8a8a"/>
+  <text x="360" y="278" fill="#8a8a8a">overpotential &#951;</text>
+  <line x1="70" y1="255" x2="70" y2="70" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,70 65,80 75,80" fill="#8a8a8a"/>
+  <text x="46" y="66" fill="#8a8a8a">|j|</text>
+  <text x="58" y="260" fill="#8a8a8a">0</text>
+
+  <!-- limiting-current plateau -->
+  <line x1="70" y1="90" x2="410" y2="90" stroke="#e0645c" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="316" y="86" fill="#e0645c">plateau: j = j_L</text>
+
+  <!-- the polarization (j-eta) curve -->
+  <path d="M 70 255 L 100 194 L 130 158 L 160 134 L 190 119 L 220 109 L 250 102 L 280 98 L 310 95 L 340 93 L 370 92 L 400 91"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- regime brackets -->
+  <text x="96" y="238" fill="#4a90d9" font-size="12">kinetics</text>
+  <text x="86" y="252" fill="#4a90d9" font-size="12">(Butler&#8211;Volmer)</text>
+  <text x="300" y="112" fill="#e0645c" font-size="12">transport-limited</text>
+
+  <!-- eta_conc penalty marker: gap between plateau and where kinetics alone would be -->
+  <line x1="220" y1="90" x2="220" y2="109" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="220,90 216,99 224,99" fill="#e0645c"/>
+  <polygon points="220,109 216,100 224,100" fill="#e0645c"/>
+
+  <!-- ===== inset: Nernst-layer concentration profile ===== -->
+
+  <!-- electrode slab -->
+  <rect x="448" y="95" width="8" height="90" fill="#8a8a8a" opacity="0.35" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="430" y="205" fill="#8a8a8a" font-size="12">electrode</text>
+
+  <!-- inset axes -->
+  <line x1="456" y1="185" x2="615" y2="185" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="615,185 605,180 605,190" fill="#8a8a8a"/>
+  <text x="556" y="205" fill="#8a8a8a" font-size="12">distance x</text>
+  <line x1="456" y1="185" x2="456" y2="95" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="456,95 451,105 461,105" fill="#8a8a8a"/>
+  <text x="440" y="92" fill="#8a8a8a" font-size="12">C</text>
+
+  <!-- bulk level C* -->
+  <line x1="456" y1="108" x2="600" y2="108" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="602" y="112" fill="#8a8a8a" font-size="12">C&#42;</text>
+
+  <!-- Nernst layer edge delta -->
+  <line x1="566" y1="108" x2="566" y2="185" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="558" y="200" fill="#8a8a8a" font-size="12">&#948;</text>
+
+  <!-- moderate depletion profile (blue): C_s > 0 -->
+  <line x1="456" y1="150" x2="566" y2="108" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="566" y1="108" x2="600" y2="108" stroke="#4a90d9" stroke-width="2.5"/>
+  <circle cx="456" cy="150" r="3" fill="#4a90d9"/>
+
+  <!-- full depletion profile (coral): C_s -> 0, steepest gradient, j = j_L -->
+  <line x1="456" y1="185" x2="566" y2="108" stroke="#e0645c" stroke-width="2.5"/>
+  <line x1="566" y1="108" x2="600" y2="108" stroke="#e0645c" stroke-width="2.5"/>
+  <circle cx="456" cy="185" r="3" fill="#e0645c"/>
+  <text x="462" y="146" fill="#4a90d9" font-size="12">C_s</text>
+  <text x="462" y="182" fill="#e0645c" font-size="12">C_s&#8594;0</text>
+</svg>

@@ -1,0 +1,54 @@
+<svg viewBox="0 0 680 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Fertile Th-232 breeds fissile U-233 &#8212; but the 27-day Pa-233 stall and a U-232 gamma tag along.</text>
+
+  <!-- ===== breeding chain: four boxes ===== -->
+
+  <!-- Box 1: Th-232 (fertile) -->
+  <rect x="18" y="80" width="92" height="46" fill="none" stroke="#8a8a8a" stroke-width="1.5" rx="4"/>
+  <text x="64" y="102" fill="#4a90d9" text-anchor="middle">Th-232</text>
+  <text x="64" y="118" fill="#8a8a8a" font-size="11" text-anchor="middle">fertile</text>
+
+  <!-- Box 2: Th-233 -->
+  <rect x="178" y="80" width="92" height="46" fill="none" stroke="#8a8a8a" stroke-width="1.5" rx="4"/>
+  <text x="224" y="102" fill="#4a90d9" text-anchor="middle">Th-233</text>
+  <text x="224" y="118" fill="#8a8a8a" font-size="11" text-anchor="middle">t&#189; &#8776; 22 min</text>
+
+  <!-- Box 3: Pa-233 (hold-up, highlighted) -->
+  <rect x="338" y="80" width="92" height="46" fill="#e0645c" fill-opacity="0.12" stroke="#e0645c" stroke-width="2" rx="4"/>
+  <text x="384" y="102" fill="#e0645c" text-anchor="middle">Pa-233</text>
+  <text x="384" y="118" fill="#e0645c" font-size="11" text-anchor="middle">t&#189; &#8776; 27 d</text>
+
+  <!-- Box 4: U-233 (fissile) -->
+  <rect x="498" y="80" width="92" height="46" fill="#4a90d9" fill-opacity="0.15" stroke="#4a90d9" stroke-width="2" rx="4"/>
+  <text x="544" y="102" fill="#4a90d9" text-anchor="middle">U-233</text>
+  <text x="544" y="118" fill="#8a8a8a" font-size="11" text-anchor="middle">fissile</text>
+
+  <!-- arrows between boxes -->
+  <line x1="110" y1="103" x2="176" y2="103" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="178,103 168,98 168,108" fill="#8a8a8a"/>
+  <text x="143" y="72" fill="#8a8a8a" font-size="12" text-anchor="middle">(n,&#947;)</text>
+
+  <line x1="270" y1="103" x2="336" y2="103" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="338,103 328,98 328,108" fill="#8a8a8a"/>
+  <text x="303" y="72" fill="#8a8a8a" font-size="12" text-anchor="middle">&#946;&#8722;</text>
+
+  <line x1="430" y1="103" x2="496" y2="103" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="498,103 488,98 488,108" fill="#8a8a8a"/>
+  <text x="463" y="72" fill="#8a8a8a" font-size="12" text-anchor="middle">&#946;&#8722;</text>
+
+  <!-- hold-up annotation under Pa-233 -->
+  <line x1="384" y1="126" x2="384" y2="150" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="3 4"/>
+  <polygon points="384,150 380,141 388,141" fill="#e0645c"/>
+  <text x="384" y="168" fill="#e0645c" font-size="12" text-anchor="middle">stays in flux &#8594; (n,&#947;) &#8594; Pa-234:</text>
+  <text x="384" y="184" fill="#8a8a8a" font-size="12" text-anchor="middle">a U-233 lost AND a neutron wasted</text>
+  <text x="384" y="200" fill="#e0645c" font-size="12" text-anchor="middle">&#8594; let it decay OUTSIDE the flux</text>
+
+  <!-- divider -->
+  <line x1="20" y1="228" x2="660" y2="228" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 5"/>
+
+  <!-- U-232 side chain -->
+  <text x="20" y="252" fill="#8a8a8a" font-size="12">Side reaction (fast n): (n,2n) on U-233 / Th-232 makes a little U-232 (t&#189; &#8776; 69 yr)</text>
+  <text x="20" y="274" fill="#e0645c" font-size="13">U-232 &#8594; &#8230; &#8594; Tl-208 &#8594; hard 2.6 MeV &#947;</text>
+  <text x="20" y="296" fill="#8a8a8a" font-size="12">intense penetrating dose: burdens remote fabrication, but deters diversion (self-protecting)</text>
+</svg>

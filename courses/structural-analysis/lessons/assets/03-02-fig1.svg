@@ -1,0 +1,113 @@
+<svg viewBox="0 0 620 430" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Superposition: cantilever droops &#916;&#8321;&#8320; under the load, the redundant lifts it back f&#8321;&#8321;X&#8321; &#8212; net zero at B.</text>
+
+  <!-- ============ PANEL A: primary structure under real load ============ -->
+  <text x="30" y="56" fill="#8a8a8a">Primary structure + real load w</text>
+
+  <!-- fixed wall at A -->
+  <line x1="90" y1="62" x2="90" y2="118" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="90" y1="62" x2="82" y2="70" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="90" y1="76" x2="82" y2="84" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="90" y1="90" x2="82" y2="98" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="90" y1="104" x2="82" y2="112" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="90" y1="118" x2="82" y2="126" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- UDL arrows -->
+  <line x1="90" y1="70" x2="300" y2="70" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="105" y1="70" x2="105" y2="88" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="105,90 101,82 109,82" fill="#8a8a8a"/>
+  <line x1="140" y1="70" x2="140" y2="88" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="140,90 136,82 144,82" fill="#8a8a8a"/>
+  <line x1="175" y1="70" x2="175" y2="88" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="175,90 171,82 179,82" fill="#8a8a8a"/>
+  <line x1="210" y1="70" x2="210" y2="88" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="210,90 206,82 214,82" fill="#8a8a8a"/>
+  <line x1="245" y1="70" x2="245" y2="88" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="245,90 241,82 249,82" fill="#8a8a8a"/>
+  <line x1="280" y1="70" x2="280" y2="88" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="280,90 276,82 284,82" fill="#8a8a8a"/>
+  <text x="185" y="66" fill="#8a8a8a">w</text>
+
+  <!-- beam (undeflected reference) -->
+  <line x1="90" y1="92" x2="300" y2="92" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- deflected shape, tip droops down -->
+  <path d="M 90 92 Q 210 104 300 118" fill="none" stroke="#e0645c" stroke-width="2" stroke-dasharray="5 4"/>
+  <!-- tip deflection arrow -->
+  <line x1="300" y1="92" x2="300" y2="118" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="300,120 296,111 304,111" fill="#e0645c"/>
+  <text x="306" y="112" fill="#e0645c">&#916;&#8321;&#8320;</text>
+
+  <text x="84" y="136" fill="#8a8a8a">A</text>
+  <text x="296" y="86" fill="#8a8a8a">B</text>
+
+  <!-- plus sign -->
+  <text x="188" y="176" fill="#8a8a8a" font-size="26">+</text>
+
+  <!-- ============ PANEL B: unit / X1 redundant ============ -->
+  <text x="30" y="210" fill="#8a8a8a">Redundant X&#8321; alone (upward)</text>
+
+  <!-- fixed wall -->
+  <line x1="90" y1="216" x2="90" y2="272" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="90" y1="216" x2="82" y2="224" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="90" y1="230" x2="82" y2="238" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="90" y1="244" x2="82" y2="252" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="90" y1="258" x2="82" y2="266" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="90" y1="272" x2="82" y2="280" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- beam (undeflected reference) -->
+  <line x1="90" y1="246" x2="300" y2="246" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- deflected shape, tip lifts up -->
+  <path d="M 90 246 Q 210 236 300 222" fill="none" stroke="#e0645c" stroke-width="2" stroke-dasharray="5 4"/>
+
+  <!-- redundant upward force at B -->
+  <line x1="300" y1="278" x2="300" y2="234" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="300,232 295,242 305,242" fill="#e0645c"/>
+  <text x="306" y="266" fill="#e0645c">X&#8321;</text>
+
+  <!-- lift labelled f11 X1 -->
+  <text x="222" y="214" fill="#e0645c">f&#8321;&#8321; X&#8321;</text>
+
+  <text x="84" y="290" fill="#8a8a8a">A</text>
+  <text x="296" y="240" fill="#8a8a8a">B</text>
+
+  <!-- equals sign -->
+  <text x="188" y="330" fill="#8a8a8a" font-size="26">=</text>
+
+  <!-- ============ PANEL C: actual propped cantilever ============ -->
+  <text x="30" y="364" fill="#8a8a8a">Actual structure: net deflection at B = 0</text>
+
+  <!-- fixed wall -->
+  <line x1="90" y1="370" x2="90" y2="410" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="90" y1="370" x2="82" y2="378" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="90" y1="384" x2="82" y2="392" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="90" y1="398" x2="82" y2="406" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- UDL arrows (compact) -->
+  <line x1="90" y1="378" x2="300" y2="378" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="120" y1="378" x2="120" y2="390" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="120,392 116,384 124,384" fill="#8a8a8a"/>
+  <line x1="175" y1="378" x2="175" y2="390" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="175,392 171,384 179,384" fill="#8a8a8a"/>
+  <line x1="230" y1="378" x2="230" y2="390" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="230,392 226,384 234,384" fill="#8a8a8a"/>
+  <line x1="280" y1="378" x2="280" y2="390" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="280,392 276,384 284,384" fill="#8a8a8a"/>
+  <text x="185" y="374" fill="#8a8a8a">w</text>
+
+  <!-- beam straight (no deflection at B) -->
+  <line x1="90" y1="396" x2="300" y2="396" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- roller support at B -->
+  <circle cx="300" cy="404" r="6" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="286" y1="412" x2="314" y2="412" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="288" y1="412" x2="283" y2="418" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="296" y1="412" x2="291" y2="418" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="304" y1="412" x2="299" y2="418" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="312" y1="412" x2="307" y2="418" stroke="#8a8a8a" stroke-width="1"/>
+
+  <text x="84" y="414" fill="#8a8a8a">A</text>
+  <text x="306" y="392" fill="#8a8a8a">B</text>
+</svg>

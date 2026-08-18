@@ -1,0 +1,76 @@
+<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">A bluff body: the boundary layer separates past the widest point, leaving a low-pressure wake. Streamlining shrinks it.</text>
+
+  <!-- ===================== TOP: bluff cylinder ===================== -->
+
+  <!-- incoming uniform streamlines (blue) -->
+  <line x1="30" y1="80"  x2="150" y2="80"  stroke="#4a90d9" stroke-width="2"/>
+  <line x1="30" y1="115" x2="150" y2="115" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="30" y1="150" x2="150" y2="150" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="90,80 82,76 82,84" fill="#4a90d9"/>
+  <polygon points="90,150 82,146 82,154" fill="#4a90d9"/>
+  <text x="30" y="70" fill="#4a90d9">U</text>
+
+  <!-- low-pressure recirculating wake (soft coral fill) -->
+  <path d="M 232 87 C 300 92, 360 100, 340 115 C 360 130, 300 138, 232 143 Z"
+        fill="#e0645c" opacity="0.15"/>
+
+  <!-- cylinder -->
+  <circle cx="200" cy="115" r="32" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+
+  <!-- attached boundary layer hugging the front (coral, thin) -->
+  <path d="M 200 81 A 34 34 0 0 0 200 149" fill="none" stroke="#e0645c" stroke-width="2.5"/>
+
+  <!-- streamlines wrapping the front, then detaching at the widest point -->
+  <path d="M 150 80  C 178 80, 196 92, 200 84"  fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <path d="M 150 150 C 178 150, 196 138, 200 146" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <!-- detached shear layers bounding the wake -->
+  <path d="M 200 84  C 240 78, 300 82, 360 92"  fill="none" stroke="#4a90d9" stroke-width="2" stroke-dasharray="1 0"/>
+  <path d="M 200 146 C 240 152, 300 148, 360 138" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="352,92 344,86 342,94" fill="#4a90d9"/>
+  <polygon points="352,138 344,144 342,136" fill="#4a90d9"/>
+
+  <!-- recirculation arrows inside wake (reversed near-wall flow) -->
+  <path d="M 300 105 C 270 100, 245 104, 240 112" fill="none" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="240,112 248,109 246,117" fill="#e0645c"/>
+  <path d="M 240 118 C 245 126, 270 130, 300 125" fill="none" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="300,125 292,122 293,130" fill="#e0645c"/>
+
+  <!-- separation points (coral dots) -->
+  <circle cx="200" cy="83"  r="4" fill="#e0645c"/>
+  <circle cx="200" cy="147" r="4" fill="#e0645c"/>
+
+  <!-- labels -->
+  <text x="118" y="108" fill="#e0645c">attached BL</text>
+  <text x="214" y="72"  fill="#e0645c">separation point</text>
+  <text x="278" y="118" fill="#e0645c">wake (low p)</text>
+  <text x="150" y="176" fill="#8a8a8a">high p at front stagnation → falling p to the sides → rising p (adverse) behind</text>
+
+  <!-- ===================== BOTTOM: streamlined teardrop ===================== -->
+
+  <!-- incoming streamlines -->
+  <line x1="30" y1="270" x2="150" y2="270" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="30" y1="300" x2="150" y2="300" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="30" y1="240" x2="150" y2="240" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="90,270 82,266 82,274" fill="#4a90d9"/>
+  <text x="30" y="230" fill="#4a90d9">U</text>
+
+  <!-- tiny wake -->
+  <path d="M 372 266 C 392 268, 392 272, 372 274 Z" fill="#e0645c" opacity="0.15"/>
+
+  <!-- teardrop body (nose left, tapering tail right) -->
+  <path d="M 160 270 C 165 244, 220 243, 275 256 C 320 264, 355 270, 372 270 C 355 270, 320 276, 275 284 C 220 297, 165 296, 160 270 Z"
+        fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+
+  <!-- streamlines following the body all the way to the tail (attached) -->
+  <path d="M 150 240 C 210 238, 300 246, 380 260" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <path d="M 150 300 C 210 302, 300 294, 380 280" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="374,261 366,256 365,264" fill="#4a90d9"/>
+  <polygon points="374,279 366,284 365,276" fill="#4a90d9"/>
+
+  <!-- separation delayed to the tail tip (coral dot) -->
+  <circle cx="372" cy="270" r="4" fill="#e0645c"/>
+  <text x="386" y="274" fill="#e0645c">tiny wake</text>
+  <text x="180" y="330" fill="#8a8a8a" font-style="italic">streamlined: the gentle taper keeps the boundary layer attached, so form drag is small.</text>
+</svg>

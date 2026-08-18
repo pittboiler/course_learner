@@ -1,0 +1,45 @@
+<svg viewBox="0 0 650 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Hohenberg&#8211;Kohn: trade the 3N-dimensional wavefunction for the 3-D density &#961;(r) &#8212; and it still knows everything.</text>
+
+  <!-- ===== left: the wavefunction we abandon ===== -->
+  <rect x="30" y="90" width="150" height="110" rx="6" fill="none" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="105" y="130" fill="#8a8a8a" text-anchor="middle">&#936;(r&#8321;,&#8230;,r&#8342;)</text>
+  <text x="105" y="154" fill="#8a8a8a" text-anchor="middle" font-size="12">3N coordinates</text>
+  <text x="105" y="174" fill="#8a8a8a" text-anchor="middle" font-size="12">intractable</text>
+
+  <!-- reduce arrow -->
+  <line x1="184" y1="145" x2="238" y2="145" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="238,145 228,140 228,150" fill="#8a8a8a"/>
+  <text x="211" y="136" fill="#8a8a8a" text-anchor="middle" font-size="12">reduce</text>
+
+  <!-- ===== center: the electron density cloud (blue) ===== -->
+  <ellipse cx="345" cy="145" rx="92" ry="56" fill="#4a90d9" opacity="0.08"/>
+  <ellipse cx="345" cy="145" rx="70" ry="43" fill="#4a90d9" opacity="0.12"/>
+  <ellipse cx="345" cy="145" rx="48" ry="30" fill="#4a90d9" opacity="0.18"/>
+  <ellipse cx="320" cy="145" rx="18" ry="16" fill="#4a90d9" opacity="0.28"/>
+  <ellipse cx="372" cy="145" rx="18" ry="16" fill="#4a90d9" opacity="0.28"/>
+
+  <!-- two nuclei (grey dots) -->
+  <circle cx="320" cy="145" r="4" fill="#8a8a8a"/>
+  <circle cx="372" cy="145" r="4" fill="#8a8a8a"/>
+  <text x="345" y="90" fill="#4a90d9" text-anchor="middle">&#961;(r)</text>
+  <text x="345" y="215" fill="#8a8a8a" text-anchor="middle" font-size="12">3 coordinates</text>
+
+  <!-- density cross-section with cusps at the nuclei -->
+  <line x1="258" y1="300" x2="438" y2="300" stroke="#8a8a8a" stroke-width="1"/>
+  <path d="M 262 296 L 300 285 L 320 252 L 346 280 L 372 252 L 392 285 L 432 296"
+        fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="320" y="318" fill="#8a8a8a" text-anchor="middle" font-size="11">cusps at nuclei</text>
+
+  <!-- ===== HK arrow (coral): density -> everything ===== -->
+  <line x1="440" y1="145" x2="500" y2="145" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="500,145 489,139 489,151" fill="#e0645c"/>
+  <text x="470" y="136" fill="#e0645c" text-anchor="middle" font-size="12">HK</text>
+
+  <!-- ===== right: everything is a functional of the density ===== -->
+  <rect x="504" y="98" width="128" height="94" rx="6" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="568" y="122" fill="#8a8a8a" text-anchor="middle" font-size="13">Energy E[&#961;]</text>
+  <text x="568" y="146" fill="#8a8a8a" text-anchor="middle" font-size="13">Geometry</text>
+  <text x="568" y="170" fill="#8a8a8a" text-anchor="middle" font-size="13">All properties</text>
+</svg>

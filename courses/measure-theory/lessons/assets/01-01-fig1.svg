@@ -1,0 +1,97 @@
+<svg viewBox="0 0 720 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="720" height="380" fill="#ffffff"/>
+
+  <defs>
+    <clipPath id="underL">
+      <path d="M60,265 C95,255 110,110 135,105 C160,100 172,185 188,188 C205,190 220,140 245,138 C270,136 288,235 300,250 L300,300 L60,300 Z"/>
+    </clipPath>
+    <clipPath id="underR">
+      <path d="M400,265 C435,255 450,110 475,105 C500,100 512,185 528,188 C545,190 560,140 585,138 C610,136 628,235 640,250 L640,300 L400,300 Z"/>
+    </clipPath>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#111111"/>
+    </marker>
+  </defs>
+
+  <!-- ================= LEFT: Riemann ================= -->
+  <text x="180" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Riemann</text>
+  <text x="180" y="46" text-anchor="middle" font-size="12" fill="#333333">slice the domain (x-axis) into strips</text>
+
+  <!-- vertical strips clipped under the curve -->
+  <g clip-path="url(#underL)">
+    <rect x="60"  y="60" width="20" height="240" fill="#cfe3f5"/>
+    <rect x="80"  y="60" width="20" height="240" fill="#eaf3fb"/>
+    <rect x="100" y="60" width="20" height="240" fill="#cfe3f5"/>
+    <rect x="120" y="60" width="20" height="240" fill="#eaf3fb"/>
+    <rect x="140" y="60" width="20" height="240" fill="#cfe3f5"/>
+    <rect x="160" y="60" width="20" height="240" fill="#eaf3fb"/>
+    <rect x="180" y="60" width="20" height="240" fill="#cfe3f5"/>
+    <rect x="200" y="60" width="20" height="240" fill="#eaf3fb"/>
+    <rect x="220" y="60" width="20" height="240" fill="#cfe3f5"/>
+    <rect x="240" y="60" width="20" height="240" fill="#eaf3fb"/>
+    <rect x="260" y="60" width="20" height="240" fill="#cfe3f5"/>
+    <rect x="280" y="60" width="20" height="240" fill="#eaf3fb"/>
+  </g>
+
+  <!-- axes -->
+  <line x1="60" y1="300" x2="318" y2="300" stroke="#111111" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="60" y1="300" x2="60" y2="82" stroke="#111111" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <!-- partition ticks on the x-axis -->
+  <g stroke="#111111" stroke-width="1">
+    <line x1="100" y1="300" x2="100" y2="306"/>
+    <line x1="140" y1="300" x2="140" y2="306"/>
+    <line x1="180" y1="300" x2="180" y2="306"/>
+    <line x1="220" y1="300" x2="220" y2="306"/>
+    <line x1="260" y1="300" x2="260" y2="306"/>
+  </g>
+  <text x="322" y="304" font-size="12" fill="#111111">x</text>
+
+  <!-- the curve -->
+  <path d="M60,265 C95,255 110,110 135,105 C160,100 172,185 188,188 C205,190 220,140 245,138 C270,136 288,235 300,250"
+        fill="none" stroke="#111111" stroke-width="2.5"/>
+  <text x="150" y="95" font-size="13" font-style="italic" fill="#111111">f</text>
+
+  <!-- ================= RIGHT: Lebesgue ================= -->
+  <text x="520" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Lebesgue</text>
+  <text x="520" y="46" text-anchor="middle" font-size="12" fill="#333333">slice the range (y-axis) into layers</text>
+
+  <!-- horizontal layers clipped under the curve -->
+  <g clip-path="url(#underR)">
+    <rect x="400" y="100" width="240" height="20" fill="#cfe3f5"/>
+    <rect x="400" y="120" width="240" height="20" fill="#eaf3fb"/>
+    <rect x="400" y="140" width="240" height="20" fill="#cfe3f5"/>
+    <rect x="400" y="160" width="240" height="20" fill="#eaf3fb"/>
+    <rect x="400" y="180" width="240" height="20" fill="#cfe3f5"/>
+    <rect x="400" y="200" width="240" height="20" fill="#eaf3fb"/>
+    <rect x="400" y="220" width="240" height="20" fill="#cfe3f5"/>
+    <rect x="400" y="240" width="240" height="20" fill="#eaf3fb"/>
+    <rect x="400" y="260" width="240" height="20" fill="#cfe3f5"/>
+    <rect x="400" y="280" width="240" height="20" fill="#eaf3fb"/>
+  </g>
+
+  <!-- axes -->
+  <line x1="400" y1="300" x2="658" y2="300" stroke="#111111" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="400" y1="300" x2="400" y2="82" stroke="#111111" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <!-- level ticks on the y-axis -->
+  <g stroke="#111111" stroke-width="1">
+    <line x1="394" y1="160" x2="400" y2="160"/>
+    <line x1="394" y1="200" x2="400" y2="200"/>
+    <line x1="394" y1="240" x2="400" y2="240"/>
+  </g>
+  <text x="662" y="304" font-size="12" fill="#111111">x</text>
+  <text x="384" y="90" font-size="12" fill="#111111" text-anchor="end">y</text>
+
+  <!-- highlight one layer + its (disconnected) base set -->
+  <line x1="400" y1="160" x2="640" y2="160" stroke="#b00020" stroke-width="1.4" stroke-dasharray="4 3"/>
+  <line x1="446" y1="160" x2="504" y2="160" stroke="#b00020" stroke-width="4"/>
+  <line x1="556" y1="160" x2="612" y2="160" stroke="#b00020" stroke-width="4"/>
+
+  <!-- the curve -->
+  <path d="M400,265 C435,255 450,110 475,105 C500,100 512,185 528,188 C545,190 560,140 585,138 C610,136 628,235 640,250"
+        fill="none" stroke="#111111" stroke-width="2.5"/>
+  <text x="490" y="95" font-size="13" font-style="italic" fill="#111111">f</text>
+
+  <!-- caption -->
+  <text x="520" y="352" text-anchor="middle" font-size="11.5" fill="#b00020">a layer at height y sits over { x : f(x) &gt; y } — which may be several pieces</text>
+  <text x="180" y="352" text-anchor="middle" font-size="11.5" fill="#333333">strip area = width x height, summed left to right</text>
+</svg>

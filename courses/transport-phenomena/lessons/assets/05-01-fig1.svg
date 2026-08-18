@@ -1,0 +1,43 @@
+<svg viewBox="0 0 680 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="24" y="22" fill="#8a8a8a" font-style="italic">One measured friction, two free coefficients: divide by 2, correct with a property root, and read off h and k_c.</text>
+
+  <!-- ===== boxed Chilton-Colburn identity (banner) ===== -->
+  <rect x="200" y="40" width="280" height="52" rx="6" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="340" y="72" text-anchor="middle" font-size="18">
+    <tspan fill="#e0645c">j_H</tspan><tspan fill="#8a8a8a"> = </tspan><tspan fill="#4a90d9">j_D</tspan><tspan fill="#8a8a8a"> = C_f / 2</tspan>
+  </text>
+
+  <!-- ===== FRICTION box (source, grey) ===== -->
+  <rect x="30" y="150" width="150" height="90" rx="6" fill="#8a8a8a" opacity="0.15"/>
+  <rect x="30" y="150" width="150" height="90" rx="6" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="105" y="176" text-anchor="middle" fill="#8a8a8a" font-size="13" letter-spacing="1">MEASURE</text>
+  <text x="105" y="204" text-anchor="middle" fill="#8a8a8a" font-size="20">C_f / 2</text>
+  <text x="105" y="226" text-anchor="middle" fill="#8a8a8a" font-size="12">skin friction</text>
+
+  <!-- ===== HEAT box (coral) ===== -->
+  <rect x="450" y="108" width="210" height="86" rx="6" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <text x="464" y="132" fill="#e0645c" font-size="13" letter-spacing="1">HEAT</text>
+  <text x="464" y="154" fill="#e0645c">St = <tspan>(C_f/2)</tspan> Pr<tspan baseline-shift="super" font-size="10">&#8722;2/3</tspan></text>
+  <text x="464" y="180" fill="#e0645c">h = &#961; c_p V &#183; St</text>
+
+  <!-- ===== MASS box (blue) ===== -->
+  <rect x="450" y="232" width="210" height="86" rx="6" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="464" y="256" fill="#4a90d9" font-size="13" letter-spacing="1">MASS</text>
+  <text x="464" y="278" fill="#4a90d9">St_m = <tspan>(C_f/2)</tspan> Sc<tspan baseline-shift="super" font-size="10">&#8722;2/3</tspan></text>
+  <text x="464" y="304" fill="#4a90d9">k_c = V &#183; St_m</text>
+
+  <!-- ===== arrows: friction -> heat ===== -->
+  <path d="M 180 178 C 300 150 360 130 448 140" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="448,140 438,137 440,147" fill="#e0645c"/>
+  <text x="300" y="128" text-anchor="middle" fill="#e0645c" font-size="13">&#247; Pr<tspan baseline-shift="super" font-size="9">2/3</tspan></text>
+
+  <!-- ===== arrows: friction -> mass ===== -->
+  <path d="M 180 212 C 300 240 360 258 448 268" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="448,268 438,261 440,271" fill="#4a90d9"/>
+  <text x="300" y="266" text-anchor="middle" fill="#4a90d9" font-size="13">&#247; Sc<tspan baseline-shift="super" font-size="9">2/3</tspan></text>
+
+  <!-- ===== Reynolds special case footnote ===== -->
+  <text x="30" y="286" fill="#8a8a8a" font-size="12.5">Reynolds limit (Pr = Sc = 1):</text>
+  <text x="30" y="306" fill="#8a8a8a" font-size="12.5">the roots vanish &#8594; St = St_m = C_f / 2.</text>
+  <text x="30" y="338" fill="#8a8a8a" font-style="italic" font-size="12.5">Fails when drag hides pressure/form drag that heat &amp; mass never feel.</text>
+</svg>

@@ -1,0 +1,55 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Void fraction &#945; rises steeply with quality x, then saturates. Slip (S &#62; 1) sits below homogeneous (S = 1).</text>
+  <text x="30" y="40" fill="#8a8a8a" font-style="italic">BWR at 7 MPa: &#961;_g / &#961;_f = 36.5 / 740 = 0.049.</text>
+
+  <!-- y axis -->
+  <line x1="90" y1="330" x2="90" y2="58" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="90,58 85,68 95,68" fill="#8a8a8a"/>
+  <text x="40" y="62" fill="#8a8a8a">&#945; (void)</text>
+
+  <!-- x axis -->
+  <line x1="90" y1="330" x2="610" y2="330" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="610,330 600,325 600,335" fill="#8a8a8a"/>
+  <text x="560" y="352" fill="#8a8a8a">x (quality)</text>
+
+  <!-- y ticks -->
+  <line x1="86" y1="330" x2="90" y2="330" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="66" y="334" fill="#8a8a8a">0</text>
+  <line x1="86" y1="195" x2="90" y2="195" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="58" y="199" fill="#8a8a8a">0.5</text>
+  <line x1="86" y1="60" x2="90" y2="60" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="58" y="64" fill="#8a8a8a">1.0</text>
+
+  <!-- x ticks -->
+  <line x1="90" y1="330" x2="90" y2="334" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="84" y="350" fill="#8a8a8a">0</text>
+  <line x1="165" y1="330" x2="165" y2="334" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="151" y="350" fill="#8a8a8a">0.15</text>
+  <line x1="340" y1="330" x2="340" y2="334" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="330" y="350" fill="#8a8a8a">0.5</text>
+  <line x1="590" y1="330" x2="590" y2="334" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="580" y="350" fill="#8a8a8a">1.0</text>
+
+  <!-- homogeneous curve S = 1 -->
+  <path d="M 90 330 L 95 284.1 L 100 250.9 L 115 190.7 L 140 142.9 L 165 118.9 L 190 104.5 L 240 87.8 L 340 72.7 L 440 65.7 L 590 60"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="250" y="78" fill="#4a90d9">homogeneous (S = 1)</text>
+
+  <!-- slip curve S = 1.5 -->
+  <path d="M 90 330 L 95 297.6 L 100 271.7 L 115 217.7 L 140 168 L 165 139.6 L 190 121.6 L 240 99.7 L 340 78.6 L 440 68.4 L 590 60"
+        fill="none" stroke="#e0645c" stroke-width="3" stroke-dasharray="6 4"/>
+  <text x="300" y="118" fill="#e0645c">slip (S = 1.5)</text>
+
+  <!-- x = 0.15 guide line -->
+  <line x1="165" y1="330" x2="165" y2="118.9" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- markers at x = 0.15 -->
+  <circle cx="165" cy="118.9" r="4" fill="#4a90d9"/>
+  <text x="172" y="115" fill="#4a90d9">0.78</text>
+  <circle cx="165" cy="139.6" r="4" fill="#e0645c"/>
+  <text x="172" y="152" fill="#e0645c">0.70</text>
+
+  <!-- annotation: small x, big void -->
+  <text x="112" y="300" fill="#8a8a8a">a little quality</text>
+  <text x="112" y="316" fill="#8a8a8a">buys a lot of void</text>
+</svg>

@@ -1,0 +1,36 @@
+<svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Same energy E&#8320;, same photopeak &#8212; but HPGe (blue) is narrow, NaI (coral) is broad. Narrower = better resolution.</text>
+
+  <!-- axes -->
+  <line x1="60" y1="252" x2="600" y2="252" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="600,252 590,247 590,257" fill="#8a8a8a"/>
+  <text x="512" y="272" fill="#8a8a8a">channel (energy)</text>
+  <line x1="60" y1="252" x2="60" y2="60" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="60,60 55,70 65,70" fill="#8a8a8a"/>
+  <text x="18" y="64" fill="#8a8a8a">counts</text>
+
+  <!-- centre line at E0 -->
+  <line x1="330" y1="252" x2="330" y2="70" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="322" y="288" fill="#8a8a8a">E&#8320;</text>
+
+  <!-- NaI broad coral curve -->
+  <path d="M 150 251.8 L 156 251.7 L 162 251.6 L 168 251.4 L 174 251.2 L 180 250.8 L 186 250.4 L 192 249.8 L 198 249.0 L 204 248.1 L 210 246.8 L 216 245.3 L 222 243.4 L 228 241.2 L 234 238.5 L 240 235.5 L 246 231.9 L 252 228.0 L 258 223.6 L 264 218.9 L 270 214.0 L 276 208.8 L 282 203.7 L 288 198.6 L 294 193.8 L 300 189.3 L 306 185.5 L 312 182.3 L 318 179.9 L 324 178.5 L 330 178.0 L 336 178.5 L 342 179.9 L 348 182.3 L 354 185.5 L 360 189.3 L 366 193.8 L 372 198.6 L 378 203.7 L 384 208.8 L 390 214.0 L 396 218.9 L 402 223.6 L 408 228.0 L 414 231.9 L 420 235.5 L 426 238.5 L 432 241.2 L 438 243.4 L 444 245.3 L 450 246.8 L 456 248.1 L 462 249.0 L 468 249.8 L 474 250.4 L 480 250.8 L 486 251.2 L 492 251.4 L 498 251.6 L 504 251.7 L 510 251.8"
+        fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <!-- NaI FWHM marker at half max -->
+  <line x1="269" y1="215" x2="391" y2="215" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="269,215 278,211 278,219" fill="#e0645c"/>
+  <polygon points="391,215 382,211 382,219" fill="#e0645c"/>
+  <text x="396" y="219" fill="#e0645c">FWHM (NaI)</text>
+  <text x="516" y="160" fill="#e0645c">NaI: R &#8776; 7&#160;&#37;</text>
+
+  <!-- HPGe narrow blue curve -->
+  <path d="M 282 251.9 L 285 251.9 L 288 251.6 L 291 251.1 L 294 250.1 L 297 248.2 L 300 244.6 L 303 238.6 L 306 229.3 L 309 215.7 L 312 197.5 L 315 175.1 L 318 150.1 L 321 125.2 L 324 103.7 L 327 89.2 L 330 84.0 L 333 89.2 L 336 103.7 L 339 125.2 L 342 150.1 L 345 175.1 L 348 197.5 L 351 215.7 L 354 229.3 L 357 238.6 L 360 244.6 L 363 248.2 L 366 250.1 L 369 251.1 L 372 251.6 L 375 251.9 L 378 251.9"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <!-- HPGe FWHM marker at half max -->
+  <line x1="316" y1="168" x2="344" y2="168" stroke="#4a90d9" stroke-width="1.5"/>
+  <polygon points="316,168 323,164.5 323,171.5" fill="#4a90d9"/>
+  <polygon points="344,168 337,164.5 337,171.5" fill="#4a90d9"/>
+  <text x="352" y="96" fill="#4a90d9">HPGe: R &#8776; 0.16&#160;&#37;</text>
+  <line x1="352" y1="100" x2="332" y2="118" stroke="#4a90d9" stroke-width="1"/>
+</svg>

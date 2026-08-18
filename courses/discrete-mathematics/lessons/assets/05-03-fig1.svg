@@ -1,0 +1,42 @@
+<svg viewBox="0 0 420 280" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+  <rect x="0" y="0" width="420" height="280" rx="14" fill="#faf9f6" stroke="#333333" stroke-width="1.5"/>
+
+  <!-- Edges (drawn first, under the vertices) -->
+  <g stroke="#333333" stroke-width="2" fill="none">
+    <!-- outer triangle A-B-C -->
+    <line x1="60" y1="70" x2="360" y2="70"/>
+    <line x1="360" y1="70" x2="210" y2="238"/>
+    <line x1="210" y1="238" x2="60" y2="70"/>
+    <!-- inner triangle D-E-F -->
+    <line x1="140" y1="118" x2="280" y2="118"/>
+    <line x1="280" y1="118" x2="210" y2="178"/>
+    <line x1="210" y1="178" x2="140" y2="118"/>
+    <!-- spokes A-D, B-E, C-F -->
+    <line x1="60" y1="70" x2="140" y2="118"/>
+    <line x1="360" y1="70" x2="280" y2="118"/>
+    <line x1="210" y1="238" x2="210" y2="178"/>
+  </g>
+
+  <!-- Vertices: 3 saturated colours, dark outline -->
+  <g stroke="#333333" stroke-width="1.8">
+    <circle cx="60"  cy="70"  r="15" fill="#3b6ea5"/> <!-- A blue -->
+    <circle cx="360" cy="70"  r="15" fill="#a53b52"/> <!-- B red -->
+    <circle cx="210" cy="238" r="15" fill="#3ba55d"/> <!-- C green -->
+    <circle cx="140" cy="118" r="15" fill="#3ba55d"/> <!-- D green -->
+    <circle cx="280" cy="118" r="15" fill="#3b6ea5"/> <!-- E blue -->
+    <circle cx="210" cy="178" r="15" fill="#a53b52"/> <!-- F red -->
+  </g>
+
+  <!-- Vertex labels, dark, offset outside each vertex -->
+  <g fill="#333333" font-size="15" font-style="italic" text-anchor="middle">
+    <text x="42"  y="58">A</text>
+    <text x="378" y="58">B</text>
+    <text x="210" y="262">C</text>
+    <text x="120" y="112">D</text>
+    <text x="300" y="112">E</text>
+    <text x="238" y="182">F</text>
+  </g>
+
+  <!-- Caption -->
+  <text x="210" y="20" fill="#333333" font-size="13" text-anchor="middle" font-weight="bold">A triangular prism, properly 3-coloured — no edge joins two like colours, so &#967; = 3</text>
+</svg>

@@ -1,0 +1,39 @@
+<svg viewBox="0 0 560 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="26" fill="#8a8a8a" font-style="italic">The thermodynamic square: corners are the four natural variables, edges are the four potentials,</text>
+  <text x="30" y="44" fill="#8a8a8a" font-style="italic">diagonals mark the conjugate pairs (S,T) and (P,V) that carry the signs.</text>
+
+  <!-- ===== the square ===== -->
+  <!-- outline -->
+  <rect x="170" y="110" width="220" height="200" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+
+  <!-- diagonals with up-arrows (toward S and V) -->
+  <line x1="390" y1="310" x2="170" y2="110" stroke="#e0645c" stroke-width="1.25" stroke-dasharray="4 4"/>
+  <polygon points="170,110 184.6,114.4 176.9,123.6" fill="#e0645c"/>
+  <line x1="170" y1="310" x2="390" y2="110" stroke="#e0645c" stroke-width="1.25" stroke-dasharray="4 4"/>
+  <polygon points="390,110 383.1,123.6 375.4,114.4" fill="#e0645c"/>
+
+  <!-- corner variables (blue) -->
+  <text x="150" y="106" fill="#4a90d9" text-anchor="end" font-size="17">S</text>
+  <text x="410" y="106" fill="#4a90d9" text-anchor="start" font-size="17">V</text>
+  <text x="410" y="322" fill="#4a90d9" text-anchor="start" font-size="17">T</text>
+  <text x="150" y="322" fill="#4a90d9" text-anchor="end" font-size="17">P</text>
+
+  <!-- potentials on the edges (coral) -->
+  <rect x="264" y="98" width="24" height="20" fill="#e0645c" opacity="0.15"/>
+  <text x="280" y="113" fill="#e0645c" text-anchor="middle" font-size="17">U</text>
+
+  <rect x="378" y="200" width="24" height="20" fill="#e0645c" opacity="0.15"/>
+  <text x="390" y="215" fill="#e0645c" text-anchor="middle" font-size="17">F</text>
+
+  <rect x="264" y="302" width="24" height="20" fill="#e0645c" opacity="0.15"/>
+  <text x="280" y="317" fill="#e0645c" text-anchor="middle" font-size="17">G</text>
+
+  <rect x="158" y="200" width="24" height="20" fill="#e0645c" opacity="0.15"/>
+  <text x="170" y="215" fill="#e0645c" text-anchor="middle" font-size="17">H</text>
+
+  <!-- read-off annotation -->
+  <text x="30" y="356" fill="#8a8a8a">Edge = potential; its two corners = its natural variables. Mixed partials of edge F give:</text>
+  <text x="30" y="378" fill="#e0645c">(&#8706;S/&#8706;V)_T = (&#8706;P/&#8706;T)_V</text>
+  <text x="220" y="378" fill="#8a8a8a">— left side entropy, right side only P,V,T (measurable).</text>
+</svg>

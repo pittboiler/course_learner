@@ -1,0 +1,42 @@
+<svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">A catalyst carves a lower pass over the same mountain: smaller E&#8340;, faster both ways, same start and finish.</text>
+
+  <!-- axes -->
+  <line x1="60" y1="300" x2="590" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="590,300 580,295 580,305" fill="#8a8a8a"/>
+  <text x="470" y="322" fill="#8a8a8a">reaction progress</text>
+  <line x1="60" y1="300" x2="60" y2="60" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="60,60 55,70 65,70" fill="#8a8a8a"/>
+  <text x="52" y="52" fill="#8a8a8a" text-anchor="middle">energy</text>
+
+  <!-- reactant baseline (dashed reference) -->
+  <line x1="150" y1="180" x2="340" y2="180" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- uncatalyzed path (blue) -->
+  <path d="M 80 180 L 150 180 C 220 180, 250 90, 300 90 C 350 90, 380 250, 450 250 L 560 250"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- catalyzed path (coral, lower barrier) -->
+  <path d="M 80 180 L 150 180 C 210 180, 250 150, 300 150 C 350 150, 390 250, 450 250 L 560 250"
+        fill="none" stroke="#e0645c" stroke-width="2.5" stroke-dasharray="6 4"/>
+
+  <!-- Ea (uncatalyzed) double arrow at x=280 -->
+  <line x1="280" y1="180" x2="280" y2="92" stroke="#4a90d9" stroke-width="1.5"/>
+  <polygon points="280,90 276,100 284,100" fill="#4a90d9"/>
+  <polygon points="280,180 276,170 284,170" fill="#4a90d9"/>
+  <text x="238" y="140" fill="#4a90d9">E&#8340;</text>
+
+  <!-- Ea (catalyzed) double arrow at x=332 -->
+  <line x1="332" y1="180" x2="332" y2="152" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="332,150 328,160 336,160" fill="#e0645c"/>
+  <polygon points="332,180 328,170 336,170" fill="#e0645c"/>
+  <text x="340" y="172" fill="#e0645c">E&#8340; (cat.)</text>
+
+  <!-- transition-state marker -->
+  <text x="300" y="80" fill="#8a8a8a" text-anchor="middle">transition state</text>
+
+  <!-- level labels -->
+  <text x="88" y="172" fill="#8a8a8a">reactants</text>
+  <text x="500" y="242" fill="#8a8a8a">products</text>
+</svg>

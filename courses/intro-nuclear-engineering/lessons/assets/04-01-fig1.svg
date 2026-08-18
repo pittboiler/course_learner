@@ -1,0 +1,37 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Two nuclei climb the Coulomb hill (repulsion) before dropping into the deep nuclear well &#8212; thermal energy tunnels through.</text>
+
+  <!-- V(r) axis -->
+  <line x1="70" y1="315" x2="70" y2="42" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,42 65,54 75,54" fill="#8a8a8a"/>
+  <text x="52" y="52" fill="#8a8a8a">V</text>
+
+  <!-- V = 0 reference / separation axis -->
+  <line x1="70" y1="170" x2="612" y2="170" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <polygon points="612,170 602,165 602,175" fill="#8a8a8a"/>
+  <text x="586" y="188" fill="#8a8a8a">r</text>
+  <text x="54" y="175" fill="#8a8a8a">0</text>
+
+  <!-- potential-energy curve: Coulomb tail rising to the barrier, then the deep nuclear well -->
+  <path d="M 606 170 L 540 167 L 480 163 L 430 157 L 390 149 L 350 138 L 315 124 L 285 106 L 260 86 L 238 66 L 220 53 L 210 50 L 203 72 L 197 122 L 192 182 L 188 236 L 183 276 L 175 293 L 150 297 L 110 297 L 88 293"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- Coulomb barrier top -->
+  <line x1="150" y1="50" x2="450" y2="50" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <circle cx="210" cy="50" r="4" fill="#e0645c"/>
+  <text x="300" y="44" fill="#e0645c">Coulomb barrier &#8776; 0.4&#8211;0.5 MeV</text>
+
+  <!-- thermal energy level -->
+  <line x1="205" y1="157" x2="360" y2="157" stroke="#e0645c" stroke-width="2"/>
+  <text x="300" y="151" fill="#e0645c">kT &#8776; 10 keV</text>
+
+  <!-- tunneling arrow through the barrier at thermal energy -->
+  <line x1="300" y1="157" x2="199" y2="157" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <polygon points="199,157 209,152 209,162" fill="#e0645c"/>
+  <text x="212" y="140" fill="#e0645c">tunnel</text>
+
+  <!-- labels -->
+  <text x="360" y="128" fill="#8a8a8a">Coulomb repulsion &#8733; 1/r</text>
+  <text x="98" y="318" fill="#8a8a8a">nuclear well (strong force)</text>
+</svg>

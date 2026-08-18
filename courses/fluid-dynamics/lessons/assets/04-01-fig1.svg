@@ -1,0 +1,52 @@
+<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="60" y="24" fill="#8a8a8a" font-style="italic">Phase speed c(λ) on deep water: capillarity rules short ripples, gravity rules long swell — with a minimum in between.</text>
+
+  <!-- axes -->
+  <line x1="70" y1="320" x2="610" y2="320" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="610,320 600,315 600,325" fill="#8a8a8a"/>
+  <line x1="70" y1="320" x2="70" y2="52" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,52 65,62 75,62" fill="#8a8a8a"/>
+
+  <!-- axis labels -->
+  <text x="565" y="342" fill="#8a8a8a" font-style="italic">wavelength λ</text>
+  <text x="26" y="60" fill="#8a8a8a" font-style="italic">c</text>
+
+  <!-- x ticks (log scale: 1mm, 1cm, 10cm, 1m) -->
+  <line x1="70"  y1="320" x2="70"  y2="326" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="52"  y="340" fill="#8a8a8a" font-size="12">1 mm</text>
+  <line x1="202.5" y1="320" x2="202.5" y2="326" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="187" y="340" fill="#8a8a8a" font-size="12">1 cm</text>
+  <line x1="335" y1="320" x2="335" y2="326" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="317" y="340" fill="#8a8a8a" font-size="12">10 cm</text>
+  <line x1="467.5" y1="320" x2="467.5" y2="326" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="456" y="340" fill="#8a8a8a" font-size="12">1 m</text>
+  <line x1="600" y1="320" x2="600" y2="326" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="588" y="340" fill="#8a8a8a" font-size="12">10 m</text>
+
+  <!-- y ticks (c in m/s) -->
+  <line x1="64" y1="255" x2="70" y2="255" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="40" y="259" fill="#8a8a8a" font-size="12">1</text>
+  <line x1="64" y1="190" x2="70" y2="190" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="40" y="194" fill="#8a8a8a" font-size="12">2</text>
+  <line x1="64" y1="125" x2="70" y2="125" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="40" y="129" fill="#8a8a8a" font-size="12">3</text>
+  <text x="30" y="315" fill="#8a8a8a" font-size="12">m/s</text>
+
+  <!-- dispersion curve c(λ) = sqrt(gλ/2π + 2πσ/ρλ), deep water -->
+  <path d="M 70 276.2 L 109.9 288.9 L 162.6 299.6 L 202.5 304.0 L 233.0 305.0 L 265.7 303.8 L 295.1 300.8 L 335 294.0 L 398.2 275.5 L 467.5 238.8 L 530.7 179.4 L 600 63.3"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- minimum-phase-speed marker -->
+  <line x1="233.0" y1="305.0" x2="233.0" y2="320" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="70" y1="305.0" x2="233.0" y2="305.0" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <circle cx="233.0" cy="305.0" r="4.5" fill="#e0645c"/>
+  <text x="242" y="300" fill="#e0645c" font-size="12">c_min ≈ 23 cm/s</text>
+  <text x="242" y="316" fill="#e0645c" font-size="12">at λ ≈ 1.7 cm</text>
+
+  <!-- branch labels -->
+  <text x="96" y="250" fill="#4a90d9" font-size="12">capillary</text>
+  <text x="96" y="264" fill="#4a90d9" font-size="12">branch  ∝ 1/√λ</text>
+  <text x="486" y="150" fill="#4a90d9" font-size="12">gravity</text>
+  <text x="486" y="164" fill="#4a90d9" font-size="12">branch  ∝ √λ</text>
+</svg>

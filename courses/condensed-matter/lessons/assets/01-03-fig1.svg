@@ -1,0 +1,67 @@
+<svg viewBox="0 0 680 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="20" fill="#8a8a8a" font-style="italic" font-size="13">A family of (hkl) planes (grey) collapses to one reciprocal point G ⟂ them, with |G| = 2π/d.</text>
+  <text x="30" y="37" fill="#8a8a8a" font-style="italic" font-size="13">The first Brillouin zone (blue) is the Wigner–Seitz cell of the reciprocal lattice.</text>
+
+  <!-- ================= LEFT: real space, planes -> point ================= -->
+  <text x="60" y="52" fill="#8a8a8a" font-style="italic">real lattice + (hkl) planes</text>
+
+  <!-- (hkl) plane lines (grey) -->
+  <line x1="139" y1="264" x2="66" y2="191" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="184" y1="264" x2="66" y2="146" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="229" y1="264" x2="66" y2="101" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="229" y1="219" x2="111" y2="101" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- lattice points (grey dots), 4x4 grid, a = 45 px, origin (80,250) -->
+  <g fill="#8a8a8a">
+    <circle cx="80" cy="250" r="3.5"/><circle cx="125" cy="250" r="3.5"/><circle cx="170" cy="250" r="3.5"/><circle cx="215" cy="250" r="3.5"/>
+    <circle cx="80" cy="205" r="3.5"/><circle cx="125" cy="205" r="3.5"/><circle cx="170" cy="205" r="3.5"/><circle cx="215" cy="205" r="3.5"/>
+    <circle cx="80" cy="160" r="3.5"/><circle cx="125" cy="160" r="3.5"/><circle cx="170" cy="160" r="3.5"/><circle cx="215" cy="160" r="3.5"/>
+    <circle cx="80" cy="115" r="3.5"/><circle cx="125" cy="115" r="3.5"/><circle cx="170" cy="115" r="3.5"/><circle cx="215" cy="115" r="3.5"/>
+  </g>
+
+  <!-- interplanar spacing d, between the two innermost planes, along G -->
+  <line x1="103" y1="227" x2="126" y2="204" stroke="#e0645c" stroke-width="1.2" stroke-dasharray="3 3"/>
+  <text x="86" y="214" fill="#e0645c">d</text>
+
+  <!-- G vector: perpendicular to the planes -->
+  <line x1="80" y1="250" x2="167" y2="163" stroke="#e0645c" stroke-width="3"/>
+  <polygon points="167,163 155,164 166,175" fill="#e0645c"/>
+  <text x="150" y="150" fill="#e0645c">G</text>
+  <text x="150" y="315" fill="#e0645c" text-anchor="middle">|G| = 2π/d</text>
+
+  <!-- ================= RIGHT: reciprocal lattice + first BZ ================= -->
+  <text x="440" y="52" fill="#8a8a8a" font-style="italic">reciprocal lattice + 1st Brillouin zone</text>
+
+  <!-- reciprocal lattice points (blue), triangular, center (530,180), R=70 -->
+  <!-- WS construction hints: dashed lines center->two neighbors -->
+  <line x1="530" y1="180" x2="600" y2="180" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="530" y1="180" x2="565" y2="119" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- first Brillouin zone hexagon (WS cell), vertices at r=40.4, angles 30..330 -->
+  <polygon points="565,160 530,140 495,160 495,200 530,220 565,200"
+           fill="#4a90d9" opacity="0.15"/>
+  <polygon points="565,160 530,140 495,160 495,200 530,220 565,200"
+           fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <!-- reciprocal primitive vectors b1, b2 (blue arrows) -->
+  <line x1="530" y1="180" x2="592" y2="180" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="600,180 589,176 589,184" fill="#4a90d9"/>
+  <text x="588" y="198" fill="#4a90d9">b₁</text>
+  <line x1="530" y1="180" x2="561" y2="126" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="565,119 555,127 564,131" fill="#4a90d9"/>
+  <text x="566" y="118" fill="#4a90d9">b₂</text>
+
+  <!-- reciprocal lattice points -->
+  <g fill="#4a90d9">
+    <circle cx="530" cy="180" r="4"/>
+    <circle cx="600" cy="180" r="4"/>
+    <circle cx="565" cy="119" r="4"/>
+    <circle cx="495" cy="119" r="4"/>
+    <circle cx="460" cy="180" r="4"/>
+    <circle cx="495" cy="241" r="4"/>
+    <circle cx="565" cy="241" r="4"/>
+  </g>
+
+  <text x="512" y="176" fill="#4a90d9" font-size="12" font-style="italic">Γ</text>
+</svg>

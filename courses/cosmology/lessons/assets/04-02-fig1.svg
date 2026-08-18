@@ -1,0 +1,51 @@
+<svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">The inflaton rolls slowly down the flat plateau (inflation), then oscillates in the valley and reheats.</text>
+
+  <!-- ===== axes ===== -->
+  <!-- V axis -->
+  <line x1="70" y1="258" x2="70" y2="72" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,72 65,82 75,82" fill="#8a8a8a"/>
+  <text x="52" y="80" fill="#8a8a8a">V(&#966;)</text>
+  <!-- phi axis -->
+  <line x1="70" y1="258" x2="472" y2="258" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="472,258 462,253 462,263" fill="#8a8a8a"/>
+  <text x="476" y="263" fill="#8a8a8a">&#966;</text>
+
+  <!-- ===== the potential V(phi): flat plateau -> steep drop -> valley ===== -->
+  <path d="M 70 90 L 105 92 L 140 96 L 175 103 L 205 116 L 235 140 L 265 168 L 295 196 L 325 220 L 350 234 L 375 240 L 398 233 L 418 208 L 438 168 L 450 140"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- slow-roll brace under the plateau -->
+  <line x1="75" y1="128" x2="180" y2="128" stroke="#e0645c" stroke-width="1.5"/>
+  <line x1="75" y1="128" x2="75" y2="120" stroke="#e0645c" stroke-width="1.5"/>
+  <line x1="180" y1="128" x2="180" y2="120" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="78" y="146" fill="#e0645c" font-size="12">slow roll:  &#949;, |&#951;| &#8810; 1</text>
+
+  <!-- rolling ball on the plateau -->
+  <circle cx="120" cy="86" r="7" fill="#e0645c"/>
+  <line x1="150" y1="92" x2="186" y2="102" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="186,102 176,99 179,109" fill="#e0645c"/>
+
+  <!-- end-of-inflation marker: epsilon = 1 -->
+  <line x1="245" y1="150" x2="245" y2="256" stroke="#e0645c" stroke-width="1.2" stroke-dasharray="3 4"/>
+  <text x="78" y="208" fill="#e0645c" font-size="12">&#949; &#8776; 1: inflation ends</text>
+  <line x1="205" y1="204" x2="242" y2="176" stroke="#e0645c" stroke-width="1"/>
+  <polygon points="242,176 232,177 236,186" fill="#e0645c"/>
+
+  <!-- oscillation / reheating in the valley -->
+  <path d="M 358 247 L 366 242 L 374 247 L 382 242 L 390 247" fill="none" stroke="#e0645c" stroke-width="1.5"/>
+  <line x1="376" y1="280" x2="376" y2="250" stroke="#e0645c" stroke-width="1"/>
+  <polygon points="376,250 371,259 381,259" fill="#e0645c"/>
+  <text x="318" y="296" fill="#e0645c" font-size="12">oscillate &#8594; reheat</text>
+
+  <!-- ===== inset: a(t) grows exponentially ===== -->
+  <rect x="498" y="86" width="118" height="92" fill="none" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="510" y1="168" x2="608" y2="168" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="510" y1="168" x2="510" y2="96" stroke="#8a8a8a" stroke-width="1"/>
+  <path d="M 510 165 L 532 161 L 552 153 L 570 141 L 586 122 L 602 100"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="516" y="112" fill="#8a8a8a" font-size="12">a(t) &#8733; e</text>
+  <text x="565" y="106" fill="#8a8a8a" font-size="10">Ht</text>
+  <text x="600" y="180" fill="#8a8a8a" font-size="11">t</text>
+</svg>

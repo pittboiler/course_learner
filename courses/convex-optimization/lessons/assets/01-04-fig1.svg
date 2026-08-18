@@ -1,0 +1,30 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="640" height="400" fill="#ffffff"/>
+
+  <!-- axes -->
+  <line x1="60" y1="40" x2="60" y2="340" stroke="#111111" stroke-width="1.5"/>
+  <line x1="60" y1="340" x2="610" y2="340" stroke="#111111" stroke-width="1.5"/>
+  <text x="44" y="46" fill="#111111" font-size="15" text-anchor="middle">f</text>
+  <text x="612" y="360" fill="#111111" font-size="15">x</text>
+
+  <!-- three affine functions f_i(x) = a_i x + b_i (thin gray) -->
+  <line x1="60" y1="140" x2="276" y2="340" stroke="#9aa0a6" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <line x1="60" y1="320" x2="600" y2="295" stroke="#9aa0a6" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <line x1="240" y1="340" x2="600" y2="40" stroke="#9aa0a6" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="120" y="205" fill="#6b7075" font-size="13">f&#8321;</text>
+  <text x="470" y="288" fill="#6b7075" font-size="13">f&#8322;</text>
+  <text x="470" y="150" fill="#6b7075" font-size="13">f&#8323;</text>
+
+  <!-- pointwise max = upper envelope (thick colored) -->
+  <polyline points="60,140 245,311 276,310 600,40" fill="none" stroke="#1a56c4" stroke-width="3.5"/>
+
+  <!-- kink markers -->
+  <circle cx="245" cy="311" r="4" fill="#1a56c4"/>
+  <circle cx="276" cy="310" r="4" fill="#1a56c4"/>
+
+  <!-- shaded epigraph of the envelope (light) -->
+  <polygon points="60,140 245,311 276,310 600,40 600,40 610,40 610,20 60,20" fill="#1a56c4" opacity="0.06"/>
+
+  <text x="330" y="72" fill="#1a56c4" font-size="15" font-weight="bold">max&#8342; f&#8342;(x)  &#8212; convex</text>
+  <text x="330" y="92" fill="#6b7075" font-size="12">upper envelope of the lines</text>
+</svg>

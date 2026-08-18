@@ -1,0 +1,68 @@
+<svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Three photon-click trains on a detector. Same average rate &#8212; different clumping. g&#178;(0) reads the clumping.</text>
+
+  <!-- ===== Row 1: thermal / bunched ===== -->
+  <text x="20" y="68" fill="#8a8a8a">Thermal</text>
+  <text x="20" y="86" fill="#8a8a8a">(bunched)</text>
+  <line x1="140" y1="90" x2="560" y2="90" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="560,90 550,85 550,95" fill="#8a8a8a"/>
+  <!-- clump A -->
+  <line x1="158" y1="90" x2="158" y2="58" stroke="#e0645c" stroke-width="2.5"/>
+  <line x1="167" y1="90" x2="167" y2="58" stroke="#e0645c" stroke-width="2.5"/>
+  <line x1="175" y1="90" x2="175" y2="58" stroke="#e0645c" stroke-width="2.5"/>
+  <line x1="184" y1="90" x2="184" y2="58" stroke="#e0645c" stroke-width="2.5"/>
+  <!-- clump B -->
+  <line x1="268" y1="90" x2="268" y2="58" stroke="#e0645c" stroke-width="2.5"/>
+  <line x1="277" y1="90" x2="277" y2="58" stroke="#e0645c" stroke-width="2.5"/>
+  <line x1="288" y1="90" x2="288" y2="58" stroke="#e0645c" stroke-width="2.5"/>
+  <!-- clump C -->
+  <line x1="386" y1="90" x2="386" y2="58" stroke="#e0645c" stroke-width="2.5"/>
+  <line x1="395" y1="90" x2="395" y2="58" stroke="#e0645c" stroke-width="2.5"/>
+  <line x1="404" y1="90" x2="404" y2="58" stroke="#e0645c" stroke-width="2.5"/>
+  <line x1="413" y1="90" x2="413" y2="58" stroke="#e0645c" stroke-width="2.5"/>
+  <!-- clump D -->
+  <line x1="498" y1="90" x2="498" y2="58" stroke="#e0645c" stroke-width="2.5"/>
+  <line x1="509" y1="90" x2="509" y2="58" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="576" y="82" fill="#e0645c">g&#178;(0)</text>
+  <text x="576" y="99" fill="#e0645c">= 2</text>
+
+  <!-- ===== Row 2: coherent / random ===== -->
+  <text x="20" y="158" fill="#8a8a8a">Coherent</text>
+  <text x="20" y="176" fill="#8a8a8a">(random)</text>
+  <line x1="140" y1="180" x2="560" y2="180" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="560,180 550,175 550,185" fill="#8a8a8a"/>
+  <line x1="152" y1="180" x2="152" y2="148" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="181" y1="180" x2="181" y2="148" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="208" y1="180" x2="208" y2="148" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="255" y1="180" x2="255" y2="148" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="274" y1="180" x2="274" y2="148" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="326" y1="180" x2="326" y2="148" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="360" y1="180" x2="360" y2="148" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="398" y1="180" x2="398" y2="148" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="443" y1="180" x2="443" y2="148" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="472" y1="180" x2="472" y2="148" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="519" y1="180" x2="519" y2="148" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="576" y="172" fill="#4a90d9">g&#178;(0)</text>
+  <text x="576" y="189" fill="#4a90d9">= 1</text>
+
+  <!-- ===== Row 3: single-photon / antibunched ===== -->
+  <text x="20" y="248" fill="#8a8a8a">Single</text>
+  <text x="20" y="266" fill="#8a8a8a">emitter</text>
+  <text x="20" y="284" fill="#8a8a8a">(antibunched)</text>
+  <line x1="140" y1="270" x2="560" y2="270" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="560,270 550,265 550,275" fill="#8a8a8a"/>
+  <line x1="165" y1="270" x2="165" y2="238" stroke="#e0645c" stroke-width="2.5"/>
+  <line x1="215" y1="270" x2="215" y2="238" stroke="#e0645c" stroke-width="2.5"/>
+  <line x1="265" y1="270" x2="265" y2="238" stroke="#e0645c" stroke-width="2.5"/>
+  <line x1="315" y1="270" x2="315" y2="238" stroke="#e0645c" stroke-width="2.5"/>
+  <line x1="365" y1="270" x2="365" y2="238" stroke="#e0645c" stroke-width="2.5"/>
+  <line x1="415" y1="270" x2="415" y2="238" stroke="#e0645c" stroke-width="2.5"/>
+  <line x1="465" y1="270" x2="465" y2="238" stroke="#e0645c" stroke-width="2.5"/>
+  <line x1="515" y1="270" x2="515" y2="238" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="576" y="262" fill="#e0645c">g&#178;(0)</text>
+  <text x="576" y="279" fill="#e0645c">= 0</text>
+
+  <!-- time axis label -->
+  <text x="330" y="308" fill="#8a8a8a">time &#8594;</text>
+</svg>

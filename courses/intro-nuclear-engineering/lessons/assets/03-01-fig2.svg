@@ -1,0 +1,41 @@
+<svg viewBox="0 0 620 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Fission splits lopsidedly: two humps near A&#8776;95 and A&#8776;140, not one at the middle.</text>
+
+  <!-- y-axis -->
+  <line x1="80" y1="60" x2="80" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <!-- decade gridlines / ticks: 10,1,0.1,0.01 % -->
+  <line x1="76" y1="70" x2="580" y2="70" stroke="#8a8a8a" stroke-width="0.6" stroke-dasharray="2 5"/>
+  <text x="72" y="74" fill="#8a8a8a" text-anchor="end">10</text>
+  <line x1="76" y1="115" x2="580" y2="115" stroke="#8a8a8a" stroke-width="0.6" stroke-dasharray="2 5"/>
+  <text x="72" y="119" fill="#8a8a8a" text-anchor="end">1</text>
+  <line x1="76" y1="160" x2="580" y2="160" stroke="#8a8a8a" stroke-width="0.6" stroke-dasharray="2 5"/>
+  <text x="72" y="164" fill="#8a8a8a" text-anchor="end">0.1</text>
+  <line x1="76" y1="205" x2="580" y2="205" stroke="#8a8a8a" stroke-width="0.6" stroke-dasharray="2 5"/>
+  <text x="72" y="209" fill="#8a8a8a" text-anchor="end">0.01</text>
+  <text x="30" y="150" fill="#8a8a8a" transform="rotate(-90 30 150)" text-anchor="middle">yield (%)</text>
+
+  <!-- x-axis -->
+  <line x1="80" y1="250" x2="590" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="590,250 580,245 580,255" fill="#8a8a8a"/>
+  <text x="560" y="272" fill="#8a8a8a">mass number A</text>
+  <text x="130" y="268" fill="#8a8a8a" text-anchor="middle">80</text>
+  <text x="230" y="268" fill="#8a8a8a" text-anchor="middle">100</text>
+  <text x="330" y="268" fill="#8a8a8a" text-anchor="middle">120</text>
+  <text x="430" y="268" fill="#8a8a8a" text-anchor="middle">140</text>
+  <text x="530" y="268" fill="#8a8a8a" text-anchor="middle">160</text>
+
+  <!-- the double-humped yield curve -->
+  <polyline points="90,192 130,128 170,90 205,80 230,84 260,118 290,160 320,205 350,162 380,118 405,92 430,78 455,95 480,128 510,174 540,214"
+            fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- peak markers -->
+  <circle cx="205" cy="80" r="4" fill="#e0645c"/>
+  <text x="205" y="66" fill="#e0645c" text-anchor="middle">A&#8776;95</text>
+  <circle cx="430" cy="78" r="4" fill="#e0645c"/>
+  <text x="430" y="64" fill="#e0645c" text-anchor="middle">A&#8776;140</text>
+
+  <!-- valley note -->
+  <text x="320" y="228" fill="#8a8a8a" text-anchor="middle" font-size="12">symmetric split</text>
+  <text x="320" y="242" fill="#8a8a8a" text-anchor="middle" font-size="12">&#8776;600&#215; rarer</text>
+</svg>

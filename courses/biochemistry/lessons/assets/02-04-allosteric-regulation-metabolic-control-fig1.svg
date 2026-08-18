@@ -1,0 +1,50 @@
+<svg viewBox="0 0 620 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Sigmoidal v vs [S]: an activator left-shifts the switch (toward R), an inhibitor right-shifts it (toward T).</text>
+
+  <!-- axes -->
+  <line x1="60" y1="300" x2="575" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="575,300 565,295 565,305" fill="#8a8a8a"/>
+  <text x="540" y="322" fill="#8a8a8a">[S]</text>
+  <line x1="60" y1="300" x2="60" y2="50" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="60,50 55,60 65,60" fill="#8a8a8a"/>
+  <text x="70" y="58" fill="#8a8a8a">v</text>
+
+  <!-- Vmax and half-max guide lines -->
+  <line x1="60" y1="60" x2="560" y2="60" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="16" y="64" fill="#8a8a8a">V</text>
+  <text x="26" y="68" fill="#8a8a8a" font-size="10">max</text>
+  <line x1="60" y1="180" x2="460" y2="180" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="14" y="184" fill="#8a8a8a" font-size="12">V</text>
+  <text x="23" y="188" fill="#8a8a8a" font-size="9">max</text>
+  <text x="41" y="184" fill="#8a8a8a" font-size="12">/2</text>
+
+  <!-- activator curve (coral, left-shifted) -->
+  <path d="M 60.0 300.0 L 66.2 300.0 L 72.5 299.9 L 78.8 299.7 L 85.0 299.2 L 91.2 298.4 L 97.5 297.2 L 103.8 295.4 L 110.0 293.1 L 116.2 290.0 L 122.5 286.3 L 128.8 281.7 L 135.0 276.4 L 141.2 270.4 L 147.5 263.7 L 153.8 256.4 L 160.0 248.5 L 166.2 240.2 L 172.5 231.6 L 178.8 222.9 L 185.0 214.0 L 191.2 205.3 L 197.5 196.6 L 203.8 188.2 L 210.0 180.0 L 216.2 172.2 L 222.5 164.7 L 228.8 157.6 L 235.0 151.0 L 241.2 144.7 L 247.5 138.9 L 253.8 133.4 L 260.0 128.4 L 266.2 123.7 L 272.5 119.3 L 278.8 115.2 L 285.0 111.5 L 291.2 108.0 L 297.5 104.8 L 303.8 101.9 L 310.0 99.2 L 316.2 96.6 L 322.5 94.3 L 328.8 92.2 L 335.0 90.2 L 341.2 88.3 L 347.5 86.6 L 353.8 85.0 L 360.0 83.6 L 372.5 80.9 L 385.0 78.6 L 397.5 76.7 L 410.0 75.0 L 435.0 72.1 L 460.0 70.0 L 485.0 68.3 L 510.0 66.9 L 535.0 65.9 L 560.0 65.0"
+        fill="none" stroke="#e0645c" stroke-width="2.5"/>
+
+  <!-- reference curve (blue) -->
+  <path d="M 60.0 300.0 L 66.2 300.0 L 72.5 300.0 L 78.8 299.9 L 85.0 299.8 L 91.2 299.7 L 97.5 299.4 L 103.8 299.1 L 110.0 298.6 L 116.2 298.0 L 122.5 297.2 L 128.8 296.2 L 135.0 295.0 L 141.2 293.6 L 147.5 291.9 L 153.8 290.0 L 160.0 287.9 L 166.2 285.4 L 172.5 282.7 L 178.8 279.7 L 185.0 276.4 L 191.2 272.9 L 197.5 269.1 L 203.8 265.1 L 210.0 260.8 L 216.2 256.4 L 222.5 251.7 L 228.8 246.9 L 235.0 241.9 L 241.2 236.8 L 247.5 231.6 L 253.8 226.4 L 260.0 221.1 L 266.2 215.8 L 272.5 210.5 L 278.8 205.3 L 285.0 200.0 L 291.2 194.9 L 297.5 189.8 L 303.8 184.9 L 310.0 180.0 L 316.2 175.3 L 322.5 170.7 L 328.8 166.2 L 335.0 161.8 L 341.2 157.6 L 347.5 153.6 L 353.8 149.7 L 360.0 146.0 L 372.5 138.9 L 385.0 132.4 L 397.5 126.4 L 410.0 121.0 L 435.0 111.5 L 460.0 103.6 L 485.0 97.1 L 510.0 91.7 L 535.0 87.3 L 560.0 83.6"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- inhibitor curve (grey, right-shifted) -->
+  <path d="M 60.0 300.0 L 78.8 300.0 L 97.5 299.8 L 110.0 299.5 L 122.5 299.0 L 135.0 298.3 L 147.5 297.2 L 160.0 295.7 L 172.5 293.8 L 185.0 291.4 L 197.5 288.5 L 210.0 285.0 L 222.5 281.0 L 235.0 276.4 L 247.5 271.3 L 260.0 265.7 L 272.5 259.6 L 285.0 253.0 L 297.5 246.2 L 310.0 239.0 L 322.5 231.6 L 335.0 224.1 L 347.5 216.6 L 360.0 209.0 L 372.5 201.5 L 385.0 194.2 L 397.5 187.0 L 410.0 180.0 L 422.5 173.3 L 435.0 166.8 L 447.5 160.6 L 460.0 154.7 L 472.5 149.2 L 485.0 143.9 L 497.5 138.9 L 510.0 134.2 L 522.5 129.8 L 535.0 125.6 L 547.5 121.7 L 560.0 118.1"
+        fill="none" stroke="#8a8a8a" stroke-width="2.5"/>
+
+  <!-- K0.5 markers on x-axis -->
+  <line x1="210" y1="180" x2="210" y2="300" stroke="#e0645c" stroke-width="1" stroke-dasharray="2 3"/>
+  <line x1="310" y1="180" x2="310" y2="300" stroke="#4a90d9" stroke-width="1" stroke-dasharray="2 3"/>
+  <line x1="410" y1="180" x2="410" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 3"/>
+
+  <!-- labels -->
+  <text x="150" y="150" fill="#e0645c">+ activator</text>
+  <text x="150" y="166" fill="#e0645c" font-size="12">(more R)</text>
+  <text x="366" y="120" fill="#4a90d9">no effector</text>
+  <text x="470" y="200" fill="#8a8a8a">+ inhibitor</text>
+  <text x="470" y="216" fill="#8a8a8a" font-size="12">(more T)</text>
+
+  <!-- K0.5 tick labels -->
+  <text x="196" y="316" fill="#e0645c" font-size="12">&#8595;K&#8320;.&#8325;</text>
+  <text x="296" y="316" fill="#4a90d9" font-size="12">&#8595;K&#8320;.&#8325;</text>
+  <text x="396" y="316" fill="#8a8a8a" font-size="12">&#8595;K&#8320;.&#8325;</text>
+</svg>

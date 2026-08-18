@@ -1,0 +1,38 @@
+<svg viewBox="0 0 480 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="24" y="24" fill="#8a8a8a" font-style="italic">The eight symmetries of a square (D4): 4 rotations (about the center) and 4 mirror lines.</text>
+
+  <!-- ===== mirror lines (drawn first, behind the square) ===== -->
+  <!-- vertical mirror m_v -->
+  <line x1="230" y1="80" x2="230" y2="320" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <!-- horizontal mirror m_h -->
+  <line x1="100" y1="200" x2="360" y2="200" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <!-- diagonal mirror m_d (through TL, BR corners) -->
+  <line x1="118" y1="88" x2="342" y2="312" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <!-- anti-diagonal mirror m_d' (through TR, BL corners) -->
+  <line x1="342" y1="88" x2="118" y2="312" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="6 5"/>
+
+  <!-- mirror labels -->
+  <text x="234" y="76" fill="#e0645c">m_v</text>
+  <text x="362" y="204" fill="#e0645c">m_h</text>
+  <text x="344" y="322" fill="#e0645c">m_d</text>
+  <text x="96" y="322" fill="#e0645c">m_d'</text>
+
+  <!-- ===== the square ===== -->
+  <rect x="140" y="110" width="180" height="180" fill="#4a90d9" opacity="0.15" stroke="#8a8a8a" stroke-width="2.5"/>
+
+  <!-- corner dots (help see rotations permute corners) -->
+  <circle cx="140" cy="110" r="4" fill="#8a8a8a"/>
+  <circle cx="320" cy="110" r="4" fill="#8a8a8a"/>
+  <circle cx="320" cy="290" r="4" fill="#8a8a8a"/>
+  <circle cx="140" cy="290" r="4" fill="#8a8a8a"/>
+
+  <!-- ===== rotation arrow about the center ===== -->
+  <circle cx="230" cy="200" r="3" fill="#4a90d9"/>
+  <path d="M 230 162 A 38 38 0 1 1 203 173" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="203,173 205,183 213,175" fill="#4a90d9"/>
+  <text x="238" y="205" fill="#4a90d9">r: 90&#176; turns</text>
+
+  <!-- ===== count legend ===== -->
+  <text x="24" y="332" fill="#8a8a8a" font-style="italic">Group order |D4| = 8:  {e, r, r&#178;, r&#179;} rotations + {m_v, m_h, m_d, m_d'} reflections.</text>
+</svg>

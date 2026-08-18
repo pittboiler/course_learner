@@ -1,0 +1,57 @@
+<svg viewBox="0 0 600 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Real load P down at C, then a unit load at C in the wanted direction: every member gives one nNL term.</text>
+
+  <!-- ===== left: the truss ===== -->
+
+  <!-- members (structure) -->
+  <line x1="60" y1="210" x2="320" y2="210" stroke="#8a8a8a" stroke-width="2.5"/>
+  <line x1="60" y1="210" x2="190" y2="113" stroke="#8a8a8a" stroke-width="2.5"/>
+  <line x1="320" y1="210" x2="190" y2="113" stroke="#8a8a8a" stroke-width="2.5"/>
+
+  <!-- joints -->
+  <circle cx="60" cy="210" r="4" fill="#4a90d9"/>
+  <circle cx="320" cy="210" r="4" fill="#4a90d9"/>
+  <circle cx="190" cy="113" r="4" fill="#4a90d9"/>
+  <text x="44" y="228" fill="#8a8a8a">A</text>
+  <text x="326" y="228" fill="#8a8a8a">B</text>
+  <text x="196" y="108" fill="#8a8a8a">C</text>
+
+  <!-- pin support at A -->
+  <polygon points="60,210 48,232 72,232" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="44" y1="232" x2="76" y2="232" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="46" y1="238" x2="52" y2="232" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="54" y1="238" x2="60" y2="232" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="62" y1="238" x2="68" y2="232" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- roller support at B -->
+  <polygon points="320,210 308,230 332,230" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <circle cx="313" cy="235" r="4" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <circle cx="327" cy="235" r="4" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="304" y1="240" x2="336" y2="240" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- unit load arrow down at C -->
+  <line x1="190" y1="62" x2="190" y2="104" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="190,110 184,99 196,99" fill="#e0645c"/>
+  <text x="198" y="80" fill="#e0645c">1 (or P)</text>
+
+  <!-- member force labels (real forces, blue) -->
+  <text x="96" y="158" fill="#4a90d9">&#8722;5P/6</text>
+  <text x="242" y="158" fill="#4a90d9">&#8722;5P/6</text>
+  <text x="162" y="228" fill="#4a90d9">+2P/3</text>
+
+  <!-- span dimension -->
+  <text x="150" y="258" fill="#8a8a8a" font-size="12">A=(0,0)  B=(8,0)  C=(4,3) m</text>
+
+  <!-- ===== right: the nNL callout ===== -->
+  <rect x="372" y="60" width="212" height="192" rx="6" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="384" y="84" fill="#8a8a8a" font-weight="bold">1&#183;&#916; = &#8721; nNL / AE   (AE common)</text>
+
+  <text x="384" y="116" fill="#8a8a8a" font-size="13">AC: (&#8722;5/6)(&#8722;5P/6)(5) = 3.47P</text>
+  <text x="384" y="140" fill="#8a8a8a" font-size="13">BC: (&#8722;5/6)(&#8722;5P/6)(5) = 3.47P</text>
+  <text x="384" y="164" fill="#8a8a8a" font-size="13">AB: (+2/3)(+2P/3)(8) = 3.56P</text>
+
+  <line x1="384" y1="182" x2="572" y2="182" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="384" y="206" fill="#8a8a8a" font-size="13">&#8721; nNL = 10.5P  (kN&#183;m)</text>
+  <text x="384" y="236" fill="#e0645c" font-weight="bold">&#916; = 10.5 P / AE  (down)</text>
+</svg>

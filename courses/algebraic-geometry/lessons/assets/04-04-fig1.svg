@@ -1,0 +1,41 @@
+<svg viewBox="0 0 720 390" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="720" height="390" fill="#ffffff"/>
+
+  <text x="360" y="30" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">A line bundle = a 1-dimensional space glued over each point of the curve</text>
+  <text x="360" y="52" text-anchor="middle" font-size="12.5" fill="#555555">a global section threads the fibers; where it hits zero is its divisor of zeros</text>
+
+  <!-- fibers: one vertical line (a copy of k) over each sampled base point -->
+  <line x1="120" y1="115" x2="120" y2="305" stroke="#9bb2d6" stroke-width="1.6"/>
+  <line x1="220" y1="115" x2="220" y2="305" stroke="#9bb2d6" stroke-width="1.6"/>
+  <line x1="320" y1="115" x2="320" y2="305" stroke="#9bb2d6" stroke-width="1.6"/>
+  <line x1="420" y1="115" x2="420" y2="305" stroke="#9bb2d6" stroke-width="1.6"/>
+  <line x1="520" y1="115" x2="520" y2="305" stroke="#9bb2d6" stroke-width="1.6"/>
+  <line x1="620" y1="115" x2="620" y2="305" stroke="#9bb2d6" stroke-width="1.6"/>
+  <text x="632" y="128" text-anchor="start" font-size="12" fill="#1a5fa8">fiber</text>
+  <text x="632" y="144" text-anchor="start" font-size="12" fill="#1a5fa8">&#8773; k</text>
+
+  <!-- zero section: the "0" level of every fiber -->
+  <line x1="70" y1="210" x2="650" y2="210" stroke="#111111" stroke-width="1.4" stroke-dasharray="6 5"/>
+  <text x="70" y="200" text-anchor="start" font-size="12" fill="#111111">zero section (the 0 of each fiber)</text>
+
+  <!-- the section s: a curve picking one point in each fiber -->
+  <polyline points="120,150 170,175 220,210 270,250 320,268 370,258 420,235 470,210 520,180 570,160 620,150"
+            fill="none" stroke="#127a4a" stroke-width="2.4"/>
+  <text x="120" y="140" text-anchor="middle" font-size="13" fill="#127a4a" font-weight="bold">section s</text>
+
+  <!-- zeros of the section = divisor D -->
+  <circle cx="220" cy="210" r="5.5" fill="#b21f2d"/>
+  <text x="220" y="330" text-anchor="middle" font-size="12" fill="#b21f2d">p&#8321;</text>
+  <circle cx="470" cy="210" r="5.5" fill="#b21f2d"/>
+  <text x="470" y="330" text-anchor="middle" font-size="12" fill="#b21f2d">p&#8322;</text>
+
+  <!-- base curve -->
+  <line x1="70" y1="352" x2="650" y2="352" stroke="#111111" stroke-width="2"/>
+  <circle cx="220" cy="352" r="4" fill="#b21f2d"/>
+  <circle cx="470" cy="352" r="4" fill="#b21f2d"/>
+  <text x="360" y="378" text-anchor="middle" font-size="12.5" fill="#111111">base curve X    &#8212;    div(s) = zeros of s = p&#8321; + p&#8322;,  deg = 2,  so this bundle is O(2)</text>
+
+  <!-- faint drop lines connecting zeros to base -->
+  <line x1="220" y1="216" x2="220" y2="348" stroke="#b21f2d" stroke-width="0.8" stroke-dasharray="3 4"/>
+  <line x1="470" y1="216" x2="470" y2="348" stroke="#b21f2d" stroke-width="0.8" stroke-dasharray="3 4"/>
+</svg>

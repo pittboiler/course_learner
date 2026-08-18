@@ -1,0 +1,66 @@
+<svg viewBox="0 0 600 470" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Simply supported beam, central load P: V steps through zero at midspan, where M peaks at PL/4.</text>
+
+  <!-- alignment line: midspan, from load down to M peak -->
+  <line x1="300" y1="52" x2="300" y2="410" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 5"/>
+
+  <!-- ===== Panel A: beam schematic ===== -->
+  <!-- the beam -->
+  <line x1="100" y1="90" x2="500" y2="90" stroke="#8a8a8a" stroke-width="4"/>
+
+  <!-- pin support at left -->
+  <polygon points="100,90 90,110 110,110" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="86" y1="110" x2="114" y2="110" stroke="#8a8a8a" stroke-width="1.5"/>
+  <!-- roller support at right -->
+  <polygon points="500,90 490,108 510,108" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <circle cx="494" cy="112" r="3" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <circle cx="506" cy="112" r="3" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="486" y1="117" x2="514" y2="117" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- central point load P -->
+  <line x1="300" y1="52" x2="300" y2="86" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="300,90 294,80 306,80" fill="#e0645c"/>
+  <text x="308" y="60" fill="#e0645c">P</text>
+
+  <!-- reactions -->
+  <text x="82" y="132" fill="#8a8a8a">P/2</text>
+  <text x="484" y="140" fill="#8a8a8a">P/2</text>
+
+  <!-- span label -->
+  <line x1="100" y1="150" x2="500" y2="150" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <polygon points="100,150 110,146 110,154" fill="#8a8a8a"/>
+  <polygon points="500,150 490,146 490,154" fill="#8a8a8a"/>
+  <text x="294" y="166" fill="#8a8a8a">L</text>
+
+  <!-- ===== Panel B: shear diagram ===== -->
+  <line x1="80" y1="230" x2="520" y2="230" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="520,230 510,225 510,235" fill="#8a8a8a"/>
+  <text x="524" y="235" fill="#8a8a8a">x</text>
+  <line x1="100" y1="270" x2="100" y2="190" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="100,190 95,200 105,200" fill="#8a8a8a"/>
+  <text x="84" y="200" fill="#8a8a8a">V</text>
+
+  <!-- V shape: +P/2 flat, step down at midspan, -P/2 flat -->
+  <path d="M 100 230 L 100 198 L 300 198 L 300 262 L 500 262 L 500 230"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="150" y="190" fill="#4a90d9">+P/2</text>
+  <text x="410" y="280" fill="#4a90d9">&#8722;P/2</text>
+  <!-- V = 0 crossing -->
+  <circle cx="300" cy="230" r="3.5" fill="#e0645c"/>
+  <text x="308" y="248" fill="#e0645c">V = 0</text>
+
+  <!-- ===== Panel C: moment diagram ===== -->
+  <line x1="80" y1="410" x2="520" y2="410" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="520,410 510,405 510,415" fill="#8a8a8a"/>
+  <text x="524" y="415" fill="#8a8a8a">x</text>
+  <line x1="100" y1="410" x2="100" y2="330" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="100,330 95,340 105,340" fill="#8a8a8a"/>
+  <text x="84" y="340" fill="#8a8a8a">M</text>
+
+  <!-- M shape: triangle peaking at midspan -->
+  <path d="M 100 410 L 300 340 L 500 410" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <circle cx="300" cy="340" r="3.5" fill="#e0645c"/>
+  <text x="308" y="336" fill="#e0645c">Mmax = PL/4</text>
+  <text x="286" y="428" fill="#8a8a8a">L/2</text>
+</svg>

@@ -1,0 +1,57 @@
+<svg viewBox="0 0 620 370" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Assembly reactivity falls linearly, hitting zero at the single-batch burnup B&#8321;.</text>
+  <text x="40" y="42" fill="#8a8a8a" font-style="italic">Staggering n batches lets the oldest reach B&#8345; = 2n/(n+1)&#183;B&#8321; while the batch-average stays critical.</text>
+
+  <!-- axes -->
+  <line x1="70" y1="220" x2="580" y2="220" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="580,220 570,215 570,225" fill="#8a8a8a"/>
+  <line x1="70" y1="350" x2="70" y2="62" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,62 65,72 75,72" fill="#8a8a8a"/>
+
+  <!-- axis labels -->
+  <text x="52" y="70" fill="#8a8a8a">&#961;</text>
+  <text x="500" y="242" fill="#8a8a8a">B (GWd/tHM)</text>
+  <text x="586" y="216" fill="#8a8a8a">&#961; = 0</text>
+
+  <!-- x ticks: 0, B1, 2B1 -->
+  <line x1="315" y1="216" x2="315" y2="224" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="560" y1="216" x2="560" y2="224" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="63" y="238" fill="#8a8a8a">0</text>
+  <text x="307" y="238" fill="#8a8a8a">B&#8321;</text>
+  <text x="549" y="238" fill="#8a8a8a">2B&#8321;</text>
+
+  <!-- rho0 tick -->
+  <line x1="66" y1="80" x2="74" y2="80" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="42" y="85" fill="#8a8a8a">&#961;&#8320;</text>
+
+  <!-- 2B1 asymptote guide -->
+  <line x1="560" y1="220" x2="560" y2="72" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="470" y="100" fill="#8a8a8a">2B&#8321; (n &#8594; &#8734; limit)</text>
+
+  <!-- reactivity line: solid to B1, dashed beyond -->
+  <line x1="70" y1="80" x2="315" y2="220" stroke="#4a90d9" stroke-width="3"/>
+  <line x1="315" y1="220" x2="470" y2="308" stroke="#4a90d9" stroke-width="2" stroke-dasharray="5 4"/>
+  <text x="120" y="128" fill="#4a90d9">&#961;(B) = &#961;&#8320;(1 &#8722; B/B&#8321;)</text>
+
+  <!-- 3-batch EOC burnups: 7.5, 15, 22.5 (with B1 = 15) -->
+  <!-- guide drop-lines to the burnup axis -->
+  <line x1="192.5" y1="150" x2="192.5" y2="220" stroke="#e0645c" stroke-width="1" stroke-dasharray="2 4"/>
+  <line x1="437.5" y1="290" x2="437.5" y2="220" stroke="#e0645c" stroke-width="1" stroke-dasharray="2 4"/>
+
+  <circle cx="192.5" cy="150" r="5" fill="#e0645c"/>
+  <circle cx="315" cy="220" r="7" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <circle cx="315" cy="220" r="5" fill="#e0645c"/>
+  <circle cx="437.5" cy="290" r="5" fill="#e0645c"/>
+
+  <!-- burnup tick labels for the three batches -->
+  <text x="176" y="256" fill="#e0645c">7.5</text>
+  <text x="305" y="272" fill="#e0645c">15</text>
+  <text x="421" y="256" fill="#e0645c">22.5</text>
+
+  <!-- annotations -->
+  <text x="120" y="176" fill="#e0645c">fresh batch</text>
+  <text x="330" y="200" fill="#e0645c">avg &#961; = 0 &#8658; critical</text>
+  <text x="452" y="294" fill="#e0645c">discharge B&#8323; = 22.5</text>
+  <text x="40" y="360" fill="#8a8a8a" font-style="italic">Coral dots: the three batches of a 3-batch core at end-of-cycle (B&#8321; = 15). Their average sits exactly at &#961; = 0.</text>
+</svg>

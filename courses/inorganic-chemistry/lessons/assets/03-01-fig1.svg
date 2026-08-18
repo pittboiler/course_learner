@@ -1,0 +1,62 @@
+<svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="24" y="22" fill="#8a8a8a" font-style="italic">Water's symmetry kit: one C&#8322; axis (blue) and two mirror planes &#963;&#8342; (coral) meeting along it &#8212; plus inversion i and an improper rotation S&#8345;.</text>
+
+  <!-- ================= LEFT: water with C2 and two sigma_v ================= -->
+
+  <!-- sigma_v plane 1 (parallelogram, semi-transparent) -->
+  <polygon points="118,90 244,68 244,262 118,284" fill="#e0645c" opacity="0.12" stroke="#e0645c" stroke-width="1.2"/>
+  <!-- sigma_v plane 2 (crossing) -->
+  <polygon points="244,90 118,68 118,262 244,284" fill="#e0645c" opacity="0.12" stroke="#e0645c" stroke-width="1.2"/>
+
+  <!-- C2 axis (vertical, through the oxygen, bisecting H-O-H) -->
+  <line x1="181" y1="60" x2="181" y2="296" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="181,60 176,72 186,72" fill="#4a90d9"/>
+  <text x="190" y="70" fill="#4a90d9">C&#8322;</text>
+
+  <!-- bonds -->
+  <line x1="181" y1="150" x2="138" y2="212" stroke="#8a8a8a" stroke-width="2.5"/>
+  <line x1="181" y1="150" x2="224" y2="212" stroke="#8a8a8a" stroke-width="2.5"/>
+
+  <!-- atoms -->
+  <circle cx="181" cy="150" r="18" fill="#8a8a8a" opacity="0.25" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="175" y="155" fill="#8a8a8a">O</text>
+  <circle cx="138" cy="212" r="13" fill="#8a8a8a" opacity="0.18" stroke="#8a8a8a" stroke-width="1.8"/>
+  <text x="133" y="217" fill="#8a8a8a" font-size="12">H</text>
+  <circle cx="224" cy="212" r="13" fill="#8a8a8a" opacity="0.18" stroke="#8a8a8a" stroke-width="1.8"/>
+  <text x="219" y="217" fill="#8a8a8a" font-size="12">H</text>
+
+  <!-- plane labels -->
+  <text x="96" y="300" fill="#e0645c" font-size="12">&#963;&#8342; (molecular)</text>
+  <text x="196" y="300" fill="#e0645c" font-size="12">&#963;&#8342;'</text>
+
+  <!-- divider -->
+  <line x1="330" y1="60" x2="330" y2="330" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 5"/>
+
+  <!-- ================= TOP-RIGHT: inversion i ================= -->
+  <text x="400" y="80" fill="#8a8a8a">inversion&#160;&#160;i</text>
+
+  <!-- two opposite points through a center -->
+  <line x1="418" y1="140" x2="512" y2="98" stroke="#8a8a8a" stroke-width="1.4" stroke-dasharray="4 4"/>
+  <circle cx="418" cy="140" r="7" fill="#8a8a8a" opacity="0.35" stroke="#8a8a8a" stroke-width="1.6"/>
+  <circle cx="512" cy="98" r="7" fill="#8a8a8a" opacity="0.35" stroke="#8a8a8a" stroke-width="1.6"/>
+  <!-- inversion center -->
+  <circle cx="465" cy="119" r="4.5" fill="#e0645c"/>
+  <text x="474" y="124" fill="#e0645c" font-size="12">center</text>
+  <text x="392" y="164" fill="#8a8a8a" font-size="12">(x,y,z) &#8594; (&#8722;x,&#8722;y,&#8722;z)</text>
+
+  <!-- ================= BOTTOM-RIGHT: improper rotation Sn ================= -->
+  <text x="400" y="212" fill="#8a8a8a">improper rotation&#160;&#160;S&#8345;</text>
+
+  <!-- axis -->
+  <line x1="470" y1="228" x2="470" y2="330" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="470,228 465,240 475,240" fill="#4a90d9"/>
+  <!-- rotation arc -->
+  <path d="M 448 252 A 28 12 0 1 1 492 252" fill="none" stroke="#4a90d9" stroke-width="1.8"/>
+  <polygon points="492,252 484,247 486,257" fill="#4a90d9"/>
+  <text x="500" y="250" fill="#4a90d9" font-size="12">rotate 360&#176;/n</text>
+
+  <!-- perpendicular mirror plane (ellipse seen edge-on) -->
+  <ellipse cx="470" cy="296" rx="52" ry="15" fill="#e0645c" opacity="0.14" stroke="#e0645c" stroke-width="1.4"/>
+  <text x="380" y="300" fill="#e0645c" font-size="12">then reflect &#8869;</text>
+</svg>

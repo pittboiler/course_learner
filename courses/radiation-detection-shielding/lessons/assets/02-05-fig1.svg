@@ -1,0 +1,46 @@
+<svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Two count distributions and two thresholds: L_C decides &#8220;detected?&#8221;, L_D is the smallest activity we can trust to find.</text>
+
+  <!-- baseline axis -->
+  <line x1="60" y1="250" x2="470" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="470,250 460,245 460,255" fill="#8a8a8a"/>
+  <text x="404" y="270" fill="#8a8a8a">net counts &#8594;</text>
+
+  <!-- alpha tail: blue curve area beyond L_C (false positive) -->
+  <path d="M 210 246.4 L 216 247.8 L 228 249.2 L 240 249.8 L 240 250 L 210 250 Z" fill="#4a90d9" opacity="0.30"/>
+  <!-- beta tail: coral curve area below L_C (false negative) -->
+  <path d="M 180 249.8 L 192 249.2 L 204 247.8 L 210 246.4 L 210 250 L 180 250 Z" fill="#e0645c" opacity="0.30"/>
+
+  <!-- blue curve: distribution of net when true activity is ZERO (background only) -->
+  <path d="M 48 237.3 L 60 224.7 L 72 205.7 L 84 181.5 L 96 156.5 L 108 137.2 L 120 130 L 132 137.2 L 144 156.5 L 156 181.5 L 168 205.7 L 180 224.7 L 192 237.3 L 204 244.3 L 216 247.8 L 228 249.2 L 240 249.8"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="88" y="118" fill="#4a90d9">true activity = 0</text>
+
+  <!-- coral curve: distribution of net when true signal sits at L_D -->
+  <path d="M 192 249.2 L 204 247.8 L 216 244.3 L 228 237.3 L 240 224.7 L 252 205.7 L 264 181.5 L 276 156.5 L 288 137.2 L 300 130 L 312 137.2 L 324 156.5 L 336 181.5 L 348 205.7 L 360 224.7 L 372 237.3 L 384 244.3 L 396 247.8 L 408 249.2"
+        fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="300" y="118" fill="#e0645c">true signal = L_D</text>
+
+  <!-- L_C threshold -->
+  <line x1="210" y1="250" x2="210" y2="108" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="200" y="286" fill="#8a8a8a">L<tspan font-size="10" dy="4">C</tspan></text>
+
+  <!-- L_D threshold -->
+  <line x1="300" y1="250" x2="300" y2="132" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="290" y="286" fill="#8a8a8a">L<tspan font-size="10" dy="4">D</tspan></text>
+
+  <!-- zero marker -->
+  <text x="116" y="270" fill="#8a8a8a">0</text>
+
+  <!-- alpha / beta annotations -->
+  <text x="486" y="150" fill="#4a90d9">&#945; : false positive</text>
+  <text x="486" y="170" fill="#8a8a8a">(area past L_C, ~5&#37;)</text>
+  <text x="486" y="206" fill="#e0645c">&#946; : false negative</text>
+  <text x="486" y="226" fill="#8a8a8a">(area below L_C, ~5&#37;)</text>
+
+  <!-- decision arrows below axis -->
+  <line x1="214" y1="256" x2="290" y2="256" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="290,256 282,252 282,260" fill="#8a8a8a"/>
+  <text x="222" y="252" fill="#8a8a8a" font-size="12">call it &#8220;detected&#8221;</text>
+</svg>

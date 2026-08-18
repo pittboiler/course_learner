@@ -1,0 +1,52 @@
+<svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">A calibration line turns signal into concentration: read the unknown's signal, drop to the fit, read across to x.</text>
+
+  <!-- axes -->
+  <line x1="70" y1="280" x2="565" y2="280" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="565,280 555,275 555,285" fill="#8a8a8a"/>
+  <text x="500" y="305" fill="#8a8a8a">concentration x (ppm)</text>
+  <line x1="70" y1="285" x2="70" y2="55" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,55 65,65 75,65" fill="#8a8a8a"/>
+  <text x="30" y="60" fill="#8a8a8a">signal y</text>
+
+  <!-- x ticks -->
+  <line x1="151.7" y1="280" x2="151.7" y2="285" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="147" y="299" fill="#8a8a8a">1</text>
+  <line x1="233.3" y1="280" x2="233.3" y2="285" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="229" y="299" fill="#8a8a8a">2</text>
+  <line x1="315" y1="280" x2="315" y2="285" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="311" y="299" fill="#8a8a8a">3</text>
+  <line x1="396.7" y1="280" x2="396.7" y2="285" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="392" y="299" fill="#8a8a8a">4</text>
+  <line x1="478.3" y1="280" x2="478.3" y2="285" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="474" y="299" fill="#8a8a8a">5</text>
+  <text x="52" y="285" fill="#8a8a8a">0</text>
+
+  <!-- best-fit line  y = 0.0998x + 0.001 -->
+  <line x1="70" y1="279.6" x2="560" y2="60.1" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="430" y="120" fill="#4a90d9">y = mx + b</text>
+
+  <!-- standard points (blue) -->
+  <circle cx="151.7" cy="242.6" r="4.5" fill="#4a90d9"/>
+  <circle cx="233.3" cy="207.4" r="4.5" fill="#4a90d9"/>
+  <circle cx="315"   cy="168.9" r="4.5" fill="#4a90d9"/>
+  <circle cx="396.7" cy="134.1" r="4.5" fill="#4a90d9"/>
+  <circle cx="478.3" cy="96.3"  r="4.5" fill="#4a90d9"/>
+  <text x="486" y="90" fill="#4a90d9">standards</text>
+
+  <!-- unknown mapping (coral): signal in on y-axis, across to line, down to x-axis -->
+  <line x1="70" y1="149.1" x2="361.3" y2="149.1" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <line x1="361.3" y1="149.1" x2="361.3" y2="280" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <circle cx="361.3" cy="149.1" r="5" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <text x="86" y="143" fill="#e0645c">y (unknown)</text>
+  <polygon points="361.3,280 356,270 366,270" fill="#e0645c"/>
+  <text x="330" y="273" fill="#e0645c">x?</text>
+
+  <!-- LOD region near intercept -->
+  <rect x="70" y="255" width="24" height="25" fill="#e0645c" opacity="0.22"/>
+  <line x1="94" y1="255" x2="94" y2="280" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="100" y="250" fill="#e0645c">LOD / LOQ</text>
+  <text x="100" y="266" fill="#8a8a8a" font-size="12">(signal &#8776; blank</text>
+  <text x="100" y="280" fill="#8a8a8a" font-size="12">+ 3s&#8202;/&#8202;10s)</text>
+</svg>

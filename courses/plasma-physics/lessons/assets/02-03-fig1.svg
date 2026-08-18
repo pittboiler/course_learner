@@ -1,0 +1,40 @@
+<svg viewBox="0 0 620 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">The velocity integral has a pole at v = ω/k (the phase velocity). Landau's contour slips</text>
+  <text x="40" y="42" fill="#8a8a8a" font-style="italic">below it — picking up a residue that makes ε complex, hence damping or growth.</text>
+
+  <!-- real (velocity) axis -->
+  <line x1="60" y1="200" x2="582" y2="200" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="582,200 572,195 572,205" fill="#8a8a8a"/>
+  <text x="556" y="222" fill="#8a8a8a">Re(v)</text>
+
+  <!-- imaginary axis -->
+  <line x1="180" y1="308" x2="180" y2="72" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="180,72 175,82 185,82" fill="#8a8a8a"/>
+  <text x="150" y="80" fill="#8a8a8a">Im(v)</text>
+  <text x="164" y="220" fill="#8a8a8a">0</text>
+
+  <!-- the pole at v = ω/k (blue: the resonant / phase velocity) -->
+  <line x1="373" y1="193" x2="387" y2="207" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="387" y1="193" x2="373" y2="207" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="366" y="182" fill="#4a90d9">v = ω/k</text>
+  <text x="360" y="164" fill="#8a8a8a" font-style="italic">phase velocity</text>
+
+  <!-- the Landau contour (coral): along real v, dipping BELOW the pole -->
+  <path d="M 70 200 L 360 200 Q 380 244 400 200 L 560 200"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+  <polygon points="560,200 550,195 550,205" fill="#e0645c"/>
+  <!-- direction tick mid-contour -->
+  <polygon points="230,200 220,195 220,205" fill="#e0645c"/>
+
+  <!-- soft shading of the semicircular detour -->
+  <path d="M 360 200 Q 380 244 400 200 Z" fill="#e0645c" opacity="0.15"/>
+
+  <!-- label for the contour -->
+  <text x="300" y="286" fill="#e0645c">Landau contour</text>
+  <line x1="360" y1="278" x2="380" y2="228" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- residue callout -->
+  <text x="418" y="238" fill="#e0645c">+ residue at v = ω/k</text>
+  <text x="418" y="256" fill="#8a8a8a" font-style="italic">⇒ Im ε ≠ 0 ⇒ damping (2.4)</text>
+</svg>

@@ -1,0 +1,46 @@
+<svg viewBox="0 0 640 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Two different dose&#8211;response laws: severity switches on past a threshold; probability rises from zero.</text>
+
+  <!-- ================= LEFT: deterministic ================= -->
+  <text x="60" y="52" fill="#4a90d9">Deterministic (tissue reaction)</text>
+
+  <!-- axes -->
+  <line x1="70" y1="270" x2="300" y2="270" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="300,270 290,265 290,275" fill="#8a8a8a"/>
+  <text x="250" y="288" fill="#8a8a8a">dose</text>
+  <line x1="70" y1="270" x2="70" y2="80" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,80 65,90 75,90" fill="#8a8a8a"/>
+  <text x="18" y="90" fill="#8a8a8a">severity</text>
+
+  <!-- flat below threshold, then rising S-curve -->
+  <path d="M 70 270 L 160 270 L 185 262 L 210 235 L 235 180 L 260 128 L 285 104"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- threshold marker -->
+  <line x1="160" y1="270" x2="160" y2="120" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="128" y="112" fill="#e0645c">threshold</text>
+  <polygon points="160,270 155,260 165,260" fill="#e0645c"/>
+
+  <text x="90" y="262" fill="#8a8a8a">no effect</text>
+
+  <!-- ================= RIGHT: stochastic ================= -->
+  <text x="370" y="52" fill="#e0645c">Stochastic (cancer, heritable)</text>
+
+  <!-- axes -->
+  <line x1="380" y1="270" x2="610" y2="270" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="610,270 600,265 600,275" fill="#8a8a8a"/>
+  <text x="560" y="288" fill="#8a8a8a">dose</text>
+  <line x1="380" y1="270" x2="380" y2="80" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="380,80 375,90 385,90" fill="#8a8a8a"/>
+  <text x="332" y="90" fill="#8a8a8a">probability</text>
+
+  <!-- LNT: straight line through the origin -->
+  <line x1="380" y1="270" x2="600" y2="100" stroke="#e0645c" stroke-width="3"/>
+  <text x="500" y="150" fill="#e0645c">LNT</text>
+
+  <!-- low-dose region highlight: no threshold -->
+  <line x1="420" y1="270" x2="420" y2="240" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="392" y="230" fill="#8a8a8a">no threshold</text>
+  <text x="392" y="245" fill="#8a8a8a">&#8722; slope = risk/Sv</text>
+</svg>

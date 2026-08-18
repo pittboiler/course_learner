@@ -1,0 +1,44 @@
+<svg viewBox="0 0 620 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">A small positive step: prompt neutrons snap the power up instantly, then delayed neutrons ramp it slowly.</text>
+
+  <!-- axes -->
+  <line x1="70" y1="270" x2="590" y2="270" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="590,270 580,265 580,275" fill="#8a8a8a"/>
+  <text x="576" y="290" fill="#8a8a8a">t</text>
+  <line x1="70" y1="285" x2="70" y2="60" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,60 65,70 75,70" fill="#8a8a8a"/>
+  <text x="34" y="64" fill="#8a8a8a">P/P&#8320;</text>
+
+  <!-- baseline P = 1 gridline -->
+  <line x1="70" y1="180" x2="560" y2="180" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="48" y="185" fill="#8a8a8a">1</text>
+  <!-- jump-top gridline P = 1.30 -->
+  <line x1="180" y1="153" x2="560" y2="153" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 5"/>
+
+  <!-- t = 0 marker -->
+  <line x1="180" y1="270" x2="180" y2="276" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="172" y="292" fill="#8a8a8a">0</text>
+
+  <!-- pre-step steady power (blue, flat at P = 1) -->
+  <path d="M 70 180 L 180 180" fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- the prompt jump: instantaneous rise at t = 0 (coral) -->
+  <line x1="180" y1="180" x2="180" y2="153" stroke="#e0645c" stroke-width="3"/>
+  <circle cx="180" cy="153" r="3.5" fill="#e0645c"/>
+
+  <!-- jump-factor bracket -->
+  <line x1="150" y1="180" x2="150" y2="153" stroke="#e0645c" stroke-width="1.2"/>
+  <polygon points="150,180 146,171 154,171" fill="#e0645c"/>
+  <polygon points="150,153 146,162 154,162" fill="#e0645c"/>
+  <text x="86" y="146" fill="#e0645c">&#215; &#946;/(&#946;&#8722;&#961;)</text>
+
+  <!-- slow delayed ramp (blue exponential) -->
+  <path d="M 180 153 L 260 141.9 L 340 129.7 L 420 116.4 L 500 101.9 L 560 90"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- labels -->
+  <text x="192" y="168" fill="#e0645c">prompt jump</text>
+  <text x="372" y="112" fill="#4a90d9">delayed ramp &#8776; e^(t/T)</text>
+  <text x="86" y="200" fill="#4a90d9">steady</text>
+</svg>

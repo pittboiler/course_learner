@@ -1,0 +1,46 @@
+<svg viewBox="0 0 620 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <!-- caption -->
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">An IR spectrum: bands dip DOWN where bonds absorb; wavenumber runs high &#8594; low. O&#8211;H and C=O (coral) do the heavy lifting.</text>
+
+  <!-- axes -->
+  <line x1="60" y1="60" x2="60" y2="248" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="60" y1="248" x2="588" y2="248" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="588,248 578,243 578,253" fill="#8a8a8a"/>
+
+  <!-- y label -->
+  <text x="18" y="120" fill="#8a8a8a" transform="rotate(-90 18 120)">% Transmittance</text>
+  <text x="46" y="76" fill="#8a8a8a" text-anchor="end">100</text>
+  <text x="46" y="244" fill="#8a8a8a" text-anchor="end">0</text>
+
+  <!-- x ticks: wavenumber decreasing left to right -->
+  <text x="60"  y="266" fill="#8a8a8a" text-anchor="middle">4000</text>
+  <text x="209" y="266" fill="#8a8a8a" text-anchor="middle">3000</text>
+  <text x="357" y="266" fill="#8a8a8a" text-anchor="middle">2000</text>
+  <text x="506" y="266" fill="#8a8a8a" text-anchor="middle">1000</text>
+  <text x="300" y="292" fill="#8a8a8a" text-anchor="middle">wavenumber (cm&#8315;&#185;)</text>
+
+  <!-- blue trace: baseline near top, dips at each absorption -->
+  <path d="M 60 78 L 100 78
+           L 110 86 L 120 108 L 135 140 L 149 150 L 165 140 L 178 112 L 190 88 L 200 82
+           L 215 82 L 219 86 L 223 128 L 227 86 L 235 82
+           L 330 82 L 336 92 L 342 108 L 348 92 L 354 82
+           L 385 82 L 392 88 L 400 206 L 408 88 L 415 82
+           L 428 82 L 435 96 L 445 122 L 452 102 L 460 138 L 470 112 L 480 152 L 490 116 L 500 142 L 512 106 L 522 132 L 535 102 L 548 120 L 560 92 L 575 80 L 588 78"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <!-- coral overlay: O-H broad band -->
+  <path d="M 110 86 L 120 108 L 135 140 L 149 150 L 165 140 L 178 112 L 190 88"
+        fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <!-- coral overlay: C=O band -->
+  <path d="M 392 88 L 400 206 L 408 88"
+        fill="none" stroke="#e0645c" stroke-width="2.5"/>
+
+  <!-- labels -->
+  <text x="149" y="132" fill="#e0645c" text-anchor="middle">O&#8211;H</text>
+  <text x="149" y="146" fill="#8a8a8a" text-anchor="middle" font-size="11">broad, ~3400</text>
+  <text x="223" y="118" fill="#8a8a8a" text-anchor="middle" font-size="11">C&#8211;H ~2900</text>
+  <text x="342" y="126" fill="#8a8a8a" text-anchor="middle" font-size="11">C&#8801;N ~2200</text>
+  <text x="400" y="196" fill="#e0645c" text-anchor="middle" font-weight="bold">C=O</text>
+  <text x="400" y="210" fill="#8a8a8a" text-anchor="middle" font-size="11">strong, ~1715</text>
+  <text x="500" y="176" fill="#8a8a8a" text-anchor="middle" font-size="11">fingerprint (&lt;1500)</text>
+</svg>

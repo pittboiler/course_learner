@@ -1,0 +1,53 @@
+<svg viewBox="0 0 640 460" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <!-- eutectoid region of the Fe-C diagram, schematic -->
+  <!-- axes -->
+  <line x1="90" y1="40" x2="90" y2="380" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="90" y1="380" x2="565" y2="380" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- y ticks: 600, 727, 910, 1000 C -->
+  <line x1="86" y1="272" x2="90" y2="272" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="86" y1="116" x2="90" y2="116" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="82" y="384" font-size="11" fill="#8a8a8a" text-anchor="end">600</text>
+  <text x="82" y="276" font-size="11" fill="#8a8a8a" text-anchor="end">727</text>
+  <text x="82" y="120" font-size="11" fill="#8a8a8a" text-anchor="end">910</text>
+  <text x="82" y="44" font-size="11" fill="#8a8a8a" text-anchor="end">1000</text>
+  <text x="30" y="215" font-size="12" fill="#8a8a8a" transform="rotate(-90 30 215)" text-anchor="middle">Temperature (&#176;C)</text>
+
+  <!-- x ticks: 0, 0.40, 0.76 wt% C -->
+  <line x1="247" y1="380" x2="247" y2="384" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="388" y1="380" x2="388" y2="384" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="90" y="398" font-size="11" fill="#8a8a8a" text-anchor="middle">0</text>
+  <text x="247" y="398" font-size="11" fill="#8a8a8a" text-anchor="middle">0.40</text>
+  <text x="388" y="398" font-size="11" fill="#8a8a8a" text-anchor="middle">0.76</text>
+  <text x="327" y="418" font-size="12" fill="#8a8a8a" text-anchor="middle">Carbon content (wt% C)</text>
+
+  <!-- A3 boundary: gamma / (alpha+gamma) -->
+  <path d="M 90 116 Q 240 205 388 272" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <!-- Acm boundary: gamma / (gamma+Fe3C) -->
+  <path d="M 388 272 Q 470 205 560 152" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <!-- ferrite solvus: (alpha) / (alpha+Fe3C), thin sliver -->
+  <path d="M 99 272 Q 92 330 90 380" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <!-- eutectoid isotherm at 727 C -->
+  <line x1="99" y1="272" x2="560" y2="272" stroke="#4a90d9" stroke-width="2"/>
+
+  <!-- eutectoid point -->
+  <circle cx="388" cy="272" r="4.5" fill="#e0645c"/>
+  <text x="398" y="262" font-size="11" fill="#e0645c">eutectoid: 0.76% C, 727&#176;C</text>
+
+  <!-- cooling path at 0.40% C -->
+  <line x1="247" y1="70" x2="247" y2="380" stroke="#e0645c" stroke-width="1.8" stroke-dasharray="5 4"/>
+  <text x="247" y="62" font-size="11" fill="#e0645c" text-anchor="middle">0.40% C cooling path</text>
+  <!-- crossing A3: proeutectoid ferrite begins -->
+  <circle cx="247" cy="201" r="3.5" fill="#e0645c"/>
+  <text x="256" y="188" font-size="10" fill="#e0645c">~810&#176;C: proeutectoid &#945; begins</text>
+  <!-- crossing eutectoid: remaining gamma -> pearlite -->
+  <circle cx="247" cy="272" r="3.5" fill="#e0645c"/>
+  <text x="146" y="248" font-size="10" fill="#e0645c" text-anchor="middle">727&#176;C: &#947; &#8594; pearlite</text>
+
+  <!-- field labels -->
+  <text x="300" y="95" font-size="13" fill="#8a8a8a" text-anchor="middle">&#947; (austenite, FCC)</text>
+  <text x="185" y="245" font-size="12" fill="#8a8a8a" text-anchor="middle">&#945; + &#947;</text>
+  <text x="475" y="235" font-size="12" fill="#8a8a8a" text-anchor="middle">&#947; + Fe&#8323;C</text>
+  <text x="320" y="335" font-size="12" fill="#8a8a8a" text-anchor="middle">&#945; + Fe&#8323;C  (pearlite region)</text>
+  <text x="112" y="330" font-size="11" fill="#8a8a8a">&#945;</text>
+</svg>

@@ -1,0 +1,88 @@
+<svg viewBox="0 0 640 430" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <!-- caption -->
+  <text x="20" y="20" fill="#8a8a8a" font-style="italic">An ion hits the wall and knocks an atom loose (sputtering); that atom drifts into the plasma as a</text>
+  <text x="20" y="36" fill="#8a8a8a" font-style="italic">radiating high-Z impurity, or lands back nearby (redeposition, trapping tritium).</text>
+
+  <!-- plasma-side label -->
+  <text x="30" y="64" fill="#4a90d9">plasma side (100 million K)</text>
+
+  <!-- ===== incident flux (blue arrows) ===== -->
+  <line x1="110" y1="82" x2="172" y2="212" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="172,212 163,203 174,201" fill="#4a90d9"/>
+  <line x1="150" y1="82" x2="212" y2="212" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="212,212 203,203 214,201" fill="#4a90d9"/>
+  <line x1="205" y1="82" x2="255" y2="212" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="255,212 246,204 257,201" fill="#4a90d9"/>
+  <text x="70" y="100" fill="#4a90d9">incident ions (D, T, He) + heat + 14 MeV neutrons</text>
+
+  <!-- ===== the wall slab (grey) ===== -->
+  <rect x="40" y="216" width="560" height="70" fill="#8a8a8a" opacity="0.13" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="50" y="278" fill="#8a8a8a">solid wall (metal lattice)</text>
+  <!-- lattice dots -->
+  <circle cx="90" cy="240" r="4" fill="#8a8a8a"/>
+  <circle cx="130" cy="240" r="4" fill="#8a8a8a"/>
+  <circle cx="170" cy="240" r="4" fill="#8a8a8a"/>
+  <circle cx="210" cy="240" r="4" fill="#8a8a8a"/>
+  <circle cx="290" cy="240" r="4" fill="#8a8a8a"/>
+  <circle cx="330" cy="240" r="4" fill="#8a8a8a"/>
+  <circle cx="370" cy="240" r="4" fill="#8a8a8a"/>
+  <circle cx="410" cy="240" r="4" fill="#8a8a8a"/>
+  <circle cx="470" cy="240" r="4" fill="#8a8a8a"/>
+  <circle cx="510" cy="240" r="4" fill="#8a8a8a"/>
+  <circle cx="560" cy="240" r="4" fill="#8a8a8a"/>
+  <circle cx="110" cy="264" r="4" fill="#8a8a8a"/>
+  <circle cx="150" cy="264" r="4" fill="#8a8a8a"/>
+  <circle cx="190" cy="264" r="4" fill="#8a8a8a"/>
+  <circle cx="310" cy="264" r="4" fill="#8a8a8a"/>
+  <circle cx="350" cy="264" r="4" fill="#8a8a8a"/>
+  <circle cx="390" cy="264" r="4" fill="#8a8a8a"/>
+  <circle cx="490" cy="264" r="4" fill="#8a8a8a"/>
+  <circle cx="530" cy="264" r="4" fill="#8a8a8a"/>
+
+  <!-- ===== sputtered atom leaving the surface (coral) ===== -->
+  <line x1="255" y1="214" x2="315" y2="130" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="315,130 308,141 319,141" fill="#e0645c"/>
+  <circle cx="315" cy="122" r="7" fill="#e0645c"/>
+  <text x="330" y="118" fill="#e0645c">sputtered wall atom</text>
+
+  <!-- impurity radiating in core -->
+  <line x1="315" y1="115" x2="345" y2="76" stroke="#e0645c" stroke-width="2" stroke-dasharray="4 3"/>
+  <circle cx="347" cy="70" r="7" fill="#e0645c"/>
+  <line x1="347" y1="61" x2="347" y2="52" stroke="#e0645c" stroke-width="1.5"/>
+  <line x1="356" y1="66" x2="364" y2="61" stroke="#e0645c" stroke-width="1.5"/>
+  <line x1="338" y1="66" x2="330" y2="61" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="362" y="74" fill="#e0645c">high-Z impurity radiates in core</text>
+
+  <!-- ===== redeposition (coral curved arrow) ===== -->
+  <path d="M 300 214 Q 380 150 460 214" fill="none" stroke="#e0645c" stroke-width="2" stroke-dasharray="5 4"/>
+  <polygon points="460,214 451,206 461,202" fill="#e0645c"/>
+  <circle cx="380" cy="172" r="6" fill="#e0645c"/>
+  <text x="392" y="160" fill="#e0645c">redeposition (+ trapped tritium)</text>
+
+  <!-- ===== material comparison tiles ===== -->
+  <text x="20" y="312" fill="#8a8a8a" font-style="italic">Which material where:</text>
+
+  <!-- Tungsten (chosen: coral) -->
+  <rect x="20" y="322" width="195" height="92" rx="6" fill="#e0645c" opacity="0.10" stroke="#e0645c" stroke-width="2"/>
+  <text x="34" y="342" fill="#e0645c" font-weight="bold">Tungsten W (Z = 74)</text>
+  <text x="34" y="360" fill="#8a8a8a">melt 3695 K, low sputter yield,</text>
+  <text x="34" y="376" fill="#8a8a8a">low tritium retention</text>
+  <text x="34" y="392" fill="#8a8a8a">high-Z: keep &#8804; 10&#8315;&#8308; in core</text>
+  <text x="34" y="408" fill="#e0645c" font-weight="bold">&#8594; divertor &#38; ITER wall</text>
+
+  <!-- Carbon (abandoned: grey) -->
+  <rect x="223" y="322" width="195" height="92" rx="6" fill="#8a8a8a" opacity="0.10" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="237" y="342" fill="#8a8a8a" font-weight="bold">Carbon C (Z = 6)</text>
+  <text x="237" y="360" fill="#8a8a8a">no melt (sublimes), forgiving,</text>
+  <text x="237" y="376" fill="#8a8a8a">great thermal shock &#8212; but</text>
+  <text x="237" y="392" fill="#8a8a8a">erodes &#38; traps tritium badly</text>
+  <text x="237" y="408" fill="#8a8a8a" font-weight="bold">&#8594; abandoned (T inventory)</text>
+
+  <!-- Beryllium (blue) -->
+  <rect x="426" y="322" width="195" height="92" rx="6" fill="#4a90d9" opacity="0.10" stroke="#4a90d9" stroke-width="2"/>
+  <text x="440" y="342" fill="#4a90d9" font-weight="bold">Beryllium Be (Z = 4)</text>
+  <text x="440" y="360" fill="#8a8a8a">low-Z (cheap to radiate away),</text>
+  <text x="440" y="376" fill="#8a8a8a">oxygen getter &#8212; but soft,</text>
+  <text x="440" y="392" fill="#8a8a8a">melts low (1560 K), toxic</text>
+  <text x="440" y="408" fill="#4a90d9" font-weight="bold">&#8594; JET main wall</text>
+</svg>

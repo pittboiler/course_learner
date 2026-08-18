@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="640" height="400" fill="#ffffff"/>
+
+<!-- title -->
+<text x="320" y="28" font-size="16" fill="#111111" text-anchor="middle" font-weight="bold">A comb transforms to a comb</text>
+<text x="320" y="46" font-size="12" fill="#555555" text-anchor="middle">spacing in one domain is the reciprocal of spacing in the other</text>
+
+<!-- ===== TIME-DOMAIN COMB (top) ===== -->
+<text x="40" y="80" font-size="13" fill="#2a7ae2" font-weight="bold">time domain</text>
+<line x1="30" y1="150" x2="612" y2="150" stroke="#111111" stroke-width="1"/>
+<text x="606" y="168" font-size="12" fill="#111111">x</text>
+
+<!-- spikes at x = 40,110,180,250,320,390,460,530,600 (spacing T = 70px), weight 1 -->
+<line x1="40"  y1="150" x2="40"  y2="72" stroke="#2a7ae2" stroke-width="2"/><polygon points="40,66 35,78 45,78" fill="#2a7ae2"/>
+<line x1="110" y1="150" x2="110" y2="72" stroke="#2a7ae2" stroke-width="2"/><polygon points="110,66 105,78 115,78" fill="#2a7ae2"/>
+<line x1="180" y1="150" x2="180" y2="72" stroke="#2a7ae2" stroke-width="2"/><polygon points="180,66 175,78 185,78" fill="#2a7ae2"/>
+<line x1="250" y1="150" x2="250" y2="72" stroke="#2a7ae2" stroke-width="2"/><polygon points="250,66 245,78 255,78" fill="#2a7ae2"/>
+<line x1="320" y1="150" x2="320" y2="72" stroke="#2a7ae2" stroke-width="2"/><polygon points="320,66 315,78 325,78" fill="#2a7ae2"/>
+<line x1="390" y1="150" x2="390" y2="72" stroke="#2a7ae2" stroke-width="2"/><polygon points="390,66 385,78 395,78" fill="#2a7ae2"/>
+<line x1="460" y1="150" x2="460" y2="72" stroke="#2a7ae2" stroke-width="2"/><polygon points="460,66 455,78 465,78" fill="#2a7ae2"/>
+<line x1="530" y1="150" x2="530" y2="72" stroke="#2a7ae2" stroke-width="2"/><polygon points="530,66 525,78 535,78" fill="#2a7ae2"/>
+<line x1="600" y1="150" x2="600" y2="72" stroke="#2a7ae2" stroke-width="2"/><polygon points="600,66 595,78 605,78" fill="#2a7ae2"/>
+
+<!-- spacing bracket T between spikes at 250 and 320 -->
+<line x1="250" y1="132" x2="320" y2="132" stroke="#111111" stroke-width="1"/>
+<line x1="250" y1="127" x2="250" y2="137" stroke="#111111" stroke-width="1"/>
+<line x1="320" y1="127" x2="320" y2="137" stroke="#111111" stroke-width="1"/>
+<text x="285" y="126" font-size="13" fill="#111111" text-anchor="middle">T</text>
+<text x="330" y="94" font-size="12" fill="#555555">each spike: weight 1</text>
+
+<!-- ===== transform arrow ===== -->
+<line x1="320" y1="180" x2="320" y2="240" stroke="#111111" stroke-width="1.5"/>
+<polygon points="320,246 314,234 326,234" fill="#111111"/>
+<text x="332" y="216" font-size="13" fill="#111111" font-style="italic">Fourier transform</text>
+
+<!-- ===== FREQUENCY-DOMAIN COMB (bottom) ===== -->
+<text x="40" y="290" font-size="13" fill="#d6431f" font-weight="bold">frequency domain</text>
+<line x1="30" y1="350" x2="612" y2="350" stroke="#111111" stroke-width="1"/>
+<text x="604" y="368" font-size="12" fill="#111111">ξ</text>
+
+<!-- spikes at x = 100,210,320,430,540 (spacing 1/T = 110px), weight 1/T (drawn shorter) -->
+<line x1="100" y1="350" x2="100" y2="296" stroke="#d6431f" stroke-width="2"/><polygon points="100,290 95,302 105,302" fill="#d6431f"/>
+<line x1="210" y1="350" x2="210" y2="296" stroke="#d6431f" stroke-width="2"/><polygon points="210,290 205,302 215,302" fill="#d6431f"/>
+<line x1="320" y1="350" x2="320" y2="296" stroke="#d6431f" stroke-width="2"/><polygon points="320,290 315,302 325,302" fill="#d6431f"/>
+<line x1="430" y1="350" x2="430" y2="296" stroke="#d6431f" stroke-width="2"/><polygon points="430,290 425,302 435,302" fill="#d6431f"/>
+<line x1="540" y1="350" x2="540" y2="296" stroke="#d6431f" stroke-width="2"/><polygon points="540,290 535,302 545,302" fill="#d6431f"/>
+
+<!-- spacing bracket 1/T between spikes at 320 and 430 -->
+<line x1="320" y1="332" x2="430" y2="332" stroke="#111111" stroke-width="1"/>
+<line x1="320" y1="327" x2="320" y2="337" stroke="#111111" stroke-width="1"/>
+<line x1="430" y1="327" x2="430" y2="337" stroke="#111111" stroke-width="1"/>
+<text x="375" y="326" font-size="13" fill="#111111" text-anchor="middle">1/T</text>
+<text x="452" y="312" font-size="12" fill="#555555">each spike: weight 1/T</text>
+</svg>

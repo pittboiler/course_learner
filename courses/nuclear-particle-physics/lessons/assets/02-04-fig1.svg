@@ -1,0 +1,46 @@
+<svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">A γ cascade: an excited nucleus sheds energy one photon at a time; each jump's multipole (E1/M1/E2) sets its speed.</text>
+
+  <!-- energy axis -->
+  <line x1="90" y1="292" x2="90" y2="56" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="90,56 85,66 95,66" fill="#8a8a8a"/>
+  <text x="72" y="50" fill="#8a8a8a">E (MeV)</text>
+
+  <!-- energy-level lines (grey) -->
+  <line x1="118" y1="70"  x2="470" y2="70"  stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="118" y1="150" x2="470" y2="150" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="118" y1="215" x2="470" y2="215" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="118" y1="280" x2="470" y2="280" stroke="#8a8a8a" stroke-width="2.5"/>
+
+  <!-- energy values (left of axis) -->
+  <text x="44" y="74"  fill="#8a8a8a">2.40</text>
+  <text x="44" y="154" fill="#8a8a8a">1.50</text>
+  <text x="44" y="219" fill="#8a8a8a">0.80</text>
+  <text x="58" y="284" fill="#8a8a8a">0</text>
+
+  <!-- spin-parity labels (right of levels) -->
+  <text x="478" y="75"  fill="#8a8a8a">3⁻</text>
+  <text x="478" y="155" fill="#8a8a8a">2⁺</text>
+  <text x="478" y="220" fill="#8a8a8a">2⁺</text>
+  <text x="478" y="285" fill="#8a8a8a">0⁺  (ground)</text>
+
+  <!-- gamma transition arrows (coral), staircase -->
+  <!-- E1: 3- -> 2+ -->
+  <line x1="200" y1="72" x2="200" y2="146" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="200,148 195,137 205,137" fill="#e0645c"/>
+  <text x="150" y="108" fill="#e0645c">E1</text>
+  <text x="128" y="125" fill="#e0645c">0.90 MeV</text>
+
+  <!-- M1: 2+ -> 2+ -->
+  <line x1="300" y1="152" x2="300" y2="211" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="300,213 295,202 305,202" fill="#e0645c"/>
+  <text x="250" y="178" fill="#e0645c">M1</text>
+  <text x="228" y="195" fill="#e0645c">0.70 MeV</text>
+
+  <!-- E2: 2+ -> 0+ -->
+  <line x1="400" y1="217" x2="400" y2="276" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="400,278 395,267 405,267" fill="#e0645c"/>
+  <text x="350" y="243" fill="#e0645c">E2</text>
+  <text x="328" y="260" fill="#e0645c">0.80 MeV</text>
+</svg>

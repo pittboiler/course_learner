@@ -1,0 +1,52 @@
+<svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">At low Re motion has no memory: a reciprocal stroke returns you home (Δx = 0); only a non-reciprocal stroke gets you anywhere.</text>
+
+  <!-- divider -->
+  <line x1="320" y1="52" x2="320" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 5"/>
+
+  <!-- ===== LEFT: reciprocal scallop, nets zero (coral) ===== -->
+  <text x="60" y="74" fill="#8a8a8a">reciprocal: open ⇄ close</text>
+
+  <!-- reference line marking start position -->
+  <line x1="120" y1="90" x2="120" y2="270" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- hinge pivot -->
+  <circle cx="120" cy="180" r="4" fill="#8a8a8a"/>
+
+  <!-- open shell (solid coral) -->
+  <path d="M 120 180 Q 200 120 250 132" fill="none" stroke="#e0645c" stroke-width="3"/>
+  <path d="M 120 180 Q 200 240 250 228" fill="none" stroke="#e0645c" stroke-width="3"/>
+
+  <!-- closed shell (dashed coral) -->
+  <path d="M 120 180 Q 210 172 258 176" fill="none" stroke="#e0645c" stroke-width="2" stroke-dasharray="4 4"/>
+  <path d="M 120 180 Q 210 188 258 184" fill="none" stroke="#e0645c" stroke-width="2" stroke-dasharray="4 4"/>
+
+  <!-- open/close cycle arrows -->
+  <path d="M 248 138 A 60 44 0 0 1 248 174" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="248,174 244,165 252,166" fill="#8a8a8a"/>
+  <path d="M 252 222 A 60 44 0 0 0 252 186" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="252,186 248,194 256,195" fill="#8a8a8a"/>
+
+  <!-- result label -->
+  <text x="86" y="296" fill="#e0645c">start = end,  Δx = 0</text>
+
+  <!-- ===== RIGHT: rotating helical flagellum, swims (blue) ===== -->
+  <text x="380" y="74" fill="#8a8a8a">non-reciprocal: rotating helix</text>
+
+  <!-- cell body -->
+  <ellipse cx="440" cy="180" rx="26" ry="17" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+
+  <!-- rotation arrow on the body -->
+  <path d="M 452 165 A 15 15 0 1 1 428 168" fill="none" stroke="#4a90d9" stroke-width="1.5"/>
+  <polygon points="428,168 425,159 434,162" fill="#4a90d9"/>
+
+  <!-- helical flagellum (wavy, trailing right) -->
+  <path d="M 466 180 Q 481 152 496 180 Q 511 208 526 180 Q 541 152 556 180 Q 571 208 586 180 Q 601 152 612 180"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- net displacement arrow (swims left) -->
+  <line x1="414" y1="230" x2="356" y2="230" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="356,230 366,225 366,235" fill="#4a90d9"/>
+  <text x="360" y="296" fill="#4a90d9">net displacement ≠ 0</text>
+</svg>

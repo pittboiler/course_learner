@@ -1,0 +1,55 @@
+<svg viewBox="0 0 660 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">The Hall bar: current J_x plus field B_z out of the page deflects carriers sideways until E_y balances the push.</text>
+
+  <!-- ===== the slab ===== -->
+  <rect x="150" y="110" width="360" height="150" fill="#4a90d9" opacity="0.15"/>
+  <rect x="150" y="110" width="360" height="150" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+
+  <!-- B out of page: circles with center dots -->
+  <text x="150" y="98" fill="#8a8a8a" font-style="italic">B_z out of page (&#8857;)</text>
+  <g stroke="#8a8a8a" stroke-width="1.5" fill="none">
+    <circle cx="215" cy="150" r="9"/><circle cx="330" cy="150" r="9"/><circle cx="445" cy="150" r="9"/>
+    <circle cx="215" cy="220" r="9"/><circle cx="330" cy="220" r="9"/><circle cx="445" cy="220" r="9"/>
+  </g>
+  <g fill="#8a8a8a">
+    <circle cx="215" cy="150" r="2"/><circle cx="330" cy="150" r="2"/><circle cx="445" cy="150" r="2"/>
+    <circle cx="215" cy="220" r="2"/><circle cx="330" cy="220" r="2"/><circle cx="445" cy="220" r="2"/>
+  </g>
+
+  <!-- current J_x (blue) entering left, through, exiting right -->
+  <line x1="70" y1="185" x2="150" y2="185" stroke="#4a90d9" stroke-width="3"/>
+  <polygon points="150,185 140,180 140,190" fill="#4a90d9"/>
+  <line x1="510" y1="185" x2="590" y2="185" stroke="#4a90d9" stroke-width="3"/>
+  <polygon points="590,185 580,180 580,190" fill="#4a90d9"/>
+  <text x="90" y="176" fill="#4a90d9">J_x</text>
+  <text x="545" y="176" fill="#4a90d9">J_x</text>
+
+  <!-- deflection of a carrier toward the top edge (coral, dashed) -->
+  <path d="M 260 185 Q 300 150 300 122" fill="none" stroke="#e0645c" stroke-width="2" stroke-dasharray="5 4"/>
+  <polygon points="300,122 295,132 305,132" fill="#e0645c"/>
+  <text x="308" y="138" fill="#e0645c" font-style="italic">deflected</text>
+
+  <!-- accumulated charge: illustrated case = holes (+ top, - bottom) -->
+  <text x="180" y="128" fill="#e0645c" letter-spacing="10">+ + + + + +</text>
+  <text x="180" y="254" fill="#e0645c" letter-spacing="10">&#8722; &#8722; &#8722; &#8722; &#8722; &#8722;</text>
+
+  <!-- transverse Hall field E_y (coral) -->
+  <line x1="470" y1="128" x2="470" y2="244" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="470,244 465,234 475,234" fill="#e0645c"/>
+  <text x="478" y="190" fill="#e0645c">E_y</text>
+
+  <!-- Hall voltage contacts + voltmeter -->
+  <rect x="322" y="106" width="16" height="8" fill="#e0645c"/>
+  <rect x="322" y="256" width="16" height="8" fill="#e0645c"/>
+  <path d="M 330 106 L 330 80 L 610 80 L 610 168" fill="none" stroke="#e0645c" stroke-width="1.5"/>
+  <path d="M 330 264 L 330 290 L 610 290 L 610 202" fill="none" stroke="#e0645c" stroke-width="1.5"/>
+  <circle cx="610" cy="185" r="17" fill="none" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="604" y="190" fill="#e0645c">V</text>
+  <text x="588" y="150" fill="#e0645c">V_H</text>
+
+  <!-- annotations -->
+  <text x="30" y="330" fill="#8a8a8a">R_H = E_y /(J_x B_z) = 1 / nq</text>
+  <text x="30" y="352" fill="#e0645c">sign of V_H  &#8594;  carrier charge sign  (&#8722; electrons,  + holes)</text>
+  <text x="30" y="374" fill="#8a8a8a">|R_H|  &#8594;  carrier density  n = 1 / (|R_H| e)</text>
+</svg>

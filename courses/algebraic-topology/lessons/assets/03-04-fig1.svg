@@ -1,0 +1,92 @@
+<svg viewBox="0 0 700 470" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="700" height="470" fill="#ffffff"/>
+
+  <defs>
+    <marker id="ah" markerWidth="10" markerHeight="10" refX="7.5" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#111111"/>
+    </marker>
+    <marker id="ahR" markerWidth="11" markerHeight="11" refX="8" refY="5.5" orient="auto">
+      <path d="M0,0 L11,5.5 L0,11 Z" fill="#dc2626"/>
+    </marker>
+    <marker id="ahB" markerWidth="11" markerHeight="11" refX="8" refY="5.5" orient="auto">
+      <path d="M0,0 L11,5.5 L0,11 Z" fill="#2563eb"/>
+    </marker>
+  </defs>
+
+  <!-- ============ LEFT: the disk D^2 with antipodal boundary identification ============ -->
+  <text x="165" y="30" fill="#111111" font-size="16" font-style="italic" text-anchor="middle">D²  with  x ~ −x  on the boundary</text>
+
+  <circle cx="165" cy="180" r="105" fill="#eef2ff" stroke="#111111" stroke-width="1.8"/>
+
+  <!-- the single 0-cell v: top and bottom boundary points are identified to it -->
+  <circle cx="165" cy="75"  r="5" fill="#111111"/>
+  <circle cx="165" cy="285" r="5" fill="#111111"/>
+  <text x="150" y="66"  fill="#111111" font-size="15" font-weight="bold">v</text>
+  <text x="150" y="305" fill="#111111" font-size="15" font-weight="bold">v</text>
+
+  <!-- right boundary arc = a, oriented downward -->
+  <path d="M 165,75 A 105,105 0 0 1 165,285" fill="none" stroke="#dc2626" stroke-width="3"/>
+  <polygon points="266,172 278,180 266,188" fill="#dc2626"/>
+  <text x="278" y="185" fill="#dc2626" font-size="16" font-weight="bold">a</text>
+
+  <!-- left boundary arc = a, ALSO oriented downward (antipodal map sends it onto the right arc, same sense) -->
+  <path d="M 165,75 A 105,105 0 0 0 165,285" fill="none" stroke="#dc2626" stroke-width="3"/>
+  <polygon points="52,172 64,180 52,188" fill="#dc2626"/>
+  <text x="36" y="185" fill="#dc2626" font-size="16" font-weight="bold">a</text>
+
+  <text x="165" y="352" fill="#111111" font-size="13" text-anchor="middle">both halves are the SAME edge a,</text>
+  <text x="165" y="371" fill="#111111" font-size="13" text-anchor="middle">traversed the SAME way → boundary word  a·a = a²</text>
+  <text x="165" y="398" fill="#dc2626" font-size="14" font-weight="bold" text-anchor="middle">attaching map  φ: S¹ → a  has degree 2</text>
+
+  <!-- ============ RIGHT-TOP: the CW cells ============ -->
+  <line x1="360" y1="20" x2="360" y2="450" stroke="#dddddd" stroke-width="1"/>
+  <text x="530" y="30" fill="#111111" font-size="16" font-weight="bold" text-anchor="middle">one cell in each dimension</text>
+
+  <!-- 0-cell -->
+  <circle cx="430" cy="80" r="5" fill="#111111"/>
+  <text x="430" y="112" fill="#111111" font-size="13" text-anchor="middle">v : 0-cell</text>
+
+  <!-- 1-cell as a loop -->
+  <ellipse cx="530" cy="80" rx="30" ry="24" fill="none" stroke="#2563eb" stroke-width="2.6"/>
+  <circle cx="530" cy="104" r="4" fill="#111111"/>
+  <polygon points="556,74 566,80 556,86" fill="#2563eb"/>
+  <text x="530" y="132" fill="#2563eb" font-size="13" text-anchor="middle">a : 1-cell (a loop at v)</text>
+
+  <!-- 2-cell -->
+  <circle cx="640" cy="80" r="26" fill="#fde2e4" stroke="#dc2626" stroke-width="2.4"/>
+  <text x="640" y="85" fill="#dc2626" font-size="16" text-anchor="middle">f</text>
+  <text x="640" y="132" fill="#dc2626" font-size="13" text-anchor="middle">2-cell, glued by a²</text>
+
+  <!-- ============ RIGHT-BOTTOM: the cellular chain complex ============ -->
+  <text x="530" y="240" fill="#111111" font-size="16" font-weight="bold" text-anchor="middle">cellular chain complex of  RP²</text>
+
+  <text x="400" y="300" fill="#111111" font-size="20">0</text>
+  <line x1="418" y1="294" x2="452" y2="294" stroke="#111111" stroke-width="1.6" marker-end="url(#ah)"/>
+
+  <text x="460" y="300" fill="#111111" font-size="20">ℤ</text>
+  <text x="470" y="322" fill="#111111" font-size="12">⟨f⟩</text>
+  <line x1="480" y1="294" x2="540" y2="294" stroke="#dc2626" stroke-width="2" marker-end="url(#ahR)"/>
+  <text x="510" y="284" fill="#dc2626" font-size="15" font-weight="bold" text-anchor="middle">×2</text>
+  <text x="500" y="322" fill="#555555" font-size="11" text-anchor="middle">d₂</text>
+
+  <text x="548" y="300" fill="#111111" font-size="20">ℤ</text>
+  <text x="558" y="322" fill="#111111" font-size="12">⟨a⟩</text>
+  <line x1="568" y1="294" x2="628" y2="294" stroke="#111111" stroke-width="1.8" marker-end="url(#ah)"/>
+  <text x="598" y="284" fill="#111111" font-size="15" font-weight="bold" text-anchor="middle">0</text>
+  <text x="588" y="322" fill="#555555" font-size="11" text-anchor="middle">d₁</text>
+
+  <text x="636" y="300" fill="#111111" font-size="20">ℤ</text>
+  <text x="646" y="322" fill="#111111" font-size="12">⟨v⟩</text>
+  <line x1="656" y1="294" x2="690" y2="294" stroke="#111111" stroke-width="1.6" marker-end="url(#ah)"/>
+  <text x="697" y="300" fill="#111111" font-size="20">0</text>
+
+  <text x="466" y="345" fill="#111111" font-size="12" text-anchor="middle">deg 2</text>
+  <text x="554" y="345" fill="#111111" font-size="12" text-anchor="middle">deg 1</text>
+  <text x="642" y="345" fill="#111111" font-size="12" text-anchor="middle">deg 0</text>
+
+  <!-- homology readout -->
+  <text x="530" y="392" fill="#111111" font-size="14" text-anchor="middle" font-weight="bold">read off the homology:</text>
+  <text x="530" y="416" fill="#111111" font-size="14" text-anchor="middle">H₀ = ℤ / im d₁ = ℤ</text>
+  <text x="530" y="436" fill="#111111" font-size="14" text-anchor="middle">H₁ = ker d₁ / im d₂ = ℤ / 2ℤ = ℤ/2</text>
+  <text x="530" y="456" fill="#111111" font-size="14" text-anchor="middle">H₂ = ker d₂ = ker(×2) = 0</text>
+</svg>

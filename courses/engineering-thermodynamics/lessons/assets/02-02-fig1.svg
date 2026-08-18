@@ -1,0 +1,40 @@
+<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="20" y="24" fill="#8a8a8a" font-style="italic">Three expansions from one state on a p&#8211;V diagram. Same start, different path &#8212; and the area under each path is the work done.</text>
+
+  <!-- area under the isothermal path = work -->
+  <polygon points="140,300 140,90 210,160 280,195 350,216 420,230 490,240 560,248 560,300"
+           fill="#4a90d9" opacity="0.10"/>
+
+  <!-- axes -->
+  <line x1="140" y1="300" x2="590" y2="300" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="140" y1="300" x2="140" y2="66" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="590,300 580,295 580,305" fill="#8a8a8a"/>
+  <polygon points="140,66 135,76 145,76" fill="#8a8a8a"/>
+  <text x="596" y="305" fill="#8a8a8a">V</text>
+  <text x="128" y="64" fill="#8a8a8a">p</text>
+
+  <!-- isobaric path (n = 0): constant p, horizontal -->
+  <line x1="140" y1="90" x2="560" y2="90" stroke="#8a8a8a" stroke-width="2.5"/>
+  <text x="370" y="82" fill="#8a8a8a">isobaric  (n = 0)</text>
+
+  <!-- isothermal path (n = 1): pV = const -->
+  <polyline points="140,90 210,160 280,195 350,216 420,230 490,240 560,248"
+            fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="470" y="235" fill="#4a90d9">isothermal (n = 1)</text>
+
+  <!-- adiabatic path (n = k): pV^k = const, steepest -->
+  <polyline points="140,90 210,181 280,220 350,242 420,255 490,264 560,270"
+            fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="440" y="288" fill="#e0645c">adiabatic (n = k)</text>
+
+  <!-- common start state -->
+  <circle cx="140" cy="90" r="5" fill="#e0645c"/>
+  <text x="150" y="86" fill="#e0645c">state 1  (p&#8321;, V&#8321;)</text>
+
+  <!-- area label -->
+  <text x="250" y="330" fill="#8a8a8a" font-style="italic">area under path = W = &#8747; p dV</text>
+
+  <!-- tick labels -->
+  <text x="132" y="304" fill="#8a8a8a" text-anchor="end">V&#8321;</text>
+</svg>

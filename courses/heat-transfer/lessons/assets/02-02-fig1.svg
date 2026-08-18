@@ -1,0 +1,46 @@
+<svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Temperature profiles at three times: the erfc front reaches deeper as t grows.</text>
+
+  <!-- ===== axes ===== -->
+  <line x1="90" y1="50" x2="90" y2="292" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="90" y1="290" x2="608" y2="290" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="608,290 598,285 598,295" fill="#8a8a8a"/>
+  <polygon points="90,50 85,60 95,60" fill="#8a8a8a"/>
+
+  <!-- axis labels -->
+  <text x="612" y="295" fill="#8a8a8a">x  (depth)</text>
+  <text x="58" y="48" fill="#8a8a8a">T</text>
+  <text x="30" y="66" fill="#8a8a8a" font-size="12">T</text>
+  <text x="40" y="70" fill="#8a8a8a" font-size="10">s</text>
+  <text x="30" y="286" fill="#8a8a8a" font-size="12">T</text>
+  <text x="40" y="290" fill="#8a8a8a" font-size="10">i</text>
+
+  <!-- surface reference lines -->
+  <line x1="90" y1="60" x2="600" y2="60" stroke="#8a8a8a" stroke-width="0.7" stroke-dasharray="3 5"/>
+  <text x="96" y="46" fill="#8a8a8a" font-size="11">surface held at T_s  (x = 0)</text>
+
+  <!-- ===== curve t1 (early) blue faint ===== -->
+  <polyline points="90,60 110,132 130,193 150,238 170,265 190,280 230,289 290,290 590,290"
+    fill="none" stroke="#4a90d9" stroke-width="2" opacity="0.5"/>
+  <text x="150" y="120" fill="#4a90d9" opacity="0.7" font-size="13">t&#8321;</text>
+
+  <!-- ===== curve t2 (mid) blue ===== -->
+  <polyline points="90,60 130,132 170,193 210,238 250,265 290,280 350,288 430,290 590,290"
+    fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="238" y="150" fill="#4a90d9" font-size="13">t&#8322;</text>
+
+  <!-- ===== curve t3 (late) coral highlight ===== -->
+  <polyline points="90,60 130,103 170,143 210,180 250,210 290,235 330,254 390,272 450,282 530,288 590,289"
+    fill="none" stroke="#e0645c" stroke-width="3"/>
+  <text x="352" y="205" fill="#e0645c" font-size="13">t&#8323;  (latest)</text>
+
+  <!-- penetration arrows along the base -->
+  <line x1="90" y1="308" x2="185" y2="308" stroke="#4a90d9" stroke-width="1.4" opacity="0.6"/>
+  <polygon points="185,308 176,304 176,312" fill="#4a90d9" opacity="0.6"/>
+  <line x1="90" y1="322" x2="300" y2="322" stroke="#4a90d9" stroke-width="1.4"/>
+  <polygon points="300,322 291,318 291,326" fill="#4a90d9"/>
+  <line x1="90" y1="336" x2="470" y2="336" stroke="#e0645c" stroke-width="1.6"/>
+  <polygon points="470,336 461,332 461,340" fill="#e0645c"/>
+  <text x="484" y="340" fill="#8a8a8a" font-size="12">penetration &#948; grows as t</text>
+</svg>

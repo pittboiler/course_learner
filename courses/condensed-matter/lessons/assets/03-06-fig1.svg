@@ -1,0 +1,62 @@
+<svg viewBox="0 0 640 372" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Two bands folded into the first zone (left) and their density of states g(E), turned sideways (right).</text>
+
+  <!-- energy gap strip spanning both panels: g = 0 here -->
+  <rect x="80" y="165.9" width="440" height="48.2" fill="#e0645c" opacity="0.15"/>
+
+  <!-- ===== left: E(k) reduced-zone plot ===== -->
+
+  <!-- zone-boundary dashed verticals (BZ edges at k = ±pi/a) -->
+  <line x1="80" y1="60" x2="80" y2="330" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="320" y1="60" x2="320" y2="330" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- E axis (vertical) -->
+  <line x1="68" y1="332" x2="68" y2="58" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="68,58 63,68 73,68" fill="#8a8a8a"/>
+  <text x="56" y="66" fill="#8a8a8a">E</text>
+
+  <!-- k axis (horizontal) -->
+  <line x1="68" y1="330" x2="344" y2="330" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="344,330 334,325 334,335" fill="#8a8a8a"/>
+  <text x="348" y="335" fill="#8a8a8a">k</text>
+  <text x="66" y="348" fill="#8a8a8a">−π/a</text>
+  <text x="196" y="348" fill="#8a8a8a">0</text>
+  <text x="308" y="348" fill="#8a8a8a">+π/a</text>
+
+  <!-- lower band n=1 (blue): E = 2 − cos(ka) -->
+  <path d="M 80 214.1 L 95 217.7 L 110 228.2 L 125 243.8 L 140 262.2 L 155 280.7 L 170 296.3 L 185 306.7 L 200 310.4 L 215 306.7 L 230 296.3 L 245 280.7 L 260 262.2 L 275 243.8 L 290 228.2 L 305 217.7 L 320 214.1"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="118" y="300" fill="#4a90d9">n = 1</text>
+
+  <!-- upper band n=2 (coral): E = 5 + cos(ka) -->
+  <path d="M 80 165.9 L 95 162.3 L 110 151.8 L 125 136.2 L 140 117.8 L 155 99.4 L 170 83.7 L 185 73.3 L 200 69.6 L 215 73.3 L 230 83.7 L 245 99.4 L 260 117.8 L 275 136.2 L 290 151.8 L 305 162.3 L 320 165.9"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+  <text x="118" y="112" fill="#e0645c">n = 2</text>
+
+  <!-- gap label -->
+  <text x="336" y="194" fill="#e0645c" font-style="italic">gap</text>
+
+  <!-- ===== right: density of states g(E) ===== -->
+
+  <!-- g axis: baseline (g = 0) vertical, g grows rightward -->
+  <line x1="400" y1="332" x2="400" y2="58" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="400" y1="330" x2="524" y2="330" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="524,330 514,325 514,335" fill="#8a8a8a"/>
+  <text x="500" y="348" fill="#8a8a8a">g(E)</text>
+
+  <!-- lower band DOS (blue): 1/sqrt divergences at both edges -->
+  <path d="M 505 310.4 L 496 308.0 L 450 300.7 L 434.6 286.3 L 430 262.2 L 434.6 238.1 L 450 223.7 L 496 216.5 L 505 214.1"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <!-- upper band DOS (coral) -->
+  <path d="M 505 165.9 L 496 163.5 L 450 156.3 L 434.6 141.8 L 430 117.8 L 434.6 93.7 L 450 79.3 L 496 72.0 L 505 69.6"
+        fill="none" stroke="#e0645c" stroke-width="2.5"/>
+
+  <!-- g = 0 note inside the gap -->
+  <text x="406" y="194" fill="#8a8a8a" font-style="italic">g = 0</text>
+
+  <!-- van Hove annotation on a band-edge spike -->
+  <line x1="505" y1="214.1" x2="540" y2="230" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="516" y="246" fill="#8a8a8a" font-style="italic">van Hove</text>
+</svg>

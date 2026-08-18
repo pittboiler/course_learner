@@ -1,0 +1,57 @@
+<svg viewBox="0 0 680 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Muller-Breslau: insert a hinge at B, impose a unit relative rotation. The deflected shape IS the influence line for the moment at B.</text>
+
+  <!-- ===== coral distributed live load across the whole beam ===== -->
+  <text x="40" y="66" fill="#e0645c">Live load w placed over BOTH spans (same-sign IL everywhere) &#8594; maximum hogging at B</text>
+  <line x1="80" y1="86" x2="600" y2="86" stroke="#e0645c" stroke-width="1.5"/>
+  <g stroke="#e0645c" stroke-width="1.5" fill="#e0645c">
+    <line x1="100" y1="86" x2="100" y2="112"/><polygon points="100,118 96,108 104,108"/>
+    <line x1="160" y1="86" x2="160" y2="112"/><polygon points="160,118 156,108 164,108"/>
+    <line x1="220" y1="86" x2="220" y2="112"/><polygon points="220,118 216,108 224,108"/>
+    <line x1="280" y1="86" x2="280" y2="112"/><polygon points="280,118 276,108 284,108"/>
+    <line x1="340" y1="86" x2="340" y2="112"/><polygon points="340,118 336,108 344,108"/>
+    <line x1="400" y1="86" x2="400" y2="112"/><polygon points="400,118 396,108 404,108"/>
+    <line x1="460" y1="86" x2="460" y2="112"/><polygon points="460,118 456,108 464,108"/>
+    <line x1="520" y1="86" x2="520" y2="112"/><polygon points="520,118 516,108 524,108"/>
+    <line x1="580" y1="86" x2="580" y2="112"/><polygon points="580,118 576,108 584,108"/>
+  </g>
+
+  <!-- ===== undeflected reference beam (dashed) ===== -->
+  <line x1="80" y1="230" x2="600" y2="230" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 5"/>
+
+  <!-- ===== the deflected shape = influence line (both spans bulge up, kink at B) ===== -->
+  <path d="M 80 230 Q 210 150 340 230 Q 470 150 600 230"
+        fill="#4a90d9" fill-opacity="0.12" stroke="#4a90d9" stroke-width="3"/>
+  <text x="150" y="185" fill="#4a90d9">IL ordinate (same sign)</text>
+  <text x="430" y="185" fill="#4a90d9">IL ordinate (same sign)</text>
+
+  <!-- kink / unit relative rotation marker at B -->
+  <circle cx="340" cy="230" r="6" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <path d="M 300 244 A 42 42 0 0 1 380 244" fill="none" stroke="#e0645c" stroke-width="1.6"/>
+  <polygon points="300,244 306,240 307,250" fill="#e0645c"/>
+  <polygon points="380,244 374,240 373,250" fill="#e0645c"/>
+  <text x="322" y="272" fill="#e0645c">&#952; = 1</text>
+
+  <!-- ===== supports A, B, C on the reference line ===== -->
+  <!-- A: pin -->
+  <polygon points="80,230 70,248 90,248" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="64" y1="252" x2="96" y2="252" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="74" y="272" fill="#8a8a8a">A</text>
+  <!-- B: roller -->
+  <polygon points="340,230 330,248 350,248" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <circle cx="335" cy="253" r="4" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <circle cx="345" cy="253" r="4" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="356" y="248" fill="#8a8a8a">B</text>
+  <!-- C: roller -->
+  <polygon points="600,230 590,248 610,248" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <circle cx="595" cy="253" r="4" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <circle cx="605" cy="253" r="4" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="596" y="272" fill="#8a8a8a">C</text>
+
+  <!-- span labels -->
+  <text x="200" y="320" fill="#8a8a8a">span AB (length L)</text>
+  <text x="455" y="320" fill="#8a8a8a">span BC (length L)</text>
+  <line x1="80" y1="332" x2="340" y2="332" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="340" y1="332" x2="600" y2="332" stroke="#8a8a8a" stroke-width="1"/>
+</svg>

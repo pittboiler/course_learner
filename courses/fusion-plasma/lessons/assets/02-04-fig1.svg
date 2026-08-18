@@ -1,0 +1,35 @@
+<svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Push the current too hard (q&#160;drops) and the column stops standing straight &#8212; it writhes into a helix.</text>
+
+  <!-- ===== left panel: stable straight column ===== -->
+  <!-- original axis (dashed guide) -->
+  <line x1="140" y1="70" x2="140" y2="270" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <!-- plasma column (fat blue) -->
+  <line x1="140" y1="74" x2="140" y2="266" stroke="#4a90d9" stroke-width="34" stroke-linecap="round" opacity="0.30"/>
+  <!-- displaced axis = same as original (no kink) -->
+  <line x1="140" y1="74" x2="140" y2="266" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="112" y="292" fill="#8a8a8a">straight</text>
+  <text x="88" y="312" fill="#8a8a8a">q&#160;&gt;&#160;2 &#8212; stable</text>
+
+  <!-- divider -->
+  <line x1="310" y1="70" x2="310" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 6"/>
+
+  <!-- ===== right panel: kinked (helical) column ===== -->
+  <!-- original straight axis (dashed guide) -->
+  <line x1="450" y1="70" x2="450" y2="270" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <!-- plasma column, writhing (fat blue along the kinked axis) -->
+  <path d="M 450 74 C 500 108, 500 132, 450 168 C 400 204, 400 228, 450 266"
+        fill="none" stroke="#4a90d9" stroke-width="34" stroke-linecap="round" opacity="0.30"/>
+  <!-- displaced (helical) axis -->
+  <path d="M 450 74 C 500 108, 500 132, 450 168 C 400 204, 400 228, 450 266"
+        fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <!-- displacement arrows: axis pushes out where it has already bulged -->
+  <line x1="450" y1="120" x2="486" y2="120" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="486,120 477,116 477,124" fill="#e0645c"/>
+  <line x1="450" y1="216" x2="414" y2="216" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="414,216 423,212 423,220" fill="#e0645c"/>
+  <text x="492" y="124" fill="#e0645c">&#958;</text>
+  <text x="422" y="294" fill="#8a8a8a">kinked</text>
+  <text x="398" y="314" fill="#e0645c">q&#160;&lt;&#160;2 &#8212; kink grows</text>
+</svg>

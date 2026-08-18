@@ -1,0 +1,57 @@
+<svg viewBox="0 0 520 430" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">The baryon octet plotted by (I₃, Y): a hexagon of eight spin-½ baryons, with two states stacked at the centre.</text>
+
+  <!-- ===== axes ===== -->
+  <!-- horizontal I3 axis (through Y=0, y=230) -->
+  <line x1="90" y1="230" x2="450" y2="230" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="450,230 440,225 440,235" fill="#8a8a8a"/>
+  <text x="456" y="235" fill="#8a8a8a">I₃</text>
+  <!-- vertical Y axis (through I3=0, x=270) -->
+  <line x1="270" y1="360" x2="270" y2="80" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="270,80 265,90 275,90" fill="#8a8a8a"/>
+  <text x="278" y="90" fill="#8a8a8a">Y</text>
+
+  <!-- I3 tick labels -->
+  <text x="146" y="252" fill="#8a8a8a" text-anchor="middle">−1</text>
+  <text x="208" y="252" fill="#8a8a8a" text-anchor="middle">−½</text>
+  <text x="332" y="252" fill="#8a8a8a" text-anchor="middle">+½</text>
+  <text x="394" y="252" fill="#8a8a8a" text-anchor="middle">+1</text>
+  <!-- Y tick labels -->
+  <text x="252" y="135" fill="#8a8a8a" text-anchor="end">+1</text>
+  <text x="252" y="335" fill="#8a8a8a" text-anchor="end">−1</text>
+
+  <!-- ===== hexagon outline (grey, faint) ===== -->
+  <!-- vertices: n(208,130) p(332,130) Sigma+(394,230) Xi0(332,330) Xi-(208,330) Sigma-(146,230) -->
+  <polygon points="208,130 332,130 394,230 332,330 208,330 146,230"
+           fill="#4a90d9" opacity="0.08" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 4"/>
+
+  <!-- ===== octet states ===== -->
+  <!-- top row  Y=+1 : n (I3=-1/2), p (I3=+1/2) -->
+  <circle cx="208" cy="130" r="7" fill="#4a90d9"/>
+  <text x="196" y="120" fill="#4a90d9" text-anchor="end">n</text>
+  <circle cx="332" cy="130" r="7" fill="#4a90d9"/>
+  <text x="344" y="120" fill="#4a90d9">p</text>
+
+  <!-- middle row Y=0 : Sigma- (I3=-1), Sigma+ (I3=+1) -->
+  <circle cx="146" cy="230" r="7" fill="#4a90d9"/>
+  <text x="132" y="222" fill="#4a90d9" text-anchor="end">Σ⁻</text>
+  <circle cx="394" cy="230" r="7" fill="#4a90d9"/>
+  <text x="408" y="222" fill="#4a90d9">Σ⁺</text>
+
+  <!-- centre Y=0, I3=0 : Sigma0 and Lambda0 (two states, one point) -->
+  <circle cx="262" cy="230" r="7" fill="#e0645c"/>
+  <circle cx="278" cy="230" r="7" fill="#e0645c"/>
+  <text x="270" y="212" fill="#e0645c" text-anchor="middle">Σ⁰, Λ⁰</text>
+
+  <!-- bottom row Y=-1 : Xi- (I3=-1/2), Xi0 (I3=+1/2) -->
+  <circle cx="208" cy="330" r="7" fill="#4a90d9"/>
+  <text x="196" y="352" fill="#4a90d9" text-anchor="end">Ξ⁻</text>
+  <circle cx="332" cy="330" r="7" fill="#4a90d9"/>
+  <text x="344" y="352" fill="#4a90d9">Ξ⁰</text>
+
+  <!-- isospin-multiplet annotation (rows = horizontal lines of fixed Y) -->
+  <text x="470" y="130" fill="#8a8a8a" font-style="italic" text-anchor="middle">I=½</text>
+  <text x="474" y="230" fill="#8a8a8a" font-style="italic" text-anchor="middle">I=1, 0</text>
+  <text x="470" y="330" fill="#8a8a8a" font-style="italic" text-anchor="middle">I=½</text>
+</svg>

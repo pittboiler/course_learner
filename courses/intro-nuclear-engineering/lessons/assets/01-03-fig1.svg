@@ -1,0 +1,55 @@
+<svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Fixed fraction per step: N/N&#8320; halves every half-life &#8212; N(t) = N&#8320; e&#8722;&#955;t, decay that never quite reaches zero.</text>
+
+  <!-- ===== axes ===== -->
+  <line x1="70" y1="250" x2="452" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="452,250 442,245 442,255" fill="#8a8a8a"/>
+  <text x="300" y="288" fill="#8a8a8a">time (half-lives)</text>
+  <line x1="70" y1="250" x2="70" y2="44" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,44 65,54 75,54" fill="#8a8a8a"/>
+  <text x="34" y="48" fill="#8a8a8a">N/N&#8320;</text>
+
+  <!-- x ticks -->
+  <line x1="144" y1="250" x2="144" y2="255" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="140" y="270" fill="#8a8a8a">1</text>
+  <line x1="218" y1="250" x2="218" y2="255" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="214" y="270" fill="#8a8a8a">2</text>
+  <line x1="292" y1="250" x2="292" y2="255" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="288" y="270" fill="#8a8a8a">3</text>
+  <line x1="366" y1="250" x2="366" y2="255" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="362" y="270" fill="#8a8a8a">4</text>
+  <line x1="440" y1="250" x2="440" y2="255" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="436" y="270" fill="#8a8a8a">5</text>
+
+  <!-- halving cascade: coral guide lines + dots + y labels -->
+  <line x1="70" y1="150" x2="144" y2="150" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="144" y1="150" x2="144" y2="250" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="70" y1="200" x2="218" y2="200" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="218" y1="200" x2="218" y2="250" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="70" y1="225" x2="292" y2="225" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="292" y1="225" x2="292" y2="250" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <text x="46" y="55" fill="#e0645c">1</text>
+  <text x="40" y="155" fill="#e0645c">1/2</text>
+  <text x="40" y="205" fill="#e0645c">1/4</text>
+  <text x="40" y="230" fill="#e0645c">1/8</text>
+
+  <!-- the decay curve N/N0 = 2^-t -->
+  <path d="M 70 50 L 88.5 81.8 L 107 108.6 L 125.5 131.1 L 144 150 L 162.5 165.9 L 181 179.3 L 199.5 190.5 L 218 200 L 236.5 208 L 255 214.6 L 273.5 220.3 L 292 225 L 329 232.3 L 366 237.5 L 403 241.2 L 440 243.75"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <circle cx="70" cy="50" r="4" fill="#e0645c"/>
+  <circle cx="144" cy="150" r="4" fill="#e0645c"/>
+  <circle cx="218" cy="200" r="4" fill="#e0645c"/>
+  <circle cx="292" cy="225" r="4" fill="#e0645c"/>
+
+  <!-- ===== log-linear inset: straight line ===== -->
+  <line x1="500" y1="80" x2="500" y2="185" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="500" y1="185" x2="612" y2="185" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="472" y="72" fill="#8a8a8a">ln N</text>
+  <text x="560" y="205" fill="#8a8a8a">t</text>
+  <path d="M 502 88 L 610 178" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="516" y="108" fill="#4a90d9">slope = &#8722;&#955;</text>
+  <text x="486" y="230" fill="#8a8a8a">log axis &#8594; a line</text>
+</svg>

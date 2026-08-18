@@ -1,0 +1,37 @@
+<svg viewBox="0 0 690 310" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Three transforms of [A], one test: whichever plots straight against t names the order &#8212; and its slope gives k.</text>
+
+  <!-- ===== Panel 1: zero order, [A] vs t (grey) ===== -->
+  <line x1="55" y1="265" x2="55" y2="78" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="55,78 50,88 60,88" fill="#8a8a8a"/>
+  <text x="30" y="84" fill="#8a8a8a">[A]</text>
+  <line x1="55" y1="265" x2="215" y2="265" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="215,265 205,260 205,270" fill="#8a8a8a"/>
+  <text x="218" y="270" fill="#8a8a8a">t</text>
+  <line x1="70" y1="95" x2="200" y2="250" stroke="#8a8a8a" stroke-width="3"/>
+  <text x="105" y="118" fill="#8a8a8a" font-style="italic">slope = &#8722;k</text>
+  <text x="135" y="292" fill="#8a8a8a" text-anchor="middle">zero order</text>
+
+  <!-- ===== Panel 2: first order, ln[A] vs t (blue) ===== -->
+  <line x1="285" y1="265" x2="285" y2="78" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="285,78 280,88 290,88" fill="#8a8a8a"/>
+  <text x="248" y="84" fill="#8a8a8a">ln[A]</text>
+  <line x1="285" y1="265" x2="445" y2="265" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="445,265 435,260 435,270" fill="#8a8a8a"/>
+  <text x="448" y="270" fill="#8a8a8a">t</text>
+  <line x1="300" y1="95" x2="430" y2="250" stroke="#4a90d9" stroke-width="3"/>
+  <text x="335" y="118" fill="#4a90d9" font-style="italic">slope = &#8722;k</text>
+  <text x="365" y="292" fill="#8a8a8a" text-anchor="middle">first order</text>
+
+  <!-- ===== Panel 3: second order, 1/[A] vs t (coral) ===== -->
+  <line x1="515" y1="265" x2="515" y2="78" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="515,78 510,88 520,88" fill="#8a8a8a"/>
+  <text x="476" y="84" fill="#8a8a8a">1/[A]</text>
+  <line x1="515" y1="265" x2="675" y2="265" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="675,265 665,260 665,270" fill="#8a8a8a"/>
+  <text x="678" y="270" fill="#8a8a8a">t</text>
+  <line x1="530" y1="250" x2="660" y2="100" stroke="#e0645c" stroke-width="3"/>
+  <text x="560" y="238" fill="#e0645c" font-style="italic">slope = +k</text>
+  <text x="595" y="292" fill="#8a8a8a" text-anchor="middle">second order</text>
+</svg>

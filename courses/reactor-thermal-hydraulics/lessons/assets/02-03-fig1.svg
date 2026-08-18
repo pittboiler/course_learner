@@ -1,0 +1,72 @@
+<svg viewBox="0 0 640 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Same flow, two fluids. The velocity layer is set by momentum; the temperature layer by Prandtl number.</text>
+
+  <!-- ===== Panel A: Pr around 1 (water) ===== -->
+  <text x="60" y="56" fill="#8a8a8a">water:  Pr &#8776; 1</text>
+
+  <!-- wall -->
+  <line x1="60" y1="250" x2="290" y2="250" stroke="#8a8a8a" stroke-width="2.5"/>
+  <line x1="66" y1="256" x2="58" y2="264" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="86" y1="256" x2="78" y2="264" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="106" y1="256" x2="98" y2="264" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="126" y1="256" x2="118" y2="264" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="146" y1="256" x2="138" y2="264" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="166" y1="256" x2="158" y2="264" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="186" y1="256" x2="178" y2="264" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="206" y1="256" x2="198" y2="264" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="226" y1="256" x2="218" y2="264" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="246" y1="256" x2="238" y2="264" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="266" y1="256" x2="258" y2="264" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- flow arrow -->
+  <line x1="70" y1="80" x2="150" y2="80" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="150,80 140,75 140,85" fill="#8a8a8a"/>
+  <text x="156" y="85" fill="#8a8a8a">flow</text>
+
+  <!-- thermal boundary layer (coral), just a bit thicker than momentum -->
+  <path d="M 60 250 Q 175 204 290 180 L 290 250 Z" fill="#e0645c" opacity="0.12"/>
+  <path d="M 60 250 Q 175 204 290 180" fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="296" y="184" fill="#e0645c">&#948;t</text>
+
+  <!-- momentum boundary layer (blue) -->
+  <path d="M 60 250 Q 175 222 290 202" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="296" y="207" fill="#4a90d9">&#948;</text>
+
+  <text x="92" y="300" fill="#8a8a8a">&#948;t &#8776; &#948;  &#8594;  turbulence carries the heat</text>
+
+  <!-- divider -->
+  <line x1="330" y1="60" x2="330" y2="290" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 5"/>
+
+  <!-- ===== Panel B: Pr much less than 1 (sodium) ===== -->
+  <text x="370" y="56" fill="#8a8a8a">sodium:  Pr &#8776; 0.005</text>
+
+  <!-- wall -->
+  <line x1="370" y1="250" x2="600" y2="250" stroke="#8a8a8a" stroke-width="2.5"/>
+  <line x1="376" y1="256" x2="368" y2="264" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="396" y1="256" x2="388" y2="264" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="416" y1="256" x2="408" y2="264" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="436" y1="256" x2="428" y2="264" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="456" y1="256" x2="448" y2="264" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="476" y1="256" x2="468" y2="264" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="496" y1="256" x2="488" y2="264" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="516" y1="256" x2="508" y2="264" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="536" y1="256" x2="528" y2="264" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="556" y1="256" x2="548" y2="264" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="576" y1="256" x2="568" y2="264" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- flow arrow -->
+  <line x1="380" y1="80" x2="460" y2="80" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="460,80 450,75 450,85" fill="#8a8a8a"/>
+  <text x="466" y="85" fill="#8a8a8a">flow</text>
+
+  <!-- thermal boundary layer (coral), very thick -->
+  <path d="M 370 250 Q 485 128 600 96 L 600 250 Z" fill="#e0645c" opacity="0.12"/>
+  <path d="M 370 250 Q 485 128 600 96" fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="606" y="100" fill="#e0645c">&#948;t</text>
+
+  <!-- momentum boundary layer (blue), thin -->
+  <path d="M 370 250 Q 485 232 600 218" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="606" y="223" fill="#4a90d9">&#948;</text>
+
+  <text x="392" y="300" fill="#8a8a8a">&#948;t &#8811; &#948;  &#8594;  conduction reaches deep into the flow</text>
+</svg>

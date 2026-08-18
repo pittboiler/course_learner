@@ -1,0 +1,71 @@
+<svg viewBox="0 0 660 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="660" height="400" fill="#ffffff"/>
+
+  <defs>
+    <marker id="ah" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#111111"/>
+    </marker>
+    <marker id="ahg" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#6d28d9"/>
+    </marker>
+  </defs>
+
+  <!-- =============== PANEL A: two charts, glued =============== -->
+  <text x="185" y="24" fill="#111111" font-size="15" text-anchor="middle" font-weight="bold">Two affine lines, glued into an atlas</text>
+
+  <!-- chart X0 = Spec k[t], top line -->
+  <rect x="98" y="86" width="252" height="24" fill="#dbeafe" stroke="none"/>
+  <line x1="55" y1="98" x2="360" y2="98" stroke="#1d4ed8" stroke-width="2.2" marker-end="url(#ah)"/>
+  <circle cx="80" cy="98" r="3.4" fill="#111111"/>
+  <text x="80" y="80" fill="#111111" font-size="12" text-anchor="middle">t = 0</text>
+  <text x="366" y="102" fill="#1d4ed8" font-size="12">t</text>
+  <text x="55" y="128" fill="#1d4ed8" font-size="12.5" font-weight="bold">chart X&#8320; = Spec k[t]</text>
+  <text x="224" y="128" fill="#1d4ed8" font-size="11">overlap D(t): t &#8800; 0</text>
+
+  <!-- chart X1 = Spec k[u], bottom line (origin on the right: orientation flips) -->
+  <rect x="55" y="278" width="252" height="24" fill="#dcfce7" stroke="none"/>
+  <line x1="350" y1="290" x2="45" y2="290" stroke="#15803d" stroke-width="2.2" marker-end="url(#ah)"/>
+  <circle cx="325" cy="290" r="3.4" fill="#111111"/>
+  <text x="325" y="316" fill="#111111" font-size="12" text-anchor="middle">u = 0</text>
+  <text x="40" y="286" fill="#15803d" font-size="12">u</text>
+  <text x="55" y="270" fill="#15803d" font-size="12.5" font-weight="bold">chart X&#8321; = Spec k[u]</text>
+  <text x="120" y="270" fill="#15803d" font-size="11">overlap D(u): u &#8800; 0</text>
+
+  <!-- gluing box in the middle -->
+  <line x1="205" y1="112" x2="205" y2="276" stroke="#6d28d9" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#ahg)" marker-start="url(#ahg)"/>
+  <rect x="150" y="182" width="110" height="34" rx="5" fill="#ffffff" stroke="#6d28d9" stroke-width="1.4"/>
+  <text x="205" y="197" fill="#6d28d9" font-size="13" text-anchor="middle" font-weight="bold">glue by</text>
+  <text x="205" y="211" fill="#6d28d9" font-size="13" text-anchor="middle" font-weight="bold">t = 1/u</text>
+
+  <!-- annotations of the two special points -->
+  <text x="80" y="150" fill="#555555" font-size="10.5" text-anchor="middle">not in overlap:</text>
+  <text x="80" y="163" fill="#555555" font-size="10.5" text-anchor="middle">the &#8734; of chart X&#8321;</text>
+  <text x="325" y="252" fill="#555555" font-size="10.5" text-anchor="middle">not in overlap:</text>
+  <text x="325" y="239" fill="#555555" font-size="10.5" text-anchor="middle">the &#8734; of chart X&#8320;</text>
+
+  <text x="185" y="386" fill="#111111" font-size="11.5" text-anchor="middle">large t &#8596; small u: the charts are reversed on the overlap</text>
+
+  <!-- =============== PANEL B: the assembled P^1 =============== -->
+  <text x="520" y="24" fill="#111111" font-size="15" text-anchor="middle" font-weight="bold">&#8473;&#185; = X&#8320; &#8746; X&#8321;</text>
+
+  <!-- base loop -->
+  <circle cx="520" cy="200" r="98" fill="none" stroke="#111111" stroke-width="1" stroke-dasharray="2 3"/>
+
+  <!-- chart X0 arc: everything except the top point -->
+  <path d="M 555.6 102.2 A 104 104 0 1 1 484.4 102.2" fill="none" stroke="#1d4ed8" stroke-width="4"/>
+  <!-- chart X1 arc: everything except the bottom point -->
+  <path d="M 488.5 286.5 A 92 92 0 1 1 551.5 286.5" fill="none" stroke="#15803d" stroke-width="4"/>
+
+  <!-- the two special points -->
+  <circle cx="520" cy="102" r="4" fill="#15803d"/>
+  <text x="520" y="92" fill="#15803d" font-size="11.5" text-anchor="middle">u = 0  (= &#8734; of X&#8320;)</text>
+  <circle cx="520" cy="298" r="4" fill="#1d4ed8"/>
+  <text x="520" y="320" fill="#1d4ed8" font-size="11.5" text-anchor="middle">t = 0  (= &#8734; of X&#8321;)</text>
+
+  <text x="450" y="200" fill="#1d4ed8" font-size="11" text-anchor="middle">X&#8320;</text>
+  <text x="592" y="200" fill="#15803d" font-size="11" text-anchor="middle">X&#8321;</text>
+  <text x="520" y="205" fill="#6d28d9" font-size="10.5" text-anchor="middle">both charts</text>
+  <text x="520" y="218" fill="#6d28d9" font-size="10.5" text-anchor="middle">cover the sides</text>
+
+  <text x="520" y="386" fill="#111111" font-size="11.5" text-anchor="middle">each chart misses one point; together they cover &#8473;&#185;</text>
+</svg>

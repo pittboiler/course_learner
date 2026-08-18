@@ -1,0 +1,78 @@
+<svg viewBox="0 0 640 370" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <defs>
+    <marker id="ah" markerWidth="10" markerHeight="8" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#e0645c"/>
+    </marker>
+  </defs>
+
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Two loops, two sources, one node A &#8212; KCL ties the currents, KVL ties the voltages.</text>
+
+  <!-- ===== wires ===== -->
+  <!-- top rail (all one node: A) -->
+  <line x1="80" y1="70" x2="560" y2="70" stroke="#8a8a8a" stroke-width="2"/>
+  <!-- bottom rail (ground node) -->
+  <line x1="80" y1="300" x2="560" y2="300" stroke="#8a8a8a" stroke-width="2"/>
+  <!-- left branch verticals -->
+  <line x1="80" y1="70" x2="80" y2="110" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="80" y1="160" x2="80" y2="191" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="80" y1="240" x2="80" y2="300" stroke="#8a8a8a" stroke-width="2"/>
+  <!-- middle branch verticals -->
+  <line x1="320" y1="70" x2="320" y2="150" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="320" y1="200" x2="320" y2="300" stroke="#8a8a8a" stroke-width="2"/>
+  <!-- right branch verticals -->
+  <line x1="560" y1="70" x2="560" y2="110" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="560" y1="160" x2="560" y2="191" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="560" y1="240" x2="560" y2="300" stroke="#8a8a8a" stroke-width="2"/>
+
+  <!-- ===== resistors (grey boxes) ===== -->
+  <rect x="65" y="110" width="30" height="50" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="42" y="140" fill="#8a8a8a">R<tspan baseline-shift="sub" font-size="10">1</tspan></text>
+
+  <rect x="545" y="110" width="30" height="50" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="580" y="140" fill="#8a8a8a">R<tspan baseline-shift="sub" font-size="10">2</tspan></text>
+
+  <rect x="305" y="150" width="30" height="50" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="340" y="180" fill="#8a8a8a">R<tspan baseline-shift="sub" font-size="10">3</tspan></text>
+
+  <!-- ===== sources (blue circles, + toward node A) ===== -->
+  <circle cx="80" cy="215.5" r="24.5" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="80" y="208" fill="#4a90d9" text-anchor="middle">+</text>
+  <text x="80" y="234" fill="#4a90d9" text-anchor="middle">&#8722;</text>
+  <text x="34" y="220" fill="#4a90d9">V<tspan baseline-shift="sub" font-size="10">1</tspan></text>
+
+  <circle cx="560" cy="215.5" r="24.5" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="560" y="208" fill="#4a90d9" text-anchor="middle">+</text>
+  <text x="560" y="234" fill="#4a90d9" text-anchor="middle">&#8722;</text>
+  <text x="588" y="220" fill="#4a90d9">V<tspan baseline-shift="sub" font-size="10">2</tspan></text>
+
+  <!-- ===== node A dot + label ===== -->
+  <circle cx="320" cy="70" r="6" fill="#e0645c"/>
+  <text x="330" y="60" fill="#e0645c">A</text>
+
+  <!-- ===== ground symbol ===== -->
+  <line x1="440" y1="300" x2="440" y2="318" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="428" y1="318" x2="452" y2="318" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="432" y1="324" x2="448" y2="324" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="436" y1="330" x2="444" y2="330" stroke="#8a8a8a" stroke-width="2"/>
+
+  <!-- ===== branch current arrows (coral) ===== -->
+  <line x1="80" y1="104" x2="80" y2="80" stroke="#e0645c" stroke-width="2" marker-end="url(#ah)"/>
+  <text x="58" y="98" fill="#e0645c">I<tspan baseline-shift="sub" font-size="10">1</tspan></text>
+
+  <line x1="560" y1="104" x2="560" y2="80" stroke="#e0645c" stroke-width="2" marker-end="url(#ah)"/>
+  <text x="566" y="98" fill="#e0645c">I<tspan baseline-shift="sub" font-size="10">2</tspan></text>
+
+  <line x1="320" y1="96" x2="320" y2="124" stroke="#e0645c" stroke-width="2" marker-end="url(#ah)"/>
+  <text x="330" y="112" fill="#e0645c">I<tspan baseline-shift="sub" font-size="10">3</tspan></text>
+
+  <!-- ===== loop-direction arrows (coral, clockwise) ===== -->
+  <path d="M 200 156 A 34 34 0 1 1 166 190" fill="none" stroke="#e0645c" stroke-width="1.5" marker-end="url(#ah)"/>
+  <text x="200" y="194" fill="#e0645c" text-anchor="middle" font-size="12">loop 1</text>
+
+  <path d="M 440 156 A 34 34 0 1 1 406 190" fill="none" stroke="#e0645c" stroke-width="1.5" marker-end="url(#ah)"/>
+  <text x="440" y="194" fill="#e0645c" text-anchor="middle" font-size="12">loop 2</text>
+
+  <!-- ===== KCL annotation ===== -->
+  <text x="320" y="356" fill="#e0645c" text-anchor="middle">KCL at A:&#160;&#160;I<tspan baseline-shift="sub" font-size="10">1</tspan> + I<tspan baseline-shift="sub" font-size="10">2</tspan> = I<tspan baseline-shift="sub" font-size="10">3</tspan></text>
+</svg>

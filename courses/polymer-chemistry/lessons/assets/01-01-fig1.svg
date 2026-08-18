@@ -1,0 +1,83 @@
+<svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <!-- caption -->
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">One repeat unit, bracketed and multiplied by n, is the whole polymer &#8212; and how it connects sets its architecture.</text>
+
+  <!-- ================= Panel A: repeat units ================= -->
+  <text x="20" y="52" fill="#8a8a8a" font-weight="bold">Repeat units (the bracketed group, times n)</text>
+
+  <!-- polyethylene, center 110 -->
+  <!-- left bracket -->
+  <path d="M 66 66 L 60 66 L 60 128 L 66 128" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <!-- right bracket -->
+  <path d="M 154 66 L 160 66 L 160 128 L 154 128" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="163" y="132" fill="#8a8a8a" font-style="italic">n</text>
+  <!-- backbone zigzag (bare CH2-CH2) -->
+  <polyline points="60,97 92,114 120,80 152,97" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="76" y="130" fill="#8a8a8a">CH&#8322;</text>
+  <text x="104" y="72" fill="#8a8a8a">CH&#8322;</text>
+  <text x="110" y="152" fill="#8a8a8a" text-anchor="middle">polyethylene (PE)</text>
+
+  <!-- poly(vinyl chloride), center 320 -->
+  <path d="M 276 66 L 270 66 L 270 128 L 276 128" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <path d="M 364 66 L 370 66 L 370 128 L 364 128" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="373" y="132" fill="#8a8a8a" font-style="italic">n</text>
+  <polyline points="270,97 302,114 330,80 362,97" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <!-- Cl substituent on the second carbon -->
+  <line x1="330" y1="80" x2="330" y2="62" stroke="#e0645c" stroke-width="2"/>
+  <text x="330" y="56" fill="#e0645c" text-anchor="middle" font-weight="bold">Cl</text>
+  <text x="286" y="130" fill="#8a8a8a">CH&#8322;</text>
+  <text x="320" y="152" fill="#8a8a8a" text-anchor="middle">poly(vinyl chloride) (PVC)</text>
+
+  <!-- polystyrene, center 530 -->
+  <path d="M 486 66 L 480 66 L 480 128 L 486 128" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <path d="M 574 66 L 580 66 L 580 128 L 574 128" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="583" y="132" fill="#8a8a8a" font-style="italic">n</text>
+  <polyline points="480,97 512,114 540,80 572,97" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <!-- phenyl substituent: bond up to a hexagon -->
+  <line x1="540" y1="80" x2="540" y2="66" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="540,50 548,54 548,63 540,67 532,63 532,54" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <circle cx="540" cy="58.5" r="4" fill="none" stroke="#e0645c" stroke-width="1"/>
+  <text x="496" y="130" fill="#8a8a8a">CH&#8322;</text>
+  <text x="530" y="152" fill="#8a8a8a" text-anchor="middle">polystyrene (PS)</text>
+
+  <!-- divider -->
+  <line x1="20" y1="176" x2="620" y2="176" stroke="#8a8a8a" stroke-width="0.75" stroke-dasharray="2 5"/>
+
+  <!-- ================= Panel B: architectures ================= -->
+  <text x="20" y="204" fill="#8a8a8a" font-weight="bold">Architectures (how the chains connect)</text>
+
+  <!-- linear, center 110 -->
+  <polyline points="50,258 66,246 82,258 98,246 114,258 130,246 146,258 162,246 172,252"
+            fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="110" y="322" fill="#8a8a8a" text-anchor="middle">linear</text>
+  <text x="110" y="340" fill="#8a8a8a" text-anchor="middle" font-size="11">one long chain</text>
+
+  <!-- branched, center 320 -->
+  <polyline points="262,262 286,250 310,262 334,250 358,262 378,254"
+            fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <!-- branches -->
+  <polyline points="286,250 292,228 308,220" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <polyline points="334,250 330,278 346,290" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="320" y="322" fill="#8a8a8a" text-anchor="middle">branched</text>
+  <text x="320" y="340" fill="#8a8a8a" text-anchor="middle" font-size="11">side chains, still separate</text>
+
+  <!-- network / crosslinked, center 530 -->
+  <line x1="486" y1="226" x2="576" y2="226" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="486" y1="252" x2="576" y2="252" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="486" y1="278" x2="576" y2="278" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="496" y1="216" x2="496" y2="288" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="530" y1="216" x2="530" y2="288" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="564" y1="216" x2="564" y2="288" stroke="#4a90d9" stroke-width="2"/>
+  <!-- crosslink nodes -->
+  <circle cx="496" cy="226" r="3.5" fill="#e0645c"/>
+  <circle cx="530" cy="226" r="3.5" fill="#e0645c"/>
+  <circle cx="564" cy="226" r="3.5" fill="#e0645c"/>
+  <circle cx="496" cy="252" r="3.5" fill="#e0645c"/>
+  <circle cx="530" cy="252" r="3.5" fill="#e0645c"/>
+  <circle cx="564" cy="252" r="3.5" fill="#e0645c"/>
+  <circle cx="496" cy="278" r="3.5" fill="#e0645c"/>
+  <circle cx="530" cy="278" r="3.5" fill="#e0645c"/>
+  <circle cx="564" cy="278" r="3.5" fill="#e0645c"/>
+  <text x="530" y="322" fill="#8a8a8a" text-anchor="middle">network / crosslinked</text>
+  <text x="530" y="340" fill="#8a8a8a" text-anchor="middle" font-size="11">one giant molecule (&#9679; = crosslink)</text>
+</svg>

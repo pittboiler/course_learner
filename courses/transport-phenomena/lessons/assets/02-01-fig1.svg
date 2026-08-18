@@ -1,0 +1,87 @@
+<svg viewBox="0 0 680 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="24" y="22" fill="#8a8a8a" font-style="italic">Gravity pulls a film down an incline; the shell balance makes &#964; linear, so v&#8202;_z is a parabola.</text>
+
+  <!-- ================= PANEL A: the physical incline ================= -->
+  <text x="90" y="52" fill="#8a8a8a" font-weight="bold">Physical setup</text>
+
+  <!-- liquid film band (wall A-B to free surface A'-B') -->
+  <polygon points="150,70 247.2,278.4 305.2,251.4 208.0,43.0" fill="#4a90d9" opacity="0.13"/>
+  <text x="205" y="165" fill="#4a90d9" font-size="12">liquid film</text>
+
+  <!-- free surface -->
+  <line x1="208.0" y1="43.0" x2="305.2" y2="251.4" stroke="#4a90d9" stroke-width="1.5"/>
+
+  <!-- solid wall -->
+  <line x1="150" y1="70" x2="247.2" y2="278.4" stroke="#8a8a8a" stroke-width="3"/>
+  <line x1="158.5" y1="88.1" x2="147.6" y2="93.2" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="175.4" y1="124.4" x2="164.5" y2="129.5" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="192.3" y1="160.6" x2="181.4" y2="165.7" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="209.2" y1="196.9" x2="198.3" y2="202.0" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="226.1" y1="233.1" x2="215.2" y2="238.2" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="150" y="300" fill="#8a8a8a" font-size="12">wall</text>
+
+  <!-- vertical reference and angle beta -->
+  <line x1="150" y1="70" x2="150" y2="150" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <path d="M 150 130 A 60 60 0 0 0 175.4 124.4" fill="none" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="156" y="112" fill="#8a8a8a">&#946;</text>
+
+  <!-- gravity -->
+  <line x1="278" y1="60" x2="278" y2="108" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="278,108 273,98 283,98" fill="#e0645c"/>
+  <text x="283" y="92" fill="#e0645c">g</text>
+
+  <!-- film thickness delta -->
+  <line x1="198.6" y1="174.2" x2="256.6" y2="147.2" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="198.6,174.2 206.9,172.6 203.9,180.6" fill="#e0645c"/>
+  <polygon points="256.6,147.2 248.3,148.8 251.3,140.8" fill="#e0645c"/>
+  <text x="238" y="146" fill="#e0645c">&#948;</text>
+
+  <!-- thin shell (control volume) -->
+  <polygon points="195.9,92.8 263.5,237.8 272.6,233.6 205.0,88.6" fill="#e0645c" opacity="0.18" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="278" y="200" fill="#e0645c" font-size="12">shell, thickness &#916;y</text>
+
+  <!-- flow direction -->
+  <line x1="270" y1="120" x2="289" y2="161" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="289,161 280,155 288,151" fill="#4a90d9"/>
+  <text x="292" y="150" fill="#4a90d9" font-size="12">flow v&#8202;_z</text>
+
+  <!-- ================= PANEL B: velocity profile ================= -->
+  <text x="470" y="52" fill="#8a8a8a" font-weight="bold">Velocity profile v&#8202;_z(y)</text>
+
+  <!-- base axis (y direction, down = into film) -->
+  <line x1="430" y1="66" x2="430" y2="278" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="392" y="70" fill="#8a8a8a" font-size="12">y=0</text>
+  <text x="398" y="276" fill="#8a8a8a" font-size="12">y=&#948;</text>
+
+  <!-- delta bracket on the left -->
+  <line x1="416" y1="70" x2="416" y2="270" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- velocity arrows (length proportional to v_z) -->
+  <line x1="430" y1="70" x2="580" y2="70" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="580,70 570,66 570,74" fill="#4a90d9"/>
+  <line x1="430" y1="110" x2="574" y2="110" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="574,110 564,106 564,114" fill="#4a90d9"/>
+  <line x1="430" y1="150" x2="556" y2="150" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="556,150 546,146 546,154" fill="#4a90d9"/>
+  <line x1="430" y1="190" x2="526" y2="190" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="526,190 516,186 516,194" fill="#4a90d9"/>
+  <line x1="430" y1="230" x2="484" y2="230" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="484,230 474,226 474,234" fill="#4a90d9"/>
+
+  <!-- parabolic envelope -->
+  <path d="M 580 70 Q 566 130 526 190 Q 470 254 430 270" fill="none" stroke="#e0645c" stroke-width="2.5"/>
+
+  <!-- free surface (top, zero shear) -->
+  <line x1="430" y1="70" x2="600" y2="70" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="470" y="88" fill="#8a8a8a" font-size="12">free surface: &#964; = 0 (flat top)</text>
+  <text x="585" y="63" fill="#e0645c" font-size="12">v&#8202;max</text>
+
+  <!-- wall (bottom, no-slip) -->
+  <line x1="430" y1="270" x2="600" y2="270" stroke="#8a8a8a" stroke-width="3"/>
+  <line x1="440" y1="270" x2="432" y2="278" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="460" y1="270" x2="452" y2="278" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="480" y1="270" x2="472" y2="278" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="500" y1="270" x2="492" y2="278" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="520" y1="270" x2="512" y2="278" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="470" y="262" fill="#8a8a8a" font-size="12">wall: no-slip, v = 0</text>
+</svg>

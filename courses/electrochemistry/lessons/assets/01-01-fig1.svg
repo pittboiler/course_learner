@@ -1,0 +1,26 @@
+<svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="34" y="24" fill="#8a8a8a" font-style="italic">Redox = electron transfer. The reductant sheds e&#8315; (oxidized, ox. state up); the oxidant collects them (reduced, down).</text>
+
+  <!-- oxidation half box (blue) -->
+  <rect x="34" y="66" width="242" height="150" rx="8" fill="#4a90d9" opacity="0.10" stroke="#4a90d9" stroke-width="2"/>
+  <text x="54" y="94" fill="#8a8a8a">OXIDATION half</text>
+  <text x="54" y="114" fill="#8a8a8a" font-size="12">reductant: loses e&#8315;   (LEO)</text>
+  <text x="54" y="156" fill="#4a90d9" font-size="18">Fe&#178;&#8314; &#8594; Fe&#179;&#8314; + e&#8315;</text>
+  <text x="54" y="196" fill="#8a8a8a">ox. state   +2 &#8594; +3   (up)</text>
+
+  <!-- reduction half box (coral) -->
+  <rect x="364" y="66" width="242" height="150" rx="8" fill="#e0645c" opacity="0.10" stroke="#e0645c" stroke-width="2"/>
+  <text x="384" y="94" fill="#8a8a8a">REDUCTION half</text>
+  <text x="384" y="114" fill="#8a8a8a" font-size="12">oxidant: gains e&#8315;   (GER)</text>
+  <text x="384" y="150" fill="#e0645c" font-size="15">MnO&#8324;&#8315; + 8H&#8314; + 5e&#8315;</text>
+  <text x="402" y="172" fill="#e0645c" font-size="15">&#8594; Mn&#178;&#8314; + 4H&#8322;O</text>
+  <text x="384" y="196" fill="#8a8a8a">ox. state   +7 &#8594; +2   (down)</text>
+
+  <!-- electron flow arrow (coral) -->
+  <line x1="280" y1="141" x2="356" y2="141" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="362,141 350,136 350,146" fill="#e0645c"/>
+  <text x="304" y="132" fill="#e0645c">e&#8315;</text>
+
+  <!-- bottom note (grey) -->
+  <text x="320" y="256" fill="#8a8a8a" text-anchor="middle">Multiply the halves so electrons lost = electrons gained; then the e&#8315; cancel in the sum.</text>
+</svg>

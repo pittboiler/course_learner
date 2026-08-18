@@ -1,0 +1,38 @@
+<svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">The Higgs "Mexican-hat" potential: the symmetric top is unstable; the field rolls into the ring of minima at |φ| = v.</text>
+
+  <!-- ===== axes ===== -->
+  <!-- V axis -->
+  <line x1="110" y1="288" x2="110" y2="52" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="110,52 105,62 115,62" fill="#8a8a8a"/>
+  <text x="80" y="60" fill="#8a8a8a">V(φ)</text>
+  <!-- φ axis at V=0 (minima level) -->
+  <line x1="90" y1="250" x2="576" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="576,250 566,245 566,255" fill="#8a8a8a"/>
+  <text x="580" y="255" fill="#8a8a8a">φ</text>
+
+  <!-- ring of minima suggested as a perspective ellipse through both wells -->
+  <ellipse cx="320" cy="250" rx="120" ry="16" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- ===== the potential curve  V = (φ²−v²)²  ===== -->
+  <path d="M 134 96.6 L 140 128.1 L 152 178.1 L 164 212.9 L 176 234.9 L 188 246.6 L 200 250.0 L 212 247.2 L 224 239.9 L 236 229.7 L 248 218.0 L 260 206.1 L 272 195.0 L 284 185.4 L 296 178.1 L 308 173.6 L 320 172.0 L 332 173.6 L 344 178.1 L 356 185.4 L 368 195.0 L 380 206.1 L 392 218.0 L 404 229.7 L 416 239.9 L 428 247.2 L 440 250.0 L 452 246.6 L 464 234.9 L 476 212.9 L 488 178.1 L 500 128.1 L 506 96.6"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- unstable symmetric top -->
+  <circle cx="320" cy="172" r="5" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="320" y1="172" x2="320" y2="250" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="330" y="150" fill="#8a8a8a">unstable symmetric top</text>
+  <text x="330" y="167" fill="#8a8a8a">(φ = 0)</text>
+
+  <!-- the ball settled in the brim (spontaneous symmetry breaking) -->
+  <circle cx="440" cy="240" r="10" fill="#e0645c"/>
+  <text x="454" y="230" fill="#e0645c">vacuum picks</text>
+  <text x="454" y="247" fill="#e0645c">a direction</text>
+
+  <!-- v measurement: center to right minimum -->
+  <line x1="320" y1="274" x2="440" y2="274" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="320,274 329,270 329,278" fill="#e0645c"/>
+  <polygon points="440,274 431,270 431,278" fill="#e0645c"/>
+  <text x="368" y="292" fill="#e0645c">v ≈ 246 GeV</text>
+</svg>

@@ -1,0 +1,56 @@
+<svg viewBox="0 0 680 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="60" y="20" fill="#8a8a8a" font-style="italic">Local flux rides UNDER the falling CHF limit; safety is the tightest ratio, not the biggest gap.</text>
+
+  <!-- y axis (heat flux) -->
+  <line x1="70" y1="300" x2="70" y2="55" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,55 65,65 75,65" fill="#8a8a8a"/>
+  <text x="30" y="58" fill="#8a8a8a">q''</text>
+  <!-- x axis (elevation z up the channel) -->
+  <line x1="70" y1="300" x2="510" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="510,300 500,295 500,305" fill="#8a8a8a"/>
+  <text x="470" y="320" fill="#8a8a8a">z &#8594; (up)</text>
+  <text x="52" y="315" fill="#8a8a8a">in</text>
+
+  <!-- CHF limit curve (coral), falls downstream as quality rises -->
+  <path d="M 70 95 L 150 100 L 225 109 L 300 119 L 375 131 L 450 149 L 500 163"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+  <!-- local heat flux (blue), cosine-ish hump -->
+  <path d="M 70 250 L 150 195 L 225 162 L 300 142 L 375 153 L 450 181 L 500 206"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- MDNBR: tightest ratio, downstream of the flux peak -->
+  <line x1="343" y1="126" x2="343" y2="148" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="343,126 339,134 347,134" fill="#8a8a8a"/>
+  <polygon points="343,148 339,140 347,140" fill="#8a8a8a"/>
+  <line x1="343" y1="148" x2="343" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="352" y="140" fill="#8a8a8a">MDNBR</text>
+  <text x="300" y="336" fill="#8a8a8a">tightest ratio (downstream of peak)</text>
+
+  <!-- flux-peak marker -->
+  <circle cx="300" cy="142" r="3" fill="#4a90d9"/>
+  <text x="255" y="134" fill="#4a90d9">flux peak</text>
+
+  <!-- legend -->
+  <line x1="120" y1="360" x2="150" y2="360" stroke="#4a90d9" stroke-width="3"/>
+  <text x="156" y="364" fill="#8a8a8a">q'' local (z)</text>
+  <line x1="270" y1="360" x2="300" y2="360" stroke="#e0645c" stroke-width="3"/>
+  <text x="306" y="364" fill="#8a8a8a">q''_CHF (z)</text>
+
+  <!-- inset: wall-temperature excursion at CHF -->
+  <text x="545" y="70" fill="#8a8a8a" font-style="italic">wall temperature</text>
+  <line x1="545" y1="230" x2="545" y2="90" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="545,90 541,100 549,100" fill="#8a8a8a"/>
+  <text x="520" y="92" fill="#8a8a8a">&#916;T</text>
+  <line x1="545" y1="230" x2="665" y2="230" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="665,230 655,225 655,235" fill="#8a8a8a"/>
+  <text x="600" y="248" fill="#8a8a8a">q''</text>
+  <!-- nucleate branch: shallow rise (tens of K) -->
+  <path d="M 550 218 L 590 210 L 618 202" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <!-- excursion: near-vertical jump (hundreds of K) at CHF -->
+  <path d="M 618 202 L 626 108" fill="none" stroke="#e0645c" stroke-width="3"/>
+  <circle cx="618" cy="202" r="3.5" fill="#e0645c"/>
+  <text x="596" y="196" fill="#e0645c">CHF</text>
+  <text x="560" y="132" fill="#8a8a8a">hundreds</text>
+  <text x="560" y="148" fill="#8a8a8a">of K jump</text>
+  <text x="548" y="170" fill="#4a90d9">tens of K</text>
+</svg>

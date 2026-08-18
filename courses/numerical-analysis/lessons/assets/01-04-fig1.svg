@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="360" viewBox="0 0 420 360" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="420" height="360" fill="#ffffff"/>
+
+  <!-- axes -->
+  <line x1="60" y1="300" x2="390" y2="300" stroke="#111111" stroke-width="1.5"/>
+  <line x1="60" y1="300" x2="60" y2="30" stroke="#111111" stroke-width="1.5"/>
+  <text x="384" y="318" font-size="13" fill="#111111">x</text>
+  <text x="40" y="40" font-size="13" fill="#111111">y</text>
+
+  <!-- diagonal y = x -->
+  <line x1="60" y1="300" x2="380" y2="40" stroke="#888888" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <text x="352" y="58" font-size="12" fill="#888888">y = x</text>
+
+  <!-- curve g(x) = sqrt(x+2) -->
+  <polyline fill="none" stroke="#1a66cc" stroke-width="2"
+    points="60.0,158.58 84.62,151.68 109.23,145.08 133.85,138.75 158.46,132.67 183.08,126.80 207.69,121.12 232.31,115.61 256.92,110.26 281.54,105.06 306.15,100.00 330.77,95.06 355.38,90.24 380.0,85.52"/>
+  <text x="330" y="80" font-size="12" fill="#1a66cc">g(x)=&#8730;(x+2)</text>
+
+  <!-- cobweb staircase from x0 = 1 -->
+  <polyline fill="none" stroke="#cc3311" stroke-width="1.6"
+    points="183.08,300 183.08,126.80 273.20,126.80 273.20,106.80 297.80,106.80 297.80,101.70 304.10,101.70 304.10,100.40"/>
+
+  <!-- fixed point marker -->
+  <circle cx="306.15" cy="100.0" r="4" fill="#111111"/>
+  <text x="312" y="96" font-size="12" fill="#111111">x* = 2</text>
+
+  <!-- x0 tick -->
+  <line x1="183.08" y1="300" x2="183.08" y2="305" stroke="#111111" stroke-width="1.2"/>
+  <text x="176" y="320" font-size="12" fill="#cc3311">x&#8320;=1</text>
+</svg>

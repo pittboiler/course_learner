@@ -1,0 +1,71 @@
+<svg viewBox="0 0 640 470" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="24" y="22" fill="#8a8a8a" font-style="italic">Single-null divertor (poloidal cut): power crossing the separatrix rides a thin SOL down the legs to remote, cooled targets.</text>
+
+  <!-- ===== machine centerline / orientation ===== -->
+  <line x1="70" y1="70" x2="70" y2="440" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 5"/>
+  <text x="46" y="256" fill="#8a8a8a" font-size="11">axis</text>
+  <line x1="70" y1="430" x2="120" y2="430" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="120,430 111,426 111,434" fill="#8a8a8a"/>
+  <text x="92" y="446" fill="#8a8a8a" font-size="11">R</text>
+
+  <!-- ===== nested core flux surfaces (blue, faint) ===== -->
+  <path d="M 330 150 C 375 153 400 178 397 212 C 394 254 366 284 330 290 C 294 284 266 254 263 212 C 260 178 285 153 330 150 Z"
+        fill="#4a90d9" opacity="0.10" stroke="#4a90d9" stroke-width="1" stroke-opacity="0.5"/>
+  <path d="M 330 118 C 392 122 428 160 424 212 C 420 268 378 306 330 312 C 282 306 240 268 236 212 C 232 160 268 122 330 118 Z"
+        fill="none" stroke="#4a90d9" stroke-width="1" stroke-opacity="0.5"/>
+  <circle cx="330" cy="212" r="3" fill="#4a90d9"/>
+  <text x="338" y="209" fill="#4a90d9" font-size="11">core</text>
+
+  <!-- ===== separatrix (last closed flux surface), blue, meeting at X-point ===== -->
+  <path d="M 330 92 C 418 96 462 150 458 212 C 454 284 398 340 330 352" fill="none" stroke="#4a90d9" stroke-width="2.6"/>
+  <path d="M 330 92 C 242 96 198 150 202 212 C 206 284 262 340 330 352" fill="none" stroke="#4a90d9" stroke-width="2.6"/>
+  <text x="470" y="150" fill="#4a90d9">separatrix</text>
+  <text x="470" y="166" fill="#4a90d9" font-size="11">(last closed surface)</text>
+
+  <!-- X-point -->
+  <circle cx="330" cy="352" r="3.5" fill="#4a90d9"/>
+  <text x="338" y="350" fill="#4a90d9" font-size="11">X-point</text>
+
+  <!-- ===== SOL: thin coral channel just outside separatrix (outboard) ===== -->
+  <path d="M 330 84 C 428 88 474 148 470 213 C 466 286 406 346 337 358" fill="none" stroke="#e0645c" stroke-width="2" stroke-opacity="0.9"/>
+  <!-- lambda_q width marker at outboard midplane -->
+  <line x1="458" y1="212" x2="470" y2="213" stroke="#e0645c" stroke-width="1.4"/>
+  <line x1="486" y1="196" x2="464" y2="212" stroke="#e0645c" stroke-width="1"/>
+  <text x="488" y="196" fill="#e0645c" font-size="11">SOL width &#955;q (mm)</text>
+
+  <!-- ===== divertor legs (open SOL field lines) carrying exhaust to targets, coral ===== -->
+  <path d="M 335 356 C 360 378 392 396 420 410" fill="none" stroke="#e0645c" stroke-width="2.2"/>
+  <path d="M 325 356 C 300 378 268 396 240 410" fill="none" stroke="#e0645c" stroke-width="2.2"/>
+  <!-- inner (private-flux) leg hints, fainter -->
+  <path d="M 330 356 C 338 378 346 396 352 408" fill="none" stroke="#4a90d9" stroke-width="1" stroke-opacity="0.5" stroke-dasharray="3 3"/>
+  <path d="M 330 356 C 322 378 314 396 308 408" fill="none" stroke="#4a90d9" stroke-width="1" stroke-opacity="0.5" stroke-dasharray="3 3"/>
+  <text x="286" y="380" fill="#8a8a8a" font-size="10">private</text>
+  <text x="290" y="392" fill="#8a8a8a" font-size="10">flux</text>
+
+  <!-- ===== divertor targets (grey, cooled plates), tilted for grazing incidence ===== -->
+  <line x1="205" y1="420" x2="286" y2="404" stroke="#8a8a8a" stroke-width="6" stroke-linecap="round"/>
+  <line x1="374" y1="404" x2="455" y2="420" stroke="#8a8a8a" stroke-width="6" stroke-linecap="round"/>
+  <text x="196" y="440" fill="#8a8a8a" font-size="11">cooled divertor targets</text>
+
+  <!-- coolant hint under targets -->
+  <path d="M 214 428 q 8 6 16 0 q 8 -6 16 0 q 8 6 16 0" fill="none" stroke="#4a90d9" stroke-width="1.2" stroke-opacity="0.7"/>
+  <path d="M 380 428 q 8 6 16 0 q 8 -6 16 0 q 8 6 16 0" fill="none" stroke="#4a90d9" stroke-width="1.2" stroke-opacity="0.7"/>
+
+  <!-- ===== heat-flux footprint on targets (coral) ===== -->
+  <line x1="228" y1="415" x2="256" y2="410" stroke="#e0645c" stroke-width="6" stroke-linecap="round"/>
+  <line x1="404" y1="410" x2="432" y2="415" stroke="#e0645c" stroke-width="6" stroke-linecap="round"/>
+  <text x="470" y="404" fill="#e0645c" font-size="11">q&#8869; footprint</text>
+  <text x="470" y="420" fill="#e0645c" font-size="11">(tens of MW/m&#178;)</text>
+
+  <!-- ===== radiation dissipation cloud near the divertor (coral squiggles + seed label) ===== -->
+  <path d="M 322 388 q 6 -6 12 0 q 6 6 12 0" fill="none" stroke="#e0645c" stroke-width="1.2" stroke-opacity="0.8"/>
+  <path d="M 300 400 q 6 -6 12 0 q 6 6 12 0" fill="none" stroke="#e0645c" stroke-width="1.2" stroke-opacity="0.8"/>
+  <path d="M 356 400 q 6 -6 12 0 q 6 6 12 0" fill="none" stroke="#e0645c" stroke-width="1.2" stroke-opacity="0.8"/>
+  <text x="470" y="360" fill="#e0645c" font-size="11">seed impurity radiates</text>
+  <text x="470" y="376" fill="#e0645c" font-size="11">power away (f_rad)</text>
+
+  <!-- power-crossing-separatrix arrow, outboard midplane -->
+  <line x1="424" y1="240" x2="452" y2="248" stroke="#e0645c" stroke-width="1.6"/>
+  <polygon points="452,248 442,246 445,238" fill="#e0645c"/>
+  <text x="358" y="256" fill="#e0645c" font-size="11">P crosses separatrix</text>
+</svg>

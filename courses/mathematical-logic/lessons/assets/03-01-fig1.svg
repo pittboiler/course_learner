@@ -1,0 +1,27 @@
+<svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="640" height="320" fill="#ffffff"/>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#111111"/>
+    </marker>
+  </defs>
+
+  <!-- Left box: R in R -->
+  <rect x="60" y="130" width="170" height="70" rx="10" fill="#ffffff" stroke="#111111" stroke-width="2.5"/>
+  <text x="145" y="174" font-family="Helvetica, Arial, sans-serif" font-size="30" text-anchor="middle" fill="#111111">R &#8712; R</text>
+
+  <!-- Right box: R not in R -->
+  <rect x="410" y="130" width="170" height="70" rx="10" fill="#ffffff" stroke="#111111" stroke-width="2.5"/>
+  <text x="495" y="174" font-family="Helvetica, Arial, sans-serif" font-size="30" text-anchor="middle" fill="#111111">R &#8713; R</text>
+
+  <!-- Top arc: R in R  =>  R not in R -->
+  <path d="M 235 135 Q 320 55 405 135" fill="none" stroke="#111111" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="320" y="48" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#111111">if R &#8712; R, it satisfies the rule x &#8713; x</text>
+
+  <!-- Bottom arc: R not in R  =>  R in R -->
+  <path d="M 405 205 Q 320 285 235 205" fill="none" stroke="#111111" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="320" y="300" font-family="Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle" fill="#111111">if R &#8713; R, it qualifies for R</text>
+
+  <text x="320" y="180" font-family="Helvetica, Arial, sans-serif" font-size="20" text-anchor="middle" fill="#111111" font-style="italic">no stable</text>
+  <text x="320" y="205" font-family="Helvetica, Arial, sans-serif" font-size="20" text-anchor="middle" fill="#111111" font-style="italic">truth value</text>
+</svg>

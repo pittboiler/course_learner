@@ -1,0 +1,79 @@
+<svg viewBox="0 0 640 440" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="24" y="22" fill="#8a8a8a" font-style="italic">Up a heated channel the vapor reorganizes: bubbly to slug to churn to annular as void climbs. The wall film thins toward the top.</text>
+
+  <!-- liquid base fill of the channel -->
+  <rect x="220" y="64" width="120" height="340" fill="#4a90d9" opacity="0.12"/>
+
+  <!-- channel walls -->
+  <line x1="220" y1="64" x2="220" y2="404" stroke="#8a8a8a" stroke-width="2.5"/>
+  <line x1="340" y1="64" x2="340" y2="404" stroke="#8a8a8a" stroke-width="2.5"/>
+
+  <!-- band separators -->
+  <line x1="220" y1="319" x2="340" y2="319" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="220" y1="234" x2="340" y2="234" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="220" y1="149" x2="340" y2="149" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- ===== BUBBLY band (bottom, y 319 to 404): dispersed vapor bubbles ===== -->
+  <circle cx="245" cy="392" r="5" fill="#e0645c"/>
+  <circle cx="275" cy="384" r="4" fill="#e0645c"/>
+  <circle cx="305" cy="394" r="5" fill="#e0645c"/>
+  <circle cx="322" cy="375" r="4" fill="#e0645c"/>
+  <circle cx="250" cy="368" r="6" fill="#e0645c"/>
+  <circle cx="288" cy="362" r="5" fill="#e0645c"/>
+  <circle cx="315" cy="352" r="4" fill="#e0645c"/>
+  <circle cx="268" cy="346" r="5" fill="#e0645c"/>
+  <circle cx="298" cy="335" r="6" fill="#e0645c"/>
+  <circle cx="236" cy="350" r="4" fill="#e0645c"/>
+  <circle cx="322" cy="330" r="5" fill="#e0645c"/>
+
+  <!-- ===== SLUG band (y 234 to 319): Taylor bubbles spanning the channel ===== -->
+  <!-- small coalescing bubbles in the lower liquid slug -->
+  <circle cx="255" cy="312" r="4" fill="#e0645c"/>
+  <circle cx="290" cy="310" r="5" fill="#e0645c"/>
+  <circle cx="318" cy="313" r="4" fill="#e0645c"/>
+  <!-- Taylor bubble (bullet shape, thin liquid film at the walls) -->
+  <path d="M 237 303 L 237 262 Q 280 244 323 262 L 323 303 Q 280 312 237 303 Z" fill="#e0645c"/>
+  <!-- second Taylor nose forming above -->
+  <path d="M 245 249 Q 280 236 315 249 L 315 240 Q 280 232 245 240 Z" fill="#e0645c"/>
+
+  <!-- ===== CHURN band (y 149 to 234): chaotic, oscillating vapor ===== -->
+  <ellipse cx="266" cy="207" rx="28" ry="17" fill="#e0645c"/>
+  <ellipse cx="306" cy="180" rx="22" ry="15" fill="#e0645c"/>
+  <ellipse cx="256" cy="166" rx="19" ry="13" fill="#e0645c"/>
+  <ellipse cx="302" cy="216" rx="15" ry="11" fill="#e0645c"/>
+  <ellipse cx="288" cy="192" rx="7" ry="6" fill="#4a90d9" opacity="0.6"/>
+  <ellipse cx="248" cy="224" rx="8" ry="6" fill="#4a90d9" opacity="0.6"/>
+
+  <!-- ===== ANNULAR band (top, y 64 to 149): liquid film on walls, vapor core, droplets ===== -->
+  <!-- vapor core -->
+  <path d="M 232 149 L 328 149 L 335 64 L 225 64 Z" fill="#e0645c" opacity="0.55"/>
+  <!-- liquid films on both walls, thinning toward the top -->
+  <path d="M 220 149 L 232 149 L 225 64 L 220 64 Z" fill="#4a90d9" opacity="0.6"/>
+  <path d="M 340 149 L 328 149 L 335 64 L 340 64 Z" fill="#4a90d9" opacity="0.6"/>
+  <!-- entrained liquid droplets in the vapor core -->
+  <circle cx="272" cy="122" r="3" fill="#4a90d9"/>
+  <circle cx="295" cy="101" r="3" fill="#4a90d9"/>
+  <circle cx="260" cy="90" r="3" fill="#4a90d9"/>
+  <circle cx="286" cy="134" r="3" fill="#4a90d9"/>
+  <circle cx="278" cy="76" r="3" fill="#4a90d9"/>
+
+  <!-- ===== right-hand regime labels ===== -->
+  <text x="356" y="106" fill="#8a8a8a" font-weight="bold">annular</text>
+  <text x="356" y="122" fill="#8a8a8a" font-size="11">film + vapor core</text>
+  <text x="356" y="191" fill="#8a8a8a" font-weight="bold">churn</text>
+  <text x="356" y="207" fill="#8a8a8a" font-size="11">chaotic</text>
+  <text x="356" y="276" fill="#8a8a8a" font-weight="bold">slug / plug</text>
+  <text x="356" y="292" fill="#8a8a8a" font-size="11">Taylor bubbles</text>
+  <text x="356" y="361" fill="#8a8a8a" font-weight="bold">bubbly</text>
+  <text x="356" y="377" fill="#8a8a8a" font-size="11">dispersed bubbles</text>
+
+  <!-- ===== left-hand elevation / quality arrow ===== -->
+  <line x1="180" y1="404" x2="180" y2="70" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="180,64 175,74 185,74" fill="#8a8a8a"/>
+  <text x="40" y="398" fill="#8a8a8a" font-size="12">x &#8776; 0</text>
+  <text x="40" y="413" fill="#8a8a8a" font-size="12">&#945; &#8776; 0</text>
+  <text x="40" y="78" fill="#8a8a8a" font-size="12">x &#8776; 0.15</text>
+  <text x="40" y="93" fill="#8a8a8a" font-size="12">&#945; &#8776; 0.78</text>
+  <text x="98" y="238" fill="#8a8a8a" font-size="12">flow &#8593;</text>
+</svg>

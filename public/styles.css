@@ -78,6 +78,7 @@ a { color: var(--accent); }
 .badge.active { color: var(--good); border-color: var(--good); }
 .badge.ready { color: var(--accent); border-color: var(--accent); }
 .badge.locked { color: var(--locked); }
+.badge.syllabus { color: var(--warn); border-color: var(--warn); border-style: dashed; }
 .tier-tag {
   display: inline-block; margin-left: 6px; font-size: 11px; font-weight: 600;
   letter-spacing: 0.04em; text-transform: uppercase; padding: 1px 8px;
@@ -256,3 +257,11 @@ body.ink-writing [id$="-feedback"] { -webkit-user-select: text; user-select: tex
   .md details { border: 1px solid #bbb; }
   .md details summary { color: #000; }
 }
+
+.notice {
+  border: 1px solid var(--line); border-left: 3px solid var(--warn);
+  background: var(--panel); border-radius: 8px; padding: 12px 14px;
+  margin: 16px 0; color: var(--ink); font-size: 14px; line-height: 1.5;
+}
+.notice.syllabus-only strong { color: var(--warn); }
+.notice code { font-size: 13px; }

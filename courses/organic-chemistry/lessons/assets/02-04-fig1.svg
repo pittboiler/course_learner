@@ -1,0 +1,105 @@
+<svg viewBox="0 0 680 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="24" y="24" fill="#8a8a8a" font-style="italic">E2: base grabs the anti-periplanar &#946;-H as the leaving group departs and a &#960; bond snaps into place &#8212; then the grid decides which of the four you get.</text>
+
+  <!-- ================= LEFT: E2 anti-periplanar transition state ================= -->
+  <text x="30" y="58" fill="#8a8a8a" font-weight="bold">E2 transition state</text>
+
+  <!-- base, incoming -->
+  <text x="34" y="98" fill="#e0645c" font-weight="bold">B:</text>
+  <text x="52" y="92" fill="#e0645c" font-size="10">&#8212;</text>
+
+  <!-- beta-H -->
+  <text x="112" y="88" fill="#8a8a8a">H</text>
+  <!-- C-H bond (breaking) -->
+  <line x1="118" y1="98" x2="150" y2="146" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="4 3"/>
+
+  <!-- beta and alpha carbons -->
+  <text x="150" y="158" fill="#8a8a8a" font-weight="bold">C&#946;</text>
+  <text x="150" y="230" fill="#8a8a8a" font-weight="bold">C&#945;</text>
+
+  <!-- forming pi / C-C bond (blue = new alkene) -->
+  <line x1="160" y1="164" x2="160" y2="212" stroke="#4a90d9" stroke-width="3"/>
+  <line x1="172" y1="166" x2="172" y2="210" stroke="#4a90d9" stroke-width="2" stroke-dasharray="4 3"/>
+  <text x="182" y="192" fill="#4a90d9">&#960; forming</text>
+
+  <!-- other substituents (context, grey) -->
+  <line x1="150" y1="150" x2="120" y2="170" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="168" y1="222" x2="198" y2="242" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- C-LG bond (breaking) -->
+  <line x1="155" y1="228" x2="128" y2="272" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <!-- leaving group -->
+  <text x="98" y="290" fill="#8a8a8a">Br</text>
+  <text x="118" y="284" fill="#8a8a8a" font-size="10">&#948;&#8722;</text>
+
+  <!-- anti-periplanar axis: H and Br on opposite sides, 180 deg -->
+  <line x1="118" y1="94" x2="112" y2="284" stroke="#e0645c" stroke-width="1" stroke-dasharray="2 5" opacity="0.7"/>
+  <text x="30" y="192" fill="#e0645c" font-size="11">anti-periplanar</text>
+  <text x="30" y="208" fill="#e0645c" font-size="11">H&#8230;LG = 180&#176;</text>
+
+  <!-- curved arrow: base -> H -->
+  <path d="M 58 96 Q 88 78 110 82" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+  <polygon points="110,82 101,79 105,88" fill="#e0645c"/>
+
+  <!-- curved arrow: C-H bond -> C-C (pi) -->
+  <path d="M 138 128 Q 128 150 150 174" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+  <polygon points="150,174 141,170 148,164" fill="#e0645c"/>
+
+  <!-- curved arrow: C-LG bond -> Br leaving -->
+  <path d="M 142 252 Q 122 258 116 274" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+  <polygon points="116,274 121,266 124,275" fill="#e0645c"/>
+
+  <!-- product hint -->
+  <text x="228" y="150" fill="#4a90d9" font-size="12">alkene</text>
+  <text x="228" y="168" fill="#4a90d9" font-size="12">C=C</text>
+
+  <!-- divider -->
+  <line x1="300" y1="46" x2="300" y2="336" stroke="#8a8a8a" stroke-width="1" opacity="0.4"/>
+
+  <!-- ================= RIGHT: SN1/SN2/E1/E2 decision grid ================= -->
+  <text x="330" y="58" fill="#8a8a8a" font-weight="bold">The decision grid</text>
+
+  <!-- column headers -->
+  <text x="398" y="82" fill="#8a8a8a" font-size="10">weak base/Nu</text>
+  <text x="398" y="95" fill="#8a8a8a" font-size="10">(H&#8322;O, ROH)</text>
+  <text x="490" y="82" fill="#8a8a8a" font-size="10">strong Nu,</text>
+  <text x="490" y="95" fill="#8a8a8a" font-size="10">weak base (I&#8722;)</text>
+  <text x="590" y="82" fill="#8a8a8a" font-size="10">strong base</text>
+  <text x="590" y="95" fill="#8a8a8a" font-size="10">(RO&#8722;, HO&#8722;)</text>
+
+  <!-- grid lines -->
+  <line x1="360" y1="104" x2="668" y2="104" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="360" y1="156" x2="668" y2="156" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="360" y1="208" x2="668" y2="208" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="360" y1="260" x2="668" y2="260" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="360" y1="104" x2="360" y2="260" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="482" y1="70" x2="482" y2="260" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="578" y1="70" x2="578" y2="260" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- row labels -->
+  <text x="368" y="136" fill="#8a8a8a" font-weight="bold">1&#176;</text>
+  <text x="368" y="188" fill="#8a8a8a" font-weight="bold">2&#176;</text>
+  <text x="368" y="240" fill="#8a8a8a" font-weight="bold">3&#176;</text>
+
+  <!-- 1 deg row -->
+  <text x="404" y="136" fill="#8a8a8a" font-size="13">(slow)</text>
+  <text x="500" y="136" fill="#8a8a8a" font-size="13" font-weight="bold">SN2</text>
+  <text x="586" y="130" fill="#8a8a8a" font-size="13" font-weight="bold">SN2</text>
+  <text x="586" y="147" fill="#4a90d9" font-size="11">E2 if bulky</text>
+
+  <!-- 2 deg row -->
+  <text x="398" y="188" fill="#4a90d9" font-size="13" font-weight="bold">SN1/E1</text>
+  <text x="500" y="188" fill="#8a8a8a" font-size="13" font-weight="bold">SN2</text>
+  <text x="592" y="188" fill="#4a90d9" font-size="13" font-weight="bold">E2</text>
+
+  <!-- 3 deg row -->
+  <text x="398" y="240" fill="#4a90d9" font-size="13" font-weight="bold">SN1/E1</text>
+  <text x="494" y="240" fill="#4a90d9" font-size="13" font-weight="bold">SN1/E1</text>
+  <text x="592" y="240" fill="#4a90d9" font-size="13" font-weight="bold">E2</text>
+
+  <!-- footnotes -->
+  <text x="330" y="286" fill="#e0645c" font-size="11">bulky base (t-BuOK) &#8594; E2, Hofmann (less-subst.) alkene</text>
+  <text x="330" y="304" fill="#8a8a8a" font-size="11">blue = elimination pathway &#183; heat always favors elimination</text>
+  <text x="330" y="322" fill="#8a8a8a" font-size="11">no SN2 at 3&#176; (too crowded) &#183; no carbocation at 1&#176; (too unstable)</text>
+</svg>

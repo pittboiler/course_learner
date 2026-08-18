@@ -1,0 +1,70 @@
+<svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="20" y="24" fill="#8a8a8a" font-style="italic">The central dogma: DNA copies itself, is read into mRNA, and mRNA is read three bases at a time into protein.</text>
+
+  <!-- ===== top row: DNA -> mRNA -> protein ===== -->
+
+  <!-- DNA node -->
+  <rect x="40" y="95" width="110" height="55" rx="10" fill="#4a90d9" opacity="0.14" stroke="#4a90d9" stroke-width="2"/>
+  <text x="95" y="128" fill="#4a90d9" text-anchor="middle" font-size="18">DNA</text>
+
+  <!-- replication self-loop -->
+  <path d="M 74 95 C 58 42, 132 42, 116 95" fill="none" stroke="#8a8a8a" stroke-width="1.8"/>
+  <polygon points="116,95 109,84 122,86" fill="#8a8a8a"/>
+  <text x="95" y="38" fill="#8a8a8a" text-anchor="middle" font-style="italic">replication</text>
+
+  <!-- transcription arrow -->
+  <line x1="150" y1="122" x2="262" y2="122" stroke="#8a8a8a" stroke-width="1.8"/>
+  <polygon points="262,122 251,117 251,127" fill="#8a8a8a"/>
+  <text x="206" y="112" fill="#8a8a8a" text-anchor="middle" font-style="italic">transcription</text>
+
+  <!-- mRNA node -->
+  <rect x="265" y="95" width="110" height="55" rx="10" fill="#4a90d9" opacity="0.14" stroke="#4a90d9" stroke-width="2"/>
+  <text x="320" y="128" fill="#4a90d9" text-anchor="middle" font-size="18">mRNA</text>
+
+  <!-- translation arrow -->
+  <line x1="375" y1="122" x2="487" y2="122" stroke="#8a8a8a" stroke-width="1.8"/>
+  <polygon points="487,122 476,117 476,127" fill="#8a8a8a"/>
+  <text x="431" y="112" fill="#8a8a8a" text-anchor="middle" font-style="italic">translation</text>
+
+  <!-- protein node -->
+  <rect x="490" y="95" width="110" height="55" rx="10" fill="#4a90d9" opacity="0.14" stroke="#4a90d9" stroke-width="2"/>
+  <text x="545" y="128" fill="#4a90d9" text-anchor="middle" font-size="18">protein</text>
+
+  <!-- dashed connector: mRNA down to the codon strip -->
+  <line x1="320" y1="150" x2="320" y2="196" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- ===== codon strip: read three bases at a time ===== -->
+  <text x="130" y="214" fill="#8a8a8a">5&#8242;</text>
+  <text x="410" y="214" fill="#8a8a8a">3&#8242;</text>
+
+  <!-- codon boxes -->
+  <rect x="158" y="200" width="66" height="34" rx="5" fill="none" stroke="#4a90d9" stroke-width="1.8"/>
+  <text x="191" y="223" fill="#4a90d9" text-anchor="middle" font-family="monospace" font-size="16">AUG</text>
+
+  <rect x="230" y="200" width="66" height="34" rx="5" fill="none" stroke="#4a90d9" stroke-width="1.8"/>
+  <text x="263" y="223" fill="#4a90d9" text-anchor="middle" font-family="monospace" font-size="16">GCC</text>
+
+  <rect x="302" y="200" width="66" height="34" rx="5" fill="none" stroke="#4a90d9" stroke-width="1.8"/>
+  <text x="335" y="223" fill="#4a90d9" text-anchor="middle" font-family="monospace" font-size="16">UAA</text>
+
+  <!-- arrows from each codon down to its amino acid -->
+  <line x1="191" y1="234" x2="191" y2="274" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="191,274 186,264 196,264" fill="#e0645c"/>
+  <line x1="263" y1="234" x2="263" y2="274" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="263,274 258,264 268,264" fill="#e0645c"/>
+  <line x1="335" y1="234" x2="335" y2="274" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="335,274 330,264 340,264" fill="#e0645c"/>
+
+  <!-- amino acid row -->
+  <text x="191" y="292" fill="#e0645c" text-anchor="middle">Met</text>
+  <text x="191" y="308" fill="#8a8a8a" text-anchor="middle" font-size="11">(start)</text>
+  <text x="263" y="292" fill="#e0645c" text-anchor="middle">Ala</text>
+  <text x="335" y="292" fill="#e0645c" text-anchor="middle">STOP</text>
+  <text x="335" y="308" fill="#8a8a8a" text-anchor="middle" font-size="11">(release)</text>
+
+  <!-- one codon = one amino acid annotation -->
+  <text x="430" y="252" fill="#8a8a8a" font-style="italic">64 codons</text>
+  <text x="430" y="270" fill="#8a8a8a" font-style="italic">&#8594; 20 amino acids</text>
+  <text x="430" y="288" fill="#8a8a8a" font-style="italic">+ start / stop</text>
+</svg>

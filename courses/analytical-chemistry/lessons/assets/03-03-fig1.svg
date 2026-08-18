@@ -1,0 +1,74 @@
+<svg viewBox="0 0 640 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Potentiometry: E is a straight line in log(activity), slope 59/z mV per decade &#8212; read the unknown&#8217;s E back to its activity.</text>
+
+  <!-- ===== left: calibration line E vs log a ===== -->
+
+  <!-- E axis -->
+  <line x1="70" y1="255" x2="70" y2="58" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,58 65,68 75,68" fill="#8a8a8a"/>
+  <text x="44" y="66" fill="#8a8a8a">E (mV)</text>
+  <!-- log a axis -->
+  <line x1="60" y1="250" x2="398" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="398,250 388,245 388,255" fill="#8a8a8a"/>
+  <text x="340" y="272" fill="#8a8a8a">log a_ion</text>
+
+  <!-- x ticks -->
+  <line x1="147.5" y1="250" x2="147.5" y2="255" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="225" y1="250" x2="225" y2="255" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="302.5" y1="250" x2="302.5" y2="255" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="380" y1="250" x2="380" y2="255" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="60" y="270" fill="#8a8a8a">-4</text>
+  <text x="140" y="270" fill="#8a8a8a">-3</text>
+  <text x="218" y="270" fill="#8a8a8a">-2</text>
+  <text x="295" y="270" fill="#8a8a8a">-1</text>
+  <text x="376" y="270" fill="#8a8a8a">0</text>
+
+  <!-- the calibration line -->
+  <line x1="70" y1="247.6" x2="380" y2="70" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- slope triangle (coral): one decade run, 59/z mV rise -->
+  <line x1="147.5" y1="203.2" x2="225" y2="203.2" stroke="#e0645c" stroke-width="1.5"/>
+  <line x1="225" y1="203.2" x2="225" y2="158.8" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="150" y="222" fill="#e0645c">1 decade</text>
+  <text x="231" y="186" fill="#e0645c">59/z mV</text>
+
+  <!-- unknown mapping (coral dashed): E_x = 130 mV -> log a_x = -1.86 -->
+  <line x1="70" y1="152.5" x2="236" y2="152.5" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <line x1="236" y1="152.5" x2="236" y2="250" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <circle cx="236" cy="152.5" r="4" fill="#e0645c"/>
+  <text x="78" y="146" fill="#e0645c">E_x</text>
+  <text x="214" y="244" fill="#e0645c">a_x</text>
+
+  <!-- ===== right: cell schematic ===== -->
+
+  <!-- voltmeter -->
+  <circle cx="522" cy="82" r="17" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="516" y="88" fill="#8a8a8a">V</text>
+  <!-- wires -->
+  <line x1="509" y1="72" x2="490" y2="72" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="490" y1="72" x2="490" y2="118" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="535" y1="72" x2="556" y2="72" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="556" y1="72" x2="556" y2="118" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- beaker + solution -->
+  <line x1="452" y1="150" x2="452" y2="252" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="452" y1="252" x2="594" y2="252" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="594" y1="150" x2="594" y2="252" stroke="#8a8a8a" stroke-width="2"/>
+  <rect x="454" y="178" width="138" height="72" fill="#4a90d9" opacity="0.10"/>
+  <path d="M 454 178 q 12 -7 23 0 t 23 0 t 23 0 t 23 0 t 23 0" fill="none" stroke="#4a90d9" stroke-width="1.2" opacity="0.5"/>
+
+  <!-- indicator electrode (blue) -->
+  <rect x="484" y="118" width="12" height="112" fill="#4a90d9" opacity="0.20" stroke="#4a90d9" stroke-width="2"/>
+  <text x="440" y="298" fill="#4a90d9">indicator (ISE)</text>
+  <line x1="490" y1="230" x2="470" y2="292" stroke="#4a90d9" stroke-width="1" stroke-dasharray="2 3"/>
+
+  <!-- reference electrode (coral tip) -->
+  <rect x="550" y="118" width="12" height="112" fill="#8a8a8a" opacity="0.15" stroke="#8a8a8a" stroke-width="2"/>
+  <rect x="550" y="214" width="12" height="16" fill="#e0645c" opacity="0.30" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="560" y="298" fill="#8a8a8a">reference</text>
+  <line x1="556" y1="230" x2="576" y2="292" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 3"/>
+
+  <!-- E_cell label -->
+  <text x="452" y="46" fill="#8a8a8a" font-style="italic">E_cell = E_ind &#8722; E_ref</text>
+</svg>

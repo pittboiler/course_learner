@@ -1,0 +1,57 @@
+<svg viewBox="0 0 620 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Left: an Arrhenius plot &#8212; ln k vs 1/T is a line of slope &#8722;E&#8336;/R. Right: the barrier E&#8336; crossed at the transition state (&#8225;).</text>
+
+  <!-- ===== left: Arrhenius plot ===== -->
+  <!-- axes -->
+  <line x1="70" y1="238" x2="292" y2="238" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="292,238 282,233 282,243" fill="#8a8a8a"/>
+  <text x="278" y="258" fill="#8a8a8a">1/T</text>
+  <line x1="70" y1="238" x2="70" y2="66" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,66 65,76 75,76" fill="#8a8a8a"/>
+  <text x="46" y="72" fill="#8a8a8a">ln k</text>
+
+  <!-- the straight line (negative slope) -->
+  <line x1="88" y1="92" x2="268" y2="208" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- intercept marker -->
+  <line x1="70" y1="80" x2="80" y2="80" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="26" y="84" fill="#8a8a8a">ln A</text>
+
+  <!-- slope triangle (coral) -->
+  <line x1="150" y1="131.9" x2="210" y2="131.9" stroke="#e0645c" stroke-width="1.5"/>
+  <line x1="210" y1="131.9" x2="210" y2="170.6" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="188" y="126" fill="#e0645c">slope</text>
+  <text x="216" y="156" fill="#e0645c">&#8722;E&#8336;/R</text>
+
+  <!-- ===== right: reaction-coordinate barrier ===== -->
+  <!-- axes -->
+  <line x1="352" y1="238" x2="596" y2="238" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="596,238 586,233 586,243" fill="#8a8a8a"/>
+  <text x="470" y="258" fill="#8a8a8a">reaction coordinate</text>
+  <line x1="352" y1="238" x2="352" y2="66" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="352,66 347,76 357,76" fill="#8a8a8a"/>
+  <text x="336" y="72" fill="#8a8a8a">G</text>
+
+  <!-- barrier path: reactants (170) -> peak (95) -> products (205) -->
+  <path d="M 360 170 L 392 170 C 420 170 432 100 462 95 C 492 100 508 205 540 205 L 585 205"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- transition-state marker at peak -->
+  <circle cx="462" cy="95" r="4" fill="#e0645c"/>
+  <text x="470" y="90" fill="#e0645c">&#8225; transition state</text>
+
+  <!-- guide lines -->
+  <line x1="392" y1="170" x2="440" y2="170" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="440" y1="95" x2="480" y2="95" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- Ea / dG-double-dagger double arrow (coral) -->
+  <line x1="410" y1="170" x2="410" y2="95" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="410,95 406,104 414,104" fill="#e0645c"/>
+  <polygon points="410,170 406,161 414,161" fill="#e0645c"/>
+  <text x="368" y="136" fill="#e0645c">E&#8336; &#8776; &#916;&#8225;G</text>
+
+  <!-- reactant / product labels -->
+  <text x="358" y="188" fill="#8a8a8a">reactants</text>
+  <text x="540" y="223" fill="#8a8a8a">products</text>
+</svg>

@@ -1,0 +1,35 @@
+<svg viewBox="0 0 620 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Neutrons drift down the flux gradient: the net current J points from crowded to empty.</text>
+
+  <!-- axes -->
+  <line x1="60" y1="250" x2="575" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="575,250 565,245 565,255" fill="#8a8a8a"/>
+  <text x="579" y="255" fill="#8a8a8a">x</text>
+  <line x1="60" y1="250" x2="60" y2="55" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="60,55 55,65 65,65" fill="#8a8a8a"/>
+  <text x="40" y="62" fill="#8a8a8a">&#966;</text>
+
+  <!-- flux profile (high left, low right) -->
+  <path d="M 60 80 L 110 114.5 L 160 142.1 L 210 164.0 L 260 181.5 L 310 195.4 L 360 206.5 L 410 215.4 L 460 222.4 L 510 228.0 L 560 232.5"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="86" y="74" fill="#4a90d9">&#966;(x)</text>
+
+  <!-- region labels -->
+  <text x="70" y="270" fill="#8a8a8a">high flux</text>
+  <text x="490" y="270" fill="#8a8a8a">low flux</text>
+
+  <!-- drifting neutron dots -->
+  <circle cx="170" cy="150" r="4" fill="#8a8a8a"/>
+  <circle cx="235" cy="150" r="4" fill="#8a8a8a"/>
+  <circle cx="300" cy="150" r="4" fill="#8a8a8a"/>
+
+  <!-- net current arrow (down-gradient, +x) -->
+  <line x1="150" y1="150" x2="380" y2="150" stroke="#e0645c" stroke-width="3"/>
+  <polygon points="380,150 368,144 368,156" fill="#e0645c"/>
+  <text x="390" y="155" fill="#e0645c">J = &#8722;D&#8711;&#966;</text>
+
+  <!-- gradient hint: slope tangent at a point -->
+  <line x1="210" y1="164.0" x2="260" y2="181.5" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="222" y="200" fill="#8a8a8a">&#8711;&#966; &#60; 0</text>
+</svg>

@@ -1,0 +1,68 @@
+<svg viewBox="0 0 660 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Radius grows toward the bottom-left; Z&#8203;eff, IE and EN grow toward the top-right &#8212; but the sawtooth hides two dips.</text>
+
+  <!-- ===== left: periodic-table schematic with trend arrows ===== -->
+  <text x="40" y="52" fill="#8a8a8a">Periodic table (schematic)</text>
+
+  <!-- table grid: 8 cols x 5 rows -->
+  <g stroke="#8a8a8a" stroke-width="1" fill="none">
+    <rect x="40" y="70" width="280" height="175"/>
+    <line x1="40"  y1="105" x2="320" y2="105"/>
+    <line x1="40"  y1="140" x2="320" y2="140"/>
+    <line x1="40"  y1="175" x2="320" y2="175"/>
+    <line x1="40"  y1="210" x2="320" y2="210"/>
+    <line x1="75"  y1="70"  x2="75"  y2="245"/>
+    <line x1="110" y1="70"  x2="110" y2="245"/>
+    <line x1="145" y1="70"  x2="145" y2="245"/>
+    <line x1="180" y1="70"  x2="180" y2="245"/>
+    <line x1="215" y1="70"  x2="215" y2="245"/>
+    <line x1="250" y1="70"  x2="250" y2="245"/>
+    <line x1="285" y1="70"  x2="285" y2="245"/>
+  </g>
+
+  <!-- coral arrow: IE / EN / Zeff increase toward top-right -->
+  <line x1="90" y1="215" x2="285" y2="92" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="285,92 273,95 280,105" fill="#e0645c"/>
+  <text x="150" y="130" fill="#e0645c" transform="rotate(-32 150 130)">IE, EN, Z&#8203;eff &#8593;</text>
+
+  <!-- blue arrow: radius increases toward bottom-left -->
+  <line x1="270" y1="100" x2="70" y2="228" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="70,228 82,225 76,215" fill="#4a90d9"/>
+  <text x="118" y="205" fill="#4a90d9" transform="rotate(-32 118 205)">atomic radius &#8595;</text>
+
+  <!-- ===== right: IE-vs-Z sawtooth inset (period 2: Li..Ne) ===== -->
+  <text x="392" y="52" fill="#8a8a8a">First ionization energy across period 2</text>
+
+  <!-- axes -->
+  <line x1="395" y1="90" x2="395" y2="248" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="395" y1="248" x2="632" y2="248" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="395,90 390,100 400,100" fill="#8a8a8a"/>
+  <polygon points="632,248 622,243 622,253" fill="#8a8a8a"/>
+  <text x="372" y="100" fill="#8a8a8a">IE</text>
+  <text x="612" y="266" fill="#8a8a8a">Z &#8594;</text>
+
+  <!-- the sawtooth: Li Be B C N O F Ne -->
+  <path d="M400,243.1 L431.4,207.6 L462.9,216.8 L494.3,190.1 L525.7,160.4 L557.1,168.7 L588.6,134.3 L620,96.8"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <!-- element labels -->
+  <g fill="#8a8a8a" font-size="11" text-anchor="middle">
+    <text x="400"   y="262">Li</text>
+    <text x="431.4" y="262">Be</text>
+    <text x="462.9" y="262">B</text>
+    <text x="494.3" y="262">C</text>
+    <text x="525.7" y="262">N</text>
+    <text x="557.1" y="262">O</text>
+    <text x="588.6" y="262">F</text>
+    <text x="620"   y="262">Ne</text>
+  </g>
+
+  <!-- anomaly dip markers -->
+  <circle cx="462.9" cy="216.8" r="5" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <circle cx="557.1" cy="168.7" r="5" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <text x="455" y="298" fill="#e0645c" font-size="11" text-anchor="middle">Be&#8594;B dip</text>
+  <line x1="462.9" y1="221.8" x2="462.9" y2="288" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="562" y="316" fill="#e0645c" font-size="11" text-anchor="middle">N&#8594;O dip</text>
+  <line x1="557.1" y1="173.7" x2="557.1" y2="306" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+</svg>

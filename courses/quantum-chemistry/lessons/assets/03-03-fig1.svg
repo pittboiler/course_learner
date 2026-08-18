@@ -1,0 +1,62 @@
+<svg viewBox="0 0 640 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">MP2: promote a pair (i,j) into virtuals (a,b); each excitation lowers E by (coupling)&#178; over its orbital-energy gap.</text>
+
+  <!-- ===== left: MO energy ladder ===== -->
+
+  <!-- energy axis -->
+  <line x1="70" y1="315" x2="70" y2="60" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,60 65,72 75,72" fill="#8a8a8a"/>
+  <text x="46" y="66" fill="#8a8a8a">energy</text>
+
+  <!-- occupied levels (blue) -->
+  <line x1="110" y1="280" x2="230" y2="280" stroke="#4a90d9" stroke-width="3"/>
+  <text x="238" y="285" fill="#4a90d9"><tspan>&#949;</tspan><tspan baseline-shift="sub" font-size="10">i</tspan></text>
+  <line x1="110" y1="245" x2="230" y2="245" stroke="#4a90d9" stroke-width="3"/>
+  <text x="238" y="250" fill="#4a90d9"><tspan>&#949;</tspan><tspan baseline-shift="sub" font-size="10">j</tspan></text>
+
+  <!-- electron pairs on occupied levels (blue dots) -->
+  <circle cx="150" cy="280" r="4" fill="#4a90d9"/>
+  <circle cx="190" cy="280" r="4" fill="#4a90d9"/>
+  <circle cx="150" cy="245" r="4" fill="#4a90d9"/>
+  <circle cx="190" cy="245" r="4" fill="#4a90d9"/>
+
+  <!-- occupied bracket label -->
+  <text x="96" y="305" fill="#8a8a8a" font-size="12">occupied (HF)</text>
+
+  <!-- gap marker -->
+  <line x1="90" y1="245" x2="90" y2="130" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <polygon points="90,130 86,140 94,140" fill="#8a8a8a"/>
+  <polygon points="90,245 86,235 94,235" fill="#8a8a8a"/>
+  <text x="14" y="192" fill="#8a8a8a" font-size="12">HOMO&#8211;LUMO</text>
+  <text x="40" y="207" fill="#8a8a8a" font-size="12">gap</text>
+
+  <!-- virtual levels (grey, empty) -->
+  <line x1="110" y1="130" x2="230" y2="130" stroke="#8a8a8a" stroke-width="3"/>
+  <text x="238" y="135" fill="#8a8a8a"><tspan>&#949;</tspan><tspan baseline-shift="sub" font-size="10">a</tspan></text>
+  <line x1="110" y1="95" x2="230" y2="95" stroke="#8a8a8a" stroke-width="3"/>
+  <text x="238" y="100" fill="#8a8a8a"><tspan>&#949;</tspan><tspan baseline-shift="sub" font-size="10">b</tspan></text>
+  <text x="108" y="80" fill="#8a8a8a" font-size="12">virtual (empty)</text>
+
+  <!-- excitation arrows (coral): i -> a and j -> b -->
+  <line x1="150" y1="276" x2="150" y2="134" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="150,130 146,142 154,142" fill="#e0645c"/>
+  <circle cx="150" cy="130" r="4" fill="#e0645c"/>
+  <line x1="190" y1="241" x2="190" y2="99" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="190,95 186,107 194,107" fill="#e0645c"/>
+  <circle cx="190" cy="95" r="4" fill="#e0645c"/>
+  <text x="120" y="200" fill="#e0645c" font-size="12">i&#8594;a</text>
+  <text x="196" y="185" fill="#e0645c" font-size="12">j&#8594;b</text>
+
+  <!-- ===== right: the contribution formula ===== -->
+  <text x="330" y="150" fill="#8a8a8a">one double (ij &#8594; ab) contributes</text>
+
+  <!-- numerator -->
+  <text x="330" y="188" fill="#e0645c">| &#10216; ij || ab &#10217; |&#178;</text>
+  <!-- fraction bar -->
+  <line x1="330" y1="200" x2="560" y2="200" stroke="#8a8a8a" stroke-width="1.5"/>
+  <!-- denominator -->
+  <text x="330" y="222" fill="#e0645c"><tspan>&#949;</tspan><tspan baseline-shift="sub" font-size="10">i</tspan><tspan baseline-shift="baseline"> + </tspan><tspan>&#949;</tspan><tspan baseline-shift="sub" font-size="10">j</tspan><tspan baseline-shift="baseline"> &#8722; </tspan><tspan>&#949;</tspan><tspan baseline-shift="sub" font-size="10">a</tspan><tspan baseline-shift="baseline"> &#8722; </tspan><tspan>&#949;</tspan><tspan baseline-shift="sub" font-size="10">b</tspan></text>
+
+  <text x="330" y="256" fill="#8a8a8a" font-size="13">denominator &lt; 0 (occ. below virt.)</text>
+  <text x="330" y="276" fill="#4a90d9" font-size="13">&#8756; every term lowers the energy</text>
+</svg>

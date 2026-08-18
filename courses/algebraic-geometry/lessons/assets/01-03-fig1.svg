@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="640" height="320" fill="#ffffff"/>
+  <defs>
+    <marker id="ah" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#111111"/>
+    </marker>
+    <marker id="ah2" markerWidth="9" markerHeight="9" refX="1" refY="4" orient="auto">
+      <path d="M8,0 L0,4 L8,8 Z" fill="#111111"/>
+    </marker>
+  </defs>
+
+  <!-- titles -->
+  <text x="60" y="34" font-size="15" fill="#111111">Ideals — ascending chain (ACC)</text>
+  <text x="360" y="34" font-size="15" fill="#111111">Varieties — descending chain (DCC)</text>
+
+  <!-- baselines -->
+  <line x1="55" y1="272" x2="305" y2="272" stroke="#999999" stroke-width="1"/>
+  <line x1="355" y1="272" x2="605" y2="272" stroke="#999999" stroke-width="1"/>
+  <text x="150" y="292" font-size="12" fill="#666666">chain index n &#8594;</text>
+  <text x="452" y="292" font-size="12" fill="#666666">chain index n &#8594;</text>
+
+  <!-- LEFT: ideals rising then flat (higher = bigger ideal) -->
+  <polyline points="60,240 100,240 100,210 140,210 140,175 180,175 180,150 220,150 300,150"
+            fill="none" stroke="#1a56db" stroke-width="3"/>
+  <line x1="180" y1="60" x2="180" y2="255" stroke="#1a56db" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="188" y="74" font-size="12" fill="#1a56db">stabilizes at step N</text>
+  <text x="60" y="258" font-size="12" fill="#111111">size of ideal grows &#8593;</text>
+
+  <!-- RIGHT: varieties falling then flat (lower = smaller variety) -->
+  <polyline points="360,150 400,150 400,180 440,180 440,215 480,215 480,240 520,240 600,240"
+            fill="none" stroke="#b91c1c" stroke-width="3"/>
+  <line x1="480" y1="60" x2="480" y2="255" stroke="#b91c1c" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="488" y="74" font-size="12" fill="#b91c1c">stabilizes at step N</text>
+  <text x="360" y="140" font-size="12" fill="#111111">variety shrinks &#8595;</text>
+
+  <!-- bridge: order-reversing map -->
+  <line x1="308" y1="112" x2="352" y2="112" stroke="#111111" stroke-width="1.5"
+        marker-start="url(#ah2)" marker-end="url(#ah)"/>
+  <text x="330" y="104" font-size="11" fill="#111111" text-anchor="middle">V, I</text>
+  <text x="330" y="128" font-size="11" fill="#111111" text-anchor="middle">reverse order</text>
+</svg>

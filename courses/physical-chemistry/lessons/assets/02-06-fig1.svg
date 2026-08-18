@@ -1,0 +1,40 @@
+<svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Gibbs energy vs extent of reaction: the mixture slides downhill to the minimum, where &#916;&#8341;G = dG/d&#958; = 0.</text>
+
+  <!-- axes -->
+  <line x1="70" y1="290" x2="590" y2="290" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="590,290 580,285 580,295" fill="#8a8a8a"/>
+  <text x="470" y="312" fill="#8a8a8a">&#958;  (extent of reaction)</text>
+  <line x1="70" y1="290" x2="70" y2="58" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,58 65,68 75,68" fill="#8a8a8a"/>
+  <text x="46" y="70" fill="#8a8a8a">G</text>
+
+  <!-- end labels -->
+  <text x="52" y="308" fill="#8a8a8a">0</text>
+  <text x="540" y="308" fill="#8a8a8a">&#958;&#8347;&#8339;&#8342;</text>
+  <text x="82" y="126" fill="#8a8a8a">pure reactants</text>
+  <text x="470" y="150" fill="#8a8a8a">pure products</text>
+
+  <!-- the G(xi) well -->
+  <path d="M 70 130 L 110 160 L 150 190 L 190 215 L 230 235 L 270 247 L 300 250 L 340 246 L 390 235 L 440 220 L 490 200 L 560 172"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- equilibrium minimum -->
+  <line x1="300" y1="250" x2="300" y2="290" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <circle cx="300" cy="250" r="6" fill="#e0645c"/>
+  <text x="300" y="278" fill="#e0645c" text-anchor="middle">&#958;&#8337;&#8340;</text>
+  <text x="312" y="238" fill="#e0645c">equilibrium: &#916;&#8341;G = 0,  Q = K</text>
+
+  <!-- left region: Q<K, forward -->
+  <line x1="205" y1="205" x2="255" y2="230" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="255,230 245,227 249,220" fill="#e0645c"/>
+  <text x="120" y="200" fill="#e0645c">Q &lt; K</text>
+  <text x="108" y="218" fill="#8a8a8a">&#916;&#8341;G &lt; 0 (&#8594;)</text>
+
+  <!-- right region: Q>K, reverse -->
+  <line x1="400" y1="230" x2="350" y2="243" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="350,243 360,240 358,247" fill="#e0645c"/>
+  <text x="420" y="200" fill="#e0645c">Q &gt; K</text>
+  <text x="408" y="218" fill="#8a8a8a">&#916;&#8341;G &gt; 0 (&#8592;)</text>
+</svg>

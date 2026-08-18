@@ -1,0 +1,36 @@
+<svg viewBox="0 0 620 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Observed rate m vs true rate n: non-paralyzable saturates at 1/&#964;; paralyzable folds back over.</text>
+
+  <!-- axes -->
+  <line x1="70" y1="280" x2="575" y2="280" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="575,280 565,275 565,285" fill="#8a8a8a"/>
+  <text x="540" y="300" fill="#8a8a8a">true rate n</text>
+  <line x1="70" y1="280" x2="70" y2="50" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,50 65,60 75,60" fill="#8a8a8a"/>
+  <text x="82" y="52" fill="#8a8a8a">observed rate m</text>
+  <text x="52" y="285" fill="#8a8a8a">0</text>
+
+  <!-- saturation asymptote at 1/tau -->
+  <line x1="70" y1="60" x2="575" y2="60" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="30" y="64" fill="#8a8a8a">1/&#964;</text>
+
+  <!-- ideal m = n (grey) -->
+  <line x1="70" y1="280" x2="168" y2="60" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="172" y="76" fill="#8a8a8a">m = n (ideal)</text>
+
+  <!-- non-paralyzable (blue): m*tau = u/(1+u) -->
+  <path d="M 70 280 L 94.5 236 L 119 206.7 L 143.5 185.7 L 168 170 L 217 148 L 266 133.3 L 315 122.9 L 364 115 L 413 108.9 L 462 104 L 511 100 L 560 96.7"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="470" y="118" fill="#4a90d9">non-paralyzable</text>
+
+  <!-- paralyzable (coral): m*tau = u e^-u -->
+  <path d="M 70 280 L 94.5 237.2 L 119 213.3 L 143.5 202.1 L 168 199.1 L 192.5 201.2 L 217 206.4 L 266 220.5 L 315 234.9 L 364 247.1 L 413 256.7 L 462 263.9 L 511 269 L 560 272.6"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+  <text x="360" y="262" fill="#e0645c">paralyzable</text>
+
+  <!-- peak of paralyzable at u=1 -->
+  <circle cx="168" cy="199.1" r="4" fill="#e0645c"/>
+  <line x1="168" y1="199.1" x2="168" y2="280" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="150" y="298" fill="#e0645c">n = 1/&#964;</text>
+</svg>

@@ -1,0 +1,47 @@
+<svg viewBox="0 0 620 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Particles flow from high μ to low μ — the diffusive twin of heat flowing hot → cold — until μ equalizes.</text>
+
+  <!-- ===== left compartment: HIGH mu (coral) ===== -->
+  <rect x="56" y="80" width="200" height="170" fill="#e0645c" opacity="0.15" stroke="#e0645c" stroke-width="2"/>
+  <text x="118" y="72" fill="#e0645c">high μ (crowded)</text>
+
+  <!-- crowded particles, left -->
+  <circle cx="90"  cy="118" r="6" fill="#8a8a8a"/>
+  <circle cx="130" cy="106" r="6" fill="#8a8a8a"/>
+  <circle cx="176" cy="120" r="6" fill="#8a8a8a"/>
+  <circle cx="216" cy="110" r="6" fill="#8a8a8a"/>
+  <circle cx="102" cy="158" r="6" fill="#8a8a8a"/>
+  <circle cx="150" cy="150" r="6" fill="#8a8a8a"/>
+  <circle cx="196" cy="162" r="6" fill="#8a8a8a"/>
+  <circle cx="86"  cy="200" r="6" fill="#8a8a8a"/>
+  <circle cx="128" cy="210" r="6" fill="#8a8a8a"/>
+  <circle cx="172" cy="200" r="6" fill="#8a8a8a"/>
+  <circle cx="216" cy="212" r="6" fill="#8a8a8a"/>
+  <circle cx="110" cy="232" r="6" fill="#8a8a8a"/>
+  <circle cx="190" cy="230" r="6" fill="#8a8a8a"/>
+
+  <!-- ===== right compartment: LOW mu (blue) ===== -->
+  <rect x="364" y="80" width="200" height="170" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <text x="416" y="72" fill="#4a90d9">low μ (sparse)</text>
+
+  <!-- sparse particles, right -->
+  <circle cx="410" cy="132" r="6" fill="#8a8a8a"/>
+  <circle cx="500" cy="160" r="6" fill="#8a8a8a"/>
+  <circle cx="452" cy="212" r="6" fill="#8a8a8a"/>
+  <circle cx="524" cy="220" r="6" fill="#8a8a8a"/>
+
+  <!-- ===== connecting channel ===== -->
+  <rect x="256" y="146" width="108" height="38" fill="#8a8a8a" opacity="0.10" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 4"/>
+
+  <!-- net-flow arrow through the channel -->
+  <line x1="266" y1="165" x2="352" y2="165" stroke="#e0645c" stroke-width="3"/>
+  <polygon points="352,165 340,159 340,171" fill="#e0645c"/>
+  <text x="270" y="138" fill="#e0645c">net particle flow</text>
+
+  <!-- equilibrium condition -->
+  <text x="196" y="292" fill="#8a8a8a" font-style="italic">equilibrium when μ</text>
+  <text x="326" y="292" fill="#e0645c" font-style="italic">left</text>
+  <text x="352" y="292" fill="#8a8a8a" font-style="italic">= μ</text>
+  <text x="376" y="292" fill="#4a90d9" font-style="italic">right</text>
+</svg>

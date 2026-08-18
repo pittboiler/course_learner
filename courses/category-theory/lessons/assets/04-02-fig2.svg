@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 300" width="700" height="300">
+  <rect x="0" y="0" width="700" height="300" fill="#ffffff"/>
+
+  <!-- ===== multiplication m : M (x) M -> M  (two strings merge into one) ===== -->
+  <text x="150" y="42" font-family="Helvetica, Arial, sans-serif" font-size="20" font-style="italic" fill="#111111">M</text>
+  <text x="292" y="42" font-family="Helvetica, Arial, sans-serif" font-size="20" font-style="italic" fill="#111111">M</text>
+
+  <!-- two input wires curving into the node -->
+  <path d="M 156 52 Q 156 120 222 138" fill="none" stroke="#111111" stroke-width="2.5"/>
+  <path d="M 298 52 Q 298 120 232 138" fill="none" stroke="#111111" stroke-width="2.5"/>
+  <!-- merge node -->
+  <circle cx="227" cy="140" r="8" fill="#111111"/>
+  <text x="243" y="146" font-family="Helvetica, Arial, sans-serif" font-size="20" font-style="italic" fill="#111111">m</text>
+  <!-- output wire -->
+  <line x1="227" y1="148" x2="227" y2="250" stroke="#111111" stroke-width="2.5"/>
+  <text x="216" y="274" font-family="Helvetica, Arial, sans-serif" font-size="20" font-style="italic" fill="#111111">M</text>
+
+  <!-- ===== unit u : I -> M  (a string born from nothing: a cap) ===== -->
+  <!-- cap (source node, no input wires) -->
+  <circle cx="500" cy="72" r="8" fill="#111111"/>
+  <text x="516" y="78" font-family="Helvetica, Arial, sans-serif" font-size="20" font-style="italic" fill="#111111">u</text>
+  <!-- output wire -->
+  <line x1="500" y1="80" x2="500" y2="250" stroke="#111111" stroke-width="2.5"/>
+  <text x="489" y="274" font-family="Helvetica, Arial, sans-serif" font-size="20" font-style="italic" fill="#111111">M</text>
+
+  <!-- captions -->
+  <text x="150" y="112" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#111111">multiply</text>
+  <text x="470" y="112" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#111111">unit (no input wire = I)</text>
+</svg>

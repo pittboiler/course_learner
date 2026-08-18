@@ -1,0 +1,30 @@
+<svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="640" height="360" fill="#ffffff"/>
+
+  <!-- axes -->
+  <line x1="320" y1="40" x2="320" y2="330" stroke="#111111" stroke-width="1.5"/>
+  <line x1="60" y1="290" x2="600" y2="290" stroke="#111111" stroke-width="1.5"/>
+  <text x="305" y="52" fill="#111111" font-size="15" text-anchor="end">f</text>
+  <text x="600" y="310" fill="#111111" font-size="15">x</text>
+
+  <!-- fan of supporting lines through the vertex (dashed gray), slopes in [-1,1] -->
+  <line x1="110" y1="290" x2="530" y2="290" stroke="#2e9e5b" stroke-width="2.5" stroke-dasharray="6 4"/>
+  <line x1="110" y1="345" x2="530" y2="235" stroke="#9aa0a6" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <line x1="110" y1="235" x2="530" y2="345" stroke="#9aa0a6" stroke-width="1.5" stroke-dasharray="5 4"/>
+
+  <!-- V: f(x)=|x| (thick blue); arms are the extreme supporting lines g=+/-1 -->
+  <polyline points="100,70 320,290 540,70" fill="none" stroke="#1a56c4" stroke-width="3.5"/>
+
+  <!-- kink marker -->
+  <circle cx="320" cy="290" r="4.5" fill="#1a56c4"/>
+
+  <!-- labels -->
+  <text x="120" y="112" fill="#1a56c4" font-size="13">slope &#8722;1</text>
+  <text x="470" y="112" fill="#1a56c4" font-size="13">slope +1</text>
+  <text x="342" y="284" fill="#2e9e5b" font-size="13" font-weight="bold">slope 0</text>
+  <text x="240" y="322" fill="#6b7075" font-size="12">every slope in [&#8722;1, 1] is a subgradient at 0</text>
+
+  <!-- title / callout -->
+  <text x="60" y="30" fill="#111111" font-size="14" font-weight="bold">&#8706;f(0) = [&#8722;1, 1]: a fan of supporting lines at the kink</text>
+  <text x="60" y="350" fill="#2e9e5b" font-size="12.5">Since 0 &#8712; [&#8722;1,1], the flat line fits &#8658; x = 0 minimizes.</text>
+</svg>

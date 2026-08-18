@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 440" width="700" height="440">
+  <rect x="0" y="0" width="700" height="440" fill="#ffffff"/>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#111111"/>
+    </marker>
+  </defs>
+
+  <!-- corner labels -->
+  <text x="175" y="120" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-style="italic" fill="#111111">T<tspan dy="-12" font-size="19">3</tspan><tspan dy="12">X</tspan></text>
+  <text x="525" y="120" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-style="italic" fill="#111111">T<tspan dy="-12" font-size="19">2</tspan><tspan dy="12">X</tspan></text>
+  <text x="175" y="370" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-style="italic" fill="#111111">T<tspan dy="-12" font-size="19">2</tspan><tspan dy="12">X</tspan></text>
+  <text x="525" y="370" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-style="italic" fill="#111111">TX</text>
+
+  <!-- top: T mu -->
+  <line x1="230" y1="110" x2="470" y2="110" stroke="#111111" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="350" y="94" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#111111">T&#956;</text>
+
+  <!-- bottom: mu -->
+  <line x1="230" y1="360" x2="470" y2="360" stroke="#111111" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="350" y="388" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#111111">&#956;</text>
+
+  <!-- left: mu T -->
+  <line x1="175" y1="140" x2="175" y2="338" stroke="#111111" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="140" y="245" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#111111">&#956;T</text>
+
+  <!-- right: mu -->
+  <line x1="525" y1="140" x2="525" y2="338" stroke="#111111" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="558" y="245" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#111111">&#956;</text>
+
+  <!-- commutes -->
+  <text x="350" y="250" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="20" font-style="italic" fill="#111111">commutes</text>
+
+  <!-- caption -->
+  <text x="350" y="424" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#111111">&#956; &#8728; T&#956;&#160;&#160;=&#160;&#160;&#956; &#8728; &#956;T&#160;&#160;&#160;(flatten a triple-nested list either way)</text>
+</svg>

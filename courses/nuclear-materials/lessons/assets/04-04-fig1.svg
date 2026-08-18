@@ -1,0 +1,35 @@
+<svg viewBox="0 0 640 470" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="24" y="24" fill="#8a8a8a" font-style="italic">SCC needs all three legs at once. Irradiation feeds every leg &#8212; which is why it makes cracking worse.</text>
+
+  <!-- three overlapping circles -->
+  <circle cx="320" cy="185" r="120" fill="#4a90d9" fill-opacity="0.12" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="252" cy="305" r="120" fill="#e0645c" fill-opacity="0.12" stroke="#e0645c" stroke-width="2"/>
+  <circle cx="388" cy="305" r="120" fill="#8a8a8a" fill-opacity="0.12" stroke="#8a8a8a" stroke-width="2"/>
+
+  <!-- circle labels -->
+  <text x="320" y="120" fill="#4a90d9" font-weight="bold" text-anchor="middle">MATERIAL</text>
+  <text x="320" y="138" fill="#4a90d9" text-anchor="middle" font-size="12">susceptible</text>
+
+  <text x="196" y="352" fill="#e0645c" font-weight="bold" text-anchor="middle">STRESS</text>
+  <text x="196" y="370" fill="#e0645c" text-anchor="middle" font-size="12">tensile</text>
+
+  <text x="446" y="352" fill="#8a8a8a" font-weight="bold" text-anchor="middle">ENVIRONMENT</text>
+  <text x="446" y="370" fill="#8a8a8a" text-anchor="middle" font-size="12">aggressive</text>
+
+  <!-- central intersection = SCC -->
+  <text x="320" y="262" fill="#e0645c" font-weight="bold" text-anchor="middle" font-size="17">SCC</text>
+  <text x="320" y="280" fill="#8a8a8a" text-anchor="middle" font-size="11">all three</text>
+
+  <!-- irradiation annotations -->
+  <text x="320" y="430" fill="#8a8a8a" text-anchor="middle" font-weight="bold" font-size="12">what irradiation adds to each leg:</text>
+
+  <text x="150" y="452" fill="#4a90d9" font-size="12">RIS: Cr-depleted grain boundaries</text>
+  <text x="150" y="188" fill="#4a90d9" font-size="11" text-anchor="middle">RIS &#8594;</text>
+
+  <text x="120" y="300" fill="#e0645c" font-size="11" text-anchor="middle">hardening,</text>
+  <text x="120" y="315" fill="#e0645c" font-size="11" text-anchor="middle">channeling &#8594;</text>
+
+  <text x="520" y="300" fill="#8a8a8a" font-size="11" text-anchor="middle">radiolysis</text>
+  <text x="520" y="315" fill="#8a8a8a" font-size="11" text-anchor="middle">&#8592; raises ECP</text>
+</svg>

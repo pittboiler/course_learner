@@ -1,0 +1,130 @@
+<svg viewBox="0 0 700 470" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">The aldol: a base makes the enolate, the enolate's &#945;-carbon attacks a second carbonyl, then &#8722;H&#8322;O gives the conjugated enone.</text>
+
+  <!-- ============ STEP 1: enolate formation ============ -->
+  <text x="30" y="58" fill="#8a8a8a" font-style="italic">1 &#183; base pulls an &#945;-H &#8594; resonance-stabilized enolate</text>
+
+  <!-- base -->
+  <text x="42" y="112" fill="#e0645c">HO&#8315;</text>
+
+  <!-- acetaldehyde: H3C-CHO, alpha carbon = CH3 -->
+  <text x="92" y="97" fill="#8a8a8a">H</text>
+  <text x="100" y="130" fill="#8a8a8a">&#945;</text>
+  <line x1="112" y1="108" x2="150" y2="98" stroke="#8a8a8a" stroke-width="1.5"/>
+  <!-- carbonyl C=O -->
+  <line x1="152" y1="96" x2="168" y2="76" stroke="#4a90d9" stroke-width="1.5"/>
+  <line x1="158" y1="99" x2="174" y2="79" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="172" y="74" fill="#4a90d9">O</text>
+  <text x="150" y="118" fill="#8a8a8a">H</text>
+
+  <!-- curved arrow: base to alpha-H -->
+  <path d="M 66 100 Q 82 78 96 90" fill="none" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="96,90 88,86 92,95" fill="#e0645c"/>
+
+  <!-- reaction arrow -->
+  <line x1="196" y1="100" x2="228" y2="100" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="228,100 219,96 219,104" fill="#8a8a8a"/>
+
+  <!-- enolate resonance in coral brackets -->
+  <text x="240" y="80" fill="#e0645c" font-size="26">[</text>
+  <!-- form 1: carbanion  (-)CH2-CH=O -->
+  <text x="256" y="105" fill="#e0645c">C</text>
+  <text x="266" y="95" fill="#e0645c" font-size="11">&#8722;</text>
+  <line x1="272" y1="100" x2="298" y2="100" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="300" y1="98" x2="314" y2="80" stroke="#4a90d9" stroke-width="1.5"/>
+  <line x1="305" y1="101" x2="319" y2="83" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="316" y="78" fill="#4a90d9">O</text>
+
+  <!-- resonance arrow -->
+  <line x1="330" y1="100" x2="360" y2="100" stroke="#e0645c" stroke-width="1.2"/>
+  <polygon points="360,100 352,96 352,104" fill="#e0645c"/>
+  <polygon points="330,100 338,96 338,104" fill="#e0645c"/>
+
+  <!-- form 2: enolate  CH2=CH-O(-) -->
+  <text x="368" y="105" fill="#8a8a8a">C</text>
+  <line x1="380" y1="98" x2="404" y2="98" stroke="#e0645c" stroke-width="1.5"/>
+  <line x1="380" y1="103" x2="404" y2="103" stroke="#e0645c" stroke-width="1.5"/>
+  <line x1="406" y1="100" x2="422" y2="82" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="424" y="80" fill="#4a90d9">O</text>
+  <text x="438" y="76" fill="#e0645c" font-size="11">&#8722;</text>
+  <text x="452" y="80" fill="#e0645c" font-size="26">]</text>
+  <text x="270" y="128" fill="#8a8a8a" font-size="12">charge on C</text>
+  <text x="372" y="128" fill="#8a8a8a" font-size="12">charge on O (better)</text>
+
+  <!-- ============ STEP 2: enolate attacks a second carbonyl ============ -->
+  <text x="30" y="188" fill="#8a8a8a" font-style="italic">2 &#183; the enolate &#945;-carbon adds to a second carbonyl (nucleophilic addition)</text>
+
+  <!-- enolate nucleophile -->
+  <text x="60" y="255" fill="#8a8a8a">C</text>
+  <line x1="72" y1="248" x2="96" y2="248" stroke="#e0645c" stroke-width="1.5"/>
+  <line x1="72" y1="253" x2="96" y2="253" stroke="#e0645c" stroke-width="1.5"/>
+  <line x1="98" y1="250" x2="114" y2="232" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="116" y="230" fill="#4a90d9">O</text>
+  <text x="130" y="226" fill="#e0645c" font-size="11">&#8722;</text>
+  <text x="46" y="272" fill="#e0645c" font-size="12">nucleophile</text>
+
+  <!-- second acetaldehyde electrophile -->
+  <line x1="248" y1="250" x2="222" y2="240" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="204" y="236" fill="#8a8a8a">H&#8323;C</text>
+  <line x1="250" y1="248" x2="266" y2="228" stroke="#4a90d9" stroke-width="1.5"/>
+  <line x1="256" y1="251" x2="272" y2="231" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="270" y="226" fill="#4a90d9">O</text>
+  <text x="248" y="270" fill="#8a8a8a">C</text>
+  <text x="228" y="286" fill="#4a90d9" font-size="12">electrophile</text>
+
+  <!-- curved arrow: enolate alpha-C to carbonyl C (the new bond) -->
+  <path d="M 66 244 Q 150 200 244 246" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+  <polygon points="244,246 235,242 238,251" fill="#e0645c"/>
+  <text x="140" y="205" fill="#e0645c" font-size="12">new C&#8211;C bond</text>
+
+  <!-- curved arrow: C=O pi to O -->
+  <path d="M 262 240 Q 284 232 274 218" fill="none" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="274,218 274,227 281,221" fill="#e0645c"/>
+
+  <!-- ============ STEP 3: product then dehydration ============ -->
+  <text x="30" y="330" fill="#8a8a8a" font-style="italic">3 &#183; &#946;-hydroxy carbonyl (aldol addition product), then &#8722;H&#8322;O &#8594; conjugated enone</text>
+
+  <!-- 3-hydroxybutanal: OHC-CH2-CH(OH)-CH3 -->
+  <!-- carbonyl O -->
+  <line x1="72" y1="392" x2="88" y2="374" stroke="#4a90d9" stroke-width="1.5"/>
+  <line x1="77" y1="395" x2="93" y2="377" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="88" y="372" fill="#4a90d9">O</text>
+  <text x="52" y="398" fill="#8a8a8a">H</text>
+  <!-- C1 -->
+  <line x1="72" y1="392" x2="100" y2="392" stroke="#8a8a8a" stroke-width="1.5"/>
+  <!-- C1-C2 -->
+  <line x1="100" y1="392" x2="128" y2="376" stroke="#8a8a8a" stroke-width="1.5"/>
+  <!-- C2-C3 : the new bond, coral -->
+  <line x1="128" y1="376" x2="156" y2="392" stroke="#e0645c" stroke-width="2.4"/>
+  <text x="106" y="356" fill="#e0645c" font-size="12">new C&#8211;C</text>
+  <!-- C3-OH -->
+  <line x1="156" y1="392" x2="156" y2="416" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="146" y="432" fill="#8a8a8a">OH</text>
+  <!-- C3-C4 methyl -->
+  <line x1="156" y1="392" x2="184" y2="376" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="188" y="374" fill="#8a8a8a">CH&#8323;</text>
+  <text x="70" y="446" fill="#8a8a8a" font-size="12">3-hydroxybutanal</text>
+
+  <!-- dehydration arrow -->
+  <line x1="252" y1="392" x2="316" y2="392" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="316,392 307,388 307,396" fill="#8a8a8a"/>
+  <text x="258" y="384" fill="#8a8a8a" font-size="12">&#8722; H&#8322;O</text>
+  <text x="256" y="410" fill="#8a8a8a" font-size="12">(E1cb)</text>
+
+  <!-- 2-butenal (crotonaldehyde): OHC-CH=CH-CH3, conjugated -->
+  <line x1="352" y1="392" x2="368" y2="374" stroke="#4a90d9" stroke-width="1.5"/>
+  <line x1="357" y1="395" x2="373" y2="377" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="368" y="372" fill="#4a90d9">O</text>
+  <text x="332" y="398" fill="#8a8a8a">H</text>
+  <line x1="352" y1="392" x2="380" y2="392" stroke="#8a8a8a" stroke-width="1.5"/>
+  <!-- C1-C2 single -->
+  <line x1="380" y1="392" x2="408" y2="376" stroke="#4a90d9" stroke-width="1.5"/>
+  <!-- C2=C3 double, conjugated (blue) -->
+  <line x1="408" y1="376" x2="436" y2="392" stroke="#4a90d9" stroke-width="1.5"/>
+  <line x1="405" y1="381" x2="433" y2="397" stroke="#4a90d9" stroke-width="1.5"/>
+  <!-- C3-C4 -->
+  <line x1="436" y1="392" x2="464" y2="376" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="468" y="374" fill="#8a8a8a">CH&#8323;</text>
+  <text x="352" y="446" fill="#8a8a8a" font-size="12">2-butenal (enone: C=C&#8211;C=O conjugated)</text>
+</svg>

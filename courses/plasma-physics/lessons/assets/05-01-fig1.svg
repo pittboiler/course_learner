@@ -1,0 +1,49 @@
+<svg viewBox="0 0 620 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">The Lawson curve: how much confinement (n·τ_E) ignition demands at each temperature. Above the line, the plasma burns.</text>
+
+  <!-- ignition region shading (above the threshold curve) -->
+  <path d="M 161 60 L 218 116 L 254 148 L 302 177 L 344 196 L 385 204 L 418 206 L 466 202 L 516 193 L 560 182 L 560 50 L 161 50 Z"
+        fill="#4a90d9" opacity="0.15"/>
+  <text x="300" y="90" fill="#4a90d9" font-style="italic">ignition (self-sustaining burn)</text>
+
+  <!-- axes -->
+  <line x1="90" y1="300" x2="575" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="575,300 565,295 565,305" fill="#8a8a8a"/>
+  <line x1="90" y1="300" x2="90" y2="45" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="90,45 85,55 95,55" fill="#8a8a8a"/>
+
+  <!-- x ticks: log T -->
+  <line x1="90" y1="300" x2="90" y2="305" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="86" y="320" fill="#8a8a8a">1</text>
+  <line x1="325" y1="300" x2="325" y2="305" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="318" y="320" fill="#8a8a8a">10</text>
+  <line x1="560" y1="300" x2="560" y2="305" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="550" y="320" fill="#8a8a8a">100</text>
+  <text x="300" y="345" fill="#8a8a8a">temperature  T  (keV, log)</text>
+
+  <!-- y ticks: log n·tauE -->
+  <line x1="85" y1="300" x2="90" y2="300" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="46" y="304" fill="#8a8a8a">10¹⁹</text>
+  <line x1="85" y1="220" x2="90" y2="220" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="46" y="224" fill="#8a8a8a">10²⁰</text>
+  <line x1="85" y1="140" x2="90" y2="140" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="46" y="144" fill="#8a8a8a">10²¹</text>
+  <line x1="85" y1="60" x2="90" y2="60" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="46" y="64" fill="#8a8a8a">10²²</text>
+  <text x="20" y="180" fill="#8a8a8a" transform="rotate(-90 20 180)">n · τ_E   (m⁻³ s, log)</text>
+
+  <!-- ignition threshold curve (blue) -->
+  <path d="M 161 60 L 218 116 L 254 148 L 302 177 L 344 196 L 385 204 L 418 206 L 466 202 L 516 193 L 560 182"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- minimum of the curve (coral open ring) -->
+  <circle cx="418" cy="206" r="6" fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <line x1="418" y1="206" x2="418" y2="300" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="428" y="200" fill="#e0645c">easiest point:</text>
+  <text x="428" y="216" fill="#e0645c">T ≈ 25 keV,  n·τ_E ≈ 1.5×10²⁰</text>
+
+  <!-- record tokamak data point (coral filled) -->
+  <circle cx="352" cy="240" r="5" fill="#e0645c"/>
+  <text x="205" y="256" fill="#e0645c">record tokamak (below → net loss)</text>
+</svg>

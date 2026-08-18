@@ -1,0 +1,73 @@
+<svg viewBox="0 0 640 430" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <defs>
+    <marker id="ic1-coral" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <polygon points="0,0 9,3 0,6" fill="#e0645c"/>
+    </marker>
+    <marker id="ic1-blue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <polygon points="0,0 9,3 0,6" fill="#4a90d9"/>
+    </marker>
+    <marker id="ic1-grey" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <polygon points="0,0 9,3 0,6" fill="#8a8a8a"/>
+    </marker>
+  </defs>
+
+  <!-- caption -->
+  <text x="26" y="24" fill="#8a8a8a" font-style="italic">Cut the beam at section a&#8211;a; the left free body exposes N, V, M in their positive senses.</text>
+
+  <!-- ============ TOP: full simply supported beam ============ -->
+  <rect x="90" y="92" width="470" height="14" fill="#4a90d9" opacity="0.18" stroke="#4a90d9" stroke-width="2"/>
+
+  <!-- support A: pin -->
+  <polygon points="90,106 76,128 104,128" fill="none" stroke="#8a8a8a" stroke-width="1.6"/>
+  <line x1="72" y1="128" x2="108" y2="128" stroke="#8a8a8a" stroke-width="1.6"/>
+  <line x1="74" y1="136" x2="82" y2="128" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="84" y1="136" x2="92" y2="128" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="94" y1="136" x2="102" y2="128" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="70" y="152" fill="#8a8a8a">A</text>
+
+  <!-- support B: roller -->
+  <polygon points="560,106 546,124 574,124" fill="none" stroke="#8a8a8a" stroke-width="1.6"/>
+  <circle cx="551" cy="129" r="4" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+  <circle cx="569" cy="129" r="4" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="544" y1="135" x2="576" y2="135" stroke="#8a8a8a" stroke-width="1.6"/>
+  <text x="566" y="154" fill="#8a8a8a">B</text>
+
+  <!-- point load P at midspan -->
+  <line x1="325" y1="42" x2="325" y2="90" stroke="#e0645c" stroke-width="2.4" marker-end="url(#ic1-coral)"/>
+  <text x="332" y="58" fill="#e0645c">P</text>
+
+  <!-- cut line a-a -->
+  <line x1="235" y1="74" x2="235" y2="124" stroke="#8a8a8a" stroke-width="1.4" stroke-dasharray="4 4"/>
+  <text x="222" y="70" fill="#8a8a8a">a</text>
+  <text x="222" y="146" fill="#8a8a8a">a</text>
+
+  <!-- ============ BOTTOM: left free body ============ -->
+  <!-- beam segment A -> cut -->
+  <rect x="90" y="286" width="145" height="14" fill="#4a90d9" opacity="0.18" stroke="#4a90d9" stroke-width="2"/>
+  <!-- exposed cut face highlighted -->
+  <line x1="235" y1="286" x2="235" y2="300" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- reaction R_A (up) -->
+  <line x1="90" y1="344" x2="90" y2="302" stroke="#e0645c" stroke-width="2.4" marker-end="url(#ic1-coral)"/>
+  <text x="66" y="336" fill="#e0645c">R</text>
+  <text x="79" y="340" fill="#e0645c" font-size="10">A</text>
+  <text x="70" y="272" fill="#8a8a8a">A</text>
+
+  <!-- N: axial, points right (tension positive) -->
+  <line x1="235" y1="293" x2="300" y2="293" stroke="#4a90d9" stroke-width="2.4" marker-end="url(#ic1-blue)"/>
+  <text x="262" y="284" fill="#4a90d9">N</text>
+
+  <!-- V: shear, points down on the right face (positive) -->
+  <line x1="235" y1="300" x2="235" y2="352" stroke="#4a90d9" stroke-width="2.4" marker-end="url(#ic1-blue)"/>
+  <text x="241" y="336" fill="#4a90d9">V</text>
+
+  <!-- M: bending moment, counterclockwise on the right face (positive, sagging) -->
+  <path d="M 292 262 A 24 24 0 1 0 268 238" fill="none" stroke="#4a90d9" stroke-width="2.2" marker-end="url(#ic1-blue)"/>
+  <text x="300" y="252" fill="#4a90d9">M</text>
+
+  <!-- distance x from A to cut -->
+  <line x1="90" y1="372" x2="235" y2="372" stroke="#8a8a8a" stroke-width="1" marker-start="url(#ic1-grey)" marker-end="url(#ic1-grey)"/>
+  <line x1="90" y1="352" x2="90" y2="378" stroke="#8a8a8a" stroke-width="0.8" stroke-dasharray="3 3"/>
+  <line x1="235" y1="352" x2="235" y2="378" stroke="#8a8a8a" stroke-width="0.8" stroke-dasharray="3 3"/>
+  <text x="158" y="392" fill="#8a8a8a">x</text>
+</svg>

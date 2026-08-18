@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 330" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="700" height="330" fill="#ffffff"/>
+
+  <text x="350" y="24" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">The period-doubling cascade: parameter gaps shrink by &#948;</text>
+
+  <!-- chaos band after accumulation -->
+  <rect x="576" y="55" width="70" height="130" fill="#f0ede6"/>
+  <line x1="580" y1="55" x2="580" y2="185" stroke="#c9b48a" stroke-width="0.8"/>
+  <line x1="588" y1="55" x2="588" y2="185" stroke="#c9b48a" stroke-width="0.8"/>
+  <line x1="596" y1="55" x2="596" y2="185" stroke="#c9b48a" stroke-width="0.8"/>
+  <line x1="606" y1="55" x2="606" y2="185" stroke="#c9b48a" stroke-width="0.8"/>
+  <line x1="616" y1="55" x2="616" y2="185" stroke="#c9b48a" stroke-width="0.8"/>
+  <rect x="622" y="55" width="6" height="130" fill="#ffffff"/>
+  <line x1="632" y1="55" x2="632" y2="185" stroke="#c9b48a" stroke-width="0.8"/>
+  <line x1="640" y1="55" x2="640" y2="185" stroke="#c9b48a" stroke-width="0.8"/>
+  <text x="611" y="46" text-anchor="middle" font-size="12" fill="#8a6d3b">chaos</text>
+
+  <!-- period-doubling tree (schematic; ratio of gaps drawn near the true 4.669) -->
+  <g stroke="#1a1a1a" stroke-width="2" fill="none">
+    <path d="M55,120 L95,120"/>
+    <path d="M95,120 L470,82"/>
+    <path d="M95,120 L470,158"/>
+    <path d="M470,82 L550,66"/>
+    <path d="M470,82 L550,98"/>
+    <path d="M470,158 L550,142"/>
+    <path d="M470,158 L550,174"/>
+  </g>
+  <g stroke="#1a1a1a" stroke-width="1.4" fill="none">
+    <path d="M550,66 L567,60"/><path d="M550,66 L567,72"/>
+    <path d="M550,98 L567,92"/><path d="M550,98 L567,104"/>
+    <path d="M550,142 L567,136"/><path d="M550,142 L567,148"/>
+    <path d="M550,174 L567,168"/><path d="M550,174 L567,180"/>
+  </g>
+  <!-- faint continuation to accumulation -->
+  <g stroke="#7a7a7a" stroke-width="0.8" fill="none">
+    <path d="M567,60 L575,58"/><path d="M567,72 L575,74"/>
+    <path d="M567,92 L575,90"/><path d="M567,104 L575,106"/>
+    <path d="M567,136 L575,134"/><path d="M567,148 L575,150"/>
+    <path d="M567,168 L575,166"/><path d="M567,180 L575,182"/>
+  </g>
+
+  <!-- period labels -->
+  <text x="75"  y="112" text-anchor="middle" font-size="11" fill="#555555">1</text>
+  <text x="285" y="76"  text-anchor="middle" font-size="11" fill="#555555">2</text>
+  <text x="512" y="60"  text-anchor="middle" font-size="11" fill="#555555">4</text>
+  <text x="560" y="52"  text-anchor="middle" font-size="11" fill="#555555">8</text>
+
+  <!-- axis -->
+  <line x1="55" y1="210" x2="660" y2="210" stroke="#111111" stroke-width="1.5"/>
+  <text x="668" y="214" font-size="12" fill="#111111">r</text>
+
+  <!-- dashed markers -->
+  <g stroke="#c0392b" stroke-width="1" stroke-dasharray="4 3">
+    <line x1="95"  y1="55" x2="95"  y2="210"/>
+    <line x1="470" y1="55" x2="470" y2="210"/>
+    <line x1="550" y1="55" x2="550" y2="210"/>
+    <line x1="576" y1="55" x2="576" y2="210"/>
+  </g>
+
+  <!-- r labels -->
+  <text x="95"  y="224" text-anchor="middle" font-size="12" fill="#c0392b">r&#8321;=3</text>
+  <text x="470" y="224" text-anchor="middle" font-size="12" fill="#c0392b">r&#8322;</text>
+  <text x="550" y="224" text-anchor="middle" font-size="12" fill="#c0392b">r&#8323;</text>
+  <text x="562" y="238" text-anchor="middle" font-size="10" fill="#777777">r&#8324; r&#8325; &#8943;</text>
+  <text x="588" y="224" text-anchor="middle" font-size="12" fill="#c0392b">r&#8734;</text>
+
+  <!-- gap braces -->
+  <g stroke="#111111" stroke-width="1" fill="none">
+    <path d="M95,246 L95,240 L470,240 L470,246"/>
+    <path d="M470,254 L470,248 L550,248 L550,254"/>
+  </g>
+  <text x="282" y="262" text-anchor="middle" font-size="12" fill="#111111">&#916;&#8321; = r&#8322;&#8722;r&#8321; = 0.4495</text>
+  <text x="510" y="270" text-anchor="middle" font-size="11" fill="#111111">&#916;&#8322; = 0.0946</text>
+
+  <!-- ratio line -->
+  <text x="350" y="298" text-anchor="middle" font-size="13" fill="#333333">shrink ratio  &#916;&#8345;&#8331;&#8321;/&#916;&#8345; :   4.75  &#8594;  4.66  &#8594;  4.67  &#8594;  4.67  &#8943;   approaches   &#948; &#8776; 4.6692</text>
+  <text x="350" y="318" text-anchor="middle" font-size="12" fill="#777777">(and each doubling shrinks the vertical prong widths by &#945; &#8776; 2.5029 &#8212; the orbit diagram is self-similar)</text>
+</svg>

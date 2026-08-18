@@ -1,0 +1,57 @@
+<svg viewBox="0 0 440 410" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <!-- caption -->
+  <text x="20" y="18" fill="#8a8a8a" font-style="italic">Ramachandran plot: allowed backbone angle pairs (&#966;, &#968;).</text>
+  <text x="20" y="34" fill="#8a8a8a" font-style="italic">Blue = sterically allowed; coral dots = worked-example residues.</text>
+
+  <!-- plot frame -->
+  <rect x="60" y="40" width="320" height="320" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- zero gridlines -->
+  <line x1="220" y1="40" x2="220" y2="360" stroke="#8a8a8a" stroke-width="0.75" stroke-dasharray="2 4"/>
+  <line x1="60" y1="200" x2="380" y2="200" stroke="#8a8a8a" stroke-width="0.75" stroke-dasharray="2 4"/>
+
+  <!-- x ticks (phi) -->
+  <line x1="60" y1="360" x2="60" y2="366" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="48" y="380" fill="#8a8a8a">&#8722;180</text>
+  <line x1="140" y1="360" x2="140" y2="366" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="130" y="380" fill="#8a8a8a">&#8722;90</text>
+  <line x1="220" y1="360" x2="220" y2="366" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="215" y="380" fill="#8a8a8a">0</text>
+  <line x1="300" y1="360" x2="300" y2="366" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="292" y="380" fill="#8a8a8a">90</text>
+  <line x1="380" y1="360" x2="380" y2="366" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="370" y="380" fill="#8a8a8a">180</text>
+  <text x="205" y="400" fill="#8a8a8a">&#966; (phi), degrees</text>
+
+  <!-- y ticks (psi) -->
+  <line x1="54" y1="40" x2="60" y2="40" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="20" y="44" fill="#8a8a8a">180</text>
+  <line x1="54" y1="120" x2="60" y2="120" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="26" y="124" fill="#8a8a8a">90</text>
+  <line x1="54" y1="200" x2="60" y2="200" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="38" y="204" fill="#8a8a8a">0</text>
+  <line x1="54" y1="280" x2="60" y2="280" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="20" y="284" fill="#8a8a8a">&#8722;90</text>
+  <line x1="54" y1="360" x2="60" y2="360" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="14" y="364" fill="#8a8a8a">&#8722;180</text>
+  <text x="14" y="200" fill="#8a8a8a" transform="rotate(-90 14 200)">&#968; (psi), degrees</text>
+
+  <!-- allowed regions -->
+  <!-- beta-sheet (upper-left) -->
+  <ellipse cx="122" cy="84" rx="42" ry="32" fill="#4a90d9" opacity="0.18" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="92" y="54" fill="#4a90d9">&#946;-sheet</text>
+
+  <!-- right-handed alpha-helix (lower-left) -->
+  <ellipse cx="164" cy="237" rx="34" ry="26" fill="#4a90d9" opacity="0.18" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="120" y="308" fill="#4a90d9">right-handed &#945;-helix</text>
+
+  <!-- left-handed alpha-helix (upper-right) -->
+  <ellipse cx="273" cy="160" rx="22" ry="20" fill="#4a90d9" opacity="0.12" stroke="#4a90d9" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="238" y="134" fill="#4a90d9">left-handed &#945;</text>
+
+  <!-- worked-example residues -->
+  <circle cx="164" cy="237" r="4.5" fill="#e0645c"/>
+  <text x="172" y="234" fill="#e0645c">residue 1</text>
+  <circle cx="100" cy="80" r="4.5" fill="#e0645c"/>
+  <text x="108" y="78" fill="#e0645c">residue 2</text>
+</svg>

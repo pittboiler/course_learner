@@ -1,0 +1,58 @@
+<svg viewBox="0 0 720 430" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="60" y="24" fill="#8a8a8a" font-style="italic">Irradiation shoves the Charpy transition curve right (higher DBTT) and pulls its plateau down (lower upper shelf).</text>
+
+  <!-- ===== axes ===== -->
+  <!-- y axis: absorbed energy -->
+  <line x1="90" y1="360" x2="90" y2="48" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="90,48 85,60 95,60" fill="#8a8a8a"/>
+  <text x="34" y="58" fill="#8a8a8a">Charpy</text>
+  <text x="34" y="74" fill="#8a8a8a">energy</text>
+  <!-- x axis: temperature -->
+  <line x1="90" y1="360" x2="690" y2="360" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="690,360 678,355 678,365" fill="#8a8a8a"/>
+  <text x="600" y="384" fill="#8a8a8a">Temperature &#8594;</text>
+
+  <!-- reference index-energy line (e.g. 41 J) -->
+  <line x1="90" y1="250" x2="640" y2="250" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="96" y="244" fill="#8a8a8a" font-size="12">index energy (e.g. 41 J)</text>
+
+  <!-- ===== unirradiated curve (blue) ===== -->
+  <path d="M 95 328 C 190 326, 215 322, 245 305 C 275 288, 285 130, 315 105 C 345 82, 480 72, 660 70"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <!-- upper-shelf guide (blue) -->
+  <line x1="450" y1="70" x2="660" y2="70" stroke="#4a90d9" stroke-width="1" stroke-dasharray="2 5"/>
+
+  <!-- ===== irradiated curve (coral) ===== -->
+  <path d="M 95 335 C 240 333, 300 328, 360 312 C 400 300, 415 175, 450 150 C 490 128, 560 128, 660 128"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+  <!-- upper-shelf guide (coral) -->
+  <line x1="450" y1="128" x2="660" y2="128" stroke="#e0645c" stroke-width="1" stroke-dasharray="2 5"/>
+
+  <!-- DBTT drop lines from crossings to axis -->
+  <line x1="264" y1="250" x2="264" y2="360" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="394" y1="250" x2="394" y2="360" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <circle cx="264" cy="250" r="3.5" fill="#4a90d9"/>
+  <circle cx="394" cy="250" r="3.5" fill="#e0645c"/>
+
+  <!-- DBTT shift double arrow -->
+  <line x1="272" y1="286" x2="386" y2="286" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="264,286 274,281 274,291" fill="#e0645c"/>
+  <polygon points="394,286 384,281 384,291" fill="#e0645c"/>
+  <text x="329" y="278" fill="#e0645c" text-anchor="middle" font-weight="bold">&#916;DBTT</text>
+
+  <!-- upper-shelf-energy drop arrow (right side) -->
+  <line x1="672" y1="72" x2="672" y2="126" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="672,70 667,80 677,80" fill="#e0645c"/>
+  <polygon points="672,128 667,118 677,118" fill="#e0645c"/>
+  <text x="614" y="92" fill="#e0645c" font-size="12" text-anchor="middle">upper-shelf</text>
+  <text x="614" y="107" fill="#e0645c" font-size="12" text-anchor="middle">drop</text>
+
+  <!-- curve labels -->
+  <text x="470" y="60" fill="#4a90d9" font-weight="bold">unirradiated</text>
+  <text x="150" y="348" fill="#e0645c" font-weight="bold">irradiated</text>
+
+  <!-- brittle / ductile end tags -->
+  <text x="150" y="230" fill="#8a8a8a" font-size="12">brittle (cleavage)</text>
+  <text x="470" y="160" fill="#8a8a8a" font-size="12">ductile (tearing)</text>
+</svg>

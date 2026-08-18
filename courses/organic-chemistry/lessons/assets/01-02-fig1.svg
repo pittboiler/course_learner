@@ -1,0 +1,68 @@
+<svg viewBox="0 0 700 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="15">
+  <!-- caption -->
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Carboxylate: two contributors (curved arrows push the electrons) &#8212; the real molecule is the single hybrid, charge shared equally.</text>
+
+  <!-- ================= left bracket ================= -->
+  <path d="M 66 120 L 58 120 L 58 260 L 66 260" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <!-- ================= right bracket ================= -->
+  <path d="M 430 120 L 438 120 L 438 260 L 430 260" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- ================= Contributor A (Cx=125, Cy=195) ================= -->
+  <!-- R-C sigma -->
+  <line x1="86" y1="195" x2="118" y2="195" stroke="#4a90d9" stroke-width="2"/>
+  <text x="70" y="200" fill="#8a8a8a">R</text>
+  <!-- top C=O double bond (blue sigma + coral pi) -->
+  <line x1="129" y1="191" x2="162" y2="166" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="134" y1="198" x2="167" y2="173" stroke="#e0645c" stroke-width="2"/>
+  <text x="168" y="164" fill="#8a8a8a">O</text>
+  <!-- bottom C-O single bond, O carries minus -->
+  <line x1="129" y1="199" x2="162" y2="224" stroke="#4a90d9" stroke-width="2"/>
+  <text x="168" y="232" fill="#8a8a8a">O</text>
+  <text x="184" y="224" fill="#e0645c" font-size="17">&#8854;</text>
+  <!-- curved arrow: bottom O lone pair -> C-Obottom becomes double -->
+  <path d="M 180 216 Q 150 210 143 205" fill="none" stroke="#e0645c" stroke-width="1.6"/>
+  <polygon points="143,205 150,206 147,212" fill="#e0645c"/>
+  <!-- curved arrow: top C=O pi -> top O becomes lone pair/minus -->
+  <path d="M 150 176 Q 168 168 172 158" fill="none" stroke="#e0645c" stroke-width="1.6"/>
+  <polygon points="172,158 166,163 174,165" fill="#e0645c"/>
+
+  <!-- ================= resonance double-headed arrow ================= -->
+  <line x1="250" y1="195" x2="308" y2="195" stroke="#8a8a8a" stroke-width="1.8"/>
+  <polygon points="250,195 260,190 260,200" fill="#8a8a8a"/>
+  <polygon points="308,195 298,190 298,200" fill="#8a8a8a"/>
+
+  <!-- ================= Contributor B (Cx=355, Cy=195) mirror ================= -->
+  <line x1="316" y1="195" x2="348" y2="195" stroke="#4a90d9" stroke-width="2"/>
+  <text x="300" y="200" fill="#8a8a8a">R</text>
+  <!-- top C-O single, O minus -->
+  <line x1="359" y1="191" x2="392" y2="166" stroke="#4a90d9" stroke-width="2"/>
+  <text x="398" y="164" fill="#8a8a8a">O</text>
+  <text x="414" y="158" fill="#e0645c" font-size="17">&#8854;</text>
+  <!-- bottom C=O double -->
+  <line x1="359" y1="199" x2="392" y2="224" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="354" y1="206" x2="387" y2="231" stroke="#e0645c" stroke-width="2"/>
+  <text x="398" y="232" fill="#8a8a8a">O</text>
+
+  <!-- ================= equals to hybrid ================= -->
+  <line x1="456" y1="190" x2="476" y2="190" stroke="#8a8a8a" stroke-width="1.8"/>
+  <line x1="456" y1="200" x2="476" y2="200" stroke="#8a8a8a" stroke-width="1.8"/>
+
+  <!-- ================= Hybrid (Cx=545, Cy=195) ================= -->
+  <line x1="506" y1="195" x2="538" y2="195" stroke="#4a90d9" stroke-width="2"/>
+  <text x="490" y="200" fill="#8a8a8a">R</text>
+  <text x="533" y="180" fill="#e0645c" font-size="13">&#948;+</text>
+  <!-- top: sigma solid + dashed coral partial pi -->
+  <line x1="549" y1="191" x2="582" y2="166" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="554" y1="198" x2="587" y2="173" stroke="#e0645c" stroke-width="2" stroke-dasharray="3 3"/>
+  <text x="588" y="164" fill="#8a8a8a">O</text>
+  <text x="606" y="160" fill="#e0645c" font-size="13">&#948;&#8722;</text>
+  <!-- bottom: sigma solid + dashed coral partial pi -->
+  <line x1="549" y1="199" x2="582" y2="224" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="554" y1="192" x2="587" y2="217" stroke="#e0645c" stroke-width="2" stroke-dasharray="3 3"/>
+  <text x="588" y="232" fill="#8a8a8a">O</text>
+  <text x="606" y="236" fill="#e0645c" font-size="13">&#948;&#8722;</text>
+
+  <!-- labels -->
+  <text x="150" y="300" fill="#8a8a8a" font-style="italic" font-size="13">two Lewis contributors (not real)</text>
+  <text x="500" y="300" fill="#8a8a8a" font-style="italic" font-size="13">one true hybrid</text>
+</svg>

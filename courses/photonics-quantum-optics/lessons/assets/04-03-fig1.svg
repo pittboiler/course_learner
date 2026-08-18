@@ -1,0 +1,40 @@
+<svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">One blue pump photon splits inside the &#967;&#8317;&#178;&#8318; crystal into two &#8212; signal and idler &#8212; born on opposite sides of the cones.</text>
+
+  <!-- pump axis (dashed) -->
+  <line x1="330" y1="175" x2="600" y2="175" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 5"/>
+
+  <!-- faint cone edges: upper cone -->
+  <line x1="330" y1="175" x2="580" y2="70"  stroke="#8a8a8a" stroke-width="1" opacity="0.5"/>
+  <line x1="330" y1="175" x2="580" y2="128" stroke="#8a8a8a" stroke-width="1" opacity="0.5"/>
+  <!-- faint cone edges: lower cone -->
+  <line x1="330" y1="175" x2="580" y2="280" stroke="#8a8a8a" stroke-width="1" opacity="0.5"/>
+  <line x1="330" y1="175" x2="580" y2="222" stroke="#8a8a8a" stroke-width="1" opacity="0.5"/>
+
+  <!-- crystal slab -->
+  <rect x="250" y="120" width="80" height="110" fill="#8a8a8a" opacity="0.15" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="260" y="112" fill="#8a8a8a">&#967;&#8317;&#178;&#8318; crystal</text>
+  <text x="270" y="180" fill="#8a8a8a" font-size="12">(BBO)</text>
+
+  <!-- pump beam (blue) -->
+  <line x1="90" y1="175" x2="250" y2="175" stroke="#4a90d9" stroke-width="3"/>
+  <polygon points="250,175 240,170 240,180" fill="#4a90d9"/>
+  <text x="120" y="165" fill="#4a90d9">pump  &#969;p , kp</text>
+
+  <!-- signal photon (coral, upper) -->
+  <line x1="330" y1="175" x2="560" y2="99" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="560,99 548,99 554,109" fill="#e0645c"/>
+  <circle cx="560" cy="99" r="6" fill="#e0645c"/>
+  <text x="574" y="95" fill="#e0645c">signal  &#969;s , ks</text>
+
+  <!-- idler photon (coral, lower) -->
+  <line x1="330" y1="175" x2="560" y2="251" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="560,251 548,251 554,241" fill="#e0645c"/>
+  <circle cx="560" cy="251" r="6" fill="#e0645c"/>
+  <text x="574" y="256" fill="#e0645c">idler  &#969;i , ki</text>
+
+  <!-- conservation laws -->
+  <text x="40" y="292" fill="#8a8a8a">Energy:  &#969;p = &#969;s + &#969;i</text>
+  <text x="40" y="312" fill="#8a8a8a">Momentum:  kp = ks + ki   (phase matching)</text>
+</svg>

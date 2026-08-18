@@ -1,0 +1,60 @@
+<svg viewBox="0 0 560 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="560" height="380" fill="#ffffff"/>
+
+  <!-- title -->
+  <text x="280" y="26" font-size="15" fill="#111111" text-anchor="middle">Subcritical + saturation:  &#7819; = &#956;x + x&#179; &#8722; x&#8309;   (hysteresis)</text>
+
+  <!-- mu-axis -->
+  <line x1="30" y1="190" x2="525" y2="190" stroke="#111111" stroke-width="1.5"/>
+  <polygon points="525,190 515,185 515,195" fill="#111111"/>
+  <text x="530" y="195" font-size="15" fill="#111111" font-style="italic">&#956;</text>
+
+  <!-- x*-axis -->
+  <line x1="280" y1="55" x2="280" y2="330" stroke="#999999" stroke-width="1"/>
+  <text x="286" y="55" font-size="14" fill="#555555" font-style="italic">x*</text>
+
+  <!-- mu markers -->
+  <line x1="155" y1="186" x2="155" y2="194" stroke="#111111" stroke-width="1"/>
+  <text x="132" y="210" font-size="11" fill="#111111">&#956; = &#8722;&#188;</text>
+  <text x="284" y="210" font-size="11" fill="#111111">&#956; = 0</text>
+
+  <!-- x*=0 branch: stable for mu<0 (solid green), unstable for mu>0 (dashed red) -->
+  <line x1="30" y1="190" x2="280" y2="190" stroke="#15803d" stroke-width="2.6"/>
+  <line x1="280" y1="190" x2="470" y2="190" stroke="#b91c1c" stroke-width="2.2" stroke-dasharray="7 5"/>
+
+  <!-- upper OUTER stable branch (solid green) -->
+  <polyline fill="none" stroke="#15803d" stroke-width="2.6"
+    points="155,119.3 180,104.9 205,99.7 230,95.8 255,92.7 280,90 330,85.5 380,81.8 430,78.6 455,77.1"/>
+  <!-- upper MIDDLE unstable branch (dashed red) -->
+  <polyline fill="none" stroke="#b91c1c" stroke-width="2.2" stroke-dasharray="7 5"
+    points="155,119.3 180,137.4 205,147.1 230,156.4 255,167.0 280,190"/>
+
+  <!-- lower OUTER stable branch (solid green) -->
+  <polyline fill="none" stroke="#15803d" stroke-width="2.6"
+    points="155,260.7 180,275.1 205,280.3 230,284.2 255,287.3 280,290 330,294.5 380,298.2 430,301.4 455,302.9"/>
+  <!-- lower MIDDLE unstable branch (dashed red) -->
+  <polyline fill="none" stroke="#b91c1c" stroke-width="2.2" stroke-dasharray="7 5"
+    points="155,260.7 180,242.6 205,232.9 230,223.6 255,213.0 280,190"/>
+
+  <!-- saddle-node fold points -->
+  <circle cx="155" cy="119.3" r="4" fill="#111111"/>
+  <circle cx="155" cy="260.7" r="4" fill="#111111"/>
+  <text x="60" y="118" font-size="11" fill="#111111">saddle-node</text>
+  <text x="60" y="132" font-size="11" fill="#111111">(fold)</text>
+
+  <!-- hysteresis jump arrows (blue) -->
+  <!-- jump UP at mu=0+ : x*=0 loses stability, state leaps to outer branch -->
+  <line x1="292" y1="188" x2="292" y2="98" stroke="#1d4ed8" stroke-width="1.8" stroke-dasharray="4 3"/>
+  <polygon points="292,92 287,102 297,102" fill="#1d4ed8"/>
+  <text x="298" y="140" font-size="11" fill="#1d4ed8">jump up (&#956;&#8593; past 0)</text>
+  <!-- jump DOWN at mu=-1/4 : outer branch vanishes, state falls to 0 -->
+  <line x1="148" y1="127" x2="148" y2="184" stroke="#1d4ed8" stroke-width="1.8" stroke-dasharray="4 3"/>
+  <polygon points="148,190 143,180 153,180" fill="#1d4ed8"/>
+  <text x="40" y="250" font-size="11" fill="#1d4ed8">jump down (&#956;&#8595; past &#8722;&#188;)</text>
+
+  <!-- legend -->
+  <line x1="360" y1="335" x2="392" y2="335" stroke="#15803d" stroke-width="2.6"/>
+  <text x="397" y="339" font-size="11" fill="#111111">stable</text>
+  <line x1="445" y1="335" x2="477" y2="335" stroke="#b91c1c" stroke-width="2.2" stroke-dasharray="7 5"/>
+  <text x="482" y="339" font-size="11" fill="#111111">unstable</text>
+</svg>

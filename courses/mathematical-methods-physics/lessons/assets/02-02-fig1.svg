@@ -1,0 +1,35 @@
+<svg viewBox="0 0 560 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="26" fill="#8a8a8a" font-style="italic">Cauchy's theorem lets you shrink the contour C (blue) down onto a tiny circle</text>
+  <text x="30" y="44" fill="#8a8a8a" font-style="italic">around the one bad point z0 (coral) without changing the integral.</text>
+
+  <!-- little Re/Im axis reference, bottom-left corner -->
+  <line x1="60" y1="330" x2="128" y2="330" stroke="#8a8a8a" stroke-width="1.2"/>
+  <polygon points="128,330 119,326 119,334" fill="#8a8a8a"/>
+  <text x="132" y="335" fill="#8a8a8a">Re</text>
+  <line x1="60" y1="330" x2="60" y2="266" stroke="#8a8a8a" stroke-width="1.2"/>
+  <polygon points="60,266 56,275 64,275" fill="#8a8a8a"/>
+  <text x="46" y="266" fill="#8a8a8a">Im</text>
+
+  <!-- enclosed region: soft blue shading -->
+  <path d="M 170 130 C 210 80, 330 70, 390 110 C 450 150, 455 235, 400 275 C 345 315, 230 320, 185 275 C 145 235, 135 175, 170 130 Z"
+        fill="#4a90d9" opacity="0.15" stroke="none"/>
+
+  <!-- the closed contour C (blue) -->
+  <path d="M 170 130 C 210 80, 330 70, 390 110 C 450 150, 455 235, 400 275 C 345 315, 230 320, 185 275 C 145 235, 135 175, 170 130 Z"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="150" y="120" fill="#4a90d9" font-weight="bold">C</text>
+
+  <!-- orientation arrowhead on C: counterclockwise (Im up) => leftward across the top -->
+  <polygon points="248,73 260,68 260,78" fill="#4a90d9"/>
+
+  <!-- small dashed circle around z0 (the deformed contour) -->
+  <circle cx="318" cy="198" r="30" fill="none" stroke="#e0645c" stroke-width="2" stroke-dasharray="5 4"/>
+  <!-- orientation arrowhead on small circle: also counterclockwise, leftward across its top -->
+  <polygon points="312,168 322,164 322,172" fill="#e0645c"/>
+  <text x="264" y="180" fill="#e0645c" font-style="italic">C&#949;</text>
+
+  <!-- the pole / bad point z0 -->
+  <circle cx="318" cy="198" r="4.5" fill="#e0645c"/>
+  <text x="326" y="212" fill="#e0645c" font-weight="bold">z0</text>
+</svg>

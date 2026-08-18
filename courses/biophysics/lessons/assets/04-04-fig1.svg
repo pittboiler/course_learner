@@ -1,0 +1,73 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Concentration push vs electrical pull balance at each ion's Nernst voltage; V_m sits near V_K and slides toward V_Na as Na⁺ channels open.</text>
+
+  <!-- ===== left: membrane with ion gradients ===== -->
+
+  <!-- membrane bilayer band -->
+  <rect x="150" y="70" width="26" height="200" fill="#8a8a8a" opacity="0.15"/>
+  <line x1="150" y1="70" x2="150" y2="270" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="176" y1="70" x2="176" y2="270" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="128" y="288" fill="#8a8a8a" font-style="italic">membrane</text>
+
+  <!-- side labels -->
+  <text x="55" y="60" fill="#8a8a8a">outside</text>
+  <text x="200" y="60" fill="#8a8a8a">inside</text>
+
+  <!-- Na+ high outside (coral) -->
+  <text x="52" y="96" fill="#e0645c">Na⁺</text>
+  <text x="96" y="112" fill="#e0645c">Na⁺</text>
+  <text x="60" y="140" fill="#e0645c">Na⁺</text>
+  <text x="104" y="164" fill="#e0645c">Na⁺</text>
+  <text x="56" y="192" fill="#e0645c">Na⁺</text>
+  <text x="55" y="228" fill="#e0645c" font-style="italic">145 mM</text>
+
+  <!-- K+ high inside (blue) -->
+  <text x="192" y="96" fill="#4a90d9">K⁺</text>
+  <text x="232" y="112" fill="#4a90d9">K⁺</text>
+  <text x="200" y="140" fill="#4a90d9">K⁺</text>
+  <text x="236" y="164" fill="#4a90d9">K⁺</text>
+  <text x="196" y="192" fill="#4a90d9">K⁺</text>
+  <text x="196" y="228" fill="#4a90d9" font-style="italic">140 mM</text>
+
+  <!-- K+ concentration push: outward (inside -> outside), blue -->
+  <line x1="205" y1="248" x2="120" y2="248" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="120,248 130,243 130,253" fill="#4a90d9"/>
+  <text x="118" y="266" fill="#4a90d9">conc. push (out)</text>
+
+  <!-- electrical pull: inward, coral -->
+  <line x1="120" y1="120" x2="205" y2="120" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="205,120 195,115 195,125" fill="#e0645c"/>
+  <text x="118" y="112" fill="#e0645c">voltage pull (in, −)</text>
+
+  <!-- balance note -->
+  <text x="86" y="312" fill="#8a8a8a" font-style="italic">equal ⇒ V = V_K</text>
+
+  <!-- ===== right: voltage number line ===== -->
+
+  <!-- axis -->
+  <line x1="470" y1="60" x2="470" y2="285" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="486" y="52" fill="#8a8a8a">V_m (mV)</text>
+
+  <!-- 0 mV reference tick -->
+  <line x1="464" y1="152" x2="476" y2="152" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="440" y="157" fill="#8a8a8a">0</text>
+
+  <!-- V_Na at +60 (y=70), coral -->
+  <line x1="460" y1="70" x2="480" y2="70" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="486" y="75" fill="#e0645c">V_Na ≈ +60</text>
+
+  <!-- V_K at -86 (y=270), blue -->
+  <line x1="460" y1="270" x2="480" y2="270" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="486" y="275" fill="#4a90d9">V_K ≈ −86</text>
+
+  <!-- V_rest at -70 (y=248), coral dot near V_K -->
+  <circle cx="470" cy="248" r="5" fill="#e0645c"/>
+  <text x="486" y="252" fill="#e0645c">V_rest ≈ −70</text>
+
+  <!-- depolarization arrow: from rest upward toward V_Na -->
+  <line x1="512" y1="240" x2="512" y2="96" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <polygon points="512,96 507,106 517,106" fill="#e0645c"/>
+  <text x="520" y="176" fill="#e0645c">P_Na ↑</text>
+  <text x="520" y="194" fill="#8a8a8a" font-style="italic">depolarize</text>
+</svg>

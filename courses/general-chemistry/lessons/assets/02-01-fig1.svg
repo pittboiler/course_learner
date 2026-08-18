@@ -1,0 +1,52 @@
+<svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">The mole is the hub: everything routes through it. Multiply or divide by M and N&#8320; to move between grams, moles, and countable particles.</text>
+
+  <!-- ===== nodes ===== -->
+  <!-- Mass node (blue) -->
+  <rect x="40" y="103" width="130" height="54" rx="8" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <text x="105" y="126" fill="#4a90d9" text-anchor="middle">Mass</text>
+  <text x="105" y="144" fill="#4a90d9" text-anchor="middle" font-size="12">grams</text>
+
+  <!-- Moles node (blue) -->
+  <rect x="275" y="103" width="110" height="54" rx="8" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <text x="330" y="126" fill="#4a90d9" text-anchor="middle">Moles</text>
+  <text x="330" y="144" fill="#4a90d9" text-anchor="middle" font-size="12">mol</text>
+
+  <!-- Particles node (grey) -->
+  <rect x="470" y="103" width="155" height="54" rx="8" fill="#8a8a8a" opacity="0.12" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="547" y="126" fill="#8a8a8a" text-anchor="middle">Particles</text>
+  <text x="547" y="144" fill="#8a8a8a" text-anchor="middle" font-size="12">atoms &#183; molecules</text>
+
+  <!-- Volume of gas node (grey, preview) -->
+  <rect x="272" y="223" width="116" height="54" rx="8" fill="#8a8a8a" opacity="0.12" stroke="#8a8a8a" stroke-width="2" stroke-dasharray="4 4"/>
+  <text x="330" y="246" fill="#8a8a8a" text-anchor="middle">Volume of gas</text>
+  <text x="330" y="264" fill="#8a8a8a" text-anchor="middle" font-size="12">liters, at STP</text>
+
+  <!-- ===== conversion arrows (coral) ===== -->
+  <!-- Mass -> Moles (top) -->
+  <line x1="172" y1="118" x2="273" y2="118" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="273,118 265,114 265,122" fill="#e0645c"/>
+  <text x="222" y="112" fill="#e0645c" text-anchor="middle" font-size="13">&#247; M</text>
+  <!-- Moles -> Mass (bottom) -->
+  <line x1="273" y1="142" x2="172" y2="142" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="172,142 180,138 180,146" fill="#e0645c"/>
+  <text x="222" y="157" fill="#e0645c" text-anchor="middle" font-size="13">&#215; M</text>
+
+  <!-- Moles -> Particles (top) -->
+  <line x1="387" y1="118" x2="468" y2="118" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="468,118 460,114 460,122" fill="#e0645c"/>
+  <text x="427" y="112" fill="#e0645c" text-anchor="middle" font-size="13">&#215; N&#8320;</text>
+  <!-- Particles -> Moles (bottom) -->
+  <line x1="468" y1="142" x2="387" y2="142" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="387,142 395,138 395,146" fill="#e0645c"/>
+  <text x="427" y="157" fill="#e0645c" text-anchor="middle" font-size="13">&#247; N&#8320;</text>
+
+  <!-- Moles <-> Volume of gas (vertical, preview) -->
+  <line x1="316" y1="159" x2="316" y2="221" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="316,221 312,213 320,213" fill="#e0645c"/>
+  <line x1="344" y1="221" x2="344" y2="159" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="344,159 340,167 348,167" fill="#e0645c"/>
+  <text x="396" y="186" fill="#e0645c" font-size="12">&#215; 22.4 L/mol</text>
+  <text x="396" y="202" fill="#8a8a8a" font-size="12" font-style="italic">(gas &#8594; Lesson 3.1)</text>
+</svg>

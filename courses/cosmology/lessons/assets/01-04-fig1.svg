@@ -1,0 +1,40 @@
+<svg viewBox="0 0 620 390" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Each ingredient dilutes at its own rate: radiation fastest, matter next, &#923; not at all. Crossings = equality epochs.</text>
+
+  <!-- axes -->
+  <line x1="70" y1="360" x2="580" y2="360" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="580,360 570,355 570,365" fill="#8a8a8a"/>
+  <text x="500" y="382" fill="#8a8a8a">scale factor a  (log)</text>
+  <line x1="70" y1="360" x2="70" y2="45" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,45 65,55 75,55" fill="#8a8a8a"/>
+  <text x="34" y="60" fill="#8a8a8a">&#961; (log)</text>
+
+  <!-- "today" marker at a = 1 -->
+  <line x1="560" y1="360" x2="560" y2="52" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 5"/>
+  <text x="540" y="46" fill="#8a8a8a">a = 1 (today)</text>
+
+  <!-- radiation: rho ~ a^-4 (steepest, coral) -->
+  <line x1="105" y1="51.5" x2="560" y2="355" stroke="#e0645c" stroke-width="3"/>
+  <text x="120" y="86" fill="#e0645c">radiation &#8733; a<tspan font-size="10" dy="-6">&#8722;4</tspan></text>
+
+  <!-- matter: rho ~ a^-3 (blue) -->
+  <line x1="105" y1="87.5" x2="560" y2="315" stroke="#4a90d9" stroke-width="3"/>
+  <text x="250" y="138" fill="#4a90d9">matter &#8733; a<tspan font-size="10" dy="-6">&#8722;3</tspan></text>
+
+  <!-- Lambda: constant (grey dashed) -->
+  <line x1="88" y1="300" x2="560" y2="300" stroke="#8a8a8a" stroke-width="2.5" stroke-dasharray="8 5"/>
+  <text x="120" y="293" fill="#8a8a8a">&#923; = const (w = &#8722;1)</text>
+
+  <!-- radiation-matter equality crossing (320,195) -->
+  <circle cx="320" cy="195" r="4" fill="#8a8a8a"/>
+  <line x1="320" y1="195" x2="320" y2="360" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="326" y="345" fill="#8a8a8a" font-size="12">radiation&#8211;matter</text>
+  <text x="326" y="358" fill="#8a8a8a" font-size="12">equality</text>
+
+  <!-- matter-Lambda equality crossing (530,300) -->
+  <circle cx="530" cy="300" r="4" fill="#8a8a8a"/>
+  <line x1="530" y1="300" x2="530" y2="360" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="452" y="345" fill="#8a8a8a" font-size="12">matter&#8211;&#923;</text>
+  <text x="452" y="358" fill="#8a8a8a" font-size="12">equality</text>
+</svg>

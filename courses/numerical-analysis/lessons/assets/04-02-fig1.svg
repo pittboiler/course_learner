@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="640" height="400" fill="#ffffff"/>
+  <defs>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L7,3 L0,6 z" fill="#111111"/>
+    </marker>
+  </defs>
+
+  <!-- axes -->
+  <line x1="60" y1="360" x2="608" y2="360" stroke="#111111" stroke-width="1.5"/>
+  <line x1="60" y1="40"  x2="60"  y2="360" stroke="#111111" stroke-width="1.5"/>
+  <text x="600" y="380" font-size="13" fill="#111111">t</text>
+  <text x="42"  y="52"  font-size="13" fill="#111111">y</text>
+
+  <!-- vertical guides at t_n, t_n+h/2, t_n+h -->
+  <line x1="120" y1="70" x2="120" y2="360" stroke="#bbbbbb" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="340" y1="70" x2="340" y2="360" stroke="#bbbbbb" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="560" y1="70" x2="560" y2="360" stroke="#bbbbbb" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="106" y="378" font-size="13" fill="#111111">t&#8345;</text>
+  <text x="312" y="378" font-size="13" fill="#111111">t&#8345;+h/2</text>
+  <text x="540" y="378" font-size="13" fill="#111111">t&#8345;+h</text>
+
+  <!-- true solution curve -->
+  <path d="M120,300 C260,230 420,170 560,140" fill="none" stroke="#1f77b4" stroke-width="2"/>
+  <text x="430" y="128" font-size="12" fill="#1f77b4">true solution</text>
+
+  <!-- the actual RK4 step: chord with averaged slope -->
+  <line x1="120" y1="300" x2="556" y2="152" stroke="#111111" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="196" y="284" font-size="12.5" fill="#111111">RK4 step, slope = (k&#8321;+2k&#8322;+2k&#8323;+k&#8324;)/6</text>
+
+  <!-- start / end points -->
+  <circle cx="120" cy="300" r="4.5" fill="#111111"/>
+  <text x="86" y="316" font-size="12" fill="#111111">y&#8345;</text>
+  <circle cx="560" cy="150" r="4.5" fill="#111111"/>
+  <text x="566" y="150" font-size="12" fill="#111111">y&#8345;&#8330;&#8321;</text>
+
+  <!-- k1 : slope at the start -->
+  <line x1="72" y1="325" x2="172" y2="277" stroke="#d62728" stroke-width="2.5"/>
+  <text x="132" y="270" font-size="13" fill="#d62728" font-weight="bold">k&#8321;</text>
+
+  <!-- k2 : slope at midpoint (from the k1 trial point) -->
+  <line x1="296" y1="270" x2="386" y2="216" stroke="#2ca02c" stroke-width="2.5"/>
+  <text x="300" y="286" font-size="13" fill="#2ca02c" font-weight="bold">k&#8322;</text>
+
+  <!-- k3 : slope at midpoint (from the k2 trial point) -->
+  <line x1="314" y1="210" x2="404" y2="150" stroke="#9467bd" stroke-width="2.5"/>
+  <text x="388" y="146" font-size="13" fill="#9467bd" font-weight="bold">k&#8323;</text>
+
+  <!-- k4 : slope at the end -->
+  <line x1="512" y1="188" x2="612" y2="112" stroke="#ff7f0e" stroke-width="2.5"/>
+  <text x="576" y="106" font-size="13" fill="#ff7f0e" font-weight="bold">k&#8324;</text>
+
+  <!-- caption -->
+  <text x="60" y="30" font-size="12.5" fill="#111111">Four slope samples inside one step: k&#8321; at the start, k&#8322; and k&#8323; at the midpoint, k&#8324; at the end.</text>
+</svg>

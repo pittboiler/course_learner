@@ -1,0 +1,44 @@
+<svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Rotational absorption: a ladder of equally-spaced lines (spacing 2B) — Boltzmann sets which rung is tallest.</text>
+
+  <!-- intensity axis -->
+  <line x1="60" y1="255" x2="60" y2="70" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="60,70 55,80 65,80" fill="#8a8a8a"/>
+  <text x="34" y="66" fill="#8a8a8a">intensity</text>
+
+  <!-- frequency axis -->
+  <line x1="60" y1="255" x2="605" y2="255" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="605,255 595,250 595,260" fill="#8a8a8a"/>
+  <text x="600" y="278" fill="#8a8a8a">&#957;&#771;</text>
+  <text x="50" y="275" fill="#8a8a8a">0</text>
+
+  <!-- Boltzmann-population envelope tracing the line tops -->
+  <path d="M 115 195 L 170 165 L 225 145 L 280 135 L 335 140 L 390 155 L 445 178 L 500 202"
+        fill="none" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 4" opacity="0.85"/>
+
+  <!-- the equally-spaced absorption lines (blue) -->
+  <line x1="115" y1="255" x2="115" y2="195" stroke="#4a90d9" stroke-width="3"/>
+  <line x1="170" y1="255" x2="170" y2="165" stroke="#4a90d9" stroke-width="3"/>
+  <line x1="225" y1="255" x2="225" y2="145" stroke="#4a90d9" stroke-width="3"/>
+  <line x1="280" y1="255" x2="280" y2="135" stroke="#4a90d9" stroke-width="3"/>
+  <line x1="335" y1="255" x2="335" y2="140" stroke="#4a90d9" stroke-width="3"/>
+  <line x1="390" y1="255" x2="390" y2="155" stroke="#4a90d9" stroke-width="3"/>
+  <line x1="445" y1="255" x2="445" y2="178" stroke="#4a90d9" stroke-width="3"/>
+  <line x1="500" y1="255" x2="500" y2="202" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- transition labels under axis -->
+  <text x="103" y="272" fill="#8a8a8a" font-size="11">2B</text>
+  <text x="158" y="272" fill="#8a8a8a" font-size="11">4B</text>
+  <text x="213" y="272" fill="#8a8a8a" font-size="11">6B</text>
+  <text x="268" y="272" fill="#8a8a8a" font-size="11">8B</text>
+
+  <!-- coral 2B spacing bracket between line 3 and line 4 -->
+  <line x1="225" y1="118" x2="280" y2="118" stroke="#e0645c" stroke-width="1.5"/>
+  <line x1="225" y1="113" x2="225" y2="123" stroke="#e0645c" stroke-width="1.5"/>
+  <line x1="280" y1="113" x2="280" y2="123" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="240" y="108" fill="#e0645c">2B</text>
+
+  <!-- J-transition annotation for tallest line -->
+  <text x="255" y="300" fill="#8a8a8a" font-size="11" font-style="italic">each line: J &#8594; J+1 at &#957;&#771; = 2B(J+1)</text>
+</svg>

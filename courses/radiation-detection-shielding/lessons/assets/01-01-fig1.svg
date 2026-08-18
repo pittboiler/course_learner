@@ -1,0 +1,48 @@
+<svg viewBox="0 0 660 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="70" y="22" fill="#8a8a8a" font-style="italic">Compton kinematics for a 0.662 MeV photon: the scattered photon loses more energy the harder it turns back.</text>
+
+  <!-- axes -->
+  <line x1="70" y1="250" x2="560" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="560,250 550,245 550,255" fill="#8a8a8a"/>
+  <line x1="70" y1="250" x2="70" y2="50" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,50 65,60 75,60" fill="#8a8a8a"/>
+
+  <!-- axis labels -->
+  <text x="250" y="292" fill="#8a8a8a">&#952; (scattering angle)</text>
+  <text transform="rotate(-90 26 200)" x="26" y="200" fill="#8a8a8a">E&#8242; (scattered photon, MeV)</text>
+
+  <!-- x ticks -->
+  <line x1="70" y1="250" x2="70" y2="256" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="62" y="270" fill="#8a8a8a">0</text>
+  <line x1="290" y1="250" x2="290" y2="256" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="276" y="270" fill="#8a8a8a">90&#176;</text>
+  <line x1="510" y1="250" x2="510" y2="256" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="493" y="270" fill="#8a8a8a">180&#176;</text>
+
+  <!-- E level (incident) dashed line + label -->
+  <line x1="70" y1="70.3" x2="540" y2="70.3" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="150" y="66" fill="#8a8a8a">E = 0.662 MeV (incident photon)</text>
+  <text x="34" y="74" fill="#8a8a8a">0.662</text>
+
+  <!-- backscatter level dashed line -->
+  <line x1="70" y1="200" x2="510" y2="200" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="34" y="204" fill="#8a8a8a">0.184</text>
+
+  <!-- E'(theta) curve -->
+  <path d="M 70 70.3 L 106.7 77.9 L 143.3 96.9 L 180 119.7 L 216.7 141.0 L 253.3 158.3 L 290 171.7 L 326.7 181.7 L 363.3 189.0 L 400 194.1 L 436.7 197.4 L 473.3 199.3 L 510 200.0"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- backscatter point -->
+  <circle cx="510" cy="200" r="4.5" fill="#e0645c"/>
+  <text x="300" y="228" fill="#e0645c">backscatter peak: E&#8242;(180&#176;) = 0.184 MeV</text>
+
+  <!-- edge gap arrow at 180 degrees (E - E' = electron energy) -->
+  <line x1="540" y1="70.3" x2="540" y2="200" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="540,70.3 536,80 544,80" fill="#e0645c"/>
+  <polygon points="540,200 536,190 544,190" fill="#e0645c"/>
+  <text x="548" y="120" fill="#e0645c">gap = T</text>
+  <text x="548" y="137" fill="#e0645c">electron</text>
+  <text x="548" y="154" fill="#e0645c">energy;</text>
+  <text x="548" y="171" fill="#e0645c">max here</text>
+  <text x="548" y="188" fill="#e0645c">0.478 MeV</text>
+</svg>

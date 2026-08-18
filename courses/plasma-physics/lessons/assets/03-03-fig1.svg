@@ -1,0 +1,79 @@
+<svg viewBox="0 0 640 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">The magnetic force splits in two: a PRESSURE that pushes field lines apart, and a TENSION that pulls curved lines straight.</text>
+
+  <!-- ================= LEFT: magnetic PRESSURE ================= -->
+  <text x="30" y="52" fill="#8a8a8a">Pressure  p_B = B²/2μ₀   (acts across B)</text>
+
+  <!-- field lines: dense on left (strong B), sparse on right (weak B) -->
+  <!-- x = 60, 92, 132, 182, 244  -> gaps widen left to right -->
+  <g stroke="#4a90d9" stroke-width="2" fill="none">
+    <line x1="60"  y1="270" x2="60"  y2="95"/>
+    <line x1="92"  y1="270" x2="92"  y2="95"/>
+    <line x1="132" y1="270" x2="132" y2="95"/>
+    <line x1="182" y1="270" x2="182" y2="95"/>
+    <line x1="244" y1="270" x2="244" y2="95"/>
+  </g>
+  <!-- B-direction arrowheads (up) -->
+  <g fill="#4a90d9">
+    <polygon points="60,88 55,99 65,99"/>
+    <polygon points="92,88 87,99 97,99"/>
+    <polygon points="132,88 127,99 137,99"/>
+    <polygon points="182,88 177,99 187,99"/>
+    <polygon points="244,88 239,99 249,99"/>
+  </g>
+  <text x="250" y="103" fill="#4a90d9">B</text>
+
+  <!-- strong / weak labels -->
+  <text x="46" y="288" fill="#8a8a8a" font-size="12">strong B</text>
+  <text x="212" y="288" fill="#8a8a8a" font-size="12">weak B</text>
+
+  <!-- coral pressure arrows: bundle pushes sideways (apart) -->
+  <!-- outward push on far sides -->
+  <line x1="52" y1="175" x2="24" y2="175" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="24,175 34,170 34,180" fill="#e0645c"/>
+  <line x1="252" y1="175" x2="290" y2="175" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="290,175 280,170 280,180" fill="#e0645c"/>
+  <!-- little mutual-repulsion arrows between lines -->
+  <g stroke="#e0645c" stroke-width="1.5">
+    <line x1="70" y1="135" x2="84" y2="135"/>
+    <line x1="140" y1="135" x2="174" y2="135"/>
+  </g>
+  <g fill="#e0645c">
+    <polygon points="84,135 77,131 77,139"/>
+    <polygon points="70,135 77,131 77,139"/>
+    <polygon points="174,135 167,131 167,139"/>
+    <polygon points="140,135 147,131 147,139"/>
+  </g>
+  <text x="150" y="215" fill="#e0645c" font-size="12">pushes strong → weak</text>
+
+  <!-- divider -->
+  <line x1="320" y1="70" x2="320" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 5"/>
+
+  <!-- ================= RIGHT: magnetic TENSION ================= -->
+  <text x="360" y="52" fill="#8a8a8a">Tension  T = B²/μ₀   (acts along B)</text>
+
+  <!-- curved field line: arc of circle centred at C=(500,300), R=130 -->
+  <!-- left end (400.4,216.4) -> top (500,170) -> right end (599.6,216.4) -->
+  <path d="M 400.4 216.4 A 130 130 0 0 1 599.6 216.4"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="592" y="205" fill="#4a90d9">B</text>
+
+  <!-- tangential tension arrows at the two ends (tension pulls ALONG the line) -->
+  <!-- left end tangent (down-left), right end tangent (down-right) -->
+  <line x1="405" y1="212" x2="382" y2="232" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="382,232 394,229 388,222" fill="#e0645c"/>
+  <line x1="595" y1="212" x2="618" y2="232" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="618,232 612,222 606,229" fill="#e0645c"/>
+
+  <!-- net restoring force at crest: toward centre of curvature (straight down) -->
+  <line x1="500" y1="182" x2="500" y2="250" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="500,254 494,242 506,242" fill="#e0645c"/>
+  <text x="508" y="230" fill="#e0645c" font-size="12">restoring = T/R_c</text>
+
+  <!-- radius of curvature to centre C -->
+  <line x1="500" y1="254" x2="500" y2="296" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="508" y="285" fill="#8a8a8a" font-size="12">R_c</text>
+  <circle cx="500" cy="300" r="3" fill="#8a8a8a"/>
+  <text x="508" y="305" fill="#8a8a8a" font-size="12">C</text>
+</svg>

@@ -1,0 +1,56 @@
+<svg viewBox="0 0 720 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="720" height="300" fill="#ffffff"/>
+
+  <!-- title -->
+  <text x="360" y="26" text-anchor="middle" font-size="16" fill="#111">Interpolating three samples of f(x)=1/x with a parabola on [1,4]</text>
+
+  <!-- axes -->
+  <line x1="80" y1="250" x2="675" y2="250" stroke="#111" stroke-width="1.3"/>
+  <line x1="80" y1="250" x2="80" y2="40" stroke="#111" stroke-width="1.3"/>
+  <polygon points="675,250 665,245 665,255" fill="#111"/>
+  <polygon points="80,40 75,50 85,50" fill="#111"/>
+
+  <!-- x ticks -->
+  <g stroke="#111" stroke-width="1" font-size="12" fill="#111" text-anchor="middle">
+    <line x1="80"  y1="250" x2="80"  y2="255"/><text x="80"  y="270">1</text>
+    <line x1="273" y1="250" x2="273" y2="255"/><text x="273" y="270">2</text>
+    <line x1="467" y1="250" x2="467" y2="255"/><text x="467" y="270">3</text>
+    <line x1="660" y1="250" x2="660" y2="255"/><text x="660" y="270">4</text>
+  </g>
+  <text x="690" y="254" font-size="13" fill="#111" font-style="italic">x</text>
+
+  <!-- true curve f(x)=1/x (blue) -->
+  <polyline fill="none" stroke="#1f5fbf" stroke-width="2.4"
+    points="80,51.7 128.3,98.3 176.7,129.4 225,151.7 273.3,168.3 370,191.7 466.7,207.2 563.3,218.3 660,226.7"/>
+
+  <!-- interpolating parabola p(x) (red) -->
+  <polyline fill="none" stroke="#c0392b" stroke-width="2.4" stroke-dasharray="6 4"
+    points="80,51.7 128.3,86.3 176.7,117.3 225,144.6 273.3,168.3 370,204.8 466.7,226.7 563.3,234.0 660,226.7"/>
+
+  <!-- interpolation nodes -->
+  <g fill="#111">
+    <circle cx="80"  cy="51.7"  r="4.5"/>
+    <circle cx="273" cy="168.3" r="4.5"/>
+    <circle cx="660" cy="226.7" r="4.5"/>
+  </g>
+  <g font-size="12" fill="#111">
+    <text x="90"  y="48">(1, 1)</text>
+    <text x="283" y="164">(2, 0.5)</text>
+    <text x="612" y="222">(4, 0.25)</text>
+  </g>
+
+  <!-- error gap marker at x=3 -->
+  <line x1="467" y1="207.2" x2="467" y2="226.7" stroke="#111" stroke-width="1" stroke-dasharray="2 2"/>
+  <text x="475" y="222" font-size="11.5" fill="#111">gap = error at x=3</text>
+
+  <!-- legend -->
+  <g font-size="12.5">
+    <line x1="470" y1="60" x2="500" y2="60" stroke="#1f5fbf" stroke-width="2.4"/>
+    <text x="506" y="64" fill="#111">true f(x)=1/x</text>
+    <line x1="470" y1="80" x2="500" y2="80" stroke="#c0392b" stroke-width="2.4" stroke-dasharray="6 4"/>
+    <text x="506" y="84" fill="#111">interpolant p(x)</text>
+  </g>
+
+  <!-- caption -->
+  <text x="360" y="292" text-anchor="middle" font-size="12.5" fill="#111">The parabola hits all three nodes exactly; the vertical gap between the curves is the interpolation error the error term bounds.</text>
+</svg>

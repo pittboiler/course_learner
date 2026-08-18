@@ -1,0 +1,90 @@
+<svg viewBox="0 0 720 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="24" y="22" fill="#8a8a8a" font-style="italic">Left: the ideal Rankine cycle on a T&#8722;s diagram. Right: the same four devices as a plant loop.</text>
+
+  <!-- ===================== T-s DIAGRAM (left) ===================== -->
+  <!-- axes -->
+  <line x1="70" y1="60" x2="70" y2="330" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="70" y1="330" x2="330" y2="330" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="60" y="56" fill="#8a8a8a" text-anchor="end">T</text>
+  <text x="336" y="334" fill="#8a8a8a">s</text>
+
+  <!-- vapor dome (grey structure) -->
+  <path d="M 112 296 Q 118 160 185 96 Q 246 150 270 296" fill="none" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="150" y="120" fill="#8a8a8a" font-size="12">sat. liquid</text>
+  <text x="238" y="120" fill="#8a8a8a" font-size="12">sat. vapor</text>
+
+  <!-- cycle path (blue) -->
+  <!-- 2 -> 3 boiler: up liquid line, across dome, into superheat -->
+  <path d="M 117 286 L 150 178 L 205 178 L 250 118" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <!-- 3 -> 4 turbine: isentropic (vertical) -->
+  <line x1="250" y1="118" x2="250" y2="296" stroke="#4a90d9" stroke-width="2.5"/>
+  <!-- 4 -> 1 condenser: constant-T across dome (highlighted coral) -->
+  <line x1="250" y1="296" x2="112" y2="296" stroke="#e0645c" stroke-width="2.5"/>
+  <!-- 1 -> 2 pump: tiny isentropic rise -->
+  <line x1="112" y1="296" x2="117" y2="286" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <!-- arrowheads -->
+  <polygon points="205,178 197,174 197,182" fill="#4a90d9"/>
+  <polygon points="250,240 244,229 256,229" fill="#4a90d9"/>
+  <polygon points="176,296 187,290 187,302" fill="#e0645c"/>
+
+  <!-- state points (coral) -->
+  <circle cx="112" cy="296" r="4" fill="#e0645c"/>
+  <circle cx="117" cy="286" r="4" fill="#e0645c"/>
+  <circle cx="250" cy="118" r="4" fill="#e0645c"/>
+  <circle cx="250" cy="296" r="4" fill="#e0645c"/>
+  <text x="100" y="312" fill="#e0645c" font-weight="bold">1</text>
+  <text x="122" y="280" fill="#e0645c" font-weight="bold">2</text>
+  <text x="258" y="114" fill="#e0645c" font-weight="bold">3</text>
+  <text x="258" y="300" fill="#e0645c" font-weight="bold">4</text>
+
+  <!-- process labels -->
+  <text x="150" y="168" fill="#4a90d9" font-size="12">boiler (q_in)</text>
+  <text x="196" y="212" fill="#4a90d9" font-size="12" text-anchor="end">turbine</text>
+  <text x="180" y="290" fill="#e0645c" font-size="12" text-anchor="middle">condenser (q_out)</text>
+
+  <!-- ===================== PLANT SCHEMATIC (right) ===================== -->
+  <!-- boxes (grey) -->
+  <rect x="430" y="96"  width="80" height="44" rx="4" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="470" y="123" fill="#8a8a8a" text-anchor="middle">BOILER</text>
+  <rect x="600" y="96"  width="80" height="44" rx="4" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="640" y="123" fill="#8a8a8a" text-anchor="middle">TURBINE</text>
+  <rect x="600" y="256" width="80" height="44" rx="4" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="640" y="283" fill="#8a8a8a" text-anchor="middle">CONDENSER</text>
+  <rect x="430" y="256" width="80" height="44" rx="4" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="470" y="283" fill="#8a8a8a" text-anchor="middle">PUMP</text>
+
+  <!-- pipes (blue), clockwise: pump -> boiler -> turbine -> condenser -> pump -->
+  <line x1="470" y1="256" x2="470" y2="140" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="470,146 464,157 476,157" fill="#4a90d9"/>
+  <line x1="510" y1="118" x2="600" y2="118" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="600,118 589,112 589,124" fill="#4a90d9"/>
+  <line x1="640" y1="140" x2="640" y2="256" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="640,250 634,239 646,239" fill="#4a90d9"/>
+  <line x1="600" y1="278" x2="510" y2="278" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="510,278 521,272 521,284" fill="#4a90d9"/>
+
+  <!-- state labels on pipes -->
+  <text x="454" y="200" fill="#4a90d9" font-size="12" text-anchor="end">2</text>
+  <text x="552" y="110" fill="#4a90d9" font-size="12">3</text>
+  <text x="648" y="200" fill="#4a90d9" font-size="12">4</text>
+  <text x="552" y="294" fill="#4a90d9" font-size="12">1</text>
+
+  <!-- energy streams (coral) -->
+  <line x1="400" y1="118" x2="430" y2="118" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="430,118 419,112 419,124" fill="#e0645c"/>
+  <text x="396" y="114" fill="#e0645c" font-size="12" text-anchor="end">q_in</text>
+
+  <line x1="680" y1="118" x2="710" y2="118" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="710,118 699,112 699,124" fill="#e0645c"/>
+  <text x="700" y="140" fill="#e0645c" font-size="12" text-anchor="end">w_t</text>
+
+  <line x1="680" y1="278" x2="710" y2="278" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="710,278 699,272 699,284" fill="#e0645c"/>
+  <text x="700" y="300" fill="#e0645c" font-size="12" text-anchor="end">q_out</text>
+
+  <line x1="400" y1="278" x2="430" y2="278" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="430,278 419,272 419,284" fill="#e0645c"/>
+  <text x="396" y="274" fill="#e0645c" font-size="12" text-anchor="end">w_p</text>
+</svg>

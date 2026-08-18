@@ -1,0 +1,49 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+<rect x="0" y="0" width="640" height="340" fill="#ffffff"/>
+
+<!-- ============ LEFT PANEL: x-sections (vertical strip) ============ -->
+<!-- triangle 0<=y<=x<=1 : verts (0,0)=(60,280) (1,0)=(240,280) (1,1)=(240,100) -->
+<polygon points="60,280 240,280 240,100" fill="#4a90d9" opacity="0.16"/>
+<!-- vertical strip at x=0.6 -> px 168, y from 0 to 0.6 -> 280..172 -->
+<rect x="163" y="172" width="10" height="108" fill="#2f6fb0" opacity="0.55"/>
+<!-- hypotenuse y=x -->
+<line x1="60" y1="280" x2="240" y2="100" stroke="#2f6fb0" stroke-width="1.8"/>
+<!-- axes -->
+<line x1="60" y1="280" x2="270" y2="280" stroke="#111111" stroke-width="1.4"/>
+<line x1="60" y1="280" x2="60" y2="80" stroke="#111111" stroke-width="1.4"/>
+<polygon points="270,280 260,275 260,285" fill="#111111"/>
+<polygon points="60,80 55,90 65,90" fill="#111111"/>
+<text x="272" y="296" fill="#111111">x</text>
+<text x="46" y="86" fill="#111111">y</text>
+<text x="236" y="296" fill="#8a8a8a" text-anchor="middle">1</text>
+<!-- strip labels -->
+<line x1="168" y1="292" x2="168" y2="284" stroke="#8a8a8a" stroke-width="1"/>
+<text x="168" y="308" fill="#8a8a8a" text-anchor="middle">x</text>
+<text x="182" y="230" fill="#2f6fb0">y : 0 → x</text>
+<text x="150" y="150" fill="#2f6fb0" text-anchor="middle" font-style="italic">y ≤ x</text>
+<text x="60" y="62" fill="#111111" font-style="italic">x-sections: fix x, sweep y ∈ [0, x]</text>
+<text x="60" y="330" fill="#8a8a8a">∫₀¹ ( ∫₀ˣ f dy ) dx</text>
+
+<!-- ============ RIGHT PANEL: y-sections (horizontal strip) ============ -->
+<!-- same triangle translated +300: verts (360,280) (540,280) (540,100) -->
+<polygon points="360,280 540,280 540,100" fill="#4a90d9" opacity="0.16"/>
+<!-- horizontal strip at y=0.4 -> py 208, x from 0.4 to 1 -> 432..540 -->
+<rect x="432" y="203" width="108" height="10" fill="#c8362f" opacity="0.55"/>
+<!-- hypotenuse y=x -->
+<line x1="360" y1="280" x2="540" y2="100" stroke="#c8362f" stroke-width="1.8"/>
+<!-- axes -->
+<line x1="360" y1="280" x2="570" y2="280" stroke="#111111" stroke-width="1.4"/>
+<line x1="360" y1="280" x2="360" y2="80" stroke="#111111" stroke-width="1.4"/>
+<polygon points="570,280 560,275 560,285" fill="#111111"/>
+<polygon points="360,80 355,90 365,90" fill="#111111"/>
+<text x="572" y="296" fill="#111111">x</text>
+<text x="346" y="86" fill="#111111">y</text>
+<text x="536" y="296" fill="#8a8a8a" text-anchor="middle">1</text>
+<!-- strip labels -->
+<line x1="348" y1="208" x2="356" y2="208" stroke="#8a8a8a" stroke-width="1"/>
+<text x="342" y="212" fill="#8a8a8a" text-anchor="end">y</text>
+<text x="452" y="196" fill="#c8362f">x : y → 1</text>
+<text x="450" y="150" fill="#c8362f" text-anchor="middle" font-style="italic">x ≥ y</text>
+<text x="360" y="62" fill="#111111" font-style="italic">y-sections: fix y, sweep x ∈ [y, 1]</text>
+<text x="360" y="330" fill="#8a8a8a">∫₀¹ ( ∫ᵧ¹ f dx ) dy</text>
+</svg>

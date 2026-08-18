@@ -1,0 +1,40 @@
+<svg viewBox="0 0 620 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Phonon dispersion of the monatomic chain: ω(k) = 2√(C/m)·|sin(ka/2)|, folded into the first Brillouin zone.</text>
+
+  <!-- first Brillouin zone shading -->
+  <rect x="60" y="70" width="500" height="180" fill="#4a90d9" opacity="0.10"/>
+
+  <!-- axes -->
+  <line x1="45" y1="250" x2="585" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="585,250 575,245 575,255" fill="#8a8a8a"/>
+  <text x="578" y="270" fill="#8a8a8a">k</text>
+  <line x1="310" y1="258" x2="310" y2="55" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="310,55 305,65 315,65" fill="#8a8a8a"/>
+  <text x="318" y="62" fill="#8a8a8a">ω</text>
+
+  <!-- zone-boundary guide lines -->
+  <line x1="60" y1="250" x2="60" y2="70" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="560" y1="250" x2="560" y2="70" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- zone labels -->
+  <text x="40" y="270" fill="#8a8a8a">−π/a</text>
+  <text x="302" y="270" fill="#8a8a8a">0</text>
+  <text x="548" y="270" fill="#8a8a8a">π/a</text>
+
+  <!-- linear sound-wave tangent near k=0 (grey dashed V) -->
+  <path d="M 151 70 L 310 250 L 469 70" fill="none" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="326" y="212" fill="#8a8a8a">slope a√(C/m): sound</text>
+
+  <!-- the dispersion curve ω(k) = 2√(C/m)|sin(ka/2)| -->
+  <path d="M 60 70 L 85 72.2 L 110 78.8 L 135 89.6 L 160 104.4 L 185 122.7 L 210 144.2 L 235 168.3 L 260 194.4 L 285 221.8 L 310 250 L 335 221.8 L 360 194.4 L 385 168.3 L 410 144.2 L 435 122.7 L 460 104.4 L 485 89.6 L 510 78.8 L 535 72.2 L 560 70"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- zone-boundary flat maxima: zero group velocity (coral) -->
+  <line x1="42" y1="70" x2="98" y2="70" stroke="#e0645c" stroke-width="2.5"/>
+  <line x1="522" y1="70" x2="578" y2="70" stroke="#e0645c" stroke-width="2.5"/>
+  <circle cx="60" cy="70" r="3.5" fill="#e0645c"/>
+  <circle cx="560" cy="70" r="3.5" fill="#e0645c"/>
+  <text x="366" y="52" fill="#e0645c">ω_max = 2√(C/m)</text>
+  <text x="120" y="90" fill="#e0645c">dω/dk = 0 (standing wave)</text>
+</svg>

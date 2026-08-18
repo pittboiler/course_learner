@@ -1,0 +1,50 @@
+<svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="640" height="360" fill="#ffffff"/>
+
+  <!-- shaded AB2 increment: area under the extrapolated line over [t_n, t_{n+1}] -->
+  <path d="M 340 300 L 340 160 L 520 90 L 520 300 Z" fill="#cfe3f6" stroke="none"/>
+
+  <!-- axes -->
+  <line x1="70" y1="300" x2="600" y2="300" stroke="#111111" stroke-width="2"/>
+  <line x1="70" y1="330" x2="70" y2="60" stroke="#111111" stroke-width="2"/>
+  <polygon points="600,300 590,295 590,305" fill="#111111"/>
+  <polygon points="70,60 65,70 75,70" fill="#111111"/>
+
+  <!-- vertical guides at the three nodes -->
+  <line x1="160" y1="300" x2="160" y2="230" stroke="#888888" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="340" y1="300" x2="340" y2="160" stroke="#888888" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="520" y1="300" x2="520" y2="90"  stroke="#888888" stroke-width="1" stroke-dasharray="3,3"/>
+
+  <!-- interpolating line through the two PAST slope points (solid) -->
+  <line x1="160" y1="230" x2="340" y2="160" stroke="#1f6fb2" stroke-width="2.5"/>
+  <!-- extrapolation into the NEW interval (dashed) -->
+  <line x1="340" y1="160" x2="520" y2="90" stroke="#1f6fb2" stroke-width="2.5" stroke-dasharray="7,5"/>
+
+  <!-- known past slope points -->
+  <circle cx="160" cy="230" r="5" fill="#111111"/>
+  <circle cx="340" cy="160" r="5" fill="#111111"/>
+
+  <!-- labels: axis nodes -->
+  <text x="150" y="320" font-size="15" fill="#111111">t</text>
+  <text x="160" y="320" font-size="11" fill="#111111">n-1</text>
+  <text x="332" y="320" font-size="15" fill="#111111">t</text>
+  <text x="342" y="320" font-size="11" fill="#111111">n</text>
+  <text x="508" y="320" font-size="15" fill="#111111">t</text>
+  <text x="518" y="320" font-size="11" fill="#111111">n+1</text>
+
+  <!-- slope-value labels -->
+  <text x="120" y="220" font-size="15" fill="#111111">f</text>
+  <text x="130" y="224" font-size="11" fill="#111111">n-1</text>
+  <text x="300" y="150" font-size="15" fill="#111111">f</text>
+  <text x="310" y="154" font-size="11" fill="#111111">n</text>
+
+  <!-- axis titles -->
+  <text x="40" y="70" font-size="15" fill="#111111">f = y&#8242;</text>
+  <text x="560" y="295" font-size="15" fill="#111111">t</text>
+
+  <!-- annotations -->
+  <text x="360" y="120" font-size="14" fill="#1f6fb2">extrapolated slope</text>
+  <text x="360" y="138" font-size="14" fill="#1f6fb2">(no new f here)</text>
+  <text x="352" y="250" font-size="14" fill="#111111">area &#8776;</text>
+  <text x="352" y="268" font-size="14" fill="#111111">AB2 increment</text>
+</svg>

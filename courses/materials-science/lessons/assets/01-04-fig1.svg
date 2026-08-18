@@ -1,0 +1,61 @@
+<svg viewBox="0 0 620 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">A polycrystal: each grain is a crystal, same lattice, but tilted a different way. The mismatch lines between them are grain boundaries.</text>
+
+  <!-- ===== grain polygons (faint fill + grey boundaries) ===== -->
+  <polygon points="60,90 230,90 300,195 60,210" fill="#4a90d9" fill-opacity="0.06" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="230,90 560,90 560,180 300,195" fill="#4a90d9" fill-opacity="0.06" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="60,210 300,195 210,320 60,320" fill="#4a90d9" fill-opacity="0.06" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="300,195 210,320 400,320" fill="#4a90d9" fill-opacity="0.06" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="300,195 560,180 560,320 400,320" fill="#4a90d9" fill-opacity="0.06" stroke="#8a8a8a" stroke-width="2"/>
+
+  <!-- ===== lattice patches: same grid, each rotated a different way ===== -->
+  <!-- grain 1 -->
+  <g transform="translate(150,150) rotate(14)" stroke="#4a90d9" stroke-width="1.1" fill="#4a90d9">
+    <line x1="-20" y1="-20" x2="20" y2="-20"/><line x1="-20" y1="0" x2="20" y2="0"/><line x1="-20" y1="20" x2="20" y2="20"/>
+    <line x1="-20" y1="-20" x2="-20" y2="20"/><line x1="0" y1="-20" x2="0" y2="20"/><line x1="20" y1="-20" x2="20" y2="20"/>
+    <circle cx="-20" cy="-20" r="2.6"/><circle cx="0" cy="-20" r="2.6"/><circle cx="20" cy="-20" r="2.6"/>
+    <circle cx="-20" cy="0" r="2.6"/><circle cx="0" cy="0" r="2.6"/><circle cx="20" cy="0" r="2.6"/>
+    <circle cx="-20" cy="20" r="2.6"/><circle cx="0" cy="20" r="2.6"/><circle cx="20" cy="20" r="2.6"/>
+  </g>
+  <!-- grain 2 -->
+  <g transform="translate(410,135) rotate(-27)" stroke="#4a90d9" stroke-width="1.1" fill="#4a90d9">
+    <line x1="-20" y1="-20" x2="20" y2="-20"/><line x1="-20" y1="0" x2="20" y2="0"/><line x1="-20" y1="20" x2="20" y2="20"/>
+    <line x1="-20" y1="-20" x2="-20" y2="20"/><line x1="0" y1="-20" x2="0" y2="20"/><line x1="20" y1="-20" x2="20" y2="20"/>
+    <circle cx="-20" cy="-20" r="2.6"/><circle cx="0" cy="-20" r="2.6"/><circle cx="20" cy="-20" r="2.6"/>
+    <circle cx="-20" cy="0" r="2.6"/><circle cx="0" cy="0" r="2.6"/><circle cx="20" cy="0" r="2.6"/>
+    <circle cx="-20" cy="20" r="2.6"/><circle cx="0" cy="20" r="2.6"/><circle cx="20" cy="20" r="2.6"/>
+  </g>
+  <!-- grain 3 -->
+  <g transform="translate(155,255) rotate(42)" stroke="#4a90d9" stroke-width="1.1" fill="#4a90d9">
+    <line x1="-20" y1="-20" x2="20" y2="-20"/><line x1="-20" y1="0" x2="20" y2="0"/><line x1="-20" y1="20" x2="20" y2="20"/>
+    <line x1="-20" y1="-20" x2="-20" y2="20"/><line x1="0" y1="-20" x2="0" y2="20"/><line x1="20" y1="-20" x2="20" y2="20"/>
+    <circle cx="-20" cy="-20" r="2.6"/><circle cx="0" cy="-20" r="2.6"/><circle cx="20" cy="-20" r="2.6"/>
+    <circle cx="-20" cy="0" r="2.6"/><circle cx="0" cy="0" r="2.6"/><circle cx="20" cy="0" r="2.6"/>
+    <circle cx="-20" cy="20" r="2.6"/><circle cx="0" cy="20" r="2.6"/><circle cx="20" cy="20" r="2.6"/>
+  </g>
+  <!-- grain 4 -->
+  <g transform="translate(300,270) rotate(-8)" stroke="#4a90d9" stroke-width="1.1" fill="#4a90d9">
+    <line x1="-20" y1="0" x2="20" y2="0"/><line x1="-20" y1="20" x2="20" y2="20"/>
+    <line x1="-20" y1="0" x2="-20" y2="20"/><line x1="0" y1="0" x2="0" y2="20"/><line x1="20" y1="0" x2="20" y2="20"/>
+    <circle cx="-20" cy="0" r="2.6"/><circle cx="0" cy="0" r="2.6"/><circle cx="20" cy="0" r="2.6"/>
+    <circle cx="-20" cy="20" r="2.6"/><circle cx="0" cy="20" r="2.6"/><circle cx="20" cy="20" r="2.6"/>
+  </g>
+  <!-- grain 5 -->
+  <g transform="translate(455,255) rotate(60)" stroke="#4a90d9" stroke-width="1.1" fill="#4a90d9">
+    <line x1="-20" y1="-20" x2="20" y2="-20"/><line x1="-20" y1="0" x2="20" y2="0"/><line x1="-20" y1="20" x2="20" y2="20"/>
+    <line x1="-20" y1="-20" x2="-20" y2="20"/><line x1="0" y1="-20" x2="0" y2="20"/><line x1="20" y1="-20" x2="20" y2="20"/>
+    <circle cx="-20" cy="-20" r="2.6"/><circle cx="0" cy="-20" r="2.6"/><circle cx="20" cy="-20" r="2.6"/>
+    <circle cx="-20" cy="0" r="2.6"/><circle cx="0" cy="0" r="2.6"/><circle cx="20" cy="0" r="2.6"/>
+    <circle cx="-20" cy="20" r="2.6"/><circle cx="0" cy="20" r="2.6"/><circle cx="20" cy="20" r="2.6"/>
+  </g>
+
+  <!-- ===== highlight one grain boundary in coral ===== -->
+  <line x1="230" y1="90" x2="300" y2="195" stroke="#e0645c" stroke-width="3"/>
+  <line x1="300" y1="195" x2="266" y2="243" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="270" y="258" fill="#e0645c">grain boundary</text>
+
+  <!-- label a grain -->
+  <text x="470" y="110" fill="#8a8a8a">grain (one crystal)</text>
+  <line x1="470" y1="115" x2="440" y2="132" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+</svg>

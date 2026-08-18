@@ -1,0 +1,45 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Q is the height reactants sit above products. Downhill (left) releases it; uphill (right) must be paid &#8212; and paid extra.</text>
+
+  <!-- energy axis -->
+  <line x1="30" y1="310" x2="30" y2="55" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="30,55 25,66 35,66" fill="#8a8a8a"/>
+  <text x="18" y="66" fill="#8a8a8a">E</text>
+
+  <!-- ===== LEFT: exothermic ===== -->
+  <text x="70" y="52" fill="#8a8a8a">Exothermic (Q &#62; 0)</text>
+
+  <!-- reactant plateau -->
+  <line x1="60" y1="100" x2="175" y2="100" stroke="#4a90d9" stroke-width="3"/>
+  <text x="70" y="92" fill="#4a90d9">a + b</text>
+  <!-- product plateau -->
+  <line x1="175" y1="235" x2="290" y2="235" stroke="#4a90d9" stroke-width="3"/>
+  <text x="205" y="255" fill="#4a90d9">c + d</text>
+  <!-- Q drop -->
+  <line x1="175" y1="105" x2="175" y2="230" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="175,230 171,220 179,220" fill="#e0645c"/>
+  <text x="182" y="172" fill="#e0645c">Q released</text>
+
+  <!-- ===== RIGHT: endothermic ===== -->
+  <text x="370" y="52" fill="#8a8a8a">Endothermic (Q &#60; 0)</text>
+
+  <!-- reactant plateau -->
+  <line x1="360" y1="235" x2="475" y2="235" stroke="#4a90d9" stroke-width="3"/>
+  <text x="370" y="255" fill="#4a90d9">a + b</text>
+  <!-- product plateau -->
+  <line x1="475" y1="140" x2="605" y2="140" stroke="#4a90d9" stroke-width="3"/>
+  <text x="520" y="132" fill="#4a90d9">c + d</text>
+  <!-- |Q| gap -->
+  <line x1="475" y1="230" x2="475" y2="145" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="475,145 471,155 479,155" fill="#e0645c"/>
+  <text x="482" y="192" fill="#e0645c">|Q|</text>
+
+  <!-- threshold level (above products) -->
+  <line x1="360" y1="90" x2="605" y2="90" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="470" y="82" fill="#8a8a8a">threshold energy needed</text>
+  <!-- E_th input on reactant side -->
+  <line x1="410" y1="235" x2="410" y2="90" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="410,90 406,100 414,100" fill="#e0645c"/>
+  <text x="330" y="315" fill="#e0645c">E_th = |Q|(1 + m_a / m_target) &#62; |Q|</text>
+</svg>

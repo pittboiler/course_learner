@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="680" height="360" fill="#ffffff"/>
+
+  <!-- ================= LEFT: wedge of two circles ================= -->
+  <text x="150" y="46" font-size="18" fill="#111111" text-anchor="middle">S&#185; &#8744; S&#185;</text>
+
+  <!-- loop a (blue) : circle center (112,205) r=38 -->
+  <circle cx="112" cy="205" r="38" fill="none" stroke="#1a56db" stroke-width="3"/>
+  <!-- orientation triangle at top of a-loop, pointing left (ccw) -->
+  <path d="M112,167 l7,-3 l-1,8 z" fill="#1a56db"/>
+  <text x="66" y="150" font-size="18" fill="#1a56db">a</text>
+
+  <!-- loop b (red) : circle center (188,205) r=38 -->
+  <circle cx="188" cy="205" r="38" fill="none" stroke="#c0392b" stroke-width="3"/>
+  <path d="M188,167 l-7,-3 l1,8 z" fill="#c0392b"/>
+  <text x="228" y="150" font-size="18" fill="#c0392b">b</text>
+
+  <!-- basepoint (the wedge point) -->
+  <circle cx="150" cy="205" r="5.5" fill="#111111"/>
+  <text x="150" y="270" font-size="15" fill="#111111" text-anchor="middle">x&#8320;</text>
+
+  <text x="150" y="316" font-size="13" fill="#444444" text-anchor="middle">&#960;&#8321; = F&#8322; = &#10216;a, b&#10217;</text>
+
+  <!-- covering-map arrow between panels -->
+  <path d="M300,185 L360,185" fill="none" stroke="#111111" stroke-width="1.6" marker-end="url(#ah)"/>
+  <text x="330" y="176" font-size="15" fill="#111111" text-anchor="middle">p</text>
+
+  <defs>
+    <marker id="ah" markerWidth="10" markerHeight="10" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 z" fill="#111111"/>
+    </marker>
+  </defs>
+
+  <!-- ================= RIGHT: piece of the 4-valent tree ================= -->
+  <text x="490" y="46" font-size="18" fill="#111111" text-anchor="middle">universal cover: the 4-valent tree</text>
+
+  <!-- Level 1 (from center C=(490,185)) -->
+  <line x1="490" y1="185" x2="562" y2="185" stroke="#1a56db" stroke-width="3"/>
+  <line x1="490" y1="185" x2="418" y2="185" stroke="#1a56db" stroke-width="3"/>
+  <line x1="490" y1="185" x2="490" y2="113" stroke="#c0392b" stroke-width="3"/>
+  <line x1="490" y1="185" x2="490" y2="257" stroke="#c0392b" stroke-width="3"/>
+  <text x="524" y="178" font-size="16" fill="#1a56db">a</text>
+  <text x="497" y="150" font-size="16" fill="#c0392b">b</text>
+
+  <!-- Level 2 (perpendicular branches, medium weight) -->
+  <line x1="562" y1="185" x2="562" y2="149" stroke="#c0392b" stroke-width="2.2"/>
+  <line x1="562" y1="185" x2="562" y2="221" stroke="#c0392b" stroke-width="2.2"/>
+  <line x1="418" y1="185" x2="418" y2="149" stroke="#c0392b" stroke-width="2.2"/>
+  <line x1="418" y1="185" x2="418" y2="221" stroke="#c0392b" stroke-width="2.2"/>
+  <line x1="490" y1="113" x2="526" y2="113" stroke="#1a56db" stroke-width="2.2"/>
+  <line x1="490" y1="113" x2="454" y2="113" stroke="#1a56db" stroke-width="2.2"/>
+  <line x1="490" y1="257" x2="526" y2="257" stroke="#1a56db" stroke-width="2.2"/>
+  <line x1="490" y1="257" x2="454" y2="257" stroke="#1a56db" stroke-width="2.2"/>
+
+  <!-- Level 3 (thin) -->
+  <line x1="562" y1="149" x2="580" y2="149" stroke="#1a56db" stroke-width="1.4"/>
+  <line x1="562" y1="149" x2="544" y2="149" stroke="#1a56db" stroke-width="1.4"/>
+  <line x1="562" y1="221" x2="580" y2="221" stroke="#1a56db" stroke-width="1.4"/>
+  <line x1="562" y1="221" x2="544" y2="221" stroke="#1a56db" stroke-width="1.4"/>
+  <line x1="418" y1="149" x2="436" y2="149" stroke="#1a56db" stroke-width="1.4"/>
+  <line x1="418" y1="149" x2="400" y2="149" stroke="#1a56db" stroke-width="1.4"/>
+  <line x1="418" y1="221" x2="436" y2="221" stroke="#1a56db" stroke-width="1.4"/>
+  <line x1="418" y1="221" x2="400" y2="221" stroke="#1a56db" stroke-width="1.4"/>
+  <line x1="526" y1="113" x2="526" y2="95" stroke="#c0392b" stroke-width="1.4"/>
+  <line x1="526" y1="113" x2="526" y2="131" stroke="#c0392b" stroke-width="1.4"/>
+  <line x1="454" y1="113" x2="454" y2="95" stroke="#c0392b" stroke-width="1.4"/>
+  <line x1="454" y1="113" x2="454" y2="131" stroke="#c0392b" stroke-width="1.4"/>
+  <line x1="526" y1="257" x2="526" y2="239" stroke="#c0392b" stroke-width="1.4"/>
+  <line x1="526" y1="257" x2="526" y2="275" stroke="#c0392b" stroke-width="1.4"/>
+  <line x1="454" y1="257" x2="454" y2="239" stroke="#c0392b" stroke-width="1.4"/>
+  <line x1="454" y1="257" x2="454" y2="275" stroke="#c0392b" stroke-width="1.4"/>
+
+  <!-- center vertex (the identity / chosen lift of x0) -->
+  <circle cx="490" cy="185" r="5.5" fill="#111111"/>
+  <text x="490" y="316" font-size="13" fill="#444444" text-anchor="middle">every vertex = one element of F&#8322;</text>
+</svg>

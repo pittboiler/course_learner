@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 470" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="640" height="470" fill="#ffffff"/>
+
+  <text x="320" y="30" font-size="18" font-weight="bold" fill="#111111" text-anchor="middle">The second-order (ice-cream) cone</text>
+  <text x="320" y="52" font-size="14" fill="#444444" text-anchor="middle">Q = { (x, t) : &#8214;x&#8214;&#8322; &#8804; t }</text>
+
+  <!-- filled cone body: apex up to the rim, front (lower) arc -->
+  <path d="M 320,410 L 170,110 A 150,34 0 0 0 470,110 Z" fill="#2563eb" fill-opacity="0.16" stroke="none"/>
+
+  <!-- cone side edges -->
+  <line x1="320" y1="410" x2="170" y2="110" stroke="#1d4ed8" stroke-width="2"/>
+  <line x1="320" y1="410" x2="470" y2="110" stroke="#1d4ed8" stroke-width="2"/>
+
+  <!-- top rim ellipse: back arc dashed, front arc solid -->
+  <path d="M 170,110 A 150,34 0 0 1 470,110" fill="none" stroke="#1d4ed8" stroke-width="2" stroke-dasharray="6 5"/>
+  <path d="M 170,110 A 150,34 0 0 0 470,110" fill="none" stroke="#1d4ed8" stroke-width="2"/>
+
+  <!-- vertical t-axis through apex -->
+  <line x1="320" y1="430" x2="320" y2="70" stroke="#111111" stroke-width="1.6" stroke-dasharray="4 4"/>
+  <polygon points="320,64 315,76 325,76" fill="#111111"/>
+  <text x="332" y="78" font-size="15" fill="#111111" font-style="italic">t</text>
+
+  <!-- apex -->
+  <circle cx="320" cy="410" r="4" fill="#111111"/>
+  <text x="305" y="426" font-size="14" fill="#111111">0</text>
+
+  <!-- ground-plane axes at the apex (the x-plane) -->
+  <line x1="320" y1="410" x2="250" y2="440" stroke="#111111" stroke-width="1.4" marker-end="url(#arr)"/>
+  <line x1="320" y1="410" x2="400" y2="438" stroke="#111111" stroke-width="1.4" marker-end="url(#arr)"/>
+  <text x="238" y="452" font-size="13" fill="#111111" font-style="italic">x&#8321;</text>
+  <text x="404" y="450" font-size="13" fill="#111111" font-style="italic">x&#8322;</text>
+
+  <!-- a cross-section disk at height t: center on axis, radius = t -->
+  <ellipse cx="320" cy="110" rx="150" ry="34" fill="none" stroke="none"/>
+  <line x1="320" y1="110" x2="470" y2="110" stroke="#b91c1c" stroke-width="2"/>
+  <text x="395" y="102" font-size="13" fill="#b91c1c" text-anchor="middle">radius = t</text>
+
+  <!-- height brace: apex to rim height equals t -->
+  <text x="150" y="270" font-size="13" fill="#047857" text-anchor="middle" transform="rotate(-90 150 270)">height = t</text>
+  <line x1="165" y1="110" x2="165" y2="410" stroke="#047857" stroke-width="1.4" stroke-dasharray="3 3"/>
+  <line x1="160" y1="110" x2="170" y2="110" stroke="#047857" stroke-width="1.4"/>
+  <line x1="160" y1="410" x2="170" y2="410" stroke="#047857" stroke-width="1.4"/>
+
+  <!-- a sample point (x,t) inside the cone -->
+  <circle cx="360" cy="150" r="4" fill="#111111"/>
+  <text x="368" y="146" font-size="13" fill="#111111" font-style="italic">(x, t)</text>
+
+  <text x="495" y="200" font-size="12.5" fill="#444444">widens as t grows:</text>
+  <text x="495" y="218" font-size="12.5" fill="#444444">bigger budget t &#8658;</text>
+  <text x="495" y="236" font-size="12.5" fill="#444444">room for longer x</text>
+
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L6,3 L0,6 z" fill="#111111"/>
+    </marker>
+  </defs>
+</svg>

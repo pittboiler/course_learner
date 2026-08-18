@@ -1,0 +1,46 @@
+<svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="70" y="26" fill="#8a8a8a" font-style="italic">Narrow-beam attenuation: every half-value layer halves what gets through.</text>
+
+  <!-- axes -->
+  <line x1="70" y1="60" x2="70" y2="280" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="70" y1="280" x2="575" y2="280" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,54 65,64 75,64" fill="#8a8a8a"/>
+  <polygon points="575,280 565,275 565,285" fill="#8a8a8a"/>
+  <text x="40" y="160" fill="#8a8a8a" transform="rotate(-90 40 160)">I / I&#8320;</text>
+  <text x="470" y="300" fill="#8a8a8a">thickness x &#8594;</text>
+
+  <!-- y ticks -->
+  <text x="46" y="65" fill="#8a8a8a">1.0</text>
+  <text x="46" y="175" fill="#8a8a8a">0.5</text>
+  <text x="46" y="263" fill="#8a8a8a">0.1</text>
+  <text x="55" y="285" fill="#8a8a8a">0</text>
+
+  <!-- guide lines at 0.5 and 0.1 -->
+  <line x1="70" y1="170" x2="560" y2="170" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 5"/>
+  <line x1="70" y1="258" x2="560" y2="258" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 5"/>
+
+  <!-- attenuation curve  I/I0 = 2^(-x)  in units of HVL -->
+  <path d="M 70 60 L 124.4 124.4 L 178.9 170 L 233.3 202.2 L 287.8 225 L 342.2 241.1 L 396.7 252.5 L 431.5 258 L 451.1 260.6 L 505.6 266.3 L 560 270.3"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- HVL marker at x = 1 HVL -->
+  <line x1="178.9" y1="280" x2="178.9" y2="170" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <circle cx="178.9" cy="170" r="4" fill="#e0645c"/>
+  <text x="150" y="298" fill="#e0645c">1 HVL</text>
+
+  <!-- successive halvings -->
+  <circle cx="287.8" cy="225" r="4" fill="#e0645c"/>
+  <text x="292" y="221" fill="#e0645c">0.25</text>
+  <circle cx="396.7" cy="252.5" r="4" fill="#e0645c"/>
+  <text x="400" y="248" fill="#e0645c">0.125</text>
+
+  <!-- TVL marker at x = 3.32 HVL -->
+  <line x1="431.5" y1="280" x2="431.5" y2="258" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <circle cx="431.5" cy="258" r="4" fill="#e0645c"/>
+  <text x="405" y="298" fill="#e0645c">1 TVL</text>
+  <text x="452" y="272" fill="#e0645c">(3.32 HVL)</text>
+
+  <!-- 0.5 label near HVL dot -->
+  <text x="185" y="164" fill="#e0645c">0.5</text>
+</svg>

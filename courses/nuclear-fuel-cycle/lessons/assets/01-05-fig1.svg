@@ -1,0 +1,73 @@
+<svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <!-- caption -->
+  <text x="20" y="20" fill="#8a8a8a" font-style="italic">Feed enters mid-stack; product rises, tails fall &#8212; and total front-end cost bottoms out at an optimal tails assay.</text>
+
+  <!-- ================= LEFT: the ideal cascade ================= -->
+
+  <!-- product arrow (up) -->
+  <line x1="175" y1="56" x2="175" y2="38" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="175,34 170,44 180,44" fill="#e0645c"/>
+  <text x="105" y="32" fill="#e0645c">PRODUCT (x_p, enriched)</text>
+
+  <!-- stage bars, widest at the feed stage (diamond taper) -->
+  <rect x="153" y="56" width="44" height="16" rx="3" fill="#4a90d9" opacity="0.14" stroke="#8a8a8a" stroke-width="1.4"/>
+  <rect x="139" y="82" width="72" height="16" rx="3" fill="#4a90d9" opacity="0.14" stroke="#8a8a8a" stroke-width="1.4"/>
+  <rect x="125" y="108" width="100" height="16" rx="3" fill="#4a90d9" opacity="0.14" stroke="#8a8a8a" stroke-width="1.4"/>
+  <rect x="111" y="134" width="128" height="16" rx="3" fill="#4a90d9" opacity="0.22" stroke="#4a90d9" stroke-width="1.8"/>
+  <rect x="125" y="160" width="100" height="16" rx="3" fill="#4a90d9" opacity="0.14" stroke="#8a8a8a" stroke-width="1.4"/>
+  <rect x="139" y="186" width="72" height="16" rx="3" fill="#4a90d9" opacity="0.14" stroke="#8a8a8a" stroke-width="1.4"/>
+  <rect x="153" y="212" width="44" height="16" rx="3" fill="#4a90d9" opacity="0.14" stroke="#8a8a8a" stroke-width="1.4"/>
+
+  <!-- feed arrow (in from the left, at the widest stage) -->
+  <line x1="66" y1="142" x2="109" y2="142" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="113,142 103,137 103,147" fill="#4a90d9"/>
+  <text x="20" y="130" fill="#4a90d9">FEED</text>
+  <text x="20" y="145" fill="#4a90d9">(x_f, natural)</text>
+
+  <!-- tails arrow (down) -->
+  <line x1="175" y1="228" x2="175" y2="246" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="175,250 170,240 180,240" fill="#8a8a8a"/>
+  <text x="107" y="268" fill="#8a8a8a">TAILS (x_w, depleted)</text>
+
+  <!-- recycle indicator: heads up / tails down between two stages -->
+  <line x1="248" y1="124" x2="248" y2="100" stroke="#4a90d9" stroke-width="1.4"/>
+  <polygon points="248,96 244,105 252,105" fill="#4a90d9"/>
+  <text x="256" y="106" fill="#4a90d9">heads &#8593;</text>
+  <line x1="248" y1="150" x2="248" y2="174" stroke="#8a8a8a" stroke-width="1.4"/>
+  <polygon points="248,178 244,169 252,169" fill="#8a8a8a"/>
+  <text x="256" y="176" fill="#8a8a8a">tails &#8595;</text>
+
+  <!-- section labels -->
+  <text x="256" y="70" fill="#8a8a8a">enriching</text>
+  <text x="256" y="222" fill="#8a8a8a">stripping</text>
+
+  <!-- divider -->
+  <line x1="352" y1="46" x2="352" y2="292" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 5"/>
+
+  <!-- ================= RIGHT: cost vs tails assay ================= -->
+
+  <!-- axes -->
+  <line x1="398" y1="248" x2="618" y2="248" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="618,248 608,243 608,253" fill="#8a8a8a"/>
+  <line x1="398" y1="248" x2="398" y2="58" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="398,58 393,68 403,68" fill="#8a8a8a"/>
+  <text x="470" y="278" fill="#8a8a8a">tails assay x_w &#8594;</text>
+  <text x="382" y="52" fill="#8a8a8a">cost</text>
+
+  <!-- feed cost: rises with tails (more feed wasted) -->
+  <path d="M 402 232 Q 508 214 614 178" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="560" y="168" fill="#4a90d9">feed</text>
+
+  <!-- SWU cost: falls with tails (less separation) -->
+  <path d="M 402 168 Q 508 214 614 232" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="560" y="240" fill="#8a8a8a">SWU</text>
+
+  <!-- total = sum: U-shaped, minimum at optimum -->
+  <path d="M 402 108 Q 505 172 614 108" fill="none" stroke="#e0645c" stroke-width="2.6"/>
+  <text x="424" y="104" fill="#e0645c">total</text>
+
+  <!-- optimum marker -->
+  <line x1="505" y1="160" x2="505" y2="248" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <circle cx="505" cy="157" r="4" fill="#e0645c"/>
+  <text x="470" y="228" fill="#e0645c">x_w* optimum</text>
+</svg>

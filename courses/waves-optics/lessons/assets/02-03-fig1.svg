@@ -1,0 +1,80 @@
+<svg viewBox="0 0 620 440" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="20" fill="#8a8a8a" font-style="italic">Top: a fixed string rings only in whole-loop modes (n = 1, 2, 3).</text>
+  <text x="30" y="38" fill="#8a8a8a" font-style="italic">Bottom: two close tones sum to a fast wave inside a slow beat envelope.</text>
+
+  <!-- ============ TOP: standing-wave modes on a fixed string ============ -->
+
+  <!-- shared end walls at x=60 and x=420 -->
+  <line x1="60" y1="52" x2="60" y2="248" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="420" y1="52" x2="420" y2="248" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="34" y="256" fill="#8a8a8a">x=0</text>
+  <text x="404" y="256" fill="#8a8a8a">x=L</text>
+
+  <!-- n=1: fundamental, one loop. baseline y=80, amplitude 22 -->
+  <line x1="60" y1="80" x2="420" y2="80" stroke="#8a8a8a" stroke-width="0.75" stroke-dasharray="2 4"/>
+  <!-- half-sine bulge (drawn as symmetric envelope, both signs) -->
+  <path d="M 60 80 Q 240 33 420 80" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <path d="M 60 80 Q 240 127 420 80" fill="none" stroke="#4a90d9" stroke-width="1" stroke-dasharray="4 4" opacity="0.7"/>
+  <text x="32" y="84" fill="#8a8a8a">n=1</text>
+  <!-- nodes (ends only) -->
+  <circle cx="60" cy="80" r="3" fill="#8a8a8a"/>
+  <circle cx="420" cy="80" r="3" fill="#8a8a8a"/>
+  <!-- antinode (on the crest of the half-sine) -->
+  <circle cx="240" cy="56" r="3" fill="#e0645c"/>
+  <text x="252" y="54" fill="#e0645c">antinode (max swing)</text>
+  <text x="430" y="84" fill="#8a8a8a">&#955; = 2L</text>
+
+  <!-- n=2: two loops. baseline y=150, amplitude 20 -->
+  <line x1="60" y1="150" x2="420" y2="150" stroke="#8a8a8a" stroke-width="0.75" stroke-dasharray="2 4"/>
+  <path d="M 60 150 Q 150 112 240 150 Q 330 188 420 150" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <path d="M 60 150 Q 150 188 240 150 Q 330 112 420 150" fill="none" stroke="#4a90d9" stroke-width="1" stroke-dasharray="4 4" opacity="0.7"/>
+  <text x="32" y="154" fill="#8a8a8a">n=2</text>
+  <circle cx="60" cy="150" r="3" fill="#8a8a8a"/>
+  <circle cx="240" cy="150" r="3" fill="#8a8a8a"/>
+  <circle cx="420" cy="150" r="3" fill="#8a8a8a"/>
+  <text x="228" y="171" fill="#8a8a8a">node</text>
+  <text x="430" y="154" fill="#8a8a8a">&#955; = L</text>
+
+  <!-- n=3: three loops. baseline y=220, amplitude 18 -->
+  <line x1="60" y1="220" x2="420" y2="220" stroke="#8a8a8a" stroke-width="0.75" stroke-dasharray="2 4"/>
+  <path d="M 60 220 Q 120 186 180 220 Q 240 254 300 220 Q 360 186 420 220" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <path d="M 60 220 Q 120 254 180 220 Q 240 186 300 220 Q 360 254 420 220" fill="none" stroke="#4a90d9" stroke-width="1" stroke-dasharray="4 4" opacity="0.7"/>
+  <text x="32" y="224" fill="#8a8a8a">n=3</text>
+  <circle cx="60" cy="220" r="3" fill="#8a8a8a"/>
+  <circle cx="180" cy="220" r="3" fill="#8a8a8a"/>
+  <circle cx="300" cy="220" r="3" fill="#8a8a8a"/>
+  <circle cx="420" cy="220" r="3" fill="#8a8a8a"/>
+  <text x="430" y="224" fill="#8a8a8a">&#955; = 2L/3</text>
+
+  <!-- ============ BOTTOM: beats ============ -->
+
+  <!-- axis -->
+  <line x1="60" y1="310" x2="580" y2="310" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 4"/>
+  <line x1="52" y1="405" x2="580" y2="405" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="580,405 570,400 570,410" fill="#8a8a8a"/>
+  <text x="568" y="425" fill="#8a8a8a">t</text>
+  <text x="34" y="314" fill="#8a8a8a">0</text>
+
+  <!-- slow envelope 2A|cos(2 pi (df/2) t)|: loud swells at t=60,225,390,555; quiet nodes at 142.5,307.5,472.5 -->
+  <path d="M 60 268.0 L 65 268.2 L 70 268.8 L 75 269.7 L 80 271.0 L 85 272.7 L 90 274.7 L 95 277.0 L 100 279.6 L 105 282.5 L 110 285.6 L 115 289.0 L 120 292.6 L 125 296.3 L 130 300.1 L 135 304.0 L 140 308.0 L 145 312.0 L 150 316.0 L 155 319.9 L 160 323.7 L 165 327.4 L 170 331.0 L 175 334.4 L 180 337.5 L 185 340.4 L 190 343.0 L 195 345.3 L 200 347.3 L 205 349.0 L 210 350.3 L 215 351.2 L 220 351.8 L 225 352.0 L 230 351.8 L 235 351.2 L 240 350.3 L 245 349.0 L 250 347.3 L 255 345.3 L 260 343.0 L 265 340.4 L 270 337.5 L 275 334.4 L 280 331.0 L 285 327.4 L 290 323.7 L 295 319.9 L 300 316.0 L 305 312.0 L 310 308.0 L 315 304.0 L 320 300.1 L 325 296.3 L 330 292.6 L 335 289.0 L 340 285.6 L 345 282.5 L 350 279.6 L 355 277.0 L 360 274.7 L 365 272.7 L 370 271.0 L 375 269.7 L 380 268.8 L 385 268.2 L 390 268.0 L 395 268.2 L 400 268.8 L 405 269.7 L 410 271.0 L 415 272.7 L 420 274.7 L 425 277.0 L 430 279.6 L 435 282.5 L 440 285.6 L 445 289.0 L 450 292.6 L 455 296.3 L 460 300.1 L 465 304.0 L 470 308.0 L 475 312.0 L 480 316.0 L 485 319.9 L 490 323.7 L 495 327.4 L 500 331.0 L 505 334.4 L 510 337.5 L 515 340.4 L 520 343.0 L 525 345.3 L 530 347.3 L 535 349.0 L 540 350.3 L 545 351.2 L 550 351.8 L 555 352.0"
+        fill="none" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <path d="M 60 352.0 L 65 351.8 L 70 351.2 L 75 350.3 L 80 349.0 L 85 347.3 L 90 345.3 L 95 343.0 L 100 340.4 L 105 337.5 L 110 334.4 L 115 331.0 L 120 327.4 L 125 323.7 L 130 319.9 L 135 316.0 L 140 312.0 L 145 308.0 L 150 304.0 L 155 300.1 L 160 296.3 L 165 292.6 L 170 289.0 L 175 285.6 L 180 282.5 L 185 279.6 L 190 277.0 L 195 274.7 L 200 272.7 L 205 271.0 L 210 269.7 L 215 268.8 L 220 268.2 L 225 268.0 L 230 268.2 L 235 268.8 L 240 269.7 L 245 271.0 L 250 272.7 L 255 274.7 L 260 277.0 L 265 279.6 L 270 282.5 L 275 285.6 L 280 289.0 L 285 292.6 L 290 296.3 L 295 300.1 L 300 304.0 L 305 308.0 L 310 312.0 L 315 316.0 L 320 319.9 L 325 323.7 L 330 327.4 L 335 331.0 L 340 334.4 L 345 337.5 L 350 340.4 L 355 343.0 L 360 345.3 L 365 347.3 L 370 349.0 L 375 350.3 L 380 351.2 L 385 351.8 L 390 352.0 L 395 351.8 L 400 351.2 L 405 350.3 L 410 349.0 L 415 347.3 L 420 345.3 L 425 343.0 L 430 340.4 L 435 337.5 L 440 334.4 L 445 331.0 L 450 327.4 L 455 323.7 L 460 319.9 L 465 316.0 L 470 312.0 L 475 308.0 L 480 304.0 L 485 300.1 L 490 296.3 L 495 292.6 L 500 289.0 L 505 285.6 L 510 282.5 L 515 279.6 L 520 277.0 L 525 274.7 L 530 272.7 L 535 271.0 L 540 269.7 L 545 268.8 L 550 268.2 L 555 268.0"
+        fill="none" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="5 4"/>
+
+  <!-- fast carrier, amplitude-modulated by the envelope (quiet at the nodes) -->
+  <path d="M 60 268.0 L 63 274.7 L 66 292.7 L 69 315.9 L 72 336.8 L 75 348.7 L 78 348.0 L 81 335.3 L 84 315.4 L 87 294.8 L 90 280.3 L 93 276.0 L 96 282.6 L 99 297.1 L 102 314.2 L 105 328.0 L 108 334.6 L 111 332.7 L 114 324.2 L 117 312.8 L 120 302.8 L 123 297.2 L 126 297.0 L 129 301.0 L 132 306.5 L 135 310.9 L 138 312.4 L 141 311.2 L 144 308.8 L 147 307.6 L 150 309.1 L 153 313.5 L 156 319.0 L 159 323.0 L 162 322.8 L 165 317.2 L 168 307.2 L 171 295.8 L 174 287.3 L 177 285.4 L 180 292.0 L 183 305.8 L 186 322.9 L 189 337.4 L 192 344.0 L 195 339.7 L 198 325.2 L 201 304.6 L 204 284.7 L 207 272.0 L 210 271.3 L 213 283.2 L 216 304.1 L 219 327.3 L 222 345.3 L 225 352.0 L 228 345.3 L 231 327.3 L 234 304.1 L 237 283.2 L 240 271.3 L 243 272.0 L 246 284.7 L 249 304.6 L 252 325.2 L 255 339.7 L 258 344.0 L 261 337.4 L 264 322.9 L 267 305.8 L 270 292.0 L 273 285.4 L 276 287.3 L 279 295.8 L 282 307.2 L 285 317.2 L 288 322.8 L 291 323.0 L 294 319.0 L 297 313.5 L 300 309.1 L 303 307.6 L 306 308.8 L 309 311.2 L 312 312.4 L 315 310.9 L 318 306.5 L 321 301.0 L 324 297.0 L 327 297.2 L 330 302.8 L 333 312.8 L 336 324.2 L 339 332.7 L 342 334.6 L 345 328.0 L 348 314.2 L 351 297.1 L 354 282.6 L 357 276.0 L 360 280.3 L 363 294.8 L 366 315.4 L 369 335.3 L 372 348.0 L 375 348.7 L 378 336.8 L 381 315.9 L 384 292.7 L 387 274.7 L 390 268.0 L 393 274.7 L 396 292.7 L 399 315.9 L 402 336.8 L 405 348.7 L 408 348.0 L 411 335.3 L 414 315.4 L 417 294.8 L 420 280.3 L 423 276.0 L 426 282.6 L 429 297.1 L 432 314.2 L 435 328.0 L 438 334.6 L 441 332.7 L 444 324.2 L 447 312.8 L 450 302.8 L 453 297.2 L 456 297.0 L 459 301.0 L 462 306.5 L 465 310.9 L 468 312.4 L 471 311.2 L 474 308.8 L 477 307.6 L 480 309.1 L 483 313.5 L 486 319.0 L 489 323.0 L 492 322.8 L 495 317.2 L 498 307.2 L 501 295.8 L 504 287.3 L 507 285.4 L 510 292.0 L 513 305.8 L 516 322.9 L 519 337.4 L 522 344.0 L 525 339.7 L 528 325.2 L 531 304.6 L 534 284.7 L 537 272.0 L 540 271.3 L 543 283.2 L 546 304.1 L 549 327.3 L 552 345.3 L 555 352.0"
+        fill="none" stroke="#4a90d9" stroke-width="2"/>
+
+  <!-- beat period: swell-to-swell (loud at t=60 and t=225) -->
+  <line x1="60" y1="360" x2="60" y2="400" stroke="#8a8a8a" stroke-width="0.75" stroke-dasharray="3 4"/>
+  <line x1="225" y1="360" x2="225" y2="400" stroke="#8a8a8a" stroke-width="0.75" stroke-dasharray="3 4"/>
+  <line x1="60" y1="396" x2="225" y2="396" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="60,396 69,392 69,400" fill="#e0645c"/>
+  <polygon points="225,396 216,392 216,400" fill="#e0645c"/>
+  <text x="90" y="391" fill="#e0645c">T_beat = 1/f_beat</text>
+  <!-- node label -->
+  <line x1="142.5" y1="310" x2="142.5" y2="333" stroke="#8a8a8a" stroke-width="0.75" stroke-dasharray="3 4"/>
+  <text x="308" y="426" fill="#8a8a8a" font-style="italic" text-anchor="middle">nodes = quiet moments</text>
+  <text x="452" y="264" fill="#e0645c" font-style="italic">envelope</text>
+</svg>

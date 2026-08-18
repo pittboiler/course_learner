@@ -1,0 +1,68 @@
+<svg viewBox="0 0 680 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <!-- theme-safe: grey #8a8a8a structure, blue #4a90d9 harmonic, coral #e0645c Morse/anharmonic -->
+  <text x="24" y="26" fill="#8a8a8a" font-size="13" font-style="italic">Harmonic (blue) vs real Morse (coral) potential: harmonic levels are evenly spaced and sit too high; real levels converge and lie lower.</text>
+
+  <!-- ================= LEFT PANEL: potential wells ================= -->
+  <!-- axes -->
+  <line x1="70" y1="70" x2="70" y2="320" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="70" y1="320" x2="400" y2="320" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="42" y="80" fill="#8a8a8a" font-size="12">E</text>
+  <text x="360" y="338" fill="#8a8a8a" font-size="12">bond length r</text>
+  <text x="150" y="338" fill="#8a8a8a" font-size="11" font-style="italic">r&#8320; (minimum)</text>
+  <line x1="170" y1="290" x2="170" y2="320" stroke="#8a8a8a" stroke-width="0.8" stroke-dasharray="3,3"/>
+
+  <!-- harmonic parabola (blue) -->
+  <path d="M 112 95 Q 141 95 170 290 Q 199 95 228 95" fill="none" stroke="#4a90d9" stroke-width="2.4"/>
+  <!-- Morse curve (coral): steep left wall, minimum, soft right wall to plateau -->
+  <path d="M 122 92 C 150 150 160 260 170 290 C 182 262 205 205 250 178 C 300 158 355 152 395 151" fill="none" stroke="#e0645c" stroke-width="2.4"/>
+  <line x1="252" y1="151" x2="395" y2="151" stroke="#e0645c" stroke-width="0.8" stroke-dasharray="4,4"/>
+  <text x="330" y="145" fill="#e0645c" font-size="10">dissociation</text>
+
+  <!-- harmonic energy levels (blue), evenly spaced -->
+  <line x1="137" y1="255" x2="203" y2="255" stroke="#4a90d9" stroke-width="1.3"/>
+  <line x1="126" y1="225" x2="215" y2="225" stroke="#4a90d9" stroke-width="1.3"/>
+  <line x1="116" y1="195" x2="224" y2="195" stroke="#4a90d9" stroke-width="1.3"/>
+  <line x1="108" y1="165" x2="232" y2="165" stroke="#4a90d9" stroke-width="1.3"/>
+  <line x1="101" y1="135" x2="239" y2="135" stroke="#4a90d9" stroke-width="1.3"/>
+
+  <!-- Morse energy levels (coral), converging, lower -->
+  <line x1="150" y1="262" x2="214" y2="262" stroke="#e0645c" stroke-width="1.3"/>
+  <line x1="143" y1="236" x2="238" y2="236" stroke="#e0645c" stroke-width="1.3"/>
+  <line x1="137" y1="216" x2="262" y2="216" stroke="#e0645c" stroke-width="1.3"/>
+  <line x1="132" y1="201" x2="292" y2="201" stroke="#e0645c" stroke-width="1.3"/>
+  <line x1="128" y1="191" x2="330" y2="191" stroke="#e0645c" stroke-width="1.3"/>
+
+  <!-- spacing-gap callout on the right -->
+  <line x1="250" y1="255" x2="250" y2="225" stroke="#4a90d9" stroke-width="0.8"/>
+  <text x="256" y="244" fill="#4a90d9" font-size="10">equal gaps</text>
+  <line x1="300" y1="216" x2="300" y2="191" stroke="#e0645c" stroke-width="0.8"/>
+  <text x="306" y="207" fill="#e0645c" font-size="10">gaps shrink</text>
+
+  <!-- legend -->
+  <line x1="90" y1="360" x2="118" y2="360" stroke="#4a90d9" stroke-width="2.4"/>
+  <text x="124" y="364" fill="#8a8a8a" font-size="11">harmonic &#8211; too high</text>
+  <line x1="250" y1="360" x2="278" y2="360" stroke="#e0645c" stroke-width="2.4"/>
+  <text x="284" y="364" fill="#8a8a8a" font-size="11">real (Morse) &#8211; lower</text>
+
+  <!-- ================= RIGHT PANEL: normal-mode sketch ================= -->
+  <text x="470" y="90" fill="#8a8a8a" font-size="12" font-style="italic">a normal mode</text>
+  <text x="452" y="108" fill="#8a8a8a" font-size="11">(collective atomic motion)</text>
+
+  <!-- stretch mode -->
+  <line x1="505" y1="160" x2="595" y2="160" stroke="#8a8a8a" stroke-width="2"/>
+  <circle cx="505" cy="160" r="15" fill="#4a90d9" opacity="0.85"/>
+  <circle cx="595" cy="160" r="19" fill="#e0645c" opacity="0.85"/>
+  <line x1="470" y1="160" x2="493" y2="160" stroke="#8a8a8a" stroke-width="1.6"/>
+  <path d="M 470 160 l 8 -4 v 8 z" fill="#8a8a8a"/>
+  <line x1="607" y1="160" x2="630" y2="160" stroke="#8a8a8a" stroke-width="1.6"/>
+  <path d="M 630 160 l -8 -4 v 8 z" fill="#8a8a8a"/>
+  <text x="500" y="196" fill="#8a8a8a" font-size="11">symmetric stretch &#8594; &#957;</text>
+
+  <!-- transition-state note -->
+  <line x1="452" y1="240" x2="640" y2="240" stroke="#8a8a8a" stroke-width="0.8"/>
+  <text x="452" y="272" fill="#8a8a8a" font-size="11">At a minimum: all &#955; &gt; 0,</text>
+  <text x="452" y="290" fill="#4a90d9" font-size="11">all real &#957; &#8212; a true minimum.</text>
+  <text x="452" y="316" fill="#8a8a8a" font-size="11">At a transition state: one &#955; &lt; 0,</text>
+  <text x="452" y="334" fill="#e0645c" font-size="11">one imaginary &#957; &#8212; the reaction</text>
+  <text x="452" y="352" fill="#e0645c" font-size="11">coordinate.</text>
+</svg>

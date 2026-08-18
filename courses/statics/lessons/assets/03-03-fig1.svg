@@ -1,0 +1,54 @@
+<svg viewBox="0 0 620 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <defs>
+    <marker id="coral" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#e0645c"/>
+    </marker>
+    <marker id="grey" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#8a8a8a"/>
+    </marker>
+  </defs>
+
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Block on a rough incline: friction F acts up-slope, only as strong as it needs to be &#8212; up to &#956;&#8347;N.</text>
+
+  <!-- incline triangle -->
+  <polygon points="60,280 540,280 540,120" fill="#4a90d9" opacity="0.10" stroke="#8a8a8a" stroke-width="2"/>
+
+  <!-- ground hatching under base -->
+  <line x1="70" y1="280" x2="60" y2="292" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="110" y1="280" x2="100" y2="292" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="150" y1="280" x2="140" y2="292" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="190" y1="280" x2="180" y2="292" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="230" y1="280" x2="220" y2="292" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="270" y1="280" x2="260" y2="292" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="310" y1="280" x2="300" y2="292" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="350" y1="280" x2="340" y2="292" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="390" y1="280" x2="380" y2="292" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="430" y1="280" x2="420" y2="292" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="470" y1="280" x2="460" y2="292" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="510" y1="280" x2="500" y2="292" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="60" y1="292" x2="540" y2="292" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- angle arc + label -->
+  <path d="M 106 280 A 46 46 0 0 0 103.6 265.5" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="112" y="273" fill="#8a8a8a">&#952;</text>
+
+  <!-- block resting on slope -->
+  <polygon points="293.7,159.9 306.4,197.9 245.7,218.1 233.0,180.2" fill="#4a90d9" opacity="0.22" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="276" cy="189" r="2.5" fill="#4a90d9"/>
+
+  <!-- Weight -->
+  <line x1="276" y1="189" x2="276" y2="262" stroke="#e0645c" stroke-width="2.5" marker-end="url(#coral)"/>
+  <text x="282" y="258" fill="#e0645c">W</text>
+
+  <!-- Normal (from contact point, outward) -->
+  <line x1="276" y1="208" x2="252" y2="137" stroke="#e0645c" stroke-width="2.5" marker-end="url(#coral)"/>
+  <text x="232" y="132" fill="#e0645c">N</text>
+
+  <!-- Friction up-slope -->
+  <line x1="276" y1="208" x2="342" y2="186" stroke="#e0645c" stroke-width="2.5" marker-end="url(#coral)"/>
+  <text x="348" y="184" fill="#e0645c">F</text>
+
+  <!-- Applied push down-slope -->
+  <line x1="322" y1="150" x2="268" y2="168" stroke="#e0645c" stroke-width="2.5" marker-end="url(#coral)"/>
+  <text x="326" y="145" fill="#e0645c">P</text>
+</svg>

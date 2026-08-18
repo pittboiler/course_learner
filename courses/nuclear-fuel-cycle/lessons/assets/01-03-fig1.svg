@@ -1,0 +1,32 @@
+<svg viewBox="0 0 620 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">One stream in, two out &#8212; total mass and U-235 must each balance across the box.</text>
+
+  <!-- ===== feed arrow (in, from left) ===== -->
+  <line x1="34" y1="165" x2="222" y2="165" stroke="#4a90d9" stroke-width="3"/>
+  <polygon points="230,165 218,159 218,171" fill="#4a90d9"/>
+  <text x="60" y="150" fill="#4a90d9">Feed F</text>
+  <text x="42" y="188" fill="#4a90d9" font-size="13">x<tspan font-size="10" dy="4">f</tspan><tspan dy="-4"> = 0.711%</tspan></text>
+
+  <!-- ===== the enrichment box ===== -->
+  <rect x="232" y="122" width="150" height="86" rx="4" fill="#8a8a8a" opacity="0.12" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="307" y="160" fill="#8a8a8a" text-anchor="middle">Enrichment</text>
+  <text x="307" y="180" fill="#8a8a8a" text-anchor="middle">cascade</text>
+
+  <!-- ===== product arrow (out, top-right) &#8212; the prize ===== -->
+  <line x1="384" y1="146" x2="548" y2="88" stroke="#e0645c" stroke-width="3"/>
+  <polygon points="556,85 542,86 547,98" fill="#e0645c"/>
+  <text x="470" y="70" fill="#e0645c">Product P</text>
+  <text x="470" y="90" fill="#e0645c" font-size="13">x<tspan font-size="10" dy="4">p</tspan><tspan dy="-4"> (enriched)</tspan></text>
+
+  <!-- ===== tails arrow (out, bottom-right) ===== -->
+  <line x1="384" y1="184" x2="548" y2="238" stroke="#8a8a8a" stroke-width="3"/>
+  <polygon points="556,241 547,230 542,242" fill="#8a8a8a"/>
+  <text x="470" y="258" fill="#8a8a8a">Tails T</text>
+  <text x="470" y="278" fill="#8a8a8a" font-size="13">x<tspan font-size="10" dy="4">w</tspan><tspan dy="-4"> (waste)</tspan></text>
+
+  <!-- ===== conservation equations ===== -->
+  <line x1="34" y1="298" x2="586" y2="298" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 5"/>
+  <text x="60" y="320" fill="#8a8a8a">mass:  F = P + T</text>
+  <text x="300" y="320" fill="#8a8a8a">U-235:  F&#160;x<tspan font-size="10" dy="4">f</tspan><tspan dy="-4"> = P&#160;x</tspan><tspan font-size="10" dy="4">p</tspan><tspan dy="-4"> + T&#160;x</tspan><tspan font-size="10" dy="4">w</tspan></text>
+</svg>

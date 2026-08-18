@@ -1,0 +1,29 @@
+<svg viewBox="0 0 560 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="560" height="360" fill="#ffffff"/>
+
+  <!-- axes -->
+  <line x1="90" y1="40" x2="90" y2="310" stroke="#111111" stroke-width="1.5"/>
+  <line x1="90" y1="310" x2="520" y2="310" stroke="#111111" stroke-width="1.5"/>
+  <text x="74" y="52" fill="#111111" font-size="15" text-anchor="end">p*</text>
+  <text x="524" y="330" fill="#111111" font-size="15">u</text>
+  <text x="86" y="330" fill="#6b7075" font-size="13" text-anchor="middle">0</text>
+
+  <!-- convex, decreasing perturbation curve p*(u): loosening (u>0) lowers the optimum -->
+  <path d="M 120,80 Q 300,250 500,290" fill="none" stroke="#1a56c4" stroke-width="3.5"/>
+  <text x="410" y="270" fill="#1a56c4" font-size="14" font-weight="bold">p*(u)</text>
+
+  <!-- point (0, p*(0)) -->
+  <circle cx="235" cy="170" r="4.5" fill="#111111"/>
+  <line x1="90" y1="170" x2="235" y2="170" stroke="#9aa0a6" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="235" y1="170" x2="235" y2="310" stroke="#9aa0a6" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="80" y="174" fill="#111111" font-size="12" text-anchor="end">p*(0)</text>
+  <text x="235" y="328" fill="#111111" font-size="12" text-anchor="middle">u=0</text>
+
+  <!-- tangent at u=0 with slope -lambda* (the supporting hyperplane) -->
+  <line x1="140" y1="118" x2="360" y2="242" stroke="#c2410c" stroke-width="2.5"/>
+  <text x="300" y="170" fill="#c2410c" font-size="13.5" font-weight="bold">slope = &#8722;&#955;*</text>
+  <text x="150" y="106" fill="#c2410c" font-size="12">supporting hyperplane to A</text>
+
+  <!-- title -->
+  <text x="60" y="26" fill="#111111" font-size="14" font-weight="bold">The multiplier is the price: &#955;* = &#8722; dp*/du at u = 0</text>
+</svg>

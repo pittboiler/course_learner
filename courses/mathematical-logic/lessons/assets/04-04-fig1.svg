@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 470" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="600" height="470" fill="#ffffff"/>
+
+  <!-- the tower spine with an upward arrow (sizes increasing forever) -->
+  <g stroke="#111111" stroke-width="2" fill="#111111">
+    <line x1="150" y1="440" x2="150" y2="72"/>
+    <polygon points="150,58 143,74 157,74"/>
+  </g>
+  <text x="150" y="42" text-anchor="middle" font-size="13" fill="#555555">bigger cardinals, forever</text>
+
+  <!-- rung: aleph-0 -->
+  <line x1="130" y1="440" x2="170" y2="440" stroke="#111111" stroke-width="2"/>
+  <circle cx="150" cy="440" r="4" fill="#111111"/>
+  <text x="184" y="445" font-size="16" fill="#111111">&#8501;&#8320; = |&#8469;|<tspan font-size="13" fill="#555555">&#160;&#160;the countable infinity</tspan></text>
+
+  <!-- CH gap: bracket on the left between aleph-0 and c -->
+  <g stroke="#111111" stroke-width="1.5" fill="none">
+    <path d="M 108 436 L 100 436 L 100 314 L 108 314"/>
+  </g>
+  <text x="94" y="379" text-anchor="middle" font-size="12.5" fill="#111111" transform="rotate(-90 94 379)">CH: is anything here?</text>
+
+  <!-- mystery rung aleph-1 inside the gap -->
+  <line x1="132" y1="378" x2="168" y2="378" stroke="#111111" stroke-width="1.4" stroke-dasharray="5 4"/>
+  <circle cx="150" cy="378" r="3.4" fill="#ffffff" stroke="#111111" stroke-width="1.4"/>
+  <text x="184" y="374" font-size="15" fill="#111111">&#8501;&#8321;<tspan font-size="12.5" fill="#555555">&#160;= the next cardinal after &#8501;&#8320;</tspan></text>
+  <text x="184" y="391" font-size="12.5" fill="#555555">CH says this rung <tspan font-style="italic">is</tspan> the next one up &#8594;</text>
+  <text x="70" y="330" font-size="34" fill="#bbbbbb">?</text>
+
+  <!-- rung: c = 2^aleph0 = |P(N)| = |R| -->
+  <line x1="130" y1="305" x2="170" y2="305" stroke="#111111" stroke-width="2"/>
+  <circle cx="150" cy="305" r="4" fill="#111111"/>
+  <text x="184" y="310" font-size="16" fill="#111111">&#120096; = 2<tspan font-size="11" dy="-8">&#8501;&#8320;</tspan><tspan dy="8"> = |P(&#8469;)| = |&#8477;|</tspan></text>
+  <text x="184" y="327" font-size="12.5" fill="#555555">the continuum &#8212; size of the real line</text>
+
+  <!-- rung: 2^c = |P(R)| -->
+  <line x1="130" y1="200" x2="170" y2="200" stroke="#111111" stroke-width="2"/>
+  <circle cx="150" cy="200" r="4" fill="#111111"/>
+  <text x="184" y="205" font-size="16" fill="#111111">2<tspan font-size="11" dy="-8">&#120096;</tspan><tspan dy="8"> = |P(&#8477;)|</tspan><tspan font-size="12.5" fill="#555555">&#160;&#160;= 2<tspan font-size="9" dy="-6">2^&#8501;&#8320;</tspan><tspan dy="6"></tspan></tspan></text>
+
+  <!-- dots continuing up -->
+  <line x1="130" y1="130" x2="170" y2="130" stroke="#111111" stroke-width="1.6"/>
+  <circle cx="150" cy="130" r="3.4" fill="#111111"/>
+  <text x="184" y="135" font-size="16" fill="#111111">2<tspan font-size="11" dy="-8">2^&#120096;</tspan><tspan dy="8"> = |P(P(&#8477;))|</tspan></text>
+  <text x="150" y="102" text-anchor="middle" font-size="20" fill="#111111">&#8942;</text>
+
+  <text x="300" y="462" text-anchor="middle" font-size="12.5" fill="#555555">Each power set is strictly bigger (Cantor). Whether &#120096; sits on the &#8501;&#8321; rung is the Continuum Hypothesis.</text>
+</svg>

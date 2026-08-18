@@ -1,0 +1,37 @@
+<svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Freeze-out: the abundance tracks equilibrium (coral) until interactions can't keep up, then locks to a plateau (blue).</text>
+
+  <!-- ===== axes ===== -->
+  <!-- y axis -->
+  <line x1="80" y1="320" x2="80" y2="50" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="80,50 75,60 85,60" fill="#8a8a8a"/>
+  <!-- x axis -->
+  <line x1="80" y1="320" x2="600" y2="320" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="600,320 590,315 590,325" fill="#8a8a8a"/>
+
+  <!-- axis labels -->
+  <text x="300" y="352" fill="#8a8a8a">x = m/T   (universe cools &#8594;)</text>
+  <text x="18" y="190" fill="#8a8a8a" transform="rotate(-90 18 190)">comoving abundance Y = n/s  (log)</text>
+
+  <!-- ===== equilibrium curve (coral): flat then exponential plunge ===== -->
+  <path d="M 80 78 L 150 80 L 185 88 L 215 104 L 245 128 L 265 150 L 295 186 L 325 224 L 360 262 L 400 292 L 440 308 L 480 316"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+  <text x="330" y="250" fill="#e0645c">equilibrium  n&#8321; &#8733; e&#8722;m/T</text>
+
+  <!-- ===== actual abundance (blue): tracks equilibrium, then plateaus ===== -->
+  <path d="M 80 78 L 150 80 L 185 88 L 215 104 L 245 128 L 265 150 L 590 150"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="440" y="140" fill="#4a90d9">relic plateau</text>
+
+  <!-- ===== freeze-out marker ===== -->
+  <circle cx="265" cy="150" r="6" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="265" y1="150" x2="265" y2="320" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="205" y="338" fill="#8a8a8a">freeze-out</text>
+  <text x="278" y="120" fill="#8a8a8a">&#915; ~ H  here</text>
+
+  <!-- coupled / decoupled regime labels -->
+  <text x="120" y="70" fill="#8a8a8a" font-style="italic">&#915; &gt; H</text>
+  <text x="130" y="88" fill="#8a8a8a" font-style="italic">coupled</text>
+  <text x="400" y="180" fill="#8a8a8a" font-style="italic">&#915; &lt; H : decoupled</text>
+</svg>

@@ -1,0 +1,82 @@
+<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">BB84: Alice sends photons in random bases; they keep only matching-basis bits. Eve's wrong-basis guesses corrupt the key.</text>
+
+  <!-- ===== top: the channel ===== -->
+
+  <!-- Alice box -->
+  <rect x="24" y="44" width="150" height="58" rx="6" fill="#8a8a8a" opacity="0.14" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="99" y="66" fill="#8a8a8a" text-anchor="middle" font-weight="bold">Alice</text>
+  <text x="99" y="84" fill="#8a8a8a" text-anchor="middle" font-size="11">random bit</text>
+  <text x="99" y="97" fill="#8a8a8a" text-anchor="middle" font-size="11">+ random basis</text>
+
+  <!-- Bob box -->
+  <rect x="466" y="44" width="150" height="58" rx="6" fill="#8a8a8a" opacity="0.14" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="541" y="66" fill="#8a8a8a" text-anchor="middle" font-weight="bold">Bob</text>
+  <text x="541" y="84" fill="#8a8a8a" text-anchor="middle" font-size="11">measures in a</text>
+  <text x="541" y="97" fill="#8a8a8a" text-anchor="middle" font-size="11">random basis</text>
+
+  <!-- quantum channel (blue) -->
+  <line x1="174" y1="73" x2="462" y2="73" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="462,73 452,68 452,78" fill="#4a90d9"/>
+  <text x="318" y="64" fill="#4a90d9" text-anchor="middle" font-size="11">single photons  &#8594;</text>
+
+  <!-- Eve intercept (coral) -->
+  <rect x="288" y="52" width="60" height="42" rx="5" fill="#e0645c" opacity="0.16" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="318" y="79" fill="#e0645c" text-anchor="middle" font-weight="bold">Eve?</text>
+  <text x="318" y="110" fill="#e0645c" text-anchor="middle" font-size="11">intercept-resend &#8594; errors</text>
+
+  <!-- ===== bottom: sifting table ===== -->
+  <text x="30" y="150" fill="#8a8a8a" font-style="italic" font-size="12">Publicly compare bases; keep only the matches (the sifted key). + = rectilinear, &#215; = diagonal.</text>
+
+  <!-- column guides -->
+  <line x1="150" y1="164" x2="150" y2="336" stroke="#8a8a8a" stroke-width="1" opacity="0.5"/>
+
+  <!-- row labels -->
+  <text x="30" y="192" fill="#8a8a8a" font-size="13">photon</text>
+  <text x="30" y="224" fill="#4a90d9" font-size="13">Alice basis</text>
+  <text x="30" y="256" fill="#8a8a8a" font-size="13">Bob basis</text>
+  <text x="30" y="288" fill="#e0645c" font-size="13">match?</text>
+  <text x="30" y="320" fill="#8a8a8a" font-size="13">sifted bit</text>
+
+  <!-- photon columns: centers at 200, 288, 376, 464, 552 -->
+  <!-- headers -->
+  <text x="200" y="192" fill="#8a8a8a" text-anchor="middle">1</text>
+  <text x="288" y="192" fill="#8a8a8a" text-anchor="middle">2</text>
+  <text x="376" y="192" fill="#8a8a8a" text-anchor="middle">3</text>
+  <text x="464" y="192" fill="#8a8a8a" text-anchor="middle">4</text>
+  <text x="552" y="192" fill="#8a8a8a" text-anchor="middle">5</text>
+
+  <!-- Alice bases: + x + + x -->
+  <text x="200" y="224" fill="#4a90d9" text-anchor="middle" font-size="18">+</text>
+  <text x="288" y="224" fill="#4a90d9" text-anchor="middle" font-size="18">&#215;</text>
+  <text x="376" y="224" fill="#4a90d9" text-anchor="middle" font-size="18">+</text>
+  <text x="464" y="224" fill="#4a90d9" text-anchor="middle" font-size="18">+</text>
+  <text x="552" y="224" fill="#4a90d9" text-anchor="middle" font-size="18">&#215;</text>
+
+  <!-- Bob bases: + x x + + -->
+  <text x="200" y="256" fill="#8a8a8a" text-anchor="middle" font-size="18">+</text>
+  <text x="288" y="256" fill="#8a8a8a" text-anchor="middle" font-size="18">&#215;</text>
+  <text x="376" y="256" fill="#8a8a8a" text-anchor="middle" font-size="18">&#215;</text>
+  <text x="464" y="256" fill="#8a8a8a" text-anchor="middle" font-size="18">+</text>
+  <text x="552" y="256" fill="#8a8a8a" text-anchor="middle" font-size="18">+</text>
+
+  <!-- match row: yes yes no yes no -->
+  <text x="200" y="289" fill="#4a90d9" text-anchor="middle" font-size="16">&#10003;</text>
+  <text x="288" y="289" fill="#4a90d9" text-anchor="middle" font-size="16">&#10003;</text>
+  <text x="376" y="289" fill="#e0645c" text-anchor="middle" font-size="16">&#10007;</text>
+  <text x="464" y="289" fill="#4a90d9" text-anchor="middle" font-size="16">&#10003;</text>
+  <text x="552" y="289" fill="#e0645c" text-anchor="middle" font-size="16">&#10007;</text>
+
+  <!-- sifted bits: keep 1,2,4 -->
+  <rect x="176" y="304" width="48" height="22" rx="3" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="1"/>
+  <text x="200" y="320" fill="#4a90d9" text-anchor="middle" font-weight="bold">1</text>
+  <rect x="264" y="304" width="48" height="22" rx="3" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="1"/>
+  <text x="288" y="320" fill="#4a90d9" text-anchor="middle" font-weight="bold">0</text>
+  <text x="376" y="320" fill="#8a8a8a" text-anchor="middle">&#8212;</text>
+  <rect x="440" y="304" width="48" height="22" rx="3" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="1"/>
+  <text x="464" y="320" fill="#4a90d9" text-anchor="middle" font-weight="bold">1</text>
+  <text x="552" y="320" fill="#8a8a8a" text-anchor="middle">&#8212;</text>
+
+  <text x="335" y="358" fill="#8a8a8a" text-anchor="middle" font-size="11">3 of 5 bases matched &#8594; ~50% survive as the sifted key</text>
+</svg>

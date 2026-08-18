@@ -1,0 +1,46 @@
+<svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <!-- caption -->
+  <text x="60" y="24" fill="#8a8a8a" font-style="italic">Large-break LOCA: clad heats up as the core uncovers, peaks near the limit, then the quench front plunges it back down.</text>
+
+  <!-- axes -->
+  <line x1="70" y1="300" x2="616" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="616,300 606,295 606,305" fill="#8a8a8a"/>
+  <text x="470" y="330" fill="#8a8a8a">time after break &#8594;</text>
+  <line x1="70" y1="300" x2="70" y2="50" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,50 65,60 75,60" fill="#8a8a8a"/>
+  <text x="30" y="46" fill="#8a8a8a">clad T</text>
+
+  <!-- PCT regulatory limit line -->
+  <line x1="70" y1="99" x2="608" y2="99" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="360" y="93" fill="#e0645c">PCT limit 1204 &#176;C (2200 &#176;F)</text>
+
+  <!-- baseline (normal clad temp) reference -->
+  <line x1="70" y1="270" x2="345" y2="270" stroke="#8a8a8a" stroke-width="0.8" stroke-dasharray="2 4"/>
+  <text x="76" y="264" fill="#8a8a8a">~350 &#176;C normal</text>
+
+  <!-- phase dividers -->
+  <line x1="230" y1="110" x2="230" y2="300" stroke="#8a8a8a" stroke-width="0.8" stroke-dasharray="3 5"/>
+  <line x1="345" y1="120" x2="345" y2="300" stroke="#8a8a8a" stroke-width="0.8" stroke-dasharray="3 5"/>
+  <text x="120" y="316" fill="#8a8a8a">blowdown</text>
+  <text x="250" y="316" fill="#8a8a8a">refill / reflood</text>
+  <text x="440" y="316" fill="#8a8a8a">long-term cooling</text>
+
+  <!-- clad temperature trace -->
+  <path d="M 70 270 L 96 270 L 110 262 L 130 235 L 150 200 L 170 170 L 190 182 L 210 198 L 230 196 L 250 178 L 270 150 L 290 126 L 300 116 L 312 140 L 324 200 L 336 260 L 345 280 L 400 282 L 500 284 L 600 287"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- peak labels -->
+  <circle cx="170" cy="170" r="3" fill="#4a90d9"/>
+  <text x="150" y="160" fill="#4a90d9">blowdown peak</text>
+  <circle cx="300" cy="116" r="3.5" fill="#e0645c"/>
+  <text x="296" y="112" fill="#e0645c">PCT (reflood peak)</text>
+
+  <!-- margin marker between PCT peak and limit -->
+  <line x1="300" y1="116" x2="300" y2="99" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="300,99 296,107 304,107" fill="#e0645c"/>
+  <polygon points="300,116 296,108 304,108" fill="#e0645c"/>
+  <text x="308" y="80" fill="#e0645c">margin</text>
+
+  <!-- decay-heat tail label -->
+  <text x="470" y="278" fill="#4a90d9">decay-heat tail</text>
+</svg>

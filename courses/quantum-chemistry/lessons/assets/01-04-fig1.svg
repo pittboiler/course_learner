@@ -1,0 +1,54 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">First order shifts a level in place; second order mixes neighbours and pushes them apart, weighted by 1/&#916;E.</text>
+
+  <!-- energy axis -->
+  <line x1="60" y1="300" x2="60" y2="58" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="60,58 55,68 65,68" fill="#8a8a8a"/>
+  <text x="48" y="70" fill="#8a8a8a">E</text>
+
+  <!-- column headers -->
+  <text x="130" y="52" fill="#4a90d9">unperturbed</text>
+  <text x="410" y="52" fill="#e0645c">perturbed</text>
+
+  <!-- unperturbed levels (blue) -->
+  <line x1="130" y1="250" x2="270" y2="250" stroke="#4a90d9" stroke-width="3"/>
+  <text x="86" y="255" fill="#4a90d9">E<tspan font-size="10" dy="4">n</tspan><tspan font-size="10" dy="-10">(0)</tspan></text>
+
+  <line x1="130" y1="130" x2="270" y2="130" stroke="#4a90d9" stroke-width="3"/>
+  <text x="86" y="135" fill="#4a90d9">E<tspan font-size="10" dy="4">k</tspan><tspan font-size="10" dy="-10">(0)</tspan></text>
+
+  <!-- gap marker -->
+  <line x1="112" y1="130" x2="112" y2="250" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <polygon points="112,130 108,140 116,140" fill="#8a8a8a"/>
+  <polygon points="112,250 108,240 116,240" fill="#8a8a8a"/>
+  <text x="118" y="195" fill="#8a8a8a">&#916;E</text>
+
+  <!-- mixing double arrow between the two blue levels -->
+  <path d="M 300 246 C 340 210, 340 170, 300 134" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+  <polygon points="300,246 305,236 296,238" fill="#e0645c"/>
+  <polygon points="300,134 305,144 296,142" fill="#e0645c"/>
+  <text x="322" y="188" fill="#e0645c">mix</text>
+  <text x="322" y="206" fill="#e0645c" font-size="12">H'<tspan font-size="9" dy="4">kn</tspan><tspan font-size="12" dy="-4">/&#916;E</tspan></text>
+
+  <!-- guide lines from unperturbed heights across to perturbed column -->
+  <line x1="270" y1="250" x2="540" y2="250" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 5"/>
+  <line x1="270" y1="130" x2="540" y2="130" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 5"/>
+
+  <!-- perturbed levels (coral): first-order shift already applied, then second-order repulsion -->
+  <!-- lower level pushed DOWN -->
+  <line x1="410" y1="278" x2="540" y2="278" stroke="#e0645c" stroke-width="3"/>
+  <line x1="475" y1="250" x2="475" y2="272" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="475,272 471,262 479,262" fill="#e0645c"/>
+
+  <!-- upper level pushed UP -->
+  <line x1="410" y1="106" x2="540" y2="106" stroke="#e0645c" stroke-width="3"/>
+  <line x1="475" y1="130" x2="475" y2="108" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="475,108 471,118 479,118" fill="#e0645c"/>
+
+  <!-- labels for perturbed levels -->
+  <text x="548" y="283" fill="#e0645c">E<tspan font-size="10" dy="4">n</tspan></text>
+  <text x="548" y="111" fill="#e0645c">E<tspan font-size="10" dy="4">k</tspan></text>
+
+  <!-- second-order note -->
+  <text x="360" y="322" fill="#8a8a8a" font-size="12">2nd order: ground level always lowered (denominator negative)</text>
+</svg>

@@ -1,0 +1,47 @@
+<svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="620" height="340" fill="#ffffff"/>
+
+  <!-- title -->
+  <text x="310" y="30" fill="#111111" font-size="17" text-anchor="middle" font-weight="bold">Hahn decomposition:  X = P &#8846; N</text>
+
+  <!-- shaded areas under the density f -->
+  <!-- positive part: f >= 0, between curve and baseline, x in [70,315] -->
+  <path d="M 70 95 Q 230 95 315 180 L 70 180 Z" fill="#bfdbfe"/>
+  <!-- negative part: f < 0, between baseline and curve, x in [315,555] -->
+  <path d="M 315 180 Q 400 268 555 246 L 555 180 L 315 180 Z" fill="#fecaca"/>
+
+  <!-- baseline (the level f = 0) -->
+  <line x1="60" y1="180" x2="575" y2="180" stroke="#111111" stroke-width="1.5"/>
+  <text x="585" y="184" fill="#111111" font-size="13">x</text>
+
+  <!-- the density curve y = f(x) -->
+  <path d="M 70 95 Q 230 95 315 180 Q 400 268 555 246" fill="none" stroke="#111111" stroke-width="2"/>
+  <text x="86" y="82" fill="#111111" font-size="14" font-style="italic">y = f(x)</text>
+
+  <!-- zero crossing -->
+  <circle cx="315" cy="180" r="3.5" fill="#111111"/>
+  <text x="315" y="168" fill="#555555" font-size="12" text-anchor="middle">f = 0</text>
+
+  <!-- measure labels living on each region -->
+  <text x="180" y="150" fill="#1d4ed8" font-size="22" text-anchor="middle" font-weight="bold">&#957;&#8314;</text>
+  <text x="435" y="220" fill="#b91c1c" font-size="22" text-anchor="middle" font-weight="bold">&#957;&#8315;</text>
+
+  <!-- P bracket -->
+  <line x1="70" y1="198" x2="315" y2="198" stroke="#1d4ed8" stroke-width="1.5"/>
+  <line x1="70" y1="194" x2="70" y2="198" stroke="#1d4ed8" stroke-width="1.5"/>
+  <line x1="315" y1="194" x2="315" y2="198" stroke="#1d4ed8" stroke-width="1.5"/>
+  <text x="192" y="216" fill="#1d4ed8" font-size="14" text-anchor="middle">P = { f &#8805; 0 }</text>
+  <text x="192" y="232" fill="#555555" font-size="12" text-anchor="middle">positive set</text>
+
+  <!-- N bracket -->
+  <line x1="315" y1="198" x2="555" y2="198" stroke="#b91c1c" stroke-width="1.5"/>
+  <line x1="315" y1="194" x2="315" y2="198" stroke="#b91c1c" stroke-width="1.5"/>
+  <line x1="555" y1="194" x2="555" y2="198" stroke="#b91c1c" stroke-width="1.5"/>
+  <text x="435" y="216" fill="#b91c1c" font-size="14" text-anchor="middle">N = { f &lt; 0 }</text>
+  <text x="435" y="232" fill="#555555" font-size="12" text-anchor="middle">negative set</text>
+
+  <!-- caption -->
+  <text x="310" y="282" fill="#111111" font-size="14" text-anchor="middle">Density picture:  &#957;(E) = &#8747;&#8342; f d&#956;.  On P the mass is positive, on N it is negative.</text>
+  <text x="310" y="306" fill="#111111" font-size="14" text-anchor="middle">&#957;&#8314; lives entirely on P, &#957;&#8315; on N &#8212; disjoint carriers, so &#957;&#8314; &#8869; &#957;&#8315;.</text>
+  <text x="310" y="328" fill="#555555" font-size="13" text-anchor="middle">Total variation |&#957;| = &#957;&#8314; + &#957;&#8315; adds the two shaded areas.</text>
+</svg>

@@ -1,0 +1,66 @@
+<svg viewBox="0 0 640 470" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <defs>
+    <marker id="sbm2-coral" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <polygon points="0,0 9,3 0,6" fill="#e0645c"/>
+    </marker>
+    <marker id="sbm2-grey" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <polygon points="0,0 9,3 0,6" fill="#8a8a8a"/>
+    </marker>
+  </defs>
+
+  <!-- caption -->
+  <text x="26" y="22" fill="#8a8a8a" font-style="italic">Under a distributed load the shear slopes; where it crosses zero the moment (a parabola) reaches its max.</text>
+
+  <!-- vertical connector at x = 3 m: V = 0 -> M peak -->
+  <line x1="247" y1="104" x2="247" y2="430" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 5"/>
+
+  <!-- ============ TOP: the beam with partial UDL ============ -->
+  <rect x="90" y="88" width="420" height="14" fill="#4a90d9" opacity="0.18" stroke="#4a90d9" stroke-width="2"/>
+
+  <!-- UDL over left half (x = 0..4 m) -->
+  <line x1="90" y1="54" x2="300" y2="54" stroke="#e0645c" stroke-width="1.6"/>
+  <line x1="90" y1="54" x2="90" y2="84" stroke="#e0645c" stroke-width="2" marker-end="url(#sbm2-coral)"/>
+  <line x1="132" y1="54" x2="132" y2="84" stroke="#e0645c" stroke-width="2" marker-end="url(#sbm2-coral)"/>
+  <line x1="174" y1="54" x2="174" y2="84" stroke="#e0645c" stroke-width="2" marker-end="url(#sbm2-coral)"/>
+  <line x1="216" y1="54" x2="216" y2="84" stroke="#e0645c" stroke-width="2" marker-end="url(#sbm2-coral)"/>
+  <line x1="258" y1="54" x2="258" y2="84" stroke="#e0645c" stroke-width="2" marker-end="url(#sbm2-coral)"/>
+  <line x1="300" y1="54" x2="300" y2="84" stroke="#e0645c" stroke-width="2" marker-end="url(#sbm2-coral)"/>
+  <text x="140" y="46" fill="#e0645c">w = 5 kN/m</text>
+
+  <!-- support A: pin -->
+  <polygon points="90,102 76,124 104,124" fill="none" stroke="#8a8a8a" stroke-width="1.6"/>
+  <line x1="72" y1="124" x2="108" y2="124" stroke="#8a8a8a" stroke-width="1.6"/>
+  <line x1="74" y1="132" x2="82" y2="124" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="86" y1="132" x2="94" y2="124" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="98" y1="132" x2="106" y2="124" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="70" y="150" fill="#8a8a8a">A</text>
+
+  <!-- support B: roller -->
+  <polygon points="510,102 496,120 524,120" fill="none" stroke="#8a8a8a" stroke-width="1.6"/>
+  <circle cx="501" cy="125" r="4" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+  <circle cx="519" cy="125" r="4" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="494" y1="131" x2="526" y2="131" stroke="#8a8a8a" stroke-width="1.6"/>
+  <text x="504" y="150" fill="#8a8a8a">B</text>
+
+  <!-- ============ MIDDLE: shear diagram V(x) ============ -->
+  <text x="20" y="234" fill="#4a90d9" font-size="13">V (kN)</text>
+  <line x1="80" y1="250" x2="546" y2="250" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 4" marker-end="url(#sbm2-grey)"/>
+  <text x="550" y="255" fill="#8a8a8a" font-size="12">x</text>
+  <!-- V curve: +15, sloping down through 0 at x=3, -5 flat, back to 0 -->
+  <path d="M 90 250 L 90 175 L 300 275 L 510 275 L 510 250" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="96" y="170" fill="#4a90d9">+15</text>
+  <text x="400" y="291" fill="#4a90d9">&#8722;5</text>
+  <circle cx="247" cy="250" r="4" fill="#e0645c"/>
+  <text x="200" y="242" fill="#e0645c" font-size="12">V = 0 at x = 3 m</text>
+
+  <!-- ============ BOTTOM: moment diagram M(x) ============ -->
+  <text x="20" y="392" fill="#e0645c" font-size="13">M (kN&#183;m)</text>
+  <line x1="80" y1="430" x2="546" y2="430" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 4" marker-end="url(#sbm2-grey)"/>
+  <text x="550" y="435" fill="#8a8a8a" font-size="12">x</text>
+  <!-- M curve: parabola to peak at x=3, then straight line to 0 at x=8 -->
+  <path d="M 90 430 L 142 380 L 195 350 L 247 340 L 300 350 L 510 430" fill="none" stroke="#e0645c" stroke-width="3"/>
+  <circle cx="247" cy="340" r="4" fill="#e0645c"/>
+  <text x="255" y="336" fill="#e0645c">M</text>
+  <text x="271" y="340" fill="#e0645c" font-size="10">max</text>
+  <text x="291" y="336" fill="#e0645c">= 22.5</text>
+</svg>

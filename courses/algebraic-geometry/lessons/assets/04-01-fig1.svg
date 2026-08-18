@@ -1,0 +1,50 @@
+<svg viewBox="0 0 720 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="720" height="360" fill="#ffffff"/>
+  <defs>
+    <marker id="ar" markerWidth="9" markerHeight="9" refX="7" refY="3.2" orient="auto">
+      <path d="M0,0 L8,3.2 L0,6.4 Z" fill="#1a5fa8"/>
+    </marker>
+    <linearGradient id="smear" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b9d3ee" stop-opacity="0.15"/>
+      <stop offset="0.5" stop-color="#b9d3ee" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#b9d3ee" stop-opacity="0.15"/>
+    </linearGradient>
+  </defs>
+
+  <text x="360" y="30" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Spec k[x]  —  a line of closed points plus a dense generic point</text>
+
+  <!-- the smeared generic point: a translucent band covering the whole line -->
+  <rect x="60" y="150" width="600" height="54" rx="27" fill="url(#smear)"/>
+  <text x="360" y="240" text-anchor="middle" font-size="13" fill="#1a5fa8" font-weight="bold">generic point  (0)</text>
+  <text x="360" y="258" text-anchor="middle" font-size="12" fill="#1a5fa8">not a dot — smeared over everything; its closure is the whole line</text>
+
+  <!-- the affine line A^1 -->
+  <line x1="60" y1="177" x2="672" y2="177" stroke="#111111" stroke-width="2" marker-end="url(#ar)"/>
+
+  <!-- closed points (x - a): filled dots, maximal ideals -->
+  <!-- a = 0 -->
+  <circle cx="150" cy="177" r="6" fill="#127a4a"/>
+  <text x="150" y="150" text-anchor="middle" font-size="13" fill="#111111">(x)</text>
+  <text x="150" y="200" text-anchor="middle" font-size="11" fill="#555555">a = 0</text>
+  <!-- a = 1 -->
+  <circle cx="270" cy="177" r="6" fill="#127a4a"/>
+  <text x="270" y="150" text-anchor="middle" font-size="13" fill="#111111">(x - 1)</text>
+  <text x="270" y="200" text-anchor="middle" font-size="11" fill="#555555">a = 1</text>
+  <!-- a = 2 -->
+  <circle cx="390" cy="177" r="6" fill="#127a4a"/>
+  <text x="390" y="150" text-anchor="middle" font-size="13" fill="#111111">(x - 2)</text>
+  <text x="390" y="200" text-anchor="middle" font-size="11" fill="#555555">a = 2</text>
+  <!-- a = 3 -->
+  <circle cx="510" cy="177" r="6" fill="#127a4a"/>
+  <text x="510" y="150" text-anchor="middle" font-size="13" fill="#111111">(x - 3)</text>
+  <text x="510" y="200" text-anchor="middle" font-size="11" fill="#555555">a = 3</text>
+  <!-- generic ... -->
+  <text x="600" y="181" text-anchor="middle" font-size="15" fill="#555555">. . .</text>
+
+  <!-- legend -->
+  <circle cx="150" cy="300" r="6" fill="#127a4a"/>
+  <text x="165" y="304" font-size="12.5" fill="#111111" text-anchor="start">closed point (x - a): a maximal ideal — closure is just itself</text>
+
+  <rect x="144" y="322" width="12" height="12" rx="6" fill="#b9d3ee"/>
+  <text x="165" y="332" font-size="12.5" fill="#111111" text-anchor="start">generic point (0): a non-maximal prime — dense, closure = all of Spec k[x]</text>
+</svg>

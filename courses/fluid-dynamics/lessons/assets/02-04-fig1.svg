@@ -1,0 +1,39 @@
+<svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">A flow net for uniform flow: equipotentials φ = const (coral) cross streamlines ψ = const (blue) at right angles.</text>
+
+  <!-- ===== flow net: uniform flow to the right, U along +x ===== -->
+  <!-- domain box -->
+  <rect x="70" y="60" width="420" height="230" fill="none" stroke="#8a8a8a" stroke-width="1" opacity="0.4"/>
+
+  <!-- streamlines psi = const : horizontal blue lines (flow direction) -->
+  <line x1="70" y1="88"  x2="490" y2="88"  stroke="#4a90d9" stroke-width="2"/>
+  <line x1="70" y1="134" x2="490" y2="134" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="70" y1="180" x2="490" y2="180" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="70" y1="226" x2="490" y2="226" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="70" y1="272" x2="490" y2="272" stroke="#4a90d9" stroke-width="2"/>
+
+  <!-- equipotentials phi = const : vertical coral lines (perpendicular to flow) -->
+  <line x1="118" y1="60" x2="118" y2="290" stroke="#e0645c" stroke-width="2"/>
+  <line x1="187" y1="60" x2="187" y2="290" stroke="#e0645c" stroke-width="2"/>
+  <line x1="256" y1="60" x2="256" y2="290" stroke="#e0645c" stroke-width="2"/>
+  <line x1="325" y1="60" x2="325" y2="290" stroke="#e0645c" stroke-width="2"/>
+  <line x1="394" y1="60" x2="394" y2="290" stroke="#e0645c" stroke-width="2"/>
+
+  <!-- flow-direction arrows on the middle streamline -->
+  <polygon points="270,180 258,175 258,185" fill="#4a90d9"/>
+  <text x="500" y="184" fill="#4a90d9">ψ = const</text>
+  <text x="500" y="204" fill="#4a90d9" font-style="italic">streamlines</text>
+
+  <!-- label an equipotential -->
+  <text x="360" y="52" fill="#e0645c">φ = const</text>
+  <text x="360" y="308" fill="#e0645c" font-style="italic">equipotentials</text>
+
+  <!-- right-angle marker at one crossing (256,180) -->
+  <rect x="256" y="168" width="12" height="12" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+
+  <!-- velocity u = grad phi arrow, along flow, at a node -->
+  <line x1="187" y1="134" x2="240" y2="134" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <polygon points="240,134 230,129 230,139" fill="#8a8a8a"/>
+  <text x="205" y="126" fill="#8a8a8a" font-style="italic">u = ∇φ</text>
+</svg>

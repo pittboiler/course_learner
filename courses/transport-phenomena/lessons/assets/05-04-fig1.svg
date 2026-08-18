@@ -1,0 +1,71 @@
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="24" y="24" fill="#8a8a8a" font-style="italic">Turbulent boundary layer: one eddy carries momentum, heat, and mass together across the gradient.</text>
+
+  <!-- wall (hatched) -->
+  <line x1="90" y1="345" x2="600" y2="345" stroke="#8a8a8a" stroke-width="2.5"/>
+  <line x1="110" y1="345" x2="98" y2="357" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="150" y1="345" x2="138" y2="357" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="190" y1="345" x2="178" y2="357" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="230" y1="345" x2="218" y2="357" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="270" y1="345" x2="258" y2="357" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="310" y1="345" x2="298" y2="357" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="350" y1="345" x2="338" y2="357" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="390" y1="345" x2="378" y2="357" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="430" y1="345" x2="418" y2="357" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="470" y1="345" x2="458" y2="357" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="510" y1="345" x2="498" y2="357" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="550" y1="345" x2="538" y2="357" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="345" y="374" fill="#8a8a8a" text-anchor="middle">wall</text>
+
+  <!-- vertical axis y (distance from wall) -->
+  <line x1="90" y1="345" x2="90" y2="55" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="90,55 85,66 95,66" fill="#8a8a8a"/>
+  <text x="70" y="200" fill="#8a8a8a" text-anchor="middle" transform="rotate(-90 70 200)">y  (distance from wall)</text>
+
+  <!-- horizontal axis u (mean velocity) -->
+  <line x1="90" y1="345" x2="470" y2="345" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="470,345 459,340 459,350" fill="#8a8a8a"/>
+  <text x="290" y="392" fill="#8a8a8a" text-anchor="middle" font-style="italic">u  (mean velocity)</text>
+
+  <!-- free-stream marker -->
+  <line x1="430" y1="345" x2="430" y2="70" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="430" y="64" fill="#8a8a8a" text-anchor="middle">u&#8734;</text>
+
+  <!-- mean turbulent velocity profile (full: steep near wall, flat outer) -->
+  <path d="M 90 345 C 108 320 118 300 128 285 C 150 250 190 180 240 130 C 290 95 360 78 430 72"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="150" y="245" fill="#4a90d9" font-size="13">mean profile</text>
+
+  <!-- fluctuation wiggle overlaid on the profile (v') -->
+  <path d="M 240 130 l 8 -6 l -12 -3 l 12 -7 l -10 -4 l 11 -6"
+        fill="none" stroke="#e0645c" stroke-width="2"/>
+  <text x="262" y="112" fill="#e0645c" font-size="13">v&#8242;</text>
+
+  <!-- viscous sublayer band -->
+  <line x1="90" y1="300" x2="360" y2="300" stroke="#8a8a8a" stroke-width="0.8" stroke-dasharray="2 4"/>
+  <text x="200" y="318" fill="#8a8a8a" font-size="12" text-anchor="middle">viscous sublayer (molecular, thin)</text>
+
+  <!-- log-law region label -->
+  <line x1="90" y1="150" x2="360" y2="150" stroke="#8a8a8a" stroke-width="0.8" stroke-dasharray="2 4"/>
+  <text x="205" y="172" fill="#8a8a8a" font-size="12" text-anchor="middle">log-law region</text>
+
+  <!-- EDDY: rotating loop that lifts and drops parcels across the gradient -->
+  <circle cx="300" cy="215" r="46" fill="#4a90d9" opacity="0.10"/>
+  <path d="M 300 169 A 46 46 0 1 1 262 191" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="262,191 258,180 271,184" fill="#4a90d9"/>
+  <text x="300" y="220" fill="#4a90d9" text-anchor="middle" font-size="13">eddy</text>
+
+  <!-- parcel carried DOWN the gradient (from fast/hot/rich to slow region) -->
+  <line x1="300" y1="170" x2="300" y2="262" stroke="#e0645c" stroke-width="2" stroke-dasharray="4 3"/>
+  <circle cx="300" cy="262" r="8" fill="#e0645c"/>
+  <polygon points="300,272 294,260 306,260" fill="#e0645c"/>
+  <text x="316" y="266" fill="#e0645c" font-size="13">parcel</text>
+
+  <!-- what the parcel carries -->
+  <rect x="470" y="150" width="210" height="120" rx="8" fill="#8a8a8a" opacity="0.10"/>
+  <text x="480" y="172" fill="#8a8a8a" font-size="13">one parcel carries:</text>
+  <text x="490" y="196" fill="#4a90d9" font-size="13">&#8226; momentum   &#961;v_x</text>
+  <text x="490" y="220" fill="#e0645c" font-size="13">&#8226; heat            &#961;c_p T</text>
+  <text x="490" y="244" fill="#8a8a8a" font-size="13">&#8226; species         c_A</text>
+  <text x="480" y="264" fill="#8a8a8a" font-size="12" font-style="italic">same eddy &#8594; &#957;_t &#8776; &#945;_t &#8776; D_t</text>
+</svg>

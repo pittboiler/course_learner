@@ -1,0 +1,69 @@
+<svg viewBox="0 0 640 250" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <defs>
+    <marker id="ah" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto">
+      <polygon points="0,0 7,3 0,6" fill="#4a90d9"/>
+    </marker>
+  </defs>
+
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">From the terminals a&#8211;b, these two are indistinguishable. Swap freely.</text>
+
+  <!-- ===== LEFT: voltage source in series with R ===== -->
+  <!-- top wire with series resistor -->
+  <line x1="90" y1="80" x2="150" y2="80" stroke="#8a8a8a" stroke-width="2"/>
+  <rect x="150" y="68" width="60" height="24" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="210" y1="80" x2="250" y2="80" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="167" y="60" fill="#8a8a8a">R</text>
+
+  <!-- left side down through voltage source -->
+  <line x1="90" y1="80" x2="90" y2="128" stroke="#8a8a8a" stroke-width="2"/>
+  <circle cx="90" cy="150" r="22" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="90" y1="141" x2="90" y2="159" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="81" y1="150" x2="99" y2="150" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="86" y1="163" x2="94" y2="163" stroke="#4a90d9" stroke-width="2"/>
+  <text x="52" y="155" fill="#4a90d9">V</text>
+  <text x="61" y="160" fill="#4a90d9" font-size="10">s</text>
+  <line x1="90" y1="172" x2="90" y2="200" stroke="#8a8a8a" stroke-width="2"/>
+
+  <!-- bottom wire -->
+  <line x1="90" y1="200" x2="250" y2="200" stroke="#8a8a8a" stroke-width="2"/>
+
+  <!-- terminals a,b -->
+  <circle cx="250" cy="80" r="4" fill="#8a8a8a"/>
+  <circle cx="250" cy="200" r="4" fill="#8a8a8a"/>
+  <text x="258" y="85" fill="#8a8a8a">a</text>
+  <text x="258" y="205" fill="#8a8a8a">b</text>
+
+  <!-- ===== CENTER: equivalence ===== -->
+  <text x="300" y="146" fill="#e0645c" font-size="30">&#8801;</text>
+  <text x="286" y="176" fill="#e0645c" font-size="13">I</text>
+  <text x="292" y="180" fill="#e0645c" font-size="10">s</text>
+  <text x="298" y="176" fill="#e0645c" font-size="13">= V</text>
+  <text x="322" y="180" fill="#e0645c" font-size="10">s</text>
+  <text x="328" y="176" fill="#e0645c" font-size="13">/R</text>
+
+  <!-- ===== RIGHT: current source in parallel with R ===== -->
+  <!-- top rail -->
+  <line x1="430" y1="80" x2="560" y2="80" stroke="#8a8a8a" stroke-width="2"/>
+  <!-- bottom rail -->
+  <line x1="430" y1="200" x2="560" y2="200" stroke="#8a8a8a" stroke-width="2"/>
+
+  <!-- current source branch (left vertical) -->
+  <line x1="430" y1="80" x2="430" y2="122" stroke="#8a8a8a" stroke-width="2"/>
+  <circle cx="430" cy="140" r="22" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="430" y1="152" x2="430" y2="130" stroke="#4a90d9" stroke-width="2" marker-end="url(#ah)"/>
+  <line x1="430" y1="162" x2="430" y2="200" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="392" y="145" fill="#4a90d9">I</text>
+  <text x="399" y="149" fill="#4a90d9" font-size="10">s</text>
+
+  <!-- resistor branch (right vertical) -->
+  <line x1="500" y1="80" x2="500" y2="110" stroke="#8a8a8a" stroke-width="2"/>
+  <rect x="488" y="110" width="24" height="60" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="500" y1="170" x2="500" y2="200" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="518" y="145" fill="#8a8a8a">R</text>
+
+  <!-- terminals a,b -->
+  <circle cx="560" cy="80" r="4" fill="#8a8a8a"/>
+  <circle cx="560" cy="200" r="4" fill="#8a8a8a"/>
+  <text x="568" y="85" fill="#8a8a8a">a</text>
+  <text x="568" y="205" fill="#8a8a8a">b</text>
+</svg>

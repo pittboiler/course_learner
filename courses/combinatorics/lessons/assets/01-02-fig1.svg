@@ -1,0 +1,55 @@
+<svg viewBox="0 0 700 440" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="700" height="440" fill="#ffffff"/>
+
+  <!-- hockey-stick handle + blade path (drawn behind the cells) -->
+  <polyline points="414,168 382,222 350,276 318,330 350,384"
+            fill="none" stroke="#2b6cb0" stroke-width="6" stroke-linejoin="round" opacity="0.55"/>
+
+  <!-- Pascal's-rule connectors: the two parents feeding the child -->
+  <line x1="414" y1="276" x2="446" y2="330" stroke="#b7791f" stroke-width="4" opacity="0.7"/>
+  <line x1="478" y1="276" x2="446" y2="330" stroke="#b7791f" stroke-width="4" opacity="0.7"/>
+
+  <!-- hockey-stick highlighted cells (blue) -->
+  <circle cx="414" cy="168" r="18" fill="#cfe8ff" stroke="#2b6cb0" stroke-width="2"/>
+  <circle cx="382" cy="222" r="18" fill="#cfe8ff" stroke="#2b6cb0" stroke-width="2"/>
+  <circle cx="350" cy="276" r="18" fill="#cfe8ff" stroke="#2b6cb0" stroke-width="2"/>
+  <circle cx="318" cy="330" r="18" fill="#cfe8ff" stroke="#2b6cb0" stroke-width="2"/>
+  <circle cx="350" cy="384" r="20" fill="#9ecbff" stroke="#2b6cb0" stroke-width="3"/>
+
+  <!-- Pascal's-rule highlighted cells (amber) -->
+  <circle cx="414" cy="276" r="17" fill="#ffe1a8" stroke="#b7791f" stroke-width="2"/>
+  <circle cx="478" cy="276" r="17" fill="#ffe1a8" stroke="#b7791f" stroke-width="2"/>
+  <circle cx="446" cy="330" r="19" fill="#ffcf80" stroke="#b7791f" stroke-width="3"/>
+
+  <!-- the triangle entries -->
+  <g fill="#111111" font-size="17" text-anchor="middle" dominant-baseline="central">
+    <text x="350" y="60">1</text>
+
+    <text x="318" y="114">1</text><text x="382" y="114">1</text>
+
+    <text x="286" y="168">1</text><text x="350" y="168">2</text><text x="414" y="168">1</text>
+
+    <text x="254" y="222">1</text><text x="318" y="222">3</text><text x="382" y="222">3</text><text x="446" y="222">1</text>
+
+    <text x="222" y="276">1</text><text x="286" y="276">4</text><text x="350" y="276">6</text><text x="414" y="276">4</text><text x="478" y="276">1</text>
+
+    <text x="190" y="330">1</text><text x="254" y="330">5</text><text x="318" y="330">10</text><text x="382" y="330">10</text><text x="446" y="330">5</text><text x="510" y="330">1</text>
+
+    <text x="146" y="384">1</text><text x="222" y="384">6</text><text x="286" y="384">15</text><text x="350" y="384">20</text><text x="414" y="384">15</text><text x="478" y="384">6</text><text x="554" y="384">1</text>
+  </g>
+
+  <!-- row labels on the left -->
+  <g fill="#888888" font-size="12" text-anchor="end" dominant-baseline="central">
+    <text x="110" y="60">n=0</text>
+    <text x="110" y="114">1</text>
+    <text x="110" y="168">2</text>
+    <text x="110" y="222">3</text>
+    <text x="110" y="276">4</text>
+    <text x="110" y="330">5</text>
+    <text x="110" y="384">6</text>
+  </g>
+
+  <!-- captions -->
+  <text x="150" y="418" fill="#2b6cb0" font-size="14" text-anchor="start">hockey stick: 1 + 3 + 6 + 10 = 20  (= C(6,3))</text>
+  <text x="548" y="418" fill="#b7791f" font-size="14" text-anchor="end">Pascal: 4 + 1 = 5  (C(5,4)=C(4,3)+C(4,4))</text>
+</svg>

@@ -1,0 +1,57 @@
+<svg viewBox="0 0 660 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">The beam is linear: solve each load alone, then add the deflected shapes.</text>
+
+  <!-- ===== Panel A: UDL alone ===== -->
+  <line x1="40" y1="150" x2="200" y2="150" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="40,150 33,163 47,163" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="200,150 193,163 207,163" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="40" y1="118" x2="200" y2="118" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="58" y1="120" x2="58" y2="146" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="58,146 54,138 62,138" fill="#8a8a8a"/>
+  <line x1="94" y1="120" x2="94" y2="146" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="94,146 90,138 98,138" fill="#8a8a8a"/>
+  <line x1="130" y1="120" x2="130" y2="146" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="130,146 126,138 134,138" fill="#8a8a8a"/>
+  <line x1="166" y1="120" x2="166" y2="146" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="166,146 162,138 170,138" fill="#8a8a8a"/>
+  <text x="182" y="112" fill="#8a8a8a">w</text>
+  <path d="M 40 150 Q 120 178 200 150" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="58" y="205" fill="#4a90d9">5wL&#8308;/384EI</text>
+
+  <text x="221" y="158" fill="#8a8a8a" font-size="24">+</text>
+
+  <!-- ===== Panel B: central point load alone ===== -->
+  <line x1="260" y1="150" x2="420" y2="150" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="260,150 253,163 267,163" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="420,150 413,163 427,163" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="340" y1="106" x2="340" y2="146" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="340,146 335,137 345,137" fill="#e0645c"/>
+  <text x="346" y="112" fill="#e0645c">P</text>
+  <path d="M 260 150 Q 340 176 420 150" fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="292" y="205" fill="#e0645c">PL&#179;/48EI</text>
+
+  <text x="441" y="158" fill="#8a8a8a" font-size="24">=</text>
+
+  <!-- ===== Panel C: both, summed ===== -->
+  <line x1="480" y1="150" x2="640" y2="150" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="480,150 473,163 487,163" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="640,150 633,163 647,163" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="480" y1="112" x2="640" y2="112" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="498" y1="114" x2="498" y2="128" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="498,128 494,121 502,121" fill="#8a8a8a"/>
+  <line x1="534" y1="114" x2="534" y2="128" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="534,128 530,121 538,121" fill="#8a8a8a"/>
+  <line x1="586" y1="114" x2="586" y2="128" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="586,128 582,121 590,121" fill="#8a8a8a"/>
+  <line x1="622" y1="114" x2="622" y2="128" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="622,128 618,121 626,121" fill="#8a8a8a"/>
+  <line x1="560" y1="96" x2="560" y2="146" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="560,146 555,137 565,137" fill="#e0645c"/>
+  <text x="566" y="104" fill="#e0645c">P</text>
+  <text x="626" y="108" fill="#8a8a8a">w</text>
+  <path d="M 480 150 Q 560 204 640 150" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <line x1="518" y1="150" x2="518" y2="177" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="518,177 514,169 522,169" fill="#e0645c"/>
+  <text x="524" y="174" fill="#e0645c">&#948;</text>
+  <text x="498" y="205" fill="#8a8a8a">sum of both</text>
+</svg>

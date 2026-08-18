@@ -1,0 +1,96 @@
+<svg viewBox="0 0 660 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <defs>
+    <marker id="ca" markerWidth="9" markerHeight="9" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#e0645c"/>
+    </marker>
+  </defs>
+
+  <!-- caption -->
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">The alkene &#960; bond is the nucleophile: it reaches out and grabs the electrophile. Which cation forms decides the regiochemistry.</text>
+
+  <!-- ============ PANEL 1: HBr, Markovnikov via carbocation ============ -->
+  <text x="30" y="52" fill="#8a8a8a" font-style="italic">1 &#183; Hydrohalogenation (HBr): &#960; grabs H&#8314; &#8594; more-stable cation &#8594; Br&#8315; adds (Markovnikov)</text>
+
+  <!-- propene alkene -->
+  <text x="24" y="155" fill="#8a8a8a">H&#8322;C</text>
+  <line x1="60" y1="150" x2="95" y2="128" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="64" y1="157" x2="92" y2="135" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="95" y1="128" x2="130" y2="150" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="132" y="163" fill="#8a8a8a">CH&#8323;</text>
+
+  <!-- H-Br above -->
+  <text x="80" y="82" fill="#8a8a8a">H&#8212;Br</text>
+  <!-- coral curved arrow: pi -> H -->
+  <path d="M 79 138 Q 70 108 88 92" fill="none" stroke="#e0645c" stroke-width="1.6" marker-end="url(#ca)"/>
+
+  <!-- reaction arrow 1 -->
+  <line x1="150" y1="120" x2="205" y2="120" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="205,120 196,116 196,124" fill="#8a8a8a"/>
+
+  <!-- isopropyl (secondary) cation -->
+  <text x="188" y="155" fill="#8a8a8a">H&#8323;C</text>
+  <line x1="224" y1="150" x2="259" y2="128" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="259" y1="128" x2="294" y2="150" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="296" y="163" fill="#8a8a8a">CH&#8323;</text>
+  <text x="253" y="116" fill="#e0645c" font-size="18">+</text>
+  <text x="214" y="182" fill="#e0645c" font-size="12">2&#176; cation (more stable)</text>
+
+  <!-- Br- nucleophile + arrow -->
+  <text x="300" y="112" fill="#8a8a8a">Br&#8315;</text>
+  <path d="M 304 118 Q 292 128 270 132" fill="none" stroke="#e0645c" stroke-width="1.6" marker-end="url(#ca)"/>
+
+  <!-- reaction arrow 2 -->
+  <line x1="338" y1="120" x2="382" y2="120" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="382,120 373,116 373,124" fill="#8a8a8a"/>
+
+  <!-- product: 2-bromopropane -->
+  <text x="360" y="155" fill="#8a8a8a">H&#8323;C</text>
+  <line x1="396" y1="150" x2="431" y2="128" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="431" y1="128" x2="466" y2="150" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="468" y="163" fill="#8a8a8a">CH&#8323;</text>
+  <line x1="431" y1="128" x2="431" y2="100" stroke="#4a90d9" stroke-width="2"/>
+  <text x="421" y="94" fill="#4a90d9">Br</text>
+  <text x="382" y="182" fill="#8a8a8a" font-size="12">2-bromopropane (Br on inner C)</text>
+
+  <!-- divider -->
+  <line x1="30" y1="208" x2="630" y2="208" stroke="#8a8a8a" stroke-width="0.75" stroke-dasharray="2 5"/>
+
+  <!-- ============ PANEL 2: Br2, bromonium, anti addition ============ -->
+  <text x="30" y="238" fill="#8a8a8a" font-style="italic">2 &#183; Halogenation (Br&#8322;): a bridged bromonium ion forces Br&#8315; onto the opposite face &#8594; anti (trans)</text>
+
+  <!-- alkene C=C -->
+  <line x1="70" y1="315" x2="120" y2="315" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="70" y1="322" x2="120" y2="322" stroke="#8a8a8a" stroke-width="2"/>
+  <!-- Br-Br above -->
+  <text x="78" y="272" fill="#8a8a8a">Br&#8212;Br</text>
+  <path d="M 95 310 Q 90 292 95 282" fill="none" stroke="#e0645c" stroke-width="1.6" marker-end="url(#ca)"/>
+
+  <!-- reaction arrow 1 -->
+  <line x1="150" y1="315" x2="205" y2="315" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="205,315 196,311 196,319" fill="#8a8a8a"/>
+
+  <!-- bromonium ion -->
+  <line x1="240" y1="325" x2="290" y2="325" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="240" y1="325" x2="265" y2="290" stroke="#e0645c" stroke-width="2"/>
+  <line x1="290" y1="325" x2="265" y2="290" stroke="#e0645c" stroke-width="2"/>
+  <text x="256" y="286" fill="#e0645c">Br</text>
+  <text x="278" y="284" fill="#e0645c" font-size="16">+</text>
+  <text x="216" y="352" fill="#8a8a8a" font-size="12">bromonium</text>
+  <!-- Br- attacks the back face -->
+  <text x="298" y="360" fill="#8a8a8a">Br&#8315;</text>
+  <path d="M 300 350 Q 300 338 290 330" fill="none" stroke="#e0645c" stroke-width="1.6" marker-end="url(#ca)"/>
+
+  <!-- reaction arrow 2 -->
+  <line x1="330" y1="315" x2="384" y2="315" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="384,315 375,311 375,319" fill="#8a8a8a"/>
+
+  <!-- product: trans-1,2-dibromide -->
+  <line x1="410" y1="322" x2="460" y2="322" stroke="#8a8a8a" stroke-width="2"/>
+  <!-- Br up (front) on left C -->
+  <line x1="410" y1="322" x2="410" y2="294" stroke="#4a90d9" stroke-width="2"/>
+  <text x="400" y="288" fill="#4a90d9">Br</text>
+  <!-- Br down (back) on right C, dashed -->
+  <line x1="460" y1="322" x2="460" y2="350" stroke="#4a90d9" stroke-width="2" stroke-dasharray="3 3"/>
+  <text x="450" y="366" fill="#4a90d9">Br</text>
+  <text x="392" y="392" fill="#8a8a8a" font-size="12">anti (trans) 1,2-dibromide</text>
+</svg>

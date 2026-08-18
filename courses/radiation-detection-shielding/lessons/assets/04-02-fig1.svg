@@ -1,0 +1,60 @@
+<svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="20" fill="#8a8a8a" font-style="italic">Transmitted fraction vs shield thickness (log scale): buildup keeps the broad beam above e</text>
+  <text x="509" y="16" fill="#8a8a8a" font-style="italic" font-size="10">&#8722;&#956;x</text>
+  <text x="519" y="20" fill="#8a8a8a" font-style="italic">.</text>
+
+  <!-- horizontal gridlines (decades) -->
+  <line x1="80" y1="50" x2="560" y2="50" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 4"/>
+  <line x1="80" y1="126.7" x2="560" y2="126.7" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 4"/>
+  <line x1="80" y1="203.3" x2="560" y2="203.3" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="40" y="54" fill="#8a8a8a">1</text>
+  <text x="30" y="130.7" fill="#8a8a8a">0.1</text>
+  <text x="20" y="207.3" fill="#8a8a8a">0.01</text>
+  <text x="14" y="284" fill="#8a8a8a">0.001</text>
+
+  <!-- axes -->
+  <line x1="80" y1="40" x2="80" y2="280" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="80" y1="280" x2="575" y2="280" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="575,280 565,275 565,285" fill="#8a8a8a"/>
+  <text x="470" y="300" fill="#8a8a8a">thickness (HVL)</text>
+  <text x="86" y="46" fill="#8a8a8a">I / I&#8320;</text>
+
+  <!-- x ticks: n = 0,2,4,6,8 -->
+  <line x1="80"  y1="280" x2="80"  y2="285" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="186.7" y1="280" x2="186.7" y2="285" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="293.3" y1="280" x2="293.3" y2="285" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="400" y1="280" x2="400" y2="285" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="506.7" y1="280" x2="506.7" y2="285" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="76"  y="298" fill="#8a8a8a">0</text>
+  <text x="182.7" y="298" fill="#8a8a8a">2</text>
+  <text x="289.3" y="298" fill="#8a8a8a">4</text>
+  <text x="396" y="298" fill="#8a8a8a">6</text>
+  <text x="502.7" y="298" fill="#8a8a8a">8</text>
+
+  <!-- narrow beam: straight on semilog, I/I0 = 2^-n (blue) -->
+  <line x1="80" y1="50" x2="560" y2="257.7" stroke="#4a90d9" stroke-width="3"/>
+  <text x="300" y="252" fill="#4a90d9">narrow beam&#160;&#160;e</text>
+  <text x="404" y="248" fill="#4a90d9" font-size="10">&#8722;&#956;x</text>
+
+  <!-- broad beam: B(x) e^-mu x, curves above (coral) -->
+  <path d="M 80 50 L 133.3 63.1 L 186.7 79.5 L 240 97.0 L 293.3 116.1 L 346.7 135.6 L 400 156.0 L 453.3 177.3 L 506.7 199.0 L 560 220.6"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+  <text x="300" y="128" fill="#e0645c">broad beam&#160;&#160;B&#160;e</text>
+  <text x="399" y="124" fill="#e0645c" font-size="10">&#8722;&#956;x</text>
+
+  <!-- x100 target crossings -->
+  <circle cx="434.3" cy="203.3" r="4.5" fill="#4a90d9"/>
+  <line x1="434.3" y1="203.3" x2="434.3" y2="280" stroke="#4a90d9" stroke-width="1" stroke-dasharray="3 3"/>
+  <circle cx="517.3" cy="203.3" r="4.5" fill="#e0645c"/>
+  <line x1="517.3" y1="203.3" x2="517.3" y2="280" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- gap annotation: extra HVLs -->
+  <line x1="434.3" y1="192" x2="517.3" y2="192" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="434.3,192 442,188 442,196" fill="#e0645c"/>
+  <polygon points="517.3,192 509.6,188 509.6,196" fill="#e0645c"/>
+  <text x="392" y="183" fill="#e0645c">&#8776;1.6 extra HVL</text>
+
+  <!-- widening-gap note -->
+  <text x="150" y="230" fill="#8a8a8a" font-size="12">gap = log&#8321;&#8320;B widens with thickness</text>
+</svg>

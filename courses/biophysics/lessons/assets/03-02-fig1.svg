@@ -1,0 +1,51 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">The chain forgets its heading over a distance l_p: the tangent–tangent correlation decays as e^(-s/l_p).</text>
+
+  <!-- ===== left: a wiggly semiflexible chain ===== -->
+  <text x="40" y="52" fill="#8a8a8a">a wiggly chain</text>
+
+  <!-- the chain (blue) -->
+  <path d="M 40 150 C 62 108, 96 108, 118 150 C 138 188, 168 188, 188 146 C 208 104, 240 122, 262 156 C 280 184, 306 176, 320 150"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- tangent at s = 0 (left end): direction of the curve there, up-right -->
+  <line x1="40" y1="150" x2="78" y2="126" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="78,126 68,126 74,135" fill="#e0645c"/>
+  <text x="30" y="170" fill="#e0645c">t(0)</text>
+
+  <!-- tangent at s (near right, pointing down-right) -->
+  <line x1="262" y1="156" x2="292" y2="180" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="292,180 282,174 283,184" fill="#e0645c"/>
+  <text x="268" y="200" fill="#e0645c">t(s)</text>
+
+  <!-- arc-length marker along chain -->
+  <text x="150" y="230" fill="#8a8a8a" font-style="italic">arc length s along the backbone</text>
+
+  <!-- stiff/floppy annotation -->
+  <text x="40" y="270" fill="#8a8a8a">below l_p: looks stiff &amp; straight</text>
+  <text x="40" y="290" fill="#8a8a8a">above l_p: looks floppy &amp; random</text>
+  <text x="40" y="316" fill="#4a90d9">DNA l_p ≈ 50 nm · actin l_p ≈ 15 µm</text>
+
+  <!-- ===== right: the correlation-decay curve ===== -->
+  <!-- axes -->
+  <line x1="380" y1="260" x2="608" y2="260" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="608,260 598,255 598,265" fill="#8a8a8a"/>
+  <text x="590" y="278" fill="#8a8a8a">s</text>
+  <line x1="380" y1="260" x2="380" y2="92" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="380,92 375,102 385,102" fill="#8a8a8a"/>
+  <text x="392" y="104" fill="#8a8a8a">⟨t(s)·t(0)⟩</text>
+  <text x="360" y="105" fill="#8a8a8a">1</text>
+  <text x="366" y="265" fill="#8a8a8a">0</text>
+
+  <!-- exponential decay curve (coral): e^(-s/l_p), l_p -> 50 px -->
+  <path d="M 380 100 L 405 163 L 430 201 L 455 224 L 480 238 L 505 247 L 530 252 L 555 255 L 580 257"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+  <text x="470" y="150" fill="#e0645c">e^(-s/l_p)</text>
+
+  <!-- 1/e marker at s = l_p -->
+  <line x1="380" y1="201" x2="430" y2="201" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="430" y1="201" x2="430" y2="260" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="336" y="205" fill="#8a8a8a">1/e</text>
+  <text x="420" y="278" fill="#e0645c">l_p</text>
+</svg>

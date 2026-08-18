@@ -1,0 +1,72 @@
+<svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Building B(56-Fe) term by term: a big volume credit (blue), whittled down by surface and Coulomb (coral).</text>
+  <text x="40" y="40" fill="#8a8a8a" font-style="italic">Asymmetry and pairing are tiny here (N is close to Z, and the nucleus is even-even).</text>
+
+  <!-- y-axis -->
+  <line x1="70" y1="300" x2="70" y2="58" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,58 65,68 75,68" fill="#8a8a8a"/>
+  <text x="42" y="62" fill="#8a8a8a">MeV</text>
+
+  <!-- gridlines + tick labels: 0,200,400,600,800 -->
+  <line x1="66" y1="300" x2="70" y2="300" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="38" y="304" fill="#8a8a8a">0</text>
+  <line x1="66" y1="244.4" x2="610" y2="244.4" stroke="#8a8a8a" stroke-width="0.5" stroke-dasharray="2 5"/>
+  <text x="30" y="248" fill="#8a8a8a">200</text>
+  <line x1="66" y1="188.9" x2="610" y2="188.9" stroke="#8a8a8a" stroke-width="0.5" stroke-dasharray="2 5"/>
+  <text x="30" y="192" fill="#8a8a8a">400</text>
+  <line x1="66" y1="133.3" x2="610" y2="133.3" stroke="#8a8a8a" stroke-width="0.5" stroke-dasharray="2 5"/>
+  <text x="30" y="137" fill="#8a8a8a">600</text>
+  <line x1="66" y1="77.8" x2="610" y2="77.8" stroke="#8a8a8a" stroke-width="0.5" stroke-dasharray="2 5"/>
+  <text x="30" y="81" fill="#8a8a8a">800</text>
+
+  <!-- baseline -->
+  <line x1="70" y1="300" x2="610" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- connector lines (waterfall) -->
+  <line x1="146" y1="58.9" x2="184" y2="58.9" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="236" y1="127.2" x2="274" y2="127.2" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="326" y1="161.2" x2="359" y2="161.2" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="411" y1="163.0" x2="429" y2="163.0" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="481" y1="162.6" x2="529" y2="162.6" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- 1. Volume (+868) -->
+  <rect x="94" y="58.9" width="52" height="241.1" fill="#4a90d9" opacity="0.15"/>
+  <rect x="94" y="58.9" width="52" height="241.1" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="120" y="52" fill="#4a90d9" text-anchor="middle">+868</text>
+
+  <!-- 2. Surface (-246) -->
+  <rect x="184" y="58.9" width="52" height="68.3" fill="#e0645c" opacity="0.15"/>
+  <rect x="184" y="58.9" width="52" height="68.3" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <text x="210" y="97" fill="#e0645c" text-anchor="middle">-246</text>
+
+  <!-- 3. Coulomb (-122) -->
+  <rect x="274" y="127.2" width="52" height="34.0" fill="#e0645c" opacity="0.15"/>
+  <rect x="274" y="127.2" width="52" height="34.0" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <text x="300" y="148" fill="#e0645c" text-anchor="middle">-122</text>
+
+  <!-- 4. Asymmetry (-6.6) -->
+  <rect x="359" y="161.2" width="52" height="1.83" fill="#e0645c" opacity="0.15"/>
+  <rect x="359" y="161.2" width="52" height="1.83" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <text x="385" y="180" fill="#e0645c" text-anchor="middle">-6.6</text>
+
+  <!-- 5. Pairing (+1.6) -->
+  <rect x="429" y="162.6" width="52" height="1.6" fill="#4a90d9" opacity="0.15"/>
+  <rect x="429" y="162.6" width="52" height="1.6" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="455" y="156" fill="#4a90d9" text-anchor="middle">+1.6</text>
+
+  <!-- 6. Net B -->
+  <rect x="529" y="162.6" width="52" height="137.4" fill="#4a90d9" opacity="0.30"/>
+  <rect x="529" y="162.6" width="52" height="137.4" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="555" y="155" fill="#4a90d9" text-anchor="middle" font-weight="bold">B = 495</text>
+
+  <!-- category labels -->
+  <text x="120" y="318" fill="#8a8a8a" text-anchor="middle">Volume</text>
+  <text x="210" y="318" fill="#8a8a8a" text-anchor="middle">Surface</text>
+  <text x="300" y="318" fill="#8a8a8a" text-anchor="middle">Coulomb</text>
+  <text x="385" y="318" fill="#8a8a8a" text-anchor="middle">Asym.</text>
+  <text x="455" y="318" fill="#8a8a8a" text-anchor="middle">Pair.</text>
+  <text x="555" y="318" fill="#8a8a8a" text-anchor="middle">net B</text>
+
+  <text x="340" y="346" fill="#8a8a8a" font-style="italic" text-anchor="middle">Experiment: 492.3 MeV. SEMF lands within ~0.5%.</text>
+</svg>

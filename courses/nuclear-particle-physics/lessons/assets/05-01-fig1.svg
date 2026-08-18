@@ -1,0 +1,45 @@
+<svg viewBox="0 0 620 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Beta-minus decay at the quark level: a d quark turns into a u, spitting out a heavy W&#8315; that decays to e&#8315; + antineutrino.</text>
+
+  <!-- time axis -->
+  <line x1="40" y1="300" x2="560" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="560,300 550,295 550,305" fill="#8a8a8a"/>
+  <text x="500" y="292" fill="#8a8a8a" font-style="italic">time &#8594;</text>
+
+  <!-- ===== quark line: d in, u out, vertex V1 at (250,95) ===== -->
+  <!-- incoming d quark -->
+  <line x1="60" y1="95" x2="250" y2="95" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="165,95 155,90 155,100" fill="#4a90d9"/>
+  <text x="70" y="86" fill="#4a90d9">d  (charge &#8722;1/3)</text>
+  <!-- outgoing u quark -->
+  <line x1="250" y1="95" x2="560" y2="95" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="410,95 400,90 400,100" fill="#4a90d9"/>
+  <text x="470" y="86" fill="#4a90d9">u  (+2/3)</text>
+
+  <!-- vertex V1 dot -->
+  <circle cx="250" cy="95" r="4" fill="#8a8a8a"/>
+
+  <!-- ===== W- boson (wavy) from V1 (250,95) to V2 (360,225) ===== -->
+  <path d="M 250.0 95.0 L 248.7 99.8 L 248.6 103.6 L 250.4 105.8 L 254.2 106.3 L 259.2 105.8 L 264.1 105.3 L 267.9 105.9 L 269.7 108.0 L 269.6 111.8 L 268.3 116.7 L 267.0 121.5 L 266.9 125.3 L 268.8 127.5 L 272.5 128.0 L 277.5 127.5 L 282.5 127.0 L 286.2 127.5 L 288.1 129.7 L 288.0 133.5 L 286.7 138.3 L 285.4 143.2 L 285.3 147.0 L 287.1 149.1 L 290.9 149.7 L 295.8 149.2 L 300.8 148.7 L 304.6 149.2 L 306.4 151.4 L 306.3 155.2 L 305.0 160.0 L 303.7 164.8 L 303.6 168.6 L 305.4 170.8 L 309.2 171.3 L 314.2 170.8 L 319.1 170.3 L 322.9 170.9 L 324.7 173.0 L 324.6 176.8 L 323.3 181.7 L 322.0 186.5 L 321.9 190.3 L 323.8 192.5 L 327.5 193.0 L 332.5 192.5 L 337.5 192.0 L 341.2 192.5 L 343.1 194.7 L 343.0 198.5 L 341.7 203.3 L 340.4 208.2 L 340.3 212.0 L 342.1 214.1 L 345.9 214.7 L 350.8 214.2 L 355.8 213.7 L 359.6 214.2 L 361.4 216.4 L 361.3 220.2 L 360.0 225.0"
+        fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="300" y="130" fill="#e0645c">W&#8315;</text>
+  <text x="286" y="146" fill="#8a8a8a" font-style="italic" font-size="12">heavy: m &#8776; 80 GeV</text>
+
+  <!-- vertex V2 dot -->
+  <circle cx="360" cy="225" r="4" fill="#8a8a8a"/>
+
+  <!-- ===== leptons out of V2 (360,225) ===== -->
+  <!-- electron -->
+  <line x1="360" y1="225" x2="560" y2="185" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="465,206 453,204 458,214" fill="#4a90d9"/>
+  <text x="500" y="178" fill="#4a90d9">e&#8315;</text>
+  <!-- antineutrino -->
+  <line x1="360" y1="225" x2="560" y2="265" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="465,244 453,236 458,246" fill="#4a90d9"/>
+  <text x="500" y="278" fill="#4a90d9">&#957;&#772;&#8342;</text>
+
+  <!-- vertex labels -->
+  <text x="196" y="112" fill="#8a8a8a" font-style="italic" font-size="12">flavor-changing</text>
+  <text x="196" y="126" fill="#8a8a8a" font-style="italic" font-size="12">vertex</text>
+</svg>

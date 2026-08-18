@@ -1,0 +1,29 @@
+<svg viewBox="0 0 560 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="26" fill="#8a8a8a" font-style="italic">Zero-shear melt viscosity vs. chain length: gentle slope 1, then a steep slope 3.4 once chains entangle.</text>
+
+  <!-- axes -->
+  <line x1="70" y1="300" x2="510" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="510,300 500,295 500,305" fill="#8a8a8a"/>
+  <line x1="70" y1="300" x2="70" y2="55" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,55 65,65 75,65" fill="#8a8a8a"/>
+  <text x="430" y="322" fill="#8a8a8a">log M</text>
+  <text x="18" y="72" fill="#8a8a8a">log &#951;</text>
+
+  <!-- lower segment: slope 1 (unentangled) -->
+  <line x1="100" y1="285" x2="250" y2="255" stroke="#4a90d9" stroke-width="3"/>
+  <text x="150" y="252" fill="#4a90d9">slope 1</text>
+
+  <!-- upper segment: slope 3.4 (entangled, reptation) -->
+  <line x1="250" y1="255" x2="500" y2="85" stroke="#4a90d9" stroke-width="3"/>
+  <text x="360" y="150" fill="#4a90d9">slope 3.4</text>
+
+  <!-- entanglement threshold M_e -->
+  <line x1="250" y1="255" x2="250" y2="300" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="3 4"/>
+  <circle cx="250" cy="255" r="4" fill="#e0645c"/>
+  <text x="234" y="318" fill="#e0645c">M&#8342;</text>
+
+  <!-- region labels -->
+  <text x="112" y="340" fill="#8a8a8a">unentangled</text>
+  <text x="352" y="340" fill="#8a8a8a">entangled (reptation)</text>
+</svg>

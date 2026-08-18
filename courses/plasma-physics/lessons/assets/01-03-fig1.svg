@@ -1,0 +1,49 @@
+<svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">A charge gyrates (blue), but crossed E and B roll its guiding centre sideways at v = (E×B)/B² — a cycloid.</text>
+
+  <!-- ===== field strip: E (coral, down) and B (grey, into page) ===== -->
+  <!-- E arrows pointing down -->
+  <g stroke="#e0645c" stroke-width="1.5">
+    <line x1="110" y1="92" x2="110" y2="116"/>
+    <line x1="270" y1="92" x2="270" y2="116"/>
+    <line x1="430" y1="92" x2="430" y2="116"/>
+  </g>
+  <polygon points="110,120 106,110 114,110" fill="#e0645c"/>
+  <polygon points="270,120 266,110 274,110" fill="#e0645c"/>
+  <polygon points="430,120 426,110 434,110" fill="#e0645c"/>
+  <text x="120" y="106" fill="#e0645c">E</text>
+
+  <!-- B into page (grey circled-x) -->
+  <g stroke="#8a8a8a" stroke-width="1.2" fill="none">
+    <circle cx="190" cy="104" r="6"/><line x1="185.8" y1="99.8" x2="194.2" y2="108.2"/><line x1="194.2" y1="99.8" x2="185.8" y2="108.2"/>
+    <circle cx="350" cy="104" r="6"/><line x1="345.8" y1="99.8" x2="354.2" y2="108.2"/><line x1="354.2" y1="99.8" x2="345.8" y2="108.2"/>
+    <circle cx="510" cy="104" r="6"/><line x1="505.8" y1="99.8" x2="514.2" y2="108.2"/><line x1="514.2" y1="99.8" x2="505.8" y2="108.2"/>
+  </g>
+  <text x="522" y="109" fill="#8a8a8a">B (into page)</text>
+
+  <!-- ===== the cycloid trajectory (blue) ===== -->
+  <path d="M 60 220 L 60.40 216.96 L 63.13 208.28 L 70.17 195.31 L 82.83 180 L 101.58 164.69 L 125.96 151.72 L 154.65 143.04 L 185.66 140 L 216.68 143.04 L 245.36 151.72 L 269.74 164.69 L 288.50 180 L 301.16 195.31 L 308.20 208.28 L 310.93 216.96 L 311.33 220 L 311.73 216.96 L 314.46 208.28 L 321.50 195.31 L 334.16 180 L 352.91 164.69 L 377.29 151.72 L 405.98 143.04 L 436.99 140 L 468.01 143.04 L 496.69 151.72 L 521.07 164.69 L 539.82 180 L 552.49 195.31 L 559.52 208.28 L 562.25 216.96 L 562.65 220"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- guiding-centre drift line (dashed grey) -->
+  <line x1="60" y1="180" x2="580" y2="180" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 5"/>
+
+  <!-- ===== representative gyro-orbit at the central cusp ===== -->
+  <circle cx="311" cy="180" r="40" fill="#4a90d9" opacity="0.12"/>
+  <circle cx="311" cy="180" r="40" fill="none" stroke="#4a90d9" stroke-width="2" stroke-dasharray="4 3"/>
+  <!-- gyration-sense arrowhead (top of orbit, moving +x) -->
+  <polygon points="322,140.5 312,136.5 314,145" fill="#4a90d9"/>
+  <!-- particle at the cusp -->
+  <circle cx="311" cy="220" r="4.5" fill="#4a90d9"/>
+  <!-- Larmor radius -->
+  <line x1="311" y1="180" x2="311" y2="220" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="317" y="204" fill="#8a8a8a">r_L</text>
+  <!-- guiding centre dot -->
+  <circle cx="311" cy="180" r="3.5" fill="#e0645c"/>
+
+  <!-- drift arrow v_ExB (coral) -->
+  <line x1="311" y1="180" x2="388" y2="180" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="392,180 381,175 381,185" fill="#e0645c"/>
+  <text x="340" y="173" fill="#e0645c">v(E×B)</text>
+</svg>

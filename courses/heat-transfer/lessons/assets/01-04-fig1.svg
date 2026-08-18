@@ -1,0 +1,78 @@
+<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">A composite wall is a chain of resistors: heat (current) flows through all of them driven by one &#916;T (voltage).</text>
+
+  <!-- ===== TOP: composite plane wall ===== -->
+
+  <!-- firebrick layer -->
+  <rect x="150" y="55" width="90" height="95" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="167" y="108" fill="#4a90d9" font-size="12">brick</text>
+  <text x="163" y="124" fill="#4a90d9" font-size="11">k<tspan baseline-shift="sub" font-size="9">1</tspan>, L<tspan baseline-shift="sub" font-size="9">1</tspan></text>
+
+  <!-- insulation layer -->
+  <rect x="240" y="55" width="80" height="95" fill="#e0645c" opacity="0.15" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="248" y="104" fill="#e0645c" font-size="11">insul.</text>
+  <text x="250" y="120" fill="#e0645c" font-size="11">k<tspan baseline-shift="sub" font-size="9">2</tspan>, L<tspan baseline-shift="sub" font-size="9">2</tspan></text>
+
+  <!-- inside fluid arrows (hot) -->
+  <line x1="70" y1="90" x2="110" y2="90" stroke="#8a8a8a" stroke-width="1.2"/>
+  <polygon points="110,90 102,86 102,94" fill="#8a8a8a"/>
+  <line x1="70" y1="118" x2="110" y2="118" stroke="#8a8a8a" stroke-width="1.2"/>
+  <polygon points="110,118 102,114 102,122" fill="#8a8a8a"/>
+  <text x="66" y="146" fill="#8a8a8a" font-size="11">hot gas, h<tspan baseline-shift="sub" font-size="9">i</tspan></text>
+  <text x="60" y="45" fill="#8a8a8a">T<tspan baseline-shift="sub" font-size="9">&#8734;,i</tspan></text>
+
+  <!-- outside fluid arrows (cool) -->
+  <line x1="335" y1="95" x2="385" y2="95" stroke="#8a8a8a" stroke-width="1.2"/>
+  <polygon points="385,95 377,91 377,99" fill="#8a8a8a"/>
+  <line x1="335" y1="123" x2="385" y2="123" stroke="#8a8a8a" stroke-width="1.2"/>
+  <polygon points="385,123 377,119 377,127" fill="#8a8a8a"/>
+  <text x="335" y="146" fill="#8a8a8a" font-size="11">air, h<tspan baseline-shift="sub" font-size="9">o</tspan></text>
+  <text x="348" y="45" fill="#8a8a8a">T<tspan baseline-shift="sub" font-size="9">&#8734;,o</tspan></text>
+
+  <!-- dashed droppers from wall faces to circuit nodes -->
+  <line x1="150" y1="150" x2="150" y2="278" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="240" y1="150" x2="240" y2="278" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="320" y1="150" x2="320" y2="278" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- ===== BOTTOM: series resistance circuit ===== -->
+
+  <!-- main wire -->
+  <line x1="45" y1="290" x2="410" y2="290" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- resistor boxes -->
+  <rect x="75" y="277" width="54" height="26" fill="#4a90d9" opacity="0.12" stroke="#4a90d9" stroke-width="1.5"/>
+  <rect x="168" y="277" width="54" height="26" fill="#4a90d9" opacity="0.12" stroke="#4a90d9" stroke-width="1.5"/>
+  <rect x="253" y="277" width="54" height="26" fill="#e0645c" opacity="0.12" stroke="#e0645c" stroke-width="1.5"/>
+  <rect x="338" y="277" width="54" height="26" fill="#4a90d9" opacity="0.12" stroke="#4a90d9" stroke-width="1.5"/>
+
+  <!-- node dots -->
+  <circle cx="45" cy="290" r="3" fill="#8a8a8a"/>
+  <circle cx="150" cy="290" r="3" fill="#8a8a8a"/>
+  <circle cx="240" cy="290" r="3" fill="#8a8a8a"/>
+  <circle cx="320" cy="290" r="3" fill="#8a8a8a"/>
+  <circle cx="410" cy="290" r="3" fill="#8a8a8a"/>
+
+  <!-- resistor labels -->
+  <text x="83" y="270" fill="#4a90d9" font-size="11">R<tspan baseline-shift="sub" font-size="9">conv,i</tspan></text>
+  <text x="184" y="270" fill="#4a90d9" font-size="11">R<tspan baseline-shift="sub" font-size="9">1</tspan></text>
+  <text x="269" y="270" fill="#e0645c" font-size="11">R<tspan baseline-shift="sub" font-size="9">2</tspan></text>
+  <text x="345" y="270" fill="#4a90d9" font-size="11">R<tspan baseline-shift="sub" font-size="9">conv,o</tspan></text>
+
+  <!-- resistor formulas -->
+  <text x="76" y="320" fill="#8a8a8a" font-size="10">1/(h<tspan baseline-shift="sub" font-size="8">i</tspan>A)</text>
+  <text x="170" y="320" fill="#8a8a8a" font-size="10">L<tspan baseline-shift="sub" font-size="8">1</tspan>/(k<tspan baseline-shift="sub" font-size="8">1</tspan>A)</text>
+  <text x="255" y="320" fill="#8a8a8a" font-size="10">L<tspan baseline-shift="sub" font-size="8">2</tspan>/(k<tspan baseline-shift="sub" font-size="8">2</tspan>A)</text>
+  <text x="340" y="320" fill="#8a8a8a" font-size="10">1/(h<tspan baseline-shift="sub" font-size="8">o</tspan>A)</text>
+
+  <!-- node temperature labels -->
+  <text x="30" y="348" fill="#8a8a8a" font-size="11">T<tspan baseline-shift="sub" font-size="9">&#8734;,i</tspan></text>
+  <text x="134" y="348" fill="#8a8a8a" font-size="11">T<tspan baseline-shift="sub" font-size="9">s,i</tspan></text>
+  <text x="226" y="348" fill="#8a8a8a" font-size="11">T<tspan baseline-shift="sub" font-size="9">int</tspan></text>
+  <text x="306" y="348" fill="#8a8a8a" font-size="11">T<tspan baseline-shift="sub" font-size="9">s,o</tspan></text>
+  <text x="396" y="348" fill="#8a8a8a" font-size="11">T<tspan baseline-shift="sub" font-size="9">&#8734;,o</tspan></text>
+
+  <!-- q arrow -->
+  <line x1="430" y1="290" x2="470" y2="290" stroke="#e0645c" stroke-width="1.8"/>
+  <polygon points="470,290 461,285 461,295" fill="#e0645c"/>
+  <text x="436" y="282" fill="#e0645c" font-size="12">q = &#916;T / &#931;R</text>
+</svg>

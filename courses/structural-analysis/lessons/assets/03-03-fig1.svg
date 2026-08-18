@@ -1,0 +1,87 @@
+<svg viewBox="0 0 660 430" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Superpose the released cantilever: real UDL drops B by &#916;10; the redundant R_B lifts it by f11 R_B.</text>
+
+  <!-- ============ Panel 1: actual indeterminate structure ============ -->
+  <text x="30" y="58" fill="#8a8a8a">1. Actual structure</text>
+  <!-- fixed wall at A -->
+  <line x1="90" y1="62" x2="90" y2="110" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="90" y1="66" x2="82" y2="76" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="90" y1="78" x2="82" y2="88" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="90" y1="90" x2="82" y2="100" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="90" y1="102" x2="82" y2="112" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="70" y="92" fill="#8a8a8a">A</text>
+  <!-- UDL arrows -->
+  <line x1="90" y1="64" x2="470" y2="64" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="120" y1="64" x2="120" y2="82" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="120,86 116,78 124,78" fill="#8a8a8a"/>
+  <line x1="185" y1="64" x2="185" y2="82" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="185,86 181,78 189,78" fill="#8a8a8a"/>
+  <line x1="250" y1="64" x2="250" y2="82" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="250,86 246,78 254,78" fill="#8a8a8a"/>
+  <line x1="315" y1="64" x2="315" y2="82" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="315,86 311,78 319,78" fill="#8a8a8a"/>
+  <line x1="380" y1="64" x2="380" y2="82" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="380,86 376,78 384,78" fill="#8a8a8a"/>
+  <line x1="445" y1="64" x2="445" y2="82" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="445,86 441,78 449,78" fill="#8a8a8a"/>
+  <text x="474" y="62" fill="#8a8a8a">w</text>
+  <!-- beam -->
+  <line x1="90" y1="92" x2="480" y2="92" stroke="#4a90d9" stroke-width="3"/>
+  <text x="484" y="88" fill="#8a8a8a">B</text>
+  <!-- prop / roller at B -->
+  <polygon points="480,92 471,108 489,108" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <circle cx="475" cy="112" r="3" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <circle cx="485" cy="112" r="3" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <!-- settlement arrow at B -->
+  <line x1="512" y1="92" x2="512" y2="118" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="512,122 508,113 516,113" fill="#e0645c"/>
+  <text x="518" y="112" fill="#e0645c">&#948; settles</text>
+
+  <!-- ============ Panel 2: released structure, real load ============ -->
+  <text x="30" y="178" fill="#8a8a8a">2. Released (prop removed) + real load</text>
+  <line x1="90" y1="188" x2="90" y2="236" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="90" y1="192" x2="82" y2="202" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="90" y1="204" x2="82" y2="214" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="90" y1="216" x2="82" y2="226" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="90" y1="228" x2="82" y2="238" stroke="#8a8a8a" stroke-width="1"/>
+  <!-- UDL -->
+  <line x1="120" y1="192" x2="120" y2="206" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="120,210 116,202 124,202" fill="#8a8a8a"/>
+  <line x1="200" y1="192" x2="200" y2="206" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="200,210 196,202 204,202" fill="#8a8a8a"/>
+  <line x1="280" y1="192" x2="280" y2="206" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="280,210 276,202 284,202" fill="#8a8a8a"/>
+  <line x1="360" y1="192" x2="360" y2="206" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="360,210 356,202 364,202" fill="#8a8a8a"/>
+  <text x="474" y="192" fill="#8a8a8a">w</text>
+  <!-- undeflected reference -->
+  <line x1="90" y1="216" x2="480" y2="216" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <!-- deflected beam drooping down -->
+  <path d="M 90 216 C 220 216, 360 236, 480 252" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <!-- deflection marker at B -->
+  <line x1="480" y1="216" x2="480" y2="252" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="480,252 476,243 484,243" fill="#e0645c"/>
+  <text x="488" y="240" fill="#e0645c">&#916;<tspan dy="3" font-size="10">10</tspan></text>
+
+  <!-- ============ Panel 3: released structure, unit/redundant force ============ -->
+  <text x="30" y="298" fill="#8a8a8a">3. Released + redundant R_B (upward)</text>
+  <line x1="90" y1="308" x2="90" y2="356" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="90" y1="312" x2="82" y2="322" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="90" y1="324" x2="82" y2="334" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="90" y1="336" x2="82" y2="346" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="90" y1="348" x2="82" y2="358" stroke="#8a8a8a" stroke-width="1"/>
+  <!-- undeflected reference -->
+  <line x1="90" y1="336" x2="480" y2="336" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <!-- deflected beam lifting up -->
+  <path d="M 90 336 C 220 336, 360 316, 480 300" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <!-- redundant upward force at B -->
+  <line x1="480" y1="336" x2="480" y2="300" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="480,296 475,306 485,306" fill="#e0645c"/>
+  <text x="488" y="312" fill="#e0645c">R_B = X<tspan dy="3" font-size="10">1</tspan></text>
+  <text x="392" y="330" fill="#8a8a8a">f<tspan dy="3" font-size="10">11</tspan><tspan dy="-3"> R_B up</tspan></text>
+
+  <!-- ============ compatibility ============ -->
+  <line x1="30" y1="378" x2="630" y2="378" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="30" y="404" fill="#e0645c" font-size="16">Compatibility at B:  &#916;<tspan dy="3" font-size="11">10</tspan><tspan dy="-3"> &#8722; f</tspan><tspan dy="3" font-size="11">11</tspan><tspan dy="-3"> R_B = &#948;</tspan></text>
+  <text x="330" y="404" fill="#8a8a8a" font-size="13">(equals the settlement &#948;, not zero)</text>
+</svg>

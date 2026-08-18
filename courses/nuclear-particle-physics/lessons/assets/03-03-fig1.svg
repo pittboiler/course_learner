@@ -1,0 +1,54 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Flux Φ hits a slab of targets, each an effective disk of area σ; a detector of solid angle ΔΩ counts what scatters into it.</text>
+
+  <!-- ===== beam (blue flux arrows) ===== -->
+  <text x="46" y="70" fill="#8a8a8a">beam, flux Φ</text>
+  <line x1="50" y1="110" x2="200" y2="110" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="200,110 190,105 190,115" fill="#4a90d9"/>
+  <line x1="50" y1="150" x2="200" y2="150" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="200,150 190,145 190,155" fill="#4a90d9"/>
+  <line x1="50" y1="190" x2="200" y2="190" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="200,190 190,185 190,195" fill="#4a90d9"/>
+  <line x1="50" y1="230" x2="200" y2="230" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="200,230 190,225 190,235" fill="#4a90d9"/>
+
+  <!-- ===== target slab ===== -->
+  <rect x="205" y="88" width="50" height="164" fill="#8a8a8a" opacity="0.15" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="150" y="285" fill="#8a8a8a">target slab: n per volume, thickness x</text>
+
+  <!-- target disks of area sigma -->
+  <circle cx="220" cy="118" r="5" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="1.5"/>
+  <circle cx="240" cy="140" r="5" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="1.5"/>
+  <circle cx="218" cy="205" r="5" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="1.5"/>
+  <circle cx="243" cy="228" r="5" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="1.5"/>
+  <!-- highlighted target (the scattering site) -->
+  <circle cx="230" cy="170" r="6" fill="#e0645c" opacity="0.15" stroke="#e0645c" stroke-width="2"/>
+  <line x1="230" y1="170" x2="250" y2="128" stroke="#e0645c" stroke-width="1"/>
+  <text x="252" y="126" fill="#e0645c">each target: area σ</text>
+
+  <!-- ===== forward reference (undeflected) ===== -->
+  <line x1="255" y1="170" x2="600" y2="170" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <polygon points="600,170 590,165 590,175" fill="#8a8a8a"/>
+  <text x="558" y="188" fill="#8a8a8a">θ = 0</text>
+
+  <!-- ===== scattered particle into detector ===== -->
+  <line x1="230" y1="170" x2="540" y2="80" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="540,80 528,81 534,91" fill="#4a90d9"/>
+
+  <!-- scattering angle theta arc -->
+  <path d="M 300 170 A 70 70 0 0 0 291 149" fill="none" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="303" y="158" fill="#8a8a8a">θ</text>
+
+  <!-- detector solid-angle wedge (coral) -->
+  <polygon points="230,170 552,60 560,98" fill="#e0645c" opacity="0.15"/>
+  <line x1="230" y1="170" x2="552" y2="60" stroke="#e0645c" stroke-width="1"/>
+  <line x1="230" y1="170" x2="560" y2="98" stroke="#e0645c" stroke-width="1"/>
+  <!-- detector face -->
+  <line x1="552" y1="60" x2="560" y2="98" stroke="#e0645c" stroke-width="4"/>
+  <text x="566" y="76" fill="#e0645c">detector</text>
+  <text x="566" y="94" fill="#e0645c">ΔΩ</text>
+
+  <!-- master relation -->
+  <text x="300" y="315" fill="#e0645c">R = L · (dσ/dΩ) · ΔΩ</text>
+</svg>

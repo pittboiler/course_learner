@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 250" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="720" height="250" fill="#ffffff"/>
+
+  <!-- baseline -->
+  <line x1="30" y1="150" x2="700" y2="150" stroke="#111111" stroke-width="1.5"/>
+  <polygon points="700,150 690,145 690,155" fill="#111111"/>
+
+  <!-- ===== finite block: 0,1,2,3,4 then converging to omega ===== -->
+  <g fill="#111111">
+    <circle cx="45"  cy="150" r="3.5"/>
+    <circle cx="80"  cy="150" r="3.5"/>
+    <circle cx="115" cy="150" r="3.5"/>
+    <circle cx="150" cy="150" r="3.5"/>
+    <circle cx="185" cy="150" r="3.5"/>
+    <!-- converging dots -->
+    <circle cx="215" cy="150" r="2.5"/>
+    <circle cx="240" cy="150" r="2.2"/>
+    <circle cx="258" cy="150" r="1.9"/>
+    <circle cx="270" cy="150" r="1.6"/>
+    <circle cx="278" cy="150" r="1.3"/>
+  </g>
+  <g font-size="13" fill="#111111" text-anchor="middle">
+    <text x="45"  y="172">0</text>
+    <text x="80"  y="172">1</text>
+    <text x="115" y="172">2</text>
+    <text x="150" y="172">3</text>
+    <text x="185" y="172">4</text>
+  </g>
+
+  <!-- successor arcs +1 over first steps -->
+  <g stroke="#111111" stroke-width="1" fill="none">
+    <path d="M45,142 Q62,124 80,142"/>
+    <path d="M80,142 Q97,124 115,142"/>
+  </g>
+  <text x="97" y="118" font-size="11" fill="#555555" text-anchor="middle">successor step  &#945; &#8614; &#945;+1</text>
+
+  <!-- omega: first limit point -->
+  <line x1="300" y1="130" x2="300" y2="150" stroke="#111111" stroke-width="2"/>
+  <circle cx="300" cy="128" r="4.5" fill="#ffffff" stroke="#111111" stroke-width="2"/>
+  <text x="300" y="172" font-size="14" fill="#111111" text-anchor="middle">&#969;</text>
+  <text x="300" y="108" font-size="11" fill="#555555" text-anchor="middle">limit</text>
+
+  <!-- ===== omega+ block: omega+1, +2, +3 converging to omega.2 ===== -->
+  <g fill="#111111">
+    <circle cx="335" cy="150" r="3.5"/>
+    <circle cx="370" cy="150" r="3.5"/>
+    <circle cx="405" cy="150" r="3.5"/>
+    <circle cx="435" cy="150" r="2.5"/>
+    <circle cx="458" cy="150" r="2.2"/>
+    <circle cx="474" cy="150" r="1.9"/>
+    <circle cx="485" cy="150" r="1.5"/>
+  </g>
+  <g font-size="12" fill="#111111" text-anchor="middle">
+    <text x="335" y="172">&#969;+1</text>
+    <text x="370" y="172">&#969;+2</text>
+    <text x="405" y="172">&#969;+3</text>
+  </g>
+
+  <!-- omega.2 : second limit point -->
+  <line x1="510" y1="130" x2="510" y2="150" stroke="#111111" stroke-width="2"/>
+  <circle cx="510" cy="128" r="4.5" fill="#ffffff" stroke="#111111" stroke-width="2"/>
+  <text x="510" y="172" font-size="13" fill="#111111" text-anchor="middle">&#969;&#183;2</text>
+  <text x="510" y="108" font-size="11" fill="#555555" text-anchor="middle">limit</text>
+
+  <!-- ===== onward: omega.2+1 ... then far off omega^2 ===== -->
+  <g fill="#111111">
+    <circle cx="545" cy="150" r="3.5"/>
+    <circle cx="575" cy="150" r="2.5"/>
+    <circle cx="598" cy="150" r="2.0"/>
+    <circle cx="615" cy="150" r="1.6"/>
+  </g>
+  <text x="545" y="172" font-size="12" fill="#111111" text-anchor="middle">&#969;&#183;2+1</text>
+
+  <text x="645" y="150" font-size="13" fill="#555555" text-anchor="middle">&#183;&#183;&#183;</text>
+
+  <!-- omega^2 limit -->
+  <line x1="672" y1="130" x2="672" y2="150" stroke="#111111" stroke-width="2"/>
+  <circle cx="672" cy="128" r="4.5" fill="#ffffff" stroke="#111111" stroke-width="2"/>
+  <text x="672" y="172" font-size="13" fill="#111111" text-anchor="middle">&#969;&#178;</text>
+
+  <!-- legend -->
+  <g font-size="12">
+    <circle cx="120" cy="215" r="3.5" fill="#111111"/>
+    <text x="132" y="219" fill="#555555" text-anchor="start">successor ordinal (has an immediate predecessor)</text>
+    <circle cx="430" cy="215" r="4.5" fill="#ffffff" stroke="#111111" stroke-width="2"/>
+    <text x="443" y="219" fill="#555555" text-anchor="start">limit ordinal (no immediate predecessor)</text>
+  </g>
+</svg>

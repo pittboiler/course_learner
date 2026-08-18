@@ -1,0 +1,41 @@
+<svg viewBox="0 0 660 430" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="60" y="24" fill="#8a8a8a" font-style="italic">Two branches, one cutoff: both leave ω = ω_p at k = 0. Below ω_p (shaded) nothing propagates — the plasma reflects.</text>
+
+  <!-- shaded forbidden band  ω < ω_p  -->
+  <rect x="80" y="277.1" width="520" height="82.9" fill="#e0645c" opacity="0.15"/>
+
+  <!-- axes -->
+  <line x1="80" y1="360" x2="620" y2="360" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="620,360 610,355 610,365" fill="#8a8a8a"/>
+  <text x="612" y="380" fill="#8a8a8a">k</text>
+  <line x1="80" y1="360" x2="80" y2="58" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="80,58 75,68 85,68" fill="#8a8a8a"/>
+  <text x="52" y="66" fill="#8a8a8a">ω</text>
+
+  <!-- cutoff line ω = ω_p -->
+  <line x1="80" y1="277.1" x2="600" y2="277.1" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="46" y="282" fill="#8a8a8a">ω_p</text>
+  <text x="0" y="360" fill="#8a8a8a">0</text>
+
+  <!-- light-line asymptote  ω = c k -->
+  <line x1="80" y1="360" x2="600" y2="90.7" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 5"/>
+  <text x="470" y="120" fill="#8a8a8a" font-style="italic">ω = c k</text>
+
+  <!-- EM branch  ω² = ω_p² + c²k²  (coral) -->
+  <path d="M 80 277.1 L 132 272.9 L 184 261.2 L 236 244.3 L 288 224.1 L 340 201.9 L 392 178.4 L 444 154.1 L 496 129.2 L 548 103.9 L 600 78.3"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+  <text x="500" y="70" fill="#e0645c">EM:  ω² = ω_p² + c²k²</text>
+
+  <!-- Langmuir / Bohm–Gross branch  ω² = ω_p² + 3k²v_th²  (blue) -->
+  <path d="M 80 277.1 L 132 275.9 L 184 272.3 L 236 266.6 L 288 259.2 L 340 250.4 L 392 240.5 L 444 229.8 L 496 218.4 L 548 206.5 L 600 194.3"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="404" y="214" fill="#4a90d9">Langmuir (Bohm–Gross):</text>
+  <text x="404" y="232" fill="#4a90d9">ω² = ω_p² + 3k²v_th²</text>
+
+  <!-- cutoff dot -->
+  <circle cx="80" cy="277.1" r="4" fill="#8a8a8a"/>
+
+  <!-- forbidden-band label -->
+  <text x="150" y="322" fill="#e0645c" font-style="italic">forbidden: ω &lt; ω_p  →  evanescent, reflected</text>
+</svg>

@@ -1,0 +1,64 @@
+<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="20" fill="#8a8a8a" font-style="italic">Open-state dwell times are exponential; their decay rate IS k_off, read off by the MLE k&#770; = 1/&#10216;t&#10217;.</text>
+
+  <!-- ===== top: single-molecule blinking trace ===== -->
+  <text x="40" y="44" fill="#8a8a8a" font-style="italic" font-size="12">single-molecule trace</text>
+  <path d="M70,95 L110,95 L110,60 L160,60 L160,95 L190,95 L190,60 L260,60 L260,95 L290,95 L290,60 L330,60 L330,95 L360,95 L360,60 L410,60 L410,95 L470,95"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="474" y="64" fill="#8a8a8a" font-size="12">open</text>
+  <text x="474" y="99" fill="#8a8a8a" font-size="12">closed</text>
+  <!-- one dwell marked -->
+  <line x1="190" y1="108" x2="260" y2="108" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="190,108 199,104 199,112" fill="#e0645c"/>
+  <polygon points="260,108 251,104 251,112" fill="#e0645c"/>
+  <text x="216" y="122" fill="#e0645c" font-size="12">&#964;</text>
+
+  <!-- ===== bottom: dwell-time histogram + fitted exponential ===== -->
+  <!-- axes -->
+  <line x1="70" y1="330" x2="482" y2="330" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="482,330 472,325 472,335" fill="#8a8a8a"/>
+  <line x1="70" y1="330" x2="70" y2="132" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,132 65,142 75,142" fill="#8a8a8a"/>
+  <text x="30" y="230" fill="#8a8a8a" transform="rotate(-90 30 230)">counts</text>
+  <text x="238" y="360" fill="#8a8a8a">dwell time t (s)</text>
+
+  <!-- x ticks -->
+  <text x="66" y="346" fill="#8a8a8a" font-size="12">0</text>
+  <text x="140" y="346" fill="#8a8a8a" font-size="12">0.5</text>
+  <text x="223" y="346" fill="#8a8a8a" font-size="12">1.0</text>
+  <text x="303" y="346" fill="#8a8a8a" font-size="12">1.5</text>
+  <text x="383" y="346" fill="#8a8a8a" font-size="12">2.0</text>
+  <text x="463" y="346" fill="#8a8a8a" font-size="12">2.5</text>
+
+  <!-- histogram bars (empirical, ~exponential with mild jitter) -->
+  <g fill="#4a90d9" fill-opacity="0.15" stroke="#8a8a8a" stroke-width="1">
+    <rect x="72"  y="178" width="36" height="152"/>
+    <rect x="112" y="230" width="36" height="100"/>
+    <rect x="152" y="268" width="36" height="62"/>
+    <rect x="192" y="299" width="36" height="31"/>
+    <rect x="232" y="306" width="36" height="24"/>
+    <rect x="272" y="320" width="36" height="10"/>
+    <rect x="312" y="320" width="36" height="10"/>
+    <rect x="352" y="325" width="36" height="5"/>
+    <rect x="392" y="328" width="36" height="2"/>
+    <rect x="432" y="328" width="36" height="2"/>
+  </g>
+
+  <!-- fitted exponential P(t) = k e^{-kt}, k = 2 /s, scaled so peak sits at bar tops -->
+  <path d="M70,130 L110,209 L150,256 L190,285 L230,303 L270,314 L310,320 L350,324 L390,326 L430,328 L470,329"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="150" y="180" fill="#4a90d9" font-size="13">P(t) = k e&#8315;&#7503;&#7511;</text>
+
+  <!-- mean-dwell marker -->
+  <line x1="150" y1="330" x2="150" y2="256" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="154" y="248" fill="#e0645c" font-size="12">&#10216;t&#10217; = 0.5 s</text>
+
+  <!-- MLE + error bar annotation (coral) -->
+  <text x="300" y="185" fill="#e0645c" font-size="13">k&#770; = 1/&#10216;t&#10217; = 2.0 s&#8315;&#185;</text>
+  <line x1="330" y1="205" x2="470" y2="205" stroke="#e0645c" stroke-width="1.5"/>
+  <line x1="330" y1="199" x2="330" y2="211" stroke="#e0645c" stroke-width="1.5"/>
+  <line x1="470" y1="199" x2="470" y2="211" stroke="#e0645c" stroke-width="1.5"/>
+  <line x1="400" y1="199" x2="400" y2="211" stroke="#e0645c" stroke-width="2"/>
+  <text x="336" y="226" fill="#e0645c" font-size="12">&#963;&#8342;/k = 1/&#8730;N = &#177;0.2 (N=100)</text>
+</svg>

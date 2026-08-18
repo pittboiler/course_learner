@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 490" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="480" height="490" fill="#ffffff"/>
+
+  <text x="240" y="34" font-size="19" fill="#111" text-anchor="middle" font-weight="bold">Divisor lattice of 12, with &#956;(1, d) at each node</text>
+
+  <!-- edges (cover relations), drawn first so nodes sit on top -->
+  <g stroke="#555" stroke-width="2">
+    <line x1="240" y1="420" x2="150" y2="310"/>
+    <line x1="240" y1="420" x2="330" y2="310"/>
+    <line x1="150" y1="310" x2="110" y2="200"/>
+    <line x1="150" y1="310" x2="290" y2="200"/>
+    <line x1="330" y1="310" x2="290" y2="200"/>
+    <line x1="110" y1="200" x2="200" y2="90"/>
+    <line x1="290" y1="200" x2="200" y2="90"/>
+  </g>
+
+  <!-- nodes: circle holds the divisor; label to the side gives mu -->
+  <!-- 1 -->
+  <circle cx="240" cy="420" r="26" fill="#ffffff" stroke="#111" stroke-width="2.5"/>
+  <text x="240" y="428" font-size="22" fill="#111" text-anchor="middle">1</text>
+  <text x="292" y="428" font-size="17" fill="#0a7d34" text-anchor="start" font-weight="bold">&#956; = +1</text>
+
+  <!-- 2 -->
+  <circle cx="150" cy="310" r="26" fill="#ffffff" stroke="#111" stroke-width="2.5"/>
+  <text x="150" y="318" font-size="22" fill="#111" text-anchor="middle">2</text>
+  <text x="108" y="290" font-size="17" fill="#c0392b" text-anchor="end" font-weight="bold">&#956; = &#8722;1</text>
+
+  <!-- 3 -->
+  <circle cx="330" cy="310" r="26" fill="#ffffff" stroke="#111" stroke-width="2.5"/>
+  <text x="330" y="318" font-size="22" fill="#111" text-anchor="middle">3</text>
+  <text x="372" y="290" font-size="17" fill="#c0392b" text-anchor="start" font-weight="bold">&#956; = &#8722;1</text>
+
+  <!-- 4 -->
+  <circle cx="110" cy="200" r="26" fill="#ffffff" stroke="#111" stroke-width="2.5"/>
+  <text x="110" y="208" font-size="22" fill="#111" text-anchor="middle">4</text>
+  <text x="68" y="180" font-size="17" fill="#8a8a8a" text-anchor="end" font-weight="bold">&#956; = 0</text>
+
+  <!-- 6 -->
+  <circle cx="290" cy="200" r="26" fill="#ffffff" stroke="#111" stroke-width="2.5"/>
+  <text x="290" y="208" font-size="22" fill="#111" text-anchor="middle">6</text>
+  <text x="332" y="180" font-size="17" fill="#0a7d34" text-anchor="start" font-weight="bold">&#956; = +1</text>
+
+  <!-- 12 -->
+  <circle cx="200" cy="90" r="26" fill="#ffffff" stroke="#111" stroke-width="2.5"/>
+  <text x="200" y="98" font-size="22" fill="#111" text-anchor="middle">12</text>
+  <text x="248" y="90" font-size="17" fill="#8a8a8a" text-anchor="start" font-weight="bold">&#956; = 0</text>
+
+  <text x="240" y="470" font-size="14" fill="#777" text-anchor="middle">&#956; = 0 exactly at 4 and 12 (not squarefree); elsewhere (&#8722;1)^(number of prime factors).</text>
+</svg>

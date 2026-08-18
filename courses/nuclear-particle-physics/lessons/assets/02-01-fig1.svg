@@ -1,0 +1,53 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Left: N/N₀ halves every t½. Right: in secular equilibrium the daughter's activity climbs to meet the parent's.</text>
+
+  <!-- ===== left: exponential decay curve ===== -->
+
+  <!-- axes -->
+  <line x1="60" y1="250" x2="404" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="404,250 394,245 394,255" fill="#8a8a8a"/>
+  <text x="408" y="255" fill="#8a8a8a">t</text>
+  <line x1="60" y1="250" x2="60" y2="58" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="60,58 55,68 65,68" fill="#8a8a8a"/>
+  <text x="16" y="62" fill="#8a8a8a">N/N₀</text>
+
+  <!-- y gridline labels -->
+  <text x="44" y="74" fill="#8a8a8a">1</text>
+  <text x="40" y="164" fill="#8a8a8a">½</text>
+  <text x="40" y="209" fill="#8a8a8a">¼</text>
+
+  <!-- the exponential N/N0 = 2^(-t/t_half) -->
+  <path d="M 60 70 L 80.6 98.6 L 101.3 122.7 L 121.9 143.0 L 142.5 160.0 L 163.1 174.3 L 183.8 186.4 L 204.4 196.5 L 225 205.0 L 245.6 212.2 L 266.3 218.2 L 286.9 223.2 L 307.5 227.5 L 328.1 231.1 L 348.8 234.1 L 369.4 236.6 L 390 238.8"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- t_half halving marks -->
+  <line x1="142.5" y1="250" x2="142.5" y2="160" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="60" y1="160" x2="142.5" y2="160" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="225" y1="250" x2="225" y2="205" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="60" y1="205" x2="225" y2="205" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <circle cx="142.5" cy="160" r="4" fill="#e0645c"/>
+  <circle cx="225" cy="205" r="4" fill="#e0645c"/>
+  <text x="126" y="268" fill="#e0645c">t½</text>
+  <text x="210" y="268" fill="#e0645c">2t½</text>
+
+  <!-- ===== right: secular equilibrium (activity vs time) ===== -->
+
+  <!-- axes -->
+  <line x1="440" y1="250" x2="624" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="624,250 614,245 614,255" fill="#8a8a8a"/>
+  <text x="612" y="268" fill="#8a8a8a">t</text>
+  <line x1="440" y1="250" x2="440" y2="90" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="440,90 435,100 445,100" fill="#8a8a8a"/>
+  <text x="450" y="88" fill="#8a8a8a">A</text>
+
+  <!-- parent activity: flat (very long-lived) -->
+  <line x1="440" y1="110" x2="620" y2="110" stroke="#8a8a8a" stroke-width="3"/>
+  <text x="524" y="104" fill="#8a8a8a">A₁ parent</text>
+
+  <!-- daughter activity: A2 = A1(1 - e^{-lambda2 t}) rising to A1 -->
+  <path d="M 440 250 L 457 194.9 L 474 161.5 L 491 141.2 L 508 128.9 L 525 121.5 L 542 117.0 L 559 114.2 L 576 112.6 L 593 111.6 L 610 110.9"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+  <text x="482" y="228" fill="#e0645c">A₂ daughter</text>
+  <text x="566" y="130" fill="#e0645c">→ A₁</text>
+</svg>

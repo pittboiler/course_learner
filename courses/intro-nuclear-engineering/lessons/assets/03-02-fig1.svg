@@ -1,0 +1,47 @@
+<svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">One absorbed neutron either splits the nucleus (chance &#963;f/&#963;a, out come &#957;&#8776;2.4) or is captured (&#963;&#947;/&#963;a) &#8212; net &#951; per absorption.</text>
+
+  <!-- incoming neutron -->
+  <line x1="24" y1="150" x2="132" y2="150" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="132,150 122,145 122,155" fill="#8a8a8a"/>
+  <text x="30" y="140" fill="#8a8a8a">1 neutron absorbed</text>
+
+  <!-- fuel nucleus -->
+  <circle cx="170" cy="150" r="30" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <text x="150" y="147" fill="#4a90d9">fuel</text>
+  <text x="153" y="163" fill="#4a90d9" font-size="11">nucleus</text>
+
+  <!-- upper branch: fission -->
+  <line x1="200" y1="140" x2="360" y2="82" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="360,82 349,83 353,92" fill="#4a90d9"/>
+  <text x="238" y="103" fill="#4a90d9">fission</text>
+  <text x="238" y="119" fill="#8a8a8a" font-size="12">prob &#963;f/&#963;a</text>
+
+  <!-- fission products: nu neutrons out -->
+  <g stroke="#e0645c" stroke-width="2">
+    <line x1="372" y1="60" x2="440" y2="42"/>
+    <line x1="374" y1="78" x2="446" y2="72"/>
+    <line x1="372" y1="96" x2="440" y2="106"/>
+  </g>
+  <polygon points="440,42 429,42 433,51" fill="#e0645c"/>
+  <polygon points="446,72 436,68 435,78" fill="#e0645c"/>
+  <polygon points="440,106 433,97 429,106" fill="#e0645c"/>
+  <text x="452" y="66" fill="#e0645c">&#957; &#8776; 2.4 neutrons</text>
+  <text x="452" y="84" fill="#8a8a8a" font-size="12">+ 2 fragments + energy</text>
+
+  <!-- lower branch: capture -->
+  <line x1="200" y1="160" x2="360" y2="218" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="360,218 353,208 349,217" fill="#8a8a8a"/>
+  <text x="230" y="205" fill="#8a8a8a">radiative capture</text>
+  <text x="230" y="221" fill="#8a8a8a" font-size="12">prob &#963;&#947;/&#963;a</text>
+
+  <!-- gamma out, no neutron -->
+  <path d="M 372 224 q 12 -10 24 0 q 12 10 24 0 q 12 -10 24 0" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="444,224 434,219 434,229" fill="#8a8a8a"/>
+  <text x="452" y="222" fill="#8a8a8a">&#947; only &#8212; 0 neutrons</text>
+
+  <!-- summary box -->
+  <rect x="150" y="256" width="340" height="34" rx="6" fill="none" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="170" y="278" fill="#e0645c" font-size="15">&#951; = &#957; &#963;f / &#963;a = &#957; &#963;f / (&#963;f + &#963;&#947;)   &#8212; needs &#951; &#62; 1</text>
+</svg>

@@ -1,0 +1,57 @@
+<svg viewBox="0 0 660 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">One electron in a mean field: nuclear pull (core) + averaged repulsion (Coulomb J) + the nonclassical same-spin exchange (K).</text>
+
+  <!-- F = -->
+  <text x="30" y="175" fill="#8a8a8a" font-size="20">F&#770; =</text>
+
+  <!-- ============ Panel 1: core h ============ -->
+  <rect x="86" y="70" width="150" height="180" rx="6" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="161" y="94" fill="#4a90d9" text-anchor="middle" font-size="18">h&#770;</text>
+  <text x="161" y="112" fill="#8a8a8a" text-anchor="middle" font-size="11">core: kinetic + nuclear pull</text>
+  <!-- nucleus -->
+  <circle cx="161" cy="175" r="14" fill="#8a8a8a" opacity="0.25" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="161" y="180" fill="#8a8a8a" text-anchor="middle" font-size="14">+</text>
+  <!-- reference electron -->
+  <circle cx="120" cy="215" r="7" fill="#4a90d9"/>
+  <text x="120" y="240" fill="#4a90d9" text-anchor="middle" font-size="11">electron i</text>
+  <!-- attraction arrow toward nucleus -->
+  <line x1="128" y1="209" x2="150" y2="187" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="150,187 140,189 148,197" fill="#4a90d9"/>
+
+  <!-- plus -->
+  <text x="252" y="175" fill="#8a8a8a" font-size="20">+</text>
+
+  <!-- ============ Panel 2: Coulomb J ============ -->
+  <rect x="278" y="70" width="150" height="180" rx="6" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="353" y="94" fill="#4a90d9" text-anchor="middle" font-size="18">J&#770;&#8202;<tspan font-size="12">j</tspan></text>
+  <text x="353" y="112" fill="#8a8a8a" text-anchor="middle" font-size="11">Coulomb: averaged repulsion</text>
+  <!-- smeared charge cloud of electron j -->
+  <circle cx="378" cy="180" r="30" fill="#4a90d9" opacity="0.10"/>
+  <circle cx="378" cy="180" r="20" fill="#4a90d9" opacity="0.14"/>
+  <circle cx="378" cy="180" r="10" fill="#4a90d9" opacity="0.20"/>
+  <text x="378" y="223" fill="#4a90d9" text-anchor="middle" font-size="11">cloud of j</text>
+  <!-- reference electron -->
+  <circle cx="308" cy="150" r="7" fill="#4a90d9"/>
+  <!-- repulsion arrow away from cloud -->
+  <line x1="322" y1="155" x2="300" y2="147" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="300,147 310,146 306,138" fill="#4a90d9"/>
+
+  <!-- minus -->
+  <text x="444" y="175" fill="#e0645c" font-size="20">&#8722;</text>
+
+  <!-- ============ Panel 3: Exchange K ============ -->
+  <rect x="470" y="70" width="160" height="180" rx="6" fill="none" stroke="#e0645c" stroke-width="1.2" stroke-dasharray="4 4"/>
+  <text x="550" y="94" fill="#e0645c" text-anchor="middle" font-size="18">K&#770;&#8202;<tspan font-size="12">j</tspan></text>
+  <text x="550" y="112" fill="#8a8a8a" text-anchor="middle" font-size="11">exchange: same spin only</text>
+  <!-- two same-spin electrons -->
+  <circle cx="512" cy="180" r="7" fill="#e0645c"/>
+  <line x1="512" y1="196" x2="512" y2="162" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="512,162 508,171 516,171" fill="#e0645c"/>
+  <circle cx="588" cy="180" r="7" fill="#e0645c"/>
+  <line x1="588" y1="196" x2="588" y2="162" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="588,162 584,171 592,171" fill="#e0645c"/>
+  <!-- nonclassical link -->
+  <line x1="519" y1="180" x2="581" y2="180" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="3 4"/>
+  <text x="550" y="223" fill="#8a8a8a" text-anchor="middle" font-size="11">no classical analog</text>
+</svg>

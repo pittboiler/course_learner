@@ -1,0 +1,43 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Fermi–Dirac occupancy f(ε): a sharp step at T=0 (grey) softens over only ~k_BT around E_F at T&gt;0 (blue).</text>
+  <text x="40" y="40" fill="#8a8a8a" font-style="italic">Only the coral sliver — a fraction ~k_BT/E_F of the electrons — can be thermally excited.</text>
+
+  <!-- axes -->
+  <line x1="70" y1="250" x2="585" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="585,250 575,245 575,255" fill="#8a8a8a"/>
+  <text x="590" y="255" fill="#8a8a8a">ε</text>
+  <line x1="70" y1="250" x2="70" y2="58" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,58 65,68 75,68" fill="#8a8a8a"/>
+  <text x="42" y="66" fill="#8a8a8a">f(ε)</text>
+  <text x="55" y="75" fill="#8a8a8a">1</text>
+  <text x="57" y="266" fill="#8a8a8a">0</text>
+  <text x="332" y="268" fill="#e0645c">E_F</text>
+
+  <!-- coral thermal shell: the two equal lobes between the step and the smeared curve -->
+  <polygon points="260,70 340,70 340,160 320,138 300,118.4 280,102.8 260,91.5"
+           fill="#e0645c" opacity="0.15"/>
+  <polygon points="340,160 360,182.1 380,201.6 400,217.2 420,228.5 420,250 340,250"
+           fill="#e0645c" opacity="0.15"/>
+
+  <!-- T=0 sharp step (grey) -->
+  <path d="M 70 70 L 340 70 L 340 250 L 575 250" fill="none" stroke="#8a8a8a"
+        stroke-width="2.5" stroke-dasharray="6 4"/>
+  <text x="150" y="62" fill="#8a8a8a">T = 0</text>
+
+  <!-- T>0 smeared Fermi–Dirac (blue) -->
+  <path d="M 70 70 L 180 73.2 L 200 75.3 L 220 78.5 L 240 83.7 L 260 91.5 L 280 102.8 L 300 118.4 L 320 138 L 340 160 L 360 182.1 L 380 201.6 L 400 217.2 L 420 228.5 L 440 236.3 L 460 241.5 L 480 244.7 L 500 246.8 L 575 250"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="430" y="200" fill="#4a90d9">T &gt; 0</text>
+
+  <!-- E_F line -->
+  <line x1="340" y1="70" x2="340" y2="260" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="3 4"/>
+
+  <!-- k_BT width bracket around E_F -->
+  <line x1="300" y1="300" x2="380" y2="300" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="300,300 309,296 309,304" fill="#e0645c"/>
+  <polygon points="380,300 371,296 371,304" fill="#e0645c"/>
+  <line x1="300" y1="292" x2="300" y2="308" stroke="#e0645c" stroke-width="1"/>
+  <line x1="380" y1="292" x2="380" y2="308" stroke="#e0645c" stroke-width="1"/>
+  <text x="316" y="324" fill="#e0645c">~ k_BT</text>
+</svg>

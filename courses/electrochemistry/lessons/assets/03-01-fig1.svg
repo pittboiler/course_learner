@@ -1,0 +1,44 @@
+<svg viewBox="0 0 620 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">The Nernst diffusion layer: reactant is depleted to C_s at the surface, linear back up to bulk C* over thickness &#948;.</text>
+
+  <!-- electrode block -->
+  <rect x="62" y="70" width="28" height="182" fill="#8a8a8a" opacity="0.28" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="60" y="272" fill="#8a8a8a">electrode</text>
+
+  <!-- axes -->
+  <line x1="90" y1="252" x2="560" y2="252" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="560,252 550,247 550,257" fill="#8a8a8a"/>
+  <text x="540" y="272" fill="#8a8a8a">distance x</text>
+  <line x1="90" y1="252" x2="90" y2="66" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="90,66 85,76 95,76" fill="#8a8a8a"/>
+  <text x="70" y="60" fill="#8a8a8a">C</text>
+
+  <!-- bulk C* dashed reference -->
+  <line x1="90" y1="100" x2="540" y2="100" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="500" y="94" fill="#8a8a8a">C*  (bulk)</text>
+
+  <!-- concentration profile: linear rise in layer, flat in bulk -->
+  <path d="M 90 210 L 280 100 L 540 100" fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- surface concentration marker C_s -->
+  <circle cx="90" cy="210" r="4" fill="#e0645c"/>
+  <line x1="90" y1="210" x2="140" y2="210" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="98" y="228" fill="#e0645c">C_s  (surface)</text>
+
+  <!-- delta layer-thickness marker -->
+  <line x1="280" y1="100" x2="280" y2="252" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="90" y1="238" x2="280" y2="238" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="90,238 99,234 99,242" fill="#e0645c"/>
+  <polygon points="280,238 271,234 271,242" fill="#e0645c"/>
+  <text x="176" y="232" fill="#e0645c">&#948;</text>
+
+  <!-- flux arrow: diffusion toward electrode -->
+  <line x1="230" y1="150" x2="140" y2="150" stroke="#4a90d9" stroke-width="1.5"/>
+  <polygon points="140,150 149,146 149,154" fill="#4a90d9"/>
+  <text x="150" y="140" fill="#4a90d9">flux J</text>
+
+  <!-- region labels -->
+  <text x="150" y="292" fill="#8a8a8a">diffusion layer</text>
+  <text x="360" y="292" fill="#8a8a8a">convection (stirred bulk)</text>
+  <line x1="285" y1="288" x2="285" y2="258" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 3"/>
+</svg>

@@ -1,0 +1,48 @@
+<svg viewBox="0 0 640 430" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Franck&#8211;Condon: the electronic jump is vertical (nuclei frozen), so it lands on the upper level whose turning point sits over r&#8091;.</text>
+
+  <!-- energy axis -->
+  <line x1="70" y1="400" x2="70" y2="58" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,58 65,70 75,70" fill="#8a8a8a"/>
+  <text x="52" y="52" fill="#8a8a8a">Energy</text>
+
+  <!-- internuclear distance axis -->
+  <line x1="70" y1="400" x2="610" y2="400" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="610,400 598,395 598,405" fill="#8a8a8a"/>
+  <text x="516" y="420" fill="#8a8a8a">internuclear distance r</text>
+
+  <!-- ===== ground electronic state S0 (blue) ===== -->
+  <path d="M 160 130 C 180 260, 195 335, 210 350 C 235 335, 280 220, 320 185 C 360 168, 400 162, 445 160"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="452" y="164" fill="#4a90d9">S&#8320; (ground)</text>
+
+  <!-- ground vibrational levels (blue, thin) -->
+  <line x1="192" y1="340" x2="230" y2="340" stroke="#4a90d9" stroke-width="1"/>
+  <line x1="184" y1="320" x2="246" y2="320" stroke="#4a90d9" stroke-width="1"/>
+  <line x1="177" y1="300" x2="262" y2="300" stroke="#4a90d9" stroke-width="1"/>
+  <text x="150" y="345" fill="#4a90d9" font-size="12">v=0</text>
+
+  <!-- equilibrium bond length guide -->
+  <line x1="210" y1="350" x2="210" y2="400" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="198" y="415" fill="#8a8a8a" font-size="12">r&#8091;</text>
+
+  <!-- ===== excited electronic state S1 (coral), shifted right & up ===== -->
+  <path d="M 205 118 C 225 170, 242 192, 255 200 C 285 186, 330 145, 370 122 C 400 108, 435 100, 470 98"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+  <text x="478" y="102" fill="#e0645c">S&#8321; (excited)</text>
+
+  <!-- excited vibrational levels (coral, thin) -->
+  <line x1="262" y1="196" x2="300" y2="196" stroke="#e0645c" stroke-width="1"/>
+  <line x1="250" y1="178" x2="322" y2="178" stroke="#e0645c" stroke-width="1"/>
+  <line x1="240" y1="160" x2="345" y2="160" stroke="#e0645c" stroke-width="1"/>
+  <!-- best-overlap level (highlighted) -->
+  <line x1="208" y1="130" x2="352" y2="130" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="358" y="126" fill="#e0645c" font-size="12">best overlap (v&#8242;)</text>
+
+  <!-- ===== vertical transition arrow (coral) ===== -->
+  <line x1="210" y1="340" x2="210" y2="134" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="210,130 205,142 215,142" fill="#e0645c"/>
+  <text x="118" y="250" fill="#e0645c" font-size="12">vertical</text>
+  <text x="112" y="266" fill="#e0645c" font-size="12">absorption</text>
+</svg>

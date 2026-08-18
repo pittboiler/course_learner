@@ -1,0 +1,57 @@
+<svg viewBox="0 0 640 372" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="640" height="372" fill="#ffffff"/>
+
+  <!-- title -->
+  <text x="320" y="26" fill="#111111" font-size="16" text-anchor="middle" font-weight="bold">Tangent space: a line at a smooth point vs. the whole plane at a node</text>
+
+  <!-- ======================= PANEL A: smooth parabola ======================= -->
+  <!-- axes -->
+  <line x1="73" y1="205" x2="230" y2="205" stroke="#111111" stroke-width="1.2"/>
+  <line x1="150" y1="80" x2="150" y2="218" stroke="#111111" stroke-width="1.2"/>
+  <text x="233" y="209" fill="#555555" font-size="12">x</text>
+  <text x="140" y="82" fill="#555555" font-size="12">y</text>
+
+  <!-- parabola y = x^2 -->
+  <path d="M 73 82 L 92 136 L 112 174 L 131 197 L 150 205 L 169 197 L 188 174 L 198 157 L 208 136 L 227 82"
+        fill="none" stroke="#1d4ed8" stroke-width="2.4"/>
+
+  <!-- tangent line at p=(1,1), slope 2 -->
+  <line x1="163" y1="227" x2="233" y2="87" stroke="#b91c1c" stroke-width="2" stroke-dasharray="6 4"/>
+  <circle cx="198" cy="157" r="3.4" fill="#111111"/>
+  <text x="206" y="152" fill="#111111" font-size="12">p</text>
+
+  <!-- panel A labels -->
+  <text x="150" y="248" fill="#1d4ed8" font-size="15" text-anchor="middle" font-weight="bold">V(y &#8722; x&#178;)</text>
+  <text x="150" y="288" fill="#111111" font-size="13" text-anchor="middle">smooth point</text>
+  <text x="150" y="308" fill="#b91c1c" font-size="13" text-anchor="middle" font-weight="bold">T&#8342;X = a line</text>
+  <text x="150" y="327" fill="#555555" font-size="12" text-anchor="middle">dim 1 = dim X &#10003;</text>
+
+  <!-- divider -->
+  <line x1="320" y1="60" x2="320" y2="340" stroke="#cccccc" stroke-width="1"/>
+
+  <!-- ======================= PANEL B: node ======================= -->
+  <!-- shaded whole plane = tangent space -->
+  <rect x="415" y="70" width="163" height="230" fill="#1d4ed8" fill-opacity="0.10"/>
+
+  <!-- axes -->
+  <line x1="415" y1="190" x2="578" y2="190" stroke="#111111" stroke-width="1.2"/>
+  <line x1="490" y1="72" x2="490" y2="300" stroke="#111111" stroke-width="1.2"/>
+  <text x="581" y="194" fill="#555555" font-size="12">x</text>
+  <text x="480" y="80" fill="#555555" font-size="12">y</text>
+
+  <!-- nodal cubic y^2 = x^2(x+1): top half -->
+  <path d="M 420 190 L 427 174 L 437 169 L 455 170 L 472 178 L 490 190 L 507 175 L 525 156 L 542 135 L 560 112 L 574 92"
+        fill="none" stroke="#059669" stroke-width="2.4"/>
+  <!-- bottom half -->
+  <path d="M 420 190 L 427 206 L 437 211 L 455 210 L 472 202 L 490 190 L 507 205 L 525 224 L 542 245 L 560 268 L 574 288"
+        fill="none" stroke="#059669" stroke-width="2.4"/>
+
+  <circle cx="490" cy="190" r="3.6" fill="#111111"/>
+  <text x="497" y="184" fill="#111111" font-size="12">p = 0</text>
+
+  <!-- panel B labels -->
+  <text x="496" y="322" fill="#059669" font-size="15" text-anchor="middle" font-weight="bold">V(y&#178; &#8722; x&#178;(x+1))</text>
+  <text x="496" y="343" fill="#b91c1c" font-size="13" text-anchor="middle" font-weight="bold">T&#8342;X = whole plane, dim 2 &gt; 1 &#8658; singular</text>
+
+  <text x="496" y="290" fill="#555555" font-size="11" text-anchor="middle">two branches cross</text>
+</svg>

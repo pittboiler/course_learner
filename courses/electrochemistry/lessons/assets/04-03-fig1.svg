@@ -1,0 +1,42 @@
+<svg viewBox="0 0 620 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Evans diagram: two Tafel lines on one metal cross where anodic current = cathodic current.</text>
+
+  <!-- y-axis: potential E -->
+  <line x1="70" y1="310" x2="70" y2="60" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,60 65,70 75,70" fill="#8a8a8a"/>
+  <text x="52" y="58" fill="#8a8a8a">E</text>
+
+  <!-- x-axis: log|i| -->
+  <line x1="70" y1="310" x2="575" y2="310" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="575,310 565,305 565,315" fill="#8a8a8a"/>
+  <text x="520" y="335" fill="#8a8a8a">log |i|</text>
+
+  <!-- anodic Tafel line (metal dissolution): rises to the right -->
+  <line x1="110" y1="270" x2="480" y2="133.2" stroke="#4a90d9" stroke-width="3"/>
+  <text x="392" y="120" fill="#4a90d9">anodic: Fe &#8594; Fe&#178;&#8314;</text>
+
+  <!-- cathodic Tafel line (O2/H+ reduction): falls to the right -->
+  <line x1="110" y1="100" x2="480" y2="236.8" stroke="#e0645c" stroke-width="3"/>
+  <text x="392" y="255" fill="#e0645c">cathodic: O&#8322;/H&#8314; red.</text>
+
+  <!-- equilibrium potentials on the axis -->
+  <circle cx="110" cy="100" r="3" fill="#e0645c"/>
+  <text x="118" y="96" fill="#8a8a8a">E</text>
+  <text x="130" y="100" fill="#8a8a8a" font-size="10">c,eq</text>
+  <circle cx="110" cy="270" r="3" fill="#4a90d9"/>
+  <text x="118" y="282" fill="#8a8a8a">E</text>
+  <text x="130" y="286" fill="#8a8a8a" font-size="10">a,eq</text>
+
+  <!-- intersection: the mixed / corrosion potential -->
+  <circle cx="340" cy="185" r="6" fill="#e0645c"/>
+
+  <!-- E_corr guide -->
+  <line x1="70" y1="185" x2="340" y2="185" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="24" y="181" fill="#e0645c">E</text>
+  <text x="36" y="185" fill="#e0645c" font-size="10">corr</text>
+
+  <!-- i_corr guide -->
+  <line x1="340" y1="185" x2="340" y2="310" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="322" y="332" fill="#e0645c">i</text>
+  <text x="330" y="336" fill="#e0645c" font-size="10">corr</text>
+</svg>

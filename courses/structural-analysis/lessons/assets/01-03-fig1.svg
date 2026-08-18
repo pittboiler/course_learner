@@ -1,0 +1,62 @@
+<svg viewBox="0 0 600 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="24" y="22" fill="#8a8a8a" font-style="italic">Cut the beam: the section exposes internal N, V, M. Positive convention shown below.</text>
+
+  <!-- ============ Panel A: sagging beam, concave up = +M ============ -->
+
+  <!-- undeformed reference line -->
+  <line x1="90" y1="78" x2="410" y2="78" stroke="#8a8a8a" stroke-width="0.8" stroke-dasharray="2 4"/>
+
+  <!-- sagging beam band (concave up) -->
+  <path d="M 90 78 Q 250 118 410 78 L 410 92 Q 250 132 90 92 Z" fill="#4a90d9" fill-opacity="0.12" stroke="#8a8a8a" stroke-width="1.2"/>
+  <!-- bottom fiber highlighted: tension -->
+  <path d="M 90 92 Q 250 132 410 92" fill="none" stroke="#e0645c" stroke-width="2.4"/>
+
+  <!-- pin support at left -->
+  <polygon points="90,92 82,108 98,108" fill="none" stroke="#8a8a8a" stroke-width="1.4"/>
+  <line x1="76" y1="108" x2="104" y2="108" stroke="#8a8a8a" stroke-width="1.4"/>
+  <!-- roller support at right -->
+  <polygon points="410,92 402,106 418,106" fill="none" stroke="#8a8a8a" stroke-width="1.4"/>
+  <circle cx="405" cy="110" r="3" fill="none" stroke="#8a8a8a" stroke-width="1.1"/>
+  <circle cx="415" cy="110" r="3" fill="none" stroke="#8a8a8a" stroke-width="1.1"/>
+  <line x1="398" y1="115" x2="422" y2="115" stroke="#8a8a8a" stroke-width="1.4"/>
+
+  <!-- applied load -->
+  <line x1="250" y1="44" x2="250" y2="96" stroke="#8a8a8a" stroke-width="1.6"/>
+  <polygon points="250,100 245,90 255,90" fill="#8a8a8a"/>
+  <text x="258" y="58" fill="#8a8a8a">load</text>
+
+  <!-- labels -->
+  <text x="300" y="150" fill="#8a8a8a">concave up = sagging = +M</text>
+  <text x="150" y="150" fill="#e0645c">bottom fiber: tension</text>
+  <text x="150" y="70" fill="#8a8a8a" font-size="12">top fiber: compression</text>
+
+  <!-- ============ Panel B: exploded left segment with positive face ============ -->
+
+  <!-- left segment beam band (drawn straight for the FBD) -->
+  <rect x="70" y="282" width="190" height="16" fill="#4a90d9" fill-opacity="0.12" stroke="#8a8a8a" stroke-width="1.2"/>
+  <!-- pin at far left of the segment -->
+  <polygon points="70,298 62,314 78,314" fill="none" stroke="#8a8a8a" stroke-width="1.4"/>
+  <line x1="56" y1="314" x2="84" y2="314" stroke="#8a8a8a" stroke-width="1.4"/>
+  <!-- the cut face -->
+  <line x1="260" y1="276" x2="260" y2="304" stroke="#8a8a8a" stroke-width="1.6" stroke-dasharray="3 3"/>
+  <text x="234" y="272" fill="#8a8a8a" font-size="12">positive face</text>
+
+  <!-- N: axial, tension positive (points away from the face) -->
+  <line x1="260" y1="290" x2="326" y2="290" stroke="#4a90d9" stroke-width="2.4"/>
+  <polygon points="330,290 320,285 320,295" fill="#4a90d9"/>
+  <text x="298" y="283" fill="#4a90d9">N</text>
+
+  <!-- V: shear, positive points down on the positive face -->
+  <line x1="260" y1="290" x2="260" y2="342" stroke="#4a90d9" stroke-width="2.4"/>
+  <polygon points="260,346 255,336 265,336" fill="#4a90d9"/>
+  <text x="236" y="338" fill="#4a90d9">V</text>
+
+  <!-- M: bending moment, sagging positive (counterclockwise on this face) -->
+  <path d="M 260 280 A 24 24 0 0 0 260 232" fill="none" stroke="#e0645c" stroke-width="2.4"/>
+  <polygon points="260,232 270,228 270,238" fill="#e0645c"/>
+  <text x="288" y="252" fill="#e0645c">M</text>
+
+  <!-- note -->
+  <text x="24" y="372" fill="#8a8a8a" font-style="italic" font-size="12">The discarded half pushes back with an equal-and-opposite N, V, M on the other face (Newton's third law).</text>
+</svg>

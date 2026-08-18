@@ -1,0 +1,109 @@
+<svg viewBox="0 0 720 470" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="720" height="470" fill="#ffffff"/>
+
+  <!-- title -->
+  <text x="360" y="30" text-anchor="middle" font-size="16" fill="#111">Finite-difference grid on [0,1] and the tridiagonal system it produces</text>
+
+  <!-- stencil highlight box behind the three coupled nodes -->
+  <rect x="200" y="66" width="320" height="88" rx="8" fill="#fdf3d0" stroke="#e0b000" stroke-width="1"/>
+
+  <!-- domain line -->
+  <line x1="90" y1="130" x2="630" y2="130" stroke="#111" stroke-width="2"/>
+
+  <!-- h bracket between x0 and x1 -->
+  <line x1="90"  y1="150" x2="90"  y2="160" stroke="#666" stroke-width="1"/>
+  <line x1="225" y1="150" x2="225" y2="160" stroke="#666" stroke-width="1"/>
+  <line x1="90"  y1="158" x2="225" y2="158" stroke="#666" stroke-width="1"/>
+  <text x="157.5" y="174" text-anchor="middle" font-size="12" fill="#666">h</text>
+
+  <!-- boundary nodes (fixed) -->
+  <circle cx="90"  cy="130" r="8" fill="#111"/>
+  <circle cx="630" cy="130" r="8" fill="#111"/>
+
+  <!-- interior nodes (unknown) -->
+  <circle cx="225" cy="130" r="7" fill="#ffffff" stroke="#111" stroke-width="2"/>
+  <circle cx="360" cy="130" r="7" fill="#ffffff" stroke="#111" stroke-width="2"/>
+  <circle cx="495" cy="130" r="7" fill="#ffffff" stroke="#111" stroke-width="2"/>
+
+  <!-- connectors from center node to its two neighbours (the coupling) -->
+  <path d="M 225 130 Q 292 104 360 130" fill="none" stroke="#c0392b" stroke-width="1.6"/>
+  <path d="M 360 130 Q 428 104 495 130" fill="none" stroke="#c0392b" stroke-width="1.6"/>
+
+  <!-- stencil weights above the coupled nodes -->
+  <g font-size="15" fill="#c0392b" text-anchor="middle" font-weight="bold">
+    <text x="225" y="92">+1</text>
+    <text x="360" y="92">&#8722;2</text>
+    <text x="495" y="92">+1</text>
+  </g>
+  <text x="360" y="60" text-anchor="middle" font-size="12.5" fill="#a06000">3-point stencil [1, &#8722;2, 1] centered on interior node i = 2</text>
+
+  <!-- node value labels above interior nodes -->
+  <g font-size="12.5" fill="#111" text-anchor="middle">
+    <text x="225" y="118">u&#8321;</text>
+    <text x="360" y="118">u&#8322;</text>
+    <text x="495" y="118">u&#8323;</text>
+  </g>
+
+  <!-- x-axis coordinate labels -->
+  <g font-size="12" fill="#111" text-anchor="middle">
+    <text x="90"  y="196">x&#8320; = 0</text>
+    <text x="225" y="196">x&#8321;</text>
+    <text x="360" y="196">x&#8322;</text>
+    <text x="495" y="196">x&#8323;</text>
+    <text x="630" y="196">x&#8324; = 1</text>
+  </g>
+
+  <!-- boundary annotations -->
+  <text x="90"  y="214" text-anchor="middle" font-size="12" fill="#1a5fbf">u&#8320; = &#945; (fixed)</text>
+  <text x="630" y="214" text-anchor="middle" font-size="12" fill="#1a5fbf">u&#8324; = &#946; (fixed)</text>
+
+  <!-- ============ tridiagonal system ============ -->
+  <text x="360" y="262" text-anchor="middle" font-size="13.5" fill="#111">One equation per interior node &#8594;  A u = b</text>
+
+  <!-- scale factor -->
+  <text x="70" y="332" text-anchor="middle" font-size="15" fill="#111">1</text>
+  <line x1="52" y1="340" x2="88" y2="340" stroke="#111" stroke-width="1.2"/>
+  <text x="70" y="360" text-anchor="middle" font-size="15" fill="#111">h&#178;</text>
+
+  <!-- matrix A brackets -->
+  <path d="M 108 296 L 100 296 L 100 388 L 108 388" fill="none" stroke="#111" stroke-width="1.6"/>
+  <path d="M 300 296 L 308 296 L 308 388 L 300 388" fill="none" stroke="#111" stroke-width="1.6"/>
+
+  <!-- highlight the middle (stencil) row -->
+  <rect x="112" y="326" width="184" height="28" fill="#fdf3d0"/>
+
+  <g font-size="15" fill="#111" text-anchor="middle">
+    <!-- row 1 -->
+    <text x="140" y="316">2</text><text x="200" y="316">&#8722;1</text><text x="262" y="316">0</text>
+    <!-- row 2 (stencil) -->
+    <text x="140" y="346" fill="#c0392b" font-weight="bold">&#8722;1</text>
+    <text x="200" y="346" fill="#c0392b" font-weight="bold">2</text>
+    <text x="262" y="346" fill="#c0392b" font-weight="bold">&#8722;1</text>
+    <!-- row 3 -->
+    <text x="140" y="378">0</text><text x="200" y="378">&#8722;1</text><text x="262" y="378">2</text>
+  </g>
+
+  <!-- u vector -->
+  <path d="M 330 296 L 322 296 L 322 388 L 330 388" fill="none" stroke="#111" stroke-width="1.6"/>
+  <path d="M 372 296 L 380 296 L 380 388 L 372 388" fill="none" stroke="#111" stroke-width="1.6"/>
+  <g font-size="15" fill="#111" text-anchor="middle">
+    <text x="351" y="316">u&#8321;</text>
+    <text x="351" y="346">u&#8322;</text>
+    <text x="351" y="378">u&#8323;</text>
+  </g>
+
+  <text x="402" y="346" text-anchor="middle" font-size="17" fill="#111">=</text>
+
+  <!-- b vector: RHS with folded boundary values -->
+  <path d="M 432 296 L 424 296 L 424 388 L 432 388" fill="none" stroke="#111" stroke-width="1.6"/>
+  <path d="M 636 296 L 644 296 L 644 388 L 636 388" fill="none" stroke="#111" stroke-width="1.6"/>
+  <g font-size="14" fill="#111" text-anchor="middle">
+    <text x="534" y="316">f&#8321; + &#945;/h&#178;</text>
+    <text x="534" y="346">f&#8322;</text>
+    <text x="534" y="378">f&#8323; + &#946;/h&#178;</text>
+  </g>
+
+  <!-- boundary-folding annotation -->
+  <text x="534" y="416" text-anchor="middle" font-size="12" fill="#1a5fbf">boundary values fold into the first and last right-hand sides</text>
+  <text x="204" y="440" text-anchor="middle" font-size="12" fill="#111">tridiagonal &#8594; solvable in O(n) by the Thomas algorithm</text>
+</svg>

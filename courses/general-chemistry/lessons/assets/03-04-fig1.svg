@@ -1,0 +1,57 @@
+<svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Equilibrium is dynamic: concentrations stop changing because the two rates match, not because the reaction stops.</text>
+
+  <!-- ===== left: concentration vs time ===== -->
+
+  <!-- time axis -->
+  <line x1="60" y1="230" x2="392" y2="230" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="392,230 382,225 382,235" fill="#8a8a8a"/>
+  <text x="360" y="250" fill="#8a8a8a">time</text>
+  <!-- concentration axis -->
+  <line x1="60" y1="230" x2="60" y2="50" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="60,50 55,60 65,60" fill="#8a8a8a"/>
+  <text x="18" y="150" fill="#8a8a8a" transform="rotate(-90 18 150)">concentration</text>
+
+  <!-- reactant curve (falling) -->
+  <path d="M 60 75 L 90 97.0 L 120 113.4 L 150 125.4 L 180 134.4 L 210 141.0 L 240 145.9 L 270 149.6 L 300 152.3 L 330 154.3 L 360 155.8"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="364" y="160" fill="#4a90d9">reactant</text>
+
+  <!-- product curve (rising) -->
+  <path d="M 60 225 L 90 203.0 L 120 186.6 L 150 174.6 L 180 165.6 L 210 159.0 L 240 154.0 L 270 150.4 L 300 147.7 L 330 145.7 L 360 144.2"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+  <text x="364" y="141" fill="#e0645c">product</text>
+
+  <!-- equilibrium onset marker -->
+  <line x1="285" y1="70" x2="285" y2="230" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="150" y="66" fill="#8a8a8a">concentrations level off</text>
+  <text x="222" y="86" fill="#8a8a8a" font-size="12">rate&#8594; = rate&#8592;</text>
+
+  <!-- ===== right: Le Chatelier shift panel ===== -->
+  <text x="440" y="70" fill="#8a8a8a" font-style="italic" font-size="13">stress &#8594; system shifts to relieve it</text>
+
+  <!-- reactants box -->
+  <rect x="430" y="120" width="76" height="40" rx="6" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <text x="443" y="145" fill="#4a90d9">reactants</text>
+
+  <!-- equilibrium double arrow -->
+  <line x1="512" y1="134" x2="540" y2="134" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="540,134 532,130 532,138" fill="#8a8a8a"/>
+  <line x1="540" y1="146" x2="512" y2="146" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="512,146 520,142 520,150" fill="#8a8a8a"/>
+
+  <!-- products box -->
+  <rect x="546" y="120" width="70" height="40" rx="6" fill="#e0645c" opacity="0.15" stroke="#e0645c" stroke-width="2"/>
+  <text x="557" y="145" fill="#e0645c">products</text>
+
+  <!-- stress: add reactant, pushing right -->
+  <line x1="430" y1="102" x2="468" y2="102" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="468,102 460,98 460,106" fill="#e0645c"/>
+  <text x="410" y="97" fill="#e0645c" font-size="12">+ reactant</text>
+
+  <!-- bold shift arrow toward products -->
+  <line x1="452" y1="186" x2="594" y2="186" stroke="#e0645c" stroke-width="3"/>
+  <polygon points="594,186 582,180 582,192" fill="#e0645c"/>
+  <text x="474" y="206" fill="#e0645c">shift toward products</text>
+</svg>

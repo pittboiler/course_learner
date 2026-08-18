@@ -1,0 +1,55 @@
+<svg viewBox="0 0 680 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <!-- caption -->
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Same steady equation, three geometries: linear, logarithmic, and (with generation) parabolic temperature profiles.</text>
+
+  <!-- ============ Panel A: plane wall, linear ============ -->
+  <text x="60" y="52" fill="#8a8a8a">Plane wall</text>
+  <!-- axes -->
+  <line x1="55" y1="70" x2="55" y2="220" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="55" y1="220" x2="225" y2="220" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="40" y="80" fill="#8a8a8a">T</text>
+  <text x="228" y="224" fill="#8a8a8a">x</text>
+  <!-- linear profile -->
+  <line x1="70" y1="90" x2="210" y2="195" stroke="#4a90d9" stroke-width="3"/>
+  <circle cx="70" cy="90" r="4" fill="#e0645c"/>
+  <circle cx="210" cy="195" r="4" fill="#4a90d9"/>
+  <text x="52" y="86" fill="#e0645c">T&#8321;</text>
+  <text x="214" y="199" fill="#4a90d9">T&#8322;</text>
+  <text x="95" y="165" fill="#8a8a8a" font-style="italic">T linear</text>
+
+  <!-- ============ Panel B: cylinder, logarithmic ============ -->
+  <text x="290" y="52" fill="#8a8a8a">Cylinder (radial)</text>
+  <line x1="275" y1="70" x2="275" y2="220" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="275" y1="220" x2="445" y2="220" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="260" y="80" fill="#8a8a8a">T</text>
+  <text x="448" y="224" fill="#8a8a8a">r</text>
+  <!-- log profile: steep near inner radius, flattening outward -->
+  <polyline points="290,90 305,117 320,136 350,164 380,183 410,198 430,205" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <circle cx="290" cy="90" r="4" fill="#e0645c"/>
+  <circle cx="430" cy="205" r="4" fill="#4a90d9"/>
+  <text x="278" y="86" fill="#e0645c">T&#8321;</text>
+  <text x="434" y="209" fill="#4a90d9">T&#8322;</text>
+  <text x="290" y="238" fill="#8a8a8a">r&#8321;</text>
+  <text x="424" y="238" fill="#8a8a8a">r&#8322;</text>
+  <line x1="290" y1="220" x2="290" y2="226" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="430" y1="220" x2="430" y2="226" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="335" y="112" fill="#8a8a8a" font-style="italic">T ~ ln r</text>
+
+  <!-- ============ Panel C: with generation, parabolic ============ -->
+  <text x="500" y="52" fill="#8a8a8a">With generation</text>
+  <line x1="495" y1="70" x2="495" y2="220" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="495" y1="220" x2="665" y2="220" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="480" y="80" fill="#8a8a8a">T</text>
+  <text x="668" y="224" fill="#8a8a8a">x</text>
+  <!-- downward parabola, peak at center -->
+  <polyline points="510,200 527,152 545,118 562,97 580,90 597,97 615,118 632,152 650,200" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <circle cx="580" cy="90" r="4" fill="#e0645c"/>
+  <circle cx="510" cy="200" r="4" fill="#4a90d9"/>
+  <circle cx="650" cy="200" r="4" fill="#4a90d9"/>
+  <text x="560" y="84" fill="#e0645c">T&#8320;</text>
+  <text x="488" y="204" fill="#4a90d9">T&#8347;</text>
+  <text x="654" y="204" fill="#4a90d9">T&#8347;</text>
+  <!-- symmetry line at center -->
+  <line x1="580" y1="90" x2="580" y2="220" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="556" y="238" fill="#8a8a8a" font-style="italic">dT/dx = 0</text>
+</svg>

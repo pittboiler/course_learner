@@ -1,0 +1,52 @@
+<svg viewBox="0 0 620 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="36" y="24" fill="#8a8a8a" font-style="italic">Critical radius R = &#960;L/&#8730;(k&#8734;&#8722;1): a more reactive medium goes critical at a smaller size.</text>
+
+  <!-- axes -->
+  <line x1="70" y1="270" x2="580" y2="270" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="580,270 570,265 570,275" fill="#8a8a8a"/>
+  <line x1="70" y1="270" x2="70" y2="46" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,46 65,56 75,56" fill="#8a8a8a"/>
+  <text x="586" y="274" fill="#8a8a8a">k&#8734;</text>
+  <text x="34" y="52" fill="#8a8a8a">R (cm)</text>
+
+  <!-- x ticks -->
+  <line x1="70" y1="270" x2="70" y2="275" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="60" y="289" fill="#8a8a8a">1.0</text>
+  <line x1="233.3" y1="270" x2="233.3" y2="275" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="223" y="289" fill="#8a8a8a">1.1</text>
+  <line x1="396.7" y1="270" x2="396.7" y2="275" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="387" y="289" fill="#8a8a8a">1.2</text>
+  <line x1="560" y1="270" x2="560" y2="275" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="550" y="289" fill="#8a8a8a">1.3</text>
+
+  <!-- y ticks -->
+  <line x1="65" y1="221.1" x2="70" y2="221.1" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="46" y="225" fill="#8a8a8a">10</text>
+  <line x1="65" y1="172.2" x2="70" y2="172.2" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="46" y="176" fill="#8a8a8a">20</text>
+  <line x1="65" y1="123.3" x2="70" y2="123.3" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="46" y="127" fill="#8a8a8a">30</text>
+  <line x1="65" y1="74.4" x2="70" y2="74.4" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="46" y="78" fill="#8a8a8a">40</text>
+
+  <!-- the R vs k-infinity curve -->
+  <path d="M 102.7 74.5 L 135.3 131.8 L 168.0 157.1 L 200.7 172.3 L 233.3 182.6 L 315.0 198.6 L 396.7 208.2 L 560.0 219.5"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- operating point k=1.06, R=23.1 -->
+  <line x1="70" y1="157.1" x2="168" y2="157.1" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="168" y1="157.1" x2="168" y2="270" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <circle cx="168" cy="157.1" r="4.5" fill="#e0645c"/>
+  <text x="176" y="150" fill="#e0645c">23.1 cm</text>
+
+  <!-- richer point k=1.10, R=17.9 -->
+  <line x1="70" y1="182.6" x2="233.3" y2="182.6" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="233.3" y1="182.6" x2="233.3" y2="270" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <circle cx="233.3" cy="182.6" r="4" fill="#e0645c"/>
+  <text x="241" y="178" fill="#e0645c">17.9 cm</text>
+
+  <!-- annotation -->
+  <text x="360" y="120" fill="#8a8a8a">L = 1.8 cm fixed;</text>
+  <text x="360" y="138" fill="#8a8a8a">R &#8594; &#8734; as k&#8734; &#8594; 1</text>
+</svg>

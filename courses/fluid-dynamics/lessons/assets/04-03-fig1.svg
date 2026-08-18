@@ -1,0 +1,78 @@
+<svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="24" y="22" fill="#8a8a8a" font-style="italic">Two instabilities, one structure: a destabilizing drive (shear or buoyancy) overcomes stabilizing dissipation past a threshold.</text>
+
+  <!-- =================== PANEL A: Kelvin-Helmholtz =================== -->
+  <text x="24" y="52" fill="#8a8a8a" font-style="italic">Kelvin–Helmholtz: a shear layer rolls up into cat's-eye billows</text>
+
+  <!-- soft shading of the shear layer -->
+  <rect x="30" y="140" width="270" height="34" fill="#e0645c" opacity="0.15"/>
+
+  <!-- upper stream, moving right -->
+  <line x1="45" y1="112" x2="150" y2="112" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="150,112 140,107 140,117" fill="#4a90d9"/>
+  <text x="158" y="117" fill="#4a90d9">U</text>
+
+  <!-- lower stream, moving left -->
+  <line x1="285" y1="205" x2="180" y2="205" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="180,205 190,200 190,210" fill="#4a90d9"/>
+  <text x="150" y="210" fill="#4a90d9">−U</text>
+
+  <!-- unperturbed interface (dashed) -->
+  <line x1="30" y1="157" x2="300" y2="157" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- billow 1: coral spiral (cat's-eye) centered ~(112,157) -->
+  <path d="M 114.5 157 L 114.2 159.0 L 112.3 160.5 L 109.4 160.2 L 107.2 157.7 L 107.3 153.7 L 110.6 150.4 L 116.1 150.2 L 121.0 154.4 L 122.0 161.7 L 116.5 169.2 L 105.8 171.1 L 95.5 164.5"
+        fill="none" stroke="#e0645c" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- billow 2: coral spiral centered ~(210,157) -->
+  <path d="M 212.5 157 L 212.2 159.0 L 210.3 160.5 L 207.4 160.2 L 205.2 157.7 L 205.3 153.7 L 208.6 150.4 L 214.1 150.2 L 219.0 154.4 L 220.0 161.7 L 214.5 169.2 L 203.8 171.1 L 193.5 164.5"
+        fill="none" stroke="#e0645c" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- connecting braid of the interface between billows -->
+  <path d="M 95.5 164.5 Q 145 150 193.5 164.5" fill="none" stroke="#e0645c" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 30 157 Q 62 168 95.5 164.5" fill="none" stroke="#e0645c" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 220 161.7 Q 260 152 300 157" fill="none" stroke="#e0645c" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- =================== PANEL B: Rayleigh-Benard =================== -->
+  <text x="342" y="52" fill="#8a8a8a" font-style="italic">Rayleigh–Bénard: heating from below drives convection rolls</text>
+
+  <!-- gravity -->
+  <line x1="352" y1="86" x2="352" y2="118" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="352,118 348,109 356,109" fill="#8a8a8a"/>
+  <text x="336" y="106" fill="#8a8a8a">g</text>
+
+  <!-- cold top plate (blue) -->
+  <line x1="372" y1="96" x2="616" y2="96" stroke="#4a90d9" stroke-width="4"/>
+  <text x="372" y="86" fill="#4a90d9">cold plate  T</text>
+
+  <!-- hot bottom plate (coral) -->
+  <line x1="372" y1="222" x2="616" y2="222" stroke="#e0645c" stroke-width="4"/>
+  <text x="372" y="242" fill="#e0645c">hot plate  T + ΔT</text>
+
+  <!-- gap d marker -->
+  <line x1="622" y1="96" x2="622" y2="222" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="622,96 618,105 626,105" fill="#8a8a8a"/>
+  <polygon points="622,222 618,213 626,213" fill="#8a8a8a"/>
+  <text x="626" y="163" fill="#8a8a8a">d</text>
+
+  <!-- convection rolls: four counter-rotating ellipses, cy=159, ry=57 -->
+  <!-- roll 1 (CW): rising on right edge -->
+  <ellipse cx="401" cy="159" rx="28" ry="57" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+  <polygon points="429,150 424,161 419,152" fill="#e0645c"/>
+  <polygon points="373,168 378,157 383,166" fill="#4a90d9"/>
+  <!-- roll 2 (CCW): rising on left edge -->
+  <ellipse cx="459" cy="159" rx="28" ry="57" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+  <polygon points="431,150 436,161 441,152" fill="#e0645c"/>
+  <polygon points="487,168 482,157 477,166" fill="#4a90d9"/>
+  <!-- roll 3 (CW) -->
+  <ellipse cx="517" cy="159" rx="28" ry="57" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+  <polygon points="545,150 540,161 535,152" fill="#e0645c"/>
+  <polygon points="489,168 494,157 499,166" fill="#4a90d9"/>
+  <!-- roll 4 (CCW) -->
+  <ellipse cx="575" cy="159" rx="28" ry="57" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+  <polygon points="547,150 552,161 557,152" fill="#e0645c"/>
+  <polygon points="603,168 598,157 593,166" fill="#4a90d9"/>
+
+  <text x="398" y="286" fill="#8a8a8a" font-style="italic">rise where hot (coral), sink where cooled (blue) — cells switch on only when Ra &gt; Ra_c ≈ 1708</text>
+</svg>

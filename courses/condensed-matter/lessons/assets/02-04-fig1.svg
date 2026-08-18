@@ -1,0 +1,37 @@
+<svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Both models saturate at Dulong–Petit; only Debye's soft sound modes keep C_V alive as T³ at low T.</text>
+
+  <!-- Dulong–Petit plateau (grey dashed) -->
+  <line x1="70" y1="80" x2="575" y2="80" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="360" y="74" fill="#8a8a8a">3Nk_B  (Dulong–Petit)</text>
+
+  <!-- axes -->
+  <line x1="70" y1="270" x2="575" y2="270" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="575,270 565,265 565,275" fill="#8a8a8a"/>
+  <text x="548" y="290" fill="#8a8a8a">T / Θ_D</text>
+  <line x1="70" y1="270" x2="70" y2="52" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,52 65,62 75,62" fill="#8a8a8a"/>
+  <text x="24" y="60" fill="#8a8a8a">C_V</text>
+  <text x="18" y="164" fill="#8a8a8a" transform="rotate(-90 18 164)">C_V / 3Nk_B</text>
+  <text x="56" y="275" fill="#8a8a8a">0</text>
+
+  <!-- x tick at T = Theta_D -->
+  <line x1="396.7" y1="270" x2="396.7" y2="276" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="391" y="290" fill="#8a8a8a">1</text>
+
+  <!-- Debye curve (blue) -->
+  <path d="M 70,270 L 86.3,268.2 L 102.7,255.6 L 119,229.5 L 135.3,200 L 151.7,174.4 L 168,154.5 L 200.7,128.3 L 233.3,113.2 L 266,104 L 331.3,94.1 L 396.7,89.2 L 462,86.4 L 560,84.2"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="470" y="102" fill="#4a90d9">Debye</text>
+
+  <!-- Einstein curve (coral) -->
+  <path d="M 70,270 L 86.3,270 L 102.7,269.1 L 119,259.2 L 135.3,237.6 L 151.7,212.2 L 168,189 L 200.7,154.3 L 233.3,132.4 L 266,118.5 L 331.3,102.9 L 396.7,95.1 L 462,90.6 L 560,86.9"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+  <text x="300" y="128" fill="#e0645c">Einstein</text>
+
+  <!-- T^3 region marker -->
+  <line x1="112" y1="246" x2="150" y2="204" stroke="#4a90d9" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="126" y="252" fill="#4a90d9">∝ T³</text>
+  <text x="150" y="248" fill="#e0645c" font-style="italic">Einstein dies ∝ e^(−Θ_E/T)</text>
+</svg>

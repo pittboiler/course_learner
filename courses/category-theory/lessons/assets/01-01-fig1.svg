@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 380" width="700" height="380">
+  <rect x="0" y="0" width="700" height="380" fill="#ffffff"/>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#111111"/>
+    </marker>
+  </defs>
+
+  <!-- object dots -->
+  <circle cx="110" cy="255" r="7" fill="#111111"/>
+  <circle cx="350" cy="95"  r="7" fill="#111111"/>
+  <circle cx="590" cy="255" r="7" fill="#111111"/>
+
+  <!-- object labels -->
+  <text x="86"  y="278" font-family="Helvetica, Arial, sans-serif" font-size="26" font-style="italic" fill="#111111">A</text>
+  <text x="342" y="76"  font-family="Helvetica, Arial, sans-serif" font-size="26" font-style="italic" fill="#111111">B</text>
+  <text x="602" y="278" font-family="Helvetica, Arial, sans-serif" font-size="26" font-style="italic" fill="#111111">C</text>
+
+  <!-- f : A -> B -->
+  <line x1="121" y1="248" x2="339" y2="102" stroke="#111111" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="205" y="160" font-family="Helvetica, Arial, sans-serif" font-size="24" font-style="italic" fill="#111111">f</text>
+
+  <!-- g : B -> C -->
+  <line x1="361" y1="102" x2="579" y2="248" stroke="#111111" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="485" y="160" font-family="Helvetica, Arial, sans-serif" font-size="24" font-style="italic" fill="#111111">g</text>
+
+  <!-- g o f : A -> C  (curved along the bottom) -->
+  <path d="M 118 268 Q 350 372 582 268" fill="none" stroke="#111111" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="318" y="352" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#111111">g&#8728;f</text>
+
+  <!-- identity loops -->
+  <path d="M 100 250 C 66 232, 66 200, 96 202 C 116 203, 118 236, 103 249" fill="none" stroke="#111111" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="34" y="212" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#111111">id<tspan dy="6" font-size="13">A</tspan></text>
+
+  <path d="M 340 88 C 322 54, 356 40, 372 62 C 383 77, 366 92, 356 88" fill="none" stroke="#111111" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="360" y="40" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#111111">id<tspan dy="6" font-size="13">B</tspan></text>
+
+  <path d="M 600 250 C 634 232, 634 200, 604 202 C 584 203, 582 236, 597 249" fill="none" stroke="#111111" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="628" y="212" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#111111">id<tspan dy="6" font-size="13">C</tspan></text>
+</svg>

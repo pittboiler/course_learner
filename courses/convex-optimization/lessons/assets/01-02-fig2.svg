@@ -1,0 +1,33 @@
+<svg viewBox="0 0 420 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="420" height="360" fill="#ffffff"/>
+
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#7c3aed"/>
+    </marker>
+  </defs>
+
+  <!-- four boundary lines (each is the boundary of a halfspace), extended across canvas -->
+  <line x1="12"  y1="56"  x2="408" y2="144" stroke="#9ca3af" stroke-width="1.5"/>
+  <line x1="308" y1="64"  x2="272" y2="316" stroke="#9ca3af" stroke-width="1.5"/>
+  <line x1="352" y1="268" x2="28"  y2="232" stroke="#9ca3af" stroke-width="1.5"/>
+  <line x1="128" y1="16"  x2="92"  y2="304" stroke="#9ca3af" stroke-width="1.5"/>
+
+  <!-- the polyhedron P = intersection of the four halfspaces -->
+  <polygon points="120,80 300,120 280,260 100,240" fill="#3b82f6" fill-opacity="0.20" stroke="#1d4ed8" stroke-width="2.5"/>
+  <text x="176" y="180" font-size="20" fill="#1d4ed8" font-weight="bold">P</text>
+
+  <!-- inward normal arrows: each points into the feasible halfspace -->
+  <line x1="210" y1="100" x2="210" y2="132" stroke="#7c3aed" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="290" y1="190" x2="258" y2="188" stroke="#7c3aed" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="190" y1="250" x2="190" y2="218" stroke="#7c3aed" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="105" y1="160" x2="137" y2="162" stroke="#7c3aed" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- halfspace labels -->
+  <text x="196" y="92"  font-size="14" fill="#111111" font-weight="bold">H₁</text>
+  <text x="298" y="196" font-size="14" fill="#111111" font-weight="bold">H₂</text>
+  <text x="176" y="266" font-size="14" fill="#111111" font-weight="bold">H₃</text>
+  <text x="70"  y="164" font-size="14" fill="#111111" font-weight="bold">H₄</text>
+
+  <text x="20" y="336" font-size="14" fill="#111111">P = { x : Ax ⪯ b } = H₁ ∩ H₂ ∩ H₃ ∩ H₄   (each Hᵢ a halfspace)</text>
+</svg>

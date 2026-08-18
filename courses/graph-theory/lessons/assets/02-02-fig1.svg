@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="480" height="360" fill="#ffffff"/>
+
+  <!-- non-tree edges (thin gray, drawn first) -->
+  <line x1="110" y1="185" x2="370" y2="185" stroke="#9aa0a6" stroke-width="1.5"/>
+  <line x1="110" y1="300" x2="370" y2="300" stroke="#9aa0a6" stroke-width="1.5"/>
+  <line x1="110" y1="55"  x2="370" y2="185" stroke="#9aa0a6" stroke-width="1.5"/>
+  <line x1="370" y1="55"  x2="110" y2="185" stroke="#9aa0a6" stroke-width="1.5"/>
+
+  <!-- MST edges (bold green) -->
+  <line x1="110" y1="55"  x2="370" y2="55"  stroke="#0a7d2c" stroke-width="4.5"/>
+  <line x1="110" y1="55"  x2="110" y2="185" stroke="#0a7d2c" stroke-width="4.5"/>
+  <line x1="370" y1="55"  x2="370" y2="185" stroke="#0a7d2c" stroke-width="4.5"/>
+  <line x1="110" y1="185" x2="110" y2="300" stroke="#0a7d2c" stroke-width="4.5"/>
+  <line x1="370" y1="185" x2="370" y2="300" stroke="#0a7d2c" stroke-width="4.5"/>
+
+  <!-- edge weight labels -->
+  <text x="240" y="42"  font-size="15" fill="#0a7d2c" text-anchor="middle" font-weight="bold">1</text>
+  <text x="82"  y="124" font-size="15" fill="#0a7d2c" text-anchor="middle" font-weight="bold">2</text>
+  <text x="398" y="124" font-size="15" fill="#0a7d2c" text-anchor="middle" font-weight="bold">3</text>
+  <text x="228" y="176" font-size="15" fill="#666666" text-anchor="middle">4</text>
+  <text x="82"  y="248" font-size="15" fill="#0a7d2c" text-anchor="middle" font-weight="bold">5</text>
+  <text x="398" y="248" font-size="15" fill="#0a7d2c" text-anchor="middle" font-weight="bold">6</text>
+  <text x="240" y="322" font-size="15" fill="#666666" text-anchor="middle">7</text>
+  <text x="316" y="146" font-size="15" fill="#666666" text-anchor="middle">8</text>
+  <text x="150" y="146" font-size="15" fill="#666666" text-anchor="middle">9</text>
+
+  <!-- vertices -->
+  <circle cx="110" cy="55"  r="18" fill="#cfe8ff" stroke="#1a1a1a" stroke-width="2.5"/>
+  <circle cx="370" cy="55"  r="18" fill="#cfe8ff" stroke="#1a1a1a" stroke-width="2.5"/>
+  <circle cx="110" cy="185" r="18" fill="#cfe8ff" stroke="#1a1a1a" stroke-width="2.5"/>
+  <circle cx="370" cy="185" r="18" fill="#cfe8ff" stroke="#1a1a1a" stroke-width="2.5"/>
+  <circle cx="110" cy="300" r="18" fill="#cfe8ff" stroke="#1a1a1a" stroke-width="2.5"/>
+  <circle cx="370" cy="300" r="18" fill="#cfe8ff" stroke="#1a1a1a" stroke-width="2.5"/>
+
+  <!-- vertex labels -->
+  <text x="110" y="60"  font-size="16" fill="#1a1a1a" text-anchor="middle" font-weight="bold">A</text>
+  <text x="370" y="60"  font-size="16" fill="#1a1a1a" text-anchor="middle" font-weight="bold">B</text>
+  <text x="110" y="190" font-size="16" fill="#1a1a1a" text-anchor="middle" font-weight="bold">C</text>
+  <text x="370" y="190" font-size="16" fill="#1a1a1a" text-anchor="middle" font-weight="bold">D</text>
+  <text x="110" y="305" font-size="16" fill="#1a1a1a" text-anchor="middle" font-weight="bold">E</text>
+  <text x="370" y="305" font-size="16" fill="#1a1a1a" text-anchor="middle" font-weight="bold">F</text>
+
+  <!-- legend -->
+  <text x="240" y="350" font-size="13" fill="#0a7d2c" text-anchor="middle" font-weight="bold">bold green = MST edges (total weight 1+2+3+5+6 = 17)</text>
+</svg>

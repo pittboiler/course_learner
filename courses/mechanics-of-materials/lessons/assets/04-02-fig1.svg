@@ -1,0 +1,47 @@
+<svg viewBox="0 0 480 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="24" y="22" fill="#8a8a8a" font-style="italic">Mohr's circle for &#963;x=80, &#963;y=&#8722;20, &#964;xy=30 (MPa). &#964; plotted positive downward.</text>
+
+  <!-- axes: sigma to the right, tau positive DOWN -->
+  <line x1="40" y1="190" x2="462" y2="190" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="462,190 452,186 452,194" fill="#8a8a8a"/>
+  <text x="448" y="180" fill="#8a8a8a">&#963;</text>
+  <line x1="190" y1="40" x2="190" y2="352" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="190,352 186,342 194,342" fill="#8a8a8a"/>
+  <text x="198" y="350" fill="#8a8a8a">&#964;</text>
+  <text x="168" y="182" fill="#8a8a8a">0</text>
+
+  <!-- the circle -->
+  <circle cx="262" cy="190" r="140" fill="#4a90d9" opacity="0.08"/>
+  <circle cx="262" cy="190" r="140" fill="none" stroke="#4a90d9" stroke-width="2"/>
+
+  <!-- diameter X-Y -->
+  <line x1="382" y1="262" x2="142" y2="118" stroke="#4a90d9" stroke-width="1.5"/>
+
+  <!-- center C -->
+  <circle cx="262" cy="190" r="3.5" fill="#8a8a8a"/>
+  <text x="248" y="182" fill="#8a8a8a">C = 30</text>
+
+  <!-- X point (sigma_x, tau_xy) plotted below axis -->
+  <circle cx="382" cy="262" r="4.5" fill="#4a90d9"/>
+  <text x="360" y="280" fill="#4a90d9">X (80, 30)</text>
+
+  <!-- Y point (sigma_y, -tau_xy) plotted above axis -->
+  <circle cx="142" cy="118" r="4.5" fill="#4a90d9"/>
+  <text x="98" y="110" fill="#4a90d9">Y (&#8722;20, &#8722;30)</text>
+
+  <!-- principal stresses on sigma axis -->
+  <circle cx="402" cy="190" r="4.5" fill="#e0645c"/>
+  <text x="388" y="180" fill="#e0645c">&#963;1 = 88.3</text>
+  <circle cx="122" cy="190" r="4.5" fill="#e0645c"/>
+  <text x="86" y="208" fill="#e0645c">&#963;2 = &#8722;28.3</text>
+
+  <!-- tau_max at bottom of circle -->
+  <circle cx="262" cy="330" r="4.5" fill="#e0645c"/>
+  <line x1="262" y1="190" x2="262" y2="330" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="270" y="336" fill="#e0645c">&#964;max = R = 58.3</text>
+  <text x="270" y="256" fill="#e0645c">R</text>
+
+  <!-- 2theta_p arc from sigma axis (toward sigma1) down to CX -->
+  <path d="M 302 190 A 40 40 0 0 1 296.3 210.6" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="304" y="208" fill="#8a8a8a">2&#952;p</text>
+</svg>

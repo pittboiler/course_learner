@@ -1,0 +1,35 @@
+<svg viewBox="0 0 620 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Fix the mass number A: mass becomes a parabola in Z.</text>
+  <text x="40" y="42" fill="#8a8a8a" font-style="italic">β decay rolls each isobar downhill to the stable minimum Z*.</text>
+
+  <!-- axes -->
+  <line x1="70" y1="272" x2="586" y2="272" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="586,272 576,267 576,277" fill="#8a8a8a"/>
+  <text x="590" y="277" fill="#8a8a8a">Z</text>
+  <line x1="70" y1="272" x2="70" y2="60" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,60 65,70 75,70" fill="#8a8a8a"/>
+  <text x="34" y="70" fill="#8a8a8a">M(Z)</text>
+
+  <!-- mass parabola (fixed A) -->
+  <path d="M 100 90 L 137.5 135.8 L 175 173.3 L 212.5 202.5 L 250 223.3 L 287.5 235.8 L 325 240 L 362.5 235.8 L 400 223.3 L 437.5 202.5 L 475 173.3 L 512.5 135.8 L 550 90"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- stable minimum -->
+  <circle cx="325" cy="240" r="5.5" fill="#e0645c"/>
+  <line x1="325" y1="240" x2="325" y2="272" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="332" y="290" fill="#e0645c">Z*</text>
+  <text x="278" y="290" fill="#8a8a8a">stable</text>
+
+  <!-- left side: too many neutrons, beta-minus -->
+  <text x="112" y="112" fill="#8a8a8a">too many n</text>
+  <line x1="205" y1="180" x2="250" y2="215" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="250,215 237.5,211.7 243.5,203.7" fill="#e0645c"/>
+  <text x="150" y="145" fill="#e0645c">β⁻: n→p, Z↑</text>
+
+  <!-- right side: too many protons, beta-plus / EC -->
+  <text x="478" y="112" fill="#8a8a8a">too many p</text>
+  <line x1="445" y1="180" x2="400" y2="215" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="400,215 406.5,203.7 412.5,211.7" fill="#e0645c"/>
+  <text x="405" y="145" fill="#e0645c">β⁺/EC: p→n, Z↓</text>
+</svg>

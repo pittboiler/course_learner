@@ -1,0 +1,61 @@
+<svg viewBox="0 0 640 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Growth: shape changes at constant volume. Swelling: volume increases. Neither needs applied stress.</text>
+
+  <!-- ================= LEFT PANEL: irradiation growth (hcp grain, a-c plane) ================= -->
+  <text x="70" y="52" fill="#8a8a8a">Growth (anisotropic hcp grain)</text>
+
+  <!-- axis indicator: c up, a right -->
+  <line x1="60" y1="290" x2="60" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="60,250 56,260 64,260" fill="#8a8a8a"/>
+  <text x="50" y="248" fill="#8a8a8a">c</text>
+  <line x1="60" y1="290" x2="100" y2="290" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="100,290 90,286 90,294" fill="#8a8a8a"/>
+  <text x="104" y="295" fill="#8a8a8a">a</text>
+
+  <!-- original grain outline: narrow and tall (grey dashed) -->
+  <rect x="165" y="95" width="60" height="150" fill="none" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="176" y="88" fill="#8a8a8a">before</text>
+
+  <!-- grown grain: wider and shorter (blue solid) -->
+  <rect x="135" y="130" width="120" height="80" fill="#4a90d9" opacity="0.12" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <!-- a-axis extension arrows (coral, pointing out) -->
+  <line x1="150" y1="170" x2="118" y2="170" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="118,170 128,165 128,175" fill="#e0645c"/>
+  <line x1="240" y1="170" x2="272" y2="170" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="272,170 262,165 262,175" fill="#e0645c"/>
+  <text x="150" y="235" fill="#e0645c">a-axis grows</text>
+
+  <!-- c-axis contraction arrows (coral, pointing in) -->
+  <line x1="195" y1="100" x2="195" y2="127" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="195,127 190,117 200,117" fill="#e0645c"/>
+  <line x1="195" y1="240" x2="195" y2="213" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="195,213 190,223 200,223" fill="#e0645c"/>
+  <text x="262" y="196" fill="#e0645c">c-axis</text>
+  <text x="262" y="212" fill="#e0645c">shrinks</text>
+
+  <text x="150" y="305" fill="#8a8a8a">&#916;V/V &#8776; 0</text>
+
+  <!-- ================= RIGHT PANEL: void swelling ================= -->
+  <text x="430" y="52" fill="#8a8a8a">Swelling (isotropic, from voids)</text>
+
+  <!-- original size (grey dashed) -->
+  <circle cx="500" cy="170" r="42" fill="none" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="474" y="88" fill="#8a8a8a">before</text>
+
+  <!-- swollen sphere (blue) -->
+  <circle cx="500" cy="170" r="62" fill="#4a90d9" opacity="0.12" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <!-- radial expansion arrows (coral) -->
+  <line x1="500" y1="120" x2="500" y2="96" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="500,96 495,106 505,106" fill="#e0645c"/>
+  <line x1="500" y1="220" x2="500" y2="244" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="500,244 495,234 505,234" fill="#e0645c"/>
+  <line x1="450" y1="170" x2="426" y2="170" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="426,170 436,165 436,175" fill="#e0645c"/>
+  <line x1="550" y1="170" x2="574" y2="170" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="574,170 564,165 564,175" fill="#e0645c"/>
+
+  <text x="470" y="305" fill="#e0645c">&#916;V/V &gt; 0</text>
+</svg>

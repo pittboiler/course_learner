@@ -1,0 +1,47 @@
+<svg viewBox="0 0 720 452" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="720" height="452" fill="#ffffff"/>
+  <text x="360" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#111">A homology theory = an interface with five requirements</text>
+
+  <!-- interface box -->
+  <rect x="48" y="52" width="560" height="378" rx="10" fill="none" stroke="#111" stroke-width="2"/>
+  <!-- header bar -->
+  <rect x="48" y="52" width="560" height="46" rx="10" fill="#1a5fb4"/>
+  <rect x="48" y="80" width="560" height="18" fill="#1a5fb4"/>
+  <text x="68" y="82" font-size="16" font-weight="bold" fill="#ffffff">functors Hₙ on pairs (X,A)  +  natural  ∂ : Hₙ(X,A) → Hₙ₋₁(A)</text>
+
+  <!-- rows -->
+  <!-- row 1 -->
+  <rect x="48" y="98" width="10" height="66" fill="#1a5fb4"/>
+  <text x="72" y="128" font-size="15" font-weight="bold" fill="#111">HOMOTOPY</text>
+  <text x="230" y="128" font-size="14" fill="#111">f ≃ g  ⇒  f* = g*   (deformations are invisible)</text>
+  <line x1="58" y1="164" x2="608" y2="164" stroke="#ccc" stroke-width="1"/>
+
+  <!-- row 2 -->
+  <rect x="48" y="164" width="10" height="66" fill="#1a5fb4"/>
+  <text x="72" y="194" font-size="15" font-weight="bold" fill="#111">EXACTNESS</text>
+  <text x="230" y="194" font-size="14" fill="#111">every pair gives a long exact sequence</text>
+  <line x1="58" y1="230" x2="608" y2="230" stroke="#ccc" stroke-width="1"/>
+
+  <!-- row 3 -->
+  <rect x="48" y="230" width="10" height="66" fill="#1a5fb4"/>
+  <text x="72" y="260" font-size="15" font-weight="bold" fill="#111">EXCISION</text>
+  <text x="230" y="260" font-size="14" fill="#111">cut Z with Z̄ ⊂ int(A):  Hₙ(X,A) unchanged</text>
+  <line x1="58" y1="296" x2="608" y2="296" stroke="#ccc" stroke-width="1"/>
+
+  <!-- row 4 -->
+  <rect x="48" y="296" width="10" height="66" fill="#1a5fb4"/>
+  <text x="72" y="326" font-size="15" font-weight="bold" fill="#111">ADDITIVITY</text>
+  <text x="230" y="326" font-size="14" fill="#111">disjoint union  ⟶  direct sum  ⊕</text>
+  <line x1="58" y1="362" x2="608" y2="362" stroke="#ccc" stroke-width="1"/>
+
+  <!-- row 5 : dimension, detachable -->
+  <rect x="48" y="362" width="10" height="68" fill="#a51d2d"/>
+  <text x="72" y="392" font-size="15" font-weight="bold" fill="#a51d2d">DIMENSION</text>
+  <text x="230" y="392" font-size="14" fill="#111">Hₙ(pt) = 0  (n ≠ 0),   = G  (n = 0)</text>
+
+  <!-- detachable callout -->
+  <path d="M 616 396 C 648 396, 648 396, 660 396" fill="none" stroke="#a51d2d" stroke-width="1.5" stroke-dasharray="5,4"/>
+  <text x="614" y="418" font-size="12" fill="#a51d2d">drop this ⟶</text>
+  <text x="614" y="434" font-size="12" font-style="italic" fill="#a51d2d">generalized theory</text>
+  <text x="614" y="374" font-size="12" fill="#a51d2d">the one knob:</text>
+</svg>

@@ -1,0 +1,55 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="60" y="20" fill="#8a8a8a" font-style="italic">Radial distribution P(r) = r&#178;|R|&#178;: where the electron actually is. 1s peaks at the Bohr radius a&#8320;;</text>
+  <text x="60" y="38" fill="#8a8a8a" font-style="italic">2s and 2p sit farther out, and every node (P = 0) is a spherical shell the electron avoids.</text>
+
+  <!-- axes -->
+  <line x1="60" y1="300" x2="614" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="614,300 604,295 604,305" fill="#8a8a8a"/>
+  <text x="600" y="320" fill="#8a8a8a">r / a&#8320;</text>
+  <line x1="60" y1="300" x2="60" y2="58" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="60,58 55,68 65,68" fill="#8a8a8a"/>
+  <text x="46" y="66" fill="#8a8a8a">P(r)</text>
+
+  <!-- x ticks -->
+  <line x1="105" y1="300" x2="105" y2="305" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="101" y="318" fill="#8a8a8a">1</text>
+  <line x1="150" y1="300" x2="150" y2="305" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="146" y="318" fill="#8a8a8a">2</text>
+  <line x1="240" y1="300" x2="240" y2="305" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="236" y="318" fill="#8a8a8a">4</text>
+  <line x1="330" y1="300" x2="330" y2="305" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="326" y="318" fill="#8a8a8a">6</text>
+  <line x1="420" y1="300" x2="420" y2="305" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="416" y="318" fill="#8a8a8a">8</text>
+  <line x1="510" y1="300" x2="510" y2="305" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="502" y="318" fill="#8a8a8a">10</text>
+
+  <!-- Bohr radius marker: dashed line up to 1s peak at r=1 -->
+  <line x1="105" y1="300" x2="105" y2="68.1" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="112" y="80" fill="#8a8a8a">r = a&#8320;</text>
+
+  <!-- 1s curve (blue) -->
+  <path d="M 60 300 L 71.3 235 L 82.5 142.3 L 93.8 84.8 L 105 68.1 L 116.3 80.1 L 127.5 108 L 150 174.4 L 172.5 227.8 L 195 261.7 L 217.5 280.8 L 240 290.8 L 285 298.1 L 330 299.6 L 375 299.9"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- 2p curve (coral, solid) -->
+  <path d="M 60 300 L 105 293.4 L 127.5 279.8 L 150 261.3 L 172.5 242.7 L 195 228 L 217.5 219.1 L 240 216.4 L 262.5 218.7 L 285 224.8 L 330 242.6 L 375 260.9 L 420 275.5 L 465 285.6 L 510 291.9 L 555 295.6 L 600 297.7"
+        fill="none" stroke="#e0645c" stroke-width="2.5"/>
+
+  <!-- 2s curve (coral, dashed) -->
+  <path d="M 60 300 L 82.5 281.7 L 96 277.8 L 105 280.3 L 127.5 293.3 L 150 300 L 172.5 293.1 L 195 276 L 217.5 255.4 L 240 237.3 L 262.5 224.7 L 285 218.8 L 307.5 218.8 L 330 223.5 L 375 240.1 L 420 258.6 L 465 273.9 L 510 284.4 L 555 291.2 L 600 295.3"
+        fill="none" stroke="#e0645c" stroke-width="2" stroke-dasharray="6 4"/>
+
+  <!-- 2s radial node at r=2 -->
+  <circle cx="150" cy="300" r="4" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="156" y="292" fill="#8a8a8a">2s node</text>
+
+  <!-- legend -->
+  <line x1="450" y1="70" x2="480" y2="70" stroke="#4a90d9" stroke-width="3"/>
+  <text x="486" y="75" fill="#8a8a8a">1s (0 radial nodes)</text>
+  <line x1="450" y1="92" x2="480" y2="92" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="486" y="97" fill="#8a8a8a">2p (0 radial nodes)</text>
+  <line x1="450" y1="114" x2="480" y2="114" stroke="#e0645c" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="486" y="119" fill="#8a8a8a">2s (1 radial node)</text>
+</svg>

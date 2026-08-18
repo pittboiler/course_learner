@@ -1,0 +1,57 @@
+<svg viewBox="0 0 640 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Measure an observable: the state is a weighted stack of eigenstates; one outcome a_n appears with probability |c_n|squared; the average is the expectation value.</text>
+
+  <!-- ===== LEFT: superposition before measurement ===== -->
+  <text x="60" y="58" fill="#4a90d9">state |&#968;&#10217; = &#931; c&#8345; |a&#8345;&#10217;</text>
+
+  <!-- eigenvalue axis -->
+  <line x1="100" y1="285" x2="100" y2="78" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="100,78 95,88 105,88" fill="#8a8a8a"/>
+  <text x="70" y="88" fill="#8a8a8a">A</text>
+
+  <!-- eigen-level a3 -->
+  <line x1="100" y1="110" x2="152" y2="110" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="74" y="115" fill="#8a8a8a">a&#8323;</text>
+  <rect x="156" y="103" width="36" height="14" fill="#4a90d9" opacity="0.55"/>
+  <text x="198" y="115" fill="#8a8a8a">|c&#8323;|&#178; = 0.3</text>
+
+  <!-- eigen-level a2 -->
+  <line x1="100" y1="175" x2="152" y2="175" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="74" y="180" fill="#8a8a8a">a&#8322;</text>
+  <rect x="156" y="168" width="60" height="14" fill="#4a90d9" opacity="0.55"/>
+  <text x="222" y="180" fill="#8a8a8a">|c&#8322;|&#178; = 0.5</text>
+
+  <!-- eigen-level a1 -->
+  <line x1="100" y1="240" x2="152" y2="240" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="74" y="245" fill="#8a8a8a">a&#8321;</text>
+  <rect x="156" y="233" width="24" height="14" fill="#4a90d9" opacity="0.55"/>
+  <text x="186" y="245" fill="#8a8a8a">|c&#8321;|&#178; = 0.2</text>
+
+  <!-- expectation value line (weighted average) -->
+  <line x1="100" y1="185.5" x2="300" y2="185.5" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="304" y="190" fill="#e0645c">&#10216;A&#10217;</text>
+
+  <!-- ===== measurement arrow ===== -->
+  <line x1="332" y1="180" x2="404" y2="180" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="404,180 394,175 394,185" fill="#8a8a8a"/>
+  <text x="326" y="168" fill="#8a8a8a">measure &#194;</text>
+
+  <!-- ===== RIGHT: collapsed outcome ===== -->
+  <text x="452" y="58" fill="#e0645c">outcome: one a&#8345;</text>
+
+  <!-- eigenvalue axis -->
+  <line x1="470" y1="285" x2="470" y2="78" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="470,78 465,88 475,88" fill="#8a8a8a"/>
+  <text x="452" y="88" fill="#8a8a8a">A</text>
+
+  <!-- faint un-selected levels -->
+  <line x1="470" y1="110" x2="522" y2="110" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="470" y1="240" x2="522" y2="240" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- selected (collapsed) level a2 -->
+  <line x1="470" y1="175" x2="560" y2="175" stroke="#e0645c" stroke-width="3.5"/>
+  <text x="566" y="180" fill="#e0645c">a&#8322;</text>
+  <text x="470" y="215" fill="#8a8a8a">state &#8594; |a&#8322;&#10217;</text>
+  <text x="470" y="234" fill="#8a8a8a">prob |c&#8322;|&#178;</text>
+</svg>

@@ -1,0 +1,73 @@
+<svg viewBox="0 0 720 430" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="ah" markerWidth="9" markerHeight="9" refX="7" refY="3.2" orient="auto">
+      <path d="M0,0 L7,3.2 L0,6.4 Z" fill="#8a8a8a"/>
+    </marker>
+  </defs>
+
+  <!-- bulk region -->
+  <rect x="40" y="40" width="640" height="320" rx="8" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="52" y="60" font-size="13" fill="#8a8a8a">irradiated bulk</text>
+
+  <!-- production burst (center) -->
+  <g>
+    <line x1="360" y1="180" x2="360" y2="150" stroke="#8a8a8a" stroke-width="1.4"/>
+    <line x1="360" y1="180" x2="390" y2="162" stroke="#8a8a8a" stroke-width="1.4"/>
+    <line x1="360" y1="180" x2="330" y2="162" stroke="#8a8a8a" stroke-width="1.4"/>
+    <line x1="360" y1="180" x2="392" y2="196" stroke="#8a8a8a" stroke-width="1.4"/>
+    <line x1="360" y1="180" x2="328" y2="196" stroke="#8a8a8a" stroke-width="1.4"/>
+    <circle cx="360" cy="180" r="6" fill="#8a8a8a"/>
+    <text x="360" y="222" font-size="13" fill="#8a8a8a" text-anchor="middle">K</text>
+    <text x="371" y="226" font-size="10" fill="#8a8a8a">0</text>
+    <text x="384" y="222" font-size="13" fill="#8a8a8a">: production</text>
+  </g>
+
+  <!-- interstitial (blue dot) and vacancy (coral square) key defects streaming -->
+  <!-- interstitials: fast, blue filled -->
+  <circle cx="320" cy="150" r="5" fill="#4a90d9"/>
+  <circle cx="420" cy="200" r="5" fill="#4a90d9"/>
+  <circle cx="330" cy="250" r="5" fill="#4a90d9"/>
+
+  <!-- vacancies: slow, coral open squares -->
+  <rect x="396" y="140" width="9" height="9" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <rect x="300" y="205" width="9" height="9" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <rect x="400" y="245" width="9" height="9" fill="none" stroke="#e0645c" stroke-width="2"/>
+
+  <!-- recombination event: i + v annihilate -->
+  <circle cx="360" cy="300" r="5" fill="#4a90d9"/>
+  <rect x="372" y="295" width="9" height="9" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <line x1="367" y1="300" x2="372" y2="300" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="352" y1="288" x2="388" y2="312" stroke="#e0645c" stroke-width="1.4"/>
+  <line x1="388" y1="288" x2="352" y2="312" stroke="#e0645c" stroke-width="1.4"/>
+  <text x="345" y="336" font-size="12" fill="#8a8a8a">recombination</text>
+
+  <!-- SINK 1: edge dislocation (left) -->
+  <line x1="95" y1="70" x2="95" y2="150" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="80" y1="150" x2="110" y2="150" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="95" y="60" font-size="12" fill="#8a8a8a" text-anchor="middle">dislocation</text>
+
+  <!-- SINK 2: void (bottom-left circle) -->
+  <circle cx="130" cy="300" r="26" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <text x="130" y="352" font-size="12" fill="#8a8a8a" text-anchor="middle">void</text>
+
+  <!-- SINK 3: grain boundary (right, zigzag) -->
+  <polyline points="620,60 610,100 622,140 610,180 622,220 610,260 620,300 610,340"
+            fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="612" y="52" font-size="12" fill="#8a8a8a" text-anchor="middle">grain boundary</text>
+
+  <!-- streaming arrows to sinks (grey) -->
+  <path d="M320,150 C240,120 160,120 108,132" fill="none" stroke="#8a8a8a" stroke-width="1.3" marker-end="url(#ah)"/>
+  <path d="M330,250 C250,280 190,290 158,297" fill="none" stroke="#8a8a8a" stroke-width="1.3" marker-end="url(#ah)"/>
+  <path d="M420,200 C500,180 560,170 606,168" fill="none" stroke="#8a8a8a" stroke-width="1.3" marker-end="url(#ah)"/>
+  <path d="M400,250 C480,270 550,280 606,262" fill="none" stroke="#8a8a8a" stroke-width="1.3" marker-end="url(#ah)"/>
+
+  <!-- legend -->
+  <circle cx="60" cy="392" r="5" fill="#4a90d9"/>
+  <text x="72" y="396" font-size="12" fill="#8a8a8a">interstitial (fast: small E</text>
+  <text x="248" y="399" font-size="9" fill="#8a8a8a">m</text>
+  <text x="257" y="396" font-size="12" fill="#8a8a8a">)</text>
+  <rect x="330" y="387" width="9" height="9" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <text x="346" y="396" font-size="12" fill="#8a8a8a">vacancy (slow: large E</text>
+  <text x="514" y="399" font-size="9" fill="#8a8a8a">m</text>
+  <text x="523" y="396" font-size="12" fill="#8a8a8a">)</text>
+</svg>

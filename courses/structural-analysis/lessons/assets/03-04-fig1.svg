@@ -1,0 +1,75 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">One free joint B rotates by &#952;B; that single unknown ties together all four member end moments.</text>
+
+  <!-- ===== the continuous beam A - B - C ===== -->
+  <!-- undeflected beam -->
+  <line x1="80" y1="150" x2="560" y2="150" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- support A: pin -->
+  <polygon points="80,150 68,174 92,174" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="60" y1="174" x2="100" y2="174" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="64" y1="174" x2="58" y2="182" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="74" y1="174" x2="68" y2="182" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="84" y1="174" x2="78" y2="182" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="94" y1="174" x2="88" y2="182" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="74" y="200" fill="#8a8a8a">A</text>
+
+  <!-- support B: roller (interior, the free joint) -->
+  <polygon points="320,150 308,172 332,172" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <circle cx="313" cy="177" r="4" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <circle cx="327" cy="177" r="4" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="302" y1="183" x2="338" y2="183" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="314" y="205" fill="#8a8a8a">B</text>
+
+  <!-- support C: roller -->
+  <polygon points="560,150 548,172 572,172" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <circle cx="553" cy="177" r="4" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <circle cx="567" cy="177" r="4" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="542" y1="183" x2="578" y2="183" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="554" y="205" fill="#8a8a8a">C</text>
+
+  <!-- span labels -->
+  <text x="192" y="140" fill="#8a8a8a">member AB</text>
+  <text x="432" y="140" fill="#8a8a8a">member BC</text>
+
+  <!-- ===== deflected shape (dashed) ===== -->
+  <path d="M 80 150 Q 200 190 320 158 Q 440 172 560 150"
+        fill="none" stroke="#e0645c" stroke-width="2" stroke-dasharray="5 4" opacity="0.85"/>
+
+  <!-- tangent at B and the rotation angle -->
+  <line x1="320" y1="158" x2="380" y2="158" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="290" y1="167" x2="380" y2="140" stroke="#e0645c" stroke-width="2"/>
+  <path d="M 366 158 A 46 46 0 0 0 372 148" fill="none" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="384" y="150" fill="#e0645c">&#952;B</text>
+
+  <!-- ===== member end moments (coral curved arrows) ===== -->
+  <!-- M_AB near A -->
+  <path d="M 120 138 A 13 13 0 1 1 106 137" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="106,137 101,132 111,131" fill="#e0645c"/>
+  <text x="98" y="118" fill="#e0645c">M<tspan font-size="10" dy="4">AB</tspan></text>
+
+  <!-- M_BA just left of B -->
+  <path d="M 284 138 A 13 13 0 1 1 270 137" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="270,137 265,132 275,131" fill="#e0645c"/>
+  <text x="244" y="118" fill="#e0645c">M<tspan font-size="10" dy="4">BA</tspan></text>
+
+  <!-- M_BC just right of B -->
+  <path d="M 372 138 A 13 13 0 1 1 358 137" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="358,137 353,132 363,131" fill="#e0645c"/>
+  <text x="368" y="118" fill="#e0645c">M<tspan font-size="10" dy="4">BC</tspan></text>
+
+  <!-- M_CB near C -->
+  <path d="M 548 138 A 13 13 0 1 1 534 137" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="534,137 529,132 539,131" fill="#e0645c"/>
+  <text x="524" y="118" fill="#e0645c">M<tspan font-size="10" dy="4">CB</tspan></text>
+
+  <!-- load hint on span AB -->
+  <text x="150" y="96" fill="#8a8a8a" font-size="12">load on AB</text>
+  <line x1="120" y1="102" x2="120" y2="147" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="120,147 116,139 124,139" fill="#8a8a8a"/>
+  <line x1="160" y1="102" x2="160" y2="147" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="160,147 156,139 164,139" fill="#8a8a8a"/>
+  <line x1="200" y1="102" x2="200" y2="147" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="200,147 196,139 204,139" fill="#8a8a8a"/>
+</svg>

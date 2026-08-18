@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="640" height="440" fill="#ffffff"/>
+
+  <text x="320" y="30" text-anchor="middle" font-size="16" fill="#111111">Suppose s&#8321;, s&#8322;, s&#8323;, &#8230; lists ALL binary sequences. It can't.</text>
+
+  <!-- column position headers -->
+  <g font-size="13" fill="#555555" text-anchor="middle">
+    <text x="135" y="72">pos 1</text>
+    <text x="195" y="72">pos 2</text>
+    <text x="255" y="72">pos 3</text>
+    <text x="315" y="72">pos 4</text>
+    <text x="375" y="72">pos 5</text>
+    <text x="435" y="72">pos 6</text>
+    <text x="485" y="72">&#8230;</text>
+  </g>
+
+  <!-- diagonal highlight boxes (drawn first, behind digits) -->
+  <g fill="#e8e8e8" stroke="#111111" stroke-width="1.4">
+    <rect x="117" y="95"  width="36" height="30"/>  <!-- s1 pos1 -->
+    <rect x="177" y="135" width="36" height="30"/>  <!-- s2 pos2 -->
+    <rect x="237" y="175" width="36" height="30"/>  <!-- s3 pos3 -->
+    <rect x="297" y="215" width="36" height="30"/>  <!-- s4 pos4 -->
+    <rect x="357" y="255" width="36" height="30"/>  <!-- s5 pos5 -->
+    <rect x="417" y="295" width="36" height="30"/>  <!-- s6 pos6 -->
+  </g>
+
+  <!-- row labels -->
+  <g font-size="15" fill="#111111" text-anchor="end">
+    <text x="95" y="115">s&#8321; =</text>
+    <text x="95" y="155">s&#8322; =</text>
+    <text x="95" y="195">s&#8323; =</text>
+    <text x="95" y="235">s&#8324; =</text>
+    <text x="95" y="275">s&#8325; =</text>
+    <text x="95" y="315">s&#8326; =</text>
+    <text x="95" y="352">&#8942;</text>
+  </g>
+
+  <!-- digit grid: bold on the diagonal, normal elsewhere -->
+  <g font-size="15" fill="#111111" text-anchor="middle">
+    <!-- s1: 0 1 1 0 1 0 -->
+    <text x="135" y="115" font-weight="bold">0</text><text x="195" y="115">1</text><text x="255" y="115">1</text><text x="315" y="115">0</text><text x="375" y="115">1</text><text x="435" y="115">0</text><text x="485" y="115">&#8230;</text>
+    <!-- s2: 1 1 0 0 1 1 -->
+    <text x="135" y="155">1</text><text x="195" y="155" font-weight="bold">1</text><text x="255" y="155">0</text><text x="315" y="155">0</text><text x="375" y="155">1</text><text x="435" y="155">1</text><text x="485" y="155">&#8230;</text>
+    <!-- s3: 0 0 1 1 0 1 -->
+    <text x="135" y="195">0</text><text x="195" y="195">0</text><text x="255" y="195" font-weight="bold">1</text><text x="315" y="195">1</text><text x="375" y="195">0</text><text x="435" y="195">1</text><text x="485" y="195">&#8230;</text>
+    <!-- s4: 1 0 1 0 0 0 -->
+    <text x="135" y="235">1</text><text x="195" y="235">0</text><text x="255" y="235">1</text><text x="315" y="235" font-weight="bold">0</text><text x="375" y="235">0</text><text x="435" y="235">0</text><text x="485" y="235">&#8230;</text>
+    <!-- s5: 1 1 1 0 1 1 -->
+    <text x="135" y="275">1</text><text x="195" y="275">1</text><text x="255" y="275">1</text><text x="315" y="275">0</text><text x="375" y="275" font-weight="bold">1</text><text x="435" y="275">1</text><text x="485" y="275">&#8230;</text>
+    <!-- s6: 0 0 1 0 1 0 -->
+    <text x="135" y="315">0</text><text x="195" y="315">0</text><text x="255" y="315">1</text><text x="315" y="315">0</text><text x="375" y="315">1</text><text x="435" y="315" font-weight="bold">0</text><text x="485" y="315">&#8230;</text>
+  </g>
+
+  <!-- the constructed sequence d = flip of the diagonal -->
+  <line x1="105" y1="368" x2="505" y2="368" stroke="#111111" stroke-width="1"/>
+  <g font-size="15" fill="#111111" text-anchor="end">
+    <text x="95" y="400">d =</text>
+  </g>
+  <g font-size="15" fill="#111111" text-anchor="middle" font-weight="bold">
+    <text x="135" y="400">1</text><text x="195" y="400">0</text><text x="255" y="400">0</text><text x="315" y="400">1</text><text x="375" y="400">0</text><text x="435" y="400">1</text><text x="485" y="400">&#8230;</text>
+  </g>
+
+  <!-- annotation -->
+  <text x="525" y="205" text-anchor="start" font-size="12" fill="#555555">flip each</text>
+  <text x="525" y="221" text-anchor="start" font-size="12" fill="#555555">boxed digit</text>
+  <text x="320" y="428" text-anchor="middle" font-size="13" fill="#555555">d differs from s&#8345; in position n, so d equals no row &#8212; the list missed it.</text>
+</svg>

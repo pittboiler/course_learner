@@ -1,0 +1,52 @@
+<svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="70" y="26" fill="#8a8a8a" font-style="italic">Levelized fuel cost is U-shaped in burnup: amortization falls, enrichment cost rises.</text>
+
+  <!-- y axis -->
+  <line x1="90" y1="60" x2="90" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="90,60 85,72 95,72" fill="#8a8a8a"/>
+  <!-- x axis -->
+  <line x1="90" y1="300" x2="610" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="610,300 598,295 598,305" fill="#8a8a8a"/>
+
+  <!-- axis titles -->
+  <text x="300" y="340" fill="#8a8a8a">discharge burnup B (GWd/tHM)</text>
+  <text x="18" y="52" fill="#8a8a8a">USD/MWh</text>
+
+  <!-- y ticks -->
+  <line x1="86" y1="277" x2="90" y2="277" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="58" y="281" fill="#8a8a8a">6.0</text>
+  <line x1="86" y1="162" x2="90" y2="162" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="58" y="166" fill="#8a8a8a">6.5</text>
+
+  <!-- x ticks -->
+  <line x1="158" y1="300" x2="158" y2="304" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="150" y="318" fill="#8a8a8a">20</text>
+  <line x1="294" y1="300" x2="294" y2="304" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="286" y="318" fill="#8a8a8a">40</text>
+  <line x1="430" y1="300" x2="430" y2="304" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="422" y="318" fill="#8a8a8a">60</text>
+  <line x1="566" y1="300" x2="566" y2="304" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="558" y="318" fill="#8a8a8a">80</text>
+
+  <!-- the U-shaped levelized-cost curve -->
+  <path d="M 158 101 L 226 230 L 294 257 L 328 255 L 362 246 L 396 233 L 430 216 L 464 197 L 498 175 L 532 152 L 566 128"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- optimum marker -->
+  <line x1="305" y1="256" x2="305" y2="300" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <circle cx="305" cy="256" r="5" fill="#e0645c"/>
+  <text x="312" y="278" fill="#e0645c">economic optimum</text>
+
+  <!-- left-branch annotation: amortization -->
+  <text x="118" y="150" fill="#8a8a8a">fixed cost spread</text>
+  <text x="118" y="167" fill="#8a8a8a">over more energy</text>
+  <line x1="150" y1="175" x2="200" y2="210" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="200,210 190,206 193,197" fill="#8a8a8a"/>
+
+  <!-- right-branch annotation: enrichment -->
+  <text x="470" y="150" fill="#8a8a8a">more enrichment</text>
+  <text x="470" y="167" fill="#8a8a8a">(SWU) per kg</text>
+  <line x1="505" y1="140" x2="520" y2="118" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="520,118 510,120 515,128" fill="#8a8a8a"/>
+</svg>

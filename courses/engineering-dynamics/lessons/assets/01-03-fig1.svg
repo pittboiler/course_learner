@@ -1,0 +1,53 @@
+<svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <defs>
+    <marker id="coral" markerWidth="10" markerHeight="10" refX="7" refY="3.5" orient="auto">
+      <polygon points="0,0 8,3.5 0,7" fill="#e0645c"/>
+    </marker>
+    <marker id="grey" markerWidth="10" markerHeight="10" refX="7" refY="3.5" orient="auto">
+      <polygon points="0,0 8,3.5 0,7" fill="#8a8a8a"/>
+    </marker>
+  </defs>
+
+  <text x="30" y="26" fill="#8a8a8a" font-style="italic">At every point, acceleration splits into a&#8348; along the path (speeding up) and a&#8345; across it (turning).</text>
+
+  <!-- the curved path -->
+  <path d="M 330 130 L 315.2 130.6 L 300.5 132.6 L 286 135.8 L 271.9 140.3 L 258.2 145.9 L 245 152.8 L 232.5 160.7 L 220.7 169.8 L 209.8 179.8 L 199.8 190.7 L 190.7 202.5 L 182.8 215"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="336" y="128" fill="#4a90d9">path</text>
+
+  <!-- radius of curvature: P to center of curvature C -->
+  <line x1="245" y1="152.8" x2="330" y2="300" stroke="#8a8a8a" stroke-width="1.2" stroke-dasharray="4 4"/>
+  <text x="290" y="232" fill="#8a8a8a">&#961;</text>
+
+  <!-- center of curvature -->
+  <circle cx="330" cy="300" r="3.5" fill="#8a8a8a"/>
+  <text x="338" y="305" fill="#8a8a8a">C (center of curvature)</text>
+
+  <!-- point P -->
+  <circle cx="245" cy="152.8" r="4" fill="#4a90d9"/>
+  <text x="226" y="148" fill="#4a90d9">P</text>
+
+  <!-- unit tangent vector e_t (grey, short) -->
+  <line x1="245" y1="152.8" x2="284" y2="130.3" stroke="#8a8a8a" stroke-width="1.6" marker-end="url(#grey)"/>
+  <text x="288" y="126" fill="#8a8a8a">&#234;&#8348;</text>
+
+  <!-- unit normal vector e_n (grey, short, toward center) -->
+  <line x1="245" y1="152.8" x2="267.5" y2="191.8" stroke="#8a8a8a" stroke-width="1.6" marker-end="url(#grey)"/>
+  <text x="250" y="196" fill="#8a8a8a">&#234;&#8345;</text>
+
+  <!-- component parallelogram guides -->
+  <line x1="305.6" y1="117.8" x2="333.1" y2="165.4" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="272.5" y1="200.4" x2="333.1" y2="165.4" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- tangential acceleration a_t (coral) -->
+  <line x1="245" y1="152.8" x2="305.6" y2="117.8" stroke="#e0645c" stroke-width="2.4" marker-end="url(#coral)"/>
+  <text x="300" y="108" fill="#e0645c">a&#8348; = v&#775;</text>
+
+  <!-- normal acceleration a_n (coral, toward center) -->
+  <line x1="245" y1="152.8" x2="272.5" y2="200.4" stroke="#e0645c" stroke-width="2.4" marker-end="url(#coral)"/>
+  <text x="196" y="214" fill="#e0645c">a&#8345; = v&#178;/&#961;</text>
+
+  <!-- resultant acceleration a (coral) -->
+  <line x1="245" y1="152.8" x2="333.1" y2="165.4" stroke="#e0645c" stroke-width="2.4" marker-end="url(#coral)"/>
+  <text x="338" y="170" fill="#e0645c">a</text>
+</svg>

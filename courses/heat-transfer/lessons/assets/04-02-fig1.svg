@@ -1,0 +1,46 @@
+<svg viewBox="0 0 680 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <defs>
+    <marker id="arrB" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="9" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#4a90d9"/>
+    </marker>
+    <marker id="arrC" markerUnits="userSpaceOnUse" markerWidth="11" markerHeight="9" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#e0645c"/>
+    </marker>
+  </defs>
+
+  <!-- caption -->
+  <text x="24" y="24" fill="#8a8a8a" font-style="italic">Irradiation G splits three ways (&#945;+&#961;+&#964;=1); the surface also emits &#949;&#963;T&#8308; of its own.</text>
+
+  <!-- ===== the surface / body ===== -->
+  <rect x="180" y="205" width="320" height="50" fill="#8a8a8a" fill-opacity="0.15" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="96" y="234" fill="#8a8a8a">body at T</text>
+
+  <!-- ===== incident irradiation G ===== -->
+  <line x1="222" y1="108" x2="296" y2="202" stroke="#4a90d9" stroke-width="2.4" marker-end="url(#arrB)"/>
+  <text x="196" y="98" fill="#4a90d9">G  (irradiation)</text>
+
+  <!-- ===== reflected rho G ===== -->
+  <line x1="304" y1="202" x2="378" y2="108" stroke="#4a90d9" stroke-width="2.2" stroke-dasharray="6 4" marker-end="url(#arrB)"/>
+  <text x="336" y="98" fill="#4a90d9">&#961;G  reflected</text>
+
+  <!-- ===== ray through the medium + transmitted tau G ===== -->
+  <line x1="300" y1="205" x2="300" y2="255" stroke="#4a90d9" stroke-width="2.2"/>
+  <line x1="300" y1="255" x2="300" y2="346" stroke="#4a90d9" stroke-width="1.8" marker-end="url(#arrB)"/>
+  <text x="250" y="368" fill="#4a90d9">&#964;G  transmitted</text>
+
+  <!-- ===== absorbed alpha G (peels off inside the body) ===== -->
+  <line x1="300" y1="230" x2="352" y2="230" stroke="#e0645c" stroke-width="2.2" marker-end="url(#arrC)"/>
+  <circle cx="300" cy="230" r="3" fill="#e0645c"/>
+  <text x="358" y="234" fill="#e0645c">&#945;G  absorbed</text>
+
+  <!-- ===== emitted epsilon sigma T^4 ===== -->
+  <line x1="420" y1="203" x2="420" y2="122" stroke="#e0645c" stroke-width="2.2" marker-end="url(#arrC)"/>
+  <line x1="452" y1="203" x2="452" y2="122" stroke="#e0645c" stroke-width="2.2" marker-end="url(#arrC)"/>
+  <line x1="484" y1="203" x2="484" y2="122" stroke="#e0645c" stroke-width="2.2" marker-end="url(#arrC)"/>
+  <text x="416" y="112" fill="#e0645c">&#949;&#963;T&#8308;  emitted</text>
+
+  <!-- ===== balance note ===== -->
+  <line x1="360" y1="300" x2="620" y2="300" stroke="#8a8a8a" stroke-width="0.8" stroke-dasharray="2 3"/>
+  <text x="392" y="322" fill="#8a8a8a">&#945; + &#961; + &#964; = 1     (opaque &#8658; &#964; = 0)</text>
+  <text x="392" y="344" fill="#8a8a8a">Kirchhoff (gray): &#945; = &#949;</text>
+</svg>

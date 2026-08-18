@@ -1,0 +1,47 @@
+<svg viewBox="0 0 560 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="26" fill="#8a8a8a" font-style="italic">A Carnot cycle is a rectangle in the T–S plane: area = (T_h − T_c)ΔS = net heat = net work.</text>
+
+  <!-- axes -->
+  <line x1="70" y1="290" x2="70" y2="48" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,48 65,58 75,58" fill="#8a8a8a"/>
+  <text x="58" y="46" fill="#8a8a8a">T</text>
+  <line x1="70" y1="290" x2="532" y2="290" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="532,290 522,285 522,295" fill="#8a8a8a"/>
+  <text x="536" y="295" fill="#8a8a8a">S</text>
+
+  <!-- guide lines for T_h, T_c -->
+  <line x1="70" y1="110" x2="170" y2="110" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="70" y1="230" x2="170" y2="230" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="40" y="115" fill="#8a8a8a">T_h</text>
+  <text x="40" y="235" fill="#8a8a8a">T_c</text>
+
+  <!-- guide lines for S_1, S_2 -->
+  <line x1="170" y1="290" x2="170" y2="230" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="440" y1="290" x2="440" y2="110" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="158" y="308" fill="#8a8a8a">S₁</text>
+  <text x="430" y="308" fill="#8a8a8a">S₂</text>
+
+  <!-- shaded interior = net work -->
+  <rect x="170" y="110" width="270" height="120" fill="#e0645c" opacity="0.15"/>
+
+  <!-- the rectangular cycle -->
+  <rect x="170" y="110" width="270" height="120" fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- direction arrows (clockwise) -->
+  <polygon points="309,110 299,105 299,115" fill="#4a90d9"/>
+  <polygon points="440,174 435,164 445,164" fill="#4a90d9"/>
+  <polygon points="301,230 311,225 311,235" fill="#4a90d9"/>
+  <polygon points="170,166 165,176 175,176" fill="#4a90d9"/>
+
+  <!-- heat labels -->
+  <text x="214" y="100" fill="#e0645c">Q_h = T_h ΔS  (in)</text>
+  <text x="212" y="252" fill="#e0645c">Q_c = T_c ΔS  (out)</text>
+
+  <!-- work label inside -->
+  <text x="238" y="166" fill="#8a8a8a" font-style="italic">W = Q_h − Q_c = area</text>
+
+  <!-- edge annotations -->
+  <text x="300" y="128" fill="#8a8a8a" font-style="italic" font-size="12">isotherm</text>
+  <text x="446" y="176" fill="#8a8a8a" font-style="italic" font-size="12">adiabat</text>
+</svg>

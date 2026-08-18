@@ -1,0 +1,44 @@
+<svg viewBox="0 0 460 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="460" height="400" fill="#ffffff"/>
+
+  <text x="230" y="26" text-anchor="middle" font-size="15" fill="#111111" font-weight="bold">Nonlinear saddle: the flow hugs the linear eigendirections</text>
+
+  <!-- true nonlinear trajectories (gray, curved) -->
+  <g fill="none" stroke="#8a8a8a" stroke-width="2">
+    <path d="M 355,118 Q 288,190 355,262"/>
+    <path d="M 105,118 Q 172,190 105,262"/>
+    <path d="M 100,108 Q 230,150 360,108"/>
+    <path d="M 100,272 Q 230,230 360,272"/>
+  </g>
+  <!-- flow-direction arrowheads on trajectories -->
+  <g fill="#8a8a8a">
+    <polygon points="318,180 313,191 323,191"/>
+    <polygon points="142,200 137,189 147,189"/>
+    <polygon points="240,142 229,137 229,147"/>
+    <polygon points="220,238 231,233 231,243"/>
+  </g>
+
+  <!-- stable eigendirection (blue), arrows toward center -->
+  <line x1="89" y1="105" x2="371" y2="275" stroke="#1f6fb4" stroke-width="2.5"/>
+  <g fill="#1f6fb4">
+    <polygon points="160,148 148,146.6 153.2,138"/>
+    <polygon points="300,232 312,233.4 306.8,242"/>
+  </g>
+
+  <!-- unstable eigendirection (red), arrows away from center -->
+  <line x1="89" y1="275" x2="371" y2="105" stroke="#c0392b" stroke-width="2.5"/>
+  <g fill="#c0392b">
+    <polygon points="150,238 162,236.6 156.8,228"/>
+    <polygon points="310,142 303.2,152 298,143.4"/>
+  </g>
+
+  <!-- fixed point -->
+  <circle cx="230" cy="190" r="4.5" fill="#111111"/>
+
+  <!-- labels -->
+  <text x="378" y="278" font-size="13" fill="#c0392b" font-weight="bold">v_u</text>
+  <text x="378" y="103" font-size="13" fill="#1f6fb4" font-weight="bold">v_s</text>
+  <text x="238" y="205" font-size="12.5" fill="#111111">saddle x*</text>
+
+  <text x="230" y="386" text-anchor="middle" font-size="12" fill="#333333">Gray = true nonlinear flow; straight lines = linearization's stable (v_s) / unstable (v_u) eigendirections.</text>
+</svg>

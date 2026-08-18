@@ -1,0 +1,63 @@
+<svg viewBox="0 0 700 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <defs>
+    <marker id="ahblue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#4a90d9"/>
+    </marker>
+    <marker id="ahgrey" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#8a8a8a"/>
+    </marker>
+  </defs>
+
+  <!-- caption -->
+  <text x="24" y="24" fill="#8a8a8a" font-style="italic">One molecule&#8217;s energy levels feed q; q&#8217;s temperature-slope hands back U, S, C&#8341;, K &#8212; the whole of Module 1.</text>
+
+  <!-- ===== energy ladder ===== -->
+  <line x1="60" y1="270" x2="130" y2="270" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="60" y1="234" x2="130" y2="234" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="60" y1="208" x2="130" y2="208" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="60" y1="192" x2="130" y2="192" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="60" y1="184" x2="130" y2="184" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="95" y="300" fill="#8a8a8a" text-anchor="middle">energy levels</text>
+  <text x="95" y="318" fill="#8a8a8a" text-anchor="middle">&#949;&#7522;, g&#7522;</text>
+
+  <!-- ladder -> q -->
+  <line x1="140" y1="220" x2="192" y2="205" stroke="#4a90d9" stroke-width="2.5" marker-end="url(#ahblue)"/>
+
+  <!-- ===== q node ===== -->
+  <circle cx="234" cy="200" r="33" fill="#4a90d9" fill-opacity="0.12" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="234" y="207" fill="#4a90d9" text-anchor="middle" font-size="24" font-style="italic">q</text>
+  <text x="234" y="252" fill="#8a8a8a" text-anchor="middle" font-size="13">partition fn</text>
+
+  <!-- ===== emergent quantities (coral) ===== -->
+  <!-- U -->
+  <rect x="372" y="72" width="118" height="38" rx="8" fill="#e0645c" fill-opacity="0.14" stroke="#e0645c" stroke-width="2"/>
+  <text x="431" y="96" fill="#e0645c" text-anchor="middle">U &#8212; energy</text>
+  <!-- S -->
+  <rect x="372" y="142" width="118" height="38" rx="8" fill="#e0645c" fill-opacity="0.14" stroke="#e0645c" stroke-width="2"/>
+  <text x="431" y="166" fill="#e0645c" text-anchor="middle">S &#8212; entropy</text>
+  <!-- Cv -->
+  <rect x="372" y="212" width="118" height="38" rx="8" fill="#e0645c" fill-opacity="0.14" stroke="#e0645c" stroke-width="2"/>
+  <text x="431" y="236" fill="#e0645c" text-anchor="middle">C&#8341; &#8212; heat cap.</text>
+  <!-- K -->
+  <rect x="372" y="282" width="118" height="38" rx="8" fill="#e0645c" fill-opacity="0.14" stroke="#e0645c" stroke-width="2"/>
+  <text x="431" y="306" fill="#e0645c" text-anchor="middle">K &#8212; equilibrium</text>
+
+  <!-- q -> boxes (blue arrows) -->
+  <line x1="264" y1="192" x2="368" y2="93"  stroke="#4a90d9" stroke-width="2" marker-end="url(#ahblue)"/>
+  <line x1="267" y1="197" x2="368" y2="161" stroke="#4a90d9" stroke-width="2" marker-end="url(#ahblue)"/>
+  <line x1="267" y1="203" x2="368" y2="231" stroke="#4a90d9" stroke-width="2" marker-end="url(#ahblue)"/>
+  <line x1="264" y1="208" x2="368" y2="301" stroke="#4a90d9" stroke-width="2" marker-end="url(#ahblue)"/>
+
+  <!-- boxes -> Module 1 (grey arrows) -->
+  <line x1="490" y1="91"  x2="566" y2="180" stroke="#8a8a8a" stroke-width="1.6" marker-end="url(#ahgrey)"/>
+  <line x1="490" y1="161" x2="566" y2="193" stroke="#8a8a8a" stroke-width="1.6" marker-end="url(#ahgrey)"/>
+  <line x1="490" y1="231" x2="566" y2="199" stroke="#8a8a8a" stroke-width="1.6" marker-end="url(#ahgrey)"/>
+  <line x1="490" y1="301" x2="566" y2="212" stroke="#8a8a8a" stroke-width="1.6" marker-end="url(#ahgrey)"/>
+
+  <!-- ===== Module 1 box ===== -->
+  <rect x="572" y="150" width="112" height="92" rx="8" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="628" y="185" fill="#8a8a8a" text-anchor="middle" font-size="13">macroscopic</text>
+  <text x="628" y="203" fill="#8a8a8a" text-anchor="middle" font-size="13">thermo-</text>
+  <text x="628" y="221" fill="#8a8a8a" text-anchor="middle" font-size="13">dynamics</text>
+  <text x="628" y="239" fill="#8a8a8a" text-anchor="middle" font-size="12" font-style="italic">Module 1</text>
+</svg>

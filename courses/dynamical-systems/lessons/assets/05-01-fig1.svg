@@ -1,0 +1,32 @@
+<svg viewBox="0 0 420 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="420" height="400" fill="#ffffff"/>
+
+  <!-- axes -->
+  <line x1="60" y1="340" x2="392" y2="340" stroke="#111111" stroke-width="1.5"/>
+  <line x1="60" y1="340" x2="60" y2="40" stroke="#111111" stroke-width="1.5"/>
+  <text x="396" y="345" font-size="14" fill="#111111" font-style="italic">x</text>
+
+  <!-- diagonal y = x -->
+  <line x1="60" y1="340" x2="360" y2="40" stroke="#888888" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="330" y="58" font-size="13" fill="#666666" font-style="italic">y = x</text>
+
+  <!-- curve y = f(x) = sqrt(x+2) -->
+  <polyline fill="none" stroke="#1d4ed8" stroke-width="2.5"
+    points="60,198.6 110,181.9 160,166.8 210,152.9 260,140 310,127.9 360,116.4"/>
+  <text x="300" y="110" font-size="13" fill="#1d4ed8" font-style="italic">y = f(x)</text>
+
+  <!-- cobweb staircase from x0 = 0 -->
+  <polyline fill="none" stroke="#b91c1c" stroke-width="1.6"
+    points="60,340 60,198.6 201.4,198.6 201.4,155.2 244.8,155.2 244.8,143.8 256.2,143.8 256.2,141 259,141"/>
+
+  <!-- fixed point x* = 2 (stable, filled) -->
+  <circle cx="260" cy="140" r="6" fill="#111111"/>
+  <text x="248" y="128" font-size="13" fill="#111111" font-style="italic">x*</text>
+
+  <!-- ticks / labels -->
+  <line x1="260" y1="336" x2="260" y2="344" stroke="#111111" stroke-width="1.2"/>
+  <text x="256" y="360" font-size="12" fill="#111111">2</text>
+  <text x="52" y="360" font-size="12" fill="#111111">x&#8320;</text>
+
+  <text x="120" y="392" font-size="12" fill="#b91c1c">staircase: monotone approach ( 0 &lt; f&#8242;(x*) &lt; 1 )</text>
+</svg>

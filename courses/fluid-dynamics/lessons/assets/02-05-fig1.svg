@@ -1,0 +1,41 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <defs>
+    <marker id="arrowBlue" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#4a90d9"/>
+    </marker>
+    <marker id="arrowCoral" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#e0645c"/>
+    </marker>
+  </defs>
+
+  <!-- caption -->
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Two elementary flows, each from one analytic w(z): the source flows out along rays, the vortex circles around.</text>
+
+  <!-- ===== left panel: SOURCE (radial streamlines, blue) ===== -->
+  <!-- rays: 8 spokes, arrowheads pointing outward -->
+  <line x1="174" y1="175" x2="250" y2="175" stroke="#4a90d9" stroke-width="2" marker-end="url(#arrowBlue)"/>
+  <line x1="169.9" y1="165.1" x2="223.6" y2="111.4" stroke="#4a90d9" stroke-width="2" marker-end="url(#arrowBlue)"/>
+  <line x1="160" y1="161" x2="160" y2="85" stroke="#4a90d9" stroke-width="2" marker-end="url(#arrowBlue)"/>
+  <line x1="150.1" y1="165.1" x2="96.4" y2="111.4" stroke="#4a90d9" stroke-width="2" marker-end="url(#arrowBlue)"/>
+  <line x1="146" y1="175" x2="70" y2="175" stroke="#4a90d9" stroke-width="2" marker-end="url(#arrowBlue)"/>
+  <line x1="150.1" y1="184.9" x2="96.4" y2="238.6" stroke="#4a90d9" stroke-width="2" marker-end="url(#arrowBlue)"/>
+  <line x1="160" y1="189" x2="160" y2="265" stroke="#4a90d9" stroke-width="2" marker-end="url(#arrowBlue)"/>
+  <line x1="169.9" y1="184.9" x2="223.6" y2="238.6" stroke="#4a90d9" stroke-width="2" marker-end="url(#arrowBlue)"/>
+  <!-- source point -->
+  <circle cx="160" cy="175" r="4" fill="#4a90d9"/>
+  <!-- labels -->
+  <text x="120" y="298" fill="#4a90d9">source:  w = (m/2π) ln z</text>
+  <text x="112" y="318" fill="#8a8a8a" font-style="italic">streamlines θ = const,  u_r = m/2πr</text>
+
+  <!-- ===== right panel: VORTEX (circular streamlines, coral) ===== -->
+  <circle cx="480" cy="175" r="24" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <circle cx="480" cy="175" r="48" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <circle cx="480" cy="175" r="72" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <!-- rotation-sense arrow: CCW arc on r=90 from ~20deg up to ~90deg (top) -->
+  <path d="M 564.6 144.2 A 90 90 0 0 0 480 85" fill="none" stroke="#e0645c" stroke-width="2" marker-end="url(#arrowCoral)"/>
+  <!-- vortex core -->
+  <circle cx="480" cy="175" r="4" fill="#e0645c"/>
+  <!-- labels -->
+  <text x="432" y="298" fill="#e0645c">vortex:  w = −(iΓ/2π) ln z</text>
+  <text x="428" y="318" fill="#8a8a8a" font-style="italic">streamlines r = const,  u_θ = Γ/2πr</text>
+</svg>

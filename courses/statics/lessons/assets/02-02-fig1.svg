@@ -1,0 +1,79 @@
+<svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <defs>
+    <marker id="ah" markerWidth="10" markerHeight="8" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#e0645c"/>
+    </marker>
+  </defs>
+
+  <!-- caption -->
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Cut three members; keep the left part as a rigid free body.</text>
+
+  <!-- ===== full truss (grey context) ===== -->
+  <!-- bottom chord -->
+  <line x1="60" y1="250" x2="540" y2="250" stroke="#8a8a8a" stroke-width="1.4"/>
+  <!-- top chord -->
+  <line x1="220" y1="130" x2="380" y2="130" stroke="#8a8a8a" stroke-width="1.4"/>
+  <!-- end inclines -->
+  <line x1="60" y1="250" x2="220" y2="130" stroke="#8a8a8a" stroke-width="1.4"/>
+  <line x1="380" y1="130" x2="540" y2="250" stroke="#8a8a8a" stroke-width="1.4"/>
+  <!-- verticals -->
+  <line x1="220" y1="250" x2="220" y2="130" stroke="#8a8a8a" stroke-width="1.4"/>
+  <line x1="380" y1="250" x2="380" y2="130" stroke="#8a8a8a" stroke-width="1.4"/>
+  <!-- diagonal FC -->
+  <line x1="220" y1="130" x2="380" y2="250" stroke="#8a8a8a" stroke-width="1.4"/>
+
+  <!-- ===== left free body (blue) ===== -->
+  <line x1="60" y1="250" x2="220" y2="250" stroke="#4a90d9" stroke-width="3"/>
+  <line x1="60" y1="250" x2="220" y2="130" stroke="#4a90d9" stroke-width="3"/>
+  <line x1="220" y1="250" x2="220" y2="130" stroke="#4a90d9" stroke-width="3"/>
+  <!-- cut stubs belonging to the left part -->
+  <line x1="220" y1="130" x2="300" y2="130" stroke="#4a90d9" stroke-width="3"/>
+  <line x1="220" y1="130" x2="300" y2="190" stroke="#4a90d9" stroke-width="3"/>
+  <line x1="220" y1="250" x2="300" y2="250" stroke="#4a90d9" stroke-width="3"/>
+  <text x="96" y="205" fill="#4a90d9" font-style="italic">left free body</text>
+
+  <!-- ===== the section cut ===== -->
+  <line x1="300" y1="104" x2="300" y2="274" stroke="#8a8a8a" stroke-width="1.3" stroke-dasharray="4 4"/>
+  <text x="292" y="100" fill="#8a8a8a">a</text>
+  <text x="292" y="288" fill="#8a8a8a">a</text>
+
+  <!-- ===== joints ===== -->
+  <circle cx="60" cy="250" r="3.5" fill="#8a8a8a"/>
+  <circle cx="220" cy="250" r="3.5" fill="#8a8a8a"/>
+  <circle cx="380" cy="250" r="3.5" fill="#8a8a8a"/>
+  <circle cx="540" cy="250" r="3.5" fill="#8a8a8a"/>
+  <circle cx="220" cy="130" r="3.5" fill="#8a8a8a"/>
+  <circle cx="380" cy="130" r="3.5" fill="#8a8a8a"/>
+  <text x="44" y="256" fill="#8a8a8a">A</text>
+  <text x="210" y="272" fill="#8a8a8a">B</text>
+  <text x="548" y="256" fill="#8a8a8a">D</text>
+  <text x="206" y="124" fill="#8a8a8a">F</text>
+  <text x="386" y="124" fill="#8a8a8a">G</text>
+
+  <!-- moment center C -->
+  <circle cx="380" cy="250" r="6" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="392" y="242" fill="#8a8a8a">C (moment center)</text>
+
+  <!-- ===== forces (coral) ===== -->
+  <!-- reaction R_A -->
+  <line x1="60" y1="250" x2="60" y2="200" stroke="#e0645c" stroke-width="2" marker-end="url(#ah)"/>
+  <text x="16" y="194" fill="#e0645c">R_A = 6 kN</text>
+
+  <!-- reaction R_D -->
+  <line x1="540" y1="250" x2="540" y2="200" stroke="#e0645c" stroke-width="2" marker-end="url(#ah)"/>
+  <text x="500" y="194" fill="#e0645c">R_D = 12 kN</text>
+
+  <!-- applied load at C -->
+  <line x1="380" y1="250" x2="380" y2="300" stroke="#e0645c" stroke-width="2" marker-end="url(#ah)"/>
+  <text x="388" y="296" fill="#e0645c">18 kN</text>
+
+  <!-- exposed cut member forces (tension assumed: away from left body) -->
+  <line x1="300" y1="130" x2="350" y2="130" stroke="#e0645c" stroke-width="2" marker-end="url(#ah)"/>
+  <text x="316" y="122" fill="#e0645c">F_FG</text>
+
+  <line x1="300" y1="190" x2="345" y2="224" stroke="#e0645c" stroke-width="2" marker-end="url(#ah)"/>
+  <text x="352" y="214" fill="#e0645c">F_FC</text>
+
+  <line x1="300" y1="250" x2="350" y2="250" stroke="#e0645c" stroke-width="2" marker-end="url(#ah)"/>
+  <text x="316" y="268" fill="#e0645c">F_BC</text>
+</svg>

@@ -1,0 +1,57 @@
+<svg viewBox="0 0 660 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="20" y="24" fill="#8a8a8a" font-style="italic">Prandtl number sets which boundary layer is thicker: &#948;/&#948;&#8348; grows like Pr^(1/3).</text>
+
+  <!-- ============ Panel A: Pr < 1 ============ -->
+  <text x="70" y="56" fill="#8a8a8a" font-size="15">Pr &lt; 1</text>
+  <text x="52" y="74" fill="#8a8a8a" font-size="11">liquid metals</text>
+  <!-- incoming flow -->
+  <line x1="18" y1="150" x2="40" y2="150" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="42,150 32,146 32,154" fill="#8a8a8a"/>
+  <line x1="18" y1="180" x2="40" y2="180" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="42,180 32,176 32,184" fill="#8a8a8a"/>
+  <!-- plate -->
+  <line x1="35" y1="230" x2="205" y2="230" stroke="#8a8a8a" stroke-width="3"/>
+  <!-- thermal BL (coral) - thicker -->
+  <path d="M35,230 Q58,138 200,138" fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <!-- velocity BL (blue) - thinner -->
+  <path d="M35,230 Q58,178 200,178" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="206" y="142" fill="#e0645c" font-size="13">&#948;&#8348;</text>
+  <text x="206" y="182" fill="#4a90d9" font-size="13">&#948;</text>
+  <text x="44" y="252" fill="#8a8a8a" font-size="11">heat outruns momentum</text>
+
+  <!-- ============ Panel B: Pr ~ 1 ============ -->
+  <text x="290" y="56" fill="#8a8a8a" font-size="15">Pr &#8776; 1</text>
+  <text x="298" y="74" fill="#8a8a8a" font-size="11">gases</text>
+  <line x1="238" y1="150" x2="260" y2="150" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="262,150 252,146 252,154" fill="#8a8a8a"/>
+  <line x1="238" y1="180" x2="260" y2="180" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="262,180 252,176 252,184" fill="#8a8a8a"/>
+  <line x1="255" y1="230" x2="425" y2="230" stroke="#8a8a8a" stroke-width="3"/>
+  <path d="M255,230 Q278,160 420,160" fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <path d="M255,230 Q278,170 420,170" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="426" y="162" fill="#e0645c" font-size="13">&#948;&#8348;</text>
+  <text x="426" y="180" fill="#4a90d9" font-size="13">&#948;</text>
+  <text x="278" y="252" fill="#8a8a8a" font-size="11">the two nearly coincide</text>
+
+  <!-- ============ Panel C: Pr > 1 ============ -->
+  <text x="510" y="56" fill="#8a8a8a" font-size="15">Pr &gt; 1</text>
+  <text x="500" y="74" fill="#8a8a8a" font-size="11">oils, water</text>
+  <line x1="458" y1="150" x2="480" y2="150" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="482,150 472,146 472,154" fill="#8a8a8a"/>
+  <line x1="458" y1="180" x2="480" y2="180" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="482,180 472,176 472,184" fill="#8a8a8a"/>
+  <line x1="475" y1="230" x2="645" y2="230" stroke="#8a8a8a" stroke-width="3"/>
+  <!-- velocity BL (blue) - thicker -->
+  <path d="M475,230 Q498,138 640,138" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <!-- thermal BL (coral) - thinner -->
+  <path d="M475,230 Q498,182 640,182" fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="646" y="142" fill="#4a90d9" font-size="13">&#948;</text>
+  <text x="646" y="186" fill="#e0645c" font-size="13">&#948;&#8348;</text>
+  <text x="484" y="252" fill="#8a8a8a" font-size="11">momentum outruns heat</text>
+
+  <!-- ============ legend ============ -->
+  <line x1="150" y1="282" x2="180" y2="282" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="186" y="286" fill="#8a8a8a" font-size="12">&#948; velocity BL</text>
+  <line x1="330" y1="282" x2="360" y2="282" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="366" y="286" fill="#8a8a8a" font-size="12">&#948;&#8348; thermal BL</text>
+</svg>

@@ -1,0 +1,49 @@
+<svg viewBox="0 0 640 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="55" y="24" fill="#8a8a8a" font-style="italic">Stationary points on a PES: gradient vanishes at all three; the Hessian eigenvalue signs tell them apart.</text>
+
+  <!-- axes -->
+  <line x1="60" y1="300" x2="610" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="610,300 600,295 600,305" fill="#8a8a8a"/>
+  <text x="470" y="322" fill="#8a8a8a">reaction coordinate q</text>
+  <line x1="60" y1="300" x2="60" y2="55" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="60,55 55,65 65,65" fill="#8a8a8a"/>
+  <text x="72" y="62" fill="#8a8a8a">E (electronic energy)</text>
+
+  <!-- the PES / reaction profile curve -->
+  <path d="M 72 130 C 108 215, 128 208, 152 208 C 214 208, 302 112, 348 104 C 394 96, 474 240, 528 240 C 562 240, 584 182, 600 128"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- reactant minimum -->
+  <circle cx="152" cy="208" r="5" fill="#4a90d9"/>
+  <text x="112" y="235" fill="#4a90d9">reactant</text>
+  <text x="96" y="252" fill="#8a8a8a" font-size="12">both &#955; &gt; 0 : minimum</text>
+
+  <!-- product minimum -->
+  <circle cx="528" cy="240" r="5" fill="#4a90d9"/>
+  <text x="500" y="267" fill="#4a90d9">product</text>
+  <text x="486" y="284" fill="#8a8a8a" font-size="12">both &#955; &gt; 0 : minimum</text>
+
+  <!-- transition state saddle -->
+  <circle cx="348" cy="104" r="5" fill="#e0645c"/>
+  <text x="312" y="94" fill="#e0645c">transition state</text>
+  <text x="300" y="78" fill="#e0645c" font-size="12">one &#955; &lt; 0 : saddle</text>
+
+  <!-- negative-curvature cap over the TS (frown = maximum along q) -->
+  <path d="M 322 118 C 335 106, 361 106, 374 118" fill="none" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="3 3"/>
+
+  <!-- positive-curvature cups under each minimum (smile = minimum) -->
+  <path d="M 130 226 C 143 238, 161 238, 174 226" fill="none" stroke="#4a90d9" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <path d="M 506 258 C 519 270, 537 270, 550 258" fill="none" stroke="#4a90d9" stroke-width="1.5" stroke-dasharray="3 3"/>
+
+  <!-- downhill gradient arrows (-grad E) pointing toward minima -->
+  <line x1="268" y1="150" x2="238" y2="170" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="238,170 249,168 244,159" fill="#4a90d9"/>
+  <line x1="428" y1="150" x2="458" y2="172" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="458,172 447,169 452,161" fill="#4a90d9"/>
+  <text x="238" y="140" fill="#4a90d9" font-size="12">&#8722;&#8711;E (downhill)</text>
+
+  <!-- gradient-zero markers at stationary points -->
+  <text x="150" y="196" fill="#8a8a8a" font-size="12">&#8711;E=0</text>
+  <text x="338" y="128" fill="#8a8a8a" font-size="12">&#8711;E=0</text>
+  <text x="526" y="228" fill="#8a8a8a" font-size="12">&#8711;E=0</text>
+</svg>

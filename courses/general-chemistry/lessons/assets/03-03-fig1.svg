@@ -1,0 +1,38 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Two roads down the same hill: the direct drop and the stepwise detour reach the same &#916;H.</text>
+
+  <!-- enthalpy axis -->
+  <line x1="42" y1="300" x2="42" y2="48" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="42,48 37,58 47,58" fill="#8a8a8a"/>
+  <text x="20" y="70" fill="#8a8a8a" transform="rotate(-90 20 70)">H (enthalpy)</text>
+
+  <!-- energy levels -->
+  <!-- reactants -->
+  <line x1="70" y1="150" x2="210" y2="150" stroke="#8a8a8a" stroke-width="2.5"/>
+  <text x="76" y="140" fill="#8a8a8a">Reactants</text>
+  <!-- elements (intermediate, highest) -->
+  <line x1="250" y1="80" x2="400" y2="80" stroke="#8a8a8a" stroke-width="2.5"/>
+  <text x="258" y="70" fill="#8a8a8a">Elements (&#916;H&#402;&#176; = 0)</text>
+  <!-- products (lowest) -->
+  <line x1="440" y1="270" x2="580" y2="270" stroke="#8a8a8a" stroke-width="2.5"/>
+  <text x="470" y="290" fill="#8a8a8a">Products</text>
+
+  <!-- stepwise (coral) step 1: reactants up to elements -->
+  <line x1="205" y1="147" x2="256" y2="86" stroke="#e0645c" stroke-width="2.5" stroke-dasharray="6 4"/>
+  <polygon points="256,86 250,94 259,96" fill="#e0645c"/>
+  <text x="196" y="108" fill="#e0645c">&#916;H&#8321;</text>
+
+  <!-- stepwise (coral) step 2: elements down to products -->
+  <line x1="398" y1="86" x2="445" y2="264" stroke="#e0645c" stroke-width="2.5" stroke-dasharray="6 4"/>
+  <polygon points="445,264 447,253 438,257" fill="#e0645c"/>
+  <text x="410" y="180" fill="#e0645c">&#916;H&#8322;</text>
+
+  <!-- direct (blue): reactants down to products -->
+  <line x1="205" y1="153" x2="443" y2="266" stroke="#4a90d9" stroke-width="3"/>
+  <polygon points="443,266 432,262 435,271" fill="#4a90d9"/>
+  <text x="300" y="200" fill="#4a90d9">&#916;H<tspan font-size="10" dy="4">rxn</tspan></text>
+
+  <!-- summing note -->
+  <text x="150" y="326" fill="#8a8a8a">&#916;H<tspan font-size="10" dy="3">rxn</tspan><tspan dy="-3"> = &#916;H&#8321; + &#916;H&#8322;  (same start, same end &#8594; same total)</tspan></text>
+</svg>

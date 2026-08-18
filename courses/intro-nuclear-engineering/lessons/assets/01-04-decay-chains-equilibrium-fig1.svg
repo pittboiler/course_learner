@@ -1,0 +1,43 @@
+<svg viewBox="0 0 620 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="70" y="24" fill="#8a8a8a" font-style="italic">A long-lived parent holds nearly steady; the daughter builds up to meet it &#8212; activities equalize.</text>
+
+  <!-- y axis -->
+  <line x1="70" y1="240" x2="70" y2="52" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,52 65,62 75,62" fill="#8a8a8a"/>
+  <text x="60" y="48" fill="#8a8a8a" text-anchor="end">A</text>
+
+  <!-- x axis -->
+  <line x1="70" y1="240" x2="580" y2="240" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="580,240 570,235 570,245" fill="#8a8a8a"/>
+  <text x="576" y="262" fill="#8a8a8a" text-anchor="end">t  (daughter half-lives)</text>
+  <text x="60" y="245" fill="#8a8a8a" text-anchor="end">0</text>
+
+  <!-- x ticks -->
+  <line x1="140" y1="240" x2="140" y2="245" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="140" y="258" fill="#8a8a8a" text-anchor="middle">1</text>
+  <line x1="210" y1="240" x2="210" y2="245" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="210" y="258" fill="#8a8a8a" text-anchor="middle">2</text>
+  <line x1="280" y1="240" x2="280" y2="245" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="280" y="258" fill="#8a8a8a" text-anchor="middle">3</text>
+  <line x1="420" y1="240" x2="420" y2="245" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="420" y="258" fill="#8a8a8a" text-anchor="middle">5</text>
+  <line x1="560" y1="240" x2="560" y2="245" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="560" y="258" fill="#8a8a8a" text-anchor="middle">7</text>
+
+  <!-- parent activity: nearly flat, slowly declining -->
+  <line x1="70" y1="88" x2="560" y2="103" stroke="#4a90d9" stroke-width="3"/>
+  <text x="150" y="80" fill="#4a90d9">parent A&#8321; (long-lived)</text>
+
+  <!-- daughter buildup curve -->
+  <path d="M 70 240 L 140 165 L 210 129 L 280 113 L 350 106 L 420 103 L 490 103 L 560 104"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+  <text x="300" y="160" fill="#e0645c">daughter A&#8322;</text>
+
+  <!-- equilibrium meeting dot + label -->
+  <circle cx="490" cy="103" r="4" fill="#e0645c"/>
+  <line x1="490" y1="103" x2="490" y2="240" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="498" y="150" fill="#8a8a8a">secular</text>
+  <text x="498" y="167" fill="#8a8a8a">equilibrium:</text>
+  <text x="498" y="184" fill="#8a8a8a">A&#8322; &#8594; A&#8321;</text>
+</svg>

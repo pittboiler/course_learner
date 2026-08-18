@@ -1,0 +1,50 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Displace the electron slab by x and bare +/− sheets appear; their field E shoves the electrons back — the plasma rings at &#969;&#8346;.</text>
+
+  <!-- ===== ion frame (fixed background, grey dashed) ===== -->
+  <rect x="140" y="90" width="320" height="140" fill="none" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="150" y="252" fill="#8a8a8a">ions (fixed +), uniform background</text>
+
+  <!-- ===== electron slab, shifted right by x ===== -->
+  <rect x="184" y="95" width="320" height="130" fill="#4a90d9" opacity="0.15"/>
+  <rect x="184" y="95" width="320" height="130" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="300" y="118" fill="#4a90d9">electrons (mobile −)</text>
+
+  <!-- exposed positive sheet (bare ions), left strip 140..184 -->
+  <rect x="140" y="90" width="44" height="140" fill="#e0645c" opacity="0.15"/>
+  <text x="156" y="150" fill="#e0645c" text-anchor="middle">+</text>
+  <text x="156" y="178" fill="#e0645c" text-anchor="middle">+</text>
+  <text x="156" y="206" fill="#e0645c" text-anchor="middle">+</text>
+
+  <!-- exposed negative sheet (bare electrons), right strip 460..504 -->
+  <rect x="460" y="90" width="44" height="140" fill="#e0645c" opacity="0.15"/>
+  <text x="482" y="150" fill="#e0645c" text-anchor="middle">−</text>
+  <text x="482" y="178" fill="#e0645c" text-anchor="middle">−</text>
+  <text x="482" y="206" fill="#e0645c" text-anchor="middle">−</text>
+
+  <!-- displacement x, measured at top between ion edge (140) and electron edge (184) -->
+  <line x1="140" y1="72" x2="140" y2="90" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="184" y1="72" x2="184" y2="95" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="140" y1="78" x2="184" y2="78" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="140,78 149,74 149,82" fill="#8a8a8a"/>
+  <polygon points="184,78 175,74 175,82" fill="#8a8a8a"/>
+  <text x="162" y="70" fill="#8a8a8a" text-anchor="middle">x</text>
+
+  <!-- E field arrows (coral, rightward, between the sheets) -->
+  <line x1="250" y1="140" x2="410" y2="140" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="410,140 400,135 400,145" fill="#e0645c"/>
+  <text x="330" y="132" fill="#e0645c" text-anchor="middle">E &#8594;</text>
+
+  <!-- restoring force on the electrons (coral, leftward) -->
+  <line x1="400" y1="196" x2="250" y2="196" stroke="#e0645c" stroke-width="3"/>
+  <polygon points="250,196 260,191 260,201" fill="#e0645c"/>
+  <text x="330" y="216" fill="#e0645c" text-anchor="middle">F = −eE</text>
+
+  <!-- annotations -->
+  <text x="516" y="150" fill="#e0645c">E = n e x / &#949;&#8320;</text>
+  <text x="150" y="290" fill="#8a8a8a">m d²x/dt² = −eE</text>
+  <text x="300" y="290" fill="#8a8a8a">&#8658;</text>
+  <text x="330" y="290" fill="#4a90d9">d²x/dt² + &#969;&#8346;² x = 0,</text>
+  <text x="490" y="290" fill="#4a90d9">&#969;&#8346; = &#8730;(n e² / &#949;&#8320; m&#8339;)</text>
+</svg>

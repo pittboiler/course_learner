@@ -1,0 +1,62 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="20" y="24" fill="#8a8a8a" font-style="italic">Left: transitivity of equilibrium (the zeroth law). Right: a gas thermometer extrapolates to absolute zero.</text>
+
+  <!-- ================= LEFT: A, B, C transitivity ================= -->
+
+  <!-- C: shared reference (thermometer), top center -->
+  <rect x="118" y="52" width="72" height="52" rx="4" fill="#8a8a8a" opacity="0.12" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="146" y="84" fill="#8a8a8a" font-size="22" font-weight="bold">C</text>
+  <text x="196" y="70" fill="#8a8a8a" font-style="italic" font-size="12">reference</text>
+  <text x="196" y="86" fill="#8a8a8a" font-style="italic" font-size="12">(thermometer)</text>
+
+  <!-- A: bottom left -->
+  <rect x="34" y="196" width="72" height="52" rx="4" fill="#4a90d9" opacity="0.12" stroke="#4a90d9" stroke-width="2"/>
+  <text x="62" y="228" fill="#4a90d9" font-size="22" font-weight="bold">A</text>
+
+  <!-- B: bottom right -->
+  <rect x="202" y="196" width="72" height="52" rx="4" fill="#4a90d9" opacity="0.12" stroke="#4a90d9" stroke-width="2"/>
+  <text x="230" y="228" fill="#4a90d9" font-size="22" font-weight="bold">B</text>
+
+  <!-- observed contact A <-> C (blue, solid = measured) -->
+  <line x1="74" y1="196" x2="132" y2="104" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="70" y="158" fill="#4a90d9" font-size="12">A ⇌ C</text>
+
+  <!-- observed contact B <-> C (blue, solid = measured) -->
+  <line x1="234" y1="196" x2="176" y2="104" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="214" y="158" fill="#4a90d9" font-size="12">B ⇌ C</text>
+
+  <!-- deduced A <-> B (coral, dashed = conclusion) -->
+  <line x1="106" y1="222" x2="202" y2="222" stroke="#e0645c" stroke-width="2.5" stroke-dasharray="6 4"/>
+  <text x="118" y="216" fill="#e0645c" font-size="12">∴ A ⇌ B</text>
+  <text x="60" y="286" fill="#8a8a8a" font-style="italic" font-size="12">same reading on C ⟹ same temperature</text>
+
+  <!-- ================= RIGHT: P vs T gas thermometer ================= -->
+
+  <!-- axes -->
+  <line x1="420" y1="248" x2="626" y2="248" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="626,248 616,243 616,253" fill="#8a8a8a"/>
+  <text x="600" y="268" fill="#8a8a8a" font-size="12">T (°C)</text>
+  <line x1="420" y1="248" x2="420" y2="58" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="420,58 415,68 425,68" fill="#8a8a8a"/>
+  <text x="404" y="70" fill="#8a8a8a" font-size="12">P</text>
+
+  <!-- extrapolated portion: from absolute zero up to first data point (coral dashed) -->
+  <!-- absolute zero at (433,248); T=0C data at (562,117) -->
+  <line x1="433" y1="248" x2="562" y2="117" stroke="#e0645c" stroke-width="2" stroke-dasharray="6 4"/>
+
+  <!-- measured portion: T=0C to T=100C (blue solid) -->
+  <line x1="562" y1="117" x2="610" y2="72" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- data points -->
+  <circle cx="562" cy="117" r="4.5" fill="#4a90d9"/>
+  <text x="540" y="108" fill="#4a90d9" font-size="12">0 °C</text>
+  <circle cx="610" cy="72" r="4.5" fill="#4a90d9"/>
+  <text x="580" y="64" fill="#4a90d9" font-size="12">100 °C</text>
+
+  <!-- absolute zero marker -->
+  <circle cx="433" cy="248" r="4.5" fill="#e0645c"/>
+  <line x1="433" y1="248" x2="433" y2="262" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="398" y="278" fill="#e0645c" font-size="12">−273.15 °C</text>
+  <text x="440" y="242" fill="#e0645c" font-size="12">P → 0</text>
+</svg>

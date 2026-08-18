@@ -1,0 +1,27 @@
+<svg viewBox="0 0 420 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="420" height="320" fill="#ffffff"/>
+
+  <!-- edges -->
+  <line x1="90" y1="70" x2="330" y2="70" stroke="#1a1a1a" stroke-width="3"/>
+  <line x1="330" y1="70" x2="330" y2="250" stroke="#1a1a1a" stroke-width="3"/>
+  <line x1="330" y1="250" x2="90" y2="250" stroke="#1a1a1a" stroke-width="3"/>
+  <line x1="90" y1="250" x2="90" y2="70" stroke="#1a1a1a" stroke-width="3"/>
+  <line x1="90" y1="70" x2="330" y2="250" stroke="#1a1a1a" stroke-width="3"/>
+
+  <!-- face labels -->
+  <text x="258" y="132" font-size="18" fill="#c0392b" font-weight="bold">f₁</text>
+  <text x="150" y="205" font-size="18" fill="#2471a3" font-weight="bold">f₂</text>
+  <text x="196" y="34" font-size="18" fill="#117a1f" font-weight="bold">f₃ (outer)</text>
+
+  <!-- vertices -->
+  <circle cx="90" cy="70" r="7" fill="#1a1a1a"/>
+  <circle cx="330" cy="70" r="7" fill="#1a1a1a"/>
+  <circle cx="330" cy="250" r="7" fill="#1a1a1a"/>
+  <circle cx="90" cy="250" r="7" fill="#1a1a1a"/>
+
+  <!-- vertex labels -->
+  <text x="72" y="62" font-size="17" fill="#1a1a1a">A</text>
+  <text x="340" y="62" font-size="17" fill="#1a1a1a">B</text>
+  <text x="340" y="268" font-size="17" fill="#1a1a1a">C</text>
+  <text x="72" y="268" font-size="17" fill="#1a1a1a">D</text>
+</svg>

@@ -1,0 +1,69 @@
+<svg viewBox="0 0 720 440" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Newton's 2nd law per unit volume: inertia = pressure + viscous + gravity. One geometry, and symmetry deletes all but one term.</text>
+
+  <!-- ================= top: the annotated equation ================= -->
+  <text x="60"  y="112" fill="#4a90d9" font-size="28">&#961; Dv/Dt</text>
+  <text x="212" y="112" fill="#8a8a8a" font-size="28">=</text>
+  <text x="245" y="112" fill="#e0645c" font-size="28">&#8722;&#8711;p</text>
+  <text x="322" y="112" fill="#8a8a8a" font-size="28">+</text>
+  <text x="352" y="112" fill="#4a90d9" font-size="28">&#956;&#8711;&#178;v</text>
+  <text x="448" y="112" fill="#8a8a8a" font-size="28">+</text>
+  <text x="480" y="112" fill="#8a8a8a" font-size="28">&#961;g</text>
+
+  <!-- connector ticks + labels -->
+  <line x1="120" y1="126" x2="120" y2="150" stroke="#4a90d9" stroke-width="1"/>
+  <text x="60"  y="168" fill="#4a90d9" font-size="12">inertia</text>
+  <text x="42"  y="184" fill="#8a8a8a" font-size="11">accumulate + convect momentum</text>
+
+  <line x1="272" y1="126" x2="272" y2="210" stroke="#e0645c" stroke-width="1"/>
+  <text x="248" y="228" fill="#e0645c" font-size="12">pressure force</text>
+
+  <line x1="385" y1="126" x2="385" y2="150" stroke="#4a90d9" stroke-width="1"/>
+  <text x="345" y="168" fill="#4a90d9" font-size="12">viscous force</text>
+  <text x="336" y="184" fill="#8a8a8a" font-size="11">diffusion of momentum</text>
+
+  <line x1="500" y1="126" x2="500" y2="210" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="482" y="228" fill="#8a8a8a" font-size="12">gravity</text>
+
+  <!-- divider -->
+  <line x1="30" y1="250" x2="690" y2="250" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 5"/>
+  <text x="30" y="272" fill="#8a8a8a" font-size="12">For a horizontal pipe: steady + fully developed + only v<tspan baseline-shift="sub" font-size="10">z</tspan>(r) &#8594; every term dies but two.</text>
+
+  <!-- ================= inset: pipe flow reduction ================= -->
+  <!-- tube walls -->
+  <line x1="90" y1="300" x2="300" y2="300" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="90" y1="392" x2="300" y2="392" stroke="#8a8a8a" stroke-width="2"/>
+  <!-- centerline -->
+  <line x1="90" y1="346" x2="300" y2="346" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <!-- inlet face -->
+  <line x1="90" y1="300" x2="90" y2="392" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- velocity arrows (parabolic) -->
+  <line x1="90" y1="346" x2="210" y2="346" stroke="#4a90d9" stroke-width="1.5"/>
+  <polygon points="210,346 202,342 202,350" fill="#4a90d9"/>
+  <line x1="90" y1="332" x2="198" y2="332" stroke="#4a90d9" stroke-width="1.5"/>
+  <polygon points="198,332 190,328 190,336" fill="#4a90d9"/>
+  <line x1="90" y1="360" x2="198" y2="360" stroke="#4a90d9" stroke-width="1.5"/>
+  <polygon points="198,360 190,356 190,364" fill="#4a90d9"/>
+  <line x1="90" y1="318" x2="162" y2="318" stroke="#4a90d9" stroke-width="1.5"/>
+  <polygon points="162,318 154,314 154,322" fill="#4a90d9"/>
+  <line x1="90" y1="374" x2="162" y2="374" stroke="#4a90d9" stroke-width="1.5"/>
+  <polygon points="162,374 154,370 154,378" fill="#4a90d9"/>
+
+  <!-- coral parabola through the arrow tips -->
+  <path d="M 90 300 L 128 306 L 162 318 L 198 332 L 210 346 L 198 360 L 162 374 L 128 386 L 90 392"
+        fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="216" y="322" fill="#e0645c" font-size="13">v<tspan baseline-shift="sub" font-size="10">z</tspan>(r)</text>
+  <text x="228" y="352" fill="#8a8a8a" font-size="12">R</text>
+  <line x1="304" y1="300" x2="304" y2="346" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- big arrow to the reduced ODE -->
+  <line x1="330" y1="346" x2="372" y2="346" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="372,346 362,341 362,351" fill="#8a8a8a"/>
+
+  <!-- reduced ODE -->
+  <text x="392" y="330" fill="#4a90d9" font-size="17">(&#956;/r) d/dr( r dv<tspan baseline-shift="sub" font-size="10">z</tspan>/dr ) = dp/dz</text>
+  <text x="392" y="366" fill="#8a8a8a" font-size="13">the Poiseuille equation &#8594; integrate twice</text>
+  <text x="392" y="392" fill="#e0645c" font-size="15">v<tspan baseline-shift="sub" font-size="10">z</tspan>(r) = v&#8320;[1 &#8722; (r/R)&#178;]</text>
+</svg>

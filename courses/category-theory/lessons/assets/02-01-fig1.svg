@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 430" width="700" height="430">
+  <rect x="0" y="0" width="700" height="430" fill="#ffffff"/>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#111111"/>
+    </marker>
+  </defs>
+
+  <!-- node labels -->
+  <text x="342" y="52"  font-family="Helvetica, Arial, sans-serif" font-size="26" font-style="italic" fill="#111111">X</text>
+  <text x="316" y="242" font-family="Helvetica, Arial, sans-serif" font-size="26" font-style="italic" fill="#111111">A &#215; B</text>
+  <text x="104" y="392" font-family="Helvetica, Arial, sans-serif" font-size="26" font-style="italic" fill="#111111">A</text>
+  <text x="574" y="392" font-family="Helvetica, Arial, sans-serif" font-size="26" font-style="italic" fill="#111111">B</text>
+
+  <!-- unique mediating arrow u = <f,g> : X -> A x B (dashed) -->
+  <line x1="350" y1="70" x2="350" y2="212" stroke="#111111" stroke-width="2" stroke-dasharray="7,6" marker-end="url(#arrow)"/>
+  <text x="362" y="150" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#111111">&#8707;! &#10216;f, g&#10217;</text>
+
+  <!-- projections -->
+  <line x1="330" y1="248" x2="140" y2="368" stroke="#111111" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="196" y="300" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#111111">&#960;<tspan dy="7" font-size="15">A</tspan></text>
+
+  <line x1="392" y1="248" x2="562" y2="368" stroke="#111111" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="480" y="300" font-family="Helvetica, Arial, sans-serif" font-size="21" fill="#111111">&#960;<tspan dy="7" font-size="15">B</tspan></text>
+
+  <!-- components f and g -->
+  <path d="M 336 66 Q 150 150 124 362" fill="none" stroke="#111111" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="168" y="150" font-family="Helvetica, Arial, sans-serif" font-size="22" font-style="italic" fill="#111111">f</text>
+
+  <path d="M 364 66 Q 552 150 576 362" fill="none" stroke="#111111" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="522" y="150" font-family="Helvetica, Arial, sans-serif" font-size="22" font-style="italic" fill="#111111">g</text>
+
+  <!-- commutes note -->
+  <text x="250" y="418" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#111111">both triangles commute</text>
+</svg>

@@ -1,0 +1,55 @@
+<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="70" y="26" fill="#8a8a8a" font-style="italic">Rutherford: dσ/dΩ ∝ 1/sin⁴(θ/2) — a violent forward peak (log axis), with a rare large-angle tail that revealed the nucleus.</text>
+
+  <!-- y-axis -->
+  <line x1="70" y1="50" x2="70" y2="320" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,50 65,60 75,60" fill="#8a8a8a"/>
+  <text x="24" y="46" fill="#8a8a8a">dσ/dΩ</text>
+
+  <!-- y gridline labels (log10: 1,10,100,1000,10000) -->
+  <line x1="66" y1="320.0" x2="70" y2="320.0" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="44" y="324" fill="#8a8a8a" text-anchor="end">1</text>
+  <line x1="66" y1="262.2" x2="70" y2="262.2" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="44" y="266" fill="#8a8a8a" text-anchor="end">10</text>
+  <line x1="66" y1="204.4" x2="70" y2="204.4" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="44" y="208" fill="#8a8a8a" text-anchor="end">10²</text>
+  <line x1="66" y1="146.7" x2="70" y2="146.7" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="44" y="150" fill="#8a8a8a" text-anchor="end">10³</text>
+  <line x1="66" y1="88.9" x2="70" y2="88.9" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="44" y="92" fill="#8a8a8a" text-anchor="end">10⁴</text>
+
+  <!-- x-axis -->
+  <line x1="70" y1="320" x2="610" y2="320" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="610,320 600,315 600,325" fill="#8a8a8a"/>
+  <text x="590" y="352" fill="#8a8a8a">θ (deg)</text>
+
+  <!-- x ticks -->
+  <line x1="70"    y1="320" x2="70"    y2="325" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="70"  y="340" fill="#8a8a8a" text-anchor="middle">0</text>
+  <line x1="156.7" y1="320" x2="156.7" y2="325" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="156.7" y="340" fill="#8a8a8a" text-anchor="middle">30</text>
+  <line x1="243.3" y1="320" x2="243.3" y2="325" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="243.3" y="340" fill="#8a8a8a" text-anchor="middle">60</text>
+  <line x1="330"   y1="320" x2="330"   y2="325" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="330" y="340" fill="#8a8a8a" text-anchor="middle">90</text>
+  <line x1="416.7" y1="320" x2="416.7" y2="325" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="416.7" y="340" fill="#8a8a8a" text-anchor="middle">120</text>
+  <line x1="503.3" y1="320" x2="503.3" y2="325" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="503.3" y="340" fill="#8a8a8a" text-anchor="middle">150</text>
+  <line x1="590"   y1="320" x2="590"   y2="325" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="590" y="340" fill="#8a8a8a" text-anchor="middle">180</text>
+
+  <!-- Rutherford curve: log10(1/sin^4(θ/2)) -->
+  <path d="M 98.9 75.2 L 127.8 144.3 L 156.7 184.3 L 185.6 212.3 L 214.4 233.6 L 243.3 250.4 L 272.2 264.2 L 301.1 275.6 L 330.0 285.2 L 358.9 293.2 L 387.8 300.0 L 416.7 305.6 L 445.6 310.1 L 474.4 313.8 L 503.3 316.5 L 532.2 318.5 L 561.1 319.6 L 590.0 320.0"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- coral marker: rare large-angle backscatter -->
+  <circle cx="503.3" cy="316.5" r="5" fill="#e0645c"/>
+  <line x1="503.3" y1="316.5" x2="470" y2="250" stroke="#e0645c" stroke-width="1"/>
+  <text x="360" y="238" fill="#e0645c">rare backscatter</text>
+  <text x="352" y="255" fill="#e0645c">⇒ tiny dense nucleus</text>
+
+  <!-- forward-peak label -->
+  <text x="112" y="105" fill="#4a90d9">forward peak</text>
+</svg>

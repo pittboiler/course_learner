@@ -1,0 +1,34 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">A rank-2 tensor is one object; rotating the axes by R just re-labels its 9 components: T'_ij = R_ik R_jl T_kl.</text>
+
+  <!-- ===== response ellipse (the tensor as a physical object, frame-independent) ===== -->
+  <ellipse cx="300" cy="196" rx="150" ry="72" transform="rotate(-30 300 196)"
+           fill="#4a90d9" fill-opacity="0.15" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <!-- ===== original axes (grey) ===== -->
+  <line x1="120" y1="196" x2="484" y2="196" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="484,196 474,191 474,201" fill="#8a8a8a"/>
+  <text x="488" y="201" fill="#8a8a8a">x_1</text>
+  <line x1="300" y1="316" x2="300" y2="76" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="300,76 295,86 305,86" fill="#8a8a8a"/>
+  <text x="286" y="72" fill="#8a8a8a">x_2</text>
+
+  <!-- ===== rotated axes (coral) — the principal axes of the ellipse ===== -->
+  <!-- x1' along (cos30, -sin30): up-right -->
+  <line x1="300" y1="196" x2="452" y2="108" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="452,108 440,109 447,119" fill="#e0645c"/>
+  <text x="456" y="106" fill="#e0645c">x_1'</text>
+  <!-- x2' along (-sin30, -cos30): up-left -->
+  <line x1="300" y1="196" x2="212" y2="44" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="212,44 213,56 223,49" fill="#e0645c"/>
+  <text x="188" y="40" fill="#e0645c">x_2'</text>
+
+  <!-- rotation angle arc -->
+  <path d="M 356 196 A 56 56 0 0 0 348.5 167" fill="none" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="360" y="180" fill="#e0645c">θ</text>
+
+  <!-- annotation: principal axes -->
+  <text x="360" y="150" fill="#8a8a8a" font-style="italic">principal axes</text>
+  <text x="360" y="167" fill="#8a8a8a" font-style="italic">(T' diagonal here)</text>
+</svg>

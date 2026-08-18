@@ -1,0 +1,60 @@
+<svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Free energy in the velocity bumps (left, ∂f/∂v &gt; 0 on the inner flank) feeds a wave that grows over a band of k (right).</text>
+
+  <!-- ================= LEFT: velocity-space distribution ================= -->
+  <!-- v axis -->
+  <line x1="40" y1="250" x2="308" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="308,250 298,245 298,255" fill="#8a8a8a"/>
+  <text x="312" y="255" fill="#8a8a8a">v</text>
+  <!-- f axis -->
+  <line x1="50" y1="258" x2="50" y2="95" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="50,95 45,105 55,105" fill="#8a8a8a"/>
+  <text x="36" y="105" fill="#8a8a8a">f</text>
+  <!-- beam-center ticks -->
+  <line x1="110" y1="250" x2="110" y2="256" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="90" y="270" fill="#8a8a8a">−v₀</text>
+  <line x1="170" y1="250" x2="170" y2="256" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="164" y="270" fill="#8a8a8a">0</text>
+  <line x1="230" y1="250" x2="230" y2="256" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="216" y="270" fill="#8a8a8a">+v₀</text>
+
+  <!-- two-beam distribution (coral): humps at ±v0 with a valley between -->
+  <path d="M 50 244 L 60 235 L 70 218 L 80 190 L 90 158 L 100 131 L 110 120 L 120 131 L 130 158 L 140 190 L 150 217 L 160 233 L 170 238 L 180 233 L 190 217 L 200 190 L 210 158 L 220 131 L 230 120 L 240 131 L 250 158 L 260 190 L 270 218 L 280 235 L 290 244"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+
+  <!-- positive-slope highlight on inner flank (valley -> right peak) -->
+  <path d="M 170 238 L 180 233 L 190 217 L 200 190 L 210 158 L 220 131 L 230 120"
+        fill="none" stroke="#4a90d9" stroke-width="3.5" opacity="0.9"/>
+  <text x="196" y="150" fill="#4a90d9">∂f/∂v &gt; 0</text>
+  <text x="150" y="292" fill="#8a8a8a" font-style="italic">two counter-streaming beams</text>
+
+  <!-- ================= RIGHT: growth-rate curve γ(k) ================= -->
+  <!-- k axis -->
+  <line x1="360" y1="250" x2="612" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="612,250 602,245 602,255" fill="#8a8a8a"/>
+  <text x="590" y="270" fill="#8a8a8a">kv₀/ωₚ</text>
+  <!-- γ axis -->
+  <line x1="360" y1="258" x2="360" y2="95" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="360,95 355,105 365,105" fill="#8a8a8a"/>
+  <text x="330" y="105" fill="#8a8a8a">γ/ωₚ</text>
+
+  <!-- shaded unstable band under curve -->
+  <path d="M 360 250 L 375 227 L 390 205 L 405 186 L 420 169 L 450 145 L 490 133 L 510 137 L 540 157 L 555 178 L 572 250 Z"
+        fill="#4a90d9" opacity="0.15"/>
+
+  <!-- γ(k) curve (blue), peak ωp/2 at kv0=√3/2 ωp, zero at kv0=√2 ωp -->
+  <path d="M 360 250 L 375 227 L 390 205 L 405 186 L 420 169 L 450 145 L 490 133 L 510 137 L 540 157 L 555 178 L 572 250"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- γ_max = ωp/2 marker -->
+  <line x1="360" y1="133" x2="490" y2="133" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="366" y="128" fill="#e0645c">γ_max ≈ ωₚ/2</text>
+  <line x1="490" y1="133" x2="490" y2="250" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="470" y="245" fill="#e0645c" font-size="12">√3/2</text>
+
+  <!-- cutoff kv0 = √2 ωp -->
+  <line x1="572" y1="250" x2="572" y2="235" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="556" y="230" fill="#8a8a8a" font-size="12">√2</text>
+  <text x="404" y="292" fill="#8a8a8a" font-style="italic">unstable band: kv₀ &lt; √2 ωₚ</text>
+</svg>

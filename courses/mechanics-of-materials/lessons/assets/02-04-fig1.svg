@@ -1,0 +1,46 @@
+<svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Bending stress varies linearly with distance y from the neutral axis: zero at the centroid, max at the extreme fibers.</text>
+
+  <!-- neutral axis, extended across both panels -->
+  <line x1="45" y1="170" x2="440" y2="170" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="352" y="165" fill="#8a8a8a">N.A. (centroid)</text>
+
+  <!-- ===== left: cross-section ===== -->
+  <rect x="75" y="75" width="70" height="190" fill="#4a90d9" opacity="0.12" stroke="#4a90d9" stroke-width="2"/>
+  <text x="90" y="292" fill="#4a90d9">section</text>
+
+  <!-- c dimension: NA up to top fiber -->
+  <line x1="160" y1="170" x2="160" y2="75" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="160,75 156,84 164,84" fill="#e0645c"/>
+  <polygon points="160,170 156,161 164,161" fill="#e0645c"/>
+  <text x="166" y="126" fill="#e0645c">c</text>
+
+  <!-- ===== right: linear stress distribution ===== -->
+  <!-- vertical zero-stress axis at the NA -->
+  <line x1="330" y1="75" x2="330" y2="265" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- compression wedge (top) -->
+  <polygon points="330,75 250,75 330,170" fill="#4a90d9" opacity="0.15"/>
+  <line x1="250" y1="75" x2="330" y2="170" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="330" y1="75" x2="250" y2="75" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="250,75 259,71 259,79" fill="#4a90d9"/>
+  <text x="238" y="60" fill="#4a90d9">compression</text>
+  <text x="238" y="96" fill="#4a90d9">&#963; = &#8722;Mc/I</text>
+
+  <!-- tension wedge (bottom) -->
+  <polygon points="330,170 410,265 330,265" fill="#e0645c" opacity="0.15"/>
+  <line x1="330" y1="170" x2="410" y2="265" stroke="#e0645c" stroke-width="2.5"/>
+  <line x1="330" y1="265" x2="410" y2="265" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="410,265 401,261 401,269" fill="#e0645c"/>
+  <text x="345" y="258" fill="#e0645c">tension</text>
+  <text x="345" y="292" fill="#e0645c">&#963; = +Mc/I</text>
+
+  <!-- +y direction arrow -->
+  <line x1="300" y1="170" x2="300" y2="110" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="300,110 296,119 304,119" fill="#8a8a8a"/>
+  <text x="285" y="106" fill="#8a8a8a">+y</text>
+
+  <!-- bridge between the two panels -->
+  <line x1="200" y1="75" x2="250" y2="75" stroke="#8a8a8a" stroke-width="0.75" stroke-dasharray="2 3"/>
+  <line x1="200" y1="265" x2="330" y2="265" stroke="#8a8a8a" stroke-width="0.75" stroke-dasharray="2 3"/>
+</svg>

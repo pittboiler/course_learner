@@ -108,9 +108,15 @@ function pctDone(id) {
   const total = info ? info.lessons_estimate : 1;
   return Math.min(100, Math.round((100 * doneCount(id)) / total));
 }
+function lessonFileCount(id) {
+  return STATE.courses[id]?.lessons?.length || 0;
+}
 function courseStatus(c) {
   if (doneCount(c.id) > 0) return "active";
-  if (STATE.courses[c.id]?.hasSyllabus) return "ready";
+  if (STATE.courses[c.id]?.hasSyllabus) {
+    // Has a syllabus but no lesson files yet → syllabus-only, not a full course.
+    return lessonFileCount(c.id) > 0 ? "ready" : "syllabus";
+  }
   return c.prereqs.every((p) => pctDone(p) >= 60) ? "ready" : "locked";
 }
 function streakDays() {
@@ -163,14 +169,14 @@ function renderDashboard() {
 function cardHTML(c) {
   const status = courseStatus(c);
   const done = doneCount(c.id);
-  const badge = { active: "In progress", ready: "Ready", locked: "Locked" }[status];
+  const badge = { active: "In progress", ready: "Ready", locked: "Locked", syllabus: "Syllabus only" }[status];
   return `
     <a class="card ${status === "locked" ? "locked" : ""}" href="#/course/${c.id}">
       <div class="title">${esc(c.title)}</div>
       <span class="badge ${status}">${badge}</span>
       <span class="tier-tag">${TIER_LABEL[c.tier] ?? `Tier ${c.tier}`}</span>
       <div class="blurb">${esc(c.blurb)}</div>
-      <div class="muted" style="font-size:12px">${done} / ~${c.lessons_estimate} lessons</div>
+      <div class="muted" style="font-size:12px">${status === "syllabus" ? `Syllabus only · ~${c.lessons_estimate} lessons planned` : `${done} / ~${c.lessons_estimate} lessons`}</div>
       <div class="bar"><div style="width:${pctDone(c.id)}%"></div></div>
     </a>`;
 }
@@ -254,8 +260,10 @@ async function renderCourse(id) {
   $app.innerHTML = `
     <div class="crumbs"><a href="#/library">Library</a> ›</div>
     <h1>${esc(info.title)}</h1>
-    <div class="bar" style="max-width:340px"><div style="width:${pctDone(id)}%"></div></div>
-    ${lessons.length ? `<h2>Lessons</h2><ul class="lesson-list">${lessonItems}</ul>` : ""}
+    ${lessons.length ? `<div class="bar" style="max-width:340px"><div style="width:${pctDone(id)}%"></div></div>` : ""}
+    ${lessons.length
+      ? `<h2>Lessons</h2><ul class="lesson-list">${lessonItems}</ul>`
+      : `<div class="notice syllabus-only">📄 <strong>Syllabus only.</strong> Lessons for this course haven\'t been generated yet — the outline below is the plan. Run <code>/prep ${esc(id)}</code> in Claude Code to build them.</div>`}
     ${quizSectionHTML(id)}
     <h2>Syllabus</h2>
     ${syllabusHTML}

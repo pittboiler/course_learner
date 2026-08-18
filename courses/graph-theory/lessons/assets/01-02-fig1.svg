@@ -1,0 +1,63 @@
+<svg viewBox="0 0 520 260" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="520" height="260" fill="#ffffff"/>
+
+  <!-- edges -->
+  <line x1="90" y1="70" x2="90" y2="190" stroke="#1a1a1a" stroke-width="2.5"/>
+  <line x1="90" y1="70" x2="200" y2="130" stroke="#1a1a1a" stroke-width="2.5"/>
+  <line x1="90" y1="190" x2="200" y2="130" stroke="#1a1a1a" stroke-width="2.5"/>
+  <line x1="200" y1="130" x2="300" y2="130" stroke="#1a1a1a" stroke-width="2.5"/>
+
+  <!-- vertices -->
+  <circle cx="90" cy="70" r="15" fill="#cfe3ff" stroke="#1a1a1a" stroke-width="2"/>
+  <circle cx="90" cy="190" r="15" fill="#cfe3ff" stroke="#1a1a1a" stroke-width="2"/>
+  <circle cx="200" cy="130" r="15" fill="#ffe0b3" stroke="#1a1a1a" stroke-width="2"/>
+  <circle cx="300" cy="130" r="15" fill="#cfe3ff" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="90" y="75" text-anchor="middle" font-size="15" fill="#111">1</text>
+  <text x="90" y="195" text-anchor="middle" font-size="15" fill="#111">2</text>
+  <text x="200" y="135" text-anchor="middle" font-size="15" fill="#111">3</text>
+  <text x="300" y="135" text-anchor="middle" font-size="15" fill="#111">4</text>
+
+  <text x="195" y="235" text-anchor="middle" font-size="13" fill="#444">triangle 1-2-3 with pendant 4</text>
+
+  <!-- matrix -->
+  <text x="352" y="168" text-anchor="middle" font-size="18" fill="#111">A =</text>
+
+  <!-- column headers -->
+  <text x="400" y="100" text-anchor="middle" font-size="13" fill="#3366aa">1</text>
+  <text x="428" y="100" text-anchor="middle" font-size="13" fill="#3366aa">2</text>
+  <text x="456" y="100" text-anchor="middle" font-size="13" fill="#3366aa">3</text>
+  <text x="484" y="100" text-anchor="middle" font-size="13" fill="#3366aa">4</text>
+
+  <!-- row headers -->
+  <text x="374" y="130" text-anchor="middle" font-size="13" fill="#3366aa">1</text>
+  <text x="374" y="155" text-anchor="middle" font-size="13" fill="#3366aa">2</text>
+  <text x="374" y="180" text-anchor="middle" font-size="13" fill="#3366aa">3</text>
+  <text x="374" y="205" text-anchor="middle" font-size="13" fill="#3366aa">4</text>
+
+  <!-- brackets -->
+  <path d="M 388 112 L 384 112 L 384 214 L 388 214" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+  <path d="M 496 112 L 500 112 L 500 214 L 496 214" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+
+  <!-- entries -->
+  <text x="400" y="130" text-anchor="middle" font-size="15" fill="#111">0</text>
+  <text x="428" y="130" text-anchor="middle" font-size="15" fill="#111">1</text>
+  <text x="456" y="130" text-anchor="middle" font-size="15" fill="#111">1</text>
+  <text x="484" y="130" text-anchor="middle" font-size="15" fill="#111">0</text>
+
+  <text x="400" y="155" text-anchor="middle" font-size="15" fill="#111">1</text>
+  <text x="428" y="155" text-anchor="middle" font-size="15" fill="#111">0</text>
+  <text x="456" y="155" text-anchor="middle" font-size="15" fill="#111">1</text>
+  <text x="484" y="155" text-anchor="middle" font-size="15" fill="#111">0</text>
+
+  <text x="400" y="180" text-anchor="middle" font-size="15" fill="#111">1</text>
+  <text x="428" y="180" text-anchor="middle" font-size="15" fill="#111">1</text>
+  <text x="456" y="180" text-anchor="middle" font-size="15" fill="#111">0</text>
+  <text x="484" y="180" text-anchor="middle" font-size="15" fill="#111">1</text>
+
+  <text x="400" y="205" text-anchor="middle" font-size="15" fill="#111">0</text>
+  <text x="428" y="205" text-anchor="middle" font-size="15" fill="#111">0</text>
+  <text x="456" y="205" text-anchor="middle" font-size="15" fill="#111">1</text>
+  <text x="484" y="205" text-anchor="middle" font-size="15" fill="#111">0</text>
+
+  <text x="446" y="235" text-anchor="middle" font-size="12" fill="#444">row sums = degrees: 2, 2, 3, 1</text>
+</svg>

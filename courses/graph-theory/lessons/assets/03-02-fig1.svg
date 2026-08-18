@@ -1,0 +1,58 @@
+<svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="640" height="320" fill="#ffffff"/>
+
+  <!-- ===== K5 panel ===== -->
+  <!-- edges (all 10 pairs among the 5 pentagon vertices) -->
+  <g stroke="#1a1a1a" stroke-width="2">
+    <line x1="150" y1="55"  x2="59.7"  y2="120.6"/>
+    <line x1="150" y1="55"  x2="94.2"  y2="226.9"/>
+    <line x1="150" y1="55"  x2="205.8" y2="226.9"/>
+    <line x1="150" y1="55"  x2="240.3" y2="120.6"/>
+    <line x1="59.7" y1="120.6" x2="94.2"  y2="226.9"/>
+    <line x1="59.7" y1="120.6" x2="205.8" y2="226.9"/>
+    <line x1="59.7" y1="120.6" x2="240.3" y2="120.6"/>
+    <line x1="94.2" y1="226.9" x2="205.8" y2="226.9"/>
+    <line x1="94.2" y1="226.9" x2="240.3" y2="120.6"/>
+    <line x1="205.8" y1="226.9" x2="240.3" y2="120.6"/>
+  </g>
+  <!-- vertices -->
+  <g fill="#e05a4d" stroke="#1a1a1a" stroke-width="1.5">
+    <circle cx="150"   cy="55"    r="8"/>
+    <circle cx="59.7"  cy="120.6" r="8"/>
+    <circle cx="94.2"  cy="226.9" r="8"/>
+    <circle cx="205.8" cy="226.9" r="8"/>
+    <circle cx="240.3" cy="120.6" r="8"/>
+  </g>
+  <text x="150" y="300" text-anchor="middle" font-size="20" font-style="italic" fill="#1a1a1a">K</text>
+  <text x="164" y="306" text-anchor="middle" font-size="14" fill="#1a1a1a">5</text>
+  <text x="150" y="30" text-anchor="middle" font-size="13" fill="#555">10 edges, 5 vertices</text>
+
+  <!-- ===== K3,3 panel ===== -->
+  <!-- edges (every top vertex to every bottom vertex) -->
+  <g stroke="#1a1a1a" stroke-width="2">
+    <line x1="400" y1="80" x2="400" y2="240"/>
+    <line x1="400" y1="80" x2="480" y2="240"/>
+    <line x1="400" y1="80" x2="560" y2="240"/>
+    <line x1="480" y1="80" x2="400" y2="240"/>
+    <line x1="480" y1="80" x2="480" y2="240"/>
+    <line x1="480" y1="80" x2="560" y2="240"/>
+    <line x1="560" y1="80" x2="400" y2="240"/>
+    <line x1="560" y1="80" x2="480" y2="240"/>
+    <line x1="560" y1="80" x2="560" y2="240"/>
+  </g>
+  <!-- top partition -->
+  <g fill="#e05a4d" stroke="#1a1a1a" stroke-width="1.5">
+    <circle cx="400" cy="80" r="8"/>
+    <circle cx="480" cy="80" r="8"/>
+    <circle cx="560" cy="80" r="8"/>
+  </g>
+  <!-- bottom partition -->
+  <g fill="#3a6fb0" stroke="#1a1a1a" stroke-width="1.5">
+    <circle cx="400" cy="240" r="8"/>
+    <circle cx="480" cy="240" r="8"/>
+    <circle cx="560" cy="240" r="8"/>
+  </g>
+  <text x="480" y="300" text-anchor="middle" font-size="20" font-style="italic" fill="#1a1a1a">K</text>
+  <text x="497" y="306" text-anchor="middle" font-size="14" fill="#1a1a1a">3,3</text>
+  <text x="480" y="30" text-anchor="middle" font-size="13" fill="#555">9 edges, 6 vertices, triangle-free</text>
+</svg>

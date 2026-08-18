@@ -1,0 +1,59 @@
+<svg viewBox="0 0 640 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">At Re &#8810; 1 a reciprocal flap retraces its path (net zero); only a non-reciprocal, chiral stroke moves you.</text>
+
+  <!-- divider -->
+  <line x1="320" y1="52" x2="320" y2="316" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 5"/>
+
+  <!-- ===== LEFT: the reciprocal scallop ===== -->
+  <text x="34" y="52" fill="#8a8a8a">Reciprocal (scallop): open slow, close fast</text>
+
+  <!-- open valves (grey) -->
+  <line x1="96" y1="188" x2="232" y2="120" stroke="#8a8a8a" stroke-width="3"/>
+  <line x1="96" y1="188" x2="232" y2="256" stroke="#8a8a8a" stroke-width="3"/>
+  <!-- closed valves (coral, nearly shut) -->
+  <line x1="96" y1="188" x2="232" y2="176" stroke="#e0645c" stroke-width="3"/>
+  <line x1="96" y1="188" x2="232" y2="200" stroke="#e0645c" stroke-width="3"/>
+  <!-- hinge -->
+  <circle cx="96" cy="188" r="5" fill="#8a8a8a"/>
+  <text x="60" y="193" fill="#8a8a8a">hinge</text>
+
+  <!-- flap cycle arrows -->
+  <path d="M 244 132 A 62 62 0 0 1 244 244" fill="none" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="244,244 249,234 239,235" fill="#e0645c"/>
+  <path d="M 236 236 A 56 56 0 0 0 236 148" fill="none" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="236,148 231,158 241,157" fill="#e0645c"/>
+  <text x="256" y="192" fill="#e0645c">open</text>
+  <text x="256" y="208" fill="#e0645c">close</text>
+
+  <!-- start / end position reference -->
+  <line x1="96" y1="188" x2="96" y2="292" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="70" y1="292" x2="150" y2="292" stroke="#8a8a8a" stroke-width="1.5"/>
+  <circle cx="96" cy="292" r="4" fill="#e0645c"/>
+  <text x="60" y="314" fill="#e0645c" font-weight="bold">&#916;x = 0</text>
+
+  <!-- ===== RIGHT: the non-reciprocal helix ===== -->
+  <text x="356" y="52" fill="#8a8a8a">Non-reciprocal (helix): a rotating corkscrew</text>
+
+  <!-- flagellar coil (side-on helix as overlapping loops) -->
+  <ellipse cx="392" cy="188" rx="12" ry="20" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <ellipse cx="414" cy="188" rx="12" ry="20" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <ellipse cx="436" cy="188" rx="12" ry="20" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <ellipse cx="458" cy="188" rx="12" ry="20" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <ellipse cx="480" cy="188" rx="12" ry="20" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="380" y1="188" x2="500" y2="188" stroke="#4a90d9" stroke-width="1" opacity="0.5"/>
+
+  <!-- cell body -->
+  <ellipse cx="536" cy="188" rx="30" ry="20" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="516" y="193" fill="#4a90d9">cell</text>
+
+  <!-- rotation arrow -->
+  <path d="M 420 138 A 26 22 0 1 1 452 138" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="452,138 442,134 445,144" fill="#8a8a8a"/>
+  <text x="400" y="124" fill="#8a8a8a">rotate</text>
+
+  <!-- net displacement arrow -->
+  <line x1="470" y1="262" x2="590" y2="262" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="590,262 578,256 578,268" fill="#e0645c"/>
+  <text x="470" y="284" fill="#e0645c" font-weight="bold">net &#916;x &#8800; 0</text>
+</svg>

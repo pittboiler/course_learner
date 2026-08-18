@@ -1,0 +1,61 @@
+<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <rect x="0" y="0" width="640" height="380" fill="#ffffff"/>
+
+  <!-- ============ axes ============ -->
+  <line x1="45" y1="190" x2="618" y2="190" stroke="#666666" stroke-width="1.5"/>
+  <line x1="330" y1="30" x2="330" y2="352" stroke="#666666" stroke-width="1.5"/>
+  <text x="622" y="195" fill="#1a1a1a" font-style="italic">&#952;</text>
+  <text x="336" y="40" fill="#1a1a1a" font-style="italic">v = &#952;&#775;</text>
+
+  <!-- theta tick labels -->
+  <text x="52" y="208" fill="#666666" font-size="12">&#8722;2&#960;</text>
+  <text x="183" y="208" fill="#666666" font-size="12">&#8722;&#960;</text>
+  <text x="322" y="208" fill="#666666" font-size="12">0</text>
+  <text x="459" y="208" fill="#666666" font-size="12">&#960;</text>
+  <text x="592" y="208" fill="#666666" font-size="12">2&#960;</text>
+
+  <!-- ============ rotation (whirling) bands ============ -->
+  <!-- upper band: v > 0, theta increasing (moves right) -->
+  <path d="M60,50 C120,55 160,85 195,85 C250,85 300,45 330,45 C360,45 415,85 465,85 C500,85 555,55 600,50"
+        fill="none" stroke="#2e8b57" stroke-width="2.2"/>
+  <polygon points="337,40 337,50 347,45" fill="#2e8b57"/>
+  <!-- lower band: v < 0, theta decreasing (moves left) -->
+  <path d="M60,330 C120,325 160,295 195,295 C250,295 300,335 330,335 C360,335 415,295 465,295 C500,295 555,325 600,330"
+        fill="none" stroke="#2e8b57" stroke-width="2.2"/>
+  <polygon points="323,330 323,340 313,335" fill="#2e8b57"/>
+
+  <!-- ============ separatrix (homoclinic orbit), E = 1 ============ -->
+  <path d="M195,190 C235,120 285,90 330,90 C375,90 425,120 465,190"
+        fill="none" stroke="#c0392b" stroke-width="2.6" stroke-dasharray="6 4"/>
+  <path d="M195,190 C235,260 285,290 330,290 C375,290 425,260 465,190"
+        fill="none" stroke="#c0392b" stroke-width="2.6" stroke-dasharray="6 4"/>
+
+  <!-- ============ librations (swinging): nested closed orbits ============ -->
+  <ellipse cx="330" cy="190" rx="44" ry="50" fill="none" stroke="#2c6fbf" stroke-width="2.2"/>
+  <ellipse cx="330" cy="190" rx="82" ry="78" fill="none" stroke="#2c6fbf" stroke-width="2.2"/>
+  <!-- clockwise circulation arrow on outer loop (rightward at top) -->
+  <polygon points="327,109 327,119 337,114" fill="#2c6fbf"/>
+
+  <!-- ============ fixed points ============ -->
+  <!-- centers (filled) at theta = 0, +/-2pi -->
+  <circle cx="330" cy="190" r="4.5" fill="#111111"/>
+  <circle cx="60" cy="190" r="4.5" fill="#111111"/>
+  <circle cx="600" cy="190" r="4.5" fill="#111111"/>
+  <!-- saddles (open x) at theta = +/- pi -->
+  <g stroke="#111111" stroke-width="2">
+    <line x1="190" y1="185" x2="200" y2="195"/>
+    <line x1="200" y1="185" x2="190" y2="195"/>
+    <line x1="460" y1="185" x2="470" y2="195"/>
+    <line x1="470" y1="185" x2="460" y2="195"/>
+  </g>
+
+  <!-- ============ labels ============ -->
+  <text x="336" y="185" fill="#111111" font-size="12">center</text>
+  <text x="474" y="185" fill="#111111" font-size="12">saddle</text>
+  <text x="335" y="80" fill="#c0392b" font-size="12" font-weight="bold">separatrix (E = 1)</text>
+  <text x="150" y="150" fill="#2c6fbf" font-size="12">swinging</text>
+  <text x="95" y="42" fill="#2e8b57" font-size="12">whirling (v never zero)</text>
+
+  <!-- caption -->
+  <text x="20" y="372" fill="#666666" font-size="12" font-style="italic">Trajectories are level sets of E = &#189;v&#178; &#8722; cos&#952;. Closed loops = swinging; wavy bands = whirling; the separatrix at E = 1 divides them.</text>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="600" height="360" fill="#ffffff"/>
+
+  <defs>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#1a1a1a"/>
+    </marker>
+  </defs>
+
+  <!-- column labels -->
+  <text x="200" y="28" font-size="15" fill="#0057b0" text-anchor="middle" font-weight="bold">X</text>
+  <text x="400" y="28" font-size="15" fill="#c05a00" text-anchor="middle" font-weight="bold">Y</text>
+
+  <!-- source edges s -> x  (cap 1) -->
+  <line x1="72"  y1="180" x2="185" y2="66"  stroke="#1a1a1a" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="72"  y1="180" x2="185" y2="180" stroke="#1a1a1a" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="72"  y1="180" x2="185" y2="294" stroke="#1a1a1a" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- middle edges x -> y  (the original bipartite edges, cap 1) -->
+  <line x1="216" y1="66"  x2="384" y2="66"  stroke="#1a1a1a" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="216" y1="66"  x2="384" y2="180" stroke="#1a1a1a" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="216" y1="180" x2="384" y2="66"  stroke="#1a1a1a" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="216" y1="180" x2="384" y2="294" stroke="#1a1a1a" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="216" y1="294" x2="384" y2="294" stroke="#1a1a1a" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- sink edges y -> t  (cap 1) -->
+  <line x1="415" y1="66"  x2="528" y2="180" stroke="#1a1a1a" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="415" y1="180" x2="528" y2="180" stroke="#1a1a1a" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="415" y1="294" x2="528" y2="180" stroke="#1a1a1a" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- source and sink -->
+  <circle cx="55"  cy="180" r="18" fill="#d7f0d7" stroke="#1a1a1a" stroke-width="2.5"/>
+  <circle cx="545" cy="180" r="18" fill="#d7f0d7" stroke="#1a1a1a" stroke-width="2.5"/>
+  <text x="55"  y="185" font-size="16" fill="#1a1a1a" text-anchor="middle" font-weight="bold">s</text>
+  <text x="545" y="185" font-size="16" fill="#1a1a1a" text-anchor="middle" font-weight="bold">t</text>
+
+  <!-- X vertices -->
+  <circle cx="200" cy="66"  r="16" fill="#cfe8ff" stroke="#1a1a1a" stroke-width="2.5"/>
+  <circle cx="200" cy="180" r="16" fill="#cfe8ff" stroke="#1a1a1a" stroke-width="2.5"/>
+  <circle cx="200" cy="294" r="16" fill="#cfe8ff" stroke="#1a1a1a" stroke-width="2.5"/>
+  <text x="200" y="71"  font-size="13" fill="#1a1a1a" text-anchor="middle" font-weight="bold">x1</text>
+  <text x="200" y="185" font-size="13" fill="#1a1a1a" text-anchor="middle" font-weight="bold">x2</text>
+  <text x="200" y="299" font-size="13" fill="#1a1a1a" text-anchor="middle" font-weight="bold">x3</text>
+
+  <!-- Y vertices -->
+  <circle cx="400" cy="66"  r="16" fill="#ffe3b3" stroke="#1a1a1a" stroke-width="2.5"/>
+  <circle cx="400" cy="180" r="16" fill="#ffe3b3" stroke="#1a1a1a" stroke-width="2.5"/>
+  <circle cx="400" cy="294" r="16" fill="#ffe3b3" stroke="#1a1a1a" stroke-width="2.5"/>
+  <text x="400" y="71"  font-size="13" fill="#1a1a1a" text-anchor="middle" font-weight="bold">y1</text>
+  <text x="400" y="185" font-size="13" fill="#1a1a1a" text-anchor="middle" font-weight="bold">y2</text>
+  <text x="400" y="299" font-size="13" fill="#1a1a1a" text-anchor="middle" font-weight="bold">y3</text>
+
+  <!-- capacity note -->
+  <text x="300" y="345" font-size="13" fill="#1a1a1a" text-anchor="middle">every arc directed left-to-right, capacity 1</text>
+</svg>

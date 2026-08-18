@@ -1,0 +1,31 @@
+<svg viewBox="0 0 560 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">How the initial rate responds to concentration reveals the order: flat (0), linear (1), or quadratic (2).</text>
+
+  <!-- axes -->
+  <line x1="70" y1="250" x2="470" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="470,250 460,245 460,255" fill="#8a8a8a"/>
+  <text x="452" y="272" fill="#8a8a8a">[A]</text>
+  <line x1="70" y1="250" x2="70" y2="40" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,40 65,50 75,50" fill="#8a8a8a"/>
+  <text x="40" y="52" fill="#8a8a8a">v&#8320;</text>
+  <text x="56" y="264" fill="#8a8a8a">0</text>
+
+  <!-- order 0: flat (grey dashed) -->
+  <line x1="70" y1="140" x2="450" y2="140" stroke="#8a8a8a" stroke-width="2" stroke-dasharray="6 5"/>
+
+  <!-- order 1: linear (blue) -->
+  <line x1="70" y1="250" x2="450" y2="50" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- order 2: quadratic (coral) -->
+  <path d="M 70 250 L 108 248 L 146 242 L 184 232 L 222 218 L 260 200 L 298 178 L 336 152 L 374 122 L 412 88 L 450 50"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+
+  <!-- legend -->
+  <line x1="96" y1="78" x2="126" y2="78" stroke="#8a8a8a" stroke-width="2" stroke-dasharray="6 5"/>
+  <text x="134" y="83" fill="#8a8a8a">order 0  &#8212;  v independent of [A]</text>
+  <line x1="96" y1="102" x2="126" y2="102" stroke="#4a90d9" stroke-width="3"/>
+  <text x="134" y="107" fill="#4a90d9">order 1  &#8212;  v &#8733; [A]</text>
+  <line x1="96" y1="126" x2="126" y2="126" stroke="#e0645c" stroke-width="3"/>
+  <text x="134" y="131" fill="#e0645c">order 2  &#8212;  v &#8733; [A]&#178;</text>
+</svg>

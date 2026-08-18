@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="640" height="300" fill="#ffffff"/>
+
+<!-- Left: K4 graph -->
+<text x="120" y="34" font-size="17" font-weight="bold" fill="#111" text-anchor="middle">The graph K&#8324;</text>
+
+<!-- edges (draw first, under vertices) -->
+<line x1="70" y1="90" x2="200" y2="90" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="200" y1="90" x2="200" y2="220" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="200" y1="220" x2="70" y2="220" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="70" y1="220" x2="70" y2="90" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="70" y1="90" x2="200" y2="220" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="200" y1="90" x2="70" y2="220" stroke="#1a1a1a" stroke-width="2"/>
+
+<!-- vertices -->
+<circle cx="70" cy="90" r="15" fill="#cfe3ff" stroke="#111" stroke-width="2"/>
+<circle cx="200" cy="90" r="15" fill="#cfe3ff" stroke="#111" stroke-width="2"/>
+<circle cx="200" cy="220" r="15" fill="#cfe3ff" stroke="#111" stroke-width="2"/>
+<circle cx="70" cy="220" r="15" fill="#cfe3ff" stroke="#111" stroke-width="2"/>
+<text x="70" y="95" font-size="15" fill="#111" text-anchor="middle">1</text>
+<text x="200" y="95" font-size="15" fill="#111" text-anchor="middle">2</text>
+<text x="200" y="225" font-size="15" fill="#111" text-anchor="middle">3</text>
+<text x="70" y="225" font-size="15" fill="#111" text-anchor="middle">4</text>
+
+<!-- Right: adjacency matrix -->
+<text x="470" y="34" font-size="17" font-weight="bold" fill="#111" text-anchor="middle">Adjacency matrix A</text>
+
+<!-- bracket -->
+<path d="M 372 70 L 362 70 L 362 200 L 372 200" fill="none" stroke="#111" stroke-width="2"/>
+<path d="M 566 70 L 576 70 L 576 200 L 566 200" fill="none" stroke="#111" stroke-width="2"/>
+
+<!-- matrix rows: 0 1 1 1 / 1 0 1 1 / 1 1 0 1 / 1 1 1 0 -->
+<g font-size="18" fill="#111" text-anchor="middle">
+<text x="400" y="95">0</text><text x="452" y="95">1</text><text x="504" y="95">1</text><text x="556" y="95">1</text>
+<text x="400" y="127">1</text><text x="452" y="127">0</text><text x="504" y="127">1</text><text x="556" y="127">1</text>
+<text x="400" y="159">1</text><text x="452" y="159">1</text><text x="504" y="159">0</text><text x="556" y="159">1</text>
+<text x="400" y="191">1</text><text x="452" y="191">1</text><text x="504" y="191">1</text><text x="556" y="191">0</text>
+</g>
+
+<!-- eigenvalues -->
+<text x="470" y="245" font-size="16" fill="#111" text-anchor="middle">eigenvalues (spectrum):</text>
+<text x="470" y="272" font-size="19" font-weight="bold" fill="#b00" text-anchor="middle">3,  &#8722;1,  &#8722;1,  &#8722;1</text>
+</svg>

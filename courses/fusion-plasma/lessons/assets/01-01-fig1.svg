@@ -1,0 +1,69 @@
+<svg viewBox="0 0 640 370" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Fusing light nuclei climbs the binding&#8211;energy&#8211;per&#8211;nucleon curve; D + T lands on the deep &#8308;He well and pays out &#8776;17.6 MeV.</text>
+
+  <!-- ===== axes ===== -->
+  <line x1="100" y1="310" x2="612" y2="310" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="612,310 602,305 602,315" fill="#8a8a8a"/>
+  <text x="470" y="345" fill="#8a8a8a">mass number A (nucleons)</text>
+
+  <line x1="100" y1="310" x2="100" y2="52" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="100,52 95,62 105,62" fill="#8a8a8a"/>
+  <text x="46" y="70" fill="#8a8a8a">B/A</text>
+  <text x="30" y="86" fill="#8a8a8a">(MeV)</text>
+
+  <!-- y ticks -->
+  <line x1="96" y1="254" x2="100" y2="254" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="78" y="258" fill="#8a8a8a">2</text>
+  <line x1="96" y1="199" x2="100" y2="199" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="78" y="203" fill="#8a8a8a">4</text>
+  <line x1="96" y1="143" x2="100" y2="143" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="78" y="147" fill="#8a8a8a">6</text>
+  <line x1="96" y1="88" x2="100" y2="88" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="78" y="92" fill="#8a8a8a">8</text>
+  <text x="90" y="314" fill="#8a8a8a">0</text>
+
+  <!-- ===== the B/A curve (light-nucleus side) ===== -->
+  <!-- H1 -> D -> T -> He4 (spike) -> Li6 (dip) -> C12 -->
+  <path d="M 136 310 L 172 279 L 208 231 L 244 114 L 316 162 L 532 97"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <!-- dashed continuation across the break to the iron peak -->
+  <path d="M 532 97 L 556 84 L 590 66" fill="none" stroke="#4a90d9" stroke-width="2" stroke-dasharray="5 4"/>
+
+  <!-- axis break marker between C-12 and Fe-56 -->
+  <line x1="556" y1="316" x2="562" y2="304" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="562" y1="316" x2="568" y2="304" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- reactant reference level (weighted B/A of D+T &#8776; 2.1 MeV) -->
+  <line x1="150" y1="251" x2="244" y2="251" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="150" y="245" fill="#8a8a8a">D + T reactant level</text>
+
+  <!-- energy-release arrow: climb from reactant level up to He-4 -->
+  <line x1="262" y1="251" x2="262" y2="122" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="262,116 257,127 267,127" fill="#e0645c"/>
+  <text x="270" y="192" fill="#e0645c">climb the curve</text>
+  <text x="270" y="208" fill="#e0645c">&#8776; 17.6 MeV out</text>
+
+  <!-- data points -->
+  <!-- H-1 -->
+  <circle cx="136" cy="310" r="3.5" fill="#8a8a8a"/>
+  <text x="124" y="300" fill="#8a8a8a">&#185;H</text>
+  <!-- D -->
+  <circle cx="172" cy="279" r="4.5" fill="#e0645c"/>
+  <text x="160" y="298" fill="#e0645c">D</text>
+  <!-- T -->
+  <circle cx="208" cy="231" r="4.5" fill="#e0645c"/>
+  <text x="200" y="222" fill="#e0645c">T</text>
+  <!-- He-4 (the spike) -->
+  <circle cx="244" cy="114" r="5" fill="#e0645c"/>
+  <text x="252" y="108" fill="#e0645c">&#8308;He</text>
+  <!-- Li-6 -->
+  <circle cx="316" cy="162" r="3.5" fill="#8a8a8a"/>
+  <text x="304" y="180" fill="#8a8a8a">&#8310;Li</text>
+  <!-- C-12 -->
+  <circle cx="532" cy="97" r="3.5" fill="#8a8a8a"/>
+  <text x="512" y="90" fill="#8a8a8a">&#185;&#178;C</text>
+  <!-- Fe-56 peak -->
+  <circle cx="590" cy="66" r="4" fill="#8a8a8a"/>
+  <text x="540" y="58" fill="#8a8a8a">&#8309;&#8310;Fe peak (8.8)</text>
+</svg>

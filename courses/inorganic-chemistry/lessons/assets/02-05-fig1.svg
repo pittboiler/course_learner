@@ -1,0 +1,71 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Same d&#8310; ion, two outcomes: when &#916;&#8338; is small the electrons spread out (high spin); when &#916;&#8338; beats the pairing cost P they stack up (low spin).</text>
+
+  <!-- ================= LEFT PANEL: weak field, high spin ================= -->
+  <text x="130" y="70" fill="#4a90d9" text-anchor="middle" font-weight="bold">Weak field &#183; HIGH SPIN</text>
+  <text x="130" y="88" fill="#8a8a8a" text-anchor="middle" font-style="italic">t&#8322;g&#8308; eg&#178;</text>
+
+  <!-- eg level (upper): two orbitals -->
+  <line x1="88" y1="170" x2="122" y2="170" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="138" y1="170" x2="172" y2="170" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="54" y="175" fill="#8a8a8a">eg</text>
+  <!-- eg electrons: one up in each (high spin) -->
+  <text x="105" y="166" fill="#4a90d9" text-anchor="middle" font-weight="bold">&#8593;</text>
+  <text x="155" y="166" fill="#4a90d9" text-anchor="middle" font-weight="bold">&#8593;</text>
+
+  <!-- t2g level (lower): three orbitals -->
+  <line x1="63" y1="252" x2="97" y2="252" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="113" y1="252" x2="147" y2="252" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="163" y1="252" x2="197" y2="252" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="32" y="257" fill="#8a8a8a">t&#8322;g</text>
+  <!-- t2g electrons: one paired, two single -->
+  <text x="74" y="248" fill="#4a90d9" text-anchor="middle" font-weight="bold">&#8593;</text>
+  <text x="86" y="248" fill="#4a90d9" text-anchor="middle" font-weight="bold">&#8595;</text>
+  <text x="130" y="248" fill="#4a90d9" text-anchor="middle" font-weight="bold">&#8593;</text>
+  <text x="180" y="248" fill="#4a90d9" text-anchor="middle" font-weight="bold">&#8593;</text>
+
+  <!-- small Δo arrow (weak = small gap) -->
+  <line x1="220" y1="170" x2="220" y2="252" stroke="#8a8a8a" stroke-width="1.2"/>
+  <polygon points="220,170 216,180 224,180" fill="#8a8a8a"/>
+  <polygon points="220,252 216,242 224,242" fill="#8a8a8a"/>
+  <text x="228" y="216" fill="#8a8a8a">&#916;&#8338; &lt; P</text>
+
+  <text x="130" y="290" fill="#4a90d9" text-anchor="middle" font-weight="bold">4 unpaired</text>
+
+  <!-- ================= RIGHT PANEL: strong field, low spin ================= -->
+  <text x="480" y="70" fill="#e0645c" text-anchor="middle" font-weight="bold">Strong field &#183; LOW SPIN</text>
+  <text x="480" y="88" fill="#8a8a8a" text-anchor="middle" font-style="italic">t&#8322;g&#8310; eg&#8304;</text>
+
+  <!-- eg level (upper, larger gap): empty -->
+  <line x1="438" y1="130" x2="472" y2="130" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="488" y1="130" x2="522" y2="130" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="404" y="135" fill="#8a8a8a">eg</text>
+
+  <!-- t2g level (lower): three orbitals, all paired -->
+  <line x1="413" y1="252" x2="447" y2="252" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="463" y1="252" x2="497" y2="252" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="513" y1="252" x2="547" y2="252" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="382" y="257" fill="#8a8a8a">t&#8322;g</text>
+  <text x="424" y="248" fill="#e0645c" text-anchor="middle" font-weight="bold">&#8593;</text>
+  <text x="436" y="248" fill="#e0645c" text-anchor="middle" font-weight="bold">&#8595;</text>
+  <text x="474" y="248" fill="#e0645c" text-anchor="middle" font-weight="bold">&#8593;</text>
+  <text x="486" y="248" fill="#e0645c" text-anchor="middle" font-weight="bold">&#8595;</text>
+  <text x="524" y="248" fill="#e0645c" text-anchor="middle" font-weight="bold">&#8593;</text>
+  <text x="536" y="248" fill="#e0645c" text-anchor="middle" font-weight="bold">&#8595;</text>
+
+  <!-- large Δo arrow (strong = big gap) -->
+  <line x1="565" y1="130" x2="565" y2="252" stroke="#8a8a8a" stroke-width="1.2"/>
+  <polygon points="565,130 561,140 569,140" fill="#8a8a8a"/>
+  <polygon points="565,252 561,242 569,242" fill="#8a8a8a"/>
+  <text x="573" y="196" fill="#8a8a8a">&#916;&#8338; &gt; P</text>
+
+  <text x="480" y="290" fill="#e0645c" text-anchor="middle" font-weight="bold">0 unpaired</text>
+
+  <!-- ================= spectrochemical series bar ================= -->
+  <text x="60" y="336" fill="#4a90d9" font-weight="bold">weak field</text>
+  <line x1="60" y1="350" x2="576" y2="350" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="584,350 572,345 572,355" fill="#8a8a8a"/>
+  <text x="510" y="336" fill="#e0645c" font-weight="bold">strong field</text>
+  <text x="320" y="378" fill="#8a8a8a" text-anchor="middle">I&#8315; &lt; Br&#8315; &lt; Cl&#8315; &lt; F&#8315; &lt; OH&#8315; &lt; H&#8322;O &lt; NH&#8323; &lt; en &lt; NO&#8322;&#8315; &lt; CN&#8315; &#8776; CO</text>
+</svg>

@@ -1,0 +1,48 @@
+<svg viewBox="0 0 660 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <!-- caption / legend -->
+  <text x="30" y="20" fill="#8a8a8a" font-style="italic">A spherulite: lamellae (grey) grow radially from a nucleus (blue); the zoom shows folded-chain lamellae bridged by amorphous tie chains (coral).</text>
+
+  <!-- ===== left: the spherulite ===== -->
+  <!-- outer boundary -->
+  <circle cx="160" cy="185" r="112" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 4"/>
+
+  <!-- radiating lamellae (one path, 24 spokes) -->
+  <path fill="none" stroke="#8a8a8a" stroke-width="2" d="M172 185 L272 185 M171.6 181.9 L268.2 156 M170.4 179 L257 129 M168.5 176.5 L239.2 105.8 M166 174.6 L216 88 M163.1 173.4 L189 76.8 M160 173 L160 73 M156.9 173.4 L131 76.8 M154 174.6 L104 88 M151.5 176.5 L80.8 105.8 M149.6 179 L63 129 M148.4 181.9 L51.8 156 M148 185 L48 185 M148.4 188.1 L51.8 214 M149.6 191 L63 241 M151.5 193.5 L80.8 264.2 M154 195.4 L104 282 M156.9 196.6 L131 293.2 M160 197 L160 297 M163.1 196.6 L189 293.2 M166 195.4 L216 282 M168.5 193.5 L239.2 264.2 M170.4 191 L257 241 M171.6 188.1 L268.2 214"/>
+
+  <!-- nucleus -->
+  <circle cx="160" cy="185" r="8" fill="#4a90d9" stroke="#4a90d9" stroke-width="1"/>
+
+  <!-- spherulite label -->
+  <text x="122" y="322" fill="#8a8a8a">spherulite (~10 &#181;m)</text>
+
+  <!-- sample region + connector to zoom -->
+  <circle cx="230" cy="141" r="15" fill="none" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="243" y1="132" x2="388" y2="74" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="240" y1="150" x2="388" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- ===== right: the zoom (stacked lamellae) ===== -->
+  <rect x="388" y="64" width="250" height="252" fill="none" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- crystalline lamella slabs -->
+  <rect x="400" y="88" width="210" height="38" rx="4" fill="#8a8a8a" opacity="0.12"/>
+  <rect x="400" y="148" width="210" height="38" rx="4" fill="#8a8a8a" opacity="0.12"/>
+  <rect x="400" y="208" width="210" height="38" rx="4" fill="#8a8a8a" opacity="0.12"/>
+
+  <!-- folded chains inside each lamella -->
+  <path fill="none" stroke="#8a8a8a" stroke-width="2" d="M408 120 L408 94 L424 94 L424 120 L440 120 L440 94 L456 94 L456 120 L472 120 L472 94 L488 94 L488 120 L504 120 L504 94 L520 94 L520 120 L536 120 L536 94 L552 94 L552 120 L568 120 L568 94 L584 94 L584 120 L600 120 L600 94"/>
+  <path fill="none" stroke="#8a8a8a" stroke-width="2" d="M408 180 L408 154 L424 154 L424 180 L440 180 L440 154 L456 154 L456 180 L472 180 L472 154 L488 154 L488 180 L504 180 L504 154 L520 154 L520 180 L536 180 L536 154 L552 154 L552 180 L568 180 L568 154 L584 154 L584 180 L600 180 L600 154"/>
+  <path fill="none" stroke="#8a8a8a" stroke-width="2" d="M408 240 L408 214 L424 214 L424 240 L440 240 L440 214 L456 214 L456 240 L472 240 L472 214 L488 214 L488 240 L504 240 L504 214 L520 214 L520 240 L536 240 L536 214 L552 214 L552 240 L568 240 L568 214 L584 214 L584 240 L600 240 L600 214"/>
+
+  <!-- amorphous tie chains (coral) bridging the gaps -->
+  <path fill="none" stroke="#e0645c" stroke-width="2" d="M448 122 C442 138, 460 142, 450 152"/>
+  <path fill="none" stroke="#e0645c" stroke-width="2" d="M512 122 C520 138, 504 142, 514 152"/>
+  <path fill="none" stroke="#e0645c" stroke-width="2" d="M576 122 C570 138, 584 142, 578 152"/>
+  <path fill="none" stroke="#e0645c" stroke-width="2" d="M480 182 C474 198, 490 202, 482 212"/>
+  <path fill="none" stroke="#e0645c" stroke-width="2" d="M552 182 C560 198, 544 202, 552 212"/>
+
+  <!-- zoom labels -->
+  <text x="395" y="80" fill="#8a8a8a">folded-chain lamella (~10 nm)</text>
+  <text x="410" y="201" fill="#8a8a8a">amorphous interlayer</text>
+  <line x1="470" y1="262" x2="482" y2="208" stroke="#e0645c" stroke-width="1"/>
+  <text x="440" y="276" fill="#e0645c">tie chain</text>
+</svg>

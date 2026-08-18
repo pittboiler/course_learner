@@ -1,0 +1,50 @@
+<svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Curvature follows the sign of M: where M is positive the beam sags, and the deflection is zero at each support.</text>
+
+  <!-- ===== top panel: bending-moment diagram ===== -->
+  <text x="40" y="52" fill="#8a8a8a">Bending moment M(x)</text>
+
+  <!-- baseline / x-axis -->
+  <line x1="70" y1="110" x2="490" y2="110" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="490,110 480,105 480,115" fill="#8a8a8a"/>
+  <text x="494" y="115" fill="#8a8a8a">x</text>
+
+  <!-- positive (sagging) moment parabola, plotted upward -->
+  <path d="M 70 110 L 110 88.4 L 150 71.6 L 190 59.6 L 230 52.4 L 270 50 L 310 52.4 L 350 59.6 L 390 71.6 L 430 88.4 L 470 110"
+        fill="#4a90d9" fill-opacity="0.12" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="248" y="42" fill="#4a90d9">M positive</text>
+
+  <!-- ===== bottom panel: the deflected elastic curve ===== -->
+  <text x="40" y="182" fill="#8a8a8a">Elastic curve y(x)</text>
+
+  <!-- undeflected reference line -->
+  <line x1="70" y1="240" x2="470" y2="240" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 5"/>
+
+  <!-- deflected beam: sags downward -->
+  <path d="M 70 240 L 110 256.2 L 150 268.8 L 190 277.8 L 230 283.2 L 270 285 L 310 283.2 L 350 277.8 L 390 268.8 L 430 256.2 L 470 240"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- pin support at left (triangle) -->
+  <polygon points="70,240 60,258 80,258" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="54" y1="262" x2="86" y2="262" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="46" y="230" fill="#8a8a8a">A</text>
+  <text x="40" y="278" fill="#8a8a8a">y = 0</text>
+
+  <!-- roller support at right (triangle + rollers) -->
+  <polygon points="470,240 460,256 480,256" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <circle cx="464" cy="260" r="3" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <circle cx="476" cy="260" r="3" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="456" y1="265" x2="484" y2="265" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="486" y="230" fill="#8a8a8a">B</text>
+  <text x="486" y="278" fill="#8a8a8a">y = 0</text>
+
+  <!-- maximum deflection marker at center -->
+  <line x1="270" y1="240" x2="270" y2="285" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="270,285 266,276 274,276" fill="#e0645c"/>
+  <text x="278" y="268" fill="#e0645c">y max</text>
+
+  <!-- correspondence line: M peak sits above the deepest sag -->
+  <line x1="270" y1="50" x2="270" y2="240" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 5"/>
+  <text x="278" y="150" fill="#8a8a8a" font-size="12">peak M is over deepest sag</text>
+</svg>

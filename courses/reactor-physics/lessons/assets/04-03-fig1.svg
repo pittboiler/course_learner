@@ -1,0 +1,47 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Reactor period vs reactivity: gentle and slow while delayed neutrons rule, then a cliff at one dollar.</text>
+
+  <!-- y axis -->
+  <line x1="70" y1="292" x2="70" y2="44" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,44 65,54 75,54" fill="#8a8a8a"/>
+  <text x="20" y="60" fill="#8a8a8a">period T</text>
+  <text x="24" y="78" fill="#8a8a8a">seconds</text>
+  <text x="18" y="262" fill="#8a8a8a">milliseconds</text>
+
+  <!-- x axis -->
+  <line x1="70" y1="280" x2="600" y2="280" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="600,280 590,275 590,285" fill="#8a8a8a"/>
+  <text x="470" y="322" fill="#8a8a8a">reactivity  &#961;/&#946;  (dollars)</text>
+
+  <!-- x ticks -->
+  <line x1="70" y1="280" x2="70" y2="286" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="66" y="300" fill="#8a8a8a">0</text>
+  <line x1="240" y1="280" x2="240" y2="286" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="224" y="300" fill="#8a8a8a">$0.50</text>
+  <line x1="410" y1="280" x2="410" y2="286" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="400" y="300" fill="#8a8a8a">$1</text>
+  <line x1="580" y1="280" x2="580" y2="286" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="560" y="300" fill="#8a8a8a">$1.50</text>
+
+  <!-- prompt-critical threshold -->
+  <line x1="410" y1="280" x2="410" y2="52" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="416" y="64" fill="#e0645c">&#961; = &#946;   ($1)</text>
+  <text x="416" y="80" fill="#e0645c">prompt critical</text>
+
+  <!-- the period curve: gentle decline (delayed), knee, plunge to prompt floor -->
+  <path d="M 104 58 L 172 72 L 240 88 L 308 107 L 359 121 L 388 133 C 400 150 407 178 412 208 C 418 234 430 246 460 251 L 520 254 L 578 256"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- region labels -->
+  <text x="120" y="170" fill="#8a8a8a">delayed-controlled</text>
+  <text x="120" y="187" fill="#8a8a8a">&#8776; seconds</text>
+  <text x="120" y="204" fill="#4a90d9">CONTROLLABLE</text>
+
+  <text x="452" y="150" fill="#8a8a8a">prompt-controlled</text>
+  <text x="452" y="167" fill="#8a8a8a">&#8776; milliseconds</text>
+  <text x="452" y="184" fill="#e0645c">UNCONTROLLABLE</text>
+
+  <!-- prompt formula note -->
+  <text x="446" y="232" fill="#8a8a8a">T &#8776; &#923;/(&#961;&#8722;&#946;)</text>
+</svg>

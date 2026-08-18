@@ -1,0 +1,45 @@
+<svg viewBox="0 0 620 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Clausius&#8211;Clapeyron: ln p is straight in 1/T, and its slope is &#8722;&#916;H&#8341;&#8341;&#8342;/R.</text>
+
+  <!-- ===== main plot: ln p vs 1/T ===== -->
+
+  <!-- y-axis (ln p) -->
+  <line x1="80" y1="270" x2="80" y2="66" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="80,66 75,76 85,76" fill="#8a8a8a"/>
+  <text x="52" y="72" fill="#8a8a8a">ln p</text>
+
+  <!-- x-axis (1/T) -->
+  <line x1="80" y1="270" x2="400" y2="270" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="400,270 390,265 390,275" fill="#8a8a8a"/>
+  <text x="378" y="292" fill="#8a8a8a">1/T</text>
+
+  <!-- data line (blue): descending, slope negative -->
+  <line x1="105" y1="90" x2="375" y2="252" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- slope triangle (coral) -->
+  <!-- points on line: (185, 138) and (275, 192); slope = 54/90 = 0.6 -->
+  <line x1="185" y1="138" x2="275" y2="138" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="275" y1="138" x2="275" y2="192" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="205" y="132" fill="#e0645c">&#916;(1/T)</text>
+  <text x="282" y="170" fill="#e0645c">&#916; ln p</text>
+
+  <!-- slope label -->
+  <text x="150" y="230" fill="#e0645c" font-style="italic">slope = &#8722;&#916;H&#8341;&#8341;&#8342;/R</text>
+
+  <!-- ===== inset: p vs T ===== -->
+  <text x="470" y="72" fill="#8a8a8a" font-style="italic">p vs T</text>
+
+  <!-- inset y-axis (p) -->
+  <line x1="450" y1="270" x2="450" y2="90" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="450,90 445,100 455,100" fill="#8a8a8a"/>
+  <text x="432" y="98" fill="#8a8a8a">p</text>
+
+  <!-- inset x-axis (T) -->
+  <line x1="450" y1="270" x2="600" y2="270" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="600,270 590,265 590,275" fill="#8a8a8a"/>
+  <text x="582" y="292" fill="#8a8a8a">T</text>
+
+  <!-- vapor-pressure curve: rises steeply (exponential) -->
+  <path d="M 460 262 Q 520 258 552 210 T 592 108" fill="none" stroke="#4a90d9" stroke-width="3"/>
+</svg>

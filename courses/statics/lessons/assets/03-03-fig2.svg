@@ -1,0 +1,58 @@
+<svg viewBox="0 0 560 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <defs>
+    <marker id="coral2" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#e0645c"/>
+    </marker>
+    <marker id="grey2" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#8a8a8a"/>
+    </marker>
+  </defs>
+
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Push a tall crate: N drifts toward the front edge &#8212; it tips once N reaches the corner.</text>
+
+  <!-- ground -->
+  <line x1="110" y1="250" x2="470" y2="250" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="130" y1="250" x2="120" y2="262" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="170" y1="250" x2="160" y2="262" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="210" y1="250" x2="200" y2="262" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="250" y1="250" x2="240" y2="262" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="290" y1="250" x2="280" y2="262" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="330" y1="250" x2="320" y2="262" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="370" y1="250" x2="360" y2="262" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="410" y1="250" x2="400" y2="262" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="450" y1="250" x2="440" y2="262" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- crate -->
+  <rect x="210" y="110" width="160" height="140" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="290" cy="180" r="2.5" fill="#4a90d9"/>
+
+  <!-- Weight -->
+  <line x1="290" y1="180" x2="290" y2="242" stroke="#e0645c" stroke-width="2.5" marker-end="url(#coral2)"/>
+  <text x="296" y="230" fill="#e0645c">W</text>
+
+  <!-- Applied push P at height h -->
+  <line x1="150" y1="140" x2="208" y2="140" stroke="#e0645c" stroke-width="2.5" marker-end="url(#coral2)"/>
+  <text x="150" y="132" fill="#e0645c">P</text>
+
+  <!-- height h dimension -->
+  <line x1="185" y1="250" x2="185" y2="140" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="166" y="200" fill="#8a8a8a">h</text>
+
+  <!-- Normal, shifted toward front (right) edge -->
+  <line x1="345" y1="250" x2="345" y2="188" stroke="#e0645c" stroke-width="2.5" marker-end="url(#coral2)"/>
+  <text x="351" y="206" fill="#e0645c">N</text>
+
+  <!-- Friction at base, opposing push -->
+  <line x1="290" y1="250" x2="232" y2="250" stroke="#e0645c" stroke-width="2.5" marker-end="url(#coral2)"/>
+  <text x="236" y="272" fill="#e0645c">F</text>
+
+  <!-- b/2 dimension: centroid to front edge -->
+  <line x1="290" y1="288" x2="370" y2="288" stroke="#8a8a8a" stroke-width="1" marker-start="url(#grey2)" marker-end="url(#grey2)"/>
+  <line x1="290" y1="252" x2="290" y2="292" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="370" y1="252" x2="370" y2="292" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="316" y="304" fill="#8a8a8a">b/2</text>
+
+  <!-- tipping edge -->
+  <circle cx="370" cy="250" r="4.5" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <text x="380" y="243" fill="#e0645c">tip edge</text>
+</svg>

@@ -1,0 +1,77 @@
+<svg viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Bragg reflection: the lower ray's extra path 2d sin&#952; must be a whole number of wavelengths.</text>
+
+  <!-- ===== main: two lattice planes ===== -->
+  <!-- top plane -->
+  <line x1="70" y1="150" x2="470" y2="150" stroke="#8a8a8a" stroke-width="1.5"/>
+  <!-- bottom plane -->
+  <line x1="70" y1="230" x2="470" y2="230" stroke="#8a8a8a" stroke-width="1.5"/>
+  <!-- atoms -->
+  <g fill="#4a90d9">
+    <circle cx="90" cy="150" r="4"/><circle cx="135" cy="150" r="4"/><circle cx="180" cy="150" r="4"/><circle cx="225" cy="150" r="4"/><circle cx="270" cy="150" r="4"/><circle cx="315" cy="150" r="4"/><circle cx="360" cy="150" r="4"/><circle cx="405" cy="150" r="4"/><circle cx="450" cy="150" r="4"/>
+    <circle cx="90" cy="230" r="4"/><circle cx="135" cy="230" r="4"/><circle cx="180" cy="230" r="4"/><circle cx="225" cy="230" r="4"/><circle cx="270" cy="230" r="4"/><circle cx="315" cy="230" r="4"/><circle cx="360" cy="230" r="4"/><circle cx="405" cy="230" r="4"/><circle cx="450" cy="230" r="4"/>
+  </g>
+  <text x="474" y="146" fill="#8a8a8a" font-style="italic">(hkl) planes</text>
+
+  <!-- interplanar spacing d -->
+  <line x1="235" y1="150" x2="235" y2="230" stroke="#8a8a8a" stroke-width="1.2"/>
+  <polygon points="235,150 231,159 239,159" fill="#8a8a8a"/>
+  <polygon points="235,230 231,221 239,221" fill="#8a8a8a"/>
+  <text x="216" y="195" fill="#8a8a8a">d</text>
+
+  <!-- incoming rays (blue) -->
+  <line x1="202.4" y1="85" x2="315" y2="150" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="315,150 304,146 308.5,138.5" fill="#4a90d9"/>
+  <line x1="202.4" y1="165" x2="315" y2="230" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="315,230 304,226 308.5,218.5" fill="#4a90d9"/>
+  <text x="188" y="80" fill="#4a90d9">k_in</text>
+
+  <!-- outgoing rays (blue) -->
+  <line x1="315" y1="150" x2="427.6" y2="85" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="427.6,85 416.5,89 421,96.5" fill="#4a90d9"/>
+  <line x1="315" y1="230" x2="427.6" y2="165" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="427.6,165 416.5,169 421,176.5" fill="#4a90d9"/>
+  <text x="430" y="80" fill="#4a90d9">k_out</text>
+
+  <!-- perpendicular construction lines (dashed grey) -->
+  <line x1="315" y1="150" x2="280.36" y2="210" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="315" y1="150" x2="349.64" y2="210" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- extra path 2d sin(theta): P -> B -> Q (coral) -->
+  <line x1="280.36" y1="210" x2="315" y2="230" stroke="#e0645c" stroke-width="3"/>
+  <line x1="315" y1="230" x2="349.64" y2="210" stroke="#e0645c" stroke-width="3"/>
+  <circle cx="280.36" cy="210" r="3" fill="#8a8a8a"/>
+  <circle cx="349.64" cy="210" r="3" fill="#8a8a8a"/>
+
+  <!-- theta arcs at A -->
+  <path d="M 281 150 A 34 34 0 0 0 285.6 133" fill="none" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="262" y="142" fill="#8a8a8a">&#952;</text>
+  <path d="M 349 150 A 34 34 0 0 1 344.4 133" fill="none" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="352" y="142" fill="#8a8a8a">&#952;</text>
+
+  <!-- highlighted equation -->
+  <text x="150" y="290" fill="#e0645c">extra path = 2d sin&#952; = n&#955;</text>
+
+  <!-- ===== Ewald inset ===== -->
+  <text x="500" y="120" fill="#8a8a8a" font-style="italic">Ewald sphere</text>
+  <circle cx="585" cy="210" r="50" fill="#4a90d9" opacity="0.12"/>
+  <circle cx="585" cy="210" r="50" fill="none" stroke="#4a90d9" stroke-width="1.5"/>
+  <!-- reciprocal-lattice dots -->
+  <g fill="#8a8a8a">
+    <circle cx="541.7" cy="185" r="3"/><circle cx="628.3" cy="185" r="3"/>
+    <circle cx="585" cy="185" r="2.5"/><circle cx="585" cy="235" r="2.5"/><circle cx="541.7" cy="235" r="2.5"/><circle cx="628.3" cy="235" r="2.5"/>
+  </g>
+  <!-- k_in from center to origin O -->
+  <line x1="585" y1="210" x2="541.7" y2="185" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="541.7,185 552,187 549,193.5" fill="#4a90d9"/>
+  <!-- k_out from center to G' -->
+  <line x1="585" y1="210" x2="628.3" y2="185" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="628.3,185 618,187 621,193.5" fill="#4a90d9"/>
+  <!-- G = k_out - k_in (coral) -->
+  <line x1="541.7" y1="185" x2="628.3" y2="185" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="628.3,185 617.5,181 617.5,189" fill="#e0645c"/>
+  <text x="578" y="228" fill="#4a90d9">k</text>
+  <text x="527" y="180" fill="#8a8a8a">O</text>
+  <text x="580" y="178" fill="#e0645c">G</text>
+</svg>

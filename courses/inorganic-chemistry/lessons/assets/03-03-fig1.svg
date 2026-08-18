@@ -1,0 +1,75 @@
+<svg viewBox="0 0 680 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="36" y="24" fill="#8a8a8a" font-style="italic">A d&#8211;d transition eats a photon of energy &#916;&#8331;; the peak's &#955;&#8321;&#8332;&#8339; fixes &#916;&#8331;, and the complex shows the complementary color.</text>
+
+  <!-- ============ LEFT: t2g -> eg transition across Delta_o ============ -->
+  <text x="70" y="66" fill="#8a8a8a" font-size="12">octahedral splitting</text>
+
+  <!-- energy axis -->
+  <line x1="80" y1="330" x2="80" y2="100" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="80,100 75,111 85,111" fill="#8a8a8a"/>
+  <text x="66" y="106" fill="#8a8a8a">E</text>
+
+  <!-- eg set: two coral levels (raised) -->
+  <line x1="150" y1="150" x2="188" y2="150" stroke="#e0645c" stroke-width="3"/>
+  <line x1="196" y1="150" x2="234" y2="150" stroke="#e0645c" stroke-width="3"/>
+  <text x="244" y="146" fill="#e0645c">e&#8331;</text>
+
+  <!-- t2g set: three blue levels (lowered) -->
+  <line x1="140" y1="262" x2="172" y2="262" stroke="#4a90d9" stroke-width="3"/>
+  <line x1="178" y1="262" x2="210" y2="262" stroke="#4a90d9" stroke-width="3"/>
+  <line x1="216" y1="262" x2="248" y2="262" stroke="#4a90d9" stroke-width="3"/>
+  <text x="256" y="266" fill="#4a90d9">t&#8322;&#8331;</text>
+
+  <!-- electrons in t2g (paired-ish dots) -->
+  <circle cx="156" cy="262" r="3.5" fill="#4a90d9"/>
+  <circle cx="194" cy="262" r="3.5" fill="#4a90d9"/>
+  <circle cx="232" cy="262" r="3.5" fill="#4a90d9"/>
+  <!-- promoted electron now in eg -->
+  <circle cx="169" cy="150" r="3.5" fill="#e0645c"/>
+
+  <!-- promotion arrow (blue) t2g -> eg -->
+  <line x1="169" y1="256" x2="169" y2="158" stroke="#4a90d9" stroke-width="1.5"/>
+  <polygon points="169,150 165,161 173,161" fill="#4a90d9"/>
+
+  <!-- Delta_o double arrow (coral) -->
+  <line x1="300" y1="156" x2="300" y2="256" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="300,150 296,161 304,161" fill="#e0645c"/>
+  <polygon points="300,262 296,251 304,251" fill="#e0645c"/>
+  <text x="308" y="210" fill="#e0645c">&#916;&#8331;</text>
+
+  <!-- incoming photon: wavy blue arrow -->
+  <path d="M 108 200 q 8 -9 16 0 q 8 9 16 0 q 8 -9 16 0" fill="none" stroke="#4a90d9" stroke-width="1.6"/>
+  <polygon points="156,200 145,196 145,204" fill="#4a90d9"/>
+  <text x="96" y="186" fill="#4a90d9" font-size="12">h&#957; = &#916;&#8331;</text>
+  <text x="96" y="228" fill="#8a8a8a" font-size="12">photon absorbed</text>
+
+  <!-- divider -->
+  <line x1="360" y1="80" x2="360" y2="368" stroke="#8a8a8a" stroke-width="0.75" stroke-dasharray="2 6"/>
+
+  <!-- ============ RIGHT: absorption spectrum ============ -->
+  <text x="404" y="66" fill="#8a8a8a" font-size="12">absorption spectrum</text>
+
+  <!-- axes -->
+  <line x1="404" y1="330" x2="404" y2="100" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="404,100 399,111 409,111" fill="#8a8a8a"/>
+  <text x="380" y="150" fill="#8a8a8a" font-size="12" transform="rotate(-90 380 150)">absorbance</text>
+  <line x1="404" y1="330" x2="662" y2="330" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="662,330 651,325 651,335" fill="#8a8a8a"/>
+  <text x="628" y="352" fill="#8a8a8a" font-size="12">&#955; (nm)</text>
+
+  <!-- absorption band (blue) -->
+  <path d="M 418 328 C 470 328, 486 160, 520 150 C 554 160, 606 328, 640 328" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="528" y="190" fill="#4a90d9" font-size="12">d&#8211;d band</text>
+
+  <!-- lambda_max drop line (coral) -->
+  <line x1="520" y1="150" x2="520" y2="330" stroke="#e0645c" stroke-width="1.3" stroke-dasharray="4 4"/>
+  <circle cx="520" cy="150" r="3.5" fill="#e0645c"/>
+  <text x="500" y="348" fill="#e0645c" font-size="12">&#955;&#8321;&#8332;&#8339;</text>
+
+  <!-- absorbed vs observed labels -->
+  <text x="470" y="128" fill="#4a90d9" font-size="12">absorbs green</text>
+  <text x="470" y="300" fill="#8a8a8a" font-size="11">&#916;&#8331; = N&#8320;hc / &#955;&#8321;&#8332;&#8339;</text>
+  <text x="560" y="252" fill="#e0645c" font-size="12">&#8594; looks red /</text>
+  <text x="560" y="270" fill="#e0645c" font-size="12">   purple</text>
+</svg>

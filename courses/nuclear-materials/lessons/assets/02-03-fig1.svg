@@ -1,0 +1,59 @@
+<svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="30" y="20" fill="#8a8a8a" font-style="italic">Swelling has a window in temperature (left) and an incubation dose before it takes off (right).</text>
+
+  <!-- ================= LEFT PANEL: swelling vs temperature ================= -->
+  <!-- axes -->
+  <line x1="60" y1="235" x2="305" y2="235" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="305,235 296,231 296,239" fill="#8a8a8a"/>
+  <line x1="60" y1="235" x2="60" y2="55" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="60,55 56,64 64,64" fill="#8a8a8a"/>
+  <text x="240" y="253" fill="#8a8a8a">T / T</text>
+  <text x="270" y="257" fill="#8a8a8a" font-size="10">m</text>
+  <text x="26" y="60" fill="#8a8a8a">&#916;V/V</text>
+
+  <!-- window band 0.3 to 0.55 Tm -->
+  <rect x="112" y="55" width="138" height="180" fill="#4a90d9" opacity="0.09"/>
+  <line x1="112" y1="235" x2="112" y2="60" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="250" y1="235" x2="250" y2="60" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="92" y="250" fill="#8a8a8a">0.3</text>
+  <text x="234" y="250" fill="#8a8a8a">0.55</text>
+
+  <!-- bell curve -->
+  <path d="M 62 232 C 92 231, 102 224, 112 216 C 132 198, 150 108, 168 82 C 186 108, 222 200, 250 214 C 270 223, 288 229, 300 231"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- peak marker at ~0.4 Tm -->
+  <line x1="168" y1="82" x2="168" y2="235" stroke="#e0645c" stroke-width="1" stroke-dasharray="2 4"/>
+  <circle cx="168" cy="82" r="3.5" fill="#e0645c"/>
+  <text x="150" y="250" fill="#e0645c">0.4</text>
+  <text x="176" y="80" fill="#e0645c">peak</text>
+
+  <!-- edge labels -->
+  <text x="62" y="205" fill="#8a8a8a" font-size="11">too cold:</text>
+  <text x="62" y="218" fill="#8a8a8a" font-size="11">frozen</text>
+  <text x="256" y="205" fill="#8a8a8a" font-size="11">too hot:</text>
+  <text x="256" y="218" fill="#8a8a8a" font-size="11">emission</text>
+
+  <!-- ================= RIGHT PANEL: swelling vs dose ================= -->
+  <!-- axes -->
+  <line x1="360" y1="235" x2="620" y2="235" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="620,235 611,231 611,239" fill="#8a8a8a"/>
+  <line x1="360" y1="235" x2="360" y2="55" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="360,55 356,64 364,64" fill="#8a8a8a"/>
+  <text x="545" y="253" fill="#8a8a8a">dose (dpa)</text>
+  <text x="326" y="60" fill="#8a8a8a">&#916;V/V</text>
+
+  <!-- incubation then linear -->
+  <path d="M 362 231 L 400 230 L 455 226 L 470 220 L 610 78"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- incubation marker -->
+  <line x1="463" y1="235" x2="463" y2="120" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="372" y="130" fill="#8a8a8a" font-size="11">incubation</text>
+  <text x="372" y="144" fill="#8a8a8a" font-size="11">(tens of dpa)</text>
+
+  <!-- slope label ~1%/dpa -->
+  <line x1="520" y1="168" x2="560" y2="128" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="548" y="120" fill="#e0645c">&#8776; 1&#37;/dpa</text>
+  <text x="470" y="205" fill="#8a8a8a" font-size="11">linear regime</text>
+</svg>

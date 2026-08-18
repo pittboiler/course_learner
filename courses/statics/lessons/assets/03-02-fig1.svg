@@ -1,0 +1,47 @@
+<svg viewBox="0 0 360 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Split the L into two rectangles; each balances at its own centroid, the whole at C.</text>
+
+  <!-- marker for centroid dots is drawn inline as circles -->
+
+  <!-- axes -->
+  <line x1="70" y1="250" x2="272" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="272,250 262,245 262,255" fill="#8a8a8a"/>
+  <text x="277" y="255" fill="#8a8a8a">x</text>
+  <line x1="70" y1="250" x2="70" y2="58" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,58 65,68 75,68" fill="#8a8a8a"/>
+  <text x="62" y="54" fill="#8a8a8a">y</text>
+  <text x="55" y="266" fill="#8a8a8a">O</text>
+
+  <!-- the L-shaped area (blue) -->
+  <path d="M70,250 L250,250 L250,190 L130,190 L130,70 L70,70 Z"
+        fill="#4a90d9" fill-opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+
+  <!-- internal division between the two rectangles (dashed) -->
+  <line x1="130" y1="250" x2="130" y2="190" stroke="#8a8a8a" stroke-width="1.2" stroke-dasharray="4 4"/>
+
+  <!-- edge-length labels (grey) -->
+  <text x="93" y="63" fill="#8a8a8a">2</text>
+  <text x="52" y="163" fill="#8a8a8a">6</text>
+  <text x="184" y="270" fill="#8a8a8a">4</text>
+  <text x="256" y="224" fill="#8a8a8a">2</text>
+
+  <!-- piece 1 label -->
+  <text x="86" y="120" fill="#4a90d9">A&#8321;</text>
+  <!-- piece 2 label -->
+  <text x="196" y="228" fill="#4a90d9">A&#8322;</text>
+
+  <!-- centroid of piece 1 -->
+  <circle cx="100" cy="160" r="4" fill="#e0645c"/>
+  <text x="106" y="156" fill="#e0645c">C&#8321;(1,&#160;3)</text>
+
+  <!-- centroid of piece 2 -->
+  <circle cx="190" cy="220" r="4" fill="#e0645c"/>
+  <text x="196" y="216" fill="#e0645c">C&#8322;(4,&#160;1)</text>
+
+  <!-- overall centroid: crosshair -->
+  <circle cx="136" cy="184" r="6" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <line x1="126" y1="184" x2="146" y2="184" stroke="#e0645c" stroke-width="1.5"/>
+  <line x1="136" y1="174" x2="136" y2="194" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="140" y="172" fill="#e0645c">C(2.2,&#160;2.2)</text>
+</svg>

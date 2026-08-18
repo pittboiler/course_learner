@@ -1,0 +1,41 @@
+<svg viewBox="0 0 620 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="45" y="22" fill="#8a8a8a" font-style="italic">Snapshot of a traveling wave y(x,t) at one instant: amplitude A, wavelength λ, whole pattern sliding right at speed v.</text>
+
+  <!-- x-axis (position) -->
+  <line x1="45" y1="170" x2="565" y2="170" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="565,170 555,165 555,175" fill="#8a8a8a"/>
+  <text x="569" y="175" fill="#8a8a8a">x</text>
+  <!-- y-axis (displacement) -->
+  <line x1="60" y1="255" x2="60" y2="92" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="60,92 55,102 65,102" fill="#8a8a8a"/>
+  <text x="46" y="102" fill="#8a8a8a">y</text>
+  <text x="44" y="175" fill="#8a8a8a">0</text>
+
+  <!-- ghost curve: a slightly later snapshot, shifted right -->
+  <path d="M 60.0 131.0 L 70.0 151.5 L 80.0 174.7 L 90.0 197.2 L 100.0 215.6 L 110.0 227.1 L 120.0 229.8 L 130.0 223.5 L 140.0 209.0 L 150.0 188.5 L 160.0 165.3 L 170.0 142.8 L 180.0 124.4 L 190.0 112.9 L 200.0 110.2 L 210.0 116.5 L 220.0 131.0 L 230.0 151.5 L 240.0 174.7 L 250.0 197.2 L 260.0 215.6 L 270.0 227.1 L 280.0 229.8 L 290.0 223.5 L 300.0 209.0 L 310.0 188.5 L 320.0 165.3 L 330.0 142.8 L 340.0 124.4 L 350.0 112.9 L 360.0 110.2 L 370.0 116.5 L 380.0 131.0 L 390.0 151.5 L 400.0 174.7 L 410.0 197.2 L 420.0 215.6 L 430.0 227.1 L 440.0 229.8 L 450.0 223.5 L 460.0 209.0 L 470.0 188.5 L 480.0 165.3 L 490.0 142.8 L 500.0 124.4 L 510.0 112.9 L 520.0 110.2 L 530.0 116.5 L 540.0 131.0"
+        fill="none" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.5"/>
+
+  <!-- main curve (this instant) -->
+  <path d="M 60.0 212.4 L 70.0 225.4 L 80.0 230.0 L 90.0 225.4 L 100.0 212.4 L 110.0 193.0 L 120.0 170.0 L 130.0 147.0 L 140.0 127.6 L 150.0 114.6 L 160.0 110.0 L 170.0 114.6 L 180.0 127.6 L 190.0 147.0 L 200.0 170.0 L 210.0 193.0 L 220.0 212.4 L 230.0 225.4 L 240.0 230.0 L 250.0 225.4 L 260.0 212.4 L 270.0 193.0 L 280.0 170.0 L 290.0 147.0 L 300.0 127.6 L 310.0 114.6 L 320.0 110.0 L 330.0 114.6 L 340.0 127.6 L 350.0 147.0 L 360.0 170.0 L 370.0 193.0 L 380.0 212.4 L 390.0 225.4 L 400.0 230.0 L 410.0 225.4 L 420.0 212.4 L 430.0 193.0 L 440.0 170.0 L 450.0 147.0 L 460.0 127.6 L 470.0 114.6 L 480.0 110.0 L 490.0 114.6 L 500.0 127.6 L 510.0 147.0 L 520.0 170.0 L 530.0 193.0 L 540.0 212.4"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- wavelength marker: between adjacent crests at x=160 and x=320 -->
+  <line x1="160" y1="110" x2="160" y2="250" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="320" y1="110" x2="320" y2="250" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="160" y1="246" x2="320" y2="246" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="160,246 169,242 169,250" fill="#e0645c"/>
+  <polygon points="320,246 311,242 311,250" fill="#e0645c"/>
+  <text x="234" y="264" fill="#e0645c">λ</text>
+
+  <!-- amplitude marker: equilibrium up to crest at x=320 -->
+  <line x1="320" y1="170" x2="320" y2="110" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="320,110 316,119 324,119" fill="#e0645c"/>
+  <polygon points="320,170 316,161 324,161" fill="#e0645c"/>
+  <text x="327" y="144" fill="#e0645c">A</text>
+
+  <!-- propagation-direction arrow -->
+  <line x1="430" y1="100" x2="500" y2="100" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="500,100 490,95 490,105" fill="#e0645c"/>
+  <text x="505" y="105" fill="#e0645c">v</text>
+</svg>

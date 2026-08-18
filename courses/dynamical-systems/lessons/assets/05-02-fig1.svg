@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 420" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="780" height="420" fill="#ffffff"/>
+
+  <text x="390" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#111111">Orbit (bifurcation) diagram of the logistic map: long-run x vs r</text>
+
+  <!-- axes -->
+  <line x1="80" y1="60" x2="80" y2="370" stroke="#111111" stroke-width="1.5"/>
+  <line x1="80" y1="370" x2="748" y2="370" stroke="#111111" stroke-width="1.5"/>
+  <text x="60" y="74" text-anchor="end" font-size="12" fill="#111111">1</text>
+  <text x="60" y="374" text-anchor="end" font-size="12" fill="#111111">0</text>
+  <text x="40" y="220" text-anchor="middle" font-size="14" fill="#111111" transform="rotate(-90 40 220)">long-run x</text>
+  <text x="410" y="405" text-anchor="middle" font-size="14" fill="#111111">parameter r</text>
+
+  <!-- r ticks -->
+  <line x1="190" y1="370" x2="190" y2="375" stroke="#111111" stroke-width="1"/>
+  <text x="190" y="389" text-anchor="middle" font-size="11" fill="#111111">3.0</text>
+  <line x1="437" y1="370" x2="437" y2="375" stroke="#111111" stroke-width="1"/>
+  <text x="437" y="389" text-anchor="middle" font-size="11" fill="#111111">3.45</text>
+  <line x1="503" y1="370" x2="503" y2="375" stroke="#111111" stroke-width="1"/>
+  <text x="503" y="389" text-anchor="middle" font-size="11" fill="#111111">3.57</text>
+  <line x1="647" y1="370" x2="647" y2="375" stroke="#111111" stroke-width="1"/>
+  <text x="647" y="389" text-anchor="middle" font-size="11" fill="#111111">3.83</text>
+  <line x1="740" y1="370" x2="740" y2="375" stroke="#111111" stroke-width="1"/>
+  <text x="740" y="389" text-anchor="middle" font-size="11" fill="#111111">4.0</text>
+  <text x="80" y="389" text-anchor="middle" font-size="11" fill="#111111">2.8</text>
+
+  <!-- chaotic band: dense vertical strokes suggesting the attractor filling out -->
+  <g stroke="#1a4f9e" stroke-width="1" opacity="0.55">
+    <line x1="505" y1="114.6" x2="505" y2="239.1"/>
+    <line x1="520" y1="111.8" x2="520" y2="247.5"/>
+    <line x1="535" y1="108.9" x2="535" y2="255.9"/>
+    <line x1="550" y1="106.1" x2="550" y2="264.2"/>
+    <line x1="565" y1="103.2" x2="565" y2="272.6"/>
+    <line x1="580" y1="100.4" x2="580" y2="281.0"/>
+    <line x1="595" y1="97.5"  x2="595" y2="289.3"/>
+    <line x1="610" y1="94.7"  x2="610" y2="297.7"/>
+    <line x1="625" y1="91.8"  x2="625" y2="306.1"/>
+    <line x1="670" y1="83.3"  x2="670" y2="331.2"/>
+    <line x1="685" y1="80.4"  x2="685" y2="339.5"/>
+    <line x1="700" y1="77.6"  x2="700" y2="347.9"/>
+    <line x1="715" y1="74.7"  x2="715" y2="356.3"/>
+    <line x1="730" y1="71.9"  x2="730" y2="364.6"/>
+  </g>
+
+  <!-- period-3 window: white gap punched into the band, with three thin branches -->
+  <rect x="632" y="68" width="30" height="302" fill="#ffffff"/>
+  <line x1="632" y1="322" x2="662" y2="322" stroke="#111111" stroke-width="1.2"/>
+  <line x1="632" y1="214" x2="662" y2="214" stroke="#111111" stroke-width="1.2"/>
+  <line x1="632" y1="82"  x2="662" y2="82"  stroke="#111111" stroke-width="1.2"/>
+
+  <!-- period-1 branch (fixed point x* = 1 - 1/r), r in [2.8,3] -->
+  <path d="M80,177 Q135,174 190,170" fill="none" stroke="#111111" stroke-width="2"/>
+
+  <!-- period-2 branches, r in [3, 3.449] -->
+  <path d="M190,170 Q300,120 437,115" fill="none" stroke="#111111" stroke-width="1.8"/>
+  <path d="M190,170 Q300,225 437,238" fill="none" stroke="#111111" stroke-width="1.8"/>
+
+  <!-- period-4 branches, r in [3.449, 3.544] -->
+  <path d="M437,115 Q465,102 489,96"  fill="none" stroke="#111111" stroke-width="1.4"/>
+  <path d="M437,115 Q465,124 489,129" fill="none" stroke="#111111" stroke-width="1.4"/>
+  <path d="M437,238 Q465,220 489,214" fill="none" stroke="#111111" stroke-width="1.4"/>
+  <path d="M437,238 Q465,250 489,256" fill="none" stroke="#111111" stroke-width="1.4"/>
+
+  <!-- period-8 (schematic short fans, r in [3.544, 3.57]) -->
+  <g stroke="#111111" stroke-width="1" fill="none">
+    <path d="M489,96 L503,90"/>  <path d="M489,96 L503,102"/>
+    <path d="M489,129 L503,123"/> <path d="M489,129 L503,135"/>
+    <path d="M489,214 L503,208"/> <path d="M489,214 L503,220"/>
+    <path d="M489,256 L503,250"/> <path d="M489,256 L503,262"/>
+  </g>
+
+  <!-- guide lines and labels -->
+  <line x1="190" y1="70" x2="190" y2="370" stroke="#999999" stroke-width="0.8" stroke-dasharray="3,3"/>
+  <line x1="503" y1="60" x2="503" y2="370" stroke="#c0392b" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <text x="150" y="150" text-anchor="middle" font-size="11" fill="#333333">period&#8211;1</text>
+  <text x="330" y="95"  text-anchor="middle" font-size="11" fill="#333333">2</text>
+  <text x="460" y="88"  text-anchor="middle" font-size="10" fill="#333333">4</text>
+  <text x="512" y="70"  text-anchor="start"  font-size="11" fill="#c0392b" font-weight="bold">onset of chaos</text>
+  <text x="512" y="84"  text-anchor="start"  font-size="10" fill="#c0392b">r&#8734; &#8776; 3.5699</text>
+  <text x="647" y="352" text-anchor="middle" font-size="10" fill="#111111">period&#8211;3</text>
+  <text x="647" y="364" text-anchor="middle" font-size="10" fill="#111111">window</text>
+
+  <text x="290" y="335" text-anchor="middle" font-size="12" fill="#1a6feb" font-weight="bold">period-doubling cascade &#8594;</text>
+</svg>

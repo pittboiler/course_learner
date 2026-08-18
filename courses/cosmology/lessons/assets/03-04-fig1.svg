@@ -1,0 +1,38 @@
+<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">The processed matter power spectrum: primordial k rise, a turnover at k_eq, a k&#8722;3 fall — with faint BAO wiggles.</text>
+
+  <!-- axes -->
+  <line x1="70" y1="330" x2="600" y2="330" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="600,330 590,325 590,335" fill="#8a8a8a"/>
+  <line x1="70" y1="330" x2="70" y2="55" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,55 65,65 75,65" fill="#8a8a8a"/>
+
+  <!-- axis labels -->
+  <text x="512" y="352" fill="#8a8a8a">log k  (large k &#8594; small scales)</text>
+  <text x="34" y="60" fill="#8a8a8a">log</text>
+  <text x="24" y="76" fill="#8a8a8a">P(k)</text>
+
+  <!-- main P(k) curve: rise slope +1, turnover, fall slope -3 with faint BAO wiggles -->
+  <path d="M 70 250 L 130 205 L 190 160 L 235 125
+           L 265 138 L 285 149 L 305 168 L 322 165
+           L 340 186 L 362 205 L 380 202 L 400 224
+           L 425 245 L 450 244 L 480 268 L 520 292 L 560 313"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- k_eq turnover marker -->
+  <line x1="235" y1="125" x2="235" y2="330" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <circle cx="235" cy="125" r="4.5" fill="#e0645c"/>
+  <text x="215" y="348" fill="#e0645c">k_eq</text>
+  <text x="200" y="112" fill="#e0645c">turnover</text>
+
+  <!-- slope labels -->
+  <text x="112" y="150" fill="#4a90d9">&#8733; k</text>
+  <text x="129" y="147" fill="#4a90d9" font-size="10">n_s</text>
+  <text x="440" y="205" fill="#4a90d9">&#8733; k</text>
+  <text x="462" y="202" fill="#4a90d9" font-size="10">n_s&#8722;4</text>
+
+  <!-- guide slope ticks (grey, faint) -->
+  <text x="140" y="248" fill="#8a8a8a" font-size="12">slope +1</text>
+  <text x="470" y="288" fill="#8a8a8a" font-size="12">slope &#8722;3</text>
+</svg>

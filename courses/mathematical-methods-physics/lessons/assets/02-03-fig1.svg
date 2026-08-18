@@ -1,0 +1,49 @@
+<svg viewBox="0 0 620 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="26" fill="#8a8a8a" font-style="italic">Only the poles INSIDE the contour count. The others contribute nothing.</text>
+
+  <!-- ===== axes ===== -->
+  <!-- real axis -->
+  <line x1="55" y1="185" x2="560" y2="185" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="560,185 550,180 550,190" fill="#8a8a8a"/>
+  <text x="540" y="177" fill="#8a8a8a">Re</text>
+  <!-- imaginary axis -->
+  <line x1="300" y1="325" x2="300" y2="58" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="300,58 295,68 305,68" fill="#8a8a8a"/>
+  <text x="308" y="66" fill="#8a8a8a">Im</text>
+  <text x="284" y="202" fill="#8a8a8a">0</text>
+
+  <!-- ===== contour C (encloses z1, z2) ===== -->
+  <circle cx="255" cy="178" r="92" fill="#4a90d9" opacity="0.15"/>
+  <circle cx="255" cy="178" r="92" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <!-- CCW orientation arrow at top of contour -->
+  <polygon points="243,86 256,82 254,95" fill="#4a90d9"/>
+  <text x="165" y="108" fill="#4a90d9">C</text>
+
+  <!-- ===== enclosed poles (coral) ===== -->
+  <circle cx="222" cy="150" r="5" fill="#e0645c"/>
+  <text x="200" y="144" fill="#e0645c">z&#8321;</text>
+  <circle cx="292" cy="212" r="5" fill="#e0645c"/>
+  <text x="300" y="228" fill="#e0645c">z&#8322;</text>
+
+  <!-- ===== annulus of a Laurent expansion about z2 ===== -->
+  <circle cx="292" cy="212" r="14" fill="none" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 3"/>
+  <circle cx="292" cy="212" r="34" fill="none" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="238" y="270" fill="#e0645c" font-style="italic" font-size="12">Laurent annulus</text>
+  <text x="250" y="284" fill="#e0645c" font-style="italic" font-size="12">about z&#8322;</text>
+
+  <!-- ===== excluded pole (grey, outside C) ===== -->
+  <circle cx="452" cy="128" r="5" fill="#8a8a8a"/>
+  <text x="462" y="124" fill="#8a8a8a">z&#8323;  (excluded)</text>
+
+  <!-- ===== the residue-theorem statement ===== -->
+  <text x="60" y="336" fill="#8a8a8a" font-size="15">&#8750;</text>
+  <text x="76" y="336" fill="#8a8a8a" font-size="15">f dz  =  2&#960;i ( </text>
+  <text x="192" y="336" fill="#e0645c" font-size="15">Res</text>
+  <text x="220" y="341" fill="#e0645c" font-size="11">z&#8321;</text>
+  <text x="234" y="336" fill="#e0645c" font-size="15">f  +  Res</text>
+  <text x="300" y="341" fill="#e0645c" font-size="11">z&#8322;</text>
+  <text x="314" y="336" fill="#e0645c" font-size="15">f</text>
+  <text x="326" y="336" fill="#8a8a8a" font-size="15"> )</text>
+  <text x="345" y="336" fill="#8a8a8a" font-size="13" font-style="italic">&#8212; no z&#8323; term</text>
+</svg>

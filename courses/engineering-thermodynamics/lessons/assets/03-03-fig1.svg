@@ -1,0 +1,32 @@
+<svg viewBox="0 0 560 230" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Closed-system entropy balance: what heat carries in, plus what the process makes inside, equals the rise.</text>
+
+  <!-- bracket for total delta-S -->
+  <line x1="60" y1="66" x2="460" y2="66" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="60" y1="66" x2="60" y2="74" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="460" y1="66" x2="460" y2="74" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="260" y="54" fill="#8a8a8a" text-anchor="middle">&#916;S_system = 2.0 kJ/K</text>
+
+  <!-- stacked bar: blue = entropy in via heat, coral = entropy generated -->
+  <rect x="60" y="84" width="300" height="54" fill="#4a90d9" opacity="0.18" stroke="#4a90d9" stroke-width="2"/>
+  <rect x="360" y="84" width="100" height="54" fill="#e0645c" opacity="0.18" stroke="#e0645c" stroke-width="2"/>
+  <text x="210" y="116" fill="#4a90d9" text-anchor="middle">Q / T_b</text>
+  <text x="410" y="116" fill="#e0645c" text-anchor="middle">S_gen</text>
+
+  <!-- baseline scale -->
+  <line x1="60" y1="150" x2="460" y2="150" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="60" y1="150" x2="60" y2="156" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="160" y1="150" x2="160" y2="156" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="260" y1="150" x2="260" y2="156" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="360" y1="150" x2="360" y2="156" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="460" y1="150" x2="460" y2="156" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="60" y="170" fill="#8a8a8a" text-anchor="middle" font-size="11">0</text>
+  <text x="160" y="170" fill="#8a8a8a" text-anchor="middle" font-size="11">0.5</text>
+  <text x="260" y="170" fill="#8a8a8a" text-anchor="middle" font-size="11">1.0</text>
+  <text x="360" y="170" fill="#8a8a8a" text-anchor="middle" font-size="11">1.5</text>
+  <text x="460" y="170" fill="#8a8a8a" text-anchor="middle" font-size="11">2.0</text>
+
+  <!-- equation -->
+  <text x="260" y="198" text-anchor="middle" fill="#8a8a8a">&#916;S = <tspan fill="#4a90d9">Q / T_b</tspan> + <tspan fill="#e0645c">S_gen</tspan>   =   1.5 + 0.5 = 2.0 kJ/K</text>
+  <text x="260" y="218" text-anchor="middle" fill="#8a8a8a" font-size="11" font-style="italic">S_gen &#8805; 0 : zero if reversible, positive if irreversible, never negative.</text>
+</svg>

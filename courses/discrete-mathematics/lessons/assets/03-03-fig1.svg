@@ -1,0 +1,32 @@
+<svg viewBox="0 0 400 360" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+  <rect x="0" y="0" width="400" height="360" rx="14" fill="#faf9f6" stroke="#333333" stroke-width="1.5"/>
+
+  <!-- Three overlapping circles -->
+  <circle cx="155" cy="150" r="92" fill="#3b6ea5" fill-opacity="0.16" stroke="#333333" stroke-width="1.6"/>
+  <circle cx="245" cy="150" r="92" fill="#a53b52" fill-opacity="0.16" stroke="#333333" stroke-width="1.6"/>
+  <circle cx="200" cy="228" r="92" fill="#3ba55d" fill-opacity="0.16" stroke="#333333" stroke-width="1.6"/>
+
+  <!-- Circle name labels -->
+  <text x="92"  y="92"  fill="#333333" font-size="22" font-style="italic" text-anchor="middle">A</text>
+  <text x="308" y="92"  fill="#333333" font-size="22" font-style="italic" text-anchor="middle">B</text>
+  <text x="200" y="320" fill="#333333" font-size="22" font-style="italic" text-anchor="middle">C</text>
+
+  <!-- Region signs: + for singles, − for pairs, + for triple -->
+  <!-- A only -->
+  <text x="120" y="140" fill="#333333" font-size="20" text-anchor="middle">+</text>
+  <!-- B only -->
+  <text x="280" y="140" fill="#333333" font-size="20" text-anchor="middle">+</text>
+  <!-- C only -->
+  <text x="200" y="262" fill="#333333" font-size="20" text-anchor="middle">+</text>
+  <!-- A∩B only -->
+  <text x="200" y="118" fill="#333333" font-size="20" text-anchor="middle">−</text>
+  <!-- A∩C only -->
+  <text x="150" y="212" fill="#333333" font-size="20" text-anchor="middle">−</text>
+  <!-- B∩C only -->
+  <text x="250" y="212" fill="#333333" font-size="20" text-anchor="middle">−</text>
+  <!-- A∩B∩C -->
+  <text x="200" y="178" fill="#333333" font-size="20" text-anchor="middle" font-weight="bold">+</text>
+
+  <!-- Caption: the pattern -->
+  <text x="200" y="348" fill="#333333" font-size="13" text-anchor="middle">singles (+)  −  pairs (−)  +  triple (+)</text>
+</svg>

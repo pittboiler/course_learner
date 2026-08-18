@@ -1,0 +1,57 @@
+<svg viewBox="0 0 640 372" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="640" height="372" fill="#ffffff"/>
+
+  <!-- title -->
+  <text x="320" y="28" fill="#111111" font-size="17" text-anchor="middle" font-weight="bold">The affine dictionary:  equations &#8596; shapes</text>
+
+  <!-- ======================= PANEL A: parabola ======================= -->
+  <!-- axes -->
+  <line x1="78" y1="200" x2="252" y2="200" stroke="#111111" stroke-width="1.3"/>
+  <line x1="160" y1="98" x2="160" y2="216" stroke="#111111" stroke-width="1.3"/>
+  <text x="256" y="204" fill="#555555" font-size="12">x</text>
+  <text x="150" y="98" fill="#555555" font-size="12">y</text>
+  <circle cx="160" cy="200" r="2.5" fill="#111111"/>
+
+  <!-- parabola  y = x^2 -->
+  <path d="M 83 111.8 L 94 135.2 L 105 155 L 116 171.2 L 127 183.8 L 138 192.8 L 149 198.2 L 160 200 L 171 198.2 L 182 192.8 L 193 183.8 L 204 171.2 L 215 155 L 226 135.2 L 237 111.8"
+        fill="none" stroke="#1d4ed8" stroke-width="2.4"/>
+
+  <!-- panel A labels -->
+  <text x="160" y="250" fill="#1d4ed8" font-size="17" text-anchor="middle" font-weight="bold">V(y &#8722; x&#178;)</text>
+  <text x="160" y="272" fill="#111111" font-size="13" text-anchor="middle">the parabola</text>
+  <text x="160" y="290" fill="#555555" font-size="12" text-anchor="middle">one equation, one curve</text>
+
+  <!-- ======================= middle arrows ======================= -->
+  <text x="320" y="176" fill="#111111" font-size="13" text-anchor="middle">V:  a set S of</text>
+  <text x="320" y="192" fill="#111111" font-size="13" text-anchor="middle">polynomials</text>
+  <line x1="288" y1="200" x2="352" y2="200" stroke="#111111" stroke-width="1.4" marker-end="url(#ah)"/>
+  <text x="320" y="224" fill="#555555" font-size="12" text-anchor="middle">its zero set</text>
+
+  <!-- ======================= PANEL B: union of axes ======================= -->
+  <!-- faint frame origin marker -->
+  <!-- the variety = the two coordinate axes -->
+  <line x1="404" y1="190" x2="576" y2="190" stroke="#b91c1c" stroke-width="2.6"/>
+  <line x1="490" y1="112" x2="490" y2="248" stroke="#b91c1c" stroke-width="2.6"/>
+  <circle cx="490" cy="190" r="3" fill="#111111"/>
+  <text x="580" y="194" fill="#555555" font-size="12">x</text>
+  <text x="480" y="112" fill="#555555" font-size="12">y</text>
+
+  <!-- panel B labels -->
+  <text x="490" y="250" fill="#b91c1c" font-size="17" text-anchor="middle" font-weight="bold">V(xy)</text>
+  <text x="490" y="272" fill="#111111" font-size="13" text-anchor="middle">the two axes</text>
+  <text x="490" y="290" fill="#555555" font-size="12" text-anchor="middle">{x = 0}  &#8746;  {y = 0}</text>
+
+  <!-- ======================= return arrow I ======================= -->
+  <line x1="352" y1="315" x2="288" y2="315" stroke="#111111" stroke-width="1.4" marker-end="url(#ah)"/>
+  <text x="320" y="308" fill="#111111" font-size="13" text-anchor="middle">I:  a shape X</text>
+  <text x="320" y="336" fill="#555555" font-size="12" text-anchor="middle">all f vanishing on X</text>
+
+  <!-- caption -->
+  <text x="320" y="362" fill="#111111" font-size="13" text-anchor="middle">V turns equations into shapes; I turns a shape back into the ideal of what vanishes on it.</text>
+
+  <defs>
+    <marker id="ah" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#111111"/>
+    </marker>
+  </defs>
+</svg>

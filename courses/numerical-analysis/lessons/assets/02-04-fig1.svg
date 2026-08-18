@@ -1,0 +1,75 @@
+<svg viewBox="0 0 720 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="720" height="360" fill="#ffffff"/>
+
+  <!-- ============ LEFT: TRAPEZOID ============ -->
+  <text x="190" y="40" text-anchor="middle" font-size="18" fill="#111">Trapezoid: straight chords</text>
+
+  <!-- axes -->
+  <line x1="70" y1="300" x2="330" y2="300" stroke="#111" stroke-width="1.5"/>
+  <line x1="70" y1="300" x2="70" y2="80" stroke="#111" stroke-width="1.5"/>
+
+  <!-- error slivers (between chord above and curve below) -->
+  <path d="M70,300 L190,235.84 L310,100
+           L286,135.86 L262,166.72 L238,193.29 L214,216.16 L190,235.84
+           L166,252.77 L142,267.35 L118,279.90 L94,290.70 L70,300 Z"
+        fill="#f4b8b8" stroke="none"/>
+
+  <!-- true curve -->
+  <polyline points="70,300 94,290.70 118,279.90 142,267.35 166,252.77 190,235.84 214,216.16 238,193.29 262,166.72 286,135.86 310,100"
+            fill="none" stroke="#1f6feb" stroke-width="2.5"/>
+
+  <!-- trapezoid chords (two panels) -->
+  <polyline points="70,300 190,235.84 310,100" fill="none" stroke="#111" stroke-width="2" stroke-dasharray="1 0"/>
+
+  <!-- panel dividers -->
+  <line x1="190" y1="300" x2="190" y2="235.84" stroke="#111" stroke-width="1"/>
+  <line x1="310" y1="300" x2="310" y2="100" stroke="#111" stroke-width="1"/>
+
+  <!-- node dots -->
+  <circle cx="70" cy="300" r="3.5" fill="#111"/>
+  <circle cx="190" cy="235.84" r="3.5" fill="#111"/>
+  <circle cx="310" cy="100" r="3.5" fill="#111"/>
+
+  <text x="66" y="318" text-anchor="middle" font-size="13" fill="#111">a</text>
+  <text x="190" y="318" text-anchor="middle" font-size="13" fill="#111">a+h</text>
+  <text x="310" y="318" text-anchor="middle" font-size="13" fill="#111">b</text>
+
+  <!-- ============ RIGHT: SIMPSON ============ -->
+  <text x="530" y="40" text-anchor="middle" font-size="18" fill="#111">Simpson: parabolic arc</text>
+
+  <!-- axes -->
+  <line x1="410" y1="300" x2="670" y2="300" stroke="#111" stroke-width="1.5"/>
+  <line x1="410" y1="300" x2="410" y2="80" stroke="#111" stroke-width="1.5"/>
+
+  <!-- error slivers between parabola and true curve (tiny) -->
+  <path d="M410,300 Q530,271.68 650,100
+           L626,135.86 L602,166.72 L578,193.29 L554,216.16 L530,235.84
+           L506,252.77 L482,267.35 L458,279.90 L434,290.70 L410,300 Z"
+        fill="#f4b8b8" stroke="none"/>
+
+  <!-- true curve -->
+  <polyline points="410,300 434,290.70 458,279.90 482,267.35 506,252.77 530,235.84 554,216.16 578,193.29 602,166.72 626,135.86 650,100"
+            fill="none" stroke="#1f6feb" stroke-width="2.5"/>
+
+  <!-- Simpson parabola through the 3 nodes -->
+  <path d="M410,300 Q530,271.68 650,100" fill="none" stroke="#111" stroke-width="2"/>
+
+  <line x1="530" y1="300" x2="530" y2="235.84" stroke="#111" stroke-width="1"/>
+  <line x1="650" y1="300" x2="650" y2="100" stroke="#111" stroke-width="1"/>
+
+  <circle cx="410" cy="300" r="3.5" fill="#111"/>
+  <circle cx="530" cy="235.84" r="3.5" fill="#111"/>
+  <circle cx="650" cy="100" r="3.5" fill="#111"/>
+
+  <text x="406" y="318" text-anchor="middle" font-size="13" fill="#111">a</text>
+  <text x="530" y="318" text-anchor="middle" font-size="13" fill="#111">a+h</text>
+  <text x="650" y="318" text-anchor="middle" font-size="13" fill="#111">b</text>
+
+  <!-- legend -->
+  <line x1="250" y1="345" x2="280" y2="345" stroke="#1f6feb" stroke-width="2.5"/>
+  <text x="286" y="349" font-size="13" fill="#111">true f</text>
+  <line x1="350" y1="345" x2="380" y2="345" stroke="#111" stroke-width="2"/>
+  <text x="386" y="349" font-size="13" fill="#111">rule</text>
+  <rect x="430" y="338" width="16" height="12" fill="#f4b8b8"/>
+  <text x="452" y="349" font-size="13" fill="#111">error</text>
+</svg>

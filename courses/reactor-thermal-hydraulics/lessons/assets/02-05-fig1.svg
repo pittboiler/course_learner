@@ -1,0 +1,59 @@
+<svg viewBox="0 0 580 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">The pumping bill, stacked: every term rides on the dynamic head G&#178;/2&#961;. Friction + grids dominate.</text>
+
+  <!-- y axis (kPa) -->
+  <line x1="110" y1="285" x2="110" y2="45" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="110,45 105,55 115,55" fill="#8a8a8a"/>
+  <text x="70" y="42" fill="#8a8a8a">kPa</text>
+
+  <!-- ticks: 2.3 px per kPa, 0 at y=280 -->
+  <line x1="105" y1="280" x2="110" y2="280" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="86" y="285" fill="#8a8a8a">0</text>
+  <line x1="105" y1="222.5" x2="110" y2="222.5" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="80" y="227" fill="#8a8a8a">25</text>
+  <line x1="105" y1="165" x2="110" y2="165" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="80" y="170" fill="#8a8a8a">50</text>
+  <line x1="105" y1="107.5" x2="110" y2="107.5" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="80" y="112" fill="#8a8a8a">75</text>
+  <line x1="105" y1="50" x2="110" y2="50" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="74" y="55" fill="#8a8a8a">100</text>
+
+  <!-- stacked bar: baseline y=280, 2.3 px/kPa -->
+  <!-- friction 41.3 kPa -> 95 px : y 185..280 -->
+  <rect x="135" y="185" width="95" height="95" fill="#4a90d9"/>
+  <!-- spacers 29.8 kPa -> 69 px : y 116..185 -->
+  <rect x="135" y="116" width="95" height="69" fill="#e0645c"/>
+  <!-- elevation 26.1 kPa -> 60 px : y 56..116 -->
+  <rect x="135" y="56" width="95" height="60" fill="#4a90d9" opacity="0.30"/>
+  <!-- acceleration ~1 kPa (drawn min 6 px) : y 50..56 -->
+  <rect x="135" y="50" width="95" height="6" fill="#e0645c" opacity="0.40"/>
+  <!-- bar outline for the small top segment clarity -->
+  <rect x="135" y="50" width="95" height="230" fill="none" stroke="#8a8a8a" stroke-width="0.75"/>
+
+  <!-- segment labels with leader lines -->
+  <line x1="230" y1="232" x2="270" y2="232" stroke="#8a8a8a" stroke-width="0.75"/>
+  <text x="274" y="230" fill="#4a90d9">Friction  41 kPa</text>
+  <text x="274" y="246" fill="#8a8a8a" font-size="12">f (L/D&#8341;)(G&#178;/2&#961;)</text>
+
+  <line x1="230" y1="150" x2="270" y2="150" stroke="#8a8a8a" stroke-width="0.75"/>
+  <text x="274" y="148" fill="#e0645c">Spacers/form  30 kPa</text>
+  <text x="274" y="164" fill="#8a8a8a" font-size="12">&#931; K (G&#178;/2&#961;),  3 grids</text>
+
+  <line x1="230" y1="86" x2="270" y2="86" stroke="#8a8a8a" stroke-width="0.75"/>
+  <text x="274" y="84" fill="#8a8a8a">Elevation  26 kPa</text>
+  <text x="274" y="100" fill="#8a8a8a" font-size="12">&#961; g H</text>
+
+  <line x1="230" y1="53" x2="270" y2="46" stroke="#8a8a8a" stroke-width="0.75"/>
+  <text x="274" y="44" fill="#8a8a8a">Acceleration  ~1 kPa</text>
+
+  <!-- total bracket -->
+  <line x1="123" y1="50" x2="123" y2="280" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="120" y1="50" x2="123" y2="50" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="120" y1="280" x2="123" y2="280" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="30" y="168" fill="#8a8a8a" font-size="12">Total</text>
+  <text x="20" y="184" fill="#8a8a8a" font-size="12">~98 kPa</text>
+
+  <!-- flow direction note -->
+  <text x="135" y="308" fill="#8a8a8a" font-size="12">flow climbs one PWR channel: G ~ 3800 kg/m&#178;s, D&#8341; ~ 12 mm, L ~ 3.7 m</text>
+</svg>

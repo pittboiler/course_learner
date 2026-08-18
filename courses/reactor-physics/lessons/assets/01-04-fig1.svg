@@ -1,0 +1,46 @@
+<svg viewBox="0 0 620 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Diffusion flux runs to zero not at the wall, but at the extrapolated boundary just beyond it.</text>
+
+  <!-- x-axis (flux = 0 line) -->
+  <line x1="70" y1="255" x2="560" y2="255" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="560,255 550,250 550,260" fill="#8a8a8a"/>
+  <text x="566" y="260" fill="#8a8a8a">x</text>
+
+  <!-- flux axis -->
+  <line x1="90" y1="255" x2="90" y2="72" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="90,72 85,82 95,82" fill="#8a8a8a"/>
+  <text x="78" y="70" fill="#8a8a8a">&#966;</text>
+  <text x="74" y="270" fill="#8a8a8a">0</text>
+
+  <!-- symmetry note at the flat top -->
+  <line x1="95" y1="95" x2="140" y2="95" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="150" y="99" fill="#8a8a8a">center: d&#966;/dx = 0</text>
+
+  <!-- the flux curve (blue) -->
+  <path d="M 90 95 C 230 98, 390 118, 430 172" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="98" y="90" fill="#4a90d9">&#966;(x)</text>
+
+  <!-- coral extrapolation of the flux to zero -->
+  <path d="M 430 172 L 495 255" fill="none" stroke="#e0645c" stroke-width="2" stroke-dasharray="5 5"/>
+
+  <!-- physical wall -->
+  <line x1="430" y1="255" x2="430" y2="110" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="4 5"/>
+  <text x="405" y="105" fill="#8a8a8a">x = a</text>
+
+  <!-- extrapolated boundary -->
+  <line x1="495" y1="255" x2="495" y2="160" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="4 5"/>
+  <text x="452" y="152" fill="#e0645c">x = a + 0.71&#955;tr</text>
+  <text x="500" y="185" fill="#e0645c">&#966; &#8594; 0</text>
+
+  <!-- flux nonzero at wall -->
+  <circle cx="430" cy="172" r="3.5" fill="#e0645c"/>
+  <text x="300" y="205" fill="#e0645c">flux &#8800; 0 at wall</text>
+  <line x1="378" y1="200" x2="424" y2="176" stroke="#e0645c" stroke-width="1"/>
+
+  <!-- gap bracket 0.71 lambda_tr -->
+  <line x1="430" y1="278" x2="495" y2="278" stroke="#e0645c" stroke-width="1.5"/>
+  <line x1="430" y1="274" x2="430" y2="282" stroke="#e0645c" stroke-width="1.5"/>
+  <line x1="495" y1="274" x2="495" y2="282" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="437" y="298" fill="#e0645c">0.71 &#955;tr</text>
+</svg>

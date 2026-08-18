@@ -1,0 +1,38 @@
+<svg viewBox="0 0 560 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">A heat engine: it takes Q_H from the hot reservoir, delivers work W, and MUST dump Q_L to the cold one.</text>
+
+  <!-- hot reservoir -->
+  <rect x="150" y="48" width="260" height="46" rx="4" fill="#e0645c" opacity="0.15" stroke="#e0645c" stroke-width="2"/>
+  <text x="280" y="70" fill="#e0645c" text-anchor="middle">Hot reservoir</text>
+  <text x="280" y="88" fill="#e0645c" text-anchor="middle" font-size="13">T_H</text>
+
+  <!-- cold reservoir -->
+  <rect x="150" y="286" width="260" height="46" rx="4" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <text x="280" y="308" fill="#4a90d9" text-anchor="middle">Cold reservoir</text>
+  <text x="280" y="326" fill="#4a90d9" text-anchor="middle" font-size="13">T_L</text>
+
+  <!-- engine -->
+  <circle cx="280" cy="190" r="52" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="280" y="186" fill="#8a8a8a" text-anchor="middle" font-weight="bold">ENGINE</text>
+  <text x="280" y="204" fill="#8a8a8a" text-anchor="middle" font-size="12">(cyclic)</text>
+
+  <!-- Q_H arrow: hot down into engine -->
+  <line x1="280" y1="94" x2="280" y2="132" stroke="#e0645c" stroke-width="3"/>
+  <polygon points="280,138 274,127 286,127" fill="#e0645c"/>
+  <text x="292" y="118" fill="#e0645c">Q_H</text>
+
+  <!-- Q_L arrow: engine down into cold -->
+  <line x1="280" y1="242" x2="280" y2="280" stroke="#4a90d9" stroke-width="3"/>
+  <polygon points="280,286 274,275 286,275" fill="#4a90d9"/>
+  <text x="292" y="266" fill="#4a90d9">Q_L</text>
+
+  <!-- W arrow: engine to the right -->
+  <line x1="332" y1="190" x2="452" y2="190" stroke="#8a8a8a" stroke-width="3"/>
+  <polygon points="458,190 447,184 447,196" fill="#8a8a8a"/>
+  <text x="470" y="186" fill="#8a8a8a" text-anchor="middle" font-weight="bold">W</text>
+  <text x="470" y="206" fill="#8a8a8a" text-anchor="middle" font-size="12">out</text>
+
+  <!-- efficiency annotation -->
+  <text x="30" y="356" fill="#8a8a8a">Efficiency  &#951; = W / Q_H = 1 &#8722; Q_L / Q_H     (Carnot bound: &#951; &#8804; 1 &#8722; T_L / T_H)</text>
+</svg>

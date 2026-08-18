@@ -1,0 +1,39 @@
+<svg viewBox="0 0 440 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="440" height="300" fill="#ffffff"/>
+
+  <!-- column labels -->
+  <text x="110" y="30" fill="#555" font-size="14" text-anchor="middle">X (left)</text>
+  <text x="330" y="30" fill="#555" font-size="14" text-anchor="middle">Y (right)</text>
+
+  <!-- edges (draw first so vertices sit on top) -->
+  <!-- non-matching edges: thin -->
+  <line x1="110" y1="80"  x2="330" y2="95"  stroke="#111" stroke-width="1.5"/>  <!-- 1-a -->
+  <line x1="110" y1="220" x2="330" y2="95"  stroke="#111" stroke-width="1.5"/>  <!-- 3-a -->
+  <!-- matching edges: bold -->
+  <line x1="110" y1="80"  x2="330" y2="215" stroke="#c0392b" stroke-width="5"/> <!-- 1-b -->
+  <line x1="110" y1="150" x2="330" y2="95"  stroke="#c0392b" stroke-width="5"/> <!-- 2-a -->
+
+  <!-- cover rings (behind vertices) around 1 and a -->
+  <circle cx="110" cy="80" r="24" fill="none" stroke="#2471a3" stroke-width="3" stroke-dasharray="5 4"/>
+  <circle cx="330" cy="95" r="24" fill="none" stroke="#2471a3" stroke-width="3" stroke-dasharray="5 4"/>
+
+  <!-- left vertices -->
+  <circle cx="110" cy="80"  r="14" fill="#eaf2f8" stroke="#111" stroke-width="2"/>
+  <text x="110" y="85" fill="#111" font-size="14" text-anchor="middle">1</text>
+  <circle cx="110" cy="150" r="14" fill="#eaf2f8" stroke="#111" stroke-width="2"/>
+  <text x="110" y="155" fill="#111" font-size="14" text-anchor="middle">2</text>
+  <circle cx="110" cy="220" r="14" fill="#eaf2f8" stroke="#111" stroke-width="2"/>
+  <text x="110" y="225" fill="#111" font-size="14" text-anchor="middle">3</text>
+
+  <!-- right vertices -->
+  <circle cx="330" cy="95"  r="14" fill="#fdf2e9" stroke="#111" stroke-width="2"/>
+  <text x="330" y="100" fill="#111" font-size="14" text-anchor="middle">a</text>
+  <circle cx="330" cy="215" r="14" fill="#fdf2e9" stroke="#111" stroke-width="2"/>
+  <text x="330" y="220" fill="#111" font-size="14" text-anchor="middle">b</text>
+
+  <!-- legend -->
+  <line x1="40" y1="270" x2="80" y2="270" stroke="#c0392b" stroke-width="5"/>
+  <text x="88" y="274" fill="#111" font-size="13" text-anchor="start">matching M (size 2)</text>
+  <circle cx="250" cy="270" r="9" fill="none" stroke="#2471a3" stroke-width="3" stroke-dasharray="5 4"/>
+  <text x="265" y="274" fill="#111" font-size="13" text-anchor="start">cover K = {1, a} (size 2)</text>
+</svg>

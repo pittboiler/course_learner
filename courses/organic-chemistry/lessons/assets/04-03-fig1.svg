@@ -1,0 +1,62 @@
+<svg viewBox="0 0 470 700" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">One recipe for any unknown: each box asks a question; the blue path funnels the answers into a structure.</text>
+
+  <!-- ===== connecting arrows (blue workflow path) ===== -->
+  <g stroke="#4a90d9" stroke-width="2" fill="#4a90d9">
+    <line x1="230" y1="94"  x2="230" y2="120"/>
+    <polygon points="230,122 225,114 235,114"/>
+    <line x1="230" y1="172" x2="230" y2="198"/>
+    <polygon points="230,200 225,192 235,192"/>
+    <line x1="230" y1="250" x2="230" y2="276"/>
+    <polygon points="230,278 225,270 235,270"/>
+    <line x1="230" y1="328" x2="230" y2="354"/>
+    <polygon points="230,356 225,348 235,348"/>
+    <line x1="230" y1="406" x2="230" y2="432"/>
+    <polygon points="230,434 225,426 235,426"/>
+    <line x1="230" y1="484" x2="230" y2="510"/>
+    <polygon points="230,512 225,504 235,504"/>
+    <line x1="230" y1="562" x2="230" y2="588"/>
+    <polygon points="230,590 225,582 235,582"/>
+  </g>
+
+  <!-- ===== box 1: molecular formula ===== -->
+  <rect x="80" y="44" width="300" height="50" rx="6" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="230" y="65" fill="#8a8a8a" text-anchor="middle" font-size="15">1 &#183; Molecular formula</text>
+  <text x="230" y="84" fill="#8a8a8a" text-anchor="middle" font-size="11">which atoms, how many?</text>
+
+  <!-- ===== box 2: degrees of unsaturation (CORAL: decisive) ===== -->
+  <rect x="80" y="122" width="300" height="50" rx="6" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <text x="230" y="143" fill="#e0645c" text-anchor="middle" font-size="15">2 &#183; Degrees of unsaturation</text>
+  <text x="230" y="162" fill="#e0645c" text-anchor="middle" font-size="11">how many rings + &#960; bonds?</text>
+
+  <!-- ===== box 3: IR ===== -->
+  <rect x="80" y="200" width="300" height="50" rx="6" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="230" y="221" fill="#8a8a8a" text-anchor="middle" font-size="15">3 &#183; IR spectrum</text>
+  <text x="230" y="240" fill="#8a8a8a" text-anchor="middle" font-size="11"><tspan fill="#e0645c">C=O?</tspan>  O&#8211;H?  N&#8211;H?</text>
+
+  <!-- ===== box 4: MS ===== -->
+  <rect x="80" y="278" width="300" height="50" rx="6" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="230" y="299" fill="#8a8a8a" text-anchor="middle" font-size="15">4 &#183; Mass spectrum</text>
+  <text x="230" y="318" fill="#8a8a8a" text-anchor="middle" font-size="11">molecular weight &#183; fragments</text>
+
+  <!-- ===== box 5: 13C NMR ===== -->
+  <rect x="80" y="356" width="300" height="50" rx="6" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="230" y="377" fill="#8a8a8a" text-anchor="middle" font-size="15">5 &#183; &#185;&#179;C NMR</text>
+  <text x="230" y="396" fill="#8a8a8a" text-anchor="middle" font-size="11">how many carbons? <tspan fill="#e0645c">carbonyl?</tspan></text>
+
+  <!-- ===== box 6: 1H NMR ===== -->
+  <rect x="80" y="434" width="300" height="50" rx="6" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="230" y="455" fill="#8a8a8a" text-anchor="middle" font-size="15">6 &#183; &#185;H NMR</text>
+  <text x="230" y="474" fill="#8a8a8a" text-anchor="middle" font-size="11">shift &#183; integration &#183; splitting</text>
+
+  <!-- ===== box 7: assemble ===== -->
+  <rect x="80" y="512" width="300" height="50" rx="6" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="230" y="533" fill="#4a90d9" text-anchor="middle" font-size="15">7 &#183; Assemble the fragments</text>
+  <text x="230" y="552" fill="#4a90d9" text-anchor="middle" font-size="11">one structure that fits every clue</text>
+
+  <!-- ===== box 8: verify ===== -->
+  <rect x="80" y="590" width="300" height="50" rx="6" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="230" y="611" fill="#4a90d9" text-anchor="middle" font-size="15">8 &#183; Verify</text>
+  <text x="230" y="630" fill="#4a90d9" text-anchor="middle" font-size="11">does it predict every peak?</text>
+</svg>

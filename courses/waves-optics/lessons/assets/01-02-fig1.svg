@@ -1,0 +1,41 @@
+<svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Same start, same equilibrium — friction alone decides the path back.</text>
+
+  <!-- time axis (equilibrium line, x = 0) -->
+  <line x1="60" y1="170" x2="612" y2="170" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="612,170 602,165 602,175" fill="#8a8a8a"/>
+  <text x="616" y="175" fill="#8a8a8a">t</text>
+
+  <!-- displacement axis -->
+  <line x1="60" y1="292" x2="60" y2="58" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="60,58 55,68 65,68" fill="#8a8a8a"/>
+  <text x="48" y="70" fill="#8a8a8a">x</text>
+  <text x="44" y="75" fill="#8a8a8a">A</text>
+  <text x="44" y="175" fill="#8a8a8a">0</text>
+
+  <!-- decay envelope A e^{-beta t} (dashed blue) -->
+  <path d="M 60 70 L 105 88.1 L 150 103.0 L 195 115.1 L 240 125.1 L 285 133.2 L 330 139.9 L 375 145.3 L 420 149.8 L 465 153.5 L 510 156.5 L 555 158.9 L 600 160.9"
+        fill="none" stroke="#4a90d9" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.9"/>
+  <text x="250" y="108" fill="#4a90d9" font-style="italic">A e&#8722;&#946;t</text>
+
+  <!-- overdamped (grey): 125 e^{-0.8t} - 25 e^{-4t} -->
+  <path d="M 60 70 L 82.5 76.9 L 105 89.6 L 127.5 102.6 L 150 114.3 L 195 132.4 L 240 144.8 L 285 153.1 L 330 158.7 L 375 162.4 L 420 164.9 L 465 166.6 L 510 167.7 L 555 168.5 L 600 169.0"
+        fill="none" stroke="#8a8a8a" stroke-width="2.5"/>
+
+  <!-- critically damped (coral): (1 + beta t) e^{-beta t} -->
+  <path d="M 60 70 L 82.5 77.5 L 105 92.7 L 127.5 109.1 L 150 123.7 L 195 145.1 L 240 157.4 L 285 163.9 L 330 167.1 L 375 168.7 L 420 169.4 L 510 169.9 L 600 170"
+        fill="none" stroke="#e0645c" stroke-width="2.5"/>
+
+  <!-- underdamped (blue): A e^{-0.4t} cos(3t) -->
+  <path d="M 60 70 L 82.5 103.8 L 105 164.2 L 127.5 216.5 L 150 236.4 L 172.5 219.8 L 195 181.6 L 217.5 144.6 L 240 126.9 L 262.5 133.6 L 285 157.3 L 307.5 183.0 L 330 197.4 L 352.5 196.0 L 375 181.9 L 397.5 164.4 L 420 153.0 L 442.5 152.1 L 465 160.9 L 487.5 171.7 L 510 180.3 L 532.5 182.2 L 555 177.8 L 577.5 170.3 L 600 164.0"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <!-- legend -->
+  <line x1="430" y1="52" x2="458" y2="52" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="464" y="57" fill="#8a8a8a">underdamped (&#946; &lt; &#969;&#8320;)</text>
+  <line x1="430" y1="74" x2="458" y2="74" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="464" y="79" fill="#8a8a8a">critical (&#946; = &#969;&#8320;)</text>
+  <line x1="430" y1="96" x2="458" y2="96" stroke="#8a8a8a" stroke-width="2.5"/>
+  <text x="464" y="101" fill="#8a8a8a">overdamped (&#946; &gt; &#969;&#8320;)</text>
+</svg>

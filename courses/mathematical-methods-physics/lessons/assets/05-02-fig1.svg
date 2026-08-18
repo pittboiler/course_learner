@@ -1,0 +1,37 @@
+<svg viewBox="0 0 560 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">A crude parabolic trial (coral) barely differs from the true ground state (blue) — so its Rayleigh</text>
+  <text x="40" y="40" fill="#8a8a8a" font-style="italic">quotient R[trial] sits just above the exact eigenvalue. R[y] ≥ λ_min for ANY trial: an upper bound.</text>
+
+  <!-- axes -->
+  <line x1="70" y1="230" x2="500" y2="230" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="500,230 490,225 490,235" fill="#8a8a8a"/>
+  <text x="504" y="235" fill="#8a8a8a">x</text>
+  <line x1="70" y1="230" x2="70" y2="58" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,58 65,68 75,68" fill="#8a8a8a"/>
+  <text x="52" y="66" fill="#8a8a8a">ψ</text>
+
+  <!-- x ticks: 0 and L -->
+  <line x1="70" y1="230" x2="70" y2="236" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="66" y="250" fill="#8a8a8a">0</text>
+  <line x1="470" y1="230" x2="470" y2="236" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="467" y="250" fill="#8a8a8a">L</text>
+
+  <!-- true ground state: sin(pi x / L), peak 1 at x=L/2 -->
+  <path d="M 70 230 L 110 177.5 L 150 130.0 L 190 92.5 L 230 68.3 L 270 60 L 310 68.3 L 350 92.5 L 390 130.0 L 430 177.5 L 470 230"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- parabolic trial: 4x(L-x)/L^2, normalized to same peak -->
+  <path d="M 70 230 L 110 168.8 L 150 121.2 L 190 87.2 L 230 66.8 L 270 60 L 310 66.8 L 350 87.2 L 390 121.2 L 430 168.8 L 470 230"
+        fill="none" stroke="#e0645c" stroke-width="2.5" stroke-dasharray="6 4"/>
+
+  <!-- legend -->
+  <line x1="300" y1="95" x2="330" y2="95" stroke="#4a90d9" stroke-width="3"/>
+  <text x="336" y="100" fill="#8a8a8a">true: sin(πx/L),  E₁ = π²ħ²/2mL²</text>
+  <line x1="300" y1="118" x2="330" y2="118" stroke="#e0645c" stroke-width="2.5" stroke-dasharray="6 4"/>
+  <text x="336" y="123" fill="#8a8a8a">trial: x(L−x)</text>
+
+  <!-- estimate box -->
+  <text x="336" y="150" fill="#e0645c">R[trial] = 10·ħ²/2mL²</text>
+  <text x="336" y="170" fill="#8a8a8a">= (10/π²) E₁ ≈ 1.013 E₁</text>
+</svg>

@@ -87,8 +87,8 @@ Tier 0.
 
 Prereqs met by proofs-primer / calc / linalg / real-analysis ✓.
 
-- [~] `discrete-mathematics` — Discrete Mathematics (0, 16) — syllabus ✓, lessons pending
-- [~] `number-theory` — Number Theory (1, 19) — syllabus ✓, lessons pending
+- [x] `discrete-mathematics` — Discrete Mathematics (0, 16) — **lessons ✓** (prepped 2026-08-04; 9 SVG + 7 worked instances)
+- [x] `number-theory` — Number Theory (1, 19) — **lessons ✓** (prepped 2026-08-04; 4 SVG + 15 worked instances)
 - [~] `graph-theory` — Graph Theory (1, 18) — syllabus ✓, lessons pending
 - [~] `combinatorics` — Enumerative & Algebraic Combinatorics (1, 15) — syllabus ✓, lessons pending
 - [~] `numerical-analysis` — Numerical Analysis (1, 23) — syllabus ✓, lessons pending
@@ -100,15 +100,17 @@ Prereqs met by proofs-primer / calc / linalg / real-analysis ✓.
 
 *Wave A* needs only calc/ode ✓; *Wave B* needs quantum-mechanics / stat-mech ✓.
 
-- [~] `waves-optics` — Waves & Optics (0, 14) — syllabus ✓, lessons pending
-- [~] `thermodynamics-physics` — Classical Thermodynamics (0, 11) — syllabus ✓, lessons pending
-- [~] `mathematical-methods-physics` — Mathematical Methods for Physics (1, 21) — syllabus ✓, lessons pending
-- [~] `computational-physics` — Computational Physics (1, 17) — syllabus ✓, lessons pending
-- [~] `nuclear-particle-physics` — Nuclear & Particle Physics (2, 25) — syllabus ✓, lessons pending
-- [~] `condensed-matter` — Condensed Matter / Solid State (2, 28) — syllabus ✓, lessons pending
-- [~] `plasma-physics` — Plasma Physics (2, 22) — syllabus ✓, lessons pending → **unlocks fusion in Phase 5**
-- [~] `biophysics` — Biophysics (2, 21) — syllabus ✓, lessons pending
-- [~] `photonics-quantum-optics` — Quantum Optics & Photonics (2, 20) — syllabus ✓, lessons pending
+- [x] `waves-optics` — Waves & Optics (0, 14) — **lessons ✓** (14)
+- [x] `thermodynamics-physics` — Classical Thermodynamics (0, 11) — **lessons ✓** (11)
+- [x] `mathematical-methods-physics` — Mathematical Methods for Physics (1, 21) — **lessons ✓** (21)
+- [–] `computational-physics` — Computational Physics (1, 17) — **dropped** (2026-08-10, Jacob: not doing computational physics)
+- [x] `nuclear-particle-physics` — Nuclear & Particle Physics (2, 25) — **lessons ✓** (25)
+- [x] `condensed-matter` — Condensed Matter / Solid State (2, 28) — **lessons ✓** (28)
+- [x] `plasma-physics` — Plasma Physics (2, 22) — **lessons ✓** (22) → **unlocks fusion in Phase 5**
+- [x] `biophysics` — Biophysics (2, 21) — **lessons ✓** (21)
+- [x] `photonics-quantum-optics` — Quantum Optics & Photonics (2, 20) — **lessons ✓** (prepped 2026-08-10, 20)
+
+**Physics breadth complete** (2026-08-10): all 8 remaining Phase-3 physics courses are prepped; `computational-physics` dropped per Jacob. Together with `cosmology` (Phase 9, prepped 2026-08-10) this closes the physics track.
 
 ### Phase 4 — Engineering core (Field 6, Shelf A) · 7 courses · ~116 lessons
 
@@ -117,9 +119,9 @@ The shared engineering foundation. Prereqs met by calc / ode / mechanics ✓.
 
 - [ ] `statics` — Statics (0, ~10)
 - [ ] `engineering-dynamics` — Dynamics (0, ~12)
-- [ ] `mechanics-of-materials` — Mechanics of Materials (1, ~18)
-- [ ] `engineering-thermodynamics` — Engineering Thermodynamics (1, ~18)
-- [ ] `heat-transfer` — Heat Transfer (1, ~18) → **needed by reactor thermal-hydraulics**
+- [x] `mechanics-of-materials` — Mechanics of Materials (1, ~18) — **lessons ✓** (prepped 2026-08-14, 18) → unlocks structural-analysis
+- [x] `engineering-thermodynamics` — Engineering Thermodynamics (1, ~18) — **lessons ✓** (prepped 2026-08-14, 19)
+- [x] `heat-transfer` — Heat Transfer (1, ~18) — **lessons ✓** (prepped 2026-08-14, 19) → unblocks reactor thermal-hydraulics
 - [ ] `control-systems` — Control Systems (1, ~20)
 - [ ] `signals-systems` — Signals & Systems (1, ~20)
 
@@ -131,8 +133,8 @@ or fold a light version in). Build `intro-nuclear-engineering` **first**.
 
 - [ ] `intro-nuclear-engineering` — Intro to Nuclear Engineering & Radiation (1, ~18)
 - [ ] `reactor-physics` — Reactor Physics & Neutron Transport (2, ~24) *(needs intro + pdes ✓)*
-- [ ] `reactor-thermal-hydraulics` — Reactor Thermal-Hydraulics (2, ~22) *(needs heat-transfer + fluid-dynamics ✓)*
-- [ ] `nuclear-materials` — Nuclear Materials (2, ~20) *(needs materials-science)*
+- [x] `reactor-thermal-hydraulics` — Reactor Thermal-Hydraulics (2, ~22) — **lessons ✓** (prepped 2026-08-14, 22) → **completes the nuclear flagship (all 7 nuclear courses done)**
+- [x] `nuclear-materials` — Nuclear Materials (2, ~20) — **lessons ✓** (prepped 2026-08-13, 21) → **completes the nuclear shelf**
 - [ ] `radiation-detection-shielding` — Radiation Detection & Shielding (2, ~20)
 - [ ] `fusion-plasma` — Fusion & Plasma Engineering (2, ~22) *(needs plasma-physics)*
 - [ ] `nuclear-fuel-cycle` — Nuclear Fuel Cycle & Policy (2, ~18)
@@ -141,19 +143,19 @@ or fold a light version in). Build `intro-nuclear-engineering` **first**.
 
 Build `materials-science` early (it back-fills Phase 5's `nuclear-materials`).
 
-- [ ] `materials-science` — Materials Science & Engineering (1, ~18)
+- [x] `materials-science` — Materials Science & Engineering (1, ~18) — **lessons ✓** (prepped 2026-08-13, 19)
 - [ ] `circuits` — Circuit Analysis (0, ~12)
 - [ ] `electronics` — Electronics & Semiconductors (1, ~18)
 - [ ] `digital-logic` — Digital Logic Design (1, ~16)
 - [ ] `communications` — Communication Systems (2, ~22) *(bridges information-theory ✓)*
 - [ ] `power-systems` — Power Systems (2, ~22)
 - [ ] `semiconductor-devices` — Semiconductor Devices (2, ~20)
-- [ ] `structural-analysis` — Structural Analysis (1, ~18)
+- [x] `structural-analysis` — Structural Analysis (1, ~18) — **lessons ✓** (prepped 2026-08-14, 18) → **completes the mechanical spine (Block 2)**
 - [ ] `aerodynamics` — Aerodynamics (2, ~22) *(needs fluid-dynamics ✓)*
 - [ ] `orbital-mechanics` — Astrodynamics (2, ~20) *(bridges astrophysics ✓)*
 - [ ] `propulsion` — Propulsion (2, ~20)
 - [ ] `robotics` — Robotics & Kinematics (2, ~22) *(needs control-systems + linalg ✓)*
-- [ ] `transport-phenomena` — Transport Phenomena (2, ~24)
+- [x] `transport-phenomena` — Transport Phenomena (2, ~24) — **lessons ✓** (prepped 2026-08-14, 25) → Block 3 (thermal/fluids) started
 - [ ] `reaction-engineering` — Chemical Reaction Engineering (2, ~22)
 - [ ] `operations-research` — Operations Research (1, ~18)
 
@@ -178,6 +180,8 @@ Mostly prereq-light; a strong greenfield.
 
 Root is `general-chemistry`; physical/quantum chem lean on quantum-mechanics ✓.
 
+**In progress (2026-08-10):** building the field in dependency order — done so far: `general-chemistry` **lessons ✓** (16), `organic-chemistry` **lessons ✓** (23), `physical-chemistry` **lessons ✓** (24), `inorganic-chemistry` **lessons ✓** (18), `analytical-chemistry` **lessons ✓** (17), `quantum-chemistry` **lessons ✓** (21), `electrochemistry` **lessons ✓** (18). **7 of 9 chemistry courses done (137 lessons).** Remaining: `biochemistry` (needs organic ✓), `polymer-chemistry` (needs organic + physical ✓) — both unblocked. Note: the study app now loads the KaTeX **mhchem** extension (`\ce{}`) — enabled 2026-08-10 for the chemistry field, verified rendering in-app.
+
 `general-chemistry` (0) → `organic-chemistry` (1) → `physical-chemistry` (2),
 `quantum-chemistry` (2), `inorganic-chemistry` (1), `analytical-chemistry` (1),
 `biochemistry` (2), `electrochemistry` (2), `polymer-chemistry` (2).
@@ -186,7 +190,7 @@ Root is `general-chemistry`; physical/quantum chem lean on quantum-mechanics ✓
 
 Earth/Space: `geology` (0), `atmospheric-science` (1), `geophysics` (2),
 `climate-science` (2), `oceanography` (2), `planetary-science` (2),
-`cosmology` (2, deep dive past astrophysics ✓).
+`cosmology` (2, deep dive past astrophysics ✓) — **lessons ✓** (prepped 2026-08-10, 20).
 
 Life: `general-biology` (0), `molecular-cell-biology` (1), `genetics` (1),
 `evolution-ecology` (1), `physiology` (1), `neuroscience` (2),

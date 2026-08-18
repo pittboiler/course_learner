@@ -1,0 +1,75 @@
+<svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="20" y="24" fill="#8a8a8a" font-style="italic">An edge dislocation: an extra half-plane of atoms (blue) ends at the line marked &#8869;.</text>
+  <text x="20" y="42" fill="#8a8a8a" font-style="italic">Trace a loop around it and it fails to close by one step &#8212; the Burgers vector b.</text>
+
+  <!-- ===== Burgers circuit (grey), drawn first so atoms sit on top ===== -->
+  <path d="M 126 200 L 126 60 L 234 60 L 234 200 L 162 200"
+        fill="none" stroke="#8a8a8a" stroke-width="1.4"/>
+  <!-- sense arrowhead on the top leg -->
+  <polygon points="196,60 186,55 186,65" fill="#8a8a8a"/>
+
+  <!-- slip plane line -->
+  <line x1="52" y1="182" x2="300" y2="182" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="306" y="187" fill="#8a8a8a">slip plane</text>
+
+  <!-- ===== upper half: 7 columns, y = 74,110,146; center column (x=180) is the extra half-plane ===== -->
+  <!-- grey atoms -->
+  <circle cx="72" cy="74" r="6" fill="#8a8a8a"/>
+  <circle cx="108" cy="74" r="6" fill="#8a8a8a"/>
+  <circle cx="144" cy="74" r="6" fill="#8a8a8a"/>
+  <circle cx="216" cy="74" r="6" fill="#8a8a8a"/>
+  <circle cx="252" cy="74" r="6" fill="#8a8a8a"/>
+  <circle cx="288" cy="74" r="6" fill="#8a8a8a"/>
+  <circle cx="72" cy="110" r="6" fill="#8a8a8a"/>
+  <circle cx="108" cy="110" r="6" fill="#8a8a8a"/>
+  <circle cx="144" cy="110" r="6" fill="#8a8a8a"/>
+  <circle cx="216" cy="110" r="6" fill="#8a8a8a"/>
+  <circle cx="252" cy="110" r="6" fill="#8a8a8a"/>
+  <circle cx="288" cy="110" r="6" fill="#8a8a8a"/>
+  <circle cx="72" cy="146" r="6" fill="#8a8a8a"/>
+  <circle cx="108" cy="146" r="6" fill="#8a8a8a"/>
+  <circle cx="144" cy="146" r="6" fill="#8a8a8a"/>
+  <circle cx="216" cy="146" r="6" fill="#8a8a8a"/>
+  <circle cx="252" cy="146" r="6" fill="#8a8a8a"/>
+  <circle cx="288" cy="146" r="6" fill="#8a8a8a"/>
+  <!-- the extra half-plane (blue) -->
+  <circle cx="180" cy="74" r="6" fill="#4a90d9"/>
+  <circle cx="180" cy="110" r="6" fill="#4a90d9"/>
+  <circle cx="180" cy="146" r="6" fill="#4a90d9"/>
+
+  <!-- the dislocation symbol at the termination -->
+  <line x1="180" y1="150" x2="180" y2="182" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="162" y1="182" x2="198" y2="182" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="204" y="168" fill="#4a90d9">dislocation line</text>
+
+  <!-- ===== lower half: 6 columns evenly spanning the same width, y = 216,252,288 ===== -->
+  <circle cx="72" cy="216" r="6" fill="#8a8a8a"/>
+  <circle cx="115" cy="216" r="6" fill="#8a8a8a"/>
+  <circle cx="158" cy="216" r="6" fill="#8a8a8a"/>
+  <circle cx="202" cy="216" r="6" fill="#8a8a8a"/>
+  <circle cx="245" cy="216" r="6" fill="#8a8a8a"/>
+  <circle cx="288" cy="216" r="6" fill="#8a8a8a"/>
+  <circle cx="72" cy="252" r="6" fill="#8a8a8a"/>
+  <circle cx="115" cy="252" r="6" fill="#8a8a8a"/>
+  <circle cx="158" cy="252" r="6" fill="#8a8a8a"/>
+  <circle cx="202" cy="252" r="6" fill="#8a8a8a"/>
+  <circle cx="245" cy="252" r="6" fill="#8a8a8a"/>
+  <circle cx="288" cy="252" r="6" fill="#8a8a8a"/>
+  <circle cx="72" cy="288" r="6" fill="#8a8a8a"/>
+  <circle cx="115" cy="288" r="6" fill="#8a8a8a"/>
+  <circle cx="158" cy="288" r="6" fill="#8a8a8a"/>
+  <circle cx="202" cy="288" r="6" fill="#8a8a8a"/>
+  <circle cx="245" cy="288" r="6" fill="#8a8a8a"/>
+  <circle cx="288" cy="288" r="6" fill="#8a8a8a"/>
+
+  <!-- ===== the Burgers vector: closure gap on the bottom leg ===== -->
+  <line x1="162" y1="200" x2="130" y2="200" stroke="#e0645c" stroke-width="3"/>
+  <polygon points="126,200 136,195 136,205" fill="#e0645c"/>
+  <text x="132" y="222" fill="#e0645c" font-weight="bold">b</text>
+
+  <!-- circuit label -->
+  <text x="240" y="52" fill="#8a8a8a">Burgers circuit</text>
+  <text x="300" y="110" fill="#4a90d9">extra half-plane</text>
+  <line x1="298" y1="106" x2="190" y2="106" stroke="#4a90d9" stroke-width="1" stroke-dasharray="3 4"/>
+</svg>

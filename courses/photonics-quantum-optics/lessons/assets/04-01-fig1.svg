@@ -1,0 +1,63 @@
+<svg viewBox="0 0 620 410" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">One photon in each port: the two ways to get a coincidence interfere away, so the photons leave together.</text>
+
+  <!-- ===== TOP: beam-splitter schematic ===== -->
+
+  <!-- beam splitter (diagonal) -->
+  <line x1="120" y1="90" x2="180" y2="150" stroke="#8a8a8a" stroke-width="4"/>
+  <text x="184" y="98" fill="#8a8a8a" font-size="12">50:50 BS</text>
+
+  <!-- input a (from left) -->
+  <line x1="52" y1="120" x2="126" y2="120" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="126,120 117,116 117,124" fill="#8a8a8a"/>
+  <circle cx="80" cy="120" r="6" fill="#4a90d9"/>
+  <text x="40" y="124" fill="#8a8a8a">a</text>
+
+  <!-- input b (from bottom) -->
+  <line x1="150" y1="208" x2="150" y2="146" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="150,146 146,155 154,155" fill="#8a8a8a"/>
+  <circle cx="150" cy="180" r="6" fill="#4a90d9"/>
+  <text x="128" y="205" fill="#8a8a8a">b</text>
+
+  <!-- output c (to right) -->
+  <line x1="174" y1="120" x2="256" y2="120" stroke="#4a90d9" stroke-width="1.5"/>
+  <polygon points="256,120 247,116 247,124" fill="#4a90d9"/>
+  <text x="260" y="124" fill="#4a90d9">c</text>
+
+  <!-- output d (to top) -->
+  <line x1="150" y1="94" x2="150" y2="48" stroke="#4a90d9" stroke-width="1.5"/>
+  <polygon points="150,48 146,57 154,57" fill="#4a90d9"/>
+  <text x="156" y="46" fill="#4a90d9">d</text>
+
+  <!-- annotation block -->
+  <text x="300" y="86" fill="#e0645c">coincidence (1 in c, 1 in d):</text>
+  <text x="300" y="106" fill="#e0645c">both&#8211;transmit &#8722; both&#8211;reflect = 0</text>
+  <text x="300" y="140" fill="#4a90d9">a&#8224; b&#8224; &#8594; &#189;( c&#8224;&#178; &#8722; d&#8224;&#178; )</text>
+  <text x="300" y="164" fill="#4a90d9">&#8658; &#189;( |2,0&#10217; &#8722; |0,2&#10217; )  (they bunch)</text>
+
+  <!-- ===== BOTTOM: the HOM dip ===== -->
+  <text x="30" y="252" fill="#8a8a8a" font-style="italic">HOM dip: coincidence rate vs relative delay &#964; &#8212; zero when the photons are identical.</text>
+
+  <!-- axes -->
+  <line x1="330" y1="380" x2="600" y2="380" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="600,380 591,376 591,384" fill="#8a8a8a"/>
+  <text x="604" y="384" fill="#8a8a8a">&#964;</text>
+  <line x1="330" y1="392" x2="330" y2="286" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="330,286 326,295 334,295" fill="#8a8a8a"/>
+  <text x="300" y="292" fill="#8a8a8a">R</text>
+
+  <!-- baseline rate 1/2 (distinguishable) -->
+  <line x1="330" y1="300" x2="595" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="300" y="304" fill="#8a8a8a">&#189;</text>
+
+  <!-- the dip curve -->
+  <path d="M 340 300 L 355 300.1 L 370 300.8 L 385 303.5 L 400 311.6 L 415 328.9 L 430 353.7 L 442 371.8 L 455 380 L 468 371.8 L 480 353.7 L 495 328.9 L 510 311.6 L 525 303.5 L 540 300.8 L 555 300.1 L 570 300"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+
+  <!-- zero point marker -->
+  <circle cx="455" cy="380" r="4" fill="#e0645c"/>
+  <line x1="455" y1="380" x2="455" y2="392" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="448" y="404" fill="#8a8a8a">0</text>
+  <text x="463" y="396" fill="#e0645c" font-size="12">R=0 at &#964;=0</text>
+</svg>

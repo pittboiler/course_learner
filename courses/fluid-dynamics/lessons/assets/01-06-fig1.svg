@@ -1,0 +1,84 @@
+<svg viewBox="0 0 760 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="24" y="24" fill="#8a8a8a" font-style="italic">Incompressible Navier–Stokes, term by term — and the no-slip wall that anchors every viscous flow.</text>
+
+  <!-- ===== annotated equation ===== -->
+  <g font-size="19">
+    <text x="24"  y="86" fill="#8a8a8a">&#961;(</text>
+    <text x="52"  y="86" fill="#4a90d9">&#8706;u/&#8706;t</text>
+    <text x="110" y="86" fill="#4a90d9">+ (u&#183;&#8711;)u</text>
+    <text x="232" y="86" fill="#8a8a8a">) =</text>
+    <text x="270" y="86" fill="#e0645c">&#8722;&#8711;p</text>
+    <text x="340" y="86" fill="#4a90d9">+ &#956;&#8711;&#178;u</text>
+    <text x="430" y="86" fill="#8a8a8a">+ &#961;g</text>
+  </g>
+
+  <!-- braces + labels -->
+  <!-- unsteady (center 78) -->
+  <path d="M 55 98 L 55 104 L 101 104 L 101 98 M 78 104 L 78 110" fill="none" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="78" y="126" fill="#8a8a8a" text-anchor="middle">unsteady</text>
+
+  <!-- advective (center 152) -->
+  <path d="M 116 98 L 116 104 L 188 104 L 188 98 M 152 104 L 152 110" fill="none" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="152" y="126" fill="#8a8a8a" text-anchor="middle">advective</text>
+  <text x="152" y="142" fill="#8a8a8a" text-anchor="middle">(nonlinear)</text>
+
+  <!-- pressure gradient (center 292) -->
+  <path d="M 270 98 L 270 104 L 314 104 L 314 98 M 292 104 L 292 110" fill="none" stroke="#e0645c" stroke-width="1"/>
+  <text x="292" y="126" fill="#e0645c" text-anchor="middle">pressure</text>
+  <text x="292" y="142" fill="#e0645c" text-anchor="middle">gradient</text>
+
+  <!-- viscous diffusion (center 378) -->
+  <path d="M 352 98 L 352 104 L 404 104 L 404 98 M 378 104 L 378 110" fill="none" stroke="#4a90d9" stroke-width="1"/>
+  <text x="378" y="126" fill="#4a90d9" text-anchor="middle">viscous</text>
+  <text x="378" y="142" fill="#4a90d9" text-anchor="middle">diffusion</text>
+
+  <!-- body force (center 456) -->
+  <path d="M 432 98 L 432 104 L 480 104 L 480 98 M 456 104 L 456 110" fill="none" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="456" y="126" fill="#8a8a8a" text-anchor="middle">body force</text>
+
+  <!-- ===== no-slip velocity profile ===== -->
+  <text x="560" y="70" fill="#8a8a8a" font-style="italic" text-anchor="middle">no-slip at the wall</text>
+
+  <!-- shaded region under the profile -->
+  <path d="M 500 260 L 500 175 L 588 175 L 570 195 L 545 220 L 520 245 L 500 260 Z" fill="#4a90d9" opacity="0.15"/>
+
+  <!-- y-axis -->
+  <line x1="500" y1="260" x2="500" y2="150" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="500,150 495,160 505,160" fill="#8a8a8a"/>
+  <text x="486" y="160" fill="#8a8a8a">y</text>
+
+  <!-- wall -->
+  <line x1="490" y1="260" x2="650" y2="260" stroke="#8a8a8a" stroke-width="2.5"/>
+  <line x1="498" y1="260" x2="490" y2="270" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="518" y1="260" x2="510" y2="270" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="538" y1="260" x2="530" y2="270" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="558" y1="260" x2="550" y2="270" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="578" y1="260" x2="570" y2="270" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="598" y1="260" x2="590" y2="270" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="618" y1="260" x2="610" y2="270" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="638" y1="260" x2="630" y2="270" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="600" y="286" fill="#8a8a8a">solid wall</text>
+
+  <!-- velocity arrows (grow with height) -->
+  <g stroke="#4a90d9" stroke-width="1.5">
+    <line x1="500" y1="245" x2="518" y2="245"/>
+    <line x1="500" y1="220" x2="543" y2="220"/>
+    <line x1="500" y1="195" x2="568" y2="195"/>
+    <line x1="500" y1="175" x2="586" y2="175"/>
+  </g>
+  <g fill="#4a90d9">
+    <polygon points="518,245 510,241 510,249"/>
+    <polygon points="543,220 535,216 535,224"/>
+    <polygon points="568,195 560,191 560,199"/>
+    <polygon points="586,175 578,171 578,179"/>
+  </g>
+
+  <!-- profile curve -->
+  <path d="M 500 260 L 520 245 L 545 220 L 570 195 L 588 175" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="592" y="172" fill="#4a90d9">u(y)</text>
+
+  <!-- no-slip point at wall -->
+  <circle cx="500" cy="260" r="4" fill="#e0645c"/>
+  <text x="512" y="256" fill="#e0645c">u = 0</text>
+</svg>

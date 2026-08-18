@@ -1,0 +1,60 @@
+<svg viewBox="0 0 700 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="700" height="360" fill="#ffffff"/>
+
+  <defs>
+    <marker id="tah" markerWidth="11" markerHeight="11" refX="8" refY="5.5" orient="auto">
+      <path d="M0,0 L11,5.5 L0,11 Z" fill="#111111"/>
+    </marker>
+    <marker id="tahB" markerWidth="11" markerHeight="11" refX="8" refY="5.5" orient="auto">
+      <path d="M0,0 L11,5.5 L0,11 Z" fill="#2563eb"/>
+    </marker>
+    <marker id="tahR" markerWidth="11" markerHeight="11" refX="8" refY="5.5" orient="auto">
+      <path d="M0,0 L11,5.5 L0,11 Z" fill="#dc2626"/>
+    </marker>
+  </defs>
+
+  <text x="200" y="32" fill="#111111" font-size="16" font-style="italic" text-anchor="middle">the torus square: boundary word  a b a⁻¹ b⁻¹</text>
+
+  <!-- the square -->
+  <rect x="90" y="60" width="220" height="220" fill="#eef2ff" stroke="none"/>
+
+  <!-- bottom edge a (rightward) -->
+  <line x1="90" y1="280" x2="310" y2="280" stroke="#dc2626" stroke-width="3"/>
+  <polygon points="196,272 212,280 196,288" fill="#dc2626"/>
+  <text x="200" y="305" fill="#dc2626" font-size="16" font-weight="bold">a</text>
+  <!-- top edge a (rightward, identified with bottom) -->
+  <line x1="90" y1="60" x2="310" y2="60" stroke="#dc2626" stroke-width="3"/>
+  <polygon points="196,52 212,60 196,68" fill="#dc2626"/>
+  <text x="200" y="50" fill="#dc2626" font-size="16" font-weight="bold">a</text>
+  <!-- left edge b (upward) -->
+  <line x1="90" y1="280" x2="90" y2="60" stroke="#2563eb" stroke-width="3"/>
+  <polygon points="82,166 90,150 98,166" fill="#2563eb"/>
+  <text x="66" y="175" fill="#2563eb" font-size="16" font-weight="bold">b</text>
+  <!-- right edge b (upward, identified with left) -->
+  <line x1="310" y1="280" x2="310" y2="60" stroke="#2563eb" stroke-width="3"/>
+  <polygon points="302,166 310,150 318,166" fill="#2563eb"/>
+  <text x="320" y="175" fill="#2563eb" font-size="16" font-weight="bold">b</text>
+
+  <!-- the four corners are all the single 0-cell v -->
+  <circle cx="90"  cy="60"  r="5" fill="#111111"/>
+  <circle cx="310" cy="60"  r="5" fill="#111111"/>
+  <circle cx="90"  cy="280" r="5" fill="#111111"/>
+  <circle cx="310" cy="280" r="5" fill="#111111"/>
+  <text x="200" y="180" fill="#111111" font-size="16" text-anchor="middle">f  (2-cell)</text>
+  <text x="200" y="200" fill="#555555" font-size="12" text-anchor="middle">all 4 corners = one 0-cell v</text>
+
+  <!-- ============ RIGHT: the degree count ============ -->
+  <line x1="380" y1="40" x2="380" y2="330" stroke="#dddddd" stroke-width="1"/>
+  <text x="400" y="70" fill="#111111" font-size="15" font-weight="bold">Boundary of f, letter by letter:</text>
+  <text x="400" y="100" fill="#111111" font-size="15">along a:  +1  (a)  and  −1  (a⁻¹)</text>
+  <text x="400" y="122" fill="#dc2626" font-size="15" font-weight="bold">→ net a-degree = 0</text>
+  <text x="400" y="152" fill="#111111" font-size="15">along b:  +1  (b)  and  −1  (b⁻¹)</text>
+  <text x="400" y="174" fill="#2563eb" font-size="15" font-weight="bold">→ net b-degree = 0</text>
+
+  <text x="400" y="212" fill="#111111" font-size="15" font-weight="bold">so  d₂(f) = 0·a + 0·b = 0.</text>
+
+  <text x="400" y="252" fill="#111111" font-size="14">Chain complex:</text>
+  <text x="400" y="278" fill="#111111" font-size="16">0 → ℤ⟨f⟩ —0→ ℤ²⟨a,b⟩ —0→ ℤ⟨v⟩ → 0</text>
+  <text x="400" y="308" fill="#111111" font-size="14">H₀ = ℤ,   H₁ = ℤ²,   H₂ = ℤ.</text>
+  <text x="400" y="330" fill="#555555" font-size="12">Contrast RP²: there a is traversed twice the SAME way → deg 2, no cancellation.</text>
+</svg>

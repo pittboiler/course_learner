@@ -1,0 +1,66 @@
+<svg viewBox="0 0 640 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Multiply the real-load M diagram by the unit-load m diagram, integrate over the beam: that integral is the deflection.</text>
+
+  <text x="120" y="48" fill="#4a90d9" font-size="15">REAL system (loads M)</text>
+  <text x="420" y="48" fill="#e0645c" font-size="15">VIRTUAL system (unit load m)</text>
+
+  <line x1="48" y1="62" x2="48" y2="104" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="48" y1="66" x2="40" y2="74" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="48" y1="78" x2="40" y2="86" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="48" y1="90" x2="40" y2="98" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="48" y1="102" x2="40" y2="110" stroke="#8a8a8a" stroke-width="1"/>
+
+  <line x1="48" y1="83" x2="278" y2="83" stroke="#4a90d9" stroke-width="3"/>
+  <text x="30" y="88" fill="#8a8a8a">A</text>
+  <text x="282" y="88" fill="#8a8a8a">B</text>
+
+  <line x1="58" y1="64" x2="270" y2="64" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="70" y1="64" x2="70" y2="80" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="70,80 66,72 74,72" fill="#8a8a8a"/>
+  <line x1="110" y1="64" x2="110" y2="80" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="110,80 106,72 114,72" fill="#8a8a8a"/>
+  <line x1="150" y1="64" x2="150" y2="80" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="150,80 146,72 154,72" fill="#8a8a8a"/>
+  <line x1="190" y1="64" x2="190" y2="80" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="190,80 186,72 194,72" fill="#8a8a8a"/>
+  <line x1="230" y1="64" x2="230" y2="80" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="230,80 226,72 234,72" fill="#8a8a8a"/>
+  <text x="158" y="60" fill="#8a8a8a">w</text>
+
+  <line x1="270" y1="56" x2="270" y2="80" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="270,80 265,71 275,71" fill="#e0645c"/>
+  <text x="276" y="62" fill="#e0645c">P</text>
+
+  <line x1="278" y1="90" x2="278" y2="112" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <polygon points="278,112 273,103 283,103" fill="#e0645c"/>
+  <text x="284" y="108" fill="#e0645c">&#916;B</text>
+
+  <line x1="48" y1="150" x2="278" y2="150" stroke="#8a8a8a" stroke-width="1"/>
+  <path d="M 278 150 Q 150 168 48 200 L 48 150 Z" fill="#4a90d9" fill-opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <text x="150" y="188" fill="#4a90d9">M(x)</text>
+  <text x="52" y="216" fill="#4a90d9" font-size="12">&#8722;(PL + wL&#178;/2)</text>
+
+  <line x1="368" y1="62" x2="368" y2="104" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="368" y1="66" x2="360" y2="74" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="368" y1="78" x2="360" y2="86" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="368" y1="90" x2="360" y2="98" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="368" y1="102" x2="360" y2="110" stroke="#8a8a8a" stroke-width="1"/>
+
+  <line x1="368" y1="83" x2="598" y2="83" stroke="#4a90d9" stroke-width="3"/>
+  <text x="350" y="88" fill="#8a8a8a">A</text>
+  <text x="602" y="88" fill="#8a8a8a">B</text>
+
+  <line x1="590" y1="56" x2="590" y2="80" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="590,80 585,71 595,71" fill="#e0645c"/>
+  <text x="596" y="62" fill="#e0645c">1</text>
+
+  <line x1="368" y1="150" x2="598" y2="150" stroke="#8a8a8a" stroke-width="1"/>
+  <path d="M 598 150 Q 470 165 368 190 L 368 150 Z" fill="#e0645c" fill-opacity="0.15" stroke="#e0645c" stroke-width="2"/>
+  <text x="452" y="180" fill="#e0645c">m(x) = &#8722;(L&#8722;x)</text>
+  <text x="372" y="206" fill="#e0645c" font-size="12">&#8722;L</text>
+
+  <text x="150" y="270" fill="#8a8a8a" font-size="16">1&#183;&#916;B =</text>
+  <text x="228" y="270" fill="#8a8a8a" font-size="20">&#8747;</text>
+  <text x="248" y="270" fill="#8a8a8a" font-size="16">(m M / EI) dx  =  wL&#8308;/8EI + PL&#179;/3EI</text>
+  <text x="150" y="296" fill="#8a8a8a" font-style="italic" font-size="12">Both diagrams hog (same sign), so the product is positive: B deflects downward, along the unit load.</text>
+</svg>

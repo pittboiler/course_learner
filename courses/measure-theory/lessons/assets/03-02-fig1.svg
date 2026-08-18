@@ -1,0 +1,32 @@
+<svg viewBox="0 0 520 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="520" height="300" fill="#ffffff"/>
+
+  <!-- deleted bad strip near x=1 (drawn first, behind curves) -->
+  <rect x="408" y="40" width="52" height="210" fill="#fecaca"/>
+  <text x="434" y="270" fill="#b91c1c" font-size="12" text-anchor="middle">delete E</text>
+  <text x="434" y="284" fill="#b91c1c" font-size="12" text-anchor="middle">m(E) &lt; δ</text>
+
+  <!-- axes -->
+  <line x1="60" y1="250" x2="475" y2="250" stroke="#111111" stroke-width="1.5"/>
+  <line x1="60" y1="250" x2="60" y2="32" stroke="#111111" stroke-width="1.5"/>
+  <text x="52" y="45" fill="#111111" font-size="12" text-anchor="end">1</text>
+  <text x="52" y="254" fill="#111111" font-size="12" text-anchor="end">0</text>
+  <text x="460" y="266" fill="#111111" font-size="13" text-anchor="middle">1</text>
+  <text x="408" y="266" fill="#111111" font-size="12" text-anchor="middle">1−δ</text>
+
+  <!-- curves y = x^n -->
+  <polyline fill="none" stroke="#1d4ed8" stroke-width="1.7" points="60,250 100,229 140,208 180,187 220,166 260,145 300,124 340,103 380,82 420,61 460,40"/>
+  <polyline fill="none" stroke="#2563eb" stroke-width="1.7" points="60,250 100,248 140,242 180,231 220,216 260,198 300,174 340,147 380,116 420,80 460,40"/>
+  <polyline fill="none" stroke="#3b82f6" stroke-width="1.7" points="60,250 100,250 140,250 180,248 220,245 260,237 300,223 340,200 380,164 420,112 440,79 460,40"/>
+  <polyline fill="none" stroke="#60a5fa" stroke-width="1.7" points="60,250 140,250 220,250 260,249 300,247 340,238 380,215 420,160 440,111 460,40"/>
+  <polyline fill="none" stroke="#93c5fd" stroke-width="1.7" points="60,250 340,250 380,248 420,225 440,175 460,40"/>
+
+  <!-- curve label -->
+  <text x="150" y="235" fill="#1d4ed8" font-size="13">f₁(x) = x</text>
+  <text x="300" y="245" fill="#60a5fa" font-size="13">fₙ = xⁿ, n↑</text>
+
+  <!-- uniform region caption -->
+  <text x="115" y="90" fill="#111111" font-size="13">on [0, 1−δ]:</text>
+  <text x="115" y="108" fill="#111111" font-size="13">sup |fₙ| = (1−δ)ⁿ → 0</text>
+  <text x="115" y="126" fill="#166534" font-size="13">uniform convergence</text>
+</svg>

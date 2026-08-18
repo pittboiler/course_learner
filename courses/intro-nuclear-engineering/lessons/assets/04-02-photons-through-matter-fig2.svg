@@ -1,0 +1,42 @@
+<svg viewBox="0 0 560 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Which interaction wins depends on photon energy and absorber Z. The two curves mark where</text>
+  <text x="30" y="40" fill="#8a8a8a" font-style="italic">neighboring effects are equal; between them, Compton scattering rules.</text>
+
+  <!-- axes -->
+  <line x1="70" y1="250" x2="500" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="500,250 490,245 490,255" fill="#8a8a8a"/>
+  <text x="300" y="290" fill="#8a8a8a">photon energy (MeV)</text>
+  <line x1="70" y1="250" x2="70" y2="60" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,60 65,70 75,70" fill="#8a8a8a"/>
+  <text x="30" y="66" fill="#8a8a8a">Z</text>
+
+  <!-- x tick labels (log decades) -->
+  <text x="56" y="270" fill="#8a8a8a">0.01</text>
+  <text x="158" y="270" fill="#8a8a8a">0.1</text>
+  <text x="264" y="270" fill="#8a8a8a">1</text>
+  <text x="360" y="270" fill="#8a8a8a">10</text>
+  <text x="458" y="270" fill="#8a8a8a">100</text>
+
+  <!-- y tick labels -->
+  <text x="48" y="254" fill="#8a8a8a">0</text>
+  <text x="42" y="164" fill="#8a8a8a">50</text>
+  <text x="36" y="74" fill="#8a8a8a">100</text>
+
+  <!-- left boundary: photoelectric = Compton -->
+  <path d="M 117.7 232 L 154.5 196 L 187.6 160 L 239.9 102.4 L 265.4 70"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <!-- right boundary: Compton = pair -->
+  <path d="M 330.2 70 L 339.9 102.4 L 370 160 L 395.5 196 L 417.7 232"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <!-- region labels -->
+  <text x="86" y="112" fill="#8a8a8a">Photoelectric</text>
+  <text x="238" y="150" fill="#8a8a8a">Compton</text>
+  <text x="398" y="112" fill="#8a8a8a">Pair</text>
+  <text x="392" y="130" fill="#8a8a8a">production</text>
+
+  <!-- boss example point: 1 MeV in lead (Z=82) -->
+  <circle cx="270" cy="102.4" r="5" fill="#e0645c"/>
+  <text x="200" y="92" fill="#e0645c">1 MeV in Pb</text>
+</svg>

@@ -1,0 +1,40 @@
+<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Free energy of mixing vs composition: raise &#967; and the single well (miscible) grows a hump (two phases).</text>
+
+  <!-- y-axis -->
+  <line x1="70" y1="45" x2="70" y2="310" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,45 65,55 75,55" fill="#8a8a8a"/>
+  <text x="18" y="180" fill="#8a8a8a" transform="rotate(-90 18 180)">&#916;G&#8202;/k&#8202;T</text>
+
+  <!-- x-axis (phi) -->
+  <line x1="70" y1="310" x2="605" y2="310" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="605,310 595,305 595,315" fill="#8a8a8a"/>
+  <text x="610" y="315" fill="#8a8a8a">&#966;</text>
+  <text x="64" y="328" fill="#8a8a8a">0</text>
+  <text x="322" y="328" fill="#8a8a8a">0.5</text>
+  <text x="584" y="328" fill="#8a8a8a">1</text>
+  <line x1="330" y1="307" x2="330" y2="313" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="590" y1="307" x2="590" y2="313" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- zero reference line for G -->
+  <line x1="70" y1="102" x2="590" y2="102" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="44" y="106" fill="#8a8a8a">0</text>
+
+  <!-- miscible curve: chi = 0.3, single well -->
+  <path d="M 71.6 103.5 L 80.4 111.6 L 90.8 120.8 L 101.2 129.9 L 111.6 138.8 L 122.0 147.6 L 132.4 156.2 L 142.8 164.6 L 153.2 172.9 L 163.6 181.0 L 174.0 188.9 L 184.4 196.7 L 194.8 204.2 L 205.2 211.6 L 215.6 218.7 L 226.0 225.7 L 236.4 232.4 L 246.8 238.9 L 257.2 245.1 L 267.6 251.1 L 278.0 256.8 L 288.4 262.2 L 298.8 267.4 L 309.2 272.2 L 319.6 276.6 L 330.0 280.8 L 340.4 284.5 L 350.8 287.9 L 361.2 290.9 L 371.6 293.4 L 382.0 295.4 L 392.4 297.0 L 402.8 298.0 L 413.2 298.4 L 423.6 298.3 L 434.0 297.4 L 444.4 295.9 L 454.8 293.6 L 465.2 290.4 L 475.6 286.3 L 486.0 281.2 L 496.4 274.9 L 506.8 267.3 L 517.2 258.3 L 527.6 247.5 L 538.0 234.7 L 548.4 219.5 L 558.8 201.1 L 569.2 178.5 L 579.6 149.2 L 588.4 112.8"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="360" y="292" fill="#4a90d9">&#967; = 0.3  (one well &#8594; mixes)</text>
+
+  <!-- phase-separating curve: chi = 1.5, double well -->
+  <path d="M 71.6 101.1 L 80.4 96.3 L 90.8 90.9 L 101.2 85.9 L 111.6 81.4 L 122.0 77.4 L 132.4 73.8 L 142.8 70.7 L 153.2 68.1 L 163.6 65.9 L 174.0 64.1 L 184.4 62.8 L 194.8 62.0 L 205.2 61.5 L 215.6 61.5 L 226.0 61.9 L 236.4 62.7 L 246.8 63.9 L 257.2 65.4 L 267.6 67.3 L 278.0 69.6 L 288.4 72.2 L 298.8 75.2 L 309.2 78.4 L 319.6 82.0 L 330.0 85.8 L 340.4 89.8 L 350.8 94.2 L 361.2 98.7 L 371.6 103.4 L 382.0 108.2 L 392.4 113.2 L 402.8 118.3 L 413.2 123.4 L 423.6 128.5 L 434.0 133.6 L 444.4 138.7 L 454.8 143.5 L 465.2 148.1 L 475.6 152.5 L 486.0 156.4 L 496.4 159.8 L 506.8 162.5 L 517.2 164.4 L 527.6 165.2 L 538.0 164.5 L 548.4 162.1 L 558.8 157.1 L 569.2 148.5 L 579.6 133.9 L 588.4 110.4"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+  <text x="150" y="52" fill="#e0645c">&#967; = 1.5  (hump &#8594; demixes)</text>
+
+  <!-- common tangent (schematic) touching the two coexisting compositions -->
+  <line x1="96" y1="88.3" x2="530" y2="165.1" stroke="#8a8a8a" stroke-width="1.3" stroke-dasharray="5 4"/>
+  <circle cx="96" cy="88.3" r="4" fill="#e0645c"/>
+  <circle cx="530" cy="165.1" r="4" fill="#e0645c"/>
+  <text x="80" y="80" fill="#8a8a8a">&#966;&#8242;</text>
+  <text x="524" y="182" fill="#8a8a8a">&#966;&#8243;</text>
+  <text x="250" y="150" fill="#8a8a8a" font-style="italic">common tangent: the two phases</text>
+</svg>

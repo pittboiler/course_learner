@@ -1,0 +1,47 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">At E_eq the barriers match, so forward and back rates are equal (that common rate is j0). An overpotential &#951; tilts the curve, lowering one barrier by &#945;F&#951;.</text>
+
+  <!-- axes -->
+  <line x1="70" y1="345" x2="612" y2="345" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="612,345 602,340 602,350" fill="#8a8a8a"/>
+  <text x="470" y="368" fill="#8a8a8a">reaction coordinate</text>
+  <line x1="70" y1="345" x2="70" y2="58" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,58 65,68 75,68" fill="#8a8a8a"/>
+  <text x="40" y="52" fill="#8a8a8a">free energy G</text>
+
+  <!-- equilibrium well-bottom baseline -->
+  <line x1="150" y1="252" x2="540" y2="252" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- blue: free-energy profile at E_eq (symmetric wells, equal barriers) -->
+  <path d="M 110 175 C 140 252, 210 252, 250 195 C 288 152, 305 118, 332 115 C 358 118, 375 152, 415 195 C 455 252, 520 252, 552 175"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="118" y="235" fill="#4a90d9">O + e&#8315;</text>
+  <text x="500" y="235" fill="#4a90d9">R</text>
+  <text x="300" y="100" fill="#4a90d9">&#8225;</text>
+  <text x="360" y="300" fill="#4a90d9" font-style="italic">at E_eq</text>
+
+  <!-- blue equilibrium barrier measure -->
+  <line x1="205" y1="252" x2="205" y2="150" stroke="#4a90d9" stroke-width="1.2"/>
+  <polygon points="205,150 201,159 209,159" fill="#4a90d9"/>
+  <polygon points="205,252 201,243 209,243" fill="#4a90d9"/>
+  <text x="150" y="205" fill="#4a90d9">&#916;G&#8225;</text>
+
+  <!-- j0 annotation at the crest -->
+  <text x="250" y="88" fill="#8a8a8a">j_a = j_c &#8801; j0</text>
+
+  <!-- coral: profile with overpotential (product well lowered by F&#951;, barrier drops by &#945;F&#951;) -->
+  <path d="M 110 175 C 140 252, 210 252, 250 197 C 288 156, 305 134, 332 132 C 360 152, 382 208, 422 252 C 460 292, 520 300, 552 278"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+  <text x="470" y="322" fill="#e0645c" font-style="italic">with &#951;</text>
+
+  <!-- coral: product energy shift F&#951; -->
+  <line x1="536" y1="252" x2="536" y2="296" stroke="#e0645c" stroke-width="1.2"/>
+  <polygon points="536,296 532,287 540,287" fill="#e0645c"/>
+  <polygon points="536,252 532,261 540,261" fill="#e0645c"/>
+  <text x="544" y="278" fill="#e0645c">F&#951;</text>
+
+  <!-- coral: barrier-top drop &#945;F&#951; -->
+  <line x1="360" y1="115" x2="360" y2="132" stroke="#e0645c" stroke-width="1.2"/>
+  <polygon points="360,132 356,124 364,124" fill="#e0645c"/>
+  <text x="368" y="130" fill="#e0645c">&#945;F&#951;</text>
+</svg>

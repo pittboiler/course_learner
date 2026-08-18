@@ -1,0 +1,62 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Retrosynthesis: cut the strategic C&#8211;C bond (coral) to reveal a carbonyl + a carbanion synthon, then read the real reagents forward.</text>
+
+  <!-- ============ TARGET (top) ============ -->
+  <text x="300" y="56" fill="#8a8a8a" font-size="12">TARGET &#8212; 2-phenyl-2-butanol</text>
+
+  <!-- Ph -->
+  <text x="214" y="100" fill="#4a90d9">Ph</text>
+  <line x1="240" y1="95" x2="266" y2="95" stroke="#8a8a8a" stroke-width="2"/>
+  <!-- central carbinol carbon -->
+  <text x="272" y="100" fill="#4a90d9">C</text>
+  <!-- OH up -->
+  <line x1="279" y1="83" x2="279" y2="72" stroke="#4a90d9" stroke-width="2"/>
+  <text x="264" y="66" fill="#4a90d9">OH</text>
+  <!-- CH3 down -->
+  <line x1="279" y1="103" x2="279" y2="114" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="266" y="130" fill="#8a8a8a">CH&#8323;</text>
+  <!-- strategic coral bond to ethyl -->
+  <line x1="292" y1="95" x2="322" y2="95" stroke="#e0645c" stroke-width="3.5"/>
+  <text x="308" y="76" fill="#e0645c" font-size="12">disconnect</text>
+  <text x="326" y="100" fill="#4a90d9">CH&#8322;CH&#8323;</text>
+
+  <!-- ============ retrosynthetic arrow ============ -->
+  <line x1="298" y1="148" x2="298" y2="196" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="310" y1="148" x2="310" y2="196" stroke="#8a8a8a" stroke-width="2"/>
+  <polyline points="288,190 304,208 320,190" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="326" y="180" fill="#8a8a8a" font-style="italic" font-size="12">&#8220;is made from&#8221;</text>
+
+  <!-- ============ PRECURSORS (bottom) ============ -->
+
+  <!-- ketone: acetophenone -->
+  <text x="120" y="262" fill="#4a90d9">Ph</text>
+  <line x1="146" y1="257" x2="170" y2="257" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="176" y="262" fill="#4a90d9">C</text>
+  <!-- C=O double bond up -->
+  <line x1="181" y1="245" x2="181" y2="235" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="187" y1="245" x2="187" y2="235" stroke="#4a90d9" stroke-width="2"/>
+  <text x="178" y="228" fill="#4a90d9">O</text>
+  <line x1="192" y1="257" x2="216" y2="257" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="220" y="262" fill="#4a90d9">CH&#8323;</text>
+  <text x="120" y="292" fill="#8a8a8a" font-size="12">carbonyl (electrophile)</text>
+
+  <!-- plus -->
+  <text x="300" y="262" fill="#8a8a8a" font-size="18">+</text>
+
+  <!-- carbanion synthon + equivalent -->
+  <text x="345" y="262" fill="#e0645c">CH&#8322;CH&#8323;&#8315;</text>
+  <text x="345" y="292" fill="#e0645c" font-size="12">carbanion synthon</text>
+  <text x="430" y="262" fill="#8a8a8a">&#8801;  CH&#8322;CH&#8323;MgBr</text>
+  <text x="430" y="292" fill="#8a8a8a" font-size="12">real equivalent (Grignard)</text>
+
+  <!-- ============ forward recipe ============ -->
+  <line x1="40" y1="330" x2="600" y2="330" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="40" y="356" fill="#8a8a8a" font-size="12">FORWARD:  acetophenone</text>
+  <!-- forward arrow with reagents -->
+  <line x1="220" y1="351" x2="330" y2="351" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="330,351 320,347 320,355" fill="#4a90d9"/>
+  <text x="222" y="344" fill="#4a90d9" font-size="12">1) CH&#8322;CH&#8323;MgBr</text>
+  <text x="238" y="368" fill="#4a90d9" font-size="12">2) H&#8323;O&#8314;</text>
+  <text x="338" y="356" fill="#4a90d9" font-size="12">2-phenyl-2-butanol</text>
+</svg>

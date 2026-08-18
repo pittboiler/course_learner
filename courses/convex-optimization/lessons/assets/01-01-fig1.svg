@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="720" height="400" fill="#ffffff"/>
+
+  <!-- ================= LEFT: separating hyperplane ================= -->
+  <text x="185" y="34" font-size="17" font-weight="bold" fill="#111111" text-anchor="middle">Separating hyperplane</text>
+
+  <!-- convex set C -->
+  <ellipse cx="110" cy="230" rx="72" ry="58" fill="#2563eb" fill-opacity="0.20" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="110" y="236" font-size="18" fill="#1d4ed8" text-anchor="middle" font-style="italic">C</text>
+
+  <!-- convex set D (polygon) -->
+  <polygon points="245,190 300,150 350,185 340,255 265,270" fill="#dc2626" fill-opacity="0.20" stroke="#b91c1c" stroke-width="2"/>
+  <text x="300" y="222" font-size="18" fill="#b91c1c" text-anchor="middle" font-style="italic">D</text>
+
+  <!-- separating line -->
+  <line x1="200" y1="90" x2="175" y2="360" stroke="#111111" stroke-width="2.5"/>
+  <text x="150" y="115" font-size="13" fill="#111111" transform="rotate(-84 150 115)">a&#8868;x = b</text>
+
+  <!-- halfspace labels -->
+  <text x="85" y="330" font-size="13" fill="#1d4ed8" text-anchor="middle">a&#8868;x &#8804; b</text>
+  <text x="330" y="330" font-size="13" fill="#b91c1c" text-anchor="middle">a&#8868;x &#8805; b</text>
+
+  <!-- normal vector a -->
+  <line x1="188" y1="225" x2="238" y2="230" stroke="#111111" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="235" y="218" font-size="14" fill="#111111" font-style="italic">a</text>
+
+  <!-- ================= RIGHT: supporting hyperplane ================= -->
+  <text x="545" y="34" font-size="17" font-weight="bold" fill="#111111" text-anchor="middle">Supporting hyperplane</text>
+
+  <!-- convex set -->
+  <ellipse cx="545" cy="255" rx="90" ry="70" fill="#059669" fill-opacity="0.20" stroke="#047857" stroke-width="2"/>
+  <text x="545" y="285" font-size="18" fill="#047857" text-anchor="middle" font-style="italic">C</text>
+
+  <!-- boundary point x0 (top of ellipse) -->
+  <circle cx="545" cy="185" r="4.5" fill="#111111"/>
+  <text x="560" y="182" font-size="14" fill="#111111" font-style="italic">x&#8320;</text>
+
+  <!-- supporting (tangent) line, horizontal through x0 -->
+  <line x1="420" y1="185" x2="675" y2="185" stroke="#111111" stroke-width="2.5"/>
+  <text x="430" y="176" font-size="13" fill="#111111">a&#8868;x = a&#8868;x&#8320;</text>
+
+  <!-- outward normal -->
+  <line x1="545" y1="185" x2="545" y2="140" stroke="#111111" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="555" y="145" font-size="14" fill="#111111" font-style="italic">a</text>
+
+  <!-- "whole set below" note -->
+  <text x="545" y="345" font-size="12.5" fill="#047857" text-anchor="middle">all of C lies on one side: a&#8868;x &#8804; a&#8868;x&#8320;</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L7,3 L0,6 z" fill="#111111"/>
+    </marker>
+  </defs>
+</svg>

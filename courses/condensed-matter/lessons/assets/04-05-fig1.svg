@@ -1,0 +1,37 @@
+<svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">p–n junction at equilibrium: bands bend across the depletion layer; E_F stays flat; the offset is eV_bi.</text>
+
+  <!-- depletion region shading -->
+  <rect x="250" y="45" width="140" height="255" fill="#e0645c" opacity="0.15"/>
+
+  <!-- flat Fermi level (grey) -->
+  <line x1="60" y1="160" x2="580" y2="160" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="500" y="154" fill="#8a8a8a">E_F</text>
+
+  <!-- conduction band (blue) -->
+  <path d="M 60 75 L 250 75 C 320 75 320 145 390 145 L 580 145" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="150" y="68" fill="#4a90d9">E_c (conduction)</text>
+
+  <!-- valence band (blue) -->
+  <path d="M 60 175 L 250 175 C 320 175 320 245 390 245 L 580 245" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="150" y="196" fill="#4a90d9">E_v (valence)</text>
+
+  <!-- built-in potential offset (coral) -->
+  <line x1="390" y1="75" x2="475" y2="75" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="470" y1="75" x2="470" y2="145" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="470,75 466,84 474,84" fill="#e0645c"/>
+  <polygon points="470,145 466,136 474,136" fill="#e0645c"/>
+  <text x="478" y="114" fill="#e0645c">eV_bi</text>
+
+  <!-- fixed ionized dopants in the depletion layer -->
+  <text x="262" y="118" fill="#8a8a8a" font-size="16">– – –</text>
+  <text x="332" y="118" fill="#8a8a8a" font-size="16">+ + +</text>
+  <text x="255" y="135" fill="#8a8a8a" font-size="11" font-style="italic">acceptors⁻</text>
+  <text x="330" y="135" fill="#8a8a8a" font-size="11" font-style="italic">donors⁺</text>
+
+  <!-- region labels -->
+  <text x="120" y="290" fill="#8a8a8a">p-type</text>
+  <text x="490" y="290" fill="#8a8a8a">n-type</text>
+  <text x="252" y="330" fill="#8a8a8a" font-style="italic">depletion region (width W)</text>
+</svg>

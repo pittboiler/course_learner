@@ -1,0 +1,46 @@
+<svg viewBox="0 0 700 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Three bare&#8211;core fundamental modes &#8212; each flux is zero at the extrapolated boundary (coral).</text>
+
+  <!-- ===== Panel 1: SLAB, cosine ===== -->
+  <line x1="45" y1="250" x2="195" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="120" y1="252" x2="120" y2="90" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 4"/>
+  <line x1="45" y1="250" x2="45" y2="100" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="195" y1="250" x2="195" y2="100" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <path d="M 45 250 L 60 203.65 L 75 161.83 L 90 128.65 L 105 107.34 L 120 100 L 135 107.34 L 150 128.65 L 165 161.83 L 180 203.65 L 195 250"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <circle cx="45" cy="250" r="3.5" fill="#e0645c"/>
+  <circle cx="195" cy="250" r="3.5" fill="#e0645c"/>
+  <text x="83" y="278" fill="#8a8a8a">slab</text>
+  <text x="55" y="296" fill="#4a90d9">&#966; = cos(&#960;x/&#227;)</text>
+  <text x="38" y="268" fill="#8a8a8a" text-anchor="middle">&#8722;&#227;/2</text>
+  <text x="200" y="268" fill="#8a8a8a">&#227;/2</text>
+
+  <!-- ===== Panel 2: SPHERE, sin(Br)/r ===== -->
+  <line x1="275" y1="250" x2="425" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="350" y1="252" x2="350" y2="90" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 4"/>
+  <line x1="275" y1="250" x2="275" y2="100" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="425" y1="250" x2="425" y2="100" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <path d="M 275 250 L 290 214.92 L 305 174.33 L 320 136.51 L 335 109.68 L 350 100 L 365 109.68 L 380 136.51 L 395 174.33 L 410 214.92 L 425 250"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <circle cx="275" cy="250" r="3.5" fill="#e0645c"/>
+  <circle cx="425" cy="250" r="3.5" fill="#e0645c"/>
+  <text x="330" y="278" fill="#8a8a8a">sphere</text>
+  <text x="298" y="296" fill="#4a90d9">&#966; = (A/r)&#160;sin(&#960;r/&#7770;)</text>
+  <text x="270" y="268" fill="#8a8a8a" text-anchor="middle">&#8722;&#7770;</text>
+  <text x="430" y="268" fill="#8a8a8a">&#7770;</text>
+
+  <!-- ===== Panel 3: CYLINDER radial, J0 ===== -->
+  <line x1="505" y1="250" x2="655" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="580" y1="252" x2="580" y2="90" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 4"/>
+  <line x1="505" y1="250" x2="505" y2="100" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="655" y1="250" x2="655" y2="100" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <path d="M 505 250 L 520 209.94 L 535 168.19 L 550 132.59 L 565 108.54 L 580 100 L 595 108.54 L 610 132.59 L 625 168.19 L 640 209.94 L 655 250"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <circle cx="505" cy="250" r="3.5" fill="#e0645c"/>
+  <circle cx="655" cy="250" r="3.5" fill="#e0645c"/>
+  <text x="527" y="278" fill="#8a8a8a">cylinder (radial)</text>
+  <text x="512" y="296" fill="#4a90d9">&#966; = A&#160;J&#8320;(2.405&#160;r/&#7770;)</text>
+  <text x="500" y="268" fill="#8a8a8a" text-anchor="middle">&#8722;&#7770;</text>
+  <text x="660" y="268" fill="#8a8a8a">&#7770;</text>
+</svg>

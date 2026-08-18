@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 380" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="460" height="380" fill="#ffffff"/>
+
+  <!-- faint river hint -->
+  <rect x="0" y="150" width="460" height="80" fill="#eaf4ff"/>
+  <text x="18" y="196" font-size="12" fill="#5a86b3">river Pregel</text>
+
+  <!-- edges (7 bridges); parallel edges drawn as curves so both are visible -->
+  <!-- N-A: two bridges -->
+  <path d="M230,58 Q120,80 110,190" fill="none" stroke="#1a1a1a" stroke-width="2.5"/>
+  <path d="M230,58 Q205,130 110,190" fill="none" stroke="#1a1a1a" stroke-width="2.5"/>
+  <!-- S-A: two bridges -->
+  <path d="M230,322 Q120,300 110,190" fill="none" stroke="#1a1a1a" stroke-width="2.5"/>
+  <path d="M230,322 Q205,250 110,190" fill="none" stroke="#1a1a1a" stroke-width="2.5"/>
+  <!-- N-B, S-B, A-B: one bridge each -->
+  <line x1="230" y1="58" x2="352" y2="190" stroke="#1a1a1a" stroke-width="2.5"/>
+  <line x1="230" y1="322" x2="352" y2="190" stroke="#1a1a1a" stroke-width="2.5"/>
+  <line x1="110" y1="190" x2="352" y2="190" stroke="#1a1a1a" stroke-width="2.5"/>
+
+  <!-- vertices: banks green, islands blue -->
+  <circle cx="230" cy="58" r="19" fill="#d6f5d6" stroke="#1a1a1a" stroke-width="2.5"/>
+  <circle cx="230" cy="322" r="19" fill="#d6f5d6" stroke="#1a1a1a" stroke-width="2.5"/>
+  <circle cx="110" cy="190" r="19" fill="#cfe8ff" stroke="#1a1a1a" stroke-width="2.5"/>
+  <circle cx="352" cy="190" r="19" fill="#cfe8ff" stroke="#1a1a1a" stroke-width="2.5"/>
+
+  <!-- vertex labels -->
+  <text x="230" y="63" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="bold">N</text>
+  <text x="230" y="327" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="bold">S</text>
+  <text x="110" y="195" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="bold">A</text>
+  <text x="352" y="195" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="bold">B</text>
+
+  <!-- degree annotations (all odd) -->
+  <text x="230" y="30" font-size="13" fill="#b00020" text-anchor="middle">deg 3</text>
+  <text x="230" y="356" font-size="13" fill="#b00020" text-anchor="middle">deg 3</text>
+  <text x="66" y="230" font-size="13" fill="#b00020" text-anchor="middle">deg 5</text>
+  <text x="398" y="230" font-size="13" fill="#b00020" text-anchor="middle">deg 3</text>
+
+  <!-- caption -->
+  <text x="230" y="374" font-size="12" fill="#444" text-anchor="middle">N, S = banks · A, B = islands · 7 bridges = 7 edges · all four degrees odd</text>
+</svg>

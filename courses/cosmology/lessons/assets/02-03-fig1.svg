@@ -1,0 +1,38 @@
+<svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Both temperatures fall as 1/a &#8212; until e&#8314;e&#8315; annihilation heats the photons, leaving T&#957;/T&#947; = 0.714 forever.</text>
+
+  <!-- axes -->
+  <line x1="60" y1="290" x2="590" y2="290" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="590,290 580,285 580,295" fill="#8a8a8a"/>
+  <text x="560" y="312" fill="#8a8a8a">scale factor a &#8594;</text>
+  <line x1="60" y1="290" x2="60" y2="55" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="60,55 55,65 65,65" fill="#8a8a8a"/>
+  <text x="46" y="52" fill="#8a8a8a">T</text>
+
+  <!-- annihilation band -->
+  <rect x="295" y="60" width="40" height="230" fill="#8a8a8a" opacity="0.10"/>
+  <line x1="295" y1="60" x2="295" y2="290" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="335" y1="60" x2="335" y2="290" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="315" y="50" fill="#8a8a8a" text-anchor="middle">e&#8314;e&#8315; annihilation</text>
+  <text x="315" y="68" fill="#8a8a8a" text-anchor="middle" font-size="12">(T ~ m&#8342;c&#178;)</text>
+
+  <!-- neutrino line (coral), straight 1/a -->
+  <path d="M 75 80 L 575 280" fill="none" stroke="#e0645c" stroke-width="3"/>
+
+  <!-- photon line (blue): coupled with neutrinos, then heated across the band -->
+  <path d="M 75 80 L 295 168 L 335 140 L 575 236" fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- shared-epoch label -->
+  <text x="120" y="112" fill="#8a8a8a" font-size="12">coupled: T&#947; = T&#957; &#8733; 1/a</text>
+
+  <!-- curve labels -->
+  <text x="420" y="196" fill="#4a90d9">photons  T&#947;</text>
+  <text x="420" y="262" fill="#e0645c">neutrinos  T&#957;</text>
+
+  <!-- ratio gap marker -->
+  <line x1="520" y1="214" x2="520" y2="258" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="520,214 516,223 524,223" fill="#e0645c"/>
+  <polygon points="520,258 516,249 524,249" fill="#e0645c"/>
+  <text x="300" y="238" fill="#e0645c" font-size="12">T&#957;/T&#947; = (4/11)&#185;&#8260;&#179; &#8776; 0.714</text>
+</svg>

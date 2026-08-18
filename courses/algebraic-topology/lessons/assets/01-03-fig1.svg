@@ -1,0 +1,42 @@
+<svg viewBox="0 0 700 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="700" height="320" fill="#ffffff"/>
+
+  <!-- ===== Space X (left) ===== -->
+  <ellipse cx="155" cy="170" rx="125" ry="120" fill="#eef2ff" stroke="#111111" stroke-width="1.5"/>
+  <text x="55" y="55" fill="#111111" font-size="22" font-style="italic">X</text>
+
+  <!-- loop gamma in X -->
+  <ellipse cx="155" cy="165" rx="55" ry="46" fill="none" stroke="#2563eb" stroke-width="2.5"/>
+  <!-- orientation arrow (clockwise, at top going right) -->
+  <path d="M 149 119 L 149 131 L 163 125 Z" fill="#2563eb"/>
+  <!-- basepoint x0 -->
+  <circle cx="155" cy="211" r="4.5" fill="#111111"/>
+  <text x="155" y="152" fill="#2563eb" font-size="17" text-anchor="middle" font-style="italic">&#947;</text>
+  <text x="155" y="234" fill="#111111" font-size="15" text-anchor="middle">x&#8320;</text>
+
+  <!-- ===== the map f ===== -->
+  <line x1="295" y1="170" x2="402" y2="170" stroke="#111111" stroke-width="2" marker-end="url(#ah)"/>
+  <text x="348" y="158" fill="#111111" font-size="18" text-anchor="middle" font-style="italic">f</text>
+
+  <!-- ===== Space Y (right) ===== -->
+  <ellipse cx="545" cy="170" rx="125" ry="120" fill="#eef2ff" stroke="#111111" stroke-width="1.5"/>
+  <text x="630" y="55" fill="#111111" font-size="22" font-style="italic">Y</text>
+
+  <!-- image loop f o gamma (a distorted loop) -->
+  <path d="M 545 118 C 606 112, 624 150, 600 186 C 586 210, 560 216, 545 214
+           C 524 212, 496 206, 490 172 C 483 142, 494 118, 545 118 Z"
+        fill="none" stroke="#dc2626" stroke-width="2.5"/>
+  <path d="M 539 112 L 539 124 L 553 118 Z" fill="#dc2626"/>
+  <circle cx="545" cy="214" r="4.5" fill="#111111"/>
+  <text x="560" y="150" fill="#dc2626" font-size="16" text-anchor="middle" font-style="italic">f&#8728;&#947;</text>
+  <text x="545" y="238" fill="#111111" font-size="15" text-anchor="middle">f(x&#8320;)</text>
+
+  <!-- caption -->
+  <text x="350" y="305" fill="#555555" font-size="14" text-anchor="middle">f pushes the loop &#947; at x&#8320; forward to the loop f&#8728;&#947; at f(x&#8320;):  f&#8347;[&#947;] = [f&#8728;&#947;]</text>
+
+  <defs>
+    <marker id="ah" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#111111"/>
+    </marker>
+  </defs>
+</svg>

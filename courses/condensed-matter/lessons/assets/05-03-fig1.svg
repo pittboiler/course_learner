@@ -1,0 +1,62 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="24" y="24" fill="#8a8a8a" font-style="italic">Three states of a spin lattice: aligned (ferromagnet), anti-aligned (antiferromagnet), and a long-wavelength precession (magnon).</text>
+
+  <!-- ===== Panel A: Ferromagnet ===== -->
+  <text x="100" y="60" fill="#8a8a8a" text-anchor="middle">Ferromagnet  J &gt; 0</text>
+  <!-- 3x3 up arrows, blue -->
+  <!-- row y=110 -->
+  <line x1="60" y1="124" x2="60" y2="96" stroke="#4a90d9" stroke-width="2.5"/><polygon points="55,102 65,102 60,90" fill="#4a90d9"/>
+  <line x1="100" y1="124" x2="100" y2="96" stroke="#4a90d9" stroke-width="2.5"/><polygon points="95,102 105,102 100,90" fill="#4a90d9"/>
+  <line x1="140" y1="124" x2="140" y2="96" stroke="#4a90d9" stroke-width="2.5"/><polygon points="135,102 145,102 140,90" fill="#4a90d9"/>
+  <!-- row y=150 -->
+  <line x1="60" y1="164" x2="60" y2="136" stroke="#4a90d9" stroke-width="2.5"/><polygon points="55,142 65,142 60,130" fill="#4a90d9"/>
+  <line x1="100" y1="164" x2="100" y2="136" stroke="#4a90d9" stroke-width="2.5"/><polygon points="95,142 105,142 100,130" fill="#4a90d9"/>
+  <line x1="140" y1="164" x2="140" y2="136" stroke="#4a90d9" stroke-width="2.5"/><polygon points="135,142 145,142 140,130" fill="#4a90d9"/>
+  <!-- row y=190 -->
+  <line x1="60" y1="204" x2="60" y2="176" stroke="#4a90d9" stroke-width="2.5"/><polygon points="55,182 65,182 60,170" fill="#4a90d9"/>
+  <line x1="100" y1="204" x2="100" y2="176" stroke="#4a90d9" stroke-width="2.5"/><polygon points="95,182 105,182 100,170" fill="#4a90d9"/>
+  <line x1="140" y1="204" x2="140" y2="176" stroke="#4a90d9" stroke-width="2.5"/><polygon points="135,182 145,182 140,170" fill="#4a90d9"/>
+  <text x="100" y="232" fill="#8a8a8a" text-anchor="middle" font-style="italic">net M &#8800; 0</text>
+
+  <!-- ===== Panel B: Antiferromagnet ===== -->
+  <text x="320" y="60" fill="#8a8a8a" text-anchor="middle">Antiferromagnet  J &lt; 0</text>
+  <!-- checkerboard up/down, coral. up: even (row+col) -->
+  <!-- row1: up down up -->
+  <line x1="280" y1="124" x2="280" y2="96" stroke="#e0645c" stroke-width="2.5"/><polygon points="275,102 285,102 280,90" fill="#e0645c"/>
+  <line x1="320" y1="96" x2="320" y2="124" stroke="#e0645c" stroke-width="2.5"/><polygon points="315,118 325,118 320,130" fill="#e0645c"/>
+  <line x1="360" y1="124" x2="360" y2="96" stroke="#e0645c" stroke-width="2.5"/><polygon points="355,102 365,102 360,90" fill="#e0645c"/>
+  <!-- row2: down up down -->
+  <line x1="280" y1="136" x2="280" y2="164" stroke="#e0645c" stroke-width="2.5"/><polygon points="275,158 285,158 280,170" fill="#e0645c"/>
+  <line x1="320" y1="164" x2="320" y2="136" stroke="#e0645c" stroke-width="2.5"/><polygon points="315,142 325,142 320,130" fill="#e0645c"/>
+  <line x1="360" y1="136" x2="360" y2="164" stroke="#e0645c" stroke-width="2.5"/><polygon points="355,158 365,158 360,170" fill="#e0645c"/>
+  <!-- row3: up down up -->
+  <line x1="280" y1="204" x2="280" y2="176" stroke="#e0645c" stroke-width="2.5"/><polygon points="275,182 285,182 280,170" fill="#e0645c"/>
+  <line x1="320" y1="176" x2="320" y2="204" stroke="#e0645c" stroke-width="2.5"/><polygon points="315,198 325,198 320,210" fill="#e0645c"/>
+  <line x1="360" y1="204" x2="360" y2="176" stroke="#e0645c" stroke-width="2.5"/><polygon points="355,182 365,182 360,170" fill="#e0645c"/>
+  <text x="320" y="232" fill="#8a8a8a" text-anchor="middle" font-style="italic">net M = 0, staggered order</text>
+
+  <!-- ===== Panel C: Spin wave / magnon ===== -->
+  <text x="530" y="60" fill="#8a8a8a" text-anchor="middle">Spin wave (magnon)</text>
+  <!-- baseline -->
+  <line x1="452" y1="150" x2="612" y2="150" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <!-- 7 precessing arrows, one full wavelength; centers at cy=150, h=18 -->
+  <line x1="452" y1="168" x2="452" y2="132" stroke="#4a90d9" stroke-width="2.5"/><polygon points="447,138 457,138 452,126" fill="#4a90d9"/>
+  <line x1="470.7" y1="166" x2="481.3" y2="134" stroke="#4a90d9" stroke-width="2.5"/><polygon points="476.6,140.4 485.9,137.3 481.3,127.6" fill="#4a90d9"/>
+  <line x1="500.7" y1="166" x2="511.3" y2="134" stroke="#4a90d9" stroke-width="2.5"/><polygon points="506.6,140.4 515.9,137.3 511.3,127.6" fill="#4a90d9"/>
+  <line x1="532" y1="168" x2="532" y2="132" stroke="#4a90d9" stroke-width="2.5"/><polygon points="527,138 537,138 532,126" fill="#4a90d9"/>
+  <line x1="569.3" y1="166" x2="558.7" y2="134" stroke="#4a90d9" stroke-width="2.5"/><polygon points="563.4,140.4 554.1,137.3 558.7,127.6" fill="#4a90d9"/>
+  <line x1="599.3" y1="166" x2="588.7" y2="134" stroke="#4a90d9" stroke-width="2.5"/><polygon points="593.4,140.4 584.1,137.3 588.7,127.6" fill="#4a90d9"/>
+  <line x1="612" y1="168" x2="612" y2="132" stroke="#4a90d9" stroke-width="2.5"/><polygon points="607,138 617,138 612,126" fill="#4a90d9"/>
+  <!-- wavelength marker -->
+  <line x1="452" y1="200" x2="612" y2="200" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="452,200 461,196 461,204" fill="#e0645c"/>
+  <polygon points="612,200 603,196 603,204" fill="#e0645c"/>
+  <text x="532" y="220" fill="#e0645c" text-anchor="middle">&#955;</text>
+  <text x="530" y="232" fill="#8a8a8a" text-anchor="middle" font-style="italic">tilts precess; &#969; &#8733; k&#178;</text>
+
+  <!-- ===== Hamiltonian ===== -->
+  <line x1="40" y1="272" x2="600" y2="272" stroke="#8a8a8a" stroke-width="0.75"/>
+  <text x="320" y="300" fill="#4a90d9" text-anchor="middle" font-size="17">H = &#8722;J &#931;&#10216;ij&#10217; S&#8407;&#7522; &#183; S&#8407;&#11388;</text>
+  <text x="320" y="322" fill="#8a8a8a" text-anchor="middle" font-style="italic">J &gt; 0 favors alignment; J &lt; 0 favors anti-alignment</text>
+</svg>

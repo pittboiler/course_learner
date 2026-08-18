@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="400" height="400" fill="#ffffff"/>
+  <defs>
+    <marker id="ah" markerWidth="10" markerHeight="10" refX="7.5" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 z" fill="#c0392b"/>
+    </marker>
+  </defs>
+
+  <!-- the disk D^2 -->
+  <circle cx="200" cy="200" r="150" fill="#f3f6fb" stroke="#1a7f37" stroke-width="3"/>
+  <text x="298" y="88" font-size="17" fill="#1a7f37">S&#185; = &#8706;D&#178;</text>
+  <text x="212" y="322" font-size="16" fill="#5a6b7a">D&#178;</text>
+
+  <!-- the ray: from f(x) through x, out to the boundary at r(x) -->
+  <line x1="240" y1="230" x2="88" y2="100" stroke="#c0392b" stroke-width="2.4" marker-end="url(#ah)"/>
+
+  <!-- f(x) -->
+  <circle cx="240" cy="230" r="4.5" fill="#111111"/>
+  <text x="248" y="244" font-size="16" fill="#111111">f(x)</text>
+
+  <!-- x -->
+  <circle cx="170" cy="170" r="4.5" fill="#111111"/>
+  <text x="178" y="166" font-size="16" fill="#111111">x</text>
+
+  <!-- r(x) on the boundary -->
+  <circle cx="88" cy="100" r="4.5" fill="#c0392b"/>
+  <text x="42" y="94" font-size="16" fill="#c0392b">r(x)</text>
+
+  <!-- caption -->
+  <text x="18" y="378" font-size="13.5" fill="#111111">No fixed point &#8658; x &#8800; f(x), so the ray from f(x) through x hits &#8706;D&#178; at r(x).</text>
+  <text x="18" y="396" font-size="13.5" fill="#111111">That r is a retraction D&#178; &#8594; S&#185; &#8212; which cannot exist.</text>
+</svg>

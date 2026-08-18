@@ -1,0 +1,50 @@
+<svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <defs>
+    <marker id="coral" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto">
+      <polygon points="0,0 8,3 0,6" fill="#e0645c"/>
+    </marker>
+    <marker id="grey" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto">
+      <polygon points="0,0 8,3 0,6" fill="#8a8a8a"/>
+    </marker>
+  </defs>
+
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">A distributed load (the area under the load curve) equals one resultant R acting through the area's centroid.</text>
+
+  <!-- ===== TOP: the distributed load ===== -->
+
+  <!-- load area: uniform rectangle + triangular top -->
+  <polygon points="90,130 90,90 490,55 490,130" fill="#4a90d9" fill-opacity="0.13" stroke="#4a90d9" stroke-width="2"/>
+  <!-- dashed line splitting uniform (below) from triangular (above) -->
+  <line x1="90" y1="90" x2="490" y2="90" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="360" y="76" fill="#4a90d9">triangular</text>
+  <text x="150" y="115" fill="#4a90d9">uniform w&#8320;</text>
+
+  <!-- small load arrows pressing down onto the beam -->
+  <line x1="140" y1="85.6" x2="140" y2="130" stroke="#e0645c" stroke-width="1.2" marker-end="url(#coral)"/>
+  <line x1="220" y1="78.6" x2="220" y2="130" stroke="#e0645c" stroke-width="1.2" marker-end="url(#coral)"/>
+  <line x1="300" y1="71.6" x2="300" y2="130" stroke="#e0645c" stroke-width="1.2" marker-end="url(#coral)"/>
+  <line x1="380" y1="64.6" x2="380" y2="130" stroke="#e0645c" stroke-width="1.2" marker-end="url(#coral)"/>
+  <line x1="460" y1="57.6" x2="460" y2="130" stroke="#e0645c" stroke-width="1.2" marker-end="url(#coral)"/>
+
+  <!-- top beam -->
+  <line x1="90" y1="130" x2="490" y2="130" stroke="#8a8a8a" stroke-width="3"/>
+
+  <!-- identical-to symbol -->
+  <text x="42" y="195" fill="#8a8a8a" font-size="26">&#8801;</text>
+
+  <!-- ===== BOTTOM: the single equivalent resultant ===== -->
+
+  <!-- bottom beam -->
+  <line x1="90" y1="250" x2="490" y2="250" stroke="#8a8a8a" stroke-width="3"/>
+
+  <!-- resultant arrow onto the beam at the centroid -->
+  <line x1="315" y1="200" x2="315" y2="250" stroke="#e0645c" stroke-width="3.5" marker-end="url(#coral)"/>
+  <text x="322" y="216" fill="#e0645c">R = area</text>
+
+  <!-- centroid dimension x-bar from left end -->
+  <line x1="90" y1="250" x2="90" y2="284" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="315" y1="250" x2="315" y2="284" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="90" y1="278" x2="315" y2="278" stroke="#8a8a8a" stroke-width="1.5" marker-start="url(#grey)" marker-end="url(#grey)"/>
+  <text x="192" y="300" fill="#8a8a8a">x&#772;</text>
+</svg>

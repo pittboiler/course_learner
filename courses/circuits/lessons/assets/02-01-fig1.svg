@@ -1,0 +1,66 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <defs>
+    <marker id="ac" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#e0645c"/>
+    </marker>
+    <marker id="ab" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#4a90d9"/>
+    </marker>
+  </defs>
+
+  <text x="34" y="24" fill="#8a8a8a" font-style="italic">Pick a ground, name the node voltages, and let KCL do the bookkeeping at each node.</text>
+
+  <!-- ground rail -->
+  <line x1="90" y1="280" x2="460" y2="280" stroke="#8a8a8a" stroke-width="1.5"/>
+  <!-- ground symbol -->
+  <line x1="315" y1="280" x2="315" y2="292" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="303" y1="292" x2="327" y2="292" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="307" y1="298" x2="323" y2="298" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="311" y1="304" x2="319" y2="304" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="333" y="299" fill="#8a8a8a">0&#160;V (reference)</text>
+
+  <!-- current source, left branch (blue = the source) -->
+  <line x1="110" y1="280" x2="110" y2="207" stroke="#8a8a8a" stroke-width="1.5"/>
+  <circle cx="110" cy="185" r="22" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="110" y1="199" x2="110" y2="172" stroke="#4a90d9" stroke-width="2" marker-end="url(#ab)"/>
+  <text x="66" y="190" fill="#4a90d9">I&#8347;</text>
+  <line x1="110" y1="163" x2="110" y2="90" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="110" y1="90" x2="200" y2="90" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- R1 : node 1 to ground -->
+  <line x1="200" y1="90" x2="200" y2="150" stroke="#8a8a8a" stroke-width="1.5"/>
+  <rect x="186" y="150" width="28" height="56" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="200" y1="206" x2="200" y2="280" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="222" y="184" fill="#8a8a8a">R&#8321;</text>
+
+  <!-- R2 : node 1 to node 2 -->
+  <line x1="200" y1="90" x2="262" y2="90" stroke="#8a8a8a" stroke-width="1.5"/>
+  <rect x="262" y="76" width="96" height="28" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="358" y1="90" x2="440" y2="90" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="302" y="68" fill="#8a8a8a">R&#8322;</text>
+
+  <!-- R3 : node 2 to ground -->
+  <line x1="440" y1="90" x2="440" y2="150" stroke="#8a8a8a" stroke-width="1.5"/>
+  <rect x="426" y="150" width="28" height="56" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="440" y1="206" x2="440" y2="280" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="462" y="184" fill="#8a8a8a">R&#8323;</text>
+
+  <!-- node dots -->
+  <circle cx="200" cy="90" r="4" fill="#8a8a8a"/>
+  <circle cx="440" cy="90" r="4" fill="#8a8a8a"/>
+
+  <!-- node voltage labels : V1 is the marked node (coral), V2 grey -->
+  <text x="182" y="72" fill="#e0645c">V&#8321;</text>
+  <text x="446" y="72" fill="#8a8a8a">V&#8322;</text>
+
+  <!-- KCL current arrows at node V1 (coral) -->
+  <line x1="150" y1="90" x2="184" y2="90" stroke="#e0645c" stroke-width="2" marker-end="url(#ac)"/>
+  <text x="150" y="106" fill="#e0645c">i&#8347;</text>
+  <line x1="200" y1="106" x2="200" y2="134" stroke="#e0645c" stroke-width="2" marker-end="url(#ac)"/>
+  <text x="207" y="128" fill="#e0645c">i&#8321;</text>
+  <line x1="216" y1="90" x2="250" y2="90" stroke="#e0645c" stroke-width="2" marker-end="url(#ac)"/>
+  <text x="222" y="82" fill="#e0645c">i&#8322;</text>
+
+  <!-- KCL statement -->
+  <text x="70" y="326" fill="#e0645c">KCL at V&#8321;:  i&#8347; = i&#8321; + i&#8322;   (current in = current out)</text>
+</svg>

@@ -1,0 +1,75 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <defs>
+    <marker id="coral" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L9,3 L0,6 Z" fill="#e0645c"/>
+    </marker>
+    <marker id="grey" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L9,3 L0,6 Z" fill="#8a8a8a"/>
+    </marker>
+    <marker id="greyStart" markerWidth="10" markerHeight="10" refX="1" refY="3" orient="auto">
+      <path d="M9,0 L0,3 L9,6 Z" fill="#8a8a8a"/>
+    </marker>
+  </defs>
+
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Only gravity does work here, so the ledger balances: T&#8321; + V&#8321; = T&#8322; + V&#8322;.</text>
+  <text x="230" y="48" fill="#e0645c" font-size="17">T&#8321; + V&#8321;  =  T&#8322; + V&#8322;</text>
+
+  <!-- ground / structure -->
+  <polygon points="140,110 140,250 360,250" fill="#8a8a8a" opacity="0.12"/>
+  <line x1="140" y1="110" x2="360" y2="250" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="100" y1="250" x2="600" y2="250" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="140" y1="110" x2="140" y2="250" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- ground hatching -->
+  <line x1="150" y1="250" x2="140" y2="262" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="190" y1="250" x2="180" y2="262" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="230" y1="250" x2="220" y2="262" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="270" y1="250" x2="260" y2="262" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="310" y1="250" x2="300" y2="262" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="350" y1="250" x2="340" y2="262" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="390" y1="250" x2="380" y2="262" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="430" y1="250" x2="420" y2="262" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- wall + spring at right -->
+  <line x1="600" y1="180" x2="600" y2="250" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="600" y1="190" x2="610" y2="182" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="600" y1="208" x2="610" y2="200" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="600" y1="226" x2="610" y2="218" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="600" y1="244" x2="610" y2="236" stroke="#8a8a8a" stroke-width="1"/>
+  <path d="M 600 235 L 588 235 L 582 222 L 570 248 L 558 222 L 546 248 L 534 222 L 522 248 L 510 222 L 500 235 L 485 235"
+        fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="548" y="212" fill="#4a90d9">k</text>
+
+  <!-- motion path -->
+  <path d="M 195 148 L 360 250 L 470 250" fill="none" stroke="#4a90d9" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.6"/>
+
+  <!-- block 1 (top of ramp: slow, high) -->
+  <g transform="rotate(32.5 190 142)">
+    <rect x="174" y="126" width="32" height="32" fill="#4a90d9" opacity="0.18" stroke="#4a90d9" stroke-width="2"/>
+    <text x="182" y="147" fill="#4a90d9">m</text>
+  </g>
+  <text x="196" y="112" fill="#8a8a8a">station 1</text>
+  <text x="215" y="128" fill="#e0645c" font-size="13">T&#8321; = &#189;mv&#8321;&#178; (small)</text>
+  <text x="215" y="146" fill="#e0645c" font-size="13">V&#8321; = mgy&#8321; (large)</text>
+  <!-- v1 small -->
+  <line x1="203" y1="152" x2="221" y2="164" stroke="#e0645c" stroke-width="2" marker-end="url(#coral)"/>
+  <text x="224" y="160" fill="#e0645c" font-size="13">v&#8321;</text>
+
+  <!-- block 2 (bottom: fast, low) -->
+  <rect x="455" y="220" width="30" height="30" fill="#4a90d9" opacity="0.18" stroke="#4a90d9" stroke-width="2"/>
+  <text x="463" y="240" fill="#4a90d9">m</text>
+  <text x="420" y="205" fill="#8a8a8a">station 2</text>
+  <text x="360" y="292" fill="#e0645c" font-size="13">T&#8322; = &#189;mv&#8322;&#178; (large)</text>
+  <text x="360" y="310" fill="#e0645c" font-size="13">V&#8322; = 0 (at datum)</text>
+  <!-- v2 large -->
+  <line x1="487" y1="212" x2="533" y2="212" stroke="#e0645c" stroke-width="2.5" marker-end="url(#coral)"/>
+  <text x="505" y="205" fill="#e0645c" font-size="13">v&#8322;</text>
+
+  <!-- height dimension y1 -->
+  <line x1="190" y1="142" x2="118" y2="142" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="118" y1="144" x2="118" y2="248" stroke="#8a8a8a" stroke-width="1.5" marker-start="url(#greyStart)" marker-end="url(#grey)"/>
+  <text x="96" y="200" fill="#8a8a8a">y&#8321;</text>
+
+  <!-- datum -->
+  <text x="150" y="278" fill="#8a8a8a" font-size="13">V = 0 datum (floor)</text>
+</svg>

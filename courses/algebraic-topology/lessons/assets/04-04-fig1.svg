@@ -1,0 +1,41 @@
+<svg viewBox="0 0 520 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="520" height="360" fill="#ffffff"/>
+
+  <defs>
+    <marker id="ah-black" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#111111"/>
+    </marker>
+  </defs>
+
+  <!-- fundamental square of the torus -->
+  <rect x="70" y="40" width="280" height="280" fill="none" stroke="#111111" stroke-width="2"/>
+
+  <!-- edge-identification arrows: top & bottom = a (rightward), left & right = b (upward) -->
+  <line x1="185" y1="40"  x2="235" y2="40"  stroke="#111111" stroke-width="2" marker-end="url(#ah-black)"/>
+  <line x1="185" y1="320" x2="235" y2="320" stroke="#111111" stroke-width="2" marker-end="url(#ah-black)"/>
+  <line x1="70"  y1="205" x2="70"  y2="155" stroke="#111111" stroke-width="2" marker-end="url(#ah-black)"/>
+  <line x1="350" y1="205" x2="350" y2="155" stroke="#111111" stroke-width="2" marker-end="url(#ah-black)"/>
+  <text x="210" y="30"  font-size="16" text-anchor="middle" fill="#111111" font-style="italic">a</text>
+  <text x="210" y="340" font-size="16" text-anchor="middle" fill="#111111" font-style="italic">a</text>
+  <text x="56"  y="185" font-size="16" text-anchor="middle" fill="#111111" font-style="italic">b</text>
+  <text x="364" y="185" font-size="16" text-anchor="middle" fill="#111111" font-style="italic">b</text>
+
+  <!-- loop A: horizontal circle, Poincare-dual to alpha (blue) -->
+  <line x1="70" y1="180" x2="350" y2="180" stroke="#1f6fd6" stroke-width="3"/>
+  <text x="360" y="176" font-size="15" fill="#1f6fd6" font-weight="bold">A  (dual to &#945;)</text>
+
+  <!-- pushed-off parallel copy A' (dashed blue): disjoint from A -->
+  <line x1="70" y1="120" x2="350" y2="120" stroke="#1f6fd6" stroke-width="2" stroke-dasharray="6 5"/>
+  <text x="360" y="116" font-size="13" fill="#1f6fd6">A&#8242;  (push-off)</text>
+
+  <!-- loop B: vertical circle, Poincare-dual to beta (red) -->
+  <line x1="210" y1="40" x2="210" y2="320" stroke="#d1341f" stroke-width="3"/>
+  <text x="216" y="58" font-size="15" fill="#d1341f" font-weight="bold">B (dual to &#946;)</text>
+
+  <!-- the single transverse intersection point A ∩ B -->
+  <circle cx="210" cy="180" r="6" fill="#111111"/>
+  <text x="222" y="205" font-size="14" fill="#111111">A &#8745; B = one point</text>
+
+  <!-- reading of the cup products -->
+  <text x="70" y="352" font-size="14" fill="#111111">&#945;&#8995;&#946; &#8596; A&#8745;B = 1 pt &#8594; generates H&#178;;   &#945;&#8995;&#945; &#8596; A&#8745;A&#8242; = &#8709; &#8594; 0</text>
+</svg>

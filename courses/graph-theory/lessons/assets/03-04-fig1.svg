@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 260" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="680" height="260" fill="#ffffff"/>
+
+  <!-- ============ Panel 1: G = C4 ============ -->
+  <!-- edge e (red, top) -->
+  <line x1="60" y1="80" x2="170" y2="80" stroke="#b00020" stroke-width="5"/>
+  <text x="115" y="68" font-size="14" fill="#b00020" text-anchor="middle" font-weight="bold">e</text>
+  <!-- other edges -->
+  <line x1="170" y1="80"  x2="170" y2="190" stroke="#1a1a1a" stroke-width="2.5"/>
+  <line x1="170" y1="190" x2="60"  y2="190" stroke="#1a1a1a" stroke-width="2.5"/>
+  <line x1="60"  y1="190" x2="60"  y2="80"  stroke="#1a1a1a" stroke-width="2.5"/>
+  <!-- vertices -->
+  <circle cx="60"  cy="80"  r="14" fill="#cfe8ff" stroke="#1a1a1a" stroke-width="2.5"/>
+  <circle cx="170" cy="80"  r="14" fill="#cfe8ff" stroke="#1a1a1a" stroke-width="2.5"/>
+  <circle cx="170" cy="190" r="14" fill="#cfe8ff" stroke="#1a1a1a" stroke-width="2.5"/>
+  <circle cx="60"  cy="190" r="14" fill="#cfe8ff" stroke="#1a1a1a" stroke-width="2.5"/>
+  <text x="60"  y="85"  font-size="13" fill="#1a1a1a" text-anchor="middle" font-weight="bold">u</text>
+  <text x="170" y="85"  font-size="13" fill="#1a1a1a" text-anchor="middle" font-weight="bold">v</text>
+  <text x="115" y="245" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="bold">G  (= C4)</text>
+
+  <!-- arrow: delete -->
+  <line x1="205" y1="130" x2="270" y2="130" stroke="#0057b0" stroke-width="2.5"/>
+  <polygon points="270,130 260,125 260,135" fill="#0057b0"/>
+  <text x="237" y="118" font-size="13" fill="#0057b0" text-anchor="middle" font-weight="bold">delete e</text>
+
+  <!-- ============ Panel 2: G - e = P4 ============ -->
+  <!-- where e was (faint dashed) -->
+  <line x1="290" y1="80" x2="400" y2="80" stroke="#bbbbbb" stroke-width="2" stroke-dasharray="5 5"/>
+  <line x1="400" y1="80"  x2="400" y2="190" stroke="#1a1a1a" stroke-width="2.5"/>
+  <line x1="400" y1="190" x2="290" y2="190" stroke="#1a1a1a" stroke-width="2.5"/>
+  <line x1="290" y1="190" x2="290" y2="80"  stroke="#1a1a1a" stroke-width="2.5"/>
+  <circle cx="290" cy="80"  r="14" fill="#cfe8ff" stroke="#1a1a1a" stroke-width="2.5"/>
+  <circle cx="400" cy="80"  r="14" fill="#cfe8ff" stroke="#1a1a1a" stroke-width="2.5"/>
+  <circle cx="400" cy="190" r="14" fill="#cfe8ff" stroke="#1a1a1a" stroke-width="2.5"/>
+  <circle cx="290" cy="190" r="14" fill="#cfe8ff" stroke="#1a1a1a" stroke-width="2.5"/>
+  <text x="290" y="85" font-size="13" fill="#1a1a1a" text-anchor="middle" font-weight="bold">u</text>
+  <text x="400" y="85" font-size="13" fill="#1a1a1a" text-anchor="middle" font-weight="bold">v</text>
+  <text x="345" y="245" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="bold">G - e  (= P4)</text>
+
+  <!-- arrow: contract -->
+  <line x1="435" y1="130" x2="500" y2="130" stroke="#0057b0" stroke-width="2.5"/>
+  <polygon points="500,130 490,125 490,135" fill="#0057b0"/>
+  <text x="467" y="118" font-size="13" fill="#0057b0" text-anchor="middle" font-weight="bold">contract e</text>
+
+  <!-- ============ Panel 3: G / e = C3 ============ -->
+  <line x1="575" y1="80"  x2="520" y2="190" stroke="#1a1a1a" stroke-width="2.5"/>
+  <line x1="575" y1="80"  x2="630" y2="190" stroke="#1a1a1a" stroke-width="2.5"/>
+  <line x1="520" y1="190" x2="630" y2="190" stroke="#1a1a1a" stroke-width="2.5"/>
+  <circle cx="575" cy="80"  r="15" fill="#ffe3b3" stroke="#1a1a1a" stroke-width="2.5"/>
+  <circle cx="520" cy="190" r="14" fill="#cfe8ff" stroke="#1a1a1a" stroke-width="2.5"/>
+  <circle cx="630" cy="190" r="14" fill="#cfe8ff" stroke="#1a1a1a" stroke-width="2.5"/>
+  <text x="575" y="85" font-size="12" fill="#1a1a1a" text-anchor="middle" font-weight="bold">uv</text>
+  <text x="575" y="245" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="bold">G / e  (= C3)</text>
+</svg>

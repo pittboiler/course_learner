@@ -1,0 +1,54 @@
+<svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Mass is bookkept: rate of increase inside = net inflow (left). Divergence-free flow preserves parcel volume (right).</text>
+
+  <!-- ===== left: control volume flux balance ===== -->
+
+  <!-- control volume box -->
+  <rect x="95" y="95" width="130" height="110" fill="#e0645c" opacity="0.15"/>
+  <rect x="95" y="95" width="130" height="110" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="118" y="145" fill="#8a8a8a">∂ₜρ dV</text>
+  <text x="128" y="163" fill="#8a8a8a" font-size="12">inside</text>
+
+  <!-- left face: inflow -->
+  <line x1="52" y1="150" x2="93" y2="150" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="93,150 84,145 84,155" fill="#e0645c"/>
+  <text x="46" y="138" fill="#e0645c" font-size="12">ρu·n &lt; 0</text>
+
+  <!-- right face: outflow -->
+  <line x1="225" y1="150" x2="268" y2="150" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="268,150 259,145 259,155" fill="#e0645c"/>
+  <text x="232" y="138" fill="#e0645c" font-size="12">ρu·n &gt; 0</text>
+
+  <!-- bottom face: inflow -->
+  <line x1="160" y1="248" x2="160" y2="207" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="160,207 155,216 165,216" fill="#e0645c"/>
+
+  <!-- top face: outflow -->
+  <line x1="160" y1="93" x2="160" y2="52" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="160,52 155,61 165,61" fill="#e0645c"/>
+
+  <text x="60" y="285" fill="#8a8a8a" font-style="italic" font-size="12">flux through the faces = ρu</text>
+
+  <!-- ===== right: incompressible straining flow ===== -->
+
+  <!-- undeformed parcel (dashed) -->
+  <rect x="440" y="120" width="60" height="60" fill="none" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <!-- deformed parcel: taller, thinner, equal area -->
+  <rect x="450" y="105" width="40" height="90" fill="#e0645c" opacity="0.15"/>
+  <rect x="450" y="105" width="40" height="90" fill="none" stroke="#e0645c" stroke-width="2"/>
+
+  <!-- horizontal inflow (converging) -->
+  <line x1="360" y1="150" x2="418" y2="150" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="418,150 409,145 409,155" fill="#4a90d9"/>
+  <line x1="580" y1="150" x2="522" y2="150" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="522,150 531,145 531,155" fill="#4a90d9"/>
+
+  <!-- vertical outflow (diverging) -->
+  <line x1="470" y1="100" x2="470" y2="62" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="470,62 465,71 475,71" fill="#4a90d9"/>
+  <line x1="470" y1="200" x2="470" y2="238" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="470,238 465,229 475,229" fill="#4a90d9"/>
+
+  <text x="392" y="285" fill="#8a8a8a" font-style="italic" font-size="12">in the sides, out the top &amp; bottom — area unchanged</text>
+</svg>

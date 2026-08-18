@@ -1,0 +1,57 @@
+<svg viewBox="0 0 600 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="600" height="320" fill="#ffffff"/>
+
+<text x="300" y="30" text-anchor="middle" font-size="17" fill="#111">Magnitude spectrum of x = (1, 0, 1, 0)</text>
+
+<!-- baseline / x-axis -->
+<line x1="70" y1="240" x2="540" y2="240" stroke="#111" stroke-width="1.5"/>
+<polygon points="540,240 532,236 532,244" fill="#111"/>
+<text x="546" y="245" font-size="13" fill="#111">k</text>
+
+<!-- y-axis -->
+<line x1="90" y1="260" x2="90" y2="60" stroke="#111" stroke-width="1.5"/>
+<polygon points="90,60 86,68 94,68" fill="#111"/>
+<text x="78" y="66" text-anchor="end" font-size="13" fill="#111">|X&#8342;|</text>
+
+<!-- y gridline at value 2 -->
+<line x1="90" y1="80" x2="540" y2="80" stroke="#ddd" stroke-width="1"/>
+<line x1="86" y1="80" x2="94" y2="80" stroke="#111" stroke-width="1.3"/>
+<text x="78" y="85" text-anchor="end" font-size="13" fill="#111">2</text>
+<line x1="86" y1="160" x2="94" y2="160" stroke="#111" stroke-width="1.3"/>
+<text x="78" y="165" text-anchor="end" font-size="13" fill="#111">1</text>
+
+<!-- bin x positions: k0=160, k1=270, k2=380, k3=490 ; value 2 -> y=80 -->
+<!-- stems -->
+<g stroke="#1a5e9c" stroke-width="3">
+<line x1="160" y1="240" x2="160" y2="80"/>
+<line x1="380" y1="240" x2="380" y2="80"/>
+</g>
+<!-- zero bins: small nub markers on baseline -->
+<g fill="#999">
+<circle cx="270" cy="240" r="4"/>
+<circle cx="490" cy="240" r="4"/>
+</g>
+<!-- stem heads -->
+<g fill="#1a5e9c">
+<circle cx="160" cy="80" r="6"/>
+<circle cx="380" cy="80" r="6"/>
+</g>
+
+<!-- k ticks + labels -->
+<g font-size="14" fill="#111" text-anchor="middle">
+<text x="160" y="262">0</text>
+<text x="270" y="262">1</text>
+<text x="380" y="262">2</text>
+<text x="490" y="262">3</text>
+</g>
+
+<!-- frequency annotations -->
+<g font-size="12" fill="#555" text-anchor="middle">
+<text x="160" y="282">DC</text>
+<text x="160" y="298">0 Hz</text>
+<text x="380" y="282">Nyquist</text>
+<text x="380" y="298">f&#8347;/2</text>
+</g>
+
+<text x="300" y="315" text-anchor="middle" font-size="13" fill="#111">Two spikes of height 2, at k = 0 and k = 2: a constant plus the fastest wave the grid can hold.</text>
+</svg>

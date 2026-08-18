@@ -1,0 +1,47 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic" font-size="13">The tritium fuel cycle &#8212; each burn's one neutron must breed back MORE than one triton.</text>
+
+  <!-- ===== plasma (top-left) ===== -->
+  <circle cx="150" cy="130" r="58" fill="#4a90d9" opacity="0.14" stroke="#4a90d9" stroke-width="2"/>
+  <text x="150" y="118" fill="#4a90d9" text-anchor="middle" font-weight="bold">PLASMA</text>
+  <text x="150" y="138" fill="#8a8a8a" text-anchor="middle" font-size="12">D + T &#8594; He-4 + n</text>
+  <text x="150" y="156" fill="#e0645c" text-anchor="middle" font-size="12">&#945; stays &#8594; heats</text>
+
+  <!-- ===== lithium blanket (top-right) ===== -->
+  <rect x="392" y="72" width="222" height="116" rx="8" fill="#8a8a8a" opacity="0.10" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="503" y="95" fill="#8a8a8a" text-anchor="middle" font-weight="bold" font-size="13">LITHIUM BLANKET (+ Be)</text>
+  <text x="503" y="119" fill="#e0645c" text-anchor="middle" font-size="12">Li-6 (n, &#945;) T &#8212; slow n</text>
+  <text x="503" y="141" fill="#e0645c" text-anchor="middle" font-size="12">Li-7 (n, n&#8242;&#945;) T &#8212; fast n</text>
+  <text x="503" y="167" fill="#4a90d9" text-anchor="middle" font-size="12">Be (n, 2n) multiplier</text>
+
+  <!-- ===== extract / purify (bottom-right) ===== -->
+  <rect x="400" y="250" width="205" height="68" rx="8" fill="#8a8a8a" opacity="0.10" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="502" y="280" fill="#8a8a8a" text-anchor="middle" font-weight="bold" font-size="13">EXTRACT &#38; PURIFY</text>
+  <text x="502" y="300" fill="#8a8a8a" text-anchor="middle" font-size="12">separate T, recycle</text>
+
+  <!-- ===== fuel injector (bottom-left) ===== -->
+  <rect x="56" y="250" width="190" height="68" rx="8" fill="#8a8a8a" opacity="0.10" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="151" y="280" fill="#8a8a8a" text-anchor="middle" font-weight="bold" font-size="13">FUEL INJECTOR</text>
+  <text x="151" y="300" fill="#8a8a8a" text-anchor="middle" font-size="12">+ fresh D</text>
+
+  <!-- arrow 1: plasma -> blanket (blue neutron) -->
+  <line x1="210" y1="112" x2="386" y2="112" stroke="#4a90d9" stroke-width="3"/>
+  <polygon points="392,112 380,106 380,118" fill="#4a90d9"/>
+  <text x="298" y="102" fill="#4a90d9" text-anchor="middle" font-size="12">14 MeV neutron</text>
+
+  <!-- arrow 2: blanket -> extract (coral bred T) -->
+  <line x1="503" y1="190" x2="503" y2="244" stroke="#e0645c" stroke-width="3"/>
+  <polygon points="503,250 497,238 509,238" fill="#e0645c"/>
+  <text x="513" y="222" fill="#e0645c" font-size="12">bred T</text>
+
+  <!-- arrow 3: extract -> injector (coral purified T) -->
+  <line x1="398" y1="284" x2="254" y2="284" stroke="#e0645c" stroke-width="3"/>
+  <polygon points="248,284 260,278 260,290" fill="#e0645c"/>
+  <text x="326" y="274" fill="#e0645c" text-anchor="middle" font-size="12">purified tritium</text>
+
+  <!-- arrow 4: injector -> plasma (coral fuel) -->
+  <line x1="151" y1="248" x2="151" y2="194" stroke="#e0645c" stroke-width="3"/>
+  <polygon points="151,188 145,200 157,200" fill="#e0645c"/>
+  <text x="161" y="224" fill="#e0645c" font-size="12">D + T fuel</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg viewBox="0 0 480 240" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Rayleigh&#8211;Taylor: light fluid pushing heavy turns tiny ripples into spikes &#38; bubbles that pierce the shell.</text>
+
+  <!-- dense fuel region (blue) above the interface -->
+  <path d="M40,110 Q80,60 120,165 Q160,60 200,165 Q240,60 280,165 Q320,60 360,165 Q400,60 440,110 L440,40 L40,40 Z"
+        fill="#4a90d9" fill-opacity="0.18" stroke="none"/>
+  <!-- hot spot region (coral) below the interface -->
+  <path d="M40,110 Q80,60 120,165 Q160,60 200,165 Q240,60 280,165 Q320,60 360,165 Q400,60 440,110 L440,210 L40,210 Z"
+        fill="#e0645c" fill-opacity="0.15" stroke="none"/>
+  <!-- the interface itself -->
+  <path d="M40,110 Q80,60 120,165 Q160,60 200,165 Q240,60 280,165 Q320,60 360,165 Q400,60 440,110"
+        fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- dense spike heads (blue) -->
+  <circle cx="120" cy="165" r="7" fill="#4a90d9" fill-opacity="0.5" stroke="#4a90d9" stroke-width="1"/>
+  <circle cx="200" cy="165" r="7" fill="#4a90d9" fill-opacity="0.5" stroke="#4a90d9" stroke-width="1"/>
+  <circle cx="280" cy="165" r="7" fill="#4a90d9" fill-opacity="0.5" stroke="#4a90d9" stroke-width="1"/>
+  <circle cx="360" cy="165" r="7" fill="#4a90d9" fill-opacity="0.5" stroke="#4a90d9" stroke-width="1"/>
+
+  <!-- effective acceleration arrow (light drives into heavy: points up) -->
+  <line x1="24" y1="150" x2="24" y2="86" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="24,86 19,98 29,98" fill="#e0645c"/>
+  <text x="30" y="118" fill="#e0645c">g</text>
+
+  <!-- labels -->
+  <text x="240" y="60" fill="#4a90d9" text-anchor="middle">dense fuel shell (heavy)</text>
+  <text x="240" y="200" fill="#e0645c" text-anchor="middle">hot spot (light)</text>
+</svg>

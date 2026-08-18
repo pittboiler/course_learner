@@ -1,0 +1,44 @@
+<svg viewBox="0 0 620 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Titrating a weak acid with strong base: flat buffer region, then a steep jump through the equivalence point.</text>
+
+  <!-- axes -->
+  <line x1="60" y1="310" x2="575" y2="310" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="575,310 565,305 565,315" fill="#8a8a8a"/>
+  <text x="360" y="345" fill="#8a8a8a">volume of NaOH added (mL) &#8594;</text>
+  <line x1="60" y1="310" x2="60" y2="40" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="60,40 55,50 65,50" fill="#8a8a8a"/>
+  <text x="46" y="52" fill="#8a8a8a" text-anchor="end">pH</text>
+
+  <!-- y ticks -->
+  <text x="52" y="315" fill="#8a8a8a" text-anchor="end">0</text>
+  <line x1="57" y1="175" x2="63" y2="175" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="52" y="180" fill="#8a8a8a" text-anchor="end">7</text>
+  <line x1="57" y1="40" x2="63" y2="40" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="52" y="45" fill="#8a8a8a" text-anchor="end">14</text>
+  <!-- neutral pH 7 guide -->
+  <line x1="60" y1="175" x2="575" y2="175" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 5" opacity="0.6"/>
+
+  <!-- the titration curve -->
+  <path d="M 60 254.7 L 91 237 L 123 230 L 185 222 L 216 218.5 L 248 215 L 310 207 L 341 200 L 360 192 L 371 172 L 372.5 141.8 L 374 111 L 379 98 L 385 92 L 435 79 L 498 74 L 560 72"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- half-equivalence guides + marker -->
+  <line x1="216" y1="218.5" x2="60" y2="218.5" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="216" y1="218.5" x2="216" y2="310" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <circle cx="216" cy="218.5" r="4.5" fill="#e0645c"/>
+  <text x="52" y="214" fill="#e0645c" text-anchor="end">pK&#8336;</text>
+  <text x="216" y="326" fill="#e0645c" text-anchor="middle">12.5</text>
+  <text x="120" y="205" fill="#e0645c">half-equiv: pH = pK&#8336;</text>
+
+  <!-- equivalence guides + marker -->
+  <line x1="372.5" y1="141.8" x2="60" y2="141.8" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="372.5" y1="141.8" x2="372.5" y2="310" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <circle cx="372.5" cy="141.8" r="4.5" fill="#e0645c"/>
+  <text x="372.5" y="326" fill="#e0645c" text-anchor="middle">25.0</text>
+  <text x="388" y="130" fill="#e0645c">equivalence: pH &gt; 7</text>
+
+  <!-- region labels -->
+  <text x="150" y="255" fill="#4a90d9" text-anchor="middle">buffer region</text>
+  <text x="490" y="60" fill="#8a8a8a">excess OH&#8722;</text>
+</svg>

@@ -1,0 +1,49 @@
+<svg viewBox="0 0 680 490" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+
+  <!-- ===== the grey ring ===== -->
+  <circle cx="330" cy="235" r="145" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+
+  <!-- clockwise flow arrowheads on the ring -->
+  <polygon points="343,90 330,84 331,96" fill="#8a8a8a"/>
+  <polygon points="317,380 330,374 329,386" fill="#8a8a8a"/>
+
+  <!-- ===== acetyl-CoA entry (coral, into the ring near the top) ===== -->
+  <line x1="252" y1="52" x2="274" y2="101" stroke="#e0645c" stroke-width="1.8"/>
+  <polygon points="274,101 264,94 270,88" fill="#e0645c"/>
+  <text x="246" y="44" fill="#e0645c" text-anchor="middle">Acetyl-CoA (2C) in</text>
+
+  <!-- ===== intermediate labels (grey, inside the ring) ===== -->
+  <text x="330" y="121" fill="#8a8a8a" text-anchor="middle">Citrate (6C)</text>
+  <text x="416" y="156" fill="#8a8a8a" text-anchor="middle">Isocitrate (6C)</text>
+  <text x="452" y="239" fill="#8a8a8a" text-anchor="middle">&#945;-KG (5C)</text>
+  <text x="416" y="322" fill="#8a8a8a" text-anchor="middle">Succinyl-CoA (4C)</text>
+  <text x="330" y="357" fill="#8a8a8a" text-anchor="middle">Succinate (4C)</text>
+  <text x="247" y="322" fill="#8a8a8a" text-anchor="middle">Fumarate (4C)</text>
+  <text x="208" y="239" fill="#8a8a8a" text-anchor="middle">Malate (4C)</text>
+  <text x="247" y="156" fill="#8a8a8a" text-anchor="middle">Oxaloacetate (4C)</text>
+
+  <!-- ===== carrier / CO2 outputs (coral ticks + labels, outside the ring) ===== -->
+  <!-- isocitrate -> a-KG : NADH + CO2 -->
+  <line x1="464" y1="179" x2="497" y2="166" stroke="#e0645c" stroke-width="2"/>
+  <text x="503" y="170" fill="#e0645c" text-anchor="start">NADH + CO&#8322;</text>
+  <!-- a-KG -> succinyl-CoA : NADH + CO2 -->
+  <line x1="464" y1="291" x2="497" y2="304" stroke="#e0645c" stroke-width="2"/>
+  <text x="503" y="308" fill="#e0645c" text-anchor="start">NADH + CO&#8322;</text>
+  <!-- succinyl-CoA -> succinate : GTP -->
+  <line x1="386" y1="369" x2="399" y2="401" stroke="#e0645c" stroke-width="2"/>
+  <text x="399" y="418" fill="#e0645c" text-anchor="middle">GTP</text>
+  <!-- succinate -> fumarate : FADH2 -->
+  <line x1="274" y1="369" x2="261" y2="401" stroke="#e0645c" stroke-width="2"/>
+  <text x="261" y="418" fill="#e0645c" text-anchor="middle">FADH&#8322;</text>
+  <!-- malate -> oxaloacetate : NADH -->
+  <line x1="196" y1="179" x2="163" y2="166" stroke="#e0645c" stroke-width="2"/>
+  <text x="157" y="170" fill="#e0645c" text-anchor="end">NADH</text>
+
+  <!-- ===== per-turn tally in the hub ===== -->
+  <text x="330" y="218" fill="#e0645c" text-anchor="middle" font-size="14">Per turn:</text>
+  <text x="330" y="238" fill="#e0645c" text-anchor="middle" font-size="14">3 NADH &#183; 1 FADH&#8322;</text>
+  <text x="330" y="258" fill="#e0645c" text-anchor="middle" font-size="14">1 GTP &#183; 2 CO&#8322;</text>
+
+  <!-- caption -->
+  <text x="330" y="478" fill="#8a8a8a" text-anchor="middle" font-style="italic">Oxaloacetate is a catalyst: consumed at the top, regenerated at the bottom &#8212; coral marks what leaves.</text>
+</svg>

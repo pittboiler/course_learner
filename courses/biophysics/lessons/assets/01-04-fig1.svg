@@ -1,0 +1,47 @@
+<svg viewBox="0 0 640 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">The same collisions do both jobs: diffusion spreads the particle out (blue), drag drags it back down (coral).</text>
+  <text x="40" y="42" fill="#8a8a8a" font-style="italic">At equilibrium the two fluxes cancel — and that balance forces D = k_BT / γ.</text>
+
+  <!-- x-axis (bottom) -->
+  <line x1="80" y1="300" x2="562" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="562,300 552,295 552,305" fill="#8a8a8a"/>
+  <text x="566" y="305" fill="#8a8a8a">x</text>
+
+  <!-- potential well U(x): grey bowl, minimum at center -->
+  <path d="M 100 80 L 140 123 L 180 157 L 220 183 L 260 200 L 300 209 L 320 210 L 340 209 L 380 200 L 420 183 L 460 157 L 500 123 L 540 80"
+        fill="none" stroke="#8a8a8a" stroke-width="2.5"/>
+  <text x="118" y="78" fill="#8a8a8a">U(x)</text>
+
+  <!-- Boltzmann distribution c(x) ∝ e^{-U/kT}: coral, filled -->
+  <path d="M 120 296.7 L 160 289.9 L 200 275.6 L 240 254.5 L 280 233.8 L 320 225 L 360 233.8 L 400 254.5 L 440 275.6 L 480 289.9 L 520 296.7 L 520 300 L 120 300 Z"
+        fill="#e0645c" opacity="0.15" stroke="none"/>
+  <path d="M 120 296.7 L 160 289.9 L 200 275.6 L 240 254.5 L 280 233.8 L 320 225 L 360 233.8 L 400 254.5 L 440 275.6 L 480 289.9 L 520 296.7"
+        fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="330" y="222" fill="#e0645c">c(x) &#8733; e</text>
+  <text x="392" y="216" fill="#e0645c" font-size="11">&#8722;U/k_BT</text>
+
+  <!-- particle on the right flank -->
+  <circle cx="418" cy="220" r="7" fill="#4a90d9"/>
+
+  <!-- diffusion flux: blue arrow pointing outward / uphill (down the c-gradient) -->
+  <line x1="428" y1="216" x2="470" y2="192" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="470,192 459,192 465,201" fill="#4a90d9"/>
+  <text x="452" y="182" fill="#4a90d9">diffusion out</text>
+
+  <!-- drift flux: coral arrow pointing inward / downhill toward the minimum -->
+  <line x1="408" y1="234" x2="366" y2="258" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="366,258 377,258 371,249" fill="#e0645c"/>
+  <text x="300" y="275" fill="#e0645c">drift in</text>
+
+  <!-- the balance, boxed -->
+  <text x="112" y="255" fill="#4a90d9">&#8722;D dc/dx</text>
+  <text x="188" y="255" fill="#8a8a8a">=</text>
+  <text x="205" y="255" fill="#e0645c">(F/&#947;) c</text>
+  <line x1="112" y1="268" x2="250" y2="268" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="112" y="288" fill="#8a8a8a">&#8658;&#160;&#160;</text>
+  <text x="136" y="288" fill="#4a90d9">D</text>
+  <text x="150" y="288" fill="#8a8a8a">=</text>
+  <text x="166" y="288" fill="#8a8a8a">k_BT /</text>
+  <text x="212" y="288" fill="#e0645c">&#947;</text>
+</svg>

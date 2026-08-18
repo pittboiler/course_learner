@@ -1,0 +1,45 @@
+<svg viewBox="0 0 620 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Titrating acetic acid: near the half&#8211;equivalence point the pH barely moves &#8212; that flat zone is the buffer, centered on pH = pKa.</text>
+
+  <!-- buffering-region band (behind curve) -->
+  <rect x="166" y="220" width="171" height="34" fill="#e0645c" opacity="0.13"/>
+  <text x="176" y="210" fill="#e0645c">buffering region</text>
+  <text x="176" y="196" fill="#e0645c" font-size="12">pH within about 1 of pKa</text>
+
+  <!-- axes -->
+  <line x1="70" y1="60" x2="70" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="70" y1="300" x2="580" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,54 65,64 75,64" fill="#8a8a8a"/>
+  <polygon points="586,300 576,295 576,305" fill="#8a8a8a"/>
+
+  <!-- y-axis ticks (pH) -->
+  <text x="82" y="52" fill="#8a8a8a">pH</text>
+  <text x="50" y="305" fill="#8a8a8a" font-size="12">2</text>
+  <text x="50" y="257" fill="#8a8a8a" font-size="12">4</text>
+  <text x="50" y="209" fill="#8a8a8a" font-size="12">6</text>
+  <text x="50" y="161" fill="#8a8a8a" font-size="12">8</text>
+  <text x="44" y="113" fill="#8a8a8a" font-size="12">10</text>
+  <text x="44" y="65"  fill="#8a8a8a" font-size="12">12</text>
+
+  <!-- x-axis label -->
+  <text x="240" y="342" fill="#8a8a8a">strong base added &#8594;</text>
+
+  <!-- pKa guide lines -->
+  <line x1="70" y1="234" x2="251" y2="234" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="251" y1="234" x2="251" y2="300" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="86" y="229" fill="#e0645c" font-size="12">pH = pKa = 4.76</text>
+  <text x="214" y="316" fill="#8a8a8a" font-size="12">&#189; equiv</text>
+
+  <!-- equivalence guide -->
+  <line x1="423" y1="139" x2="423" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="392" y="316" fill="#8a8a8a" font-size="12">equiv. point</text>
+
+  <!-- titration curve -->
+  <path d="M 80 279 L 114 257 L 149 248 L 183 243 L 217 238 L 251 234 L 286 229 L 320 225 L 354 219 L 389 211 L 406 203 L 419 186 L 423 139 L 426 108 L 440 80 L 457 67 L 520 60 L 560 58"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- half-equivalence marker -->
+  <circle cx="251" cy="234" r="4.5" fill="#e0645c"/>
+  <text x="258" y="252" fill="#e0645c" font-size="12">[A&#8315;] = [HA]</text>
+</svg>

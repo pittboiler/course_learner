@@ -1,0 +1,64 @@
+<svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Two payoffs of a controlled current: grow metal atom-by-atom (m = ItM/nF), and read concentration off a straight line.</text>
+
+  <!-- ============ LEFT: electrodeposition ============ -->
+  <text x="70" y="52" fill="#8a8a8a">Electrodeposition (plating)</text>
+
+  <!-- solution boundary -->
+  <rect x="55" y="66" width="230" height="200" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 5"/>
+
+  <!-- cathode bar -->
+  <rect x="120" y="80" width="16" height="170" fill="#8a8a8a" opacity="0.35" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="86" y="272" fill="#8a8a8a">cathode (&#8722;)</text>
+
+  <!-- deposited metal layer -->
+  <rect x="136" y="92" width="12" height="146" fill="#4a90d9" opacity="0.55" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="152" y="112" fill="#4a90d9">deposit M</text>
+
+  <!-- electron feed into cathode -->
+  <line x1="128" y1="80" x2="128" y2="58" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="128" y1="58" x2="70" y2="58" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="128,80 123,71 133,71" fill="#8a8a8a"/>
+  <text x="74" y="52" fill="#8a8a8a">e&#8722;</text>
+
+  <!-- ions drifting toward cathode -->
+  <circle cx="210" cy="120" r="8" fill="none" stroke="#e0645c" stroke-width="1.5"/>
+  <circle cx="235" cy="175" r="8" fill="none" stroke="#e0645c" stroke-width="1.5"/>
+  <circle cx="205" cy="215" r="8" fill="none" stroke="#e0645c" stroke-width="1.5"/>
+  <line x1="198" y1="120" x2="162" y2="120" stroke="#e0645c" stroke-width="1.2"/>
+  <polygon points="162,120 171,116 171,124" fill="#e0645c"/>
+  <line x1="223" y1="175" x2="162" y2="175" stroke="#e0645c" stroke-width="1.2"/>
+  <polygon points="162,175 171,171 171,179" fill="#e0645c"/>
+  <line x1="193" y1="215" x2="162" y2="215" stroke="#e0645c" stroke-width="1.2"/>
+  <polygon points="162,215 171,211 171,219" fill="#e0645c"/>
+  <text x="222" y="102" fill="#e0645c">M&#8319;&#8314;</text>
+
+  <!-- reaction + mass law -->
+  <text x="60" y="292" fill="#4a90d9">M&#8319;&#8314; + n e&#8722; &#8594; M</text>
+  <text x="60" y="312" fill="#e0645c">m = I t M / (n F)</text>
+
+  <!-- ============ RIGHT: amperometric calibration ============ -->
+  <text x="400" y="52" fill="#8a8a8a">Amperometric calibration</text>
+
+  <!-- axes -->
+  <line x1="400" y1="258" x2="620" y2="258" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="620,258 610,253 610,263" fill="#8a8a8a"/>
+  <line x1="400" y1="258" x2="400" y2="72" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="400,72 395,82 405,82" fill="#8a8a8a"/>
+  <text x="556" y="278" fill="#8a8a8a">C* (conc.)</text>
+  <text x="360" y="86" fill="#8a8a8a">j&#8348;</text>
+
+  <!-- calibration line through origin -->
+  <line x1="400" y1="258" x2="608" y2="105" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- measured point + dashed reads -->
+  <line x1="532" y1="164.9" x2="532" y2="258" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="532" y1="164.9" x2="400" y2="164.9" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <circle cx="532" cy="164.9" r="5" fill="#e0645c"/>
+  <text x="512" y="276" fill="#8a8a8a">C&#8339;</text>
+  <text x="366" y="169" fill="#8a8a8a">j&#8339;</text>
+
+  <!-- slope label -->
+  <text x="452" y="128" fill="#e0645c">j&#8348; &#8733; C*</text>
+  <text x="430" y="230" fill="#e0645c">slope = nFD/&#948;</text>
+</svg>

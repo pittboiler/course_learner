@@ -1,0 +1,83 @@
+<svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <!-- caption -->
+  <text x="24" y="20" fill="#8a8a8a" font-style="italic">Each cation is hugged by nearest anions (attraction) and pushed by next-nearest cations (repulsion); summed over the lattice, energy dips to a minimum at r&#8320;.</text>
+
+  <!-- ================= LEFT: NaCl lattice fragment ================= -->
+  <text x="40" y="46" fill="#8a8a8a">Rock-salt lattice (Madelung sum)</text>
+
+  <!-- attraction lines (nearest neighbours, blue solid) from centre (130,150) -->
+  <line x1="130" y1="150" x2="130" y2="90"  stroke="#4a90d9" stroke-width="2"/>
+  <line x1="130" y1="150" x2="70"  y2="150" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="130" y1="150" x2="190" y2="150" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="130" y1="150" x2="130" y2="210" stroke="#4a90d9" stroke-width="2"/>
+
+  <!-- repulsion lines (next-nearest, coral dashed) from centre -->
+  <line x1="130" y1="150" x2="70"  y2="90"  stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <line x1="130" y1="150" x2="190" y2="90"  stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <line x1="130" y1="150" x2="70"  y2="210" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <line x1="130" y1="150" x2="190" y2="210" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 4"/>
+
+  <!-- anions (blue, minus) -->
+  <circle cx="130" cy="90"  r="15" fill="#4a90d9" fill-opacity="0.18" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="130" y="95" fill="#4a90d9" text-anchor="middle" font-size="16" font-weight="bold">&#8722;</text>
+  <circle cx="70"  cy="150" r="15" fill="#4a90d9" fill-opacity="0.18" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="70"  y="155" fill="#4a90d9" text-anchor="middle" font-size="16" font-weight="bold">&#8722;</text>
+  <circle cx="190" cy="150" r="15" fill="#4a90d9" fill-opacity="0.18" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="190" y="155" fill="#4a90d9" text-anchor="middle" font-size="16" font-weight="bold">&#8722;</text>
+  <circle cx="130" cy="210" r="15" fill="#4a90d9" fill-opacity="0.18" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="130" y="215" fill="#4a90d9" text-anchor="middle" font-size="16" font-weight="bold">&#8722;</text>
+
+  <!-- cations (coral, plus) -->
+  <circle cx="70"  cy="90"  r="15" fill="#e0645c" fill-opacity="0.18" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="70"  y="95" fill="#e0645c" text-anchor="middle" font-size="16" font-weight="bold">+</text>
+  <circle cx="190" cy="90"  r="15" fill="#e0645c" fill-opacity="0.18" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="190" y="95" fill="#e0645c" text-anchor="middle" font-size="16" font-weight="bold">+</text>
+  <circle cx="70"  cy="210" r="15" fill="#e0645c" fill-opacity="0.18" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="70"  y="215" fill="#e0645c" text-anchor="middle" font-size="16" font-weight="bold">+</text>
+  <circle cx="190" cy="210" r="15" fill="#e0645c" fill-opacity="0.18" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="190" y="215" fill="#e0645c" text-anchor="middle" font-size="16" font-weight="bold">+</text>
+  <!-- central cation on top -->
+  <circle cx="130" cy="150" r="15" fill="#e0645c" fill-opacity="0.30" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="130" y="155" fill="#e0645c" text-anchor="middle" font-size="16" font-weight="bold">+</text>
+
+  <!-- legend -->
+  <line x1="46" y1="252" x2="70" y2="252" stroke="#4a90d9" stroke-width="2"/>
+  <text x="76" y="256" fill="#8a8a8a">nearest &#8722; : attract</text>
+  <line x1="46" y1="272" x2="70" y2="272" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="76" y="276" fill="#8a8a8a">next-nearest + : repel</text>
+
+  <!-- ================= RIGHT: potential energy vs r ================= -->
+  <text x="380" y="46" fill="#8a8a8a">Energy vs separation r</text>
+
+  <!-- axes -->
+  <line x1="352" y1="70" x2="352" y2="298" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="352,70 347,80 357,80" fill="#8a8a8a"/>
+  <text x="336" y="76" fill="#8a8a8a">E</text>
+  <line x1="352" y1="150" x2="628" y2="150" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="628,150 618,145 618,155" fill="#8a8a8a"/>
+  <text x="624" y="143" fill="#8a8a8a">r</text>
+  <text x="338" y="146" fill="#8a8a8a">0</text>
+
+  <!-- Born repulsion component (coral dashed, steep positive) -->
+  <path d="M 356 78 L 366 100 L 376 128 L 388 146 L 404 150 L 440 151"
+        fill="none" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="360" y="96" fill="#e0645c" font-size="12">Born repulsion  +1/r&#8319;</text>
+
+  <!-- Coulomb attraction component (blue dashed, negative) -->
+  <path d="M 356 292 L 380 246 L 412 214 L 460 190 L 520 172 L 616 160"
+        fill="none" stroke="#4a90d9" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="470" y="205" fill="#4a90d9" font-size="12">attraction  &#8722;1/r</text>
+
+  <!-- total energy = the well (blue solid) -->
+  <path d="M 358 84 L 372 120 L 386 144 L 400 150 L 414 190 L 432 236 L 458 218 L 500 190 L 560 168 L 616 158"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- r0 marker -->
+  <line x1="432" y1="236" x2="432" y2="150" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <circle cx="432" cy="236" r="3.5" fill="#e0645c"/>
+  <text x="425" y="167" fill="#8a8a8a">r&#8320;</text>
+
+  <!-- well depth marker -->
+  <line x1="432" y1="236" x2="352" y2="236" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="356" y="254" fill="#e0645c">U (lattice energy)</text>
+</svg>

@@ -1,0 +1,48 @@
+<svg viewBox="0 0 420 300" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+  <rect x="0" y="0" width="420" height="300" rx="10" fill="#faf9f6"/>
+
+  <text x="210" y="30" text-anchor="middle" font-size="15" font-weight="bold" fill="#333333">Pascal's triangle</text>
+
+  <!-- Row entries: n from 0..5, centered. rowY spacing 38, colDx 34 -->
+  <!-- Row 0 -->
+  <text x="210" y="62" text-anchor="middle" font-size="16" fill="#333333">1</text>
+  <!-- Row 1 -->
+  <text x="193" y="100" text-anchor="middle" font-size="16" fill="#333333">1</text>
+  <text x="227" y="100" text-anchor="middle" font-size="16" fill="#333333">1</text>
+  <!-- Row 2 -->
+  <text x="176" y="138" text-anchor="middle" font-size="16" fill="#333333">1</text>
+  <text x="210" y="138" text-anchor="middle" font-size="16" fill="#333333">2</text>
+  <text x="244" y="138" text-anchor="middle" font-size="16" fill="#333333">1</text>
+  <!-- Row 3: highlight the two parents (3 and 3) -->
+  <text x="159" y="176" text-anchor="middle" font-size="16" fill="#333333">1</text>
+  <text x="193" y="176" text-anchor="middle" font-size="16" font-weight="bold" fill="#c0392b">3</text>
+  <text x="227" y="176" text-anchor="middle" font-size="16" font-weight="bold" fill="#c0392b">3</text>
+  <text x="261" y="176" text-anchor="middle" font-size="16" fill="#333333">1</text>
+  <!-- Row 4: highlighted child = 6 at center -->
+  <text x="142" y="214" text-anchor="middle" font-size="16" fill="#333333">1</text>
+  <text x="176" y="214" text-anchor="middle" font-size="16" fill="#333333">4</text>
+  <circle cx="210" cy="209" r="15" fill="none" stroke="#c0392b" stroke-width="2"/>
+  <text x="210" y="214" text-anchor="middle" font-size="16" font-weight="bold" fill="#c0392b">6</text>
+  <text x="244" y="214" text-anchor="middle" font-size="16" fill="#333333">4</text>
+  <text x="278" y="214" text-anchor="middle" font-size="16" fill="#333333">1</text>
+  <!-- Row 5 -->
+  <text x="125" y="252" text-anchor="middle" font-size="16" fill="#333333">1</text>
+  <text x="159" y="252" text-anchor="middle" font-size="16" fill="#333333">5</text>
+  <text x="193" y="252" text-anchor="middle" font-size="16" fill="#333333">10</text>
+  <text x="227" y="252" text-anchor="middle" font-size="16" fill="#333333">10</text>
+  <text x="261" y="252" text-anchor="middle" font-size="16" fill="#333333">5</text>
+  <text x="295" y="252" text-anchor="middle" font-size="16" fill="#333333">1</text>
+
+  <!-- Arrows from the two parents (3,3 at y176) down to the child (6 at y209) -->
+  <line x1="196" y1="182" x2="205" y2="197" stroke="#c0392b" stroke-width="1.5" marker-end="url(#ah)"/>
+  <line x1="224" y1="182" x2="215" y2="197" stroke="#c0392b" stroke-width="1.5" marker-end="url(#ah)"/>
+
+  <defs>
+    <marker id="ah" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#c0392b"/>
+    </marker>
+  </defs>
+
+  <!-- Pascal's rule caption -->
+  <text x="210" y="286" text-anchor="middle" font-size="13" fill="#333333">3 + 3 = 6</text>
+</svg>

@@ -1,0 +1,42 @@
+<svg viewBox="0 0 620 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">On a T&#8211;S diagram the heat of a reversible path is the area beneath it: q_rev = &#8747;T dS.</text>
+
+  <!-- axes -->
+  <line x1="70" y1="255" x2="565" y2="255" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="565,255 555,250 555,260" fill="#8a8a8a"/>
+  <text x="556" y="278" fill="#8a8a8a">S</text>
+  <line x1="70" y1="255" x2="70" y2="60" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,60 65,70 75,70" fill="#8a8a8a"/>
+  <text x="52" y="70" fill="#8a8a8a">T</text>
+
+  <!-- shaded heat area under the reversible path -->
+  <path d="M 175 255 L 175 200 C 285 182 360 132 465 112 L 465 255 Z"
+        fill="#e0645c" opacity="0.20"/>
+
+  <!-- the reversible path (state 1 -> state 2) -->
+  <path d="M 175 200 C 285 182 360 132 465 112"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- endpoint dots + state labels -->
+  <circle cx="175" cy="200" r="4" fill="#4a90d9"/>
+  <circle cx="465" cy="112" r="4" fill="#4a90d9"/>
+  <text x="150" y="192" fill="#4a90d9">1</text>
+  <text x="472" y="108" fill="#4a90d9">2</text>
+  <text x="300" y="150" fill="#4a90d9">reversible path</text>
+
+  <!-- heat-area label -->
+  <text x="238" y="235" fill="#e0645c">q&#8202;=&#8202;&#8747;T dS</text>
+
+  <!-- dashed drops to S axis -->
+  <line x1="175" y1="200" x2="175" y2="255" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="465" y1="112" x2="465" y2="255" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="168" y="273" fill="#8a8a8a">S&#8321;</text>
+  <text x="458" y="273" fill="#8a8a8a">S&#8322;</text>
+
+  <!-- delta-S bracket -->
+  <line x1="175" y1="292" x2="465" y2="292" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="175,292 184,288 184,296" fill="#e0645c"/>
+  <polygon points="465,292 456,288 456,296" fill="#e0645c"/>
+  <text x="303" y="310" fill="#e0645c">&#916;S &gt; 0</text>
+</svg>

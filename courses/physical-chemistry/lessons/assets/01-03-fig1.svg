@@ -1,0 +1,47 @@
+<svg viewBox="0 0 780 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="70" y="26" fill="#8a8a8a" font-style="italic">&#916;G = &#916;H &#8722; T&#916;S is a straight line in T: intercept &#916;H, slope &#8722;&#916;S. Where it crosses &#916;G=0, spontaneity flips. (sign of &#916;H, sign of &#916;S)</text>
+
+  <!-- ===== axes ===== -->
+  <!-- vertical axis: delta G -->
+  <line x1="70" y1="330" x2="70" y2="52" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,52 65,62 75,62" fill="#8a8a8a"/>
+  <text x="44" y="56" fill="#8a8a8a">&#916;G</text>
+  <!-- horizontal zero line = T axis (delta G = 0) -->
+  <line x1="70" y1="190" x2="600" y2="190" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="600,190 590,185 590,195" fill="#8a8a8a"/>
+  <text x="605" y="195" fill="#8a8a8a">T</text>
+  <text x="34" y="194" fill="#8a8a8a">0</text>
+
+  <!-- region labels -->
+  <text x="92" y="100" fill="#8a8a8a">non-spontaneous &#183; &#916;G &gt; 0</text>
+  <text x="92" y="352" fill="#8a8a8a">spontaneous &#183; &#916;G &lt; 0</text>
+
+  <!-- ===== the four lines ===== -->
+  <!-- grey: always spontaneous (deltaH<0, deltaS>0) -->
+  <line x1="70" y1="235" x2="540" y2="315" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="548" y="318" fill="#8a8a8a">(&#8722;,+) &#8594; always</text>
+
+  <!-- grey: never spontaneous (deltaH>0, deltaS<0) -->
+  <line x1="70" y1="150" x2="540" y2="72" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="548" y="75" fill="#8a8a8a">(+,&#8722;) &#8594; never</text>
+
+  <!-- blue: spontaneous at high T (deltaH>0, deltaS>0) -->
+  <line x1="70" y1="120" x2="540" y2="280" stroke="#4a90d9" stroke-width="3"/>
+  <text x="548" y="283" fill="#4a90d9">(+,+) &#8594; spontaneous at high T</text>
+
+  <!-- coral: spontaneous at low T (deltaH<0, deltaS<0) -->
+  <line x1="70" y1="300" x2="540" y2="120" stroke="#e0645c" stroke-width="3"/>
+  <text x="548" y="123" fill="#e0645c">(&#8722;,&#8722;) &#8594; spontaneous at low T</text>
+
+  <!-- ===== crossover markers ===== -->
+  <!-- blue crossover -->
+  <circle cx="276" cy="190" r="4.5" fill="#4a90d9"/>
+  <line x1="276" y1="190" x2="276" y2="214" stroke="#4a90d9" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="230" y="228" fill="#4a90d9">T = &#916;H/&#916;S</text>
+
+  <!-- coral crossover -->
+  <circle cx="357" cy="190" r="4.5" fill="#e0645c"/>
+  <line x1="357" y1="166" x2="357" y2="190" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="333" y="160" fill="#e0645c">T = &#916;H/&#916;S</text>
+</svg>

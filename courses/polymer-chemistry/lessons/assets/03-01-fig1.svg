@@ -1,0 +1,44 @@
+<svg viewBox="0 0 620 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Specific volume kinks at Tg; cool faster and the glass freezes earlier &#8212; higher Tg, more trapped free volume.</text>
+
+  <!-- axes -->
+  <line x1="70" y1="320" x2="585" y2="320" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="585,320 575,315 575,325" fill="#8a8a8a"/>
+  <text x="512" y="342" fill="#8a8a8a">temperature T</text>
+  <line x1="70" y1="320" x2="70" y2="56" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,56 65,66 75,66" fill="#8a8a8a"/>
+  <text x="84" y="62" fill="#8a8a8a">specific volume v</text>
+
+  <!-- equilibrium liquid extension (dashed, "if it stayed liquid") -->
+  <path d="M 300 230 L 190 285" fill="none" stroke="#8a8a8a" stroke-width="1.2" stroke-dasharray="3 4"/>
+
+  <!-- shared rubbery / liquid line (steep) -->
+  <path d="M 540 110 L 300 230" fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- slow-cool glassy branch (shallow) -->
+  <path d="M 300 230 L 140 262" fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- fast-cool branch: kink at higher T, glassy line sits above -->
+  <path d="M 360 200 L 140 244" fill="none" stroke="#e0645c" stroke-width="3"/>
+
+  <!-- kink markers -->
+  <circle cx="300" cy="230" r="4" fill="#4a90d9"/>
+  <circle cx="360" cy="200" r="4" fill="#e0645c"/>
+
+  <!-- Tg dashed drop lines -->
+  <line x1="300" y1="230" x2="300" y2="320" stroke="#4a90d9" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="360" y1="200" x2="360" y2="320" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="250" y="338" fill="#4a90d9">Tg (slow)</text>
+  <text x="360" y="338" fill="#e0645c">Tg (fast)</text>
+
+  <!-- region labels -->
+  <text x="150" y="150" fill="#8a8a8a">glassy</text>
+  <text x="150" y="168" fill="#8a8a8a">(frozen)</text>
+  <text x="470" y="205" fill="#8a8a8a">rubbery /</text>
+  <text x="470" y="223" fill="#8a8a8a">liquid</text>
+
+  <!-- slope hint arrows -->
+  <text x="330" y="290" fill="#8a8a8a">steep slope = big expansion</text>
+  <text x="96" y="238" fill="#8a8a8a">shallow</text>
+</svg>

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="680" height="380" fill="#ffffff"/>
+
+<!-- ===== Panel A: sliding overlap ===== -->
+<text x="40" y="36" font-size="14" fill="#111111" font-weight="bold">Slide one box past the other; shade the overlap.</text>
+
+<!-- baseline axis -->
+<line x1="100" y1="150" x2="600" y2="150" stroke="#111111" stroke-width="1"/>
+<text x="596" y="170" font-size="12" fill="#111111">y</text>
+<!-- ticks -->
+<line x1="240" y1="146" x2="240" y2="154" stroke="#111111" stroke-width="1"/>
+<text x="228" y="168" font-size="11" fill="#111111">-½</text>
+<line x1="360" y1="146" x2="360" y2="154" stroke="#111111" stroke-width="1"/>
+<text x="356" y="168" font-size="11" fill="#111111">0</text>
+<line x1="480" y1="146" x2="480" y2="154" stroke="#111111" stroke-width="1"/>
+<text x="472" y="168" font-size="11" fill="#111111">½</text>
+
+<!-- fixed box g: on [-1/2,1/2] -> px [240,480], height 70 -->
+<rect x="240" y="80" width="240" height="70" fill="#2a7ae2" fill-opacity="0.10" stroke="#2a7ae2" stroke-width="2"/>
+<text x="248" y="98" font-size="12" fill="#2a7ae2">g(y)</text>
+
+<!-- sliding box f centered at x=0.5 -> on [0,1] -> px [360,600], dashed -->
+<rect x="360" y="80" width="240" height="70" fill="#d6431f" fill-opacity="0.08" stroke="#d6431f" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="512" y="98" font-size="12" fill="#d6431f">f(x−y),  x=½</text>
+
+<!-- overlap [0,1/2] -> px [360,480] -->
+<rect x="360" y="80" width="120" height="70" fill="#12a150" fill-opacity="0.35" stroke="none"/>
+<text x="366" y="132" font-size="11" fill="#0c6b36">overlap</text>
+
+<!-- slide arrow -->
+<line x1="500" y1="66" x2="560" y2="66" stroke="#d6431f" stroke-width="1.5"/>
+<polygon points="560,66 552,62 552,70" fill="#d6431f"/>
+<text x="500" y="60" font-size="11" fill="#d6431f">slide</text>
+
+<!-- ===== Panel B: resulting triangle ===== -->
+<text x="40" y="238" font-size="14" fill="#111111" font-weight="bold">The overlap area, plotted vs. shift x, is a triangle.</text>
+
+<!-- axis -->
+<line x1="100" y1="340" x2="600" y2="340" stroke="#111111" stroke-width="1"/>
+<text x="596" y="358" font-size="12" fill="#111111">x</text>
+<line x1="120" y1="260" x2="120" y2="345" stroke="#111111" stroke-width="1"/>
+<text x="128" y="270" font-size="12" fill="#111111">(f*g)(x)</text>
+
+<!-- x ticks: -1 ->240, 0 ->360, 1 ->480, 1/2 ->420 -->
+<line x1="240" y1="336" x2="240" y2="344" stroke="#111111" stroke-width="1"/>
+<text x="232" y="358" font-size="11" fill="#111111">-1</text>
+<line x1="360" y1="336" x2="360" y2="344" stroke="#111111" stroke-width="1"/>
+<text x="356" y="358" font-size="11" fill="#111111">0</text>
+<line x1="480" y1="336" x2="480" y2="344" stroke="#111111" stroke-width="1"/>
+<text x="476" y="358" font-size="11" fill="#111111">1</text>
+<!-- height tick at apex (value 1) -->
+<line x1="116" y1="270" x2="124" y2="270" stroke="#111111" stroke-width="1"/>
+<text x="104" y="274" font-size="11" fill="#111111">1</text>
+
+<!-- triangle 1-|x| on [-1,1]: apex (0,1)->(360,270); base 240 & 480 at y=340 -->
+<polyline points="240,340 360,270 480,340" fill="none" stroke="#111111" stroke-width="2.4"/>
+
+<!-- value at x=1/2 is 1/2: px 420, height 35 -> y = 340-35 = 305 -->
+<line x1="420" y1="340" x2="420" y2="305" stroke="#12a150" stroke-width="1.6" stroke-dasharray="5 3"/>
+<circle cx="420" cy="305" r="4" fill="#12a150"/>
+<text x="428" y="302" font-size="11" fill="#0c6b36">= overlap area at x=½</text>
+</svg>

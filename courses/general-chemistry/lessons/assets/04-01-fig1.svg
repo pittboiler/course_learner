@@ -1,0 +1,75 @@
+<svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <defs>
+    <linearGradient id="phbar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0"    stop-color="#4a90d9"/>
+      <stop offset="0.5"  stop-color="#8a8a8a"/>
+      <stop offset="1"    stop-color="#e0645c"/>
+    </linearGradient>
+  </defs>
+
+  <!-- caption -->
+  <text x="60" y="22" fill="#8a8a8a" font-style="italic">The pH scale runs 0&#8211;14; each unit is a ten-fold change in [H&#8314;], acidic (blue) to basic (coral).</text>
+
+  <!-- ===== substances above the bar, staggered in two rows ===== -->
+  <!-- upper row (label y=52, connector 58 -> 148) -->
+  <g fill="#8a8a8a">
+    <text x="145" y="52" text-anchor="middle">lemon juice</text>
+    <text x="246" y="52" text-anchor="middle">coffee</text>
+    <text x="335" y="52" text-anchor="middle">blood</text>
+    <text x="469" y="52" text-anchor="middle">ammonia</text>
+  </g>
+  <g stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 3">
+    <line x1="145" y1="58" x2="145" y2="148"/>
+    <line x1="246" y1="58" x2="246" y2="148"/>
+    <line x1="335" y1="58" x2="335" y2="148"/>
+    <line x1="469" y1="58" x2="469" y2="148"/>
+  </g>
+  <!-- lower row (label y=92, connector 98 -> 148) -->
+  <g fill="#8a8a8a">
+    <text x="116" y="92" text-anchor="middle">stomach acid</text>
+    <text x="171" y="112" text-anchor="middle">vinegar</text>
+    <text x="320" y="92" text-anchor="middle">pure water</text>
+    <text x="394" y="92" text-anchor="middle">baking soda</text>
+    <text x="543" y="92" text-anchor="middle">bleach</text>
+  </g>
+  <g stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 3">
+    <line x1="116" y1="98"  x2="116" y2="148"/>
+    <line x1="171" y1="118" x2="171" y2="148"/>
+    <line x1="320" y1="98"  x2="320" y2="148"/>
+    <line x1="394" y1="98"  x2="394" y2="148"/>
+    <line x1="543" y1="98"  x2="543" y2="148"/>
+  </g>
+
+  <!-- ===== the pH bar ===== -->
+  <rect x="60" y="148" width="520" height="34" fill="url(#phbar)" opacity="0.85" stroke="#8a8a8a" stroke-width="1"/>
+  <!-- neutral marker at pH 7 (x=320) -->
+  <line x1="320" y1="144" x2="320" y2="186" stroke="#8a8a8a" stroke-width="2"/>
+
+  <!-- integer ticks + pH numbers -->
+  <g fill="#8a8a8a" text-anchor="middle">
+    <text x="60"  y="205">0</text>
+    <text x="97"  y="205">1</text>
+    <text x="134" y="205">2</text>
+    <text x="171" y="205">3</text>
+    <text x="209" y="205">4</text>
+    <text x="246" y="205">5</text>
+    <text x="283" y="205">6</text>
+    <text x="320" y="205">7</text>
+    <text x="357" y="205">8</text>
+    <text x="394" y="205">9</text>
+    <text x="431" y="205">10</text>
+    <text x="469" y="205">11</text>
+    <text x="506" y="205">12</text>
+    <text x="543" y="205">13</text>
+    <text x="580" y="205">14</text>
+  </g>
+  <text x="320" y="223" fill="#8a8a8a" text-anchor="middle" font-style="italic">pH</text>
+
+  <!-- region labels -->
+  <text x="150" y="245" fill="#4a90d9" text-anchor="middle" font-weight="bold">ACIDIC &#160;[H&#8314;] &gt; [OH&#8315;]</text>
+  <text x="320" y="245" fill="#8a8a8a" text-anchor="middle" font-weight="bold">NEUTRAL</text>
+  <text x="490" y="245" fill="#e0645c" text-anchor="middle" font-weight="bold">BASIC &#160;[OH&#8315;] &gt; [H&#8314;]</text>
+
+  <!-- [H+] <-> pH log anchors -->
+  <text x="320" y="278" fill="#8a8a8a" text-anchor="middle">[H&#8314;] = 10&#8315;&#7510;&#7431; mol/L : &#160; pH 0 &#8594; 1 M &#160;&#183;&#160; pH 7 &#8594; 10&#8315;&#8311; M &#160;&#183;&#160; pH 14 &#8594; 10&#8315;&#185;&#8308; M</text>
+</svg>

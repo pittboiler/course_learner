@@ -1,0 +1,81 @@
+<svg viewBox="0 0 660 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Ligand charges push hardest on d orbitals aimed at them: e&#8331; up, t&#8322;&#8331; down, split by &#916;&#8331;.</text>
+
+  <!-- ===== left: octahedral splitting diagram ===== -->
+
+  <!-- energy axis -->
+  <line x1="60" y1="308" x2="60" y2="98" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="60,98 55,108 65,108" fill="#8a8a8a"/>
+  <text x="46" y="104" fill="#8a8a8a">E</text>
+
+  <!-- free-ion degenerate level -->
+  <line x1="90" y1="200" x2="132" y2="200" stroke="#8a8a8a" stroke-width="3"/>
+  <text x="82" y="222" fill="#8a8a8a" font-size="12">d (&#215;5)</text>
+
+  <!-- barycenter (dashed) -->
+  <line x1="132" y1="200" x2="315" y2="200" stroke="#8a8a8a" stroke-width="1.2" stroke-dasharray="4 4"/>
+  <text x="196" y="194" fill="#8a8a8a" font-size="12">barycenter</text>
+
+  <!-- connectors from barycenter to the split sets -->
+  <line x1="140" y1="200" x2="168" y2="145" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 4"/>
+  <line x1="140" y1="200" x2="158" y2="255" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 4"/>
+
+  <!-- eg set: two coral levels (raised) -->
+  <line x1="150" y1="145" x2="186" y2="145" stroke="#e0645c" stroke-width="3"/>
+  <line x1="194" y1="145" x2="230" y2="145" stroke="#e0645c" stroke-width="3"/>
+  <text x="240" y="141" fill="#e0645c">e&#8331;</text>
+  <text x="240" y="158" fill="#8a8a8a" font-size="12">+0.6 &#916;&#8331;</text>
+
+  <!-- t2g set: three blue levels (lowered) -->
+  <line x1="140" y1="255" x2="172" y2="255" stroke="#4a90d9" stroke-width="3"/>
+  <line x1="178" y1="255" x2="210" y2="255" stroke="#4a90d9" stroke-width="3"/>
+  <line x1="216" y1="255" x2="248" y2="255" stroke="#4a90d9" stroke-width="3"/>
+  <text x="256" y="251" fill="#4a90d9">t&#8322;&#8331;</text>
+  <text x="256" y="268" fill="#8a8a8a" font-size="12">&#8722;0.4 &#916;&#8331;</text>
+
+  <!-- Delta_o double arrow -->
+  <line x1="300" y1="150" x2="300" y2="250" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="300,145 296,155 304,155" fill="#e0645c"/>
+  <polygon points="300,255 296,245 304,245" fill="#e0645c"/>
+  <text x="308" y="205" fill="#e0645c">&#916;&#8331;</text>
+
+  <!-- orbital-set legends under diagram -->
+  <text x="70" y="336" fill="#4a90d9" font-size="12">t&#8322;&#8331; = d&#8339;&#8337;, d&#8339;&#8382;, d&#8337;&#8382;  (between axes)</text>
+  <text x="70" y="356" fill="#e0645c" font-size="12">e&#8331; = d&#8382;&#178;, d&#8339;&#178;&#8722;&#8337;&#178;  (along axes)</text>
+
+  <!-- divider -->
+  <line x1="392" y1="70" x2="392" y2="360" stroke="#8a8a8a" stroke-width="0.75" stroke-dasharray="2 6"/>
+
+  <!-- ===== right: inset, d(x2-y2) lobes aimed at ligands ===== -->
+  <text x="410" y="94" fill="#8a8a8a" font-size="12">octahedral field: ligands on the axes</text>
+
+  <!-- metal center -->
+  <circle cx="525" cy="205" r="6" fill="#8a8a8a"/>
+  <text x="533" y="200" fill="#8a8a8a" font-size="12">M</text>
+
+  <!-- d(x2-y2) lobes: four coral lobes pointing at the four cardinal ligands -->
+  <ellipse cx="525" cy="163" rx="13" ry="30" fill="#e0645c" opacity="0.30" stroke="#e0645c" stroke-width="1.5"/>
+  <ellipse cx="525" cy="247" rx="13" ry="30" fill="#e0645c" opacity="0.30" stroke="#e0645c" stroke-width="1.5"/>
+  <ellipse cx="483" cy="205" rx="30" ry="13" fill="#e0645c" opacity="0.30" stroke="#e0645c" stroke-width="1.5"/>
+  <ellipse cx="567" cy="205" rx="30" ry="13" fill="#e0645c" opacity="0.30" stroke="#e0645c" stroke-width="1.5"/>
+
+  <!-- six ligand point charges (grey, minus) -->
+  <circle cx="525" cy="120" r="10" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="521" y="125" fill="#8a8a8a" font-size="13">&#8722;</text>
+  <circle cx="525" cy="290" r="10" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="521" y="295" fill="#8a8a8a" font-size="13">&#8722;</text>
+  <circle cx="442" cy="205" r="10" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="438" y="210" fill="#8a8a8a" font-size="13">&#8722;</text>
+  <circle cx="608" cy="205" r="10" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="604" y="210" fill="#8a8a8a" font-size="13">&#8722;</text>
+  <!-- two perspective (front/back) ligands, faint -->
+  <circle cx="578" cy="163" r="9" fill="none" stroke="#8a8a8a" stroke-width="1.2" opacity="0.7"/>
+  <text x="574" y="168" fill="#8a8a8a" font-size="12" opacity="0.7">&#8722;</text>
+  <circle cx="472" cy="247" r="9" fill="none" stroke="#8a8a8a" stroke-width="1.2" opacity="0.7"/>
+  <text x="468" y="252" fill="#8a8a8a" font-size="12" opacity="0.7">&#8722;</text>
+
+  <!-- inset caption -->
+  <text x="410" y="336" fill="#e0645c" font-size="12">d&#8339;&#178;&#8722;&#8337;&#178; (an e&#8331; orbital) points straight at 4 charges</text>
+  <text x="410" y="354" fill="#8a8a8a" font-size="12">&#8594; strong repulsion &#8594; raised in energy.</text>
+</svg>

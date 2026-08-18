@@ -1,0 +1,44 @@
+<svg viewBox="0 0 560 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Ion-acoustic dispersion: a straight sound line ω = k c_s that bends over to the ion plasma frequency ω_pi.</text>
+
+  <!-- axes -->
+  <line x1="70" y1="300" x2="535" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="535,300 525,295 525,305" fill="#8a8a8a"/>
+  <line x1="70" y1="300" x2="70" y2="48" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,48 65,58 75,58" fill="#8a8a8a"/>
+  <text x="500" y="320" fill="#8a8a8a">k λ_D</text>
+  <text x="52" y="58" fill="#8a8a8a">ω</text>
+  <text x="58" y="305" fill="#8a8a8a">0</text>
+
+  <!-- x ticks -->
+  <line x1="182.5" y1="300" x2="182.5" y2="306" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="178" y="320" fill="#8a8a8a">1</text>
+  <line x1="295" y1="300" x2="295" y2="306" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="291" y="320" fill="#8a8a8a">2</text>
+  <line x1="407.5" y1="300" x2="407.5" y2="306" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="403" y="320" fill="#8a8a8a">3</text>
+
+  <!-- ion plasma frequency asymptote -->
+  <line x1="70" y1="100" x2="535" y2="100" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="360" y="94" fill="#8a8a8a">ω → ω_pi  (ion plasma freq.)</text>
+
+  <!-- tangent: slope c_s -->
+  <line x1="70" y1="300" x2="200" y2="69" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="196" y="64" fill="#8a8a8a">slope c_s</text>
+
+  <!-- faint Langmuir branch, far above / off scale -->
+  <line x1="70" y1="52" x2="535" y2="52" stroke="#4a90d9" stroke-width="1.5" stroke-dasharray="2 5" opacity="0.5"/>
+  <text x="150" y="45" fill="#4a90d9" opacity="0.7" font-style="italic">Langmuir branch: ω ≈ ω_p ≈ 43 ω_pi  (off scale ↑)</text>
+
+  <!-- ion-acoustic branch: blue linear part (kλ_D = 0 .. 1) -->
+  <path d="M 70 300 L 98.1 251.5 L 126.25 210.6 L 154.4 180 L 182.5 158.6"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <!-- ion-acoustic branch: coral bent-over part (kλ_D = 1 .. 4) -->
+  <path d="M 182.5 158.6 L 210.6 143.8 L 238.75 133.6 L 295 121.1 L 351.25 114.3 L 407.5 110.3 L 463.75 107.7 L 520 106"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+
+  <!-- labels on the branch -->
+  <text x="104" y="288" fill="#4a90d9">ω ≈ k c_s  (sound-like)</text>
+  <text x="300" y="150" fill="#e0645c">bends over →</text>
+</svg>

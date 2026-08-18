@@ -1,0 +1,62 @@
+<svg viewBox="0 0 660 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="24" y="22" fill="#8a8a8a" font-style="italic">Add the normal stresses, add the shear stresses at the critical point &#8212; then transform.</text>
+
+  <text x="30" y="52" fill="#8a8a8a">Shaft surface: bending &#963; + torsion &#964;</text>
+
+  <rect x="50" y="80" width="200" height="30" rx="15" fill="#8a8a8a" opacity="0.12" stroke="#8a8a8a" stroke-width="1.5"/>
+  <path d="M78,74 Q98,60 118,74" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="118,74 110,70 114,78" fill="#8a8a8a"/>
+  <text x="92" y="54" fill="#8a8a8a">M</text>
+  <path d="M188,74 Q208,60 228,74" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="228,74 220,70 224,78" fill="#8a8a8a"/>
+  <text x="202" y="54" fill="#8a8a8a">T</text>
+
+  <circle cx="150" cy="80" r="3.5" fill="#e0645c"/>
+  <line x1="150" y1="83" x2="150" y2="182" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="156" y="132" fill="#e0645c">top fiber</text>
+
+  <rect x="108" y="193" width="84" height="84" fill="#8a8a8a" opacity="0.08" stroke="#8a8a8a" stroke-width="2"/>
+
+  <line x1="192" y1="235" x2="216" y2="235" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="222,235 214,231 214,239" fill="#4a90d9"/>
+  <line x1="108" y1="235" x2="84" y2="235" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="78,235 86,231 86,239" fill="#4a90d9"/>
+  <text x="226" y="240" fill="#4a90d9">&#963;</text>
+
+  <line x1="201" y1="258" x2="201" y2="214" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="201,208 197,216 205,216" fill="#e0645c"/>
+  <line x1="99" y1="212" x2="99" y2="256" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="99,262 95,254 103,254" fill="#e0645c"/>
+  <line x1="112" y1="184" x2="184" y2="184" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="190,184 182,180 182,188" fill="#e0645c"/>
+  <line x1="188" y1="286" x2="116" y2="286" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="110,286 118,282 118,290" fill="#e0645c"/>
+  <text x="206" y="206" fill="#e0645c">&#964;</text>
+
+  <text x="150" y="312" fill="#8a8a8a" text-anchor="middle">&#963; = Mc/I,  &#964; = Tc/J</text>
+  <text x="150" y="330" fill="#8a8a8a" text-anchor="middle">element (&#963;, 0, &#964;)</text>
+
+  <line x1="330" y1="70" x2="330" y2="330" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 5"/>
+
+  <text x="392" y="52" fill="#8a8a8a">Pressure-vessel wall (biaxial)</text>
+
+  <rect x="400" y="80" width="180" height="30" rx="15" fill="#8a8a8a" opacity="0.12" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="432" y1="90" x2="528" y2="90" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="5 3"/>
+  <text x="490" y="132" fill="#8a8a8a" text-anchor="middle">splits lengthwise (hoop governs)</text>
+
+  <rect x="455" y="170" width="90" height="90" fill="#8a8a8a" opacity="0.08" stroke="#8a8a8a" stroke-width="2"/>
+
+  <line x1="545" y1="215" x2="588" y2="215" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="594,215 586,211 586,219" fill="#4a90d9"/>
+  <line x1="455" y1="215" x2="412" y2="215" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="406,215 414,211 414,219" fill="#4a90d9"/>
+
+  <line x1="500" y1="170" x2="500" y2="150" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="500,144 496,152 504,152" fill="#e0645c"/>
+  <line x1="500" y1="260" x2="500" y2="280" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="500,286 496,278 504,278" fill="#e0645c"/>
+
+  <text x="500" y="304" fill="#4a90d9" text-anchor="middle">&#963;&#952; = pr/t (hoop)</text>
+  <text x="500" y="322" fill="#e0645c" text-anchor="middle">&#963;z = pr/2t (long.)</text>
+  <text x="500" y="340" fill="#8a8a8a" text-anchor="middle">&#963;&#952; = 2&#963;z</text>
+</svg>

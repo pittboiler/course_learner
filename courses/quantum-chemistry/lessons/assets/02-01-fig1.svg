@@ -1,0 +1,79 @@
+<svg viewBox="0 0 660 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="24" y="22" fill="#8a8a8a" font-style="italic">The Slater determinant makes antisymmetry automatic; that antisymmetry alone digs a Fermi hole around every electron.</text>
+
+  <!-- ============ PANEL A: Slater determinant ============ -->
+
+  <!-- prefactor psi = 1/sqrt(2) -->
+  <text x="24" y="150" fill="#4a90d9">&#936;(x&#8321;,x&#8322;) =</text>
+  <text x="120" y="142" fill="#4a90d9" text-anchor="middle">1</text>
+  <line x1="108" y1="150" x2="132" y2="150" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="120" y="170" fill="#4a90d9" text-anchor="middle">&#8730;2</text>
+
+  <!-- determinant brackets -->
+  <path d="M 200 106 L 192 106 L 192 194 L 200 194" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <path d="M 320 106 L 328 106 L 328 194 L 320 194" fill="none" stroke="#4a90d9" stroke-width="2"/>
+
+  <!-- column header: spin-orbitals -->
+  <text x="260" y="82" fill="#8a8a8a" text-anchor="middle" font-size="12" font-style="italic">columns = spin-orbitals</text>
+  <text x="234" y="98" fill="#8a8a8a" text-anchor="middle" font-size="12">&#967;&#8321;</text>
+  <text x="292" y="98" fill="#8a8a8a" text-anchor="middle" font-size="12">&#967;&#8322;</text>
+
+  <!-- row label: electrons -->
+  <text x="182" y="150" fill="#8a8a8a" text-anchor="middle" font-size="12" font-style="italic" transform="rotate(-90 182 150)">rows = electrons</text>
+
+  <!-- matrix entries -->
+  <text x="234" y="140" fill="#4a90d9" text-anchor="middle">&#967;&#8321;(x&#8321;)</text>
+  <text x="292" y="140" fill="#4a90d9" text-anchor="middle">&#967;&#8322;(x&#8321;)</text>
+  <text x="234" y="180" fill="#4a90d9" text-anchor="middle">&#967;&#8321;(x&#8322;)</text>
+  <text x="292" y="180" fill="#4a90d9" text-anchor="middle">&#967;&#8322;(x&#8322;)</text>
+
+  <!-- coral swap arrow linking the two rows -->
+  <path d="M 344 140 C 366 152 366 168 344 180" fill="none" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="344,140 350,144 340,148" fill="#e0645c"/>
+  <polygon points="344,180 350,176 340,172" fill="#e0645c"/>
+
+  <!-- annotations -->
+  <text x="24" y="232" fill="#e0645c" font-size="13">swap electrons = swap two rows  &#8658;  &#936; &#8594; &#8722;&#936;   (antisymmetric)</text>
+  <text x="24" y="256" fill="#8a8a8a" font-size="13">same spin-orbital = two equal columns  &#8658;  det = 0   <tspan fill="#e0645c">(Pauli)</tspan></text>
+
+  <!-- divider -->
+  <line x1="372" y1="40" x2="372" y2="310" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 5"/>
+
+  <!-- ============ PANEL B: Fermi hole ============ -->
+
+  <text x="516" y="58" fill="#8a8a8a" text-anchor="middle" font-size="12" font-style="italic">same spin (&#8593;&#8593;)</text>
+
+  <!-- the hole: dashed coral circle around the reference electron -->
+  <circle cx="516" cy="132" r="52" fill="#e0645c" fill-opacity="0.12" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="5 4"/>
+
+  <!-- reference electron -->
+  <circle cx="516" cy="132" r="8" fill="#e0645c" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="516" y="112" fill="#e0645c" text-anchor="middle" font-size="12">reference e&#8315; &#8593;</text>
+
+  <!-- same-spin electrons, all pushed OUTSIDE the hole -->
+  <circle cx="432" cy="86" r="6" fill="#4a90d9"/>
+  <circle cx="602" cy="92" r="6" fill="#4a90d9"/>
+  <circle cx="612" cy="176" r="6" fill="#4a90d9"/>
+  <circle cx="444" cy="188" r="6" fill="#4a90d9"/>
+  <circle cx="540" cy="196" r="6" fill="#4a90d9"/>
+  <circle cx="452" cy="120" r="6" fill="#4a90d9"/>
+
+  <text x="516" y="212" fill="#e0645c" text-anchor="middle" font-size="12">Fermi hole: &#8593; density excluded</text>
+
+  <!-- pair-correlation dip g(r) -->
+  <line x1="404" y1="312" x2="646" y2="312" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="646,312 638,308 638,316" fill="#8a8a8a"/>
+  <text x="640" y="330" fill="#8a8a8a" font-size="12">r&#8321;&#8322;</text>
+  <line x1="404" y1="312" x2="404" y2="244" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="404,244 400,252 408,252" fill="#8a8a8a"/>
+  <text x="392" y="256" fill="#8a8a8a" font-size="12" text-anchor="end">g&#8593;&#8593;</text>
+
+  <!-- plateau at 1 -->
+  <line x1="404" y1="258" x2="646" y2="258" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="398" y="262" fill="#8a8a8a" font-size="11" text-anchor="end">1</text>
+
+  <!-- g(r) curve: 0 at contact, rising to 1 -->
+  <path d="M 404 312 C 452 312 476 268 528 262 C 572 258 610 258 646 258" fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="420" y="300" fill="#e0645c" font-size="11">g &#8594; 0 as r&#8321;&#8322; &#8594; 0</text>
+</svg>

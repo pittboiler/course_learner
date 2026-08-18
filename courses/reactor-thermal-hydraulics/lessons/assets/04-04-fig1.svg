@@ -1,0 +1,44 @@
+<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="26" fill="#8a8a8a" font-style="italic">Close the loop: a power rise heats the fuel, negative feedback bleeds reactivity, and power settles &#8212; no operator needed.</text>
+
+  <!-- ===== boxes ===== -->
+  <!-- Power -->
+  <rect x="70" y="52" width="170" height="64" rx="6" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <text x="155" y="80" fill="#4a90d9" text-anchor="middle" font-weight="bold">Power P</text>
+  <text x="155" y="100" fill="#8a8a8a" text-anchor="middle" font-size="12">fission rate</text>
+
+  <!-- Temperature -->
+  <rect x="400" y="52" width="180" height="64" rx="6" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <text x="490" y="80" fill="#4a90d9" text-anchor="middle" font-weight="bold">Fuel &amp; coolant temp T</text>
+  <text x="490" y="100" fill="#8a8a8a" text-anchor="middle" font-size="12">Modules 1&#8211;2</text>
+
+  <!-- Reactivity -->
+  <rect x="400" y="252" width="180" height="64" rx="6" fill="#e0645c" opacity="0.15" stroke="#e0645c" stroke-width="2"/>
+  <text x="490" y="280" fill="#e0645c" text-anchor="middle" font-weight="bold">Reactivity &#961;</text>
+  <text x="490" y="300" fill="#8a8a8a" text-anchor="middle" font-size="12">feedback + control</text>
+
+  <!-- ===== arrows ===== -->
+  <!-- Power -> Temp -->
+  <line x1="240" y1="84" x2="392" y2="84" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="400,84 390,79 390,89" fill="#8a8a8a"/>
+  <text x="316" y="46" fill="#8a8a8a" text-anchor="middle" font-size="12">heats it up</text>
+
+  <!-- Temp -> Reactivity -->
+  <line x1="490" y1="116" x2="490" y2="244" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="490,252 485,242 495,242" fill="#e0645c"/>
+  <text x="500" y="176" fill="#e0645c" font-size="12">&#945;tot &lt; 0</text>
+  <text x="500" y="194" fill="#8a8a8a" font-size="12">Doppler +</text>
+  <text x="500" y="210" fill="#8a8a8a" font-size="12">moderator (4.3)</text>
+
+  <!-- Reactivity -> Power (L-shaped return) -->
+  <polyline points="400,284 155,284 155,124" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="155,116 150,126 160,126" fill="#8a8a8a"/>
+  <text x="300" y="304" fill="#8a8a8a" text-anchor="middle" font-size="12">point kinetics &#8212; delayed neutrons set the pace</text>
+
+  <!-- ===== central sign ===== -->
+  <circle cx="300" cy="180" r="26" fill="#e0645c" opacity="0.12" stroke="#e0645c" stroke-width="2"/>
+  <text x="300" y="188" fill="#e0645c" text-anchor="middle" font-size="30" font-weight="bold">&#8722;</text>
+  <text x="300" y="238" fill="#8a8a8a" text-anchor="middle" font-size="12">net-negative loop</text>
+  <text x="300" y="254" fill="#8a8a8a" text-anchor="middle" font-size="12">&#8594; self-regulating</text>
+</svg>

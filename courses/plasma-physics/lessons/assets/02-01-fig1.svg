@@ -1,0 +1,44 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Every fluid quantity is a moment of f(v): area = n, centroid = u, width = thermal spread &#8733; &#8730;T.</text>
+
+  <!-- axes -->
+  <line x1="70" y1="270" x2="600" y2="270" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="600,270 590,265 590,275" fill="#8a8a8a"/>
+  <text x="596" y="290" fill="#8a8a8a">v</text>
+  <line x1="70" y1="285" x2="70" y2="55" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,55 65,65 75,65" fill="#8a8a8a"/>
+  <text x="44" y="60" fill="#8a8a8a">f(v)</text>
+
+  <!-- shaded area under Maxwellian = n -->
+  <path d="M 90 270 L 90 266.8 L 110 263.0 L 130 256.1 L 150 244.3 L 170 226.3 L 190 201.5 L 210 171.1 L 230 138.4 L 250 108.6 L 270 87.6 L 290 80.0 L 310 87.6 L 330 108.6 L 350 138.4 L 370 171.1 L 390 201.5 L 410 226.3 L 430 244.3 L 450 256.1 L 470 263.0 L 490 266.8 L 510 268.6 L 510 270 Z"
+        fill="#4a90d9" opacity="0.15"/>
+
+  <!-- Maxwellian curve (blue) -->
+  <path d="M 90 266.8 L 110 263.0 L 130 256.1 L 150 244.3 L 170 226.3 L 190 201.5 L 210 171.1 L 230 138.4 L 250 108.6 L 270 87.6 L 290 80.0 L 310 87.6 L 330 108.6 L 350 138.4 L 370 171.1 L 390 201.5 L 410 226.3 L 430 244.3 L 450 256.1 L 470 263.0 L 490 266.8 L 510 268.6"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- centroid (flow velocity u) -->
+  <line x1="290" y1="270" x2="290" y2="80" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="290" y1="270" x2="290" y2="278" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="272" y="294" fill="#8a8a8a">u = &#10216;v&#10217;</text>
+
+  <!-- area label -->
+  <text x="150" y="150" fill="#8a8a8a">area = &#8747;f dv = n</text>
+  <line x1="205" y1="156" x2="245" y2="200" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- FWHM width marker (thermal spread) at half max, y=175, x=208..372 -->
+  <line x1="208" y1="175" x2="372" y2="175" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="208,175 217,171 217,179" fill="#8a8a8a"/>
+  <polygon points="372,175 363,171 363,179" fill="#8a8a8a"/>
+  <text x="222" y="167" fill="#8a8a8a">width &#8733; &#8730;(k_B T / m)</text>
+
+  <!-- bump-on-tail (coral): a beam carrying free energy -->
+  <path d="M 390 263.9 L 405 255.4 L 420 242.7 L 435 230.3 L 450 225.0 L 465 230.3 L 480 242.7 L 495 255.4 L 510 263.9 Z"
+        fill="#e0645c" opacity="0.15"/>
+  <path d="M 390 263.9 L 405 255.4 L 420 242.7 L 435 230.3 L 450 225.0 L 465 230.3 L 480 242.7 L 495 255.4 L 510 263.9"
+        fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="428" y="212" fill="#e0645c">beam</text>
+  <text x="392" y="316" fill="#e0645c" font-style="italic">bump on tail &#8594; free energy (Module 4)</text>
+  <line x1="450" y1="216" x2="450" y2="224" stroke="#e0645c" stroke-width="1"/>
+</svg>

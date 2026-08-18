@@ -1,0 +1,51 @@
+<svg viewBox="0 0 690 430" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <defs>
+    <marker id="ah" markerWidth="11" markerHeight="11" refX="8" refY="3.2" orient="auto">
+      <path d="M0,0 L9,3.2 L0,6.4 Z" fill="#4a90d9"/>
+    </marker>
+  </defs>
+
+  <text x="24" y="24" fill="#8a8a8a" font-style="italic">One generation around the loop: each factor is the fraction that survives that stage. Multiply them &#8594; k&#8734;.</text>
+
+  <!-- ===== nodes ===== -->
+  <!-- top: start -->
+  <rect x="192" y="42" width="300" height="52" rx="8" fill="#4a90d9" opacity="0.14" stroke="#4a90d9" stroke-width="2"/>
+  <text x="342" y="65" fill="#8a8a8a" text-anchor="middle">START &#183; 1 thermal neutron</text>
+  <text x="342" y="83" fill="#8a8a8a" text-anchor="middle">absorbed in fuel</text>
+
+  <!-- right -->
+  <rect x="486" y="186" width="184" height="66" rx="8" fill="#4a90d9" opacity="0.14" stroke="#4a90d9" stroke-width="2"/>
+  <text x="578" y="216" fill="#8a8a8a" text-anchor="middle">&#951; fast neutrons</text>
+  <text x="578" y="234" fill="#8a8a8a" text-anchor="middle">born from fission</text>
+
+  <!-- bottom -->
+  <rect x="168" y="344" width="348" height="52" rx="8" fill="#4a90d9" opacity="0.14" stroke="#4a90d9" stroke-width="2"/>
+  <text x="342" y="367" fill="#8a8a8a" text-anchor="middle">&#951;&#949; fast neutrons</text>
+  <text x="342" y="385" fill="#8a8a8a" text-anchor="middle">after the fast-fission bonus</text>
+
+  <!-- left -->
+  <rect x="14" y="186" width="180" height="66" rx="8" fill="#4a90d9" opacity="0.14" stroke="#4a90d9" stroke-width="2"/>
+  <text x="104" y="216" fill="#8a8a8a" text-anchor="middle">&#951;&#949;p neutrons</text>
+  <text x="104" y="234" fill="#8a8a8a" text-anchor="middle">reach thermal</text>
+
+  <!-- ===== clockwise arrows ===== -->
+  <!-- top -> right : x eta -->
+  <path d="M 476 88 Q 618 108 574 182" fill="none" stroke="#4a90d9" stroke-width="2.5" marker-end="url(#ah)"/>
+  <text x="628" y="132" fill="#e0645c" font-size="17" text-anchor="middle">&#215; &#951;</text>
+
+  <!-- right -> bottom : x epsilon -->
+  <path d="M 574 256 Q 612 330 470 348" fill="none" stroke="#4a90d9" stroke-width="2.5" marker-end="url(#ah)"/>
+  <text x="612" y="306" fill="#e0645c" font-size="17" text-anchor="middle">&#215; &#949;</text>
+
+  <!-- bottom -> left : x p -->
+  <path d="M 214 348 Q 72 330 110 256" fill="none" stroke="#4a90d9" stroke-width="2.5" marker-end="url(#ah)"/>
+  <text x="72" y="306" fill="#e0645c" font-size="17" text-anchor="middle">&#215; p</text>
+
+  <!-- left -> top : x f -->
+  <path d="M 110 182 Q 66 108 208 88" fill="none" stroke="#4a90d9" stroke-width="2.5" marker-end="url(#ah)"/>
+  <text x="66" y="132" fill="#e0645c" font-size="17" text-anchor="middle">&#215; f</text>
+
+  <!-- ===== center product ===== -->
+  <text x="342" y="212" fill="#e0645c" font-size="24" text-anchor="middle" font-weight="bold">k&#8734; = &#951; f p &#949;</text>
+  <text x="342" y="238" fill="#8a8a8a" text-anchor="middle" font-style="italic">next generation, per start</text>
+</svg>

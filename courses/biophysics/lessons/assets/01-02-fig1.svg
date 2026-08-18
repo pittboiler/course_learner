@@ -1,0 +1,46 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">The walker goes nowhere on average, but its spread P(x) grows: quadruple N, double the width. Envelope: &#8730;&#10216;x&#178;&#10217; = b&#8730;N.</text>
+
+  <!-- axes -->
+  <line x1="50" y1="300" x2="618" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="618,300 608,295 608,305" fill="#8a8a8a"/>
+  <text x="622" y="305" fill="#8a8a8a">x</text>
+  <line x1="320" y1="300" x2="320" y2="312" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="316" y="326" fill="#8a8a8a">0</text>
+  <line x1="50" y1="300" x2="50" y2="90" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="50,90 45,100 55,100" fill="#8a8a8a"/>
+  <text x="36" y="88" fill="#8a8a8a">P(x)</text>
+
+  <!-- widest, shortest: N = 16N (sigma large) -->
+  <path d="M 41 299.6 L 50 299.4 L 59 299.3 L 68 299.0 L 77 298.7 L 86 298.3 L 95 297.8 L 104 297.2 L 113 296.5 L 122 295.6 L 131 294.5 L 140 293.2 L 149 291.8 L 158 290.1 L 167 288.2 L 176 286.1 L 185 283.8 L 194 281.2 L 203 278.5 L 212 275.7 L 221 272.7 L 230 269.7 L 239 266.7 L 248 263.7 L 257 260.9 L 266 258.2 L 275 255.9 L 284 253.9 L 293 252.2 L 302 251.0 L 311 250.3 L 320 250.0 L 329 250.3 L 338 251.0 L 347 252.2 L 356 253.9 L 365 255.9 L 374 258.2 L 383 260.9 L 392 263.7 L 401 266.7 L 410 269.7 L 419 272.7 L 428 275.7 L 437 278.5 L 446 281.2 L 455 283.8 L 464 286.1 L 473 288.2 L 482 290.1 L 491 291.8 L 500 293.2 L 509 294.5 L 518 295.6 L 527 296.5 L 536 297.2 L 545 297.8 L 554 298.3 L 563 298.7 L 572 299.0 L 581 299.3 L 590 299.4 L 599 299.6"
+        fill="none" stroke="#4a90d9" stroke-width="2.5" opacity="0.55"/>
+  <text x="470" y="280" fill="#4a90d9" opacity="0.9">16N</text>
+
+  <!-- middle: 4N -->
+  <path d="M 140 300 L 149 299.9 L 158 299.8 L 167 299.7 L 176 299.4 L 185 298.9 L 194 298.0 L 203 296.6 L 212 294.4 L 221 291.1 L 230 286.5 L 239 280.2 L 248 272.2 L 257 262.5 L 266 251.3 L 275 239.4 L 284 227.4 L 293 216.5 L 302 207.7 L 311 202.0 L 320 200.0 L 329 202.0 L 338 207.7 L 347 216.5 L 356 227.4 L 365 239.4 L 374 251.3 L 383 262.5 L 392 272.2 L 401 280.2 L 410 286.5 L 419 291.1 L 428 294.4 L 437 296.6 L 446 298.0 L 455 298.9 L 464 299.4 L 473 299.7 L 482 299.8 L 491 299.9 L 500 300"
+        fill="none" stroke="#4a90d9" stroke-width="2.5" opacity="0.78"/>
+  <text x="398" y="266" fill="#4a90d9">4N</text>
+
+  <!-- tallest, narrowest: N -->
+  <path d="M 239 299.7 L 248 298.8 L 257 296.0 L 266 288.8 L 275 272.9 L 284 244.4 L 293 202.7 L 302 154.8 L 311 115.4 L 320 100.1 L 329 115.4 L 338 154.8 L 347 202.7 L 356 244.4 L 365 272.9 L 374 288.8 L 383 296.0 L 392 298.8 L 401 299.7"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="330" y="104" fill="#4a90d9">N</text>
+
+  <!-- coral RMS envelope: locus of the +/- sigma points across the family -->
+  <path d="M 297.5 178.8 L 275 239.4 L 230 269.7" fill="none" stroke="#e0645c" stroke-width="1.6" stroke-dasharray="5 4"/>
+  <path d="M 342.5 178.8 L 365 239.4 L 410 269.7" fill="none" stroke="#e0645c" stroke-width="1.6" stroke-dasharray="5 4"/>
+  <circle cx="297.5" cy="178.8" r="2.5" fill="#e0645c"/>
+  <circle cx="342.5" cy="178.8" r="2.5" fill="#e0645c"/>
+  <circle cx="275" cy="239.4" r="2.5" fill="#e0645c"/>
+  <circle cx="365" cy="239.4" r="2.5" fill="#e0645c"/>
+  <circle cx="230" cy="269.7" r="2.5" fill="#e0645c"/>
+  <circle cx="410" cy="269.7" r="2.5" fill="#e0645c"/>
+
+  <!-- +/- one-RMS ticks on the widest curve -->
+  <line x1="230" y1="269.7" x2="230" y2="300" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="410" y1="269.7" x2="410" y2="300" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="150" y="200" fill="#e0645c">&#8730;&#10216;x&#178;&#10217; = b&#8730;N</text>
+  <text x="196" y="316" fill="#e0645c" font-size="12">&#8722;b&#8730;N</text>
+  <text x="392" y="316" fill="#e0645c" font-size="12">+b&#8730;N</text>
+</svg>

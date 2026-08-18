@@ -1,0 +1,38 @@
+<svg viewBox="0 0 660 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Two ways to watch a flow through a contraction: follow the coral parcel (Lagrangian) or sit at the grey probe (Eulerian).</text>
+
+  <!-- ===== streamlines (steady flow through a narrowing channel) ===== -->
+  <path d="M 60 117 L 130 130.8 L 200 140.6 L 270 146.5 L 340 148.5 L 410 146.5 L 480 140.6 L 550 130.8 L 600 121.3" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <path d="M 60 148.5 L 130 155.4 L 200 160.3 L 270 163.3 L 340 164.25 L 410 163.3 L 480 160.3 L 550 155.4 L 600 150.7" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <path d="M 60 180 L 600 180" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <path d="M 60 211.5 L 130 204.6 L 200 199.7 L 270 196.7 L 340 195.75 L 410 196.7 L 480 199.7 L 550 204.6 L 600 209.3" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <path d="M 60 243 L 130 229.2 L 200 219.4 L 270 213.5 L 340 211.5 L 410 213.5 L 480 219.4 L 550 229.2 L 600 238.7" fill="none" stroke="#4a90d9" stroke-width="2"/>
+
+  <!-- flow-direction arrowheads (blue), longer where the channel is narrow (faster) -->
+  <polygon points="252,180 240,175 240,185" fill="#4a90d9"/>
+  <polygon points="392,180 380,175 380,185" fill="#4a90d9"/>
+  <text x="72" y="270" fill="#4a90d9" font-size="12">slow, wide</text>
+  <text x="300" y="270" fill="#4a90d9" font-size="12">fast, narrow (throat)</text>
+
+  <!-- ===== Lagrangian: coral parcel on its pathline ===== -->
+  <path d="M 60 133.1 L 130 143.4 L 200 150.7 L 270 155.1 L 340 156.55 L 410 155.1 L 480 150.7 L 550 143.4 L 600 136.3" fill="none" stroke="#e0645c" stroke-width="2" stroke-dasharray="5 4"/>
+  <circle cx="200" cy="150.7" r="6" fill="#e0645c"/>
+  <!-- velocity arrow of the parcel -->
+  <line x1="206" y1="151.5" x2="238" y2="155" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="238,155 228,152 230,160" fill="#e0645c"/>
+  <text x="150" y="128" fill="#e0645c" font-size="12">parcel x(t) — a cork</text>
+  <text x="470" y="126" fill="#e0645c" font-size="12">pathline (= streamline here)</text>
+
+  <!-- ===== Eulerian: fixed probe ===== -->
+  <line x1="410" y1="170" x2="410" y2="190" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="400" y1="180" x2="420" y2="180" stroke="#8a8a8a" stroke-width="1.5"/>
+  <circle cx="410" cy="180" r="8" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="382" y="212" fill="#8a8a8a" font-size="12">fixed probe u(x,t)</text>
+
+  <!-- ===== annotation: material derivative split ===== -->
+  <line x1="40" y1="300" x2="620" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="40" y="322" fill="#8a8a8a" font-size="16">Rate of change following the parcel:  D/Dt =<tspan fill="#4a90d9"> &#8706;/&#8706;t</tspan> +<tspan fill="#e0645c"> (u&#183;&#8711;)</tspan></text>
+  <text x="336" y="340" fill="#4a90d9" font-size="11">local (unsteady)</text>
+  <text x="455" y="340" fill="#e0645c" font-size="11">advective (parcel moves)</text>
+</svg>
