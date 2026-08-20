@@ -86,7 +86,7 @@ Vertex form, so the peak is $\boxed{72 \text{ ft at } t = 2 \text{ s}}$. Notice 
 
 - **The zero-product trick works against zero and nothing else.** From $(x-2)(x-3) = 6$ you may *not* write $x-2=6$ or $x-3=6$ — infinitely many factor pairs multiply to $6$. You **must** move everything to one side to get $\dots = 0$ first, then factor.
 - **Don't drop the $\pm$.** $x^2 = 9$ has *two* solutions, $x = 3$ and $x = -3$, not just the positive root. Every square you undo forks into two branches.
-- **$\Delta < 0$ means no *real* roots — not "no answer."** The parabola genuinely misses the axis. (In `precalculus` you'll meet complex roots that live off the real line; for now, "no real solution" is the honest and complete answer.)
+- **$\Delta < 0$ means no *real* roots — not "no answer."** The parabola genuinely misses the axis. (Those roots do exist — they live off the real line, and [`precalculus` 2.4](../../precalculus/lessons/02-04-complex-numbers.md) is where the library builds them: the two roots come back as a conjugate pair $-\frac{b}{2a} \pm i\frac{\sqrt{4ac-b^2}}{2a}$. Until you get there, "no real solution" is the honest and complete answer.)
 - **Completing the square: only "half of $b$, squared" works, and mind the $a$.** If $a \neq 1$, factor it out of the $x^2$ and $x$ terms *first* — as in Example 2 — or the perfect-square pattern won't line up.
 
 ## One-liner

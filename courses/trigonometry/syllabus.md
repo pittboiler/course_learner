@@ -1,6 +1,6 @@
 # Trigonometry — Syllabus
 
-> Foundations · Tier F · ~8 lessons · Prereqs: none · Roadmap id: `trigonometry`
+> Foundations · Tier F · ~9 lessons · Prereqs: none · Roadmap id: `trigonometry`
 
 ## Goal
 
@@ -32,6 +32,7 @@ Trig starts as a machine for right triangles: three ratios that trade one angle 
 |---|---|---|---|
 | 1.1 | The three ratios | Find any missing side of a right triangle from an angle and a side | sine/cosine/tangent as ratios, SOHCAHTOA, opposite/adjacent/hypotenuse |
 | 1.2 | Finding angles & applications | Recover an unknown angle and solve real height/distance problems | inverse ratios (arcsin/arccos/arctan), angle of elevation & depression, two-observation setups |
+| 1.3 | Inverse trig & restricted ranges | Evaluate inverse trig functions and recover the angle you actually wanted | why a periodic function has no inverse, principal ranges of arcsin/arccos/arctan, reference angle + quadrant recovery, composition traps, atan2 |
 
 **Boss problem 1:** From point $A$ on level ground the angle of elevation to a balloon is $40°$. You walk $100$ m straight toward the point beneath it to $B$, where the angle of elevation is now $55°$. How high is the balloon? (Set up two right triangles sharing the height; solve $h(\cot 40° - \cot 55°) = 100$ to get $h \approx 203$ m.)
 
@@ -73,3 +74,14 @@ Drop the right angle. Two laws extend everything to arbitrary triangles — the 
 - Stewart, Redlin & Watson, *Precalculus* — notation and the standard sequence for right-triangle → unit-circle → identities.
 - Larson, *Trigonometry* — reference for the law-of-sines ambiguous case and applied triangle problems.
 - Paul's Online Math Notes (Lamar) — conventions for radian measure, sinusoid transformations, and identity drills.
+
+## Syllabus changes
+
+- **2026-08-20 — added Lesson 1.3, "Inverse trig & restricted ranges."** The
+  Dangerous Checklist promised "evaluate and interpret inverse trig functions,
+  respecting their restricted ranges" and no lesson delivered it: 1.2 introduced
+  arcsin/arccos/arctan purely as undo buttons without ever saying what they
+  return. Meanwhile 4.1's ambiguous SSA case and 4.2's "hunt big angles with the
+  law of cosines" rule both *depend* on the principal ranges. The new lesson
+  slots after 1.2 and nothing renumbers; module count and boss problems are
+  unchanged.

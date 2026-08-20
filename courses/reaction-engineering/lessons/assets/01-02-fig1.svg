@@ -1,0 +1,63 @@
+<svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Take the log and the Arrhenius law becomes a straight line: slope reads off the barrier, intercept reads off A.</text>
+
+  <!-- ===== left: the Arrhenius plot ln k vs 1/T ===== -->
+
+  <!-- y axis (ln k) -->
+  <line x1="70" y1="250" x2="70" y2="60" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,60 65,72 75,72" fill="#8a8a8a"/>
+  <text x="42" y="64" fill="#8a8a8a">ln k</text>
+  <!-- x axis (1/T) -->
+  <line x1="70" y1="250" x2="360" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="360,250 348,245 348,255" fill="#8a8a8a"/>
+  <text x="330" y="272" fill="#8a8a8a">1/T</text>
+
+  <!-- dashed extension to the intercept -->
+  <line x1="70" y1="82.5" x2="95" y2="95" stroke="#4a90d9" stroke-width="2" stroke-dasharray="4 4"/>
+  <!-- the fitted line -->
+  <line x1="95" y1="95" x2="335" y2="215" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- intercept marker ln A -->
+  <circle cx="70" cy="82.5" r="4" fill="#e0645c"/>
+  <text x="78" y="80" fill="#e0645c">ln A</text>
+
+  <!-- slope label -->
+  <text x="205" y="140" fill="#4a90d9">slope = &#8722;E/R</text>
+
+  <!-- two data points -->
+  <circle cx="140" cy="117.5" r="4" fill="#e0645c"/>
+  <text x="118" y="108" fill="#8a8a8a" font-size="12">(1/T&#8321;, ln k&#8321;)</text>
+  <circle cx="290" cy="192.5" r="4" fill="#e0645c"/>
+  <text x="252" y="212" fill="#8a8a8a" font-size="12">(1/T&#8322;, ln k&#8322;)</text>
+
+  <!-- ===== right: activation-barrier inset ===== -->
+
+  <!-- energy axis -->
+  <line x1="430" y1="255" x2="430" y2="70" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="430,70 425,82 435,82" fill="#8a8a8a"/>
+  <text x="404" y="74" fill="#8a8a8a">E</text>
+  <!-- reaction coordinate axis -->
+  <line x1="430" y1="255" x2="615" y2="255" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="615,255 603,250 603,260" fill="#8a8a8a"/>
+  <text x="520" y="277" fill="#8a8a8a" font-size="12">reaction coordinate</text>
+
+  <!-- energy profile: reactant valley, barrier, product valley -->
+  <path d="M 445 205 C 490 205 495 105 520 105 C 545 105 555 180 605 180"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- reactant and product level guides -->
+  <line x1="445" y1="205" x2="520" y2="205" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="446" y="223" fill="#8a8a8a" font-size="12">reactants</text>
+  <text x="560" y="198" fill="#8a8a8a" font-size="12">products</text>
+
+  <!-- barrier height E -->
+  <line x1="500" y1="205" x2="500" y2="107" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="500,107 496,118 504,118" fill="#e0645c"/>
+  <polygon points="500,205 496,194 504,194" fill="#e0645c"/>
+  <text x="472" y="160" fill="#e0645c">E</text>
+
+  <!-- Boltzmann fraction annotation -->
+  <text x="455" y="300" fill="#8a8a8a" font-size="12">fraction over the top: e</text>
+  <text x="592" y="294" fill="#8a8a8a" font-size="10">&#8722;E/RT</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Exit-age distribution E(t): the two ideals, and a real reactor between them.</text>
+
+  <!-- axes -->
+  <line x1="80" y1="60" x2="80" y2="320" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="80" y1="320" x2="600" y2="320" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="80,54 76,66 84,66" fill="#8a8a8a"/>
+  <polygon points="606,320 594,316 594,324" fill="#8a8a8a"/>
+  <text x="52" y="72" fill="#8a8a8a">E(t)</text>
+  <text x="556" y="342" fill="#8a8a8a">t (time)</text>
+
+  <!-- 1/tau tick on y-axis -->
+  <line x1="76" y1="80" x2="80" y2="80" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="46" y="84" fill="#8a8a8a" font-size="12">1/&#964;</text>
+
+  <!-- tau tick on x-axis -->
+  <line x1="270" y1="320" x2="270" y2="324" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="265" y="340" fill="#8a8a8a">&#964;</text>
+
+  <!-- CSTR exponential (blue): E = (1/tau) e^(-t/tau) -->
+  <polyline points="80,80 175,174 270,232 365,266 460,288 555,300 595,304" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <!-- PFR spike (coral): delta at t = tau -->
+  <line x1="270" y1="320" x2="270" y2="86" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="270,78 265,92 275,92" fill="#e0645c"/>
+
+  <!-- real reactor (grey dashed): bump plus long tail -->
+  <path d="M 80 320 C 150 318, 190 250, 240 190 C 275 205, 320 250, 380 278 C 450 302, 520 310, 595 314" fill="none" stroke="#8a8a8a" stroke-width="2.5" stroke-dasharray="6 4"/>
+
+  <!-- legend -->
+  <line x1="400" y1="96" x2="432" y2="96" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="440" y="100" fill="#4a90d9" font-size="12">CSTR: (1/&#964;)e^(&#8722;t/&#964;)</text>
+  <line x1="400" y1="120" x2="432" y2="120" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="440" y="124" fill="#e0645c" font-size="12">PFR: &#948;(t &#8722; &#964;)</text>
+  <line x1="400" y1="144" x2="432" y2="144" stroke="#8a8a8a" stroke-width="2.5" stroke-dasharray="6 4"/>
+  <text x="440" y="148" fill="#8a8a8a" font-size="12">real (bump + tail)</text>
+</svg>

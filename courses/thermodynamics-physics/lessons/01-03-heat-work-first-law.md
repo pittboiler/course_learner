@@ -49,7 +49,7 @@ $$\delta W = P\,dV \qquad\Longrightarrow\qquad W = \int_{V_1}^{V_2} P\,dV.$$
 
 $$\oint \delta Q = \oint \delta W = \text{area enclosed by the loop}.$$
 
-*In words: the net heat absorbed over a cycle equals the net work done, which equals the loop's enclosed area — the internal energy came back to where it started, but heat and work did not net to zero.* This is the engine principle, and it's [Boss problem 1](syllabus.md) in miniature.
+*In words: the net heat absorbed over a cycle equals the net work done, which equals the loop's enclosed area — the internal energy came back to where it started, but heat and work did not net to zero.* This is the engine principle, and it's [Boss problem 1](../syllabus.md) in miniature.
 
 **Three staple processes.** For an ideal gas ($PV = nRT$, from [1.2](01-02-state-variables-equations-of-state.md)):
 
@@ -88,7 +88,7 @@ Net work $= 400 - 200 = 200\,\text{J}$. Check against the enclosed area — the 
 
 $$\oint \delta W = (P_1 - P_2)(V_2 - V_1) = (1.0\times10^5)(2.0\times10^{-3}) = 200\,\text{J}. \checkmark$$
 
-Since the gas returns to state A, $\oint dU = 0$, so the net heat absorbed is $\oint \delta Q = \oint \delta W = 200\,\text{J}$: over one cycle the gas swallowed 200 J of net heat and delivered 200 J of net work. That is exactly how an engine turns heat into work — and it's the skeleton of [Boss problem 1](syllabus.md), where the isobars become isotherms.
+Since the gas returns to state A, $\oint dU = 0$, so the net heat absorbed is $\oint \delta Q = \oint \delta W = 200\,\text{J}$: over one cycle the gas swallowed 200 J of net heat and delivered 200 J of net work. That is exactly how an engine turns heat into work — and it's the skeleton of [Boss problem 1](../syllabus.md), where the isobars become isotherms.
 
 ## Watch out
 

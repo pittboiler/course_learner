@@ -1,6 +1,6 @@
 # Linear Algebra — Syllabus
 
-> Tier 0 · 13 lessons · Prereqs: none · Roadmap id: `linalg-refresher`
+> Tier 0 · 14 lessons · Prereqs: none · Roadmap id: `linalg-refresher`
 
 ## Goal
 
@@ -12,6 +12,7 @@ When you finish, you can:
 
 - [ ] Decide whether a set of vectors is independent, and produce a basis and dimension for a span
 - [ ] Solve a linear system by elimination and read off rank, pivot columns, and the solution set's shape
+- [ ] Compute a cross product, read its length as an area, and use it for moments, normals, and a parallel test
 - [ ] Read a matrix as a linear map and predict its geometric action on a shape
 - [ ] Find the four fundamental subspaces of a matrix and state the two orthogonality relations between them
 - [ ] Compute a determinant and explain it as signed volume scaling (and why det = 0 means collapse)
@@ -34,6 +35,7 @@ The raw material: vectors, the spaces they fill out, and the elimination that so
 | 1.1 | Vectors, linear combinations, and span | See a vector two ways (arrow / list) and describe every reachable point as a span | vector, linear combination, span, subspace |
 | 1.2 | Linear independence, basis, and dimension | Test for redundancy and pin down the minimal spanning set | linear independence, basis, dimension, coordinates |
 | 1.3 | Linear systems, elimination, and rank | Solve $A\mathbf x=\mathbf b$ by elimination and read the solution set's shape | Gaussian elimination, pivots, rank, homogeneous vs. particular solutions |
+| 1.4 | The cross product and orientation in 3D | Multiply two vectors in $\mathbb{R}^3$ into the axis they twist about, and read its length as an area | cross product, right-hand rule, $\lVert\mathbf a\rVert\lVert\mathbf b\rVert\sin\theta$, determinant mnemonic, anticommutativity, scalar triple product |
 
 **Boss problem 1:** Given four vectors in $\mathbb{R}^3$, find a basis for their span and its dimension; then given a matrix $A$, describe the full solution set of $A\mathbf x=\mathbf b$ (particular + null-space) and connect its dimension to the rank.
 
@@ -88,3 +90,20 @@ The two decompositions the rest of mathematics runs on.
 - Strang, *Introduction to Linear Algebra* (computational style, the four-subspaces framing, applications)
 - Axler, *Linear Algebra Done Right* (the operator / basis-free viewpoint and inner-product spaces)
 - 3Blue1Brown, *Essence of Linear Algebra* (the geometric register this course teaches in)
+
+## Syllabus changes
+
+- **2026-08-20** — Added **1.4 The cross product and orientation in 3D**
+  (13 lessons → 14). Four downstream courses —
+  [`statics`](../statics/lessons/01-03-moment-of-a-force.md),
+  [`engineering-dynamics`](../engineering-dynamics/lessons/03-01-rotation-instantaneous-center.md),
+  [`mechanics-refresher`](../mechanics-refresher/lessons/04-02-angular-momentum.md), and
+  [`em-refresher`](../em-refresher/lessons/03-01-magnetic-force.md) — already cite
+  this course for $\vec r\times\vec F$, $\boldsymbol\omega\times\mathbf r$,
+  $\mathbf r\times\mathbf p$, and $q\,\mathbf v\times\mathbf B$, and each of
+  their reference cards had to state the cross product itself with a note that no
+  course taught it. Module 1 was the right home: the lesson is a natural sequel to
+  1.2's independence test (parallel $\iff$ cross product zero), and it forward-links
+  to [2.3](lessons/02-03-determinants.md) for the determinant mnemonic and to
+  [4.1](lessons/04-01-inner-products-orthogonality.md) for the dot product it
+  contrasts against. Boss problem 1 is unchanged.

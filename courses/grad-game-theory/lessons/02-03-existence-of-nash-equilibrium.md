@@ -155,4 +155,3 @@ which is the set of distributions supported on $B_i$ — the face $\Delta(B_i)$ 
 - **Forward (2.4):** existence is nonconstructive; [2.4](02-04-computing-characterizing-equilibria.md) turns "an equilibrium is somewhere in $\Delta$" into support enumeration and the Lemke–Howson algorithm that actually finds it.
 - **Sideways (grad-micro):** existence of Walrasian (competitive) equilibrium runs the *identical* machine — swap the best-response map for the excess-demand / price-adjustment map on the price simplex and apply Brouwer/Kakutani; Cournot oligopoly existence is this literal theorem, and the discontinuous-payoff caveat is the Bertrand pathology: [grad-micro](../../grad-micro/syllabus.md).
 - **Sideways (topology):** Brouwer is a topological statement (no continuous retraction of a ball onto its boundary) and Kakutani its set-valued upgrade; the deeper proofs and the degree theory behind them live in [topology](../../topology/syllabus.md).
-</content>

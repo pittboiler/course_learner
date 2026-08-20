@@ -1,0 +1,25 @@
+<svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="48" y="24" fill="#8a8a8a" font-style="italic">Same k, three orders: the rate law's exponent sets the shape of &#8722;r_A vs C_A.</text>
+
+  <!-- axes -->
+  <line x1="60" y1="280" x2="565" y2="280" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="565,280 555,275 555,285" fill="#8a8a8a"/>
+  <line x1="60" y1="280" x2="60" y2="50" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="60,50 55,60 65,60" fill="#8a8a8a"/>
+  <text x="40" y="48" fill="#8a8a8a">&#8722;r_A</text>
+  <text x="505" y="300" fill="#8a8a8a">C_A</text>
+  <text x="44" y="285" fill="#8a8a8a">0</text>
+
+  <!-- zero order: flat -->
+  <line x1="60" y1="120" x2="540" y2="120" stroke="#8a8a8a" stroke-width="2.5"/>
+  <text x="360" y="112" fill="#8a8a8a">zero order (&#8722;r_A = k, &#8733; C_A&#8304;)</text>
+
+  <!-- first order: straight line through origin -->
+  <line x1="60" y1="280" x2="540" y2="80" stroke="#4a90d9" stroke-width="3"/>
+  <text x="392" y="70" fill="#4a90d9">first order (&#8733; C_A)</text>
+
+  <!-- second order: parabola through origin -->
+  <path d="M 60 280 L 156 271.6 L 252 246.4 L 300 227.5 L 348 204.4 L 396 177.1 L 444 145.6 L 492 109.9 L 540 70"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+  <text x="392" y="120" fill="#e0645c">second order (&#8733; C_A&#178;)</text>
+</svg>

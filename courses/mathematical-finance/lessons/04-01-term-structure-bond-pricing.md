@@ -28,7 +28,7 @@ $$P(t,T)=e^{-y(t,T)(T-t)} \quad\Longleftrightarrow\quad y(t,T)=-\frac{\ln P(t,T)
 
 **Instantaneous forward rate.**
 $$f(t,T)=-\frac{\partial \ln P(t,T)}{\partial T}, \qquad P(t,T)=\exp\!\left(-\int_t^T f(t,u)\,du\right).$$
-*In words:* $f(t,T)$ is the locked-in rate for an instant at horizon $T$; stacking those instantaneous rates from $t$ to $T$ and discounting by them rebuilds the price. Differentiating $-\ln P=\int_t^T f\,du$ in $T$ recovers the first equation — the forward rate is just the fundamental theorem of calculus applied to the log-price (see `](../../calc-refresher/syllabus.md)`).
+*In words:* $f(t,T)$ is the locked-in rate for an instant at horizon $T$; stacking those instantaneous rates from $t$ to $T$ and discounting by them rebuilds the price. Differentiating $-\ln P=\int_t^T f\,du$ in $T$ recovers the first equation — the forward rate is just the fundamental theorem of calculus applied to the log-price (see [`calc-refresher`](../../calc-refresher/syllabus.md)).
 
 **Short rate as the near end of the curve.**
 $$r_t=f(t,t)=\lim_{T\to t} y(t,T).$$
@@ -42,7 +42,7 @@ $$e^{\,f(t,T)\,\Delta}=\frac{P(t,T)}{P(t,T+\Delta)}, \qquad\text{equivalently}\q
 $$\boxed{\,P(t,T)=\mathbb{E}^Q_t\!\left[\exp\!\left(-\int_t^T r_s\,ds\right)\right].\,}$$
 *In words:* when the future short rate is uncertain, the bond price is the **expected** stochastic discount factor over $[t,T]$ — you no longer just discount by a known $r$, you average $e^{-\int r}$ over every path $r$ might take. When $r$ is deterministic the expectation is trivial and this collapses to $P(t,T)=e^{-\int_t^T r_s ds}$; the whole content of Module 4 is that $r$ is *not* deterministic. Lesson 4.2 picks a dynamics for $r_s$ and actually computes this expectation.
 
-**Reading the curve.** *Upward/normal:* long yields above short — the typical state, compensation for locking money up longer and expecting rates or inflation to rise. *Inverted:* long yields below short — the market pricing in future rate cuts, historically a recession signal. *Humped:* mid-maturity yields highest. See `](../../grad-macro/syllabus.md)` for the monetary-policy side of the same picture.
+**Reading the curve.** *Upward/normal:* long yields above short — the typical state, compensation for locking money up longer and expecting rates or inflation to rise. *Inverted:* long yields below short — the market pricing in future rate cuts, historically a recession signal. *Humped:* mid-maturity yields highest. See [`grad-macro`](../../grad-macro/syllabus.md) for the monetary-policy side of the same picture.
 
 **Coupon bonds and bootstrapping.** A coupon bond is a *bundle* of zeros: coupons $c_i$ at dates $T_i$ plus face $F$ at $T_n$ price as $\sum_i c_i P(t,T_i)+F\,P(t,T_n)$. Markets quote coupon bonds, not zeros, so you recover the zero curve by **bootstrapping**: use the shortest bond to solve for $P(t,T_1)$, substitute into the next bond to solve for $P(t,T_2)$, and march outward.
 
@@ -129,5 +129,5 @@ Covariance check: $p=\mathbb{E}[m]\mathbb{E}[X]+\operatorname{cov}(m,X)$, and $\
 
 - **Backward:** this is [1.1](01-01-arbitrage-law-of-one-price.md)'s discounting and forward prices, promoted from one rate to a whole curve — a forward rate is the law of one price applied to two bonds. The master formula is [3.3](03-03-expected-utility-stochastic-discount-factor.md)'s $\text{price}=\mathbb{E}[m\cdot\text{payoff}]$ with payoff 1 and $m=e^{-\int r}$; a bond is *the* purest SDF measurement. It closes Module 3's arc: [3.4](03-04-merton-optimal-consumption-portfolio.md) optimized consumption against a fixed $r$; now $r$ becomes the object of study.
 - **Forward:** [4.2](04-02-short-rate-models-vasicek-cir.md) picks a stochastic dynamics for $r_s$ (Vasicek, CIR) and *computes* $\mathbb{E}^Q_t[e^{-\int r}]$ in closed form via Feynman–Kac. [4.3](04-03-forward-measures-changing-numeraire.md) flips $P(t,T)$ itself into the numéraire (the "forward measure"), which makes forward rates martingales and trivializes bond-option pricing.
-- **Sideways (calculus):** the forward rate as $-\partial_T \ln P$ is a clean instance of a marginal quantity being the derivative of a log — see `](../../calc-refresher/syllabus.md)`.
-- **Sideways (macro):** the shape of the yield curve and its inversion-as-recession-signal are the finance face of monetary policy and the expectations hypothesis — see `](../../grad-macro/syllabus.md)`.
+- **Sideways (calculus):** the forward rate as $-\partial_T \ln P$ is a clean instance of a marginal quantity being the derivative of a log — see [`calc-refresher`](../../calc-refresher/syllabus.md).
+- **Sideways (macro):** the shape of the yield curve and its inversion-as-recession-signal are the finance face of monetary policy and the expectations hypothesis — see [`grad-macro`](../../grad-macro/syllabus.md).

@@ -4,7 +4,7 @@
 
 ## Why this matters
 
-Every "solve for $x$" you did in grade-school algebra secretly relied on dividing — and modular arithmetic doesn't let you divide freely. So the natural question "solve $ax\equiv b\pmod n$" turns out to have three possible answers: *no solutions, one, or several*, and which one you get is decided by a single gcd you already know how to compute. This is the exact machine that inverts the public exponent in RSA (Lesson 5.4), that CRT calls to stitch congruences together (Lesson 2.4), and that gives you your first "units" — the invertible elements — a preview of group theory in [abstract-algebra](../abstract-algebra/syllabus.md).
+Every "solve for $x$" you did in grade-school algebra secretly relied on dividing — and modular arithmetic doesn't let you divide freely. So the natural question "solve $ax\equiv b\pmod n$" turns out to have three possible answers: *no solutions, one, or several*, and which one you get is decided by a single gcd you already know how to compute. This is the exact machine that inverts the public exponent in RSA (Lesson 5.4), that CRT calls to stitch congruences together (Lesson 2.4), and that gives you your first "units" — the invertible elements — a preview of group theory in [abstract-algebra](../../abstract-algebra/syllabus.md).
 
 ## The idea
 
@@ -115,4 +115,4 @@ So $x=2,\ y=-5$: $\;84\cdot 2+33\cdot(-5)=168-165=3=\gcd(84,33)$. ✓
 
 - **Backward:** this is Bézout from Lesson 1.2 read modulo $n$ — the extended Euclidean algorithm that produced $ax+ny=\gcd$ is the *only* engine needed to invert a unit; nothing new was added but the reinterpretation.
 - **Forward:** Lesson 2.3 is the same theorem in its "linear Diophantine" costume — $ax\equiv b\pmod n$ is exactly $ax+ny=b$ solved for $x$, so the solvability condition $\gcd(a,n)\mid b$ and the one-particular-plus-family structure carry straight over. Lesson 2.4 (CRT) uses these inverses to build its stitching coefficients, and Lesson 5.4 computes RSA's private key as $d=e^{-1}\bmod\varphi(n)$ by this exact method.
-- **Sideways ([discrete-mathematics](../discrete-mathematics/syllabus.md) & [abstract-algebra](../abstract-algebra/syllabus.md)):** the units mod $n$ — the coprime residues — are precisely the invertible elements, and they form the group $(\mathbb{Z}/n\mathbb{Z})^\times$ you'll meet in Module 3. "Has an inverse" is the defining property of a group element; this lesson is your first hands-on encounter with it.
+- **Sideways ([discrete-mathematics](../../discrete-mathematics/syllabus.md) & [abstract-algebra](../../abstract-algebra/syllabus.md)):** the units mod $n$ — the coprime residues — are precisely the invertible elements, and they form the group $(\mathbb{Z}/n\mathbb{Z})^\times$ you'll meet in Module 3. "Has an inverse" is the defining property of a group element; this lesson is your first hands-on encounter with it.

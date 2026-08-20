@@ -1,0 +1,29 @@
+<svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Same conversion X: the CSTR rectangle (coral) swallows far more area than the PFR region (blue).</text>
+
+  <rect x="70" y="100" width="376" height="200" fill="#e0645c" opacity="0.10"/>
+
+  <polygon points="70,300 70,260 164,252 258,236 352,204 446,100 446,300" fill="#4a90d9" opacity="0.28"/>
+
+  <line x1="70" y1="300" x2="70" y2="55" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,55 65,66 75,66" fill="#8a8a8a"/>
+  <line x1="70" y1="300" x2="565" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="565,300 554,295 554,305" fill="#8a8a8a"/>
+
+  <text x="52" y="46" fill="#8a8a8a">F_A0 /(&#8722;r_A)  [L]</text>
+  <text x="290" y="342" fill="#8a8a8a">conversion  X</text>
+
+  <line x1="446" y1="300" x2="446" y2="100" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="63" y="318" fill="#8a8a8a">0</text>
+  <text x="438" y="318" fill="#8a8a8a">0.8</text>
+
+  <rect x="70" y="100" width="376" height="200" fill="none" stroke="#e0645c" stroke-width="2"/>
+
+  <path d="M 70 260 L 164 252 L 258 236 L 352 204 L 446 100" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <path d="M 446 100 L 480 78 L 505 62" fill="none" stroke="#4a90d9" stroke-width="2" stroke-dasharray="4 4"/>
+
+  <rect x="112" y="128" width="20" height="13" fill="#4a90d9" opacity="0.28"/>
+  <text x="140" y="139" fill="#8a8a8a">PFR volume = area under curve</text>
+  <line x1="112" y1="160" x2="132" y2="160" stroke="#e0645c" stroke-width="2"/>
+  <text x="140" y="164" fill="#8a8a8a">CSTR volume = whole rectangle</text>
+</svg>

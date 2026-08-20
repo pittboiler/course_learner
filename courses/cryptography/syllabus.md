@@ -90,5 +90,3 @@ Encryption hides content; this module proves *identity and intent*. Signatures m
 - Menezes, van Oorschot & Vanstone, *Handbook of Applied Cryptography* — reference for number-theoretic and public-key algorithms.
 
 <!-- 2026-08-04: 21 lessons across 4 modules (target ~20); within tolerance. Module 1 runs to 6 lessons so Shannon's perfect-secrecy proof and the pseudorandomness pivot each get their own lesson rather than being crammed together. -->
-</content>
-</invoke>

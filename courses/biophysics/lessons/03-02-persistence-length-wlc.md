@@ -1,6 +1,6 @@
 # Biophysics · Lesson 3.2: Persistence length and the worm-like chain
 
-> ⏱ ~15 min · Module 3: Polymers, membranes, and self-assembly · Builds on: [3.1 Polymers as random walks: the entropic spring](03-01-entropic-spring.md), [1.2 The random walk](../../prob-stat-refresher/syllabus.md) · Unlocks: [3.3 Stretching single molecules](03-03-stretching-single-molecules.md)
+> ⏱ ~15 min · Module 3: Polymers, membranes, and self-assembly · Builds on: [3.1 Polymers as random walks: the entropic spring](03-01-entropic-spring.md), [1.2 The random walk](01-02-random-walk.md) · Unlocks: [3.3 Stretching single molecules](03-03-stretching-single-molecules.md)
 
 ## Why this matters
 

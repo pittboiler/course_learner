@@ -28,7 +28,7 @@ $$k(1-\beta)=1 \;\Longrightarrow\; k=\frac{1}{1-\beta} \;\Longrightarrow\; \rho 
 
 $$\boxed{\;\rho=\beta:\quad\textbf{prompt critical}\;}$$
 
-*In words: exactly at $\rho=\beta$ the prompt neutrons by themselves are critical; below it the chain needs its delayed neutrons, above it the prompt neutrons alone are supercritical.* This is the physics behind the **dollar**: define reactivity in dollars as $\rho/\beta$, so $\rho=\beta$ is exactly **$1**, and a cent is $\beta/100$. The dollar is not an arbitrary scale — it is normalized to $\beta$ precisely because $\beta$ is where the character of the reactor changes.
+*In words: exactly at $\rho=\beta$ the prompt neutrons by themselves are critical; below it the chain needs its delayed neutrons, above it the prompt neutrons alone are supercritical.* This is the physics behind the **dollar**: define reactivity in dollars as $\rho/\beta$, so $\rho=\beta$ is exactly **one dollar**, and a cent is $\beta/100$. The dollar is not an arbitrary scale — it is normalized to $\beta$ precisely because $\beta$ is where the character of the reactor changes.
 
 **The prompt period.** For $\rho>\beta$ the precursors can no longer keep pace, so drop the delayed source term $\sum_i\lambda_i C_i$ from the point-kinetics equation ([4.1](04-01-delayed-neutrons-point-kinetics.md)). What remains is a bare first-order linear ODE for the power $P(t)$:
 

@@ -137,9 +137,9 @@ Market A is the more inelastic ($|\varepsilon_A|=1.4<|\varepsilon_B|=1.67$) and 
 
 Equilibrium equates demand and supply prices:
 
-$$120-q=30+2q\ \Longrightarrow\ 90=3q\ \Longrightarrow\ q^\*=30,\qquad p^\*=120-30=90.$$
+$$120-q=30+2q\ \Longrightarrow\ 90=3q\ \Longrightarrow\ q^*=30,\qquad p^*=120-30=90.$$
 
-**Consumer surplus** — the triangle under demand and above the price, from $0$ to $q^\*$. Demand's vertical intercept is $120$:
+**Consumer surplus** — the triangle under demand and above the price, from $0$ to $q^*$. Demand's vertical intercept is $120$:
 
 $$CS=\tfrac12\,(120-90)\,(30)=\tfrac12(30)(30)=450.$$
 
@@ -149,7 +149,7 @@ $$PS=\tfrac12\,(90-30)\,(30)=\tfrac12(60)(30)=900.$$
 
 Total surplus $=450+900=1350$, and at the competitive quantity every unit with willingness-to-pay above marginal cost is traded — no deadweight loss, the efficiency benchmark this lesson's monopoly falls short of.
 
-*Check:* at $q^\*=30$ demand price $120-30=90$ equals supply price $30+60=90$ ✓; surpluses are areas of right triangles with the common base $q^\*=30$ and heights $120-90=30$ and $90-30=60$ ✓.
+*Check:* at $q^*=30$ demand price $120-30=90$ equals supply price $30+60=90$ ✓; surpluses are areas of right triangles with the common base $q^*=30$ and heights $120-90=30$ and $90-30=60$ ✓.
 
 </details>
 

@@ -1,0 +1,50 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">van Heerden diagram: the S-shaped heat generated G(T) cuts the straight heat removed R(T) at three steady states.</text>
+
+  <!-- ===== axes ===== -->
+  <line x1="80" y1="345" x2="595" y2="345" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="595,345 585,340 585,350" fill="#8a8a8a"/>
+  <text x="560" y="366" fill="#8a8a8a">T (K)</text>
+  <line x1="80" y1="345" x2="80" y2="52" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="80,52 75,62 85,62" fill="#8a8a8a"/>
+  <text x="34" y="60" fill="#8a8a8a" font-size="12">heat</text>
+  <text x="30" y="74" fill="#8a8a8a" font-size="12">(J/mol)</text>
+  <text x="60" y="350" fill="#8a8a8a" font-size="12">0</text>
+
+  <!-- ===== faint shifted removal lines (higher / lower Tc) ===== -->
+  <line x1="232" y1="345" x2="575" y2="118" stroke="#e0645c" stroke-width="1.2" stroke-dasharray="4 4" opacity="0.55"/>
+  <text x="500" y="150" fill="#e0645c" font-size="11" opacity="0.7">higher Tc</text>
+  <line x1="80" y1="289" x2="470" y2="60" stroke="#e0645c" stroke-width="1.2" stroke-dasharray="4 4" opacity="0.55"/>
+  <text x="120" y="256" fill="#e0645c" font-size="11" opacity="0.7">lower Tc</text>
+
+  <!-- ===== heat generated G(T): S-shaped ===== -->
+  <path d="M 102 345 L 145 344 L 189 344 L 232 340 L 276 320 L 300 296 L 319 272 L 341 233 L 363 197 L 384 162 L 406 132 L 428 111 L 450 95 L 472 83 L 493 79 L 515 74 L 537 71 L 569 69"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="470" y="58" fill="#4a90d9" font-size="13">G(T) generated</text>
+
+  <!-- ===== heat removed R(T): straight line ===== -->
+  <line x1="102" y1="345" x2="545" y2="60" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="150" y="330" fill="#e0645c" font-size="13">R(T) removed</text>
+
+  <!-- ===== three steady states ===== -->
+  <circle cx="102" cy="345" r="5" fill="#8a8a8a"/>
+  <text x="96" y="332" fill="#8a8a8a" font-size="12">1 low</text>
+  <text x="72" y="392" fill="#8a8a8a" font-size="11">(extinguished)</text>
+
+  <circle cx="384" cy="162" r="5" fill="#8a8a8a"/>
+  <text x="392" y="160" fill="#8a8a8a" font-size="12">2 unstable</text>
+
+  <circle cx="526" cy="72" r="5" fill="#8a8a8a"/>
+  <text x="470" y="102" fill="#8a8a8a" font-size="12">3 high (ignited)</text>
+
+  <!-- ===== jump arrows ===== -->
+  <!-- ignition: raise Tc, low state vanishes, jump up -->
+  <line x1="330" y1="252" x2="330" y2="120" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="330,112 325,124 335,124" fill="#e0645c"/>
+  <text x="336" y="200" fill="#e0645c" font-size="12">ignition</text>
+
+  <!-- extinction: lower Tc, high state vanishes, jump down -->
+  <line x1="446" y1="118" x2="446" y2="290" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="446,298 441,286 451,286" fill="#8a8a8a"/>
+  <text x="452" y="230" fill="#8a8a8a" font-size="12">extinction</text>
+</svg>

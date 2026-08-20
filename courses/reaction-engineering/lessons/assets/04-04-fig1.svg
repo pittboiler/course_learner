@@ -1,0 +1,57 @@
+<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">A must cross the film (drop to C_As) before it even enters the pellet, then diffuse inward to a starved core.</text>
+
+  <!-- axes -->
+  <line x1="70" y1="300" x2="590" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="590,300 580,295 580,305" fill="#8a8a8a"/>
+  <text x="560" y="320" fill="#8a8a8a">radius r</text>
+  <line x1="70" y1="300" x2="70" y2="70" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,70 65,80 75,80" fill="#8a8a8a"/>
+  <text x="30" y="66" fill="#8a8a8a">C_A</text>
+
+  <!-- region boundaries: bulk | film | pellet -->
+  <line x1="250" y1="300" x2="250" y2="80" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="310" y1="300" x2="310" y2="80" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- concentration guides -->
+  <line x1="70" y1="90" x2="250" y2="90" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 4"/>
+  <line x1="70" y1="170" x2="310" y2="170" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 4"/>
+
+  <!-- bulk: flat concentration -->
+  <path d="M 70 90 L 250 90" fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- film: linear drop from C_Ab to C_As -->
+  <path d="M 250 90 L 310 170" fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- pellet interior: decay toward starved core -->
+  <path d="M 310 170 C 360 198 410 232 460 253 S 520 266 540 268" fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- highlight the film drop -->
+  <line x1="278" y1="112" x2="298" y2="140" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="256" y="112" fill="#e0645c" font-size="12">film drop</text>
+
+  <!-- concentration labels -->
+  <text x="34" y="94" fill="#4a90d9" font-size="13">C<tspan font-size="9" dy="3">Ab</tspan></text>
+  <text x="34" y="174" fill="#4a90d9" font-size="13">C<tspan font-size="9" dy="3">As</tspan></text>
+
+  <!-- starved core marker -->
+  <circle cx="540" cy="268" r="4" fill="#e0645c"/>
+  <text x="470" y="292" fill="#e0645c" font-size="12">starved core</text>
+
+  <!-- region captions -->
+  <text x="120" y="345" fill="#8a8a8a" font-size="12">bulk fluid</text>
+  <text x="252" y="345" fill="#8a8a8a" font-size="12">film</text>
+  <text x="380" y="345" fill="#8a8a8a" font-size="12">pellet (pores + reaction)</text>
+
+  <!-- three resistances in series strip -->
+  <text x="70" y="372" fill="#8a8a8a" font-size="12">resistances in series:</text>
+  <rect x="205" y="360" width="70" height="16" rx="2" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="1.2"/>
+  <text x="212" y="372" fill="#4a90d9" font-size="11">1/k_c film</text>
+  <line x1="275" y1="368" x2="295" y2="368" stroke="#8a8a8a" stroke-width="1.2"/>
+  <rect x="295" y="360" width="72" height="16" rx="2" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="1.2"/>
+  <text x="302" y="372" fill="#4a90d9" font-size="11">pore diff.</text>
+  <line x1="367" y1="368" x2="387" y2="368" stroke="#8a8a8a" stroke-width="1.2"/>
+  <rect x="387" y="360" width="72" height="16" rx="2" fill="#e0645c" opacity="0.15" stroke="#e0645c" stroke-width="1.2"/>
+  <text x="394" y="372" fill="#e0645c" font-size="11">reaction</text>
+</svg>

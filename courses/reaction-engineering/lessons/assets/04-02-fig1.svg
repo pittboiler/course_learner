@@ -1,0 +1,73 @@
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">One catalytic turnover = adsorb, react on the surface, desorb. One step is slow; the rest sit at equilibrium.</text>
+
+  <!-- ================= LEFT: the catalytic cycle ================= -->
+
+  <!-- central active site -->
+  <circle cx="205" cy="168" r="30" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="205" y="164" fill="#8a8a8a" font-size="12" text-anchor="middle">active</text>
+  <text x="205" y="180" fill="#8a8a8a" font-size="12" text-anchor="middle">site  S</text>
+
+  <!-- Box A: adsorption (top) -->
+  <rect x="120" y="49" width="170" height="52" rx="7" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="205" y="70" fill="#4a90d9" font-size="12" font-weight="bold" text-anchor="middle">1 &#183; Adsorption</text>
+  <text x="205" y="90" fill="#8a8a8a" font-size="13" text-anchor="middle">A + S &#8594; A&#183;S</text>
+
+  <!-- Box B: surface reaction (right) — RATE LIMITING -->
+  <rect x="240" y="229" width="170" height="52" rx="7" fill="none" stroke="#e0645c" stroke-width="3"/>
+  <text x="325" y="250" fill="#e0645c" font-size="12" font-weight="bold" text-anchor="middle">2 &#183; Surface reaction</text>
+  <text x="325" y="270" fill="#8a8a8a" font-size="13" text-anchor="middle">A&#183;S &#8594; B&#183;S</text>
+
+  <!-- Box C: desorption (left) -->
+  <rect x="8" y="229" width="170" height="52" rx="7" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="93" y="250" fill="#4a90d9" font-size="12" font-weight="bold" text-anchor="middle">3 &#183; Desorption</text>
+  <text x="93" y="270" fill="#8a8a8a" font-size="13" text-anchor="middle">B&#183;S &#8594; B + S</text>
+
+  <!-- arrow A -> B (right side) -->
+  <path d="M 290 95 Q 400 150 362 226" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="362,231 356,219 369,220" fill="#8a8a8a"/>
+
+  <!-- arrow B -> C (bottom) -->
+  <path d="M 243 278 Q 210 320 180 278" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="178,278 186,286 190,273" fill="#8a8a8a"/>
+
+  <!-- arrow C -> A (left side) -->
+  <path d="M 100 227 Q 40 150 140 99" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="143,101 131,98 137,110" fill="#8a8a8a"/>
+
+  <!-- fast / slow labels -->
+  <text x="398" y="150" fill="#8a8a8a" font-size="11">fast (eq.)</text>
+  <text x="150" y="335" fill="#8a8a8a" font-size="11" text-anchor="middle">fast (eq.)</text>
+  <text x="30" y="150" fill="#8a8a8a" font-size="11">fast (eq.)</text>
+  <text x="325" y="303" fill="#e0645c" font-size="11" font-weight="bold" text-anchor="middle">SLOW &#8594; sets the rate</text>
+
+  <!-- ================= RIGHT: the LHHW rate law ================= -->
+  <line x1="420" y1="55" x2="420" y2="360" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 5"/>
+
+  <text x="560" y="80" fill="#8a8a8a" font-size="13" font-weight="bold" text-anchor="middle">Surface-reaction-limited, single site:</text>
+
+  <!-- -r'_A = -->
+  <text x="452" y="152" fill="#8a8a8a" font-size="20">&#8722;r'</text>
+  <text x="481" y="158" fill="#8a8a8a" font-size="13">A</text>
+  <text x="492" y="152" fill="#8a8a8a" font-size="20">=</text>
+
+  <!-- numerator -->
+  <text x="600" y="140" fill="#e0645c" font-size="19" text-anchor="middle">k K<tspan font-size="12" dy="4">A</tspan><tspan dy="-4"> P</tspan><tspan font-size="12" dy="4">A</tspan></text>
+  <!-- fraction bar -->
+  <line x1="515" y1="152" x2="688" y2="152" stroke="#8a8a8a" stroke-width="2"/>
+  <!-- denominator -->
+  <text x="600" y="176" fill="#4a90d9" font-size="18" text-anchor="middle">1 + K<tspan font-size="11" dy="4">A</tspan><tspan dy="-4"> P</tspan><tspan font-size="11" dy="4">A</tspan><tspan font-size="18" dy="-4"> + K</tspan><tspan font-size="11" dy="4">B</tspan><tspan dy="-4"> P</tspan><tspan font-size="11" dy="4">B</tspan></text>
+
+  <!-- annotations -->
+  <text x="600" y="212" fill="#e0645c" font-size="11" text-anchor="middle">numerator: sites busy doing the slow step</text>
+
+  <text x="440" y="250" fill="#4a90d9" font-size="11">adsorption term = who competes for the surface:</text>
+  <text x="452" y="272" fill="#8a8a8a" font-size="11">1</text>
+  <text x="470" y="272" fill="#8a8a8a" font-size="11">bare sites</text>
+  <text x="452" y="292" fill="#8a8a8a" font-size="11">K<tspan font-size="9" dy="3">A</tspan><tspan dy="-3">P</tspan><tspan font-size="9" dy="3">A</tspan></text>
+  <text x="480" y="292" fill="#8a8a8a" font-size="11">sites holding A</text>
+  <text x="452" y="312" fill="#8a8a8a" font-size="11">K<tspan font-size="9" dy="3">B</tspan><tspan dy="-3">P</tspan><tspan font-size="9" dy="3">B</tspan></text>
+  <text x="480" y="312" fill="#8a8a8a" font-size="11">product B blocks sites &#8594; inhibition</text>
+
+  <text x="560" y="345" fill="#e0645c" font-size="12" text-anchor="middle" font-weight="bold">dual-site slow step &#8594; denominator SQUARED</text>
+</svg>

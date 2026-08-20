@@ -1,6 +1,6 @@
 # Precalculus — Syllabus
 
-> Foundations · Tier F · ~12 lessons · Prereqs: none · Roadmap id: `precalculus`
+> Foundations · Tier F · ~13 lessons · Prereqs: none · Roadmap id: `precalculus`
 
 ## Goal
 
@@ -45,6 +45,7 @@ The workhorse families — what each one does far from the origin, where it blow
 | 2.1 | Polynomial functions | Read end behavior and zeros straight off a factored polynomial | degree, leading coefficient, end behavior, real zeros, multiplicity, turning points |
 | 2.2 | Rational functions | Find every asymptote and hole, and sketch the curve between them | rational function, vertical asymptotes, holes, horizontal vs. slant asymptotes, end behavior |
 | 2.3 | Exponential and logarithmic functions | Convert between exponential and log form and model growth, decay, and log scales | $b^x$, $e$, $\log_b$, $\ln$, log laws, growth/decay, half-life, log scales (pH, decibels) |
+| 2.4 | Complex numbers | Do arithmetic with $i$, place a complex number on the plane, and read a negative discriminant as a conjugate pair | $i$, $a+bi$, conjugate, division by rationalizing, complex plane, modulus and argument, polar form, Euler's formula, conjugate root theorem |
 
 **Boss problem 2:** A drug's blood concentration follows $C(t)=\dfrac{20t}{t^{2}+4}$ (mg/L, $t$ in hours). Find its zeros, its long-run behavior as $t\to\infty$, and the time of peak concentration. Then, given that a second drug decays as $A(t)=A_0 e^{-0.15t}$, use logarithms to find its half-life and the time it falls to 10% of the initial dose.
 
@@ -78,3 +79,7 @@ Place curves and directed quantities on the plane, then walk up to the doorway t
 - Stewart, Redlin & Watson, *Precalculus: Mathematics for Calculus* — the standard calculus on-ramp; especially strong on functions and transformations.
 - Paul's Online Math Notes (Precalculus / Algebra review) — concise worked examples for asymptotes, logs, and conics.
 - [`trigonometry`](../trigonometry/syllabus.md) and [`algebra-foundations`](../algebra-foundations/syllabus.md) — the sibling Tier F courses this one assumes and cross-references.
+
+---
+
+- 2026-08-20: **Lesson 2.4 (Complex numbers) added.** Nothing below Tier 2 taught $i$, yet three courses already leaned on it: [`algebra-foundations` 4.1](../algebra-foundations/lessons/04-01-quadratic-equations.md) hits $\Delta<0$ and deferred the complex case, [`linalg-refresher` 3.1](../linalg-refresher/lessons/03-01-eigenvalues-eigenvectors.md) solves $\lambda^2+1=0$ to get $\lambda=\pm i$, and [`ode-refresher` 2.1](../ode-refresher/lessons/02-01-second-order-constant-coefficient.md) needs complex roots for the oscillatory case. Module 2 goes to four lessons and the course to 13; nothing renumbers. `algebra-foundations` 4.1 now points here instead of at `complex-analysis` 1.1.

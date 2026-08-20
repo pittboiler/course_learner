@@ -1,0 +1,72 @@
+<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">A real vessel behaves like N equal stirred tanks in a row; the RTD spread fixes N.</text>
+
+  <!-- top: tanks-in-series schematic -->
+  <line x1="20" y1="86" x2="56" y2="86" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="56,86 47,82 47,90" fill="#8a8a8a"/>
+  <text x="20" y="46" fill="#8a8a8a">feed</text>
+
+  <!-- tank 1 -->
+  <rect x="58" y="52" width="62" height="68" rx="4" fill="#4a90d9" opacity="0.12" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="89" y1="48" x2="89" y2="98" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="78" y1="98" x2="100" y2="98" stroke="#8a8a8a" stroke-width="1.5"/>
+  <!-- pipe -->
+  <line x1="120" y1="90" x2="140" y2="90" stroke="#8a8a8a" stroke-width="2"/>
+
+  <!-- tank 2 -->
+  <rect x="140" y="52" width="62" height="68" rx="4" fill="#4a90d9" opacity="0.12" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="171" y1="48" x2="171" y2="98" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="160" y1="98" x2="182" y2="98" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="202" y1="90" x2="222" y2="90" stroke="#8a8a8a" stroke-width="2"/>
+
+  <!-- tank 3 -->
+  <rect x="222" y="52" width="62" height="68" rx="4" fill="#4a90d9" opacity="0.12" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="253" y1="48" x2="253" y2="98" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="242" y1="98" x2="264" y2="98" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="284" y1="90" x2="304" y2="90" stroke="#8a8a8a" stroke-width="2"/>
+
+  <!-- tank 4 -->
+  <rect x="304" y="52" width="62" height="68" rx="4" fill="#4a90d9" opacity="0.12" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="335" y1="48" x2="335" y2="98" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="324" y1="98" x2="346" y2="98" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- outlet -->
+  <line x1="366" y1="86" x2="404" y2="86" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="404,86 395,82 395,90" fill="#8a8a8a"/>
+  <text x="412" y="82" fill="#4a90d9">N tanks in series</text>
+  <text x="412" y="100" fill="#8a8a8a">&#8776; one real reactor</text>
+
+  <!-- bottom: RTD curves -->
+  <line x1="60" y1="350" x2="592" y2="350" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="592,350 582,345 582,355" fill="#8a8a8a"/>
+  <text x="560" y="368" fill="#8a8a8a">&#952; = t/&#964;</text>
+  <line x1="60" y1="350" x2="60" y2="192" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="60,192 55,202 65,202" fill="#8a8a8a"/>
+  <text x="34" y="200" fill="#8a8a8a">E(&#952;)</text>
+
+  <!-- mean marker at theta = 1 -->
+  <line x1="227" y1="350" x2="227" y2="205" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="223" y="366" fill="#8a8a8a">1</text>
+
+  <!-- N=1 exponential (CSTR limit), grey dashed -->
+  <path d="M60,271 L143,302 L227,321 L310,332 L393,339 L477,344 L560,346"
+        fill="none" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="470" y="336" fill="#8a8a8a">N=1 (CSTR)</text>
+
+  <!-- N=2, blue thin -->
+  <path d="M60,350 L102,302 L143,292 L185,297 L227,307 L310,326 L393,338 L477,345 L560,348"
+        fill="none" stroke="#4a90d9" stroke-width="1.8" opacity="0.55"/>
+  <text x="150" y="286" fill="#4a90d9" opacity="0.8">N=2</text>
+
+  <!-- N=5, blue medium -->
+  <path d="M60,350 L93,344 L127,314 L160,284 L193,273 L227,281 L260,297 L310,321 L393,343 L477,347 L560,349"
+        fill="none" stroke="#4a90d9" stroke-width="2.4"/>
+  <text x="243" y="268" fill="#4a90d9">N=5</text>
+
+  <!-- N=20 near-PFR spike, coral -->
+  <path d="M143,338 L160,322 L177,293 L193,256 L210,223 L227,209 L243,223 L260,256 L277,293 L293,322 L310,338"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+  <text x="300" y="204" fill="#e0645c">N=20 (~PFR)</text>
+
+  <text x="360" y="300" fill="#8a8a8a" font-style="italic">larger N: sharper, more plug-like</text>
+</svg>

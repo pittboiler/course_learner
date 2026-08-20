@@ -147,5 +147,3 @@ This is a **Lorentzian** — real and even, as it must be since $f$ is real and 
 - **Forward:** [Lesson 2.3](02-03-convolution-theorem.md) adds the last algebraic rule, $\widehat{f*g}=\hat f\,\hat g$, which is what inverts the "divide in frequency" step of Example 2. The derivative rule then powers the heat and wave equations in [Lesson 4.3](04-03-heat-wave-equations.md), where $\partial_x^2\mapsto -4\pi^2\xi^2$ turns a PDE into a family of decoupled ODEs.
 - **Sideways (quantum mechanics):** the dual rule 5′ says multiplication by $x$ and differentiation in $\xi$ are Fourier-conjugate operations — exactly the position/momentum relationship. Pushing the decay↔smoothness duality to its sharpest form gives the [uncertainty principle](02-04-plancherel-uncertainty.md), the mathematical heart of [quantum-mechanics](../../quantum-mechanics/syllabus.md).
 - **Sideways (signals):** the modulation rule (Rule 3) is AM radio — lifting a baseband spectrum up to a carrier — and the shift rule's "delay = phase" is the basis of filter and delay-line design in the future [signals-systems](../../signals-systems/syllabus.md) course.
-</content>
-</invoke>

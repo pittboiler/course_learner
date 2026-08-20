@@ -1,0 +1,38 @@
+<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Down the packed bed: conversion X climbs while pressure p = P/P&#8320; sags. The two ODEs are coupled.</text>
+
+  <!-- axes -->
+  <line x1="80" y1="320" x2="580" y2="320" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="580,320 570,315 570,325" fill="#8a8a8a"/>
+  <text x="560" y="342" fill="#8a8a8a">W</text>
+  <text x="470" y="342" fill="#8a8a8a" font-size="11">catalyst weight</text>
+  <line x1="80" y1="320" x2="80" y2="70" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="80,70 75,80 85,80" fill="#8a8a8a"/>
+  <text x="66" y="326" fill="#8a8a8a">0</text>
+  <text x="60" y="76" fill="#8a8a8a">1</text>
+
+  <!-- inlet marker -->
+  <text x="70" y="60" fill="#8a8a8a" font-size="11">W = 0</text>
+
+  <!-- rising X(W): fast early, flattening -->
+  <path d="M 80 320 L 160 253 L 240 205 L 320 169 L 400 145 L 480 128 L 560 116"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="470" y="108" fill="#4a90d9" font-weight="bold">X (conversion)</text>
+
+  <!-- dashed: X if pressure held at p = 1 (no drop) -->
+  <path d="M 80 320 L 160 236 L 240 176 L 320 138 L 400 114 L 480 100 L 560 92"
+        fill="none" stroke="#4a90d9" stroke-width="1.5" stroke-dasharray="5 5" opacity="0.7"/>
+  <text x="300" y="120" fill="#4a90d9" font-size="11" opacity="0.85">no &#916;P (ideal)</text>
+
+  <!-- gap arrow: the pressure-drop penalty -->
+  <line x1="560" y1="116" x2="560" y2="92" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 3"/>
+  <text x="566" y="108" fill="#8a8a8a" font-size="11">penalty</text>
+
+  <!-- falling p(W) = sqrt(1 - alpha W) -->
+  <path d="M 80 80 L 160 97 L 240 116 L 320 135 L 400 157 L 480 183 L 560 212"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+  <text x="360" y="205" fill="#e0645c" font-weight="bold">p = P/P&#8320;</text>
+
+  <!-- coupling annotation -->
+  <text x="150" y="360" fill="#8a8a8a" font-size="11">lower p &#8594; lower C_A &#8594; slower rate &#8594; X falls short</text>
+</svg>

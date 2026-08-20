@@ -1,0 +1,50 @@
+<svg viewBox="0 0 470 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13" role="img" aria-label="The complex plane showing z = 3 + 2i with its modulus and argument, its conjugate 3 minus 2i reflected across the real axis, and i times z sitting a quarter turn counterclockwise around the same circle">
+
+  <!-- circle of radius |z| = sqrt(13), centre at the origin (200,180), 30px per unit -->
+  <circle cx="200" cy="180" r="108.2" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 5"/>
+
+  <!-- axes -->
+  <line x1="40" y1="180" x2="440" y2="180" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="200" y1="40" x2="200" y2="330" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="440,180 430,175 430,185" fill="#8a8a8a"/>
+  <polygon points="200,40 195,50 205,50" fill="#8a8a8a"/>
+  <text x="410" y="199" fill="#8a8a8a">Re</text>
+  <text x="209" y="52" fill="#8a8a8a">Im</text>
+
+  <!-- ticks -->
+  <text x="256" y="196" fill="#8a8a8a" font-size="11">2</text>
+  <text x="316" y="196" fill="#8a8a8a" font-size="11">4</text>
+  <text x="128" y="196" fill="#8a8a8a" font-size="11">&#8722;2</text>
+  <text x="182" y="126" fill="#8a8a8a" font-size="11">2i</text>
+  <text x="182" y="246" fill="#8a8a8a" font-size="11">&#8722;2i</text>
+
+  <!-- z = 3 + 2i, with its modulus drawn as the radius -->
+  <line x1="200" y1="180" x2="290" y2="120" stroke="#4a90d9" stroke-width="2.6"/>
+  <circle cx="290" cy="120" r="5" fill="#4a90d9"/>
+  <text x="298" y="114" fill="#4a90d9">z = 3 + 2i</text>
+  <text x="204" y="102" fill="#4a90d9" font-size="12">r = |z| = &#8730;13</text>
+
+  <!-- argument arc -->
+  <path d="M 245 180 A 45 45 0 0 0 237.4 155.0" fill="none" stroke="#8a8a8a" stroke-width="1.6"/>
+  <text x="233" y="172" fill="#8a8a8a" font-size="11">&#952; &#8776; 33.7&#176;</text>
+
+  <!-- conjugate: the same point reflected across the real axis -->
+  <line x1="200" y1="180" x2="290" y2="240" stroke="#e0645c" stroke-width="2.2" stroke-dasharray="5 4"/>
+  <circle cx="290" cy="240" r="5" fill="#e0645c"/>
+  <text x="298" y="252" fill="#e0645c">conjugate 3 &#8722; 2i</text>
+  <line x1="290" y1="120" x2="290" y2="240" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="298" y="214" fill="#e0645c" font-size="11">reflect across Re</text>
+
+  <!-- i times z: a quarter turn counterclockwise, same radius -->
+  <line x1="200" y1="180" x2="140" y2="90" stroke="#4a90d9" stroke-width="2.2" stroke-dasharray="6 4"/>
+  <circle cx="140" cy="90" r="5" fill="#4a90d9"/>
+  <text x="60" y="82" fill="#4a90d9">iz = &#8722;2 + 3i</text>
+
+  <!-- rotation arrow riding the circle from z to iz -->
+  <path d="M 290 120 A 108.2 108.2 0 0 0 140 90" fill="none" stroke="#8a8a8a" stroke-width="1.6"/>
+  <polygon points="140,90 150.5,87.8 146.1,81.2" fill="#8a8a8a"/>
+  <text x="176" y="66" fill="#8a8a8a" font-size="12">&#215; i turns 90&#176;, same r</text>
+
+  <!-- caption -->
+  <text x="235" y="348" fill="#8a8a8a" font-size="12" text-anchor="middle" font-style="italic">&#952; = arg z: conjugating flips its sign, multiplying by i adds 90&#176;</text>
+</svg>

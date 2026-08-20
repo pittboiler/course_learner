@@ -35,7 +35,7 @@ From ore to enriched UF6: where uranium comes from, why it must be enriched, and
 | 1.2 | Mining & milling | Explain how ore becomes yellowcake and what waste that leaves | conventional vs. in-situ leach, U₃O₈, tailings, recovery fraction |
 | 1.3 | Conversion & the enrichment mass balance | Compute feed/product/tails masses for an enrichment job | UF₆, assay $x$, feed–product–tails balance, tails assay tradeoff |
 | 1.4 | The centrifuge & separative work | Calculate SWU from the value function and say what a SWU buys | gas centrifuge, value function $V(x)=(2x-1)\ln\frac{x}{1-x}$, SWU |
-| 1.5 | The enrichment cascade & front-end cost | Assemble stages into a cascade and price a front-end fuel batch | ideal cascade, separation factor, stage recycle, $/SWU & $/kgU costing |
+| 1.5 | The enrichment cascade & front-end cost | Assemble stages into a cascade and price a front-end fuel batch | ideal cascade, separation factor, stage recycle, dollars per SWU and dollars per kgU costing |
 
 **Boss problem 1:** A utility needs 1 kg of uranium enriched to 4.5% U-235, from natural feed (0.711%). (a) For a tails assay of 0.25%, find the natural-uranium feed mass and the SWU required. (b) Recompute for a tails assay of 0.20%. (c) Explain in one sentence which input (feed or SWU) each change trades against, and how a rising uranium price would move the optimal tails assay. *(Uses the value function $V(x)=(2x-1)\ln[x/(1-x)]$.)*
 

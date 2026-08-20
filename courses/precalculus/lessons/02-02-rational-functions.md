@@ -37,7 +37,7 @@ where $P$ and $Q$ are polynomials. *In words:* one polynomial over another.
 
 *In words:* if the bottom wins the graph flattens to zero; a tie flattens to the ratio of leading coefficients; if the top wins by exactly one degree the graph tilts onto a straight line.
 
-**Finding a slant asymptote.** When $n=m+1$, do polynomial (long) division: $f(x)=(\text{line})+\dfrac{\text{remainder}}{Q(x)}$. The remainder term vanishes as $x\to\pm\infty$, so the line *is* the asymptote. For example,
+**Finding a slant asymptote.** When $n=m+1$, do polynomial (long) division — the method itself is [`algebra-foundations` 3.3](../../algebra-foundations/lessons/03-03-polynomial-division.md), and the recipe is on this course's [reference card](../reference.md#polynomial-long-division-how-you-get-a-slant-asymptote) — giving $f(x)=(\text{line})+\dfrac{\text{remainder}}{Q(x)}$. The remainder term vanishes as $x\to\pm\infty$, so the line *is* the asymptote. For example,
 $$\frac{x^2+1}{x-1}=x+1+\frac{2}{x-1}\ \Longrightarrow\ \text{slant asymptote } y=x+1.$$
 
 **Intercepts.** The $y$-intercept is $f(0)$ (if $0$ is in the domain). The $x$-intercepts are the zeros of the *numerator* that survive canceling — i.e. where $P(x)=0$ but $Q(x)\neq 0$.

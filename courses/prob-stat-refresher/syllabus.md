@@ -1,6 +1,6 @@
 # Probability & Statistics — Syllabus
 
-> Tier 0 · 12 lessons · Prereqs: [`calc-refresher`](../calc-refresher/syllabus.md) · Roadmap id: `prob-stat-refresher`
+> Tier 0 · 13 lessons · Prereqs: [`calc-refresher`](../calc-refresher/syllabus.md) · Roadmap id: `prob-stat-refresher`
 
 ## Goal
 
@@ -21,6 +21,7 @@ When you finish, you can:
 - [ ] Estimate a parameter (including by maximum likelihood) and describe its sampling distribution
 - [ ] Construct and interpret a confidence interval
 - [ ] Run a hypothesis test and interpret a p-value honestly
+- [ ] Say why $s^2$ divides by $n-1$, and where the chi-square and $t$ distributions come from
 
 ## Modules
 
@@ -69,6 +70,7 @@ Turning data into defensible claims.
 | 4.1 | Estimation, MLE, and sampling distributions | Estimate a parameter and describe how the estimate itself varies | estimator, bias, sample mean/variance, maximum likelihood, sampling distribution |
 | 4.2 | Confidence intervals | Build and correctly interpret an interval estimate | confidence interval, margin of error, $t$ vs. $z$, interpretation |
 | 4.3 | Hypothesis testing | Run a test and read a p-value without fooling yourself | null/alternative, test statistic, p-value, significance, errors & power (intro) |
+| 4.4 | Sampling distributions: chi-square and Student's $t$ | Justify the $n-1$ divisor and the $t$ multiplier the rest of Module 4 used on trust | degrees of freedom, unbiasedness of $s^2$, chi-square, Student's $t$, heavy tails, $t\to z$ |
 
 **Boss problem 4:** From a sample, estimate a mean (with its MLE where relevant), build a confidence interval, and test a hypothesis about it — then state precisely what the interval and the p-value do and do not claim.
 
@@ -77,3 +79,13 @@ Turning data into defensible claims.
 - Blitzstein & Hwang, *Introduction to Probability* (probability register, Bayes, distributions)
 - Wasserman, *All of Statistics* (inference, concision, the LLN/CLT framing)
 - Ross, *A First Course in Probability* (worked-example and problem style)
+
+## Syllabus notes
+
+- **2026-08-20 — Module 4 gained lesson 4.4 (chi-square, $s^2$, and Student's $t$).**
+  The reference-card retrofit flagged two facts this course *used* but nothing in
+  the library *taught*: the unbiasedness of $s^2$ under the $n-1$ divisor
+  (asserted in 4.1) and Student's $t$ with its degrees of freedom (relied on by
+  4.2 and 4.3). 4.4 closes both. Nothing renumbered; the course is now 13 lessons.
+  Boss problem 4 is unchanged — it can now also ask *why* the $t$ multiplier is
+  the one it is.

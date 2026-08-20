@@ -26,7 +26,7 @@ where $V$ is the tank volume. In words: salt accumulates at (what pours in) minu
 
 **Logistic equation.** $P' = rP\!\left(1 - \dfrac{P}{K}\right)$, with population $P(t)$, low-density growth rate $r>0$, and **carrying capacity** $K>0$. In words: growth is nearly exponential ($P'\approx rP$) when $P$ is small, but the factor $(1-P/K)$ throttles it to zero as $P\to K$ — resources run out. Equilibria at $P=0$ and $P=K$.
 
-**Equilibria and stability, precisely.** For any $y'=f(y)$, an equilibrium is a value $y^\*$ with $f(y^\*)=0$. It is **stable** if $f'(y^\*)<0$ (the rate pushes back toward $y^\*$) and **unstable** if $f'(y^\*)>0$. In words: a downward-crossing of $f$ traps nearby solutions; an upward-crossing repels them.
+**Equilibria and stability, precisely.** For any $y'=f(y)$, an equilibrium is a value $y^*$ with $f(y^*)=0$. It is **stable** if $f'(y^*)<0$ (the rate pushes back toward $y^*$) and **unstable** if $f'(y^*)>0$. In words: a downward-crossing of $f$ traps nearby solutions; an upward-crossing repels them.
 
 ## Picture
 
@@ -68,7 +68,7 @@ Then $T(10)=20+70\,e^{-1}=20+70(0.3679)=20+25.75 \approx 45.8°\text{C}.$
 
 **P2** Rate in $=(0.2\ \text{kg/L})(5\ \text{L/min})=1\ \text{kg/min}$. Rate out $=\dfrac{x}{100}(5)=0.05x\ \text{kg/min}$. So
 $$x' = 1 - 0.05x,\qquad x(0)=0.$$
-This is linear (or shift by the equilibrium): the equilibrium is $x^\*=1/0.05=20$. Let $w=x-20$, $w'=-0.05w$, $w(0)=-20$, giving $w=-20e^{-0.05t}$ and
+This is linear (or shift by the equilibrium): the equilibrium is $x^*=1/0.05=20$. Let $w=x-20$, $w'=-0.05w$, $w(0)=-20$, giving $w=-20e^{-0.05t}$ and
 $$x(t)=20\left(1-e^{-0.05t}\right).$$
 As $t\to\infty$, $x\to 20$ kg, so the long-run concentration is $20\ \text{kg}/100\ \text{L}=0.2\ \text{kg/L}$ — exactly the inflow concentration, as it must be: eventually the tank matches what pours in.
 *Check:* $x(0)=0$ ✓. $x'=20(0.05)e^{-0.05t}=e^{-0.05t}$; and $1-0.05x=1-(1-e^{-0.05t})=e^{-0.05t}$ ✓.

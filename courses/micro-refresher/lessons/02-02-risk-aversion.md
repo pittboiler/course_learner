@@ -81,7 +81,7 @@ Square-root utility is CRRA with $\gamma = \tfrac12$ — a mildly risk-averse ag
 
 **P2 (🟡)** (a) Verify CARA $u=-e^{-\alpha x}$ has constant $A(x)=\alpha$, and CRRA $u=\frac{x^{1-\gamma}}{1-\gamma}$ has constant $R(x)=\gamma$. (b) Using $A(x)=\frac{1}{2x}$ from Example 1, evaluate the approximation $\pi \approx \tfrac12 A(\mathbb{E}[x])\,\sigma^2$ for P1's gamble and compare to the exact $\pi$. Explain the direction of the error.
 
-**P3 (🔴, Boss-2 core)** An investor with CRRA utility $u(W)=\frac{W^{1-\gamma}}{1-\gamma}$ and initial wealth $w$ puts a share $\theta$ of wealth in a risky asset with random gross return $\tilde R$ and the rest in a safe asset with gross return $R_f$, so final wealth is $W=w\big[R_f+\theta(\tilde R - R_f)\big]$. (a) Write $\max_\theta \mathbb{E}[u(W)]$ and derive the first-order condition. (b) For a *small* risk — excess return $\tilde z = \tilde R - R_f$ with mean $\mu>0$ and variance $\sigma^2$ both small — show the optimal share is $\theta^\* \approx \dfrac{\mu\,R_f}{\gamma\,\sigma^2}$, and hence rises as relative risk aversion $\gamma$ falls. Note what happens to the dependence on $w$.
+**P3 (🔴, Boss-2 core)** An investor with CRRA utility $u(W)=\frac{W^{1-\gamma}}{1-\gamma}$ and initial wealth $w$ puts a share $\theta$ of wealth in a risky asset with random gross return $\tilde R$ and the rest in a safe asset with gross return $R_f$, so final wealth is $W=w\big[R_f+\theta(\tilde R - R_f)\big]$. (a) Write $\max_\theta \mathbb{E}[u(W)]$ and derive the first-order condition. (b) For a *small* risk — excess return $\tilde z = \tilde R - R_f$ with mean $\mu>0$ and variance $\sigma^2$ both small — show the optimal share is $\theta^* \approx \dfrac{\mu\,R_f}{\gamma\,\sigma^2}$, and hence rises as relative risk aversion $\gamma$ falls. Note what happens to the dependence on $w$.
 
 <details>
 <summary>Solutions</summary>
@@ -121,12 +121,12 @@ $$u'(W)\approx u'(wR_f) + u''(wR_f)\,\big(w\theta\tilde z\big).$$
 Insert into the FOC:
 $$0=\mathbb{E}[u'(W)\tilde z]\approx u'(wR_f)\,\mathbb{E}[\tilde z] + u''(wR_f)\,w\theta\,\mathbb{E}[\tilde z^2].$$
 With $\mathbb{E}[\tilde z]=\mu$ and, to leading order, $\mathbb{E}[\tilde z^2]=\mu^2+\sigma^2\approx\sigma^2$ (since $\mu$ is small, $\mu^2\ll\sigma^2$):
-$$u'(wR_f)\,\mu + u''(wR_f)\,w\theta\,\sigma^2 \approx 0 \;\Longrightarrow\; \theta^\* \approx \frac{-u'(wR_f)}{u''(wR_f)}\cdot\frac{\mu}{w\sigma^2}=\frac{1}{A(wR_f)}\cdot\frac{\mu}{w\sigma^2}.$$
+$$u'(wR_f)\,\mu + u''(wR_f)\,w\theta\,\sigma^2 \approx 0 \;\Longrightarrow\; \theta^* \approx \frac{-u'(wR_f)}{u''(wR_f)}\cdot\frac{\mu}{w\sigma^2}=\frac{1}{A(wR_f)}\cdot\frac{\mu}{w\sigma^2}.$$
 For CRRA, $A(wR_f)=\dfrac{\gamma}{wR_f}$, so $\dfrac{1}{A(wR_f)}=\dfrac{wR_f}{\gamma}$ and
-$$\theta^\* \approx \frac{wR_f}{\gamma}\cdot\frac{\mu}{w\sigma^2}=\frac{\mu R_f}{\gamma\,\sigma^2}.$$
-This is **decreasing in $\gamma$**: halve relative risk aversion and you roughly double the risky share. And the wealth $w$ has **cancelled** — CRRA investors hold the same *fraction* of wealth in the risky asset regardless of how rich they are (the constant-relative property, now a portfolio prediction; with $R_f\approx 1$ this is the familiar myopic share $\theta^\*\approx \mu/(\gamma\sigma^2)$).
+$$\theta^* \approx \frac{wR_f}{\gamma}\cdot\frac{\mu}{w\sigma^2}=\frac{\mu R_f}{\gamma\,\sigma^2}.$$
+This is **decreasing in $\gamma$**: halve relative risk aversion and you roughly double the risky share. And the wealth $w$ has **cancelled** — CRRA investors hold the same *fraction* of wealth in the risky asset regardless of how rich they are (the constant-relative property, now a portfolio prediction; with $R_f\approx 1$ this is the familiar myopic share $\theta^*\approx \mu/(\gamma\sigma^2)$).
 
-*Check:* $\theta^\*>0 \iff \mu>0$ (you only take a risky position for a positive risk premium); $\theta^\*\to\infty$ as $\gamma\to 0$ (a near-risk-neutral investor goes all-in); dimensionless, wealth-independent — all as CRRA requires. ✓
+*Check:* $\theta^*>0 \iff \mu>0$ (you only take a risky position for a positive risk premium); $\theta^*\to\infty$ as $\gamma\to 0$ (a near-risk-neutral investor goes all-in); dimensionless, wealth-independent — all as CRRA requires. ✓
 
 </details>
 

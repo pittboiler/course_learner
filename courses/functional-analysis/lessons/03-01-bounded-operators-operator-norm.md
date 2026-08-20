@@ -169,5 +169,3 @@ $$\|\varphi\| = \|u\| = \frac{1}{\sqrt{3}}.$$
 - **Sideways (linear algebra):** a matrix *is* a bounded operator between finite-dimensional spaces, and its operator norm is exactly the **spectral norm** (largest singular value) from [linalg-refresher](../../linalg-refresher/syllabus.md) — the ellipse picture here is the SVD's stretch factors.
 - **Sideways (physics):** in [quantum-mechanics](../../quantum-mechanics/syllabus.md), observables are operators on a Hilbert space — but the physically central ones (position, momentum, energy) are *unbounded*, exactly like $D$, which is why domains and self-adjointness (Module 5) are not optional bookkeeping but physics.
 - **Sideways (PDEs):** every differential operator in [pdes](../../pdes/syllabus.md) is unbounded for the same frequency reason as $D$ — the entire theory of weak solutions exists to tame this.
-</content>
-</invoke>

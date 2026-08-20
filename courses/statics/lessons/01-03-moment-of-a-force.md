@@ -1,6 +1,6 @@
 # Statics · Lesson 1.3: Moment of a force
 
-> ⏱ ~15 min · Module 1: Forces, moments & equilibrium · Builds on: [1.1 Forces as vectors & the FBD](01-01-forces-vectors-free-body-diagram.md), [1.2 Equilibrium of a particle](01-02-equilibrium-of-a-particle.md), cross product from [`linalg-refresher`](../../linalg-refresher/syllabus.md) · Unlocks: [1.4 Couples & equivalent systems](01-04-couples-equivalent-systems.md), [1.5 Rigid-body equilibrium & supports](01-05-rigid-body-equilibrium-supports.md)
+> ⏱ ~15 min · Module 1: Forces, moments & equilibrium · Builds on: [1.1 Forces as vectors & the FBD](01-01-forces-vectors-free-body-diagram.md), [1.2 Equilibrium of a particle](01-02-equilibrium-of-a-particle.md), the cross product from [`linalg-refresher` 1.4](../../linalg-refresher/lessons/01-04-cross-product-and-orientation.md) · Unlocks: [1.4 Couples & equivalent systems](01-04-couples-equivalent-systems.md), [1.5 Rigid-body equilibrium & supports](01-05-rigid-body-equilibrium-supports.md)
 
 ## Why this matters
 
@@ -10,7 +10,7 @@ A force doesn't just push a body — if the body has size, the same force also *
 
 Push on a door. Push right next to the hinge and nothing happens; push at the far edge and it swings easily. Same force, wildly different effect — because what turns the door is the force **times how far its line of action passes from the hinge**. That perpendicular distance is the **lever arm**. Big lever arm, big twist. Push straight *at* the hinge (zero lever arm) and there's no twist at all, no matter how hard you shove.
 
-So a moment needs three ingredients: a force, a point you're twisting about, and the perpendicular distance between them. And it has a *sense* — clockwise or counterclockwise. In 2D we track that with a sign; in 3D the twist happens about an *axis*, and we point along that axis with the right-hand rule. The clean machine that packages all of this — magnitude, lever arm, and sense — in one stroke is the cross product $\vec r \times \vec F$ you met in [`linalg-refresher`](../../linalg-refresher/syllabus.md). This lesson is really just: *moment = cross product, wearing a mechanics uniform.*
+So a moment needs three ingredients: a force, a point you're twisting about, and the perpendicular distance between them. And it has a *sense* — clockwise or counterclockwise. In 2D we track that with a sign; in 3D the twist happens about an *axis*, and we point along that axis with the right-hand rule. The clean machine that packages all of this — magnitude, lever arm, and sense — in one stroke is the cross product $\vec r \times \vec F$ you met in [`linalg-refresher` 1.4](../../linalg-refresher/lessons/01-04-cross-product-and-orientation.md). This lesson is really just: *moment = cross product, wearing a mechanics uniform.*
 
 ## The formal version
 
@@ -103,7 +103,7 @@ Each component is a twist about a coordinate axis: e.g. the moment of this force
 
 **P2 (🟡)** A force $\vec F = -30\,\hat{i} + 40\,\hat{j}$ (N) acts at the point $\vec r = 2\,\hat{i} - \hat{j}$ (m) on a bracket, measured from the support $O$. (a) Find $M_O$ using components and state its sense. (b) Confirm by finding the perpendicular lever arm $d$ and checking $M_O = Fd$.
 
-**P3 (🔴, optional)** A force $\vec F = -\hat{i} + 4\,\hat{j} + 2\,\hat{k}$ (N) acts at $\vec r = 3\,\hat{i} - 2\,\hat{j} + \hat{k}$ (m) from $O$. (a) Compute $\vec M_O$. (b) Find the moment of this force about the axis through $O$ in the direction $\hat{u} = \tfrac{1}{3}(2\,\hat{i} - \hat{j} + 2\,\hat{k})$. (This scalar-triple-product step is the same $\vec a\cdot(\vec b\times\vec c)$ from [`linalg-refresher`](../../linalg-refresher/syllabus.md).)
+**P3 (🔴, optional)** A force $\vec F = -\hat{i} + 4\,\hat{j} + 2\,\hat{k}$ (N) acts at $\vec r = 3\,\hat{i} - 2\,\hat{j} + \hat{k}$ (m) from $O$. (a) Compute $\vec M_O$. (b) Find the moment of this force about the axis through $O$ in the direction $\hat{u} = \tfrac{1}{3}(2\,\hat{i} - \hat{j} + 2\,\hat{k})$. (This scalar-triple-product step is the same $\vec a\cdot(\vec b\times\vec c)$ from [`linalg-refresher` 1.4](../../linalg-refresher/lessons/01-04-cross-product-and-orientation.md).)
 
 <details>
 <summary>Solutions</summary>
@@ -166,6 +166,6 @@ $$\boxed{T_B \approx 233\,\text{N}, \qquad T_A = 0.6527(233) \approx 152\,\text{
 
 ## Connections
 
-- **Backward:** this reuses force components and free-body thinking from [1.1](01-01-forces-vectors-free-body-diagram.md), and the perpendicular distance $d = r\sin\phi$ is the same trig you resolved forces with in [1.2](01-02-equilibrium-of-a-particle.md). Varignon is literally the distributive law of the cross product from [`linalg-refresher`](../../linalg-refresher/syllabus.md).
+- **Backward:** this reuses force components and free-body thinking from [1.1](01-01-forces-vectors-free-body-diagram.md), and the perpendicular distance $d = r\sin\phi$ is the same trig you resolved forces with in [1.2](01-02-equilibrium-of-a-particle.md). Varignon is literally the distributive law of the cross product from [`linalg-refresher` 1.4](../../linalg-refresher/lessons/01-04-cross-product-and-orientation.md).
 - **Forward:** a moment with no net force is a **couple** ([1.4](01-04-couples-equivalent-systems.md)), and $\sum M_O = 0$ becomes the second half of rigid-body equilibrium in [1.5](01-05-rigid-body-equilibrium-supports.md) — the equation that pins down reactions a force balance alone can't. It returns for internal bending moments in Module 4.
 - **Sideways:** $\vec M_O = \vec r \times \vec F$ **is** the linear-algebra cross product, and moment-about-an-axis is the scalar triple product $\hat u\cdot(\vec r\times\vec F)$. In `engineering-dynamics` the very same $\vec r\times\vec F$ is **torque**, the thing that produces angular acceleration ($\vec\tau = I\vec\alpha$) — here it's balanced to zero; there it drives the motion.

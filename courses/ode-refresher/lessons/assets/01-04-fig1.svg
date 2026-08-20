@@ -1,0 +1,39 @@
+<svg viewBox="0 0 560 372" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- faint axes through the centre of the contour map -->
+  <line x1="130" y1="175" x2="430" y2="175" stroke="#8a8a8a" stroke-width="1" opacity="0.45"/>
+  <line x1="270" y1="45" x2="270" y2="305" stroke="#8a8a8a" stroke-width="1" opacity="0.45"/>
+  <text x="436" y="180" fill="#8a8a8a" opacity="0.8">x</text>
+  <text x="258" y="40" fill="#8a8a8a" opacity="0.8">y</text>
+
+  <!-- level curves of F(x,y) = x^2 + xy + y^2, i.e. contours F = C -->
+  <ellipse cx="270" cy="175" rx="45" ry="26" transform="rotate(45 270 175)"
+           fill="none" stroke="#4a90d9" stroke-width="2.5" opacity="0.55"/>
+  <ellipse cx="270" cy="175" rx="78" ry="45" transform="rotate(45 270 175)"
+           fill="none" stroke="#4a90d9" stroke-width="2.5" opacity="0.75"/>
+  <ellipse cx="270" cy="175" rx="110" ry="64" transform="rotate(45 270 175)"
+           fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <ellipse cx="270" cy="175" rx="149" ry="86" transform="rotate(45 270 175)"
+           fill="none" stroke="#4a90d9" stroke-width="2.5" opacity="0.55"/>
+
+  <!-- the point where the gradient and the tangent step are drawn -->
+  <circle cx="315" cy="130" r="4.5" fill="#e0645c"/>
+
+  <!-- tangent direction (dx, dy): the step that stays on the contour -->
+  <line x1="277" y1="92" x2="353" y2="168" stroke="#8a8a8a" stroke-width="2.5" stroke-dasharray="5 4"/>
+  <polygon points="356,171 344,167 348,159" fill="#8a8a8a"/>
+  <text x="356" y="202" fill="#8a8a8a">(dx, dy)</text>
+
+  <!-- gradient (M, N), normal to the contour -->
+  <line x1="315" y1="130" x2="352" y2="93" stroke="#e0645c" stroke-width="3"/>
+  <polygon points="357,88 344,92 353,101" fill="#e0645c"/>
+  <text x="330" y="80" fill="#e0645c">(M, N) = grad F</text>
+
+  <!-- contour labels -->
+  <text x="380" y="272" fill="#4a90d9">F = C</text>
+  <line x1="378" y1="266" x2="360" y2="252" stroke="#4a90d9" stroke-width="1.5" opacity="0.7"/>
+  <text x="196" y="310" fill="#4a90d9" opacity="0.8">larger C outward</text>
+
+  <!-- caption -->
+  <text x="30" y="340" fill="#8a8a8a" font-style="italic">M dx + N dy = 0 says the step (dx, dy) is perpendicular to (M, N),</text>
+  <text x="30" y="358" fill="#8a8a8a" font-style="italic">so a solution can never leave its contour: the solutions ARE F(x, y) = C.</text>
+</svg>

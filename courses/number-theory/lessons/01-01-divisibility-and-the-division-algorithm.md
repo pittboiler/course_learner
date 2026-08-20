@@ -112,5 +112,3 @@ Reading it back: keys collide in an $n$-slot table exactly when their difference
 - **Forward:** Lesson 2.1 promotes P3's "same remainder" relation to congruence $a \equiv a' \pmod n$, the notation that runs the rest of the course.
 - **Sideways (discrete math):** `discrete-mathematics` covers this same division algorithm and gcd, but stops at computation; here we prove existence/uniqueness and will build unique factorization on top of it.
 - **Sideways (CS):** the hash slot $h(k) = k \bmod n$ in Example 2 is the division algorithm's remainder, and P3 is exactly the collision condition behind modular hashing.
-</content>
-</invoke>

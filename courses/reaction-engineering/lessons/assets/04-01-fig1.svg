@@ -1,0 +1,56 @@
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="24" y="24" fill="#8a8a8a" font-style="italic">Coverage rises linearly, then saturates: the surface can only hold one monolayer.</text>
+
+  <!-- axes -->
+  <line x1="90" y1="330" x2="480" y2="330" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="480,330 470,325 470,335" fill="#8a8a8a"/>
+  <text x="440" y="352" fill="#8a8a8a" font-size="13">P<tspan font-size="10" dy="4">A</tspan></text>
+  <line x1="90" y1="330" x2="90" y2="80" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="90,80 85,90 95,90" fill="#8a8a8a"/>
+  <text x="52" y="86" fill="#8a8a8a" font-size="13">&#952;<tspan font-size="10" dy="4">A</tspan></text>
+
+  <!-- theta = 1 plateau line -->
+  <line x1="90" y1="100" x2="480" y2="100" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="96" y="94" fill="#8a8a8a" font-size="11">&#952;<tspan font-size="9" dy="3">A</tspan><tspan dy="-3"> = 1  (all sites full)</tspan></text>
+
+  <!-- low-P tangent: theta = K P -->
+  <line x1="90" y1="330" x2="128" y2="100" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="132" y="150" fill="#e0645c" font-size="12">low P: &#952;<tspan font-size="9" dy="3">A</tspan><tspan dy="-3"> = K</tspan><tspan font-size="9" dy="3">A</tspan><tspan dy="-3">P</tspan><tspan font-size="9" dy="3">A</tspan></text>
+  <text x="132" y="166" fill="#e0645c" font-size="12">(linear &#8594; first order)</text>
+
+  <!-- Langmuir isotherm curve theta = K P /(1+K P) -->
+  <path d="M 90 330 L 109 253 L 128 215 L 166 177 L 204 158 L 242 146 L 280 139 L 318 133 L 356 129 L 394 126 L 432 123 L 470 121" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="300" y="112" fill="#4a90d9" font-size="13">&#952;<tspan font-size="10" dy="4">A</tspan><tspan dy="-4"> = K</tspan><tspan font-size="10" dy="4">A</tspan><tspan dy="-4">P</tspan><tspan font-size="10" dy="4">A</tspan><tspan dy="-4"> / (1 + K</tspan><tspan font-size="10" dy="4">A</tspan><tspan dy="-4">P</tspan><tspan font-size="10" dy="4">A</tspan><tspan dy="-4">)</tspan></text>
+
+  <!-- high-P saturation annotation -->
+  <text x="330" y="164" fill="#8a8a8a" font-size="12">high P: &#952;<tspan font-size="9" dy="3">A</tspan><tspan dy="-3"> &#8594; 1  (zero order)</tspan></text>
+
+  <!-- ============ inset: site lattice ============ -->
+  <text x="512" y="70" fill="#8a8a8a" font-size="12" font-weight="bold">Active sites (monolayer)</text>
+
+  <!-- solid surface bar -->
+  <rect x="512" y="200" width="168" height="18" fill="#8a8a8a" opacity="0.35"/>
+  <text x="512" y="236" fill="#8a8a8a" font-size="11">solid catalyst</text>
+
+  <!-- site stems -->
+  <line x1="528" y1="200" x2="528" y2="188" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="556" y1="200" x2="556" y2="188" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="584" y1="200" x2="584" y2="188" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="612" y1="200" x2="612" y2="188" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="640" y1="200" x2="640" y2="188" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="668" y1="200" x2="668" y2="188" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- occupied sites (A molecules, blue) -->
+  <circle cx="528" cy="178" r="9" fill="#4a90d9"/>
+  <circle cx="556" cy="178" r="9" fill="#4a90d9"/>
+  <circle cx="612" cy="178" r="9" fill="#4a90d9"/>
+  <circle cx="668" cy="178" r="9" fill="#4a90d9"/>
+  <!-- empty sites (open circles) -->
+  <circle cx="584" cy="178" r="9" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <circle cx="640" cy="178" r="9" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <text x="512" y="272" fill="#4a90d9" font-size="11">&#9679; occupied = fraction &#952;<tspan font-size="9" dy="3">A</tspan></text>
+  <text x="512" y="292" fill="#8a8a8a" font-size="11">&#9711; vacant = 1 &#8722; &#952;<tspan font-size="9" dy="3">A</tspan></text>
+  <text x="512" y="316" fill="#8a8a8a" font-size="11">one gas molecule per site,</text>
+  <text x="512" y="332" fill="#8a8a8a" font-size="11">no stacking, no neighbor talk</text>
+</svg>

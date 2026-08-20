@@ -62,7 +62,7 @@ Sanity check: $\varphi(2^3)\varphi(3^2) = (8-4)(9-3) = 4\cdot 6 = 24$. ✓ Notic
 $$\varphi(100) = 100\left(1-\tfrac12\right)\left(1-\tfrac15\right) = 100\cdot\tfrac12\cdot\tfrac45 = 40.$$
 $\gcd(7,100)=1$, so $7^{40}\equiv 1 \pmod{100}$. Reduce the exponent mod $40$: $803 = 40\cdot 20 + 3$, hence
 $$7^{803} \equiv 7^{3} = 343 \equiv 43 \pmod{100}.$$
-The last two digits are $\mathbf{43}$. This "reduce the exponent modulo $\varphi(n)$" move is *exactly* the identity RSA decryption leans on (Lesson [5.4](../../number-theory/lessons/05-04-rsa-cryptosystem.md)): a decryption exponent is chosen so that raising to it undoes encryption, precisely because exponents live mod $\varphi(n)$.
+The last two digits are $\mathbf{43}$. This "reduce the exponent modulo $\varphi(n)$" move is *exactly* the identity RSA decryption leans on (Lesson [5.4](../../number-theory/lessons/05-04-the-rsa-cryptosystem.md)): a decryption exponent is chosen so that raising to it undoes encryption, precisely because exponents live mod $\varphi(n)$.
 
 ## Watch out
 
@@ -80,7 +80,7 @@ The last two digits are $\mathbf{43}$. This "reduce the exponent modulo $\varphi
 
 **P2 (🟡)** Use Euler's theorem to find $3^{1000} \bmod 14$. (Show the coprimality check, the value of $\varphi(14)$, and the exponent reduction.)
 
-**P3 (🔴, optional)** RSA preview. Let $n = 55 = 5\cdot 11$. Compute $\varphi(n)$, then find the integer $d$ with $1\le d < \varphi(n)$ satisfying $7d \equiv 1 \pmod{\varphi(n)}$. (This $d$ is the "decryption exponent" for public exponent $e=7$; you're inverting $7$ modulo $\varphi(n)$ exactly as in Lesson [5.4](../../number-theory/lessons/05-04-rsa-cryptosystem.md).)
+**P3 (🔴, optional)** RSA preview. Let $n = 55 = 5\cdot 11$. Compute $\varphi(n)$, then find the integer $d$ with $1\le d < \varphi(n)$ satisfying $7d \equiv 1 \pmod{\varphi(n)}$. (This $d$ is the "decryption exponent" for public exponent $e=7$; you're inverting $7$ modulo $\varphi(n)$ exactly as in Lesson [5.4](../../number-theory/lessons/05-04-the-rsa-cryptosystem.md).)
 
 <details>
 <summary>Solutions</summary>
@@ -113,5 +113,5 @@ Hence $3^{100}\equiv \boxed{4} \pmod 7$. (Euler's theorem agrees here, since $\v
 ## Connections
 
 - **Backward:** this is Fermat's little theorem (Lesson [3.1](../../number-theory/lessons/03-01-fermats-little-theorem.md)) generalized — the residue-rearrangement proof is the same argument, run over the units instead of over all nonzero residues. Multiplicativity of $\varphi$ is the Chinese Remainder Theorem (Lesson [2.4](../../number-theory/lessons/02-04-chinese-remainder-theorem.md)) counting units on both sides of the isomorphism.
-- **Forward:** Lesson [3.3](../../number-theory/lessons/03-03-order-and-group-of-units.md) sharpens "$a^{\varphi(n)}\equiv 1$" into "the **order** of $a$ *divides* $\varphi(n)$," which pins down the smallest exponent that works. Lesson [4.1](../../number-theory/lessons/04-01-arithmetic-functions-mobius.md) makes multiplicativity a first-class object — $\varphi$ joins $\tau,\sigma,\mu$ as a *multiplicative function*. Lesson [5.4](../../number-theory/lessons/05-04-rsa-cryptosystem.md) uses $ed\equiv 1 \pmod{\varphi(n)}$ (exactly P3) to make RSA decryption correct.
+- **Forward:** Lesson [3.3](../../number-theory/lessons/03-03-order-and-the-unit-group.md) sharpens "$a^{\varphi(n)}\equiv 1$" into "the **order** of $a$ *divides* $\varphi(n)$," which pins down the smallest exponent that works. Lesson [4.1](../../number-theory/lessons/04-01-arithmetic-functions-and-mobius-inversion.md) makes multiplicativity a first-class object — $\varphi$ joins $\tau,\sigma,\mu$ as a *multiplicative function*. Lesson [5.4](../../number-theory/lessons/05-04-the-rsa-cryptosystem.md) uses $ed\equiv 1 \pmod{\varphi(n)}$ (exactly P3) to make RSA decryption correct.
 - **Sideways (algebra):** $\varphi(n)$ is the *order* (size) of the group of units $(\mathbb{Z}/n\mathbb{Z})^\times$, and Euler's theorem is Lagrange's theorem for that group — "element raised to the group's order is the identity." You'll meet this as a general fact about finite groups in [abstract-algebra](../../abstract-algebra/syllabus.md); here you're getting a fully concrete first instance.

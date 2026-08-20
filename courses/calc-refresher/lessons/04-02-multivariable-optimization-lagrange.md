@@ -33,8 +33,8 @@ In words: $D>0$ means the surface bends the same way along both axes (a cup or a
 $$\nabla f = \lambda\,\nabla g, \qquad g(x,y)=c.$$
 That's three scalar equations ($f_x=\lambda g_x$, $f_y=\lambda g_y$, and the constraint) in three unknowns $x,y,\lambda$. In words: find where a level curve of $f$ kisses the constraint curve tangentially. Compare $f$ at every solution to pick the max or min.
 
-**The multiplier is a shadow price.** If $f^\*(c)$ is the optimal value as a function of the constraint level $c$, then
-$$\lambda = \frac{d f^\*}{dc}.$$
+**The multiplier is a shadow price.** If $f^*(c)$ is the optimal value as a function of the constraint level $c$, then
+$$\lambda = \frac{d f^*}{dc}.$$
 In words: $\lambda$ is the marginal value of the constraint — the rate at which the best-attainable $f$ improves per unit you relax $c$.
 
 ## Picture
@@ -57,7 +57,7 @@ Minimize squared distance $f=x^2+y^2$ subject to $g=x+2y=10$ (squaring avoids th
 $$\nabla f=(2x,2y)=\lambda(1,2)=\lambda\nabla g \ \Rightarrow\ 2x=\lambda,\ 2y=2\lambda \Rightarrow y=2x.$$
 Feed into the constraint: $x+2(2x)=10 \Rightarrow x=2,\ y=4$. Closest point $(2,4)$, distance $\sqrt{2^2+4^2}=\sqrt{20}=2\sqrt5$, and $\lambda=2x=4$. Geometrically the level curves of $f$ are circles, and the smallest circle touching the line does so where the line is tangent — perpendicular from the origin, exactly what "closest" means.
 
-Read $\lambda$ as a shadow price: with the constraint at level $c$ (line $x+2y=c$) the minimum value is $f^\*(c)=c^2/5$, so $\dfrac{df^\*}{dc}=\dfrac{2c}{5}\Big|_{c=10}=4=\lambda$. ✓ Push the line one unit farther out and the squared distance grows by about $4$.
+Read $\lambda$ as a shadow price: with the constraint at level $c$ (line $x+2y=c$) the minimum value is $f^*(c)=c^2/5$, so $\dfrac{df^*}{dc}=\dfrac{2c}{5}\Big|_{c=10}=4=\lambda$. ✓ Push the line one unit farther out and the squared distance grows by about $4$.
 
 ## Watch out
 
@@ -73,7 +73,7 @@ Read $\lambda$ as a shadow price: with the constraint at level $c$ (line $x+2y=c
 
 **P1 (🟢)** Find and classify every critical point of $f(x,y)=x^2+xy+y^2-4x$ using the Hessian test.
 
-**P2 (🟡)** Use Lagrange multipliers to maximize $f=xy$ subject to $x+y=10$. Report $\lambda$ and verify it equals $\dfrac{df^\*}{dc}$ by re-solving with the constraint at a general level $c$.
+**P2 (🟡)** Use Lagrange multipliers to maximize $f=xy$ subject to $x+y=10$. Report $\lambda$ and verify it equals $\dfrac{df^*}{dc}$ by re-solving with the constraint at a general level $c$.
 
 **P3 (🔴, optional — micro bridge)** A consumer has utility $U(x,y)=x^{1/2}y^{1/2}$ over quantities of two goods, prices $p_x=2$ and $p_y=4$ dollars, and income $m=80$ dollars, so the budget is $2x+4y=80$. Maximize $U$ with Lagrange, find the optimal bundle, and compute $\lambda$. Interpret $\lambda$ as the marginal utility of income (the budget's shadow price), and read the two Lagrange equations as the "equal bang-per-buck" rule.
 
@@ -83,12 +83,12 @@ Read $\lambda$ as a shadow price: with the constraint at level $c$ (line $x+2y=c
 **P1** $\nabla f=(2x+y-4,\ x+2y)=\mathbf 0$. From $f_y=0$: $x=-2y$. Sub into $f_x=0$: $2(-2y)+y-4=0 \Rightarrow -3y=4 \Rightarrow y=-\tfrac43,\ x=\tfrac83$. One critical point $\left(\tfrac83,-\tfrac43\right)$. Second partials: $f_{xx}=2$, $f_{yy}=2$, $f_{xy}=1$, so $D=2\cdot2-1^2=3>0$ with $f_{xx}=2>0$ → **local min** (in fact global — $f$ is an upward paraboloid). Value $f=\tfrac{64}{9}+\left(\tfrac83\right)\left(-\tfrac43\right)+\tfrac{16}{9}-4\cdot\tfrac83=\tfrac{64-32+16}{9}-\tfrac{96}{9}=-\tfrac{48}{9}=-\tfrac{16}{3}$.
 *Verify:* $f_x=2\cdot\tfrac83-\tfrac43-4=\tfrac{16-4-12}{3}=0$ ✓ and $f_y=\tfrac83-\tfrac83=0$ ✓.
 
-**P2** $\nabla f=(y,x)=\lambda(1,1)=\lambda\nabla g \Rightarrow y=\lambda,\ x=\lambda \Rightarrow x=y$. Constraint $2x=10 \Rightarrow x=y=5$, $f^\*=25$, and $\lambda=5$. General level: max $xy$ on $x+y=c$ gives $x=y=c/2$, so $f^\*(c)=c^2/4$ and $\dfrac{df^\*}{dc}=\dfrac{c}{2}\Big|_{c=10}=5=\lambda$. ✓ (This is the Picture's optimum — the line tangent to the hyperbola $xy=25$.)
+**P2** $\nabla f=(y,x)=\lambda(1,1)=\lambda\nabla g \Rightarrow y=\lambda,\ x=\lambda \Rightarrow x=y$. Constraint $2x=10 \Rightarrow x=y=5$, $f^*=25$, and $\lambda=5$. General level: max $xy$ on $x+y=c$ gives $x=y=c/2$, so $f^*(c)=c^2/4$ and $\dfrac{df^*}{dc}=\dfrac{c}{2}\Big|_{c=10}=5=\lambda$. ✓ (This is the Picture's optimum — the line tangent to the hyperbola $xy=25$.)
 *Verify:* $(5,5)$ satisfies $x+y=10$, and $\nabla f=(5,5)=5(1,1)=\lambda\nabla g$. ✓
 
-**P3** $\nabla U=\left(\tfrac12 x^{-1/2}y^{1/2},\ \tfrac12 x^{1/2}y^{-1/2}\right)=\lambda(p_x,p_y)=\lambda(2,4)$. Divide the two equations: $\dfrac{U_x}{U_y}=\dfrac{y}{x}=\dfrac{p_x}{p_y}=\dfrac{2}{4} \Rightarrow y=\tfrac{x}{2}$, i.e. $p_x x=p_y y$ (spend equally on each good). Budget $2x+4y=80$ with $4y=2x$ gives $2x+2x=80 \Rightarrow x^\*=20,\ y^\*=10$. Utility $U^\*=\sqrt{20\cdot10}=\sqrt{200}=10\sqrt2\approx14.14$.
+**P3** $\nabla U=\left(\tfrac12 x^{-1/2}y^{1/2},\ \tfrac12 x^{1/2}y^{-1/2}\right)=\lambda(p_x,p_y)=\lambda(2,4)$. Divide the two equations: $\dfrac{U_x}{U_y}=\dfrac{y}{x}=\dfrac{p_x}{p_y}=\dfrac{2}{4} \Rightarrow y=\tfrac{x}{2}$, i.e. $p_x x=p_y y$ (spend equally on each good). Budget $2x+4y=80$ with $4y=2x$ gives $2x+2x=80 \Rightarrow x^*=20,\ y^*=10$. Utility $U^*=\sqrt{20\cdot10}=\sqrt{200}=10\sqrt2\approx14.14$.
 
-Multiplier from either equation: $\lambda=\dfrac{U_x}{p_x}=\dfrac{\tfrac12\sqrt{y/x}}{2}=\dfrac{\tfrac12\sqrt{10/20}}{2}=\dfrac{\tfrac12\cdot\tfrac{1}{\sqrt2}}{2}=\dfrac{1}{4\sqrt2}\approx0.177$ utils per dollar. This is the **marginal utility of income**: one extra dollar of budget buys about $0.177$ more utils at the optimum — the budget's shadow price. Cross-check via the value function $U^\*(m)=\dfrac{m}{2\sqrt{p_xp_y}}=\dfrac{m}{4\sqrt2}$, so $\dfrac{dU^\*}{dm}=\dfrac{1}{4\sqrt2}=\lambda$. ✓ Finally, $\nabla U=\lambda\nabla g$ read component-wise says $\dfrac{U_x}{p_x}=\dfrac{U_y}{p_y}=\lambda$: the **equal-marginal-utility-per-dollar** ("bang for buck") condition — at the optimum, the last dollar spent on either good delivers the same extra utility, else you'd reallocate.
+Multiplier from either equation: $\lambda=\dfrac{U_x}{p_x}=\dfrac{\tfrac12\sqrt{y/x}}{2}=\dfrac{\tfrac12\sqrt{10/20}}{2}=\dfrac{\tfrac12\cdot\tfrac{1}{\sqrt2}}{2}=\dfrac{1}{4\sqrt2}\approx0.177$ utils per dollar. This is the **marginal utility of income**: one extra dollar of budget buys about $0.177$ more utils at the optimum — the budget's shadow price. Cross-check via the value function $U^*(m)=\dfrac{m}{2\sqrt{p_xp_y}}=\dfrac{m}{4\sqrt2}$, so $\dfrac{dU^*}{dm}=\dfrac{1}{4\sqrt2}=\lambda$. ✓ Finally, $\nabla U=\lambda\nabla g$ read component-wise says $\dfrac{U_x}{p_x}=\dfrac{U_y}{p_y}=\lambda$: the **equal-marginal-utility-per-dollar** ("bang for buck") condition — at the optimum, the last dollar spent on either good delivers the same extra utility, else you'd reallocate.
 *Verify:* budget $2(20)+4(10)=80$ ✓; bang-per-buck $U_x/p_x=\tfrac12\sqrt{10/20}/2=0.177$ and $U_y/p_y=\tfrac12\sqrt{20/10}/4=\tfrac12\sqrt2/4=0.177$ — equal. ✓
 
 </details>
@@ -100,7 +100,7 @@ Multiplier from either equation: $\lambda=\dfrac{U_x}{p_x}=\dfrac{\tfrac12\sqrt{
 <details>
 <summary>Solution</summary>
 
-Let $x$ be each of the two sides perpendicular to the wall and $y$ the side parallel to it. Fence used: $2x+y=40$, so $y=40-2x$. Area $A(x)=x(40-2x)=40x-2x^2$. Then $A'(x)=40-4x=0 \Rightarrow x=10$, hence $y=20$, $A=200\ \text{m}^2$. $A''(x)=-4<0$ → maximum. *Verify:* fence used $2(10)+20=40$ ✓. (This is a constraint optimization in single-variable disguise — the fence budget is the constraint; Lagrange would give the same answer with $\lambda=\tfrac{dA^\*}{d(\text{fence})}$, the marginal area per extra meter of fence.)
+Let $x$ be each of the two sides perpendicular to the wall and $y$ the side parallel to it. Fence used: $2x+y=40$, so $y=40-2x$. Area $A(x)=x(40-2x)=40x-2x^2$. Then $A'(x)=40-4x=0 \Rightarrow x=10$, hence $y=20$, $A=200\ \text{m}^2$. $A''(x)=-4<0$ → maximum. *Verify:* fence used $2(10)+20=40$ ✓. (This is a constraint optimization in single-variable disguise — the fence budget is the constraint; Lagrange would give the same answer with $\lambda=\tfrac{dA^*}{d(\text{fence})}$, the marginal area per extra meter of fence.)
 
 </details>
 
@@ -110,5 +110,3 @@ Let $x$ be each of the two sides perpendicular to the wall and $y$ the side para
 - **Forward:** [4.3](04-03-multiple-integrals.md) integrates over the same 2D regions; and constrained critical points reappear whenever a system settles into equilibrium subject to a conservation law.
 - **Sideways (econ):** P3 *is* consumer theory — $\nabla U=\lambda\nabla g$ is the tangency of an indifference curve to the budget line, $\lambda$ is the marginal utility of income, and the component equations are the bang-per-buck rule. This is the machinery behind Boss problem 4 and every constrained-optimization result in `micro-refresher`. The bridge to name: **Lagrange multiplier ↔ constrained utility maximization ↔ shadow price of the budget**.
 - **Sideways (physics):** minimizing energy at fixed volume, or action under a constraint, runs the identical $\nabla f=\lambda\nabla g$ — the multiplier there carries units of pressure or force, the physical shadow price of the constraint.
-</content>
-</invoke>

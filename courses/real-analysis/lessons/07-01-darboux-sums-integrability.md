@@ -29,14 +29,14 @@ $$U(f,P)=\sum_{i=1}^n M_i\,\Delta x_i,\qquad L(f,P)=\sum_{i=1}^n m_i\,\Delta x_i
 
 > In words: $U$ is the total area of the always-too-big rectangles (tops at the sup), $L$ the always-too-small ones (tops at the inf). Since $m_i\le M_i$ on every piece, $L(f,P)\le U(f,P)$ for the same $P$.
 
-**Refinement lemma.** If $P^\*\supseteq P$ (i.e. $P^\*$ has all of $P$'s cut points plus more — a **refinement**), then
-$$L(f,P)\le L(f,P^\*)\le U(f,P^\*)\le U(f,P).$$
+**Refinement lemma.** If $P^*\supseteq P$ (i.e. $P^*$ has all of $P$'s cut points plus more — a **refinement**), then
+$$L(f,P)\le L(f,P^*)\le U(f,P^*)\le U(f,P).$$
 
 > In words: adding cut points can only *raise* the under-estimate and *lower* the over-estimate — refining never makes your trap worse.
 
-*Proof (the one-new-point case; the general case is this repeated).* Suppose $P^\*=P\cup\{c\}$ with $c\in(x_{i-1},x_i)$. Only the $i$th piece changes; every other term of $U$ is untouched. Let $M'=\sup_{[x_{i-1},c]}f$ and $M''=\sup_{[c,x_i]}f$. A sup over a **smaller** set can't be larger, so $M'\le M_i$ and $M''\le M_i$. Hence the one term $M_i\Delta x_i=M_i(c-x_{i-1})+M_i(x_i-c)$ is replaced by
+*Proof (the one-new-point case; the general case is this repeated).* Suppose $P^*=P\cup\{c\}$ with $c\in(x_{i-1},x_i)$. Only the $i$th piece changes; every other term of $U$ is untouched. Let $M'=\sup_{[x_{i-1},c]}f$ and $M''=\sup_{[c,x_i]}f$. A sup over a **smaller** set can't be larger, so $M'\le M_i$ and $M''\le M_i$. Hence the one term $M_i\Delta x_i=M_i(c-x_{i-1})+M_i(x_i-c)$ is replaced by
 $$M'(c-x_{i-1})+M''(x_i-c)\ \le\ M_i(c-x_{i-1})+M_i(x_i-c)=M_i\,\Delta x_i,$$
-so $U(f,P^\*)\le U(f,P)$. The inf version is symmetric — an inf over a smaller set can't be *smaller*, so $m',m''\ge m_i$ and $L$ can only go up. The middle inequality $L(f,P^\*)\le U(f,P^\*)$ is just $m_i\le M_i$ piecewise. $\blacksquare$
+so $U(f,P^*)\le U(f,P)$. The inf version is symmetric — an inf over a smaller set can't be *smaller*, so $m',m''\ge m_i$ and $L$ can only go up. The middle inequality $L(f,P^*)\le U(f,P^*)$ is just $m_i\le M_i$ piecewise. $\blacksquare$
 
 **Every lower sum is $\le$ every upper sum.** Take *any* two partitions $P_1,P_2$ and let $P=P_1\cup P_2$ (their **common refinement** — it refines both). Then
 $$L(f,P_1)\ \le\ L(f,P)\ \le\ U(f,P)\ \le\ U(f,P_2).$$

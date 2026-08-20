@@ -1,0 +1,58 @@
+<svg viewBox="0 0 760 352" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="15" role="img" aria-label="A long division tableau dividing 2x cubed minus 3x plus 5 by x minus 2. The quotient is 2x squared plus 4x plus 5 with remainder 15. Each row is annotated with the multiply step that produced it and the subtraction that follows.">
+
+  <text x="28" y="24" fill="#8a8a8a" font-size="12.5" font-style="italic">One round = divide the leading terms, multiply back, subtract. Repeat until the leftover degree drops below the divisor&#8217;s.</text>
+
+  <!-- ===== the division bracket ===== -->
+  <text x="118" y="92" fill="#8a8a8a" text-anchor="end">x &#8722; 2</text>
+  <line x1="126" y1="70" x2="126" y2="106" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="126" y1="70" x2="505" y2="70" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- ===== quotient, sitting above its own degree columns ===== -->
+  <text x="315" y="60" fill="#4a90d9" text-anchor="end" font-weight="bold">2x&#178;</text>
+  <text x="405" y="60" fill="#4a90d9" text-anchor="end" font-weight="bold">+ 4x</text>
+  <text x="485" y="60" fill="#4a90d9" text-anchor="end" font-weight="bold">+ 5</text>
+  <text x="525" y="60" fill="#4a90d9" font-size="11.5">&#8592; quotient</text>
+
+  <!-- ===== dividend ===== -->
+  <text x="220" y="92" fill="#8a8a8a" text-anchor="end">2x&#179;</text>
+  <text x="315" y="92" fill="#e0645c" text-anchor="end">+ 0x&#178;</text>
+  <text x="405" y="92" fill="#8a8a8a" text-anchor="end">&#8722; 3x</text>
+  <text x="485" y="92" fill="#8a8a8a" text-anchor="end">+ 5</text>
+  <text x="525" y="92" fill="#e0645c" font-size="11.5">0x&#178; placeholder: it holds the column</text>
+
+  <!-- ===== round 1 ===== -->
+  <text x="160" y="122" fill="#e0645c" text-anchor="end">&#8722;</text>
+  <text x="220" y="122" fill="#8a8a8a" text-anchor="end">2x&#179;</text>
+  <text x="315" y="122" fill="#8a8a8a" text-anchor="end">&#8722; 4x&#178;</text>
+  <text x="525" y="122" fill="#e0645c" font-size="11.5">multiply back: 2x&#178; &#215; (x &#8722; 2)</text>
+  <line x1="168" y1="134" x2="325" y2="134" stroke="#8a8a8a" stroke-width="1.2"/>
+
+  <text x="315" y="158" fill="#8a8a8a" text-anchor="end">4x&#178;</text>
+  <text x="405" y="158" fill="#8a8a8a" text-anchor="end">&#8722; 3x</text>
+  <text x="525" y="158" fill="#e0645c" font-size="11.5">subtract, then bring down &#8722;3x</text>
+
+  <!-- ===== round 2 ===== -->
+  <text x="250" y="188" fill="#e0645c" text-anchor="end">&#8722;</text>
+  <text x="315" y="188" fill="#8a8a8a" text-anchor="end">4x&#178;</text>
+  <text x="405" y="188" fill="#8a8a8a" text-anchor="end">&#8722; 8x</text>
+  <text x="525" y="188" fill="#e0645c" font-size="11.5">multiply back: 4x &#215; (x &#8722; 2)</text>
+  <line x1="258" y1="200" x2="415" y2="200" stroke="#8a8a8a" stroke-width="1.2"/>
+
+  <text x="405" y="224" fill="#8a8a8a" text-anchor="end">5x</text>
+  <text x="485" y="224" fill="#8a8a8a" text-anchor="end">+ 5</text>
+  <text x="525" y="224" fill="#e0645c" font-size="11.5">subtract, then bring down +5</text>
+
+  <!-- ===== round 3 ===== -->
+  <text x="340" y="254" fill="#e0645c" text-anchor="end">&#8722;</text>
+  <text x="405" y="254" fill="#8a8a8a" text-anchor="end">5x</text>
+  <text x="485" y="254" fill="#8a8a8a" text-anchor="end">&#8722; 10</text>
+  <text x="525" y="254" fill="#e0645c" font-size="11.5">multiply back: 5 &#215; (x &#8722; 2)</text>
+  <line x1="348" y1="266" x2="495" y2="266" stroke="#8a8a8a" stroke-width="1.2"/>
+
+  <text x="485" y="290" fill="#4a90d9" text-anchor="end" font-weight="bold">15</text>
+  <text x="525" y="290" fill="#4a90d9" font-size="11.5">&#8592; remainder: degree 0 &lt; degree 1, so stop</text>
+
+  <!-- ===== the identity the tableau just proved ===== -->
+  <line x1="28" y1="312" x2="732" y2="312" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="380" y="336" fill="#4a90d9" text-anchor="middle" font-size="14.5">2x&#179; &#8722; 3x + 5 = (x &#8722; 2)(2x&#178; + 4x + 5) + 15</text>
+</svg>

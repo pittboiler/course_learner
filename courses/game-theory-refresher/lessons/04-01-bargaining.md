@@ -39,9 +39,9 @@ $$\Big(\tfrac{1}{1+\delta},\; \tfrac{\delta}{1+\delta}\Big),$$
 
 and player 2 accepts at once. *In words:* the proposer keeps $\frac{1}{1+\delta} > \tfrac12$, the responder gets $\frac{\delta}{1+\delta}$; the proposer's edge is the first-mover advantage, and it shrinks as $\delta \to 1$.
 
-**The self-consistency that pins it down.** Call $x^\*$ the proposer's equilibrium share (the *same* number for whoever is proposing, by stationarity). A responder who rejects becomes the proposer next period, so their continuation value is $\delta x^\*$ (their proposer-share, one period delayed). Subgame perfection forces the proposer to offer the responder *exactly* that continuation value — no more (wasteful), no less (rejected) — keeping the rest:
+**The self-consistency that pins it down.** Call $x^*$ the proposer's equilibrium share (the *same* number for whoever is proposing, by stationarity). A responder who rejects becomes the proposer next period, so their continuation value is $\delta x^*$ (their proposer-share, one period delayed). Subgame perfection forces the proposer to offer the responder *exactly* that continuation value — no more (wasteful), no less (rejected) — keeping the rest:
 
-$$x^\* = 1 - \delta x^\* \quad\Longrightarrow\quad x^\*(1+\delta) = 1 \quad\Longrightarrow\quad x^\* = \frac{1}{1+\delta}.$$
+$$x^* = 1 - \delta x^* \quad\Longrightarrow\quad x^*(1+\delta) = 1 \quad\Longrightarrow\quad x^* = \frac{1}{1+\delta}.$$
 
 This is backward induction ([2.2](02-02-subgame-perfection-commitment.md)) applied to an infinite tree: the threat "reject and counter" is credible only because the counter-offer is itself the equilibrium play of the next subgame.
 
@@ -63,7 +63,7 @@ The Nash solution is where a hyperbola $(u_1 - d_1)(u_2 - d_2) = \text{const}$ �
 
 Now give player 1 an outside option $d = (\tfrac14, 0)$ — she gets $\tfrac14$ if talks fail. Maximize $(u_1 - \tfrac14)(u_2 - 0) = (u_1 - \tfrac14)(1 - u_1)$; derivative $(1 - u_1) - (u_1 - \tfrac14) = \tfrac54 - 2u_1 = 0$, so $u_1 = \tfrac58$, $u_2 = \tfrac38$. The Nash solution splits the *surplus above disagreement* equally: total surplus over $d$ is $1 - \tfrac14 = \tfrac34$, each gets $\tfrac38$ of it, so player 1 lands at $\tfrac14 + \tfrac38 = \tfrac58$. A stronger walk-away buys a bigger slice — leverage made quantitative.
 
-**Example 2 (Rubinstein by self-consistency, then the limit).** Same unit pie, alternating offers, common discount $\delta$. Guess a stationary SPE where any proposer keeps $x^\*$. A responder who rejects proposes next period and gets $x^\*$ then — worth $\delta x^\*$ now — so the current proposer must offer exactly $\delta x^\*$ to secure acceptance, keeping $1 - \delta x^\*$. Consistency demands $x^\* = 1 - \delta x^\*$, giving $x^\* = \frac{1}{1+\delta}$.
+**Example 2 (Rubinstein by self-consistency, then the limit).** Same unit pie, alternating offers, common discount $\delta$. Guess a stationary SPE where any proposer keeps $x^*$. A responder who rejects proposes next period and gets $x^*$ then — worth $\delta x^*$ now — so the current proposer must offer exactly $\delta x^*$ to secure acceptance, keeping $1 - \delta x^*$. Consistency demands $x^* = 1 - \delta x^*$, giving $x^* = \frac{1}{1+\delta}$.
 
 Plug in $\delta = 0.9$: proposer keeps $\frac{1}{1.9} = \frac{10}{19} \approx 0.526$, responder gets $\frac{9}{19} \approx 0.474$. A modest first-mover premium of about $2.6$ percentage points. Now let patience grow, $\delta \to 1$: the share $\frac{1}{1+\delta} \to \tfrac12$, exactly the Nash solution of Example 1 with $d = (0,0)$. The strategic and axiomatic answers coincide in the frictionless limit — the Nash program in one line.
 
@@ -82,7 +82,7 @@ Plug in $\delta = 0.9$: proposer keeps $\frac{1}{1.9} = \frac{10}{19} \approx 0.
 
 **P1 (🟢)** Two players split one unit of surplus; utilities equal shares, so $S = \{(u_1, u_2): u_1 + u_2 = 1,\ u_i \ge 0\}$, disagreement $d = (0,0)$. Find the Nash bargaining solution by maximizing the Nash product two ways: (a) with a Lagrangian on the constraint $u_1 + u_2 = 1$, and (b) with the AM–GM inequality. Confirm both give fifty-fifty.
 
-**P2 (🟡)** In the Rubinstein alternating-offers game with common discount factor $\delta$, derive the proposer's equilibrium share $x^\* = \frac{1}{1+\delta}$ from the stationarity (self-consistency) condition, stating clearly why the proposer offers the responder exactly their continuation value. Then evaluate the full split at $\delta = 0.9$.
+**P2 (🟡)** In the Rubinstein alternating-offers game with common discount factor $\delta$, derive the proposer's equilibrium share $x^* = \frac{1}{1+\delta}$ from the stationarity (self-consistency) condition, stating clearly why the proposer offers the responder exactly their continuation value. Then evaluate the full split at $\delta = 0.9$.
 
 **P3 (🔴)** (Nash program and first-mover advantage.) (a) Show that the Rubinstein proposer share $\frac{1}{1+\delta} \to \tfrac12$ as $\delta \to 1$, and identify which term of the split captures the *responder's* limit. (b) Prove that for every $\delta \in (0,1)$ the proposer strictly benefits from moving first, i.e. $\frac{1}{1+\delta} > \tfrac12$, and show the premium $\frac{1}{1+\delta} - \tfrac12$ is decreasing in $\delta$. (c) In one sentence, state what part (a) says about the relationship between the cooperative and non-cooperative theories.
 
@@ -99,13 +99,13 @@ So $u_1 = \lambda = u_2$; with $u_1 + u_2 = 1$ this gives $u_1 = u_2 = \tfrac12$
 
 *Check:* at $(\tfrac12,\tfrac12)$ the Nash product is $\tfrac14$; any perturbation $(\tfrac12+\varepsilon,\ \tfrac12-\varepsilon)$ gives $\tfrac14 - \varepsilon^2 < \tfrac14$, so fifty-fifty is the strict maximum. ✓ It is also Pareto efficient (on the frontier) and symmetric, as Nash's axioms require. ✓
 
-**P2.** *Self-consistency.* By stationarity let $x^\*$ be the share *any* proposer keeps in the unique SPE. Consider the responder's decision. If they reject the current offer, one period passes and they become the proposer, obtaining $x^\*$ then — worth $\delta x^\*$ in present value. Subgame perfection means:
-- the proposer will never offer *more* than $\delta x^\*$ (wasteful — the responder would accept less);
-- the proposer must offer at least $\delta x^\*$, or the responder rejects and takes the continuation.
+**P2.** *Self-consistency.* By stationarity let $x^*$ be the share *any* proposer keeps in the unique SPE. Consider the responder's decision. If they reject the current offer, one period passes and they become the proposer, obtaining $x^*$ then — worth $\delta x^*$ in present value. Subgame perfection means:
+- the proposer will never offer *more* than $\delta x^*$ (wasteful — the responder would accept less);
+- the proposer must offer at least $\delta x^*$, or the responder rejects and takes the continuation.
 
-So the proposer offers the responder **exactly** their continuation value $\delta x^\*$ and keeps the remainder $1 - \delta x^\*$. But that remainder *is* the proposer's share $x^\*$, so
+So the proposer offers the responder **exactly** their continuation value $\delta x^*$ and keeps the remainder $1 - \delta x^*$. But that remainder *is* the proposer's share $x^*$, so
 
-$$x^\* = 1 - \delta x^\* \;\Longrightarrow\; x^\*(1 + \delta) = 1 \;\Longrightarrow\; x^\* = \frac{1}{1+\delta}.$$
+$$x^* = 1 - \delta x^* \;\Longrightarrow\; x^*(1 + \delta) = 1 \;\Longrightarrow\; x^* = \frac{1}{1+\delta}.$$
 
 Agreement is immediate (the responder is offered exactly their walk-away, weakly accepts, and delay only destroys value). *Evaluate $\delta = 0.9$:* proposer keeps $\frac{1}{1.9} = \frac{10}{19} \approx 0.526$; responder gets $\frac{\delta}{1+\delta} = \frac{0.9}{1.9} = \frac{9}{19} \approx 0.474$.
 
@@ -142,6 +142,6 @@ Anticipating Grab, Player 1 compares In ($\to (-1,3)$, giving Player 1 $-1$) aga
 
 ## Connections
 
-- **Backward:** Rubinstein's SPE *is* [2.2](02-02-subgame-perfection-commitment.md)'s subgame perfection carried to an infinite-horizon tree — the self-consistency equation $x^\* = 1 - \delta x^\*$ is backward induction with stationarity standing in for a terminal node, and the discounting is the same $\delta$ that powered trigger strategies in [2.3](02-03-repeated-games-folk-theorem.md). The outside option $d$ generalizes the walk-away logic of the hold-up problem: a better $d$ is exactly a stronger commitment/threat point.
+- **Backward:** Rubinstein's SPE *is* [2.2](02-02-subgame-perfection-commitment.md)'s subgame perfection carried to an infinite-horizon tree — the self-consistency equation $x^* = 1 - \delta x^*$ is backward induction with stationarity standing in for a terminal node, and the discounting is the same $\delta$ that powered trigger strategies in [2.3](02-03-repeated-games-folk-theorem.md). The outside option $d$ generalizes the walk-away logic of the hold-up problem: a better $d$ is exactly a stronger commitment/threat point.
 - **Forward:** [4.2](04-02-mechanism-design.md) flips the question from *how do we split a fixed surplus* to *how do we design the rules so the right surplus is created and truthfully revealed* — bargaining is the simplest mechanism, and its inefficiency under incomplete information (Myerson–Satterthwaite) is the motivating failure that mechanism design confronts.
 - **Sideways (economics):** the Nash bargaining solution is the workhorse of labor economics (wage setting as a firm–union split), the theory of the firm, and search-and-matching models where every matched pair Nash-bargains over the match surplus — and the "split the gains above your outside option" rule is the same marginal logic as constrained optimization: the Lagrangian in P1 is literally the [micro-refresher](../../micro-refresher/syllabus.md)'s constrained utility maximization wearing a bargaining hat.

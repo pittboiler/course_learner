@@ -36,7 +36,7 @@ $$\mathbb{P}\big(|\bar X_n - \mu| > \varepsilon\big) \to 0 \quad \text{as } n \t
 
 In words: pick any error window you like, however tight; the probability that the sample mean lands *outside* it goes to zero as the sample grows. We say $\bar X_n \to \mu$ **in probability**. The average doesn't just have small spread — it piles up on the true mean.
 
-**One-line proof (via Chebyshev).** [Chebyshev's inequality](03-01-joint-distributions-covariance.md) says any random variable $Y$ stays within a few standard deviations of its mean: $\mathbb{P}(|Y - \mathbb{E}[Y]| \ge \varepsilon) \le \mathrm{Var}(Y)/\varepsilon^2$. Apply it to $Y = \bar X_n$, whose mean is $\mu$ and whose variance is $\sigma^2/n$:
+**One-line proof (via Chebyshev).** Chebyshev's inequality says any random variable $Y$ stays within a few standard deviations of its mean: $\mathbb{P}(|Y - \mathbb{E}[Y]| \ge \varepsilon) \le \mathrm{Var}(Y)/\varepsilon^2$. Apply it to $Y = \bar X_n$, whose mean is $\mu$ and whose variance is $\sigma^2/n$:
 
 $$\mathbb{P}\big(|\bar X_n - \mu| \ge \varepsilon\big) \le \frac{\mathrm{Var}(\bar X_n)}{\varepsilon^2} = \frac{\sigma^2}{n\,\varepsilon^2} \xrightarrow[n\to\infty]{} 0.$$
 
@@ -138,6 +138,6 @@ Not independent: $\mathrm{Cov}(X,Y) = 3 \ne 0$, and independence forces zero cov
 
 ## Connections
 
-- **Backward:** the sum's variance $n\sigma^2$ is the [3.1](03-01-joint-distributions-covariance.md) linear-combination rule with all covariances zeroed by independence; the mean/variance machinery is straight from [2.1](02-01-expectation-variance-moments.md). Chebyshev, the engine of the proof, is also from 3.1.
+- **Backward:** the sum's variance $n\sigma^2$ is the [3.1](03-01-joint-distributions-covariance.md) linear-combination rule with all covariances zeroed by independence; the mean/variance machinery is straight from [2.1](02-01-expectation-variance-moments.md). Chebyshev, the engine of the proof, is stated here for the first time — it needs only the variance from [2.1](02-01-expectation-variance-moments.md).
 - **Forward:** [3.3](03-03-central-limit-theorem.md) upgrades this dramatically — the LLN says $\bar X_n \to \mu$, and the CLT describes the *shape* of the leftover $\sqrt{n}(\bar X_n - \mu)$, which is normal. The standard error $\sigma/\sqrt{n}$ introduced here is the width of every confidence interval in Module 4.
 - **Sideways (physics/econ):** "average many noisy measurements to sharpen an estimate" is signal averaging in the lab and diversification in finance — a portfolio of $n$ independent bets has return-spread $\sigma/\sqrt{n}$, the same $1/\sqrt{n}$ law, which is precisely why correlation (positive covariance) is what destroys the benefit.

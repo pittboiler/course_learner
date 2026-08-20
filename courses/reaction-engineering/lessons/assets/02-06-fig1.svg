@@ -1,0 +1,61 @@
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="24" y="24" fill="#8a8a8a" font-style="italic">Two knobs for two problems: parallel reactions want the right concentration; series reactions want the right time.</text>
+
+  <!-- ============ Panel 1: PARALLEL — selectivity vs C_A ============ -->
+  <text x="70" y="58" fill="#8a8a8a" font-size="13" font-weight="bold">PARALLEL: A &#8594; D (want), A &#8594; U</text>
+
+  <!-- axes -->
+  <line x1="80" y1="330" x2="330" y2="330" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="330,330 320,325 320,335" fill="#8a8a8a"/>
+  <text x="300" y="352" fill="#8a8a8a" font-size="13">C<tspan font-size="10" dy="4">A</tspan></text>
+  <line x1="80" y1="330" x2="80" y2="80" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="80,80 75,90 85,90" fill="#8a8a8a"/>
+  <text x="40" y="86" fill="#8a8a8a" font-size="13">S<tspan font-size="10" dy="4">D/U</tspan></text>
+
+  <!-- rising line: desired HIGHER order in A -->
+  <line x1="80" y1="322" x2="320" y2="110" stroke="#4a90d9" stroke-width="3"/>
+  <text x="240" y="150" fill="#4a90d9" font-size="12">desired higher order</text>
+  <text x="240" y="166" fill="#4a90d9" font-size="12">&#8594; keep C<tspan font-size="9" dy="3">A</tspan><tspan dy="-3"> high</tspan></text>
+
+  <!-- falling curve: desired LOWER order in A -->
+  <path d="M 88 108 Q 150 210 210 262 Q 265 300 320 312" fill="none" stroke="#e0645c" stroke-width="3"/>
+  <text x="120" y="120" fill="#e0645c" font-size="12">desired lower order</text>
+  <text x="120" y="136" fill="#e0645c" font-size="12">&#8594; keep C<tspan font-size="9" dy="3">A</tspan><tspan dy="-3"> low</tspan></text>
+
+  <!-- operating regions -->
+  <line x1="130" y1="330" x2="130" y2="340" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="98" y="372" fill="#8a8a8a" font-size="11">CSTR / dilute</text>
+  <line x1="290" y1="330" x2="290" y2="340" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="258" y="372" fill="#8a8a8a" font-size="11">PFR / batch</text>
+
+  <!-- ============ Panel 2: SERIES — C_D vs time ============ -->
+  <text x="410" y="58" fill="#8a8a8a" font-size="13" font-weight="bold">SERIES: A &#8594; D (want) &#8594; U</text>
+
+  <!-- axes -->
+  <line x1="420" y1="330" x2="675" y2="330" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="675,330 665,325 665,335" fill="#8a8a8a"/>
+  <text x="620" y="352" fill="#8a8a8a" font-size="13">time  or  &#964;</text>
+  <line x1="420" y1="330" x2="420" y2="80" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="420,80 415,90 425,90" fill="#8a8a8a"/>
+  <text x="392" y="86" fill="#8a8a8a" font-size="13">C</text>
+
+  <!-- C_A decaying (grey, context) -->
+  <path d="M 420 100 Q 470 200 520 250 Q 580 300 675 318" fill="none" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="430" y="112" fill="#8a8a8a" font-size="12">C<tspan font-size="9" dy="3">A</tspan></text>
+
+  <!-- C_D peaking (blue, the star) -->
+  <path d="M 420 330 C 460 180, 490 128, 520 126 C 570 130, 630 205, 675 258" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="540" y="150" fill="#4a90d9" font-size="13">C<tspan font-size="10" dy="4">D</tspan></text>
+
+  <!-- optimum marker -->
+  <line x1="520" y1="126" x2="520" y2="330" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="3 4"/>
+  <line x1="420" y1="126" x2="520" y2="126" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="3 4"/>
+  <circle cx="520" cy="126" r="4" fill="#e0645c"/>
+  <text x="500" y="348" fill="#e0645c" font-size="12">&#964;<tspan font-size="9" dy="3">opt</tspan></text>
+  <text x="330" y="130" fill="#e0645c" font-size="12">C<tspan font-size="9" dy="3">D,max</tspan></text>
+
+  <!-- too-little / too-much annotations -->
+  <text x="440" y="300" fill="#8a8a8a" font-size="10">too little D</text>
+  <text x="600" y="238" fill="#8a8a8a" font-size="10">D over-reacts</text>
+</svg>

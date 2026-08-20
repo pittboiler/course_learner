@@ -1,0 +1,59 @@
+<svg viewBox="0 0 700 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Left: reactant concentration inside the pellet. Right: how much of the pellet actually works.</text>
+
+  <!-- ================= PANEL A: C(r) inside pellet ================= -->
+  <!-- y axis (C/Cs) -->
+  <line x1="90" y1="290" x2="90" y2="70" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="90,70 85,80 95,80" fill="#8a8a8a"/>
+  <text x="42" y="66" fill="#8a8a8a">C / C&#8347;</text>
+  <text x="72" y="86" fill="#8a8a8a">1</text>
+  <text x="72" y="288" fill="#8a8a8a">0</text>
+  <!-- x axis (radial position) -->
+  <line x1="90" y1="290" x2="345" y2="290" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="345,290 335,285 335,295" fill="#8a8a8a"/>
+  <text x="70" y="308" fill="#8a8a8a">center</text>
+  <text x="300" y="308" fill="#8a8a8a">surface</text>
+  <text x="150" y="308" fill="#8a8a8a">radial position  r</text>
+
+  <!-- large-phi curve: starved core, active outer shell (coral) -->
+  <path d="M 90 290 L 210 287.4 L 234 283.9 L 258 275.8 L 282 256.2 L 294 237.5 L 306 208.2 L 318 162.3 L 325 122.9 L 330 90"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+  <text x="150" y="255" fill="#e0645c">large &#966;: starved core</text>
+  <!-- active-shell bracket near surface -->
+  <line x1="300" y1="316" x2="330" y2="316" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="256" y="330" fill="#e0645c">only this shell reacts</text>
+
+  <!-- small-phi curve: nearly flat, whole pellet active (blue) -->
+  <path d="M 90 88.4 L 210 86.2 L 330 80" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="150" y="100" fill="#4a90d9">small &#966;: flat &#8212; whole pellet works</text>
+
+  <!-- ================= PANEL B: eta vs phi (log-log) ================= -->
+  <!-- axes -->
+  <line x1="430" y1="290" x2="430" y2="70" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="430,70 425,80 435,80" fill="#8a8a8a"/>
+  <text x="404" y="66" fill="#8a8a8a">&#951;</text>
+  <line x1="430" y1="290" x2="670" y2="290" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="670,290 660,285 660,295" fill="#8a8a8a"/>
+  <text x="650" y="308" fill="#8a8a8a">&#966;</text>
+  <text x="440" y="308" fill="#8a8a8a">(log scale)</text>
+  <!-- gridline labels -->
+  <text x="412" y="84" fill="#8a8a8a">1</text>
+  <line x1="426" y1="80" x2="670" y2="80" stroke="#8a8a8a" stroke-width="0.75" stroke-dasharray="2 4"/>
+  <text x="404" y="184" fill="#8a8a8a">0.1</text>
+  <text x="576" y="304" fill="#8a8a8a">10</text>
+  <line x1="576" y1="80" x2="576" y2="290" stroke="#8a8a8a" stroke-width="0.75" stroke-dasharray="2 4"/>
+
+  <!-- 3/phi asymptote (dashed coral) -->
+  <line x1="525" y1="62.4" x2="650" y2="232.3" stroke="#e0645c" stroke-width="1.25" stroke-dasharray="5 4"/>
+  <text x="596" y="150" fill="#e0645c">slope: &#951; &#8776; 3/&#966;</text>
+
+  <!-- eta(phi) curve (blue) -->
+  <path d="M 430 80 L 464.9 80.3 L 503.3 82.7 L 525.4 89.4 L 538.3 97.3 L 554.6 111.9 L 576.7 136.9 L 611.6 180 L 650 232.3"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- regime labels -->
+  <text x="452" y="108" fill="#8a8a8a">reaction-limited</text>
+  <text x="452" y="122" fill="#8a8a8a">(&#951; &#8776; 1)</text>
+  <text x="590" y="256" fill="#8a8a8a">diffusion-</text>
+  <text x="590" y="270" fill="#8a8a8a">limited</text>
+</svg>

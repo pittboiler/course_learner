@@ -156,7 +156,7 @@ Build `materials-science` early (it back-fills Phase 5's `nuclear-materials`).
 - [ ] `propulsion` — Propulsion (2, ~20)
 - [ ] `robotics` — Robotics & Kinematics (2, ~22) *(needs control-systems + linalg ✓)*
 - [x] `transport-phenomena` — Transport Phenomena (2, ~24) — **lessons ✓** (prepped 2026-08-14, 25) → Block 3 (thermal/fluids) started
-- [ ] `reaction-engineering` — Chemical Reaction Engineering (2, ~22)
+- [x] `reaction-engineering` — Chemical Reaction Engineering (2, ~22) — **lessons ✓** (prepped 2026-08-14, 23)
 - [ ] `operations-research` — Operations Research (1, ~18)
 
 ---

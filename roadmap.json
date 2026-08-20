@@ -5,7 +5,10 @@
       "title": "How to Read & Write Proofs",
       "tier": 0,
       "field": "Mathematics",
-      "prereqs": [],
+      "prereqs": [
+        "algebra-foundations",
+        "discrete-math-intro"
+      ],
       "lessons_estimate": 8,
       "blurb": "Logic, sets, induction, proof patterns. The on-ramp to analysis and topology."
     },
@@ -14,7 +17,9 @@
       "title": "Calculus",
       "tier": 0,
       "field": "Mathematics",
-      "prereqs": [],
+      "prereqs": [
+        "precalculus"
+      ],
       "lessons_estimate": 15,
       "blurb": "Single + multivariable, through vector calculus."
     },
@@ -23,8 +28,10 @@
       "title": "Linear Algebra",
       "tier": 0,
       "field": "Mathematics",
-      "prereqs": [],
-      "lessons_estimate": 12,
+      "prereqs": [
+        "precalculus"
+      ],
+      "lessons_estimate": 14,
       "blurb": "Through spectral theorem, SVD, and inner-product spaces."
     },
     {
@@ -35,7 +42,7 @@
       "prereqs": [
         "calc-refresher"
       ],
-      "lessons_estimate": 10,
+      "lessons_estimate": 12,
       "blurb": "ODEs, linear systems, phase portraits, intro PDEs."
     },
     {
@@ -46,7 +53,7 @@
       "prereqs": [
         "calc-refresher"
       ],
-      "lessons_estimate": 12,
+      "lessons_estimate": 13,
       "blurb": "Distributions, expectation, LLN/CLT, Bayes, basic inference."
     },
     {
@@ -81,7 +88,7 @@
       "prereqs": [
         "prob-stat-refresher"
       ],
-      "lessons_estimate": 10,
+      "lessons_estimate": 12,
       "blurb": "Normal/extensive form, Nash, mixed strategies, repeated games."
     },
     {
@@ -92,7 +99,7 @@
       "prereqs": [
         "calc-refresher"
       ],
-      "lessons_estimate": 10,
+      "lessons_estimate": 15,
       "blurb": "Consumer/producer theory, Lagrangians, comparative statics."
     },
     {
@@ -104,7 +111,7 @@
         "proofs-primer",
         "calc-refresher"
       ],
-      "lessons_estimate": 24,
+      "lessons_estimate": 25,
       "blurb": "Sequences, limits, continuity, integration, uniform convergence — with proofs."
     },
     {
@@ -127,7 +134,7 @@
         "proofs-primer",
         "real-analysis"
       ],
-      "lessons_estimate": 22,
+      "lessons_estimate": 27,
       "blurb": "Point-set core plus a taste of the fundamental group."
     },
     {
@@ -139,7 +146,7 @@
         "prob-stat-refresher",
         "real-analysis"
       ],
-      "lessons_estimate": 22,
+      "lessons_estimate": 23,
       "blurb": "Measure-theoretic-lite: sigma-algebras, convergence, conditional expectation, martingales."
     },
     {
@@ -151,7 +158,7 @@
         "mechanics-refresher",
         "ode-refresher"
       ],
-      "lessons_estimate": 20,
+      "lessons_estimate": 16,
       "blurb": "Calculus of variations, Lagrangian, Hamiltonian, Noether. The gateway to QM."
     },
     {
@@ -271,7 +278,7 @@
         "linalg-refresher",
         "topology"
       ],
-      "lessons_estimate": 24,
+      "lessons_estimate": 23,
       "blurb": "Manifolds, tensors, differential forms, connections, curvature. The honest foundation for GR and gauge theory."
     },
     {
@@ -283,7 +290,7 @@
         "proofs-primer",
         "linalg-refresher"
       ],
-      "lessons_estimate": 18,
+      "lessons_estimate": 20,
       "blurb": "Groups, rings, fields, quotients, homomorphisms. Foundation for representation theory and coding."
     },
     {
@@ -296,7 +303,7 @@
         "linalg-refresher",
         "real-analysis"
       ],
-      "lessons_estimate": 22,
+      "lessons_estimate": 24,
       "blurb": "Flows, stability, bifurcations, chaos, strange attractors, routes to chaos via maps."
     },
     {
@@ -332,7 +339,7 @@
         "abstract-algebra",
         "linalg-refresher"
       ],
-      "lessons_estimate": 20,
+      "lessons_estimate": 21,
       "blurb": "Representations, characters, Lie groups/algebras. SU(2)/SO(3) as angular momentum & spin; the language of gauge symmetry."
     },
     {
@@ -398,7 +405,7 @@
         "probability-theory",
         "grad-micro"
       ],
-      "lessons_estimate": 22,
+      "lessons_estimate": 20,
       "blurb": "No-arbitrage & risk-neutral pricing, Black-Scholes, portfolio theory/SDF, term structure."
     },
     {
@@ -449,8 +456,10 @@
       "title": "Algebra I & II",
       "tier": "F",
       "field": "Foundations",
-      "prereqs": [],
-      "lessons_estimate": 12,
+      "prereqs": [
+        "arithmetic-number-sense"
+      ],
+      "lessons_estimate": 13,
       "blurb": "Equations, factoring, functions, exponents & logs. The language everything downstream is written in."
     },
     {
@@ -458,7 +467,9 @@
       "title": "Euclidean Geometry",
       "tier": "F",
       "field": "Foundations",
-      "prereqs": [],
+      "prereqs": [
+        "algebra-foundations"
+      ],
       "lessons_estimate": 11,
       "blurb": "Congruence, similarity, circles, area — proof-based. The classic first taste of rigor."
     },
@@ -467,8 +478,11 @@
       "title": "Trigonometry",
       "tier": "F",
       "field": "Foundations",
-      "prereqs": [],
-      "lessons_estimate": 8,
+      "prereqs": [
+        "geometry",
+        "algebra-foundations"
+      ],
+      "lessons_estimate": 9,
       "blurb": "Unit circle, identities, triangle-solving, waves. The bridge from geometry to calculus."
     },
     {
@@ -476,8 +490,11 @@
       "title": "Precalculus",
       "tier": "F",
       "field": "Foundations",
-      "prereqs": [],
-      "lessons_estimate": 12,
+      "prereqs": [
+        "algebra-foundations",
+        "trigonometry"
+      ],
+      "lessons_estimate": 13,
       "blurb": "Functions, polynomials, conics, sequences, limits-at-the-door. Assembles the toolkit calculus assumes."
     },
     {
@@ -485,7 +502,10 @@
       "title": "Discrete Math for Beginners",
       "tier": "F",
       "field": "Foundations",
-      "prereqs": [],
+      "prereqs": [
+        "arithmetic-number-sense",
+        "algebra-foundations"
+      ],
       "lessons_estimate": 8,
       "blurb": "Counting, logic, sets, basic proof. The gentle on-ramp to proofs-primer and CS."
     },
@@ -494,7 +514,9 @@
       "title": "Discrete Mathematics",
       "tier": 0,
       "field": "Mathematics",
-      "prereqs": [],
+      "prereqs": [
+        "discrete-math-intro"
+      ],
       "lessons_estimate": 16,
       "blurb": "Logic, sets, combinatorics, recurrences, and graphs — the mathematics of the discrete, and the backbone of CS."
     },
@@ -1212,7 +1234,9 @@
       "title": "General Chemistry",
       "tier": 0,
       "field": "Chemistry",
-      "prereqs": [],
+      "prereqs": [
+        "algebra-foundations"
+      ],
       "lessons_estimate": 16,
       "blurb": "Atoms, stoichiometry, bonding, thermochemistry, equilibrium, acids & bases, and redox."
     },

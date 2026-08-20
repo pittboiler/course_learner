@@ -1,0 +1,45 @@
+<svg viewBox="0 0 620 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Perfectly mixed: the whole tank sits at the exit composition, so the reaction runs at the low exit rate everywhere.</text>
+
+  <!-- ===== motor + stirrer shaft ===== -->
+  <rect x="286" y="52" width="48" height="26" fill="#8a8a8a" opacity="0.25" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="299" y="70" fill="#8a8a8a" font-size="12">motor</text>
+  <line x1="310" y1="78" x2="310" y2="235" stroke="#8a8a8a" stroke-width="2"/>
+  <!-- impeller blades -->
+  <line x1="284" y1="235" x2="336" y2="235" stroke="#8a8a8a" stroke-width="3"/>
+  <line x1="284" y1="228" x2="292" y2="242" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="336" y1="228" x2="328" y2="242" stroke="#8a8a8a" stroke-width="2"/>
+
+  <!-- ===== tank ===== -->
+  <path d="M 200 100 L 200 275 Q 200 295 220 295 L 400 295 Q 420 295 420 275 L 420 100 Z"
+        fill="#4a90d9" opacity="0.12" stroke="#4a90d9" stroke-width="2.5"/>
+  <!-- liquid surface -->
+  <line x1="200" y1="115" x2="420" y2="115" stroke="#4a90d9" stroke-width="1.5" stroke-dasharray="4 4"/>
+
+  <!-- swirl marks to suggest mixing -->
+  <path d="M 240 175 Q 260 160 280 175 T 320 175" fill="none" stroke="#4a90d9" stroke-width="1" opacity="0.6"/>
+  <path d="M 250 210 Q 270 195 290 210 T 330 210" fill="none" stroke="#4a90d9" stroke-width="1" opacity="0.6"/>
+
+  <!-- interior label -->
+  <text x="228" y="150" fill="#4a90d9" font-size="13">C_A , (&#8722;r_A) uniform</text>
+  <text x="228" y="168" fill="#4a90d9" font-size="13">= exit values</text>
+
+  <!-- ===== feed in ===== -->
+  <line x1="70" y1="130" x2="198" y2="130" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="200,130 189,125 189,135" fill="#e0645c"/>
+  <text x="70" y="120" fill="#e0645c">feed</text>
+  <text x="70" y="152" fill="#8a8a8a" font-size="13">F_A0 , v&#8320; , C_A0</text>
+
+  <!-- ===== product out ===== -->
+  <line x1="410" y1="330" x2="410" y2="297" stroke="#e0645c" stroke-width="2.5"/>
+  <line x1="410" y1="330" x2="500" y2="330" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="502,330 491,325 491,335" fill="#e0645c"/>
+  <text x="470" y="320" fill="#e0645c">out</text>
+  <text x="450" y="352" fill="#8a8a8a" font-size="13">F_A , C_A , X</text>
+
+  <!-- ===== design equation ===== -->
+  <text x="470" y="150" fill="#8a8a8a" font-size="13">V =</text>
+  <text x="505" y="142" fill="#4a90d9" font-size="13">F_A0 X</text>
+  <line x1="503" y1="150" x2="565" y2="150" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="500" y="167" fill="#e0645c" font-size="13">(&#8722;r_A)exit</text>
+</svg>

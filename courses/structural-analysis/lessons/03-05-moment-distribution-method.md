@@ -14,7 +14,7 @@ So you release that one joint and let it rotate. As it turns, the two members re
 
 ## The formal version
 
-Use the same member-end convention as slope-deflection: **a counterclockwise moment on a member end is positive.** Three numbers run the whole method.
+Member-end sign convention: **a counterclockwise moment on a member end is positive** — the mirror of [3.4](03-04-slope-deflection-method.md), which takes clockwise as positive, so every fixed-end moment below carries the opposite sign to the one you saw there. Magnitudes, and every hogging/sagging conclusion, are unaffected. Three numbers run the whole method.
 
 **Member (rotational) stiffness $K$** — the moment needed at the near end to rotate it one radian:
 

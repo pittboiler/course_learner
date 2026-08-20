@@ -1,0 +1,51 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Four energy streams cross the reactor; the two balances feed each other in a loop.</text>
+
+  <!-- ===== top: reactor with energy streams ===== -->
+
+  <!-- reactor box -->
+  <rect x="258" y="78" width="150" height="96" rx="10" fill="#4a90d9" opacity="0.12" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="298" y="108" fill="#4a90d9" font-weight="bold">REACTOR</text>
+  <text x="278" y="134" fill="#e0645c">reaction heat</text>
+  <text x="286" y="154" fill="#e0645c">&#8722;&#916;Hrx&#183;FA0&#183;X</text>
+
+  <!-- feed arrow in (blue) -->
+  <line x1="110" y1="126" x2="256" y2="126" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="256,126 244,121 244,131" fill="#4a90d9"/>
+  <text x="112" y="106" fill="#4a90d9">feed  FA0, T0</text>
+  <text x="112" y="150" fill="#8a8a8a" font-size="12">sensible heat in</text>
+
+  <!-- product arrow out (blue) -->
+  <line x1="410" y1="126" x2="556" y2="126" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="556,126 544,121 544,131" fill="#4a90d9"/>
+  <text x="452" y="106" fill="#4a90d9">out  T, X</text>
+
+  <!-- external heat Q (coral) down into reactor -->
+  <line x1="333" y1="40" x2="333" y2="76" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="333,76 328,64 338,64" fill="#e0645c"/>
+  <text x="345" y="52" fill="#e0645c">Q&#775;  (jacket / coil)</text>
+
+  <!-- ===== bottom: the T-X coupling loop ===== -->
+
+  <text x="30" y="248" fill="#8a8a8a" font-style="italic">You must solve both together:</text>
+
+  <!-- mole-balance box (blue) -->
+  <rect x="70" y="272" width="200" height="66" rx="8" fill="#4a90d9" opacity="0.12" stroke="#4a90d9" stroke-width="2"/>
+  <text x="108" y="300" fill="#4a90d9" font-weight="bold">mole balance</text>
+  <text x="150" y="322" fill="#8a8a8a">gives X</text>
+
+  <!-- energy-balance box (coral) -->
+  <rect x="370" y="272" width="200" height="66" rx="8" fill="#e0645c" opacity="0.12" stroke="#e0645c" stroke-width="2"/>
+  <text x="405" y="300" fill="#e0645c" font-weight="bold">energy balance</text>
+  <text x="452" y="322" fill="#8a8a8a">gives T</text>
+
+  <!-- top arrow: X sets reaction heat (left to right) -->
+  <path d="M 270 292 C 320 274, 320 274, 368 292" fill="none" stroke="#8a8a8a" stroke-width="1.8"/>
+  <polygon points="368,292 356,288 359,298" fill="#8a8a8a"/>
+  <text x="272" y="270" fill="#8a8a8a" font-size="12">X sets reaction heat</text>
+
+  <!-- bottom arrow: T sets k(T) (right to left) -->
+  <path d="M 370 320 C 320 340, 320 340, 272 320" fill="none" stroke="#8a8a8a" stroke-width="1.8"/>
+  <polygon points="272,320 284,324 281,314" fill="#8a8a8a"/>
+  <text x="322" y="360" fill="#8a8a8a" font-size="12">T sets k(T)</text>
+</svg>

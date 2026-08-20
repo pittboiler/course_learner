@@ -139,5 +139,3 @@ Winding number $=\tilde\gamma(1)-\tilde\gamma(0)=0$, so $[\gamma]=0\in\mathbb{Z}
 - **Forward:** [Lesson 2.2](02-02-lifting-criterion-classification.md) turns lifting into a decision procedure — a map lifts iff a subgroup condition $f_*\pi_1(Y)\subseteq p_*\pi_1(\tilde X)$ holds — and shows connected covers of $X$ are classified by subgroups of $\pi_1(X)$, with the monodromy action recording the fiber as a $\pi_1$-set. [Lesson 2.3](02-03-deck-transformations-galois.md) reads the deck symmetries off that action.
 - **Sideways (`complex-analysis`):** the winding number (the endpoint of the lift, Examples 1–2 and the Flashback) is the topologist's version of the argument-principle count $\frac{1}{2\pi i}\oint \frac{dz}{z}$ — the same integer, computed by unrolling instead of integrating.
 - **Sideways (`topology`):** "evenly covered" and the quotient map $S^n\to\mathbb{RP}^n$ (P3) are pure point-set topology — quotient by a free finite group action — and unique lifting is the connectedness-of-$[0,1]$ argument you met for locally constant functions, dressed up for sheets.
-</content>
-</invoke>

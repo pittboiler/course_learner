@@ -40,15 +40,15 @@ $$v_i\big(a(\theta_i,\hat\theta_{-i})\big) - t_i(\theta_i,\hat\theta_{-i}) \;\ge
 
 **The VCG (Vickrey–Clarke–Groves) mechanism.** Choose the **efficient** decision given the reports,
 
-$$a^\* \in \arg\max_{a\in A}\ \sum_{j\in N} v_j(a),$$
+$$a^* \in \arg\max_{a\in A}\ \sum_{j\in N} v_j(a),$$
 
 and charge agent $i$ the **pivot (Clarke) payment**
 
-$$t_i \;=\; \underbrace{\max_{a}\sum_{j\ne i} v_j(a)}_{\text{others' best without }i} \;-\; \underbrace{\sum_{j\ne i} v_j(a^\*)}_{\text{others' value at }a^\*}.$$
+$$t_i \;=\; \underbrace{\max_{a}\sum_{j\ne i} v_j(a)}_{\text{others' best without }i} \;-\; \underbrace{\sum_{j\ne i} v_j(a^*)}_{\text{others' value at }a^*}.$$
 
 > In words: $i$ pays exactly the drop in *everyone else's* welfare caused by $i$'s presence tilting the decision — the externality $i$ imposes. Agents who don't change the decision pay nothing.
 
-**Why VCG is DSIC.** The first term of $t_i$ doesn't depend on $i$'s report, so maximizing $u_i = v_i(a^\*) - t_i$ over what $i$ reports is the same as maximizing $v_i(a^\*) + \sum_{j\ne i} v_j(a^\*) = \sum_{j} v_j(a^\*)$ — total welfare. The mechanism maximizes exactly that sum, using $i$'s *reported* $v_i$; so $i$ can do no better than report the truth and let the machine optimize the whole pie, a slice of which is $i$'s. Truth is dominant. VCG is also efficient by construction. The second-price auction is VCG with $A=$ "who gets the one good" (see P1).
+**Why VCG is DSIC.** The first term of $t_i$ doesn't depend on $i$'s report, so maximizing $u_i = v_i(a^*) - t_i$ over what $i$ reports is the same as maximizing $v_i(a^*) + \sum_{j\ne i} v_j(a^*) = \sum_{j} v_j(a^*)$ — total welfare. The mechanism maximizes exactly that sum, using $i$'s *reported* $v_i$; so $i$ can do no better than report the truth and let the machine optimize the whole pie, a slice of which is $i$'s. Truth is dominant. VCG is also efficient by construction. The second-price auction is VCG with $A=$ "who gets the one good" (see P1).
 
 **The two impossibility walls.** Drop money — pure *ordinal* social choice, agents report rankings of $\ge 3$ alternatives — and truthful efficiency collapses.
 
@@ -61,7 +61,7 @@ These are why incentive constraints *bite*: the revelation principle says "study
 
 ![Two-lane diagram: top lane shows agents playing an equilibrium strategy into an arbitrary mechanism to produce outcome x; a downward fold absorbs the equilibrium strategy into the rules, producing the bottom lane, a direct mechanism into which agents report their type truthfully and get the same outcome x](assets/04-02-fig1.svg)
 
-The revelation principle as a fold: the top lane is any mechanism whose equilibrium $\sigma^\*$ maps types to messages and yields outcome $x$; push $\sigma^\*$ down into the rulebook and you get the bottom lane — a direct mechanism $f = g\circ\sigma^\*$ where reporting your type honestly is an equilibrium and the outcome is unchanged. Every achievable outcome sits in the bottom lane, so that is the only lane you must study.
+The revelation principle as a fold: the top lane is any mechanism whose equilibrium $\sigma^*$ maps types to messages and yields outcome $x$; push $\sigma^*$ down into the rulebook and you get the bottom lane — a direct mechanism $f = g\circ\sigma^*$ where reporting your type honestly is an equilibrium and the outcome is unchanged. Every achievable outcome sits in the bottom lane, so that is the only lane you must study.
 
 ## Worked examples
 
@@ -99,11 +99,11 @@ The revelation principle as a fold: the top lane is any mechanism whose equilibr
 
 Check: with $v_1=10,v_2=7,v_3=4$, $t_1 = 7 = v_{(2)}$, $t_2=t_3=0$, matching Example 1, and truth-telling is dominant for each bidder by the case analysis. ✓
 
-**P2** Write $d^\*$ for the efficient decision and use "others' welfare at $d$" $= W_{-i}(d) = d\,(v_j - C)$ (the whole cost is charged against the society-minus-$i$ objective, one standard convention), with pivot payment $t_i = \max_d W_{-i}(d) - W_{-i}(d^\*)$.
+**P2** Write $d^*$ for the efficient decision and use "others' welfare at $d$" $= W_{-i}(d) = d\,(v_j - C)$ (the whole cost is charged against the society-minus-$i$ objective, one standard convention), with pivot payment $t_i = \max_d W_{-i}(d) - W_{-i}(d^*)$.
 
-Efficiency: total welfare of building is $v_1+v_2-C = 8+4-10 = 2 > 0$, so $d^\*=1$ (build).
+Efficiency: total welfare of building is $v_1+v_2-C = 8+4-10 = 2 > 0$, so $d^*=1$ (build).
 
-(a) Agent 1: $W_{-1}(d) = d\,(v_2 - C) = d\,(4-10) = -6d$, maximized at $d=0$ giving $0$; at $d^\*=1$ it is $-6$. So $t_1 = 0 - (-6) = 6$. Agent 2: $W_{-2}(d) = d\,(v_1-C) = d\,(8-10) = -2d$, maximized at $d=0$ giving $0$; at $d^\*=1$ it is $-2$. So $t_2 = 0-(-2) = 2$.
+(a) Agent 1: $W_{-1}(d) = d\,(v_2 - C) = d\,(4-10) = -6d$, maximized at $d=0$ giving $0$; at $d^*=1$ it is $-6$. So $t_1 = 0 - (-6) = 6$. Agent 2: $W_{-2}(d) = d\,(v_1-C) = d\,(8-10) = -2d$, maximized at $d=0$ giving $0$; at $d^*=1$ it is $-2$. So $t_2 = 0-(-2) = 2$.
 
 (b) *Efficiency* was shown: building yields social surplus $2>0$, and the mechanism builds. *Incentives.* Truthful payoffs: $u_1 = v_1\cdot 1 - t_1 = 8-6 = 2$; $u_2 = 4-2 = 2$. Could agent 1 gain by lying? The only lever is flipping the decision to $d=0$ (report $\hat v_1$ with $\hat v_1 + 4 < 10$, i.e. $\hat v_1<6$). Then $d=0$, so $t_1 = \max_d W_{-1}(d) - W_{-1}(0) = 0 - 0 = 0$ and $u_1 = 0 - 0 = 0 < 2$. Reporting higher can't change the already-built decision or lower the fixed first term, so truth is optimal. Symmetrically, agent 2 flipping to no-build gives $u_2 = 0 < 2$. Neither gains — truth is (weakly) dominant, as VCG guarantees.
 

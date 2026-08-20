@@ -25,9 +25,9 @@ While we're here: what *is* a fluid, as opposed to a solid? A **fluid** — liqu
 
 $$\rho_V(\mathbf{x},t) = \frac{M(V)}{V},$$
 
-where $M(V)$ is the total mass of molecules inside the box. *In words: mass caught, divided by volume searched.* Naively we'd want $\rho = \lim_{V\to 0}\rho_V$ — but that limit doesn't exist: shrink $V$ below molecular spacing and $M(V)$ jumps between $0$ and one molecule's mass, so $\rho_V$ spikes and craters. Instead we define density on a **representative elementary volume (REV)** $V^\*$ — a volume in the *plateau* where $\rho_V$ has stopped depending on $V$:
+where $M(V)$ is the total mass of molecules inside the box. *In words: mass caught, divided by volume searched.* Naively we'd want $\rho = \lim_{V\to 0}\rho_V$ — but that limit doesn't exist: shrink $V$ below molecular spacing and $M(V)$ jumps between $0$ and one molecule's mass, so $\rho_V$ spikes and craters. Instead we define density on a **representative elementary volume (REV)** $V^*$ — a volume in the *plateau* where $\rho_V$ has stopped depending on $V$:
 
-$$\rho(\mathbf{x},t) \equiv \rho_{V^\*}(\mathbf{x},t), \qquad \ell_{\text{mol}}^3 \ll V^\* \ll L^3.$$
+$$\rho(\mathbf{x},t) \equiv \rho_{V^*}(\mathbf{x},t), \qquad \ell_{\text{mol}}^3 \ll V^* \ll L^3.$$
 
 *In words: pick the box size in the flat middle range — big enough to smooth molecular noise, small enough not to blur real gradients — and call that the density.* Below the plateau you measure noise; above it you measure a spatial average of genuinely different densities. The plateau exists only if that middle range exists, which again demands scale separation. Velocity $\mathbf{u}$ and pressure $p$ are defined the same way: an average over the REV.
 
@@ -109,7 +109,7 @@ The parcel volume needed is $V = N/n = 10^{6}/(2.5\times10^{25}) = 4\times10^{-2
 
 $$a = V^{1/3} = (4\times10^{-20})^{1/3}\ \mathrm{m} \approx 3.4\times10^{-7}\ \mathrm{m} = 340\ \mathrm{nm}.$$
 
-Compare to $\lambda\approx 70\ \mathrm{nm}$: the required REV side ($340\ \mathrm{nm}$) is about $5\lambda$ — larger than a mean free path, so a genuine REV *does* exist, provided the flow scale $L$ is comfortably bigger than $\sim\!340\ \mathrm{nm}$ (equivalently $\mathrm{Kn}\ll 1$). If $L$ were only a few hundred nm (as in P2), the smoothing box would be as big as the flow itself and no plateau would exist. *Check.* Units: $(\mathrm{m}^3)^{1/3}=\mathrm{m}$ ✓; and $340\ \mathrm{nm}>\lambda$ but $\ll 1\ \mathrm{m}$, so the ordering $\ell_{\text{mol}}\ll V^{\*1/3}\ll L$ can hold for macroscopic $L$. ✓
+Compare to $\lambda\approx 70\ \mathrm{nm}$: the required REV side ($340\ \mathrm{nm}$) is about $5\lambda$ — larger than a mean free path, so a genuine REV *does* exist, provided the flow scale $L$ is comfortably bigger than $\sim\!340\ \mathrm{nm}$ (equivalently $\mathrm{Kn}\ll 1$). If $L$ were only a few hundred nm (as in P2), the smoothing box would be as big as the flow itself and no plateau would exist. *Check.* Units: $(\mathrm{m}^3)^{1/3}=\mathrm{m}$ ✓; and $340\ \mathrm{nm}>\lambda$ but $\ll 1\ \mathrm{m}$, so the ordering $\ell_{\text{mol}}\ll V^{*1/3}\ll L$ can hold for macroscopic $L$. ✓
 
 </details>
 

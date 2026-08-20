@@ -4,7 +4,7 @@
 
 ## Why this matters
 
-Induction is how you prove a statement about *all* the natural numbers at once — infinitely many claims — with a finite argument. It's the natural weapon for anything defined by a formula in $n$, anything built recursively, and anything with a "for every step" flavor. In CS it *is* the proof that a recursive function is correct and that a loop's invariant survives every pass. In `[real-analysis](../real-analysis/syllabus.md)` it underwrites definitions built one integer at a time. Once you internalize the domino picture, a whole class of "how do I even start?" problems becomes routine.
+Induction is how you prove a statement about *all* the natural numbers at once — infinitely many claims — with a finite argument. It's the natural weapon for anything defined by a formula in $n$, anything built recursively, and anything with a "for every step" flavor. In CS it *is* the proof that a recursive function is correct and that a loop's invariant survives every pass. In `[real-analysis](../../real-analysis/syllabus.md)` it underwrites definitions built one integer at a time. Once you internalize the domino picture, a whole class of "how do I even start?" problems becomes routine.
 
 ## The idea
 

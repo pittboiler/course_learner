@@ -33,10 +33,10 @@ The formal spine of RL: what problem we are actually solving, and how to solve i
 | 1.1 | The RL Problem | Frame agent–environment interaction and the reward hypothesis | agent, environment, reward, return, exploration vs exploitation |
 | 1.2 | Markov Decision Processes | Define an MDP and the discounted return | state, action, transition kernel, reward, discount $\gamma$, Markov property |
 | 1.3 | Value Functions & the Bellman Expectation Equation | Express $V^\pi$ and $Q^\pi$ recursively | policy, state-value, action-value, Bellman expectation backup |
-| 1.4 | Optimality & the Bellman Optimality Equation | Characterize the best policy and its value | optimal policy, $V^\*$, $Q^\*$, greedy improvement, existence of a deterministic optimum |
+| 1.4 | Optimality & the Bellman Optimality Equation | Characterize the best policy and its value | optimal policy, $V^*$, $Q^*$, greedy improvement, existence of a deterministic optimum |
 | 1.5 | Dynamic Programming | Solve a known MDP by iterating the Bellman operator | policy evaluation, policy iteration, value iteration, contraction & convergence |
 
-**Boss problem 1:** A 2-state MDP has states $\{s_1, s_2\}$ and discount $\gamma = 0.9$. From $s_1$: action *stay* self-loops with reward $0$; action *switch* moves to $s_2$ with reward $+1$. From $s_2$: the only action self-loops with reward $+2$. Compute $V^\*(s_1)$ and $V^\*(s_2)$ by value iteration, state the optimal policy, and verify your answer satisfies the Bellman optimality equation exactly.
+**Boss problem 1:** A 2-state MDP has states $\{s_1, s_2\}$ and discount $\gamma = 0.9$. From $s_1$: action *stay* self-loops with reward $0$; action *switch* moves to $s_2$ with reward $+1$. From $s_2$: the only action self-loops with reward $+2$. Compute $V^*(s_1)$ and $V^*(s_2)$ by value iteration, state the optimal policy, and verify your answer satisfies the Bellman optimality equation exactly.
 
 ### Module 2: Model-Free Prediction & Control
 

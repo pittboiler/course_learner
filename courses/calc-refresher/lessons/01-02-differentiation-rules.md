@@ -38,7 +38,7 @@ In words: the outer function's sensitivity — evaluated at the inner function's
 
 ## Worked examples
 
-**Example 1 (mechanical — reading a composition).** Differentiate $\sin(x^2)$ and $\sin^2 x$. They look like siblings but compose in opposite orders. For $\sin(x^2)$: outer $= \sin(\square)$, inner $= x^2$, so the derivative is $\cos(x^2) \cdot 2x$. For $\sin^2 x = (\sin x)^2$: outer $= \square^2$, inner $= \sin x$, so it's $2\sin x \cdot \cos x$. The skill being trained: before touching a pencil, say out loud what the outer and inner functions are. Every chain-rule error is a misread of that anatomy.
+**Example 1 (mechanical — reading a composition).** Differentiate $\sin(x^2)$ and $\sin^2 x$. (Taking $\frac{d}{dx}\sin x = \cos x$ as known — the standard [derivative table](../reference.md#derivatives-of-the-standard-functions) is on the course reference card.) They look like siblings but compose in opposite orders. For $\sin(x^2)$: outer $= \sin(\square)$, inner $= x^2$, so the derivative is $\cos(x^2) \cdot 2x$. For $\sin^2 x = (\sin x)^2$: outer $= \square^2$, inner $= \sin x$, so it's $2\sin x \cdot \cos x$. The skill being trained: before touching a pencil, say out loud what the outer and inner functions are. Every chain-rule error is a misread of that anatomy.
 
 **Example 2 (why you'd care — implicit differentiation).** Most relationships in physics and economics arrive as *equations*, not formulas: constraint surfaces, indifference curves, gas laws. You can't "solve for $y$" — and you don't need to. Take the circle $x^2 + y^2 = 25$ and find the tangent slope at $(3, 4)$. Differentiate both sides, remembering $y$ is secretly $y(x)$:
 

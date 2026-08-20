@@ -1,6 +1,6 @@
 # Algebra I & II — Syllabus
 
-> Foundations · Tier F · ~12 lessons · Prereqs: none · Roadmap id: `algebra-foundations`
+> Foundations · Tier F · ~13 lessons · Prereqs: none · Roadmap id: `algebra-foundations`
 
 ## Goal
 
@@ -17,6 +17,7 @@ When you finish, you can:
 - [ ] Solve a system of linear equations by substitution, elimination, or graph — and know when there's no solution
 - [ ] Apply the exponent laws in both directions without hesitation
 - [ ] Multiply and factor polynomials, including the tricky $ax^2+bx+c$ case
+- [ ] Divide one polynomial by another — long division, synthetic division, and the factor theorem
 - [ ] Solve a quadratic three ways — factoring, completing the square, the quadratic formula — and pick the fastest
 - [ ] Simplify, add, and divide rational expressions, and rationalize a radical
 - [ ] Read exponential growth/decay, and solve for the exponent with logarithms
@@ -54,6 +55,7 @@ Exponent rules first, then multiplying and un-multiplying whole expressions.
 |---|---|---|---|
 | 3.1 | Exponents & polynomial operations | Apply every exponent law and add/multiply polynomials | product/quotient/power rules, negative & zero exponents, FOIL, degree |
 | 3.2 | Factoring | Factor by inspection, grouping, and special patterns | GCF, difference of squares, trinomial factoring, factor by grouping |
+| 3.3 | Polynomial long division | Divide one polynomial by another and read off a factor from the remainder | division algorithm, placeholder zeros, synthetic division, remainder & factor theorems |
 
 **Boss problem 3:** Expand $(2x-3)(x+4)$, then — going the other way — factor $6x^2 + x - 12$ completely and verify by re-multiplying. Explain why factoring is "harder" than expanding.
 
@@ -85,3 +87,7 @@ The inverse pair that runs growth, decay, and half of finance.
 - OpenStax, *Elementary Algebra* and *Intermediate Algebra* (scope, conventions, problem style)
 - Khan Academy, *Algebra I* and *Algebra II* (worked-example register and sequencing)
 - Paul Dawkins, *Paul's Online Math Notes — Algebra* (clean statements of the rules)
+
+## Notes
+
+- 2026-08-20: Added Lesson 3.3 (Polynomial long division), taking the course from 12 to 13 lessons. It closes a real library-wide gap: [`precalculus` 2.2](../precalculus/lessons/02-02-rational-functions.md) uses polynomial division to find slant asymptotes and [`calc-refresher` 2.2](../calc-refresher/lessons/02-02-integration-techniques.md) requires "long-divide first" before partial fractions, but no course taught the method — `precalculus`'s reference card had to state the recipe itself. Module 3 is its natural home: it needs only 3.1's polynomial arithmetic, and the factor theorem is the direct sequel to 3.2's pattern-matching factoring (which tops out at quadratics). Boss problem 3 is unchanged.

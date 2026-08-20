@@ -28,7 +28,7 @@ where $\varphi$ is the standard-normal density and $d_1 = \frac{\ln(S/K) + (r + 
 
 $$\sigma_{n+1} = \sigma_n - \frac{f(\sigma_n)}{f'(\sigma_n)} = \sigma_n + \frac{C_{\text{market}} - C_{BS}(\sigma_n)}{\text{vega}(\sigma_n)}.$$
 
-In words: if the model price is below market, nudge vol *up* by the gap divided by how many dollars a unit of vol buys you. Vega is large near the money, so convergence is fast — usually two or three steps. (This is exactly the Newton iteration from `](../../calc-refresher/syllabus.md)`, with vega playing the role of the derivative.)
+In words: if the model price is below market, nudge vol *up* by the gap divided by how many dollars a unit of vol buys you. Vega is large near the money, so convergence is fast — usually two or three steps. (This is exactly the Newton iteration from [`calc-refresher`](../../calc-refresher/syllabus.md), with vega playing the role of the derivative.)
 
 **The implied-vol surface.** Do this for every listed strike $K$ and maturity $T$ and you get a function $\sigma_{\text{imp}}(K, T)$ — the **implied-vol surface**. This surface, not any single $\sigma$, is the true market data object. Modern practice inverts the logic of this course's derivation: instead of *predicting* prices from a model, you *calibrate* a model so that it reproduces the observed surface, then use it to price the exotics that aren't quoted.
 
@@ -119,5 +119,5 @@ She is long the call, so long vega, so a vol *rise* is a **gain of about 1.20 do
 
 - **Backward:** this lesson just runs [2.4](02-04-black-scholes-formula.md) in reverse — invert $C_{BS}(\sigma)$ using the vega from [2.5](02-05-greeks-dynamic-hedging.md) as Newton's derivative. Vega $> 0$ (monotonicity) is what makes implied vol well-defined at all.
 - **Forward:** the smile is the fingerprint of an *incomplete* market where constant-$\sigma$ GBM fails; [4.5](04-05-incomplete-markets-model-risk.md) treats local- and stochastic-vol models and the model risk of choosing among them. The calibrate-to-the-surface workflow reappears in rates when we fit [4.2](04-02-short-rate-models-vasicek-cir.md) to quoted bonds.
-- **Sideways (statistics):** "fatter tails and negative skew" are the excess-kurtosis and skewness diagnostics of `](../../probability-theory/syllabus.md)` — the smile is those two distributional defects read straight off option prices. Breeden–Litzenberger even hands you the whole risk-neutral density as $\partial^2 C/\partial K^2$.
-- **Sideways (numerics):** the inversion is the Newton's-method root-find from `](../../calc-refresher/syllabus.md)`, with the closed-form vega saving you a finite-difference derivative — and with the deep-wing caveat that vanishing vega sends you back to bisection.
+- **Sideways (statistics):** "fatter tails and negative skew" are the excess-kurtosis and skewness diagnostics of [`probability-theory`](../../probability-theory/syllabus.md) — the smile is those two distributional defects read straight off option prices. Breeden–Litzenberger even hands you the whole risk-neutral density as $\partial^2 C/\partial K^2$.
+- **Sideways (numerics):** the inversion is the Newton's-method root-find from [`calc-refresher`](../../calc-refresher/syllabus.md), with the closed-form vega saving you a finite-difference derivative — and with the deep-wing caveat that vanishing vega sends you back to bisection.

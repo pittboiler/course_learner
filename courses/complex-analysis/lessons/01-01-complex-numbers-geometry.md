@@ -144,5 +144,3 @@ But $\omega^n = \left(e^{2\pi i/n}\right)^n = e^{2\pi i} = 1$, so the numerator 
 - **Backward:** this reuses everything `real-analysis` gave you about $\mathbb{R}^2$ and the field axioms — $\mathbb{C}$ is $\mathbb{R}^2$ with a multiplication that happens to add angles. The angle-addition identities you're leaning on are the same real-variable trig facts, now doing geometric work.
 - **Forward:** "length and angle" is the language the entire course speaks. [1.2](01-02-functions-limits-continuity.md) puts a topology on these points (open sets, limits, continuity); [1.3](01-03-exponential-log-trig.md) upgrades the shorthand $e^{i\theta}$ into the genuine exponential and confronts the multivalued $\arg$ head-on as the branch cut of $\log$. The roots-of-unity picture returns for real when you compute residues and count roots in Module 6.
 - **Sideways (physics/signals):** "multiply = rotate" is exactly why complex numbers model oscillation and AC circuits — a steady rotation $e^{i\omega t}$ *is* a sinusoid, and multiplying phasors adds their phases. P3's balanced roots of unity are the backbone of the discrete Fourier transform.
-</content>
-</invoke>

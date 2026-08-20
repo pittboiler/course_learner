@@ -1,6 +1,6 @@
 # Probability & Statistics · Lesson 4.3: Hypothesis testing
 
-> ⏱ ~15 min · Module 4: Statistical inference · Builds on: [4.2 Confidence intervals](04-02-confidence-intervals.md), [3.3 The Central Limit Theorem](03-03-central-limit-theorem.md) · Unlocks: game-theory, econometrics, the sciences (course complete)
+> ⏱ ~15 min · Module 4: Statistical inference · Builds on: [4.2 Confidence intervals](04-02-confidence-intervals.md), [3.3 The Central Limit Theorem](03-03-central-limit-theorem.md) · Unlocks: [4.4 Sampling distributions](04-04-sampling-distributions-t-and-chi-square.md), game-theory, econometrics, the sciences
 
 ## Why this matters
 
@@ -122,4 +122,4 @@ Notice this is *precisely* a p-value computation: the test statistic $z = (\bar{
 - **Forward:** every regression coefficient in **econometrics** comes with a t-statistic and a p-value that are this exact test; A/B tests, clinical trials, and the reproducibility crisis are all this lesson, scaled up. The "reject / retain under a threshold" decision is also the skeleton of statistical decision theory.
 - **Sideways (game theory / decision-making):** choosing $\alpha$ trades off Type I against Type II errors — a payoff matrix over "which mistake hurts more," the same expected-loss reasoning that runs decisions under uncertainty. A hypothesis test is a decision rule, and its power curve is its performance guarantee.
 
-*Course complete — you can now estimate a parameter, wrap it in an interval, and test a claim about it, and say honestly what each does and does not promise. That's the working core of statistical inference.*
+*You can now estimate a parameter, wrap it in an interval, and test a claim about it, and say honestly what each does and does not promise. That's the working core of statistical inference — and [4.4](04-04-sampling-distributions-t-and-chi-square.md) closes the course by proving the two things Module 4 borrowed on trust: the $n-1$ divisor and the $t$ multiplier.*

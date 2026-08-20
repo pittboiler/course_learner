@@ -28,7 +28,7 @@ $$f'(3) = \lim_{h\to 0}\frac{(3+h)^2 - 9}{h} = \lim_{h\to 0}\frac{6h + h^2}{h} =
 
 Note the move: the raw fraction is $\frac{0}{0}$-shaped, but algebra cancels the $h$ *before* we take the limit. That cancellation is the entire trick behind every derivative formula you memorized.
 
-**Example 2 (why you'd care).** A factory's cost of producing $q$ units is $C(q) = 400 + 20q - 0.05q^2$ (in dollars, for modest $q$). The **marginal cost** is $C'(q) = 20 - 0.1q$. At $q = 100$: $C'(100) = 10$, meaning the 101st unit costs *about* \$10 to make — even though the *average* cost so far is $C(100)/100 = \$19$. Decisions ("should I make one more?") run on the derivative, not the average. This distinction is half of microeconomics.
+**Example 2 (why you'd care).** A factory's cost of producing $q$ units is $C(q) = 400 + 20q - 0.05q^2$ (in dollars, for modest $q$). The **marginal cost** is $C'(q) = 20 - 0.1q$. At $q = 100$: $C'(100) = 10$, meaning the 101st unit costs *about* 10 dollars to make — even though the *average* cost so far is $C(100)/100 = \$19$. Decisions ("should I make one more?") run on the derivative, not the average. This distinction is half of microeconomics.
 
 ## Watch out
 

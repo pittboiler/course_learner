@@ -34,7 +34,7 @@ The simplest useful computer — finite memory, one pass — and the exact class
 | 1.1 | Deterministic finite automata | Build a DFA, trace a run, and state the language a machine recognizes | DFA $(Q,\Sigma,\delta,q_0,F)$, transition function, run/computation, acceptance, regular language, state diagram |
 | 1.2 | Nondeterministic FA & the subset construction | Design an NFA and convert it to an equivalent DFA | NFA, $\varepsilon$-transitions, nondeterminism, subset (powerset) construction, NFA $\equiv$ DFA |
 | 1.3 | Regular expressions & Kleene's theorem | Convert between regular expressions and finite automata both ways | regular expression, union/concatenation/Kleene star, Kleene's theorem, GNFA, state elimination |
-| 1.4 | Closure properties of regular languages | Combine regular languages and know the class stays regular | closure under $\cup,\cap,\overline{\,\cdot\,},\cdot,{}^\*$, product construction, reversal, homomorphism (taste) |
+| 1.4 | Closure properties of regular languages | Combine regular languages and know the class stays regular | closure under $\cup,\cap,\overline{\,\cdot\,},\cdot,{}^*$, product construction, reversal, homomorphism (taste) |
 | 1.5 | The pumping lemma & non-regularity | Prove a language is not regular by an adversary argument | pumping lemma, pumping length, adversary/decomposition argument, $\{0^n1^n\}$, Myhill–Nerode (taste) |
 
 **Boss problem 1:** (a) Construct a DFA over $\Sigma=\{a,b\}$ accepting exactly the strings with an even number of $a$'s **and** an odd number of $b$'s. (b) Convert to a DFA by subset construction the NFA with states $\{q_0,q_1\}$, start $q_0$, accept $q_1$, and $\delta(q_0,a)=\{q_0,q_1\}$, $\delta(q_0,b)=\{q_0\}$, $\delta(q_1,b)=\{q_1\}$; then describe its language in one sentence. (c) Prove $\{0^n1^n : n\ge 0\}$ is not regular with the pumping lemma.
@@ -47,7 +47,7 @@ Add one stack of unbounded memory — enough to match brackets and nest structur
 |---|---|---|---|
 | 2.1 | Context-free grammars, derivations & parse trees | Write a CFG, derive strings, build parse trees, and spot ambiguity | CFG $(V,\Sigma,R,S)$, derivation, leftmost derivation, parse tree, ambiguity, Chomsky normal form & parsing (taste) |
 | 2.2 | Pushdown automata & CFG equivalence | Design a PDA and know PDAs recognize exactly the CFLs | PDA, stack operations, nondeterministic acceptance, CFG $\equiv$ PDA, empty-stack vs. final-state acceptance |
-| 2.3 | The CFL pumping lemma & closure properties | Prove a language non-context-free and use CFL closure | CFL pumping lemma, $\{a^nb^nc^n\}$, closure under $\cup,\cdot,{}^\*$, non-closure under $\cap$/complement, $\cap$ with a regular language |
+| 2.3 | The CFL pumping lemma & closure properties | Prove a language non-context-free and use CFL closure | CFL pumping lemma, $\{a^nb^nc^n\}$, closure under $\cup,\cdot,{}^*$, non-closure under $\cap$/complement, $\cap$ with a regular language |
 
 **Boss problem 2:** (a) Give a CFG for the palindromes over $\{a,b\}$ and show a leftmost derivation of $abba$. (b) Describe a PDA accepting $\{a^nb^n : n\ge 0\}$ by its stack behavior, and say why one stack suffices here. (c) Prove $\{a^nb^nc^n : n\ge 0\}$ is not context-free with the CFL pumping lemma.
 

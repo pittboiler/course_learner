@@ -1,0 +1,76 @@
+<svg viewBox="0 0 640 470" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="24" y="22" fill="#8a8a8a" font-style="italic">One balance on species A over any system volume V &#8212; then switch terms off to get each reactor.</text>
+
+  <!-- ===== top: the generic control volume ===== -->
+
+  <!-- system boundary -->
+  <rect x="200" y="70" width="240" height="150" rx="14" fill="#4a90d9" opacity="0.10" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <text x="320" y="96" fill="#8a8a8a" text-anchor="middle" font-style="italic">system volume V</text>
+
+  <!-- inbound molar flow -->
+  <line x1="70" y1="128" x2="196" y2="128" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="200,128 189,123 189,133" fill="#4a90d9"/>
+  <text x="86" y="118" fill="#4a90d9">F</text>
+  <text x="94" y="122" fill="#4a90d9" font-size="10">A0</text>
+  <text x="112" y="118" fill="#4a90d9">(in)</text>
+
+  <!-- outbound molar flow -->
+  <line x1="444" y1="128" x2="566" y2="128" stroke="#8a8a8a" stroke-width="2.5"/>
+  <polygon points="570,128 559,123 559,133" fill="#8a8a8a"/>
+  <text x="500" y="118" fill="#8a8a8a">F</text>
+  <text x="508" y="122" fill="#8a8a8a" font-size="10">A</text>
+  <text x="520" y="118" fill="#8a8a8a">(out)</text>
+
+  <!-- generation term inside -->
+  <text x="320" y="150" fill="#e0645c" text-anchor="middle" font-size="18">+ &#8747; r</text>
+  <text x="356" y="154" fill="#e0645c" font-size="11">A</text>
+  <text x="382" y="150" fill="#e0645c" font-size="18">dV</text>
+  <text x="320" y="170" fill="#e0645c" text-anchor="middle" font-size="11">generation</text>
+
+  <!-- accumulation term inside -->
+  <text x="320" y="198" fill="#8a8a8a" text-anchor="middle" font-size="18">= dN</text>
+  <text x="352" y="202" fill="#8a8a8a" font-size="11">A</text>
+  <text x="372" y="198" fill="#8a8a8a" font-size="18">/dt</text>
+  <text x="320" y="216" fill="#8a8a8a" text-anchor="middle" font-size="11">accumulation</text>
+
+  <!-- the identity, restated -->
+  <text x="320" y="252" fill="#4a90d9" text-anchor="middle" font-size="15">in &#8722; out + generation = accumulation</text>
+
+  <!-- ===== bottom: family tree ===== -->
+
+  <!-- root -->
+  <rect x="230" y="290" width="180" height="34" rx="6" fill="#e0645c" opacity="0.14" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="320" y="312" fill="#e0645c" text-anchor="middle">general mole balance</text>
+
+  <!-- connectors -->
+  <line x1="320" y1="324" x2="320" y2="344" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="90" y1="344" x2="550" y2="344" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="90" y1="344" x2="90" y2="366" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="243" y1="344" x2="243" y2="366" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="397" y1="344" x2="397" y2="366" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="550" y1="344" x2="550" y2="366" stroke="#8a8a8a" stroke-width="1.2"/>
+
+  <!-- Batch -->
+  <rect x="34" y="366" width="112" height="58" rx="6" fill="#4a90d9" opacity="0.10" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="90" y="386" fill="#4a90d9" text-anchor="middle">Batch</text>
+  <text x="90" y="404" fill="#8a8a8a" text-anchor="middle" font-size="11">no flow in/out</text>
+  <text x="90" y="418" fill="#8a8a8a" text-anchor="middle" font-size="11">dN/dt = rV</text>
+
+  <!-- CSTR -->
+  <rect x="187" y="366" width="112" height="58" rx="6" fill="#4a90d9" opacity="0.10" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="243" y="386" fill="#4a90d9" text-anchor="middle">CSTR</text>
+  <text x="243" y="404" fill="#8a8a8a" text-anchor="middle" font-size="11">steady + mixed</text>
+  <text x="243" y="418" fill="#8a8a8a" text-anchor="middle" font-size="11">F0 &#8722; F = &#8722;rV</text>
+
+  <!-- PFR -->
+  <rect x="341" y="366" width="112" height="58" rx="6" fill="#4a90d9" opacity="0.10" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="397" y="386" fill="#4a90d9" text-anchor="middle">PFR</text>
+  <text x="397" y="404" fill="#8a8a8a" text-anchor="middle" font-size="11">steady + gradient</text>
+  <text x="397" y="418" fill="#8a8a8a" text-anchor="middle" font-size="11">dF/dV = r</text>
+
+  <!-- PBR -->
+  <rect x="494" y="366" width="112" height="58" rx="6" fill="#4a90d9" opacity="0.10" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="550" y="386" fill="#4a90d9" text-anchor="middle">PBR</text>
+  <text x="550" y="404" fill="#8a8a8a" text-anchor="middle" font-size="11">catalyst mass W</text>
+  <text x="550" y="418" fill="#8a8a8a" text-anchor="middle" font-size="11">dF/dW = r&#8242;</text>
+</svg>

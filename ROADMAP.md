@@ -169,19 +169,19 @@ Below college level — the on-ramp for genuinely-from-scratch or very rusty fun
 | id | Course | Tier | Prereqs | Notes |
 |---|---|---|---|---|
 | `arithmetic-number-sense` | Arithmetic & Number Sense | F | — | Fractions, ratios, percents, estimation, mental math. The floor below algebra. |
-| `algebra-foundations` | Algebra I & II | F | — | Equations, factoring, functions, exponents & logs. The language everything downstream is written in. |
-| `geometry` | Euclidean Geometry | F | — | Congruence, similarity, circles, area — proof-based. The classic first taste of rigor. |
-| `trigonometry` | Trigonometry | F | — | Unit circle, identities, triangle-solving, waves. The bridge from geometry to calculus. |
-| `precalculus` | Precalculus | F | — | Functions, polynomials, conics, sequences. Assembles the toolkit calculus assumes. |
-| `discrete-math-intro` | Discrete Math for Beginners | F | — | Counting, logic, sets, basic proof. The gentle on-ramp to `proofs-primer` and CS. |
+| `algebra-foundations` | Algebra I & II | F | arithmetic | Equations, factoring, functions, exponents & logs. The language everything downstream is written in. |
+| `geometry` | Euclidean Geometry | F | algebra | Congruence, similarity, circles, area — proof-based. The classic first taste of rigor. |
+| `trigonometry` | Trigonometry | F | geometry, algebra | Unit circle, identities, triangle-solving, waves. The bridge from geometry to calculus. |
+| `precalculus` | Precalculus | F | algebra, trig | Functions, polynomials, conics, sequences. Assembles the toolkit calculus assumes. |
+| `discrete-math-intro` | Discrete Math for Beginners | F | arithmetic, algebra | Counting, logic, sets, basic proof. The gentle on-ramp to `proofs-primer` and CS. |
 
 ## Mathematics
 
 | id | Course | Tier | Prereqs | Notes |
 |---|---|---|---|---|
-| `proofs-primer` | How to Read & Write Proofs | 0 | — | Logic, sets, induction, epsilon-delta reading, proof patterns. The on-ramp to analysis and topology. |
-| `calc-refresher` | Calculus (single + multivariable) | 0 | — | Through vector calculus (grad/div/curl, line & surface integrals) — E&M needs it. |
-| `linalg-refresher` | Linear Algebra | 0 | — | Through spectral theorem and SVD; inner-product spaces (QM needs them). |
+| `proofs-primer` | How to Read & Write Proofs | 0 | algebra, discrete-intro | Logic, sets, induction, epsilon-delta reading, proof patterns. The on-ramp to analysis and topology. |
+| `calc-refresher` | Calculus (single + multivariable) | 0 | precalc | Through vector calculus (grad/div/curl, line & surface integrals) — E&M needs it. |
+| `linalg-refresher` | Linear Algebra | 0 | precalc | Through spectral theorem and SVD; inner-product spaces (QM needs them). |
 | `ode-refresher` | Differential Equations | 0 | calc | ODEs, linear systems, phase portraits, intro PDEs (separation of variables). |
 | `prob-stat-refresher` | Probability & Statistics | 0 | calc | Distributions, expectation, LLN/CLT, Bayes, basic inference. |
 | `real-analysis` | Real Analysis | 1 | proofs, calc | Sequences, limits, continuity, differentiation, Riemann integration, uniform convergence. |
@@ -195,7 +195,7 @@ Below college level — the on-ramp for genuinely-from-scratch or very rusty fun
 | `dynamical-systems` | Dynamical Systems & Chaos | 1 | ode, linalg, real-analysis | Flows, stability, bifurcations, chaos, strange attractors, routes to chaos. |
 | `stochastic-calculus` | Stochastic Calculus | 1 | probability-theory, real-analysis | Brownian motion, Itô calculus, SDEs, Girsanov, Feynman–Kac. The engine for mathematical finance. |
 | `information-theory` | Information Theory | 1 | probability-theory, linalg | Entropy, mutual information, source & channel coding, max-entropy. Bridges stat-mech ↔ ML ↔ econ. |
-| `discrete-mathematics` | Discrete Mathematics | 0 | — | Logic, sets, combinatorics, recurrences, graphs — the mathematics of the discrete, and the backbone of CS. |
+| `discrete-mathematics` | Discrete Mathematics | 0 | discrete-intro | Logic, sets, combinatorics, recurrences, graphs — the mathematics of the discrete, and the backbone of CS. |
 | `number-theory` | Number Theory | 1 | proofs | Primes, congruences, Diophantine equations, quadratic reciprocity, and the arithmetic behind RSA. |
 | `graph-theory` | Graph Theory | 1 | proofs | Connectivity, trees, matchings, coloring, planarity, flows, and a taste of spectral graph theory. |
 | `combinatorics` | Enumerative & Algebraic Combinatorics | 1 | proofs | Bijections, generating functions, inclusion–exclusion, permutations & partitions, Ramsey theory. |
@@ -262,7 +262,7 @@ New field (Phase 8 in [EXPANSION.md](EXPANSION.md)).
 
 | id | Course | Tier | Prereqs | Notes |
 |---|---|---|---|---|
-| `general-chemistry` | General Chemistry | 0 | — | Atoms, stoichiometry, bonding, thermochemistry, equilibrium, acids & bases, and redox. |
+| `general-chemistry` | General Chemistry | 0 | algebra | Atoms, stoichiometry, bonding, thermochemistry, equilibrium, acids & bases, and redox. |
 | `organic-chemistry` | Organic Chemistry I & II | 1 | general-chemistry | Structure & bonding, functional groups, reaction mechanisms, stereochemistry, and synthesis. |
 | `inorganic-chemistry` | Inorganic Chemistry | 1 | general-chemistry | Periodic trends, coordination complexes, crystal-field theory, symmetry, and organometallics. |
 | `analytical-chemistry` | Analytical & Instrumental Chemistry | 1 | general-chemistry | Quantitative analysis, equilibria, chromatography, spectroscopy, and mass spectrometry. |

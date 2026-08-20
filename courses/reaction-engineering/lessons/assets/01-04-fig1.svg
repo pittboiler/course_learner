@@ -1,0 +1,38 @@
+<svg viewBox="0 0 620 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="24" y="22" fill="#8a8a8a" font-style="italic">Sealed, well-stirred batch: nothing flows in or out, so A is consumed in time &#8212; CA falls, X climbs toward 1.</text>
+
+  <!-- ===== left: stirred batch tank ===== -->
+  <rect x="118" y="56" width="34" height="18" fill="#8a8a8a" opacity="0.2" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="135" y1="74" x2="135" y2="205" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="113" y1="205" x2="157" y2="205" stroke="#8a8a8a" stroke-width="3"/>
+  <line x1="116" y1="197" x2="154" y2="213" stroke="#8a8a8a" stroke-width="2"/>
+  <path d="M 72 92 L 72 238 Q 72 250 84 250 L 186 250 Q 198 250 198 238 L 198 92" fill="#4a90d9" opacity="0.12" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="72" y1="108" x2="198" y2="108" stroke="#4a90d9" stroke-width="2"/>
+  <path d="M 158 175 A 26 15 0 1 1 155 172" fill="none" stroke="#4a90d9" stroke-width="1.5"/>
+  <polygon points="155,172 163,175 158,181" fill="#4a90d9"/>
+  <text x="94" y="150" fill="#4a90d9">CA(t)</text>
+  <text x="86" y="274" fill="#8a8a8a">no flow in / out</text>
+
+  <!-- ===== right: CA(t) and X(t) vs time ===== -->
+  <line x1="392" y1="250" x2="602" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="602,250 592,245 592,255" fill="#8a8a8a"/>
+  <text x="596" y="270" fill="#8a8a8a">t</text>
+  <line x1="392" y1="258" x2="392" y2="60" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="392,60 387,70 397,70" fill="#8a8a8a"/>
+  <text x="374" y="256" fill="#8a8a8a">0</text>
+
+  <!-- asymptote X = 1 and CA0 level -->
+  <line x1="392" y1="70" x2="590" y2="70" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="360" y="74" fill="#e0645c">1</text>
+  <text x="352" y="74" fill="#4a90d9">CA0</text>
+
+  <!-- CA(t): exponential decay -->
+  <path d="M 392 70 L 425 140.7 L 458 183.8 L 491 209.9 L 524 225.7 L 557 235.2 L 590 241"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="470" y="175" fill="#4a90d9">CA(t)</text>
+
+  <!-- X(t): rise toward 1 -->
+  <path d="M 392 250 L 425 179.3 L 458 136.2 L 491 110.1 L 524 94.3 L 557 84.8 L 590 79"
+        fill="none" stroke="#e0645c" stroke-width="3"/>
+  <text x="505" y="120" fill="#e0645c">X(t)</text>
+</svg>

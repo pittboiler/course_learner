@@ -1,0 +1,36 @@
+<svg viewBox="0 0 560 382" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- axes: horizontal = value, vertical = slope -->
+  <line x1="70" y1="285" x2="500" y2="285" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="185" y1="330" x2="185" y2="80" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="440" y="303" fill="#8a8a8a">value</text>
+  <text x="120" y="92" fill="#8a8a8a">slope</text>
+
+  <!-- the parallelogram the two columns span; its area is |W| -->
+  <polygon points="185,285 350,230 405,120 240,175" fill="#4a90d9" opacity="0.12"/>
+  <text x="286" y="212" fill="#4a90d9" opacity="0.9">area = |W|</text>
+
+  <!-- column vectors -->
+  <line x1="185" y1="285" x2="344" y2="232" stroke="#4a90d9" stroke-width="3"/>
+  <polygon points="352,229 338,227 341,238" fill="#4a90d9"/>
+  <text x="356" y="248" fill="#4a90d9">v&#8321; = (y&#8321;, y&#8321;&#8242;)</text>
+
+  <line x1="185" y1="285" x2="237" y2="181" stroke="#4a90d9" stroke-width="3"/>
+  <polygon points="241,172 232,183 243,187" fill="#4a90d9"/>
+  <text x="248" y="168" fill="#4a90d9">v&#8322; = (y&#8322;, y&#8322;&#8242;)</text>
+
+  <!-- the target vector (0, g) -->
+  <line x1="185" y1="285" x2="185" y2="156" stroke="#e0645c" stroke-width="3.5"/>
+  <polygon points="185,147 179,160 191,160" fill="#e0645c"/>
+  <text x="194" y="140" fill="#e0645c">target (0, g)</text>
+
+  <!-- the decomposition: u1' v1 then u2' v2 lands exactly on the target -->
+  <line x1="185" y1="285" x2="102" y2="313" stroke="#e0645c" stroke-width="2" stroke-dasharray="5 4"/>
+  <line x1="102" y1="313" x2="185" y2="148" stroke="#e0645c" stroke-width="2" stroke-dasharray="5 4"/>
+  <circle cx="102" cy="313" r="4" fill="#e0645c"/>
+  <text x="88" y="332" fill="#e0645c">u&#8321;&#8242; v&#8321;</text>
+  <text x="96" y="222" fill="#e0645c">u&#8322;&#8242; v&#8322;</text>
+
+  <!-- caption -->
+  <text x="30" y="356" fill="#8a8a8a" font-style="italic">The two columns span the plane exactly when W &#8800; 0 &#8212; and then every</text>
+  <text x="30" y="374" fill="#8a8a8a" font-style="italic">target (0, g) has one decomposition. Those weights are u&#8321;&#8242; and u&#8322;&#8242;.</text>
+</svg>

@@ -1,0 +1,61 @@
+<svg viewBox="0 0 680 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Try all three linearizations. The order is whichever plot comes out STRAIGHT &#8212; here, the middle one.</text>
+
+  <!-- ============ Panel A: 0th order, C_A vs t ============ -->
+  <text x="60" y="58" fill="#8a8a8a" font-weight="bold">zero order?</text>
+  <line x1="60" y1="250" x2="205" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="205,250 196,246 196,254" fill="#8a8a8a"/>
+  <line x1="60" y1="250" x2="60" y2="80" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="60,80 56,89 64,89" fill="#8a8a8a"/>
+  <text x="196" y="270" fill="#8a8a8a">t</text>
+  <text x="30" y="90" fill="#8a8a8a">C</text>
+  <text x="42" y="94" fill="#8a8a8a" font-size="9">A</text>
+  <!-- curved decay: NOT straight -->
+  <path d="M 66 96 C 96 176, 140 214, 200 232" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <circle cx="66" cy="96" r="3" fill="#4a90d9"/>
+  <circle cx="100" cy="158" r="3" fill="#4a90d9"/>
+  <circle cx="140" cy="200" r="3" fill="#4a90d9"/>
+  <circle cx="170" cy="220" r="3" fill="#4a90d9"/>
+  <circle cx="200" cy="232" r="3" fill="#4a90d9"/>
+  <text x="96" y="300" fill="#8a8a8a">curved &#8212; no</text>
+
+  <!-- ============ Panel B: 1st order, ln C_A vs t (STRAIGHT) ============ -->
+  <text x="278" y="58" fill="#e0645c" font-weight="bold">first order &#10003;</text>
+  <line x1="280" y1="250" x2="425" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="425,250 416,246 416,254" fill="#8a8a8a"/>
+  <line x1="280" y1="250" x2="280" y2="80" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="280,80 276,89 284,89" fill="#8a8a8a"/>
+  <text x="416" y="270" fill="#8a8a8a">t</text>
+  <text x="246" y="90" fill="#8a8a8a">ln C</text>
+  <text x="272" y="94" fill="#8a8a8a" font-size="9">A</text>
+  <!-- straight descending line -->
+  <line x1="286" y1="100" x2="416" y2="230" stroke="#e0645c" stroke-width="3"/>
+  <circle cx="286" cy="100" r="3" fill="#e0645c"/>
+  <circle cx="318" cy="132" r="3" fill="#e0645c"/>
+  <circle cx="351" cy="165" r="3" fill="#e0645c"/>
+  <circle cx="383" cy="197" r="3" fill="#e0645c"/>
+  <circle cx="416" cy="230" r="3" fill="#e0645c"/>
+  <!-- slope annotation -->
+  <line x1="330" y1="145" x2="380" y2="145" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="380" y1="145" x2="380" y2="195" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="384" y="176" fill="#8a8a8a" font-size="11">slope = &#8722;k</text>
+  <text x="300" y="300" fill="#e0645c">straight &#8212; yes</text>
+
+  <!-- ============ Panel C: 2nd order, 1/C_A vs t ============ -->
+  <text x="500" y="58" fill="#8a8a8a" font-weight="bold">second order?</text>
+  <line x1="500" y1="250" x2="645" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="645,250 636,246 636,254" fill="#8a8a8a"/>
+  <line x1="500" y1="250" x2="500" y2="80" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="500,80 496,89 504,89" fill="#8a8a8a"/>
+  <text x="636" y="270" fill="#8a8a8a">t</text>
+  <text x="470" y="90" fill="#8a8a8a">1/C</text>
+  <text x="494" y="94" fill="#8a8a8a" font-size="9">A</text>
+  <!-- curved rise: NOT straight -->
+  <path d="M 506 232 C 566 218, 612 150, 640 96" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <circle cx="506" cy="232" r="3" fill="#4a90d9"/>
+  <circle cx="540" cy="222" r="3" fill="#4a90d9"/>
+  <circle cx="580" cy="190" r="3" fill="#4a90d9"/>
+  <circle cx="612" cy="146" r="3" fill="#4a90d9"/>
+  <circle cx="640" cy="96" r="3" fill="#4a90d9"/>
+  <text x="536" y="300" fill="#8a8a8a">curved &#8212; no</text>
+</svg>

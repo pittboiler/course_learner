@@ -54,7 +54,7 @@ Divide the Euler equation by $u'(c_t)$ and it becomes $1=m_{t+1}R_{t+1}$; with u
 
 $$1=\mathbb{E}_t\!\big[m_{t+1}R_{t+1}\big].$$
 
-*In words:* every asset's expected return, weighted by how hungry you'll be when it pays off, must price at par. This one equation prices *all* assets — it is the exact object `](../../mathematical-finance/syllabus.md)` builds its whole pricing theory on, and it reappears in [5.4](05-04-consumption-based-asset-pricing.md).
+*In words:* every asset's expected return, weighted by how hungry you'll be when it pays off, must price at par. This one equation prices *all* assets — it is the exact object [`mathematical-finance`](../../mathematical-finance/syllabus.md) builds its whole pricing theory on, and it reappears in [5.4](05-04-consumption-based-asset-pricing.md).
 
 ## Picture
 
@@ -184,5 +184,5 @@ Both conditions hold, so by Blackwell's theorem $T$ is a contraction of modulus 
 
 - **Backward:** the Euler + TVC pair is the concrete solution to the recursive problem set up in [1.1](01-01-sequence-vs-recursive.md) and justified by [1.2](01-02-principle-of-optimality.md); the sufficiency argument leans on the contraction/uniqueness result you just re-derived in the Flashback.
 - **Forward:** [1.4](01-04-envelope-theorem-dynamics.md) gets the Euler equation the *other* way — Bellman FOC $u'(c)=\beta V'(k')$ plus the envelope formula for $V'$ — closing the loop between the Lagrangian and recursive derivations. The continuous-time analog is the Ramsey–Keynes rule of [2.3](02-03-ramsey-cass-koopmans.md), where the difference equation becomes an ODE and TVC becomes a boundary condition on the saddle path.
-- **Sideways (finance — direct bridge):** the Euler equation, divided by $u'(c_t)$, *is* the stochastic-discount-factor pricing equation $1=\mathbb{E}_t[m_{t+1}R_{t+1}]$ with $m_{t+1}=\beta u'(c_{t+1})/u'(c_t)$. This is the foundation of consumption-based asset pricing in [5.4](05-04-consumption-based-asset-pricing.md) and the entire pricing framework of `](../../mathematical-finance/syllabus.md)`.
-- **Sideways (micro):** the intertemporal FOC is the two-period consumer's tangency condition ($MRS = $ price ratio) stretched across infinitely many periods — the intertemporal-choice problem of `](../../grad-micro/syllabus.md)`, with $\beta R_{t+1}$ playing the role of the relative price of tomorrow's consumption.
+- **Sideways (finance — direct bridge):** the Euler equation, divided by $u'(c_t)$, *is* the stochastic-discount-factor pricing equation $1=\mathbb{E}_t[m_{t+1}R_{t+1}]$ with $m_{t+1}=\beta u'(c_{t+1})/u'(c_t)$. This is the foundation of consumption-based asset pricing in [5.4](05-04-consumption-based-asset-pricing.md) and the entire pricing framework of [`mathematical-finance`](../../mathematical-finance/syllabus.md).
+- **Sideways (micro):** the intertemporal FOC is the two-period consumer's tangency condition ($MRS = $ price ratio) stretched across infinitely many periods — the intertemporal-choice problem of [`grad-micro`](../../grad-micro/syllabus.md), with $\beta R_{t+1}$ playing the role of the relative price of tomorrow's consumption.

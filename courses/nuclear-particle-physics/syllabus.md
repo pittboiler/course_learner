@@ -37,7 +37,7 @@ From "what is a nucleus" to two working models of it — the liquid drop that ge
 | 1.4 | Stability & the valley | Predict decay direction from the mass surface and find the stable isobar | valley of stability, isobaric parabolas, $\beta$-stability line, neutron/proton drip lines |
 | 1.5 | The shell model & magic numbers | Explain magic numbers and predict a ground-state spin-parity | mean-field potential, spin-orbit coupling, magic numbers 2/8/20/28/50/82/126, $j^\pi$ assignment |
 
-**Boss problem 1:** Using the SEMF, treat binding energy as a function of $Z$ at fixed $A = 127$ and find the value $Z^\*$ that maximizes it (minimizes the atomic mass). Show $Z^\* = \frac{A/2}{1 + (a_C/4a_A)A^{2/3}}$, evaluate it, and confirm your rounded answer is the observed stable nuclide at $A=127$. Then say in one sentence which way $A=127,\,Z=51$ (antimony) must decay to reach it.
+**Boss problem 1:** Using the SEMF, treat binding energy as a function of $Z$ at fixed $A = 127$ and find the value $Z^*$ that maximizes it (minimizes the atomic mass). Show $Z^* = \frac{A/2}{1 + (a_C/4a_A)A^{2/3}}$, evaluate it, and confirm your rounded answer is the observed stable nuclide at $A=127$. Then say in one sentence which way $A=127,\,Z=51$ (antimony) must decay to reach it.
 
 ### Module 2: Radioactivity & nuclear reactions
 

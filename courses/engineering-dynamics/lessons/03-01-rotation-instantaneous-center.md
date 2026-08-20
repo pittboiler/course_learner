@@ -1,6 +1,6 @@
 # Engineering Dynamics · Lesson 3.1: Rotation & the instantaneous center
 
-> ⏱ ~15 min · Module 3: Rigid-Body Kinematics & Kinetics (2D) · Builds on: [2.3 Linear impulse & momentum](02-03-linear-impulse-momentum.md), relative motion & the cross product from [`linalg-refresher`](../../linalg-refresher/syllabus.md) · Unlocks: [3.2 Relative acceleration & rolling](03-02-relative-acceleration-rolling.md)
+> ⏱ ~15 min · Module 3: Rigid-Body Kinematics & Kinetics (2D) · Builds on: [2.3 Linear impulse & momentum](02-03-linear-impulse-momentum.md), the cross product from [`statics` 1.3](../../statics/lessons/01-03-moment-of-a-force.md) · Unlocks: [3.2 Relative acceleration & rolling](03-02-relative-acceleration-rolling.md)
 
 ## Why this matters
 
@@ -172,6 +172,6 @@ Substitute $v_B' = v_A' + 3$: $\;2v_A' + 3(v_A' + 3) = 12 \Rightarrow 5v_A' = 3 
 
 ## Connections
 
-- **Backward:** the relative-velocity equation is the rigid-body upgrade of particle relative motion from [`linalg-refresher`](../../linalg-refresher/syllabus.md) — a base velocity plus an offset — with the offset now supplied by the spin $\boldsymbol\omega \times \vec r$, a pure use of the cross product's "perpendicular, magnitude $\omega r$" character.
+- **Backward:** the relative-velocity equation is the rigid-body upgrade of particle relative motion — a base velocity plus an offset — with the offset now supplied by the spin $\boldsymbol\omega \times \vec r$, a pure use of the cross product's "perpendicular, magnitude $\omega r$" character.
 - **Forward:** [3.2 Relative acceleration & rolling](03-02-relative-acceleration-rolling.md) differentiates $\vec v_B = \vec v_A + \boldsymbol\omega\times\vec r_{B/A}$ to get $\vec a_B = \vec a_A + \boldsymbol\alpha\times\vec r + \boldsymbol\omega\times(\boldsymbol\omega\times\vec r)$, and shows a rolling wheel's contact point is its IC — feeding the rigid-body kinetics of [3.4](03-04-rigid-body-kinetics-2d.md).
 - **Sideways (robotics):** stacking the relative-velocity equation down a chain of links (Problem 3) is *forward velocity kinematics*; collecting the joint rates into a matrix gives the manipulator **Jacobian** that robotics uses to steer an end-effector. The same $\boldsymbol\omega\times\vec r$ bookkeeping also underlies rotating-frame terms (Coriolis) in the Lagrangian sequel, [analytical-mechanics](../../analytical-mechanics/syllabus.md).

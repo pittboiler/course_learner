@@ -77,9 +77,9 @@ Spin-$\tfrac12$ from Lorentz symmetry, the Dirac equation, and the anticommutato
 | 4.2 | The Dirac equation | Meet the field of the electron | gamma matrices, Clifford algebra, Dirac equation, plane-wave spinors $u,v$ |
 | 4.3 | Solutions, spin, and antiparticles | Interpret positive/negative frequency solutions | spin sums, helicity, the Dirac sea vs hole picture, antiparticles |
 | 4.4 | Quantizing the Dirac field: anticommutators | Learn why fermions can't be bosons | anticommutation relations, spin-statistics theorem, Pauli exclusion, Fermi–Dirac Fock space |
-| 4.5 | The Dirac propagator | Build the fermion line for diagrams | fermion time-ordering, Feynman propagator for spinors, $\slashed{p}+m$ numerator |
+| 4.5 | The Dirac propagator | Build the fermion line for diagrams | fermion time-ordering, Feynman propagator for spinors, ${\not}p+m$ numerator |
 
-**Boss problem 4:** Show that imposing *commutators* on the Dirac field gives a Hamiltonian unbounded below (or a non-causal anticommutator), then show *anticommutators* fix both — deriving spin-statistics for spin-$\tfrac12$ by hand. Along the way verify the completeness relation $\sum_s u^s(p)\bar u^s(p)=\slashed{p}+m$.
+**Boss problem 4:** Show that imposing *commutators* on the Dirac field gives a Hamiltonian unbounded below (or a non-causal anticommutator), then show *anticommutators* fix both — deriving spin-statistics for spin-$\tfrac12$ by hand. Along the way verify the completeness relation $\sum_s u^s(p)\bar u^s(p)={\not}p+m$.
 
 ### Module 5: Quantum electrodynamics
 
