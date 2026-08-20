@@ -1,35 +1,65 @@
 const $app = document.getElementById("app");
 let STATE = null;
 
-// Keep marked's hands off math: without this, markdown escape rules eat
-// backslashes inside $...$ / $$...$$ (\, \$ \{ ...) before KaTeX runs.
 const escHtml = (s) =>
   s.replace(/[&<>]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;" }[c]));
-marked.use({
-  extensions: [
-    {
-      name: "mathBlock",
-      level: "block",
-      start(src) { const i = src.indexOf("$$"); return i < 0 ? undefined : i; },
-      tokenizer(src) {
-        const m = /^\$\$([\s\S]+?)\$\$/.exec(src);
-        if (m) return { type: "mathBlock", raw: m[0], text: m[1] };
-      },
-      renderer(t) { return `<p>$$${escHtml(t.text)}$$</p>\n`; },
-    },
-    {
-      name: "mathInline",
-      level: "inline",
-      start(src) { const i = src.indexOf("$"); return i < 0 ? undefined : i; },
-      tokenizer(src) {
-        if (src.startsWith("$$")) return; // block form handles these
-        const m = /^\$([^$\n]+?)\$/.exec(src);
-        if (m) return { type: "mathInline", raw: m[0], text: m[1] };
-      },
-      renderer(t) { return `$${escHtml(t.text)}$`; },
-    },
-  ],
-});
+
+/* ---------- markdown + math ----------------------------------------------
+   Math is lifted OUT of the source before marked sees it, then spliced back
+   into the HTML for KaTeX to render. Markdown and TeX fight over the same
+   punctuation, and marked always wins the fight if you let it run first:
+     \$        -> $           (escape rules), which then opens a bogus math span
+     a^* ... b^*  -> emphasis  pairing ACROSS the $ delimiters, eating them
+     \{ \, \\  -> { , \       (escape rules) inside a formula
+   Extensions can't fix this — the emphasis tokenizer fires at the `*`, before
+   any math tokenizer ever sees the `$`. Extraction is the only order that works.
+   Placeholders use private-use codepoints so nothing in markdown can match them. */
+const PH_OPEN = "\uE000", PH_CLOSE = "\uE001";
+
+// Where the formula opened at `i` ends: the index just past its closing
+// delimiter, or -1 if it never closes. Skips backslash-escaped characters, so a
+// \$ inside a formula (money, reactivity in dollars) isn't read as the close —
+// this is how KaTeX's own delimiter scanner works. Inline math can't span lines.
+function findMathEnd(src, i, delim) {
+  for (let j = i + delim.length; j < src.length; j++) {
+    if (src[j] === "\\") { j++; continue; }
+    if (delim === "$" && src[j] === "\n") return -1;
+    if (src.startsWith(delim, j)) return j + delim.length;
+  }
+  return -1;
+}
+
+// Left-to-right, one pass — the same order KaTeX reads in. Regexes can't do this
+// job: whether a $ opens a formula depends on what came before it.
+function stashMath(src) {
+  const stash = [];
+  const keep = (html) => `${PH_OPEN}${stash.push(html) - 1}${PH_CLOSE}`;
+  let out = "";
+  for (let i = 0; i < src.length; ) {
+    // A literal \$ in prose. Given its own element it becomes a separate text
+    // node, so KaTeX can never pair it with the next $ on the line.
+    if (src[i] === "\\" && src[i + 1] === "$") {
+      out += keep(`<span class="lit-dollar">$</span>`);
+      i += 2;
+    } else if (src[i] === "$") {
+      const delim = src.startsWith("$$", i) ? "$$" : "$";
+      const end = findMathEnd(src, i, delim);
+      if (end < 0) { out += src[i++]; continue; } // unclosed — leave it for the checker
+      out += keep(escHtml(src.slice(i, end)));
+      i = end;
+    } else {
+      out += src[i++];
+    }
+  }
+  return { out, stash };
+}
+
+function parseMd(src) {
+  const { out, stash } = stashMath(String(src || ""));
+  return marked
+    .parse(out)
+    .replace(new RegExp(`${PH_OPEN}(\\d+)${PH_CLOSE}`, "g"), (_, i) => stash[i]);
+}
 
 const esc = (s) =>
   String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
@@ -218,6 +248,12 @@ function fixAssetPaths(html, courseId) {
     if (/^\.\.\/syllabus\.md$/.test(path)) return `href="#/course/${courseId}"`; // this course's syllabus
     if (/^\d\d-\d\d-[a-z0-9-]+\.md$/.test(path))
       return `href="#/lesson/${courseId}/${path}"`; // bare sibling lesson
+    // Reference card: open the drawer over whatever you're doing rather than
+    // navigating away — leaving the page mid-problem is the thing to avoid.
+    if ((m = path.match(/^(?:\.\.\/)*(?:([a-z0-9-]+)\/)?reference\.md$/))) {
+      const anchor = href.includes("#") ? href.slice(href.indexOf("#") + 1) : "";
+      return `href="#" data-ref="${m[1] || courseId}" data-anchor="${esc(anchor)}"`;
+    }
     return whole; // leave anything else (e.g. assets/…) untouched
   });
 }
@@ -234,6 +270,186 @@ function renderMath(el) {
   }
 }
 
+/* ---------- reference card drawer ----------------------------------------
+   The card opens as an OVERLAY on document.body, never inside $app: a lesson
+   view holds live ink-pad canvases, and re-rendering it would wipe work in
+   progress. Built once, then shown/hidden. Open book everywhere — lessons,
+   review, and quizzes — so quizzes must test use, not recall. */
+const refCards = new Map(); // courseId -> html
+let refEl = null; // the drawer, built lazily on first open
+
+const slugify = (s) =>
+  s.toLowerCase().trim().replace(/[^\w\s-]/g, "").replace(/\s+/g, "-");
+
+function hasReference(courseId) {
+  return !!STATE?.courses?.[courseId]?.hasReference;
+}
+
+async function referenceHTML(courseId) {
+  if (!refCards.has(courseId)) {
+    const res = await fetch(`/content/${courseId}/reference.md`);
+    if (!res.ok) throw new Error("This course has no reference card yet.");
+    // Heading ids are the anchors lessons link to (### Chain rule → #chain-rule);
+    // marked doesn't add them, so slug them here.
+    const html = fixAssetPaths(parseMd(await res.text()), courseId).replace(
+      /<h([23])>([\s\S]*?)<\/h\1>/g,
+      (_, lvl, inner) => `<h${lvl} id="${slugify(inner.replace(/<[^>]+>/g, ""))}">${inner}</h${lvl}>`
+    );
+    refCards.set(courseId, html);
+  }
+  return refCards.get(courseId);
+}
+
+// Pre-warm: opening a lesson caches its course's card, so it's there offline
+// (the service worker caches /content/* stale-while-revalidate) and instant later.
+function warmReference(courseId) {
+  if (hasReference(courseId)) referenceHTML(courseId).catch(() => {});
+}
+
+function buildRefDrawer() {
+  const el = document.createElement("div");
+  el.className = "ref-drawer";
+  el.hidden = true;
+  el.innerHTML = `
+    <div class="ref-scrim"></div>
+    <aside class="ref-panel" role="dialog" aria-label="Reference card">
+      <div class="ref-head">
+        <strong class="ref-title">Reference</strong>
+        <input class="ref-search" type="search" placeholder="Search the card…" aria-label="Search the reference card">
+        <button class="ref-close" title="Close (Esc)" aria-label="Close">✕</button>
+      </div>
+      <div class="ref-bodies"></div>
+    </aside>`;
+  document.body.appendChild(el);
+  el.querySelector(".ref-scrim").onclick = closeReference;
+  el.querySelector(".ref-close").onclick = closeReference;
+  el.querySelector(".ref-search").oninput = (e) => filterReference(e.target.value);
+  return el;
+}
+
+/* Search filters whole entries: an entry is an h3 and everything under it (or an
+   h2's own preamble). An h2 disappears when nothing beneath it survives. */
+function activeRefBody() {
+  return refEl?.querySelector(".ref-body:not([hidden])");
+}
+
+function refEntries() {
+  const body = activeRefBody();
+  if (!body) return [];
+  const entries = [];
+  let section = null, cur = null;
+  for (const node of body.children) {
+    if (node.tagName === "H2") {
+      section = node;
+      cur = { section, els: [], text: node.textContent.toLowerCase(), isSection: true };
+      entries.push(cur);
+    } else if (node.tagName === "H3") {
+      cur = { section, els: [node], text: node.textContent.toLowerCase() };
+      entries.push(cur);
+    } else if (cur) {
+      cur.els.push(node);
+      cur.text += " " + node.textContent.toLowerCase();
+    }
+  }
+  return entries;
+}
+
+function filterReference(q) {
+  const query = q.trim().toLowerCase();
+  const body = activeRefBody();
+  if (!body) return;
+  // Walking every entry and touching every element's display forces a full layout
+  // — on a 600-formula card that is most of a second. Skip it entirely when
+  // there's nothing to clear, which is the common case on reopen.
+  if (!query && !body.dataset.filtered) return;
+  body.dataset.filtered = query ? "1" : "";
+  const entries = refEntries();
+  const live = new Set(); // sections with at least one surviving entry
+  for (const e of entries) {
+    const hit = !query || e.text.includes(query);
+    for (const el of e.els) el.style.display = hit ? "" : "none";
+    if (hit && e.section) live.add(e.section);
+  }
+  // A section heading survives if it matched itself or anything under it did —
+  // otherwise a hit would appear with no heading to say what part of the card it's from.
+  for (const e of entries)
+    if (e.isSection) e.section.style.display = live.has(e.section) ? "" : "none";
+}
+
+async function openReference(courseId, anchor = "") {
+  refEl ||= buildRefDrawer();
+  const bodies = refEl.querySelector(".ref-bodies");
+  refEl.dataset.course = courseId;
+  refEl.querySelector(".ref-title").textContent =
+    `${courseInfo(courseId)?.title || courseId} · Reference`;
+  refEl.hidden = false;
+  document.body.classList.add("ref-open");
+
+  // One rendered body per course, kept in the DOM and toggled. The big cards run
+  // 600+ formulas through KaTeX; typesetting them again on every open is exactly
+  // the wrong cost to pay mid-problem. Keeping the rendered nodes also preserves
+  // each card's scroll position for free.
+  for (const b of bodies.children) b.hidden = true;
+  let body = bodies.querySelector(`[data-course="${CSS.escape(courseId)}"]`);
+  const firstOpen = !body;
+  if (firstOpen) {
+    body = document.createElement("div");
+    body.className = "ref-body md";
+    body.dataset.course = courseId;
+    bodies.appendChild(body);
+    try {
+      body.innerHTML = await referenceHTML(courseId);
+      renderMath(body);
+    } catch (e) {
+      body.innerHTML = `<p class="error">${esc(e.message)}</p>`;
+      return;
+    }
+  }
+  body.hidden = false;
+
+  const search = refEl.querySelector(".ref-search");
+  if (search.value) { search.value = ""; }
+  filterReference("");
+  if (anchor) {
+    const target = body.querySelector(`#${CSS.escape(anchor)}`);
+    if (target) {
+      body.querySelectorAll(".ref-hit").forEach((el) => el.classList.remove("ref-hit"));
+      target.classList.add("ref-hit");
+      // KaTeX's web fonts land after the first paint and reflow a card this long,
+      // which slides the target out from under us — so re-scroll as it settles.
+      const settle = () => target.scrollIntoView();
+      settle();
+      requestAnimationFrame(settle);
+      document.fonts?.ready.then(settle);
+      setTimeout(settle, 300);
+    } else body.scrollTop = 0;
+  }
+}
+
+function closeReference() {
+  if (!refEl || refEl.hidden) return;
+  refEl.hidden = true;
+  document.body.classList.remove("ref-open");
+}
+
+function refButtonHTML(courseId) {
+  return hasReference(courseId)
+    ? `<button data-ref="${courseId}" data-anchor="" title="Open the course reference card">📇 Reference</button>`
+    : "";
+}
+
+// One delegated handler covers the toolbar buttons AND every ../reference.md#anchor
+// link inside lesson prose.
+document.addEventListener("click", (e) => {
+  const t = e.target.closest("[data-ref]");
+  if (!t) return;
+  e.preventDefault();
+  openReference(t.dataset.ref, t.dataset.anchor || "");
+});
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape") closeReference();
+});
+
 async function renderCourse(id) {
   const info = courseInfo(id);
   const created = STATE.courses[id];
@@ -242,7 +458,7 @@ async function renderCourse(id) {
   let syllabusHTML = `<p class="muted">Not started yet — run <code>/new-course ${id}</code> in Claude Code to generate the syllabus.</p>`;
   if (created?.hasSyllabus) {
     const md = await (await fetch(`/content/${id}/syllabus.md`)).text();
-    syllabusHTML = `<div class="md">${fixAssetPaths(marked.parse(md), id)}</div>`;
+    syllabusHTML = `<div class="md">${fixAssetPaths(parseMd(md), id)}</div>`;
   }
 
   const lessons = created?.lessons || [];
@@ -275,13 +491,14 @@ async function renderLesson(courseId, file) {
   const md = await (await fetch(`/content/${courseId}/lessons/${file}`)).text();
   const lessonId = file.slice(0, 5);
   const done = STATE.progress.courses[courseId]?.lessons?.[lessonId];
+  warmReference(courseId);
 
   $app.innerHTML = `
     <div class="crumbs"><a href="#/library">Library</a> › <a href="#/course/${courseId}">${esc(
       courseInfo(courseId)?.title || courseId
     )}</a> ›</div>
-    <div class="toolbar"><button id="print-lesson" title="Print or save as PDF">🖨 Print / PDF</button></div>
-    <div class="md">${fixAssetPaths(marked.parse(md), courseId)}</div>
+    <div class="toolbar">${refButtonHTML(courseId)}<button id="print-lesson" title="Print or save as PDF">🖨 Print / PDF</button></div>
+    <div class="md">${fixAssetPaths(parseMd(md), courseId)}</div>
     <div class="complete-box ${done ? "done" : ""}" id="complete-box">
       ${
         done
@@ -754,8 +971,8 @@ function feedbackHTML(result, extraMd = "") {
   return `
     <div class="feedback ${result.verdict}">
       <div class="verdict">${VERDICT_LABEL[result.verdict] || result.verdict}</div>
-      <div class="md-inline">${marked.parse(result.feedback || "")}</div>
-      ${extraMd ? `<details><summary>Full solution</summary><div class="md-inline">${marked.parse(extraMd)}</div></details>` : ""}
+      <div class="md-inline">${parseMd(result.feedback || "")}</div>
+      ${extraMd ? `<details><summary>Full solution</summary><div class="md-inline">${parseMd(extraMd)}</div></details>` : ""}
     </div>`;
 }
 
@@ -837,7 +1054,8 @@ async function renderQuiz(courseId, quizNum, throughModule) {
   $app.innerHTML = `
     <div class="crumbs"><a href="#/course/${courseId}">${esc(title)}</a> ›</div>
     <h1>Quiz ${quizNum}</h1>
-    <p class="muted">5 fresh problems covering modules 1–${throughModule}, weighted toward anything you've been missing. Writing the quiz… (~30s)</p>`;
+    <div class="toolbar">${refButtonHTML(courseId)}</div>
+    <p class="muted">Open book — the reference card is fair game. 5 fresh problems covering modules 1–${throughModule}, weighted toward anything you've been missing. Writing the quiz… (~30s)</p>`;
   let quiz;
   try {
     quiz = await postJSON("/api/quiz/start", {
@@ -871,7 +1089,7 @@ async function renderQuiz(courseId, quizNum, throughModule) {
       <div class="crumbs"><a href="#/course/${courseId}">${esc(title)}</a> ›</div>
       <h1>Quiz ${quizNum}</h1>
       <p class="muted">Problem ${i + 1} of ${quiz.questions.length}</p>
-      <div class="md">${marked.parse(quiz.questions[i])}</div>
+      <div class="md">${parseMd(quiz.questions[i])}</div>
       <div class="grade-box">${answerFormHTML("quiz", "Submit answer")}</div>`;
     renderMath($app);
     wireAnswerForm("quiz", async (answer, fb) => {
@@ -908,12 +1126,13 @@ function renderReview() {
     }
     const item = due[i];
     const label = `${courseInfo(item.course)?.title || item.course} · lesson ${item.lesson}`;
-    area.innerHTML = `<p class="muted">Item ${i + 1} of ${due.length} — ${esc(label)}</p><p class="muted">Writing a fresh problem…</p>`;
+    area.innerHTML = `<div class="toolbar">${refButtonHTML(item.course)}</div>
+      <p class="muted">Item ${i + 1} of ${due.length} — ${esc(label)}</p><p class="muted">Writing a fresh problem…</p>`;
     try {
       const { id, question } = await postJSON("/api/review/question", { item });
       area.innerHTML = `
         <p class="muted">Item ${i + 1} of ${due.length} — ${esc(label)}</p>
-        <div class="md">${marked.parse(question)}</div>
+        <div class="md">${parseMd(question)}</div>
         <div class="grade-box">${answerFormHTML("rev", "Submit answer")}</div>`;
       renderMath(area);
       wireAnswerForm("rev", async (answer, fb) => {
@@ -938,6 +1157,7 @@ function renderReview() {
 /* ---------- router ---------- */
 
 async function route() {
+  closeReference(); // a drawer left open from the previous view is stale
   await loadState();
   const hash = location.hash || "#/";
   const parts = hash.slice(2).split("/").filter(Boolean);

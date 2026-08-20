@@ -7,6 +7,7 @@ A personal, self-paced curriculum. Jacob is refreshing undergrad math/physics/ec
 - [ROADMAP.md](ROADMAP.md) — the course dependency graph. Course ids there are canonical.
 - `courses/<course-id>/syllabus.md` — generated **once** per course by `/new-course`; the stable spine.
 - `courses/<course-id>/lessons/NN-MM-slug.md` — generated **just-in-time** by `/learn`, adapted to recent performance. Diagrams live in `courses/<course-id>/lessons/assets/`.
+- `courses/<course-id>/reference.md` — the course's **reference card**: notation, definitions, formula tables, assumed prerequisites, pitfalls. Open book in the app, including during quizzes. See the Reference cards section below.
 - [progress/progress.json](progress/progress.json) — single source of truth for state: per-lesson completion, self-ratings, problem scores, weak concepts, spaced-review queue. **Always update it after grading anything.**
 - `templates/` — lesson and syllabus templates. Follow them exactly; sections may be renamed to fit content but none may be dropped (exception noted in the template for "Picture").
 
@@ -36,6 +37,30 @@ Claude Code's role is content generation (`/prep`, `/new-course`) — batch work
 - **Flashback:** every lesson (except a course's first two) ends with one fresh-variant retrieval problem from the review queue or an earlier lesson.
 - **Cross-links:** reference other lessons by relative path. Name cross-subject bridges explicitly (e.g. Lagrange multipliers ↔ constrained utility maximization ↔ constrained dynamics).
 - **Adaptation:** before writing a lesson, read the course's recent entries in progress.json. If a `weak_concepts` entry is relevant, briefly re-derive that concept when it's used instead of assuming it.
+
+## Reference cards
+
+Every course gets one `reference.md`, covering every lesson in it. Jacob opens it
+mid-problem from a drawer in the app (lesson, review, and quiz views), so it is a
+**lookup surface**, not a read-through — the 15-minute lesson budget doesn't apply
+to it. Follow [templates/reference-template.md](templates/reference-template.md);
+[courses/calc-refresher/reference.md](courses/calc-refresher/reference.md) is the
+reference implementation.
+
+- **A refresher may assume; it may not hide.** A Tier 0 course can *use* a
+  prerequisite fact without deriving it — but the fact must appear in the card's
+  "Assumed, not taught here" with a pointer to the course that does teach it. An
+  assumption with nowhere to look it up is a bug. (This is why the card exists:
+  calc-refresher used $\frac{d}{dx}\sin x = \cos x$ in 1.2 and stated it nowhere.)
+- **Lessons link to the card, never inline it:** `[chain rule](../reference.md#chain-rule)`.
+  The app opens the drawer at that anchor instead of navigating away. Anchors are
+  auto-slugged from `###` headings.
+- **Coverage is enforced:** `node lint-lessons.cjs` fails if a lesson file is
+  cited by no entry on its course's card (plus stray-`$`, broken links, and dead
+  reference anchors). Run it after any batch of content work.
+- **Quizzes and reviews are open book**, so they never test recall — the
+  `OPEN_BOOK` clause in [server.js](server.js) forbids definition-style problems in
+  generated quizzes and reviews. Keep it that way when editing those prompts.
 
 ## Teaching conventions (in chat)
 

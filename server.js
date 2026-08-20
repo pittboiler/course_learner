@@ -56,6 +56,8 @@ function scanCourses() {
     if (!fs.statSync(dir).isDirectory()) continue;
     const syllabusPath = path.join(dir, "syllabus.md");
     const hasSyllabus = fs.existsSync(syllabusPath);
+    // Per-course reference card (open book, including during quizzes)
+    const hasReference = fs.existsSync(path.join(dir, "reference.md"));
     const lessonsDir = path.join(dir, "lessons");
     const lessons = fs.existsSync(lessonsDir)
       ? fs.readdirSync(lessonsDir).filter((f) => f.endsWith(".md")).sort()
@@ -64,7 +66,7 @@ function scanCourses() {
     const moduleCount = hasSyllabus
       ? (fs.readFileSync(syllabusPath, "utf8").match(/^### Module \d+/gm) || []).length
       : 0;
-    out[id] = { hasSyllabus, lessons, moduleCount };
+    out[id] = { hasSyllabus, hasReference, lessons, moduleCount };
   }
   return out;
 }
@@ -105,6 +107,13 @@ app.post("/api/complete", (req, res) => {
   writeProgress(progress);
   res.json({ ok: true, review_due: due });
 });
+
+/* The student studies open book: the course's reference card (definitions,
+   formula tables, notation, pitfalls) is available in the app during lessons,
+   review AND quizzes. So generated problems must be unanswerable by lookup —
+   what's being measured is whether he can USE the machinery, not recall it. */
+const OPEN_BOOK =
+  "The student has the course's reference card open while answering — it lists every definition, formula, symbol and standard result from the course. NEVER ask for a definition, a formula statement, a symbol's meaning, or anything else a lookup would answer. Every problem must require applying the machinery to a concrete situation the card does not cover: compute something, decide which tool applies and why, interpret a result, or find the flaw in a plausible-looking argument.";
 
 /* ---------- Claude-graded practice ---------- */
 
@@ -227,7 +236,8 @@ app.post("/api/review/question", async (req, res) => {
       model: MODEL,
       max_tokens: 1500,
       system:
-        "You write spaced-repetition retrieval problems for a self-study math curriculum. Given a lesson, produce ONE fresh problem testing its central concept — a variant, never a verbatim copy of a lesson problem. Solvable in ~3 minutes. Use markdown with $...$ LaTeX. The solution must be fully worked.",
+        "You write spaced-repetition retrieval problems for a self-study math curriculum. Given a lesson, produce ONE fresh problem testing its central concept — a variant, never a verbatim copy of a lesson problem. Solvable in ~3 minutes. Use markdown with $...$ LaTeX. The solution must be fully worked. " +
+        OPEN_BOOK,
       output_config: { format: QUESTION_SCHEMA },
       messages: [
         {
@@ -378,7 +388,7 @@ app.post("/api/quiz/start", async (req, res) => {
     const response = await anthropic.messages.create({
       model: MODEL,
       max_tokens: 6000,
-      system: `You write checkpoint quizzes for a self-paced math curriculum. Given the covered lessons, produce exactly 5 problems: breadth across the covered modules, ramping from direct application to synthesis (the last problem should combine at least two lessons — the syllabus's boss problems are good inspiration). All problems must be fresh — never verbatim copies of lesson problems. Each solvable in ~4 minutes, markdown with $...$ LaTeX, fully worked solutions. Tag each problem with the single most relevant source lesson id (e.g. "01-03"). If the student has documented weak concepts, target 1-2 problems at them.`,
+      system: `You write checkpoint quizzes for a self-paced math curriculum. Given the covered lessons, produce exactly 5 problems: breadth across the covered modules, ramping from direct application to synthesis (the last problem should combine at least two lessons — the syllabus's boss problems are good inspiration). All problems must be fresh — never verbatim copies of lesson problems. Each solvable in ~4 minutes, markdown with $...$ LaTeX, fully worked solutions. Tag each problem with the single most relevant source lesson id (e.g. "01-03"). If the student has documented weak concepts, target 1-2 problems at them. ${OPEN_BOOK}`,
       output_config: { format: QUIZ_SCHEMA },
       messages: [
         {

@@ -15,5 +15,6 @@ Generate a course's stable spine. Read CLAUDE.md conventions first if not alread
    - One boss problem description per module (a scenario combining the module's lessons — the actual problem is generated when reached).
    - Lesson counts should land near the ROADMAP.md estimate; if you deviate by >25%, note why.
    - Order lessons so each builds on the previous; front-load whatever downstream courses need soonest.
-4. Register in progress.json: `courses.<id> = {"status": "active", "started": "<date>", "lessons": {}}`. If this would exceed `settings.max_active_courses`, ask which course to pause.
-5. Present the syllabus summary in chat (modules + checklist) and ask if Jacob wants to adjust before it's locked. The syllabus is stable once accepted — later changes get a dated note at the bottom of the file.
+4. Stub `courses/<course-id>/reference.md` from `templates/reference-template.md`: fill in "Assumed, not taught here" from the course's prereqs (what this course will lean on without deriving, and which course teaches it), and leave the other sections to be filled in by `/prep` as lessons get written.
+5. Register in progress.json: `courses.<id> = {"status": "active", "started": "<date>", "lessons": {}}`. If this would exceed `settings.max_active_courses`, ask which course to pause.
+6. Present the syllabus summary in chat (modules + checklist) and ask if Jacob wants to adjust before it's locked. The syllabus is stable once accepted — later changes get a dated note at the bottom of the file.

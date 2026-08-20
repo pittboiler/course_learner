@@ -69,7 +69,13 @@ a { color: var(--accent); }
 .card:hover { border-color: var(--accent); }
 .card .title { font-weight: 600; margin-bottom: 2px; }
 .card .blurb { font-size: 13px; color: var(--muted); margin: 4px 0 10px; }
-.card.locked { opacity: 0.55; pointer-events: none; }
+/* "Locked" is advice, not a gate. This is a personal, self-paced curriculum and
+   Jacob is refreshing material he has seen before — a prereq edge says "this is
+   the intended order", not "you may not read this". (It also used to make any
+   course with an undone prereq completely unreachable, which is wrong for a
+   library you own.) */
+.card.locked { opacity: 0.55; }
+.card.locked:hover { opacity: 0.8; }
 .badge {
   display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: 0.04em;
   text-transform: uppercase; padding: 1px 8px; border-radius: 99px;
@@ -265,3 +271,62 @@ body.ink-writing [id$="-feedback"] { -webkit-user-select: text; user-select: tex
 }
 .notice.syllabus-only strong { color: var(--warn); }
 .notice code { font-size: 13px; }
+
+/* ---------- reference card drawer ----------------------------------------
+   Slide-over on desktop, bottom sheet on a narrow screen (iPad portrait /
+   phone). It lives on <body>, over the lesson — never inside it — so opening
+   it can't disturb an ink pad mid-stroke. */
+.ref-drawer[hidden] { display: none; }
+.ref-drawer { position: fixed; inset: 0; z-index: 40; }
+.ref-scrim { position: absolute; inset: 0; background: rgba(0, 0, 0, 0.38); }
+.ref-panel {
+  position: absolute; top: 0; right: 0; bottom: 0;
+  width: min(560px, 92vw);
+  display: flex; flex-direction: column;
+  background: var(--panel); border-left: 1px solid var(--line);
+  box-shadow: -8px 0 28px rgba(0, 0, 0, 0.22);
+}
+.ref-head {
+  display: flex; align-items: center; gap: 10px;
+  padding: 12px 14px; border-bottom: 1px solid var(--line);
+  padding-top: max(12px, env(safe-area-inset-top));
+}
+.ref-title { font-size: 15px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.ref-search {
+  flex: 1; min-width: 0; font: inherit; font-size: 14px;
+  padding: 6px 10px; border: 1px solid var(--line); border-radius: 8px;
+  background: var(--bg); color: var(--ink);
+}
+.ref-close {
+  border: 1px solid var(--line); background: var(--bg); color: var(--muted);
+  border-radius: 8px; padding: 5px 9px; cursor: pointer; font-size: 14px;
+}
+.ref-close:hover { color: var(--ink); }
+.ref-bodies { flex: 1; min-height: 0; display: flex; }
+.ref-body[hidden] { display: none; }
+.ref-body {
+  flex: 1; overflow-y: auto; -webkit-overflow-scrolling: touch;
+  padding: 4px 18px 40px; border: none; border-radius: 0; background: transparent;
+  padding-bottom: max(40px, env(safe-area-inset-bottom));
+}
+.ref-body h1 { font-size: 19px; }
+.ref-body h2 { font-size: 16px; margin-top: 26px; }
+.ref-body h3 { font-size: 14px; margin-top: 18px; }
+.ref-body table { font-size: 13px; }
+/* The entry a lesson link pointed at, so it's obvious what you were sent to */
+.ref-body .ref-hit { scroll-margin-top: 8px; }
+.ref-body .ref-hit::after {
+  content: "↩ linked from the lesson"; display: block;
+  font-size: 11px; font-weight: 400; color: var(--accent); margin-top: 2px;
+}
+body.ref-open { overflow: hidden; }
+
+@media (max-width: 760px) {
+  .ref-panel {
+    top: auto; left: 0; right: 0; bottom: 0; width: auto; height: 82vh;
+    border-left: none; border-top: 1px solid var(--line);
+    border-radius: 14px 14px 0 0;
+    box-shadow: 0 -8px 28px rgba(0, 0, 0, 0.28);
+  }
+}
+@media print { .ref-drawer { display: none !important; } }
