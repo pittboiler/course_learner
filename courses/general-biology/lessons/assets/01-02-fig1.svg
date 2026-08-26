@@ -1,0 +1,61 @@
+<svg viewBox="0 0 620 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Four families: three are polymers, one is not.</text>
+  <rect x="30.0" y="44.0" width="272.0" height="140.0" rx="8" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.8" opacity="0.1"/>
+  <text x="44.0" y="68.0" fill="#4a90d9" font-size="15" font-weight="bold">Carbohydrates</text>
+  <text x="44.0" y="92.0" fill="#8a8a8a" font-size="11">monomer:</text>
+  <text x="110.0" y="92.0" fill="#8a8a8a" font-size="11">glucose</text>
+  <line x1="180.0" y1="110.0" x2="209.2" y2="110.0" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="216.0,110.0 207.8,113.7 207.8,106.3" fill="#4a90d9"/>
+  <text x="44.0" y="114.0" fill="#8a8a8a" font-size="11">polymer:</text>
+  <text x="110.0" y="114.0" fill="#8a8a8a" font-size="11"></text>
+  <text x="222.0" y="114.0" fill="#4a90d9" font-size="11">starch, cellulose</text>
+  <text x="44.0" y="140.0" fill="#8a8a8a" font-size="11">job:</text>
+  <text x="82.0" y="140.0" fill="#8a8a8a" font-size="11">fuel, and structure</text>
+  <text x="44.0" y="164.0" fill="#8a8a8a" font-size="10">built by dehydration, taken apart</text>
+  <text x="44.0" y="176.0" fill="#8a8a8a" font-size="10">by hydrolysis</text>
+  <rect x="318.0" y="44.0" width="272.0" height="140.0" rx="8" fill="#e0645c" stroke="#e0645c" stroke-width="1.8" opacity="0.1"/>
+  <text x="332.0" y="68.0" fill="#e0645c" font-size="15" font-weight="bold">Lipids</text>
+  <text x="332.0" y="92.0" fill="#8a8a8a" font-size="11">monomer:</text>
+  <text x="398.0" y="92.0" fill="#8a8a8a" font-size="11">fatty acid + glycerol</text>
+  <line x1="468.0" y1="110.0" x2="497.2" y2="110.0" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="504.0,110.0 495.8,113.7 495.8,106.3" fill="#e0645c"/>
+  <text x="332.0" y="114.0" fill="#8a8a8a" font-size="11">polymer:</text>
+  <text x="398.0" y="114.0" fill="#8a8a8a" font-size="11"></text>
+  <text x="510.0" y="114.0" fill="#e0645c" font-size="11">fat, phospholipid</text>
+  <text x="332.0" y="140.0" fill="#8a8a8a" font-size="11">job:</text>
+  <text x="370.0" y="140.0" fill="#8a8a8a" font-size="11">storage, membranes</text>
+  <text x="332.0" y="164.0" fill="#e0645c" font-size="10">not a true polymer - no repeating</text>
+  <text x="332.0" y="176.0" fill="#e0645c" font-size="10">monomer chain; assembled, not strung</text>
+  <rect x="30.0" y="204.0" width="272.0" height="140.0" rx="8" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.8" opacity="0.1"/>
+  <text x="44.0" y="228.0" fill="#4a90d9" font-size="15" font-weight="bold">Proteins</text>
+  <text x="44.0" y="252.0" fill="#8a8a8a" font-size="11">monomer:</text>
+  <text x="110.0" y="252.0" fill="#8a8a8a" font-size="11">amino acid (20 kinds)</text>
+  <line x1="180.0" y1="270.0" x2="209.2" y2="270.0" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="216.0,270.0 207.8,273.7 207.8,266.3" fill="#4a90d9"/>
+  <text x="44.0" y="274.0" fill="#8a8a8a" font-size="11">polymer:</text>
+  <text x="110.0" y="274.0" fill="#8a8a8a" font-size="11"></text>
+  <text x="222.0" y="274.0" fill="#4a90d9" font-size="11">polypeptide</text>
+  <text x="44.0" y="300.0" fill="#8a8a8a" font-size="11">job:</text>
+  <text x="82.0" y="300.0" fill="#8a8a8a" font-size="11">almost every job</text>
+  <text x="44.0" y="324.0" fill="#8a8a8a" font-size="10">built by dehydration, taken apart</text>
+  <text x="44.0" y="336.0" fill="#8a8a8a" font-size="10">by hydrolysis</text>
+  <rect x="318.0" y="204.0" width="272.0" height="140.0" rx="8" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.8" opacity="0.1"/>
+  <text x="332.0" y="228.0" fill="#4a90d9" font-size="15" font-weight="bold">Nucleic acids</text>
+  <text x="332.0" y="252.0" fill="#8a8a8a" font-size="11">monomer:</text>
+  <text x="398.0" y="252.0" fill="#8a8a8a" font-size="11">nucleotide (4 kinds)</text>
+  <line x1="468.0" y1="270.0" x2="497.2" y2="270.0" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="504.0,270.0 495.8,273.7 495.8,266.3" fill="#4a90d9"/>
+  <text x="332.0" y="274.0" fill="#8a8a8a" font-size="11">polymer:</text>
+  <text x="398.0" y="274.0" fill="#8a8a8a" font-size="11"></text>
+  <text x="510.0" y="274.0" fill="#4a90d9" font-size="11">DNA, RNA</text>
+  <text x="332.0" y="300.0" fill="#8a8a8a" font-size="11">job:</text>
+  <text x="370.0" y="300.0" fill="#8a8a8a" font-size="11">information</text>
+  <text x="332.0" y="324.0" fill="#8a8a8a" font-size="10">built by dehydration, taken apart</text>
+  <text x="332.0" y="336.0" fill="#8a8a8a" font-size="10">by hydrolysis</text>
+  <text x="30.0" y="372.0" fill="#8a8a8a" font-size="12">dehydration synthesis: two monomers join, one water out</text>
+  <line x1="392.0" y1="368.0" x2="421.2" y2="368.0" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="428.0,368.0 419.8,371.7 419.8,364.3" fill="#4a90d9"/>
+  <line x1="428.0" y1="380.0" x2="398.8" y2="380.0" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="392.0,380.0 400.2,376.3 400.2,383.7" fill="#e0645c"/>
+  <text x="436.0" y="372.0" fill="#8a8a8a" font-size="12">hydrolysis: water in, bond split</text>
+</svg>

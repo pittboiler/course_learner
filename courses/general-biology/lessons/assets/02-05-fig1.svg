@@ -1,0 +1,63 @@
+<svg viewBox="0 0 620 430" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">One division copies; two divisions halve, shuffle and vary.</text>
+  <text x="160.0" y="52.0" fill="#4a90d9" font-size="14" text-anchor="middle">MITOSIS</text>
+  <text x="160.0" y="68.0" fill="#8a8a8a" font-size="10" text-anchor="middle">growth and repair</text>
+  <text x="452.0" y="52.0" fill="#e0645c" font-size="14" text-anchor="middle">MEIOSIS</text>
+  <text x="452.0" y="68.0" fill="#8a8a8a" font-size="10" text-anchor="middle">making gametes</text>
+  <line x1="306.0" y1="44.0" x2="306.0" y2="404.0" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 5"/>
+  <ellipse cx="160.0" cy="110.0" rx="74.0" ry="30.0" fill="none" stroke="#8a8a8a" stroke-width="1.8"/>
+  <rect x="118.5" y="98.0" width="7.0" height="24.0" rx="3" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.4" opacity="0.35"/>
+  <rect x="127.5" y="98.0" width="7.0" height="24.0" rx="3" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.4" opacity="0.35"/>
+  <rect x="150.5" y="98.0" width="7.0" height="18.0" rx="3" fill="#e0645c" stroke="#e0645c" stroke-width="1.4" opacity="0.35"/>
+  <rect x="159.5" y="98.0" width="7.0" height="18.0" rx="3" fill="#e0645c" stroke="#e0645c" stroke-width="1.4" opacity="0.35"/>
+  <text x="160.0" y="148.0" fill="#8a8a8a" font-size="9" text-anchor="middle">parent: 2n = 4, DNA already copied</text>
+  <ellipse cx="452.0" cy="110.0" rx="74.0" ry="30.0" fill="none" stroke="#8a8a8a" stroke-width="1.8"/>
+  <rect x="410.5" y="98.0" width="7.0" height="24.0" rx="3" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.4" opacity="0.35"/>
+  <rect x="419.5" y="98.0" width="7.0" height="24.0" rx="3" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.4" opacity="0.35"/>
+  <rect x="442.5" y="98.0" width="7.0" height="18.0" rx="3" fill="#e0645c" stroke="#e0645c" stroke-width="1.4" opacity="0.35"/>
+  <rect x="451.5" y="98.0" width="7.0" height="18.0" rx="3" fill="#e0645c" stroke="#e0645c" stroke-width="1.4" opacity="0.35"/>
+  <text x="452.0" y="148.0" fill="#8a8a8a" font-size="9" text-anchor="middle">parent: 2n = 4, DNA already copied</text>
+  <line x1="160.0" y1="158.0" x2="160.0" y2="183.2" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="160.0,190.0 156.3,181.8 163.7,181.8" fill="#8a8a8a"/>
+  <text x="174.0" y="178.0" fill="#8a8a8a" font-size="9">one division</text>
+  <ellipse cx="96.0" cy="222.0" rx="54.0" ry="26.0" fill="none" stroke="#8a8a8a" stroke-width="1.8"/>
+  <rect x="68.5" y="210.0" width="7.0" height="24.0" rx="3" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.4" opacity="0.35"/>
+  <rect x="96.5" y="210.0" width="7.0" height="18.0" rx="3" fill="#e0645c" stroke="#e0645c" stroke-width="1.4" opacity="0.35"/>
+  <ellipse cx="224.0" cy="222.0" rx="54.0" ry="26.0" fill="none" stroke="#8a8a8a" stroke-width="1.8"/>
+  <rect x="196.5" y="210.0" width="7.0" height="24.0" rx="3" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.4" opacity="0.35"/>
+  <rect x="224.5" y="210.0" width="7.0" height="18.0" rx="3" fill="#e0645c" stroke="#e0645c" stroke-width="1.4" opacity="0.35"/>
+  <text x="160.0" y="264.0" fill="#4a90d9" font-size="11" text-anchor="middle">2 daughters, 2n = 4 each</text>
+  <text x="160.0" y="280.0" fill="#8a8a8a" font-size="9" text-anchor="middle">genetically identical to the parent</text>
+  <text x="160.0" y="296.0" fill="#8a8a8a" font-size="9" text-anchor="middle">and to each other</text>
+  <rect x="46.0" y="318.0" width="228.0" height="72.0" rx="6" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.4" opacity="0.08"/>
+  <text x="60.0" y="338.0" fill="#8a8a8a" font-size="10">sisters separate; homologues</text>
+  <text x="60.0" y="354.0" fill="#8a8a8a" font-size="10">never pair. No crossing over,</text>
+  <text x="60.0" y="370.0" fill="#8a8a8a" font-size="10">no independent assortment.</text>
+  <line x1="452.0" y1="158.0" x2="452.0" y2="179.2" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="452.0,186.0 448.3,177.8 455.7,177.8" fill="#e0645c"/>
+  <text x="466.0" y="170.0" fill="#e0645c" font-size="9">meiosis I: homologues pair,</text>
+  <text x="466.0" y="182.0" fill="#e0645c" font-size="9">cross over, then separate</text>
+  <ellipse cx="394.0" cy="214.0" rx="44.0" ry="24.0" fill="none" stroke="#8a8a8a" stroke-width="1.8"/>
+  <rect x="382.5" y="202.0" width="7.0" height="24.0" rx="3" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.4" opacity="0.35"/>
+  <rect x="391.5" y="202.0" width="7.0" height="24.0" rx="3" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.4" opacity="0.35"/>
+  <ellipse cx="510.0" cy="214.0" rx="44.0" ry="24.0" fill="none" stroke="#8a8a8a" stroke-width="1.8"/>
+  <rect x="498.5" y="202.0" width="7.0" height="18.0" rx="3" fill="#e0645c" stroke="#e0645c" stroke-width="1.4" opacity="0.35"/>
+  <rect x="507.5" y="202.0" width="7.0" height="18.0" rx="3" fill="#e0645c" stroke="#e0645c" stroke-width="1.4" opacity="0.35"/>
+  <text x="452.0" y="250.0" fill="#e0645c" font-size="10" text-anchor="middle">2 cells, n = 2 - already haploid</text>
+  <line x1="452.0" y1="258.0" x2="452.0" y2="275.2" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="452.0,282.0 448.3,273.8 455.7,273.8" fill="#e0645c"/>
+  <text x="466.0" y="274.0" fill="#e0645c" font-size="9">meiosis II: sisters separate</text>
+  <ellipse cx="362.0" cy="306.0" rx="26.0" ry="18.0" fill="none" stroke="#8a8a8a" stroke-width="1.6"/>
+  <rect x="358.5" y="298.0" width="7.0" height="20.0" rx="3" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.4" opacity="0.35"/>
+  <ellipse cx="422.0" cy="306.0" rx="26.0" ry="18.0" fill="none" stroke="#8a8a8a" stroke-width="1.6"/>
+  <rect x="418.5" y="298.0" width="7.0" height="20.0" rx="3" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.4" opacity="0.35"/>
+  <ellipse cx="482.0" cy="306.0" rx="26.0" ry="18.0" fill="none" stroke="#8a8a8a" stroke-width="1.6"/>
+  <rect x="478.5" y="298.0" width="7.0" height="16.0" rx="3" fill="#e0645c" stroke="#e0645c" stroke-width="1.4" opacity="0.35"/>
+  <ellipse cx="542.0" cy="306.0" rx="26.0" ry="18.0" fill="none" stroke="#8a8a8a" stroke-width="1.6"/>
+  <rect x="538.5" y="298.0" width="7.0" height="16.0" rx="3" fill="#e0645c" stroke="#e0645c" stroke-width="1.4" opacity="0.35"/>
+  <text x="452.0" y="344.0" fill="#e0645c" font-size="11" text-anchor="middle">4 gametes, n = 2 each</text>
+  <text x="452.0" y="360.0" fill="#8a8a8a" font-size="9" text-anchor="middle">all genetically different</text>
+  <rect x="340.0" y="374.0" width="236.0" height="44.0" rx="6" fill="#e0645c" stroke="#e0645c" stroke-width="1.4" opacity="0.08"/>
+  <text x="352.0" y="392.0" fill="#8a8a8a" font-size="10">crossing over + independent assortment:</text>
+  <text x="352.0" y="408.0" fill="#8a8a8a" font-size="10">2<tspan baseline-shift="0" dy="-0.42em" font-size="0.72em">23</tspan><tspan dy="0.42em"></tspan> = 8.4 million gamete types in humans</text>
+</svg>

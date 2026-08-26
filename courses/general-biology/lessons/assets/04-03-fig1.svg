@@ -1,0 +1,44 @@
+<svg viewBox="0 0 620 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">A tree records descent - so shared traits mean either inheritance or coincidence.</text>
+  <line x1="60.0" y1="300.0" x2="120.0" y2="300.0" stroke="#8a8a8a" stroke-width="2.2"/>
+  <line x1="120.0" y1="300.0" x2="120.0" y2="120.0" stroke="#8a8a8a" stroke-width="2.2"/>
+  <line x1="120.0" y1="120.0" x2="190.0" y2="120.0" stroke="#8a8a8a" stroke-width="2.2"/>
+  <line x1="120.0" y1="300.0" x2="120.0" y2="300.0" stroke="#8a8a8a" stroke-width="2.2"/>
+  <line x1="120.0" y1="300.0" x2="160.0" y2="300.0" stroke="#8a8a8a" stroke-width="2.2"/>
+  <line x1="160.0" y1="300.0" x2="160.0" y2="220.0" stroke="#8a8a8a" stroke-width="2.2"/>
+  <line x1="160.0" y1="220.0" x2="190.0" y2="220.0" stroke="#8a8a8a" stroke-width="2.2"/>
+  <line x1="160.0" y1="300.0" x2="160.0" y2="340.0" stroke="#8a8a8a" stroke-width="2.2"/>
+  <line x1="160.0" y1="340.0" x2="190.0" y2="340.0" stroke="#8a8a8a" stroke-width="2.2"/>
+  <line x1="190.0" y1="340.0" x2="230.0" y2="340.0" stroke="#8a8a8a" stroke-width="2.2"/>
+  <line x1="230.0" y1="340.0" x2="230.0" y2="300.0" stroke="#8a8a8a" stroke-width="2.2"/>
+  <line x1="230.0" y1="300.0" x2="290.0" y2="300.0" stroke="#8a8a8a" stroke-width="2.2"/>
+  <line x1="230.0" y1="340.0" x2="230.0" y2="380.0" stroke="#8a8a8a" stroke-width="2.2"/>
+  <line x1="230.0" y1="380.0" x2="290.0" y2="380.0" stroke="#8a8a8a" stroke-width="2.2"/>
+  <text x="196.0" y="124.0" fill="#4a90d9" font-size="12">Bacteria</text>
+  <text x="196.0" y="224.0" fill="#4a90d9" font-size="12">Archaea</text>
+  <text x="196.0" y="344.0" fill="#4a90d9" font-size="12">Eukarya</text>
+  <text x="296.0" y="304.0" fill="#8a8a8a" font-size="10">plants, fungi</text>
+  <text x="296.0" y="384.0" fill="#8a8a8a" font-size="10">animals</text>
+  <circle cx="120.0" cy="120.0" r="4.0" fill="#e0645c" stroke="#e0645c" stroke-width="0"/>
+  <circle cx="160.0" cy="220.0" r="4.0" fill="#e0645c" stroke="#e0645c" stroke-width="0"/>
+  <text x="40.0" y="318.0" fill="#8a8a8a" font-size="9">last universal</text>
+  <text x="40.0" y="330.0" fill="#8a8a8a" font-size="9">common ancestor</text>
+  <text x="64.0" y="88.0" fill="#8a8a8a" font-size="10">branch points are common ancestors;</text>
+  <text x="64.0" y="102.0" fill="#8a8a8a" font-size="10">tip order carries no meaning</text>
+  <rect x="372.0" y="86.0" width="214.0" height="120.0" rx="6" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.6" opacity="0.1"/>
+  <text x="386.0" y="110.0" fill="#4a90d9" font-size="13">Homology</text>
+  <text x="386.0" y="132.0" fill="#8a8a8a" font-size="10">same structure, different use.</text>
+  <text x="386.0" y="148.0" fill="#8a8a8a" font-size="10">A whale flipper, a bat wing and</text>
+  <text x="386.0" y="164.0" fill="#8a8a8a" font-size="10">your hand share the same bones</text>
+  <text x="386.0" y="180.0" fill="#8a8a8a" font-size="10">because they share an ancestor.</text>
+  <text x="386.0" y="196.0" fill="#4a90d9" font-size="10">Evidence of descent.</text>
+  <rect x="372.0" y="224.0" width="214.0" height="120.0" rx="6" fill="#e0645c" stroke="#e0645c" stroke-width="1.6" opacity="0.1"/>
+  <text x="386.0" y="248.0" fill="#e0645c" font-size="13">Analogy</text>
+  <text x="386.0" y="270.0" fill="#8a8a8a" font-size="10">same use, different structure.</text>
+  <text x="386.0" y="286.0" fill="#8a8a8a" font-size="10">A bird wing and an insect wing</text>
+  <text x="386.0" y="302.0" fill="#8a8a8a" font-size="10">both fly, but are built from</text>
+  <text x="386.0" y="318.0" fill="#8a8a8a" font-size="10">unrelated parts.</text>
+  <text x="386.0" y="334.0" fill="#e0645c" font-size="10">Evidence of similar problems.</text>
+  <text x="372.0" y="366.0" fill="#8a8a8a" font-size="10">Only homology builds trees.</text>
+  <text x="372.0" y="382.0" fill="#8a8a8a" font-size="10">Analogy is convergent evolution.</text>
+</svg>

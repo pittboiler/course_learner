@@ -1,0 +1,29 @@
+<svg viewBox="0 0 620 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Selection needs only three things - and none of them is intent.</text>
+  <rect x="34.0" y="62.0" width="268.0" height="50.0" rx="6" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.6" opacity="0.1"/>
+  <text x="48.0" y="84.0" fill="#4a90d9" font-size="13">1. Variation</text>
+  <text x="48.0" y="102.0" fill="#8a8a8a" font-size="10">individuals differ</text>
+  <rect x="34.0" y="124.0" width="268.0" height="50.0" rx="6" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.6" opacity="0.1"/>
+  <text x="48.0" y="146.0" fill="#4a90d9" font-size="13">2. Heritability</text>
+  <text x="48.0" y="164.0" fill="#8a8a8a" font-size="10">some of the difference is inherited</text>
+  <rect x="34.0" y="186.0" width="268.0" height="50.0" rx="6" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.6" opacity="0.1"/>
+  <text x="48.0" y="208.0" fill="#4a90d9" font-size="13">3. Differential fitness</text>
+  <text x="48.0" y="226.0" fill="#8a8a8a" font-size="10">some variants leave more offspring</text>
+  <line x1="168.0" y1="254.0" x2="168.0" y2="275.2" stroke="#e0645c" stroke-width="2.4"/>
+  <polygon points="168.0,282.0 164.3,273.8 171.7,273.8" fill="#e0645c"/>
+  <rect x="34.0" y="290.0" width="268.0" height="44.0" rx="6" fill="#e0645c" stroke="#e0645c" stroke-width="1.6" opacity="0.12"/>
+  <text x="168.0" y="318.0" fill="#e0645c" font-size="12" text-anchor="middle">the population changes. That is all.</text>
+  <line x1="350.0" y1="300.0" x2="594.0" y2="300.0" stroke="#8a8a8a" stroke-width="1.4"/>
+  <line x1="356.0" y1="306.0" x2="356.0" y2="72.0" stroke="#8a8a8a" stroke-width="1.4"/>
+  <text x="340.0" y="60.0" fill="#8a8a8a" font-size="10">fraction of the population</text>
+  <text x="502.0" y="322.0" fill="#8a8a8a" font-size="10">generations</text>
+  <path d="M 356.0 265.4 L 379.0 258.5 L 402.0 250.0 L 425.0 239.8 L 448.0 227.7 L 471.0 213.9 L 494.0 198.6 L 517.0 182.4 L 540.0 166.1 L 563.0 150.4 L 586.0 136.3" fill="none" stroke="#e0645c" stroke-width="2.8"/>
+  <path d="M 356.0 118.6 L 379.0 125.5 L 402.0 134.0 L 425.0 144.2 L 448.0 156.3 L 471.0 170.1 L 494.0 185.4 L 517.0 201.6 L 540.0 217.9 L 563.0 233.6 L 586.0 247.7" fill="none" stroke="#4a90d9" stroke-width="2.8"/>
+  <text x="364.0" y="246.8" fill="#e0645c" font-size="11">light</text>
+  <text x="364.0" y="130.2" fill="#4a90d9" font-size="11">dark</text>
+  <line x1="351.0" y1="192.0" x2="356.0" y2="192.0" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="324.0" y="196.0" fill="#8a8a8a" font-size="9">50%</text>
+  <line x1="351.0" y1="84.0" x2="356.0" y2="84.0" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="324.0" y="88.0" fill="#8a8a8a" font-size="9">100%</text>
+  <text x="356.0" y="336.0" fill="#8a8a8a" font-size="10">pale soil, visual predator: light beetles survive better</text>
+</svg>

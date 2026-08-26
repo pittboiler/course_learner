@@ -1,0 +1,42 @@
+<svg viewBox="0 0 620 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Light reactions make the currency; the Calvin cycle spends it on carbon.</text>
+  <ellipse cx="300.0" cy="196.0" rx="278.0" ry="144.0" fill="none" stroke="#8a8a8a" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="300.0" y="352.0" fill="#8a8a8a" font-size="11" text-anchor="middle">chloroplast</text>
+  <ellipse cx="150.0" cy="120.0" rx="58.0" ry="10.0" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.8" opacity="0.18"/>
+  <ellipse cx="150.0" cy="142.0" rx="58.0" ry="10.0" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.8" opacity="0.18"/>
+  <ellipse cx="150.0" cy="164.0" rx="58.0" ry="10.0" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.8" opacity="0.18"/>
+  <ellipse cx="150.0" cy="186.0" rx="58.0" ry="10.0" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.8" opacity="0.18"/>
+  <text x="150.0" y="84.0" fill="#4a90d9" font-size="12" text-anchor="middle">thylakoid membrane</text>
+  <text x="150.0" y="68.0" fill="#4a90d9" font-size="11" text-anchor="middle">LIGHT REACTIONS</text>
+  <text x="150.0" y="228.0" fill="#8a8a8a" font-size="9" text-anchor="middle">light splits water:</text>
+  <text x="150.0" y="240.0" fill="#8a8a8a" font-size="9" text-anchor="middle">H<tspan baseline-shift="0" dy="0.32em" font-size="0.72em">2</tspan><tspan dy="-0.32em"></tspan>O to O<tspan baseline-shift="0" dy="0.32em" font-size="0.72em">2</tspan><tspan dy="-0.32em"></tspan> + electrons</text>
+  <text x="150.0" y="258.0" fill="#e0645c" font-size="9" text-anchor="middle">O<tspan baseline-shift="0" dy="0.32em" font-size="0.72em">2</tspan><tspan dy="-0.32em"></tspan> released as waste</text>
+  <line x1="62.0" y1="64.0" x2="75.3" y2="93.8" stroke="#e0645c" stroke-width="1.8"/>
+  <polygon points="78.0,100.0 71.3,94.0 78.0,91.0" fill="#e0645c"/>
+  <line x1="78.0" y1="64.0" x2="91.3" y2="93.8" stroke="#e0645c" stroke-width="1.8"/>
+  <polygon points="94.0,100.0 87.3,94.0 94.0,91.0" fill="#e0645c"/>
+  <line x1="94.0" y1="64.0" x2="107.3" y2="93.8" stroke="#e0645c" stroke-width="1.8"/>
+  <polygon points="110.0,100.0 103.3,94.0 110.0,91.0" fill="#e0645c"/>
+  <text x="46.0" y="54.0" fill="#e0645c" font-size="10">light</text>
+  <circle cx="444.0" cy="168.0" r="54.0" fill="none" stroke="#4a90d9" stroke-width="2.2"/>
+  <text x="444.0" y="96.0" fill="#4a90d9" font-size="11" text-anchor="middle">CALVIN CYCLE</text>
+  <text x="444.0" y="112.0" fill="#8a8a8a" font-size="9" text-anchor="middle">in the stroma</text>
+  <text x="444.0" y="172.0" fill="#4a90d9" font-size="11" text-anchor="middle">fix, reduce,</text>
+  <text x="444.0" y="188.0" fill="#4a90d9" font-size="11" text-anchor="middle">regenerate</text>
+  <line x1="452.0" y1="110.0" x2="480.8" y2="133.7" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="486.0,138.0 477.3,135.6 482.0,129.9" fill="#4a90d9"/>
+  <line x1="390.0" y1="124.0" x2="374.8" y2="124.0" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="368.0,124.0 376.2,120.3 376.2,127.7" fill="#8a8a8a"/>
+  <text x="340.0" y="128.0" fill="#8a8a8a" font-size="10">CO<tspan baseline-shift="0" dy="0.32em" font-size="0.72em">2</tspan><tspan dy="-0.32em"></tspan> in</text>
+  <line x1="444.0" y1="226.0" x2="444.0" y2="253.2" stroke="#e0645c" stroke-width="2.2"/>
+  <polygon points="444.0,260.0 440.3,251.8 447.7,251.8" fill="#e0645c"/>
+  <text x="444.0" y="278.0" fill="#e0645c" font-size="11" text-anchor="middle">sugar out</text>
+  <line x1="216.0" y1="140.0" x2="375.2" y2="140.0" stroke="#e0645c" stroke-width="2.4"/>
+  <polygon points="382.0,140.0 373.8,143.7 373.8,136.3" fill="#e0645c"/>
+  <text x="298.0" y="132.0" fill="#e0645c" font-size="11" text-anchor="middle">ATP + NADPH</text>
+  <line x1="382.0" y1="190.0" x2="222.8" y2="190.0" stroke="#8a8a8a" stroke-width="2" stroke-dasharray="4 3"/>
+  <polygon points="216.0,190.0 224.2,186.3 224.2,193.7" fill="#8a8a8a"/>
+  <text x="298.0" y="206.0" fill="#8a8a8a" font-size="9" text-anchor="middle">spent carriers return</text>
+  <text x="34.0" y="306.0" fill="#8a8a8a" font-size="11">18 ATP and 12 NADPH per glucose - photosynthesis is respiration</text>
+  <text x="34.0" y="322.0" fill="#8a8a8a" font-size="11">run backwards, paid for by light instead of by sugar</text>
+</svg>
