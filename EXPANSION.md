@@ -192,9 +192,11 @@ Earth/Space: `geology` (0), `atmospheric-science` (1), `geophysics` (2),
 `climate-science` (2), `oceanography` (2), `planetary-science` (2),
 `cosmology` (2, deep dive past astrophysics ✓) — **lessons ✓** (prepped 2026-08-10, 20).
 
-Life: `general-biology` (0), `molecular-cell-biology` (1), `genetics` (1),
-`evolution-ecology` (1), `physiology` (1), `neuroscience` (2),
-`computational-biology` (2), `systems-biology` (2), `immunology` (2).
+Life: `general-biology` (0) — **lessons ✓** (prepped 2026-08-25, 17) → unblocks
+`molecular-cell-biology` (1), `genetics` (1), `evolution-ecology` (1),
+`physiology` (1); then `neuroscience` (2), `systems-biology` (2), `immunology` (2)
+behind molecular-cell-biology. `computational-biology` (2) also needs `algorithms`,
+which is in the deferred CS field, so it stays blocked for now.
 
 ### Phase 10 — Deferred / fill-in
 
