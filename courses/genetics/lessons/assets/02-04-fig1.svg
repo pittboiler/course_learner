@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 470" width="800" height="470" role="img" aria-label="Meiosis I versus meiosis II nondisjunction, an inversion loop with a crossover, and a translocation quadrivalent with alternate and adjacent segregation">
+  <rect width="800" height="470" fill="#ffffff"/>
+  <text x="14" y="22" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#111">Nondisjunction: when it happened is readable from the result</text>
+
+  <g font-family="Helvetica,Arial,sans-serif" font-size="11">
+    <text x="20" y="46" font-weight="bold" fill="#333">Meiosis I error</text>
+    <rect x="26" y="56" width="12" height="34" rx="3" fill="#1a6fb5"/><rect x="44" y="56" width="12" height="34" rx="3" fill="#1a6fb5"/>
+    <rect x="76" y="56" width="12" height="34" rx="3" fill="#e8a33d"/><rect x="94" y="56" width="12" height="34" rx="3" fill="#e8a33d"/>
+    <path d="M 66 96 L 66 116" stroke="#555" stroke-width="2" marker-end="url(#p)"/>
+    <rect x="20" y="120" width="96" height="30" rx="5" fill="#fbe9eb" stroke="#d1495b" stroke-width="1.6"/>
+    <text x="68" y="139" text-anchor="middle" fill="#7a2530">both homologues</text>
+    <text x="20" y="170" fill="#333">trisomy carries <tspan font-weight="bold">two</tspan></text>
+    <text x="20" y="186" fill="#333"><tspan font-weight="bold">different</tspan> parental copies</text>
+    <text x="20" y="206" fill="#d1495b">A&#8321;A&#8322; mother &#8594; child A&#8321;A&#8322;A&#8323;</text>
+  </g>
+  <g font-family="Helvetica,Arial,sans-serif" font-size="11">
+    <text x="176" y="46" font-weight="bold" fill="#333">Meiosis II error</text>
+    <rect x="182" y="56" width="12" height="34" rx="3" fill="#1a6fb5"/><rect x="200" y="56" width="12" height="34" rx="3" fill="#1a6fb5"/>
+    <path d="M 204 96 L 204 116" stroke="#555" stroke-width="2" marker-end="url(#p)"/>
+    <rect x="158" y="120" width="96" height="30" rx="5" fill="#fbe9eb" stroke="#d1495b" stroke-width="1.6"/>
+    <text x="206" y="139" text-anchor="middle" fill="#7a2530">both sisters</text>
+    <text x="158" y="170" fill="#333">trisomy carries the</text>
+    <text x="158" y="186" fill="#333"><tspan font-weight="bold">same</tspan> copy twice</text>
+    <text x="158" y="206" fill="#d1495b">A&#8321;A&#8322; mother &#8594; child A&#8321;A&#8321;A&#8323;</text>
+  </g>
+  <rect x="286" y="52" width="200" height="160" rx="8" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1.5"/>
+  <text x="298" y="74" font-family="Helvetica,Arial,sans-serif" font-size="11.5" font-weight="bold" fill="#111">Why aneuploidy hurts</text>
+  <text x="298" y="96" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#333">A trisomy is missing <tspan font-style="italic">no</tspan> genes.</text>
+  <text x="298" y="114" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#333">It has 150% of a few hundred</text>
+  <text x="298" y="132" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#333">products against 100% of the rest.</text>
+  <text x="298" y="158" font-family="Helvetica,Arial,sans-serif" font-size="11.5" font-weight="bold" fill="#d1495b">A RATIO problem, not a</text>
+  <text x="298" y="174" font-family="Helvetica,Arial,sans-serif" font-size="11.5" font-weight="bold" fill="#d1495b">QUANTITY problem.</text>
+  <text x="298" y="198" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#2e8b57">Hence triploidy (150% of everything)</text>
+  <text x="298" y="212" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#2e8b57">is mild &#8212; all ratios preserved.</text>
+
+  <line x1="510" y1="34" x2="510" y2="224" stroke="#ddd" stroke-width="2"/>
+  <text x="530" y="46" font-family="Helvetica,Arial,sans-serif" font-size="12" font-weight="bold" fill="#111">Inversion loop</text>
+  <path d="M 540 96 C 560 60 640 60 660 96 C 680 132 740 132 764 96" fill="none" stroke="#1a6fb5" stroke-width="4"/>
+  <path d="M 540 108 C 560 144 640 144 660 108 C 680 72 740 72 764 108" fill="none" stroke="#e8a33d" stroke-width="4"/>
+  <line x1="612" y1="66" x2="612" y2="138" stroke="#d1495b" stroke-width="3"/>
+  <text x="612" y="156" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#d1495b" text-anchor="middle">crossover inside the loop</text>
+  <text x="530" y="180" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#333">paracentric &#8594; <tspan font-weight="bold">dicentric</tspan> + <tspan font-weight="bold">acentric</tspan></text>
+  <text x="530" y="196" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#333">pericentric &#8594; duplication&#8211;deletion</text>
+  <text x="530" y="216" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="bold" fill="#d1495b">Crossovers happen; the products die.</text>
+
+  <line x1="14" y1="238" x2="786" y2="238" stroke="#ddd" stroke-width="2"/>
+  <text x="14" y="262" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#111">A reciprocal translocation carrier is healthy &#8212; and half their gametes are not</text>
+
+  <g stroke-width="6" stroke-linecap="round">
+    <line x1="120" y1="300" x2="120" y2="356" stroke="#1a6fb5"/>
+    <line x1="92" y1="328" x2="148" y2="328" stroke="#2e8b57"/>
+    <line x1="150" y1="300" x2="150" y2="328" stroke="#1a6fb5"/>
+    <line x1="150" y1="328" x2="150" y2="356" stroke="#2e8b57"/>
+    <line x1="150" y1="328" x2="200" y2="328" stroke="#1a6fb5"/>
+  </g>
+  <circle cx="120" cy="328" r="5" fill="#333"/><circle cx="150" cy="328" r="5" fill="#333"/>
+  <text x="140" y="382" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#333" text-anchor="middle">quadrivalent: four chromosomes must pair</text>
+
+  <g font-family="Helvetica,Arial,sans-serif" font-size="11.5">
+    <rect x="270" y="278" width="236" height="30" rx="5" fill="#e6f4ea" stroke="#2e8b57" stroke-width="1.8"/>
+    <text x="282" y="298" fill="#1f5c3a"><tspan font-weight="bold">Alternate</tspan> &#8594; BALANCED &#183; viable</text>
+    <text x="516" y="298" fill="#2e8b57">~50%</text>
+    <rect x="270" y="314" width="236" height="30" rx="5" fill="#fbe9eb" stroke="#d1495b" stroke-width="1.5"/>
+    <text x="282" y="334" fill="#7a2530"><tspan font-weight="bold">Adjacent-1</tspan> &#8594; unbalanced</text>
+    <text x="516" y="334" fill="#d1495b">~40%</text>
+    <rect x="270" y="350" width="236" height="30" rx="5" fill="#fbe9eb" stroke="#d1495b" stroke-width="1.5"/>
+    <text x="282" y="370" fill="#7a2530"><tspan font-weight="bold">Adjacent-2</tspan> / 3:1 &#8594; unbalanced</text>
+    <text x="516" y="370" fill="#d1495b">~10%</text>
+  </g>
+
+  <rect x="576" y="278" width="208" height="102" rx="8" fill="#fdf7ee" stroke="#c9871f" stroke-width="1.5"/>
+  <text x="588" y="300" font-family="Helvetica,Arial,sans-serif" font-size="11.5" font-weight="bold" fill="#8a5a10">Semi-sterility</text>
+  <text x="588" y="320" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#333">Half of conceptions unbalanced;</text>
+  <text x="588" y="336" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#333">almost all lost in the first trimester.</text>
+  <text x="588" y="358" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#333">A healthy person with a 100%</text>
+  <text x="588" y="374" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#333">explanation for recurrent loss.</text>
+
+  <rect x="14" y="396" width="770" height="62" rx="8" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1.5"/>
+  <text x="28" y="418" font-family="Helvetica,Arial,sans-serif" font-size="11.5" font-weight="bold" fill="#111">Clinical consequence:</text>
+  <text x="176" y="418" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#333">free trisomy 21 &#8594; recurrence ~1%, and it depends on maternal age.</text>
+  <text x="176" y="436" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#d1495b">Translocation Down syndrome &#8594; recurrence 10&#8211;15% for a carrier mother, and <tspan font-weight="bold">age-independent</tspan>.</text>
+  <text x="176" y="452" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#333">Which is why parental karyotyping after a Down syndrome birth is standard.</text>
+  <defs><marker id="p" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#555"/></marker></defs>
+</svg>

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" width="800" height="440" role="img" aria-label="Four single-nucleotide changes in one sequence with different outcomes, the CpG deamination hotspot, and trinucleotide repeat expansion causing anticipation">
+  <rect width="800" height="440" fill="#ffffff"/>
+  <text x="14" y="22" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#111">Same chemistry, different position, completely different outcome</text>
+
+  <g font-family="'Courier New',monospace" font-size="13">
+    <text x="20" y="52" fill="#666" font-family="Helvetica,Arial,sans-serif" font-size="11">original</text>
+    <text x="110" y="52" fill="#111">ATG GCA TCG AAG CTA TGG</text>
+    <text x="360" y="52" fill="#333" font-family="Helvetica,Arial,sans-serif" font-size="11">Met-Ala-Ser-Lys-Leu-Trp</text>
+
+    <text x="20" y="84" fill="#2e8b57" font-family="Helvetica,Arial,sans-serif" font-size="11">silent</text>
+    <text x="110" y="84" fill="#111">ATG GC<tspan fill="#2e8b57" font-weight="bold">G</tspan> TCG AAG CTA TGG</text>
+    <text x="360" y="84" fill="#2e8b57" font-family="Helvetica,Arial,sans-serif" font-size="11">Met-Ala-Ser-Lys-Leu-Trp &#8212; unchanged</text>
+
+    <text x="20" y="116" fill="#c9871f" font-family="Helvetica,Arial,sans-serif" font-size="11">missense</text>
+    <text x="110" y="116" fill="#111">ATG GCA TCG AA<tspan fill="#c9871f" font-weight="bold">C</tspan> CTA TGG</text>
+    <text x="360" y="116" fill="#c9871f" font-family="Helvetica,Arial,sans-serif" font-size="11">Met-Ala-Ser-<tspan font-weight="bold">Asn</tspan>-Leu-Trp</text>
+
+    <text x="20" y="148" fill="#d1495b" font-family="Helvetica,Arial,sans-serif" font-size="11">nonsense</text>
+    <text x="110" y="148" fill="#111">ATG GCA TCG AAG CTA TG<tspan fill="#d1495b" font-weight="bold">A</tspan></text>
+    <text x="360" y="148" fill="#d1495b" font-family="Helvetica,Arial,sans-serif" font-size="11">Met-Ala-Ser-Lys-Leu &#8212; truncated (then NMD)</text>
+
+    <text x="20" y="180" fill="#7a2530" font-family="Helvetica,Arial,sans-serif" font-size="11">frameshift</text>
+    <text x="110" y="180" fill="#111">ATG GC<tspan fill="#7a2530" font-weight="bold">T</tspan> ATC GAA GCT ATG G</text>
+    <text x="360" y="180" fill="#7a2530" font-family="Helvetica,Arial,sans-serif" font-size="11">Met-Ala-<tspan font-weight="bold">Ile-Glu-Ala-Met...</tspan> everything after</text>
+  </g>
+  <rect x="106" y="166" width="240" height="20" fill="none" stroke="#7a2530" stroke-width="1.6" stroke-dasharray="4 3"/>
+  <text x="20" y="206" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#7a2530">One inserted base changed four residues and counting. A substitution changed one.</text>
+  <text x="20" y="224" font-family="Helvetica,Arial,sans-serif" font-size="11.5" font-weight="bold" fill="#111">n &#8801; 0 (mod 3) &#8594; in-frame&#160;&#160;&#183;&#160;&#160;otherwise &#8594; frameshift, premature stop within ~21 codons, then NMD</text>
+
+  <line x1="14" y1="240" x2="786" y2="240" stroke="#ddd" stroke-width="2"/>
+
+  <text x="14" y="264" font-family="Helvetica,Arial,sans-serif" font-size="12" font-weight="bold" fill="#111">Why transitions win: the CpG hotspot</text>
+  <g font-family="Helvetica,Arial,sans-serif" font-size="11">
+    <rect x="24" y="278" width="90" height="30" rx="5" fill="#e8f0fb" stroke="#1a6fb5" stroke-width="1.5"/>
+    <text x="69" y="298" text-anchor="middle" fill="#134f80">5-methyl-C</text>
+    <path d="M 118 293 L 154 293" stroke="#d1495b" stroke-width="2.2" marker-end="url(#q)"/>
+    <text x="136" y="284" text-anchor="middle" fill="#d1495b" font-size="10">deaminate</text>
+    <rect x="158" y="278" width="66" height="30" rx="5" fill="#fbe9eb" stroke="#d1495b" stroke-width="1.5"/>
+    <text x="191" y="298" text-anchor="middle" fill="#7a2530">T</text>
+    <text x="24" y="330" fill="#333">C&#8594;T is a <tspan font-weight="bold">transition</tspan>, and the product</text>
+    <text x="24" y="346" fill="#333">is a normal base &#8212; harder to spot and fix.</text>
+    <text x="24" y="368" fill="#d1495b" font-weight="bold">CpG sites mutate ~10&#215; above background</text>
+    <text x="24" y="384" fill="#333">and carry a large share of human disease</text>
+    <text x="24" y="400" fill="#333">point mutations.</text>
+    <text x="24" y="424" fill="#666">Transitions outnumber transversions ~2:1</text>
+  </g>
+
+  <line x1="300" y1="252" x2="300" y2="432" stroke="#ddd" stroke-width="2"/>
+  <text x="320" y="264" font-family="Helvetica,Arial,sans-serif" font-size="12" font-weight="bold" fill="#111">Repeat expansion &#8594; anticipation</text>
+  <line x1="356" y1="410" x2="770" y2="410" stroke="#333" stroke-width="1.8"/>
+  <line x1="356" y1="410" x2="356" y2="282" stroke="#333" stroke-width="1.8"/>
+  <line x1="356" y1="340" x2="770" y2="340" stroke="#c9871f" stroke-width="1.6" stroke-dasharray="5 4"/>
+  <text x="776" y="344" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#c9871f" text-anchor="end">40 = fully penetrant</text>
+  <polyline points="392,398 470,392 548,364 626,326 704,290" fill="none" stroke="#d1495b" stroke-width="2.8"/>
+  <g fill="#d1495b">
+    <circle cx="392" cy="398" r="5"/><circle cx="470" cy="392" r="5"/><circle cx="548" cy="364" r="5"/><circle cx="626" cy="326" r="5"/><circle cx="704" cy="290" r="5"/>
+  </g>
+  <g font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#666">
+    <text x="392" y="426" text-anchor="middle">gen 1</text><text x="470" y="426" text-anchor="middle">2</text><text x="548" y="426" text-anchor="middle">3</text><text x="626" y="426" text-anchor="middle">4</text><text x="704" y="426" text-anchor="middle">5</text>
+  </g>
+  <text x="350" y="278" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333" text-anchor="end">CAG</text>
+  <text x="350" y="292" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333" text-anchor="end">repeats</text>
+  <text x="420" y="308" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#333">longer repeats slip more &#8594; expansion accelerates</text>
+  <text x="420" y="324" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#d1495b">&#8594; earlier, more severe onset each generation</text>
+  <text x="420" y="384" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#333">Large expansions come through the <tspan font-weight="bold">father</tspan>:</text>
+  <text x="420" y="400" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#333">sperm pass through far more replications.</text>
+  <defs><marker id="q" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#d1495b"/></marker></defs>
+</svg>
