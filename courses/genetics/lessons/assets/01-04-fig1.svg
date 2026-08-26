@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" width="800" height="440" role="img" aria-label="Pedigree symbols and diagnostic signatures for each inheritance mode, plus the Bayes table layout">
+  <rect width="800" height="440" fill="#ffffff"/>
+  <text x="14" y="22" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#111">Read the mode from the pattern</text>
+
+  <g font-family="Helvetica,Arial,sans-serif" font-size="10.5">
+    <rect x="20" y="34" width="18" height="18" fill="#fff" stroke="#333" stroke-width="1.8"/><text x="44" y="48" fill="#333">male</text>
+    <circle cx="97" cy="43" r="9" fill="#fff" stroke="#333" stroke-width="1.8"/><text x="112" y="48" fill="#333">female</text>
+    <rect x="164" y="34" width="18" height="18" fill="#333"/><text x="188" y="48" fill="#333">affected</text>
+    <line x1="248" y1="43" x2="278" y2="43" stroke="#333" stroke-width="1.8"/><text x="284" y="48" fill="#333">mating</text>
+    <line x1="340" y1="38" x2="374" y2="38" stroke="#c9871f" stroke-width="1.8"/><line x1="340" y1="46" x2="374" y2="46" stroke="#c9871f" stroke-width="1.8"/>
+    <text x="380" y="48" fill="#c9871f">consanguineous</text>
+  </g>
+
+  <text x="20" y="82" font-family="Helvetica,Arial,sans-serif" font-size="12" font-weight="bold" fill="#2e8b57">Signature 1 &#8212; male-to-male transmission</text>
+  <rect x="30" y="94" width="18" height="18" fill="#333"/>
+  <circle cx="87" cy="103" r="9" fill="#fff" stroke="#333" stroke-width="1.8"/>
+  <line x1="48" y1="103" x2="78" y2="103" stroke="#333" stroke-width="1.8"/>
+  <line x1="63" y1="103" x2="63" y2="128" stroke="#333" stroke-width="1.8"/>
+  <line x1="42" y1="128" x2="84" y2="128" stroke="#333" stroke-width="1.8"/>
+  <line x1="42" y1="128" x2="42" y2="140" stroke="#333" stroke-width="1.8"/>
+  <line x1="84" y1="128" x2="84" y2="140" stroke="#333" stroke-width="1.8"/>
+  <rect x="33" y="140" width="18" height="18" fill="#333"/>
+  <circle cx="84" cy="149" r="9" fill="#fff" stroke="#333" stroke-width="1.8"/>
+  <text x="20" y="180" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#2e8b57">a father gives his son a Y, never his X</text>
+  <text x="20" y="196" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="bold" fill="#d1495b">&#8594; rules out ALL X-linked and mitochondrial</text>
+
+  <line x1="232" y1="68" x2="232" y2="290" stroke="#ddd" stroke-width="2"/>
+  <text x="248" y="82" font-family="Helvetica,Arial,sans-serif" font-size="12" font-weight="bold" fill="#2e8b57">Signature 2 &#8212; affected father</text>
+  <rect x="258" y="94" width="18" height="18" fill="#333"/>
+  <circle cx="315" cy="103" r="9" fill="#fff" stroke="#333" stroke-width="1.8"/>
+  <line x1="276" y1="103" x2="306" y2="103" stroke="#333" stroke-width="1.8"/>
+  <line x1="291" y1="103" x2="291" y2="126" stroke="#333" stroke-width="1.8"/>
+  <line x1="252" y1="126" x2="396" y2="126" stroke="#333" stroke-width="1.8"/>
+  <g stroke="#333" stroke-width="1.8">
+    <line x1="252" y1="126" x2="252" y2="138"/><line x1="288" y1="126" x2="288" y2="138"/>
+    <line x1="324" y1="126" x2="324" y2="138"/><line x1="360" y1="126" x2="360" y2="138"/><line x1="396" y1="126" x2="396" y2="138"/>
+  </g>
+  <circle cx="252" cy="147" r="9" fill="#333"/><circle cx="288" cy="147" r="9" fill="#333"/><circle cx="324" cy="147" r="9" fill="#333"/>
+  <rect x="351" y="138" width="18" height="18" fill="#fff" stroke="#333" stroke-width="1.8"/>
+  <rect x="387" y="138" width="18" height="18" fill="#fff" stroke="#333" stroke-width="1.8"/>
+  <text x="248" y="180" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333">ALL daughters affected, NO sons affected</text>
+  <text x="248" y="196" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="bold" fill="#d1495b">&#8594; X-linked DOMINANT, essentially decisive</text>
+  <text x="248" y="218" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#666">(he gives every daughter his only X)</text>
+
+  <line x1="440" y1="68" x2="440" y2="290" stroke="#ddd" stroke-width="2"/>
+  <text x="456" y="82" font-family="Helvetica,Arial,sans-serif" font-size="12" font-weight="bold" fill="#2e8b57">Signature 3 &#8212; a skipped generation</text>
+  <circle cx="480" cy="103" r="9" fill="#fff" stroke="#333" stroke-width="1.8"/>
+  <rect x="513" y="94" width="18" height="18" fill="#fff" stroke="#333" stroke-width="1.8"/>
+  <line x1="489" y1="103" x2="513" y2="103" stroke="#333" stroke-width="1.8"/>
+  <line x1="501" y1="103" x2="501" y2="126" stroke="#333" stroke-width="1.8"/>
+  <line x1="474" y1="126" x2="528" y2="126" stroke="#333" stroke-width="1.8"/>
+  <line x1="474" y1="126" x2="474" y2="138" stroke="#333" stroke-width="1.8"/>
+  <line x1="528" y1="126" x2="528" y2="138" stroke="#333" stroke-width="1.8"/>
+  <rect x="465" y="138" width="18" height="18" fill="#333"/>
+  <circle cx="528" cy="147" r="9" fill="#333"/>
+  <text x="456" y="180" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333">unaffected parents, affected children</text>
+  <text x="456" y="196" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#333">&#8594; autosomal <tspan font-weight="bold">recessive</tspan> &#8212; OR &#8212;</text>
+  <text x="456" y="212" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#c9871f">dominant with <tspan font-weight="bold">incomplete penetrance</tspan></text>
+  <text x="456" y="234" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#d1495b">never rule out dominance on a skip alone</text>
+
+  <line x1="14" y1="300" x2="786" y2="300" stroke="#ddd" stroke-width="2"/>
+  <text x="14" y="324" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#111">Then compute &#8212; and unaffected children are evidence</text>
+
+  <g font-family="Helvetica,Arial,sans-serif" font-size="11">
+    <rect x="20" y="336" width="440" height="24" fill="#f0f3f7" stroke="#8fa8c0" stroke-width="1.2"/>
+    <rect x="20" y="360" width="440" height="22" fill="#fff" stroke="#8fa8c0" stroke-width="1.2"/>
+    <rect x="20" y="382" width="440" height="22" fill="#fff" stroke="#8fa8c0" stroke-width="1.2"/>
+    <rect x="20" y="404" width="440" height="24" fill="#e8f0fb" stroke="#1a6fb5" stroke-width="1.6"/>
+    <line x1="212" y1="336" x2="212" y2="428" stroke="#8fa8c0" stroke-width="1.2"/>
+    <line x1="336" y1="336" x2="336" y2="428" stroke="#8fa8c0" stroke-width="1.2"/>
+    <text x="28" y="352" font-weight="bold" fill="#333">row</text>
+    <text x="220" y="352" font-weight="bold" fill="#333">H&#8321;: carrier</text>
+    <text x="344" y="352" font-weight="bold" fill="#333">H&#8322;: not carrier</text>
+    <text x="28" y="375" fill="#333">Prior</text><text x="220" y="375" fill="#333">2/3</text><text x="344" y="375" fill="#333">1/3</text>
+    <text x="28" y="397" fill="#333">Conditional: P(3 unaffected kids)</text><text x="220" y="397" fill="#333">(3/4)&#179; = 0.42</text><text x="344" y="397" fill="#333">1</text>
+    <text x="28" y="421" font-weight="bold" fill="#134f80">Posterior = joint / &#931; joint</text><text x="220" y="421" font-weight="bold" fill="#134f80">&#8595; lower</text><text x="344" y="421" font-weight="bold" fill="#134f80">&#8593; higher</text>
+  </g>
+  <rect x="476" y="336" width="308" height="92" rx="8" fill="#fdf7ee" stroke="#c9871f" stroke-width="1.5"/>
+  <text x="490" y="358" font-family="Helvetica,Arial,sans-serif" font-size="11.5" font-weight="bold" fill="#8a5a10">The 2/3 rule</text>
+  <text x="490" y="378" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#333">Aa &#215; Aa gives &#188; AA : &#189; Aa : &#188; aa.</text>
+  <text x="490" y="396" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#333">Unaffected removes the aa class:</text>
+  <text x="490" y="418" font-family="Helvetica,Arial,sans-serif" font-size="12.5" font-weight="bold" fill="#8a5a10">P(Aa | unaffected) = (1/2)/(3/4) = 2/3</text>
+</svg>
