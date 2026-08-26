@@ -1,0 +1,63 @@
+<svg viewBox="0 0 660 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <path d="M 30 38 L 54 30 M 30 74 L 54 82" stroke="#8a8a8a" fill="none" fill-opacity="1" stroke-width="2"/>
+  <line x1="54.0" y1="34.0" x2="70.0" y2="56.0" stroke="#e0645c" stroke-width="1.3"/>
+  <line x1="54.0" y1="78.0" x2="70.0" y2="56.0" stroke="#e0645c" stroke-width="1.3"/>
+  <line x1="70.0" y1="56.0" x2="86.0" y2="34.0" stroke="#e0645c" stroke-width="1.3"/>
+  <line x1="70.0" y1="56.0" x2="86.0" y2="78.0" stroke="#e0645c" stroke-width="1.3"/>
+  <line x1="86.0" y1="34.0" x2="102.0" y2="56.0" stroke="#e0645c" stroke-width="1.3"/>
+  <line x1="86.0" y1="78.0" x2="102.0" y2="56.0" stroke="#e0645c" stroke-width="1.3"/>
+  <line x1="102.0" y1="56.0" x2="118.0" y2="34.0" stroke="#e0645c" stroke-width="1.3"/>
+  <line x1="102.0" y1="56.0" x2="118.0" y2="78.0" stroke="#e0645c" stroke-width="1.3"/>
+  <line x1="118.0" y1="34.0" x2="134.0" y2="56.0" stroke="#e0645c" stroke-width="1.3"/>
+  <line x1="118.0" y1="78.0" x2="134.0" y2="56.0" stroke="#e0645c" stroke-width="1.3"/>
+  <line x1="134.0" y1="56.0" x2="150.0" y2="34.0" stroke="#e0645c" stroke-width="1.3"/>
+  <line x1="134.0" y1="56.0" x2="150.0" y2="78.0" stroke="#e0645c" stroke-width="1.3"/>
+  <text x="26.0" y="102.0" fill="#e0645c" font-size="10" text-anchor="start">over-expanded: p<tspan font-size="0.72em" dy="3">e</tspan><tspan dy="-3"> &lt; p</tspan><tspan font-size="0.72em" dy="3">a</tspan><tspan dy="-3"> </tspan></text>
+  <path d="M 30 132 L 54 124 M 30 168 L 54 176" stroke="#8a8a8a" fill="none" fill-opacity="1" stroke-width="2"/>
+  <line x1="54.0" y1="124.0" x2="150.0" y2="124.0" stroke="#4a90d9" stroke-width="1.8"/>
+  <line x1="54.0" y1="176.0" x2="150.0" y2="176.0" stroke="#4a90d9" stroke-width="1.8"/>
+  <text x="26.0" y="196.0" fill="#4a90d9" font-size="10" text-anchor="start">perfectly expanded</text>
+  <path d="M 30 232 L 54 224 M 30 268 L 54 276" stroke="#8a8a8a" fill="none" fill-opacity="1" stroke-width="2"/>
+  <path d="M 54 224 C 86 202 122 206 154 230" stroke="#e0645c" fill="none" fill-opacity="1" stroke-width="1.8"/>
+  <path d="M 54 276 C 86 298 122 294 154 270" stroke="#e0645c" fill="none" fill-opacity="1" stroke-width="1.8"/>
+  <line x1="122.0" y1="224.0" x2="122.0" y2="276.0" stroke="#e0645c" stroke-width="2.2"/>
+  <text x="82.0" y="212.0" fill="#e0645c" font-size="9" text-anchor="start">Mach disc</text>
+  <text x="26.0" y="296.0" fill="#e0645c" font-size="10" text-anchor="start">under-expanded: p<tspan font-size="0.72em" dy="3">e</tspan><tspan dy="-3"> &gt; p</tspan><tspan font-size="0.72em" dy="3">a</tspan><tspan dy="-3"> </tspan></text>
+  <path d="M 210 126 L 250 108 L 306 94" stroke="#8a8a8a" fill="none" fill-opacity="1" stroke-width="2.2"/>
+  <path d="M 210 174 L 250 192 L 306 206" stroke="#8a8a8a" fill="none" fill-opacity="1" stroke-width="2.2"/>
+  <line x1="258.0" y1="104.0" x2="306.0" y2="114.0" stroke="#e0645c" stroke-width="1.6" stroke-dasharray="4 3"/>
+  <line x1="266.0" y1="198.0" x2="306.0" y2="190.0" stroke="#e0645c" stroke-width="1.6" stroke-dasharray="4 3"/>
+  <circle cx="258.0" cy="104.0" r="4.0" stroke="#e0645c" fill="#e0645c" fill-opacity="1" stroke-width="1"/>
+  <circle cx="266.0" cy="198.0" r="4.0" stroke="#e0645c" fill="#e0645c" fill-opacity="1" stroke-width="1"/>
+  <path d="M 266 100 A 12 12 0 1 1 278 110" stroke="#e0645c" fill="none" fill-opacity="1" stroke-width="1.2"/>
+  <line x1="270.0" y1="220.0" x2="270.0" y2="246.0" stroke="#e0645c" stroke-width="2.4"/>
+  <polygon points="270.0,246.0 266.9,238.6 273.1,238.6" stroke="#e0645c" fill="#e0645c" fill-opacity="1" stroke-width="0.5"/>
+  <text x="232.0" y="258.0" fill="#e0645c" font-size="10" text-anchor="start">side load</text>
+  <text x="196.0" y="78.0" fill="#e0645c" font-size="10" text-anchor="start">p<tspan font-size="0.72em" dy="3">e</tspan><tspan dy="-3"> &lt; 0.4 p</tspan><tspan font-size="0.72em" dy="3">a</tspan><tspan dy="-3">: the flow separates</tspan></text>
+  <text x="196.0" y="92.0" fill="#e0645c" font-size="10" text-anchor="start">and not symmetrically</text>
+  <line x1="400.0" y1="290.0" x2="630.0" y2="290.0" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="400.0" y1="290.0" x2="400.0" y2="90.0" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="628.0" y="282.0" fill="#8a8a8a" font-size="11" text-anchor="end">altitude (km)</text>
+  <path d="M 400.00 171.52 L 403.83 166.29 L 407.67 161.54 L 411.50 157.25 L 415.33 153.38 L 419.17 149.90 L 423.00 146.77 L 426.83 143.97 L 430.67 141.48 L 434.50 139.26 L 438.33 137.29 L 442.17 135.55 L 446.00 134.04 L 449.83 132.75 L 453.67 131.65 L 457.50 130.71 L 461.33 129.91 L 465.17 129.22 L 469.00 128.63 L 472.83 128.13 L 476.67 127.71 L 480.50 127.34 L 484.33 127.03 L 488.17 126.76 L 492.00 126.54 L 495.83 126.34 L 499.67 126.18 L 503.50 126.03 L 507.33 125.91 L 511.17 125.81 L 515.00 125.72 L 518.83 125.65 L 522.67 125.58 L 526.50 125.53 L 530.33 125.48 L 534.17 125.44 L 538.00 125.40 L 541.83 125.38 L 545.67 125.35 L 549.50 125.33 L 553.33 125.31 L 557.17 125.30 L 561.00 125.28 L 564.83 125.27 L 568.67 125.26 L 572.50 125.25 L 576.33 125.25 L 580.17 125.24 L 584.00 125.23 L 587.83 125.23 L 591.67 125.23 L 595.50 125.22 L 599.33 125.22 L 603.17 125.22 L 607.00 125.22 L 610.83 125.21 L 614.67 125.21 L 618.50 125.21 L 622.33 125.21 L 626.17 125.21 L 630.00 125.21" stroke="#4a90d9" fill="none" fill-opacity="1" stroke-width="2.2"/>
+  <text x="469.0" y="222.0" fill="#4a90d9" font-size="10" text-anchor="start">small area ratio (16)</text>
+  <path d="M 400.00 261.39 L 403.83 241.76 L 407.67 223.96 L 411.50 207.87 L 415.33 193.35 L 419.17 180.29 L 423.00 168.57 L 426.83 158.07 L 430.67 148.71 L 434.50 140.39 L 438.33 133.00 L 442.17 126.48 L 446.00 120.82 L 449.83 115.99 L 453.67 111.86 L 457.50 108.33 L 461.33 105.32 L 465.17 102.75 L 469.00 100.55 L 472.83 98.67 L 476.67 97.07 L 480.50 95.70 L 484.33 94.53 L 488.17 93.53 L 492.00 92.68 L 495.83 91.95 L 499.67 91.33 L 503.50 90.80 L 507.33 90.34 L 511.17 89.96 L 515.00 89.62 L 518.83 89.34 L 522.67 89.10 L 526.50 88.89 L 530.33 88.72 L 534.17 88.57 L 538.00 88.44 L 541.83 88.33 L 545.67 88.23 L 549.50 88.15 L 553.33 88.09 L 557.17 88.03 L 561.00 87.98 L 564.83 87.94 L 568.67 87.90 L 572.50 87.87 L 576.33 87.84 L 580.17 87.82 L 584.00 87.80 L 587.83 87.78 L 591.67 87.77 L 595.50 87.76 L 599.33 87.75 L 603.17 87.74 L 607.00 87.73 L 610.83 87.72 L 614.67 87.72 L 618.50 87.71 L 622.33 87.71 L 626.17 87.71 L 630.00 87.70" stroke="#e0645c" fill="none" fill-opacity="1" stroke-width="2.2"/>
+  <text x="469.0" y="130.0" fill="#e0645c" font-size="10" text-anchor="start">large area ratio (60)</text>
+  <line x1="396.0" y1="242.4" x2="400.0" y2="242.4" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="392.0" y="246.4" fill="#8a8a8a" font-size="9" text-anchor="end">800</text>
+  <line x1="396.0" y1="194.8" x2="400.0" y2="194.8" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="392.0" y="198.8" fill="#8a8a8a" font-size="9" text-anchor="end">900</text>
+  <line x1="396.0" y1="147.1" x2="400.0" y2="147.1" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="392.0" y="151.1" fill="#8a8a8a" font-size="9" text-anchor="end">1000</text>
+  <line x1="396.0" y1="99.5" x2="400.0" y2="99.5" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="392.0" y="103.5" fill="#8a8a8a" font-size="9" text-anchor="end">1100</text>
+  <text x="404.0" y="84.0" fill="#8a8a8a" font-size="11" text-anchor="start">thrust (kN)</text>
+  <rect x="400.0" y="90.0" width="11.5" height="200.0" stroke="none" fill="#e0645c" fill-opacity="0.14" stroke-width="0" rx="0"/>
+  <text x="416.1" y="106.0" fill="#e0645c" font-size="9" text-anchor="start">separation risk</text>
+  <line x1="400.0" y1="290.0" x2="400.0" y2="294.0" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="400.0" y="306.0" fill="#8a8a8a" font-size="9" text-anchor="middle">0</text>
+  <line x1="476.7" y1="290.0" x2="476.7" y2="294.0" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="476.7" y="306.0" fill="#8a8a8a" font-size="9" text-anchor="middle">20</text>
+  <line x1="553.3" y1="290.0" x2="553.3" y2="294.0" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="553.3" y="306.0" fill="#8a8a8a" font-size="9" text-anchor="middle">40</text>
+  <text x="20.0" y="332.0" fill="#8a8a8a" font-size="11" text-anchor="start">Neither nozzle is better; they are better at different altitudes.</text>
+</svg>

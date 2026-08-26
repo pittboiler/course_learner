@@ -1,0 +1,36 @@
+<svg viewBox="0 0 660 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="20" y="20" fill="#8a8a8a" font-style="italic">Left: joint-space interpolation bulges away from the straight line.   Right: rounding a corner.</text>
+  <line x1="90.0" y1="250.0" x2="109.1" y2="160.0" stroke="#8a8a8a" stroke-width="2.8"/>
+  <circle cx="90.0" cy="250.0" r="4.0" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="0.3" stroke-width="1"/>
+  <line x1="109.1" y1="160.0" x2="173.8" y2="128.4" stroke="#8a8a8a" stroke-width="2.8"/>
+  <circle cx="109.1" cy="160.0" r="4.0" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="0.3" stroke-width="1"/>
+  <line x1="90.0" y1="250.0" x2="181.1" y2="237.2" stroke="#8a8a8a" stroke-width="2.8"/>
+  <circle cx="90.0" cy="250.0" r="4.0" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="0.3" stroke-width="1"/>
+  <line x1="181.1" y1="237.2" x2="227.4" y2="292.4" stroke="#8a8a8a" stroke-width="2.8"/>
+  <circle cx="181.1" cy="237.2" r="4.0" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="0.3" stroke-width="1"/>
+  <circle cx="173.8" cy="128.4" r="5.0" stroke="#e0645c" fill="#e0645c" fill-opacity="1" stroke-width="1"/>
+  <circle cx="227.4" cy="292.4" r="5.0" stroke="#e0645c" fill="#e0645c" fill-opacity="1" stroke-width="1"/>
+  <line x1="173.8" y1="128.4" x2="227.4" y2="292.4" stroke="#e0645c" stroke-width="2.4" stroke-dasharray="6 4"/>
+  <text x="196.6" y="200.4" fill="#e0645c" font-size="10" text-anchor="middle">Cartesian</text>
+  <path d="M 173.84 128.45 L 175.35 129.55 L 176.85 130.67 L 178.33 131.81 L 179.80 132.97 L 181.25 134.14 L 182.68 135.34 L 184.11 136.55 L 185.51 137.78 L 186.90 139.02 L 188.27 140.29 L 189.63 141.57 L 190.97 142.86 L 192.29 144.18 L 193.59 145.51 L 194.88 146.85 L 196.15 148.22 L 197.40 149.59 L 198.64 150.99 L 199.86 152.40 L 201.05 153.82 L 202.23 155.26 L 203.40 156.71 L 204.54 158.18 L 205.66 159.66 L 206.77 161.15 L 207.85 162.66 L 208.92 164.18 L 209.96 165.72 L 210.99 167.26 L 211.99 168.82 L 212.98 170.39 L 213.95 171.98 L 214.89 173.57 L 215.82 175.18 L 216.72 176.80 L 217.60 178.43 L 218.46 180.07 L 219.31 181.72 L 220.13 183.38 L 220.92 185.05 L 221.70 186.73 L 222.46 188.42 L 223.19 190.11 L 223.90 191.82 L 224.59 193.53 L 225.26 195.26 L 225.91 196.99 L 226.53 198.73 L 227.13 200.47 L 227.71 202.23 L 228.27 203.99 L 228.80 205.75 L 229.31 207.52 L 229.80 209.30 L 230.27 211.08 L 230.71 212.87 L 231.13 214.67 L 231.53 216.47 L 231.91 218.27 L 232.26 220.08 L 232.59 221.89 L 232.89 223.70 L 233.17 225.52 L 233.43 227.34 L 233.67 229.16 L 233.88 230.99 L 234.07 232.82 L 234.24 234.65 L 234.38 236.48 L 234.50 238.31 L 234.60 240.14 L 234.67 241.97 L 234.72 243.81 L 234.75 245.64 L 234.75 247.48 L 234.73 249.31 L 234.69 251.14 L 234.63 252.97 L 234.54 254.80 L 234.42 256.63 L 234.29 258.45 L 234.13 260.28 L 233.95 262.10 L 233.74 263.91 L 233.52 265.73 L 233.26 267.54 L 232.99 269.34 L 232.69 271.15 L 232.38 272.95 L 232.03 274.74 L 231.67 276.53 L 231.28 278.31 L 230.87 280.09 L 230.44 281.86 L 229.99 283.62 L 229.51 285.38 L 229.01 287.14 L 228.49 288.88 L 227.95 290.62 L 227.39 292.35" stroke="#4a90d9" fill="none" fill-opacity="1" stroke-width="2.4"/>
+  <text x="231.7" y="222.2" fill="#4a90d9" font-size="10" text-anchor="middle">joint-space</text>
+  <line x1="227.7" y1="202.2" x2="200.6" y2="210.4" stroke="#8a8a8a" stroke-width="1.2" stroke-dasharray="2 3"/>
+  <text x="222.2" y="210.3" fill="#8a8a8a" font-size="9" text-anchor="start">deviation</text>
+  <text x="70.0" y="306.0" fill="#8a8a8a" font-size="10" text-anchor="start">the bulge depends entirely on the arm&#8217;s geometry</text>
+  <line x1="400.0" y1="300.0" x2="400.0" y2="150.0" stroke="#8a8a8a" stroke-width="1.4" stroke-dasharray="5 4"/>
+  <line x1="400.0" y1="150.0" x2="580.0" y2="150.0" stroke="#8a8a8a" stroke-width="1.4" stroke-dasharray="5 4"/>
+  <circle cx="400.0" cy="300.0" r="5.0" stroke="#8a8a8a" fill="none" fill-opacity="1" stroke-width="1.6"/>
+  <circle cx="400.0" cy="150.0" r="5.0" stroke="#8a8a8a" fill="none" fill-opacity="1" stroke-width="1.6"/>
+  <circle cx="580.0" cy="150.0" r="5.0" stroke="#8a8a8a" fill="none" fill-opacity="1" stroke-width="1.6"/>
+  <text x="390.0" y="142.0" fill="#8a8a8a" font-size="10" text-anchor="end">via point</text>
+  <path d="M 400 204 Q 400 150 454 150" stroke="#e0645c" fill="none" fill-opacity="1" stroke-width="3"/>
+  <line x1="400.0" y1="300.0" x2="400.0" y2="204.0" stroke="#e0645c" stroke-width="3"/>
+  <line x1="454.0" y1="150.0" x2="580.0" y2="150.0" stroke="#e0645c" stroke-width="3"/>
+  <line x1="400.0" y1="150.0" x2="416.2" y2="166.2" stroke="#8a8a8a" stroke-width="1.2" stroke-dasharray="2 3"/>
+  <text x="434.0" y="180.0" fill="#8a8a8a" font-size="10" text-anchor="start">d</text>
+  <rect x="396.0" y="146.0" width="62.0" height="62.0" stroke="#8a8a8a" fill="none" fill-opacity="0" stroke-width="0.9" rx="3"/>
+  <text x="468.0" y="218.0" fill="#e0645c" font-size="10" text-anchor="start">blend region, t<tspan font-size="0.72em" dy="3">b</tspan><tspan dy="-3"> </tspan></text>
+  <text x="390.0" y="352.0" fill="#e0645c" font-size="11" text-anchor="start">d = |&#916;v| t<tspan font-size="0.72em" dy="3">b</tspan><tspan dy="-3"> / 8   and   a = |&#916;v| / t</tspan><tspan font-size="0.72em" dy="3">b</tspan><tspan dy="-3"> </tspan></text>
+  <text x="390.0" y="374.0" fill="#8a8a8a" font-size="10" text-anchor="start">halve t<tspan font-size="0.72em" dy="3">b</tspan><tspan dy="-3">: halve the miss, double the acceleration</tspan></text>
+  <text x="30.0" y="60.0" fill="#8a8a8a" font-size="11" text-anchor="start">Position interpolates linearly, orientation by slerp, both driven by the same timing profile s(t).</text>
+</svg>

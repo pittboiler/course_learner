@@ -1,0 +1,67 @@
+<svg viewBox="0 0 720 384" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+
+  <text x="360" y="22" fill="#8a8a8a" font-style="italic" text-anchor="middle">The j&#969; axis becomes the unit circle, and the ROC strip becomes an annulus. Same story, new geometry.</text>
+
+  <text x="175" y="50" fill="#8a8a8a" text-anchor="middle" font-size="14">z-plane &#8212; poles at z = 0.5 and z = 2</text>
+  <text x="520" y="50" fill="#8a8a8a" text-anchor="middle" font-size="14">s-plane &#8212; poles at s = &#8722;1 and s = 2</text>
+  <text x="175" y="74" fill="#e0645c" text-anchor="middle" font-size="14">ROC: 0.5 &lt; |z| &lt; 2</text>
+  <text x="520" y="74" fill="#e0645c" text-anchor="middle" font-size="14">ROC: &#8722;1 &lt; Re{s} &lt; 2</text>
+
+  <!-- ============ left panel: the z plane ============ -->
+
+  <!-- ROC annulus, shaded with an evenodd donut path -->
+  <path d="M 175 200 m -100 0 a 100 100 0 1 0 200 0 a 100 100 0 1 0 -200 0 M 175 200 m -25 0 a 25 25 0 1 0 50 0 a 25 25 0 1 0 -50 0"
+        fill="#e0645c" opacity="0.16" fill-rule="evenodd"/>
+  <circle cx="175" cy="200" r="100" fill="none" stroke="#e0645c" stroke-width="2" stroke-dasharray="5 4"/>
+  <circle cx="175" cy="200" r="25" fill="none" stroke="#e0645c" stroke-width="2" stroke-dasharray="5 4"/>
+
+  <!-- axes -->
+  <line x1="60" y1="200" x2="308" y2="200" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="308,200 298,195 298,205" fill="#8a8a8a"/>
+  <text x="292" y="192" fill="#8a8a8a">Re{z}</text>
+  <line x1="175" y1="314" x2="175" y2="90" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="175,90 170,100 180,100" fill="#8a8a8a"/>
+  <text x="182" y="100" fill="#8a8a8a">Im{z}</text>
+
+  <!-- the unit circle: counterpart of the jw axis -->
+  <circle cx="175" cy="200" r="50" fill="none" stroke="#8a8a8a" stroke-width="3"/>
+  <text x="181" y="143" fill="#8a8a8a" font-size="12">|z| = 1</text>
+  <line x1="225" y1="195" x2="225" y2="205" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- poles -->
+  <line x1="194" y1="194" x2="206" y2="206" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="194" y1="206" x2="206" y2="194" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="269" y1="194" x2="281" y2="206" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="269" y1="206" x2="281" y2="194" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="198" y="224" fill="#4a90d9" font-size="12">0.5</text>
+  <text x="277" y="224" fill="#4a90d9" font-size="12">2</text>
+
+  <text x="175" y="340" fill="#8a8a8a" text-anchor="middle" font-size="12">two-sided &#8594; not causal</text>
+  <text x="175" y="358" fill="#8a8a8a" text-anchor="middle" font-size="12">STABLE (annulus contains |z| = 1)</text>
+
+  <!-- ============ right panel: the s plane ============ -->
+
+  <rect x="490" y="105" width="90" height="190" fill="#e0645c" opacity="0.16"/>
+  <line x1="490" y1="105" x2="490" y2="295" stroke="#e0645c" stroke-width="2" stroke-dasharray="5 4"/>
+  <line x1="580" y1="105" x2="580" y2="295" stroke="#e0645c" stroke-width="2" stroke-dasharray="5 4"/>
+
+  <!-- axes -->
+  <line x1="405" y1="200" x2="668" y2="200" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="668,200 658,195 658,205" fill="#8a8a8a"/>
+  <text x="655" y="192" fill="#8a8a8a">&#963;</text>
+  <line x1="520" y1="314" x2="520" y2="90" stroke="#8a8a8a" stroke-width="3"/>
+  <polygon points="520,90 515,100 525,100" fill="#8a8a8a"/>
+  <text x="528" y="104" fill="#8a8a8a">j&#969;</text>
+
+  <!-- poles -->
+  <line x1="484" y1="194" x2="496" y2="206" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="484" y1="206" x2="496" y2="194" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="574" y1="194" x2="586" y2="206" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="574" y1="206" x2="586" y2="194" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="479" y="224" fill="#4a90d9" font-size="12">&#8722;1</text>
+  <text x="583" y="224" fill="#4a90d9" font-size="12">2</text>
+
+  <text x="520" y="340" fill="#8a8a8a" text-anchor="middle" font-size="12">two-sided &#8594; not causal</text>
+  <text x="520" y="358" fill="#8a8a8a" text-anchor="middle" font-size="12">STABLE (strip contains the j&#969; axis)</text>
+
+</svg>

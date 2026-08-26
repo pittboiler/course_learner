@@ -1,0 +1,47 @@
+<svg viewBox="0 0 640 250" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Master&#8211;slave: two D latches on opposite enable polarities, so no path is ever transparent end to end.</text>
+
+  <text x="200" y="50" fill="#8a8a8a" font-size="11" text-anchor="middle">transparent while CLK = 0</text>
+  <text x="420" y="50" fill="#8a8a8a" font-size="11" text-anchor="middle">transparent while CLK = 1</text>
+
+  <!-- master latch -->
+  <rect x="140" y="62" width="120" height="78" fill="#4a90d9" opacity="0.12" stroke="#4a90d9" stroke-width="2"/>
+  <text x="200" y="94" fill="#4a90d9" text-anchor="middle">D latch</text>
+  <text x="200" y="116" fill="#8a8a8a" font-size="11" text-anchor="middle">MASTER</text>
+
+  <!-- slave latch -->
+  <rect x="360" y="62" width="120" height="78" fill="#4a90d9" opacity="0.12" stroke="#4a90d9" stroke-width="2"/>
+  <text x="420" y="94" fill="#4a90d9" text-anchor="middle">D latch</text>
+  <text x="420" y="116" fill="#8a8a8a" font-size="11" text-anchor="middle">SLAVE</text>
+
+  <!-- data path -->
+  <line x1="70" y1="88" x2="140" y2="88" stroke="#4a90d9" stroke-width="2"/>
+  <text x="58" y="92" fill="#4a90d9" text-anchor="end">D</text>
+  <line x1="260" y1="88" x2="360" y2="88" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="480" y1="88" x2="570" y2="88" stroke="#4a90d9" stroke-width="2"/>
+  <text x="580" y="92" fill="#4a90d9">Q</text>
+
+  <!-- internal node label -->
+  <circle cx="310" cy="88" r="3.5" fill="#e0645c"/>
+  <text x="310" y="76" fill="#e0645c" font-size="11" text-anchor="middle">Q<tspan font-size="9" dy="2">m</tspan></text>
+  <text x="310" y="146" fill="#e0645c" font-size="11" text-anchor="middle">frozen at the rising edge</text>
+
+  <!-- clock bus -->
+  <line x1="70" y1="212" x2="500" y2="212" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="58" y="216" fill="#8a8a8a" text-anchor="end">CLK</text>
+
+  <!-- inverter into master enable -->
+  <line x1="200" y1="212" x2="200" y2="186" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="188,186 212,186 200,166" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <circle cx="200" cy="161" r="4.5" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="200" y1="156" x2="200" y2="140" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="214" y="176" fill="#8a8a8a" font-size="11">EN</text>
+
+  <!-- slave enable -->
+  <line x1="420" y1="212" x2="420" y2="140" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="430" y="176" fill="#8a8a8a" font-size="11">EN</text>
+
+  <!-- junction dots -->
+  <circle cx="200" cy="212" r="3.5" fill="#8a8a8a"/>
+  <circle cx="420" cy="212" r="3.5" fill="#8a8a8a"/>
+</svg>

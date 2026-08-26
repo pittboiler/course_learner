@@ -1,0 +1,73 @@
+<svg viewBox="0 0 660 425" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="30" y="20" fill="#8a8a8a" font-style="italic">Sampling photocopies the spectrum: one scaled copy of X(j&#969;) centred at every multiple of &#969;s.</text>
+
+  <!-- ================= PANEL A: no overlap ================= -->
+  <text x="30" y="48" fill="#8a8a8a">A. &#969;s &gt; 2&#969;M &#8212; each copy keeps its own lane, so the filter snips out the original exactly</text>
+
+  <!-- replicas (k = -1 and k = +1) -->
+  <polygon points="80,190 140,120 200,190" fill="#8a8a8a" fill-opacity="0.16" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="480,190 540,120 600,190" fill="#8a8a8a" fill-opacity="0.16" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="122" y="112" fill="#8a8a8a" font-size="11">k = &#8722;1</text>
+  <text x="524" y="112" fill="#8a8a8a" font-size="11">k = +1</text>
+
+  <!-- baseband copy (k = 0) -->
+  <polygon points="280,190 340,120 400,190" fill="#4a90d9" fill-opacity="0.20" stroke="#4a90d9" stroke-width="3"/>
+  <text x="300" y="112" fill="#4a90d9" font-size="11">k = 0: (1/T)&#160;X(j&#969;)</text>
+
+  <!-- reconstruction filter passband -->
+  <rect x="245" y="100" width="190" height="90" fill="none" stroke="#e0645c" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="200" y="94" fill="#e0645c" font-size="11">reconstruction low-pass filter (gain T)</text>
+
+  <!-- frequency axis -->
+  <line x1="30" y1="190" x2="645" y2="190" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="645,190 635,185 635,195" fill="#8a8a8a"/>
+  <text x="632" y="212" fill="#8a8a8a">&#969;</text>
+
+  <!-- ticks -->
+  <line x1="340" y1="187" x2="340" y2="196" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="400" y1="187" x2="400" y2="196" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="480" y1="187" x2="480" y2="196" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="540" y1="187" x2="540" y2="196" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="280" y1="187" x2="280" y2="196" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="140" y1="187" x2="140" y2="196" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <text x="336" y="212" fill="#8a8a8a">0</text>
+  <text x="388" y="212" fill="#8a8a8a">&#969;<tspan font-size="9" dy="3">M</tspan></text>
+  <text x="452" y="228" fill="#8a8a8a">&#969;<tspan font-size="9" dy="3">s</tspan><tspan font-size="13" dy="-3">&#8722;&#969;</tspan><tspan font-size="9" dy="3">M</tspan></text>
+  <text x="532" y="212" fill="#8a8a8a">&#969;<tspan font-size="9" dy="3">s</tspan></text>
+  <text x="264" y="212" fill="#8a8a8a">&#8722;&#969;<tspan font-size="9" dy="3">M</tspan></text>
+  <text x="126" y="212" fill="#8a8a8a">&#8722;&#969;<tspan font-size="9" dy="3">s</tspan></text>
+
+  <!-- the clear gap -->
+  <line x1="400" y1="176" x2="480" y2="176" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="400,176 409,172 409,180" fill="#e0645c"/>
+  <polygon points="480,176 471,172 471,180" fill="#e0645c"/>
+  <text x="404" y="162" fill="#e0645c" font-size="11">gap</text>
+  <line x1="480" y1="190" x2="480" y2="222" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- ================= PANEL B: critical rate ================= -->
+  <text x="30" y="264" fill="#8a8a8a">B. &#969;s = 2&#969;M &#8212; the copies just touch: the Nyquist rate, the edge of the cliff</text>
+
+  <polygon points="40,380 100,320 160,380" fill="#8a8a8a" fill-opacity="0.16" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="160,380 220,320 280,380" fill="#8a8a8a" fill-opacity="0.16" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="400,380 460,320 520,380" fill="#8a8a8a" fill-opacity="0.16" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="520,380 580,320 640,380" fill="#8a8a8a" fill-opacity="0.16" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="280,380 340,320 400,380" fill="#4a90d9" fill-opacity="0.20" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- touch points -->
+  <circle cx="280" cy="380" r="4" fill="#e0645c"/>
+  <circle cx="400" cy="380" r="4" fill="#e0645c"/>
+  <line x1="452" y1="310" x2="404" y2="374" stroke="#e0645c" stroke-width="1"/>
+  <text x="440" y="302" fill="#e0645c" font-size="11">copies meet here</text>
+
+  <line x1="30" y1="380" x2="645" y2="380" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="645,380 635,375 635,385" fill="#8a8a8a"/>
+  <text x="632" y="402" fill="#8a8a8a">&#969;</text>
+
+  <line x1="340" y1="377" x2="340" y2="386" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="400" y1="377" x2="400" y2="386" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="460" y1="377" x2="460" y2="386" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="336" y="402" fill="#8a8a8a">0</text>
+  <text x="372" y="418" fill="#8a8a8a">&#969;<tspan font-size="9" dy="3">M</tspan><tspan font-size="13" dy="-3"> = &#969;</tspan><tspan font-size="9" dy="3">s</tspan><tspan font-size="13" dy="-3">/2</tspan></text>
+  <text x="452" y="402" fill="#8a8a8a">&#969;<tspan font-size="9" dy="3">s</tspan></text>
+</svg>

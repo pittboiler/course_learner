@@ -1,0 +1,47 @@
+<svg viewBox="0 0 620 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic" font-size="13">Modes move along eigenvectors: trajectories slide along (1, &#8722;2) and stop on the &#955; = 0 line.</text>
+
+  <!-- axes -->
+  <line x1="70" y1="200" x2="558" y2="200" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="558,200 548,195 548,205" fill="#8a8a8a"/>
+  <line x1="300" y1="330" x2="300" y2="58" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="300,58 295,68 305,68" fill="#8a8a8a"/>
+  <text x="562" y="219" fill="#8a8a8a">x<tspan font-size="10" dy="4">1</tspan></text>
+  <text x="310" y="68" fill="#8a8a8a">x<tspan font-size="10" dy="4">2</tspan></text>
+  <text x="286" y="219" fill="#8a8a8a">0</text>
+
+  <!-- eigenvector line for lambda = 0: the whole x1 axis is equilibria -->
+  <line x1="110" y1="200" x2="500" y2="200" stroke="#e0645c" stroke-width="3.5" opacity="0.85"/>
+  <text x="446" y="192" fill="#e0645c" font-size="13">&#955; = 0</text>
+
+  <!-- eigenvector line for lambda = -2 -->
+  <line x1="240" y1="80" x2="360" y2="320" stroke="#e0645c" stroke-width="2" stroke-dasharray="6 5"/>
+  <text x="366" y="318" fill="#e0645c" font-size="13">&#955; = &#8722;2</text>
+
+  <!-- trajectory A: x(0) = (-3.5, 3) -->
+  <line x1="146" y1="68" x2="212" y2="200" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="182,141 172.1,132.5 181.1,128.1" fill="#4a90d9"/>
+  <circle cx="146" cy="68" r="4" fill="#4a90d9"/>
+  <circle cx="212" cy="200" r="4.5" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <text x="120" y="58" fill="#4a90d9" font-size="13">x(0)</text>
+
+  <!-- trajectory B: x(0) = (5, -2.5) -->
+  <line x1="520" y1="310" x2="465" y2="200" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="489.8,249.5 499.7,258 490.7,262.4" fill="#4a90d9"/>
+  <circle cx="520" cy="310" r="4" fill="#4a90d9"/>
+  <circle cx="465" cy="200" r="4.5" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <text x="494" y="328" fill="#4a90d9" font-size="13">x(0)</text>
+
+  <!-- trajectory C: x(0) = (-1, -2.6) -->
+  <line x1="256" y1="314" x2="199" y2="200" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="224.7,251.3 234.6,259.8 225.6,264.2" fill="#4a90d9"/>
+  <circle cx="256" cy="314" r="4" fill="#4a90d9"/>
+  <circle cx="199" cy="200" r="4.5" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <text x="230" y="330" fill="#4a90d9" font-size="13">x(0)</text>
+
+  <!-- legend -->
+  <line x1="70" y1="349" x2="100" y2="349" stroke="#e0645c" stroke-width="2" stroke-dasharray="6 5"/>
+  <text x="108" y="354" fill="#8a8a8a" font-size="13">v = (1, &#8722;2), &#955; = &#8722;2 &#8212; the only direction anything moves</text>
+  <line x1="70" y1="371" x2="100" y2="371" stroke="#e0645c" stroke-width="3.5" opacity="0.85"/>
+  <text x="108" y="376" fill="#8a8a8a" font-size="13">v = (1, 0), &#955; = 0 &#8212; a line of equilibria; nothing decays</text>
+</svg>

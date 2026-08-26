@@ -1,10 +1,10 @@
 # Aerodynamics — Syllabus
 
-> Engineering · Tier 2 · ~22 lessons · Prereqs: [fluid-dynamics](../fluid-dynamics/syllabus.md) · Roadmap id: `aerodynamics`
+> Engineering · Tier 2 · ~19 lessons · Prereqs: [fluid-dynamics](../fluid-dynamics/syllabus.md) · Roadmap id: `aerodynamics`
 
 ## Goal
 
-Learn to predict the forces air exerts on a body and, more usefully, to explain *why*: where lift actually comes from (circulation, not "longer path on top"), why a finite wing pays a drag penalty just for making lift, why a smooth wing suddenly stalls, and what changes when the flow gets fast enough to compress and form shocks. You build the toolkit in order — potential flow to get lift cleanly, then thin-airfoil and lifting-line theory for real wings, then boundary layers for the viscous truth, then compressible gas dynamics for the high-speed regime. Deliberately skipped: CFD algorithm internals (we reason with the equations, not discretize them) and hypersonic real-gas effects (we stop at supersonic linear theory).
+Learn to predict the forces air exerts on a body and, more usefully, to explain *why*: where lift actually comes from (circulation, not "longer path on top"), why a finite wing pays a drag penalty just for making lift, why a smooth wing suddenly stalls, and what changes when the flow gets fast enough to compress and form shocks. You build the toolkit in order — potential flow to get lift cleanly, then thin-airfoil and lifting-line theory for real wings, then boundary layers for the viscous truth, then compressible gas dynamics for the high-speed regime. **Deferred, not repeated:** the potential-flow machinery — velocity potential and Laplace's equation, the elementary-flow kit, flow past a cylinder, circulation and Kutta–Joukowski — is built in [`fluid-dynamics` 2.4–2.6](../fluid-dynamics/lessons/02-04-irrotational-flow-velocity-potential.md), and the Blasius boundary layer and separation in [3.4–3.5](../fluid-dynamics/lessons/03-04-boundary-layers.md). Those results are *reloaded* here, not re-derived. Deliberately skipped: CFD algorithm internals (we reason with the equations, not discretize them) and hypersonic real-gas effects (we stop at supersonic linear theory).
 
 ## Dangerous Checklist
 
@@ -31,10 +31,8 @@ Set the vocabulary of forces and coefficients, then build the idealized inviscid
 | # | Lesson | Goal (one line) | Key concepts |
 |---|---|---|---|
 | 1.1 | Forces, moments & coefficients | Nondimensionalize any air load and know what it scales with | lift/drag/moment, dynamic pressure $q_\infty$, $C_L,C_D,C_M$, Reynolds & Mach dependence |
-| 1.2 | Potential-flow foundations | Reduce the governing equations to Laplace and exploit superposition | irrotationality, velocity potential $\phi$, stream function $\psi$, $\nabla^2\phi=0$, linearity |
-| 1.3 | Elementary flows | Assemble flows from a small kit of singularities | uniform stream, source/sink, doublet, superposition |
-| 1.4 | Flow over a cylinder & pressure coefficient | Get the surface pressure on a body and confront a paradox | non-lifting cylinder, $C_p=1-(V/V_\infty)^2$, d'Alembert's paradox |
-| 1.5 | Vortex, circulation & Kutta–Joukowski | Add a vortex to make lift, and prove where lift comes from | circulation $\Gamma$, lifting cylinder, $L'=\rho_\infty V_\infty \Gamma$, Magnus effect |
+| 1.2 | Potential flow recalled, and the elementary-flow kit | Reload Laplace and the singularity kit, then read them as an aerodynamicist | irrotationality, $\phi$ and $\psi$, $\nabla^2\phi=0$, superposition, uniform stream / source / doublet / vortex *(cites [`fluid-dynamics` 2.4](../fluid-dynamics/lessons/02-04-irrotational-flow-velocity-potential.md) and [2.5](../fluid-dynamics/lessons/02-05-complex-potential.md) — a reload, not a derivation)* |
+| 1.3 | The cylinder, pressure coefficient & Kutta–Joukowski | Get surface pressure as $C_p$, then see where lift comes from | $C_p=1-(V/V_\infty)^2$, non-lifting and lifting cylinder, d'Alembert's paradox, circulation $\Gamma$, $L'=\rho_\infty V_\infty\Gamma$, Magnus *(the cylinder flow itself is [`fluid-dynamics` 2.6](../fluid-dynamics/lessons/02-06-flow-past-cylinder-lift.md))* |
 
 **Boss problem 1:** A uniform stream $V_\infty$ past a cylinder of radius $R$ carries circulation $\Gamma$. Locate the stagnation points as a function of $\Gamma$, find the value of $\Gamma$ at which the two stagnation points merge on the surface, and compute the lift per span at that condition. Then integrate the surface pressure to confirm the Kutta–Joukowski result and explain why the drag integrates to zero.
 
@@ -59,10 +57,9 @@ Reintroduce viscosity where it lives — a thin layer on the surface. This layer
 
 | # | Lesson | Goal (one line) | Key concepts |
 |---|---|---|---|
-| 3.1 | The boundary-layer concept & laminar skin friction | Estimate layer thickness and laminar friction from Blasius | boundary-layer approximation, $\delta \sim x/\sqrt{Re_x}$, Blasius solution, $c_f$ |
-| 3.2 | Integral thicknesses & momentum-integral method | Get drag from a control-volume balance without solving the PDE | displacement thickness $\delta^*$, momentum thickness $\theta$, von Kármán momentum integral |
-| 3.3 | Transition & turbulent boundary layers | Predict where flow trips and how turbulent friction differs | transition Reynolds number, turbulent profile, turbulent $c_f$, roughness |
-| 3.4 | Adverse gradients, separation, stall & the drag polar | Predict separation and assemble total drag | adverse pressure gradient, separation, stall, form/pressure drag, drag polar $C_D=C_{D,0}+C_L^2/(\pi e\,AR)$ |
+| 3.1 | Boundary layers recalled, and the momentum integral | Reload Blasius, then get drag from a control-volume balance | boundary-layer approximation, $\delta\sim x/\sqrt{Re_x}$, Blasius $c_f$ *(cites [`fluid-dynamics` 3.4](../fluid-dynamics/lessons/03-04-boundary-layers.md))*; displacement thickness $\delta^*$, momentum thickness $\theta$, von Kármán momentum integral |
+| 3.2 | Transition & turbulent boundary layers | Predict where flow trips and how turbulent friction differs | transition Reynolds number, turbulent profile, turbulent $c_f$, roughness |
+| 3.3 | Adverse gradients, separation, stall & the drag polar | Predict separation and assemble total drag | adverse pressure gradient, separation *(reloaded from [`fluid-dynamics` 3.5](../fluid-dynamics/lessons/03-05-separation-drag.md))*, airfoil stall, form/pressure drag, drag polar $C_D=C_{D,0}+C_L^2/(\pi e\,AR)$ |
 
 **Boss problem 3:** A flat-plate wing section of chord $c=1.5\text{ m}$ flies at $V_\infty=60\text{ m/s}$ in sea-level air. (a) Compute the chord Reynolds number and locate the laminar-to-turbulent transition point assuming $Re_{x,\text{tr}}=5\times10^5$. (b) Estimate the average skin-friction drag coefficient treating the plate as laminar up to transition and turbulent after. (c) The airfoil is then flown at high $\alpha$ and the upper-surface flow separates at 40% chord — explain qualitatively how $C_L$ and $C_D$ change, and which term of the drag polar now dominates.
 

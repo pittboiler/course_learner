@@ -1,0 +1,69 @@
+<svg viewBox="0 0 660 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <line x1="46.0" y1="200.0" x2="250.0" y2="200.0" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="50.0" y1="200.0" x2="44.0" y2="208.0" stroke="#8a8a8a" stroke-width="0.9"/>
+  <line x1="72.0" y1="200.0" x2="66.0" y2="208.0" stroke="#8a8a8a" stroke-width="0.9"/>
+  <line x1="94.0" y1="200.0" x2="88.0" y2="208.0" stroke="#8a8a8a" stroke-width="0.9"/>
+  <line x1="116.0" y1="200.0" x2="110.0" y2="208.0" stroke="#8a8a8a" stroke-width="0.9"/>
+  <line x1="138.0" y1="200.0" x2="132.0" y2="208.0" stroke="#8a8a8a" stroke-width="0.9"/>
+  <line x1="160.0" y1="200.0" x2="154.0" y2="208.0" stroke="#8a8a8a" stroke-width="0.9"/>
+  <line x1="182.0" y1="200.0" x2="176.0" y2="208.0" stroke="#8a8a8a" stroke-width="0.9"/>
+  <line x1="204.0" y1="200.0" x2="198.0" y2="208.0" stroke="#8a8a8a" stroke-width="0.9"/>
+  <line x1="226.0" y1="200.0" x2="220.0" y2="208.0" stroke="#8a8a8a" stroke-width="0.9"/>
+  <path d="M 60.00 200.00 L 63.14 197.83 L 66.28 195.67 L 69.42 193.50 L 72.54 191.33 L 75.66 189.17 L 78.77 187.00 L 81.87 184.83 L 84.95 182.67 L 88.01 180.50 L 91.06 178.33 L 94.08 176.17 L 97.08 174.00 L 100.06 171.83 L 103.00 169.67 L 105.92 167.50 L 108.81 165.33 L 111.66 163.17 L 114.48 161.00 L 117.26 158.83 L 120.00 156.67 L 122.70 154.50 L 125.36 152.33 L 127.97 150.17 L 130.53 148.00 L 133.05 145.83 L 135.52 143.67 L 137.93 141.50 L 140.30 139.33 L 142.60 137.17 L 144.85 135.00 L 147.04 132.83 L 149.18 130.67 L 151.25 128.50 L 153.26 126.33 L 155.20 124.17 L 157.08 122.00 L 158.90 119.83 L 160.64 117.67 L 162.32 115.50 L 163.92 113.33 L 165.46 111.17 L 166.92 109.00 L 168.31 106.83 L 169.63 104.67 L 170.87 102.50 L 172.03 100.33 L 173.12 98.17 L 174.13 96.00 L 175.06 93.83 L 175.91 91.67 L 176.68 89.50 L 177.38 87.33 L 177.99 85.17 L 178.52 83.00 L 178.97 80.83 L 179.34 78.67 L 179.63 76.50 L 179.84 74.33 L 179.96 72.17 L 180.00 70.00" stroke="#4a90d9" fill="none" fill-opacity="1" stroke-width="2.2"/>
+  <line x1="180.0" y1="70.0" x2="180.0" y2="54.0" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="60.0" y1="200.0" x2="60.0" y2="54.0" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="180.0" y1="70.0" x2="240.0" y2="70.0" stroke="#8a8a8a" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <line x1="210.0" y1="68.0" x2="210.0" y2="200.0" stroke="#8a8a8a" stroke-width="0"/>
+  <polygon points="210.0,200.0 207.3,193.6 212.7,193.6" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="1" stroke-width="0.5"/>
+  <text x="186.0" y="64.0" fill="#8a8a8a" font-size="11" text-anchor="start">U (free stream)</text>
+  <line x1="54.0" y1="70.0" x2="180.0" y2="70.0" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="50.0" y="74.0" fill="#8a8a8a" font-size="12" text-anchor="end">&#948;</text>
+  <path d="M 60.0 200.0 L 63.1 197.8 L 66.3 195.7 L 69.4 193.5 L 72.5 191.3 L 75.7 189.2 L 78.8 187.0 L 81.9 184.8 L 84.9 182.7 L 88.0 180.5 L 91.1 178.3 L 94.1 176.2 L 97.1 174.0 L 100.1 171.8 L 103.0 169.7 L 105.9 167.5 L 108.8 165.3 L 111.7 163.2 L 114.5 161.0 L 117.3 158.8 L 120.0 156.7 L 122.7 154.5 L 125.4 152.3 L 128.0 150.2 L 130.5 148.0 L 133.1 145.8 L 135.5 143.7 L 137.9 141.5 L 140.3 139.3 L 142.6 137.2 L 144.9 135.0 L 147.0 132.8 L 149.2 130.7 L 151.2 128.5 L 153.3 126.3 L 155.2 124.2 L 157.1 122.0 L 158.9 119.8 L 160.6 117.7 L 162.3 115.5 L 163.9 113.3 L 165.5 111.2 L 166.9 109.0 L 168.3 106.8 L 169.6 104.7 L 170.9 102.5 L 172.0 100.3 L 173.1 98.2 L 174.1 96.0 L 175.1 93.8 L 175.9 91.7 L 176.7 89.5 L 177.4 87.3 L 178.0 85.2 L 178.5 83.0 L 179.0 80.8 L 179.3 78.7 L 179.6 76.5 L 179.8 74.3 L 180.0 72.2 L 180.0 70.0 L 180.0 200.0 Z" stroke="none" fill="#e0645c" fill-opacity="0.16" stroke-width="0"/>
+  <text x="90.0" y="106.4" fill="#e0645c" font-size="10" text-anchor="start">&#948;* : missing mass flow</text>
+  <text x="90.0" y="121.4" fill="#e0645c" font-size="10" text-anchor="start">as a length</text>
+  <path d="M 60.00 200.00 L 64.89 197.83 L 69.52 195.67 L 73.88 193.50 L 77.97 191.33 L 81.79 189.17 L 85.34 187.00 L 88.61 184.83 L 91.62 182.67 L 94.36 180.50 L 96.83 178.33 L 99.04 176.17 L 101.00 174.00 L 102.70 171.83 L 104.15 169.67 L 105.36 167.50 L 106.33 165.33 L 107.07 163.17 L 107.59 161.00 L 107.90 158.83 L 108.00 156.67 L 107.90 154.50 L 107.62 152.33 L 107.15 150.17 L 106.52 148.00 L 105.73 145.83 L 104.79 143.67 L 103.71 141.50 L 102.51 139.33 L 101.19 137.17 L 99.76 135.00 L 98.25 132.83 L 96.65 130.67 L 94.98 128.50 L 93.25 126.33 L 91.48 124.17 L 89.67 122.00 L 87.83 119.83 L 85.98 117.67 L 84.12 115.50 L 82.28 113.33 L 80.45 111.17 L 78.65 109.00 L 76.88 106.83 L 75.16 104.67 L 73.50 102.50 L 71.91 100.33 L 70.38 98.17 L 68.94 96.00 L 67.58 93.83 L 66.32 91.67 L 65.16 89.50 L 64.10 87.33 L 63.16 85.17 L 62.33 83.00 L 61.63 80.83 L 61.05 78.67 L 60.59 76.50 L 60.26 74.33 L 60.07 72.17 L 60.00 70.00" stroke="#8a8a8a" fill="none" fill-opacity="1" stroke-width="1.6"/>
+  <text x="64.0" y="161.0" fill="#8a8a8a" font-size="10" text-anchor="start">&#952; : missing momentum = drag</text>
+  <text x="20.0" y="300.0" fill="#8a8a8a" font-size="11" text-anchor="start">&#948;* thickens the body the outer flow sees; &#952; is the drag itself.</text>
+  <line x1="390.0" y1="200.0" x2="600.0" y2="200.0" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="390.0" y1="200.0" x2="384.0" y2="208.0" stroke="#8a8a8a" stroke-width="0.9"/>
+  <line x1="412.0" y1="200.0" x2="406.0" y2="208.0" stroke="#8a8a8a" stroke-width="0.9"/>
+  <line x1="434.0" y1="200.0" x2="428.0" y2="208.0" stroke="#8a8a8a" stroke-width="0.9"/>
+  <line x1="456.0" y1="200.0" x2="450.0" y2="208.0" stroke="#8a8a8a" stroke-width="0.9"/>
+  <line x1="478.0" y1="200.0" x2="472.0" y2="208.0" stroke="#8a8a8a" stroke-width="0.9"/>
+  <line x1="500.0" y1="200.0" x2="494.0" y2="208.0" stroke="#8a8a8a" stroke-width="0.9"/>
+  <line x1="522.0" y1="200.0" x2="516.0" y2="208.0" stroke="#8a8a8a" stroke-width="0.9"/>
+  <line x1="544.0" y1="200.0" x2="538.0" y2="208.0" stroke="#8a8a8a" stroke-width="0.9"/>
+  <line x1="566.0" y1="200.0" x2="560.0" y2="208.0" stroke="#8a8a8a" stroke-width="0.9"/>
+  <line x1="588.0" y1="200.0" x2="582.0" y2="208.0" stroke="#8a8a8a" stroke-width="0.9"/>
+  <path d="M 390 200 L 390 80 L 600 80 L 600 200" stroke="#8a8a8a" fill="none" fill-opacity="1" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <line x1="350.0" y1="186.0" x2="384.0" y2="186.0" stroke="#4a90d9" stroke-width="1.3"/>
+  <polygon points="384.0,186.0 379.4,187.9 379.4,184.1" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="0.5"/>
+  <line x1="350.0" y1="162.0" x2="384.0" y2="162.0" stroke="#4a90d9" stroke-width="1.3"/>
+  <polygon points="384.0,162.0 379.4,163.9 379.4,160.1" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="0.5"/>
+  <line x1="350.0" y1="138.0" x2="384.0" y2="138.0" stroke="#4a90d9" stroke-width="1.3"/>
+  <polygon points="384.0,138.0 379.4,139.9 379.4,136.1" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="0.5"/>
+  <line x1="350.0" y1="114.0" x2="384.0" y2="114.0" stroke="#4a90d9" stroke-width="1.3"/>
+  <polygon points="384.0,114.0 379.4,115.9 379.4,112.1" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="0.5"/>
+  <line x1="350.0" y1="90.0" x2="384.0" y2="90.0" stroke="#4a90d9" stroke-width="1.3"/>
+  <polygon points="384.0,90.0 379.4,91.9 379.4,88.1" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="0.5"/>
+  <text x="346.0" y="76.0" fill="#4a90d9" font-size="11" text-anchor="start">uniform in</text>
+  <path d="M 600.00 200.00 L 614.52 197.00 L 618.04 194.00 L 620.47 191.00 L 622.40 188.00 L 624.02 185.00 L 625.43 182.00 L 626.68 179.00 L 627.82 176.00 L 628.86 173.00 L 629.83 170.00 L 630.73 167.00 L 631.58 164.00 L 632.38 161.00 L 633.13 158.00 L 633.86 155.00 L 634.55 152.00 L 635.21 149.00 L 635.84 146.00 L 636.45 143.00 L 637.04 140.00 L 637.61 137.00 L 638.16 134.00 L 638.69 131.00 L 639.21 128.00 L 639.72 125.00 L 640.21 122.00 L 640.68 119.00 L 641.15 116.00 L 641.60 113.00 L 642.05 110.00 L 642.48 107.00 L 642.90 104.00 L 643.32 101.00 L 643.72 98.00 L 644.12 95.00 L 644.51 92.00 L 644.89 89.00 L 645.27 86.00 L 645.64 83.00 L 646.00 80.00" stroke="#4a90d9" fill="none" fill-opacity="1" stroke-width="2.2"/>
+  <text x="540.0" y="72.0" fill="#4a90d9" font-size="11" text-anchor="start">profile out</text>
+  <line x1="420.0" y1="82.0" x2="510.0" y2="66.0" stroke="#8a8a8a" stroke-width="1.3"/>
+  <polygon points="510.0,66.0 505.0,69.3 504.1,64.7" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="1" stroke-width="0.5"/>
+  <text x="448.0" y="60.0" fill="#8a8a8a" font-size="10" text-anchor="start">mass spills out</text>
+  <line x1="412.0" y1="190.0" x2="398.0" y2="190.0" stroke="#e0645c" stroke-width="1.3"/>
+  <polygon points="398.0,190.0 402.6,188.1 402.6,191.9" stroke="#e0645c" fill="#e0645c" fill-opacity="1" stroke-width="0.5"/>
+  <line x1="442.0" y1="190.0" x2="428.0" y2="190.0" stroke="#e0645c" stroke-width="1.3"/>
+  <polygon points="428.0,190.0 432.6,188.1 432.6,191.9" stroke="#e0645c" fill="#e0645c" fill-opacity="1" stroke-width="0.5"/>
+  <line x1="472.0" y1="190.0" x2="458.0" y2="190.0" stroke="#e0645c" stroke-width="1.3"/>
+  <polygon points="458.0,190.0 462.6,188.1 462.6,191.9" stroke="#e0645c" fill="#e0645c" fill-opacity="1" stroke-width="0.5"/>
+  <line x1="502.0" y1="190.0" x2="488.0" y2="190.0" stroke="#e0645c" stroke-width="1.3"/>
+  <polygon points="488.0,190.0 492.6,188.1 492.6,191.9" stroke="#e0645c" fill="#e0645c" fill-opacity="1" stroke-width="0.5"/>
+  <line x1="532.0" y1="190.0" x2="518.0" y2="190.0" stroke="#e0645c" stroke-width="1.3"/>
+  <polygon points="518.0,190.0 522.6,188.1 522.6,191.9" stroke="#e0645c" fill="#e0645c" fill-opacity="1" stroke-width="0.5"/>
+  <line x1="562.0" y1="190.0" x2="548.0" y2="190.0" stroke="#e0645c" stroke-width="1.3"/>
+  <polygon points="548.0,190.0 552.6,188.1 552.6,191.9" stroke="#e0645c" fill="#e0645c" fill-opacity="1" stroke-width="0.5"/>
+  <text x="408.0" y="222.0" fill="#e0645c" font-size="11" text-anchor="start">&#964;<tspan font-size="0.72em" dy="3">w</tspan><tspan dy="-3"> along the wall</tspan></text>
+  <text x="386.0" y="246.0" fill="#8a8a8a" font-size="11" text-anchor="start">momentum in &#8722; out = wall force  &#8658;  d&#952;/dx = c<tspan font-size="0.72em" dy="3">f</tspan><tspan dy="-3">/2</tspan></text>
+</svg>

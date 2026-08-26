@@ -1,0 +1,63 @@
+<svg viewBox="0 0 660 430" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="20" y="20" fill="#8a8a8a" font-style="italic">Same silicon, three Fermi levels &#8212; and one invariant underneath: np = n&#7522;&#178;.</text>
+  <text x="105.0" y="60" fill="#8a8a8a" font-size="12">intrinsic</text>
+  <rect x="60" y="54" width="150" height="26" fill="#4a90d9" fill-opacity="0.13" stroke="none"/>
+  <rect x="60" y="210" width="150" height="26" fill="#8a8a8a" fill-opacity="0.16" stroke="none"/>
+  <line x1="60" y1="80" x2="210" y2="80" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="60" y1="210" x2="210" y2="210" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="44" y="84" fill="#4a90d9" font-size="11">E<tspan font-size="9" dy="2">c</tspan></text>
+  <text x="44" y="214" fill="#8a8a8a" font-size="11">E<tspan font-size="9" dy="2">v</tspan></text>
+  <line x1="60" y1="145.0" x2="210" y2="145.0" stroke="#8a8a8a" stroke-width="0.8" stroke-dasharray="3 3"/>
+  <text x="213" y="149.0" fill="#8a8a8a" font-size="9">E<tspan font-size="8" dy="2">i</tspan></text>
+  <line x1="60" y1="145.0" x2="210" y2="145.0" stroke="#e0645c" stroke-width="2.2"/>
+  <text x="213" y="149.0" fill="#e0645c" font-size="10">E<tspan font-size="8" dy="2">F</tspan></text>
+  <text x="300.0" y="60" fill="#8a8a8a" font-size="12">n-type (N&#8340;=10&#185;&#8311;)</text>
+  <rect x="255" y="54" width="150" height="26" fill="#4a90d9" fill-opacity="0.13" stroke="none"/>
+  <rect x="255" y="210" width="150" height="26" fill="#8a8a8a" fill-opacity="0.16" stroke="none"/>
+  <line x1="255" y1="80" x2="405" y2="80" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="255" y1="210" x2="405" y2="210" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="239" y="84" fill="#4a90d9" font-size="11">E<tspan font-size="9" dy="2">c</tspan></text>
+  <text x="239" y="214" fill="#8a8a8a" font-size="11">E<tspan font-size="9" dy="2">v</tspan></text>
+  <line x1="255" y1="145.0" x2="405" y2="145.0" stroke="#8a8a8a" stroke-width="0.8" stroke-dasharray="3 3"/>
+  <text x="408" y="149.0" fill="#8a8a8a" font-size="9">E<tspan font-size="8" dy="2">i</tspan></text>
+  <line x1="255" y1="96.9" x2="405" y2="96.9" stroke="#e0645c" stroke-width="2.2"/>
+  <text x="408" y="100.9" fill="#e0645c" font-size="10">E<tspan font-size="8" dy="2">F</tspan></text>
+  <line x1="275" y1="92" x2="385" y2="92" stroke="#4a90d9" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="261" y="106" fill="#4a90d9" font-size="9">donor level E<tspan font-size="8" dy="2">d</tspan></text>
+  <text x="495.0" y="60" fill="#8a8a8a" font-size="12">p-type (N&#8337;=10&#185;&#8311;)</text>
+  <rect x="450" y="54" width="150" height="26" fill="#4a90d9" fill-opacity="0.13" stroke="none"/>
+  <rect x="450" y="210" width="150" height="26" fill="#8a8a8a" fill-opacity="0.16" stroke="none"/>
+  <line x1="450" y1="80" x2="600" y2="80" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="450" y1="210" x2="600" y2="210" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="434" y="84" fill="#4a90d9" font-size="11">E<tspan font-size="9" dy="2">c</tspan></text>
+  <text x="434" y="214" fill="#8a8a8a" font-size="11">E<tspan font-size="9" dy="2">v</tspan></text>
+  <line x1="450" y1="145.0" x2="600" y2="145.0" stroke="#8a8a8a" stroke-width="0.8" stroke-dasharray="3 3"/>
+  <text x="603" y="149.0" fill="#8a8a8a" font-size="9">E<tspan font-size="8" dy="2">i</tspan></text>
+  <line x1="450" y1="193.1" x2="600" y2="193.1" stroke="#e0645c" stroke-width="2.2"/>
+  <text x="603" y="197.1" fill="#e0645c" font-size="10">E<tspan font-size="8" dy="2">F</tspan></text>
+  <line x1="470" y1="198" x2="580" y2="198" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="456" y="194" fill="#8a8a8a" font-size="9">acceptor level E<tspan font-size="8" dy="2">a</tspan></text>
+  <text x="20" y="278" fill="#8a8a8a" font-size="11">carrier concentrations, log scale (cm&#8315;&#179;)</text>
+  <line x1="60" y1="390" x2="210" y2="390" stroke="#8a8a8a" stroke-width="1"/>
+  <rect x="82" y="334.0" width="34" height="56.0" fill="#4a90d9" fill-opacity="0.30" stroke="#4a90d9" stroke-width="1.5"/>
+  <rect x="152" y="334.0" width="34" height="56.0" fill="#8a8a8a" fill-opacity="0.30" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="92" y="404" fill="#4a90d9" font-size="10">n</text>
+  <text x="162" y="404" fill="#8a8a8a" font-size="10">p</text>
+  <text x="76" y="329.0" fill="#4a90d9" font-size="9">10<tspan font-size="8" dy="-3">10</tspan></text>
+  <text x="146" y="329.0" fill="#8a8a8a" font-size="9">10<tspan font-size="8" dy="-3">10</tspan></text>
+  <line x1="255" y1="390" x2="405" y2="390" stroke="#8a8a8a" stroke-width="1"/>
+  <rect x="277" y="285.0" width="34" height="105.0" fill="#4a90d9" fill-opacity="0.30" stroke="#4a90d9" stroke-width="1.5"/>
+  <rect x="347" y="383.0" width="34" height="7.0" fill="#8a8a8a" fill-opacity="0.30" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="287" y="404" fill="#4a90d9" font-size="10">n</text>
+  <text x="357" y="404" fill="#8a8a8a" font-size="10">p</text>
+  <text x="271" y="280.0" fill="#4a90d9" font-size="9">10<tspan font-size="8" dy="-3">17</tspan></text>
+  <text x="341" y="378.0" fill="#8a8a8a" font-size="9">10<tspan font-size="8" dy="-3">3</tspan></text>
+  <line x1="450" y1="390" x2="600" y2="390" stroke="#8a8a8a" stroke-width="1"/>
+  <rect x="472" y="383.0" width="34" height="7.0" fill="#4a90d9" fill-opacity="0.30" stroke="#4a90d9" stroke-width="1.5"/>
+  <rect x="542" y="285.0" width="34" height="105.0" fill="#8a8a8a" fill-opacity="0.30" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="482" y="404" fill="#4a90d9" font-size="10">n</text>
+  <text x="552" y="404" fill="#8a8a8a" font-size="10">p</text>
+  <text x="466" y="378.0" fill="#4a90d9" font-size="9">10<tspan font-size="8" dy="-3">3</tspan></text>
+  <text x="536" y="280.0" fill="#8a8a8a" font-size="9">10<tspan font-size="8" dy="-3">17</tspan></text>
+  <text x="60" y="418" fill="#e0645c" font-size="10">the two bars swing by 14 orders of magnitude; their product never moves from 10&#178;&#8304;</text>
+</svg>

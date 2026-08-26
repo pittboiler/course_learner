@@ -1,0 +1,109 @@
+<svg viewBox="0 0 660 420" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="20" y="20" fill="#8a8a8a" font-style="italic" font-size="13">A 4-bit shift register: one clock, four stages. A single 1 entered at SI walks one stage per rising edge.</text>
+
+  <!-- serial in -->
+  <line x1="34" y1="72" x2="110" y2="72" stroke="#4a90d9" stroke-width="2"/>
+  <path d="M 102 68 L 110 72 L 102 76 Z" fill="#4a90d9"/>
+  <text x="34" y="62" fill="#4a90d9" font-size="12">SI</text>
+
+  <!-- stage 1 -->
+  <rect x="110" y="44" width="70" height="72" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="118" y="88" fill="#8a8a8a" font-size="12">D</text>
+  <text x="172" y="88" fill="#8a8a8a" font-size="12" text-anchor="end">Q</text>
+  <path d="M 110 92 L 123 99 L 110 106 Z" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="145" y="36" fill="#4a90d9" font-size="13" text-anchor="middle">Q0</text>
+  <line x1="90" y1="99" x2="110" y2="99" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="90" y1="99" x2="90" y2="140" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- stage 2 -->
+  <line x1="180" y1="72" x2="240" y2="72" stroke="#4a90d9" stroke-width="2"/>
+  <path d="M 232 68 L 240 72 L 232 76 Z" fill="#4a90d9"/>
+  <rect x="240" y="44" width="70" height="72" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="248" y="88" fill="#8a8a8a" font-size="12">D</text>
+  <text x="302" y="88" fill="#8a8a8a" font-size="12" text-anchor="end">Q</text>
+  <path d="M 240 92 L 253 99 L 240 106 Z" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="275" y="36" fill="#4a90d9" font-size="13" text-anchor="middle">Q1</text>
+  <line x1="220" y1="99" x2="240" y2="99" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="220" y1="99" x2="220" y2="140" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- stage 3 -->
+  <line x1="310" y1="72" x2="370" y2="72" stroke="#4a90d9" stroke-width="2"/>
+  <path d="M 362 68 L 370 72 L 362 76 Z" fill="#4a90d9"/>
+  <rect x="370" y="44" width="70" height="72" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="378" y="88" fill="#8a8a8a" font-size="12">D</text>
+  <text x="432" y="88" fill="#8a8a8a" font-size="12" text-anchor="end">Q</text>
+  <path d="M 370 92 L 383 99 L 370 106 Z" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="405" y="36" fill="#4a90d9" font-size="13" text-anchor="middle">Q2</text>
+  <line x1="350" y1="99" x2="370" y2="99" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="350" y1="99" x2="350" y2="140" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- stage 4 -->
+  <line x1="440" y1="72" x2="500" y2="72" stroke="#4a90d9" stroke-width="2"/>
+  <path d="M 492 68 L 500 72 L 492 76 Z" fill="#4a90d9"/>
+  <rect x="500" y="44" width="70" height="72" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="508" y="88" fill="#8a8a8a" font-size="12">D</text>
+  <text x="562" y="88" fill="#8a8a8a" font-size="12" text-anchor="end">Q</text>
+  <path d="M 500 92 L 513 99 L 500 106 Z" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="535" y="36" fill="#4a90d9" font-size="13" text-anchor="middle">Q3</text>
+  <line x1="480" y1="99" x2="500" y2="99" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="480" y1="99" x2="480" y2="140" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- serial out -->
+  <line x1="570" y1="72" x2="632" y2="72" stroke="#4a90d9" stroke-width="2"/>
+  <path d="M 624 68 L 632 72 L 624 76 Z" fill="#4a90d9"/>
+  <text x="600" y="62" fill="#4a90d9" font-size="12" text-anchor="middle">SO</text>
+
+  <!-- shared clock -->
+  <line x1="52" y1="140" x2="480" y2="140" stroke="#8a8a8a" stroke-width="1.5"/>
+  <circle cx="90" cy="140" r="3" fill="#8a8a8a"/>
+  <circle cx="220" cy="140" r="3" fill="#8a8a8a"/>
+  <circle cx="350" cy="140" r="3" fill="#8a8a8a"/>
+  <text x="46" y="144" fill="#8a8a8a" font-size="12" text-anchor="end">CLK</text>
+
+  <!-- rising edge markers -->
+  <line x1="170" y1="192" x2="170" y2="398" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="270" y1="192" x2="270" y2="398" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="370" y1="192" x2="370" y2="398" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="470" y1="192" x2="470" y2="398" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="570" y1="192" x2="570" y2="398" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="170" y="186" fill="#8a8a8a" font-size="11" text-anchor="middle">edge 1</text>
+  <text x="270" y="186" fill="#8a8a8a" font-size="11" text-anchor="middle">2</text>
+  <text x="370" y="186" fill="#8a8a8a" font-size="11" text-anchor="middle">3</text>
+  <text x="470" y="186" fill="#8a8a8a" font-size="11" text-anchor="middle">4</text>
+  <text x="570" y="186" fill="#8a8a8a" font-size="11" text-anchor="middle">5</text>
+
+  <!-- coral highlight of the walking bit -->
+  <rect x="170" y="267" width="100" height="18" fill="#e0645c" opacity="0.16"/>
+  <rect x="270" y="302" width="100" height="18" fill="#e0645c" opacity="0.16"/>
+  <rect x="370" y="337" width="100" height="18" fill="#e0645c" opacity="0.16"/>
+  <rect x="470" y="372" width="100" height="18" fill="#e0645c" opacity="0.16"/>
+
+  <!-- waveforms -->
+  <text x="105" y="219" fill="#8a8a8a" font-size="12" text-anchor="end">CLK</text>
+  <path d="M 120 215 H 170 V 197 H 220 V 215 H 270 V 197 H 320 V 215 H 370 V 197 H 420 V 215 H 470 V 197 H 520 V 215 H 570 V 197 H 620" fill="none" stroke="#4a90d9" stroke-width="2"/>
+
+  <text x="105" y="254" fill="#8a8a8a" font-size="12" text-anchor="end">SI</text>
+  <path d="M 120 250 H 132 V 232 H 220 V 250 H 620" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+
+  <text x="105" y="289" fill="#8a8a8a" font-size="12" text-anchor="end">Q0</text>
+  <path d="M 120 285 H 170 V 267 H 270 V 285 H 620" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <path d="M 170 267 H 270" fill="none" stroke="#e0645c" stroke-width="3"/>
+  <text x="220" y="281" fill="#e0645c" font-size="12" text-anchor="middle">1</text>
+
+  <text x="105" y="324" fill="#8a8a8a" font-size="12" text-anchor="end">Q1</text>
+  <path d="M 120 320 H 270 V 302 H 370 V 320 H 620" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <path d="M 270 302 H 370" fill="none" stroke="#e0645c" stroke-width="3"/>
+  <text x="320" y="316" fill="#e0645c" font-size="12" text-anchor="middle">1</text>
+
+  <text x="105" y="359" fill="#8a8a8a" font-size="12" text-anchor="end">Q2</text>
+  <path d="M 120 355 H 370 V 337 H 470 V 355 H 620" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <path d="M 370 337 H 470" fill="none" stroke="#e0645c" stroke-width="3"/>
+  <text x="420" y="351" fill="#e0645c" font-size="12" text-anchor="middle">1</text>
+
+  <text x="105" y="394" fill="#8a8a8a" font-size="12" text-anchor="end">Q3</text>
+  <path d="M 120 390 H 470 V 372 H 570 V 390 H 620" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <path d="M 470 372 H 570" fill="none" stroke="#e0645c" stroke-width="3"/>
+  <text x="520" y="386" fill="#e0645c" font-size="12" text-anchor="middle">1</text>
+
+  <text x="640" y="412" fill="#8a8a8a" font-style="italic" font-size="11" text-anchor="end">after edge 5 the bit leaves at SO and the register is empty again</text>
+</svg>

@@ -1,0 +1,60 @@
+<svg viewBox="0 0 660 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="20" y="20" fill="#8a8a8a" font-style="italic">Pattern from the top through a stencil, and let the gate mask its own source and drain.</text>
+  <text x="45" y="90" fill="#8a8a8a" font-size="9">oxide grown</text>
+  <rect x="45" y="118" width="88" height="16" fill="#8a8a8a" fill-opacity="0.15" stroke="#8a8a8a" stroke-width="1"/>
+  <rect x="45" y="110" width="88" height="8" fill="#4a90d9" fill-opacity="0.25" stroke="#4a90d9" stroke-width="1"/>
+  <text x="145" y="90" fill="#8a8a8a" font-size="9">resist coated</text>
+  <rect x="145" y="118" width="88" height="16" fill="#8a8a8a" fill-opacity="0.15" stroke="#8a8a8a" stroke-width="1"/>
+  <rect x="145" y="110" width="88" height="8" fill="#4a90d9" fill-opacity="0.25" stroke="#4a90d9" stroke-width="1"/>
+  <rect x="145" y="102" width="88" height="8" fill="#e0645c" fill-opacity="0.30" stroke="#e0645c" stroke-width="1"/>
+  <text x="245" y="90" fill="#8a8a8a" font-size="9">UV through mask</text>
+  <rect x="245" y="118" width="88" height="16" fill="#8a8a8a" fill-opacity="0.15" stroke="#8a8a8a" stroke-width="1"/>
+  <rect x="245" y="110" width="88" height="8" fill="#4a90d9" fill-opacity="0.25" stroke="#4a90d9" stroke-width="1"/>
+  <rect x="245" y="102" width="88" height="8" fill="#e0645c" fill-opacity="0.30" stroke="#e0645c" stroke-width="1"/>
+  <line x1="282" y1="74" x2="282" y2="102" stroke="#e0645c" stroke-width="1.4"/>
+  <line x1="289" y1="74" x2="289" y2="102" stroke="#e0645c" stroke-width="1.4"/>
+  <line x1="296" y1="74" x2="296" y2="102" stroke="#e0645c" stroke-width="1.4"/>
+  <rect x="245" y="66" width="31" height="6" fill="#8a8a8a" fill-opacity="0.55"/>
+  <rect x="302" y="66" width="31" height="6" fill="#8a8a8a" fill-opacity="0.55"/>
+  <text x="318" y="82" fill="#8a8a8a" font-size="9">developed</text>
+  <rect x="345" y="118" width="88" height="16" fill="#8a8a8a" fill-opacity="0.15" stroke="#8a8a8a" stroke-width="1"/>
+  <rect x="345" y="110" width="88" height="8" fill="#4a90d9" fill-opacity="0.25" stroke="#4a90d9" stroke-width="1"/>
+  <rect x="345" y="102" width="31" height="8" fill="#e0645c" fill-opacity="0.30" stroke="#e0645c" stroke-width="1"/>
+  <rect x="402" y="102" width="31" height="8" fill="#e0645c" fill-opacity="0.30" stroke="#e0645c" stroke-width="1"/>
+  <text x="445" y="90" fill="#8a8a8a" font-size="9">etched</text>
+  <rect x="445" y="118" width="88" height="16" fill="#8a8a8a" fill-opacity="0.15" stroke="#8a8a8a" stroke-width="1"/>
+  <rect x="445" y="110" width="31" height="8" fill="#4a90d9" fill-opacity="0.25" stroke="#4a90d9" stroke-width="1"/>
+  <rect x="502" y="110" width="31" height="8" fill="#4a90d9" fill-opacity="0.25" stroke="#4a90d9" stroke-width="1"/>
+  <rect x="445" y="102" width="31" height="8" fill="#e0645c" fill-opacity="0.30" stroke="#e0645c" stroke-width="1"/>
+  <rect x="502" y="102" width="31" height="8" fill="#e0645c" fill-opacity="0.30" stroke="#e0645c" stroke-width="1"/>
+  <text x="545" y="90" fill="#8a8a8a" font-size="9">resist stripped</text>
+  <rect x="545" y="118" width="88" height="16" fill="#8a8a8a" fill-opacity="0.15" stroke="#8a8a8a" stroke-width="1"/>
+  <rect x="545" y="110" width="31" height="8" fill="#4a90d9" fill-opacity="0.25" stroke="#4a90d9" stroke-width="1"/>
+  <rect x="602" y="110" width="31" height="8" fill="#4a90d9" fill-opacity="0.25" stroke="#4a90d9" stroke-width="1"/>
+  <text x="45" y="176" fill="#8a8a8a" font-size="10">one mask prints millions of identical structures at once &#8212; the economic engine of the industry</text>
+  <text x="50" y="240" fill="#8a8a8a" font-size="9">gate patterned</text>
+  <rect x="50" y="260" width="120" height="30" fill="#8a8a8a" fill-opacity="0.12" stroke="#8a8a8a" stroke-width="1"/>
+  <rect x="93" y="246" width="34" height="14" fill="#4a90d9" fill-opacity="0.30" stroke="#4a90d9" stroke-width="1.2"/>
+  <text x="200" y="240" fill="#8a8a8a" font-size="9">extensions implanted</text>
+  <rect x="200" y="260" width="120" height="30" fill="#8a8a8a" fill-opacity="0.12" stroke="#8a8a8a" stroke-width="1"/>
+  <rect x="243" y="246" width="34" height="14" fill="#4a90d9" fill-opacity="0.30" stroke="#4a90d9" stroke-width="1.2"/>
+  <rect x="200" y="260" width="43" height="7" fill="#e0645c" fill-opacity="0.30" stroke="#e0645c" stroke-width="0.8"/>
+  <rect x="277" y="260" width="43" height="7" fill="#e0645c" fill-opacity="0.30" stroke="#e0645c" stroke-width="0.8"/>
+  <text x="350" y="240" fill="#8a8a8a" font-size="9">spacers formed</text>
+  <rect x="350" y="260" width="120" height="30" fill="#8a8a8a" fill-opacity="0.12" stroke="#8a8a8a" stroke-width="1"/>
+  <rect x="393" y="246" width="34" height="14" fill="#4a90d9" fill-opacity="0.30" stroke="#4a90d9" stroke-width="1.2"/>
+  <rect x="350" y="260" width="43" height="7" fill="#e0645c" fill-opacity="0.30" stroke="#e0645c" stroke-width="0.8"/>
+  <rect x="427" y="260" width="43" height="7" fill="#e0645c" fill-opacity="0.30" stroke="#e0645c" stroke-width="0.8"/>
+  <path d="M393,260 l -9,0 l 9,-14 Z" fill="#8a8a8a" fill-opacity="0.35" stroke="#8a8a8a" stroke-width="1"/>
+  <path d="M427,260 l 9,0 l -9,-14 Z" fill="#8a8a8a" fill-opacity="0.35" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="500" y="240" fill="#8a8a8a" font-size="9">deep S/D implanted</text>
+  <rect x="500" y="260" width="120" height="30" fill="#8a8a8a" fill-opacity="0.12" stroke="#8a8a8a" stroke-width="1"/>
+  <rect x="543" y="246" width="34" height="14" fill="#4a90d9" fill-opacity="0.30" stroke="#4a90d9" stroke-width="1.2"/>
+  <rect x="500" y="260" width="43" height="7" fill="#e0645c" fill-opacity="0.30" stroke="#e0645c" stroke-width="0.8"/>
+  <rect x="577" y="260" width="43" height="7" fill="#e0645c" fill-opacity="0.30" stroke="#e0645c" stroke-width="0.8"/>
+  <path d="M543,260 l -9,0 l 9,-14 Z" fill="#8a8a8a" fill-opacity="0.35" stroke="#8a8a8a" stroke-width="1"/>
+  <path d="M577,260 l 9,0 l -9,-14 Z" fill="#8a8a8a" fill-opacity="0.35" stroke="#8a8a8a" stroke-width="1"/>
+  <rect x="500" y="260" width="34" height="18" fill="#e0645c" fill-opacity="0.35" stroke="#e0645c" stroke-width="1"/>
+  <rect x="586" y="260" width="34" height="18" fill="#e0645c" fill-opacity="0.35" stroke="#e0645c" stroke-width="1"/>
+  <text x="50" y="320" fill="#e0645c" font-size="10">the gate masks its own implants, so the channel is exactly the gate length &#8212; no alignment tolerance enters</text>
+</svg>

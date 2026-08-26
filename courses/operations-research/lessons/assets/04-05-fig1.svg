@@ -1,0 +1,100 @@
+<svg viewBox="0 0 700 512" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="50" y="24" fill="#8a8a8a" font-style="italic">An event list drives the state; convexity decides if a minimum found is the minimum.</text>
+
+  <!-- ============ (a) discrete-event run ============ -->
+  <text x="50" y="54" fill="#8a8a8a">(a) one run of a single-server queue: the event list, and the state it produces</text>
+
+  <!-- event timeline -->
+  <line x1="60" y1="120" x2="500" y2="120" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="500,120 490,115 490,125" fill="#8a8a8a"/>
+  <text x="504" y="125" fill="#8a8a8a">time</text>
+
+  <text x="60" y="84" fill="#4a90d9" font-size="12">arrivals</text>
+  <text x="60" y="160" fill="#8a8a8a" font-size="12">departures</text>
+
+  <!-- arrivals: blue up triangles above the line, at t = 2, 5, 7, 12 -->
+  <polygon points="120,110 114,122 126,122" fill="#4a90d9"/>
+  <text x="112" y="102" fill="#4a90d9" font-size="12">A1</text>
+  <polygon points="210,110 204,122 216,122" fill="#4a90d9"/>
+  <text x="202" y="102" fill="#4a90d9" font-size="12">A2</text>
+  <polygon points="270,110 264,122 276,122" fill="#4a90d9"/>
+  <text x="262" y="102" fill="#4a90d9" font-size="12">A3</text>
+  <polygon points="420,110 414,122 426,122" fill="#4a90d9"/>
+  <text x="412" y="102" fill="#4a90d9" font-size="12">A4</text>
+
+  <!-- departures: grey down triangles below the line, at t = 6, 8, 11, 14; D1 highlighted -->
+  <polygon points="240,130 234,118 246,118" fill="#e0645c"/>
+  <text x="232" y="146" fill="#e0645c" font-size="12">D1</text>
+  <polygon points="300,130 294,118 306,118" fill="#8a8a8a"/>
+  <text x="292" y="146" fill="#8a8a8a" font-size="12">D2</text>
+  <polygon points="390,130 384,118 396,118" fill="#8a8a8a"/>
+  <text x="382" y="146" fill="#8a8a8a" font-size="12">D3</text>
+  <polygon points="480,130 474,118 486,118" fill="#8a8a8a"/>
+  <text x="472" y="146" fill="#8a8a8a" font-size="12">D4</text>
+
+  <!-- coral tie from the highlighted event down to the state change it causes -->
+  <line x1="240" y1="150" x2="240" y2="200" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="248" y="180" fill="#e0645c" font-size="12">D1 fires: server frees, queue head enters service</text>
+
+  <!-- state axes -->
+  <line x1="60" y1="265" x2="500" y2="265" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="500,265 490,260 490,270" fill="#8a8a8a"/>
+  <line x1="60" y1="265" x2="60" y2="195" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="22" y="220" fill="#8a8a8a" font-size="12">n(t)</text>
+  <text x="48" y="270" fill="#8a8a8a" font-size="11">0</text>
+  <text x="48" y="240" fill="#8a8a8a" font-size="11">1</text>
+  <text x="48" y="210" fill="#8a8a8a" font-size="11">2</text>
+
+  <!-- time ticks -->
+  <line x1="60" y1="265" x2="60" y2="271" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="120" y1="265" x2="120" y2="271" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="210" y1="265" x2="210" y2="271" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="240" y1="265" x2="240" y2="271" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="270" y1="265" x2="270" y2="271" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="300" y1="265" x2="300" y2="271" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="390" y1="265" x2="390" y2="271" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="420" y1="265" x2="420" y2="271" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="480" y1="265" x2="480" y2="271" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="56" y="285" fill="#8a8a8a" font-size="11">0</text>
+  <text x="116" y="285" fill="#8a8a8a" font-size="11">2</text>
+  <text x="206" y="285" fill="#8a8a8a" font-size="11">5</text>
+  <text x="236" y="285" fill="#8a8a8a" font-size="11">6</text>
+  <text x="266" y="285" fill="#8a8a8a" font-size="11">7</text>
+  <text x="296" y="285" fill="#8a8a8a" font-size="11">8</text>
+  <text x="384" y="285" fill="#8a8a8a" font-size="11">11</text>
+  <text x="414" y="285" fill="#8a8a8a" font-size="11">12</text>
+  <text x="474" y="285" fill="#8a8a8a" font-size="11">14</text>
+
+  <!-- the step function n(t) -->
+  <path d="M 60 265 L 120 265 L 120 235 L 210 235 L 210 205 L 240 205 L 240 235 L 270 235 L 270 205 L 300 205 L 300 235 L 390 235 L 390 265 L 420 265 L 420 235 L 480 235"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <!-- the highlighted transition -->
+  <line x1="240" y1="205" x2="240" y2="235" stroke="#e0645c" stroke-width="4"/>
+
+  <!-- divider -->
+  <line x1="50" y1="308" x2="650" y2="308" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 5"/>
+
+  <!-- ============ (b) convex vs nonconvex ============ -->
+  <text x="50" y="332" fill="#8a8a8a">(b) the question that decides whether a solved problem is really solved</text>
+
+  <!-- left: convex -->
+  <line x1="90" y1="348" x2="90" y2="472" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="90" y1="472" x2="340" y2="472" stroke="#8a8a8a" stroke-width="1.5"/>
+  <path d="M 100 368 Q 215 524 330 368" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <circle cx="215" cy="446" r="5" fill="#e0645c"/>
+  <text x="178" y="466" fill="#e0645c" font-size="12">the minimum</text>
+  <text x="96" y="494" fill="#8a8a8a" font-size="12">convex: any local min is global</text>
+
+  <!-- right: nonconvex -->
+  <line x1="400" y1="348" x2="400" y2="472" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="400" y1="472" x2="655" y2="472" stroke="#8a8a8a" stroke-width="1.5"/>
+  <path d="M 408 364 C 420 364, 432 414, 444 414 C 456 414, 462 386, 474 386 C 486 386, 498 430, 510 430 C 522 430, 531 394, 543 394 C 555 394, 564 448, 576 448 C 588 448, 600 392, 612 392 C 624 392, 636 362, 648 362"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <circle cx="444" cy="414" r="4.5" fill="#8a8a8a"/>
+  <text x="426" y="432" fill="#8a8a8a" font-size="11">local</text>
+  <circle cx="510" cy="430" r="4.5" fill="#8a8a8a"/>
+  <text x="492" y="448" fill="#8a8a8a" font-size="11">local</text>
+  <circle cx="576" cy="448" r="5" fill="#e0645c"/>
+  <text x="556" y="466" fill="#e0645c" font-size="12">global</text>
+  <text x="406" y="494" fill="#8a8a8a" font-size="12">nonconvex: descent stalls wherever it landed</text>
+</svg>

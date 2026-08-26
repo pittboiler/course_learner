@@ -1,0 +1,66 @@
+<svg viewBox="0 0 660 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <line x1="104.0" y1="186.0" x2="271.4" y2="156.5" stroke="#8a8a8a" stroke-width="2.6"/>
+  <line x1="104.0" y1="186.0" x2="58.0" y2="202.0" stroke="#e0645c" stroke-width="2"/>
+  <line x1="104.0" y1="186.0" x2="74.0" y2="146.0" stroke="#4a90d9" stroke-width="1.4"/>
+  <line x1="104.0" y1="186.0" x2="73.0" y2="127.7" stroke="#4a90d9" stroke-width="1.1"/>
+  <line x1="104.0" y1="186.0" x2="67.1" y2="131.3" stroke="#4a90d9" stroke-width="1.1"/>
+  <line x1="104.0" y1="186.0" x2="61.6" y2="135.4" stroke="#4a90d9" stroke-width="1.1"/>
+  <line x1="104.0" y1="186.0" x2="56.5" y2="140.2" stroke="#4a90d9" stroke-width="1.1"/>
+  <line x1="104.0" y1="186.0" x2="52.0" y2="145.4" stroke="#4a90d9" stroke-width="1.1"/>
+  <text x="34.0" y="90.0" fill="#4a90d9" font-size="10" text-anchor="start">expansion fan</text>
+  <text x="48.0" y="228.0" fill="#e0645c" font-size="10" text-anchor="start">shock</text>
+  <line x1="8.0" y1="130.0" x2="48.0" y2="130.0" stroke="#8a8a8a" stroke-width="1.3"/>
+  <polygon points="48.0,130.0 43.4,131.9 43.4,128.1" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="1" stroke-width="0.5"/>
+  <line x1="8.0" y1="164.0" x2="48.0" y2="164.0" stroke="#8a8a8a" stroke-width="1.3"/>
+  <polygon points="48.0,164.0 43.4,165.9 43.4,162.1" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="1" stroke-width="0.5"/>
+  <line x1="8.0" y1="208.0" x2="48.0" y2="208.0" stroke="#8a8a8a" stroke-width="1.3"/>
+  <polygon points="48.0,208.0 43.4,209.9 43.4,206.1" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="1" stroke-width="0.5"/>
+  <text x="12.0" y="112.0" fill="#8a8a8a" font-size="11" text-anchor="start">M<tspan font-size="0.72em" dy="3">&#8734;</tspan><tspan dy="-3"> </tspan></text>
+  <line x1="138.3" y1="204.3" x2="134.1" y2="180.7" stroke="#e0645c" stroke-width="1.4"/>
+  <polygon points="134.1,180.7 136.9,184.9 133.0,185.6" stroke="#e0645c" fill="#e0645c" fill-opacity="1" stroke-width="0.5"/>
+  <line x1="134.1" y1="180.7" x2="131.4" y2="164.9" stroke="#4a90d9" stroke-width="1.2"/>
+  <polygon points="131.4,164.9 134.1,169.1 130.2,169.8" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="0.5"/>
+  <line x1="175.1" y1="197.8" x2="171.0" y2="174.2" stroke="#e0645c" stroke-width="1.4"/>
+  <polygon points="171.0,174.2 173.7,178.4 169.8,179.1" stroke="#e0645c" fill="#e0645c" fill-opacity="1" stroke-width="0.5"/>
+  <line x1="171.0" y1="174.2" x2="168.2" y2="158.4" stroke="#4a90d9" stroke-width="1.2"/>
+  <polygon points="168.2,158.4 170.9,162.6 167.1,163.3" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="0.5"/>
+  <line x1="212.0" y1="191.3" x2="207.8" y2="167.7" stroke="#e0645c" stroke-width="1.4"/>
+  <polygon points="207.8,167.7 210.5,171.9 206.7,172.6" stroke="#e0645c" fill="#e0645c" fill-opacity="1" stroke-width="0.5"/>
+  <line x1="207.8" y1="167.7" x2="205.0" y2="151.9" stroke="#4a90d9" stroke-width="1.2"/>
+  <polygon points="205.0,151.9 207.7,156.1 203.9,156.8" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="0.5"/>
+  <line x1="248.8" y1="184.8" x2="244.6" y2="161.2" stroke="#e0645c" stroke-width="1.4"/>
+  <polygon points="244.6,161.2 247.3,165.4 243.5,166.1" stroke="#e0645c" fill="#e0645c" fill-opacity="1" stroke-width="0.5"/>
+  <line x1="244.6" y1="161.2" x2="241.9" y2="145.4" stroke="#4a90d9" stroke-width="1.2"/>
+  <polygon points="241.9,145.4 244.6,149.6 240.7,150.3" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="0.5"/>
+  <line x1="187.7" y1="171.2" x2="174.9" y2="98.4" stroke="#e0645c" stroke-width="2.2"/>
+  <polygon points="174.9,98.4 179.2,105.1 173.1,106.2" stroke="#e0645c" fill="#e0645c" fill-opacity="1" stroke-width="0.5"/>
+  <text x="100.9" y="94.4" fill="#e0645c" font-size="10" text-anchor="start">resultant &#8869; plate</text>
+  <line x1="187.7" y1="171.2" x2="187.7" y2="101.2" stroke="#4a90d9" stroke-width="1.6"/>
+  <polygon points="187.7,101.2 190.4,107.7 185.0,107.7" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="0.5"/>
+  <text x="191.7" y="91.2" fill="#4a90d9" font-size="10" text-anchor="start">lift</text>
+  <line x1="187.7" y1="171.2" x2="213.7" y2="171.2" stroke="#4a90d9" stroke-width="1.6"/>
+  <polygon points="213.7,171.2 207.3,174.0 207.3,168.5" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="0.5"/>
+  <text x="217.7" y="187.2" fill="#4a90d9" font-size="10" text-anchor="start">wave drag</text>
+  <text x="20.0" y="332.0" fill="#8a8a8a" font-size="10" text-anchor="start">no leading-edge suction &#8658; the streamwise</text>
+  <text x="20.0" y="348.0" fill="#8a8a8a" font-size="10" text-anchor="start">component survives as drag</text>
+  <polygon points="290.0,110.0 346.0,94.0 402.0,110.0 346.0,126.0" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="0.12" stroke-width="1.5"/>
+  <text x="346.0" y="150.0" fill="#8a8a8a" font-size="10" text-anchor="middle">symmetric diamond</text>
+  <rect x="314.0" y="277.5" width="58.0" height="52.5" stroke="#8a8a8a" fill="#e0645c" fill-opacity="0.22" stroke-width="1.2" rx="0"/>
+  <text x="380.0" y="307.8" fill="#e0645c" font-size="10" text-anchor="start">&#945;&#178;</text>
+  <rect x="314.0" y="235.5" width="58.0" height="42.0" stroke="#8a8a8a" fill="#4a90d9" fill-opacity="0.22" stroke-width="1.2" rx="0"/>
+  <text x="380.0" y="260.5" fill="#4a90d9" font-size="10" text-anchor="start">camber&#178;</text>
+  <rect x="314.0" y="180.0" width="58.0" height="55.5" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="0.22" stroke-width="1.2" rx="0"/>
+  <text x="380.0" y="211.8" fill="#8a8a8a" font-size="10" text-anchor="start">thickness&#178;</text>
+  <text x="290.0" y="352.0" fill="#8a8a8a" font-size="10" text-anchor="start">all three positive &#8212;</text>
+  <text x="290.0" y="368.0" fill="#8a8a8a" font-size="10" text-anchor="start">none can cancel</text>
+  <line x1="530.0" y1="60.0" x2="530.0" y2="270.0" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 3"/>
+  <polygon points="530.0,60.0 408.8,270.0 651.2,270.0" stroke="#e0645c" fill="#e0645c" fill-opacity="0.1" stroke-width="1.2"/>
+  <text x="530.0" y="52.0" fill="#8a8a8a" font-size="10" text-anchor="middle">apex</text>
+  <text x="594.0" y="122.0" fill="#e0645c" font-size="10" text-anchor="start">Mach cone, &#956;</text>
+  <polygon points="530.0,60.0 458.0,260.0 530.0,260.0" stroke="#4a90d9" fill="#4a90d9" fill-opacity="0.14" stroke-width="1.8"/>
+  <text x="414.0" y="284.0" fill="#4a90d9" font-size="10" text-anchor="start">subsonic LE</text>
+  <text x="414.0" y="300.0" fill="#4a90d9" font-size="10" text-anchor="start">rounded nose OK</text>
+  <polygon points="530.0,60.0 680.0,260.0 530.0,260.0" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="0.1" stroke-width="1.8"/>
+  <text x="556.0" y="284.0" fill="#8a8a8a" font-size="10" text-anchor="start">supersonic LE</text>
+  <text x="556.0" y="300.0" fill="#8a8a8a" font-size="10" text-anchor="start">sharp, attached shock</text>
+</svg>

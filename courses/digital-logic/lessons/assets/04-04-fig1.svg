@@ -1,0 +1,151 @@
+<svg viewBox="0 0 730 575" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="12">
+  <defs>
+    <marker id="ag" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 z" fill="#8a8a8a"/>
+    </marker>
+    <marker id="ab" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 z" fill="#4a90d9"/>
+    </marker>
+    <marker id="abs" markerWidth="9" markerHeight="9" refX="1" refY="4.5" orient="auto">
+      <path d="M9,0 L0,4.5 L9,9 z" fill="#4a90d9"/>
+    </marker>
+    <marker id="ac" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 z" fill="#e0645c"/>
+    </marker>
+  </defs>
+
+  <text x="18" y="16" fill="#8a8a8a" font-style="italic">Datapath in blue and grey; each coral arrow is one control signal from the FSM.</text>
+
+  <!-- ============ ROW A: PC, MAR mux, MAR, MEMORY ============ -->
+
+  <rect x="250" y="62" width="80" height="40" fill="#4a90d9" opacity="0.10"/>
+  <rect x="250" y="62" width="80" height="40" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="290" y="82" fill="#8a8a8a" text-anchor="middle" font-size="14">PC</text>
+  <text x="290" y="96" fill="#8a8a8a" text-anchor="middle" font-size="10">counter, +1</text>
+
+  <polygon points="350,62 382,74 382,90 350,102" fill="#8a8a8a" opacity="0.14"/>
+  <polygon points="350,62 382,74 382,90 350,102" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <rect x="405" y="62" width="80" height="40" fill="#4a90d9" opacity="0.10"/>
+  <rect x="405" y="62" width="80" height="40" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="445" y="88" fill="#8a8a8a" text-anchor="middle" font-size="14">MAR</text>
+
+  <rect x="545" y="48" width="170" height="87" fill="#4a90d9" opacity="0.10"/>
+  <rect x="545" y="48" width="170" height="87" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="630" y="82" fill="#8a8a8a" text-anchor="middle" font-size="14">MEMORY</text>
+  <text x="630" y="102" fill="#8a8a8a" text-anchor="middle" font-size="11">4096 &#215; 16</text>
+
+  <line x1="330" y1="72" x2="348" y2="72" stroke="#4a90d9" stroke-width="2" marker-end="url(#ab)"/>
+  <line x1="382" y1="82" x2="403" y2="82" stroke="#4a90d9" stroke-width="2" marker-end="url(#ab)"/>
+  <line x1="485" y1="82" x2="543" y2="82" stroke="#4a90d9" stroke-width="2" marker-end="url(#ab)"/>
+  <text x="514" y="74" fill="#8a8a8a" text-anchor="middle" font-size="11">address</text>
+
+  <path d="M 600 137 L 600 195 L 562 195" fill="none" stroke="#4a90d9" stroke-width="2"
+        marker-end="url(#ab)" marker-start="url(#abs)"/>
+  <text x="609" y="160" fill="#8a8a8a" font-size="11">data</text>
+
+  <!-- ============ ROW B: IR, MDR ============ -->
+
+  <rect x="480" y="175" width="80" height="40" fill="#4a90d9" opacity="0.10"/>
+  <rect x="480" y="175" width="80" height="40" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="520" y="201" fill="#8a8a8a" text-anchor="middle" font-size="14">MDR</text>
+
+  <rect x="250" y="175" width="80" height="40" fill="#4a90d9" opacity="0.10"/>
+  <rect x="250" y="175" width="80" height="40" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="290" y="201" fill="#8a8a8a" text-anchor="middle" font-size="14">IR</text>
+
+  <line x1="480" y1="195" x2="334" y2="195" stroke="#4a90d9" stroke-width="2" marker-end="url(#ab)"/>
+  <text x="406" y="187" fill="#8a8a8a" text-anchor="middle" font-size="11">instruction word</text>
+
+  <path d="M 250 195 L 120 195 L 120 396" fill="none" stroke="#8a8a8a" stroke-width="2" marker-end="url(#ag)"/>
+  <text x="128" y="262" fill="#8a8a8a" font-size="11">opcode</text>
+  <text x="128" y="278" fill="#8a8a8a" font-size="11">IR bits 15&#8211;12</text>
+
+  <!-- ============ ROW C: register file ============ -->
+
+  <rect x="250" y="250" width="210" height="80" fill="#4a90d9" opacity="0.10"/>
+  <rect x="250" y="250" width="210" height="80" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="355" y="278" fill="#8a8a8a" text-anchor="middle" font-size="14">REGISTER FILE</text>
+  <text x="355" y="298" fill="#8a8a8a" text-anchor="middle" font-size="11">8 &#215; 16 bits</text>
+  <text x="355" y="316" fill="#8a8a8a" text-anchor="middle" font-size="11">2 read ports, 1 write port</text>
+
+  <path d="M 460 275 L 655 275 L 655 393" fill="none" stroke="#4a90d9" stroke-width="2" marker-end="url(#ab)"/>
+  <text x="474" y="268" fill="#8a8a8a" font-size="11">port B</text>
+  <path d="M 460 310 L 565 310 L 565 393" fill="none" stroke="#4a90d9" stroke-width="2" marker-end="url(#ab)"/>
+  <text x="474" y="303" fill="#8a8a8a" font-size="11">port A</text>
+
+  <!-- ============ ROW D: ALU + flags ============ -->
+
+  <polygon points="540,395 596,395 610,419 624,395 680,395 652,490 568,490" fill="#4a90d9" opacity="0.10"/>
+  <polygon points="540,395 596,395 610,419 624,395 680,395 652,490 568,490" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="610" y="462" fill="#8a8a8a" text-anchor="middle" font-size="15">ALU</text>
+  <text x="556" y="390" fill="#8a8a8a" text-anchor="middle" font-size="11">A</text>
+  <text x="664" y="390" fill="#8a8a8a" text-anchor="middle" font-size="11">B</text>
+
+  <rect x="455" y="430" width="78" height="34" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="494" y="446" fill="#8a8a8a" text-anchor="middle" font-size="11">FLAGS</text>
+  <text x="494" y="460" fill="#8a8a8a" text-anchor="middle" font-size="11">Z C N V</text>
+  <line x1="555" y1="447" x2="535" y2="447" stroke="#4a90d9" stroke-width="2" marker-end="url(#ab)"/>
+
+  <line x1="455" y1="478" x2="212" y2="478" stroke="#8a8a8a" stroke-width="2" marker-end="url(#ag)"/>
+  <text x="330" y="471" fill="#8a8a8a" text-anchor="middle" font-size="11">flags</text>
+
+  <!-- ============ writeback: Wsel mux and the result bus ============ -->
+
+  <polygon points="560,510 630,510 618,540 572,540" fill="#8a8a8a" opacity="0.14"/>
+  <polygon points="560,510 630,510 618,540 572,540" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <path d="M 610 490 L 610 500 L 578 500 L 578 508" fill="none" stroke="#4a90d9" stroke-width="2" marker-end="url(#ab)"/>
+  <path d="M 540 215 L 540 235 L 700 235 L 700 500 L 618 500 L 618 508" fill="none" stroke="#4a90d9" stroke-width="2" marker-end="url(#ab)"/>
+
+  <path d="M 595 540 L 595 552 L 225 552 L 225 120 L 356 120 L 356 101" fill="none" stroke="#4a90d9" stroke-width="2" marker-end="url(#ab)"/>
+  <line x1="225" y1="300" x2="248" y2="300" stroke="#4a90d9" stroke-width="2" marker-end="url(#ab)"/>
+  <circle cx="225" cy="300" r="4" fill="#4a90d9"/>
+  <text x="232" y="350" fill="#8a8a8a" font-size="11">result bus</text>
+
+  <!-- ============ CONTROL UNIT ============ -->
+
+  <rect x="30" y="400" width="180" height="140" fill="#e0645c" opacity="0.08"/>
+  <rect x="30" y="400" width="180" height="140" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <text x="120" y="424" fill="#e0645c" text-anchor="middle" font-size="13">CONTROL UNIT</text>
+  <text x="120" y="446" fill="#8a8a8a" text-anchor="middle" font-size="11">a finite state machine</text>
+  <text x="120" y="462" fill="#8a8a8a" text-anchor="middle" font-size="11">state register +</text>
+  <text x="120" y="478" fill="#8a8a8a" text-anchor="middle" font-size="11">next&#8211;state logic</text>
+  <text x="120" y="504" fill="#8a8a8a" text-anchor="middle" font-size="11">hardwired gates or</text>
+  <text x="120" y="520" fill="#8a8a8a" text-anchor="middle" font-size="11">microprogram ROM</text>
+
+  <line x1="210" y1="416" x2="240" y2="406" stroke="#e0645c" stroke-width="2.5" marker-end="url(#ac)"/>
+  <text x="246" y="402" fill="#e0645c" font-size="11">control signals</text>
+
+  <!-- ============ CONTROL SIGNALS (coral, dashed) ============ -->
+
+  <line x1="290" y1="140" x2="290" y2="106" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#ac)"/>
+  <text x="290" y="156" fill="#e0645c" text-anchor="middle" font-size="11">PCinc, PCld</text>
+
+  <line x1="366" y1="36" x2="366" y2="66" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#ac)"/>
+  <text x="366" y="30" fill="#e0645c" text-anchor="middle" font-size="11">MARsel</text>
+
+  <line x1="445" y1="36" x2="445" y2="59" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#ac)"/>
+  <text x="445" y="30" fill="#e0645c" text-anchor="middle" font-size="11">MARld</text>
+
+  <line x1="630" y1="36" x2="630" y2="45" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#ac)"/>
+  <text x="630" y="30" fill="#e0645c" text-anchor="middle" font-size="11">MemRd, MemWr</text>
+
+  <line x1="520" y1="152" x2="520" y2="172" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#ac)"/>
+  <text x="520" y="146" fill="#e0645c" text-anchor="middle" font-size="11">MDRld</text>
+
+  <line x1="290" y1="246" x2="290" y2="218" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#ac)"/>
+  <text x="300" y="238" fill="#e0645c" font-size="11">IRld</text>
+
+  <line x1="410" y1="230" x2="410" y2="247" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#ac)"/>
+  <text x="410" y="224" fill="#e0645c" text-anchor="middle" font-size="11">RA, RB, RW, RegWr</text>
+
+  <line x1="610" y1="368" x2="610" y2="416" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#ac)"/>
+  <text x="610" y="361" fill="#e0645c" text-anchor="middle" font-size="11">ALUop</text>
+
+  <line x1="428" y1="441" x2="452" y2="441" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#ac)"/>
+  <text x="424" y="437" fill="#e0645c" text-anchor="end" font-size="11">FlagLd</text>
+
+  <line x1="522" y1="525" x2="564" y2="525" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#ac)"/>
+  <text x="518" y="521" fill="#e0645c" text-anchor="end" font-size="11">Wsel</text>
+</svg>

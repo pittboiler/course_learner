@@ -1,0 +1,104 @@
+<svg viewBox="0 0 760 545" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">One threshold plus noise gives a burst of false edges; two thresholds give one clean edge &#8212; and a transfer curve that remembers which way you came.</text>
+
+  <text x="42" y="50" fill="#8a8a8a">(a) plain comparator: one threshold, output chatters</text>
+  <text x="402" y="50" fill="#8a8a8a">(b) Schmitt trigger: two thresholds, one clean edge</text>
+
+  <!-- ================= panel a ================= -->
+
+  <!-- time axis -->
+  <line x1="55" y1="225" x2="352" y2="225" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="352,225 343,221 343,229" fill="#8a8a8a"/>
+  <text x="345" y="242" fill="#8a8a8a">t</text>
+
+  <!-- single threshold -->
+  <line x1="58" y1="110" x2="345" y2="110" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="20" y="107" fill="#e0645c">V<tspan dy="4" font-size="10">ref</tspan></text>
+
+  <!-- noisy slow input -->
+  <polyline points="60,153 70,143.3 80,146.6 90,147 100,136.3 110,137.6 120,128.9 130,135.2 140,126.6 150,128.9 160,119.2 170,125.5 180,116.9 190,119.2 200,107.5 210,114.8 220,103.1 230,111.5 240,96.8 250,103.1 260,93.4 270,95.8 280,87.1 290,91.4 300,83.7 310,84 320,78.4 330,78.7 340,75"
+            fill="none" stroke="#4a90d9" stroke-width="2.2"/>
+  <text x="278" y="68" fill="#4a90d9">v<tspan dy="4" font-size="10">in</tspan></text>
+
+  <!-- chattering output -->
+  <path d="M 60 205 L 198 205 L 198 170 L 203 170 L 203 205 L 214 205 L 214 170 L 228 170 L 228 205 L 231 205 L 231 170 L 340 170"
+        fill="none" stroke="#e0645c" stroke-width="2.2"/>
+  <text x="278" y="164" fill="#e0645c">v<tspan dy="4" font-size="10">out</tspan></text>
+
+  <!-- chatter callout -->
+  <line x1="215" y1="258" x2="215" y2="214" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="215,214 211,223 219,223" fill="#8a8a8a"/>
+  <text x="132" y="274" fill="#8a8a8a">five edges where one was wanted</text>
+
+  <!-- ================= panel b ================= -->
+
+  <line x1="415" y1="225" x2="712" y2="225" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="712,225 703,221 703,229" fill="#8a8a8a"/>
+  <text x="705" y="242" fill="#8a8a8a">t</text>
+
+  <!-- two thresholds -->
+  <line x1="418" y1="100" x2="705" y2="100" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="380" y="97" fill="#e0645c">V<tspan dy="4" font-size="10">TH</tspan></text>
+  <line x1="418" y1="120" x2="705" y2="120" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="380" y="130" fill="#e0645c">V<tspan dy="4" font-size="10">TL</tspan></text>
+  <line x1="712" y1="100" x2="712" y2="120" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="712,100 708,109 716,109" fill="#e0645c"/>
+  <polygon points="712,120 708,111 716,111" fill="#e0645c"/>
+  <text x="718" y="115" fill="#e0645c">&#916;V</text>
+
+  <!-- identical noisy input, shifted by 360 -->
+  <polyline points="420,153 430,143.3 440,146.6 450,147 460,136.3 470,137.6 480,128.9 490,135.2 500,126.6 510,128.9 520,119.2 530,125.5 540,116.9 550,119.2 560,107.5 570,114.8 580,103.1 590,111.5 600,96.8 610,103.1 620,93.4 630,95.8 640,87.1 650,91.4 660,83.7 670,84 680,78.4 690,78.7 700,75"
+            fill="none" stroke="#4a90d9" stroke-width="2.2"/>
+  <text x="638" y="68" fill="#4a90d9">same v<tspan dy="4" font-size="10">in</tspan></text>
+
+  <!-- clean output -->
+  <path d="M 420 205 L 598 205 L 598 170 L 700 170"
+        fill="none" stroke="#e0645c" stroke-width="2.2"/>
+  <text x="638" y="164" fill="#e0645c">v<tspan dy="4" font-size="10">out</tspan></text>
+
+  <line x1="598" y1="258" x2="598" y2="214" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="598,214 594,223 602,223" fill="#8a8a8a"/>
+  <text x="546" y="274" fill="#8a8a8a">one edge</text>
+
+  <!-- ================= panel c ================= -->
+
+  <text x="230" y="308" fill="#8a8a8a">(c) transfer characteristic of a non-inverting Schmitt trigger</text>
+
+  <!-- axes -->
+  <line x1="232" y1="430" x2="596" y2="430" stroke="#8a8a8a" stroke-width="1.2"/>
+  <polygon points="596,430 587,426 587,434" fill="#8a8a8a"/>
+  <text x="592" y="448" fill="#8a8a8a">v<tspan dy="4" font-size="10">in</tspan></text>
+  <line x1="400" y1="492" x2="400" y2="336" stroke="#8a8a8a" stroke-width="1.2"/>
+  <polygon points="400,336 396,345 404,345" fill="#8a8a8a"/>
+  <text x="406" y="344" fill="#8a8a8a">v<tspan dy="4" font-size="10">out</tspan></text>
+
+  <!-- threshold guides -->
+  <line x1="350" y1="377" x2="350" y2="477" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="450" y1="383" x2="450" y2="483" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- rising branch (input increasing) -->
+  <path d="M 260 483 L 450 483 L 450 383 L 560 383" fill="none" stroke="#4a90d9" stroke-width="2.4"/>
+  <polygon points="372,483 362,478 362,488" fill="#4a90d9"/>
+  <polygon points="450,420 445,430 455,430" fill="#4a90d9"/>
+  <text x="466" y="500" fill="#4a90d9">input rising</text>
+
+  <!-- falling branch (input decreasing) -->
+  <path d="M 560 377 L 350 377 L 350 477 L 260 477" fill="none" stroke="#e0645c" stroke-width="2.4"/>
+  <polygon points="438,377 448,372 448,382" fill="#e0645c"/>
+  <polygon points="350,440 345,430 355,430" fill="#e0645c"/>
+  <text x="466" y="366" fill="#e0645c">input falling</text>
+
+  <!-- rail labels -->
+  <text x="566" y="388" fill="#8a8a8a">+V<tspan dy="4" font-size="10">sat</tspan></text>
+  <text x="196" y="482" fill="#8a8a8a">&#8722;V<tspan dy="4" font-size="10">sat</tspan></text>
+
+  <!-- threshold ticks -->
+  <text x="330" y="448" fill="#8a8a8a">V<tspan dy="4" font-size="10">TL</tspan></text>
+  <text x="452" y="448" fill="#8a8a8a">V<tspan dy="4" font-size="10">TH</tspan></text>
+
+  <!-- hysteresis width -->
+  <line x1="350" y1="510" x2="450" y2="510" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="350,510 359,506 359,514" fill="#e0645c"/>
+  <polygon points="450,510 441,506 441,514" fill="#e0645c"/>
+  <text x="284" y="532" fill="#e0645c">hysteresis &#916;V = V<tspan dy="4" font-size="10">TH</tspan><tspan dy="-4" font-size="13"> &#8722; V</tspan><tspan dy="4" font-size="10">TL</tspan></text>
+</svg>

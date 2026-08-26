@@ -40,7 +40,7 @@ $$\tau=\{\,U\subseteq X : \text{for every } x\in U \text{ there is } B\in\mathca
 
 ## Picture
 
-![An open set U in the plane covered by overlapping basis disks whose union is U; below, a half-open Sorgenfrey basis element [a,b) on the number line](assets/01-04-fig1.svg)
+![An open set U in the plane covered by overlapping basis disks whose union is U; below, a half-open Sorgenfrey basis element from a up to but excluding b on the number line](assets/01-04-fig1.svg)
 
 ## Worked examples
 

@@ -1,0 +1,189 @@
+<svg viewBox="0 0 940 430" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <!-- caption -->
+  <text x="24" y="24" fill="#8a8a8a" font-style="italic" font-size="14">A megohm divider costs nothing because the gate draws no current &#8212; and the small-signal model has no r&#960; to load it.</text>
+
+  <!-- panel titles -->
+  <text x="230" y="50" fill="#8a8a8a" text-anchor="middle">(a) common-source stage &#8212; divider bias, bypassed R&#8202;S</text>
+  <text x="700" y="50" fill="#8a8a8a" text-anchor="middle">(b) small-signal model at the Q-point</text>
+
+  <!-- panel divider -->
+  <line x1="455" y1="66" x2="455" y2="356" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 6"/>
+
+  <!-- ================= PANEL A ================= -->
+
+  <!-- supply rail -->
+  <line x1="120" y1="72" x2="350" y2="72" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="235" y="64" fill="#8a8a8a" text-anchor="middle">V&#8202;DD = +12 V</text>
+
+  <!-- R1 -->
+  <rect x="187" y="106" width="26" height="46" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="181" y="126" fill="#4a90d9" text-anchor="end">R&#8202;1</text>
+  <text x="181" y="144" fill="#8a8a8a" text-anchor="end">2 M&#8486;</text>
+  <line x1="200" y1="72" x2="200" y2="106" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="200" y1="152" x2="200" y2="200" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- R2 -->
+  <rect x="187" y="224" width="26" height="46" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="181" y="244" fill="#4a90d9" text-anchor="end">R&#8202;2</text>
+  <text x="181" y="262" fill="#8a8a8a" text-anchor="end">1 M&#8486;</text>
+  <line x1="200" y1="200" x2="200" y2="224" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="200" y1="270" x2="200" y2="330" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- gate node -->
+  <circle cx="200" cy="200" r="3.5" fill="#8a8a8a"/>
+
+  <!-- input source and coupling cap CC1 -->
+  <circle cx="108" cy="200" r="4" fill="#8a8a8a"/>
+  <text x="100" y="196" fill="#8a8a8a" text-anchor="end">v&#8202;in</text>
+  <line x1="112" y1="200" x2="150" y2="200" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="150" y1="190" x2="150" y2="210" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="158" y1="190" x2="158" y2="210" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="158" y1="200" x2="200" y2="200" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="154" y="182" fill="#4a90d9" text-anchor="middle">C&#8202;C1</text>
+
+  <!-- Rin marker -->
+  <line x1="136" y1="252" x2="192" y2="208" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="196,205 187,208 192,215" fill="#e0645c"/>
+  <text x="130" y="258" fill="#e0645c" text-anchor="end">R&#8202;in</text>
+
+  <!-- NMOS M1 -->
+  <line x1="200" y1="200" x2="248" y2="200" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="248" y1="176" x2="248" y2="224" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="260" y1="170" x2="260" y2="230" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="260" y1="178" x2="292" y2="178" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="292" y1="178" x2="292" y2="160" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="260" y1="222" x2="292" y2="222" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="292" y1="222" x2="292" y2="244" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="262,222 272,217 272,227" fill="#4a90d9"/>
+  <text x="232" y="170" fill="#4a90d9" text-anchor="middle">M&#8202;1</text>
+  <text x="240" y="212" fill="#8a8a8a" text-anchor="end">G</text>
+  <text x="272" y="172" fill="#8a8a8a">D</text>
+  <text x="298" y="236" fill="#8a8a8a">S</text>
+
+  <!-- RD -->
+  <rect x="279" y="110" width="26" height="50" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="274" y="128" fill="#4a90d9" text-anchor="end">R&#8202;D</text>
+  <text x="274" y="146" fill="#8a8a8a" text-anchor="end">4.7 k&#8486;</text>
+  <line x1="292" y1="110" x2="292" y2="72" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- drain current arrow -->
+  <line x1="316" y1="86" x2="316" y2="100" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="316,106 311,96 321,96" fill="#8a8a8a"/>
+  <text x="324" y="98" fill="#8a8a8a">I&#8202;D = 1 mA</text>
+
+  <!-- RS -->
+  <rect x="279" y="244" width="26" height="50" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="274" y="264" fill="#4a90d9" text-anchor="end">R&#8202;S</text>
+  <text x="274" y="282" fill="#8a8a8a" text-anchor="end">2 k&#8486;</text>
+  <line x1="292" y1="294" x2="292" y2="330" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- bypass cap CS -->
+  <line x1="292" y1="244" x2="340" y2="244" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="340" y1="244" x2="340" y2="256" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="326" y1="256" x2="354" y2="256" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="326" y1="264" x2="354" y2="264" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="340" y1="264" x2="340" y2="330" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="340" y="236" fill="#4a90d9" text-anchor="middle">C&#8202;S</text>
+
+  <!-- output coupling cap CC2 -->
+  <line x1="292" y1="168" x2="336" y2="168" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="336" y1="158" x2="336" y2="178" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="344" y1="158" x2="344" y2="178" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="344" y1="168" x2="410" y2="168" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="340" y="150" fill="#4a90d9" text-anchor="middle">C&#8202;C2</text>
+  <circle cx="412" cy="168" r="4" fill="#8a8a8a"/>
+  <text x="404" y="150" fill="#8a8a8a" text-anchor="middle">v&#8202;out</text>
+
+  <!-- Rout marker -->
+  <line x1="326" y1="200" x2="315" y2="178" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="312,172 311,183 320,178" fill="#e0645c"/>
+  <text x="330" y="210" fill="#e0645c" text-anchor="middle">R&#8202;out</text>
+
+  <!-- RL -->
+  <circle cx="386" cy="168" r="3.5" fill="#8a8a8a"/>
+  <line x1="386" y1="168" x2="386" y2="236" stroke="#8a8a8a" stroke-width="1.5"/>
+  <rect x="373" y="236" width="26" height="46" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="406" y="254" fill="#4a90d9">R&#8202;L</text>
+  <text x="406" y="272" fill="#8a8a8a">47 k&#8486;</text>
+  <line x1="386" y1="282" x2="386" y2="330" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- ground -->
+  <line x1="200" y1="330" x2="386" y2="330" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="280" y1="336" x2="304" y2="336" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="285" y1="342" x2="299" y2="342" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="289" y1="348" x2="295" y2="348" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="292" y1="330" x2="292" y2="336" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- ================= PANEL B ================= -->
+
+  <!-- input terminal -->
+  <circle cx="500" cy="180" r="4" fill="#8a8a8a"/>
+  <text x="492" y="176" fill="#8a8a8a" text-anchor="end">v&#8202;in</text>
+  <line x1="504" y1="180" x2="640" y2="180" stroke="#8a8a8a" stroke-width="1.5"/>
+  <circle cx="568" cy="180" r="3.5" fill="#8a8a8a"/>
+
+  <!-- RG = R1 || R2 -->
+  <rect x="555" y="210" width="26" height="46" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="568" y1="180" x2="568" y2="210" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="568" y1="256" x2="568" y2="320" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="548" y="230" fill="#4a90d9" text-anchor="end">R&#8202;1 || R&#8202;2</text>
+  <text x="548" y="248" fill="#8a8a8a" text-anchor="end">667 k&#8486;</text>
+
+  <!-- Rin marker (panel b) -->
+  <line x1="524" y1="146" x2="561" y2="172" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="564,175 555,172 559,165" fill="#e0645c"/>
+  <text x="520" y="142" fill="#e0645c" text-anchor="end">R&#8202;in</text>
+
+  <!-- open gate terminal -->
+  <circle cx="640" cy="180" r="5" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="694" y="146" fill="#8a8a8a" font-style="italic" text-anchor="end">gate open: i&#8202;g = 0, so no r&#960;</text>
+
+  <!-- vgs marker -->
+  <line x1="640" y1="188" x2="640" y2="316" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="626" y="200" fill="#e0645c" text-anchor="end">+</text>
+  <text x="626" y="314" fill="#e0645c" text-anchor="end">&#8722;</text>
+  <text x="626" y="232" fill="#e0645c" text-anchor="end">v&#8202;gs</text>
+
+  <!-- controlled current source -->
+  <circle cx="712" cy="196" r="20" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="712" y1="186" x2="712" y2="203" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="712,209 707,197 717,197" fill="#4a90d9"/>
+  <line x1="712" y1="150" x2="712" y2="176" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="712" y1="216" x2="712" y2="320" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="700" y="272" fill="#4a90d9" text-anchor="end">g&#8202;m v&#8202;gs</text>
+
+  <!-- drain bus -->
+  <line x1="700" y1="150" x2="880" y2="150" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="836" y="140" fill="#8a8a8a" text-anchor="middle">v&#8202;out</text>
+
+  <!-- Rout marker (panel b) -->
+  <line x1="752" y1="108" x2="752" y2="140" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="752,146 747,136 757,136" fill="#e0645c"/>
+  <text x="752" y="102" fill="#e0645c" text-anchor="middle">R&#8202;out &#8776; R&#8202;D</text>
+
+  <!-- RD -->
+  <rect x="777" y="196" width="26" height="48" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="790" y1="150" x2="790" y2="196" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="790" y1="244" x2="790" y2="320" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="808" y="214" fill="#4a90d9">R&#8202;D</text>
+  <text x="808" y="232" fill="#8a8a8a">4.7 k&#8486;</text>
+
+  <!-- RL -->
+  <rect x="857" y="196" width="26" height="48" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="870" y1="150" x2="870" y2="196" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="870" y1="244" x2="870" y2="320" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="888" y="214" fill="#4a90d9">R&#8202;L</text>
+  <text x="888" y="232" fill="#8a8a8a">47 k&#8486;</text>
+
+  <!-- ground panel b -->
+  <line x1="568" y1="320" x2="870" y2="320" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="700" y1="320" x2="700" y2="326" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="688" y1="326" x2="712" y2="326" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="693" y1="332" x2="707" y2="332" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="697" y1="338" x2="703" y2="338" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- ================= bottom annotations ================= -->
+  <text x="24" y="378" fill="#8a8a8a">M&#8202;1: k&#8242;&#8202;n W/L = 2 mA/V&#178;, V&#8202;t = 1 V   &#8594;   Q-point: I&#8202;D = 1 mA, V&#8202;GS = 2 V, V&#8202;ov = 1 V, V&#8202;DS = 5.3 V &#8805; V&#8202;ov, so saturated.</text>
+  <text x="24" y="398" fill="#e0645c">g&#8202;m = 2I&#8202;D/V&#8202;ov = 2 mA/V   &#8594;   A&#8202;v = &#8722;g&#8202;m(R&#8202;D || R&#8202;L) = &#8722;8.5,   R&#8202;in = R&#8202;1 || R&#8202;2 = 667 k&#8486;,   R&#8202;out &#8776; R&#8202;D = 4.7 k&#8486;</text>
+  <text x="24" y="418" fill="#8a8a8a" font-style="italic">r&#8202;o (channel-length modulation) would sit across the source, in parallel with R&#8202;D; omitted here because r&#8202;o &#8811; R&#8202;D.</text>
+</svg>

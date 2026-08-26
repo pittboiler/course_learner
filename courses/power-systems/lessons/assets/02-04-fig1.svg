@@ -1,0 +1,57 @@
+<svg viewBox="0 0 660 410" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="20" y="20" fill="#8a8a8a" font-style="italic">Left: unequal spacings, averaged by GMD and by transposition.   Right: why bundling works.</text>
+  <line x1="136.0" y1="86.0" x2="136.0" y2="240.0" stroke="#8a8a8a" stroke-width="2"/>
+  <circle cx="76.0" cy="112.0" r="8.0" stroke="#4a90d9" fill="#4a90d9" fill-opacity="0.18" stroke-width="1.6"/>
+  <text x="76.0" y="116.0" fill="#4a90d9" font-size="9" text-anchor="middle">a</text>
+  <circle cx="196.0" cy="122.0" r="8.0" stroke="#4a90d9" fill="#4a90d9" fill-opacity="0.18" stroke-width="1.6"/>
+  <text x="196.0" y="126.0" fill="#4a90d9" font-size="9" text-anchor="middle">b</text>
+  <circle cx="136.0" cy="174.0" r="8.0" stroke="#4a90d9" fill="#4a90d9" fill-opacity="0.18" stroke-width="1.6"/>
+  <text x="136.0" y="178.0" fill="#4a90d9" font-size="9" text-anchor="middle">c</text>
+  <line x1="76.0" y1="112.0" x2="196.0" y2="122.0" stroke="#e0645c" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <text x="136.0" y="104.0" fill="#e0645c" font-size="9" text-anchor="middle">D<tspan font-size="0.72em" dy="3">ab</tspan><tspan dy="-3"> </tspan></text>
+  <line x1="196.0" y1="122.0" x2="136.0" y2="174.0" stroke="#e0645c" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <text x="180.0" y="158.0" fill="#e0645c" font-size="9" text-anchor="middle">D<tspan font-size="0.72em" dy="3">bc</tspan><tspan dy="-3"> </tspan></text>
+  <line x1="136.0" y1="174.0" x2="76.0" y2="112.0" stroke="#e0645c" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <text x="90.0" y="156.0" fill="#e0645c" font-size="9" text-anchor="middle">D<tspan font-size="0.72em" dy="3">ca</tspan><tspan dy="-3"> </tspan></text>
+  <text x="136.0" y="272.0" fill="#e0645c" font-size="12" text-anchor="middle">D<tspan font-size="0.72em" dy="3">m</tspan><tspan dy="-3"> = &#8731;(D</tspan><tspan font-size="0.72em" dy="3">ab</tspan><tspan dy="-3"> D</tspan><tspan font-size="0.72em" dy="3">bc</tspan><tspan dy="-3"> D</tspan><tspan font-size="0.72em" dy="3">ca</tspan><tspan dy="-3">)</tspan></text>
+  <text x="24.0" y="254.0" fill="#8a8a8a" font-size="10" text-anchor="start">transposition: each phase occupies each position for a third of the route</text>
+  <rect x="30.0" y="272.0" width="92.0" height="58.0" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="0.05" stroke-width="0.9" rx="3"/>
+  <text x="76.0" y="288.0" fill="#4a90d9" font-size="10" text-anchor="middle">a</text>
+  <text x="76.0" y="305.0" fill="#4a90d9" font-size="10" text-anchor="middle">b</text>
+  <text x="76.0" y="322.0" fill="#4a90d9" font-size="10" text-anchor="middle">c</text>
+  <text x="76.0" y="346.0" fill="#8a8a8a" font-size="9" text-anchor="middle">section 1</text>
+  <rect x="132.0" y="272.0" width="92.0" height="58.0" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="0.05" stroke-width="0.9" rx="3"/>
+  <text x="178.0" y="288.0" fill="#4a90d9" font-size="10" text-anchor="middle">c</text>
+  <text x="178.0" y="305.0" fill="#4a90d9" font-size="10" text-anchor="middle">a</text>
+  <text x="178.0" y="322.0" fill="#4a90d9" font-size="10" text-anchor="middle">b</text>
+  <text x="178.0" y="346.0" fill="#8a8a8a" font-size="9" text-anchor="middle">section 2</text>
+  <rect x="234.0" y="272.0" width="92.0" height="58.0" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="0.05" stroke-width="0.9" rx="3"/>
+  <text x="280.0" y="288.0" fill="#4a90d9" font-size="10" text-anchor="middle">b</text>
+  <text x="280.0" y="305.0" fill="#4a90d9" font-size="10" text-anchor="middle">c</text>
+  <text x="280.0" y="322.0" fill="#4a90d9" font-size="10" text-anchor="middle">a</text>
+  <text x="280.0" y="346.0" fill="#8a8a8a" font-size="9" text-anchor="middle">section 3</text>
+  <text x="508.0" y="88.0" fill="#8a8a8a" font-size="12" text-anchor="middle">single conductor vs. bundle</text>
+  <circle cx="438.0" cy="134.0" r="17.0" stroke="#4a90d9" fill="none" fill-opacity="1" stroke-width="1.8"/>
+  <line x1="438.0" y1="134.0" x2="455.0" y2="134.0" stroke="#e0645c" stroke-width="1.2"/>
+  <text x="448.0" y="128.0" fill="#e0645c" font-size="9" text-anchor="start">r</text>
+  <circle cx="438.0" cy="134.0" r="12.0" stroke="#8a8a8a" fill="none" fill-opacity="3 3" stroke-width="1"/>
+  <text x="438.0" y="172.0" fill="#8a8a8a" font-size="9" text-anchor="middle">r&#8242; = 0.7788 r  (GMR)</text>
+  <text x="438.0" y="188.0" fill="#e0645c" font-size="9" text-anchor="middle">capacitance uses r</text>
+  <text x="438.0" y="204.0" fill="#4a90d9" font-size="9" text-anchor="middle">inductance uses r&#8242;</text>
+  <circle cx="548.0" cy="134.0" r="12.0" stroke="#4a90d9" fill="none" fill-opacity="1" stroke-width="1.8"/>
+  <circle cx="594.0" cy="134.0" r="12.0" stroke="#4a90d9" fill="none" fill-opacity="1" stroke-width="1.8"/>
+  <line x1="548.0" y1="134.0" x2="594.0" y2="134.0" stroke="#e0645c" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <text x="571.0" y="128.0" fill="#e0645c" font-size="9" text-anchor="middle">d</text>
+  <circle cx="571.0" cy="134.0" r="42.0" stroke="#8a8a8a" fill="none" fill-opacity="4 4" stroke-width="1"/>
+  <text x="571.0" y="196.0" fill="#e0645c" font-size="10" text-anchor="middle">D<tspan font-size="0.72em" dy="3">sb</tspan><tspan dy="-3"> = &#8730;(r&#8242;d)  &#8811; r&#8242;</tspan></text>
+  <rect x="396.0" y="228.0" width="236.0" height="112.0" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="0.04" stroke-width="0.9" rx="5"/>
+  <text x="514.0" y="250.0" fill="#8a8a8a" font-size="11" text-anchor="middle">two-conductor bundle</text>
+  <text x="414.0" y="274.0" fill="#4a90d9" font-size="10" text-anchor="start">X<tspan font-size="0.72em" dy="3">L</tspan><tspan dy="-3"> </tspan></text>
+  <text x="514.0" y="274.0" fill="#8a8a8a" font-size="10" text-anchor="start">down ~25%</text>
+  <text x="414.0" y="296.0" fill="#4a90d9" font-size="10" text-anchor="start">C</text>
+  <text x="514.0" y="296.0" fill="#8a8a8a" font-size="10" text-anchor="start">up ~20%</text>
+  <text x="414.0" y="318.0" fill="#4a90d9" font-size="10" text-anchor="start">surface field</text>
+  <text x="514.0" y="318.0" fill="#8a8a8a" font-size="10" text-anchor="start">down sharply</text>
+  <text x="414.0" y="340.0" fill="#8a8a8a" font-size="9" text-anchor="start">&#8212; and less corona</text>
+  <text x="24.0" y="394.0" fill="#8a8a8a" font-size="10" text-anchor="start">GMR handles the conductor&#8217;s internal flux; GMD handles the spacing. Capacitance uses the real radius, not the GMR.</text>
+</svg>

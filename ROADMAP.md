@@ -290,7 +290,7 @@ New field (Phases 4–6 in [EXPANSION.md](EXPANSION.md)); the nuclear shelf (Pha
 | `electronics` | Electronics & Semiconductors | 1 | circuits | Diodes, BJTs, MOSFETs, amplifiers, op-amps, and digital-gate basics. |
 | `digital-logic` | Digital Logic Design | 1 | discrete-mathematics | Boolean algebra, combinational & sequential logic, finite-state machines, and datapaths. |
 | `structural-analysis` | Structural Analysis | 1 | mechanics-of-materials | Trusses, frames, beams, deflections, indeterminate structures, and influence lines. |
-| `operations-research` | Operations Research | 1 | linalg, convex-optimization | Linear & integer programming, network flows, queueing theory, and scheduling. |
+| `operations-research` | Operations Research | 1 | linalg, convex-optimization | Simplex, duality and sensitivity, integer & dynamic programming, queueing and inventory. |
 | `intro-nuclear-engineering` | Intro to Nuclear Engineering & Radiation | 1 | em, ode | Nuclear reactions & cross-sections, fission, ionizing radiation, and dose — the foundations of the field. |
 | `reactor-physics` | Reactor Physics & Neutron Transport | 2 | intro-nuclear-engineering, pdes | Neutron diffusion & transport, criticality, the six-factor formula, and reactor kinetics. |
 | `reactor-thermal-hydraulics` | Reactor Thermal-Hydraulics | 2 | heat-transfer, fluid-dynamics | Core heat removal, single- & two-phase flow, boiling, and thermal safety margins. |
@@ -300,10 +300,10 @@ New field (Phases 4–6 in [EXPANSION.md](EXPANSION.md)); the nuclear shelf (Pha
 | `nuclear-fuel-cycle` | Nuclear Fuel Cycle & Policy | 2 | intro-nuclear-engineering | Mining to waste: enrichment, fuel fabrication, reprocessing, waste, and proliferation & policy. |
 | `communications` | Communication Systems | 2 | signals-systems, prob-stat | Modulation (AM/FM/digital), noise, matched filters, and channel capacity. |
 | `power-systems` | Power Systems | 2 | circuits, em | Three-phase power, transformers, transmission lines, load flow, and grid stability. |
-| `semiconductor-devices` | Semiconductor Devices | 2 | condensed-matter, electronics | Band theory applied: carrier transport, p-n junctions, BJTs, MOSFETs, and photodevices. |
-| `aerodynamics` | Aerodynamics | 2 | fluid-dynamics | Airfoils, lift & drag, potential flow, boundary layers, and compressible/supersonic flow. |
+| `semiconductor-devices` | Semiconductor Devices | 2 | condensed-matter, electronics | Band theory applied: carrier transport out of equilibrium, p-n junctions from Poisson's equation, BJTs, MOSFETs, and photodevices. |
+| `aerodynamics` | Aerodynamics | 2 | fluid-dynamics | Airfoils and finite wings, thin-airfoil and lifting-line theory, boundary layers, and compressible/supersonic flow. |
 | `orbital-mechanics` | Astrodynamics | 2 | mechanics, ode | Two-body orbits, Kepler's laws, orbital maneuvers, transfers, and rendezvous. |
-| `propulsion` | Propulsion | 2 | engineering-thermodynamics, fluid-dynamics | Thermodynamic cycles, jet & rocket engines, nozzles, and the rocket equation. |
+| `propulsion` | Propulsion | 2 | engineering-thermodynamics, fluid-dynamics | Thrust and nozzles, air-breathing engine cycles, the rocket equation, and the propulsion design space. |
 | `robotics` | Robotics & Kinematics | 2 | control-systems, linalg | Forward/inverse kinematics, manipulator dynamics, trajectory planning, and feedback control. |
 | `transport-phenomena` | Transport Phenomena | 2 | fluid-dynamics, heat-transfer | Unified momentum, heat, and mass transfer — the chemical-engineering keystone. |
 | `reaction-engineering` | Chemical Reaction Engineering | 2 | engineering-thermodynamics | Reaction kinetics, batch/CSTR/PFR reactor design, catalysis, and selectivity. |

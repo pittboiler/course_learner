@@ -1,0 +1,39 @@
+<svg viewBox="0 0 660 382" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="20.0" y="18.0" fill="#8a8a8a" font-size="12" text-anchor="start">Adverse gradient: dp/dx &gt; 0</text>
+  <path d="M 28 214 Q 124 174 244 196" stroke="#8a8a8a" fill="none" fill-opacity="1" stroke-width="2"/>
+  <path d="M 42.00 209.05 L 43.57 206.99 L 45.14 204.92 L 46.69 202.85 L 48.24 200.79 L 49.76 198.72 L 51.27 196.65 L 52.75 194.59 L 54.20 192.52 L 55.62 190.45 L 57.00 188.39 L 58.34 186.32 L 59.63 184.25 L 60.88 182.19 L 62.07 180.12 L 63.21 178.05 L 64.29 175.99 L 65.31 173.92 L 66.27 171.85 L 67.16 169.79 L 67.98 167.72 L 68.73 165.65 L 69.41 163.59 L 70.01 161.52 L 70.53 159.45 L 70.98 157.39 L 71.34 155.32 L 71.63 153.25 L 71.84 151.19 L 71.96 149.12 L 72.00 147.05" stroke="#4a90d9" fill="none" fill-opacity="1" stroke-width="1.9"/>
+  <line x1="42.0" y1="209.1" x2="42.0" y2="147.1" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3 3"/>
+  <text x="40.0" y="227.1" fill="#4a90d9" font-size="10" text-anchor="middle">full</text>
+  <path d="M 94.00 197.16 L 94.99 195.09 L 96.02 193.03 L 97.09 190.96 L 98.18 188.89 L 99.31 186.83 L 100.45 184.76 L 101.62 182.69 L 102.80 180.63 L 104.00 178.56 L 105.20 176.49 L 106.41 174.43 L 107.61 172.36 L 108.81 170.29 L 110.01 168.23 L 111.18 166.16 L 112.34 164.09 L 113.48 162.03 L 114.58 159.96 L 115.65 157.89 L 116.69 155.83 L 117.68 153.76 L 118.63 151.69 L 119.52 149.63 L 120.36 147.56 L 121.14 145.49 L 121.86 143.43 L 122.50 141.36 L 123.08 139.29 L 123.58 137.23 L 124.00 135.16" stroke="#4a90d9" fill="none" fill-opacity="1" stroke-width="1.9"/>
+  <line x1="94.0" y1="197.2" x2="94.0" y2="135.2" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3 3"/>
+  <text x="92.0" y="215.2" fill="#4a90d9" font-size="10" text-anchor="middle">inflected</text>
+  <path d="M 146.00 195.47 L 146.05 193.40 L 146.17 191.33 L 146.38 189.27 L 146.65 187.20 L 147.00 185.13 L 147.41 183.07 L 147.89 181.00 L 148.43 178.93 L 149.05 176.87 L 149.72 174.80 L 150.46 172.73 L 151.26 170.67 L 152.12 168.60 L 153.05 166.53 L 154.04 164.47 L 155.09 162.40 L 156.20 160.33 L 157.37 158.27 L 158.60 156.20 L 159.89 154.13 L 161.23 152.07 L 162.64 150.00 L 164.11 147.93 L 165.63 145.87 L 167.22 143.80 L 168.86 141.73 L 170.56 139.67 L 172.31 137.60 L 174.13 135.53 L 176.00 133.47" stroke="#e0645c" fill="none" fill-opacity="1" stroke-width="1.9"/>
+  <line x1="146.0" y1="195.5" x2="146.0" y2="133.5" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3 3"/>
+  <text x="144.0" y="213.5" fill="#e0645c" font-size="10" text-anchor="middle">&#964;<tspan font-size="0.72em" dy="3">w</tspan><tspan dy="-3"> = 0</tspan></text>
+  <path d="M 192.00 203.97 L 193.42 201.91 L 194.57 199.84 L 195.52 197.77 L 196.34 195.71 L 197.09 193.64 L 197.79 191.57 L 198.48 189.51 L 199.17 187.44 L 199.90 185.37 L 200.66 183.31 L 201.48 181.24 L 202.35 179.17 L 203.29 177.11 L 204.31 175.04 L 205.40 172.97 L 206.57 170.91 L 207.82 168.84 L 209.16 166.77 L 210.59 164.71 L 212.11 162.64 L 213.72 160.57 L 215.42 158.51 L 217.22 156.44 L 219.11 154.37 L 221.09 152.31 L 223.18 150.24 L 225.36 148.17 L 227.64 146.11 L 230.02 144.04 L 232.50 141.97" stroke="#e0645c" fill="none" fill-opacity="1" stroke-width="1.9"/>
+  <line x1="198.0" y1="204.0" x2="198.0" y2="142.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3 3"/>
+  <text x="196.0" y="222.0" fill="#e0645c" font-size="10" text-anchor="middle">reversed</text>
+  <circle cx="146.0" cy="195.1" r="4.0" stroke="#e0645c" fill="#e0645c" fill-opacity="1" stroke-width="1"/>
+  <path d="M 214 230 Q 230 210 246 226" stroke="#e0645c" fill="none" fill-opacity="1" stroke-width="1.4" stroke-dasharray="3 3"/>
+  <text x="36.0" y="292.0" fill="#8a8a8a" font-size="11" text-anchor="start">separation: wall shear vanishes, then reverses</text>
+  <path d="M 250 190 Q 310 96 420 170" stroke="#8a8a8a" fill="none" fill-opacity="1" stroke-width="2.2"/>
+  <line x1="306.0" y1="146.3" x2="306.0" y2="108.3" stroke="#4a90d9" stroke-width="1.6" stroke-dasharray="4 3"/>
+  <circle cx="306.0" cy="146.3" r="4.0" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="1"/>
+  <text x="250.0" y="100.3" fill="#4a90d9" font-size="10" text-anchor="start">laminar separates</text>
+  <line x1="362.0" y1="139.1" x2="362.0" y2="101.1" stroke="#e0645c" stroke-width="1.6" stroke-dasharray="4 3"/>
+  <circle cx="362.0" cy="139.1" r="4.0" stroke="#e0645c" fill="#e0645c" fill-opacity="1" stroke-width="1"/>
+  <text x="332.0" y="169.1" fill="#e0645c" font-size="10" text-anchor="start">turbulent holds on</text>
+  <text x="244.0" y="240.0" fill="#8a8a8a" font-size="11" text-anchor="start">turbulent mixing resupplies near-wall momentum</text>
+  <line x1="400.0" y1="320.0" x2="630.0" y2="320.0" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="400.0" y1="320.0" x2="400.0" y2="120.0" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="628.0" y="338.0" fill="#8a8a8a" font-size="11" text-anchor="end">C<tspan font-size="0.72em" dy="3">L</tspan><tspan dy="-3"> </tspan></text>
+  <text x="392.0" y="122.0" fill="#8a8a8a" font-size="11" text-anchor="end">C<tspan font-size="0.72em" dy="3">D</tspan><tspan dy="-3"> </tspan></text>
+  <path d="M 400.00 266.67 L 402.88 266.61 L 405.75 266.45 L 408.62 266.19 L 411.50 265.82 L 414.38 265.34 L 417.25 264.76 L 420.12 264.07 L 423.00 263.27 L 425.88 262.37 L 428.75 261.36 L 431.62 260.25 L 434.50 259.02 L 437.38 257.70 L 440.25 256.27 L 443.12 254.73 L 446.00 253.08 L 448.88 251.33 L 451.75 249.47 L 454.62 247.51 L 457.50 245.44 L 460.38 243.26 L 463.25 240.98 L 466.12 238.59 L 469.00 236.10 L 471.88 233.50 L 474.75 230.79 L 477.62 227.98 L 480.50 225.06 L 483.38 222.04 L 486.25 218.91 L 489.12 215.67 L 492.00 212.33 L 494.88 208.88 L 497.75 205.32 L 500.62 201.66 L 503.50 197.89 L 506.38 194.02 L 509.25 190.04 L 512.12 185.95 L 515.00 181.76 L 517.88 177.46 L 520.75 173.05 L 523.62 168.54 L 526.50 163.93 L 529.38 159.20 L 532.25 154.37 L 535.12 149.44 L 538.00 144.40 L 540.88 139.25 L 543.75 134.00 L 546.62 128.64 L 549.50 123.17 L 552.38 117.60 L 555.25 111.92 L 558.12 106.14 L 561.00 100.25 L 563.88 94.25 L 566.75 88.15 L 569.62 81.94 L 572.50 75.62 L 575.38 69.20 L 578.25 62.67 L 581.12 56.04 L 584.00 49.30 L 586.88 42.45 L 589.75 35.50 L 592.62 28.44 L 595.50 21.28 L 598.38 14.01 L 601.25 6.63 L 604.12 -0.85 L 607.00 -8.44 L 609.88 -16.13 L 612.75 -23.93 L 615.62 -31.84 L 618.50 -39.85 L 621.38 -47.97 L 624.25 -56.20 L 627.12 -64.53 L 630.00 -72.97" stroke="#4a90d9" fill="none" fill-opacity="1" stroke-width="2.2"/>
+  <line x1="400.0" y1="266.7" x2="630.0" y2="266.7" stroke="#8a8a8a" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <text x="404.0" y="260.7" fill="#8a8a8a" font-size="10" text-anchor="start">C<tspan font-size="0.72em" dy="3">D,0</tspan><tspan dy="-3"> (profile drag)</tspan></text>
+  <text x="519.6" y="148.0" fill="#4a90d9" font-size="10" text-anchor="start">induced drag</text>
+  <line x1="400.0" y1="320.0" x2="570.9" y2="120.0" stroke="#e0645c" stroke-width="1.8" stroke-dasharray="5 4"/>
+  <circle cx="491.1" cy="213.3" r="4.5" stroke="#e0645c" fill="#e0645c" fill-opacity="1" stroke-width="1"/>
+  <text x="499.1" y="205.3" fill="#e0645c" font-size="11" text-anchor="start">best L/D</text>
+  <text x="20.0" y="372.0" fill="#8a8a8a" font-size="11" text-anchor="start">The tangent from the origin marks best L/D &#8212; where the two drag terms are equal.</text>
+</svg>

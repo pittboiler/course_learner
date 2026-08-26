@@ -1,0 +1,38 @@
+<svg viewBox="0 0 660 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="20" y="20" fill="#8a8a8a" font-style="italic">Reverse bias gives a measurement; forward bias gives a switching penalty.</text>
+  <text x="75" y="46" fill="#8a8a8a" font-size="12">C&#8211;V profiling</text>
+  <text x="380" y="46" fill="#8a8a8a" font-size="12">reverse recovery</text>
+  <line x1="75" y1="235" x2="300" y2="235" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="300.0" y1="235" x2="300.0" y2="75" stroke="#8a8a8a" stroke-width="1.2"/>
+  <path d="M300.0,224.3 L75.0,101.1" fill="none" stroke="#4a90d9" stroke-width="2.6"/>
+  <line x1="300.0" y1="224.3" x2="319.6" y2="235.0" stroke="#4a90d9" stroke-width="1.4" stroke-dasharray="4 3"/>
+  <circle cx="319.6" cy="235.0" r="3.4" fill="#4a90d9"/>
+  <text x="323.6" y="251.0" fill="#4a90d9" font-size="10">intercept = V<tspan font-size="9" dy="2">bi</tspan></text>
+  <path d="M75.0,101.1 L80.6,105.2 L86.2,109.3 L91.9,113.4 L97.5,117.4 L103.1,121.4 L108.8,125.3 L114.4,129.3 L120.0,133.1 L125.6,136.9 L131.2,140.7 L136.9,144.5 L142.5,148.2 L148.1,151.8 L153.8,155.4 L159.4,159.0 L165.0,162.5 L170.6,165.9 L176.2,169.3 L181.9,172.7 L187.5,175.9 L193.1,179.2 L198.8,182.4 L204.4,185.5 L210.0,188.5 L215.6,191.5 L221.2,194.4 L226.9,197.3 L232.5,200.0 L238.1,202.7 L243.8,205.3 L249.4,207.8 L255.0,210.3 L260.6,212.6 L266.2,214.8 L271.9,216.8 L277.5,218.8 L283.1,220.6 L288.8,222.1 L294.4,223.4 L300.0,224.3" fill="none" stroke="#e0645c" stroke-width="2" stroke-dasharray="6 3"/>
+  <text x="84.0" y="102.1" fill="#e0645c" font-size="10">non-uniform doping</text>
+  <text x="156.0" y="176.1" fill="#4a90d9" font-size="10">uniform: straight</text>
+  <text x="174.0" y="192.1" fill="#4a90d9" font-size="9">slope &#8594; N</text>
+  <line x1="75.0" y1="235" x2="75.0" y2="240" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="67.0" y="253" fill="#8a8a8a" font-size="9">-10</text>
+  <line x1="187.5" y1="235" x2="187.5" y2="240" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="179.5" y="253" fill="#8a8a8a" font-size="9">-5</text>
+  <line x1="300.0" y1="235" x2="300.0" y2="240" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="292.0" y="253" fill="#8a8a8a" font-size="9">0</text>
+  <text x="145" y="269" fill="#8a8a8a" font-size="10">reverse bias (V)</text>
+  <text x="29" y="160.0" fill="#8a8a8a" font-size="10" transform="rotate(-90 29 160.0)">1/C&#178;</text>
+  <line x1="380" y1="180" x2="610" y2="180" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="380" y1="120" x2="380" y2="260" stroke="#8a8a8a" stroke-width="1.2"/>
+  <path d="M388,138 L450,138 L454,236 L520,236" fill="none" stroke="#4a90d9" stroke-width="2.6"/>
+  <path d="M520.0,236.0 L521.2,235.8 L522.5,235.5 L523.8,235.1 L525.0,234.6 L526.2,234.0 L527.5,233.3 L528.8,232.6 L530.0,231.7 L531.2,230.9 L532.5,229.9 L533.8,228.9 L535.0,227.8 L536.2,226.7 L537.5,225.6 L538.8,224.3 L540.0,223.1 L541.2,221.8 L542.5,220.4 L543.8,219.0 L545.0,217.5 L546.2,216.0 L547.5,214.5 L548.8,212.9 L550.0,211.3 L551.2,209.6 L552.5,207.9 L553.8,206.1 L555.0,204.4 L556.2,202.5 L557.5,200.7 L558.8,198.8 L560.0,196.8 L561.2,194.8 L562.5,192.8 L563.8,190.8 L565.0,188.7 L566.2,186.6 L567.5,184.4 L568.8,182.2 L570.0,180.0" fill="none" stroke="#4a90d9" stroke-width="2.6"/>
+  <path d="M454,180 L454,236 L520,236 L520,180 Z" fill="#e0645c" fill-opacity="0.18" stroke="none"/>
+  <text x="394" y="132" fill="#4a90d9" font-size="10">I<tspan font-size="9" dy="2">F</tspan></text>
+  <text x="526" y="246" fill="#4a90d9" font-size="10">&#8722;I<tspan font-size="9" dy="2">R</tspan></text>
+  <line x1="454" y1="250" x2="520" y2="250" stroke="#e0645c" stroke-width="1.3"/>
+  <polygon points="454,250 463,246 463,254" fill="#e0645c"/>
+  <polygon points="520,250 511,246 511,254" fill="#e0645c"/>
+  <text x="477.0" y="264" fill="#e0645c" font-size="10">t<tspan font-size="9" dy="2">s</tspan></text>
+  <text x="460" y="214" fill="#e0645c" font-size="9">Q<tspan font-size="8" dy="2">S</tspan><tspan font-size="9" dy="-2"> = I</tspan><tspan font-size="8" dy="2">F</tspan><tspan font-size="9" dy="-2">&#964;</tspan><tspan font-size="8" dy="2">T</tspan></text>
+  <text x="586" y="172" fill="#8a8a8a" font-size="10">t</text>
+  <text x="380" y="288" fill="#8a8a8a" font-size="10">the diode conducts <tspan font-style="italic">backwards</tspan> until the</text>
+  <text x="380" y="301" fill="#8a8a8a" font-size="10">stored minority charge is swept out</text>
+</svg>

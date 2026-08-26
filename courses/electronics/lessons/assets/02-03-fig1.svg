@@ -1,0 +1,162 @@
+<svg viewBox="0 0 840 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Same circuit, twice: kill the DC (supplies to ground, caps to shorts) and the transistor becomes r&#960; plus a controlled source gm&#183;vbe.</text>
+
+  <text x="60" y="46" fill="#8a8a8a">The amplifier as built</text>
+  <text x="500" y="46" fill="#8a8a8a">Small-signal equivalent</text>
+
+  <!-- ================= LEFT: full circuit ================= -->
+
+  <!-- ground rail -->
+  <line x1="56" y1="286" x2="300" y2="286" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="188" y1="286" x2="188" y2="294" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="176" y1="294" x2="200" y2="294" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="181" y1="299" x2="195" y2="299" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="186" y1="304" x2="190" y2="304" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- signal source -->
+  <line x1="56" y1="190" x2="56" y2="208" stroke="#8a8a8a" stroke-width="1.5"/>
+  <circle cx="56" cy="222" r="14" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <path d="M 49 222 Q 52.5 213 56 222 Q 59.5 231 63 222" fill="none" stroke="#4a90d9" stroke-width="1.5"/>
+  <line x1="56" y1="236" x2="56" y2="286" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="18" y="226" fill="#4a90d9">vsig</text>
+
+  <!-- input coupling cap C1 -->
+  <line x1="56" y1="190" x2="84" y2="190" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="84" y1="179" x2="84" y2="201" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="94" y1="179" x2="94" y2="201" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="94" y1="190" x2="120" y2="190" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="78" y="172" fill="#8a8a8a">C1</text>
+
+  <!-- supply rail -->
+  <line x1="120" y1="68" x2="235" y2="68" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="178" y1="68" x2="178" y2="56" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="170" y1="56" x2="186" y2="56" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="192" y="60" fill="#8a8a8a">VCC = 15 V</text>
+
+  <!-- R1 -->
+  <path d="M 120 68 L 120 73 L 112 77 L 128 83 L 112 89 L 128 95 L 112 101 L 120 107 L 120 112"
+        fill="none" stroke="#8a8a8a" stroke-width="1.8"/>
+  <line x1="120" y1="112" x2="120" y2="220" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="90" y="90" fill="#8a8a8a">R1</text>
+  <text x="78" y="105" fill="#8a8a8a">47k</text>
+
+  <!-- R2 -->
+  <path d="M 120 220 L 120 225 L 112 229 L 128 235 L 112 241 L 128 247 L 112 253 L 120 259 L 120 264"
+        fill="none" stroke="#8a8a8a" stroke-width="1.8"/>
+  <line x1="120" y1="264" x2="120" y2="286" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="90" y="242" fill="#8a8a8a">R2</text>
+  <text x="78" y="257" fill="#8a8a8a">10k</text>
+
+  <!-- base wire -->
+  <line x1="120" y1="190" x2="195" y2="190" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- transistor -->
+  <circle cx="218" cy="190" r="36" fill="none" stroke="#4a90d9" stroke-width="1.2" opacity="0.6"/>
+  <line x1="195" y1="168" x2="195" y2="212" stroke="#4a90d9" stroke-width="3"/>
+  <line x1="195" y1="177" x2="235" y2="153" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="195" y1="203" x2="235" y2="227" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="223,219.8 214.9,219.6 219.1,212.8" fill="#4a90d9"/>
+  <text x="146" y="146" fill="#4a90d9">&#946; = 100</text>
+
+  <!-- RC -->
+  <path d="M 235 68 L 235 73 L 227 77 L 243 83 L 227 89 L 243 95 L 227 101 L 235 107 L 235 112"
+        fill="none" stroke="#8a8a8a" stroke-width="1.8"/>
+  <line x1="235" y1="112" x2="235" y2="153" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="248" y="88" fill="#8a8a8a">RC</text>
+  <text x="248" y="103" fill="#8a8a8a">3.3k</text>
+
+  <!-- emitter branch -->
+  <line x1="235" y1="227" x2="235" y2="240" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="210" y1="240" x2="262" y2="240" stroke="#8a8a8a" stroke-width="1.5"/>
+  <path d="M 210 240 L 210 245 L 202 249 L 218 255 L 202 261 L 218 267 L 202 273 L 210 279 L 210 284"
+        fill="none" stroke="#8a8a8a" stroke-width="1.8"/>
+  <line x1="210" y1="284" x2="210" y2="286" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="168" y="258" fill="#8a8a8a">RE</text>
+  <text x="170" y="273" fill="#8a8a8a">1k</text>
+  <line x1="262" y1="240" x2="262" y2="256" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="251" y1="256" x2="273" y2="256" stroke="#e0645c" stroke-width="2"/>
+  <line x1="251" y1="264" x2="273" y2="264" stroke="#e0645c" stroke-width="2"/>
+  <line x1="262" y1="264" x2="262" y2="286" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="278" y="262" fill="#e0645c">CE</text>
+
+  <!-- output coupling cap C2 and load -->
+  <line x1="235" y1="153" x2="256" y2="153" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="256" y1="142" x2="256" y2="164" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="266" y1="142" x2="266" y2="164" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="266" y1="153" x2="300" y2="153" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="248" y="134" fill="#8a8a8a">C2</text>
+  <circle cx="300" cy="153" r="3.5" fill="#4a90d9"/>
+  <text x="286" y="138" fill="#4a90d9">vout</text>
+  <path d="M 300 166 L 300 171 L 292 175 L 308 181 L 292 187 L 308 193 L 292 199 L 300 205 L 300 210"
+        fill="none" stroke="#8a8a8a" stroke-width="1.8"/>
+  <line x1="300" y1="210" x2="300" y2="286" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="313" y="190" fill="#8a8a8a">RL</text>
+
+  <!-- ================= transformation arrow ================= -->
+  <text x="344" y="148" fill="#8a8a8a">supplies &#8594; gnd</text>
+  <text x="344" y="166" fill="#8a8a8a">caps &#8594; short</text>
+  <line x1="348" y1="186" x2="414" y2="186" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="420,186 410,181 410,191" fill="#8a8a8a"/>
+
+  <!-- ================= RIGHT: small-signal equivalent ================= -->
+
+  <!-- ground rail -->
+  <line x1="440" y1="286" x2="800" y2="286" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="560" y1="286" x2="560" y2="294" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="548" y1="294" x2="572" y2="294" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="553" y1="299" x2="567" y2="299" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="558" y1="304" x2="562" y2="304" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- signal source -->
+  <line x1="440" y1="190" x2="440" y2="208" stroke="#8a8a8a" stroke-width="1.5"/>
+  <circle cx="440" cy="222" r="14" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <path d="M 433 222 Q 436.5 213 440 222 Q 443.5 231 447 222" fill="none" stroke="#4a90d9" stroke-width="1.5"/>
+  <line x1="440" y1="236" x2="440" y2="286" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="402" y="226" fill="#4a90d9">vsig</text>
+
+  <!-- input node wire (base) -->
+  <line x1="440" y1="190" x2="620" y2="190" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- Rin marker -->
+  <text x="458" y="166" fill="#e0645c">Rin</text>
+  <line x1="452" y1="176" x2="484" y2="176" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="488,176 479,172 479,180" fill="#e0645c"/>
+
+  <!-- bias divider seen by the signal -->
+  <line x1="502" y1="190" x2="502" y2="214" stroke="#8a8a8a" stroke-width="1.5"/>
+  <path d="M 502 214 L 502 219 L 494 223 L 510 229 L 494 235 L 510 241 L 494 247 L 502 253 L 502 258"
+        fill="none" stroke="#8a8a8a" stroke-width="1.8"/>
+  <line x1="502" y1="258" x2="502" y2="286" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="514" y="240" fill="#8a8a8a">R1 || R2</text>
+
+  <!-- r-pi -->
+  <line x1="620" y1="190" x2="620" y2="214" stroke="#8a8a8a" stroke-width="1.5"/>
+  <path d="M 620 214 L 620 219 L 612 223 L 628 229 L 612 235 L 628 241 L 612 247 L 620 253 L 620 258"
+        fill="none" stroke="#4a90d9" stroke-width="1.8"/>
+  <line x1="620" y1="258" x2="620" y2="286" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="632" y="240" fill="#4a90d9">r&#960;</text>
+  <circle cx="620" cy="190" r="3.5" fill="#4a90d9"/>
+  <text x="588" y="178" fill="#4a90d9">vbe</text>
+
+  <!-- controlled current source -->
+  <line x1="690" y1="190" x2="690" y2="202" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="690,202 708,222 690,242 672,222" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="690" y1="208" x2="690" y2="232" stroke="#4a90d9" stroke-width="1.5"/>
+  <polygon points="690,236 685,227 695,227" fill="#4a90d9"/>
+  <line x1="690" y1="242" x2="690" y2="286" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="652" y="262" fill="#4a90d9">gm&#183;vbe</text>
+
+  <!-- output node wire -->
+  <line x1="690" y1="190" x2="800" y2="190" stroke="#8a8a8a" stroke-width="1.5"/>
+  <path d="M 752 190 L 752 195 L 744 199 L 760 205 L 744 211 L 760 217 L 744 223 L 752 229 L 752 234"
+        fill="none" stroke="#8a8a8a" stroke-width="1.8"/>
+  <line x1="752" y1="234" x2="752" y2="286" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="764" y="216" fill="#8a8a8a">RC</text>
+  <circle cx="800" cy="190" r="3.5" fill="#4a90d9"/>
+  <text x="778" y="148" fill="#4a90d9">vout</text>
+
+  <!-- Rout marker -->
+  <text x="762" y="166" fill="#e0645c">Rout</text>
+  <line x1="798" y1="176" x2="768" y2="176" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="764,176 773,172 773,180" fill="#e0645c"/>
+</svg>

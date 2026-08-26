@@ -1,0 +1,32 @@
+<svg viewBox="0 0 660 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="20" y="20" fill="#8a8a8a" font-style="italic">Left: the block structure that motivates every fast variant.   Right: three methods, one problem.</text>
+  <rect x="56.0" y="96.0" width="110.0" height="86.0" stroke="#4a90d9" fill="#4a90d9" fill-opacity="0.22" stroke-width="1.6" rx="0"/>
+  <text x="111.0" y="143.0" fill="#4a90d9" font-size="12" text-anchor="middle">H = &#8706;P/&#8706;&#952;</text>
+  <rect x="166.0" y="96.0" width="110.0" height="86.0" stroke="#e0645c" fill="#e0645c" fill-opacity="0.05" stroke-width="1.6" rx="0"/>
+  <text x="221.0" y="143.0" fill="#e0645c" font-size="12" text-anchor="middle">N = &#8706;P/&#8706;V</text>
+  <rect x="56.0" y="182.0" width="110.0" height="86.0" stroke="#e0645c" fill="#e0645c" fill-opacity="0.05" stroke-width="1.6" rx="0"/>
+  <text x="111.0" y="229.0" fill="#e0645c" font-size="12" text-anchor="middle">J = &#8706;Q/&#8706;&#952;</text>
+  <rect x="166.0" y="182.0" width="110.0" height="86.0" stroke="#4a90d9" fill="#4a90d9" fill-opacity="0.22" stroke-width="1.6" rx="0"/>
+  <text x="221.0" y="229.0" fill="#4a90d9" font-size="12" text-anchor="middle">L = &#8706;Q/&#8706;V</text>
+  <text x="166.0" y="80.0" fill="#8a8a8a" font-size="12" text-anchor="middle">the power-flow Jacobian</text>
+  <text x="56.0" y="296.0" fill="#8a8a8a" font-size="10" text-anchor="start">dark blocks large, light blocks small &#8212; because X &#8811; R</text>
+  <text x="56.0" y="318.0" fill="#4a90d9" font-size="11" text-anchor="start">P follows &#952;;  Q follows |V|</text>
+  <line x1="288.0" y1="182.0" x2="324.0" y2="182.0" stroke="#8a8a8a" stroke-width="1.8"/>
+  <polygon points="324.0,182.0 317.6,184.7 317.6,179.3" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="1" stroke-width="0.5"/>
+  <text x="306.0" y="172.0" fill="#8a8a8a" font-size="10" text-anchor="middle">FDLF</text>
+  <text x="306.0" y="204.0" fill="#e0645c" font-size="9" text-anchor="middle">discards the</text>
+  <text x="306.0" y="220.0" fill="#e0645c" font-size="9" text-anchor="middle">light blocks</text>
+  <line x1="406.0" y1="326.0" x2="614.0" y2="326.0" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="406.0" y1="326.0" x2="406.0" y2="100.0" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="510.0" y="348.0" fill="#8a8a8a" font-size="10" text-anchor="middle">iteration</text>
+  <text x="408.0" y="92.0" fill="#8a8a8a" font-size="10" text-anchor="start">max mismatch (log)</text>
+  <path d="M 406.00 118.48 L 423.33 142.80 L 440.67 186.19 L 458.00 272.55 L 475.33 317.62" stroke="#4a90d9" fill="none" fill-opacity="1" stroke-width="2.3"/>
+  <text x="444.0" y="292.5" fill="#4a90d9" font-size="10" text-anchor="start">Newton</text>
+  <path d="M 406.00 118.48 L 423.33 135.67 L 440.67 152.86 L 458.00 170.05 L 475.33 187.23 L 492.67 204.42 L 510.00 221.61 L 527.33 238.80 L 544.67 255.99 L 562.00 273.18 L 579.33 290.37 L 596.67 307.55" stroke="#e0645c" fill="none" fill-opacity="1" stroke-width="2"/>
+  <text x="612.0" y="319.6" fill="#e0645c" font-size="10" text-anchor="end">FDLF</text>
+  <path d="M 406.00 118.48 L 423.33 127.28 L 440.67 136.09 L 458.00 144.89 L 475.33 153.70 L 492.67 162.50 L 510.00 171.30 L 527.33 180.11 L 544.67 188.91 L 562.00 197.72 L 579.33 206.52 L 596.67 215.32 L 614.00 224.13" stroke="#8a8a8a" fill="none" fill-opacity="1" stroke-width="2"/>
+  <text x="612.0" y="238.1" fill="#8a8a8a" font-size="10" text-anchor="end">Gauss&#8211;Seidel</text>
+  <line x1="406.0" y1="200.2" x2="614.0" y2="200.2" stroke="#8a8a8a" stroke-width="1.1" stroke-dasharray="5 4"/>
+  <text x="409.0" y="194.2" fill="#8a8a8a" font-size="9" text-anchor="start">tolerance</text>
+  <text x="30.0" y="386.0" fill="#8a8a8a" font-size="10" text-anchor="start">Newton&#8217;s iteration count is essentially independent of system size &#8212; which is why every solver is a Newton variant.</text>
+</svg>

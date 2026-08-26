@@ -1,0 +1,55 @@
+<svg viewBox="0 0 660 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="20" y="18" fill="#8a8a8a" font-style="italic">The quadrature dimension is free once; after that you are crowding a circle.</text>
+
+  <text x="40" y="46" fill="#8a8a8a" font-size="12">QPSK (Gray-labelled)</text>
+  <line x1="32" y1="175" x2="188" y2="175" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="4 3"/>
+  <line x1="110" y1="97" x2="110" y2="253" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="4 3"/>
+  <circle cx="110" cy="175" r="52" fill="none" stroke="#8a8a8a" stroke-width="0.6" stroke-dasharray="2 4"/>
+  <circle cx="146.8" cy="138.2" r="4.5" fill="#4a90d9"/>
+  <circle cx="73.2" cy="138.2" r="4.5" fill="#4a90d9"/>
+  <circle cx="73.2" cy="211.8" r="4.5" fill="#4a90d9"/>
+  <circle cx="146.8" cy="211.8" r="4.5" fill="#4a90d9"/>
+  <text x="154.8" y="130.2" fill="#8a8a8a" font-size="10">11</text>
+  <text x="51.2" y="130.2" fill="#8a8a8a" font-size="10">01</text>
+  <text x="51.2" y="227.8" fill="#8a8a8a" font-size="10">00</text>
+  <text x="154.8" y="227.8" fill="#8a8a8a" font-size="10">10</text>
+  <text x="166" y="169" fill="#8a8a8a" font-size="10">I</text>
+  <text x="114" y="111" fill="#8a8a8a" font-size="10">Q</text>
+  <text x="38" y="271" fill="#8a8a8a" font-size="10">boundaries are the axes:</text>
+  <text x="38" y="284" fill="#8a8a8a" font-size="10">I and Q decide independently</text>
+
+  <text x="290" y="46" fill="#8a8a8a" font-size="12">8-PSK</text>
+  <circle cx="320" cy="175" r="52" fill="none" stroke="#8a8a8a" stroke-width="0.6" stroke-dasharray="2 4"/>
+  <circle cx="368.0" cy="155.1" r="4" fill="#4a90d9"/>
+  <circle cx="339.9" cy="127.0" r="4" fill="#4a90d9"/>
+  <circle cx="300.1" cy="127.0" r="4" fill="#4a90d9"/>
+  <circle cx="272.0" cy="155.1" r="4" fill="#4a90d9"/>
+  <circle cx="272.0" cy="194.9" r="4" fill="#4a90d9"/>
+  <circle cx="300.1" cy="223.0" r="4" fill="#4a90d9"/>
+  <circle cx="339.9" cy="223.0" r="4" fill="#4a90d9"/>
+  <circle cx="368.0" cy="194.9" r="4" fill="#4a90d9"/>
+  <line x1="368.0" y1="155.1" x2="339.9" y2="127.0" stroke="#e0645c" stroke-width="2"/>
+  <text x="344" y="119" fill="#e0645c" font-size="10">d<tspan font-size="8" dy="2">min</tspan><tspan font-size="10" dy="-2"> = 2&#8730;E</tspan><tspan font-size="8" dy="2">s</tspan><tspan font-size="10" dy="-2">sin(&#960;/M)</tspan></text>
+  <text x="270" y="271" fill="#8a8a8a" font-size="10">same radius, closer points</text>
+
+  <text x="444" y="46" fill="#8a8a8a" font-size="12">E<tspan font-size="9" dy="2">b</tspan><tspan font-size="12" dy="-2">/N</tspan><tspan font-size="9" dy="2">0</tspan><tspan font-size="12" dy="-2"> needed at P</tspan><tspan font-size="9" dy="2">b</tspan><tspan font-size="12" dy="-2"> = 10</tspan><tspan font-size="9" dy="-4">&#8722;5</tspan></text>
+  <line x1="442" y1="265" x2="650" y2="265" stroke="#8a8a8a" stroke-width="1.2"/>
+  <rect x="450" y="205.1" width="32" height="59.9" fill="#4a90d9" fill-opacity="0.30" stroke="#4a90d9" stroke-width="1.6"/>
+  <text x="453" y="199.1" fill="#8a8a8a" font-size="9">9.6</text>
+  <text x="459" y="280" fill="#8a8a8a" font-size="10">2</text>
+  <rect x="490" y="205.1" width="32" height="59.9" fill="#4a90d9" fill-opacity="0.30" stroke="#4a90d9" stroke-width="1.6"/>
+  <text x="493" y="199.1" fill="#8a8a8a" font-size="9">9.6</text>
+  <text x="499" y="280" fill="#8a8a8a" font-size="10">4</text>
+  <rect x="530" y="183.9" width="32" height="81.1" fill="#e0645c" fill-opacity="0.30" stroke="#e0645c" stroke-width="1.6"/>
+  <text x="533" y="177.9" fill="#8a8a8a" font-size="9">13.0</text>
+  <text x="539" y="280" fill="#8a8a8a" font-size="10">8</text>
+  <rect x="570" y="156.0" width="32" height="109.0" fill="#e0645c" fill-opacity="0.30" stroke="#e0645c" stroke-width="1.6"/>
+  <text x="573" y="150.0" fill="#8a8a8a" font-size="9">17.4</text>
+  <text x="579" y="280" fill="#8a8a8a" font-size="10">16</text>
+  <rect x="610" y="125.4" width="32" height="139.6" fill="#e0645c" fill-opacity="0.30" stroke="#e0645c" stroke-width="1.6"/>
+  <text x="613" y="119.4" fill="#8a8a8a" font-size="9">22.3</text>
+  <text x="619" y="280" fill="#8a8a8a" font-size="10">32</text>
+  <text x="506" y="297" fill="#8a8a8a" font-size="10">M</text>
+  <text x="442" y="315" fill="#8a8a8a" font-size="10">flat from 2 to 4 (free dimension),</text>
+  <text x="442" y="328" fill="#8a8a8a" font-size="10">then &#8776;5 dB per extra bit</text>
+</svg>

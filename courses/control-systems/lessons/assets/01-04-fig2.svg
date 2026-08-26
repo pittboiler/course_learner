@@ -1,0 +1,35 @@
+<svg viewBox="0 0 480 250" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="30" y="20" fill="#8a8a8a" font-size="12" font-style="italic">A right-half-plane zero: the step response first goes the wrong way.</text>
+
+  <!-- axes -->
+  <line x1="55" y1="150" x2="440" y2="150" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="440,150 430,145 430,155" fill="#8a8a8a"/>
+  <text x="444" y="155" fill="#8a8a8a">t</text>
+  <line x1="55" y1="200" x2="55" y2="62" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="55,62 50,72 60,72" fill="#8a8a8a"/>
+  <text x="42" y="70" fill="#8a8a8a">y</text>
+
+  <!-- t ticks -->
+  <line x1="175" y1="150" x2="175" y2="156" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="295" y1="150" x2="295" y2="156" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="415" y1="150" x2="415" y2="156" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="171" y="170" fill="#8a8a8a" font-size="12">2</text>
+  <text x="291" y="170" fill="#8a8a8a" font-size="12">4</text>
+  <text x="411" y="170" fill="#8a8a8a" font-size="12">6</text>
+
+  <!-- final value line -->
+  <line x1="55" y1="85" x2="425" y2="85" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="298" y="79" fill="#8a8a8a" font-size="12">G(0) = 1/2, the DC gain</text>
+
+  <!-- undershoot marker -->
+  <line x1="79.3" y1="150" x2="79.3" y2="171.7" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 3"/>
+  <circle cx="79.3" cy="171.7" r="3.5" fill="#e0645c"/>
+  <text x="88" y="190" fill="#e0645c" font-size="12">dips to &#8722;1/6 at t = ln 1.5</text>
+
+  <!-- step response -->
+  <path d="M 55 150 L 67 167.2 L 79.3 171.7 L 91 169.0 L 115 154.3 L 139 137.3 L 163 122.7 L 187 111.4 L 211 103.2 L 235 97.5 L 265 92.7 L 295 89.7 L 325 87.9 L 355 86.7 L 385 86.1 L 415 85.6"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <text x="180" y="220" fill="#8a8a8a" font-size="13">G(s) = (1 &#8722; s) / [ (s + 1)(s + 2) ]</text>
+  <text x="180" y="238" fill="#8a8a8a" font-size="12" font-style="italic">zero at s = +1, poles at &#8722;1 and &#8722;2</text>
+</svg>

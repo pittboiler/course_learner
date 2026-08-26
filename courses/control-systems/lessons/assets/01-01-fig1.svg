@@ -1,0 +1,67 @@
+<svg viewBox="0 0 680 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">The canonical loop. Everything in this course is a statement about this picture.</text>
+
+  <!-- reference in -->
+  <line x1="36" y1="120" x2="93" y2="120" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="95,120 85,115 85,125" fill="#4a90d9"/>
+  <text x="56" y="110" fill="#8a8a8a">r</text>
+
+  <!-- summing junction 1 -->
+  <circle cx="110" cy="120" r="15" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="90" y="108" fill="#8a8a8a" font-size="13">+</text>
+  <text x="88" y="150" fill="#e0645c" font-size="16">&#8722;</text>
+
+  <!-- error to controller -->
+  <line x1="125" y1="120" x2="176" y2="120" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="178,120 168,115 168,125" fill="#4a90d9"/>
+  <text x="145" y="110" fill="#8a8a8a">e</text>
+
+  <!-- controller block -->
+  <rect x="180" y="98" width="82" height="44" fill="#4a90d9" opacity="0.12"/>
+  <rect x="180" y="98" width="82" height="44" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="221" y="126" fill="#4a90d9" text-anchor="middle" font-size="15">G<tspan font-size="10" dy="4">c</tspan><tspan dy="-4">(s)</tspan></text>
+  <text x="221" y="88" fill="#8a8a8a" text-anchor="middle" font-size="12">controller</text>
+
+  <!-- control effort to summing junction 2 -->
+  <line x1="262" y1="120" x2="293" y2="120" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="295,120 285,115 285,125" fill="#4a90d9"/>
+  <text x="272" y="110" fill="#8a8a8a">u</text>
+
+  <!-- summing junction 2 (disturbance injection) -->
+  <circle cx="310" cy="120" r="15" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="290" y="140" fill="#8a8a8a" font-size="13">+</text>
+  <text x="294" y="100" fill="#8a8a8a" font-size="13">+</text>
+  <line x1="310" y1="58" x2="310" y2="103" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="310,105 305,95 315,95" fill="#8a8a8a"/>
+  <text x="320" y="66" fill="#8a8a8a">d</text>
+  <text x="334" y="66" fill="#8a8a8a" font-size="12">(disturbance)</text>
+
+  <!-- to plant -->
+  <line x1="325" y1="120" x2="368" y2="120" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="370,120 360,115 360,125" fill="#4a90d9"/>
+
+  <!-- plant block -->
+  <rect x="372" y="98" width="82" height="44" fill="#4a90d9" opacity="0.12"/>
+  <rect x="372" y="98" width="82" height="44" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="413" y="126" fill="#4a90d9" text-anchor="middle" font-size="15">G(s)</text>
+  <text x="413" y="88" fill="#8a8a8a" text-anchor="middle" font-size="12">plant</text>
+
+  <!-- output -->
+  <line x1="454" y1="120" x2="640" y2="120" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="642,120 632,115 632,125" fill="#4a90d9"/>
+  <text x="612" y="108" fill="#8a8a8a">y</text>
+  <circle cx="540" cy="120" r="4" fill="#8a8a8a"/>
+
+  <!-- feedback path -->
+  <path d="M 540 120 L 540 210 L 456 210" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="454,210 464,205 464,215" fill="#e0645c"/>
+  <rect x="372" y="188" width="82" height="44" fill="#e0645c" opacity="0.12"/>
+  <rect x="372" y="188" width="82" height="44" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <text x="413" y="216" fill="#e0645c" text-anchor="middle" font-size="15">H(s)</text>
+  <text x="413" y="252" fill="#8a8a8a" text-anchor="middle" font-size="12">sensor</text>
+  <path d="M 372 210 L 110 210 L 110 137" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="110,135 105,145 115,145" fill="#e0645c"/>
+  <text x="180" y="230" fill="#e0645c" font-size="13">measured output   H y</text>
+
+  <text x="30" y="284" fill="#8a8a8a" font-style="italic" font-size="13">Walk once around the loop: L(s) = G<tspan font-size="10" dy="3">c</tspan><tspan dy="-3">(s) G(s) H(s), the open&#8211;loop transfer function.</tspan></text>
+</svg>

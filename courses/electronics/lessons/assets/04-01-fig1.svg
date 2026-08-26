@@ -1,0 +1,112 @@
+<svg viewBox="0 0 690 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">One loop, two costumes: the canonical feedback block diagram, and the degenerated common-emitter stage that secretly is it.</text>
+
+  <text x="60" y="52" fill="#8a8a8a">(a) the canonical loop</text>
+  <text x="404" y="52" fill="#8a8a8a">(b) the same loop, hiding in a CE stage</text>
+
+  <!-- ============ panel a: block diagram ============ -->
+
+  <!-- input -->
+  <line x1="32" y1="150" x2="83" y2="150" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="85,150 76,146 76,154" fill="#8a8a8a"/>
+  <text x="38" y="142" fill="#8a8a8a">v<tspan dy="4" font-size="10">in</tspan></text>
+
+  <!-- summing junction -->
+  <circle cx="100" cy="150" r="15" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="89.4" y1="139.4" x2="110.6" y2="160.6" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="89.4" y1="160.6" x2="110.6" y2="139.4" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="76" y="142" fill="#8a8a8a">+</text>
+  <text x="110" y="180" fill="#e0645c">&#8722;</text>
+
+  <!-- error into A -->
+  <line x1="115" y1="150" x2="163" y2="150" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="165,150 156,146 156,154" fill="#8a8a8a"/>
+  <text x="126" y="142" fill="#8a8a8a">v<tspan dy="4" font-size="10">e</tspan></text>
+
+  <!-- forward block A -->
+  <rect x="165" y="125" width="80" height="50" fill="#4a90d9" opacity="0.12"/>
+  <rect x="165" y="125" width="80" height="50" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="197" y="159" fill="#4a90d9" font-size="22">A</text>
+  <text x="169" y="192" fill="#8a8a8a" font-size="11">forward path (open loop)</text>
+
+  <!-- output -->
+  <line x1="245" y1="150" x2="325" y2="150" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="327,150 318,146 318,154" fill="#8a8a8a"/>
+  <text x="290" y="142" fill="#4a90d9">v<tspan dy="4" font-size="10">out</tspan></text>
+  <circle cx="290" cy="150" r="3.5" fill="#8a8a8a"/>
+
+  <!-- feedback path -->
+  <line x1="290" y1="150" x2="290" y2="226" stroke="#e0645c" stroke-width="1.5"/>
+  <line x1="290" y1="226" x2="249" y2="226" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="247,226 256,222 256,230" fill="#e0645c"/>
+  <rect x="175" y="205" width="70" height="42" fill="#e0645c" opacity="0.12"/>
+  <rect x="175" y="205" width="70" height="42" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <text x="196" y="233" fill="#e0645c" font-size="18">&#946;<tspan dy="4" font-size="11">f</tspan></text>
+  <line x1="175" y1="226" x2="100" y2="226" stroke="#e0645c" stroke-width="1.5"/>
+  <line x1="100" y1="226" x2="100" y2="167" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="100,165 96,174 104,174" fill="#e0645c"/>
+  <text x="106" y="200" fill="#e0645c" font-size="12">&#946;<tspan dy="4" font-size="9">f</tspan><tspan dy="-4">v</tspan><tspan dy="4" font-size="9">out</tspan></text>
+
+  <!-- panel a formulas -->
+  <text x="34" y="288" fill="#8a8a8a" font-size="14">A<tspan dy="4" font-size="10">f</tspan><tspan dy="-4"> = A / (1 + A&#946;</tspan><tspan dy="4" font-size="10">f</tspan><tspan dy="-4">)</tspan></text>
+  <text x="34" y="309" fill="#8a8a8a" font-size="12">T = A&#946;<tspan dy="4" font-size="9">f</tspan><tspan dy="-4">, so A</tspan><tspan dy="4" font-size="9">f</tspan><tspan dy="-4"> &#8776; 1/&#946;</tspan><tspan dy="4" font-size="9">f</tspan><tspan dy="-4"> when T &#8811; 1</tspan></text>
+
+  <!-- ============ divider ============ -->
+  <line x1="356" y1="40" x2="356" y2="316" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 5"/>
+
+  <!-- ============ panel b: CE stage with emitter degeneration ============ -->
+
+  <!-- supply rail -->
+  <line x1="500" y1="72" x2="600" y2="72" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="606" y="76" fill="#8a8a8a">V<tspan dy="4" font-size="10">CC</tspan></text>
+
+  <!-- collector resistor -->
+  <line x1="548" y1="72" x2="548" y2="88" stroke="#8a8a8a" stroke-width="1.5"/>
+  <rect x="540" y="88" width="16" height="38" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="548" y1="126" x2="548" y2="144" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="566" y="104" fill="#8a8a8a">R<tspan dy="4" font-size="10">C</tspan></text>
+  <text x="566" y="120" fill="#8a8a8a" font-size="11">3.3 k&#8486;</text>
+
+  <!-- transistor -->
+  <line x1="521" y1="150" x2="521" y2="196" stroke="#4a90d9" stroke-width="3"/>
+  <line x1="548" y1="144" x2="521" y2="161" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="521" y1="185" x2="548" y2="202" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="543,199 532,198 537,191" fill="#4a90d9"/>
+  <line x1="478" y1="173" x2="521" y2="173" stroke="#4a90d9" stroke-width="2"/>
+
+  <!-- output tap -->
+  <circle cx="548" cy="134" r="3.5" fill="#8a8a8a"/>
+  <line x1="548" y1="134" x2="628" y2="134" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="630,134 621,130 621,138" fill="#8a8a8a"/>
+  <text x="590" y="127" fill="#4a90d9">v<tspan dy="4" font-size="10">out</tspan></text>
+
+  <!-- input -->
+  <line x1="428" y1="173" x2="476" y2="173" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="478,173 469,169 469,177" fill="#8a8a8a"/>
+  <text x="434" y="165" fill="#8a8a8a">v<tspan dy="4" font-size="10">in</tspan></text>
+
+  <!-- emitter resistor: the feedback network -->
+  <line x1="548" y1="202" x2="548" y2="222" stroke="#8a8a8a" stroke-width="1.5"/>
+  <rect x="540" y="222" width="16" height="38" fill="#e0645c" opacity="0.12"/>
+  <rect x="540" y="222" width="16" height="38" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <line x1="548" y1="260" x2="548" y2="278" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="566" y="238" fill="#e0645c">R<tspan dy="4" font-size="10">E</tspan></text>
+  <text x="566" y="254" fill="#e0645c" font-size="11">100 &#8486; = the</text>
+  <text x="566" y="268" fill="#e0645c" font-size="11">feedback block</text>
+
+  <!-- ground -->
+  <line x1="536" y1="278" x2="560" y2="278" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="540" y1="283" x2="556" y2="283" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="544" y1="288" x2="552" y2="288" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- the feedback return path -->
+  <circle cx="548" cy="212" r="3.5" fill="#e0645c"/>
+  <path d="M 548 212 L 490 212 L 490 177" fill="none" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <polygon points="490,175 486,184 494,184" fill="#e0645c"/>
+  <text x="398" y="216" fill="#e0645c" font-size="11">emitter lift</text>
+  <text x="398" y="230" fill="#e0645c" font-size="11">subtracts here</text>
+
+  <!-- panel b formulas -->
+  <text x="372" y="288" fill="#e0645c" font-size="13">v<tspan dy="4" font-size="10">be</tspan><tspan dy="-4"> = v</tspan><tspan dy="4" font-size="10">in</tspan><tspan dy="-4"> &#8722; i</tspan><tspan dy="4" font-size="10">c</tspan><tspan dy="-4">R</tspan><tspan dy="4" font-size="10">E</tspan><tspan dy="-4">    &#8658;    T = g</tspan><tspan dy="4" font-size="10">m</tspan><tspan dy="-4">R</tspan><tspan dy="4" font-size="10">E</tspan></text>
+  <text x="372" y="309" fill="#8a8a8a" font-size="12">A<tspan dy="4" font-size="9">v</tspan><tspan dy="-4"> = &#8722;g</tspan><tspan dy="4" font-size="9">m</tspan><tspan dy="-4">R</tspan><tspan dy="4" font-size="9">C</tspan><tspan dy="-4"> / (1 + g</tspan><tspan dy="4" font-size="9">m</tspan><tspan dy="-4">R</tspan><tspan dy="4" font-size="9">E</tspan><tspan dy="-4">)</tspan></text>
+</svg>

@@ -1,0 +1,67 @@
+<svg viewBox="0 0 660 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Two ways to count the same 13 customer-hours: area under N(t), or total length of the stays.</text>
+
+  <!-- ===== top panel: N(t), the number in the system ===== -->
+
+  <!-- time axis -->
+  <line x1="70" y1="210" x2="628" y2="210" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="628,210 618,205 618,215" fill="#8a8a8a"/>
+  <text x="600" y="230" fill="#8a8a8a">t (hours)</text>
+  <!-- count axis -->
+  <line x1="70" y1="222" x2="70" y2="72" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,72 65,82 75,82" fill="#8a8a8a"/>
+  <text x="36" y="70" fill="#8a8a8a">N(t)</text>
+  <text x="56" y="215" fill="#8a8a8a">0</text>
+
+  <!-- count ticks -->
+  <line x1="64" y1="170" x2="70" y2="170" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="56" y="175" fill="#8a8a8a">1</text>
+  <line x1="64" y1="130" x2="70" y2="130" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="56" y="135" fill="#8a8a8a">2</text>
+  <line x1="64" y1="90" x2="70" y2="90" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="56" y="95" fill="#8a8a8a">3</text>
+
+  <!-- shaded area under the step function -->
+  <polygon points="70,210 99.5,210 99.5,170 158.5,170 158.5,130 247,130 247,170 276.5,170 276.5,130 335.5,130 335.5,170 365,170 365,130 424,130 424,90 453.5,90 453.5,130 483,130 483,170 571.5,170 571.5,210"
+           fill="#4a90d9" opacity="0.18"/>
+
+  <!-- the step function itself -->
+  <path d="M 70 210 L 99.5 210 L 99.5 170 L 158.5 170 L 158.5 130 L 247 130 L 247 170 L 276.5 170 L 276.5 130 L 335.5 130 L 335.5 170 L 365 170 L 365 130 L 424 130 L 424 90 L 453.5 90 L 453.5 130 L 483 130 L 483 170 L 571.5 170 L 571.5 210 L 601 210"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <text x="150" y="106" fill="#4a90d9">area under N(t) = 13 customer-hours</text>
+
+  <!-- ===== bottom panel: one bar per customer ===== -->
+
+  <!-- dashed drop lines marking each arrival -->
+  <line x1="99.5" y1="210" x2="99.5" y2="248" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="158.5" y1="210" x2="158.5" y2="266" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="276.5" y1="210" x2="276.5" y2="284" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="365" y1="210" x2="365" y2="302" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="424" y1="210" x2="424" y2="320" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <rect x="99.5" y="244" width="147.5" height="10" fill="#e0645c" opacity="0.85"/>
+  <text x="252" y="253" fill="#e0645c" font-size="12">2.5 h</text>
+  <rect x="158.5" y="262" width="177" height="10" fill="#e0645c" opacity="0.85"/>
+  <text x="341" y="271" fill="#e0645c" font-size="12">3.0 h</text>
+  <rect x="276.5" y="280" width="177" height="10" fill="#e0645c" opacity="0.85"/>
+  <text x="459" y="289" fill="#e0645c" font-size="12">3.0 h</text>
+  <rect x="365" y="298" width="118" height="10" fill="#e0645c" opacity="0.85"/>
+  <text x="488" y="307" fill="#e0645c" font-size="12">2.0 h</text>
+  <rect x="424" y="316" width="147.5" height="10" fill="#e0645c" opacity="0.85"/>
+  <text x="577" y="325" fill="#e0645c" font-size="12">2.5 h</text>
+
+  <text x="20" y="253" fill="#8a8a8a" font-size="12">cust 1</text>
+  <text x="20" y="271" fill="#8a8a8a" font-size="12">cust 2</text>
+  <text x="20" y="289" fill="#8a8a8a" font-size="12">cust 3</text>
+  <text x="20" y="307" fill="#8a8a8a" font-size="12">cust 4</text>
+  <text x="20" y="325" fill="#8a8a8a" font-size="12">cust 5</text>
+
+  <text x="150" y="348" fill="#e0645c">&#8721; stays = 2.5 + 3.0 + 3.0 + 2.0 + 2.5 = 13 customer-hours</text>
+
+  <!-- observation window T = 9 h -->
+  <line x1="70" y1="372" x2="601" y2="372" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,372 79,368 79,376" fill="#8a8a8a"/>
+  <polygon points="601,372 592,368 592,376" fill="#8a8a8a"/>
+  <text x="200" y="390" fill="#8a8a8a" font-size="12">T = 9 h, so L = 13/9 = 1.44 and &#955;W = (5/9)(13/5) = 1.44</text>
+</svg>

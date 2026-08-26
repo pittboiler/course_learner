@@ -1,0 +1,73 @@
+<svg viewBox="0 0 660 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <path d="M 30 34 L 80 40 L 150 44 L 220 44 L 290 36 L 290 92 L 220 84 L 150 84 L 80 88 L 30 94 Z" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="0.07" stroke-width="1.5"/>
+  <line x1="32.0" y1="38.0" x2="32.0" y2="90.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3 3"/>
+  <text x="32.0" y="106.0" fill="#8a8a8a" font-size="10" text-anchor="middle">&#8734;</text>
+  <line x1="80.0" y1="38.0" x2="80.0" y2="90.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3 3"/>
+  <text x="80.0" y="106.0" fill="#8a8a8a" font-size="10" text-anchor="middle">2</text>
+  <line x1="150.0" y1="38.0" x2="150.0" y2="90.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3 3"/>
+  <text x="150.0" y="106.0" fill="#8a8a8a" font-size="10" text-anchor="middle">3</text>
+  <line x1="190.0" y1="38.0" x2="190.0" y2="90.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3 3"/>
+  <text x="190.0" y="106.0" fill="#8a8a8a" font-size="10" text-anchor="middle">4</text>
+  <line x1="230.0" y1="38.0" x2="230.0" y2="90.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3 3"/>
+  <text x="230.0" y="106.0" fill="#8a8a8a" font-size="10" text-anchor="middle">5</text>
+  <line x1="286.0" y1="38.0" x2="286.0" y2="90.0" stroke="#8a8a8a" stroke-width="0.9" stroke-dasharray="3 3"/>
+  <text x="286.0" y="106.0" fill="#8a8a8a" font-size="10" text-anchor="middle">e</text>
+  <line x1="86.0" y1="46.0" x2="86.0" y2="82.0" stroke="#4a90d9" stroke-width="1.4"/>
+  <line x1="96.0" y1="46.0" x2="96.0" y2="82.0" stroke="#4a90d9" stroke-width="1.4"/>
+  <line x1="106.0" y1="46.0" x2="106.0" y2="82.0" stroke="#4a90d9" stroke-width="1.4"/>
+  <line x1="116.0" y1="46.0" x2="116.0" y2="82.0" stroke="#4a90d9" stroke-width="1.4"/>
+  <line x1="126.0" y1="46.0" x2="126.0" y2="82.0" stroke="#4a90d9" stroke-width="1.4"/>
+  <line x1="136.0" y1="46.0" x2="136.0" y2="82.0" stroke="#4a90d9" stroke-width="1.4"/>
+  <text x="90.0" y="32.0" fill="#4a90d9" font-size="9" text-anchor="start">compressor</text>
+  <rect x="154.0" y="48.0" width="30.0" height="32.0" stroke="#e0645c" fill="#e0645c" fill-opacity="0.2" stroke-width="1.2" rx="2"/>
+  <text x="150.0" y="40.0" fill="#e0645c" font-size="9" text-anchor="start">burner</text>
+  <line x1="196.0" y1="48.0" x2="196.0" y2="80.0" stroke="#4a90d9" stroke-width="1.4"/>
+  <line x1="207.0" y1="48.0" x2="207.0" y2="80.0" stroke="#4a90d9" stroke-width="1.4"/>
+  <line x1="218.0" y1="48.0" x2="218.0" y2="80.0" stroke="#4a90d9" stroke-width="1.4"/>
+  <text x="194.0" y="40.0" fill="#4a90d9" font-size="9" text-anchor="start">turbine</text>
+  <line x1="44.0" y1="270.0" x2="294.0" y2="270.0" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="44.0" y1="270.0" x2="44.0" y2="120.0" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="292.0" y="262.0" fill="#8a8a8a" font-size="11" text-anchor="end">s</text>
+  <text x="48.0" y="122.0" fill="#8a8a8a" font-size="11" text-anchor="start">T</text>
+  <path d="M 69.00 252.00 L 69.00 240.00 L 69.00 192.00 L 199.00 123.00 L 199.00 165.00 L 269.00 225.00" stroke="#4a90d9" fill="none" fill-opacity="1" stroke-width="2.2"/>
+  <circle cx="69.0" cy="252.0" r="3.5" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="1"/>
+  <text x="59.0" y="246.0" fill="#4a90d9" font-size="10" text-anchor="start">&#8734;</text>
+  <circle cx="69.0" cy="240.0" r="3.5" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="1"/>
+  <text x="59.0" y="234.0" fill="#4a90d9" font-size="10" text-anchor="start">2</text>
+  <circle cx="69.0" cy="192.0" r="3.5" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="1"/>
+  <text x="59.0" y="186.0" fill="#4a90d9" font-size="10" text-anchor="start">3</text>
+  <circle cx="199.0" cy="123.0" r="3.5" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="1"/>
+  <text x="189.0" y="117.0" fill="#4a90d9" font-size="10" text-anchor="start">4</text>
+  <circle cx="199.0" cy="165.0" r="3.5" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="1"/>
+  <text x="189.0" y="159.0" fill="#4a90d9" font-size="10" text-anchor="start">5</text>
+  <circle cx="269.0" cy="225.0" r="3.5" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="1"/>
+  <text x="259.0" y="219.0" fill="#4a90d9" font-size="10" text-anchor="start">e</text>
+  <path d="M 59.0 255.0 Q 169.0 240.0 284.0 219.0" stroke="#8a8a8a" fill="none" fill-opacity="1" stroke-width="1" stroke-dasharray="3 3"/>
+  <path d="M 59.0 195.0 Q 169.0 159.0 284.0 117.0" stroke="#8a8a8a" fill="none" fill-opacity="1" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="209.0" y1="123.0" x2="209.0" y2="165.0" stroke="#e0645c" stroke-width="2.4"/>
+  <text x="219.0" y="141.0" fill="#e0645c" font-size="10" text-anchor="start">turbine drop =</text>
+  <text x="219.0" y="154.0" fill="#e0645c" font-size="10" text-anchor="start">compressor rise</text>
+  <line x1="279.0" y1="165.0" x2="279.0" y2="225.0" stroke="#8a8a8a" stroke-width="2.0"/>
+  <text x="174.0" y="204.0" fill="#8a8a8a" font-size="10" text-anchor="start">what the nozzle gets</text>
+  <line x1="390.0" y1="280.0" x2="630.0" y2="280.0" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="390.0" y1="280.0" x2="390.0" y2="80.0" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="628.0" y="272.0" fill="#8a8a8a" font-size="11" text-anchor="end">specific thrust</text>
+  <text x="394.0" y="82.0" fill="#8a8a8a" font-size="11" text-anchor="start">TSFC</text>
+  <path d="M 412.92 206.71 L 482.90 165.34 L 511.86 146.44 L 539.81 128.12 L 592.88 94.44" stroke="#4a90d9" fill="none" fill-opacity="1" stroke-width="1.4"/>
+  <path d="M 409.54 222.29 L 478.90 182.29 L 507.60 164.00 L 535.30 146.29 L 587.90 113.71" stroke="#4a90d9" fill="none" fill-opacity="1" stroke-width="1.4"/>
+  <path d="M 406.77 234.63 L 475.62 195.71 L 504.12 177.92 L 531.61 160.68 L 583.84 128.99" stroke="#4a90d9" fill="none" fill-opacity="1" stroke-width="1.4"/>
+  <path d="M 402.40 253.44 L 470.46 216.17 L 498.62 199.13 L 525.80 182.62 L 577.42 152.26" stroke="#4a90d9" fill="none" fill-opacity="1" stroke-width="1.4"/>
+  <path d="M 399.01 267.48 L 466.45 231.43 L 494.36 214.95 L 521.29 198.99 L 572.44 169.63" stroke="#4a90d9" fill="none" fill-opacity="1" stroke-width="1.4"/>
+  <path d="M 412.92 206.71 L 409.54 222.29 L 406.77 234.63 L 402.40 253.44 L 399.01 267.48" stroke="#e0645c" fill="none" fill-opacity="1" stroke-width="1.4"/>
+  <path d="M 482.90 165.34 L 478.90 182.29 L 475.62 195.71 L 470.46 216.17 L 466.45 231.43" stroke="#e0645c" fill="none" fill-opacity="1" stroke-width="1.4"/>
+  <path d="M 511.86 146.44 L 507.60 164.00 L 504.12 177.92 L 498.62 199.13 L 494.36 214.95" stroke="#e0645c" fill="none" fill-opacity="1" stroke-width="1.4"/>
+  <path d="M 539.81 128.12 L 535.30 146.29 L 531.61 160.68 L 525.80 182.62 L 521.29 198.99" stroke="#e0645c" fill="none" fill-opacity="1" stroke-width="1.4"/>
+  <path d="M 592.88 94.44 L 587.90 113.71 L 583.84 128.99 L 577.42 152.26 L 572.44 169.63" stroke="#e0645c" fill="none" fill-opacity="1" stroke-width="1.4"/>
+  <text x="404.4" y="260.0" fill="#8a8a8a" font-size="9" text-anchor="start">good on both counts &#8212; unreachable</text>
+  <circle cx="447.6" cy="176.0" r="5.0" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="1" stroke-width="1"/>
+  <text x="452.4" y="168.0" fill="#8a8a8a" font-size="9" text-anchor="start">airliner core</text>
+  <circle cx="582.0" cy="108.0" r="5.0" stroke="#e0645c" fill="#e0645c" fill-opacity="1" stroke-width="1"/>
+  <text x="514.8" y="100.0" fill="#e0645c" font-size="9" text-anchor="start">fighter core</text>
+  <text x="399.6" y="92.0" fill="#4a90d9" font-size="9" text-anchor="start">&#8592; lines of constant &#960;<tspan font-size="0.72em" dy="3">c</tspan><tspan dy="-3"> </tspan></text>
+  <text x="486.0" y="236.0" fill="#e0645c" font-size="9" text-anchor="start">lines of constant T<tspan font-size="0.72em" dy="3">04</tspan><tspan dy="-3"> &#8594;</tspan></text>
+</svg>

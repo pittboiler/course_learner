@@ -40,7 +40,7 @@ In words: $AB$ means "do $B$, then $A$" (right-to-left, like $f(g(x))$). Its col
 
 ## Picture
 
-![Left: the unit square with basis vectors e1, e2. Right: their images under the shear A = [[1,1],[0,1]], forming a parallelogram whose edges are the columns of A.](assets/02-01-fig1.svg)
+![Left: the unit square with basis vectors e1, e2. Right: their images under the shear with columns (1,0) and (1,1), forming a parallelogram whose edges are the columns of A.](assets/02-01-fig1.svg)
 
 ## Worked examples
 

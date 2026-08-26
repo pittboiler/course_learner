@@ -1,0 +1,59 @@
+<svg viewBox="0 0 700 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">The time-invariance test: delay-then-system (top) must equal system-then-delay (bottom).</text>
+
+  <!-- ============ PATH A: delay first ============ -->
+  <text x="18" y="60" fill="#8a8a8a" font-style="italic">Path A</text>
+
+  <text x="26" y="115" fill="#4a90d9">x(t)</text>
+  <line x1="62" y1="110" x2="106" y2="110" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="106,110 97,106 97,114" fill="#8a8a8a"/>
+
+  <rect x="108" y="88" width="112" height="44" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <text x="128" y="115" fill="#4a90d9">Delay t&#8320;</text>
+
+  <line x1="220" y1="110" x2="296" y2="110" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="296,110 287,106 287,114" fill="#8a8a8a"/>
+  <text x="224" y="99" fill="#8a8a8a" font-size="12">x(t &#8722; t&#8320;)</text>
+
+  <rect x="298" y="88" width="112" height="44" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <text x="322" y="115" fill="#4a90d9">System T</text>
+
+  <line x1="410" y1="110" x2="486" y2="110" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="486,110 477,106 477,114" fill="#8a8a8a"/>
+
+  <text x="494" y="115" fill="#e0645c">y<tspan font-size="10" dy="4">A</tspan><tspan dy="-4">(t)</tspan></text>
+
+  <!-- ============ PATH B: system first ============ -->
+  <text x="18" y="180" fill="#8a8a8a" font-style="italic">Path B</text>
+
+  <text x="26" y="235" fill="#4a90d9">x(t)</text>
+  <line x1="62" y1="230" x2="106" y2="230" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="106,230 97,226 97,234" fill="#8a8a8a"/>
+
+  <rect x="108" y="208" width="112" height="44" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <text x="132" y="235" fill="#4a90d9">System T</text>
+
+  <line x1="220" y1="230" x2="296" y2="230" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="296,230 287,226 287,234" fill="#8a8a8a"/>
+  <text x="243" y="219" fill="#8a8a8a" font-size="12">y(t)</text>
+
+  <rect x="298" y="208" width="112" height="44" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <text x="318" y="235" fill="#4a90d9">Delay t&#8320;</text>
+
+  <line x1="410" y1="230" x2="486" y2="230" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="486,230 477,226 477,234" fill="#8a8a8a"/>
+
+  <text x="494" y="235" fill="#e0645c">y<tspan font-size="10" dy="4">B</tspan><tspan dy="-4">(t) = y(t &#8722; t</tspan><tspan font-size="10" dy="4">0</tspan><tspan dy="-4">)</tspan></text>
+
+  <!-- ============ the comparison ============ -->
+  <line x1="556" y1="94" x2="600" y2="94" stroke="#e0645c" stroke-width="1.2" stroke-dasharray="3 4"/>
+  <line x1="640" y1="214" x2="660" y2="214" stroke="#e0645c" stroke-width="1.2" stroke-dasharray="3 4"/>
+  <line x1="660" y1="94" x2="660" y2="214" stroke="#e0645c" stroke-width="1.5"/>
+  <line x1="600" y1="94" x2="660" y2="94" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="612" y="160" fill="#e0645c" font-size="18">=&#160;?</text>
+
+  <!-- ============ verdict line ============ -->
+  <text x="30" y="296" fill="#8a8a8a" font-style="italic">Agree for every input x and every delay t&#8320; &#8658; time-invariant.</text>
+  <text x="30" y="316" fill="#8a8a8a" font-style="italic">One input and one delay where they differ &#8658; time-varying. That single case is a complete disproof.</text>
+</svg>

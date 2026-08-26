@@ -1,0 +1,77 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="40" y="26" fill="#8a8a8a" font-style="italic" font-size="12">Optimal profit as a function of Plant 3's hours: the shadow price is just the local slope.</text>
+
+  <!-- axes -->
+  <line x1="70" y1="320" x2="600" y2="320" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="600,320 590,315 590,325" fill="#8a8a8a"/>
+  <line x1="70" y1="336" x2="70" y2="62" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,62 65,72 75,72" fill="#8a8a8a"/>
+
+  <text x="500" y="345" fill="#8a8a8a">b</text>
+  <text x="510" y="349" fill="#8a8a8a" font-size="10">3</text>
+  <text x="519" y="345" fill="#8a8a8a">= Plant 3 hours</text>
+  <text x="46" y="56" fill="#8a8a8a">z*</text>
+  <text x="52" y="326" fill="#8a8a8a">0</text>
+
+  <!-- x ticks -->
+  <line x1="266" y1="320" x2="266" y2="326" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="258" y="342" fill="#8a8a8a">12</text>
+  <line x1="364" y1="320" x2="364" y2="326" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="356" y="342" fill="#8a8a8a">18</text>
+  <line x1="462" y1="320" x2="462" y2="326" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="454" y="342" fill="#8a8a8a">24</text>
+
+  <!-- y ticks: z = 30, 36, 42 -->
+  <line x1="64" y1="163.8" x2="70" y2="163.8" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="40" y="168" fill="#8a8a8a">30</text>
+  <line x1="64" y1="132.5" x2="70" y2="132.5" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="40" y="137" fill="#8a8a8a">36</text>
+  <line x1="64" y1="101.3" x2="70" y2="101.3" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="40" y="106" fill="#8a8a8a">42</text>
+
+  <!-- guide lines to the current operating point -->
+  <line x1="364" y1="132.5" x2="364" y2="320" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="70" y1="132.5" x2="364" y2="132.5" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="266" y1="163.8" x2="266" y2="320" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="462" y1="101.3" x2="462" y2="320" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- segment 1: slope 5/2, basis has x1 nonbasic -->
+  <line x1="70" y1="320" x2="266" y2="163.8" stroke="#4a90d9" stroke-width="3"/>
+  <!-- segment 3: slope 0, constraint 3 no longer binding -->
+  <line x1="462" y1="101.3" x2="580" y2="101.3" stroke="#4a90d9" stroke-width="3"/>
+  <!-- segment 2: the valid range of the shadow price -->
+  <line x1="266" y1="163.8" x2="462" y2="101.3" stroke="#e0645c" stroke-width="4.5"/>
+
+  <!-- kinks -->
+  <circle cx="266" cy="163.8" r="4.5" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <circle cx="462" cy="101.3" r="4.5" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <!-- current operating point -->
+  <circle cx="364" cy="132.5" r="5" fill="#e0645c"/>
+  <text x="330" y="122" fill="#e0645c">z* = 36</text>
+
+  <!-- slope labels -->
+  <text x="145" y="298" fill="#4a90d9">slope 5/2</text>
+  <text x="500" y="92" fill="#4a90d9">slope 0</text>
+  <text x="290" y="196" fill="#e0645c">slope 1 = the shadow price</text>
+  <text x="290" y="216" fill="#e0645c">valid only on this stretch</text>
+
+  <!-- basis change annotations -->
+  <line x1="266" y1="163.8" x2="212" y2="112" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="80" y="104" fill="#8a8a8a" font-size="12">x</text>
+  <text x="88" y="108" fill="#8a8a8a" font-size="10">1</text>
+  <text x="94" y="104" fill="#8a8a8a" font-size="12">leaves the basis</text>
+  <line x1="462" y1="101.3" x2="500" y2="66" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="466" y="58" fill="#8a8a8a" font-size="12">s</text>
+  <text x="473" y="62" fill="#8a8a8a" font-size="10">1</text>
+  <text x="479" y="58" fill="#8a8a8a" font-size="12">leaves the basis</text>
+
+  <!-- allowable decrease / increase bracket -->
+  <line x1="266" y1="300" x2="364" y2="300" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="266,300 275,296 275,304" fill="#e0645c"/>
+  <polygon points="364,300 355,296 355,304" fill="#e0645c"/>
+  <text x="272" y="292" fill="#e0645c" font-size="12">decrease 6</text>
+  <line x1="364" y1="300" x2="462" y2="300" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="364,300 373,296 373,304" fill="#e0645c"/>
+  <polygon points="462,300 453,296 453,304" fill="#e0645c"/>
+  <text x="374" y="292" fill="#e0645c" font-size="12">increase 6</text>
+</svg>

@@ -1,0 +1,79 @@
+<svg viewBox="0 0 670 385" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="40" y="20" fill="#8a8a8a" font-style="italic">Narrow in time, wide in frequency: shrink the pulse to T/3 and the first null moves out from 2&#960;/T to 6&#960;/T.</text>
+
+  <!-- ===== Panel A: wide pulse in time ===== -->
+  <line x1="55" y1="140" x2="320" y2="140" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="320,140 310,135 310,145" fill="#8a8a8a"/>
+  <text x="326" y="145" fill="#8a8a8a">t</text>
+  <line x1="180" y1="136" x2="180" y2="146" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="180" y="158" fill="#8a8a8a" text-anchor="middle">0</text>
+
+  <rect x="130" y="110" width="100" height="30" fill="#4a90d9" opacity="0.15"/>
+  <path d="M 60 140 L 130 140 L 130 110 L 230 110 L 230 140 L 315 140" fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <line x1="130" y1="100" x2="230" y2="100" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="130,100 139,96 139,104" fill="#e0645c"/>
+  <polygon points="230,100 221,96 221,104" fill="#e0645c"/>
+  <text x="180" y="92" fill="#e0645c" text-anchor="middle">T</text>
+
+  <text x="58" y="176" fill="#8a8a8a">wide pulse, width T</text>
+
+  <!-- ===== Panel C: narrow pulse in time ===== -->
+  <line x1="355" y1="140" x2="640" y2="140" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="640,140 630,135 630,145" fill="#8a8a8a"/>
+  <text x="646" y="145" fill="#8a8a8a">t</text>
+  <line x1="495" y1="136" x2="495" y2="146" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="495" y="158" fill="#8a8a8a" text-anchor="middle">0</text>
+
+  <rect x="478" y="50" width="34" height="90" fill="#4a90d9" opacity="0.15"/>
+  <path d="M 365 140 L 478 140 L 478 50 L 512 50 L 512 140 L 635 140" fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <line x1="478" y1="42" x2="512" y2="42" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="478,42 485,38.5 485,45.5" fill="#e0645c"/>
+  <polygon points="512,42 505,38.5 505,45.5" fill="#e0645c"/>
+  <text x="495" y="33" fill="#e0645c" text-anchor="middle">T/3</text>
+
+  <text x="358" y="176" fill="#8a8a8a">narrow pulse, width T/3 (same area)</text>
+
+  <!-- ===== transform arrows ===== -->
+  <line x1="180" y1="192" x2="180" y2="216" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="180,220 175,210 185,210" fill="#8a8a8a"/>
+  <text x="190" y="210" fill="#8a8a8a" font-style="italic">FT</text>
+  <line x1="495" y1="192" x2="495" y2="216" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="495,220 490,210 500,210" fill="#8a8a8a"/>
+  <text x="505" y="210" fill="#8a8a8a" font-style="italic">FT</text>
+
+  <!-- ===== Panel B: narrow sinc spectrum ===== -->
+  <line x1="55" y1="310" x2="320" y2="310" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="320,310 310,305 310,315" fill="#8a8a8a"/>
+  <text x="326" y="315" fill="#8a8a8a">&#969;</text>
+  <line x1="180" y1="306" x2="180" y2="316" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="180" y="328" fill="#8a8a8a" text-anchor="middle">0</text>
+
+  <path d="M 60 310 L 70 304.3 L 80 301.1 L 90 303 L 100 310 L 110 319 L 120 324.9 L 130 322.6 L 140 310 L 150 289 L 160 265.4 L 170 247 L 180 240 L 190 247 L 200 265.4 L 210 289 L 220 310 L 230 322.6 L 240 324.9 L 250 319 L 260 310 L 270 303 L 280 301.1 L 290 304.3 L 300 310"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <circle cx="180" cy="240" r="3" fill="#e0645c"/>
+  <text x="188" y="236" fill="#e0645c">T</text>
+  <line x1="220" y1="310" x2="220" y2="344" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="3 4"/>
+  <text x="225" y="340" fill="#e0645c">2&#960;/T</text>
+
+  <text x="58" y="368" fill="#8a8a8a">spectrum narrow: nulls every 2&#960;/T</text>
+
+  <!-- ===== Panel D: wide sinc spectrum ===== -->
+  <line x1="355" y1="310" x2="640" y2="310" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="640,310 630,305 630,315" fill="#8a8a8a"/>
+  <text x="646" y="315" fill="#8a8a8a">&#969;</text>
+  <line x1="495" y1="306" x2="495" y2="316" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="495" y="328" fill="#8a8a8a" text-anchor="middle">0</text>
+
+  <path d="M 360 317.6 L 375 310 L 390 300.3 L 405 289 L 420 277.1 L 435 265.4 L 450 255.1 L 465 247 L 480 241.8 L 495 240 L 510 241.8 L 525 247 L 540 255.1 L 555 265.4 L 570 277.1 L 585 289 L 600 300.3 L 615 310 L 630 317.6"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <circle cx="495" cy="240" r="3" fill="#e0645c"/>
+  <text x="503" y="236" fill="#e0645c">T</text>
+  <line x1="615" y1="310" x2="615" y2="344" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="3 4"/>
+  <text x="610" y="340" fill="#e0645c" text-anchor="end">6&#960;/T</text>
+
+  <text x="358" y="368" fill="#8a8a8a">spectrum 3&#215; wider: nulls every 6&#960;/T</text>
+</svg>

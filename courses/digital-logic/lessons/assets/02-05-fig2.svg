@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" width="720" height="300" font-family="Helvetica, Arial, sans-serif">
+  <text x="10" y="18" font-size="12" font-style="italic" fill="#8a8a8a">Four identical slices. Only the carry chain (coral) links them &#8212; everything else is pure replication.</text>
+
+  <text x="140" y="36" font-size="9" font-style="italic" fill="#8a8a8a" text-anchor="middle">MSB</text>
+  <text x="560" y="36" font-size="9" font-style="italic" fill="#8a8a8a" text-anchor="middle">LSB</text>
+
+  <g stroke="#8a8a8a" stroke-width="1.4" fill="none">
+    <rect x="90" y="80" width="100" height="76"/>
+    <rect x="230" y="80" width="100" height="76"/>
+    <rect x="370" y="80" width="100" height="76"/>
+    <rect x="510" y="80" width="100" height="76"/>
+  </g>
+  <g font-size="11" fill="#8a8a8a" text-anchor="middle">
+    <text x="140" y="100">ALU</text><text x="140" y="146">slice 3</text>
+    <text x="280" y="100">ALU</text><text x="280" y="146">slice 2</text>
+    <text x="420" y="100">ALU</text><text x="420" y="146">slice 1</text>
+    <text x="560" y="100">ALU</text><text x="560" y="146">slice 0</text>
+  </g>
+
+  <g stroke="#4a90d9" stroke-width="1.6">
+    <line x1="140" y1="58" x2="140" y2="80"/>
+    <line x1="280" y1="58" x2="280" y2="80"/>
+    <line x1="420" y1="58" x2="420" y2="80"/>
+    <line x1="560" y1="58" x2="560" y2="80"/>
+  </g>
+  <g font-size="11" fill="#4a90d9" text-anchor="middle">
+    <text x="140" y="52">A<tspan font-size="9" dy="3">3</tspan><tspan font-size="11" dy="-3">&#160;B</tspan><tspan font-size="9" dy="3">3</tspan></text>
+    <text x="280" y="52">A<tspan font-size="9" dy="3">2</tspan><tspan font-size="11" dy="-3">&#160;B</tspan><tspan font-size="9" dy="3">2</tspan></text>
+    <text x="420" y="52">A<tspan font-size="9" dy="3">1</tspan><tspan font-size="11" dy="-3">&#160;B</tspan><tspan font-size="9" dy="3">1</tspan></text>
+    <text x="560" y="52">A<tspan font-size="9" dy="3">0</tspan><tspan font-size="11" dy="-3">&#160;B</tspan><tspan font-size="9" dy="3">0</tspan></text>
+  </g>
+
+  <g stroke="#8a8a8a" stroke-width="1.4">
+    <line x1="140" y1="156" x2="140" y2="182"/>
+    <line x1="280" y1="156" x2="280" y2="182"/>
+    <line x1="420" y1="156" x2="420" y2="182"/>
+    <line x1="560" y1="156" x2="560" y2="182"/>
+  </g>
+  <g font-size="11" fill="#8a8a8a" text-anchor="middle">
+    <text x="140" y="196">F<tspan font-size="9" dy="3">3</tspan></text>
+    <text x="280" y="196">F<tspan font-size="9" dy="3">2</tspan></text>
+    <text x="420" y="196">F<tspan font-size="9" dy="3">1</tspan></text>
+    <text x="560" y="196">F<tspan font-size="9" dy="3">0</tspan></text>
+  </g>
+
+  <g stroke="#e0645c" stroke-width="1.6">
+    <line x1="690" y1="118" x2="614" y2="118"/>
+    <line x1="510" y1="118" x2="474" y2="118"/>
+    <line x1="370" y1="118" x2="334" y2="118"/>
+    <line x1="230" y1="118" x2="194" y2="118"/>
+    <line x1="90" y1="118" x2="44" y2="118"/>
+  </g>
+  <g fill="#e0645c">
+    <polygon points="610,118 618,114 618,122"/>
+    <polygon points="470,118 478,114 478,122"/>
+    <polygon points="330,118 338,114 338,122"/>
+    <polygon points="190,118 198,114 198,122"/>
+    <polygon points="40,118 48,114 48,122"/>
+  </g>
+  <g font-size="10" fill="#e0645c" text-anchor="middle">
+    <text x="650" y="110">C<tspan font-size="9" dy="3">0</tspan><tspan font-size="10" dy="-3"> = S</tspan><tspan font-size="9" dy="3">0</tspan></text>
+    <text x="492" y="110">C<tspan font-size="9" dy="3">1</tspan></text>
+    <text x="352" y="110">C<tspan font-size="9" dy="3">2</tspan></text>
+    <text x="212" y="110">C<tspan font-size="9" dy="3">3</tspan></text>
+    <text x="64" y="110">C<tspan font-size="9" dy="3">4</tspan></text>
+  </g>
+
+  <text x="40" y="238" font-size="11" font-style="italic" fill="#8a8a8a">flags:</text>
+  <g font-size="11" fill="#8a8a8a">
+    <text x="95" y="238">Z = NOR of all F bits</text>
+    <text x="255" y="238">N = F<tspan font-size="9" dy="3">3</tspan></text>
+    <text x="345" y="238">C = C<tspan font-size="9" dy="3">4</tspan></text>
+    <text x="440" y="238">V = C<tspan font-size="9" dy="3">4</tspan><tspan font-size="11" dy="-3"> &#8853; C</tspan><tspan font-size="9" dy="3">3</tspan></text>
+  </g>
+  <text x="40" y="266" font-size="10" font-style="italic" fill="#8a8a8a">every slice sees the same S<tspan font-size="8" dy="2">2</tspan><tspan font-size="10" dy="-2">S</tspan><tspan font-size="8" dy="2">1</tspan><tspan font-size="10" dy="-2">S</tspan><tspan font-size="8" dy="2">0</tspan><tspan font-size="10" dy="-2">; widening the ALU means adding slices, not redesigning one</tspan></text>
+</svg>

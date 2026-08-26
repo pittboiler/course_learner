@@ -1,0 +1,82 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="34" y="24" fill="#8a8a8a" font-style="italic">Flip h, slide it to t, shade its overlap with x &#8212; the shaded area IS y(t).</text>
+
+  <!-- LEFT: three snapshots of the slide -->
+
+  <!-- row A: t = 0.4 -->
+  <rect x="110" y="94" width="22" height="46" fill="#e0645c" opacity="0.40"/>
+  <line x1="40" y1="140" x2="285" y2="140" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="285,140 275,135 275,145" fill="#8a8a8a"/>
+  <text x="291" y="145" fill="#8a8a8a">&#964;</text>
+  <line x1="110" y1="140" x2="110" y2="146" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="165" y1="140" x2="165" y2="146" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="106" y="161" fill="#8a8a8a" font-size="12">0</text>
+  <text x="161" y="161" fill="#8a8a8a" font-size="12">1</text>
+  <rect x="77" y="94" width="55" height="46" fill="none" stroke="#8a8a8a" stroke-width="2" stroke-dasharray="5 4"/>
+  <rect x="110" y="94" width="55" height="46" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="126" y="86" fill="#4a90d9" font-size="13">x(&#964;)</text>
+  <text x="48" y="180" fill="#8a8a8a" font-size="13">h(t &#8722; &#964;)</text>
+  <line x1="86" y1="168" x2="98" y2="146" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="208" y="112" fill="#8a8a8a" font-size="13">t = 0.4</text>
+  <text x="208" y="134" fill="#e0645c" font-size="13">y = 0.4</text>
+
+  <!-- row B: t = 1.0 (full overlap) -->
+  <rect x="110" y="204" width="55" height="46" fill="#e0645c" opacity="0.40"/>
+  <line x1="40" y1="250" x2="285" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="285,250 275,245 275,255" fill="#8a8a8a"/>
+  <text x="291" y="255" fill="#8a8a8a">&#964;</text>
+  <line x1="110" y1="250" x2="110" y2="256" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="165" y1="250" x2="165" y2="256" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="106" y="271" fill="#8a8a8a" font-size="12">0</text>
+  <text x="161" y="271" fill="#8a8a8a" font-size="12">1</text>
+  <rect x="113" y="207" width="49" height="40" fill="none" stroke="#8a8a8a" stroke-width="2" stroke-dasharray="5 4"/>
+  <rect x="110" y="204" width="55" height="46" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="208" y="222" fill="#8a8a8a" font-size="13">t = 1.0</text>
+  <text x="208" y="244" fill="#e0645c" font-size="13">y = 1.0</text>
+
+  <!-- row C: t = 1.6 -->
+  <rect x="143" y="314" width="22" height="46" fill="#e0645c" opacity="0.40"/>
+  <line x1="40" y1="360" x2="285" y2="360" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="285,360 275,355 275,365" fill="#8a8a8a"/>
+  <text x="291" y="365" fill="#8a8a8a">&#964;</text>
+  <line x1="110" y1="360" x2="110" y2="366" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="165" y1="360" x2="165" y2="366" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="106" y="381" fill="#8a8a8a" font-size="12">0</text>
+  <text x="161" y="381" fill="#8a8a8a" font-size="12">1</text>
+  <rect x="143" y="314" width="55" height="46" fill="none" stroke="#8a8a8a" stroke-width="2" stroke-dasharray="5 4"/>
+  <rect x="110" y="314" width="55" height="46" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="208" y="332" fill="#8a8a8a" font-size="13">t = 1.6</text>
+  <text x="208" y="354" fill="#e0645c" font-size="13">y = 0.4</text>
+
+  <!-- RIGHT: the resulting y(t) -->
+
+  <line x1="350" y1="300" x2="606" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="606,300 596,295 596,305" fill="#8a8a8a"/>
+  <text x="612" y="305" fill="#8a8a8a">t</text>
+  <line x1="400" y1="330" x2="400" y2="160" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="400,160 395,170 405,170" fill="#8a8a8a"/>
+  <text x="368" y="158" fill="#8a8a8a" font-size="13">y(t)</text>
+
+  <line x1="400" y1="190" x2="394" y2="190" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="382" y="195" fill="#8a8a8a" font-size="12">1</text>
+  <line x1="462" y1="300" x2="462" y2="306" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="524" y1="300" x2="524" y2="306" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="396" y="320" fill="#8a8a8a" font-size="12">0</text>
+  <text x="458" y="320" fill="#8a8a8a" font-size="12">1</text>
+  <text x="520" y="320" fill="#8a8a8a" font-size="12">2</text>
+
+  <line x1="425" y1="256" x2="425" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="462" y1="190" x2="462" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="499" y1="256" x2="499" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <path d="M 350 300 L 400 300 L 462 190 L 524 300 L 600 300" fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <circle cx="425" cy="256" r="4.5" fill="#e0645c"/>
+  <circle cx="462" cy="190" r="4.5" fill="#e0645c"/>
+  <circle cx="499" cy="256" r="4.5" fill="#e0645c"/>
+
+  <text x="410" y="340" fill="#e0645c" font-size="12">0.4</text>
+  <text x="486" y="340" fill="#e0645c" font-size="12">1.6</text>
+  <text x="352" y="236" fill="#8a8a8a" font-size="12" font-style="italic">rises</text>
+  <text x="536" y="236" fill="#8a8a8a" font-size="12" font-style="italic">falls</text>
+</svg>

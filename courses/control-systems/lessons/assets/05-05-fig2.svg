@@ -1,0 +1,60 @@
+<svg viewBox="0 0 660 285" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="32" y="22" fill="#8a8a8a" font-style="italic">Sample, then hold: the staircase the plant actually sees is the true signal delayed by about T/2.</text>
+
+  <!-- legend -->
+  <line x1="486" y1="56" x2="516" y2="56" stroke="#4a90d9" stroke-width="3"/>
+  <text x="522" y="60" fill="#8a8a8a" font-size="12">y(t), continuous</text>
+  <line x1="486" y1="76" x2="516" y2="76" stroke="#e0645c" stroke-width="3"/>
+  <text x="522" y="80" fill="#8a8a8a" font-size="12">held output</text>
+  <line x1="486" y1="96" x2="516" y2="96" stroke="#8a8a8a" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="522" y="100" fill="#8a8a8a" font-size="12">y(t &#8722; T/2)</text>
+
+  <!-- axes -->
+  <line x1="55" y1="210" x2="620" y2="210" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="620,210 610,205 610,215" fill="#8a8a8a"/>
+  <text x="626" y="215" fill="#8a8a8a">t</text>
+  <line x1="60" y1="228" x2="60" y2="52" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="60,52 55,62 65,62" fill="#8a8a8a"/>
+
+  <!-- delayed signal (dashed grey) -->
+  <polyline fill="none" stroke="#8a8a8a" stroke-width="2" stroke-dasharray="6 4"
+    points="90,142.94 110,130 130,117.06 150,105 170,94.64 190,86.70 210,81.70 230,80 250,81.70 270,86.70 290,94.64 310,105 330,117.06 350,130 370,142.94 390,155 410,165.36 430,173.30 450,178.30 470,180 490,178.30 510,173.30 530,165.36 550,155 570,142.94 590,130"/>
+
+  <!-- zero-order-hold staircase -->
+  <path d="M 80 130 L 140 130 L 140 94.64 L 200 94.64 L 200 80 L 260 80 L 260 94.64 L 320 94.64 L 320 130 L 380 130 L 380 165.36 L 440 165.36 L 440 180 L 500 180 L 500 165.36 L 560 165.36 L 560 130 L 600 130"
+        fill="none" stroke="#e0645c" stroke-width="2.5"/>
+
+  <!-- continuous signal -->
+  <polyline fill="none" stroke="#4a90d9" stroke-width="3"
+    points="60,142.94 80,130 100,117.06 120,105 140,94.64 160,86.70 180,81.70 200,80 220,81.70 240,86.70 260,94.64 280,105 300,117.06 320,130 340,142.94 360,155 380,165.36 400,173.30 420,178.30 440,180 460,178.30 480,173.30 500,165.36 520,155 540,142.94 560,130 580,117.06 600,105"/>
+
+  <!-- sample instants -->
+  <circle cx="80" cy="130" r="3.5" fill="#e0645c"/>
+  <circle cx="140" cy="94.64" r="3.5" fill="#e0645c"/>
+  <circle cx="200" cy="80" r="3.5" fill="#e0645c"/>
+  <circle cx="260" cy="94.64" r="3.5" fill="#e0645c"/>
+  <circle cx="320" cy="130" r="3.5" fill="#e0645c"/>
+  <circle cx="380" cy="165.36" r="3.5" fill="#e0645c"/>
+  <circle cx="440" cy="180" r="3.5" fill="#e0645c"/>
+  <circle cx="500" cy="165.36" r="3.5" fill="#e0645c"/>
+  <circle cx="560" cy="130" r="3.5" fill="#e0645c"/>
+
+  <!-- T/2 offset marker -->
+  <line x1="320" y1="130" x2="350" y2="130" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="320,130 329,126 329,134" fill="#e0645c"/>
+  <polygon points="350,130 341,126 341,134" fill="#e0645c"/>
+  <line x1="334" y1="116" x2="334" y2="127" stroke="#e0645c" stroke-width="1"/>
+  <text x="322" y="112" fill="#e0645c" font-size="12">T/2</text>
+
+  <!-- one sample period -->
+  <line x1="440" y1="180" x2="440" y2="240" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="500" y1="180" x2="500" y2="240" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="440" y1="236" x2="500" y2="236" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="440,236 449,232 449,240" fill="#e0645c"/>
+  <polygon points="500,236 491,232 491,240" fill="#e0645c"/>
+  <text x="465" y="254" fill="#e0645c" font-size="12">T</text>
+
+  <!-- footer -->
+  <text x="32" y="276" fill="#8a8a8a" font-style="italic" font-size="12">A half-sample of delay costs &#969;T/2 radians of phase and gives nothing back &#8212; that is the price of the hold.</text>
+</svg>

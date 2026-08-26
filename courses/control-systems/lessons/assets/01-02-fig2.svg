@@ -1,0 +1,72 @@
+<svg viewBox="0 0 560 218" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">P1: a mass held between two walls by two springs, with a damper to ground. Write the ODE for x(t).</text>
+
+  <!-- left wall -->
+  <line x1="60" y1="58" x2="60" y2="196" stroke="#8a8a8a" stroke-width="2.5"/>
+  <line x1="60" y1="60" x2="52" y2="69" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="60" y1="76" x2="52" y2="85" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="60" y1="92" x2="52" y2="101" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="60" y1="108" x2="52" y2="117" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="60" y1="124" x2="52" y2="133" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="60" y1="140" x2="52" y2="149" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="60" y1="156" x2="52" y2="165" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="60" y1="172" x2="52" y2="181" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- right wall -->
+  <line x1="500" y1="58" x2="500" y2="196" stroke="#8a8a8a" stroke-width="2.5"/>
+  <line x1="500" y1="60" x2="508" y2="69" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="500" y1="76" x2="508" y2="85" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="500" y1="92" x2="508" y2="101" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="500" y1="108" x2="508" y2="117" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="500" y1="124" x2="508" y2="133" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="500" y1="140" x2="508" y2="149" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="500" y1="156" x2="508" y2="165" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="500" y1="172" x2="508" y2="181" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- ground -->
+  <line x1="60" y1="196" x2="500" y2="196" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="76" y1="196" x2="68" y2="205" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="108" y1="196" x2="100" y2="205" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="140" y1="196" x2="132" y2="205" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="172" y1="196" x2="164" y2="205" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="204" y1="196" x2="196" y2="205" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="236" y1="196" x2="228" y2="205" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="268" y1="196" x2="260" y2="205" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="300" y1="196" x2="292" y2="205" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="332" y1="196" x2="324" y2="205" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="364" y1="196" x2="356" y2="205" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="396" y1="196" x2="388" y2="205" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="428" y1="196" x2="420" y2="205" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="460" y1="196" x2="452" y2="205" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="492" y1="196" x2="484" y2="205" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- left spring -->
+  <path d="M 60 104 L 90 104 L 98 90 L 114 118 L 130 90 L 146 118 L 162 90 L 178 118 L 186 104 L 250 104"
+        fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="118" y="82" fill="#4a90d9">k<tspan font-size="11" dy="4">1</tspan></text>
+
+  <!-- right spring -->
+  <path d="M 314 104 L 344 104 L 352 90 L 368 118 L 384 90 L 400 118 L 416 90 L 432 118 L 440 104 L 500 104"
+        fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="380" y="82" fill="#4a90d9">k<tspan font-size="11" dy="4">2</tspan></text>
+
+  <!-- mass -->
+  <rect x="250" y="76" width="64" height="56" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <text x="276" y="110" fill="#4a90d9">m</text>
+
+  <!-- damper to ground -->
+  <path d="M 268 156 L 268 136 L 296 136 L 296 156" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="270" y1="150" x2="294" y2="150" stroke="#4a90d9" stroke-width="3"/>
+  <line x1="282" y1="150" x2="282" y2="196" stroke="#4a90d9" stroke-width="2"/>
+  <text x="302" y="170" fill="#4a90d9">b</text>
+
+  <!-- applied force -->
+  <line x1="282" y1="60" x2="350" y2="60" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="350,60 341,56 341,64" fill="#e0645c"/>
+  <text x="356" y="65" fill="#e0645c">f(t)</text>
+
+  <!-- +x -->
+  <line x1="100" y1="152" x2="150" y2="152" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="150,152 141,148 141,156" fill="#e0645c"/>
+  <text x="154" y="157" fill="#e0645c">+x</text>
+</svg>

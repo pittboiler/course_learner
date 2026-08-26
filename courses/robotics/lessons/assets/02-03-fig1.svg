@@ -1,0 +1,41 @@
+<svg viewBox="0 0 660 410" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="20" y="20" fill="#8a8a8a" font-style="italic">Left: each column is one joint&#8217;s contribution.   Right: the manipulability ellipse, well and badly conditioned.</text>
+  <line x1="100.0" y1="270.0" x2="122.3" y2="186.9" stroke="#8a8a8a" stroke-width="3.2"/>
+  <circle cx="100.0" cy="270.0" r="5.0" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="0.3" stroke-width="1.2"/>
+  <line x1="122.3" y1="186.9" x2="186.3" y2="186.9" stroke="#8a8a8a" stroke-width="3.2"/>
+  <circle cx="122.3" cy="186.9" r="5.0" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="0.3" stroke-width="1.2"/>
+  <line x1="186.3" y1="186.9" x2="209.3" y2="226.8" stroke="#8a8a8a" stroke-width="3.2"/>
+  <circle cx="186.3" cy="186.9" r="5.0" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="0.3" stroke-width="1.2"/>
+  <circle cx="209.3" cy="226.8" r="5.0" stroke="#e0645c" fill="none" fill-opacity="1" stroke-width="2"/>
+  <line x1="209.3" y1="226.8" x2="224.7" y2="265.8" stroke="#4a90d9" stroke-width="1.8"/>
+  <polygon points="224.7,265.8 220.5,261.5 224.9,259.8" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="0.5"/>
+  <text x="228.6" y="279.6" fill="#4a90d9" font-size="10" text-anchor="middle">J<tspan font-size="0.72em" dy="3">1</tspan><tspan dy="-3"> </tspan></text>
+  <line x1="100.0" y1="270.0" x2="209.3" y2="226.8" stroke="#4a90d9" stroke-width="0.8" stroke-dasharray="3 3"/>
+  <line x1="209.3" y1="226.8" x2="191.8" y2="265.0" stroke="#e0645c" stroke-width="1.8"/>
+  <polygon points="191.8,265.0 191.9,259.0 196.2,260.9" stroke="#e0645c" fill="#e0645c" fill-opacity="1" stroke-width="0.5"/>
+  <text x="187.4" y="278.5" fill="#e0645c" font-size="10" text-anchor="middle">J<tspan font-size="0.72em" dy="3">2</tspan><tspan dy="-3"> </tspan></text>
+  <line x1="122.3" y1="186.9" x2="209.3" y2="226.8" stroke="#e0645c" stroke-width="0.8" stroke-dasharray="3 3"/>
+  <line x1="209.3" y1="226.8" x2="172.9" y2="247.8" stroke="#8a8a8a" stroke-width="1.8"/>
+  <polygon points="172.9,247.8 176.5,243.0 178.8,247.0" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="1" stroke-width="0.5"/>
+  <text x="163.8" y="257.0" fill="#8a8a8a" font-size="10" text-anchor="middle">J<tspan font-size="0.72em" dy="3">3</tspan><tspan dy="-3"> </tspan></text>
+  <line x1="186.3" y1="186.9" x2="209.3" y2="226.8" stroke="#8a8a8a" stroke-width="0.8" stroke-dasharray="3 3"/>
+  <text x="110.0" y="310.0" fill="#8a8a8a" font-size="10" text-anchor="start">each contribution is z &#215; r &#8212;</text>
+  <text x="110.0" y="328.0" fill="#8a8a8a" font-size="10" text-anchor="start">perpendicular to the line from that joint to the tool</text>
+  <text x="110.0" y="350.0" fill="#8a8a8a" font-size="10" text-anchor="start">and the columns add to give the tool velocity</text>
+  <line x1="390.0" y1="140.0" x2="431.4" y2="105.3" stroke="#8a8a8a" stroke-width="2.6"/>
+  <circle cx="390.0" cy="140.0" r="5.0" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="0.3" stroke-width="1.2"/>
+  <line x1="431.4" y1="105.3" x2="461.1" y2="135.0" stroke="#8a8a8a" stroke-width="2.6"/>
+  <circle cx="431.4" cy="105.3" r="5.0" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="0.3" stroke-width="1.2"/>
+  <polygon points="488.7,123.3 488.0,121.7 487.1,120.2 486.1,118.8 484.9,117.4 483.7,116.1 482.3,114.9 480.9,113.9 479.3,112.9 477.7,112.0 476.0,111.2 474.2,110.6 472.3,110.1 470.4,109.7 468.4,109.4 466.4,109.2 464.4,109.2 462.4,109.3 460.3,109.5 458.3,109.8 456.3,110.3 454.3,110.9 452.3,111.6 450.4,112.4 448.5,113.3 446.7,114.3 444.9,115.5 443.3,116.7 441.7,118.0 440.2,119.4 438.8,120.9 437.5,122.4 436.4,124.0 435.3,125.7 434.4,127.4 433.6,129.1 433.0,130.9 432.5,132.7 432.1,134.5 431.9,136.3 431.8,138.1 431.8,139.9 432.0,141.6 432.3,143.4 432.8,145.0 433.4,146.7 434.2,148.2 435.1,149.8 436.1,151.2 437.2,152.6 438.4,153.8 439.8,155.0 441.2,156.1 442.8,157.1 444.4,158.0 446.2,158.7 448.0,159.4 449.8,159.9 451.7,160.3 453.7,160.6 455.7,160.8 457.7,160.8 459.7,160.7 461.8,160.5 463.8,160.2 465.9,159.7 467.9,159.1 469.8,158.4 471.8,157.6 473.6,156.7 475.5,155.6 477.2,154.5 478.9,153.3 480.4,152.0 481.9,150.6 483.3,149.1 484.6,147.5 485.7,145.9 486.8,144.3 487.7,142.6 488.5,140.8 489.1,139.1 489.7,137.3 490.0,135.5 490.3,133.7 490.4,131.9 490.3,130.1 490.1,128.3 489.8,126.6 489.3,124.9 488.7,123.3" stroke="#4a90d9" fill="#4a90d9" fill-opacity="0.14" stroke-width="1.8"/>
+  <text x="461.1" y="191.0" fill="#4a90d9" font-size="10" text-anchor="middle">well conditioned</text>
+  <line x1="390.0" y1="300.0" x2="440.7" y2="281.5" stroke="#8a8a8a" stroke-width="2.6"/>
+  <circle cx="390.0" cy="300.0" r="5.0" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="0.3" stroke-width="1.2"/>
+  <line x1="440.7" y1="281.5" x2="481.8" y2="272.8" stroke="#8a8a8a" stroke-width="2.6"/>
+  <circle cx="440.7" cy="281.5" r="5.0" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="0.3" stroke-width="1.2"/>
+  <polygon points="523.3,279.5 523.3,279.0 523.0,278.5 522.6,277.9 522.0,277.3 521.2,276.7 520.2,276.1 519.0,275.5 517.6,274.8 516.0,274.2 514.3,273.5 512.4,272.8 510.4,272.1 508.2,271.5 505.9,270.8 503.5,270.2 501.0,269.5 498.4,268.9 495.7,268.3 492.9,267.7 490.1,267.2 487.3,266.6 484.4,266.1 481.5,265.7 478.6,265.2 475.7,264.8 472.9,264.5 470.1,264.2 467.3,263.9 464.7,263.7 462.1,263.5 459.6,263.3 457.2,263.2 454.9,263.2 452.8,263.2 450.8,263.2 448.9,263.3 447.3,263.5 445.7,263.6 444.4,263.9 443.2,264.1 442.3,264.5 441.5,264.8 440.9,265.2 440.5,265.6 440.4,266.1 440.4,266.6 440.6,267.1 441.0,267.7 441.7,268.3 442.5,268.9 443.5,269.5 444.7,270.1 446.1,270.8 447.6,271.4 449.3,272.1 451.2,272.8 453.3,273.5 455.4,274.1 457.7,274.8 460.1,275.4 462.6,276.1 465.3,276.7 468.0,277.3 470.7,277.9 473.5,278.4 476.4,279.0 479.3,279.5 482.2,279.9 485.1,280.4 487.9,280.8 490.8,281.1 493.6,281.4 496.3,281.7 499.0,281.9 501.6,282.1 504.1,282.3 506.5,282.4 508.7,282.4 510.9,282.4 512.9,282.4 514.7,282.3 516.4,282.1 517.9,282.0 519.3,281.7 520.4,281.5 521.4,281.1 522.2,280.8 522.7,280.4 523.1,280.0 523.3,279.5" stroke="#e0645c" fill="#e0645c" fill-opacity="0.14" stroke-width="1.8"/>
+  <text x="481.8" y="328.8" fill="#e0645c" font-size="10" text-anchor="middle">nearly singular</text>
+  <text x="550.0" y="84.0" fill="#8a8a8a" font-size="10" text-anchor="middle">axes are the singular values &#963;<tspan font-size="0.72em" dy="3">i</tspan><tspan dy="-3"> </tspan></text>
+  <text x="538.0" y="352.0" fill="#e0645c" font-size="10" text-anchor="middle">short axis lies along the arm &#8212;</text>
+  <text x="538.0" y="370.0" fill="#e0645c" font-size="10" text-anchor="middle">the direction it can barely move</text>
+  <text x="30.0" y="398.0" fill="#8a8a8a" font-size="10" text-anchor="start">w = &#8730;det(JJ&#8868;) = &#8719;&#963;<tspan font-size="0.72em" dy="3">i</tspan><tspan dy="-3"> is the ellipsoid&#8217;s volume; &#963;</tspan><tspan font-size="0.72em" dy="3">m</tspan><tspan dy="-3">in is the more informative diagnostic.</tspan></text>
+</svg>

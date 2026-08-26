@@ -1,0 +1,53 @@
+<svg viewBox="0 0 660 270" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Same car, same hill. Open loop never notices; the loop notices and pushes back.</text>
+
+  <!-- ============ PANEL A: open loop ============ -->
+  <text x="180" y="46" fill="#8a8a8a" text-anchor="middle" font-size="13">Open loop &#8212; throttle fixed at its flat&#8211;road value</text>
+
+  <line x1="60" y1="212" x2="60" y2="62" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="60,60 55,70 65,70" fill="#8a8a8a"/>
+  <text x="46" y="70" fill="#8a8a8a" font-size="12">y</text>
+  <line x1="60" y1="212" x2="306" y2="212" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="308,212 298,207 298,217" fill="#8a8a8a"/>
+  <text x="296" y="230" fill="#8a8a8a" font-size="12">t</text>
+
+  <line x1="60" y1="80" x2="300" y2="80" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="150" y="74" fill="#8a8a8a" font-size="12">r = 65 mph</text>
+
+  <line x1="108" y1="66" x2="108" y2="212" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="112" y="204" fill="#8a8a8a" font-size="11">hill starts</text>
+
+  <path d="M 60 80 L 108 80 L 120 104.3 L 132 123.3 L 144 138.0 L 156 149.5 L 180 165.5 L 204 175.1 L 228 181.0 L 252 184.5 L 276 186.6 L 300 189.3"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <line x1="290" y1="80" x2="290" y2="190" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="290,80 286,89 294,89" fill="#e0645c"/>
+  <polygon points="290,190 286,181 294,181" fill="#e0645c"/>
+  <text x="284" y="140" fill="#e0645c" text-anchor="end" font-size="13">10 mph</text>
+  <text x="180" y="252" fill="#e0645c" text-anchor="middle" font-size="12">settles 10 mph low, and stays there</text>
+
+  <!-- ============ PANEL B: closed loop ============ -->
+  <text x="500" y="46" fill="#8a8a8a" text-anchor="middle" font-size="13">Closed loop &#8212; proportional gain K = 10</text>
+
+  <line x1="380" y1="212" x2="380" y2="62" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="380,60 375,70 385,70" fill="#8a8a8a"/>
+  <text x="366" y="70" fill="#8a8a8a" font-size="12">y</text>
+  <line x1="380" y1="212" x2="626" y2="212" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="628,212 618,207 618,217" fill="#8a8a8a"/>
+  <text x="616" y="230" fill="#8a8a8a" font-size="12">t</text>
+
+  <line x1="380" y1="80" x2="620" y2="80" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="470" y="74" fill="#8a8a8a" font-size="12">r = 65 mph</text>
+
+  <line x1="428" y1="66" x2="428" y2="212" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 4"/>
+  <text x="432" y="204" fill="#8a8a8a" font-size="11">hill starts</text>
+
+  <path d="M 380 80 L 428 80 L 430.4 84.2 L 432.8 86.7 L 435.2 88.1 L 437.6 88.9 L 442.4 89.6 L 452 90.0 L 476 90.0 L 620 90.0"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <line x1="600" y1="80" x2="600" y2="90" stroke="#e0645c" stroke-width="1.5"/>
+  <line x1="596" y1="80" x2="604" y2="80" stroke="#e0645c" stroke-width="1.5"/>
+  <line x1="596" y1="90" x2="604" y2="90" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="592" y="112" fill="#e0645c" text-anchor="end" font-size="13">0.91 mph</text>
+  <text x="500" y="252" fill="#e0645c" text-anchor="middle" font-size="12">gives up 0.91 mph, and recovers 11&#215; faster</text>
+</svg>

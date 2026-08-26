@@ -1,0 +1,54 @@
+<svg viewBox="0 0 660 312" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="35" y="20" fill="#8a8a8a" font-style="italic" font-size="14">The detour is the shortcut: go up into the s&#8211;domain, do algebra, come back down.</text>
+
+  <text x="35" y="44" fill="#8a8a8a" font-style="italic">s&#8211;domain &#8212; algebra</text>
+
+  <!-- top left box: transformed equation -->
+  <rect x="35" y="52" width="235" height="50" fill="#4a90d9" opacity="0.10"/>
+  <rect x="35" y="52" width="235" height="50" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="47" y="74" fill="#4a90d9">(ms&#178; + bs + k) X(s) =</text>
+  <text x="47" y="92" fill="#4a90d9">F(s) + [initial-condition terms]</text>
+
+  <!-- top right box: solved transform -->
+  <rect x="390" y="52" width="235" height="50" fill="#4a90d9" opacity="0.10"/>
+  <rect x="390" y="52" width="235" height="50" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="402" y="74" fill="#4a90d9">X(s) = N(s) / D(s)</text>
+  <text x="402" y="92" fill="#4a90d9">one ratio of polynomials</text>
+
+  <!-- bottom left box: the ODE -->
+  <rect x="35" y="198" width="235" height="50" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="47" y="220" fill="#8a8a8a">m x'' + b x' + k x = f(t)</text>
+  <text x="47" y="238" fill="#8a8a8a">with x(0), x'(0) given</text>
+
+  <!-- bottom right box: the answer -->
+  <rect x="390" y="198" width="235" height="50" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="402" y="220" fill="#8a8a8a">x(t)</text>
+  <text x="402" y="238" fill="#8a8a8a">exponentials &#215; sinusoids</text>
+
+  <!-- up arrow: transform -->
+  <line x1="152" y1="198" x2="152" y2="110" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="152,102 146,114 158,114" fill="#4a90d9"/>
+  <text x="162" y="142" fill="#4a90d9">Laplace</text>
+  <text x="162" y="160" fill="#4a90d9">(ICs ride along)</text>
+
+  <!-- across the top: algebra -->
+  <line x1="270" y1="77" x2="380" y2="77" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="388,77 376,71 376,83" fill="#4a90d9"/>
+  <text x="329" y="66" fill="#4a90d9" text-anchor="middle">solve for X(s)</text>
+
+  <!-- down arrow: invert -->
+  <line x1="508" y1="102" x2="508" y2="190" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="508,198 502,186 514,186" fill="#4a90d9"/>
+  <text x="518" y="142" fill="#4a90d9">invert</text>
+  <text x="518" y="160" fill="#4a90d9">(partial fractions)</text>
+
+  <!-- crossed-out direct path -->
+  <line x1="270" y1="223" x2="380" y2="223" stroke="#e0645c" stroke-width="2" stroke-dasharray="5 4"/>
+  <polygon points="388,223 376,217 376,229" fill="#e0645c"/>
+  <line x1="317" y1="211" x2="341" y2="235" stroke="#e0645c" stroke-width="3"/>
+  <line x1="317" y1="235" x2="341" y2="211" stroke="#e0645c" stroke-width="3"/>
+
+  <text x="35" y="274" fill="#8a8a8a" font-style="italic">t&#8211;domain &#8212; calculus</text>
+  <text x="360" y="274" fill="#e0645c" text-anchor="middle">the direct route: homogeneous + particular,</text>
+  <text x="360" y="292" fill="#e0645c" text-anchor="middle">then fight the initial conditions by hand</text>
+</svg>

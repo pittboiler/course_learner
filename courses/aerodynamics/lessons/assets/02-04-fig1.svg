@@ -1,0 +1,33 @@
+<svg viewBox="0 0 660 348" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <line x1="34.0" y1="180.0" x2="304.0" y2="180.0" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="122.0" y1="196.0" x2="122.0" y2="40.0" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="302.0" y="198.0" fill="#8a8a8a" font-size="11" text-anchor="end">&#945;</text>
+  <text x="114.0" y="42.0" fill="#8a8a8a" font-size="11" text-anchor="end">c<tspan font-size="0.72em" dy="3">l</tspan><tspan dy="-3"> </tspan></text>
+  <line x1="49.2" y1="180.0" x2="44.0" y2="180.0" stroke="#8a8a8a" stroke-width="0"/>
+  <line x1="49.2" y1="222.0" x2="283.2" y2="87.6" stroke="#8a8a8a" stroke-width="2" stroke-dasharray="5 4"/>
+  <text x="236.4" y="107.2" fill="#8a8a8a" font-size="10" text-anchor="start">symmetric</text>
+  <line x1="49.2" y1="188.4" x2="283.2" y2="54.0" stroke="#4a90d9" stroke-width="2.2"/>
+  <text x="200.0" y="65.2" fill="#4a90d9" font-size="11" text-anchor="start">cambered</text>
+  <circle cx="64.8" cy="180.0" r="3.5" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="1"/>
+  <text x="44.0" y="200.0" fill="#4a90d9" font-size="10" text-anchor="start">&#945;<tspan font-size="0.72em" dy="3">L=0</tspan><tspan dy="-3"> &lt; 0</tspan></text>
+  <circle cx="122.0" cy="146.4" r="3.5" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="1"/>
+  <text x="128.0" y="138.4" fill="#4a90d9" font-size="10" text-anchor="start">camber bonus</text>
+  <line x1="34.0" y1="272.0" x2="304.0" y2="272.0" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="122.0" y1="284.0" x2="122.0" y2="228.0" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="114.0" y="234.0" fill="#8a8a8a" font-size="11" text-anchor="end">c<tspan font-size="0.72em" dy="3">m,c/4</tspan><tspan dy="-3"> </tspan></text>
+  <text x="302.0" y="290.0" fill="#8a8a8a" font-size="11" text-anchor="end">&#945;</text>
+  <line x1="38.0" y1="272.0" x2="298.0" y2="272.0" stroke="#8a8a8a" stroke-width="2" stroke-dasharray="5 4"/>
+  <text x="264.0" y="264.0" fill="#8a8a8a" font-size="10" text-anchor="end">symmetric: 0</text>
+  <line x1="38.0" y1="298.0" x2="298.0" y2="298.0" stroke="#4a90d9" stroke-width="2.2"/>
+  <text x="54.0" y="310.0" fill="#4a90d9" font-size="10" text-anchor="start">cambered: constant, independent of &#945;</text>
+  <line x1="390.0" y1="250.0" x2="620.0" y2="250.0" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="390.0" y1="250.0" x2="390.0" y2="70.0" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="618.0" y="268.0" fill="#8a8a8a" font-size="11" text-anchor="end">c<tspan font-size="0.72em" dy="3">l</tspan><tspan dy="-3"> </tspan></text>
+  <text x="382.0" y="72.0" fill="#8a8a8a" font-size="11" text-anchor="end">x<tspan font-size="0.72em" dy="3">cp</tspan><tspan dy="-3">/c</tspan></text>
+  <line x1="390.0" y1="175.0" x2="620.0" y2="175.0" stroke="#e0645c" stroke-width="1.4" stroke-dasharray="5 4"/>
+  <text x="618.0" y="167.0" fill="#e0645c" font-size="10" text-anchor="end">c/4 &#8212; the aerodynamic centre</text>
+  <path d="M 410.19 70.57 L 411.98 79.07 L 413.77 86.29 L 415.56 92.50 L 417.34 97.90 L 419.13 102.63 L 420.92 106.82 L 422.71 110.55 L 424.50 113.89 L 426.29 116.90 L 428.08 119.63 L 429.87 122.12 L 431.66 124.39 L 433.44 126.47 L 435.23 128.39 L 437.02 130.16 L 438.81 131.81 L 440.60 133.33 L 442.39 134.76 L 444.18 136.08 L 445.97 137.33 L 447.76 138.50 L 449.54 139.59 L 451.33 140.62 L 453.12 141.60 L 454.91 142.52 L 456.70 143.39 L 458.49 144.22 L 460.28 145.00 L 462.07 145.74 L 463.86 146.45 L 465.64 147.13 L 467.43 147.77 L 469.22 148.39 L 471.01 148.97 L 472.80 149.54 L 474.59 150.08 L 476.38 150.59 L 478.17 151.09 L 479.96 151.56 L 481.74 152.02 L 483.53 152.46 L 485.32 152.88 L 487.11 153.29 L 488.90 153.68 L 490.69 154.06 L 492.48 154.43 L 494.27 154.78 L 496.06 155.12 L 497.84 155.45 L 499.63 155.77 L 501.42 156.08 L 503.21 156.38 L 505.00 156.67 L 506.79 156.95 L 508.58 157.22 L 510.37 157.48 L 512.16 157.74 L 513.94 157.99 L 515.73 158.23 L 517.52 158.47 L 519.31 158.70 L 521.10 158.92 L 522.89 159.13 L 524.68 159.35 L 526.47 159.55 L 528.26 159.75 L 530.04 159.95 L 531.83 160.14 L 533.62 160.32 L 535.41 160.50 L 537.20 160.68 L 538.99 160.85 L 540.78 161.02 L 542.57 161.18 L 544.36 161.34 L 546.14 161.50 L 547.93 161.65 L 549.72 161.80 L 551.51 161.95 L 553.30 162.09 L 555.09 162.23 L 556.88 162.37 L 558.67 162.50 L 560.46 162.63 L 562.24 162.76 L 564.03 162.89 L 565.82 163.01 L 567.61 163.13 L 569.40 163.25 L 571.19 163.36 L 572.98 163.48 L 574.77 163.59 L 576.56 163.70 L 578.34 163.81 L 580.13 163.91 L 581.92 164.01 L 583.71 164.12 L 585.50 164.22 L 587.29 164.31 L 589.08 164.41 L 590.87 164.50 L 592.66 164.60 L 594.44 164.69 L 596.23 164.78 L 598.02 164.86 L 599.81 164.95 L 601.60 165.04 L 603.39 165.12 L 605.18 165.20 L 606.97 165.28 L 608.76 165.36 L 610.54 165.44" stroke="#4a90d9" fill="none" fill-opacity="1" stroke-width="2.2"/>
+  <text x="446.0" y="88.0" fill="#4a90d9" font-size="11" text-anchor="start">centre of pressure</text>
+  <circle cx="532.6" cy="175.0" r="4.0" stroke="#e0645c" fill="#e0645c" fill-opacity="1" stroke-width="1"/>
+  <text x="20.0" y="340.0" fill="#8a8a8a" font-size="11" text-anchor="start">The aerodynamic centre stays put; the centre of pressure slides forward toward it as lift grows.</text>
+</svg>

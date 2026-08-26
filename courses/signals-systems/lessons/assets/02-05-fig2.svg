@@ -1,0 +1,68 @@
+<svg viewBox="0 0 820 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Slide a point up the j&#969; axis; the gain is one over the product of its distances to the poles. Closest approach = resonant peak.</text>
+
+  <text x="56" y="48" fill="#8a8a8a" font-size="13">H(s) = 1/(s&#178; + s + 1)&#160;&#160;&#8658;&#160;&#160;|H(j&#969;)| = 1 / (d&#8321; &#183; d&#8322;)</text>
+
+  <!-- ===== left: s-plane with distance vectors ===== -->
+  <line x1="60" y1="190" x2="322" y2="190" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="322,190 312,185 312,195" fill="#8a8a8a"/>
+  <text x="328" y="195" fill="#8a8a8a">&#963;</text>
+
+  <line x1="180" y1="312" x2="180" y2="70" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="180,70 175,81 185,81" fill="#8a8a8a"/>
+  <text x="150" y="74" fill="#8a8a8a">j&#969;</text>
+
+  <line x1="70" y1="186" x2="70" y2="194" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="62" y="208" fill="#8a8a8a" font-size="11">&#8722;1</text>
+  <line x1="290" y1="186" x2="290" y2="194" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="287" y="208" fill="#8a8a8a" font-size="11">1</text>
+  <line x1="176" y1="80" x2="184" y2="80" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="188" y="84" fill="#8a8a8a" font-size="11">j1</text>
+  <line x1="176" y1="300" x2="184" y2="300" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="188" y="304" fill="#8a8a8a" font-size="11">&#8722;j1</text>
+  <text x="168" y="206" fill="#8a8a8a" font-size="11">0</text>
+
+  <!-- the conjugate pole pair -->
+  <line x1="118" y1="87.7" x2="132" y2="101.7" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="132" y1="87.7" x2="118" y2="101.7" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="118" y1="278.3" x2="132" y2="292.3" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="132" y1="278.3" x2="118" y2="292.3" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <!-- distances from the test point on the axis -->
+  <line x1="180" y1="112.2" x2="125" y2="94.7" stroke="#e0645c" stroke-width="2"/>
+  <line x1="180" y1="112.2" x2="125" y2="285.3" stroke="#e0645c" stroke-width="2"/>
+  <circle cx="180" cy="112.2" r="4.5" fill="#e0645c"/>
+  <text x="196" y="118" fill="#e0645c" font-size="12">test point j&#969;</text>
+  <text x="140" y="128" fill="#e0645c" font-size="13">d&#8321;</text>
+  <text x="100" y="242" fill="#e0645c" font-size="13">d&#8322;</text>
+
+  <text x="56" y="320" fill="#4a90d9" font-size="12">poles: s = &#8722;1/2 &#177; j&#8730;3/2&#160;&#160;(&#950; = 1/2, &#969;n = 1)</text>
+  <text x="56" y="340" fill="#8a8a8a" font-size="12" font-style="italic">d&#8321; = distance to the near pole, d&#8322; = to the far one</text>
+
+  <!-- ===== right: the magnitude response ===== -->
+  <line x1="430" y1="280" x2="800" y2="280" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="800,280 790,275 790,285" fill="#8a8a8a"/>
+  <text x="792" y="298" fill="#8a8a8a">&#969;</text>
+
+  <line x1="430" y1="292" x2="430" y2="70" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="430,70 425,81 435,81" fill="#8a8a8a"/>
+  <text x="412" y="62" fill="#8a8a8a" font-size="12">|H(j&#969;)|</text>
+
+  <line x1="539" y1="276" x2="539" y2="284" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="648" y1="276" x2="648" y2="284" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="757" y1="276" x2="757" y2="284" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="536" y="296" fill="#8a8a8a" font-size="11">1</text>
+  <text x="645" y="296" fill="#8a8a8a" font-size="11">2</text>
+  <text x="754" y="296" fill="#8a8a8a" font-size="11">3</text>
+  <line x1="426" y1="130" x2="434" y2="130" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="416" y="134" fill="#8a8a8a" font-size="11">1</text>
+
+  <!-- peak marker -->
+  <line x1="507.1" y1="280" x2="507.1" y2="106.8" stroke="#e0645c" stroke-width="1.2" stroke-dasharray="4 4"/>
+  <circle cx="507.1" cy="106.8" r="4.5" fill="#e0645c"/>
+  <text x="524" y="94" fill="#e0645c" font-size="12">peak at &#969; = 1/&#8730;2 &#8776; 0.707</text>
+  <text x="524" y="112" fill="#e0645c" font-size="12">height 2/&#8730;3 &#8776; 1.155</text>
+
+  <path d="M 430 130 L 451.8 127 L 462.7 123.5 L 473.6 118.8 L 484.5 113.6 L 495.4 109 L 507.1 106.8 L 517.2 109 L 528.1 116.9 L 539 130 L 549.9 146.1 L 560.8 162.6 L 582.6 191.6 L 604.4 212.9 L 626.2 227.8 L 648 238.4 L 691.6 251.9 L 735.2 259.7 L 778.8 264.7"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+</svg>

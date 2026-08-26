@@ -1,0 +1,108 @@
+<svg viewBox="0 0 700 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="20" y="20" fill="#8a8a8a" font-style="italic">Two seams on the same circle: crossing the top one costs a carry, crossing the bottom one costs your sign.</text>
+
+  <!-- ============ LEFT: the 8 bit two's complement wheel ============ -->
+
+  <!-- callout above: the carry seam -->
+  <text x="165" y="54" fill="#4a90d9" font-size="11" text-anchor="middle">top seam: 11111111 &#8594; 00000000</text>
+  <text x="165" y="70" fill="#4a90d9" font-size="11" text-anchor="middle">unsigned 255 &#8594; 0: CARRY OUT, but no overflow</text>
+  <line x1="165" y1="76" x2="165" y2="100" stroke="#4a90d9" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- the wheel -->
+  <circle cx="165" cy="195" r="90" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- seam diameter -->
+  <line x1="165" y1="105" x2="165" y2="285" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 5"/>
+
+  <!-- top seam highlighted (blue) -->
+  <path d="M 149.4 106.4 A 90 90 0 0 1 180.6 106.4" fill="none" stroke="#4a90d9" stroke-width="6"/>
+  <!-- bottom seam highlighted (coral) -->
+  <path d="M 180.6 283.6 A 90 90 0 0 1 149.4 283.6" fill="none" stroke="#e0645c" stroke-width="6"/>
+
+  <!-- cardinal dots -->
+  <circle cx="255" cy="195" r="3" fill="#8a8a8a"/>
+  <circle cx="75" cy="195" r="3" fill="#8a8a8a"/>
+
+  <!-- half labels -->
+  <text x="178" y="186" fill="#8a8a8a" font-size="11">MSB = 0</text>
+  <text x="178" y="202" fill="#8a8a8a" font-size="11">0 to +127</text>
+  <text x="152" y="186" fill="#8a8a8a" font-size="11" text-anchor="end">MSB = 1</text>
+  <text x="152" y="202" fill="#8a8a8a" font-size="11" text-anchor="end">-128 to -1</text>
+
+  <!-- clockwise = add one -->
+  <path d="M 208.7 142.9 A 68 68 0 0 1 228.9 171.7" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="228.9,171.7 222.0,164.6 229.6,161.8" fill="#8a8a8a"/>
+  <text x="216" y="132" fill="#8a8a8a" font-size="11" text-anchor="middle">+1</text>
+
+  <!-- side labels -->
+  <text x="262" y="199" fill="#8a8a8a" font-size="11">+64</text>
+  <text x="68" y="199" fill="#8a8a8a" font-size="11" text-anchor="end">-64</text>
+
+  <!-- callout below: the overflow seam -->
+  <line x1="165" y1="290" x2="165" y2="304" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="165" y="320" fill="#e0645c" font-size="11" text-anchor="middle">bottom seam: 01111111 &#8594; 10000000</text>
+  <text x="165" y="336" fill="#e0645c" font-size="11" text-anchor="middle">+127 &#8594; -128: OVERFLOW, but no carry</text>
+
+  <!-- ============ RIGHT: a worked addition with its carry chain ============ -->
+
+  <text x="436" y="48" fill="#8a8a8a">8-bit two's complement: 70 + 80</text>
+
+  <!-- row labels -->
+  <text x="436" y="86" fill="#8a8a8a" font-size="11" text-anchor="end">carries in</text>
+  <text x="436" y="116" fill="#8a8a8a" font-size="11" text-anchor="end">+70</text>
+  <text x="436" y="142" fill="#8a8a8a" font-size="11" text-anchor="end">+80</text>
+  <text x="436" y="178" fill="#8a8a8a" font-size="11" text-anchor="end">sum</text>
+
+  <!-- carry row: carry out of the MSB sits left of the MSB column -->
+  <text x="452" y="86" fill="#e0645c" text-anchor="middle">0</text>
+  <text x="480" y="86" fill="#e0645c" text-anchor="middle">1</text>
+  <text x="504" y="86" fill="#8a8a8a" text-anchor="middle">0</text>
+  <text x="528" y="86" fill="#8a8a8a" text-anchor="middle">0</text>
+  <text x="552" y="86" fill="#8a8a8a" text-anchor="middle">0</text>
+  <text x="576" y="86" fill="#8a8a8a" text-anchor="middle">0</text>
+  <text x="600" y="86" fill="#8a8a8a" text-anchor="middle">0</text>
+  <text x="624" y="86" fill="#8a8a8a" text-anchor="middle">0</text>
+  <text x="648" y="86" fill="#8a8a8a" text-anchor="middle">0</text>
+
+  <rect x="440" y="70" width="52" height="22" rx="3" fill="none" stroke="#e0645c" stroke-width="1.5"/>
+
+  <!-- operand A = 01000110 -->
+  <text x="480" y="116" fill="#4a90d9" text-anchor="middle">0</text>
+  <text x="504" y="116" fill="#4a90d9" text-anchor="middle">1</text>
+  <text x="528" y="116" fill="#4a90d9" text-anchor="middle">0</text>
+  <text x="552" y="116" fill="#4a90d9" text-anchor="middle">0</text>
+  <text x="576" y="116" fill="#4a90d9" text-anchor="middle">0</text>
+  <text x="600" y="116" fill="#4a90d9" text-anchor="middle">1</text>
+  <text x="624" y="116" fill="#4a90d9" text-anchor="middle">1</text>
+  <text x="648" y="116" fill="#4a90d9" text-anchor="middle">0</text>
+
+  <!-- operand B = 01010000 -->
+  <text x="452" y="142" fill="#8a8a8a" text-anchor="middle">+</text>
+  <text x="480" y="142" fill="#4a90d9" text-anchor="middle">0</text>
+  <text x="504" y="142" fill="#4a90d9" text-anchor="middle">1</text>
+  <text x="528" y="142" fill="#4a90d9" text-anchor="middle">0</text>
+  <text x="552" y="142" fill="#4a90d9" text-anchor="middle">1</text>
+  <text x="576" y="142" fill="#4a90d9" text-anchor="middle">0</text>
+  <text x="600" y="142" fill="#4a90d9" text-anchor="middle">0</text>
+  <text x="624" y="142" fill="#4a90d9" text-anchor="middle">0</text>
+  <text x="648" y="142" fill="#4a90d9" text-anchor="middle">0</text>
+
+  <line x1="440" y1="152" x2="660" y2="152" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- sum = 10010110 -->
+  <text x="480" y="178" fill="#4a90d9" text-anchor="middle">1</text>
+  <text x="504" y="178" fill="#4a90d9" text-anchor="middle">0</text>
+  <text x="528" y="178" fill="#4a90d9" text-anchor="middle">0</text>
+  <text x="552" y="178" fill="#4a90d9" text-anchor="middle">1</text>
+  <text x="576" y="178" fill="#4a90d9" text-anchor="middle">0</text>
+  <text x="600" y="178" fill="#4a90d9" text-anchor="middle">1</text>
+  <text x="624" y="178" fill="#4a90d9" text-anchor="middle">1</text>
+  <text x="648" y="178" fill="#4a90d9" text-anchor="middle">0</text>
+  <rect x="469" y="162" width="22" height="22" rx="3" fill="none" stroke="#e0645c" stroke-width="1.5"/>
+
+  <!-- verdict -->
+  <text x="436" y="212" fill="#e0645c" font-size="11">carry into MSB = 1, carry out of MSB = 0</text>
+  <text x="436" y="228" fill="#e0645c" font-size="11">they differ, so OVERFLOW = 1</text>
+  <text x="436" y="252" fill="#8a8a8a" font-size="11">signed: +70 plus +80 reads back as -106. Wrong sign.</text>
+  <text x="436" y="268" fill="#8a8a8a" font-size="11">unsigned: 70 + 80 = 150, fits in 8 bits, CARRY = 0.</text>
+</svg>

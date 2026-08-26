@@ -1,12 +1,12 @@
 # Power Systems — Syllabus
 
-> Engineering · Tier 2 · ~22 lessons · Prereqs: [circuits](../circuits/syllabus.md), [em-refresher](../em-refresher/syllabus.md) · Roadmap id: `power-systems`
+> Engineering · Tier 2 · ~21 lessons · Prereqs: [circuits](../circuits/syllabus.md), [em-refresher](../em-refresher/syllabus.md) · Roadmap id: `power-systems`
 
 ## Goal
 
 Learn how the electric grid is analyzed the way a utility engineer actually analyzes it: as a three-phase, per-unit network of sources, transformers, and lines that must stay balanced, in sync, and protected. You'll model each piece (generator, transformer, transmission line), assemble them into a network, solve for the steady-state voltages and flows, decide which generators should run and at what output, and then break the system on purpose — short it, lose a line, trip a relay — to see whether it survives. The organizing trick throughout is the **per-unit system**, which flattens transformer turns ratios and lets you reason about a nationwide grid with numbers near 1.0.
 
-Deliberately scoped: this is systems analysis, not machine design — you'll model a synchronous machine by its reactance and inertia, not design its windings. Electricity-market structure and energy policy get only the engineering core (economic dispatch, a taste of unit commitment); market bidding, ancillary-service auctions, and regulation are out of scope.
+**Deferred, not repeated:** single-phase AC power ($P$, $Q$, $S$, power factor, $S=VI^*$) is derived in [`circuits` 4.3](../circuits/lessons/04-03-ac-power-power-factor.md) and is *reloaded* here, not re-derived. Deliberately scoped: this is systems analysis, not machine design — you'll model a synchronous machine by its reactance and inertia, not design its windings. Electricity-market structure and energy policy get only the engineering core (economic dispatch, a taste of unit commitment); market bidding, ancillary-service auctions, and regulation are out of scope.
 
 ## Dangerous Checklist
 
@@ -33,11 +33,10 @@ Establish the two habits every later module assumes: think in balanced three-pha
 
 | # | Lesson | Goal (one line) | Key concepts |
 |---|---|---|---|
-| 1.1 | AC power: real, reactive, and complex | Decompose single-phase power into what does work and what just sloshes | RMS phasors, instantaneous vs. average power, real $P$ / reactive $Q$ / apparent $S$, power factor, complex power $S = VI^*$ |
-| 1.2 | Balanced three-phase circuits | Relate line and phase voltages/currents in wye and delta connections | phase sequence, wye vs. delta, line-to-line vs. line-to-neutral, the $\sqrt{3}$ and $30°$ relationships, balanced-load symmetry |
-| 1.3 | Three-phase power and the per-phase equivalent | Reduce a balanced three-phase problem to one single-phase circuit | total power $\sqrt{3}\,V_L I_L\cos\varphi$, per-phase (one-line) equivalent, Δ→Y load conversion, neutral carries no current |
-| 1.4 | The per-unit system | Convert quantities to per-unit and see why it makes transformers disappear | base voltage/power/current/impedance, choosing bases, per-unit as normalization, why utilities live near $1.0$ pu |
-| 1.5 | Base changes and the single-line diagram | Assemble a multi-voltage network into one impedance diagram | base-change formula, common $S_{base}$ across zones, voltage bases set by transformer ratios, one-line and impedance diagrams |
+| 1.1 | AC power recalled, and balanced three-phase | Reload $P/Q/S$, then relate line and phase quantities in wye and delta | $S=VI^*$, power factor *(cites [`circuits` 4.3](../circuits/lessons/04-03-ac-power-power-factor.md) — a reload, not a derivation)*; phase sequence, wye vs. delta, the $\sqrt3$ and $30°$ relationships |
+| 1.2 | Three-phase power and the per-phase equivalent | Reduce a balanced three-phase problem to one single-phase circuit | total power $\sqrt{3}\,V_L I_L\cos\varphi$, per-phase (one-line) equivalent, Δ→Y load conversion, neutral carries no current |
+| 1.3 | The per-unit system | Convert quantities to per-unit and see why it makes transformers disappear | base voltage/power/current/impedance, choosing bases, per-unit as normalization, why utilities live near $1.0$ pu |
+| 1.4 | Base changes and the single-line diagram | Assemble a multi-voltage network into one impedance diagram | base-change formula, common $S_{base}$ across zones, voltage bases set by transformer ratios, one-line and impedance diagrams |
 
 **Boss problem 1:** A balanced, wye-connected load of $Z = 12 + j9\ \Omega$ per phase is supplied from a 208 V (line-to-line), 60 Hz three-phase source. (a) Find the phase voltage, line current, and the total real, reactive, and apparent power. (b) Find the power factor and state whether it is leading or lagging. (c) On bases $S_{base} = 10$ kVA (three-phase) and $V_{base} = 208$ V (line-to-line), express the load impedance in per-unit. *(Answers to check against: $V_\phi = 120.1$ V, $I_L = 8.01$ A; $P = 2.31$ kW, $Q = 1.73$ kvar, $S = 2.88$ kVA; pf $= 0.80$ lagging; $Z_{base} = 4.33\ \Omega$, so $Z = 2.77 + j2.08 = 3.47\angle 36.9°$ pu.)*
 

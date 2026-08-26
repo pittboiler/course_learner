@@ -1,0 +1,109 @@
+<svg viewBox="0 0 710 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="30" y="20" fill="#8a8a8a" font-style="italic">The instrumentation amp: two buffers boost the difference only, then a matched stage subtracts.</text>
+
+  <!-- === A1 (top buffer) === -->
+  <polygon points="170,48 170,132 238,90" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="186" y="95" fill="#4a90d9" font-size="12">A1</text>
+  <line x1="174" y1="68" x2="184" y2="68" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="179" y1="63" x2="179" y2="73" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="174" y1="112" x2="184" y2="112" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="140" cy="68" r="4" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="144" y1="68" x2="170" y2="68" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="120" y="56" fill="#8a8a8a">v</text>
+  <text x="129" y="60" fill="#8a8a8a" font-size="10">1</text>
+
+  <!-- === A2 (bottom buffer) === -->
+  <polygon points="170,208 170,292 238,250" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="186" y="255" fill="#4a90d9" font-size="12">A2</text>
+  <line x1="174" y1="228" x2="184" y2="228" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="174" y1="272" x2="184" y2="272" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="179" y1="267" x2="179" y2="277" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="140" cy="272" r="4" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="144" y1="272" x2="170" y2="272" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="120" y="292" fill="#8a8a8a">v</text>
+  <text x="129" y="296" fill="#8a8a8a" font-size="10">2</text>
+
+  <!-- === A1 feedback R1 === -->
+  <line x1="238" y1="90" x2="290" y2="90" stroke="#8a8a8a" stroke-width="2"/>
+  <circle cx="262" cy="90" r="4" fill="#8a8a8a"/>
+  <line x1="262" y1="90" x2="262" y2="26" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="262" y1="26" x2="70" y2="26" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="70" y1="26" x2="70" y2="45" stroke="#8a8a8a" stroke-width="2"/>
+  <rect x="58" y="45" width="24" height="40" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="26" y="68" fill="#8a8a8a">R</text>
+  <text x="36" y="72" fill="#8a8a8a" font-size="10">1</text>
+  <line x1="70" y1="85" x2="70" y2="112" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="70" y1="112" x2="170" y2="112" stroke="#8a8a8a" stroke-width="2"/>
+  <circle cx="70" cy="112" r="4" fill="#8a8a8a"/>
+
+  <!-- === the gain resistor === -->
+  <line x1="70" y1="112" x2="70" y2="150" stroke="#e0645c" stroke-width="2.5"/>
+  <rect x="58" y="150" width="24" height="40" fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <line x1="70" y1="190" x2="70" y2="228" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="20" y="174" fill="#e0645c" font-size="15">R</text>
+  <text x="31" y="179" fill="#e0645c" font-size="11">G</text>
+
+  <!-- === A2 feedback R1 === -->
+  <circle cx="70" cy="228" r="4" fill="#8a8a8a"/>
+  <line x1="70" y1="228" x2="170" y2="228" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="70" y1="228" x2="70" y2="250" stroke="#8a8a8a" stroke-width="2"/>
+  <rect x="58" y="250" width="24" height="40" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="26" y="274" fill="#8a8a8a">R</text>
+  <text x="36" y="278" fill="#8a8a8a" font-size="10">1</text>
+  <line x1="70" y1="290" x2="70" y2="314" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="70" y1="314" x2="262" y2="314" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="262" y1="314" x2="262" y2="250" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="238" y1="250" x2="290" y2="250" stroke="#8a8a8a" stroke-width="2"/>
+  <circle cx="262" cy="250" r="4" fill="#8a8a8a"/>
+
+  <!-- === difference stage input network === -->
+  <line x1="290" y1="90" x2="290" y2="168" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="290" y1="168" x2="330" y2="168" stroke="#8a8a8a" stroke-width="2"/>
+  <rect x="330" y="157" width="60" height="22" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="352" y="150" fill="#8a8a8a">R</text>
+  <text x="362" y="154" fill="#8a8a8a" font-size="10">2</text>
+  <line x1="390" y1="168" x2="500" y2="168" stroke="#8a8a8a" stroke-width="2"/>
+  <circle cx="440" cy="168" r="4" fill="#8a8a8a"/>
+
+  <line x1="290" y1="250" x2="290" y2="212" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="290" y1="212" x2="330" y2="212" stroke="#8a8a8a" stroke-width="2"/>
+  <rect x="330" y="201" width="60" height="22" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="352" y="196" fill="#8a8a8a">R</text>
+  <text x="362" y="200" fill="#8a8a8a" font-size="10">2</text>
+  <line x1="390" y1="212" x2="500" y2="212" stroke="#8a8a8a" stroke-width="2"/>
+  <circle cx="440" cy="212" r="4" fill="#8a8a8a"/>
+
+  <!-- === A3 difference amp === -->
+  <polygon points="500,148 500,232 568,190" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="516" y="195" fill="#4a90d9" font-size="12">A3</text>
+  <line x1="504" y1="168" x2="514" y2="168" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="504" y1="212" x2="514" y2="212" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="509" y1="207" x2="509" y2="217" stroke="#4a90d9" stroke-width="2"/>
+
+  <!-- === A3 feedback R3 === -->
+  <line x1="440" y1="168" x2="440" y2="120" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="440" y1="120" x2="500" y2="120" stroke="#8a8a8a" stroke-width="2"/>
+  <rect x="500" y="109" width="60" height="22" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="522" y="102" fill="#8a8a8a">R</text>
+  <text x="532" y="106" fill="#8a8a8a" font-size="10">3</text>
+  <line x1="560" y1="120" x2="620" y2="120" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="620" y1="120" x2="620" y2="190" stroke="#8a8a8a" stroke-width="2"/>
+
+  <!-- === A3 ground leg R3 === -->
+  <line x1="440" y1="212" x2="440" y2="240" stroke="#8a8a8a" stroke-width="2"/>
+  <rect x="428" y="240" width="24" height="40" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="458" y="260" fill="#8a8a8a">R</text>
+  <text x="468" y="264" fill="#8a8a8a" font-size="10">3</text>
+  <line x1="440" y1="280" x2="440" y2="300" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="428" y1="300" x2="452" y2="300" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="432" y1="305" x2="448" y2="305" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="436" y1="310" x2="444" y2="310" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- === output === -->
+  <line x1="568" y1="190" x2="672" y2="190" stroke="#8a8a8a" stroke-width="2"/>
+  <circle cx="620" cy="190" r="4" fill="#8a8a8a"/>
+  <text x="676" y="195" fill="#4a90d9">v</text>
+  <text x="685" y="199" fill="#4a90d9" font-size="10">out</text>
+
+  <text x="30" y="332" fill="#e0645c" font-style="italic">RG alone sets the gain. All the matching that sets CMRR lives in the R2 and R3 pairs, trimmed on-die.</text>
+</svg>

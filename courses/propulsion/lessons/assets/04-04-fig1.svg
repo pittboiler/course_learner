@@ -1,0 +1,63 @@
+<svg viewBox="0 0 660 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <line x1="40.0" y1="280.0" x2="310.0" y2="280.0" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="40.0" y1="280.0" x2="40.0" y2="40.0" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="308.0" y="272.0" fill="#8a8a8a" font-size="11" text-anchor="end">thrust (N)</text>
+  <text x="44.0" y="34.0" fill="#8a8a8a" font-size="11" text-anchor="start">I<tspan font-size="0.72em" dy="3">sp</tspan><tspan dy="-3"> (s)</tspan></text>
+  <rect x="280.0" y="252.3" width="35.3" height="11.1" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="0.12" stroke-width="1.3" rx="8"/>
+  <text x="297.6" y="261.8" fill="#8a8a8a" font-size="9" text-anchor="middle">solid</text>
+  <rect x="250.0" y="217.1" width="57.1" height="32.7" stroke="#e0645c" fill="#e0645c" fill-opacity="0.12" stroke-width="1.3" rx="8"/>
+  <text x="278.5" y="237.4" fill="#e0645c" font-size="9" text-anchor="middle">chemical</text>
+  <rect x="250.0" y="167.9" width="30.0" height="8.8" stroke="#4a90d9" fill="#4a90d9" fill-opacity="0.12" stroke-width="1.3" rx="8"/>
+  <text x="265.0" y="176.2" fill="#4a90d9" font-size="9" text-anchor="middle">nuclear thermal</text>
+  <rect x="61.0" y="186.6" width="32.4" height="25.1" stroke="#4a90d9" fill="#4a90d9" fill-opacity="0.12" stroke-width="1.3" rx="8"/>
+  <text x="77.2" y="203.1" fill="#4a90d9" font-size="9" text-anchor="middle">arcjet</text>
+  <rect x="54.3" y="91.7" width="36.7" height="38.1" stroke="#4a90d9" fill="#4a90d9" fill-opacity="0.12" stroke-width="1.3" rx="8"/>
+  <text x="72.6" y="114.7" fill="#4a90d9" font-size="9" text-anchor="middle">Hall</text>
+  <rect x="49.0" y="47.9" width="30.0" height="30.2" stroke="#4a90d9" fill="#4a90d9" fill-opacity="0.12" stroke-width="1.3" rx="8"/>
+  <text x="64.0" y="67.0" fill="#4a90d9" font-size="9" text-anchor="middle">ion</text>
+  <path d="M 100.25 280.00 L 99.78 277.30 L 99.31 274.61 L 98.84 271.91 L 98.37 269.21 L 97.90 266.52 L 97.43 263.82 L 96.96 261.12 L 96.48 258.43 L 96.01 255.73 L 95.54 253.03 L 95.07 250.34 L 94.60 247.64 L 94.13 244.94 L 93.66 242.25 L 93.19 239.55 L 92.71 236.85 L 92.24 234.16 L 91.77 231.46 L 91.30 228.76 L 90.83 226.07 L 90.36 223.37 L 89.89 220.67 L 89.42 217.98 L 88.95 215.28 L 88.47 212.58 L 88.00 209.89 L 87.53 207.19 L 87.06 204.49 L 86.59 201.80 L 86.12 199.10 L 85.65 196.40 L 85.18 193.71 L 84.70 191.01 L 84.23 188.31 L 83.76 185.62 L 83.29 182.92 L 82.82 180.22 L 82.35 177.53 L 81.88 174.83 L 81.41 172.13 L 80.93 169.44 L 80.46 166.74 L 79.99 164.04 L 79.52 161.35 L 79.05 158.65 L 78.58 155.96 L 78.11 153.26 L 77.64 150.56 L 77.16 147.87 L 76.69 145.17 L 76.22 142.47 L 75.75 139.78 L 75.28 137.08 L 74.81 134.38 L 74.34 131.69 L 73.87 128.99 L 73.40 126.29 L 72.92 123.60 L 72.45 120.90 L 71.98 118.20 L 71.51 115.51 L 71.04 112.81 L 70.57 110.11 L 70.10 107.42 L 69.63 104.72 L 69.15 102.02 L 68.68 99.33 L 68.21 96.63 L 67.74 93.93 L 67.27 91.24 L 66.80 88.54 L 66.33 85.84 L 65.86 83.15 L 65.38 80.45 L 64.91 77.75 L 64.44 75.06 L 63.97 72.36 L 63.50 69.66 L 63.03 66.97 L 62.56 64.27 L 62.09 61.57 L 61.61 58.88 L 61.14 56.18 L 60.67 53.48 L 60.20 50.79 L 59.73 48.09 L 59.26 45.39 L 58.79 42.70 L 58.32 40.00" stroke="#8a8a8a" fill="none" fill-opacity="1" stroke-width="1.0" stroke-dasharray="4 4"/>
+  <text x="55.3" y="51.0" fill="#8a8a8a" font-size="8" text-anchor="end">1 kW</text>
+  <path d="M 190.25 280.00 L 189.78 277.30 L 189.31 274.61 L 188.84 271.91 L 188.37 269.21 L 187.90 266.52 L 187.43 263.82 L 186.96 261.12 L 186.48 258.43 L 186.01 255.73 L 185.54 253.03 L 185.07 250.34 L 184.60 247.64 L 184.13 244.94 L 183.66 242.25 L 183.19 239.55 L 182.71 236.85 L 182.24 234.16 L 181.77 231.46 L 181.30 228.76 L 180.83 226.07 L 180.36 223.37 L 179.89 220.67 L 179.42 217.98 L 178.95 215.28 L 178.47 212.58 L 178.00 209.89 L 177.53 207.19 L 177.06 204.49 L 176.59 201.80 L 176.12 199.10 L 175.65 196.40 L 175.18 193.71 L 174.70 191.01 L 174.23 188.31 L 173.76 185.62 L 173.29 182.92 L 172.82 180.22 L 172.35 177.53 L 171.88 174.83 L 171.41 172.13 L 170.93 169.44 L 170.46 166.74 L 169.99 164.04 L 169.52 161.35 L 169.05 158.65 L 168.58 155.96 L 168.11 153.26 L 167.64 150.56 L 167.16 147.87 L 166.69 145.17 L 166.22 142.47 L 165.75 139.78 L 165.28 137.08 L 164.81 134.38 L 164.34 131.69 L 163.87 128.99 L 163.40 126.29 L 162.92 123.60 L 162.45 120.90 L 161.98 118.20 L 161.51 115.51 L 161.04 112.81 L 160.57 110.11 L 160.10 107.42 L 159.63 104.72 L 159.15 102.02 L 158.68 99.33 L 158.21 96.63 L 157.74 93.93 L 157.27 91.24 L 156.80 88.54 L 156.33 85.84 L 155.86 83.15 L 155.38 80.45 L 154.91 77.75 L 154.44 75.06 L 153.97 72.36 L 153.50 69.66 L 153.03 66.97 L 152.56 64.27 L 152.09 61.57 L 151.61 58.88 L 151.14 56.18 L 150.67 53.48 L 150.20 50.79 L 149.73 48.09 L 149.26 45.39 L 148.79 42.70 L 148.32 40.00" stroke="#8a8a8a" fill="none" fill-opacity="1" stroke-width="1.0" stroke-dasharray="4 4"/>
+  <text x="145.3" y="51.0" fill="#8a8a8a" font-size="8" text-anchor="end">1 MW</text>
+  <path d="M 280.25 280.00 L 279.78 277.30 L 279.31 274.61 L 278.84 271.91 L 278.37 269.21 L 277.90 266.52 L 277.43 263.82 L 276.96 261.12 L 276.48 258.43 L 276.01 255.73 L 275.54 253.03 L 275.07 250.34 L 274.60 247.64 L 274.13 244.94 L 273.66 242.25 L 273.19 239.55 L 272.71 236.85 L 272.24 234.16 L 271.77 231.46 L 271.30 228.76 L 270.83 226.07 L 270.36 223.37 L 269.89 220.67 L 269.42 217.98 L 268.95 215.28 L 268.47 212.58 L 268.00 209.89 L 267.53 207.19 L 267.06 204.49 L 266.59 201.80 L 266.12 199.10 L 265.65 196.40 L 265.18 193.71 L 264.70 191.01 L 264.23 188.31 L 263.76 185.62 L 263.29 182.92 L 262.82 180.22 L 262.35 177.53 L 261.88 174.83 L 261.41 172.13 L 260.93 169.44 L 260.46 166.74 L 259.99 164.04 L 259.52 161.35 L 259.05 158.65 L 258.58 155.96 L 258.11 153.26 L 257.64 150.56 L 257.16 147.87 L 256.69 145.17 L 256.22 142.47 L 255.75 139.78 L 255.28 137.08 L 254.81 134.38 L 254.34 131.69 L 253.87 128.99 L 253.40 126.29 L 252.92 123.60 L 252.45 120.90 L 251.98 118.20 L 251.51 115.51 L 251.04 112.81 L 250.57 110.11 L 250.10 107.42 L 249.63 104.72 L 249.15 102.02 L 248.68 99.33 L 248.21 96.63 L 247.74 93.93 L 247.27 91.24 L 246.80 88.54 L 246.33 85.84 L 245.86 83.15 L 245.38 80.45 L 244.91 77.75 L 244.44 75.06 L 243.97 72.36 L 243.50 69.66 L 243.03 66.97 L 242.56 64.27 L 242.09 61.57 L 241.61 58.88 L 241.14 56.18 L 240.67 53.48 L 240.20 50.79 L 239.73 48.09 L 239.26 45.39 L 238.79 42.70 L 238.32 40.00" stroke="#8a8a8a" fill="none" fill-opacity="1" stroke-width="1.0" stroke-dasharray="4 4"/>
+  <text x="235.3" y="51.0" fill="#8a8a8a" font-size="8" text-anchor="end">1 GW</text>
+  <line x1="250.0" y1="280.0" x2="250.0" y2="40.0" stroke="#e0645c" stroke-width="1.2" stroke-dasharray="3 3"/>
+  <text x="253.4" y="246.4" fill="#e0645c" font-size="9" text-anchor="start">T/W &gt; 1 to launch</text>
+  <text x="202.0" y="37.6" fill="#8a8a8a" font-size="9" text-anchor="start">nothing lives here</text>
+  <line x1="70.0" y1="280.0" x2="70.0" y2="284.0" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="70.0" y="296.0" fill="#8a8a8a" font-size="9" text-anchor="middle">0.1</text>
+  <line x1="130.0" y1="280.0" x2="130.0" y2="284.0" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="130.0" y="296.0" fill="#8a8a8a" font-size="9" text-anchor="middle">10</text>
+  <line x1="190.0" y1="280.0" x2="190.0" y2="284.0" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="190.0" y="296.0" fill="#8a8a8a" font-size="9" text-anchor="middle">10<tspan font-size="0.72em" dy="-4">3</tspan><tspan dy="4"> </tspan></text>
+  <line x1="250.0" y1="280.0" x2="250.0" y2="284.0" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="250.0" y="296.0" fill="#8a8a8a" font-size="9" text-anchor="middle">10<tspan font-size="0.72em" dy="-4">5</tspan><tspan dy="4"> </tspan></text>
+  <line x1="380.0" y1="280.0" x2="630.0" y2="280.0" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="380.0" y1="280.0" x2="380.0" y2="40.0" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="628.0" y="272.0" fill="#8a8a8a" font-size="11" text-anchor="end">flight Mach number</text>
+  <text x="384.0" y="34.0" fill="#8a8a8a" font-size="11" text-anchor="start">I<tspan font-size="0.72em" dy="3">sp</tspan><tspan dy="-3"> (s)</tspan></text>
+  <path d="M 381.6666666666667 51.86191475618705 L 391.6666666666667 75.06733190524298 L 391.6666666666667 96.43994032305483 L 381.6666666666667 73.23452317399884 Z" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="1.2" stroke-dasharray="0.14"/>
+  <text x="386.7" y="59.5" fill="#4a90d9" font-size="9" text-anchor="middle">turboprop</text>
+  <path d="M 385.0 79.88882676245711 L 395.8333333333333 102.38319413058295 L 395.8333333333333 123.75580254839477 L 385.0 101.26143518026893 Z" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="1.2" stroke-dasharray="0.14"/>
+  <text x="390.4" y="87.1" fill="#4a90d9" font-size="9" text-anchor="middle">turbofan</text>
+  <path d="M 388.3333333333333 108.30185507924185 L 430.0 139.50307504171388 L 430.0 160.87568345952573 L 388.3333333333333 129.67446349705367 Z" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="1" stroke-width="1.2" stroke-dasharray="0.14"/>
+  <text x="409.2" y="119.9" fill="#8a8a8a" font-size="9" text-anchor="middle">turbojet</text>
+  <path d="M 430.0 142.0547906165587 L 463.3333333333333 167.1461487230568 L 463.3333333333333 188.51875714086873 L 430.0 163.42739903437052 Z" stroke="#e0645c" fill="#e0645c" fill-opacity="1" stroke-width="1.2" stroke-dasharray="0.14"/>
+  <text x="446.7" y="150.6" fill="#e0645c" font-size="9" text-anchor="middle">ramjet</text>
+  <path d="M 463.3333333333333 139.50307504171388 L 580.0 201.6690388958154 L 580.0 223.0416473136272 L 463.3333333333333 160.87568345952573 Z" stroke="#e0645c" fill="#e0645c" fill-opacity="1" stroke-width="1.2" stroke-dasharray="0.14"/>
+  <text x="521.7" y="166.6" fill="#e0645c" font-size="9" text-anchor="middle">scramjet</text>
+  <line x1="380.0" y1="253.6" x2="630.0" y2="253.6" stroke="#8a8a8a" stroke-width="2.2"/>
+  <text x="510.0" y="247.6" fill="#8a8a8a" font-size="10" text-anchor="start">rocket &#8212; flat everywhere</text>
+  <circle cx="596.7" cy="224.9" r="4.5" stroke="#e0645c" fill="#e0645c" fill-opacity="1" stroke-width="1"/>
+  <text x="590.7" y="214.9" fill="#e0645c" font-size="9" text-anchor="end">air-breathing ends here</text>
+  <line x1="380.0" y1="280.0" x2="380.0" y2="284.0" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="380.0" y="296.0" fill="#8a8a8a" font-size="9" text-anchor="middle">0</text>
+  <line x1="430.0" y1="280.0" x2="430.0" y2="284.0" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="430.0" y="296.0" fill="#8a8a8a" font-size="9" text-anchor="middle">3</text>
+  <line x1="480.0" y1="280.0" x2="480.0" y2="284.0" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="480.0" y="296.0" fill="#8a8a8a" font-size="9" text-anchor="middle">6</text>
+  <line x1="530.0" y1="280.0" x2="530.0" y2="284.0" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="530.0" y="296.0" fill="#8a8a8a" font-size="9" text-anchor="middle">9</text>
+  <line x1="580.0" y1="280.0" x2="580.0" y2="284.0" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="580.0" y="296.0" fill="#8a8a8a" font-size="9" text-anchor="middle">12</text>
+</svg>

@@ -1,0 +1,112 @@
+<svg viewBox="0 0 720 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Voltage-divider bias with emitter degeneration &#8212; and the same circuit after the divider is collapsed to its Th&#233;venin equivalent.</text>
+
+  <!-- ============ LEFT: circuit as drawn ============ -->
+
+  <!-- supply rail -->
+  <line x1="75" y1="62" x2="300" y2="62" stroke="#8a8a8a" stroke-width="1.8"/>
+  <text x="188" y="52" fill="#8a8a8a" text-anchor="middle">V<tspan font-size="10" dy="3">CC</tspan><tspan dy="-3"> = 15 V</tspan></text>
+
+  <!-- R1 branch -->
+  <line x1="110" y1="62" x2="110" y2="82" stroke="#8a8a8a" stroke-width="1.5"/>
+  <rect x="102" y="82" width="16" height="40" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="96" y="106" fill="#8a8a8a" text-anchor="end">R<tspan font-size="10" dy="3">1</tspan><tspan dy="-3"> = 47 k&#8486;</tspan></text>
+  <line x1="110" y1="122" x2="110" y2="196" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- R2 branch -->
+  <rect x="102" y="196" width="16" height="40" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="96" y="220" fill="#8a8a8a" text-anchor="end">R<tspan font-size="10" dy="3">2</tspan><tspan dy="-3"> = 10 k&#8486;</tspan></text>
+  <line x1="110" y1="236" x2="110" y2="258" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="100" y1="258" x2="120" y2="258" stroke="#8a8a8a" stroke-width="1.8"/>
+  <line x1="104" y1="262" x2="116" y2="262" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="107" y1="266" x2="113" y2="266" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- base node and lead -->
+  <circle cx="110" cy="175" r="3.2" fill="#8a8a8a"/>
+  <line x1="110" y1="175" x2="182" y2="175" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="168,175 159,171 159,179" fill="#e0645c"/>
+  <text x="150" y="196" fill="#e0645c" text-anchor="middle">I<tspan font-size="10" dy="3">B</tspan></text>
+
+  <!-- transistor -->
+  <line x1="182" y1="153" x2="182" y2="197" stroke="#4a90d9" stroke-width="3.5"/>
+  <line x1="182" y1="163" x2="208" y2="141" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="182" y1="187" x2="208" y2="209" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="208,209 197,204 200,195" fill="#4a90d9"/>
+  <text x="222" y="170" fill="#4a90d9">Q<tspan font-size="10" dy="3">1</tspan><tspan dy="-3">, &#946; = 100</tspan></text>
+
+  <!-- collector branch -->
+  <line x1="208" y1="62" x2="208" y2="82" stroke="#8a8a8a" stroke-width="1.5"/>
+  <rect x="200" y="82" width="16" height="40" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="224" y="106" fill="#8a8a8a">R<tspan font-size="10" dy="3">C</tspan><tspan dy="-3"> = 3.3 k&#8486;</tspan></text>
+  <line x1="208" y1="122" x2="208" y2="141" stroke="#8a8a8a" stroke-width="1.5"/>
+  <circle cx="208" cy="141" r="3.2" fill="#8a8a8a"/>
+  <line x1="186" y1="86" x2="186" y2="112" stroke="#e0645c" stroke-width="1.4"/>
+  <polygon points="186,114 182,104 190,104" fill="#e0645c"/>
+  <text x="178" y="104" fill="#e0645c" text-anchor="end">I<tspan font-size="10" dy="3">C</tspan></text>
+
+  <!-- emitter branch -->
+  <line x1="208" y1="209" x2="208" y2="226" stroke="#8a8a8a" stroke-width="1.5"/>
+  <rect x="200" y="226" width="16" height="40" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="224" y="250" fill="#8a8a8a">R<tspan font-size="10" dy="3">E</tspan><tspan dy="-3"> = 1 k&#8486;</tspan></text>
+  <line x1="208" y1="266" x2="208" y2="286" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="198" y1="286" x2="218" y2="286" stroke="#8a8a8a" stroke-width="1.8"/>
+  <line x1="202" y1="290" x2="214" y2="290" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="205" y1="294" x2="211" y2="294" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="186" y1="230" x2="186" y2="256" stroke="#e0645c" stroke-width="1.4"/>
+  <polygon points="186,258 182,248 190,248" fill="#e0645c"/>
+  <text x="178" y="248" fill="#e0645c" text-anchor="end">I<tspan font-size="10" dy="3">E</tspan></text>
+
+  <!-- V_CE marker -->
+  <line x1="252" y1="141" x2="252" y2="209" stroke="#e0645c" stroke-width="1.4" stroke-dasharray="4 3"/>
+  <polygon points="252,141 248,150 256,150" fill="#e0645c"/>
+  <polygon points="252,209 248,200 256,200" fill="#e0645c"/>
+  <text x="258" y="180" fill="#e0645c">V<tspan font-size="10" dy="3">CE</tspan></text>
+
+  <text x="188" y="316" fill="#8a8a8a" font-style="italic" text-anchor="middle">as drawn</text>
+
+  <!-- big implication arrow -->
+  <text x="345" y="185" fill="#e0645c" font-size="30" text-anchor="middle">&#8658;</text>
+
+  <!-- ============ RIGHT: Thevenin equivalent ============ -->
+
+  <line x1="450" y1="62" x2="640" y2="62" stroke="#8a8a8a" stroke-width="1.8"/>
+  <text x="545" y="52" fill="#8a8a8a" text-anchor="middle">V<tspan font-size="10" dy="3">CC</tspan><tspan dy="-3"> = 15 V</tspan></text>
+
+  <!-- collector branch -->
+  <line x1="548" y1="62" x2="548" y2="82" stroke="#8a8a8a" stroke-width="1.5"/>
+  <rect x="540" y="82" width="16" height="40" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="564" y="106" fill="#8a8a8a">R<tspan font-size="10" dy="3">C</tspan><tspan dy="-3"> = 3.3 k&#8486;</tspan></text>
+  <line x1="548" y1="122" x2="548" y2="141" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- transistor -->
+  <line x1="522" y1="153" x2="522" y2="197" stroke="#4a90d9" stroke-width="3.5"/>
+  <line x1="522" y1="163" x2="548" y2="141" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="522" y1="187" x2="548" y2="209" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="548,209 537,204 540,195" fill="#4a90d9"/>
+
+  <!-- emitter branch -->
+  <line x1="548" y1="209" x2="548" y2="226" stroke="#8a8a8a" stroke-width="1.5"/>
+  <rect x="540" y="226" width="16" height="40" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="564" y="250" fill="#8a8a8a">R<tspan font-size="10" dy="3">E</tspan><tspan dy="-3"> = 1 k&#8486;</tspan></text>
+  <line x1="548" y1="266" x2="548" y2="286" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="538" y1="286" x2="558" y2="286" stroke="#8a8a8a" stroke-width="1.8"/>
+  <line x1="542" y1="290" x2="554" y2="290" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="545" y1="294" x2="551" y2="294" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- base loop: R_TH and V_TH -->
+  <line x1="488" y1="175" x2="522" y2="175" stroke="#8a8a8a" stroke-width="1.5"/>
+  <rect x="448" y="167" width="40" height="16" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+  <text x="468" y="158" fill="#e0645c" text-anchor="middle">R<tspan font-size="10" dy="3">TH</tspan><tspan dy="-3"> = 8.25 k&#8486;</tspan></text>
+  <line x1="432" y1="175" x2="448" y2="175" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="432" y1="175" x2="432" y2="199" stroke="#8a8a8a" stroke-width="1.5"/>
+  <circle cx="432" cy="216" r="17" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+  <text x="432" y="213" fill="#e0645c" text-anchor="middle" font-size="12">+</text>
+  <text x="432" y="229" fill="#e0645c" text-anchor="middle" font-size="12">&#8722;</text>
+  <line x1="432" y1="233" x2="432" y2="258" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="422" y1="258" x2="442" y2="258" stroke="#8a8a8a" stroke-width="1.8"/>
+  <line x1="426" y1="262" x2="438" y2="262" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="429" y1="266" x2="435" y2="266" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="432" y="286" fill="#e0645c" text-anchor="middle">V<tspan font-size="10" dy="3">TH</tspan><tspan dy="-3"> = 2.63 V</tspan></text>
+
+  <text x="545" y="316" fill="#8a8a8a" font-style="italic" text-anchor="middle">divider replaced by its Th&#233;venin equivalent</text>
+</svg>

@@ -59,7 +59,7 @@ Neither is $1$. Contradiction. So no such $\mathbb{P}$ exists — and $V$ has no
 
 ## Picture
 
-![The interval [0,1) wrapped into a circle; rational translates of the Vitali set V are congruent, disjoint copies that tile the circle — countably many equal masses that cannot sum to 1](assets/01-01-fig1.svg)
+![The unit interval wrapped into a circle; rational translates of the Vitali set V are congruent, disjoint copies that tile the circle — countably many equal masses that cannot sum to 1](assets/01-01-fig1.svg)
 
 The whole proof lives in this picture: countably many congruent, disjoint copies fill the circle, so their equal masses must total exactly $1$ — which a repeated constant can never do.
 

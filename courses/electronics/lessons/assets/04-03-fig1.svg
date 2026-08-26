@@ -1,0 +1,110 @@
+<svg viewBox="0 0 780 432" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Two complementary switches, one input: whichever way the input goes, exactly one device is on and the output is pulled hard to a rail.</text>
+
+  <text x="60" y="46" fill="#8a8a8a">(a) CMOS inverter</text>
+  <text x="440" y="46" fill="#8a8a8a">(b) voltage transfer characteristic</text>
+
+  <!-- ============ panel a: the inverter ============ -->
+
+  <!-- supply rail symbol -->
+  <line x1="230" y1="78" x2="230" y2="110" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="212" y1="78" x2="248" y2="78" stroke="#8a8a8a" stroke-width="2.5"/>
+  <text x="254" y="82" fill="#8a8a8a">V<tspan font-size="10" dy="3">DD</tspan></text>
+
+  <!-- PMOS: channel, gate plate, bubble -->
+  <line x1="230" y1="110" x2="230" y2="156" stroke="#4a90d9" stroke-width="3.5"/>
+  <line x1="220" y1="114" x2="220" y2="152" stroke="#8a8a8a" stroke-width="2"/>
+  <circle cx="213" cy="133" r="5" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="208" y1="133" x2="140" y2="133" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="250" y="128" fill="#4a90d9" font-size="12">PMOS</text>
+
+  <!-- PMOS drain down to output node -->
+  <line x1="230" y1="156" x2="230" y2="190" stroke="#8a8a8a" stroke-width="2"/>
+
+  <!-- NMOS: drain up to output node, channel, gate plate -->
+  <line x1="230" y1="190" x2="230" y2="224" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="230" y1="224" x2="230" y2="270" stroke="#4a90d9" stroke-width="3.5"/>
+  <line x1="220" y1="228" x2="220" y2="266" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="220" y1="247" x2="140" y2="247" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="250" y="240" fill="#4a90d9" font-size="12">NMOS</text>
+
+  <!-- NMOS source to ground -->
+  <line x1="230" y1="270" x2="230" y2="300" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="212" y1="300" x2="248" y2="300" stroke="#8a8a8a" stroke-width="2.5"/>
+  <line x1="218" y1="306" x2="242" y2="306" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="224" y1="312" x2="236" y2="312" stroke="#8a8a8a" stroke-width="2"/>
+
+  <!-- shared gate = input -->
+  <line x1="140" y1="133" x2="140" y2="247" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="140" y1="190" x2="76" y2="190" stroke="#8a8a8a" stroke-width="1.5"/>
+  <circle cx="140" cy="190" r="3.5" fill="#8a8a8a"/>
+  <text x="70" y="194" fill="#e0645c" text-anchor="end">V<tspan font-size="10" dy="3">in</tspan></text>
+
+  <!-- output node -->
+  <circle cx="230" cy="190" r="3.5" fill="#8a8a8a"/>
+  <line x1="230" y1="190" x2="330" y2="190" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="336" y="194" fill="#e0645c">V<tspan font-size="10" dy="3">out</tspan></text>
+
+  <!-- load capacitor -->
+  <circle cx="295" cy="190" r="3.5" fill="#8a8a8a"/>
+  <line x1="295" y1="190" x2="295" y2="216" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="283" y1="216" x2="307" y2="216" stroke="#8a8a8a" stroke-width="2.5"/>
+  <line x1="283" y1="223" x2="307" y2="223" stroke="#8a8a8a" stroke-width="2.5"/>
+  <line x1="295" y1="223" x2="295" y2="248" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="281" y1="248" x2="309" y2="248" stroke="#8a8a8a" stroke-width="2.5"/>
+  <line x1="286" y1="253" x2="304" y2="253" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="291" y1="258" x2="299" y2="258" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="313" y="222" fill="#8a8a8a" font-size="12">C<tspan font-size="10" dy="3">L</tspan></text>
+
+  <!-- ============ panel b: the VTC ============ -->
+
+  <!-- axes -->
+  <line x1="440" y1="348" x2="440" y2="82" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="440,76 435,88 445,88" fill="#8a8a8a"/>
+  <text x="448" y="80" fill="#8a8a8a" font-size="12">V<tspan font-size="10" dy="3">out</tspan></text>
+  <line x1="430" y1="340" x2="736" y2="340" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="742,340 730,335 730,345" fill="#8a8a8a"/>
+  <text x="716" y="332" fill="#8a8a8a" font-size="12">V<tspan font-size="10" dy="3">in</tspan></text>
+  <text x="433" y="104" fill="#8a8a8a" font-size="11" text-anchor="end">5</text>
+  <text x="433" y="345" fill="#8a8a8a" font-size="11" text-anchor="end">0</text>
+
+  <!-- the transfer curve -->
+  <path d="M 440 100 L 488 100 L 512 102.4 L 524 106.2 L 536 112.9 L 542 118 L 548 125.2 L 555.2 139.6 L 557.6 148 L 562.4 292 L 564.8 300.4 L 572 314.8 L 578 322 L 584 327.1 L 596 333.8 L 608 337.6 L 632 340 L 680 340"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- switching threshold -->
+  <line x1="440" y1="220" x2="560" y2="220" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="560" y1="220" x2="560" y2="340" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <circle cx="560" cy="220" r="4.5" fill="#e0645c"/>
+  <text x="568" y="212" fill="#e0645c" font-size="12">V<tspan font-size="10" dy="3">M</tspan><tspan dy="-3" font-size="12"> = 2.5 V</tspan></text>
+
+  <!-- region markers -->
+  <text x="456" y="92" fill="#8a8a8a" font-size="12">1</text>
+  <text x="546" y="104" fill="#8a8a8a" font-size="12">2</text>
+  <text x="524" y="196" fill="#8a8a8a" font-size="12">3</text>
+  <line x1="532" y1="200" x2="556" y2="216" stroke="#8a8a8a" stroke-width="0.8"/>
+  <text x="590" y="312" fill="#8a8a8a" font-size="12">4</text>
+  <text x="652" y="330" fill="#8a8a8a" font-size="12">5</text>
+
+  <!-- unity gain points and noise margins -->
+  <line x1="542" y1="118" x2="542" y2="348" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="578" y1="322" x2="578" y2="348" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="680" y1="340" x2="680" y2="348" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <circle cx="542" cy="118" r="3.5" fill="#8a8a8a"/>
+  <circle cx="578" cy="322" r="3.5" fill="#8a8a8a"/>
+  <text x="542" y="362" fill="#8a8a8a" font-size="11" text-anchor="middle">V<tspan font-size="9" dy="3">IL</tspan></text>
+  <text x="578" y="362" fill="#8a8a8a" font-size="11" text-anchor="middle">V<tspan font-size="9" dy="3">IH</tspan></text>
+  <text x="680" y="362" fill="#8a8a8a" font-size="11" text-anchor="middle">V<tspan font-size="9" dy="3">DD</tspan></text>
+
+  <line x1="440" y1="378" x2="542" y2="378" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="440,378 449,374 449,382" fill="#e0645c"/>
+  <polygon points="542,378 533,374 533,382" fill="#e0645c"/>
+  <text x="491" y="394" fill="#e0645c" font-size="11" text-anchor="middle">NM<tspan font-size="9" dy="3">L</tspan><tspan dy="-3" font-size="11"> = 2.13 V</tspan></text>
+
+  <line x1="578" y1="378" x2="680" y2="378" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="578,378 587,374 587,382" fill="#e0645c"/>
+  <polygon points="680,378 671,374 671,382" fill="#e0645c"/>
+  <text x="629" y="394" fill="#e0645c" font-size="11" text-anchor="middle">NM<tspan font-size="9" dy="3">H</tspan><tspan dy="-3" font-size="11"> = 2.13 V</tspan></text>
+
+  <text x="20" y="422" fill="#8a8a8a" font-size="11">1 NMOS off &#183; 2 NMOS saturated, PMOS triode &#183; 3 both saturated (high gain) &#183; 4 NMOS triode, PMOS saturated &#183; 5 PMOS off</text>
+</svg>

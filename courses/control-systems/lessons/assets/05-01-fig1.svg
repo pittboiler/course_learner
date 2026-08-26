@@ -1,0 +1,67 @@
+<svg viewBox="0 0 620 226" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <defs>
+    <marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#8a8a8a"/>
+    </marker>
+    <marker id="ac" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#e0645c"/>
+    </marker>
+  </defs>
+
+  <text x="20" y="18" fill="#8a8a8a" font-style="italic" font-size="12">Every state&#8211;space model is this one picture: integrate, feed the state back through A, read it out through C.</text>
+
+  <!-- feedthrough path D (top) -->
+  <circle cx="46" cy="110" r="3" fill="#8a8a8a"/>
+  <line x1="46" y1="110" x2="46" y2="52" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="46" y1="52" x2="436" y2="52" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#ag)"/>
+  <rect x="438" y="34" width="56" height="36" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="466" y="57" text-anchor="middle" fill="#8a8a8a">D</text>
+  <line x1="494" y1="52" x2="516" y2="52" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="516" y1="52" x2="516" y2="96" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#ag)"/>
+  <text x="500" y="30" fill="#8a8a8a" font-size="11">feedthrough (usually 0)</text>
+
+  <!-- forward path -->
+  <text x="16" y="115" fill="#8a8a8a">u</text>
+  <line x1="30" y1="110" x2="66" y2="110" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#ag)"/>
+  <rect x="68" y="92" width="56" height="36" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="96" y="115" text-anchor="middle" fill="#4a90d9">B</text>
+  <line x1="124" y1="110" x2="152" y2="110" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#ag)"/>
+
+  <circle cx="168" cy="110" r="12" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="150" y="103" fill="#8a8a8a" font-size="11">+</text>
+  <text x="172" y="136" fill="#8a8a8a" font-size="11">+</text>
+  <line x1="180" y1="110" x2="212" y2="110" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#ag)"/>
+  <text x="182" y="98" fill="#8a8a8a" font-size="11">dx/dt</text>
+
+  <rect x="214" y="86" width="72" height="48" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="250" y="120" text-anchor="middle" fill="#4a90d9" font-size="26">&#8747;</text>
+
+  <line x1="286" y1="110" x2="400" y2="110" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#ag)"/>
+  <circle cx="330" cy="110" r="3" fill="#e0645c"/>
+  <text x="322" y="98" fill="#8a8a8a">x</text>
+  <text x="300" y="98" fill="#8a8a8a" font-size="11">state</text>
+
+  <rect x="402" y="92" width="56" height="36" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="430" y="115" text-anchor="middle" fill="#4a90d9">C</text>
+  <line x1="458" y1="110" x2="500" y2="110" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#ag)"/>
+
+  <circle cx="516" cy="110" r="12" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="498" y="103" fill="#8a8a8a" font-size="11">+</text>
+  <text x="520" y="94" fill="#8a8a8a" font-size="11">+</text>
+  <line x1="528" y1="110" x2="566" y2="110" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#ag)"/>
+  <text x="572" y="115" fill="#8a8a8a">y</text>
+
+  <!-- A feedback path, coral -->
+  <line x1="330" y1="110" x2="330" y2="182" stroke="#e0645c" stroke-width="1.5"/>
+  <line x1="330" y1="182" x2="240" y2="182" stroke="#e0645c" stroke-width="1.5" marker-end="url(#ac)"/>
+  <rect x="180" y="164" width="56" height="36" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <text x="208" y="187" text-anchor="middle" fill="#e0645c">A</text>
+  <line x1="180" y1="182" x2="168" y2="182" stroke="#e0645c" stroke-width="1.5"/>
+  <line x1="168" y1="182" x2="168" y2="126" stroke="#e0645c" stroke-width="1.5" marker-end="url(#ac)"/>
+  <text x="246" y="204" fill="#e0645c" font-size="11">the dynamics live here: eigenvalues of A = the modes</text>
+
+  <!-- dimension notes -->
+  <text x="68" y="146" fill="#8a8a8a" font-size="11">n&#215;m</text>
+  <text x="402" y="146" fill="#8a8a8a" font-size="11">p&#215;n</text>
+  <text x="180" y="216" fill="#8a8a8a" font-size="11">n&#215;n</text>
+</svg>

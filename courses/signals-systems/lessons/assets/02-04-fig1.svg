@@ -1,0 +1,61 @@
+<svg viewBox="0 0 700 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+
+  <text x="350" y="22" fill="#8a8a8a" font-style="italic" text-anchor="middle">Same poles, same algebra &#8212; three different ROCs, three different signals. Only one contains the j&#969; axis.</text>
+  <text x="350" y="52" fill="#8a8a8a" text-anchor="middle" font-size="14">X(s) = 1 / [ (s+1)(s&#8722;2) ]&#160;&#160;&#160;poles at s = &#8722;1 and s = 2</text>
+
+  <!-- ============ panel 1: right half plane, Re s > 2 ============ -->
+  <text x="125" y="88" fill="#e0645c" text-anchor="middle" font-size="14">ROC: Re{s} &gt; 2</text>
+  <rect x="175" y="105" width="45" height="150" fill="#e0645c" opacity="0.18"/>
+  <line x1="175" y1="105" x2="175" y2="255" stroke="#e0645c" stroke-width="2" stroke-dasharray="5 4"/>
+  <line x1="30" y1="180" x2="228" y2="180" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="228,180 218,175 218,185" fill="#8a8a8a"/>
+  <text x="214" y="172" fill="#8a8a8a">&#963;</text>
+  <line x1="125" y1="255" x2="125" y2="105" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="132" y="116" fill="#8a8a8a">j&#969;</text>
+  <line x1="94" y1="174" x2="106" y2="186" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="94" y1="186" x2="106" y2="174" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="169" y1="174" x2="181" y2="186" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="169" y1="186" x2="181" y2="174" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="100" y="200" fill="#4a90d9" text-anchor="middle" font-size="12">&#8722;1</text>
+  <text x="175" y="200" fill="#4a90d9" text-anchor="middle" font-size="12">2</text>
+  <text x="125" y="278" fill="#8a8a8a" text-anchor="middle" font-size="12">right-sided &#8594; causal</text>
+  <text x="125" y="296" fill="#8a8a8a" text-anchor="middle" font-size="12">unstable (misses j&#969;)</text>
+
+  <!-- ============ panel 2: left half plane, Re s < -1 ============ -->
+  <text x="350" y="88" fill="#e0645c" text-anchor="middle" font-size="14">ROC: Re{s} &lt; &#8722;1</text>
+  <rect x="255" y="105" width="70" height="150" fill="#e0645c" opacity="0.18"/>
+  <line x1="325" y1="105" x2="325" y2="255" stroke="#e0645c" stroke-width="2" stroke-dasharray="5 4"/>
+  <line x1="255" y1="180" x2="453" y2="180" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="453,180 443,175 443,185" fill="#8a8a8a"/>
+  <text x="439" y="172" fill="#8a8a8a">&#963;</text>
+  <line x1="350" y1="255" x2="350" y2="105" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="357" y="116" fill="#8a8a8a">j&#969;</text>
+  <line x1="319" y1="174" x2="331" y2="186" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="319" y1="186" x2="331" y2="174" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="394" y1="174" x2="406" y2="186" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="394" y1="186" x2="406" y2="174" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="325" y="200" fill="#4a90d9" text-anchor="middle" font-size="12">&#8722;1</text>
+  <text x="400" y="200" fill="#4a90d9" text-anchor="middle" font-size="12">2</text>
+  <text x="350" y="278" fill="#8a8a8a" text-anchor="middle" font-size="12">left-sided &#8594; anticausal</text>
+  <text x="350" y="296" fill="#8a8a8a" text-anchor="middle" font-size="12">unstable (misses j&#969;)</text>
+
+  <!-- ============ panel 3: the strip ============ -->
+  <text x="575" y="88" fill="#e0645c" text-anchor="middle" font-size="14">ROC: &#8722;1 &lt; Re{s} &lt; 2</text>
+  <rect x="550" y="105" width="75" height="150" fill="#e0645c" opacity="0.18"/>
+  <line x1="550" y1="105" x2="550" y2="255" stroke="#e0645c" stroke-width="2" stroke-dasharray="5 4"/>
+  <line x1="625" y1="105" x2="625" y2="255" stroke="#e0645c" stroke-width="2" stroke-dasharray="5 4"/>
+  <line x1="480" y1="180" x2="678" y2="180" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="678,180 668,175 668,185" fill="#8a8a8a"/>
+  <text x="664" y="172" fill="#8a8a8a">&#963;</text>
+  <line x1="575" y1="255" x2="575" y2="105" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="582" y="116" fill="#8a8a8a">j&#969;</text>
+  <line x1="544" y1="174" x2="556" y2="186" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="544" y1="186" x2="556" y2="174" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="619" y1="174" x2="631" y2="186" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="619" y1="186" x2="631" y2="174" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="548" y="200" fill="#4a90d9" text-anchor="middle" font-size="12">&#8722;1</text>
+  <text x="629" y="200" fill="#4a90d9" text-anchor="middle" font-size="12">2</text>
+  <text x="575" y="278" fill="#8a8a8a" text-anchor="middle" font-size="12">two-sided &#8594; not causal</text>
+  <text x="575" y="296" fill="#8a8a8a" text-anchor="middle" font-size="12">STABLE (contains j&#969;)</text>
+
+</svg>

@@ -1,0 +1,105 @@
+<svg viewBox="0 0 740 522" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <defs>
+    <marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#8a8a8a"/>
+    </marker>
+    <marker id="ac" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#e0645c"/>
+    </marker>
+    <marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#4a90d9"/>
+    </marker>
+  </defs>
+
+  <text x="24" y="22" fill="#8a8a8a" font-style="italic" font-size="12">Observer&#8211;based state feedback: the controller carries a running simulation of the plant and steers on its estimate.</text>
+
+  <!-- ============ PLANT ROW ============ -->
+  <text x="24" y="104" fill="#8a8a8a">r</text>
+  <line x1="36" y1="110" x2="68" y2="110" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#ag)"/>
+  <circle cx="84" cy="110" r="14" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="60" y="102" fill="#8a8a8a" font-size="11">+</text>
+  <text x="94" y="140" fill="#e0645c" font-size="12">&#8722;</text>
+
+  <line x1="98" y1="110" x2="146" y2="110" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#ag)"/>
+  <text x="124" y="102" fill="#8a8a8a">u</text>
+  <circle cx="120" cy="110" r="3.5" fill="#8a8a8a"/>
+
+  <text x="233" y="70" text-anchor="middle" fill="#8a8a8a" font-size="12">plant &#8212; the real hardware</text>
+  <rect x="148" y="80" width="170" height="60" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="233" y="106" text-anchor="middle" fill="#4a90d9" font-size="14">dx/dt = Ax + Bu</text>
+  <text x="233" y="128" text-anchor="middle" fill="#4a90d9" font-size="14">y = Cx</text>
+
+  <line x1="318" y1="110" x2="672" y2="110" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#ag)"/>
+  <text x="648" y="102" fill="#8a8a8a">y</text>
+  <circle cx="600" cy="110" r="3.5" fill="#e0645c"/>
+
+  <!-- ============ OBSERVER ENCLOSURE ============ -->
+  <rect x="100" y="175" width="610" height="255" fill="none" stroke="#8a8a8a" stroke-width="1.2" stroke-dasharray="6 5"/>
+  <text x="112" y="197" fill="#8a8a8a" font-style="italic" font-size="12">observer &#8212; a copy of the plant living in your computer, nudged by the measurement error</text>
+
+  <!-- u branch into the observer -->
+  <line x1="120" y1="110" x2="120" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="120" y1="300" x2="208" y2="300" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#ag)"/>
+
+  <!-- B block -->
+  <rect x="210" y="282" width="60" height="36" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="240" y="306" text-anchor="middle" fill="#4a90d9" font-size="15">B</text>
+  <line x1="270" y1="300" x2="312" y2="300" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#ag)"/>
+
+  <!-- state summing junction -->
+  <circle cx="330" cy="300" r="16" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="296" y="292" fill="#8a8a8a" font-size="11">+</text>
+  <text x="340" y="278" fill="#8a8a8a" font-size="11">+</text>
+  <text x="340" y="332" fill="#8a8a8a" font-size="11">+</text>
+
+  <!-- A feedback block -->
+  <rect x="302" y="354" width="56" height="36" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="330" y="378" text-anchor="middle" fill="#4a90d9" font-size="15">A</text>
+  <line x1="330" y1="354" x2="330" y2="318" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#ag)"/>
+
+  <!-- integrator -->
+  <line x1="346" y1="300" x2="378" y2="300" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#ag)"/>
+  <rect x="380" y="278" width="60" height="44" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="410" y="306" text-anchor="middle" fill="#4a90d9" font-size="15">1/s</text>
+
+  <line x1="440" y1="300" x2="628" y2="300" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#ag)"/>
+  <text x="452" y="292" fill="#8a8a8a">x<tspan font-size="10" dy="-6">^</tspan></text>
+  <circle cx="500" cy="300" r="3.5" fill="#8a8a8a"/>
+
+  <!-- x-hat back into A -->
+  <line x1="500" y1="300" x2="500" y2="372" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="500" y1="372" x2="360" y2="372" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#ag)"/>
+  <circle cx="500" cy="372" r="3.5" fill="#8a8a8a"/>
+
+  <!-- C-hat block -->
+  <rect x="630" y="282" width="60" height="36" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <text x="660" y="306" text-anchor="middle" fill="#e0645c" font-size="15">C</text>
+  <line x1="660" y1="282" x2="660" y2="240" stroke="#e0645c" stroke-width="1.5"/>
+  <line x1="660" y1="240" x2="616" y2="240" stroke="#e0645c" stroke-width="1.5" marker-end="url(#ac)"/>
+
+  <!-- innovation summing junction -->
+  <circle cx="600" cy="240" r="14" fill="none" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="578" y="224" fill="#e0645c" font-size="11">+</text>
+  <text x="620" y="230" fill="#e0645c" font-size="12">&#8722;</text>
+  <line x1="600" y1="110" x2="600" y2="224" stroke="#e0645c" stroke-width="1.5" marker-end="url(#ac)"/>
+
+  <!-- innovation into L -->
+  <line x1="586" y1="240" x2="444" y2="240" stroke="#e0645c" stroke-width="1.5" marker-end="url(#ac)"/>
+  <text x="514" y="232" text-anchor="middle" fill="#e0645c" font-size="12">y &#8722; Cx<tspan font-size="9" dy="-5">^</tspan></text>
+  <rect x="380" y="222" width="60" height="36" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <text x="410" y="246" text-anchor="middle" fill="#e0645c" font-size="15">L</text>
+  <line x1="380" y1="240" x2="330" y2="240" stroke="#e0645c" stroke-width="1.5"/>
+  <line x1="330" y1="240" x2="330" y2="282" stroke="#e0645c" stroke-width="1.5" marker-end="url(#ac)"/>
+
+  <!-- ============ STATE FEEDBACK PATH ============ -->
+  <line x1="500" y1="372" x2="500" y2="468" stroke="#e0645c" stroke-width="1.5"/>
+  <line x1="500" y1="468" x2="274" y2="468" stroke="#e0645c" stroke-width="1.5" marker-end="url(#ac)"/>
+  <rect x="200" y="450" width="70" height="36" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <text x="235" y="474" text-anchor="middle" fill="#e0645c" font-size="15">K</text>
+  <line x1="200" y1="468" x2="84" y2="468" stroke="#e0645c" stroke-width="1.5"/>
+  <line x1="84" y1="468" x2="84" y2="126" stroke="#e0645c" stroke-width="1.5" marker-end="url(#ac)"/>
+  <text x="140" y="462" fill="#e0645c" font-size="12">Kx<tspan font-size="9" dy="-5">^</tspan></text>
+  <text x="330" y="462" fill="#8a8a8a" font-size="12">estimated state, not the true one</text>
+
+  <text x="24" y="510" fill="#8a8a8a" font-style="italic" font-size="12">Closed&#8211;loop eigenvalues: those of A &#8722; BK together with those of A &#8722; LC. Design K and L separately.</text>
+</svg>

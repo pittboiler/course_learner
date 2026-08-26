@@ -1,0 +1,63 @@
+<svg viewBox="0 0 720 440" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+
+  <text x="24" y="22" fill="#8a8a8a" font-style="italic" font-size="13">Every primal constraint buys a dual variable; every primal variable buys a dual constraint.</text>
+
+  <!-- panel frames -->
+  <rect x="24" y="40" width="276" height="290" fill="none" stroke="#8a8a8a" stroke-width="1.5" rx="6"/>
+  <rect x="424" y="40" width="276" height="290" fill="none" stroke="#8a8a8a" stroke-width="1.5" rx="6"/>
+
+  <!-- panel headers -->
+  <text x="40" y="64" fill="#8a8a8a" font-size="11.5" letter-spacing="1.6">PRIMAL &#8212; MAXIMIZE</text>
+  <text x="440" y="64" fill="#8a8a8a" font-size="11.5" letter-spacing="1.6">DUAL &#8212; MINIMIZE</text>
+
+  <!-- objectives -->
+  <text x="40" y="92" fill="#4a90d9" font-size="15">max  3x1 + 5x2</text>
+  <text x="440" y="92" fill="#4a90d9" font-size="15">min  4y1 + 12y2 + 18y3</text>
+
+  <line x1="40" y1="106" x2="284" y2="106" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="440" y1="106" x2="684" y2="106" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- band 1: primal constraints to dual variables -->
+  <text x="362" y="121" fill="#8a8a8a" font-size="10.5" text-anchor="middle">constraint &#8594; variable</text>
+
+  <text x="40" y="136" fill="#8a8a8a">(1)   x1  &#8804;  4</text>
+  <text x="40" y="166" fill="#8a8a8a">(2)   2x2  &#8804;  12</text>
+  <text x="40" y="196" fill="#8a8a8a">(3)   3x1 + 2x2  &#8804;  18</text>
+
+  <text x="440" y="136" fill="#8a8a8a">y1  &#8805;  0</text>
+  <text x="440" y="166" fill="#8a8a8a">y2  &#8805;  0</text>
+  <text x="440" y="196" fill="#8a8a8a">y3  &#8805;  0</text>
+
+  <line x1="306" y1="131" x2="410" y2="131" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="420,131 410,127 410,135" fill="#e0645c"/>
+  <line x1="306" y1="161" x2="410" y2="161" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="420,161 410,157 410,165" fill="#e0645c"/>
+  <line x1="306" y1="191" x2="410" y2="191" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="420,191 410,187 410,195" fill="#e0645c"/>
+
+  <line x1="40" y1="214" x2="284" y2="214" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="440" y1="214" x2="684" y2="214" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- band 2: primal variables to dual constraints -->
+  <text x="362" y="236" fill="#8a8a8a" font-size="10.5" text-anchor="middle">variable &#8594; constraint</text>
+
+  <text x="40" y="252" fill="#8a8a8a">x1  &#8805;  0</text>
+  <text x="40" y="282" fill="#8a8a8a">x2  &#8805;  0</text>
+
+  <text x="440" y="252" fill="#8a8a8a">(1)   y1 + 3y3  &#8805;  3</text>
+  <text x="440" y="282" fill="#8a8a8a">(2)   2y2 + 2y3  &#8805;  5</text>
+
+  <line x1="306" y1="247" x2="410" y2="247" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="420,247 410,243 410,251" fill="#e0645c"/>
+  <line x1="306" y1="277" x2="410" y2="277" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="420,277 410,273 410,281" fill="#e0645c"/>
+
+  <text x="40" y="316" fill="#8a8a8a" font-size="11">3 constraints, 2 variables</text>
+  <text x="440" y="316" fill="#8a8a8a" font-size="11">3 variables, 2 constraints</text>
+
+  <!-- complementary slackness strip -->
+  <rect x="24" y="344" width="676" height="78" fill="none" stroke="#e0645c" stroke-width="1.5" rx="6"/>
+  <text x="40" y="367" fill="#e0645c" font-size="13">Complementary slackness at the optimum x = (2, 6): each coral pair multiplies to zero.</text>
+  <text x="40" y="389" fill="#8a8a8a" font-size="12">constraint (1) has slack (2 &lt; 4)  &#8658;  y1 = 0;   x1, x2 &gt; 0  &#8658;  duals (1), (2) are tight</text>
+  <text x="40" y="410" fill="#8a8a8a" font-size="12">solve:  y = (0, 3/2, 1);   dual objective 12(3/2) + 18(1) = 36 = primal objective</text>
+</svg>

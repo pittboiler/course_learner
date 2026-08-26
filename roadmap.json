@@ -937,7 +937,7 @@
         "circuits",
         "em-refresher"
       ],
-      "lessons_estimate": 22,
+      "lessons_estimate": 21,
       "blurb": "Three-phase power, transformers, transmission lines, load flow, and grid stability."
     },
     {
@@ -949,8 +949,8 @@
         "condensed-matter",
         "electronics"
       ],
-      "lessons_estimate": 22,
-      "blurb": "Band theory applied: carrier transport, p-n junctions, BJTs, MOSFETs, and photodevices."
+      "lessons_estimate": 19,
+      "blurb": "Band theory applied: carrier transport out of equilibrium, p-n junctions from Poisson's equation, BJTs, MOSFETs, and photodevices."
     },
     {
       "id": "structural-analysis",
@@ -971,8 +971,8 @@
       "prereqs": [
         "fluid-dynamics"
       ],
-      "lessons_estimate": 22,
-      "blurb": "Airfoils, lift & drag, potential flow, boundary layers, and compressible/supersonic flow."
+      "lessons_estimate": 19,
+      "blurb": "Airfoils and finite wings, thin-airfoil and lifting-line theory, boundary layers, and compressible/supersonic flow."
     },
     {
       "id": "orbital-mechanics",
@@ -995,8 +995,8 @@
         "engineering-thermodynamics",
         "fluid-dynamics"
       ],
-      "lessons_estimate": 20,
-      "blurb": "Thermodynamic cycles, jet & rocket engines, nozzles, and the rocket equation."
+      "lessons_estimate": 19,
+      "blurb": "Thrust and nozzles, air-breathing engine cycles, the rocket equation, and the propulsion design space."
     },
     {
       "id": "robotics",
@@ -1042,8 +1042,8 @@
         "linalg-refresher",
         "convex-optimization"
       ],
-      "lessons_estimate": 20,
-      "blurb": "Linear & integer programming, network flows, queueing theory, and scheduling."
+      "lessons_estimate": 16,
+      "blurb": "Simplex, duality and sensitivity, integer & dynamic programming, queueing and inventory."
     },
     {
       "id": "programming-foundations",

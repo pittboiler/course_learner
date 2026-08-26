@@ -1,10 +1,10 @@
 # Propulsion — Syllabus
 
-> Engineering · Tier 2 · ~20 lessons · Prereqs: [engineering-thermodynamics](../engineering-thermodynamics/syllabus.md), [fluid-dynamics](../fluid-dynamics/syllabus.md) · Roadmap id: `propulsion`
+> Engineering · Tier 2 · ~19 lessons · Prereqs: [engineering-thermodynamics](../engineering-thermodynamics/syllabus.md), [fluid-dynamics](../fluid-dynamics/syllabus.md) · Roadmap id: `propulsion`
 
 ## Goal
 
-Learn where thrust comes from and how every practical engine makes it — from the momentum equation, through the converging–diverging nozzle, into the cycle analysis of air-breathers (turbojet, turbofan, turboprop, ramjet) and the rocket equation that governs everything that leaves the atmosphere. You will size nozzles from isentropic relations, read an engine as a thermodynamic cycle and pull out its specific thrust, fuel consumption, and efficiencies, apply Tsiolkovsky's equation to real mission $\Delta v$, and understand why staging and specific impulse dominate rocketry. Deliberately skipped: detailed turbomachinery blade/stage design and deep combustion chemistry (we treat the combustor as a heat-addition box). We end on a taste of electric, nuclear-thermal, and scramjet propulsion — enough to place them in the design space, not to design them.
+Learn where thrust comes from and how every practical engine makes it — from the momentum equation, through the converging–diverging nozzle, into the cycle analysis of air-breathers (turbojet, turbofan, turboprop, ramjet) and the rocket equation that governs everything that leaves the atmosphere. You will size nozzles from isentropic relations, read an engine as a thermodynamic cycle and pull out its specific thrust, fuel consumption, and efficiencies, apply Tsiolkovsky's equation to real mission $\Delta v$, and understand why staging and specific impulse dominate rocketry. **Deferred, not repeated:** the gas-dynamics theory — sound speed, stagnation and isentropic relations, the area–Mach relation and normal shocks — is derived in [`aerodynamics` 4.1–4.5](../aerodynamics/lessons/04-01-compressibility-sound-speed-energy.md), and the ideal Brayton cycle in [`engineering-thermodynamics` 4.3](../engineering-thermodynamics/lessons/04-03-brayton-gas-turbine-cycle.md). Lesson 1.2 *reloads* the working set rather than re-deriving it, and is self-contained enough that this course can be read first. Deliberately skipped: detailed turbomachinery blade/stage design and deep combustion chemistry (we treat the combustor as a heat-addition box). We end on a taste of electric, nuclear-thermal, and scramjet propulsion — enough to place them in the design space, not to design them.
 
 ## Dangerous Checklist
 
@@ -32,10 +32,9 @@ Build thrust from conservation of momentum, then master the nozzle that turns ho
 | # | Lesson | Goal (one line) | Key concepts |
 |---|---|---|---|
 | 1.1 | Thrust and the momentum equation | Get the thrust equation from a control volume and read every term | control-volume momentum balance, momentum thrust $\dot m u_e$, pressure thrust $(p_e-p_a)A_e$, uninstalled thrust |
-| 1.2 | Compressible flow review: stagnation and isentropic relations | Convert freely between Mach number and property ratios | stagnation (total) properties, isentropic relations, Mach number, speed of sound $a=\sqrt{\gamma R T}$ |
-| 1.3 | The area–Mach relation and choking | See why a throat chokes and how area sets Mach number | area–Mach relation $A/A^*$, sonic throat, choked mass flow, converging vs C-D nozzles |
-| 1.4 | Nozzle operating regimes: under- and over-expansion | Diagnose a nozzle from its pressure ratio and predict shocks | design pressure ratio, over/under-expansion, oblique/normal shocks, separation, altitude compensation |
-| 1.5 | Nozzle performance: thrust coefficient and $c^*$ | Split rocket performance into a chamber part and a nozzle part | thrust coefficient $C_F$, characteristic velocity $c^*$, $F=C_F\,p_0 A_t$, expansion-ratio optimization |
+| 1.2 | Compressible flow for nozzles: stagnation, isentropic & choking | Carry the whole working set — Mach to property ratios, and why a throat chokes | stagnation (total) properties, isentropic relations, $a=\sqrt{\gamma RT}$, area–Mach relation $A/A^*$, sonic throat, choked mass flow *(derivations in [`aerodynamics` 4.1–4.2](../aerodynamics/lessons/04-01-compressibility-sound-speed-energy.md) and [4.5](../aerodynamics/lessons/04-05-quasi-1d-nozzle-flow.md) — reloaded here, not re-derived)* |
+| 1.3 | Nozzle operating regimes: under- and over-expansion | Diagnose a nozzle from its pressure ratio and predict shocks | design pressure ratio, over/under-expansion, oblique/normal shocks, separation, altitude compensation |
+| 1.4 | Nozzle performance: thrust coefficient and $c^*$ | Split rocket performance into a chamber part and a nozzle part | thrust coefficient $C_F$, characteristic velocity $c^*$, $F=C_F\,p_0 A_t$, expansion-ratio optimization |
 
 **Boss problem 1:** A converging–diverging nozzle with area ratio $A_e/A^*=4$ expands gas with $\gamma=1.4$ from a large chamber. (a) Find the supersonic exit Mach number from the area–Mach relation. (b) Find the design ratio $p_e/p_0$ of exit to chamber pressure. (c) If the nozzle exhausts to a back pressure equal to $0.10\,p_0$, is it under- or over-expanded, and what happens to the exhaust plume? (d) Write the thrust in the form $F=C_F p_0 A_t$ and identify which term you would raise to gain thrust at high altitude.
 
@@ -45,7 +44,7 @@ Treat each engine as a Brayton-type cycle and extract thrust, fuel burn, and the
 
 | # | Lesson | Goal (one line) | Key concepts |
 |---|---|---|---|
-| 2.1 | Propulsion efficiencies and the Brayton foundation | Split engine performance into thermal, propulsive, and overall efficiency | ideal Brayton cycle, thermal efficiency, propulsive efficiency, overall efficiency, specific thrust, TSFC |
+| 2.1 | Propulsion efficiencies and the Brayton foundation | Split engine performance into thermal, propulsive, and overall efficiency | ideal Brayton cycle *(reloaded from [`engineering-thermodynamics` 4.3](../engineering-thermodynamics/lessons/04-03-brayton-gas-turbine-cycle.md))*, thermal efficiency, propulsive efficiency, overall efficiency, specific thrust, TSFC |
 | 2.2 | The ideal ramjet | Analyze the simplest air-breather — compression by ram alone | ram compression, no moving parts, ramjet thrust, why it needs supersonic flight, thrust-Mach limits |
 | 2.3 | Combustion for propulsion (an introduction) | Model the combustor as heat addition and estimate flame temperature | stoichiometry, fuel/air ratio, heating value, adiabatic flame temperature, heat-addition (Rayleigh) view |
 | 2.4 | The turbojet cycle | Run a full ideal turbojet analysis: compressor, burner, turbine, nozzle | station numbering, compressor pressure ratio, turbine-inlet temperature, work matching, specific thrust & TSFC |

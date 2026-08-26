@@ -1,0 +1,51 @@
+<svg viewBox="0 0 660 420" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="20" y="20" fill="#8a8a8a" font-style="italic">Left: three successive rotations, and the configuration where two axes coincide.   Right: one axis, one angle.</text>
+  <polygon points="48.0,110.0 84.0,106.0 90.0,110.0 84.0,114.0" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="0.14" stroke-width="1.4"/>
+  <polygon points="72.0,110.0 64.0,94.0 60.0,94.0 66.0,110.0" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="0.2" stroke-width="1.2"/>
+  <polygon points="72.0,110.0 64.0,126.0 60.0,126.0 66.0,110.0" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="0.2" stroke-width="1.2"/>
+  <text x="70.0" y="152.0" fill="#8a8a8a" font-size="10" text-anchor="middle">yaw &#945;</text>
+  <line x1="104.0" y1="110.0" x2="128.0" y2="110.0" stroke="#8a8a8a" stroke-width="1.3"/>
+  <polygon points="128.0,110.0 123.4,111.9 123.4,108.1" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="1" stroke-width="0.5"/>
+  <polygon points="147.6,101.8 182.5,111.5 186.5,117.5 179.5,119.0" stroke="#4a90d9" fill="#4a90d9" fill-opacity="0.14" stroke-width="1.4"/>
+  <polygon points="169.9,110.7 168.4,92.9 164.7,91.4 164.3,108.5" stroke="#4a90d9" fill="#4a90d9" fill-opacity="0.2" stroke-width="1.2"/>
+  <polygon points="169.9,110.7 156.4,122.6 152.7,121.1 164.3,108.5" stroke="#4a90d9" fill="#4a90d9" fill-opacity="0.2" stroke-width="1.2"/>
+  <text x="168.0" y="152.0" fill="#4a90d9" font-size="10" text-anchor="middle">pitch &#946;</text>
+  <line x1="202.0" y1="110.0" x2="226.0" y2="110.0" stroke="#8a8a8a" stroke-width="1.3"/>
+  <polygon points="226.0,110.0 221.4,111.9 221.4,108.1" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="1" stroke-width="0.5"/>
+  <polygon points="245.6,101.8 280.5,111.5 284.5,117.5 277.5,119.0" stroke="#e0645c" fill="#e0645c" fill-opacity="0.14" stroke-width="1.4"/>
+  <polygon points="267.9,110.7 266.4,92.9 262.7,91.4 262.3,108.5" stroke="#e0645c" fill="#e0645c" fill-opacity="0.2" stroke-width="1.2"/>
+  <polygon points="267.9,110.7 254.4,122.6 250.7,121.1 262.3,108.5" stroke="#e0645c" fill="#e0645c" fill-opacity="0.2" stroke-width="1.2"/>
+  <text x="266.0" y="152.0" fill="#e0645c" font-size="10" text-anchor="middle">roll &#947;</text>
+  <text x="168.0" y="178.0" fill="#8a8a8a" font-size="11" text-anchor="middle">R = R<tspan font-size="0.72em" dy="3">z</tspan><tspan dy="-3">(&#945;) R</tspan><tspan font-size="0.72em" dy="3">y</tspan><tspan dy="-3">(&#946;) R</tspan><tspan font-size="0.72em" dy="3">x</tspan><tspan dy="-3">(&#947;)</tspan></text>
+  <text x="30.0" y="224.0" fill="#e0645c" font-size="11" text-anchor="start">gimbal lock at &#946; = 90&#176;:</text>
+  <line x1="60.0" y1="290.0" x2="60.0" y2="246.0" stroke="#4a90d9" stroke-width="2.2"/>
+  <polygon points="60.0,246.0 62.7,252.4 57.3,252.4" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="0.5"/>
+  <text x="60.0" y="236.0" fill="#4a90d9" font-size="9" text-anchor="middle">yaw axis</text>
+  <line x1="66.0" y1="290.0" x2="66.0" y2="246.0" stroke="#e0645c" stroke-width="2.2"/>
+  <polygon points="66.0,246.0 68.7,252.4 63.3,252.4" stroke="#e0645c" fill="#e0645c" fill-opacity="1" stroke-width="0.5"/>
+  <text x="120.0" y="258.0" fill="#e0645c" font-size="9" text-anchor="start">roll axis (now parallel)</text>
+  <line x1="30.0" y1="308.0" x2="110.0" y2="308.0" stroke="#8a8a8a" stroke-width="1.6"/>
+  <polygon points="110.0,308.0 103.6,310.7 103.6,305.3" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="1" stroke-width="0.5"/>
+  <text x="120.0" y="312.0" fill="#8a8a8a" font-size="9" text-anchor="start">pitch axis</text>
+  <text x="30.0" y="342.0" fill="#e0645c" font-size="10" text-anchor="start">only the difference &#945; &#8722; &#947; is determined &#8212;</text>
+  <text x="30.0" y="360.0" fill="#e0645c" font-size="10" text-anchor="start">one degree of freedom has vanished</text>
+  <text x="30.0" y="386.0" fill="#8a8a8a" font-size="10" text-anchor="start">no three-parameter chart on SO(3) avoids this</text>
+  <line x1="480.0" y1="260.0" x2="536.3" y2="154.0" stroke="#e0645c" stroke-width="2.4"/>
+  <polygon points="536.3,154.0 535.7,161.0 530.9,158.5" stroke="#e0645c" fill="#e0645c" fill-opacity="1" stroke-width="0.5"/>
+  <text x="541.0" y="148.0" fill="#e0645c" font-size="12" text-anchor="start">k</text>
+  <path d="M 465.1072368927252 219.25724924274652 A 46 18 28 1 1 549.1072368927253 183.25724924274652" stroke="#8a8a8a" fill="none" fill-opacity="1" stroke-width="1.6"/>
+  <line x1="543.1" y1="185.3" x2="551.1" y2="181.3" stroke="#8a8a8a" stroke-width="1.6"/>
+  <polygon points="551.1,181.3 547.2,185.8 545.1,181.6" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="1" stroke-width="0.5"/>
+  <text x="561.1" y="181.3" fill="#8a8a8a" font-size="12" text-anchor="start">&#952;</text>
+  <line x1="480.0" y1="260.0" x2="576.0" y2="224.0" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="576.0,224.0 570.9,228.8 569.0,223.7" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="0.5"/>
+  <text x="582.0" y="224.0" fill="#4a90d9" font-size="11" text-anchor="start">v</text>
+  <line x1="480.0" y1="260.0" x2="520.0" y2="180.0" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="520.0,180.0 519.6,186.0 515.4,183.9" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="0.5"/>
+  <text x="526.0" y="176.0" fill="#4a90d9" font-size="11" text-anchor="start">Rv</text>
+  <line x1="576.0" y1="224.0" x2="520.0" y2="180.0" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="500.0" y="312.0" fill="#8a8a8a" font-size="10" text-anchor="middle">component along k unchanged;</text>
+  <text x="500.0" y="330.0" fill="#8a8a8a" font-size="10" text-anchor="middle">perpendicular part sweeps &#952;</text>
+  <text x="440.0" y="362.0" fill="#8a8a8a" font-size="11" text-anchor="start">R = I + sin&#952; [k]&#8339; + (1&#8722;cos&#952;)[k]&#8339;&#178;</text>
+  <text x="30.0" y="404.0" fill="#8a8a8a" font-size="10" text-anchor="start">&#952; = arccos((tr R &#8722; 1)/2) and the antisymmetric part gives k &#8212; degenerate only at 0&#176; and 180&#176;.</text>
+</svg>

@@ -1,0 +1,62 @@
+<svg viewBox="0 0 660 370" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="20" y="20" fill="#8a8a8a" font-style="italic">Left: three power factors, three source phasors.   Right: efficiency peaks where copper loss meets core loss.</text>
+  <line x1="48.0" y1="180.0" x2="124.0" y2="180.0" stroke="#8a8a8a" stroke-width="1.9"/>
+  <polygon points="124.0,180.0 117.6,182.7 117.6,177.3" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="1" stroke-width="0.5"/>
+  <text x="86.0" y="198.0" fill="#8a8a8a" font-size="10" text-anchor="middle">V<tspan font-size="0.72em" dy="3">L</tspan><tspan dy="-3"> </tspan></text>
+  <line x1="48.0" y1="180.0" x2="89.0" y2="208.7" stroke="#4a90d9" stroke-width="1.5"/>
+  <polygon points="89.0,208.7 82.1,207.2 85.2,202.7" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="0.5"/>
+  <text x="93.9" y="221.7" fill="#4a90d9" font-size="10" text-anchor="start">I</text>
+  <line x1="124.0" y1="180.0" x2="144.5" y2="194.3" stroke="#8a8a8a" stroke-width="1.6"/>
+  <text x="136.2" y="180.2" fill="#8a8a8a" font-size="9" text-anchor="start">IR</text>
+  <line x1="144.5" y1="194.3" x2="162.8" y2="168.1" stroke="#8a8a8a" stroke-width="1.6"/>
+  <text x="158.7" y="179.2" fill="#8a8a8a" font-size="9" text-anchor="start">jIX</text>
+  <line x1="48.0" y1="180.0" x2="162.8" y2="168.1" stroke="#e0645c" stroke-width="2.1"/>
+  <polygon points="162.8,168.1 156.7,171.5 156.1,166.1" stroke="#e0645c" fill="#e0645c" fill-opacity="1" stroke-width="0.5"/>
+  <text x="167.8" y="161.1" fill="#e0645c" font-size="10" text-anchor="start">V<tspan font-size="0.72em" dy="3">S</tspan><tspan dy="-3"> </tspan></text>
+  <text x="86.0" y="78.0" fill="#8a8a8a" font-size="11" text-anchor="middle">lagging</text>
+  <text x="86.0" y="228.0" fill="#e0645c" font-size="10" text-anchor="middle">VR &#62; 0 (largest)</text>
+  <line x1="172.0" y1="180.0" x2="248.0" y2="180.0" stroke="#8a8a8a" stroke-width="1.9"/>
+  <polygon points="248.0,180.0 241.6,182.7 241.6,177.3" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="1" stroke-width="0.5"/>
+  <text x="210.0" y="198.0" fill="#8a8a8a" font-size="10" text-anchor="middle">V<tspan font-size="0.72em" dy="3">L</tspan><tspan dy="-3"> </tspan></text>
+  <line x1="172.0" y1="180.0" x2="222.0" y2="180.0" stroke="#4a90d9" stroke-width="1.5"/>
+  <polygon points="222.0,180.0 215.6,182.7 215.6,177.3" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="0.5"/>
+  <text x="228.0" y="176.0" fill="#4a90d9" font-size="10" text-anchor="start">I</text>
+  <line x1="248.0" y1="180.0" x2="273.0" y2="180.0" stroke="#8a8a8a" stroke-width="1.6"/>
+  <text x="262.5" y="173.0" fill="#8a8a8a" font-size="9" text-anchor="start">IR</text>
+  <line x1="273.0" y1="180.0" x2="273.0" y2="148.0" stroke="#8a8a8a" stroke-width="1.6"/>
+  <text x="278.0" y="162.0" fill="#8a8a8a" font-size="9" text-anchor="start">jIX</text>
+  <line x1="172.0" y1="180.0" x2="273.0" y2="148.0" stroke="#8a8a8a" stroke-width="2.1"/>
+  <polygon points="273.0,148.0 267.7,152.5 266.0,147.3" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="1" stroke-width="0.5"/>
+  <text x="278.0" y="141.0" fill="#8a8a8a" font-size="10" text-anchor="start">V<tspan font-size="0.72em" dy="3">S</tspan><tspan dy="-3"> </tspan></text>
+  <text x="210.0" y="78.0" fill="#8a8a8a" font-size="11" text-anchor="middle">unity</text>
+  <text x="210.0" y="228.0" fill="#8a8a8a" font-size="10" text-anchor="middle">VR &#62; 0 (moderate)</text>
+  <line x1="296.0" y1="180.0" x2="372.0" y2="180.0" stroke="#8a8a8a" stroke-width="1.9"/>
+  <polygon points="372.0,180.0 365.6,182.7 365.6,177.3" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="1" stroke-width="0.5"/>
+  <text x="334.0" y="198.0" fill="#8a8a8a" font-size="10" text-anchor="middle">V<tspan font-size="0.72em" dy="3">L</tspan><tspan dy="-3"> </tspan></text>
+  <line x1="296.0" y1="180.0" x2="338.4" y2="153.5" stroke="#4a90d9" stroke-width="1.5"/>
+  <polygon points="338.4,153.5 334.4,159.2 331.5,154.6" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="0.5"/>
+  <text x="343.5" y="149.5" fill="#4a90d9" font-size="10" text-anchor="start">I</text>
+  <line x1="372.0" y1="180.0" x2="393.2" y2="166.8" stroke="#8a8a8a" stroke-width="1.6"/>
+  <text x="384.6" y="166.4" fill="#8a8a8a" font-size="9" text-anchor="start">IR</text>
+  <line x1="393.2" y1="166.8" x2="376.2" y2="139.6" stroke="#8a8a8a" stroke-width="1.6"/>
+  <text x="389.7" y="151.2" fill="#8a8a8a" font-size="9" text-anchor="start">jIX</text>
+  <line x1="296.0" y1="180.0" x2="376.2" y2="139.6" stroke="#4a90d9" stroke-width="2.1"/>
+  <polygon points="376.2,139.6 371.7,144.9 369.3,140.1" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="0.5"/>
+  <text x="381.2" y="132.6" fill="#4a90d9" font-size="10" text-anchor="start">V<tspan font-size="0.72em" dy="3">S</tspan><tspan dy="-3"> </tspan></text>
+  <text x="334.0" y="78.0" fill="#8a8a8a" font-size="11" text-anchor="middle">leading</text>
+  <text x="334.0" y="228.0" fill="#4a90d9" font-size="10" text-anchor="middle">VR &#60; 0</text>
+  <line x1="430.0" y1="240.0" x2="610.0" y2="240.0" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="430.0" y1="240.0" x2="430.0" y2="89.0" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="520.0" y="260.0" fill="#8a8a8a" font-size="10" text-anchor="middle">load fraction  x</text>
+  <text x="420.0" y="83.0" fill="#8a8a8a" font-size="12" text-anchor="middle">&#951;</text>
+  <path d="M 431.12 429.72 L 432.25 284.39 L 433.38 227.25 L 434.50 196.76 L 435.62 177.85 L 436.75 164.99 L 437.88 155.71 L 439.00 148.70 L 440.12 143.24 L 441.25 138.87 L 442.38 135.31 L 443.50 132.35 L 444.62 129.86 L 445.75 127.75 L 446.88 125.94 L 448.00 124.36 L 449.12 123.00 L 450.25 121.79 L 451.38 120.74 L 452.50 119.80 L 453.62 118.97 L 454.75 118.22 L 455.88 117.56 L 457.00 116.96 L 458.12 116.43 L 459.25 115.95 L 460.38 115.51 L 461.50 115.12 L 462.62 114.77 L 463.75 114.46 L 464.88 114.17 L 466.00 113.91 L 467.12 113.68 L 468.25 113.47 L 469.38 113.29 L 470.50 113.12 L 471.62 112.97 L 472.75 112.84 L 473.88 112.72 L 475.00 112.62 L 476.12 112.53 L 477.25 112.45 L 478.38 112.39 L 479.50 112.33 L 480.62 112.29 L 481.75 112.25 L 482.88 112.23 L 484.00 112.21 L 485.12 112.20 L 486.25 112.19 L 487.38 112.20 L 488.50 112.21 L 489.62 112.22 L 490.75 112.24 L 491.88 112.27 L 493.00 112.30 L 494.12 112.34 L 495.25 112.38 L 496.38 112.43 L 497.50 112.48 L 498.62 112.53 L 499.75 112.59 L 500.88 112.65 L 502.00 112.71 L 503.12 112.78 L 504.25 112.85 L 505.38 112.93 L 506.50 113.00 L 507.62 113.08 L 508.75 113.16 L 509.88 113.25 L 511.00 113.33 L 512.12 113.42 L 513.25 113.51 L 514.38 113.61 L 515.50 113.70 L 516.62 113.80 L 517.75 113.90 L 518.88 114.00 L 520.00 114.10 L 521.12 114.21 L 522.25 114.31 L 523.38 114.42 L 524.50 114.53 L 525.62 114.64 L 526.75 114.75 L 527.88 114.86 L 529.00 114.98 L 530.12 115.09 L 531.25 115.21 L 532.38 115.33 L 533.50 115.44 L 534.62 115.56 L 535.75 115.68 L 536.88 115.81 L 538.00 115.93 L 539.12 116.05 L 540.25 116.18 L 541.38 116.30 L 542.50 116.43 L 543.62 116.56 L 544.75 116.68 L 545.88 116.81 L 547.00 116.94 L 548.12 117.07 L 549.25 117.20 L 550.38 117.33 L 551.50 117.47 L 552.62 117.60 L 553.75 117.73 L 554.88 117.87 L 556.00 118.00 L 557.12 118.14 L 558.25 118.27 L 559.38 118.41 L 560.50 118.55 L 561.62 118.68 L 562.75 118.82 L 563.88 118.96 L 565.00 119.10 L 566.12 119.24 L 567.25 119.38 L 568.38 119.52 L 569.50 119.66 L 570.62 119.80 L 571.75 119.94 L 572.88 120.08 L 574.00 120.22 L 575.12 120.37 L 576.25 120.51 L 577.38 120.65 L 578.50 120.80 L 579.62 120.94 L 580.75 121.08 L 581.88 121.23 L 583.00 121.37 L 584.12 121.52 L 585.25 121.66 L 586.38 121.81 L 587.50 121.96 L 588.62 122.10 L 589.75 122.25 L 590.88 122.40 L 592.00 122.54 L 593.12 122.69 L 594.25 122.84 L 595.38 122.99 L 596.50 123.13 L 597.62 123.28 L 598.75 123.43 L 599.88 123.58 L 601.00 123.73 L 602.12 123.88 L 603.25 124.03 L 604.38 124.18 L 605.50 124.33 L 606.62 124.48 L 607.75 124.63 L 608.88 124.78 L 610.00 124.93" stroke="#4a90d9" fill="none" fill-opacity="1" stroke-width="2.2"/>
+  <line x1="486.2" y1="240.0" x2="486.2" y2="103.7" stroke="#e0645c" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <text x="490.2" y="93.0" fill="#e0645c" font-size="9" text-anchor="start">x* = &#8730;(P<tspan font-size="0.72em" dy="3">core</tspan><tspan dy="-3">/P</tspan><tspan font-size="0.72em" dy="3">cu</tspan><tspan dy="-3">)</tspan></text>
+  <line x1="430.0" y1="306.0" x2="610.0" y2="306.0" stroke="#8a8a8a" stroke-width="1.1"/>
+  <line x1="430.0" y1="298.0" x2="610.0" y2="298.0" stroke="#4a90d9" stroke-width="1.6" stroke-dasharray="5 4"/>
+  <text x="613.0" y="301.0" fill="#4a90d9" font-size="9" text-anchor="start">core</text>
+  <path d="M 431.12 298.00 L 432.25 297.99 L 433.38 297.98 L 434.50 297.96 L 435.62 297.94 L 436.75 297.91 L 437.88 297.88 L 439.00 297.85 L 440.12 297.81 L 441.25 297.76 L 442.38 297.71 L 443.50 297.65 L 444.62 297.59 L 445.75 297.53 L 446.88 297.46 L 448.00 297.39 L 449.12 297.31 L 450.25 297.22 L 451.38 297.13 L 452.50 297.04 L 453.62 296.94 L 454.75 296.84 L 455.88 296.73 L 457.00 296.62 L 458.12 296.50 L 459.25 296.38 L 460.38 296.25 L 461.50 296.12 L 462.62 295.98 L 463.75 295.84 L 464.88 295.69 L 466.00 295.54 L 467.12 295.39 L 468.25 295.23 L 469.38 295.06 L 470.50 294.89 L 471.62 294.71 L 472.75 294.53 L 473.88 294.35 L 475.00 294.16 L 476.12 293.97 L 477.25 293.77 L 478.38 293.56 L 479.50 293.35 L 480.62 293.14 L 481.75 292.92 L 482.88 292.70 L 484.00 292.47 L 485.12 292.24 L 486.25 292.00 L 487.38 291.76 L 488.50 291.51 L 489.62 291.26 L 490.75 291.00 L 491.88 290.74 L 493.00 290.47 L 494.12 290.20 L 495.25 289.93 L 496.38 289.65 L 497.50 289.36 L 498.62 289.07 L 499.75 288.77 L 500.88 288.47 L 502.00 288.17 L 503.12 287.86 L 504.25 287.55 L 505.38 287.23 L 506.50 286.90 L 507.62 286.57 L 508.75 286.24 L 509.88 285.90 L 511.00 285.56 L 512.12 285.21 L 513.25 284.86 L 514.38 284.50 L 515.50 284.14 L 516.62 283.77 L 517.75 283.40 L 518.88 283.02 L 520.00 282.64 L 521.12 282.25 L 522.25 281.86 L 523.38 281.47 L 524.50 281.07 L 525.62 280.66 L 526.75 280.25 L 527.88 279.83 L 529.00 279.41 L 530.12 278.99 L 531.25 278.56 L 532.38 278.13 L 533.50 277.69 L 534.62 277.24 L 535.75 276.79 L 536.88 276.34 L 538.00 275.88 L 539.12 275.42 L 540.25 274.95 L 541.38 274.48 L 542.50 274.00 L 543.62 273.52 L 544.75 273.03 L 545.88 272.54 L 547.00 272.04 L 548.12 271.54 L 549.25 271.03 L 550.38 270.52 L 551.50 270.01 L 552.62 269.49 L 553.75 268.96 L 554.88 268.43 L 556.00 267.89 L 557.12 267.35 L 558.25 266.81 L 559.38 266.26 L 560.50 265.71 L 561.62 265.15 L 562.75 264.58 L 563.88 264.01 L 565.00 263.44 L 566.12 262.86 L 567.25 262.28 L 568.38 261.69 L 569.50 261.10 L 570.62 260.50 L 571.75 259.90 L 572.88 259.29 L 574.00 258.68 L 575.12 258.06 L 576.25 257.44 L 577.38 256.81 L 578.50 256.18 L 579.62 255.55 L 580.75 254.91 L 581.88 254.26 L 583.00 253.61 L 584.12 252.95 L 585.25 252.29 L 586.38 251.63 L 587.50 250.96 L 588.62 250.29 L 589.75 249.61 L 590.88 248.92 L 592.00 248.23 L 593.12 247.54 L 594.25 246.84 L 595.38 246.14 L 596.50 245.43 L 597.62 244.72 L 598.75 244.00 L 599.88 243.28 L 601.00 242.55 L 602.12 241.82 L 603.25 241.08 L 604.38 240.34 L 605.50 239.59 L 606.62 238.84 L 607.75 238.09 L 608.88 237.33 L 610.00 236.56" stroke="#e0645c" fill="none" fill-opacity="1" stroke-width="1.6"/>
+  <text x="613.0" y="276.0" fill="#e0645c" font-size="9" text-anchor="start">copper</text>
+  <text x="520.0" y="332.0" fill="#8a8a8a" font-size="10" text-anchor="middle">losses vs load</text>
+  <text x="30.0" y="352.0" fill="#8a8a8a" font-size="11" text-anchor="start">VR = (|V<tspan font-size="0.72em" dy="3">S</tspan><tspan dy="-3">| &#8722; |V</tspan><tspan font-size="0.72em" dy="3">L</tspan><tspan dy="-3">|)/|V</tspan><tspan font-size="0.72em" dy="3">L</tspan><tspan dy="-3">| &#215; 100%   &#8212;  a leading load can make it negative.</tspan></text>
+</svg>

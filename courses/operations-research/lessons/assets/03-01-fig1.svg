@@ -1,0 +1,71 @@
+<svg viewBox="0 0 720 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic" font-size="13">Rounding is no fix: LP optimum A rounds to infeasible B, and the integer optimum C is elsewhere.</text>
+
+  <!-- axes -->
+  <line x1="85" y1="350" x2="380" y2="350" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="380,350 370,345 370,355" fill="#8a8a8a"/>
+  <text x="383" y="355" fill="#8a8a8a">x1</text>
+  <line x1="85" y1="350" x2="85" y2="50" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="85,50 80,60 90,60" fill="#8a8a8a"/>
+  <text x="72" y="44" fill="#8a8a8a">x2</text>
+
+  <!-- feasible region of the LP relaxation -->
+  <polygon points="85,350 326.4,350 85,64" fill="#4a90d9" fill-opacity="0.14" stroke="#4a90d9" stroke-width="2"/>
+  <text x="236" y="150" fill="#4a90d9" font-size="13">7x1 + 4x2 &#8804; 13</text>
+  <line x1="232" y1="156" x2="206" y2="207" stroke="#4a90d9" stroke-width="1"/>
+
+  <!-- objective level sets, grey dashed -->
+  <line x1="140" y1="109" x2="326.4" y2="350" stroke="#8a8a8a" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <line x1="85" y1="86" x2="289.3" y2="350" stroke="#8a8a8a" stroke-width="1.2" stroke-dasharray="5 4"/>
+
+  <!-- tick marks and labels -->
+  <line x1="215" y1="350" x2="215" y2="356" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="345" y1="350" x2="345" y2="356" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="211" y="372" fill="#8a8a8a" font-size="13">1</text>
+  <text x="341" y="372" fill="#8a8a8a" font-size="13">2</text>
+  <text x="77" y="372" fill="#8a8a8a" font-size="13">0</text>
+  <line x1="79" y1="262" x2="85" y2="262" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="79" y1="174" x2="85" y2="174" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="79" y1="86" x2="85" y2="86" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="66" y="267" fill="#8a8a8a" font-size="13">1</text>
+  <text x="66" y="179" fill="#8a8a8a" font-size="13">2</text>
+  <text x="66" y="91" fill="#8a8a8a" font-size="13">3</text>
+
+  <!-- the feasible lattice points other than C -->
+  <circle cx="85" cy="350" r="3.5" fill="#8a8a8a"/>
+  <circle cx="215" cy="350" r="3.5" fill="#8a8a8a"/>
+  <circle cx="85" cy="262" r="3.5" fill="#8a8a8a"/>
+  <circle cx="215" cy="262" r="3.5" fill="#8a8a8a"/>
+  <circle cx="85" cy="174" r="3.5" fill="#8a8a8a"/>
+
+  <!-- A: LP optimum, a fractional vertex -->
+  <circle cx="326.4" cy="350" r="6" fill="#e0645c"/>
+  <text x="314" y="336" fill="#e0645c" font-weight="bold">A</text>
+
+  <!-- B: rounded to nearest, outside the region -->
+  <line x1="339" y1="344" x2="351" y2="356" stroke="#e0645c" stroke-width="2.5"/>
+  <line x1="351" y1="344" x2="339" y2="356" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="354" y="340" fill="#e0645c" font-weight="bold">B</text>
+
+  <!-- C: true integer optimum -->
+  <circle cx="85" cy="86" r="6" fill="#e0645c"/>
+  <text x="94" y="80" fill="#e0645c" font-weight="bold">C</text>
+
+  <!-- scoreboard -->
+  <text x="415" y="92" fill="#e0645c" font-weight="bold" font-size="13">A   LP optimum (13/7, 0)</text>
+  <text x="415" y="112" fill="#8a8a8a" font-size="13">fractional: 1.86 steel frames is no plan</text>
+  <text x="415" y="132" fill="#8a8a8a" font-size="13">z = 39, an upper bound only</text>
+
+  <text x="415" y="172" fill="#e0645c" font-weight="bold" font-size="13">B   round to nearest: (2, 0)</text>
+  <text x="415" y="192" fill="#8a8a8a" font-size="13">7&#215;2 + 4&#215;0 = 14 &gt; 13, INFEASIBLE</text>
+  <text x="415" y="212" fill="#8a8a8a" font-size="13">round down instead: (1, 0), z = 21</text>
+
+  <text x="415" y="252" fill="#e0645c" font-weight="bold" font-size="13">C   integer optimum (0, 3)</text>
+  <text x="415" y="272" fill="#8a8a8a" font-size="13">z = 33, and its x1 = 0 sits at the</text>
+  <text x="415" y="292" fill="#8a8a8a" font-size="13">far end of the region from A</text>
+
+  <circle cx="422" cy="332" r="3.5" fill="#8a8a8a"/>
+  <text x="437" y="337" fill="#8a8a8a" font-size="13">the other feasible integer plans</text>
+  <line x1="415" y1="356" x2="431" y2="356" stroke="#8a8a8a" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <text x="437" y="361" fill="#8a8a8a" font-size="13">objective level sets z = 39, z = 33</text>
+</svg>

@@ -1,0 +1,129 @@
+<svg viewBox="0 0 820 292" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <!-- caption -->
+  <text x="36" y="24" fill="#8a8a8a" font-style="italic">One system, three costumes: the hardware, the forces acting on it, and the RLC loop that obeys the identical equation. (v = dx/dt, i = dq/dt)</text>
+
+  <!-- ============ PANEL A: the schematic ============ -->
+  <text x="96" y="264" fill="#8a8a8a" font-style="italic">the object</text>
+
+  <!-- wall -->
+  <line x1="62" y1="78" x2="62" y2="196" stroke="#8a8a8a" stroke-width="2.5"/>
+  <line x1="62" y1="78" x2="54" y2="87" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="62" y1="94" x2="54" y2="103" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="62" y1="110" x2="54" y2="119" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="62" y1="126" x2="54" y2="135" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="62" y1="142" x2="54" y2="151" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="62" y1="158" x2="54" y2="167" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="62" y1="174" x2="54" y2="183" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="62" y1="190" x2="54" y2="199" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- ground -->
+  <line x1="62" y1="196" x2="296" y2="196" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="78" y1="196" x2="70" y2="205" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="94" y1="196" x2="86" y2="205" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="110" y1="196" x2="102" y2="205" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="126" y1="196" x2="118" y2="205" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="142" y1="196" x2="134" y2="205" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="158" y1="196" x2="150" y2="205" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="174" y1="196" x2="166" y2="205" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="190" y1="196" x2="182" y2="205" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="206" y1="196" x2="198" y2="205" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="222" y1="196" x2="214" y2="205" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="238" y1="196" x2="230" y2="205" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="254" y1="196" x2="246" y2="205" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="270" y1="196" x2="262" y2="205" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="286" y1="196" x2="278" y2="205" stroke="#8a8a8a" stroke-width="1"/>
+
+  <!-- spring -->
+  <path d="M 62 128 L 80 128 L 88 114 L 102 142 L 116 114 L 130 142 L 144 114 L 158 142 L 166 128 L 196 128"
+        fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="114" y="106" fill="#4a90d9">k</text>
+
+  <!-- damper -->
+  <line x1="62" y1="168" x2="108" y2="168" stroke="#4a90d9" stroke-width="2"/>
+  <path d="M 134 154 L 108 154 L 108 182 L 134 182" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="126" y1="156" x2="126" y2="180" stroke="#4a90d9" stroke-width="3"/>
+  <line x1="126" y1="168" x2="196" y2="168" stroke="#4a90d9" stroke-width="2"/>
+  <text x="76" y="161" fill="#4a90d9">b</text>
+
+  <!-- mass block -->
+  <rect x="196" y="110" width="58" height="80" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="2"/>
+  <text x="218" y="156" fill="#4a90d9">m</text>
+
+  <!-- zero reference and +x -->
+  <line x1="196" y1="84" x2="196" y2="112" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="188" y="80" fill="#8a8a8a">0</text>
+  <line x1="196" y1="96" x2="248" y2="96" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="248,96 239,92 239,100" fill="#e0645c"/>
+  <text x="252" y="101" fill="#e0645c">+x</text>
+
+  <!-- applied force -->
+  <line x1="254" y1="150" x2="292" y2="150" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="292,150 283,146 283,154" fill="#e0645c"/>
+  <text x="256" y="142" fill="#e0645c">f(t)</text>
+
+  <!-- ============ PANEL B: free-body diagram ============ -->
+  <text x="368" y="264" fill="#8a8a8a" font-style="italic">the free&#8211;body diagram</text>
+
+  <rect x="402" y="122" width="56" height="56" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="424" y="156" fill="#8a8a8a">m</text>
+
+  <!-- applied force, to the right -->
+  <line x1="458" y1="136" x2="508" y2="136" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="508,136 499,132 499,140" fill="#e0645c"/>
+  <text x="512" y="141" fill="#e0645c">f</text>
+
+  <!-- spring force, to the left -->
+  <line x1="402" y1="136" x2="352" y2="136" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="352,136 361,132 361,140" fill="#e0645c"/>
+  <text x="320" y="141" fill="#e0645c">k x</text>
+
+  <!-- damper force, to the left -->
+  <line x1="402" y1="164" x2="352" y2="164" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="352,164 361,160 361,168" fill="#e0645c"/>
+  <text x="320" y="169" fill="#e0645c">b v</text>
+
+  <!-- normal and weight -->
+  <line x1="430" y1="122" x2="430" y2="92" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="430,92 426,101 434,101" fill="#8a8a8a"/>
+  <text x="436" y="100" fill="#8a8a8a">N</text>
+  <line x1="430" y1="178" x2="430" y2="208" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="430,208 426,199 434,199" fill="#8a8a8a"/>
+  <text x="436" y="206" fill="#8a8a8a">mg</text>
+
+  <text x="336" y="236" fill="#8a8a8a">m a = f &#8722; k x &#8722; b v</text>
+
+  <!-- ============ PANEL C: series RLC ============ -->
+  <text x="624" y="264" fill="#8a8a8a" font-style="italic">the electrical twin</text>
+
+  <!-- left branch with source -->
+  <line x1="592" y1="104" x2="592" y2="132" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="592" y1="164" x2="592" y2="192" stroke="#8a8a8a" stroke-width="2"/>
+  <circle cx="592" cy="148" r="16" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <path d="M 584 148 Q 588 140 592 148 Q 596 156 600 148" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="544" y="153" fill="#e0645c">v(t)</text>
+
+  <!-- top branch: R then L -->
+  <line x1="592" y1="104" x2="628" y2="104" stroke="#8a8a8a" stroke-width="2"/>
+  <rect x="628" y="96" width="42" height="16" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="642" y="88" fill="#8a8a8a">R</text>
+  <line x1="670" y1="104" x2="706" y2="104" stroke="#8a8a8a" stroke-width="2"/>
+  <path d="M 706 104 Q 712 88 718 104 Q 724 88 730 104 Q 736 88 742 104 Q 748 88 754 104"
+        fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="724" y="86" fill="#8a8a8a">L</text>
+  <line x1="754" y1="104" x2="784" y2="104" stroke="#8a8a8a" stroke-width="2"/>
+
+  <!-- right branch -->
+  <line x1="784" y1="104" x2="784" y2="192" stroke="#8a8a8a" stroke-width="2"/>
+
+  <!-- bottom branch with capacitor -->
+  <line x1="784" y1="192" x2="700" y2="192" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="680" y1="192" x2="592" y2="192" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="700" y1="178" x2="700" y2="206" stroke="#8a8a8a" stroke-width="2.5"/>
+  <line x1="680" y1="178" x2="680" y2="206" stroke="#8a8a8a" stroke-width="2.5"/>
+  <text x="684" y="224" fill="#8a8a8a">C</text>
+
+  <!-- current -->
+  <line x1="598" y1="118" x2="624" y2="118" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="624,118 615,114 615,122" fill="#e0645c"/>
+  <text x="604" y="134" fill="#e0645c">i</text>
+</svg>

@@ -1,0 +1,47 @@
+<svg viewBox="0 0 660 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <path d="M 46.0 120.0 L 50.1 115.8 L 54.5 113.2 L 58.9 111.0 L 63.3 109.0 L 67.8 107.1 L 72.3 105.3 L 76.9 103.6 L 81.4 102.0 L 86.0 100.6 L 90.6 99.2 L 95.2 97.9 L 99.8 96.6 L 104.4 95.5 L 109.0 94.4 L 113.6 93.3 L 118.3 92.4 L 123.0 91.5 L 127.6 90.7 L 132.3 89.9 L 137.0 89.2 L 141.7 88.5 L 146.5 88.0 L 151.2 87.4 L 155.9 87.0 L 160.7 86.5 L 165.4 86.2 L 170.2 85.9 L 175.0 85.6 L 179.8 85.4 L 184.6 85.3 L 189.4 85.2 L 194.2 85.2 L 199.0 85.2 L 203.9 85.3 L 208.7 85.4 L 213.6 85.6 L 218.4 85.8 L 223.3 86.1 L 228.2 86.5 L 233.1 86.9 L 233.1 87.1 L 228.4 87.4 L 223.6 87.6 L 218.8 87.9 L 214.0 88.3 L 209.3 88.7 L 204.5 89.1 L 199.8 89.6 L 195.1 90.1 L 190.3 90.6 L 185.6 91.2 L 180.9 91.8 L 176.2 92.5 L 171.5 93.2 L 166.8 93.9 L 162.1 94.7 L 157.4 95.5 L 152.8 96.3 L 148.1 97.2 L 143.4 98.1 L 138.8 99.1 L 134.1 100.1 L 129.5 101.1 L 124.9 102.2 L 120.2 103.3 L 115.6 104.4 L 111.0 105.5 L 106.4 106.7 L 101.7 107.9 L 97.1 109.1 L 92.5 110.3 L 87.9 111.5 L 83.3 112.8 L 78.7 114.0 L 74.1 115.3 L 69.5 116.5 L 64.9 117.7 L 60.3 118.9 L 55.6 119.9 L 50.9 120.7 L 46.0 120.0 Z" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="0.1" stroke-width="1.5"/>
+  <line x1="46.0" y1="120.0" x2="233.1" y2="87.0" stroke="#8a8a8a" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <text x="125.6" y="123.5" fill="#8a8a8a" font-size="11" text-anchor="start">chord</text>
+  <path d="M 46.00 120.00 L 50.52 118.26 L 55.04 116.57 L 59.58 114.93 L 64.12 113.33 L 68.67 111.78 L 73.23 110.28 L 77.79 108.82 L 82.37 107.41 L 86.95 106.05 L 91.54 104.73 L 96.14 103.47 L 100.75 102.24 L 105.36 101.07 L 109.99 99.94 L 114.62 98.86 L 119.26 97.82 L 123.91 96.83 L 128.57 95.89 L 133.23 95.00 L 137.91 94.15 L 142.59 93.35 L 147.28 92.59 L 151.98 91.88 L 156.68 91.22 L 161.40 90.61 L 166.12 90.04 L 170.85 89.52 L 175.59 89.05 L 180.34 88.62 L 185.10 88.24 L 189.86 87.90 L 194.63 87.62 L 199.42 87.38 L 204.21 87.18 L 209.00 87.04 L 213.81 86.94 L 218.62 86.89 L 223.44 86.88 L 228.27 86.92 L 233.11 87.01" stroke="#e0645c" fill="none" fill-opacity="1" stroke-width="1.8"/>
+  <text x="112.0" y="78.0" fill="#e0645c" font-size="11" text-anchor="start">camber line</text>
+  <line x1="99.8" y1="96.6" x2="101.7" y2="107.9" stroke="#4a90d9" stroke-width="1.6"/>
+  <text x="111.7" y="137.9" fill="#4a90d9" font-size="11" text-anchor="start">thickness</text>
+  <line x1="-10.0" y1="60.0" x2="32.0" y2="60.0" stroke="#8a8a8a" stroke-width="1.3"/>
+  <polygon points="32.0,60.0 26.5,62.3 26.5,57.7" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="1" stroke-width="0.5"/>
+  <line x1="-10.0" y1="90.0" x2="32.0" y2="90.0" stroke="#8a8a8a" stroke-width="1.3"/>
+  <polygon points="32.0,90.0 26.5,92.3 26.5,87.7" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="1" stroke-width="0.5"/>
+  <line x1="-10.0" y1="120.0" x2="32.0" y2="120.0" stroke="#8a8a8a" stroke-width="1.3"/>
+  <polygon points="32.0,120.0 26.5,122.3 26.5,117.7" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="1" stroke-width="0.5"/>
+  <text x="0.0" y="44.0" fill="#8a8a8a" font-size="12" text-anchor="start">V<tspan font-size="0.72em" dy="3">&#8734;</tspan><tspan dy="-3"> </tspan></text>
+  <path d="M 92.0 120.0 A 46 46 0 0 0 91.3 112.0" stroke="#8a8a8a" fill="none" fill-opacity="1" stroke-width="1.2"/>
+  <text x="98.0" y="114.0" fill="#8a8a8a" font-size="12" text-anchor="start">&#945;</text>
+  <rect x="270.0" y="16.0" width="150.0" height="72.0" stroke="#8a8a8a" fill="none" fill-opacity="1" stroke-width="1.0" rx="0"/>
+  <path d="M 284.0 37.0 Q 340.0 41.0 382.0 50.0 Q 340.0 59.0 284.0 63.0 Z" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="0.1" stroke-width="1.4"/>
+  <path d="M 288.0 70.0 Q 388.0 62.0 366.0 42.0" stroke="#e0645c" fill="none" fill-opacity="1" stroke-width="1.8"/>
+  <circle cx="350.0" cy="42.0" r="3.5" stroke="#e0645c" fill="#e0645c" fill-opacity="1" stroke-width="1"/>
+  <text x="345.0" y="102.0" fill="#e0645c" font-size="11" text-anchor="middle">too little &#915;</text>
+  <rect x="270.0" y="116.0" width="150.0" height="72.0" stroke="#8a8a8a" fill="none" fill-opacity="1" stroke-width="1.0" rx="0"/>
+  <path d="M 284.0 137.0 Q 340.0 141.0 382.0 150.0 Q 340.0 159.0 284.0 163.0 Z" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="0.1" stroke-width="1.4"/>
+  <path d="M 288.0 128.0 Q 350.0 136.0 404.0 150.0" stroke="#4a90d9" fill="none" fill-opacity="1" stroke-width="1.8"/>
+  <path d="M 288.0 172.0 Q 350.0 164.0 404.0 150.0" stroke="#4a90d9" fill="none" fill-opacity="1" stroke-width="1.8"/>
+  <circle cx="382.0" cy="150.0" r="3.5" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="1"/>
+  <text x="345.0" y="202.0" fill="#4a90d9" font-size="11" text-anchor="middle">the Kutta condition</text>
+  <rect x="270.0" y="216.0" width="150.0" height="72.0" stroke="#8a8a8a" fill="none" fill-opacity="1" stroke-width="1.0" rx="0"/>
+  <path d="M 284.0 237.0 Q 340.0 241.0 382.0 250.0 Q 340.0 259.0 284.0 263.0 Z" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="0.1" stroke-width="1.4"/>
+  <path d="M 288.0 230.0 Q 388.0 238.0 366.0 258.0" stroke="#e0645c" fill="none" fill-opacity="1" stroke-width="1.8"/>
+  <circle cx="350.0" cy="258.0" r="3.5" stroke="#e0645c" fill="#e0645c" fill-opacity="1" stroke-width="1"/>
+  <text x="345.0" y="302.0" fill="#e0645c" font-size="11" text-anchor="middle">too much &#915;</text>
+  <path d="M 456.0 150 Q 490.0 140 516.0 146 Q 490.0 152 456.0 156 Z" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="0.12" stroke-width="1.4"/>
+  <circle cx="484.0" cy="148.0" r="15.0" stroke="#e0645c" fill="none" fill-opacity="1" stroke-width="1.8"/>
+  <line x1="499.0" y1="142.0" x2="499.0" y2="154.0" stroke="#e0645c" stroke-width="1.6"/>
+  <polygon points="499.0,154.0 497.1,149.4 500.9,149.4" stroke="#e0645c" fill="#e0645c" fill-opacity="1" stroke-width="0.5"/>
+  <text x="472.0" y="120.0" fill="#e0645c" font-size="11" text-anchor="start">&#915; (bound)</text>
+  <circle cx="600.0" cy="176.0" r="17.0" stroke="#4a90d9" fill="none" fill-opacity="1" stroke-width="1.8"/>
+  <line x1="583.0" y1="182.0" x2="583.0" y2="170.0" stroke="#4a90d9" stroke-width="1.6"/>
+  <polygon points="583.0,170.0 584.9,174.6 581.1,174.6" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="0.5"/>
+  <text x="568.0" y="216.0" fill="#4a90d9" font-size="11" text-anchor="start">&#8722;&#915; (starting)</text>
+  <path d="M 444.0 96 Q 546.0 60 646.0 100 Q 656.0 168 546.0 238 Q 434.0 176 444.0 96 Z" stroke="#8a8a8a" fill="none" fill-opacity="1" stroke-width="1.2" stroke-dasharray="6 4"/>
+  <text x="490.0" y="80.0" fill="#8a8a8a" font-size="10" text-anchor="start">material circuit</text>
+  <text x="444.0" y="268.0" fill="#8a8a8a" font-size="11" text-anchor="start">&#915;<tspan font-size="0.72em" dy="3">bound</tspan><tspan dy="-3"> + &#915;</tspan><tspan font-size="0.72em" dy="3">start</tspan><tspan dy="-3"> = 0   (Kelvin)</tspan></text>
+  <text x="20.0" y="326.0" fill="#8a8a8a" font-size="11" text-anchor="start">The airfoil buys its circulation by leaving an equal and opposite vortex behind.</text>
+</svg>

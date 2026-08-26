@@ -1,0 +1,73 @@
+<svg viewBox="0 0 720 345" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic" font-size="13">When the spec region and the locus never meet, no gain can help: you have to move the locus.</text>
+
+  <line x1="372" y1="45" x2="372" y2="320" stroke="#8a8a8a" stroke-width="1" opacity="0.4"/>
+
+  <!-- ============ LEFT PANEL: gain only ============ -->
+  <text x="120" y="58" fill="#8a8a8a" font-size="13">gain only:&#160;&#160;L = K / [ s(s+2) ]</text>
+
+  <rect x="150" y="87" width="73" height="216" fill="#e0645c" opacity="0.12"/>
+
+  <line x1="150" y1="195" x2="345" y2="195" stroke="#8a8a8a" stroke-width="1.4"/>
+  <polygon points="345,195 336,191 336,199" fill="#8a8a8a"/>
+  <text x="349" y="200" fill="#8a8a8a" font-size="12">&#963;</text>
+  <line x1="295" y1="308" x2="295" y2="82" stroke="#8a8a8a" stroke-width="1.4"/>
+  <polygon points="295,82 291,91 299,91" fill="#8a8a8a"/>
+  <text x="301" y="88" fill="#8a8a8a" font-size="12">j&#969;</text>
+
+  <line x1="223" y1="80" x2="223" y2="310" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="7 5"/>
+
+  <line x1="223" y1="195" x2="295" y2="195" stroke="#4a90d9" stroke-width="4"/>
+  <line x1="259" y1="87" x2="259" y2="303" stroke="#4a90d9" stroke-width="4"/>
+
+  <line x1="288" y1="188" x2="302" y2="202" stroke="#4a90d9" stroke-width="3"/>
+  <line x1="302" y1="188" x2="288" y2="202" stroke="#4a90d9" stroke-width="3"/>
+  <line x1="216" y1="188" x2="230" y2="202" stroke="#4a90d9" stroke-width="3"/>
+  <line x1="230" y1="188" x2="216" y2="202" stroke="#4a90d9" stroke-width="3"/>
+  <text x="200" y="178" fill="#4a90d9" font-size="12">&#8722;2</text>
+  <text x="302" y="216" fill="#4a90d9" font-size="12">0</text>
+
+  <text x="155" y="112" fill="#e0645c" font-size="12">need &#963; &#8805; 2</text>
+  <text x="155" y="128" fill="#e0645c" font-size="12">(t</text>
+  <text x="166" y="132" fill="#e0645c" font-size="10">s</text>
+  <text x="172" y="128" fill="#e0645c" font-size="12">&#160;&#8804; 2 s)</text>
+  <text x="155" y="152" fill="#e0645c" font-size="12">nothing here</text>
+
+  <text x="216" y="332" fill="#4a90d9" font-size="12">branch sits at &#963; = 1 for every K</text>
+  <line x1="262" y1="318" x2="259" y2="304" stroke="#4a90d9" stroke-width="1"/>
+
+  <!-- ============ RIGHT PANEL: zero added ============ -->
+  <text x="410" y="58" fill="#8a8a8a" font-size="13">zero added:&#160;&#160;L = K(s+4) / [ s(s+2) ]</text>
+
+  <rect x="450" y="112" width="147" height="166" fill="#e0645c" opacity="0.12"/>
+
+  <line x1="450" y1="195" x2="695" y2="195" stroke="#8a8a8a" stroke-width="1.4"/>
+  <polygon points="695,195 686,191 686,199" fill="#8a8a8a"/>
+  <text x="699" y="200" fill="#8a8a8a" font-size="12">&#963;</text>
+  <line x1="645" y1="282" x2="645" y2="104" stroke="#8a8a8a" stroke-width="1.4"/>
+  <polygon points="645,104 641,113 649,113" fill="#8a8a8a"/>
+  <text x="651" y="110" fill="#8a8a8a" font-size="12">j&#969;</text>
+
+  <line x1="597" y1="106" x2="597" y2="284" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="7 5"/>
+
+  <line x1="597" y1="195" x2="645" y2="195" stroke="#4a90d9" stroke-width="4"/>
+  <line x1="452" y1="195" x2="542" y2="195" stroke="#4a90d9" stroke-width="4"/>
+  <circle cx="549" cy="195" r="67.9" fill="none" stroke="#4a90d9" stroke-width="4"/>
+
+  <line x1="638" y1="188" x2="652" y2="202" stroke="#4a90d9" stroke-width="3"/>
+  <line x1="652" y1="188" x2="638" y2="202" stroke="#4a90d9" stroke-width="3"/>
+  <line x1="590" y1="188" x2="604" y2="202" stroke="#4a90d9" stroke-width="3"/>
+  <line x1="604" y1="188" x2="590" y2="202" stroke="#4a90d9" stroke-width="3"/>
+  <circle cx="549" cy="195" r="7" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="530" y="222" fill="#4a90d9" font-size="12">zero &#8722;4</text>
+
+  <circle cx="597" cy="147" r="5.5" fill="#e0645c"/>
+  <circle cx="597" cy="243" r="4" fill="#e0645c" opacity="0.55"/>
+  <text x="606" y="140" fill="#e0645c" font-size="12">s</text>
+  <text x="613" y="144" fill="#e0645c" font-size="10">d</text>
+  <text x="619" y="140" fill="#e0645c" font-size="12">&#160;= &#8722;2 + j2</text>
+  <text x="606" y="158" fill="#e0645c" font-size="12">K = 2, &#950; = 0.707</text>
+
+  <text x="452" y="102" fill="#e0645c" font-size="12">the locus now reaches in</text>
+  <text x="400" y="332" fill="#8a8a8a" font-size="11">a zero pulls branches toward it; a pole pushes them away</text>
+</svg>

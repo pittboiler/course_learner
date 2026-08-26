@@ -1,0 +1,48 @@
+<svg viewBox="0 0 660 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="30" y="20" fill="#8a8a8a" font-style="italic">Multiplying by cos(2&#960;f&#8320;t) slides two half-height copies of the spectrum out to &#177;f&#8320;.</text>
+
+  <!-- PANEL A: baseband message -->
+  <text x="30" y="48" fill="#8a8a8a">A. Message M(f) &#8212; baseband, real, so symmetric. Bandwidth quoted one-sided: W.</text>
+
+  <polygon points="270,150 340,80 410,150" fill="#4a90d9" fill-opacity="0.20" stroke="#4a90d9" stroke-width="3"/>
+  <line x1="30" y1="150" x2="645" y2="150" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="645,150 635,145 635,155" fill="#8a8a8a"/>
+  <text x="632" y="172" fill="#8a8a8a">f</text>
+
+  <line x1="340" y1="147" x2="340" y2="156" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="410" y1="147" x2="410" y2="156" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="270" y1="147" x2="270" y2="156" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="336" y="172" fill="#8a8a8a">0</text>
+  <text x="404" y="172" fill="#8a8a8a">W</text>
+  <text x="258" y="172" fill="#8a8a8a">&#8722;W</text>
+  <text x="346" y="76" fill="#4a90d9" font-size="11">M(f)</text>
+
+  <line x1="340" y1="136" x2="410" y2="136" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="340,136 349,132 349,140" fill="#e0645c"/>
+  <polygon points="410,136 401,132 401,140" fill="#e0645c"/>
+  <text x="416" y="140" fill="#e0645c" font-size="11">bandwidth W</text>
+
+  <!-- PANEL B: bandpass -->
+  <text x="30" y="222" fill="#8a8a8a">B. After &#215;cos(2&#960;f&#8320;t): two half-height copies. Bandwidth quoted as the full block: 2W.</text>
+
+  <polygon points="120,330 155,295 190,330" fill="#8a8a8a" fill-opacity="0.16" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="470,330 505,295 540,330" fill="#4a90d9" fill-opacity="0.20" stroke="#4a90d9" stroke-width="3"/>
+
+  <line x1="30" y1="330" x2="645" y2="330" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="645,330 635,325 635,335" fill="#8a8a8a"/>
+  <text x="632" y="352" fill="#8a8a8a">f</text>
+
+  <line x1="330" y1="327" x2="330" y2="336" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="505" y1="327" x2="505" y2="336" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="155" y1="327" x2="155" y2="336" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="326" y="352" fill="#8a8a8a">0</text>
+  <text x="494" y="352" fill="#8a8a8a">f<tspan font-size="9" dy="3">c</tspan></text>
+  <text x="140" y="352" fill="#8a8a8a">&#8722;f<tspan font-size="9" dy="3">c</tspan></text>
+  <text x="472" y="288" fill="#4a90d9" font-size="11">&#189;M(f&#8722;f<tspan font-size="9" dy="3">c</tspan><tspan font-size="11" dy="-3">)</tspan></text>
+  <text x="112" y="288" fill="#8a8a8a" font-size="11">&#189;M(f+f<tspan font-size="9" dy="3">c</tspan><tspan font-size="11" dy="-3">)</tspan></text>
+
+  <line x1="470" y1="344" x2="540" y2="344" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="470,344 479,340 479,348" fill="#e0645c"/>
+  <polygon points="540,344 531,340 531,348" fill="#e0645c"/>
+  <text x="546" y="348" fill="#e0645c" font-size="11">B = 2W</text>
+</svg>

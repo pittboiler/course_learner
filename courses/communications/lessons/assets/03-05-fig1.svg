@@ -1,0 +1,63 @@
+<svg viewBox="0 0 660 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="20" y="18" fill="#8a8a8a" font-style="italic">Same average energy, same M: the square spreads points further than the circle.</text>
+
+  <text x="47" y="46" fill="#8a8a8a" font-size="12">16-QAM</text>
+  <line x1="10" y1="180" x2="200" y2="180" stroke="#8a8a8a" stroke-width="0.8"/>
+  <line x1="105" y1="85" x2="105" y2="275" stroke="#8a8a8a" stroke-width="0.8"/>
+  <circle cx="66.0" cy="141.0" r="4" fill="#e0645c"/>
+  <circle cx="66.0" cy="167.0" r="4" fill="#8a8a8a"/>
+  <circle cx="66.0" cy="193.0" r="4" fill="#8a8a8a"/>
+  <circle cx="66.0" cy="219.0" r="4" fill="#e0645c"/>
+  <circle cx="92.0" cy="141.0" r="4" fill="#8a8a8a"/>
+  <circle cx="92.0" cy="167.0" r="4" fill="#4a90d9"/>
+  <circle cx="92.0" cy="193.0" r="4" fill="#4a90d9"/>
+  <circle cx="92.0" cy="219.0" r="4" fill="#8a8a8a"/>
+  <circle cx="118.0" cy="141.0" r="4" fill="#8a8a8a"/>
+  <circle cx="118.0" cy="167.0" r="4" fill="#4a90d9"/>
+  <circle cx="118.0" cy="193.0" r="4" fill="#4a90d9"/>
+  <circle cx="118.0" cy="219.0" r="4" fill="#8a8a8a"/>
+  <circle cx="144.0" cy="141.0" r="4" fill="#e0645c"/>
+  <circle cx="144.0" cy="167.0" r="4" fill="#8a8a8a"/>
+  <circle cx="144.0" cy="193.0" r="4" fill="#8a8a8a"/>
+  <circle cx="144.0" cy="219.0" r="4" fill="#e0645c"/>
+  <line x1="66.0" y1="141.0" x2="92.0" y2="141.0" stroke="#e0645c" stroke-width="2"/>
+  <text x="69.9" y="133.0" fill="#e0645c" font-size="10">d</text>
+  <text x="10" y="292" fill="#8a8a8a" font-size="10">neighbours: <tspan fill="#e0645c">2 corner</tspan> &#183; <tspan fill="#8a8a8a">3 edge</tspan> &#183; <tspan fill="#4a90d9">4 interior</tspan></text>
+  <text x="10" y="306" fill="#8a8a8a" font-size="10">average 3 &#8212; that is the formula&#8217;s prefactor</text>
+
+  <text x="290" y="46" fill="#8a8a8a" font-size="12">16-PSK, same E<tspan font-size="9" dy="2">s</tspan></text>
+  <line x1="235" y1="180" x2="425" y2="180" stroke="#8a8a8a" stroke-width="0.8"/>
+  <line x1="330" y1="85" x2="330" y2="275" stroke="#8a8a8a" stroke-width="0.8"/>
+  <circle cx="330" cy="180" r="41.1" fill="none" stroke="#8a8a8a" stroke-width="0.6" stroke-dasharray="2 4"/>
+  <circle cx="371.1" cy="180.0" r="3.5" fill="#4a90d9"/>
+  <circle cx="368.0" cy="164.3" r="3.5" fill="#4a90d9"/>
+  <circle cx="359.1" cy="150.9" r="3.5" fill="#4a90d9"/>
+  <circle cx="345.7" cy="142.0" r="3.5" fill="#4a90d9"/>
+  <circle cx="330.0" cy="138.9" r="3.5" fill="#4a90d9"/>
+  <circle cx="314.3" cy="142.0" r="3.5" fill="#4a90d9"/>
+  <circle cx="300.9" cy="150.9" r="3.5" fill="#4a90d9"/>
+  <circle cx="292.0" cy="164.3" r="3.5" fill="#4a90d9"/>
+  <circle cx="288.9" cy="180.0" r="3.5" fill="#4a90d9"/>
+  <circle cx="292.0" cy="195.7" r="3.5" fill="#4a90d9"/>
+  <circle cx="300.9" cy="209.1" r="3.5" fill="#4a90d9"/>
+  <circle cx="314.3" cy="218.0" r="3.5" fill="#4a90d9"/>
+  <circle cx="330.0" cy="221.1" r="3.5" fill="#4a90d9"/>
+  <circle cx="345.7" cy="218.0" r="3.5" fill="#4a90d9"/>
+  <circle cx="359.1" cy="209.1" r="3.5" fill="#4a90d9"/>
+  <circle cx="368.0" cy="195.7" r="3.5" fill="#4a90d9"/>
+  <line x1="371.1" y1="180" x2="368.0" y2="164.3" stroke="#e0645c" stroke-width="2"/>
+  <text x="377.1" y="166.0" fill="#e0645c" font-size="10">d&#8242;</text>
+  <text x="235" y="292" fill="#e0645c" font-size="10">d&#8242; / d = 0.62 &#8594; 4.0 dB worse</text>
+
+  <text x="487" y="46" fill="#8a8a8a" font-size="12">the union bound</text>
+  <circle cx="545" cy="180" r="4.5" fill="#4a90d9"/>
+  <circle cx="595" cy="150" r="4" fill="#8a8a8a"/>
+  <circle cx="565" cy="232" r="4" fill="#8a8a8a"/>
+  <line x1="545" y1="180" x2="595" y2="150" stroke="#8a8a8a" stroke-width="0.8" stroke-dasharray="3 3"/>
+  <line x1="545" y1="180" x2="565" y2="232" stroke="#8a8a8a" stroke-width="0.8" stroke-dasharray="3 3"/>
+  <path d="M570,165 l 60,-38" stroke="#e0645c" stroke-width="1.4"/>
+  <path d="M555,206 l 62,26" stroke="#e0645c" stroke-width="1.4"/>
+  <text x="485" y="270" fill="#8a8a8a" font-size="10">summing the two half-plane</text>
+  <text x="485" y="283" fill="#8a8a8a" font-size="10">errors double-counts their overlap &#8212;</text>
+  <text x="485" y="296" fill="#8a8a8a" font-size="10">far out in the tail, so it barely matters</text>
+</svg>

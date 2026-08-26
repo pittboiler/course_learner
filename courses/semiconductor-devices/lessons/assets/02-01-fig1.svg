@@ -1,0 +1,42 @@
+<svg viewBox="0 0 660 430" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Two rectangles, integrated twice: charge &#8594; triangular field &#8594; parabolic potential step.</text>
+  <rect x="90" y="64" width="193.2" height="52" fill="#8a8a8a" fill-opacity="0.10" stroke="#8a8a8a" stroke-width="1"/>
+  <rect x="283.2" y="64" width="266.8" height="52" fill="#4a90d9" fill-opacity="0.10" stroke="#4a90d9" stroke-width="1"/>
+  <rect x="163.6" y="64" width="179.4" height="52" fill="#e0645c" fill-opacity="0.10" stroke="#e0645c" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <text x="106" y="94" fill="#8a8a8a" font-size="12">p (N&#8337;)</text>
+  <text x="494" y="94" fill="#4a90d9" font-size="12">n (N&#8340;)</text>
+  <text x="169.6" y="96" fill="#8a8a8a" font-size="12">&#8722;</text>
+  <text x="196.0" y="96" fill="#8a8a8a" font-size="12">&#8722;</text>
+  <text x="222.4" y="96" fill="#8a8a8a" font-size="12">&#8722;</text>
+  <text x="248.8" y="96" fill="#8a8a8a" font-size="12">&#8722;</text>
+  <text x="275.2" y="96" fill="#8a8a8a" font-size="12">&#8722;</text>
+  <text x="289.2" y="96" fill="#4a90d9" font-size="12">+</text>
+  <text x="312.1" y="96" fill="#4a90d9" font-size="12">+</text>
+  <text x="335.0" y="96" fill="#4a90d9" font-size="12">+</text>
+  <text x="159.6" y="56" fill="#e0645c" font-size="10">&#8722;x<tspan font-size="9" dy="2">p</tspan></text>
+  <text x="337.0" y="56" fill="#e0645c" font-size="10">x<tspan font-size="9" dy="2">n</tspan></text>
+  <text x="237.2" y="134" fill="#e0645c" font-size="10">depletion region</text>
+  <line x1="90" y1="190" x2="550" y2="190" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="18" y="194" fill="#8a8a8a" font-size="11">&#961;(x)</text>
+  <rect x="163.6" y="190" width="119.6" height="17.0" fill="#8a8a8a" fill-opacity="0.35" stroke="#8a8a8a" stroke-width="1.6"/>
+  <rect x="283.2" y="156.0" width="59.8" height="34.0" fill="#4a90d9" fill-opacity="0.35" stroke="#4a90d9" stroke-width="1.6"/>
+  <text x="167.6" y="220" fill="#8a8a8a" font-size="9">&#8722;qN&#8337;</text>
+  <text x="287.2" y="152.0" fill="#4a90d9" font-size="9">+qN&#8340;</text>
+  <text x="384" y="166" fill="#e0645c" font-size="10">equal areas: N&#8337;x<tspan font-size="9" dy="2">p</tspan><tspan font-size="10" dy="-2"> = N&#8340;x</tspan><tspan font-size="9" dy="2">n</tspan></text>
+  <line x1="90" y1="280" x2="550" y2="280" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="18" y="284" fill="#8a8a8a" font-size="11">&#8496;(x)</text>
+  <path d="M163.6,280 L283.2,326.0 L343.0,280 Z" fill="#e0645c" fill-opacity="0.16" stroke="#e0645c" stroke-width="2"/>
+  <text x="289.2" y="328.0" fill="#e0645c" font-size="10">&#8496;<tspan font-size="9" dy="2">max</tspan></text>
+  <text x="374" y="314" fill="#8a8a8a" font-size="10">area of the triangle = V<tspan font-size="9" dy="2">bi</tspan><tspan font-size="10" dy="-2"> &#8722; V</tspan></text>
+  <line x1="90" y1="390" x2="550" y2="390" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="18" y="394" fill="#8a8a8a" font-size="11">&#968;(x)</text>
+  <path d="M90.0,390.0 L94.6,390.0 L99.2,390.0 L103.8,390.0 L108.4,390.0 L113.0,390.0 L117.6,390.0 L122.2,390.0 L126.8,390.0 L131.4,390.0 L136.0,390.0 L140.6,390.0 L145.2,390.0 L149.8,390.0 L154.4,390.0 L159.0,390.0 L163.6,390.0 L168.2,390.0 L172.8,389.8 L177.4,389.7 L182.0,389.4 L186.6,389.0 L191.2,388.6 L195.8,388.1 L200.4,387.5 L205.0,386.9 L209.6,386.2 L214.2,385.3 L218.8,384.5 L223.4,383.5 L228.0,382.5 L232.6,381.3 L237.2,380.2 L241.8,378.9 L246.4,377.5 L251.0,376.1 L255.6,374.6 L260.2,373.0 L264.8,371.4 L269.4,369.7 L274.0,367.8 L278.6,366.0 L283.2,364.0 L287.8,360.2 L292.4,356.6 L297.0,353.4 L301.6,350.5 L306.2,347.8 L310.8,345.5 L315.4,343.5 L320.0,341.8 L324.6,340.5 L329.2,339.4 L333.8,338.6 L338.4,338.2 L343.0,338.0 L347.6,338.0 L352.2,338.0 L356.8,338.0 L361.4,338.0 L366.0,338.0 L370.6,338.0 L375.2,338.0 L379.8,338.0 L384.4,338.0 L389.0,338.0 L393.6,338.0 L398.2,338.0 L402.8,338.0 L407.4,338.0 L412.0,338.0 L416.6,338.0 L421.2,338.0 L425.8,338.0 L430.4,338.0 L435.0,338.0 L439.6,338.0 L444.2,338.0 L448.8,338.0 L453.4,338.0 L458.0,338.0 L462.6,338.0 L467.2,338.0 L471.8,338.0 L476.4,338.0 L481.0,338.0 L485.6,338.0 L490.2,338.0 L494.8,338.0 L499.4,338.0 L504.0,338.0 L508.6,338.0 L513.2,338.0 L517.8,338.0 L522.4,338.0 L527.0,338.0 L531.6,338.0 L536.2,338.0 L540.8,338.0 L545.4,338.0 L550.0,338.0" fill="none" stroke="#4a90d9" stroke-width="2.4"/>
+  <line x1="510" y1="390" x2="510" y2="338.0" stroke="#8a8a8a" stroke-width="1.4"/>
+  <polygon points="510,390 506,381 514,381" fill="#8a8a8a"/>
+  <polygon points="510,338.0 506,347.0 514,347.0" fill="#8a8a8a"/>
+  <text x="516" y="368.0" fill="#8a8a8a" font-size="11">V<tspan font-size="9" dy="2">bi</tspan></text>
+  <line x1="163.6" y1="60" x2="163.6" y2="400" stroke="#8a8a8a" stroke-width="0.5" stroke-dasharray="2 5"/>
+  <line x1="283.2" y1="60" x2="283.2" y2="400" stroke="#8a8a8a" stroke-width="0.5" stroke-dasharray="2 5"/>
+  <line x1="343.0" y1="60" x2="343.0" y2="400" stroke="#8a8a8a" stroke-width="0.5" stroke-dasharray="2 5"/>
+  <text x="90" y="422" fill="#8a8a8a" font-size="10">the lightly doped side depletes further &#8212; same charge, fewer dopants per unit volume</text>
+</svg>

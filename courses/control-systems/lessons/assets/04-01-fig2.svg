@@ -1,0 +1,74 @@
+<svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="26" y="22" fill="#8a8a8a" font-style="italic">Three parallel opinions about the same error &#8212; past, present, future &#8212; added into one command u.</text>
+
+  <!-- reference in -->
+  <line x1="26" y1="150" x2="63" y2="150" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="65,150 55,145 55,155" fill="#4a90d9"/>
+  <text x="36" y="142" fill="#8a8a8a" font-size="13">r</text>
+
+  <!-- summing junction -->
+  <circle cx="80" cy="150" r="14" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="62" y="138" fill="#8a8a8a" font-size="13">+</text>
+  <text x="60" y="180" fill="#e0645c" font-size="16">&#8722;</text>
+
+  <!-- error, branch point -->
+  <line x1="94" y1="150" x2="140" y2="150" stroke="#4a90d9" stroke-width="2"/>
+  <text x="108" y="142" fill="#8a8a8a" font-size="13">e</text>
+  <circle cx="140" cy="150" r="4" fill="#4a90d9"/>
+  <line x1="140" y1="82" x2="140" y2="218" stroke="#4a90d9" stroke-width="2"/>
+
+  <!-- P branch -->
+  <line x1="140" y1="82" x2="188" y2="82" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="190,82 180,77 180,87" fill="#4a90d9"/>
+  <rect x="192" y="60" width="96" height="44" fill="#4a90d9" opacity="0.12"/>
+  <rect x="192" y="60" width="96" height="44" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="240" y="88" fill="#4a90d9" text-anchor="middle" font-size="16">K<tspan font-size="11" dy="4">p</tspan></text>
+  <text x="240" y="50" fill="#8a8a8a" text-anchor="middle" font-size="12">PRESENT error</text>
+
+  <!-- I branch -->
+  <line x1="140" y1="150" x2="188" y2="150" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="190,150 180,145 180,155" fill="#4a90d9"/>
+  <rect x="192" y="128" width="96" height="44" fill="#4a90d9" opacity="0.12"/>
+  <rect x="192" y="128" width="96" height="44" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="240" y="156" fill="#4a90d9" text-anchor="middle" font-size="16">K<tspan font-size="11" dy="4">i</tspan><tspan font-size="16" dy="-4"> / s</tspan></text>
+  <text x="240" y="192" fill="#8a8a8a" text-anchor="middle" font-size="12">accumulated PAST</text>
+
+  <!-- D branch -->
+  <line x1="140" y1="218" x2="188" y2="218" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="190,218 180,213 180,223" fill="#4a90d9"/>
+  <rect x="192" y="196" width="96" height="44" fill="#4a90d9" opacity="0.12"/>
+  <rect x="192" y="196" width="96" height="44" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="240" y="224" fill="#4a90d9" text-anchor="middle" font-size="16">K<tspan font-size="11" dy="4">d</tspan><tspan font-size="16" dy="-4"> s</tspan></text>
+  <text x="240" y="262" fill="#8a8a8a" text-anchor="middle" font-size="12">predicted FUTURE</text>
+
+  <!-- converge to sum -->
+  <path d="M 288 82 L 330 82 L 330 136" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="330,138 325,128 335,128" fill="#4a90d9"/>
+  <line x1="288" y1="150" x2="330" y2="150" stroke="#4a90d9" stroke-width="2"/>
+  <path d="M 288 218 L 330 218 L 330 166" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="330,164 325,174 335,174" fill="#4a90d9"/>
+  <circle cx="348" cy="150" r="16" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="344" y="156" fill="#8a8a8a" font-size="15">+</text>
+
+  <!-- u to plant -->
+  <line x1="364" y1="150" x2="410" y2="150" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="412,150 402,145 402,155" fill="#4a90d9"/>
+  <text x="382" y="142" fill="#8a8a8a" font-size="13">u</text>
+
+  <!-- plant -->
+  <rect x="414" y="128" width="86" height="44" fill="#4a90d9" opacity="0.12"/>
+  <rect x="414" y="128" width="86" height="44" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="457" y="156" fill="#4a90d9" text-anchor="middle" font-size="15">G(s)</text>
+  <text x="457" y="118" fill="#8a8a8a" text-anchor="middle" font-size="12">plant</text>
+
+  <!-- output -->
+  <line x1="500" y1="150" x2="614" y2="150" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="616,150 606,145 606,155" fill="#4a90d9"/>
+  <text x="588" y="142" fill="#8a8a8a" font-size="13">y</text>
+  <circle cx="548" cy="150" r="4" fill="#8a8a8a"/>
+
+  <!-- feedback -->
+  <path d="M 548 150 L 548 276 L 80 276 L 80 166" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="80,164 75,174 85,174" fill="#e0645c"/>
+  <text x="316" y="292" fill="#e0645c" font-size="13">measured output y</text>
+</svg>

@@ -1,0 +1,48 @@
+<svg viewBox="0 0 660 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <path d="M 30 34 L 70 38 L 280 50 L 280 130 L 70 142 L 30 146 Z" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="0.05" stroke-width="1.5"/>
+  <rect x="64.0" y="38.0" width="7.0" height="104.0" stroke="#4a90d9" fill="#4a90d9" fill-opacity="0.35" stroke-width="1.2" rx="1"/>
+  <text x="48.0" y="24.0" fill="#4a90d9" font-size="10" text-anchor="start">fan</text>
+  <path d="M 90 70 L 260 74 L 260 106 L 90 110 Z" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="0.12" stroke-width="1.3"/>
+  <text x="126.0" y="94.0" fill="#8a8a8a" font-size="9" text-anchor="start">core: compressor, burner, turbine</text>
+  <line x1="280.0" y1="58.0" x2="330.0" y2="58.0" stroke="#4a90d9" stroke-width="1.4"/>
+  <polygon points="330.0,58.0 324.5,60.3 324.5,55.7" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="0.5"/>
+  <line x1="280.0" y1="122.0" x2="330.0" y2="122.0" stroke="#4a90d9" stroke-width="1.4"/>
+  <polygon points="330.0,122.0 324.5,124.3 324.5,119.7" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="0.5"/>
+  <line x1="264.0" y1="90.0" x2="336.0" y2="90.0" stroke="#e0645c" stroke-width="2.2"/>
+  <polygon points="336.0,90.0 328.6,93.1 328.6,86.9" stroke="#e0645c" fill="#e0645c" fill-opacity="1" stroke-width="0.5"/>
+  <text x="286.0" y="48.0" fill="#4a90d9" font-size="10" text-anchor="start">bypass: slow, thick</text>
+  <text x="286.0" y="106.0" fill="#e0645c" font-size="10" text-anchor="start">core: fast, thin</text>
+  <line x1="180.0" y1="66.0" x2="180.0" y2="30.0" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="138.0" y="22.0" fill="#8a8a8a" font-size="9" text-anchor="start">turbine drives compressor + fan, fan work &#215; (1+B)</text>
+  <rect x="40.0" y="172.0" width="44.0" height="60.0" stroke="#8a8a8a" fill="#e0645c" fill-opacity="0.25" stroke-width="1.2" rx="0"/>
+  <text x="40.0" y="236.0" fill="#e0645c" font-size="10" text-anchor="start">turbojet</text>
+  <rect x="40.0" y="263.2" width="150.0" height="17.6" stroke="#8a8a8a" fill="#4a90d9" fill-opacity="0.25" stroke-width="1.2" rx="0"/>
+  <text x="40.0" y="306.0" fill="#4a90d9" font-size="10" text-anchor="start">turbofan</text>
+  <text x="200.0" y="202.0" fill="#8a8a8a" font-size="10" text-anchor="start">same area = same thrust</text>
+  <text x="200.0" y="272.0" fill="#8a8a8a" font-size="10" text-anchor="start">more air, less &#916;u</text>
+  <line x1="390.0" y1="270.0" x2="630.0" y2="270.0" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="390.0" y1="270.0" x2="390.0" y2="70.0" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="628.0" y="262.0" fill="#8a8a8a" font-size="11" text-anchor="end">bypass ratio</text>
+  <text x="394.0" y="64.0" fill="#8a8a8a" font-size="11" text-anchor="start">TSFC</text>
+  <path d="M 390.00 88.80 L 408.46 141.20 L 445.38 192.00 L 482.31 215.60 L 537.69 238.40 L 611.54 255.20" stroke="#4a90d9" fill="none" fill-opacity="1" stroke-width="2.4"/>
+  <circle cx="390.0" cy="88.8" r="3.5" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="1"/>
+  <circle cx="408.5" cy="141.2" r="3.5" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="1"/>
+  <circle cx="445.4" cy="192.0" r="3.5" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="1"/>
+  <circle cx="482.3" cy="215.6" r="3.5" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="1"/>
+  <circle cx="537.7" cy="238.4" r="3.5" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="1"/>
+  <circle cx="611.5" cy="255.2" r="3.5" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="1"/>
+  <path d="M 390.00 80.48 L 408.46 168.48 L 445.38 210.04 L 482.31 225.47 L 537.69 236.67 L 611.54 244.57" stroke="#e0645c" fill="none" fill-opacity="1" stroke-width="1.8" stroke-dasharray="5 4"/>
+  <text x="466.8" y="98.0" fill="#4a90d9" font-size="10" text-anchor="start">TSFC</text>
+  <text x="462.0" y="178.0" fill="#e0645c" font-size="10" text-anchor="start">specific thrust</text>
+  <rect x="538.8" y="70.0" width="33.6" height="200.0" stroke="none" fill="#8a8a8a" fill-opacity="0.07" stroke-width="0" rx="0"/>
+  <rect x="572.4" y="70.0" width="28.8" height="200.0" stroke="none" fill="#8a8a8a" fill-opacity="0.07" stroke-width="0" rx="0"/>
+  <rect x="601.2" y="70.0" width="28.8" height="200.0" stroke="none" fill="#8a8a8a" fill-opacity="0.07" stroke-width="0" rx="0"/>
+  <rect x="556.2" y="70.0" width="55.4" height="200.0" stroke="none" fill="#4a90d9" fill-opacity="0.1" stroke-width="0" rx="0"/>
+  <text x="510.0" y="238.0" fill="#8a8a8a" font-size="9" text-anchor="start">modern range</text>
+  <line x1="390.0" y1="270.0" x2="390.0" y2="274.0" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="390.0" y="286.0" fill="#8a8a8a" font-size="9" text-anchor="middle">0</text>
+  <line x1="463.8" y1="270.0" x2="463.8" y2="274.0" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="463.8" y="286.0" fill="#8a8a8a" font-size="9" text-anchor="middle">4</text>
+  <line x1="537.7" y1="270.0" x2="537.7" y2="274.0" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="537.7" y="286.0" fill="#8a8a8a" font-size="9" text-anchor="middle">8</text>
+</svg>

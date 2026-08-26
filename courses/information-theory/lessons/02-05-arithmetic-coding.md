@@ -34,7 +34,7 @@ $$\ell \approx -\log_2 p(x_1\cdots x_n) = \sum_{i=1}^n \big(-\log_2 p(x_i)\big),
 
 ## Picture
 
-![The interval [0,1) subdivided by symbol probabilities, then a chosen sub-interval re-subdivided twice, zooming in until a final tiny interval whose width equals the message probability](assets/02-05-fig1.svg)
+![The unit interval from 0 to 1 subdivided by symbol probabilities, then a chosen sub-interval re-subdivided twice, zooming in until a final tiny interval whose width equals the message probability](assets/02-05-fig1.svg)
 
 ## Worked examples
 

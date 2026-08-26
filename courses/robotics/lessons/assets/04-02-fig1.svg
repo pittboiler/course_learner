@@ -1,0 +1,58 @@
+<svg viewBox="0 0 660 390" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="20" y="20" fill="#8a8a8a" font-style="italic">Left: the inner loop linearizes, the outer loop controls the linear plant.   Right: what the model buys.</text>
+  <line x1="30.0" y1="110.0" x2="52.0" y2="110.0" stroke="#8a8a8a" stroke-width="1.3"/>
+  <polygon points="52.0,110.0 45.6,112.7 45.6,107.3" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="1" stroke-width="0.5"/>
+  <text x="28.0" y="98.0" fill="#8a8a8a" font-size="10" text-anchor="end">q&#776;<tspan font-size="0.72em" dy="3">d</tspan><tspan dy="-3"> </tspan></text>
+  <circle cx="63.0" cy="110.0" r="11.0" stroke="#8a8a8a" fill="none" fill-opacity="1" stroke-width="1.4"/>
+  <text x="63.0" y="114.0" fill="#8a8a8a" font-size="13" text-anchor="middle">+</text>
+  <rect x="90.0" y="54.0" width="66.0" height="34.0" stroke="#4a90d9" fill="#4a90d9" fill-opacity="0.06" stroke-width="1.4" rx="4"/>
+  <text x="123.0" y="75.0" fill="#4a90d9" font-size="10" text-anchor="middle">&#8722;K<tspan font-size="0.72em" dy="3">p</tspan><tspan dy="-3"> e</tspan></text>
+  <rect x="90.0" y="94.0" width="66.0" height="34.0" stroke="#4a90d9" fill="#4a90d9" fill-opacity="0.06" stroke-width="1.4" rx="4"/>
+  <text x="123.0" y="115.0" fill="#4a90d9" font-size="10" text-anchor="middle">&#8722;K<tspan font-size="0.72em" dy="3">d</tspan><tspan dy="-3"> e&#775;</tspan></text>
+  <line x1="156.0" y1="71.0" x2="180.0" y2="98.0" stroke="#4a90d9" stroke-width="1.2"/>
+  <polygon points="180.0,98.0 173.7,95.0 177.8,91.4" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="0.5"/>
+  <line x1="156.0" y1="111.0" x2="180.0" y2="106.0" stroke="#4a90d9" stroke-width="1.2"/>
+  <polygon points="180.0,106.0 174.2,110.0 173.1,104.6" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="0.5"/>
+  <rect x="76.0" y="46.0" width="200.0" height="80.0" stroke="#4a90d9" fill="#4a90d9" fill-opacity="0.04" stroke-width="1" rx="5"/>
+  <text x="176.0" y="36.0" fill="#4a90d9" font-size="10" text-anchor="middle">outer loop: linear error control</text>
+  <line x1="276.0" y1="86.0" x2="306.0" y2="86.0" stroke="#8a8a8a" stroke-width="1.3"/>
+  <polygon points="306.0,86.0 299.6,88.7 299.6,83.3" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="1" stroke-width="0.5"/>
+  <text x="291.0" y="76.0" fill="#8a8a8a" font-size="10" text-anchor="middle">a</text>
+  <rect x="306.0" y="66.0" width="60.0" height="40.0" stroke="#e0645c" fill="#e0645c" fill-opacity="0.06" stroke-width="1.4" rx="4"/>
+  <text x="336.0" y="90.0" fill="#e0645c" font-size="10" text-anchor="middle">&#215; M&#770;(q)</text>
+  <line x1="366.0" y1="86.0" x2="392.0" y2="86.0" stroke="#8a8a8a" stroke-width="1.3"/>
+  <polygon points="392.0,86.0 385.6,88.7 385.6,83.3" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="1" stroke-width="0.5"/>
+  <circle cx="403.0" cy="86.0" r="11.0" stroke="#8a8a8a" fill="none" fill-opacity="1" stroke-width="1.4"/>
+  <text x="403.0" y="90.0" fill="#8a8a8a" font-size="13" text-anchor="middle">+</text>
+  <rect x="306.0" y="142.0" width="120.0" height="32.0" stroke="#e0645c" fill="#e0645c" fill-opacity="0.06" stroke-width="1.4" rx="4"/>
+  <text x="366.0" y="162.0" fill="#e0645c" font-size="10" text-anchor="middle">C&#770;q&#775; + g&#770;</text>
+  <line x1="366.0" y1="142.0" x2="403.0" y2="142.0" stroke="#e0645c" stroke-width="1.3"/>
+  <polygon points="403.0,142.0 396.6,144.7 396.6,139.3" stroke="#e0645c" fill="#e0645c" fill-opacity="1" stroke-width="0.5"/>
+  <line x1="403.0" y1="142.0" x2="403.0" y2="97.0" stroke="#e0645c" stroke-width="1.3"/>
+  <rect x="296.0" y="56.0" width="140.0" height="130.0" stroke="#e0645c" fill="#e0645c" fill-opacity="0.04" stroke-width="1" rx="5"/>
+  <text x="366.0" y="200.0" fill="#e0645c" font-size="10" text-anchor="middle">inner loop: cancellation</text>
+  <line x1="414.0" y1="86.0" x2="452.0" y2="86.0" stroke="#8a8a8a" stroke-width="1.4"/>
+  <polygon points="452.0,86.0 445.6,88.7 445.6,83.3" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="1" stroke-width="0.5"/>
+  <text x="433.0" y="76.0" fill="#8a8a8a" font-size="11" text-anchor="middle">&#964;</text>
+  <rect x="452.0" y="66.0" width="66.0" height="40.0" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="0.06" stroke-width="1.4" rx="4"/>
+  <text x="485.0" y="90.0" fill="#8a8a8a" font-size="10" text-anchor="middle">robot</text>
+  <line x1="518.0" y1="86.0" x2="548.0" y2="86.0" stroke="#8a8a8a" stroke-width="1.3"/>
+  <line x1="548.0" y1="86.0" x2="548.0" y2="242.0" stroke="#8a8a8a" stroke-width="1.3"/>
+  <line x1="548.0" y1="242.0" x2="63.0" y2="242.0" stroke="#8a8a8a" stroke-width="1.3"/>
+  <line x1="63.0" y1="242.0" x2="63.0" y2="121.0" stroke="#8a8a8a" stroke-width="1.3"/>
+  <polygon points="63.0,121.0 65.7,127.4 60.3,127.4" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="1" stroke-width="0.5"/>
+  <text x="300.0" y="258.0" fill="#8a8a8a" font-size="10" text-anchor="middle">q, q&#775; feed back to both loops</text>
+  <text x="96.0" y="296.0" fill="#e0645c" font-size="11" text-anchor="start">&#964; = M&#770;(q&#776;<tspan font-size="0.72em" dy="3">d</tspan><tspan dy="-3"> &#8722; K</tspan><tspan font-size="0.72em" dy="3">d</tspan><tspan dy="-3"> e&#775; &#8722; K</tspan><tspan font-size="0.72em" dy="3">p</tspan><tspan dy="-3"> e) + C&#770;q&#775; + g&#770;   &#8658;   e&#776; + K</tspan><tspan font-size="0.72em" dy="3">d</tspan><tspan dy="-3"> e&#775; + K</tspan><tspan font-size="0.72em" dy="3">p</tspan><tspan dy="-3"> e = 0</tspan></text>
+  <line x1="430.0" y1="320.0" x2="620.0" y2="320.0" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="430.0" y1="320.0" x2="430.0" y2="132.0" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="525.0" y="342.0" fill="#8a8a8a" font-size="10" text-anchor="middle">time</text>
+  <text x="432.0" y="124.0" fill="#8a8a8a" font-size="10" text-anchor="start">tracking error</text>
+  <path d="M 430.00 320.00 L 431.90 319.99 L 433.80 319.96 L 435.70 319.92 L 437.60 319.87 L 439.50 319.81 L 441.40 319.75 L 443.30 319.69 L 445.20 319.61 L 447.10 319.53 L 449.00 319.45 L 450.90 319.36 L 452.80 319.27 L 454.70 319.18 L 456.60 319.08 L 458.50 318.98 L 460.40 318.88 L 462.30 318.78 L 464.20 318.67 L 466.10 318.57 L 468.00 318.46 L 469.90 318.36 L 471.80 318.25 L 473.70 318.14 L 475.60 318.04 L 477.50 317.93 L 479.40 317.83 L 481.30 317.73 L 483.20 317.63 L 485.10 317.53 L 487.00 317.44 L 488.90 317.34 L 490.80 317.25 L 492.70 317.17 L 494.60 317.09 L 496.50 317.01 L 498.40 316.93 L 500.30 316.86 L 502.20 316.80 L 504.10 316.73 L 506.00 316.68 L 507.90 316.63 L 509.80 316.58 L 511.70 316.54 L 513.60 316.50 L 515.50 316.47 L 517.40 316.45 L 519.30 316.43 L 521.20 316.41 L 523.10 316.40 L 525.00 316.40 L 526.90 316.40 L 528.80 316.41 L 530.70 316.43 L 532.60 316.45 L 534.50 316.47 L 536.40 316.50 L 538.30 316.54 L 540.20 316.58 L 542.10 316.63 L 544.00 316.68 L 545.90 316.73 L 547.80 316.80 L 549.70 316.86 L 551.60 316.93 L 553.50 317.01 L 555.40 317.09 L 557.30 317.17 L 559.20 317.25 L 561.10 317.34 L 563.00 317.44 L 564.90 317.53 L 566.80 317.63 L 568.70 317.73 L 570.60 317.83 L 572.50 317.93 L 574.40 318.04 L 576.30 318.14 L 578.20 318.25 L 580.10 318.36 L 582.00 318.46 L 583.90 318.57 L 585.80 318.67 L 587.70 318.78 L 589.60 318.88 L 591.50 318.98 L 593.40 319.08 L 595.30 319.18 L 597.20 319.27 L 599.10 319.36 L 601.00 319.45 L 602.90 319.53 L 604.80 319.61 L 606.70 319.69 L 608.60 319.75 L 610.50 319.81 L 612.40 319.87 L 614.30 319.92 L 616.20 319.96 L 618.10 319.99 L 620.00 320.00" stroke="#4a90d9" fill="none" fill-opacity="1" stroke-width="2.2"/>
+  <text x="525.0" y="306.4" fill="#4a90d9" font-size="9" text-anchor="middle">perfect model</text>
+  <path d="M 430.00 320.00 L 431.90 319.79 L 433.80 319.36 L 435.70 318.77 L 437.60 318.05 L 439.50 317.22 L 441.40 316.30 L 443.30 315.28 L 445.20 314.17 L 447.10 313.00 L 449.00 311.75 L 450.90 310.45 L 452.80 309.09 L 454.70 307.68 L 456.60 306.23 L 458.50 304.74 L 460.40 303.22 L 462.30 301.67 L 464.20 300.10 L 466.10 298.52 L 468.00 296.92 L 469.90 295.33 L 471.80 293.73 L 473.70 292.14 L 475.60 290.55 L 477.50 288.99 L 479.40 287.44 L 481.30 285.91 L 483.20 284.42 L 485.10 282.95 L 487.00 281.53 L 488.90 280.15 L 490.80 278.81 L 492.70 277.52 L 494.60 276.28 L 496.50 275.10 L 498.40 273.99 L 500.30 272.93 L 502.20 271.94 L 504.10 271.02 L 506.00 270.17 L 507.90 269.39 L 509.80 268.69 L 511.70 268.07 L 513.60 267.52 L 515.50 267.06 L 517.40 266.68 L 519.30 266.38 L 521.20 266.17 L 523.10 266.04 L 525.00 266.00 L 526.90 266.04 L 528.80 266.17 L 530.70 266.38 L 532.60 266.68 L 534.50 267.06 L 536.40 267.52 L 538.30 268.07 L 540.20 268.69 L 542.10 269.39 L 544.00 270.17 L 545.90 271.02 L 547.80 271.94 L 549.70 272.93 L 551.60 273.99 L 553.50 275.10 L 555.40 276.28 L 557.30 277.52 L 559.20 278.81 L 561.10 280.15 L 563.00 281.53 L 564.90 282.95 L 566.80 284.42 L 568.70 285.91 L 570.60 287.44 L 572.50 288.99 L 574.40 290.55 L 576.30 292.14 L 578.20 293.73 L 580.10 295.33 L 582.00 296.92 L 583.90 298.52 L 585.80 300.10 L 587.70 301.67 L 589.60 303.22 L 591.50 304.74 L 593.40 306.23 L 595.30 307.68 L 597.20 309.09 L 599.10 310.45 L 601.00 311.75 L 602.90 313.00 L 604.80 314.17 L 606.70 315.28 L 608.60 316.30 L 610.50 317.22 L 612.40 318.05 L 614.30 318.77 L 616.20 319.36 L 618.10 319.79 L 620.00 320.00" stroke="#e0645c" fill="none" fill-opacity="1" stroke-width="2.2"/>
+  <text x="525.0" y="256.0" fill="#e0645c" font-size="9" text-anchor="middle">20% payload error</text>
+  <path d="M 430.00 320.00 L 431.90 319.36 L 433.80 318.07 L 435.70 316.31 L 437.60 314.16 L 439.50 311.67 L 441.40 308.89 L 443.30 305.83 L 445.20 302.52 L 447.10 298.99 L 449.00 295.26 L 450.90 291.34 L 452.80 287.26 L 454.70 283.03 L 456.60 278.68 L 458.50 274.21 L 460.40 269.65 L 462.30 265.01 L 464.20 260.30 L 466.10 255.55 L 468.00 250.77 L 469.90 245.98 L 471.80 241.19 L 473.70 236.41 L 475.60 231.66 L 477.50 226.96 L 479.40 222.31 L 481.30 217.74 L 483.20 213.25 L 485.10 208.86 L 487.00 204.59 L 488.90 200.44 L 490.80 196.42 L 492.70 192.56 L 494.60 188.85 L 496.50 185.31 L 498.40 181.96 L 500.30 178.79 L 502.20 175.81 L 504.10 173.05 L 506.00 170.50 L 507.90 168.17 L 509.80 166.07 L 511.70 164.20 L 513.60 162.57 L 515.50 161.18 L 517.40 160.04 L 519.30 159.15 L 521.20 158.51 L 523.10 158.13 L 525.00 158.00 L 526.90 158.13 L 528.80 158.51 L 530.70 159.15 L 532.60 160.04 L 534.50 161.18 L 536.40 162.57 L 538.30 164.20 L 540.20 166.07 L 542.10 168.17 L 544.00 170.50 L 545.90 173.05 L 547.80 175.81 L 549.70 178.79 L 551.60 181.96 L 553.50 185.31 L 555.40 188.85 L 557.30 192.56 L 559.20 196.42 L 561.10 200.44 L 563.00 204.59 L 564.90 208.86 L 566.80 213.25 L 568.70 217.74 L 570.60 222.31 L 572.50 226.96 L 574.40 231.66 L 576.30 236.41 L 578.20 241.19 L 580.10 245.98 L 582.00 250.77 L 583.90 255.55 L 585.80 260.30 L 587.70 265.01 L 589.60 269.65 L 591.50 274.21 L 593.40 278.68 L 595.30 283.03 L 597.20 287.26 L 599.10 291.34 L 601.00 295.26 L 602.90 298.99 L 604.80 302.52 L 606.70 305.83 L 608.60 308.89 L 610.50 311.67 L 612.40 314.16 L 614.30 316.31 L 616.20 318.07 L 618.10 319.36 L 620.00 320.00" stroke="#8a8a8a" fill="none" fill-opacity="1" stroke-width="2.2"/>
+  <text x="525.0" y="148.0" fill="#8a8a8a" font-size="9" text-anchor="middle">PD only</text>
+  <text x="430.0" y="368.0" fill="#8a8a8a" font-size="10" text-anchor="start">0.0002&#176;    2.6&#176;    21.9&#176;</text>
+  <text x="30.0" y="374.0" fill="#8a8a8a" font-size="10" text-anchor="start">Model error becomes a disturbance the feedback must reject &#8212; and gravity error costs most, being persistent.</text>
+</svg>

@@ -117,13 +117,13 @@ Prereqs met by proofs-primer / calc / linalg / real-analysis ✓.
 The shared engineering foundation. Prereqs met by calc / ode / mechanics ✓.
 **Gates the nuclear and breadth shelves below.**
 
-- [ ] `statics` — Statics (0, ~10)
-- [ ] `engineering-dynamics` — Dynamics (0, ~12)
+- [x] `statics` — Statics (0, ~10) — **lessons ✓** (prepped 2026-08-20, 15 lessons)
+- [x] `engineering-dynamics` — Dynamics (0, ~12) — **lessons ✓** (prepped 2026-08-20, 13 lessons)
 - [x] `mechanics-of-materials` — Mechanics of Materials (1, ~18) — **lessons ✓** (prepped 2026-08-14, 18) → unlocks structural-analysis
 - [x] `engineering-thermodynamics` — Engineering Thermodynamics (1, ~18) — **lessons ✓** (prepped 2026-08-14, 19)
 - [x] `heat-transfer` — Heat Transfer (1, ~18) — **lessons ✓** (prepped 2026-08-14, 19) → unblocks reactor thermal-hydraulics
-- [ ] `control-systems` — Control Systems (1, ~20)
-- [ ] `signals-systems` — Signals & Systems (1, ~20)
+- [x] `control-systems` — Control Systems (1, ~20) — **lessons ✓** (prepped 2026-08-20, 22 lessons) → unblocks `robotics`
+- [x] `signals-systems` — Signals & Systems (1, ~20) — **lessons ✓** (prepped 2026-08-20, 21 lessons) → unblocks `communications`
 
 ### Phase 5 — Nuclear Engineering flagship (Field 6, Shelf B) · 7 courses · ~144 lessons
 
@@ -131,22 +131,22 @@ The headline new field. Internal ordering matters. External prereqs: heat-transf
 (Phase 4), plasma-physics (Phase 3), and materials-science (build early in Phase 6,
 or fold a light version in). Build `intro-nuclear-engineering` **first**.
 
-- [ ] `intro-nuclear-engineering` — Intro to Nuclear Engineering & Radiation (1, ~18)
-- [ ] `reactor-physics` — Reactor Physics & Neutron Transport (2, ~24) *(needs intro + pdes ✓)*
+- [x] `intro-nuclear-engineering` — Intro to Nuclear Engineering & Radiation (1, ~18) — **lessons ✓** (prepped 2026-08-20, 18 lessons)
+- [x] `reactor-physics` — Reactor Physics & Neutron Transport (2, ~24) *(needs intro + pdes ✓)* — **lessons ✓** (prepped 2026-08-20, 25 lessons)
 - [x] `reactor-thermal-hydraulics` — Reactor Thermal-Hydraulics (2, ~22) — **lessons ✓** (prepped 2026-08-14, 22) → **completes the nuclear flagship (all 7 nuclear courses done)**
 - [x] `nuclear-materials` — Nuclear Materials (2, ~20) — **lessons ✓** (prepped 2026-08-13, 21) → **completes the nuclear shelf**
-- [ ] `radiation-detection-shielding` — Radiation Detection & Shielding (2, ~20)
-- [ ] `fusion-plasma` — Fusion & Plasma Engineering (2, ~22) *(needs plasma-physics)*
-- [ ] `nuclear-fuel-cycle` — Nuclear Fuel Cycle & Policy (2, ~18)
+- [x] `radiation-detection-shielding` — Radiation Detection & Shielding (2, ~20) — **lessons ✓** (prepped 2026-08-20, 20 lessons)
+- [x] `fusion-plasma` — Fusion & Plasma Engineering (2, ~22) *(needs plasma-physics)* — **lessons ✓** (prepped 2026-08-20, 22 lessons)
+- [x] `nuclear-fuel-cycle` — Nuclear Fuel Cycle & Policy (2, ~18) — **lessons ✓** (prepped 2026-08-20, 19 lessons)
 
 ### Phase 6 — Engineering breadth (Field 6, Shelves C & D) · 15 courses · ~350 lessons
 
 Build `materials-science` early (it back-fills Phase 5's `nuclear-materials`).
 
 - [x] `materials-science` — Materials Science & Engineering (1, ~18) — **lessons ✓** (prepped 2026-08-13, 19)
-- [ ] `circuits` — Circuit Analysis (0, ~12)
-- [ ] `electronics` — Electronics & Semiconductors (1, ~18)
-- [ ] `digital-logic` — Digital Logic Design (1, ~16)
+- [x] `circuits` — Circuit Analysis (0, ~12) — **lessons ✓** (prepped 2026-08-20, 14 lessons)
+- [x] `electronics` — Electronics & Semiconductors (1, ~18) — **lessons ✓** (prepped 2026-08-20, 18 lessons) → unblocks `semiconductor-devices`
+- [x] `digital-logic` — Digital Logic Design (1, ~16) — **lessons ✓** (prepped 2026-08-20, 17 lessons) → unblocks `computer-architecture` (CS)
 - [ ] `communications` — Communication Systems (2, ~22) *(bridges information-theory ✓)*
 - [ ] `power-systems` — Power Systems (2, ~22)
 - [ ] `semiconductor-devices` — Semiconductor Devices (2, ~20)
@@ -157,7 +157,7 @@ Build `materials-science` early (it back-fills Phase 5's `nuclear-materials`).
 - [ ] `robotics` — Robotics & Kinematics (2, ~22) *(needs control-systems + linalg ✓)*
 - [x] `transport-phenomena` — Transport Phenomena (2, ~24) — **lessons ✓** (prepped 2026-08-14, 25) → Block 3 (thermal/fluids) started
 - [x] `reaction-engineering` — Chemical Reaction Engineering (2, ~22) — **lessons ✓** (prepped 2026-08-14, 23)
-- [ ] `operations-research` — Operations Research (1, ~18)
+- [x] `operations-research` — Operations Research (1, ~18) — **lessons ✓** (prepped 2026-08-20, 16 lessons; syllabus trimmed 20→16 to defer LP/duality theory to `convex-optimization` and network algorithms to `graph-theory`)
 
 ---
 

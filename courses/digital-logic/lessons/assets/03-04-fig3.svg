@@ -1,0 +1,98 @@
+<svg viewBox="0 0 640 262" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">The two next-state maps for the 101 detector. Coral rings are the groups; the right map is one group of four.</text>
+
+  <!-- ================= map A: next Q1 ================= -->
+  <text x="100" y="46" fill="#8a8a8a" font-size="12">next-state bit Q1 (drives D1)</text>
+  <text x="212" y="66" fill="#8a8a8a" text-anchor="middle" font-size="13">Q0 x</text>
+  <text x="128" y="88" fill="#8a8a8a" text-anchor="middle" font-size="13">00</text>
+  <text x="184" y="88" fill="#8a8a8a" text-anchor="middle" font-size="13">01</text>
+  <text x="240" y="88" fill="#8a8a8a" text-anchor="middle" font-size="13">11</text>
+  <text x="296" y="88" fill="#8a8a8a" text-anchor="middle" font-size="13">10</text>
+  <text x="66" y="158" fill="#8a8a8a" text-anchor="middle" font-size="13">Q1</text>
+  <text x="86" y="130" fill="#8a8a8a" text-anchor="middle" font-size="13">0</text>
+  <text x="86" y="186" fill="#8a8a8a" text-anchor="middle" font-size="13">1</text>
+
+  <line x1="100" y1="96" x2="100" y2="208" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="156" y1="96" x2="156" y2="208" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="212" y1="96" x2="212" y2="208" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="268" y1="96" x2="268" y2="208" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="324" y1="96" x2="324" y2="208" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="100" y1="96" x2="324" y2="96" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="100" y1="152" x2="324" y2="152" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="100" y1="208" x2="324" y2="208" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <text x="106" y="111" fill="#8a8a8a" font-size="10">m0</text>
+  <text x="162" y="111" fill="#8a8a8a" font-size="10">m1</text>
+  <text x="218" y="111" fill="#8a8a8a" font-size="10">m3</text>
+  <text x="274" y="111" fill="#8a8a8a" font-size="10">m2</text>
+  <text x="128" y="136" fill="#8a8a8a" font-size="18" text-anchor="middle">0</text>
+  <text x="184" y="136" fill="#8a8a8a" font-size="18" text-anchor="middle">0</text>
+  <text x="240" y="136" fill="#8a8a8a" font-size="18" text-anchor="middle">0</text>
+  <text x="296" y="136" fill="#4a90d9" font-size="18" text-anchor="middle">1</text>
+
+  <text x="106" y="167" fill="#8a8a8a" font-size="10">m4</text>
+  <text x="162" y="167" fill="#8a8a8a" font-size="10">m5</text>
+  <text x="218" y="167" fill="#8a8a8a" font-size="10">m7</text>
+  <text x="274" y="167" fill="#8a8a8a" font-size="10">m6</text>
+  <text x="128" y="192" fill="#8a8a8a" font-size="18" text-anchor="middle">0</text>
+  <text x="184" y="192" fill="#4a90d9" font-size="18" text-anchor="middle">1</text>
+  <text x="240" y="192" fill="#8a8a8a" font-size="18" text-anchor="middle">0</text>
+  <text x="296" y="192" fill="#4a90d9" font-size="18" text-anchor="middle">1</text>
+
+  <rect x="273" y="101" width="46" height="102" rx="10" fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <rect x="161" y="157" width="46" height="46" rx="10" fill="none" stroke="#e0645c" stroke-width="2.5"/>
+
+  <text x="100" y="240" fill="#8a8a8a" font-size="15">D1 =</text>
+  <text x="146" y="240" fill="#e0645c" font-size="15">Q0</text>
+  <text x="169" y="240" fill="#e0645c" font-size="15">x</text>
+  <line x1="168" y1="227" x2="178" y2="227" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="186" y="240" fill="#8a8a8a" font-size="15">+</text>
+  <text x="202" y="240" fill="#e0645c" font-size="15">Q1</text>
+  <text x="225" y="240" fill="#e0645c" font-size="15">Q0</text>
+  <line x1="224" y1="227" x2="245" y2="227" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="249" y="240" fill="#e0645c" font-size="15">x</text>
+
+  <!-- ================= map B: next Q0 ================= -->
+  <text x="396" y="46" fill="#8a8a8a" font-size="12">next-state bit Q0 (drives D0)</text>
+  <text x="508" y="66" fill="#8a8a8a" text-anchor="middle" font-size="13">Q0 x</text>
+  <text x="424" y="88" fill="#8a8a8a" text-anchor="middle" font-size="13">00</text>
+  <text x="480" y="88" fill="#8a8a8a" text-anchor="middle" font-size="13">01</text>
+  <text x="536" y="88" fill="#8a8a8a" text-anchor="middle" font-size="13">11</text>
+  <text x="592" y="88" fill="#8a8a8a" text-anchor="middle" font-size="13">10</text>
+  <text x="362" y="158" fill="#8a8a8a" text-anchor="middle" font-size="13">Q1</text>
+  <text x="382" y="130" fill="#8a8a8a" text-anchor="middle" font-size="13">0</text>
+  <text x="382" y="186" fill="#8a8a8a" text-anchor="middle" font-size="13">1</text>
+
+  <line x1="396" y1="96" x2="396" y2="208" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="452" y1="96" x2="452" y2="208" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="508" y1="96" x2="508" y2="208" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="564" y1="96" x2="564" y2="208" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="620" y1="96" x2="620" y2="208" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="396" y1="96" x2="620" y2="96" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="396" y1="152" x2="620" y2="152" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="396" y1="208" x2="620" y2="208" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <text x="402" y="111" fill="#8a8a8a" font-size="10">m0</text>
+  <text x="458" y="111" fill="#8a8a8a" font-size="10">m1</text>
+  <text x="514" y="111" fill="#8a8a8a" font-size="10">m3</text>
+  <text x="570" y="111" fill="#8a8a8a" font-size="10">m2</text>
+  <text x="424" y="136" fill="#8a8a8a" font-size="18" text-anchor="middle">0</text>
+  <text x="480" y="136" fill="#4a90d9" font-size="18" text-anchor="middle">1</text>
+  <text x="536" y="136" fill="#4a90d9" font-size="18" text-anchor="middle">1</text>
+  <text x="592" y="136" fill="#8a8a8a" font-size="18" text-anchor="middle">0</text>
+
+  <text x="402" y="167" fill="#8a8a8a" font-size="10">m4</text>
+  <text x="458" y="167" fill="#8a8a8a" font-size="10">m5</text>
+  <text x="514" y="167" fill="#8a8a8a" font-size="10">m7</text>
+  <text x="570" y="167" fill="#8a8a8a" font-size="10">m6</text>
+  <text x="424" y="192" fill="#8a8a8a" font-size="18" text-anchor="middle">0</text>
+  <text x="480" y="192" fill="#4a90d9" font-size="18" text-anchor="middle">1</text>
+  <text x="536" y="192" fill="#4a90d9" font-size="18" text-anchor="middle">1</text>
+  <text x="592" y="192" fill="#8a8a8a" font-size="18" text-anchor="middle">0</text>
+
+  <rect x="457" y="101" width="102" height="102" rx="10" fill="none" stroke="#e0645c" stroke-width="2.5"/>
+
+  <text x="396" y="240" fill="#8a8a8a" font-size="15">D0 =</text>
+  <text x="442" y="240" fill="#e0645c" font-size="15">x</text>
+  <text x="462" y="240" fill="#8a8a8a" font-size="12" font-style="italic">(just a wire)</text>
+</svg>

@@ -1,0 +1,79 @@
+<svg viewBox="0 0 660 344" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="24" y="22" fill="#8a8a8a" font-style="italic" font-size="13">Each bin is one spoke of the twiddle wheel; bin k sits at k&#183;f_s/N, and everything past N/2 is a mirror.</text>
+
+  <text x="165" y="48" fill="#8a8a8a" font-size="13" text-anchor="middle">Twiddle wheel: powers of W = e^(&#8722;j2&#960;/8)</text>
+
+  <line x1="72" y1="180" x2="258" y2="180" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="165" y1="88" x2="165" y2="272" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <circle cx="165" cy="180" r="85" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <path d="M 227 180 A 62 62 0 0 1 208.8 223.8" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+  <polygon points="208.8,223.8 218.0,220.2 212.4,214.6" fill="#e0645c"/>
+  <text x="252" y="214" fill="#e0645c" font-size="12">&#8722;45&#176; per step</text>
+
+  <circle cx="250" cy="180" r="4.5" fill="#4a90d9"/>
+  <circle cx="225" cy="240" r="4.5" fill="#4a90d9"/>
+  <circle cx="165" cy="265" r="4.5" fill="#4a90d9"/>
+  <circle cx="105" cy="240" r="4.5" fill="#4a90d9"/>
+  <circle cx="80" cy="180" r="4.5" fill="#4a90d9"/>
+  <circle cx="105" cy="120" r="4.5" fill="#4a90d9"/>
+  <circle cx="165" cy="95" r="4.5" fill="#4a90d9"/>
+  <circle cx="225" cy="120" r="4.5" fill="#4a90d9"/>
+
+  <text x="264" y="185" fill="#4a90d9" font-size="12">k=0 : 1</text>
+  <text x="238" y="260" fill="#4a90d9" font-size="12">k=1</text>
+  <text x="165" y="291" fill="#4a90d9" font-size="12" text-anchor="middle">k=2 : &#8722;j</text>
+  <text x="92" y="260" fill="#4a90d9" font-size="12" text-anchor="end">k=3</text>
+  <text x="62" y="185" fill="#4a90d9" font-size="12" text-anchor="end">k=4 : &#8722;1</text>
+  <text x="92" y="110" fill="#4a90d9" font-size="12" text-anchor="end">k=5</text>
+  <text x="165" y="82" fill="#4a90d9" font-size="12" text-anchor="middle">k=6 : j</text>
+  <text x="238" y="110" fill="#4a90d9" font-size="12">k=7</text>
+
+  <text x="165" y="320" fill="#8a8a8a" font-size="12" text-anchor="middle">8 steps and you are back to 1</text>
+
+  <text x="490" y="48" fill="#8a8a8a" font-size="13" text-anchor="middle">Bin index &#8594; physical frequency</text>
+  <text x="490" y="80" fill="#8a8a8a" font-size="13" text-anchor="middle">f_k = k &#183; f_s / N</text>
+  <text x="490" y="106" fill="#e0645c" font-size="12" text-anchor="middle">real input: X[N&#8722;k] = X[k]*</text>
+
+  <line x1="500" y1="126" x2="500" y2="264" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="506" y="140" fill="#e0645c" font-size="12">N/2</text>
+
+  <path d="M 395 238 Q 500 170 605 238" fill="none" stroke="#e0645c" stroke-width="1.2"/>
+  <path d="M 430 238 Q 500 190 570 238" fill="none" stroke="#e0645c" stroke-width="1.2"/>
+  <path d="M 465 238 Q 500 210 535 238" fill="none" stroke="#e0645c" stroke-width="1.2"/>
+
+  <line x1="345" y1="250" x2="640" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="640,250 630,245 630,255" fill="#8a8a8a"/>
+
+  <line x1="360" y1="244" x2="360" y2="256" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="395" y1="244" x2="395" y2="256" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="430" y1="244" x2="430" y2="256" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="465" y1="244" x2="465" y2="256" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="500" y1="244" x2="500" y2="256" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="535" y1="244" x2="535" y2="256" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="570" y1="244" x2="570" y2="256" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="605" y1="244" x2="605" y2="256" stroke="#4a90d9" stroke-width="2"/>
+
+  <text x="360" y="272" fill="#4a90d9" font-size="12" text-anchor="middle">0</text>
+  <text x="395" y="272" fill="#4a90d9" font-size="12" text-anchor="middle">1</text>
+  <text x="430" y="272" fill="#4a90d9" font-size="12" text-anchor="middle">2</text>
+  <text x="465" y="272" fill="#4a90d9" font-size="12" text-anchor="middle">3</text>
+  <text x="500" y="272" fill="#4a90d9" font-size="12" text-anchor="middle">4</text>
+  <text x="535" y="272" fill="#4a90d9" font-size="12" text-anchor="middle">5</text>
+  <text x="570" y="272" fill="#4a90d9" font-size="12" text-anchor="middle">6</text>
+  <text x="605" y="272" fill="#4a90d9" font-size="12" text-anchor="middle">7</text>
+
+  <text x="360" y="290" fill="#8a8a8a" font-size="11" text-anchor="middle">DC</text>
+  <text x="500" y="290" fill="#8a8a8a" font-size="11" text-anchor="middle">f_s/2</text>
+  <text x="605" y="290" fill="#8a8a8a" font-size="11" text-anchor="middle">&#8722;f_s/8</text>
+
+  <line x1="356" y1="306" x2="496" y2="306" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="356" y1="302" x2="356" y2="310" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="496" y1="302" x2="496" y2="310" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="426" y="324" fill="#8a8a8a" font-size="12" text-anchor="middle">positive frequencies</text>
+
+  <line x1="522" y1="306" x2="610" y2="306" stroke="#e0645c" stroke-width="1.2"/>
+  <line x1="522" y1="302" x2="522" y2="310" stroke="#e0645c" stroke-width="1.2"/>
+  <line x1="610" y1="302" x2="610" y2="310" stroke="#e0645c" stroke-width="1.2"/>
+  <text x="566" y="324" fill="#e0645c" font-size="12" text-anchor="middle">negative frequencies</text>
+</svg>

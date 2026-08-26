@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 280" width="680" height="280" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="tip" markerUnits="userSpaceOnUse" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 z" fill="#8a8a8a"/>
+    </marker>
+  </defs>
+
+  <text x="340" y="22" text-anchor="middle" font-size="13" font-style="italic" fill="#8a8a8a">Node&#8211;arc incidence: +1 at the tail, &#8722;1 at the head.</text>
+
+  <line x1="110" y1="110" x2="110" y2="173" stroke="#8a8a8a" stroke-width="1.8" marker-end="url(#tip)"/>
+  <line x1="128.2" y1="186.6" x2="206.8" y2="150.4" stroke="#8a8a8a" stroke-width="1.8" marker-end="url(#tip)"/>
+  <line x1="128.2" y1="98.2" x2="206.8" y2="133.8" stroke="#8a8a8a" stroke-width="1.8" marker-end="url(#tip)"/>
+
+  <circle cx="110" cy="90" r="20" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="110" cy="195" r="20" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="225" cy="142" r="20" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="110" y="95" text-anchor="middle" font-size="14" fill="#4a90d9">1</text>
+  <text x="110" y="200" text-anchor="middle" font-size="14" fill="#4a90d9">2</text>
+  <text x="225" y="147" text-anchor="middle" font-size="14" fill="#4a90d9">3</text>
+
+  <text x="98" y="148" text-anchor="end" font-size="13" fill="#8a8a8a">a</text>
+  <text x="172" y="182" font-size="13" fill="#8a8a8a">b</text>
+  <text x="170" y="104" font-size="13" fill="#8a8a8a">c</text>
+
+  <text x="412" y="80" text-anchor="middle" font-size="13" fill="#8a8a8a">a</text>
+  <text x="452" y="80" text-anchor="middle" font-size="13" fill="#8a8a8a">b</text>
+  <text x="492" y="80" text-anchor="middle" font-size="13" fill="#8a8a8a">c</text>
+  <text x="382" y="80" text-anchor="end" font-size="12" fill="#8a8a8a">arc</text>
+
+  <text x="382" y="105" text-anchor="end" font-size="12" fill="#8a8a8a">node 1</text>
+  <text x="382" y="145" text-anchor="end" font-size="12" fill="#8a8a8a">node 2</text>
+  <text x="382" y="185" text-anchor="end" font-size="12" fill="#8a8a8a">node 3</text>
+
+  <rect x="396" y="90" width="76" height="68" fill="none" stroke="#e0645c" stroke-width="2"/>
+
+  <text x="412" y="105" text-anchor="middle" font-size="14" fill="#e0645c">1</text>
+  <text x="452" y="105" text-anchor="middle" font-size="14" fill="#e0645c">0</text>
+  <text x="492" y="105" text-anchor="middle" font-size="14" fill="#8a8a8a">1</text>
+  <text x="412" y="145" text-anchor="middle" font-size="14" fill="#e0645c">&#8722;1</text>
+  <text x="452" y="145" text-anchor="middle" font-size="14" fill="#e0645c">1</text>
+  <text x="492" y="145" text-anchor="middle" font-size="14" fill="#8a8a8a">0</text>
+  <text x="412" y="185" text-anchor="middle" font-size="14" fill="#8a8a8a">0</text>
+  <text x="452" y="185" text-anchor="middle" font-size="14" fill="#8a8a8a">&#8722;1</text>
+  <text x="492" y="185" text-anchor="middle" font-size="14" fill="#8a8a8a">&#8722;1</text>
+
+  <polyline points="400,88 390,88 390,194 400,194" fill="none" stroke="#8a8a8a" stroke-width="1.6"/>
+  <polyline points="506,88 516,88 516,194 506,194" fill="none" stroke="#8a8a8a" stroke-width="1.6"/>
+
+  <text x="452" y="228" text-anchor="middle" font-size="12" fill="#8a8a8a">coral 2 &#215; 2 block: det = (1)(1) &#8722; (0)(&#8722;1) = +1</text>
+  <text x="452" y="248" text-anchor="middle" font-size="12" fill="#8a8a8a">full 3 &#215; 3: det = 0, since every column sums to zero</text>
+  <text x="452" y="268" text-anchor="middle" font-size="12" fill="#8a8a8a">every square block lands in the set 0, +1, &#8722;1: the matrix is TU</text>
+</svg>

@@ -39,7 +39,7 @@ Distributing $\cap$ over $\cap$ and $\cup$ is the whole proof: the axioms downst
 
 ## Picture
 
-![The interval A=[0,1] inside R; the ambient open set U=(-1,1/2) traced onto A gives A∩U=[0,1/2), which is open in A though not in R](assets/02-02-fig1.svg)
+![The closed unit interval A inside R; the ambient open set U=(-1,1/2) traced onto A gives an intersection running from 0 up to but excluding 1/2, which is open in A though not in R](assets/02-02-fig1.svg)
 
 The blue open interval $U=(-1,\tfrac12)$ is open in $\mathbb{R}$. Cut it down to the grey subspace $A=[0,1]$ and you catch the red set $[0,\tfrac12)$: the right end $\tfrac12$ stays open (hollow), but the left end $0$ is now a *closed* endpoint of $A$ itself, so it comes along for free. That "the boundary of $A$ joins in" is the entire trap.
 

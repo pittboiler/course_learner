@@ -1,0 +1,109 @@
+<svg viewBox="0 0 700 545" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Swap a resistor for a capacitor and the op-amp stops doing algebra and starts doing calculus.</text>
+
+  <!-- ============ (a) practical integrator schematic ============ -->
+  <text x="20" y="50" fill="#8a8a8a">(a) Practical integrator</text>
+
+  <!-- feedback resistor Rf (the fix), coral -->
+  <line x1="162" y1="114" x2="162" y2="72" stroke="#e0645c" stroke-width="2"/>
+  <path d="M 162 72 L 200 72 L 204 62 L 212 82 L 220 62 L 228 82 L 236 62 L 244 82 L 252 62 L 256 72 L 296 72"
+        fill="none" stroke="#e0645c" stroke-width="2"/>
+  <line x1="296" y1="72" x2="296" y2="114" stroke="#e0645c" stroke-width="2"/>
+  <text x="212" y="52" fill="#e0645c">R<tspan font-size="10" dy="3">f</tspan></text>
+
+  <!-- feedback capacitor C, blue -->
+  <line x1="162" y1="170" x2="162" y2="114" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="162" y1="114" x2="218" y2="114" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="218" y1="104" x2="218" y2="124" stroke="#4a90d9" stroke-width="3"/>
+  <line x1="226" y1="104" x2="226" y2="124" stroke="#4a90d9" stroke-width="3"/>
+  <line x1="226" y1="114" x2="296" y2="114" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="296" y1="114" x2="296" y2="176" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="236" y="138" fill="#4a90d9">C</text>
+  <polygon points="274,114 266,110 266,118" fill="#8a8a8a"/>
+  <text x="262" y="104" fill="#8a8a8a" font-style="italic">i</text>
+
+  <!-- input branch -->
+  <text x="20" y="175" fill="#8a8a8a">v<tspan font-size="10" dy="3">in</tspan></text>
+  <line x1="46" y1="170" x2="76" y2="170" stroke="#8a8a8a" stroke-width="2"/>
+  <path d="M 76 170 L 82 170 L 86 160 L 94 180 L 102 160 L 110 180 L 118 160 L 122 170 L 126 170"
+        fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="126" y1="170" x2="200" y2="170" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="94" y="152" fill="#8a8a8a">R</text>
+  <polygon points="152,170 144,166 144,174" fill="#8a8a8a"/>
+  <text x="140" y="160" fill="#8a8a8a" font-style="italic">i</text>
+  <circle cx="162" cy="170" r="3.5" fill="#8a8a8a"/>
+
+  <!-- op-amp -->
+  <polygon points="200,150 200,230 256,190" fill="#4a90d9" opacity="0.12"/>
+  <polygon points="200,150 200,230 256,190" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="206" y="176" fill="#4a90d9">&#8722;</text>
+  <text x="206" y="216" fill="#4a90d9">+</text>
+
+  <!-- non-inverting input to ground -->
+  <line x1="200" y1="210" x2="168" y2="210" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="168" y1="210" x2="168" y2="226" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="158" y1="226" x2="178" y2="226" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="162" y1="231" x2="174" y2="231" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="166" y1="236" x2="170" y2="236" stroke="#8a8a8a" stroke-width="2"/>
+
+  <!-- output -->
+  <line x1="256" y1="190" x2="330" y2="190" stroke="#8a8a8a" stroke-width="2"/>
+  <circle cx="296" cy="190" r="3.5" fill="#8a8a8a"/>
+  <text x="334" y="195" fill="#8a8a8a">v<tspan font-size="10" dy="3">out</tspan></text>
+
+  <!-- virtual ground annotation -->
+  <line x1="120" y1="200" x2="157" y2="176" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="20" y="212" fill="#8a8a8a" font-size="12">virtual ground, 0 V</text>
+  <text x="20" y="248" fill="#e0645c" font-size="12">R<tspan font-size="9" dy="2">f</tspan><tspan font-size="12" dy="-2"> caps the DC gain at &#8722;R</tspan><tspan font-size="9" dy="2">f</tspan><tspan font-size="12" dy="-2">/R so the output cannot drift to a rail.</tspan></text>
+
+  <!-- ============ (b) integrator waveforms ============ -->
+  <text x="392" y="50" fill="#8a8a8a">(b) Integrator: square in &#8594; triangle out</text>
+
+  <line x1="392" y1="100" x2="690" y2="100" stroke="#8a8a8a" stroke-width="1"/>
+  <path d="M 400 78 L 440 78 L 440 122 L 480 122 L 480 78 L 520 78 L 520 122 L 560 122 L 560 78 L 600 78 L 600 122 L 640 122 L 640 78 L 680 78"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="360" y="105" fill="#4a90d9">v<tspan font-size="10" dy="3">in</tspan></text>
+
+  <line x1="536" y1="132" x2="536" y2="156" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="536,160 531,150 541,150" fill="#8a8a8a"/>
+
+  <line x1="392" y1="190" x2="690" y2="190" stroke="#8a8a8a" stroke-width="1"/>
+  <path d="M 400 170 L 440 210 L 480 170 L 520 210 L 560 170 L 600 210 L 640 170 L 680 210"
+        fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="356" y="195" fill="#e0645c">v<tspan font-size="10" dy="3">out</tspan></text>
+  <text x="392" y="238" fill="#8a8a8a" font-size="12">slope = &#8722;v<tspan font-size="9" dy="2">in</tspan><tspan font-size="12" dy="-2">/RC, so a flat input gives a straight ramp</tspan></text>
+
+  <!-- ============ (c) differentiator: triangle in ============ -->
+  <text x="20" y="300" fill="#8a8a8a">(c) Differentiator: triangle in &#8594; square out</text>
+
+  <line x1="52" y1="360" x2="352" y2="360" stroke="#8a8a8a" stroke-width="1"/>
+  <path d="M 60 380 L 100 340 L 140 380 L 180 340 L 220 380 L 260 340 L 300 380 L 340 340"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="20" y="365" fill="#4a90d9">v<tspan font-size="10" dy="3">in</tspan></text>
+
+  <line x1="200" y1="392" x2="200" y2="416" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="200,420 195,410 205,410" fill="#8a8a8a"/>
+
+  <line x1="52" y1="450" x2="352" y2="450" stroke="#8a8a8a" stroke-width="1"/>
+  <path d="M 60 472 L 100 472 L 100 428 L 140 428 L 140 472 L 180 472 L 180 428 L 220 428 L 220 472 L 260 472 L 260 428 L 300 428 L 300 472 L 340 472"
+        fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="16" y="455" fill="#e0645c">v<tspan font-size="10" dy="3">out</tspan></text>
+  <text x="52" y="512" fill="#8a8a8a" font-size="12">constant slope in &#8594; constant level out</text>
+
+  <!-- ============ (d) differentiator: square in ============ -->
+  <text x="392" y="300" fill="#8a8a8a">(d) Differentiator: square in &#8594; spikes</text>
+
+  <line x1="392" y1="360" x2="690" y2="360" stroke="#8a8a8a" stroke-width="1"/>
+  <path d="M 400 340 L 440 340 L 440 380 L 480 380 L 480 340 L 520 340 L 520 380 L 560 380 L 560 340 L 600 340 L 600 380 L 640 380 L 640 340 L 680 340"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="360" y="365" fill="#4a90d9">v<tspan font-size="10" dy="3">in</tspan></text>
+
+  <line x1="536" y1="392" x2="536" y2="416" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="536,420 531,410 541,410" fill="#8a8a8a"/>
+
+  <line x1="392" y1="450" x2="690" y2="450" stroke="#8a8a8a" stroke-width="1"/>
+  <path d="M 400 450 L 440 450 L 442 412 L 452 450 L 480 450 L 482 488 L 492 450 L 520 450 L 522 412 L 532 450 L 560 450 L 562 488 L 572 450 L 600 450 L 602 412 L 612 450 L 640 450 L 642 488 L 652 450 L 680 450"
+        fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="356" y="455" fill="#e0645c">v<tspan font-size="10" dy="3">out</tspan></text>
+  <text x="392" y="512" fill="#8a8a8a" font-size="12">a step has infinite slope &#8212; which is also why noise wins</text>
+</svg>

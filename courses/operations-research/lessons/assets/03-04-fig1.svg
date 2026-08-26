@@ -1,0 +1,131 @@
+<svg viewBox="0 0 760 420" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="24" y="22" fill="#8a8a8a" font-style="italic">An action buys a reward plus a lottery over next states; value iteration then climbs to the fixed point.</text>
+
+  <!-- ================= PANEL 1: MDP transition tree ================= -->
+  <text x="24" y="52" fill="#8a8a8a" font-size="13">Machine MDP: action, then a distribution over next states</text>
+
+  <!-- state G -->
+  <circle cx="55" cy="125" r="24" fill="#4a90d9" opacity="0.18"/>
+  <circle cx="55" cy="125" r="24" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="55" y="131" fill="#4a90d9" text-anchor="middle" font-size="16">G</text>
+  <text x="55" y="168" fill="#8a8a8a" text-anchor="middle" font-size="11">good</text>
+
+  <!-- G, action run (optimal, coral) -->
+  <line x1="78" y1="117" x2="163" y2="90" stroke="#e0645c" stroke-width="2"/>
+  <rect x="164" y="82" width="12" height="12" fill="#e0645c"/>
+  <text x="170" y="70" fill="#e0645c" text-anchor="middle" font-size="12">run &#183; r = 10</text>
+  <line x1="176" y1="86" x2="313" y2="58" stroke="#e0645c" stroke-width="1.6"/>
+  <polygon points="313,58 303,55 305,64" fill="#e0645c"/>
+  <text x="248" y="64" fill="#e0645c" text-anchor="middle" font-size="12">0.7</text>
+  <line x1="176" y1="90" x2="313" y2="112" stroke="#e0645c" stroke-width="1.6"/>
+  <polygon points="313,112 303,106 304,115" fill="#e0645c"/>
+  <text x="248" y="115" fill="#e0645c" text-anchor="middle" font-size="12">0.3</text>
+
+  <!-- G, action maintain (grey) -->
+  <line x1="78" y1="134" x2="163" y2="158" stroke="#8a8a8a" stroke-width="2"/>
+  <rect x="164" y="152" width="12" height="12" fill="#8a8a8a"/>
+  <text x="170" y="182" fill="#8a8a8a" text-anchor="middle" font-size="12">maintain &#183; r = 6</text>
+  <line x1="176" y1="158" x2="313" y2="168" stroke="#8a8a8a" stroke-width="1.6"/>
+  <polygon points="313,168 303,163 303,172" fill="#8a8a8a"/>
+  <text x="248" y="155" fill="#8a8a8a" text-anchor="middle" font-size="12">1.0</text>
+
+  <!-- G outcome circles -->
+  <circle cx="330" cy="58" r="15" fill="none" stroke="#4a90d9" stroke-width="1.6"/>
+  <text x="330" y="63" fill="#4a90d9" text-anchor="middle" font-size="13">G</text>
+  <circle cx="330" cy="112" r="15" fill="none" stroke="#4a90d9" stroke-width="1.6"/>
+  <text x="330" y="117" fill="#4a90d9" text-anchor="middle" font-size="13">B</text>
+  <circle cx="330" cy="168" r="15" fill="none" stroke="#4a90d9" stroke-width="1.6"/>
+  <text x="330" y="173" fill="#4a90d9" text-anchor="middle" font-size="13">G</text>
+
+  <!-- state B -->
+  <circle cx="55" cy="300" r="24" fill="#4a90d9" opacity="0.18"/>
+  <circle cx="55" cy="300" r="24" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="55" y="306" fill="#4a90d9" text-anchor="middle" font-size="16">B</text>
+  <text x="55" y="343" fill="#8a8a8a" text-anchor="middle" font-size="11">worn</text>
+
+  <!-- B, action run (grey) -->
+  <line x1="78" y1="291" x2="163" y2="254" stroke="#8a8a8a" stroke-width="2"/>
+  <rect x="164" y="242" width="12" height="12" fill="#8a8a8a"/>
+  <text x="170" y="232" fill="#8a8a8a" text-anchor="middle" font-size="12">run &#183; r = 4</text>
+  <line x1="176" y1="248" x2="313" y2="248" stroke="#8a8a8a" stroke-width="1.6"/>
+  <polygon points="313,248 303,243 303,253" fill="#8a8a8a"/>
+  <text x="248" y="241" fill="#8a8a8a" text-anchor="middle" font-size="12">1.0</text>
+
+  <!-- B, action overhaul (optimal, coral) -->
+  <line x1="78" y1="309" x2="163" y2="330" stroke="#e0645c" stroke-width="2"/>
+  <rect x="164" y="322" width="12" height="12" fill="#e0645c"/>
+  <text x="170" y="352" fill="#e0645c" text-anchor="middle" font-size="12">overhaul &#183; r = 0</text>
+  <line x1="176" y1="325" x2="313" y2="305" stroke="#e0645c" stroke-width="1.6"/>
+  <polygon points="313,305 303,302 305,311" fill="#e0645c"/>
+  <text x="248" y="308" fill="#e0645c" text-anchor="middle" font-size="12">0.8</text>
+  <line x1="176" y1="332" x2="313" y2="362" stroke="#e0645c" stroke-width="1.6"/>
+  <polygon points="313,362 303,356 303,365" fill="#e0645c"/>
+  <text x="248" y="364" fill="#e0645c" text-anchor="middle" font-size="12">0.2</text>
+
+  <!-- B outcome circles -->
+  <circle cx="330" cy="248" r="15" fill="none" stroke="#4a90d9" stroke-width="1.6"/>
+  <text x="330" y="253" fill="#4a90d9" text-anchor="middle" font-size="13">B</text>
+  <circle cx="330" cy="305" r="15" fill="none" stroke="#4a90d9" stroke-width="1.6"/>
+  <text x="330" y="310" fill="#4a90d9" text-anchor="middle" font-size="13">G</text>
+  <circle cx="330" cy="362" r="15" fill="none" stroke="#4a90d9" stroke-width="1.6"/>
+  <text x="330" y="367" fill="#4a90d9" text-anchor="middle" font-size="13">B</text>
+
+  <text x="24" y="398" fill="#8a8a8a" font-size="11">square = action &#183; label = p(s&#8242;|s,a) &#183; circle = next state &#183; coral = optimal</text>
+
+  <!-- divider -->
+  <line x1="400" y1="45" x2="400" y2="390" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 5"/>
+
+  <!-- ================= PANEL 2: value iteration ================= -->
+  <text x="424" y="52" fill="#8a8a8a" font-size="13">Value iteration, &#947; = 0.9, started from V&#8320; = 0</text>
+
+  <!-- axes -->
+  <line x1="460" y1="380" x2="740" y2="380" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="460" y1="380" x2="460" y2="68" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="600" y="404" fill="#8a8a8a" text-anchor="middle" font-size="12">iteration k</text>
+
+  <!-- y ticks -->
+  <line x1="454" y1="380" x2="460" y2="380" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="454" y1="302.5" x2="460" y2="302.5" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="454" y1="225" x2="460" y2="225" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="454" y1="147.5" x2="460" y2="147.5" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="454" y1="70" x2="460" y2="70" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="450" y="384" fill="#8a8a8a" text-anchor="end" font-size="11">0</text>
+  <text x="450" y="307" fill="#8a8a8a" text-anchor="end" font-size="11">20</text>
+  <text x="450" y="229" fill="#8a8a8a" text-anchor="end" font-size="11">40</text>
+  <text x="450" y="152" fill="#8a8a8a" text-anchor="end" font-size="11">60</text>
+  <text x="450" y="74" fill="#8a8a8a" text-anchor="end" font-size="11">80</text>
+
+  <!-- x ticks -->
+  <line x1="460" y1="380" x2="460" y2="386" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="550" y1="380" x2="550" y2="386" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="640" y1="380" x2="640" y2="386" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="730" y1="380" x2="730" y2="386" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="460" y="398" fill="#8a8a8a" text-anchor="middle" font-size="11">0</text>
+  <text x="550" y="398" fill="#8a8a8a" text-anchor="middle" font-size="11">4</text>
+  <text x="640" y="398" fill="#8a8a8a" text-anchor="middle" font-size="11">8</text>
+  <text x="730" y="398" fill="#8a8a8a" text-anchor="middle" font-size="11">12</text>
+
+  <!-- fixed-point asymptotes -->
+  <line x1="460" y1="88.5" x2="740" y2="88.5" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5 4"/>
+  <text x="738" y="84" fill="#8a8a8a" text-anchor="end" font-size="11">V(G) = 75.23</text>
+  <line x1="460" y1="124" x2="740" y2="124" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5 4"/>
+  <text x="738" y="138" fill="#8a8a8a" text-anchor="end" font-size="11">V(B) = 66.06</text>
+
+  <!-- V_k(G) -->
+  <polyline points="460,380 482.5,341.3 505,312.7 527.5,290.5 550,270.3 572.5,252.1 595,235.8 617.5,221.0 640,207.8 662.5,195.8 685,185.1 707.5,175.5 730,166.8"
+            fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <circle cx="482.5" cy="341.3" r="3" fill="#e0645c"/>
+  <circle cx="505" cy="312.7" r="3" fill="#e0645c"/>
+  <circle cx="527.5" cy="290.5" r="3" fill="#e0645c"/>
+  <text x="537" y="284" fill="#e0645c" font-size="11">V&#8323;(G) = 23.09</text>
+
+  <!-- V_k(B) -->
+  <polyline points="460,380 482.5,364.5 505,349.3 527.5,326.0 550,305.9 572.5,287.7 595,271.3 617.5,256.6 640,243.3 662.5,231.4 685,220.7 707.5,211.0 730,202.3"
+            fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <circle cx="482.5" cy="364.5" r="3" fill="#4a90d9"/>
+  <circle cx="505" cy="349.3" r="3" fill="#4a90d9"/>
+  <circle cx="527.5" cy="326.0" r="3" fill="#4a90d9"/>
+  <text x="537" y="334" fill="#4a90d9" font-size="11">V&#8323;(B) = 13.94</text>
+
+  <text x="468" y="232" fill="#8a8a8a" font-size="11">gap to the dashed line shrinks by &#215;0.9 each sweep</text>
+</svg>

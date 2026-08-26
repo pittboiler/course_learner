@@ -1,0 +1,74 @@
+<svg viewBox="0 0 720 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="60" y="22" fill="#8a8a8a" font-style="italic" font-size="14">One number runs the whole show: the pole at s = &#8722;1/&#964; sets 63.2 percent at &#964;, the origin tangent, and the &#177;2 percent band at 4&#964;.</text>
+
+  <!-- ================= step response ================= -->
+
+  <!-- 2 percent settling band -->
+  <rect x="70" y="96" width="415" height="8" fill="#e0645c" opacity="0.16"/>
+  <text x="392" y="92" fill="#e0645c" font-size="12">&#177;2 percent band</text>
+
+  <!-- final value asymptote -->
+  <line x1="70" y1="100" x2="485" y2="100" stroke="#8a8a8a" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <text x="490" y="104" fill="#8a8a8a">K</text>
+
+  <!-- axes -->
+  <line x1="70" y1="322" x2="70" y2="66" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70,66 65,76 75,76" fill="#8a8a8a"/>
+  <text x="46" y="76" fill="#8a8a8a">y(t)</text>
+  <line x1="70" y1="300" x2="500" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="500,300 490,295 490,305" fill="#8a8a8a"/>
+  <text x="504" y="305" fill="#8a8a8a">t</text>
+  <text x="58" y="317" fill="#8a8a8a">0</text>
+
+  <!-- tangent at the origin, reaching K exactly at t = tau -->
+  <line x1="70" y1="300" x2="142.7" y2="100" stroke="#e0645c" stroke-width="1.6" stroke-dasharray="6 4"/>
+  <text x="86" y="170" fill="#e0645c" font-size="12">initial slope K/&#964;</text>
+
+  <!-- 63.2 percent guides -->
+  <line x1="70" y1="173.6" x2="142.7" y2="173.6" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="142.7" y1="300" x2="142.7" y2="100" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <circle cx="142.7" cy="173.6" r="4" fill="#e0645c"/>
+  <text x="150" y="196" fill="#e0645c" font-size="12">63.2 percent</text>
+  <text x="136" y="318" fill="#e0645c">&#964;</text>
+
+  <!-- settling time marker at 4 tau -->
+  <line x1="360.9" y1="300" x2="360.9" y2="103.7" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="330" y="318" fill="#8a8a8a">t</text>
+  <text x="338" y="322" fill="#8a8a8a" font-size="10">s</text>
+  <text x="345" y="318" fill="#8a8a8a"> &#8776; 4&#964;</text>
+
+  <!-- tau tick marks -->
+  <line x1="215.5" y1="296" x2="215.5" y2="304" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="207" y="318" fill="#8a8a8a" font-size="12">2&#964;</text>
+  <line x1="288.2" y1="296" x2="288.2" y2="304" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="280" y="318" fill="#8a8a8a" font-size="12">3&#964;</text>
+  <line x1="433.6" y1="296" x2="433.6" y2="304" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="425" y="318" fill="#8a8a8a" font-size="12">5&#964;</text>
+
+  <!-- the step response curve -->
+  <path d="M 70 300 L 88.2 255.8 L 106.4 221.3 L 124.5 194.5 L 142.7 173.6 L 160.9 157.3 L 179.1 144.6 L 197.3 134.8 L 215.5 127.1 L 233.6 121.1 L 251.8 116.4 L 270.0 112.8 L 288.2 110.0 L 306.4 107.8 L 324.5 106.0 L 342.7 104.7 L 360.9 103.7 L 379.1 102.9 L 397.3 102.2 L 415.5 101.7 L 433.6 101.4 L 451.8 101.1 L 470.0 100.8"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+
+  <!-- ================= s-plane inset ================= -->
+  <rect x="530" y="118" width="176" height="176" fill="none" stroke="#8a8a8a" stroke-width="1" opacity="0.45"/>
+  <text x="540" y="136" fill="#8a8a8a" font-size="12" font-style="italic">s-plane</text>
+
+  <!-- real axis -->
+  <line x1="542" y1="222" x2="698" y2="222" stroke="#8a8a8a" stroke-width="1.3"/>
+  <polygon points="698,222 689,218 689,226" fill="#8a8a8a"/>
+  <text x="688" y="240" fill="#8a8a8a" font-size="12">&#963;</text>
+  <!-- imaginary axis -->
+  <line x1="668" y1="286" x2="668" y2="150" stroke="#8a8a8a" stroke-width="1.3"/>
+  <polygon points="668,150 664,159 672,159" fill="#8a8a8a"/>
+  <text x="674" y="160" fill="#8a8a8a" font-size="12">j&#969;</text>
+
+  <!-- the single pole -->
+  <line x1="592" y1="214" x2="608" y2="230" stroke="#4a90d9" stroke-width="3"/>
+  <line x1="608" y1="214" x2="592" y2="230" stroke="#4a90d9" stroke-width="3"/>
+  <text x="570" y="256" fill="#4a90d9" font-size="12">s = &#8722;1/&#964;</text>
+
+  <!-- faster arrow -->
+  <line x1="596" y1="186" x2="550" y2="186" stroke="#e0645c" stroke-width="1.6"/>
+  <polygon points="550,186 559,182 559,190" fill="#e0645c"/>
+  <text x="544" y="176" fill="#e0645c" font-size="12">farther left = faster</text>
+</svg>

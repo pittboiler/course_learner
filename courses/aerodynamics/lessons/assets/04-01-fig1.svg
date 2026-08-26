@@ -1,0 +1,42 @@
+<svg viewBox="0 0 660 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <circle cx="161.0" cy="80.0" r="15.0" stroke="#4a90d9" fill="none" fill-opacity="1" stroke-width="1.1"/>
+  <circle cx="152.0" cy="80.0" r="30.0" stroke="#4a90d9" fill="none" fill-opacity="1" stroke-width="1.1"/>
+  <circle cx="143.0" cy="80.0" r="45.0" stroke="#4a90d9" fill="none" fill-opacity="1" stroke-width="1.1"/>
+  <circle cx="170.0" cy="80.0" r="3.5" stroke="#e0645c" fill="#e0645c" fill-opacity="1" stroke-width="1"/>
+  <line x1="178.0" y1="80.0" x2="222.0" y2="80.0" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="222.0,80.0 216.5,82.3 216.5,77.7" stroke="#e0645c" fill="#e0645c" fill-opacity="1" stroke-width="0.5"/>
+  <text x="24.0" y="152.0" fill="#8a8a8a" font-size="11" text-anchor="start">M = 0.6: the flow ahead is warned</text>
+  <circle cx="140.0" cy="232.0" r="15.0" stroke="#4a90d9" fill="none" fill-opacity="1" stroke-width="1.1"/>
+  <circle cx="110.0" cy="232.0" r="30.0" stroke="#4a90d9" fill="none" fill-opacity="1" stroke-width="1.1"/>
+  <circle cx="80.0" cy="232.0" r="45.0" stroke="#4a90d9" fill="none" fill-opacity="1" stroke-width="1.1"/>
+  <circle cx="170.0" cy="232.0" r="3.5" stroke="#e0645c" fill="#e0645c" fill-opacity="1" stroke-width="1"/>
+  <line x1="178.0" y1="232.0" x2="222.0" y2="232.0" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="222.0,232.0 216.5,234.3 216.5,229.7" stroke="#e0645c" fill="#e0645c" fill-opacity="1" stroke-width="0.5"/>
+  <line x1="170.0" y1="232.0" x2="66.0" y2="172.0" stroke="#e0645c" stroke-width="1.8"/>
+  <line x1="170.0" y1="232.0" x2="66.0" y2="292.0" stroke="#e0645c" stroke-width="1.8"/>
+  <path d="M 134 232 A 36 36 0 0 0 138.8 250.0" stroke="#8a8a8a" fill="none" fill-opacity="1" stroke-width="1.1"/>
+  <text x="126.0" y="252.0" fill="#8a8a8a" font-size="11" text-anchor="start">&#956;</text>
+  <text x="66.0" y="290.0" fill="#e0645c" font-size="10" text-anchor="start">&#956; = arcsin(1/M)</text>
+  <text x="24.0" y="316.0" fill="#8a8a8a" font-size="11" text-anchor="start">M = 2: no warning until the shock</text>
+  <line x1="390.0" y1="250.0" x2="620.0" y2="250.0" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="390.0" y1="250.0" x2="390.0" y2="60.0" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="618.0" y="284.0" fill="#8a8a8a" font-size="11" text-anchor="end">M<tspan font-size="0.72em" dy="3">&#8734;</tspan><tspan dy="-3"> </tspan></text>
+  <text x="382.0" y="62.0" fill="#8a8a8a" font-size="11" text-anchor="end">&#916;&#961;/&#961;</text>
+  <path d="M 390.00 250.00 L 392.30 249.98 L 394.60 249.90 L 396.90 249.79 L 399.20 249.62 L 401.50 249.41 L 403.80 249.14 L 406.10 248.84 L 408.40 248.48 L 410.70 248.07 L 413.00 247.62 L 415.30 247.12 L 417.60 246.57 L 419.90 245.98 L 422.20 245.33 L 424.50 244.64 L 426.80 243.90 L 429.10 243.11 L 431.40 242.27 L 433.70 241.38 L 436.00 240.44 L 438.30 239.46 L 440.60 238.42 L 442.90 237.34 L 445.20 236.20 L 447.50 235.02 L 449.80 233.78 L 452.10 232.50 L 454.40 231.16 L 456.70 229.77 L 459.00 228.34 L 461.30 226.85 L 463.60 225.31 L 465.90 223.71 L 468.20 222.07 L 470.50 220.37 L 472.80 218.62 L 475.10 216.82 L 477.40 214.96 L 479.70 213.05 L 482.00 211.08 L 484.30 209.06 L 486.60 206.99 L 488.90 204.86 L 491.20 202.68 L 493.50 200.44 L 495.80 198.14 L 498.10 195.79 L 500.40 193.37 L 502.70 190.91 L 505.00 188.38 L 507.30 185.80 L 509.60 183.15 L 511.90 180.45 L 514.20 177.69 L 516.50 174.86 L 518.80 171.98 L 521.10 169.04 L 523.40 166.03 L 525.70 162.96 L 528.00 159.83 L 530.30 156.63 L 532.60 153.37 L 534.90 150.05 L 537.20 146.66 L 539.50 143.21 L 541.80 139.69 L 544.10 136.10 L 546.40 132.45 L 548.70 128.72 L 551.00 124.93 L 553.30 121.07 L 555.60 117.14 L 557.90 113.14 L 560.20 109.07 L 562.50 104.93 L 564.80 100.71 L 567.10 96.42 L 569.40 92.05 L 571.70 87.62 L 574.00 83.10" stroke="#4a90d9" fill="none" fill-opacity="1" stroke-width="2.2"/>
+  <path d="M 390.00 250.00 L 392.30 249.98 L 394.60 249.91 L 396.90 249.79 L 399.20 249.62 L 401.50 249.41 L 403.80 249.15 L 406.10 248.84 L 408.40 248.48 L 410.70 248.08 L 413.00 247.62 L 415.30 247.13 L 417.60 246.58 L 419.90 245.99 L 422.20 245.34 L 424.50 244.66 L 426.80 243.92 L 429.10 243.14 L 431.40 242.31 L 433.70 241.43 L 436.00 240.50 L 438.30 239.53 L 440.60 238.50 L 442.90 237.44 L 445.20 236.32 L 447.50 235.16 L 449.80 233.94 L 452.10 232.69 L 454.40 231.38 L 456.70 230.03 L 459.00 228.62 L 461.30 227.18 L 463.60 225.68 L 465.90 224.14 L 468.20 222.54 L 470.50 220.91 L 472.80 219.22 L 475.10 217.49 L 477.40 215.71 L 479.70 213.88 L 482.00 212.00 L 484.30 210.08 L 486.60 208.11 L 488.90 206.09 L 491.20 204.02 L 493.50 201.91 L 495.80 199.75 L 498.10 197.54 L 500.40 195.28 L 502.70 192.98 L 505.00 190.62 L 507.30 188.23 L 509.60 185.78 L 511.90 183.29 L 514.20 180.75 L 516.50 178.16 L 518.80 175.52 L 521.10 172.84 L 523.40 170.11 L 525.70 167.33 L 528.00 164.50 L 530.30 161.63 L 532.60 158.70 L 534.90 155.74 L 537.20 152.72 L 539.50 149.66 L 541.80 146.54 L 544.10 143.39 L 546.40 140.18 L 548.70 136.93 L 551.00 133.62 L 553.30 130.28 L 555.60 126.88 L 557.90 123.44 L 560.20 119.95 L 562.50 116.41 L 564.80 112.82 L 567.10 109.19 L 569.40 105.50 L 571.70 101.78 L 574.00 98.00" stroke="#e0645c" fill="none" fill-opacity="1" stroke-width="1.6" stroke-dasharray="5 4"/>
+  <text x="459.0" y="113.2" fill="#4a90d9" font-size="10" text-anchor="start">exact</text>
+  <text x="516.5" y="181.6" fill="#e0645c" font-size="10" text-anchor="start">M&#178;/2</text>
+  <rect x="453.0" y="60.0" width="12.0" height="190.0" stroke="none" fill="#8a8a8a" fill-opacity="0.14" stroke-width="0" rx="0"/>
+  <text x="469.0" y="76.0" fill="#8a8a8a" font-size="10" text-anchor="start">M = 0.3: the 5% line</text>
+  <line x1="386.0" y1="202.5" x2="390.0" y2="202.5" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="382.0" y="206.5" fill="#8a8a8a" font-size="9" text-anchor="end">10%</text>
+  <line x1="386.0" y1="155.0" x2="390.0" y2="155.0" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="382.0" y="159.0" fill="#8a8a8a" font-size="9" text-anchor="end">20%</text>
+  <line x1="386.0" y1="107.5" x2="390.0" y2="107.5" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="382.0" y="111.5" fill="#8a8a8a" font-size="9" text-anchor="end">30%</text>
+  <line x1="505.0" y1="250.0" x2="505.0" y2="254.0" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="505.0" y="268.0" fill="#8a8a8a" font-size="9" text-anchor="middle">0.5</text>
+  <line x1="620.0" y1="250.0" x2="620.0" y2="254.0" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="620.0" y="268.0" fill="#8a8a8a" font-size="9" text-anchor="middle">1.0</text>
+  <text x="386.0" y="294.0" fill="#8a8a8a" font-size="10" text-anchor="start">T<tspan font-size="0.72em" dy="3">0</tspan><tspan dy="-3">/T = 1 + 0.2M&#178;: at M = 3 the skin runs near 290&#176;C</tspan></text>
+</svg>

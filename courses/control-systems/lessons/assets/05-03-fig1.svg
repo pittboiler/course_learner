@@ -1,0 +1,90 @@
+<svg viewBox="0 0 700 412" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="24" y="20" fill="#8a8a8a" font-style="italic">Two decoupled modes. Top: the input cannot reach mode 2. Bottom: the output cannot see mode 2.</text>
+
+  <!-- ============ PANEL 1: CONTROLLABILITY ============ -->
+  <text x="24" y="50" fill="#8a8a8a" font-size="13">CONTROLLABILITY &#8212; does u reach every mode?</text>
+
+  <line x1="30" y1="115" x2="93" y2="115" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="95,115 85,110 85,120" fill="#4a90d9"/>
+  <text x="52" y="106" fill="#8a8a8a">u</text>
+  <circle cx="100" cy="115" r="4" fill="#8a8a8a"/>
+  <line x1="100" y1="80" x2="100" y2="150" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <!-- live branch to mode 1 -->
+  <line x1="100" y1="80" x2="176" y2="80" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="178,80 168,75 168,85" fill="#4a90d9"/>
+  <text x="128" y="71" fill="#4a90d9" font-size="13">b<tspan font-size="10" dy="4">1</tspan><tspan dy="-4"> &#8800; 0</tspan></text>
+
+  <!-- dead branch to mode 2 -->
+  <line x1="100" y1="150" x2="176" y2="150" stroke="#8a8a8a" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="130" y1="141" x2="146" y2="159" stroke="#e0645c" stroke-width="2.5"/>
+  <line x1="146" y1="141" x2="130" y2="159" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="118" y="178" fill="#e0645c" font-size="13">b<tspan font-size="10" dy="4">2</tspan><tspan dy="-4"> = 0</tspan></text>
+
+  <rect x="180" y="62" width="110" height="36" fill="#4a90d9" opacity="0.12"/>
+  <rect x="180" y="62" width="110" height="36" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="235" y="85" fill="#4a90d9" text-anchor="middle" font-size="14">mode 1</text>
+
+  <rect x="180" y="132" width="110" height="36" fill="#8a8a8a" opacity="0.08"/>
+  <rect x="180" y="132" width="110" height="36" fill="none" stroke="#8a8a8a" stroke-width="2" stroke-dasharray="5,4"/>
+  <text x="235" y="155" fill="#8a8a8a" text-anchor="middle" font-size="14">mode 2</text>
+
+  <line x1="290" y1="80" x2="410" y2="80" stroke="#4a90d9" stroke-width="2"/>
+  <text x="336" y="71" fill="#4a90d9" font-size="13">c<tspan font-size="10" dy="4">1</tspan></text>
+  <line x1="290" y1="150" x2="410" y2="150" stroke="#4a90d9" stroke-width="2"/>
+  <text x="336" y="141" fill="#4a90d9" font-size="13">c<tspan font-size="10" dy="4">2</tspan></text>
+
+  <line x1="410" y1="80" x2="410" y2="150" stroke="#8a8a8a" stroke-width="1.5"/>
+  <circle cx="410" cy="115" r="4" fill="#8a8a8a"/>
+  <line x1="410" y1="115" x2="466" y2="115" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="468,115 458,110 458,120" fill="#4a90d9"/>
+  <text x="446" y="106" fill="#8a8a8a">y</text>
+
+  <text x="486" y="100" fill="#8a8a8a" font-size="12">rank [ B  AB ] = 1 &lt; 2</text>
+  <text x="486" y="120" fill="#e0645c" font-size="12">mode 2 is unsteerable:</text>
+  <text x="486" y="137" fill="#e0645c" font-size="12">no input can move it.</text>
+
+  <!-- ============ PANEL 2: OBSERVABILITY ============ -->
+  <text x="24" y="220" fill="#8a8a8a" font-size="13">OBSERVABILITY &#8212; does every mode reach y?</text>
+
+  <line x1="30" y1="285" x2="93" y2="285" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="95,285 85,280 85,290" fill="#4a90d9"/>
+  <text x="52" y="276" fill="#8a8a8a">u</text>
+  <circle cx="100" cy="285" r="4" fill="#8a8a8a"/>
+  <line x1="100" y1="250" x2="100" y2="320" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <line x1="100" y1="250" x2="176" y2="250" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="178,250 168,245 168,255" fill="#4a90d9"/>
+  <text x="128" y="241" fill="#4a90d9" font-size="13">b<tspan font-size="10" dy="4">1</tspan></text>
+  <line x1="100" y1="320" x2="176" y2="320" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="178,320 168,315 168,325" fill="#4a90d9"/>
+  <text x="128" y="311" fill="#4a90d9" font-size="13">b<tspan font-size="10" dy="4">2</tspan></text>
+
+  <rect x="180" y="232" width="110" height="36" fill="#4a90d9" opacity="0.12"/>
+  <rect x="180" y="232" width="110" height="36" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="235" y="255" fill="#4a90d9" text-anchor="middle" font-size="14">mode 1</text>
+
+  <rect x="180" y="302" width="110" height="36" fill="#8a8a8a" opacity="0.08"/>
+  <rect x="180" y="302" width="110" height="36" fill="none" stroke="#8a8a8a" stroke-width="2" stroke-dasharray="5,4"/>
+  <text x="235" y="325" fill="#8a8a8a" text-anchor="middle" font-size="14">mode 2</text>
+
+  <line x1="290" y1="250" x2="410" y2="250" stroke="#4a90d9" stroke-width="2"/>
+  <text x="336" y="241" fill="#4a90d9" font-size="13">c<tspan font-size="10" dy="4">1</tspan><tspan dy="-4"> &#8800; 0</tspan></text>
+
+  <line x1="290" y1="320" x2="410" y2="320" stroke="#8a8a8a" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="332" y1="311" x2="348" y2="329" stroke="#e0645c" stroke-width="2.5"/>
+  <line x1="348" y1="311" x2="332" y2="329" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="316" y="348" fill="#e0645c" font-size="13">c<tspan font-size="10" dy="4">2</tspan><tspan dy="-4"> = 0</tspan></text>
+
+  <line x1="410" y1="250" x2="410" y2="320" stroke="#8a8a8a" stroke-width="1.5"/>
+  <circle cx="410" cy="285" r="4" fill="#8a8a8a"/>
+  <line x1="410" y1="285" x2="466" y2="285" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="468,285 458,280 458,290" fill="#4a90d9"/>
+  <text x="446" y="276" fill="#8a8a8a">y</text>
+
+  <text x="486" y="270" fill="#8a8a8a" font-size="12">rank [ C ; CA ] = 1 &lt; 2</text>
+  <text x="486" y="290" fill="#e0645c" font-size="12">mode 2 is unseen: it can</text>
+  <text x="486" y="307" fill="#e0645c" font-size="12">ring without moving y.</text>
+
+  <text x="24" y="392" fill="#8a8a8a" font-style="italic" font-size="13">Either broken link makes the mode vanish from the transfer function &#8212; the pole cancels, and the state space still has it.</text>
+</svg>

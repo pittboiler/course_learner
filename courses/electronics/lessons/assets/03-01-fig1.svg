@@ -1,0 +1,88 @@
+<svg viewBox="0 0 720 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="20" y="20" fill="#8a8a8a" font-style="italic" font-size="13">No current into the inputs; feedback holds the coral node equal to the other input.</text>
+
+  <!-- ================= LEFT: inverting ================= -->
+  <text x="52" y="46" fill="#8a8a8a" font-weight="bold">Inverting amplifier</text>
+
+  <!-- feedback path: node up, across through Rf, down to output -->
+  <line x1="170" y1="125" x2="170" y2="68" stroke="#e0645c" stroke-width="2"/>
+  <line x1="170" y1="68" x2="205" y2="68" stroke="#e0645c" stroke-width="2"/>
+  <line x1="257" y1="68" x2="300" y2="68" stroke="#e0645c" stroke-width="2"/>
+  <line x1="300" y1="68" x2="300" y2="150" stroke="#e0645c" stroke-width="2"/>
+  <rect x="205" y="60" width="52" height="16" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <text x="222" y="51" fill="#e0645c">R<tspan font-size="10" dy="3">f</tspan></text>
+  <polygon points="288,68 278,63 278,73" fill="#e0645c"/>
+  <text x="250" y="90" fill="#e0645c">same i</text>
+
+  <!-- input branch through R1 -->
+  <text x="24" y="129" fill="#8a8a8a">v<tspan font-size="10" dy="3">in</tspan></text>
+  <line x1="50" y1="125" x2="75" y2="125" stroke="#8a8a8a" stroke-width="2"/>
+  <rect x="75" y="117" width="52" height="16" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="90" y="109" fill="#8a8a8a">R<tspan font-size="10" dy="3">1</tspan></text>
+  <line x1="127" y1="125" x2="210" y2="125" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="155,125 145,120 145,130" fill="#e0645c"/>
+  <text x="141" y="116" fill="#e0645c">i</text>
+
+  <!-- op-amp triangle -->
+  <polygon points="210,105 210,195 275,150" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="218" y="132" fill="#4a90d9">&#8722;</text>
+  <text x="218" y="186" fill="#4a90d9">+</text>
+
+  <!-- non-inverting input to ground -->
+  <line x1="195" y1="175" x2="210" y2="175" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="195" y1="175" x2="195" y2="212" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="181" y1="212" x2="209" y2="212" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="186" y1="219" x2="204" y2="219" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="191" y1="226" x2="199" y2="226" stroke="#8a8a8a" stroke-width="2"/>
+
+  <!-- output -->
+  <line x1="275" y1="150" x2="345" y2="150" stroke="#8a8a8a" stroke-width="2"/>
+  <circle cx="300" cy="150" r="3.5" fill="#8a8a8a"/>
+  <text x="313" y="143" fill="#8a8a8a">v<tspan font-size="10" dy="3">out</tspan></text>
+
+  <!-- summing node marked -->
+  <circle cx="170" cy="125" r="5" fill="#e0645c"/>
+  <line x1="170" y1="132" x2="170" y2="248" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="52" y="266" fill="#e0645c">virtual ground: v<tspan font-size="10" dy="3">&#8722;</tspan><tspan dy="-3"> = 0 V</tspan></text>
+  <text x="88" y="294" fill="#4a90d9">A<tspan font-size="10" dy="3">v</tspan><tspan dy="-3"> = &#8722;R</tspan><tspan font-size="10" dy="3">f</tspan><tspan dy="-3"> / R</tspan><tspan font-size="10" dy="3">1</tspan></text>
+
+  <!-- ================= RIGHT: non-inverting ================= -->
+  <text x="470" y="46" fill="#8a8a8a" font-weight="bold">Non-inverting amplifier</text>
+
+  <!-- input straight to + terminal -->
+  <text x="394" y="129" fill="#8a8a8a">v<tspan font-size="10" dy="3">in</tspan></text>
+  <line x1="420" y1="125" x2="560" y2="125" stroke="#8a8a8a" stroke-width="2"/>
+
+  <!-- op-amp triangle -->
+  <polygon points="560,105 560,195 625,150" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="568" y="132" fill="#4a90d9">+</text>
+  <text x="568" y="186" fill="#4a90d9">&#8722;</text>
+
+  <!-- output -->
+  <line x1="625" y1="150" x2="700" y2="150" stroke="#8a8a8a" stroke-width="2"/>
+  <circle cx="672" cy="150" r="3.5" fill="#8a8a8a"/>
+  <text x="648" y="140" fill="#8a8a8a">v<tspan font-size="10" dy="3">out</tspan></text>
+
+  <!-- feedback: output down, left through Rf, up to the minus node -->
+  <line x1="672" y1="150" x2="672" y2="232" stroke="#e0645c" stroke-width="2"/>
+  <line x1="642" y1="232" x2="672" y2="232" stroke="#e0645c" stroke-width="2"/>
+  <rect x="590" y="224" width="52" height="16" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <text x="606" y="218" fill="#e0645c">R<tspan font-size="10" dy="3">f</tspan></text>
+  <line x1="500" y1="232" x2="590" y2="232" stroke="#e0645c" stroke-width="2"/>
+  <line x1="500" y1="175" x2="500" y2="232" stroke="#e0645c" stroke-width="2"/>
+  <line x1="500" y1="175" x2="560" y2="175" stroke="#e0645c" stroke-width="2"/>
+  <circle cx="500" cy="175" r="5" fill="#e0645c"/>
+
+  <!-- R1 from the minus node to ground -->
+  <line x1="455" y1="175" x2="500" y2="175" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="455" y1="175" x2="455" y2="188" stroke="#8a8a8a" stroke-width="2"/>
+  <rect x="447" y="188" width="16" height="52" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="415" y="220" fill="#8a8a8a">R<tspan font-size="10" dy="3">1</tspan></text>
+  <line x1="455" y1="240" x2="455" y2="256" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="441" y1="256" x2="469" y2="256" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="446" y1="263" x2="464" y2="263" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="451" y1="270" x2="459" y2="270" stroke="#8a8a8a" stroke-width="2"/>
+
+  <text x="466" y="164" fill="#e0645c">v<tspan font-size="10" dy="3">&#8722;</tspan><tspan dy="-3"> = v</tspan><tspan font-size="10" dy="3">+</tspan><tspan dy="-3"> = v</tspan><tspan font-size="10" dy="3">in</tspan></text>
+  <text x="500" y="294" fill="#4a90d9">A<tspan font-size="10" dy="3">v</tspan><tspan dy="-3"> = 1 + R</tspan><tspan font-size="10" dy="3">f</tspan><tspan dy="-3"> / R</tspan><tspan font-size="10" dy="3">1</tspan></text>
+</svg>

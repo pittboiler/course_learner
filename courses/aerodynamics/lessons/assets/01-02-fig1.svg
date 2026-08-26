@@ -1,0 +1,90 @@
+<svg viewBox="0 0 660 344" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="20.0" y="18.0" fill="#8a8a8a" font-size="12" text-anchor="start">The elementary-flow kit</text>
+  <rect x="24.0" y="32.0" width="120.0" height="90.0" stroke="#8a8a8a" fill="none" fill-opacity="1" stroke-width="1.1" rx="0"/>
+  <text x="84.0" y="138.0" fill="#8a8a8a" font-size="11" text-anchor="middle">uniform stream</text>
+  <text x="84.0" y="153.0" fill="#8a8a8a" font-size="10" text-anchor="middle">&#966; = V<tspan font-size="0.72em" dy="3">&#8734;</tspan><tspan dy="-3"> x</tspan></text>
+  <line x1="34.0" y1="46.0" x2="134.0" y2="46.0" stroke="#4a90d9" stroke-width="1.2"/>
+  <polygon points="134.0,46.0 129.4,47.9 129.4,44.1" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="0.5"/>
+  <line x1="34.0" y1="62.0" x2="134.0" y2="62.0" stroke="#4a90d9" stroke-width="1.2"/>
+  <polygon points="134.0,62.0 129.4,63.9 129.4,60.1" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="0.5"/>
+  <line x1="34.0" y1="78.0" x2="134.0" y2="78.0" stroke="#4a90d9" stroke-width="1.2"/>
+  <polygon points="134.0,78.0 129.4,79.9 129.4,76.1" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="0.5"/>
+  <line x1="34.0" y1="94.0" x2="134.0" y2="94.0" stroke="#4a90d9" stroke-width="1.2"/>
+  <polygon points="134.0,94.0 129.4,95.9 129.4,92.1" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="0.5"/>
+  <line x1="34.0" y1="110.0" x2="134.0" y2="110.0" stroke="#4a90d9" stroke-width="1.2"/>
+  <polygon points="134.0,110.0 129.4,111.9 129.4,108.1" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="0.5"/>
+  <rect x="180.0" y="32.0" width="120.0" height="90.0" stroke="#8a8a8a" fill="none" fill-opacity="1" stroke-width="1.1" rx="0"/>
+  <text x="240.0" y="138.0" fill="#8a8a8a" font-size="11" text-anchor="middle">source</text>
+  <text x="240.0" y="153.0" fill="#8a8a8a" font-size="10" text-anchor="middle">&#966; = (&#923;/2&#960;) ln r</text>
+  <line x1="248.0" y1="77.0" x2="280.0" y2="77.0" stroke="#4a90d9" stroke-width="1.1"/>
+  <polygon points="280.0,77.0 276.3,78.6 276.3,75.4" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="0.5"/>
+  <line x1="246.9" y1="81.0" x2="274.6" y2="94.0" stroke="#4a90d9" stroke-width="1.1"/>
+  <polygon points="274.6,94.0 270.6,93.8 272.0,91.0" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="0.5"/>
+  <line x1="244.0" y1="83.9" x2="260.0" y2="106.4" stroke="#4a90d9" stroke-width="1.1"/>
+  <polygon points="260.0,106.4 256.6,104.3 259.1,102.5" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="0.5"/>
+  <line x1="240.0" y1="85.0" x2="240.0" y2="111.0" stroke="#4a90d9" stroke-width="1.1"/>
+  <polygon points="240.0,111.0 238.4,107.3 241.6,107.3" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="0.5"/>
+  <line x1="236.0" y1="83.9" x2="220.0" y2="106.4" stroke="#4a90d9" stroke-width="1.1"/>
+  <polygon points="220.0,106.4 220.9,102.5 223.4,104.3" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="0.5"/>
+  <line x1="233.1" y1="81.0" x2="205.4" y2="94.0" stroke="#4a90d9" stroke-width="1.1"/>
+  <polygon points="205.4,94.0 208.0,91.0 209.4,93.8" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="0.5"/>
+  <line x1="232.0" y1="77.0" x2="200.0" y2="77.0" stroke="#4a90d9" stroke-width="1.1"/>
+  <polygon points="200.0,77.0 203.7,75.4 203.7,78.6" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="0.5"/>
+  <line x1="233.1" y1="73.0" x2="205.4" y2="60.0" stroke="#4a90d9" stroke-width="1.1"/>
+  <polygon points="205.4,60.0 209.4,60.2 208.0,63.0" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="0.5"/>
+  <line x1="236.0" y1="70.1" x2="220.0" y2="47.6" stroke="#4a90d9" stroke-width="1.1"/>
+  <polygon points="220.0,47.6 223.4,49.7 220.9,51.5" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="0.5"/>
+  <line x1="240.0" y1="69.0" x2="240.0" y2="43.0" stroke="#4a90d9" stroke-width="1.1"/>
+  <polygon points="240.0,43.0 241.6,46.7 238.4,46.7" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="0.5"/>
+  <line x1="244.0" y1="70.1" x2="260.0" y2="47.6" stroke="#4a90d9" stroke-width="1.1"/>
+  <polygon points="260.0,47.6 259.1,51.5 256.6,49.7" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="0.5"/>
+  <line x1="246.9" y1="73.0" x2="274.6" y2="60.0" stroke="#4a90d9" stroke-width="1.1"/>
+  <polygon points="274.6,60.0 272.0,63.0 270.6,60.2" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="0.5"/>
+  <circle cx="240.0" cy="77.0" r="2.5" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="1" stroke-width="1"/>
+  <rect x="336.0" y="32.0" width="120.0" height="90.0" stroke="#8a8a8a" fill="none" fill-opacity="1" stroke-width="1.1" rx="0"/>
+  <text x="396.0" y="138.0" fill="#8a8a8a" font-size="11" text-anchor="middle">doublet</text>
+  <text x="396.0" y="153.0" fill="#8a8a8a" font-size="10" text-anchor="middle">&#966; = &#8722;&#954; cos&#952;/r</text>
+  <path d="M 396.0 77.0 C 412.8 65.0 412.8 89.0 396.0 77.0" stroke="#4a90d9" fill="none" fill-opacity="1" stroke-width="1.2"/>
+  <path d="M 396.0 77.0 C 379.2 65.0 379.2 89.0 396.0 77.0" stroke="#4a90d9" fill="none" fill-opacity="1" stroke-width="1.2"/>
+  <path d="M 396.0 77.0 C 426.8 55.0 426.8 99.0 396.0 77.0" stroke="#4a90d9" fill="none" fill-opacity="1" stroke-width="1.2"/>
+  <path d="M 396.0 77.0 C 365.2 55.0 365.2 99.0 396.0 77.0" stroke="#4a90d9" fill="none" fill-opacity="1" stroke-width="1.2"/>
+  <path d="M 396.0 77.0 C 440.8 45.0 440.8 109.0 396.0 77.0" stroke="#4a90d9" fill="none" fill-opacity="1" stroke-width="1.2"/>
+  <path d="M 396.0 77.0 C 351.2 45.0 351.2 109.0 396.0 77.0" stroke="#4a90d9" fill="none" fill-opacity="1" stroke-width="1.2"/>
+  <circle cx="396.0" cy="77.0" r="2.5" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="1" stroke-width="1"/>
+  <rect x="492.0" y="32.0" width="120.0" height="90.0" stroke="#8a8a8a" fill="none" fill-opacity="1" stroke-width="1.1" rx="0"/>
+  <text x="552.0" y="138.0" fill="#8a8a8a" font-size="11" text-anchor="middle">vortex</text>
+  <text x="552.0" y="153.0" fill="#8a8a8a" font-size="10" text-anchor="middle">&#966; = &#8722;(&#915;/2&#960;)&#952;</text>
+  <circle cx="552.0" cy="77.0" r="12.0" stroke="#4a90d9" fill="none" fill-opacity="1" stroke-width="1.2"/>
+  <circle cx="552.0" cy="77.0" r="22.0" stroke="#4a90d9" fill="none" fill-opacity="1" stroke-width="1.2"/>
+  <circle cx="552.0" cy="77.0" r="32.0" stroke="#4a90d9" fill="none" fill-opacity="1" stroke-width="1.2"/>
+  <line x1="574.0" y1="71.0" x2="574.0" y2="83.0" stroke="#4a90d9" stroke-width="1.4"/>
+  <polygon points="574.0,83.0 572.1,78.4 575.9,78.4" stroke="#4a90d9" fill="#4a90d9" fill-opacity="1" stroke-width="0.5"/>
+  <circle cx="552.0" cy="77.0" r="2.5" stroke="#8a8a8a" fill="#8a8a8a" fill-opacity="1" stroke-width="1"/>
+  <text x="20.0" y="190.0" fill="#8a8a8a" font-size="12" text-anchor="start">Superposition builds bodies</text>
+  <rect x="30.0" y="200.0" width="170.0" height="92.0" stroke="#8a8a8a" fill="none" fill-opacity="1" stroke-width="1.1" rx="0"/>
+  <text x="115.0" y="308.0" fill="#8a8a8a" font-size="11" text-anchor="middle">stream + source = half-body</text>
+  <path d="M 36.00 212.91 L 40.65 212.62 L 45.29 212.30 L 49.94 211.97 L 54.59 211.62 L 59.24 211.25 L 63.88 210.87 L 68.53 210.47 L 73.18 210.05 L 77.82 209.63 L 82.47 209.20 L 87.12 208.77 L 91.76 208.33 L 96.41 207.90 L 101.06 207.47 L 105.71 207.05 L 110.35 206.63 L 115.00 206.23 L 119.65 205.84 L 124.29 205.47 L 128.94 205.11 L 133.59 204.78 L 138.24 204.46 L 142.88 204.16 L 147.53 203.88 L 152.18 203.62 L 156.82 203.38 L 161.47 203.15 L 166.12 202.95 L 170.76 202.76 L 175.41 202.59 L 180.06 202.43 L 184.71 202.29 L 189.35 202.16 L 194.00 202.04" stroke="#4a90d9" fill="none" fill-opacity="1" stroke-width="1.1"/>
+  <path d="M 36.00 228.35 L 40.65 228.20 L 45.29 228.03 L 49.94 227.85 L 54.59 227.66 L 59.24 227.47 L 63.88 227.26 L 68.53 227.05 L 73.18 226.83 L 77.82 226.60 L 82.47 226.38 L 87.12 226.14 L 91.76 225.91 L 96.41 225.68 L 101.06 225.45 L 105.71 225.22 L 110.35 225.00 L 115.00 224.79 L 119.65 224.58 L 124.29 224.38 L 128.94 224.19 L 133.59 224.01 L 138.24 223.84 L 142.88 223.68 L 147.53 223.53 L 152.18 223.40 L 156.82 223.27 L 161.47 223.15 L 166.12 223.04 L 170.76 222.94 L 175.41 222.85 L 180.06 222.76 L 184.71 222.69 L 189.35 222.62 L 194.00 222.55" stroke="#4a90d9" fill="none" fill-opacity="1" stroke-width="1.1"/>
+  <path d="M 36.00 246.00 L 40.65 246.00 L 45.29 246.00 L 49.94 246.00 L 54.59 246.00 L 59.24 246.00 L 63.88 246.00 L 68.53 246.00 L 73.18 246.00 L 77.82 246.00 L 82.47 246.00 L 87.12 246.00 L 91.76 246.00 L 96.41 246.00 L 101.06 246.00 L 105.71 246.00 L 110.35 246.00 L 115.00 246.00 L 119.65 246.00 L 124.29 246.00 L 128.94 246.00 L 133.59 246.00 L 138.24 246.00 L 142.88 246.00 L 147.53 246.00 L 152.18 246.00 L 156.82 246.00 L 161.47 246.00 L 166.12 246.00 L 170.76 246.00 L 175.41 246.00 L 180.06 246.00 L 184.71 246.00 L 189.35 246.00 L 194.00 246.00" stroke="#4a90d9" fill="none" fill-opacity="1" stroke-width="1.1"/>
+  <path d="M 36.00 263.65 L 40.65 263.80 L 45.29 263.97 L 49.94 264.15 L 54.59 264.34 L 59.24 264.53 L 63.88 264.74 L 68.53 264.95 L 73.18 265.17 L 77.82 265.40 L 82.47 265.62 L 87.12 265.86 L 91.76 266.09 L 96.41 266.32 L 101.06 266.55 L 105.71 266.78 L 110.35 267.00 L 115.00 267.21 L 119.65 267.42 L 124.29 267.62 L 128.94 267.81 L 133.59 267.99 L 138.24 268.16 L 142.88 268.32 L 147.53 268.47 L 152.18 268.60 L 156.82 268.73 L 161.47 268.85 L 166.12 268.96 L 170.76 269.06 L 175.41 269.15 L 180.06 269.24 L 184.71 269.31 L 189.35 269.38 L 194.00 269.45" stroke="#4a90d9" fill="none" fill-opacity="1" stroke-width="1.1"/>
+  <path d="M 36.00 279.09 L 40.65 279.38 L 45.29 279.70 L 49.94 280.03 L 54.59 280.38 L 59.24 280.75 L 63.88 281.13 L 68.53 281.53 L 73.18 281.95 L 77.82 282.37 L 82.47 282.80 L 87.12 283.23 L 91.76 283.67 L 96.41 284.10 L 101.06 284.53 L 105.71 284.95 L 110.35 285.37 L 115.00 285.77 L 119.65 286.16 L 124.29 286.53 L 128.94 286.89 L 133.59 287.22 L 138.24 287.54 L 142.88 287.84 L 147.53 288.12 L 152.18 288.38 L 156.82 288.62 L 161.47 288.85 L 166.12 289.05 L 170.76 289.24 L 175.41 289.41 L 180.06 289.57 L 184.71 289.71 L 189.35 289.84 L 194.00 289.96" stroke="#4a90d9" fill="none" fill-opacity="1" stroke-width="1.1"/>
+  <path d="M 76.0 246.0 C 100.0 220.0 192.0 212.0 194.0 210.0" stroke="#e0645c" fill="none" fill-opacity="1" stroke-width="1.8"/>
+  <path d="M 76.0 246.0 C 100.0 272.0 192.0 280.0 194.0 282.0" stroke="#e0645c" fill="none" fill-opacity="1" stroke-width="1.8"/>
+  <circle cx="76.0" cy="246.0" r="3.0" stroke="#e0645c" fill="#e0645c" fill-opacity="1" stroke-width="1"/>
+  <text x="60.0" y="238.0" fill="#e0645c" font-size="10" text-anchor="start">stag</text>
+  <rect x="250.0" y="200.0" width="170.0" height="92.0" stroke="#8a8a8a" fill="none" fill-opacity="1" stroke-width="1.1" rx="0"/>
+  <text x="335.0" y="308.0" fill="#8a8a8a" font-size="11" text-anchor="middle">+ sink = Rankine oval</text>
+  <path d="M 283.0 246.0 C 283.0 216.0 387.0 216.0 387.0 246.0 C 387.0 276.0 283.0 276.0 283.0 246.0 Z" stroke="#e0645c" fill="#e0645c" fill-opacity="0.1" stroke-width="1.8"/>
+  <circle cx="283.0" cy="246.0" r="3.0" stroke="#e0645c" fill="#e0645c" fill-opacity="1" stroke-width="1"/>
+  <circle cx="387.0" cy="246.0" r="3.0" stroke="#e0645c" fill="#e0645c" fill-opacity="1" stroke-width="1"/>
+  <path d="M 256.00 212.00 L 262.58 212.00 L 269.17 212.00 L 275.75 212.00 L 282.33 212.00 L 288.92 212.00 L 295.50 212.00 L 302.08 212.00 L 308.67 212.00 L 315.25 212.00 L 321.83 212.00 L 328.42 212.00 L 335.00 212.00 L 341.58 212.00 L 348.17 212.00 L 354.75 212.00 L 361.33 212.00 L 367.92 212.00 L 374.50 212.00 L 381.08 212.00 L 387.67 212.00 L 394.25 212.00 L 400.83 212.00 L 407.42 212.00 L 414.00 212.00" stroke="#4a90d9" fill="none" fill-opacity="1" stroke-width="1.1"/>
+  <path d="M 256.00 280.00 L 262.58 280.00 L 269.17 280.00 L 275.75 280.00 L 282.33 280.00 L 288.92 280.00 L 295.50 280.00 L 302.08 280.00 L 308.67 280.00 L 315.25 280.00 L 321.83 280.00 L 328.42 280.00 L 335.00 280.00 L 341.58 280.00 L 348.17 280.00 L 354.75 280.00 L 361.33 280.00 L 367.92 280.00 L 374.50 280.00 L 381.08 280.00 L 387.67 280.00 L 394.25 280.00 L 400.83 280.00 L 407.42 280.00 L 414.00 280.00" stroke="#4a90d9" fill="none" fill-opacity="1" stroke-width="1.1"/>
+  <rect x="470.0" y="200.0" width="170.0" height="92.0" stroke="#8a8a8a" fill="none" fill-opacity="1" stroke-width="1.1" rx="0"/>
+  <text x="555.0" y="308.0" fill="#8a8a8a" font-size="11" text-anchor="middle">+ doublet = circle</text>
+  <circle cx="555.0" cy="246.0" r="30.0" stroke="#e0645c" fill="#e0645c" fill-opacity="0.1" stroke-width="1.8"/>
+  <circle cx="525.0" cy="246.0" r="3.0" stroke="#e0645c" fill="#e0645c" fill-opacity="1" stroke-width="1"/>
+  <circle cx="585.0" cy="246.0" r="3.0" stroke="#e0645c" fill="#e0645c" fill-opacity="1" stroke-width="1"/>
+  <path d="M 476.00 208.00 L 482.58 208.00 L 489.17 208.00 L 495.75 208.00 L 502.33 208.00 L 508.92 208.00 L 515.50 208.00 L 522.08 208.00 L 528.67 208.00 L 535.25 208.00 L 541.83 208.00 L 548.42 208.00 L 555.00 208.00 L 561.58 208.00 L 568.17 208.00 L 574.75 208.00 L 581.33 208.00 L 587.92 208.00 L 594.50 208.00 L 601.08 208.00 L 607.67 208.00 L 614.25 208.00 L 620.83 208.00 L 627.42 208.00 L 634.00 208.00" stroke="#4a90d9" fill="none" fill-opacity="1" stroke-width="1.1"/>
+  <path d="M 476.00 284.00 L 482.58 284.00 L 489.17 284.00 L 495.75 284.00 L 502.33 284.00 L 508.92 284.00 L 515.50 284.00 L 522.08 284.00 L 528.67 284.00 L 535.25 284.00 L 541.83 284.00 L 548.42 284.00 L 555.00 284.00 L 561.58 284.00 L 568.17 284.00 L 574.75 284.00 L 581.33 284.00 L 587.92 284.00 L 594.50 284.00 L 601.08 284.00 L 607.67 284.00 L 614.25 284.00 L 620.83 284.00 L 627.42 284.00 L 634.00 284.00" stroke="#4a90d9" fill="none" fill-opacity="1" stroke-width="1.1"/>
+  <text x="20.0" y="326.0" fill="#8a8a8a" font-size="11" text-anchor="start">Every body so far is fore-aft symmetric &#8212; and therefore lift-free.</text>
+</svg>
