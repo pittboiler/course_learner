@@ -27,8 +27,8 @@ The important consequence: **the heterogametic sex is hemizygous for the sex chr
 
 **Now the decisive experiment.** In a normal autosomal cross, the reciprocal directions give identical results — it does not matter which parent carried which allele. For an X-linked gene they differ, dramatically:
 
-$$\text{white-eyed} \female \times \text{red-eyed} \male \;\longrightarrow\; \textbf{all daughters red, all sons white}$$
-$$\text{red-eyed} \female \times \text{white-eyed} \male \;\longrightarrow\; \textbf{all offspring red}$$
+$$\text{white-eyed mother} \times \text{red-eyed father} \;\longrightarrow\; \textbf{all daughters red, all sons white}$$
+$$\text{red-eyed mother} \times \text{white-eyed father} \;\longrightarrow\; \textbf{all offspring red}$$
 
 *In words: the sons get their single X from their mother, so they show her allele; the daughters get one X from each parent, so the father's dominant allele covers.* The first cross is called **criss-cross inheritance** — the trait passes from mother to son and from father to daughter — and it is impossible on any autosomal model.
 
