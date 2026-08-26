@@ -330,3 +330,16 @@ body.ref-open { overflow: hidden; }
   }
 }
 @media print { .ref-drawer { display: none !important; } }
+
+/* Mermaid diagrams, rendered from ```mermaid fences. Sized like a lesson
+   figure and allowed to scroll horizontally rather than forcing the page to. */
+.mermaid-figure {
+  margin: 16px auto;
+  overflow-x: auto;
+  text-align: center;
+  background: #faf9f6;
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+.mermaid-figure svg { max-width: 100%; height: auto; }

@@ -31,6 +31,7 @@ app.use(express.json({ limit: "25mb" }));
 app.use(express.static(path.join(ROOT, "public")));
 app.use("/vendor/katex", express.static(path.join(ROOT, "node_modules/katex/dist")));
 app.use("/vendor/marked", express.static(path.join(ROOT, "node_modules/marked")));
+app.use("/vendor/mermaid", express.static(path.join(ROOT, "node_modules/mermaid/dist")));
 // Lesson markdown + SVG assets are served straight from the courses tree
 app.use("/content", express.static(COURSES_DIR));
 

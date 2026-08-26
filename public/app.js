@@ -258,6 +258,44 @@ function fixAssetPaths(html, courseId) {
   });
 }
 
+/* Mermaid renders ```mermaid fences into SVG. It initializes once, lazily, and
+   every failure is contained: a diagram that will not parse is left as the code
+   block it already was rather than blanking the lesson around it. */
+let mermaidReady = false;
+function renderDiagrams(el) {
+  if (!window.mermaid) return;
+  const blocks = el.querySelectorAll("pre > code.language-mermaid");
+  if (!blocks.length) return;
+  if (!mermaidReady) {
+    // Always the light theme: diagrams sit on the same stable light "paper"
+    // card as the SVG figures (see .md img in styles.css), so they stay legible
+    // in dark mode and in Print/PDF without inheriting the page theme.
+    mermaid.initialize({
+      startOnLoad: false,
+      securityLevel: "strict",
+      theme: "default",
+      flowchart: { htmlLabels: true, useMaxWidth: true },
+    });
+    mermaidReady = true;
+  }
+  blocks.forEach(async (code, i) => {
+    const pre = code.parentElement;
+    const src = code.textContent;
+    const id = `mmd-${Date.now().toString(36)}-${i}`;
+    try {
+      const { svg } = await mermaid.render(id, src);
+      const fig = document.createElement("figure");
+      fig.className = "mermaid-figure";
+      fig.innerHTML = svg;
+      pre.replaceWith(fig);
+    } catch (err) {
+      // leave the fenced source visible — a broken diagram beats a broken page
+      console.warn("mermaid render failed", err);
+      document.getElementById(id)?.remove(); // mermaid leaves a scratch node behind
+    }
+  });
+}
+
 function renderMath(el) {
   if (window.renderMathInElement) {
     renderMathInElement(el, {
@@ -400,6 +438,7 @@ async function openReference(courseId, anchor = "") {
     try {
       body.innerHTML = await referenceHTML(courseId);
       renderMath(body);
+      renderDiagrams(body);
     } catch (e) {
       body.innerHTML = `<p class="error">${esc(e.message)}</p>`;
       return;
@@ -485,6 +524,7 @@ async function renderCourse(id) {
     ${syllabusHTML}
   `;
   renderMath($app);
+  renderDiagrams($app);
 }
 
 async function renderLesson(courseId, file) {
@@ -514,6 +554,7 @@ async function renderLesson(courseId, file) {
     </div>
   `;
   renderMath($app);
+  renderDiagrams($app);
 
   document.getElementById("print-lesson").onclick = () => window.print();
 
@@ -526,6 +567,7 @@ async function renderLesson(courseId, file) {
     }});
     fb.innerHTML = feedbackHTML(result);
     renderMath(fb);
+    renderDiagrams(fb);
   };
 
   // Put a collapsible writing workspace directly under each problem so the
@@ -1092,6 +1134,7 @@ async function renderQuiz(courseId, quizNum, throughModule) {
       <div class="md">${parseMd(quiz.questions[i])}</div>
       <div class="grade-box">${answerFormHTML("quiz", "Submit answer")}</div>`;
     renderMath($app);
+    renderDiagrams($app);
     wireAnswerForm("quiz", async (answer, fb) => {
       const result = await postJSON("/api/quiz/grade", { id: quiz.id, index: i, ...answer });
       if (result.verdict === "correct") correct++;
@@ -1101,6 +1144,7 @@ async function renderQuiz(courseId, quizNum, throughModule) {
           i + 1 < quiz.questions.length ? "Next problem →" : "Finish"
         }</button>`;
       renderMath(fb);
+      renderDiagrams(fb);
       document.getElementById("quiz-next").onclick = () => { i++; showProblem(); };
     });
   }
@@ -1135,12 +1179,14 @@ function renderReview() {
         <div class="md">${parseMd(question)}</div>
         <div class="grade-box">${answerFormHTML("rev", "Submit answer")}</div>`;
       renderMath(area);
+      renderDiagrams(area);
       wireAnswerForm("rev", async (answer, fb) => {
         const result = await postJSON("/api/review/grade", { id, ...answer });
         fb.innerHTML =
           feedbackHTML(result, result.solution) +
           `<button class="primary" id="rev-next" style="margin-top:10px">Next item →</button>`;
         renderMath(fb);
+        renderDiagrams(fb);
         document.getElementById("rev-next").onclick = async () => {
           await loadState();
           i++;
