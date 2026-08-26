@@ -139,7 +139,7 @@ or fold a light version in). Build `intro-nuclear-engineering` **first**.
 - [x] `fusion-plasma` — Fusion & Plasma Engineering (2, ~22) *(needs plasma-physics)* — **lessons ✓** (prepped 2026-08-20, 22 lessons)
 - [x] `nuclear-fuel-cycle` — Nuclear Fuel Cycle & Policy (2, ~18) — **lessons ✓** (prepped 2026-08-20, 19 lessons)
 
-### Phase 6 — Engineering breadth (Field 6, Shelves C & D) · 15 courses · ~350 lessons
+### Phase 6 — Engineering breadth (Field 6, Shelves C & D) · 15 courses · ~350 lessons — **COMPLETE (2026-08-25)**
 
 Build `materials-science` early (it back-fills Phase 5's `nuclear-materials`).
 
@@ -147,14 +147,14 @@ Build `materials-science` early (it back-fills Phase 5's `nuclear-materials`).
 - [x] `circuits` — Circuit Analysis (0, ~12) — **lessons ✓** (prepped 2026-08-20, 14 lessons)
 - [x] `electronics` — Electronics & Semiconductors (1, ~18) — **lessons ✓** (prepped 2026-08-20, 18 lessons) → unblocks `semiconductor-devices`
 - [x] `digital-logic` — Digital Logic Design (1, ~16) — **lessons ✓** (prepped 2026-08-20, 17 lessons) → unblocks `computer-architecture` (CS)
-- [ ] `communications` — Communication Systems (2, ~22) *(bridges information-theory ✓)*
-- [ ] `power-systems` — Power Systems (2, ~22)
-- [ ] `semiconductor-devices` — Semiconductor Devices (2, ~20)
+- [x] `communications` — Communication Systems (2, ~22) *(bridges information-theory ✓)* — **lessons ✓** (prepped 2026-08-25, 22)
+- [x] `power-systems` — Power Systems (2, ~22) — **lessons ✓** (prepped 2026-08-25, 21)
+- [x] `semiconductor-devices` — Semiconductor Devices (2, ~20) — **lessons ✓** (prepped 2026-08-25, 19)
 - [x] `structural-analysis` — Structural Analysis (1, ~18) — **lessons ✓** (prepped 2026-08-14, 18) → **completes the mechanical spine (Block 2)**
-- [ ] `aerodynamics` — Aerodynamics (2, ~22) *(needs fluid-dynamics ✓)*
-- [ ] `orbital-mechanics` — Astrodynamics (2, ~20) *(bridges astrophysics ✓)*
-- [ ] `propulsion` — Propulsion (2, ~20)
-- [ ] `robotics` — Robotics & Kinematics (2, ~22) *(needs control-systems + linalg ✓)*
+- [x] `aerodynamics` — Aerodynamics (2, ~22) *(needs fluid-dynamics ✓)* — **lessons ✓** (prepped 2026-08-25, 19)
+- [x] `orbital-mechanics` — Astrodynamics (2, ~20) *(bridges astrophysics ✓)* — **lessons ✓** (prepped 2026-08-25, 20)
+- [x] `propulsion` — Propulsion (2, ~20) — **lessons ✓** (prepped 2026-08-25, 19)
+- [x] `robotics` — Robotics & Kinematics (2, ~22) *(needs control-systems + linalg ✓)* — **lessons ✓** (prepped 2026-08-25, 22)
 - [x] `transport-phenomena` — Transport Phenomena (2, ~24) — **lessons ✓** (prepped 2026-08-14, 25) → Block 3 (thermal/fluids) started
 - [x] `reaction-engineering` — Chemical Reaction Engineering (2, ~22) — **lessons ✓** (prepped 2026-08-14, 23)
 - [x] `operations-research` — Operations Research (1, ~18) — **lessons ✓** (prepped 2026-08-20, 16 lessons; syllabus trimmed 20→16 to defer LP/duality theory to `convex-optimization` and network algorithms to `graph-theory`)
@@ -180,7 +180,7 @@ Mostly prereq-light; a strong greenfield.
 
 Root is `general-chemistry`; physical/quantum chem lean on quantum-mechanics ✓.
 
-**In progress (2026-08-10):** building the field in dependency order — done so far: `general-chemistry` **lessons ✓** (16), `organic-chemistry` **lessons ✓** (23), `physical-chemistry` **lessons ✓** (24), `inorganic-chemistry` **lessons ✓** (18), `analytical-chemistry` **lessons ✓** (17), `quantum-chemistry` **lessons ✓** (21), `electrochemistry` **lessons ✓** (18). **7 of 9 chemistry courses done (137 lessons).** Remaining: `biochemistry` (needs organic ✓), `polymer-chemistry` (needs organic + physical ✓) — both unblocked. Note: the study app now loads the KaTeX **mhchem** extension (`\ce{}`) — enabled 2026-08-10 for the chemistry field, verified rendering in-app.
+**In progress (2026-08-10):** building the field in dependency order — done so far: `general-chemistry` **lessons ✓** (16), `organic-chemistry` **lessons ✓** (23), `physical-chemistry` **lessons ✓** (24), `inorganic-chemistry` **lessons ✓** (18), `analytical-chemistry` **lessons ✓** (17), `quantum-chemistry` **lessons ✓** (21), `electrochemistry` **lessons ✓** (18). **All 9 chemistry courses done (176 lessons)** — `biochemistry` (21) and `polymer-chemistry` (18) completed the field. Note: the study app now loads the KaTeX **mhchem** extension (`\ce{}`) — enabled 2026-08-10 for the chemistry field, verified rendering in-app.
 
 `general-chemistry` (0) → `organic-chemistry` (1) → `physical-chemistry` (2),
 `quantum-chemistry` (2), `inorganic-chemistry` (1), `analytical-chemistry` (1),
@@ -242,10 +242,25 @@ decision theory.
   Life Sciences (9), Mathematics Tier-2 (4). ~1,449 lessons planned.
 - **Library now holds 133 courses across 10 fields** (Foundations 6, Mathematics 29,
   Computer Science 16, Physics 19, Chemistry 9, Engineering 29, Earth & Space 6,
-  Life Sciences 9, Economics & Finance 8, Humanities 2). Every course has a syllabus;
-  **none have lessons yet.**
+  Life Sciences 9, Economics & Finance 8, Humanities 2). Every course has a syllabus.
+- **Lessons built: 97 of 133 courses, 1,899 lessons (2026-08-25).** All four priority
+  fields are finished — Foundations, Mathematics, Physics (`computational-physics`
+  dropped), and Engineering (Phase 6 closed 2026-08-25). Chemistry is finished too.
+  Remaining: Computer Science 16, Life Sciences 9, Earth & Space 6, Economics 2,
+  Humanities 2 (deferred) — about 709 lessons.
 - **Still deferred** (Phase-10 non-STEM): econ extras (time-series, IO, behavioral,
   market-design), humanities/theology, philosophy of science, ethics & decision theory.
-- **Next:** `/prep` any standing course to build its lessons. Suggested first builds:
-  Foundations (fast), then `algebra-foundations` → the refresher spine, or dive into the
-  `intro-nuclear-engineering` → nuclear shelf once its physics prereqs are prepped.
+- **Next (2026-08-25):** the priority fields are done, so the queue moves to
+  "most of the rest." Two coherent blocks, each with a single root that unblocks
+  the field:
+  - **Phase 7 — Computer Science** (16 courses, ~312 lessons). Root:
+    `programming-foundations`, which alone unblocks 5 more. Then `algorithms`,
+    `theory-of-computation`, `computer-architecture` (already unblocked by
+    `digital-logic` ✓). `machine-learning` and `quantum-computing` are unblocked
+    right now and could jump the queue.
+  - **Phase 9 Life half — Life Sciences** (9 courses, ~172 lessons). Root:
+    `general-biology` → `molecular-cell-biology`, which between them unblock the
+    whole field.
+  - Smaller fill-ins that are unblocked today: `geology`, `atmospheric-science`,
+    `planetary-science` (Earth & Space); `econometrics`, `statistical-learning`
+    (Economics).
