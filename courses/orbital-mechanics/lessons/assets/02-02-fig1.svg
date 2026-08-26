@@ -1,0 +1,36 @@
+<svg viewBox="0 0 620 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">In the perifocal frame the orbit is flat and simple; three turns place it.</text>
+  <path d="M 271.4 190.0 L 271.3 185.7 L 271.1 181.5 L 270.7 177.2 L 270.1 173.0 L 269.4 168.7 L 268.6 164.5 L 267.6 160.2 L 266.4 156.0 L 265.0 151.8 L 263.5 147.5 L 261.8 143.3 L 260.0 139.2 L 257.9 135.0 L 255.7 130.8 L 253.3 126.7 L 250.7 122.6 L 247.9 118.5 L 244.9 114.5 L 241.6 110.5 L 238.2 106.6 L 234.5 102.7 L 230.6 98.9 L 226.4 95.1 L 222.0 91.5 L 217.4 87.9 L 212.4 84.5 L 207.2 81.1 L 201.8 77.9 L 196.0 74.9 L 190.0 72.0 L 183.7 69.3 L 177.1 66.9 L 170.1 64.6 L 162.9 62.7 L 155.4 61.0 L 147.6 59.6 L 139.6 58.7 L 131.3 58.1 L 122.7 57.9 L 113.9 58.1 L 104.9 58.9 L 95.7 60.2 L 86.4 62.1 L 77.0 64.5 L 67.6 67.6 L 58.2 71.4 L 49.0 75.8 L 39.9 80.9 L 31.0 86.8 L 22.6 93.3 L 14.5 100.6 L 7.0 108.5 L 0.0 117.1 L -6.2 126.3 L -11.6 136.0 L -16.2 146.2 L -19.8 156.8 L -22.4 167.7 L -24.0 178.8 L -24.5 190.0 L -24.0 201.2 L -22.4 212.3 L -19.8 223.2 L -16.2 233.8 L -11.6 244.0 L -6.2 253.7 L 0.0 262.9 L 7.0 271.5 L 14.5 279.4 L 22.6 286.7 L 31.0 293.2 L 39.9 299.1 L 49.0 304.2 L 58.2 308.6 L 67.6 312.4 L 77.0 315.5 L 86.4 317.9 L 95.7 319.8 L 104.9 321.1 L 113.9 321.9 L 122.7 322.1 L 131.3 321.9 L 139.6 321.3 L 147.6 320.4 L 155.4 319.0 L 162.9 317.3 L 170.1 315.4 L 177.1 313.1 L 183.7 310.7 L 190.0 308.0 L 196.0 305.1 L 201.8 302.1 L 207.2 298.9 L 212.4 295.5 L 217.4 292.1 L 222.0 288.5 L 226.4 284.9 L 230.6 281.1 L 234.5 277.3 L 238.2 273.4 L 241.6 269.5 L 244.9 265.5 L 247.9 261.5 L 250.7 257.4 L 253.3 253.3 L 255.7 249.2 L 257.9 245.0 L 260.0 240.8 L 261.8 236.7 L 263.5 232.5 L 265.0 228.2 L 266.4 224.0 L 267.6 219.8 L 268.6 215.5 L 269.4 211.3 L 270.1 207.0 L 270.7 202.8 L 271.1 198.5 L 271.3 194.3 L 271.4 190.0" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="190.0" y1="190.0" x2="340.0" y2="190.0" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="340.0,190.0 330.0,186.0 330.0,194.0" fill="#8a8a8a"/>
+  <text x="344.0" y="195.0" fill="#8a8a8a">p</text>
+  <text x="310.0" y="210.0" fill="#8a8a8a" font-size="11">toward perigee</text>
+  <line x1="190.0" y1="190.0" x2="190.0" y2="50.0" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="190.0,50.0 186.0,60.0 194.0,60.0" fill="#8a8a8a"/>
+  <text x="176.0" y="46.0" fill="#8a8a8a">q</text>
+  <circle cx="190.0" cy="190.0" r="8" fill="#8a8a8a"/>
+  <circle cx="230.0" cy="150.0" r="10" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <circle cx="230.0" cy="150.0" r="3" fill="#8a8a8a"/>
+  <text x="244.0" y="154.0" fill="#8a8a8a" font-size="11">w out of page</text>
+  <line x1="190.0" y1="190.0" x2="235.7" y2="104.0" stroke="#e0645c" stroke-width="2.5"/>
+  <circle cx="235.7" cy="104.0" r="6" fill="#e0645c"/>
+  <text x="206" y="94" fill="#e0645c">r</text>
+  <line x1="235.7" y1="104.0" x2="235.7" y2="190.0" stroke="#e0645c" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <line x1="235.7" y1="104.0" x2="190.0" y2="104.0" stroke="#e0645c" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <text x="189" y="208.0" fill="#e0645c" font-size="11">r cos of theta</text>
+  <text x="106" y="108" fill="#e0645c" font-size="11">r sin of theta</text>
+  <path d="M 232.0 190.0 L 231.9 187.7 L 231.8 185.5 L 231.4 183.2 L 231.0 181.0 L 230.5 178.8 L 229.8 176.6 L 229.0 174.5 L 228.1 172.4 L 227.1 170.3 L 226.0 168.4 L 224.8 166.5 L 223.5 164.6 L 222.0 162.8 L 220.5 161.1 L 218.9 159.5 L 217.2 158.0 L 215.5 156.6 L 213.6 155.3 L 211.7 154.0 L 209.7 152.9" fill="none" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="236.0" y="174.0" fill="#e0645c" font-size="11">theta</text>
+  <rect x="400" y="62" width="200" height="28" rx="5" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="410" y="80" fill="#4a90d9" font-size="12">perifocal (p, q, w)</text>
+  <text x="422" y="132" fill="#8a8a8a" font-size="11">rotate by arg. of perigee about w</text>
+  <line x1="410" y1="106" x2="410" y2="146" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="410,150 406,140 414,140" fill="#8a8a8a"/>
+  <rect x="400" y="166" width="200" height="28" rx="5" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="410" y="184" fill="#4a90d9" font-size="12">rotate by inclination about node</text>
+  <text x="422" y="236" fill="#8a8a8a" font-size="11">rotate by RAAN about K</text>
+  <line x1="410" y1="210" x2="410" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="410,254 406,244 414,244" fill="#8a8a8a"/>
+  <rect x="400" y="270" width="200" height="28" rx="5" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="410" y="288" fill="#4a90d9" font-size="12">inertial ECI (I, J, K)</text>
+</svg>

@@ -1,0 +1,51 @@
+<svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="24" y="22" fill="#8a8a8a" font-style="italic">Anatomy of the ellipse: a sets energy, b and c set shape.</text>
+
+  <ellipse cx="300" cy="185" rx="200" ry="147" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <!-- apse line -->
+  <line x1="80" y1="185" x2="520" y2="185" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 5"/>
+  <!-- minor axis -->
+  <line x1="300" y1="30" x2="300" y2="340" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 5"/>
+
+  <!-- foci and center -->
+  <circle cx="164.4" cy="185" r="8" fill="#8a8a8a"/>
+  <text x="140" y="209" fill="#8a8a8a" font-size="12">primary</text>
+  <circle cx="435.6" cy="185" r="5" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="410" y="209" fill="#8a8a8a" font-size="12">empty focus</text>
+  <circle cx="300" cy="185" r="3" fill="#8a8a8a"/>
+  <text x="288" y="209" fill="#8a8a8a" font-size="12">C</text>
+
+  <!-- semi-major axis a -->
+  <line x1="300" y1="150" x2="496" y2="150" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="500,150 490,146 490,154" fill="#e0645c"/>
+  <polygon points="300,150 310,146 310,154" fill="#e0645c"/>
+  <text x="392" y="142" fill="#e0645c">a</text>
+
+  <!-- semi-minor axis b -->
+  <line x1="300" y1="185" x2="300" y2="42" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="300,38 296,48 304,48" fill="#e0645c"/>
+  <text x="308" y="80" fill="#e0645c">b</text>
+
+  <!-- c -->
+  <line x1="164.4" y1="222" x2="296" y2="222" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="164.4,222 174,218 174,226" fill="#e0645c"/>
+  <polygon points="300,222 290,218 290,226" fill="#e0645c"/>
+  <text x="224" y="240" fill="#e0645c">c = ae</text>
+
+  <!-- semi-latus rectum -->
+  <line x1="164.4" y1="185" x2="164.4" y2="77" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="164.4,77 160,87 169,87" fill="#e0645c"/>
+  <text x="172" y="106" fill="#e0645c">p</text>
+
+  <!-- r_p and r_a -->
+  <line x1="100" y1="266" x2="160" y2="266" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="100,266 110,262 110,270" fill="#8a8a8a"/>
+  <polygon points="164.4,266 155,262 155,270" fill="#8a8a8a"/>
+  <text x="88" y="286" fill="#8a8a8a" font-size="12">perigee</text>
+  <line x1="169" y1="266" x2="496" y2="266" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="164.4,266 174,262 174,270" fill="#8a8a8a"/>
+  <polygon points="500,266 490,262 490,270" fill="#8a8a8a"/>
+  <text x="472" y="286" fill="#8a8a8a" font-size="12">apogee</text>
+  <text x="300" y="286" fill="#8a8a8a" font-size="12">perigee plus apogee = 2a</text>
+</svg>

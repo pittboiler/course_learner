@@ -1,0 +1,48 @@
+<svg viewBox="0 0 620 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Two absolute vectors from a fixed origin; one relative vector between them.</text>
+
+  <!-- inertial axes -->
+  <line x1="60" y1="250" x2="230" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="230,250 220,245 220,255" fill="#8a8a8a"/>
+  <line x1="60" y1="250" x2="60" y2="90" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="60,90 55,100 65,100" fill="#8a8a8a"/>
+  <text x="44" y="266" fill="#8a8a8a">O</text>
+  <text x="234" y="255" fill="#8a8a8a">X</text>
+  <text x="50" y="86" fill="#8a8a8a">Y</text>
+
+  <!-- body 1 (big) -->
+  <circle cx="290" cy="190" r="26" fill="#4a90d9" opacity="0.2" stroke="#4a90d9" stroke-width="2"/>
+  <text x="281" y="195" fill="#4a90d9">m</text>
+  <text x="294" y="199" fill="#4a90d9" font-size="10">1</text>
+
+  <!-- body 2 (small) -->
+  <circle cx="470" cy="90" r="10" fill="#e0645c" opacity="0.25" stroke="#e0645c" stroke-width="2"/>
+  <text x="484" y="86" fill="#e0645c">m</text>
+  <text x="497" y="90" fill="#e0645c" font-size="10">2</text>
+
+  <!-- R1 -->
+  <line x1="60" y1="250" x2="266" y2="204" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="266,204 256,201 259,211" fill="#8a8a8a"/>
+  <text x="150" y="243" fill="#8a8a8a">R</text>
+  <text x="162" y="247" fill="#8a8a8a" font-size="10">1</text>
+
+  <!-- R2 -->
+  <line x1="60" y1="250" x2="461" y2="97" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="461,97 451,97 456,106" fill="#8a8a8a"/>
+  <text x="230" y="150" fill="#8a8a8a">R</text>
+  <text x="242" y="154" fill="#8a8a8a" font-size="10">2</text>
+
+  <!-- r relative -->
+  <line x1="312" y1="177" x2="459" y2="96" stroke="#e0645c" stroke-width="3"/>
+  <polygon points="459,96 448,95 453,105" fill="#e0645c"/>
+  <text x="374" y="123" fill="#e0645c">r</text>
+
+  <!-- force arrows -->
+  <line x1="452" y1="102" x2="404" y2="128" stroke="#4a90d9" stroke-width="2" stroke-dasharray="4 3"/>
+  <polygon points="404,128 415,127 410,137" fill="#4a90d9"/>
+  <text x="398" y="150" fill="#4a90d9">pull on m2</text>
+
+  <line x1="318" y1="170" x2="360" y2="147" stroke="#4a90d9" stroke-width="2" stroke-dasharray="4 3"/>
+  <polygon points="360,147 349,148 354,157" fill="#4a90d9"/>
+  <text x="330" y="200" fill="#4a90d9">pull on m1</text>
+</svg>

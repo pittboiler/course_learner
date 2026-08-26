@@ -1,0 +1,50 @@
+<svg viewBox="0 0 620 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="24" y="24" fill="#8a8a8a" font-style="italic">Equal areas in equal times, because r cross v never changes.</text>
+
+  <!-- ===== panel A: the ellipse with two equal-area wedges ===== -->
+  <ellipse cx="220" cy="190" rx="140" ry="128" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <!-- perigee wedge (fat and short) -->
+  <path d="M 163.3 190 L 99 125.7 Q 62 190 99 254.3 Z" fill="#e0645c" opacity="0.3" stroke="#e0645c" stroke-width="1.5"/>
+  <!-- apogee wedge (thin and long) -->
+  <path d="M 163.3 190 L 356.1 219.9 Q 363.9 190 356.1 160.1 Z" fill="#e0645c" opacity="0.3" stroke="#e0645c" stroke-width="1.5"/>
+
+  <!-- focus -->
+  <circle cx="163.3" cy="190" r="7" fill="#8a8a8a"/>
+  <text x="152" y="211" fill="#8a8a8a" font-size="12">focus</text>
+
+  <!-- labels -->
+  <text x="78" y="100" fill="#e0645c" font-size="12">fast, near</text>
+  <text x="78" y="114" fill="#e0645c" font-size="12">perigee</text>
+  <text x="300" y="255" fill="#e0645c" font-size="12">slow, near</text>
+  <text x="300" y="269" fill="#e0645c" font-size="12">apogee</text>
+  <text x="126" y="300" fill="#8a8a8a" font-size="12">same shaded area, same elapsed time</text>
+
+  <!-- ===== panel B: r, v and the swept triangle ===== -->
+  <line x1="400" y1="70" x2="400" y2="310" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 5"/>
+
+  <polygon points="445,245 545,155 590,185" fill="#4a90d9" opacity="0.2"/>
+
+  <circle cx="445" cy="245" r="9" fill="#8a8a8a"/>
+
+  <!-- r -->
+  <line x1="445" y1="245" x2="541" y2="159" stroke="#8a8a8a" stroke-width="2.5"/>
+  <polygon points="545,155 532,157 538,166" fill="#8a8a8a"/>
+  <text x="484" y="192" fill="#8a8a8a">r</text>
+
+  <!-- v -->
+  <line x1="545" y1="155" x2="586" y2="182" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="590,185 578,181 583,174" fill="#e0645c"/>
+  <text x="565" y="158" fill="#e0645c">v</text>
+
+  <circle cx="545" cy="155" r="6" fill="#4a90d9"/>
+
+  <text x="452" y="200" fill="#4a90d9" font-size="12">area</text>
+  <text x="452" y="215" fill="#4a90d9" font-size="12">swept</text>
+
+  <!-- h out of the page -->
+  <circle cx="470" cy="105" r="13" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <circle cx="470" cy="105" r="3.5" fill="#4a90d9"/>
+  <text x="492" y="110" fill="#4a90d9">h out of the page</text>
+  <text x="432" y="290" fill="#8a8a8a" font-size="12">swept rate = half of r cross v</text>
+</svg>
