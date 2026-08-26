@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 470" width="800" height="470" role="img" aria-label="Negative feedback, positive feedback with bistability and hysteresis, and an incoherent feedforward loop producing adaptation">
+  <rect width="800" height="470" fill="#ffffff"/>
+
+  <text x="14" y="24" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#111">1. Negative feedback &#8212; stabilize, speed up, compress</text>
+  <g font-family="Helvetica,Arial,sans-serif" font-size="11">
+    <rect x="20" y="38" width="52" height="24" rx="5" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1.4"/><text x="46" y="55" text-anchor="middle" fill="#333">input u</text>
+    <path d="M 72 50 L 116 50" stroke="#555" stroke-width="2" marker-end="url(#c)"/>
+    <rect x="118" y="38" width="52" height="24" rx="5" fill="#e8f0fb" stroke="#1a6fb5" stroke-width="1.4"/><text x="144" y="55" text-anchor="middle" fill="#134f80">x</text>
+    <path d="M 170 50 L 214 50" stroke="#555" stroke-width="2" marker-end="url(#c)"/>
+    <text x="220" y="55" fill="#333">output</text>
+    <path d="M 158 64 q 40 34 -20 34 q -50 0 -22 -30" fill="none" stroke="#d1495b" stroke-width="2"/>
+    <line x1="110" y1="62" x2="122" y2="72" stroke="#d1495b" stroke-width="2.4"/>
+    <text x="86" y="112" fill="#d1495b">inhibits itself</text>
+    <line x1="240" y1="112" x2="330" y2="112" stroke="#333" stroke-width="1.6"/>
+    <line x1="240" y1="112" x2="240" y2="42" stroke="#333" stroke-width="1.6"/>
+    <polyline points="240,110 250,66 262,54 280,50 330,49" fill="none" stroke="#8fa8c0" stroke-width="2" stroke-dasharray="4 3"/>
+    <polyline points="240,110 252,86 268,80 290,79 330,79" fill="none" stroke="#1a6fb5" stroke-width="2.4"/>
+    <text x="336" y="52" fill="#8fa8c0">no feedback</text>
+    <text x="336" y="82" fill="#1a6fb5">with feedback</text>
+    <text x="240" y="128" fill="#333">lower &#8212; and reached sooner</text>
+  </g>
+
+  <line x1="440" y1="16" x2="440" y2="330" stroke="#ddd" stroke-width="2"/>
+  <text x="462" y="24" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#111">2. Positive feedback &#8594; three steady states</text>
+  <line x1="470" y1="300" x2="768" y2="300" stroke="#333" stroke-width="1.8"/>
+  <line x1="470" y1="300" x2="470" y2="180" stroke="#333" stroke-width="1.8"/>
+  <polyline points="470.0,299.1 474.8,298.9 479.7,298.2 484.5,297.1 489.3,295.6 494.2,293.7 499.0,291.5 503.8,289.1 508.7,286.4 513.5,283.6 518.3,280.8 523.2,277.8 528.0,274.8 532.8,271.9 537.7,268.9 542.5,266.1 547.3,263.3 552.2,260.6 557.0,258.1 561.8,255.6 566.7,253.2 571.5,251.0 576.3,248.9 581.2,246.9 586.0,245.0 590.8,243.2 595.7,241.5 600.5,239.9 605.3,238.4 610.2,237.0 615.0,235.6 619.8,234.4 624.7,233.2 629.5,232.0 634.3,231.0 639.2,230.0 644.0,229.0 648.8,228.1 653.7,227.3 658.5,226.5 663.3,225.8 668.2,225.0 673.0,224.4 677.8,223.7 682.7,223.1 687.5,222.5 692.3,222.0 697.2,221.5 702.0,221.0 706.8,220.5 711.7,220.1 716.5,219.6 721.3,219.2 726.2,218.8 731.0,218.5 735.8,218.1 740.7,217.8 745.5,217.5 750.3,217.2 755.2,216.9 760.0,216.6" fill="none" stroke="#2e8b57" stroke-width="2.6"/>
+  <polyline points="470.0,300.0 760.0,190.0" fill="none" stroke="#d1495b" stroke-width="2.2"/>
+  <g font-family="Helvetica,Arial,sans-serif" font-size="10.5">
+    <text x="700" y="216" fill="#2e8b57">production (n=2)</text>
+    <text x="700" y="200" fill="#d1495b">decay 2x</text>
+    <text x="462" y="316" fill="#333">0</text><text x="758" y="316" fill="#333">x = 3</text>
+  </g>
+  <circle cx="472.6" cy="299.0" r="4.5" fill="#111"/>
+  <circle cx="514.2" cy="283.2" r="4.5" fill="#fff" stroke="#111" stroke-width="2"/>
+  <circle cx="667.3" cy="225.2" r="4.5" fill="#111"/>
+  <g font-family="Helvetica,Arial,sans-serif" font-size="10">
+    <text x="470" y="336" fill="#111">&#9679; stable OFF</text>
+    <text x="556" y="336" fill="#111">&#9675; unstable threshold</text>
+    <text x="682" y="336" fill="#111">&#9679; stable ON</text>
+  </g>
+
+  <line x1="14" y1="346" x2="786" y2="346" stroke="#ddd" stroke-width="2"/>
+
+  <text x="14" y="370" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#111">Hysteresis: the switch remembers</text>
+  <line x1="30" y1="450" x2="200" y2="450" stroke="#333" stroke-width="1.6"/>
+  <line x1="30" y1="450" x2="30" y2="384" stroke="#333" stroke-width="1.6"/>
+  <path d="M 34 446 L 120 444 L 122 392 L 196 390" fill="none" stroke="#2e8b57" stroke-width="2.4"/>
+  <path d="M 196 396 L 78 398 L 76 448 L 34 450" fill="none" stroke="#d1495b" stroke-width="2.4" stroke-dasharray="5 4"/>
+  <text x="126" y="462" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#2e8b57">ON at high input</text>
+  <text x="34" y="380" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#d1495b">OFF at lower input</text>
+
+  <line x1="230" y1="356" x2="230" y2="466" stroke="#ddd" stroke-width="2"/>
+  <text x="252" y="370" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#111">3. Incoherent feedforward &#8594; adaptation</text>
+  <g font-family="Helvetica,Arial,sans-serif" font-size="11">
+    <rect x="256" y="384" width="44" height="22" rx="5" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1.4"/><text x="278" y="400" text-anchor="middle" fill="#333">u</text>
+    <path d="M 300 395 L 344 395" stroke="#2e8b57" stroke-width="2" marker-end="url(#c)"/>
+    <rect x="346" y="384" width="44" height="22" rx="5" fill="#e8f0fb" stroke="#1a6fb5" stroke-width="1.4"/><text x="368" y="400" text-anchor="middle" fill="#134f80">x</text>
+    <path d="M 278 406 L 278 434 L 344 434" stroke="#c9871f" stroke-width="2" marker-end="url(#c)"/>
+    <rect x="346" y="422" width="44" height="22" rx="5" fill="#fdeee0" stroke="#c9871f" stroke-width="1.4"/><text x="368" y="438" text-anchor="middle" fill="#8a5a10">y (slow)</text>
+    <line x1="380" y1="422" x2="380" y2="410" stroke="#d1495b" stroke-width="2.4"/>
+    <text x="396" y="418" fill="#d1495b" font-size="10">represses x</text>
+  </g>
+  <line x1="500" y1="452" x2="770" y2="452" stroke="#333" stroke-width="1.6"/>
+  <line x1="500" y1="452" x2="500" y2="366" stroke="#333" stroke-width="1.6"/>
+  <polyline points="500,446 546,446 548,372 570,392 600,428 640,442 700,445 770,446" fill="none" stroke="#1a6fb5" stroke-width="2.6"/>
+  <polyline points="500,462 546,462 548,456 770,456" fill="none" stroke="#666" stroke-width="1.8" stroke-dasharray="4 3"/>
+  <text x="600" y="382" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#1a6fb5">spike, then exact return to baseline</text>
+  <text x="600" y="470" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#666">input u stays high</text>
+  <defs><marker id="c" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#555"/></marker></defs>
+</svg>

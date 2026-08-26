@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" width="800" height="460" role="img" aria-label="Nucleosome structure and compaction, the writer-reader-eraser cycle, and self-propagating heterochromatin">
+  <rect width="800" height="460" fill="#ffffff"/>
+  <text x="14" y="22" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#111">The nucleosome, and compaction</text>
+  <circle cx="110" cy="92" r="30" fill="#6a4c93"/>
+  <text x="110" y="90" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#fff" text-anchor="middle">H2A H2B</text>
+  <text x="110" y="102" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#fff" text-anchor="middle">H3 H4  &#215;2</text>
+  <path d="M 40 84 C 66 60 154 60 178 84 C 196 104 160 132 110 130 C 66 128 44 112 46 100" fill="none" stroke="#1a6fb5" stroke-width="5"/>
+  <text x="110" y="152" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#1a6fb5" text-anchor="middle">147 bp, 1.65 turns</text>
+  <g stroke="#c9871f" stroke-width="2.4">
+    <path d="M 88 64 L 76 44"/><path d="M 110 62 L 110 40"/><path d="M 132 64 L 144 44"/><path d="M 86 122 L 74 142"/>
+  </g>
+  <text x="196" y="46" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#c9871f">unstructured tails</text>
+  <text x="196" y="60" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#c9871f">= the decision surface</text>
+  <text x="20" y="184" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333">Histones are lysine/arginine-rich: positive.</text>
+  <text x="20" y="200" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333">DNA is uniformly negative. Wrapping is downhill &#8212;</text>
+  <text x="20" y="216" font-family="Helvetica,Arial,sans-serif" font-size="10.5" font-weight="bold" fill="#333">and sequence-independent, so it cannot pick genes.</text>
+  <g>
+    <text x="20" y="248" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#111">2.2 m of DNA &#8594; a 6 &#181;m nucleus</text>
+    <g font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333">
+      <text x="20" y="268">beads on a string</text><text x="240" y="268" text-anchor="end" fill="#1a6fb5">&#215;6</text>
+      <text x="20" y="286">fibre + loop domains</text><text x="240" y="286" text-anchor="end" fill="#1a6fb5">&#215;~40</text>
+      <text x="20" y="304">mitotic condensation</text><text x="240" y="304" text-anchor="end" fill="#1a6fb5">&#215;~250</text>
+    </g>
+  </g>
+
+  <line x1="272" y1="14" x2="272" y2="330" stroke="#ddd" stroke-width="2"/>
+  <text x="292" y="22" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#111">Write &#183; read &#183; erase</text>
+  <g font-family="Helvetica,Arial,sans-serif" font-size="11">
+    <rect x="296" y="40" width="88" height="26" rx="5" fill="#dbeadb" stroke="#2e8b57" stroke-width="1.4"/><text x="340" y="57" text-anchor="middle" fill="#1f5c3a">WRITER</text>
+    <path d="M 388 53 L 424 53" stroke="#555" stroke-width="2" marker-end="url(#h)"/>
+    <rect x="426" y="40" width="88" height="26" rx="5" fill="#fdeee0" stroke="#c9871f" stroke-width="1.4"/><text x="470" y="57" text-anchor="middle" fill="#8a5a10">MARK</text>
+    <path d="M 470 66 L 470 96" stroke="#555" stroke-width="2" marker-end="url(#h)"/>
+    <rect x="426" y="98" width="88" height="26" rx="5" fill="#e8f0fb" stroke="#1a6fb5" stroke-width="1.4"/><text x="470" y="115" text-anchor="middle" fill="#134f80">READER</text>
+    <path d="M 426 111 L 390 111" stroke="#555" stroke-width="2" marker-end="url(#h)"/>
+    <rect x="296" y="98" width="88" height="26" rx="5" fill="#f0d4d8" stroke="#d1495b" stroke-width="1.4"/><text x="340" y="115" text-anchor="middle" fill="#7a2530">ERASER</text>
+
+    <rect x="292" y="146" width="228" height="72" rx="7" fill="#f4f9f4" stroke="#2e8b57" stroke-width="1.5"/>
+    <text x="302" y="166" font-weight="bold" fill="#1f5c3a">Acetylation &#8212; acts twice</text>
+    <text x="302" y="184" font-size="10.5" fill="#333">removes lysine&#8217;s + charge &#8594; looser grip</text>
+    <text x="302" y="200" font-size="10.5" fill="#333">and is read by bromodomains &#8594; recruits</text>
+    <text x="302" y="214" font-size="10.5" fill="#333">the transcription machinery. Both open.</text>
+
+    <rect x="292" y="228" width="228" height="88" rx="7" fill="#fdf7ee" stroke="#c9871f" stroke-width="1.5"/>
+    <text x="302" y="248" font-weight="bold" fill="#8a5a10">Methylation &#8212; pure information</text>
+    <text x="302" y="266" font-size="10.5" fill="#333">no charge change. Meaning depends</text>
+    <text x="302" y="280" font-size="10.5" fill="#333">entirely on which lysine:</text>
+    <text x="312" y="298" font-size="10.5" fill="#2e8b57">H3K4me3 &#8594; ACTIVE promoter</text>
+    <text x="312" y="312" font-size="10.5" fill="#d1495b">H3K9me3 / H3K27me3 &#8594; REPRESSED</text>
+  </g>
+
+  <line x1="544" y1="14" x2="544" y2="330" stroke="#ddd" stroke-width="2"/>
+  <text x="562" y="22" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#111">Silencing spreads itself</text>
+  <g>
+    <circle cx="596" cy="72" r="17" fill="#d1495b"/><circle cx="648" cy="72" r="17" fill="#d1495b"/><circle cx="700" cy="72" r="17" fill="#cfd8dc"/><circle cx="752" cy="72" r="17" fill="#cfd8dc"/>
+    <line x1="579" y1="72" x2="769" y2="72" stroke="#5d6b73" stroke-width="2.4"/>
+    <text x="596" y="76" font-family="Helvetica,Arial,sans-serif" font-size="8" fill="#fff" text-anchor="middle">me3</text>
+    <text x="648" y="76" font-family="Helvetica,Arial,sans-serif" font-size="8" fill="#fff" text-anchor="middle">me3</text>
+    <rect x="624" y="102" width="48" height="20" rx="5" fill="#e8f0fb" stroke="#1a6fb5" stroke-width="1.3"/>
+    <text x="648" y="116" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#134f80" text-anchor="middle">HP1</text>
+    <path d="M 648 96 L 648 102" stroke="#1a6fb5" stroke-width="2"/>
+    <rect x="676" y="130" width="80" height="20" rx="5" fill="#dbeadb" stroke="#2e8b57" stroke-width="1.3"/>
+    <text x="716" y="144" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#1f5c3a" text-anchor="middle">SUV39H1</text>
+    <path d="M 672 114 L 700 130" stroke="#1a6fb5" stroke-width="2" marker-end="url(#h)"/>
+    <path d="M 706 128 q 6 -30 -4 -38" fill="none" stroke="#2e8b57" stroke-width="2.2" marker-end="url(#i)"/>
+    <text x="562" y="176" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333">the mark recruits the writer of more of itself</text>
+    <text x="562" y="192" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="bold" fill="#d1495b">= positive feedback in space</text>
+    <text x="562" y="210" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333">&#8594; bistable: a region is silenced or open,</text>
+    <text x="562" y="226" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333">never half. It will not peter out on its own,</text>
+    <text x="562" y="242" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333">so the genome must encode boundaries.</text>
+    <rect x="562" y="256" width="200" height="24" rx="5" fill="#fdeee0" stroke="#c9871f" stroke-width="1.5"/>
+    <text x="662" y="272" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#8a5a10" text-anchor="middle">INSULATOR breaks the loop</text>
+    <text x="562" y="304" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333">Survives replication: parental histones split,</text>
+    <text x="562" y="320" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333">the loop refills the pattern on new ones.</text>
+  </g>
+
+  <rect x="14" y="348" width="770" height="98" rx="8" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1.5"/>
+  <text x="28" y="372" font-family="Helvetica,Arial,sans-serif" font-size="12" font-weight="bold" fill="#111">Accessibility is a Boltzmann competition, not a lock</text>
+  <text x="28" y="394" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#333">P(accessible) = e^(&#8722;&#916;G/kT) / (1 + e^(&#8722;&#916;G/kT))</text>
+  <text x="330" y="394" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#333">&#916;G = 4 kT &#8594; 1.8%&#160;&#160;&#183;&#160;&#160;&#916;G = 1.5 kT &#8594; 18%&#160;&#160;&#183;&#160;&#160;a 10&#215; swing</text>
+  <text x="28" y="418" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#1a6fb5">2.5 kT is a couple of hydrogen bonds &#8212; well within what removing four positive charges supplies.</text>
+  <text x="28" y="438" font-family="Helvetica,Arial,sans-serif" font-size="11.5" font-weight="bold" fill="#1a6fb5">Chromatin regulation works at energies near kT, because that is where a Boltzmann factor has leverage.</text>
+  <defs>
+    <marker id="h" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#555"/></marker>
+    <marker id="i" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#2e8b57"/></marker>
+  </defs>
+</svg>

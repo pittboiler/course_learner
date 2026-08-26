@@ -1,90 +1,102 @@
 # Molecular & Cell Biology — Syllabus
 
-> Life Sciences · Tier 1 · ~22 lessons · Prereqs: [general-biology](../general-biology/syllabus.md) · Roadmap id: `molecular-cell-biology`
+> Life Sciences · Tier 1 · 17 lessons · Prereqs: [general-biology](../general-biology/syllabus.md) · Roadmap id: `molecular-cell-biology`
 
 ## Goal
 
-Learn how a cell works as a physical machine: how proteins fold into shapes that do jobs, how membranes and pumps build the electrical and chemical gradients life runs on, how the cell traffics and moves its own parts, how it reads signals and decides to divide, and how it copies, repairs, and expresses its genome. You will be able to reason mechanistically — given a component, predict what breaks when it fails — from the atomic scale of a binding site up to the logic of the cell cycle. This course deliberately skips organismal physiology (see `physiology`) and the detailed enzymology of metabolic pathways (see `biochemistry`); it uses just enough thermodynamics and kinetics to make mechanisms make sense.
+Learn how a cell works as a machine that builds, moves, decides, divides, and repairs itself. You will be able to reason mechanistically — given a component, predict what breaks when it fails — from a motor stepping along a filament, through a signalling cascade that turns one ligand into a transcriptional program, to the switches that make cell division a one-way street and the failures of those switches that produce cancer.
+
+**Scope discipline.** This course owns the *cell-biological* layer and deliberately does not re-derive material that other courses in this library own:
+
+| Already taught elsewhere | Owner |
+|---|---|
+| Protein structure, folding, enzymes, allostery | [biochemistry](../biochemistry/syllabus.md) 1.3–1.4, 2.1–2.4 |
+| Bilayer physics, transport energetics, $\Delta G$ of pumping | [biochemistry](../biochemistry/syllabus.md) 4.1, 4.3 · [biophysics](../biophysics/syllabus.md) 3.4–3.5 |
+| Nernst, Goldman, resting and action potentials | [biophysics](../biophysics/syllabus.md) 4.4–4.5 |
+| Motor stepping as a Brownian ratchet (the *physics* of motors) | [biophysics](../biophysics/syllabus.md) 4.3 |
+| Nucleic-acid structure, the genetic code, semiconservative replication | [biochemistry](../biochemistry/syllabus.md) 4.4–4.5 · [general-biology](../general-biology/syllabus.md) 3.3–3.4 |
+| Cell-cycle phases, mitosis and meiosis, organelle inventory | [general-biology](../general-biology/syllabus.md) 1.4, 2.4–2.5 |
+| Mutation classes, lesion-specific DNA repair chemistry, operons, epigenetic inheritance | [genetics](../genetics/syllabus.md) 3.2–3.5 |
+
+Those facts are *used* freely here; every one of them is listed on the [reference card](reference.md) with a pointer to the course that derives it.
 
 ## Dangerous Checklist
 
 When you finish, you can:
 
-- [ ] Predict a protein's behavior from its structure — read a fold, locate a binding site, and explain how a point mutation could abolish function
-- [ ] Compute a membrane potential from ion gradients using the Nernst and Goldman equations, and say what the number means physically
-- [ ] Classify a transport event as passive, primary-active, or secondary-active, and trace where its energy comes from
-- [ ] Trace a secreted protein from ribosome to cell surface, naming each compartment and the sorting signal that routes it
-- [ ] Explain how motor proteins convert ATP hydrolysis into directed motion, and why cytoskeletal filaments are polarized
-- [ ] Diagram a signaling cascade from ligand to cellular response, and identify where amplification and feedback occur
-- [ ] Explain how the cell cycle is gated by checkpoints and cyclin–CDK activity, and how loss of that control produces cancer
-- [ ] Describe DNA replication at a fork, naming the enzymes and why the two strands are copied differently
-- [ ] Match a type of DNA damage to the repair pathway that fixes it, and predict the consequence of losing that pathway
-- [ ] Explain how transcription is initiated and regulated, distinguishing prokaryotic operons from eukaryotic combinatorial control
-- [ ] Trace a eukaryotic mRNA from primary transcript through splicing, capping, and export to a finished protein
-- [ ] Explain how a single genome yields many cell types, using differential gene expression and a worked example of stem-cell fate
+- [ ] Explain why the cytoplasm behaves like a crowded, partly-condensed gel rather than a dilute solution, and predict what crowding does to a binding equilibrium
+- [ ] Distinguish actin, microtubules, and intermediate filaments by polarity, dynamics, and mechanical job — and predict the phenotype of a drug that blocks each
+- [ ] Explain how track polarity plus motor identity determines the direction cargo moves, and diagnose a trafficking disease from a missing adaptor
+- [ ] Trace a secreted protein from ribosome to cell surface, naming every compartment, coat, and sorting signal on the way
+- [ ] Diagram a signalling cascade from ligand to response, locate the amplification steps, and estimate the fold-amplification
+- [ ] Explain how phosphorylation, feedback, and scaffolds turn a graded input into a switch-like output
+- [ ] Explain why cell-cycle transitions are irreversible, in terms of cyclin–CDK activity and targeted protein destruction
+- [ ] Trace the DNA-damage response from lesion to decision (arrest, senescence, or apoptosis) and say where p53 sits in it
+- [ ] Explain why homologous recombination is available only in part of the cycle, and why that fact underlies BRCA-targeted cancer therapy
+- [ ] Argue why cancer requires several mutations in specific categories, and distinguish drivers from passengers
+- [ ] Explain how chromatin state, enhancers, splicing, and protein turnover each set the abundance of one protein
+- [ ] Explain how one genome produces many stable cell identities, and what reprogramming demonstrates about that stability
 
 ## Modules
 
-### Module 1: Molecules, Membranes & Transport
+### Module 1: The Cell as a Built, Moving Machine
 
-Build the cell's parts list and its border: what macromolecules are shaped like, why membranes separate inside from outside, and how the cell moves things across that border to store energy as gradients.
-
-| # | Lesson | Goal (one line) | Key concepts |
-|---|---|---|---|
-| 1.1 | Proteins: from sequence to shape | Read the four levels of protein structure and predict folding drivers | primary/secondary/tertiary/quaternary structure, hydrophobic collapse, domains |
-| 1.2 | Protein function & binding | Explain function as shape-complementary binding, and how mutations break it | active sites, ligand affinity, conformational change, allostery |
-| 1.3 | Nucleic acids as information | Explain how DNA/RNA structure encodes and templates information | base pairing, antiparallel strands, major/minor groove, RNA vs DNA |
-| 1.4 | Membranes: the fluid bilayer | Explain why lipids self-assemble into a selective barrier | amphipathic lipids, self-assembly, fluidity, membrane proteins |
-| 1.5 | Passive transport & diffusion | Predict which molecules cross freely and which need a channel | permeability, channels, facilitated diffusion, electrochemical gradient |
-| 1.6 | Pumps, gradients & the membrane potential | Compute a membrane potential and trace the energy behind active transport | Na⁺/K⁺-ATPase, primary vs secondary active transport, Nernst & Goldman equations |
-
-**Boss problem 1:** A cell sits in seawater-like fluid with given intracellular/extracellular Na⁺, K⁺, and Cl⁻ concentrations. (a) Compute the Nernst potential for each ion. (b) Given relative permeabilities, use the Goldman equation to find the resting potential and say which ion dominates and why. (c) A toxin blocks the Na⁺/K⁺-ATPase. Predict, step by step, what happens to the gradients, the resting potential, and the cell's volume over the next minutes to hours — and explain the causal chain.
-
-### Module 2: The Cytoskeleton & Cell Signaling
-
-The cell as a dynamic, responsive machine: the polymer scaffolding that gives it shape and motion, and the molecular circuitry that lets it sense and react to its environment.
+The cell's interior is neither a bag of soup nor a rigid solid. This module builds the physical scaffolding — the crowded, self-organizing medium, the polymer skeleton that gives it shape, the motors that haul things along it, and the membrane-traffic system that delivers.
 
 | # | Lesson | Goal (one line) | Key concepts |
 |---|---|---|---|
-| 2.1 | The cytoskeleton: three filament systems | Distinguish actin, microtubules, and intermediate filaments by structure and role | polarity, dynamic instability, treadmilling, mechanical roles |
-| 2.2 | Motor proteins & cell motility | Explain how motors turn ATP into directed movement along filaments | myosin, kinesin, dynein, power stroke, cargo transport |
-| 2.3 | The endomembrane system & protein trafficking | Trace a protein through the secretory pathway and name its sorting signals | ER, Golgi, signal sequences, vesicle budding & fusion, targeting |
-| 2.4 | Signaling I: receptors & ligands | Classify receptor types and explain signal reception at the membrane | GPCRs, receptor tyrosine kinases, ligand binding, receptor activation |
-| 2.5 | Signaling II: second messengers & amplification | Trace a cascade from receptor to response and locate amplification | cAMP, Ca²⁺, kinase cascades, signal amplification |
-| 2.6 | Signaling III: circuits, feedback & integration | Explain how cells integrate multiple signals with feedback and crosstalk | MAPK cascade, negative/positive feedback, signal integration, adaptation |
+| 1.1 | The crowded cell & biomolecular condensates | Explain why cytoplasm is not a test tube, and how membraneless organelles form | macromolecular crowding, excluded volume, weak multivalent interaction, liquid–liquid phase separation, nucleolus & stress granules |
+| 1.2 | The cytoskeleton: three filament systems | Distinguish actin, microtubules, and intermediate filaments by polarity and dynamics | polarity ($+$/$-$ ends), nucleation, critical concentration, treadmilling, dynamic instability, mechanical roles |
+| 1.3 | Motors & cargo logistics | Predict which way a cargo moves from track polarity and motor identity | kinesin/dynein/myosin directionality, cargo adaptors, processivity, the mitotic spindle as a motor problem |
+| 1.4 | The endomembrane system & protein trafficking | Trace a protein through the secretory pathway and name each sorting signal | signal sequence, co-translational translocation, COPII/COPI/clathrin coats, SNARE fusion, glycosylation, lysosomal targeting |
 
-**Boss problem 2:** A growth factor binds a receptor tyrosine kinase and triggers a MAPK cascade that ends in a transcriptional response, while the cell simultaneously reorganizes its actin to migrate toward the source. (a) Diagram the full path from ligand binding to (i) gene expression and (ii) cytoskeletal change, naming each relay. (b) Identify two points where the signal is amplified and estimate the fold-amplification qualitatively. (c) A mutation locks the downstream kinase in its active state independent of ligand. Predict the effect on the cell's behavior and connect it to the next module.
+**Boss problem 1:** A cultured neuron is treated with a drug that severs microtubules, and separately with one that blocks dynein. (a) For each treatment, predict what happens to a vesicle carrying a synaptic protein that was budding from the Golgi, and say precisely which step fails. (b) The neuron's axon is 1 mm long. Estimate, using diffusion alone, how long a 50 kDa protein would need to reach the tip ($D \approx 20\ \mu\mathrm{m}^2/\mathrm{s}$), and compare with a kinesin walking at $1\ \mu\mathrm{m/s}$ — then state the general rule this comparison establishes about when cells must use motors instead of diffusion. (c) A patient has a mutation in the adaptor that links a specific cargo to kinesin, while kinesin itself is normal. Explain why the defect is cargo-selective rather than global.
 
-### Module 3: The Cell Cycle & Genome Maintenance
+### Module 2: Signalling — How a Cell Decides
 
-How a cell decides to divide, copies its genome faithfully, guards against damage, and what happens — cancer — when that control fails. This module deliberately bridges into cancer as the failure mode that motivates every checkpoint.
+The molecular circuitry that turns an external molecule into an internal decision. Four lessons, because signalling is the part of cell biology that behaves most like engineering: reception, transduction, amplification, and control.
 
 | # | Lesson | Goal (one line) | Key concepts |
 |---|---|---|---|
-| 3.1 | The cell cycle & its engine | Explain the phases and how cyclin–CDK activity drives progression | G1/S/G2/M, cyclins, CDKs, cyclin degradation |
-| 3.2 | Checkpoints, apoptosis & cancer | Explain how checkpoints gate the cycle and how their loss causes cancer | DNA-damage checkpoint, p53, apoptosis, oncogenes & tumor suppressors |
-| 3.3 | DNA replication at the fork | Name the enzymes at a replication fork and why the strands differ | helicase, polymerase, leading/lagging strands, Okazaki fragments, semiconservative replication |
-| 3.4 | DNA repair | Match a lesion to its repair pathway and predict loss-of-repair consequences | mismatch, base/nucleotide excision, double-strand break repair, mutation rate |
-| 3.5 | Recombination | Explain homologous recombination and its roles in repair and diversity | strand exchange, crossing over, HR vs NHEJ, genetic diversity |
+| 2.1 | Receptors: reading the outside world | Classify a receptor and predict its response from ligand affinity and occupancy | GPCRs, receptor tyrosine kinases, ion-channel-coupled and nuclear receptors, $K_d$ and occupancy, receptor number & sensitivity |
+| 2.2 | Second messengers & amplification | Trace a cascade from receptor to response and compute its amplification | heterotrimeric G proteins, cAMP–PKA, PLC–IP$_3$–DAG–Ca$^{2+}$, catalytic amplification, signal termination |
+| 2.3 | Kinase cascades & the phosphorylation switch | Explain why cells relay signals with kinases and how a cascade sharpens a response | RTK → Ras → Raf → MEK → ERK, phosphorylation as a reversible switch, scaffolds, ultrasensitivity & the Hill coefficient |
+| 2.4 | Circuits: feedback, adaptation & crosstalk | Predict a circuit's dynamic behaviour from its feedback wiring | negative feedback & adaptation, positive feedback & bistability, feedforward motifs, crosstalk, receptor desensitization |
 
-**Boss problem 3:** A cell acquires a mutation that inactivates its mismatch-repair system and, later, a mutation that disables a G1/S checkpoint. (a) Explain what each mutation does in isolation to mutation rate and cycle control. (b) Argue why the *combination* is far more dangerous than either alone, connecting elevated mutation rate to the accumulation of driver mutations. (c) A drug forces damaged cells into apoptosis by mimicking active p53. Explain why this could selectively kill the cancerous cells, and name one way the tumor could resist.
+**Boss problem 2:** A growth factor binds an RTK; the cell responds by transcribing new genes and by crawling toward the source. (a) Diagram the path from ligand to (i) transcription and (ii) actin remodelling, naming each relay and noting where the two branches diverge. (b) One ligand molecule ultimately produces roughly $10^{5}$ phosphorylated ERK molecules. Identify the two catalytic steps that supply most of that gain and estimate the fold-amplification at each. (c) A mutation locks Raf in its active conformation. Predict the effect on ERK output, on the negative feedback that normally limits it, and on the cell's division behaviour — then say which Module 3 lesson picks the story up.
 
-### Module 4: Gene Expression — Transcription to Translation
+### Module 3: Division, Damage & Cancer
 
-How the genome is read out into proteins, and how that read-out is controlled to make one genome build many cell types. The payoff module: it ties structure (M1), signaling (M2), and cell-cycle control (M3) into the flow of genetic information.
+How a cell commits to dividing, how it detects that its genome is broken, how it chooses a repair strategy, and what happens when those controls fail. Cancer is not an appendix here — it is the failure mode that explains why every switch is built the way it is.
 
 | # | Lesson | Goal (one line) | Key concepts |
 |---|---|---|---|
-| 4.1 | Transcription: reading DNA into RNA | Explain how RNA polymerase initiates, elongates, and terminates | promoters, RNA polymerase, template strand, initiation/elongation/termination |
-| 4.2 | Regulating transcription | Contrast prokaryotic operons with eukaryotic combinatorial control | operons, transcription factors, enhancers, chromatin & accessibility |
-| 4.3 | RNA processing | Trace a primary transcript through the modifications that make a mature mRNA | 5′ cap, splicing, polyadenylation, alternative splicing, export |
-| 4.4 | Translation: the genetic code in action | Explain how the ribosome decodes mRNA into protein | codons, tRNA, ribosome, reading frame, start/stop |
-| 4.5 | Stem cells & development: one genome, many cells | Explain how differential expression yields distinct cell types | differentiation, potency, master regulators, gene-regulatory networks |
+| 3.1 | The cell-cycle engine & why transitions are irreversible | Explain cycle progression as cyclin–CDK activity made one-way by destruction | cyclin–CDK pairs, CDK inhibitors, SCF and APC/C ubiquitin ligases, the restriction point as a bistable switch |
+| 3.2 | The DNA-damage response | Trace a lesion to a cellular decision and place p53 in the pathway | damage sensors, ATM/ATR, checkpoint kinases, p53 stabilization, arrest vs. senescence vs. apoptosis |
+| 3.3 | Double-strand breaks: HR vs. NHEJ | Explain why the repair choice depends on cell-cycle phase, and its clinical consequence | end resection, homologous recombination, non-homologous end joining, BRCA1/2, PARP inhibitors & synthetic lethality |
+| 3.4 | Cancer as a failure of control | Argue why cancer needs several specific mutations, and read a tumour genome | oncogene vs. tumour suppressor, two-hit hypothesis, driver vs. passenger, hallmarks, targeted therapy & resistance |
 
-**Boss problem 4:** A single alternative-splicing choice in a developing cell determines whether it becomes a neuron or a skin cell. (a) Trace the information flow from the relevant gene through transcription, splicing, and translation to the two possible protein outcomes. (b) Explain how an upstream signal (tie back to Module 2) could bias the splicing decision. (c) Given that both cell types carry identical DNA, explain in mechanistic terms — using differential expression and chromatin state — how the choice is made stable and heritable through subsequent divisions.
+**Boss problem 3:** A cell lineage loses mismatch repair, then later loses one *TP53* allele and, later still, the second. (a) Say what each event does on its own — to mutation rate, and to the damage response. (b) Argue why the *order* matters and why the combination is far worse than the sum, connecting elevated mutation rate to the acquisition of driver mutations. (c) The resulting tumour is also *BRCA2*-deficient. Explain, in terms of pathway choice from 3.3, why a PARP inhibitor should selectively kill the tumour cells, and name one mechanism by which the tumour could become resistant.
+
+### Module 4: Expression Control & Cell Identity
+
+The payoff module. One genome, one set of instructions, and a hundred stable cell types — because expression is controlled at every layer from chromatin accessibility down to how fast the finished protein is destroyed.
+
+| # | Lesson | Goal (one line) | Key concepts |
+|---|---|---|---|
+| 4.1 | Chromatin: packaging as regulation | Explain how DNA packaging sets which genes are even readable | nucleosome, histone tails & modifications, writers/readers/erasers, chromatin remodellers, euchromatin vs. heterochromatin |
+| 4.2 | The eukaryotic transcription machine | Assemble the machinery at a promoter and explain what an enhancer physically does | RNA Pol II, general transcription factors, Mediator, enhancer–promoter looping, transcriptional bursting |
+| 4.3 | RNA processing & the mRNA life cycle | Trace a transcript from nascent RNA to a translated, then degraded, message | 5′ cap, spliceosome & splicing, polyadenylation, export, alternative splicing, mRNA half-life, miRNA, nonsense-mediated decay |
+| 4.4 | Protein quality control & degradation | Explain how the cell decides that a protein should be destroyed | chaperone triage, ubiquitin code, 26S proteasome, ER stress & the unfolded-protein response, autophagy, protein half-life |
+| 4.5 | Stem cells, differentiation & reprogramming | Explain how one genome produces many stable identities, and what makes them stable | potency, master regulators, gene-regulatory networks, positive-feedback lock-in, Waddington landscape, iPSC reprogramming |
+
+**Boss problem 4:** A progenitor cell must choose between a neuronal and an epidermal fate, and the choice is executed partly through an alternative-splicing switch. (a) Trace the information flow from an upstream signal (tie back to Module 2) through chromatin state, transcription, splicing, translation, and protein turnover, naming the control point at each layer. (b) Measured mRNA for the fate gene rises 4-fold while its protein rises 40-fold. Identify at least two layers that could supply the extra 10-fold and say how you would test which. (c) Both daughter cell types carry identical DNA. Explain mechanistically what makes each identity *stable* across subsequent divisions — and what Yamanaka's four factors demonstrate about how stable it really is.
 
 ## Sources of truth
 
 - Alberts et al., *Molecular Biology of the Cell* — the spine for mechanism, terminology, and rigor level.
-- Lodish et al., *Molecular Cell Biology* — for signaling and experimental framing.
-- For quantitative membrane/transport treatment (Nernst, Goldman), the conventions follow standard biophysics usage as in Alberts' quantitative appendices; numbers and constants are defined at first use in each lesson.
+- Lodish et al., *Molecular Cell Biology* — for signalling and experimental framing.
+- Weinberg, *The Biology of Cancer* — for Module 3's oncogene/tumour-suppressor logic.
+- Physical numbers (diffusion coefficients, copy numbers, rates) follow Milo & Phillips, *Cell Biology by the Numbers*; constants are defined at first use.
+
+> Note (2026-08-26): trimmed from a 22-lesson draft to 17. Seven lessons duplicated `biochemistry`, `biophysics`, `general-biology`, or `genetics` and were removed; the module structure was rebuilt around what this course uniquely owns. DNA repair *chemistry* now lives in [genetics 3.3](../genetics/lessons/03-03-dna-repair.md); this course owns the *decision* layer (3.2) and the double-strand-break pathway choice (3.3). Gene-regulatory *logic* lives in [genetics 3.4–3.5](../genetics/syllabus.md); this course owns the *machinery* (4.1–4.2).

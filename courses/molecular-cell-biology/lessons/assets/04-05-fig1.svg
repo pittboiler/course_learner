@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 470" width="800" height="470" role="img" aria-label="Waddington landscape with branching valleys, the toggle switch circuit and its phase portrait, and pioneer factor versus ordinary factor on closed chromatin">
+  <rect width="800" height="470" fill="#ffffff"/>
+  <text x="14" y="22" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#111">Waddington&#8217;s landscape &#8212; the valleys are attractors, the ridges are thresholds</text>
+
+  <path d="M 30 46 C 130 46 130 92 210 92 C 290 92 290 146 350 146 C 410 146 410 200 452 200" fill="none" stroke="#8fa8c0" stroke-width="2"/>
+  <path d="M 30 78 C 130 78 130 124 210 124 C 290 124 290 178 350 178 C 410 178 410 232 452 232" fill="none" stroke="#8fa8c0" stroke-width="2"/>
+  <path d="M 210 92 C 250 108 250 150 288 168 C 320 184 330 212 340 236" fill="none" stroke="#8fa8c0" stroke-width="2"/>
+  <path d="M 210 124 C 240 140 236 176 250 200 C 264 224 262 240 258 254" fill="none" stroke="#8fa8c0" stroke-width="2"/>
+  <path d="M 118 60 C 150 76 152 116 176 140 C 196 160 194 190 190 214" fill="none" stroke="#8fa8c0" stroke-width="2"/>
+
+  <circle cx="52" cy="62" r="11" fill="#d1495b"/>
+  <text x="52" y="40" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#d1495b" text-anchor="middle">zygote</text>
+  <circle cx="188" cy="218" r="9" fill="#1a6fb5"/>
+  <circle cx="258" cy="258" r="9" fill="#1a6fb5"/>
+  <circle cx="342" cy="240" r="9" fill="#1a6fb5"/>
+  <circle cx="452" cy="216" r="9" fill="#1a6fb5"/>
+  <text x="188" y="240" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#134f80" text-anchor="middle">fate A</text>
+  <text x="258" y="280" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#134f80" text-anchor="middle">fate B</text>
+  <text x="342" y="262" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#134f80" text-anchor="middle">fate C</text>
+  <text x="460" y="240" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#134f80">fate D</text>
+  <path d="M 250 268 C 190 250 110 160 62 78" fill="none" stroke="#2e8b57" stroke-width="2.6" stroke-dasharray="6 4" marker-end="url(#k)"/>
+  <text x="118" y="200" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#2e8b57">Yamanaka: OCT4 SOX2</text>
+  <text x="118" y="216" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#2e8b57">KLF4 MYC &#8212; uphill</text>
+  <text x="30" y="304" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#333">Escape time &#8776; &#964;&#8320; e^(&#916;U/D): exponential in barrier height.</text>
+  <text x="30" y="320" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="bold" fill="#d1495b">&#916;U = 15D &#8594; ~9000 years.&#160;&#160;&#916;U = 8D &#8594; ~8 years.</text>
+  <text x="30" y="336" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#333">The factors do not push the cell over &#8212; they lower the</text>
+  <text x="30" y="352" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#333">barrier and wait. Hence 0.1&#8211;1% efficiency, over weeks.</text>
+
+  <line x1="500" y1="14" x2="500" y2="366" stroke="#ddd" stroke-width="2"/>
+  <text x="520" y="22" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#111">The toggle switch</text>
+  <g font-family="Helvetica,Arial,sans-serif" font-size="11">
+    <rect x="530" y="40" width="60" height="28" rx="6" fill="#e8f0fb" stroke="#1a6fb5" stroke-width="1.6"/><text x="560" y="59" text-anchor="middle" fill="#134f80">X</text>
+    <rect x="676" y="40" width="60" height="28" rx="6" fill="#dbeadb" stroke="#2e8b57" stroke-width="1.6"/><text x="706" y="59" text-anchor="middle" fill="#1f5c3a">Y</text>
+    <path d="M 530 48 q -22 6 0 14" fill="none" stroke="#1a6fb5" stroke-width="2" marker-end="url(#k2)"/>
+    <path d="M 736 48 q 22 6 0 14" fill="none" stroke="#2e8b57" stroke-width="2" marker-end="url(#k3)"/>
+    <text x="506" y="82" fill="#1a6fb5" font-size="10">self-act.</text>
+    <text x="716" y="82" fill="#2e8b57" font-size="10">self-act.</text>
+    <line x1="592" y1="48" x2="668" y2="48" stroke="#d1495b" stroke-width="2.2"/><line x1="668" y1="42" x2="668" y2="54" stroke="#d1495b" stroke-width="3"/>
+    <line x1="674" y1="62" x2="598" y2="62" stroke="#d1495b" stroke-width="2.2"/><line x1="598" y1="56" x2="598" y2="68" stroke="#d1495b" stroke-width="3"/>
+    <text x="633" y="34" text-anchor="middle" fill="#d1495b" font-size="10">mutual repression</text>
+  </g>
+  <line x1="546" y1="300" x2="762" y2="300" stroke="#333" stroke-width="1.8"/>
+  <line x1="546" y1="300" x2="546" y2="106" stroke="#333" stroke-width="1.8"/>
+  <text x="540" y="118" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333" text-anchor="end">y</text>
+  <text x="762" y="318" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333" text-anchor="end">x</text>
+  <circle cx="572" cy="130" r="6" fill="#111"/>
+  <circle cx="736" cy="286" r="6" fill="#111"/>
+  <circle cx="646" cy="212" r="6" fill="#fff" stroke="#111" stroke-width="2.4"/>
+  <line x1="546" y1="300" x2="762" y2="106" stroke="#bbb" stroke-width="1.4" stroke-dasharray="4 4"/>
+  <text x="584" y="128" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#111">fate 1 (0.38, 2.62)</text>
+  <text x="730" y="278" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#111" text-anchor="end">fate 2 (2.62, 0.38)</text>
+  <text x="658" y="206" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#111">unstable (1.21, 1.21)</text>
+  <text x="546" y="336" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333">Needs n &gt; 1. With n = 1 there is only one state</text>
+  <text x="546" y="352" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333">&#8212; cooperativity is the prerequisite again.</text>
+
+  <line x1="14" y1="378" x2="786" y2="378" stroke="#ddd" stroke-width="2"/>
+  <text x="14" y="398" font-family="Helvetica,Arial,sans-serif" font-size="12" font-weight="bold" fill="#111">Why it takes a pioneer factor</text>
+  <g>
+    <circle cx="120" cy="432" r="20" fill="#cfd8dc" stroke="#5d6b73" stroke-width="1.5"/>
+    <path d="M 78 432 q 42 -26 84 0 q -42 26 -84 0" fill="none" stroke="#1a6fb5" stroke-width="3.4"/>
+    <rect x="188" y="420" width="76" height="24" rx="5" fill="#f0d4d8" stroke="#d1495b" stroke-width="1.4"/>
+    <text x="226" y="436" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#7a2530" text-anchor="middle">ordinary TF</text>
+    <line x1="150" y1="426" x2="186" y2="428" stroke="#d1495b" stroke-width="2"/>
+    <line x1="158" y1="418" x2="176" y2="438" stroke="#d1495b" stroke-width="3"/>
+    <line x1="176" y1="418" x2="158" y2="438" stroke="#d1495b" stroke-width="3"/>
+    <text x="30" y="466" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#d1495b">cannot reach a buried motif</text>
+
+    <circle cx="450" cy="432" r="20" fill="#cfd8dc" stroke="#5d6b73" stroke-width="1.5"/>
+    <path d="M 408 432 q 42 -26 84 0 q -42 26 -84 0" fill="none" stroke="#1a6fb5" stroke-width="3.4"/>
+    <rect x="384" y="392" width="80" height="22" rx="5" fill="#dbeadb" stroke="#2e8b57" stroke-width="1.6"/>
+    <text x="424" y="407" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#1f5c3a" text-anchor="middle">PIONEER</text>
+    <line x1="428" y1="414" x2="438" y2="424" stroke="#2e8b57" stroke-width="2.4"/>
+    <path d="M 476 424 L 522 424" stroke="#2e8b57" stroke-width="2.4" marker-end="url(#k)"/>
+    <rect x="524" y="412" width="98" height="24" rx="5" fill="#fdeee0" stroke="#c9871f" stroke-width="1.4"/>
+    <text x="573" y="428" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#8a5a10" text-anchor="middle">remodeller (ATP)</text>
+    <path d="M 630 424 L 674 424" stroke="#555" stroke-width="2" marker-end="url(#k4)"/>
+    <text x="682" y="428" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#2e8b57">region opens</text>
+    <text x="384" y="466" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#2e8b57">engages its motif on the nucleosome surface &#8212; only this can start lowering the chromatin barrier</text>
+  </g>
+  <defs>
+    <marker id="k" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#2e8b57"/></marker>
+    <marker id="k2" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#1a6fb5"/></marker>
+    <marker id="k3" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#2e8b57"/></marker>
+    <marker id="k4" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#555"/></marker>
+  </defs>
+</svg>

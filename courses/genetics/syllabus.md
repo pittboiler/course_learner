@@ -1,10 +1,23 @@
 # Genetics — Syllabus
 
-> Life Sciences · Tier 1 · ~19 lessons · Prereqs: [general-biology](../general-biology/syllabus.md) · Roadmap id: `genetics`
+> Life Sciences · Tier 1 · 19 lessons · Prereqs: [general-biology](../general-biology/syllabus.md) · Roadmap id: `genetics`
 
 ## Goal
 
-Learn to read heredity as a predictive science: from a single cross you should be able to say what the offspring will look like and with what probability, and from offspring ratios you should be able to reconstruct the genes, their interactions, and their arrangement on chromosomes. You will trace information from allele to phenotype through transmission, linkage, molecular sequence, and regulation, then zoom out to whole populations to predict how allele frequencies drift and shift under selection. This is the *inheritance-to-population* backbone; it deliberately skips deep molecular lab technique and bioinformatics algorithms (that's `computational-biology`) — recombinant-DNA and genomics tools appear only as a working taste.
+Learn to read heredity as a predictive science: from a single cross you should be able to say what the offspring will look like and with what probability, and from offspring ratios you should be able to reconstruct the genes, their interactions, and their arrangement on chromosomes. You will trace information from allele to phenotype through transmission, linkage, molecular sequence, and regulatory logic, then zoom out to variance you can partition and to the correlations between loci that let you *map* a trait in a whole population.
+
+**Scope discipline.** This course owns the *gene* — its transmission, its position, its damage and repair, its regulatory logic, and how you locate one statistically. It does not re-derive material other courses in this library own:
+
+| Already taught elsewhere | Owner |
+|---|---|
+| DNA structure, base pairing, the genetic code, replication | [general-biology](../general-biology/syllabus.md) 3.3–3.4 · [biochemistry](../biochemistry/syllabus.md) 4.4–4.5 |
+| Meiosis, chromosomes, and how crossing over physically happens | [general-biology](../general-biology/syllabus.md) 2.5 |
+| Hardy–Weinberg, drift, gene flow, selection as **evolutionary forces** | [general-biology](../general-biology/syllabus.md) 4.2 · [evolution-ecology](../evolution-ecology/syllabus.md) 1.3–1.5 |
+| Molecular clocks, coalescence, phylogenetic inference | [evolution-ecology](../evolution-ecology/syllabus.md) 2.3 |
+| Chromatin machinery, the transcription apparatus, RNA processing, protein turnover | [molecular-cell-biology](../molecular-cell-biology/syllabus.md) 4.1–4.4 |
+| Sequence-alignment and phylogeny **algorithms** | [computational-biology](../computational-biology/syllabus.md) |
+
+Hardy–Weinberg is *used* throughout Module 4 as a calculator; it is derived in `general-biology` 4.2 and pushed to Tier-1 depth in `evolution-ecology` 1.3. Every such assumption is listed on the [reference card](reference.md) with a pointer to where it is taught.
 
 ## Dangerous Checklist
 
@@ -19,8 +32,10 @@ When you finish, you can:
 - [ ] Classify mutations by molecular change and phenotypic effect, and name the repair pathway that reverses each lesion
 - [ ] Predict expression of the *lac* and *trp* operons for any regulatory genotype, including cis/trans reasoning in merodiploids
 - [ ] Partition phenotypic variance and estimate broad- and narrow-sense heritability, and predict a trait's response to selection
-- [ ] Test a population for Hardy–Weinberg equilibrium and estimate allele frequencies from phenotype counts
-- [ ] Predict how selection, drift, migration, and mutation change allele frequencies over generations
+- [ ] Compute an inbreeding coefficient from a pedigree and correct Hardy–Weinberg genotype frequencies for it
+- [ ] Detect population structure from an excess of homozygotes and quantify it with $F_{ST}$
+- [ ] Compute linkage disequilibrium between two markers and explain why LD is what makes association mapping possible
+- [ ] Read a GWAS result critically — distinguish a tagging marker from a causal variant, and a significant hit from a useful one
 - [ ] Outline how cloning, PCR, sequencing, and CRISPR let you read, amplify, and edit a gene
 
 ## Modules
@@ -61,30 +76,30 @@ The gene stops being an abstract "factor" and becomes a stretch of DNA that can 
 | 3.2 | Mutation | Classify mutations by molecular change and phenotypic effect | Point/frameshift, transitions/transversions, missense/nonsense/silent, forward vs. reverse, mutation rate |
 | 3.3 | DNA repair | Match each lesion to the pathway that fixes it, and link repair failure to disease | Proofreading, mismatch repair, base/nucleotide excision, direct reversal, mutator phenotypes |
 | 3.4 | Prokaryotic regulation: the operon | Predict operon output for any regulatory genotype | *lac* operon, induction, negative/positive control, CAP–cAMP, *trp* attenuation, cis vs. trans, merodiploids |
-| 3.5 | Eukaryotic regulation | Explain how eukaryotes control expression across many layers | Chromatin & histone modification, enhancers/TFs, RNA splicing, epigenetics, imprinting |
+| 3.5 | Eukaryotic regulatory logic & epigenetic inheritance | Predict inheritance patterns that DNA sequence alone cannot explain | *cis* vs. *trans* acting elements in eukaryotes, enhancer logic, position effect, genomic imprinting, X-inactivation & mosaicism, parent-of-origin pedigrees |
 | 3.6 | Reading & editing genes (a taste) | Outline how to clone, amplify, sequence, and edit a target gene | Restriction enzymes & cloning, PCR, Sanger vs. NGS sequencing, CRISPR-Cas9, reporter/knockout logic |
 
 **Boss problem 3:** For each *E. coli* genotype below, state whether functional β-galactosidase (the *lacZ* product) is made in the **absence** and in the **presence** of lactose, and justify in one phrase: (a) $I^{+}\,P^{+}\,O^{+}\,Z^{+}$; (b) $I^{-}\,P^{+}\,O^{+}\,Z^{+}$; (c) $I^{S}\,P^{+}\,O^{+}\,Z^{+}$; (d) merodiploid $I^{-}\,O^{+}\,Z^{-}\,/\,I^{+}\,O^{+}\,Z^{+}$; (e) merodiploid $I^{+}\,O^{c}\,Z^{-}\,/\,I^{+}\,O^{+}\,Z^{+}$. For (d) name which allele is dominant and why; for (e) explain why $O^{c}$ behaves differently from $I^{-}$.
 
-### Module 4: Quantitative & Population Genetics
+### Module 4: Quantitative Genetics, Populations & Genomes
 
-Zoom out. Single genes give way to variance you partition statistically, and single crosses give way to whole populations whose allele frequencies you can track forward in time.
+Zoom out from one cross to a whole population. Single genes give way to variance you partition statistically; single loci give way to correlations between loci, which is exactly the handle that lets you *find* a gene you have never seen.
 
 | # | Lesson | Goal (one line) | Key concepts |
 |---|---|---|---|
-| 4.1 | Quantitative traits & heritability | Partition phenotypic variance and estimate heritability | Polygenic/continuous traits, $V_P = V_G + V_E$, additive variance, $H^2$ vs. $h^2$, twin/parent-offspring estimates |
-| 4.2 | Response to selection & QTL | Predict a trait's response to selection and locate the loci behind it | Breeder's equation $R = h^2 S$, selection differential, QTL mapping, marker–trait association |
-| 4.3 | Hardy–Weinberg equilibrium | Estimate allele frequencies and test a population for equilibrium | $p^2{:}2pq{:}q^2$, HW assumptions, allele-frequency estimation, X-linked & multiple-allele HW |
-| 4.4 | Evolutionary forces | Predict how selection, drift, migration & mutation move allele frequencies | Selection coefficient, $\Delta q$, genetic drift & effective population size, gene flow, mutation–selection balance |
-| 4.5 | Human & evolutionary genetics (a taste) | Read genetic variation as a record of ancestry and disease risk | GWAS logic, linkage disequilibrium, coalescence intuition, polygenic risk, molecular clocks |
+| 4.1 | Quantitative traits & heritability | Partition phenotypic variance and estimate heritability | Polygenic/continuous traits, $V_P = V_G + V_E$, additive variance, $H^2$ vs. $h^2$, twin and parent–offspring estimates |
+| 4.2 | Response to selection & QTL mapping | Predict a trait's response to selection and locate the loci behind it | Breeder's equation $R = h^2 S$, selection differential, realized heritability, QTL mapping, marker–trait association, LOD scores |
+| 4.3 | Inbreeding, relatedness & population structure | Compute an inbreeding coefficient and correct genotype frequencies for it | Path counting, inbreeding coefficient $F$, kinship & coefficient of relationship, $q^2 + Fpq$, inbreeding depression, Wahlund effect, $F_{ST}$ |
+| 4.4 | Linkage disequilibrium, haplotypes & GWAS | Compute LD between markers and explain how it makes association mapping work | $D$ and $D'$, $r^2$, decay $D_t = D_0(1-c)^t$, haplotype blocks, tagging SNPs, GWAS design, Manhattan plots, population stratification |
+| 4.5 | Human genetics: risk, testing & genome medicine | Turn genetic information into a calibrated statement about one person's risk | Polygenic risk scores, penetrance vs. relative risk, variant classification (VUS), carrier & prenatal screening, pharmacogenomics, gene therapy |
 
-**Boss problem 4:** A recessive metabolic disorder afflicts 1 in 10,000 newborns in a large, randomly mating population. (a) Assuming Hardy–Weinberg equilibrium, compute the allele frequencies and the carrier frequency, and state the striking ratio of carriers to affected individuals. (b) The disorder is effectively lethal before reproduction (selection coefficient $s = 1$ against the homozygote); at mutation–selection balance, what mutation rate $\mu$ sustains the observed allele frequency? (c) In the same population a quantitative trait has narrow-sense heritability $h^2 = 0.5$, and breeders select parents whose mean exceeds the population mean by $S = 10$; predict the response $R$ in the next generation and explain in one sentence why extreme parents still give a muted response.
+**Boss problem 4:** A recessive metabolic disorder afflicts 1 in 10,000 newborns in a large, randomly mating population. (a) Compute the allele and carrier frequencies under Hardy–Weinberg, and state the carriers-per-affected ratio. (b) In an isolated village within that population, first-cousin marriages are common enough that the average inbreeding coefficient is $F = 0.01$. Recompute the frequency of affected births there using $q^2 + Fpq$, and state the fold-increase — this is the quantitative core of why consanguinity matters. (c) A GWAS in the wider population finds a SNP associated with the disorder at $p = 3\times10^{-9}$, but the SNP lies in an intergenic region 40 kb from the known causal gene. Explain, using linkage disequilibrium, why this is exactly what you should expect and why the SNP is almost certainly not causal. (d) A quantitative trait in the same population has $h^2 = 0.5$; breeders select parents whose mean exceeds the population mean by $S = 10$. Predict $R$, and explain in one sentence why extreme parents give a muted response.
 
-> Note (2026-08-04): landed at 17 lessons vs. the ~16 target (within tolerance). Module 3 carries an extra lesson so the recombinant-DNA/genomics "taste" isn't crammed into regulation, and Module 4 closes with a short human/evolutionary-genetics capstone that bridges to `evolution-ecology` and `computational-biology`.
+> Note (2026-08-26): revised from a 17-lesson draft that duplicated `general-biology` 4.2 and `evolution-ecology` 1.3–1.5. Hardy–Weinberg and the four evolutionary forces now belong to `evolution-ecology`, which builds a whole module on them; molecular clocks and coalescence go there too. In their place Module 4 takes the material that is genuinely genetics' own and appears nowhere else in the library: inbreeding and population structure (4.3), linkage disequilibrium and association mapping (4.4) — the direct sequel to Module 2's linkage — and human genome medicine (4.5). Lesson 3.5 was narrowed to regulatory *logic* and epigenetic inheritance patterns; the chromatin and transcription *machinery* is owned by `molecular-cell-biology` 4.1–4.2. Still 19 lessons.
 
 ## Sources of truth
 
 - Griffiths et al., *Introduction to Genetic Analysis* — problem style, three-point mapping and operon conventions.
 - Hartwell et al., *Genetics: From Genes to Genomes* — molecular-to-population narrative arc.
-- Hartl & Clark, *Principles of Population Genetics* — Hardy–Weinberg and evolutionary-force notation.
+- Hartl & Clark, *Principles of Population Genetics* — inbreeding, $F$-statistics, and linkage-disequilibrium notation.
 - Pierce, *Genetics: A Conceptual Approach* — pedigree and probability worked-example style.

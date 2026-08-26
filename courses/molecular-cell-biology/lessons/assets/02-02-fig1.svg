@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420" role="img" aria-label="GPCR amplification funnel and the Gq branch">
+  <rect width="800" height="420" fill="#ffffff"/>
+  <text x="16" y="24" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="bold" fill="#111">Gs branch: where the gain actually enters</text>
+
+  <g font-family="Helvetica,Arial,sans-serif" font-size="12">
+    <rect x="200" y="40" width="180" height="30" rx="6" fill="#f0d4d8" stroke="#d1495b" stroke-width="1.6"/>
+    <text x="290" y="60" text-anchor="middle" fill="#7a2530">1 ligand &#8594; 1 receptor</text>
+    <text x="396" y="60" fill="#888">&#215;1 &#8212; no gain</text>
+
+    <path d="M 290 70 L 290 92" stroke="#555" stroke-width="2" marker-end="url(#a)"/>
+    <rect x="180" y="94" width="220" height="30" rx="6" fill="#e8dff5" stroke="#6a4c93" stroke-width="1.6"/>
+    <text x="290" y="114" text-anchor="middle" fill="#3d2a5c">receptor is a GEF: 50 G proteins</text>
+    <text x="416" y="114" fill="#2e8b57" font-weight="bold">&#215;50 catalytic</text>
+
+    <path d="M 290 124 L 290 146" stroke="#555" stroke-width="2" marker-end="url(#a)"/>
+    <rect x="200" y="148" width="180" height="30" rx="6" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1.6"/>
+    <text x="290" y="168" text-anchor="middle" fill="#334">G&#945; &#8594; adenylyl cyclase</text>
+    <text x="396" y="168" fill="#888">&#215;1 &#8212; 1:1</text>
+
+    <path d="M 290 178 L 290 200" stroke="#555" stroke-width="2" marker-end="url(#a)"/>
+    <rect x="160" y="202" width="260" height="30" rx="6" fill="#dbeadb" stroke="#2e8b57" stroke-width="1.6"/>
+    <text x="290" y="222" text-anchor="middle" fill="#1f5c3a">cyclase: 200/s &#215; 5 s = 5&#215;10&#8308; cAMP</text>
+    <text x="436" y="222" fill="#2e8b57" font-weight="bold">&#215;1000 catalytic</text>
+
+    <path d="M 290 232 L 290 254" stroke="#555" stroke-width="2" marker-end="url(#a)"/>
+    <rect x="200" y="256" width="180" height="30" rx="6" fill="#fdeee0" stroke="#c9871f" stroke-width="1.6"/>
+    <text x="290" y="276" text-anchor="middle" fill="#8a5a10">4 cAMP release 1 PKA</text>
+    <text x="396" y="276" fill="#d1495b" font-weight="bold">&#247;4 &#8212; costs gain</text>
+
+    <path d="M 290 286 L 290 308" stroke="#555" stroke-width="2" marker-end="url(#a)"/>
+    <rect x="160" y="310" width="260" height="30" rx="6" fill="#dbeadb" stroke="#2e8b57" stroke-width="1.6"/>
+    <text x="290" y="330" text-anchor="middle" fill="#1f5c3a">PKA: 50/s &#215; 20 s per subunit</text>
+    <text x="436" y="330" fill="#2e8b57" font-weight="bold">&#215;1000 catalytic</text>
+
+    <rect x="160" y="356" width="360" height="34" rx="6" fill="#1a6fb5"/>
+    <text x="340" y="378" text-anchor="middle" fill="#fff" font-size="13" font-weight="bold">1.25 &#215; 10&#8311; substrates phosphorylated</text>
+  </g>
+
+  <line x1="560" y1="34" x2="560" y2="400" stroke="#ddd" stroke-width="2"/>
+  <text x="580" y="24" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="bold" fill="#111">Gq branch: one cut, two messengers</text>
+  <g font-family="Helvetica,Arial,sans-serif" font-size="11.5">
+    <rect x="596" y="48" width="170" height="28" rx="6" fill="#e8dff5" stroke="#6a4c93" stroke-width="1.5"/>
+    <text x="681" y="66" text-anchor="middle" fill="#3d2a5c">G&#945;q &#8594; phospholipase C</text>
+    <path d="M 681 76 L 681 96" stroke="#555" stroke-width="2" marker-end="url(#a)"/>
+    <rect x="616" y="98" width="130" height="26" rx="6" fill="#f6e7cd" stroke="#c8a165" stroke-width="1.5"/>
+    <text x="681" y="115" text-anchor="middle" fill="#8a6a2f">PIP&#8322; in the membrane</text>
+    <path d="M 660 124 L 618 156" stroke="#555" stroke-width="2" marker-end="url(#a)"/>
+    <path d="M 702 124 L 744 156" stroke="#555" stroke-width="2" marker-end="url(#a)"/>
+    <rect x="572" y="158" width="98" height="26" rx="6" fill="#dbeadb" stroke="#2e8b57" stroke-width="1.5"/>
+    <text x="621" y="175" text-anchor="middle" fill="#1f5c3a">IP&#8323; (soluble)</text>
+    <rect x="692" y="158" width="98" height="26" rx="6" fill="#fdeee0" stroke="#c9871f" stroke-width="1.5"/>
+    <text x="741" y="175" text-anchor="middle" fill="#8a5a10">DAG (stays)</text>
+    <path d="M 621 184 L 621 210" stroke="#555" stroke-width="2" marker-end="url(#a)"/>
+    <path d="M 741 184 L 741 210" stroke="#555" stroke-width="2" marker-end="url(#a)"/>
+    <rect x="568" y="212" width="106" height="42" rx="6" fill="#e8f0fb" stroke="#1a6fb5" stroke-width="1.5"/>
+    <text x="621" y="229" text-anchor="middle" fill="#134f80">opens ER Ca&#178;&#8314;</text>
+    <text x="621" y="245" text-anchor="middle" fill="#134f80">channels</text>
+    <rect x="694" y="212" width="94" height="42" rx="6" fill="#e8f0fb" stroke="#1a6fb5" stroke-width="1.5"/>
+    <text x="741" y="229" text-anchor="middle" fill="#134f80">activates</text>
+    <text x="741" y="245" text-anchor="middle" fill="#134f80">PKC</text>
+    <rect x="572" y="278" width="216" height="72" rx="8" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1.5"/>
+    <text x="584" y="298" fill="#333">Ca&#178;&#8314; is not synthesized &#8212; it is</text>
+    <text x="584" y="316" fill="#333">released down a 10,000-fold</text>
+    <text x="584" y="334" fill="#333">gradient the cell paid for in advance.</text>
+    <text x="572" y="378" fill="#666">That is why it is the fastest messenger.</text>
+  </g>
+  <defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#555"/></marker></defs>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" width="760" height="340" role="img" aria-label="Excluded volume and liquid-liquid phase separation">
+  <rect width="760" height="340" fill="#ffffff"/>
+  <text x="20" y="26" font-family="Helvetica,Arial,sans-serif" font-size="15" font-weight="bold" fill="#111">Excluded volume: a bigger particle has less room</text>
+  <rect x="20" y="40" width="330" height="230" fill="#fafafa" stroke="#333" stroke-width="2"/>
+  <g fill="#c9c9c9" stroke="#8a8a8a" stroke-width="1.5">
+    <circle cx="80" cy="95" r="26"/><circle cx="165" cy="72" r="26"/><circle cx="255" cy="100" r="26"/>
+    <circle cx="110" cy="175" r="26"/><circle cx="205" cy="160" r="26"/><circle cx="295" cy="180" r="26"/>
+    <circle cx="70" cy="240" r="26"/><circle cx="175" cy="240" r="26"/><circle cx="285" cy="245" r="26"/>
+  </g>
+  <g fill="none" stroke="#1a6fb5" stroke-width="1.6" stroke-dasharray="5 4">
+    <circle cx="80" cy="95" r="38"/><circle cx="165" cy="72" r="38"/><circle cx="255" cy="100" r="38"/>
+    <circle cx="110" cy="175" r="38"/><circle cx="205" cy="160" r="38"/><circle cx="295" cy="180" r="38"/>
+    <circle cx="70" cy="240" r="38"/><circle cx="175" cy="240" r="38"/><circle cx="285" cy="245" r="38"/>
+  </g>
+  <circle cx="145" cy="122" r="12" fill="#1a6fb5"/>
+  <circle cx="238" cy="215" r="12" fill="#d1495b"/>
+  <text x="30" y="292" font-family="Helvetica,Arial,sans-serif" font-size="12.5" fill="#333">grey = crowder (radius R) · dashed = zone forbidden to a particle of radius r</text>
+  <text x="30" y="312" font-family="Helvetica,Arial,sans-serif" font-size="12.5" fill="#1a6fb5">forbidden volume per crowder = (4/3)&#960;(R + r)&#179; &#8212; grows with r</text>
+  <text x="30" y="330" font-family="Helvetica,Arial,sans-serif" font-size="12.5" fill="#333">so A + B &#8594; AB frees space, and crowding rewards it</text>
+
+  <text x="400" y="26" font-family="Helvetica,Arial,sans-serif" font-size="15" font-weight="bold" fill="#111">Phase separation: above c_sat, two phases</text>
+  <line x1="425" y1="230" x2="730" y2="230" stroke="#333" stroke-width="2"/>
+  <line x1="425" y1="230" x2="425" y2="55" stroke="#333" stroke-width="2"/>
+  <text x="545" y="255" font-family="Helvetica,Arial,sans-serif" font-size="12.5" fill="#333">interaction strength &#8594;</text>
+  <text x="418" y="48" font-family="Helvetica,Arial,sans-serif" font-size="12.5" fill="#333" text-anchor="middle">c_tot</text>
+  <path d="M 440 205 Q 540 150 620 105 T 725 72" fill="none" stroke="#d1495b" stroke-width="2.5"/>
+  <text x="600" y="200" font-family="Helvetica,Arial,sans-serif" font-size="13" fill="#333">one phase</text>
+  <text x="470" y="95" font-family="Helvetica,Arial,sans-serif" font-size="13" fill="#d1495b">two phases</text>
+  <text x="470" y="113" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#d1495b">(droplets)</text>
+  <text x="626" y="128" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#d1495b">c_sat curve</text>
+  <rect x="440" y="272" width="290" height="56" rx="8" fill="#f3f6fa" stroke="#8fa8c0" stroke-width="1.5"/>
+  <circle cx="470" cy="300" r="13" fill="#d1495b" opacity="0.75"/>
+  <circle cx="505" cy="292" r="9" fill="#d1495b" opacity="0.75"/>
+  <circle cx="500" cy="316" r="7" fill="#d1495b" opacity="0.75"/>
+  <g fill="#d1495b" opacity="0.5"><circle cx="560" cy="285" r="2.5"/><circle cx="590" cy="305" r="2.5"/><circle cx="620" cy="288" r="2.5"/><circle cx="650" cy="312" r="2.5"/><circle cx="690" cy="292" r="2.5"/><circle cx="575" cy="320" r="2.5"/></g>
+  <text x="545" y="300" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#333">dilute phase pinned at c_sat</text>
+  <text x="545" y="316" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#333">add protein &#8594; more droplets, same free conc.</text>
+</svg>

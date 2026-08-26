@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 470" width="800" height="470" role="img" aria-label="The cell cycle ring with cyclin-CDK pairs and two irreversible destruction events, the Rb-E2F feedback loop, and a hysteresis plot of CDK activity against cyclin">
+  <rect width="800" height="470" fill="#ffffff"/>
+  <text x="14" y="24" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#111">One kinase, interchangeable timers &#8212; and two shredders</text>
+
+  <circle cx="200" cy="180" r="112" fill="none" stroke="#cfd8dc" stroke-width="26"/>
+  <path d="M 200 68 A 112 112 0 0 1 312 180" fill="none" stroke="#8fa8c0" stroke-width="26"/>
+  <path d="M 312 180 A 112 112 0 0 1 200 292" fill="none" stroke="#2e8b57" stroke-width="26"/>
+  <path d="M 200 292 A 112 112 0 0 1 88 180" fill="none" stroke="#c9871f" stroke-width="26"/>
+  <path d="M 88 180 A 112 112 0 0 1 200 68" fill="none" stroke="#6a4c93" stroke-width="26"/>
+  <g font-family="Helvetica,Arial,sans-serif" font-size="12" font-weight="bold" fill="#fff">
+    <text x="266" y="122" text-anchor="middle">S</text>
+    <text x="266" y="244" text-anchor="middle">G2</text>
+    <text x="134" y="244" text-anchor="middle">M</text>
+    <text x="134" y="122" text-anchor="middle">G1</text>
+  </g>
+  <g font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">
+    <text x="200" y="168" text-anchor="middle">cyclin D&#8211;CDK4/6 (G1)</text>
+    <text x="200" y="184" text-anchor="middle">cyclin E&#8211;CDK2 (G1/S)</text>
+    <text x="200" y="200" text-anchor="middle">cyclin A&#8211;CDK2 (S)</text>
+    <text x="200" y="216" text-anchor="middle">cyclin B&#8211;CDK1 (M)</text>
+  </g>
+  <g>
+    <circle cx="200" cy="68" r="11" fill="#d1495b"/>
+    <text x="200" y="46" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#d1495b" text-anchor="middle">SCF destroys the CDK inhibitor</text>
+    <text x="200" y="34" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#d1495b" text-anchor="middle">G1/S &#8212; one way</text>
+    <circle cx="120" cy="260" r="11" fill="#d1495b"/>
+    <text x="30" y="316" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#d1495b">APC/C destroys securin, then M-cyclin</text>
+    <text x="30" y="330" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#d1495b">metaphase &#8594; anaphase &#8594; exit &#8212; one way</text>
+  </g>
+  <text x="30" y="356" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#111">A phosphatase can undo a kinase.</text>
+  <text x="30" y="372" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="bold" fill="#111">Nothing un-hydrolyses a peptide bond.</text>
+
+  <line x1="392" y1="16" x2="392" y2="380" stroke="#ddd" stroke-width="2"/>
+  <text x="414" y="24" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#111">Rb&#8211;E2F: E2F promotes its own release</text>
+  <g font-family="Helvetica,Arial,sans-serif" font-size="11">
+    <rect x="414" y="44" width="120" height="26" rx="5" fill="#dbeadb" stroke="#2e8b57" stroke-width="1.4"/><text x="474" y="61" text-anchor="middle" fill="#1f5c3a">growth factor</text>
+    <path d="M 474 70 L 474 92" stroke="#555" stroke-width="2" marker-end="url(#d)"/>
+    <rect x="404" y="94" width="140" height="26" rx="5" fill="#e8f0fb" stroke="#1a6fb5" stroke-width="1.4"/><text x="474" y="111" text-anchor="middle" fill="#134f80">cyclin D&#8211;CDK4/6</text>
+    <path d="M 474 120 L 474 142" stroke="#555" stroke-width="2" marker-end="url(#d)"/>
+    <rect x="410" y="144" width="128" height="26" rx="5" fill="#fdeee0" stroke="#c9871f" stroke-width="1.4"/><text x="474" y="161" text-anchor="middle" fill="#8a5a10">Rb phosphorylated</text>
+    <path d="M 474 170 L 474 192" stroke="#555" stroke-width="2" marker-end="url(#d)"/>
+    <rect x="428" y="194" width="92" height="26" rx="5" fill="#f0d4d8" stroke="#d1495b" stroke-width="1.4"/><text x="474" y="211" text-anchor="middle" fill="#7a2530">free E2F</text>
+    <path d="M 474 220 L 474 242" stroke="#555" stroke-width="2" marker-end="url(#d)"/>
+    <rect x="410" y="244" width="128" height="26" rx="5" fill="#e8f0fb" stroke="#1a6fb5" stroke-width="1.4"/><text x="474" y="261" text-anchor="middle" fill="#134f80">cyclin E&#8211;CDK2</text>
+    <path d="M 548 257 q 46 -50 0 -96" fill="none" stroke="#2e8b57" stroke-width="2.4" marker-end="url(#e)"/>
+    <text x="562" y="212" fill="#2e8b57" font-size="10.5">+ feedback</text>
+    <text x="404" y="300" fill="#333" font-size="10.5">multisite Rb phosphorylation &#8594; n &gt; 1</text>
+    <text x="404" y="316" fill="#333" font-size="10.5">positive feedback + n &gt; 1 &#8594; bistable</text>
+    <text x="404" y="336" fill="#d1495b" font-size="11" font-weight="bold">= the restriction point</text>
+  </g>
+
+  <line x1="616" y1="16" x2="616" y2="380" stroke="#ddd" stroke-width="2"/>
+  <text x="636" y="24" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#111">Hysteresis</text>
+  <line x1="646" y1="300" x2="784" y2="300" stroke="#333" stroke-width="1.8"/>
+  <line x1="646" y1="300" x2="646" y2="60" stroke="#333" stroke-width="1.8"/>
+  <path d="M 650 294 L 726 292" fill="none" stroke="#2e8b57" stroke-width="2.6"/>
+  <path d="M 726 292 L 726 108" fill="none" stroke="#2e8b57" stroke-width="2.6" stroke-dasharray="1 0"/>
+  <path d="M 726 108 L 782 104" fill="none" stroke="#2e8b57" stroke-width="2.6"/>
+  <path d="M 690 118 L 782 112" fill="none" stroke="#d1495b" stroke-width="2.4"/>
+  <path d="M 690 118 L 690 296" fill="none" stroke="#d1495b" stroke-width="2.4"/>
+  <path d="M 650 298 L 690 296" fill="none" stroke="#d1495b" stroke-width="2.4"/>
+  <path d="M 690 200 L 726 200" fill="none" stroke="#999" stroke-width="2" stroke-dasharray="5 4"/>
+  <text x="646" y="52" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">CDK activity</text>
+  <text x="716" y="318" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333" text-anchor="middle">[cyclin] &#8594;</text>
+  <text x="726" y="336" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#2e8b57" text-anchor="middle">entry 32 nM</text>
+  <text x="668" y="352" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#d1495b" text-anchor="middle">exit 16 nM</text>
+  <text x="646" y="372" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#999">dashed = unstable branch</text>
+
+  <rect x="14" y="392" width="770" height="64" rx="8" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1.5"/>
+  <text x="28" y="414" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#333">Cyclin (slow) accumulates &#8594; at 32 nM the low branch vanishes &#8594; CDK <tspan font-weight="bold">jumps</tspan> up (mitosis) &#8594; high CDK activates APC/C</text>
+  <text x="28" y="432" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#333">&#8594; cyclin destroyed &#8594; at 16 nM the high branch vanishes &#8594; CDK <tspan font-weight="bold">drops</tspan> (exit) &#8594; repeat.</text>
+  <text x="28" y="450" font-family="Helvetica,Arial,sans-serif" font-size="11.5" font-weight="bold" fill="#1a6fb5">A bistable switch plus a delayed brake is a relaxation oscillator &#8212; that is the cell cycle.</text>
+  <defs>
+    <marker id="d" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#555"/></marker>
+    <marker id="e" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#2e8b57"/></marker>
+  </defs>
+</svg>

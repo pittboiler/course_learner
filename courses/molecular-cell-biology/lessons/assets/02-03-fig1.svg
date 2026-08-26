@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 430" width="800" height="430" role="img" aria-label="MAPK cascade with scaffold, Hill dose-response curves, and zero-order ultrasensitivity">
+  <rect width="800" height="430" fill="#ffffff"/>
+  <text x="14" y="24" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#111">The cascade</text>
+  <g font-family="Helvetica,Arial,sans-serif" font-size="11.5">
+    <rect x="20" y="36" width="118" height="26" rx="5" fill="#dbeadb" stroke="#2e8b57" stroke-width="1.5"/><text x="79" y="53" text-anchor="middle" fill="#1f5c3a">RTK (pTyr)</text>
+    <path d="M 79 62 L 79 80" stroke="#555" stroke-width="2" marker-end="url(#b)"/>
+    <rect x="20" y="82" width="118" height="26" rx="5" fill="#e8dff5" stroke="#6a4c93" stroke-width="1.5"/><text x="79" y="99" text-anchor="middle" fill="#3d2a5c">Grb2&#8211;Sos &#8594; Ras</text>
+    <path d="M 79 108 L 79 126" stroke="#555" stroke-width="2" marker-end="url(#b)"/>
+    <rect x="20" y="128" width="118" height="26" rx="5" fill="#e8f0fb" stroke="#1a6fb5" stroke-width="1.5"/><text x="79" y="145" text-anchor="middle" fill="#134f80">Raf   n&#8321;</text>
+    <path d="M 79 154 L 79 172" stroke="#555" stroke-width="2" marker-end="url(#b)"/>
+    <rect x="20" y="174" width="118" height="26" rx="5" fill="#e8f0fb" stroke="#1a6fb5" stroke-width="1.5"/><text x="79" y="191" text-anchor="middle" fill="#134f80">MEK   n&#8322;</text>
+    <path d="M 79 200 L 79 218" stroke="#555" stroke-width="2" marker-end="url(#b)"/>
+    <rect x="20" y="220" width="118" height="26" rx="5" fill="#e8f0fb" stroke="#1a6fb5" stroke-width="1.5"/><text x="79" y="237" text-anchor="middle" fill="#134f80">ERK   n&#8323;</text>
+    <path d="M 79 246 L 79 264" stroke="#555" stroke-width="2" marker-end="url(#b)"/>
+    <rect x="10" y="266" width="138" height="26" rx="5" fill="#1a6fb5"/><text x="79" y="283" text-anchor="middle" fill="#fff">transcription factors</text>
+    <rect x="156" y="120" width="18" height="132" rx="7" fill="#fdeee0" stroke="#c9871f" stroke-width="1.8"/>
+    <text x="182" y="150" fill="#8a5a10">scaffold binds</text>
+    <text x="182" y="166" fill="#8a5a10">one Raf, one MEK,</text>
+    <text x="182" y="182" fill="#8a5a10">one ERK &#8212; a private</text>
+    <text x="182" y="198" fill="#8a5a10">circuit. Buys specificity,</text>
+    <text x="182" y="214" fill="#8a5a10">costs gain.</text>
+    <text x="20" y="316" font-weight="bold" fill="#111">n_eff &#8776; n&#8321; &#215; n&#8322; &#215; n&#8323;</text>
+    <text x="20" y="336" fill="#333">1.4 &#215; 1.7 &#215; 2.0 = 4.8</text>
+    <text x="20" y="356" fill="#d1495b">81-fold receptor &#8594; 2.5-fold output</text>
+  </g>
+
+  <line x1="330" y1="16" x2="330" y2="414" stroke="#ddd" stroke-width="2"/>
+  <text x="352" y="24" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#111">Steepness: span = 81^(1/n)</text>
+  <line x1="386" y1="252" x2="740" y2="252" stroke="#333" stroke-width="2"/>
+  <line x1="386" y1="252" x2="386" y2="112" stroke="#333" stroke-width="2"/>
+  <text x="562" y="274" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#333" text-anchor="middle">log [input] &#8594;</text>
+  <g transform="translate(296,0)">
+    <polyline points="90.0,247.5 95.7,247.1 101.3,246.7 107.0,246.3 112.7,245.8 118.3,245.2 124.0,244.6 129.7,243.8 135.3,243.0 141.0,242.1 146.7,241.1 152.3,239.9 158.0,238.7 163.7,237.2 169.3,235.6 175.0,233.9 180.7,232.0 186.3,229.8 192.0,227.5 197.7,225.0 203.3,222.2 209.0,219.3 214.7,216.1 220.3,212.8 226.0,209.2 231.7,205.5 237.3,201.6 243.0,197.6 248.7,193.4 254.3,189.2 260.0,185.0 265.7,180.8 271.3,176.6 277.0,172.4 282.7,168.4 288.3,164.5 294.0,160.8 299.7,157.2 305.3,153.9 311.0,150.7 316.7,147.8 322.3,145.0 328.0,142.5 333.7,140.2 339.3,138.0 345.0,136.1 350.7,134.4 356.3,132.8 362.0,131.3 367.7,130.1 373.3,128.9 379.0,127.9 384.7,127.0 390.3,126.2 396.0,125.4 401.7,124.8 407.3,124.2 413.0,123.7 418.7,123.3 424.3,122.9 430.0,122.5" fill="none" stroke="#8fa8c0" stroke-width="2.4"/>
+    <polyline points="90.0,249.9 95.7,249.9 101.3,249.9 107.0,249.9 112.7,249.9 118.3,249.8 124.0,249.8 129.7,249.7 135.3,249.6 141.0,249.5 146.7,249.3 152.3,249.1 158.0,248.8 163.7,248.5 169.3,248.0 175.0,247.5 180.7,246.7 186.3,245.8 192.0,244.6 197.7,243.0 203.3,241.1 209.0,238.7 214.7,235.6 220.3,232.0 226.0,227.5 231.7,222.2 237.3,216.1 243.0,209.2 248.7,201.6 254.3,193.4 260.0,185.0 265.7,176.6 271.3,168.4 277.0,160.8 282.7,153.9 288.3,147.8 294.0,142.5 299.7,138.0 305.3,134.4 311.0,131.3 316.7,128.9 322.3,127.0 328.0,125.4 333.7,124.2 339.3,123.3 345.0,122.5 350.7,122.0 356.3,121.5 362.0,121.2 367.7,120.9 373.3,120.7 379.0,120.5 384.7,120.4 390.3,120.3 396.0,120.2 401.7,120.2 407.3,120.1 413.0,120.1 418.7,120.1 424.3,120.1 430.0,120.1" fill="none" stroke="#2e8b57" stroke-width="2.4"/>
+    <polyline points="90.0,250.0 95.7,250.0 101.3,250.0 107.0,250.0 112.7,250.0 118.3,250.0 124.0,250.0 129.7,250.0 135.3,250.0 141.0,250.0 146.7,250.0 152.3,250.0 158.0,250.0 163.7,250.0 169.3,250.0 175.0,250.0 180.7,250.0 186.3,250.0 192.0,249.9 197.7,249.9 203.3,249.8 209.0,249.6 214.7,249.3 220.3,248.7 226.0,247.5 231.7,245.2 237.3,241.1 243.0,233.9 248.7,222.2 254.3,205.5 260.0,185.0 265.7,164.5 271.3,147.8 277.0,136.1 282.7,128.9 288.3,124.8 294.0,122.5 299.7,121.3 305.3,120.7 311.0,120.4 316.7,120.2 322.3,120.1 328.0,120.1 333.7,120.0 339.3,120.0 345.0,120.0 350.7,120.0 356.3,120.0 362.0,120.0 367.7,120.0 373.3,120.0 379.0,120.0 384.7,120.0 390.3,120.0 396.0,120.0 401.7,120.0 407.3,120.0 413.0,120.0 418.7,120.0 424.3,120.0 430.0,120.0" fill="none" stroke="#d1495b" stroke-width="2.8"/>
+  </g>
+  <g font-family="Helvetica,Arial,sans-serif" font-size="11">
+    <text x="700" y="150" fill="#8fa8c0">n = 1 &#8212; 81&#215;</text>
+    <text x="640" y="126" fill="#2e8b57">n = 2 &#8212; 9&#215;</text>
+    <text x="530" y="106" fill="#d1495b">n = 5 &#8212; 2.4&#215;</text>
+  </g>
+
+  <text x="352" y="316" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#111">Zero-order ultrasensitivity</text>
+  <g font-family="Helvetica,Arial,sans-serif" font-size="11">
+    <rect x="352" y="330" width="150" height="24" rx="5" fill="#dbeadb" stroke="#2e8b57" stroke-width="1.4"/>
+    <text x="427" y="347" text-anchor="middle" fill="#1f5c3a">kinase, saturated (V_K)</text>
+    <rect x="352" y="362" width="150" height="24" rx="5" fill="#f0d4d8" stroke="#d1495b" stroke-width="1.4"/>
+    <text x="427" y="379" text-anchor="middle" fill="#7a2530">phosphatase, sat. (V_P)</text>
+    <text x="352" y="406" fill="#333">both flat out &#8594; output is a comparison, not a balance</text>
+    <line x1="560" y1="392" x2="740" y2="392" stroke="#333" stroke-width="1.8"/>
+    <line x1="560" y1="392" x2="560" y2="326" stroke="#333" stroke-width="1.8"/>
+    <polyline points="560,390 640,388 648,384 650,334 660,330 740,328" fill="none" stroke="#1a6fb5" stroke-width="2.6"/>
+    <text x="650" y="410" text-anchor="middle" fill="#333">V_K / V_P = 1</text>
+    <text x="536" y="332" text-anchor="end" fill="#333">1</text>
+    <text x="536" y="396" text-anchor="end" fill="#333">0</text>
+    <text x="500" y="350" text-anchor="end" fill="#333" font-size="10">fraction</text>
+    <text x="500" y="362" text-anchor="end" fill="#333" font-size="10">phos.</text>
+  </g>
+  <defs><marker id="b" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#555"/></marker></defs>
+</svg>
