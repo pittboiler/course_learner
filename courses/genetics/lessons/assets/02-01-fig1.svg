@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 430" width="800" height="430" role="img" aria-label="Reciprocal crosses for an X-linked gene showing criss-cross inheritance, and random X-inactivation producing a mosaic">
+  <rect width="800" height="430" fill="#ffffff"/>
+  <text x="14" y="22" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#111">Reciprocal crosses disagree &#8212; and that is the proof</text>
+
+  <g font-family="Helvetica,Arial,sans-serif" font-size="11">
+    <text x="180" y="48" font-weight="bold" fill="#111" text-anchor="middle">Cross A: white mother &#215; red father</text>
+    <rect x="120" y="60" width="12" height="34" rx="3" fill="#e0e0e0" stroke="#333" stroke-width="1.4"/>
+    <rect x="140" y="60" width="12" height="34" rx="3" fill="#e0e0e0" stroke="#333" stroke-width="1.4"/>
+    <text x="136" y="110" fill="#333" text-anchor="middle">X&#7727; X&#7727;  &#9792;</text>
+    <rect x="228" y="60" width="12" height="34" rx="3" fill="#c1272d"/>
+    <rect x="248" y="66" width="12" height="22" rx="3" fill="#8a8a8a"/>
+    <text x="242" y="110" fill="#333" text-anchor="middle">X&#8314; Y  &#9794;</text>
+    <line x1="152" y1="78" x2="226" y2="78" stroke="#333" stroke-width="1.6"/>
+    <line x1="189" y1="118" x2="189" y2="136" stroke="#333" stroke-width="1.6"/>
+    <line x1="110" y1="136" x2="268" y2="136" stroke="#333" stroke-width="1.6"/>
+    <line x1="110" y1="136" x2="110" y2="150" stroke="#333" stroke-width="1.6"/>
+    <line x1="268" y1="136" x2="268" y2="150" stroke="#333" stroke-width="1.6"/>
+    <circle cx="110" cy="164" r="13" fill="#c1272d"/>
+    <rect x="255" y="151" width="26" height="26" rx="4" fill="#e0e0e0" stroke="#333" stroke-width="1.6"/>
+    <text x="110" y="196" fill="#c1272d" text-anchor="middle">daughters X&#8314;X&#7727;</text>
+    <text x="110" y="211" font-weight="bold" fill="#c1272d" text-anchor="middle">ALL RED</text>
+    <text x="268" y="196" fill="#666" text-anchor="middle">sons X&#7727;Y</text>
+    <text x="268" y="211" font-weight="bold" fill="#666" text-anchor="middle">ALL WHITE</text>
+    <path d="M 136 118 C 150 140 220 145 258 148" fill="none" stroke="#1a6fb5" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#m)"/>
+    <path d="M 232 100 C 200 130 140 138 116 148" fill="none" stroke="#1a6fb5" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#m)"/>
+    <text x="189" y="238" fill="#1a6fb5" text-anchor="middle" font-weight="bold">criss-cross: mother &#8594; sons, father &#8594; daughters</text>
+  </g>
+
+  <line x1="370" y1="34" x2="370" y2="250" stroke="#ddd" stroke-width="2"/>
+
+  <g font-family="Helvetica,Arial,sans-serif" font-size="11">
+    <text x="570" y="48" font-weight="bold" fill="#111" text-anchor="middle">Cross B: red mother &#215; white father</text>
+    <rect x="510" y="60" width="12" height="34" rx="3" fill="#c1272d"/>
+    <rect x="530" y="60" width="12" height="34" rx="3" fill="#c1272d"/>
+    <text x="526" y="110" fill="#333" text-anchor="middle">X&#8314; X&#8314;  &#9792;</text>
+    <rect x="618" y="60" width="12" height="34" rx="3" fill="#e0e0e0" stroke="#333" stroke-width="1.4"/>
+    <rect x="638" y="66" width="12" height="22" rx="3" fill="#8a8a8a"/>
+    <text x="632" y="110" fill="#333" text-anchor="middle">X&#7727; Y  &#9794;</text>
+    <line x1="542" y1="78" x2="616" y2="78" stroke="#333" stroke-width="1.6"/>
+    <line x1="579" y1="118" x2="579" y2="136" stroke="#333" stroke-width="1.6"/>
+    <line x1="500" y1="136" x2="658" y2="136" stroke="#333" stroke-width="1.6"/>
+    <line x1="500" y1="136" x2="500" y2="150" stroke="#333" stroke-width="1.6"/>
+    <line x1="658" y1="136" x2="658" y2="150" stroke="#333" stroke-width="1.6"/>
+    <circle cx="500" cy="164" r="13" fill="#c1272d"/>
+    <rect x="645" y="151" width="26" height="26" rx="4" fill="#c1272d"/>
+    <text x="500" y="196" fill="#c1272d" text-anchor="middle">daughters X&#8314;X&#7727;</text>
+    <text x="500" y="211" font-weight="bold" fill="#c1272d" text-anchor="middle">ALL RED</text>
+    <text x="658" y="196" fill="#c1272d" text-anchor="middle">sons X&#8314;Y</text>
+    <text x="658" y="211" font-weight="bold" fill="#c1272d" text-anchor="middle">ALL RED</text>
+    <text x="570" y="238" fill="#333" text-anchor="middle">same daughters, <tspan font-weight="bold">opposite sons</tspan></text>
+  </g>
+
+  <line x1="14" y1="258" x2="786" y2="258" stroke="#ddd" stroke-width="2"/>
+  <text x="14" y="282" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#111">X-inactivation makes every female a mosaic</text>
+
+  <circle cx="80" cy="336" r="26" fill="#f7f7f7" stroke="#333" stroke-width="1.8"/>
+  <rect x="66" y="322" width="10" height="28" rx="3" fill="#e8a33d"/>
+  <rect x="84" y="322" width="10" height="28" rx="3" fill="#333"/>
+  <text x="80" y="380" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333" text-anchor="middle">early embryo cell</text>
+  <text x="80" y="394" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333" text-anchor="middle">X&#7433; / X&#7439; heterozygote</text>
+  <path d="M 112 322 L 156 296" stroke="#555" stroke-width="2" marker-end="url(#m2)"/>
+  <path d="M 112 350 L 156 376" stroke="#555" stroke-width="2" marker-end="url(#m2)"/>
+  <text x="130" y="300" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#666" text-anchor="end">random,</text>
+  <text x="130" y="386" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#666" text-anchor="end">heritable</text>
+
+  <circle cx="184" cy="292" r="20" fill="#fdf0dd" stroke="#c9871f" stroke-width="1.6"/>
+  <rect x="172" y="282" width="8" height="20" rx="2" fill="#e8a33d"/>
+  <rect x="188" y="282" width="8" height="20" rx="2" fill="#cccccc"/>
+  <text x="216" y="296" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#8a5a10">black X silenced &#8594; orange clone</text>
+
+  <circle cx="184" cy="382" r="20" fill="#eeeeee" stroke="#333" stroke-width="1.6"/>
+  <rect x="172" y="372" width="8" height="20" rx="2" fill="#cccccc"/>
+  <rect x="188" y="372" width="8" height="20" rx="2" fill="#333"/>
+  <text x="216" y="386" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333">orange X silenced &#8594; black clone</text>
+
+  <ellipse cx="560" cy="344" rx="120" ry="56" fill="#fdf0dd" stroke="#8a6a4f" stroke-width="2"/>
+  <g fill="#333">
+    <ellipse cx="504" cy="322" rx="30" ry="20"/><ellipse cx="600" cy="366" rx="34" ry="18"/><ellipse cx="628" cy="316" rx="22" ry="14"/>
+  </g>
+  <g fill="#e8a33d">
+    <ellipse cx="546" cy="358" rx="26" ry="16"/><ellipse cx="484" cy="366" rx="20" ry="12"/>
+  </g>
+  <text x="560" y="418" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#333" text-anchor="middle">a calico coat is a map of the clones &#8212; and therefore always female</text>
+  <text x="700" y="292" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#d1495b" text-anchor="middle">a calico <tspan font-weight="bold">male</tspan></text>
+  <text x="700" y="308" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#d1495b" text-anchor="middle">has two X&#8217;s: XXY</text>
+  <defs>
+    <marker id="m" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#1a6fb5"/></marker>
+    <marker id="m2" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#555"/></marker>
+  </defs>
+</svg>

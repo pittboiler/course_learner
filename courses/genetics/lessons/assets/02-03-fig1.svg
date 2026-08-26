@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 430" width="800" height="430" role="img" aria-label="Four meiotic outcomes in a three-point cross: no crossover, single crossover in region I, single crossover in region II, and a double crossover which flips only the middle gene">
+  <rect width="800" height="430" fill="#ffffff"/>
+  <text x="14" y="22" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#111">A double crossover flips only the middle gene &#8212; that is the whole trick</text>
+
+  <g font-family="Helvetica,Arial,sans-serif" font-size="11">
+    <text x="20" y="52" font-weight="bold" fill="#333">Trihybrid parent</text>
+    <line x1="150" y1="48" x2="440" y2="48" stroke="#1a6fb5" stroke-width="6" stroke-linecap="round"/>
+    <line x1="150" y1="66" x2="440" y2="66" stroke="#e8a33d" stroke-width="6" stroke-linecap="round"/>
+    <text x="180" y="38" fill="#134f80" text-anchor="middle">A</text><text x="295" y="38" fill="#134f80" text-anchor="middle">B</text><text x="410" y="38" fill="#134f80" text-anchor="middle">C</text>
+    <text x="180" y="84" fill="#8a5a10" text-anchor="middle">a</text><text x="295" y="84" fill="#8a5a10" text-anchor="middle">b</text><text x="410" y="84" fill="#8a5a10" text-anchor="middle">c</text>
+    <line x1="237" y1="30" x2="237" y2="92" stroke="#bbb" stroke-width="1.4" stroke-dasharray="4 3"/>
+    <line x1="352" y1="30" x2="352" y2="92" stroke="#bbb" stroke-width="1.4" stroke-dasharray="4 3"/>
+    <text x="237" y="106" fill="#666" text-anchor="middle">region I</text>
+    <text x="352" y="106" fill="#666" text-anchor="middle">region II</text>
+  </g>
+
+  <line x1="14" y1="118" x2="786" y2="118" stroke="#ddd" stroke-width="2"/>
+
+  <g font-family="Helvetica,Arial,sans-serif" font-size="11">
+    <text x="20" y="144" font-weight="bold" fill="#333">no crossover</text>
+    <line x1="150" y1="148" x2="440" y2="148" stroke="#1a6fb5" stroke-width="5" stroke-linecap="round"/>
+    <text x="180" y="140" fill="#134f80" text-anchor="middle">A</text><text x="295" y="140" fill="#134f80" text-anchor="middle">B</text><text x="410" y="140" fill="#134f80" text-anchor="middle">C</text>
+    <rect x="470" y="132" width="200" height="24" rx="5" fill="#e8f0fb" stroke="#1a6fb5" stroke-width="1.6"/>
+    <text x="570" y="149" text-anchor="middle" fill="#134f80" font-weight="bold">A B C &#183; a b c &#8212; PARENTAL</text>
+    <text x="688" y="149" fill="#666">most abundant</text>
+  </g>
+
+  <g font-family="Helvetica,Arial,sans-serif" font-size="11">
+    <text x="20" y="204" font-weight="bold" fill="#333">single CO, region I</text>
+    <line x1="150" y1="208" x2="237" y2="208" stroke="#1a6fb5" stroke-width="5" stroke-linecap="round"/>
+    <line x1="237" y1="208" x2="440" y2="208" stroke="#e8a33d" stroke-width="5" stroke-linecap="round"/>
+    <line x1="237" y1="196" x2="237" y2="220" stroke="#d1495b" stroke-width="3"/>
+    <text x="180" y="200" fill="#134f80" text-anchor="middle">A</text><text x="295" y="200" fill="#8a5a10" text-anchor="middle">b</text><text x="410" y="200" fill="#8a5a10" text-anchor="middle">c</text>
+    <rect x="470" y="192" width="200" height="24" rx="5" fill="#fdf0dd" stroke="#c9871f" stroke-width="1.5"/>
+    <text x="570" y="209" text-anchor="middle" fill="#8a5a10">A b c &#183; a B C</text>
+    <text x="688" y="209" fill="#666">middling</text>
+  </g>
+
+  <g font-family="Helvetica,Arial,sans-serif" font-size="11">
+    <text x="20" y="264" font-weight="bold" fill="#333">single CO, region II</text>
+    <line x1="150" y1="268" x2="352" y2="268" stroke="#1a6fb5" stroke-width="5" stroke-linecap="round"/>
+    <line x1="352" y1="268" x2="440" y2="268" stroke="#e8a33d" stroke-width="5" stroke-linecap="round"/>
+    <line x1="352" y1="256" x2="352" y2="280" stroke="#d1495b" stroke-width="3"/>
+    <text x="180" y="260" fill="#134f80" text-anchor="middle">A</text><text x="295" y="260" fill="#134f80" text-anchor="middle">B</text><text x="410" y="260" fill="#8a5a10" text-anchor="middle">c</text>
+    <rect x="470" y="252" width="200" height="24" rx="5" fill="#fdf0dd" stroke="#c9871f" stroke-width="1.5"/>
+    <text x="570" y="269" text-anchor="middle" fill="#8a5a10">A B c &#183; a b C</text>
+    <text x="688" y="269" fill="#666">middling</text>
+  </g>
+
+  <g font-family="Helvetica,Arial,sans-serif" font-size="11">
+    <text x="20" y="324" font-weight="bold" fill="#d1495b">DOUBLE crossover</text>
+    <line x1="150" y1="328" x2="237" y2="328" stroke="#1a6fb5" stroke-width="5" stroke-linecap="round"/>
+    <line x1="237" y1="328" x2="352" y2="328" stroke="#e8a33d" stroke-width="5" stroke-linecap="round"/>
+    <line x1="352" y1="328" x2="440" y2="328" stroke="#1a6fb5" stroke-width="5" stroke-linecap="round"/>
+    <line x1="237" y1="316" x2="237" y2="340" stroke="#d1495b" stroke-width="3"/>
+    <line x1="352" y1="316" x2="352" y2="340" stroke="#d1495b" stroke-width="3"/>
+    <text x="180" y="320" fill="#134f80" text-anchor="middle">A</text>
+    <text x="295" y="320" fill="#d1495b" text-anchor="middle" font-weight="bold" font-size="13">b</text>
+    <text x="410" y="320" fill="#134f80" text-anchor="middle">C</text>
+    <circle cx="295" cy="316" r="14" fill="none" stroke="#d1495b" stroke-width="2"/>
+    <rect x="470" y="312" width="200" height="24" rx="5" fill="#fbe9eb" stroke="#d1495b" stroke-width="2"/>
+    <text x="570" y="329" text-anchor="middle" fill="#7a2530" font-weight="bold">A b C &#183; a B c &#8212; DCO</text>
+    <text x="688" y="329" fill="#d1495b">RAREST</text>
+  </g>
+
+  <rect x="14" y="352" width="770" height="66" rx="8" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1.6"/>
+  <text x="28" y="374" font-family="Helvetica,Arial,sans-serif" font-size="12" font-weight="bold" fill="#111">Compare the rarest class with the commonest: A <tspan fill="#134f80">B</tspan> C vs A <tspan fill="#d1495b">b</tspan> C &#8212; only B changed, so B is in the MIDDLE.</text>
+  <text x="28" y="396" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#333">Then count region-I recombinants as SCO&#8321; + <tspan font-weight="bold" fill="#d1495b">DCO</tspan>, and region-II as SCO&#8322; + <tspan font-weight="bold" fill="#d1495b">DCO</tspan> &#8212; a double crossover happened in BOTH.</text>
+  <text x="28" y="412" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#d1495b">Forgetting to add the DCOs is the commonest error, and it always makes both distances too small.</text>
+</svg>

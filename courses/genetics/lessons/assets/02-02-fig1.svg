@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 430" width="800" height="430" role="img" aria-label="A chiasma using two of four chromatids gives two parental and two recombinant products, a testcross reading gametes directly, and recombination frequency saturating at 0.5">
+  <rect width="800" height="430" fill="#ffffff"/>
+  <text x="14" y="22" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#111">Why 50% is a ceiling: a crossover uses only two of the four chromatids</text>
+
+  <g stroke-width="7" stroke-linecap="round">
+    <line x1="30" y1="60" x2="230" y2="60" stroke="#1a6fb5"/>
+    <line x1="30" y1="86" x2="230" y2="86" stroke="#1a6fb5"/>
+    <line x1="30" y1="118" x2="230" y2="118" stroke="#e8a33d"/>
+    <line x1="30" y1="144" x2="230" y2="144" stroke="#e8a33d"/>
+  </g>
+  <path d="M 130 86 L 160 118" stroke="#d1495b" stroke-width="3.5" fill="none"/>
+  <path d="M 130 118 L 160 86" stroke="#d1495b" stroke-width="3.5" fill="none"/>
+  <text x="145" y="168" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#d1495b" text-anchor="middle">chiasma</text>
+  <g font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#333">
+    <text x="20" y="64" text-anchor="end">A B</text><text x="20" y="90" text-anchor="end">A B</text>
+    <text x="20" y="122" text-anchor="end">a b</text><text x="20" y="148" text-anchor="end">a b</text>
+  </g>
+  <path d="M 246 102 L 278 102" stroke="#555" stroke-width="2.4" marker-end="url(#n)"/>
+  <g font-family="Helvetica,Arial,sans-serif" font-size="11.5">
+    <rect x="290" y="48" width="140" height="26" rx="5" fill="#e8f0fb" stroke="#1a6fb5" stroke-width="1.5"/><text x="360" y="66" text-anchor="middle" fill="#134f80">A B &#8212; parental</text>
+    <rect x="290" y="78" width="140" height="26" rx="5" fill="#fbe9eb" stroke="#d1495b" stroke-width="1.5"/><text x="360" y="96" text-anchor="middle" fill="#7a2530">A b &#8212; recombinant</text>
+    <rect x="290" y="108" width="140" height="26" rx="5" fill="#fbe9eb" stroke="#d1495b" stroke-width="1.5"/><text x="360" y="126" text-anchor="middle" fill="#7a2530">a B &#8212; recombinant</text>
+    <rect x="290" y="138" width="140" height="26" rx="5" fill="#e8f0fb" stroke="#1a6fb5" stroke-width="1.5"/><text x="360" y="156" text-anchor="middle" fill="#134f80">a b &#8212; parental</text>
+  </g>
+  <text x="360" y="184" font-family="Helvetica,Arial,sans-serif" font-size="12" font-weight="bold" fill="#111" text-anchor="middle">2 : 2 &#8212; so even a crossover in EVERY meiosis</text>
+  <text x="360" y="200" font-family="Helvetica,Arial,sans-serif" font-size="12" font-weight="bold" fill="#d1495b" text-anchor="middle">gives only 50% recombinants</text>
+
+  <line x1="14" y1="214" x2="450" y2="214" stroke="#ddd" stroke-width="2"/>
+  <text x="14" y="238" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#111">The testcross reads gametes directly</text>
+  <g font-family="Helvetica,Arial,sans-serif" font-size="11.5">
+    <text x="20" y="262" fill="#333">dihybrid  A B / a b</text>
+    <text x="180" y="262" fill="#333">&#215;</text>
+    <text x="200" y="262" fill="#333">a b / a b  (contributes only a b)</text>
+    <text x="20" y="292" fill="#666">so every offspring phenotype <tspan font-weight="bold" fill="#111">names the gamete it received</tspan></text>
+    <rect x="20" y="304" width="200" height="24" fill="#e8f0fb" stroke="#1a6fb5" stroke-width="1.3"/><text x="30" y="321" fill="#134f80">A B &#8212; abundant &#8594; PARENTAL</text>
+    <rect x="20" y="328" width="200" height="24" fill="#e8f0fb" stroke="#1a6fb5" stroke-width="1.3"/><text x="30" y="345" fill="#134f80">a b &#8212; abundant &#8594; PARENTAL</text>
+    <rect x="20" y="352" width="200" height="24" fill="#fbe9eb" stroke="#d1495b" stroke-width="1.3"/><text x="30" y="369" fill="#7a2530">A b &#8212; rare &#8594; recombinant</text>
+    <rect x="20" y="376" width="200" height="24" fill="#fbe9eb" stroke="#d1495b" stroke-width="1.3"/><text x="30" y="393" fill="#7a2530">a b &#8212; rare &#8594; recombinant</text>
+    <text x="238" y="322" fill="#333">The <tspan font-weight="bold">abundant</tspan> classes tell you</text>
+    <text x="238" y="340" fill="#333">the parent&#8217;s phase &#8212; not which</text>
+    <text x="238" y="358" fill="#333">alleles look like they belong</text>
+    <text x="238" y="376" fill="#333">together.</text>
+    <text x="238" y="400" fill="#d1495b" font-weight="bold">RF &gt; 0.5 means you got it backwards.</text>
+  </g>
+
+  <line x1="450" y1="214" x2="450" y2="420" stroke="#ddd" stroke-width="2"/>
+  <line x1="450" y1="34" x2="450" y2="200" stroke="#ddd" stroke-width="2"/>
+  <text x="470" y="238" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#111">RF saturates; map distance does not</text>
+  <line x1="470" y1="390" x2="784" y2="390" stroke="#333" stroke-width="1.8"/>
+  <line x1="470" y1="390" x2="470" y2="250" stroke="#333" stroke-width="1.8"/>
+  <line x1="470" y1="244" x2="784" y2="244" stroke="#bbb" stroke-width="1.4" stroke-dasharray="5 4"/>
+  <text x="790" y="248" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#666" text-anchor="end">0.5 ceiling</text>
+  <polyline points="470.0,390.0 473.0,386.5 476.0,383.0 479.0,379.5 482.0,376.0 485.0,372.5 488.0,369.1 491.0,365.6 494.0,362.1 497.0,358.6 500.0,355.1 503.0,351.6 506.0,348.1 509.0,344.6 512.0,341.1 515.0,337.6 518.0,334.1 521.0,330.7 524.0,327.2 527.0,323.7 530.0,320.2 533.0,316.7 536.0,313.2 539.0,309.7 542.0,306.2 545.0,302.7 548.0,299.2 551.0,295.7 554.0,292.3 557.0,288.8 560.0,285.3 563.0,281.8 566.0,278.3 569.0,274.8 572.0,271.3 575.0,267.8 578.0,264.3 581.0,260.8 584.0,257.3 587.0,253.9 590.0,250.4 593.0,246.9 596.0,243.4 599.0,239.9 602.0,236.4 605.0,232.9" fill="none" stroke="#8fa8c0" stroke-width="2" stroke-dasharray="5 4"/>
+  <polyline points="470.0,390.0 473.0,386.6 476.0,383.2 479.0,379.9 482.0,376.7 485.0,373.6 488.0,370.5 491.0,367.5 494.0,364.6 497.0,361.7 500.0,359.0 503.0,356.3 506.0,353.6 509.0,351.0 512.0,348.5 515.0,346.0 518.0,343.6 521.0,341.3 524.0,339.0 527.0,336.7 530.0,334.6 533.0,332.4 536.0,330.3 539.0,328.3 542.0,326.3 545.0,324.4 548.0,322.5 551.0,320.6 554.0,318.8 557.0,317.1 560.0,315.3 563.0,313.7 566.0,312.0 569.0,310.4 572.0,308.9 575.0,307.3 578.0,305.9 581.0,304.4 584.0,303.0 587.0,301.6 590.0,300.2 593.0,298.9 596.0,297.6 599.0,296.4 602.0,295.1 605.0,293.9 608.0,292.8 611.0,291.6 614.0,290.5 617.0,289.4 620.0,288.4 623.0,287.3 626.0,286.3 629.0,285.3 632.0,284.3 635.0,283.4 638.0,282.5 641.0,281.6 644.0,280.7 647.0,279.8 650.0,279.0 653.0,278.2 656.0,277.4 659.0,276.6 662.0,275.9 665.0,275.1 668.0,274.4 671.0,273.7 674.0,273.0 677.0,272.3 680.0,271.7 683.0,271.0 686.0,270.4 689.0,269.8 692.0,269.2 695.0,268.6 698.0,268.0 701.0,267.5 704.0,266.9 707.0,266.4 710.0,265.9 713.0,265.4 716.0,264.9 719.0,264.4 722.0,263.9 725.0,263.5 728.0,263.0 731.0,262.6 734.0,262.1 737.0,261.7 740.0,261.3 743.0,260.9 746.0,260.5 749.0,260.2 752.0,259.8 755.0,259.4 758.0,259.1 761.0,258.7 764.0,258.4 767.0,258.1 770.0,257.7" fill="none" stroke="#1a6fb5" stroke-width="2.8"/>
+  <text x="530" y="286" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#8fa8c0">if RF = distance</text>
+  <text x="640" y="316" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#1a6fb5">observed RF</text>
+  <text x="627" y="410" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333" text-anchor="middle">true map distance (Morgans) &#8594;</text>
+  <text x="470" y="428" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#d1495b">Build maps from SHORT intervals summed &#8212; distances add, RFs do not.</text>
+  <defs><marker id="n" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#555"/></marker></defs>
+</svg>
