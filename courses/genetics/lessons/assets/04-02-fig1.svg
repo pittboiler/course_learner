@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" width="800" height="440" role="img" aria-label="Selection differential and muted response, a long-term selection plateau with a relaxed arm, and a LOD trace with a wide confidence interval">
+  <rect width="800" height="440" fill="#ffffff"/>
+  <text x="14" y="22" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#111">R = h&#178;S: you get back only the additive fraction</text>
+
+  <line x1="24" y1="180" x2="306" y2="180" stroke="#333" stroke-width="1.6"/>
+  <polygon points="214.4,180 214.4,140.4 216.6,143.2 218.7,145.9 220.9,148.5 223.0,150.9 225.1,153.3 227.3,155.5 229.4,157.7 231.5,159.7 233.7,161.6 235.8,163.3 238.0,165.0 240.1,166.5 242.2,167.9 244.4,169.2 246.5,170.4 248.7,171.4 250.8,172.4 252.9,173.3 255.1,174.1 257.2,174.8 259.4,175.5 261.5,176.1 263.6,176.6 265.8,177.0 267.9,177.4 270.1,177.8 272.2,178.1 274.3,178.4 276.5,178.6 278.6,178.8 280.7,179.0 282.9,179.2 285.0,179.3 287.2,179.4 289.3,179.5 291.4,179.6 293.6,179.7 295.7,179.7 297.9,179.8 300.0,179.8 300,180" fill="#2e8b57" opacity="0.35"/>
+  <polyline points="30.0,179.8 32.2,179.8 34.5,179.7 36.7,179.6 39.0,179.6 41.2,179.5 43.5,179.4 45.7,179.2 48.0,179.1 50.2,178.9 52.5,178.7 54.8,178.5 57.0,178.2 59.2,177.9 61.5,177.5 63.8,177.1 66.0,176.7 68.2,176.1 70.5,175.5 72.8,174.8 75.0,174.1 77.2,173.2 79.5,172.3 81.8,171.2 84.0,170.1 86.2,168.8 88.5,167.4 90.8,165.9 93.0,164.2 95.2,162.5 97.5,160.5 99.8,158.5 102.0,156.3 104.2,154.0 106.5,151.5 108.7,148.9 111.0,146.2 113.2,143.4 115.5,140.5 117.8,137.5 120.0,134.4 122.2,131.3 124.5,128.1 126.8,125.0 129.0,121.8 131.2,118.6 133.5,115.5 135.8,112.5 138.0,109.6 140.2,106.7 142.5,104.1 144.8,101.6 147.0,99.3 149.2,97.2 151.5,95.3 153.8,93.7 156.0,92.4 158.2,91.4 160.5,90.6 162.8,90.2 165.0,90.0 167.2,90.2 169.5,90.6 171.8,91.4 174.0,92.4 176.2,93.7 178.5,95.3 180.8,97.2 183.0,99.3 185.3,101.6 187.5,104.1 189.8,106.7 192.0,109.6 194.3,112.5 196.5,115.5 198.8,118.6 201.0,121.8 203.2,125.0 205.5,128.1 207.8,131.3 210.0,134.4 212.2,137.5 214.5,140.5 216.8,143.4 219.0,146.2 221.2,148.9 223.5,151.5 225.8,154.0 228.0,156.3 230.2,158.5 232.5,160.5 234.8,162.5 237.0,164.2 239.2,165.9 241.5,167.4 243.8,168.8 246.0,170.1 248.2,171.2 250.5,172.3 252.8,173.2 255.0,174.1 257.2,174.8 259.5,175.5 261.8,176.1 264.0,176.7 266.2,177.1 268.5,177.5 270.8,177.9 273.0,178.2 275.2,178.5 277.5,178.7 279.8,178.9 282.0,179.1 284.2,179.2 286.5,179.4 288.8,179.5 291.0,179.6 293.2,179.6 295.5,179.7 297.8,179.8 300.0,179.8" fill="none" stroke="#1a6fb5" stroke-width="2.4"/>
+  <line x1="165" y1="180" x2="165" y2="86" stroke="#666" stroke-width="1.4" stroke-dasharray="4 3"/>
+  <line x1="234" y1="180" x2="234" y2="120" stroke="#2e8b57" stroke-width="1.8" stroke-dasharray="4 3"/>
+  <path d="M 165 106 L 234 106" stroke="#2e8b57" stroke-width="1.8" marker-start="url(#lft2)" marker-end="url(#rgt2)"/>
+  <text x="200" y="98" font-family="Helvetica,Arial,sans-serif" font-size="12" font-weight="bold" fill="#2e8b57" text-anchor="middle">S</text>
+  <text x="252" y="176" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#2e8b57">selected parents</text>
+  <text x="120" y="176" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#666">parent generation</text>
+
+  <line x1="24" y1="320" x2="306" y2="320" stroke="#333" stroke-width="1.6"/>
+  <polyline points="30.0,320.0 32.2,320.0 34.5,320.0 36.7,320.0 39.0,319.9 41.2,319.9 43.5,319.9 45.7,319.9 48.0,319.9 50.2,319.8 52.5,319.8 54.8,319.7 57.0,319.7 59.2,319.6 61.5,319.5 63.8,319.4 66.0,319.3 68.2,319.2 70.5,319.0 72.8,318.8 75.0,318.6 77.2,318.3 79.5,318.0 81.8,317.7 84.0,317.3 86.2,316.9 88.5,316.4 90.8,315.8 93.0,315.1 95.2,314.4 97.5,313.6 99.8,312.7 102.0,311.7 104.2,310.6 106.5,309.4 108.7,308.0 111.0,306.6 113.2,305.0 115.5,303.2 117.8,301.4 120.0,299.4 122.2,297.2 124.5,295.0 126.8,292.6 129.0,290.0 131.2,287.4 133.5,284.6 135.8,281.8 138.0,278.8 140.2,275.8 142.5,272.6 144.8,269.5 147.0,266.3 149.2,263.1 151.5,260.0 153.8,256.8 156.0,253.8 158.2,250.8 160.5,247.9 162.8,245.2 165.0,242.6 167.2,240.2 169.5,238.1 171.8,236.1 174.0,234.4 176.2,233.0 178.5,231.8 180.8,230.9 183.0,230.3 185.3,230.0 187.5,230.0 189.8,230.4 192.0,231.0 194.3,231.9 196.5,233.1 198.8,234.6 201.0,236.4 203.2,238.4 205.5,240.6 207.8,243.0 210.0,245.6 212.2,248.3 214.5,251.2 216.8,254.2 219.0,257.3 221.2,260.4 223.5,263.6 225.8,266.8 228.0,270.0 230.2,273.1 232.5,276.2 234.8,279.2 237.0,282.2 239.2,285.0 241.5,287.8 243.8,290.4 246.0,292.9 248.2,295.3 250.5,297.6 252.8,299.7 255.0,301.6 257.2,303.5 259.5,305.2 261.8,306.8 264.0,308.2 266.2,309.5 268.5,310.8 270.8,311.8 273.0,312.8 275.2,313.7 277.5,314.5 279.8,315.2 282.0,315.9 284.2,316.4 286.5,316.9 288.8,317.4 291.0,317.8 293.2,318.1 295.5,318.4 297.8,318.6 300.0,318.8" fill="none" stroke="#c9871f" stroke-width="2.4"/>
+  <line x1="165" y1="320" x2="165" y2="226" stroke="#666" stroke-width="1.4" stroke-dasharray="4 3"/>
+  <line x1="186" y1="320" x2="186" y2="226" stroke="#c9871f" stroke-width="1.8" stroke-dasharray="4 3"/>
+  <line x1="234" y1="320" x2="234" y2="270" stroke="#2e8b57" stroke-width="1.4" stroke-dasharray="3 3"/>
+  <path d="M 165 246 L 186 246" stroke="#c9871f" stroke-width="1.8" marker-start="url(#lft3)" marker-end="url(#rgt3)"/>
+  <text x="176" y="238" font-family="Helvetica,Arial,sans-serif" font-size="12" font-weight="bold" fill="#c9871f" text-anchor="middle">R</text>
+  <path d="M 190 262 L 232 262" stroke="#d1495b" stroke-width="1.6" marker-start="url(#lft4)" marker-end="url(#rgt4)"/>
+  <text x="212" y="256" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#d1495b" text-anchor="middle">lost</text>
+  <text x="24" y="348" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#333">offspring generation &#8212; shifted by R, not by S</text>
+  <text x="24" y="366" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="bold" fill="#d1495b">the shortfall is (1 &#8722; h&#178;)S: regression to the mean, measured</text>
+  <text x="24" y="390" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#333">Extreme parents are extreme partly by good genes and partly</text>
+  <text x="24" y="406" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#333">by good luck. Only the additive genes are transmitted.</text>
+  <text x="24" y="430" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="bold" fill="#2e8b57">h&#178;(realized) = R / S &#8212; defined by what selection achieved.</text>
+
+  <line x1="330" y1="34" x2="330" y2="430" stroke="#ddd" stroke-width="2"/>
+  <text x="352" y="46" font-family="Helvetica,Arial,sans-serif" font-size="12" font-weight="bold" fill="#111">Long-term selection: the plateau, and how to test it</text>
+  <line x1="368" y1="220" x2="600" y2="220" stroke="#333" stroke-width="1.6"/>
+  <line x1="368" y1="220" x2="368" y2="70" stroke="#333" stroke-width="1.6"/>
+  <path d="M 372 216 C 400 180 430 130 470 108 C 520 84 560 78 596 76" fill="none" stroke="#2e8b57" stroke-width="2.6"/>
+  <path d="M 470 108 C 500 128 540 160 596 180" fill="none" stroke="#d1495b" stroke-width="2.4" stroke-dasharray="5 4"/>
+  <text x="606" y="80" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#2e8b57">selection continued</text>
+  <text x="606" y="184" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#d1495b">selection RELAXED</text>
+  <text x="484" y="240" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333" text-anchor="middle">generations &#8594;</text>
+  <text x="352" y="264" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#333">Drifts back &#8594; natural selection was opposing you;</text>
+  <text x="352" y="280" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#333">stays put &#8594; the additive variance really is spent.</text>
+  <text x="352" y="300" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="bold" fill="#d1495b">Never read a plateau as exhausted variance without this test.</text>
+
+  <text x="352" y="336" font-family="Helvetica,Arial,sans-serif" font-size="12" font-weight="bold" fill="#111">QTL mapping: detection is not identification</text>
+  <line x1="380" y1="418" x2="772" y2="418" stroke="#333" stroke-width="1.6"/>
+  <line x1="380" y1="418" x2="380" y2="346" stroke="#333" stroke-width="1.6"/>
+  <line x1="380" y1="392" x2="772" y2="392" stroke="#d1495b" stroke-width="1.6" stroke-dasharray="5 4"/>
+  <text x="776" y="396" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#d1495b" text-anchor="end">LOD = 3</text>
+  <polyline points="384,414 420,410 450,404 480,396 510,372 540,352 570,360 600,384 630,400 660,410 700,412 770,414" fill="none" stroke="#1a6fb5" stroke-width="2.6"/>
+  <g fill="#333">
+    <rect x="384" y="422" width="3" height="8"/><rect x="426" y="422" width="3" height="8"/><rect x="470" y="422" width="3" height="8"/>
+    <rect x="516" y="422" width="3" height="8"/><rect x="560" y="422" width="3" height="8"/><rect x="606" y="422" width="3" height="8"/>
+    <rect x="650" y="422" width="3" height="8"/><rect x="700" y="422" width="3" height="8"/><rect x="756" y="422" width="3" height="8"/>
+  </g>
+  <path d="M 490 434 L 604 434" stroke="#c9871f" stroke-width="2" marker-start="url(#lft5)" marker-end="url(#rgt5)"/>
+  <text x="640" y="438" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#c9871f">10&#8211;30 cM, hundreds of genes</text>
+  <text x="352" y="358" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333">markers along a chromosome &#8594;</text>
+  <defs>
+    <marker id="rgt2" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#2e8b57"/></marker>
+    <marker id="lft2" markerWidth="8" markerHeight="8" refX="1" refY="4" orient="auto"><path d="M8,0 L0,4 L8,8 z" fill="#2e8b57"/></marker>
+    <marker id="rgt3" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#c9871f"/></marker>
+    <marker id="lft3" markerWidth="8" markerHeight="8" refX="1" refY="4" orient="auto"><path d="M8,0 L0,4 L8,8 z" fill="#c9871f"/></marker>
+    <marker id="rgt4" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0,0 L7,3.5 L0,7 z" fill="#d1495b"/></marker>
+    <marker id="lft4" markerWidth="7" markerHeight="7" refX="1" refY="3.5" orient="auto"><path d="M7,0 L0,3.5 L7,7 z" fill="#d1495b"/></marker>
+    <marker id="rgt5" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#c9871f"/></marker>
+    <marker id="lft5" markerWidth="8" markerHeight="8" refX="1" refY="4" orient="auto"><path d="M8,0 L0,4 L8,8 z" fill="#c9871f"/></marker>
+  </defs>
+</svg>
