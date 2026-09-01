@@ -1,6 +1,6 @@
 <svg viewBox="0 0 660 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Two ways to watch a flow through a contraction: follow the coral parcel (Lagrangian) or sit at the grey probe (Eulerian).</text>
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Follow the coral parcel (Lagrangian) or sit at the grey probe (Eulerian).</text>
 
   <!-- ===== streamlines (steady flow through a narrowing channel) ===== -->
   <path d="M 60 117 L 130 130.8 L 200 140.6 L 270 146.5 L 340 148.5 L 410 146.5 L 480 140.6 L 550 130.8 L 600 121.3" fill="none" stroke="#4a90d9" stroke-width="2"/>

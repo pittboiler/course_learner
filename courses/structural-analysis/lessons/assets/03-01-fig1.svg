@@ -1,6 +1,6 @@
 <svg viewBox="0 0 600 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
   <!-- caption -->
-  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Propped cantilever = the cantilever (primary structure) + the redundant R_B, picked so B does not move.</text>
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Propped cantilever = primary cantilever + the redundant R_B, picked so B does not move.</text>
 
   <!-- =========================================================== -->
   <!-- ROW 1: the actual, indeterminate propped cantilever -->

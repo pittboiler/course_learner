@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
   <!-- caption -->
-  <text x="60" y="24" fill="#8a8a8a" font-style="italic">Large-break LOCA: clad heats up as the core uncovers, peaks near the limit, then the quench front plunges it back down.</text>
+  <text x="60" y="24" fill="#8a8a8a" font-style="italic">Large-break LOCA: clad heats as the core uncovers, then the quench front plunges it.</text>
 
   <!-- axes -->
   <line x1="70" y1="300" x2="616" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>

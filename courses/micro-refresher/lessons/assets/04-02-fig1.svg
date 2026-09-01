@@ -1,6 +1,6 @@
 <svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="60" y="34" fill="#8a8a8a" font-style="italic">Monopoly sets MR = MC at qₘ, charges pₘ off demand; the shaded wedge out to qᴄ is lost surplus.</text>
+  <text x="60" y="34" fill="#8a8a8a" font-style="italic">Monopoly sets MR = MC at qₘ; the wedge out to qᴄ is lost surplus.</text>
 
   <!-- deadweight-loss triangle: between demand and MC, from q_m to q_c -->
   <polygon points="220,144 220,248 380,248" fill="#8a8a8a" opacity="0.22"/>

@@ -36,5 +36,5 @@
   <text x="368" y="278" fill="#e0645c">min attained</text>
 
   <!-- caption -->
-  <text x="80" y="24" fill="#8a8a8a" font-style="italic">Continuous f on a compact domain: the top value M and bottom value m are actually hit — not just approached.</text>
+  <text x="80" y="24" fill="#8a8a8a" font-style="italic">On a compact domain, f actually attains M and m.</text>
 </svg>

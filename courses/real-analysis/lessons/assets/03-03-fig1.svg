@@ -1,6 +1,6 @@
 <svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="60" y="28" fill="#8a8a8a" font-style="italic">Partial sums of an alternating series bracket the limit — each step overshoots by less.</text>
+  <text x="60" y="28" fill="#8a8a8a" font-style="italic">Partial sums of an alternating series bracket the limit.</text>
 
   <!-- the limit line S -->
   <line x1="45" y1="195" x2="540" y2="195" stroke="#4a90d9" stroke-width="2" stroke-dasharray="6 4"/>

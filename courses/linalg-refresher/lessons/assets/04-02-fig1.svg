@@ -14,7 +14,7 @@
   <!-- ===== the plane = column space of A ===== -->
   <polygon points="90,270 350,270 470,200 210,200" fill="#4a90d9" opacity="0.15"/>
   <polygon points="90,270 350,270 470,200 210,200" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
-  <text x="440" y="258" fill="#4a90d9" font-style="italic">col(A) &#8212; everything you can reach</text>
+  <text x="345" y="258" fill="#4a90d9" font-style="italic">col(A) &#8212; everything you can reach</text>
 
   <!-- origin -->
   <circle cx="150" cy="248" r="4" fill="#8a8a8a"/>

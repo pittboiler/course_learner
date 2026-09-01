@@ -1,6 +1,6 @@
 <svg viewBox="0 0 700 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="15">
   <!-- caption -->
-  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Carboxylate: two contributors (curved arrows push the electrons) &#8212; the real molecule is the single hybrid, charge shared equally.</text>
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Carboxylate: two contributors, one real hybrid — the charge is shared equally.</text>
 
   <!-- ================= left bracket ================= -->
   <path d="M 66 120 L 58 120 L 58 260 L 66 260" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>

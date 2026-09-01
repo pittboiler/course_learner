@@ -1,5 +1,5 @@
 <svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
-  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Bending stress varies linearly with distance y from the neutral axis: zero at the centroid, max at the extreme fibers.</text>
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Bending stress is linear in y: zero at the centroid, max at the outer fibers.</text>
 
   <!-- neutral axis, extended across both panels -->
   <line x1="45" y1="170" x2="440" y2="170" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 4"/>

@@ -1,5 +1,5 @@
 <svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
-  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Two 1s orbitals at &#945; split into a bonding &#963; and an antibonding &#963;* &#8212; and the &#963;* rises more than the &#963; drops.</text>
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Two 1s orbitals split into σ and σ* — and σ* rises more than σ drops.</text>
 
   <!-- energy axis -->
   <line x1="50" y1="250" x2="50" y2="70" stroke="#8a8a8a" stroke-width="1.5"/>

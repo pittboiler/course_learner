@@ -1,7 +1,7 @@
 <svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="60" y="20" fill="#8a8a8a" font-style="italic">Edgeworth box: A measures from the bottom-left, B (rotated 180°) from the top-right.</text>
-  <text x="60" y="36" fill="#8a8a8a" font-style="italic">At E the indifference curves are tangent — MRSᴬ = p₁/p₂ = MRSᴮ — a point on the contract curve.</text>
+  <text x="60" y="20" fill="#8a8a8a" font-style="italic">Edgeworth box: A from the bottom-left, B (rotated) from the top-right.</text>
+  <text x="60" y="36" fill="#8a8a8a" font-style="italic">At E the curves are tangent — a point on the contract curve.</text>
 
   <!-- box border -->
   <rect x="60" y="40" width="440" height="260" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
@@ -37,15 +37,15 @@
   <text x="146" y="150" fill="#4a90d9">uᴮ</text>
 
   <!-- budget / price line through ω and E (anti-diagonal, slope -p1/p2) -->
-  <line x1="60" y1="40" x2="500" y2="300" stroke="#555555" stroke-width="2"/>
-  <text x="96" y="86" fill="#555555">price line (slope −p₁/p₂)</text>
-  <line x1="150" y1="90" x2="120" y2="106" stroke="#555555" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="60" y1="40" x2="500" y2="300" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="96" y="86" fill="#8a8a8a">price line (slope −p₁/p₂)</text>
+  <line x1="150" y1="90" x2="120" y2="106" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 3"/>
 
   <!-- endowment point -->
   <circle cx="280" cy="170" r="5" fill="#2e8b57"/>
   <text x="258" y="164" fill="#2e8b57">ω</text>
 
   <!-- equilibrium point -->
-  <circle cx="353" cy="213" r="5.5" fill="#333333"/>
-  <text x="361" y="230" fill="#333333">E</text>
+  <circle cx="353" cy="213" r="5.5" fill="#8a8a8a"/>
+  <text x="361" y="230" fill="#8a8a8a">E</text>
 </svg>

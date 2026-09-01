@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
   <!-- caption -->
-  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Three modes, three spacings: translation is a near-continuum, vibration is an evenly spaced ladder, rotation spreads as J(J+1).</text>
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Three modes, three spacings: translation near-continuum, vibration even, rotation J(J+1).</text>
 
   <!-- common energy axis -->
   <line x1="30" y1="300" x2="30" y2="52" stroke="#8a8a8a" stroke-width="1.5"/>

@@ -1,6 +1,6 @@
 <svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="60" y="24" fill="#8a8a8a" font-style="italic">Rate saturates: v climbs steeply, then flattens toward V&#8203;max. K&#8203;m is the [S] that gets you halfway.</text>
+  <text x="60" y="24" fill="#8a8a8a" font-style="italic">Rate saturates: v climbs, then flattens toward Vmax; Km is the [S] at half.</text>
 
   <!-- axes -->
   <line x1="70" y1="270" x2="490" y2="270" stroke="#8a8a8a" stroke-width="1.5"/>

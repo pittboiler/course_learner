@@ -34,5 +34,5 @@
   <text x="382" y="300" fill="#e0645c" opacity="0.7">farther pole (irrelevant)</text>
 
   <!-- caption -->
-  <text x="60" y="335" fill="#8a8a8a" font-style="italic">The Taylor disk grows until its boundary just kisses the closest singularity: radius = distance to nearest singularity.</text>
+  <text x="60" y="335" fill="#8a8a8a" font-style="italic">The Taylor disk grows until it kisses the closest singularity.</text>
 </svg>

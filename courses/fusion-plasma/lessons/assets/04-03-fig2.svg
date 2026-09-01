@@ -1,5 +1,5 @@
 <svg viewBox="0 0 480 240" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
-  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Rayleigh&#8211;Taylor: light fluid pushing heavy turns tiny ripples into spikes &#38; bubbles that pierce the shell.</text>
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Rayleigh–Taylor: light pushing heavy turns ripples into spikes.</text>
 
   <!-- dense fuel region (blue) above the interface -->
   <path d="M40,110 Q80,60 120,165 Q160,60 200,165 Q240,60 280,165 Q320,60 360,165 Q400,60 440,110 L440,40 L40,40 Z"

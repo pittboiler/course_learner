@@ -1,6 +1,6 @@
 <svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="70" y="30" fill="#8a8a8a" font-style="italic">Continuous on the closed [a,b]: the curve must touch a highest and a lowest value.</text>
+  <text x="70" y="30" fill="#8a8a8a" font-style="italic">Continuous on closed [a,b]: the curve attains a max and a min.</text>
 
   <!-- axes -->
   <line x1="40" y1="300" x2="540" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>

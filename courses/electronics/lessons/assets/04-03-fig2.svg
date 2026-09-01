@@ -1,5 +1,5 @@
 <svg viewBox="0 0 780 428" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
-  <text x="20" y="22" fill="#8a8a8a" font-style="italic">The CMOS recipe: whatever the NMOS pull-down network does in series, the PMOS pull-up network does in parallel. Bubbled gate = PMOS.</text>
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">The CMOS recipe: NMOS pull-down in series, PMOS pull-up in parallel. Bubble = PMOS.</text>
 
   <!-- ============================ NAND ============================ -->
 

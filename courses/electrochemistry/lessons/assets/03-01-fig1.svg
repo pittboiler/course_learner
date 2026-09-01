@@ -1,5 +1,5 @@
 <svg viewBox="0 0 620 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
-  <text x="40" y="24" fill="#8a8a8a" font-style="italic">The Nernst diffusion layer: reactant is depleted to C_s at the surface, linear back up to bulk C* over thickness &#948;.</text>
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">The Nernst diffusion layer: C_s at the surface, linear up to bulk C* over δ.</text>
 
   <!-- electrode block -->
   <rect x="62" y="70" width="28" height="182" fill="#8a8a8a" opacity="0.28" stroke="#8a8a8a" stroke-width="1.5"/>

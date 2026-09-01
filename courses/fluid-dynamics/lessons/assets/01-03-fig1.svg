@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Mass is bookkept: rate of increase inside = net inflow (left). Divergence-free flow preserves parcel volume (right).</text>
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Increase inside = net inflow (left); divergence-free flow preserves volume (right).</text>
 
   <!-- ===== left: control volume flux balance ===== -->
 
@@ -50,5 +50,5 @@
   <line x1="470" y1="200" x2="470" y2="238" stroke="#4a90d9" stroke-width="2"/>
   <polygon points="470,238 465,229 475,229" fill="#4a90d9"/>
 
-  <text x="392" y="285" fill="#8a8a8a" font-style="italic" font-size="12">in the sides, out the top &amp; bottom — area unchanged</text>
+  <text x="392" y="285" fill="#8a8a8a" font-style="italic" font-size="12">in the sides, out the top — area unchanged</text>
 </svg>

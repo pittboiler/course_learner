@@ -37,5 +37,5 @@
   <path d="M90,270 L110,270 L110,290" fill="none" stroke="#333333" stroke-width="1"/>
 
   <!-- caption -->
-  <text x="240" y="345" font-size="14" fill="#555555" text-anchor="middle">|&#968;&#10217; = c&#8320;|0&#10217; + c&#8321;|1&#10217;   &#8212;   components are inner products onto each basis vector</text>
+  <text x="240" y="345" font-size="14" fill="#555555" text-anchor="middle">|ψ⟩ = c₀|0⟩ + c₁|1⟩ — components are inner products onto the basis</text>
 </svg>

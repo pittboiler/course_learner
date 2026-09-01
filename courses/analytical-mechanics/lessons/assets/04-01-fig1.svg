@@ -6,7 +6,7 @@
   </defs>
 
   <!-- caption -->
-  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Surfaces of constant S are wavefronts; particles ride the rays that pierce them at right angles.</text>
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Constant-S surfaces are wavefronts; particles ride the rays through them.</text>
 
   <!-- wavefronts: surfaces of constant S (arcs, centered off-frame at (-260,175)) -->
   <path d="M 101.4 57.6 A 380 380 0 0 1 101.4 292.4" fill="none" stroke="#4a90d9" stroke-width="3"/>

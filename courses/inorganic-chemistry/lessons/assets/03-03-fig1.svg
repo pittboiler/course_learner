@@ -1,6 +1,6 @@
 <svg viewBox="0 0 680 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="36" y="24" fill="#8a8a8a" font-style="italic">A d&#8211;d transition eats a photon of energy &#916;&#8331;; the peak's &#955;&#8321;&#8332;&#8339; fixes &#916;&#8331;, and the complex shows the complementary color.</text>
+  <text x="36" y="24" fill="#8a8a8a" font-style="italic">A d–d transition eats a photon of energy Δ; the peak fixes Δ, and you see the complement.</text>
 
   <!-- ============ LEFT: t2g -> eg transition across Delta_o ============ -->
   <text x="70" y="66" fill="#8a8a8a" font-size="12">octahedral splitting</text>

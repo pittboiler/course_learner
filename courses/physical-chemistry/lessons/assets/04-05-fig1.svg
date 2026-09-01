@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Rotational absorption: a ladder of equally-spaced lines (spacing 2B) — Boltzmann sets which rung is tallest.</text>
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Rotational absorption: equally spaced lines (2B); Boltzmann sets the tallest rung.</text>
 
   <!-- intensity axis -->
   <line x1="60" y1="255" x2="60" y2="70" stroke="#8a8a8a" stroke-width="1.5"/>

@@ -1,4 +1,4 @@
-<svg viewBox="0 0 560 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+<svg viewBox="0 0 568 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- filled upper half-disk enclosed by the contour -->
   <path d="M 60 250 L 500 250 A 220 220 0 0 0 60 250 Z" fill="#4a90d9" opacity="0.10"/>
 
@@ -46,5 +46,5 @@
   <line x1="200" y1="76" x2="150" y2="120" stroke="#4a90d9" stroke-width="1" stroke-dasharray="3 4"/>
 
   <!-- caption -->
-  <text x="20" y="332" fill="#8a8a8a" font-style="italic" font-size="12">Close the real integral with an upper arc; push R → ∞ and the integral equals 2πi times the sum of the enclosed residues.</text>
+  <text x="20" y="332" fill="#8a8a8a" font-style="italic" font-size="12">Close with an upper arc; as R → ∞ the integral is 2πi × sum of residues.</text>
 </svg>

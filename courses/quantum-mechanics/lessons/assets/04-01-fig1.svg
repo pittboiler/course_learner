@@ -39,6 +39,6 @@
   <text x="424" y="197" font-size="16" fill="#333333">E &lt; 0 (bound)</text>
 
   <!-- caption -->
-  <text x="80" y="360" font-size="14" fill="#555555" font-style="italic">The repulsive centrifugal barrier (gray) plus the attractive well (blue) add to an effective potential (red) with a</text>
+  <text x="80" y="360" font-size="14" fill="#555555" font-style="italic">Centrifugal barrier plus attractive well gives an effective potential with a</text>
   <text x="80" y="376" font-size="14" fill="#555555" font-style="italic">finite-depth well: for &#8467; &gt; 0 the 1/r&#178; barrier walls the particle off from r = 0.</text>
 </svg>

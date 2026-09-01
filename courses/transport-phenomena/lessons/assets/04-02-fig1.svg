@@ -1,5 +1,5 @@
 <svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
-  <text x="30" y="22" fill="#8a8a8a" font-style="italic">A evaporates and diffuses up a stagnant B film; its own drift (Stefan flow) bends the profile from a line into a log.</text>
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">A diffuses up a stagnant B film; its own drift bends the profile from line to log.</text>
 
   <!-- ===== left: the Arnold / Stefan cell ===== -->
 

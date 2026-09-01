@@ -9,13 +9,13 @@
     </marker>
   </defs>
 
-  <text x="24" y="26" fill="#8a8a8a" font-style="italic">The separating menu: L pulled down off the efficient point, H left efficient, high type's IC curve pinned to L.</text>
+  <text x="24" y="26" fill="#8a8a8a" font-style="italic">The separating menu: L pulled off the efficient point, H left efficient.</text>
 
   <!-- axes -->
   <line x1="70" y1="300" x2="612" y2="300" stroke="#222222" stroke-width="1.6" marker-end="url(#ax)"/>
   <line x1="70" y1="300" x2="70" y2="42" stroke="#222222" stroke-width="1.6" marker-end="url(#ax)"/>
   <text x="600" y="322" fill="#222222" text-anchor="middle">quantity q</text>
-  <text x="60" y="52" fill="#222222" text-anchor="end">payment t</text>
+  <text x="64" y="52" fill="#222222" text-anchor="end">payment t</text>
 
   <!-- low type indifference curve through origin: t = q - q^2/2  (IR binds, U=0) -->
   <path d="M70,300 Q118,262 205,244" fill="none" stroke="#2f6db0" stroke-width="2.4"/>

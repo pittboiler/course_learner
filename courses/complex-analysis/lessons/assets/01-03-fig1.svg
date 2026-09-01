@@ -56,5 +56,5 @@
   <circle cx="560" cy="190" r="3.5" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
 
   <!-- caption -->
-  <text x="60" y="362" fill="#8a8a8a" font-style="italic">Horizontal lines &#8594; rays; a vertical segment of height 2&#960; &#8594; a full circle. The strip repeats every 2&#960;i &#8212; so log must choose one.</text>
+  <text x="60" y="362" fill="#8a8a8a" font-style="italic">Horizontal lines → rays; a vertical segment of height 2π → a circle. log must choose.</text>
 </svg>

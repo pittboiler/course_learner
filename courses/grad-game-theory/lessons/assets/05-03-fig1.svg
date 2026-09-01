@@ -3,7 +3,7 @@
 
   <!-- Title -->
   <text x="360" y="30" text-anchor="middle" font-size="19" font-weight="bold" fill="#1a1a1a">The pivot mechanism: you pay the harm your presence does to others</text>
-  <text x="360" y="52" text-anchor="middle" font-size="13" fill="#555555">Public project — build (B) or don't (D). Values for B; D is 0 for everyone. Total(B) = 6 − 4 − 1 = 1 &gt; 0  →  efficient choice: BUILD</text>
+  <text x="360" y="52" text-anchor="middle" font-size="13" fill="#555555">Public project — build (B) or don't (D). Total(B) = 6 − 4 − 1 = 1 > 0 → BUILD</text>
 
   <!-- Three agent columns -->
   <!-- Agent 1 -->

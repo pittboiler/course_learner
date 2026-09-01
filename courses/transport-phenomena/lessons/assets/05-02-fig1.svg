@@ -1,5 +1,5 @@
 <svg viewBox="0 0 660 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
-  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Two films in series: p&#8321; falls across the gas film, jumps at the equilibrium interface, then c&#8321; falls across the liquid film.</text>
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Two films in series: p₁ falls across the gas film, jumps at the interface, then c₁ falls.</text>
 
   <!-- ===== left panel: the two-film profile ===== -->
   <!-- baseline (position axis) -->

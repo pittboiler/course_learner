@@ -37,6 +37,6 @@
   <text x="235" y="200" fill="#4a90d9">retain H&#8320;</text>
 
   <!-- caption -->
-  <text x="60" y="30" fill="#8a8a8a" font-style="italic">Assume H&#8320;: this bell is where z should land. Shaded ends = the 5% rejection region;</text>
-  <text x="60" y="48" fill="#8a8a8a" font-style="italic">the darker tail beyond the observed z is the p-value. Land too far out, and disbelieve H&#8320;.</text>
+  <text x="60" y="30" fill="#8a8a8a" font-style="italic">Assume H₀: this is where z should land. Shaded ends = the 5% region;</text>
+  <text x="60" y="48" fill="#8a8a8a" font-style="italic">the darker tail past the observed z is the p-value.</text>
 </svg>

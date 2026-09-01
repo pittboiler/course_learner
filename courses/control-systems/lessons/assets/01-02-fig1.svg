@@ -1,6 +1,6 @@
 <svg viewBox="0 0 820 292" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="36" y="24" fill="#8a8a8a" font-style="italic">One system, three costumes: the hardware, the forces acting on it, and the RLC loop that obeys the identical equation. (v = dx/dt, i = dq/dt)</text>
+  <text x="36" y="24" fill="#8a8a8a" font-style="italic">One system, three costumes: hardware, forces, and the RLC loop with the identical equation.</text>
 
   <!-- ============ PANEL A: the schematic ============ -->
   <text x="96" y="264" fill="#8a8a8a" font-style="italic">the object</text>

@@ -1,6 +1,6 @@
 <svg viewBox="0 0 660 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
   <!-- caption -->
-  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Same dpa, very different damage: the 14 MeV spectrum breeds far more helium, and the wall also eats plasma heat and leaks tritium.</text>
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Same dpa, different damage: 14 MeV breeds far more helium, and the wall leaks tritium.</text>
 
   <!-- ============ Panel A: He/dpa comparison ============ -->
   <text x="60" y="52" fill="#8a8a8a">appm He per dpa</text>

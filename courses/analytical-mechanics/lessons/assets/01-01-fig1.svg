@@ -40,5 +40,5 @@
   <text x="150" y="72" fill="#e0645c">y(x) + δy(x) — a nearby path</text>
 
   <!-- caption -->
-  <text x="80" y="42" fill="#8a8a8a" font-style="italic">Endpoints pinned, interior free to wiggle: at the extremal δJ = 0 for every such δy.</text>
+  <text x="80" y="42" fill="#8a8a8a" font-style="italic">Endpoints pinned, interior free: at the extremal δJ = 0 for every δy.</text>
 </svg>

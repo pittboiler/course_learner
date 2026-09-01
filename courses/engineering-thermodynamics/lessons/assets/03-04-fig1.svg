@@ -1,6 +1,6 @@
 <svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="24" fill="#8a8a8a" font-style="italic">h&#8722;s view of a turbine: the ideal drop 1&#8594;2s is vertical (s constant); the real path 1&#8594;2a slants right, so less work.</text>
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">h−s view of a turbine: the ideal drop 1→2s is vertical; the real 1→2a slants right.</text>
 
   <!-- axes -->
   <line x1="70" y1="290" x2="560" y2="290" stroke="#8a8a8a" stroke-width="1.5"/>

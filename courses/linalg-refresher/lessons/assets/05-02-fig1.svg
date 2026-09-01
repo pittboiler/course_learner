@@ -1,4 +1,4 @@
-<svg viewBox="0 0 640 410" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+<svg viewBox="0 0 640 413" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- Left: unit circle in the input plane with orthonormal v1, v2.
        Right: its image, an ellipse with semi-axes sigma1*u1, sigma2*u2.
        Bottom strip: the three stages  V^T (rotate) -> Sigma (stretch) -> U (rotate). -->

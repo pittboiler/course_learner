@@ -1,6 +1,6 @@
 <svg viewBox="0 0 620 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Coherent driving flops the population: on resonance it reaches 1 (a &#960;-pulse); off resonance it is faster but capped.</text>
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Coherent driving flops the population: on resonance it reaches 1 (a π-pulse).</text>
 
   <!-- P_e axis -->
   <line x1="70" y1="262" x2="70" y2="58" stroke="#8a8a8a" stroke-width="1.5"/>

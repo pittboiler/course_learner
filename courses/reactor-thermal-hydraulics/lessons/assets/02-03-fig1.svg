@@ -1,5 +1,5 @@
 <svg viewBox="0 0 640 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
-  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Same flow, two fluids. The velocity layer is set by momentum; the temperature layer by Prandtl number.</text>
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Same flow, two fluids: momentum sets the velocity layer, Prandtl the thermal one.</text>
 
   <!-- ===== Panel A: Pr around 1 (water) ===== -->
   <text x="60" y="56" fill="#8a8a8a">water:  Pr &#8776; 1</text>
@@ -68,5 +68,5 @@
   <path d="M 370 250 Q 485 232 600 218" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
   <text x="606" y="223" fill="#4a90d9">&#948;</text>
 
-  <text x="392" y="300" fill="#8a8a8a">&#948;t &#8811; &#948;  &#8594;  conduction reaches deep into the flow</text>
+  <text x="392" y="300" fill="#8a8a8a">δt ≫ δ → conduction reaches deep</text>
 </svg>

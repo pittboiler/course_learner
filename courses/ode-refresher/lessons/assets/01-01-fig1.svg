@@ -70,5 +70,5 @@
   <text x="278" y="276" fill="#e0645c">y(0) = -0.35</text>
 
   <!-- caption -->
-  <text x="80" y="345" fill="#8a8a8a" font-style="italic">Slope field of y' = y: every arrow's slope equals its height. Pick a start point; follow the arrows.</text>
+  <text x="80" y="345" fill="#8a8a8a" font-style="italic">Slope field of y' = y: each arrow's slope is its height.</text>
 </svg>

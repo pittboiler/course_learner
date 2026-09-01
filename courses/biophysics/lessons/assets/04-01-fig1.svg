@@ -1,6 +1,6 @@
 <svg viewBox="0 0 620 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="22" fill="#8a8a8a" font-style="italic">A binding reaction relaxes to equilibrium: [C](t) rises with time constant &#964;, until k_on[A][B] and k_off[C] balance.</text>
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">A binding reaction relaxes with time constant τ until k_on[A][B] = k_off[C].</text>
 
   <!-- ===== left: [C](t) exponential rise ===== -->
 

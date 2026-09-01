@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Freeze-out: the abundance tracks equilibrium (coral) until interactions can't keep up, then locks to a plateau (blue).</text>
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Freeze-out: the abundance tracks equilibrium (coral), then locks to a plateau (blue).</text>
 
   <!-- ===== axes ===== -->
   <!-- y axis -->

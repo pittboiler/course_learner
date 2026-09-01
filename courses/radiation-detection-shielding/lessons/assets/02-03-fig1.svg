@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Same energy E&#8320;, same photopeak &#8212; but HPGe (blue) is narrow, NaI (coral) is broad. Narrower = better resolution.</text>
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Same photopeak — HPGe (blue) narrow, NaI (coral) broad. Narrower = better resolution.</text>
 
   <!-- axes -->
   <line x1="60" y1="252" x2="600" y2="252" stroke="#8a8a8a" stroke-width="1.5"/>

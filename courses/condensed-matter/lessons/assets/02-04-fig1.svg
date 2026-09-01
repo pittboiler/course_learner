@@ -1,6 +1,6 @@
 <svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Both models saturate at Dulong–Petit; only Debye's soft sound modes keep C_V alive as T³ at low T.</text>
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Both saturate at Dulong–Petit; only Debye's sound modes give C_V ∝ T³ at low T.</text>
 
   <!-- Dulong–Petit plateau (grey dashed) -->
   <line x1="70" y1="80" x2="575" y2="80" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="5 4"/>

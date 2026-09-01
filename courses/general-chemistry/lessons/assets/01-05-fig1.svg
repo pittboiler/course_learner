@@ -94,6 +94,6 @@
     <text x="342" y="296" fill="#8a8a8a">bonded atom</text>
     <circle cx="452" cy="289" r="2.6" fill="#e0645c"/>
     <circle cx="452" cy="296" r="2.6" fill="#e0645c"/>
-    <text x="462" y="296" fill="#8a8a8a">lone pair (replaces a bonded atom &#8594; new shape)</text>
+    <text x="462" y="296" fill="#8a8a8a">lone pair → new shape</text>
   </g>
 </svg>

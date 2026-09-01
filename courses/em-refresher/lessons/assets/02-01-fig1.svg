@@ -37,6 +37,6 @@
   <text x="255" y="90" fill="#8a8a8a">area A</text>
 
   <!-- caption -->
-  <text x="150" y="270" fill="#8a8a8a" font-style="italic">Charge +Q and &#8722;Q on plates of area A, gap d, hold a uniform field E between them.</text>
-  <text x="150" y="298" fill="#8a8a8a" font-style="italic">Capacitance C = &#949;&#8320; A / d — how much charge the pair banks per volt.</text>
+  <text x="150" y="270" fill="#8a8a8a" font-style="italic">Charge ±Q on plates of area A and gap d, uniform E between.</text>
+  <text x="150" y="298" fill="#8a8a8a" font-style="italic">Capacitance C = ε₀A/d — charge banked per volt.</text>
 </svg>

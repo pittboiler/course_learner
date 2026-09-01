@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 430" width="800" height="430" role="img" aria-label="A chiasma using two of four chromatids gives two parental and two recombinant products, a testcross reading gametes directly, and recombination frequency saturating at 0.5">
-  <rect width="800" height="430" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 814 433" width="814" height="433" role="img" aria-label="A chiasma using two of four chromatids gives two parental and two recombinant products, a testcross reading gametes directly, and recombination frequency saturating at 0.5">
+  <rect width="814" height="433" fill="#ffffff"/>
   <text x="14" y="22" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#111">Why 50% is a ceiling: a crossover uses only two of the four chromatids</text>
 
   <g stroke-width="7" stroke-linecap="round">
@@ -12,7 +12,7 @@
   <path d="M 130 118 L 160 86" stroke="#d1495b" stroke-width="3.5" fill="none"/>
   <text x="145" y="168" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#d1495b" text-anchor="middle">chiasma</text>
   <g font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#333">
-    <text x="20" y="64" text-anchor="end">A B</text><text x="20" y="90" text-anchor="end">A B</text>
+    <text x="26" y="64" text-anchor="end">A B</text><text x="26" y="90" text-anchor="end">A B</text>
     <text x="20" y="122" text-anchor="end">a b</text><text x="20" y="148" text-anchor="end">a b</text>
   </g>
   <path d="M 246 102 L 278 102" stroke="#555" stroke-width="2.4" marker-end="url(#n)"/>

@@ -1,6 +1,6 @@
 <svg viewBox="0 0 620 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="24" fill="#8a8a8a" font-style="italic">The spring picks the tempo ω₀; x(t) = A cos(ω₀t + φ) plays it — one shape, forever, amplitude A, period T.</text>
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">The spring picks ω₀; x(t) = A cos(ω₀t + φ) plays it — amplitude A, period T.</text>
 
   <!-- ===== left: the x(t) sinusoid ===== -->
 

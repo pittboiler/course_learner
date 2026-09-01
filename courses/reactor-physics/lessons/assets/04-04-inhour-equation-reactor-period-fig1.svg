@@ -1,7 +1,7 @@
-<svg viewBox="0 0 620 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+<svg viewBox="0 0 632 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
   <text x="30" y="20" fill="#8a8a8a" font-style="italic">The inhour curve (physical branch): reactivity &#961; sets the stable period T.</text>
-  <text x="30" y="38" fill="#8a8a8a" font-style="italic">Near &#961;=0 the period runs to &#177;&#8734;. Positive insertions can be arbitrarily fast; negative ones bottom out.</text>
+  <text x="30" y="38" fill="#8a8a8a" font-style="italic">Near ρ=0 the period runs to ±∞: positive insertions can be arbitrarily fast.</text>
 
   <!-- horizontal reactivity axis (T = 0) -->
   <line x1="45" y1="190" x2="595" y2="190" stroke="#8a8a8a" stroke-width="1.5"/>

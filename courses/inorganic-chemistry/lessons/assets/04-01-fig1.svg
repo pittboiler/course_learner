@@ -1,6 +1,6 @@
 <svg viewBox="0 0 680 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Ferrocene's ledger: the metal's own electrons plus what each ligand donates, tallied to 18. Right: hapticity &#951;&#8319; = how many atoms touch.</text>
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Ferrocene's ledger: metal electrons plus ligand donations, tallied to 18. Right: hapticity ηⁿ.</text>
 
   <!-- ===== left: ferrocene sandwich sketch ===== -->
   <!-- top Cp ring -->

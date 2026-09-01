@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="24" fill="#8a8a8a" font-style="italic">A sharp atomic level (grey) broadens into a band of width 4t: E(k) = ε₀ − 2t cos(ka) across the Brillouin zone.</text>
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">A sharp atomic level (grey) broadens into a band of width 4t: E(k) = ε₀ − 2t cos(ka).</text>
 
   <!-- E axis -->
   <line x1="100" y1="258" x2="100" y2="72" stroke="#8a8a8a" stroke-width="1.5"/>

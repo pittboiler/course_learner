@@ -1,5 +1,5 @@
-<svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
-  <text x="24" y="20" fill="#8a8a8a" font-style="italic">Temperature along the exchanger: counterflow keeps &#916;T nearly uniform; parallel flow starts wide and collapses.</text>
+<svg viewBox="0 0 658 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="24" y="20" fill="#8a8a8a" font-style="italic">Counterflow keeps ΔT nearly uniform; parallel flow starts wide and collapses.</text>
 
   <text x="120" y="44" fill="#8a8a8a" font-weight="bold" font-size="12">COUNTERFLOW</text>
   <text x="452" y="44" fill="#8a8a8a" font-weight="bold" font-size="12">PARALLEL FLOW</text>

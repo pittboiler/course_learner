@@ -1,5 +1,5 @@
 <svg viewBox="0 0 680 470" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
-  <text x="30" y="20" fill="#8a8a8a" font-style="italic">Nyquist plot of L(s) = 12 / [s(s+2)(s+4)]. The curve never wraps &#8722;1, and L has no RHP poles &#8212; so the closed loop is stable.</text>
+  <text x="30" y="20" fill="#8a8a8a" font-style="italic">Nyquist of L(s) = 12/[s(s+2)(s+4)]: never wraps −1 and no RHP poles, so it is stable.</text>
 
   <!-- unit circle -->
   <circle cx="290" cy="250" r="105" fill="none" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 4"/>

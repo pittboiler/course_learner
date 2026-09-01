@@ -1,6 +1,6 @@
 <svg viewBox="0 0 660 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Truncate T at doubles, yet the exponential still builds quadruples: two independent pair excitations on separate parts of a molecule.</text>
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Truncate T at doubles and the exponential still builds quadruples from two pairs.</text>
 
   <!-- divider between the two panels -->
   <line x1="300" y1="55" x2="300" y2="330" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 5"/>

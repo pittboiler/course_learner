@@ -1,6 +1,6 @@
 <svg viewBox="0 0 660 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
   <!-- caption -->
-  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Radius grows toward the bottom-left; Z&#8203;eff, IE and EN grow toward the top-right &#8212; but the sawtooth hides two dips.</text>
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Radius grows to the bottom-left; Zeff, IE and EN to the top-right — with two dips.</text>
 
   <!-- ===== left: periodic-table schematic with trend arrows ===== -->
   <text x="40" y="52" fill="#8a8a8a">Periodic table (schematic)</text>

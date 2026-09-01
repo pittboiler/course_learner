@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="22" fill="#8a8a8a" font-style="italic">A fixed comoving mode holds still while the Hubble radius (blue) shrinks past it, then grows back &#8212; it exits, freezes, re-enters.</text>
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">A comoving mode holds still as the Hubble radius (blue) shrinks past it, then grows.</text>
 
   <!-- axes -->
   <line x1="70" y1="290" x2="70" y2="52" stroke="#8a8a8a" stroke-width="1.5"/>

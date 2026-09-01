@@ -1,5 +1,5 @@
 <svg viewBox="0 0 480 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
-  <text x="240" y="24" fill="#8a8a8a" font-style="italic" text-anchor="middle">The true path makes J stationary: any allowed wiggle η changes J only at second order.</text>
+  <text x="240" y="24" fill="#8a8a8a" font-style="italic" text-anchor="middle">At the true path, any wiggle η changes J only at second order.</text>
 
   <!-- baseline / x-axis -->
   <line x1="40" y1="250" x2="450" y2="250" stroke="#8a8a8a" stroke-width="1"/>

@@ -1,6 +1,6 @@
 <svg viewBox="0 0 620 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Two exact solutions: a wall drags fluid into a straight line (Couette); a pressure gradient bows it into a parabola (Poiseuille).</text>
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Two exact solutions: Couette (wall-dragged, linear) and Poiseuille (parabolic).</text>
 
   <!-- ===== LEFT: plane Couette — linear profile ===== -->
 

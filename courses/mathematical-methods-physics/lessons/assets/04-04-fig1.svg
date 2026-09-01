@@ -1,6 +1,6 @@
-<svg viewBox="0 0 620 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+<svg viewBox="0 0 624 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="20" y="22" fill="#8a8a8a" font-style="italic">One unit kick rings the system (left); the full response is those rings summed, weighted by the source (right).</text>
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">One unit kick rings the system (left); the full response sums those rings (right).</text>
 
   <!-- ===== LEFT: impulse response G(t-t') ===== -->
   <!-- tau axis -->

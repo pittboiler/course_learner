@@ -1,6 +1,6 @@
 <svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Gibbs energy vs extent of reaction: the mixture slides downhill to the minimum, where &#916;&#8341;G = dG/d&#958; = 0.</text>
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Gibbs energy vs extent ξ: the mixture slides to the minimum, where dG/dξ = 0.</text>
 
   <!-- axes -->
   <line x1="70" y1="290" x2="590" y2="290" stroke="#8a8a8a" stroke-width="1.5"/>

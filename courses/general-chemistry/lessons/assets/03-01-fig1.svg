@@ -1,6 +1,6 @@
-<svg viewBox="0 0 620 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+<svg viewBox="0 0 632 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Heat a gas and its speed distribution flattens and slides right &#8212; faster on average, but with a longer fast tail.</text>
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Heat a gas: the speed distribution flattens, slides right, and grows a long tail.</text>
 
   <!-- axes -->
   <line x1="70" y1="270" x2="600" y2="270" stroke="#8a8a8a" stroke-width="1.5"/>

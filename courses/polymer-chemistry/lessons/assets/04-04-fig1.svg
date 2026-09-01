@@ -1,6 +1,6 @@
 <svg viewBox="0 0 660 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Same diblock, different block ratio f: the minority block (coral) packs into spheres &#8594; cylinders &#8594; gyroid &#8594; lamellae.</text>
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Same diblock, different f: spheres → cylinders → gyroid → lamellae.</text>
 
   <!-- ===== panel 1: spheres ===== -->
   <rect x="40" y="60" width="110" height="110" fill="#4a90d9" fill-opacity="0.12" stroke="#8a8a8a" stroke-width="1.5"/>

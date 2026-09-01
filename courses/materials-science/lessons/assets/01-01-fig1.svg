@@ -1,6 +1,6 @@
 <svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="22" fill="#8a8a8a" font-style="italic">The bond-energy well: depth U&#8320; sets melting point/cohesion, curvature at the bottom sets stiffness.</text>
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">The bond-energy well: depth U₀ sets melting point, curvature sets stiffness.</text>
 
   <!-- U axis -->
   <line x1="70" y1="300" x2="70" y2="45" stroke="#8a8a8a" stroke-width="1.5"/>

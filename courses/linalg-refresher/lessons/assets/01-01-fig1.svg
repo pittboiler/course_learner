@@ -41,5 +41,5 @@
   <text x="362" y="76" fill="#8a8a8a">2v&#8321; + v&#8322; = (5, 4)</text>
 
   <!-- caption -->
-  <text x="90" y="40" fill="#8a8a8a" font-style="italic">Every point of the plane is some c&#8321;v&#8321; + c&#8322;v&#8322; — the span of these two arrows is all of R&#178;.</text>
+  <text x="90" y="40" fill="#8a8a8a" font-style="italic">Every point is some c₁v₁ + c₂v₂ — these two arrows span R².</text>
 </svg>

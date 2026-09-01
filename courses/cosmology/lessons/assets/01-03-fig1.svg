@@ -1,6 +1,6 @@
 <svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Three ways to measure the same source. D&#8322; grows fastest, D&#8347; levels off, D&#8336; peaks near z&#8776;1.25 then falls.</text>
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Three distances to one source: D₂ grows, Dₛ levels, Dₐ peaks near z≈1.25.</text>
   <text x="40" y="40" fill="#8a8a8a" font-style="italic">(vertical scale schematic, units c/H&#8320;; ordering D&#8336; &lt; D&#8347; &lt; D&#8322; is exact)</text>
 
   <!-- axes -->

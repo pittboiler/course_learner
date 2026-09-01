@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="sans-serif">
-  <rect x="0" y="0" width="640" height="420" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 654 420" font-family="sans-serif">
+  <rect x="0" y="0" width="654" height="420" fill="#ffffff"/>
 
   <!-- Axes -->
   <line x1="70" y1="360" x2="600" y2="360" stroke="#222222" stroke-width="2"/>

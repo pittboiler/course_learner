@@ -1,5 +1,5 @@
 <svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
-  <text x="24" y="24" fill="#8a8a8a" font-style="italic">Fixed at both ends: reactions add to the applied torque, and the two segments twist equal and opposite.</text>
+  <text x="24" y="24" fill="#8a8a8a" font-style="italic">Fixed at both ends: the two segments twist equal and opposite.</text>
 
   <!-- left wall -->
   <line x1="60" y1="110" x2="60" y2="200" stroke="#8a8a8a" stroke-width="2"/>

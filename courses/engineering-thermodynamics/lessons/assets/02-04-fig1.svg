@@ -1,6 +1,6 @@
 <svg viewBox="0 0 720 250" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="20" y="22" fill="#8a8a8a" font-style="italic">One balance, three simplifications: a turbine spends &#916;h as work out, a compressor buys &#916;h with work in, a nozzle turns &#916;h into speed.</text>
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">One balance, three cases: a turbine spends Δh, a compressor buys it, a nozzle makes speed.</text>
 
   <!-- ===================== TURBINE ===================== -->
   <!-- body: narrow inlet (left), wide outlet (right) -->

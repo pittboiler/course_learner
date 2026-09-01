@@ -1,6 +1,6 @@
 <svg viewBox="0 0 660 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
   <!-- caption -->
-  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Same law, two faces: a small mean is a skewed Poisson; grow the mean and it fills in to a symmetric Gaussian of width &#8730;N.</text>
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Same law, two faces: a small mean is skewed Poisson; a large one is Gaussian of width √N.</text>
 
   <!-- ===== left panel: small mean, skewed Poisson ===== -->
   <line x1="60" y1="250" x2="300" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>

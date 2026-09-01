@@ -1,6 +1,6 @@
 <svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="60" y="22" fill="#8a8a8a" font-style="italic">Redox titration: potential E climbs slowly (analyte couple), leaps at equivalence, then levels (titrant couple).</text>
+  <text x="60" y="22" fill="#8a8a8a" font-style="italic">Redox titration: E climbs slowly, leaps at equivalence, then levels off.</text>
 
   <!-- axes -->
   <line x1="70" y1="280" x2="585" y2="280" stroke="#8a8a8a" stroke-width="1.5"/>

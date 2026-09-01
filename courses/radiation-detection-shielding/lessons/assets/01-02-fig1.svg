@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
   <!-- caption -->
-  <text x="70" y="22" fill="#8a8a8a" font-style="italic">Lead: &#956;/&#961; is a bathtub &#8212; photoelectric falls, Compton plateaus, pair rises. Blue = total (what you measure).</text>
+  <text x="70" y="22" fill="#8a8a8a" font-style="italic">Lead: μ/ρ is a bathtub — photoelectric falls, Compton plateaus, pair rises.</text>
 
   <!-- ===== axes ===== -->
   <line x1="70" y1="40" x2="70" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>

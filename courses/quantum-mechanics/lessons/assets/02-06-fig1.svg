@@ -23,7 +23,7 @@
   <line x1="168" y1="235" x2="254" y2="235" stroke="#555555" stroke-width="1.2"/>
   <text x="196" y="258" font-size="15" fill="#555555" text-anchor="middle">Δx</text>
 
-  <text x="470" y="120" font-size="15" fill="#b22222">Re Ψ = (Gaussian envelope) × (oscillation)</text>
+  <text x="470" y="120" font-size="15" fill="#b22222">Re Ψ = envelope × oscillation</text>
 
   <!-- group-velocity motion arrow -->
   <line x1="215" y1="278" x2="360" y2="278" stroke="#2e7d32" stroke-width="2.4"/>

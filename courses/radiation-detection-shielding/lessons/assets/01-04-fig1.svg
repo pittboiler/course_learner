@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
   <!-- caption -->
-  <text x="20" y="22" fill="#8a8a8a" font-style="italic">A fast neutron scatters until slow, is captured, and the charged fragment it releases is what the detector sees.</text>
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">A fast neutron scatters until slow, is captured, and its charged fragment is seen.</text>
 
   <!-- ===== incoming neutron arrow ===== -->
   <line x1="18" y1="62" x2="40" y2="80" stroke="#4a90d9" stroke-width="2.5"/>
@@ -40,5 +40,5 @@
   <line x1="543.5" y1="165" x2="534.5" y2="177" stroke="#e0645c" stroke-width="1.5"/>
   <line x1="558.2" y1="174" x2="547.5" y2="188.4" stroke="#e0645c" stroke-width="1.5"/>
   <line x1="572.8" y1="183" x2="560.4" y2="199.8" stroke="#e0645c" stroke-width="1.5"/>
-  <text x="500" y="230" fill="#e0645c">&#945; ionizes densely &#8594; detectable pulse</text>
+  <text x="500" y="230" fill="#e0645c">α ionizes densely</text>
 </svg>

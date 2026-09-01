@@ -38,5 +38,5 @@
   <text x="366" y="222" fill="#4a90d9" font-size="13">&#966;(E[X])</text>
 
   <!-- caption -->
-  <text x="70" y="38" fill="#8a8a8a" font-style="italic">Averaging inputs then bending (&#966;(E[X])) undershoots bending then averaging (E[&#966;(X)]).</text>
+  <text x="70" y="38" fill="#8a8a8a" font-style="italic">φ(E[X]) undershoots E[φ(X)]: bend after averaging, not before.</text>
 </svg>

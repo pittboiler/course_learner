@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Fixed fraction per step: N/N&#8320; halves every half-life &#8212; N(t) = N&#8320; e&#8722;&#955;t, decay that never quite reaches zero.</text>
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Fixed fraction per step: N(t) = N₀ e−λt halves every half-life, never quite zero.</text>
 
   <!-- ===== axes ===== -->
   <line x1="70" y1="250" x2="452" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>

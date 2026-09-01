@@ -74,5 +74,5 @@
   <rect x="480" y="240" width="100" height="100" fill="none" stroke="#111111" stroke-width="1.5"/>
   <text x="508" y="358" font-size="12" fill="#111111">n = 3</text>
 
-  <text x="60" y="388" font-size="12" fill="#555555">Area is preserved by each panel here; a dissipative flow also &#8722; contracts total volume, so the layers thin toward a zero-volume fractal set.</text>
+  <text x="60" y="388" font-size="12" fill="#555555">Area is preserved here; a dissipative flow contracts volume toward a fractal set.</text>
 </svg>

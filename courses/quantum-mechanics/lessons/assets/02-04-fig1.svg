@@ -44,5 +44,5 @@
   <text x="500" y="308" font-size="14" fill="#5a6b80" text-anchor="middle">E &lt; V</text>
 
   <!-- caption -->
-  <text x="60" y="360" font-size="14" fill="#555555" font-style="italic">Inside the well the state has energy above the floor and oscillates; outside, E lies below V, so it leaks in as a decaying exponential.</text>
+  <text x="60" y="360" font-size="14" fill="#555555" font-style="italic">Inside the well the state oscillates; outside, E < V and it decays exponentially.</text>
 </svg>

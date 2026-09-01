@@ -1,6 +1,6 @@
-<svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+<svg viewBox="0 0 648 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="20" y="22" fill="#8a8a8a" font-style="italic">One blue pump photon splits inside the &#967;&#8317;&#178;&#8318; crystal into two &#8212; signal and idler &#8212; born on opposite sides of the cones.</text>
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">A blue pump photon splits in the χ⁽²⁾ crystal into signal and idler on opposite cones.</text>
 
   <!-- pump axis (dashed) -->
   <line x1="330" y1="175" x2="600" y2="175" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 5"/>
@@ -26,7 +26,7 @@
   <line x1="330" y1="175" x2="560" y2="99" stroke="#e0645c" stroke-width="2.5"/>
   <polygon points="560,99 548,99 554,109" fill="#e0645c"/>
   <circle cx="560" cy="99" r="6" fill="#e0645c"/>
-  <text x="574" y="95" fill="#e0645c">signal  &#969;s , ks</text>
+  <text x="548" y="95" fill="#e0645c">signal  &#969;s , ks</text>
 
   <!-- idler photon (coral, lower) -->
   <line x1="330" y1="175" x2="560" y2="251" stroke="#e0645c" stroke-width="2.5"/>

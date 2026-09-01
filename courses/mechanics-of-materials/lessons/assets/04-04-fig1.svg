@@ -1,5 +1,5 @@
 <svg viewBox="0 0 640 420" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
-  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Same column, four end conditions: the buckled mode and its effective-length factor K. Smaller K = shorter effective length = higher P.</text>
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Same column, four end conditions: the buckled mode and its factor K. Smaller K = higher P.</text>
 
   <!-- ===== column 1: pinned-pinned ===== -->
   <line x1="90" y1="70" x2="90" y2="360" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 5"/>

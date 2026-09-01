@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 450" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Two beam elements, six nodal DOFs; each element's 4x4 stiffness overlaps at the shared node 2 to build the global K.</text>
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Two beam elements, six DOFs; the 4x4 element stiffnesses overlap at node 2 to build K.</text>
 
   <!-- ============ PANEL A: two-element beam with numbered DOFs ============ -->
   <text x="30" y="52" fill="#8a8a8a">Structure: 3 nodes, 2 elements, DOFs [v, &#952;] per node</text>

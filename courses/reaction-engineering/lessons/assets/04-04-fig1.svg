@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="24" fill="#8a8a8a" font-style="italic">A must cross the film (drop to C_As) before it even enters the pellet, then diffuse inward to a starved core.</text>
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">A must cross the film (down to C_As) before entering the pellet, then diffuse in.</text>
 
   <!-- axes -->
   <line x1="70" y1="300" x2="590" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>

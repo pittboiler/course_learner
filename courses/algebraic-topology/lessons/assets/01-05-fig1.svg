@@ -27,6 +27,6 @@
   <text x="42" y="94" font-size="16" fill="#c0392b">r(x)</text>
 
   <!-- caption -->
-  <text x="18" y="378" font-size="13.5" fill="#111111">No fixed point &#8658; x &#8800; f(x), so the ray from f(x) through x hits &#8706;D&#178; at r(x).</text>
+  <text x="18" y="378" font-size="13.5" fill="#111111">No fixed point: the ray from f(x) through x hits ∂D².</text>
   <text x="18" y="396" font-size="13.5" fill="#111111">That r is a retraction D&#178; &#8594; S&#185; &#8212; which cannot exist.</text>
 </svg>

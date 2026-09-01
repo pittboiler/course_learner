@@ -9,7 +9,7 @@
   <!-- time axis -->
   <line x1="70" y1="300" x2="600" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
   <polygon points="600,300 590,295 590,305" fill="#8a8a8a"/>
-  <text x="596" y="322" fill="#8a8a8a">n (time)</text>
+  <text x="565" y="322" fill="#8a8a8a">n (time)</text>
 
   <!-- position axis -->
   <line x1="70" y1="330" x2="70" y2="45" stroke="#8a8a8a" stroke-width="1.5"/>

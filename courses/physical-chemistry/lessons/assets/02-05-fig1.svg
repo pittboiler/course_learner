@@ -1,6 +1,6 @@
 <svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="22" fill="#8a8a8a" font-style="italic">A T&#8211;x boiling diagram: a horizontal tie line at temperature T names both phases; z is the seesaw fulcrum.</text>
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">A T–x boiling diagram: a tie line at T names both phases; z is the fulcrum.</text>
 
   <!-- ===== axes ===== -->
   <line x1="70" y1="300" x2="590" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>

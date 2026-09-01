@@ -1,6 +1,6 @@
 <svg viewBox="0 0 620 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="60" y="24" fill="#8a8a8a" font-style="italic">Common-ion effect: adding a shared ion drives the equilibrium back to solid, so molar solubility collapses.</text>
+  <text x="60" y="24" fill="#8a8a8a" font-style="italic">Common-ion effect: a shared ion pushes the equilibrium back to solid.</text>
 
   <!-- y-axis -->
   <line x1="70" y1="256" x2="70" y2="52" stroke="#8a8a8a" stroke-width="1.5"/>

@@ -30,5 +30,5 @@
   <text x="330" y="235" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="18" font-style="italic" fill="#111111">g</text>
 
   <!-- caption -->
-  <text x="350" y="398" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#111111">Hom(&#8722;, A): the entire web of arrows into A &#8212; Yoneda says this web determines A up to iso.</text>
+  <text x="350" y="398" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#111111">Hom(−, A): the web of arrows into A — Yoneda says it determines A up to iso.</text>
 </svg>

@@ -51,5 +51,5 @@
   <!-- ===== caption: the gaps ===== -->
   <text x="470" y="396" fill="#111111" font-size="13" font-style="italic">The gaps (need a hypothesis):</text>
   <text x="470" y="419" fill="#555555" font-size="12">&#8226; measure / L&#8305; &#8655; a.e. &#8212; typewriter</text>
-  <text x="470" y="438" fill="#555555" font-size="12">&#8226; a.e. &#8655; measure if &#956;(X)=&#8734; &#8212; escaping bump</text>
+  <text x="470" y="438" fill="#555555" font-size="12">• a.e. ⇏ measure if μ(X)=∞</text>
 </svg>

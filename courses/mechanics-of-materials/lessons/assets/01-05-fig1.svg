@@ -1,6 +1,6 @@
 <svg viewBox="0 0 620 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Heat a blocked bar and it fights the walls: blocked growth &#945;&#916;TL becomes compression &#963; = E&#945;&#916;T. Inset: pull a bar, it thins.</text>
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Heat a blocked bar: blocked growth αΔTL becomes compression σ = EαΔT.</text>
 
   <!-- ===== TOP: constrained bar heated between two rigid walls ===== -->
 

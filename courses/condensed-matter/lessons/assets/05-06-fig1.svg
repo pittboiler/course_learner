@@ -1,7 +1,7 @@
 <svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Integer quantum Hall effect: the Hall conductance locks onto integer multiples of e²/h (blue plateaus),</text>
-  <text x="40" y="42" fill="#8a8a8a" font-style="italic">while the longitudinal resistance ρ_xx (coral) is zero on a plateau and spikes only where σ_xy jumps.</text>
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Integer quantum Hall effect: σ_xy locks onto integer multiples of e²/h (blue plateaus),</text>
+  <text x="40" y="42" fill="#8a8a8a" font-style="italic">while ρ_xx (coral) is zero on a plateau and spikes only where σ_xy jumps.</text>
 
   <!-- axes -->
   <line x1="80" y1="288" x2="590" y2="288" stroke="#8a8a8a" stroke-width="1.5"/>

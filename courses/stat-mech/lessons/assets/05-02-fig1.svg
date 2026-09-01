@@ -71,7 +71,7 @@
   <text x="600" y="176" font-size="12.5" font-weight="bold" fill="#b9541f">liquid</text>
   <text x="812" y="355" font-size="12.5" font-weight="bold" fill="#2f7d33">gas</text>
 
-  <text x="700" y="452" text-anchor="middle" font-size="12" fill="#333333">The physical G is the lower branch; its slope is −S, so a first-order transition = a slope kink = latent heat.</text>
+  <text x="700" y="452" text-anchor="middle" font-size="12" fill="#333333">The physical G is the lower branch; its slope is −S.</text>
 
   <defs>
     <marker id="ar" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">

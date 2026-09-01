@@ -1,6 +1,6 @@
 <svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="22" fill="#8a8a8a" font-style="italic">On a p&#8211;h diagram the vapor-compression cycle is almost a rectangle: up (compress), left (condense), down (throttle), right (evaporate).</text>
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">On p–h the cycle is nearly a rectangle: compress, condense, throttle, evaporate.</text>
 
   <!-- x axis: enthalpy -->
   <line x1="60" y1="288" x2="562" y2="288" stroke="#8a8a8a" stroke-width="1.5"/>

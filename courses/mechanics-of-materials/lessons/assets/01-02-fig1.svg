@@ -1,5 +1,5 @@
 <svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
-  <text x="40" y="26" fill="#8a8a8a" font-style="italic">Engineering stress&#8722;strain curve: slope is E, area under it is toughness, and yield is set by the 0.2% offset line.</text>
+  <text x="40" y="26" fill="#8a8a8a" font-style="italic">Stress−strain: slope is E, area is toughness, yield from the 0.2% offset line.</text>
 
   <!-- shaded toughness area under the curve -->
   <path d="M 80 330 L 210 170 Q 240 158 276 150 C 330 120 390 92 450 85 C 500 90 525 120 545 150 L 545 330 Z"

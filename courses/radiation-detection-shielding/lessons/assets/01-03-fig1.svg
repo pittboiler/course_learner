@@ -1,6 +1,6 @@
 <svg viewBox="0 0 620 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="46" y="24" fill="#8a8a8a" font-style="italic">A heavy charged particle loses energy slowly&#8230; then dumps most of it in a spike just before it stops.</text>
+  <text x="46" y="24" fill="#8a8a8a" font-style="italic">A heavy charged particle loses energy slowly, then dumps most of it in a spike.</text>
 
   <!-- y-axis -->
   <line x1="60" y1="250" x2="60" y2="46" stroke="#8a8a8a" stroke-width="1.5"/>

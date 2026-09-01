@@ -1,5 +1,5 @@
 <svg viewBox="0 0 640 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
-  <text x="55" y="24" fill="#8a8a8a" font-style="italic">Stationary points on a PES: gradient vanishes at all three; the Hessian eigenvalue signs tell them apart.</text>
+  <text x="55" y="24" fill="#8a8a8a" font-style="italic">Stationary points on a PES: the gradient vanishes; Hessian signs tell them apart.</text>
 
   <!-- axes -->
   <line x1="60" y1="300" x2="610" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>

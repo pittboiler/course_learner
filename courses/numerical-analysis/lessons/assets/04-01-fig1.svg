@@ -79,5 +79,5 @@
   <text x="648" y="112" font-size="12" fill="#111" text-anchor="end">&#8776; 0.277</text>
 
   <!-- caption -->
-  <text x="360" y="388" text-anchor="middle" font-size="12.5" fill="#111">Each blue segment leaves a node along the tangent (slope f = y there); the small one-step gaps accumulate left-to-right into the large gap at t = 1.</text>
+  <text x="360" y="388" text-anchor="middle" font-size="12.5" fill="#111">Each blue segment leaves a node along the tangent; the one-step gaps accumulate.</text>
 </svg>

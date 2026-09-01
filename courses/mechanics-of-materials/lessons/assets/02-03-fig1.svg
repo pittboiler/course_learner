@@ -1,6 +1,6 @@
 <svg viewBox="0 0 600 470" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Simply supported beam, central load P: V steps through zero at midspan, where M peaks at PL/4.</text>
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Central load P: V steps through zero at midspan, where M peaks at PL/4.</text>
 
   <!-- alignment line: midspan, from load down to M peak -->
   <line x1="300" y1="52" x2="300" y2="410" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 5"/>

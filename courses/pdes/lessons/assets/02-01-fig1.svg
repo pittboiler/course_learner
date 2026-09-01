@@ -42,5 +42,5 @@
   <text x="450" y="208" fill="#1a1a1a" text-anchor="middle">u_xx &gt; 0 · warms</text>
 
   <!-- caption -->
-  <text x="60" y="345" fill="#8a8a8a" font-style="italic">The bump flattens (dashed): the peak sinks, the shoulders lift — smoothing driven purely by curvature.</text>
+  <text x="60" y="345" fill="#8a8a8a" font-style="italic">The bump flattens: the peak sinks, the shoulders lift — pure curvature.</text>
 </svg>

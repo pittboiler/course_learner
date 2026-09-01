@@ -1,6 +1,6 @@
 <svg viewBox="0 0 620 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="20" y="24" fill="#8a8a8a" font-style="italic">A neutron&#8217;s-eye view of the target: each nucleus blocks an effective area &#963;. The chance of a reaction</text>
+  <text x="20" y="24" fill="#8a8a8a" font-style="italic">A neutron's-eye view: each nucleus blocks an effective area σ. The chance of a reaction</text>
   <text x="20" y="42" fill="#8a8a8a" font-style="italic">is the fraction of the beam&#8217;s footprint its disks cover &#8212; not their real size, an effective one.</text>
 
   <!-- incoming beam arrows -->

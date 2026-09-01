@@ -38,6 +38,6 @@
   <text x="70" y="40" fill="#8a8a8a" font-style="italic">B into the page (the &#215; marks)</text>
 
   <!-- caption -->
-  <text x="70" y="302" fill="#8a8a8a" font-style="italic">A positive charge moving with velocity v through B (into the page) feels F = qv&#215;B, always &#8869; to v —</text>
+  <text x="70" y="302" fill="#8a8a8a" font-style="italic">A charge moving with v through B feels F = qv×B, always ⊥ to v —</text>
   <text x="70" y="324" fill="#8a8a8a" font-style="italic">so B does no work; it only bends the path into a circle of radius r = mv/qB.</text>
 </svg>

@@ -1,6 +1,6 @@
-<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+<svg viewBox="0 0 655 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="60" y="24" fill="#8a8a8a" font-style="italic">Phase speed c(λ) on deep water: capillarity rules short ripples, gravity rules long swell — with a minimum in between.</text>
+  <text x="60" y="24" fill="#8a8a8a" font-style="italic">Phase speed c(λ) on deep water: capillarity rules ripples, gravity rules swell.</text>
 
   <!-- axes -->
   <line x1="70" y1="320" x2="610" y2="320" stroke="#8a8a8a" stroke-width="1.5"/>

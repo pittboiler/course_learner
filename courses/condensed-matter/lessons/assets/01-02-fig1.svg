@@ -1,6 +1,6 @@
 <svg viewBox="0 0 660 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Left: the (111) plane cuts all three axes at intercept 1. Right: bcc (corner + body-center) and fcc (corner + face-centers).</text>
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Left: the (111) plane cuts all three axes at 1. Right: bcc and fcc lattices.</text>
 
   <!-- ================= LEFT: cubic cell with (111) plane ================= -->
   <!-- cube edges (grey) -->

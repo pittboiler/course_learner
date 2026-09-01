@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
   <!-- caption -->
-  <text x="24" y="20" fill="#8a8a8a" font-style="italic">Each cation is hugged by nearest anions (attraction) and pushed by next-nearest cations (repulsion); summed over the lattice, energy dips to a minimum at r&#8320;.</text>
+  <text x="24" y="20" fill="#8a8a8a" font-style="italic">Nearest anions attract, next-nearest cations repel; summed, energy dips to a minimum at r₀.</text>
 
   <!-- ================= LEFT: NaCl lattice fragment ================= -->
   <text x="40" y="46" fill="#8a8a8a">Rock-salt lattice (Madelung sum)</text>

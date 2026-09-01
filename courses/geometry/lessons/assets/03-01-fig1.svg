@@ -1,5 +1,5 @@
-<svg viewBox="0 0 460 240" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
-  <rect x="0" y="0" width="460" height="240" fill="#ffffff"/>
+<svg viewBox="0 0 467 240" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="467" height="240" fill="#ffffff"/>
 
   <!-- connecting lines (drawn first so boxes sit on top) -->
   <g stroke="#3a5a8c" stroke-width="2" fill="none">

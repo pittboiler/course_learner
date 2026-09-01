@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="70" y="22" fill="#8a8a8a" font-style="italic">Marko–Siggia force–extension curve: nearly free at first, then diverging as x/L → 1 — the last thermal wrinkles cost the most.</text>
+  <text x="70" y="22" fill="#8a8a8a" font-style="italic">Marko–Siggia force–extension: nearly free, then diverging as x/L → 1.</text>
 
   <!-- y-axis -->
   <line x1="70" y1="290" x2="70" y2="45" stroke="#8a8a8a" stroke-width="1.5"/>

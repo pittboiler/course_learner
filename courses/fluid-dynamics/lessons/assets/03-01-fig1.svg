@@ -1,6 +1,6 @@
 <svg viewBox="0 0 740 240" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="24" fill="#8a8a8a" font-style="italic">One knob for the whole module: Re = UL/ν, inertia ÷ stickiness — read left (gooey, reversible) to right (wakes, turbulence).</text>
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">One knob for the module: Re = UL/ν, inertia ÷ stickiness — gooey (left) to turbulent (right).</text>
 
   <!-- regime labels -->
   <text x="150" y="64" fill="#8a8a8a" text-anchor="middle">creeping / Stokes</text>

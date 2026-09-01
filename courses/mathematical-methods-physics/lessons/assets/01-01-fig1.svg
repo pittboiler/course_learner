@@ -46,5 +46,5 @@
   <line x1="566.2" y1="108.2" x2="581.8" y2="123.8" stroke="#4a90d9" stroke-width="2" marker-end="url(#ab)"/>
   <!-- rotation sense in the middle -->
   <path d="M 550 128 A 12 12 0 1 1 538 141" fill="none" stroke="#e0645c" stroke-width="2.2" marker-end="url(#ac)"/>
-  <text x="512" y="252" fill="#8a8a8a">(c) curl: circulation per unit area</text>
+  <text x="512" y="252" fill="#8a8a8a">(c) curl: the swirl</text>
 </svg>

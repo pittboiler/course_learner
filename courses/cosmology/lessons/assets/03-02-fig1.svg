@@ -1,6 +1,6 @@
 <svg viewBox="0 0 620 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Growth of a matter overdensity &#948; vs scale factor a (log&#8211;log): frozen, then &#948; &#8733; a, then frozen again.</text>
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Growth of an overdensity δ vs a (log–log): frozen, then δ ∝ a, then frozen.</text>
 
   <!-- axes -->
   <line x1="70" y1="258" x2="575" y2="258" stroke="#8a8a8a" stroke-width="1.5"/>

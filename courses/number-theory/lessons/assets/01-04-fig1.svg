@@ -1,4 +1,5 @@
 <svg viewBox="0 0 460 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="12">
+  <rect x="0" y="0" width="460" height="300" fill="#ffffff"/>
   <!-- axes -->
   <line x1="50" y1="260" x2="440" y2="260" stroke="#333333" stroke-width="1.5"/>
   <line x1="50" y1="20" x2="50" y2="260" stroke="#333333" stroke-width="1.5"/>

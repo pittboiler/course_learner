@@ -11,7 +11,7 @@
   <!-- axis labels -->
   <text x="470" y="278" fill="#8a8a8a">1 / &#8730;d</text>
   <text x="30" y="60" fill="#8a8a8a">&#963;y</text>
-  <text x="500" y="296" fill="#8a8a8a" font-size="12">(coarse &#8592;&#160;&#160;&#160;&#160;&#8594; finer grain)</text>
+  <text x="500" y="296" fill="#8a8a8a" font-size="12">(coarse ← → finer)</text>
 
   <!-- the Hall-Petch line -->
   <line x1="85" y1="200" x2="520" y2="95" stroke="#4a90d9" stroke-width="3"/>

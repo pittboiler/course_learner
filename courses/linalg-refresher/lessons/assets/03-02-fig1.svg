@@ -34,5 +34,5 @@
   <text x="150" y="150" fill="#8a8a8a" font-size="12">foot moves 3&#215; out</text>
 
   <!-- caption -->
-  <text x="70" y="330" fill="#8a8a8a" font-style="italic">In the eigenbasis A is pure scaling: the &#955;=3 component triples, the &#955;=1 component holds &#8212; so A only bends x toward the &#955;=3 line.</text>
+  <text x="70" y="330" fill="#8a8a8a" font-style="italic">In the eigenbasis A is pure scaling: λ=3 triples, λ=1 holds.</text>
 </svg>

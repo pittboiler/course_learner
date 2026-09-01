@@ -1,6 +1,6 @@
 <svg viewBox="0 0 560 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="70" y="30" fill="#8a8a8a" font-style="italic">Indifference map for u = x₁x₂: convex-to-origin level sets; the MRS (tangent slope) flattens along a curve.</text>
+  <text x="70" y="30" fill="#8a8a8a" font-style="italic">Indifference map for u = x₁x₂: convex level sets, MRS flattening.</text>
 
   <!-- axes -->
   <line x1="65" y1="305" x2="540" y2="305" stroke="#8a8a8a" stroke-width="1.5"/>

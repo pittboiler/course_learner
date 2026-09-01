@@ -1,6 +1,6 @@
 <svg viewBox="0 0 560 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="30" y="24" fill="#8a8a8a" font-style="italic">A heat engine: it takes Q_H from the hot reservoir, delivers work W, and MUST dump Q_L to the cold one.</text>
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">A heat engine takes Q_H, delivers W, and MUST dump Q_L to the cold side.</text>
 
   <!-- hot reservoir -->
   <rect x="150" y="48" width="260" height="46" rx="4" fill="#e0645c" opacity="0.15" stroke="#e0645c" stroke-width="2"/>

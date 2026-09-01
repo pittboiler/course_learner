@@ -1,5 +1,5 @@
 <svg viewBox="0 0 640 470" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
-  <text x="24" y="22" fill="#8a8a8a" font-style="italic">Single-null divertor (poloidal cut): power crossing the separatrix rides a thin SOL down the legs to remote, cooled targets.</text>
+  <text x="24" y="22" fill="#8a8a8a" font-style="italic">Single-null divertor: power crossing the separatrix rides a thin SOL to cooled targets.</text>
 
   <!-- ===== machine centerline / orientation ===== -->
   <line x1="70" y1="70" x2="70" y2="440" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 5"/>

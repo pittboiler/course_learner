@@ -1,5 +1,5 @@
-<svg viewBox="0 0 620 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
-  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Perfectly mixed: the whole tank sits at the exit composition, so the reaction runs at the low exit rate everywhere.</text>
+<svg viewBox="0 0 620 357" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Perfectly mixed: the tank sits at exit composition, so it runs at the exit rate.</text>
 
   <!-- ===== motor + stirrer shaft ===== -->
   <rect x="286" y="52" width="48" height="26" fill="#8a8a8a" opacity="0.25" stroke="#8a8a8a" stroke-width="1.5"/>

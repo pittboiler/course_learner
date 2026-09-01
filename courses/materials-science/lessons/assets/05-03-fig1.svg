@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 420" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
   <!-- caption -->
-  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Ashby chart: stiffness vs. density on log axes. Families cluster; the slope-2 guideline ranks a light, stiff beam.</text>
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Ashby chart: stiffness vs density (log). Families cluster; slope-2 ranks a stiff beam.</text>
 
   <!-- gridlines -->
   <line x1="272" y1="50" x2="272" y2="340" stroke="#8a8a8a" stroke-width="0.75" stroke-dasharray="2 5" opacity="0.5"/>

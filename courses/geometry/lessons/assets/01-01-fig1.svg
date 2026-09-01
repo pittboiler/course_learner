@@ -8,8 +8,8 @@
   <text x="20" y="248" fill="#4a90d9">line m</text>
 
   <!-- intersection point O -->
-  <circle cx="210" cy="150" r="4" fill="#333333"/>
-  <text x="216" y="146" fill="#333333">O</text>
+  <circle cx="210" cy="150" r="4" fill="#8a8a8a"/>
+  <text x="216" y="146" fill="#8a8a8a">O</text>
 
   <!-- angle arcs: top & bottom = vertical pair (red), left & right = vertical pair (green) -->
   <path d="M 176.4 132.2 A 38 38 0 0 1 243.6 132.2" fill="none" stroke="#e0645c" stroke-width="2"/>

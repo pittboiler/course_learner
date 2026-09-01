@@ -1,5 +1,5 @@
-<svg viewBox="0 0 480 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
-  <rect x="0" y="0" width="480" height="300" fill="#faf9f6"/>
+<svg viewBox="0 0 483 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="483" height="300" fill="#faf9f6"/>
 
   <!-- gridlines at the marked angles -->
   <g stroke="#cfcabd" stroke-width="1" stroke-dasharray="3 3">

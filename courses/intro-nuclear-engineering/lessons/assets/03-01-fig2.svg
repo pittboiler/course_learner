@@ -18,7 +18,7 @@
   <!-- x-axis -->
   <line x1="80" y1="250" x2="590" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
   <polygon points="590,250 580,245 580,255" fill="#8a8a8a"/>
-  <text x="560" y="272" fill="#8a8a8a">mass number A</text>
+  <text x="515" y="272" fill="#8a8a8a">mass number A</text>
   <text x="130" y="268" fill="#8a8a8a" text-anchor="middle">80</text>
   <text x="230" y="268" fill="#8a8a8a" text-anchor="middle">100</text>
   <text x="330" y="268" fill="#8a8a8a" text-anchor="middle">120</text>

@@ -1,6 +1,6 @@
 <svg viewBox="0 0 660 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="16" y="22" fill="#8a8a8a" font-style="italic">The road map: grams A &#8594; mol A &#8594;(mole ratio)&#8594; mol B &#8594; grams B. Below: the smaller reactant caps the product.</text>
+  <text x="16" y="22" fill="#8a8a8a" font-style="italic">The road map: grams A → mol A →(ratio)→ mol B → grams B; the smaller reactant caps it.</text>
 
   <!-- ===== top pipeline: grams A -> mol A -> mol B -> grams B ===== -->
 

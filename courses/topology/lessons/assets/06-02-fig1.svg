@@ -1,4 +1,4 @@
-<svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+<svg viewBox="0 0 650 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- ==================== LEFT PANEL: concatenation ==================== -->
   <text x="30" y="34" fill="#8a8a8a" font-style="italic">Two loops at x0, then their product γ·δ</text>
 
@@ -15,8 +15,8 @@
   <text x="258" y="205" fill="#e0645c">δ</text>
 
   <!-- basepoint x0 where both loops meet -->
-  <circle cx="185" cy="200" r="5.5" fill="#333333"/>
-  <text x="176" y="290" fill="#333333">x0</text>
+  <circle cx="185" cy="200" r="5.5" fill="#8a8a8a"/>
+  <text x="176" y="290" fill="#8a8a8a">x0</text>
   <line x1="185" y1="205" x2="185" y2="276" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
 
   <text x="30" y="330" fill="#8a8a8a">γ·δ: run γ (double speed), land back at x0, then run δ.</text>
@@ -41,5 +41,5 @@
   <circle cx="500" cy="280" r="5.5" fill="#e0645c"/>
   <text x="512" y="286" fill="#e0645c">x0</text>
 
-  <text x="378" y="332" fill="#8a8a8a">The limit is the constant loop e — the identity of π1.</text>
+  <text x="378" y="332" fill="#8a8a8a">The limit is the constant loop e.</text>
 </svg>

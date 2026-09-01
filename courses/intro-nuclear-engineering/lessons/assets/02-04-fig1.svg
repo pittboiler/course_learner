@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="24" fill="#8a8a8a" font-style="italic">A neutron falls to thermal in a staircase of elastic collisions &#8212; on a log-energy axis each step is about the same size (&#8776; &#958;).</text>
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">A neutron thermalizes in a staircase of collisions — equal steps in log energy (≈ ξ).</text>
 
   <!-- y axis (energy, log) -->
   <line x1="70" y1="60" x2="70" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>

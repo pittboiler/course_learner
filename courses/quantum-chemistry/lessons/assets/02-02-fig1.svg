@@ -1,6 +1,6 @@
 <svg viewBox="0 0 660 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="30" y="24" fill="#8a8a8a" font-style="italic">One electron in a mean field: nuclear pull (core) + averaged repulsion (Coulomb J) + the nonclassical same-spin exchange (K).</text>
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">One electron in a mean field: core pull + averaged repulsion J + same-spin exchange K.</text>
 
   <!-- F = -->
   <text x="30" y="175" fill="#8a8a8a" font-size="20">F&#770; =</text>

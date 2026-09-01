@@ -1,6 +1,6 @@
-<svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+<svg viewBox="0 0 631 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Cooperativity sharpens the binding curve: all cross p = ½ at [L] = K_d, but the 10→90% window shrinks as 81^(1/n).</text>
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Cooperativity sharpens binding: all cross p = ½ at K_d, but the window shrinks.</text>
 
   <!-- n=4 window band (p from 0.1 to 0.9), x from 0.577 to 1.732 -->
   <rect x="140.7" y="74" width="141.5" height="192" fill="#e0645c" opacity="0.15"/>

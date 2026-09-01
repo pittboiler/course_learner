@@ -1,6 +1,6 @@
 <svg viewBox="0 0 680 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Muller-Breslau: insert a hinge at B, impose a unit relative rotation. The deflected shape IS the influence line for the moment at B.</text>
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Muller-Breslau: hinge at B, unit rotation — the deflected shape IS the influence line.</text>
 
   <!-- ===== coral distributed live load across the whole beam ===== -->
   <text x="40" y="66" fill="#e0645c">Live load w placed over BOTH spans (same-sign IL everywhere) &#8594; maximum hogging at B</text>

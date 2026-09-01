@@ -1,4 +1,5 @@
 <svg viewBox="0 0 440 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="440" height="320" fill="#ffffff"/>
   <!-- ===== ship's two-leg route as an oblique triangle ===== -->
   <!-- A = start (80,250), B = turn (195,154), C = end (325,229) -->
 

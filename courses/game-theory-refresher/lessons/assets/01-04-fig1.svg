@@ -1,6 +1,6 @@
 <svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="70" y="34" fill="#8a8a8a" font-style="italic">Each firm's optimum shrinks as the rival grows; the lines cross once — the Nash equilibrium.</text>
+  <text x="70" y="34" fill="#8a8a8a" font-style="italic">Each firm's optimum shrinks as the rival grows; they cross at Nash.</text>
 
   <!-- axes -->
   <line x1="60" y1="300" x2="540" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
@@ -20,12 +20,12 @@
   <!-- droplines to the Nash equilibrium (q1*,q2*) = (4,4) at pixel (140,220) -->
   <line x1="140" y1="220" x2="140" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
   <line x1="140" y1="220" x2="60" y2="220" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
-  <circle cx="140" cy="220" r="5" fill="#333333"/>
+  <circle cx="140" cy="220" r="5" fill="#8a8a8a"/>
 
   <!-- NE tick labels -->
   <text x="120" y="318" fill="#8a8a8a">q₁*</text>
   <text x="30" y="225" fill="#8a8a8a">q₂*</text>
-  <text x="150" y="212" fill="#333333">Nash eq.</text>
+  <text x="150" y="212" fill="#8a8a8a">Nash eq.</text>
 
   <!-- curve labels -->
   <text x="196" y="112" fill="#4a90d9">BR₁: q₁ = (a−c)/2b − q₂/2</text>

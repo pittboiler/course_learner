@@ -1,6 +1,7 @@
 <svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <rect x="0" y="0" width="560" height="350" fill="#ffffff"/>
   <!-- caption -->
-  <text x="60" y="34" fill="#8a8a8a" font-style="italic">Cheapest way to make q: slide the isocost toward the origin until it just kisses the isoquant.</text>
+  <text x="60" y="34" fill="#8a8a8a" font-style="italic">Slide the isocost in until it just kisses the isoquant.</text>
 
   <!-- cheaper, unreachable isocost (parallel, closer to origin) -->
   <line x1="60" y1="150" x2="333" y2="300" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="5 4"/>

@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" font-family="sans-serif">
-  <rect x="0" y="0" width="760" height="400" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 786 400" font-family="sans-serif">
+  <rect x="0" y="0" width="786" height="400" fill="#ffffff"/>
 
   <!-- ================= LEFT: Laplace — max on the boundary ================= -->
   <text x="40" y="40" font-size="15" fill="#1a1a1a" font-weight="bold">Laplace: extrema live on the boundary</text>

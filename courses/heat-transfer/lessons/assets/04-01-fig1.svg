@@ -1,5 +1,5 @@
 <svg viewBox="0 0 620 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
-  <text x="70" y="22" fill="#8a8a8a" font-style="italic">Hotter bodies emit more at every &#955;, and their peak marches to shorter &#955; (Wien locus, dashed).</text>
+  <text x="70" y="22" fill="#8a8a8a" font-style="italic">Hotter bodies emit more at every λ, and the peak marches to shorter λ.</text>
 
   <!-- x axis -->
   <line x1="70" y1="250" x2="575" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>

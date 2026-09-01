@@ -8,7 +8,7 @@
 
   <!-- Demand line (marginal benefit) -->
   <line x1="90" y1="80" x2="560" y2="350" stroke="#1f6fb2" stroke-width="2.5"/>
-  <text x="566" y="352" font-family="sans-serif" font-size="14" fill="#1f6fb2">Demand = MB</text>
+  <text x="540" y="352" font-family="sans-serif" font-size="14" fill="#1f6fb2">Demand = MB</text>
 
   <!-- Private marginal cost -->
   <line x1="90" y1="310" x2="560" y2="100" stroke="#222222" stroke-width="2.5"/>
@@ -16,7 +16,7 @@
 
   <!-- Social marginal cost = PMC + d -->
   <line x1="90" y1="270" x2="560" y2="60" stroke="#c0392b" stroke-width="2.5" stroke-dasharray="1 0"/>
-  <text x="566" y="62" font-family="sans-serif" font-size="14" fill="#c0392b">SMC = PMC + d</text>
+  <text x="530" y="62" font-family="sans-serif" font-size="14" fill="#c0392b">SMC = PMC + d</text>
 
   <!-- DWL triangle: apex (276,177), (315,199), (315,160) -->
   <polygon points="276,177 315,199 315,160" fill="#c0392b" fill-opacity="0.30" stroke="#c0392b" stroke-width="1"/>
@@ -42,5 +42,5 @@
   <text x="150" y="254" font-family="sans-serif" font-size="13" fill="#7b3f9e" text-anchor="middle">tax = d</text>
 
   <!-- caption -->
-  <text x="90" y="416" font-family="sans-serif" font-size="13" fill="#444444">Market stops at q_priv (D = PMC); efficiency is at q* (D = SMC). The tax lifts PMC to SMC and closes the wedge.</text>
+  <text x="90" y="416" font-family="sans-serif" font-size="13" fill="#444444">Market stops at q_priv (D = PMC); efficiency is q* (D = SMC), and the tax closes it.</text>
 </svg>

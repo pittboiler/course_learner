@@ -1,5 +1,5 @@
-<svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
-  <text x="24" y="22" fill="#8a8a8a" font-style="italic" font-size="12">CI mixes the HF reference with excited determinants; the coupling K pushes the ground state down by the correlation energy.</text>
+<svg viewBox="0 0 662 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="24" y="22" fill="#8a8a8a" font-style="italic" font-size="12">CI mixes the HF reference with excited determinants; K pushes the ground state down.</text>
 
   <text x="150" y="48" fill="#8a8a8a" text-anchor="middle">promote occupied &#8594; virtual</text>
 

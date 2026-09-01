@@ -49,6 +49,6 @@
 
   <!-- Molecular clouds -->
   <ellipse cx="486" cy="338" rx="104" ry="20" fill="#5b3f9e" opacity="0.22" stroke="#5b3f9e" stroke-width="1.5"/>
-  <text x="486" y="335" fill="#432c7a" text-anchor="middle" font-size="12">Molecular clouds (H&#8322;, 10&#8211;50 K)  &#8212;  self-gravitating, over-pressured</text>
+  <text x="486" y="335" fill="#432c7a" text-anchor="middle" font-size="12">Molecular clouds (H₂, 10–50 K) — self-gravitating</text>
   <text x="486" y="349" fill="#432c7a" text-anchor="middle" font-size="12">where stars form</text>
 </svg>

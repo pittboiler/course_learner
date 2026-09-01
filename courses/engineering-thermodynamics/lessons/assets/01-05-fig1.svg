@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Boundary work is the area under the process path on a p&#8211;V diagram &#8212; so the route, not just the endpoints, sets W.</text>
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Boundary work is the area under the p–V path — the route, not just the endpoints.</text>
 
   <!-- ===== left: area under one process curve = work ===== -->
   <text x="86" y="52" fill="#8a8a8a">W = area under the path</text>

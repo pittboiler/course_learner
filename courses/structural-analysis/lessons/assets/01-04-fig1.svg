@@ -1,6 +1,6 @@
 <svg viewBox="0 0 580 470" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
   <!-- caption -->
-  <text x="30" y="20" fill="#8a8a8a" font-style="italic">Three panels, one x-axis: draw V as the running slope of the loads, then M as the running area under V.</text>
+  <text x="30" y="20" fill="#8a8a8a" font-style="italic">Three panels, one axis: V is the slope of the loads, M the area under V.</text>
 
   <!-- alignment guides across all panels -->
   <line x1="188.3" y1="96" x2="188.3" y2="356" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>

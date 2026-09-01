@@ -60,5 +60,5 @@
   <text x="446" y="300" fill="#e0645c">ω = 0 for r &gt; 0, spike at r = 0</text>
 
   <!-- circulation loop label spanning both -->
-  <text x="392" y="330" fill="#8a8a8a" font-style="italic">Γ = ∮ u·dl  (same round any loop enclosing the core)</text>
+  <text x="392" y="330" fill="#8a8a8a" font-style="italic">Γ = ∮ u·dl (any loop around the core)</text>
 </svg>

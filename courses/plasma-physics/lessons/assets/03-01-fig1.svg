@@ -1,6 +1,6 @@
 <svg viewBox="0 0 660 470" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Each velocity moment of Vlasov gives one fluid equation — but every equation calls on the next moment (coral): the closure gap.</text>
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Each Vlasov moment gives a fluid equation that calls on the next moment: the closure gap.</text>
 
   <!-- ===== the ladder of equations (left column) ===== -->
 

@@ -32,6 +32,6 @@
   <text x="330" y="167" fill="#4a90d9">R</text>
 
   <!-- caption -->
-  <text x="60" y="32" fill="#8a8a8a" font-style="italic">The ring is the widest singularity-free annulus about z&#8320;: one bad point in the hole, one past the rim.</text>
+  <text x="60" y="32" fill="#8a8a8a" font-style="italic">The widest singularity-free annulus: one bad point inside, one outside.</text>
   <text x="150" y="330" fill="#8a8a8a">Laurent series converges on the open ring r &lt; |z &#8722; z&#8320;| &lt; R.</text>
 </svg>

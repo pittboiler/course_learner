@@ -49,5 +49,5 @@
 </g>
 
 <!-- caption -->
-<text x="360" y="356" text-anchor="middle" font-size="14" fill="#111">Row k of the DFT matrix samples the pure wave &#969;&#8319;&#7472; &#8712; { powers of the k-th root }: k = frequency, going once around per step.</text>
+<text x="360" y="356" text-anchor="middle" font-size="14" fill="#111">Row k of the DFT matrix samples the k-th root of unity: k = frequency.</text>
 </svg>

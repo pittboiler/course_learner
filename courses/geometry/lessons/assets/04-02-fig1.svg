@@ -63,5 +63,5 @@
   <text x="90" y="122" fill="#4a90d9">C(1,4)</text>
 
   <!-- hypotenuse length label -->
-  <text x="175" y="180" fill="#333" font-style="italic">BC = 5</text>
+  <text x="175" y="180" fill="#8a8a8a" font-style="italic">BC = 5</text>
 </svg>

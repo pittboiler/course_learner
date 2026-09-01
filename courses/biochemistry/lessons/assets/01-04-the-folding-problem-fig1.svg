@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="22" fill="#8a8a8a" font-style="italic">The folding funnel: many high&#8211;energy shapes at the wide rim collapse to one low&#8211;energy native fold.</text>
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">The folding funnel: many high-energy shapes at the rim collapse to one native fold.</text>
 
   <!-- free-energy axis (up = higher G) -->
   <line x1="64" y1="332" x2="64" y2="64" stroke="#8a8a8a" stroke-width="1.5"/>

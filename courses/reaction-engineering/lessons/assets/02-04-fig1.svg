@@ -1,5 +1,5 @@
 <svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
-  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Down the packed bed: conversion X climbs while pressure p = P/P&#8320; sags. The two ODEs are coupled.</text>
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Down the packed bed: X climbs while p = P/P₀ sags — the two ODEs are coupled.</text>
 
   <!-- axes -->
   <line x1="80" y1="320" x2="580" y2="320" stroke="#8a8a8a" stroke-width="1.5"/>

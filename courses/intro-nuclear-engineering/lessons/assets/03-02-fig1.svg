@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="20" y="22" fill="#8a8a8a" font-style="italic">One absorbed neutron either splits the nucleus (chance &#963;f/&#963;a, out come &#957;&#8776;2.4) or is captured (&#963;&#947;/&#963;a) &#8212; net &#951; per absorption.</text>
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">One absorbed neutron either fissions (σf/σa, ν≈2.4) or is captured (σγ/σa): net η.</text>
 
   <!-- incoming neutron -->
   <line x1="24" y1="150" x2="132" y2="150" stroke="#8a8a8a" stroke-width="2"/>

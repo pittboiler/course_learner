@@ -6,7 +6,7 @@
   <line x1="80" y1="360" x2="80" y2="35" stroke="#1a1a1a" stroke-width="2"/>
   <polygon points="605,360 595,355 595,365" fill="#1a1a1a"/>
   <polygon points="80,35 75,45 85,45" fill="#1a1a1a"/>
-  <text x="500" y="385" font-size="14" fill="#1a1a1a">output (failure L / success H)</text>
+  <text x="500" y="385" font-size="14" fill="#1a1a1a">output (L / H)</text>
   <text x="92" y="50" font-size="14" fill="#1a1a1a">wage w</text>
 
   <!-- output category ticks -->
@@ -40,5 +40,5 @@
   <text x="528" y="220" font-size="13" fill="#c0392b">(spread)</text>
 
   <!-- annotation: same agent utility, higher expected wage -->
-  <text x="150" y="405" font-size="12.5" fill="#555555">First best fully insures; second best tilts pay to induce effort, forcing the risk-averse agent to bear spread — a risk premium the principal pays.</text>
+  <text x="150" y="405" font-size="12.5" fill="#555555">First best insures fully; second best tilts pay to induce effort.</text>
 </svg>

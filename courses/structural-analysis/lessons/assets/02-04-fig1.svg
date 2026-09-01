@@ -1,5 +1,5 @@
 <svg viewBox="0 0 640 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
-  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Multiply the real-load M diagram by the unit-load m diagram, integrate over the beam: that integral is the deflection.</text>
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Multiply the real M diagram by the unit-load m diagram and integrate: the deflection.</text>
 
   <text x="120" y="48" fill="#4a90d9" font-size="15">REAL system (loads M)</text>
   <text x="420" y="48" fill="#e0645c" font-size="15">VIRTUAL system (unit load m)</text>
@@ -62,5 +62,5 @@
   <text x="150" y="270" fill="#8a8a8a" font-size="16">1&#183;&#916;B =</text>
   <text x="228" y="270" fill="#8a8a8a" font-size="20">&#8747;</text>
   <text x="248" y="270" fill="#8a8a8a" font-size="16">(m M / EI) dx  =  wL&#8308;/8EI + PL&#179;/3EI</text>
-  <text x="150" y="296" fill="#8a8a8a" font-style="italic" font-size="12">Both diagrams hog (same sign), so the product is positive: B deflects downward, along the unit load.</text>
+  <text x="150" y="296" fill="#8a8a8a" font-style="italic" font-size="12">Both diagrams hog (same sign), so the product is positive: B deflects downward.</text>
 </svg>

@@ -1,6 +1,6 @@
 <svg viewBox="0 0 680 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="20" y="20" fill="#8a8a8a" font-style="italic">A vertical polarizer makes light vertical; an analyzer at angle θ passes only the component E₀cos θ, so I = I₀cos²θ.</text>
+  <text x="20" y="20" fill="#8a8a8a" font-style="italic">A polarizer makes light vertical; an analyzer at θ passes E₀cos θ, so I = I₀cos²θ.</text>
 
   <!-- ===== unpolarized source ===== -->
   <line x1="18" y1="170" x2="108" y2="170" stroke="#8a8a8a" stroke-width="1.5"/>

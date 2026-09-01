@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="30" y="24" fill="#8a8a8a" font-style="italic">One field mode of frequency &#969; is one harmonic oscillator; its energy ladder is rungs spaced &#8463;&#969; &#8212; photons.</text>
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">One field mode is one oscillator; its ladder rungs are spaced ℏω — photons.</text>
 
   <!-- ===== left: a field mode in a box ===== -->
   <rect x="40" y="95" width="210" height="150" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>

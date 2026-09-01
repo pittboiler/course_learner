@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="24" fill="#8a8a8a" font-style="italic">The same collisions do both jobs: diffusion spreads the particle out (blue), drag drags it back down (coral).</text>
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">The same collisions do both: diffusion spreads out (blue), drag pulls back (coral).</text>
   <text x="40" y="42" fill="#8a8a8a" font-style="italic">At equilibrium the two fluxes cancel — and that balance forces D = k_BT / γ.</text>
 
   <!-- x-axis (bottom) -->

@@ -1,6 +1,6 @@
 <svg viewBox="0 0 520 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Nash solution: where a level curve of the product (u&#8321;&#8722;d&#8321;)(u&#8322;&#8722;d&#8322;) is tangent to the frontier.</text>
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Nash: a level curve of (u₁−d₁)(u₂−d₂) tangent to the frontier.</text>
 
   <!-- feasible set U (triangle (0,0)-(1,0)-(0,1)) -->
   <polygon points="70,300 290,300 70,80" fill="#4a90d9" opacity="0.12"/>

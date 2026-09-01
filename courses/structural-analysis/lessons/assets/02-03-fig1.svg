@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="20" y="22" fill="#8a8a8a" font-style="italic">One deflection, two systems: real loads give M(x); a virtual unit load at the target gives m(x); their product, integrated, is the deflection.</text>
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">One deflection, two systems: real loads give M(x), a virtual unit load gives m(x).</text>
 
   <!-- ===== LEFT: REAL system ===== -->
   <text x="30" y="58" fill="#4a90d9">REAL system (actual loads)</text>

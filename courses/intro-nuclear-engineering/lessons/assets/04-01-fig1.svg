@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Two nuclei climb the Coulomb hill (repulsion) before dropping into the deep nuclear well &#8212; thermal energy tunnels through.</text>
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Two nuclei climb the Coulomb hill, then tunnel into the deep nuclear well.</text>
 
   <!-- V(r) axis -->
   <line x1="70" y1="315" x2="70" y2="42" stroke="#8a8a8a" stroke-width="1.5"/>

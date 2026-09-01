@@ -1,6 +1,6 @@
 <svg viewBox="0 0 620 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Same release, three fates: &#950;&#160;&lt;&#160;1 rings and decays, &#950;&#160;=&#160;1 is the fastest silent return, &#950;&#160;&gt;&#160;1 crawls home.</text>
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Same release, three fates: ζ < 1 rings, ζ = 1 returns fastest, ζ > 1 crawls.</text>
 
   <!-- equilibrium / time axis -->
   <line x1="50" y1="150" x2="580" y2="150" stroke="#8a8a8a" stroke-width="1.5"/>

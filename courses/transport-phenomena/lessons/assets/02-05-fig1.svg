@@ -1,5 +1,5 @@
 <svg viewBox="0 0 680 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="15">
-  <text x="20" y="24" fill="#8a8a8a" font-style="italic">The energy equation of change, term by term. Blue = already in the heat equation; coral = new when the fluid moves.</text>
+  <text x="20" y="24" fill="#8a8a8a" font-style="italic">The energy equation term by term: blue = heat equation, coral = new when it moves.</text>
 
   <!-- ===== equation row (y ~ 90) ===== -->
 
@@ -51,7 +51,7 @@
   <!-- ===== brace: the two LHS terms are the substantial derivative ===== -->
   <path d="M 20 172 L 20 180 L 148 180 L 148 188 L 148 180 L 292 180 L 292 172"
         fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
-  <text x="156" y="204" fill="#8a8a8a" text-anchor="middle" font-size="13">&#961;c<tspan font-size="10" dy="3">p</tspan><tspan dy="-3"> DT/Dt &#8212; the substantial (following-the-fluid) derivative</tspan></text>
+  <text x="156" y="204" fill="#8a8a8a" text-anchor="middle" font-size="13">ρcp DT/Dt — the substantial derivative</text>
 
   <!-- ===== recover the heat equation ===== -->
   <text x="20" y="252" fill="#8a8a8a" font-size="13">Set the coral terms to zero &#8212; no flow (</text>
@@ -63,5 +63,5 @@
   <text x="190" y="288" fill="#4a90d9" font-size="15">q</text>
   <text x="210" y="284" fill="#8a8a8a" font-size="13" font-style="italic">&#8212; exactly the heat-transfer heat equation (Lesson 1.2).</text>
 
-  <text x="20" y="320" fill="#8a8a8a" font-size="13">The energy equation of change is that same law with two extra terms switched on the moment the medium is a moving fluid.</text>
+  <text x="20" y="320" fill="#8a8a8a" font-size="13">The same law with two extra terms switched on the moment the medium moves.</text>
 </svg>

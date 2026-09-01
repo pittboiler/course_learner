@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Q is the height reactants sit above products. Downhill (left) releases it; uphill (right) must be paid &#8212; and paid extra.</text>
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Q is how far reactants sit above products: downhill releases it, uphill must be paid.</text>
 
   <!-- energy axis -->
   <line x1="30" y1="310" x2="30" y2="55" stroke="#8a8a8a" stroke-width="1.5"/>

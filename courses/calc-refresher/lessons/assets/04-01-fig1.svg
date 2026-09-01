@@ -41,8 +41,8 @@
   <line x1="392" y1="250" x2="418" y2="250" stroke="#e0645c" stroke-width="2.5" marker-end="url(#ah)"/>
   <text x="424" y="255" fill="#e0645c">&#8711;f (steepest ascent)</text>
   <line x1="392" y1="278" x2="418" y2="278" stroke="#4a90d9" stroke-width="2.5"/>
-  <text x="424" y="283" fill="#4a90d9">level curve (f constant)</text>
+  <text x="412" y="283" fill="#4a90d9">level curve (f constant)</text>
 
   <!-- caption -->
-  <text x="30" y="330" fill="#8a8a8a" font-style="italic">Every gradient arrow crosses its contour at a right angle, points uphill, and grows where the slope steepens.</text>
+  <text x="30" y="330" fill="#8a8a8a" font-style="italic">Gradient arrows meet contours at right angles, point uphill, and grow with slope.</text>
 </svg>

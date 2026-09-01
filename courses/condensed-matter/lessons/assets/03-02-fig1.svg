@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Fermi–Dirac occupancy f(ε): a sharp step at T=0 (grey) softens over only ~k_BT around E_F at T&gt;0 (blue).</text>
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Fermi–Dirac f(ε): the T=0 step (grey) softens over ~k_BT around E_F at T>0 (blue).</text>
   <text x="40" y="40" fill="#8a8a8a" font-style="italic">Only the coral sliver — a fraction ~k_BT/E_F of the electrons — can be thermally excited.</text>
 
   <!-- axes -->

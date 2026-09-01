@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="70" y="24" fill="#8a8a8a" font-style="italic">Both engines climb the same hill: fusion up from the left, fission down from the right, toward the ⁵⁶Fe peak.</text>
+  <text x="70" y="24" fill="#8a8a8a" font-style="italic">Both engines climb the same hill toward the ⁵⁶Fe peak: fusion up, fission down.</text>
 
   <!-- ===== axes ===== -->
   <line x1="70" y1="330" x2="70" y2="50" stroke="#8a8a8a" stroke-width="1.5"/>

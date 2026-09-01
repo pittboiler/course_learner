@@ -1,5 +1,5 @@
 <svg viewBox="0 0 620 440" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
-  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Both margins are distances to the critical point &#8722;1. Read them at DIFFERENT frequencies. Here L(s) = 12/(s(s+2)(s+4)).</text>
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Both margins measure distance to −1, read at DIFFERENT frequencies. L(s) = 12/(s(s+2)(s+4)).</text>
 
   <!-- ============ MAGNITUDE PLOT ============ -->
   <line x1="70" y1="70" x2="70" y2="210" stroke="#8a8a8a" stroke-width="1.5"/>

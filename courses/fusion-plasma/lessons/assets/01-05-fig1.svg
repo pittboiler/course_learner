@@ -1,6 +1,6 @@
-<svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+<svg viewBox="0 0 650 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="60" y="24" fill="#8a8a8a" font-style="italic">The milestone ladder: more gain Q means alphas do more of the heating &#8212; ignition is the ceiling f&#945;=1.</text>
+  <text x="60" y="24" fill="#8a8a8a" font-style="italic">The milestone ladder: higher Q means alphas do more heating; ignition is fα = 1.</text>
 
   <!-- axes -->
   <line x1="70" y1="320" x2="600" y2="320" stroke="#8a8a8a" stroke-width="1.5"/>

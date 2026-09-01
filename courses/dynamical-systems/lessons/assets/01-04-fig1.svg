@@ -40,5 +40,5 @@
   <text x="378" y="103" font-size="13" fill="#1f6fb4" font-weight="bold">v_s</text>
   <text x="238" y="205" font-size="12.5" fill="#111111">saddle x*</text>
 
-  <text x="230" y="386" text-anchor="middle" font-size="12" fill="#333333">Gray = true nonlinear flow; straight lines = linearization's stable (v_s) / unstable (v_u) eigendirections.</text>
+  <text x="230" y="386" text-anchor="middle" font-size="12" fill="#333333">Gray = true nonlinear flow; lines = the linearized eigendirections.</text>
 </svg>

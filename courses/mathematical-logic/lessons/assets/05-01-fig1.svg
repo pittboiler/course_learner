@@ -28,7 +28,7 @@
   <!-- B -> C : plug into psi(x) = "x is unprovable" -->
   <path d="M 535 130 L 535 255" fill="none" stroke="#111111" stroke-width="2.5" marker-end="url(#arrow)"/>
   <text x="545" y="198" font-family="Helvetica, Arial, sans-serif" font-size="16" text-anchor="start" fill="#111111">plug into</text>
-  <text x="545" y="218" font-family="Helvetica, Arial, sans-serif" font-size="16" text-anchor="start" fill="#111111">&#968;(x) = &#8220;x unprovable&#8221;</text>
+  <text x="515" y="218" font-family="Helvetica, Arial, sans-serif" font-size="16" text-anchor="start" fill="#111111">&#968;(x) = &#8220;x unprovable&#8221;</text>
 
   <!-- C -> A : diagonal lemma identifies this sentence WITH G -->
   <path d="M 410 305 Q 220 300 175 245" fill="none" stroke="#111111" stroke-width="2.5" stroke-dasharray="7 5" marker-end="url(#arrow)"/>

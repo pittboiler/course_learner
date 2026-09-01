@@ -1,5 +1,5 @@
-<svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
-<rect x="0" y="0" width="640" height="360" fill="#ffffff"/>
+<svg viewBox="0 0 663 360" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+<rect x="0" y="0" width="663" height="360" fill="#ffffff"/>
 <text x="320" y="26" font-size="15" fill="#111" text-anchor="middle">A stopping time: &#964; = first time the path leaves the band [&#8722;a, b].</text>
 <line x1="60" y1="74.0" x2="600" y2="74.0" stroke="#0a7d4f" stroke-width="1.6" stroke-dasharray="6,4"/>
 <text x="606" y="78.0" font-size="13" fill="#0a7d4f">b</text>

@@ -19,7 +19,7 @@
   <text x="60" y="296" fill="#e0645c" font-size="11">noise in = N&#8320;B</text>
 
   <!-- RIGHT: wide receiver -->
-  <text x="370" y="48" fill="#8a8a8a" font-size="12">B. Receiver three times too wide: same signal, 3&#215; the noise</text>
+  <text x="370" y="48" fill="#8a8a8a" font-size="12">B. Receiver 3× too wide: 3× the noise</text>
   <rect x="400" y="150" width="210" height="60" fill="#e0645c" fill-opacity="0.18" stroke="none"/>
   <line x1="370" y1="210" x2="640" y2="210" stroke="#8a8a8a" stroke-width="1.2"/>
   <line x1="370" y1="190" x2="640" y2="190" stroke="#e0645c" stroke-width="2" stroke-dasharray="5 3"/>
@@ -31,5 +31,5 @@
   <polygon points="400,252 409,248 409,256" fill="#8a8a8a"/>
   <polygon points="610,252 601,248 601,256" fill="#8a8a8a"/>
   <text x="494" y="268" fill="#8a8a8a" font-size="11">3B</text>
-  <text x="410" y="296" fill="#e0645c" font-size="11">noise in = 3N&#8320;B &#8212; 4.8 dB worse SNR, no extra signal</text>
+  <text x="410" y="296" fill="#e0645c" font-size="11">noise in = 3N₀B — 4.8 dB worse SNR</text>
 </svg>

@@ -1,6 +1,6 @@
 <svg viewBox="0 0 660 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
   <!-- caption -->
-  <text x="20" y="22" fill="#8a8a8a" font-style="italic">A plain torus separates charges and self-ejects; a helical twist lets each particle sample top &#38; bottom, cancelling the drift.</text>
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">A plain torus self-ejects; a helical twist lets each particle sample top and bottom.</text>
 
   <!-- ============ LEFT PANEL: plain torus fails ============ -->
   <text x="120" y="48" fill="#8a8a8a" font-weight="bold">Plain toroidal field</text>
@@ -70,6 +70,6 @@
   <circle cx="587" cy="185" r="4.5" fill="#e0645c"/>
   <text x="500" y="176" fill="#e0645c">samples both</text>
 
-  <text x="452" y="300" fill="#8a8a8a">field line = helical &#8594; up-drift cancels down-drift</text>
-  <text x="452" y="320" fill="#4a90d9">rotational transform &#953; ; safety factor q = 1/&#953;</text>
+  <text x="452" y="300" fill="#8a8a8a">helical: up-drift cancels down</text>
+  <text x="452" y="320" fill="#4a90d9">rotational transform ι, q = 1/ι</text>
 </svg>

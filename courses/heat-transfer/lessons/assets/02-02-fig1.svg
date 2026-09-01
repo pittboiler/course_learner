@@ -9,7 +9,7 @@
   <polygon points="90,50 85,60 95,60" fill="#8a8a8a"/>
 
   <!-- axis labels -->
-  <text x="612" y="295" fill="#8a8a8a">x  (depth)</text>
+  <text x="570" y="295" fill="#8a8a8a">x  (depth)</text>
   <text x="58" y="48" fill="#8a8a8a">T</text>
   <text x="30" y="66" fill="#8a8a8a" font-size="12">T</text>
   <text x="40" y="70" fill="#8a8a8a" font-size="10">s</text>

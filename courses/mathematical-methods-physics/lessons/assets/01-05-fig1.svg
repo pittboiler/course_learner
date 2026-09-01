@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="24" fill="#8a8a8a" font-style="italic">A rank-2 tensor is one object; rotating the axes by R just re-labels its 9 components: T'_ij = R_ik R_jl T_kl.</text>
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">One object, 9 components: rotating the axes gives T'_ij = R_ik R_jl T_kl.</text>
 
   <!-- ===== response ellipse (the tensor as a physical object, frame-independent) ===== -->
   <ellipse cx="300" cy="196" rx="150" ry="72" transform="rotate(-30 300 196)"

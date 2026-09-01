@@ -1,5 +1,5 @@
 <svg viewBox="0 0 690 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
-  <text x="20" y="22" fill="#8a8a8a" font-style="italic">One loop, two costumes: the canonical feedback block diagram, and the degenerated common-emitter stage that secretly is it.</text>
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">One loop, two costumes: the canonical feedback diagram, and the degenerated CE stage.</text>
 
   <text x="60" y="52" fill="#8a8a8a">(a) the canonical loop</text>
   <text x="404" y="52" fill="#8a8a8a">(b) the same loop, hiding in a CE stage</text>

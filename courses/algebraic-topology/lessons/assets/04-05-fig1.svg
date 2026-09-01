@@ -58,5 +58,5 @@
   <text x="510" y="276" text-anchor="middle" font-size="13.5" fill="#5a6b7a">and 0 in every other degree</text>
 
   <!-- caption -->
-  <text x="340" y="308" text-anchor="middle" font-size="13" fill="#111">Puncturing &#8477;&#8319; leaves S&#8319;&#8315;&#185;, whose lone reduced class sits in degree n&#8722;1 &#8212; so the &#8484; appears in degree n. Local homology reads off n.</text>
+  <text x="340" y="308" text-anchor="middle" font-size="13" fill="#111">Puncturing ℝⁿ leaves Sⁿ⁻¹, whose lone class sits in degree n−1 — so ℤ in degree n.</text>
 </svg>

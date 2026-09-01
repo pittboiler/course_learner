@@ -1,4 +1,4 @@
-<svg viewBox="0 0 560 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+<svg viewBox="0 0 585 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- the number line R (equator of the picture) -->
   <line x1="20" y1="280" x2="548" y2="280" stroke="#8a8a8a" stroke-width="1.5"/>
   <polygon points="548,280 538,275 538,285" fill="#8a8a8a"/>

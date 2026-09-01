@@ -1,4 +1,4 @@
-<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+<svg viewBox="0 0 650 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
   <text x="60" y="20" fill="#8a8a8a" font-style="italic">Radial distribution P(r) = r&#178;|R|&#178;: where the electron actually is. 1s peaks at the Bohr radius a&#8320;;</text>
   <text x="60" y="38" fill="#8a8a8a" font-style="italic">2s and 2p sit farther out, and every node (P = 0) is a spherical shell the electron avoids.</text>

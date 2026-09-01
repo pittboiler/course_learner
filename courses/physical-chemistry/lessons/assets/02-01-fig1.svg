@@ -1,6 +1,6 @@
 <svg viewBox="0 0 620 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="60" y="26" fill="#8a8a8a" font-style="italic">A p&#8211;T phase diagram: each region is the phase with the lowest &#956;; each blue line is where two &#956; are equal.</text>
+  <text x="60" y="26" fill="#8a8a8a" font-style="italic">Each region is the lowest-μ phase; each blue line is where two μ are equal.</text>
 
   <!-- axes -->
   <line x1="70" y1="320" x2="575" y2="320" stroke="#8a8a8a" stroke-width="1.5"/>

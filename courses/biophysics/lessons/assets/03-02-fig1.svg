@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="30" y="24" fill="#8a8a8a" font-style="italic">The chain forgets its heading over a distance l_p: the tangent–tangent correlation decays as e^(-s/l_p).</text>
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">The chain forgets its heading over l_p: tangent correlation decays as e^(-s/l_p).</text>
 
   <!-- ===== left: a wiggly semiflexible chain ===== -->
   <text x="40" y="52" fill="#8a8a8a">a wiggly chain</text>

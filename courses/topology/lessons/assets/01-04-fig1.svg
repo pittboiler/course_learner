@@ -14,8 +14,8 @@
   <circle cx="185" cy="80"  r="34" fill="#e0645c" opacity="0.14" stroke="#e0645c" stroke-width="1.5"/>
 
   <!-- a highlighted point x and the basis ball trapping it inside U (axiom in action) -->
-  <circle cx="160" cy="120" r="4" fill="#333333"/>
-  <text x="167" y="118" fill="#333333">x</text>
+  <circle cx="160" cy="120" r="4" fill="#8a8a8a"/>
+  <text x="167" y="118" fill="#8a8a8a">x</text>
   <text x="300" y="118" fill="#e0645c">each disk B ⊆ U ; every x sits in one</text>
   <text x="300" y="138" fill="#8a8a8a" font-style="italic">U = union of its basis disks</text>
 

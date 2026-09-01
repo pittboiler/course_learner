@@ -10,28 +10,28 @@
   <rect x="60" y="80" width="180" height="80" rx="6" fill="#4a90d9" opacity="0.18"/>
   <rect x="60" y="80" width="180" height="80" rx="6" fill="none" stroke="#4a90d9" stroke-width="2"/>
   <text x="150" y="108" fill="#4a90d9" text-anchor="middle" font-weight="bold">Statement</text>
-  <text x="150" y="133" fill="#333333" text-anchor="middle" font-size="16">P ⟹ Q</text>
+  <text x="150" y="133" fill="#8a8a8a" text-anchor="middle" font-size="16">P ⟹ Q</text>
   <text x="150" y="152" fill="#8a8a8a" text-anchor="middle" font-size="12">if P then Q</text>
 
   <!-- Top-right: Converse -->
   <rect x="320" y="80" width="180" height="80" rx="6" fill="#e0645c" opacity="0.18"/>
   <rect x="320" y="80" width="180" height="80" rx="6" fill="none" stroke="#e0645c" stroke-width="2"/>
   <text x="410" y="108" fill="#e0645c" text-anchor="middle" font-weight="bold">Converse</text>
-  <text x="410" y="133" fill="#333333" text-anchor="middle" font-size="16">Q ⟹ P</text>
+  <text x="410" y="133" fill="#8a8a8a" text-anchor="middle" font-size="16">Q ⟹ P</text>
   <text x="410" y="152" fill="#8a8a8a" text-anchor="middle" font-size="12">swap</text>
 
   <!-- Bottom-left: Inverse -->
   <rect x="60" y="230" width="180" height="80" rx="6" fill="#e0645c" opacity="0.18"/>
   <rect x="60" y="230" width="180" height="80" rx="6" fill="none" stroke="#e0645c" stroke-width="2"/>
   <text x="150" y="258" fill="#e0645c" text-anchor="middle" font-weight="bold">Inverse</text>
-  <text x="150" y="283" fill="#333333" text-anchor="middle" font-size="16">¬P ⟹ ¬Q</text>
+  <text x="150" y="283" fill="#8a8a8a" text-anchor="middle" font-size="16">¬P ⟹ ¬Q</text>
   <text x="150" y="302" fill="#8a8a8a" text-anchor="middle" font-size="12">negate</text>
 
   <!-- Bottom-right: Contrapositive -->
   <rect x="320" y="230" width="180" height="80" rx="6" fill="#4a90d9" opacity="0.18"/>
   <rect x="320" y="230" width="180" height="80" rx="6" fill="none" stroke="#4a90d9" stroke-width="2"/>
   <text x="410" y="258" fill="#4a90d9" text-anchor="middle" font-weight="bold">Contrapositive</text>
-  <text x="410" y="283" fill="#333333" text-anchor="middle" font-size="16">¬Q ⟹ ¬P</text>
+  <text x="410" y="283" fill="#8a8a8a" text-anchor="middle" font-size="16">¬Q ⟹ ¬P</text>
   <text x="410" y="302" fill="#8a8a8a" text-anchor="middle" font-size="12">swap + negate</text>
 
   <!-- each diagonal is an equivalence class; label both on white plates -->

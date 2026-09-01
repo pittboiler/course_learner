@@ -1,6 +1,6 @@
 <svg viewBox="0 0 620 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
   <!-- caption -->
-  <text x="40" y="22" fill="#8a8a8a" font-style="italic">The distance ladder: each rung is calibrated by the one before, reaching from parsecs to the Hubble flow.</text>
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">The distance ladder: each rung calibrated by the one before, parsecs to Hubble flow.</text>
 
   <!-- ===== distance axis (log) ===== -->
   <line x1="55" y1="250" x2="595" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>

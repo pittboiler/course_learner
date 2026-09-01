@@ -41,5 +41,5 @@
 
   <!-- caption -->
   <text x="30" y="30" fill="#8a8a8a" font-style="italic">Bisect at the midpoints: &#8747;&#8706;T = &#8747;&#8706;T&#8321; + &#8747;&#8706;T&#8322; + &#8747;&#8706;T&#8323; + &#8747;&#8706;T&#8324;</text>
-  <text x="30" y="378" fill="#8a8a8a" font-style="italic">Every interior edge is traversed once each way (blue &#8594; and red &#8592;) &#8212; the two cancel, leaving only &#8706;T.</text>
+  <text x="30" y="378" fill="#8a8a8a" font-style="italic">Every interior edge is traversed once each way; the two cancel, leaving ∂T.</text>
 </svg>

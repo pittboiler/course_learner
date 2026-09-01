@@ -1,6 +1,6 @@
 <svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
   <!-- caption -->
-  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Decay heat P/P&#8320; after scram (Wigner&#8211;Way, log&#8211;log): a straight power law falling from ~6.5% but never reaching zero.</text>
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Decay heat after scram (log–log): a power law falling from ~6.5%, never reaching zero.</text>
 
   <!-- plot frame axes -->
   <line x1="70" y1="50" x2="70" y2="290" stroke="#8a8a8a" stroke-width="1.5"/>

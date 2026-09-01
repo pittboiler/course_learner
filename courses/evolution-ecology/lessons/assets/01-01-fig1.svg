@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img" aria-label="Allele frequency trajectories for dominant additive and recessive beneficial alleles, and the reciprocal-frequency law for selection against a recessive">
-  <rect width="800" height="450" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 824 450" width="824" height="450" role="img" aria-label="Allele frequency trajectories for dominant additive and recessive beneficial alleles, and the reciprocal-frequency law for selection against a recessive">
+  <rect width="824" height="450" fill="#ffffff"/>
   <text x="14" y="22" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#111">Haldane&#8217;s sieve: same benefit (s = 0.01), utterly different fates</text>
   <line x1="40" y1="250" x2="350" y2="250" stroke="#333" stroke-width="1.8"/>
   <line x1="40" y1="250" x2="40" y2="72" stroke="#333" stroke-width="1.8"/>

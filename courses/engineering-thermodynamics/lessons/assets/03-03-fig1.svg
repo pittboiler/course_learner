@@ -1,5 +1,5 @@
 <svg viewBox="0 0 560 230" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
-  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Closed-system entropy balance: what heat carries in, plus what the process makes inside, equals the rise.</text>
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Entropy balance: heat carried in plus entropy generated equals the rise.</text>
 
   <!-- bracket for total delta-S -->
   <line x1="60" y1="66" x2="460" y2="66" stroke="#8a8a8a" stroke-width="1.5"/>

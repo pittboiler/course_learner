@@ -1,5 +1,5 @@
 <svg viewBox="0 0 640 262" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
-  <text x="20" y="22" fill="#8a8a8a" font-style="italic">The two next-state maps for the 101 detector. Coral rings are the groups; the right map is one group of four.</text>
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Two next-state maps for the 101 detector; the right map is one group of four.</text>
 
   <!-- ================= map A: next Q1 ================= -->
   <text x="100" y="46" fill="#8a8a8a" font-size="12">next-state bit Q1 (drives D1)</text>

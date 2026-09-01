@@ -54,5 +54,5 @@
     <text x="482" y="108" fill="#4a90d9">&#963;2</text>
   </g>
 
-  <text x="392" y="312" fill="#8a8a8a" font-style="italic">On the principal axes there is no shear &#8212; only &#963;1 (max) and &#963;2 (min).</text>
+  <text x="392" y="312" fill="#8a8a8a" font-style="italic">No shear: only σ1 and σ2.</text>
 </svg>

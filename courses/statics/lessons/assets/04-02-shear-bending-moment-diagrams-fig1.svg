@@ -9,7 +9,7 @@
   </defs>
 
   <!-- caption -->
-  <text x="26" y="22" fill="#8a8a8a" font-style="italic">One point load: shear jumps through zero under the load, and the moment peaks there &#8212; the critical section.</text>
+  <text x="26" y="22" fill="#8a8a8a" font-style="italic">One point load: shear jumps through zero under it, and the moment peaks there.</text>
 
   <!-- vertical connector: load -> V jump -> M peak -->
   <line x1="370" y1="104" x2="370" y2="430" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 5"/>

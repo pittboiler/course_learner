@@ -1,5 +1,5 @@
 <svg viewBox="0 0 660 520" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
-  <text x="30" y="24" fill="#8a8a8a" font-style="italic" font-size="14">Two diode jobs: carve the waveform flat at a chosen level (a), or pin a rail and let the diode swallow the leftover current (b).</text>
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic" font-size="14">Two diode jobs: carve the waveform flat (a), or pin a rail and swallow the rest (b).</text>
 
   <text x="30" y="54" fill="#8a8a8a" font-size="14" font-weight="bold">(a) shunt clipper</text>
 

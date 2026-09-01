@@ -1,6 +1,6 @@
-<svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+<svg viewBox="0 0 646 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Same compression stroke; the heat-addition leg (coral) differs: Otto adds heat at constant volume, Diesel at constant pressure.</text>
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Same compression; Otto adds heat at constant V, Diesel at constant p (coral).</text>
   <text x="30" y="42" fill="#8a8a8a" font-style="italic">The area enclosed by each loop is the net work per cycle.</text>
 
   <!-- ================= LEFT: OTTO ================= -->

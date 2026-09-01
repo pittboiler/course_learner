@@ -1,5 +1,5 @@
-<svg viewBox="0 0 480 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
-  <rect x="0" y="0" width="480" height="320" fill="#ffffff"/>
+<svg viewBox="0 0 484 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="484" height="320" fill="#ffffff"/>
 
   <!-- horizontal gridlines at log10(error) = 0,-1,-2,-3,-4 -->
   <g stroke="#dddddd" stroke-width="1">

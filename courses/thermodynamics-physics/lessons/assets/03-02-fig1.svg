@@ -1,6 +1,6 @@
-<svg viewBox="0 0 560 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+<svg viewBox="0 0 563 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="30" y="26" fill="#8a8a8a" font-style="italic">The thermodynamic square: corners are the four natural variables, edges are the four potentials,</text>
+  <text x="30" y="26" fill="#8a8a8a" font-style="italic">The square: corners are the natural variables, edges the potentials,</text>
   <text x="30" y="44" fill="#8a8a8a" font-style="italic">diagonals mark the conjugate pairs (S,T) and (P,V) that carry the signs.</text>
 
   <!-- ===== the square ===== -->

@@ -1,6 +1,6 @@
 <svg viewBox="0 0 620 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Two nuclei must climb a Coulomb wall hundreds of keV high &#8212; but at ~10 keV they tunnel through it.</text>
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Two nuclei face a Coulomb wall hundreds of keV high — but at ~10 keV they tunnel.</text>
 
   <!-- V = 0 axis (r increasing to the right) -->
   <line x1="70" y1="234" x2="590" y2="234" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>

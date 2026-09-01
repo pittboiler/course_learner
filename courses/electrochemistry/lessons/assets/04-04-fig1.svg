@@ -1,5 +1,5 @@
 <svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
-  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Two payoffs of a controlled current: grow metal atom-by-atom (m = ItM/nF), and read concentration off a straight line.</text>
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Controlled current pays twice: grow metal (m = ItM/nF) and read concentration.</text>
 
   <!-- ============ LEFT: electrodeposition ============ -->
   <text x="70" y="52" fill="#8a8a8a">Electrodeposition (plating)</text>

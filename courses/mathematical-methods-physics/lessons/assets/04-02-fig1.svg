@@ -1,6 +1,6 @@
 <svg viewBox="0 0 620 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Unit-area bumps (each encloses area 1) narrow and grow; in the limit σ→0 they collapse to the δ spike — an arrow of area 1, zero width, infinite height.</text>
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Unit-area bumps narrow and grow; as σ→0 they collapse to the δ spike of area 1.</text>
 
   <!-- x-axis -->
   <line x1="60" y1="250" x2="560" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>

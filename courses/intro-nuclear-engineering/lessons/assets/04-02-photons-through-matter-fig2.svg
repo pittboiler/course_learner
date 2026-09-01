@@ -1,6 +1,6 @@
 <svg viewBox="0 0 560 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Which interaction wins depends on photon energy and absorber Z. The two curves mark where</text>
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Which interaction wins depends on photon energy and Z. The curves mark where</text>
   <text x="30" y="40" fill="#8a8a8a" font-style="italic">neighboring effects are equal; between them, Compton scattering rules.</text>
 
   <!-- axes -->

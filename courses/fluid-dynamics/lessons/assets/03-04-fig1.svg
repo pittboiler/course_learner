@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="22" fill="#8a8a8a" font-style="italic">A thin layer hugs the plate: velocity climbs from 0 at the wall to U over a thickness δ(x) ∼ √(νx/U), growing like √x.</text>
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">A thin layer hugs the plate: u climbs 0 → U over δ(x) ∼ √(νx/U), growing like √x.</text>
 
   <!-- boundary-layer region shading (coral, soft) -->
   <path d="M 60 260 L 90 224.4 L 120 209.6 L 180 188.8 L 270 165.8 L 390 141.9 L 540 117.6 L 600 108.9 L 600 260 Z"

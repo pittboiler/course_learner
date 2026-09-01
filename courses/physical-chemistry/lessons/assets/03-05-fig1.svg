@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Michaelis&#8211;Menten: rate climbs, then saturates at v&#8347;&#8339;&#8339; ; K&#7522; is the [S] at half-max. Reciprocals straighten it (Lineweaver&#8211;Burk).</text>
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Michaelis–Menten: the rate climbs then saturates; Kᵢ is [S] at half-max.</text>
 
   <!-- ================= LEFT: v vs [S] hyperbola ================= -->
 

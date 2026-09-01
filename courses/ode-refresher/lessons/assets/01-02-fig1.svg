@@ -35,5 +35,5 @@
   <text x="360" y="192" fill="#e0645c">y = 1 (equilibrium)</text>
 
   <!-- caption -->
-  <text x="80" y="332" fill="#8a8a8a" font-style="italic">One general formula, a whole family; the starting height y(0) fixes C and picks a single curve.</text>
+  <text x="80" y="332" fill="#8a8a8a" font-style="italic">One formula, a whole family; y(0) fixes C and picks one curve.</text>
 </svg>

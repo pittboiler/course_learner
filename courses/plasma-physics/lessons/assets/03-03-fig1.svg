@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="20" y="22" fill="#8a8a8a" font-style="italic">The magnetic force splits in two: a PRESSURE that pushes field lines apart, and a TENSION that pulls curved lines straight.</text>
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Magnetic force splits: PRESSURE pushes lines apart, TENSION pulls them straight.</text>
 
   <!-- ================= LEFT: magnetic PRESSURE ================= -->
   <text x="30" y="52" fill="#8a8a8a">Pressure  p_B = B²/2μ₀   (acts across B)</text>

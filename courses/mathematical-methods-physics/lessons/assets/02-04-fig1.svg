@@ -1,6 +1,6 @@
 <svg viewBox="0 0 620 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Close the real integral with a big upper-half-plane semicircle; if the arc dies, only the enclosed pole survives.</text>
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Close the contour with a big upper-half-plane arc; only the enclosed pole survives.</text>
 
   <!-- enclosed half-disk (soft shading) -->
   <path d="M 110 240 L 510 240 A 200 200 0 0 0 110 240 Z" fill="#4a90d9" opacity="0.15"/>

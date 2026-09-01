@@ -95,8 +95,8 @@
   <text x="516" y="160" fill="#e0645c" font-size="15">+</text>
   <text x="546" y="160" fill="#4a90d9" font-size="15">&#8722;</text>
 
-  <text x="486" y="216" fill="#8a8a8a">e&#8211;h pairs swept to electrodes &#8594; charge pulse</text>
-  <text x="452" y="234" fill="#4a90d9">tiny w &#8776; 3 eV &#8594; many carriers &#8594; sharp resolution</text>
+  <text x="486" y="216" fill="#8a8a8a">e–h pairs swept out → charge pulse</text>
+  <text x="452" y="234" fill="#4a90d9">w ≈ 3 eV → many carriers → sharp peaks</text>
 
   <!-- ================= bottom: carriers-per-keV bar ================= -->
   <line x1="120" y1="330" x2="600" y2="330" stroke="#8a8a8a" stroke-width="1.5"/>

@@ -1,6 +1,6 @@
 <svg viewBox="0 0 680 540" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
   <!-- caption -->
-  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Wilkinson's hydrogenation loop: each arrow is one elementary step; the metal's oxidation state and electron count return to start every turnover.</text>
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Wilkinson's loop: each arrow is one elementary step, returning to start every turnover.</text>
 
   <!-- ===== resting reservoir ===== -->
   <rect x="252" y="44" width="176" height="46" rx="6" fill="#8a8a8a" opacity="0.12" stroke="#8a8a8a" stroke-width="1.5"/>

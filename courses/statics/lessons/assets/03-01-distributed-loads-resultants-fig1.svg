@@ -9,7 +9,7 @@
   </defs>
 
   <!-- caption -->
-  <text x="40" y="22" fill="#8a8a8a" font-style="italic">A distributed load (the area under the load curve) equals one resultant R acting through the area's centroid.</text>
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">A distributed load equals one resultant R through the area's centroid.</text>
 
   <!-- ===== TOP: the distributed load ===== -->
 

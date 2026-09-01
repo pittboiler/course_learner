@@ -1,6 +1,6 @@
 <svg viewBox="0 0 620 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Tacticity: which side of the backbone each group sits on &#8212; and whether the chain can pack into a crystal.</text>
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Tacticity: which side each group sits on — and whether the chain can crystallize.</text>
 
   <!-- ===== Isotactic row (y = 85): all side groups up ===== -->
   <text x="20" y="80" fill="#8a8a8a">Isotactic</text>

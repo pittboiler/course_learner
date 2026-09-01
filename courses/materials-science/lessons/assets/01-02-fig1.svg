@@ -1,6 +1,6 @@
 <svg viewBox="0 0 660 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Two ways to fill a cube. Blue = corner atoms (each shared by 8 cells). Coral = the extra atoms that name the structure.</text>
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Two ways to fill a cube. Blue = corner atoms (shared by 8). Coral = the extras.</text>
 
   <!-- ============ LEFT: FCC ============ -->
   <text x="118" y="52" fill="#8a8a8a" font-size="16" font-weight="bold">FCC</text>

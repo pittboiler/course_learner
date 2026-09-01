@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="sans-serif">
-  <rect x="0" y="0" width="640" height="400" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 663 400" font-family="sans-serif">
+  <rect x="0" y="0" width="663" height="400" fill="#ffffff"/>
 
   <!-- title -->
   <text x="200" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#111827">Z/6Z as a clock</text>

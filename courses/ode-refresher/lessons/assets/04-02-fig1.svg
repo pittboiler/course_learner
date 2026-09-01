@@ -31,5 +31,5 @@
 
   <!-- caption -->
   <text x="40" y="30" fill="#8a8a8a" font-style="italic">Standing-wave modes on [0, L], all pinned to zero at both ends.</text>
-  <text x="40" y="332" fill="#8a8a8a" font-style="italic">More wiggles → larger λₙ → the heat factor e^(−αλₙt) decays faster: high modes vanish first.</text>
+  <text x="40" y="332" fill="#8a8a8a" font-style="italic">More wiggles → larger λₙ → e^(−αλₙt) decays faster: highs vanish first.</text>
 </svg>

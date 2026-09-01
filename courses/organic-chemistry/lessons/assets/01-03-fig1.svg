@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 470" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="24" fill="#8a8a8a" font-style="italic">The pKa ladder: lower on the scale = stronger acid = more stable conjugate base. Coral flags the stabilizing feature.</text>
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">The pKa ladder: lower = stronger acid = more stable conjugate base (coral flags why).</text>
 
   <!-- direction labels -->
   <text x="40" y="52" fill="#4a90d9">&#8593; stronger acid (lower pKa, more stable conjugate base)</text>

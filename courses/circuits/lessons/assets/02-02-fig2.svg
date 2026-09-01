@@ -1,6 +1,6 @@
 <svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="15">
   <!-- caption -->
-  <text x="30" y="26" fill="#8a8a8a" font-style="italic">A current source on the shared branch: enclose both windows as one supermesh (dashed).</text>
+  <text x="30" y="26" fill="#8a8a8a" font-style="italic">A source on the shared branch: enclose both windows as a supermesh.</text>
 
   <!-- ===== supermesh boundary (dashed coral) ===== -->
   <rect x="58" y="58" width="464" height="234" rx="14" fill="none" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="6 5"/>

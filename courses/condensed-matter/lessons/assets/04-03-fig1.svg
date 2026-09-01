@@ -1,6 +1,6 @@
 <svg viewBox="0 0 620 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="22" fill="#8a8a8a" font-style="italic">E_F starts near the donor level (freeze-out), drifts down through the gap (extrinsic), and returns to midgap (intrinsic).</text>
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">E_F starts near the donor level, drifts down through the gap, and ends at midgap.</text>
 
   <!-- energy axis -->
   <line x1="70" y1="315" x2="70" y2="40" stroke="#8a8a8a" stroke-width="1.5"/>

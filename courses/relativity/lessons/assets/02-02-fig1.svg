@@ -45,5 +45,5 @@
   <circle cx="592" cy="210" r="4" fill="#1a2b4a"/>
   <circle cx="606" cy="170" r="4" fill="#1a2b4a"/>
   <circle cx="620" cy="130" r="4" fill="#1a2b4a"/>
-  <text x="520" y="308" font-size="12" fill="#1a2b4a">pierces 3 surfaces, same count in every frame</text>
+  <text x="520" y="308" font-size="12" fill="#1a2b4a">pierces 3 surfaces in every frame</text>
 </svg>

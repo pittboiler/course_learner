@@ -1,5 +1,5 @@
 <svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
-  <text x="30" y="24" fill="#8a8a8a" font-style="italic">In a PFR each plug is a tiny batch: X climbs as it flows down the tube. A CSTR sits at one X everywhere.</text>
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">In a PFR each plug is a tiny batch: X climbs down the tube. A CSTR sits at one X.</text>
 
   <!-- ============ PFR (top) ============ -->
   <text x="30" y="58" fill="#8a8a8a" font-weight="bold">PFR &#8212; plug flow, no axial mixing</text>

@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 420" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
   <!-- caption -->
-  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Reversed-phase HPLC: polar mobile phase, C18 stationary phase — nonpolar analyte lingers; a gradient ramp elutes it.</text>
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Reversed-phase HPLC: polar mobile, C18 stationary — a gradient ramp elutes the analyte.</text>
 
   <!-- ================= left: reversed-phase column cartoon ================= -->
   <!-- column tube -->

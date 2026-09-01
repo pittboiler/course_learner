@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="22" fill="#8a8a8a" font-style="italic">A charge gyrates (blue), but crossed E and B roll its guiding centre sideways at v = (E×B)/B² — a cycloid.</text>
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">A charge gyrates (blue); crossed E and B roll the guiding centre at v = (E×B)/B².</text>
 
   <!-- ===== field strip: E (coral, down) and B (grey, into page) ===== -->
   <!-- E arrows pointing down -->

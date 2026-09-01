@@ -26,5 +26,5 @@
   <text x="250" y="264" fill="#e0645c">&#177; &#963;/&#8730;n band &#8212; shrinks like 1/&#8730;n</text>
 
   <!-- caption -->
-  <text x="80" y="38" fill="#8a8a8a" font-style="italic">Independent noise cancels: the average settles onto &#956;, its uncertainty falling as &#963;/&#8730;n.</text>
+  <text x="80" y="38" fill="#8a8a8a" font-style="italic">Independent noise cancels: spread falls as σ/√n.</text>
 </svg>

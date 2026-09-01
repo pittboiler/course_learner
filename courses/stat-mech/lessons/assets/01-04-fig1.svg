@@ -6,7 +6,7 @@
   <line x1="60" y1="300" x2="540" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
   <line x1="60" y1="45" x2="60" y2="322" stroke="#8a8a8a" stroke-width="1.5"/>
   <polygon points="540,300 530,295 530,305" fill="#8a8a8a"/>
-  <text x="500" y="318" fill="#8a8a8a">E&#8321; (energy in system 1)</text>
+  <text x="405" y="318" fill="#8a8a8a">E&#8321; (energy in system 1)</text>
   <text x="20" y="52" fill="#8a8a8a">S</text>
   <text x="66" y="316" fill="#8a8a8a">0</text>
   <text x="524" y="316" fill="#8a8a8a">E</text>

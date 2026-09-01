@@ -34,5 +34,5 @@
   <text x="300" y="192" fill="#e0645c">(diamond)</text>
 
   <!-- caption -->
-  <text x="90" y="378" fill="#1a1a1a" font-style="italic">Same vectors, same space — three norms, three unit balls. They nest: diamond ⊂ circle ⊂ square.</text>
+  <text x="90" y="378" fill="#1a1a1a" font-style="italic">Three norms, three unit balls: diamond ⊂ circle ⊂ square.</text>
 </svg>

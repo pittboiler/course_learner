@@ -1,5 +1,5 @@
 <svg viewBox="0 0 560 218" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
-  <text x="30" y="24" fill="#8a8a8a" font-style="italic">P1: a mass held between two walls by two springs, with a damper to ground. Write the ODE for x(t).</text>
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">P1: a mass on two springs with a damper to ground. Write the ODE for x(t).</text>
 
   <!-- left wall -->
   <line x1="60" y1="58" x2="60" y2="196" stroke="#8a8a8a" stroke-width="2.5"/>

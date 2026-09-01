@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="20" y="20" fill="#8a8a8a" font-style="italic" font-size="12.5">An inert carrier gas sweeps a flash-vaporized sample through a heated capillary column to the detector; the oven temperature is ramped to spread a wide-boiling mixture.</text>
+  <text x="20" y="20" fill="#8a8a8a" font-style="italic" font-size="12.5">Carrier gas sweeps the vaporized sample through a heated column; the oven ramps to spread it.</text>
 
   <!-- ===== top row: instrument flow schematic (centerline y = 105) ===== -->
 

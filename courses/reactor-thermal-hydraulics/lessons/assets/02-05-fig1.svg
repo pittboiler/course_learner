@@ -1,6 +1,6 @@
 <svg viewBox="0 0 580 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="30" y="24" fill="#8a8a8a" font-style="italic">The pumping bill, stacked: every term rides on the dynamic head G&#178;/2&#961;. Friction + grids dominate.</text>
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">The pumping bill: every term rides on G²/2ρ; friction and grids dominate.</text>
 
   <!-- y axis (kPa) -->
   <line x1="110" y1="285" x2="110" y2="45" stroke="#8a8a8a" stroke-width="1.5"/>

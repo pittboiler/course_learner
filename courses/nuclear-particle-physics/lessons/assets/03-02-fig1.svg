@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Same beam energy, two ways to spend it: fixed-target wastes energy on CM motion (s ∝ E), the collider spends it all (s ∝ E²).</text>
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Fixed-target wastes energy on CM motion (s ∝ E); the collider spends it all (s ∝ E²).</text>
 
   <!-- ===== panel divider ===== -->
   <line x1="320" y1="44" x2="320" y2="326" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 5"/>

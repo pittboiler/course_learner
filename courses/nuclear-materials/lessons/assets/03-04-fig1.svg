@@ -45,7 +45,7 @@
   <line x1="156" y1="158" x2="200" y2="245" stroke="#8a8a8a" stroke-width="0.8"/>
 
   <!-- ================= PANEL (b): release fraction vs temperature ================= -->
-  <text x="360" y="18" fill="#8a8a8a" font-style="italic">(b) Release fraction jumps once fuel passes the thermal threshold.</text>
+  <text x="360" y="18" fill="#8a8a8a" font-style="italic">(b) Release jumps past the threshold.</text>
 
   <!-- axes -->
   <line x1="392" y1="248" x2="622" y2="248" stroke="#8a8a8a" stroke-width="1.5"/>

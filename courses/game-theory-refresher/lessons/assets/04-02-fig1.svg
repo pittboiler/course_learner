@@ -62,5 +62,5 @@
   <polygon points="460,282 450,278 450,286" fill="#8a8a8a"/>
 
   <!-- caption -->
-  <text x="30" y="336" fill="#8a8a8a" font-style="italic" font-size="12">Revelation principle: anything an equilibrium of some mechanism achieves, a truthful direct mechanism achieves too.</text>
+  <text x="30" y="336" fill="#8a8a8a" font-style="italic" font-size="12">Revelation principle: whatever a mechanism achieves, a truthful direct one does too.</text>
 </svg>

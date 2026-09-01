@@ -1,7 +1,7 @@
 <svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif" font-size="14">
   <rect x="0" y="0" width="640" height="400" fill="#ffffff"/>
 
-  <text x="20" y="28" fill="#8a8a8a" font-style="italic">The spectrum &#963;(T) is a nonempty compact set inside the disk |&#955;| &#8804; ||T||; everything outside is the resolvent set</text>
+  <text x="20" y="28" fill="#8a8a8a" font-style="italic">The spectrum σ(T) is a nonempty compact set inside |λ| ≤ ||T||; outside is the resolvent</text>
 
   <defs>
     <marker id="ax" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto">

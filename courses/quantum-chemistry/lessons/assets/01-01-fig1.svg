@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Measure an observable: the state is a weighted stack of eigenstates; one outcome a_n appears with probability |c_n|squared; the average is the expectation value.</text>
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Measure an observable: outcome a_n appears with probability |c_n|², averaging to ⟨A⟩.</text>
 
   <!-- ===== LEFT: superposition before measurement ===== -->
   <text x="60" y="58" fill="#4a90d9">state |&#968;&#10217; = &#931; c&#8345; |a&#8345;&#10217;</text>

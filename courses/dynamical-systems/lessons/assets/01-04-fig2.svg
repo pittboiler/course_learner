@@ -21,5 +21,5 @@
   <!-- inward arrowhead near outer arm -->
   <polygon points="372,74.6 380,86 366,84" fill="#c0392b"/>
 
-  <text x="230" y="232" text-anchor="middle" font-size="11.5" fill="#333333">Same linear part (pure imaginary eigenvalues). The cubic terms — invisible to the Jacobian — decide the real fate.</text>
+  <text x="230" y="232" text-anchor="middle" font-size="11.5" fill="#333333">Same linear part; the cubic terms decide the real fate.</text>
 </svg>

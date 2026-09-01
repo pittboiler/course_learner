@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="15">
   <!-- caption -->
-  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Rank the four groups 1&#8211;4, point 4 away, trace 1&#8594;2&#8594;3: clockwise = R. The mirror image reverses it to S.</text>
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Rank the groups 1–4, point 4 away, trace 1→2→3: clockwise = R, mirror = S.</text>
 
   <!-- mirror plane -->
   <line x1="320" y1="72" x2="320" y2="250" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 5"/>

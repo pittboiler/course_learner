@@ -1,6 +1,6 @@
-<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+<svg viewBox="0 0 646 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Change the geometry, change the splitting: tetrahedral inverts and shrinks it; square-planar spreads it into four levels.</text>
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Change the geometry, change the splitting: tetrahedral inverts, square-planar fours.</text>
 
   <!-- panel titles -->
   <text x="120" y="52" fill="#8a8a8a" font-weight="bold">Tetrahedral (T<tspan baseline-shift="sub" font-size="10">d</tspan>)</text>

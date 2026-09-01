@@ -1,6 +1,6 @@
 <svg viewBox="0 0 660 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Two memory elements: the cap watches the slope of its voltage, the inductor watches the slope of its current.</text>
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Two memory elements: the cap watches its voltage slope, the inductor its current slope.</text>
 
   <!-- ============ LEFT: element symbols ============ -->
 
@@ -73,5 +73,5 @@
   <!-- corner guide line linking the two plots -->
   <line x1="465" y1="90" x2="465" y2="248" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 5"/>
 
-  <text x="370" y="336" fill="#8a8a8a" font-style="italic" font-size="12">Constant slope in v &#8594; constant current; the sign flips exactly where v turns over.</text>
+  <text x="370" y="336" fill="#8a8a8a" font-style="italic" font-size="12">Constant slope in v → constant current.</text>
 </svg>

@@ -1,6 +1,6 @@
 <svg viewBox="0 0 620 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Antiparallel strands: A=T holds with 2 H-bonds, G&#8801;C with 3. Blue = purine (A, G), coral = pyrimidine (C, T).</text>
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Antiparallel strands: A=T with 2 H-bonds, G≡C with 3 (purines blue).</text>
 
   <!-- ===== left backbone: 5' (top) to 3' (bottom) ===== -->
   <line x1="95" y1="60" x2="95" y2="300" stroke="#8a8a8a" stroke-width="3"/>

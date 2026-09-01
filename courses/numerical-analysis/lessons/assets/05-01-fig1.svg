@@ -35,5 +35,5 @@
   <!-- right-angle marker at the foot -->
   <polyline points="341.6,246.9 343.6,235.1 332,238.2" fill="none" stroke="#111111" stroke-width="1.3"/>
 
-  <text x="150" y="35" font-size="16" fill="#111111" font-weight="bold">Least squares = drop a perpendicular from b onto col(A)</text>
+  <text x="150" y="35" font-size="16" fill="#111111" font-weight="bold">Least squares: drop a perpendicular to col(A)</text>
 </svg>

@@ -1,6 +1,6 @@
 <svg viewBox="0 0 780 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="70" y="26" fill="#8a8a8a" font-style="italic">&#916;G = &#916;H &#8722; T&#916;S is a straight line in T: intercept &#916;H, slope &#8722;&#916;S. Where it crosses &#916;G=0, spontaneity flips. (sign of &#916;H, sign of &#916;S)</text>
+  <text x="70" y="26" fill="#8a8a8a" font-style="italic">ΔG = ΔH − TΔS is a line in T: intercept ΔH, slope −ΔS; spontaneity flips at ΔG = 0.</text>
 
   <!-- ===== axes ===== -->
   <!-- vertical axis: delta G -->

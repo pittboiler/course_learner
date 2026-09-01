@@ -1,6 +1,6 @@
 <svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="30" y="28" fill="#8a8a8a" font-style="italic">For f(z)=z̄, the difference quotient h̄/h is constant on each ray — and every ray gives a different value.</text>
+  <text x="30" y="28" fill="#8a8a8a" font-style="italic">For f(z)=z̄, h̄/h is constant on each ray — and every ray differs.</text>
 
   <!-- ============ LEFT PANEL: directions of approach in the h-plane ============ -->
   <text x="140" y="60" fill="#8a8a8a" text-anchor="middle">h → 0 along a direction</text>

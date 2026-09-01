@@ -1,4 +1,5 @@
 <svg viewBox="0 0 440 240" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="440" height="240" fill="#ffffff"/>
   <!-- triangle ABC: apex A top, base BC -->
   <polygon points="220,30 90,200 350,200" fill="none" stroke="#111" stroke-width="2.5"/>
   <!-- altitude A to M (foot on base) -->

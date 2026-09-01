@@ -1,6 +1,6 @@
 <svg viewBox="0 0 560 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="26" fill="#8a8a8a" font-style="italic">P–T phase diagram: three coexistence curves meet at the triple point; the liquid–gas line ends at the critical point.</text>
+  <text x="40" y="26" fill="#8a8a8a" font-style="italic">P–T diagram: three curves meet at the triple point, one ends at critical.</text>
 
   <!-- axes -->
   <line x1="70" y1="345" x2="520" y2="345" stroke="#8a8a8a" stroke-width="1.5"/>

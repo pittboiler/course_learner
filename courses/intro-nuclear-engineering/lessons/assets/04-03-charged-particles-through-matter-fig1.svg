@@ -1,6 +1,6 @@
 <svg viewBox="0 0 620 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="60" y="24" fill="#8a8a8a" font-style="italic">A charged particle deposits little at first, then dumps most of its energy in a spike &#8212; the Bragg peak &#8212; right before it stops.</text>
+  <text x="60" y="24" fill="#8a8a8a" font-style="italic">Most energy lands in a spike just before it stops — the Bragg peak.</text>
 
   <!-- y axis -->
   <line x1="60" y1="258" x2="60" y2="50" stroke="#8a8a8a" stroke-width="1.5"/>

@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Same ladder of levels, two temperatures. Bar length &#8733; population e&#8722;&#949;/kT: cold crowds the floor, hot climbs the rungs.</text>
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">One ladder, two temperatures: bar length ∝ e−ε/kT — cold crowds the floor.</text>
 
   <!-- ===================== LEFT PANEL: low T ===================== -->
   <text x="120" y="52" fill="#8a8a8a">low T</text>
@@ -58,5 +58,5 @@
   <text x="518" y="264" fill="#e0645c">n&#8320;</text>
 
   <!-- footer note -->
-  <text x="74" y="308" fill="#8a8a8a" font-style="italic">q = &#931; g&#7522; e&#8722;&#949;&#7522;/kT counts the rungs a molecule can actually reach: q &#8776; 1 when cold, large when hot.</text>
+  <text x="74" y="308" fill="#8a8a8a" font-style="italic">q = Σ gᵢ e−εᵢ/kT counts the rungs a molecule can reach: q ≈ 1 cold, large hot.</text>
 </svg>

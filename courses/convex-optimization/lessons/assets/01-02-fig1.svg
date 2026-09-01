@@ -1,5 +1,5 @@
-<svg viewBox="0 0 360 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
-  <rect x="0" y="0" width="360" height="360" fill="#ffffff"/>
+<svg viewBox="0 0 366 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="366" height="360" fill="#ffffff"/>
 
   <!-- axes -->
   <line x1="20" y1="180" x2="340" y2="180" stroke="#111111" stroke-width="1"/>

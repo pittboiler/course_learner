@@ -1,11 +1,11 @@
 <svg viewBox="0 0 620 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Steady-state amplitude A(Ω) vs drive frequency Ω. High Q gives a tall, narrow spike; the peak sits just below ω₀.</text>
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Amplitude A(Ω) vs drive frequency: high Q gives a tall spike just below ω₀.</text>
 
   <!-- axes -->
   <line x1="90" y1="250" x2="578" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
   <polygon points="578,250 568,245 568,255" fill="#8a8a8a"/>
-  <text x="560" y="270" fill="#8a8a8a">Ω (drive freq)</text>
+  <text x="530" y="270" fill="#8a8a8a">Ω (drive freq)</text>
   <line x1="90" y1="250" x2="90" y2="45" stroke="#8a8a8a" stroke-width="1.5"/>
   <polygon points="90,45 85,55 95,55" fill="#8a8a8a"/>
   <text x="60" y="52" fill="#8a8a8a">A</text>

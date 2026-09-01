@@ -1,6 +1,6 @@
 <svg viewBox="0 0 520 430" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="30" y="24" fill="#8a8a8a" font-style="italic">The baryon octet plotted by (I₃, Y): a hexagon of eight spin-½ baryons, with two states stacked at the centre.</text>
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">The baryon octet in (I₃, Y): a hexagon, two states at the centre.</text>
 
   <!-- ===== axes ===== -->
   <!-- horizontal I3 axis (through Y=0, y=230) -->

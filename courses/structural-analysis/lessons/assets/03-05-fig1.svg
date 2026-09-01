@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 372" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
   <!-- caption -->
-  <text x="20" y="20" fill="#8a8a8a" font-style="italic">Lock every joint (FEM), release one, DISTRIBUTE its unbalance by stiffness, CARRY OVER half to each far end, total the columns.</text>
+  <text x="20" y="20" fill="#8a8a8a" font-style="italic">Lock every joint (FEM), release one, DISTRIBUTE by stiffness, CARRY OVER half, total.</text>
 
   <!-- ====== beam schematic: A fixed, B interior support, C fixed; UDL on span AB only ====== -->
 

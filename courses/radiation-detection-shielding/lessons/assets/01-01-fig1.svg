@@ -1,5 +1,5 @@
 <svg viewBox="0 0 660 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
-  <text x="70" y="22" fill="#8a8a8a" font-style="italic">Compton kinematics for a 0.662 MeV photon: the scattered photon loses more energy the harder it turns back.</text>
+  <text x="70" y="22" fill="#8a8a8a" font-style="italic">Compton kinematics at 0.662 MeV: the harder it turns back, the more energy it loses.</text>
 
   <!-- axes -->
   <line x1="70" y1="250" x2="560" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>

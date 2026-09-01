@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" font-family="sans-serif">
-  <rect x="0" y="0" width="720" height="340" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 728 340" font-family="sans-serif">
+  <rect x="0" y="0" width="728" height="340" fill="#ffffff"/>
 
   <text x="360" y="34" font-size="18" font-weight="bold" text-anchor="middle" fill="#111827">One infinite plan = the same subproblem, restarted every period</text>
 
@@ -55,5 +55,5 @@
   <!-- self-similarity box from k_1 onward -->
   <rect x="255" y="95" width="440" height="115" rx="14" fill="none" stroke="#dc2626" stroke-width="2" stroke-dasharray="7 5"/>
   <text x="475" y="300" font-size="13" text-anchor="middle" fill="#dc2626">continuation from k_1 is the SAME problem with a new state → its total value is V(k_1)</text>
-  <text x="90" y="300" font-size="13" text-anchor="middle" fill="#111827">V(k_0) = max { u(c_0) + β V(k_1) }</text>
+  <text x="90" y="300" font-size="13" text-anchor="middle" fill="#111827">V(k₀) = max u(c₀) + βV(k₁)</text>
 </svg>

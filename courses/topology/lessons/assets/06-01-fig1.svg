@@ -28,5 +28,5 @@
   <text x="300" y="278" fill="#e0645c">&#947;&#8321;</text>
 
   <!-- caption -->
-  <text x="40" y="34" fill="#8a8a8a" font-style="italic">A path homotopy: &#947;&#8320; deforms into &#947;&#8321; through a family of paths, endpoints x&#8320;, x&#8321; pinned throughout.</text>
+  <text x="40" y="34" fill="#8a8a8a" font-style="italic">A path homotopy: γ₀ deforms into γ₁ with endpoints pinned.</text>
 </svg>

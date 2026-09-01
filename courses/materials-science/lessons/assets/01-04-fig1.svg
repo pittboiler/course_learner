@@ -1,6 +1,6 @@
 <svg viewBox="0 0 620 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="24" fill="#8a8a8a" font-style="italic">A polycrystal: each grain is a crystal, same lattice, but tilted a different way. The mismatch lines between them are grain boundaries.</text>
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">A polycrystal: each grain tilted differently; the mismatch lines are boundaries.</text>
 
   <!-- ===== grain polygons (faint fill + grey boundaries) ===== -->
   <polygon points="60,90 230,90 300,195 60,210" fill="#4a90d9" fill-opacity="0.06" stroke="#8a8a8a" stroke-width="2"/>

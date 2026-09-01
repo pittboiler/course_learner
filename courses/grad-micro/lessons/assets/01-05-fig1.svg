@@ -46,5 +46,5 @@
   <text x="430" y="386" font-size="13" fill="#b02020">shifts right</text>
 
   <!-- caption -->
-  <text x="350" y="452" text-anchor="middle" font-size="13" fill="#555555">Increasing differences = higher &#952; raises the marginal return to x everywhere, so the crossing point can only move right (never left).</text>
+  <text x="350" y="452" text-anchor="middle" font-size="13" fill="#555555">Increasing differences: higher θ raises the marginal return to x, so the crossing point moves right.</text>
 </svg>

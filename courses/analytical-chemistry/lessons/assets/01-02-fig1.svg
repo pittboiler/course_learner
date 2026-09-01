@@ -1,6 +1,6 @@
 <svg viewBox="0 0 620 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Random error follows a Gaussian: 68% within &#177;1&#963;, 95% within &#177;2&#963;. The mean is pinned far tighter — a narrow confidence interval.</text>
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Random error is Gaussian: 68% inside ±1σ, 95% inside ±2σ; the mean is tighter.</text>
 
   <!-- ===== outer -2..-1 sigma bands (lighter coral) ===== -->
   <path d="M 170.0 250.0 L 170.0 225.6 L 171.8 224.4 L 173.5 223.1 L 175.2 221.8 L 177.0 220.4 L 178.8 219.0 L 180.5 217.5 L 182.2 216.0 L 184.0 214.4 L 185.8 212.8 L 187.5 211.1 L 189.2 209.3 L 191.0 207.6 L 192.8 205.7 L 194.5 203.9 L 196.2 201.9 L 198.0 200.0 L 199.8 197.9 L 201.5 195.9 L 203.2 193.7 L 205.0 191.6 L 206.8 189.3 L 208.5 187.1 L 210.2 184.8 L 212.0 182.4 L 213.8 180.1 L 215.5 177.6 L 217.2 175.2 L 219.0 172.7 L 220.8 170.2 L 222.5 167.6 L 224.2 165.0 L 226.0 162.4 L 227.8 159.7 L 229.5 157.1 L 231.2 154.4 L 233.0 151.7 L 234.8 149.0 L 236.5 146.3 L 238.2 143.6 L 240.0 140.8 L 240.0 250.0 Z" fill="#e0645c" opacity="0.16"/>

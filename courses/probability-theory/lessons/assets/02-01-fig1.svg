@@ -33,5 +33,5 @@
   <line x1="140" y1="250" x2="460" y2="247" stroke="#4a90d9" stroke-width="1" stroke-dasharray="3 4" opacity="0.7"/>
 
   <!-- Caption -->
-  <text x="30" y="325" fill="#8a8a8a" font-style="italic">Ask "is X in B?" — the ω that answer yes form X⁻¹(B). Measurability: that set is always an event.</text>
+  <text x="30" y="325" fill="#8a8a8a" font-style="italic">The ω answering 'is X in B?' form X⁻¹(B) — always an event.</text>
 </svg>

@@ -1,6 +1,6 @@
 <svg viewBox="0 0 700 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="22" fill="#8a8a8a" font-style="italic">A PWR: fission heat rides the sealed primary loop (blue, no boiling) into the steam generator, boiling the secondary loop (coral) that spins the turbine.</text>
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">A PWR: the sealed primary loop (blue) boils the secondary (coral) that spins the turbine.</text>
 
   <!-- ===================== PRIMARY LOOP (blue) ===================== -->
 

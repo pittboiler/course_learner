@@ -13,7 +13,7 @@
 
   <!-- the true ground-state energy E0: the floor -->
   <line x1="70" y1="273" x2="600" y2="273" stroke="#b22222" stroke-width="2" stroke-dasharray="7 4"/>
-  <text x="486" y="267" font-size="15" fill="#b22222">E&#8320;  (true ground state &#8212; the floor)</text>
+  <text x="486" y="267" font-size="15" fill="#b22222">E₀ (true ground state)</text>
 
   <!-- forbidden zone below E0 (no trial can reach here) -->
   <text x="150" y="330" font-size="13" fill="#c98a8a" font-style="italic">forbidden: E(&#945;) &lt; E&#8320; is impossible</text>

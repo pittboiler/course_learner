@@ -1,4 +1,5 @@
-<svg viewBox="0 0 420 300" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+<svg viewBox="0 0 427 300" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <rect x="0" y="0" width="427" height="300" fill="#ffffff"/>
   <!-- Right triangle: right angle at bottom-right (B), reference angle theta at bottom-left (A) -->
   <!-- Vertices: A (40,250) bottom-left, B (340,250) bottom-right, C (340,70) top-right -->
   <polygon points="40,250 340,250 340,70" fill="none" stroke="#333333" stroke-width="3" stroke-linejoin="round"/>

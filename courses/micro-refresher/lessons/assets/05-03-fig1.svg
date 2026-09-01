@@ -1,4 +1,4 @@
-<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+<svg viewBox="0 0 565 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- shaded separating range for e* on the high-wage line -->
   <rect x="210" y="104" width="220" height="12" fill="#e0645c" opacity="0.18"/>
 
@@ -26,8 +26,8 @@
   <text x="66" y="248" fill="#8a8a8a">A: low type (e=0, w=θ_L)</text>
 
   <!-- least-cost separating point for the high type -->
-  <circle cx="210" cy="110" r="5" fill="#111111"/>
-  <text x="150" y="98" fill="#111111">H: high type (e*, w=θ_H)</text>
+  <circle cx="210" cy="110" r="5" fill="#8a8a8a"/>
+  <text x="150" y="98" fill="#8a8a8a">H: high type (e*, w=θ_H)</text>
 
   <!-- droplines marking e_min and e_max -->
   <line x1="210" y1="110" x2="210" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
@@ -43,5 +43,5 @@
   <text x="222" y="132" fill="#e0645c" font-style="italic">separating range for e*</text>
 
   <!-- caption -->
-  <text x="80" y="40" fill="#8a8a8a" font-style="italic">Single crossing: the cheap-signal high type accepts education the low type won't.</text>
+  <text x="80" y="40" fill="#8a8a8a" font-style="italic">Single crossing: the high type accepts education the low type won't.</text>
 </svg>

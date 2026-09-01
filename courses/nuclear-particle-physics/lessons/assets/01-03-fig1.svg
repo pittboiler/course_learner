@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Building B(56-Fe) term by term: a big volume credit (blue), whittled down by surface and Coulomb (coral).</text>
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Building B(56-Fe) term by term: a volume credit (blue) whittled by surface and Coulomb.</text>
   <text x="40" y="40" fill="#8a8a8a" font-style="italic">Asymmetry and pairing are tiny here (N is close to Z, and the nucleus is even-even).</text>
 
   <!-- y-axis -->

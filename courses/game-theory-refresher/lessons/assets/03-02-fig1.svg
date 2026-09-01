@@ -34,5 +34,5 @@
   <line x1="378" y1="110" x2="500" y2="98" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
 
   <!-- caption -->
-  <text x="70" y="30" fill="#8a8a8a" font-style="italic">First-price bidders shade below their value; the gap widens with v, shrinks as n grows (here n = 4).</text>
+  <text x="70" y="30" fill="#8a8a8a" font-style="italic">First-price bidders shade below their value; the gap widens with v.</text>
 </svg>

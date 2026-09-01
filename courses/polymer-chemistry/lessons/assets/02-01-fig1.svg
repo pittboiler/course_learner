@@ -1,6 +1,6 @@
 <svg viewBox="0 0 620 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="24" fill="#8a8a8a" font-style="italic">A real distribution is right-skewed, so the mass-weighted average sits to the right of the count average.</text>
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Right-skewed: the mass average sits to the right of the count average.</text>
 
   <!-- axes -->
   <line x1="60" y1="258" x2="580" y2="258" stroke="#8a8a8a" stroke-width="1.5"/>

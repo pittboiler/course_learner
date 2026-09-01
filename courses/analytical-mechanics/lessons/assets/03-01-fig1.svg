@@ -1,6 +1,6 @@
 <svg viewBox="0 0 560 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="70" y="26" fill="#8a8a8a" font-style="italic">The tangent of slope p = ∂L/∂q̇ meets the L-axis at −H(p): the Hamiltonian is the intercept.</text>
+  <text x="70" y="26" fill="#8a8a8a" font-style="italic">The tangent of slope p = ∂L/∂q̇ meets the L-axis at −H(p).</text>
 
   <!-- axes: L (vertical) and q̇ (horizontal); vertical axis runs below origin to show a negative intercept -->
   <line x1="50" y1="250" x2="400" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>

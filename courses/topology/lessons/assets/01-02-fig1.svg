@@ -18,7 +18,7 @@
   <text x="118" y="205" fill="#e0645c">B(x, r)</text>
 
   <!-- ================= RIGHT: a ball fits inside a ball — d1, d2, d-inf equivalent ================= -->
-  <text x="360" y="30" fill="#8a8a8a" font-style="italic">Diamond ⊂ circle ⊂ square: each fits the next.</text>
+  <text x="360" y="30" fill="#8a8a8a" font-style="italic">Diamond ⊂ circle ⊂ square.</text>
 
   <!-- center of the nested figure -->
   <!-- outer square: sup-metric ball d_inf (radius 90 in Chebyshev) -->

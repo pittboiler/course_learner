@@ -1,6 +1,6 @@
 <svg viewBox="0 0 660 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="20" y="22" fill="#8a8a8a" font-style="italic">2,3-dibromobutane: two stereocenters, but only 3 stereoisomers. Fischer projections (horizontal bonds = toward you).</text>
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">2,3-dibromobutane: two stereocenters, only 3 stereoisomers (Fischer projections).</text>
 
   <!-- ================= Fischer A: (2R,3R) ================= -->
   <g stroke="#4a90d9" fill="#4a90d9">

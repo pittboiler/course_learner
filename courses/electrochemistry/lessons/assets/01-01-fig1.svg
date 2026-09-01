@@ -1,5 +1,5 @@
 <svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
-  <text x="34" y="24" fill="#8a8a8a" font-style="italic">Redox = electron transfer. The reductant sheds e&#8315; (oxidized, ox. state up); the oxidant collects them (reduced, down).</text>
+  <text x="34" y="24" fill="#8a8a8a" font-style="italic">Redox = electron transfer: the reductant sheds e⁻, the oxidant collects them.</text>
 
   <!-- oxidation half box (blue) -->
   <rect x="34" y="66" width="242" height="150" rx="8" fill="#4a90d9" opacity="0.10" stroke="#4a90d9" stroke-width="2"/>

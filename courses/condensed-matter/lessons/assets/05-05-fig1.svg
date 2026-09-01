@@ -1,6 +1,6 @@
 <svg viewBox="0 0 620 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Superconducting density of states: a clean gap 2Δ about E_F, with states piled into coherence peaks at ±Δ.</text>
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Superconducting DOS: a clean gap 2Δ about E_F, with coherence peaks at ±Δ.</text>
 
   <!-- axes -->
   <line x1="50" y1="255" x2="580" y2="255" stroke="#8a8a8a" stroke-width="1.5"/>

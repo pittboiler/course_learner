@@ -81,5 +81,5 @@
   <circle cx="565" cy="148" r="3.5" fill="#8a8a8a" opacity="0.85"/>
 
   <!-- caption -->
-  <text x="60" y="278" fill="#8a8a8a" font-style="italic" font-size="12">Covariance sets the sign; correlation &#961; rescales it to [&#8722;1, 1]. Panel C is uncorrelated &#8212; which alone does not mean independent.</text>
+  <text x="60" y="278" fill="#8a8a8a" font-style="italic" font-size="12">Covariance sets the sign; ρ rescales it to [−1, 1]. C is uncorrelated, not independent.</text>
 </svg>

@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Retrosynthesis: cut the strategic C&#8211;C bond (coral) to reveal a carbonyl + a carbanion synthon, then read the real reagents forward.</text>
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Retrosynthesis: cut the C–C bond (coral) to reveal carbonyl + carbanion synthons.</text>
 
   <!-- ============ TARGET (top) ============ -->
   <text x="300" y="56" fill="#8a8a8a" font-size="12">TARGET &#8212; 2-phenyl-2-butanol</text>

@@ -1,6 +1,6 @@
 <svg viewBox="0 0 700 470" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="30" y="22" fill="#8a8a8a" font-style="italic">The aldol: a base makes the enolate, the enolate's &#945;-carbon attacks a second carbonyl, then &#8722;H&#8322;O gives the conjugated enone.</text>
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">The aldol: the enolate's α-carbon attacks a second carbonyl; −H₂O gives the enone.</text>
 
   <!-- ============ STEP 1: enolate formation ============ -->
   <text x="30" y="58" fill="#8a8a8a" font-style="italic">1 &#183; base pulls an &#945;-H &#8594; resonance-stabilized enolate</text>

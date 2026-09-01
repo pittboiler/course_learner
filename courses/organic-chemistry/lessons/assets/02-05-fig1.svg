@@ -6,7 +6,7 @@
   </defs>
 
   <!-- caption -->
-  <text x="30" y="22" fill="#8a8a8a" font-style="italic">The alkene &#960; bond is the nucleophile: it reaches out and grabs the electrophile. Which cation forms decides the regiochemistry.</text>
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">The alkene π bond is the nucleophile; which cation forms decides regiochemistry.</text>
 
   <!-- ============ PANEL 1: HBr, Markovnikov via carbocation ============ -->
   <text x="30" y="52" fill="#8a8a8a" font-style="italic">1 &#183; Hydrohalogenation (HBr): &#960; grabs H&#8314; &#8594; more-stable cation &#8594; Br&#8315; adds (Markovnikov)</text>

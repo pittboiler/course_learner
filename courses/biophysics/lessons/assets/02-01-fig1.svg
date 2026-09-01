@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="24" fill="#8a8a8a" font-style="italic">A process runs if it goes downhill in free energy G — and coupling to ATP can pull an uphill step down.</text>
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">A process runs if it goes downhill in G — and ATP can pull an uphill step down.</text>
 
   <!-- ================= Panel 1: a spontaneous reaction ================= -->
   <!-- G axis -->

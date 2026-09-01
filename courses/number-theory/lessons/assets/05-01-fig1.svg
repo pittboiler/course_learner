@@ -27,5 +27,5 @@
   <text x="120" y="128" fill="#c02a3f" font-style="italic">slope t</text>
 
   <!-- caption -->
-  <text x="46" y="344" fill="#333333" font-style="italic">Each slope t gives one rational point; here t = 1/2 &#8594; (3,4,5).</text>
+  <text x="46" y="344" fill="#333333" font-style="italic">Slope t = 1/2 gives (3,4,5).</text>
 </svg>

@@ -45,5 +45,5 @@
   <text x="330" y="300" fill="#8a8a8a">output: sheared</text>
 
   <!-- caption -->
-  <text x="40" y="38" fill="#8a8a8a" font-style="italic">A matrix is a verb: its columns are where e&#8321;, e&#8322; land, and every other point rides along.</text>
+  <text x="40" y="38" fill="#8a8a8a" font-style="italic">A matrix is a verb: its columns are where e₁, e₂ land.</text>
 </svg>

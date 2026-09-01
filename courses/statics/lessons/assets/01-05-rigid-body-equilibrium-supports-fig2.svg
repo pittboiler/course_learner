@@ -9,7 +9,7 @@
   </defs>
 
   <!-- caption -->
-  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Boom pinned at A, held by a cable to C; a load hangs at the midpoint. Take moments about A.</text>
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Boom pinned at A, cable to C, load at midspan. Moments about A.</text>
 
   <!-- wall (grey, with hatch on the left) -->
   <line x1="110" y1="40" x2="110" y2="330" stroke="#8a8a8a" stroke-width="2.5"/>

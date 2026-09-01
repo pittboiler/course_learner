@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Pluck the frozen-in field lines: tension pulls them back, the plasma's mass overshoots — an Alfvén wave runs along B at v_A.</text>
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Pluck the frozen-in field lines: tension and inertia send an Alfvén wave along B at v_A.</text>
 
   <!-- equilibrium (rest) position of the field bundle -->
   <line x1="70" y1="150" x2="470" y2="150" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 5"/>

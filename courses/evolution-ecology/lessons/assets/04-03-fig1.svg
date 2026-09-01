@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" width="800" height="440" role="img" aria-label="Island biogeography equilibrium, the species-area relationship on log-log axes, and three communities with identical richness but different evenness">
-  <rect width="800" height="440" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 809 440" width="809" height="440" role="img" aria-label="Island biogeography equilibrium, the species-area relationship on log-log axes, and three communities with identical richness but different evenness">
+  <rect width="809" height="440" fill="#ffffff"/>
   <text x="14" y="22" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#111">Island biogeography: richness is a dynamic equilibrium</text>
   <line x1="40" y1="240" x2="250" y2="240" stroke="#333" stroke-width="1.5"/>
   <line x1="40" y1="240" x2="40" y2="60" stroke="#333" stroke-width="1.5"/>

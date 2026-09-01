@@ -51,7 +51,7 @@
   <text x="470" y="335" font-size="13" fill="#1a5fb4" text-anchor="middle">small &#963;&#8346;</text>
 
   <!-- caption -->
-  <text x="320" y="410" font-size="14" fill="#555555" text-anchor="middle" font-style="italic">Squeeze the position spread and the momentum spread balloons: the product &#963;&#8339;&#963;&#8346; can never drop below &#8463;/2.</text>
+  <text x="320" y="410" font-size="14" fill="#555555" text-anchor="middle" font-style="italic">Squeeze the position spread and the momentum spread balloons: σₓσₚ ≥ ℏ/2.</text>
 
   <!-- arrowhead markers -->
   <defs>

@@ -1,6 +1,6 @@
-<svg viewBox="0 0 620 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+<svg viewBox="0 0 633 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="22" fill="#8a8a8a" font-style="italic">The Lawson curve: how much confinement (n·τ_E) ignition demands at each temperature. Above the line, the plasma burns.</text>
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">The Lawson curve: the confinement n·τ_E ignition demands at each temperature.</text>
 
   <!-- ignition region shading (above the threshold curve) -->
   <path d="M 161 60 L 218 116 L 254 148 L 302 177 L 344 196 L 385 204 L 418 206 L 466 202 L 516 193 L 560 182 L 560 50 L 161 50 Z"

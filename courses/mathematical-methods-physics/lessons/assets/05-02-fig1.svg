@@ -1,7 +1,7 @@
 <svg viewBox="0 0 560 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="22" fill="#8a8a8a" font-style="italic">A crude parabolic trial (coral) barely differs from the true ground state (blue) — so its Rayleigh</text>
-  <text x="40" y="40" fill="#8a8a8a" font-style="italic">quotient R[trial] sits just above the exact eigenvalue. R[y] ≥ λ_min for ANY trial: an upper bound.</text>
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">The parabolic trial (coral) nearly matches the ground state (blue):</text>
+  <text x="40" y="40" fill="#8a8a8a" font-style="italic">so R[trial] sits just above λ_min. R[y] ≥ λ_min for ANY trial.</text>
 
   <!-- axes -->
   <line x1="70" y1="230" x2="500" y2="230" stroke="#8a8a8a" stroke-width="1.5"/>

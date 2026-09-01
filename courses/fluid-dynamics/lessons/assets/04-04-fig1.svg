@@ -1,6 +1,6 @@
 <svg viewBox="0 0 720 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="24" y="24" fill="#8a8a8a" font-style="italic">Raise Re and the wake behind a cylinder loses stability in stages: attached &#8594; steady eddies &#8594; periodic vortex street &#8594; turbulence.</text>
+  <text x="24" y="24" fill="#8a8a8a" font-style="italic">Raise Re and the cylinder wake destabilizes: attached → eddies → vortex street → turbulence.</text>
 
   <!-- panel dividers -->
   <line x1="150" y1="52" x2="150" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="2 6"/>

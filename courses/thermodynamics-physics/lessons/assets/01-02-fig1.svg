@@ -1,6 +1,6 @@
 <svg viewBox="0 0 620 315" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="70" y="22" fill="#8a8a8a" font-style="italic">Isotherms on the P–V plane: each blue hyperbola P = nRT/V is one temperature. Hotter gas sits higher.</text>
+  <text x="70" y="22" fill="#8a8a8a" font-style="italic">Isotherms on the P–V plane: each hyperbola P = nRT/V is one temperature.</text>
 
   <!-- axes -->
   <line x1="70" y1="270" x2="580" y2="270" stroke="#8a8a8a" stroke-width="1.5"/>

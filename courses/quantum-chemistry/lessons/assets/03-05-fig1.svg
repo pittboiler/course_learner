@@ -1,6 +1,6 @@
 <svg viewBox="0 0 650 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Hohenberg&#8211;Kohn: trade the 3N-dimensional wavefunction for the 3-D density &#961;(r) &#8212; and it still knows everything.</text>
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Hohenberg–Kohn: trade the 3N-D wavefunction for the 3-D density ρ(r) — it knows all.</text>
 
   <!-- ===== left: the wavefunction we abandon ===== -->
   <rect x="30" y="90" width="150" height="110" rx="6" fill="none" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="5 4"/>

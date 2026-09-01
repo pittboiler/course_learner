@@ -1,6 +1,6 @@
 <svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="30" y="22" fill="#8a8a8a" font-style="italic">A flow net for uniform flow: equipotentials φ = const (coral) cross streamlines ψ = const (blue) at right angles.</text>
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Flow net: equipotentials φ (coral) cross streamlines ψ (blue) at right angles.</text>
 
   <!-- ===== flow net: uniform flow to the right, U along +x ===== -->
   <!-- domain box -->

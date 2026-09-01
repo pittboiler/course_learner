@@ -1,6 +1,6 @@
 <svg viewBox="0 0 600 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="20" y="20" fill="#8a8a8a" font-style="italic">An extended source (angular size &#952;&#8347;) lights a double slit: fringes stay sharp when a &lt; &#8467;&#8869;, wash out when a &gt; &#8467;&#8869;.</text>
+  <text x="20" y="20" fill="#8a8a8a" font-style="italic">An extended source lights a double slit: sharp if a < ℓ⊥, washed out if a > ℓ⊥.</text>
 
   <!-- ================= ROW 1 : a < l_perp (coherent, sharp fringes) ================= -->
 

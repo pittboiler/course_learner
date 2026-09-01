@@ -12,10 +12,10 @@
   <line x1="142.6" y1="134" x2="142.6" y2="336" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
   <line x1="378.5" y1="294" x2="378.5" y2="336" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
   <line x1="520" y1="52" x2="520" y2="336" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
-  <text x="55" y="352" fill="#8a8a8a">a</text>
-  <text x="136" y="352" fill="#8a8a8a">c&#8321;</text>
-  <text x="372" y="352" fill="#8a8a8a">c&#8322;</text>
-  <text x="515" y="352" fill="#8a8a8a">b</text>
+  <text x="55" y="347" fill="#8a8a8a">a</text>
+  <text x="136" y="347" fill="#8a8a8a">c&#8321;</text>
+  <text x="372" y="347" fill="#8a8a8a">c&#8322;</text>
+  <text x="515" y="347" fill="#8a8a8a">b</text>
 
   <!-- the curve -->
   <path d="M 60.0 202.5 L 75.3 176.4 L 90.7 156.6 L 106.0 142.7 L 121.3 134.1 L 136.7 130.3 L 152.0 130.7 L 167.3 134.9 L 182.7 142.3 L 198.0 152.4 L 213.3 164.6 L 228.7 178.4 L 244.0 193.3 L 259.3 208.8 L 274.7 224.3 L 290.0 239.4 L 305.3 253.4 L 320.7 265.9 L 336.0 276.3 L 351.3 284.1 L 366.7 288.8 L 382.0 289.9 L 397.3 286.8 L 412.7 278.9 L 428.0 265.9 L 443.3 247.0 L 458.7 221.9 L 474.0 190.0 L 489.3 150.7 L 504.7 103.6 L 520.0 48.1"

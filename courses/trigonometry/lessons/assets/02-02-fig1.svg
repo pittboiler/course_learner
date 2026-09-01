@@ -1,4 +1,5 @@
 <svg viewBox="0 0 380 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="380" height="380" fill="#ffffff"/>
   <!-- unit circle -->
   <circle cx="190" cy="190" r="140" fill="none" stroke="#333333" stroke-width="1.5"/>
 

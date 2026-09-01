@@ -61,8 +61,8 @@
     <text x="320" y="266" font-size="10" fill="#666">380,000 yr</text>
     <text x="510" y="252" font-size="11.5" font-weight="bold" fill="#111">First stars</text>
     <text x="510" y="266" font-size="10" fill="#666">0.2&#8211;1 Gyr</text>
-    <text x="660" y="252" font-size="11.5" font-weight="bold" fill="#a12a17">Accel. future</text>
-    <text x="660" y="266" font-size="10" fill="#666">&#923;-dominated</text>
+    <text x="630" y="252" font-size="11.5" font-weight="bold" fill="#a12a17">Accel. future</text>
+    <text x="630" y="266" font-size="10" fill="#666">&#923;-dominated</text>
   </g>
 
   <!-- divider -->

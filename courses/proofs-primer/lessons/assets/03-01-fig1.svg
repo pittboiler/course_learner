@@ -23,5 +23,5 @@
   <text x="415" y="108" fill="#8a8a8a">(A ∪ B)ᶜ</text>
 
   <!-- caption -->
-  <text x="40" y="348" fill="#8a8a8a" font-style="italic">Shaded = outside both A and B = Aᶜ ∩ Bᶜ. The picture suggests it; the element method proves it.</text>
+  <text x="40" y="348" fill="#8a8a8a" font-style="italic">Shaded = outside both A and B = Aᶜ ∩ Bᶜ; the element method proves it.</text>
 </svg>

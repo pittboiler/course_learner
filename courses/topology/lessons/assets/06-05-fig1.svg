@@ -25,5 +25,5 @@
   <line x1="95" y1="76" x2="118" y2="104" stroke="#4a90d9" stroke-width="1" stroke-dasharray="3 3"/>
 
   <!-- caption -->
-  <text x="40" y="360" fill="#8a8a8a" font-style="italic">If f(x) ≠ x, aim the ray from f(x) through x — where it leaves the disk is r(x).</text>
+  <text x="40" y="360" fill="#8a8a8a" font-style="italic">The ray from f(x) through x leaves the disk at r(x).</text>
 </svg>

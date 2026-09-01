@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 430" font-family="sans-serif">
-  <rect x="0" y="0" width="640" height="430" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 659 430" font-family="sans-serif">
+  <rect x="0" y="0" width="659" height="430" fill="#ffffff"/>
   <!-- title -->
   <text x="320" y="28" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">Savings policy k' = &#945;&#946; z k&#8319; shifts up with a good shock</text>
   <!-- axes -->
@@ -22,5 +22,5 @@
   <text x="345" y="180" font-size="13" fill="#1a1a1a">positive shock</text>
   <text x="345" y="196" font-size="13" fill="#1a1a1a">z&#8593; &#8594; save more</text>
   <!-- note -->
-  <text x="320" y="418" text-anchor="middle" font-size="13" fill="#555555">Same concave shape at every z; the shock scales the whole schedule. Consumption (1&#8722;&#945;&#946;)z k&#8319; scales identically.</text>
+  <text x="320" y="418" text-anchor="middle" font-size="13" fill="#555555">Same concave shape at every z; the shock scales the whole schedule.</text>
 </svg>

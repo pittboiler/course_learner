@@ -1,6 +1,6 @@
 <svg viewBox="0 0 620 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="60" y="22" fill="#8a8a8a" font-style="italic">Same start, same expansion: work is the area under the p&#8211;V path. The isotherm (blue) stays higher, so it does more work than the adiabat (coral).</text>
+  <text x="60" y="22" fill="#8a8a8a" font-style="italic">Work is the area under the p–V path; the isotherm (blue) beats the adiabat.</text>
 
   <!-- shaded work area under the isotherm -->
   <path d="M 70 80 L 151.7 146.7 L 233.3 180 L 315 200 L 396.7 213.3 L 478.3 222.9 L 560 230 L 560 280 L 70 280 Z"

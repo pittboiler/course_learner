@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="sans-serif">
-  <rect x="0" y="0" width="640" height="400" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 656 400" font-family="sans-serif">
+  <rect x="0" y="0" width="656" height="400" fill="#ffffff"/>
 
   <!-- Title -->
   <text x="320" y="28" text-anchor="middle" font-size="17" font-weight="bold" fill="#111111">Canonical P(E) &#8733; g(E) e&#8722;&#946;E &#8212; sharper as N grows</text>
@@ -40,5 +40,5 @@
   <text x="492" y="144" font-size="12" fill="#333333">N ~ 10&#178;&#179;</text>
 
   <!-- caption -->
-  <text x="60" y="392" fill="#555555" font-size="12" font-style="italic">Rising g(E) times falling e&#8722;&#946;E gives a peak at &#10216;E&#10217;; its relative width shrinks like 1/&#8730;N &#8212; energy becomes effectively sharp.</text>
+  <text x="60" y="392" fill="#555555" font-size="12" font-style="italic">Rising g(E) times falling e−βE peaks at ⟨E⟩; the width shrinks like 1/√N.</text>
 </svg>

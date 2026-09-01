@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="26" fill="#8a8a8a" font-style="italic">The SCF loop as linear algebra: density P builds Fock F, diagonalizing FC = SC&#949; gives C, which rebuilds P.</text>
+  <text x="40" y="26" fill="#8a8a8a" font-style="italic">The SCF loop: density P builds Fock F; diagonalizing FC = SCε gives C, rebuilding P.</text>
 
   <!-- ===== P block (top-left, coral) ===== -->
   <rect x="76" y="70" width="72" height="72" rx="4" fill="#e0645c" opacity="0.12" stroke="#e0645c" stroke-width="2"/>

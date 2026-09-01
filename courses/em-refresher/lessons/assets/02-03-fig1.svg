@@ -34,5 +34,5 @@
   <text x="290" y="270" fill="#e0645c">discharging: q = q&#8320; e&#8722;&#7511;/&#7458;&#7580;</text>
 
   <!-- caption -->
-  <text x="80" y="40" fill="#8a8a8a" font-style="italic">One time constant &#964; = RC per step: the capacitor closes 63% of the remaining gap each &#964;.</text>
+  <text x="80" y="40" fill="#8a8a8a" font-style="italic">One τ = RC per step: the capacitor closes 63% of the gap each time.</text>
 </svg>

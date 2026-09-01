@@ -1,6 +1,6 @@
 <svg viewBox="0 0 680 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="30" y="26" fill="#8a8a8a" font-style="italic">Twist a round shaft: plane sections stay plane, and shear stress climbs straight-line from zero at the axis to &#964;max at the surface.</text>
+  <text x="30" y="26" fill="#8a8a8a" font-style="italic">Twist a round shaft: plane sections stay plane, shear climbs linearly to τmax at the surface.</text>
 
   <!-- ===== left: twisted shaft ===== -->
 

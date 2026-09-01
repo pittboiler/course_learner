@@ -1,4 +1,5 @@
 <svg viewBox="0 0 480 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <rect x="0" y="0" width="480" height="300" fill="#ffffff"/>
   <!-- x-axis (the y = 0 line) -->
   <line x1="30" y1="275" x2="470" y2="275" stroke="#333333" stroke-width="1.5"/>
   <polygon points="470,275 460,270 460,280" fill="#333333"/>

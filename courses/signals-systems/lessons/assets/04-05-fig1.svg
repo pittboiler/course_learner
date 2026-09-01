@@ -1,5 +1,5 @@
 <svg viewBox="0 0 660 480" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
-  <text x="46" y="22" fill="#8a8a8a" font-style="italic">Multiplying by a cosine slides the spectrum to &#177;&#969;c &#8212; give every user their own carrier and one channel holds them all.</text>
+  <text x="46" y="22" fill="#8a8a8a" font-style="italic">Multiplying by a cosine slides the spectrum to ±ωc — one carrier per user.</text>
 
   <!-- ============ row 1: baseband message spectrum ============ -->
   <text x="46" y="52" fill="#8a8a8a">1. The message at baseband: |X(j&#969;)|, bandwidth W</text>

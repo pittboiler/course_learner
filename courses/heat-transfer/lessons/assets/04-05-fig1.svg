@@ -1,5 +1,5 @@
 <svg viewBox="0 0 620 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
-  <text x="60" y="22" fill="#8a8a8a" font-style="italic">Counterflow: effectiveness &#949; climbs with size NTU and saturates below 1; a smaller Cr reaches higher.</text>
+  <text x="60" y="22" fill="#8a8a8a" font-style="italic">Counterflow: ε climbs with NTU and saturates below 1; smaller Cr reaches higher.</text>
 
   <!-- thermodynamic ceiling epsilon = 1 -->
   <line x1="70" y1="70" x2="560" y2="70" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 5"/>

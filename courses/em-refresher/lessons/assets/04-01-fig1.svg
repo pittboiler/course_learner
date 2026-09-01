@@ -29,5 +29,5 @@
 
   <!-- caption -->
   <line x1="20" y1="326" x2="640" y2="326" stroke="#8a8a8a" stroke-width="1.5"/>
-  <text x="28" y="348" fill="#8a8a8a" font-style="italic" font-size="12">Rows 1&#8211;2 are the divergence theorem; rows 3&#8211;4 are Stokes'. The red term is Maxwell's displacement current &#8212; the missing symmetry that makes light.</text>
+  <text x="28" y="348" fill="#8a8a8a" font-style="italic" font-size="12">Rows 1–2 are the divergence theorem, rows 3–4 Stokes'. Red = displacement current.</text>
 </svg>

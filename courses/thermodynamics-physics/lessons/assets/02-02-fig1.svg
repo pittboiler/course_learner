@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 430" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="24" fill="#8a8a8a" font-style="italic">If a super-engine X beat Carnot, its work could drive a Carnot fridge C — the pair would pump heat cold→hot for free.</text>
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">If X beat Carnot, it could drive a Carnot fridge and pump heat cold→hot free.</text>
 
   <!-- ===== reservoirs ===== -->
   <rect x="60" y="48" width="520" height="40" fill="#e0645c" opacity="0.15" stroke="#e0645c" stroke-width="2"/>
@@ -44,5 +44,5 @@
   <text x="450" y="308" fill="#4a90d9">Q_h&#8242; &#8722; W</text>
 
   <!-- ===== net-effect annotation ===== -->
-  <text x="320" y="410" fill="#8a8a8a" font-style="italic" text-anchor="middle">Net (η_X &gt; η_C ⇒ Q_h&#8242; &gt; Q_h): heat Q_h&#8242;&#8722;Q_h moves cold→hot with no work in — a perfect fridge. Clausius says: impossible.</text>
+  <text x="320" y="410" fill="#8a8a8a" font-style="italic" text-anchor="middle">Heat would move cold→hot with no work in — a perfect fridge. Clausius: impossible.</text>
 </svg>

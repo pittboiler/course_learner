@@ -1,6 +1,6 @@
 <svg viewBox="0 0 660 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="30" y="24" fill="#8a8a8a" font-style="italic">The Hall bar: current J_x plus field B_z out of the page deflects carriers sideways until E_y balances the push.</text>
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Hall bar: J_x with B_z out of the page deflects carriers until E_y balances the push.</text>
 
   <!-- ===== the slab ===== -->
   <rect x="150" y="110" width="360" height="150" fill="#4a90d9" opacity="0.15"/>

@@ -29,7 +29,7 @@
   <text x="60" y="335" fill="#8a8a8a">Σ  height × width  of each strip</text>
 
   <!-- ================= PANEL 2: LEBESGUE (slice the range) ================= -->
-  <text x="400" y="30" fill="#8a8a8a" font-style="italic">Lebesgue: slice the range (values) into horizontal layers</text>
+  <text x="400" y="30" fill="#8a8a8a" font-style="italic">Lebesgue: slice the range into layers</text>
 
   <!-- region under the same curve -->
   <path d="M 400 300 L 400 248 L 426 205 L 452 158 L 478 118 L 504 95 L 530 92 L 556 118 L 582 160 L 608 205 L 634 248 L 634 300 Z"

@@ -1,11 +1,11 @@
 <svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Binding energy per nucleon: steep climb, iron peak near 8.8 MeV, gentle fall &#8212; fusion and fission both climb toward the top.</text>
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Binding energy per nucleon peaks near 8.8 MeV at iron: fusion and fission climb it.</text>
 
   <!-- ===== axes ===== -->
   <line x1="70" y1="320" x2="614" y2="320" stroke="#8a8a8a" stroke-width="1.5"/>
   <polygon points="614,320 604,315 604,325" fill="#8a8a8a"/>
-  <text x="600" y="342" fill="#8a8a8a">A (mass number)</text>
+  <text x="525" y="342" fill="#8a8a8a">A (mass number)</text>
   <line x1="70" y1="320" x2="70" y2="48" stroke="#8a8a8a" stroke-width="1.5"/>
   <polygon points="70,48 65,58 75,58" fill="#8a8a8a"/>
   <text x="42" y="46" fill="#8a8a8a">B/A (MeV)</text>

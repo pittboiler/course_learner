@@ -46,5 +46,5 @@
   <text x="362" y="290" fill="#e0645c">⟨x⟩(t) · packet centroid</text>
 
   <!-- caption -->
-  <text x="70" y="34" fill="#8a8a8a" font-style="italic">The packet spreads (red blobs), but its centre ⟨x⟩ traces the classical orbit exactly.</text>
+  <text x="70" y="34" fill="#8a8a8a" font-style="italic">The packet spreads, but ⟨x⟩ traces the classical orbit exactly.</text>
 </svg>

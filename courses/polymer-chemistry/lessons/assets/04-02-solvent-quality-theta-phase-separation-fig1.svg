@@ -1,6 +1,6 @@
 <svg viewBox="0 0 620 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Phase diagram (N = 100): binodal (outer) and spinodal (inner) meet at the critical point; above them the solution demixes.</text>
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Phase diagram (N = 100): binodal outside, spinodal inside, meeting at criticality.</text>
 
   <!-- two-phase shaded region (interior of the binodal cup, capped at top) -->
   <path d="M 95 60 L 100 150 L 110 225 L 122 238 L 133 242 L 200 234 L 270 205 L 330 158 L 380 105 L 415 60 Z"

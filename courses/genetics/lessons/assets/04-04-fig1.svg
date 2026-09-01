@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" width="800" height="440" role="img" aria-label="LD decay with generations, haplotype blocks with tagging SNPs, and a Manhattan plot">
-  <rect width="800" height="440" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 817 440" width="817" height="440" role="img" aria-label="LD decay with generations, haplotype blocks with tagging SNPs, and a Manhattan plot">
+  <rect width="817" height="440" fill="#ffffff"/>
   <text x="14" y="22" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#111">LD decays as D&#8320;(1&#8722;c)&#7511; &#8212; a population is a cross that has run for millennia</text>
 
   <g stroke-width="6" stroke-linecap="round">

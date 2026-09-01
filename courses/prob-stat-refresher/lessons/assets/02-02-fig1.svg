@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="30" y="26" fill="#8a8a8a" font-style="italic">Two counting shapes: the binomial is symmetric about its mean; the Poisson leans right, with a thin tail of rare large counts.</text>
+  <text x="30" y="26" fill="#8a8a8a" font-style="italic">Two counting shapes: the binomial is symmetric; the Poisson leans right.</text>
 
   <!-- ============ LEFT PANEL: Binomial(10, 0.5) ============ -->
   <text x="160" y="72" fill="#4a90d9" text-anchor="middle" font-size="15">Binomial(10, 0.5)</text>

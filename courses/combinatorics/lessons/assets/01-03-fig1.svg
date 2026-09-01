@@ -25,5 +25,5 @@
   <text x="271" y="228" font-size="30" font-weight="bold" fill="#111111">+</text>
 
   <!-- sign key -->
-  <text x="46" y="402" font-size="15" fill="#111111">To count the union: add single-set terms (+), subtract pairwise overlaps (&#8722;), add the triple (+).</text>
+  <text x="46" y="402" font-size="15" fill="#111111">Add singles, subtract pairs, add the triple.</text>
 </svg>

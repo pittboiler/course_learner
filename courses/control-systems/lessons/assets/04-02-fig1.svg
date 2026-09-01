@@ -1,5 +1,5 @@
 <svg viewBox="0 0 720 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
-  <text x="30" y="22" fill="#8a8a8a" font-style="italic" font-size="14">Two experiments, two pairs of numbers: (K_u, P_u) from the closed loop, (L, T) from the open loop. Each feeds its own Ziegler&#8211;Nichols table.</text>
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic" font-size="14">Two experiments: (K_u, P_u) closed-loop and (L, T) open-loop, each with its own table.</text>
 
   <!-- ============ PANEL A: ultimate gain test ============ -->
   <text x="55" y="48" fill="#8a8a8a" font-size="13" font-style="italic">(a) Closed loop: raise K_p until it rings forever</text>

@@ -44,5 +44,5 @@
   <rect x="470" y="24" width="12" height="12" fill="#4a90d9" opacity="0.35" stroke="#4a90d9" stroke-width="1.5"/>
   <text x="488" y="34" fill="#8a8a8a">fissile: Pu-239 + Pu-241</text>
   <rect x="470" y="40" width="12" height="12" fill="#e0645c" opacity="0.35" stroke="#e0645c" stroke-width="1.5"/>
-  <text x="488" y="50" fill="#8a8a8a">even + Am: Pu-240, 242, Am-241</text>
+  <text x="488" y="50" fill="#8a8a8a">even + Am: Pu-240, 242</text>
 </svg>

@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Displace the electron slab by x and bare +/− sheets appear; their field E shoves the electrons back — the plasma rings at &#969;&#8346;.</text>
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Displace the electron slab: the bare sheets' field E rings the plasma at ωₚ.</text>
 
   <!-- ===== ion frame (fixed background, grey dashed) ===== -->
   <rect x="140" y="90" width="320" height="140" fill="none" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="5 4"/>

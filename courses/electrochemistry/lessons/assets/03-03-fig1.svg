@@ -1,5 +1,5 @@
 <svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
-  <text x="60" y="24" fill="#8a8a8a" font-style="italic">One curve, three losses: kinetics rules low current, ohmic tilts the middle, transport walls off the top at j_L.</text>
+  <text x="60" y="24" fill="#8a8a8a" font-style="italic">One curve, three losses: kinetics low down, ohmic in the middle, transport at j_L.</text>
 
   <!-- axes -->
   <line x1="70" y1="288" x2="600" y2="288" stroke="#8a8a8a" stroke-width="1.5"/>

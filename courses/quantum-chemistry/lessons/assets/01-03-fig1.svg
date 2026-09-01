@@ -1,6 +1,6 @@
 <svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Every trial energy sits ABOVE the true floor E&#8320;; tuning &#955; to the minimum gives the best (lowest) upper bound.</text>
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Every trial energy sits ABOVE E₀; the minimum in λ gives the best bound.</text>
 
   <!-- ===== axes ===== -->
   <!-- energy axis (vertical) -->

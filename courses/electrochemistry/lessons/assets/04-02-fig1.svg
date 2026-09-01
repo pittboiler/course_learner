@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Voltage waterfall: the ideal 1.23 V bleeds down through three overpotentials to a ~0.70 V operating point.</text>
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Voltage waterfall: 1.23 V ideal bleeds through three overpotentials to ~0.70 V.</text>
 
   <!-- ===== voltage axis ===== -->
   <line x1="60" y1="292" x2="60" y2="46" stroke="#8a8a8a" stroke-width="1.5"/>

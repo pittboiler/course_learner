@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="26" fill="#8a8a8a" font-style="italic">A shallow donor (just below E_c) drops an electron into the conduction band; a shallow acceptor (just above E_v) grabs one, leaving a hole.</text>
+  <text x="40" y="26" fill="#8a8a8a" font-style="italic">A shallow donor gives an electron to E_c; a shallow acceptor takes one, leaving a hole.</text>
 
   <!-- energy axis -->
   <line x1="34" y1="300" x2="34" y2="60" stroke="#8a8a8a" stroke-width="1.5"/>

@@ -1,6 +1,6 @@
 <svg viewBox="0 0 680 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
   <!-- caption -->
-  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Walk &#937; around the unit circle: |H| = (distances to zeros) / (distances to poles), so the gain spikes where the path grazes a pole.</text>
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Walk Ω around the unit circle: |H| = distances to zeros / distances to poles.</text>
 
   <!-- ================= left panel: the z-plane ================= -->
 

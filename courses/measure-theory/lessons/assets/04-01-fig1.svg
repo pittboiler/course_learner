@@ -2,8 +2,8 @@
 <rect x="0" y="0" width="620" height="420" fill="#ffffff"/>
 
 <!-- captions -->
-<text x="60" y="28" fill="#8a8a8a" font-style="italic">A measurable set E in the plane. Fix x = x0; the slice Eₓ0 (red) is the set of y with (x0,y) in E —</text>
-<text x="60" y="46" fill="#8a8a8a" font-style="italic">its ν-length is what you integrate in x. Right: a measurable rectangle A×B, the atoms that generate 𝒜⊗ℬ.</text>
+<text x="60" y="28" fill="#8a8a8a" font-style="italic">A measurable set E. Fix x = x0; the slice Eₓ0 (red) is the y with (x0,y) in E —</text>
+<text x="60" y="46" fill="#8a8a8a" font-style="italic">its ν-length is what you integrate in x. Right: a measurable rectangle A×B.</text>
 
 <!-- blob E -->
 <path d="M 130 250 C 140 165, 225 130, 300 158 C 372 185, 382 265, 320 305 C 252 342, 148 322, 130 250 Z" fill="#2f6fb0" fill-opacity="0.18" stroke="#2f6fb0" stroke-width="1.6"/>

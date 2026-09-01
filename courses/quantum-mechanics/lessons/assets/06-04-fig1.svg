@@ -40,5 +40,5 @@
   <text x="583" y="247" font-size="13" fill="#5a6b80" text-anchor="middle">&#968; decays</text>
 
   <!-- caption -->
-  <text x="60" y="384" font-size="14" fill="#555555" font-style="italic">Between the turning points E &gt; V and the wave ripples (piling up where the particle moves slowly); outside, E &lt; V and it dies exponentially.</text>
+  <text x="60" y="384" font-size="14" fill="#555555" font-style="italic">Between the turning points the wave ripples; outside, E < V and it dies exponentially.</text>
 </svg>

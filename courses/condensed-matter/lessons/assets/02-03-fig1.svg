@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Each mode is a quantum oscillator: energy climbs in ħω rungs (left); temperature sets how many phonons ride it (right).</text>
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Each mode is a quantum oscillator: ħω rungs (left); T sets the phonon count (right).</text>
 
   <!-- ===== left: energy ladder for one mode ===== -->
 

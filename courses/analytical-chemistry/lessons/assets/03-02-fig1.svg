@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="20" y="24" fill="#8a8a8a" font-style="italic">One pair of atomic levels, three tricks: absorb the line (AAS), emit it (AES), or absorb-then-re-emit at 90&#176; (fluorescence).</text>
+  <text x="20" y="24" fill="#8a8a8a" font-style="italic">One pair of levels, three tricks: absorb (AAS), emit (AES), or re-emit at 90°.</text>
 
   <!-- ===== left: energy-level diagram ===== -->
   <!-- excited level -->
@@ -30,7 +30,7 @@
   <text x="182" y="345" fill="#8a8a8a">fluoresce</text>
 
   <!-- ===== right: instrument schematic ===== -->
-  <text x="430" y="70" fill="#8a8a8a">atomizer breaks sample into free gas-phase atoms</text>
+  <text x="430" y="70" fill="#8a8a8a">makes free gas-phase atoms</text>
 
   <!-- source lamp -->
   <rect x="300" y="150" width="52" height="40" fill="#4a90d9" opacity="0.15" stroke="#4a90d9" stroke-width="2"/>

@@ -65,5 +65,5 @@
   <text x="244" y="242" fill="#e0645c">contact point: v = 0</text>
 
   <!-- caption -->
-  <text x="70" y="300" fill="#8a8a8a" font-style="italic">Rolling without slipping: the bottom point is instantaneously at rest, so v = R&#969; ties spin to travel.</text>
+  <text x="70" y="300" fill="#8a8a8a" font-style="italic">Rolling without slipping: the bottom point is at rest, so v = Rω.</text>
 </svg>

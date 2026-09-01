@@ -1,11 +1,11 @@
 <svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Both temperatures fall as 1/a &#8212; until e&#8314;e&#8315; annihilation heats the photons, leaving T&#957;/T&#947; = 0.714 forever.</text>
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Both fall as 1/a — until e⁺e⁻ annihilation heats the photons: Tν/Tγ = 0.714.</text>
 
   <!-- axes -->
   <line x1="60" y1="290" x2="590" y2="290" stroke="#8a8a8a" stroke-width="1.5"/>
   <polygon points="590,290 580,285 580,295" fill="#8a8a8a"/>
-  <text x="560" y="312" fill="#8a8a8a">scale factor a &#8594;</text>
+  <text x="515" y="312" fill="#8a8a8a">scale factor a &#8594;</text>
   <line x1="60" y1="290" x2="60" y2="55" stroke="#8a8a8a" stroke-width="1.5"/>
   <polygon points="60,55 55,65 65,65" fill="#8a8a8a"/>
   <text x="46" y="52" fill="#8a8a8a">T</text>

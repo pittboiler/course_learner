@@ -1,5 +1,5 @@
 <svg viewBox="0 0 660 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
-  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Two axes to converge: method (down the columns) and basis (across the rows). The exact answer sits in the far corner.</text>
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Two axes to converge: method (down) and basis (across). Exact sits in the far corner.</text>
 
   <!-- ===== axes ===== -->
   <line x1="110" y1="330" x2="520" y2="330" stroke="#8a8a8a" stroke-width="1.5"/>

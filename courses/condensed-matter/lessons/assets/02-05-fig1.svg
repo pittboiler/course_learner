@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="26" fill="#8a8a8a" font-style="italic">The real well is asymmetric: as vibration energy rises, the midpoint of each level drifts outward — that is thermal expansion.</text>
+  <text x="40" y="26" fill="#8a8a8a" font-style="italic">Asymmetric well: rising vibration energy shifts levels outward — thermal expansion.</text>
 
   <!-- U = 0 reference / r-axis -->
   <line x1="90" y1="243" x2="618" y2="243" stroke="#8a8a8a" stroke-width="1.5"/>

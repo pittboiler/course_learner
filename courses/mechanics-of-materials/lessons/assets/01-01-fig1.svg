@@ -1,5 +1,5 @@
 <svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
-  <text x="24" y="24" fill="#8a8a8a" font-style="italic">Same internal force, two ways to spread it: &#963; = P/A across the cut (&#8869;), &#964; = V/A along the shear plane (&#8741;).</text>
+  <text x="24" y="24" fill="#8a8a8a" font-style="italic">Same internal force, two spreads: σ = P/A across the cut, τ = V/A along the shear plane.</text>
 
   <text x="24" y="52" fill="#8a8a8a">Axial bar &#8212; normal stress</text>
 

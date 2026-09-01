@@ -14,18 +14,18 @@
   <polygon points="80,360 600,53 80,53" fill="#dbeafe" opacity="0.7"/>
   <!-- HJ bound line (slope = Sharpe ratio) -->
   <line x1="80" y1="360" x2="600" y2="53" stroke="#1d4ed8" stroke-width="2.5"/>
-  <text x="470" y="120" font-size="13" fill="#1d4ed8" font-weight="bold">HJ bound:  σ(m)/E(m) ≥ Sharpe</text>
+  <text x="200" y="272" font-size="13" fill="#1d4ed8" font-weight="bold">HJ bound:  σ(m)/E(m) ≥ Sharpe</text>
   <text x="300" y="150" font-size="13" fill="#1d4ed8">feasible SDFs (consistent with the data)</text>
   <text x="360" y="330" font-size="13" fill="#6b7280">infeasible: σ(m) too small</text>
 
   <!-- required point (on the bound) -->
   <circle cx="509" cy="105" r="6" fill="#b91c1c"/>
-  <text x="519" y="100" font-size="13" fill="#b91c1c" font-weight="bold">what the data demands</text>
-  <text x="519" y="118" font-size="12" fill="#b91c1c">high σ(m): a very volatile m</text>
+  <text x="460" y="70" font-size="13" fill="#b91c1c" font-weight="bold">what the data demands</text>
+  <text x="460" y="88" font-size="12" fill="#b91c1c">high σ(m): a very volatile m</text>
 
   <!-- CRRA point (far below) -->
   <circle cx="509" cy="341" r="6" fill="#065f46"/>
-  <text x="330" y="360" font-size="13" fill="#065f46" font-weight="bold" text-anchor="end">CRRA + smooth c → tiny σ(m)</text>
+  <text x="330" y="382" font-size="13" fill="#065f46" font-weight="bold" text-anchor="end">CRRA + smooth c → tiny σ(m)</text>
 
   <!-- the gap arrow -->
   <line x1="509" y1="335" x2="509" y2="112" stroke="#b91c1c" stroke-width="2" stroke-dasharray="6 4"/>

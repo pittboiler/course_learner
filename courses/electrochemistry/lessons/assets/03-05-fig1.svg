@@ -1,5 +1,5 @@
 <svg viewBox="0 0 620 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
-  <text x="40" y="22" fill="#8a8a8a" font-style="italic">The reversible "duck": forward cathodic peak, reverse anodic peak; midpoint is E&#176;, gap is &#916;E&#8342; &#8776; 59/n mV.</text>
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">The reversible duck: cathodic peak out, anodic back; midpoint E°, gap ≈ 59/n mV.</text>
 
   <!-- current (y) axis -->
   <line x1="80" y1="350" x2="80" y2="70" stroke="#8a8a8a" stroke-width="1.5"/>

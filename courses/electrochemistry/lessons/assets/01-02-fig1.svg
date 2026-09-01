@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="30" y="22" fill="#8a8a8a" font-style="italic">A galvanic cell: electrons flow anode to cathode through the wire; ions flow through the salt bridge to keep each side neutral.</text>
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">A galvanic cell: electrons run anode → cathode, ions through the salt bridge.</text>
 
   <!-- external wire -->
   <path d="M 137 108 L 137 66 L 300 66 M 336 66 L 497 66 L 497 108"

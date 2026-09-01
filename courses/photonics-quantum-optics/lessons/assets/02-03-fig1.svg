@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Three photon-click trains on a detector. Same average rate &#8212; different clumping. g&#178;(0) reads the clumping.</text>
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Three click trains, same average rate, different clumping. g²(0) reads the clumping.</text>
 
   <!-- ===== Row 1: thermal / bunched ===== -->
   <text x="20" y="68" fill="#8a8a8a">Thermal</text>

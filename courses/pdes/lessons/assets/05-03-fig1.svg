@@ -56,5 +56,5 @@
   <text x="128" y="259" fill="#8a8a8a">d</text>
 
   <!-- caption -->
-  <text x="52" y="360" fill="#8a8a8a" font-style="italic">The image is fictitious &#8212; only the upper half is physical. By symmetry the two fields cancel exactly on the plane, so u = 0 there for free.</text>
+  <text x="52" y="360" fill="#8a8a8a" font-style="italic">The image is fictitious; by symmetry the fields cancel on the plane, so u = 0.</text>
 </svg>

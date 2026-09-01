@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 430" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="20" y="18" fill="#8a8a8a" font-style="italic">Multi-barrier disposal: nested engineered barriers inside the host rock; canisters spaced so decay heat can&#8217;t cook the buffer.</text>
+  <text x="20" y="18" fill="#8a8a8a" font-style="italic">Multi-barrier disposal: engineered barriers in host rock, spaced for decay heat.</text>
 
   <!-- ground surface -->
   <line x1="20" y1="42" x2="620" y2="42" stroke="#8a8a8a" stroke-width="1.5"/>

@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Curvature follows the sign of M: where M is positive the beam sags, and the deflection is zero at each support.</text>
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Curvature follows the sign of M: positive M sags, and deflection is zero at supports.</text>
 
   <!-- ===== top panel: bending-moment diagram ===== -->
   <text x="40" y="52" fill="#8a8a8a">Bending moment M(x)</text>

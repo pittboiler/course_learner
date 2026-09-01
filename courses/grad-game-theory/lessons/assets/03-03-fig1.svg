@@ -32,7 +32,7 @@
     <text x="505" y="117">c</text>
     <text x="605" y="117">c</text>
   </g>
-  <text x="660" y="117" font-size="14" fill="#1a1a1a">→ payoff stream c, c, c, …</text>
+  <text x="560" y="117" font-size="14" fill="#1a1a1a">→ payoff stream c, c, c, …</text>
 
   <!-- BOTTOM ROW: deviation at t = 2 -->
   <text x="20" y="248" font-size="14" font-weight="bold" fill="#1a1a1a">Defect</text>

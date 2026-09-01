@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="60" y="24" fill="#8a8a8a" font-style="italic">Cu&#8211;Ni isomorphous diagram: a tie line at T&#8321; reads off both phase compositions; the lever arms give the amounts.</text>
+  <text x="60" y="24" fill="#8a8a8a" font-style="italic">Cu–Ni isomorphous: a tie line at T₁ gives both compositions and the amounts.</text>
 
   <!-- ===== axes ===== -->
   <line x1="90" y1="55" x2="90" y2="345" stroke="#8a8a8a" stroke-width="1.5"/>

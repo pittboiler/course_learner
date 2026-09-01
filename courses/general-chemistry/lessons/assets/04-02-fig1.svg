@@ -1,6 +1,6 @@
 <svg viewBox="0 0 620 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Titrating a weak acid with strong base: flat buffer region, then a steep jump through the equivalence point.</text>
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Weak acid + strong base: a flat buffer, then a steep jump at equivalence.</text>
 
   <!-- axes -->
   <line x1="60" y1="310" x2="575" y2="310" stroke="#8a8a8a" stroke-width="1.5"/>

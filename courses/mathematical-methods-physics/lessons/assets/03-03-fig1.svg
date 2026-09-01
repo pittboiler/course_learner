@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="70" y="22" fill="#8a8a8a" font-style="italic">J_ν(x): damped cosines with non-uniform spacing. Each starts differently at x=0 and its zeros set the allowed modes.</text>
+  <text x="70" y="22" fill="#8a8a8a" font-style="italic">J_ν(x): damped cosines with uneven spacing; their zeros set the allowed modes.</text>
 
   <!-- x-axis (value 0) -->
   <line x1="70" y1="210" x2="622" y2="210" stroke="#8a8a8a" stroke-width="1.5"/>

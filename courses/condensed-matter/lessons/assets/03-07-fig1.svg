@@ -1,6 +1,6 @@
 <svg viewBox="0 0 720 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Conduction is decided at the Fermi level: a partly filled band conducts; a filled band under a gap does not — unless the gap is small enough for heat to bridge it.</text>
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Conduction is decided at E_F: a partly filled band conducts; a filled band below a gap does not.</text>
 
   <!-- energy axis -->
   <line x1="28" y1="240" x2="28" y2="70" stroke="#8a8a8a" stroke-width="1.5"/>

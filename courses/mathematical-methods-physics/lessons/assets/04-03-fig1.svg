@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Step-forced damped oscillator: a decaying transient (poles s = &#8722;&#947; &#177; i&#969;&#8341;) rides onto the steady state F&#8320;/&#969;&#8320;&#178; (pole s = 0).</text>
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Step-forced damped oscillator: a decaying transient rides onto steady F₀/ω₀².</text>
 
   <!-- time axis -->
   <line x1="60" y1="270" x2="600" y2="270" stroke="#8a8a8a" stroke-width="1.5"/>

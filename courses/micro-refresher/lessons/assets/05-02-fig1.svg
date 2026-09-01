@@ -24,14 +24,14 @@
   <line x1="60" y1="222" x2="462" y2="222" stroke="#7b4fb0" stroke-width="3"/>
 
   <!-- Pigouvian tax wedge = MEC, drawn between MPC and MSC at the efficient quantity -->
-  <line x1="330" y1="248" x2="330" y2="222" stroke="#333333" stroke-width="1.5" stroke-dasharray="4 3"/>
-  <polygon points="330,222 326,230 334,230" fill="#333333"/>
-  <polygon points="330,248 326,240 334,240" fill="#333333"/>
-  <text x="196" y="239" fill="#333333">Pigouvian tax  t = MEC = 10</text>
+  <line x1="330" y1="248" x2="330" y2="222" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <polygon points="330,222 326,230 334,230" fill="#8a8a8a"/>
+  <polygon points="330,248 326,240 334,240" fill="#8a8a8a"/>
+  <text x="196" y="239" fill="#8a8a8a">Pigouvian tax  t = MEC = 10</text>
 
   <!-- equilibrium points -->
-  <circle cx="368" cy="222" r="5" fill="#333333"/>
-  <circle cx="412" cy="248" r="5" fill="#333333"/>
+  <circle cx="368" cy="222" r="5" fill="#8a8a8a"/>
+  <circle cx="412" cy="248" r="5" fill="#8a8a8a"/>
 
   <!-- curve labels -->
   <text x="360" y="292" fill="#4a90d9">MSB = Demand  p = 100 − q</text>
@@ -43,12 +43,12 @@
   <line x1="360" y1="184" x2="394" y2="232" stroke="#c8322c" stroke-width="1" stroke-dasharray="3 4"/>
 
   <!-- axis ticks -->
-  <text x="26" y="226" fill="#333333">30</text>
-  <text x="26" y="252" fill="#333333">20</text>
+  <text x="26" y="226" fill="#8a8a8a">30</text>
+  <text x="26" y="252" fill="#8a8a8a">20</text>
   <text x="40" y="45" fill="#8a8a8a">100</text>
-  <text x="352" y="318" fill="#333333">q*=70</text>
-  <text x="398" y="318" fill="#333333">q&#8202;&#7504;=80</text>
+  <text x="352" y="318" fill="#8a8a8a">q*=70</text>
+  <text x="398" y="318" fill="#8a8a8a">q&#8202;&#7504;=80</text>
 
   <!-- caption -->
-  <text x="70" y="338" fill="#8a8a8a" font-style="italic">A negative externality: MSC sits above MPC by the external cost MEC. The market trades at q&#8202;&#7504; (MSB=MPC), past the efficient q* (MSB=MSC) — the shaded wedge is lost.</text>
+  <text x="70" y="338" fill="#8a8a8a" font-style="italic">A negative externality: MSC above MPC, so the market overshoots q*.</text>
 </svg>

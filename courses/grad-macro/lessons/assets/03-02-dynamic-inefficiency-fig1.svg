@@ -4,7 +4,7 @@
   <!-- axes -->
   <line x1="70" y1="360" x2="610" y2="360" stroke="#222222" stroke-width="2"/>
   <line x1="70" y1="360" x2="70" y2="40" stroke="#222222" stroke-width="2"/>
-  <text x="600" y="388" font-size="16" fill="#222222">capital per capita  k</text>
+  <text x="490" y="388" font-size="16" fill="#222222">capital per capita  k</text>
   <text x="18" y="52" font-size="16" fill="#222222">output</text>
 
   <!-- production function f(k) -->

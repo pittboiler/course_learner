@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="34" y="24" fill="#8a8a8a" font-style="italic">A defensible number: total variance is mostly sampling (left) and the method must pass every figure of merit (right).</text>
+  <text x="34" y="24" fill="#8a8a8a" font-style="italic">A defensible number: variance is mostly sampling; every merit figure must pass.</text>
 
   <!-- ===== left: stacked variance bar ===== -->
   <!-- y-axis -->

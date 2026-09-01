@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Flux Φ hits a slab of targets, each an effective disk of area σ; a detector of solid angle ΔΩ counts what scatters into it.</text>
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Flux Φ hits targets of area σ; a detector of solid angle ΔΩ counts what scatters in.</text>
 
   <!-- ===== beam (blue flux arrows) ===== -->
   <text x="46" y="70" fill="#8a8a8a">beam, flux Φ</text>

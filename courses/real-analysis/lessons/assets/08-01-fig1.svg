@@ -36,5 +36,5 @@
   <text x="150" y="290" fill="#e0645c">limit f: 0 on [0,1), then 1</text>
 
   <!-- caption -->
-  <text x="80" y="24" fill="#8a8a8a" font-style="italic">Every x&#8322;&lt;1 slides to 0, but each curve pokes out of the &#949;-tube near x=1 &#8212; no single N works.</text>
+  <text x="80" y="24" fill="#8a8a8a" font-style="italic">Each curve pokes out of the ε-tube near x=1 — no single N works.</text>
 </svg>

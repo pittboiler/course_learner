@@ -1,6 +1,6 @@
 <svg viewBox="0 0 720 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Tally the conserved quantities on each side, then follow the flow: hard laws decide allowed/forbidden; ΔS picks the force.</text>
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Tally the conserved quantities, then follow the flow: hard laws decide, ΔS picks the force.</text>
 
   <!-- ===== left: tally panel ===== -->
   <rect x="30" y="42" width="250" height="222" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>

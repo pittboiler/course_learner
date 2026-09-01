@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Concentration push vs electrical pull balance at each ion's Nernst voltage; V_m sits near V_K and slides toward V_Na as Na⁺ channels open.</text>
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Concentration push and electrical pull balance at each ion's Nernst voltage.</text>
 
   <!-- ===== left: membrane with ion gradients ===== -->
 

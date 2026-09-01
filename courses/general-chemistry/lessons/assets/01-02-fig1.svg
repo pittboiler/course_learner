@@ -1,7 +1,7 @@
 <svg viewBox="0 0 480 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
   <!-- caption -->
-  <text x="24" y="20" fill="#8a8a8a" font-style="italic">The table IS the filling order: read left&#8594;right, top&#8594;bottom to get 1s 2s 2p 3s 3p 4s 3d 4p&#8230;</text>
-  <text x="24" y="36" fill="#8a8a8a" font-style="italic">Each block names the subshell being filled. Period = highest n. Group = valence-electron count.</text>
+  <text x="24" y="20" fill="#8a8a8a" font-style="italic">The table IS the filling order: 1s 2s 2p 3s 3p 4s 3d 4p…</text>
+  <text x="24" y="36" fill="#8a8a8a" font-style="italic">Each block names the subshell filled. Period = n, group = valence.</text>
 
   <!-- group numbers (top) -->
   <text x="47"  y="52" fill="#8a8a8a" font-size="11">1</text>

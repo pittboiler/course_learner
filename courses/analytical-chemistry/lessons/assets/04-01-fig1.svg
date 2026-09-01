@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" font-family="Helvetica, Arial, sans-serif">
-  <text x="20" y="22" font-size="13" font-style="italic" fill="#8a8a8a">A chromatogram: two Gaussian peaks with dead time, retention times, widths &amp; resolution — plus the van Deemter H&#8211;u curve (inset).</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 732 360" font-family="Helvetica, Arial, sans-serif">
+  <text x="20" y="22" font-size="13" font-style="italic" fill="#8a8a8a">A chromatogram: two peaks with dead time, retention, widths and resolution (van Deemter inset).</text>
 
   <!-- ===== main chromatogram ===== -->
   <!-- axes -->

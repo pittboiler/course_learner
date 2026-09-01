@@ -7,7 +7,7 @@
   <!-- Axes -->
   <line x1="80" y1="360" x2="610" y2="360" stroke="#111111" stroke-width="2"/>
   <line x1="80" y1="360" x2="80" y2="45" stroke="#111111" stroke-width="2"/>
-  <text x="600" y="388" text-anchor="middle" font-size="14" fill="#111111">consumption next period  c'</text>
+  <text x="545" y="388" text-anchor="middle" font-size="14" fill="#111111">consumption next period  c'</text>
   <text x="40" y="52" text-anchor="middle" font-size="14" fill="#111111">m'</text>
   <text x="30" y="70" text-anchor="middle" font-size="12" fill="#555555">high</text>
   <text x="30" y="352" text-anchor="middle" font-size="12" fill="#555555">low</text>

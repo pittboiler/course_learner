@@ -1,6 +1,6 @@
 <svg viewBox="0 0 660 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13"><rect x="0" y="0" width="660" height="380" fill="#ffffff"/>
   <!-- caption -->
-  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Two crossing budget lines and the chosen bundles. Left: no conflict. Right: each choice is affordable when the other is picked &#8212; a Weak Axiom violation.</text>
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Two crossing budget lines. Left: no conflict. Right: a Weak Axiom violation.</text>
 
   <!-- ===================== LEFT PANEL: WARP HOLDS ===================== -->
   <text x="120" y="48" fill="#333" font-weight="bold">WARP holds</text>
@@ -56,6 +56,6 @@
   <circle cx="430" cy="187" r="5" fill="#d9663f"/>
   <text x="406" y="181" fill="#d9663f" font-weight="bold">x&#178;</text>
 
-  <text x="382" y="336" fill="#c0392b">x&#185; is affordable at p&#178;, and x&#178; is affordable at p&#185;.</text>
-  <text x="382" y="352" fill="#c0392b">Each is chosen over an affordable rival &#8212; impossible.</text>
+  <text x="382" y="336" fill="#c0392b">x¹ is affordable at p², x² at p¹.</text>
+  <text x="382" y="352" fill="#c0392b">Each is chosen over an affordable rival.</text>
 </svg>

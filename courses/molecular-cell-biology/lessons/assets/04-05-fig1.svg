@@ -75,7 +75,7 @@
     <text x="573" y="428" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#8a5a10" text-anchor="middle">remodeller (ATP)</text>
     <path d="M 630 424 L 674 424" stroke="#555" stroke-width="2" marker-end="url(#k4)"/>
     <text x="682" y="428" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#2e8b57">region opens</text>
-    <text x="384" y="466" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#2e8b57">engages its motif on the nucleosome surface &#8212; only this can start lowering the chromatin barrier</text>
+    <text x="384" y="466" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#2e8b57">engages its motif on the nucleosome surface — this starts lowering the barrier</text>
   </g>
   <defs>
     <marker id="k" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#2e8b57"/></marker>

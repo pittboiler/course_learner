@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" width="800" height="440" role="img" aria-label="Selection differential and muted response, a long-term selection plateau with a relaxed arm, and a LOD trace with a wide confidence interval">
-  <rect width="800" height="440" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 443" width="800" height="443" role="img" aria-label="Selection differential and muted response, a long-term selection plateau with a relaxed arm, and a LOD trace with a wide confidence interval">
+  <rect width="800" height="443" fill="#ffffff"/>
   <text x="14" y="22" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#111">R = h&#178;S: you get back only the additive fraction</text>
 
   <line x1="24" y1="180" x2="306" y2="180" stroke="#333" stroke-width="1.6"/>

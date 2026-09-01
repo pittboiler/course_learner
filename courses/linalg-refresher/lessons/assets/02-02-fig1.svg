@@ -50,5 +50,5 @@
   <text x="322" y="238" fill="#e0645c" text-anchor="middle" font-size="12">crushed &#8594; 0</text>
 
   <!-- caption -->
-  <text x="320" y="410" fill="#8a8a8a" text-anchor="middle" font-style="italic">A maps the row space one-to-one onto the column space (both dim r) and flattens the null space to 0; each box splits into &#8869; complements.</text>
+  <text x="320" y="410" fill="#8a8a8a" text-anchor="middle" font-style="italic">A maps the row space onto the column space (dim r) and kills the null space.</text>
 </svg>

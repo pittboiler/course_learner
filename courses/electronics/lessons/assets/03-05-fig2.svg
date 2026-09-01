@@ -1,5 +1,5 @@
 <svg viewBox="0 0 760 620" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
-  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Both topologies return the coral feedback resistor to the + input &#8212; that is what makes the feedback positive; only the input terminal differs.</text>
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Both topologies return the coral feedback resistor to the + input — only the input terminal differs.</text>
 
   <text x="20" y="52" fill="#8a8a8a">(a) non-inverting Schmitt trigger</text>
   <text x="410" y="52" fill="#8a8a8a">(b) inverting Schmitt trigger</text>

@@ -1,6 +1,6 @@
 <svg viewBox="0 0 520 370" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
   <rect x="0" y="0" width="520" height="370" fill="#ffffff"/>
-  <text x="260" y="28" font-size="15" fill="#111" text-anchor="middle">Relativity opens a gap of 2mc&#178; — enough energy to make a particle–antiparticle pair.</text>
+  <text x="260" y="28" font-size="15" fill="#111" text-anchor="middle">A gap of 2mc² — enough to make a particle–antiparticle pair.</text>
 
   <!-- energy axis -->
   <line x1="90" y1="50" x2="90" y2="345" stroke="#111" stroke-width="1.4"/>

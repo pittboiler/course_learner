@@ -1,7 +1,7 @@
 <svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
   <text x="30" y="26" fill="#8a8a8a" font-style="italic">Kepler's second law: the Sun–planet line sweeps equal areas in equal times —</text>
-  <text x="30" y="44" fill="#8a8a8a" font-style="italic">so the planet races near the Sun and dawdles far away. Both shaded wedges have equal area.</text>
+  <text x="30" y="44" fill="#8a8a8a" font-style="italic">so the planet races near the Sun and dawdles far away — equal areas.</text>
 
   <!-- orbit ellipse: center (280,190), rx 200, ry 130 -->
   <ellipse cx="280" cy="190" rx="200" ry="130" fill="none" stroke="#4a90d9" stroke-width="3"/>

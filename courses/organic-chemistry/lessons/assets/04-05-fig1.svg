@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Glucose cyclizes: its own C5&#8211;OH adds to the C1 aldehyde (a hemiacetal, from 3.3), making the anomeric carbon &#8212; new stereocenter, &#945;/&#946;.</text>
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">Glucose cyclizes: C5–OH adds to the C1 aldehyde, making the anomeric carbon (α/β).</text>
 
   <!-- ================= LEFT: open-chain Fischer ================= -->
   <text x="60" y="52" fill="#8a8a8a" font-style="italic" font-size="12">open chain</text>

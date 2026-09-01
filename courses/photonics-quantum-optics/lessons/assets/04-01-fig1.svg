@@ -1,6 +1,6 @@
 <svg viewBox="0 0 620 410" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="30" y="22" fill="#8a8a8a" font-style="italic">One photon in each port: the two ways to get a coincidence interfere away, so the photons leave together.</text>
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">One photon in each port: the two coincidence paths interfere away.</text>
 
   <!-- ===== TOP: beam-splitter schematic ===== -->
 

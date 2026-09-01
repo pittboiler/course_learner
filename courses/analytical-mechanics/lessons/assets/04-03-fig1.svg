@@ -1,6 +1,6 @@
 <svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13"><rect x="0" y="0" width="560" height="350" fill="#ffffff"/>
   <!-- ============ SYMMETRIC MODE (row 1) ============ -->
-  <text x="45" y="30" fill="#8a8a8a" font-style="italic">Symmetric mode: masses move in phase — middle spring never stretches — lower frequency</text>
+  <text x="45" y="30" fill="#8a8a8a" font-style="italic">Symmetric mode: masses in phase — middle spring never stretches — lower ω</text>
 
   <!-- left wall -->
   <line x1="45" y1="72" x2="45" y2="118" stroke="#555" stroke-width="3"/>
@@ -34,7 +34,7 @@
   <text x="430" y="66" fill="#4a90d9">&#969;&#8321; = &#8730;(k/m)</text>
 
   <!-- ============ ANTISYMMETRIC MODE (row 2) ============ -->
-  <text x="45" y="200" fill="#8a8a8a" font-style="italic">Antisymmetric mode: masses move out of phase — middle spring stretches hard — higher frequency</text>
+  <text x="45" y="200" fill="#8a8a8a" font-style="italic">Antisymmetric: masses out of phase — middle spring stretches — higher ω</text>
 
   <!-- left wall -->
   <line x1="45" y1="232" x2="45" y2="278" stroke="#555" stroke-width="3"/>
@@ -68,5 +68,5 @@
   <text x="430" y="226" fill="#e0645c">&#969;&#8322; = &#8730;(3k/m)</text>
 
   <!-- caption -->
-  <text x="45" y="325" fill="#8a8a8a" font-style="italic">Two masses m, three identical springs k (wall&#8211;m&#8211;m&#8211;wall). Any motion is a mix of these two normal modes.</text>
+  <text x="45" y="325" fill="#8a8a8a" font-style="italic">Two masses m, three springs k. Any motion mixes these two normal modes.</text>
 </svg>

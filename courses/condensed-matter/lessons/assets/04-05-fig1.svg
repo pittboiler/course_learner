@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="24" fill="#8a8a8a" font-style="italic">p–n junction at equilibrium: bands bend across the depletion layer; E_F stays flat; the offset is eV_bi.</text>
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">p–n junction at equilibrium: bands bend across the depletion layer; E_F stays flat.</text>
 
   <!-- depletion region shading -->
   <rect x="250" y="45" width="140" height="255" fill="#e0645c" opacity="0.15"/>

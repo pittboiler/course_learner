@@ -1,4 +1,4 @@
-<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+<svg viewBox="0 0 577 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- Increasing f on [a,b], partitioned into 4 pieces.
        Lower rectangles reach the inf (left-endpoint value, blue);
        the red band on top of each is the extra the upper sum adds
@@ -35,7 +35,7 @@
 
   <!-- the curve y = f(x), increasing, through the partition-point heights -->
   <path d="M 100 240 C 150 222, 165 212, 200 200 C 245 184, 265 168, 300 150 C 340 130, 365 122, 400 110 C 440 96, 465 87, 500 80"
-        fill="none" stroke="#333333" stroke-width="3"/>
+        fill="none" stroke="#8a8a8a" stroke-width="3"/>
 
   <!-- partition tick labels -->
   <text x="94"  y="320" fill="#8a8a8a">a</text>

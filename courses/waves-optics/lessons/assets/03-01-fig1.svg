@@ -9,7 +9,7 @@
   </defs>
 
   <!-- caption -->
-  <text x="40" y="24" fill="#8a8a8a" font-style="italic">One ray hits a boundary: it reflects (θ₁ = θ_r) and refracts toward the normal into the denser medium.</text>
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">One ray at a boundary: it reflects (θ₁ = θ_r) and refracts toward the normal.</text>
 
   <!-- denser medium shading (lower half) -->
   <rect x="60" y="180" width="500" height="140" fill="#e0645c" opacity="0.15"/>

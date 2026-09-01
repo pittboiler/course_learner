@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 370" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
   <!-- caption -->
-  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Fusing light nuclei climbs the binding&#8211;energy&#8211;per&#8211;nucleon curve; D + T lands on the deep &#8308;He well and pays out &#8776;17.6 MeV.</text>
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Fusing light nuclei climbs the binding-energy curve; D + T pays out ≈17.6 MeV.</text>
 
   <!-- ===== axes ===== -->
   <line x1="100" y1="310" x2="612" y2="310" stroke="#8a8a8a" stroke-width="1.5"/>

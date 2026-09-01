@@ -47,13 +47,13 @@
   <!-- legend -->
   <g font-size="15" fill="#1a1a1a">
     <text x="360" y="70"  font-weight="bold">The 8 elements of D₄</text>
-    <text x="360" y="100" fill="#2471a3">Rotations (order n = 4):</text>
+    <text x="360" y="100" fill="#2471a3">Rotations (n = 4):</text>
     <text x="372" y="124">e ,  r ,  r² ,  r³</text>
     <text x="360" y="158" fill="#c0392b">Reflections (order 2):</text>
     <text x="372" y="182">s ,  rs ,  r²s ,  r³s</text>
     <text x="360" y="222" font-size="13.5">Each of the 4 dashed lines</text>
     <text x="360" y="242" font-size="13.5">is a reflection axis; the 4</text>
-    <text x="360" y="262" font-size="13.5">rotations are 0°, 90°, 180°, 270°.</text>
+    <text x="360" y="262" font-size="13.5">0°, 90°, 180°, 270°.</text>
     <text x="360" y="296" font-size="13.5" font-weight="bold">|D₄| = 2·4 = 8</text>
   </g>
 </svg>

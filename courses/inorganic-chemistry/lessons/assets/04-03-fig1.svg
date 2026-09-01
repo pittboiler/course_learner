@@ -1,7 +1,7 @@
 <svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="30" y="24" fill="#8a8a8a" font-style="italic">The heme active site (edge-on): Fe in an N4 porphyrin plane, proximal His below, the 6th site open for O&#8322;.</text>
-  <text x="30" y="42" fill="#8a8a8a" font-style="italic">Binding O&#8322; pulls the iron from out-of-plane (high-spin) into the plane (low-spin) &#8212; the trigger of cooperativity.</text>
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">The heme site edge-on: Fe in the N4 plane, proximal His below, 6th site open for O₂.</text>
+  <text x="30" y="42" fill="#8a8a8a" font-style="italic">Binding O₂ pulls the iron into the plane — the trigger of cooperativity.</text>
 
   <!-- =================== LEFT: DEOXY =================== -->
   <text x="70" y="78" fill="#8a8a8a">deoxy &#8212; 6th site empty</text>

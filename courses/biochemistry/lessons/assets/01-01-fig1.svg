@@ -1,6 +1,6 @@
 <svg viewBox="0 0 620 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Titrating acetic acid: near the half&#8211;equivalence point the pH barely moves &#8212; that flat zone is the buffer, centered on pH = pKa.</text>
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Titrating acetic acid: the flat zone is the buffer, centered on pH = pKa.</text>
 
   <!-- buffering-region band (behind curve) -->
   <rect x="166" y="220" width="171" height="34" fill="#e0645c" opacity="0.13"/>

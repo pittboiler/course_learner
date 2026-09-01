@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="24" y="22" fill="#8a8a8a" font-style="italic">A galvanic cell: redox split in two &#8212; electrons flow anode &#8594; cathode through the wire, ions through the salt bridge.</text>
+  <text x="24" y="22" fill="#8a8a8a" font-style="italic">A galvanic cell: electrons flow anode → cathode, ions through the salt bridge.</text>
 
   <!-- ===== wire (top) with voltmeter ===== -->
   <line x1="150" y1="95" x2="150" y2="60" stroke="#8a8a8a" stroke-width="2"/>

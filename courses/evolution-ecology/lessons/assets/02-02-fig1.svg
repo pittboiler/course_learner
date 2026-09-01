@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" width="800" height="440" role="img" aria-label="Four geographic modes of speciation and a genome scan showing islands of divergence with an inversion">
-  <rect width="800" height="440" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 445" width="800" height="445" role="img" aria-label="Four geographic modes of speciation and a genome scan showing islands of divergence with an inversion">
+  <rect width="800" height="445" fill="#ffffff"/>
   <text x="14" y="22" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#111">Ranked by how much gene flow divergence must beat</text>
 
   <g font-family="Helvetica,Arial,sans-serif" font-size="10.5">
@@ -48,6 +48,6 @@
   <text x="442" y="110" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#333">Local selection must exceed the migration rate,</text>
   <text x="442" y="126" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#333">or the locally adapted allele is swamped.</text>
   <text x="442" y="150" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="bold" fill="#6a4c93">Inside an inversion the block needs only &#8721;s_i &gt; m</text>
-  <text x="430" y="440" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#d1495b">Caution: a WIDE divergent region is evidence of suppressed recombination, not of many selected sites.</text>
+  <text x="430" y="440" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#d1495b">A WIDE divergent region means suppressed recombination.</text>
   <defs><marker id="y" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#c9871f"/></marker></defs>
 </svg>

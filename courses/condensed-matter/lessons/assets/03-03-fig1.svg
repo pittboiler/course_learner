@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="22" fill="#8a8a8a" font-style="italic">A Bloch state ψ = e^{ikx} u(x): a plane wave (coral envelope, wavevector k) dressed by a lattice-periodic u(x) that repeats with the ions.</text>
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Bloch state ψ = e^{ikx}u(x): a plane wave (coral) dressed by lattice-periodic u(x).</text>
 
   <!-- baseline for the wavefunction -->
   <line x1="52" y1="150" x2="612" y2="150" stroke="#8a8a8a" stroke-width="1"/>
@@ -41,5 +41,5 @@
   <polygon points="90,348 99,344 99,352" fill="#8a8a8a"/>
   <polygon points="150,348 141,344 141,352" fill="#8a8a8a"/>
   <text x="114" y="364" fill="#8a8a8a">a</text>
-  <text x="360" y="364" fill="#8a8a8a" font-style="italic">V(x + a) = V(x): the lattice repeats, and so does u(x).</text>
+  <text x="360" y="364" fill="#8a8a8a" font-style="italic">V(x + a) = V(x), so u(x) repeats too.</text>
 </svg>

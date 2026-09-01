@@ -1,6 +1,6 @@
-<svg viewBox="0 0 620 470" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+<svg viewBox="0 0 645 470" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="30" y="24" fill="#8a8a8a" font-style="italic">The reduction ladder: everything is measured against the SHE at 0 V. The higher couple is the cathode; the lower one is forced to run backward as the anode.</text>
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">The reduction ladder, all against the SHE at 0 V: the higher couple is the cathode.</text>
 
   <!-- ===== vertical E-degree axis ===== -->
   <line x1="140" y1="48" x2="140" y2="418" stroke="#8a8a8a" stroke-width="1.5"/>

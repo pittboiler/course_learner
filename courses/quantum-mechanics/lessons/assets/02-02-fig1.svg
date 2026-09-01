@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" font-family="sans-serif">
   <rect x="0" y="0" width="640" height="300" fill="#ffffff"/>
-  <text x="320" y="24" font-size="16" fill="#222222" text-anchor="middle">Two-state superposition &#936; = (&#966;&#8321;+&#966;&#8322;)/&#8730;2 in a well: |&#936;|&#178; sloshes as the phases desynchronize</text>
+  <text x="320" y="24" font-size="16" fill="#222222" text-anchor="middle">Two-state superposition Ψ = (φ₁+φ₂)/√2: |Ψ|² sloshes as phases desync</text>
 
   <!-- ===== Panel 1: t = 0 ===== -->
   <text x="110" y="52" font-size="14" fill="#1a3c5e" text-anchor="middle">t = 0   (cos&#969;t = +1)</text>
@@ -41,5 +41,5 @@
 
   <!-- caption -->
   <text x="320" y="240" font-size="13.5" fill="#555555" text-anchor="middle">Each &#966;&#8345; alone has a frozen |&#966;&#8345;|&#178;. Together, the cross term rides cos(&#969;t) with &#969; = (E&#8322;&#8722;E&#8321;)/&#295;,</text>
-  <text x="320" y="260" font-size="13.5" fill="#555555" text-anchor="middle">so the blob &#8212; and &#10216;x&#10217; &#8212; oscillates left&#8596;right at the beat frequency set by the energy gap. Period T = 2&#960;&#295;/(E&#8322;&#8722;E&#8321;).</text>
+  <text x="320" y="260" font-size="13.5" fill="#555555" text-anchor="middle">so ⟨x⟩ oscillates left↔right at the beat frequency: T = 2πħ/(E₂−E₁).</text>
 </svg>

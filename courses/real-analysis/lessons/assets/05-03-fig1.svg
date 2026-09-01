@@ -35,6 +35,6 @@
   <text x="496" y="318" fill="#8a8a8a">b</text>
 
   <!-- caption -->
-  <text x="80" y="42" fill="#8a8a8a" font-style="italic">Starting below &#947; and ending above it, an unbroken curve must cross &#947; — at some c.</text>
+  <text x="80" y="42" fill="#8a8a8a" font-style="italic">Starting below γ and ending above, the curve must cross at some c.</text>
   <text x="330" y="162" fill="#e0645c">f(c) = &#947;</text>
 </svg>

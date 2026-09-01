@@ -1,7 +1,7 @@
-<svg viewBox="0 0 620 370" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+<svg viewBox="0 0 625 370" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
   <text x="40" y="24" fill="#8a8a8a" font-style="italic">Assembly reactivity falls linearly, hitting zero at the single-batch burnup B&#8321;.</text>
-  <text x="40" y="42" fill="#8a8a8a" font-style="italic">Staggering n batches lets the oldest reach B&#8345; = 2n/(n+1)&#183;B&#8321; while the batch-average stays critical.</text>
+  <text x="40" y="42" fill="#8a8a8a" font-style="italic">Staggering n batches lets the oldest reach Bₙ = 2n/(n+1)·B₁, average critical.</text>
 
   <!-- axes -->
   <line x1="70" y1="220" x2="580" y2="220" stroke="#8a8a8a" stroke-width="1.5"/>
@@ -53,5 +53,5 @@
   <text x="120" y="176" fill="#e0645c">fresh batch</text>
   <text x="330" y="200" fill="#e0645c">avg &#961; = 0 &#8658; critical</text>
   <text x="452" y="294" fill="#e0645c">discharge B&#8323; = 22.5</text>
-  <text x="40" y="360" fill="#8a8a8a" font-style="italic">Coral dots: the three batches of a 3-batch core at end-of-cycle (B&#8321; = 15). Their average sits exactly at &#961; = 0.</text>
+  <text x="40" y="360" fill="#8a8a8a" font-style="italic">Coral dots: the three batches at end-of-cycle; their average sits at ρ = 0.</text>
 </svg>

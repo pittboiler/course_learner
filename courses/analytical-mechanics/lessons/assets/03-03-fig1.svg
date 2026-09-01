@@ -1,4 +1,4 @@
-<svg viewBox="0 0 560 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+<svg viewBox="0 0 574 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- ================= LEFT PANEL: fundamental-bracket table ================= -->
   <text x="30" y="34" fill="#8a8a8a" font-style="italic">The fundamental brackets — the symplectic skeleton</text>
 
@@ -16,8 +16,8 @@
 
   <!-- entries: {q,q}=0, {q,p}=+delta, {p,q}=-delta, {p,p}=0 -->
   <text x="120" y="118" fill="#8a8a8a" text-anchor="middle">0</text>
-  <text x="196" y="118" fill="#333333" text-anchor="middle">+&#948;&#8347;&#8355;</text>
-  <text x="120" y="176" fill="#333333" text-anchor="middle">&#8722;&#948;&#8347;&#8355;</text>
+  <text x="196" y="118" fill="#8a8a8a" text-anchor="middle">+&#948;&#8347;&#8355;</text>
+  <text x="120" y="176" fill="#8a8a8a" text-anchor="middle">&#8722;&#948;&#8347;&#8355;</text>
   <text x="196" y="176" fill="#8a8a8a" text-anchor="middle">0</text>
 
   <text x="30" y="228" fill="#8a8a8a" font-size="13">entry (i,j) = { row , column }</text>
@@ -42,7 +42,7 @@
   <rect x="474" y="86" width="70" height="48" rx="6" fill="#e0645c" opacity="0.12" stroke="#e0645c" stroke-width="2"/>
   <text x="509" y="116" fill="#e0645c" text-anchor="middle" font-size="16">df/dt</text>
 
-  <text x="330" y="168" fill="#333333">df/dt = {&#8201;f , H&#8201;} + &#8706;f/&#8706;t</text>
+  <text x="330" y="168" fill="#8a8a8a">df/dt = {&#8201;f , H&#8201;} + &#8706;f/&#8706;t</text>
   <text x="330" y="192" fill="#8a8a8a" font-size="13">{&#8201;f , H&#8201;} = 0  &#8658;  f is conserved.</text>
   <text x="330" y="214" fill="#8a8a8a" font-size="13">q, p are just the special cases f = q, f = p.</text>
 

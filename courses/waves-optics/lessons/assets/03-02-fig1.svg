@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Concave mirror, object beyond C: two principal rays cross in front of the mirror at a real, inverted, reduced image.</text>
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Concave mirror, object beyond C: the rays cross at a real, inverted, reduced image.</text>
 
   <!-- principal axis -->
   <line x1="60" y1="180" x2="612" y2="180" stroke="#8a8a8a" stroke-width="1.5"/>

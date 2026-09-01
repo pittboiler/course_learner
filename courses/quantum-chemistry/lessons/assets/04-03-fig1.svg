@@ -1,6 +1,6 @@
-<svg viewBox="0 0 640 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+<svg viewBox="0 0 644 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
   <!-- caption -->
-  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Promote an electron across the gap (left); each excited state becomes a stick in the predicted spectrum, height = oscillator strength (right).</text>
+  <text x="30" y="22" fill="#8a8a8a" font-style="italic">Promote an electron across the gap (left); each excited state becomes a stick (right).</text>
 
   <!-- =========== left: MO energy-level diagram =========== -->
   <!-- energy axis -->

@@ -1,5 +1,5 @@
-<svg viewBox="0 0 620 360" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
-<rect x="0" y="0" width="620" height="360" fill="#ffffff"/>
+<svg viewBox="0 0 647 360" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+<rect x="0" y="0" width="647" height="360" fill="#ffffff"/>
 <text x="310" y="26" font-size="15" fill="#111" text-anchor="middle">Ornstein&#8211;Uhlenbeck: noise pulls, mean-reversion tugs back to &#956;.</text>
 <line x1="60" y1="184.4" x2="580" y2="184.4" stroke="#c0392b" stroke-width="1.4" stroke-dasharray="6,4"/>
 <text x="588" y="188.4" font-size="13" fill="#c0392b">&#956; (mean)</text>

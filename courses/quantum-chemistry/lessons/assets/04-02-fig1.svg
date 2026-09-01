@@ -1,6 +1,6 @@
 <svg viewBox="0 0 680 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
   <!-- theme-safe: grey #8a8a8a structure, blue #4a90d9 harmonic, coral #e0645c Morse/anharmonic -->
-  <text x="24" y="26" fill="#8a8a8a" font-size="13" font-style="italic">Harmonic (blue) vs real Morse (coral) potential: harmonic levels are evenly spaced and sit too high; real levels converge and lie lower.</text>
+  <text x="24" y="26" fill="#8a8a8a" font-size="13" font-style="italic">Harmonic (blue) vs Morse (coral): harmonic levels are evenly spaced and sit too high.</text>
 
   <!-- ================= LEFT PANEL: potential wells ================= -->
   <!-- axes -->

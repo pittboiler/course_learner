@@ -1,5 +1,5 @@
 <svg viewBox="0 0 660 318" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
-  <text x="80" y="24" fill="#8a8a8a" font-style="italic" font-size="13">Each closed-loop gain line cuts the open-loop rolloff at that circuit's bandwidth &#8212; gain &#215; bandwidth is always 1 MHz.</text>
+  <text x="80" y="24" fill="#8a8a8a" font-style="italic" font-size="13">Each closed-loop gain line cuts the rolloff at its bandwidth — gain × BW = 1 MHz.</text>
 
   <!-- axes -->
   <line x1="80" y1="265" x2="620" y2="265" stroke="#8a8a8a" stroke-width="1.5"/>

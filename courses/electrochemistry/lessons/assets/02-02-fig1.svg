@@ -1,5 +1,5 @@
 <svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
-  <text x="40" y="24" fill="#8a8a8a" font-style="italic">At E_eq the barriers match, so forward and back rates are equal (that common rate is j0). An overpotential &#951; tilts the curve, lowering one barrier by &#945;F&#951;.</text>
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">At E_eq the barriers match (that rate is j0); an overpotential η lowers one by αFη.</text>
 
   <!-- axes -->
   <line x1="70" y1="345" x2="612" y2="345" stroke="#8a8a8a" stroke-width="1.5"/>

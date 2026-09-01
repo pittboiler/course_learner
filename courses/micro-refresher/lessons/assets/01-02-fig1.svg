@@ -1,6 +1,6 @@
-<svg viewBox="0 0 560 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+<svg viewBox="0 0 568 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="72" y="34" fill="#8a8a8a" font-style="italic">The optimum: the budget line just touches the highest reachable indifference curve.</text>
+  <text x="72" y="34" fill="#8a8a8a" font-style="italic">The optimum: the budget line just touches the highest reachable curve.</text>
 
   <!-- unattainable indifference curve (x1 x2 = 36) -->
   <path d="M 180 40 L 220 102 L 260 141.6 L 300 168 L 340 186.9 L 380 201 L 420 212 L 460 220.7"
@@ -18,8 +18,8 @@
   <text x="392" y="243" fill="#e0645c">u* = 25</text>
 
   <!-- budget line: p1 x1 + p2 x2 = w -->
-  <line x1="60" y1="80" x2="460" y2="300" stroke="#555555" stroke-width="2.5"/>
-  <text x="86" y="72" fill="#555555">budget:  p·x = w</text>
+  <line x1="60" y1="80" x2="460" y2="300" stroke="#8a8a8a" stroke-width="2.5"/>
+  <text x="86" y="72" fill="#8a8a8a">budget:  p·x = w</text>
 
   <!-- axes -->
   <line x1="30" y1="300" x2="540" y2="300" stroke="#8a8a8a" stroke-width="1.5"/>
@@ -39,6 +39,6 @@
   <circle cx="260" cy="190" r="5" fill="#e0645c"/>
 
   <!-- tangency annotation -->
-  <text x="272" y="176" fill="#333333">MRS = p₁/p₂</text>
-  <line x1="300" y1="180" x2="268" y2="188" stroke="#333333" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="272" y="176" fill="#8a8a8a">MRS = p₁/p₂</text>
+  <line x1="300" y1="180" x2="268" y2="188" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 3"/>
 </svg>

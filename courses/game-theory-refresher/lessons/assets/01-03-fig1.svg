@@ -1,6 +1,6 @@
 <svg viewBox="0 0 480 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="90" y="20" fill="#8a8a8a" font-style="italic">Two step-shaped best responses in mixing space cross once, in the interior.</text>
+  <text x="90" y="20" fill="#8a8a8a" font-style="italic">Two step best responses cross once, in the interior.</text>
 
   <!-- unit-square boundary -->
   <rect x="90" y="40" width="300" height="270" fill="none" stroke="#c9c9c9" stroke-width="1" stroke-dasharray="2 4"/>

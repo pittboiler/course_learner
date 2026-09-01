@@ -56,5 +56,5 @@
   <text x="400" y="252" fill="#111111" font-size="14">Chain complex:</text>
   <text x="400" y="278" fill="#111111" font-size="16">0 → ℤ⟨f⟩ —0→ ℤ²⟨a,b⟩ —0→ ℤ⟨v⟩ → 0</text>
   <text x="400" y="308" fill="#111111" font-size="14">H₀ = ℤ,   H₁ = ℤ²,   H₂ = ℤ.</text>
-  <text x="400" y="330" fill="#555555" font-size="12">Contrast RP²: there a is traversed twice the SAME way → deg 2, no cancellation.</text>
+  <text x="400" y="330" fill="#555555" font-size="12">In RP², a runs twice the SAME way → deg 2.</text>
 </svg>

@@ -1,6 +1,6 @@
 <svg viewBox="0 0 680 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
   <!-- caption -->
-  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Electrons (blue) fall from NADH to O2 through I&#8211;IV; that energy pumps H+ (coral) out; ATP synthase lets them back in.</text>
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Electrons (blue) fall from NADH to O2 through I–IV, pumping H+ (coral) out for ATP synthase.</text>
 
   <!-- ===== compartment labels ===== -->
   <text x="20" y="52" fill="#e0645c">Intermembrane space &#8212; high H+ (positive)</text>

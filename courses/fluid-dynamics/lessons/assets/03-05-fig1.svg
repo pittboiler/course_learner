@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="20" y="22" fill="#8a8a8a" font-style="italic">A bluff body: the boundary layer separates past the widest point, leaving a low-pressure wake. Streamlining shrinks it.</text>
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">A bluff body: the boundary layer separates past the widest point, leaving a wake.</text>
 
   <!-- ===================== TOP: bluff cylinder ===================== -->
 
@@ -72,5 +72,5 @@
   <!-- separation delayed to the tail tip (coral dot) -->
   <circle cx="372" cy="270" r="4" fill="#e0645c"/>
   <text x="386" y="274" fill="#e0645c">tiny wake</text>
-  <text x="180" y="330" fill="#8a8a8a" font-style="italic">streamlined: the gentle taper keeps the boundary layer attached, so form drag is small.</text>
+  <text x="180" y="330" fill="#8a8a8a" font-style="italic">streamlined: the taper keeps the layer attached, so form drag is small.</text>
 </svg>

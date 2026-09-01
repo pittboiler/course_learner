@@ -35,5 +35,5 @@
   <!-- legend -->
   <text x="300" y="70"  fill="#4a90d9">real roots r₁,r₂ &lt; 0 · pure decay</text>
   <text x="300" y="92"  fill="#4f9d69">repeated root r &lt; 0 · critical: (c₁+c₂t)eʳᵗ</text>
-  <text x="300" y="114" fill="#e0645c">complex α±iβ · decaying oscillation eᵅᵗcos βt</text>
+  <text x="300" y="114" fill="#e0645c">complex α±iβ · decaying eᵅᵗcos βt</text>
 </svg>

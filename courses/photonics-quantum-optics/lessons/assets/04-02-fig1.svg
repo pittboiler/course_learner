@@ -1,6 +1,6 @@
 <svg viewBox="0 0 680 430" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Jaynes&#8211;Cummings ladder: each degenerate pair {|e,n&#10217;, |g,n+1&#10217;} splits into a dressed doublet by 2g&#8730;(n+1).</text>
+  <text x="40" y="22" fill="#8a8a8a" font-style="italic">Jaynes–Cummings ladder: each pair {|e,n⟩, |g,n+1⟩} splits by 2g√(n+1).</text>
 
   <!-- energy axis -->
   <line x1="42" y1="405" x2="42" y2="58" stroke="#8a8a8a" stroke-width="1.5"/>
@@ -67,5 +67,5 @@
   <path d="M 560 95 L 574 108.2 L 588 140 L 602 171.8 L 616 185 L 630 171.8 L 644 140 L 658 108.2 L 672 95"
         fill="none" stroke="#4a90d9" stroke-width="2.5"/>
   <line x1="616" y1="185" x2="616" y2="197" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 3"/>
-  <text x="596" y="211" fill="#e0645c" font-size="11">|g,1&#10217; (photon in cavity)</text>
+  <text x="560" y="211" fill="#e0645c" font-size="11">|g,1&#10217; (photon in cavity)</text>
 </svg>

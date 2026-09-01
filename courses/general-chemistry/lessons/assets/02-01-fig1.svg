@@ -1,6 +1,6 @@
 <svg viewBox="0 0 640 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
   <!-- caption -->
-  <text x="30" y="24" fill="#8a8a8a" font-style="italic">The mole is the hub: everything routes through it. Multiply or divide by M and N&#8320; to move between grams, moles, and countable particles.</text>
+  <text x="30" y="24" fill="#8a8a8a" font-style="italic">The mole is the hub: M and N₀ move you between grams, moles, and particles.</text>
 
   <!-- ===== nodes ===== -->
   <!-- Mass node (blue) -->
