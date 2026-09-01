@@ -1,0 +1,66 @@
+<svg viewBox="0 0 770 420" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="11.5">
+  <text x="20.0" y="20.0" fill="#8a8a8a" font-size="11">No sample, no date &#8212; but the ORDER of events is written in what cuts, buries or overlies what.</text>
+  <rect x="30.0" y="42.0" width="470.0" height="300.0" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="265.0" y="60.0" fill="#8a8a8a" font-size="11" text-anchor="middle">a synthetic scene</text>
+  <rect x="32.0" y="70.0" width="466.0" height="270.0" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="0" opacity="0.07"/>
+  <circle cx="70.0" cy="110.0" r="17.0" fill="none" stroke="#8a8a8a" stroke-width="1.3"/>
+  <circle cx="120.0" cy="150.0" r="11.0" fill="none" stroke="#8a8a8a" stroke-width="1.3"/>
+  <circle cx="90.0" cy="200.0" r="13.0" fill="none" stroke="#8a8a8a" stroke-width="1.3"/>
+  <circle cx="150.0" cy="105.0" r="9.0" fill="none" stroke="#8a8a8a" stroke-width="1.3"/>
+  <circle cx="60.0" cy="260.0" r="10.0" fill="none" stroke="#8a8a8a" stroke-width="1.3"/>
+  <circle cx="185.0" cy="190.0" r="8.0" fill="none" stroke="#8a8a8a" stroke-width="1.3"/>
+  <circle cx="115.0" cy="280.0" r="12.0" fill="none" stroke="#8a8a8a" stroke-width="1.3"/>
+  <circle cx="160.0" cy="250.0" r="9.0" fill="none" stroke="#8a8a8a" stroke-width="1.3"/>
+  <circle cx="215.0" cy="120.0" r="7.0" fill="none" stroke="#8a8a8a" stroke-width="1.3"/>
+  <text x="60.0" y="88.0" fill="#8a8a8a" font-size="10">1  old cratered highland</text>
+  <path d="M 250,70 L 498,70 L 498,250 L 300,250 C 270,215 250,150 250,70 Z" fill="#e0645c" stroke="#e0645c" stroke-width="1.6" opacity="0.13"/>
+  <circle cx="340.0" cy="110.0" r="9.0" fill="none" stroke="#e0645c" stroke-width="1.2"/>
+  <circle cx="430.0" cy="160.0" r="7.0" fill="none" stroke="#e0645c" stroke-width="1.2"/>
+  <circle cx="380.0" cy="205.0" r="6.0" fill="none" stroke="#e0645c" stroke-width="1.2"/>
+  <text x="300.0" y="90.0" fill="#e0645c" font-size="10">2  lava plain &#8212; buries the craters</text>
+  <text x="300.0" y="104.0" fill="#e0645c" font-size="10">and has few of its own</text>
+  <path d="M 232,168 A 22,22 0 1 1 268,186" fill="none" stroke="#8a8a8a" stroke-width="1.6"/>
+  <text x="196.0" y="176.0" fill="#8a8a8a" font-size="10" text-anchor="end">partly buried crater</text>
+  <line x1="200.0" y1="180.0" x2="231.0" y2="180.0" stroke="#8a8a8a" stroke-width="1.1"/>
+  <polygon points="236.0,180.0 231.0,182.2 231.0,177.8" fill="#8a8a8a"/>
+  <path d="M 60.0,330.0 L 180.0,300.0 L 320.0,286.0 L 470.0,300.0" fill="none" stroke="#4a90d9" stroke-width="2.4"/>
+  <text x="300.0" y="272.0" fill="#4a90d9" font-size="10">3  fault &#8212; cuts the lava, so it is younger</text>
+  <path d="M 430.0,72.0 L 424.0,120.0 L 444.0,170.0 L 432.0,230.0" fill="none" stroke="#4a90d9" stroke-width="1.8" stroke-dasharray="6 4"/>
+  <text x="452.0" y="120.0" fill="#4a90d9" font-size="10">4  channel</text>
+  <text x="452.0" y="134.0" fill="#4a90d9" font-size="10">incised into</text>
+  <text x="452.0" y="148.0" fill="#4a90d9" font-size="10">the lava</text>
+  <circle cx="200.0" cy="315.0" r="15.0" fill="none" stroke="#e0645c" stroke-width="2.0"/>
+  <line x1="216.0" y1="315.0" x2="225.0" y2="315.0" stroke="#e0645c" stroke-width="1.0"/>
+  <line x1="213.9" y1="323.0" x2="221.7" y2="327.5" stroke="#e0645c" stroke-width="1.0"/>
+  <line x1="208.0" y1="328.9" x2="212.5" y2="336.7" stroke="#e0645c" stroke-width="1.0"/>
+  <line x1="200.0" y1="331.0" x2="200.0" y2="340.0" stroke="#e0645c" stroke-width="1.0"/>
+  <line x1="192.0" y1="328.9" x2="187.5" y2="336.7" stroke="#e0645c" stroke-width="1.0"/>
+  <line x1="186.1" y1="323.0" x2="178.3" y2="327.5" stroke="#e0645c" stroke-width="1.0"/>
+  <line x1="184.0" y1="315.0" x2="175.0" y2="315.0" stroke="#e0645c" stroke-width="1.0"/>
+  <line x1="186.1" y1="307.0" x2="178.3" y2="302.5" stroke="#e0645c" stroke-width="1.0"/>
+  <line x1="192.0" y1="301.1" x2="187.5" y2="293.3" stroke="#e0645c" stroke-width="1.0"/>
+  <line x1="200.0" y1="299.0" x2="200.0" y2="290.0" stroke="#e0645c" stroke-width="1.0"/>
+  <line x1="208.0" y1="301.1" x2="212.5" y2="293.3" stroke="#e0645c" stroke-width="1.0"/>
+  <line x1="213.9" y1="307.0" x2="221.7" y2="302.5" stroke="#e0645c" stroke-width="1.0"/>
+  <text x="200.0" y="352.0" fill="#e0645c" font-size="10" text-anchor="middle">5  fresh rayed crater &#8212; rays lie on top of everything</text>
+  <path d="M 70,250 q 20,-7 40,0 q 20,7 40,0 q 20,-7 40,0" fill="none" stroke="#4a90d9" stroke-width="1.2"/>
+  <path d="M 70,262 q 20,-7 40,0 q 20,7 40,0 q 20,-7 40,0" fill="none" stroke="#4a90d9" stroke-width="1.2"/>
+  <path d="M 70,274 q 20,-7 40,0 q 20,7 40,0 q 20,-7 40,0" fill="none" stroke="#4a90d9" stroke-width="1.2"/>
+  <text x="70.0" y="240.0" fill="#4a90d9" font-size="10">6  dunes &#8212; unconsolidated, mobile, youngest</text>
+  <text x="530.0" y="60.0" fill="#8a8a8a" font-size="11">the sequence that follows</text>
+  <text x="530.0" y="86.0" fill="#8a8a8a" font-size="10.5">1  cratered highland forms, then is bombarded</text>
+  <text x="530.0" y="105.0" fill="#8a8a8a" font-size="10.5">2  lava floods in, EMBAYING craters &#8212;</text>
+  <text x="530.0" y="124.0" fill="#8a8a8a" font-size="10.5">     so the lava is younger than they are</text>
+  <text x="530.0" y="143.0" fill="#8a8a8a" font-size="10.5">3  a fault CUTS the lava &#8212; younger still</text>
+  <text x="530.0" y="162.0" fill="#8a8a8a" font-size="10.5">4  a channel is INCISED into the lava</text>
+  <text x="530.0" y="181.0" fill="#8a8a8a" font-size="10.5">     (cross-cutting says younger; it may pre- or</text>
+  <text x="530.0" y="200.0" fill="#8a8a8a" font-size="10.5">      post-date the fault &#8212; they never intersect)</text>
+  <text x="530.0" y="219.0" fill="#8a8a8a" font-size="10.5">5  a rayed crater OVERLIES everything</text>
+  <text x="530.0" y="238.0" fill="#8a8a8a" font-size="10.5">6  dunes drift across the lot: active today</text>
+  <line x1="524.0" y1="74.0" x2="524.0" y2="245.0" stroke="#8a8a8a" stroke-width="1.0"/>
+  <text x="530.0" y="265.0" fill="#e0645c" font-size="10.5">Absolute ages need step 2&#8217;s crater count</text>
+  <text x="530.0" y="279.0" fill="#e0645c" font-size="10.5">and the lunar calibration of 2.4.</text>
+  <text x="36.0" y="376.0" fill="#8a8a8a" font-size="10.5">Three rules do all the work: SUPERPOSITION (what lies on top is younger),</text>
+  <text x="36.0" y="392.0" fill="#8a8a8a" font-size="10.5">CROSS-CUTTING (what cuts is younger), and EMBAYMENT (what floods around is younger).</text>
+  <text x="36.0" y="408.0" fill="#e0645c" font-size="10.5">Note what they never give you: a number. Order is free; dates are not.</text>
+</svg>
