@@ -64,7 +64,7 @@ $$u(x,t) = g\!\left(x\,e^{-t}\right).$$
 
 Verify: with $w = x e^{-t}$, $\;w_t = -x e^{-t} = -w$ and $w_x = e^{-t}$, so
 
-$$u_t + x\,u_x = g'(w)(-w) + x\,g'(w)e^{-t} = g'(w)\big(-x e^{-t} + x e^{-t}\big) = 0. ✓$$
+$$u_t + x\,u_x = g'(w)(-w) + x\,g'(w)e^{-t} = g'(w)\big(-x e^{-t} + x e^{-t}\big) = 0. \checkmark$$
 
 This "follow the characteristic curve" move is exactly what [1.2 The method of characteristics](01-02-method-of-characteristics-first-order.md) systematizes — here the tracks are the curves $x = x_0 e^t$ instead of straight lines, but the logic is identical.
 

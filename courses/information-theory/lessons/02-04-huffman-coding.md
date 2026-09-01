@@ -80,7 +80,7 @@ $$H = 0.4(1.3219) + 2\cdot 0.2(2.3219) + 2\cdot 0.1(3.3219) = 0.5288 + 0.9288 + 
 
 *Verify Kraft* (2.3 — a valid prefix code fills its budget):
 
-$$\sum_i 2^{-\ell_i} = 3\cdot 2^{-2} + 2\cdot 2^{-3} = \tfrac{3}{4} + \tfrac{2}{8} = \tfrac{3}{4} + \tfrac{1}{4} = 1. ✓$$
+$$\sum_i 2^{-\ell_i} = 3\cdot 2^{-2} + 2\cdot 2^{-3} = \tfrac{3}{4} + \tfrac{2}{8} = \tfrac{3}{4} + \tfrac{1}{4} = 1. \checkmark$$
 
 Equality means the tree is **complete** — every leaf is a codeword, no bit budget wasted.
 

@@ -65,7 +65,7 @@ $$\bar x = \frac{44}{20} = 2.2\ \text{cm}, \qquad \bar y = \frac{44}{20} = 2.2\ 
 
 *Check by subtraction.* The same L is a full $6\times6$ square (area $36$, centroid $(3,3)$) with the top-right $4\times4$ corner removed (area $16$, centroid $(4,4)$, counted negative):
 
-$$\bar x = \frac{3(36) - 4(16)}{36 - 16} = \frac{108 - 64}{20} = \frac{44}{20} = 2.2\ \text{cm}\ ✓$$
+$$\bar x = \frac{3(36) - 4(16)}{36 - 16} = \frac{108 - 64}{20} = \frac{44}{20} = 2.2\ \text{cm}\ \checkmark$$
 
 and $\bar y$ likewise. Addition and subtraction agree — that's the sign convention working.
 

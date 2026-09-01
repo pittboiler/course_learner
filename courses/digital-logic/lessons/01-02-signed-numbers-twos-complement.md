@@ -206,7 +206,7 @@ $$\texttt{1111 1111 1110 1001} \;=\; \texttt{0xFFE9}.$$
 *Verify the value is unchanged.* In 16 bits the top weight is $-32768$. The remaining set bits are positions 14 down to 8 (all ones) plus positions 7, 6, 5, 3, 0:
 
 $$16384+8192+4096+2048+1024+512+256 = 32512, \qquad 128+64+32+8+1 = 233,$$
-$$V = -32768 + 32512 + 233 = -32768 + 32745 = -23 \;✓.$$
+$$V = -32768 + 32512 + 233 = -32768 + 32745 = -23 \;\checkmark.$$
 
 (Faster check: for any negative 8-bit value, signed = unsigned $-256$; here unsigned is $233$, and $233-256 = -23$ ✓.)
 

@@ -76,7 +76,7 @@ $$H = \tfrac12\Big(\rho(e)^\dagger\rho(e) + \rho(s)^\dagger\rho(s)\Big) = \tfrac
 
 This $H$ is Hermitian and positive-definite (diagonal entries positive, $\det = \tfrac32 - \tfrac14 = \tfrac54 > 0$). **Verify invariance** — the theorem promises $\rho(s)^\dagger H \rho(s) = H$:
 
-$$\rho(s)^\dagger H \rho(s) = \begin{pmatrix}1&0\\1&-1\end{pmatrix}\begin{pmatrix}1&\tfrac12\\\tfrac12&\tfrac32\end{pmatrix}\begin{pmatrix}1&1\\0&-1\end{pmatrix} = \begin{pmatrix}1&\tfrac12\\ \tfrac12 & -1\end{pmatrix}\begin{pmatrix}1&1\\0&-1\end{pmatrix} = \begin{pmatrix} 1 & \tfrac12 \\[2pt] \tfrac12 & \tfrac32\end{pmatrix} = H. ✓$$
+$$\rho(s)^\dagger H \rho(s) = \begin{pmatrix}1&0\\1&-1\end{pmatrix}\begin{pmatrix}1&\tfrac12\\\tfrac12&\tfrac32\end{pmatrix}\begin{pmatrix}1&1\\0&-1\end{pmatrix} = \begin{pmatrix}1&\tfrac12\\ \tfrac12 & -1\end{pmatrix}\begin{pmatrix}1&1\\0&-1\end{pmatrix} = \begin{pmatrix} 1 & \tfrac12 \\[2pt] \tfrac12 & \tfrac32\end{pmatrix} = H. \checkmark$$
 
 To *exhibit the unitary equivalent explicitly*, factor $H = P^\dagger P$ (Cholesky) with $P = \begin{pmatrix} 1 & \tfrac12 \\[2pt] 0 & \tfrac{\sqrt5}{2}\end{pmatrix}$ — check $P^\dagger P = \begin{pmatrix}1&0\\ \tfrac12 & \tfrac{\sqrt5}{2}\end{pmatrix}\begin{pmatrix}1&\tfrac12\\0&\tfrac{\sqrt5}{2}\end{pmatrix} = \begin{pmatrix}1&\tfrac12\\ \tfrac12 & \tfrac32\end{pmatrix} = H$. ✓ Changing basis by $P$ (so that the averaged form becomes the *standard* one) turns $\rho(s)$ into $U := P\rho(s)P^{-1}$, which is then unitary in the ordinary sense. With $P^{-1} = \begin{pmatrix}1 & -\tfrac{1}{\sqrt5} \\[2pt] 0 & \tfrac{2}{\sqrt5}\end{pmatrix}$,
 
@@ -114,7 +114,7 @@ $$\rho(g) = \begin{pmatrix} 0&0&0&1\\ 1&0&0&0\\ 0&1&0&0\\ 0&0&1&0\end{pmatrix},\
 
 **P2.** *Representation:* need $\rho(s)^2 = \rho(e) = I$.
 
-$$\rho(s)^2 = \begin{pmatrix}0&2\\\tfrac12&0\end{pmatrix}\begin{pmatrix}0&2\\\tfrac12&0\end{pmatrix} = \begin{pmatrix} 2\cdot\tfrac12 & 0 \\ 0 & \tfrac12\cdot 2\end{pmatrix} = \begin{pmatrix}1&0\\0&1\end{pmatrix} = I. ✓$$
+$$\rho(s)^2 = \begin{pmatrix}0&2\\\tfrac12&0\end{pmatrix}\begin{pmatrix}0&2\\\tfrac12&0\end{pmatrix} = \begin{pmatrix} 2\cdot\tfrac12 & 0 \\ 0 & \tfrac12\cdot 2\end{pmatrix} = \begin{pmatrix}1&0\\0&1\end{pmatrix} = I. \checkmark$$
 
 *Not unitary:*
 
@@ -126,7 +126,7 @@ $$H = \tfrac12\Big(\rho(e)^\dagger\rho(e) + \rho(s)^\dagger\rho(s)\Big) = \tfrac
 
 *Invariance check:* since $H$ and $\rho(s)$ are both real here,
 
-$$\rho(s)^\dagger H\rho(s) = \begin{pmatrix}0&\tfrac12\\2&0\end{pmatrix}\begin{pmatrix}\tfrac58&0\\0&\tfrac52\end{pmatrix}\begin{pmatrix}0&2\\\tfrac12&0\end{pmatrix} = \begin{pmatrix}0 & \tfrac54\\ \tfrac54 & 0\end{pmatrix}\begin{pmatrix}0&2\\\tfrac12&0\end{pmatrix} = \begin{pmatrix}\tfrac58 & 0\\ 0 & \tfrac52\end{pmatrix} = H. ✓$$
+$$\rho(s)^\dagger H\rho(s) = \begin{pmatrix}0&\tfrac12\\2&0\end{pmatrix}\begin{pmatrix}\tfrac58&0\\0&\tfrac52\end{pmatrix}\begin{pmatrix}0&2\\\tfrac12&0\end{pmatrix} = \begin{pmatrix}0 & \tfrac54\\ \tfrac54 & 0\end{pmatrix}\begin{pmatrix}0&2\\\tfrac12&0\end{pmatrix} = \begin{pmatrix}\tfrac58 & 0\\ 0 & \tfrac52\end{pmatrix} = H. \checkmark$$
 
 So under the weighted length $\|v\|_G^2 = \tfrac58|v_1|^2 + \tfrac52|v_2|^2$, the map $\rho(s)$ (which swaps the axes with factors $2$ and $\tfrac12$) becomes an isometry — it's unitary in this inner product. (Sanity: $\rho(s)$ sends the first basis vector to $\tfrac12$ times the second and the second to $2$ times the first; the weights $\tfrac58,\tfrac52$ are chosen precisely so those rescalings cancel.)
 

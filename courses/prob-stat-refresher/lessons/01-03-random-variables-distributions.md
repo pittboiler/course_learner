@@ -86,7 +86,7 @@ Check: $0.1+0.3+0.4+0.2 = 1.0$ — the pmf sums to $1$. ✓
 Check: $F(2) = \tfrac{4}{4} = 1$ — the density integrates to $1$. ✓
 
 **P3** (a) Split the integral at the peak:
-$$\int_0^1 x\,dx + \int_1^2 (2-x)\,dx = \tfrac12 + \Big[2x - \tfrac{x^2}{2}\Big]_1^2 = \tfrac12 + \big(2 - \tfrac32\big) = \tfrac12 + \tfrac12 = 1. ✓$$
+$$\int_0^1 x\,dx + \int_1^2 (2-x)\,dx = \tfrac12 + \Big[2x - \tfrac{x^2}{2}\Big]_1^2 = \tfrac12 + \big(2 - \tfrac32\big) = \tfrac12 + \tfrac12 = 1. \checkmark$$
 (b) For $0 \le x \le 1$: $F(x) = \int_0^x t\,dt = \tfrac{x^2}{2}$.
 For $1 \le x \le 2$: $F(x) = \tfrac12 + \int_1^x (2-t)\,dt = \tfrac12 + \Big[2t - \tfrac{t^2}{2}\Big]_1^x = 2x - \tfrac{x^2}{2} - 1.$
 (Sanity: $F(1) = \tfrac12$ from both pieces; $F(2) = 4 - 2 - 1 = 1$. ✓)

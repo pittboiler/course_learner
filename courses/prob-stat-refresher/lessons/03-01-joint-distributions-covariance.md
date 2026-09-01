@@ -82,8 +82,8 @@ If the assets are uncorrelated ($\rho = 0$), the portfolio variance is $\sigma^2
 <summary>Solutions</summary>
 
 **P1** (a) Marginals sum the other variable out:
-$$p_X(0) = 0.4 + 0.2 = 0.6,\quad p_X(1) = 0.1 + 0.3 = 0.4 \ \ (\text{sum } 1.0\ ✓)$$
-$$p_Y(0) = 0.4 + 0.1 = 0.5,\quad p_Y(1) = 0.2 + 0.3 = 0.5 \ \ (\text{sum } 1.0\ ✓)$$
+$$p_X(0) = 0.4 + 0.2 = 0.6,\quad p_X(1) = 0.1 + 0.3 = 0.4 \ \ (\text{sum } 1.0\ \checkmark)$$
+$$p_Y(0) = 0.4 + 0.1 = 0.5,\quad p_Y(1) = 0.2 + 0.3 = 0.5 \ \ (\text{sum } 1.0\ \checkmark)$$
 (b) Independence needs $p(x,y) = p_X(x)p_Y(y)$ everywhere. Test the $(0,0)$ cell: $p_X(0)p_Y(0) = 0.6 \times 0.5 = 0.30$, but $p(0,0) = 0.4 \ne 0.30$. **Not independent.**
 (c) $X$ and $Y$ are $0/1$-valued, so $XY = 1$ only at $(1,1)$: $\mathbb{E}[XY] = 1\cdot1\cdot0.3 = 0.3$. With $\mathbb{E}[X] = 0.4$, $\mathbb{E}[Y] = 0.5$:
 $$\mathrm{Cov}(X,Y) = 0.3 - (0.4)(0.5) = 0.3 - 0.2 = 0.1.$$
@@ -96,7 +96,7 @@ Covariance rule (using $\mathrm{Cov} = 0.1$ from P1):
 $$\mathrm{Var}(X + Y) = 0.24 + 0.25 + 2(0.1) = 0.69.$$
 Direct check via $S = X + Y$: the distribution is $\mathbb{P}(S=0) = p(0,0) = 0.4$, $\mathbb{P}(S=1) = p(0,1)+p(1,0) = 0.3$, $\mathbb{P}(S=2) = p(1,1) = 0.3$. Then
 $$\mathbb{E}[S] = 0(0.4) + 1(0.3) + 2(0.3) = 0.9,\quad \mathbb{E}[S^2] = 0 + 1(0.3) + 4(0.3) = 1.5,$$
-$$\mathrm{Var}(S) = 1.5 - 0.9^2 = 1.5 - 0.81 = 0.69. \ ✓ \ \text{(matches)}$$
+$$\mathrm{Var}(S) = 1.5 - 0.9^2 = 1.5 - 0.81 = 0.69. \ \checkmark \ \text{(matches)}$$
 Correlation:
 $$\rho = \frac{0.1}{\sqrt{0.24}\,\sqrt{0.25}} = \frac{0.1}{(0.48990)(0.5)} = \frac{0.1}{0.24495} \approx 0.408.$$
 *Numeric check:* $|\rho| = 0.408 \le 1$ ✓, and $\mathbb{E}[S] = 0.9 = \mathbb{E}[X] + \mathbb{E}[Y] = 0.4 + 0.5$ ✓.

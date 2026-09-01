@@ -59,7 +59,7 @@ $$\frac{\partial h_1}{\partial p_1}=-\tfrac12\cdot\frac{w}{2\sqrt{p_1p_2}}\cdot 
 
 Income term: $-x_1\dfrac{\partial x_1}{\partial w}=-\dfrac{w}{2p_1}\cdot\dfrac{1}{2p_1}=-\dfrac{w}{4p_1^{2}}$. Add them:
 
-$$\frac{\partial h_1}{\partial p_1}-x_1\frac{\partial x_1}{\partial w}=-\frac{w}{4p_1^{2}}-\frac{w}{4p_1^{2}}=-\frac{w}{2p_1^{2}}=\frac{\partial x_1}{\partial p_1}.\ ✓$$
+$$\frac{\partial h_1}{\partial p_1}-x_1\frac{\partial x_1}{\partial w}=-\frac{w}{4p_1^{2}}-\frac{w}{4p_1^{2}}=-\frac{w}{2p_1^{2}}=\frac{\partial x_1}{\partial p_1}.\ \checkmark$$
 
 For Cobb–Douglas the substitution and income effects turn out *equal* — each is exactly half the total. That's special to the $1/2$ expenditure shares, not a general fact.
 
@@ -95,7 +95,7 @@ $$\frac{\partial h_1}{\partial p_2}=\tfrac12\cdot\frac{w}{2\sqrt{p_1p_2}}\cdot p
 
 Income term: $-x_2\dfrac{\partial x_1}{\partial w}=-\dfrac{w}{2p_2}\cdot\dfrac{1}{2p_1}=-\dfrac{w}{4p_1p_2}$. Slutsky right-hand side:
 
-$$\frac{\partial h_1}{\partial p_2}-x_2\frac{\partial x_1}{\partial w}=\frac{w}{4p_1p_2}-\frac{w}{4p_1p_2}=0=\frac{\partial x_1}{\partial p_2}.\ ✓$$
+$$\frac{\partial h_1}{\partial p_2}-x_2\frac{\partial x_1}{\partial w}=\frac{w}{4p_1p_2}-\frac{w}{4p_1p_2}=0=\frac{\partial x_1}{\partial p_2}.\ \checkmark$$
 
 Interpretation: the Marshallian cross-effect is $0$ (Cobb–Douglas spending on good 1 is independent of $p_2$ — the hallmark of unit-elastic, separable shares), so goods 1 and 2 are neither gross substitutes nor gross complements. But the *compensated* cross-effect $\partial h_1/\partial p_2=w/(4p_1p_2)>0$ is strictly positive: they are **net (Hicksian) substitutes**. The gross neutrality is an exact cancellation of a positive substitution effect against a negative income effect.
 

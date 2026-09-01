@@ -97,9 +97,9 @@ Cross-check with the formula: $\delta^\ast = \frac{T-R}{T-P} = \frac{4-3}{4-1} =
 
 **P3.** (a) **Best deviation.** If firm 2 plays the collusive quantity $q_2 = \tfrac{a-c}{4}$ (half of monopoly output $\tfrac{a-c}{2}$), firm 1 maximizes its profit taking $q_2$ as given:
 
-$$\max_{q_1}\ q_1\big(a - q_1 - \tfrac{a-c}{4} - c\big) = q_1\Big(\tfrac{3(a-c)}{4} - q_1\Big),\quad \text{FOC: } \tfrac{3(a-c)}{4} - 2q_1 = 0 \Rightarrow q_1 = \tfrac{3(a-c)}{8} = q^{dev}\ ✓.$$
+$$\max_{q_1}\ q_1\big(a - q_1 - \tfrac{a-c}{4} - c\big) = q_1\Big(\tfrac{3(a-c)}{4} - q_1\Big),\quad \text{FOC: } \tfrac{3(a-c)}{4} - 2q_1 = 0 \Rightarrow q_1 = \tfrac{3(a-c)}{8} = q^{dev}\ \checkmark.$$
 
-Profit: $\pi^{dev} = q^{dev}\big(\tfrac{3(a-c)}{4} - q^{dev}\big) = \tfrac{3(a-c)}{8}\cdot\tfrac{3(a-c)}{8} = \tfrac{9(a-c)^2}{64} = \tfrac{9K}{64}\ ✓.$
+Profit: $\pi^{dev} = q^{dev}\big(\tfrac{3(a-c)}{4} - q^{dev}\big) = \tfrac{3(a-c)}{8}\cdot\tfrac{3(a-c)}{8} = \tfrac{9(a-c)^2}{64} = \tfrac{9K}{64}\ \checkmark.$
 
 (b) **Threshold.** Collude forever: $\frac{\pi^{coll}}{1-\delta}$. Deviate once, then Cournot forever: $\pi^{dev} + \frac{\delta\,\pi^{cournot}}{1-\delta}$. Collusion holds iff
 

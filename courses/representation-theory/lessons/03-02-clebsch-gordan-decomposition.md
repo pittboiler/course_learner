@@ -66,7 +66,7 @@ $$N^{\text{std}} = \tfrac{1}{6}\big[1\cdot 4\cdot 2 + 3\cdot 0\cdot 0 + 2\cdot 1
 
 **The CG series:**
 
-$$\boxed{\ \text{std}\otimes\text{std} \;=\; \text{triv}\ \oplus\ \text{sign}\ \oplus\ \text{std}\ }\qquad \dim:\ 4 = 1 + 1 + 2.\ ✓$$
+$$\boxed{\ \text{std}\otimes\text{std} \;=\; \text{triv}\ \oplus\ \text{sign}\ \oplus\ \text{std}\ }\qquad \dim:\ 4 = 1 + 1 + 2.\ \checkmark$$
 
 **The coupled basis.** Working in the standard-rep basis $v_1 = e_1 - e_2,\ v_2 = e_2 - e_3$ (the same basis built in [1.3](01-03-reducibility-invariant-subspaces.md) and reused in [3.1](03-01-tensor-products.md)), the projection operators (computed in the 🔴 solution) hand back this change of basis from the product basis $\{v_a \otimes v_b\}$:
 

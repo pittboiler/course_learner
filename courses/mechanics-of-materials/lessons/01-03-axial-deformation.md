@@ -115,7 +115,7 @@ $$\delta = \frac{N L_1}{A_1 E} + \frac{N L_2}{A_2 E} = \frac{(25)(600)}{(500)(20
 
 (ii) $k_\mathrm{eq} = P/\delta = 25/0.35 = 71.4\ \mathrm{kN/mm}$. Check the series law: $k_1 = A_1E/L_1 = (500)(200)/600 = 166.7\ \mathrm{kN/mm}$, $k_2 = (250)(200)/400 = 125\ \mathrm{kN/mm}$. Then
 
-$$\frac{1}{k_1} + \frac{1}{k_2} = \frac{1}{166.7} + \frac{1}{125} = 0.0060 + 0.0080 = 0.0140\ \mathrm{mm/kN} = \frac{1}{71.4\ \mathrm{kN/mm}}.\ ✓$$
+$$\frac{1}{k_1} + \frac{1}{k_2} = \frac{1}{166.7} + \frac{1}{125} = 0.0060 + 0.0080 = 0.0140\ \mathrm{mm/kN} = \frac{1}{71.4\ \mathrm{kN/mm}}.\ \checkmark$$
 
 *Check.* The thinner segment 2 (smaller $A$, so smaller $k$) contributes the larger stretch (0.20 vs 0.15) and dominates the compliance — exactly the "sum flexibilities" warning in Watch out. ✓
 

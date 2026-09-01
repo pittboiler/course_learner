@@ -73,7 +73,7 @@ $$\boxed{\;a_k=\begin{cases}-\dfrac{2j}{\pi k}, & k \text{ odd}\\[4pt] 0,& k\tex
 
 **Only odd harmonics survive, and their size falls off like $1/|k|$.** (The even ones die because the square wave has half-wave symmetry: $x(t+T/2)=-x(t)$.) Sanity checks: $a_{-k}=+2j/(\pi k)=a_k^*$ ✓ (real signal). And combining the $\pm k$ pair, $a_ke^{jk\omega_0t}+a_{-k}e^{-jk\omega_0t}=-\tfrac{2j}{\pi k}\big(e^{jk\omega_0t}-e^{-jk\omega_0t}\big)=\tfrac{4}{\pi k}\sin k\omega_0 t$, giving the familiar
 
-$$x(t)=\frac{4}{\pi}\left[\sin\omega_0 t+\tfrac13\sin3\omega_0t+\tfrac15\sin5\omega_0t+\cdots\right].\;✓$$
+$$x(t)=\frac{4}{\pi}\left[\sin\omega_0 t+\tfrac13\sin3\omega_0t+\tfrac15\sin5\omega_0t+\cdots\right].\;\checkmark$$
 
 *Power bookkeeping.* Since $|x|=1$ everywhere, $P=1$. Parseval must agree: $\sum_k|a_k|^2=2\sum_{k\ \mathrm{odd}>0}\big(\tfrac{2}{\pi k}\big)^2=\tfrac{8}{\pi^2}\sum_{k\ \mathrm{odd}}\tfrac1{k^2}=\tfrac{8}{\pi^2}\cdot\tfrac{\pi^2}{8}=1$ ✓ (using $\sum_{k\ \mathrm{odd}}1/k^2=\pi^2/8$ from [`fourier-analysis` 1.4](../../fourier-analysis/lessons/01-04-mean-square-parseval.md)). Numerically the fundamental alone holds $8/\pi^2=81.1\%$ of the power, and harmonics $1,3,5,7$ together hold $95.0\%$. A square wave is, energetically, mostly a sine wave with a garnish.
 

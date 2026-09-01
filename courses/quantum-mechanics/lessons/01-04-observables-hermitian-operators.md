@@ -70,7 +70,7 @@ Both real. ✓
 
 Orthogonality check (remember the bra conjugates):
 
-$$\langle 3 | 1\rangle = \tfrac12\big[\,\overline{i}\,(-i) + \overline{1}\,(1)\,\big] = \tfrac12\big[(-i)(-i) + 1\big] = \tfrac12\big[i^2 + 1\big] = \tfrac12(-1+1) = 0. \ ✓$$
+$$\langle 3 | 1\rangle = \tfrac12\big[\,\overline{i}\,(-i) + \overline{1}\,(1)\,\big] = \tfrac12\big[(-i)(-i) + 1\big] = \tfrac12\big[i^2 + 1\big] = \tfrac12(-1+1) = 0. \ \checkmark$$
 
 **Spectral decomposition.** Build the projectors $\hat P_a = |a\rangle\langle a|$:
 
@@ -78,7 +78,7 @@ $$P_3 = \tfrac12\begin{pmatrix} i \\ 1\end{pmatrix}\begin{pmatrix} -i & 1\end{pm
 
 Completeness: $P_3 + P_1 = \tfrac12\begin{pmatrix} 2 & 0 \\ 0 & 2\end{pmatrix} = \mathbb 1$. ✓ And reconstruction:
 
-$$3P_3 + 1\,P_1 = \tfrac12\begin{pmatrix} 3+1 & 3i - i \\ -3i + i & 3+1\end{pmatrix} = \tfrac12\begin{pmatrix} 4 & 2i \\ -2i & 4\end{pmatrix} = \begin{pmatrix} 2 & i \\ -i & 2\end{pmatrix} = A. \ ✓$$
+$$3P_3 + 1\,P_1 = \tfrac12\begin{pmatrix} 3+1 & 3i - i \\ -3i + i & 3+1\end{pmatrix} = \tfrac12\begin{pmatrix} 4 & 2i \\ -2i & 4\end{pmatrix} = \begin{pmatrix} 2 & i \\ -i & 2\end{pmatrix} = A. \ \checkmark$$
 
 Every promise of the spectral theorem, cashed out in one $2\times 2$.
 

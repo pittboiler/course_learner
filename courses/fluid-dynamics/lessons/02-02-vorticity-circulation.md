@@ -112,7 +112,7 @@ $$\Gamma_R = u_\theta(R)\cdot 2\pi R = \frac{\Omega a^2}{R}\cdot 2\pi R = 2\pi\O
 
 Flux of vorticity through the disk of radius $R$: only the core contributes,
 
-$$\iint \boldsymbol\omega\cdot d\mathbf{A} = (2\Omega)\cdot(\pi a^2) = 2\pi\Omega a^2 = \Gamma_R. \;✓$$
+$$\iint \boldsymbol\omega\cdot d\mathbf{A} = (2\Omega)\cdot(\pi a^2) = 2\pi\Omega a^2 = \Gamma_R. \;\checkmark$$
 
 Stokes holds, and the outer field is irrotational despite carrying all the circulation — a finite-core version of the free vortex, with the delta spike smeared into a disk.
 

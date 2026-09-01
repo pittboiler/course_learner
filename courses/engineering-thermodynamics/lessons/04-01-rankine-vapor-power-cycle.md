@@ -120,7 +120,7 @@ $$w_{net} = q_{in} - q_{out} = 3147.6 - 1917.0 = 1230.7\ \mathrm{kJ/kg}.$$
 
 Efficiency two ways:
 
-$$\eta_{th} = \frac{w_{net}}{q_{in}} = \frac{1230.7}{3147.6} = 0.391, \qquad \eta_{th} = 1 - \frac{q_{out}}{q_{in}} = 1 - \frac{1917.0}{3147.6} = 1 - 0.609 = 0.391.\;✓$$
+$$\eta_{th} = \frac{w_{net}}{q_{in}} = \frac{1230.7}{3147.6} = 0.391, \qquad \eta_{th} = 1 - \frac{q_{out}}{q_{in}} = 1 - \frac{1917.0}{3147.6} = 1 - 0.609 = 0.391.\;\checkmark$$
 
 *Check.* Both routes agree at 0.391 because $w_{net} = q_{in} - q_{out}$ is just the closed-loop energy balance rearranged. Units cancel to a pure fraction, as an efficiency must.
 

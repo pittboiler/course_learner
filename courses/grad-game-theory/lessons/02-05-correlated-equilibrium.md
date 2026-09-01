@@ -66,11 +66,11 @@ It never recommends the crash. Check player 1's two incentive constraints (playe
 
 *Told $c$* (happens with probability $p(c,c) + p(c,d) = \tfrac{2}{3}$). Posterior on player 2: $\Pr(c \mid c) = \tfrac{1/3}{2/3} = \tfrac12$, $\Pr(d \mid c) = \tfrac12$. Obey vs. deviate:
 
-$$\text{obey } c:\ \tfrac12(6) + \tfrac12(2) = 4, \qquad \text{deviate to } d:\ \tfrac12(7) + \tfrac12(0) = 3.5. \quad 4 \ge 3.5\ ✓$$
+$$\text{obey } c:\ \tfrac12(6) + \tfrac12(2) = 4, \qquad \text{deviate to } d:\ \tfrac12(7) + \tfrac12(0) = 3.5. \quad 4 \ge 3.5\ \checkmark$$
 
 *Told $d$* (probability $p(d,c) = \tfrac13$). Then player 2 was certainly told $c$: $\Pr(c \mid d) = 1$. Obey vs. deviate:
 
-$$\text{obey } d:\ 1(7) = 7, \qquad \text{deviate to } c:\ 1(6) = 6. \quad 7 \ge 6\ ✓$$
+$$\text{obey } d:\ 1(7) = 7, \qquad \text{deviate to } c:\ 1(6) = 6. \quad 7 \ge 6\ \checkmark$$
 
 Both hold, so $p$ is a correlated equilibrium. Its expected payoff to each player:
 

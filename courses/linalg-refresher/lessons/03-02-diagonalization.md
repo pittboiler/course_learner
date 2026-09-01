@@ -88,7 +88,7 @@ $$P = \begin{bmatrix}1&1\\1&-1\end{bmatrix},\quad D = \begin{bmatrix}3&0\\0&1\en
 
 Multiply back: $PD = \begin{bmatrix}3&1\\3&-1\end{bmatrix}$, then
 
-$$PDP^{-1} = \begin{bmatrix}3&1\\3&-1\end{bmatrix}\begin{bmatrix}\tfrac12&\tfrac12\\[2pt]\tfrac12&-\tfrac12\end{bmatrix} = \begin{bmatrix}\tfrac32+\tfrac12 & \tfrac32-\tfrac12\\[2pt] \tfrac32-\tfrac12 & \tfrac32+\tfrac12\end{bmatrix} = \begin{bmatrix}2&1\\1&2\end{bmatrix} = A.\ ✓$$
+$$PDP^{-1} = \begin{bmatrix}3&1\\3&-1\end{bmatrix}\begin{bmatrix}\tfrac12&\tfrac12\\[2pt]\tfrac12&-\tfrac12\end{bmatrix} = \begin{bmatrix}\tfrac32+\tfrac12 & \tfrac32-\tfrac12\\[2pt] \tfrac32-\tfrac12 & \tfrac32+\tfrac12\end{bmatrix} = \begin{bmatrix}2&1\\1&2\end{bmatrix} = A.\ \checkmark$$
 
 **P2** $A^k = PD^kP^{-1}$ with $D^k = \begin{bmatrix}3^k&0\\0&1\end{bmatrix}$. Then $PD^k = \begin{bmatrix}3^k&1\\3^k&-1\end{bmatrix}$, so
 

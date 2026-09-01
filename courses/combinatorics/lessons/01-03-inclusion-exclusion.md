@@ -45,12 +45,12 @@ Each region is labeled with the *net* sign it carries in $|A\cup B\cup C| = |A|+
 **Example 1 (surjections — mechanical).** Count the surjections (onto functions) from an $n$-set to a $k$-set. A function $f:[n]\to[k]$ is surjective iff it misses **no** target value. Let bad property $i$ be "value $i$ is never hit," so $A_i = \{f : i \notin \operatorname{im} f\}$. A function avoiding a fixed set $S$ of $j$ values is just a function into the remaining $k-j$ values, so $|A_S| = (k-j)^n$ depends only on $j = |S|$, and there are $\binom{k}{j}$ such $S$. The sieve form (surjections = functions with none of the "missing" properties) gives
 $$\operatorname{Surj}(n,k) = \sum_{j=0}^{k} (-1)^j \binom{k}{j}(k-j)^n.$$
 *In words:* all $k^n$ functions, minus those missing at least one value, corrected by inclusion–exclusion. Check the Boss-problem value $n=6, k=3$:
-$$\binom{3}{0}3^6 - \binom{3}{1}2^6 + \binom{3}{2}1^6 - \binom{3}{3}0^6 = 729 - 3\cdot 64 + 3\cdot 1 - 0 = 729 - 192 + 3 = 540.\ ✓$$
+$$\binom{3}{0}3^6 - \binom{3}{1}2^6 + \binom{3}{2}1^6 - \binom{3}{3}0^6 = 729 - 3\cdot 64 + 3\cdot 1 - 0 = 729 - 192 + 3 = 540.\ \checkmark$$
 
 **Example 2 (derangements — why you'd care).** A *derangement* is a permutation with **no fixed point** — nobody gets their own hat back. Let $A_i = \{\text{permutations fixing } i\}$. Fixing a chosen set of $j$ positions and permuting the rest freely gives $|A_S| = (n-j)!$, again depending only on $j$, with $\binom{n}{j}$ choices of $S$. Derangements have none of the "fixes $i$" properties:
 $$!n \;=\; \sum_{j=0}^{n} (-1)^j \binom{n}{j}(n-j)! \;=\; \sum_{j=0}^{n}(-1)^j \frac{n!}{j!} \;=\; n!\sum_{k=0}^{n}\frac{(-1)^k}{k!},$$
 using $\binom{n}{j}(n-j)! = \frac{n!}{j!}$. For $n=5$:
-$$!5 = 5!\left(1 - 1 + \tfrac12 - \tfrac16 + \tfrac{1}{24} - \tfrac{1}{120}\right) = 120\cdot\tfrac{44}{120} = 44.\ ✓$$
+$$!5 = 5!\left(1 - 1 + \tfrac12 - \tfrac16 + \tfrac{1}{24} - \tfrac{1}{120}\right) = 120\cdot\tfrac{44}{120} = 44.\ \checkmark$$
 The tail $\sum (-1)^k/k! \to e^{-1}$, so $!n \approx n!/e$: about $37\%$ of all shuffles leave *nothing* in place. Both examples are the same move — a surjection forbids empty target-values, a derangement forbids fixed points; each "forbidden-position" count is inclusion–exclusion over which forbidden things happen.
 
 ## Watch out
@@ -79,14 +79,14 @@ $$100 - (50+33+20) + (16+10+6) - 3 = 100 - 103 + 32 - 3 = 26.$$
 So $26$ integers in $[1,100]$ are divisible by none of $2,3,5$. (Sanity check: this is exactly the sieve of Eratosthenes bookkeeping — and $100\cdot\tfrac12\cdot\tfrac23\cdot\tfrac45 = 26.\overline6$, close to $26$.)
 
 **P2** (a) $\operatorname{Surj}(5,3) = \binom{3}{0}3^5 - \binom{3}{1}2^5 + \binom{3}{2}1^5 - \binom{3}{3}0^5 = 243 - 3\cdot 32 + 3\cdot 1 - 0 = 243 - 96 + 3 = 150.$
-(b) $3!\,S(5,3) = 6 \cdot 25 = 150.$ They agree. The bridge: a surjection onto $3$ labeled values is a partition of the $5$-set into $3$ nonempty blocks (the preimages), $S(5,3)=25$ of them, times the $3!$ ways to attach the $3$ labels to the blocks. $✓$
+(b) $3!\,S(5,3) = 6 \cdot 25 = 150.$ They agree. The bridge: a surjection onto $3$ labeled values is a partition of the $5$-set into $3$ nonempty blocks (the preimages), $S(5,3)=25$ of them, times the $3!$ ways to attach the $3$ labels to the blocks. $\checkmark$
 
 **P3** Consider a derangement $\sigma$ of $[n]$, $n\ge 2$. Element $1$ is sent to some $\sigma(1) = k \ne 1$; there are $n-1$ choices of $k$. Split on the value of $\sigma(k)$:
 
 - **Case $\sigma(k) = 1$** (elements $1$ and $k$ swap with each other). Deleting both leaves a derangement of the remaining $n-2$ elements: $D_{n-2}$ ways.
 - **Case $\sigma(k) \ne 1$.** Let $j = \sigma^{-1}(1)$ be the element that maps to $1$; note $j \ne 1$ (since $\sigma(1)=k\ne 1$) and $j \ne k$ (since $\sigma(k)\ne 1$). Reroute $j$'s arrow from $1$ to $k$: define $\tau$ on $\{2,\dots,n\}$ by $\tau(j) = k$ and $\tau(i) = \sigma(i)$ for every other $i$. Then $\tau$ maps $\{2,\dots,n\}$ into itself (only $j$ used to hit $1$, and now it hits $k$) with no fixed point ($\tau(j)=k\ne j$, and $\tau(i)=\sigma(i)\ne i$ elsewhere). This is a bijection onto derangements of the $n-1$ elements $\{2,\dots,n\}$: $D_{n-1}$ ways.
 
-Each of the $n-1$ choices of $k$ contributes $D_{n-1} + D_{n-2}$, so $D_n = (n-1)(D_{n-1} + D_{n-2})$. Check with $D_1=0,\,D_2=1$: $D_3 = 2(D_2+D_1)=2(1+0)=2$; $D_4 = 3(D_3+D_2)=3(2+1)=9$; $D_5 = 4(D_4+D_3)=4(9+2)=44.\ ✓$
+Each of the $n-1$ choices of $k$ contributes $D_{n-1} + D_{n-2}$, so $D_n = (n-1)(D_{n-1} + D_{n-2})$. Check with $D_1=0,\,D_2=1$: $D_3 = 2(D_2+D_1)=2(1+0)=2$; $D_4 = 3(D_3+D_2)=3(2+1)=9$; $D_5 = 4(D_4+D_3)=4(9+2)=44.\ \checkmark$
 
 </details>
 
@@ -99,7 +99,7 @@ Each of the $n-1$ choices of $k$ contributes $D_{n-1} + D_{n-2}$, so $D_n = (n-1
 
 **Statement & proof.** Vandermonde: $\sum_{k=0}^{r}\binom{m}{k}\binom{n}{r-k} = \binom{m+n}{r}$. *Double-counting:* to choose $r$ people from a room of $m$ women and $n$ men (so $\binom{m+n}{r}$ ways), split by how many $k$ of the chosen are women — $\binom{m}{k}$ ways to pick them and $\binom{n}{r-k}$ to pick the remaining men — then sum over $k$.
 
-**Evaluation.** Here $m=4$, $n=5$, $r=3$, so the sum is $\binom{4+5}{3} = \binom{9}{3} = 84$. Direct check: $\binom40\binom53 + \binom41\binom52 + \binom42\binom51 + \binom43\binom50 = 1\cdot10 + 4\cdot10 + 6\cdot5 + 4\cdot1 = 10+40+30+4 = 84.\ ✓$
+**Evaluation.** Here $m=4$, $n=5$, $r=3$, so the sum is $\binom{4+5}{3} = \binom{9}{3} = 84$. Direct check: $\binom40\binom53 + \binom41\binom52 + \binom42\binom51 + \binom43\binom50 = 1\cdot10 + 4\cdot10 + 6\cdot5 + 4\cdot1 = 10+40+30+4 = 84.\ \checkmark$
 
 </details>
 

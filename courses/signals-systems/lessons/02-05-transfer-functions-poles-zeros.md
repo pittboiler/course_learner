@@ -150,7 +150,7 @@ agreeing with the formulas $\omega_n\sqrt{1-2\zeta^2} = \sqrt{1/2}$ and $\tfrac{
 $$d_1 = \sqrt{\tfrac14 + (0.7071-0.8660)^2} = 0.5246, \qquad
 d_2 = \sqrt{\tfrac14 + (0.7071+0.8660)^2} = 1.6507,$$
 
-$$|H| = \frac{1}{0.5246 \times 1.6507} = \frac{1}{0.8660} = 1.155. \;✓$$
+$$|H| = \frac{1}{0.5246 \times 1.6507} = \frac{1}{0.8660} = 1.155. \;\checkmark$$
 
 Same number, obtained with a ruler. Compare $\omega = 0$: there $d_1 = d_2 = 1$, so $|H| = 1$. As you slide up from 0, the *near* pole's distance $d_1$ shrinks fast while the *far* pole's $d_2$ grows slowly — the product falls, the gain rises. Past $\omega \approx 0.707$ the far pole's growth wins and the gain falls off. **That tug-of-war is resonance.** Physically: you are shaking the mass near the rhythm it wants to move at, so each push arrives in step with the motion and the amplitude builds — [`ode-refresher` 2.3](../../ode-refresher/lessons/02-03-forcing-resonance.md)'s driven oscillator, seen from above.
 

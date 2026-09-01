@@ -136,7 +136,7 @@ $$m_{A_2} = \tfrac{1}{4}(9 -1 - 3 - 1) = \tfrac{4}{4} = 1,$$
 $$m_{B_1} = \tfrac{1}{4}(9 +1 + 3 - 1) = \tfrac{12}{4} = 3,$$
 $$m_{B_2} = \tfrac{1}{4}(9 +1 - 3 + 1) = \tfrac{8}{4} = 2.$$
 
-$$\Gamma_{\text{total}} = 3A_1 \oplus A_2 \oplus 3B_1 \oplus 2B_2 \quad (\text{dim } 3+1+3+2 = 9 = 3N\ ✓).$$
+$$\Gamma_{\text{total}} = 3A_1 \oplus A_2 \oplus 3B_1 \oplus 2B_2 \quad (\text{dim } 3+1+3+2 = 9 = 3N\ \checkmark).$$
 
 (Bonus check on the vibrations: $\Gamma_{\text{trans}} = A_1(z)\oplus B_1(x)\oplus B_2(y)$, $\Gamma_{\text{rot}} = A_2(R_z)\oplus B_1(R_y)\oplus B_2(R_x)$, so $\Gamma_{\text{vib}} = 2A_1 \oplus B_1$ — the symmetric stretch, the bend, and the asymmetric stretch, all IR- and Raman-active. Three modes $= 3N-6$ ✓.)
 
@@ -150,7 +150,7 @@ $$m_{A_1} = \tfrac{1}{6}(1\cdot 15\cdot 1 + 2\cdot 0\cdot 1 + 3\cdot 3\cdot 1) =
 $$m_{A_2} = \tfrac{1}{6}(15 + 0 + 3\cdot 3\cdot(-1)) = \tfrac{6}{6} = 1,$$
 $$m_{E} = \tfrac{1}{6}(1\cdot 15\cdot 2 + 0 + 3\cdot 3\cdot 0) = \tfrac{30}{6} = 5.$$
 
-$$\Gamma_{\text{total}} = 4A_1 \oplus A_2 \oplus 5E \quad (\text{dim } 4 + 1 + 10 = 15 = 3N\ ✓).$$
+$$\Gamma_{\text{total}} = 4A_1 \oplus A_2 \oplus 5E \quad (\text{dim } 4 + 1 + 10 = 15 = 3N\ \checkmark).$$
 
 Subtract $\Gamma_{\text{trans}} = A_1 \oplus E$ and $\Gamma_{\text{rot}} = A_2 \oplus E$:
 

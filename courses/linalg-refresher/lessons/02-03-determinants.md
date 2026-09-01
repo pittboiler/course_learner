@@ -52,7 +52,7 @@ Positive, so orientation is preserved; magnitude $3$, so the map triples every a
 $$\det B = 1\det\!\begin{bmatrix} 1 & 3 \\ 0 & 1 \end{bmatrix} - 2\det\!\begin{bmatrix} 0 & 3 \\ 2 & 1 \end{bmatrix} + 1\det\!\begin{bmatrix} 0 & 1 \\ 2 & 0 \end{bmatrix}.$$
 $$= 1(1\cdot 1 - 3\cdot 0) - 2(0\cdot 1 - 3\cdot 2) + 1(0\cdot 0 - 1\cdot 2) = 1(1) - 2(-6) + 1(-2) = 1 + 12 - 2 = 11.$$
 **Cross-check** by expanding down the first column (entries $1, 0, 2$), which reuses one minor and kills a term:
-$$\det B = 1\det\!\begin{bmatrix} 1 & 3 \\ 0 & 1 \end{bmatrix} - 0 + 2\det\!\begin{bmatrix} 2 & 1 \\ 1 & 3 \end{bmatrix} = 1(1) + 2(6 - 1) = 1 + 10 = 11. \ ✓$$
+$$\det B = 1\det\!\begin{bmatrix} 1 & 3 \\ 0 & 1 \end{bmatrix} - 0 + 2\det\!\begin{bmatrix} 2 & 1 \\ 1 & 3 \end{bmatrix} = 1(1) + 2(6 - 1) = 1 + 10 = 11. \ \checkmark$$
 Both roads give $11$. So $B$ is invertible, orientation-preserving, and inflates volume by a factor of $11$.
 
 ## Watch out
@@ -82,7 +82,7 @@ Both roads give $11$. So $B$ is invertible, orientation-preserving, and inflates
 (b) Expand along the **first column** (entries $2, 1, 0$ — the zero kills a term):
 $$\det = 2\det\!\begin{bmatrix} 3 & 2 \\ 1 & 1 \end{bmatrix} - 1\det\!\begin{bmatrix} 0 & 1 \\ 1 & 1 \end{bmatrix} + 0 = 2(3 - 2) - 1(0 - 1) = 2(1) - 1(-1) = 2 + 1 = 3.$$
 Cross-check along the **first row** (entries $2, 0, 1$):
-$$\det = 2\det\!\begin{bmatrix} 3 & 2 \\ 1 & 1 \end{bmatrix} - 0 + 1\det\!\begin{bmatrix} 1 & 3 \\ 0 & 1 \end{bmatrix} = 2(1) + 1(1) = 3. \ ✓$$
+$$\det = 2\det\!\begin{bmatrix} 3 & 2 \\ 1 & 1 \end{bmatrix} - 0 + 1\det\!\begin{bmatrix} 1 & 3 \\ 0 & 1 \end{bmatrix} = 2(1) + 1(1) = 3. \ \checkmark$$
 Both give $\det = 3$, so this map is invertible.
 
 **P2** Expand $\det C$ along the first row:
