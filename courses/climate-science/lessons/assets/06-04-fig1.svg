@@ -1,0 +1,39 @@
+<svg viewBox="0 0 660 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="12">
+  <text x="20" y="20" fill="#8a8a8a" font-style="italic">With today&#8217;s greenhouse the early Earth freezes. The rocks say it did not. Something had to close the gap.</text>
+
+  <line x1="110" y1="260" x2="625" y2="260" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="110" y1="260" x2="110" y2="55" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="290" y="300" fill="#8a8a8a">billions of years before present</text>
+  <text x="20" y="140" fill="#8a8a8a">surface</text>
+  <text x="20" y="156" fill="#8a8a8a">T (K)</text>
+  <text x="104" y="278" fill="#8a8a8a">4</text>
+  <line x1="235" y1="260" x2="235" y2="266" stroke="#8a8a8a"/><text x="231" y="278" fill="#8a8a8a">3</text>
+  <line x1="360" y1="260" x2="360" y2="266" stroke="#8a8a8a"/><text x="356" y="278" fill="#8a8a8a">2</text>
+  <line x1="485" y1="260" x2="485" y2="266" stroke="#8a8a8a"/><text x="481" y="278" fill="#8a8a8a">1</text>
+  <text x="606" y="278" fill="#8a8a8a">0</text>
+  <text x="82" y="242" fill="#8a8a8a">240</text>
+  <text x="82" y="199" fill="#8a8a8a">260</text>
+  <text x="82" y="156" fill="#8a8a8a">280</text>
+  <text x="82" y="112" fill="#8a8a8a">300</text>
+
+  <!-- freezing -->
+  <line x1="110" y1="166.5" x2="625" y2="166.5" stroke="#8a8a8a" stroke-width="1.2" stroke-dasharray="6 4"/>
+  <text x="560" y="162" fill="#8a8a8a">freezing</text>
+
+  <path d="M 110,175 L 160,172 L 210,168 L 260,165 L 310,161 L 360,157 L 410,153 L 460,149 L 510,144 L 560,140 L 610,135"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="140" y="196" fill="#4a90d9">with today&#8217;s 33 K greenhouse</text>
+
+  <path d="M 110,134 L 172,126 L 235,124 L 298,134 L 335,173 L 360,130 L 422,124 L 485,126 L 522,178 L 535,119 L 572,119 L 604,130 L 610,134"
+        fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="230" y="106" fill="#e0645c">inferred from the rock record</text>
+
+  <text x="316" y="192" fill="#8a8a8a">Huronian</text>
+  <text x="498" y="196" fill="#8a8a8a">Snowball</text>
+
+  <!-- the gap -->
+  <line x1="160" y1="172" x2="160" y2="128" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="160,172 156,163 164,163" fill="#8a8a8a"/>
+  <polygon points="160,128 156,137 164,137" fill="#8a8a8a"/>
+  <text x="168" y="152" fill="#8a8a8a">the gap: ~18 K of extra greenhouse</text>
+</svg>

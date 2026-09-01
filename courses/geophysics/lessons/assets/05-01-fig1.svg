@@ -1,0 +1,48 @@
+<svg viewBox="0 0 700 332" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="11.5">
+  <text x="20" y="18" fill="#8a8a8a" font-style="italic">Travel times give velocity. Density needs the whole planet ringing, plus its mass and its spin.</text>
+
+  <text x="46" y="46" fill="#8a8a8a">two of the gravest modes</text>
+
+  <circle cx="110" cy="118" r="46" fill="none" stroke="#8a8a8a" stroke-width="1.4"/>
+  <ellipse cx="110" cy="118" rx="58" ry="36" fill="none" stroke="#4a90d9" stroke-width="2" stroke-dasharray="5 4"/>
+  <ellipse cx="110" cy="118" rx="36" ry="58" fill="none" stroke="#4a90d9" stroke-width="2" stroke-dasharray="5 4"/>
+  <text x="62" y="188" fill="#4a90d9">&#8320;S&#8322; the &#8220;football&#8221;</text>
+  <text x="70" y="202" fill="#4a90d9">53.9 minutes</text>
+
+  <circle cx="248" cy="118" r="46" fill="none" stroke="#8a8a8a" stroke-width="1.4"/>
+  <circle cx="248" cy="118" r="58" fill="none" stroke="#e0645c" stroke-width="2" stroke-dasharray="5 4"/>
+  <circle cx="248" cy="118" r="34" fill="none" stroke="#e0645c" stroke-width="2" stroke-dasharray="5 4"/>
+  <text x="200" y="188" fill="#e0645c">&#8320;S&#8320; the &#8220;breathing&#8221;</text>
+  <text x="208" y="202" fill="#e0645c">20.5 minutes</text>
+
+  <text x="40" y="234" fill="#8a8a8a">A great earthquake makes the whole Earth ring for weeks.</text>
+  <text x="40" y="248" fill="#8a8a8a">Each mode&#8217;s frequency depends on density as well as</text>
+  <text x="40" y="262" fill="#8a8a8a">on the moduli &#8212; which is exactly what travel times lack.</text>
+  <text x="40" y="284" fill="#4a90d9">Two thousand measured frequencies, one density profile.</text>
+
+  <line x1="430" y1="250" x2="672" y2="250" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="430" y1="250" x2="430" y2="52" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="500" y="270" fill="#8a8a8a">depth &#8594;   (0 to 6371 km)</text>
+  <text x="386" y="62" fill="#8a8a8a">&#961;</text>
+  <line x1="426" y1="230" x2="434" y2="230" stroke="#8a8a8a"/><text x="392" y="234" fill="#8a8a8a">3000</text>
+  <line x1="426" y1="150" x2="434" y2="150" stroke="#8a8a8a"/><text x="392" y="154" fill="#8a8a8a">8000</text>
+  <line x1="426" y1="86" x2="434" y2="86" stroke="#8a8a8a"/><text x="386" y="90" fill="#8a8a8a">13000</text>
+
+  <path d="M 432,236 L 448,224 L 470,218 L 490,208" fill="none" stroke="#4a90d9" stroke-width="2.4"/>
+  <path d="M 490,208 L 498,190" fill="none" stroke="#4a90d9" stroke-width="2.4"/>
+  <path d="M 498,190 L 520,182 L 540,176" fill="none" stroke="#4a90d9" stroke-width="2.4"/>
+  <path d="M 540,176 L 546,166" fill="none" stroke="#4a90d9" stroke-width="2.4"/>
+  <path d="M 546,166 L 570,160 L 596,154" fill="none" stroke="#4a90d9" stroke-width="2.4"/>
+  <line x1="596" y1="154" x2="596" y2="116" stroke="#e0645c" stroke-width="2.6"/>
+  <path d="M 596,116 L 620,108 L 640,102" fill="none" stroke="#4a90d9" stroke-width="2.4"/>
+  <line x1="640" y1="102" x2="640" y2="92" stroke="#e0645c" stroke-width="2.6"/>
+  <path d="M 640,92 L 656,88 L 670,86" fill="none" stroke="#4a90d9" stroke-width="2.4"/>
+
+  <text x="452" y="200" fill="#8a8a8a">410</text>
+  <text x="500" y="160" fill="#8a8a8a">660</text>
+  <text x="546" y="128" fill="#e0645c">core&#8211;mantle boundary:</text>
+  <text x="546" y="142" fill="#e0645c">density nearly doubles</text>
+  <text x="600" y="76" fill="#e0645c">inner core</text>
+
+  <text x="30" y="314" fill="#8a8a8a">PREM: the reference profile that every later model is a perturbation of.</text>
+</svg>

@@ -1,0 +1,54 @@
+<svg viewBox="0 0 700 332" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="11.5">
+  <text x="20" y="20" fill="#8a8a8a" font-style="italic">Any state of stress splits into a part that changes volume and a part that changes shape.</text>
+
+  <text x="52" y="52" fill="#8a8a8a">the stress tensor on a cube</text>
+  <polygon points="60,80 150,80 180,58 90,58" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+  <polygon points="60,80 150,80 150,170 60,170" fill="none" stroke="#8a8a8a" stroke-width="1.6"/>
+  <polygon points="150,80 180,58 180,148 150,170" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+
+  <line x1="105" y1="40" x2="105" y2="52" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="105,58 100,44 110,44" fill="#4a90d9"/>
+  <text x="112" y="44" fill="#4a90d9">&#963;&#8323;&#8323;</text>
+  <line x1="200" y1="114" x2="212" y2="114" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="196,114 210,109 210,119" fill="#4a90d9"/>
+  <text x="216" y="118" fill="#4a90d9">&#963;&#8322;&#8322;</text>
+  <line x1="30" y1="125" x2="42" y2="125" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="48,125 34,120 34,130" fill="#4a90d9"/>
+  <text x="14" y="112" fill="#4a90d9">&#963;&#8321;&#8321;</text>
+
+  <line x1="66" y1="74" x2="130" y2="74" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="142,74 128,69 128,79" fill="#e0645c"/>
+  <text x="86" y="68" fill="#e0645c">&#963;&#8321;&#8323;  (shear)</text>
+
+  <text x="60" y="196" fill="#8a8a8a">nine components, six independent:</text>
+  <text x="60" y="212" fill="#8a8a8a">the tensor is symmetric, or the cube spins.</text>
+
+  <line x1="228" y1="115" x2="262" y2="115" stroke="#8a8a8a" stroke-width="1.4"/>
+  <text x="236" y="108" fill="#8a8a8a">=</text>
+
+  <text x="300" y="52" fill="#4a90d9">isotropic part: pressure</text>
+  <rect x="316" y="70" width="76" height="76" fill="none" stroke="#8a8a8a" stroke-width="1.6"/>
+  <rect x="330" y="84" width="48" height="48" fill="none" stroke="#4a90d9" stroke-width="2" stroke-dasharray="4 3"/>
+  <line x1="354" y1="58" x2="354" y2="78" stroke="#4a90d9" stroke-width="1.8"/><polygon points="354,82 349,68 359,68" fill="#4a90d9"/>
+  <line x1="354" y1="158" x2="354" y2="138" stroke="#4a90d9" stroke-width="1.8"/><polygon points="354,134 349,148 359,148" fill="#4a90d9"/>
+  <line x1="292" y1="108" x2="312" y2="108" stroke="#4a90d9" stroke-width="1.8"/><polygon points="316,108 302,103 302,113" fill="#4a90d9"/>
+  <line x1="416" y1="108" x2="396" y2="108" stroke="#4a90d9" stroke-width="1.8"/><polygon points="392,108 406,103 406,113" fill="#4a90d9"/>
+  <text x="300" y="172" fill="#4a90d9">shape kept, volume shrinks</text>
+  <text x="300" y="188" fill="#4a90d9">resisted by K, the bulk modulus</text>
+  <text x="300" y="210" fill="#8a8a8a">P waves must do this, so they feel K.</text>
+
+  <text x="238" y="115" fill="#8a8a8a"> </text>
+  <text x="452" y="115" fill="#8a8a8a">+</text>
+
+  <text x="496" y="52" fill="#e0645c">deviatoric part: shear</text>
+  <rect x="512" y="70" width="76" height="76" fill="none" stroke="#8a8a8a" stroke-width="1.6"/>
+  <polygon points="528,132 548,84 624,84 604,132" fill="none" stroke="#e0645c" stroke-width="2" stroke-dasharray="4 3"/>
+  <line x1="524" y1="78" x2="580" y2="78" stroke="#e0645c" stroke-width="1.8"/><polygon points="592,78 578,73 578,83" fill="#e0645c"/>
+  <line x1="588" y1="152" x2="532" y2="152" stroke="#e0645c" stroke-width="1.8"/><polygon points="520,152 534,147 534,157" fill="#e0645c"/>
+  <text x="496" y="172" fill="#e0645c">volume kept, shape changes</text>
+  <text x="496" y="188" fill="#e0645c">resisted by &#956;, the shear modulus</text>
+  <text x="30" y="314" fill="#8a8a8a">A liquid has &#956; = 0, so S waves die in it.</text>
+
+  <text x="60" y="248" fill="#8a8a8a">Two independent moduli is the whole story for an isotropic solid — and the two seismic wave speeds</text>
+  <text x="60" y="264" fill="#8a8a8a">measure exactly two numbers. That coincidence is why seismology can weigh the inside of the Earth.</text>
+</svg>

@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 770" width="780" height="770" role="img" aria-label="Three panels. The top panel plots the steady-state gating variables m, h and n against membrane voltage: m rises steeply with depolarization, h falls, n rises more gradually. The middle panel plots the corresponding time constants on the same voltage axis, showing that tau-m stays below half a millisecond everywhere while tau-h and tau-n are several milliseconds, so the sodium activation gate is five to thirty times faster than the other two. The bottom panel is the reduced two-variable phase plane of voltage against the recovery variable n, with an N-shaped voltage nullcline, a monotone recovery nullcline, a stable fixed point where they cross, and two trajectories launched from rest: a small one that curls straight back to the fixed point and a large one that sweeps far right, up, and around in a spike-shaped excursion.">
+  <rect width="780" height="770" fill="#ffffff"/>
+
+  <defs>
+    <marker id="arw" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#333"/>
+    </marker>
+    <marker id="arwr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#d1495b"/>
+    </marker>
+    <marker id="arwg" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2e8b57"/>
+    </marker>
+  </defs>
+
+  <g font-family="Helvetica,Arial,sans-serif">
+
+    <text x="40" y="24" font-size="13.5" font-weight="bold" fill="#111">Hodgkin&#8211;Huxley: where each gate is heading, how fast, and what the pair of them do</text>
+
+    <!-- ================= PANEL A : steady states ================= -->
+    <text x="40" y="48" font-size="12.5" font-weight="bold" fill="#111">a   Steady state of each gate, x&#8734;(V) &#8212; where the gate is heading</text>
+
+    <!-- frame -->
+    <line x1="75" y1="192" x2="700" y2="192" stroke="#333" stroke-width="1.4"/>
+    <line x1="75" y1="192" x2="75" y2="58" stroke="#333" stroke-width="1.4"/>
+    <g stroke="#c8d4e0" stroke-width="0.8">
+      <line x1="75" y1="127" x2="700" y2="127"/>
+      <line x1="192.3" y1="62" x2="192.3" y2="192" stroke-dasharray="3 3"/>
+    </g>
+    <text x="196" y="72" font-size="10" fill="#8fa8c0">rest</text>
+    <g font-size="10" fill="#333" text-anchor="end">
+      <text x="70" y="196">0</text>
+      <text x="70" y="131">0.5</text>
+      <text x="70" y="66">1.0</text>
+    </g>
+    <g font-size="10" fill="#333" text-anchor="middle">
+      <text x="122.3" y="207">&#8722;80</text>
+      <text x="216.9" y="207">&#8722;60</text>
+      <text x="311.5" y="207">&#8722;40</text>
+      <text x="406.1" y="207">&#8722;20</text>
+      <text x="500.8" y="207">0</text>
+      <text x="595.4" y="207">+20</text>
+      <text x="690" y="207">+40</text>
+    </g>
+    <text x="388" y="222" font-size="11" fill="#111" text-anchor="middle">membrane potential V (mV)</text>
+
+    <polyline fill="none" stroke="#d1495b" stroke-width="2.4"
+      points="75,191.7 122.3,191.0 169.6,188.2 216.9,179.8 240.6,171.5 264.2,159.4 287.9,144.0 311.5,126.9 335.2,110.5 358.8,96.6 382.5,85.8 406.1,78.2 453.5,69.3 500.8,65.4 548.1,63.6 595.4,62.8 690,62.2"/>
+    <polyline fill="none" stroke="#2e8b57" stroke-width="2.4"
+      points="75,64.1 122.3,71.0 169.6,94.0 192.3,114.5 216.9,137.6 240.6,157.9 264.2,172.1 287.9,180.6 311.5,185.4 335.2,188.1 358.8,189.5 406.1,190.8 500.8,191.6 690,192.0"/>
+    <polyline fill="none" stroke="#1a6fb5" stroke-width="2.4"
+      points="75,184.2 122.3,175.2 169.6,160.2 216.9,140.5 240.6,130.2 264.2,120.4 287.9,111.5 311.5,103.8 358.8,91.7 406.1,83.4 453.5,77.8 500.8,73.9 595.4,69.1 690,66.4"/>
+
+    <text x="330" y="120" font-size="12" font-weight="bold" fill="#d1495b">m&#8734;</text>
+    <text x="336" y="142" font-size="9.5" fill="#d1495b">Na&#8314; activation</text>
+    <text x="106" y="86" font-size="12" font-weight="bold" fill="#2e8b57">h&#8734;</text>
+    <text x="88" y="100" font-size="9.5" fill="#2e8b57">Na&#8314; availability</text>
+    <text x="450" y="96" font-size="12" font-weight="bold" fill="#1a6fb5">n&#8734;</text>
+    <text x="430" y="110" font-size="9.5" fill="#1a6fb5">K&#8314; activation</text>
+
+    <!-- ================= PANEL B : time constants ================= -->
+    <text x="40" y="248" font-size="12.5" font-weight="bold" fill="#111">b   Time constant of each gate, &#964;x(V) &#8212; how fast it gets there</text>
+
+    <line x1="75" y1="385" x2="700" y2="385" stroke="#333" stroke-width="1.4"/>
+    <line x1="75" y1="385" x2="75" y2="252" stroke="#333" stroke-width="1.4"/>
+    <g stroke="#c8d4e0" stroke-width="0.8">
+      <line x1="75" y1="340" x2="700" y2="340"/>
+      <line x1="75" y1="295" x2="700" y2="295"/>
+      <line x1="192.3" y1="255" x2="192.3" y2="385" stroke-dasharray="3 3"/>
+    </g>
+    <g font-size="10" fill="#333" text-anchor="end">
+      <text x="70" y="389">0</text>
+      <text x="70" y="344">3</text>
+      <text x="70" y="299">6</text>
+      <text x="70" y="254">9</text>
+    </g>
+    <text x="30" y="322" font-size="11" fill="#111">&#964; (ms)</text>
+    <g font-size="10" fill="#333" text-anchor="middle">
+      <text x="122.3" y="400">&#8722;80</text>
+      <text x="216.9" y="400">&#8722;60</text>
+      <text x="311.5" y="400">&#8722;40</text>
+      <text x="406.1" y="400">&#8722;20</text>
+      <text x="500.8" y="400">0</text>
+      <text x="595.4" y="400">+20</text>
+      <text x="690" y="400">+40</text>
+    </g>
+    <text x="388" y="415" font-size="11" fill="#111" text-anchor="middle">membrane potential V (mV)</text>
+
+    <polyline fill="none" stroke="#2e8b57" stroke-width="2.4"
+      points="75,324.6 122.3,290.8 183.8,256.3 192.3,257.2 216.9,269.9 240.6,292.2 264.2,315.4 287.9,334.1 311.5,347.3 335.2,355.9 358.8,361.4 406.1,366.8 453.5,368.8 500.8,369.6 595.4,370.0 690,370.0"/>
+    <polyline fill="none" stroke="#1a6fb5" stroke-width="2.4"
+      points="75,302.5 122.3,298.4 141.6,298.2 169.6,299.8 192.3,303.1 216.9,307.9 240.6,313.7 264.2,320.0 287.9,326.3 311.5,332.3 358.8,342.5 406.1,350.3 453.5,356.0 500.8,360.3 595.4,366.1 690,369.8"/>
+    <polyline fill="none" stroke="#d1495b" stroke-width="2.6"
+      points="75,384.1 122.3,383.4 169.6,382.2 216.9,380.5 264.2,378.5 311.5,377.5 358.8,378.0 406.1,379.3 453.5,380.5 500.8,381.4 595.4,382.5 690,383.1"/>
+
+    <text x="196" y="250" font-size="12" font-weight="bold" fill="#2e8b57">&#964;h</text>
+    <text x="120" y="285" font-size="12" font-weight="bold" fill="#1a6fb5">&#964;n</text>
+    <text x="252" y="367" font-size="11" font-weight="bold" fill="#d1495b">&#964;m &#8212; never above 0.5 ms at any voltage</text>
+
+    <rect x="450" y="258" width="248" height="46" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+    <text x="460" y="275" font-size="10" fill="#111">At rest: &#964;m = 0.24, &#964;h = 8.5, &#964;n = 5.5 ms.</text>
+    <text x="460" y="292" font-size="10" fill="#111">m is 20&#8211;35&#215; faster. That gap is the spike.</text>
+
+    <!-- ================= PANEL C : reduced phase plane ================= -->
+    <text x="40" y="442" font-size="12.5" font-weight="bold" fill="#111">c   The 2-D reduction: V against the recovery variable n (m = m&#8734;(V), h &#8776; 0.89 &#8722; 1.1n)</text>
+
+    <line x1="90" y1="690" x2="700" y2="690" stroke="#333" stroke-width="1.4"/>
+    <line x1="90" y1="690" x2="90" y2="466" stroke="#333" stroke-width="1.4"/>
+    <g font-size="10" fill="#333" text-anchor="end">
+      <text x="85" y="694">0</text>
+      <text x="85" y="584">0.5</text>
+      <text x="85" y="474">1.0</text>
+    </g>
+    <text x="46" y="580" font-size="11" fill="#111">n</text>
+    <g font-size="10" fill="#333" text-anchor="middle">
+      <text x="90" y="705">&#8722;80</text>
+      <text x="183.8" y="705">&#8722;60</text>
+      <text x="277.5" y="705">&#8722;40</text>
+      <text x="371.4" y="705">&#8722;20</text>
+      <text x="465.2" y="705">0</text>
+      <text x="559.1" y="705">+20</text>
+      <text x="652.9" y="705">+40</text>
+    </g>
+    <text x="395" y="720" font-size="11" fill="#111" text-anchor="middle">membrane potential V (mV)</text>
+
+    <!-- V-nullcline (N-shaped) -->
+    <polyline fill="none" stroke="#d1495b" stroke-width="2.4"
+      points="101.7,470 108.8,531.6 118.2,575.6 127.5,597.6 136.9,607.9 146.3,615.2 160.4,620.0 179.1,626.2 197.9,617.4 216.6,597.6 240.0,570.1 254.1,560.6 277.5,547.4 324.5,534.6 371.4,531.8 418.3,533.1 465.2,536.3 559.1,547.7 652.9,572.9 681.1,593.2 695.1,624.0"/>
+    <text x="600" y="566" font-size="11" font-weight="bold" fill="#d1495b">dV/dt = 0</text>
+    <text x="590" y="580" font-size="9.5" fill="#d1495b">(V-nullcline, N-shaped)</text>
+
+    <!-- n-nullcline -->
+    <polyline fill="none" stroke="#1a6fb5" stroke-width="2.4"
+      points="90,661.6 136.9,636.2 183.8,602.8 230.7,568.8 277.5,540.7 324.5,520.3 371.4,506.3 418.3,496.7 465.2,490.1 559.1,482.0 652.9,477.5 700,476.2"/>
+    <text x="560" y="500" font-size="11" font-weight="bold" fill="#1a6fb5">dn/dt = 0</text>
+    <text x="566" y="514" font-size="9.5" fill="#1a6fb5">(n = n&#8734;(V))</text>
+
+    <!-- middle branch = threshold set -->
+    <line x1="244" y1="492" x2="212" y2="594" stroke="#333" stroke-width="1" stroke-dasharray="4 3"/>
+    <text x="252" y="474" font-size="10.5" font-weight="bold" fill="#111">middle branch of the N = threshold set</text>
+    <text x="252" y="487" font-size="9.5" fill="#333">(about 1 mV wide in HH; the knee is drawn deeper than it is)</text>
+
+    <!-- subthreshold trajectory -->
+    <path d="M 188.5 620 C 191 613, 183 608, 174 610 C 167 611, 161 615, 160.4 620"
+          fill="none" stroke="#2e8b57" stroke-width="2.4" marker-end="url(#arwg)"/>
+    <circle cx="188.5" cy="620" r="3.2" fill="#2e8b57"/>
+    <text x="96" y="642" font-size="10" fill="#2e8b57">start just left of the branch:</text>
+    <text x="96" y="654" font-size="10" fill="#2e8b57">curls straight back to rest</text>
+
+    <!-- suprathreshold trajectory -->
+    <path d="M 221.3 620 C 300 622, 420 618, 520 610 C 600 602, 662 590, 666 562
+             C 669 534, 600 512, 500 500 C 400 489, 250 495, 160 517
+             C 118 528, 104 556, 112 583 C 120 607, 143 617, 160.4 620"
+          fill="none" stroke="#111" stroke-width="2.4" marker-end="url(#arw)"/>
+    <circle cx="221.3" cy="620" r="3.2" fill="#111"/>
+    <text x="286" y="644" font-size="10" fill="#111">start just right of it: swept along the bottom to the excited branch (the upstroke),</text>
+    <text x="286" y="656" font-size="10" fill="#111">up as n rises (repolarisation), back left, and home below rest (the AHP)</text>
+
+    <!-- fixed point -->
+    <circle cx="160.4" cy="620" r="4.8" fill="#1a6fb5" stroke="#111" stroke-width="1.4"/>
+    <line x1="160.4" y1="620" x2="128" y2="663" stroke="#333" stroke-width="1" marker-end="url(#arw)"/>
+    <text x="96" y="676" font-size="10.5" font-weight="bold" fill="#111">stable fixed point = rest</text>
+
+    <text x="40" y="742" font-size="10.5" fill="#333">Raising the injected current lifts the red nullcline. When the fixed point slides past the knee it loses stability</text>
+    <text x="40" y="757" font-size="10.5" fill="#333">and a limit cycle appears &#8212; a Hopf bifurcation. That is what repetitive firing is, in this picture.</text>
+  </g>
+</svg>

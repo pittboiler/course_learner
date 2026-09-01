@@ -1,0 +1,36 @@
+<svg viewBox="0 0 700 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="11.5">
+  <text x="20" y="20" fill="#8a8a8a" font-style="italic">Poleward heat transport. The ocean dominates in the tropics; the atmosphere takes over by 30 degrees.</text>
+
+  <line x1="120" y1="155" x2="640" y2="155" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="375" y1="255" x2="375" y2="55" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="330" y="278" fill="#8a8a8a">latitude</text>
+  <text x="34" y="106" fill="#8a8a8a">northward</text>
+  <text x="34" y="119" fill="#8a8a8a">transport (PW)</text>
+
+  <line x1="183.8" y1="151" x2="183.8" y2="159" stroke="#8a8a8a"/><text x="169" y="171" fill="#8a8a8a">60 S</text>
+  <line x1="279.4" y1="151" x2="279.4" y2="159" stroke="#8a8a8a"/><text x="265" y="171" fill="#8a8a8a">30 S</text>
+  <line x1="470.6" y1="151" x2="470.6" y2="159" stroke="#8a8a8a"/><text x="458" y="171" fill="#8a8a8a">30 N</text>
+  <line x1="566.2" y1="151" x2="566.2" y2="159" stroke="#8a8a8a"/><text x="554" y="171" fill="#8a8a8a">60 N</text>
+
+  <line x1="371" y1="218.3" x2="379" y2="218.3" stroke="#8a8a8a"/><text x="342" y="222" fill="#8a8a8a">-4</text>
+  <line x1="371" y1="186.7" x2="379" y2="186.7" stroke="#8a8a8a"/><text x="342" y="190" fill="#8a8a8a">-2</text>
+  <line x1="371" y1="123.3" x2="379" y2="123.3" stroke="#8a8a8a"/><text x="352" y="127" fill="#8a8a8a">2</text>
+  <line x1="371" y1="91.7" x2="379" y2="91.7" stroke="#8a8a8a"/><text x="352" y="95" fill="#8a8a8a">4</text>
+
+  <path d="M 120.0,177.2 L 151.9,205.7 L 183.8,227.8 L 215.6,240.5 L 247.5,242.1 L 279.4,234.2 L 311.2,215.2 L 343.1,186.7 L 375.0,155.0 L 406.9,123.3 L 438.8,94.8 L 470.6,75.8 L 502.5,67.9 L 534.4,69.5 L 566.2,82.2 L 598.1,104.3 L 630.0,132.8"
+        fill="none" stroke="#8a8a8a" stroke-width="2.5"/>
+  <text x="500" y="60" fill="#8a8a8a">TOTAL, fixed by the radiation budget</text>
+
+  <path d="M 120.0,174.0 L 151.9,197.8 L 183.8,213.6 L 215.6,223.1 L 247.5,223.1 L 279.4,212.0 L 311.2,189.8 L 343.1,169.2 L 375.0,155.0 L 406.9,140.8 L 438.8,121.8 L 470.6,99.6 L 502.5,83.8 L 534.4,77.4 L 566.2,86.9 L 598.1,105.9 L 630.0,132.8"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="536" y="100" fill="#4a90d9">atmosphere</text>
+
+  <path d="M 120.0,158.2 L 151.9,162.9 L 183.8,169.2 L 215.6,172.4 L 247.5,174.0 L 279.4,177.2 L 311.2,180.3 L 343.1,172.4 L 375.0,155.0 L 406.9,137.6 L 438.8,128.1 L 470.6,131.2 L 502.5,139.2 L 534.4,147.1 L 566.2,150.2 L 598.1,153.4 L 630.0,155.0"
+        fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="446" y="120" fill="#e0645c">ocean</text>
+
+  <line x1="438.8" y1="128.1" x2="438.8" y2="121.8" stroke="#8a8a8a" stroke-width="1.5"/>
+  <circle cx="438.8" cy="128.1" r="3.5" fill="#e0645c"/>
+  <text x="300" y="236" fill="#8a8a8a">at 20 N: ocean 1.7 PW, atmosphere 2.1 PW</text>
+  <text x="300" y="248" fill="#8a8a8a">at 40 N: ocean 1.0 PW, atmosphere 4.5 PW</text>
+</svg>

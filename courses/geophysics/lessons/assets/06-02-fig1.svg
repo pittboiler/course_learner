@@ -1,0 +1,49 @@
+<svg viewBox="0 0 700 346" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="11.5">
+  <text x="20" y="18" fill="#8a8a8a" font-style="italic">A gather is a hyperbola. Flatten it and you have the velocity; stack it and the noise goes away.</text>
+
+  <text x="40" y="44" fill="#8a8a8a">a CMP gather, before NMO</text>
+  <line x1="46" y1="58" x2="46" y2="230" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="46" y1="58" x2="212" y2="58" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="100" y="52" fill="#8a8a8a">offset &#8594;</text>
+  <text x="8" y="150" fill="#8a8a8a">time</text>
+  <g stroke="#4a90d9" stroke-width="1.6">
+    <line x1="60" y1="58" x2="60" y2="230"/><line x1="82" y1="58" x2="82" y2="230"/>
+    <line x1="104" y1="58" x2="104" y2="230"/><line x1="126" y1="58" x2="126" y2="230"/>
+    <line x1="148" y1="58" x2="148" y2="230"/><line x1="170" y1="58" x2="170" y2="230"/>
+    <line x1="192" y1="58" x2="192" y2="230"/>
+  </g>
+  <path d="M 60,120 Q 100,122 126,130 Q 160,144 192,166" fill="none" stroke="#e0645c" stroke-width="2.6"/>
+  <text x="126" y="188" fill="#e0645c">t = &#8730;(t&#8320;&#178; + x&#178;/V&#178;)</text>
+  <line x1="46" y1="120" x2="60" y2="120" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 2"/>
+  <text x="20" y="118" fill="#8a8a8a">t&#8320;</text>
+  <text x="40" y="256" fill="#8a8a8a">Far traces arrive later simply because</text>
+  <text x="40" y="270" fill="#8a8a8a">the path is longer &#8212; normal moveout.</text>
+  <text x="40" y="290" fill="#8a8a8a">The curvature IS the velocity.</text>
+
+  <text x="256" y="44" fill="#8a8a8a">after NMO, and stacked</text>
+  <line x1="262" y1="58" x2="262" y2="230" stroke="#8a8a8a" stroke-width="1.2"/>
+  <g stroke="#4a90d9" stroke-width="1.6">
+    <line x1="276" y1="58" x2="276" y2="230"/><line x1="298" y1="58" x2="298" y2="230"/>
+    <line x1="320" y1="58" x2="320" y2="230"/><line x1="342" y1="58" x2="342" y2="230"/>
+    <line x1="364" y1="58" x2="364" y2="230"/><line x1="386" y1="58" x2="386" y2="230"/>
+    <line x1="408" y1="58" x2="408" y2="230"/>
+  </g>
+  <line x1="276" y1="120" x2="408" y2="120" stroke="#e0645c" stroke-width="2.6"/>
+  <line x1="436" y1="58" x2="436" y2="230" stroke="#8a8a8a" stroke-width="2.4"/>
+  <path d="M 436,120 l 14,-16 l 0,32 l -14,-16" fill="#e0645c"/>
+  <text x="452" y="124" fill="#e0645c">one strong trace</text>
+  <text x="256" y="256" fill="#8a8a8a">Sixty traces added together: signal &#215;60,</text>
+  <text x="256" y="270" fill="#8a8a8a">random noise &#215;&#8730;60. Ratio improves 7.7-fold.</text>
+
+  <text x="500" y="44" fill="#8a8a8a">why migration</text>
+  <line x1="502" y1="66" x2="676" y2="66" stroke="#8a8a8a" stroke-width="1"/>
+  <path d="M 506,150 Q 560,110 604,96 L 660,90" fill="none" stroke="#4a90d9" stroke-width="2.4"/>
+  <text x="606" y="82" fill="#4a90d9">true reflector</text>
+  <path d="M 506,178 Q 566,142 620,128 L 664,124" fill="none" stroke="#e0645c" stroke-width="2.4" stroke-dasharray="6 4"/>
+  <text x="500" y="196" fill="#e0645c">what the unmigrated section shows:</text>
+  <text x="500" y="210" fill="#e0645c">too deep, too shallow a dip,</text>
+  <text x="500" y="224" fill="#e0645c">displaced down-dip</text>
+  <text x="30" y="314" fill="#8a8a8a">Migration moves energy back to where it</text>
+  <text x="30" y="328" fill="#8a8a8a">came from and collapses diffractions.</text>
+  <text x="444" y="282" fill="#8a8a8a">It is an inverse problem, not a cosmetic one.</text>
+</svg>

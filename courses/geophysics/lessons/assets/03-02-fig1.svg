@@ -1,0 +1,42 @@
+<svg viewBox="0 0 700 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="11.5">
+  <text x="20" y="18" fill="#8a8a8a" font-style="italic">The field would die in twenty thousand years. Something is regenerating it, and rotation decides its shape.</text>
+
+  <text x="34" y="48" fill="#8a8a8a">the induction equation: a race</text>
+  <rect x="34" y="62" width="128" height="60" fill="#4a90d9" opacity="0.18" stroke="#4a90d9"/>
+  <text x="44" y="86" fill="#4a90d9">&#8711;&#215;(u&#215;B)</text>
+  <text x="44" y="104" fill="#4a90d9">stretching: builds field</text>
+  <rect x="186" y="62" width="128" height="60" fill="#e0645c" opacity="0.18" stroke="#e0645c"/>
+  <text x="196" y="86" fill="#e0645c">&#951;&#8711;&#178;B</text>
+  <text x="196" y="104" fill="#e0645c">diffusion: kills field</text>
+  <text x="120" y="142" fill="#8a8a8a">R&#8344; = uL/&#951;</text>
+  <text x="34" y="162" fill="#8a8a8a">R&#8344; &lt; 40: the field decays away.</text>
+  <text x="34" y="176" fill="#8a8a8a">Earth&#8217;s core runs at R&#8344; &#8776; 1000.</text>
+
+  <text x="34" y="208" fill="#8a8a8a">Iron loses its magnetism above 770 &#176;C and the core is</text>
+  <text x="34" y="222" fill="#8a8a8a">4000 &#176;C, so it cannot be a permanent magnet. And it</text>
+  <text x="34" y="236" fill="#8a8a8a">cannot be a fossil either: &#964; = &#956;&#8320;&#963;L&#178;/&#960;&#178; &#8776; 20,000 yr,</text>
+  <text x="34" y="250" fill="#8a8a8a">against a field 3.5 billion years old in the rock record.</text>
+  <text x="34" y="272" fill="#4a90d9">So the field is being made right now, continuously.</text>
+
+  <text x="440" y="48" fill="#8a8a8a">why the dipole lines up with the spin axis</text>
+  <circle cx="540" cy="170" r="86" fill="none" stroke="#8a8a8a" stroke-width="1.4"/>
+  <circle cx="540" cy="170" r="34" fill="#8a8a8a" opacity="0.18" stroke="#8a8a8a"/>
+  <text x="516" y="174" fill="#8a8a8a">inner</text>
+  <text x="516" y="186" fill="#8a8a8a">core</text>
+  <line x1="540" y1="66" x2="540" y2="274" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 3"/>
+  <path d="M 528,60 A 16,16 0 0 1 552,60" fill="none" stroke="#e0645c" stroke-width="1.6"/>
+  <polygon points="554,62 544,54 550,68" fill="#e0645c"/>
+  <text x="558" y="60" fill="#e0645c">&#937;</text>
+
+  <g stroke="#4a90d9" stroke-width="2" fill="none">
+    <path d="M 590,112 L 590,228"/>
+    <path d="M 610,124 L 610,216"/>
+    <path d="M 490,112 L 490,228"/>
+    <path d="M 470,124 L 470,216"/>
+  </g>
+  <ellipse cx="590" cy="112" rx="10" ry="4" fill="none" stroke="#4a90d9" stroke-width="1.6"/>
+  <ellipse cx="490" cy="112" rx="10" ry="4" fill="none" stroke="#4a90d9" stroke-width="1.6"/>
+
+  <text x="388" y="272" fill="#8a8a8a">Coriolis forces convection into columns aligned with &#937;.</text>
+  <text x="309" y="286" fill="#8a8a8a">Columns aligned with the spin axis make a dipole aligned with it too.</text>
+</svg>

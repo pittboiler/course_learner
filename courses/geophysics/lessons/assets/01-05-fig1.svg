@@ -1,0 +1,45 @@
+<svg viewBox="0 0 700 332" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="11.5">
+  <text x="20" y="18" fill="#8a8a8a" font-style="italic">A tomogram is a picture of how late the waves were, projected back along the paths they took.</text>
+
+  <text x="24" y="42" fill="#8a8a8a">many rays, each carrying one number: its delay</text>
+  <g stroke="#8a8a8a" stroke-width="0.7">
+    <line x1="40" y1="60" x2="40" y2="220"/><line x1="80" y1="60" x2="80" y2="220"/><line x1="120" y1="60" x2="120" y2="220"/>
+    <line x1="160" y1="60" x2="160" y2="220"/><line x1="200" y1="60" x2="200" y2="220"/><line x1="240" y1="60" x2="240" y2="220"/>
+    <line x1="40" y1="60" x2="240" y2="60"/><line x1="40" y1="100" x2="240" y2="100"/><line x1="40" y1="140" x2="240" y2="140"/>
+    <line x1="40" y1="180" x2="240" y2="180"/><line x1="40" y1="220" x2="240" y2="220"/>
+  </g>
+  <rect x="120" y="100" width="40" height="80" fill="#4a90d9" opacity="0.30"/>
+  <text x="126" y="146" fill="#4a90d9">fast</text>
+
+  <line x1="20" y1="70" x2="258" y2="128" stroke="#e0645c" stroke-width="1.4"/>
+  <line x1="20" y1="150" x2="258" y2="96" stroke="#e0645c" stroke-width="1.4"/>
+  <line x1="24" y1="238" x2="196" y2="46" stroke="#e0645c" stroke-width="1.4"/>
+  <line x1="60" y1="240" x2="252" y2="70" stroke="#e0645c" stroke-width="1.4"/>
+  <text x="24" y="256" fill="#e0645c">rays</text>
+  <text x="60" y="272" fill="#8a8a8a">&#948;t = &#8747; &#948;s d&#8467;   &#8212; each ray sums the slowness</text>
+  <text x="60" y="286" fill="#8a8a8a">anomaly along its own path, and nothing else.</text>
+
+  <text x="308" y="42" fill="#8a8a8a">good coverage</text>
+  <rect x="308" y="56" width="90" height="90" fill="none" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="300" y1="66" x2="406" y2="136" stroke="#e0645c" stroke-width="1.2"/>
+  <line x1="300" y1="136" x2="406" y2="66" stroke="#e0645c" stroke-width="1.2"/>
+  <line x1="352" y1="48" x2="352" y2="154" stroke="#e0645c" stroke-width="1.2"/>
+  <line x1="298" y1="101" x2="408" y2="101" stroke="#e0645c" stroke-width="1.2"/>
+  <text x="308" y="166" fill="#4a90d9">rays cross at many angles &#8594;</text>
+  <text x="308" y="180" fill="#4a90d9">an anomaly is pinned in place</text>
+
+  <text x="470" y="42" fill="#8a8a8a">poor coverage</text>
+  <rect x="470" y="56" width="90" height="90" fill="none" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="462" y1="70" x2="568" y2="86" stroke="#e0645c" stroke-width="1.2"/>
+  <line x1="462" y1="86" x2="568" y2="102" stroke="#e0645c" stroke-width="1.2"/>
+  <line x1="462" y1="102" x2="568" y2="118" stroke="#e0645c" stroke-width="1.2"/>
+  <ellipse cx="515" cy="94" rx="46" ry="11" fill="#4a90d9" opacity="0.28"/>
+  <text x="470" y="166" fill="#e0645c">all rays nearly parallel &#8594;</text>
+  <text x="470" y="180" fill="#e0645c">the anomaly smears along them</text>
+  <text x="470" y="194" fill="#e0645c">and its length is unconstrained</text>
+
+  <text x="287" y="222" fill="#8a8a8a">Earthquakes sit on plate boundaries and seismometers sit on land, so real</text>
+  <text x="248" y="236" fill="#8a8a8a">coverage looks more like the right-hand box than the left in most of the mantle.</text>
+  <text x="259" y="256" fill="#8a8a8a">This is why every honest tomogram is published with a resolution test, and why</text>
+  <text x="30" y="314" fill="#8a8a8a">the shape of a blob is always less trustworthy than the fact that it is there.</text>
+</svg>

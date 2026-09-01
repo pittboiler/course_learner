@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 836 450" width="836" height="450" role="img" aria-label="Panel a: free-body diagram of an infinite slope, with a slab of thickness z resting on a failure plane inclined at beta, its weight resolved into a slope-normal component that clamps the base and a slope-parallel component that drives sliding, pore pressure arrows pushing outward on the failure plane, and the factor-of-safety expressions written beneath. Panel b: mass-wasting types plotted as horizontal bars against velocity on a logarithmic axis spanning twelve orders of magnitude and coloured by water content, with small sketches of creep, a rotational slump and a translational slide.">
+  <rect width="836" height="450" fill="#ffffff"/>
+  <defs>
+    <marker id="aInk" markerWidth="9" markerHeight="9" refX="7.5" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 z" fill="#111"/>
+    </marker>
+    <marker id="aBlue" markerWidth="9" markerHeight="9" refX="7.5" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 z" fill="#1a6fb5"/>
+    </marker>
+    <marker id="aRed" markerWidth="9" markerHeight="9" refX="7.5" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 z" fill="#d1495b"/>
+    </marker>
+    <marker id="aInkS" markerWidth="7" markerHeight="7" refX="6" refY="2.5" orient="auto">
+      <path d="M0,0 L6,2.5 L0,5 z" fill="#111"/>
+    </marker>
+  </defs>
+  <g font-family="Helvetica,Arial,sans-serif">
+
+    <text x="20" y="24" font-size="13" font-weight="bold" fill="#111">(a) The infinite slope: one ratio decides</text>
+    <text x="430" y="24" font-size="13" font-weight="bold" fill="#111">(b) How fast, and how wet</text>
+
+    <!-- ================= PANEL A ================= -->
+    <polygon points="40,147 300,297 340,297 340,332 40,332" fill="#eef1f4"/>
+    <polygon points="70,95 330,245 300,297 40,147" fill="#d8c9a3"/>
+    <line x1="70" y1="95" x2="330" y2="245" stroke="#111" stroke-width="2"/>
+    <line x1="40" y1="147" x2="300" y2="297" stroke="#d1495b" stroke-width="2.5"/>
+    <text x="48" y="166" font-size="10" fill="#d1495b" font-weight="bold" transform="rotate(30 48 166)">failure plane</text>
+    <text x="338" y="328" font-size="10" fill="#555" text-anchor="end">substrate (does not move)</text>
+
+    <!-- slope angle -->
+    <line x1="70" y1="95" x2="146" y2="95" stroke="#333" stroke-width="1" stroke-dasharray="3,3"/>
+    <path d="M130,95 A60,60 0 0 1 121.96,125" fill="none" stroke="#333" stroke-width="1.2"/>
+    <text x="134" y="117" font-size="12" fill="#111" font-weight="bold">&#946;</text>
+
+    <!-- slab thickness -->
+    <line x1="101.2" y1="113" x2="71.2" y2="165" stroke="#111" stroke-width="1.2" marker-start="url(#aInkS)" marker-end="url(#aInkS)"/>
+    <text x="92" y="143" font-size="12" fill="#111" font-weight="bold">z</text>
+
+    <!-- pore pressure pushing outward on the failure plane -->
+    <line x1="118" y1="192" x2="131" y2="169.5" stroke="#1a6fb5" stroke-width="1.8" marker-end="url(#aBlue)"/>
+    <line x1="159.6" y1="216" x2="172.6" y2="193.5" stroke="#1a6fb5" stroke-width="1.8" marker-end="url(#aBlue)"/>
+    <text x="135" y="166" font-size="11" fill="#1a6fb5" font-weight="bold">u</text>
+    <text x="176" y="190" font-size="11" fill="#1a6fb5" font-weight="bold">u</text>
+
+    <!-- weight and its resolution, anchored on the failure plane -->
+    <line x1="201.2" y1="310" x2="170.9" y2="292.5" stroke="#999" stroke-width="1" stroke-dasharray="3,3"/>
+    <line x1="201.2" y1="310" x2="231.5" y2="257.5" stroke="#999" stroke-width="1" stroke-dasharray="3,3"/>
+    <line x1="201.2" y1="240" x2="201.2" y2="310" stroke="#111" stroke-width="2" marker-end="url(#aInk)"/>
+    <line x1="201.2" y1="240" x2="170.9" y2="292.5" stroke="#1a6fb5" stroke-width="2" marker-end="url(#aBlue)"/>
+    <line x1="201.2" y1="240" x2="231.5" y2="257.5" stroke="#d1495b" stroke-width="2" marker-end="url(#aRed)"/>
+    <text x="207" y="305" font-size="11" fill="#111" font-weight="bold">W</text>
+    <text x="166" y="299" font-size="10" fill="#1a6fb5" text-anchor="end" font-weight="bold">W cos&#946; clamps</text>
+    <text x="238" y="283" font-size="10" fill="#d1495b" font-weight="bold">W sin&#946; drives</text>
+
+    <!-- formula panel -->
+    <rect x="20" y="335" width="380" height="98" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+    <text x="32" y="356" font-size="10.5" fill="#111">&#963;n = &#961;gz cos&#178;&#946;</text>
+    <text x="180" y="356" font-size="10.5" fill="#111">&#964; = &#961;gz sin&#946; cos&#946;</text>
+    <text x="32" y="379" font-size="12" fill="#111" font-weight="bold">F = [ c + (&#963;n &#8722; u) tan&#966; ] / &#964;</text>
+    <text x="32" y="400" font-size="10.5" fill="#2e8b57">dry, no cohesion:  F = tan&#966; / tan&#946;   (z and &#961; cancel)</text>
+    <text x="32" y="421" font-size="10.5" fill="#1a6fb5">saturated, seepage:  multiply F by (&#961; &#8722; &#961;w)/&#961; &#8776; 0.5</text>
+
+    <!-- ================= PANEL B ================= -->
+    <line x1="560" y1="212" x2="808" y2="212" stroke="#333" stroke-width="1.3"/>
+    <g stroke="#8fa8c0" stroke-width="1" stroke-dasharray="2,3">
+      <line x1="601.3" y1="52" x2="601.3" y2="212"/>
+      <line x1="642.7" y1="52" x2="642.7" y2="212"/>
+      <line x1="684" y1="52" x2="684" y2="212"/>
+      <line x1="725.3" y1="52" x2="725.3" y2="212"/>
+      <line x1="766.7" y1="52" x2="766.7" y2="212"/>
+    </g>
+
+    <rect x="560" y="58" width="41.3" height="13" fill="#9fb3a8" stroke="#333" stroke-width="0.8"/>
+    <g fill="#4f96c8" stroke="#333" stroke-width="0.8">
+      <rect x="580.7" y="80" width="31" height="13"/>
+      <rect x="622" y="102" width="62" height="13"/>
+      <rect x="642.7" y="124" width="103.3" height="13"/>
+      <rect x="642.7" y="146" width="62" height="13"/>
+      <rect x="746" y="168" width="47.5" height="13"/>
+    </g>
+    <rect x="776.3" y="190" width="31.7" height="13" fill="#d8c9a3" stroke="#333" stroke-width="0.8"/>
+
+    <g font-size="9.5" fill="#111" text-anchor="end">
+      <text x="553" y="68">creep</text>
+      <text x="553" y="90">solifluction</text>
+      <text x="553" y="112">slump (rotational)</text>
+      <text x="553" y="134">slide (planar)</text>
+      <text x="553" y="156">earthflow</text>
+      <text x="553" y="178">debris flow, lahar</text>
+      <text x="553" y="200">rockfall, avalanche</text>
+    </g>
+
+    <g stroke="#333" stroke-width="1">
+      <line x1="560" y1="212" x2="560" y2="217"/>
+      <line x1="601.3" y1="212" x2="601.3" y2="217"/>
+      <line x1="642.7" y1="212" x2="642.7" y2="217"/>
+      <line x1="684" y1="212" x2="684" y2="217"/>
+      <line x1="725.3" y1="212" x2="725.3" y2="217"/>
+      <line x1="766.7" y1="212" x2="766.7" y2="217"/>
+      <line x1="808" y1="212" x2="808" y2="217"/>
+    </g>
+    <g font-size="9.5" fill="#333" text-anchor="middle">
+      <text x="560" y="230">10<tspan font-size="7" dy="-4">&#8722;10</tspan></text>
+      <text x="601.3" y="230">10<tspan font-size="7" dy="-4">&#8722;8</tspan></text>
+      <text x="642.7" y="230">10<tspan font-size="7" dy="-4">&#8722;6</tspan></text>
+      <text x="684" y="230">10<tspan font-size="7" dy="-4">&#8722;4</tspan></text>
+      <text x="725.3" y="230">10<tspan font-size="7" dy="-4">&#8722;2</tspan></text>
+      <text x="766.7" y="230">10<tspan font-size="7" dy="-4">0</tspan></text>
+      <text x="808" y="230">10<tspan font-size="7" dy="-4">2</tspan></text>
+    </g>
+    <text x="684" y="248" font-size="10" fill="#111" text-anchor="middle">velocity (m/s) &#8212; twelve orders of magnitude</text>
+
+    <g font-size="9.5" fill="#111">
+      <rect x="560" y="258" width="12" height="10" fill="#d8c9a3" stroke="#333" stroke-width="0.8"/>
+      <text x="576" y="267">dry</text>
+      <rect x="614" y="258" width="12" height="10" fill="#9fb3a8" stroke="#333" stroke-width="0.8"/>
+      <text x="630" y="267">damp</text>
+      <rect x="682" y="258" width="12" height="10" fill="#4f96c8" stroke="#333" stroke-width="0.8"/>
+      <text x="698" y="267">saturated</text>
+    </g>
+
+    <!-- sketch 1: creep -->
+    <text x="436" y="292" font-size="10" font-weight="bold" fill="#111">creep</text>
+    <polygon points="440,302 550,352 550,390 440,390" fill="#d8c9a3" stroke="#333" stroke-width="1"/>
+    <line x1="470" y1="315.6" x2="470" y2="294" stroke="#999" stroke-width="1" stroke-dasharray="3,2"/>
+    <line x1="470" y1="315.6" x2="477" y2="294" stroke="#111" stroke-width="2"/>
+    <line x1="502" y1="330.2" x2="510" y2="309" stroke="#111" stroke-width="2"/>
+    <path d="M534,344.7 C532,335 540,330 545,322" fill="none" stroke="#2e8b57" stroke-width="2"/>
+    <text x="435" y="408" font-size="9.5" fill="#333">posts tilt, trunks curve;</text>
+    <text x="435" y="420" font-size="9.5" fill="#333">no scarp, no failure plane</text>
+
+    <!-- sketch 2: rotational slump -->
+    <text x="566" y="292" font-size="10" font-weight="bold" fill="#111">slump</text>
+    <polygon points="568,302 690,354 690,392 568,392" fill="#eef1f4" stroke="#333" stroke-width="1"/>
+    <path d="M596,314 L601,332 L643,330 L661,358 L646,375 C601,377 585,348 596,314 Z" fill="#d8c9a3" stroke="#333" stroke-width="1"/>
+    <path d="M596,314 C585,348 601,377 646,375" fill="none" stroke="#d1495b" stroke-width="2"/>
+    <text x="600" y="306" font-size="9" fill="#111" text-anchor="end">scarp</text>
+    <text x="667" y="368" font-size="9" fill="#111">toe</text>
+    <text x="565" y="408" font-size="9.5" fill="#333">curved surface; the head</text>
+    <text x="565" y="420" font-size="9.5" fill="#333">rotates back into the hill</text>
+
+    <!-- sketch 3: translational slide -->
+    <text x="700" y="292" font-size="10" font-weight="bold" fill="#111">slide</text>
+    <polygon points="702,302 806,346 806,392 702,392" fill="#eef1f4" stroke="#333" stroke-width="1"/>
+    <polygon points="713,306.7 809,347.7 809,365.7 713,324.7" fill="#d8c9a3" stroke="#333" stroke-width="1"/>
+    <line x1="702" y1="320" x2="800" y2="362" stroke="#d1495b" stroke-width="2"/>
+    <line x1="736" y1="296" x2="762" y2="307" stroke="#111" stroke-width="1.6" marker-end="url(#aInkS)"/>
+    <text x="700" y="408" font-size="9.5" fill="#333">planar surface parallel to</text>
+    <text x="700" y="420" font-size="9.5" fill="#333">the slope; no rotation</text>
+
+  </g>
+</svg>

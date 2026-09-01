@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 787 358" width="787" height="358" role="img" aria-label="The silicate polymerization series in five panels with a data table beneath each">
+<rect width="787" height="358" fill="#ffffff"/>
+
+<defs>
+<marker id="arw" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto">
+<path d="M0,0 L9,3.5 L0,7 z" fill="#333"/>
+</marker>
+</defs>
+
+<text x="8" y="20" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="bold" fill="#111">Silicate polymerization: read the trend across the row</text>
+
+<text x="140" y="37" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#333">tetrahedra share more oxygens</text>
+<line x1="140" y1="45" x2="770" y2="45" stroke="#333" stroke-width="1.2" marker-end="url(#arw)"/>
+
+<g stroke="#1a6fb5" stroke-width="1.6" fill="#bcd6ec" stroke-linejoin="round">
+
+<polygon points="163,118 191,118 177,94"/>
+<polygon points="199,118 227,118 213,94"/>
+
+<polygon points="269,110 297,110 283,86"/>
+<polygon points="297,110 325,110 311,134"/>
+<polygon points="325,110 353,110 339,86"/>
+<polygon points="353,110 381,110 367,134"/>
+
+<polygon points="399,90 427,90 413,66"/>
+<polygon points="427,90 455,90 441,114"/>
+<polygon points="455,90 483,90 469,66"/>
+<polygon points="483,90 511,90 497,114"/>
+<polygon points="399,138 427,138 413,162"/>
+<polygon points="427,138 455,138 441,114"/>
+<polygon points="455,138 483,138 469,162"/>
+<polygon points="483,138 511,138 497,114"/>
+
+<polygon points="529,80 557,80 543,56"/>
+<polygon points="557,80 585,80 571,104"/>
+<polygon points="585,80 613,80 599,56"/>
+<polygon points="613,80 641,80 627,104"/>
+<polygon points="529,148 557,148 543,172"/>
+<polygon points="557,148 585,148 571,124"/>
+<polygon points="585,148 613,148 599,172"/>
+<polygon points="613,148 641,148 627,124"/>
+
+<polygon points="699,98 731,98 715,72"/>
+<polygon points="699,130 731,130 715,156"/>
+<polygon points="699,98 699,130 673,114"/>
+<polygon points="731,98 731,130 757,114"/>
+</g>
+
+<rect x="699" y="98" width="32" height="32" fill="#ffffff" stroke="#1a6fb5" stroke-width="1.6"/>
+
+<line x1="525" y1="114" x2="645" y2="114" stroke="#d1495b" stroke-width="1.4" stroke-dasharray="6,4"/>
+<circle cx="557" cy="114" r="4" fill="#d1495b"/>
+<circle cx="585" cy="114" r="4" fill="#d1495b"/>
+<circle cx="613" cy="114" r="4" fill="#d1495b"/>
+
+<g font-family="Helvetica,Arial,sans-serif" font-size="12.5" font-weight="bold" fill="#111" text-anchor="middle">
+<text x="195" y="192">isolated</text>
+<text x="325" y="192">single chain</text>
+<text x="455" y="192">double chain</text>
+<text x="585" y="192">sheet</text>
+<text x="715" y="192">framework</text>
+</g>
+
+<line x1="4" y1="199" x2="776" y2="199" stroke="#8fa8c0" stroke-width="1"/>
+
+<rect x="4" y="203" width="772" height="22" fill="#f5f7fa"/>
+<rect x="4" y="247" width="772" height="22" fill="#f5f7fa"/>
+<rect x="4" y="291" width="772" height="22" fill="#f5f7fa"/>
+
+<g font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#333" text-anchor="end">
+<text x="126" y="219">shared O / tetra.</text>
+<text x="126" y="241">O : Si ratio</text>
+<text x="126" y="263">cation charge / Si</text>
+<text x="126" y="285">example</text>
+<text x="126" y="307">cleavage</text>
+<text x="126" y="329">density (g/cm&#179;)</text>
+</g>
+
+<g font-family="Helvetica,Arial,sans-serif" font-size="12.5" fill="#111" text-anchor="middle">
+<text x="195" y="219">0</text><text x="325" y="219">2</text><text x="455" y="219">2.5</text><text x="585" y="219">3</text><text x="715" y="219">4</text>
+<text x="195" y="241">4.00</text><text x="325" y="241">3.00</text><text x="455" y="241">2.75</text><text x="585" y="241">2.50</text><text x="715" y="241">2.00</text>
+<text x="195" y="263">4</text><text x="325" y="263">2</text><text x="455" y="263">1.5</text><text x="585" y="263">1</text><text x="715" y="263">0</text>
+<text x="195" y="285">olivine</text><text x="325" y="285">pyroxene</text><text x="455" y="285">amphibole</text><text x="585" y="285">mica</text><text x="715" y="285">quartz</text>
+<text x="195" y="307">none</text><text x="325" y="307">87&#176; / 93&#176;</text><text x="455" y="307">56&#176; / 124&#176;</text><text x="585" y="307">1 perfect</text><text x="715" y="307">none</text>
+<text x="195" y="329">3.3</text><text x="325" y="329">3.2</text><text x="455" y="329">3.0</text><text x="585" y="329">2.8</text><text x="715" y="329">2.65</text>
+</g>
+
+<line x1="8" y1="347" x2="26" y2="347" stroke="#d1495b" stroke-width="1.4" stroke-dasharray="6,4"/>
+<circle cx="35" cy="347" r="4" fill="#d1495b"/>
+<text x="45" y="351" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#333">Red dots are the interlayer cations; the red dashed line is the weak plane along which mica cleaves.</text>
+</svg>

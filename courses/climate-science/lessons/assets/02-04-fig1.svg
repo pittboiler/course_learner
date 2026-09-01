@@ -1,0 +1,57 @@
+<svg viewBox="0 0 660 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="12">
+  <text x="20" y="20" fill="#8a8a8a" font-style="italic">Same substance, opposite sign: what matters is cloud-top temperature and optical thickness.</text>
+
+  <!-- ===== LEFT: high thin cirrus ===== -->
+  <text x="60" y="46" fill="#8a8a8a">high, thin (cirrus)</text>
+  <line x1="60" y1="278" x2="300" y2="278" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="60" y="296" fill="#8a8a8a">surface, 288 K</text>
+
+  <!-- cirrus -->
+  <rect x="96" y="86" width="180" height="10" fill="#4a90d9" opacity="0.22" stroke="#4a90d9" stroke-width="1.2"/>
+  <text x="96" y="78" fill="#4a90d9">cloud top 210 K</text>
+
+  <!-- incoming solar, mostly transmitted -->
+  <line x1="120" y1="54" x2="120" y2="84" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="120,84 116,75 124,75" fill="#8a8a8a"/>
+  <line x1="120" y1="98" x2="120" y2="272" stroke="#8a8a8a" stroke-width="2" stroke-dasharray="5 3"/>
+  <polygon points="120,272 116,263 124,263" fill="#8a8a8a"/>
+  <text x="128" y="180" fill="#8a8a8a">sunlight passes</text>
+  <!-- tiny reflection -->
+  <line x1="104" y1="86" x2="98" y2="60" stroke="#8a8a8a" stroke-width="1"/>
+  <polygon points="98,60 96,69 103,70" fill="#8a8a8a"/>
+
+  <!-- surface LW absorbed, cloud re-emits cold -->
+  <line x1="220" y1="272" x2="220" y2="100" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="220,100 216,109 224,109" fill="#e0645c"/>
+  <text x="228" y="200" fill="#e0645c">390 W m&#8315;&#178; up</text>
+  <line x1="220" y1="84" x2="220" y2="58" stroke="#e0645c" stroke-width="1.2"/>
+  <polygon points="220,58 217,66 223,66" fill="#e0645c"/>
+  <text x="228" y="66" fill="#e0645c">only 110 out</text>
+
+  <text x="60" y="316" fill="#e0645c">net: strong LW trapping, little reflection &#8594; WARMS</text>
+
+  <!-- ===== RIGHT: low thick stratocumulus ===== -->
+  <text x="380" y="46" fill="#8a8a8a">low, thick (stratocumulus)</text>
+  <line x1="360" y1="278" x2="620" y2="278" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="360" y="296" fill="#8a8a8a">surface, 288 K</text>
+
+  <rect x="396" y="212" width="190" height="30" fill="#4a90d9" opacity="0.4" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="396" y="206" fill="#4a90d9">cloud top 280 K</text>
+
+  <!-- incoming solar strongly reflected -->
+  <line x1="424" y1="54" x2="424" y2="208" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="424,208 420,199 428,199" fill="#8a8a8a"/>
+  <line x1="440" y1="210" x2="462" y2="56" stroke="#4a90d9" stroke-width="3"/>
+  <polygon points="462,56 456,64 464,66" fill="#4a90d9"/>
+  <text x="468" y="70" fill="#4a90d9">most reflected</text>
+
+  <!-- LW: cloud top nearly as warm as surface -->
+  <line x1="546" y1="272" x2="546" y2="246" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="546,246 542,255 550,255" fill="#e0645c"/>
+  <line x1="546" y1="210" x2="546" y2="58" stroke="#e0645c" stroke-width="2.3"/>
+  <polygon points="546,58 542,67 550,67" fill="#e0645c"/>
+  <text x="554" y="136" fill="#e0645c">348 out</text>
+  <text x="554" y="150" fill="#e0645c">(42 less)</text>
+
+  <text x="360" y="316" fill="#4a90d9">net: strong reflection, weak LW trapping &#8594; COOLS</text>
+</svg>

@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 675" width="560" height="675" role="img" aria-label="Panel a: heat loss by route versus ambient temperature, showing radiation, convection and conduction shrinking to zero at a skin temperature of 35 degrees and reversing beyond it while evaporation rises to carry the whole load. Panel b: a heat balance diagram of a cyclist with arrows sized to each term of the heat balance equation.">
+<rect width="560" height="675" fill="#ffffff"/>
+<defs>
+<marker id="ahR" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="11" refX="12" refY="5.5" orient="auto"><path d="M0,0 L13,5.5 L0,11 Z" fill="#d1495b"/></marker>
+<marker id="ahC" markerUnits="userSpaceOnUse" markerWidth="14" markerHeight="14" refX="13" refY="7" orient="auto"><path d="M0,0 L14,7 L0,14 Z" fill="#1a6fb5"/></marker>
+<marker id="ahK" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="11" refX="12" refY="5.5" orient="auto"><path d="M0,0 L13,5.5 L0,11 Z" fill="#6b8299"/></marker>
+<marker id="ahE" markerUnits="userSpaceOnUse" markerWidth="19" markerHeight="24" refX="18" refY="12" orient="auto"><path d="M0,0 L19,12 L0,24 Z" fill="#2e8b57"/></marker>
+<marker id="ahM" markerUnits="userSpaceOnUse" markerWidth="20" markerHeight="26" refX="19" refY="13" orient="auto"><path d="M0,0 L20,13 L0,26 Z" fill="#333333"/></marker>
+</defs>
+<g font-family="Helvetica,Arial,sans-serif">
+
+<text x="20" y="22" font-size="13" font-weight="bold" fill="#111">(a) Where the heat goes, as the room gets hotter</text>
+
+<g font-size="11" fill="#111">
+  <rect x="70" y="34" width="13" height="10" fill="#d1495b" fill-opacity="0.55" stroke="#333" stroke-width="0.6"/>
+  <text x="88" y="43">Radiation</text>
+  <rect x="158" y="34" width="13" height="10" fill="#1a6fb5" fill-opacity="0.50" stroke="#333" stroke-width="0.6"/>
+  <text x="176" y="43">Convection</text>
+  <rect x="254" y="34" width="13" height="10" fill="#8fa8c0" fill-opacity="0.65" stroke="#333" stroke-width="0.6"/>
+  <text x="272" y="43">Conduction</text>
+  <rect x="352" y="34" width="13" height="10" fill="#2e8b57" fill-opacity="0.50" stroke="#333" stroke-width="0.6"/>
+  <text x="370" y="43">Evaporation</text>
+</g>
+
+<g stroke="#c8d2dc" stroke-width="0.7">
+  <line x1="70" y1="75.9" x2="520" y2="75.9"/>
+  <line x1="70" y1="115.6" x2="520" y2="115.6"/>
+  <line x1="70" y1="195.0" x2="520" y2="195.0"/>
+  <line x1="70" y1="274.4" x2="520" y2="274.4"/>
+  <line x1="70" y1="314.1" x2="520" y2="314.1"/>
+</g>
+
+<path d="M 70,234.7 L 520,234.7 L 520,302.0 L 445,272.6 L 389,250.0 L 351,234.7 L 314,215.2 L 276,201.0 L 220,190.7 L 145,187.0 L 70,185.8 Z" fill="#d1495b" fill-opacity="0.55" stroke="#333" stroke-width="0.6"/>
+<path d="M 70,173.7 L 145,175.2 L 220,179.8 L 276,192.7 L 314,210.3 L 351,234.7 L 389,253.8 L 445,282.0 L 520,318.6 L 520,302.0 L 445,272.6 L 389,250.0 L 351,234.7 L 314,215.2 L 276,201.0 L 220,190.7 L 145,187.0 L 70,185.8 Z" fill="#1a6fb5" fill-opacity="0.50" stroke="#333" stroke-width="0.6"/>
+<path d="M 70,171.2 L 145,172.8 L 220,177.5 L 276,191.0 L 314,209.3 L 351,234.7 L 389,254.6 L 445,283.9 L 520,322.1 L 520,318.6 L 445,282.0 L 389,253.8 L 351,234.7 L 314,210.3 L 276,192.7 L 220,179.8 L 145,175.2 L 70,173.7 Z" fill="#8fa8c0" fill-opacity="0.65" stroke="#333" stroke-width="0.6"/>
+<path d="M 70,155.3 L 145,155.3 L 220,155.3 L 276,155.3 L 314,155.3 L 351,155.3 L 389,135.4 L 445,106.1 L 520,67.9 L 520,234.7 L 445,234.7 L 389,234.7 L 351,234.7 L 314,209.3 L 276,191.0 L 220,177.5 L 145,172.8 L 70,171.2 Z" fill="#2e8b57" fill-opacity="0.50" stroke="#333" stroke-width="0.6"/>
+
+<line x1="70" y1="155.3" x2="520" y2="155.3" stroke="#333" stroke-width="1" stroke-dasharray="5,3"/>
+<text x="76" y="149" font-size="10.5" fill="#333">metabolic heat production, 100 W</text>
+
+<line x1="70" y1="234.7" x2="520" y2="234.7" stroke="#111" stroke-width="1.6"/>
+<line x1="351" y1="55" x2="351" y2="340" stroke="#d1495b" stroke-width="1.2" stroke-dasharray="4,3"/>
+<text x="345" y="88" font-size="10.5" fill="#d1495b" text-anchor="end" font-weight="bold">beyond here, evaporation is the only route out</text>
+<text x="345" y="102" font-size="10.5" fill="#d1495b" text-anchor="end">skin temperature, 35 &#176;C</text>
+
+<line x1="70" y1="55" x2="70" y2="340" stroke="#111" stroke-width="1.2"/>
+<line x1="70" y1="340" x2="520" y2="340" stroke="#111" stroke-width="1.2"/>
+
+<g font-size="10.5" fill="#111" text-anchor="end">
+  <text x="65" y="79.5">200</text>
+  <text x="65" y="119.2">150</text>
+  <text x="65" y="158.9">100</text>
+  <text x="65" y="198.6">50</text>
+  <text x="65" y="238.3">0</text>
+  <text x="65" y="278.0">&#8722;50</text>
+  <text x="65" y="317.7">&#8722;100</text>
+</g>
+<g font-size="10.5" fill="#111" text-anchor="middle">
+  <text x="70" y="356">20</text>
+  <text x="164" y="356">25</text>
+  <text x="258" y="356">30</text>
+  <text x="351" y="356">35</text>
+  <text x="445" y="356">40</text>
+  <text x="520" y="356">44</text>
+  <text x="295" y="374" font-size="11.5">ambient temperature (&#176;C)</text>
+</g>
+<text x="24" y="197" font-size="11.5" fill="#111" text-anchor="middle" transform="rotate(-90 24 197)">heat exchange (W); positive = loss from body</text>
+
+<line x1="20" y1="386" x2="540" y2="386" stroke="#8fa8c0" stroke-width="1"/>
+
+<text x="20" y="406" font-size="13" font-weight="bold" fill="#111">(b) One heat balance, drawn to scale</text>
+<text x="20" y="426" font-size="13" fill="#111" font-style="italic">M &#8722; W = R + C + K + E &#177; S</text>
+<text x="20" y="444" font-size="10.5" fill="#333">Cycling in a 30 &#176;C room, skin at 35 &#176;C: M = 600 W total, W = 120 W of work on the pedals.</text>
+
+<circle cx="155" cy="500" r="16" fill="#f5f7fa" stroke="#333" stroke-width="1.4"/>
+<rect x="133" y="520" width="44" height="88" rx="15" fill="#f5f7fa" stroke="#333" stroke-width="1.4"/>
+<text x="155" y="568" font-size="10.5" fill="#333" text-anchor="middle">core</text>
+<text x="155" y="581" font-size="10.5" fill="#333" text-anchor="middle">37.0 &#176;C</text>
+
+<line x1="25" y1="560" x2="118" y2="560" stroke="#333333" stroke-width="14" marker-end="url(#ahM)"/>
+<text x="25" y="533" font-size="11.5" fill="#111" font-weight="bold">M &#8722; W = 480 W</text>
+<text x="25" y="546" font-size="11.5" fill="#111" font-weight="bold">of metabolic heat</text>
+
+<line x1="185" y1="478" x2="277" y2="478" stroke="#d1495b" stroke-width="3.6" marker-end="url(#ahR)"/>
+<text x="295" y="482" font-size="11.5" fill="#111">Radiation &#8212; 29 W</text>
+<line x1="185" y1="520" x2="277" y2="520" stroke="#1a6fb5" stroke-width="5.8" marker-end="url(#ahC)"/>
+<text x="295" y="524" font-size="11.5" fill="#111">Convection &#8212; 75 W</text>
+<line x1="185" y1="560" x2="277" y2="560" stroke="#6b8299" stroke-width="1.6" marker-end="url(#ahK)"/>
+<text x="295" y="564" font-size="11.5" fill="#111">Conduction &#8212; 5 W</text>
+<line x1="185" y1="600" x2="272" y2="600" stroke="#2e8b57" stroke-width="12.9" marker-end="url(#ahE)"/>
+<text x="295" y="597" font-size="11.5" fill="#111" font-weight="bold">Evaporation &#8212; 371 W</text>
+<text x="295" y="613" font-size="10.5" fill="#333">= 0.153 g/s = 550 g/hr of sweat</text>
+
+<text x="20" y="644" font-size="11" fill="#111">Storage S = 0, so the core holds at 37.0 &#176;C. Arrow width scales as the square root of each term.</text>
+
+</g>
+</svg>

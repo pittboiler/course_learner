@@ -1336,8 +1336,8 @@
       "tier": 0,
       "field": "Earth & Space",
       "prereqs": [],
-      "lessons_estimate": 18,
-      "blurb": "Minerals & rocks, plate tectonics, the rock cycle, geologic time, and Earth's structure."
+      "lessons_estimate": 29,
+      "blurb": "Minerals & rocks, plate tectonics, structural geology & maps, surface processes, geologic time, and Earth history."
     },
     {
       "id": "atmospheric-science",
@@ -1348,8 +1348,8 @@
         "calc-refresher",
         "thermodynamics-physics"
       ],
-      "lessons_estimate": 16,
-      "blurb": "Atmospheric thermodynamics, moisture & stability, circulation, and weather systems."
+      "lessons_estimate": 30,
+      "blurb": "Atmospheric thermodynamics, moisture & stability, radiation, dynamics, vorticity & waves, and weather systems."
     },
     {
       "id": "geophysics",
@@ -1360,8 +1360,8 @@
         "mechanics-refresher",
         "pdes"
       ],
-      "lessons_estimate": 21,
-      "blurb": "Seismology, gravity & magnetics, heat flow, and imaging Earth's interior."
+      "lessons_estimate": 33,
+      "blurb": "Seismology & source physics, gravity, isostasy & flexure, space geodesy, geomagnetism & plate kinematics, heat flow & mantle rheology, the deep Earth, and geophysical inversion."
     },
     {
       "id": "climate-science",
@@ -1371,8 +1371,8 @@
       "prereqs": [
         "atmospheric-science"
       ],
-      "lessons_estimate": 19,
-      "blurb": "Radiative balance, the greenhouse effect, feedbacks, the carbon cycle, and climate models."
+      "lessons_estimate": 30,
+      "blurb": "Radiative forcing, feedbacks & sensitivity, ocean heat uptake, the carbon cycle, impacts, and climate models."
     },
     {
       "id": "oceanography",
@@ -1382,8 +1382,8 @@
       "prereqs": [
         "fluid-dynamics"
       ],
-      "lessons_estimate": 18,
-      "blurb": "Ocean circulation, waves, tides, water masses, and the ocean's role in climate."
+      "lessons_estimate": 30,
+      "blurb": "Seawater and stratification, wind-driven gyres and eddies, the deep overturning and what drives it, waves, tides and ENSO, and the ocean's uptake of heat and carbon."
     },
     {
       "id": "planetary-science",
@@ -1394,8 +1394,8 @@
         "mechanics-refresher",
         "thermodynamics-physics"
       ],
-      "lessons_estimate": 20,
-      "blurb": "Planet formation, interiors, atmospheres, surfaces, and habitability."
+      "lessons_estimate": 33,
+      "blurb": "Planet formation & cosmochemistry, interiors, surfaces & the Moon, remote measurement (gravity, tides, spectroscopy, magnetospheres), atmospheres & circulation, the outer solar system & small bodies, and exoplanets. (~33 lessons)"
     },
     {
       "id": "cosmology",

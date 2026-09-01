@@ -1,0 +1,48 @@
+<svg viewBox="0 0 700 310" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="11.5">
+  <text x="20" y="18" fill="#8a8a8a" font-style="italic">Three surfaces, three heights. GPS gives you the wrong one for water.</text>
+
+  <path d="M 40,150 L 330,150" stroke="#4a90d9" stroke-width="2"/>
+  <text x="336" y="154" fill="#4a90d9">ellipsoid</text>
+
+  <path d="M 40,132 Q 100,104 160,126 Q 220,148 270,120 Q 306,100 330,112" fill="none" stroke="#e0645c" stroke-width="2.4"/>
+  <text x="336" y="116" fill="#e0645c">geoid</text>
+
+  <path d="M 40,100 Q 80,58 120,86 Q 152,108 190,72 Q 232,32 272,74 Q 302,104 330,88" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="336" y="92" fill="#8a8a8a">topography</text>
+
+  <line x1="190" y1="72" x2="190" y2="150" stroke="#8a8a8a" stroke-width="0.8" stroke-dasharray="3 3"/>
+  <circle cx="190" cy="72" r="4" fill="#8a8a8a"/>
+  <circle cx="190" cy="136" r="3.5" fill="#e0645c"/>
+
+  <line x1="204" y1="72" x2="204" y2="150" stroke="#4a90d9" stroke-width="1.6"/>
+  <polygon points="204,72 200,84 208,84" fill="#4a90d9"/><polygon points="204,150 200,138 208,138" fill="#4a90d9"/>
+  <text x="212" y="116" fill="#4a90d9">h &#8212; what GPS measures</text>
+
+  <line x1="172" y1="72" x2="172" y2="136" stroke="#8a8a8a" stroke-width="1.6"/>
+  <polygon points="172,72 168,84 176,84" fill="#8a8a8a"/><polygon points="172,136 168,124 176,124" fill="#8a8a8a"/>
+  <text x="72" y="106" fill="#8a8a8a">H &#8212; height above sea level</text>
+
+  <line x1="156" y1="136" x2="156" y2="150" stroke="#e0645c" stroke-width="1.6"/>
+  <text x="96" y="168" fill="#e0645c">N &#8212; geoid height, up to &#177;100 m</text>
+
+  <text x="40" y="196" fill="#8a8a8a">H = h &#8722; N. Water flows downhill in H, never in h.</text>
+  <text x="40" y="210" fill="#8a8a8a">A canal surveyed with raw GPS heights can run uphill.</text>
+
+  <text x="40" y="242" fill="#8a8a8a">The geoid is an equipotential: a plumb line hangs perpendicular</text>
+  <text x="40" y="256" fill="#8a8a8a">to it, a spirit level lies along it, and still water follows it.</text>
+
+  <text x="410" y="42" fill="#8a8a8a">why the geoid sees deep and gravity sees shallow</text>
+  <line x1="420" y1="240" x2="670" y2="240" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="420" y1="240" x2="420" y2="66" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="500" y="260" fill="#8a8a8a">harmonic degree &#8467;  (small = broad)</text>
+  <text x="392" y="60" fill="#8a8a8a">N</text>
+  <text x="424" y="80" fill="#8a8a8a">for a fixed 50 mGal anomaly</text>
+
+  <path d="M 440,80 Q 470,180 520,214 Q 580,234 668,238" fill="none" stroke="#e0645c" stroke-width="2.6"/>
+  <circle cx="440" cy="80" r="4" fill="#e0645c"/><text x="448" y="92" fill="#e0645c">&#8467; = 2:  325 m</text>
+  <circle cx="520" cy="214" r="4" fill="#e0645c"/><text x="528" y="212" fill="#e0645c">&#8467; = 20:  34 m</text>
+  <circle cx="640" cy="238" r="4" fill="#e0645c"/><text x="560" y="230" fill="#e0645c">&#8467; = 100:  3 m</text>
+
+  <text x="343" y="284" fill="#8a8a8a">N &#8776; R &#916;g / [(&#8467;&#8722;1)&#947;]: the geoid weights long wavelengths by 1/&#8467;,</text>
+  <text x="315" y="298" fill="#8a8a8a">so it is a map of the deep mantle and gravity is a map of the crust.</text>
+</svg>

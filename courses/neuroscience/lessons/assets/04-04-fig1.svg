@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="800" height="480" role="img" aria-label="Four neurological and psychiatric conditions are arranged left to right along an arrow that runs from mechanism well specified to mechanism unknown. Parkinson's disease is leftmost, understood from molecule to circuit to symptom, testing the basal ganglia model of lesson 3.5, treated by L-DOPA and deep brain stimulation which were both model predictions, but neither slows degeneration and the non-motor signs are unexplained. Epilepsy is next, understood at the level of circuit and network dynamics, testing the excitation-inhibition balance of lessons 2.2 and 2.6, treated by drugs acting on exactly the predicted levers, but about one in three patients remains drug resistant and interneuron synchrony can itself drive seizures. Alzheimer's disease follows, with a molecule proposed but its causal role contested, testing the memory systems of lesson 4.2, treated by antibodies that clear amyloid almost completely while the clinical gain is a fraction of a point on an eighteen point scale and tau tracks decline better than plaque burden. Depression and schizophrenia are rightmost in a dashed box, defined by symptom cluster with no mechanism and no biomarker, where excitation-inhibition balance is offered as a hypothesis rather than a finding, treated by monoamine and D2 receptor drugs found empirically, while the therapeutic delay refutes the simple deficit account and risk is spread over roughly three hundred loci of individually tiny effect. A caption beneath states that moving right the honest verb weakens from explains to is associated with.">
+<rect width="800" height="480" fill="#ffffff"/>
+
+<text x="20" y="22" font-family="Helvetica,Arial,sans-serif" font-size="12.5" font-weight="bold" fill="#111">Four diseases, ordered by how well the mechanism is specified</text>
+
+<text x="110" y="42" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#2e8b57">mechanism well specified</text>
+<text x="780" y="42" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#d1495b" text-anchor="end">mechanism unknown</text>
+<line x1="110" y1="52" x2="776" y2="52" stroke="#333" stroke-width="1.4"/>
+<path d="M 776 52 L 767 47.5 M 776 52 L 767 56.5" stroke="#333" stroke-width="1.4" fill="none"/>
+
+<text x="100" y="124" font-family="Helvetica,Arial,sans-serif" font-size="9.5" font-weight="bold" fill="#5b7d99" text-anchor="end">understood at</text>
+<text x="100" y="170" font-family="Helvetica,Arial,sans-serif" font-size="9.5" font-weight="bold" fill="#5b7d99" text-anchor="end">tests lesson</text>
+<text x="100" y="223" font-family="Helvetica,Arial,sans-serif" font-size="9.5" font-weight="bold" fill="#5b7d99" text-anchor="end">treatment hits</text>
+<text x="100" y="290" font-family="Helvetica,Arial,sans-serif" font-size="9.5" font-weight="bold" fill="#5b7d99" text-anchor="end">and yet</text>
+
+<rect x="110" y="66" width="165" height="330" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+<rect x="280" y="66" width="165" height="330" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+<rect x="450" y="66" width="165" height="330" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+<rect x="620" y="66" width="165" height="330" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1" stroke-dasharray="4,3"/>
+
+<line x1="110" y1="106" x2="275" y2="106" stroke="#8fa8c0" stroke-width="1"/>
+<line x1="110" y1="152" x2="275" y2="152" stroke="#8fa8c0" stroke-width="1"/>
+<line x1="110" y1="205" x2="275" y2="205" stroke="#8fa8c0" stroke-width="1"/>
+<line x1="110" y1="272" x2="275" y2="272" stroke="#8fa8c0" stroke-width="1"/>
+<line x1="280" y1="106" x2="445" y2="106" stroke="#8fa8c0" stroke-width="1"/>
+<line x1="280" y1="152" x2="445" y2="152" stroke="#8fa8c0" stroke-width="1"/>
+<line x1="280" y1="205" x2="445" y2="205" stroke="#8fa8c0" stroke-width="1"/>
+<line x1="280" y1="272" x2="445" y2="272" stroke="#8fa8c0" stroke-width="1"/>
+<line x1="450" y1="106" x2="615" y2="106" stroke="#8fa8c0" stroke-width="1"/>
+<line x1="450" y1="152" x2="615" y2="152" stroke="#8fa8c0" stroke-width="1"/>
+<line x1="450" y1="205" x2="615" y2="205" stroke="#8fa8c0" stroke-width="1"/>
+<line x1="450" y1="272" x2="615" y2="272" stroke="#8fa8c0" stroke-width="1"/>
+<line x1="620" y1="106" x2="785" y2="106" stroke="#8fa8c0" stroke-width="1"/>
+<line x1="620" y1="152" x2="785" y2="152" stroke="#8fa8c0" stroke-width="1"/>
+<line x1="620" y1="205" x2="785" y2="205" stroke="#8fa8c0" stroke-width="1"/>
+<line x1="620" y1="272" x2="785" y2="272" stroke="#8fa8c0" stroke-width="1"/>
+
+<text x="119" y="91" font-family="Helvetica,Arial,sans-serif" font-size="11.5" font-weight="bold" fill="#2e8b57">Parkinson&#8217;s disease</text>
+<text x="119" y="124" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">molecule &#8594; circuit &#8594; symptom</text>
+<text x="119" y="170" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">3.5: dopamine sets the</text>
+<text x="119" y="183" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">go / no-go balance</text>
+<text x="119" y="223" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">L-DOPA replaces the molecule;</text>
+<text x="119" y="236" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">DBS resets the circuit.</text>
+<text x="119" y="249" font-family="Helvetica,Arial,sans-serif" font-size="9.5" font-weight="bold" fill="#111">Both were predictions.</text>
+<text x="119" y="290" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">neither slows degeneration;</text>
+<text x="119" y="303" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">non-motor signs precede</text>
+<text x="119" y="316" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">motor ones by years, and the</text>
+<text x="119" y="329" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">circuit model misses them</text>
+
+<text x="289" y="91" font-family="Helvetica,Arial,sans-serif" font-size="11.5" font-weight="bold" fill="#1a6fb5">Epilepsy</text>
+<text x="289" y="124" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">circuit / network dynamics</text>
+<text x="289" y="170" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">2.2 and 2.6: excitation&#8211;</text>
+<text x="289" y="183" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">inhibition balance</text>
+<text x="289" y="223" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">the predicted levers &#8212; Na+</text>
+<text x="289" y="236" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">channel availability, GABA-A,</text>
+<text x="289" y="249" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">T-type Ca2+ channels</text>
+<text x="289" y="290" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">about 1 in 3 remains drug-</text>
+<text x="289" y="303" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">resistant; interneuron</text>
+<text x="289" y="316" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">synchrony can drive seizures,</text>
+<text x="289" y="329" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">so &#8220;too little inhibition&#8221; is</text>
+<text x="289" y="342" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">only half the story</text>
+
+<text x="459" y="91" font-family="Helvetica,Arial,sans-serif" font-size="11.5" font-weight="bold" fill="#d1495b">Alzheimer&#8217;s disease</text>
+<text x="459" y="124" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">molecule proposed;</text>
+<text x="459" y="137" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">causal role contested</text>
+<text x="459" y="170" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">4.2: entorhinal and hippo-</text>
+<text x="459" y="183" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">campal loss first, so the</text>
+<text x="459" y="196" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">deficit pattern is predicted</text>
+<text x="459" y="223" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">amyloid &#8212; cleared nearly</text>
+<text x="459" y="236" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">completely by antibodies</text>
+<text x="459" y="290" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">clinical gain is a fraction</text>
+<text x="459" y="303" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">of a point on an 18-point</text>
+<text x="459" y="316" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">scale; tau tracks decline</text>
+<text x="459" y="329" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">better than plaque burden</text>
+
+<text x="629" y="84" font-family="Helvetica,Arial,sans-serif" font-size="11.5" font-weight="bold" fill="#d1495b">Depression and</text>
+<text x="629" y="98" font-family="Helvetica,Arial,sans-serif" font-size="11.5" font-weight="bold" fill="#d1495b">schizophrenia</text>
+<text x="629" y="124" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">symptom cluster &#8212;</text>
+<text x="629" y="137" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">no mechanism, no biomarker</text>
+<text x="629" y="170" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">2.2 and 2.6 E&#8211;I balance,</text>
+<text x="629" y="183" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">offered as a hypothesis,</text>
+<text x="629" y="196" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">not as a finding</text>
+<text x="629" y="223" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">monoamines, D2 receptors &#8212;</text>
+<text x="629" y="236" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">found empirically, kept</text>
+<text x="629" y="249" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">because they help</text>
+<text x="629" y="290" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">the therapeutic delay refutes</text>
+<text x="629" y="303" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">the simple deficit account;</text>
+<text x="629" y="316" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">risk spreads over ~300 loci</text>
+<text x="629" y="329" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">of individually tiny effect</text>
+
+<rect x="110" y="410" width="675" height="54" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+<text x="120" y="432" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#111">The axis is the argument. Moving right, the honest verb weakens: dopamine loss explains bradykinesia,</text>
+<text x="120" y="450" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#111">amyloid is associated with Alzheimer&#8217;s; for the last pair we have a name, a drug that helps, no mechanism.</text>
+</svg>

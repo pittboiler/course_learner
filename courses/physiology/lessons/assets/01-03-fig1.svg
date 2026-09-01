@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 580" width="560" height="580" role="img" aria-label="Panel a shows a horizontal membrane-voltage axis marking the equilibrium potentials of potassium, chloride, sodium and calcium, with the resting potential placed just positive of the potassium equilibrium potential, and arrows whose lengths give each ion's driving force at rest. Panel b plots resting potential against plasma potassium concentration on a logarithmic axis: the Nernst potassium line is straight with a slope of 61 millivolts per tenfold, while the Goldman curve merges with it at high potassium and flattens above it at low potassium where sodium permeability matters.">
+<rect width="560" height="580" fill="#ffffff"/>
+
+<text x="20" y="26" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#111">(a) Equilibrium potentials and driving forces at rest</text>
+<text x="20" y="46" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#555">arrow length = driving force V<tspan font-size="8" dy="3">m</tspan><tspan dy="-3"> &#8722; E</tspan><tspan font-size="8" dy="3">ion</tspan><tspan dy="-3">; the arrow points where that ion pushes the membrane</tspan></text>
+
+<line x1="127.5" y1="68" x2="509.2" y2="68" stroke="#d1495b" stroke-width="2"/>
+<polygon points="509.2,68 500.2,64 500.2,72" fill="#d1495b"/>
+<text x="318" y="60" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#d1495b" text-anchor="middle">Ca<tspan font-size="8" dy="-4">2+</tspan><tspan dy="4">: &#8722;199 mV, inward &#8212; huge</tspan></text>
+
+<line x1="127.5" y1="96" x2="386.0" y2="96" stroke="#d1495b" stroke-width="2"/>
+<polygon points="386.0,96 377.0,92 377.0,100" fill="#d1495b"/>
+<text x="257" y="88" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#d1495b" text-anchor="middle">Na<tspan font-size="8" dy="-4">+</tspan><tspan dy="4">: &#8722;135 mV, inward</tspan></text>
+
+<line x1="127.5" y1="124" x2="90.3" y2="124" stroke="#1a6fb5" stroke-width="2"/>
+<polygon points="90.3,124 99.3,120 99.3,128" fill="#1a6fb5"/>
+<text x="142" y="128" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#1a6fb5">K<tspan font-size="8" dy="-4">+</tspan><tspan dy="4">: +19 mV, outward &#8212; small</tspan></text>
+<text x="330" y="128" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#2e8b57">Cl<tspan font-size="8" dy="-4">&#8722;</tspan><tspan dy="4">: &#8722;2 mV, no net drive</tspan></text>
+
+<line x1="127.5" y1="56" x2="127.5" y2="187" stroke="#111" stroke-width="2.5"/>
+<line x1="90.3" y1="152" x2="90.3" y2="187" stroke="#1a6fb5" stroke-width="1.6"/>
+<line x1="130.9" y1="152" x2="130.9" y2="187" stroke="#2e8b57" stroke-width="1.6"/>
+<line x1="386.0" y1="152" x2="386.0" y2="187" stroke="#d1495b" stroke-width="1.6"/>
+<line x1="509.2" y1="152" x2="509.2" y2="187" stroke="#d1495b" stroke-width="1.6"/>
+
+<text x="90.3" y="146" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#1a6fb5" text-anchor="middle">E<tspan font-size="8.5" dy="3">K</tspan><tspan dy="-3"> = &#8722;94</tspan></text>
+<text x="386.0" y="146" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#d1495b" text-anchor="middle">E<tspan font-size="8.5" dy="3">Na</tspan><tspan dy="-3"> = +60</tspan></text>
+<text x="509.2" y="146" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#d1495b" text-anchor="middle">E<tspan font-size="8.5" dy="3">Ca</tspan><tspan dy="-3"> = +124</tspan></text>
+<text x="136" y="148" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="bold" fill="#111">V<tspan font-size="8.5" dy="3">rest</tspan><tspan dy="-3"> = &#8722;75</tspan></text>
+<text x="140" y="165" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#2e8b57">E<tspan font-size="8.5" dy="3">Cl</tspan><tspan dy="-3"> = &#8722;73 (passive: it follows V</tspan><tspan font-size="8.5" dy="3">m</tspan><tspan dy="-3">)</tspan></text>
+
+<line x1="55" y1="180" x2="535" y2="180" stroke="#333" stroke-width="1.5"/>
+<line x1="79.2" y1="180" x2="79.2" y2="188" stroke="#333" stroke-width="1"/>
+<line x1="175.0" y1="180" x2="175.0" y2="188" stroke="#333" stroke-width="1"/>
+<line x1="270.8" y1="180" x2="270.8" y2="188" stroke="#333" stroke-width="1"/>
+<line x1="366.7" y1="180" x2="366.7" y2="188" stroke="#333" stroke-width="1"/>
+<line x1="462.5" y1="180" x2="462.5" y2="188" stroke="#333" stroke-width="1"/>
+<text x="79.2" y="201" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#555" text-anchor="middle">&#8722;100</text>
+<text x="175.0" y="201" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#555" text-anchor="middle">&#8722;50</text>
+<text x="270.8" y="201" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#555" text-anchor="middle">0</text>
+<text x="366.7" y="201" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#555" text-anchor="middle">+50</text>
+<text x="462.5" y="201" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#555" text-anchor="middle">+100</text>
+<text x="295" y="221" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#555" text-anchor="middle">membrane voltage, inside minus outside (mV)</text>
+
+<text x="20" y="272" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#111">(b) The resting potential tracks plasma K<tspan font-size="9" dy="-5">+</tspan></text>
+<text x="20" y="290" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#555">on a log axis a straight line means Nernstian: 61 mV per tenfold change</text>
+
+<rect x="194.3" y="310" width="32.5" height="210" fill="#dde7f0"/>
+<text x="210.5" y="305" font-family="Helvetica,Arial,sans-serif" font-size="9" fill="#4a6c8c" text-anchor="middle">normal</text>
+
+<line x1="80" y1="317.5" x2="512" y2="317.5" stroke="#ececec" stroke-width="1"/>
+<line x1="80" y1="355.0" x2="512" y2="355.0" stroke="#ececec" stroke-width="1"/>
+<line x1="80" y1="392.5" x2="512" y2="392.5" stroke="#ececec" stroke-width="1"/>
+<line x1="80" y1="430.0" x2="512" y2="430.0" stroke="#ececec" stroke-width="1"/>
+<line x1="80" y1="467.5" x2="512" y2="467.5" stroke="#ececec" stroke-width="1"/>
+<line x1="80" y1="505.0" x2="512" y2="505.0" stroke="#ececec" stroke-width="1"/>
+
+<line x1="80" y1="310" x2="80" y2="520" stroke="#333" stroke-width="1.5"/>
+<line x1="80" y1="520" x2="512" y2="520" stroke="#333" stroke-width="1.5"/>
+
+<text x="74" y="321" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#555" text-anchor="end">0</text>
+<text x="74" y="358.5" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#555" text-anchor="end">&#8722;25</text>
+<text x="74" y="396" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#555" text-anchor="end">&#8722;50</text>
+<text x="74" y="433.5" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#555" text-anchor="end">&#8722;75</text>
+<text x="74" y="471" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#555" text-anchor="end">&#8722;100</text>
+<text x="74" y="508.5" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#555" text-anchor="end">&#8722;125</text>
+<text x="30" y="415" transform="rotate(-90 30 415)" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#555" text-anchor="middle">membrane voltage (mV)</text>
+
+<line x1="143.2" y1="520" x2="143.2" y2="526" stroke="#333" stroke-width="1"/>
+<line x1="206.4" y1="520" x2="206.4" y2="526" stroke="#333" stroke-width="1"/>
+<line x1="269.6" y1="520" x2="269.6" y2="526" stroke="#d1495b" stroke-width="1.5"/>
+<line x1="290.0" y1="520" x2="290.0" y2="526" stroke="#333" stroke-width="1"/>
+<line x1="353.2" y1="520" x2="353.2" y2="526" stroke="#333" stroke-width="1"/>
+<line x1="436.8" y1="520" x2="436.8" y2="526" stroke="#333" stroke-width="1"/>
+<line x1="500.0" y1="520" x2="500.0" y2="526" stroke="#333" stroke-width="1"/>
+<text x="80" y="537" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#555" text-anchor="middle">1</text>
+<text x="143.2" y="537" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#555" text-anchor="middle">2</text>
+<text x="206.4" y="537" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#555" text-anchor="middle">4</text>
+<text x="269.6" y="537" font-family="Helvetica,Arial,sans-serif" font-size="9.5" font-weight="bold" fill="#d1495b" text-anchor="middle">8</text>
+<text x="292" y="537" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#555" text-anchor="middle">10</text>
+<text x="353.2" y="537" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#555" text-anchor="middle">20</text>
+<text x="436.8" y="537" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#555" text-anchor="middle">50</text>
+<text x="500.0" y="537" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#555" text-anchor="middle">100</text>
+<text x="296" y="556" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#555" text-anchor="middle">extracellular (plasma) K<tspan font-size="7.5" dy="-4">+</tspan><tspan dy="4"> concentration, mM</tspan></text>
+
+<line x1="80" y1="513.9" x2="500" y2="330.9" stroke="#1a6fb5" stroke-width="1.8" stroke-dasharray="6 4"/>
+<polyline points="80,447.4 143.2,440.5 206.4,429.7 243.4,421.2 269.6,414.1 290,408.1 353.2,387.1 436.8,355.3 500,329.4" fill="none" stroke="#d1495b" stroke-width="2.2"/>
+<circle cx="269.6" cy="414.1" r="3.6" fill="#d1495b"/>
+<text x="264" y="405" font-family="Helvetica,Arial,sans-serif" font-size="9.5" font-weight="bold" fill="#d1495b" text-anchor="end">hyperkalemia</text>
+
+<text x="300" y="448" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">low K<tspan font-size="7.5" dy="-4">+</tspan><tspan dy="4">: the Na</tspan><tspan font-size="7.5" dy="-4">+</tspan><tspan dy="4"> leak lifts V</tspan><tspan font-size="7.5" dy="3">m</tspan><tspan dy="-3"> above E</tspan><tspan font-size="7.5" dy="3">K</tspan></text>
+<text x="300" y="462" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">high K<tspan font-size="7.5" dy="-4">+</tspan><tspan dy="4">: V</tspan><tspan font-size="7.5" dy="3">m</tspan><tspan dy="-3"> follows E</tspan><tspan font-size="7.5" dy="3">K</tspan><tspan dy="-3"> almost exactly</tspan></text>
+<line x1="300" y1="482" x2="330" y2="482" stroke="#1a6fb5" stroke-width="1.8" stroke-dasharray="6 4"/>
+<text x="336" y="486" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#1a6fb5">E<tspan font-size="8" dy="3">K</tspan><tspan dy="-3"> alone (Nernst)</tspan></text>
+<line x1="300" y1="500" x2="330" y2="500" stroke="#d1495b" stroke-width="2.2"/>
+<text x="336" y="504" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#d1495b">V<tspan font-size="8" dy="3">m</tspan><tspan dy="-3">, 3 percent Na</tspan><tspan font-size="7.5" dy="-4">+</tspan><tspan dy="4"> leak (Goldman)</tspan></text>
+</svg>

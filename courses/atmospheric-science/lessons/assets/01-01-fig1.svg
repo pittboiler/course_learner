@@ -1,0 +1,42 @@
+<svg viewBox="0 0 620 420" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="30" y="28" fill="#8a8a8a" font-style="italic">Temperature reverses sign wherever the heating switches from below to inside.</text>
+  <line x1="95" y1="337.5" x2="540" y2="337.5" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="478" y="333.5" fill="#8a8a8a" font-size="12">tropopause</text>
+  <line x1="95" y1="231.2" x2="540" y2="231.2" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="478" y="227.2" fill="#8a8a8a" font-size="12">stratopause</text>
+  <line x1="95" y1="119.0" x2="540" y2="119.0" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="478" y="115.0" fill="#8a8a8a" font-size="12">mesopause</text>
+  <text x="478" y="357.8" fill="#8a8a8a" font-size="12" letter-spacing="1">TROPOSPHERE</text>
+  <text x="478" y="288.4" fill="#8a8a8a" font-size="12" letter-spacing="1">STRATOSPHERE</text>
+  <text x="478" y="179.1" fill="#8a8a8a" font-size="12" letter-spacing="1">MESOSPHERE</text>
+  <text x="478" y="93.5" fill="#8a8a8a" font-size="12" letter-spacing="1">THERMOSPHERE</text>
+  <line x1="95" y1="370" x2="470" y2="370" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="95" y1="370" x2="95" y2="52" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="95,52 90,62 100,62" fill="#8a8a8a"/>
+  <line x1="123.8" y1="370" x2="123.8" y2="375" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="123.8" y="389" fill="#8a8a8a" font-size="12" text-anchor="middle">180</text>
+  <line x1="239.2" y1="370" x2="239.2" y2="375" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="239.2" y="389" fill="#8a8a8a" font-size="12" text-anchor="middle">220</text>
+  <line x1="354.6" y1="370" x2="354.6" y2="375" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="354.6" y="389" fill="#8a8a8a" font-size="12" text-anchor="middle">260</text>
+  <line x1="470.0" y1="370" x2="470.0" y2="375" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="470.0" y="389" fill="#8a8a8a" font-size="12" text-anchor="middle">300</text>
+  <text x="282" y="408" fill="#8a8a8a" text-anchor="middle">temperature (K)</text>
+  <line x1="90" y1="370.0" x2="95" y2="370.0" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="86" y="374.0" fill="#8a8a8a" font-size="12" text-anchor="end">0</text>
+  <line x1="90" y1="311.0" x2="95" y2="311.0" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="86" y="315.0" fill="#8a8a8a" font-size="12" text-anchor="end">20</text>
+  <line x1="90" y1="251.9" x2="95" y2="251.9" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="86" y="255.9" fill="#8a8a8a" font-size="12" text-anchor="end">40</text>
+  <line x1="90" y1="192.9" x2="95" y2="192.9" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="86" y="196.9" fill="#8a8a8a" font-size="12" text-anchor="end">60</text>
+  <line x1="90" y1="133.8" x2="95" y2="133.8" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="86" y="137.8" fill="#8a8a8a" font-size="12" text-anchor="end">80</text>
+  <line x1="90" y1="74.8" x2="95" y2="74.8" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="86" y="78.8" fill="#8a8a8a" font-size="12" text-anchor="end">100</text>
+  <text x="30" y="46" fill="#8a8a8a" font-size="12">km</text>
+  <polyline points="435.4,370.0 230.6,337.5 230.6,311.0 265.2,275.5 386.3,231.2 386.3,219.4 224.8,160.4 144.0,119.0 210.4,74.8 268.1,60.0" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="274" y="251.9" fill="#e0645c" font-size="12">ozone absorbs UV</text>
+  <text x="297" y="358.2" fill="#e0645c" font-size="12">heated from below</text>
+  <text x="262" y="77.7" fill="#e0645c" font-size="12">EUV absorption</text>
+</svg>

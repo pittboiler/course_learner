@@ -1,0 +1,47 @@
+<svg viewBox="0 0 700 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="11.5">
+  <text x="20" y="18" fill="#8a8a8a" font-style="italic">A plate does not sink where you push it. It bends, and the bend has a ring around it.</text>
+
+  <line x1="40" y1="90" x2="360" y2="90" stroke="#8a8a8a" stroke-width="0.8" stroke-dasharray="4 3"/>
+  <text x="366" y="94" fill="#8a8a8a">undeflected plate</text>
+
+  <path d="M 40,86 L 70,86 Q 100,85 120,88 Q 140,92 160,84 Q 175,76 186,86 Q 196,98 200,140 L 200,140 Q 204,98 214,86 Q 225,76 240,84 Q 260,92 280,88 Q 300,85 360,86" fill="none" stroke="#4a90d9" stroke-width="2.4"/>
+
+  <polygon points="185,58 200,20 215,58" fill="#e0645c" opacity="0.5" stroke="#e0645c"/>
+  <text x="176" y="14" fill="#e0645c">load</text>
+
+  <line x1="200" y1="90" x2="200" y2="140" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="206" y="126" fill="#8a8a8a">w&#8320;</text>
+  <text x="120" y="118" fill="#8a8a8a">moat</text>
+
+  <line x1="160" y1="84" x2="160" y2="90" stroke="#e0645c" stroke-width="1.2"/>
+  <circle cx="160" cy="84" r="3" fill="#e0645c"/>
+  <text x="98" y="70" fill="#e0645c">forebulge at x = &#960;&#945;,</text>
+  <text x="98" y="56" fill="#e0645c">4.3 % of w&#8320;, pointing up</text>
+
+  <line x1="176" y1="90" x2="176" y2="98" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="120" y="164" fill="#8a8a8a">zero crossing at x = 3&#960;&#945;/4</text>
+  <text x="40" y="190" fill="#8a8a8a">D = ET&#8337;&#179;/[12(1&#8722;&#957;&#178;)] &#8212; rigidity goes as the CUBE of</text>
+  <text x="40" y="204" fill="#8a8a8a">elastic thickness, so T&#8337; is what a flexure study measures.</text>
+  <text x="40" y="226" fill="#8a8a8a">&#945; = (4D/&#916;&#961;g)&#185;&#8341;&#8308; sets every horizontal distance in the picture.</text>
+
+  <text x="410" y="42" fill="#8a8a8a">how much of a load is compensated</text>
+  <line x1="420" y1="230" x2="676" y2="230" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="420" y1="230" x2="420" y2="62" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="500" y="250" fill="#8a8a8a">load width &#8594;</text>
+  <text x="392" y="60" fill="#8a8a8a">C</text>
+  <line x1="416" y1="76" x2="424" y2="76" stroke="#8a8a8a"/><text x="398" y="80" fill="#8a8a8a">1</text>
+  <line x1="416" y1="230" x2="424" y2="230" stroke="#8a8a8a"/><text x="398" y="234" fill="#8a8a8a">0</text>
+
+  <path d="M 430,228 Q 486,224 520,196 Q 552,166 578,120 Q 604,86 660,78" fill="none" stroke="#4a90d9" stroke-width="2.6"/>
+  <line x1="546" y1="153" x2="546" y2="230" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 3"/>
+  <circle cx="546" cy="153" r="4" fill="#e0645c"/>
+  <text x="504" y="146" fill="#e0645c">&#955; = 4.4&#945;</text>
+
+  <text x="424" y="106" fill="#8a8a8a">broad: Airy</text>
+  <text x="424" y="120" fill="#8a8a8a">wins</text>
+  <text x="424" y="196" fill="#8a8a8a">narrow: the</text>
+  <text x="424" y="210" fill="#8a8a8a">plate holds it</text>
+
+  <text x="360" y="274" fill="#8a8a8a">C = 1/[1 + (k&#945;)&#8308;/4]. For oceanic &#945; &#8776; 74 km the changeover is</text>
+  <text x="270" y="288" fill="#8a8a8a">near 330 km &#8212; which is why seamounts are not compensated and continents are.</text>
+</svg>

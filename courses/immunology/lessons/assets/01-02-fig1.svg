@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img" aria-label="Cross-section of a lymph node showing B-cell follicles, T paracortex, medulla, subcapsular sinus, a high endothelial venule, the afferent and efferent lymphatics, and traced routes for antigen arriving by lymph and for a naive lymphocyte entering from blood, scanning and exiting.">
+<rect width="800" height="460" fill="#ffffff"/>
+<defs>
+<marker id="ahk" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#333333"/></marker>
+<marker id="ahb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#1a6fb5"/></marker>
+<marker id="ahr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#d1495b"/></marker>
+</defs>
+
+<text x="400" y="24" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="bold" fill="#111111">One node: a 20-microlitre room that drains a litre of tissue</text>
+
+<rect x="10" y="70" width="110" height="115" rx="6" fill="#fdeef0" stroke="#d1495b" stroke-width="1.4"/>
+<text x="65" y="89" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" font-weight="bold" fill="#d1495b">INFECTED TISSUE</text>
+<circle cx="65" cy="122" r="12" fill="#ffffff" stroke="#d1495b" stroke-width="1.4"/>
+<path d="M 65 110 L 65 101 M 77 122 L 86 122 M 53 122 L 44 122 M 65 134 L 65 143 M 74 113 L 80 107 M 56 131 L 50 137 M 74 131 L 80 137 M 56 113 L 50 107" stroke="#d1495b" stroke-width="1.2"/>
+<text x="65" y="160" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333333">DC takes antigen,</text>
+<text x="65" y="174" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333333">turns on CCR7</text>
+
+<ellipse cx="420" cy="240" rx="230" ry="125" fill="#d9e7f4" stroke="#333333" stroke-width="1.8"/>
+<ellipse cx="420" cy="240" rx="206" ry="104" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1.2"/>
+<text x="420" y="130" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#1a6fb5">subcapsular sinus</text>
+
+<circle cx="305" cy="185" r="36" fill="#e4f1e9" stroke="#2e8b57" stroke-width="1.5"/>
+<circle cx="395" cy="182" r="36" fill="#e4f1e9" stroke="#2e8b57" stroke-width="1.5"/>
+<circle cx="485" cy="185" r="36" fill="#e4f1e9" stroke="#2e8b57" stroke-width="1.5"/>
+<text x="305" y="189" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#2e8b57">FDC net</text>
+<text x="395" y="178" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#2e8b57">B follicle</text>
+<text x="395" y="192" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#2e8b57">CXCL13</text>
+<text x="485" y="189" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#2e8b57">CXCR5+</text>
+
+<ellipse cx="390" cy="272" rx="150" ry="44" fill="#e7f0fa" stroke="#1a6fb5" stroke-width="1.3"/>
+<text x="390" y="250" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11.5" font-weight="bold" fill="#1a6fb5">T PARACORTEX</text>
+<text x="390" y="264" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#1a6fb5">CCL19 / CCL21 &#8594; CCR7</text>
+
+<rect x="262" y="284" width="104" height="17" rx="8.5" fill="#ffffff" stroke="#d1495b" stroke-width="1.6"/>
+<circle cx="281" cy="292" r="5" fill="#1a6fb5"/>
+<circle cx="307" cy="292" r="5" fill="#1a6fb5"/>
+<circle cx="333" cy="292" r="5" fill="#1a6fb5"/>
+<text x="374" y="296" font-family="Helvetica,Arial,sans-serif" font-size="10.5" font-weight="bold" fill="#d1495b">HEV</text>
+
+<text x="580" y="225" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333333">medulla</text>
+<text x="580" y="239" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333333">plasma cells</text>
+<path d="M 545 258 Q 580 268 620 262" fill="none" stroke="#8fa8c0" stroke-width="1.2"/>
+<path d="M 548 278 Q 585 288 605 280" fill="none" stroke="#8fa8c0" stroke-width="1.2"/>
+<path d="M 552 296 Q 578 302 588 294" fill="none" stroke="#8fa8c0" stroke-width="1.2"/>
+
+<line x1="124" y1="170" x2="218" y2="170" stroke="#333333" stroke-width="2" marker-end="url(#ahk)"/>
+<text x="176" y="160" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333333">afferent lymph</text>
+<path d="M 236 196 Q 282 246 328 261" fill="none" stroke="#333333" stroke-width="2" marker-end="url(#ahk)"/>
+<path d="M 442 138 L 429 238" fill="none" stroke="#1a6fb5" stroke-width="1.6" stroke-dasharray="4 3" marker-end="url(#ahb)"/>
+
+<line x1="130" y1="298" x2="254" y2="293" stroke="#d1495b" stroke-width="2" marker-end="url(#ahr)"/>
+<text x="172" y="286" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#d1495b">blood</text>
+<text x="174" y="316" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#d1495b">~90% of entries</text>
+
+<path d="M 370 290 C 405 262 440 300 478 276 C 515 254 585 250 636 243" fill="none" stroke="#1a6fb5" stroke-width="2" marker-end="url(#ahb)"/>
+<line x1="652" y1="240" x2="744" y2="240" stroke="#1a6fb5" stroke-width="2" marker-end="url(#ahb)"/>
+<text x="700" y="228" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#1a6fb5">efferent lymph</text>
+<text x="700" y="258" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#1a6fb5">up the S1P gradient</text>
+
+<line x1="20" y1="380" x2="780" y2="380" stroke="#8fa8c0" stroke-width="1"/>
+<text x="20" y="399" font-family="Helvetica,Arial,sans-serif" font-size="11.5" font-weight="bold" fill="#111111">(a) antigen in</text>
+<text x="20" y="415" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333333">DC crawls up the afferent lymph, 18&#8211;24 h</text>
+<text x="20" y="430" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333333">soluble antigen via conduits (dashed), minutes</text>
+<text x="20" y="445" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333333">basin of ~1 L of tissue &#8594; ~20 microlitre T zone</text>
+<text x="410" y="399" font-family="Helvetica,Arial,sans-serif" font-size="11.5" font-weight="bold" fill="#111111">(b) lymphocyte in and out</text>
+<text x="410" y="415" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333333">blood &#8594; HEV: roll (L-selectin), arrest (LFA-1)</text>
+<text x="410" y="430" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333333">scan the paracortex ~12 h at ~10 micrometres/min</text>
+<text x="410" y="445" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333333">exit when S1PR1 beats CCR7 retention</text>
+</svg>

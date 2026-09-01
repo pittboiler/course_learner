@@ -6,6 +6,21 @@
 
 Understand the immune system as a layered, self-correcting defense: fast, hard-wired innate barriers that buy time, and a slow but exquisitely specific adaptive system that learns each pathogen and remembers it. You will be able to reason mechanistically from a molecular event to a physiological outcome — given a pathogen and where it lives (in your blood, inside your cells), predict which cells recognize it, how they get activated, what they do, and what goes wrong when the system misfires as autoimmunity, allergy, or immunodeficiency. The through-line is the central puzzle of immunology: how a genome with ~20,000 genes builds a repertoire of billions of distinct receptors, and how the body then edits that repertoire so it attacks pathogens but not you. This course deliberately skips clinical-immunology protocol depth (assay pipelines, dosing) and advanced systems-immunology modeling; it uses just enough combinatorics and cascade logic to make the mechanisms quantitative.
 
+## Scope discipline
+
+Immunology overlaps little with the rest of the library — almost everything here is
+its own. The few borrowed pieces have **one owner** each and are cited rather than
+re-derived. See the reference card's "Assumed, not taught here" table for pointers.
+
+| Topic | Owner | Immunology's role |
+|---|---|---|
+| Equilibrium binding, $K_d$, occupancy | [`biophysics`](../biophysics/syllabus.md) | states the result; 2.2 owns **avidity** — the multivalency enhancement — which is where the immunological content is |
+| Protein structure and the immunoglobulin fold | [`biochemistry`](../biochemistry/syllabus.md) | 2.1 reads the fold for function, not for folding |
+| Receptors, second messengers, kinase cascades; the proteasome | [`molecular-cell-biology`](../molecular-cell-biology/syllabus.md) | used freely in 1.3, 2.2, 2.5, 3.5 and cited |
+| DNA double-strand-break repair and NHEJ | [`genetics`](../genetics/syllabus.md) | 3.1 owns RAG, the 12/23 rule and junctional diversity; the repair machinery is cited |
+| Selection, balancing selection, heterozygote advantage | [`evolution-ecology`](../evolution-ecology/syllabus.md) | 2.4 and 3.3 apply it; 3.3 is explicitly selection running inside a lymph node |
+| **Everything else** — innate sensing, complement, antigen recognition and presentation, repertoire generation, the adaptive response, memory, tolerance, immune pathology | **this course** | — |
+
 ## Dangerous Checklist
 
 When you finish, you can:
@@ -86,3 +101,12 @@ The killing arm, the memory that makes vaccines possible, and the failure modes.
 - Murphy & Weaver, *Janeway's Immunobiology* — the spine for mechanism, terminology, and the logic of immune defense.
 - Abbas, Lichtman & Pillai, *Cellular and Molecular Immunology* — for effector-function detail and clinical framing.
 - Combinatorial arguments for repertoire diversity follow standard counting conventions (see `probability-theory`); protein-structure and signaling background follows `molecular-cell-biology`. All counts, constants, and abbreviations are defined at first use in each lesson.
+
+---
+
+*Scope note (2026-08-27):* built alongside
+[`systems-biology`](../systems-biology/syllabus.md) as the last unblocked pair in
+Life Sciences. A grep of the whole `courses/` tree before writing found immunology
+almost entirely unclaimed — only binding thermodynamics, protein structure,
+signalling machinery, DNA repair and selection were already owned elsewhere, and
+each is now cited to its owner rather than re-taught. Lesson count unchanged at 20.

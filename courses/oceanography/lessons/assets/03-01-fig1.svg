@@ -1,0 +1,46 @@
+<svg viewBox="0 0 700 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="11.5">
+  <text x="20" y="20" fill="#8a8a8a" font-style="italic">The wind curl pumps down; the interior answers by drifting equatorward everywhere.</text>
+
+  <line x1="190" y1="250" x2="190" y2="55" stroke="#8a8a8a" stroke-width="1.2" stroke-dasharray="3 3"/>
+  <text x="152" y="46" fill="#8a8a8a">wind stress</text>
+  <text x="126" y="266" fill="#8a8a8a">west</text>
+  <text x="240" y="266" fill="#8a8a8a">east</text>
+
+  <path d="M 134.0,250.0 L 134.7,240.5 L 136.7,231.0 L 140.1,221.5 L 144.7,212.0 L 150.4,202.5 L 157.1,193.0 L 164.6,183.5 L 172.7,174.0 L 181.2,164.5 L 190.0,155.0 L 198.8,145.5 L 207.3,136.0 L 215.4,126.5 L 222.9,117.0 L 229.6,107.5 L 235.3,98.0 L 239.9,88.5 L 243.3,79.0 L 245.3,69.5 L 246.0,60.0"
+        fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="122" y="222" fill="#e0645c">trades</text>
+  <text x="216" y="82" fill="#e0645c">westerlies</text>
+
+  <line x1="300" y1="60" x2="300" y2="250" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="630" y1="60" x2="630" y2="250" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="300" y1="60" x2="630" y2="60" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="300" y1="250" x2="630" y2="250" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="638" y="158" fill="#8a8a8a">eastern</text>
+  <text x="638" y="170" fill="#8a8a8a">boundary:</text>
+  <text x="638" y="182" fill="#8a8a8a">no flow</text>
+  <text x="638" y="194" fill="#8a8a8a">through it</text>
+  <text x="336" y="50" fill="#8a8a8a">45 N</text>
+  <text x="336" y="266" fill="#8a8a8a">15 N</text>
+
+  <line x1="380" y1="215" x2="380" y2="238" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="380,246 375,234 385,234" fill="#4a90d9"/>
+  <line x1="440" y1="180" x2="440" y2="238" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="440,246 435,234 445,234" fill="#4a90d9"/>
+  <line x1="500" y1="164" x2="500" y2="238" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="500,246 495,234 505,234" fill="#4a90d9"/>
+  <line x1="560" y1="180" x2="560" y2="238" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="560,246 555,234 565,234" fill="#4a90d9"/>
+  <line x1="600" y1="215" x2="600" y2="238" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="600,246 595,234 605,234" fill="#4a90d9"/>
+
+  <text x="380" y="140" fill="#4a90d9">Sverdrup interior:</text>
+  <text x="380" y="128" fill="#4a90d9">10.3 m&#178; s&#8315;&#185; equatorward,</text>
+  <text x="380" y="116" fill="#4a90d9">totalling 52 Sv</text>
+
+  <line x1="308" y1="240" x2="308" y2="72" stroke="#e0645c" stroke-width="4"/>
+  <polygon points="308,62 302,76 314,76" fill="#e0645c"/>
+  <text x="304" y="98" fill="#e0645c">52 Sv</text>
+  <text x="304" y="86" fill="#e0645c">must</text>
+  <text x="304" y="74" fill="#e0645c">return</text>
+  <text x="330" y="222" fill="#e0645c">but why here, and how narrow? Lesson 3.2.</text>
+</svg>

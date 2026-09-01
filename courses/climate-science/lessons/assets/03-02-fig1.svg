@@ -1,0 +1,40 @@
+<svg viewBox="0 0 660 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="12">
+  <text x="20" y="18" fill="#8a8a8a" font-style="italic">Equatorial Pacific. Where the warming lands decides how strongly the planet radiates it away.</text>
+
+  <!-- box -->
+  <line x1="70" y1="250" x2="610" y2="250" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="70" y1="70" x2="610" y2="70" stroke="#8a8a8a" stroke-width="1.2" stroke-dasharray="6 4"/>
+  <text x="540" y="64" fill="#8a8a8a">tropopause</text>
+  <text x="70" y="270" fill="#8a8a8a">west Pacific warm pool</text>
+  <text x="610" y="270" fill="#8a8a8a" text-anchor="end">east Pacific cold tongue</text>
+  <text x="70" y="286" fill="#8a8a8a">SST 30 &#176;C</text>
+  <text x="610" y="286" fill="#8a8a8a" text-anchor="end">SST 24 &#176;C</text>
+
+  <!-- convective tower -->
+  <path d="M 110 250 L 130 150 L 118 90 L 210 82 L 240 100 L 250 250 Z" fill="#4a90d9" opacity="0.18" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="126" y="200" fill="#4a90d9">deep</text>
+  <text x="126" y="216" fill="#4a90d9">convection</text>
+  <text x="150" y="106" fill="#4a90d9">anvil</text>
+
+  <!-- stratocumulus deck -->
+  <rect x="440" y="196" width="150" height="22" fill="#4a90d9" opacity="0.45" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="440" y="190" fill="#4a90d9">stratocumulus under the inversion</text>
+
+  <!-- Walker circulation -->
+  <line x1="250" y1="98" x2="470" y2="110" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="470,110 460,105 461,114" fill="#8a8a8a"/>
+  <line x1="500" y1="112" x2="500" y2="188" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="500,188 495,178 505,178" fill="#8a8a8a"/>
+  <text x="506" y="152" fill="#8a8a8a">subsidence</text>
+  <line x1="470" y1="240" x2="270" y2="240" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="270,240 280,235 279,245" fill="#8a8a8a"/>
+  <text x="316" y="234" fill="#8a8a8a">trade winds</text>
+
+  <!-- free troposphere temperature: WTG -->
+  <line x1="130" y1="130" x2="590" y2="130" stroke="#e0645c" stroke-width="2" stroke-dasharray="4 3"/>
+  <text x="266" y="124" fill="#e0645c">free troposphere: one temperature across the tropics</text>
+
+  <!-- the two cases -->
+  <text x="30" y="312" fill="#e0645c">warm the WEST: free troposphere warms &#8594; inversion strengthens &#8594; MORE low cloud &#8594; strongly stabilizing</text>
+  <text x="30" y="330" fill="#4a90d9">warm the EAST: inversion weakens &#8594; LESS low cloud &#8594; weakly stabilizing, or destabilizing</text>
+</svg>

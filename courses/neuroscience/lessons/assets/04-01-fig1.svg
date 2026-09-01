@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420" role="img" aria-label="Two panels. Left, the spike-timing-dependent plasticity window: weight change plotted against the interval between the postsynaptic and presynaptic spike, with a tall narrow potentiation lobe for presynaptic-first pairings and a shallower, wider depression lobe for postsynaptic-first pairings. Right, the calcium rule: weight change against the size of the postsynaptic calcium transient, flat at low calcium, negative in an intermediate band, positive above a higher threshold, with a dashed copy of the same curve shifted to the right showing the sliding threshold.">
+<rect width="800" height="420" fill="#ffffff"/>
+<defs>
+<marker id="ar" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto">
+<path d="M0,0 L9,3.5 L0,7 z" fill="#333"/>
+</marker>
+</defs>
+
+<text x="40" y="28" font-family="Helvetica,Arial,sans-serif" font-size="15" font-weight="bold" fill="#111">(a) The STDP window</text>
+<text x="420" y="28" font-family="Helvetica,Arial,sans-serif" font-size="15" font-weight="bold" fill="#111">(b) Calcium decides the sign</text>
+
+<line x1="50" y1="95" x2="50" y2="305" stroke="#333" stroke-width="1.4"/>
+<line x1="50" y1="305" x2="368" y2="305" stroke="#333" stroke-width="1.4"/>
+<line x1="52" y1="223" x2="366" y2="223" stroke="#8fa8c0" stroke-width="1" stroke-dasharray="4,4"/>
+<line x1="205" y1="100" x2="205" y2="305" stroke="#8fa8c0" stroke-width="1" stroke-dasharray="3,4"/>
+
+<line x1="46" y1="111.2" x2="50" y2="111.2" stroke="#333" stroke-width="1.2"/>
+<line x1="46" y1="167.1" x2="50" y2="167.1" stroke="#333" stroke-width="1.2"/>
+<line x1="46" y1="223" x2="50" y2="223" stroke="#333" stroke-width="1.2"/>
+<line x1="46" y1="278.9" x2="50" y2="278.9" stroke="#333" stroke-width="1.2"/>
+<text x="43" y="115.5" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#333" text-anchor="end">+1.0</text>
+<text x="43" y="171.4" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#333" text-anchor="end">+0.5</text>
+<text x="43" y="227.3" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#333" text-anchor="end">0</text>
+<text x="43" y="283.2" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#333" text-anchor="end">&#8722;0.5</text>
+
+<line x1="50" y1="305" x2="50" y2="310" stroke="#333" stroke-width="1.2"/>
+<line x1="127.5" y1="305" x2="127.5" y2="310" stroke="#333" stroke-width="1.2"/>
+<line x1="205" y1="305" x2="205" y2="310" stroke="#333" stroke-width="1.2"/>
+<line x1="282.5" y1="305" x2="282.5" y2="310" stroke="#333" stroke-width="1.2"/>
+<line x1="360" y1="305" x2="360" y2="310" stroke="#333" stroke-width="1.2"/>
+<text x="50" y="324" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#333" text-anchor="middle">&#8722;80</text>
+<text x="127.5" y="324" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#333" text-anchor="middle">&#8722;40</text>
+<text x="205" y="324" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#333" text-anchor="middle">0</text>
+<text x="282.5" y="324" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#333" text-anchor="middle">+40</text>
+<text x="360" y="324" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#333" text-anchor="middle">+80</text>
+<text x="205" y="345" font-family="Helvetica,Arial,sans-serif" font-size="12.5" fill="#111" text-anchor="middle">&#916;t = t(post) &#8722; t(pre), ms</text>
+<text x="20" y="200" font-family="Helvetica,Arial,sans-serif" font-size="12.5" fill="#111" text-anchor="middle" transform="rotate(-90 20 200)">&#916;w, percent per pair</text>
+
+<polyline fill="none" stroke="#1a6fb5" stroke-width="2.4" points="205.0,111.2 208.9,123.6 212.8,134.7 216.6,144.5 220.5,153.2 224.4,160.9 232.1,173.9 239.9,184.2 247.6,192.3 255.4,198.7 263.1,203.8 274.8,209.5 286.4,213.5 301.9,217.1 321.3,219.6 340.6,221.1 360.0,221.9"/>
+<polyline fill="none" stroke="#d1495b" stroke-width="2.4" points="50.0,228.6 88.8,233.2 112.0,237.4 131.4,242.3 146.9,247.4 158.5,252.2 170.1,257.9 177.9,262.3 185.6,267.1 193.4,272.7 199.2,277.2 205.0,282.2"/>
+
+<text x="252" y="132" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#1a6fb5">potentiation</text>
+<text x="70" y="292" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#d1495b">depression</text>
+
+<text x="307" y="152" font-family="Helvetica,Arial,sans-serif" font-size="12.5" fill="#111" text-anchor="middle">pre &#8594; post</text>
+<line x1="268" y1="180" x2="348" y2="180" stroke="#8fa8c0" stroke-width="1"/>
+<line x1="288" y1="162" x2="288" y2="180" stroke="#1a6fb5" stroke-width="2.4"/>
+<line x1="328" y1="162" x2="328" y2="180" stroke="#d1495b" stroke-width="2.4"/>
+<text x="288" y="194" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#1a6fb5" text-anchor="middle">pre</text>
+<text x="328" y="194" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#d1495b" text-anchor="middle">post</text>
+
+<text x="112" y="134" font-family="Helvetica,Arial,sans-serif" font-size="12.5" fill="#111" text-anchor="middle">post &#8594; pre</text>
+<line x1="72" y1="162" x2="152" y2="162" stroke="#8fa8c0" stroke-width="1"/>
+<line x1="92" y1="144" x2="92" y2="162" stroke="#d1495b" stroke-width="2.4"/>
+<line x1="132" y1="144" x2="132" y2="162" stroke="#1a6fb5" stroke-width="2.4"/>
+<text x="92" y="176" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#d1495b" text-anchor="middle">post</text>
+<text x="132" y="176" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#1a6fb5" text-anchor="middle">pre</text>
+
+<line x1="396" y1="45" x2="396" y2="350" stroke="#8fa8c0" stroke-width="0.8"/>
+
+<line x1="440" y1="95" x2="440" y2="305" stroke="#333" stroke-width="1.4"/>
+<line x1="440" y1="305" x2="772" y2="305" stroke="#333" stroke-width="1.4"/>
+<line x1="442" y1="223" x2="770" y2="223" stroke="#8fa8c0" stroke-width="1" stroke-dasharray="4,4"/>
+<text x="766" y="217" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#8fa8c0" text-anchor="end">no change</text>
+
+<line x1="436" y1="111.2" x2="440" y2="111.2" stroke="#333" stroke-width="1.2"/>
+<line x1="436" y1="167.1" x2="440" y2="167.1" stroke="#333" stroke-width="1.2"/>
+<line x1="436" y1="223" x2="440" y2="223" stroke="#333" stroke-width="1.2"/>
+<line x1="436" y1="278.9" x2="440" y2="278.9" stroke="#333" stroke-width="1.2"/>
+<text x="433" y="115.5" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#333" text-anchor="end">+</text>
+<text x="433" y="227.3" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#333" text-anchor="end">0</text>
+<text x="433" y="283.2" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#333" text-anchor="end">&#8722;</text>
+
+<line x1="520" y1="108" x2="520" y2="305" stroke="#8fa8c0" stroke-width="1" stroke-dasharray="3,4"/>
+<line x1="600" y1="108" x2="600" y2="305" stroke="#8fa8c0" stroke-width="1" stroke-dasharray="3,4"/>
+<text x="520" y="104" font-family="Helvetica,Arial,sans-serif" font-size="13" fill="#333" text-anchor="middle">&#952;<tspan font-size="10" dy="3">d</tspan></text>
+<text x="600" y="104" font-family="Helvetica,Arial,sans-serif" font-size="13" fill="#333" text-anchor="middle">&#952;<tspan font-size="10" dy="3">p</tspan></text>
+
+<polyline fill="none" stroke="#1a6fb5" stroke-width="2.4" points="440,223 504,223 520,223 536,250.9 560,267.7 584,250.9 600,223 624,183.9 656,144.8 696,120.2 760,111.2"/>
+<polyline fill="none" stroke="#d1495b" stroke-width="2.2" stroke-dasharray="7,5" points="440,223 560,223 576,223 592,250.9 616,267.7 640,250.9 656,223 680,183.9 712,144.8 752,120.2 760,118"/>
+
+<line x1="602" y1="290" x2="654" y2="290" stroke="#333" stroke-width="1.4" marker-end="url(#ar)"/>
+<text x="628" y="283" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#333" text-anchor="middle">threshold slides</text>
+
+<text x="556" y="288" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#1a6fb5">LTD</text>
+<text x="702" y="140" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#1a6fb5">LTP</text>
+<text x="748" y="160" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#d1495b" text-anchor="end">after high activity</text>
+
+<line x1="440" y1="305" x2="440" y2="310" stroke="#333" stroke-width="1.2"/>
+<line x1="520" y1="305" x2="520" y2="310" stroke="#333" stroke-width="1.2"/>
+<line x1="600" y1="305" x2="600" y2="310" stroke="#333" stroke-width="1.2"/>
+<line x1="680" y1="305" x2="680" y2="310" stroke="#333" stroke-width="1.2"/>
+<line x1="760" y1="305" x2="760" y2="310" stroke="#333" stroke-width="1.2"/>
+<text x="440" y="324" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#333" text-anchor="middle">0</text>
+<text x="520" y="324" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#333" text-anchor="middle">1</text>
+<text x="600" y="324" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#333" text-anchor="middle">2</text>
+<text x="680" y="324" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#333" text-anchor="middle">3</text>
+<text x="760" y="324" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#333" text-anchor="middle">4</text>
+<text x="600" y="345" font-family="Helvetica,Arial,sans-serif" font-size="12.5" fill="#111" text-anchor="middle">peak postsynaptic Ca&#178;&#8314; in the spine, relative units</text>
+<text x="414" y="200" font-family="Helvetica,Arial,sans-serif" font-size="12.5" fill="#111" text-anchor="middle" transform="rotate(-90 414 200)">&#916;w</text>
+
+<text x="40" y="378" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#333">Presynaptic spike first &#8594; glutamate is bound when the backpropagating spike arrives &#8594; large Ca&#178;&#8314; &#8594; LTP.</text>
+<text x="40" y="396" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#333">Reverse the order &#8594; the depolarization has passed &#8594; modest Ca&#178;&#8314; &#8594; LTD. One mechanism, both signs.</text>
+</svg>

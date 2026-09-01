@@ -1,0 +1,41 @@
+<svg viewBox="0 0 660 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="12">
+  <text x="20" y="20" fill="#8a8a8a" font-style="italic">A tipping point is a fold: two stable states, an unstable branch between, and a path that does not retrace.</text>
+
+  <line x1="100" y1="252" x2="625" y2="252" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="100" y1="252" x2="100" y2="60" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="300" y="300" fill="#8a8a8a">forcing (warming, or freshwater input)</text>
+  <text x="18" y="140" fill="#8a8a8a">system</text>
+  <text x="26" y="156" fill="#8a8a8a">state</text>
+
+  <path d="M 110,95 C 250,100 380,115 450,150" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="150" y="86" fill="#4a90d9">stable: circulation ON</text>
+
+  <path d="M 450,150 C 400,180 300,200 230,205" fill="none" stroke="#8a8a8a" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="300" y="176" fill="#8a8a8a">unstable</text>
+
+  <path d="M 230,205 C 320,222 460,232 600,236" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="470" y="256" fill="#4a90d9">stable: circulation OFF</text>
+
+  <!-- folds -->
+  <circle cx="450" cy="150" r="5" fill="#e0645c"/>
+  <circle cx="230" cy="205" r="5" fill="#e0645c"/>
+  <text x="456" y="140" fill="#e0645c">fold: tipping point</text>
+  <text x="150" y="220" fill="#e0645c">fold</text>
+
+  <!-- jumps -->
+  <line x1="450" y1="156" x2="450" y2="226" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="450,231 445,220 455,220" fill="#e0645c"/>
+  <text x="458" y="196" fill="#e0645c">collapse</text>
+
+  <line x1="230" y1="199" x2="230" y2="106" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="230,101 225,112 235,112" fill="#8a8a8a"/>
+  <text x="150" y="122" fill="#8a8a8a">recovery</text>
+
+  <!-- hysteresis width -->
+  <line x1="230" y1="270" x2="450" y2="270" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="230,270 239,266 239,274" fill="#8a8a8a"/>
+  <polygon points="450,270 441,266 441,274" fill="#8a8a8a"/>
+  <text x="252" y="286" fill="#8a8a8a">hysteresis: coming back is not enough</text>
+  <line x1="230" y1="210" x2="230" y2="266" stroke="#8a8a8a" stroke-width="0.8" stroke-dasharray="3 3"/>
+  <line x1="450" y1="156" x2="450" y2="266" stroke="#8a8a8a" stroke-width="0.8" stroke-dasharray="3 3"/>
+</svg>

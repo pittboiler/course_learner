@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 806 560" width="806" height="560" role="img" aria-label="A method map of neuroscience techniques plotted on logarithmic axes of spatial resolution, from one nanometre to ten centimetres, and temporal resolution, from ten microseconds to one day. Each technique is drawn as a rectangle covering the range it spans: patch clamp at the fine-and-fast corner, extracellular arrays beside it, voltage and calcium imaging in the middle, EEG and MEG fast but coarse, fMRI slow and coarse, optogenetics as a fast perturbation, and lesions as a permanent coarse one. Solid outlines mark invasive methods and dashed outlines non-invasive ones, blue marks measurement and coral marks perturbation.">
+  <rect width="806" height="560" fill="#ffffff"/>
+
+  <g font-family="Helvetica,Arial,sans-serif">
+
+    <text x="95" y="28" font-size="13.5" font-weight="bold" fill="#111">The method map: no instrument is good at everything</text>
+    <text x="95" y="47" font-size="10.5" fill="#333">Boxes span the range each method covers; bottom-left is finest. Read a claim by asking which box produced it.</text>
+
+    <!-- gridlines -->
+    <g stroke="#e8edf2" stroke-width="1">
+      <line x1="95" y1="68" x2="95" y2="470"/>
+      <line x1="253.75" y1="68" x2="253.75" y2="470"/>
+      <line x1="412.5" y1="68" x2="412.5" y2="470"/>
+      <line x1="571.25" y1="68" x2="571.25" y2="470"/>
+      <line x1="730" y1="68" x2="730" y2="470"/>
+      <line x1="95" y1="391" x2="738" y2="391"/>
+      <line x1="95" y1="312" x2="738" y2="312"/>
+      <line x1="95" y1="233" x2="738" y2="233"/>
+      <line x1="95" y1="154" x2="738" y2="154"/>
+      <line x1="95" y1="75" x2="738" y2="75"/>
+    </g>
+
+    <!-- ============ BOXES ============ -->
+
+    <!-- patch clamp -->
+    <rect x="95" y="391" width="333.4" height="79" fill="#dceaf6" fill-opacity="0.85" stroke="#1a6fb5" stroke-width="2"/>
+    <text x="104" y="409" font-size="12" font-weight="bold" fill="#111">Patch clamp</text>
+    <text x="104" y="424" font-size="10.5" fill="#111">single channel &#8594; whole cell</text>
+    <text x="104" y="438" font-size="10.5" fill="#111">one cell at a time</text>
+    <text x="104" y="452" font-size="10" font-style="italic" fill="#333">all of Module 1 rests here</text>
+
+    <!-- extracellular arrays -->
+    <rect x="436.3" y="391" width="55.6" height="59.25" fill="#dceaf6" fill-opacity="0.85" stroke="#1a6fb5" stroke-width="2"/>
+    <line x1="492" y1="412" x2="504" y2="412" stroke="#1a6fb5" stroke-width="1.2"/>
+    <text x="508" y="406" font-size="11.5" font-weight="bold" fill="#111">Extracellular arrays</text>
+    <text x="508" y="420" font-size="10.5" fill="#111">10&#178;&#8211;10&#179; sorted units</text>
+    <text x="508" y="434" font-size="10" font-style="italic" fill="#333">sorting is an inference</text>
+
+    <!-- calcium imaging -->
+    <rect x="309.3" y="272.5" width="119.1" height="51.35" fill="#dceaf6" fill-opacity="0.85" stroke="#1a6fb5" stroke-width="2"/>
+    <text x="316" y="289" font-size="11" font-weight="bold" fill="#111">Calcium imaging</text>
+    <text x="316" y="302" font-size="10" fill="#111">10&#179;&#8211;10&#8309; cells</text>
+    <text x="316" y="315" font-size="10" fill="#111">cell types targeted</text>
+    <line x1="228" y1="298" x2="305" y2="296" stroke="#8fa8c0" stroke-width="1.2"/>
+    <text x="100" y="290" font-size="10" font-style="italic" fill="#333">spikes here are inferred</text>
+    <text x="100" y="303" font-size="10" font-style="italic" fill="#333">from a slow indicator,</text>
+    <text x="100" y="316" font-size="10" font-style="italic" fill="#333">not measured</text>
+
+    <!-- voltage imaging -->
+    <rect x="309.3" y="351.5" width="119.1" height="39.5" fill="#eef5fb" stroke="#1a6fb5" stroke-width="2"/>
+    <text x="316" y="366" font-size="10.5" font-weight="bold" fill="#111">Voltage imaging</text>
+    <text x="316" y="379" font-size="10" font-style="italic" fill="#333">the attempted fix</text>
+
+    <!-- EEG / MEG -->
+    <rect x="626.8" y="351.5" width="63.5" height="39.5" fill="#dceaf6" fill-opacity="0.85" stroke="#1a6fb5" stroke-width="2" stroke-dasharray="5 3"/>
+    <line x1="690" y1="336" x2="668" y2="350" stroke="#1a6fb5" stroke-width="1.2"/>
+    <text x="730" y="300" font-size="11.5" font-weight="bold" fill="#111" text-anchor="end">EEG / MEG</text>
+    <text x="730" y="314" font-size="10" fill="#111" text-anchor="end">ms timing, no surgery</text>
+    <text x="730" y="328" font-size="10" font-style="italic" fill="#333" text-anchor="end">location is modelled</text>
+
+    <!-- fMRI -->
+    <rect x="563.3" y="233" width="63.5" height="39.5" fill="#dceaf6" fill-opacity="0.85" stroke="#1a6fb5" stroke-width="2" stroke-dasharray="5 3"/>
+    <text x="636" y="246" font-size="11.5" font-weight="bold" fill="#111">fMRI</text>
+    <text x="636" y="259" font-size="10" fill="#111">whole brain, 2 mm</text>
+    <text x="636" y="272" font-size="10" fill="#111">lags 4&#8211;6 s</text>
+    <text x="636" y="285" font-size="10" font-style="italic" fill="#333">blood, not spikes</text>
+
+    <!-- optogenetics -->
+    <rect x="436.3" y="323.85" width="134.95" height="67.15" fill="#f7dfe2" fill-opacity="0.9" stroke="#d1495b" stroke-width="2"/>
+    <text x="444" y="341" font-size="11.5" font-weight="bold" fill="#111">Optogenetics</text>
+    <text x="444" y="355" font-size="10" fill="#111">ms control, by cell type</text>
+    <text x="444" y="369" font-size="10" fill="#111">shows sufficiency &#8212;</text>
+    <text x="444" y="383" font-size="10" font-style="italic" fill="#333">but synchronous drive</text>
+
+    <!-- lesions -->
+    <rect x="547.4" y="75" width="142.9" height="79" fill="#f7dfe2" fill-opacity="0.9" stroke="#d1495b" stroke-width="2"/>
+    <text x="556" y="94" font-size="11.5" font-weight="bold" fill="#111">Lesions</text>
+    <text x="556" y="108" font-size="10" fill="#111">permanent</text>
+    <text x="556" y="122" font-size="10" fill="#111">compensation</text>
+    <text x="556" y="136" font-size="10" font-style="italic" fill="#333">confounds it</text>
+
+    <!-- ============ LEGEND ============ -->
+    <rect x="96" y="82" width="204" height="112" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+    <rect x="104" y="92" width="20" height="14" fill="#dceaf6" stroke="#1a6fb5" stroke-width="2"/>
+    <text x="131" y="103" font-size="10" fill="#111">measures &#183; invasive</text>
+    <rect x="104" y="118" width="20" height="14" fill="#dceaf6" stroke="#1a6fb5" stroke-width="2" stroke-dasharray="4 3"/>
+    <text x="131" y="129" font-size="10" fill="#111">measures &#183; non-invasive</text>
+    <rect x="104" y="144" width="20" height="14" fill="#f7dfe2" stroke="#d1495b" stroke-width="2"/>
+    <text x="131" y="155" font-size="10" fill="#111">perturbs &#183; gives causation</text>
+    <text x="104" y="177" font-size="10" font-style="italic" fill="#333">each box = the range it spans</text>
+
+    <!-- ============ AXES ============ -->
+    <g stroke="#111" stroke-width="1.6">
+      <line x1="95" y1="470" x2="738" y2="470"/>
+      <line x1="95" y1="68" x2="95" y2="470"/>
+    </g>
+
+    <!-- x ticks -->
+    <g stroke="#111" stroke-width="1.2">
+      <line x1="95" y1="470" x2="95" y2="477"/>
+      <line x1="253.75" y1="470" x2="253.75" y2="477"/>
+      <line x1="412.5" y1="470" x2="412.5" y2="477"/>
+      <line x1="571.25" y1="470" x2="571.25" y2="477"/>
+      <line x1="730" y1="470" x2="730" y2="477"/>
+      <line x1="174.375" y1="470" x2="174.375" y2="474"/>
+      <line x1="333.125" y1="470" x2="333.125" y2="474"/>
+      <line x1="491.875" y1="470" x2="491.875" y2="474"/>
+      <line x1="650.625" y1="470" x2="650.625" y2="474"/>
+    </g>
+    <g font-size="10.5" fill="#111" text-anchor="middle">
+      <text x="95" y="489">1 nm</text>
+      <text x="253.75" y="489">100 nm</text>
+      <text x="412.5" y="489">10 &#181;m</text>
+      <text x="571.25" y="489">1 mm</text>
+      <text x="730" y="489">10 cm</text>
+    </g>
+    <g font-size="10" fill="#555" text-anchor="middle">
+      <text x="95" y="502">channel</text>
+      <text x="253.75" y="502">spine</text>
+      <text x="412.5" y="502">cell body</text>
+      <text x="571.25" y="502">column</text>
+      <text x="730" y="502">whole brain</text>
+    </g>
+    <text x="416" y="523" font-size="11" font-weight="bold" fill="#111" text-anchor="middle">spatial resolution  (finer at left)</text>
+
+    <!-- y ticks -->
+    <g stroke="#111" stroke-width="1.2">
+      <line x1="88" y1="470" x2="95" y2="470"/>
+      <line x1="88" y1="391" x2="95" y2="391"/>
+      <line x1="88" y1="312" x2="95" y2="312"/>
+      <line x1="88" y1="233" x2="95" y2="233"/>
+      <line x1="88" y1="154" x2="95" y2="154"/>
+      <line x1="88" y1="75" x2="95" y2="75"/>
+      <line x1="91" y1="430.5" x2="95" y2="430.5"/>
+      <line x1="91" y1="351.5" x2="95" y2="351.5"/>
+      <line x1="91" y1="272.5" x2="95" y2="272.5"/>
+      <line x1="91" y1="193.5" x2="95" y2="193.5"/>
+      <line x1="91" y1="114.5" x2="95" y2="114.5"/>
+    </g>
+    <g font-size="10.5" fill="#111" text-anchor="end">
+      <text x="84" y="473.5">10 &#181;s</text>
+      <text x="84" y="394.5">1 ms</text>
+      <text x="84" y="315.5">100 ms</text>
+      <text x="84" y="236.5">10 s</text>
+      <text x="84" y="157.5">17 min</text>
+      <text x="84" y="78.5">1 day</text>
+    </g>
+    <text x="30" y="272.5" font-size="11" font-weight="bold" fill="#111" text-anchor="middle" transform="rotate(-90 30 272.5)">temporal resolution  (faster at bottom)</text>
+
+    <text x="95" y="545" font-size="10.5" font-style="italic" fill="#333">Coverage is the hidden third axis (see the counts). Nothing is fine in space, fast in time, and brain-wide.</text>
+
+  </g>
+</svg>

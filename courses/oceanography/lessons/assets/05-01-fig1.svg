@@ -1,0 +1,42 @@
+<svg viewBox="0 0 700 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="11.5">
+  <text x="20" y="20" fill="#8a8a8a" font-style="italic">Energy travels along the beam; phase travels across it. Upward phase means downward energy.</text>
+
+  <line x1="60" y1="60" x2="660" y2="60" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="64" y="52" fill="#8a8a8a">sea surface</text>
+  <line x1="60" y1="300" x2="660" y2="300" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="64" y="316" fill="#8a8a8a">sea floor</text>
+
+  <line x1="150" y1="60" x2="212" y2="60" stroke="#e0645c" stroke-width="5"/>
+  <text x="110" y="46" fill="#e0645c">generation region</text>
+
+  <line x1="180" y1="80" x2="543.7" y2="290" stroke="#4a90d9" stroke-width="3"/>
+  <line x1="200" y1="68" x2="563.7" y2="278" stroke="#4a90d9" stroke-width="3"/>
+  <polygon points="556,297 534,286 542,272" fill="#4a90d9"/>
+  <text x="440" y="256" fill="#4a90d9">group velocity: energy</text>
+  <text x="440" y="268" fill="#4a90d9">along the beam, downward</text>
+
+  <line x1="217.0" y1="136.0" x2="247.0" y2="84.0" stroke="#8a8a8a" stroke-width="1.6"/>
+  <line x1="240.7" y1="150.0" x2="270.7" y2="98.0" stroke="#8a8a8a" stroke-width="1.6"/>
+  <line x1="264.4" y1="164.0" x2="294.4" y2="112.0" stroke="#8a8a8a" stroke-width="1.6"/>
+  <line x1="286.2" y1="176.0" x2="316.2" y2="124.0" stroke="#8a8a8a" stroke-width="1.6"/>
+  <line x1="309.9" y1="190.0" x2="339.9" y2="138.0" stroke="#8a8a8a" stroke-width="1.6"/>
+  <line x1="333.6" y1="204.0" x2="363.6" y2="152.0" stroke="#8a8a8a" stroke-width="1.6"/>
+  <line x1="355.5" y1="216.0" x2="385.5" y2="164.0" stroke="#8a8a8a" stroke-width="1.6"/>
+  <line x1="379.2" y1="230.0" x2="409.2" y2="178.0" stroke="#8a8a8a" stroke-width="1.6"/>
+  <line x1="402.9" y1="244.0" x2="432.9" y2="192.0" stroke="#8a8a8a" stroke-width="1.6"/>
+  <line x1="424.8" y1="256.0" x2="454.8" y2="204.0" stroke="#8a8a8a" stroke-width="1.6"/>
+  <text x="300" y="228" fill="#8a8a8a">lines of constant phase</text>
+
+  <line x1="300" y1="180" x2="345" y2="102" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="352,90 338,100 348,106" fill="#e0645c"/>
+  <text x="352" y="86" fill="#e0645c">phase velocity: across the beam, upward</text>
+
+  <path d="M 180,110 A 60,60 0 0,0 214,138" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="180" y1="80" x2="180" y2="150" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="150" y="176" fill="#8a8a8a">beam angle set by</text>
+  <text x="150" y="188" fill="#8a8a8a">sin(angle) = omega / N,</text>
+  <text x="150" y="200" fill="#8a8a8a">independent of wavelength</text>
+
+  <line x1="120" y1="60" x2="120" y2="300" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="60" y="180" fill="#8a8a8a">depth</text>
+</svg>

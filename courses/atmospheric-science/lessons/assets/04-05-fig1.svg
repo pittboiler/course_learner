@@ -1,0 +1,38 @@
+<svg viewBox="0 0 620 420" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="26" y="24" fill="#8a8a8a" font-style="italic">A wave on the polar front grows, wraps up, and occludes: the cyclone life cycle.</text>
+  <text x="40" y="56" fill="#8a8a8a" font-size="12">warm front: shallow slope, broad stratiform rain</text>
+  <line x1="40" y1="140" x2="280" y2="140" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="40" y1="140" x2="270" y2="76" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="60" y="132" fill="#8a8a8a" font-size="11">cold air</text>
+  <text x="190" y="118" fill="#e0645c" font-size="11">warm air glides up</text>
+  <line x1="110" y1="132" x2="106" y2="120" stroke="#4a90d9" stroke-width="1.2"/>
+  <line x1="150" y1="132" x2="146" y2="120" stroke="#4a90d9" stroke-width="1.2"/>
+  <line x1="190" y1="132" x2="186" y2="120" stroke="#4a90d9" stroke-width="1.2"/>
+  <line x1="230" y1="132" x2="226" y2="120" stroke="#4a90d9" stroke-width="1.2"/>
+  <text x="330" y="56" fill="#8a8a8a" font-size="12">cold front: steep, narrow convective band</text>
+  <line x1="330" y1="140" x2="570" y2="140" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="400" y1="140" x2="352" y2="72" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="336" y="132" fill="#4a90d9" font-size="11">cold</text>
+  <text x="440" y="132" fill="#e0645c" font-size="11">warm, shoved up</text>
+  <line x1="404" y1="134" x2="384" y2="86" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="382,80 379,92 389,90" fill="#e0645c"/>
+  <text x="95" y="392" fill="#8a8a8a" font-size="11" text-anchor="middle">1 stationary front</text>
+  <text x="235" y="392" fill="#8a8a8a" font-size="11" text-anchor="middle">2 wave forms</text>
+  <text x="375" y="392" fill="#8a8a8a" font-size="11" text-anchor="middle">3 mature</text>
+  <text x="515" y="392" fill="#8a8a8a" font-size="11" text-anchor="middle">4 occluded</text>
+  <line x1="43" y1="300" x2="147" y2="300" stroke="#8a8a8a" stroke-width="2.5"/>
+  <text x="95" y="270" fill="#4a90d9" font-size="11" text-anchor="middle">cold</text>
+  <text x="95" y="334" fill="#e0645c" font-size="11" text-anchor="middle">warm</text>
+  <path d="M 183 300 Q 211 296 235 280" fill="none" stroke="#8a8a8a" stroke-width="2.5"/>
+  <path d="M 235 280 Q 261 298 287 300" fill="none" stroke="#8a8a8a" stroke-width="2.5"/>
+  <text x="235" y="274" fill="#8a8a8a" font-size="11" text-anchor="middle">L</text>
+  <line x1="375" y1="276" x2="329" y2="330" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="375" y1="276" x2="425" y2="312" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="375" y="268" fill="#8a8a8a" font-size="11" text-anchor="middle">L</text>
+  <text x="383" y="344" fill="#e0645c" font-size="11" text-anchor="middle">warm sector</text>
+  <path d="M 507 274 Q 475 296 499 318" fill="none" stroke="#8a8a8a" stroke-width="3"/>
+  <line x1="499" y1="318" x2="471" y2="348" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="499" y1="318" x2="553" y2="340" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="507" y="266" fill="#8a8a8a" font-size="11" text-anchor="middle">L</text>
+  <text x="397" y="368" fill="#8a8a8a" font-size="11">warm air lifted clear of the ground</text>
+</svg>

@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 672" width="660" height="672" role="img" aria-label="Two stacked panels. The upper panel shows three motor neurons of increasing soma size receiving a common descending drive bus, each annotated with its input resistance and rheobase current: a small slow unit at two megaohms and five nanoamps, a medium unit at one megaohm and ten nanoamps, and a large fast unit at half a megaohm and twenty nanoamps, with unit forces scaling one, four and sixteen. Beneath them a staircase plot of total muscle force against descending drive rises with fine steps at low force and progressively coarser steps at high force, with the three units marked on the drive axis. The lower panel redraws the stretch reflex as a negative feedback block diagram: a descending command enters a summing junction, then the alpha motor neuron acting as controller, then the muscle and its load acting as plant, with a load disturbance entering the plant from above and muscle length emerging as the output. The output feeds back through a delay block of twenty to thirty milliseconds and the muscle spindle acting as sensor, returning to the summing junction with a minus sign, while the gamma motor neuron sets the spindle operating point.">
+<rect width="660" height="672" fill="#ffffff"/>
+
+<!-- ================= PANEL A ================= -->
+<text x="20" y="24" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#111">(a) Recruitment order falls out of input resistance</text>
+
+<!-- descending drive bus -->
+<line x1="60" y1="45" x2="470" y2="45" stroke="#333" stroke-width="1.6"/>
+<line x1="95" y1="45" x2="95" y2="69" stroke="#333" stroke-width="1.4"/>
+<polygon points="95,73 91.6,66 98.4,66" fill="#333"/>
+<line x1="250" y1="45" x2="250" y2="64" stroke="#333" stroke-width="1.4"/>
+<polygon points="250,68 246.6,61 253.4,61" fill="#333"/>
+<line x1="430" y1="45" x2="430" y2="57" stroke="#333" stroke-width="1.4"/>
+<polygon points="430,61 426.6,54 433.4,54" fill="#333"/>
+<text x="490" y="49" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#333">common descending drive</text>
+
+<!-- somata -->
+<circle cx="95" cy="85" r="12" fill="#f5f7fa" stroke="#2e8b57" stroke-width="2"/>
+<circle cx="250" cy="85" r="17" fill="#f5f7fa" stroke="#1a6fb5" stroke-width="2"/>
+<circle cx="430" cy="85" r="24" fill="#f5f7fa" stroke="#d1495b" stroke-width="2"/>
+
+<text x="95" y="122" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="bold" fill="#2e8b57">type S (slow)</text>
+<text x="95" y="138" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333">R_in = 2.0 M&#937;</text>
+<text x="95" y="154" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333">rheobase 5 nA &#183; force &#215;1</text>
+
+<text x="250" y="122" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="bold" fill="#1a6fb5">type FR</text>
+<text x="250" y="138" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333">R_in = 1.0 M&#937;</text>
+<text x="250" y="154" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333">rheobase 10 nA &#183; force &#215;4</text>
+
+<text x="430" y="122" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="bold" fill="#d1495b">type FF (fast)</text>
+<text x="430" y="138" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333">R_in = 0.5 M&#937;</text>
+<text x="430" y="154" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333">rheobase 20 nA &#183; force &#215;16</text>
+
+<text x="558" y="122" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#111">same &#916;V threshold</text>
+<text x="558" y="138" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#111">&#8776; 10 mV, so</text>
+<text x="558" y="154" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" font-weight="bold" fill="#111">I_th = &#916;V / R_in</text>
+
+<!-- staircase plot axes -->
+<line x1="75" y1="300" x2="612" y2="300" stroke="#111" stroke-width="1.4"/>
+<line x1="75" y1="300" x2="75" y2="180" stroke="#111" stroke-width="1.4"/>
+<text x="75" y="314" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">0</text>
+<text x="283" y="314" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">10</text>
+<text x="491" y="314" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">20</text>
+<text x="343" y="332" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#111">descending drive (nA)</text>
+<text x="40" y="243" text-anchor="middle" transform="rotate(-90 40 243)" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#111">force (% of max)</text>
+<text x="68" y="188" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">100</text>
+
+<polyline fill="none" stroke="#1a6fb5" stroke-width="2.2" points="75,300 158,300 158,299.2 179,299.2 179,298 200,298 200,296.4 221,296.4 221,294.1 252,294.1 252,291 283,291 283,286.5 314,286.5 314,280.3 345,280.3 345,271.6 387,271.6 387,259.4 429,259.4 429,242.4 491,242.4 491,218.5 553,218.5 553,185 600,185"/>
+
+<line x1="179" y1="300" x2="179" y2="306" stroke="#2e8b57" stroke-width="2"/>
+<text x="179" y="290" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" font-weight="bold" fill="#2e8b57">S</text>
+<line x1="283" y1="300" x2="283" y2="306" stroke="#1a6fb5" stroke-width="2"/>
+<text x="292" y="282" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" font-weight="bold" fill="#1a6fb5">FR</text>
+<line x1="491" y1="300" x2="491" y2="306" stroke="#d1495b" stroke-width="2"/>
+<text x="502" y="234" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" font-weight="bold" fill="#d1495b">FF</text>
+
+<text x="150" y="205" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#111">small units first: fine steps exactly where force is low</text>
+<text x="150" y="221" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#111">large units last: coarse steps, but &#916;F / F stays &#8776; constant</text>
+
+<line x1="20" y1="348" x2="640" y2="348" stroke="#8fa8c0" stroke-width="1"/>
+
+<!-- ================= PANEL B ================= -->
+<text x="20" y="376" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#111">(b) The stretch reflex is a negative-feedback loop</text>
+
+<text x="20" y="418" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333">descending command (setpoint)</text>
+<line x1="30" y1="440" x2="104" y2="440" stroke="#333" stroke-width="1.6"/>
+<polygon points="108,440 101,436.6 101,443.4" fill="#333"/>
+
+<circle cx="125" cy="440" r="14" fill="#f5f7fa" stroke="#111" stroke-width="1.6"/>
+<text x="112" y="432" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#111">+</text>
+<text x="130" y="464" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#d1495b">&#8722;</text>
+
+<line x1="139" y1="440" x2="181" y2="440" stroke="#333" stroke-width="1.6"/>
+<polygon points="185,440 178,436.6 178,443.4" fill="#333"/>
+
+<rect x="185" y="418" width="120" height="44" fill="#f5f7fa" stroke="#1a6fb5" stroke-width="1.8"/>
+<text x="245" y="437" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="bold" fill="#111">&#945; motor neuron</text>
+<text x="245" y="452" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#1a6fb5">controller</text>
+
+<line x1="305" y1="440" x2="346" y2="440" stroke="#333" stroke-width="1.6"/>
+<polygon points="350,440 343,436.6 343,443.4" fill="#333"/>
+
+<rect x="350" y="418" width="120" height="44" fill="#f5f7fa" stroke="#2e8b57" stroke-width="1.8"/>
+<text x="410" y="437" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="bold" fill="#111">muscle + load</text>
+<text x="410" y="452" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#2e8b57">plant</text>
+
+<line x1="410" y1="382" x2="410" y2="414" stroke="#d1495b" stroke-width="1.6"/>
+<polygon points="410,418 406.6,411 413.4,411" fill="#d1495b"/>
+<text x="418" y="390" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#d1495b">load disturbance</text>
+
+<line x1="470" y1="440" x2="541" y2="440" stroke="#333" stroke-width="1.6"/>
+<polygon points="545,440 538,436.6 538,443.4" fill="#333"/>
+<text x="552" y="444" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="bold" fill="#111">length L</text>
+
+<!-- feedback path -->
+<circle cx="540" cy="440" r="3" fill="#333"/>
+<line x1="540" y1="440" x2="540" y2="545" stroke="#333" stroke-width="1.6"/>
+<line x1="540" y1="545" x2="514" y2="545" stroke="#333" stroke-width="1.6"/>
+<polygon points="510,545 517,541.6 517,548.4" fill="#333"/>
+
+<rect x="430" y="523" width="80" height="44" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1.6"/>
+<text x="470" y="540" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#111">delay</text>
+<text x="470" y="556" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#111">20&#8211;30 ms</text>
+
+<line x1="430" y1="545" x2="394" y2="545" stroke="#333" stroke-width="1.6"/>
+<polygon points="390,545 397,541.6 397,548.4" fill="#333"/>
+
+<rect x="210" y="523" width="180" height="44" fill="#f5f7fa" stroke="#d1495b" stroke-width="1.8"/>
+<text x="300" y="540" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="bold" fill="#111">muscle spindle</text>
+<text x="300" y="556" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#d1495b">sensor (Ia afferent)</text>
+
+<line x1="210" y1="545" x2="125" y2="545" stroke="#333" stroke-width="1.6"/>
+<line x1="125" y1="545" x2="125" y2="458" stroke="#333" stroke-width="1.6"/>
+<polygon points="125,454 121.6,461 128.4,461" fill="#333"/>
+
+<line x1="300" y1="600" x2="300" y2="571" stroke="#2e8b57" stroke-width="1.6"/>
+<polygon points="300,567 296.6,574 303.4,574" fill="#2e8b57"/>
+
+<text x="20" y="624" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#111">&#947; motor neurons set the spindle's operating point &#8212; a descending</text>
+<text x="20" y="640" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#111">command moves the setpoint, and the loop drives the muscle to match.</text>
+<text x="20" y="660" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#d1495b">The loop delay is why the gain must stay low: raise it and you get clonus.</text>
+</svg>

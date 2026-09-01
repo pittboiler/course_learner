@@ -6,6 +6,22 @@
 
 Learn how the human body holds itself steady — how ten organ systems, each doing something mechanical or electrical or chemical, are wired together by feedback so that blood pressure, pH, temperature, and ion concentrations stay in a narrow livable band while everything around and inside them changes. The single organizing idea is **homeostasis through negative feedback**: nearly every mechanism in the course is a controller correcting an error, and once you see that pattern you can predict a system's behavior before memorizing its parts. You'll build from the cell membrane up — transport, the resting potential, the action potential — then use that machinery to understand nerve, muscle, heart, lungs, kidney, endocrine glands, and gut, and finish by watching all of them cooperate under the load of exercise and heat. We deliberately skip clinical diagnosis and pathophysiology depth (this is how the healthy body works, not how it breaks), and we push molecular-signaling detail to [`molecular-cell-biology`](../molecular-cell-biology/syllabus.md); here a hormone's job matters more than its second messenger's kinetics.
 
+## Scope discipline
+
+This course overlaps two others that were built alongside it. Each topic has **one
+owner**; a ceded topic is still *used* freely here, it is just cited to its owner
+rather than re-derived. See the reference card's "Assumed, not taught here" table
+for the lookup pointers.
+
+| Topic | Owner | Physiology's role |
+|---|---|---|
+| Nernst / Goldman derived from electrochemical potential; two-state channel gating | [`biophysics`](../biophysics/syllabus.md) | states the results, uses the $61\log_{10}$ form, spends its space on driving force and plasma-K⁺ excitability |
+| Hodgkin–Huxley, cable theory | [`neuroscience`](../neuroscience/syllabus.md) | uses conduction-velocity scaling; does not derive it |
+| The central chemical synapse in depth | [`neuroscience`](../neuroscience/syllabus.md) | one compact pass, then owns the **neuromuscular junction** and **autonomic transmission** outright |
+| Receptors, second messengers, GPCR cascades | [`molecular-cell-biology`](../molecular-cell-biology/syllabus.md) | a hormone's job matters here; its second messenger's kinetics do not |
+| **Muscle** — sarcomere, cross-bridge cycle, EC coupling, length–tension | **this course** | `neuroscience` cites 1.6 rather than re-teaching it |
+| **Homeostatic control, organ systems** | **this course** | the organizing frame for everything above |
+
 ## Dangerous Checklist
 
 When you finish, you can:
@@ -85,3 +101,18 @@ The gut supplies the fuel; then we step back and watch every system in the cours
 - Guyton & Hall, *Textbook of Medical Physiology* — organizing homeostasis/feedback framing and organ-system structure.
 - Costanzo, *Physiology* — level and scope calibration for a fast, essentials-first course.
 - West, *Respiratory Physiology: The Essentials* — conventions for Module 2's respiratory lessons (alveolar gas equation, V̇/Q̇).
+
+---
+
+*Scope note (2026-08-27):* built in the same batch as
+[`neuroscience`](../neuroscience/syllabus.md). Physiology **ceded** the derivation
+of membrane potentials and channel gating to
+[`biophysics`](../biophysics/syllabus.md) (which already owned them, in 4.4–4.5)
+and the neuron — Hodgkin–Huxley, cable theory, the central synapse, plasticity,
+sensory coding — to `neuroscience`, because those are each course's central
+object rather than merely its first opportunity. It **kept** muscle, the
+neuromuscular junction, autonomic transmission and every organ system. Lessons
+1.3–1.5 were rewritten around that split: they use the membrane machinery and
+spend their space on what a physiologist does with it (driving force,
+hyperkalemia, the four tissue-specific action-potential shapes, the NMJ's safety
+factor, autonomic receptor subtypes). Lesson count unchanged at 18.

@@ -1,0 +1,34 @@
+<svg viewBox="0 0 700 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="11.5">
+  <text x="20" y="20" fill="#8a8a8a" font-style="italic">Atlantic meridional section. Three deep water masses, each with a source at an outcrop.</text>
+
+  <line x1="105" y1="270" x2="645" y2="270" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="105" y1="270" x2="105" y2="52" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="112" y="292" fill="#8a8a8a">60 S</text>
+  <text x="360" y="292" fill="#8a8a8a">equator</text>
+  <text x="608" y="292" fill="#8a8a8a">60 N</text>
+  <line x1="105" y1="56" x2="645" y2="56" stroke="#4a90d9" stroke-width="2"/>
+  <text x="52" y="60" fill="#8a8a8a">0 m</text>
+  <line x1="99" y1="110" x2="105" y2="110" stroke="#8a8a8a"/><text x="52" y="114" fill="#8a8a8a">1000</text>
+  <line x1="99" y1="164" x2="105" y2="164" stroke="#8a8a8a"/><text x="52" y="168" fill="#8a8a8a">2000</text>
+  <line x1="99" y1="218" x2="105" y2="218" stroke="#8a8a8a"/><text x="52" y="222" fill="#8a8a8a">3000</text>
+  <line x1="99" y1="270" x2="105" y2="270" stroke="#8a8a8a"/><text x="52" y="274" fill="#8a8a8a">4000</text>
+
+  <path d="M 150,56 L 210,86 L 300,104 L 420,112 L 520,118" fill="none" stroke="#4a90d9" stroke-width="2.2"/>
+  <text x="230" y="82" fill="#4a90d9">AAIW: 4 C, S 34.3, spreads north at 800 to 1000 m</text>
+  <circle cx="150" cy="56" r="4.5" fill="#4a90d9"/>
+  <text x="118" y="46" fill="#4a90d9">outcrop</text>
+
+  <path d="M 615,56 L 570,110 L 480,150 L 360,168 L 240,180 L 150,196" fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="268" y="146" fill="#e0645c">NADW: 2.5 C, S 34.95, spreads south at 2000 to 3500 m</text>
+  <circle cx="615" cy="56" r="4.5" fill="#e0645c"/>
+  <text x="592" y="46" fill="#e0645c">outcrop</text>
+
+  <path d="M 122,56 L 140,150 L 200,222 L 320,244 L 450,254 L 560,262" fill="none" stroke="#8a8a8a" stroke-width="2.5"/>
+  <text x="300" y="238" fill="#8a8a8a">AABW: -0.5 C, S 34.65, floors every basin it reaches</text>
+  <circle cx="122" cy="56" r="4.5" fill="#8a8a8a"/>
+
+  <text x="300" y="76" fill="#8a8a8a">warm surface and thermocline waters</text>
+
+  <line x1="490" y1="196" x2="560" y2="196" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="470" y="210" fill="#8a8a8a">age increases along each path</text>
+</svg>

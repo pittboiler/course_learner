@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800" role="img" aria-label="Panel a shows a nerve action potential with phases labelled, the sodium and potassium conductance time courses beneath on the same time axis, and the absolute and relative refractory periods bracketed. Panel b compares four tissue action potential shapes: nerve, skeletal muscle, ventricular myocyte and SA node pacemaker, drawn on one common time axis with a hundred-times expanded inset for the two fast spikes.">
+  <rect width="800" height="800" fill="#ffffff"/>
+
+  <text x="14" y="22" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#111">(a) One nerve action potential: phases, conductances, refractoriness</text>
+
+  <line x1="70" y1="110" x2="480" y2="110" stroke="#cccccc" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="70" y1="165" x2="480" y2="165" stroke="#d1495b" stroke-width="1" stroke-dasharray="5,4"/>
+  <line x1="70" y1="185" x2="480" y2="185" stroke="#888888" stroke-width="1" stroke-dasharray="5,4"/>
+  <line x1="70" y1="52" x2="70" y2="218" stroke="#333" stroke-width="1.6"/>
+  <line x1="70" y1="218" x2="480" y2="218" stroke="#333" stroke-width="1.6"/>
+
+  <text x="64" y="64" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="end">+50</text>
+  <text x="64" y="114" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="end">0</text>
+  <text x="64" y="164" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="end">&#8722;50</text>
+  <text x="64" y="214" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="end">&#8722;100</text>
+  <text x="30" y="42" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">V_m (mV)</text>
+
+  <polyline points="70,185 97.3,185 111,184 121.2,180 128.1,172 134.9,165 141.7,155 148.6,138 155.4,115 162.2,88 169.1,70 175.9,64 182.7,66 189.6,76 196.4,92 203.2,112 210.1,132 216.9,152 223.7,168 230.6,180 237.4,190 244.2,197 254.5,200 268.2,199 288.7,197 316,194 350.2,191 391.2,188 432.1,186 480,185" fill="none" stroke="#111" stroke-width="2.2"/>
+  <circle cx="134.9" cy="165" r="3.2" fill="#d1495b"/>
+
+  <line x1="124.7" y1="206" x2="124.7" y2="191" stroke="#d1495b" stroke-width="1.6"/>
+  <polygon points="124.7,188 121.7,195 127.7,195" fill="#d1495b"/>
+  <text x="129" y="214" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#d1495b">stimulus</text>
+
+  <text x="182" y="58" font-family="Helvetica,Arial,sans-serif" font-size="10.5" font-weight="bold" fill="#111">peak +46 mV</text>
+  <text x="74" y="82" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#d1495b">upstroke: g_Na &#8593;&#8593;</text>
+  <text x="222" y="100" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#1a6fb5">repolarization: g_K &#8593;</text>
+  <text x="300" y="160" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#d1495b">threshold &#8722;55 mV</text>
+  <text x="390" y="181" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">rest &#8722;75 mV</text>
+  <text x="250" y="212" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">afterhyperpolarization to &#8722;90 mV</text>
+
+  <line x1="135" y1="240" x2="228" y2="240" stroke="#d1495b" stroke-width="3"/>
+  <line x1="228" y1="240" x2="384" y2="240" stroke="#1a6fb5" stroke-width="3"/>
+  <line x1="135" y1="234" x2="135" y2="246" stroke="#d1495b" stroke-width="1.6"/>
+  <line x1="228" y1="234" x2="228" y2="246" stroke="#333" stroke-width="1.6"/>
+  <line x1="384" y1="234" x2="384" y2="246" stroke="#1a6fb5" stroke-width="1.6"/>
+  <text x="135" y="258" font-family="Helvetica,Arial,sans-serif" font-size="10" font-weight="bold" fill="#d1495b">absolute refractory ~1.3 ms</text>
+  <text x="290" y="258" font-family="Helvetica,Arial,sans-serif" font-size="10" font-weight="bold" fill="#1a6fb5">relative refractory ~2.3 ms</text>
+
+  <text x="70" y="270" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333">conductances, same time axis</text>
+  <line x1="70" y1="276" x2="70" y2="380" stroke="#333" stroke-width="1.6"/>
+  <line x1="70" y1="380" x2="480" y2="380" stroke="#333" stroke-width="1.6"/>
+  <polyline points="70,374.1 124.7,374.1 134.9,370.2 141.7,358.7 148.6,335.7 155.4,306.9 162.2,280 169.1,287.7 175.9,304.9 186.2,329.9 196.4,349.1 206.7,361.6 220.3,370.2 240.8,373.1 275,374.1 480,374.1" fill="none" stroke="#d1495b" stroke-width="2.2"/>
+  <polyline points="70,368.3 134.9,368.3 148.6,364.5 162.2,354.9 175.9,339.5 189.6,323.2 203.2,310.7 216.9,304 234,306.9 261.3,318.4 295.5,333.8 336.5,347.2 384.3,356.8 432.1,363.5 480,367.4" fill="none" stroke="#1a6fb5" stroke-width="2.2"/>
+  <text x="170" y="280" font-family="Helvetica,Arial,sans-serif" font-size="10.5" font-weight="bold" fill="#d1495b">g_Na</text>
+  <text x="224" y="300" font-family="Helvetica,Arial,sans-serif" font-size="10.5" font-weight="bold" fill="#1a6fb5">g_K</text>
+
+  <line x1="70" y1="380" x2="70" y2="385" stroke="#333" stroke-width="1.2"/>
+  <line x1="138.3" y1="380" x2="138.3" y2="385" stroke="#333" stroke-width="1.2"/>
+  <line x1="206.7" y1="380" x2="206.7" y2="385" stroke="#333" stroke-width="1.2"/>
+  <line x1="275" y1="380" x2="275" y2="385" stroke="#333" stroke-width="1.2"/>
+  <line x1="343.3" y1="380" x2="343.3" y2="385" stroke="#333" stroke-width="1.2"/>
+  <line x1="411.7" y1="380" x2="411.7" y2="385" stroke="#333" stroke-width="1.2"/>
+  <line x1="480" y1="380" x2="480" y2="385" stroke="#333" stroke-width="1.2"/>
+  <text x="70" y="395" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="middle">0</text>
+  <text x="138.3" y="395" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="middle">1</text>
+  <text x="206.7" y="395" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="middle">2</text>
+  <text x="275" y="395" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="middle">3</text>
+  <text x="343.3" y="395" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="middle">4</text>
+  <text x="411.7" y="395" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="middle">5</text>
+  <text x="480" y="395" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="middle">6</text>
+  <text x="275" y="409" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333" text-anchor="middle">time (ms)</text>
+
+  <rect x="500" y="52" width="286" height="246" rx="8" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1.6"/>
+  <text x="514" y="74" font-family="Helvetica,Arial,sans-serif" font-size="12" font-weight="bold" fill="#111">Why the spike stops and stays stopped</text>
+  <text x="514" y="96" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#333">Na+ channels have TWO gates:</text>
+  <text x="522" y="113" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#d1495b">activation &#8212; fast, opens on depolarization</text>
+  <text x="522" y="130" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#d1495b">inactivation &#8212; slower, shuts and latches</text>
+  <text x="514" y="152" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#111">Inactivation, not K+ efflux, is what ends</text>
+  <text x="514" y="169" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#111">the spike and makes the cell refractory.</text>
+  <text x="514" y="191" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#333">Absolute refractory: no stimulus fires it.</text>
+  <text x="514" y="208" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#333">Relative refractory: a bigger one will.</text>
+  <text x="514" y="230" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="bold" fill="#111">Three jobs this does:</text>
+  <text x="514" y="247" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#333">1. enforces one-way propagation</text>
+  <text x="514" y="264" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#333">2. caps firing rate at about 1/t(abs)</text>
+  <text x="514" y="281" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#333">3. makes tetanus impossible in the heart</text>
+
+  <rect x="500" y="312" width="286" height="90" rx="8" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1.6"/>
+  <text x="514" y="332" font-family="Helvetica,Arial,sans-serif" font-size="11.5" font-weight="bold" fill="#111">Chord conductance: V_m is the</text>
+  <text x="514" y="349" font-family="Helvetica,Arial,sans-serif" font-size="11.5" font-weight="bold" fill="#111">conductance-weighted mean of E_ion</text>
+  <text x="514" y="371" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#333">rest   g_Na : g_K = 1 : 7    &#8594;   &#8722;75 mV</text>
+  <text x="514" y="389" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#333">peak   g_Na : g_K = 10 : 1   &#8594;   +46 mV</text>
+
+  <line x1="14" y1="422" x2="786" y2="422" stroke="#dddddd" stroke-width="2"/>
+  <text x="14" y="442" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#111">(b) Four tissues, four spike shapes</text>
+
+  <rect x="20" y="448" width="360" height="122" rx="8" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1.6"/>
+  <text x="32" y="466" font-family="Helvetica,Arial,sans-serif" font-size="10.5" font-weight="bold" fill="#111">Time axis expanded 100&#215; (milliseconds)</text>
+  <line x1="60" y1="501" x2="195" y2="501" stroke="#dddddd" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="60" y1="474" x2="60" y2="546" stroke="#333" stroke-width="1.4"/>
+  <line x1="60" y1="546" x2="360" y2="546" stroke="#333" stroke-width="1.4"/>
+  <text x="54" y="478" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="end">+50</text>
+  <text x="54" y="505" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="end">0</text>
+  <text x="54" y="550" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="end">&#8722;90</text>
+  <polyline points="60,538.5 90,538.5 91.9,532 95.6,528.5 103.1,511 110.6,486 118.1,478 125.6,484 133.1,502 140.6,522 148.1,536 155.6,544.5 161.3,546 180,544.5 213.8,541.5 258.8,539 360,538.5" fill="none" stroke="#1a6fb5" stroke-width="2"/>
+  <polyline points="60,539.5 90,539.5 97.5,527 108.8,502 120,486 135,491 157.5,499.5 180,517 202.5,529.5 225,537 247.5,541 285,542 360,540.5" fill="none" stroke="#2e8b57" stroke-width="2"/>
+  <text x="205" y="488" font-family="Helvetica,Arial,sans-serif" font-size="10" font-weight="bold" fill="#1a6fb5">nerve &#183; 1 ms</text>
+  <text x="205" y="504" font-family="Helvetica,Arial,sans-serif" font-size="10" font-weight="bold" fill="#2e8b57">skeletal fibre &#183; 3 ms</text>
+  <text x="60" y="560" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="middle">0</text>
+  <text x="135" y="560" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="middle">2</text>
+  <text x="210" y="560" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="middle">4</text>
+  <text x="285" y="560" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="middle">6</text>
+  <text x="360" y="560" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="middle">8</text>
+
+  <rect x="400" y="448" width="386" height="122" rx="8" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1.6"/>
+  <text x="414" y="470" font-family="Helvetica,Arial,sans-serif" font-size="12" font-weight="bold" fill="#111">What each shape buys the tissue</text>
+  <text x="414" y="492" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#333">nerve 1 ms: recovers fast, so rate can code intensity</text>
+  <text x="414" y="510" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#333">skeletal 3 ms: refractory ends 30&#215; before the twitch</text>
+  <text x="414" y="526" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#333">does, so twitches sum &#8212; graded force</text>
+  <text x="414" y="546" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#333">ventricle 300 ms: refractory lasts the whole twitch</text>
+  <text x="414" y="562" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#333">&#8212; tetanus impossible, so the heart always refills</text>
+
+  <text x="14" y="592" font-family="Helvetica,Arial,sans-serif" font-size="11.5" font-weight="bold" fill="#111">The same four on one 900 ms axis &#8212; nerve and muscle are hairlines</text>
+
+  <line x1="110" y1="624" x2="770" y2="624" stroke="#1a6fb5" stroke-width="1.4"/>
+  <polyline points="132,624 132.4,604 132.8,624" fill="none" stroke="#1a6fb5" stroke-width="1.4"/>
+  <text x="104" y="628" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333" text-anchor="end">nerve</text>
+  <text x="142" y="610" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#1a6fb5">1 ms &#8212; a hairline at this scale</text>
+
+  <line x1="110" y1="658" x2="770" y2="658" stroke="#2e8b57" stroke-width="1.4"/>
+  <polyline points="132,658 133,638 134.2,652 135,658" fill="none" stroke="#2e8b57" stroke-width="1.4"/>
+  <text x="104" y="662" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333" text-anchor="end">skeletal</text>
+  <text x="142" y="644" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#2e8b57">3 ms &#8212; also a hairline; its twitch lasts 100 ms</text>
+
+  <polyline points="110,708 130,708 132.5,672 135,680 145,679 200,681 250,683 265,686 280,692 295,701 307,706 315,708 770,708" fill="none" stroke="#d1495b" stroke-width="1.8"/>
+  <text x="104" y="712" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333" text-anchor="end">ventricle</text>
+  <text x="360" y="686" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#d1495b">~300 ms &#8212; the Ca2+ plateau</text>
+
+  <line x1="200" y1="732" x2="748" y2="732" stroke="#d1495b" stroke-width="0.9" stroke-dasharray="4,4"/>
+  <polyline points="110,735 118,732 122,728 126,722 130,718 140,719 155,724 175,733 195,740 210,742 300,740.5 400,739 500,737.5 600,736 700,733.5 730,732.3 738,732 742,728 746,722 750,718 760,719 770,723" fill="none" stroke="#111" stroke-width="1.8"/>
+  <text x="104" y="746" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333" text-anchor="end">SA node</text>
+  <text x="300" y="726" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#111">no resting level &#8212; phase-4 drift sets the heart rate</text>
+
+  <line x1="110" y1="772" x2="770" y2="772" stroke="#333" stroke-width="1.6"/>
+  <line x1="110" y1="772" x2="110" y2="777" stroke="#333" stroke-width="1.2"/>
+  <line x1="256.7" y1="772" x2="256.7" y2="777" stroke="#333" stroke-width="1.2"/>
+  <line x1="403.3" y1="772" x2="403.3" y2="777" stroke="#333" stroke-width="1.2"/>
+  <line x1="550" y1="772" x2="550" y2="777" stroke="#333" stroke-width="1.2"/>
+  <line x1="696.7" y1="772" x2="696.7" y2="777" stroke="#333" stroke-width="1.2"/>
+  <text x="110" y="788" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="middle">0</text>
+  <text x="256.7" y="788" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="middle">200</text>
+  <text x="403.3" y="788" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="middle">400</text>
+  <text x="550" y="788" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="middle">600</text>
+  <text x="696.7" y="788" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="middle">800</text>
+  <text x="740" y="788" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">ms</text>
+</svg>

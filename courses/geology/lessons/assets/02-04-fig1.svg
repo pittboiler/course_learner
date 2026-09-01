@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 500" width="820" height="500" role="img" aria-label="Panel a: differential stress versus strain curves for one rock at three confining pressures, showing brittle fracture at zero confinement and steady ductile flow at high confinement. Panel b: crustal strength envelope against depth, with a rising frictional branch, a falling creep branch, the brittle-ductile transition near 13 kilometres, earthquake foci above it and ductile flow below it.">
+  <rect width="820" height="500" fill="#ffffff"/>
+  <g font-family="Helvetica,Arial,sans-serif">
+
+    <text x="20" y="28" font-size="13" font-weight="bold" fill="#111">(a) One rock, three confining pressures</text>
+    <text x="430" y="28" font-size="13" font-weight="bold" fill="#111">(b) Crustal strength envelope</text>
+
+    <!-- ============ PANEL A ============ -->
+    <g stroke="#8fa8c0" stroke-width="1" stroke-dasharray="3,3">
+      <line x1="70" y1="237" x2="370" y2="237"/>
+      <line x1="70" y1="143" x2="370" y2="143"/>
+      <line x1="70" y1="50" x2="370" y2="50"/>
+    </g>
+    <line x1="70" y1="50" x2="70" y2="330" stroke="#333" stroke-width="1.5"/>
+    <line x1="70" y1="330" x2="370" y2="330" stroke="#333" stroke-width="1.5"/>
+
+    <g font-size="10" fill="#333" text-anchor="end">
+      <text x="64" y="334">0</text>
+      <text x="64" y="241">200</text>
+      <text x="64" y="147">400</text>
+      <text x="64" y="54">600</text>
+    </g>
+    <g font-size="10" fill="#333" text-anchor="middle">
+      <text x="70" y="346">0</text>
+      <text x="145" y="346">2</text>
+      <text x="220" y="346">4</text>
+      <text x="295" y="346">6</text>
+      <text x="370" y="346">8</text>
+      <text x="220" y="364" font-size="11">strain (percent)</text>
+    </g>
+    <text x="22" y="190" font-size="11" fill="#333" text-anchor="middle" transform="rotate(-90 22 190)">differential stress (MPa)</text>
+
+    <!-- brittle curve, zero confinement -->
+    <path d="M70,330 L83,269 L89,320 L120,322 L370,322" fill="none" stroke="#d1495b" stroke-width="2.2"/>
+    <text x="93" y="262" font-size="10.5" fill="#d1495b">fracture: strength lost</text>
+
+    <!-- transitional curve -->
+    <path d="M70,330 L96,199 Q115,185 145,196 Q190,235 220,246 L370,246" fill="none" stroke="#333" stroke-width="2.2"/>
+
+    <!-- ductile curve -->
+    <path d="M70,330 L108,143 Q135,120 190,116 L370,111" fill="none" stroke="#1a6fb5" stroke-width="2.2"/>
+    <text x="200" y="104" font-size="10.5" fill="#1a6fb5">steady flow, cohesion kept</text>
+
+    <!-- legend -->
+    <text x="195" y="130" font-size="10.5" font-weight="bold" fill="#111">confining pressure</text>
+    <line x1="195" y1="145" x2="218" y2="145" stroke="#d1495b" stroke-width="2.2"/>
+    <text x="224" y="148" font-size="10.5" fill="#333">0 MPa, 0 km &#8212; brittle</text>
+    <line x1="195" y1="163" x2="218" y2="163" stroke="#333" stroke-width="2.2"/>
+    <text x="224" y="166" font-size="10.5" fill="#333">100 MPa, 4 km &#8212; mixed</text>
+    <line x1="195" y1="181" x2="218" y2="181" stroke="#1a6fb5" stroke-width="2.2"/>
+    <text x="224" y="184" font-size="10.5" fill="#333">300 MPa, 11 km &#8212; ductile</text>
+
+    <!-- ============ PANEL B ============ -->
+    <g stroke="#8fa8c0" stroke-width="1" stroke-dasharray="3,3">
+      <line x1="430" y1="150" x2="690" y2="150"/>
+      <line x1="430" y1="250" x2="690" y2="250"/>
+      <line x1="430" y1="350" x2="690" y2="350"/>
+    </g>
+    <line x1="430" y1="50" x2="430" y2="400" stroke="#333" stroke-width="1.5"/>
+    <line x1="430" y1="400" x2="690" y2="400" stroke="#333" stroke-width="1.5"/>
+
+    <g font-size="10" fill="#333" text-anchor="end">
+      <text x="425" y="54">0</text>
+      <text x="425" y="154">10</text>
+      <text x="425" y="254">20</text>
+      <text x="425" y="354">30</text>
+    </g>
+    <text x="399" y="225" font-size="11" fill="#333" text-anchor="middle" transform="rotate(-90 399 225)">depth (km)</text>
+    <g font-size="10" fill="#333" text-anchor="middle">
+      <text x="430" y="414">0</text>
+      <text x="517" y="414">200</text>
+      <text x="603" y="414">400</text>
+      <text x="690" y="414">600</text>
+      <text x="560" y="432" font-size="11">differential stress at failure (MPa)</text>
+    </g>
+
+    <!-- strength envelope -->
+    <path d="M430,50 L612,180 Q575,192 538,200 Q505,215 482,230 Q460,248 449,270 Q438,310 435,350 L434,400 L430,400 Z" fill="#f5f7fa" stroke="none"/>
+    <path d="M430,50 L612,180" fill="none" stroke="#d1495b" stroke-width="2.4"/>
+    <path d="M612,180 Q575,192 538,200 Q505,215 482,230 Q460,248 449,270 Q438,310 435,350 L434,400" fill="none" stroke="#1a6fb5" stroke-width="2.4"/>
+
+    <!-- brittle-ductile transition -->
+    <line x1="430" y1="180" x2="690" y2="180" stroke="#111" stroke-width="1.4" stroke-dasharray="6,4"/>
+    <text x="433" y="175" font-size="11" font-weight="bold" fill="#111">brittle&#8211;ductile transition, &#8776;13 km</text>
+
+    <!-- earthquake foci hugging the frictional branch -->
+    <g fill="#d1495b">
+      <circle cx="522" cy="70" r="3"/>
+      <circle cx="543" cy="82" r="3"/>
+      <circle cx="554" cy="95" r="3"/>
+      <circle cx="566" cy="104" r="3"/>
+      <circle cx="586" cy="120" r="3"/>
+      <circle cx="601" cy="131" r="3"/>
+      <circle cx="619" cy="146" r="3"/>
+      <circle cx="634" cy="157" r="3"/>
+      <circle cx="647" cy="168" r="3"/>
+      <circle cx="533" cy="76" r="3"/>
+      <circle cx="575" cy="113" r="3"/>
+      <circle cx="610" cy="139" r="3"/>
+    </g>
+    <text x="436" y="157" font-size="11" fill="#d1495b">earthquake foci</text>
+    <text x="437" y="93" font-size="10.5" fill="#333">friction:</text>
+    <text x="437" y="106" font-size="10.5" fill="#333">strength rises</text>
+    <text x="437" y="119" font-size="10.5" fill="#333">with depth</text>
+
+    <!-- ductile region annotation -->
+    <path d="M462,296 q10,-8 20,0 q10,8 20,0" fill="none" stroke="#2e8b57" stroke-width="1.8"/>
+    <path d="M462,306 q10,-8 20,0 q10,8 20,0" fill="none" stroke="#2e8b57" stroke-width="1.8"/>
+    <text x="512" y="304" font-size="11" fill="#2e8b57">folds, mylonite</text>
+    <text x="512" y="318" font-size="10.5" fill="#333">creep: strength falls</text>
+    <text x="512" y="331" font-size="10.5" fill="#333">as temperature rises</text>
+
+    <!-- geotherm markers -->
+    <g stroke="#2e8b57" stroke-width="1.4">
+      <line x1="690" y1="90" x2="697" y2="90"/>
+      <line x1="690" y1="180" x2="697" y2="180"/>
+      <line x1="690" y1="270" x2="697" y2="270"/>
+    </g>
+    <text x="698" y="42" font-size="10.5" font-weight="bold" fill="#2e8b57">geotherm</text>
+    <text x="700" y="94" font-size="10.5" fill="#2e8b57">100 &#176;C</text>
+    <text x="700" y="184" font-size="10.5" fill="#2e8b57">300 &#176;C</text>
+    <text x="700" y="274" font-size="10.5" fill="#2e8b57">500 &#176;C</text>
+    <text x="698" y="300" font-size="10" fill="#333">25 &#176;C/km</text>
+
+  </g>
+</svg>

@@ -1,0 +1,35 @@
+<svg viewBox="0 0 700 290" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="11.5">
+  <text x="20" y="18" fill="#8a8a8a" font-style="italic">How fast a wave dies is a different measurement from how fast it travels &#8212; and a better thermometer.</text>
+
+  <line x1="40" y1="110" x2="330" y2="110" stroke="#8a8a8a" stroke-width="0.8"/>
+  <path d="M 40,110 q 6,-40 12,0 q 6,40 12,0 q 6,-36 12,0 q 6,36 12,0 q 6,-30 12,0 q 6,30 12,0 q 6,-24 12,0 q 6,24 12,0 q 6,-19 12,0 q 6,19 12,0 q 6,-14 12,0 q 6,14 12,0 q 6,-11 12,0 q 6,11 12,0 q 6,-8 12,0 q 6,8 12,0 q 6,-6 12,0 q 6,6 12,0 q 6,-4 12,0 q 6,4 12,0 q 6,-3 12,0 q 6,3 12,0"
+        fill="none" stroke="#4a90d9" stroke-width="1.8"/>
+  <path d="M 40,70 Q 130,86 220,100 Q 280,106 330,109" fill="none" stroke="#e0645c" stroke-width="1.6" stroke-dasharray="5 4"/>
+  <text x="216" y="76" fill="#e0645c">envelope: exp(&#8722;&#960;fx/(Qv))</text>
+  <text x="40" y="140" fill="#8a8a8a">Low Q, fast death. High Q, the wave rings on.</text>
+
+  <text x="40" y="172" fill="#8a8a8a">1/Q = fraction of energy lost per radian of oscillation.</text>
+  <text x="40" y="192" fill="#8a8a8a">Q&#7509; &#8776; 600 in normal mantle, but only 80 in the asthenosphere.</text>
+  <text x="40" y="206" fill="#8a8a8a">Q&#8342; is essentially infinite &#8212; the Earth loses almost nothing</text>
+  <text x="40" y="220" fill="#8a8a8a">to pure compression, and almost everything to shear.</text>
+  <text x="40" y="248" fill="#4a90d9">So attenuation is a shear measurement, and shear is what</text>
+  <text x="40" y="262" fill="#4a90d9">temperature, melt and grain boundaries control.</text>
+
+  <line x1="470" y1="240" x2="470" y2="52" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="470" y1="240" x2="670" y2="240" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="540" y="260" fill="#8a8a8a">Q&#7509;</text>
+  <text x="424" y="62" fill="#8a8a8a">depth</text>
+  <line x1="466" y1="66" x2="474" y2="66" stroke="#8a8a8a"/><text x="426" y="70" fill="#8a8a8a">0</text>
+  <line x1="466" y1="108" x2="474" y2="108" stroke="#8a8a8a"/><text x="418" y="112" fill="#8a8a8a">80 km</text>
+  <line x1="466" y1="148" x2="474" y2="148" stroke="#8a8a8a"/><text x="412" y="152" fill="#8a8a8a">220 km</text>
+  <line x1="466" y1="230" x2="474" y2="230" stroke="#8a8a8a"/><text x="410" y="234" fill="#8a8a8a">670 km</text>
+  <line x1="502" y1="236" x2="502" y2="244" stroke="#8a8a8a"/><text x="490" y="256" fill="#8a8a8a">80</text>
+  <line x1="600" y1="236" x2="600" y2="244" stroke="#8a8a8a"/><text x="586" y="256" fill="#8a8a8a">600</text>
+
+  <path d="M 600,66 L 600,104 L 502,110 L 502,146 L 580,152 L 580,228" fill="none" stroke="#4a90d9" stroke-width="2.6"/>
+  <rect x="474" y="108" width="60" height="40" fill="#e0645c" opacity="0.20"/>
+  <text x="510" y="128" fill="#e0645c">the low-Q zone</text>
+  <text x="510" y="142" fill="#e0645c">= the asthenosphere</text>
+
+  <text x="259" y="284" fill="#8a8a8a">The seismically slow layer and the seismically lossy layer are the same layer.</text>
+</svg>

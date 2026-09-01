@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 470" width="820" height="470" role="img" aria-label="A grid whose rows are the layers of the immune system from barrier and phagocytes down to regulation and tolerance, and whose three columns show where immunodeficiency, tumour escape and transplant rejection each strike that layer.">
+<rect width="820" height="470" fill="#ffffff"/>
+<text x="12" y="20" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#111">One architecture, three failure modes</text>
+
+<rect x="12" y="32" width="180" height="34" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+<rect x="198" y="32" width="200" height="34" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+<rect x="404" y="32" width="200" height="34" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+<rect x="610" y="32" width="200" height="34" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+<text x="20" y="53" font-family="Helvetica,Arial,sans-serif" font-size="10" font-weight="bold" fill="#111">Immune layer</text>
+<text x="206" y="53" font-family="Helvetica,Arial,sans-serif" font-size="10" font-weight="bold" fill="#d1495b">Immunodeficiency: layer absent</text>
+<text x="412" y="53" font-family="Helvetica,Arial,sans-serif" font-size="10" font-weight="bold" fill="#2e8b57">Tumour escape: layer evaded</text>
+<text x="618" y="53" font-family="Helvetica,Arial,sans-serif" font-size="10" font-weight="bold" fill="#1a6fb5">Transplant: layer misdirected</text>
+
+<rect x="12" y="68" width="180" height="52" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+<rect x="198" y="68" width="200" height="52" fill="#ffffff" stroke="#d7dfe8" stroke-width="1"/>
+<rect x="404" y="68" width="200" height="52" fill="#ffffff" stroke="#d7dfe8" stroke-width="1"/>
+<rect x="610" y="68" width="200" height="52" fill="#ffffff" stroke="#d7dfe8" stroke-width="1"/>
+<text x="20" y="89" font-family="Helvetica,Arial,sans-serif" font-size="10.5" font-weight="bold" fill="#111">Barrier &#38; phagocytes</text>
+<text x="20" y="103" font-family="Helvetica,Arial,sans-serif" font-size="8.5" fill="#667788">lessons 1.3&#8211;1.4</text>
+<text x="206" y="89" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#333">CGD: no oxidative burst</text>
+<text x="206" y="103" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#333">LAD: neutrophils cannot exit</text>
+<text x="412" y="89" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#333">Tumour macrophages are</text>
+<text x="412" y="103" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#333">repurposed to support growth</text>
+<text x="618" y="89" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#333">Ischaemic graft injury supplies</text>
+<text x="618" y="103" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#333">the danger signal that primes</text>
+
+<rect x="12" y="120" width="180" height="52" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+<rect x="198" y="120" width="200" height="52" fill="#ffffff" stroke="#d7dfe8" stroke-width="1"/>
+<rect x="404" y="120" width="200" height="52" fill="#ffffff" stroke="#d7dfe8" stroke-width="1"/>
+<rect x="610" y="120" width="200" height="52" fill="#ffffff" stroke="#d7dfe8" stroke-width="1"/>
+<text x="20" y="141" font-family="Helvetica,Arial,sans-serif" font-size="10.5" font-weight="bold" fill="#111">Complement</text>
+<text x="20" y="155" font-family="Helvetica,Arial,sans-serif" font-size="8.5" fill="#667788">lesson 1.5</text>
+<text x="206" y="141" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#333">C5&#8211;C9 loss: a phenotype of</text>
+<text x="206" y="155" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#333">exactly one genus, Neisseria</text>
+<text x="412" y="141" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#333">Host regulators CD55, CD59</text>
+<text x="412" y="155" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#333">overexpressed on the surface</text>
+<text x="618" y="141" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#333">Hyperacute rejection from</text>
+<text x="618" y="155" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#333">preformed antibody, minutes</text>
+
+<rect x="12" y="172" width="180" height="52" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+<rect x="198" y="172" width="200" height="52" fill="#ffffff" stroke="#d7dfe8" stroke-width="1"/>
+<rect x="404" y="172" width="200" height="52" fill="#ffffff" stroke="#d7dfe8" stroke-width="1"/>
+<rect x="610" y="172" width="200" height="52" fill="#ffffff" stroke="#d7dfe8" stroke-width="1"/>
+<text x="20" y="193" font-family="Helvetica,Arial,sans-serif" font-size="10.5" font-weight="bold" fill="#111">Antigen presentation</text>
+<text x="20" y="207" font-family="Helvetica,Arial,sans-serif" font-size="8.5" fill="#667788">lessons 2.4&#8211;2.5</text>
+<text x="206" y="193" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#333">TAP or class II deficiency:</text>
+<text x="206" y="207" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#333">bare lymphocyte syndrome</text>
+<text x="412" y="193" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#333">MHC-I or &#946;2m loss &#8212; which</text>
+<text x="412" y="207" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#333">hands the cell to NK cells</text>
+<text x="618" y="193" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#333">Allogeneic MHC is itself</text>
+<text x="618" y="207" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#333">the antigen being rejected</text>
+
+<rect x="12" y="224" width="180" height="52" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+<rect x="198" y="224" width="200" height="52" fill="#ffffff" stroke="#d7dfe8" stroke-width="1"/>
+<rect x="404" y="224" width="200" height="52" fill="#ffffff" stroke="#d7dfe8" stroke-width="1"/>
+<rect x="610" y="224" width="200" height="52" fill="#ffffff" stroke="#d7dfe8" stroke-width="1"/>
+<text x="20" y="245" font-family="Helvetica,Arial,sans-serif" font-size="10.5" font-weight="bold" fill="#111">CD4 decision layer</text>
+<text x="20" y="259" font-family="Helvetica,Arial,sans-serif" font-size="8.5" fill="#667788">lesson 3.5</text>
+<text x="206" y="245" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#333">HIV depletes the node;</text>
+<text x="206" y="259" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#333">DiGeorge: no thymus at all</text>
+<text x="412" y="245" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#333">Treg recruitment, TGF-&#946; and</text>
+<text x="412" y="259" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#333">IL-10 microenvironment</text>
+<text x="618" y="245" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#333">Direct allorecognition, then</text>
+<text x="618" y="259" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#333">indirect as the graft ages</text>
+
+<rect x="12" y="276" width="180" height="52" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+<rect x="198" y="276" width="200" height="52" fill="#ffffff" stroke="#d7dfe8" stroke-width="1"/>
+<rect x="404" y="276" width="200" height="52" fill="#ffffff" stroke="#d7dfe8" stroke-width="1"/>
+<rect x="610" y="276" width="200" height="52" fill="#ffffff" stroke="#d7dfe8" stroke-width="1"/>
+<text x="20" y="297" font-family="Helvetica,Arial,sans-serif" font-size="10.5" font-weight="bold" fill="#111">B cells &#38; antibody</text>
+<text x="20" y="311" font-family="Helvetica,Arial,sans-serif" font-size="8.5" fill="#667788">lessons 3.2&#8211;3.4</text>
+<text x="206" y="297" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#333">XLA: pyogenic infection once</text>
+<text x="206" y="311" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#333">maternal IgG has decayed</text>
+<text x="412" y="297" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#333">Rarely limiting: the target is</text>
+<text x="412" y="311" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#333">intracellular, not on a surface</text>
+<text x="618" y="297" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#333">Donor-specific antibody drives</text>
+<text x="618" y="311" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#333">chronic rejection years later</text>
+
+<rect x="12" y="328" width="180" height="52" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+<rect x="198" y="328" width="200" height="52" fill="#ffffff" stroke="#d7dfe8" stroke-width="1"/>
+<rect x="404" y="328" width="200" height="52" fill="#ffffff" stroke="#d7dfe8" stroke-width="1"/>
+<rect x="610" y="328" width="200" height="52" fill="#ffffff" stroke="#d7dfe8" stroke-width="1"/>
+<text x="20" y="349" font-family="Helvetica,Arial,sans-serif" font-size="10.5" font-weight="bold" fill="#111">Cytotoxic T cells</text>
+<text x="20" y="363" font-family="Helvetica,Arial,sans-serif" font-size="8.5" fill="#667788">lesson 4.1</text>
+<text x="206" y="349" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#333">SCID: no T cells, so even a</text>
+<text x="206" y="363" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#333">live vaccine becomes lethal</text>
+<text x="412" y="349" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#333">Exhaustion; PD-L1 induced on</text>
+<text x="412" y="363" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#333">the tumour by IFN-&#947; itself</text>
+<text x="618" y="349" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#333">Acute cellular rejection;</text>
+<text x="618" y="363" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#333">graft-versus-host in marrow</text>
+
+<rect x="12" y="380" width="180" height="52" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+<rect x="198" y="380" width="200" height="52" fill="#ffffff" stroke="#d7dfe8" stroke-width="1"/>
+<rect x="404" y="380" width="200" height="52" fill="#ffffff" stroke="#d7dfe8" stroke-width="1"/>
+<rect x="610" y="380" width="200" height="52" fill="#ffffff" stroke="#d7dfe8" stroke-width="1"/>
+<text x="20" y="401" font-family="Helvetica,Arial,sans-serif" font-size="10.5" font-weight="bold" fill="#111">Regulation &#38; tolerance</text>
+<text x="20" y="415" font-family="Helvetica,Arial,sans-serif" font-size="8.5" fill="#667788">lesson 4.3</text>
+<text x="206" y="401" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#333">IPEX: the deficiency is too</text>
+<text x="206" y="415" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#333">much immunity, not too little</text>
+<text x="412" y="401" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#333">Checkpoints exploited &#8594;</text>
+<text x="412" y="415" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#333">blockade releases the brake</text>
+<text x="618" y="401" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#333">Donor-specific tolerance is</text>
+<text x="618" y="415" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#333">the goal still not achieved</text>
+
+<text x="12" y="452" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">The infection names the layer that is missing; the escape route names the layer that was working.</text>
+</svg>

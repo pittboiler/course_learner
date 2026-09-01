@@ -1,0 +1,39 @@
+<svg viewBox="0 0 620 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="26" y="24" fill="#8a8a8a" font-style="italic">Kohler curve: past the peak, a droplet grows on its own. Below it, it cannot.</text>
+  <line x1="80" y1="190.0" x2="428" y2="190.0" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="80" y1="255" x2="80" y2="52" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="80,52 75,62 85,62" fill="#8a8a8a"/>
+  <text x="250" y="289" fill="#8a8a8a" font-size="12" text-anchor="middle">droplet radius (micrometres, log scale)</text>
+  <text x="22" y="44" fill="#8a8a8a" font-size="12">supersaturation (percent)</text>
+  <line x1="80.0" y1="190.0" x2="80.0" y2="195.0" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="80.0" y="209.0" fill="#8a8a8a" font-size="12" text-anchor="middle">0.01</text>
+  <line x1="193.3" y1="190.0" x2="193.3" y2="195.0" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="193.3" y="209.0" fill="#8a8a8a" font-size="12" text-anchor="middle">0.1</text>
+  <line x1="306.7" y1="190.0" x2="306.7" y2="195.0" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="306.7" y="209.0" fill="#8a8a8a" font-size="12" text-anchor="middle">1</text>
+  <line x1="420.0" y1="190.0" x2="420.0" y2="195.0" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="420.0" y="209.0" fill="#8a8a8a" font-size="12" text-anchor="middle">10</text>
+  <text x="72" y="259.0" fill="#8a8a8a" font-size="12" text-anchor="end">-0.2</text>
+  <line x1="75" y1="255.0" x2="80" y2="255.0" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="72" y="194.0" fill="#8a8a8a" font-size="12" text-anchor="end">0.0</text>
+  <line x1="75" y1="190.0" x2="80" y2="190.0" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="72" y="129.0" fill="#8a8a8a" font-size="12" text-anchor="end">0.2</text>
+  <line x1="75" y1="125.0" x2="80" y2="125.0" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="72" y="64.0" fill="#8a8a8a" font-size="12" text-anchor="end">0.4</text>
+  <line x1="75" y1="60.0" x2="80" y2="60.0" stroke="#8a8a8a" stroke-width="1"/>
+  <polyline points="135.5,249.5 136.7,190.0 137.8,135.8 138.9,86.4 240.9,43.9 242.1,47.1 243.2,50.3 244.3,53.4 245.5,56.4 246.6,59.4 247.7,62.3 248.9,65.1 250.0,67.9 251.1,70.6 252.3,73.3 253.4,75.9 254.5,78.5 255.7,81.0 256.8,83.4 257.9,85.8 259.1,88.1 260.2,90.4 261.3,92.7 262.5,94.8 263.6,97.0 264.7,99.1 265.9,101.1 267.0,103.1 268.1,105.1 269.3,107.0 270.4,108.9 271.5,110.7 272.7,112.5 273.8,114.2 274.9,116.0 276.1,117.6 277.2,119.3 278.3,120.9 279.5,122.4 280.6,124.0 281.7,125.5 282.9,126.9 284.0,128.3 285.1,129.7 286.3,131.1 287.4,132.4 288.5,133.7 289.7,135.0 290.8,136.3 291.9,137.5 293.1,138.7 294.2,139.8 295.3,141.0 296.5,142.1 297.6,143.2 298.7,144.2 299.9,145.3 301.0,146.3 302.1,147.3 303.3,148.3 304.4,149.2 305.5,150.1 306.7,151.0 307.8,151.9 308.9,152.8 310.1,153.6 311.2,154.5 312.3,155.3 313.5,156.1 314.6,156.8 315.7,157.6 316.9,158.3 318.0,159.0 319.1,159.7 320.3,160.4 321.4,161.1 322.5,161.8 323.7,162.4 324.8,163.0 325.9,163.6 327.1,164.2 328.2,164.8 329.3,165.4 330.5,166.0 331.6,166.5 332.7,167.0 333.9,167.6 335.0,168.1 336.1,168.6 337.3,169.1 338.4,169.5 339.5,170.0 340.7,170.5 341.8,170.9 342.9,171.3 344.1,171.8 345.2,172.2 346.3,172.6 347.5,173.0 348.6,173.4 349.7,173.7 350.9,174.1 352.0,174.5 353.1,174.8 354.3,175.2 355.4,175.5 356.5,175.8 357.7,176.2 358.8,176.5 359.9,176.8 361.1,177.1 362.2,177.4 363.3,177.7 364.5,177.9 365.6,178.2 366.7,178.5 367.9,178.8 369.0,179.0 370.1,179.3 371.3,179.5 372.4,179.7 373.5,180.0 374.7,180.2 375.8,180.4 376.9,180.6 378.1,180.9 379.2,181.1 380.3,181.3 381.5,181.5 382.6,181.7 383.7,181.9 384.9,182.0 386.0,182.2 387.1,182.4 388.3,182.6 389.4,182.7 390.5,182.9 391.7,183.1 392.8,183.2 393.9,183.4 395.1,183.5 396.2,183.7 397.3,183.8 398.5,184.0 399.6,184.1 400.7,184.2 401.9,184.4 403.0,184.5 404.1,184.6 405.3,184.7 406.4,184.9 407.5,185.0 408.7,185.1 409.8,185.2 410.9,185.3 412.1,185.4 413.2,185.5 414.3,185.6 415.5,185.7 416.6,185.8 417.7,185.9 418.9,186.0 420.0,186.1" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <circle cx="240.9" cy="43.9" r="5" fill="#e0645c"/>
+  <line x1="240.9" y1="43.9" x2="240.9" y2="190.0" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="250" y="40" fill="#e0645c" font-size="12">critical radius</text>
+  <text x="150" y="242.0" fill="#4a90d9" font-size="12">haze: shrinks back</text>
+  <text x="323.2" y="138.0" fill="#4a90d9" font-size="12">activated: runs away</text>
+  <text x="460" y="62" fill="#8a8a8a" font-size="12">one raindrop</text>
+  <text x="460" y="78" fill="#8a8a8a" font-size="12">= a million</text>
+  <text x="460" y="94" fill="#8a8a8a" font-size="12">cloud droplets</text>
+  <circle cx="530" cy="175" r="40" fill="#4a90d9" opacity="0.18" stroke="#4a90d9" stroke-width="2"/>
+  <text x="530" y="179" fill="#4a90d9" font-size="12" text-anchor="middle">1 mm</text>
+  <circle cx="478" cy="175" r="3" fill="#e0645c"/>
+  <text x="476" y="208" fill="#e0645c" font-size="12" text-anchor="middle">10 um</text>
+  <text x="500" y="255" fill="#8a8a8a" font-size="12">falls 4 m/s</text>
+  <text x="500" y="271" fill="#8a8a8a" font-size="12">vs 1 cm/s</text>
+</svg>

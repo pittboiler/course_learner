@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 470" width="800" height="470" role="img" aria-label="Side-by-side comparison of MHC class I and class II. Class I is one alpha chain plus beta-2 microglobulin with a groove formed by alpha-1 and alpha-2, closed at both ends, holding a nine-residue peptide anchored at pockets P2 and P9. Class II is an alpha and a beta chain with a groove formed by alpha-1 and beta-1, open at both ends, holding a longer peptide that overhangs at both ends with a nine-residue core anchored at P1, P4, P6 and P9. Polymorphic peptide-contact residues are marked along both grooves.">
+  <rect width="800" height="470" fill="#ffffff"/>
+
+  <line x1="400" y1="10" x2="400" y2="458" stroke="#ccd4dc" stroke-width="1" stroke-dasharray="4 4"/>
+
+  <text x="200" y="26" font-family="Helvetica,Arial,sans-serif" font-size="16" font-weight="bold" fill="#111" text-anchor="middle">MHC class I</text>
+  <text x="200" y="45" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#55636f" text-anchor="middle">HLA-A, -B, -C &#183; one &#945; chain + &#946;&#8322;m</text>
+  <text x="600" y="26" font-family="Helvetica,Arial,sans-serif" font-size="16" font-weight="bold" fill="#111" text-anchor="middle">MHC class II</text>
+  <text x="600" y="45" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#55636f" text-anchor="middle">HLA-DP, -DQ, -DR &#183; &#945; chain + &#946; chain</text>
+
+  <rect x="45" y="228" width="310" height="18" fill="#e8edf3" stroke="#8fa8c0" stroke-width="1"/>
+  <text x="200" y="241" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#55636f" text-anchor="middle">plasma membrane</text>
+  <rect x="445" y="228" width="310" height="18" fill="#e8edf3" stroke="#8fa8c0" stroke-width="1"/>
+  <text x="600" y="241" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#55636f" text-anchor="middle">plasma membrane</text>
+
+  <line x1="185" y1="228" x2="185" y2="206" stroke="#1a6fb5" stroke-width="3"/>
+  <rect x="163" y="168" width="44" height="38" rx="8" fill="#dce9f5" stroke="#1a6fb5" stroke-width="1.6"/>
+  <text x="185" y="192" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#111" text-anchor="middle">&#945;3</text>
+  <rect x="215" y="168" width="44" height="38" rx="8" fill="#eceff2" stroke="#667788" stroke-width="1.6"/>
+  <text x="237" y="192" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#111" text-anchor="middle">&#946;&#8322;m</text>
+  <rect x="150" y="128" width="122" height="38" rx="6" fill="#dce9f5" stroke="#1a6fb5" stroke-width="1.6"/>
+  <text x="211" y="152" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#111" text-anchor="middle">&#945;1 groove &#945;2</text>
+  <circle cx="168" cy="124" r="5" fill="#d1495b"/>
+  <circle cx="190" cy="124" r="5" fill="#d1495b"/>
+  <circle cx="211" cy="124" r="5" fill="#d1495b"/>
+  <circle cx="232" cy="124" r="5" fill="#d1495b"/>
+  <circle cx="254" cy="124" r="5" fill="#d1495b"/>
+  <line x1="200" y1="110" x2="211" y2="117" stroke="#333" stroke-width="1"/>
+  <text x="200" y="105" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#111" text-anchor="middle">8&#8211;10-mer peptide, held at both ends</text>
+  <line x1="266" y1="211" x2="209" y2="195" stroke="#333" stroke-width="1"/>
+  <text x="268" y="215" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#111">CD8 binds &#945;3</text>
+  <text x="200" y="268" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333" text-anchor="middle">&#946;&#8322;m: invariant, chromosome 15</text>
+  <text x="200" y="284" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333" text-anchor="middle">every nucleated cell &#183; reports the cytosol</text>
+
+  <line x1="574" y1="228" x2="574" y2="206" stroke="#2e8b57" stroke-width="3"/>
+  <line x1="626" y1="228" x2="626" y2="206" stroke="#2e8b57" stroke-width="3"/>
+  <rect x="552" y="168" width="44" height="38" rx="8" fill="#e6f2ea" stroke="#2e8b57" stroke-width="1.6"/>
+  <text x="574" y="192" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#111" text-anchor="middle">&#945;2</text>
+  <rect x="604" y="168" width="44" height="38" rx="8" fill="#e6f2ea" stroke="#2e8b57" stroke-width="1.6"/>
+  <text x="626" y="192" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#111" text-anchor="middle">&#946;2</text>
+  <rect x="545" y="128" width="110" height="38" rx="6" fill="#e6f2ea" stroke="#2e8b57" stroke-width="1.6"/>
+  <text x="600" y="152" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#111" text-anchor="middle">&#945;1 groove &#946;1</text>
+  <circle cx="525" cy="124" r="5" fill="#d1495b"/>
+  <circle cx="547" cy="124" r="5" fill="#d1495b"/>
+  <circle cx="569" cy="124" r="5" fill="#d1495b"/>
+  <circle cx="591" cy="124" r="5" fill="#d1495b"/>
+  <circle cx="613" cy="124" r="5" fill="#d1495b"/>
+  <circle cx="635" cy="124" r="5" fill="#d1495b"/>
+  <circle cx="657" cy="124" r="5" fill="#d1495b"/>
+  <circle cx="679" cy="124" r="5" fill="#d1495b"/>
+  <line x1="600" y1="110" x2="611" y2="117" stroke="#333" stroke-width="1"/>
+  <text x="600" y="105" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#111" text-anchor="middle">13&#8211;25-mer, overhangs both ends</text>
+  <line x1="666" y1="211" x2="644" y2="195" stroke="#333" stroke-width="1"/>
+  <text x="668" y="215" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#111">CD4 binds &#946;2</text>
+  <text x="600" y="268" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333" text-anchor="middle">both chains polymorphic &#183; can pair in trans</text>
+  <text x="600" y="284" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333" text-anchor="middle">professional APCs only &#183; reports the endosome</text>
+
+  <text x="200" y="320" font-family="Helvetica,Arial,sans-serif" font-size="12" font-weight="bold" fill="#111" text-anchor="middle">Groove, side view: closed at both ends</text>
+  <text x="600" y="320" font-family="Helvetica,Arial,sans-serif" font-size="12" font-weight="bold" fill="#111" text-anchor="middle">Groove, side view: open at both ends</text>
+
+  <rect x="75" y="390" width="250" height="14" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1.4"/>
+  <rect x="75" y="352" width="14" height="52" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1.4"/>
+  <rect x="311" y="352" width="14" height="52" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1.4"/>
+  <text x="82" y="344" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#1a6fb5" text-anchor="middle">closed</text>
+  <text x="318" y="344" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#1a6fb5" text-anchor="middle">closed</text>
+  <rect x="119" y="390" width="14" height="13" fill="#ffffff" stroke="#8fa8c0" stroke-width="1.2"/>
+  <rect x="292" y="390" width="14" height="13" fill="#ffffff" stroke="#8fa8c0" stroke-width="1.2"/>
+  <polyline points="101,376 126,376 150,376 175,376 200,376 225,376 250,376 274,376 299,376" fill="none" stroke="#333" stroke-width="1.4"/>
+  <circle cx="101" cy="376" r="7" fill="#f3c9cf" stroke="#d1495b" stroke-width="1.2"/>
+  <circle cx="126" cy="376" r="7" fill="#1a6fb5"/>
+  <circle cx="150" cy="376" r="7" fill="#f3c9cf" stroke="#d1495b" stroke-width="1.2"/>
+  <circle cx="175" cy="376" r="7" fill="#f3c9cf" stroke="#d1495b" stroke-width="1.2"/>
+  <circle cx="200" cy="376" r="7" fill="#f3c9cf" stroke="#d1495b" stroke-width="1.2"/>
+  <circle cx="225" cy="376" r="7" fill="#f3c9cf" stroke="#d1495b" stroke-width="1.2"/>
+  <circle cx="250" cy="376" r="7" fill="#f3c9cf" stroke="#d1495b" stroke-width="1.2"/>
+  <circle cx="274" cy="376" r="7" fill="#f3c9cf" stroke="#d1495b" stroke-width="1.2"/>
+  <circle cx="299" cy="376" r="7" fill="#1a6fb5"/>
+  <text x="126" y="419" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#1a6fb5" text-anchor="middle">P2</text>
+  <text x="299" y="419" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#1a6fb5" text-anchor="middle">P9</text>
+  <circle cx="97" cy="397" r="3.5" fill="#d1495b"/>
+  <circle cx="150" cy="397" r="3.5" fill="#d1495b"/>
+  <circle cx="200" cy="397" r="3.5" fill="#d1495b"/>
+  <circle cx="250" cy="397" r="3.5" fill="#d1495b"/>
+  <circle cx="303" cy="397" r="3.5" fill="#d1495b"/>
+  <circle cx="82" cy="364" r="3.5" fill="#d1495b"/>
+  <circle cx="318" cy="364" r="3.5" fill="#d1495b"/>
+  <text x="200" y="437" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333" text-anchor="middle">anchor pockets fix one register &#183; length is forced</text>
+
+  <rect x="475" y="390" width="250" height="14" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1.4"/>
+  <text x="452" y="344" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#2e8b57" text-anchor="middle">overhang</text>
+  <text x="748" y="344" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#2e8b57" text-anchor="middle">overhang</text>
+  <line x1="452" y1="350" x2="452" y2="366" stroke="#2e8b57" stroke-width="1"/>
+  <line x1="748" y1="350" x2="748" y2="366" stroke="#2e8b57" stroke-width="1"/>
+  <rect x="503" y="390" width="14" height="13" fill="#ffffff" stroke="#8fa8c0" stroke-width="1.2"/>
+  <rect x="571" y="390" width="14" height="13" fill="#ffffff" stroke="#8fa8c0" stroke-width="1.2"/>
+  <rect x="615" y="390" width="14" height="13" fill="#ffffff" stroke="#8fa8c0" stroke-width="1.2"/>
+  <rect x="683" y="390" width="14" height="13" fill="#ffffff" stroke="#8fa8c0" stroke-width="1.2"/>
+  <polyline points="443,376 465,376 488,376 510,376 533,376 555,376 578,376 600,376 622,376 645,376 667,376 690,376 712,376 735,376 757,376" fill="none" stroke="#333" stroke-width="1.4"/>
+  <circle cx="443" cy="376" r="7" fill="#e4eae1" stroke="#8a9a8a" stroke-width="1.2"/>
+  <circle cx="465" cy="376" r="7" fill="#e4eae1" stroke="#8a9a8a" stroke-width="1.2"/>
+  <circle cx="488" cy="376" r="7" fill="#e4eae1" stroke="#8a9a8a" stroke-width="1.2"/>
+  <circle cx="510" cy="376" r="7" fill="#2e8b57"/>
+  <circle cx="533" cy="376" r="7" fill="#f3c9cf" stroke="#d1495b" stroke-width="1.2"/>
+  <circle cx="555" cy="376" r="7" fill="#f3c9cf" stroke="#d1495b" stroke-width="1.2"/>
+  <circle cx="578" cy="376" r="7" fill="#2e8b57"/>
+  <circle cx="600" cy="376" r="7" fill="#f3c9cf" stroke="#d1495b" stroke-width="1.2"/>
+  <circle cx="622" cy="376" r="7" fill="#2e8b57"/>
+  <circle cx="645" cy="376" r="7" fill="#f3c9cf" stroke="#d1495b" stroke-width="1.2"/>
+  <circle cx="667" cy="376" r="7" fill="#f3c9cf" stroke="#d1495b" stroke-width="1.2"/>
+  <circle cx="690" cy="376" r="7" fill="#2e8b57"/>
+  <circle cx="712" cy="376" r="7" fill="#e4eae1" stroke="#8a9a8a" stroke-width="1.2"/>
+  <circle cx="735" cy="376" r="7" fill="#e4eae1" stroke="#8a9a8a" stroke-width="1.2"/>
+  <circle cx="757" cy="376" r="7" fill="#e4eae1" stroke="#8a9a8a" stroke-width="1.2"/>
+  <text x="510" y="419" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#2e8b57" text-anchor="middle">P1</text>
+  <text x="578" y="419" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#2e8b57" text-anchor="middle">P4</text>
+  <text x="622" y="419" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#2e8b57" text-anchor="middle">P6</text>
+  <text x="690" y="419" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#2e8b57" text-anchor="middle">P9</text>
+  <circle cx="482" cy="397" r="3.5" fill="#d1495b"/>
+  <circle cx="533" cy="397" r="3.5" fill="#d1495b"/>
+  <circle cx="600" cy="397" r="3.5" fill="#d1495b"/>
+  <circle cx="655" cy="397" r="3.5" fill="#d1495b"/>
+  <circle cx="718" cy="397" r="3.5" fill="#d1495b"/>
+  <text x="600" y="437" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333" text-anchor="middle">anchors fix a 9-residue core &#183; length is free</text>
+
+  <text x="400" y="457" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#55636f" text-anchor="middle">small coral dots = polymorphic contact residues, concentrated in the groove; the coreceptor-binding domains are conserved</text>
+</svg>

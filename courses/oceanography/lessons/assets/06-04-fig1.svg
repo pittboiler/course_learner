@@ -1,0 +1,43 @@
+<svg viewBox="0 0 700 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="11.5">
+  <text x="20" y="20" fill="#8a8a8a" font-style="italic">The Stommel model&#8217;s S-curve. Two stable branches, an unstable middle, and a fold at E = 1/4.</text>
+
+  <line x1="130" y1="147.1" x2="640" y2="147.1" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="130" y1="250" x2="130" y2="55" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="300" y="278" fill="#8a8a8a">freshwater forcing E</text>
+  <text x="34" y="96" fill="#8a8a8a">overturning</text>
+  <text x="34" y="109" fill="#8a8a8a">strength q</text>
+
+  <line x1="268.9" y1="143" x2="268.9" y2="151" stroke="#8a8a8a"/><text x="256" y="164" fill="#8a8a8a">0.25</text>
+  <line x1="407.8" y1="143" x2="407.8" y2="151" stroke="#8a8a8a"/><text x="396" y="164" fill="#8a8a8a">0.50</text>
+  <line x1="546.7" y1="143" x2="546.7" y2="151" stroke="#8a8a8a"/><text x="535" y="164" fill="#8a8a8a">0.75</text>
+  <line x1="126" y1="67.9" x2="134" y2="67.9" stroke="#8a8a8a"/><text x="112" y="72" fill="#8a8a8a">1</text>
+  <line x1="126" y1="226.2" x2="134" y2="226.2" stroke="#8a8a8a"/><text x="104" y="230" fill="#8a8a8a">-1</text>
+
+  <path d="M 130.0,67.9 L 156.4,71.9 L 180.0,75.8 L 200.8,79.8 L 218.9,83.8 L 234.2,87.7 L 246.7,91.7 L 256.4,95.6 L 263.3,99.6 L 267.5,103.5 L 268.9,107.5"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="150" y="60" fill="#4a90d9">ON branch: stable, thermally driven</text>
+
+  <path d="M 268.9,107.5 L 267.5,111.5 L 263.3,115.4 L 256.4,119.4 L 246.7,123.3 L 234.2,127.3 L 218.9,131.2 L 200.8,135.2 L 180.0,139.2 L 156.4,143.1 L 130.0,147.1"
+        fill="none" stroke="#8a8a8a" stroke-width="2.5" stroke-dasharray="7 4"/>
+  <text x="152" y="136" fill="#8a8a8a">UNSTABLE branch</text>
+
+  <path d="M 130.0,147.1 L 157.8,150.9 L 188.1,154.6 L 221.0,158.4 L 256.4,162.2 L 294.3,166.0 L 334.8,169.8 L 377.8,173.5 L 423.3,177.3 L 471.4,181.1 L 521.9,184.9 L 575.1,188.7 L 630.7,192.4"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="400" y="208" fill="#4a90d9">OFF branch: stable, reversed, salinity driven</text>
+
+  <circle cx="268.9" cy="107.5" r="5" fill="#e0645c"/>
+  <text x="284" y="98" fill="#e0645c">saddle-node bifurcation at E = 1/4</text>
+  <text x="284" y="110" fill="#e0645c">beyond it the ON branch does not exist</text>
+
+  <circle cx="263.3" cy="99.6" r="4.5" fill="#8a8a8a"/>
+  <line x1="263.3" y1="99.6" x2="330" y2="66" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="336" y="62" fill="#8a8a8a">the present AMOC, on this model&#8217;s numbers</text>
+
+  <line x1="264" y1="118" x2="264" y2="152" stroke="#e0645c" stroke-width="2.5" stroke-dasharray="5 3"/>
+  <polygon points="264,162 258,148 270,148" fill="#e0645c"/>
+  <text x="196" y="176" fill="#e0645c">collapse</text>
+
+  <line x1="138" y1="140" x2="138" y2="80" stroke="#e0645c" stroke-width="2.5" stroke-dasharray="5 3"/>
+  <polygon points="138,70 132,84 144,84" fill="#e0645c"/>
+  <text x="146" y="88" fill="#e0645c">recovery, only after E returns to 0</text>
+</svg>

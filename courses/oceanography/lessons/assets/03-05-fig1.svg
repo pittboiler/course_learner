@@ -1,0 +1,43 @@
+<svg viewBox="0 0 700 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="11.5">
+  <text x="20" y="20" fill="#8a8a8a" font-style="italic">Looking north along an eastern boundary. Equatorward wind pulls the thermocline to the surface.</text>
+
+  <line x1="560" y1="52" x2="560" y2="280" stroke="#8a8a8a" stroke-width="3"/>
+  <text x="572" y="170" fill="#8a8a8a">coast</text>
+  <text x="572" y="184" fill="#8a8a8a">(land to</text>
+  <text x="572" y="198" fill="#8a8a8a">the east)</text>
+
+  <line x1="90" y1="62" x2="560" y2="62" stroke="#4a90d9" stroke-width="2"/>
+  <text x="94" y="290" fill="#8a8a8a">offshore, 100 km</text>
+  <text x="480" y="290" fill="#8a8a8a">0 km</text>
+  <line x1="90" y1="278" x2="560" y2="278" stroke="#8a8a8a" stroke-width="1"/>
+
+  <circle cx="300" cy="40" r="10" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <line x1="293" y1="33" x2="307" y2="47" stroke="#e0645c" stroke-width="2"/>
+  <line x1="307" y1="33" x2="293" y2="47" stroke="#e0645c" stroke-width="2"/>
+  <text x="318" y="44" fill="#e0645c">equatorward wind, into the page</text>
+
+  <line x1="480" y1="82" x2="200" y2="82" stroke="#4a90d9" stroke-width="3"/>
+  <polygon points="188,82 204,76 204,88" fill="#4a90d9"/>
+  <text x="250" y="76" fill="#4a90d9">Ekman transport offshore, 1.14 m&#178; s&#8315;&#185;</text>
+
+  <line x1="545" y1="200" x2="545" y2="80" stroke="#4a90d9" stroke-width="3"/>
+  <polygon points="545,68 539,84 551,84" fill="#4a90d9"/>
+  <text x="484" y="216" fill="#4a90d9">upwelling</text>
+  <text x="484" y="228" fill="#4a90d9">3.8 m/day</text>
+
+  <path d="M 90,120 L 300,132 L 450,160 L 530,120 L 552,86" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <path d="M 90,168 L 300,182 L 450,214 L 530,186 L 552,150" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <path d="M 90,216 L 300,232 L 450,258 L 534,240 L 552,214" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <text x="96" y="112" fill="#e0645c">isopycnals shoal sharply at the coast</text>
+
+  <circle cx="505" cy="106" r="9" fill="none" stroke="#8a8a8a" stroke-width="1.8"/>
+  <line x1="499" y1="100" x2="511" y2="112" stroke="#8a8a8a" stroke-width="1.8"/>
+  <line x1="511" y1="100" x2="499" y2="112" stroke="#8a8a8a" stroke-width="1.8"/>
+  <text x="330" y="110" fill="#8a8a8a">coastal jet, equatorward</text>
+
+  <circle cx="505" cy="252" r="9" fill="none" stroke="#8a8a8a" stroke-width="1.8"/>
+  <circle cx="505" cy="252" r="2.5" fill="#8a8a8a"/>
+  <text x="300" y="256" fill="#8a8a8a">undercurrent, poleward, out of the page</text>
+
+  <text x="130" y="252" fill="#8a8a8a">nutrient-rich water from 50 to 100 m reaches the light</text>
+</svg>

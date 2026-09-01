@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 860" width="800" height="860" role="img" aria-label="Earth's interior on one true-scale depth axis: a compositional column beside a mechanical column, seismic speeds and density plotted against the same depth, an expanded view of the top 700 kilometres, and a globe showing the P and S shadow zones.">
+<rect width="800" height="860" fill="#ffffff"/>
+
+<text x="20" y="20" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#111">Two layerings, one depth axis &#8212; and the measurements that fix each boundary</text>
+<text x="20" y="37" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">Radial scale is true. The crust is the thin tan line at the very top; it is thinner than the ink.</text>
+
+<text x="18" y="345" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333" text-anchor="middle" transform="rotate(-90 18 345)">depth (km)</text>
+
+<line x1="84" y1="73.0" x2="490" y2="73.0" stroke="#8fa8c0" stroke-width="0.8" stroke-dasharray="2,3"/>
+<line x1="84" y1="104.8" x2="490" y2="104.8" stroke="#8fa8c0" stroke-width="0.8" stroke-dasharray="2,3"/>
+<line x1="84" y1="125.9" x2="490" y2="125.9" stroke="#8fa8c0" stroke-width="0.8" stroke-dasharray="2,3"/>
+<line x1="84" y1="315.0" x2="490" y2="315.0" stroke="#333" stroke-width="1" stroke-dasharray="4,3"/>
+<line x1="84" y1="506.5" x2="490" y2="506.5" stroke="#333" stroke-width="1" stroke-dasharray="4,3"/>
+
+<line x1="78" y1="70" x2="78" y2="610" stroke="#333" stroke-width="1.2"/>
+<line x1="72" y1="70" x2="78" y2="70" stroke="#333" stroke-width="1"/>
+<text x="68" y="73.5" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="end">0</text>
+<line x1="72" y1="154.8" x2="78" y2="154.8" stroke="#333" stroke-width="1"/>
+<text x="68" y="158.3" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="end">1000</text>
+<line x1="72" y1="239.5" x2="78" y2="239.5" stroke="#333" stroke-width="1"/>
+<text x="68" y="243" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="end">2000</text>
+<line x1="72" y1="315.0" x2="78" y2="315.0" stroke="#333" stroke-width="1"/>
+<text x="68" y="318.5" font-family="Helvetica,Arial,sans-serif" font-size="9.5" font-weight="bold" fill="#111" text-anchor="end">2891</text>
+<line x1="72" y1="409.0" x2="78" y2="409.0" stroke="#333" stroke-width="1"/>
+<text x="68" y="412.5" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="end">4000</text>
+<line x1="72" y1="506.5" x2="78" y2="506.5" stroke="#333" stroke-width="1"/>
+<text x="68" y="510" font-family="Helvetica,Arial,sans-serif" font-size="9.5" font-weight="bold" fill="#111" text-anchor="end">5150</text>
+<line x1="72" y1="610.0" x2="78" y2="610.0" stroke="#333" stroke-width="1"/>
+<text x="68" y="613.5" font-family="Helvetica,Arial,sans-serif" font-size="9.5" font-weight="bold" fill="#111" text-anchor="end">6371</text>
+
+<text x="115" y="62" font-family="Helvetica,Arial,sans-serif" font-size="9.5" font-weight="bold" fill="#111" text-anchor="middle">COMPOSITION</text>
+<rect x="84" y="70" width="62" height="3" fill="#d8c9a3"/>
+<rect x="84" y="73" width="62" height="242" fill="#9fb3a8"/>
+<rect x="84" y="315" width="62" height="191.5" fill="#e0a04a"/>
+<rect x="84" y="506.5" width="62" height="103.5" fill="#b5651d"/>
+<rect x="84" y="70" width="62" height="540" fill="none" stroke="#111" stroke-width="1.2"/>
+<text x="115" y="198" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#111" text-anchor="middle">mantle</text>
+<text x="115" y="411" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#111" text-anchor="middle">outer core</text>
+<text x="115" y="560" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#ffffff" text-anchor="middle">inner core</text>
+
+<text x="181" y="62" font-family="Helvetica,Arial,sans-serif" font-size="9.5" font-weight="bold" fill="#111" text-anchor="middle">STRENGTH</text>
+<rect x="150" y="70" width="62" height="8.5" fill="#6f7a85"/>
+<rect x="150" y="78.5" width="62" height="21.2" fill="#cfd8e0"/>
+<rect x="150" y="99.7" width="62" height="215.3" fill="#b8c7bd"/>
+<rect x="150" y="315" width="62" height="191.5" fill="#e0a04a"/>
+<rect x="150" y="506.5" width="62" height="103.5" fill="#b5651d"/>
+<rect x="150" y="70" width="62" height="540" fill="none" stroke="#111" stroke-width="1.2"/>
+<text x="181" y="200" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#111" text-anchor="middle">meso-</text>
+<text x="181" y="212" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#111" text-anchor="middle">sphere</text>
+<text x="181" y="405" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#111" text-anchor="middle">outer core</text>
+<text x="181" y="419" font-family="Helvetica,Arial,sans-serif" font-size="10" font-weight="bold" fill="#d1495b" text-anchor="middle">LIQUID</text>
+<text x="181" y="553" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#ffffff" text-anchor="middle">inner core</text>
+<text x="181" y="567" font-family="Helvetica,Arial,sans-serif" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">SOLID</text>
+
+<line x1="216" y1="70" x2="216" y2="129.3" stroke="#333" stroke-width="1.2"/>
+<line x1="213" y1="70" x2="216" y2="70" stroke="#333" stroke-width="1.2"/>
+<line x1="213" y1="129.3" x2="216" y2="129.3" stroke="#333" stroke-width="1.2"/>
+<text x="220" y="90" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">top 700</text>
+<text x="220" y="102" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">km &#8212; see</text>
+<text x="220" y="114" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">inset &#8594;</text>
+
+<line x1="270" y1="64" x2="490" y2="64" stroke="#333" stroke-width="1.2"/>
+<line x1="270" y1="59" x2="270" y2="64" stroke="#333" stroke-width="1"/>
+<line x1="332.9" y1="59" x2="332.9" y2="64" stroke="#333" stroke-width="1"/>
+<line x1="395.7" y1="59" x2="395.7" y2="64" stroke="#333" stroke-width="1"/>
+<line x1="458.6" y1="59" x2="458.6" y2="64" stroke="#333" stroke-width="1"/>
+<text x="270" y="55" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="middle">0</text>
+<text x="332.9" y="55" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="middle">4</text>
+<text x="395.7" y="55" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="middle">8</text>
+<text x="458.6" y="55" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="middle">12</text>
+<line x1="332.9" y1="70" x2="332.9" y2="610" stroke="#dde5ec" stroke-width="0.8"/>
+<line x1="395.7" y1="70" x2="395.7" y2="610" stroke="#dde5ec" stroke-width="0.8"/>
+<line x1="458.6" y1="70" x2="458.6" y2="610" stroke="#dde5ec" stroke-width="0.8"/>
+
+<polyline fill="none" stroke="#1a6fb5" stroke-width="1.8" points="361.1,70 376.9,73 396.3,73 396.5,78.5 395.6,87 409.9,103.9 417.7,104.8 422.4,112.4 431.9,125.9 439.7,125.9 449.4,154.8 458.9,197.1 471.0,239.5 479.9,281.9 485.4,315 396.7,315 416.1,366.7 430.3,451.4 432.8,506.5 443.3,506.5 446.9,610"/>
+<polyline fill="none" stroke="#d1495b" stroke-width="2" points="322.8,70 331.3,73 340.2,73 340.7,78.5 339.4,87 344.9,103.9 349.8,104.8 357.5,125.9 363.5,125.9 370.2,154.8 375.3,197.1 378.7,239.5 381.4,281.9 384.1,315 270,315 270,506.5 325.0,506.5 327.7,610"/>
+<polyline fill="none" stroke="#2e8b57" stroke-width="1.8" points="312.4,70 315.6,73 323.1,73 323.0,78.5 325.6,104.8 328.5,104.8 332.7,125.9 338.8,125.9 342.0,154.8 346.4,197.1 350.5,239.5 354.9,281.9 357.5,315 425.6,315 438.1,366.7 457.0,451.4 461.3,506.5 470.5,506.5 475.7,610"/>
+
+<text x="274" y="310" font-family="Helvetica,Arial,sans-serif" font-size="9.5" font-weight="bold" fill="#d1495b">S speed &#8594; 0</text>
+<text x="274" y="502" font-family="Helvetica,Arial,sans-serif" font-size="9.5" font-weight="bold" fill="#d1495b">S returns</text>
+<text x="300" y="342" font-family="Helvetica,Arial,sans-serif" font-size="9.5" font-weight="bold" fill="#2e8b57">density jumps &#215;1.8</text>
+<text x="327" y="622" font-family="Helvetica,Arial,sans-serif" font-size="9.5" font-weight="bold" fill="#d1495b" text-anchor="middle">S speed</text>
+<text x="442" y="622" font-family="Helvetica,Arial,sans-serif" font-size="9.5" font-weight="bold" fill="#1a6fb5" text-anchor="end">P speed</text>
+<text x="492" y="622" font-family="Helvetica,Arial,sans-serif" font-size="9.5" font-weight="bold" fill="#2e8b57" text-anchor="end">density</text>
+<text x="270" y="638" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">speeds in km/s, density in g/cm&#179;</text>
+
+<rect x="512" y="80" width="278" height="452" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+<text x="520" y="98" font-family="Helvetica,Arial,sans-serif" font-size="10" font-weight="bold" fill="#111">Top 700 km, expanded 6.4&#215;</text>
+<line x1="556" y1="110" x2="556" y2="490" stroke="#333" stroke-width="1"/>
+<line x1="551" y1="110" x2="556" y2="110" stroke="#333" stroke-width="1"/>
+<text x="548" y="113.5" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="end">0</text>
+<line x1="551" y1="164.3" x2="556" y2="164.3" stroke="#333" stroke-width="1"/>
+<text x="548" y="167.8" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="end">100</text>
+<line x1="551" y1="272.9" x2="556" y2="272.9" stroke="#333" stroke-width="1"/>
+<text x="548" y="276.4" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="end">300</text>
+<line x1="551" y1="381.4" x2="556" y2="381.4" stroke="#333" stroke-width="1"/>
+<text x="548" y="384.9" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="end">500</text>
+<line x1="551" y1="490" x2="556" y2="490" stroke="#333" stroke-width="1"/>
+<text x="548" y="493.5" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="end">700</text>
+
+<rect x="560" y="110" width="60" height="19" fill="#d8c9a3"/>
+<rect x="560" y="129" width="60" height="361" fill="#9fb3a8"/>
+<rect x="560" y="110" width="60" height="380" fill="none" stroke="#111" stroke-width="1.2"/>
+<text x="590" y="124" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111" text-anchor="middle">crust</text>
+<text x="590" y="330" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#111" text-anchor="middle">mantle</text>
+
+<rect x="624" y="110" width="60" height="54.3" fill="#6f7a85"/>
+<rect x="624" y="164.3" width="60" height="135.7" fill="#cfd8e0"/>
+<rect x="624" y="300" width="60" height="190" fill="#b8c7bd"/>
+<rect x="624" y="110" width="60" height="380" fill="none" stroke="#111" stroke-width="1.2"/>
+<text x="654" y="134" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#ffffff" text-anchor="middle">litho-</text>
+<text x="654" y="146" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#ffffff" text-anchor="middle">sphere</text>
+<text x="654" y="225" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111" text-anchor="middle">astheno-</text>
+<text x="654" y="237" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111" text-anchor="middle">sphere</text>
+<text x="654" y="390" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111" text-anchor="middle">meso-</text>
+<text x="654" y="402" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111" text-anchor="middle">sphere</text>
+
+<line x1="560" y1="129" x2="690" y2="129" stroke="#d1495b" stroke-width="1.8"/>
+<text x="694" y="127" font-family="Helvetica,Arial,sans-serif" font-size="9.5" font-weight="bold" fill="#d1495b">Moho, 35 km</text>
+<text x="694" y="139" font-family="Helvetica,Arial,sans-serif" font-size="9" fill="#333">compositional</text>
+<line x1="624" y1="164.3" x2="690" y2="164.3" stroke="#1a6fb5" stroke-width="1.8"/>
+<text x="694" y="162" font-family="Helvetica,Arial,sans-serif" font-size="9.5" font-weight="bold" fill="#1a6fb5">base of plate</text>
+<text x="694" y="174" font-family="Helvetica,Arial,sans-serif" font-size="9" fill="#333">mechanical, 100 km</text>
+<line x1="624" y1="300" x2="684" y2="300" stroke="#8fa8c0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="688" y="303" font-family="Helvetica,Arial,sans-serif" font-size="9" fill="#333">~350</text>
+<line x1="560" y1="332.6" x2="690" y2="332.6" stroke="#333" stroke-width="1" stroke-dasharray="4,3"/>
+<text x="694" y="330" font-family="Helvetica,Arial,sans-serif" font-size="9.5" font-weight="bold" fill="#111">410 km</text>
+<text x="694" y="342" font-family="Helvetica,Arial,sans-serif" font-size="9" fill="#333">phase change</text>
+<line x1="560" y1="468.3" x2="690" y2="468.3" stroke="#333" stroke-width="1" stroke-dasharray="4,3"/>
+<text x="694" y="466" font-family="Helvetica,Arial,sans-serif" font-size="9.5" font-weight="bold" fill="#111">660 km</text>
+<text x="694" y="478" font-family="Helvetica,Arial,sans-serif" font-size="9" fill="#333">phase change</text>
+<text x="520" y="510" font-family="Helvetica,Arial,sans-serif" font-size="10" font-weight="bold" fill="#111">A plate is lithosphere: crust PLUS 65 km</text>
+<text x="520" y="524" font-family="Helvetica,Arial,sans-serif" font-size="10" font-weight="bold" fill="#111">of cold mantle. The Moho sits inside it.</text>
+
+<text x="30" y="655" font-family="Helvetica,Arial,sans-serif" font-size="10" font-weight="bold" fill="#111">Why we believe the outer core is liquid</text>
+<circle cx="170" cy="755" r="85" fill="#f5f7fa" stroke="#111" stroke-width="1.5"/>
+<path d="M 252.8,774.1 A 85 85 0 0 1 221.2,822.9" fill="none" stroke="#1a6fb5" stroke-width="9" stroke-opacity="0.35"/>
+<path d="M 87.2,774.1 A 85 85 0 0 0 170,840" fill="none" stroke="#d1495b" stroke-width="9" stroke-opacity="0.4"/>
+<circle cx="170" cy="755" r="46" fill="#e0a04a" stroke="#111" stroke-width="1.2"/>
+<circle cx="170" cy="755" r="16" fill="#b5651d" stroke="#111" stroke-width="1"/>
+<text x="170" y="736" font-family="Helvetica,Arial,sans-serif" font-size="9" fill="#111" text-anchor="middle">core</text>
+
+<path d="M 170,670 A 120 120 0 0 0 224.6,689.9" fill="none" stroke="#1a6fb5" stroke-width="1.4"/>
+<path d="M 170,670 A 130 130 0 0 0 252.1,733.0" fill="none" stroke="#1a6fb5" stroke-width="1.4"/>
+<path d="M 170,670 A 150 150 0 0 0 252.8,774.1" fill="none" stroke="#1a6fb5" stroke-width="1.4"/>
+<path d="M 170,670 A 140 140 0 0 0 199.6,719.8 L 189.4,796.7 A 140 140 0 0 0 194.8,836.3" fill="none" stroke="#1a6fb5" stroke-width="1.4"/>
+<path d="M 170,670 A 130 130 0 0 1 96.4,712.5" fill="none" stroke="#d1495b" stroke-width="1.4"/>
+<path d="M 170,670 A 150 150 0 0 1 86.3,769.8" fill="none" stroke="#d1495b" stroke-width="1.4"/>
+<path d="M 170,670 A 130 130 0 0 1 137.5,722.5" fill="none" stroke="#d1495b" stroke-width="1.4"/>
+<text x="137.5" y="727" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#d1495b" text-anchor="middle">&#215;</text>
+
+<circle cx="170" cy="670" r="3.5" fill="#111"/>
+<text x="176" y="663" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">focus</text>
+<text x="268" y="702" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="bold" fill="#1a6fb5">P</text>
+<text x="72" y="702" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="bold" fill="#d1495b" text-anchor="end">S</text>
+<text x="260" y="782" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">103&#176;</text>
+<text x="228" y="836" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">143&#176;</text>
+<text x="80" y="782" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111" text-anchor="end">103&#176;</text>
+<text x="170" y="853" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111" text-anchor="middle">180&#176;</text>
+
+<text x="290" y="690" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#111">P and S leave the focus together, and both are recorded out to 103&#176;.</text>
+<text x="290" y="708" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#111">Beyond 103&#176; no direct S is recorded anywhere on Earth, ever.</text>
+<text x="290" y="726" font-family="Helvetica,Arial,sans-serif" font-size="10" font-weight="bold" fill="#d1495b">Shear waves need rigidity, so the outer core has none: it is liquid.</text>
+<text x="290" y="748" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#111">P vanishes from 103&#176; to 143&#176;, then returns, bent down and back</text>
+<text x="290" y="764" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#111">through the core: the kink is the drop from 13.7 to 8.1 km/s.</text>
+<text x="290" y="786" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#111">Faint P arrivals inside the shadow (Lehmann, 1936) are the</text>
+<text x="290" y="802" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#111">signature of a solid inner core reflecting energy back out.</text>
+</svg>

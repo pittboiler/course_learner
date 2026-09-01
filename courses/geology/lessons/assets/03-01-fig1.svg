@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 592" width="820" height="592" role="img" aria-label="Panel a: Bowen's crystallization order beside the Goldich weathering-stability order, joined by lines that cross so the exact reversal is visible, with shared-oxygen counts and weathering products. Panel b: a temperate podzol and a tropical laterite soil profile drawn at the same depth scale with O, A, E, B and C horizons labelled.">
+  <rect width="820" height="592" fill="#ffffff"/>
+
+  <text x="20" y="26" font-family="Helvetica,Arial,sans-serif" font-size="13.5" font-weight="bold" fill="#111">(a) The Goldich stability series is Bowen&#8217;s series run backwards</text>
+
+  <line x1="76" y1="70" x2="76" y2="248" stroke="#333" stroke-width="1"/>
+  <path d="M 76 254 L 72 244 L 80 244 Z" fill="#333"/>
+  <text x="70" y="76" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">1200&#176;C</text>
+  <text x="70" y="250" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">700&#176;C</text>
+
+  <text x="90" y="56" font-family="Helvetica,Arial,sans-serif" font-size="10.5" font-weight="bold" fill="#1a6fb5">BOWEN &#8212; crystallization order</text>
+  <text x="465" y="56" font-family="Helvetica,Arial,sans-serif" font-size="10.5" font-weight="bold" fill="#2e8b57">GOLDICH &#8212; stability</text>
+  <text x="649" y="56" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#666">b</text>
+  <text x="690" y="56" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#666">weathers to</text>
+
+  <line x1="280" y1="80" x2="465" y2="248" stroke="#d1495b" stroke-width="1" opacity="0.5"/>
+  <line x1="280" y1="108" x2="465" y2="220" stroke="#d1495b" stroke-width="1" opacity="0.5"/>
+  <line x1="280" y1="136" x2="465" y2="192" stroke="#d1495b" stroke-width="1" opacity="0.5"/>
+  <line x1="280" y1="164" x2="465" y2="164" stroke="#d1495b" stroke-width="1" opacity="0.5"/>
+  <line x1="280" y1="192" x2="465" y2="136" stroke="#d1495b" stroke-width="1" opacity="0.5"/>
+  <line x1="280" y1="220" x2="465" y2="108" stroke="#d1495b" stroke-width="1" opacity="0.5"/>
+  <line x1="280" y1="248" x2="465" y2="80" stroke="#d1495b" stroke-width="1" opacity="0.5"/>
+  <rect x="330" y="150" width="88" height="14" fill="#ffffff"/>
+  <text x="374" y="161" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#d1495b">exact reversal</text>
+
+  <rect x="90" y="64" width="190" height="200" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+  <rect x="465" y="64" width="190" height="200" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+
+  <text x="100" y="84" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#111">olivine</text>
+  <text x="100" y="112" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#111">pyroxene</text>
+  <text x="100" y="140" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#111">amphibole</text>
+  <text x="100" y="168" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#111">biotite</text>
+  <text x="100" y="196" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#111">K-feldspar</text>
+  <text x="100" y="224" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#111">muscovite</text>
+  <text x="100" y="252" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#111">quartz</text>
+
+  <text x="475" y="84" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#111">quartz</text>
+  <text x="475" y="112" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#111">muscovite</text>
+  <text x="475" y="140" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#111">K-feldspar *</text>
+  <text x="475" y="168" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#111">biotite</text>
+  <text x="475" y="196" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#111">amphibole</text>
+  <text x="475" y="224" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#111">pyroxene</text>
+  <text x="475" y="252" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#111">olivine</text>
+
+  <text x="645" y="84" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#1a6fb5">4</text>
+  <text x="645" y="112" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#1a6fb5">3</text>
+  <text x="645" y="140" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#1a6fb5">4</text>
+  <text x="645" y="168" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#1a6fb5">3</text>
+  <text x="645" y="196" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#1a6fb5">2.5</text>
+  <text x="645" y="224" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#1a6fb5">2</text>
+  <text x="645" y="252" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#1a6fb5">0</text>
+
+  <text x="690" y="84" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">survives as sand</text>
+  <text x="690" y="112" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">illite clay</text>
+  <text x="690" y="140" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">kaolinite; K leached</text>
+  <text x="690" y="168" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">clay + Fe oxide</text>
+  <text x="690" y="196" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">clay + Fe oxide</text>
+  <text x="690" y="224" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">clay + Fe oxide</text>
+  <text x="690" y="252" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">Fe oxide; Mg,Si gone</text>
+
+  <text x="90" y="282" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">Plagioclase runs in parallel: Ca-rich (early, least stable) &#8594; Na-rich (late, more stable).</text>
+  <text x="90" y="296" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">* K-feldspar is a framework (b = 4) but Al-for-Si substitution leaves a loose K ion water strips.</text>
+
+  <line x1="20" y1="312" x2="800" y2="312" stroke="#ccd6e0" stroke-width="1"/>
+
+  <text x="20" y="336" font-family="Helvetica,Arial,sans-serif" font-size="13.5" font-weight="bold" fill="#111">(b) The soil profile is a readout of climate &#8212; both at the same depth scale</text>
+
+  <line x1="64" y1="362" x2="64" y2="562" stroke="#333" stroke-width="1"/>
+  <line x1="58" y1="362" x2="64" y2="362" stroke="#333" stroke-width="1"/>
+  <line x1="58" y1="402" x2="64" y2="402" stroke="#333" stroke-width="1"/>
+  <line x1="58" y1="442" x2="64" y2="442" stroke="#333" stroke-width="1"/>
+  <line x1="58" y1="482" x2="64" y2="482" stroke="#333" stroke-width="1"/>
+  <line x1="58" y1="522" x2="64" y2="522" stroke="#333" stroke-width="1"/>
+  <line x1="58" y1="562" x2="64" y2="562" stroke="#333" stroke-width="1"/>
+  <text x="54" y="365" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">0 m</text>
+  <text x="54" y="405" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">0.5</text>
+  <text x="54" y="445" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">1.0</text>
+  <text x="54" y="485" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">1.5</text>
+  <text x="54" y="525" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">2.0</text>
+  <text x="54" y="565" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">2.5</text>
+
+  <text x="92" y="354" font-family="Helvetica,Arial,sans-serif" font-size="10.5" font-weight="bold" fill="#1a6fb5">TEMPERATE PODZOL (cool, wet, conifer)</text>
+  <rect x="92" y="362" width="108" height="10" fill="#2f2517"/>
+  <rect x="92" y="372" width="108" height="14" fill="#4a3b28"/>
+  <rect x="92" y="386" width="108" height="16" fill="#dfe0da"/>
+  <rect x="92" y="402" width="108" height="44" fill="#b5651d"/>
+  <rect x="92" y="446" width="108" height="52" fill="#9fb3a8"/>
+  <rect x="92" y="498" width="108" height="64" fill="#7f868d"/>
+  <rect x="92" y="362" width="108" height="200" fill="none" stroke="#333" stroke-width="1"/>
+
+  <line x1="200" y1="367" x2="205" y2="367" stroke="#8fa8c0" stroke-width="0.8"/>
+  <line x1="200" y1="379" x2="205" y2="379" stroke="#8fa8c0" stroke-width="0.8"/>
+  <line x1="200" y1="394" x2="205" y2="394" stroke="#8fa8c0" stroke-width="0.8"/>
+  <line x1="200" y1="424" x2="205" y2="424" stroke="#8fa8c0" stroke-width="0.8"/>
+  <line x1="200" y1="472" x2="205" y2="472" stroke="#8fa8c0" stroke-width="0.8"/>
+  <line x1="200" y1="530" x2="205" y2="530" stroke="#8fa8c0" stroke-width="0.8"/>
+  <text x="207" y="370" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">O &#8212; litter and humus</text>
+  <text x="207" y="383" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">A &#8212; dark, organic-rich topsoil</text>
+  <text x="207" y="397" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">E &#8212; bleached; Fe, Al, clay stripped</text>
+  <text x="207" y="427" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">B &#8212; Fe, Al and clay re-deposited</text>
+  <text x="207" y="475" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">C &#8212; broken, rotting granite</text>
+  <text x="207" y="534" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">R &#8212; fresh granite bedrock</text>
+
+  <text x="466" y="354" font-family="Helvetica,Arial,sans-serif" font-size="10.5" font-weight="bold" fill="#b5651d">TROPICAL LATERITE (hot, wet, oxisol)</text>
+  <rect x="466" y="362" width="108" height="20" fill="#4a3b28"/>
+  <rect x="466" y="382" width="108" height="156" fill="#9c3b1b"/>
+  <rect x="466" y="538" width="108" height="24" fill="#c9a48d"/>
+  <rect x="466" y="362" width="108" height="200" fill="none" stroke="#333" stroke-width="1"/>
+  <line x1="466" y1="562" x2="574" y2="562" stroke="#333" stroke-width="2" stroke-dasharray="5,4"/>
+
+  <line x1="574" y1="372" x2="579" y2="372" stroke="#8fa8c0" stroke-width="0.8"/>
+  <line x1="574" y1="460" x2="579" y2="460" stroke="#8fa8c0" stroke-width="0.8"/>
+  <line x1="574" y1="550" x2="579" y2="550" stroke="#8fa8c0" stroke-width="0.8"/>
+  <text x="581" y="374" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">A &#8212; thin humus; litter recycled fast</text>
+  <text x="581" y="445" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">B &#8212; deep red oxic horizon:</text>
+  <text x="581" y="458" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">kaolinite, gibbsite, hematite</text>
+  <text x="581" y="471" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">Si and all bases leached out</text>
+  <text x="581" y="484" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#b5651d">&#8594; bauxite ore forms here</text>
+  <text x="581" y="552" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">saprolite &#8212; rotted rock,</text>
+  <text x="581" y="565" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">commonly 10 m or more</text>
+
+  <text x="92" y="582" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">Podzol: cool and acid &#8212; Fe and Al move down one horizon.</text>
+  <text x="466" y="582" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">Laterite: hot and wet &#8212; only Fe and Al oxides survive.</text>
+</svg>

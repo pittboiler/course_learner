@@ -1,0 +1,51 @@
+<svg viewBox="0 0 660 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="12">
+  <text x="20" y="20" fill="#8a8a8a" font-style="italic">Gregory plot, abrupt 4&#215;CO&#8322;: the intercept is the forcing, the slope is &#8211;&#955;, and the slope changes.</text>
+
+  <line x1="100" y1="250" x2="620" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="100" y1="250" x2="100" y2="52" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="330" y="288" fill="#8a8a8a">global-mean surface warming &#916;T (K)</text>
+  <text x="18" y="140" fill="#8a8a8a">TOA</text>
+  <text x="18" y="156" fill="#8a8a8a">imbalance</text>
+  <text x="18" y="172" fill="#8a8a8a">N (W m&#8315;&#178;)</text>
+
+  <line x1="225" y1="250" x2="225" y2="256" stroke="#8a8a8a"/><text x="221" y="270" fill="#8a8a8a">2</text>
+  <line x1="350" y1="250" x2="350" y2="256" stroke="#8a8a8a"/><text x="346" y="270" fill="#8a8a8a">4</text>
+  <line x1="475" y1="250" x2="475" y2="256" stroke="#8a8a8a"/><text x="471" y="270" fill="#8a8a8a">6</text>
+  <line x1="600" y1="250" x2="600" y2="256" stroke="#8a8a8a"/><text x="596" y="270" fill="#8a8a8a">8</text>
+  <text x="90" y="270" fill="#8a8a8a">0</text>
+  <text x="86" y="203" fill="#8a8a8a">2</text>
+  <text x="86" y="156" fill="#8a8a8a">4</text>
+  <text x="86" y="108" fill="#8a8a8a">6</text>
+  <text x="86" y="61" fill="#8a8a8a">8</text>
+
+  <!-- model points -->
+  <circle cx="156" cy="92" r="3.5" fill="#4a90d9"/>
+  <circle cx="180" cy="106" r="3.5" fill="#4a90d9"/>
+  <circle cx="212" cy="121" r="3.5" fill="#4a90d9"/>
+  <circle cx="244" cy="138" r="3.5" fill="#4a90d9"/>
+  <circle cx="270" cy="150" r="3.5" fill="#4a90d9"/>
+  <circle cx="288" cy="160" r="3.5" fill="#4a90d9"/>
+  <circle cx="322" cy="174" r="3.5" fill="#4a90d9"/>
+  <circle cx="352" cy="184" r="3.5" fill="#4a90d9"/>
+  <circle cx="381" cy="193" r="3.5" fill="#4a90d9"/>
+  <circle cx="414" cy="205" r="3.5" fill="#4a90d9"/>
+  <circle cx="450" cy="218" r="3.5" fill="#4a90d9"/>
+  <circle cx="474" cy="227" r="3.5" fill="#4a90d9"/>
+  <circle cx="494" cy="234" r="3.5" fill="#4a90d9"/>
+
+  <!-- early fit -->
+  <line x1="100" y1="63.3" x2="464" y2="250" stroke="#e0645c" stroke-width="2" stroke-dasharray="7 4"/>
+  <text x="188" y="72" fill="#e0645c">years 1&#8211;20: slope &#8211;1.35</text>
+  <circle cx="464" cy="250" r="4" fill="#e0645c"/>
+  <text x="410" y="308" fill="#e0645c">2.9 K per doubling</text>
+
+  <!-- late fit -->
+  <line x1="100" y1="91.8" x2="538" y2="250" stroke="#4a90d9" stroke-width="2"/>
+  <text x="150" y="112" fill="#4a90d9">years 21&#8211;150: slope &#8211;0.95</text>
+  <circle cx="538" cy="250" r="4" fill="#4a90d9"/>
+  <text x="512" y="290" fill="#4a90d9">3.5 K</text>
+
+  <!-- intercept marker -->
+  <line x1="100" y1="63.3" x2="140" y2="63.3" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="106" y="56" fill="#8a8a8a">intercept = ERF for 4&#215;, 7.9 W m&#8315;&#178;</text>
+</svg>

@@ -1,0 +1,46 @@
+<svg viewBox="0 0 660 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Gray radiative equilibrium, &#964;s = 4: too hot below, right at the top, and discontinuous at the ground.</text>
+
+  <!-- axes -->
+  <line x1="90" y1="250" x2="620" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="90" y1="250" x2="90" y2="52" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="330" y="284" fill="#8a8a8a">temperature (K)</text>
+  <text x="24" y="150" fill="#8a8a8a">&#964;</text>
+  <text x="30" y="66" fill="#8a8a8a">0</text>
+  <text x="30" y="254" fill="#8a8a8a">4</text>
+  <text x="20" y="46" fill="#8a8a8a">top</text>
+  <text x="14" y="270" fill="#8a8a8a">ground</text>
+
+  <!-- x ticks -->
+  <line x1="203" y1="250" x2="203" y2="256" stroke="#8a8a8a"/><text x="188" y="270" fill="#8a8a8a">240</text>
+  <line x1="317" y1="250" x2="317" y2="256" stroke="#8a8a8a"/><text x="302" y="270" fill="#8a8a8a">280</text>
+  <line x1="430" y1="250" x2="430" y2="256" stroke="#8a8a8a"/><text x="415" y="270" fill="#8a8a8a">320</text>
+  <line x1="543" y1="250" x2="543" y2="256" stroke="#8a8a8a"/><text x="528" y="270" fill="#8a8a8a">360</text>
+
+  <!-- y gridlines -->
+  <line x1="90" y1="107.5" x2="620" y2="107.5" stroke="#8a8a8a" stroke-width="0.7" stroke-dasharray="2 5"/><text x="70" y="112" fill="#8a8a8a">1</text>
+  <line x1="90" y1="155" x2="620" y2="155" stroke="#8a8a8a" stroke-width="0.7" stroke-dasharray="2 5"/><text x="70" y="159" fill="#8a8a8a">2</text>
+  <line x1="90" y1="202.5" x2="620" y2="202.5" stroke="#8a8a8a" stroke-width="0.7" stroke-dasharray="2 5"/><text x="70" y="207" fill="#8a8a8a">3</text>
+
+  <!-- radiative equilibrium air profile -->
+  <path d="M 129.9,60.0 L 158.2,66.3 L 183.1,72.7 L 205.5,79.0 L 225.9,85.3 L 244.6,91.7 L 262.0,98.0 L 278.3,104.3 L 293.5,110.7 L 307.9,117.0 L 321.6,123.3 L 334.6,129.7 L 347.0,136.0 L 358.8,142.3 L 370.2,148.7 L 381.1,155.0 L 391.6,161.3 L 401.8,167.7 L 411.6,174.0 L 421.1,180.3 L 430.3,186.7 L 439.3,193.0 L 448.0,199.3 L 456.4,205.7 L 464.6,212.0 L 472.6,218.3 L 480.4,224.7 L 488.1,231.0 L 495.5,237.3 L 502.8,243.7 L 509.9,250.0"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="470" y="122" fill="#4a90d9">air, radiative</text>
+  <text x="470" y="138" fill="#4a90d9">equilibrium</text>
+
+  <!-- skin temperature marker -->
+  <circle cx="129.9" cy="60" r="4" fill="#4a90d9"/>
+  <text x="140" y="52" fill="#4a90d9">skin, 214 K</text>
+
+  <!-- ground point and the jump -->
+  <circle cx="543.4" cy="250" r="5" fill="#e0645c"/>
+  <line x1="509.9" y1="250" x2="543.4" y2="250" stroke="#e0645c" stroke-width="3"/>
+  <text x="392" y="303" fill="#e0645c">jump: air 348 K, ground 360 K</text>
+  <line x1="509.9" y1="250" x2="509.9" y2="292" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="543.4" y1="250" x2="543.4" y2="292" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+
+  <!-- observed profile for contrast -->
+  <path d="M 217,60 L 217,107.5 L 240,140 L 300,190 L 351,250" fill="none" stroke="#8a8a8a" stroke-width="2" stroke-dasharray="7 5"/>
+  <text x="150" y="196" fill="#8a8a8a">observed</text>
+  <text x="150" y="212" fill="#8a8a8a">(convection wins)</text>
+</svg>

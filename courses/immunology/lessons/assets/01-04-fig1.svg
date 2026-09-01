@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 445" width="800" height="445" role="img" aria-label="Timeline of the innate response after a breach, with stage boxes and overlapping cell-number curves">
+<rect width="800" height="445" fill="#ffffff"/>
+<text x="20" y="22" font-family="Helvetica,Arial,sans-serif" font-size="12.5" font-weight="bold" fill="#111">Innate response to a dermal breach: mediators, vessels, cells</text>
+
+<g font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">
+  <rect x="86" y="34" width="108" height="98" fill="#f5f7fa" stroke="#8fa8c0"/>
+  <text x="92" y="50" font-weight="bold" fill="#1a6fb5">0&#8211;10 min</text>
+  <text x="92" y="68">Resident macrophages</text>
+  <text x="92" y="80">and mast cells sense</text>
+  <text x="92" y="92">PAMPs; histamine,</text>
+  <text x="92" y="104">TNF, IL-1, CXCL8</text>
+
+  <rect x="196" y="34" width="108" height="98" fill="#f5f7fa" stroke="#8fa8c0"/>
+  <text x="202" y="50" font-weight="bold" fill="#1a6fb5">10 min &#8211; 1 h</text>
+  <text x="202" y="68">Arterioles dilate;</text>
+  <text x="202" y="80">flow and heat rise</text>
+  <text x="202" y="96" fill="#d1495b">&#8594; RUBOR, CALOR</text>
+
+  <rect x="306" y="34" width="108" height="98" fill="#f5f7fa" stroke="#8fa8c0"/>
+  <text x="312" y="50" font-weight="bold" fill="#1a6fb5">1&#8211;6 h</text>
+  <text x="312" y="68">Junctions open:</text>
+  <text x="312" y="80">plasma exudate;</text>
+  <text x="312" y="92">bradykinin, PGE2</text>
+  <text x="312" y="108" fill="#d1495b">&#8594; TUMOR, DOLOR</text>
+
+  <rect x="416" y="34" width="108" height="98" fill="#f5f7fa" stroke="#8fa8c0"/>
+  <text x="422" y="50" font-weight="bold" fill="#1a6fb5">1&#8211;24 h</text>
+  <text x="422" y="68">Neutrophils roll,</text>
+  <text x="422" y="80">arrest, diapedese;</text>
+  <text x="422" y="92">ROS burst, NETs</text>
+  <text x="422" y="108" fill="#d1495b">&#8594; pus, self-damage</text>
+
+  <rect x="526" y="34" width="108" height="98" fill="#f5f7fa" stroke="#8fa8c0"/>
+  <text x="532" y="50" font-weight="bold" fill="#1a6fb5">6&#8211;72 h</text>
+  <text x="532" y="68">Monocytes arrive,</text>
+  <text x="532" y="80">become macrophages;</text>
+  <text x="532" y="92">NK cells kill</text>
+  <text x="532" y="104">missing-self targets</text>
+
+  <rect x="636" y="34" width="108" height="98" fill="#f5f7fa" stroke="#8fa8c0"/>
+  <text x="642" y="50" font-weight="bold" fill="#1a6fb5">2&#8211;7 d</text>
+  <text x="642" y="68">Efferocytosis;</text>
+  <text x="642" y="80">lipoxins, resolvins</text>
+  <text x="642" y="96" fill="#2e8b57">&#8594; resolution or</text>
+  <text x="642" y="108" fill="#2e8b57">chronic granuloma</text>
+</g>
+
+<g stroke="#dde3ea" stroke-width="1">
+  <line x1="190" y1="176" x2="190" y2="352"/>
+  <line x1="290" y1="176" x2="290" y2="352"/>
+  <line x1="400" y1="176" x2="400" y2="352"/>
+  <line x1="520" y1="176" x2="520" y2="352"/>
+  <line x1="640" y1="176" x2="640" y2="352"/>
+</g>
+
+<g stroke="#333" stroke-width="1.4" fill="none">
+  <line x1="90" y1="176" x2="90" y2="352"/>
+  <line x1="90" y1="352" x2="766" y2="352"/>
+</g>
+
+<g fill="none" stroke-width="2.5">
+  <path d="M90 344 C160 336 240 300 300 262 C350 232 380 214 400 210 C440 214 470 250 520 288 C570 318 620 336 660 342 L760 348" stroke="#2e8b57"/>
+  <path d="M90 350 L170 348 C220 344 260 320 300 292 C340 262 380 226 440 204 C470 196 495 192 520 194 C570 200 600 240 650 300 C690 332 720 344 760 348" stroke="#d1495b"/>
+  <path d="M90 336 C160 334 240 330 300 324 C360 316 400 300 440 282 C490 260 540 240 600 228 C640 222 660 220 700 224 L760 236" stroke="#1a6fb5"/>
+</g>
+
+<g font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333" text-anchor="middle">
+  <text x="90" y="368">0</text>
+  <text x="190" y="368">10 min</text>
+  <text x="290" y="368">1 h</text>
+  <text x="400" y="368">6 h</text>
+  <text x="520" y="368">24 h</text>
+  <text x="640" y="368">3 d</text>
+  <text x="760" y="368">7 d</text>
+  <text x="425" y="386">time after breach (compressed scale)</text>
+  <text x="76" y="264" transform="rotate(-90 76 264)">number at site (log)</text>
+</g>
+
+<g stroke-width="2.5">
+  <line x1="90" y1="404" x2="120" y2="404" stroke="#2e8b57"/>
+  <line x1="240" y1="404" x2="270" y2="404" stroke="#d1495b"/>
+  <line x1="380" y1="404" x2="410" y2="404" stroke="#1a6fb5"/>
+</g>
+<g font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#111">
+  <text x="126" y="408">bacterial load</text>
+  <text x="276" y="408">neutrophils</text>
+  <text x="416" y="408">monocytes and macrophages</text>
+  <text x="90" y="430" fill="#333">Bacteria double every 30 min, so each hour of delay multiplies the phagocyte requirement about fourfold.</text>
+</g>
+</svg>

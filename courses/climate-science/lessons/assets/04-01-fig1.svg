@@ -1,0 +1,50 @@
+<svg viewBox="0 0 660 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="12">
+  <text x="20" y="18" fill="#8a8a8a" font-style="italic">Reservoirs in PgC, fluxes in PgC per year. Grey = natural exchange; coral = the human perturbation.</text>
+
+  <!-- atmosphere -->
+  <rect x="230" y="46" width="200" height="52" fill="#4a90d9" opacity="0.18" stroke="#4a90d9" stroke-width="1.8"/>
+  <text x="330" y="70" fill="#4a90d9" text-anchor="middle">ATMOSPHERE  875</text>
+  <text x="330" y="88" fill="#e0645c" text-anchor="middle">growing at +5.1 / yr</text>
+
+  <!-- land -->
+  <rect x="60" y="230" width="180" height="70" fill="#4a90d9" opacity="0.18" stroke="#4a90d9" stroke-width="1.8"/>
+  <text x="150" y="252" fill="#4a90d9" text-anchor="middle">LAND</text>
+  <text x="150" y="270" fill="#4a90d9" text-anchor="middle">vegetation 450</text>
+  <text x="150" y="288" fill="#4a90d9" text-anchor="middle">soils 1700</text>
+
+  <!-- ocean -->
+  <rect x="420" y="230" width="180" height="70" fill="#4a90d9" opacity="0.18" stroke="#4a90d9" stroke-width="1.8"/>
+  <text x="510" y="252" fill="#4a90d9" text-anchor="middle">OCEAN</text>
+  <text x="510" y="270" fill="#4a90d9" text-anchor="middle">surface 900</text>
+  <text x="510" y="288" fill="#4a90d9" text-anchor="middle">deep 37 100</text>
+
+  <!-- fossil -->
+  <rect x="60" y="120" width="120" height="42" fill="#e0645c" opacity="0.18" stroke="#e0645c" stroke-width="1.8"/>
+  <text x="120" y="146" fill="#e0645c" text-anchor="middle">FOSSIL C  ~1000+</text>
+
+  <!-- land <-> atmosphere -->
+  <line x1="150" y1="228" x2="150" y2="180" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="150,180 146,190 154,190" fill="#8a8a8a"/>
+  <text x="156" y="206" fill="#8a8a8a">respiration + fire 118</text>
+  <line x1="255" y1="100" x2="200" y2="228" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="200,228 199,218 207,222" fill="#8a8a8a"/>
+  <text x="188" y="126" fill="#8a8a8a">photosynthesis 120</text>
+
+  <!-- ocean <-> atmosphere -->
+  <line x1="510" y1="228" x2="510" y2="180" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="510,180 506,190 514,190" fill="#8a8a8a"/>
+  <text x="518" y="206" fill="#8a8a8a">outgassing 78</text>
+  <line x1="405" y1="100" x2="462" y2="228" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="462,228 453,222 461,218" fill="#8a8a8a"/>
+  <text x="330" y="126" fill="#8a8a8a">dissolution 81</text>
+
+  <!-- fossil -> atmosphere -->
+  <line x1="180" y1="132" x2="228" y2="88" stroke="#e0645c" stroke-width="3"/>
+  <polygon points="228,88 217,90 222,97" fill="#e0645c"/>
+  <text x="60" y="112" fill="#e0645c">+9.6 fossil, +1.2 land use</text>
+
+  <!-- net sinks -->
+  <text x="150" y="322" fill="#e0645c" text-anchor="middle">net land sink &#8211;3.1</text>
+  <text x="510" y="322" fill="#e0645c" text-anchor="middle">net ocean sink &#8211;2.8</text>
+  <text x="330" y="344" fill="#8a8a8a" text-anchor="middle">10.8 emitted, 5.7 absorbed, 5.1 stays: airborne fraction 47 percent</text>
+</svg>

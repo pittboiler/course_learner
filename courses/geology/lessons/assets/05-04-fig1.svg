@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 790" width="800" height="790" role="img" aria-label="Panel a is a logarithmic bar chart comparing crustal abundance with typical minable ore grade for aluminium, iron, copper, lithium, neodymium and gold, with the required concentration factor written inside each ore bar. Panel b is a single cross-section carrying every resource and hazard in the course, keyed to a numbered legend." font-family="Helvetica,Arial,sans-serif">
+<rect width="800" height="790" fill="#ffffff"/>
+
+<defs>
+<marker id="ak" markerWidth="9" markerHeight="9" refX="7.5" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 z" fill="#111"/></marker>
+<marker id="ar" markerWidth="9" markerHeight="9" refX="7.5" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 z" fill="#d1495b"/></marker>
+<marker id="ab" markerWidth="9" markerHeight="9" refX="7.5" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 z" fill="#1a6fb5"/></marker>
+</defs>
+
+<text x="20" y="24" font-size="12.5" font-weight="bold" fill="#111">(a) An ore deposit is a concentration anomaly, not a place where the element is present</text>
+<text x="90" y="44" font-size="9.5" fill="#333">coral bar &#247; blue bar = the concentration factor a geologic process had to supply</text>
+
+<rect x="560" y="34" width="16" height="10" fill="#8fa8c0"/>
+<text x="582" y="43" font-size="9.5" fill="#333">crustal abundance</text>
+<rect x="676" y="34" width="16" height="10" fill="#d1495b"/>
+<text x="698" y="43" font-size="9.5" fill="#333">minable grade</text>
+
+<line x1="90" y1="58" x2="760" y2="58" stroke="#dde3ea" stroke-width="1"/>
+<line x1="90" y1="82" x2="760" y2="82" stroke="#dde3ea" stroke-width="1"/>
+<line x1="90" y1="106" x2="760" y2="106" stroke="#dde3ea" stroke-width="1"/>
+<line x1="90" y1="130" x2="760" y2="130" stroke="#dde3ea" stroke-width="1"/>
+<line x1="90" y1="154" x2="760" y2="154" stroke="#dde3ea" stroke-width="1"/>
+<line x1="90" y1="178" x2="760" y2="178" stroke="#dde3ea" stroke-width="1"/>
+<line x1="90" y1="202" x2="760" y2="202" stroke="#dde3ea" stroke-width="1"/>
+<line x1="90" y1="226" x2="760" y2="226" stroke="#dde3ea" stroke-width="1"/>
+<line x1="90" y1="250" x2="760" y2="250" stroke="#dde3ea" stroke-width="1"/>
+
+<text x="86" y="61" font-size="9" fill="#333" text-anchor="end">1,000,000</text>
+<text x="86" y="85" font-size="9" fill="#333" text-anchor="end">100,000</text>
+<text x="86" y="109" font-size="9" fill="#333" text-anchor="end">10,000</text>
+<text x="86" y="133" font-size="9" fill="#333" text-anchor="end">1,000</text>
+<text x="86" y="157" font-size="9" fill="#333" text-anchor="end">100</text>
+<text x="86" y="181" font-size="9" fill="#333" text-anchor="end">10</text>
+<text x="86" y="205" font-size="9" fill="#333" text-anchor="end">1</text>
+<text x="86" y="229" font-size="9" fill="#333" text-anchor="end">0.1</text>
+<text x="86" y="253" font-size="9" fill="#333" text-anchor="end">0.01</text>
+<text x="86" y="277" font-size="9" fill="#333" text-anchor="end">0.001</text>
+
+<text x="16" y="166" font-size="10" fill="#111" text-anchor="middle" transform="rotate(-90,16,166)">concentration (ppm, log scale)</text>
+
+<rect x="108" y="84" width="34" height="190" fill="#8fa8c0"/>
+<rect x="150" y="72" width="34" height="202" fill="#d1495b"/>
+<rect x="219" y="92" width="34" height="182" fill="#8fa8c0"/>
+<rect x="261" y="64" width="34" height="210" fill="#d1495b"/>
+<rect x="331" y="167" width="34" height="107" fill="#8fa8c0"/>
+<rect x="373" y="113" width="34" height="161" fill="#d1495b"/>
+<rect x="443" y="169" width="34" height="105" fill="#8fa8c0"/>
+<rect x="485" y="110" width="34" height="164" fill="#d1495b"/>
+<rect x="554" y="168" width="34" height="106" fill="#8fa8c0"/>
+<rect x="596" y="106" width="34" height="168" fill="#d1495b"/>
+<rect x="666" y="270" width="34" height="4" fill="#8fa8c0"/>
+<rect x="708" y="202" width="34" height="72" fill="#d1495b"/>
+
+<text x="167" y="86" font-size="10.5" font-weight="bold" fill="#ffffff" text-anchor="middle">&#215;3</text>
+<text x="278" y="78" font-size="10.5" font-weight="bold" fill="#ffffff" text-anchor="middle">&#215;14</text>
+<text x="390" y="127" font-size="10.5" font-weight="bold" fill="#ffffff" text-anchor="middle">&#215;180</text>
+<text x="502" y="124" font-size="10.5" font-weight="bold" fill="#ffffff" text-anchor="middle">&#215;270</text>
+<text x="613" y="120" font-size="10.5" font-weight="bold" fill="#ffffff" text-anchor="middle">&#215;370</text>
+<text x="725" y="216" font-size="10.5" font-weight="bold" fill="#ffffff" text-anchor="middle">&#215;670</text>
+
+<text x="683" y="265" font-size="8" fill="#333" text-anchor="middle">1.5 ppb</text>
+
+<line x1="90" y1="58" x2="90" y2="274" stroke="#111" stroke-width="1.2"/>
+<line x1="90" y1="274" x2="760" y2="274" stroke="#111" stroke-width="1.2"/>
+
+<text x="146" y="288" font-size="9.5" fill="#111" text-anchor="middle">Al (bauxite)</text>
+<text x="257" y="288" font-size="9.5" fill="#111" text-anchor="middle">Fe (iron ore)</text>
+<text x="369" y="288" font-size="9.5" fill="#111" text-anchor="middle">Cu (porphyry)</text>
+<text x="481" y="288" font-size="9.5" fill="#111" text-anchor="middle">Li (pegmatite)</text>
+<text x="592" y="288" font-size="9.5" fill="#111" text-anchor="middle">Nd (REE ore)</text>
+<text x="704" y="288" font-size="9.5" fill="#111" text-anchor="middle">Au (1 g/t pit)</text>
+
+<text x="90" y="306" font-size="10" fill="#111">Aluminium and iron are cheap because the ordinary crust is nearly ore already. Gold is not.</text>
+
+<text x="20" y="328" font-size="12.5" font-weight="bold" fill="#111">(b) One cross-section, the whole course: where the resources are, and what threatens the site</text>
+
+<rect x="30" y="336" width="740" height="354" fill="#ffffff" stroke="#8fa8c0" stroke-width="1"/>
+
+<polygon points="30,418 60,418 160,416 210,430 245,472 300,488 342,489 371,540 250,536 140,532 30,528" fill="#cfd6dc"/>
+<polygon points="342,489 360,490 400,502 440,504 470,490 540,480 620,474 680,474 700,476 706,530 740,546 770,552 770,556 720,546 660,528 600,518 540,526 470,546 371,558" fill="#cfd6dc"/>
+
+<polygon points="30,528 140,532 250,536 371,540 391,574 250,570 140,566 30,562" fill="#9fb3a8"/>
+<polygon points="371,558 470,546 540,526 600,518 660,528 720,546 770,556 770,590 720,580 660,562 600,552 540,560 470,580 391,592" fill="#9fb3a8"/>
+
+<polygon points="30,562 140,566 250,570 391,574 406,600 250,596 140,592 30,588" fill="#d8c9a3"/>
+<polygon points="391,592 470,580 540,560 600,552 660,562 720,580 770,590 770,616 720,606 660,588 600,578 540,586 470,606 406,618" fill="#d8c9a3"/>
+
+<polygon points="30,588 140,592 250,596 406,600 423,630 250,626 140,622 30,618" fill="#6f7b82"/>
+<polygon points="406,618 470,606 540,586 600,578 660,588 720,606 770,616 770,646 720,636 660,618 600,608 540,616 470,636 423,648" fill="#6f7b82"/>
+
+<polygon points="30,618 140,622 250,626 423,630 438,656 250,652 140,648 30,644" fill="#ece7d3"/>
+<polygon points="423,648 470,636 540,616 600,608 660,618 720,636 770,646 770,672 720,662 660,644 600,634 540,642 470,662 438,674" fill="#ece7d3"/>
+
+<polygon points="30,644 140,648 250,652 438,656 458,690 30,690" fill="#b0b6bb"/>
+<polygon points="438,674 470,662 540,642 600,634 660,644 720,662 770,672 770,690 458,690" fill="#b0b6bb"/>
+
+<polyline points="30,418 60,418 160,416 210,430 245,472 300,488 342,489 360,490 400,502 440,504 470,490 540,480 620,474 680,474 700,476 706,530 740,546 770,552" fill="none" stroke="#5c6b62" stroke-width="1.2"/>
+<polygon points="602,477 690,474 690,482 602,485" fill="#b5651d"/>
+
+<polygon points="576,557 600,555 624,557 624,562 576,562" fill="#d1495b"/>
+<polygon points="562,562 624,562 642,563 642,572 562,572" fill="#333333"/>
+<line x1="556" y1="572" x2="648" y2="572" stroke="#111" stroke-width="0.9" stroke-dasharray="3,2"/>
+
+<ellipse cx="596" cy="506" rx="19" ry="7" fill="#ffffff" stroke="#111" stroke-width="1"/>
+<polygon points="628,474 652,474 645,496 636,496" fill="#ffffff" stroke="#111" stroke-width="1"/>
+
+<line x1="342" y1="489" x2="458" y2="690" stroke="#111" stroke-width="1.8"/>
+<line x1="371" y1="539" x2="360" y2="546" stroke="#111" stroke-width="1.2"/>
+<line x1="400" y1="590" x2="389" y2="597" stroke="#111" stroke-width="1.2"/>
+<line x1="429" y1="641" x2="418" y2="648" stroke="#111" stroke-width="1.2"/>
+<circle cx="429" cy="640" r="4.5" fill="#d1495b" stroke="#111" stroke-width="0.8"/>
+
+<polygon points="120,690 98,620 104,545 128,492 162,455 200,448 232,478 250,530 256,596 248,660 238,690" fill="#c9a07d" stroke="#8a5a3b" stroke-width="1"/>
+<path d="M112,690 C86,614 92,536 120,484 C150,432 208,432 240,472 C262,502 266,584 258,660" fill="none" stroke="#b5651d" stroke-width="1.1" stroke-dasharray="5,3"/>
+
+<polygon points="162,455 176,452 122,378 110,380" fill="#c9a07d" stroke="#8a5a3b" stroke-width="0.8"/>
+<polygon points="58,418 112,362 166,416" fill="#8a8f94" stroke="#333" stroke-width="1"/>
+<circle cx="112" cy="366" r="3.5" fill="#d1495b"/>
+
+<line x1="200" y1="450" x2="214" y2="412" stroke="#d1495b" stroke-width="1.6"/>
+<line x1="182" y1="452" x2="177" y2="414" stroke="#d1495b" stroke-width="1.6"/>
+<line x1="222" y1="462" x2="247" y2="428" stroke="#d1495b" stroke-width="1.6"/>
+<line x1="238" y1="486" x2="268" y2="462" stroke="#d1495b" stroke-width="1.6"/>
+
+<line x1="150" y1="404" x2="206" y2="428" stroke="#d1495b" stroke-width="2" marker-end="url(#ar)"/>
+<line x1="224" y1="440" x2="290" y2="482" stroke="#d1495b" stroke-width="2" marker-end="url(#ar)"/>
+
+<polygon points="392,500 414,509 434,507 448,502 448,512 392,510" fill="#b0b6bb" stroke="#6b7278" stroke-width="0.8"/>
+<circle cx="401" cy="508" r="1.8" fill="#b5651d"/>
+<circle cx="408" cy="509" r="1.8" fill="#b5651d"/>
+<circle cx="415" cy="510" r="1.8" fill="#b5651d"/>
+<circle cx="422" cy="509" r="1.8" fill="#b5651d"/>
+<polyline points="392,504 414,511 436,509 448,505" fill="none" stroke="#1a6fb5" stroke-width="1.6"/>
+
+<line x1="505" y1="470" x2="505" y2="575" stroke="#1a6fb5" stroke-width="2.4"/>
+<line x1="505" y1="470" x2="505" y2="454" stroke="#1a6fb5" stroke-width="1.6" marker-end="url(#ab)"/>
+
+<polygon points="706,530 770,530 770,552 740,546" fill="#cfe0ee"/>
+<line x1="730" y1="518" x2="708" y2="518" stroke="#d1495b" stroke-width="2" marker-end="url(#ar)"/>
+
+<circle cx="112" cy="396" r="8" fill="#ffffff" stroke="#111" stroke-width="1"/><text x="112" y="399.5" font-size="9.5" fill="#111" text-anchor="middle">1</text>
+<circle cx="176" cy="522" r="8" fill="#ffffff" stroke="#111" stroke-width="1"/><text x="176" y="525.5" font-size="9.5" fill="#111" text-anchor="middle">2</text>
+<circle cx="216" cy="424" r="8" fill="#ffffff" stroke="#111" stroke-width="1"/><text x="216" y="427.5" font-size="9.5" fill="#111" text-anchor="middle">3</text>
+<circle cx="258" cy="462" r="8" fill="#ffffff" stroke="#111" stroke-width="1"/><text x="258" y="465.5" font-size="9.5" fill="#111" text-anchor="middle">4</text>
+<circle cx="413" cy="612" r="8" fill="#ffffff" stroke="#111" stroke-width="1"/><text x="413" y="615.5" font-size="9.5" fill="#111" text-anchor="middle">5</text>
+<circle cx="356" cy="472" r="8" fill="#ffffff" stroke="#111" stroke-width="1"/><text x="356" y="475.5" font-size="9.5" fill="#111" text-anchor="middle">6</text>
+<circle cx="434" cy="488" r="8" fill="#ffffff" stroke="#111" stroke-width="1"/><text x="434" y="491.5" font-size="9.5" fill="#111" text-anchor="middle">7</text>
+<circle cx="505" cy="440" r="8" fill="#ffffff" stroke="#111" stroke-width="1"/><text x="505" y="443.5" font-size="9.5" fill="#111" text-anchor="middle">8</text>
+<circle cx="600" cy="534" r="8" fill="#ffffff" stroke="#111" stroke-width="1"/><text x="600" y="537.5" font-size="9.5" fill="#111" text-anchor="middle">9</text>
+<circle cx="540" cy="601" r="8" fill="#ffffff" stroke="#111" stroke-width="1"/><text x="540" y="604.5" font-size="9.5" fill="#111" text-anchor="middle">10</text>
+<circle cx="540" cy="629" r="8" fill="#ffffff" stroke="#111" stroke-width="1"/><text x="540" y="632.5" font-size="9.5" fill="#111" text-anchor="middle">11</text>
+<circle cx="630" cy="458" r="8" fill="#ffffff" stroke="#111" stroke-width="1"/><text x="630" y="461.5" font-size="9.5" fill="#111" text-anchor="middle">12</text>
+<circle cx="664" cy="502" r="8" fill="#ffffff" stroke="#111" stroke-width="1"/><text x="664" y="505.5" font-size="9.5" fill="#111" text-anchor="middle">13</text>
+<circle cx="722" cy="500" r="8" fill="#ffffff" stroke="#111" stroke-width="1"/><text x="722" y="503.5" font-size="9.5" fill="#111" text-anchor="middle">14</text>
+
+<line x1="540" y1="595" x2="540" y2="586" stroke="#111" stroke-width="0.8"/>
+<line x1="600" y1="542" x2="600" y2="554" stroke="#111" stroke-width="0.8"/>
+<line x1="356" y1="480" x2="386" y2="497" stroke="#111" stroke-width="0.8"/>
+<line x1="630" y1="466" x2="637" y2="476" stroke="#111" stroke-width="0.8"/>
+<line x1="664" y1="502" x2="617" y2="506" stroke="#111" stroke-width="0.8"/>
+<line x1="505" y1="448" x2="505" y2="456" stroke="#111" stroke-width="0.8"/>
+
+<text x="40" y="712" font-size="9.5" fill="#111">1 &#183; Volcano: ash and lahars (2.8)</text>
+<text x="40" y="728" font-size="9.5" fill="#111">2 &#183; Pluton: crystal settling (1.3)</text>
+<text x="40" y="744" font-size="9.5" fill="#111">3 &#183; Hydrothermal veins: Cu (1.6, 2.5)</text>
+<text x="40" y="760" font-size="9.5" fill="#111">4 &#183; Landslide on a steep slope (3.2)</text>
+<text x="40" y="776" font-size="9.5" fill="#111">5 &#183; Normal fault, earthquake focus (2.7)</text>
+
+<text x="295" y="712" font-size="9.5" fill="#111">6 &#183; Floodplain: flood hazard (3.3)</text>
+<text x="295" y="728" font-size="9.5" fill="#111">7 &#183; Placer gold in a gravel bar (3.3)</text>
+<text x="295" y="744" font-size="9.5" fill="#111">8 &#183; Artesian well, confined aquifer (3.6)</text>
+<text x="295" y="760" font-size="9.5" fill="#111">9 &#183; Anticlinal trap: gas over oil (2.5)</text>
+<text x="295" y="776" font-size="9.5" fill="#111">10 &#183; Source rock in the oil window (5.3)</text>
+
+<text x="550" y="712" font-size="9.5" fill="#111">11 &#183; Evaporite: gypsum, halite (1.5)</text>
+<text x="550" y="728" font-size="9.5" fill="#111">12 &#183; Karst bauxite cap (3.1)</text>
+<text x="550" y="744" font-size="9.5" fill="#111">13 &#183; Cave and sinkhole (3.6)</text>
+<text x="550" y="760" font-size="9.5" fill="#111">14 &#183; Sea cliff retreat (3.5)</text>
+
+</svg>

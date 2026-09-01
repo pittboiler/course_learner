@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 620" width="800" height="620" role="img" aria-label="Groundwater cross-section showing vadose zone, water table, unconfined and confined aquifers, a pumping well with its cone of depression and a flowing artesian well, plus a karst section with cave, sinkhole and spring" font-family="Helvetica,Arial,sans-serif">
+<rect width="800" height="620" fill="#ffffff"/>
+
+<defs>
+<marker id="ai" markerWidth="9" markerHeight="9" refX="7.5" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 z" fill="#111"/></marker>
+<marker id="ab" markerWidth="9" markerHeight="9" refX="7.5" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 z" fill="#1a6fb5"/></marker>
+<marker id="ac" markerWidth="9" markerHeight="9" refX="7.5" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 z" fill="#d1495b"/></marker>
+</defs>
+
+<text x="20" y="26" font-size="12.5" font-weight="bold" fill="#111">(a) One landscape, two aquifers: head runs the flow, and the well tells you the head</text>
+
+<rect x="40" y="42" width="730" height="350" fill="#ffffff" stroke="#8fa8c0" stroke-width="1"/>
+
+<polygon points="40,96 150,104 250,120 350,140 430,158 455,172 468,182 481,172 560,180 660,196 770,208 770,308 560,272 400,240 280,212 150,200 40,196" fill="#ded1ae"/>
+<polygon points="280,212 400,240 560,272 770,308 770,332 560,294 400,262" fill="#9fb3a8"/>
+<polygon points="40,196 150,200 280,212 400,262 560,294 770,332 770,376 560,338 400,306 280,256 150,244 40,240" fill="#d8c9a3"/>
+<polygon points="40,240 150,244 280,256 400,306 560,338 770,376 770,392 40,392" fill="#b0b6bb"/>
+
+<polyline points="40,196 150,200 280,212 400,262 560,294 770,332" fill="none" stroke="#5c6b62" stroke-width="1"/>
+<polyline points="40,240 150,244 280,256 400,306 560,338 770,376" fill="none" stroke="#5c6b62" stroke-width="1"/>
+<polyline points="280,212 400,240 560,272 770,308" fill="none" stroke="#5c6b62" stroke-width="1"/>
+<polyline points="40,96 150,104 250,120 350,140 430,158 455,172 468,182 481,172 560,180 660,196 770,208" fill="none" stroke="#111" stroke-width="1.8"/>
+
+<polyline points="282,159 400,176" fill="none" stroke="#8a8a8a" stroke-width="1.2" stroke-dasharray="3,3"/>
+<polyline points="40,124 150,140 250,154 282,159 296,165 312,178 328,192 340,196 352,192 366,180 382,171 400,176 430,181 455,184 468,187 481,188 560,194 660,200 770,211" fill="none" stroke="#1a6fb5" stroke-width="2.2" stroke-dasharray="7,4"/>
+<polyline points="40,140 250,158 450,172 660,182 770,187" fill="none" stroke="#d1495b" stroke-width="2" stroke-dasharray="9,4"/>
+
+<polygon points="457,175 479,175 468,183" fill="#a8cbe8"/>
+<line x1="444" y1="198" x2="460" y2="186" stroke="#1a6fb5" stroke-width="1.6" marker-end="url(#ab)"/>
+<line x1="494" y1="198" x2="478" y2="186" stroke="#1a6fb5" stroke-width="1.6" marker-end="url(#ab)"/>
+
+<line x1="112" y1="72" x2="112" y2="96" stroke="#1a6fb5" stroke-width="1.6" marker-end="url(#ab)"/>
+<line x1="150" y1="74" x2="150" y2="99" stroke="#1a6fb5" stroke-width="1.6" marker-end="url(#ab)"/>
+<line x1="188" y1="76" x2="188" y2="105" stroke="#1a6fb5" stroke-width="1.6" marker-end="url(#ab)"/>
+<text x="150" y="66" font-size="10" font-weight="bold" fill="#111" text-anchor="middle">recharge area</text>
+
+<line x1="340" y1="108" x2="340" y2="205" stroke="#333" stroke-width="3"/>
+<rect x="331" y="96" width="18" height="12" fill="#f5f7fa" stroke="#333" stroke-width="1.2"/>
+<text x="340" y="88" font-size="10" font-weight="bold" fill="#111" text-anchor="middle">pumping well</text>
+
+<line x1="680" y1="186" x2="680" y2="318" stroke="#333" stroke-width="3"/>
+<path d="M680,184 Q690,182 695,196" fill="none" stroke="#1a6fb5" stroke-width="2" marker-end="url(#ab)"/>
+<text x="700" y="160" font-size="10" font-weight="bold" fill="#111" text-anchor="middle">flowing artesian well</text>
+<line x1="700" y1="164" x2="686" y2="182" stroke="#111" stroke-width="0.8"/>
+
+<line x1="300" y1="242" x2="420" y2="288" stroke="#1a6fb5" stroke-width="3.4" marker-end="url(#ab)"/>
+<text x="392" y="262" font-size="11" font-weight="bold" fill="#1a6fb5" text-anchor="middle">q</text>
+
+<rect x="520" y="52" width="248" height="88" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+<text x="532" y="70" font-size="10.5" font-weight="bold" fill="#111">Darcy's law, and the chain built on it</text>
+<text x="532" y="86" font-size="10" fill="#111">q = -K (dh/dl)   flux, m/day</text>
+<text x="532" y="101" font-size="10" fill="#111">Q = q A            discharge, m3/day</text>
+<text x="532" y="116" font-size="10" fill="#111">v = q / n</text>
+<text x="573" y="119" font-size="7.5" fill="#111">e</text>
+<text x="588" y="116" font-size="10" fill="#111">pore velocity</text>
+<text x="532" y="131" font-size="10" fill="#111">t = L / v            travel time</text>
+
+<text x="55" y="116" font-size="9.5" fill="#1a6fb5">water table</text>
+<text x="110" y="122" font-size="9.5" fill="#333">vadose (unsaturated) zone</text>
+<text x="196" y="140" font-size="9.5" fill="#333">cone of depression</text>
+<line x1="290" y1="143" x2="318" y2="176" stroke="#333" stroke-width="0.7"/>
+<text x="470" y="150" font-size="9.5" fill="#333" text-anchor="middle">gaining stream</text>
+<text x="500" y="164" font-size="9.5" fill="#d1495b">potentiometric surface</text>
+<line x1="552" y1="167" x2="552" y2="176" stroke="#d1495b" stroke-width="0.8"/>
+<text x="560" y="232" font-size="10" fill="#111" text-anchor="middle">unconfined aquifer (sand)</text>
+<text x="700" y="240" font-size="9.5" fill="#333" text-anchor="middle">discharge area</text>
+<text x="600" y="292" font-size="9.5" fill="#111" text-anchor="middle">aquitard (clay)</text>
+<text x="600" y="322" font-size="10" fill="#111" text-anchor="middle">confined aquifer (sandstone)</text>
+<text x="185" y="226" font-size="9.5" fill="#111">clay wedges out</text>
+<line x1="262" y1="223" x2="278" y2="214" stroke="#111" stroke-width="0.8" marker-end="url(#ai)"/>
+<text x="120" y="320" font-size="9.5" fill="#111">impermeable basement</text>
+
+<text x="20" y="420" font-size="12.5" font-weight="bold" fill="#111">(b) Karst: acid water dissolves the aquifer, and dropping the water table drops the roof</text>
+
+<rect x="40" y="430" width="730" height="174" fill="#ffffff" stroke="#8fa8c0" stroke-width="1"/>
+<polygon points="45,452 600,452 660,456 700,492 740,520 765,524 765,600 45,600" fill="#e4e9e4"/>
+<polygon points="45,452 600,452 660,456 700,492 740,520 765,524 765,532 740,528 700,500 660,464 600,462 45,462" fill="#c9b48a"/>
+<line x1="45" y1="490" x2="700" y2="490" stroke="#9fb3a8" stroke-width="0.8"/>
+<line x1="45" y1="558" x2="765" y2="558" stroke="#9fb3a8" stroke-width="0.8"/>
+<polyline points="45,452 600,452 660,456 700,492 740,520 765,524" fill="none" stroke="#111" stroke-width="1.6"/>
+
+<polyline points="52,449 100,450 118,452" fill="none" stroke="#1a6fb5" stroke-width="2.4"/>
+<polygon points="110,452 134,452 126,472 118,472" fill="#ffffff" stroke="#333" stroke-width="1"/>
+<line x1="122" y1="472" x2="126" y2="504" stroke="#1a6fb5" stroke-width="2.4" marker-end="url(#ab)"/>
+<text x="52" y="442" font-size="9.5" fill="#111">disappearing stream</text>
+
+<line x1="200" y1="432" x2="200" y2="450" stroke="#1a6fb5" stroke-width="1.4" marker-end="url(#ab)"/>
+<line x1="216" y1="432" x2="216" y2="450" stroke="#1a6fb5" stroke-width="1.4" marker-end="url(#ab)"/>
+<line x1="232" y1="432" x2="232" y2="450" stroke="#1a6fb5" stroke-width="1.4" marker-end="url(#ab)"/>
+<text x="150" y="480" font-size="9.5" fill="#111">rain + soil CO2 &#8594; carbonic acid</text>
+
+<polygon points="306,452 356,452 338,492 324,492" fill="#ffffff" stroke="#333" stroke-width="1.2" stroke-dasharray="4,3"/>
+<line x1="331" y1="492" x2="331" y2="504" stroke="#d1495b" stroke-width="1.6" marker-end="url(#ac)"/>
+<text x="340" y="444" font-size="9.5" font-weight="bold" fill="#111" text-anchor="middle">sinkhole (cover collapse)</text>
+
+<path d="M120,506 C170,498 220,514 270,506 C320,498 370,512 430,504 C490,496 540,512 596,506 C606,505 608,520 598,532 C540,540 490,528 430,534 C370,540 320,526 270,534 C220,542 170,528 122,534 C112,528 112,512 120,506 z" fill="#ffffff" stroke="#333" stroke-width="1.4"/>
+<polygon points="427,506 433,506 430,524" fill="#7d8f85"/>
+<polygon points="451,507 457,507 454,523" fill="#7d8f85"/>
+<polygon points="475,506 481,506 478,521" fill="#7d8f85"/>
+<polygon points="437,532 443,532 440,518" fill="#7d8f85"/>
+<polygon points="465,532 471,532 468,519" fill="#7d8f85"/>
+<text x="300" y="523" font-size="9.5" fill="#111" text-anchor="middle">cave: air-filled, so speleothems grow</text>
+
+<line x1="45" y1="535" x2="765" y2="535" stroke="#1a6fb5" stroke-width="2.2" stroke-dasharray="7,4"/>
+<text x="52" y="530" font-size="9.5" fill="#1a6fb5">water table</text>
+<line x1="45" y1="568" x2="765" y2="568" stroke="#d1495b" stroke-width="2" stroke-dasharray="7,4"/>
+<text x="620" y="564" font-size="9.5" fill="#d1495b">after pumping</text>
+
+<line x1="640" y1="530" x2="716" y2="522" stroke="#1a6fb5" stroke-width="2.6" marker-end="url(#ab)"/>
+<text x="646" y="478" font-size="9.5" fill="#111">karst spring</text>
+<line x1="672" y1="482" x2="706" y2="516" stroke="#111" stroke-width="0.8"/>
+
+<text x="150" y="560" font-size="9.5" font-weight="bold" fill="#d1495b">drain the void and its roof loses buoyant support</text>
+
+<rect x="48" y="572" width="372" height="28" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+<text x="58" y="584" font-size="10" fill="#111">CaCO3 + CO2 + H2O &#8596; Ca2+ + 2 HCO3-</text>
+<text x="58" y="596" font-size="9" fill="#333">&#8594; dissolves at high soil CO2   &#8592; precipitates in cave air</text>
+
+<rect x="40" y="42" width="730" height="350" fill="none" stroke="#8fa8c0" stroke-width="1.2"/>
+<rect x="40" y="430" width="730" height="174" fill="none" stroke="#8fa8c0" stroke-width="1.2"/>
+</svg>

@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 640" width="800" height="640" role="img" aria-label="Panel a: pressure, total cross-sectional area, and mean velocity plotted around the systemic circuit from aorta to venae cavae. Panel b: Starling forces at the arterial and venous ends of one capillary.">
+  <rect width="800" height="640" fill="#ffffff"/>
+
+  <defs>
+    <marker id="ac" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/>
+    </marker>
+    <marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1a6fb5"/>
+    </marker>
+    <marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2e8b57"/>
+    </marker>
+    <marker id="ak" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#333333"/>
+    </marker>
+  </defs>
+
+  <text x="14" y="22" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#111">The circulation as a driven resistive network with a compliant reservoir</text>
+
+  <text x="14" y="46" font-family="Helvetica,Arial,sans-serif" font-size="11.5" font-weight="bold" fill="#111">(a)</text>
+
+  <line x1="186" y1="58" x2="186" y2="345" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="278" y1="58" x2="278" y2="345" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="369" y1="58" x2="369" y2="345" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="461" y1="58" x2="461" y2="345" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="552" y1="58" x2="552" y2="345" stroke="#e2e8f0" stroke-width="1"/>
+  <line x1="643" y1="58" x2="643" y2="345" stroke="#e2e8f0" stroke-width="1"/>
+
+  <text x="95" y="52" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#111">Pressure (mmHg) &#8212; shaded band spans diastolic to systolic</text>
+  <path d="M 95,64.6 L 186,62.8 L 278,78.4 L 323,108.8 L 369,143.7 L 461,160.7 L 552,165.8 L 643,169.5 L 735,172.2 L 643,169.5 L 552,165.8 L 461,161.7 L 369,147.4 L 323,124.4 L 278,110.6 L 186,103.2 L 95,101.4 Z" fill="#1a6fb5" opacity="0.18"/>
+  <polyline points="95,87.6 186,90.4 278,96.8 323,118.0 369,145.6 461,161.2 552,165.8 643,169.5 735,172.2" fill="none" stroke="#1a6fb5" stroke-width="2.2"/>
+  <line x1="95" y1="175" x2="735" y2="175" stroke="#333" stroke-width="1.4"/>
+  <line x1="95" y1="58" x2="95" y2="175" stroke="#333" stroke-width="1.4"/>
+  <text x="90" y="178" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">0</text>
+  <text x="90" y="141" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">40</text>
+  <text x="90" y="104" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">80</text>
+  <text x="90" y="68" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">120</text>
+
+  <line x1="150" y1="83" x2="150" y2="102" stroke="#d1495b" stroke-width="1.4" marker-end="url(#ac)"/>
+  <line x1="150" y1="83" x2="150" y2="64" stroke="#d1495b" stroke-width="1.4" marker-end="url(#ac)"/>
+  <text x="158" y="86" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#d1495b">pulse pressure</text>
+
+  <text x="350" y="76" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">arterioles: the largest drop, about 55 of 92 mmHg</text>
+  <line x1="348" y1="80" x2="330" y2="114" stroke="#333" stroke-width="0.9"/>
+
+  <text x="733" y="156" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">&#8776; 3 mmHg at the right atrium</text>
+  <line x1="700" y1="159" x2="730" y2="170" stroke="#333" stroke-width="0.9"/>
+
+  <text x="95" y="202" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#111">Total cross-sectional area (cm&#178;, log scale)</text>
+  <polyline points="141,255.5 232,247.1 323,229.2 415,218.3 506,219.6 598,243.0 689,252.6" fill="none" stroke="#2e8b57" stroke-width="2.2"/>
+  <circle cx="415" cy="218.3" r="3" fill="#2e8b57"/>
+  <line x1="95" y1="265" x2="735" y2="265" stroke="#333" stroke-width="1.4"/>
+  <line x1="95" y1="208" x2="95" y2="265" stroke="#333" stroke-width="1.4"/>
+  <text x="90" y="268" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">1</text>
+  <text x="90" y="254" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">10</text>
+  <text x="90" y="241" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">100</text>
+  <text x="90" y="227" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">1000</text>
+  <text x="415" y="212" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#2e8b57">peak &#8776; 2500 cm&#178;</text>
+
+  <text x="95" y="282" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#111">Mean velocity (cm/s, log scale) &#8212; the exact mirror of area, because flow is conserved</text>
+  <polyline points="141,300.6 232,309.0 323,326.9 415,337.8 506,336.5 598,313.1 689,303.5" fill="none" stroke="#d1495b" stroke-width="2.2"/>
+  <circle cx="415" cy="337.8" r="3" fill="#d1495b"/>
+  <line x1="95" y1="345" x2="735" y2="345" stroke="#333" stroke-width="1.4"/>
+  <line x1="95" y1="288" x2="95" y2="345" stroke="#333" stroke-width="1.4"/>
+  <text x="90" y="293" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">100</text>
+  <text x="90" y="320" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">1</text>
+  <text x="90" y="348" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">0.01</text>
+  <text x="141" y="296" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#d1495b">17 cm/s</text>
+  <text x="415" y="300" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#d1495b">&#8776; 0.33 mm/s, transit &#8776; 1.5 s</text>
+  <line x1="415" y1="304" x2="415" y2="333" stroke="#d1495b" stroke-width="0.9" stroke-dasharray="3,3"/>
+
+  <text x="141" y="358" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">Aorta</text>
+  <text x="232" y="358" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">Arteries</text>
+  <text x="323" y="358" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">Arterioles</text>
+  <text x="415" y="358" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">Capillaries</text>
+  <text x="506" y="358" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">Venules</text>
+  <text x="598" y="358" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">Veins</text>
+  <text x="689" y="358" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">Venae cavae</text>
+
+  <text x="14" y="380" font-family="Helvetica,Arial,sans-serif" font-size="11.5" font-weight="bold" fill="#111">(b)  Starling forces across one capillary</text>
+
+  <text x="257" y="398" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10" font-weight="bold" fill="#111">Arterial end</text>
+  <text x="543" y="398" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10" font-weight="bold" fill="#111">Venous end</text>
+
+  <line x1="206" y1="476" x2="206" y2="420" stroke="#d1495b" stroke-width="2" marker-end="url(#ac)"/>
+  <text x="206" y="412" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#d1495b">P<tspan font-size="7" dy="2">c</tspan><tspan dy="-2"> 35</tspan></text>
+  <line x1="240" y1="476" x2="240" y2="462" stroke="#d1495b" stroke-width="2" marker-end="url(#ac)"/>
+  <text x="240" y="454" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#d1495b">&#960;<tspan font-size="7" dy="2">if</tspan><tspan dy="-2"> 5</tspan></text>
+  <line x1="274" y1="436" x2="274" y2="476" stroke="#1a6fb5" stroke-width="2" marker-end="url(#ab)"/>
+  <text x="274" y="428" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#1a6fb5">&#960;<tspan font-size="7" dy="2">c</tspan><tspan dy="-2"> 25</tspan></text>
+  <line x1="308" y1="470" x2="308" y2="476" stroke="#333333" stroke-width="2" marker-end="url(#ak)"/>
+  <text x="308" y="462" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">P<tspan font-size="7" dy="2">if</tspan><tspan dy="-2"> 0</tspan></text>
+
+  <line x1="492" y1="476" x2="492" y2="452" stroke="#d1495b" stroke-width="2" marker-end="url(#ac)"/>
+  <text x="492" y="444" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#d1495b">P<tspan font-size="7" dy="2">c</tspan><tspan dy="-2"> 15</tspan></text>
+  <line x1="526" y1="476" x2="526" y2="462" stroke="#d1495b" stroke-width="2" marker-end="url(#ac)"/>
+  <text x="526" y="454" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#d1495b">&#960;<tspan font-size="7" dy="2">if</tspan><tspan dy="-2"> 5</tspan></text>
+  <line x1="560" y1="436" x2="560" y2="476" stroke="#1a6fb5" stroke-width="2" marker-end="url(#ab)"/>
+  <text x="560" y="428" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#1a6fb5">&#960;<tspan font-size="7" dy="2">c</tspan><tspan dy="-2"> 25</tspan></text>
+  <line x1="594" y1="470" x2="594" y2="476" stroke="#333333" stroke-width="2" marker-end="url(#ak)"/>
+  <text x="594" y="462" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">P<tspan font-size="7" dy="2">if</tspan><tspan dy="-2"> 0</tspan></text>
+
+  <line x1="505" y1="474" x2="505" y2="540" stroke="#8fa8c0" stroke-width="1.2" stroke-dasharray="4,3"/>
+  <text x="498" y="536" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">NFP = 0 at P<tspan font-size="7" dy="2">c</tspan><tspan dy="-2"> = 20 mmHg</tspan></text>
+
+  <rect x="190" y="480" width="420" height="32" rx="6" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1.4"/>
+  <text x="378" y="501" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#111">P<tspan font-size="7" dy="2">c</tspan><tspan dy="-2"> falls 35 &#8594; 15 mmHg along the capillary</tspan></text>
+  <line x1="148" y1="496" x2="186" y2="496" stroke="#333" stroke-width="1.6" marker-end="url(#ak)"/>
+  <text x="150" y="484" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">flow</text>
+
+  <line x1="257" y1="516" x2="257" y2="550" stroke="#d1495b" stroke-width="3.4" marker-end="url(#ac)"/>
+  <text x="257" y="564" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" font-weight="bold" fill="#d1495b">net +15 mmHg: filtration</text>
+  <line x1="543" y1="550" x2="543" y2="516" stroke="#1a6fb5" stroke-width="3.4" marker-end="url(#ab)"/>
+  <text x="543" y="564" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" font-weight="bold" fill="#1a6fb5">net &#8722;5 mmHg: reabsorption</text>
+
+  <path d="M 200,592 L 440,592" stroke="#2e8b57" stroke-width="3" fill="none" marker-end="url(#ag)"/>
+  <path d="M 257,572 C 262,584 275,590 292,591" stroke="#2e8b57" stroke-width="1.6" fill="none"/>
+  <text x="456" y="596" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#2e8b57">lymphatics return the surplus, &#8776; 2&#8211;4 L/day whole body</text>
+
+  <text x="14" y="616" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">Coral = force driving fluid OUT of the capillary. Blue = force pulling fluid IN. Arrow length is proportional to magnitude.</text>
+  <text x="14" y="630" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">P = hydrostatic pressure, &#960; = colloid osmotic (oncotic) pressure; subscript c = capillary, if = interstitial fluid. All values in mmHg.</text>
+</svg>

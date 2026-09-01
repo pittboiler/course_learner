@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 672" width="800" height="672" role="img" aria-label="Panel a shows the drift-diffusion model. A decision variable starts at zero and is accumulated over time as noisy evidence, with four blue single-trial trajectories wandering upward and crossing the upper green bound at different times between about 180 and 780 milliseconds, and one red trajectory drifting the wrong way and crossing the lower red bound at about 450 milliseconds. A dashed black line shows the mean path, whose slope is the drift rate. Above the upper bound a green reaction-time density is drawn, rising quickly and falling with a long right tail; below the lower bound a much smaller red error reaction-time density is drawn, scaled eight times so it is visible. With drift 2 units per second, noise 1, and bound 1 unit, accuracy is 98.2 percent and the mean decision time is 482 milliseconds. Panel b plots accuracy against mean decision time as the bound height alone is varied, with the drift and noise held fixed. The curve rises steeply from 73 percent at 58 milliseconds to 88 percent at 190 milliseconds, then flattens toward 100 percent, reaching 99.97 percent at 999 milliseconds. A table beside it lists the bound heights, decision times and error rates, showing that seventeen times more time buys an eight hundred fold reduction in errors, because the error rate falls exponentially in bound height while the decision time grows only linearly.">
+<rect width="800" height="672" fill="#ffffff"/>
+<text x="20" y="24" font-family="Helvetica,Arial,sans-serif" font-size="12.5" font-weight="bold" fill="#111">(a) the drift&#8211;diffusion model: noisy evidence accumulated to a bound</text>
+<rect x="20" y="32" width="760" height="350" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+<path d="M 95.0 112.0 L 100.4 112.0 L 111.1 111.7 L 121.8 111.1 L 132.6 103.1 L 143.3 94.9 L 154.0 82.9 L 164.7 70.6 L 175.5 60.0 L 186.2 63.7 L 196.9 52.0 L 207.7 53.1 L 218.4 67.4 L 229.1 70.3 L 239.8 60.9 L 250.6 66.6 L 261.3 70.9 L 272.0 72.6 L 282.8 76.0 L 293.5 70.6 L 304.2 75.7 L 314.9 80.9 L 325.7 78.3 L 336.4 85.4 L 347.1 86.9 L 357.9 87.1 L 368.6 92.0 L 379.3 92.9 L 390.1 93.4 L 400.8 90.3 L 411.5 95.1 L 422.2 96.3 L 433.0 98.0 L 443.7 99.7 L 454.4 101.7 L 465.2 99.7 L 475.9 106.0 L 486.6 102.3 L 497.3 101.7 L 508.1 105.4 L 518.8 105.1 L 529.5 102.0 L 540.3 108.3 L 551.0 106.6 L 561.7 108.9 L 572.4 105.7 L 583.2 108.9 L 593.9 109.4 L 604.6 107.1 L 610.0 112.0 Z" fill="#d8ecdf" stroke="#2e8b57" stroke-width="1.4" stroke-linejoin="round"/>
+<path d="M 95.0 280.0 L 100.4 280.0 L 111.1 280.0 L 121.8 280.0 L 132.6 284.6 L 143.3 284.6 L 154.0 282.3 L 164.7 284.6 L 175.5 289.1 L 186.2 286.9 L 196.9 286.9 L 207.7 289.1 L 218.4 289.1 L 229.1 286.9 L 239.8 289.1 L 250.6 282.3 L 261.3 282.3 L 272.0 284.6 L 282.8 284.6 L 293.5 286.9 L 304.2 289.1 L 314.9 291.4 L 325.7 286.9 L 336.4 284.6 L 347.1 282.3 L 357.9 282.3 L 368.6 282.3 L 379.3 280.0 L 390.1 280.0 L 400.8 284.6 L 411.5 286.9 L 422.2 280.0 L 433.0 282.3 L 443.7 282.3 L 454.4 282.3 L 465.2 280.0 L 475.9 280.0 L 486.6 280.0 L 497.3 282.3 L 508.1 280.0 L 518.8 282.3 L 529.5 280.0 L 540.3 280.0 L 551.0 282.3 L 561.7 280.0 L 572.4 282.3 L 583.2 280.0 L 593.9 280.0 L 604.6 280.0 L 610.0 280.0 Z" fill="#f6dfe3" stroke="#d1495b" stroke-width="1.4" stroke-linejoin="round"/>
+<line x1="95" y1="112" x2="610" y2="112" stroke="#2e8b57" stroke-width="2.2"/>
+<line x1="95" y1="280" x2="610" y2="280" stroke="#d1495b" stroke-width="2.2"/>
+<line x1="95" y1="196" x2="610" y2="196" stroke="#8fa8c0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="89" y="116" font-family="Helvetica,Arial,sans-serif" font-size="10.5" font-weight="bold" fill="#2e8b57" text-anchor="end">+B</text>
+<text x="89" y="200" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#5b7d99" text-anchor="end">0</text>
+<text x="89" y="284" font-family="Helvetica,Arial,sans-serif" font-size="10.5" font-weight="bold" fill="#d1495b" text-anchor="end">&#8722;B</text>
+<line x1="95.0" y1="196" x2="309.58333333333337" y2="112.0" stroke="#111" stroke-width="1.6" stroke-dasharray="6,4"/>
+<polyline points="95.0,196.0 103.6,174.8 112.2,160.8 120.8,155.8 129.3,137.1 137.9,130.2 146.5,126.3 155.1,122.6 163.7,128.6 172.2,112.8" fill="none" stroke="#1a6fb5" stroke-width="1.2" opacity="0.85"/>
+<polyline points="95.0,196.0 103.6,200.0 112.2,206.8 120.8,208.6 129.3,197.6 137.9,191.0 146.5,178.4 155.1,164.5 163.7,165.1 172.2,147.2 180.8,136.5 189.4,131.7 198.0,131.6 206.6,136.2 215.2,136.9" fill="none" stroke="#1a6fb5" stroke-width="1.2" opacity="0.85"/>
+<polyline points="95.0,196.0 103.6,196.1 112.2,185.8 120.8,191.0 129.3,193.1 137.9,179.5 146.5,180.3 155.1,191.9 163.7,165.5 172.2,153.2 180.8,146.1 189.4,170.5 198.0,166.4 206.6,160.4 215.2,145.1 223.8,129.6 232.3,120.7 240.9,115.5 249.5,138.2 258.1,153.8 266.7,137.9 275.2,130.5 283.8,136.3 292.4,126.0" fill="none" stroke="#1a6fb5" stroke-width="1.2" opacity="0.85"/>
+<polyline points="95.0,196.0 103.6,193.6 112.2,187.1 120.8,198.8 129.3,208.4 137.9,199.9 146.5,218.3 155.1,230.7 163.7,228.4 172.2,224.0 180.8,210.5 189.4,208.9 198.0,174.3 206.6,188.9 215.2,199.4 223.8,191.4 232.3,188.7 240.9,203.6 249.5,188.5 258.1,195.2 266.7,191.4 275.2,180.2 283.8,201.7 292.4,210.4 301.0,228.4 309.6,226.1 318.2,245.7 326.8,239.2 335.3,218.3 343.9,181.7 352.5,187.7 361.1,197.0 369.7,189.9 378.2,179.7 386.8,196.6 395.4,182.0 404.0,173.9 412.6,159.5 421.2,153.5 429.8,117.1" fill="none" stroke="#1a6fb5" stroke-width="1.2" opacity="0.85"/>
+<polyline points="95.0,196.0 103.6,194.4 112.2,205.4 120.8,190.2 129.3,190.1 137.9,197.0 146.5,205.7 155.1,202.5 163.7,205.7 172.2,217.1 180.8,206.1 189.4,227.3 198.0,220.5 206.6,222.1 215.2,218.0 223.8,222.2 232.3,238.9 240.9,251.8 249.5,257.8 258.1,257.7 266.7,264.1 275.2,258.0 283.8,274.7" fill="none" stroke="#d1495b" stroke-width="1.7"/>
+<circle cx="95.0" cy="196" r="3.2" fill="#111"/>
+<line x1="95" y1="356" x2="610" y2="356" stroke="#333" stroke-width="1.3"/>
+<line x1="95.0" y1="356" x2="95.0" y2="360" stroke="#333" stroke-width="1"/>
+<text x="95.0" y="371" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="middle">0</text>
+<line x1="180.8" y1="356" x2="180.8" y2="360" stroke="#333" stroke-width="1"/>
+<text x="180.83333333333334" y="371" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="middle">200</text>
+<line x1="266.7" y1="356" x2="266.7" y2="360" stroke="#333" stroke-width="1"/>
+<text x="266.6666666666667" y="371" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="middle">400</text>
+<line x1="352.5" y1="356" x2="352.5" y2="360" stroke="#333" stroke-width="1"/>
+<text x="352.5" y="371" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="middle">600</text>
+<line x1="438.3" y1="356" x2="438.3" y2="360" stroke="#333" stroke-width="1"/>
+<text x="438.33333333333337" y="371" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="middle">800</text>
+<line x1="524.2" y1="356" x2="524.2" y2="360" stroke="#333" stroke-width="1"/>
+<text x="524.1666666666667" y="371" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="middle">1000</text>
+<line x1="610.0" y1="356" x2="610.0" y2="360" stroke="#333" stroke-width="1"/>
+<text x="610.0" y="371" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="middle">1200</text>
+<text x="95" y="350" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#5b7d99">time from onset (ms)</text>
+<text x="628" y="58" font-family="Helvetica,Arial,sans-serif" font-size="10.5" font-weight="bold" fill="#111">drift A = 2 units/s</text>
+<text x="628" y="72" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">noise &#963; = 1 unit/&#8730;s</text>
+<text x="628" y="86" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">bound B = 1 unit</text>
+<text x="628" y="108" font-family="Helvetica,Arial,sans-serif" font-size="10" font-weight="bold" fill="#2e8b57">accuracy 98.2 percent</text>
+<text x="628" y="122" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">mean decision time</text>
+<text x="628" y="135" font-family="Helvetica,Arial,sans-serif" font-size="10" font-weight="bold" fill="#333">482 ms</text>
+<text x="628" y="160" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#2e8b57">green: correct-choice</text>
+<text x="628" y="172" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#2e8b57">RT density (98.2%)</text>
+<text x="628" y="190" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#d1495b">red: error RT density,</text>
+<text x="628" y="202" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#d1495b">scaled 8&#215; to be seen</text>
+<text x="628" y="220" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#d1495b">(only 1.8% of trials)</text>
+<text x="628" y="244" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">dashed black: the mean</text>
+<text x="628" y="256" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">path, slope = drift rate</text>
+<text x="628" y="274" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#1a6fb5">blue: single noisy trials</text>
+<text x="628" y="292" font-family="Helvetica,Arial,sans-serif" font-size="9.5" font-weight="bold" fill="#111">Same two parameters</text>
+<text x="628" y="304" font-family="Helvetica,Arial,sans-serif" font-size="9.5" font-weight="bold" fill="#111">(A, B) fix BOTH the</text>
+<text x="628" y="316" font-family="Helvetica,Arial,sans-serif" font-size="9.5" font-weight="bold" fill="#111">accuracy and the</text>
+<text x="628" y="328" font-family="Helvetica,Arial,sans-serif" font-size="9.5" font-weight="bold" fill="#111">whole RT distribution.</text>
+<text x="20" y="402" font-family="Helvetica,Arial,sans-serif" font-size="12.5" font-weight="bold" fill="#111">(b) raising the bound buys accuracy exponentially and pays for it linearly</text>
+<rect x="20" y="412" width="760" height="250" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+<line x1="110" y1="632" x2="528" y2="632" stroke="#333" stroke-width="1.3"/>
+<line x1="110" y1="632" x2="110" y2="434" stroke="#333" stroke-width="1.3"/>
+<line x1="110.0" y1="632" x2="110.0" y2="636" stroke="#333" stroke-width="1"/>
+<text x="110.0" y="647" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="middle">0</text>
+<line x1="184.5" y1="632" x2="184.5" y2="636" stroke="#333" stroke-width="1"/>
+<text x="184.54545454545456" y="647" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="middle">200</text>
+<line x1="259.1" y1="632" x2="259.1" y2="636" stroke="#333" stroke-width="1"/>
+<text x="259.0909090909091" y="647" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="middle">400</text>
+<line x1="333.6" y1="632" x2="333.6" y2="636" stroke="#333" stroke-width="1"/>
+<text x="333.6363636363636" y="647" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="middle">600</text>
+<line x1="408.2" y1="632" x2="408.2" y2="636" stroke="#333" stroke-width="1"/>
+<text x="408.1818181818182" y="647" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="middle">800</text>
+<line x1="482.7" y1="632" x2="482.7" y2="636" stroke="#333" stroke-width="1"/>
+<text x="482.7272727272727" y="647" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="middle">1000</text>
+<line x1="106" y1="632.0" x2="110" y2="632.0" stroke="#333" stroke-width="1"/>
+<text x="102" y="635.5" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="end">50</text>
+<line x1="106" y1="594.0" x2="110" y2="594.0" stroke="#333" stroke-width="1"/>
+<text x="102" y="597.5" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="end">60</text>
+<line x1="106" y1="556.0" x2="110" y2="556.0" stroke="#333" stroke-width="1"/>
+<text x="102" y="559.5" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="end">70</text>
+<line x1="106" y1="518.0" x2="110" y2="518.0" stroke="#333" stroke-width="1"/>
+<text x="102" y="521.5" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="end">80</text>
+<line x1="106" y1="480.0" x2="110" y2="480.0" stroke="#333" stroke-width="1"/>
+<text x="102" y="483.5" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="end">90</text>
+<line x1="106" y1="442.0" x2="110" y2="442.0" stroke="#333" stroke-width="1"/>
+<text x="102" y="445.5" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="end">100</text>
+<text x="315.0" y="662" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#111" text-anchor="middle">mean decision time (ms)</text>
+<text x="78" y="537.0" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#111" text-anchor="middle" transform="rotate(-90 78 537.0)">accuracy (percent)</text>
+<polyline points="110.1,624.4 110.3,620.6 110.6,616.8 110.9,613.1 111.3,609.3 111.8,605.6 112.4,601.9 113.0,598.2 113.7,594.5 114.4,590.9 115.3,587.3 116.2,583.7 117.1,580.1 118.1,576.7 119.2,573.2 120.4,569.8 121.6,566.4 122.8,563.1 124.2,559.8 125.5,556.6 127.0,553.4 128.4,550.3 130.0,547.2 131.5,544.2 133.1,541.2 134.8,538.3 136.5,535.5 138.2,532.7 140.0,530.0 141.8,527.3 143.7,524.7 145.6,522.1 147.5,519.6 149.4,517.2 151.4,514.8 153.4,512.5 155.4,510.2 157.4,508.0 159.5,505.8 161.6,503.7 163.7,501.7 165.8,499.7 167.9,497.8 170.1,495.9 172.2,494.1 174.4,492.3 176.6,490.6 178.8,488.9 181.0,487.3 183.2,485.7 185.4,484.2 187.6,482.7 189.8,481.3 192.1,479.9 194.3,478.6 196.5,477.3 198.7,476.0 201.0,474.8 203.2,473.6 205.5,472.5 207.7,471.4 209.9,470.3 212.2,469.3 214.4,468.3 216.6,467.3 218.8,466.4 221.1,465.5 223.3,464.6 225.5,463.8 227.7,463.0 229.9,462.2 232.1,461.4 234.3,460.7 236.5,460.0 238.7,459.3 240.9,458.7 243.1,458.1 245.2,457.5 247.4,456.9 249.6,456.3 251.7,455.8 253.9,455.3 256.0,454.8 258.2,454.3 260.3,453.8 262.4,453.4 264.6,452.9 266.7,452.5 268.8,452.1 270.9,451.7 273.0,451.3 275.1,451.0 277.2,450.6 279.3,450.3 281.4,450.0 283.5,449.7 285.5,449.4 287.6,449.1 289.7,448.8 291.7,448.6 293.8,448.3 295.8,448.1 297.9,447.8 299.9,447.6 301.9,447.4 304.0,447.2 306.0,447.0 308.0,446.8 310.0,446.6 312.0,446.4 314.0,446.3 316.1,446.1 318.1,445.9 320.1,445.8 322.0,445.6 324.0,445.5 326.0,445.4 328.0,445.2 330.0,445.1 332.0,445.0 333.9,444.9 335.9,444.8 337.9,444.6 339.8,444.5 341.8,444.4 343.8,444.3 345.7,444.3 347.7,444.2 349.6,444.1 351.6,444.0 353.5,443.9 355.4,443.9 357.4,443.8 359.3,443.7 361.3,443.6 363.2,443.6 365.1,443.5 367.1,443.5 369.0,443.4 370.9,443.3 372.8,443.3 374.8,443.2 376.7,443.2 378.6,443.1 380.5,443.1 382.4,443.1 384.3,443.0 386.3,443.0 388.2,442.9 390.1,442.9 392.0,442.9 393.9,442.8 395.8,442.8 397.7,442.8 399.6,442.7 401.5,442.7 403.4,442.7 405.3,442.7 407.2,442.6 409.1,442.6 411.0,442.6 412.9,442.6 414.8,442.5 416.7,442.5 418.6,442.5 420.4,442.5 422.3,442.5 424.2,442.4 426.1,442.4 428.0,442.4 429.9,442.4 431.8,442.4 433.7,442.4 435.5,442.3 437.4,442.3 439.3,442.3 441.2,442.3 443.1,442.3 445.0,442.3 446.8,442.3 448.7,442.3 450.6,442.3 452.5,442.2 454.4,442.2 456.2,442.2 458.1,442.2 460.0,442.2 461.9,442.2 463.7,442.2 465.6,442.2 467.5,442.2 469.4,442.2 471.2,442.2 473.1,442.2 475.0,442.1 476.9,442.1 478.7,442.1 480.6,442.1 482.5,442.1 484.3,442.1 486.2,442.1 488.1,442.1 490.0,442.1 491.8,442.1 493.7,442.1 495.6,442.1 497.4,442.1 499.3,442.1 501.2,442.1 503.1,442.1 504.9,442.1 506.8,442.1 508.7,442.1 510.5,442.1 512.4,442.1 514.3,442.1 516.1,442.1 518.0,442.1 519.9,442.1 521.7,442.1 523.6,442.1 525.5,442.1 527.3,442.0 529.2,442.0 531.1,442.0 532.9,442.0 534.8,442.0 536.7,442.0 538.5,442.0 540.4,442.0 542.3,442.0 544.1,442.0 546.0,442.0 547.9,442.0" fill="none" stroke="#1a6fb5" stroke-width="2.4"/>
+<circle cx="131.5" cy="544.2" r="4" fill="#d1495b" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="181.0" cy="487.3" r="4" fill="#d1495b" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="289.7" cy="448.8" r="4" fill="#d1495b" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="388.2" cy="442.9" r="4" fill="#d1495b" stroke="#ffffff" stroke-width="1.2"/>
+<circle cx="482.5" cy="442.1" r="4" fill="#d1495b" stroke="#ffffff" stroke-width="1.2"/>
+<text x="139.61818181818182" y="548.22" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">B = 0.25</text>
+<text x="188.8181818181818" y="491.22" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">B = 0.5</text>
+<text x="297.6545454545454" y="461.84" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">B = 1.0</text>
+<text x="390.05454545454546" y="458.95" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">B = 1.5</text>
+<text x="478.3545454545455" y="458.11400000000003" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111" text-anchor="middle">B = 2.0</text>
+<text x="558" y="446" font-family="Helvetica,Arial,sans-serif" font-size="10" font-weight="bold" fill="#111">A = 2, &#963; = 1 throughout;</text>
+<text x="558" y="459" font-family="Helvetica,Arial,sans-serif" font-size="10" font-weight="bold" fill="#111">only the bound B moves.</text>
+<text x="558" y="480" font-family="Helvetica,Arial,sans-serif" font-size="9.5" font-weight="bold" fill="#5b7d99">B</text>
+<text x="610" y="480" font-family="Helvetica,Arial,sans-serif" font-size="9.5" font-weight="bold" fill="#5b7d99">T (ms)</text>
+<text x="676" y="480" font-family="Helvetica,Arial,sans-serif" font-size="9.5" font-weight="bold" fill="#5b7d99">error</text>
+<line x1="558" y1="484" x2="736" y2="484" stroke="#8fa8c0" stroke-width="1"/>
+<text x="558" y="498" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">0.25</text>
+<text x="610" y="498" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">58</text>
+<text x="676" y="498" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">26.9%</text>
+<text x="558" y="513" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">0.5</text>
+<text x="610" y="513" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">190</text>
+<text x="676" y="513" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">11.9%</text>
+<text x="558" y="528" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">1.0</text>
+<text x="610" y="528" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">482</text>
+<text x="676" y="528" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">1.8%</text>
+<text x="558" y="543" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">1.5</text>
+<text x="610" y="543" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">746</text>
+<text x="676" y="543" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">0.25%</text>
+<text x="558" y="558" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">2.0</text>
+<text x="610" y="558" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">999</text>
+<text x="676" y="558" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">0.034%</text>
+<text x="558" y="587" font-family="Helvetica,Arial,sans-serif" font-size="9.5" font-weight="bold" fill="#111">17&#215; more time bought an</text>
+<text x="558" y="600" font-family="Helvetica,Arial,sans-serif" font-size="9.5" font-weight="bold" fill="#111">800-fold drop in errors.</text>
+<text x="558" y="617" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">error &#8776; exp(&#8722;2AB/&#963;&#178;)</text>
+<text x="558" y="630" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">falls exponentially in B;</text>
+<text x="558" y="643" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">T &#8594; B/A grows linearly.</text>
+</svg>

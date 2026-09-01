@@ -1,0 +1,48 @@
+<svg viewBox="0 0 700 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="11.5">
+  <text x="20" y="18" fill="#8a8a8a" font-style="italic">A dipole is two numbers at every point, and the angle between them is the latitude.</text>
+
+  <circle cx="150" cy="160" r="62" fill="none" stroke="#8a8a8a" stroke-width="1.6"/>
+  <line x1="150" y1="76" x2="150" y2="244" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="140" y="70" fill="#8a8a8a">N</text>
+
+  <g fill="none" stroke="#4a90d9" stroke-width="1.6">
+    <path d="M 150,98 C 216,104 246,140 246,160 C 246,180 216,216 150,222"/>
+    <path d="M 150,98 C 84,104 54,140 54,160 C 54,180 84,216 150,222"/>
+    <path d="M 150,102 C 196,112 214,142 214,160 C 214,178 196,208 150,218" opacity="0.6"/>
+    <path d="M 150,102 C 104,112 86,142 86,160 C 86,178 104,208 150,218" opacity="0.6"/>
+  </g>
+
+  <circle cx="212" cy="128" r="4" fill="#e0645c"/>
+  <line x1="212" y1="128" x2="212" y2="172" stroke="#e0645c" stroke-width="1.8"/>
+  <polygon points="212,180 207,166 217,166" fill="#e0645c"/>
+  <text x="218" y="168" fill="#e0645c">Z (down)</text>
+  <line x1="212" y1="128" x2="264" y2="112" stroke="#e0645c" stroke-width="1.8"/>
+  <polygon points="272,110 258,106 260,117" fill="#e0645c"/>
+  <text x="248" y="102" fill="#e0645c">H (horizontal)</text>
+  <line x1="212" y1="128" x2="248" y2="176" stroke="#8a8a8a" stroke-width="1.6"/>
+  <text x="252" y="192" fill="#8a8a8a">F</text>
+  <path d="M 234,132 A 26,26 0 0 1 230,152" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="236" y="148" fill="#8a8a8a">I</text>
+
+  <text x="24" y="268" fill="#8a8a8a">tan I = 2 tan &#955;. The dip angle knows your latitude and</text>
+  <text x="24" y="282" fill="#8a8a8a">nothing else &#8212; which is the whole of palaeomagnetism.</text>
+
+  <line x1="400" y1="248" x2="672" y2="248" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="400" y1="248" x2="400" y2="52" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="490" y="268" fill="#8a8a8a">latitude &#955;</text>
+  <line x1="400" y1="244" x2="400" y2="252" stroke="#8a8a8a"/><text x="394" y="264" fill="#8a8a8a">0</text>
+  <line x1="536" y1="244" x2="536" y2="252" stroke="#8a8a8a"/><text x="526" y="264" fill="#8a8a8a">45&#176;</text>
+  <line x1="672" y1="244" x2="672" y2="252" stroke="#8a8a8a"/><text x="662" y="264" fill="#8a8a8a">90&#176;</text>
+  <text x="360" y="60" fill="#8a8a8a">I</text>
+  <line x1="396" y1="60" x2="404" y2="60" stroke="#8a8a8a"/><text x="368" y="64" fill="#8a8a8a">90&#176;</text>
+  <line x1="396" y1="154" x2="404" y2="154" stroke="#8a8a8a"/><text x="368" y="158" fill="#8a8a8a">45&#176;</text>
+
+  <path d="M 400,248 Q 440,206 470,182 Q 500,158 536,124 Q 580,88 636,66 Q 656,60 672,60" fill="none" stroke="#4a90d9" stroke-width="2.6"/>
+  <line x1="400" y1="248" x2="672" y2="60" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="576" y="140" fill="#8a8a8a">I = &#955; would be</text>
+  <text x="576" y="154" fill="#8a8a8a">the naive guess</text>
+  <circle cx="536" cy="124" r="4" fill="#e0645c"/>
+  <text x="452" y="118" fill="#e0645c">at 45&#176; the field dips 63.4&#176;</text>
+
+  <text x="108" y="292" fill="#8a8a8a">The factor of two is geometry, not physics: the radial component of a dipole is twice the tangential one.</text>
+</svg>

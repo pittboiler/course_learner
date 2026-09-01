@@ -1,0 +1,53 @@
+<svg viewBox="0 0 700 346" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="11.5">
+  <text x="20" y="18" fill="#8a8a8a" font-style="italic">Forty-six terawatts out, about twenty in from radioactivity. The rest is the planet cooling down.</text>
+
+  <text x="30" y="46" fill="#8a8a8a">the budget, in TW</text>
+  <rect x="30" y="60" width="60" height="150" fill="#4a90d9" opacity="0.55" stroke="#4a90d9"/>
+  <text x="36" y="128" fill="#ffffff">46</text>
+  <text x="26" y="228" fill="#8a8a8a">out at</text>
+  <text x="26" y="242" fill="#8a8a8a">the surface</text>
+
+  <text x="102" y="140" fill="#8a8a8a">=</text>
+
+  <rect x="126" y="177" width="56" height="33" fill="#e0645c" opacity="0.5" stroke="#e0645c"/>
+  <text x="142" y="200" fill="#8a8a8a">7</text>
+  <text x="120" y="228" fill="#e0645c">crustal</text>
+  <text x="120" y="242" fill="#e0645c">radiogenic</text>
+
+  <rect x="192" y="150" width="56" height="60" fill="#e0645c" opacity="0.5" stroke="#e0645c"/>
+  <text x="212" y="186" fill="#8a8a8a">13</text>
+  <text x="186" y="228" fill="#e0645c">mantle</text>
+  <text x="186" y="242" fill="#e0645c">radiogenic</text>
+
+  <rect x="258" y="136" width="56" height="74" fill="#8a8a8a" opacity="0.35" stroke="#8a8a8a"/>
+  <text x="278" y="178" fill="#8a8a8a">16</text>
+  <text x="252" y="228" fill="#8a8a8a">mantle</text>
+  <text x="252" y="242" fill="#8a8a8a">cooling</text>
+
+  <rect x="324" y="164" width="56" height="46" fill="#8a8a8a" opacity="0.35" stroke="#8a8a8a"/>
+  <text x="344" y="194" fill="#8a8a8a">10</text>
+  <text x="322" y="228" fill="#8a8a8a">from the</text>
+  <text x="322" y="242" fill="#8a8a8a">core</text>
+
+  <text x="30" y="276" fill="#8a8a8a">Urey ratio = radiogenic / total &#8776; 20/46 &#8776; 0.43. Less than half the heat</text>
+  <text x="30" y="290" fill="#8a8a8a">leaving the Earth is being made now; the rest is stored heat leaking out.</text>
+
+  <text x="440" y="46" fill="#8a8a8a">heat production running backwards</text>
+  <line x1="440" y1="220" x2="672" y2="220" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="672" y1="220" x2="672" y2="64" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="500" y="240" fill="#8a8a8a">time before present (Ga)</text>
+  <line x1="672" y1="216" x2="672" y2="224" stroke="#8a8a8a"/><text x="668" y="256" fill="#8a8a8a">0</text>
+  <line x1="556" y1="216" x2="556" y2="224" stroke="#8a8a8a"/><text x="552" y="256" fill="#8a8a8a">3</text>
+  <line x1="440" y1="216" x2="440" y2="224" stroke="#8a8a8a"/><text x="428" y="256" fill="#8a8a8a">4.5</text>
+
+  <path d="M 672,204 L 556,161 L 440,80" fill="none" stroke="#e0645c" stroke-width="2.6"/>
+  <circle cx="672" cy="204" r="4" fill="#e0645c"/><text x="626" y="200" fill="#e0645c">20 TW</text>
+  <circle cx="556" cy="161" r="4" fill="#e0645c"/><text x="512" y="152" fill="#e0645c">49 TW</text>
+  <circle cx="440" cy="80" r="4" fill="#e0645c"/><text x="446" y="76" fill="#e0645c">102 TW</text>
+
+  <line x1="440" y1="204" x2="672" y2="204" stroke="#4a90d9" stroke-width="1.6" stroke-dasharray="5 4"/>
+  <text x="450" y="198" fill="#4a90d9">present surface loss, 46 TW</text>
+
+  <text x="30" y="314" fill="#8a8a8a">The curves cross near 3 Ga. Before that, radioactivity alone exceeded</text>
+  <text x="30" y="328" fill="#8a8a8a">today&#8217;s heat loss &#8212; so the Earth must have been losing heat far faster.</text>
+</svg>

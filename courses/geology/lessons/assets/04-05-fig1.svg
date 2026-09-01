@@ -1,0 +1,238 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 920" width="800" height="920" role="img" aria-label="A geologic map with a cross-section aligned beneath it. The map shows brown topographic contours at 400, 300 and 200 metres that swing sharply west where an east-flowing stream has cut a valley across the middle, while three geologic contacts in the western half swing only a little to the east in the same valley, so the contacts V downstream in the direction of dip while the contours V upstream. West of a normal fault with hachures on its downthrown western side, four units dip 15 degrees east; east of the fault the same units wrap around a north-plunging anticline whose nose closes northward with the oldest unit, the Triassic limestone, in its core. A red dashed section line runs east to west across the southern part of the map from A to A prime, and directly below, drawn at the same horizontal scale with no vertical exaggeration, the cross-section shows the east-dipping panel truncated against the west-dipping normal fault and the anticline beyond it, with dashed lines continuing the eroded arch above the present land surface. A full explanation lists the five map units youngest at top together with the strike and dip, fault, fold axis, contact and contour symbols." font-family="Helvetica,Arial,sans-serif">
+  <rect width="800" height="920" fill="#ffffff"/>
+
+  <text x="24" y="26" font-size="14" font-weight="bold" fill="#111">One map, one section: read the third dimension off the second</text>
+
+  <rect x="60" y="46" width="710" height="354" fill="#ffffff"/>
+
+  <polygon points="60,46 105,46 105,72 167,150 105,228 105,400 60,400" fill="#cf9d78"/>
+  <polygon points="105,46 215,46 215,72 277,150 215,228 215,400 105,400 105,228 167,150 105,72" fill="#9fb3a8"/>
+  <polygon points="215,46 325,46 325,72 387,150 325,228 325,400 215,400 215,228 277,150 215,72" fill="#d8c9a3"/>
+  <polygon points="325,46 430,46 455,400 325,400 325,228 387,150 325,72" fill="#cbdcec"/>
+  <polygon points="430,46 770,46 770,400 455,400" fill="#cbdcec"/>
+  <path d="M 470,400 L 540,300 Q 605,255 670,300 L 740,400 Z" fill="#d8c9a3"/>
+  <path d="M 545,400 L 580,320 Q 605,295 630,320 L 665,400 Z" fill="#9fb3a8"/>
+  <rect x="600" y="138" width="170" height="26" fill="#f6edd0"/>
+
+  <polyline points="355,46 355,72 195,150 355,228 355,400" fill="none" stroke="#b08a5a" stroke-width="0.9"/>
+  <polyline points="515,46 515,72 355,150 515,228 515,400" fill="none" stroke="#b08a5a" stroke-width="0.9"/>
+  <polyline points="675,46 675,72 515,150 675,228 675,400" fill="none" stroke="#b08a5a" stroke-width="0.9"/>
+  <rect x="359" y="53" width="24" height="13" fill="#ffffff" opacity="0.9"/>
+  <text x="362" y="63" font-size="9.5" fill="#a07a4a">400</text>
+  <rect x="519" y="53" width="24" height="13" fill="#ffffff" opacity="0.9"/>
+  <text x="522" y="63" font-size="9.5" fill="#a07a4a">300</text>
+  <rect x="679" y="53" width="24" height="13" fill="#ffffff" opacity="0.9"/>
+  <text x="682" y="63" font-size="9.5" fill="#a07a4a">200</text>
+
+  <polyline points="60,152 200,148 340,152 480,148 620,152 760,149" fill="none" stroke="#1a6fb5" stroke-width="1.7"/>
+  <polygon points="768,149 756,145 756,153" fill="#1a6fb5"/>
+
+  <polyline points="105,46 105,72 167,150 105,228 105,400" fill="none" stroke="#333333" stroke-width="1.6"/>
+  <polyline points="215,46 215,72 277,150 215,228 215,400" fill="none" stroke="#333333" stroke-width="1.6"/>
+  <polyline points="325,46 325,72 387,150 325,228 325,400" fill="none" stroke="#333333" stroke-width="1.6"/>
+  <path d="M 470,400 L 540,300 Q 605,255 670,300 L 740,400" fill="none" stroke="#333333" stroke-width="1.6"/>
+  <path d="M 545,400 L 580,320 Q 605,295 630,320 L 665,400" fill="none" stroke="#333333" stroke-width="1.6"/>
+
+  <line x1="430" y1="46" x2="455" y2="400" stroke="#111111" stroke-width="2.6"/>
+  <line x1="431" y1="70" x2="421" y2="70" stroke="#111111" stroke-width="1.6"/>
+  <line x1="434" y1="118" x2="424" y2="118" stroke="#111111" stroke-width="1.6"/>
+  <line x1="437" y1="166" x2="427" y2="166" stroke="#111111" stroke-width="1.6"/>
+  <line x1="441" y1="214" x2="431" y2="214" stroke="#111111" stroke-width="1.6"/>
+  <line x1="444" y1="262" x2="434" y2="262" stroke="#111111" stroke-width="1.6"/>
+  <line x1="447" y1="310" x2="437" y2="310" stroke="#111111" stroke-width="1.6"/>
+  <line x1="451" y1="358" x2="441" y2="358" stroke="#111111" stroke-width="1.6"/>
+
+  <g stroke="#111111" stroke-width="1.5" fill="none">
+    <line x1="160" y1="280" x2="160" y2="320"/><line x1="160" y1="300" x2="171" y2="300"/>
+    <line x1="270" y1="88" x2="270" y2="128"/><line x1="270" y1="108" x2="281" y2="108"/>
+    <line x1="380" y1="312" x2="380" y2="352"/><line x1="380" y1="332" x2="391" y2="332"/>
+  </g>
+  <text x="174" y="304" font-size="9.5" fill="#111">15</text>
+  <text x="284" y="112" font-size="9.5" fill="#111">15</text>
+  <text x="394" y="336" font-size="9.5" fill="#111">15</text>
+
+  <g transform="translate(512,338) rotate(-55)" stroke="#111111" stroke-width="1.5" fill="none">
+    <line x1="-20" y1="0" x2="20" y2="0"/><line x1="0" y1="0" x2="0" y2="-11"/>
+  </g>
+  <text x="486" y="356" font-size="9.5" fill="#111">25</text>
+  <g transform="translate(700,338) rotate(55)" stroke="#111111" stroke-width="1.5" fill="none">
+    <line x1="-20" y1="0" x2="20" y2="0"/><line x1="0" y1="0" x2="0" y2="-11"/>
+  </g>
+  <text x="712" y="356" font-size="9.5" fill="#111">25</text>
+
+  <line x1="605" y1="268" x2="605" y2="392" stroke="#111111" stroke-width="1.6"/>
+  <polygon points="605,258 600,272 610,272" fill="#111111"/>
+  <line x1="583" y1="356" x2="562" y2="356" stroke="#111111" stroke-width="1.3"/>
+  <polygon points="556,356 566,352 566,360" fill="#111111"/>
+  <line x1="627" y1="356" x2="648" y2="356" stroke="#111111" stroke-width="1.3"/>
+  <polygon points="654,356 644,352 644,360" fill="#111111"/>
+
+  <text x="66" y="344" font-size="10" fill="#111">Pms</text>
+  <text x="148" y="344" font-size="10" fill="#111">Trl</text>
+  <text x="252" y="344" font-size="10" fill="#111">Jss</text>
+  <text x="374" y="252" font-size="10" fill="#111">Ksh</text>
+  <text x="492" y="112" font-size="10" fill="#111">Ksh</text>
+  <text x="502" y="392" font-size="10" fill="#111">Jss</text>
+  <text x="566" y="392" font-size="10" fill="#111">Trl</text>
+  <text x="690" y="392" font-size="10" fill="#111">Jss</text>
+  <text x="748" y="392" font-size="10" fill="#111">Ksh</text>
+  <text x="672" y="157" font-size="10" fill="#333">Qal</text>
+
+  <line x1="60" y1="365" x2="770" y2="365" stroke="#d1495b" stroke-width="2" stroke-dasharray="9,5"/>
+  <text x="46" y="369" font-size="12" font-weight="bold" fill="#d1495b">A</text>
+  <text x="774" y="369" font-size="12" font-weight="bold" fill="#d1495b">A'</text>
+
+  <rect x="728" y="52" width="28" height="44" fill="#ffffff" opacity="0.85"/>
+  <line x1="742" y1="92" x2="742" y2="70" stroke="#111111" stroke-width="1.4"/>
+  <polygon points="742,64 737,76 747,76" fill="#111111"/>
+  <text x="742" y="60" font-size="10" font-weight="bold" fill="#111" text-anchor="middle">N</text>
+
+  <rect x="316" y="134" width="52" height="13" fill="#ffffff" opacity="0.85"/>
+  <text x="320" y="144" font-size="9.5" fill="#1a6fb5">stream &#8594;</text>
+
+  <line x1="286" y1="140" x2="277" y2="150" stroke="#111111" stroke-width="0.9"/>
+  <circle cx="290" cy="134" r="8.5" fill="#ffffff" stroke="#111111" stroke-width="1.2"/>
+  <text x="290" y="138" font-size="10" fill="#111" text-anchor="middle">1</text>
+  <circle cx="605" cy="340" r="8.5" fill="#ffffff" stroke="#111111" stroke-width="1.2"/>
+  <text x="605" y="344" font-size="10" fill="#111" text-anchor="middle">2</text>
+  <line x1="424" y1="262" x2="437" y2="262" stroke="#111111" stroke-width="0.9"/>
+  <circle cx="412" cy="262" r="8.5" fill="#ffffff" stroke="#111111" stroke-width="1.2"/>
+  <text x="412" y="266" font-size="10" fill="#111" text-anchor="middle">3</text>
+  <line x1="211" y1="174" x2="199" y2="157" stroke="#a07a4a" stroke-width="0.9"/>
+  <circle cx="215" cy="182" r="8.5" fill="#ffffff" stroke="#a07a4a" stroke-width="1.2"/>
+  <text x="215" y="186" font-size="10" fill="#a07a4a" text-anchor="middle">4</text>
+
+  <rect x="60" y="46" width="710" height="354" fill="none" stroke="#8fa8c0" stroke-width="1.2"/>
+
+  <rect x="60" y="436" width="60" height="7" fill="#111111"/>
+  <rect x="120" y="436" width="60" height="7" fill="#ffffff" stroke="#111111" stroke-width="0.8"/>
+  <rect x="180" y="436" width="60" height="7" fill="#111111"/>
+  <rect x="240" y="436" width="60" height="7" fill="#ffffff" stroke="#111111" stroke-width="0.8"/>
+  <text x="60" y="456" font-size="9.5" fill="#111" text-anchor="middle">0</text>
+  <text x="180" y="456" font-size="9.5" fill="#111" text-anchor="middle">1</text>
+  <text x="300" y="456" font-size="9.5" fill="#111" text-anchor="middle">2 km</text>
+  <text x="60" y="426" font-size="9.5" fill="#111">contour interval 100 m</text>
+
+  <text x="330" y="414" font-size="9.5" fill="#111">1 &#8212; the contact Vs downstream: the V points in the dip direction</text>
+  <text x="330" y="430" font-size="9.5" fill="#111">2 &#8212; oldest unit in the core, nose closes north: a north-plunging anticline</text>
+  <text x="330" y="446" font-size="9.5" fill="#111">3 &#8212; hachures mark the downthrown block (the hanging wall of a normal fault)</text>
+  <text x="330" y="462" font-size="9.5" fill="#a07a4a">4 &#8212; topographic contours V upstream, the opposite sense to the contacts</text>
+
+  <clipPath id="belowGround"><polygon points="60,501 770,554.3 770,700 60,700"/></clipPath>
+  <clipPath id="aboveGround"><polygon points="60,486 770,486 770,554.3 60,501"/></clipPath>
+
+  <rect x="60" y="486" width="710" height="214" fill="#ffffff"/>
+
+  <g clip-path="url(#belowGround)">
+    <polygon points="60,501 105,504.4 418.3,588.4 354,700 60,700" fill="#cf9d78"/>
+    <polygon points="105,504.4 215,512.6 428.9,569.9 418.3,588.4" fill="#9fb3a8"/>
+    <polygon points="215,512.6 325,520.9 439.6,551.9 428.9,569.9" fill="#d8c9a3"/>
+    <polygon points="325,520.9 452,530.4 439.6,551.9" fill="#cbdcec"/>
+    <polygon points="452,530.4 494,533.6 434,561.6" fill="#cbdcec"/>
+    <polygon points="494,533.6 560,538.5 405.9,610.3 434,561.6" fill="#d8c9a3"/>
+    <path d="M 560,538.5 L 650,545.3 L 770,601.2 L 770,636.9 L 635,574.0 Q 605,560 575,574.0 L 372.4,668.4 L 405.9,610.3 Z" fill="#9fb3a8"/>
+    <polygon points="650,545.3 716,550.2 770,575.4 770,601.2" fill="#d8c9a3"/>
+    <polygon points="716,550.2 770,554.3 770,575.4" fill="#cbdcec"/>
+    <path d="M 372.4,668.4 L 575,574.0 Q 605,560 635,574.0 L 770,636.9 L 770,700 L 354,700 Z" fill="#cf9d78"/>
+  </g>
+
+  <g fill="none" stroke="#333333" stroke-width="1.5" clip-path="url(#belowGround)">
+    <path d="M 60,492.4 L 418.3,588.4"/>
+    <path d="M 150,495.2 L 428.9,569.9"/>
+    <path d="M 260,503.5 L 439.6,551.9"/>
+    <path d="M 434,561.6 L 555,505.2 Q 605,490 655,521.8 L 770,575.4"/>
+    <path d="M 405.9,610.3 L 565,536.2 Q 605,522 645,543.0 L 770,601.2"/>
+    <path d="M 372.4,668.4 L 575,574.0 Q 605,560 635,574.0 L 770,636.9"/>
+  </g>
+
+  <g fill="none" stroke="#666666" stroke-width="1.2" stroke-dasharray="5,4" clip-path="url(#aboveGround)">
+    <path d="M 60,492.4 L 418.3,588.4"/>
+    <path d="M 150,495.2 L 428.9,569.9"/>
+    <path d="M 260,503.5 L 439.6,551.9"/>
+    <path d="M 434,561.6 L 555,505.2 Q 605,490 655,521.8 L 770,575.4"/>
+    <path d="M 405.9,610.3 L 565,536.2 Q 605,522 645,543.0 L 770,601.2"/>
+  </g>
+
+  <line x1="452" y1="530.4" x2="354" y2="700" stroke="#111111" stroke-width="2.4"/>
+  <line x1="60" y1="501" x2="770" y2="554.3" stroke="#111111" stroke-width="2"/>
+
+  <line x1="425" y1="548" x2="425" y2="562" stroke="#111111" stroke-width="1.4"/>
+  <polygon points="425,568 421,556 429,556" fill="#111111"/>
+  <line x1="478" y1="556" x2="478" y2="542" stroke="#111111" stroke-width="1.4"/>
+  <polygon points="478,536 474,548 482,548" fill="#111111"/>
+
+  <line x1="60" y1="510" x2="66" y2="510" stroke="#111111" stroke-width="1"/>
+  <line x1="60" y1="570" x2="66" y2="570" stroke="#111111" stroke-width="1"/>
+  <line x1="60" y1="630" x2="66" y2="630" stroke="#111111" stroke-width="1"/>
+  <text x="56" y="513" font-size="9.5" fill="#111" text-anchor="end">500 m</text>
+  <text x="56" y="573" font-size="9.5" fill="#111" text-anchor="end">0</text>
+  <text x="56" y="633" font-size="9.5" fill="#111" text-anchor="end">-500 m</text>
+
+  <text x="60" y="481" font-size="12" font-weight="bold" fill="#d1495b">A</text>
+  <text x="770" y="481" font-size="12" font-weight="bold" fill="#d1495b" text-anchor="end">A'</text>
+  <text x="86" y="496" font-size="9.5" fill="#666">no vertical exaggeration</text>
+  <text x="628" y="497" font-size="9.5" fill="#666">dashed = eroded, projected</text>
+
+  <text x="148" y="646" font-size="10" fill="#111">Pms</text>
+  <text x="232" y="540" font-size="10" fill="#111">Trl</text>
+  <text x="330" y="545" font-size="10" fill="#111">Jss</text>
+  <text x="408" y="540" font-size="10" fill="#111">Ksh</text>
+  <text x="452" y="574" font-size="10" fill="#111">Jss</text>
+  <text x="594" y="592" font-size="10" fill="#111">Trl</text>
+  <text x="732" y="580" font-size="10" fill="#111">Jss</text>
+  <text x="594" y="668" font-size="10" fill="#111">Pms</text>
+
+  <line x1="360" y1="657" x2="382" y2="661" stroke="#111111" stroke-width="0.9"/>
+  <text x="238" y="659" font-size="9.5" fill="#111">normal fault, throw 150 m</text>
+  <line x1="605" y1="508" x2="605" y2="534" stroke="#111111" stroke-width="0.9"/>
+  <text x="612" y="514" font-size="9.5" fill="#111">anticline hinge</text>
+
+  <rect x="60" y="486" width="710" height="214" fill="none" stroke="#8fa8c0" stroke-width="1.2"/>
+
+  <text x="60" y="732" font-size="12" font-weight="bold" fill="#111">Explanation</text>
+
+  <rect x="66" y="742" width="26" height="15" fill="#f6edd0" stroke="#333333" stroke-width="0.8"/>
+  <text x="100" y="754" font-size="9.5" fill="#111">Qal &#8212; alluvium (Quaternary): valley fill, youngest</text>
+  <rect x="66" y="766" width="26" height="15" fill="#cbdcec" stroke="#333333" stroke-width="0.8"/>
+  <text x="100" y="778" font-size="9.5" fill="#111">Ksh &#8212; shale (Cretaceous)</text>
+  <rect x="66" y="790" width="26" height="15" fill="#d8c9a3" stroke="#333333" stroke-width="0.8"/>
+  <text x="100" y="802" font-size="9.5" fill="#111">Jss &#8212; sandstone (Jurassic)</text>
+  <rect x="66" y="814" width="26" height="15" fill="#9fb3a8" stroke="#333333" stroke-width="0.8"/>
+  <text x="100" y="826" font-size="9.5" fill="#111">Trl &#8212; limestone (Triassic)</text>
+  <rect x="66" y="838" width="26" height="15" fill="#cf9d78" stroke="#333333" stroke-width="0.8"/>
+  <text x="100" y="850" font-size="9.5" fill="#111">Pms &#8212; mudstone (Permian): oldest</text>
+  <text x="66" y="874" font-size="9.5" fill="#666">The unit list is a stratigraphic column in disguise: youngest at top.</text>
+
+  <g stroke="#111111" stroke-width="1.4" fill="none">
+    <line x1="432" y1="738" x2="432" y2="758"/><line x1="432" y1="748" x2="443" y2="748"/>
+  </g>
+  <text x="446" y="752" font-size="9.5" fill="#111">15</text>
+  <text x="472" y="752" font-size="9.5" fill="#111">strike and dip of bedding, dip in degrees</text>
+
+  <g stroke="#111111" stroke-width="1.4" fill="none">
+    <line x1="424" y1="772" x2="440" y2="772"/><line x1="432" y1="764" x2="432" y2="780"/>
+    <circle cx="432" cy="772" r="4"/>
+  </g>
+  <text x="472" y="776" font-size="9.5" fill="#111">horizontal beds (trace follows a contour)</text>
+
+  <g stroke="#111111" stroke-width="1.4" fill="none">
+    <line x1="432" y1="788" x2="432" y2="804"/><line x1="424" y1="796" x2="440" y2="796"/>
+  </g>
+  <text x="472" y="800" font-size="9.5" fill="#111">vertical beds (trace ignores topography)</text>
+
+  <line x1="420" y1="820" x2="452" y2="820" stroke="#111111" stroke-width="2.4"/>
+  <line x1="428" y1="820" x2="428" y2="827" stroke="#111111" stroke-width="1.4"/>
+  <line x1="442" y1="820" x2="442" y2="827" stroke="#111111" stroke-width="1.4"/>
+  <text x="472" y="824" font-size="9.5" fill="#111">normal fault; hachures on downthrown block</text>
+
+  <line x1="420" y1="844" x2="452" y2="844" stroke="#111111" stroke-width="1.6"/>
+  <polygon points="458,844 448,840 448,848" fill="#111111"/>
+  <text x="472" y="848" font-size="9.5" fill="#111">axial trace of an anticline; arrow shows plunge</text>
+
+  <line x1="420" y1="868" x2="438" y2="868" stroke="#333333" stroke-width="1.6"/>
+  <line x1="440" y1="868" x2="458" y2="868" stroke="#666666" stroke-width="1.3" stroke-dasharray="5,4"/>
+  <text x="472" y="872" font-size="9.5" fill="#111">geologic contact, dashed where projected</text>
+
+  <line x1="420" y1="892" x2="458" y2="892" stroke="#b08a5a" stroke-width="1"/>
+  <text x="472" y="896" font-size="9.5" fill="#111">topographic contour, 100 m interval</text>
+</svg>

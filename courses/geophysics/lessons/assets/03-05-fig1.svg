@@ -1,0 +1,41 @@
+<svg viewBox="0 0 700 332" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="11.5">
+  <text x="20" y="18" fill="#8a8a8a" font-style="italic">Every plate motion is a rotation about some axis. Find the axis and the whole velocity field follows.</text>
+
+  <circle cx="180" cy="160" r="112" fill="none" stroke="#8a8a8a" stroke-width="1.4"/>
+  <circle cx="180" cy="72" r="5" fill="#e0645c"/>
+  <text x="150" y="60" fill="#e0645c">Euler pole</text>
+
+  <g fill="none" stroke="#4a90d9" stroke-width="1.6">
+    <path d="M 116,104 A 74,30 0 0 0 244,104"/>
+    <path d="M 88,148 A 100,44 0 0 0 272,148"/>
+    <path d="M 76,196 A 108,52 0 0 0 284,196"/>
+  </g>
+  <text x="290" y="108" fill="#4a90d9">transform faults</text>
+  <text x="290" y="122" fill="#4a90d9">are small circles</text>
+  <text x="290" y="136" fill="#4a90d9">about the pole</text>
+
+  <line x1="180" y1="72" x2="88" y2="148" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 3"/>
+  <path d="M 168,84 A 18,18 0 0 0 162,98" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="146" y="104" fill="#8a8a8a">&#952;</text>
+
+  <line x1="120" y1="140" x2="120" y2="118" stroke="#e0645c" stroke-width="2"/><polygon points="120,110 115,124 125,124" fill="#e0645c"/>
+  <line x1="180" y1="204" x2="180" y2="166" stroke="#e0645c" stroke-width="2.6"/><polygon points="180,158 174,174 186,174" fill="#e0645c"/>
+  <text x="192" y="184" fill="#8a8a8a">v = &#969;R sin&#952;</text>
+
+  <text x="30" y="292" fill="#8a8a8a">Near the pole almost nothing moves; ninety degrees away the motion is fastest.</text>
+
+  <line x1="400" y1="220" x2="672" y2="220" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="400" y1="220" x2="400" y2="56" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="480" y="240" fill="#8a8a8a">angular distance &#952; from the pole</text>
+  <line x1="400" y1="216" x2="400" y2="224" stroke="#8a8a8a"/><text x="394" y="236" fill="#8a8a8a">0</text>
+  <line x1="536" y1="216" x2="536" y2="224" stroke="#8a8a8a"/><text x="526" y="236" fill="#8a8a8a">90&#176;</text>
+  <line x1="672" y1="216" x2="672" y2="224" stroke="#8a8a8a"/><text x="658" y="236" fill="#8a8a8a">180&#176;</text>
+  <text x="368" y="66" fill="#8a8a8a">v</text>
+
+  <path d="M 400,220 Q 452,142 490,106 Q 514,84 536,80 Q 560,84 584,106 Q 622,142 672,220" fill="none" stroke="#4a90d9" stroke-width="2.6"/>
+  <circle cx="536" cy="80" r="4" fill="#e0645c"/>
+  <text x="546" y="76" fill="#e0645c">maximum</text>
+
+  <text x="332" y="272" fill="#8a8a8a">Measure the rate at two places on one boundary and the sine curve</text>
+  <text x="30" y="314" fill="#8a8a8a">is over-determined: you get both the pole&#8217;s position and &#969;.</text>
+</svg>

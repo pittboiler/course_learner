@@ -1,0 +1,25 @@
+<svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="26" y="24" fill="#8a8a8a" font-style="italic">The slab absorbs all longwave and re-emits both ways; the surface gets it twice.</text>
+  <line x1="60" y1="270" x2="560" y2="270" stroke="#8a8a8a" stroke-width="3"/>
+  <text x="60" y="292" fill="#8a8a8a" font-size="12">surface, Ts</text>
+  <rect x="60" y="133" width="500" height="34" fill="#4a90d9" opacity="0.13" stroke="#4a90d9" stroke-width="2"/>
+  <text x="66" y="154" fill="#4a90d9" font-size="12">slab atmosphere, Ta: transparent to sunlight, opaque to infrared</text>
+  <line x1="60" y1="60" x2="560" y2="60" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5 5"/>
+  <text x="60" y="52" fill="#8a8a8a" font-size="12">top of atmosphere</text>
+  <line x1="120" y1="64" x2="120" y2="266" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="120,266 115,255 125,255" fill="#e0645c"/>
+  <text x="126" y="165" fill="#e0645c" font-size="12">solar in</text>
+  <line x1="250" y1="266" x2="250" y2="171" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="250,171 245,182 255,182" fill="#4a90d9"/>
+  <text x="256" y="218" fill="#4a90d9" font-size="12">sigma Ts^4</text>
+  <line x1="340" y1="129" x2="340" y2="64" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="340,64 335,75 345,75" fill="#4a90d9"/>
+  <text x="346" y="96" fill="#4a90d9" font-size="12">sigma Ta^4</text>
+  <line x1="430" y1="171" x2="430" y2="266" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="430,266 425,255 435,255" fill="#4a90d9"/>
+  <text x="436" y="218" fill="#4a90d9" font-size="12">sigma Ta^4</text>
+  <text x="438" y="240" fill="#8a8a8a" font-size="12">back radiation</text>
+  <text x="60" y="300" fill="#8a8a8a" font-size="12">TOA balance: sigma Ta^4 = S(1-a)/4</text>
+  <text x="60" y="318" fill="#8a8a8a" font-size="12">surface balance: sigma Ts^4 = S(1-a)/4 + sigma Ta^4</text>
+  <text x="330" y="300" fill="#e0645c" font-size="12">so Ts = 2 to the one fourth times Te</text>
+</svg>

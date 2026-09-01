@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 372" width="800" height="372" role="img" aria-label="A catalogue of four circuit motifs drawn in a single visual language, each with a miniature plot of the computation it performs. Panel a, feedforward inhibition: an input excites both a principal cell and an interneuron, and the interneuron inhibits the principal cell about two milliseconds later; beneath it a plot of net drive against time shows a synchronous volley crossing threshold inside that brief window while an asynchronous train of the same inputs never does. Panel b, feedback inhibition: the principal cell excites an interneuron that inhibits it back; beneath it a plot of firing rate against input drive shows a steep open-loop line running off scale and a shallow saturating closed-loop curve whose gain is divided by one plus the loop gain. Panel c, lateral inhibition: three receptors feed one output cell with weight plus two from the centre and minus one from each neighbour, a kernel summing to zero; beneath it a step of light produces zero response on both uniform sides and a paired undershoot and overshoot at the edge, the Mach bands. Panel d, winner-take-all: two self-exciting principal cells both drive a shared inhibitory interneuron that inhibits them both; beneath it two input bars of ten and eight become one output bar of sixteen point seven and one of zero.">
+<rect width="800" height="372" fill="#ffffff"/>
+
+<line x1="15" y1="12" x2="42" y2="12" stroke="#d1495b" stroke-width="2.4"/>
+<polygon points="49,12 40,8 40,16" fill="#d1495b"/>
+<text x="55" y="16" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">excitatory</text>
+<line x1="120" y1="12" x2="146" y2="12" stroke="#1a6fb5" stroke-width="2.4"/>
+<line x1="148" y1="6" x2="148" y2="18" stroke="#1a6fb5" stroke-width="2.6"/>
+<text x="156" y="16" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">inhibitory</text>
+<text x="225" y="16" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">triangle = principal cell, circle = interneuron</text>
+
+<text x="17" y="42" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="bold" fill="#111">(a) feedforward inhibition</text>
+<rect x="15" y="50" width="185" height="150" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+<text x="20" y="72" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">input</text>
+<line x1="60" y1="58" x2="60" y2="74" stroke="#d1495b" stroke-width="2.2"/>
+<polygon points="60,80 55,71 65,71" fill="#d1495b"/>
+<path d="M 60,78 L 60,126" fill="none" stroke="#d1495b" stroke-width="2.2"/>
+<polygon points="60,132 55,123 65,123" fill="#d1495b"/>
+<path d="M 60,78 L 140,78 L 140,83" fill="none" stroke="#d1495b" stroke-width="2.2"/>
+<polygon points="140,89 135,80 145,80" fill="#d1495b"/>
+<circle cx="140" cy="100" r="11" fill="#1a6fb5"/>
+<text x="140" y="104" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#ffffff" text-anchor="middle">IN</text>
+<path d="M 140,111 L 140,140 L 80,140" fill="none" stroke="#1a6fb5" stroke-width="2.2"/>
+<line x1="77" y1="133" x2="77" y2="147" stroke="#1a6fb5" stroke-width="2.6"/>
+<polygon points="60,132 44,156 76,156" fill="#ffffff" stroke="#111" stroke-width="1.6"/>
+<text x="60" y="152" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111" text-anchor="middle">P</text>
+<line x1="60" y1="156" x2="60" y2="174" stroke="#333" stroke-width="1.6"/>
+<polygon points="60,180 55,171 65,171" fill="#333"/>
+<text x="92" y="164" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#1a6fb5">delay 2 ms</text>
+
+<text x="17" y="214" font-family="Helvetica,Arial,sans-serif" font-size="9" fill="#333">net drive; threshold dashed</text>
+<rect x="15" y="218" width="185" height="100" fill="#ffffff" stroke="#8fa8c0" stroke-width="1"/>
+<line x1="33" y1="226" x2="33" y2="302" stroke="#333" stroke-width="1.2"/>
+<line x1="33" y1="302" x2="190" y2="302" stroke="#333" stroke-width="1.2"/>
+<line x1="33" y1="254" x2="190" y2="254" stroke="#333" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="130" y="250" font-family="Helvetica,Arial,sans-serif" font-size="9" fill="#333">threshold</text>
+<polyline points="33,302 42,268 52,240 58,238 66,262 78,290 92,300 188,302" fill="none" stroke="#d1495b" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="84" y="234" font-family="Helvetica,Arial,sans-serif" font-size="9" fill="#d1495b">synchronous</text>
+<polyline points="33,302 40,282 46,296 54,278 60,294 68,280 74,296 82,282 88,298 100,300 188,302" fill="none" stroke="#1a6fb5" stroke-width="1.8" stroke-linejoin="round"/>
+<text x="104" y="284" font-family="Helvetica,Arial,sans-serif" font-size="9" fill="#1a6fb5">asynchronous</text>
+
+<text x="17" y="334" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">the disynaptic delay sets a ~2 ms</text>
+<text x="17" y="346" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">window: an integrator becomes a</text>
+<text x="17" y="358" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">coincidence detector</text>
+
+<text x="212" y="42" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="bold" fill="#111">(b) feedback inhibition</text>
+<rect x="210" y="50" width="185" height="150" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+<text x="256" y="72" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">input</text>
+<line x1="250" y1="78" x2="250" y2="136" stroke="#d1495b" stroke-width="2.2"/>
+<polygon points="250,142 245,133 255,133" fill="#d1495b"/>
+<polygon points="250,142 234,166 266,166" fill="#ffffff" stroke="#111" stroke-width="1.6"/>
+<text x="250" y="162" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111" text-anchor="middle">P</text>
+<line x1="266" y1="150" x2="329" y2="103" stroke="#d1495b" stroke-width="2.2"/>
+<polygon points="336,98 327,99 331,108" fill="#d1495b"/>
+<circle cx="338" cy="96" r="11" fill="#1a6fb5"/>
+<text x="338" y="100" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#ffffff" text-anchor="middle">IN</text>
+<path d="M 338,107 L 338,180 L 262,180" fill="none" stroke="#1a6fb5" stroke-width="2.2"/>
+<line x1="259" y1="173" x2="259" y2="187" stroke="#1a6fb5" stroke-width="2.6"/>
+<line x1="244" y1="164" x2="228" y2="186" stroke="#333" stroke-width="1.6"/>
+<polygon points="224,192 224,182 232,187" fill="#333"/>
+<text x="298" y="72" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#1a6fb5">loop gain L</text>
+
+<text x="212" y="214" font-family="Helvetica,Arial,sans-serif" font-size="9" fill="#333">firing rate vs input drive</text>
+<rect x="210" y="218" width="185" height="100" fill="#ffffff" stroke="#8fa8c0" stroke-width="1"/>
+<line x1="228" y1="226" x2="228" y2="302" stroke="#333" stroke-width="1.2"/>
+<line x1="228" y1="302" x2="388" y2="302" stroke="#333" stroke-width="1.2"/>
+<line x1="228" y1="302" x2="268" y2="226" stroke="#d1495b" stroke-width="2" stroke-dasharray="5,3"/>
+<text x="272" y="238" font-family="Helvetica,Arial,sans-serif" font-size="9" fill="#d1495b">open loop</text>
+<polyline points="228,302 250,286 278,274 312,266 348,261 386,258" fill="none" stroke="#1a6fb5" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="256" y="294" font-family="Helvetica,Arial,sans-serif" font-size="9" fill="#1a6fb5">closed loop: gain &#247; (1+L)</text>
+
+<text x="212" y="334" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">negative feedback divides gain by</text>
+<text x="212" y="346" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">1+L and holds output in range;</text>
+<text x="212" y="358" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">lag in the loop makes it oscillate</text>
+
+<text x="407" y="42" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="bold" fill="#111">(c) lateral inhibition</text>
+<rect x="405" y="50" width="185" height="150" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+<text x="410" y="62" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">stimulus</text>
+<line x1="455" y1="58" x2="455" y2="65" stroke="#333" stroke-width="1.4"/>
+<polygon points="455,71 451,63 459,63" fill="#333"/>
+<line x1="500" y1="58" x2="500" y2="65" stroke="#333" stroke-width="1.4"/>
+<polygon points="500,71 496,63 504,63" fill="#333"/>
+<line x1="545" y1="58" x2="545" y2="65" stroke="#333" stroke-width="1.4"/>
+<polygon points="545,71 541,63 549,63" fill="#333"/>
+<circle cx="455" cy="80" r="9" fill="#ffffff" stroke="#111" stroke-width="1.4"/>
+<circle cx="500" cy="80" r="9" fill="#ffffff" stroke="#111" stroke-width="1.4"/>
+<circle cx="545" cy="80" r="9" fill="#ffffff" stroke="#111" stroke-width="1.4"/>
+<line x1="500" y1="89" x2="500" y2="124" stroke="#d1495b" stroke-width="2.2"/>
+<polygon points="500,130 495,121 505,121" fill="#d1495b"/>
+<text x="505" y="110" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#d1495b">+2</text>
+<line x1="461" y1="87" x2="487" y2="120" stroke="#1a6fb5" stroke-width="2.2"/>
+<line x1="481" y1="124" x2="493" y2="115" stroke="#1a6fb5" stroke-width="2.6"/>
+<line x1="539" y1="87" x2="513" y2="120" stroke="#1a6fb5" stroke-width="2.2"/>
+<line x1="507" y1="115" x2="519" y2="124" stroke="#1a6fb5" stroke-width="2.6"/>
+<text x="452" y="112" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#1a6fb5">&#8722;1</text>
+<text x="524" y="112" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#1a6fb5">&#8722;1</text>
+<polygon points="500,130 486,154 514,154" fill="#ffffff" stroke="#111" stroke-width="1.6"/>
+<text x="500" y="150" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111" text-anchor="middle">P</text>
+<line x1="500" y1="154" x2="500" y2="170" stroke="#333" stroke-width="1.6"/>
+<polygon points="500,176 495,167 505,167" fill="#333"/>
+<text x="412" y="195" font-family="Helvetica,Arial,sans-serif" font-size="9" fill="#333">kernel (&#8722;1, +2, &#8722;1) sums to zero</text>
+
+<text x="407" y="214" font-family="Helvetica,Arial,sans-serif" font-size="9" fill="#333">uniform light gives no response</text>
+<rect x="405" y="218" width="185" height="100" fill="#ffffff" stroke="#8fa8c0" stroke-width="1"/>
+<polyline points="415,244 490,244 490,230 580,230" fill="none" stroke="#333" stroke-width="1.8"/>
+<text x="536" y="242" font-family="Helvetica,Arial,sans-serif" font-size="9" fill="#333">light</text>
+<line x1="415" y1="284" x2="580" y2="284" stroke="#8fa8c0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="407" y="288" font-family="Helvetica,Arial,sans-serif" font-size="9" fill="#8fa8c0">0</text>
+<polyline points="415,284 476,284 483,300 490,284 497,264 504,284 580,284" fill="none" stroke="#d1495b" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="512" y="264" font-family="Helvetica,Arial,sans-serif" font-size="9" fill="#d1495b">Mach bands</text>
+
+<text x="407" y="334" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">a zero-sum surround discards flat</text>
+<text x="407" y="346" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">light and keeps only edges &#8212; a</text>
+<text x="407" y="358" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">high-pass filter in space</text>
+
+<text x="602" y="42" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="bold" fill="#111">(d) winner-take-all</text>
+<rect x="600" y="50" width="185" height="150" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+<text x="612" y="62" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">I = 10</text>
+<text x="700" y="62" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">I = 8</text>
+<line x1="645" y1="68" x2="645" y2="126" stroke="#d1495b" stroke-width="2.2"/>
+<polygon points="645,132 640,123 650,123" fill="#d1495b"/>
+<line x1="720" y1="68" x2="720" y2="126" stroke="#d1495b" stroke-width="2.2"/>
+<polygon points="720,132 715,123 725,123" fill="#d1495b"/>
+<path d="M 640,140 C 616,136 616,114 634,121" fill="none" stroke="#d1495b" stroke-width="2"/>
+<polygon points="640,123 631,118 630,127" fill="#d1495b"/>
+<path d="M 725,140 C 749,136 749,114 731,121" fill="none" stroke="#d1495b" stroke-width="2"/>
+<polygon points="725,123 735,127 734,118" fill="#d1495b"/>
+<polygon points="645,132 631,156 659,156" fill="#ffffff" stroke="#111" stroke-width="1.6"/>
+<text x="645" y="152" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111" text-anchor="middle">A</text>
+<polygon points="720,132 706,156 734,156" fill="#ffffff" stroke="#111" stroke-width="1.6"/>
+<text x="720" y="152" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111" text-anchor="middle">B</text>
+<line x1="652" y1="157" x2="669" y2="171" stroke="#d1495b" stroke-width="2.2"/>
+<polygon points="674,175 670,166 665,173" fill="#d1495b"/>
+<line x1="713" y1="157" x2="696" y2="171" stroke="#d1495b" stroke-width="2.2"/>
+<polygon points="691,175 700,173 695,166" fill="#d1495b"/>
+<circle cx="682" cy="180" r="11" fill="#1a6fb5"/>
+<text x="682" y="184" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#ffffff" text-anchor="middle">IN</text>
+<path d="M 671,180 L 622,180 L 622,152 L 630,152" fill="none" stroke="#1a6fb5" stroke-width="2.2"/>
+<line x1="633" y1="145" x2="633" y2="159" stroke="#1a6fb5" stroke-width="2.6"/>
+<path d="M 693,180 L 742,180 L 742,152 L 734,152" fill="none" stroke="#1a6fb5" stroke-width="2.2"/>
+<line x1="731" y1="145" x2="731" y2="159" stroke="#1a6fb5" stroke-width="2.6"/>
+
+<text x="602" y="214" font-family="Helvetica,Arial,sans-serif" font-size="9" fill="#333">drive in (blue), rate out (red)</text>
+<rect x="600" y="218" width="185" height="100" fill="#ffffff" stroke="#8fa8c0" stroke-width="1"/>
+<line x1="612" y1="308" x2="775" y2="308" stroke="#333" stroke-width="1.2"/>
+<rect x="624" y="273" width="16" height="35" fill="#8fa8c0"/>
+<rect x="646" y="280" width="16" height="28" fill="#8fa8c0"/>
+<text x="620" y="268" font-family="Helvetica,Arial,sans-serif" font-size="9" fill="#333">input</text>
+<line x1="676" y1="290" x2="694" y2="290" stroke="#333" stroke-width="1.4"/>
+<polygon points="700,290 692,286 692,294" fill="#333"/>
+<rect x="706" y="250" width="16" height="58" fill="#d1495b"/>
+<line x1="728" y1="308" x2="744" y2="308" stroke="#d1495b" stroke-width="2.6"/>
+<text x="700" y="244" font-family="Helvetica,Arial,sans-serif" font-size="9" fill="#333">output</text>
+<text x="732" y="302" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#d1495b">0</text>
+
+<text x="602" y="334" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">recurrence amplifies differences,</text>
+<text x="602" y="346" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">global inhibition suppresses the</text>
+<text x="602" y="358" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">sum: 10 vs 8 becomes 16.7 vs 0</text>
+</svg>

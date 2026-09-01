@@ -1,0 +1,51 @@
+<svg viewBox="0 0 660 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="12">
+  <text x="20" y="18" fill="#8a8a8a" font-style="italic">Left: what melting swaps. Right: the swap happens when the sun is already going down.</text>
+
+  <!-- LEFT: albedo ladder -->
+  <text x="20" y="46" fill="#8a8a8a">surface albedo</text>
+  <line x1="120" y1="240" x2="300" y2="240" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="116" y="258" fill="#8a8a8a">0</text>
+  <line x1="210" y1="240" x2="210" y2="245" stroke="#8a8a8a"/><text x="200" y="258" fill="#8a8a8a">0.5</text>
+  <line x1="300" y1="240" x2="300" y2="245" stroke="#8a8a8a"/><text x="292" y="258" fill="#8a8a8a">1.0</text>
+
+  <rect x="120" y="62" width="153" height="14" fill="#4a90d9" opacity="0.35" stroke="#4a90d9" stroke-width="1.2"/>
+  <text x="114" y="73" fill="#8a8a8a" text-anchor="end">fresh snow  0.85</text>
+  <rect x="120" y="84" width="117" height="14" fill="#4a90d9" opacity="0.35" stroke="#4a90d9" stroke-width="1.2"/>
+  <text x="114" y="95" fill="#8a8a8a" text-anchor="end">snow on ice  0.65</text>
+  <rect x="120" y="106" width="99" height="14" fill="#4a90d9" opacity="0.35" stroke="#4a90d9" stroke-width="1.2"/>
+  <text x="114" y="117" fill="#8a8a8a" text-anchor="end">bare sea ice  0.55</text>
+  <rect x="120" y="128" width="54" height="14" fill="#4a90d9" opacity="0.35" stroke="#4a90d9" stroke-width="1.2"/>
+  <text x="114" y="139" fill="#8a8a8a" text-anchor="end">melt ponds  0.30</text>
+  <rect x="120" y="150" width="36" height="14" fill="#4a90d9" opacity="0.35" stroke="#4a90d9" stroke-width="1.2"/>
+  <text x="114" y="161" fill="#8a8a8a" text-anchor="end">tundra, forest  0.20</text>
+  <rect x="120" y="172" width="11" height="14" fill="#4a90d9" opacity="0.35" stroke="#4a90d9" stroke-width="1.2"/>
+  <text x="114" y="183" fill="#8a8a8a" text-anchor="end">open ocean  0.06</text>
+
+  <!-- the swap arrow -->
+  <line x1="290" y1="113" x2="290" y2="179" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="290,179 285,169 295,169" fill="#e0645c"/>
+  <text x="248" y="206" fill="#e0645c">&#916;&#945; &#8776; &#8211;0.5</text>
+
+  <!-- RIGHT: seasonal mismatch -->
+  <text x="380" y="46" fill="#8a8a8a">Arctic annual cycle (75&#176;N)</text>
+  <line x1="350" y1="240" x2="620" y2="240" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="350" y1="240" x2="350" y2="60" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="346" y="258" fill="#8a8a8a">J</text>
+  <text x="444" y="258" fill="#8a8a8a">M</text>
+  <text x="469" y="258" fill="#8a8a8a">J</text>
+  <text x="543" y="258" fill="#8a8a8a">S</text>
+  <text x="617" y="258" fill="#8a8a8a">D</text>
+
+  <path d="M 350.0,240.0 L 374.5,240.0 L 399.1,220.6 L 423.6,168.7 L 448.2,103.9 L 472.7,71.5 L 497.3,84.4 L 521.8,146.0 L 546.4,204.4 L 570.9,236.8 L 595.5,240.0 L 620.0,240.0"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="452" y="64" fill="#4a90d9">insolation</text>
+
+  <path d="M 350.0,73.8 L 374.5,65.0 L 399.1,65.0 L 423.6,70.2 L 448.2,82.5 L 472.7,103.5 L 497.3,135.0 L 521.8,161.2 L 546.4,170.0 L 570.9,143.8 L 595.5,108.8 L 620.0,86.0"
+        fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="352" y="60" fill="#e0645c">sea-ice extent</text>
+
+  <line x1="546.4" y1="170" x2="546.4" y2="204.4" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 3"/>
+  <circle cx="546.4" cy="170" r="3.5" fill="#e0645c"/>
+  <text x="500" y="288" fill="#8a8a8a">ice minimum in September,</text>
+  <text x="500" y="302" fill="#8a8a8a">when the sun is nearly gone</text>
+</svg>

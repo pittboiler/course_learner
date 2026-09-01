@@ -1,0 +1,41 @@
+<svg viewBox="0 0 700 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="11.5">
+  <text x="20" y="20" fill="#8a8a8a" font-style="italic">Isopycnals rise steeply across the ACC: a slope near 1.2 in a thousand, ten times any other current&#8217;s.</text>
+
+  <line x1="115" y1="272" x2="640" y2="272" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="115" y1="272" x2="115" y2="58" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="118" y="303" fill="#8a8a8a">65 S</text>
+  <text x="600" y="303" fill="#8a8a8a">55 S</text>
+  <text x="326" y="303" fill="#8a8a8a">1000 km</text>
+  <text x="26" y="165" fill="#8a8a8a">depth</text>
+  <line x1="109" y1="62" x2="115" y2="62" stroke="#8a8a8a"/><text x="76" y="66" fill="#8a8a8a">0 m</text>
+  <line x1="109" y1="132" x2="115" y2="132" stroke="#8a8a8a"/><text x="60" y="136" fill="#8a8a8a">1000</text>
+  <line x1="109" y1="202" x2="115" y2="202" stroke="#8a8a8a"/><text x="60" y="206" fill="#8a8a8a">2000</text>
+  <line x1="109" y1="272" x2="115" y2="272" stroke="#8a8a8a"/><text x="60" y="276" fill="#8a8a8a">3000</text>
+
+  <path d="M 115,62 L 640,62" fill="none" stroke="#4a90d9" stroke-width="2"/>
+
+  <path d="M 115,68 L 640,272" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+  <path d="M 187,62 L 640,238" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+  <path d="M 277,62 L 640,203" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+  <path d="M 367,62 L 640,168" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+  <path d="M 457,62 L 640,133" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+  <text x="486" y="256" fill="#e0645c">isopycnals, outcropping to the south</text>
+  <text x="128" y="96" fill="#e0645c">denser</text>
+  <text x="560" y="86" fill="#e0645c">lighter</text>
+
+  <circle cx="330" cy="88" r="11" fill="none" stroke="#4a90d9" stroke-width="2.2"/>
+  <circle cx="330" cy="88" r="3" fill="#4a90d9"/>
+  <text x="348" y="92" fill="#4a90d9">0.11 m s&#8315;&#185; eastward at the surface</text>
+
+  <circle cx="330" cy="167" r="6.5" fill="none" stroke="#4a90d9" stroke-width="1.8"/>
+  <circle cx="330" cy="167" r="2" fill="#4a90d9"/>
+  <text x="348" y="171" fill="#4a90d9">0.06 m s&#8315;&#185; at 1500 m</text>
+
+  <circle cx="330" cy="266" r="3" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="348" y="270" fill="#8a8a8a">zero at 3000 m</text>
+
+  <line x1="115" y1="284" x2="640" y2="284" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="115" y1="280" x2="115" y2="288" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="640" y1="280" x2="640" y2="288" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="176" y="126" fill="#8a8a8a">transport = width x depth x mean speed = 170 Sv</text>
+</svg>

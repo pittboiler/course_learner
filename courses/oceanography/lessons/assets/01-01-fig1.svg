@@ -1,0 +1,36 @@
+<svg viewBox="0 0 660 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="12">
+  <text x="20" y="20" fill="#8a8a8a" font-style="italic">Deep Pacific below 2000 m. In-situ T has a minimum; potential temperature does not.</text>
+
+  <line x1="140" y1="250" x2="620" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="140" y1="250" x2="140" y2="45" stroke="#8a8a8a" stroke-width="1.5"/>
+
+  <text x="330" y="284" fill="#8a8a8a">temperature (degrees C)</text>
+  <text x="20" y="150" fill="#8a8a8a">depth (m)</text>
+
+  <line x1="168.8" y1="250" x2="168.8" y2="256" stroke="#8a8a8a"/><text x="158" y="270" fill="#8a8a8a">1.0</text>
+  <line x1="312.5" y1="250" x2="312.5" y2="256" stroke="#8a8a8a"/><text x="302" y="270" fill="#8a8a8a">1.5</text>
+  <line x1="456.2" y1="250" x2="456.2" y2="256" stroke="#8a8a8a"/><text x="446" y="270" fill="#8a8a8a">2.0</text>
+  <line x1="600" y1="250" x2="600" y2="256" stroke="#8a8a8a"/><text x="590" y="270" fill="#8a8a8a">2.5</text>
+
+  <line x1="134" y1="50" x2="140" y2="50" stroke="#8a8a8a"/><text x="92" y="54" fill="#8a8a8a">2000</text>
+  <line x1="134" y1="107.1" x2="140" y2="107.1" stroke="#8a8a8a"/><text x="92" y="111" fill="#8a8a8a">3000</text>
+  <line x1="134" y1="164.3" x2="140" y2="164.3" stroke="#8a8a8a"/><text x="92" y="168" fill="#8a8a8a">4000</text>
+  <line x1="134" y1="221.4" x2="140" y2="221.4" stroke="#8a8a8a"/><text x="92" y="225" fill="#8a8a8a">5000</text>
+
+  <path d="M 485.0,50.0 L 370.0,78.6 L 298.1,107.1 L 255.0,135.7 L 226.2,164.3 L 211.9,192.9 L 203.3,221.4 L 197.5,250.0"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="150" y="215" fill="#4a90d9">potential</text>
+  <text x="150" y="229" fill="#4a90d9">temperature &#952;</text>
+
+  <path d="M 553.4,50.0 L 457.4,78.6 L 405.4,107.1 L 382.9,135.7 L 375.8,164.3 L 383.8,192.9 L 398.8,221.4 L 417.2,250.0"
+        fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="470" y="118" fill="#e0645c">in-situ temperature T</text>
+
+  <circle cx="375.8" cy="164.3" r="3.5" fill="#e0645c"/>
+  <line x1="375.8" y1="164.3" x2="452" y2="196" stroke="#e0645c" stroke-width="1"/>
+  <text x="456" y="200" fill="#e0645c">T minimum near 4000 m</text>
+  <text x="456" y="214" fill="#e0645c">then warming downward</text>
+
+  <line x1="197.5" y1="250" x2="417.2" y2="250" stroke="#8a8a8a" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <text x="222" y="243" fill="#8a8a8a">adiabatic offset at 5500 m: 0.76 degrees</text>
+</svg>

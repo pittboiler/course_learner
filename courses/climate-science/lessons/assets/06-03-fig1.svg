@@ -1,0 +1,26 @@
+<svg viewBox="0 0 660 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="12">
+  <text x="20" y="20" fill="#8a8a8a" font-style="italic">The forcing wobbles at 23 and 41 kyr. The ice answers at 100 kyr, with a sawtooth. That is the problem.</text>
+
+  <text x="20" y="66" fill="#4a90d9">65&#176;N June</text>
+  <text x="20" y="80" fill="#4a90d9">insolation</text>
+  <path d="M 100,117 L 105,98 L 110,87 L 116,99 L 121,111 L 126,111 L 131,107 L 136,103 L 142,98 L 147,99 L 152,100 L 157,95 L 162,98 L 168,118 L 173,127 L 178,101 L 183,75 L 188,90 L 194,118 L 199,115 L 204,94 L 209,95 L 214,112 L 220,113 L 225,100 L 230,95 L 235,96 L 240,100 L 246,106 L 251,108 L 256,104 L 261,106 L 266,113 L 272,104 L 277,80 L 282,83 L 287,117 L 292,131 L 298,106 L 303,85 L 308,97 L 313,112 L 318,104 L 324,93 L 329,99 L 334,108 L 339,110 L 344,107 L 350,102 L 355,97 L 360,100 L 365,105 L 370,97 L 376,91 L 381,109 L 386,130 L 391,113 L 396,79 L 402,79 L 407,109 L 412,119 L 417,104 L 422,97 L 428,106 L 433,109 L 438,101 L 443,96 L 448,97 L 454,100 L 459,108 L 464,109 L 469,101 L 474,99 L 480,113 L 485,113 L 490,87 L 495,76 L 500,104 L 506,132 L 511,118 L 516,91 L 521,90 L 526,104 L 532,104 L 537,98 L 542,101 L 547,107 L 552,109 L 558,108 L 563,101 L 568,93 L 573,99 L 578,110 L 584,104 L 589,88 L 594,98 L 599,126 L 604,124 L 610,89 L 615,75 L 620,97" fill="none" stroke="#4a90d9" stroke-width="2"/>
+
+  <text x="20" y="200" fill="#e0645c">global ice</text>
+  <text x="20" y="214" fill="#e0645c">volume</text>
+  <path d="M 100,244 L 110,240 L 121,234 L 131,227 L 142,219 L 152,210 L 162,201 L 173,191 L 178,186 L 181,244 L 191,240 L 201,235 L 212,229 L 222,222 L 233,214 L 243,207 L 253,198 L 264,190 L 269,185 L 272,244 L 282,240 L 292,235 L 303,230 L 313,224 L 324,217 L 334,210 L 344,202 L 355,195 L 365,187 L 368,244 L 378,242 L 389,238 L 399,234 L 409,229 L 420,224 L 430,218 L 441,212 L 451,206 L 461,200 L 472,193 L 482,187 L 485,244 L 495,242 L 506,239 L 516,235 L 526,230 L 537,225 L 547,220 L 558,215 L 568,209 L 578,203 L 589,197 L 599,191 L 607,186 L 610,247 L 620,247" fill="none" stroke="#e0645c" stroke-width="2.5"/>
+
+  <line x1="100" y1="262" x2="625" y2="262" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="300" y="300" fill="#8a8a8a">thousands of years before present</text>
+  <line x1="204" y1="262" x2="204" y2="268" stroke="#8a8a8a"/><text x="192" y="282" fill="#8a8a8a">400</text>
+  <line x1="308" y1="262" x2="308" y2="268" stroke="#8a8a8a"/><text x="296" y="282" fill="#8a8a8a">300</text>
+  <line x1="412" y1="262" x2="412" y2="268" stroke="#8a8a8a"/><text x="400" y="282" fill="#8a8a8a">200</text>
+  <line x1="516" y1="262" x2="516" y2="268" stroke="#8a8a8a"/><text x="504" y="282" fill="#8a8a8a">100</text>
+  <line x1="620" y1="262" x2="620" y2="268" stroke="#8a8a8a"/><text x="614" y="282" fill="#8a8a8a">0</text>
+
+  <line x1="181" y1="150" x2="181" y2="250" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="272" y1="150" x2="272" y2="250" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="368" y1="150" x2="368" y2="250" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="485" y1="150" x2="485" y2="250" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="610" y1="150" x2="610" y2="250" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="196" y="160" fill="#8a8a8a">terminations: slow growth, abrupt collapse</text>
+</svg>

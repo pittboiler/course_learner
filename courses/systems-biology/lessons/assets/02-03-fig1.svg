@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 320" width="820" height="320" role="img" aria-label="Three panels: response curves for negatively autoregulated, unregulated and positively autoregulated genes rising to the same plateau; a sigmoidal production curve crossing a linear removal line three times; and a bimodal single-cell histogram.">
+  <rect width="820" height="320" fill="#ffffff"/>
+  <text x="14" y="21" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#111">Positive autoregulation: slower, bigger, noisier &#8212; and, if steep enough, bistable</text>
+
+  <!-- ================= PANEL A ================= -->
+  <text x="50" y="47" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="bold" fill="#111">(a) Same plateau, three response times</text>
+  <line x1="50" y1="225" x2="262" y2="225" stroke="#333" stroke-width="1.5"/>
+  <line x1="50" y1="225" x2="50" y2="68" stroke="#333" stroke-width="1.5"/>
+  <text x="36" y="72" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">Y</text>
+  <line x1="50" y1="90" x2="258" y2="90" stroke="#8fa8c0" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="196" y="86" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#555">steady state</text>
+  <line x1="50" y1="157.5" x2="258" y2="157.5" stroke="#8fa8c0" stroke-width="1" stroke-dasharray="2,3"/>
+  <text x="46" y="161" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#555">0.5</text>
+
+  <polyline fill="none" stroke="#2e8b57" stroke-width="2" points="50,225 54.1,200.5 58.2,180.5 62.3,164.1 66.4,150.7 70.5,139.7 78.7,123.3 86.9,112.3 99.2,102.3 115.6,95.5 132,92.5 156.6,90.7 193.5,90.1 255,90.0"/>
+  <polyline fill="none" stroke="#111" stroke-width="2" points="50,225 58.2,200.5 66.4,180.5 74.6,164.1 82.8,150.7 91,139.7 107.4,123.3 123.8,112.3 148.4,102.3 181.2,95.5 214,92.5 255,91.1"/>
+  <polyline fill="none" stroke="#d1495b" stroke-width="2" points="50,225 66.4,200.5 82.8,180.5 99.2,164.1 115.6,150.7 132,139.7 164.8,123.3 197.6,112.3 230.4,104.0 255,101.1"/>
+
+  <line x1="64.2" y1="152" x2="64.2" y2="163" stroke="#2e8b57" stroke-width="1.6"/>
+  <line x1="78.4" y1="152" x2="78.4" y2="163" stroke="#111" stroke-width="1.6"/>
+  <line x1="106.8" y1="152" x2="106.8" y2="163" stroke="#d1495b" stroke-width="1.6"/>
+
+  <text x="150" y="176" font-family="Helvetica,Arial,sans-serif" font-size="9.5" font-weight="bold" fill="#111">half-time (units of 1/&#945;)</text>
+  <line x1="152" y1="188" x2="170" y2="188" stroke="#2e8b57" stroke-width="2"/>
+  <text x="174" y="192" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">NAR    0.35</text>
+  <line x1="152" y1="202" x2="170" y2="202" stroke="#111" stroke-width="2"/>
+  <text x="174" y="206" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">simple  0.69</text>
+  <line x1="152" y1="216" x2="170" y2="216" stroke="#d1495b" stroke-width="2"/>
+  <text x="174" y="220" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">PAR     1.39</text>
+  <text x="156" y="243" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">time (units of 1/&#945;)</text>
+  <text x="50" y="262" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#555">factor 1/(1 &#8722; &#966;),  &#966; = f&#8242;(Yst)/&#945;</text>
+  <text x="50" y="276" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#555">here &#966; = &#8722;1, 0, +0.5</text>
+
+  <!-- ================= PANEL B ================= -->
+  <text x="335" y="47" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="bold" fill="#111">(b) Three crossings = bistability</text>
+  <line x1="335" y1="225" x2="548" y2="225" stroke="#333" stroke-width="1.5"/>
+  <line x1="335" y1="225" x2="335" y2="68" stroke="#333" stroke-width="1.5"/>
+  <text x="321" y="72" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">rate</text>
+
+  <line x1="335" y1="225" x2="540" y2="90" stroke="#1a6fb5" stroke-width="2"/>
+  <polyline fill="none" stroke="#2e8b57" stroke-width="2" points="335,225 347.8,219.0 360.6,204.8 373.4,188.6 386.25,174.4 399.1,163.3 411.9,154.9 437.5,144.0 463.1,137.7 488.75,133.9 514.4,131.4 540,129.7"/>
+
+  <circle cx="335" cy="225" r="4.2" fill="#111"/>
+  <circle cx="354.6" cy="212.1" r="4.2" fill="#ffffff" stroke="#d1495b" stroke-width="2"/>
+  <circle cx="469.2" cy="136.6" r="4.2" fill="#111"/>
+  <text x="476" y="130" font-family="Helvetica,Arial,sans-serif" font-size="10" font-weight="bold" fill="#111">ON</text>
+  <text x="335" y="238" font-family="Helvetica,Arial,sans-serif" font-size="10" font-weight="bold" fill="#111">OFF</text>
+  <line x1="386.25" y1="225" x2="386.25" y2="230" stroke="#333" stroke-width="1.5"/>
+  <text x="386.25" y="240" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">K</text>
+  <text x="540" y="240" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">Y</text>
+
+  <line x1="340" y1="258" x2="356" y2="258" stroke="#2e8b57" stroke-width="2"/>
+  <text x="360" y="262" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">production f(Y), Hill n = 2</text>
+  <line x1="340" y1="272" x2="356" y2="272" stroke="#1a6fb5" stroke-width="2"/>
+  <text x="360" y="276" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">removal &#945;Y</text>
+  <circle cx="347" cy="286" r="3.5" fill="#111"/>
+  <text x="360" y="290" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">stable</text>
+  <circle cx="411" cy="286" r="3.5" fill="#ffffff" stroke="#d1495b" stroke-width="2"/>
+  <text x="424" y="290" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">unstable = threshold</text>
+  <text x="340" y="307" font-family="Helvetica,Arial,sans-serif" font-size="9.5" font-style="italic" fill="#d1495b">bifurcation and hysteresis: Lesson 3.2</text>
+
+  <!-- ================= PANEL C ================= -->
+  <text x="615" y="47" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="bold" fill="#111">(c) Bimodal population</text>
+  <line x1="615" y1="225" x2="805" y2="225" stroke="#333" stroke-width="1.5"/>
+  <line x1="615" y1="225" x2="615" y2="68" stroke="#333" stroke-width="1.5"/>
+  <text x="615" y="62" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">cells</text>
+
+  <rect x="615.0" y="200" width="11" height="25" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+  <rect x="629.2" y="147" width="11" height="78" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+  <rect x="643.4" y="120" width="11" height="105" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+  <rect x="657.6" y="157" width="11" height="68" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+  <rect x="671.8" y="201" width="11" height="24" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+  <rect x="686.0" y="217" width="11" height="8" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+  <rect x="700.2" y="221" width="11" height="4" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+  <rect x="714.4" y="221" width="11" height="4" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+  <rect x="728.6" y="216" width="11" height="9" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+  <rect x="742.8" y="199" width="11" height="26" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+  <rect x="757.0" y="163" width="11" height="62" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+  <rect x="771.2" y="141" width="11" height="84" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+  <rect x="785.4" y="185" width="11" height="40" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+
+  <line x1="700.1" y1="225" x2="700.1" y2="88" stroke="#d1495b" stroke-width="1.6" stroke-dasharray="5,3"/>
+  <text x="704" y="84" font-family="Helvetica,Arial,sans-serif" font-size="9.5" font-weight="bold" fill="#d1495b">population mean</text>
+  <text x="620" y="108" font-family="Helvetica,Arial,sans-serif" font-size="10" font-weight="bold" fill="#111">OFF</text>
+  <text x="758" y="130" font-family="Helvetica,Arial,sans-serif" font-size="10" font-weight="bold" fill="#111">ON</text>
+  <text x="710" y="243" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">protein per cell</text>
+  <text x="615" y="262" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#555">the mean describes no cell</text>
+  <text x="615" y="276" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#555">Fano factor 1/(1 &#8722; &#966;) &#62; 1</text>
+</svg>

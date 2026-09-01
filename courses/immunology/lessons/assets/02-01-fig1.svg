@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 440" width="820" height="440" role="img" aria-label="An IgG antibody drawn as a Y with its domains labelled, beside stick schematics of the IgM pentamer and the secretory IgA dimer at a common scale.">
+<rect width="820" height="440" fill="#ffffff"/>
+<g font-family="Helvetica,Arial,sans-serif">
+
+<text x="20" y="26" font-size="13" font-weight="bold" fill="#111">Antibody architecture: a recognition end and an instruction end</text>
+<line x1="445" y1="44" x2="445" y2="380" stroke="#8fa8c0" stroke-width="1" stroke-dasharray="4 4"/>
+
+<text x="20" y="52" font-size="11.5" font-weight="bold" fill="#111">IgG monomer &#183; 2 sites &#183; 150 kDa</text>
+
+<line x1="200" y1="246" x2="282" y2="132" stroke="#8fa8c0" stroke-width="1" stroke-dasharray="3 3"/>
+
+<line x1="122" y1="170" x2="132" y2="187" stroke="#333" stroke-width="2"/>
+<line x1="278" y1="170" x2="268" y2="187" stroke="#333" stroke-width="2"/>
+<line x1="160" y1="165" x2="172" y2="182" stroke="#333" stroke-width="2"/>
+<line x1="240" y1="165" x2="228" y2="182" stroke="#333" stroke-width="2"/>
+
+<line x1="176" y1="220" x2="193" y2="262" stroke="#d1495b" stroke-width="4"/>
+<line x1="224" y1="220" x2="207" y2="262" stroke="#d1495b" stroke-width="4"/>
+<line x1="193" y1="262" x2="188" y2="272" stroke="#333" stroke-width="2"/>
+<line x1="207" y1="262" x2="212" y2="272" stroke="#333" stroke-width="2"/>
+
+<line x1="191" y1="248" x2="209" y2="248" stroke="#111" stroke-width="2.5"/>
+<line x1="191" y1="255" x2="209" y2="255" stroke="#111" stroke-width="2.5"/>
+<line x1="151" y1="206" x2="161" y2="203" stroke="#111" stroke-width="2.5"/>
+<line x1="249" y1="206" x2="239" y2="203" stroke="#111" stroke-width="2.5"/>
+
+<ellipse cx="118" cy="150" rx="15" ry="20" fill="#f5f7fa" stroke="#1a6fb5" stroke-width="2"/>
+<ellipse cx="158" cy="145" rx="15" ry="20" fill="#f5f7fa" stroke="#1a6fb5" stroke-width="2"/>
+<ellipse cx="242" cy="145" rx="15" ry="20" fill="#f5f7fa" stroke="#1a6fb5" stroke-width="2"/>
+<ellipse cx="282" cy="150" rx="15" ry="20" fill="#f5f7fa" stroke="#1a6fb5" stroke-width="2"/>
+<ellipse cx="136" cy="205" rx="15" ry="20" fill="#ffffff" stroke="#333" stroke-width="2"/>
+<ellipse cx="176" cy="200" rx="15" ry="20" fill="#ffffff" stroke="#333" stroke-width="2"/>
+<ellipse cx="224" cy="200" rx="15" ry="20" fill="#ffffff" stroke="#333" stroke-width="2"/>
+<ellipse cx="264" cy="205" rx="15" ry="20" fill="#ffffff" stroke="#333" stroke-width="2"/>
+<ellipse cx="186" cy="292" rx="15" ry="20" fill="#eef7f1" stroke="#2e8b57" stroke-width="2"/>
+<ellipse cx="214" cy="292" rx="15" ry="20" fill="#eef7f1" stroke="#2e8b57" stroke-width="2"/>
+<ellipse cx="186" cy="345" rx="15" ry="20" fill="#eef7f1" stroke="#2e8b57" stroke-width="2"/>
+<ellipse cx="214" cy="345" rx="15" ry="20" fill="#eef7f1" stroke="#2e8b57" stroke-width="2"/>
+
+<text x="118" y="154" font-size="10" fill="#111" text-anchor="middle">VL</text>
+<text x="158" y="149" font-size="10" fill="#111" text-anchor="middle">VH</text>
+<text x="242" y="149" font-size="10" fill="#111" text-anchor="middle">VH</text>
+<text x="282" y="154" font-size="10" fill="#111" text-anchor="middle">VL</text>
+<text x="136" y="209" font-size="10" fill="#111" text-anchor="middle">CL</text>
+<text x="176" y="204" font-size="9.5" fill="#111" text-anchor="middle">CH1</text>
+<text x="224" y="204" font-size="9.5" fill="#111" text-anchor="middle">CH1</text>
+<text x="264" y="209" font-size="10" fill="#111" text-anchor="middle">CL</text>
+<text x="186" y="296" font-size="9.5" fill="#111" text-anchor="middle">CH2</text>
+<text x="214" y="296" font-size="9.5" fill="#111" text-anchor="middle">CH2</text>
+<text x="186" y="349" font-size="9.5" fill="#111" text-anchor="middle">CH3</text>
+<text x="214" y="349" font-size="9.5" fill="#111" text-anchor="middle">CH3</text>
+
+<circle cx="196" cy="307" r="4" fill="#2e8b57"/>
+<circle cx="204" cy="307" r="4" fill="#2e8b57"/>
+
+<circle cx="110" cy="128" r="3.5" fill="#d1495b"/>
+<circle cx="118" cy="125" r="3.5" fill="#d1495b"/>
+<circle cx="126" cy="128" r="3.5" fill="#d1495b"/>
+<circle cx="150" cy="123" r="3.5" fill="#d1495b"/>
+<circle cx="158" cy="120" r="3.5" fill="#d1495b"/>
+<circle cx="166" cy="123" r="3.5" fill="#d1495b"/>
+<circle cx="234" cy="123" r="3.5" fill="#d1495b"/>
+<circle cx="242" cy="120" r="3.5" fill="#d1495b"/>
+<circle cx="250" cy="123" r="3.5" fill="#d1495b"/>
+<circle cx="274" cy="128" r="3.5" fill="#d1495b"/>
+<circle cx="282" cy="125" r="3.5" fill="#d1495b"/>
+<circle cx="290" cy="128" r="3.5" fill="#d1495b"/>
+<polyline points="132,110 138,121 144,110" fill="none" stroke="#d1495b" stroke-width="2"/>
+<polyline points="256,110 262,121 268,110" fill="none" stroke="#d1495b" stroke-width="2"/>
+
+<line x1="152" y1="238" x2="248" y2="238" stroke="#d1495b" stroke-width="1.5" stroke-dasharray="5 3"/>
+<line x1="152" y1="268" x2="248" y2="268" stroke="#1a6fb5" stroke-width="1.5" stroke-dasharray="5 3"/>
+<text x="148" y="235" font-size="10" fill="#d1495b" text-anchor="end">papain</text>
+<text x="148" y="280" font-size="10" fill="#1a6fb5" text-anchor="end">pepsin</text>
+
+<text x="20" y="80" font-size="11" fill="#d1495b">CDR loops: 3 per chain, 6 per site</text>
+<line x1="140" y1="86" x2="136" y2="106" stroke="#d1495b" stroke-width="1"/>
+<text x="20" y="158" font-size="10.5" fill="#333">light chain</text>
+<line x1="88" y1="155" x2="102" y2="152" stroke="#333" stroke-width="1"/>
+<text x="20" y="308" font-size="10.5" fill="#333">papain &#8594; 2 Fab + Fc</text>
+<text x="20" y="326" font-size="10.5" fill="#333">pepsin &#8594; one F(ab')2</text>
+<text x="20" y="344" font-size="10.5" fill="#333">bars = interchain S&#8211;S</text>
+
+<text x="250" y="98" font-size="11" font-weight="bold" fill="#1a6fb5">Fab &#8594; what is bound</text>
+<line x1="292" y1="102" x2="288" y2="126" stroke="#1a6fb5" stroke-width="1"/>
+<text x="304" y="176" font-size="10.5" fill="#333">&#8776;7 nm arm</text>
+<text x="306" y="222" font-size="10.5" fill="#333">heavy chain</text>
+<line x1="302" y1="219" x2="241" y2="205" stroke="#333" stroke-width="1"/>
+<text x="252" y="252" font-size="10.5" fill="#d1495b">hinge</text>
+<line x1="248" y1="249" x2="216" y2="250" stroke="#d1495b" stroke-width="1"/>
+<text x="252" y="292" font-size="10.5" fill="#2e8b57">glycan</text>
+<line x1="248" y1="290" x2="211" y2="303" stroke="#2e8b57" stroke-width="1"/>
+<text x="250" y="326" font-size="11" font-weight="bold" fill="#2e8b57">Fc &#8594; what happens next</text>
+<line x1="296" y1="330" x2="234" y2="342" stroke="#2e8b57" stroke-width="1"/>
+
+<text x="460" y="52" font-size="11.5" font-weight="bold" fill="#111">Same V regions, different assembly</text>
+
+<g stroke="#1a6fb5" stroke-width="3" fill="none">
+<polyline points="521.7,66.1 545,96 568.3,66.1"/>
+<polyline points="598.6,88.1 577.3,119.5 613.0,132.4"/>
+<polyline points="601.4,168.0 565.0,157.5 563.7,195.4"/>
+<polyline points="526.3,195.4 525.0,157.5 488.6,168.0"/>
+<polyline points="477.0,132.4 512.7,119.5 491.4,88.1"/>
+</g>
+<g stroke="#333" stroke-width="2.5">
+<line x1="545" y1="130" x2="545" y2="96"/>
+<line x1="545" y1="130" x2="577.3" y2="119.5"/>
+<line x1="545" y1="130" x2="565.0" y2="157.5"/>
+<line x1="545" y1="130" x2="525.0" y2="157.5"/>
+<line x1="545" y1="130" x2="512.7" y2="119.5"/>
+</g>
+<circle cx="545" cy="130" r="9" fill="#f5f7fa" stroke="#111" stroke-width="1.5"/>
+<text x="545" y="134" font-size="9.5" fill="#111" text-anchor="middle">J</text>
+
+<path d="M 500 238 Q 545 212 590 238" fill="none" stroke="#2e8b57" stroke-width="3"/>
+<text x="545" y="219" font-size="9.5" fill="#2e8b57" text-anchor="middle">SC</text>
+<g stroke="#1a6fb5" stroke-width="3" fill="none">
+<polyline points="484,230 511,250 484,270"/>
+<polyline points="606,230 579,250 606,270"/>
+</g>
+<g stroke="#333" stroke-width="2.5">
+<line x1="545" y1="250" x2="511" y2="250"/>
+<line x1="545" y1="250" x2="579" y2="250"/>
+</g>
+<circle cx="545" cy="250" r="9" fill="#f5f7fa" stroke="#111" stroke-width="1.5"/>
+<text x="545" y="254" font-size="9.5" fill="#111" text-anchor="middle">J</text>
+
+<polyline points="518,314 545,334 572,314" fill="none" stroke="#1a6fb5" stroke-width="3"/>
+<line x1="545" y1="334" x2="545" y2="368" stroke="#333" stroke-width="2.5"/>
+
+<text x="640" y="124" font-size="11" font-weight="bold" fill="#111">IgM pentamer &#183; 10 sites</text>
+<text x="640" y="142" font-size="10.5" fill="#333">&#8776;30 nm across; no hinge</text>
+<text x="640" y="160" font-size="10.5" fill="#333">&#8776;5 usable on a flat surface</text>
+<text x="640" y="246" font-size="11" font-weight="bold" fill="#111">secretory IgA &#183; 4 sites</text>
+<text x="640" y="264" font-size="10.5" fill="#333">dimer + J chain + SC</text>
+<text x="640" y="332" font-size="11" font-weight="bold" fill="#111">IgG monomer &#183; 2 sites</text>
+<text x="640" y="350" font-size="10.5" fill="#333">V regions identical in all</text>
+
+<line x1="20" y1="392" x2="800" y2="392" stroke="#8fa8c0" stroke-width="1"/>
+<text x="20" y="414" font-size="10.5" fill="#333">All somatic diversity sits in the V domains; the C domains are germline &#8212; so class switching swaps Fc without touching specificity.</text>
+
+</g>
+</svg>

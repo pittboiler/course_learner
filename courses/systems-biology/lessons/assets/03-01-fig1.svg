@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 450" width="820" height="450" role="img" aria-label="Left panel: the phase plane of a mutual-activation two-gene circuit in the positive quadrant, with a blue sigmoidal u-nullcline and a coral sigmoidal v-nullcline crossing three times, at the origin, at a saddle, and at a high ON state. A green dashed separatrix runs through the saddle and divides the quadrant into the basin of the OFF state and the basin of the ON state. Grey trajectories with arrows flow to one attractor or the other. Right panel: the trace-determinant plane with the discriminant parabola drawn, showing all three fixed points plotted on the vertical line where the trace equals minus two, the saddle below the horizontal axis, the ON state in the stable node region, and the OFF state sitting exactly on the parabola.">
+<rect width="820" height="450" fill="#ffffff"/>
+
+<defs>
+<marker id="ar" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto">
+<path d="M0,0 L7,3 L0,6 z" fill="#555"/>
+</marker>
+</defs>
+
+<text x="70" y="26" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#111">(a) Phase plane: mutual activation, n = 2, alpha = 2.5</text>
+
+<rect x="70" y="46" width="340" height="314" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+
+<line x1="70" y1="360" x2="410" y2="360" stroke="#333" stroke-width="1.5"/>
+<line x1="70" y1="360" x2="70" y2="46" stroke="#333" stroke-width="1.5"/>
+<text x="416" y="365" font-family="Helvetica,Arial,sans-serif" font-size="12" font-style="italic" fill="#111">u</text>
+<text x="60" y="42" font-family="Helvetica,Arial,sans-serif" font-size="12" font-style="italic" fill="#111">v</text>
+
+<line x1="180" y1="360" x2="180" y2="355" stroke="#333" stroke-width="1"/>
+<line x1="290" y1="360" x2="290" y2="355" stroke="#333" stroke-width="1"/>
+<line x1="400" y1="360" x2="400" y2="355" stroke="#333" stroke-width="1"/>
+<text x="177" y="374" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">1</text>
+<text x="287" y="374" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">2</text>
+<text x="397" y="374" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">3</text>
+<line x1="70" y1="260" x2="75" y2="260" stroke="#333" stroke-width="1"/>
+<line x1="70" y1="160" x2="75" y2="160" stroke="#333" stroke-width="1"/>
+<line x1="70" y1="60" x2="75" y2="60" stroke="#333" stroke-width="1"/>
+<text x="58" y="264" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">1</text>
+<text x="58" y="164" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">2</text>
+<text x="58" y="64" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">3</text>
+
+<polyline points="97.5,200 163.6,240.7 202.2,233.4 228.1,214.8 248.0,197.8 262.4,185.0 278.8,170.2 287.3,162.5" fill="none" stroke="#555" stroke-width="1.2" marker-end="url(#ar)"/>
+<polyline points="246,335 201.2,274.9 209.3,239.8 229.7,216.3 248.4,198.2 262.5,185.1 278.8,170.2 287.3,162.5" fill="none" stroke="#555" stroke-width="1.2" marker-end="url(#ar)"/>
+<polyline points="389,270 319.5,213.2 293.4,181.7 287.8,169.9 287.4,165 288.6,161.6" fill="none" stroke="#555" stroke-width="1.2" marker-end="url(#ar)"/>
+<polyline points="86.5,305 98.6,324.2 94.4,336.1 86.2,344.9 79.1,351.5 74.6,355.7 71.5,358.8" fill="none" stroke="#555" stroke-width="1.2" marker-end="url(#ar)"/>
+<polyline points="130.5,345 109.4,334 96.3,337.8 86.6,345.3 79.4,351.7 74.7,355.8 71.5,358.8" fill="none" stroke="#555" stroke-width="1.2" marker-end="url(#ar)"/>
+
+<polyline points="70,360 86.2,335 125,310 169,285 207.5,260 237.7,235 260.4,210 277.3,185 290,160 307.1,110 317.5,60" fill="none" stroke="#1a6fb5" stroke-width="2.4"/>
+<polyline points="70,360 97.5,345.3 125,310 152.5,270 180,235 207.5,207.6 235,186.9 262.5,171.5 290,160 345,144.5 400,135" fill="none" stroke="#d1495b" stroke-width="2.4"/>
+
+<polyline points="70,263.9 81,272.3 103,290.5 119.5,305 125,310 130.5,315 146.5,330 166.5,350 175.7,360" fill="none" stroke="#2e8b57" stroke-width="2.2" stroke-dasharray="7,4"/>
+
+<circle cx="290" cy="160" r="5.5" fill="#111"/>
+<circle cx="70" cy="360" r="5.5" fill="#111"/>
+<circle cx="125" cy="310" r="5.5" fill="#ffffff" stroke="#111" stroke-width="2"/>
+
+<text x="300" y="152" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="bold" fill="#111">ON (2, 2)</text>
+<text x="300" y="165" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">stable node</text>
+<text x="139" y="303" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="bold" fill="#111">saddle (0.5, 0.5)</text>
+<line x1="76" y1="356" x2="128" y2="378" stroke="#333" stroke-width="0.8"/>
+<text x="132" y="382" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">OFF (0, 0), stable star</text>
+<text x="196" y="268" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#2e8b57" font-weight="bold">basin of ON</text>
+<text x="86" y="292" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#2e8b57" font-weight="bold">basin</text>
+<text x="86" y="303" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#2e8b57" font-weight="bold">of OFF</text>
+
+<line x1="76" y1="400" x2="104" y2="400" stroke="#1a6fb5" stroke-width="2.4"/>
+<text x="110" y="404" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">u-nullcline (du/dt = 0)</text>
+<line x1="76" y1="416" x2="104" y2="416" stroke="#d1495b" stroke-width="2.4"/>
+<text x="110" y="420" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">v-nullcline (dv/dt = 0)</text>
+<line x1="248" y1="400" x2="276" y2="400" stroke="#2e8b57" stroke-width="2.2" stroke-dasharray="7,4"/>
+<text x="282" y="404" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">separatrix</text>
+<line x1="248" y1="416" x2="276" y2="416" stroke="#555" stroke-width="1.2" marker-end="url(#ar)"/>
+<text x="288" y="420" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">trajectories</text>
+
+<line x1="455" y1="40" x2="455" y2="430" stroke="#8fa8c0" stroke-width="1"/>
+
+<text x="500" y="26" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#111">(b) Trace-determinant plane</text>
+
+<rect x="500" y="46" width="300" height="314" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+
+<line x1="510" y1="200" x2="790" y2="200" stroke="#333" stroke-width="1.5"/>
+<line x1="720" y1="56" x2="720" y2="350" stroke="#333" stroke-width="1.5"/>
+<text x="762" y="215" font-family="Helvetica,Arial,sans-serif" font-size="11" font-style="italic" fill="#111">tr J</text>
+<text x="726" y="66" font-family="Helvetica,Arial,sans-serif" font-size="11" font-style="italic" fill="#111">det J</text>
+
+<polyline points="568,80 576,92 600,125 630,157.8 660,181.3 690,195.3 720,200 750,195.3 780,181.3" fill="none" stroke="#8fa8c0" stroke-width="2"/>
+<text x="536" y="76" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#5c7a96">det = (tr)&#178;/4</text>
+
+<line x1="600" y1="110" x2="600" y2="330" stroke="#333" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="556" y="344" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">tr J = &#8722;2 for all three</text>
+
+<circle cx="600" cy="125" r="5.5" fill="#111"/>
+<text x="609" y="118" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#111">OFF: det = 1, on the parabola</text>
+<text x="609" y="130" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">(degenerate star, J = &#8722;I)</text>
+
+<circle cx="600" cy="137" r="5.5" fill="#111"/>
+<text x="609" y="152" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#111">ON: det = 0.84, stable node</text>
+
+<circle cx="600" cy="317" r="5.5" fill="#ffffff" stroke="#111" stroke-width="2"/>
+<text x="609" y="321" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#111">saddle: det = &#8722;1.56</text>
+
+<text x="640" y="172" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#5c7a96">stable spiral</text>
+<text x="516" y="248" font-family="Helvetica,Arial,sans-serif" font-size="10" font-weight="bold" fill="#5c7a96">det &#60; 0: SADDLE</text>
+<text x="516" y="262" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#5c7a96">(a threshold, with a separatrix)</text>
+<text x="516" y="112" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#5c7a96">tr &#60; 0, below parabola:</text>
+<text x="516" y="124" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#5c7a96">stable node</text>
+
+<text x="500" y="404" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">Only the positive quadrant of (a) is biology: a</text>
+<text x="500" y="418" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">concentration cannot be negative, and the flow on</text>
+<text x="500" y="432" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">each axis points inward, so the quadrant is a trap.</text>
+
+</svg>

@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 510" width="760" height="510" role="img" aria-label="One antibody specificity at the centre with four effector mechanisms around it: neutralization, opsonization through phagocyte Fc gamma receptors, complement fixation by C1q, and antibody-dependent cellular cytotoxicity by an NK cell, each labelled with the isotype that performs it best.">
+  <rect width="760" height="510" fill="#ffffff"/>
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#333"/>
+    </marker>
+    <marker id="ahg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2e8b57"/>
+    </marker>
+    <marker id="ahb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#111"/>
+    </marker>
+  </defs>
+
+  <text x="380" y="26" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="bold" fill="#111">Fab decides what is bound. Fc decides what happens next.</text>
+
+  <!-- panels -->
+  <rect x="15" y="45" width="290" height="185" rx="6" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1.2"/>
+  <rect x="455" y="45" width="290" height="185" rx="6" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1.2"/>
+  <rect x="15" y="285" width="290" height="185" rx="6" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1.2"/>
+  <rect x="455" y="285" width="290" height="185" rx="6" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1.2"/>
+
+  <!-- hub -->
+  <circle cx="380" cy="257" r="34" fill="#ffffff" stroke="#111" stroke-width="2"/>
+  <text x="380" y="255" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#111">one</text>
+  <text x="380" y="268" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#111">antigen</text>
+  <g stroke="#1a6fb5" stroke-width="1.8" fill="none" stroke-linecap="round">
+    <g transform="translate(380,257) rotate(0) translate(0,-41) scale(1.5)"><path d="M-8,5 L0,-3 L8,5 M0,-3 L0,-17"/></g>
+    <g transform="translate(380,257) rotate(90) translate(0,-41) scale(1.5)"><path d="M-8,5 L0,-3 L8,5 M0,-3 L0,-17"/></g>
+    <g transform="translate(380,257) rotate(180) translate(0,-41) scale(1.5)"><path d="M-8,5 L0,-3 L8,5 M0,-3 L0,-17"/></g>
+    <g transform="translate(380,257) rotate(270) translate(0,-41) scale(1.5)"><path d="M-8,5 L0,-3 L8,5 M0,-3 L0,-17"/></g>
+  </g>
+  <g stroke="#666" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#ah)">
+    <line x1="340" y1="217" x2="318" y2="195"/>
+    <line x1="420" y1="217" x2="442" y2="195"/>
+    <line x1="340" y1="297" x2="318" y2="319"/>
+    <line x1="420" y1="297" x2="442" y2="319"/>
+  </g>
+
+  <!-- panel 1: neutralization -->
+  <text x="30" y="70" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#111">1 &#183; NEUTRALIZATION</text>
+  <text x="30" y="88" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#333">Fab only &#8212; no other component</text>
+  <circle cx="80" cy="135" r="20" fill="#ffffff" stroke="#d1495b" stroke-width="2"/>
+  <text x="80" y="139" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">virus</text>
+  <g stroke="#d1495b" stroke-width="2"><line x1="100" y1="135" x2="112" y2="135"/><line x1="80" y1="155" x2="80" y2="167"/></g>
+  <g stroke="#1a6fb5" stroke-width="2" fill="none" stroke-linecap="round">
+    <path d="M112,127 L120,135 L112,143 M120,135 L134,135"/>
+  </g>
+  <rect x="34" y="180" width="150" height="12" fill="#e6ecf3" stroke="#8fa8c0" stroke-width="1"/>
+  <rect x="72" y="170" width="16" height="10" fill="#2e8b57"/>
+  <text x="96" y="189" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">host receptor / membrane</text>
+  <g stroke="#d1495b" stroke-width="2.5"><line x1="74" y1="160" x2="86" y2="172"/><line x1="86" y1="160" x2="74" y2="172"/></g>
+  <text x="196" y="130" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333">blocks entry,</text>
+  <text x="196" y="145" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333">toxin or adhesin</text>
+  <text x="30" y="218" font-family="Helvetica,Arial,sans-serif" font-size="11.5" font-weight="bold" fill="#1a6fb5">Best: IgG, secretory IgA</text>
+
+  <!-- panel 2: opsonization -->
+  <text x="470" y="70" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#111">2 &#183; OPSONIZATION</text>
+  <text x="470" y="88" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#333">clustered Fc grips Fc&#947;R &#8594; eat</text>
+  <circle cx="530" cy="152" r="28" fill="#ffffff" stroke="#333" stroke-width="2"/>
+  <text x="530" y="156" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">microbe</text>
+  <circle cx="700" cy="152" r="45" fill="#eef3f8" stroke="#2e8b57" stroke-width="2"/>
+  <text x="704" y="156" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="bold" fill="#2e8b57">phagocyte</text>
+  <g stroke="#1a6fb5" stroke-width="2" fill="none" stroke-linecap="round">
+    <path d="M559,116 L572,124 L559,132 M572,124 L644,124"/>
+    <path d="M558,144 L571,152 L558,160 M571,152 L646,152"/>
+    <path d="M559,172 L572,180 L559,188 M572,180 L644,180"/>
+  </g>
+  <g fill="#2e8b57"><rect x="644" y="118" width="12" height="12"/><rect x="646" y="146" width="12" height="12"/><rect x="644" y="174" width="12" height="12"/></g>
+  <text x="612" y="206" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333">Fc&#947;RI / IIA / IIIA (ITAM)</text>
+  <text x="470" y="218" font-family="Helvetica,Arial,sans-serif" font-size="11.5" font-weight="bold" fill="#1a6fb5">Best: IgG1, IgG3</text>
+
+  <!-- panel 3: complement -->
+  <text x="30" y="310" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#111">3 &#183; COMPLEMENT FIXATION</text>
+  <text x="30" y="326" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#333">C1q needs 2 Fc within ~30 nm</text>
+  <text x="110" y="348" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="bold" fill="#d1495b">C1q</text>
+  <g stroke="#d1495b" stroke-width="1.8" fill="none">
+    <line x1="110" y1="352" x2="110" y2="366"/>
+    <path d="M110,366 L82,392 M110,366 L92,393 M110,366 L102,394 M110,366 L118,394 M110,366 L128,393 M110,366 L138,392"/>
+  </g>
+  <g fill="#d1495b"><circle cx="82" cy="394" r="3.5"/><circle cx="92" cy="395" r="3.5"/><circle cx="102" cy="396" r="3.5"/><circle cx="118" cy="396" r="3.5"/><circle cx="128" cy="395" r="3.5"/><circle cx="138" cy="394" r="3.5"/></g>
+  <g stroke="#1a6fb5" stroke-width="2" fill="none" stroke-linecap="round">
+    <path d="M81,428 L90,414 L99,428 M90,414 L90,398"/>
+    <path d="M121,428 L130,414 L139,428 M130,414 L130,398"/>
+  </g>
+  <rect x="34" y="428" width="248" height="14" fill="#e6ecf3" stroke="#8fa8c0" stroke-width="1"/>
+  <text x="200" y="438" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">pathogen surface</text>
+  <g font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#111">
+    <text x="180" y="366">&#8594; C3 convertase</text>
+    <text x="180" y="382">&#8594; C3b, C3a, C5a</text>
+    <text x="180" y="398">&#8594; MAC lysis</text>
+  </g>
+  <text x="30" y="460" font-family="Helvetica,Arial,sans-serif" font-size="11.5" font-weight="bold" fill="#1a6fb5">Best: IgM, then IgG3 &gt; IgG1</text>
+
+  <!-- panel 4: ADCC -->
+  <text x="470" y="310" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#111">4 &#183; ADCC</text>
+  <text x="470" y="326" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#333">NK Fc&#947;RIIIA reads bound IgG</text>
+  <text x="470" y="344" font-family="Helvetica,Arial,sans-serif" font-size="11.5" font-weight="bold" fill="#1a6fb5">Best: IgG1, IgG3</text>
+  <circle cx="545" cy="408" r="40" fill="#ffffff" stroke="#d1495b" stroke-width="2"/>
+  <text x="545" y="405" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">infected or</text>
+  <text x="545" y="418" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">tumour cell</text>
+  <circle cx="694" cy="390" r="40" fill="#eef3f8" stroke="#2e8b57" stroke-width="2"/>
+  <text x="698" y="394" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11.5" font-weight="bold" fill="#2e8b57">NK cell</text>
+  <g stroke="#1a6fb5" stroke-width="2" fill="none" stroke-linecap="round">
+    <path d="M578,374 L590,382 L578,390 M590,382 L644,382"/>
+    <path d="M584,400 L596,408 L584,416 M596,408 L648,408"/>
+  </g>
+  <g fill="#2e8b57"><rect x="644" y="376" width="12" height="12"/><rect x="648" y="402" width="12" height="12"/></g>
+  <path d="M660,432 Q625,452 594,440" stroke="#2e8b57" stroke-width="1.8" fill="none" stroke-dasharray="4,3" marker-end="url(#ahg)"/>
+  <text x="622" y="462" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#2e8b57">perforin, granzyme B</text>
+
+  <text x="380" y="494" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#333">Fc also addresses: FcRn sets IgG half-life and crosses the placenta; pIgR ships secretory IgA across epithelium.</text>
+</svg>

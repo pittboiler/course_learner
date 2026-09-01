@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 570" width="820" height="570" role="img" aria-label="Top: a wide cross-section running from a mid-ocean ridge across an ocean basin to a trench, volcanic arc and back-arc basin. Earthquake foci are shallow beneath the ridge and deepen along the subducting slab to 670 kilometres, where they stop. Melting regions are shaded beneath the ridge, in the mantle wedge above the slab at about 110 kilometres depth, and beneath the back-arc. Bottom: a map view of a ridge offset by a transform, showing that only the segment between the two ridge crests is a plate boundary and that the scars beyond it are fracture zones with no relative motion.">
+<rect width="820" height="570" fill="#ffffff"/>
+
+<text x="120" y="22" font-family="Helvetica,Arial,sans-serif" font-size="11.5" font-weight="bold" fill="#2e8b57" text-anchor="middle">DIVERGENT</text>
+<text x="570" y="22" font-family="Helvetica,Arial,sans-serif" font-size="11.5" font-weight="bold" fill="#d1495b" text-anchor="middle">CONVERGENT</text>
+<path d="M70 34 L70 30 L170 30 L170 34" fill="none" stroke="#2e8b57" stroke-width="1.4"/>
+<path d="M440 34 L440 30 L700 30 L700 34" fill="none" stroke="#d1495b" stroke-width="1.4"/>
+
+<text x="120" y="50" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#111" text-anchor="middle">mid-ocean ridge</text>
+<text x="452" y="50" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#111" text-anchor="middle">trench</text>
+<text x="548" y="50" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#111" text-anchor="middle">volcanic arc</text>
+<text x="668" y="50" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#111" text-anchor="middle">back-arc basin</text>
+
+<defs>
+<marker id="ai" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 z" fill="#111"/></marker>
+<marker id="ac" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 z" fill="#d1495b"/></marker>
+<marker id="ab" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 z" fill="#1a6fb5"/></marker>
+</defs>
+
+<line x1="470" y1="78" x2="549" y2="78" stroke="#111" stroke-width="1.1" marker-start="url(#ai)" marker-end="url(#ai)"/>
+<text x="510" y="72" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111" text-anchor="middle">trench&#8211;arc gap L</text>
+
+<rect x="48" y="88" width="752" height="312" fill="#eef1f4"/>
+
+<path d="M100 128 L140 128 L170 200 L70 200 Z" fill="#b5651d" opacity="0.30"/>
+<ellipse cx="538" cy="145" rx="30" ry="10" fill="#b5651d" opacity="0.45" transform="rotate(22 538 145)"/>
+<path d="M646 136 L668 136 L678 182 L636 182 Z" fill="#b5651d" opacity="0.28"/>
+
+<rect x="48" y="88" width="752" height="38" fill="#cfe3f2"/>
+
+<path d="M460 139 C 530 158 580 178 620 232 C 655 282 678 335 690 396" fill="none" stroke="#8b9c92" stroke-width="30" stroke-linecap="butt"/>
+
+<path d="M48 104 L90 96 L120 90 L160 98 L220 106 L320 112 L420 116 L466 124 L466 152 L420 150 L320 142 L220 130 L160 116 L120 100 L90 116 L48 142 Z" fill="#9fb3a8" stroke="#4a6b5a" stroke-width="1"/>
+
+<path d="M466 124 L486 110 L516 107 L538 102 L553 62 L570 104 L600 112 L640 117 L676 113 L712 96 L748 110 L800 112 L800 138 L760 138 L700 140 L650 142 L600 136 L560 132 L520 132 L490 130 Z" fill="#d8c9a3" stroke="#7a6a48" stroke-width="1"/>
+
+<path d="M200 105 L320 109 L420 112 L466 120 L466 124 L420 116 L320 112 L200 106 Z" fill="#e8dcc0" stroke="#a89878" stroke-width="0.6"/>
+<path d="M466 124 L508 108 L520 112 L516 124 Z" fill="#e8dcc0" stroke="#a89878" stroke-width="0.8"/>
+
+<line x1="553" y1="104" x2="553" y2="157" stroke="#111" stroke-width="1" stroke-dasharray="3,3"/>
+
+<g fill="#d1495b">
+<circle cx="116" cy="95" r="2.4"/><circle cx="121" cy="94" r="2.4"/><circle cx="126" cy="96" r="2.4"/><circle cx="119" cy="99" r="2.4"/>
+<circle cx="468" cy="128" r="2.4"/><circle cx="474" cy="132" r="2.4"/><circle cx="480" cy="130" r="2.4"/><circle cx="486" cy="136" r="2.4"/><circle cx="492" cy="133" r="2.4"/><circle cx="478" cy="138" r="2.4"/><circle cx="490" cy="141" r="2.4"/><circle cx="496" cy="139" r="2.4"/>
+<circle cx="484" cy="138" r="2.4"/><circle cx="502" cy="144" r="2.4"/><circle cx="519" cy="150" r="2.4"/><circle cx="536" cy="157" r="2.4"/><circle cx="551" cy="165" r="2.4"/><circle cx="566" cy="174" r="2.4"/><circle cx="580" cy="184" r="2.4"/><circle cx="593" cy="196" r="2.4"/><circle cx="606" cy="209" r="2.4"/><circle cx="618" cy="224" r="2.4"/>
+<circle cx="630" cy="245" r="2.4"/><circle cx="641" cy="265" r="2.4"/><circle cx="651" cy="285" r="2.4"/><circle cx="660" cy="306" r="2.4"/><circle cx="667" cy="326" r="2.4"/><circle cx="673" cy="348" r="2.4"/><circle cx="678" cy="369" r="2.4"/><circle cx="681" cy="383" r="2.4"/>
+<circle cx="652" cy="124" r="2.4"/><circle cx="660" cy="126" r="2.4"/><circle cx="668" cy="124" r="2.4"/>
+</g>
+
+<line x1="48" y1="387.6" x2="800" y2="387.6" stroke="#d1495b" stroke-width="1.2" stroke-dasharray="6,4"/>
+<text x="300" y="383" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#d1495b">670 km &#8212; deepest earthquakes anywhere on Earth</text>
+
+<line x1="45" y1="110" x2="45" y2="400" stroke="#333" stroke-width="1"/>
+<g font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333" text-anchor="end">
+<text x="41" y="155">100</text><text x="41" y="196">200</text><text x="41" y="238">300</text><text x="41" y="279">400</text><text x="41" y="321">500</text><text x="41" y="362">600</text><text x="41" y="404">700</text>
+</g>
+<g stroke="#333" stroke-width="1">
+<line x1="45" y1="151.4" x2="50" y2="151.4"/><line x1="45" y1="192.9" x2="50" y2="192.9"/><line x1="45" y1="234.3" x2="50" y2="234.3"/><line x1="45" y1="275.7" x2="50" y2="275.7"/><line x1="45" y1="317.1" x2="50" y2="317.1"/><line x1="45" y1="358.6" x2="50" y2="358.6"/><line x1="45" y1="400" x2="50" y2="400"/>
+</g>
+<text x="13" y="255" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333" text-anchor="middle" transform="rotate(-90 13 255)">depth (km)</text>
+
+<g font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">
+<text x="300" y="100" text-anchor="middle">sediment thickens &#8594;</text>
+<text x="330" y="132" text-anchor="middle" fill="#22332b">oceanic lithosphere</text>
+<text x="230" y="152">lithosphere thickens as &#8730;(age)</text>
+<text x="120" y="176" text-anchor="middle">decompression melting</text>
+<text x="135" y="192" text-anchor="middle">basalt; quakes &#60; 15 km</text>
+<text x="532" y="98" text-anchor="end">accretionary wedge</text>
+<text x="600" y="148">water driven off the slab</text>
+<text x="600" y="162">flux melting, slab top &#8776; 110 km</text>
+<text x="690" y="178">back-arc spreading</text>
+</g>
+<line x1="596" y1="155" x2="558" y2="150" stroke="#111" stroke-width="0.8"/>
+<line x1="686" y1="175" x2="668" y2="166" stroke="#111" stroke-width="0.8"/>
+<text x="735" y="248" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#111" text-anchor="middle">Wadati&#8211;Benioff zone</text>
+<line x1="678" y1="252" x2="650" y2="262" stroke="#111" stroke-width="0.8"/>
+<text x="350" y="330" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#7a8a99" text-anchor="middle">asthenosphere</text>
+
+<text x="48" y="414" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#555">Topography exaggerated and horizontal distances schematic; the depth axis is linear.</text>
+<line x1="20" y1="424" x2="800" y2="424" stroke="#c8cfd6" stroke-width="1"/>
+
+<text x="20" y="442" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="bold" fill="#111">Map view &#8212; the transform is only the segment between the two ridge crests</text>
+<text x="360" y="458" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#d1495b" text-anchor="middle">TRANSFORM = plate boundary</text>
+
+<line x1="60" y1="492" x2="250" y2="492" stroke="#8fa8c0" stroke-width="2" stroke-dasharray="7,4"/>
+<line x1="470" y1="492" x2="700" y2="492" stroke="#8fa8c0" stroke-width="2" stroke-dasharray="7,4"/>
+<line x1="250" y1="492" x2="470" y2="492" stroke="#d1495b" stroke-width="3.5"/>
+<line x1="250" y1="456" x2="250" y2="490" stroke="#1a6fb5" stroke-width="4"/>
+<line x1="470" y1="494" x2="470" y2="532" stroke="#1a6fb5" stroke-width="4"/>
+
+<g fill="#111">
+<circle cx="280" cy="492" r="2.3"/><circle cx="312" cy="492" r="2.3"/><circle cx="346" cy="492" r="2.3"/><circle cx="382" cy="492" r="2.3"/><circle cx="416" cy="492" r="2.3"/><circle cx="448" cy="492" r="2.3"/>
+</g>
+
+<line x1="330" y1="483" x2="400" y2="483" stroke="#111" stroke-width="1.4" marker-end="url(#ai)"/>
+<line x1="400" y1="501" x2="330" y2="501" stroke="#111" stroke-width="1.4" marker-end="url(#ai)"/>
+<text x="365" y="474" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#111" text-anchor="middle">right-lateral</text>
+
+<line x1="175" y1="483" x2="125" y2="483" stroke="#111" stroke-width="1.2" marker-end="url(#ai)"/>
+<line x1="175" y1="501" x2="125" y2="501" stroke="#111" stroke-width="1.2" marker-end="url(#ai)"/>
+<line x1="555" y1="483" x2="605" y2="483" stroke="#111" stroke-width="1.2" marker-end="url(#ai)"/>
+<line x1="555" y1="501" x2="605" y2="501" stroke="#111" stroke-width="1.2" marker-end="url(#ai)"/>
+
+<g font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#111">
+<text x="150" y="472" text-anchor="middle">fracture zone</text>
+<text x="600" y="472" text-anchor="middle">fracture zone</text>
+<text x="140" y="518" text-anchor="middle">same motion both sides:</text>
+<text x="140" y="530" text-anchor="middle">no slip, no earthquakes</text>
+<text x="600" y="518" text-anchor="middle">same motion both sides:</text>
+<text x="600" y="530" text-anchor="middle">no slip, no earthquakes</text>
+<text x="240" y="468" text-anchor="end" fill="#1a6fb5">ridge</text>
+<text x="480" y="516" fill="#1a6fb5">ridge</text>
+</g>
+
+<line x1="250" y1="546" x2="470" y2="546" stroke="#333" stroke-width="1.1" marker-start="url(#ai)" marker-end="url(#ai)"/>
+<text x="360" y="560" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333" text-anchor="middle">apparent offset</text>
+<text x="500" y="552" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#d1495b">slip sense is opposite the apparent offset</text>
+</svg>

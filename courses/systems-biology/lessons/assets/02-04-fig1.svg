@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 400" width="820" height="400" role="img" aria-label="Coherent type-1 feed-forward loop wiring diagram beside three aligned time traces showing that a brief input pulse produces no output, a sustained input produces a delayed output, and input removal stops output at once.">
+<rect width="820" height="400" fill="#ffffff"/>
+<g font-family="Helvetica,Arial,sans-serif">
+
+<!-- wiring panel -->
+<rect x="14" y="30" width="238" height="270" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+<text x="133" y="50" text-anchor="middle" font-size="11" fill="#111">C1-FFL, AND logic</text>
+
+<defs>
+<marker id="ah" markerWidth="9" markerHeight="9" refX="8" refY="3" orient="auto">
+<path d="M0,0 L8,3 L0,6 z" fill="#333"/>
+</marker>
+</defs>
+
+<line x1="70" y1="109" x2="70" y2="155" stroke="#333" stroke-width="2" marker-end="url(#ah)"/>
+<line x1="86" y1="191" x2="161" y2="229" stroke="#333" stroke-width="2" marker-end="url(#ah)"/>
+<path d="M88,80 Q188,112 182,222" fill="none" stroke="#333" stroke-width="2" marker-end="url(#ah)"/>
+
+<circle cx="70" cy="90" r="19" fill="#1a6fb5"/>
+<text x="70" y="96" text-anchor="middle" font-size="16" font-weight="bold" fill="#ffffff">X</text>
+<circle cx="70" cy="180" r="19" fill="#2e8b57"/>
+<text x="70" y="186" text-anchor="middle" font-size="16" font-weight="bold" fill="#ffffff">Y</text>
+<circle cx="180" cy="245" r="19" fill="#d1495b"/>
+<text x="180" y="251" text-anchor="middle" font-size="16" font-weight="bold" fill="#ffffff">Z</text>
+
+<text x="62" y="138" text-anchor="end" font-size="10.5" fill="#2e8b57">slow arm</text>
+<text x="198" y="150" text-anchor="start" font-size="10.5" fill="#1a6fb5">fast arm</text>
+<text x="180" y="282" text-anchor="middle" font-size="10.5" fill="#111">Z needs X AND Y</text>
+
+<!-- guide lines -->
+<g stroke="#cccccc" stroke-width="1" stroke-dasharray="3,3">
+<line x1="365.3" y1="55" x2="365.3" y2="318"/>
+<line x1="389.8" y1="55" x2="389.8" y2="318"/>
+<line x1="463.3" y1="55" x2="463.3" y2="318"/>
+<line x1="510.8" y1="55" x2="510.8" y2="318"/>
+<line x1="667.5" y1="55" x2="667.5" y2="318"/>
+</g>
+
+<!-- row labels -->
+<text x="292" y="86" text-anchor="end" font-size="14" font-weight="bold" fill="#1a6fb5">X</text>
+<text x="292" y="182" text-anchor="end" font-size="14" font-weight="bold" fill="#2e8b57">Y</text>
+<text x="292" y="286" text-anchor="end" font-size="14" font-weight="bold" fill="#d1495b">Z</text>
+
+<!-- X input trace -->
+<polyline points="300,100 365.3,100 365.3,60 389.8,60 389.8,100 463.3,100 463.3,60 667.5,60 667.5,100 790,100" fill="none" stroke="#1a6fb5" stroke-width="2.2"/>
+<text x="377" y="50" text-anchor="middle" font-size="10.5" fill="#111">brief pulse</text>
+<text x="565" y="50" text-anchor="middle" font-size="10.5" fill="#111">sustained ON</text>
+<text x="728" y="50" text-anchor="middle" font-size="10.5" fill="#111">OFF</text>
+
+<!-- Y baseline and thresholds -->
+<line x1="300" y1="205" x2="790" y2="205" stroke="#aaaaaa" stroke-width="1"/>
+<line x1="300" y1="177.5" x2="790" y2="177.5" stroke="#777777" stroke-width="1" stroke-dasharray="5,3"/>
+<text x="794" y="181" font-size="10.5" fill="#333">K<tspan font-size="8" dy="3">Y</tspan></text>
+<line x1="300" y1="150" x2="790" y2="150" stroke="#bbbbbb" stroke-width="1" stroke-dasharray="2,4"/>
+<text x="794" y="153" font-size="10.5" fill="#666">Y<tspan font-size="8" dy="3">st</tspan></text>
+<polyline fill="none" stroke="#2e8b57" stroke-width="2.2" points="300.0,205.0 308.2,205.0 316.3,205.0 324.5,205.0 332.7,205.0 340.8,205.0 349.0,205.0 357.2,205.0 365.3,205.0 373.5,199.8 381.7,195.0 389.8,190.7 398.0,192.1 406.2,193.3 414.3,194.4 422.5,195.4 430.7,196.4 438.8,197.2 447.0,197.9 455.2,198.6 463.3,199.2 471.5,194.5 479.7,190.3 487.8,186.5 496.0,183.0 504.2,179.8 512.3,177.0 520.5,174.4 528.7,172.1 536.8,170.0 545.0,168.1 553.2,166.4 561.3,164.8 569.5,163.4 577.7,162.1 585.8,161.0 594.0,159.9 602.2,159.0 610.3,158.1 618.5,157.4 626.7,156.7 634.8,156.0 643.0,155.5 651.2,154.9 659.3,154.5 667.5,154.0 675.7,158.9 683.8,163.3 692.0,167.2 700.2,170.8 708.3,174.1 716.5,177.0 724.7,179.7 732.8,182.1 741.0,184.3 749.2,186.3 757.3,188.0 765.5,189.7 773.7,191.1 781.8,192.4 790.0,193.6"/>
+<text x="398" y="215" text-anchor="middle" font-size="10" fill="#2e8b57">never reaches threshold</text>
+
+<!-- Z trace -->
+<line x1="300" y1="310" x2="790" y2="310" stroke="#aaaaaa" stroke-width="1"/>
+<polyline fill="none" stroke="#d1495b" stroke-width="2.2" points="300.0,310.0 365.3,310.0 389.8,310.0 463.3,310.0 504.2,310.0 512.3,308.4 520.5,300.6 528.7,293.8 536.8,288.0 545.0,283.0 553.2,278.7 561.3,274.9 569.5,271.7 577.7,269.0 585.8,266.6 594.0,264.6 602.2,262.8 610.3,261.3 618.5,260.0 626.7,258.9 634.8,257.9 643.0,257.1 651.2,256.4 659.3,255.8 667.5,255.3 675.7,262.9 683.8,269.5 692.0,275.1 700.2,280.0 708.3,284.1 716.5,287.7 724.7,290.8 732.8,293.5 741.0,295.8 749.2,297.8 757.3,299.5 765.5,301.0 773.7,302.2 781.8,303.3 790.0,304.2"/>
+<text x="377" y="300" text-anchor="middle" font-size="10" fill="#d1495b">no output</text>
+<text x="686" y="246" text-anchor="start" font-size="10" fill="#d1495b">production stops at once</text>
+
+<!-- delay bracket -->
+<line x1="463.3" y1="330" x2="510.8" y2="330" stroke="#111" stroke-width="1.4"/>
+<line x1="463.3" y1="325" x2="463.3" y2="335" stroke="#111" stroke-width="1.4"/>
+<line x1="510.8" y1="325" x2="510.8" y2="335" stroke="#111" stroke-width="1.4"/>
+<text x="487" y="348" text-anchor="middle" font-size="10.5" fill="#111">delay T<tspan font-size="8" dy="3">ON</tspan></text>
+
+<line x1="300" y1="372" x2="795" y2="372" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<text x="300" y="388" text-anchor="middle" font-size="10.5" fill="#333">0</text>
+<text x="750" y="388" text-anchor="middle" font-size="10.5" fill="#333">time</text>
+</g>
+</svg>

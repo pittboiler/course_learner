@@ -6,6 +6,21 @@
 
 Understand how the brain computes — from a single ion channel to a decision. You will be able to derive why a neuron sits at −65 mV, how it fires and propagates a spike, how synapses transmit and adapt, how sensory and motor systems encode the world, and how plasticity stores memory. It deliberately skips clinical-neurology depth and heavy computational-neuroscience modeling — diseases and methods get a taste, not a residency.
 
+## Scope discipline
+
+This course overlaps two others that were built alongside it. Each topic has **one
+owner**; a ceded topic is still *used* freely here, it is just cited to its owner
+rather than re-derived. See the reference card's "Assumed, not taught here" table
+for the lookup pointers.
+
+| Topic | Owner | Neuroscience's role |
+|---|---|---|
+| Nernst / GHK derived from electrochemical potential; two-state channel gating | [`biophysics`](../biophysics/syllabus.md) | states the results; 1.2 spends its space on the resting potential as a **steady state, not an equilibrium**, and on chloride |
+| Muscle — sarcomere, cross-bridge cycle, EC coupling, length–tension | [`physiology`](../physiology/syllabus.md) | 3.4 covers motor units, recruitment and the size principle; it cites physiology 1.6 for the contractile machinery |
+| The neuromuscular junction; autonomic transmission | [`physiology`](../physiology/syllabus.md) | 2.1 uses the NMJ only as the historical preparation where quantal release was found |
+| Receptors, second messengers, GPCR cascades | [`molecular-cell-biology`](../molecular-cell-biology/syllabus.md) | 2.2 covers what each receptor family *does to a neuron*, not the cascade chemistry |
+| **Hodgkin–Huxley, cable theory, the central synapse, circuit motifs, sensory coding, plasticity** | **this course** | `physiology` and `biophysics` cite these rather than re-teaching them |
+
 ## Dangerous Checklist
 
 When you finish, you can:
@@ -88,3 +103,18 @@ How experience rewires synapses to store memory — plus a taste of cognition, d
 - Purves et al., *Neuroscience* — systems and development framing
 - Bear, Connors & Paradiso, *Neuroscience: Exploring the Brain* — intuition-first explanations
 - Dayan & Abbott, *Theoretical Neuroscience* — for the Hodgkin–Huxley model and neural coding
+
+---
+
+*Scope note (2026-08-27):* built in the same batch as
+[`physiology`](../physiology/syllabus.md). Neuroscience **ceded** the derivation
+of Nernst/GHK and channel gating to [`biophysics`](../biophysics/syllabus.md)
+(which already owned them in 4.4–4.5), and muscle, the neuromuscular junction and
+autonomic transmission to `physiology` — each topic going to the course whose
+central object it is rather than the course that reaches it first. It **kept** the
+neuron: Hodgkin–Huxley, cable theory, the synapse in depth, circuit motifs,
+sensory coding, plasticity and memory. Where the two courses cover the same
+ground (resting potential, the action potential), the figures and worked problems
+were deliberately differentiated — neuroscience draws the voltage-clamp
+dissection and the permeability-ratio sweep, physiology draws the phase-labelled
+trace and the tissue comparison. Lesson count unchanged at 21.

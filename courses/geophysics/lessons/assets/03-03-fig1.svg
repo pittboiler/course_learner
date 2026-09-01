@@ -1,0 +1,42 @@
+<svg viewBox="0 0 700 332" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="11.5">
+  <text x="20" y="18" fill="#8a8a8a" font-style="italic">A lava cooling through its blocking temperature freezes the field direction in, and keeps it for a billion years.</text>
+
+  <line x1="40" y1="220" x2="300" y2="220" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="40" y1="220" x2="40" y2="56" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="120" y="240" fill="#8a8a8a">temperature, falling &#8594;</text>
+  <text x="6" y="66" fill="#8a8a8a">log &#964;</text>
+
+  <path d="M 46,214 Q 100,208 140,190 Q 168,176 182,140 Q 192,110 206,86 Q 240,64 296,60" fill="none" stroke="#4a90d9" stroke-width="2.6"/>
+  <line x1="182" y1="140" x2="182" y2="220" stroke="#e0645c" stroke-width="1.4" stroke-dasharray="4 3"/>
+  <circle cx="182" cy="140" r="4" fill="#e0645c"/>
+  <text x="188" y="134" fill="#e0645c">blocking temperature</text>
+  <text x="132" y="256" fill="#e0645c">580 &#176;C for magnetite</text>
+
+  <text x="46" y="196" fill="#8a8a8a">above: grains flip</text>
+  <text x="46" y="210" fill="#8a8a8a">in seconds</text>
+  <text x="212" y="106" fill="#8a8a8a">below: they hold</text>
+  <text x="212" y="120" fill="#8a8a8a">for billions of years</text>
+
+  <text x="40" y="284" fill="#8a8a8a">The relaxation time depends exponentially on grain volume and</text>
+  <text x="40" y="298" fill="#8a8a8a">temperature, so the transition is sharp: a few degrees, not a few hundred.</text>
+
+  <text x="400" y="44" fill="#8a8a8a">apparent polar wander: two continents, one story</text>
+  <circle cx="540" cy="150" r="80" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+  <circle cx="540" cy="150" r="3" fill="#8a8a8a"/>
+  <text x="546" y="146" fill="#8a8a8a">present pole</text>
+
+  <path d="M 540,150 L 528,126 L 508,110 L 484,102 L 466,92" fill="none" stroke="#4a90d9" stroke-width="2.4"/>
+  <circle cx="466" cy="92" r="4" fill="#4a90d9"/>
+  <text x="424" y="86" fill="#4a90d9">continent A</text>
+
+  <path d="M 540,150 L 528,126 L 508,110 L 490,120 L 470,132" fill="none" stroke="#e0645c" stroke-width="2.4"/>
+  <circle cx="470" cy="132" r="4" fill="#e0645c"/>
+  <text x="418" y="148" fill="#e0645c">continent B</text>
+
+  <circle cx="508" cy="110" r="5" fill="none" stroke="#8a8a8a" stroke-width="1.6"/>
+  <text x="512" y="102" fill="#8a8a8a">they part here</text>
+
+  <text x="320" y="252" fill="#8a8a8a">Two continents joined together must share one apparent polar wander</text>
+  <text x="304" y="266" fill="#8a8a8a">path. The age at which their paths diverge dates the rifting &#8212; and the</text>
+  <text x="30" y="314" fill="#8a8a8a">angle between them afterwards measures how far apart they have moved.</text>
+</svg>

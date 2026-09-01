@@ -1,0 +1,27 @@
+<svg viewBox="0 0 660 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="12">
+  <text x="20" y="20" fill="#8a8a8a" font-style="italic">Shift the mean by one standard deviation and a 1-in-44 summer becomes a 1-in-6.</text>
+
+  <line x1="90" y1="250" x2="625" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="300" y="288" fill="#8a8a8a">summer temperature (standard deviations from the old mean)</text>
+  <line x1="220" y1="250" x2="220" y2="255" stroke="#8a8a8a"/><text x="212" y="269" fill="#8a8a8a">&#8211;2</text>
+  <line x1="350" y1="250" x2="350" y2="255" stroke="#8a8a8a"/><text x="346" y="269" fill="#8a8a8a">0</text>
+  <line x1="480" y1="250" x2="480" y2="255" stroke="#8a8a8a"/><text x="476" y="269" fill="#8a8a8a">2</text>
+  <line x1="545" y1="250" x2="545" y2="255" stroke="#8a8a8a"/><text x="541" y="269" fill="#8a8a8a">3</text>
+
+  <polygon points="480,250 480,146 493,167 506,186 519,202 532,216 545,227 558,235 571,240 584,244 597,247 610,248 610,250" fill="#e0645c" opacity="0.35"/>
+  <polygon points="480,250 480,227 493,235 506,240 519,244 532,247 545,248 558,249 571,249 584,250 597,250 610,250" fill="#4a90d9" opacity="0.45"/>
+
+  <path d="M 90,250 L 116,250 L 142,249 L 168,247 L 194,240 L 220,227 L 246,202 L 272,167 L 298,126 L 324,92 L 350,79 L 376,92 L 402,126 L 428,167 L 454,202 L 480,227 L 506,240 L 532,247 L 558,249 L 584,250 L 610,250"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="256" y="70" fill="#4a90d9">pre-industrial</text>
+
+  <path d="M 90,250 L 116,250 L 142,250 L 168,250 L 194,249 L 220,248 L 246,244 L 272,235 L 298,216 L 324,186 L 350,146 L 376,107 L 402,82 L 415,79 L 441,92 L 467,126 L 493,167 L 519,202 L 545,227 L 571,240 L 597,247 L 610,248"
+        fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="424" y="66" fill="#e0645c">warmed by 1&#963;</text>
+
+  <line x1="480" y1="250" x2="480" y2="60" stroke="#8a8a8a" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <text x="486" y="96" fill="#8a8a8a">&#8220;extreme&#8221; threshold</text>
+
+  <text x="90" y="308" fill="#4a90d9">before: 2.3 percent of summers</text>
+  <text x="330" y="308" fill="#e0645c">after: 15.9 percent &#8212; a risk ratio of 7</text>
+</svg>

@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 940" width="520" height="940" role="img" aria-label="A vertical map of the digestive tract from mouth to colon. Each segment is labelled with its lumen pH, what it secretes, its dominant motility pattern, and what is absorbed there. An inset below shows three stimuli converging on the parietal cell proton pump.">
+<rect width="520" height="940" fill="#ffffff"/>
+<defs>
+<marker id="a1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker>
+<marker id="a2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1a6fb5"/></marker>
+<marker id="a3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<marker id="a4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#8fa8c0"/></marker>
+</defs>
+
+<text x="20" y="24" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#111111">A meal from mouth to colon</text>
+<text x="20" y="42" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#666666">segment</text>
+<text x="132" y="42" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#666666">lumen pH</text>
+<text x="186" y="42" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#666666">what happens there</text>
+
+<rect x="66" y="114" width="14" height="24" fill="#e6ecf2" stroke="#8fa8c0" stroke-width="1"/>
+<rect x="66" y="194" width="14" height="24" fill="#e6ecf2" stroke="#8fa8c0" stroke-width="1"/>
+<rect x="66" y="274" width="14" height="24" fill="#e6ecf2" stroke="#8fa8c0" stroke-width="1"/>
+<rect x="66" y="354" width="14" height="24" fill="#e6ecf2" stroke="#8fa8c0" stroke-width="1"/>
+<rect x="66" y="434" width="14" height="24" fill="#e6ecf2" stroke="#8fa8c0" stroke-width="1"/>
+
+<rect x="20" y="58" width="106" height="56" rx="8" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1.4"/>
+<text x="73" y="82" font-family="Helvetica,Arial,sans-serif" font-size="10.5" font-weight="bold" fill="#111111" text-anchor="middle">mouth and</text>
+<text x="73" y="97" font-family="Helvetica,Arial,sans-serif" font-size="10.5" font-weight="bold" fill="#111111" text-anchor="middle">esophagus</text>
+<rect x="132" y="70" width="44" height="22" rx="6" fill="#ffffff" stroke="#d1495b" stroke-width="1.2"/>
+<text x="154" y="85" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#d1495b" text-anchor="middle">6.8</text>
+<text x="186" y="74" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#1a6fb5">secretes: saliva &#8212; amylase, mucus, bicarbonate</text>
+<text x="186" y="90" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333333">moves: chewing, then one peristaltic swallow wave</text>
+<text x="186" y="106" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#2e8b57">absorbs: nothing</text>
+
+<rect x="20" y="138" width="106" height="56" rx="8" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1.4"/>
+<text x="73" y="170" font-family="Helvetica,Arial,sans-serif" font-size="10.5" font-weight="bold" fill="#111111" text-anchor="middle">stomach</text>
+<rect x="132" y="150" width="44" height="22" rx="6" fill="#ffffff" stroke="#d1495b" stroke-width="1.2"/>
+<text x="154" y="165" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#d1495b" text-anchor="middle">1.5</text>
+<text x="186" y="154" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#1a6fb5">secretes: HCl, pepsinogen, intrinsic factor, mucus</text>
+<text x="186" y="170" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333333">moves: receptive relaxation, then antral grinding</text>
+<text x="186" y="186" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#2e8b57">absorbs: almost nothing (ethanol, some drugs)</text>
+
+<rect x="20" y="218" width="106" height="56" rx="8" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1.4"/>
+<text x="73" y="250" font-family="Helvetica,Arial,sans-serif" font-size="10.5" font-weight="bold" fill="#111111" text-anchor="middle">duodenum</text>
+<rect x="132" y="230" width="44" height="22" rx="6" fill="#ffffff" stroke="#d1495b" stroke-width="1.2"/>
+<text x="154" y="245" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#d1495b" text-anchor="middle">6.0</text>
+<text x="186" y="234" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#1a6fb5">secretes: pancreatic bicarbonate, zymogens, bile</text>
+<text x="186" y="250" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333333">moves: segmentation &#8212; mixing, not propulsion</text>
+<text x="186" y="266" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#2e8b57">absorbs: iron, calcium; fat emulsified here</text>
+
+<rect x="20" y="298" width="106" height="56" rx="8" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1.4"/>
+<text x="73" y="330" font-family="Helvetica,Arial,sans-serif" font-size="10.5" font-weight="bold" fill="#111111" text-anchor="middle">jejunum</text>
+<rect x="132" y="310" width="44" height="22" rx="6" fill="#ffffff" stroke="#d1495b" stroke-width="1.2"/>
+<text x="154" y="325" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#d1495b" text-anchor="middle">7.0</text>
+<text x="186" y="314" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#1a6fb5">secretes: brush-border enzymes, held in membrane</text>
+<text x="186" y="330" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333333">moves: segmentation with slow net propulsion</text>
+<text x="186" y="346" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#2e8b57">absorbs: sugars, amino acids, fats, most vitamins</text>
+
+<rect x="20" y="378" width="106" height="56" rx="8" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1.4"/>
+<text x="73" y="410" font-family="Helvetica,Arial,sans-serif" font-size="10.5" font-weight="bold" fill="#111111" text-anchor="middle">ileum</text>
+<rect x="132" y="390" width="44" height="22" rx="6" fill="#ffffff" stroke="#d1495b" stroke-width="1.2"/>
+<text x="154" y="405" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#d1495b" text-anchor="middle">7.5</text>
+<text x="186" y="394" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#1a6fb5">secretes: mucus only</text>
+<text x="186" y="410" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333333">moves: segmentation; MMC sweeps it clean fasting</text>
+<text x="186" y="426" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#2e8b57">absorbs: bile salts and vitamin B12 &#8212; only here</text>
+
+<rect x="20" y="458" width="106" height="56" rx="8" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1.4"/>
+<text x="73" y="490" font-family="Helvetica,Arial,sans-serif" font-size="10.5" font-weight="bold" fill="#111111" text-anchor="middle">colon</text>
+<rect x="132" y="470" width="44" height="22" rx="6" fill="#ffffff" stroke="#d1495b" stroke-width="1.2"/>
+<text x="154" y="485" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#d1495b" text-anchor="middle">6.8</text>
+<text x="186" y="474" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#1a6fb5">secretes: mucus, potassium, bicarbonate</text>
+<text x="186" y="490" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333333">moves: haustral churning; mass movements</text>
+<text x="186" y="506" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#2e8b57">absorbs: water and sodium; SCFAs from microbes</text>
+
+<text x="20" y="540" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#666666">Interstitial cells of Cajal pace every segment with slow waves, like</text>
+<text x="20" y="554" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#666666">the SA node: about 3/min in the stomach, 12/min in the duodenum.</text>
+
+<rect x="14" y="578" width="492" height="326" rx="8" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1.2"/>
+<text x="26" y="600" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="bold" fill="#111111">Inset: three stimuli, one pump</text>
+<text x="26" y="616" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#666666">and the two points where drugs interrupt them</text>
+
+<rect x="240" y="624" width="160" height="186" rx="10" fill="#ffffff" stroke="#333333" stroke-width="1.6"/>
+<text x="330" y="642" font-family="Helvetica,Arial,sans-serif" font-size="10" font-weight="bold" fill="#111111" text-anchor="middle">parietal cell</text>
+
+<rect x="26" y="632" width="124" height="32" rx="6" fill="#ffffff" stroke="#1a6fb5" stroke-width="1.2"/>
+<text x="88" y="652" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#1a6fb5" text-anchor="middle">vagus: ACh</text>
+<rect x="26" y="698" width="124" height="32" rx="6" fill="#ffffff" stroke="#1a6fb5" stroke-width="1.2"/>
+<text x="88" y="718" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#1a6fb5" text-anchor="middle">G cell: gastrin</text>
+<rect x="26" y="764" width="124" height="32" rx="6" fill="#ffffff" stroke="#1a6fb5" stroke-width="1.2"/>
+<text x="88" y="784" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#1a6fb5" text-anchor="middle">ECL cell: histamine</text>
+
+<line x1="150" y1="648" x2="214" y2="648" stroke="#1a6fb5" stroke-width="1.4" marker-end="url(#a2)"/>
+<line x1="150" y1="714" x2="214" y2="714" stroke="#1a6fb5" stroke-width="1.4" marker-end="url(#a2)"/>
+<line x1="150" y1="780" x2="214" y2="780" stroke="#1a6fb5" stroke-width="1.4" marker-end="url(#a2)"/>
+
+<path d="M150,656 C202,682 202,748 152,770" fill="none" stroke="#8fa8c0" stroke-width="1.2" stroke-dasharray="4,3" marker-end="url(#a4)"/>
+<line x1="88" y1="732" x2="88" y2="760" stroke="#8fa8c0" stroke-width="1.2" stroke-dasharray="4,3" marker-end="url(#a4)"/>
+
+<rect x="220" y="637" width="42" height="22" rx="4" fill="#eef4fb" stroke="#1a6fb5" stroke-width="1.2"/>
+<text x="241" y="652" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#1a6fb5" text-anchor="middle">M3</text>
+<rect x="220" y="703" width="42" height="22" rx="4" fill="#eef4fb" stroke="#1a6fb5" stroke-width="1.2"/>
+<text x="241" y="718" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#1a6fb5" text-anchor="middle">CCK-B</text>
+<rect x="220" y="769" width="42" height="22" rx="4" fill="#eef4fb" stroke="#1a6fb5" stroke-width="1.2"/>
+<text x="241" y="784" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#1a6fb5" text-anchor="middle">H2</text>
+
+<line x1="262" y1="652" x2="282" y2="706" stroke="#333333" stroke-width="1.2" marker-end="url(#a1)"/>
+<line x1="262" y1="716" x2="282" y2="715" stroke="#333333" stroke-width="1.2" marker-end="url(#a1)"/>
+<line x1="262" y1="780" x2="282" y2="726" stroke="#333333" stroke-width="1.2" marker-end="url(#a1)"/>
+
+<rect x="286" y="700" width="76" height="30" rx="6" fill="#eef4fb" stroke="#1a6fb5" stroke-width="1.2"/>
+<text x="324" y="719" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#1a6fb5" text-anchor="middle">cAMP / Ca2+</text>
+<line x1="362" y1="715" x2="374" y2="715" stroke="#333333" stroke-width="1.2" marker-end="url(#a1)"/>
+
+<rect x="378" y="696" width="46" height="38" rx="5" fill="#fdeaec" stroke="#d1495b" stroke-width="1.6"/>
+<text x="401" y="712" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#d1495b" text-anchor="middle">H+/K+</text>
+<text x="401" y="726" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#d1495b" text-anchor="middle">ATPase</text>
+<line x1="424" y1="715" x2="466" y2="715" stroke="#d1495b" stroke-width="1.4" marker-end="url(#a3)"/>
+<text x="460" y="707" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#d1495b" text-anchor="middle">H+</text>
+<text x="464" y="688" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333333" text-anchor="middle">lumen</text>
+<text x="464" y="742" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333333" text-anchor="middle">pH 1.5</text>
+
+<line x1="438" y1="702" x2="438" y2="728" stroke="#d1495b" stroke-width="3.5"/>
+<text x="438" y="762" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#d1495b" text-anchor="middle">PPI</text>
+<line x1="186" y1="768" x2="186" y2="792" stroke="#d1495b" stroke-width="3.5"/>
+<text x="186" y="812" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#d1495b" text-anchor="middle">H2 blocker</text>
+
+<text x="26" y="840" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333333">Gastrin and ACh also drive the ECL cell (dashed), so histamine</text>
+<text x="26" y="856" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333333">amplifies both pathways &#8212; block it and all three weaken.</text>
+<text x="26" y="878" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333333">Red bars: H2 blockers cut the amplifier; PPIs stop the pump itself.</text>
+
+<text x="20" y="924" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#666666">Each station: what it secretes, its lumen pH, how it moves, what it absorbs.</text>
+</svg>

@@ -1,0 +1,43 @@
+<svg viewBox="0 0 700 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="12">
+  <text x="20" y="20" fill="#8a8a8a" font-style="italic">Isopycnals curve on the T&#8211;S plane, so the straight mixing chord lies on the dense side.</text>
+
+  <line x1="120" y1="250" x2="640" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="120" y1="250" x2="120" y2="55" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="330" y="286" fill="#8a8a8a">salinity S</text>
+  <text x="26" y="150" fill="#8a8a8a">&#952; (C)</text>
+
+  <line x1="174.4" y1="250" x2="174.4" y2="256" stroke="#8a8a8a"/><text x="163" y="270" fill="#8a8a8a">34.4</text>
+  <line x1="283.3" y1="250" x2="283.3" y2="256" stroke="#8a8a8a"/><text x="272" y="270" fill="#8a8a8a">34.8</text>
+  <line x1="392.2" y1="250" x2="392.2" y2="256" stroke="#8a8a8a"/><text x="381" y="270" fill="#8a8a8a">35.2</text>
+  <line x1="501.1" y1="250" x2="501.1" y2="256" stroke="#8a8a8a"/><text x="490" y="270" fill="#8a8a8a">35.6</text>
+  <line x1="610" y1="250" x2="610" y2="256" stroke="#8a8a8a"/><text x="599" y="270" fill="#8a8a8a">36.0</text>
+
+  <line x1="114" y1="250" x2="120" y2="250" stroke="#8a8a8a"/><text x="103" y="254" fill="#8a8a8a">0</text>
+  <line x1="114" y1="182.1" x2="120" y2="182.1" stroke="#8a8a8a"/><text x="103" y="186" fill="#8a8a8a">5</text>
+  <line x1="114" y1="114.3" x2="120" y2="114.3" stroke="#8a8a8a"/><text x="97" y="118" fill="#8a8a8a">10</text>
+
+  <path d="M 248.3,250.0 L 258.5,243.2 L 269.7,236.4 L 282.0,229.6 L 295.4,222.9 L 309.8,216.1 L 325.3,209.3 L 341.8,202.5 L 359.3,195.7 L 377.9,188.9 L 397.4,182.1 L 418.0,175.4 L 439.5,168.6 L 462.1,161.8 L 485.6,155.0 L 510.1,148.2 L 535.5,141.4 L 561.9,134.6 L 589.2,127.9"
+        fill="none" stroke="#8a8a8a" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <text x="594" y="132" fill="#8a8a8a">denser</text>
+
+  <path d="M 134.7,209.3 L 151.2,202.5 L 168.8,195.7 L 187.3,188.9 L 206.9,182.1 L 227.4,175.4 L 249.0,168.6 L 271.5,161.8 L 295.0,155.0 L 319.5,148.2 L 344.9,141.4 L 371.3,134.6 L 398.7,127.9 L 426.9,121.1 L 456.1,114.3 L 486.2,107.5 L 517.2,100.7 L 549.2,93.9 L 582.0,87.1"
+        fill="none" stroke="#8a8a8a" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <text x="587" y="91" fill="#8a8a8a">lighter</text>
+
+  <path d="M 153.0,250.0 L 163.2,243.2 L 174.4,236.4 L 186.8,229.6 L 200.1,222.9 L 214.5,216.1 L 230.0,209.3 L 246.5,202.5 L 264.0,195.7 L 282.6,188.9 L 302.1,182.1 L 322.7,175.4 L 344.2,168.6 L 366.8,161.8 L 390.3,155.0 L 414.8,148.2 L 440.2,141.4 L 466.6,134.6 L 493.9,127.9 L 522.2,121.1 L 551.4,114.3 L 581.5,107.5 L 612.5,100.7"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="530" y="93" fill="#4a90d9">isopycnal through A and B</text>
+
+  <line x1="174.4" y1="236.4" x2="493.9" y2="127.9" stroke="#e0645c" stroke-width="2.5"/>
+  <circle cx="174.4" cy="236.4" r="4" fill="#4a90d9"/>
+  <circle cx="493.9" cy="127.9" r="4" fill="#4a90d9"/>
+  <text x="150" y="228" fill="#4a90d9">A</text>
+  <text x="500" y="122" fill="#4a90d9">B</text>
+  <text x="196" y="196" fill="#e0645c">straight mixing line</text>
+
+  <circle cx="334.2" cy="182.1" r="4" fill="#e0645c"/>
+  <line x1="334.2" y1="182.1" x2="302.1" y2="182.1" stroke="#e0645c" stroke-width="1.2"/>
+  <text x="342" y="178" fill="#e0645c">50:50 mixture: 0.12 saltier than the</text>
+  <text x="342" y="192" fill="#e0645c">isopycnal, so 0.09 kg m&#8315;&#179; denser</text>
+  <text x="342" y="206" fill="#e0645c">than either parent</text>
+</svg>

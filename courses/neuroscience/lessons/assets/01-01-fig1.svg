@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560" role="img" aria-label="Panel a draws a neuron with a dendritic tree, soma, axon hillock, myelinated axon and presynaptic terminals. A blue bar under the dendrites and soma marks graded, analogue, decremental signalling; a coral bar under the axon marks all-or-none, digital, regenerative signalling; the boundary between them sits at the axon hillock, which is labelled as the decision point with the highest density of voltage-gated sodium channels. Panel b, aligned directly beneath, redraws any patch of that membrane as an equivalent circuit: an injected current, a membrane capacitance, and a leak conductance in series with its own battery, all in parallel between an outside rail and an inside rail, with the membrane voltage marked across them and the RC time constant given as tau equals R times C.">
+<rect width="800" height="560" fill="#ffffff"/>
+
+<text x="20" y="24" font-family="Helvetica,Arial,sans-serif" font-size="12.5" font-weight="bold" fill="#111">(a) collect &#8594; integrate &#8594; decide &#8594; transmit</text>
+<rect x="20" y="34" width="760" height="264" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+
+<g fill="none" stroke="#333" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M 235 158 L 240 116" stroke-width="3"/>
+  <path d="M 240 116 L 206 98" stroke-width="2"/>
+  <path d="M 240 116 L 276 100" stroke-width="2"/>
+  <path d="M 206 98 L 188 84" stroke-width="1.3"/>
+  <path d="M 276 100 L 292 86" stroke-width="1.3"/>
+  <path d="M 212 166 L 168 142" stroke-width="3"/>
+  <path d="M 168 142 L 130 124" stroke-width="2"/>
+  <path d="M 168 142 L 140 152" stroke-width="2"/>
+  <path d="M 130 124 L 112 112" stroke-width="1.3"/>
+  <path d="M 210 180 L 158 180" stroke-width="3"/>
+  <path d="M 158 180 L 118 170" stroke-width="2"/>
+  <path d="M 158 180 L 122 196" stroke-width="2"/>
+  <path d="M 118 170 L 98 164" stroke-width="1.3"/>
+  <path d="M 212 195 L 168 220" stroke-width="3"/>
+  <path d="M 168 220 L 130 232" stroke-width="2"/>
+  <path d="M 168 220 L 144 244" stroke-width="2"/>
+  <path d="M 130 232 L 108 238" stroke-width="1.3"/>
+</g>
+
+<ellipse cx="235" cy="180" rx="26" ry="22" fill="#e8eef4" stroke="#111" stroke-width="2.5"/>
+<circle cx="235" cy="180" r="8" fill="#8fa8c0" stroke="#333" stroke-width="1"/>
+
+<polygon points="259,169 286,177 286,186 259,193" fill="#d1495b" stroke="#8e2f3d" stroke-width="1"/>
+
+<line x1="284" y1="181" x2="660" y2="181" stroke="#111" stroke-width="4" stroke-linecap="round"/>
+<g fill="#cfe0ef" stroke="#1a6fb5" stroke-width="1.5">
+  <rect x="308" y="171" width="64" height="20" rx="8"/>
+  <rect x="388" y="171" width="64" height="20" rx="8"/>
+  <rect x="468" y="171" width="64" height="20" rx="8"/>
+  <rect x="548" y="171" width="64" height="20" rx="8"/>
+</g>
+
+<g fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round">
+  <path d="M 660 181 L 696 154"/>
+  <path d="M 660 181 L 700 181"/>
+  <path d="M 660 181 L 696 208"/>
+</g>
+<g fill="#2e8b57" stroke="#1d5c39" stroke-width="1">
+  <circle cx="700" cy="152" r="6"/>
+  <circle cx="705" cy="181" r="6"/>
+  <circle cx="700" cy="210" r="6"/>
+</g>
+
+<text x="132" y="70" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" font-weight="bold" fill="#1a6fb5">dendrites: the input surface</text>
+<text x="132" y="84" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">thousands of contacts, huge area</text>
+
+<text x="232" y="222" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#111">soma</text>
+
+<line x1="300" y1="152" x2="288" y2="172" stroke="#d1495b" stroke-width="1.2"/>
+<text x="360" y="130" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" font-weight="bold" fill="#d1495b">axon hillock: where the decision is made</text>
+<text x="360" y="145" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">highest density of voltage-gated Na+ channels</text>
+
+<line x1="340" y1="196" x2="340" y2="204" stroke="#1a6fb5" stroke-width="1"/>
+<text x="340" y="216" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#1a6fb5">myelin</text>
+<line x1="460" y1="196" x2="460" y2="204" stroke="#333" stroke-width="1"/>
+<text x="462" y="216" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">node of Ranvier</text>
+<text x="640" y="238" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#2e8b57">presynaptic terminals: the output</text>
+
+<line x1="284" y1="200" x2="284" y2="250" stroke="#d1495b" stroke-width="1.4" stroke-dasharray="4 3"/>
+
+<rect x="60" y="252" width="224" height="17" fill="#1a6fb5"/>
+<rect x="284" y="252" width="436" height="17" fill="#d1495b"/>
+<text x="172" y="264.5" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" font-weight="bold" fill="#ffffff">GRADED &#183; ANALOGUE &#183; DECREMENTAL</text>
+<text x="502" y="264.5" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" font-weight="bold" fill="#ffffff">ALL-OR-NONE &#183; DIGITAL &#183; REGENERATIVE</text>
+<text x="440" y="288" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" font-style="italic" fill="#333">morphology is a computational specification, not decoration</text>
+
+<defs>
+  <marker id="ar" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M 0 0 L 6 3 L 0 6 z" fill="#111"/></marker>
+  <marker id="arg" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M 0 0 L 6 3 L 0 6 z" fill="#8fa8c0"/></marker>
+  <marker id="arb" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M 0 0 L 6 3 L 0 6 z" fill="#1a6fb5"/></marker>
+  <marker id="arbs" markerWidth="8" markerHeight="8" refX="0" refY="3" orient="auto"><path d="M 6 0 L 0 3 L 6 6 z" fill="#1a6fb5"/></marker>
+</defs>
+
+<text x="20" y="312" font-family="Helvetica,Arial,sans-serif" font-size="12.5" font-weight="bold" fill="#111">(b) that same membrane, directly beneath: the equivalent circuit</text>
+<rect x="20" y="320" width="760" height="228" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+
+<line x1="150" y1="360" x2="730" y2="360" stroke="#111" stroke-width="2"/>
+<line x1="150" y1="490" x2="730" y2="490" stroke="#111" stroke-width="2"/>
+<text x="144" y="356" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">outside</text>
+<text x="144" y="496" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">inside</text>
+
+<line x1="230" y1="360" x2="230" y2="407" stroke="#111" stroke-width="2"/>
+<line x1="230" y1="443" x2="230" y2="490" stroke="#111" stroke-width="2"/>
+<circle cx="230" cy="425" r="18" fill="#ffffff" stroke="#111" stroke-width="2"/>
+<line x1="230" y1="437" x2="230" y2="414" stroke="#111" stroke-width="2" marker-end="url(#ar)"/>
+<text x="202" y="429" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#111">I_in</text>
+<text x="202" y="443" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">synaptic current</text>
+
+<line x1="400" y1="360" x2="400" y2="414" stroke="#111" stroke-width="2"/>
+<line x1="374" y1="414" x2="426" y2="414" stroke="#111" stroke-width="3"/>
+<line x1="374" y1="429" x2="426" y2="429" stroke="#111" stroke-width="3"/>
+<line x1="400" y1="429" x2="400" y2="490" stroke="#111" stroke-width="2"/>
+<text x="434" y="418" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="bold" fill="#1a6fb5">C</text>
+<text x="434" y="434" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">the bilayer</text>
+
+<line x1="560" y1="360" x2="560" y2="386" stroke="#111" stroke-width="2"/>
+<rect x="546" y="386" width="28" height="40" fill="#ffffff" stroke="#111" stroke-width="2"/>
+<line x1="560" y1="426" x2="560" y2="444" stroke="#111" stroke-width="2"/>
+<line x1="540" y1="444" x2="580" y2="444" stroke="#111" stroke-width="3"/>
+<line x1="550" y1="457" x2="570" y2="457" stroke="#111" stroke-width="3"/>
+<line x1="560" y1="457" x2="560" y2="490" stroke="#111" stroke-width="2"/>
+<text x="592" y="402" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="bold" fill="#2e8b57">g_L</text>
+<text x="592" y="416" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">open channels</text>
+<text x="592" y="452" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="bold" fill="#2e8b57">E_L</text>
+<text x="592" y="466" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">the ion gradient</text>
+
+<line x1="690" y1="366" x2="690" y2="484" stroke="#1a6fb5" stroke-width="1.6" marker-end="url(#arb)" marker-start="url(#arbs)"/>
+<text x="700" y="429" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="bold" fill="#1a6fb5">V</text>
+
+<g fill="#111">
+  <circle cx="230" cy="360" r="3.5"/><circle cx="400" cy="360" r="3.5"/><circle cx="560" cy="360" r="3.5"/>
+  <circle cx="230" cy="490" r="3.5"/><circle cx="400" cy="490" r="3.5"/><circle cx="560" cy="490" r="3.5"/>
+</g>
+
+<text x="400" y="516" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="12" font-style="italic" fill="#111">C dV/dt = I_in &#8722; g_L (V &#8722; E_L)</text>
+<text x="400" y="538" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#d1495b">&#964; = R C = C / g_L &#8776; 10 ms &#8212; how long the neuron remembers an input</text>
+</svg>

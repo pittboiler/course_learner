@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 770" width="720" height="770" role="img" aria-label="Panel a: a Hjulstrom-style diagram of flow velocity against grain size on log axes, with the erosion curve rising steeply into the clay range so clay needs a higher velocity than sand, and a settling curve far below. Panel b: a meander in map view with cut bank and point bar, a cross-section inset showing helical flow, and a long profile with a knickpoint and paired terraces.">
+<rect width="720" height="770" fill="#ffffff"/>
+<g font-family="Helvetica,Arial,sans-serif">
+
+<text x="30" y="28" font-size="14" font-weight="bold" fill="#111">(a) What a river can pick up, carry, and drop</text>
+
+<rect x="80" y="50" width="580" height="240" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+
+<g stroke="#dfe6ee" stroke-width="1">
+<line x1="196" y1="50" x2="196" y2="290"/>
+<line x1="312" y1="50" x2="312" y2="290"/>
+<line x1="428" y1="50" x2="428" y2="290"/>
+<line x1="544" y1="50" x2="544" y2="290"/>
+<line x1="80" y1="242" x2="660" y2="242"/>
+<line x1="80" y1="194" x2="660" y2="194"/>
+<line x1="80" y1="146" x2="660" y2="146"/>
+<line x1="80" y1="98" x2="660" y2="98"/>
+</g>
+
+<polyline points="205,285 231,263 277,228 312,196 347,175 393,153 428,139 463,125 544,109 625,91 660,84" fill="none" stroke="#2e8b57" stroke-width="2.5" stroke-dasharray="7,4"/>
+<polyline points="80,90 150,100 196,107 277,120 347,130 393,132 428,126 463,120 544,100 625,84 660,75" fill="none" stroke="#1a6fb5" stroke-width="2.5"/>
+<polyline points="80,90 150,100 196,107 277,120 347,130" fill="none" stroke="#d1495b" stroke-width="4"/>
+<circle cx="393" cy="132" r="4" fill="#d1495b"/>
+
+<text x="556" y="70" font-size="13" font-weight="bold" fill="#111">EROSION</text>
+<text x="240" y="176" font-size="13" font-weight="bold" fill="#111">TRANSPORT</text>
+<text x="556" y="252" font-size="13" font-weight="bold" fill="#111">DEPOSITION</text>
+<text x="556" y="266" font-size="10" fill="#333">(settling wins)</text>
+
+<line x1="152" y1="78" x2="118" y2="92" stroke="#d1495b" stroke-width="1.2"/>
+<text x="98" y="60" font-size="11" fill="#d1495b" font-weight="bold">cohesion + viscous sublayer:</text>
+<text x="98" y="73" font-size="11" fill="#d1495b" font-weight="bold">clay is HARDER to move than sand</text>
+
+<line x1="466" y1="196" x2="400" y2="138" stroke="#333" stroke-width="1"/>
+<text x="470" y="200" font-size="11" fill="#111">easiest grain of all:</text>
+<text x="470" y="213" font-size="11" fill="#111">fine sand, near 20 cm/s</text>
+
+<text x="336" y="228" font-size="10" fill="#2e8b57">settling velocity</text>
+<text x="88" y="256" font-size="10" fill="#2e8b57">clay settles at 0.0004 cm/s</text>
+<line x1="198" y1="261" x2="207" y2="281" stroke="#2e8b57" stroke-width="0.9" stroke-dasharray="3,2"/>
+
+<line x1="80" y1="290" x2="660" y2="290" stroke="#111" stroke-width="1.5"/>
+<line x1="80" y1="290" x2="80" y2="50" stroke="#111" stroke-width="1.5"/>
+
+<g font-size="10.5" fill="#333" text-anchor="middle">
+<text x="80" y="304">0.001</text>
+<text x="196" y="304">0.01</text>
+<text x="312" y="304">0.1</text>
+<text x="428" y="304">1</text>
+<text x="544" y="304">10</text>
+<text x="660" y="304">100</text>
+</g>
+<g font-size="10.5" fill="#333" text-anchor="end">
+<text x="75" y="293">0.01</text>
+<text x="75" y="245">0.1</text>
+<text x="75" y="197">1</text>
+<text x="75" y="149">10</text>
+<text x="75" y="101">100</text>
+<text x="75" y="54">1000</text>
+</g>
+<text x="26" y="212" font-size="11.5" fill="#111" transform="rotate(-90 26 212)">flow velocity (cm/s)</text>
+
+<rect x="80" y="316" width="70" height="15" fill="#9fb3a8" stroke="#333" stroke-width="0.8"/>
+<rect x="150" y="316" width="138" height="15" fill="#d8c9a3" stroke="#333" stroke-width="0.8"/>
+<rect x="288" y="316" width="175" height="15" fill="#e8dcc0" stroke="#333" stroke-width="0.8"/>
+<rect x="463" y="316" width="197" height="15" fill="#b5651d" stroke="#333" stroke-width="0.8"/>
+<g font-size="10" fill="#111" text-anchor="middle">
+<text x="115" y="327">clay</text>
+<text x="219" y="327">silt</text>
+<text x="375" y="327">sand</text>
+<text x="561" y="327" fill="#ffffff">gravel</text>
+</g>
+<text x="370" y="349" font-size="11.5" fill="#111" text-anchor="middle">grain diameter (mm), log scale &#8212; Wentworth classes below the axis</text>
+
+<line x1="20" y1="366" x2="700" y2="366" stroke="#8fa8c0" stroke-width="1"/>
+<text x="30" y="390" font-size="14" font-weight="bold" fill="#111">(b) Meander, secondary flow, and the long profile</text>
+
+<path d="M 70,520 C 105,520 110,430 150,430 C 190,430 195,520 235,520 C 275,520 280,430 320,430 C 350,430 372,452 392,462" fill="none" stroke="#6aa9d6" stroke-width="15" stroke-linecap="round"/>
+<path d="M 70,520 C 105,520 110,430 150,430 C 190,430 195,520 235,520 C 275,520 280,430 320,430 C 350,430 372,452 392,462" fill="none" stroke="#1a6fb5" stroke-width="1" stroke-dasharray="4,4"/>
+
+<path d="M 132,421 C 138,414 162,414 168,421" fill="none" stroke="#d1495b" stroke-width="3.5"/>
+<path d="M 134,439 C 140,446 160,446 166,439" fill="none" stroke="#d8c9a3" stroke-width="6"/>
+<path d="M 217,529 C 223,536 247,536 253,529" fill="none" stroke="#d1495b" stroke-width="3.5"/>
+<path d="M 219,511 C 225,504 245,504 251,511" fill="none" stroke="#d8c9a3" stroke-width="6"/>
+
+<path d="M 300,424 C 296,398 348,398 344,424" fill="none" stroke="#9fb3a8" stroke-width="8" stroke-linecap="round"/>
+
+<line x1="150" y1="404" x2="150" y2="456" stroke="#111" stroke-width="1" stroke-dasharray="5,3"/>
+<text x="150" y="400" font-size="11" fill="#111" text-anchor="middle">A</text>
+<text x="150" y="467" font-size="11" fill="#111" text-anchor="middle">A'</text>
+
+<line x1="88" y1="520" x2="112" y2="520" stroke="#111" stroke-width="1.5"/>
+<path d="M 112,520 l -6,-3.5 l 0,7 z" fill="#111"/>
+<text x="76" y="538" font-size="10.5" fill="#111">flow</text>
+
+<line x1="115" y1="411" x2="140" y2="419" stroke="#d1495b" stroke-width="1"/>
+<text x="46" y="409" font-size="10.5" fill="#d1495b">cut bank (erodes)</text>
+<line x1="180" y1="452" x2="163" y2="443" stroke="#8a7d5a" stroke-width="1"/>
+<text x="182" y="456" font-size="10.5" fill="#8a7d5a">point bar (deposits)</text>
+<line x1="289" y1="406" x2="300" y2="411" stroke="#2e8b57" stroke-width="1"/>
+<text x="286" y="404" font-size="10.5" fill="#2e8b57" text-anchor="end">oxbow &#8212; a cut-off</text>
+<text x="286" y="416" font-size="10.5" fill="#2e8b57" text-anchor="end">meander loop</text>
+
+<rect x="424" y="398" width="266" height="118" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+<text x="430" y="412" font-size="11" font-weight="bold" fill="#111">section A&#8211;A' through the bend</text>
+<path d="M 442,428 L 449,492 L 520,484 L 600,450 L 678,428 L 678,492 L 442,492 Z" fill="#efe6d0" stroke="none"/>
+<path d="M 442,428 L 449,492 L 520,484 L 600,450 L 678,428" fill="#cfe3f2" stroke="none"/>
+<path d="M 442,428 L 449,492 L 520,484 L 600,450 L 678,428" fill="none" stroke="#111" stroke-width="1.4"/>
+<line x1="442" y1="428" x2="678" y2="428" stroke="#1a6fb5" stroke-width="1.4"/>
+<line x1="600" y1="450" x2="678" y2="428" stroke="#8a7d5a" stroke-width="4"/>
+
+<line x1="560" y1="436" x2="474" y2="436" stroke="#d1495b" stroke-width="1.6"/>
+<path d="M 474,436 l 7,-3.5 l 0,7 z" fill="#d1495b"/>
+<line x1="476" y1="480" x2="572" y2="470" stroke="#2e8b57" stroke-width="1.6"/>
+<path d="M 572,470 l -7,-2 l 1,7 z" fill="#2e8b57"/>
+<path d="M 466,444 C 500,438 560,452 556,464" fill="none" stroke="#333" stroke-width="1" stroke-dasharray="3,3"/>
+
+<text x="446" y="424" font-size="10" fill="#d1495b">cut bank</text>
+<text x="602" y="472" font-size="10" fill="#111">point bar</text>
+<text x="470" y="507" font-size="10.5" fill="#111">surface water swings out, bed water swings in</text>
+
+<text x="30" y="558" font-size="12.5" font-weight="bold" fill="#111">Long profile after a fall in base level</text>
+
+<rect x="70" y="570" width="610" height="172" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+<path d="M 80,592 C 130,640 190,668 250,678 L 286,680 L 293,704 C 340,710 420,718 520,724 C 580,727 640,730 674,731" fill="none" stroke="#1a6fb5" stroke-width="2.5"/>
+<path d="M 250,678 C 340,690 460,696 674,700" fill="none" stroke="#333" stroke-width="1.6" stroke-dasharray="6,4"/>
+<line x1="674" y1="702" x2="674" y2="728" stroke="#d1495b" stroke-width="1.6"/>
+<path d="M 674,731 l -3.5,-7 l 7,0 z" fill="#d1495b"/>
+<text x="586" y="690" font-size="10.5" fill="#d1495b">base level falls</text>
+
+<line x1="300" y1="666" x2="292" y2="694" stroke="#111" stroke-width="1"/>
+<text x="303" y="663" font-size="10.5" fill="#111">knickpoint, retreating upstream</text>
+<line x1="330" y1="676" x2="300" y2="672" stroke="#111" stroke-width="1"/>
+<path d="M 300,672 l 7,-2.5 l -1,6.5 z" fill="#111"/>
+
+<rect x="380" y="700" width="96" height="4" fill="#d8c9a3" stroke="#8a7d5a" stroke-width="0.7"/>
+<rect x="380" y="710" width="96" height="4" fill="#d8c9a3" stroke="#8a7d5a" stroke-width="0.7"/>
+<line x1="428" y1="704" x2="428" y2="710" stroke="#8a7d5a" stroke-width="0.7"/>
+<line x1="498" y1="661" x2="464" y2="699" stroke="#8a7d5a" stroke-width="1"/>
+<text x="500" y="646" font-size="10.5" fill="#8a7d5a">paired terraces:</text>
+<text x="500" y="658" font-size="10.5" fill="#8a7d5a">abandoned floodplains</text>
+<text x="93" y="588" font-size="10.5" fill="#333">headwaters</text>
+<text x="375" y="760" font-size="11.5" fill="#111" text-anchor="middle">distance downstream &#8594;</text>
+
+<text x="152" y="628" font-size="10.5" fill="#1a6fb5">graded profile: concave up</text>
+
+</g>
+</svg>

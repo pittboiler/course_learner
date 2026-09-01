@@ -1,0 +1,55 @@
+<svg viewBox="0 0 620 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="24" y="24" fill="#8a8a8a" font-style="italic">Each instrument sees a different level: pick the channel, pick the altitude.</text>
+  <line x1="88" y1="290" x2="306" y2="290" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="88" y="306" fill="#8a8a8a" font-size="11">surface</text>
+  <line x1="88" y1="290" x2="88" y2="66" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="88,66 83,76 93,76" fill="#8a8a8a"/>
+  <line x1="83" y1="290.0" x2="88" y2="290.0" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="80" y="294.0" fill="#8a8a8a" font-size="11" text-anchor="end">0</text>
+  <line x1="83" y1="228.3" x2="88" y2="228.3" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="80" y="232.3" fill="#8a8a8a" font-size="11" text-anchor="end">4</text>
+  <line x1="83" y1="166.6" x2="88" y2="166.6" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="80" y="170.6" fill="#8a8a8a" font-size="11" text-anchor="end">8</text>
+  <line x1="83" y1="104.9" x2="88" y2="104.9" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="80" y="108.9" fill="#8a8a8a" font-size="11" text-anchor="end">12</text>
+  <text x="80" y="62" fill="#8a8a8a" font-size="11" text-anchor="end">km</text>
+  <line x1="88" y1="283.8" x2="300" y2="283.8" stroke="#4a90d9" stroke-width="2" stroke-dasharray="5 3"/>
+  <circle cx="300" cy="283.8" r="4" fill="#4a90d9"/>
+  <text x="92" y="276.8" fill="#4a90d9" font-size="10">IR window 10.7: sees the surface</text>
+  <line x1="88" y1="189.7" x2="300" y2="189.7" stroke="#e0645c" stroke-width="2" stroke-dasharray="5 3"/>
+  <circle cx="300" cy="189.7" r="4" fill="#e0645c"/>
+  <text x="92" y="182.7" fill="#e0645c" font-size="10">water vapour 6.7: mid-trop</text>
+  <line x1="88" y1="112.6" x2="300" y2="112.6" stroke="#8a8a8a" stroke-width="2" stroke-dasharray="5 3"/>
+  <circle cx="300" cy="112.6" r="4" fill="#8a8a8a"/>
+  <text x="92" y="105.6" fill="#8a8a8a" font-size="10">CO2 15: upper trop</text>
+  <text x="194" y="328" fill="#8a8a8a" font-size="12" text-anchor="middle">satellite emission levels</text>
+  <line x1="370" y1="290" x2="370" y2="82" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="370,82 365,92 375,92" fill="#8a8a8a"/>
+  <line x1="365" y1="290.0" x2="370" y2="290.0" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="362" y="294.0" fill="#8a8a8a" font-size="11" text-anchor="end">10</text>
+  <line x1="365" y1="253.6" x2="370" y2="253.6" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="362" y="257.6" fill="#8a8a8a" font-size="11" text-anchor="end">20</text>
+  <line x1="365" y1="217.3" x2="370" y2="217.3" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="362" y="221.3" fill="#8a8a8a" font-size="11" text-anchor="end">30</text>
+  <line x1="365" y1="180.9" x2="370" y2="180.9" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="362" y="184.9" fill="#8a8a8a" font-size="11" text-anchor="end">40</text>
+  <line x1="365" y1="144.5" x2="370" y2="144.5" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="362" y="148.5" fill="#8a8a8a" font-size="11" text-anchor="end">50</text>
+  <line x1="365" y1="108.2" x2="370" y2="108.2" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="362" y="112.2" fill="#8a8a8a" font-size="11" text-anchor="end">60</text>
+  <text x="362" y="78" fill="#8a8a8a" font-size="11" text-anchor="end">dBZ</text>
+  <rect x="374" y="255.9" width="74" height="9" fill="#8a8a8a" opacity="0.35" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="454" y="263.9" fill="#8a8a8a" font-size="10">drizzle</text>
+  <rect x="374" y="237.7" width="74" height="9" fill="#4a90d9" opacity="0.35" stroke="#4a90d9" stroke-width="1"/>
+  <text x="454" y="245.7" fill="#4a90d9" font-size="10">1 mm/h</text>
+  <rect x="374" y="179.5" width="74" height="9" fill="#4a90d9" opacity="0.35" stroke="#4a90d9" stroke-width="1"/>
+  <text x="454" y="187.5" fill="#4a90d9" font-size="10">10 mm/h</text>
+  <rect x="374" y="139.5" width="74" height="9" fill="#e0645c" opacity="0.35" stroke="#e0645c" stroke-width="1"/>
+  <text x="454" y="147.5" fill="#e0645c" font-size="10">50 mm/h</text>
+  <rect x="374" y="121.4" width="74" height="9" fill="#e0645c" opacity="0.35" stroke="#e0645c" stroke-width="1"/>
+  <text x="454" y="129.4" fill="#e0645c" font-size="10">100 mm/h</text>
+  <rect x="374" y="95.9" width="74" height="9" fill="#e0645c" opacity="0.35" stroke="#e0645c" stroke-width="1"/>
+  <text x="454" y="103.9" fill="#e0645c" font-size="10">hail</text>
+  <text x="450" y="328" fill="#8a8a8a" font-size="12" text-anchor="middle">radar reflectivity</text>
+  <text x="310" y="352" fill="#8a8a8a" font-size="11" text-anchor="middle">Z = 200 R to the power 1.6, and dBZ = 10 log Z</text>
+</svg>

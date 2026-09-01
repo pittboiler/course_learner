@@ -1,0 +1,32 @@
+<svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="30" y="26" fill="#8a8a8a" font-style="italic">A slab is squeezed harder from below than from above; the gap is its weight.</text>
+  <rect x="70" y="110" width="170" height="90" fill="#4a90d9" opacity="0.13" stroke="#4a90d9" stroke-width="2"/>
+  <text x="155" y="162" fill="#4a90d9" text-anchor="middle">slab, thickness dz</text>
+  <line x1="110" y1="252" x2="110" y2="206" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="110,202 105,213 115,213" fill="#e0645c"/>
+  <text x="110" y="270" fill="#e0645c" text-anchor="middle">p(z) A</text>
+  <line x1="110" y1="58" x2="110" y2="104" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="110,108 105,97 115,97" fill="#e0645c"/>
+  <text x="110" y="52" fill="#e0645c" text-anchor="middle">p(z+dz) A</text>
+  <line x1="200" y1="128" x2="200" y2="186" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="200,190 195,179 205,179" fill="#8a8a8a"/>
+  <text x="200" y="122" fill="#8a8a8a" text-anchor="middle">weight</text>
+  <text x="204" y="216" fill="#8a8a8a" text-anchor="middle">g dz A</text>
+  <line x1="350" y1="270" x2="574" y2="270" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="350" y1="270" x2="350" y2="70" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="350,70 345,80 355,80" fill="#8a8a8a"/>
+  <polyline points="560.0,270.0 550.2,267.7 540.9,265.5 532.0,263.2 523.6,261.0 515.5,258.7 507.8,256.4 500.5,254.2 493.5,251.9 486.8,249.6 480.4,247.4 474.4,245.1 468.6,242.9 463.1,240.6 457.8,238.3 452.8,236.1 448.0,233.8 443.5,231.5 439.1,229.3 435.0,227.0 431.0,224.8 427.3,222.5 423.7,220.2 420.2,218.0 417.0,215.7 413.9,213.5 410.9,211.2 408.1,208.9 405.4,206.7 402.8,204.4 400.3,202.1 398.0,199.9 395.8,197.6 393.6,195.4 391.6,193.1 389.7,190.8 387.8,188.6 386.1,186.3 384.4,184.0 382.8,181.8 381.3,179.5 379.8,177.3 378.4,175.0 377.1,172.7 375.8,170.5 374.6,168.2 373.5,166.0 372.4,163.7 371.4,161.4 370.4,159.2 369.4,156.9 368.5,154.6 367.7,152.4 366.8,150.1 366.0,147.9 365.3,145.6 364.6,143.3 363.9,141.1 363.3,138.8 362.6,136.5 362.1,134.3 361.5,132.0 361.0,129.8 360.5,127.5 360.0,125.2 359.5,123.0 359.1,120.7 358.6,118.5 358.2,116.2 357.9,113.9 357.5,111.7 357.1,109.4 356.8,107.1 356.5,104.9 356.2,102.6 355.9,100.4 355.6,98.1 355.4,95.8 355.1,93.6 354.9,91.3 354.7,89.0 354.4,86.8 354.2,84.5 354.0,82.3 353.8,80.0" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="455" y="304" fill="#8a8a8a" text-anchor="middle">pressure</text>
+  <text x="334" y="78" fill="#8a8a8a" font-size="12">z</text>
+  <text x="560" y="286" fill="#8a8a8a" font-size="12" text-anchor="middle">p0</text>
+  <line x1="350" y1="222.5" x2="427.3" y2="222.5" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="342" y="226.5" fill="#e0645c" font-size="12" text-anchor="end">H</text>
+  <circle cx="427.3" cy="222.5" r="3.5" fill="#e0645c"/>
+  <line x1="350" y1="175.0" x2="378.4" y2="175.0" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="342" y="179.0" fill="#e0645c" font-size="12" text-anchor="end">2H</text>
+  <circle cx="378.4" cy="175.0" r="3.5" fill="#e0645c"/>
+  <line x1="350" y1="127.5" x2="360.5" y2="127.5" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="342" y="131.5" fill="#e0645c" font-size="12" text-anchor="end">3H</text>
+  <circle cx="360.5" cy="127.5" r="3.5" fill="#e0645c"/>
+  <text x="366" y="86" fill="#e0645c" font-size="12">each H up divides p by e</text>
+</svg>

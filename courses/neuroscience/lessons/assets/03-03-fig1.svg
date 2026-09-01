@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 580" width="820" height="580" role="img" aria-label="Two panels. Panel a shows the cochlea uncoiled along a 35 millimetre axis from base to apex, drawn as a wedge that is narrow and stiff at the base and wide and floppy at the apex, with characteristic frequencies from 20 kilohertz at the base down to 20 hertz at the apex marked along the axis, and two travelling-wave envelopes above it, one for a 4 kilohertz tone peaking near 12 millimetres from the base and one for a 1 kilohertz tone peaking near 21 millimetres, so that each frequency peaks at its own place. Panel b shows the interaural time difference geometry: a head seen from above with a plane wave arriving at 45 degrees, the near ear reached directly, and the far ear reached by an extra path made of a straight run equal to r times sine theta plus a creeping arc equal to r times theta around the head, with the Woodworth formula and worked values beside it.">
+<rect width="820" height="580" fill="#ffffff"/>
+
+<text x="70" y="46" font-family="Helvetica,Arial,sans-serif" font-size="13.5" font-weight="bold" fill="#111">(a) The cochlea uncoiled &#8212; a mechanical frequency analyser</text>
+
+<text x="56" y="122" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333" text-anchor="middle" transform="rotate(-90 56 122)">BM displacement</text>
+
+<line x1="90" y1="152" x2="148" y2="152" stroke="#333" stroke-width="1.2"/>
+<path d="M 148 152 l -7 -3.5 l 0 7 z" fill="#333"/>
+<text x="156" y="156" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333">travelling wave from the stapes</text>
+
+<path d="M 74 180 C 170 177 240 114 294 94 C 328 82 344 134 358 180 Z" fill="#1a6fb5" fill-opacity="0.13"/>
+<path d="M 74 180 C 170 177 240 114 294 94 C 328 82 344 134 358 180" fill="none" stroke="#1a6fb5" stroke-width="2.2"/>
+<path d="M 74 180 C 220 178 400 124 472 102 C 512 90 526 142 540 180 Z" fill="#d1495b" fill-opacity="0.13"/>
+<path d="M 74 180 C 220 178 400 124 472 102 C 512 90 526 142 540 180" fill="none" stroke="#d1495b" stroke-width="2.2"/>
+
+<text x="294" y="80" font-family="Helvetica,Arial,sans-serif" font-size="11.5" font-weight="bold" fill="#1a6fb5" text-anchor="middle">4 kHz tone</text>
+<text x="472" y="88" font-family="Helvetica,Arial,sans-serif" font-size="11.5" font-weight="bold" fill="#d1495b" text-anchor="middle">1 kHz tone</text>
+
+<line x1="294" y1="96" x2="294" y2="262" stroke="#1a6fb5" stroke-width="1" stroke-dasharray="4,3" stroke-opacity="0.65"/>
+<line x1="472" y1="104" x2="472" y2="262" stroke="#d1495b" stroke-width="1" stroke-dasharray="4,3" stroke-opacity="0.65"/>
+
+<polygon points="70,190 740,186 740,232 70,198" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1.3"/>
+<text x="405" y="248" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#333" text-anchor="middle">basilar membrane: narrow and stiff at the base, wide and floppy at the apex &#8212; a graded resonator</text>
+
+<line x1="70" y1="262" x2="740" y2="262" stroke="#111" stroke-width="1.4"/>
+
+<line x1="74.6" y1="262" x2="74.6" y2="270" stroke="#111" stroke-width="1.2"/>
+<line x1="200" y1="262" x2="200" y2="270" stroke="#111" stroke-width="1.2"/>
+<line x1="294" y1="262" x2="294" y2="270" stroke="#111" stroke-width="1.2"/>
+<line x1="384" y1="262" x2="384" y2="270" stroke="#111" stroke-width="1.2"/>
+<line x1="472" y1="262" x2="472" y2="270" stroke="#111" stroke-width="1.2"/>
+<line x1="619" y1="262" x2="619" y2="270" stroke="#111" stroke-width="1.2"/>
+<line x1="740" y1="262" x2="740" y2="270" stroke="#111" stroke-width="1.2"/>
+
+<text x="74.6" y="284" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#111" text-anchor="middle">20 kHz</text>
+<text x="200" y="284" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#111" text-anchor="middle">8 kHz</text>
+<text x="294" y="284" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="bold" fill="#1a6fb5" text-anchor="middle">4 kHz</text>
+<text x="384" y="284" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#111" text-anchor="middle">2 kHz</text>
+<text x="472" y="284" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="bold" fill="#d1495b" text-anchor="middle">1 kHz</text>
+<text x="619" y="284" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#111" text-anchor="middle">250 Hz</text>
+<text x="740" y="284" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#111" text-anchor="middle">20 Hz</text>
+
+<text x="70" y="302" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#2e8b57">base (stapes), 0 mm</text>
+<text x="740" y="302" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#2e8b57" text-anchor="end">apex (helicotrema), 35 mm</text>
+<text x="405" y="320" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#333" text-anchor="middle">characteristic frequency against place: about 4.6 mm per octave, so the map is logarithmic</text>
+
+<line x1="70" y1="338" x2="740" y2="338" stroke="#dddddd" stroke-width="1"/>
+
+<text x="70" y="362" font-family="Helvetica,Arial,sans-serif" font-size="13.5" font-weight="bold" fill="#111">(b) Interaural time difference &#8212; where the far ear's extra path comes from</text>
+
+<text x="70" y="392" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#111">Head radius r = 8.75 cm, speed of sound c = 343 m/s</text>
+<text x="70" y="414" font-family="Helvetica,Arial,sans-serif" font-size="12" font-weight="bold" fill="#111">&#916;t = (r/c)(&#952; + sin &#952;)</text>
+<text x="70" y="436" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#111">&#952; = 90&#176;: &#916;t = 656 &#181;s (the maximum)</text>
+<text x="70" y="456" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#111">&#952; = 45&#176;: &#916;t = 381 &#181;s</text>
+<text x="70" y="480" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#d1495b">Behavioural threshold &#8776; 10 &#181;s, i.e. about 1&#176; near the midline.</text>
+<text x="70" y="498" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#d1495b">That is 1/100 of a spike's width: no single neuron resolves it.</text>
+<text x="70" y="516" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#d1495b">Coincidence detection across a converging population does.</text>
+
+<circle cx="540" cy="455" r="55" fill="#f5f7fa" stroke="#333" stroke-width="1.6"/>
+<circle cx="485" cy="455" r="6.5" fill="#333"/>
+<circle cx="595" cy="455" r="6.5" fill="#333"/>
+
+<line x1="540" y1="455" x2="540" y2="372" stroke="#8fa8c0" stroke-width="1" stroke-dasharray="4,3"/>
+<line x1="540" y1="455" x2="476" y2="391" stroke="#8fa8c0" stroke-width="1" stroke-dasharray="4,3"/>
+<path d="M 540 415 A 40 40 0 0 0 511.7 426.7" fill="none" stroke="#333" stroke-width="1.1"/>
+<text x="514" y="410" font-family="Helvetica,Arial,sans-serif" font-size="12" font-weight="bold" fill="#111">&#952;</text>
+
+<line x1="457" y1="483" x2="563" y2="377" stroke="#8fa8c0" stroke-width="1.2" stroke-dasharray="5,4"/>
+<text x="447" y="497" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#8fa8c0" text-anchor="middle">wavefront</text>
+
+<line x1="421.4" y1="391.4" x2="481" y2="451" stroke="#1a6fb5" stroke-width="1.8"/>
+<path d="M 485 455 l -8.5 0.5 l 4 -8 z" fill="#1a6fb5"/>
+<line x1="509" y1="346.2" x2="551.4" y2="388.6" stroke="#1a6fb5" stroke-width="1.8"/>
+
+<line x1="551.4" y1="388.6" x2="578.9" y2="416.1" stroke="#d1495b" stroke-width="3.4"/>
+<path d="M 578.9 416.1 A 55 55 0 0 1 595 455" fill="none" stroke="#d1495b" stroke-width="3.4"/>
+
+<line x1="612" y1="392" x2="571" y2="401" stroke="#333" stroke-width="0.9"/>
+<text x="616" y="396" font-family="Helvetica,Arial,sans-serif" font-size="11.5" font-weight="bold" fill="#d1495b">r sin &#952;</text>
+<line x1="628" y1="440" x2="598" y2="435" stroke="#333" stroke-width="0.9"/>
+<text x="632" y="444" font-family="Helvetica,Arial,sans-serif" font-size="11.5" font-weight="bold" fill="#d1495b">r&#952; (creep)</text>
+
+<text x="470" y="530" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#111" text-anchor="middle">near ear</text>
+<text x="622" y="530" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#111" text-anchor="middle">far ear</text>
+
+<text x="405" y="562" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#333" text-anchor="middle">The extra path has two parts: a straight run r sin &#952; and a creep r&#952; around the head.</text>
+
+</svg>

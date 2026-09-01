@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 540" width="760" height="540" role="img" aria-label="A three-panel voltage-clamp record: a command voltage step, the total membrane current it evokes with an early inward transient and a late sustained outward phase, and the same current separated pharmacologically into a TTX-sensitive sodium component and a TEA-sensitive potassium component. An inset sketches the free-running action potential.">
+  <rect width="760" height="540" fill="#ffffff"/>
+
+  <g font-family="Helvetica,Arial,sans-serif">
+
+    <text x="60" y="22" font-size="13.5" font-weight="bold" fill="#111">The voltage clamp: hold V fixed, measure the current it takes</text>
+
+    <!-- step timing guides -->
+    <g stroke="#c8d4e0" stroke-width="1" stroke-dasharray="4 4">
+      <line x1="121.5" y1="46" x2="121.5" y2="470"/>
+      <line x1="493.5" y1="46" x2="493.5" y2="470"/>
+    </g>
+
+    <!-- ============ PANEL A : command voltage ============ -->
+    <text x="52" y="44" font-size="12.5" font-weight="bold" fill="#111">a   Command voltage</text>
+
+    <path d="M 75 105 L 121.5 105 L 121.5 58 L 493.5 58 L 493.5 105 L 540 105"
+          fill="none" stroke="#111" stroke-width="2.2" stroke-linejoin="round"/>
+    <text x="250" y="51" font-size="11.5" fill="#111">step to &#8722;5 mV</text>
+    <text x="75" y="122" font-size="11.5" fill="#333">hold at &#8722;65 mV</text>
+
+    <!-- ============ PANEL B : total membrane current ============ -->
+    <text x="52" y="152" font-size="12.5" font-weight="bold" fill="#111">b   Total membrane current (mA/cm&#178;)</text>
+
+    <line x1="75" y1="210" x2="540" y2="210" stroke="#8fa8c0" stroke-width="1"/>
+    <text x="68" y="214" font-size="10.5" fill="#8fa8c0" text-anchor="end">0</text>
+
+    <!-- capacitive spikes at the step edges -->
+    <line x1="121.5" y1="210" x2="121.5" y2="170" stroke="#333" stroke-width="1.2"/>
+    <line x1="493.5" y1="210" x2="493.5" y2="250" stroke="#333" stroke-width="1.2"/>
+    <text x="126" y="168" font-size="9.5" fill="#333">capacitive spike (clipped)</text>
+
+    <path d="M 75 210 L 118 210 M 121.5 210
+             C 134 213, 144 245, 155 248
+             C 168 251, 180 227, 196 210
+             C 215 191, 240 184, 268 183
+             L 493.5 183
+             C 505 183, 512 205, 520 210
+             L 540 210"
+          fill="none" stroke="#111" stroke-width="2.4" stroke-linecap="round"/>
+
+    <line x1="171" y1="260" x2="158" y2="250" stroke="#333" stroke-width="1"/>
+    <text x="174" y="268" font-size="11" fill="#111">early inward transient</text>
+    <text x="330" y="176" font-size="11" fill="#111">late sustained outward</text>
+    <text x="546" y="196" font-size="10" fill="#333">outward &#8593;</text>
+    <text x="546" y="228" font-size="10" fill="#333">inward &#8595;</text>
+
+    <!-- ============ PANEL C : separated components ============ -->
+    <text x="52" y="328" font-size="12.5" font-weight="bold" fill="#111">c   Separated by blockers (mA/cm&#178;)</text>
+
+    <line x1="75" y1="400" x2="540" y2="400" stroke="#8fa8c0" stroke-width="1"/>
+    <text x="68" y="404" font-size="10.5" fill="#8fa8c0" text-anchor="end">0</text>
+    <text x="68" y="359" font-size="10.5" fill="#8fa8c0" text-anchor="end">+1</text>
+    <text x="68" y="449" font-size="10.5" fill="#8fa8c0" text-anchor="end">&#8722;1</text>
+    <line x1="72" y1="355" x2="78" y2="355" stroke="#8fa8c0" stroke-width="1"/>
+    <line x1="72" y1="445" x2="78" y2="445" stroke="#8fa8c0" stroke-width="1"/>
+
+    <!-- sodium component -->
+    <path d="M 121.5 400
+             C 134 404, 144 442, 155 445
+             C 170 448, 185 435, 205 420
+             C 230 404, 265 400, 300 400
+             L 493.5 400"
+          fill="none" stroke="#d1495b" stroke-width="2.4" stroke-linecap="round"/>
+    <text x="168" y="464" font-size="11" fill="#d1495b">TTX-sensitive: Na+ current</text>
+
+    <!-- potassium component -->
+    <path d="M 121.5 400
+             C 140 400, 150 398, 165 392
+             C 190 380, 220 373, 260 373
+             L 493.5 373
+             C 505 373, 515 395, 525 400
+             L 540 400"
+          fill="none" stroke="#1a6fb5" stroke-width="2.4" stroke-linecap="round"/>
+    <text x="320" y="366" font-size="11" fill="#1a6fb5">TEA-sensitive: K+ current</text>
+
+    <!-- time axis -->
+    <line x1="75" y1="478" x2="540" y2="478" stroke="#333" stroke-width="1"/>
+    <g stroke="#333" stroke-width="1">
+      <line x1="75" y1="478" x2="75" y2="483"/>
+      <line x1="168" y1="478" x2="168" y2="483"/>
+      <line x1="261" y1="478" x2="261" y2="483"/>
+      <line x1="354" y1="478" x2="354" y2="483"/>
+      <line x1="447" y1="478" x2="447" y2="483"/>
+      <line x1="540" y1="478" x2="540" y2="483"/>
+    </g>
+    <g font-size="10" fill="#333" text-anchor="middle">
+      <text x="75" y="495">0</text>
+      <text x="168" y="495">2</text>
+      <text x="261" y="495">4</text>
+      <text x="354" y="495">6</text>
+      <text x="447" y="495">8</text>
+      <text x="540" y="495">10</text>
+    </g>
+    <text x="307" y="512" font-size="11" fill="#333" text-anchor="middle">time (ms)</text>
+
+    <text x="60" y="532" font-size="11.5" fill="#111">Trace b is the sum of the two traces in c &#8212; the total is never measured ion by ion.</text>
+
+    <!-- ============ INSET : free-running spike ============ -->
+    <rect x="570" y="32" width="182" height="130" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+    <text x="578" y="48" font-size="11" font-weight="bold" fill="#111">Free-running spike</text>
+    <line x1="576" y1="120" x2="746" y2="120" stroke="#999" stroke-width="1" stroke-dasharray="3 3"/>
+    <text x="578" y="116" font-size="9.5" fill="#666">threshold</text>
+    <path d="M 576 130 L 600 130
+             C 608 130, 613 126, 617 120
+             C 621 110, 625 78, 630 70
+             C 634 66, 638 70, 641 80
+             C 645 96, 650 124, 656 136
+             C 663 143, 672 140, 684 134
+             C 700 128, 722 130, 746 130"
+          fill="none" stroke="#2e8b57" stroke-width="2.2" stroke-linecap="round"/>
+    <line x1="668" y1="141" x2="666" y2="149" stroke="#333" stroke-width="1"/>
+    <text x="656" y="158" font-size="9.5" fill="#333">AHP</text>
+
+  </g>
+</svg>

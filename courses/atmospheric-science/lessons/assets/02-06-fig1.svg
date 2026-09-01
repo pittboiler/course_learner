@@ -1,0 +1,72 @@
+<svg viewBox="0 0 620 420" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="24" y="26" fill="#8a8a8a" font-style="italic">Height sets the prefix, shape sets the root: ten genera on two axes.</text>
+  <line x1="76" y1="93.9" x2="556" y2="93.9" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 4" opacity="0.5"/>
+  <line x1="76" y1="213.0" x2="556" y2="213.0" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 4" opacity="0.5"/>
+  <line x1="76" y1="312.3" x2="556" y2="312.3" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 4" opacity="0.5"/>
+  <line x1="76" y1="352.0" x2="556" y2="352.0" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="76" y1="352.0" x2="76" y2="66" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="76,66 71,76 81,76" fill="#8a8a8a"/>
+  <line x1="71" y1="352.0" x2="76" y2="352.0" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="68" y="356.0" fill="#8a8a8a" font-size="11" text-anchor="end">0</text>
+  <line x1="71" y1="312.3" x2="76" y2="312.3" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="68" y="316.3" fill="#8a8a8a" font-size="11" text-anchor="end">2</text>
+  <line x1="71" y1="252.7" x2="76" y2="252.7" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="68" y="256.7" fill="#8a8a8a" font-size="11" text-anchor="end">5</text>
+  <line x1="71" y1="213.0" x2="76" y2="213.0" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="68" y="217.0" fill="#8a8a8a" font-size="11" text-anchor="end">7</text>
+  <line x1="71" y1="153.4" x2="76" y2="153.4" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="68" y="157.4" fill="#8a8a8a" font-size="11" text-anchor="end">10</text>
+  <line x1="71" y1="93.9" x2="76" y2="93.9" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="68" y="97.9" fill="#8a8a8a" font-size="11" text-anchor="end">13</text>
+  <text x="68" y="62" fill="#8a8a8a" font-size="11" text-anchor="end">km</text>
+  <text x="172" y="382" fill="#8a8a8a" font-size="12" text-anchor="middle">layered (stratus)</text>
+  <text x="460" y="382" fill="#8a8a8a" font-size="12" text-anchor="middle">heaped (cumulus)</text>
+  <line x1="256" y1="378" x2="376" y2="378" stroke="#8a8a8a" stroke-width="1" opacity="0.6"/>
+  <polygon points="380,378 370,374 370,382" fill="#8a8a8a" opacity="0.6"/>
+  <ellipse cx="186.0" cy="163.4" rx="74.0" ry="7.0" fill="#4a90d9" opacity="0.22" stroke="#4a90d9" stroke-width="1.6"/>
+  <text x="186.0" y="149.4" fill="#8a8a8a" font-size="11" text-anchor="middle">cirrostratus</text>
+  <ellipse cx="304.0" cy="145.5" rx="6.0" ry="4.0" fill="#4a90d9" opacity="0.3" stroke="#4a90d9" stroke-width="1.6"/>
+  <ellipse cx="319.0" cy="145.5" rx="6.0" ry="4.0" fill="#4a90d9" opacity="0.3" stroke="#4a90d9" stroke-width="1.6"/>
+  <ellipse cx="334.0" cy="145.5" rx="6.0" ry="4.0" fill="#4a90d9" opacity="0.3" stroke="#4a90d9" stroke-width="1.6"/>
+  <ellipse cx="349.0" cy="145.5" rx="6.0" ry="4.0" fill="#4a90d9" opacity="0.3" stroke="#4a90d9" stroke-width="1.6"/>
+  <ellipse cx="364.0" cy="145.5" rx="6.0" ry="4.0" fill="#4a90d9" opacity="0.3" stroke="#4a90d9" stroke-width="1.6"/>
+  <ellipse cx="379.0" cy="145.5" rx="6.0" ry="4.0" fill="#4a90d9" opacity="0.3" stroke="#4a90d9" stroke-width="1.6"/>
+  <text x="341.0" y="132.5" fill="#8a8a8a" font-size="11" text-anchor="middle">cirrocumulus</text>
+  <path d="M 376 115.7 q 30 -14 58 -4 q 26 9 52 -8" fill="none" stroke="#4a90d9" stroke-width="2.4"/>
+  <path d="M 392 99.8 q 26 -12 50 -3" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="428.0" y="125.6" fill="#8a8a8a" font-size="11" text-anchor="middle">cirrus</text>
+  <ellipse cx="172.0" cy="260.7" rx="70.0" ry="11.0" fill="#4a90d9" opacity="0.22" stroke="#4a90d9" stroke-width="1.6"/>
+  <text x="172.0" y="261.7" fill="#8a8a8a" font-size="11" text-anchor="middle">altostratus</text>
+  <ellipse cx="308.0" cy="248.7" rx="10.0" ry="6.0" fill="#4a90d9" opacity="0.3" stroke="#4a90d9" stroke-width="1.6"/>
+  <ellipse cx="330.0" cy="248.7" rx="10.0" ry="6.0" fill="#4a90d9" opacity="0.3" stroke="#4a90d9" stroke-width="1.6"/>
+  <ellipse cx="352.0" cy="248.7" rx="10.0" ry="6.0" fill="#4a90d9" opacity="0.3" stroke="#4a90d9" stroke-width="1.6"/>
+  <ellipse cx="374.0" cy="248.7" rx="10.0" ry="6.0" fill="#4a90d9" opacity="0.3" stroke="#4a90d9" stroke-width="1.6"/>
+  <ellipse cx="396.0" cy="248.7" rx="10.0" ry="6.0" fill="#4a90d9" opacity="0.3" stroke="#4a90d9" stroke-width="1.6"/>
+  <text x="352.0" y="235.7" fill="#8a8a8a" font-size="11" text-anchor="middle">altocumulus</text>
+  <ellipse cx="176.0" cy="290.4" rx="74.0" ry="12.0" fill="#4a90d9" opacity="0.34" stroke="#4a90d9" stroke-width="1.6"/>
+  <text x="176.0" y="291.4" fill="#8a8a8a" font-size="11" text-anchor="middle">nimbostratus</text>
+  <line x1="128" y1="302.4" x2="123" y2="327.2" stroke="#4a90d9" stroke-width="1.2" opacity="0.75"/>
+  <line x1="139" y1="302.4" x2="134" y2="327.2" stroke="#4a90d9" stroke-width="1.2" opacity="0.75"/>
+  <line x1="150" y1="302.4" x2="145" y2="327.2" stroke="#4a90d9" stroke-width="1.2" opacity="0.75"/>
+  <line x1="161" y1="302.4" x2="156" y2="327.2" stroke="#4a90d9" stroke-width="1.2" opacity="0.75"/>
+  <line x1="172" y1="302.4" x2="167" y2="327.2" stroke="#4a90d9" stroke-width="1.2" opacity="0.75"/>
+  <line x1="183" y1="302.4" x2="178" y2="327.2" stroke="#4a90d9" stroke-width="1.2" opacity="0.75"/>
+  <line x1="194" y1="302.4" x2="189" y2="327.2" stroke="#4a90d9" stroke-width="1.2" opacity="0.75"/>
+  <line x1="205" y1="302.4" x2="200" y2="327.2" stroke="#4a90d9" stroke-width="1.2" opacity="0.75"/>
+  <line x1="216" y1="302.4" x2="211" y2="327.2" stroke="#4a90d9" stroke-width="1.2" opacity="0.75"/>
+  <ellipse cx="164.0" cy="341.1" rx="62.0" ry="7.0" fill="#4a90d9" opacity="0.3" stroke="#4a90d9" stroke-width="1.6"/>
+  <text x="164.0" y="342.1" fill="#8a8a8a" font-size="11" text-anchor="middle">stratus</text>
+  <ellipse cx="294.0" cy="326.2" rx="12.0" ry="7.0" fill="#4a90d9" opacity="0.3" stroke="#4a90d9" stroke-width="1.6"/>
+  <ellipse cx="314.0" cy="326.2" rx="12.0" ry="7.0" fill="#4a90d9" opacity="0.3" stroke="#4a90d9" stroke-width="1.6"/>
+  <ellipse cx="334.0" cy="326.2" rx="12.0" ry="7.0" fill="#4a90d9" opacity="0.3" stroke="#4a90d9" stroke-width="1.6"/>
+  <ellipse cx="354.0" cy="326.2" rx="12.0" ry="7.0" fill="#4a90d9" opacity="0.3" stroke="#4a90d9" stroke-width="1.6"/>
+  <ellipse cx="374.0" cy="326.2" rx="12.0" ry="7.0" fill="#4a90d9" opacity="0.3" stroke="#4a90d9" stroke-width="1.6"/>
+  <text x="334.0" y="313.2" fill="#8a8a8a" font-size="11" text-anchor="middle">stratocumulus</text>
+  <path d="M 394 332.1 a 15 15 0 0 1 26 -9 a 17 17 0 0 1 30 4 a 13 13 0 0 1 8 5 z" fill="#4a90d9" opacity="0.3" stroke="#4a90d9" stroke-width="1.6"/>
+  <text x="422.0" y="305.3" fill="#8a8a8a" font-size="11" text-anchor="middle">cumulus</text>
+  <path d="M 508.0 342.1 L 548.0 342.1 L 543.0 161.4 L 513.0 161.4 Z" fill="#4a90d9" opacity="0.26" stroke="#4a90d9" stroke-width="1.8"/>
+  <ellipse cx="534.0" cy="149.5" rx="46" ry="8" fill="#4a90d9" opacity="0.3" stroke="#4a90d9" stroke-width="1.8"/>
+  <text x="532.0" y="127.6" fill="#e0645c" font-size="11" text-anchor="middle">cumulonimbus</text>
+  <text x="584.0" y="167.5" fill="#e0645c" font-size="11" text-anchor="end">anvil = EL</text>
+  <text x="504.0" y="347.0" fill="#e0645c" font-size="11" text-anchor="end">flat base = LCL</text>
+</svg>

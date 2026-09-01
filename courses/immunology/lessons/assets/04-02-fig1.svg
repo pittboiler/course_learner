@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 486" width="800" height="486" role="img" aria-label="Serum antibody titre on a logarithmic axis across a primary and a secondary exposure, with lag, peak height, isotype and affinity annotated for each.">
+  <rect width="800" height="486" fill="#ffffff"/>
+  <g font-family="Helvetica,Arial,sans-serif">
+
+    <!-- y axis -->
+    <line x1="86" y1="48" x2="86" y2="330" stroke="#111" stroke-width="1.6"/>
+    <g font-size="11" fill="#333" text-anchor="end">
+      <text x="80" y="334">1x</text>
+      <text x="80" y="278">10x</text>
+      <text x="80" y="222">100x</text>
+      <text x="80" y="166">1,000x</text>
+      <text x="80" y="110">10,000x</text>
+    </g>
+    <g stroke="#111" stroke-width="1.2">
+      <line x1="80" y1="330" x2="86" y2="330"/>
+      <line x1="80" y1="274" x2="86" y2="274"/>
+      <line x1="80" y1="218" x2="86" y2="218"/>
+      <line x1="80" y1="162" x2="86" y2="162"/>
+      <line x1="80" y1="106" x2="86" y2="106"/>
+    </g>
+    <text x="22" y="190" font-size="11.5" fill="#111" text-anchor="middle" transform="rotate(-90 22 190)">serum antibody titre (log scale)</text>
+
+    <!-- x axes, two panels with a break -->
+    <line x1="86" y1="330" x2="388" y2="330" stroke="#111" stroke-width="1.6"/>
+    <line x1="420" y1="330" x2="712" y2="330" stroke="#111" stroke-width="1.6"/>
+    <g stroke="#333" stroke-width="1.6">
+      <line x1="398" y1="337" x2="406" y2="323"/>
+      <line x1="405" y1="337" x2="413" y2="323"/>
+    </g>
+    <g stroke="#111" stroke-width="1.2">
+      <line x1="98" y1="330" x2="98" y2="336"/>
+      <line x1="170" y1="330" x2="170" y2="336"/>
+      <line x1="243" y1="330" x2="243" y2="336"/>
+      <line x1="315" y1="330" x2="315" y2="336"/>
+      <line x1="388" y1="330" x2="388" y2="336"/>
+      <line x1="420" y1="330" x2="420" y2="336"/>
+      <line x1="492" y1="330" x2="492" y2="336"/>
+      <line x1="565" y1="330" x2="565" y2="336"/>
+      <line x1="637" y1="330" x2="637" y2="336"/>
+      <line x1="710" y1="330" x2="710" y2="336"/>
+    </g>
+    <g font-size="11.5" fill="#333" text-anchor="middle">
+      <text x="98" y="350">0</text><text x="170" y="350">7</text><text x="243" y="350">14</text><text x="315" y="350">21</text><text x="388" y="350">28</text>
+      <text x="420" y="350">0</text><text x="492" y="350">7</text><text x="565" y="350">14</text><text x="637" y="350">21</text><text x="710" y="350">28</text>
+      <text x="243" y="370" fill="#111">days after 1st exposure</text>
+      <text x="565" y="370" fill="#111">days after 2nd exposure</text>
+    </g>
+
+    <!-- protective threshold -->
+    <g stroke="#2e8b57" stroke-width="1.6" stroke-dasharray="6 4">
+      <line x1="98" y1="252" x2="388" y2="252"/>
+      <line x1="420" y1="252" x2="710" y2="252"/>
+    </g>
+    <g font-size="11" fill="#2e8b57">
+      <text x="716" y="249">protective</text>
+      <text x="716" y="263">threshold</text>
+    </g>
+
+    <!-- primary IgM -->
+    <path d="M98,330 L150,330 L162,318 L175,290 L190,248 L202,218 L215,232 L232,252 L255,272 L285,290 L320,302 L355,310 L388,314" fill="none" stroke="#d1495b" stroke-width="2.4"/>
+    <!-- primary IgG -->
+    <path d="M98,330 L170,330 L182,318 L196,292 L210,258 L224,210 L243,162 L262,170 L285,180 L315,190 L350,197 L388,201" fill="none" stroke="#1a6fb5" stroke-width="2.4"/>
+    <!-- secondary IgM -->
+    <path d="M420,314 L445,308 L456,296 L465,282 L472,274 L484,284 L500,294 L530,303 L570,308 L637,312 L710,314" fill="none" stroke="#d1495b" stroke-width="2.4"/>
+    <!-- secondary IgG -->
+    <path d="M420,201 L440,199 L452,178 L464,142 L478,108 L492,89 L512,93 L535,100 L565,109 L637,124 L710,134" fill="none" stroke="#1a6fb5" stroke-width="2.4"/>
+
+    <!-- curve labels -->
+    <text x="152" y="212" font-size="12.5" fill="#d1495b" font-weight="bold">IgM</text>
+    <line x1="174" y1="215" x2="188" y2="240" stroke="#d1495b" stroke-width="1"/>
+    <text x="252" y="148" font-size="12.5" fill="#1a6fb5" font-weight="bold">IgG</text>
+
+    <!-- exposure arrows -->
+    <g stroke="#111" stroke-width="1.6">
+      <line x1="98" y1="58" x2="98" y2="72"/>
+      <line x1="420" y1="58" x2="420" y2="72"/>
+    </g>
+    <polygon points="94,71 102,71 98,80" fill="#111"/>
+    <polygon points="416,71 424,71 420,80" fill="#111"/>
+    <text x="106" y="70" font-size="12" fill="#111">1st exposure</text>
+    <text x="428" y="70" font-size="12" fill="#111">2nd exposure</text>
+
+    <!-- annotation panels -->
+    <rect x="98" y="382" width="290" height="94" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1.2"/>
+    <rect x="420" y="382" width="290" height="94" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1.2"/>
+    <g font-size="12" fill="#111">
+      <text x="110" y="402" font-weight="bold">PRIMARY RESPONSE</text>
+      <text x="110" y="420">lag: ~7 d to detectable antibody</text>
+      <text x="110" y="436">peak IgG: 1x (reference)</text>
+      <text x="110" y="452">isotype: IgM first, IgG only late</text>
+      <text x="110" y="468">affinity: germline, micromolar Kd</text>
+      <text x="432" y="402" font-weight="bold">SECONDARY RESPONSE</text>
+      <text x="432" y="420">lag: ~2 d; standing IgG at t = 0</text>
+      <text x="432" y="436">peak IgG: 20-100x the primary</text>
+      <text x="432" y="452">isotype: switched IgG from the start</text>
+      <text x="432" y="468">affinity: matured, nanomolar Kd</text>
+    </g>
+  </g>
+</svg>

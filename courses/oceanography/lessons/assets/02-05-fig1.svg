@@ -1,0 +1,44 @@
+<svg viewBox="0 0 700 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="11.5">
+  <text x="20" y="20" fill="#8a8a8a" font-style="italic">A displaced chain of columns spins up, and the spin always rebuilds the pattern to the west.</text>
+
+  <line x1="100" y1="170" x2="655" y2="170" stroke="#8a8a8a" stroke-width="1.2" stroke-dasharray="6 4"/>
+  <text x="58" y="174" fill="#8a8a8a">rest</text>
+  <text x="42" y="112" fill="#8a8a8a">north</text>
+  <text x="42" y="232" fill="#8a8a8a">south</text>
+  <text x="600" y="284" fill="#8a8a8a">east</text>
+  <text x="106" y="284" fill="#8a8a8a">west</text>
+  <line x1="100" y1="272" x2="650" y2="272" stroke="#8a8a8a" stroke-width="1"/>
+
+  <path d="M 110,170.0 L 125,154.3 L 140,140.6 L 155,130.6 L 170,125.5 L 185,126.0 L 200,131.9 L 215,142.7 L 230,156.9 L 245,172.7 L 260,188.1 L 275,201.3 L 290,210.6 L 305,214.8 L 320,213.4 L 335,206.6 L 350,195.1 L 365,180.6 L 380,164.7 L 395,149.5 L 410,136.8 L 425,128.3 L 440,125.0 L 455,127.4 L 470,135.1 L 485,147.1 L 500,162.0 L 515,178.0 L 530,192.9 L 545,204.9 L 560,210.6 L 575,215.0 L 590,211.7 L 605,203.2 L 620,190.5 L 635,175.3 L 640,170.0"
+        fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+
+  <circle cx="176" cy="125" r="16" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+  <polygon points="192,125 185,119 185,131" fill="#e0645c"/>
+  <text x="150" y="102" fill="#e0645c">moved north: f is larger,</text>
+  <text x="150" y="90" fill="#e0645c">so spin turns clockwise</text>
+
+  <circle cx="309" cy="215" r="16" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+  <polygon points="293,215 300,221 300,209" fill="#e0645c"/>
+  <text x="286" y="248" fill="#e0645c">moved south: f is smaller,</text>
+  <text x="286" y="260" fill="#e0645c">so spin turns anticlockwise</text>
+
+  <circle cx="441" cy="125" r="16" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+  <polygon points="457,125 450,119 450,131" fill="#e0645c"/>
+
+  <circle cx="574" cy="215" r="16" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+  <polygon points="558,215 565,221 565,209" fill="#e0645c"/>
+
+  <line x1="242" y1="150" x2="242" y2="186" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="242,196 236,182 248,182" fill="#4a90d9"/>
+  <line x1="375" y1="190" x2="375" y2="154" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="375,144 369,158 381,158" fill="#4a90d9"/>
+  <line x1="507" y1="150" x2="507" y2="186" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="507,196 501,182 513,182" fill="#4a90d9"/>
+
+  <text x="196" y="60" fill="#4a90d9">both neighbouring spins push the same way in between,</text>
+  <text x="196" y="48" fill="#4a90d9">building the next crest and trough to the WEST</text>
+
+  <line x1="330" y1="266" x2="200" y2="266" stroke="#4a90d9" stroke-width="3"/>
+  <polygon points="188,266 204,260 204,272" fill="#4a90d9"/>
+  <text x="338" y="270" fill="#4a90d9">phase propagation: westward, always</text>
+</svg>

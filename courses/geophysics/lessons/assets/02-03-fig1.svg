@@ -1,0 +1,43 @@
+<svg viewBox="0 0 700 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="11.5">
+  <text x="20" y="18" fill="#8a8a8a" font-style="italic">Two ways to hold a mountain up. Both demand equal pressure at the depth of compensation.</text>
+
+  <text x="60" y="44" fill="#4a90d9">Airy: same density, different thickness</text>
+  <line x1="30" y1="86" x2="320" y2="86" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="326" y="90" fill="#8a8a8a">sea level</text>
+  <rect x="30" y="86" width="70" height="58" fill="#4a90d9" opacity="0.30" stroke="#4a90d9"/>
+  <rect x="100" y="62" width="60" height="82" fill="#4a90d9" opacity="0.30" stroke="#4a90d9"/>
+  <rect x="160" y="46" width="70" height="128" fill="#4a90d9" opacity="0.30" stroke="#4a90d9"/>
+  <rect x="230" y="70" width="60" height="94" fill="#4a90d9" opacity="0.30" stroke="#4a90d9"/>
+  <text x="176" y="112" fill="#4a90d9">&#961;&#8330;</text>
+  <text x="176" y="126" fill="#4a90d9">2800</text>
+  <text x="248" y="150" fill="#8a8a8a">root</text>
+
+  <line x1="30" y1="190" x2="320" y2="190" stroke="#e0645c" stroke-width="2"/>
+  <text x="30" y="206" fill="#e0645c">depth of compensation: pressure equal everywhere along this line</text>
+  <text x="60" y="164" fill="#8a8a8a">mantle &#961;&#8348; = 3300</text>
+
+  <text x="30" y="234" fill="#8a8a8a">r = h &#961;&#8330;/(&#961;&#8348; &#8722; &#961;&#8330;): a 5 km peak needs 28 km of root.</text>
+  <text x="30" y="248" fill="#8a8a8a">Six units of root for every unit of mountain &#8212; an iceberg,</text>
+  <text x="30" y="262" fill="#8a8a8a">with the same arithmetic and different densities.</text>
+  <text x="30" y="284" fill="#8a8a8a">Right for crustal thickening: mountain belts, continents.</text>
+
+  <text x="420" y="44" fill="#e0645c">Pratt: same depth, different density</text>
+  <line x1="392" y1="86" x2="676" y2="86" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 3"/>
+  <rect x="392" y="86" width="66" height="104" fill="#e0645c" opacity="0.40" stroke="#e0645c"/>
+  <rect x="458" y="66" width="58" height="124" fill="#e0645c" opacity="0.30" stroke="#e0645c"/>
+  <rect x="516" y="50" width="68" height="140" fill="#e0645c" opacity="0.20" stroke="#e0645c"/>
+  <rect x="584" y="74" width="60" height="116" fill="#e0645c" opacity="0.33" stroke="#e0645c"/>
+  <text x="404" y="132" fill="#8a8a8a">3200</text>
+  <text x="470" y="132" fill="#8a8a8a">3120</text>
+  <text x="530" y="132" fill="#8a8a8a">3048</text>
+  <text x="598" y="132" fill="#8a8a8a">3140</text>
+  <text x="520" y="150" fill="#8a8a8a">lighter &#8594; taller</text>
+
+  <line x1="392" y1="190" x2="676" y2="190" stroke="#e0645c" stroke-width="2"/>
+  <text x="392" y="206" fill="#e0645c">same depth of compensation, flat base</text>
+
+  <text x="392" y="234" fill="#8a8a8a">&#961;&#8341; = &#961;&#8320;D/(D+h): every column has the same mass,</text>
+  <text x="392" y="248" fill="#8a8a8a">so the tall ones must be less dense.</text>
+  <text x="392" y="270" fill="#8a8a8a">Right for thermal expansion: mid-ocean ridges, where</text>
+  <text x="382" y="284" fill="#8a8a8a">hot mantle is light mantle and the crust never thickens.</text>
+</svg>

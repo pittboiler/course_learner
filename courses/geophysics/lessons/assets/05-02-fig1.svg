@@ -1,0 +1,33 @@
+<svg viewBox="0 0 700 332" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="11.5">
+  <text x="20" y="18" fill="#8a8a8a" font-style="italic">Same rock, denser packing. And because the boundaries are thermodynamic, a cold slab moves them.</text>
+  <text x="34" y="44" fill="#8a8a8a">the olivine system with depth</text>
+  <rect x="34" y="58" width="240" height="46" fill="#4a90d9" opacity="0.16" stroke="#4a90d9"/>
+  <text x="44" y="80" fill="#4a90d9">olivine</text>
+  <text x="44" y="96" fill="#8a8a8a">0&#8211;410 km &#183; 3.3 g/cm&#179;</text>
+  <rect x="34" y="112" width="240" height="46" fill="#4a90d9" opacity="0.30" stroke="#4a90d9"/>
+  <text x="44" y="134" fill="#4a90d9">wadsleyite, then ringwoodite</text>
+  <text x="44" y="150" fill="#8a8a8a">410&#8211;660 km, the transition zone &#183; 3.6 g/cm&#179;</text>
+  <rect x="34" y="166" width="240" height="46" fill="#4a90d9" opacity="0.48" stroke="#4a90d9"/>
+  <text x="44" y="188" fill="#4a90d9">bridgmanite + ferropericlase</text>
+  <text x="44" y="204" fill="#8a8a8a">660&#8211;2700 km, the lower mantle &#183; 4.1 g/cm&#179;</text>
+  <text x="34" y="242" fill="#8a8a8a">No change of composition anywhere here &#8212; the same atoms,</text>
+  <text x="34" y="256" fill="#8a8a8a">repacked into denser crystal structures as pressure rises.</text>
+  <text x="34" y="278" fill="#8a8a8a">Which is why the boundaries are sharp and why they move.</text>
+  <line x1="360" y1="46" x2="670" y2="46" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="362" y="38" fill="#8a8a8a">surface</text>
+  <line x1="360" y1="110" x2="670" y2="110" stroke="#8a8a8a" stroke-width="1.4"/>
+  <text x="616" y="104" fill="#8a8a8a">410 km</text>
+  <line x1="360" y1="182" x2="670" y2="182" stroke="#8a8a8a" stroke-width="1.4"/>
+  <text x="616" y="176" fill="#8a8a8a">660 km</text>
+  <path d="M 430,46 L 470,110 L 500,182 L 512,240" fill="none" stroke="#4a90d9" stroke-width="9" opacity="0.45"/>
+  <text x="378" y="230" fill="#4a90d9">cold slab</text>
+  <path d="M 440,110 Q 470,96 506,110" fill="none" stroke="#e0645c" stroke-width="2.4"/>
+  <text x="440" y="86" fill="#e0645c">410 pushed UP</text>
+  <text x="440" y="72" fill="#e0645c">(&#947; &gt; 0, exothermic)</text>
+  <path d="M 466,182 Q 502,204 540,182" fill="none" stroke="#e0645c" stroke-width="2.4"/>
+  <text x="546" y="204" fill="#e0645c">660 pushed DOWN</text>
+  <text x="546" y="218" fill="#e0645c">(&#947; &lt; 0, endothermic)</text>
+  <text x="298" y="266" fill="#8a8a8a">Two discontinuities deflected in opposite directions in the same place.</text>
+  <text x="30" y="314" fill="#8a8a8a">Nothing chemical does that; a Clapeyron slope does it automatically.</text>
+  <text x="348" y="294" fill="#4a90d9">The downward push at 660 is what makes some slabs stall there.</text>
+</svg>

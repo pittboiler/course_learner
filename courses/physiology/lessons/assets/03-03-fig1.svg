@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 660" width="800" height="660" role="img" aria-label="Body fluid compartments with three infusion outcomes, and an acid-base map of bicarbonate against arterial carbon dioxide tension">
+  <rect width="800" height="660" fill="#ffffff"/>
+  <defs>
+    <marker id="ahCoral" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/>
+    </marker>
+    <marker id="ahBlue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1a6fb5"/>
+    </marker>
+  </defs>
+
+  <text x="14" y="22" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#111">(a) Body fluid compartments &#8212; and where 2 L of each infusion goes</text>
+
+  <line x1="516.6" y1="40" x2="687.4" y2="40" stroke="#8fa8c0" stroke-width="1.2"/>
+  <line x1="516.6" y1="40" x2="516.6" y2="44" stroke="#8fa8c0" stroke-width="1.2"/>
+  <line x1="687.4" y1="40" x2="687.4" y2="44" stroke="#8fa8c0" stroke-width="1.2"/>
+  <text x="602" y="34" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#333">ECF 14 L (1/3 TBW)</text>
+
+  <rect x="175" y="44" width="341.6" height="60" fill="#e3edf7" stroke="#1a6fb5" stroke-width="1.4"/>
+  <rect x="516.6" y="44" width="128.1" height="60" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1.4"/>
+  <rect x="644.7" y="44" width="42.7" height="60" fill="#fbe3e7" stroke="#d1495b" stroke-width="1.4"/>
+
+  <text x="345.8" y="70" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="12" font-weight="bold" fill="#111">ICF   28 L</text>
+  <text x="345.8" y="88" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">2/3 of TBW &#8212; 40 percent of body weight</text>
+  <text x="580.7" y="70" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#111">Interstitial</text>
+  <text x="580.7" y="86" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#111">10.5 L</text>
+  <line x1="666" y1="104" x2="666" y2="116" stroke="#d1495b" stroke-width="1.2"/>
+  <text x="687.4" y="128" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#d1495b">Plasma 3.5 L</text>
+
+  <text x="10" y="68" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="bold" fill="#111">Baseline</text>
+  <text x="10" y="84" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333">70 kg adult</text>
+  <text x="10" y="98" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333">TBW 42 L</text>
+
+  <text x="14" y="148" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">Tracer dilution: volume = dose &#247; equilibrium concentration. D&#8322;O &#8594; TBW, inulin &#8594; ECF, Evans blue &#8594; plasma; ICF = TBW &#8722; ECF.</text>
+
+  <text x="718" y="162" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">mOsm/L</text>
+  <line x1="516.6" y1="164" x2="516.6" y2="292" stroke="#333" stroke-width="1" stroke-dasharray="4 3"/>
+
+  <rect x="175" y="168" width="341.6" height="28" fill="#e3edf7" stroke="#1a6fb5" stroke-width="1.3"/>
+  <rect x="516.6" y="168" width="195.2" height="28" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1.3"/>
+  <text x="345.8" y="186" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#111">ICF 28 L (no change)</text>
+  <text x="614.2" y="186" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" font-weight="bold" fill="#1a6fb5">ECF 16 L (+2.0)</text>
+  <text x="718" y="186" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">290</text>
+  <text x="10" y="180" font-family="Helvetica,Arial,sans-serif" font-size="10.5" font-weight="bold" fill="#111">+2 L isotonic saline</text>
+  <text x="10" y="194" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">0.9 percent NaCl</text>
+
+  <rect x="175" y="210" width="357.8" height="28" fill="#e3edf7" stroke="#1a6fb5" stroke-width="1.3"/>
+  <rect x="532.8" y="210" width="179.0" height="28" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1.3"/>
+  <text x="353.9" y="228" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" font-weight="bold" fill="#1a6fb5">ICF 29.3 L (+1.3)</text>
+  <text x="622.3" y="228" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" font-weight="bold" fill="#1a6fb5">ECF 14.7 L (+0.7)</text>
+  <text x="718" y="228" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">277</text>
+  <text x="10" y="222" font-family="Helvetica,Arial,sans-serif" font-size="10.5" font-weight="bold" fill="#111">+2 L pure water</text>
+  <text x="10" y="236" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">5 percent dextrose</text>
+
+  <rect x="175" y="252" width="306.2" height="28" fill="#e3edf7" stroke="#1a6fb5" stroke-width="1.3"/>
+  <rect x="481.2" y="252" width="230.6" height="28" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1.3"/>
+  <text x="328.1" y="270" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" font-weight="bold" fill="#d1495b">ICF 25.1 L (&#8722;2.9)</text>
+  <text x="596.5" y="270" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10.5" font-weight="bold" fill="#1a6fb5">ECF 18.9 L (+4.9)</text>
+  <text x="718" y="270" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">323</text>
+  <text x="10" y="264" font-family="Helvetica,Arial,sans-serif" font-size="10.5" font-weight="bold" fill="#111">+2 L 3 percent saline</text>
+  <text x="10" y="278" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">hypertonic</text>
+
+  <text x="14" y="302" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">Dashed line = baseline ICF/ECF boundary. Salt stays outside cells; only free water crosses. Final osmolality at right.</text>
+
+  <text x="14" y="336" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#111">(b) Acid&#8211;base map: metabolic disorders move vertically, respiratory horizontally</text>
+
+  <line x1="100" y1="590" x2="100" y2="348" stroke="#333" stroke-width="1.6"/>
+  <line x1="100" y1="590" x2="745" y2="590" stroke="#333" stroke-width="1.6"/>
+
+  <line x1="188.6" y1="590" x2="188.6" y2="595" stroke="#333" stroke-width="1.2"/>
+  <line x1="365.7" y1="590" x2="365.7" y2="595" stroke="#333" stroke-width="1.2"/>
+  <line x1="542.9" y1="590" x2="542.9" y2="595" stroke="#333" stroke-width="1.2"/>
+  <line x1="720" y1="590" x2="720" y2="595" stroke="#333" stroke-width="1.2"/>
+  <text x="188.6" y="608" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">20</text>
+  <text x="365.7" y="608" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">40</text>
+  <text x="542.9" y="608" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">60</text>
+  <text x="720" y="608" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">80</text>
+  <text x="420" y="626" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#111">arterial PCO&#8322; (mmHg)</text>
+
+  <line x1="95" y1="560" x2="100" y2="560" stroke="#333" stroke-width="1.2"/>
+  <line x1="95" y1="500" x2="100" y2="500" stroke="#333" stroke-width="1.2"/>
+  <line x1="95" y1="440" x2="100" y2="440" stroke="#333" stroke-width="1.2"/>
+  <line x1="95" y1="380" x2="100" y2="380" stroke="#333" stroke-width="1.2"/>
+  <text x="91" y="564" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">10</text>
+  <text x="91" y="504" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">20</text>
+  <text x="91" y="444" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">30</text>
+  <text x="91" y="384" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">40</text>
+  <text x="34" y="470" text-anchor="middle" transform="rotate(-90 34 470)" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#111">plasma HCO&#8323;&#8315; (mmol/L)</text>
+
+  <line x1="100" y1="584" x2="675.7" y2="350" stroke="#333" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <text x="155" y="552" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333">pH 7.40</text>
+  <text x="630" y="566" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#d1495b">acidemia</text>
+  <text x="215" y="372" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#1a6fb5">alkalemia</text>
+
+  <path d="M365.7,476 L365.7,548" fill="none" stroke="#d1495b" stroke-width="2.4"/>
+  <path d="M365.7,548 L246.7,548" fill="none" stroke="#d1495b" stroke-width="1.8" stroke-dasharray="6 4" marker-end="url(#ahCoral)"/>
+  <path d="M365.7,476 L631.4,476" fill="none" stroke="#d1495b" stroke-width="2.4"/>
+  <path d="M631.4,476 L631.4,418" fill="none" stroke="#d1495b" stroke-width="1.8" stroke-dasharray="6 4" marker-end="url(#ahCoral)"/>
+  <path d="M365.7,476 L365.7,404" fill="none" stroke="#1a6fb5" stroke-width="2.4"/>
+  <path d="M365.7,404 L405,404" fill="none" stroke="#1a6fb5" stroke-width="1.8" stroke-dasharray="6 4" marker-end="url(#ahBlue)"/>
+  <path d="M365.7,476 L206.3,476" fill="none" stroke="#1a6fb5" stroke-width="2.4"/>
+  <path d="M206.3,476 L206.3,519" fill="none" stroke="#1a6fb5" stroke-width="1.8" stroke-dasharray="6 4" marker-end="url(#ahBlue)"/>
+
+  <circle cx="365.7" cy="476" r="5" fill="#111"/>
+  <text x="378" y="494" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#111">normal 40, 24</text>
+
+  <text x="360" y="566" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#d1495b">metabolic acidosis</text>
+  <text x="720" y="400" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#d1495b">respiratory acidosis</text>
+  <text x="420" y="396" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#1a6fb5">metabolic alkalosis</text>
+  <text x="112" y="460" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#1a6fb5">respiratory alkalosis</text>
+
+  <line x1="590" y1="521" x2="620" y2="521" stroke="#333" stroke-width="2.4"/>
+  <text x="626" y="525" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">primary change</text>
+  <line x1="590" y1="537" x2="620" y2="537" stroke="#333" stroke-width="1.8" stroke-dasharray="6 4"/>
+  <text x="626" y="541" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">compensation</text>
+
+  <text x="14" y="650" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">Compensation moves the second variable the same way as the primary &#8212; and never returns pH all the way to 7.40.</text>
+</svg>

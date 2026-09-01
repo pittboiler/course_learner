@@ -1,0 +1,55 @@
+<svg viewBox="0 0 700 290" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="11.5">
+  <text x="20" y="18" fill="#8a8a8a" font-style="italic">Flowing mantle combs its crystals into line, and a shear wave splits on the way through.</text>
+
+  <text x="34" y="46" fill="#8a8a8a">olivine grains aligned by shear</text>
+  <rect x="34" y="58" width="250" height="70" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+  <g stroke="#4a90d9" stroke-width="2.4">
+    <line x1="48" y1="74" x2="82" y2="70"/><line x1="96" y1="76" x2="130" y2="72"/>
+    <line x1="146" y1="74" x2="180" y2="70"/><line x1="196" y1="76" x2="230" y2="72"/>
+    <line x1="242" y1="74" x2="272" y2="71"/>
+    <line x1="42" y1="96" x2="76" y2="92"/><line x1="90" y1="98" x2="124" y2="94"/>
+    <line x1="140" y1="96" x2="174" y2="92"/><line x1="190" y1="98" x2="224" y2="94"/>
+    <line x1="238" y1="96" x2="270" y2="93"/>
+    <line x1="48" y1="118" x2="82" y2="114"/><line x1="96" y1="120" x2="130" y2="116"/>
+    <line x1="146" y1="118" x2="180" y2="114"/><line x1="196" y1="120" x2="230" y2="116"/>
+    <line x1="242" y1="118" x2="272" y2="115"/>
+  </g>
+  <line x1="34" y1="140" x2="230" y2="140" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="242,140 228,134 228,146" fill="#e0645c"/>
+  <text x="90" y="158" fill="#e0645c">flow direction</text>
+  <text x="34" y="180" fill="#8a8a8a">Dislocation creep rotates the fast a-axis of every</text>
+  <text x="34" y="194" fill="#8a8a8a">olivine crystal toward the direction of shear.</text>
+  <text x="34" y="216" fill="#4a90d9">The rock remembers which way it flowed.</text>
+
+  <text x="34" y="248" fill="#8a8a8a">Single-crystal olivine is 18 percent anisotropic; a</text>
+  <text x="34" y="262" fill="#8a8a8a">partly aligned aggregate manages 3 to 5 percent &#8212;</text>
+  <text x="34" y="276" fill="#8a8a8a">enough to split a shear wave by a second or two.</text>
+
+  <text x="400" y="46" fill="#8a8a8a">shear-wave splitting</text>
+
+  <line x1="416" y1="200" x2="416" y2="70" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="416,60 410,74 422,74" fill="#8a8a8a"/>
+  <text x="360" y="200" fill="#8a8a8a">SKS up</text>
+
+  <rect x="380" y="112" width="72" height="46" fill="#4a90d9" opacity="0.20" stroke="#4a90d9"/>
+  <text x="458" y="130" fill="#4a90d9">anisotropic layer,</text>
+  <text x="458" y="144" fill="#4a90d9">about 170 km thick</text>
+
+  <line x1="490" y1="176" x2="530" y2="176" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="490" y="196" fill="#8a8a8a">one pulse in</text>
+
+  <line x1="560" y1="88" x2="600" y2="88" stroke="#e0645c" stroke-width="2.4"/>
+  <text x="608" y="92" fill="#e0645c">fast</text>
+  <line x1="576" y1="110" x2="616" y2="110" stroke="#4a90d9" stroke-width="2.4"/>
+  <text x="624" y="114" fill="#4a90d9">slow</text>
+  <line x1="560" y1="70" x2="576" y2="70" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="560" y1="70" x2="560" y2="94" stroke="#8a8a8a" stroke-width="1"/>
+  <line x1="576" y1="70" x2="576" y2="116" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="536" y="64" fill="#8a8a8a">&#948;t &#8776; 1.5 s</text>
+
+  <text x="490" y="228" fill="#8a8a8a">two pulses out, orthogonally</text>
+  <text x="490" y="242" fill="#8a8a8a">polarized and delayed</text>
+
+  <text x="320" y="270" fill="#8a8a8a">The fast direction gives the flow azimuth; the delay gives how much</text>
+  <text x="343" y="284" fill="#8a8a8a">anisotropic rock the wave crossed. Two numbers, one flow field.</text>
+</svg>

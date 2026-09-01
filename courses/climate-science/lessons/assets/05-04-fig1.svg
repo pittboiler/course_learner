@@ -1,0 +1,47 @@
+<svg viewBox="0 0 660 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="12">
+  <text x="20" y="18" fill="#8a8a8a" font-style="italic">Marine ice-sheet instability: on a bed that deepens inland, every retreat makes the next one faster.</text>
+
+  <!-- ocean -->
+  <line x1="330" y1="170" x2="640" y2="170" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="600" y="164" fill="#8a8a8a">sea level</text>
+
+  <!-- ice body -->
+  <path d="M 100,70 L 250,90 L 350,112 L 450,142 L 500,158 L 570,164 L 640,167 L 640,182 L 570,186 L 500,196 L 450,215 L 380,250 L 300,265 L 200,272 L 100,270 Z"
+        fill="#4a90d9" opacity="0.22" stroke="#4a90d9" stroke-width="1.6"/>
+  <text x="180" y="180" fill="#4a90d9">grounded ice sheet</text>
+  <text x="548" y="210" fill="#4a90d9">floating shelf</text>
+
+  <!-- bedrock -->
+  <path d="M 60,300 L 60,272 L 100,270 L 200,272 L 300,265 L 380,250 L 450,215 L 500,196 L 560,225 L 640,252 L 640,300 Z"
+        fill="#8a8a8a" opacity="0.28" stroke="#8a8a8a" stroke-width="1.6"/>
+  <text x="120" y="292" fill="#8a8a8a">bedrock &#8212; deepens inland (retrograde)</text>
+
+  <!-- grounding lines -->
+  <line x1="500" y1="150" x2="500" y2="204" stroke="#e0645c" stroke-width="2.5"/>
+  <circle cx="500" cy="196" r="4" fill="#e0645c"/>
+  <text x="486" y="140" fill="#e0645c" text-anchor="middle">GL now</text>
+
+  <line x1="380" y1="104" x2="380" y2="258" stroke="#e0645c" stroke-width="2.5" stroke-dasharray="6 4"/>
+  <circle cx="380" cy="250" r="4" fill="#e0645c"/>
+  <text x="360" y="96" fill="#e0645c" text-anchor="middle">GL after retreat</text>
+
+  <!-- thickness markers -->
+  <line x1="512" y1="158" x2="512" y2="196" stroke="#8a8a8a" stroke-width="1.4"/>
+  <polygon points="512,158 508,166 516,166" fill="#8a8a8a"/>
+  <polygon points="512,196 508,188 516,188" fill="#8a8a8a"/>
+  <text x="520" y="182" fill="#8a8a8a">h&#8321;</text>
+
+  <line x1="366" y1="112" x2="366" y2="250" stroke="#8a8a8a" stroke-width="1.4"/>
+  <polygon points="366,112 362,120 370,120" fill="#8a8a8a"/>
+  <polygon points="366,250 362,242 370,242" fill="#8a8a8a"/>
+  <text x="300" y="186" fill="#8a8a8a">h&#8322; &gt; h&#8321;</text>
+
+  <!-- warm water -->
+  <path d="M 640,178 L 580,186 L 520,194" fill="none" stroke="#e0645c" stroke-width="2" stroke-dasharray="4 3"/>
+  <polygon points="520,194 530,190 530,198" fill="#e0645c"/>
+  <text x="418" y="228" fill="#e0645c">warm deep water melts</text>
+  <text x="418" y="242" fill="#e0645c">the shelf from below</text>
+
+  <text x="60" y="316" fill="#8a8a8a">Flux across the grounding line scales as the fifth power of thickness,</text>
+  <text x="60" y="330" fill="#8a8a8a">so retreat onto a deeper bed discharges far more ice.</text>
+</svg>

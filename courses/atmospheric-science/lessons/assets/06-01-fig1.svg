@@ -1,0 +1,42 @@
+<svg viewBox="0 0 620 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="24" y="24" fill="#8a8a8a" font-style="italic">The boundary layer breathes: it grows all day, collapses each night.</text>
+  <line x1="80" y1="300" x2="568" y2="300" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="80" y1="300" x2="80" y2="62" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="80,62 75,72 85,72" fill="#8a8a8a"/>
+  <line x1="80.0" y1="300" x2="80.0" y2="305" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="80.0" y="318" fill="#8a8a8a" font-size="11" text-anchor="middle">00</text>
+  <line x1="200.0" y1="300" x2="200.0" y2="305" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="200.0" y="318" fill="#8a8a8a" font-size="11" text-anchor="middle">06</text>
+  <line x1="320.0" y1="300" x2="320.0" y2="305" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="320.0" y="318" fill="#8a8a8a" font-size="11" text-anchor="middle">12</text>
+  <line x1="440.0" y1="300" x2="440.0" y2="305" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="440.0" y="318" fill="#8a8a8a" font-size="11" text-anchor="middle">18</text>
+  <line x1="560.0" y1="300" x2="560.0" y2="305" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="560.0" y="318" fill="#8a8a8a" font-size="11" text-anchor="middle">24</text>
+  <text x="320" y="338" fill="#8a8a8a" font-size="12" text-anchor="middle">local time (hours)</text>
+  <line x1="75" y1="300.0" x2="80" y2="300.0" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="72" y="304.0" fill="#8a8a8a" font-size="11" text-anchor="end">0</text>
+  <line x1="75" y1="247.7" x2="80" y2="247.7" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="72" y="251.7" fill="#8a8a8a" font-size="11" text-anchor="end">500</text>
+  <line x1="75" y1="195.5" x2="80" y2="195.5" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="72" y="199.5" fill="#8a8a8a" font-size="11" text-anchor="end">1000</text>
+  <line x1="75" y1="143.2" x2="80" y2="143.2" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="72" y="147.2" fill="#8a8a8a" font-size="11" text-anchor="end">1500</text>
+  <line x1="75" y1="90.9" x2="80" y2="90.9" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="72" y="94.9" fill="#8a8a8a" font-size="11" text-anchor="end">2000</text>
+  <text x="72" y="58" fill="#8a8a8a" font-size="11" text-anchor="end">m</text>
+  <polyline points="80.0,281.2 85.0,280.7 90.0,280.2 95.0,279.8 100.0,279.4 105.0,279.2 110.0,279.1 115.0,279.1 120.0,279.3 125.0,279.6 130.0,279.9 135.0,280.4 140.0,280.9 145.0,281.4 150.0,281.9 155.0,282.4 160.0,282.8 165.0,283.1 170.0,283.2 175.0,283.3 180.0,283.2 185.0,283.0 190.0,282.7 195.0,282.2 200.0,281.2 205.0,276.7 210.0,271.6 215.0,266.3 220.0,260.8 225.0,255.2 230.0,249.5 235.0,243.8 240.0,238.1 245.0,232.4 250.0,226.7 255.0,221.0 260.0,215.4 265.0,209.9 270.0,204.4 275.0,199.0 280.0,193.8 285.0,188.6 290.0,183.6 295.0,178.8 300.0,174.1 305.0,169.5 310.0,165.2 315.0,161.0 320.0,157.0 325.0,153.2 330.0,149.6 335.0,146.2 340.0,143.1 345.0,140.1 350.0,137.4 355.0,135.0 360.0,132.8 365.0,130.8 370.0,129.1 375.0,127.7 380.0,126.5 385.0,125.6 390.0,124.9 395.0,124.5 400.0,127.5 405.0,140.2 410.0,152.9 415.0,165.6 420.0,178.2 425.0,190.9 430.0,203.6 435.0,216.3 440.0,229.0 445.0,241.7 450.0,254.3 455.0,267.0 460.0,279.1 465.0,279.1 470.0,279.1 475.0,279.1 480.0,279.1 485.0,279.1 490.0,279.1 495.0,279.1 500.0,279.1 505.0,279.1 510.0,279.1 515.0,279.1 520.0,279.1 525.0,279.1 530.0,279.1 535.0,279.1 540.0,279.1 545.0,279.1 550.0,279.1 555.0,279.1 560.0,279.1" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <polygon points="80.0,281.2 85.0,280.7 90.0,280.2 95.0,279.8 100.0,279.4 105.0,279.2 110.0,279.1 115.0,279.1 120.0,279.3 125.0,279.6 130.0,279.9 135.0,280.4 140.0,280.9 145.0,281.4 150.0,281.9 155.0,282.4 160.0,282.8 165.0,283.1 170.0,283.2 175.0,283.3 180.0,283.2 185.0,283.0 190.0,282.7 195.0,282.2 200.0,281.2 205.0,276.7 210.0,271.6 215.0,266.3 220.0,260.8 225.0,255.2 230.0,249.5 235.0,243.8 240.0,238.1 245.0,232.4 250.0,226.7 255.0,221.0 260.0,215.4 265.0,209.9 270.0,204.4 275.0,199.0 280.0,193.8 285.0,188.6 290.0,183.6 295.0,178.8 300.0,174.1 305.0,169.5 310.0,165.2 315.0,161.0 320.0,157.0 325.0,153.2 330.0,149.6 335.0,146.2 340.0,143.1 345.0,140.1 350.0,137.4 355.0,135.0 360.0,132.8 365.0,130.8 370.0,129.1 375.0,127.7 380.0,126.5 385.0,125.6 390.0,124.9 395.0,124.5 400.0,127.5 405.0,140.2 410.0,152.9 415.0,165.6 420.0,178.2 425.0,190.9 430.0,203.6 435.0,216.3 440.0,229.0 445.0,241.7 450.0,254.3 455.0,267.0 460.0,279.1 465.0,279.1 470.0,279.1 475.0,279.1 480.0,279.1 485.0,279.1 490.0,279.1 495.0,279.1 500.0,279.1 505.0,279.1 510.0,279.1 515.0,279.1 520.0,279.1 525.0,279.1 530.0,279.1 535.0,279.1 540.0,279.1 545.0,279.1 550.0,279.1 555.0,279.1 560.0,279.1 560.0,300.0 80.0,300.0" fill="#4a90d9" opacity="0.13"/>
+  <path d="M 400.0 127.5 L 560.0 127.5 L 560.0 127.5 L 560.0 127.5" fill="none" stroke="#8a8a8a" stroke-width="1.4" stroke-dasharray="6 4"/>
+  <line x1="80.0" y1="138.0" x2="200.0" y2="132.7" stroke="#8a8a8a" stroke-width="1.4" stroke-dasharray="6 4"/>
+  <text x="460.0" y="117.0" fill="#8a8a8a" font-size="11">residual layer</text>
+  <text x="132.0" y="120.2" fill="#8a8a8a" font-size="11" text-anchor="middle">residual</text>
+  <text x="300.0" y="226.8" fill="#4a90d9" font-size="12" text-anchor="middle">convective mixed layer</text>
+  <text x="508.0" y="265.5" fill="#e0645c" font-size="11" text-anchor="middle">stable nocturnal layer</text>
+  <text x="128.0" y="265.5" fill="#e0645c" font-size="11" text-anchor="middle">stable</text>
+  <line x1="200.0" y1="300" x2="200.0" y2="70" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="200.0" y="56" fill="#e0645c" font-size="11" text-anchor="middle">sunrise</text>
+  <line x1="440.0" y1="300" x2="440.0" y2="70" stroke="#e0645c" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="440.0" y="56" fill="#e0645c" font-size="11" text-anchor="middle">sunset</text>
+  <text x="310" y="362" fill="#8a8a8a" font-size="12" text-anchor="middle">surface energy balance: Rn = H + LE + G</text>
+</svg>

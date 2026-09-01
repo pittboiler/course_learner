@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 460" width="780" height="460" role="img" aria-label="Thymic selection drawn on a single affinity axis with three outcome zones (death by neglect, positive selection, negative selection), a bar showing that about 90 of 100 thymocytes are neglected and only a few are exported, a panel on AIRE in the thymic medulla, a panel listing peripheral tolerance mechanisms, and a flow showing receptor editing in the bone marrow.">
+<rect width="780" height="460" fill="#ffffff"/>
+<defs>
+<marker id="ah" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto">
+<path d="M0,0 L7,3 L0,6 z" fill="#111"/>
+</marker>
+<marker id="ahb" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto">
+<path d="M0,0 L7,3 L0,6 z" fill="#1a6fb5"/>
+</marker>
+</defs>
+<g font-family="Helvetica,Arial,sans-serif">
+
+<text x="16" y="28" font-size="13" font-weight="bold" fill="#111">Thymic selection along one axis: TCR affinity for self peptide&#8211;MHC</text>
+
+<rect x="40" y="52" width="130" height="148" fill="#f5f7fa" stroke="#8fa8c0"/>
+<rect x="170" y="52" width="160" height="148" fill="#e8f3ec" stroke="#2e8b57"/>
+<rect x="330" y="52" width="170" height="148" fill="#fbe9ec" stroke="#d1495b"/>
+
+<text x="46" y="68" font-size="10" fill="#1a6fb5">affinity distribution</text>
+<path d="M 42 84 C 100 88 140 112 175 132 C 215 158 260 175 330 184 C 390 190 440 194 498 195" fill="none" stroke="#1a6fb5" stroke-width="2"/>
+
+<line x1="170" y1="52" x2="170" y2="200" stroke="#111" stroke-width="1.2" stroke-dasharray="4 3"/>
+<line x1="330" y1="52" x2="330" y2="200" stroke="#111" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="170" y="46" font-size="10" fill="#333" text-anchor="middle">lower threshold</text>
+<text x="330" y="46" font-size="10" fill="#333" text-anchor="middle">upper threshold</text>
+
+<line x1="40" y1="200" x2="508" y2="200" stroke="#111" stroke-width="1.4" marker-end="url(#ah)"/>
+
+<text x="105" y="216" font-size="12" font-weight="bold" fill="#333" text-anchor="middle">&#8776; 90 of 100</text>
+<text x="250" y="216" font-size="12" font-weight="bold" fill="#2e8b57" text-anchor="middle">&#8776; 10 of 100</text>
+<text x="415" y="216" font-size="12" font-weight="bold" fill="#d1495b" text-anchor="middle">half of those 10</text>
+
+<text x="105" y="232" font-size="11" font-weight="bold" fill="#111" text-anchor="middle">death by neglect</text>
+<text x="105" y="246" font-size="10" fill="#333" text-anchor="middle">cannot bind self-MHC</text>
+<text x="250" y="232" font-size="11" font-weight="bold" fill="#111" text-anchor="middle">positive selection</text>
+<text x="250" y="246" font-size="10" fill="#333" text-anchor="middle">weak self-MHC binding</text>
+<text x="415" y="232" font-size="11" font-weight="bold" fill="#111" text-anchor="middle">negative selection</text>
+<text x="415" y="246" font-size="10" fill="#333" text-anchor="middle">binds self-peptide too well</text>
+
+<rect x="40" y="266" width="414" height="26" fill="#f5f7fa" stroke="#8fa8c0"/>
+<rect x="454" y="266" width="23" height="26" fill="#d1495b" stroke="#111"/>
+<rect x="477" y="266" width="23" height="26" fill="#2e8b57" stroke="#111"/>
+<text x="247" y="283" font-size="10" fill="#333" text-anchor="middle">neglected</text>
+<text x="40" y="308" font-size="10" fill="#111">per 100 thymocytes: about 90 neglected, 5 deleted or diverted to Treg, 5 exported</text>
+<text x="40" y="321" font-size="10" fill="#333">measured export is 2&#8211;4 percent; earlier checkpoints take the rest</text>
+
+<rect x="16" y="336" width="484" height="116" fill="#f5f7fa" stroke="#8fa8c0" rx="4"/>
+<text x="26" y="356" font-size="11.5" font-weight="bold" fill="#111">Bone marrow: edit before you delete</text>
+<rect x="30" y="370" width="112" height="38" fill="#ffffff" stroke="#333"/>
+<text x="86" y="388" font-size="10" fill="#111" text-anchor="middle">self-reactive</text>
+<text x="86" y="400" font-size="10" fill="#111" text-anchor="middle">immature B cell</text>
+<line x1="142" y1="389" x2="180" y2="389" stroke="#111" stroke-width="1.4" marker-end="url(#ah)"/>
+<text x="161" y="383" font-size="9.5" fill="#333" text-anchor="middle">RAG on</text>
+<rect x="184" y="370" width="122" height="38" fill="#ffffff" stroke="#333"/>
+<text x="245" y="388" font-size="10" fill="#111" text-anchor="middle">new light-chain</text>
+<text x="245" y="400" font-size="10" fill="#111" text-anchor="middle">V&#8211;J rearrangement</text>
+<line x1="306" y1="382" x2="342" y2="372" stroke="#111" stroke-width="1.4" marker-end="url(#ah)"/>
+<line x1="306" y1="396" x2="342" y2="410" stroke="#111" stroke-width="1.4" marker-end="url(#ah)"/>
+<rect x="346" y="356" width="144" height="30" fill="#ffffff" stroke="#2e8b57"/>
+<text x="418" y="375" font-size="10" fill="#111" text-anchor="middle">rescued &#8594; exported</text>
+<rect x="346" y="400" width="144" height="30" fill="#ffffff" stroke="#d1495b"/>
+<text x="418" y="419" font-size="10" fill="#111" text-anchor="middle">still reactive &#8594; deleted</text>
+<text x="26" y="445" font-size="9.5" fill="#333">a large share of new B cells are edited at least once before export</text>
+
+<rect x="516" y="52" width="248" height="170" fill="#f5f7fa" stroke="#8fa8c0" rx="4"/>
+<text x="526" y="72" font-size="11.5" font-weight="bold" fill="#111">Thymic medulla: AIRE</text>
+<rect x="530" y="82" width="220" height="50" fill="#ffffff" stroke="#333"/>
+<text x="640" y="99" font-size="10" font-weight="bold" fill="#111" text-anchor="middle">mTEC (AIRE on)</text>
+<text x="640" y="112" font-size="9.5" fill="#333" text-anchor="middle">displays insulin, thyroglobulin,</text>
+<text x="640" y="124" font-size="9.5" fill="#333" text-anchor="middle">myelin &#8212; tissue antigens, in thymus</text>
+<line x1="640" y1="132" x2="640" y2="150" stroke="#1a6fb5" stroke-width="1.6" marker-end="url(#ahb)"/>
+<text x="640" y="170" font-size="10" fill="#111" text-anchor="middle">binds strongly &#8594; deleted or Treg</text>
+<text x="640" y="188" font-size="9.5" fill="#333" text-anchor="middle">each mTEC shows a random small subset,</text>
+<text x="640" y="200" font-size="9.5" fill="#333" text-anchor="middle">so a thymocyte must scan hundreds</text>
+<text x="640" y="215" font-size="9.5" fill="#d1495b" text-anchor="middle">AIRE loss: APS-1 autoimmunity</text>
+
+<rect x="516" y="236" width="248" height="216" fill="#f5f7fa" stroke="#8fa8c0" rx="4"/>
+<text x="526" y="256" font-size="11.5" font-weight="bold" fill="#111">Periphery: the second net</text>
+<text x="528" y="280" font-size="10" fill="#111">&#8226; anergy &#8212; signal 1 with no B7</text>
+<text x="528" y="300" font-size="10" fill="#111">&#8226; AICD &#8212; deletion on restimulation</text>
+<text x="528" y="320" font-size="10" fill="#111">&#8226; privileged sites &#8212; eye, brain, testis</text>
+<text x="528" y="340" font-size="10" fill="#111">&#8226; Treg (FoxP3) &#8212; IL-10, TGF-beta,</text>
+<text x="538" y="355" font-size="10" fill="#111">CTLA-4 stripping B7, IL-2 sink</text>
+<line x1="528" y1="372" x2="752" y2="372" stroke="#8fa8c0" stroke-width="1"/>
+<text x="528" y="392" font-size="10" fill="#d1495b">FoxP3 loss (IPEX): fatal in infancy</text>
+<text x="528" y="416" font-size="9.5" fill="#333">No thymus displays every self-antigen,</text>
+<text x="528" y="429" font-size="9.5" fill="#333">so the periphery must keep re-testing</text>
+<text x="528" y="442" font-size="9.5" fill="#333">every cell that leaves it.</text>
+
+</g>
+</svg>

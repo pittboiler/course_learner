@@ -1,0 +1,49 @@
+<svg viewBox="0 0 620 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="24" y="24" fill="#8a8a8a" font-style="italic">One number decides the regime: the scatterer size compared with the wavelength.</text>
+  <line x1="70" y1="250" x2="308" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="84.4" y1="250" x2="84.4" y2="255" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="84.4" y="268" fill="#8a8a8a" font-size="11" text-anchor="middle">0.001</text>
+  <line x1="141.9" y1="250" x2="141.9" y2="255" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="141.9" y="268" fill="#8a8a8a" font-size="11" text-anchor="middle">0.1</text>
+  <line x1="199.4" y1="250" x2="199.4" y2="255" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="199.4" y="268" fill="#8a8a8a" font-size="11" text-anchor="middle">10</text>
+  <line x1="256.9" y1="250" x2="256.9" y2="255" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="256.9" y="268" fill="#8a8a8a" font-size="11" text-anchor="middle">1000</text>
+  <text x="185" y="288" fill="#8a8a8a" font-size="12" text-anchor="middle">size parameter x = 2 pi r / lambda</text>
+  <rect x="84.4" y="228" width="86.2" height="16" fill="#4a90d9" opacity="0.22" stroke="#4a90d9" stroke-width="1"/>
+  <text x="127.5" y="223" fill="#4a90d9" font-size="11" text-anchor="middle">Rayleigh</text>
+  <rect x="170.6" y="228" width="48.8" height="16" fill="#e0645c" opacity="0.22" stroke="#e0645c" stroke-width="1"/>
+  <text x="195.0" y="223" fill="#e0645c" font-size="11" text-anchor="middle">Mie</text>
+  <rect x="219.5" y="228" width="51.1" height="16" fill="#8a8a8a" opacity="0.22" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="245.0" y="223" fill="#8a8a8a" font-size="11" text-anchor="middle">geometric</text>
+  <line x1="92.4" y1="228" x2="92.4" y2="112" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 3"/>
+  <circle cx="92.4" cy="112" r="3.5" fill="#8a8a8a"/>
+  <text x="98.4" y="116" fill="#8a8a8a" font-size="11">air molecule</text>
+  <line x1="193.6" y1="228" x2="193.6" y2="130" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 3"/>
+  <circle cx="193.6" cy="130" r="3.5" fill="#8a8a8a"/>
+  <text x="199.6" y="134" fill="#8a8a8a" font-size="11">aerosol</text>
+  <line x1="231.0" y1="228" x2="231.0" y2="148" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 3"/>
+  <circle cx="231.0" cy="148" r="3.5" fill="#8a8a8a"/>
+  <text x="237.0" y="152" fill="#8a8a8a" font-size="11">cloud droplet</text>
+  <line x1="370" y1="250" x2="578" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="370" y1="250" x2="370" y2="72" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="370,72 365,82 375,82" fill="#8a8a8a"/>
+  <polyline points="381.8,80.0 384.7,88.2 387.6,96.0 390.6,103.3 393.5,110.1 396.5,116.6 399.4,122.7 402.4,128.5 405.3,133.9 408.2,139.0 411.2,143.9 414.1,148.5 417.1,152.8 420.0,156.9 422.9,160.8 425.9,164.5 428.8,168.0 431.8,171.3 434.7,174.5 437.6,177.5 440.6,180.4 443.5,183.1 446.5,185.7 449.4,188.1 452.4,190.5 455.3,192.7 458.2,194.8 461.2,196.9 464.1,198.8 467.1,200.7 470.0,202.4 472.9,204.1 475.9,205.7 478.8,207.3 481.8,208.8 484.7,210.2 487.6,211.5 490.6,212.8 493.5,214.1 496.5,215.3 499.4,216.4 502.4,217.5 505.3,218.6 508.2,219.6 511.2,220.5 514.1,221.5 517.1,222.4 520.0,223.2 522.9,224.1 525.9,224.9 528.8,225.6 531.8,226.4 534.7,227.1 537.6,227.7 540.6,228.4 543.5,229.0 546.5,229.6 549.4,230.2 552.4,230.8 555.3,231.3 558.2,231.9" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <circle cx="411.2" cy="143.9" r="4" fill="#e0645c"/>
+  <text x="413.2" y="134.9" fill="#e0645c" font-size="11" text-anchor="middle">blue</text>
+  <circle cx="470.0" cy="202.4" r="4" fill="#e0645c"/>
+  <text x="472.0" y="193.4" fill="#e0645c" font-size="11" text-anchor="middle">green</text>
+  <circle cx="528.8" cy="225.6" r="4" fill="#e0645c"/>
+  <text x="530.8" y="216.6" fill="#e0645c" font-size="11" text-anchor="middle">red</text>
+  <line x1="381.8" y1="250" x2="381.8" y2="255" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="381.8" y="268" fill="#8a8a8a" font-size="11" text-anchor="middle">0.4</text>
+  <line x1="440.6" y1="250" x2="440.6" y2="255" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="440.6" y="268" fill="#8a8a8a" font-size="11" text-anchor="middle">0.5</text>
+  <line x1="499.4" y1="250" x2="499.4" y2="255" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="499.4" y="268" fill="#8a8a8a" font-size="11" text-anchor="middle">0.6</text>
+  <line x1="558.2" y1="250" x2="558.2" y2="255" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="558.2" y="268" fill="#8a8a8a" font-size="11" text-anchor="middle">0.7</text>
+  <text x="470" y="288" fill="#8a8a8a" font-size="12" text-anchor="middle">wavelength (micrometres)</text>
+  <text x="364" y="64" fill="#8a8a8a" font-size="11">Rayleigh cross-section, lambda to the minus 4</text>
+  <text x="364" y="88" fill="#e0645c" font-size="11">blue scatters 4.4 times more than red</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg viewBox="0 0 620 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="26" y="24" fill="#8a8a8a" font-style="italic">Straight in space, curved on the ground: the deflection is the frame, not a force.</text>
+  <circle cx="155" cy="190" r="105" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="155" y="319" fill="#8a8a8a" font-size="12" text-anchor="middle">rotating platform</text>
+  <line x1="155" y1="190" x2="155" y2="85" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="155,85 150,97 160,97" fill="#4a90d9"/>
+  <text x="155" y="75" fill="#4a90d9" font-size="12" text-anchor="middle">launched straight</text>
+  <polyline points="155.0,190.0 155.0,188.3 154.9,186.5 154.8,184.8 154.6,183.0 154.3,181.3 154.1,179.5 153.7,177.8 153.3,176.1 152.9,174.4 152.4,172.7 151.8,171.0 151.2,169.3 150.6,167.7 149.9,166.0 149.1,164.4 148.3,162.8 147.5,161.2 146.6,159.6 145.7,158.1 144.7,156.6 143.6,155.1 142.5,153.6 141.4,152.1 140.2,150.7 139.0,149.3 137.7,147.9 136.4,146.6 135.0,145.3 133.6,144.0 132.2,142.7 130.7,141.5 129.1,140.3 127.6,139.2 126.0,138.1 124.3,137.0 122.6,136.0 120.9,135.0 119.1,134.0 117.3,133.1 115.5,132.2 113.6,131.4 111.7,130.6 109.8,129.9 107.8,129.2 105.8,128.5 103.8,127.9 101.7,127.4 99.6,126.8 97.5,126.4 95.4,126.0 93.2,125.6 91.0,125.3 88.8,125.0 86.6,124.8 84.3,124.7 82.0,124.6 79.7,124.5 77.4,124.6 75.1,124.6 72.8,124.7" fill="none" stroke="#e0645c" stroke-width="2.5" stroke-dasharray="6 4"/>
+  <polygon points="72.8,124.7 61.8,122.7 68.8,133.7" fill="#e0645c"/>
+  <text x="211" y="118" fill="#e0645c" font-size="12">appears to</text>
+  <text x="211" y="134" fill="#e0645c" font-size="12">curve right</text>
+  <circle cx="155" cy="190" r="4" fill="#8a8a8a"/>
+  <path d="M 27 190 A 128 128 0 0 1 155 318" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="157,318 145,314 149,324" fill="#8a8a8a"/>
+  <text x="13" y="230" fill="#8a8a8a" font-size="12">spin</text>
+  <line x1="370" y1="265" x2="578" y2="265" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="370" y1="265" x2="370" y2="72" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="370,72 365,82 375,82" fill="#8a8a8a"/>
+  <polyline points="370.0,265.0 376.4,260.9 382.7,256.8 389.1,252.7 395.4,248.6 401.7,244.4 407.9,240.3 414.1,236.2 420.2,232.1 426.3,228.0 432.4,223.9 438.3,219.8 444.1,215.7 449.9,211.6 455.6,207.4 461.1,203.3 466.6,199.2 471.9,195.1 477.2,191.0 482.2,186.9 487.2,182.8 492.0,178.7 496.6,174.6 501.1,170.4 505.5,166.3 509.6,162.2 513.7,158.1 517.5,154.0 521.1,149.9 524.6,145.8 527.9,141.7 531.0,137.6 533.9,133.4 536.5,129.3 539.0,125.2 541.3,121.1 543.4,117.0 545.2,112.9 546.9,108.8 548.3,104.7 549.5,100.6 550.5,96.4 551.3,92.3 551.9,88.2 552.2,84.1 552.3,80.0" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="470" y="301" fill="#8a8a8a" font-size="12" text-anchor="middle">f (units of 1e-4 per second)</text>
+  <line x1="370.0" y1="265" x2="370.0" y2="270" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="370.0" y="284" fill="#8a8a8a" font-size="12" text-anchor="middle">0</text>
+  <line x1="432.5" y1="265" x2="432.5" y2="270" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="432.5" y="284" fill="#8a8a8a" font-size="12" text-anchor="middle">0.5</text>
+  <line x1="495.0" y1="265" x2="495.0" y2="270" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="495.0" y="284" fill="#8a8a8a" font-size="12" text-anchor="middle">1.0</text>
+  <line x1="557.5" y1="265" x2="557.5" y2="270" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="557.5" y="284" fill="#8a8a8a" font-size="12" text-anchor="middle">1.5</text>
+  <line x1="365" y1="265.0" x2="370" y2="265.0" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="361" y="269.0" fill="#8a8a8a" font-size="12" text-anchor="end">0</text>
+  <line x1="365" y1="203.3" x2="370" y2="203.3" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="361" y="207.3" fill="#8a8a8a" font-size="12" text-anchor="end">30</text>
+  <line x1="365" y1="141.7" x2="370" y2="141.7" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="361" y="145.7" fill="#8a8a8a" font-size="12" text-anchor="end">60</text>
+  <line x1="365" y1="80.0" x2="370" y2="80.0" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="361" y="84.0" fill="#8a8a8a" font-size="12" text-anchor="end">90</text>
+  <text x="330" y="64" fill="#8a8a8a" font-size="12">latitude</text>
+  <circle cx="498.9" cy="172.5" r="4" fill="#e0645c"/>
+  <text x="408.9" y="176.5" fill="#e0645c" font-size="12">45 deg: 1.03</text>
+  <text x="376.0" y="256.8" fill="#e0645c" font-size="12">f vanishes at the equator</text>
+</svg>

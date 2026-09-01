@@ -219,7 +219,7 @@ Below college level — the on-ramp for genuinely-from-scratch or very rusty fun
 | `waves-optics` | Waves & Optics | 0 | calc, ode | Oscillations, the wave equation, interference, diffraction, polarization, and geometric & physical optics. |
 | `thermodynamics-physics` | Classical Thermodynamics | 0 | calc | The four laws, heat engines, entropy, and thermodynamic potentials — before the statistical picture. |
 | `mathematical-methods-physics` | Mathematical Methods for Physics | 1 | calc, ode, linalg | The physicist's toolbox: vector calculus, special functions, complex methods, tensors, Green's functions. |
-| `computational-physics` | Computational Physics | 1 | ode, linalg | Numerical integration of ODEs/PDEs, Monte Carlo, molecular dynamics, and simulating physical systems. |
+| `computational-physics` | Computational Physics | 1 | ode, linalg | **Dropped** (2026-08-10, Jacob's call — not doing computational physics). Retained here for continuity. |
 | `quantum-mechanics` | Quantum Mechanics | 2 | linalg, analytical-mechanics, complex (light) | State vectors, operators, Schrödinger equation, spin, entanglement, perturbation theory. |
 | `stat-mech` | Statistical Mechanics | 2 | probability-theory, analytical-mechanics | Ensembles, entropy, partition functions, phase transitions. Bridges probability ↔ physics; feeds astro. |
 | `relativity` | Relativity (SR + GR) | 2 | mechanics, em, analytical-mechanics, linalg, topology (light) | SR from postulates, a **classical field theory** module, then geodesics, Einstein equations, black holes, cosmology. Leans on `differential-geometry`. |
@@ -314,12 +314,12 @@ New field (Phase 9 in [EXPANSION.md](EXPANSION.md)). (Cosmology lives under Phys
 
 | id | Course | Tier | Prereqs | Notes |
 |---|---|---|---|---|
-| `geology` | Geology | 0 | — | Minerals & rocks, plate tectonics, the rock cycle, geologic time, and Earth's structure. |
-| `atmospheric-science` | Atmospheric Science | 1 | calc, thermodynamics-physics | Atmospheric thermodynamics, moisture & stability, circulation, and weather systems. |
-| `geophysics` | Geophysics | 2 | mechanics, pdes | Seismology, gravity & magnetics, heat flow, and imaging Earth's interior. |
-| `climate-science` | Climate Physics | 2 | atmospheric-science | Radiative balance, the greenhouse effect, feedbacks, the carbon cycle, and climate models. |
-| `oceanography` | Physical Oceanography | 2 | fluid-dynamics | Ocean circulation, waves, tides, water masses, and the ocean's role in climate. |
-| `planetary-science` | Planetary Science | 2 | mechanics, thermodynamics-physics | Planet formation, interiors, atmospheres, surfaces, and habitability. |
+| `geology` | Geology | 0 | — | Minerals & rocks, plate tectonics, structural geology & maps, surface processes, geologic time, and Earth history. (~29 lessons) |
+| `atmospheric-science` | Atmospheric Science | 1 | calc, thermodynamics-physics | Atmospheric thermodynamics, moisture & stability, radiation, dynamics, vorticity & waves, and weather systems. (~30 lessons) |
+| `geophysics` | Geophysics | 2 | mechanics, pdes | Seismology & source physics, gravity, isostasy & flexure, space geodesy, geomagnetism & plate kinematics, heat flow & mantle rheology, the deep Earth, and geophysical inversion. (~33 lessons) |
+| `climate-science` | Climate Physics | 2 | atmospheric-science | Radiative forcing, feedbacks & sensitivity, ocean heat uptake, the carbon cycle, impacts, and climate models. (~30 lessons) |
+| `oceanography` | Physical Oceanography | 2 | fluid-dynamics | Seawater and stratification, wind-driven gyres and eddies, the deep overturning and what drives it, waves, tides and ENSO, and the ocean's uptake of heat and carbon. (~30 lessons) |
+| `planetary-science` | Planetary Science | 2 | mechanics, thermodynamics-physics | Planet formation & cosmochemistry, interiors, surfaces & the Moon, remote measurement (gravity, tides, spectroscopy, magnetospheres), atmospheres & circulation, the outer solar system & small bodies, and exoplanets. (~33 lessons) |
 
 ## Life Sciences
 

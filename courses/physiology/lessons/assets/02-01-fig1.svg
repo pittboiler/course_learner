@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 620" width="800" height="620" role="img" aria-label="Panel a: a sinoatrial node pacemaker potential and a ventricular action potential drawn on one shared time axis, with phases and dominant currents labelled. Panel b: a schematic heart showing cumulative activation times along the conduction pathway, and beneath it a single ECG complex on the same time axis with P, QRS and T waves marked.">
+  <rect width="800" height="620" fill="#ffffff"/>
+  <defs>
+    <marker id="ah" markerWidth="7" markerHeight="7" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 z" fill="#333"/>
+    </marker>
+    <marker id="ahb" markerWidth="7" markerHeight="7" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 z" fill="#1a6fb5"/>
+    </marker>
+    <marker id="ahc" markerWidth="7" markerHeight="7" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 z" fill="#d1495b"/>
+    </marker>
+  </defs>
+
+  <text x="14" y="22" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#111">The heart&#8217;s own clock: a pacemaker, a delay line, and the trace it writes</text>
+
+  <text x="40" y="46" font-family="Helvetica,Arial,sans-serif" font-size="12" font-weight="bold" fill="#111">(a) Two action potentials, one shared time base</text>
+
+  <line x1="70" y1="115.5" x2="760" y2="115.5" stroke="#999" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="70" y1="138.5" x2="760" y2="138.5" stroke="#999" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="756" y="111" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#666">threshold, -40 mV</text>
+  <text x="756" y="150" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#666">max diastolic potential, -60 mV</text>
+
+  <line x1="70" y1="58" x2="70" y2="295" stroke="#bbb" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="180.4" y1="58" x2="180.4" y2="295" stroke="#bbb" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="70" y1="168" x2="180.4" y2="168" stroke="#333" stroke-width="1" marker-end="url(#ah)"/>
+  <text x="125" y="164" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">160 ms</text>
+
+  <polyline points="70,115.5 78.3,106.3 87.3,90.2 97.6,75.3 108.0,67.2 118.3,63.8 132.1,69.5 145.9,83.3 159.7,101.7 173.5,117.8 190.8,130.5 208.0,138.5 311.5,133.9 415.0,129.3 518.5,124.7 622.0,120.7 691.0,118.0 760.0,115.5" fill="none" stroke="#d1495b" stroke-width="2.2"/>
+
+  <polyline points="70,290 180.4,290 181.8,184.6 187.3,203.8 194.2,197.5 242.5,201.1 297.7,207.5 339.1,214.8 356.4,227.7 373.6,251.5 387.4,273.5 397.8,288.2 404.7,290 760,290" fill="none" stroke="#1a6fb5" stroke-width="2.2"/>
+
+  <text x="620" y="90" font-family="Helvetica,Arial,sans-serif" font-size="10.5" font-weight="bold" fill="#d1495b">SA node (pacemaker)</text>
+  <text x="620" y="200" font-family="Helvetica,Arial,sans-serif" font-size="10.5" font-weight="bold" fill="#1a6fb5">ventricular myocyte</text>
+
+  <text x="126" y="62" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">0: slow upstroke, I_Ca(L)</text>
+  <text x="180" y="96" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">3: I_K</text>
+  <line x1="330" y1="157" x2="330" y2="137" stroke="#666" stroke-width="0.9"/>
+  <text x="250" y="165" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">phase 4 drift: I_f, falling I_K, then I_Ca(T)</text>
+
+  <text x="188" y="188" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">0: fast I_Na</text>
+  <line x1="196" y1="226" x2="188" y2="207" stroke="#666" stroke-width="0.9"/>
+  <text x="196" y="234" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">1: I_to</text>
+  <line x1="300" y1="226" x2="300" y2="210" stroke="#666" stroke-width="0.9"/>
+  <text x="250" y="234" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">2: plateau, I_Ca(L) against delayed-rectifier I_K</text>
+  <text x="405" y="250" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">3: I_Kr and I_Ks repolarize</text>
+  <text x="560" y="282" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">4: I_K1 holds -90 mV</text>
+
+  <line x1="70" y1="300" x2="782" y2="300" stroke="#333" stroke-width="1.4"/>
+  <line x1="70" y1="300" x2="70" y2="304" stroke="#333" stroke-width="1"/>
+  <line x1="208" y1="300" x2="208" y2="304" stroke="#333" stroke-width="1"/>
+  <line x1="346" y1="300" x2="346" y2="304" stroke="#333" stroke-width="1"/>
+  <line x1="484" y1="300" x2="484" y2="304" stroke="#333" stroke-width="1"/>
+  <line x1="622" y1="300" x2="622" y2="304" stroke="#333" stroke-width="1"/>
+  <line x1="760" y1="300" x2="760" y2="304" stroke="#333" stroke-width="1"/>
+  <text x="70" y="315" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#666">0</text>
+  <text x="208" y="315" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#666">200</text>
+  <text x="346" y="315" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#666">400</text>
+  <text x="484" y="315" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#666">600</text>
+  <text x="622" y="315" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#666">800</text>
+  <text x="760" y="315" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#666">1000</text>
+  <text x="70" y="330" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#666">time, ms &#8212; one SA cycle = 1000 ms = 60 beats/min</text>
+
+  <text x="64" y="56" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#666">mV</text>
+  <text x="64" y="67" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#666">+5</text>
+  <text x="64" y="119" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#666">-40</text>
+  <text x="64" y="142" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#666">-60</text>
+  <text x="64" y="188" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#666">+25</text>
+  <text x="64" y="211" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#666">0</text>
+  <text x="64" y="293" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#666">-90</text>
+
+  <text x="40" y="352" font-family="Helvetica,Arial,sans-serif" font-size="12" font-weight="bold" fill="#111">(b) The conduction pathway, and the ECG it writes</text>
+
+  <ellipse cx="155" cy="414" rx="85" ry="29" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1.3"/>
+  <path d="M 72 443 L 238 443 C 238 508 200 552 155 558 C 110 552 72 508 72 443 Z" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1.3"/>
+
+  <path d="M 200 404 Q 160 396 118 408" fill="none" stroke="#d1495b" stroke-width="1.3" marker-end="url(#ahc)"/>
+  <path d="M 204 407 Q 186 428 163 437" fill="none" stroke="#d1495b" stroke-width="1.3" marker-end="url(#ahc)"/>
+  <circle cx="206" cy="400" r="5.5" fill="#d1495b"/>
+  <circle cx="155" cy="441" r="5.5" fill="#d1495b"/>
+  <line x1="155" y1="447" x2="155" y2="483" stroke="#1a6fb5" stroke-width="2.6"/>
+  <line x1="155" y1="483" x2="118" y2="516" stroke="#1a6fb5" stroke-width="2.2"/>
+  <line x1="155" y1="483" x2="192" y2="516" stroke="#1a6fb5" stroke-width="2.2"/>
+  <line x1="118" y1="516" x2="110" y2="532" stroke="#1a6fb5" stroke-width="1.5"/>
+  <line x1="118" y1="516" x2="120" y2="542" stroke="#1a6fb5" stroke-width="1.5"/>
+  <line x1="118" y1="516" x2="130" y2="540" stroke="#1a6fb5" stroke-width="1.5"/>
+  <line x1="192" y1="516" x2="200" y2="532" stroke="#1a6fb5" stroke-width="1.5"/>
+  <line x1="192" y1="516" x2="190" y2="542" stroke="#1a6fb5" stroke-width="1.5"/>
+  <line x1="192" y1="516" x2="180" y2="540" stroke="#1a6fb5" stroke-width="1.5"/>
+
+  <text x="206" y="379" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">SA node &#183; 0 ms</text>
+  <text x="108" y="416" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">atria &#183; 40 ms</text>
+  <text x="248" y="444" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">AV node &#183; 140 ms</text>
+  <text x="166" y="470" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">bundle of His &#183; 160 ms</text>
+  <text x="240" y="524" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">Purkinje &#183; 190 ms</text>
+  <text x="155" y="578" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">last muscle &#183; 220 ms</text>
+
+  <line x1="355" y1="386" x2="387.6" y2="386" stroke="#d1495b" stroke-width="7"/>
+  <text x="394" y="390" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">atrial spread, 40 ms</text>
+  <line x1="387.6" y1="406" x2="469.0" y2="406" stroke="#333" stroke-width="7"/>
+  <text x="477" y="410" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">AV nodal delay, 100 ms (a feature)</text>
+  <line x1="469.0" y1="426" x2="534.1" y2="426" stroke="#1a6fb5" stroke-width="7"/>
+  <text x="543" y="430" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">His, Purkinje, muscle: 80 ms</text>
+
+  <line x1="355" y1="386" x2="355" y2="556" stroke="#bbb" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="485.2" y1="386" x2="485.2" y2="556" stroke="#bbb" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="534.1" y1="426" x2="534.1" y2="556" stroke="#bbb" stroke-width="1" stroke-dasharray="3,3"/>
+
+  <line x1="355" y1="452" x2="762" y2="452" stroke="#333" stroke-width="1.4"/>
+  <line x1="355" y1="452" x2="355" y2="456" stroke="#333" stroke-width="1"/>
+  <line x1="436.4" y1="452" x2="436.4" y2="456" stroke="#333" stroke-width="1"/>
+  <line x1="517.8" y1="452" x2="517.8" y2="456" stroke="#333" stroke-width="1"/>
+  <line x1="599.2" y1="452" x2="599.2" y2="456" stroke="#333" stroke-width="1"/>
+  <line x1="680.6" y1="452" x2="680.6" y2="456" stroke="#333" stroke-width="1"/>
+  <line x1="762" y1="452" x2="762" y2="456" stroke="#333" stroke-width="1"/>
+  <text x="355" y="466" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#666">0</text>
+  <text x="436.4" y="466" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#666">100</text>
+  <text x="517.8" y="466" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#666">200</text>
+  <text x="599.2" y="466" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#666">300</text>
+  <text x="680.6" y="466" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#666">400</text>
+  <text x="762" y="466" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#666">500</text>
+  <text x="355" y="481" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#666">ms after the SA node fires</text>
+
+  <path d="M 355 536 L 361.5 536 Q 395.7 516 429.9 536 L 485.2 536 L 491.7 542 L 501.5 490 L 513.7 548 L 525.9 536 L 599.2 536 Q 664.3 508 729.4 536 L 762 536" fill="none" stroke="#111" stroke-width="1.8"/>
+  <text x="396" y="518" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="bold" fill="#111">P</text>
+  <text x="501" y="484" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="bold" fill="#111">QRS</text>
+  <text x="664" y="514" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="bold" fill="#111">T</text>
+
+  <path d="M 355 552 L 355 558 L 485.2 558 L 485.2 552" fill="none" stroke="#666" stroke-width="1"/>
+  <text x="420" y="572" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#666">PR = 160 ms</text>
+
+  <text x="355" y="592" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">P atrial depolarization &#183; QRS ventricular depolarization &#183; T ventricular repolarization</text>
+  <text x="355" y="606" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#666">Flat trace = every cell at the same potential: the AV delay, and the plateau.</text>
+</svg>

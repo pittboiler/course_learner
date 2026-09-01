@@ -1,0 +1,37 @@
+<svg viewBox="0 0 660 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="12">
+  <text x="20" y="20" fill="#8a8a8a" font-style="italic">Three broad, skewed likelihoods; one narrow product. No single line does the work.</text>
+
+  <line x1="90" y1="250" x2="625" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="300" y="290" fill="#8a8a8a">equilibrium climate sensitivity (K)</text>
+  <line x1="142" y1="250" x2="142" y2="256" stroke="#8a8a8a"/><text x="138" y="270" fill="#8a8a8a">2</text>
+  <line x1="246" y1="250" x2="246" y2="256" stroke="#8a8a8a"/><text x="242" y="270" fill="#8a8a8a">3</text>
+  <line x1="350" y1="250" x2="350" y2="256" stroke="#8a8a8a"/><text x="346" y="270" fill="#8a8a8a">4</text>
+  <line x1="454" y1="250" x2="454" y2="256" stroke="#8a8a8a"/><text x="450" y="270" fill="#8a8a8a">5</text>
+  <line x1="558" y1="250" x2="558" y2="256" stroke="#8a8a8a"/><text x="554" y="270" fill="#8a8a8a">6</text>
+
+  <path d="M 90,244 L 111,221 L 132,183 L 152,147 L 173,125 L 194,121 L 215,128 L 236,141 L 256,156 L 277,171 L 298,184 L 319,196 L 340,205 L 360,213 L 381,220 L 402,225 L 423,229 L 444,232 L 464,235 L 485,237 L 506,239 L 527,241 L 548,242 L 568,243 L 589,244 L 610,245"
+        fill="none" stroke="#8a8a8a" stroke-width="1.8"/>
+  <text x="196" y="114" fill="#8a8a8a">process (feedback sum)</text>
+
+  <path d="M 90,239 L 111,214 L 132,181 L 152,155 L 173,141 L 194,138 L 215,144 L 236,154 L 256,166 L 277,177 L 298,188 L 319,197 L 340,205 L 360,212 L 381,218 L 402,222 L 423,226 L 444,229 L 464,232 L 485,235 L 506,237 L 527,238 L 548,240 L 568,241 L 589,242 L 610,243"
+        fill="none" stroke="#8a8a8a" stroke-width="1.8" stroke-dasharray="6 4"/>
+  <text x="72" y="232" fill="#8a8a8a">historical</text>
+
+  <path d="M 90,246 L 111,231 L 132,202 L 152,171 L 173,149 L 194,139 L 215,139 L 236,146 L 256,157 L 277,168 L 298,180 L 319,190 L 340,199 L 360,207 L 381,213 L 402,219 L 423,223 L 444,227 L 464,230 L 485,233 L 506,235 L 527,237 L 548,239 L 568,240 L 589,241 L 610,242"
+        fill="none" stroke="#8a8a8a" stroke-width="1.8" stroke-dasharray="2 4"/>
+  <text x="298" y="174" fill="#8a8a8a">paleo</text>
+
+  <path d="M 90,250 L 111,250 L 132,243 L 152,215 L 173,161 L 194,105 L 215,74 L 236,73 L 256,93 L 277,122 L 298,151 L 319,176 L 340,196 L 360,211 L 381,221 L 402,229 L 423,235 L 444,239 L 464,242 L 485,244 L 506,246 L 527,247 L 548,247 L 568,248 L 589,249 L 610,249"
+        fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="248" y="60" fill="#4a90d9">combined</text>
+
+  <!-- 5-95 markers -->
+  <line x1="169" y1="250" x2="169" y2="82" stroke="#e0645c" stroke-width="1.2" stroke-dasharray="4 4"/>
+  <line x1="408" y1="250" x2="408" y2="82" stroke="#e0645c" stroke-width="1.2" stroke-dasharray="4 4"/>
+  <line x1="169" y1="86" x2="408" y2="86" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="169,86 178,82 178,90" fill="#e0645c"/>
+  <polygon points="408,86 399,82 399,90" fill="#e0645c"/>
+  <text x="266" y="80" fill="#e0645c">5&#8211;95 percent: 2.3 to 4.6 K</text>
+  <circle cx="230" cy="250" r="4" fill="#e0645c"/>
+  <text x="216" y="308" fill="#e0645c">best estimate 3.0 K</text>
+</svg>

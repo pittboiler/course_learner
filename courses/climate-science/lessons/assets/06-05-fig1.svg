@@ -1,0 +1,47 @@
+<svg viewBox="0 0 690 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="12">
+  <text x="20" y="18" fill="#8a8a8a" font-style="italic">By 2100 the choice of scenario matters more than every physical uncertainty combined.</text>
+
+  <line x1="110" y1="255" x2="640" y2="255" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="110" y1="255" x2="110" y2="55" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="300" y="296" fill="#8a8a8a">year</text>
+  <text x="20" y="130" fill="#8a8a8a">warming</text>
+  <text x="20" y="146" fill="#8a8a8a">since</text>
+  <text x="20" y="162" fill="#8a8a8a">1850&#8211;1900</text>
+  <line x1="208" y1="255" x2="208" y2="261" stroke="#8a8a8a"/><text x="192" y="275" fill="#8a8a8a">2020</text>
+  <line x1="306" y1="255" x2="306" y2="261" stroke="#8a8a8a"/><text x="290" y="275" fill="#8a8a8a">2040</text>
+  <line x1="404" y1="255" x2="404" y2="261" stroke="#8a8a8a"/><text x="388" y="275" fill="#8a8a8a">2060</text>
+  <line x1="502" y1="255" x2="502" y2="261" stroke="#8a8a8a"/><text x="486" y="275" fill="#8a8a8a">2080</text>
+  <line x1="600" y1="255" x2="600" y2="261" stroke="#8a8a8a"/><text x="584" y="275" fill="#8a8a8a">2100</text>
+  <text x="94" y="220" fill="#8a8a8a">1</text>
+  <text x="94" y="181" fill="#8a8a8a">2</text>
+  <text x="94" y="142" fill="#8a8a8a">3</text>
+  <text x="94" y="103" fill="#8a8a8a">4</text>
+  <text x="94" y="64" fill="#8a8a8a">5</text>
+
+  <line x1="110" y1="196.5" x2="600" y2="196.5" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="116" y="192" fill="#8a8a8a">1.5 K</text>
+  <line x1="110" y1="177" x2="600" y2="177" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="116" y="173" fill="#8a8a8a">2 K</text>
+
+  <path d="M 110,228 L 208,212 L 306,196 L 404,196 L 502,198 L 600,200" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="608" y1="216" x2="608" y2="185" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="616" y="204" fill="#4a90d9">SSP1-1.9</text>
+
+  <path d="M 110,228 L 208,212 L 306,196 L 404,189 L 502,185 L 600,185" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="620" y1="204" x2="620" y2="161" stroke="#4a90d9" stroke-width="2.5" opacity="0.6"/>
+  <text x="628" y="186" fill="#4a90d9">1-2.6</text>
+
+  <path d="M 110,228 L 208,212 L 306,193 L 404,177 L 502,161 L 600,150" fill="none" stroke="#8a8a8a" stroke-width="2.5"/>
+  <line x1="608" y1="173" x2="608" y2="119" stroke="#8a8a8a" stroke-width="2.5"/>
+  <text x="616" y="150" fill="#8a8a8a">2-4.5</text>
+
+  <path d="M 110,228 L 208,212 L 306,189 L 404,165 L 502,138 L 600,115" fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <line x1="608" y1="146" x2="608" y2="76" stroke="#e0645c" stroke-width="2.5"/>
+  <text x="616" y="114" fill="#e0645c">3-7.0</text>
+
+  <path d="M 110,228 L 208,212 L 306,185 L 404,154 L 502,118 L 600,83" fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <line x1="620" y1="126" x2="620" y2="60" stroke="#e0645c" stroke-width="2.5" opacity="0.6"/>
+  <text x="608" y="52" fill="#e0645c">5-8.5</text>
+
+  <text x="140" y="248" fill="#8a8a8a">bars at 2100 are the very likely ranges</text>
+</svg>

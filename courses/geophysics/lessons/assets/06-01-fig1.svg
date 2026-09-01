@@ -1,0 +1,58 @@
+<svg viewBox="0 0 700 332" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="11.5">
+  <text x="20" y="18" fill="#8a8a8a" font-style="italic">Every image in this course is a model that fits data. So is a whole family of others.</text>
+
+  <text x="34" y="44" fill="#8a8a8a">four rays, four cells, three independent constraints</text>
+  <g stroke="#8a8a8a" stroke-width="1.2" fill="none">
+    <rect x="60" y="60" width="52" height="52"/>
+    <rect x="112" y="60" width="52" height="52"/>
+    <rect x="60" y="112" width="52" height="52"/>
+    <rect x="112" y="112" width="52" height="52"/>
+  </g>
+  <text x="80" y="92" fill="#8a8a8a">s&#8321;&#8321;</text>
+  <text x="132" y="92" fill="#8a8a8a">s&#8321;&#8322;</text>
+  <text x="80" y="144" fill="#8a8a8a">s&#8322;&#8321;</text>
+  <text x="132" y="144" fill="#8a8a8a">s&#8322;&#8322;</text>
+  <line x1="42" y1="86" x2="182" y2="86" stroke="#e0645c" stroke-width="1.6"/>
+  <line x1="42" y1="138" x2="182" y2="138" stroke="#e0645c" stroke-width="1.6"/>
+  <line x1="86" y1="44" x2="86" y2="180" stroke="#e0645c" stroke-width="1.6"/>
+  <line x1="138" y1="44" x2="138" y2="180" stroke="#e0645c" stroke-width="1.6"/>
+
+  <text x="200" y="70" fill="#8a8a8a">t&#8321; + t&#8322; = t&#8323; + t&#8324;</text>
+  <text x="200" y="86" fill="#8a8a8a">&#8212; both are the sum</text>
+  <text x="200" y="102" fill="#8a8a8a">of all four cells.</text>
+  <text x="200" y="126" fill="#e0645c">Four data, three</text>
+  <text x="200" y="142" fill="#e0645c">independent facts.</text>
+
+  <text x="34" y="206" fill="#8a8a8a">the invisible model:</text>
+  <g stroke="#8a8a8a" stroke-width="1.2">
+    <rect x="60" y="216" width="34" height="34" fill="#4a90d9" opacity="0.5"/>
+    <rect x="94" y="216" width="34" height="34" fill="#e0645c" opacity="0.5"/>
+    <rect x="60" y="250" width="34" height="34" fill="#e0645c" opacity="0.5"/>
+    <rect x="94" y="250" width="34" height="34" fill="#4a90d9" opacity="0.5"/>
+  </g>
+  <text x="72" y="238" fill="#8a8a8a">+1</text>
+  <text x="104" y="238" fill="#8a8a8a">&#8722;1</text>
+  <text x="70" y="272" fill="#8a8a8a">&#8722;1</text>
+  <text x="106" y="272" fill="#8a8a8a">+1</text>
+  <text x="142" y="240" fill="#8a8a8a">Every ray crosses one +1 and one &#8722;1,</text>
+  <text x="142" y="256" fill="#8a8a8a">so every travel time is unchanged.</text>
+  <text x="142" y="276" fill="#e0645c">Add any amount of this and no data move.</text>
+
+  <text x="420" y="44" fill="#8a8a8a">the trade-off you cannot escape</text>
+  <line x1="440" y1="230" x2="670" y2="230" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="440" y1="230" x2="440" y2="66" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="520" y="250" fill="#8a8a8a">model roughness &#8594;</text>
+  <text x="392" y="76" fill="#8a8a8a">misfit</text>
+
+  <path d="M 456,80 Q 470,160 500,196 Q 540,220 600,224 Q 640,226 668,227" fill="none" stroke="#4a90d9" stroke-width="2.6"/>
+  <circle cx="500" cy="196" r="5" fill="#e0645c"/>
+  <text x="508" y="174" fill="#e0645c">the elbow: as much structure</text>
+  <text x="508" y="188" fill="#e0645c">as the data actually support</text>
+
+  <text x="446" y="104" fill="#8a8a8a">heavy damping:</text>
+  <text x="446" y="118" fill="#8a8a8a">smooth, wrong</text>
+  <text x="588" y="204" fill="#8a8a8a">no damping: fits</text>
+  <text x="588" y="218" fill="#8a8a8a">the noise too</text>
+
+  <text x="30" y="314" fill="#8a8a8a">Publish the resolution test, or the picture is an assertion rather than a measurement.</text>
+</svg>

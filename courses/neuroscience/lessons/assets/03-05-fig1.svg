@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 716" width="820" height="716" role="img" aria-label="Panel a: a block diagram of the motor control architecture. Panel b: the basal ganglia direct and indirect pathways showing selection by disinhibition.">
+<rect width="820" height="716" fill="#ffffff"/>
+<defs>
+<marker id="exc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5.5" markerHeight="5.5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1a6fb5"/></marker>
+<marker id="inh" viewBox="0 0 10 10" refX="3" refY="5" markerWidth="6" markerHeight="6" orient="auto"><rect x="0.5" y="0.5" width="2.6" height="9" fill="#d1495b"/></marker>
+<marker id="blk" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5.5" markerHeight="5.5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker>
+<marker id="red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5.5" markerHeight="5.5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+</defs>
+<g font-family="Helvetica,Arial,sans-serif" fill="#111111">
+
+<text x="20" y="26" font-size="12.5" font-weight="bold">(a) The control architecture &#8212; the delay problem, and the forward-model fix</text>
+
+<rect x="100" y="72" width="130" height="52" rx="4" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1.5"/>
+<text x="165" y="93" font-size="10.5" font-weight="bold" text-anchor="middle">Inverse model</text>
+<text x="165" y="109" font-size="10" text-anchor="middle">(the controller)</text>
+
+<rect x="295" y="72" width="130" height="52" rx="4" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1.5"/>
+<text x="360" y="93" font-size="10.5" font-weight="bold" text-anchor="middle">Plant</text>
+<text x="360" y="109" font-size="10" text-anchor="middle">limb + muscle</text>
+
+<rect x="300" y="185" width="150" height="46" rx="4" fill="#eef5ef" stroke="#2e8b57" stroke-width="1.5"/>
+<text x="375" y="203" font-size="10.5" font-weight="bold" text-anchor="middle">Forward model</text>
+<text x="375" y="219" font-size="10" text-anchor="middle">command &#8594; outcome</text>
+
+<rect x="560" y="185" width="200" height="46" rx="4" fill="#fdeff1" stroke="#d1495b" stroke-width="1.5"/>
+<text x="660" y="203" font-size="10.5" font-weight="bold" text-anchor="middle">Sensory delay</text>
+<text x="660" y="219" font-size="10" text-anchor="middle">50 to 150 ms of dead time</text>
+
+<rect x="290" y="255" width="240" height="50" rx="4" fill="#eef2f8" stroke="#1a6fb5" stroke-width="1.5"/>
+<text x="410" y="274" font-size="10.5" font-weight="bold" text-anchor="middle">State estimator</text>
+<text x="410" y="291" font-size="9.5" text-anchor="middle">(1 - K) &#215; prediction + K &#215; delayed y</text>
+
+<text x="22" y="94" font-size="10" font-weight="bold">desired</text>
+<text x="22" y="107" font-size="10" font-weight="bold">state x*</text>
+<line x1="72" y1="98" x2="97" y2="98" stroke="#333333" stroke-width="2" marker-end="url(#blk)"/>
+<line x1="230" y1="98" x2="292" y2="98" stroke="#333333" stroke-width="2" marker-end="url(#blk)"/>
+<text x="252" y="90" font-size="10" font-weight="bold">command u</text>
+<circle cx="262" cy="98" r="3.2" fill="#333333"/>
+<polyline points="425,98 660,98 660,182" fill="none" stroke="#333333" stroke-width="2" marker-end="url(#blk)"/>
+<text x="470" y="90" font-size="10">true state x</text>
+<polyline points="262,98 262,208 297,208" fill="none" stroke="#2e8b57" stroke-width="2" marker-end="url(#exc)"/>
+<text x="168" y="204" font-size="9.5" fill="#2e8b57">efference copy</text>
+<line x1="375" y1="231" x2="375" y2="252" stroke="#2e8b57" stroke-width="2" marker-end="url(#exc)"/>
+<text x="388" y="247" font-size="9.5" fill="#2e8b57">prediction, available now</text>
+<polyline points="660,231 660,280 533,280" fill="none" stroke="#d1495b" stroke-width="2" marker-end="url(#red)"/>
+<text x="548" y="272" font-size="9.5" fill="#d1495b">delayed measurement y</text>
+<polyline points="290,280 166,280 166,127" fill="none" stroke="#1a6fb5" stroke-width="2" marker-end="url(#exc)"/>
+<text x="180" y="322" font-size="9.5" fill="#1a6fb5">best estimate of the present</text>
+
+<text x="20" y="345" font-size="9.5" fill="#d1495b">Feedback alone: the controller only learns about an error long after it happened, so raising the gain makes the loop ring.</text>
+<text x="20" y="359" font-size="9.5" fill="#2e8b57">Forward model: the command already sent predicts where the limb is now &#8212; a prediction with zero delay, fused with the stale measurement.</text>
+
+<line x1="20" y1="374" x2="800" y2="374" stroke="#cccccc" stroke-width="1"/>
+
+<text x="20" y="396" font-size="12.5" font-weight="bold">(b) Basal ganglia &#8212; selection is release from inhibition</text>
+
+<rect x="320" y="412" width="160" height="34" rx="4" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1.5"/>
+<text x="400" y="434" font-size="10.5" font-weight="bold" text-anchor="middle">Cortex</text>
+
+<rect x="170" y="476" width="130" height="34" rx="4" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1.5"/>
+<text x="235" y="498" font-size="10.5" text-anchor="middle">Striatum D1</text>
+
+<rect x="540" y="476" width="130" height="34" rx="4" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1.5"/>
+<text x="605" y="498" font-size="10.5" text-anchor="middle">Striatum D2</text>
+
+<rect x="540" y="528" width="130" height="30" rx="4" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1.5"/>
+<text x="605" y="548" font-size="10.5" text-anchor="middle">GPe</text>
+
+<rect x="540" y="580" width="130" height="30" rx="4" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1.5"/>
+<text x="605" y="600" font-size="10.5" text-anchor="middle">STN</text>
+
+<rect x="320" y="576" width="160" height="42" rx="4" fill="#fdeff1" stroke="#d1495b" stroke-width="1.5"/>
+<text x="400" y="593" font-size="10.5" font-weight="bold" text-anchor="middle">GPi / SNr</text>
+<text x="400" y="609" font-size="9.5" text-anchor="middle">tonically firing, GABA</text>
+
+<rect x="320" y="646" width="160" height="32" rx="4" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1.5"/>
+<text x="400" y="667" font-size="10.5" text-anchor="middle">Thalamus</text>
+
+<polyline points="360,446 360,462 235,462 235,473" fill="none" stroke="#1a6fb5" stroke-width="2" marker-end="url(#exc)"/>
+<polyline points="440,446 440,462 605,462 605,473" fill="none" stroke="#1a6fb5" stroke-width="2" marker-end="url(#exc)"/>
+<polyline points="235,510 235,564 400,564 400,573" fill="none" stroke="#d1495b" stroke-width="2" marker-end="url(#inh)"/>
+<line x1="605" y1="510" x2="605" y2="525" stroke="#d1495b" stroke-width="2" marker-end="url(#inh)"/>
+<line x1="605" y1="558" x2="605" y2="577" stroke="#d1495b" stroke-width="2" marker-end="url(#inh)"/>
+<line x1="538" y1="595" x2="484" y2="595" stroke="#1a6fb5" stroke-width="2" marker-end="url(#exc)"/>
+<line x1="400" y1="618" x2="400" y2="643" stroke="#d1495b" stroke-width="3" marker-end="url(#inh)"/>
+<polyline points="320,662 130,662 130,429 317,429" fill="none" stroke="#1a6fb5" stroke-width="2" marker-end="url(#exc)"/>
+
+<text x="150" y="546" font-size="10" font-weight="bold" fill="#2e8b57">GO (direct)</text>
+<text x="686" y="498" font-size="10" font-weight="bold" fill="#d1495b">NO-GO</text>
+<text x="686" y="512" font-size="10" font-weight="bold" fill="#d1495b">(indirect)</text>
+<text x="412" y="636" font-size="9.5">tonic inhibition</text>
+<text x="492" y="666" font-size="9.5" fill="#2e8b57">lift it and the action runs</text>
+<text x="150" y="676" font-size="9.5">closed loop</text>
+
+<text x="20" y="700" font-size="9.5">Dopamine from SNc excites D1 and inhibits D2, so both routes tilt toward moving; lose it and NO-GO wins.</text>
+<text x="20" y="713" font-size="9.5">Blue arrowhead = excitatory, red bar = inhibitory. The output nucleus is always on, so choosing an action means switching it off.</text>
+
+</g>
+</svg>

@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 590" width="620" height="590" role="img" aria-label="Panel a: membrane potential plotted against the sodium-to-potassium permeability ratio on a logarithmic axis, rising smoothly from the potassium equilibrium potential at low ratios to the sodium equilibrium potential at high ratios, with the resting point and the action-potential peak marked on the same curve. Panel b: bar chart of the resting currents showing a large inward sodium leak, a smaller outward potassium leak, and a small outward pump current that together sum to zero.">
+  <rect width="620" height="590" fill="#ffffff"/>
+
+  <text x="20" y="30" font-family="Helvetica,Arial,sans-serif" font-size="15" font-weight="bold" fill="#111">(a) Rest and the spike peak are two points on one curve</text>
+
+  <line x1="90" y1="55" x2="90" y2="285" stroke="#333" stroke-width="1.4"/>
+  <line x1="90" y1="285" x2="578" y2="285" stroke="#333" stroke-width="1.4"/>
+
+  <line x1="90" y1="270.1" x2="578" y2="270.1" stroke="#1a6fb5" stroke-width="1.2" stroke-dasharray="6,4"/>
+  <line x1="90" y1="67.7" x2="578" y2="67.7" stroke="#d1495b" stroke-width="1.2" stroke-dasharray="6,4"/>
+  <text x="478" y="264" font-family="Helvetica,Arial,sans-serif" font-size="13" fill="#1a6fb5">E<tspan font-size="10" dy="4">K</tspan><tspan dy="-4"> = &#8722;89 mV</tspan></text>
+  <text x="300" y="62" font-family="Helvetica,Arial,sans-serif" font-size="13" fill="#d1495b">E<tspan font-size="10" dy="4">Na</tspan><tspan dy="-4"> = +61 mV</tspan></text>
+
+  <line x1="84" y1="270.1" x2="90" y2="270.1" stroke="#333" stroke-width="1.2"/>
+  <line x1="84" y1="217.4" x2="90" y2="217.4" stroke="#333" stroke-width="1.2"/>
+  <line x1="84" y1="149.7" x2="90" y2="149.7" stroke="#333" stroke-width="1.2"/>
+  <line x1="84" y1="67.7" x2="90" y2="67.7" stroke="#333" stroke-width="1.2"/>
+  <text x="79" y="274" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#333">&#8722;89</text>
+  <text x="79" y="221" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#333">&#8722;50</text>
+  <text x="79" y="154" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#333">0</text>
+  <text x="79" y="72" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#333">+61</text>
+  <text x="34" y="180" font-family="Helvetica,Arial,sans-serif" font-size="13" fill="#111" transform="rotate(-90 34 180)">V<tspan font-size="10" dy="4">m</tspan><tspan dy="-4"> (mV)</tspan></text>
+
+  <line x1="90" y1="285" x2="90" y2="291" stroke="#333" stroke-width="1.2"/>
+  <line x1="186" y1="285" x2="186" y2="291" stroke="#333" stroke-width="1.2"/>
+  <line x1="282" y1="285" x2="282" y2="291" stroke="#333" stroke-width="1.2"/>
+  <line x1="378" y1="285" x2="378" y2="291" stroke="#333" stroke-width="1.2"/>
+  <line x1="474" y1="285" x2="474" y2="291" stroke="#333" stroke-width="1.2"/>
+  <line x1="570" y1="285" x2="570" y2="291" stroke="#333" stroke-width="1.2"/>
+  <text x="90" y="305" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#333">0.001</text>
+  <text x="186" y="305" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#333">0.01</text>
+  <text x="282" y="305" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#333">0.1</text>
+  <text x="378" y="305" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#333">1</text>
+  <text x="474" y="305" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#333">10</text>
+  <text x="570" y="305" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#333">100</text>
+  <text x="334" y="326" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="13" fill="#111">permeability ratio  P<tspan font-size="10" dy="4">Na</tspan><tspan dy="-4">/P</tspan><tspan font-size="10" dy="4">K</tspan><tspan dy="-4">   (log scale)</tspan></text>
+
+  <polyline points="90,269.0 138,266.9 186,260.9 234,246.6 282,221.3 330,187.5 378,150.9 426,117.0 474,91.4 522,77.1 570,70.9" fill="none" stroke="#111" stroke-width="2.6"/>
+
+  <circle cx="243.8" cy="242.4" r="5" fill="#1a6fb5" stroke="#ffffff" stroke-width="1.4"/>
+  <line x1="185" y1="226" x2="238" y2="240" stroke="#1a6fb5" stroke-width="1.1"/>
+  <text x="102" y="206" font-family="Helvetica,Arial,sans-serif" font-size="12.5" fill="#1a6fb5">rest: ratio 0.04</text>
+  <text x="102" y="222" font-family="Helvetica,Arial,sans-serif" font-size="12.5" fill="#1a6fb5">V<tspan font-size="10" dy="4">m</tspan><tspan dy="-4"> &#8776; &#8722;68 mV</tspan></text>
+
+  <circle cx="474" cy="91.4" r="5" fill="#d1495b" stroke="#ffffff" stroke-width="1.4"/>
+  <line x1="430" y1="236" x2="470" y2="100" stroke="#d1495b" stroke-width="1.1"/>
+  <text x="300" y="240" font-family="Helvetica,Arial,sans-serif" font-size="12.5" fill="#d1495b">spike peak: ratio &#8776; 10</text>
+  <text x="300" y="256" font-family="Helvetica,Arial,sans-serif" font-size="12.5" fill="#d1495b">V<tspan font-size="10" dy="4">m</tspan><tspan dy="-4"> &#8776; +43 mV</tspan></text>
+
+  <line x1="20" y1="348" x2="600" y2="348" stroke="#8fa8c0" stroke-width="1"/>
+  <text x="20" y="374" font-family="Helvetica,Arial,sans-serif" font-size="15" font-weight="bold" fill="#111">(b) A steady state, not an equilibrium</text>
+
+  <line x1="100" y1="464" x2="545" y2="464" stroke="#333" stroke-width="1.4"/>
+  <text x="94" y="468" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#333">0</text>
+  <text x="104" y="412" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#777">outward &#8593;</text>
+  <text x="104" y="556" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#777">inward &#8595;</text>
+
+  <rect x="140" y="464" width="70" height="72" fill="#d1495b"/>
+  <rect x="270" y="416" width="70" height="48" fill="#1a6fb5"/>
+  <rect x="400" y="440" width="70" height="24" fill="#2e8b57"/>
+
+  <text x="175" y="436" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="12.5" fill="#d1495b">Na<tspan font-size="10" dy="-4">+</tspan><tspan dy="4"> leak in</tspan></text>
+  <text x="175" y="452" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="12.5" fill="#d1495b">3 units</text>
+  <text x="305" y="394" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="12.5" fill="#1a6fb5">K<tspan font-size="10" dy="-4">+</tspan><tspan dy="4"> leak out</tspan></text>
+  <text x="305" y="410" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="12.5" fill="#1a6fb5">2 units</text>
+  <text x="435" y="418" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="12.5" fill="#2e8b57">pump</text>
+  <text x="435" y="434" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="12.5" fill="#2e8b57">1 unit out</text>
+
+  <text x="252" y="506" font-family="Helvetica,Arial,sans-serif" font-size="12.5" fill="#111">&#931; I = 0, yet not one current is zero.</text>
+  <text x="252" y="524" font-family="Helvetica,Arial,sans-serif" font-size="12.5" fill="#111">The gradients leak away continuously;</text>
+  <text x="252" y="542" font-family="Helvetica,Arial,sans-serif" font-size="12.5" fill="#111">the pump pays for them forever.</text>
+  <text x="252" y="566" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#555">Pump: 3 Na<tspan font-size="9.5" dy="-4">+</tspan><tspan dy="4"> out, 2 K</tspan><tspan font-size="9.5" dy="-4">+</tspan><tspan dy="4"> in, per ATP &#8594; net 1 charge out.</tspan></text>
+</svg>

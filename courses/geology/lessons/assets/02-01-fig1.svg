@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 700" width="820" height="700" role="img" aria-label="Two panels. Top: a Pangaea reconstruction with the southern continents clustered around Africa, a green band showing the Glossopteris plant range sweeping continuously across South America, Africa, Antarctica, India and Australia, a coral band showing the Mesosaurus range crossing the South America to Africa join, and a rust band tracing one continuous mountain belt from North America into northern Europe. Bottom: a mid-ocean ridge cross-section with black and white magnetic polarity stripes drawn symmetrically about the ridge axis, a sediment wedge that thins to zero at the axis and thickens outward, crustal ages labelled identically on both flanks, and mantle upwelling arrows beneath the axis.">
+<rect width="820" height="700" fill="#ffffff"/>
+
+<text x="30" y="24" font-family="Helvetica,Arial,sans-serif" font-size="15" font-weight="bold" fill="#111">(a) Wegener's case: Pangaea, and the things that cross the joins</text>
+
+<rect x="30" y="36" width="472" height="300" fill="#e6eff6" stroke="#8fa8c0" stroke-width="1"/>
+<text x="44" y="54" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#5a7b96">PANTHALASSA</text>
+<text x="404" y="200" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#5a7b96">TETHYS</text>
+
+<g stroke="#333" stroke-width="1.4" fill="#d8c9a3">
+<polygon points="55,80 150,68 186,102 176,148 140,168 92,158 50,118"/>
+<polygon points="204,68 330,60 420,78 440,128 390,158 300,153 216,128 198,98"/>
+<polygon points="200,158 280,152 300,196 285,256 245,286 215,262 195,208"/>
+<polygon points="120,172 196,165 200,212 180,262 150,277 128,237 115,197"/>
+<polygon points="298,201 345,199 350,246 320,261 296,236"/>
+<polygon points="200,282 300,277 330,308 240,320 190,308"/>
+<polygon points="339,264 409,261 418,296 364,306 336,292"/>
+</g>
+
+<g opacity="0.5" fill="none" stroke="#2e8b57" stroke-width="23" stroke-linecap="round" stroke-linejoin="round">
+<path d="M145,218 L188,246 L240,272 L275,296 L330,300 L390,282"/>
+<path d="M275,296 L305,250 L330,220"/>
+</g>
+<g opacity="0.55" fill="none" stroke="#d1495b" stroke-width="13" stroke-linecap="round">
+<path d="M152,206 L200,198 L244,206"/>
+</g>
+<g opacity="0.75" fill="none" stroke="#b5651d" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+<path d="M74,120 L128,104 L182,96 L250,82 L330,74"/>
+</g>
+
+<g font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#111" font-weight="bold">
+<text x="86" y="140">N. AMERICA</text>
+<text x="300" y="108">EURASIA</text>
+<text x="222" y="180">AFRICA</text>
+<text x="126" y="196">S. AMER.</text>
+<text x="304" y="228">INDIA</text>
+<text x="212" y="302">ANTARCTICA</text>
+<text x="356" y="286">AUS</text>
+</g>
+
+<g font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#111">
+<text x="516" y="52" font-weight="bold">What crosses the joins</text>
+<rect x="516" y="62" width="26" height="11" fill="#2e8b57" opacity="0.5"/>
+<text x="550" y="72">Glossopteris flora (Permian seed</text>
+<text x="550" y="86">fern, heavy seeds, no ocean rafting)</text>
+<rect x="516" y="96" width="26" height="11" fill="#d1495b" opacity="0.55"/>
+<text x="550" y="106">Mesosaurus (freshwater reptile,</text>
+<text x="550" y="120">could not cross an ocean)</text>
+<rect x="516" y="130" width="26" height="11" fill="#b5651d" opacity="0.75"/>
+<text x="550" y="140">One continuous mountain belt:</text>
+<text x="550" y="154">Appalachians into the Caledonides,</text>
+<text x="550" y="168">same ages, same structural grain</text>
+<text x="516" y="196" font-weight="bold">Also matching across the joins</text>
+<text x="516" y="212">Permian glacial striations radiating</text>
+<text x="516" y="226">outward from a single ice centre</text>
+<text x="516" y="240">near southern Africa &#8212; and coal</text>
+<text x="516" y="254">swamps in Antarctica.</text>
+<text x="516" y="278" font-weight="bold">The weakness</text>
+<text x="516" y="294">All correlation. No mechanism that</text>
+<text x="516" y="308">survived a strength calculation, so</text>
+<text x="516" y="322">for fifty years it did not persuade.</text>
+</g>
+<text x="30" y="352" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#333">The fit is made at the 1000 m shelf edge, not at the coastline; coastlines are erosional accidents.</text>
+
+<text x="30" y="382" font-family="Helvetica,Arial,sans-serif" font-size="15" font-weight="bold" fill="#111">(b) What settled it: the ridge cross-section, and why symmetry is decisive</text>
+
+<rect x="30" y="392" width="775" height="246" fill="#e6eff6" stroke="#8fa8c0" stroke-width="1"/>
+
+<path d="M40,586 L150,581 L260,570 L340,554 L410,542 L480,554 L560,570 L670,581 L780,586 L780,628 L40,628 Z" fill="#9fb3a8" stroke="#333" stroke-width="1"/>
+
+<defs>
+<clipPath id="crustclip">
+<path d="M40,550 L150,545 L260,534 L340,518 L410,506 L480,518 L560,534 L670,545 L780,550 L780,586 L670,581 L560,570 L480,554 L410,542 L340,554 L260,570 L150,581 L40,586 Z"/>
+</clipPath>
+</defs>
+<g clip-path="url(#crustclip)">
+<rect x="40" y="500" width="740" height="95" fill="#ffffff"/>
+<g fill="#111">
+<rect x="365" y="500" width="90" height="95"/>
+<rect x="467.4" y="500" width="4.7" height="95"/>
+<rect x="347.9" y="500" width="4.7" height="95"/>
+<rect x="513.4" y="500" width="9.7" height="95"/>
+<rect x="296.9" y="500" width="9.7" height="95"/>
+<rect x="559.6" y="500" width="59" height="95"/>
+<rect x="201.4" y="500" width="59" height="95"/>
+</g>
+</g>
+<path d="M40,550 L150,545 L260,534 L340,518 L410,506 L480,518 L560,534 L670,545 L780,550 L780,586 L670,581 L560,570 L480,554 L410,542 L340,554 L260,570 L150,581 L40,586 Z" fill="none" stroke="#111" stroke-width="1.6"/>
+
+<path d="M410,506 L480,518 L560,534 L670,545 L780,550 L780,534 L670,534 L560,527 L480,515 Z" fill="#d8c9a3" stroke="#333" stroke-width="1"/>
+<path d="M410,506 L340,518 L260,534 L150,545 L40,550 L40,534 L150,534 L260,527 L340,515 Z" fill="#d8c9a3" stroke="#333" stroke-width="1"/>
+
+<line x1="410" y1="470" x2="410" y2="606" stroke="#d1495b" stroke-width="1.6" stroke-dasharray="6,4"/>
+<text x="410" y="464" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#d1495b" font-weight="bold">ridge axis: the mirror line</text>
+
+<g stroke="#1a6fb5" stroke-width="2" fill="none">
+<path d="M410,604 L410,566"/>
+<path d="M404,574 L410,564 L416,574"/>
+<path d="M396,566 L370,548"/>
+<path d="M376,548 L368,547 L370,555"/>
+<path d="M424,566 L450,548"/>
+<path d="M444,548 L452,547 L450,555"/>
+</g>
+<text x="424" y="598" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#1a6fb5">mantle rises and melts here</text>
+
+<g stroke="#111" stroke-width="1.6" fill="none">
+<path d="M470,494 L534,494"/><path d="M528,490 L536,494 L528,498"/>
+<path d="M350,494 L286,494"/><path d="M292,490 L284,494 L292,498"/>
+</g>
+
+<g font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#111" text-anchor="middle">
+<text x="455" y="486">0.78</text>
+<text x="560" y="486">2.58</text>
+<text x="619" y="486">3.60</text>
+<text x="752" y="486">5.89</text>
+<text x="365" y="486">0.78</text>
+<text x="260" y="486">2.58</text>
+<text x="201" y="486">3.60</text>
+<text x="70" y="486">5.89</text>
+</g>
+<g stroke="#333" stroke-width="0.8">
+<line x1="455" y1="490" x2="455" y2="514"/>
+<line x1="560" y1="490" x2="560" y2="530"/>
+<line x1="619" y1="490" x2="619" y2="537"/>
+<line x1="752" y1="490" x2="752" y2="546"/>
+<line x1="365" y1="490" x2="365" y2="514"/>
+<line x1="260" y1="490" x2="260" y2="530"/>
+<line x1="201" y1="490" x2="201" y2="537"/>
+<line x1="70" y1="490" x2="70" y2="546"/>
+</g>
+
+<g stroke="#333" stroke-width="0.9">
+<line x1="70" y1="614" x2="750" y2="614"/>
+<line x1="70" y1="614" x2="70" y2="620"/>
+<line x1="183.4" y1="614" x2="183.4" y2="620"/>
+<line x1="296.7" y1="614" x2="296.7" y2="620"/>
+<line x1="410" y1="614" x2="410" y2="620"/>
+<line x1="523.4" y1="614" x2="523.4" y2="620"/>
+<line x1="636.7" y1="614" x2="636.7" y2="620"/>
+<line x1="750" y1="614" x2="750" y2="620"/>
+</g>
+<g font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333" text-anchor="middle">
+<text x="70" y="631">150</text>
+<text x="183.4" y="631">100</text>
+<text x="296.7" y="631">50</text>
+<text x="410" y="631">0</text>
+<text x="523.4" y="631">50</text>
+<text x="636.7" y="631">100</text>
+<text x="750" y="631">150</text>
+</g>
+
+<g font-family="Helvetica,Arial,sans-serif" font-size="11.5" fill="#111">
+<rect x="30" y="650" width="20" height="10" fill="#111"/>
+<text x="56" y="660">normal polarity</text>
+<rect x="165" y="650" width="20" height="10" fill="#ffffff" stroke="#111" stroke-width="1"/>
+<text x="191" y="660">reversed polarity</text>
+<rect x="310" y="650" width="20" height="10" fill="#d8c9a3" stroke="#333" stroke-width="1"/>
+<text x="336" y="660">pelagic sediment, zero at the axis and thickening outward</text>
+<text x="30" y="684">Same basalt throughout; only the frozen-in field direction differs. Distances in km.</text>
+</g>
+</svg>

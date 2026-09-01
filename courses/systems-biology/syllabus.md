@@ -6,6 +6,22 @@
 
 Learn to treat the cell as a network of interacting parts and to turn that picture into equations you can analyze: reaction kinetics, gene-regulatory circuits, and metabolic maps written as ODEs and constraints, then read for their dynamics — steady states, switches, oscillations, and noise. You come away able to look at a wiring diagram and predict its behavior, and to build a minimal model that explains a phenotype. We deliberately skip statistical-inference machinery (parameter fitting, network reconstruction) and all wet-lab methods — this is the modeling half of the field.
 
+## Scope discipline
+
+This course sits on top of four already built, and overlaps all of them. Each topic
+has **one owner**; a ceded topic is used freely here, cited rather than re-derived.
+See the reference card's "Assumed, not taught here" table for pointers.
+
+| Topic | Owner | Systems biology's role |
+|---|---|---|
+| Mass action's physical justification | [`biophysics`](../biophysics/syllabus.md) | 1.2 owns the systematic translation of a reaction list into ODEs, and the stoichiometric matrix |
+| Michaelis–Menten as **enzymology**; enzyme inhibition | [`biophysics`](../biophysics/syllabus.md), [`biochemistry`](../biochemistry/syllabus.md), [`physical-chemistry`](../physical-chemistry/syllabus.md) | 1.3 owns the **approximation** — QSSA as the timescale-separation exemplar, its validity condition, and why QSSA and rapid equilibrium are indistinguishable from a fitted hyperbola |
+| Cooperativity and allostery as **molecular mechanism** | [`biophysics`](../biophysics/syllabus.md), [`biochemistry`](../biochemistry/syllabus.md) | 1.4 owns the Hill function as an **engineering primitive** — the input function Module 2 composes |
+| Phase planes, Jacobian, saddle-node, pitchfork, Hopf, limit cycles | [`dynamical-systems`](../dynamical-systems/syllabus.md) | 3.1–3.4 apply the machinery to circuits in the positive quadrant; they do not re-derive it |
+| Feedback, bistability, hysteresis and adaptation — the **qualitative** cell-biology pass | [`molecular-cell-biology`](../molecular-cell-biology/syllabus.md) 2.4 | Module 2 and 3 own the **quantitative** treatment: response times, motif over-representation, delay derivations, bifurcation conditions, integral-control theorems |
+| Kinase cascades and scaffolds | [`molecular-cell-biology`](../molecular-cell-biology/syllabus.md) 2.3 | 4.4 owns the covalent-modification cycle and **zero-order ultrasensitivity** |
+| **The network** — input functions, motifs and their statistics, circuit dynamics, stoichiometric and constraint-based models, stochastic gene expression, pattern formation | **this course** | — |
+
 ## Dangerous Checklist
 
 When you finish, you can:
@@ -85,3 +101,18 @@ Two more layers of the cell — the metabolic map and the fact that molecule cou
 - Brian Ingalls, *Mathematical Modeling in Systems Biology* — mass action, MM kinetics, and dynamical analysis conventions.
 - Strogatz, *Nonlinear Dynamics and Chaos* — bifurcation and phase-plane language, shared with `dynamical-systems`.
 - Palsson, *Systems Biology: Constraint-based Reconstruction and Analysis* — stoichiometric modeling and FBA conventions.
+
+---
+
+*Scope note (2026-08-27):* built alongside
+[`immunology`](../immunology/syllabus.md) as the last unblocked pair in Life
+Sciences. A grep of the whole `courses/` tree before writing found Michaelis–Menten
+already owned **three times over** and feedback/bistability/adaptation already given
+a qualitative pass by `molecular-cell-biology` 2.4. Rather than trim lessons, each
+was re-scoped around what a *modeller* needs and the prior treatment cited: 1.3
+became the QSSA lesson rather than an enzymology lesson, 1.4 became the input-function
+lesson rather than an allostery lesson, and Modules 2–3 were held to adding real
+machinery — response-time results, motif Z-scores against randomized networks, the
+FFL delay derivation, the toggle's critical parameter, the integral-control theorem,
+the repressilator's Hopf threshold. Zero-order ultrasensitivity was deferred from 1.4
+to 4.4 so it lands where it pays off. Lesson count unchanged at 18.

@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 900" width="640" height="900" role="img" aria-label="Nephron layout with two capillary beds in series, the Starling pressures driving glomerular filtration with oncotic pressure rising along the capillary, and clearance ratios for glucose, urea, inulin, creatinine and PAH">
+  <rect width="640" height="900" fill="#ffffff"/>
+
+  <defs>
+    <marker id="aRed" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/>
+    </marker>
+    <marker id="aBlue" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1a6fb5"/>
+    </marker>
+    <marker id="aGreen" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2e8b57"/>
+    </marker>
+    <marker id="aInk" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#333"/>
+    </marker>
+  </defs>
+
+  <text x="16" y="30" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#111">(a) Two capillary beds in series &#8212; the whole nephron in one line</text>
+  <text x="16" y="46" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333">Filter everything at the first bed; reclaim almost all of it at the second.</text>
+
+  <path d="M520,209 L520,68 L90,68 L90,102" fill="none" stroke="#2e8b57" stroke-width="1.6" stroke-dasharray="5,4" marker-end="url(#aGreen)"/>
+  <text x="250" y="60" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#2e8b57">tubuloglomerular feedback</text>
+
+  <circle cx="150" cy="110" r="40" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1.4"/>
+  <line x1="30" y1="110" x2="118" y2="110" stroke="#d1495b" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="150" cy="110" r="27" fill="#ffffff" stroke="#d1495b" stroke-width="2.2"/>
+  <path d="M130,120 Q140,96 150,116 Q160,136 170,110 Q160,96 144,102" fill="none" stroke="#d1495b" stroke-width="1.8"/>
+  <text x="20" y="132" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333">afferent arteriole</text>
+
+  <line x1="176" y1="110" x2="252" y2="110" stroke="#d1495b" stroke-width="4.5" stroke-linecap="round"/>
+  <text x="186" y="134" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333">efferent arteriole</text>
+
+  <path d="M250,110 Q268,98 286,110 T322,110 T358,110 T394,110 T430,110 T466,110 T502,110 T538,110 T574,110 L594,110" fill="none" stroke="#d1495b" stroke-width="3.2"/>
+  <text x="330" y="84" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333">peritubular capillaries</text>
+  <line x1="594" y1="110" x2="622" y2="110" stroke="#d1495b" stroke-width="2.4" marker-end="url(#aRed)"/>
+  <text x="556" y="136" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">to renal vein</text>
+
+  <line x1="162" y1="118" x2="176" y2="132" stroke="#1a6fb5" stroke-width="2.6" marker-end="url(#aBlue)"/>
+  <text x="184" y="160" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#1a6fb5">filtration</text>
+
+  <path d="M150,150 L150,225 L330,225 L330,288 L392,288 L392,225 L560,225 L560,296" fill="none" stroke="#1a6fb5" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <line x1="560" y1="296" x2="560" y2="308" stroke="#1a6fb5" stroke-width="3.5" marker-end="url(#aBlue)"/>
+  <text x="566" y="302" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#1a6fb5">urine</text>
+
+  <line x1="300" y1="216" x2="300" y2="130" stroke="#2e8b57" stroke-width="2.4" marker-end="url(#aGreen)"/>
+  <line x1="430" y1="216" x2="430" y2="130" stroke="#2e8b57" stroke-width="2.4" marker-end="url(#aGreen)"/>
+  <text x="228" y="180" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#2e8b57">reabsorption</text>
+
+  <line x1="490" y1="130" x2="490" y2="216" stroke="#d1495b" stroke-width="2.4" marker-end="url(#aRed)"/>
+  <text x="502" y="180" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#d1495b">secretion</text>
+
+  <rect x="512" y="213" width="16" height="12" fill="#2e8b57"/>
+  <text x="472" y="252" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#2e8b57">macula densa</text>
+
+  <text x="196" y="244" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333">proximal tubule</text>
+  <text x="332" y="308" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333">loop of Henle</text>
+  <text x="398" y="246" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333">distal tubule</text>
+  <text x="474" y="296" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333">collecting duct</text>
+
+  <line x1="16" y1="334" x2="624" y2="334" stroke="#dde3ea" stroke-width="1.2"/>
+
+  <text x="16" y="364" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#111">(b) Filtration is Starling forces, and they shift along the capillary</text>
+
+  <rect x="34" y="400" width="266" height="70" fill="#f5f7fa"/>
+  <text x="40" y="414" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333">capillary lumen</text>
+  <line x1="34" y1="470" x2="300" y2="470" stroke="#333" stroke-width="2"/>
+  <text x="34" y="462" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">filtration barrier</text>
+  <text x="34" y="600" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333">Bowman&#8217;s space</text>
+
+  <line x1="72" y1="470" x2="72" y2="554" stroke="#d1495b" stroke-width="4" marker-end="url(#aRed)"/>
+  <text x="44" y="574" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#d1495b">P<tspan font-size="7.5" dy="3">GC</tspan><tspan dy="-3"> = 60</tspan></text>
+
+  <line x1="150" y1="470" x2="150" y2="425" stroke="#1a6fb5" stroke-width="4" marker-end="url(#aBlue)"/>
+  <text x="126" y="416" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#1a6fb5">&#960;<tspan font-size="7.5" dy="3">GC</tspan><tspan dy="-3"> = 32</tspan></text>
+
+  <line x1="216" y1="470" x2="216" y2="445" stroke="#1a6fb5" stroke-width="4" marker-end="url(#aBlue)"/>
+  <text x="192" y="437" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#1a6fb5">P<tspan font-size="7.5" dy="3">BS</tspan><tspan dy="-3"> = 18</tspan></text>
+
+  <line x1="274" y1="470" x2="274" y2="484" stroke="#2e8b57" stroke-width="4" marker-end="url(#aGreen)"/>
+  <text x="244" y="506" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#2e8b57">NFP = 10</text>
+
+  <text x="366" y="392" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">&#960; (mmHg)</text>
+  <path d="M386,529 C430,492 500,474 600,468 L600,423 L386,423 Z" fill="#1a6fb5" fill-opacity="0.12"/>
+  <line x1="386" y1="590" x2="606" y2="590" stroke="#333" stroke-width="1.5"/>
+  <line x1="386" y1="590" x2="386" y2="400" stroke="#333" stroke-width="1.5"/>
+  <line x1="386" y1="423" x2="600" y2="423" stroke="#333" stroke-width="1.4" stroke-dasharray="5,4"/>
+  <text x="392" y="416" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">P<tspan font-size="7" dy="3">GC</tspan><tspan dy="-3"> &#8722; P</tspan><tspan font-size="7" dy="3">BS</tspan><tspan dy="-3"> = 42</tspan></text>
+  <path d="M386,529 C430,492 500,474 600,468" fill="none" stroke="#1a6fb5" stroke-width="2.6"/>
+  <text x="604" y="464" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#1a6fb5">&#960;</text>
+  <text x="424" y="450" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#1a6fb5">NFP shrinks &#8594;</text>
+  <text x="366" y="533" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">28</text>
+  <text x="366" y="472" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">36</text>
+  <text x="374" y="606" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">afferent end</text>
+  <text x="534" y="606" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">efferent end</text>
+
+  <text x="16" y="632" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#111">NFP = 60 &#8722; 18 &#8722; 32 = 10 mmHg&#160;&#160;&#160;so&#160;&#160;GFR = K<tspan font-size="8" dy="3">f</tspan><tspan dy="-3"> &#215; NFP = 12.5 &#215; 10 = 125 mL/min</tspan></text>
+
+  <line x1="16" y1="652" x2="624" y2="652" stroke="#dde3ea" stroke-width="1.2"/>
+
+  <text x="16" y="680" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#111">(c) The clearance ratio reads off the tubule&#8217;s verdict</text>
+
+  <text x="156" y="700" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#2e8b57">&#8592; net reabsorbed</text>
+  <text x="246" y="700" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#d1495b">net secreted &#8594;</text>
+
+  <rect x="150" y="710" width="4" height="20" fill="#2e8b57"/>
+  <text x="142" y="725" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333">glucose</text>
+  <text x="162" y="725" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">&#8776; 0</text>
+
+  <rect x="150" y="740" width="43" height="20" fill="#2e8b57"/>
+  <text x="142" y="755" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333">urea</text>
+  <text x="201" y="755" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">0.5</text>
+
+  <rect x="150" y="770" width="87" height="20" fill="#333"/>
+  <text x="142" y="785" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333">inulin</text>
+  <text x="245" y="785" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">1.0</text>
+
+  <rect x="150" y="800" width="100" height="20" fill="#d1495b"/>
+  <text x="142" y="815" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333">creatinine</text>
+  <text x="258" y="815" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">1.15</text>
+
+  <rect x="150" y="830" width="433" height="20" fill="#d1495b"/>
+  <text x="142" y="845" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333">PAH</text>
+  <text x="590" y="845" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">5.0</text>
+
+  <line x1="150" y1="704" x2="150" y2="858" stroke="#333" stroke-width="1.5"/>
+  <line x1="237" y1="704" x2="237" y2="858" stroke="#333" stroke-width="1.3" stroke-dasharray="5,4"/>
+  <line x1="150" y1="858" x2="600" y2="858" stroke="#333" stroke-width="1.5"/>
+  <text x="147" y="872" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">0</text>
+  <text x="234" y="872" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">1</text>
+  <text x="320" y="872" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">2</text>
+  <text x="407" y="872" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">3</text>
+  <text x="493" y="872" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">4</text>
+  <text x="580" y="872" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">5</text>
+  <text x="290" y="890" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">clearance ratio C<tspan font-size="7.5" dy="3">X</tspan><tspan dy="-3"> / C</tspan><tspan font-size="7.5" dy="3">inulin</tspan></text>
+</svg>

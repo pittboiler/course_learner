@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 700" width="820" height="700" role="img" aria-label="A dichotomous mineral identification key that branches first on luster, then on hardness bracket, then on the number and angle of cleavage planes, ending in the common rock-forming and ore minerals; beneath it an inset compares pyroxene and amphibole chain cross-sections showing why one cleaves near 87 degrees and the other near 56 and 124 degrees.">
+<rect width="820" height="700" fill="#ffffff"/>
+<g font-family="Helvetica,Arial,sans-serif">
+
+<text x="12" y="18" font-size="11.5" font-weight="bold" fill="#111">A KEY IS AN ORDERING PROBLEM: run the test that splits the population fastest, first.</text>
+
+<rect x="330" y="30" width="160" height="30" rx="4" fill="#1a6fb5"/>
+<text x="410" y="50" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">1. LUSTER?</text>
+
+<path d="M 410 60 L 410 76 L 170 76 L 170 92" stroke="#333" stroke-width="1.4" fill="none"/>
+<path d="M 410 60 L 410 76 L 620 76 L 620 92" stroke="#333" stroke-width="1.4" fill="none"/>
+
+<rect x="70" y="92" width="200" height="28" rx="3" fill="#f5f7fa" stroke="#1a6fb5" stroke-width="1.4"/>
+<text x="170" y="111" font-size="12" font-weight="bold" fill="#111" text-anchor="middle">METALLIC &#8212; shiny like a coin</text>
+<text x="170" y="136" font-size="10" fill="#333" text-anchor="middle">then STREAK and HEFT finish the job</text>
+
+<rect x="14" y="146" width="312" height="50" rx="3" fill="#f5f7fa" stroke="#8fa8c0"/>
+<text x="26" y="164" font-size="11" font-weight="bold" fill="#111">PYRITE</text>
+<text x="26" y="178" font-size="10" fill="#333">H 6.5 &#183; brass yellow, cubes with striated faces</text>
+<text x="26" y="191" font-size="10" fill="#d1495b">streak greenish-black, not gold</text>
+
+<rect x="14" y="202" width="312" height="50" rx="3" fill="#f5f7fa" stroke="#8fa8c0"/>
+<text x="26" y="220" font-size="11" font-weight="bold" fill="#111">GALENA</text>
+<text x="26" y="234" font-size="10" fill="#333">H 2.5 &#183; lead grey, perfect cubic cleavage</text>
+<text x="26" y="247" font-size="10" fill="#d1495b">SG 7.6 &#8212; the heft alone is diagnostic</text>
+
+<rect x="14" y="258" width="312" height="50" rx="3" fill="#f5f7fa" stroke="#8fa8c0"/>
+<text x="26" y="276" font-size="11" font-weight="bold" fill="#111">MAGNETITE</text>
+<text x="26" y="290" font-size="10" fill="#333">H 6 &#183; black, black streak, octahedra</text>
+<text x="26" y="303" font-size="10" fill="#d1495b">strongly magnetic &#8212; one test settles it</text>
+
+<rect x="14" y="314" width="312" height="50" rx="3" fill="#f5f7fa" stroke="#8fa8c0"/>
+<text x="26" y="332" font-size="11" font-weight="bold" fill="#111">HEMATITE</text>
+<text x="26" y="346" font-size="10" fill="#333">H 5&#8211;6 &#183; silver, red or earthy &#8212; colour varies</text>
+<text x="26" y="359" font-size="10" fill="#d1495b">streak is ALWAYS red-brown</text>
+
+<rect x="515" y="92" width="210" height="28" rx="3" fill="#f5f7fa" stroke="#2e8b57" stroke-width="1.4"/>
+<text x="620" y="111" font-size="12" font-weight="bold" fill="#111" text-anchor="middle">NON-METALLIC &#8212; glassy, dull, earthy</text>
+<rect x="545" y="132" width="150" height="26" rx="4" fill="#2e8b57"/>
+<text x="620" y="150" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">2. HARDNESS?</text>
+<path d="M 620 120 L 620 132" stroke="#333" stroke-width="1.4" fill="none"/>
+<path d="M 620 158 L 620 168" stroke="#333" stroke-width="1.4" fill="none"/>
+
+<rect x="345" y="168" width="452" height="62" rx="3" fill="#f5f7fa" stroke="#8fa8c0"/>
+<text x="356" y="186" font-size="11" font-weight="bold" fill="#111">H below 2.5 &#8212; a FINGERNAIL scratches it</text>
+<text x="356" y="203" font-size="10" fill="#333">talc (1, soapy feel) &#183; gypsum (2, one good cleavage, colourless to white)</text>
+<text x="356" y="219" font-size="10" fill="#333">kaolinite and the clays (earthy, dull, plastic when damp, smells of wet soil)</text>
+
+<rect x="345" y="238" width="452" height="106" rx="3" fill="#f5f7fa" stroke="#8fa8c0"/>
+<text x="356" y="256" font-size="11" font-weight="bold" fill="#111">H 2.5 to 5.5 &#8212; a KNIFE scratches it, it will not scratch glass</text>
+<text x="356" y="273" font-size="10" fill="#333">micas &#8212; ONE perfect cleavage, peels into elastic sheets</text>
+<text x="368" y="288" font-size="10" fill="#333">muscovite colourless &#183; biotite black</text>
+<text x="356" y="305" font-size="10" fill="#333">calcite (3) &#8212; three cleavages at 75&#176; (rhombs)</text>
+<text x="368" y="320" font-size="10" fill="#d1495b">fizzes in cold dilute acid; dolomite (3.5&#8211;4) fizzes only powdered</text>
+<text x="356" y="337" font-size="10" fill="#333">halite (2.5) &#8212; three cleavages at 90&#176; (cubes), salty, dissolves</text>
+
+<rect x="345" y="352" width="452" height="126" rx="3" fill="#f5f7fa" stroke="#8fa8c0"/>
+<text x="356" y="370" font-size="11" font-weight="bold" fill="#111">H above 5.5 &#8212; it SCRATCHES GLASS &#8594; 3. COUNT THE CLEAVAGES</text>
+<text x="356" y="388" font-size="10" fill="#333">none, conchoidal fracture &#8212; QUARTZ (7), glassy, no cleavage at all</text>
+<text x="356" y="403" font-size="10" fill="#333">none, sugary olive-green grains &#8212; OLIVINE (6.5), in dark rock only</text>
+<text x="356" y="418" font-size="10" fill="#333">two at 90&#176;, pink or white, no striations &#8212; ORTHOCLASE (6)</text>
+<text x="356" y="433" font-size="10" fill="#333">two at 90&#176;, white, fine parallel striations &#8212; PLAGIOCLASE (6)</text>
+<text x="356" y="448" font-size="10" fill="#d1495b">two at 87&#176;, stubby dark prisms &#8212; PYROXENE (5.5&#8211;6.5)</text>
+<text x="356" y="463" font-size="10" fill="#d1495b">two at 56&#176; and 124&#176;, slender dark prisms &#8212; AMPHIBOLE (5&#8211;6)</text>
+
+<rect x="14" y="492" width="792" height="196" rx="4" fill="#f5f7fa" stroke="#8fa8c0"/>
+<text x="26" y="512" font-size="11.5" font-weight="bold" fill="#111">INSET &#8212; the cleavage angle, looking down the chain axis. Cleavage threads the gaps between chains.</text>
+
+<g stroke="#333" stroke-width="1">
+<rect x="111" y="538" width="24" height="22" fill="#9fb3a8"/>
+<rect x="141" y="538" width="24" height="22" fill="#9fb3a8"/>
+<rect x="171" y="538" width="24" height="22" fill="#9fb3a8"/>
+<rect x="201" y="538" width="24" height="22" fill="#9fb3a8"/>
+<rect x="111" y="566" width="24" height="22" fill="#9fb3a8"/>
+<rect x="141" y="566" width="24" height="22" fill="#9fb3a8"/>
+<rect x="171" y="566" width="24" height="22" fill="#9fb3a8"/>
+<rect x="201" y="566" width="24" height="22" fill="#9fb3a8"/>
+<rect x="111" y="594" width="24" height="22" fill="#9fb3a8"/>
+<rect x="141" y="594" width="24" height="22" fill="#9fb3a8"/>
+<rect x="171" y="594" width="24" height="22" fill="#9fb3a8"/>
+<rect x="201" y="594" width="24" height="22" fill="#9fb3a8"/>
+</g>
+<line x1="122.7" y1="521.7" x2="213.3" y2="606.3" stroke="#d1495b" stroke-width="2" stroke-dasharray="6 3"/>
+<line x1="122.7" y1="606.3" x2="213.3" y2="521.7" stroke="#d1495b" stroke-width="2" stroke-dasharray="6 3"/>
+<path d="M 192.9 540.8 A 34 34 0 0 1 192.9 587.2" stroke="#d1495b" stroke-width="1.8" fill="none"/>
+<rect x="197" y="555" width="30" height="17" fill="#ffffff"/>
+<text x="200" y="569" font-size="12" font-weight="bold" fill="#d1495b">87&#176;</text>
+<text x="168" y="646" font-size="11" font-weight="bold" fill="#111" text-anchor="middle">PYROXENE &#8212; single chain</text>
+<text x="168" y="661" font-size="10" fill="#333" text-anchor="middle">column cross-section is nearly square</text>
+<text x="168" y="675" font-size="10" fill="#333" text-anchor="middle">b / a sin&#946; &#8776; 0.96 &#8594; 87&#176; and 93&#176;</text>
+
+<g stroke="#333" stroke-width="1">
+<rect x="431" y="538" width="46" height="22" fill="#9fb3a8"/>
+<rect x="483" y="538" width="46" height="22" fill="#9fb3a8"/>
+<rect x="535" y="538" width="46" height="22" fill="#9fb3a8"/>
+<rect x="431" y="566" width="46" height="22" fill="#9fb3a8"/>
+<rect x="483" y="566" width="46" height="22" fill="#9fb3a8"/>
+<rect x="535" y="566" width="46" height="22" fill="#9fb3a8"/>
+<rect x="431" y="594" width="46" height="22" fill="#9fb3a8"/>
+<rect x="483" y="594" width="46" height="22" fill="#9fb3a8"/>
+<rect x="535" y="594" width="46" height="22" fill="#9fb3a8"/>
+</g>
+<line x1="409.6" y1="526.1" x2="550.4" y2="601.9" stroke="#d1495b" stroke-width="2" stroke-dasharray="6 3"/>
+<line x1="409.6" y1="601.9" x2="550.4" y2="526.1" stroke="#d1495b" stroke-width="2" stroke-dasharray="6 3"/>
+<path d="M 515.2 545.0 A 40 40 0 0 1 515.2 583.0" stroke="#d1495b" stroke-width="1.8" fill="none"/>
+<rect x="519" y="555" width="30" height="17" fill="#ffffff"/>
+<text x="522" y="569" font-size="12" font-weight="bold" fill="#d1495b">56&#176;</text>
+<text x="506" y="646" font-size="11" font-weight="bold" fill="#111" text-anchor="middle">AMPHIBOLE &#8212; double chain</text>
+<text x="506" y="661" font-size="10" fill="#333" text-anchor="middle">column is twice as wide as it is tall</text>
+<text x="506" y="675" font-size="10" fill="#333" text-anchor="middle">b / a sin&#946; &#8776; 1.91 &#8594; 56&#176; and 124&#176;</text>
+
+<text x="648" y="546" font-size="10" font-weight="bold" fill="#111">Same mineral family,</text>
+<text x="648" y="560" font-size="10" font-weight="bold" fill="#111">same bond types.</text>
+<text x="648" y="578" font-size="10" fill="#333">Doubling the chain</text>
+<text x="648" y="592" font-size="10" fill="#333">doubles the cell edge b,</text>
+<text x="648" y="606" font-size="10" fill="#333">and the angle the gaps</text>
+<text x="648" y="620" font-size="10" fill="#333">make swings by 37&#176;.</text>
+<text x="648" y="638" font-size="10" fill="#d1495b">Geometry you can</text>
+<text x="648" y="652" font-size="10" fill="#d1495b">measure by hand.</text>
+
+</g>
+</svg>

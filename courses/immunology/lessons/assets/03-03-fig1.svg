@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 380" width="820" height="380" role="img" aria-label="Left panel: the germinal center drawn as two adjacent zones. The dark zone, labelled mutate, contains dividing centroblasts with a small lineage tree in which one daughter is marked improved and several are marked receptor destroyed. The light zone, labelled select, contains a follicular dendritic cell holding antigen and a limiting T follicular helper cell, with a centrocyte capturing antigen in proportion to affinity and presenting peptide-MHC to compete for help, only the top ten percent surviving. A curved arrow returns most cells to the dark zone for another round and a short arrow exports the rest as plasma or memory cells. Right panel: mean affinity plotted on a logarithmic axis against selection round, rising as a straight line from one-fold to one hundred-fold over six rounds at about two point one five fold per round, with a shaded band around the line that narrows from left to right showing clonal diversity contracting.">
+  <defs>
+    <marker id="ah" markerWidth="9" markerHeight="9" refX="7.5" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 z" fill="#333"/>
+    </marker>
+    <marker id="ahb" markerWidth="9" markerHeight="9" refX="7.5" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 z" fill="#1a6fb5"/>
+    </marker>
+  </defs>
+
+  <rect width="820" height="380" fill="#ffffff"/>
+
+  <text x="15" y="22" font-family="Helvetica,Arial,sans-serif" font-size="12.5" font-weight="bold" fill="#111">A &#183; The germinal-center cycle</text>
+
+  <rect x="25" y="45" width="185" height="250" fill="#dfe6ee" stroke="#8fa8c0" stroke-width="1.2"/>
+  <rect x="240" y="45" width="185" height="250" fill="#f7f9fb" stroke="#8fa8c0" stroke-width="1.2"/>
+
+  <text x="117" y="65" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="bold" fill="#111">DARK ZONE &#183; mutate</text>
+  <text x="332" y="65" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" font-weight="bold" fill="#111">LIGHT ZONE &#183; select</text>
+
+  <text x="34" y="88" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">centroblasts divide every ~6 h</text>
+  <text x="34" y="103" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">AID hypermutates the V region</text>
+  <text x="34" y="118" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">&#8776;1 new mutation per division</text>
+
+  <line x1="117" y1="150" x2="92" y2="171" stroke="#333" stroke-width="1"/>
+  <line x1="117" y1="150" x2="143" y2="171" stroke="#333" stroke-width="1"/>
+  <line x1="92" y1="184" x2="76" y2="203" stroke="#333" stroke-width="1"/>
+  <line x1="92" y1="184" x2="108" y2="203" stroke="#333" stroke-width="1"/>
+  <line x1="143" y1="184" x2="128" y2="203" stroke="#333" stroke-width="1"/>
+  <line x1="143" y1="184" x2="160" y2="203" stroke="#333" stroke-width="1"/>
+  <circle cx="117" cy="143" r="7" fill="#ffffff" stroke="#333" stroke-width="1.2"/>
+  <circle cx="92" cy="178" r="6" fill="#ffffff" stroke="#333" stroke-width="1.2"/>
+  <circle cx="143" cy="178" r="6" fill="#ffffff" stroke="#333" stroke-width="1.2"/>
+  <circle cx="76" cy="209" r="5.5" fill="#d1495b" stroke="#333" stroke-width="1"/>
+  <circle cx="108" cy="209" r="5.5" fill="#ffffff" stroke="#333" stroke-width="1"/>
+  <circle cx="128" cy="209" r="5.5" fill="#d1495b" stroke="#333" stroke-width="1"/>
+  <circle cx="160" cy="209" r="5.5" fill="#2e8b57" stroke="#333" stroke-width="1"/>
+
+  <circle cx="40" cy="243" r="5" fill="#2e8b57" stroke="#333" stroke-width="1"/>
+  <text x="52" y="247" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">improved: ~1 of 16</text>
+  <circle cx="40" cy="264" r="5" fill="#d1495b" stroke="#333" stroke-width="1"/>
+  <text x="52" y="268" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">destroyed: ~7 of 16</text>
+  <circle cx="40" cy="285" r="5" fill="#ffffff" stroke="#333" stroke-width="1"/>
+  <text x="52" y="289" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">unchanged: ~8 of 16</text>
+
+  <line x1="212" y1="150" x2="234" y2="150" stroke="#333" stroke-width="1.6" marker-end="url(#ah)"/>
+
+  <circle cx="285" cy="105" r="15" fill="#f5f7fa" stroke="#1a6fb5" stroke-width="1.5"/>
+  <circle cx="273" cy="95" r="2.6" fill="#1a6fb5"/>
+  <circle cx="297" cy="96" r="2.6" fill="#1a6fb5"/>
+  <circle cx="285" cy="118" r="2.6" fill="#1a6fb5"/>
+  <circle cx="272" cy="112" r="2.6" fill="#1a6fb5"/>
+  <text x="285" y="133" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">FDC antigen depot</text>
+
+  <ellipse cx="382" cy="105" rx="17" ry="12" fill="#f5f7fa" stroke="#2e8b57" stroke-width="1.5"/>
+  <text x="382" y="133" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">Tfh &#183; limiting</text>
+
+  <circle cx="332" cy="172" r="12" fill="#ffffff" stroke="#333" stroke-width="1.3"/>
+  <text x="332" y="195" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">centrocyte</text>
+
+  <line x1="322" y1="163" x2="296" y2="123" stroke="#1a6fb5" stroke-width="1.4" marker-end="url(#ahb)"/>
+  <line x1="343" y1="163" x2="370" y2="123" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+
+  <text x="248" y="222" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">capture antigen &#8733; affinity</text>
+  <text x="248" y="240" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">present pMHC; compete for help</text>
+  <text x="248" y="258" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">top &#8776;10% live, rest apoptose</text>
+
+  <path d="M332,295 C332,344 117,344 117,299" fill="none" stroke="#333" stroke-width="1.6" marker-end="url(#ah)"/>
+  <text x="200" y="362" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">cyclic re-entry: most survivors go back and mutate again</text>
+
+  <line x1="410" y1="295" x2="410" y2="330" stroke="#333" stroke-width="1.6" marker-end="url(#ah)"/>
+  <text x="410" y="347" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">exit:</text>
+  <text x="410" y="362" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">plasma / memory</text>
+
+  <text x="455" y="22" font-family="Helvetica,Arial,sans-serif" font-size="12.5" font-weight="bold" fill="#111">B &#183; Affinity climbs, diversity narrows</text>
+
+  <line x1="500" y1="58" x2="500" y2="300" stroke="#333" stroke-width="1.2"/>
+  <line x1="500" y1="300" x2="800" y2="300" stroke="#333" stroke-width="1.2"/>
+
+  <line x1="494" y1="263.1" x2="500" y2="263.1" stroke="#333" stroke-width="1"/>
+  <line x1="494" y1="170.8" x2="500" y2="170.8" stroke="#333" stroke-width="1"/>
+  <line x1="494" y1="78.5" x2="500" y2="78.5" stroke="#333" stroke-width="1"/>
+  <text x="490" y="266.5" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">1&#215;</text>
+  <text x="490" y="174.3" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">10&#215;</text>
+  <text x="490" y="82" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">100&#215;</text>
+
+  <polygon points="500,241.1 548.3,212.3 596.7,183.5 645,154.8 693.3,126.0 741.7,97.2 790,68.5 790,88.5 741.7,121.2 693.3,154.0 645,186.8 596.7,219.5 548.3,252.3 500,285.1" fill="#1a6fb5" fill-opacity="0.15"/>
+
+  <polyline points="500,263.1 548.3,232.3 596.7,201.5 645,170.8 693.3,140.0 741.7,109.2 790,78.5" fill="none" stroke="#1a6fb5" stroke-width="2.4"/>
+  <circle cx="500" cy="263.1" r="3.4" fill="#1a6fb5"/>
+  <circle cx="548.3" cy="232.3" r="3.4" fill="#1a6fb5"/>
+  <circle cx="596.7" cy="201.5" r="3.4" fill="#1a6fb5"/>
+  <circle cx="645" cy="170.8" r="3.4" fill="#1a6fb5"/>
+  <circle cx="693.3" cy="140.0" r="3.4" fill="#1a6fb5"/>
+  <circle cx="741.7" cy="109.2" r="3.4" fill="#1a6fb5"/>
+  <circle cx="790" cy="78.5" r="3.4" fill="#1a6fb5"/>
+
+  <text x="516" y="94" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">each round &#215;2.15</text>
+  <text x="516" y="110" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#111">6 rounds &#8776; 100&#215;</text>
+  <text x="516" y="126" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">Kd: 1 &#181;M &#8594; 10 nM</text>
+  <text x="516" y="142" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">shaded = spread of clones</text>
+
+  <text x="500" y="316" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">0</text>
+  <text x="548.3" y="316" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">1</text>
+  <text x="596.7" y="316" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">2</text>
+  <text x="645" y="316" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">3</text>
+  <text x="693.3" y="316" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">4</text>
+  <text x="741.7" y="316" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">5</text>
+  <text x="790" y="316" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">6</text>
+  <text x="645" y="334" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">selection round (&#8776;1 day each)</text>
+  <text x="468" y="180" text-anchor="middle" transform="rotate(-90 468 180)" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333">mean affinity, fold over germline</text>
+</svg>

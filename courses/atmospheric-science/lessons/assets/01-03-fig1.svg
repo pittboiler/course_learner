@@ -1,0 +1,43 @@
+<svg viewBox="0 0 620 350" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="26" y="26" fill="#8a8a8a" font-style="italic">A parcel cools by expanding against falling pressure, not by touching cold air.</text>
+  <circle cx="115" cy="275" r="20" fill="#4a90d9" opacity="0.16" stroke="#4a90d9" stroke-width="2"/>
+  <text x="145" y="271" fill="#8a8a8a" font-size="12">p = 1000 hPa</text>
+  <circle cx="115" cy="180" r="27" fill="#4a90d9" opacity="0.16" stroke="#4a90d9" stroke-width="2"/>
+  <text x="152" y="176" fill="#8a8a8a" font-size="12">p = 800 hPa</text>
+  <circle cx="115" cy="90" r="35" fill="#4a90d9" opacity="0.16" stroke="#4a90d9" stroke-width="2"/>
+  <text x="160" y="86" fill="#8a8a8a" font-size="12">p = 620 hPa</text>
+  <text x="115" y="300" fill="#4a90d9" font-size="12" text-anchor="middle">same mass</text>
+  <text x="115" y="318" fill="#4a90d9" font-size="12" text-anchor="middle">bigger, cooler</text>
+  <line x1="52" y1="290" x2="52" y2="70" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="52,62 47,74 57,74" fill="#e0645c"/>
+  <text x="26" y="180" fill="#e0645c" font-size="12">rises</text>
+  <line x1="330" y1="285" x2="573" y2="285" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="330" y1="285" x2="330" y2="62" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="330,62 325,72 335,72" fill="#8a8a8a"/>
+  <text x="447" y="323" fill="#8a8a8a" text-anchor="middle">temperature (K)</text>
+  <text x="300" y="56" fill="#8a8a8a" font-size="12">z (km)</text>
+  <line x1="363.6" y1="285" x2="363.6" y2="290" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="363.6" y="304" fill="#8a8a8a" font-size="12" text-anchor="middle">270</text>
+  <line x1="430.7" y1="285" x2="430.7" y2="290" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="430.7" y="304" fill="#8a8a8a" font-size="12" text-anchor="middle">280</text>
+  <line x1="497.9" y1="285" x2="497.9" y2="290" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="497.9" y="304" fill="#8a8a8a" font-size="12" text-anchor="middle">290</text>
+  <line x1="565.0" y1="285" x2="565.0" y2="290" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="565.0" y="304" fill="#8a8a8a" font-size="12" text-anchor="middle">300</text>
+  <line x1="325" y1="285.0" x2="330" y2="285.0" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="321" y="289.0" fill="#8a8a8a" font-size="12" text-anchor="end">0</text>
+  <line x1="325" y1="213.3" x2="330" y2="213.3" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="321" y="217.3" fill="#8a8a8a" font-size="12" text-anchor="end">1</text>
+  <line x1="325" y1="141.7" x2="330" y2="141.7" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="321" y="145.7" fill="#8a8a8a" font-size="12" text-anchor="end">2</text>
+  <line x1="325" y1="70.0" x2="330" y2="70.0" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="321" y="74.0" fill="#8a8a8a" font-size="12" text-anchor="end">3</text>
+  <line x1="518.0" y1="285.0" x2="387.1" y2="70.0" stroke="#8a8a8a" stroke-width="2.5"/>
+  <text x="411.2" y="87.9" fill="#8a8a8a" font-size="12">environment</text>
+  <text x="417.9" y="113.0" fill="#8a8a8a" font-size="12">6.5 K/km</text>
+  <line x1="518.0" y1="285.0" x2="321.2" y2="70.0" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="334.0" y="138.1" fill="#4a90d9" font-size="12">dry adiabat</text>
+  <text x="334.0" y="163.2" fill="#4a90d9" font-size="12">9.8 K/km</text>
+  <line x1="386.8" y1="141.7" x2="430.7" y2="141.7" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="408.9" y="133.7" fill="#e0645c" font-size="12" text-anchor="middle">6.5 K colder</text>
+</svg>

@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 470" width="820" height="470" role="img" aria-label="Sarcomere filament overlap at three lengths above a length-tension curve sharing the same horizontal axis">
+<rect width="820" height="470" fill="#ffffff"/>
+<g font-family="Helvetica,Arial,sans-serif" fill="#111">
+
+<text x="410" y="24" text-anchor="middle" font-size="14" font-weight="bold">Overlap sets tension: the sarcomere length&#8211;tension curve</text>
+<text x="78" y="48" font-size="11" font-weight="bold" fill="#333">(a) filament overlap at three sarcomere lengths</text>
+
+<rect x="664" y="64" width="22" height="9" fill="#d1495b"/>
+<text x="692" y="72" font-size="9.5" fill="#333">thick (myosin)</text>
+<line x1="664" y1="86" x2="686" y2="86" stroke="#1a6fb5" stroke-width="3.5"/>
+<text x="692" y="89" font-size="9.5" fill="#333">thin (actin)</text>
+
+<g stroke-linecap="butt">
+
+<line x1="218.8" y1="113" x2="218.8" y2="127" stroke="#555" stroke-width="1"/>
+<line x1="178.0" y1="102" x2="226.0" y2="102" stroke="#1a6fb5" stroke-width="3.5"/>
+<line x1="178.0" y1="138" x2="226.0" y2="138" stroke="#1a6fb5" stroke-width="3.5"/>
+<line x1="259.6" y1="107.5" x2="211.6" y2="107.5" stroke="#1a6fb5" stroke-width="3.5"/>
+<line x1="259.6" y1="132.5" x2="211.6" y2="132.5" stroke="#1a6fb5" stroke-width="3.5"/>
+<rect x="180.4" y="113" width="76.8" height="14" rx="4" fill="#d1495b"/>
+<rect x="175.5" y="95" width="5" height="50" fill="#111"/>
+<rect x="257.1" y="95" width="5" height="50" fill="#111"/>
+
+<line x1="347.7" y1="113" x2="347.7" y2="127" stroke="#555" stroke-width="1"/>
+<line x1="294.9" y1="102" x2="342.9" y2="102" stroke="#1a6fb5" stroke-width="3.5"/>
+<line x1="294.9" y1="138" x2="342.9" y2="138" stroke="#1a6fb5" stroke-width="3.5"/>
+<line x1="400.5" y1="107.5" x2="352.5" y2="107.5" stroke="#1a6fb5" stroke-width="3.5"/>
+<line x1="400.5" y1="132.5" x2="352.5" y2="132.5" stroke="#1a6fb5" stroke-width="3.5"/>
+<rect x="309.3" y="113" width="76.8" height="14" rx="4" fill="#d1495b"/>
+<rect x="292.4" y="95" width="5" height="50" fill="#111"/>
+<rect x="398.0" y="95" width="5" height="50" fill="#111"/>
+
+<line x1="553.8" y1="113" x2="553.8" y2="127" stroke="#555" stroke-width="1"/>
+<line x1="481.8" y1="102" x2="529.8" y2="102" stroke="#1a6fb5" stroke-width="3.5"/>
+<line x1="481.8" y1="138" x2="529.8" y2="138" stroke="#1a6fb5" stroke-width="3.5"/>
+<line x1="625.8" y1="107.5" x2="577.8" y2="107.5" stroke="#1a6fb5" stroke-width="3.5"/>
+<line x1="625.8" y1="132.5" x2="577.8" y2="132.5" stroke="#1a6fb5" stroke-width="3.5"/>
+<rect x="515.4" y="113" width="76.8" height="14" rx="4" fill="#d1495b"/>
+<rect x="479.3" y="95" width="5" height="50" fill="#111"/>
+<rect x="623.3" y="95" width="5" height="50" fill="#111"/>
+</g>
+
+<text x="481.8" y="89" text-anchor="middle" font-size="9.5" fill="#333">Z</text>
+<text x="625.8" y="89" text-anchor="middle" font-size="9.5" fill="#333">Z</text>
+<path d="M515.4,83 L515.4,79 L592.2,79 L592.2,83" fill="none" stroke="#333" stroke-width="1"/>
+<text x="553.8" y="73" text-anchor="middle" font-size="9.5" fill="#333">A band</text>
+<path d="M481.8,149 L481.8,153 L515.4,153 L515.4,149" fill="none" stroke="#333" stroke-width="1"/>
+<text x="498.6" y="166" text-anchor="middle" font-size="9.5" fill="#333">I band</text>
+<path d="M529.8,149 L529.8,153 L577.8,153 L577.8,149" fill="none" stroke="#333" stroke-width="1"/>
+<text x="553.8" y="166" text-anchor="middle" font-size="9.5" fill="#333">H zone</text>
+<text x="347.7" y="157" text-anchor="middle" font-size="9.5" fill="#555">M</text>
+
+<text x="218.8" y="190" text-anchor="middle" font-size="10.5" font-weight="bold">1.7 &#956;m &#8212; short</text>
+<text x="347.7" y="190" text-anchor="middle" font-size="10.5" font-weight="bold">2.2 &#956;m &#8212; optimal</text>
+<text x="553.8" y="190" text-anchor="middle" font-size="10.5" font-weight="bold">3.0 &#956;m &#8212; stretched</text>
+<text x="218.8" y="204" text-anchor="middle" font-size="9.5" fill="#555">thin ends collide</text>
+<text x="347.7" y="204" text-anchor="middle" font-size="9.5" fill="#555">full overlap</text>
+<text x="553.8" y="204" text-anchor="middle" font-size="9.5" fill="#555">partial overlap</text>
+
+<g stroke="#8fa8c0" stroke-width="1" stroke-dasharray="3,3">
+<line x1="218.8" y1="212" x2="218.8" y2="294.5"/>
+<line x1="347.7" y1="212" x2="347.7" y2="262"/>
+<line x1="553.8" y1="212" x2="553.8" y2="336.3"/>
+</g>
+
+<text x="78" y="246" font-size="11" font-weight="bold" fill="#333">(b) tension vs. length</text>
+
+<rect x="244.6" y="262" width="103.1" height="130" fill="#2e8b57" opacity="0.13"/>
+
+<line x1="78" y1="392" x2="775" y2="392" stroke="#111" stroke-width="1.4"/>
+<line x1="90" y1="252" x2="90" y2="397" stroke="#111" stroke-width="1.4"/>
+
+<g stroke="#111" stroke-width="1">
+<line x1="90" y1="392" x2="90" y2="398"/>
+<line x1="193.1" y1="392" x2="193.1" y2="398"/>
+<line x1="296.2" y1="392" x2="296.2" y2="398"/>
+<line x1="399.2" y1="392" x2="399.2" y2="398"/>
+<line x1="502.3" y1="392" x2="502.3" y2="398"/>
+<line x1="605.4" y1="392" x2="605.4" y2="398"/>
+<line x1="708.5" y1="392" x2="708.5" y2="398"/>
+<line x1="84" y1="392" x2="90" y2="392"/>
+<line x1="84" y1="327" x2="90" y2="327"/>
+<line x1="84" y1="262" x2="90" y2="262"/>
+</g>
+
+<g font-size="9.5" fill="#333">
+<text x="90" y="409" text-anchor="middle">1.2</text>
+<text x="193.1" y="409" text-anchor="middle">1.6</text>
+<text x="296.2" y="409" text-anchor="middle">2.0</text>
+<text x="399.2" y="409" text-anchor="middle">2.4</text>
+<text x="502.3" y="409" text-anchor="middle">2.8</text>
+<text x="605.4" y="409" text-anchor="middle">3.2</text>
+<text x="708.5" y="409" text-anchor="middle">3.6</text>
+<text x="80" y="395" text-anchor="end">0</text>
+<text x="80" y="330" text-anchor="end">0.5</text>
+<text x="80" y="265" text-anchor="end">1.0</text>
+</g>
+<text x="410" y="429" text-anchor="middle" font-size="10.5" fill="#333">sarcomere length (&#956;m)</text>
+<text x="46" y="327" text-anchor="middle" font-size="10.5" fill="#333" transform="rotate(-90 46 327)">relative active tension</text>
+
+<polyline points="115.8,392 167.3,337.4 193.1,311.4 218.8,294.5 244.6,282.8 270.4,272.4 296.2,262 347.7,262 708.5,392" fill="none" stroke="#1a6fb5" stroke-width="2.5" stroke-linejoin="round"/>
+
+<circle cx="218.8" cy="294.5" r="3.6" fill="#d1495b"/>
+<circle cx="347.7" cy="262" r="3.6" fill="#d1495b"/>
+<circle cx="553.8" cy="336.3" r="3.6" fill="#d1495b"/>
+
+<g font-size="10" fill="#333">
+<text x="136" y="297" text-anchor="middle">ascending</text>
+<text x="136" y="309" text-anchor="middle">limb</text>
+<text x="322" y="255" text-anchor="middle" font-weight="bold">plateau</text>
+<text x="622" y="292" text-anchor="middle">descending limb</text>
+<text x="622" y="305" text-anchor="middle" font-size="9">overlap falls linearly</text>
+</g>
+<g font-size="9.5" fill="#2e8b57" font-weight="bold">
+<text x="296.2" y="372" text-anchor="middle">cardiac operating</text>
+<text x="296.2" y="384" text-anchor="middle">range (1.8&#8211;2.2 &#956;m)</text>
+</g>
+
+<text x="410" y="455" text-anchor="middle" font-size="10" fill="#333">The A band never changes length; only the I band and H zone shrink &#8212; the observation that proved the filaments slide.</text>
+</g>
+</svg>

@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" width="800" height="460" role="img" aria-label="Three panels showing the same three-node negative feedback ring instantiated as a gene circuit, a kinase cascade and an epidemic loop, each producing the same damped oscillation.">
+  <rect width="800" height="460" fill="#ffffff"/>
+  <defs>
+    <marker id="arw" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto" markerUnits="userSpaceOnUse" viewBox="0 0 9 9">
+      <path d="M0.5,1 L8,4.5 L0.5,8 z" fill="#2e8b57"/>
+    </marker>
+    <marker id="bar" markerWidth="12" markerHeight="14" refX="2.5" refY="7" orient="auto" markerUnits="userSpaceOnUse" viewBox="0 0 12 14">
+      <path d="M2.5,1 L2.5,13" stroke="#d1495b" stroke-width="2.6" fill="none"/>
+    </marker>
+  </defs>
+
+  <line x1="272.5" y1="14" x2="272.5" y2="398" stroke="#dde3ea" stroke-width="1"/>
+  <line x1="527.5" y1="14" x2="527.5" y2="398" stroke="#dde3ea" stroke-width="1"/>
+
+  <!-- column 1 : genes -->
+  <text x="145" y="24" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#1a6fb5" text-anchor="middle">Gene circuit</text>
+  <text x="145" y="40" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#555" text-anchor="middle">three transcription factors</text>
+  <line x1="156.9" y1="98.5" x2="188.9" y2="148.1" stroke="#2e8b57" stroke-width="2" marker-end="url(#arw)"/>
+  <line x1="181" y1="170" x2="113" y2="170" stroke="#2e8b57" stroke-width="2" marker-end="url(#arw)"/>
+  <line x1="98.9" y1="151.5" x2="130.9" y2="101.9" stroke="#d1495b" stroke-width="2" marker-end="url(#bar)"/>
+  <circle cx="145" cy="80" r="22" fill="#f5f7fa" stroke="#1a6fb5" stroke-width="2"/>
+  <circle cx="203" cy="170" r="22" fill="#f5f7fa" stroke="#1a6fb5" stroke-width="2"/>
+  <circle cx="87" cy="170" r="22" fill="#f5f7fa" stroke="#1a6fb5" stroke-width="2"/>
+  <text x="145" y="85" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="bold" fill="#111" text-anchor="middle">X</text>
+  <text x="203" y="175" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="bold" fill="#111" text-anchor="middle">Y</text>
+  <text x="87" y="175" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="bold" fill="#111" text-anchor="middle">Z</text>
+  <text x="186" y="122" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#2e8b57" text-anchor="middle">+</text>
+  <text x="145" y="188" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#2e8b57" text-anchor="middle">+</text>
+  <text x="102" y="122" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#d1495b" text-anchor="middle">&#8722;</text>
+  <text x="145" y="212" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#d1495b" text-anchor="middle">loop sign: negative</text>
+
+  <!-- column 2 : kinases -->
+  <text x="400" y="24" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#1a6fb5" text-anchor="middle">Protein cascade</text>
+  <text x="400" y="40" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#555" text-anchor="middle">MAPK module with feedback</text>
+  <line x1="411.9" y1="98.5" x2="443.9" y2="148.1" stroke="#2e8b57" stroke-width="2" marker-end="url(#arw)"/>
+  <line x1="436" y1="170" x2="368" y2="170" stroke="#2e8b57" stroke-width="2" marker-end="url(#arw)"/>
+  <line x1="353.9" y1="151.5" x2="385.9" y2="101.9" stroke="#d1495b" stroke-width="2" marker-end="url(#bar)"/>
+  <circle cx="400" cy="80" r="22" fill="#f5f7fa" stroke="#1a6fb5" stroke-width="2"/>
+  <circle cx="458" cy="170" r="22" fill="#f5f7fa" stroke="#1a6fb5" stroke-width="2"/>
+  <circle cx="342" cy="170" r="22" fill="#f5f7fa" stroke="#1a6fb5" stroke-width="2"/>
+  <text x="400" y="84" font-family="Helvetica,Arial,sans-serif" font-size="11.5" font-weight="bold" fill="#111" text-anchor="middle">Raf</text>
+  <text x="458" y="174" font-family="Helvetica,Arial,sans-serif" font-size="11.5" font-weight="bold" fill="#111" text-anchor="middle">MEK</text>
+  <text x="342" y="174" font-family="Helvetica,Arial,sans-serif" font-size="11.5" font-weight="bold" fill="#111" text-anchor="middle">ERK</text>
+  <text x="441" y="122" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#2e8b57" text-anchor="middle">+</text>
+  <text x="400" y="188" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#2e8b57" text-anchor="middle">+</text>
+  <text x="357" y="122" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#d1495b" text-anchor="middle">&#8722;</text>
+  <text x="400" y="212" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#d1495b" text-anchor="middle">loop sign: negative</text>
+
+  <!-- column 3 : epidemic -->
+  <text x="655" y="24" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="bold" fill="#1a6fb5" text-anchor="middle">Host&#8211;pathogen loop</text>
+  <text x="655" y="40" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#555" text-anchor="middle">susceptible, infected, immune</text>
+  <line x1="666.9" y1="98.5" x2="698.9" y2="148.1" stroke="#2e8b57" stroke-width="2" marker-end="url(#arw)"/>
+  <line x1="691" y1="170" x2="623" y2="170" stroke="#2e8b57" stroke-width="2" marker-end="url(#arw)"/>
+  <line x1="608.9" y1="151.5" x2="640.9" y2="101.9" stroke="#d1495b" stroke-width="2" marker-end="url(#bar)"/>
+  <circle cx="655" cy="80" r="22" fill="#f5f7fa" stroke="#1a6fb5" stroke-width="2"/>
+  <circle cx="713" cy="170" r="22" fill="#f5f7fa" stroke="#1a6fb5" stroke-width="2"/>
+  <circle cx="597" cy="170" r="22" fill="#f5f7fa" stroke="#1a6fb5" stroke-width="2"/>
+  <text x="655" y="85" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="bold" fill="#111" text-anchor="middle">S</text>
+  <text x="713" y="175" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="bold" fill="#111" text-anchor="middle">I</text>
+  <text x="597" y="175" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="bold" fill="#111" text-anchor="middle">R</text>
+  <text x="696" y="122" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#2e8b57" text-anchor="middle">+</text>
+  <text x="655" y="188" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#2e8b57" text-anchor="middle">+</text>
+  <text x="612" y="122" font-family="Helvetica,Arial,sans-serif" font-size="12" fill="#d1495b" text-anchor="middle">&#8722;</text>
+  <text x="655" y="212" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#d1495b" text-anchor="middle">loop sign: negative</text>
+
+  <!-- time courses -->
+  <g transform="translate(50,250)">
+    <line x1="0" y1="118" x2="194" y2="118" stroke="#333" stroke-width="1.2"/>
+    <line x1="0" y1="8" x2="0" y2="118" stroke="#333" stroke-width="1.2"/>
+    <line x1="0" y1="46" x2="189" y2="46" stroke="#8fa8c0" stroke-width="1" stroke-dasharray="4,3"/>
+    <polyline fill="none" stroke="#1a6fb5" stroke-width="2.2" points="0,118 6.8,102.4 13.5,79.8 20.3,56.4 27,36.7 33.8,23.5 40.5,17.9 47.3,19 54,25 60.8,33.4 67.5,42.3 74.3,49.6 81,54.5 87.8,56.7 94.5,56.1 101.3,53.9 108,50.7 114.8,47.4 121.5,44.6 128.3,42.8 135,42 141.8,42.2 148.5,43.1 155.3,44.3 162,45.5 168.8,46.5 175.5,47.2 182.3,47.5 189,47.4"/>
+    <text x="97" y="134" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="middle">protein Z &#183; hours</text>
+  </g>
+  <g transform="translate(305,250)">
+    <line x1="0" y1="118" x2="194" y2="118" stroke="#333" stroke-width="1.2"/>
+    <line x1="0" y1="8" x2="0" y2="118" stroke="#333" stroke-width="1.2"/>
+    <line x1="0" y1="46" x2="189" y2="46" stroke="#8fa8c0" stroke-width="1" stroke-dasharray="4,3"/>
+    <polyline fill="none" stroke="#1a6fb5" stroke-width="2.2" points="0,118 6.8,102.4 13.5,79.8 20.3,56.4 27,36.7 33.8,23.5 40.5,17.9 47.3,19 54,25 60.8,33.4 67.5,42.3 74.3,49.6 81,54.5 87.8,56.7 94.5,56.1 101.3,53.9 108,50.7 114.8,47.4 121.5,44.6 128.3,42.8 135,42 141.8,42.2 148.5,43.1 155.3,44.3 162,45.5 168.8,46.5 175.5,47.2 182.3,47.5 189,47.4"/>
+    <text x="97" y="134" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="middle">ERK activity &#183; minutes</text>
+  </g>
+  <g transform="translate(560,250)">
+    <line x1="0" y1="118" x2="194" y2="118" stroke="#333" stroke-width="1.2"/>
+    <line x1="0" y1="8" x2="0" y2="118" stroke="#333" stroke-width="1.2"/>
+    <line x1="0" y1="46" x2="189" y2="46" stroke="#8fa8c0" stroke-width="1" stroke-dasharray="4,3"/>
+    <polyline fill="none" stroke="#1a6fb5" stroke-width="2.2" points="0,118 6.8,102.4 13.5,79.8 20.3,56.4 27,36.7 33.8,23.5 40.5,17.9 47.3,19 54,25 60.8,33.4 67.5,42.3 74.3,49.6 81,54.5 87.8,56.7 94.5,56.1 101.3,53.9 108,50.7 114.8,47.4 121.5,44.6 128.3,42.8 135,42 141.8,42.2 148.5,43.1 155.3,44.3 162,45.5 168.8,46.5 175.5,47.2 182.3,47.5 189,47.4"/>
+    <text x="97" y="134" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="middle">fraction infected &#183; years</text>
+  </g>
+
+  <text x="400" y="416" font-family="Helvetica,Arial,sans-serif" font-size="11.5" font-weight="bold" fill="#111" text-anchor="middle">Identical topology &#8594; identical qualitative dynamics: overshoot, ring, settle.</text>
+  <text x="400" y="436" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333" text-anchor="middle">Different molecules, different chemistry, timescales spanning six orders of magnitude. The loop sign is what they share.</text>
+</svg>

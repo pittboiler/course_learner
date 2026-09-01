@@ -1,0 +1,52 @@
+<svg viewBox="0 0 660 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="12">
+  <text x="20" y="18" fill="#8a8a8a" font-style="italic">Two warming maxima pull the jet in opposite directions: one aloft in the tropics, one at the Arctic surface.</text>
+
+  <line x1="110" y1="260" x2="620" y2="260" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="110" y1="260" x2="110" y2="55" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="330" y="300" fill="#8a8a8a">latitude</text>
+  <text x="20" y="150" fill="#8a8a8a">height</text>
+  <text x="26" y="166" fill="#8a8a8a">(km)</text>
+  <text x="104" y="278" fill="#8a8a8a">EQ</text>
+  <line x1="273" y1="260" x2="273" y2="266" stroke="#8a8a8a"/><text x="263" y="278" fill="#8a8a8a">30&#176;</text>
+  <line x1="437" y1="260" x2="437" y2="266" stroke="#8a8a8a"/><text x="427" y="278" fill="#8a8a8a">60&#176;</text>
+  <text x="596" y="278" fill="#8a8a8a">90&#176;</text>
+  <text x="92" y="264" fill="#8a8a8a">0</text>
+  <text x="88" y="164" fill="#8a8a8a">8</text>
+  <text x="84" y="64" fill="#8a8a8a">16</text>
+
+  <!-- tropopause -->
+  <path d="M 110,105 L 200,110 L 273,130 L 350,165 L 437,182 L 520,190 L 620,193" fill="none" stroke="#8a8a8a" stroke-width="1.2" stroke-dasharray="6 4"/>
+  <text x="470" y="180" fill="#8a8a8a">tropopause</text>
+
+  <!-- tropical upper-troposphere warming max -->
+  <ellipse cx="160" cy="140" rx="70" ry="42" fill="#e0645c" opacity="0.30" stroke="#e0645c" stroke-width="1.5"/>
+  <ellipse cx="160" cy="140" rx="40" ry="24" fill="#e0645c" opacity="0.30" stroke="#e0645c" stroke-width="1.2"/>
+  <text x="150" y="144" fill="#e0645c" text-anchor="middle">2&#215;</text>
+  <text x="120" y="92" fill="#e0645c">moist-adiabatic amplification</text>
+
+  <!-- Arctic surface warming max -->
+  <ellipse cx="560" cy="262" rx="80" ry="40" fill="#4a90d9" opacity="0.30" stroke="#4a90d9" stroke-width="1.5"/>
+  <ellipse cx="570" cy="264" rx="45" ry="22" fill="#4a90d9" opacity="0.30" stroke="#4a90d9" stroke-width="1.2"/>
+  <text x="556" y="248" fill="#4a90d9" text-anchor="middle">3&#215;</text>
+  <text x="452" y="230" fill="#4a90d9">Arctic amplification</text>
+
+  <!-- jet -->
+  <circle cx="305" cy="128" r="10" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="298" y1="121" x2="312" y2="135" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="298" y1="135" x2="312" y2="121" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="284" y="112" fill="#8a8a8a">jet</text>
+
+  <!-- gradient arrows -->
+  <line x1="230" y1="140" x2="400" y2="140" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="400,140 391,136 391,144" fill="#e0645c"/>
+  <text x="330" y="134" fill="#e0645c">upper gradient STRONGER</text>
+
+  <line x1="480" y1="258" x2="330" y2="258" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="330,258 339,254 339,262" fill="#4a90d9"/>
+  <text x="190" y="256" fill="#4a90d9">lower gradient WEAKER</text>
+
+  <!-- poleward shift -->
+  <line x1="318" y1="102" x2="352" y2="102" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="352,102 343,98 343,106" fill="#8a8a8a"/>
+  <text x="356" y="106" fill="#8a8a8a">net: jet shifts poleward</text>
+</svg>

@@ -1,0 +1,49 @@
+<svg viewBox="0 0 660 310" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="12">
+  <text x="20" y="20" fill="#8a8a8a" font-style="italic">Warming is very nearly proportional to cumulative emissions. That is why a &#8220;budget&#8221; is a meaningful object.</text>
+
+  <line x1="100" y1="250" x2="625" y2="250" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="100" y1="250" x2="100" y2="55" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="300" y="288" fill="#8a8a8a">cumulative CO&#8322; emissions since 1850 (PgC)</text>
+  <text x="18" y="140" fill="#8a8a8a">warming</text>
+  <text x="30" y="156" fill="#8a8a8a">(K)</text>
+
+  <line x1="266.7" y1="250" x2="266.7" y2="256" stroke="#8a8a8a"/><text x="248" y="270" fill="#8a8a8a">1000</text>
+  <line x1="433.3" y1="250" x2="433.3" y2="256" stroke="#8a8a8a"/><text x="415" y="270" fill="#8a8a8a">2000</text>
+  <line x1="600" y1="250" x2="600" y2="256" stroke="#8a8a8a"/><text x="582" y="270" fill="#8a8a8a">3000</text>
+  <text x="86" y="216" fill="#8a8a8a">1</text>
+  <text x="86" y="178" fill="#8a8a8a">2</text>
+  <text x="86" y="140" fill="#8a8a8a">3</text>
+  <text x="86" y="102" fill="#8a8a8a">4</text>
+  <text x="86" y="64" fill="#8a8a8a">5</text>
+
+  <!-- TCRE range wedge -->
+  <polygon points="100,250 462,60 600,60 600,136" fill="#4a90d9" opacity="0.12"/>
+  <line x1="100" y1="250" x2="600" y2="136" stroke="#4a90d9" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <line x1="100" y1="250" x2="462" y2="60" stroke="#4a90d9" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <text x="520" y="130" fill="#4a90d9">1.0</text>
+  <text x="432" y="76" fill="#4a90d9">2.3</text>
+
+  <!-- central TCRE -->
+  <line x1="100" y1="250" x2="600" y2="62" stroke="#4a90d9" stroke-width="3"/>
+  <text x="516" y="88" fill="#4a90d9">TCRE = 1.65 K</text>
+  <text x="516" y="102" fill="#4a90d9">per 1000 PgC</text>
+
+  <!-- observed point -->
+  <circle cx="210" cy="204" r="5" fill="#e0645c"/>
+  <text x="120" y="196" fill="#e0645c">2020: 660 PgC, 1.2 K</text>
+
+  <!-- 1.5 K budget -->
+  <line x1="100" y1="193" x2="300" y2="193" stroke="#e0645c" stroke-width="1.4" stroke-dasharray="4 4"/>
+  <text x="66" y="197" fill="#e0645c">1.5</text>
+  <line x1="251.5" y1="193" x2="251.5" y2="250" stroke="#e0645c" stroke-width="1.4" stroke-dasharray="4 4"/>
+  <line x1="210" y1="240" x2="251.5" y2="240" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="210,240 219,236 219,244" fill="#e0645c"/>
+  <polygon points="251.5,240 243,236 243,244" fill="#e0645c"/>
+  <text x="264" y="244" fill="#e0645c">remaining budget for 1.5 K: 240 PgC = 24 years</text>
+
+  <!-- 2 K -->
+  <line x1="100" y1="174" x2="302" y2="174" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 5"/>
+  <text x="66" y="178" fill="#8a8a8a">2.0</text>
+  <line x1="302" y1="174" x2="302" y2="250" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="3 5"/>
+  <text x="308" y="188" fill="#8a8a8a">2 K at 1210 PgC</text>
+</svg>

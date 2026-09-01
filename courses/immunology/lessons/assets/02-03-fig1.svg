@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 430" width="820" height="430" role="img" aria-label="Left panel: a T-cell receptor facing a peptide-MHC class I molecule across the gap between two cells, with CDR3 loops drawn over the peptide and CDR1 and CDR2 loops over the MHC helices, the CD8 coreceptor gripping the non-polymorphic alpha-3 domain and carrying Lck on its cytoplasmic tail, and the CD3 and zeta chains carrying ITAMs below the T-cell membrane; an inset shows the top view with the receptor footprint lying diagonally across the groove. Right panel: signalling probability plotted against receptor dwell time for one proofreading step and for five, showing that five steps turn a fivefold difference in dwell time into a forty-fivefold difference in signal.">
+<rect width="820" height="430" fill="#ffffff"/>
+
+<text x="16" y="22" font-family="Helvetica,Arial,sans-serif" font-size="12.5" font-weight="bold" fill="#111">Reading the inside of a cell from the outside</text>
+<text x="500" y="22" font-family="Helvetica,Arial,sans-serif" font-size="12.5" font-weight="bold" fill="#111">Kinetic proofreading: time is the filter</text>
+<line x1="486" y1="32" x2="486" y2="350" stroke="#ccc" stroke-width="1"/>
+
+<text x="24" y="50" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333">Target cell / APC</text>
+<rect x="20" y="56" width="300" height="12" fill="#e8eef5" stroke="#8fa8c0" stroke-width="1"/>
+
+<line x1="128" y1="68" x2="128" y2="88" stroke="#8fa8c0" stroke-width="2"/>
+<rect x="112" y="88" width="32" height="44" rx="3" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1.2"/>
+<text x="128" y="114" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333" text-anchor="middle">&#945;3</text>
+<rect x="158" y="88" width="32" height="44" rx="3" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1.2"/>
+<text x="174" y="114" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333" text-anchor="middle">&#946;2m</text>
+<rect x="100" y="132" width="104" height="26" rx="5" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1.2"/>
+<text x="152" y="149" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333" text-anchor="middle">&#945;1 / &#945;2 groove</text>
+<line x1="104" y1="157" x2="120" y2="157" stroke="#1a6fb5" stroke-width="3.5"/>
+<line x1="184" y1="157" x2="200" y2="157" stroke="#1a6fb5" stroke-width="3.5"/>
+<rect x="118" y="158" width="68" height="9" rx="4" fill="#d1495b"/>
+<line x1="188" y1="162" x2="208" y2="162" stroke="#333" stroke-width="0.8"/>
+<text x="212" y="166" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">peptide, 8&#8211;10 residues</text>
+
+<path d="M114,186 Q119,174 124,186" fill="none" stroke="#1a6fb5" stroke-width="2"/>
+<path d="M124,186 Q129,174 134,186" fill="none" stroke="#1a6fb5" stroke-width="2"/>
+<path d="M134,186 Q139,172 144,186" fill="none" stroke="#d1495b" stroke-width="2.4"/>
+<path d="M156,186 Q161,172 166,186" fill="none" stroke="#d1495b" stroke-width="2.4"/>
+<path d="M166,186 Q171,174 176,186" fill="none" stroke="#1a6fb5" stroke-width="2"/>
+<path d="M176,186 Q181,174 186,186" fill="none" stroke="#1a6fb5" stroke-width="2"/>
+
+<rect x="112" y="186" width="34" height="44" rx="3" fill="#f5f7fa" stroke="#1a6fb5" stroke-width="1.2"/>
+<text x="129" y="212" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#111" text-anchor="middle">V&#945;</text>
+<rect x="152" y="186" width="34" height="44" rx="3" fill="#f5f7fa" stroke="#1a6fb5" stroke-width="1.2"/>
+<text x="169" y="212" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#111" text-anchor="middle">V&#946;</text>
+<rect x="112" y="232" width="34" height="52" rx="3" fill="#eef3f8" stroke="#8fa8c0" stroke-width="1.2"/>
+<text x="129" y="262" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333" text-anchor="middle">C&#945;</text>
+<rect x="152" y="232" width="34" height="52" rx="3" fill="#eef3f8" stroke="#8fa8c0" stroke-width="1.2"/>
+<text x="169" y="262" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333" text-anchor="middle">C&#946;</text>
+
+<rect x="64" y="96" width="40" height="30" rx="4" fill="#eaf5ee" stroke="#2e8b57" stroke-width="1.2"/>
+<text x="84" y="116" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#2e8b57" text-anchor="middle">CD8</text>
+<line x1="104" y1="111" x2="112" y2="111" stroke="#2e8b57" stroke-width="1.5" stroke-dasharray="3 2"/>
+<rect x="76" y="126" width="16" height="158" fill="#eaf5ee" stroke="#2e8b57" stroke-width="1.2"/>
+
+<rect x="200" y="214" width="26" height="70" rx="3" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1.2"/>
+<text x="213" y="208" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333" text-anchor="middle">&#949;&#947;</text>
+<rect x="232" y="214" width="26" height="70" rx="3" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1.2"/>
+<text x="245" y="208" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333" text-anchor="middle">&#949;&#948;</text>
+<rect x="264" y="248" width="22" height="36" rx="3" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1.2"/>
+<text x="275" y="242" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333" text-anchor="middle">&#950;&#950;</text>
+
+<rect x="20" y="284" width="300" height="12" fill="#e8eef5" stroke="#8fa8c0" stroke-width="1"/>
+
+<line x1="150" y1="296" x2="150" y2="306" stroke="#1a6fb5" stroke-width="2"/>
+<text x="150" y="318" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="middle">tail: 5 aa</text>
+
+<line x1="84" y1="296" x2="84" y2="316" stroke="#2e8b57" stroke-width="2"/>
+<circle cx="84" cy="328" r="11" fill="#2e8b57"/>
+<text x="84" y="332" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#ffffff" text-anchor="middle">Lck</text>
+
+<line x1="213" y1="296" x2="213" y2="332" stroke="#333" stroke-width="1.5"/>
+<line x1="207" y1="306" x2="219" y2="306" stroke="#d1495b" stroke-width="3"/>
+<line x1="207" y1="318" x2="219" y2="318" stroke="#d1495b" stroke-width="3"/>
+<line x1="245" y1="296" x2="245" y2="332" stroke="#333" stroke-width="1.5"/>
+<line x1="239" y1="306" x2="251" y2="306" stroke="#d1495b" stroke-width="3"/>
+<line x1="239" y1="318" x2="251" y2="318" stroke="#d1495b" stroke-width="3"/>
+<line x1="270" y1="296" x2="270" y2="342" stroke="#333" stroke-width="1.5"/>
+<line x1="264" y1="306" x2="276" y2="306" stroke="#d1495b" stroke-width="3"/>
+<line x1="264" y1="318" x2="276" y2="318" stroke="#d1495b" stroke-width="3"/>
+<line x1="264" y1="330" x2="276" y2="330" stroke="#d1495b" stroke-width="3"/>
+<line x1="282" y1="296" x2="282" y2="342" stroke="#333" stroke-width="1.5"/>
+<line x1="276" y1="306" x2="288" y2="306" stroke="#d1495b" stroke-width="3"/>
+<line x1="276" y1="318" x2="288" y2="318" stroke="#d1495b" stroke-width="3"/>
+<line x1="276" y1="330" x2="288" y2="330" stroke="#d1495b" stroke-width="3"/>
+<text x="296" y="322" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#d1495b">10 ITAMs</text>
+<text x="24" y="348" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333">T cell</text>
+
+<rect x="330" y="76" width="140" height="126" rx="4" fill="#ffffff" stroke="#8fa8c0" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="400" y="92" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333" text-anchor="middle">Top view of the interface</text>
+<ellipse cx="400" cy="142" rx="58" ry="32" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+<line x1="350" y1="128" x2="450" y2="128" stroke="#1a6fb5" stroke-width="3.5"/>
+<line x1="350" y1="156" x2="450" y2="156" stroke="#1a6fb5" stroke-width="3.5"/>
+<line x1="358" y1="142" x2="442" y2="142" stroke="#d1495b" stroke-width="3.5"/>
+<rect x="356" y="124" width="88" height="36" fill="none" stroke="#111" stroke-width="1.5" stroke-dasharray="5 3" transform="rotate(-50 400 142)"/>
+<text x="400" y="196" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="middle">TCR footprint lies &#8776;50&#176; to the groove</text>
+
+<text x="530" y="44" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#333">P = (k&#8226;&#964; / (1 + k&#8226;&#964;))^N with k = 0.5 per s</text>
+<line x1="530" y1="320" x2="806" y2="320" stroke="#111" stroke-width="1.2"/>
+<line x1="530" y1="320" x2="530" y2="66" stroke="#111" stroke-width="1.2"/>
+
+<line x1="526" y1="320" x2="530" y2="320" stroke="#111" stroke-width="1"/>
+<line x1="526" y1="257.5" x2="530" y2="257.5" stroke="#111" stroke-width="1"/>
+<line x1="526" y1="195" x2="530" y2="195" stroke="#111" stroke-width="1"/>
+<line x1="526" y1="132.5" x2="530" y2="132.5" stroke="#111" stroke-width="1"/>
+<line x1="526" y1="70" x2="530" y2="70" stroke="#111" stroke-width="1"/>
+<text x="522" y="324" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="end">0</text>
+<text x="522" y="261" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="end">0.25</text>
+<text x="522" y="198" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="end">0.5</text>
+<text x="522" y="136" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="end">0.75</text>
+<text x="522" y="74" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="end">1</text>
+
+<line x1="530" y1="320" x2="530" y2="324" stroke="#111" stroke-width="1"/>
+<line x1="599" y1="320" x2="599" y2="324" stroke="#111" stroke-width="1"/>
+<line x1="668" y1="320" x2="668" y2="324" stroke="#111" stroke-width="1"/>
+<line x1="737" y1="320" x2="737" y2="324" stroke="#111" stroke-width="1"/>
+<line x1="806" y1="320" x2="806" y2="324" stroke="#111" stroke-width="1"/>
+<text x="530" y="336" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="middle">0</text>
+<text x="599" y="336" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="middle">5</text>
+<text x="668" y="336" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="middle">10</text>
+<text x="737" y="336" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="middle">15</text>
+<text x="806" y="336" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="middle">20</text>
+<text x="668" y="352" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333" text-anchor="middle">dwell time &#964; = 1 / k_off  (seconds)</text>
+<text x="502" y="195" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333" text-anchor="middle" transform="rotate(-90 502 195)">signalling probability</text>
+
+<line x1="543.8" y1="320" x2="543.8" y2="72" stroke="#aaa" stroke-width="1" stroke-dasharray="3 3"/>
+<line x1="599" y1="320" x2="599" y2="72" stroke="#aaa" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="543.8" y="64" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="middle">&#964; = 1 s</text>
+<text x="599" y="64" font-family="Helvetica,Arial,sans-serif" font-size="9.5" fill="#333" text-anchor="middle">&#964; = 5 s</text>
+
+<polyline points="530,320 543.8,236.7 557.6,195 571.4,170 585.2,153.3 599,141.4 612.8,132.5 640.4,120 668,111.7 695.6,105.7 750.8,97.8 806,92.7" fill="none" stroke="#1a6fb5" stroke-width="2"/>
+<polyline points="530,320 543.8,319 557.6,312.2 571.4,300.6 585.2,287.1 599,273.5 612.8,260.7 640.4,238.1 668,219.5 695.6,204.3 750.8,181.3 806,164.8" fill="none" stroke="#d1495b" stroke-width="2.5"/>
+
+<circle cx="543.8" cy="236.7" r="3" fill="#1a6fb5"/>
+<circle cx="599" cy="141.4" r="3" fill="#1a6fb5"/>
+<circle cx="543.8" cy="319" r="3.2" fill="#d1495b"/>
+<circle cx="599" cy="273.5" r="3.2" fill="#d1495b"/>
+
+<text x="712" y="100" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#1a6fb5">N = 1 step</text>
+<text x="744" y="176" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#d1495b">N = 5 steps</text>
+<text x="600" y="300" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#111">5&#215; longer dwell buys 2.1&#215; signal at N = 1,</text>
+<text x="600" y="313" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#111">but 45&#215; at N = 5.</text>
+
+<text x="16" y="378" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333">Coral CDR3&#945; and CDR3&#946; loops sit over the peptide; blue CDR1 and CDR2 loops sit over the MHC helices, so the ligand is a composite surface.</text>
+<text x="16" y="394" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333">CD8 grips the non-polymorphic &#945;3 domain &#8212; it reads the MHC class, not the peptide &#8212; and delivers Lck to the ITAMs. CD4 does the same on class II.</text>
+<text x="16" y="410" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#333">The TCR&#8217;s own tails are about five residues long and cannot signal: all 10 ITAMs live on the associated CD3 &#947;&#949;, &#948;&#949; and &#950;&#950; chains.</text>
+</svg>

@@ -1,0 +1,53 @@
+<svg viewBox="0 0 660 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="20" y="20" fill="#8a8a8a" font-style="italic">Each component runs its own clock. Faster than the question is weather; slower is a boundary.</text>
+
+  <!-- log time axis -->
+  <line x1="70" y1="270" x2="620" y2="270" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="620,270 610,265 610,275" fill="#8a8a8a"/>
+  <text x="560" y="300" fill="#8a8a8a">log timescale</text>
+
+  <!-- ticks: day, month, year, decade, century, kyr, 100kyr, Myr -->
+  <line x1="80" y1="265" x2="80" y2="275" stroke="#8a8a8a"/>
+  <text x="66" y="290" fill="#8a8a8a">day</text>
+  <line x1="147" y1="265" x2="147" y2="275" stroke="#8a8a8a"/>
+  <text x="128" y="290" fill="#8a8a8a">month</text>
+  <line x1="214" y1="265" x2="214" y2="275" stroke="#8a8a8a"/>
+  <text x="203" y="290" fill="#8a8a8a">year</text>
+  <line x1="281" y1="265" x2="281" y2="275" stroke="#8a8a8a"/>
+  <text x="262" y="290" fill="#8a8a8a">decade</text>
+  <line x1="348" y1="265" x2="348" y2="275" stroke="#8a8a8a"/>
+  <text x="327" y="290" fill="#8a8a8a">century</text>
+  <line x1="415" y1="265" x2="415" y2="275" stroke="#8a8a8a"/>
+  <text x="404" y="290" fill="#8a8a8a">10&#179; yr</text>
+  <line x1="482" y1="265" x2="482" y2="275" stroke="#8a8a8a"/>
+  <text x="470" y="290" fill="#8a8a8a">10&#8308; yr</text>
+  <line x1="549" y1="265" x2="549" y2="275" stroke="#8a8a8a"/>
+  <text x="537" y="290" fill="#8a8a8a">10&#8310; yr</text>
+
+  <!-- component bars -->
+  <rect x="80" y="46" width="90" height="16" fill="#4a90d9" opacity="0.3" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="176" y="59" fill="#4a90d9">atmosphere (weeks)</text>
+
+  <rect x="147" y="72" width="150" height="16" fill="#4a90d9" opacity="0.3" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="303" y="85" fill="#4a90d9">mixed-layer ocean (months&#8211;years)</text>
+
+  <rect x="120" y="98" width="130" height="16" fill="#4a90d9" opacity="0.3" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="256" y="111" fill="#4a90d9">sea ice, land surface, seasonal snow</text>
+
+  <rect x="260" y="124" width="180" height="16" fill="#e0645c" opacity="0.3" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="446" y="137" fill="#e0645c">deep ocean (10&#178;&#8211;10&#179; yr)</text>
+
+  <rect x="280" y="150" width="150" height="16" fill="#4a90d9" opacity="0.3" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="436" y="163" fill="#4a90d9">mountain glaciers, vegetation</text>
+
+  <rect x="340" y="176" width="180" height="16" fill="#e0645c" opacity="0.3" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="526" y="189" fill="#e0645c">ice sheets</text>
+
+  <rect x="440" y="202" width="170" height="16" fill="#e0645c" opacity="0.3" stroke="#e0645c" stroke-width="1.5"/>
+  <text x="330" y="215" fill="#e0645c" text-anchor="end">silicate weathering, tectonics</text>
+
+  <!-- the human-forcing window -->
+  <line x1="281" y1="38" x2="281" y2="262" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 4"/>
+  <line x1="348" y1="38" x2="348" y2="262" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="314" y="36" fill="#8a8a8a" text-anchor="middle" font-style="italic">the question we ask</text>
+</svg>

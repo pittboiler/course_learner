@@ -1,0 +1,44 @@
+<svg viewBox="0 0 700 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="11.5">
+  <text x="20" y="18" fill="#8a8a8a" font-style="italic">Equatorial Pacific along the equator. The trades tilt the thermocline; the pressure gradient drives a jet back east.</text>
+
+  <text x="106" y="308" fill="#8a8a8a">west (150 E)</text>
+  <text x="574" y="308" fill="#8a8a8a">east (90 W)</text>
+  <line x1="100" y1="292" x2="640" y2="292" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="46" y="70" fill="#8a8a8a">0 m</text>
+  <text x="40" y="176" fill="#8a8a8a">150 m</text>
+  <text x="40" y="252" fill="#8a8a8a">250 m</text>
+
+  <line x1="100" y1="62" x2="640" y2="80" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="382" y="56" fill="#4a90d9">sea surface: 0.49 m higher in the west</text>
+
+  <path d="M 100,176 L 220,168 L 340,150 L 460,126 L 560,106 L 640,98" fill="none" stroke="#e0645c" stroke-width="3"/>
+  <text x="122" y="196" fill="#e0645c">thermocline, 127 m deeper in the west</text>
+
+  <line x1="480" y1="34" x2="200" y2="34" stroke="#8a8a8a" stroke-width="3"/>
+  <polygon points="188,34 204,28 204,40" fill="#8a8a8a"/>
+  <text x="486" y="38" fill="#8a8a8a">easterly trades</text>
+
+  <line x1="420" y1="94" x2="240" y2="94" stroke="#4a90d9" stroke-width="2.5"/>
+  <polygon points="228,94 244,88 244,100" fill="#4a90d9"/>
+  <text x="256" y="112" fill="#4a90d9">surface flow, westward</text>
+
+  <line x1="220" y1="152" x2="500" y2="122" stroke="#4a90d9" stroke-width="5"/>
+  <polygon points="512,120 495,116 497,128" fill="#4a90d9"/>
+  <text x="248" y="140" fill="#4a90d9">EQUATORIAL UNDERCURRENT: eastward, 1 m s&#8315;&#185;, 30 Sv</text>
+
+  <line x1="590" y1="150" x2="590" y2="106" stroke="#e0645c" stroke-width="2.5"/>
+  <polygon points="590,96 584,110 596,110" fill="#e0645c"/>
+  <text x="530" y="168" fill="#e0645c">upwelling</text>
+
+  <text x="120" y="86" fill="#8a8a8a">WARM POOL</text>
+  <text x="126" y="98" fill="#8a8a8a">29 C</text>
+  <text x="560" y="70" fill="#8a8a8a">COLD TONGUE</text>
+  <text x="586" y="60" fill="#8a8a8a">23 C</text>
+
+  <text x="120" y="238" fill="#8a8a8a">Kelvin waves run east at 2.4 m s&#8315;&#185;, crossing the basin in 73 days</text>
+  <text x="120" y="252" fill="#8a8a8a">Rossby waves run west at 0.8 m s&#8315;&#185;, returning in 7.2 months</text>
+  <line x1="112" y1="234" x2="180" y2="234" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="192,234 176,229 176,239" fill="#4a90d9"/>
+  <line x1="180" y1="248" x2="112" y2="248" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="100,248 116,243 116,253" fill="#e0645c"/>
+</svg>

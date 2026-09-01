@@ -1,0 +1,43 @@
+<svg viewBox="0 0 700 332" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="11.5">
+  <text x="20" y="18" fill="#8a8a8a" font-style="italic">Ocean floor sinks as the square root of its age, because that is how far heat has diffused out of it.</text>
+
+  <line x1="50" y1="60" x2="330" y2="60" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="52" y="52" fill="#8a8a8a">sea surface</text>
+  <text x="16" y="120" fill="#8a8a8a">depth</text>
+
+  <path d="M 60,110 Q 110,138 160,158 Q 220,178 280,190 Q 306,194 326,196" fill="none" stroke="#4a90d9" stroke-width="2.8"/>
+  <text x="64" y="102" fill="#4a90d9">ridge crest, 2500 m</text>
+  <text x="236" y="212" fill="#4a90d9">5000 m at 50 Myr</text>
+
+  <path d="M 60,124 Q 116,168 170,196 Q 230,224 290,244 Q 312,250 326,254" fill="none" stroke="#e0645c" stroke-width="1.8" stroke-dasharray="6 4"/>
+  <text x="212" y="272" fill="#e0645c">&#8730;t alone would keep sinking</text>
+
+  <line x1="252" y1="60" x2="252" y2="230" stroke="#8a8a8a" stroke-width="0.8" stroke-dasharray="3 3"/>
+  <text x="230" y="244" fill="#8a8a8a">80 Myr</text>
+  <text x="264" y="176" fill="#8a8a8a">real seafloor</text>
+  <text x="264" y="190" fill="#8a8a8a">flattens here</text>
+
+  <text x="50" y="290" fill="#8a8a8a">The flattening is the plate model: the lithosphere stops thickening once heat arrives from below.</text>
+
+  <line x1="410" y1="60" x2="410" y2="230" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="410" y1="230" x2="672" y2="230" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="516" y="250" fill="#8a8a8a">age (Myr)</text>
+  <text x="380" y="72" fill="#8a8a8a">q</text>
+  <line x1="410" y1="226" x2="410" y2="234" stroke="#8a8a8a"/><text x="406" y="246" fill="#8a8a8a">0</text>
+  <line x1="480" y1="226" x2="480" y2="234" stroke="#8a8a8a"/><text x="474" y="246" fill="#8a8a8a">20</text>
+  <line x1="620" y1="226" x2="620" y2="234" stroke="#8a8a8a"/><text x="612" y="246" fill="#8a8a8a">100</text>
+
+  <path d="M 424,70 Q 444,132 480,166 Q 530,196 580,210 Q 626,218 670,222" fill="none" stroke="#e0645c" stroke-width="2.4" stroke-dasharray="6 4"/>
+  <text x="430" y="66" fill="#e0645c">predicted: q &#8733; 1/&#8730;t</text>
+
+  <path d="M 424,160 Q 448,168 480,178 Q 530,198 580,210 Q 626,218 670,222" fill="none" stroke="#4a90d9" stroke-width="2.6"/>
+  <text x="430" y="152" fill="#4a90d9">measured</text>
+
+  <path d="M 440,88 L 440,164" stroke="#8a8a8a" stroke-width="1.4"/>
+  <polygon points="440,168 435,154 445,154" fill="#8a8a8a"/>
+  <text x="448" y="112" fill="#8a8a8a">the missing heat is</text>
+  <text x="448" y="126" fill="#8a8a8a">carried by circulating</text>
+  <text x="448" y="140" fill="#8a8a8a">seawater, not by rock</text>
+
+  <text x="30" y="314" fill="#8a8a8a">A conductive thermometer cannot see heat that leaves by convection through the crust.</text>
+</svg>

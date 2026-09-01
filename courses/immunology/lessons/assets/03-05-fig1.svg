@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 400" width="820" height="400" role="img" aria-label="A naive CD4 T cell branching into five helper subsets, each with its master transcription factor, input and output cytokines and target pathogen class, with mutual-inhibition links drawn between neighbouring subsets.">
+  <rect width="820" height="400" fill="#ffffff"/>
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#333"/>
+    </marker>
+  </defs>
+
+  <text x="8" y="16" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#111">signal 1  peptide&#8211;MHC-II &#8594; TCR      signal 2  B7 &#8594; CD28, present only after the dendritic cell's PRRs fired</text>
+  <text x="8" y="31" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#111">signal 3  the polarizing cytokine &#8212; this is what chooses the programme below</text>
+
+  <circle cx="410" cy="68" r="26" fill="#f5f7fa" stroke="#333" stroke-width="1.5"/>
+  <text x="410" y="65" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#111">naive</text>
+  <text x="410" y="77" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="10" fill="#111">CD4</text>
+
+  <line x1="400" y1="94" x2="90" y2="145" stroke="#333" stroke-width="1.2" marker-end="url(#ah)"/>
+  <line x1="404" y1="95" x2="248" y2="145" stroke="#333" stroke-width="1.2" marker-end="url(#ah)"/>
+  <line x1="410" y1="95" x2="410" y2="145" stroke="#333" stroke-width="1.2" marker-end="url(#ah)"/>
+  <line x1="416" y1="95" x2="572" y2="145" stroke="#333" stroke-width="1.2" marker-end="url(#ah)"/>
+  <line x1="420" y1="94" x2="730" y2="145" stroke="#333" stroke-width="1.2" marker-end="url(#ah)"/>
+
+  <rect x="8" y="150" width="148" height="130" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+  <rect x="8" y="150" width="148" height="22" fill="#1a6fb5"/>
+  <text x="82" y="165" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11.5" font-weight="bold" fill="#ffffff">Th1 &#183; T-bet</text>
+  <text x="15" y="190" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#111">in: IL-12, IFN-&#947;</text>
+  <text x="15" y="205" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#111">out: IFN-&#947;, IL-2</text>
+  <text x="15" y="220" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#111">for: intracellular</text>
+  <text x="15" y="235" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#111">bacteria, viruses</text>
+  <text x="15" y="250" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#111">does: arms the</text>
+  <text x="15" y="265" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#111">macrophage</text>
+
+  <rect x="172" y="150" width="148" height="130" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+  <rect x="172" y="150" width="148" height="22" fill="#d1495b"/>
+  <text x="246" y="165" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11.5" font-weight="bold" fill="#ffffff">Th2 &#183; GATA3</text>
+  <text x="179" y="190" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#111">in: IL-4</text>
+  <text x="179" y="205" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#111">out: IL-4, IL-5, IL-13</text>
+  <text x="179" y="220" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#111">for: helminths,</text>
+  <text x="179" y="235" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#111">allergens</text>
+  <text x="179" y="250" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#111">does: IgE, eosinophils,</text>
+  <text x="179" y="265" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#111">mucus</text>
+
+  <rect x="336" y="150" width="148" height="130" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+  <rect x="336" y="150" width="148" height="22" fill="#2e8b57"/>
+  <text x="410" y="165" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11.5" font-weight="bold" fill="#ffffff">Th17 &#183; ROR&#947;t</text>
+  <text x="343" y="190" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#111">in: TGF-&#946; + IL-6, IL-23</text>
+  <text x="343" y="205" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#111">out: IL-17, IL-22</text>
+  <text x="343" y="220" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#111">for: extracellular</text>
+  <text x="343" y="235" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#111">bacteria &amp; fungi</text>
+  <text x="343" y="250" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#111">does: recruits</text>
+  <text x="343" y="265" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#111">neutrophils</text>
+
+  <rect x="500" y="150" width="148" height="130" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+  <rect x="500" y="150" width="148" height="22" fill="#4a6fa5"/>
+  <text x="574" y="165" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11.5" font-weight="bold" fill="#ffffff">Tfh &#183; Bcl-6</text>
+  <text x="507" y="190" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#111">in: IL-6, IL-21, ICOS</text>
+  <text x="507" y="205" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#111">out: IL-21, CD40L</text>
+  <text x="507" y="220" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#111">for: any T-dependent</text>
+  <text x="507" y="235" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#111">protein antigen</text>
+  <text x="507" y="250" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#111">does: germinal-centre</text>
+  <text x="507" y="265" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#111">help (3.3)</text>
+
+  <rect x="664" y="150" width="148" height="130" fill="#f5f7fa" stroke="#8fa8c0" stroke-width="1"/>
+  <rect x="664" y="150" width="148" height="22" fill="#555555"/>
+  <text x="738" y="165" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11.5" font-weight="bold" fill="#ffffff">Treg &#183; FoxP3</text>
+  <text x="671" y="190" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#111">in: TGF-&#946;, IL-2</text>
+  <text x="671" y="205" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#111">out: IL-10, TGF-&#946;</text>
+  <text x="671" y="220" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#111">for: self, commensals</text>
+  <text x="671" y="235" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#111">and quiet tissue</text>
+  <text x="671" y="250" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#111">does: suppresses</text>
+  <text x="671" y="265" font-family="Helvetica,Arial,sans-serif" font-size="9.8" fill="#111">the others (4.3)</text>
+
+  <path d="M 82 286 Q 164 336 246 286" fill="none" stroke="#d1495b" stroke-width="1.4"/>
+  <line x1="72" y1="286" x2="92" y2="286" stroke="#d1495b" stroke-width="2.2"/>
+  <line x1="236" y1="286" x2="256" y2="286" stroke="#d1495b" stroke-width="2.2"/>
+
+  <path d="M 246 286 Q 328 336 410 286" fill="none" stroke="#2e8b57" stroke-width="1.4"/>
+  <line x1="400" y1="286" x2="420" y2="286" stroke="#2e8b57" stroke-width="2.2"/>
+
+  <path d="M 410 286 Q 574 344 738 286" fill="none" stroke="#555555" stroke-width="1.4"/>
+  <line x1="728" y1="286" x2="748" y2="286" stroke="#555555" stroke-width="2.2"/>
+
+  <text x="8" y="366" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#111">Bars mark mutual repression: each master regulator drives its own expression and shuts the others down.</text>
+  <text x="8" y="382" font-family="Helvetica,Arial,sans-serif" font-size="10.5" fill="#111">That is a toggle switch &#8212; the cell does not blend the programmes, it commits to one and stays there.</text>
+</svg>
