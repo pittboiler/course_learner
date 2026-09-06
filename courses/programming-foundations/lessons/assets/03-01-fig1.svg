@@ -1,0 +1,52 @@
+<svg viewBox="0 0 760 470" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="12.5">
+  <text x="24.0" y="22.0" fill="#8a8a8a" font-size="12" text-anchor="start" font-style="italic">Same seven keys, two insertion orders — and the shape decides every future lookup.</text>
+  <text x="190.0" y="58.0" fill="#444444" font-size="11.5" text-anchor="middle">inserted 50, 30, 70, 20, 40, 60, 80</text>
+  <line x1="184.0" y1="104.0" x2="112.0" y2="140.0" stroke="#8a8a8a" stroke-width="1.1"/>
+  <line x1="100.0" y1="156.0" x2="70.0" y2="192.0" stroke="#8a8a8a" stroke-width="1.1"/>
+  <circle cx="64.0" cy="200.0" r="15.0" fill="#faf9f6" stroke="#444444" stroke-width="1.6"/>
+  <text x="64.0" y="204.0" fill="#444444" font-size="11" text-anchor="middle">20</text>
+  <line x1="112.0" y1="156.0" x2="142.0" y2="192.0" stroke="#8a8a8a" stroke-width="1.1"/>
+  <circle cx="148.0" cy="200.0" r="15.0" fill="#faf9f6" stroke="#444444" stroke-width="1.6"/>
+  <text x="148.0" y="204.0" fill="#444444" font-size="11" text-anchor="middle">40</text>
+  <circle cx="106.0" cy="148.0" r="15.0" fill="#faf9f6" stroke="#444444" stroke-width="1.6"/>
+  <text x="106.0" y="152.0" fill="#444444" font-size="11" text-anchor="middle">30</text>
+  <line x1="196.0" y1="104.0" x2="268.0" y2="140.0" stroke="#8a8a8a" stroke-width="1.1"/>
+  <line x1="268.0" y1="156.0" x2="238.0" y2="192.0" stroke="#8a8a8a" stroke-width="1.1"/>
+  <circle cx="232.0" cy="200.0" r="15.0" fill="#faf9f6" stroke="#444444" stroke-width="1.6"/>
+  <text x="232.0" y="204.0" fill="#444444" font-size="11" text-anchor="middle">60</text>
+  <line x1="280.0" y1="156.0" x2="310.0" y2="192.0" stroke="#8a8a8a" stroke-width="1.1"/>
+  <circle cx="316.0" cy="200.0" r="15.0" fill="#faf9f6" stroke="#444444" stroke-width="1.6"/>
+  <text x="316.0" y="204.0" fill="#444444" font-size="11" text-anchor="middle">80</text>
+  <circle cx="274.0" cy="148.0" r="15.0" fill="#faf9f6" stroke="#444444" stroke-width="1.6"/>
+  <text x="274.0" y="152.0" fill="#444444" font-size="11" text-anchor="middle">70</text>
+  <circle cx="190.0" cy="96.0" r="15.0" fill="#faf9f6" stroke="#444444" stroke-width="1.6"/>
+  <text x="190.0" y="100.0" fill="#444444" font-size="11" text-anchor="middle">50</text>
+  <text x="190.0" y="318.0" fill="#4a90d9" font-size="11" text-anchor="middle">height 2  —  a search visits at most 3 nodes</text>
+  <text x="570.0" y="58.0" fill="#444444" font-size="11.5" text-anchor="middle">inserted 20, 30, 40, 50, 60, 70, 80</text>
+  <line x1="476.0" y1="104.0" x2="464.0" y2="120.0" stroke="#8a8a8a" stroke-width="1.1"/>
+  <line x1="476.0" y1="136.0" x2="464.0" y2="152.0" stroke="#8a8a8a" stroke-width="1.1"/>
+  <line x1="476.0" y1="168.0" x2="464.0" y2="184.0" stroke="#8a8a8a" stroke-width="1.1"/>
+  <line x1="476.0" y1="200.0" x2="464.0" y2="216.0" stroke="#8a8a8a" stroke-width="1.1"/>
+  <line x1="476.0" y1="232.0" x2="464.0" y2="248.0" stroke="#8a8a8a" stroke-width="1.1"/>
+  <line x1="476.0" y1="264.0" x2="464.0" y2="280.0" stroke="#8a8a8a" stroke-width="1.1"/>
+  <circle cx="470.0" cy="288.0" r="15.0" fill="#faf9f6" stroke="#d1495b" stroke-width="1.6"/>
+  <text x="470.0" y="292.0" fill="#d1495b" font-size="11" text-anchor="middle">80</text>
+  <circle cx="470.0" cy="256.0" r="15.0" fill="#faf9f6" stroke="#d1495b" stroke-width="1.6"/>
+  <text x="470.0" y="260.0" fill="#d1495b" font-size="11" text-anchor="middle">70</text>
+  <circle cx="470.0" cy="224.0" r="15.0" fill="#faf9f6" stroke="#d1495b" stroke-width="1.6"/>
+  <text x="470.0" y="228.0" fill="#d1495b" font-size="11" text-anchor="middle">60</text>
+  <circle cx="470.0" cy="192.0" r="15.0" fill="#faf9f6" stroke="#d1495b" stroke-width="1.6"/>
+  <text x="470.0" y="196.0" fill="#d1495b" font-size="11" text-anchor="middle">50</text>
+  <circle cx="470.0" cy="160.0" r="15.0" fill="#faf9f6" stroke="#d1495b" stroke-width="1.6"/>
+  <text x="470.0" y="164.0" fill="#d1495b" font-size="11" text-anchor="middle">40</text>
+  <circle cx="470.0" cy="128.0" r="15.0" fill="#faf9f6" stroke="#d1495b" stroke-width="1.6"/>
+  <text x="470.0" y="132.0" fill="#d1495b" font-size="11" text-anchor="middle">30</text>
+  <circle cx="470.0" cy="96.0" r="15.0" fill="#faf9f6" stroke="#d1495b" stroke-width="1.6"/>
+  <text x="470.0" y="100.0" fill="#d1495b" font-size="11" text-anchor="middle">20</text>
+  <text x="560.0" y="318.0" fill="#d1495b" font-size="11" text-anchor="middle">height 6  —  a search visits up to 7 nodes</text>
+  <text x="24.0" y="352.0" fill="#8a8a8a" font-size="10.5" text-anchor="start">Both satisfy the BST property, and both give 20 30 40 50 60 70 80 on an in-order walk. Only the height differs —</text>
+  <text x="24.0" y="368.0" fill="#8a8a8a" font-size="10.5" text-anchor="start">and every operation costs Θ(height), so the right-hand tree is a linked list wearing a tree's clothes.</text>
+  <text x="24.0" y="396.0" fill="#d1495b" font-size="11" text-anchor="start">For n nodes the height ranges from ⌊log₂ n⌋ to n − 1. At n = 10⁶ that is 19 versus 999,999.</text>
+  <text x="24.0" y="428.0" fill="#8a8a8a" font-size="10.5" text-anchor="start">The degenerate case is not exotic: inserting already-sorted data is the single most common way to build a BST,</text>
+  <text x="24.0" y="444.0" fill="#8a8a8a" font-size="10.5" text-anchor="start">which is why nobody ships a plain BST. Lesson 3.2 is about the fix.</text>
+</svg>
