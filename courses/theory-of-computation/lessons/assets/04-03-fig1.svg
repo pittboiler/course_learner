@@ -1,0 +1,41 @@
+<svg viewBox="0 0 760 420" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="12.5">
+  <text x="20.0" y="20.0" fill="#8a8a8a" font-size="11.5" text-anchor="start" font-style="italic">A decision tree for &#8220;is this question about a program decidable?&#8221; Rice's theorem is the bottom-right leaf.</text>
+  <rect x="255.0" y="44.0" width="250.0" height="46.0" rx="8" fill="none" stroke="#444444" stroke-width="1.3"/>
+  <text x="380.0" y="71.0" fill="#444444" font-size="12" text-anchor="middle">Does the answer depend only on L(M)?</text>
+  <line x1="320.0" y1="92.0" x2="194.0" y2="126.9" stroke="#8a8a8a" stroke-width="1.4"/>
+  <polygon points="190.0,128.0 193.6,124.6 194.9,129.1" fill="#8a8a8a"/>
+  <text x="226.0" y="108.0" fill="#8a8a8a" font-size="10.5" text-anchor="end">no &#8212; syntactic</text>
+  <line x1="440.0" y1="92.0" x2="566.0" y2="126.9" stroke="#8a8a8a" stroke-width="1.4"/>
+  <polygon points="570.0,128.0 565.1,129.1 566.4,124.6" fill="#8a8a8a"/>
+  <text x="534.0" y="108.0" fill="#8a8a8a" font-size="10.5" text-anchor="start">yes &#8212; semantic</text>
+  <rect x="40.0" y="130.0" width="300.0" height="66.0" rx="8" fill="none" stroke="#444444" stroke-width="1.3"/>
+  <text x="190.0" y="151.0" fill="#444444" font-size="12" text-anchor="middle">a property of the code</text>
+  <text x="190.0" y="167.0" fill="#8a8a8a" font-size="10.5" text-anchor="middle">&#8220;M has 5 states&#8221;, &#8220;M writes a blank&#8221;,</text>
+  <text x="190.0" y="183.0" fill="#8a8a8a" font-size="10.5" text-anchor="middle">&#8220;M halts on every input&#8221;</text>
+  <rect x="420.0" y="130.0" width="300.0" height="46.0" rx="8" fill="none" stroke="#4a90d9" stroke-width="1.3"/>
+  <text x="570.0" y="157.0" fill="#4a90d9" font-size="12" text-anchor="middle">a property of the language M recognizes</text>
+  <text x="190.0" y="214.0" fill="#444444" font-size="11.5" text-anchor="middle" font-weight="bold">Rice says nothing.</text>
+  <text x="190.0" y="232.0" fill="#8a8a8a" font-size="10.5" text-anchor="middle">Decide it case by case: counting states is easy,</text>
+  <text x="190.0" y="248.0" fill="#8a8a8a" font-size="10.5" text-anchor="middle">&#8220;halts on every input&#8221; is undecidable anyway.</text>
+  <line x1="500.0" y1="178.0" x2="500.0" y2="209.8" stroke="#8a8a8a" stroke-width="1.4"/>
+  <polygon points="500.0,214.0 497.7,209.6 502.3,209.6" fill="#8a8a8a"/>
+  <text x="508.0" y="200.0" fill="#8a8a8a" font-size="10.5" text-anchor="start">is it nontrivial?</text>
+  <rect x="420.0" y="218.0" width="300.0" height="46.0" rx="8" fill="none" stroke="#4a90d9" stroke-width="1.3"/>
+  <text x="570.0" y="237.0" fill="#4a90d9" font-size="12" text-anchor="middle">Some recognizable language has it,</text>
+  <text x="570.0" y="253.0" fill="#8a8a8a" font-size="10.5" text-anchor="middle">and some other one does not?</text>
+  <line x1="470.0" y1="266.0" x2="442.8" y2="296.9" stroke="#8a8a8a" stroke-width="1.4"/>
+  <polygon points="440.0,300.0 441.2,295.1 444.7,298.2" fill="#8a8a8a"/>
+  <text x="424.0" y="288.0" fill="#8a8a8a" font-size="10.5" text-anchor="end">no</text>
+  <line x1="560.0" y1="266.0" x2="606.5" y2="297.6" stroke="#d1495b" stroke-width="1.4"/>
+  <polygon points="610.0,300.0 605.0,299.5 607.7,295.6" fill="#d1495b"/>
+  <text x="626.0" y="288.0" fill="#d1495b" font-size="10.5" text-anchor="start">yes</text>
+  <rect x="320.0" y="304.0" width="180.0" height="60.0" rx="8" fill="none" stroke="#4a90d9" stroke-width="1.3"/>
+  <text x="410.0" y="322.0" fill="#4a90d9" font-size="12" text-anchor="middle">trivial</text>
+  <text x="410.0" y="338.0" fill="#8a8a8a" font-size="10.5" text-anchor="middle">always yes or always no</text>
+  <text x="410.0" y="354.0" fill="#8a8a8a" font-size="10.5" text-anchor="middle">&#8594; DECIDABLE</text>
+  <rect x="520.0" y="304.0" width="210.0" height="60.0" rx="8" fill="none" stroke="#d1495b" stroke-width="1.8"/>
+  <text x="625.0" y="322.0" fill="#d1495b" font-size="12" text-anchor="middle">nontrivial + semantic</text>
+  <text x="625.0" y="338.0" fill="#8a8a8a" font-size="10.5" text-anchor="middle">&#8594; UNDECIDABLE</text>
+  <text x="625.0" y="354.0" fill="#8a8a8a" font-size="10.5" text-anchor="middle">by Rice's theorem, no work</text>
+  <text x="380.0" y="394.0" fill="#444444" font-size="11.5" text-anchor="middle">The two hypotheses are exactly the two questions in the tree. Check both, or the theorem does not apply.</text>
+</svg>

@@ -1,0 +1,75 @@
+<svg viewBox="0 0 760 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="12.5">
+  <text x="20.0" y="20.0" fill="#8a8a8a" font-size="11.5" text-anchor="start" font-style="italic">Three tapes on one: concatenate them between # delimiters and dot the cell each virtual head is on.</text>
+  <text x="20.0" y="52.0" fill="#444444" font-size="11.5" text-anchor="start" font-weight="bold">a 3-tape machine, mid-computation</text>
+  <text x="138.0" y="86.0" fill="#8a8a8a" font-size="11" text-anchor="end">tape 1</text>
+  <rect x="150.0" y="68.0" width="30.0" height="26.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.0"/>
+  <text x="165.0" y="86.0" fill="#444444" font-size="12.5" text-anchor="middle">0</text>
+  <rect x="180.0" y="68.0" width="30.0" height="26.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.0"/>
+  <text x="195.0" y="86.0" fill="#444444" font-size="12.5" text-anchor="middle">1</text>
+  <rect x="210.0" y="68.0" width="30.0" height="26.0" rx="0" fill="none" stroke="#4a90d9" stroke-width="1.8"/>
+  <text x="225.0" y="86.0" fill="#444444" font-size="12.5" text-anchor="middle">1</text>
+  <rect x="240.0" y="68.0" width="30.0" height="26.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.0"/>
+  <text x="255.0" y="86.0" fill="#444444" font-size="12.5" text-anchor="middle">0</text>
+  <rect x="270.0" y="68.0" width="30.0" height="26.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.0"/>
+  <text x="285.0" y="86.0" fill="#8a8a8a" font-size="12.5" text-anchor="middle">&#9251;</text>
+  <text x="225.0" y="62.0" fill="#4a90d9" font-size="9" text-anchor="middle">&#9660;</text>
+  <text x="138.0" y="128.0" fill="#8a8a8a" font-size="11" text-anchor="end">tape 2</text>
+  <rect x="150.0" y="110.0" width="30.0" height="26.0" rx="0" fill="none" stroke="#4a90d9" stroke-width="1.8"/>
+  <text x="165.0" y="128.0" fill="#444444" font-size="12.5" text-anchor="middle">a</text>
+  <rect x="180.0" y="110.0" width="30.0" height="26.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.0"/>
+  <text x="195.0" y="128.0" fill="#444444" font-size="12.5" text-anchor="middle">a</text>
+  <rect x="210.0" y="110.0" width="30.0" height="26.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.0"/>
+  <text x="225.0" y="128.0" fill="#444444" font-size="12.5" text-anchor="middle">b</text>
+  <rect x="240.0" y="110.0" width="30.0" height="26.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.0"/>
+  <text x="255.0" y="128.0" fill="#8a8a8a" font-size="12.5" text-anchor="middle">&#9251;</text>
+  <rect x="270.0" y="110.0" width="30.0" height="26.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.0"/>
+  <text x="285.0" y="128.0" fill="#8a8a8a" font-size="12.5" text-anchor="middle">&#9251;</text>
+  <text x="165.0" y="104.0" fill="#4a90d9" font-size="9" text-anchor="middle">&#9660;</text>
+  <text x="138.0" y="170.0" fill="#8a8a8a" font-size="11" text-anchor="end">tape 3</text>
+  <rect x="150.0" y="152.0" width="30.0" height="26.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.0"/>
+  <text x="165.0" y="170.0" fill="#444444" font-size="12.5" text-anchor="middle">1</text>
+  <rect x="180.0" y="152.0" width="30.0" height="26.0" rx="0" fill="none" stroke="#4a90d9" stroke-width="1.8"/>
+  <text x="195.0" y="170.0" fill="#444444" font-size="12.5" text-anchor="middle">1</text>
+  <rect x="210.0" y="152.0" width="30.0" height="26.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.0"/>
+  <text x="225.0" y="170.0" fill="#8a8a8a" font-size="12.5" text-anchor="middle">&#9251;</text>
+  <rect x="240.0" y="152.0" width="30.0" height="26.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.0"/>
+  <text x="255.0" y="170.0" fill="#8a8a8a" font-size="12.5" text-anchor="middle">&#9251;</text>
+  <rect x="270.0" y="152.0" width="30.0" height="26.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.0"/>
+  <text x="285.0" y="170.0" fill="#8a8a8a" font-size="12.5" text-anchor="middle">&#9251;</text>
+  <text x="195.0" y="146.0" fill="#4a90d9" font-size="9" text-anchor="middle">&#9660;</text>
+  <line x1="20.0" y1="196.0" x2="740.0" y2="196.0" stroke="#8a8a8a" stroke-width="0.8" stroke-dasharray="4 4"/>
+  <text x="30.0" y="190.0" fill="#8a8a8a" font-size="10.5" text-anchor="start" font-style="italic">simulate</text>
+  <text x="20.0" y="228.0" fill="#4a90d9" font-size="11.5" text-anchor="start" font-weight="bold">one tape doing the same job</text>
+  <rect x="118.0" y="250.0" width="30.0" height="26.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.0"/>
+  <text x="133.0" y="268.0" fill="#8a8a8a" font-size="12.5" text-anchor="middle">#</text>
+  <rect x="148.0" y="250.0" width="30.0" height="26.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.0"/>
+  <text x="163.0" y="268.0" fill="#444444" font-size="12.5" text-anchor="middle">0</text>
+  <rect x="178.0" y="250.0" width="30.0" height="26.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.0"/>
+  <text x="193.0" y="268.0" fill="#444444" font-size="12.5" text-anchor="middle">1</text>
+  <rect x="208.0" y="250.0" width="30.0" height="26.0" rx="0" fill="none" stroke="#4a90d9" stroke-width="1.6"/>
+  <text x="223.0" y="268.0" fill="#4a90d9" font-size="12.5" text-anchor="middle">1</text>
+  <text x="223.0" y="245.0" fill="#4a90d9" font-size="8" text-anchor="middle">&#9679;</text>
+  <rect x="238.0" y="250.0" width="30.0" height="26.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.0"/>
+  <text x="253.0" y="268.0" fill="#444444" font-size="12.5" text-anchor="middle">0</text>
+  <rect x="268.0" y="250.0" width="30.0" height="26.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.0"/>
+  <text x="283.0" y="268.0" fill="#8a8a8a" font-size="12.5" text-anchor="middle">#</text>
+  <rect x="298.0" y="250.0" width="30.0" height="26.0" rx="0" fill="none" stroke="#4a90d9" stroke-width="1.6"/>
+  <text x="313.0" y="268.0" fill="#4a90d9" font-size="12.5" text-anchor="middle">a</text>
+  <text x="313.0" y="245.0" fill="#4a90d9" font-size="8" text-anchor="middle">&#9679;</text>
+  <rect x="328.0" y="250.0" width="30.0" height="26.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.0"/>
+  <text x="343.0" y="268.0" fill="#444444" font-size="12.5" text-anchor="middle">a</text>
+  <rect x="358.0" y="250.0" width="30.0" height="26.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.0"/>
+  <text x="373.0" y="268.0" fill="#444444" font-size="12.5" text-anchor="middle">b</text>
+  <rect x="388.0" y="250.0" width="30.0" height="26.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.0"/>
+  <text x="403.0" y="268.0" fill="#8a8a8a" font-size="12.5" text-anchor="middle">#</text>
+  <rect x="418.0" y="250.0" width="30.0" height="26.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.0"/>
+  <text x="433.0" y="268.0" fill="#444444" font-size="12.5" text-anchor="middle">1</text>
+  <rect x="448.0" y="250.0" width="30.0" height="26.0" rx="0" fill="none" stroke="#4a90d9" stroke-width="1.6"/>
+  <text x="463.0" y="268.0" fill="#4a90d9" font-size="12.5" text-anchor="middle">1</text>
+  <text x="463.0" y="245.0" fill="#4a90d9" font-size="8" text-anchor="middle">&#9679;</text>
+  <rect x="478.0" y="250.0" width="30.0" height="26.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.0"/>
+  <text x="493.0" y="268.0" fill="#8a8a8a" font-size="12.5" text-anchor="middle">#</text>
+  <text x="313.0" y="300.0" fill="#444444" font-size="11" text-anchor="middle">A dotted symbol is a second copy of the tape alphabet, so the alphabet doubles &#8212;</text>
+  <text x="313.0" y="318.0" fill="#444444" font-size="11" text-anchor="middle">finitely many symbols, which is all the definition requires.</text>
+  <text x="313.0" y="346.0" fill="#d1495b" font-size="11.5" text-anchor="middle">One simulated step = two passes over the whole tape &#8594; O(t) per step, O(t&#178;) overall.</text>
+</svg>

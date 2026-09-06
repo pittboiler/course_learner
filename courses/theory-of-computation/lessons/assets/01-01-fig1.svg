@@ -1,0 +1,41 @@
+<svg viewBox="0 0 760 190" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="12.5">
+  <text x="20.0" y="22.0" fill="#8a8a8a" font-size="12" text-anchor="start" font-style="italic">The &#8220;contains 001&#8221; machine: each state is the longest prefix of 001 seen so far.</text>
+  <circle cx="110.0" cy="122.0" r="21.0" fill="none" stroke="#444444" stroke-width="1.6"/>
+  <text x="110.0" y="126.3" fill="#444444" font-size="12.5" text-anchor="middle">q&#8320;</text>
+  <text x="110.0" y="165.0" fill="#8a8a8a" font-size="11" text-anchor="middle">nothing yet</text>
+  <circle cx="285.0" cy="122.0" r="21.0" fill="none" stroke="#444444" stroke-width="1.6"/>
+  <text x="285.0" y="126.3" fill="#444444" font-size="12.5" text-anchor="middle">q&#8321;</text>
+  <text x="285.0" y="165.0" fill="#8a8a8a" font-size="11" text-anchor="middle">seen 0</text>
+  <circle cx="460.0" cy="122.0" r="21.0" fill="none" stroke="#444444" stroke-width="1.6"/>
+  <text x="460.0" y="126.3" fill="#444444" font-size="12.5" text-anchor="middle">q&#8322;</text>
+  <text x="460.0" y="165.0" fill="#8a8a8a" font-size="11" text-anchor="middle">seen 00</text>
+  <circle cx="650.0" cy="122.0" r="21.0" fill="none" stroke="#4a90d9" stroke-width="1.6"/>
+  <circle cx="650.0" cy="122.0" r="16.8" fill="none" stroke="#4a90d9" stroke-width="1.3"/>
+  <text x="650.0" y="126.3" fill="#4a90d9" font-size="12.5" text-anchor="middle">q&#8323;</text>
+  <text x="650.0" y="165.0" fill="#8a8a8a" font-size="11" text-anchor="middle">seen 001 &#8212; done</text>
+  <path d="M 131.0,122.0 Q 197.5,122.0 260.0,122.0" fill="none" stroke="#444444" stroke-width="1.4"/>
+  <polygon points="264.0,122.0 259.6,124.3 259.6,119.7" fill="#444444"/>
+  <text x="197.5" y="134.0" fill="#444444" font-size="12" text-anchor="middle">0</text>
+  <path d="M 306.0,122.0 Q 372.5,122.0 435.0,122.0" fill="none" stroke="#444444" stroke-width="1.4"/>
+  <polygon points="439.0,122.0 434.6,124.3 434.6,119.7" fill="#444444"/>
+  <text x="372.5" y="134.0" fill="#444444" font-size="12" text-anchor="middle">0</text>
+  <path d="M 481.0,122.0 Q 555.0,122.0 625.0,122.0" fill="none" stroke="#4a90d9" stroke-width="1.4"/>
+  <polygon points="629.0,122.0 624.6,124.3 624.6,119.7" fill="#4a90d9"/>
+  <text x="555.0" y="134.0" fill="#4a90d9" font-size="12" text-anchor="middle">1</text>
+  <path d="M 99.0,106.0 C 80.0,71.0 140.0,71.0 121.0,106.0" fill="none" stroke="#444444" stroke-width="1.4"/>
+  <polygon points="121.0,106.0 121.0,111.0 116.9,108.8" fill="#444444"/>
+  <text x="110.0" y="72.0" fill="#444444" font-size="12" text-anchor="middle">1</text>
+  <path d="M 449.0,106.0 C 430.0,71.0 490.0,71.0 471.0,106.0" fill="none" stroke="#444444" stroke-width="1.4"/>
+  <polygon points="471.0,106.0 471.0,111.0 466.9,108.8" fill="#444444"/>
+  <text x="460.0" y="72.0" fill="#444444" font-size="12" text-anchor="middle">0</text>
+  <path d="M 639.0,106.0 C 620.0,71.0 680.0,71.0 661.0,106.0" fill="none" stroke="#4a90d9" stroke-width="1.4"/>
+  <polygon points="661.0,106.0 661.0,111.0 656.9,108.8" fill="#4a90d9"/>
+  <text x="650.0" y="72.0" fill="#4a90d9" font-size="12" text-anchor="middle">0, 1</text>
+  <path d="M 266.4,131.8 Q 197.5,168.0 132.1,133.6" fill="none" stroke="#444444" stroke-width="1.4"/>
+  <polygon points="128.6,131.8 133.6,131.7 131.4,135.9" fill="#444444"/>
+  <text x="197.5" y="162.5" fill="#444444" font-size="12" text-anchor="middle">1</text>
+  <line x1="63.0" y1="122.0" x2="82.8" y2="122.0" stroke="#444444" stroke-width="1.4"/>
+  <polygon points="87.0,122.0 82.6,124.3 82.6,119.7" fill="#444444"/>
+  <text x="60.0" y="126.0" fill="#8a8a8a" font-size="10.5" text-anchor="end">start</text>
+  <text x="650.0" y="56.0" fill="#4a90d9" font-size="11" text-anchor="middle">accepting</text>
+</svg>
