@@ -1,0 +1,69 @@
+<svg viewBox="0 0 760 368" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="12.5">
+  <text x="20.0" y="20.0" fill="#8a8a8a" font-size="11.5" text-anchor="start" font-style="italic">One operation per nanosecond. The column you are in matters far more than the constant in front of it.</text>
+  <text x="104.0" y="64.0" fill="#8a8a8a" font-size="11.5" text-anchor="end">n</text>
+  <text x="179.0" y="64.0" fill="#444444" font-size="12" text-anchor="middle">n</text>
+  <text x="297.0" y="64.0" fill="#444444" font-size="12" text-anchor="middle">n log&#8322; n</text>
+  <text x="415.0" y="64.0" fill="#444444" font-size="12" text-anchor="middle">n&#178;</text>
+  <text x="533.0" y="64.0" fill="#444444" font-size="12" text-anchor="middle">n&#179;</text>
+  <text x="651.0" y="64.0" fill="#444444" font-size="12" text-anchor="middle">2&#8319;</text>
+  <text x="104.0" y="95.0" fill="#8a8a8a" font-size="11.5" text-anchor="end">10</text>
+  <rect x="120.0" y="74.0" width="118.0" height="34.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="179.0" y="95.0" fill="#444444" font-size="11" text-anchor="middle">10 ns</text>
+  <rect x="238.0" y="74.0" width="118.0" height="34.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="297.0" y="95.0" fill="#444444" font-size="11" text-anchor="middle">33 ns</text>
+  <rect x="356.0" y="74.0" width="118.0" height="34.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="415.0" y="95.0" fill="#444444" font-size="11" text-anchor="middle">100 ns</text>
+  <rect x="474.0" y="74.0" width="118.0" height="34.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="533.0" y="95.0" fill="#444444" font-size="11" text-anchor="middle">1 &#181;s</text>
+  <rect x="592.0" y="74.0" width="118.0" height="34.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="651.0" y="95.0" fill="#444444" font-size="11" text-anchor="middle">1.02 &#181;s</text>
+  <text x="104.0" y="129.0" fill="#8a8a8a" font-size="11.5" text-anchor="end">100</text>
+  <rect x="120.0" y="108.0" width="118.0" height="34.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="179.0" y="129.0" fill="#444444" font-size="11" text-anchor="middle">100 ns</text>
+  <rect x="238.0" y="108.0" width="118.0" height="34.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="297.0" y="129.0" fill="#444444" font-size="11" text-anchor="middle">664 ns</text>
+  <rect x="356.0" y="108.0" width="118.0" height="34.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="415.0" y="129.0" fill="#444444" font-size="11" text-anchor="middle">10 &#181;s</text>
+  <rect x="474.0" y="108.0" width="118.0" height="34.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="533.0" y="129.0" fill="#444444" font-size="11" text-anchor="middle">1 ms</text>
+  <rect x="592.0" y="108.0" width="118.0" height="34.0" rx="0" fill="none" stroke="#d1495b" stroke-width="1.5"/>
+  <text x="651.0" y="129.0" fill="#d1495b" font-size="11" text-anchor="middle">10&#185;&#8308; yr</text>
+  <text x="104.0" y="163.0" fill="#8a8a8a" font-size="11.5" text-anchor="end">1&#8201;000</text>
+  <rect x="120.0" y="142.0" width="118.0" height="34.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="179.0" y="163.0" fill="#444444" font-size="11" text-anchor="middle">1 &#181;s</text>
+  <rect x="238.0" y="142.0" width="118.0" height="34.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="297.0" y="163.0" fill="#444444" font-size="11" text-anchor="middle">9.97 &#181;s</text>
+  <rect x="356.0" y="142.0" width="118.0" height="34.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="415.0" y="163.0" fill="#444444" font-size="11" text-anchor="middle">1 ms</text>
+  <rect x="474.0" y="142.0" width="118.0" height="34.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="533.0" y="163.0" fill="#444444" font-size="11" text-anchor="middle">1 s</text>
+  <rect x="592.0" y="142.0" width="118.0" height="34.0" rx="0" fill="none" stroke="#d1495b" stroke-width="1.5"/>
+  <text x="651.0" y="163.0" fill="#d1495b" font-size="11" text-anchor="middle">10&#178;&#8312;&#8309; yr</text>
+  <text x="104.0" y="197.0" fill="#8a8a8a" font-size="11.5" text-anchor="end">10&#8201;000</text>
+  <rect x="120.0" y="176.0" width="118.0" height="34.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="179.0" y="197.0" fill="#444444" font-size="11" text-anchor="middle">10 &#181;s</text>
+  <rect x="238.0" y="176.0" width="118.0" height="34.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="297.0" y="197.0" fill="#444444" font-size="11" text-anchor="middle">133 &#181;s</text>
+  <rect x="356.0" y="176.0" width="118.0" height="34.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="415.0" y="197.0" fill="#444444" font-size="11" text-anchor="middle">100 ms</text>
+  <rect x="474.0" y="176.0" width="118.0" height="34.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="533.0" y="197.0" fill="#444444" font-size="11" text-anchor="middle">16.7 min</text>
+  <rect x="592.0" y="176.0" width="118.0" height="34.0" rx="0" fill="none" stroke="#d1495b" stroke-width="1.5"/>
+  <text x="651.0" y="197.0" fill="#d1495b" font-size="11" text-anchor="middle">10&#178;&#8313;&#8313;&#8308; yr</text>
+  <text x="104.0" y="231.0" fill="#8a8a8a" font-size="11.5" text-anchor="end">1&#8201;000&#8201;000</text>
+  <rect x="120.0" y="210.0" width="118.0" height="34.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="179.0" y="231.0" fill="#444444" font-size="11" text-anchor="middle">1 ms</text>
+  <rect x="238.0" y="210.0" width="118.0" height="34.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="297.0" y="231.0" fill="#444444" font-size="11" text-anchor="middle">19.9 ms</text>
+  <rect x="356.0" y="210.0" width="118.0" height="34.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="415.0" y="231.0" fill="#444444" font-size="11" text-anchor="middle">16.7 min</text>
+  <rect x="474.0" y="210.0" width="118.0" height="34.0" rx="0" fill="none" stroke="#d1495b" stroke-width="1.5"/>
+  <text x="533.0" y="231.0" fill="#d1495b" font-size="11" text-anchor="middle">31.7 yr</text>
+  <rect x="592.0" y="210.0" width="118.0" height="34.0" rx="0" fill="none" stroke="#d1495b" stroke-width="1.5"/>
+  <text x="651.0" y="231.0" fill="#d1495b" font-size="11" text-anchor="middle">10&#179;&#8304;&#185;&#8304;&#185;&#179; yr</text>
+  <line x1="20.0" y1="262.0" x2="740.0" y2="262.0" stroke="#8a8a8a" stroke-width="0.8" stroke-dasharray="4 4"/>
+  <text x="20.0" y="286.0" fill="#444444" font-size="11.5" text-anchor="start" font-weight="bold">Read the table as three thresholds, not five columns:</text>
+  <text x="30.0" y="306.0" fill="#444444" font-size="11" text-anchor="start">&#8226;  n and n log n  &#8212;  the input size is essentially not the limit</text>
+  <text x="30.0" y="324.0" fill="#444444" font-size="11" text-anchor="start">&#8226;  n&#178;  &#8212;  fine at a thousand, painful at a million. This is where the accidental quadratic bites.</text>
+  <text x="30.0" y="342.0" fill="#d1495b" font-size="11" text-anchor="start">&#8226;  n&#179; and 2&#8319;  &#8212;  the input size IS the limit, and no constant factor will save you</text>
+</svg>

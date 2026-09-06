@@ -1,0 +1,32 @@
+<svg viewBox="0 0 760 352" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="12.5">
+  <text x="20.0" y="20.0" fill="#8a8a8a" font-size="11.5" text-anchor="start" font-style="italic">Compare the work at the leaves, n^(log&#8342; a), against the work at the root, f(n). Whichever wins, wins.</text>
+  <rect x="40.0" y="58.0" width="200.0" height="206.0" rx="8" fill="none" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="140.0" y="80.0" fill="#4a90d9" font-size="12.5" text-anchor="middle" font-weight="bold">case 1</text>
+  <text x="140.0" y="106.0" fill="#444444" font-size="11" text-anchor="middle">f(n) = O(n^(log&#8342;a &#8722; &#949;))</text>
+  <text x="140.0" y="134.0" fill="#8a8a8a" font-size="11" text-anchor="middle" font-style="italic">leaves dominate</text>
+  <rect x="86.0" y="162.0" width="34.0" height="56.0" rx="0" fill="none" stroke="#4a90d9" stroke-width="1.2"/>
+  <text x="103.0" y="234.0" fill="#8a8a8a" font-size="9.5" text-anchor="middle">leaves</text>
+  <rect x="160.0" y="198.0" width="34.0" height="20.0" rx="0" fill="none" stroke="#4a90d9" stroke-width="1.2"/>
+  <text x="177.0" y="234.0" fill="#8a8a8a" font-size="9.5" text-anchor="middle">root</text>
+  <text x="140.0" y="254.0" fill="#4a90d9" font-size="11.5" text-anchor="middle">T(n) = &#920;(n^(log&#8342;a))</text>
+  <rect x="285.0" y="58.0" width="200.0" height="206.0" rx="8" fill="none" stroke="#444444" stroke-width="1.5"/>
+  <text x="385.0" y="80.0" fill="#444444" font-size="12.5" text-anchor="middle" font-weight="bold">case 2</text>
+  <text x="385.0" y="106.0" fill="#444444" font-size="11" text-anchor="middle">f(n) = &#920;(n^(log&#8342;a))</text>
+  <text x="385.0" y="134.0" fill="#8a8a8a" font-size="11" text-anchor="middle" font-style="italic">every level ties</text>
+  <rect x="331.0" y="180.0" width="34.0" height="38.0" rx="0" fill="none" stroke="#444444" stroke-width="1.2"/>
+  <text x="348.0" y="234.0" fill="#8a8a8a" font-size="9.5" text-anchor="middle">leaves</text>
+  <rect x="405.0" y="180.0" width="34.0" height="38.0" rx="0" fill="none" stroke="#444444" stroke-width="1.2"/>
+  <text x="422.0" y="234.0" fill="#8a8a8a" font-size="9.5" text-anchor="middle">root</text>
+  <text x="385.0" y="254.0" fill="#444444" font-size="11.5" text-anchor="middle">T(n) = &#920;(n^(log&#8342;a) log n)</text>
+  <rect x="530.0" y="58.0" width="200.0" height="206.0" rx="8" fill="none" stroke="#d1495b" stroke-width="1.5"/>
+  <text x="630.0" y="80.0" fill="#d1495b" font-size="12.5" text-anchor="middle" font-weight="bold">case 3</text>
+  <text x="630.0" y="106.0" fill="#444444" font-size="11" text-anchor="middle">f(n) = &#937;(n^(log&#8342;a + &#949;))</text>
+  <text x="630.0" y="134.0" fill="#8a8a8a" font-size="11" text-anchor="middle" font-style="italic">root dominates</text>
+  <rect x="576.0" y="198.0" width="34.0" height="20.0" rx="0" fill="none" stroke="#d1495b" stroke-width="1.2"/>
+  <text x="593.0" y="234.0" fill="#8a8a8a" font-size="9.5" text-anchor="middle">leaves</text>
+  <rect x="650.0" y="162.0" width="34.0" height="56.0" rx="0" fill="none" stroke="#d1495b" stroke-width="1.2"/>
+  <text x="667.0" y="234.0" fill="#8a8a8a" font-size="9.5" text-anchor="middle">root</text>
+  <text x="630.0" y="254.0" fill="#d1495b" font-size="11.5" text-anchor="middle">T(n) = &#920;(f(n))</text>
+  <text x="630.0" y="274.0" fill="#8a8a8a" font-size="9.5" text-anchor="middle">+ regularity: a&#183;f(n/b) &#8804; k&#183;f(n), k&lt;1</text>
+  <text x="380.0" y="318.0" fill="#d1495b" font-size="11" text-anchor="middle">If f(n) sits between two cases &#8212; smaller than n^(log&#8342;a) but not by a factor of n^&#949; &#8212; no case applies. Use a recursion tree.</text>
+</svg>

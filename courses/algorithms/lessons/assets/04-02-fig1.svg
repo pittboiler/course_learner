@@ -1,0 +1,46 @@
+<svg viewBox="0 0 760 436" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="12.5">
+  <text x="24.0" y="22.0" fill="#8a8a8a" font-size="12" text-anchor="start" font-style="italic">3-SAT → Independent Set: one triangle per clause, one edge per contradiction.</text>
+  <path d="M 70,195 Q 106.0,156 142,195" fill="none" stroke="#444444" stroke-width="1.4"/>
+  <path d="M 142,195 Q 178.0,156 214,195" fill="none" stroke="#444444" stroke-width="1.4"/>
+  <path d="M 70,195 Q 142.0,110 214,195" fill="none" stroke="#444444" stroke-width="1.4"/>
+  <text x="142.0" y="74.0" fill="#8a8a8a" font-size="11" text-anchor="middle">clause 1</text>
+  <path d="M 322,195 Q 358.0,156 394,195" fill="none" stroke="#444444" stroke-width="1.4"/>
+  <path d="M 394,195 Q 430.0,156 466,195" fill="none" stroke="#444444" stroke-width="1.4"/>
+  <path d="M 322,195 Q 394.0,110 466,195" fill="none" stroke="#444444" stroke-width="1.4"/>
+  <text x="394.0" y="74.0" fill="#8a8a8a" font-size="11" text-anchor="middle">clause 2</text>
+  <path d="M 574,195 Q 610.0,156 646,195" fill="none" stroke="#444444" stroke-width="1.4"/>
+  <path d="M 646,195 Q 682.0,156 718,195" fill="none" stroke="#444444" stroke-width="1.4"/>
+  <path d="M 574,195 Q 646.0,110 718,195" fill="none" stroke="#444444" stroke-width="1.4"/>
+  <text x="646.0" y="74.0" fill="#8a8a8a" font-size="11" text-anchor="middle">clause 3</text>
+  <path d="M 70,233 Q 196.0,300 322,233" fill="none" stroke="#d1495b" stroke-width="1.4"/>
+  <path d="M 142,233 Q 268.0,334 394,233" fill="none" stroke="#d1495b" stroke-width="1.4"/>
+  <path d="M 142,233 Q 394.0,396 646,233" fill="none" stroke="#d1495b" stroke-width="1.4"/>
+  <path d="M 214,233 Q 466.0,366 718,233" fill="none" stroke="#d1495b" stroke-width="1.4"/>
+  <path d="M 322,233 Q 448.0,318 574,233" fill="none" stroke="#d1495b" stroke-width="1.4"/>
+  <path d="M 466,233 Q 592.0,282 718,233" fill="none" stroke="#d1495b" stroke-width="1.4"/>
+  <circle cx="70.0" cy="214.0" r="19.0" fill="#faf9f6" stroke="#4a90d9" stroke-width="2.2"/>
+  <circle cx="70.0" cy="214.0" r="14.8" fill="none" stroke="#4a90d9" stroke-width="1.2"/>
+  <text x="70.0" y="218.3" fill="#4a90d9" font-size="11.5" text-anchor="middle">x₁</text>
+  <circle cx="142.0" cy="214.0" r="19.0" fill="#faf9f6" stroke="#444444" stroke-width="1.6"/>
+  <text x="142.0" y="218.3" fill="#444444" font-size="11.5" text-anchor="middle">¬x₂</text>
+  <circle cx="214.0" cy="214.0" r="19.0" fill="#faf9f6" stroke="#444444" stroke-width="1.6"/>
+  <text x="214.0" y="218.3" fill="#444444" font-size="11.5" text-anchor="middle">x₃</text>
+  <circle cx="322.0" cy="214.0" r="19.0" fill="#faf9f6" stroke="#444444" stroke-width="1.6"/>
+  <text x="322.0" y="218.3" fill="#444444" font-size="11.5" text-anchor="middle">¬x₁</text>
+  <circle cx="394.0" cy="214.0" r="19.0" fill="#faf9f6" stroke="#4a90d9" stroke-width="2.2"/>
+  <circle cx="394.0" cy="214.0" r="14.8" fill="none" stroke="#4a90d9" stroke-width="1.2"/>
+  <text x="394.0" y="218.3" fill="#4a90d9" font-size="11.5" text-anchor="middle">x₂</text>
+  <circle cx="466.0" cy="214.0" r="19.0" fill="#faf9f6" stroke="#444444" stroke-width="1.6"/>
+  <text x="466.0" y="218.3" fill="#444444" font-size="11.5" text-anchor="middle">x₃</text>
+  <circle cx="574.0" cy="214.0" r="19.0" fill="#faf9f6" stroke="#4a90d9" stroke-width="2.2"/>
+  <circle cx="574.0" cy="214.0" r="14.8" fill="none" stroke="#4a90d9" stroke-width="1.2"/>
+  <text x="574.0" y="218.3" fill="#4a90d9" font-size="11.5" text-anchor="middle">x₁</text>
+  <circle cx="646.0" cy="214.0" r="19.0" fill="#faf9f6" stroke="#444444" stroke-width="1.6"/>
+  <text x="646.0" y="218.3" fill="#444444" font-size="11.5" text-anchor="middle">x₂</text>
+  <circle cx="718.0" cy="214.0" r="19.0" fill="#faf9f6" stroke="#444444" stroke-width="1.6"/>
+  <text x="718.0" y="218.3" fill="#444444" font-size="11.5" text-anchor="middle">¬x₃</text>
+  <text x="24.0" y="404.0" fill="#8a8a8a" font-size="10.5" text-anchor="start">Black arcs are the clause triangles — at most one vertex per clause can be chosen.</text>
+  <text x="24.0" y="420.0" fill="#d1495b" font-size="10.5" text-anchor="start">Red arcs join a literal to its negation — never both.  So an independent set of size 3 is exactly a satisfying assignment.</text>
+  <text x="736.0" y="404.0" fill="#4a90d9" font-size="10.5" text-anchor="end">double-circled: the size-3 independent set</text>
+  <text x="736.0" y="420.0" fill="#4a90d9" font-size="10.5" text-anchor="end">x₁ = T,  x₂ = T,  x₃ free</text>
+</svg>

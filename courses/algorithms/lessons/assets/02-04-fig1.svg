@@ -1,0 +1,51 @@
+<svg viewBox="0 0 760 372" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="12.5">
+  <text x="20.0" y="20.0" fill="#8a8a8a" font-size="11.2" text-anchor="start" font-style="italic">Cost of the i-th append into a doubling array. Most cost 1; the spikes are the copies, and they get rarer as fast as they get bigger.</text>
+  <line x1="70.0" y1="240.0" x2="710.0" y2="240.0" stroke="#444444" stroke-width="1.2"/>
+  <line x1="70.0" y1="60.0" x2="70.0" y2="240.0" stroke="#444444" stroke-width="1.2"/>
+  <rect x="75.7" y="234.4" width="8.0" height="5.6" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.1"/>
+  <rect x="95.1" y="228.8" width="8.0" height="11.2" rx="0" fill="none" stroke="#d1495b" stroke-width="1.1"/>
+  <rect x="114.5" y="223.1" width="8.0" height="16.9" rx="0" fill="none" stroke="#d1495b" stroke-width="1.1"/>
+  <rect x="133.9" y="234.4" width="8.0" height="5.6" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.1"/>
+  <rect x="153.3" y="211.9" width="8.0" height="28.1" rx="0" fill="none" stroke="#d1495b" stroke-width="1.1"/>
+  <rect x="172.7" y="234.4" width="8.0" height="5.6" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.1"/>
+  <rect x="192.1" y="234.4" width="8.0" height="5.6" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.1"/>
+  <rect x="211.5" y="234.4" width="8.0" height="5.6" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.1"/>
+  <rect x="230.8" y="189.4" width="8.0" height="50.6" rx="0" fill="none" stroke="#d1495b" stroke-width="1.1"/>
+  <rect x="250.2" y="234.4" width="8.0" height="5.6" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.1"/>
+  <rect x="269.6" y="234.4" width="8.0" height="5.6" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.1"/>
+  <rect x="289.0" y="234.4" width="8.0" height="5.6" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.1"/>
+  <rect x="308.4" y="234.4" width="8.0" height="5.6" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.1"/>
+  <rect x="327.8" y="234.4" width="8.0" height="5.6" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.1"/>
+  <rect x="347.2" y="234.4" width="8.0" height="5.6" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.1"/>
+  <rect x="366.6" y="234.4" width="8.0" height="5.6" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.1"/>
+  <rect x="386.0" y="144.4" width="8.0" height="95.6" rx="0" fill="none" stroke="#d1495b" stroke-width="1.1"/>
+  <rect x="405.4" y="234.4" width="8.0" height="5.6" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.1"/>
+  <rect x="424.8" y="234.4" width="8.0" height="5.6" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.1"/>
+  <rect x="444.2" y="234.4" width="8.0" height="5.6" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.1"/>
+  <rect x="463.6" y="234.4" width="8.0" height="5.6" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.1"/>
+  <rect x="483.0" y="234.4" width="8.0" height="5.6" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.1"/>
+  <rect x="502.4" y="234.4" width="8.0" height="5.6" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.1"/>
+  <rect x="521.8" y="234.4" width="8.0" height="5.6" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.1"/>
+  <rect x="541.2" y="234.4" width="8.0" height="5.6" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.1"/>
+  <rect x="560.5" y="234.4" width="8.0" height="5.6" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.1"/>
+  <rect x="579.9" y="234.4" width="8.0" height="5.6" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.1"/>
+  <rect x="599.3" y="234.4" width="8.0" height="5.6" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.1"/>
+  <rect x="618.7" y="234.4" width="8.0" height="5.6" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.1"/>
+  <rect x="638.1" y="234.4" width="8.0" height="5.6" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.1"/>
+  <rect x="657.5" y="234.4" width="8.0" height="5.6" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.1"/>
+  <rect x="676.9" y="234.4" width="8.0" height="5.6" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.1"/>
+  <text x="79.7" y="254.0" fill="#8a8a8a" font-size="9.5" text-anchor="middle">1</text>
+  <text x="99.1" y="254.0" fill="#8a8a8a" font-size="9.5" text-anchor="middle">2</text>
+  <text x="137.9" y="254.0" fill="#8a8a8a" font-size="9.5" text-anchor="middle">4</text>
+  <text x="215.5" y="254.0" fill="#8a8a8a" font-size="9.5" text-anchor="middle">8</text>
+  <text x="370.6" y="254.0" fill="#8a8a8a" font-size="9.5" text-anchor="middle">16</text>
+  <text x="680.9" y="254.0" fill="#8a8a8a" font-size="9.5" text-anchor="middle">32</text>
+  <text x="390.0" y="272.0" fill="#8a8a8a" font-size="10.5" text-anchor="middle">append number i</text>
+  <text x="62.0" y="66.0" fill="#8a8a8a" font-size="9.5" text-anchor="end">32</text>
+  <text x="62.0" y="240.0" fill="#8a8a8a" font-size="9.5" text-anchor="end">1</text>
+  <text x="62.0" y="150.0" fill="#8a8a8a" font-size="10.5" text-anchor="end">cost</text>
+  <line x1="70.0" y1="228.8" x2="710.0" y2="228.8" stroke="#4a90d9" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="706.0" y="221.8" fill="#4a90d9" font-size="11" text-anchor="end">amortised cost &lt; 2</text>
+  <text x="380.0" y="318.0" fill="#444444" font-size="11.5" text-anchor="middle">Copies happen at sizes 1, 2, 4, &#8230;, and 1+2+4+&#8230;+n/2 &lt; n, so n appends cost &lt; 2n total.</text>
+  <text x="380.0" y="340.0" fill="#d1495b" font-size="11" text-anchor="middle">Grow by ONE instead and the copies sum to n(n&#8722;1)/2 &#8212; the accidental quadratic from 1.1, in a data structure.</text>
+</svg>

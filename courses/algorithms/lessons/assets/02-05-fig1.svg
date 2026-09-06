@@ -1,0 +1,77 @@
+<svg viewBox="0 0 760 382" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="12.5">
+  <text x="20.0" y="20.0" fill="#8a8a8a" font-size="11.2" text-anchor="start" font-style="italic">0/1 knapsack, items (w,v) = (2,3) (3,4) (4,5) (5,6), capacity W = 5. Each cell: best value using the first i items within weight w.</text>
+  <text x="282.0" y="62.0" fill="#8a8a8a" font-size="11" text-anchor="middle">w=0</text>
+  <text x="346.0" y="62.0" fill="#8a8a8a" font-size="11" text-anchor="middle">1</text>
+  <text x="410.0" y="62.0" fill="#8a8a8a" font-size="11" text-anchor="middle">2</text>
+  <text x="474.0" y="62.0" fill="#8a8a8a" font-size="11" text-anchor="middle">3</text>
+  <text x="538.0" y="62.0" fill="#8a8a8a" font-size="11" text-anchor="middle">4</text>
+  <text x="602.0" y="62.0" fill="#8a8a8a" font-size="11" text-anchor="middle">5</text>
+  <text x="238.0" y="93.0" fill="#8a8a8a" font-size="11" text-anchor="end">i=0  (none)</text>
+  <rect x="250.0" y="72.0" width="64.0" height="34.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="282.0" y="93.0" fill="#444444" font-size="12" text-anchor="middle">0</text>
+  <rect x="314.0" y="72.0" width="64.0" height="34.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="346.0" y="93.0" fill="#444444" font-size="12" text-anchor="middle">0</text>
+  <rect x="378.0" y="72.0" width="64.0" height="34.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="410.0" y="93.0" fill="#444444" font-size="12" text-anchor="middle">0</text>
+  <rect x="442.0" y="72.0" width="64.0" height="34.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="474.0" y="93.0" fill="#444444" font-size="12" text-anchor="middle">0</text>
+  <rect x="506.0" y="72.0" width="64.0" height="34.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="538.0" y="93.0" fill="#444444" font-size="12" text-anchor="middle">0</text>
+  <rect x="570.0" y="72.0" width="64.0" height="34.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="602.0" y="93.0" fill="#444444" font-size="12" text-anchor="middle">0</text>
+  <text x="238.0" y="127.0" fill="#8a8a8a" font-size="11" text-anchor="end">i=1  (2,3)</text>
+  <rect x="250.0" y="106.0" width="64.0" height="34.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="282.0" y="127.0" fill="#444444" font-size="12" text-anchor="middle">0</text>
+  <rect x="314.0" y="106.0" width="64.0" height="34.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="346.0" y="127.0" fill="#444444" font-size="12" text-anchor="middle">0</text>
+  <rect x="378.0" y="106.0" width="64.0" height="34.0" rx="0" fill="none" stroke="#4a90d9" stroke-width="1.8"/>
+  <text x="410.0" y="127.0" fill="#4a90d9" font-size="12" text-anchor="middle">3</text>
+  <rect x="442.0" y="106.0" width="64.0" height="34.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="474.0" y="127.0" fill="#444444" font-size="12" text-anchor="middle">3</text>
+  <rect x="506.0" y="106.0" width="64.0" height="34.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="538.0" y="127.0" fill="#444444" font-size="12" text-anchor="middle">3</text>
+  <rect x="570.0" y="106.0" width="64.0" height="34.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="602.0" y="127.0" fill="#444444" font-size="12" text-anchor="middle">3</text>
+  <text x="238.0" y="161.0" fill="#8a8a8a" font-size="11" text-anchor="end">i=2  (3,4)</text>
+  <rect x="250.0" y="140.0" width="64.0" height="34.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="282.0" y="161.0" fill="#444444" font-size="12" text-anchor="middle">0</text>
+  <rect x="314.0" y="140.0" width="64.0" height="34.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="346.0" y="161.0" fill="#444444" font-size="12" text-anchor="middle">0</text>
+  <rect x="378.0" y="140.0" width="64.0" height="34.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="410.0" y="161.0" fill="#444444" font-size="12" text-anchor="middle">3</text>
+  <rect x="442.0" y="140.0" width="64.0" height="34.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="474.0" y="161.0" fill="#444444" font-size="12" text-anchor="middle">4</text>
+  <rect x="506.0" y="140.0" width="64.0" height="34.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="538.0" y="161.0" fill="#444444" font-size="12" text-anchor="middle">4</text>
+  <rect x="570.0" y="140.0" width="64.0" height="34.0" rx="0" fill="none" stroke="#4a90d9" stroke-width="1.8"/>
+  <text x="602.0" y="161.0" fill="#4a90d9" font-size="12" text-anchor="middle">7</text>
+  <text x="238.0" y="195.0" fill="#8a8a8a" font-size="11" text-anchor="end">i=3  (4,5)</text>
+  <rect x="250.0" y="174.0" width="64.0" height="34.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="282.0" y="195.0" fill="#444444" font-size="12" text-anchor="middle">0</text>
+  <rect x="314.0" y="174.0" width="64.0" height="34.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="346.0" y="195.0" fill="#444444" font-size="12" text-anchor="middle">0</text>
+  <rect x="378.0" y="174.0" width="64.0" height="34.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="410.0" y="195.0" fill="#444444" font-size="12" text-anchor="middle">3</text>
+  <rect x="442.0" y="174.0" width="64.0" height="34.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="474.0" y="195.0" fill="#444444" font-size="12" text-anchor="middle">4</text>
+  <rect x="506.0" y="174.0" width="64.0" height="34.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="538.0" y="195.0" fill="#444444" font-size="12" text-anchor="middle">5</text>
+  <rect x="570.0" y="174.0" width="64.0" height="34.0" rx="0" fill="none" stroke="#4a90d9" stroke-width="1.8"/>
+  <text x="602.0" y="195.0" fill="#4a90d9" font-size="12" text-anchor="middle">7</text>
+  <text x="238.0" y="229.0" fill="#8a8a8a" font-size="11" text-anchor="end">i=4  (5,6)</text>
+  <rect x="250.0" y="208.0" width="64.0" height="34.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="282.0" y="229.0" fill="#444444" font-size="12" text-anchor="middle">0</text>
+  <rect x="314.0" y="208.0" width="64.0" height="34.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="346.0" y="229.0" fill="#444444" font-size="12" text-anchor="middle">0</text>
+  <rect x="378.0" y="208.0" width="64.0" height="34.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="410.0" y="229.0" fill="#444444" font-size="12" text-anchor="middle">3</text>
+  <rect x="442.0" y="208.0" width="64.0" height="34.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="474.0" y="229.0" fill="#444444" font-size="12" text-anchor="middle">4</text>
+  <rect x="506.0" y="208.0" width="64.0" height="34.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="538.0" y="229.0" fill="#444444" font-size="12" text-anchor="middle">5</text>
+  <rect x="570.0" y="208.0" width="64.0" height="34.0" rx="0" fill="none" stroke="#d1495b" stroke-width="1.8"/>
+  <text x="602.0" y="229.0" fill="#d1495b" font-size="12" text-anchor="middle">7</text>
+  <text x="380.0" y="268.0" fill="#444444" font-size="12" text-anchor="middle">OPT[i,w] = max( OPT[i&#8722;1,w] ,  v&#7522; + OPT[i&#8722;1,w&#8722;w&#7522;] )   &#8212;  skip item i, or take it</text>
+  <text x="380.0" y="290.0" fill="#4a90d9" font-size="11" text-anchor="middle">Answer 7 in the corner. Backtrack: 7 &#8800; 7? row 4 = row 3, so skip item 4; row 3 = row 2, skip item 3;</text>
+  <text x="380.0" y="308.0" fill="#4a90d9" font-size="11" text-anchor="middle">row 2 &#8800; row 1 at w=5, so TAKE item 2 and move to [1,2]; then take item 1. Chosen: (2,3) and (3,4).</text>
+</svg>

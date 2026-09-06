@@ -1,10 +1,10 @@
 # Algorithms — Syllabus
 
-> Computer Science · Tier 1 · ~20 lessons · Prereqs: [programming-foundations](../programming-foundations/syllabus.md), [discrete-mathematics](../discrete-mathematics/syllabus.md) · Roadmap id: `algorithms`
+> Computer Science · Tier 1 · ~20 lessons · Prereqs: [discrete-mathematics](../discrete-mathematics/syllabus.md) · Recommended alongside: [programming-foundations](../programming-foundations/syllabus.md) · Roadmap id: `algorithms`
 
 ## Goal
 
-Learn to design an algorithm, *prove* it correct, and *prove* how fast it runs — the three moves that separate an algorithmist from a coder. The spine is a small kit of design paradigms (divide-and-conquer, greedy, dynamic programming, graph search, flows) plus the analysis tools to certify each one (asymptotics, recurrences, amortization, and matching upper/lower bounds). You'll end at the frontier where cleverness runs out — NP-completeness — and learn the two honest responses to a problem you can't solve exactly: approximate it with a provable guarantee, or randomize it. Deliberately skipped: the full machinery of complexity theory (its own course, [computational-complexity](../computational-complexity/syllabus.md)) and heavy computational geometry. This is Tier 1 — it teaches as if new, leaning only on the coding fluency of [programming-foundations](../programming-foundations/syllabus.md) and the proof and counting habits of [discrete-mathematics](../discrete-mathematics/syllabus.md). Code is language-agnostic pseudocode; the point is always the idea, not the syntax.
+Learn to design an algorithm, *prove* it correct, and *prove* how fast it runs — the three moves that separate an algorithmist from a coder. The spine is a small kit of design paradigms (divide-and-conquer, greedy, dynamic programming, graph search, flows) plus the analysis tools to certify each one (asymptotics, recurrences, amortization, and matching upper/lower bounds). You'll end at the frontier where cleverness runs out — NP-completeness — and learn the two honest responses to a problem you can't solve exactly: approximate it with a provable guarantee, or randomize it. Deliberately skipped: the full machinery of complexity theory (its own course, [computational-complexity](../computational-complexity/syllabus.md)) and heavy computational geometry. This is Tier 1 — it teaches as if new, leaning on the proof and counting habits of [discrete-mathematics](../discrete-mathematics/syllabus.md). Code is language-agnostic pseudocode you **read and analyse** rather than write; the point is always the idea, not the syntax, and nothing here requires you to have built the data structures first (see the revision note at the foot).
 
 ## Dangerous Checklist
 
@@ -79,7 +79,7 @@ Where cleverness runs out. Meet the problems nobody knows how to solve fast, lea
 | 4.3 | Approximation algorithms | Give up optimality for a *provable* ratio | approximation ratio, vertex-cover 2-approximation, greedy set cover $(\ln n)$, metric-TSP 2-approximation, when a PTAS exists |
 | 4.4 | Randomized algorithms | Let coin flips buy simplicity and speed | Las Vegas vs Monte Carlo, randomized quicksort's expected $O(n\log n)$, Karger's min-cut, hashing & fingerprinting |
 
-**Boss problem 4:** (a) Prove Independent Set $\le_p$ Vertex Cover, so hardness of one forces hardness of the other. (b) Prove the maximal-matching heuristic is a 2-approximation for minimum vertex cover. *(Solved: (a) $S$ is an independent set of $G=(V,E)$ iff $V\setminus S$ is a vertex cover, so the map $S\mapsto V\setminus S$ is a polynomial-time reduction preserving "yes" instances in both directions. (b) Take any maximal matching $M$ and output both endpoints of every edge — a valid cover, since an uncovered edge would extend $M$. Its size is $2|M|$; any cover needs $\geq 1$ endpoint from each of the $|M|$ disjoint matched edges, so $\text{OPT}\geq|M|$ and the heuristic $\leq 2\,\text{OPT}$.)*
+**Boss problem 4:** Let $G$ have $V=\{1,\dots,7\}$ and edges $12, 23, 34, 45, 56, 67, 17, 25, 36$. (a) Give a maximum independent set, the minimum vertex cover it certifies, and a maximum clique in $\overline G$ — and name the identity that lets one computation answer all three. (b) Run the maximal-matching 2-approximation on $G$ (scanning the edges in the order listed): give its cover, the lower bound on $\text{OPT}$ the matching itself supplies, and the realized ratio. Then say what the guarantee does **and does not** promise about a graph you have not run it on. *(Solved: (a) max independent set $\{1,3,5\}$; its complement $\{2,4,6,7\}$ is a vertex cover, and $4$ is minimum, so $|\text{IS}|+|\text{VC}|=3+4=7=n$ — the identity $S$ independent $\iff V\setminus S$ a cover; $\{1,3,5\}$ is also a maximum clique of $\overline G$, since independence in $G$ is adjacency in $\overline G$. (b) Matching $\{12, 34, 56\}$ gives the cover $\{1,2,3,4,5,6\}$ of size $6$; $|M|=3$ so $\text{OPT}\ge 3$, and the realized ratio is $6/4=1.5$. The guarantee promises only $\text{ALG}\le 2\,\text{OPT}$ on **every** graph — a worst-case ceiling, not a prediction; it says nothing about which of two algorithms will do better on an untested instance, and a heuristic with no ratio at all may well beat it there.)*
 
 ## Sources of truth
 
@@ -90,6 +90,46 @@ Where cleverness runs out. Meet the problems nobody knows how to solve fast, lea
 
 ## Notes
 
-- Builds directly on [programming-foundations](../programming-foundations/syllabus.md) (arrays, recursion, hash tables, heaps as a priority queue) and on [discrete-mathematics](../discrete-mathematics/syllabus.md) (induction for correctness proofs, graphs, counting, and the summation identities behind every recurrence). Where a DP or greedy proof needs induction, that habit is assumed, not re-taught.
+- Builds directly on [discrete-mathematics](../discrete-mathematics/syllabus.md) (induction for correctness proofs, graphs, counting, and the summation identities behind every recurrence). Where a DP or greedy proof needs induction, that habit is assumed, not re-taught. The handful of data structures the course *uses* — a dynamic array, a hash table, a binary heap as a priority queue — are stated with their operation costs on the reference card and built where the analysis needs them (the heap in 3.3, the disjoint-set forest in 2.4); [programming-foundations](../programming-foundations/syllabus.md) covers them as implementations, and reading it alongside is a help but not a gate.
 - Module 4 is a deliberate bridge to [computational-complexity](../computational-complexity/syllabus.md): this course does the *reductions and the coping strategies*; that course does the *classes, hierarchies, and the theory of why*. It also feeds [cryptography](../cryptography/syllabus.md) (hardness assumptions, randomized algorithms, modular arithmetic under the hood) and [computational-biology](../computational-biology/syllabus.md) (edit distance and sequence alignment are the LCS lesson, applied).
 - The flow/matching thread in 3.5 overlaps the network-flows module of [graph-theory](../graph-theory/syllabus.md); there the emphasis is *why the duality holds*, here it is *how to compute the flow and how fast*. A good place to name the cross-subject bridge **augmenting paths ↔ max-flow min-cut duality ↔ bipartite matching**.
+
+---
+
+*Revision note (2026-09-02):* **prerequisite re-scoped from
+`programming-foundations` + `discrete-mathematics` to `discrete-mathematics`
+alone**, with `programming-foundations` demoted to "recommended alongside."
+
+The reason is the Computer Science field's analytical framing (see
+`CS-BUILD-BRIEF.md`): this course teaches you to *analyse* an algorithm — derive
+its cost, prove it correct, break it with a counterexample — not to implement one.
+Under that framing the only thing it actually needs from a first programming
+course is fluency with a handful of data-structure **interfaces and their costs**
+(dynamic array, hash table, binary heap, and the disjoint-set forest it builds
+itself in 2.4), which is a page of the reference card rather than a fifteen-lesson
+dependency. What it genuinely needs is induction, summations, counting and graph
+vocabulary — all of which are `discrete-mathematics`, and all of which are built.
+
+Practical consequence: **`algorithms` no longer waits on the unbuilt Tier 0 root**,
+which matters because it is the most-cited unbuilt course in the library and the
+gate on `cryptography`, `programming-languages` and `computational-biology`.
+Module and lesson structure are unchanged at 20; `roadmap.json`'s `prereqs` should
+be updated to match.
+
+
+*Revision note (2026-09-05):* **boss problem 4 re-aimed.** As written it asked
+for two proofs — Independent Set $\le_p$ Vertex Cover, and the maximal-matching
+2-approximation bound — both of which are now stated with full proofs in the body
+of lessons 4.2 and 4.3 and summarised on the reference card. Since quizzes are
+**open book** and boss problems seed the app's quiz synthesis, that made it a
+recall exercise against a page the learner has open, which the `OPEN_BOOK` clause
+in `server.js` explicitly forbids. The replacement keeps both topics but asks for
+them on a concrete instance plus a judgement about what a proved ratio does and
+does not promise. The stated answers are machine-verified.
+
+Modules 3 and 4 were otherwise built exactly as specified — module structure,
+lesson list and count unchanged at 20 — and the boss instances in problems 3 and 4
+appear in no lesson. Archetype mix as built: cost derivation and hand-trace carry
+Module 3; counterexample construction and design-under-constraint carry Module 4,
+with reduction-and-impossibility concentrated in 4.1–4.2 (including a problem that
+asks the learner to *judge four claimed reductions* rather than produce one).

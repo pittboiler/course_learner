@@ -1060,7 +1060,6 @@
       "tier": 1,
       "field": "Computer Science",
       "prereqs": [
-        "programming-foundations",
         "discrete-mathematics"
       ],
       "lessons_estimate": 20,

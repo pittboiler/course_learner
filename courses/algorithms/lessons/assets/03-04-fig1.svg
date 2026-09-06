@@ -1,0 +1,104 @@
+<svg viewBox="0 0 760 410" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="12.5">
+  <text x="24.0" y="22.0" fill="#8a8a8a" font-size="12" text-anchor="start" font-style="italic">Bellman–Ford: one round per pass over the edge list, values settling one wave at a time.</text>
+  <path d="M 98.0,125.9 Q 148.0,109.0 193.7,93.5" fill="none" stroke="#8a8a8a" stroke-width="1.4"/>
+  <polygon points="198.0,92.1 194.6,95.7 193.1,91.3" fill="#8a8a8a"/>
+  <text x="151.5" y="123.4" fill="#8a8a8a" font-size="11.5" text-anchor="middle">5</text>
+  <path d="M 96.3,141.8 Q 148.0,173.0 195.9,201.9" fill="none" stroke="#8a8a8a" stroke-width="1.4"/>
+  <polygon points="199.7,204.2 194.7,203.9 197.2,199.9" fill="#8a8a8a"/>
+  <text x="142.3" y="186.4" fill="#8a8a8a" font-size="11.5" text-anchor="middle">8</text>
+  <path d="M 216.0,105.0 Q 216.0,150.0 216.0,190.5" fill="none" stroke="#d1495b" stroke-width="1.4"/>
+  <polygon points="216.0,195.0 213.7,190.6 218.3,190.6" fill="#d1495b"/>
+  <text x="205.0" y="154.0" fill="#d1495b" font-size="11.5" text-anchor="middle">-3</text>
+  <path d="M 206.1,102.2 Q 156.0,184.0 108.3,262.0" fill="none" stroke="#8a8a8a" stroke-width="1.4"/>
+  <polygon points="105.9,265.8 106.2,260.8 110.2,263.3" fill="#8a8a8a"/>
+  <text x="146.6" y="182.3" fill="#8a8a8a" font-size="11.5" text-anchor="middle">4</text>
+  <path d="M 199.5,223.4 Q 156.0,248.0 116.4,270.4" fill="none" stroke="#d1495b" stroke-width="1.4"/>
+  <polygon points="112.5,272.6 115.2,268.4 117.5,272.5" fill="#d1495b"/>
+  <text x="150.6" y="242.4" fill="#d1495b" font-size="11.5" text-anchor="middle">-2</text>
+  <path d="M 229.3,227.6 Q 258.0,257.0 283.6,283.2" fill="none" stroke="#8a8a8a" stroke-width="1.4"/>
+  <polygon points="286.7,286.4 282.0,284.9 285.3,281.6" fill="#8a8a8a"/>
+  <text x="250.1" y="268.7" fill="#8a8a8a" font-size="11.5" text-anchor="middle">6</text>
+  <path d="M 114.9,283.7 Q 198.0,291.0 276.6,297.9" fill="none" stroke="#8a8a8a" stroke-width="1.4"/>
+  <polygon points="281.1,298.3 276.5,300.3 276.9,295.6" fill="#8a8a8a"/>
+  <text x="197.0" y="306.0" fill="#8a8a8a" font-size="11.5" text-anchor="middle">3</text>
+  <path d="M 284.9,288.5 Q 192.8,218.6 212.0,109.1" fill="none" stroke="#8a8a8a" stroke-width="1.4"/>
+  <polygon points="212.7,104.7 214.3,109.5 209.7,108.7" fill="#8a8a8a"/>
+  <text x="208.7" y="216.4" fill="#8a8a8a" font-size="11.5" text-anchor="middle">7</text>
+  <circle cx="80.0" cy="132.0" r="19.0" fill="#faf9f6" stroke="#444444" stroke-width="1.6"/>
+  <text x="80.0" y="136.3" fill="#444444" font-size="12.5" text-anchor="middle">S</text>
+  <circle cx="216.0" cy="86.0" r="19.0" fill="#faf9f6" stroke="#444444" stroke-width="1.6"/>
+  <text x="216.0" y="90.3" fill="#444444" font-size="12.5" text-anchor="middle">A</text>
+  <circle cx="216.0" cy="214.0" r="19.0" fill="#faf9f6" stroke="#444444" stroke-width="1.6"/>
+  <text x="216.0" y="218.3" fill="#444444" font-size="12.5" text-anchor="middle">B</text>
+  <circle cx="96.0" cy="282.0" r="19.0" fill="#faf9f6" stroke="#444444" stroke-width="1.6"/>
+  <text x="96.0" y="286.3" fill="#444444" font-size="12.5" text-anchor="middle">C</text>
+  <circle cx="300.0" cy="300.0" r="19.0" fill="#faf9f6" stroke="#444444" stroke-width="1.6"/>
+  <text x="300.0" y="304.3" fill="#444444" font-size="12.5" text-anchor="middle">D</text>
+  <text x="24.0" y="344.0" fill="#8a8a8a" font-size="10.5" text-anchor="start">Red edges are negative.  Edges are relaxed in the fixed order</text>
+  <text x="24.0" y="360.0" fill="#8a8a8a" font-size="10.5" text-anchor="start">D→A,  C→D,  B→C,  B→D,  A→C,  A→B,  S→B,  S→A  — deliberately unhelpful.</text>
+  <text x="478.0" y="108.0" fill="#8a8a8a" font-size="11" text-anchor="middle">S</text>
+  <text x="530.0" y="108.0" fill="#8a8a8a" font-size="11" text-anchor="middle">A</text>
+  <text x="582.0" y="108.0" fill="#8a8a8a" font-size="11" text-anchor="middle">B</text>
+  <text x="634.0" y="108.0" fill="#8a8a8a" font-size="11" text-anchor="middle">C</text>
+  <text x="686.0" y="108.0" fill="#8a8a8a" font-size="11" text-anchor="middle">D</text>
+  <text x="442.0" y="135.0" fill="#8a8a8a" font-size="11" text-anchor="end">round 0</text>
+  <rect x="452.0" y="116.0" width="52.0" height="30.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="478.0" y="135.0" fill="#444444" font-size="12" text-anchor="middle">0</text>
+  <rect x="504.0" y="116.0" width="52.0" height="30.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="530.0" y="135.0" fill="#444444" font-size="12" text-anchor="middle">∞</text>
+  <rect x="556.0" y="116.0" width="52.0" height="30.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="582.0" y="135.0" fill="#444444" font-size="12" text-anchor="middle">∞</text>
+  <rect x="608.0" y="116.0" width="52.0" height="30.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="634.0" y="135.0" fill="#444444" font-size="12" text-anchor="middle">∞</text>
+  <rect x="660.0" y="116.0" width="52.0" height="30.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="686.0" y="135.0" fill="#444444" font-size="12" text-anchor="middle">∞</text>
+  <text x="442.0" y="165.0" fill="#8a8a8a" font-size="11" text-anchor="end">round 1</text>
+  <rect x="452.0" y="146.0" width="52.0" height="30.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="478.0" y="165.0" fill="#444444" font-size="12" text-anchor="middle">0</text>
+  <rect x="504.0" y="146.0" width="52.0" height="30.0" rx="0" fill="none" stroke="#4a90d9" stroke-width="1.7"/>
+  <text x="530.0" y="165.0" fill="#4a90d9" font-size="12" text-anchor="middle">5</text>
+  <rect x="556.0" y="146.0" width="52.0" height="30.0" rx="0" fill="none" stroke="#4a90d9" stroke-width="1.7"/>
+  <text x="582.0" y="165.0" fill="#4a90d9" font-size="12" text-anchor="middle">8</text>
+  <rect x="608.0" y="146.0" width="52.0" height="30.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="634.0" y="165.0" fill="#444444" font-size="12" text-anchor="middle">∞</text>
+  <rect x="660.0" y="146.0" width="52.0" height="30.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="686.0" y="165.0" fill="#444444" font-size="12" text-anchor="middle">∞</text>
+  <text x="442.0" y="195.0" fill="#8a8a8a" font-size="11" text-anchor="end">round 2</text>
+  <rect x="452.0" y="176.0" width="52.0" height="30.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="478.0" y="195.0" fill="#444444" font-size="12" text-anchor="middle">0</text>
+  <rect x="504.0" y="176.0" width="52.0" height="30.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="530.0" y="195.0" fill="#444444" font-size="12" text-anchor="middle">5</text>
+  <rect x="556.0" y="176.0" width="52.0" height="30.0" rx="0" fill="none" stroke="#4a90d9" stroke-width="1.7"/>
+  <text x="582.0" y="195.0" fill="#4a90d9" font-size="12" text-anchor="middle">2</text>
+  <rect x="608.0" y="176.0" width="52.0" height="30.0" rx="0" fill="none" stroke="#4a90d9" stroke-width="1.7"/>
+  <text x="634.0" y="195.0" fill="#4a90d9" font-size="12" text-anchor="middle">6</text>
+  <rect x="660.0" y="176.0" width="52.0" height="30.0" rx="0" fill="none" stroke="#4a90d9" stroke-width="1.7"/>
+  <text x="686.0" y="195.0" fill="#4a90d9" font-size="12" text-anchor="middle">14</text>
+  <text x="442.0" y="225.0" fill="#8a8a8a" font-size="11" text-anchor="end">round 3</text>
+  <rect x="452.0" y="206.0" width="52.0" height="30.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="478.0" y="225.0" fill="#444444" font-size="12" text-anchor="middle">0</text>
+  <rect x="504.0" y="206.0" width="52.0" height="30.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="530.0" y="225.0" fill="#444444" font-size="12" text-anchor="middle">5</text>
+  <rect x="556.0" y="206.0" width="52.0" height="30.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="582.0" y="225.0" fill="#444444" font-size="12" text-anchor="middle">2</text>
+  <rect x="608.0" y="206.0" width="52.0" height="30.0" rx="0" fill="none" stroke="#4a90d9" stroke-width="1.7"/>
+  <text x="634.0" y="225.0" fill="#4a90d9" font-size="12" text-anchor="middle">0</text>
+  <rect x="660.0" y="206.0" width="52.0" height="30.0" rx="0" fill="none" stroke="#4a90d9" stroke-width="1.7"/>
+  <text x="686.0" y="225.0" fill="#4a90d9" font-size="12" text-anchor="middle">8</text>
+  <text x="442.0" y="255.0" fill="#8a8a8a" font-size="11" text-anchor="end">round 4</text>
+  <rect x="452.0" y="236.0" width="52.0" height="30.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="478.0" y="255.0" fill="#444444" font-size="12" text-anchor="middle">0</text>
+  <rect x="504.0" y="236.0" width="52.0" height="30.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="530.0" y="255.0" fill="#444444" font-size="12" text-anchor="middle">5</text>
+  <rect x="556.0" y="236.0" width="52.0" height="30.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="582.0" y="255.0" fill="#444444" font-size="12" text-anchor="middle">2</text>
+  <rect x="608.0" y="236.0" width="52.0" height="30.0" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="634.0" y="255.0" fill="#444444" font-size="12" text-anchor="middle">0</text>
+  <rect x="660.0" y="236.0" width="52.0" height="30.0" rx="0" fill="none" stroke="#4a90d9" stroke-width="1.7"/>
+  <text x="686.0" y="255.0" fill="#4a90d9" font-size="12" text-anchor="middle">3</text>
+  <text x="582.0" y="96.0" fill="#8a8a8a" font-size="11" text-anchor="middle">d[v] after each round</text>
+  <text x="452.0" y="290.0" fill="#8a8a8a" font-size="10.5" text-anchor="start">Boxed = changed this round.  The wavefront</text>
+  <text x="452.0" y="306.0" fill="#8a8a8a" font-size="10.5" text-anchor="start">moves one vertex further per pass, which is why</text>
+  <text x="452.0" y="322.0" fill="#8a8a8a" font-size="10.5" text-anchor="start">|V| − 1 = 4 rounds are needed and enough.</text>
+  <text x="452.0" y="346.0" fill="#4a90d9" font-size="10.5" text-anchor="start">A 5th round changes nothing → no negative cycle.</text>
+</svg>

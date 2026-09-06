@@ -1,0 +1,58 @@
+<svg viewBox="0 0 760 430" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="12.5">
+  <text x="24.0" y="22.0" fill="#8a8a8a" font-size="12" text-anchor="start" font-style="italic">A guarantee you can prove beats a heuristic that usually looks better.</text>
+  <path d="M 194.2,107.8 Q 215.5,118.1 236.8,128.3" fill="none" stroke="#4a90d9" stroke-width="1.4"/>
+  <path d="M 178.0,100.0 L 253.05582231693086,136.14497902156157" fill="none" stroke="#4a90d9" stroke-width="3.2"/>
+  <path d="M 257.1,153.7 Q 262.3,176.8 267.6,199.8" fill="none" stroke="#8a8a8a" stroke-width="1.4"/>
+  <path d="M 260.4,231.4 Q 245.6,249.9 230.9,268.4" fill="none" stroke="#4a90d9" stroke-width="1.4"/>
+  <path d="M 271.5930795694551,217.36200965980618 L 219.65283895528557,282.4930113186322" fill="none" stroke="#4a90d9" stroke-width="3.2"/>
+  <path d="M 201.7,282.5 Q 178.0,282.5 154.3,282.5" fill="none" stroke="#8a8a8a" stroke-width="1.4"/>
+  <path d="M 125.1,268.4 Q 110.4,249.9 95.6,231.4" fill="none" stroke="#4a90d9" stroke-width="1.4"/>
+  <path d="M 136.34716104471443,282.4930113186322 L 84.40692043054493,217.3620096598062" fill="none" stroke="#4a90d9" stroke-width="3.2"/>
+  <path d="M 88.4,199.8 Q 93.7,176.8 98.9,153.7" fill="none" stroke="#8a8a8a" stroke-width="1.4"/>
+  <path d="M 161.8,107.8 Q 140.5,118.1 119.2,128.3" fill="none" stroke="#8a8a8a" stroke-width="1.4"/>
+  <path d="M 236.8,144.0 Q 168.7,176.8 100.6,209.6" fill="none" stroke="#8a8a8a" stroke-width="1.4"/>
+  <circle cx="178.0" cy="100.0" r="18.0" fill="#faf9f6" stroke="#d1495b" stroke-width="2.0"/>
+  <text x="178.0" y="104.2" fill="#d1495b" font-size="12" text-anchor="middle">0</text>
+  <circle cx="253.1" cy="136.1" r="18.0" fill="#faf9f6" stroke="#d1495b" stroke-width="2.0"/>
+  <text x="253.1" y="140.3" fill="#d1495b" font-size="12" text-anchor="middle">1</text>
+  <circle cx="271.6" cy="217.4" r="18.0" fill="#faf9f6" stroke="#444444" stroke-width="1.5"/>
+  <text x="271.6" y="221.6" fill="#444444" font-size="12" text-anchor="middle">2</text>
+  <circle cx="219.7" cy="282.5" r="18.0" fill="#faf9f6" stroke="#d1495b" stroke-width="2.0"/>
+  <text x="219.7" y="286.7" fill="#d1495b" font-size="12" text-anchor="middle">3</text>
+  <circle cx="136.3" cy="282.5" r="18.0" fill="#faf9f6" stroke="#444444" stroke-width="1.5"/>
+  <text x="136.3" y="286.7" fill="#444444" font-size="12" text-anchor="middle">4</text>
+  <circle cx="84.4" cy="217.4" r="18.0" fill="#faf9f6" stroke="#d1495b" stroke-width="2.0"/>
+  <text x="84.4" y="221.6" fill="#d1495b" font-size="12" text-anchor="middle">5</text>
+  <circle cx="102.9" cy="136.1" r="18.0" fill="#faf9f6" stroke="#444444" stroke-width="1.5"/>
+  <text x="102.9" y="140.3" fill="#444444" font-size="12" text-anchor="middle">6</text>
+  <text x="178.0" y="332.0" fill="#4a90d9" font-size="10.5" text-anchor="middle">maximal matching (thick blue): 3 edges</text>
+  <text x="178.0" y="348.0" fill="#4a90d9" font-size="10.5" text-anchor="middle">→ take both endpoints: cover of size 6</text>
+  <text x="178.0" y="366.0" fill="#d1495b" font-size="10.5" text-anchor="middle">optimum (red rings) = {0, 1, 3, 5}, size 4</text>
+  <text x="178.0" y="382.0" fill="#8a8a8a" font-size="10.5" text-anchor="middle">ratio here 6/4 = 1.5, and never worse than 2</text>
+  <line x1="452.0" y1="352.0" x2="730.0" y2="352.0" stroke="#8a8a8a" stroke-width="1.0"/>
+  <line x1="452.0" y1="352.0" x2="452.0" y2="116.0" stroke="#8a8a8a" stroke-width="1.0"/>
+  <line x1="448.0" y1="352.0" x2="452.0" y2="352.0" stroke="#8a8a8a" stroke-width="1.0"/>
+  <text x="443.0" y="356.0" fill="#8a8a8a" font-size="10" text-anchor="end">1×</text>
+  <line x1="448.0" y1="261.2" x2="452.0" y2="261.2" stroke="#8a8a8a" stroke-width="1.0"/>
+  <text x="443.0" y="265.2" fill="#8a8a8a" font-size="10" text-anchor="end">2×</text>
+  <line x1="448.0" y1="170.5" x2="452.0" y2="170.5" stroke="#8a8a8a" stroke-width="1.0"/>
+  <text x="443.0" y="174.5" fill="#8a8a8a" font-size="10" text-anchor="end">3×</text>
+  <path d="M 452,261.2307692307692 L 730,261.2307692307692" fill="none" stroke="#4a90d9" stroke-width="1.6" stroke-dasharray="6,4"/>
+  <text x="726.0" y="253.2" fill="#4a90d9" font-size="10" text-anchor="end">matching 2-approximation</text>
+  <path d="M 452.0,322.0 L 513.7,288.5 L 570.4,250.3 L 619.4,215.8 L 681.0,175.0 L 730.0,138.7" fill="none" stroke="#d1495b" stroke-width="1.8"/>
+  <circle cx="452.0" cy="322.0" r="3.0" fill="#d1495b" stroke="#d1495b" stroke-width="1.0"/>
+  <text x="452.0" y="367.0" fill="#8a8a8a" font-size="9.5" text-anchor="middle">6</text>
+  <circle cx="513.7" cy="288.5" r="3.0" fill="#d1495b" stroke="#d1495b" stroke-width="1.0"/>
+  <text x="513.7" y="367.0" fill="#8a8a8a" font-size="9.5" text-anchor="middle">10</text>
+  <circle cx="570.4" cy="250.3" r="3.0" fill="#d1495b" stroke="#d1495b" stroke-width="1.0"/>
+  <text x="570.4" y="367.0" fill="#8a8a8a" font-size="9.5" text-anchor="middle">16</text>
+  <circle cx="619.4" cy="215.8" r="3.0" fill="#d1495b" stroke="#d1495b" stroke-width="1.0"/>
+  <text x="619.4" y="367.0" fill="#8a8a8a" font-size="9.5" text-anchor="middle">24</text>
+  <circle cx="681.0" cy="175.0" r="3.0" fill="#d1495b" stroke="#d1495b" stroke-width="1.0"/>
+  <text x="681.0" y="367.0" fill="#8a8a8a" font-size="9.5" text-anchor="middle">40</text>
+  <circle cx="730.0" cy="138.7" r="3.0" fill="#d1495b" stroke="#d1495b" stroke-width="1.0"/>
+  <text x="730.0" y="367.0" fill="#8a8a8a" font-size="9.5" text-anchor="middle">60</text>
+  <text x="591.0" y="384.0" fill="#8a8a8a" font-size="10" text-anchor="middle">k  (graph has ≈ 4k vertices)</text>
+  <text x="730.0" y="108.0" fill="#d1495b" font-size="10.5" text-anchor="end">greedy: pick the highest-degree vertex</text>
+  <text x="24.0" y="410.0" fill="#8a8a8a" font-size="10.5" text-anchor="start">Right: on the standard bad family, the natural max-degree heuristic drifts up like H(k) and passes 2 at about 50 vertices. It has no constant ratio at all.</text>
+</svg>
