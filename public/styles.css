@@ -138,6 +138,25 @@ a { color: var(--accent); }
 .md table { border-collapse: collapse; width: 100%; display: block; overflow-x: auto; }
 .md th, .md td { border: 1px solid var(--line); padding: 6px 10px; text-align: left; }
 .md code { background: var(--bg); padding: 1px 5px; border-radius: 4px; font-size: 0.9em; }
+/* Pseudocode blocks. Without this a <pre> inherits the page background and
+   overflows visibly, so a wide line spills out of the column on the iPad. */
+.md pre {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin: 14px 0;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  line-height: 1.45;
+}
+.md pre code {
+  background: none;
+  padding: 0;
+  border-radius: 0;
+  font-size: 0.875em;
+  white-space: pre;
+}
 .md details { border: 1px solid var(--line); border-radius: 8px; padding: 8px 14px; margin: 10px 0; }
 .md details summary { cursor: pointer; font-weight: 600; color: var(--accent); }
 .md .katex-display { overflow-x: auto; padding: 4px 0; }
