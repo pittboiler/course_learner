@@ -4,7 +4,39 @@
 
 ## Goal
 
-Learn to turn data into predictions that *generalize* — and to know when they won't. You will build the core supervised and unsupervised toolkit from first principles: linear and logistic regression with regularization, support-vector machines and the kernel trick, trees and ensembles, naïve Bayes, PCA, clustering, and the EM algorithm — then learn to select and honestly evaluate any of them with cross-validation and the right metric. The through-line is the bias–variance trade-off: every method here is a different knob on the same tension between fitting your data and fitting the world. Deliberately skipped: deep-learning depth (its own course — this ends with a taste and a handoff) and MLOps/production tooling. This is the applied companion to `statistical-learning`; where that course proves, this one builds.
+Learn to turn data into predictions that *generalize* — and to know when they won't. You will build the core supervised and unsupervised toolkit from first principles: linear and logistic regression with regularization, support-vector machines and the kernel trick, trees and ensembles, naïve Bayes, PCA, clustering, and the EM algorithm — then learn to select and honestly evaluate any of them with cross-validation and the right metric. The through-line is the bias–variance trade-off: every method here is a different knob on the same tension between fitting your data and fitting the world. Deliberately skipped: deep-learning depth (its own course — this ends with a taste and a handoff) and MLOps/production tooling. This is the methods companion to [`statistical-learning`](../statistical-learning/syllabus.md): where that course proves *that* learning generalizes, this one shows *how* each method works, what it costs, and where it breaks. See the scope table below.
+
+## Scope discipline
+
+This course overlaps [`statistical-learning`](../statistical-learning/syllabus.md)
+(Economics & Finance) more heavily than any other pair in the library — both cover
+ridge, SVMs, trees, ensembles, PCA, k-means and EM. Each topic has **one owner**;
+a ceded topic is still *used* freely here, it is just cited to its owner rather
+than re-derived. See the reference card's "Assumed, not taught here" table for the
+lookup pointers.
+
+The dividing line: **`statistical-learning` owns the theory of why learning works;
+this course owns the mechanics of how each method runs and how you judge it.** A
+question of the form "what guarantee do I have?" belongs there. A question of the
+form "what does this algorithm actually do to my data, and what does it cost?"
+belongs here.
+
+| Topic | Owner | Machine Learning's role |
+|---|---|---|
+| The ERM formalism; population vs. empirical risk; the bias–variance **decomposition as a theorem** | [`statistical-learning`](../statistical-learning/syllabus.md) | 1.1–1.2 state the decomposition and use it as a diagnostic knob for the rest of the course; the proof is cited, not repeated |
+| PAC learnability, uniform convergence, VC dimension, Sauer's lemma, Rademacher complexity | [`statistical-learning`](../statistical-learning/syllabus.md) | never invoked here; this course's generalization claims are empirical (held-out error), not bounded |
+| No free lunch, inductive bias as a theorem | [`statistical-learning`](../statistical-learning/syllabus.md) | 1.1 names inductive bias when choosing a hypothesis class and points there |
+| Regularization as a Bayesian prior (MAP, Gaussian ↔ ridge, Laplace ↔ lasso); effective degrees of freedom | [`statistical-learning`](../statistical-learning/syllabus.md) | 1.4 derives ridge/lasso as optimization problems and reads them through the SVD; the prior reading is cited |
+| RKHS, positive-definite kernels, Mercer's condition, the representer theorem | [`statistical-learning`](../statistical-learning/syllabus.md) | 2.4 uses the kernel trick computationally — which kernels, what they cost, when they overfit |
+| Overparameterization, interpolation, double descent, implicit regularization | [`statistical-learning`](../statistical-learning/syllabus.md) | 4.4 flags the puzzle in one sentence on the way to [`deep-learning`](../deep-learning/syllabus.md) |
+| Density estimation: KDE, bandwidth selection, the curse of dimensionality | [`statistical-learning`](../statistical-learning/syllabus.md) | not covered; 3.5 models density only as a finite mixture |
+| Backpropagation, network architecture, training dynamics | [`deep-learning`](../deep-learning/syllabus.md) | 4.4 is a taste and a handoff only |
+| **Method mechanics — the perceptron update, the SVM primal→dual by KKT, tree growing and pruning, AdaBoost's reweighting, Lloyd's algorithm, linkage, the E- and M-steps, PCA by eigen/SVD, naïve Bayes** | **this course** | `statistical-learning` cites these rather than re-deriving them |
+| **Optimization as a practitioner runs it — learning-rate choice, divergence diagnosis, mini-batching, convergence in wall-clock** | **this course** | `statistical-learning` 2.6 treats gradient descent as a convergence theorem instead |
+| **Evaluation and model selection in practice — $k$-fold CV, the one-standard-error rule, confusion matrices, precision/recall/F1, ROC/AUC, class imbalance, learning-curve diagnosis** | **this course** | the honest-error-estimate machinery lives here, not there |
+
+Neither course is a prerequisite for the other; they are siblings and may be built
+in either order. Cross-citations here are lookup pointers, not gates.
 
 ## Dangerous Checklist
 
@@ -89,3 +121,19 @@ A model is only as good as your estimate of how it does on data it hasn't seen �
 - Hastie, Tibshirani & Friedman, *The Elements of Statistical Learning* — the default for notation, the bias–variance framing, and the tree/ensemble and regularization chapters.
 - Bishop, *Pattern Recognition and Machine Learning* — for the probabilistic view: logistic regression, kernels, mixtures, and EM.
 - Andrew Ng, Stanford CS229 notes — for the SVM derivation and the applied model-selection/evaluation conventions.
+
+---
+
+*Scope note (2026-09-01):* written at the start of the Computer Science field
+build, before either this course or
+[`statistical-learning`](../statistical-learning/syllabus.md) had lessons, so that
+the one-owner rule could be applied by design rather than retrofitted. The two
+syllabi were drafted independently and overlap on roughly a dozen topics. The
+split assigns **theory and guarantees** to `statistical-learning` and **method
+mechanics, optimization practice, and evaluation** here, on the "central object"
+rule: a VC bound is a theorem about a hypothesis class, while Lloyd's algorithm is
+a procedure you trace. Module structure and lesson count are unchanged at 23; what
+changed is what each lesson spends its 15 minutes on. Under the field's analytical
+framing (see `CS-BUILD-BRIEF.md`), this course's problems will lean on cost
+derivation, hand-trace and counterexample construction; `statistical-learning`'s
+will lean on proof and invariant.

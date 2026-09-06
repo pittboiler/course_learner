@@ -4,7 +4,41 @@
 
 ## Goal
 
-Understand the principles behind machine learning as a mathematical discipline: how to pose a learning problem, why a model fit on finite data can be trusted on data it has never seen, and what governs the tradeoff between fitting and overfitting. You will set up empirical risk minimization, control the bias–variance tradeoff with regularization, prove and apply generalization bounds (PAC learnability, VC dimension, uniform convergence), and reason about the main model families — linear methods, kernels and margins, trees and ensembles, neural networks, and the unsupervised workhorses (PCA, clustering, EM). Deliberately skipped: deep-learning engineering and tooling (frameworks, GPUs, training tricks), reinforcement learning (a note only), the implementation details of large-scale convex-optimization algorithms, and production/systems concerns — this is the *theory* of why learning works, not a course in shipping models.
+Understand the principles behind machine learning as a mathematical discipline: how to pose a learning problem, why a model fit on finite data can be trusted on data it has never seen, and what governs the tradeoff between fitting and overfitting. You will set up empirical risk minimization, control the bias–variance tradeoff with regularization, prove and apply generalization bounds (PAC learnability, VC dimension, uniform convergence), and reason about the main model families — linear methods, kernels and margins, trees and ensembles, neural networks, and the unsupervised workhorses (PCA, clustering, EM). Deliberately skipped: deep-learning engineering and tooling (frameworks, GPUs, training tricks), reinforcement learning (a note only), the implementation details of large-scale convex-optimization algorithms, and production/systems concerns — this is the *theory* of why learning works, not a course in shipping models. Its sibling on the methods side is [`machine-learning`](../machine-learning/syllabus.md); see the scope table below for who owns what.
+
+## Scope discipline
+
+This course overlaps [`machine-learning`](../machine-learning/syllabus.md)
+(Computer Science) more heavily than any other pair in the library — both cover
+ridge, SVMs, trees, ensembles, PCA, k-means and EM. Each topic has **one owner**;
+a ceded topic is still *used* freely here, it is just cited to its owner rather
+than re-derived. See the reference card's "Assumed, not taught here" table for the
+lookup pointers.
+
+The dividing line: **this course owns the theory of why learning works;
+`machine-learning` owns the mechanics of how each method runs and how you judge
+it.** A question of the form "what guarantee do I have?" belongs here. A question
+of the form "what does this algorithm actually do to my data, and what does it
+cost?" belongs there.
+
+| Topic | Owner | Statistical Learning's role |
+|---|---|---|
+| **The ERM formalism; population vs. empirical risk; the bias–variance decomposition as a theorem** | **this course** | `machine-learning` states the decomposition and cites the proof here |
+| **PAC learnability, uniform convergence, VC dimension, Sauer's lemma, Rademacher complexity** | **this course** | the whole of Module 3 is exclusive to this course; nothing else in the library proves a generalization bound |
+| **No free lunch and inductive bias as a theorem** | **this course** | 1.4 |
+| **Regularization as a Bayesian prior (MAP, Gaussian ↔ ridge, Laplace ↔ lasso); effective degrees of freedom** | **this course** | 2.3, 2.5 |
+| **RKHS, positive-definite kernels, the representer theorem** | **this course** | 4.2; `machine-learning` uses kernels computationally and cites the justification here |
+| **Overparameterization, interpolation, double descent, implicit regularization** | **this course** | 5.5 |
+| **Density estimation: KDE, bandwidth, the curse of dimensionality** | **this course** | 6.4; the only treatment in the library |
+| Method mechanics — the perceptron update, the SVM primal→dual by KKT, tree growing and pruning, AdaBoost's reweighting, Lloyd's algorithm, linkage, the E- and M-steps, PCA by eigen/SVD, naïve Bayes | [`machine-learning`](../machine-learning/syllabus.md) | used freely as objects to prove things *about*; 5.1–5.3 and 6.1–6.3 spend their space on the objective each method optimizes and what that buys you, not on running it |
+| Optimization as a practitioner runs it — learning-rate choice, divergence diagnosis, mini-batching | [`machine-learning`](../machine-learning/syllabus.md) | 2.6 treats gradient descent as a convergence theorem on a convex loss instead |
+| Evaluation and model selection in practice — $k$-fold CV mechanics, the one-standard-error rule, confusion matrices, precision/recall/F1, ROC/AUC, class imbalance, learning curves | [`machine-learning`](../machine-learning/syllabus.md) | 1.3 defines held-out validation as the *estimand* — an unbiased estimate of population risk — and cites the machinery there |
+| Backpropagation as an algorithm; architecture; training dynamics | [`deep-learning`](../deep-learning/syllabus.md) | 5.4 covers a network as a hypothesis class — composition, universal approximation, and what the chain rule computes — and cites the engineering there |
+| Identification, causal parameters, valid standard errors | [`econometrics`](../econometrics/syllabus.md) | see the contrast note below; this course targets prediction, not inference about a true parameter |
+
+Neither this course nor `machine-learning` is a prerequisite for the other; they
+are siblings and may be built in either order. Cross-citations are lookup
+pointers, not gates.
 
 ## Dangerous Checklist
 
@@ -120,3 +154,18 @@ Learning structure without labels — compression, grouping, and generative mode
 - **Contrast with [`econometrics`](../econometrics/syllabus.md):** both fit models to data, but econometrics targets *identification and inference* (is this coefficient the true causal parameter, with valid standard errors), while this course targets *prediction and generalization* (will this model do well out of sample, whatever the parameters mean). Ridge/lasso appear in both — as regularizers here, as bias-inducing shrinkage to be handled carefully there.
 - **[`information-theory`](../information-theory/syllabus.md) supplies the deeper viewpoint:** entropy and mutual information underlie the impurity criteria in decision trees (5.1) and the cross-entropy loss (2.2), and the minimum-description-length (MDL) principle recasts the bias–variance/regularization tradeoff as a coding problem — model complexity is description length.
 - Reinforcement learning (learning from reward rather than labeled examples) is a whole separate paradigm and is **noted here only**, not developed.
+
+---
+
+*Scope note (2026-09-01):* written at the start of the Computer Science field
+build, before either this course or
+[`machine-learning`](../machine-learning/syllabus.md) had lessons, so that the
+one-owner rule could be applied by design rather than retrofitted. The two syllabi
+were drafted independently and overlap on roughly a dozen topics. The split
+assigns **theory and guarantees** here and **method mechanics, optimization
+practice, and evaluation** to `machine-learning`, on the "central object" rule: a
+VC bound is a theorem about a hypothesis class, while Lloyd's algorithm is a
+procedure you trace. Module structure and lesson count are unchanged at 26; what
+changed is what each lesson spends its 15 minutes on — most visibly 2.6, 5.1–5.4
+and 6.1–6.3, which now argue about objectives and guarantees rather than
+re-deriving procedures their sibling owns.
