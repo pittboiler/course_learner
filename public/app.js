@@ -319,6 +319,17 @@ let refEl = null; // the drawer, built lazily on first open
 const slugify = (s) =>
   s.toLowerCase().trim().replace(/[^\w\s-]/g, "").replace(/\s+/g, "-");
 
+/* Heading text arrives here as rendered HTML, where marked has already escaped
+   ' as &#39;. Slugging that directly leaves the entity's digits in the id, so
+   "Sauer's lemma" became #sauer39s-lemma while lint-lessons.cjs (which slugs the
+   raw markdown) expects #sauers-lemma — every apostrophe anchor was dead in the
+   drawer. Decode before slugging so the two agree. */
+const decodeEntities = (s) => {
+  const t = document.createElement("textarea");
+  t.innerHTML = s;
+  return t.value;
+};
+
 function hasReference(courseId) {
   return !!STATE?.courses?.[courseId]?.hasReference;
 }
@@ -331,7 +342,7 @@ async function referenceHTML(courseId) {
     // marked doesn't add them, so slug them here.
     const html = fixAssetPaths(parseMd(await res.text()), courseId).replace(
       /<h([23])>([\s\S]*?)<\/h\1>/g,
-      (_, lvl, inner) => `<h${lvl} id="${slugify(inner.replace(/<[^>]+>/g, ""))}">${inner}</h${lvl}>`
+      (_, lvl, inner) => `<h${lvl} id="${slugify(decodeEntities(inner.replace(/<[^>]+>/g, "")))}">${inner}</h${lvl}>`
     );
     refCards.set(courseId, html);
   }
