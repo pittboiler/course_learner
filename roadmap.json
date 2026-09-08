@@ -392,8 +392,8 @@
         "linalg-refresher",
         "prob-stat-refresher"
       ],
-      "lessons_estimate": 26,
-      "blurb": "OLS geometry, inference, identification, IV, panel & diff-in-diff, causal inference, MLE/GMM."
+      "lessons_estimate": 33,
+      "blurb": "OLS geometry, inference, identification, IV, panel & diff-in-diff, staggered DiD, RD, synthetic control, MLE/GMM."
     },
     {
       "id": "mathematical-finance",

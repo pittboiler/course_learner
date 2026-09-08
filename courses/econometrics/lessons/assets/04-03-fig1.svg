@@ -1,0 +1,29 @@
+<svg viewBox="0 0 700 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="40.0" y="24.0" fill="#8a8a8a" font-style="italic">DiD assumes the control group&#x27;s change is the treated group&#x27;s missing counterfactual change.</text>
+  <line x1="100.0" y1="270.0" x2="600.0" y2="270.0" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="600.0,270.0 589.0,265.0 589.0,275.0" fill="#8a8a8a"/>
+  <line x1="110.0" y1="282.0" x2="110.0" y2="72.0" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="110.0,72.0 105.0,83.0 115.0,83.0" fill="#8a8a8a"/>
+  <text x="350.0" y="296.0" fill="#8a8a8a" font-size="12" text-anchor="middle">before                                             after</text>
+  <text x="104.0" y="68.0" fill="#8a8a8a" font-size="11.5">outcome</text>
+  <path d="M 110.0 118.0 L 560.0 175.0" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <circle cx="110.0" cy="118.0" r="5" fill="#4a90d9"/>
+  <circle cx="560.0" cy="175.0" r="5" fill="#4a90d9"/>
+  <text x="100.0" y="122.0" fill="#4a90d9" font-size="11.5" text-anchor="end">23.0</text>
+  <text x="570.0" y="179.0" fill="#4a90d9" font-size="11.5">21.5</text>
+  <text x="335.0" y="129.4" fill="#4a90d9" font-size="12" text-anchor="middle">control</text>
+  <path d="M 110.0 232.0 L 560.0 194.0" fill="none" stroke="#e0645c" stroke-width="3"/>
+  <circle cx="110.0" cy="232.0" r="5" fill="#e0645c"/>
+  <circle cx="560.0" cy="194.0" r="5" fill="#e0645c"/>
+  <text x="100.0" y="236.0" fill="#e0645c" font-size="11.5" text-anchor="end">20.0</text>
+  <text x="570.0" y="198.0" fill="#e0645c" font-size="11.5">21.0</text>
+  <text x="299.0" y="239.6" fill="#e0645c" font-size="12" text-anchor="middle">treated</text>
+  <path d="M 110.0 232.0 L 560.0 289.0" fill="none" stroke="#8a8a8a" stroke-width="2.4" stroke-dasharray="6 4"/>
+  <circle cx="560.0" cy="289.0" r="5" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="570.0" y="293.0" fill="#8a8a8a" font-size="11.5">18.5</text>
+  <text x="389.0" y="281.4" fill="#8a8a8a" font-size="11" text-anchor="middle">counterfactual: parallel trends</text>
+  <line x1="562.0" y1="194.0" x2="562.0" y2="289.0" stroke="#e0645c" stroke-width="3"/>
+  <text x="612.0" y="245.5" fill="#e0645c" font-size="12.5">DiD = +2.5</text>
+  <text x="350.0" y="318.0" fill="#8a8a8a" font-size="11.5" text-anchor="middle">Treated change +1.0, control change -1.5, so DiD = 1.0 - (-1.5) = 2.5.</text>
+  <text x="350.0" y="336.0" fill="#8a8a8a" font-size="11.5" text-anchor="middle">The dashed line is assumed, never observed. That assumption is the whole design.</text>
+</svg>

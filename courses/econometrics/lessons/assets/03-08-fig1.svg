@@ -1,0 +1,38 @@
+<svg viewBox="0 0 740 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="40.0" y="24.0" fill="#8a8a8a" font-style="italic">A weak first stage drags IV back toward OLS, and the damage scales like 1 over F.</text>
+  <line x1="70.0" y1="265.0" x2="358.0" y2="265.0" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="358.0,265.0 347.0,260.0 347.0,270.0" fill="#8a8a8a"/>
+  <line x1="70.0" y1="277.0" x2="70.0" y2="78.0" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70.0,78.0 65.0,89.0 75.0,89.0" fill="#8a8a8a"/>
+  <text x="212.0" y="292.0" fill="#8a8a8a" font-size="12" text-anchor="middle">first-stage F statistic</text>
+  <text x="66.0" y="74.0" fill="#8a8a8a" font-size="11">relative bias, share of OLS bias</text>
+  <path d="M 87.3 88.1 L 88.6 100.7 L 89.9 111.6 L 91.2 121.1 L 92.5 129.5 L 93.9 137.0 L 95.2 143.7 L 96.5 149.8 L 97.8 155.2 L 99.1 160.2 L 100.5 164.8 L 101.8 168.9 L 103.1 172.7 L 104.4 176.3 L 105.8 179.6 L 107.1 182.6 L 108.4 185.4 L 109.7 188.1 L 111.0 190.6 L 112.4 192.9 L 113.7 195.1 L 115.0 197.1 L 116.3 199.0 L 117.6 200.9 L 119.0 202.6 L 120.3 204.2 L 121.6 205.8 L 122.9 207.3 L 124.2 208.7 L 125.6 210.0 L 126.9 211.3 L 128.2 212.5 L 129.5 213.7 L 130.8 214.8 L 132.2 215.9 L 133.5 216.9 L 134.8 217.9 L 136.1 218.8 L 137.4 219.7 L 138.8 220.6 L 140.1 221.4 L 141.4 222.2 L 142.7 223.0 L 144.0 223.7 L 145.4 224.5 L 146.7 225.2 L 148.0 225.8 L 149.3 226.5 L 150.6 227.1 L 152.0 227.7 L 153.3 228.3 L 154.6 228.9 L 155.9 229.4 L 157.2 230.0 L 158.6 230.5 L 159.9 231.0 L 161.2 231.5 L 162.5 232.0 L 163.8 232.5 L 165.2 232.9 L 166.5 233.3 L 167.8 233.8 L 169.1 234.2 L 170.4 234.6 L 171.8 235.0 L 173.1 235.4 L 174.4 235.7 L 175.7 236.1 L 177.0 236.5 L 178.4 236.8 L 179.7 237.2 L 181.0 237.5 L 182.3 237.8 L 183.6 238.1 L 185.0 238.4 L 186.3 238.7 L 187.6 239.0 L 188.9 239.3 L 190.2 239.6 L 191.6 239.9 L 192.9 240.1 L 194.2 240.4 L 195.5 240.7 L 196.8 240.9 L 198.2 241.2 L 199.5 241.4 L 200.8 241.6 L 202.1 241.9 L 203.5 242.1 L 204.8 242.3 L 206.1 242.6 L 207.4 242.8 L 208.7 243.0 L 210.1 243.2 L 211.4 243.4 L 212.7 243.6 L 214.0 243.8 L 215.3 244.0 L 216.7 244.2 L 218.0 244.4 L 219.3 244.5 L 220.6 244.7 L 221.9 244.9 L 223.3 245.1 L 224.6 245.2 L 225.9 245.4 L 227.2 245.6 L 228.5 245.7 L 229.9 245.9 L 231.2 246.0 L 232.5 246.2 L 233.8 246.4 L 235.1 246.5 L 236.5 246.6 L 237.8 246.8 L 239.1 246.9 L 240.4 247.1 L 241.7 247.2 L 243.1 247.3 L 244.4 247.5 L 245.7 247.6 L 247.0 247.7 L 248.3 247.9 L 249.7 248.0 L 251.0 248.1 L 252.3 248.2 L 253.6 248.4 L 254.9 248.5 L 256.3 248.6 L 257.6 248.7 L 258.9 248.8 L 260.2 248.9 L 261.5 249.1 L 262.9 249.2 L 264.2 249.3 L 265.5 249.4 L 266.8 249.5 L 268.1 249.6 L 269.5 249.7 L 270.8 249.8 L 272.1 249.9 L 273.4 250.0 L 274.7 250.1 L 276.1 250.2 L 277.4 250.3 L 278.7 250.4 L 280.0 250.5 L 281.3 250.5 L 282.7 250.6 L 284.0 250.7 L 285.3 250.8 L 286.6 250.9 L 287.9 251.0 L 289.3 251.1 L 290.6 251.2 L 291.9 251.2 L 293.2 251.3 L 294.5 251.4 L 295.9 251.5 L 297.2 251.6 L 298.5 251.6 L 299.8 251.7 L 301.2 251.8 L 302.5 251.9 L 303.8 251.9 L 305.1 252.0 L 306.4 252.1 L 307.8 252.2 L 309.1 252.2 L 310.4 252.3 L 311.7 252.4 L 313.0 252.4 L 314.4 252.5 L 315.7 252.6 L 317.0 252.6 L 318.3 252.7 L 319.6 252.8 L 321.0 252.8 L 322.3 252.9 L 323.6 253.0 L 324.9 253.0 L 326.2 253.1 L 327.6 253.1 L 328.9 253.2 L 330.2 253.3 L 331.5 253.3 L 332.8 253.4 L 334.2 253.4 L 335.5 253.5 L 336.8 253.6 L 338.1 253.6 L 339.4 253.7 L 340.8 253.7 L 342.1 253.8 L 343.4 253.8 L 344.7 253.9 L 346.0 253.9 L 347.4 254.0 L 348.7 254.0 L 350.0 254.1" fill="none" stroke="#e0645c" stroke-width="3"/>
+  <circle cx="116.7" cy="199.5" r="4.5" fill="#4a90d9"/>
+  <line x1="116.7" y1="265.0" x2="116.7" y2="199.5" stroke="#4a90d9" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="122.7" y="191.5" fill="#4a90d9" font-size="11">F=5: 20%</text>
+  <circle cx="163.3" cy="232.3" r="4.5" fill="#4a90d9"/>
+  <line x1="163.3" y1="265.0" x2="163.3" y2="232.3" stroke="#4a90d9" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="169.3" y="224.3" fill="#4a90d9" font-size="11">F=10: 10%</text>
+  <circle cx="222.9" cy="245.0" r="4.5" fill="#4a90d9"/>
+  <line x1="222.9" y1="265.0" x2="222.9" y2="245.0" stroke="#4a90d9" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="228.9" y="237.0" fill="#4a90d9" font-size="11">F=16.4: 6%</text>
+  <text x="212.0" y="310.0" fill="#8a8a8a" font-size="11.5" text-anchor="middle">F &gt; 10 is a BIAS rule of thumb, not an inference rule.</text>
+  <text x="212.0" y="328.0" fill="#8a8a8a" font-size="11.5" text-anchor="middle">Valid t-tests need far more; see the lesson.</text>
+  <line x1="390.0" y1="80.0" x2="390.0" y2="322.0" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="414.0" y="110.0" fill="#8a8a8a" font-size="12.5">Who the instrument moves:</text>
+  <text x="414.0" y="146.0" fill="#8a8a8a" font-size="12">always-takers</text>
+  <text x="414.0" y="162.0" fill="#8a8a8a" font-size="10.5">treated either way; never move</text>
+  <rect x="646.0" y="136.0" width="41.3" height="13.0" fill="#8a8a8a" stroke="None" stroke-width="1.5" opacity="0.55"/>
+  <text x="722.0" y="146.0" fill="#8a8a8a" font-size="10.5" text-anchor="end">30%</text>
+  <text x="414.0" y="188.0" fill="#8a8a8a" font-size="12">never-takers</text>
+  <text x="414.0" y="204.0" fill="#8a8a8a" font-size="10.5">untreated either way; never move</text>
+  <rect x="646.0" y="178.0" width="62.0" height="13.0" fill="#8a8a8a" stroke="None" stroke-width="1.5" opacity="0.55"/>
+  <text x="722.0" y="188.0" fill="#8a8a8a" font-size="10.5" text-anchor="end">45%</text>
+  <text x="414.0" y="230.0" fill="#e0645c" font-size="12">COMPLIERS</text>
+  <text x="414.0" y="246.0" fill="#8a8a8a" font-size="10.5">treated only when Z = 1</text>
+  <rect x="646.0" y="220.0" width="34.4" height="13.0" fill="#e0645c" stroke="None" stroke-width="1.5" opacity="0.55"/>
+  <text x="722.0" y="230.0" fill="#8a8a8a" font-size="10.5" text-anchor="end">25%</text>
+  <text x="414.0" y="272.0" fill="#4a90d9" font-size="12">defiers</text>
+  <text x="414.0" y="288.0" fill="#8a8a8a" font-size="10.5">ruled out by monotonicity</text>
+  <text x="414.0" y="314.0" fill="#e0645c" font-size="11.5">IV estimates the effect for compliers only.</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg viewBox="0 0 700 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="40.0" y="24.0" fill="#8a8a8a" font-style="italic">Within and first differences agree at T = 2 and diverge after, depending on the errors.</text>
+  <text x="350.0" y="88.0" fill="#8a8a8a" font-size="12" text-anchor="middle">Both estimators remove the unit fixed effect. They weight the data differently.</text>
+  <line x1="60.0" y1="106.0" x2="640.0" y2="106.0" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="190.0" y="132.0" fill="#4a90d9" font-size="12.5" text-anchor="middle">Within (fixed effects)</text>
+  <text x="190.0" y="158.0" fill="#8a8a8a" font-size="11.5" text-anchor="middle">subtract each unit&#x27;s mean</text>
+  <text x="190.0" y="180.0" fill="#8a8a8a" font-size="11.5" text-anchor="middle">uses all T deviations</text>
+  <text x="190.0" y="206.0" fill="#4a90d9" font-size="11.5" text-anchor="middle">EFFICIENT if errors are iid</text>
+  <text x="510.0" y="132.0" fill="#e0645c" font-size="12.5" text-anchor="middle">First differences</text>
+  <text x="510.0" y="158.0" fill="#8a8a8a" font-size="11.5" text-anchor="middle">subtract the previous period</text>
+  <text x="510.0" y="180.0" fill="#8a8a8a" font-size="11.5" text-anchor="middle">uses T - 1 changes</text>
+  <text x="510.0" y="206.0" fill="#e0645c" font-size="11.5" text-anchor="middle">EFFICIENT if errors are a random walk</text>
+  <line x1="350.0" y1="116.0" x2="350.0" y2="222.0" stroke="#8a8a8a" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <rect x="150.0" y="240.0" width="400.0" height="44.0" fill="none" stroke="#8a8a8a" stroke-width="1.4" rx="6"/>
+  <text x="350.0" y="258.0" fill="#8a8a8a" font-size="12.5" text-anchor="middle">At T = 2 they are ALGEBRAICALLY IDENTICAL</text>
+  <text x="350.0" y="276.0" fill="#8a8a8a" font-size="11.5" text-anchor="middle">— not merely similar; the same number.</text>
+  <text x="350.0" y="308.0" fill="#8a8a8a" font-size="11.5" text-anchor="middle">Large disagreement between them is a specification warning, not a choice to make on taste.</text>
+</svg>

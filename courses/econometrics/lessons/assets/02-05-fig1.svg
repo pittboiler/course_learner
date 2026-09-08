@@ -1,0 +1,74 @@
+<svg viewBox="0 0 720 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="40.0" y="24.0" fill="#8a8a8a" font-style="italic">Thirty villagers who share a well are not thirty independent observations.</text>
+  <text x="150.0" y="58.0" fill="#8a8a8a" font-size="12.5" text-anchor="middle">20 clusters of 30</text>
+  <rect x="33.0" y="80.0" width="44.0" height="120.0" fill="none" stroke="#8a8a8a" stroke-width="1.2" stroke-dasharray="3 3" rx="4"/>
+  <circle cx="43.0" cy="96.0" r="4.2" fill="#4a90d9" opacity="0.75"/>
+  <circle cx="55.0" cy="96.0" r="4.2" fill="#4a90d9" opacity="0.75"/>
+  <circle cx="67.0" cy="96.0" r="4.2" fill="#4a90d9" opacity="0.75"/>
+  <circle cx="43.0" cy="128.0" r="4.2" fill="#4a90d9" opacity="0.75"/>
+  <circle cx="55.0" cy="128.0" r="4.2" fill="#4a90d9" opacity="0.75"/>
+  <circle cx="67.0" cy="128.0" r="4.2" fill="#4a90d9" opacity="0.75"/>
+  <circle cx="43.0" cy="160.0" r="4.2" fill="#4a90d9" opacity="0.75"/>
+  <circle cx="55.0" cy="160.0" r="4.2" fill="#4a90d9" opacity="0.75"/>
+  <circle cx="67.0" cy="160.0" r="4.2" fill="#4a90d9" opacity="0.75"/>
+  <text x="55.0" y="216.0" fill="#8a8a8a" font-size="11" text-anchor="middle">g=1</text>
+  <rect x="91.0" y="80.0" width="44.0" height="120.0" fill="none" stroke="#8a8a8a" stroke-width="1.2" stroke-dasharray="3 3" rx="4"/>
+  <circle cx="101.0" cy="96.0" r="4.2" fill="#e0645c" opacity="0.75"/>
+  <circle cx="113.0" cy="96.0" r="4.2" fill="#e0645c" opacity="0.75"/>
+  <circle cx="125.0" cy="96.0" r="4.2" fill="#e0645c" opacity="0.75"/>
+  <circle cx="101.0" cy="128.0" r="4.2" fill="#e0645c" opacity="0.75"/>
+  <circle cx="113.0" cy="128.0" r="4.2" fill="#e0645c" opacity="0.75"/>
+  <circle cx="125.0" cy="128.0" r="4.2" fill="#e0645c" opacity="0.75"/>
+  <circle cx="101.0" cy="160.0" r="4.2" fill="#e0645c" opacity="0.75"/>
+  <circle cx="113.0" cy="160.0" r="4.2" fill="#e0645c" opacity="0.75"/>
+  <circle cx="125.0" cy="160.0" r="4.2" fill="#e0645c" opacity="0.75"/>
+  <text x="113.0" y="216.0" fill="#8a8a8a" font-size="11" text-anchor="middle">g=2</text>
+  <rect x="149.0" y="80.0" width="44.0" height="120.0" fill="none" stroke="#8a8a8a" stroke-width="1.2" stroke-dasharray="3 3" rx="4"/>
+  <circle cx="159.0" cy="96.0" r="4.2" fill="#e0645c" opacity="0.75"/>
+  <circle cx="171.0" cy="96.0" r="4.2" fill="#e0645c" opacity="0.75"/>
+  <circle cx="183.0" cy="96.0" r="4.2" fill="#e0645c" opacity="0.75"/>
+  <circle cx="159.0" cy="128.0" r="4.2" fill="#e0645c" opacity="0.75"/>
+  <circle cx="171.0" cy="128.0" r="4.2" fill="#e0645c" opacity="0.75"/>
+  <circle cx="183.0" cy="128.0" r="4.2" fill="#e0645c" opacity="0.75"/>
+  <circle cx="159.0" cy="160.0" r="4.2" fill="#e0645c" opacity="0.75"/>
+  <circle cx="171.0" cy="160.0" r="4.2" fill="#e0645c" opacity="0.75"/>
+  <circle cx="183.0" cy="160.0" r="4.2" fill="#e0645c" opacity="0.75"/>
+  <text x="171.0" y="216.0" fill="#8a8a8a" font-size="11" text-anchor="middle">g=3</text>
+  <rect x="207.0" y="80.0" width="44.0" height="120.0" fill="none" stroke="#8a8a8a" stroke-width="1.2" stroke-dasharray="3 3" rx="4"/>
+  <circle cx="217.0" cy="96.0" r="4.2" fill="#e0645c" opacity="0.75"/>
+  <circle cx="229.0" cy="96.0" r="4.2" fill="#e0645c" opacity="0.75"/>
+  <circle cx="241.0" cy="96.0" r="4.2" fill="#e0645c" opacity="0.75"/>
+  <circle cx="217.0" cy="128.0" r="4.2" fill="#e0645c" opacity="0.75"/>
+  <circle cx="229.0" cy="128.0" r="4.2" fill="#e0645c" opacity="0.75"/>
+  <circle cx="241.0" cy="128.0" r="4.2" fill="#e0645c" opacity="0.75"/>
+  <circle cx="217.0" cy="160.0" r="4.2" fill="#e0645c" opacity="0.75"/>
+  <circle cx="229.0" cy="160.0" r="4.2" fill="#e0645c" opacity="0.75"/>
+  <circle cx="241.0" cy="160.0" r="4.2" fill="#e0645c" opacity="0.75"/>
+  <text x="229.0" y="216.0" fill="#8a8a8a" font-size="11" text-anchor="middle">g=4</text>
+  <rect x="265.0" y="80.0" width="44.0" height="120.0" fill="none" stroke="#8a8a8a" stroke-width="1.2" stroke-dasharray="3 3" rx="4"/>
+  <circle cx="275.0" cy="96.0" r="4.2" fill="#4a90d9" opacity="0.75"/>
+  <circle cx="287.0" cy="96.0" r="4.2" fill="#4a90d9" opacity="0.75"/>
+  <circle cx="299.0" cy="96.0" r="4.2" fill="#4a90d9" opacity="0.75"/>
+  <circle cx="275.0" cy="128.0" r="4.2" fill="#4a90d9" opacity="0.75"/>
+  <circle cx="287.0" cy="128.0" r="4.2" fill="#4a90d9" opacity="0.75"/>
+  <circle cx="299.0" cy="128.0" r="4.2" fill="#4a90d9" opacity="0.75"/>
+  <circle cx="275.0" cy="160.0" r="4.2" fill="#4a90d9" opacity="0.75"/>
+  <circle cx="287.0" cy="160.0" r="4.2" fill="#4a90d9" opacity="0.75"/>
+  <circle cx="299.0" cy="160.0" r="4.2" fill="#4a90d9" opacity="0.75"/>
+  <text x="287.0" y="216.0" fill="#8a8a8a" font-size="11" text-anchor="middle">g=5</text>
+  <text x="150.0" y="238.0" fill="#8a8a8a" font-size="11.5" text-anchor="middle">colour = the shared cluster shock</text>
+  <text x="150.0" y="256.0" fill="#8a8a8a" font-size="11.5" text-anchor="middle">within a box, errors move together</text>
+  <line x1="400.0" y1="270.0" x2="698.0" y2="270.0" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="698.0,270.0 687.0,265.0 687.0,275.0" fill="#8a8a8a"/>
+  <line x1="400.0" y1="282.0" x2="400.0" y2="72.0" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="400.0,72.0 395.0,83.0 405.0,83.0" fill="#8a8a8a"/>
+  <text x="548.0" y="296.0" fill="#8a8a8a" font-size="12" text-anchor="middle">within-cluster error correlation</text>
+  <text x="396.0" y="68.0" fill="#8a8a8a" font-size="11.5">SE inflation</text>
+  <path d="M 400.0 270.0 L 402.4 266.8 L 404.9 263.8 L 407.3 261.0 L 409.7 258.3 L 412.2 255.8 L 414.6 253.4 L 417.1 251.1 L 419.5 248.9 L 421.9 246.8 L 424.4 244.7 L 426.8 242.7 L 429.2 240.8 L 431.7 238.9 L 434.1 237.1 L 436.6 235.3 L 439.0 233.6 L 441.4 231.9 L 443.9 230.2 L 446.3 228.6 L 448.7 227.0 L 451.2 225.4 L 453.6 223.9 L 456.1 222.4 L 458.5 220.9 L 460.9 219.5 L 463.4 218.0 L 465.8 216.6 L 468.2 215.2 L 470.7 213.9 L 473.1 212.5 L 475.5 211.2 L 478.0 209.9 L 480.4 208.6 L 482.9 207.3 L 485.3 206.0 L 487.7 204.8 L 490.2 203.6 L 492.6 202.3 L 495.0 201.1 L 497.5 199.9 L 499.9 198.8 L 502.4 197.6 L 504.8 196.4 L 507.2 195.3 L 509.7 194.2 L 512.1 193.1 L 514.5 191.9 L 517.0 190.9 L 519.4 189.8 L 521.8 188.7 L 524.3 187.6 L 526.7 186.6 L 529.2 185.5 L 531.6 184.5 L 534.0 183.4 L 536.5 182.4 L 538.9 181.4 L 541.3 180.4 L 543.8 179.4 L 546.2 178.4 L 548.7 177.4 L 551.1 176.4 L 553.5 175.5 L 556.0 174.5 L 558.4 173.6 L 560.8 172.6 L 563.3 171.7 L 565.7 170.7 L 568.2 169.8 L 570.6 168.9 L 573.0 168.0 L 575.5 167.1 L 577.9 166.2 L 580.3 165.3 L 582.8 164.4 L 585.2 163.5 L 587.6 162.6 L 590.1 161.7 L 592.5 160.8 L 595.0 160.0 L 597.4 159.1 L 599.8 158.3 L 602.3 157.4 L 604.7 156.6 L 607.1 155.7 L 609.6 154.9 L 612.0 154.0 L 614.5 153.2 L 616.9 152.4 L 619.3 151.6 L 621.8 150.8 L 624.2 149.9 L 626.6 149.1 L 629.1 148.3 L 631.5 147.5 L 633.9 146.7 L 636.4 146.0 L 638.8 145.2 L 641.3 144.4 L 643.7 143.6 L 646.1 142.8 L 648.6 142.1 L 651.0 141.3 L 653.4 140.5 L 655.9 139.8 L 658.3 139.0 L 660.8 138.2 L 663.2 137.5 L 665.6 136.7 L 668.1 136.0 L 670.5 135.3 L 672.9 134.5 L 675.4 133.8 L 677.8 133.0 L 680.3 132.3 L 682.7 131.6 L 685.1 130.9 L 687.6 130.1 L 690.0 129.4" fill="none" stroke="#e0645c" stroke-width="2.6"/>
+  <path d="M 400.0 270.0 L 402.4 269.0 L 404.9 268.0 L 407.3 267.0 L 409.7 266.0 L 412.2 265.1 L 414.6 264.2 L 417.1 263.3 L 419.5 262.4 L 421.9 261.5 L 424.4 260.7 L 426.8 259.9 L 429.2 259.0 L 431.7 258.2 L 434.1 257.4 L 436.6 256.7 L 439.0 255.9 L 441.4 255.1 L 443.9 254.4 L 446.3 253.7 L 448.7 252.9 L 451.2 252.2 L 453.6 251.5 L 456.1 250.8 L 458.5 250.1 L 460.9 249.4 L 463.4 248.8 L 465.8 248.1 L 468.2 247.4 L 470.7 246.8 L 473.1 246.1 L 475.5 245.5 L 478.0 244.9 L 480.4 244.3 L 482.9 243.6 L 485.3 243.0 L 487.7 242.4 L 490.2 241.8 L 492.6 241.2 L 495.0 240.6 L 497.5 240.0 L 499.9 239.4 L 502.4 238.9 L 504.8 238.3 L 507.2 237.7 L 509.7 237.2 L 512.1 236.6 L 514.5 236.1 L 517.0 235.5 L 519.4 235.0 L 521.8 234.4 L 524.3 233.9 L 526.7 233.4 L 529.2 232.8 L 531.6 232.3 L 534.0 231.8 L 536.5 231.3 L 538.9 230.7 L 541.3 230.2 L 543.8 229.7 L 546.2 229.2 L 548.7 228.7 L 551.1 228.2 L 553.5 227.7 L 556.0 227.2 L 558.4 226.7 L 560.8 226.2 L 563.3 225.8 L 565.7 225.3 L 568.2 224.8 L 570.6 224.3 L 573.0 223.9 L 575.5 223.4 L 577.9 222.9 L 580.3 222.4 L 582.8 222.0 L 585.2 221.5 L 587.6 221.1 L 590.1 220.6 L 592.5 220.2 L 595.0 219.7 L 597.4 219.3 L 599.8 218.8 L 602.3 218.4 L 604.7 217.9 L 607.1 217.5 L 609.6 217.0 L 612.0 216.6 L 614.5 216.2 L 616.9 215.7 L 619.3 215.3 L 621.8 214.9 L 624.2 214.5 L 626.6 214.0 L 629.1 213.6 L 631.5 213.2 L 633.9 212.8 L 636.4 212.4 L 638.8 212.0 L 641.3 211.5 L 643.7 211.1 L 646.1 210.7 L 648.6 210.3 L 651.0 209.9 L 653.4 209.5 L 655.9 209.1 L 658.3 208.7 L 660.8 208.3 L 663.2 207.9 L 665.6 207.5 L 668.1 207.1 L 670.5 206.7 L 672.9 206.3 L 675.4 205.9 L 677.8 205.6 L 680.3 205.2 L 682.7 204.8 L 685.1 204.4 L 687.6 204.0 L 690.0 203.6" fill="none" stroke="#4a90d9" stroke-width="2.6" stroke-dasharray="6 4"/>
+  <path d="M 400.0 270.0 L 402.4 269.8 L 404.9 269.5 L 407.3 269.3 L 409.7 269.1 L 412.2 268.9 L 414.6 268.6 L 417.1 268.4 L 419.5 268.2 L 421.9 268.0 L 424.4 267.7 L 426.8 267.5 L 429.2 267.3 L 431.7 267.1 L 434.1 266.9 L 436.6 266.7 L 439.0 266.5 L 441.4 266.2 L 443.9 266.0 L 446.3 265.8 L 448.7 265.6 L 451.2 265.4 L 453.6 265.2 L 456.1 265.0 L 458.5 264.8 L 460.9 264.6 L 463.4 264.4 L 465.8 264.2 L 468.2 264.0 L 470.7 263.8 L 473.1 263.6 L 475.5 263.4 L 478.0 263.2 L 480.4 263.0 L 482.9 262.8 L 485.3 262.6 L 487.7 262.4 L 490.2 262.2 L 492.6 262.0 L 495.0 261.8 L 497.5 261.6 L 499.9 261.4 L 502.4 261.3 L 504.8 261.1 L 507.2 260.9 L 509.7 260.7 L 512.1 260.5 L 514.5 260.3 L 517.0 260.1 L 519.4 260.0 L 521.8 259.8 L 524.3 259.6 L 526.7 259.4 L 529.2 259.2 L 531.6 259.0 L 534.0 258.9 L 536.5 258.7 L 538.9 258.5 L 541.3 258.3 L 543.8 258.2 L 546.2 258.0 L 548.7 257.8 L 551.1 257.6 L 553.5 257.4 L 556.0 257.3 L 558.4 257.1 L 560.8 256.9 L 563.3 256.8 L 565.7 256.6 L 568.2 256.4 L 570.6 256.2 L 573.0 256.1 L 575.5 255.9 L 577.9 255.7 L 580.3 255.6 L 582.8 255.4 L 585.2 255.2 L 587.6 255.1 L 590.1 254.9 L 592.5 254.7 L 595.0 254.6 L 597.4 254.4 L 599.8 254.2 L 602.3 254.1 L 604.7 253.9 L 607.1 253.7 L 609.6 253.6 L 612.0 253.4 L 614.5 253.3 L 616.9 253.1 L 619.3 252.9 L 621.8 252.8 L 624.2 252.6 L 626.6 252.5 L 629.1 252.3 L 631.5 252.1 L 633.9 252.0 L 636.4 251.8 L 638.8 251.7 L 641.3 251.5 L 643.7 251.4 L 646.1 251.2 L 648.6 251.0 L 651.0 250.9 L 653.4 250.7 L 655.9 250.6 L 658.3 250.4 L 660.8 250.3 L 663.2 250.1 L 665.6 250.0 L 668.1 249.8 L 670.5 249.7 L 672.9 249.5 L 675.4 249.4 L 677.8 249.2 L 680.3 249.1 L 682.7 248.9 L 685.1 248.8 L 687.6 248.6 L 690.0 248.5" fill="none" stroke="#8a8a8a" stroke-width="2.6" stroke-dasharray="2 3"/>
+  <text x="608.8" y="106.6" fill="#e0645c" font-size="11.5" text-anchor="middle">cluster size 30</text>
+  <text x="608.8" y="182.6" fill="#4a90d9" font-size="11.5" text-anchor="middle">size 10</text>
+  <text x="608.8" y="241.5" fill="#8a8a8a" font-size="11.5" text-anchor="middle">size 3</text>
+  <text x="548.0" y="314.0" fill="#8a8a8a" font-size="11.5" text-anchor="middle">bigger clusters punish correlation far harder</text>
+</svg>

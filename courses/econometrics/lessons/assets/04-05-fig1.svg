@@ -1,0 +1,44 @@
+<svg viewBox="0 0 740 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="40.0" y="24.0" fill="#8a8a8a" font-style="italic">With staggered timing, two-way fixed effects uses already-treated units as controls.</text>
+  <line x1="70.0" y1="255.0" x2="352.0" y2="255.0" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="352.0,255.0 341.0,250.0 341.0,260.0" fill="#8a8a8a"/>
+  <line x1="80.0" y1="267.0" x2="80.0" y2="72.0" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="80.0,72.0 75.0,83.0 85.0,83.0" fill="#8a8a8a"/>
+  <text x="210.0" y="282.0" fill="#8a8a8a" font-size="12" text-anchor="middle">period</text>
+  <text x="74.0" y="68.0" fill="#8a8a8a" font-size="11.5">outcome</text>
+  <path d="M 107.4 235.6 L 175.8 206.4 L 244.2 177.2 L 312.6 148.1" fill="none" stroke="#e0645c" stroke-width="2.8"/>
+  <circle cx="107.4" cy="235.6" r="4" fill="#e0645c"/>
+  <circle cx="175.8" cy="206.4" r="4" fill="#e0645c"/>
+  <circle cx="244.2" cy="177.2" r="4" fill="#e0645c"/>
+  <circle cx="312.6" cy="148.1" r="4" fill="#e0645c"/>
+  <text x="101.4" y="239.6" fill="#e0645c" font-size="11" text-anchor="end">A (early)</text>
+  <path d="M 107.4 177.2 L 175.8 167.5 L 244.2 157.8 L 312.6 128.6" fill="none" stroke="#4a90d9" stroke-width="2.8"/>
+  <circle cx="107.4" cy="177.2" r="4" fill="#4a90d9"/>
+  <circle cx="175.8" cy="167.5" r="4" fill="#4a90d9"/>
+  <circle cx="244.2" cy="157.8" r="4" fill="#4a90d9"/>
+  <circle cx="312.6" cy="128.6" r="4" fill="#4a90d9"/>
+  <text x="101.4" y="181.2" fill="#4a90d9" font-size="11" text-anchor="end">B (late)</text>
+  <text x="107.4" y="272.0" fill="#8a8a8a" font-size="10.5" text-anchor="middle">1</text>
+  <text x="175.8" y="272.0" fill="#8a8a8a" font-size="10.5" text-anchor="middle">2</text>
+  <text x="244.2" y="272.0" fill="#8a8a8a" font-size="10.5" text-anchor="middle">3</text>
+  <text x="312.6" y="272.0" fill="#8a8a8a" font-size="10.5" text-anchor="middle">4</text>
+  <line x1="175.8" y1="255.0" x2="175.8" y2="85.8" stroke="#e0645c" stroke-width="1.2" stroke-dasharray="3 3"/>
+  <line x1="312.6" y1="255.0" x2="312.6" y2="85.8" stroke="#4a90d9" stroke-width="1.2" stroke-dasharray="3 3"/>
+  <text x="175.8" y="81.9" fill="#e0645c" font-size="10.5" text-anchor="middle">A switches</text>
+  <text x="281.8" y="81.9" fill="#4a90d9" font-size="10.5" text-anchor="middle">B switches</text>
+  <text x="210.0" y="302.0" fill="#8a8a8a" font-size="11.5" text-anchor="middle">Every true effect is POSITIVE: A gets 1, 2, 3 and B gets 1.</text>
+  <text x="210.0" y="322.0" fill="#8a8a8a" font-size="11.5" text-anchor="middle">True ATT over treated cells = 1.75.</text>
+  <text x="210.0" y="344.0" fill="#e0645c" font-size="12" text-anchor="middle">Two-way fixed effects returns 0.50.</text>
+  <line x1="378.0" y1="80.0" x2="378.0" y2="344.0" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="402.0" y="110.0" fill="#8a8a8a" font-size="12.5">Goodman-Bacon decomposition:</text>
+  <text x="402.0" y="146.0" fill="#4a90d9" font-size="12">(i) early A vs not-yet-treated B</text>
+  <text x="402.0" y="166.0" fill="#8a8a8a" font-size="11.5">periods 1 vs 2 and 3   -&gt;   DiD = +1.50</text>
+  <text x="402.0" y="186.0" fill="#8a8a8a" font-size="11">clean: the control really is untreated</text>
+  <line x1="398.0" y1="204.0" x2="724.0" y2="204.0" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="402.0" y="228.0" fill="#e0645c" font-size="12">(ii) late B vs ALREADY-TREATED A</text>
+  <text x="402.0" y="248.0" fill="#e0645c" font-size="11.5">periods 2 and 3 vs 4   -&gt;   DiD = -0.50</text>
+  <text x="402.0" y="268.0" fill="#e0645c" font-size="11">forbidden: A&#x27;s own effect is still GROWING,</text>
+  <text x="402.0" y="286.0" fill="#e0645c" font-size="11">so its growth is subtracted from B&#x27;s effect</text>
+  <text x="402.0" y="318.0" fill="#8a8a8a" font-size="11.5">TWFE averages the two. The second is</text>
+  <text x="402.0" y="338.0" fill="#8a8a8a" font-size="11.5">negative even though every effect is positive.</text>
+</svg>

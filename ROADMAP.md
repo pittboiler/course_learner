@@ -346,7 +346,7 @@ New field (Phase 9 in [EXPANSION.md](EXPANSION.md)).
 | `grad-game-theory` | Grad Game Theory | 2 | game-theory, probability-theory, real-analysis | Optimization & fixed-points module, existence proofs, Bayesian games, mechanism design, repeated games/folk theorems. |
 | `grad-micro` | Grad Microeconomics | 2 | micro, real-analysis, linalg | Optimization module (convexity, KKT, duality, DP), choice/preference axioms, GE (Arrow–Debreu), welfare theorems, information economics. |
 | `grad-macro` | Grad Macroeconomics | 2 | grad-micro, real-analysis, probability-theory | Recursive methods, growth, OLG, RBC/DSGE, consumption/investment, asset pricing, policy. The pair to grad-micro. |
-| `econometrics` | Econometrics | 2 | probability-theory, linalg, prob-stat | OLS geometry, inference, identification, IV, panel & diff-in-diff, causal inference, MLE/GMM. |
+| `econometrics` | Econometrics | 2 | probability-theory, linalg, prob-stat | OLS geometry, inference, identification, IV, panel & diff-in-diff, staggered DiD, RD, synthetic control, MLE/GMM. |
 | `mathematical-finance` | Mathematical Finance | 2 | stochastic-calculus, probability-theory, grad-micro | No-arbitrage & risk-neutral pricing, Black–Scholes, portfolio theory/SDF, term structure. |
 | `statistical-learning` | Statistical Learning Theory | 2 | probability-theory, linalg, prob-stat | Bias–variance, regularization, VC/PAC generalization, kernels/SVM, trees/boosting, neural nets, unsupervised. |
 

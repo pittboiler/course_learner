@@ -1,0 +1,163 @@
+<svg viewBox="0 0 760 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="40.0" y="24.0" fill="#8a8a8a" font-style="italic">2SLS keeps only the part of the treatment the instruments can explain, then uses that.</text>
+  <line x1="70.0" y1="270.0" x2="358.0" y2="270.0" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="358.0,270.0 347.0,265.0 347.0,275.0" fill="#8a8a8a"/>
+  <line x1="70.0" y1="282.0" x2="70.0" y2="72.0" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70.0,72.0 65.0,83.0 75.0,83.0" fill="#8a8a8a"/>
+  <text x="215.0" y="296.0" fill="#8a8a8a" font-size="12" text-anchor="middle">instrument Z</text>
+  <text x="66.0" y="68.0" fill="#8a8a8a" font-size="11.5">treatment D</text>
+  <circle cx="219.6" cy="168.9" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="170.5" cy="212.0" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="177.0" cy="222.6" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="178.4" cy="195.8" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="332.8" cy="129.3" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="243.5" cy="160.0" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="253.9" cy="180.6" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="167.2" cy="185.7" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="255.3" cy="183.2" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="115.0" cy="233.0" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="97.0" cy="244.0" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="298.2" cy="103.2" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="86.2" cy="277.6" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="330.6" cy="130.5" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="292.4" cy="108.2" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="281.9" cy="160.6" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="96.1" cy="266.2" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="136.3" cy="207.6" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="298.2" cy="143.2" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="193.0" cy="165.7" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="242.1" cy="186.7" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="114.8" cy="220.4" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="131.0" cy="200.3" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="209.3" cy="152.6" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="275.4" cy="175.2" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="220.0" cy="137.4" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="110.9" cy="250.3" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="302.3" cy="172.5" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="119.2" cy="247.6" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="194.8" cy="182.3" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="231.9" cy="176.4" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="164.4" cy="189.8" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="189.3" cy="176.2" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="307.5" cy="123.0" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="198.4" cy="191.0" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="219.9" cy="127.4" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="328.6" cy="177.7" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="153.5" cy="250.9" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="309.5" cy="143.2" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="175.2" cy="228.0" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="162.6" cy="267.5" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="306.1" cy="152.2" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="100.5" cy="251.5" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="302.4" cy="196.5" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="292.6" cy="116.4" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="309.5" cy="96.9" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="99.1" cy="201.3" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="144.2" cy="224.0" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="279.3" cy="141.1" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="194.1" cy="215.3" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="85.3" cy="234.4" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="258.5" cy="172.4" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="285.5" cy="131.4" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="329.4" cy="129.3" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="122.0" cy="195.3" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="147.5" cy="188.1" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="296.0" cy="105.0" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="107.1" cy="270.2" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="153.1" cy="253.3" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="197.8" cy="174.4" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="189.4" cy="203.7" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="220.8" cy="163.3" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="302.9" cy="125.7" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="243.1" cy="158.0" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="248.8" cy="136.3" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="233.2" cy="153.2" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="137.1" cy="202.3" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="197.3" cy="207.9" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="332.9" cy="74.5" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <circle cx="313.1" cy="125.2" r="2.4" fill="#8a8a8a" opacity="0.55"/>
+  <path d="M 81.2 241.7 L 338.8 115.9" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <text x="215.0" y="314.0" fill="#4a90d9" font-size="11.5" text-anchor="middle">stage 1: the blue line is D-hat, the exogenous part</text>
+  <text x="215.0" y="332.0" fill="#8a8a8a" font-size="11.5" text-anchor="middle">the vertical scatter around it is thrown away</text>
+  <line x1="372.0" y1="175.0" x2="410.0" y2="175.0" stroke="#8a8a8a" stroke-width="1.8"/>
+  <polygon points="410.0,175.0 399.0,170.0 399.0,180.0" fill="#8a8a8a"/>
+  <line x1="450.0" y1="270.0" x2="738.0" y2="270.0" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="738.0,270.0 727.0,265.0 727.0,275.0" fill="#8a8a8a"/>
+  <line x1="450.0" y1="282.0" x2="450.0" y2="72.0" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="450.0,72.0 445.0,83.0 455.0,83.0" fill="#8a8a8a"/>
+  <text x="592.0" y="296.0" fill="#8a8a8a" font-size="12" text-anchor="middle">fitted treatment D-hat</text>
+  <text x="446.0" y="68.0" fill="#8a8a8a" font-size="11.5">outcome Y</text>
+  <circle cx="591.3" cy="154.4" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="556.0" cy="184.0" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="560.6" cy="167.6" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="561.6" cy="183.8" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="672.8" cy="126.2" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="608.5" cy="160.1" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="616.0" cy="168.9" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="553.5" cy="198.7" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="617.0" cy="160.0" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="516.0" cy="211.0" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="503.1" cy="230.5" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="647.9" cy="106.9" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="495.3" cy="234.5" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="671.3" cy="134.8" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="643.7" cy="107.8" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="636.1" cy="158.0" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="502.4" cy="204.8" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="531.3" cy="191.6" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="647.9" cy="145.3" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="572.2" cy="202.0" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="607.5" cy="185.9" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="515.9" cy="209.5" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="527.5" cy="197.1" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="583.9" cy="206.9" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="631.5" cy="148.2" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="591.6" cy="180.5" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="513.1" cy="197.4" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="650.8" cy="138.0" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="519.0" cy="219.7" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="573.5" cy="186.4" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="600.2" cy="165.7" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="551.6" cy="171.0" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="569.5" cy="136.5" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="654.6" cy="133.3" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="576.1" cy="176.8" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="591.5" cy="160.2" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="669.8" cy="130.3" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="543.8" cy="184.5" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="656.0" cy="131.0" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="559.3" cy="185.9" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="550.3" cy="202.4" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="653.6" cy="135.5" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="505.6" cy="199.7" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="650.9" cy="138.1" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="643.9" cy="120.2" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="656.0" cy="122.5" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="504.5" cy="215.6" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="537.0" cy="171.2" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="634.3" cy="164.4" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="572.9" cy="161.3" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="494.6" cy="190.9" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="619.3" cy="158.9" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="638.8" cy="146.7" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="670.3" cy="115.1" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="521.0" cy="183.7" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="539.4" cy="189.1" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="646.3" cy="137.6" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="510.3" cy="196.7" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="543.4" cy="189.7" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="575.6" cy="195.2" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="569.6" cy="183.0" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="592.2" cy="169.0" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="651.3" cy="161.0" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="608.2" cy="154.6" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="612.3" cy="169.5" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="601.1" cy="153.1" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="531.9" cy="221.6" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="575.3" cy="191.0" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="672.9" cy="149.4" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <circle cx="658.7" cy="115.7" r="2.4" fill="#4a90d9" opacity="0.6"/>
+  <path d="M 489.2 222.9 L 679.6 126.0" fill="none" stroke="#e0645c" stroke-width="3"/>
+  <text x="592.0" y="314.0" fill="#e0645c" font-size="11.5" text-anchor="middle">stage 2: regress Y on D-hat; that slope is the IV estimate</text>
+  <text x="592.0" y="332.0" fill="#8a8a8a" font-size="11.5" text-anchor="middle">but the standard error must come from the 2SLS formula</text>
+</svg>

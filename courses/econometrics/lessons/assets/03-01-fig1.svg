@@ -1,0 +1,40 @@
+<svg viewBox="0 0 700 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="40.0" y="24.0" fill="#8a8a8a" font-style="italic">Causal inference is a missing-data problem: half of every row is unobservable.</text>
+  <text x="60.0" y="86.0" fill="#8a8a8a" font-size="12.5" text-anchor="middle">unit</text>
+  <text x="130.0" y="86.0" fill="#8a8a8a" font-size="12.5" text-anchor="middle">D</text>
+  <text x="210.0" y="86.0" fill="#8a8a8a" font-size="12.5" text-anchor="middle">Y(0)</text>
+  <text x="300.0" y="86.0" fill="#8a8a8a" font-size="12.5" text-anchor="middle">Y(1)</text>
+  <text x="410.0" y="86.0" fill="#8a8a8a" font-size="12.5" text-anchor="middle">Y(1)-Y(0)</text>
+  <line x1="40.0" y1="94.0" x2="470.0" y2="94.0" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="60.0" y="118.0" fill="#8a8a8a" font-size="12.5" text-anchor="middle">Ann</text>
+  <text x="130.0" y="118.0" fill="#8a8a8a" font-size="12.5" text-anchor="middle">1</text>
+  <text x="210.0" y="118.0" fill="#e0645c" font-size="12.5" text-anchor="middle">?</text>
+  <text x="300.0" y="118.0" fill="#4a90d9" font-size="12.5" text-anchor="middle">9</text>
+  <text x="410.0" y="118.0" fill="#e0645c" font-size="12.5" text-anchor="middle">?</text>
+  <text x="60.0" y="150.0" fill="#8a8a8a" font-size="12.5" text-anchor="middle">Bo</text>
+  <text x="130.0" y="150.0" fill="#8a8a8a" font-size="12.5" text-anchor="middle">0</text>
+  <text x="210.0" y="150.0" fill="#4a90d9" font-size="12.5" text-anchor="middle">4</text>
+  <text x="300.0" y="150.0" fill="#e0645c" font-size="12.5" text-anchor="middle">?</text>
+  <text x="410.0" y="150.0" fill="#e0645c" font-size="12.5" text-anchor="middle">?</text>
+  <text x="60.0" y="182.0" fill="#8a8a8a" font-size="12.5" text-anchor="middle">Cy</text>
+  <text x="130.0" y="182.0" fill="#8a8a8a" font-size="12.5" text-anchor="middle">1</text>
+  <text x="210.0" y="182.0" fill="#e0645c" font-size="12.5" text-anchor="middle">?</text>
+  <text x="300.0" y="182.0" fill="#4a90d9" font-size="12.5" text-anchor="middle">7</text>
+  <text x="410.0" y="182.0" fill="#e0645c" font-size="12.5" text-anchor="middle">?</text>
+  <text x="60.0" y="214.0" fill="#8a8a8a" font-size="12.5" text-anchor="middle">Di</text>
+  <text x="130.0" y="214.0" fill="#8a8a8a" font-size="12.5" text-anchor="middle">0</text>
+  <text x="210.0" y="214.0" fill="#4a90d9" font-size="12.5" text-anchor="middle">6</text>
+  <text x="300.0" y="214.0" fill="#e0645c" font-size="12.5" text-anchor="middle">?</text>
+  <text x="410.0" y="214.0" fill="#e0645c" font-size="12.5" text-anchor="middle">?</text>
+  <text x="255.0" y="268.0" fill="#8a8a8a" font-size="11.5" text-anchor="middle">blue = observed      coral = counterfactual, never observed</text>
+  <text x="255.0" y="290.0" fill="#8a8a8a" font-size="12" text-anchor="middle">No unit ever reveals its own treatment effect.</text>
+  <line x1="492.0" y1="86.0" x2="492.0" y2="300.0" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="516.0" y="110.0" fill="#8a8a8a" font-size="12">What a naive comparison gives:</text>
+  <text x="516.0" y="142.0" fill="#4a90d9" font-size="12.5">E[Y|D=1] - E[Y|D=0]</text>
+  <text x="516.0" y="172.0" fill="#8a8a8a" font-size="12.5">= ATT</text>
+  <text x="516.0" y="198.0" fill="#e0645c" font-size="12.5">+ E[Y(0)|D=1] - E[Y(0)|D=0]</text>
+  <text x="516.0" y="224.0" fill="#e0645c" font-size="12">       selection bias</text>
+  <text x="516.0" y="258.0" fill="#8a8a8a" font-size="11.5">Randomisation sets the coral</text>
+  <text x="516.0" y="276.0" fill="#8a8a8a" font-size="11.5">term to zero. Nothing else does</text>
+  <text x="516.0" y="294.0" fill="#8a8a8a" font-size="11.5">automatically.</text>
+</svg>

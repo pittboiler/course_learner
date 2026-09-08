@@ -1,0 +1,26 @@
+<svg viewBox="0 0 720 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="40.0" y="24.0" fill="#8a8a8a" font-style="italic">Synthetic control builds a weighted comparison unit that tracks the treated unit before treatment.</text>
+  <line x1="70.0" y1="265.0" x2="668.0" y2="265.0" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="668.0,265.0 657.0,260.0 657.0,270.0" fill="#8a8a8a"/>
+  <line x1="70.0" y1="277.0" x2="70.0" y2="72.0" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="70.0,72.0 65.0,83.0 75.0,83.0" fill="#8a8a8a"/>
+  <text x="365.0" y="292.0" fill="#8a8a8a" font-size="12" text-anchor="middle">year</text>
+  <text x="64.0" y="68.0" fill="#8a8a8a" font-size="11.5">outcome</text>
+  <path d="M 70.0 218.8 L 99.5 209.4 L 129.0 207.9 L 158.5 196.9 L 188.0 197.9 L 217.5 196.7 L 247.0 193.6 L 276.5 189.8 L 306.0 190.8 L 335.5 193.8 L 365.0 189.8 L 394.5 183.3 L 424.0 170.7 L 453.5 158.1 L 483.0 152.9 L 512.5 143.0 L 542.0 139.7 L 571.5 132.8 L 601.0 146.6 L 630.5 148.0 L 660.0 141.1" fill="none" stroke="#8a8a8a" stroke-width="1.2" opacity="0.35"/>
+  <path d="M 70.0 196.9 L 99.5 184.3 L 129.0 182.6 L 158.5 177.1 L 188.0 171.6 L 217.5 164.5 L 247.0 165.7 L 276.5 172.2 L 306.0 168.8 L 335.5 170.1 L 365.0 163.1 L 394.5 160.7 L 424.0 147.7 L 453.5 141.0 L 483.0 129.3 L 512.5 124.5 L 542.0 120.4 L 571.5 114.5 L 601.0 116.2 L 630.5 115.7 L 660.0 118.1" fill="none" stroke="#8a8a8a" stroke-width="1.2" opacity="0.35"/>
+  <path d="M 70.0 222.4 L 99.5 206.9 L 129.0 196.6 L 158.5 197.1 L 188.0 185.8 L 217.5 183.7 L 247.0 190.6 L 276.5 198.7 L 306.0 199.8 L 335.5 192.2 L 365.0 180.0 L 394.5 177.9 L 424.0 168.4 L 453.5 163.0 L 483.0 156.0 L 512.5 144.4 L 542.0 145.5 L 571.5 139.7 L 601.0 136.7 L 630.5 139.5 L 660.0 138.3" fill="none" stroke="#8a8a8a" stroke-width="1.2" opacity="0.35"/>
+  <path d="M 70.0 205.1 L 99.5 196.5 L 129.0 196.6 L 158.5 188.3 L 188.0 183.8 L 217.5 177.4 L 247.0 179.4 L 276.5 180.4 L 306.0 180.9 L 335.5 177.2 L 365.0 171.5 L 394.5 170.6 L 424.0 166.0 L 453.5 147.5 L 483.0 142.1 L 512.5 133.9 L 542.0 130.0 L 571.5 131.5 L 601.0 133.0 L 630.5 124.1 L 660.0 124.3" fill="none" stroke="#8a8a8a" stroke-width="1.2" opacity="0.35"/>
+  <path d="M 70.0 212.1 L 99.5 202.8 L 129.0 194.8 L 158.5 188.9 L 188.0 185.6 L 217.5 184.7 L 247.0 185.3 L 276.5 186.3 L 306.0 186.3 L 335.5 184.4 L 365.0 185.8 L 394.5 184.7 L 424.0 181.8 L 453.5 178.2 L 483.0 175.1 L 512.5 173.7 L 542.0 174.7 L 571.5 178.3 L 601.0 184.0 L 630.5 190.7 L 660.0 197.3" fill="none" stroke="#e0645c" stroke-width="3"/>
+  <path d="M 70.0 213.1 L 99.5 202.2 L 129.0 193.3 L 158.5 191.2 L 188.0 183.8 L 217.5 184.1 L 247.0 183.4 L 276.5 185.6 L 306.0 183.6 L 335.5 186.7 L 365.0 175.8 L 394.5 170.2 L 424.0 165.8 L 453.5 153.3 L 483.0 144.9 L 512.5 143.0 L 542.0 132.6 L 571.5 133.2 L 601.0 132.3 L 630.5 134.0 L 660.0 134.3" fill="none" stroke="#4a90d9" stroke-width="2.6" stroke-dasharray="6 4"/>
+  <line x1="350.2" y1="265.0" x2="350.2" y2="90.6" stroke="#8a8a8a" stroke-width="1.6" stroke-dasharray="4 3"/>
+  <text x="350.2" y="84.0" fill="#8a8a8a" font-size="11" text-anchor="middle">treatment</text>
+  <text x="164.4" y="114.4" fill="#8a8a8a" font-size="11">faint grey = donor pool</text>
+  <text x="527.2" y="103.8" fill="#4a90d9" font-size="11.5" text-anchor="middle">synthetic control</text>
+  <text x="536.1" y="220.1" fill="#e0645c" font-size="11.5" text-anchor="middle">treated unit</text>
+  <text x="512.5" y="164.6" fill="#8a8a8a" font-size="11" text-anchor="middle">gap = the estimate</text>
+  <line x1="453.5" y1="178.2" x2="453.5" y2="153.3" stroke="#8a8a8a" stroke-width="1.4" stroke-dasharray="2 2"/>
+  <line x1="542.0" y1="174.7" x2="542.0" y2="132.6" stroke="#8a8a8a" stroke-width="1.4" stroke-dasharray="2 2"/>
+  <line x1="630.5" y1="190.7" x2="630.5" y2="134.0" stroke="#8a8a8a" stroke-width="1.4" stroke-dasharray="2 2"/>
+  <text x="365.0" y="310.0" fill="#8a8a8a" font-size="11.5" text-anchor="middle">Weights are chosen so the blue line matches the coral one BEFORE treatment only.</text>
+  <text x="365.0" y="328.0" fill="#8a8a8a" font-size="11.5" text-anchor="middle">Inference is by placebo: refit pretending each donor was treated, and rank the gaps.</text>
+</svg>
