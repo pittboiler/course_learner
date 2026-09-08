@@ -1,0 +1,26 @@
+<svg viewBox="0 0 700.0 380.0" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="12.5">
+  <text x="20.0" y="20.0" fill="#8a8a8a" font-size="11.5" text-anchor="start" font-style="italic">One perceptron update: adding y x to w swings the decision boundary across the misclassified point.</text>
+  <text x="20.0" y="38.0" fill="#8a8a8a" font-size="11" text-anchor="start" font-style="italic">Each boundary is the line perpendicular to its weight vector; w points into the region predicted +1.</text>
+  <line x1="175.0" y1="323.0" x2="423.4" y2="74.6" stroke="#8a8a8a" stroke-width="1.4" stroke-dasharray="6 4"/>
+  <line x1="290.0" y1="332.2" x2="290.0" y2="70.0" stroke="#e0645c" stroke-width="1.8"/>
+  <line x1="290.0" y1="208.0" x2="336.0" y2="116.0" stroke="#8a8a8a" stroke-width="1.0" stroke-dasharray="3 4"/>
+  <line x1="290.0" y1="208.0" x2="382.0" y2="300.0" stroke="#4a90d9" stroke-width="1.8"/>
+  <line x1="382.0" y1="300.0" x2="375.5" y2="297.5" stroke="#4a90d9" stroke-width="1.8"/>
+  <line x1="382.0" y1="300.0" x2="379.5" y2="293.5" stroke="#4a90d9" stroke-width="1.8"/>
+  <line x1="382.0" y1="300.0" x2="428.0" y2="208.0" stroke="#e0645c" stroke-width="2.0"/>
+  <line x1="428.0" y1="208.0" x2="427.7" y2="216.0" stroke="#e0645c" stroke-width="2.0"/>
+  <line x1="428.0" y1="208.0" x2="421.8" y2="213.1" stroke="#e0645c" stroke-width="2.0"/>
+  <line x1="290.0" y1="208.0" x2="428.0" y2="208.0" stroke="#4a90d9" stroke-width="2.4"/>
+  <line x1="428.0" y1="208.0" x2="420.7" y2="211.3" stroke="#4a90d9" stroke-width="2.4"/>
+  <line x1="428.0" y1="208.0" x2="420.7" y2="204.7" stroke="#4a90d9" stroke-width="2.4"/>
+  <circle cx="336.0" cy="116.0" r="5.0" fill="#e0645c" stroke="#e0645c" stroke-width="1.4"/>
+  <circle cx="290.0" cy="208.0" r="2.6" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.4"/>
+  <text x="274.0" y="200.0" fill="#8a8a8a" font-size="11" text-anchor="start">0</text>
+  <text x="323.0" y="113.0" fill="#e0645c" font-size="12.5" text-anchor="end">x,  label y = +1</text>
+  <text x="323.0" y="130.0" fill="#8a8a8a" font-size="11" text-anchor="end">on the wrong side of it</text>
+  <text x="392.0" y="316.0" fill="#4a90d9" font-size="12.5" text-anchor="start">w   (old)</text>
+  <text x="420.0" y="260.0" fill="#e0645c" font-size="12.5" text-anchor="start">y x</text>
+  <text x="440.0" y="201.0" fill="#4a90d9" font-size="12.5" text-anchor="start">w + y x   (new)</text>
+  <text x="96.0" y="344.0" fill="#8a8a8a" font-size="11.5" text-anchor="start">old boundary</text>
+  <text x="299.0" y="62.0" fill="#e0645c" font-size="11.5" text-anchor="start">new boundary</text>
+</svg>

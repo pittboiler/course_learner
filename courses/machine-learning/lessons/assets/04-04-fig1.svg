@@ -1,0 +1,43 @@
+<svg viewBox="0 0 720.0 416.0" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="12.5">
+  <text x="20.0" y="20.0" fill="#8a8a8a" font-size="11.5" text-anchor="start" font-style="italic">Forward values above each node in grey, backward gradients below in coral. Unit 2 never fires.</text>
+  <text x="95.0" y="48.0" fill="#8a8a8a" font-size="11.5" text-anchor="middle">input x</text>
+  <text x="330.0" y="48.0" fill="#8a8a8a" font-size="11.5" text-anchor="middle">hidden layer (ReLU)</text>
+  <text x="585.0" y="48.0" fill="#8a8a8a" font-size="11.5" text-anchor="middle">output (identity)</text>
+  <line x1="116.5" y1="175.4" x2="306.5" y2="135.0" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="112.1" y1="306.2" x2="311.3" y2="145.1" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="112.8" y1="192.9" x2="310.6" y2="335.9" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="116.8" y1="322.8" x2="306.2" y2="347.0" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="352.0" y1="139.5" x2="563.0" y2="230.5" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="352.0" y1="340.5" x2="563.0" y2="249.5" stroke="#8a8a8a" stroke-width="1.2"/>
+  <circle cx="95.0" cy="180.0" r="22.0" fill="none" stroke="#8a8a8a" stroke-width="1.4"/>
+  <circle cx="95.0" cy="320.0" r="22.0" fill="none" stroke="#8a8a8a" stroke-width="1.4"/>
+  <circle cx="330.0" cy="130.0" r="24.0" fill="none" stroke="#4a90d9" stroke-width="1.8"/>
+  <circle cx="330.0" cy="350.0" r="24.0" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+  <circle cx="585.0" cy="240.0" r="24.0" fill="none" stroke="#4a90d9" stroke-width="1.8"/>
+  <text x="95.0" y="185.0" fill="#8a8a8a" font-size="13" text-anchor="middle">2</text>
+  <text x="95.0" y="325.0" fill="#8a8a8a" font-size="13" text-anchor="middle">1</text>
+  <text x="330.0" y="135.0" fill="#4a90d9" font-size="13" text-anchor="middle">3</text>
+  <text x="330.0" y="355.0" fill="#e0645c" font-size="13" text-anchor="middle">0</text>
+  <text x="585.0" y="245.0" fill="#4a90d9" font-size="13" text-anchor="middle">5</text>
+  <text x="58.0" y="185.0" fill="#8a8a8a" font-size="11.5" text-anchor="end">x1</text>
+  <text x="58.0" y="325.0" fill="#8a8a8a" font-size="11.5" text-anchor="end">x2</text>
+  <text x="245.0" y="123.1" fill="#8a8a8a" font-size="11" text-anchor="middle">w = 1</text>
+  <text x="245.0" y="136.1" fill="#e0645c" font-size="11" text-anchor="middle">g = 4</text>
+  <text x="245.0" y="173.7" fill="#8a8a8a" font-size="11" text-anchor="middle">w = 1</text>
+  <text x="245.0" y="186.7" fill="#e0645c" font-size="11" text-anchor="middle">g = 2</text>
+  <text x="245.0" y="263.5" fill="#8a8a8a" font-size="11" text-anchor="middle">w = -1</text>
+  <text x="245.0" y="276.5" fill="#e0645c" font-size="11" text-anchor="middle">g = 0</text>
+  <text x="245.0" y="314.1" fill="#8a8a8a" font-size="11" text-anchor="middle">w = -1</text>
+  <text x="245.0" y="327.1" fill="#e0645c" font-size="11" text-anchor="middle">g = 0</text>
+  <text x="455.0" y="158.9" fill="#8a8a8a" font-size="11" text-anchor="middle">w = 2</text>
+  <text x="455.0" y="171.9" fill="#e0645c" font-size="11" text-anchor="middle">g = 3</text>
+  <text x="455.0" y="271.1" fill="#8a8a8a" font-size="11" text-anchor="middle">w = 1</text>
+  <text x="455.0" y="284.1" fill="#e0645c" font-size="11" text-anchor="middle">g = 0</text>
+  <text x="330.0" y="92.0" fill="#8a8a8a" font-size="11.5" text-anchor="middle">z = 2 + 1 + 0 = 3</text>
+  <text x="330.0" y="186.0" fill="#e0645c" font-size="11.5" text-anchor="middle">dL/dz = 2</text>
+  <text x="330.0" y="308.0" fill="#8a8a8a" font-size="11.5" text-anchor="middle">z = -2 - 1 + 1 = -2</text>
+  <text x="330.0" y="400.0" fill="#e0645c" font-size="11.5" text-anchor="middle">dL/dz = 0  (dead unit)</text>
+  <text x="585.0" y="196.0" fill="#8a8a8a" font-size="11.5" text-anchor="middle">2(3) + 1(0) - 1 = 5</text>
+  <text x="585.0" y="294.0" fill="#e0645c" font-size="11.5" text-anchor="middle">dL/dz = 5 - 4 = 1</text>
+  <text x="585.0" y="312.0" fill="#8a8a8a" font-size="11.5" text-anchor="middle">target y = 4,  L = 0.5</text>
+</svg>
