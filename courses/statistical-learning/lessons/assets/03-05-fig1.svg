@@ -1,0 +1,89 @@
+<svg viewBox="0 0 720.0 348.0" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="12.5">
+  <text x="20.0" y="20.0" fill="#8a8a8a" font-size="11.5" text-anchor="start" font-style="italic">The same 8 coin-flip labellings, scored against two classes on the same 3 points.</text>
+  <text x="165.0" y="52.0" fill="#4a90d9" font-size="13" text-anchor="middle" font-weight="bold">small class</text>
+  <text x="165.0" y="70.0" fill="#8a8a8a" font-size="11" text-anchor="middle">only all-plus and all-minus</text>
+  <text x="48.0" y="100.0" fill="#8a8a8a" font-size="11" text-anchor="end" font-style="italic">s1</text>
+  <text x="48.0" y="124.0" fill="#8a8a8a" font-size="11" text-anchor="end" font-style="italic">s2</text>
+  <text x="48.0" y="148.0" fill="#8a8a8a" font-size="11" text-anchor="end" font-style="italic">s3</text>
+  <text x="60.0" y="100.0" fill="#8a8a8a" font-size="13" text-anchor="middle">+</text>
+  <text x="60.0" y="124.0" fill="#8a8a8a" font-size="13" text-anchor="middle">+</text>
+  <text x="60.0" y="148.0" fill="#8a8a8a" font-size="13" text-anchor="middle">+</text>
+  <text x="90.0" y="100.0" fill="#8a8a8a" font-size="13" text-anchor="middle">+</text>
+  <text x="90.0" y="124.0" fill="#8a8a8a" font-size="13" text-anchor="middle">+</text>
+  <text x="90.0" y="148.0" fill="#8a8a8a" font-size="13" text-anchor="middle">−</text>
+  <text x="120.0" y="100.0" fill="#8a8a8a" font-size="13" text-anchor="middle">+</text>
+  <text x="120.0" y="124.0" fill="#8a8a8a" font-size="13" text-anchor="middle">−</text>
+  <text x="120.0" y="148.0" fill="#8a8a8a" font-size="13" text-anchor="middle">+</text>
+  <text x="150.0" y="100.0" fill="#8a8a8a" font-size="13" text-anchor="middle">+</text>
+  <text x="150.0" y="124.0" fill="#8a8a8a" font-size="13" text-anchor="middle">−</text>
+  <text x="150.0" y="148.0" fill="#8a8a8a" font-size="13" text-anchor="middle">−</text>
+  <text x="180.0" y="100.0" fill="#8a8a8a" font-size="13" text-anchor="middle">−</text>
+  <text x="180.0" y="124.0" fill="#8a8a8a" font-size="13" text-anchor="middle">+</text>
+  <text x="180.0" y="148.0" fill="#8a8a8a" font-size="13" text-anchor="middle">+</text>
+  <text x="210.0" y="100.0" fill="#8a8a8a" font-size="13" text-anchor="middle">−</text>
+  <text x="210.0" y="124.0" fill="#8a8a8a" font-size="13" text-anchor="middle">+</text>
+  <text x="210.0" y="148.0" fill="#8a8a8a" font-size="13" text-anchor="middle">−</text>
+  <text x="240.0" y="100.0" fill="#8a8a8a" font-size="13" text-anchor="middle">−</text>
+  <text x="240.0" y="124.0" fill="#8a8a8a" font-size="13" text-anchor="middle">−</text>
+  <text x="240.0" y="148.0" fill="#8a8a8a" font-size="13" text-anchor="middle">+</text>
+  <text x="270.0" y="100.0" fill="#8a8a8a" font-size="13" text-anchor="middle">−</text>
+  <text x="270.0" y="124.0" fill="#8a8a8a" font-size="13" text-anchor="middle">−</text>
+  <text x="270.0" y="148.0" fill="#8a8a8a" font-size="13" text-anchor="middle">−</text>
+  <line x1="44.0" y1="164.0" x2="286.0" y2="164.0" stroke="#8a8a8a" stroke-width="1.0"/>
+  <text x="48.0" y="190.0" fill="#4a90d9" font-size="11" text-anchor="end">best</text>
+  <text x="60.0" y="190.0" fill="#4a90d9" font-size="11" text-anchor="middle">1</text>
+  <text x="90.0" y="190.0" fill="#4a90d9" font-size="11" text-anchor="middle">1/3</text>
+  <text x="120.0" y="190.0" fill="#4a90d9" font-size="11" text-anchor="middle">1/3</text>
+  <text x="150.0" y="190.0" fill="#4a90d9" font-size="11" text-anchor="middle">1/3</text>
+  <text x="180.0" y="190.0" fill="#4a90d9" font-size="11" text-anchor="middle">1/3</text>
+  <text x="210.0" y="190.0" fill="#4a90d9" font-size="11" text-anchor="middle">1/3</text>
+  <text x="240.0" y="190.0" fill="#4a90d9" font-size="11" text-anchor="middle">1/3</text>
+  <text x="270.0" y="190.0" fill="#4a90d9" font-size="11" text-anchor="middle">1</text>
+  <text x="525.0" y="52.0" fill="#e0645c" font-size="13" text-anchor="middle" font-weight="bold">full class</text>
+  <text x="525.0" y="70.0" fill="#8a8a8a" font-size="11" text-anchor="middle">every labelling available</text>
+  <text x="408.0" y="100.0" fill="#8a8a8a" font-size="11" text-anchor="end" font-style="italic">s1</text>
+  <text x="408.0" y="124.0" fill="#8a8a8a" font-size="11" text-anchor="end" font-style="italic">s2</text>
+  <text x="408.0" y="148.0" fill="#8a8a8a" font-size="11" text-anchor="end" font-style="italic">s3</text>
+  <text x="420.0" y="100.0" fill="#8a8a8a" font-size="13" text-anchor="middle">+</text>
+  <text x="420.0" y="124.0" fill="#8a8a8a" font-size="13" text-anchor="middle">+</text>
+  <text x="420.0" y="148.0" fill="#8a8a8a" font-size="13" text-anchor="middle">+</text>
+  <text x="450.0" y="100.0" fill="#8a8a8a" font-size="13" text-anchor="middle">+</text>
+  <text x="450.0" y="124.0" fill="#8a8a8a" font-size="13" text-anchor="middle">+</text>
+  <text x="450.0" y="148.0" fill="#8a8a8a" font-size="13" text-anchor="middle">−</text>
+  <text x="480.0" y="100.0" fill="#8a8a8a" font-size="13" text-anchor="middle">+</text>
+  <text x="480.0" y="124.0" fill="#8a8a8a" font-size="13" text-anchor="middle">−</text>
+  <text x="480.0" y="148.0" fill="#8a8a8a" font-size="13" text-anchor="middle">+</text>
+  <text x="510.0" y="100.0" fill="#8a8a8a" font-size="13" text-anchor="middle">+</text>
+  <text x="510.0" y="124.0" fill="#8a8a8a" font-size="13" text-anchor="middle">−</text>
+  <text x="510.0" y="148.0" fill="#8a8a8a" font-size="13" text-anchor="middle">−</text>
+  <text x="540.0" y="100.0" fill="#8a8a8a" font-size="13" text-anchor="middle">−</text>
+  <text x="540.0" y="124.0" fill="#8a8a8a" font-size="13" text-anchor="middle">+</text>
+  <text x="540.0" y="148.0" fill="#8a8a8a" font-size="13" text-anchor="middle">+</text>
+  <text x="570.0" y="100.0" fill="#8a8a8a" font-size="13" text-anchor="middle">−</text>
+  <text x="570.0" y="124.0" fill="#8a8a8a" font-size="13" text-anchor="middle">+</text>
+  <text x="570.0" y="148.0" fill="#8a8a8a" font-size="13" text-anchor="middle">−</text>
+  <text x="600.0" y="100.0" fill="#8a8a8a" font-size="13" text-anchor="middle">−</text>
+  <text x="600.0" y="124.0" fill="#8a8a8a" font-size="13" text-anchor="middle">−</text>
+  <text x="600.0" y="148.0" fill="#8a8a8a" font-size="13" text-anchor="middle">+</text>
+  <text x="630.0" y="100.0" fill="#8a8a8a" font-size="13" text-anchor="middle">−</text>
+  <text x="630.0" y="124.0" fill="#8a8a8a" font-size="13" text-anchor="middle">−</text>
+  <text x="630.0" y="148.0" fill="#8a8a8a" font-size="13" text-anchor="middle">−</text>
+  <line x1="404.0" y1="164.0" x2="646.0" y2="164.0" stroke="#8a8a8a" stroke-width="1.0"/>
+  <text x="408.0" y="190.0" fill="#e0645c" font-size="11" text-anchor="end">best</text>
+  <text x="420.0" y="190.0" fill="#e0645c" font-size="11" text-anchor="middle">1</text>
+  <text x="450.0" y="190.0" fill="#e0645c" font-size="11" text-anchor="middle">1</text>
+  <text x="480.0" y="190.0" fill="#e0645c" font-size="11" text-anchor="middle">1</text>
+  <text x="510.0" y="190.0" fill="#e0645c" font-size="11" text-anchor="middle">1</text>
+  <text x="540.0" y="190.0" fill="#e0645c" font-size="11" text-anchor="middle">1</text>
+  <text x="570.0" y="190.0" fill="#e0645c" font-size="11" text-anchor="middle">1</text>
+  <text x="600.0" y="190.0" fill="#e0645c" font-size="11" text-anchor="middle">1</text>
+  <text x="630.0" y="190.0" fill="#e0645c" font-size="11" text-anchor="middle">1</text>
+  <line x1="44.0" y1="216.0" x2="676.0" y2="216.0" stroke="#8a8a8a" stroke-width="1.0" stroke-dasharray="3 3"/>
+  <text x="180.0" y="244.0" fill="#4a90d9" font-size="13" text-anchor="middle" font-weight="bold">average = 1/2</text>
+  <text x="540.0" y="244.0" fill="#e0645c" font-size="13" text-anchor="middle" font-weight="bold">average = 1</text>
+  <text x="180.0" y="266.0" fill="#8a8a8a" font-size="11" text-anchor="middle">noise it cannot chase</text>
+  <text x="540.0" y="266.0" fill="#8a8a8a" font-size="11" text-anchor="middle">chases every coin flip</text>
+  <text x="360.0" y="292.0" fill="#8a8a8a" font-size="12" text-anchor="middle">Rademacher complexity = the average of the bottom row.</text>
+  <text x="360.0" y="314.0" fill="#8a8a8a" font-size="11.5" text-anchor="middle">Each column is one coin-flip draw; the score is the best (1/3) x sum of s times f.</text>
+  <text x="360.0" y="336.0" fill="#8a8a8a" font-size="11.5" text-anchor="middle">Asked to fit these random labels, the small class misses 1/4 of them; the full class, none.</text>
+</svg>

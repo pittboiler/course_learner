@@ -1,0 +1,33 @@
+<svg viewBox="0 0 700.0 300.0" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="12.5">
+  <text x="20.0" y="20.0" fill="#8a8a8a" font-size="11.5" text-anchor="start" font-style="italic">Thresholds on a line: the learner's risk is the mass of the band between the true cut and its guess.</text>
+  <rect x="240.0" y="174.0" width="84.0" height="52.0" fill="#e0645c" stroke="#e0645c" stroke-width="1.2" fill-opacity="0.22"/>
+  <line x1="60.0" y1="200.0" x2="660.0" y2="200.0" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="60.0" y="222.0" fill="#8a8a8a" font-size="11" text-anchor="middle">0</text>
+  <text x="660.0" y="222.0" fill="#8a8a8a" font-size="11" text-anchor="middle">1</text>
+  <line x1="240.0" y1="154.0" x2="240.0" y2="212.0" stroke="#8a8a8a" stroke-width="1.4" stroke-dasharray="4 3"/>
+  <text x="240.0" y="146.0" fill="#8a8a8a" font-size="13" text-anchor="middle" font-weight="bold">a*</text>
+  <line x1="324.0" y1="154.0" x2="324.0" y2="212.0" stroke="#4a90d9" stroke-width="1.4"/>
+  <text x="324.0" y="146.0" fill="#4a90d9" font-size="13" text-anchor="middle" font-weight="bold">â</text>
+  <circle cx="78.0" cy="200.0" r="4.0" fill="none" stroke="#8a8a8a" stroke-width="1.4"/>
+  <circle cx="108.0" cy="200.0" r="4.0" fill="none" stroke="#8a8a8a" stroke-width="1.4"/>
+  <circle cx="132.0" cy="200.0" r="4.0" fill="none" stroke="#8a8a8a" stroke-width="1.4"/>
+  <circle cx="162.0" cy="200.0" r="4.0" fill="none" stroke="#8a8a8a" stroke-width="1.4"/>
+  <circle cx="180.0" cy="200.0" r="4.0" fill="none" stroke="#8a8a8a" stroke-width="1.4"/>
+  <circle cx="210.0" cy="200.0" r="4.0" fill="none" stroke="#8a8a8a" stroke-width="1.4"/>
+  <circle cx="234.0" cy="200.0" r="4.0" fill="none" stroke="#8a8a8a" stroke-width="1.4"/>
+  <circle cx="324.0" cy="200.0" r="4.0" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.4"/>
+  <circle cx="360.0" cy="200.0" r="4.0" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.4"/>
+  <circle cx="402.0" cy="200.0" r="4.0" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.4"/>
+  <circle cx="450.0" cy="200.0" r="4.0" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.4"/>
+  <circle cx="492.0" cy="200.0" r="4.0" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.4"/>
+  <circle cx="540.0" cy="200.0" r="4.0" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.4"/>
+  <circle cx="588.0" cy="200.0" r="4.0" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.4"/>
+  <circle cx="630.0" cy="200.0" r="4.0" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.4"/>
+  <text x="144.0" y="244.0" fill="#8a8a8a" font-size="11" text-anchor="middle">labelled −1</text>
+  <text x="480.0" y="244.0" fill="#4a90d9" font-size="11" text-anchor="middle">labelled +1</text>
+  <line x1="372.0" y1="92.0" x2="282.0" y2="170.0" stroke="#e0645c" stroke-width="1.2"/>
+  <line x1="282.0" y1="170.0" x2="284.5" y2="164.6" stroke="#e0645c" stroke-width="1.2"/>
+  <line x1="282.0" y1="170.0" x2="287.7" y2="168.3" stroke="#e0645c" stroke-width="1.2"/>
+  <text x="378.0" y="88.0" fill="#e0645c" font-size="12" text-anchor="start">error region: R(â) is its probability mass</text>
+  <text x="350.0" y="284.0" fill="#8a8a8a" font-size="11.5" text-anchor="middle">Risk beats ε only if all n draws missed a band of mass ε — probability at most (1 − ε)ⁿ</text>
+</svg>

@@ -430,7 +430,7 @@
         "linalg-refresher",
         "prob-stat-refresher"
       ],
-      "lessons_estimate": 26,
+      "lessons_estimate": 28,
       "blurb": "Bias-variance, regularization, VC/PAC generalization, kernels/SVM, trees/boosting, neural nets, unsupervised."
     },
     {

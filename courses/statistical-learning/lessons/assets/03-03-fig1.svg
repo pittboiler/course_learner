@@ -1,0 +1,41 @@
+<svg viewBox="0 0 720.0 372.0" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="12.5">
+  <text x="20.0" y="20.0" fill="#8a8a8a" font-size="11.5" text-anchor="start" font-style="italic">Half-planes shatter three points in general position, and never four: the two diagonals always cross.</text>
+  <text x="34.0" y="54.0" fill="#8a8a8a" font-size="12.5" text-anchor="start" font-weight="bold">Four points, convex position</text>
+  <text x="34.0" y="72.0" fill="#8a8a8a" font-size="11.0" text-anchor="start">the two diagonal pairs cannot be split</text>
+  <line x1="92.0" y1="126.0" x2="224.0" y2="258.0" stroke="#8a8a8a" stroke-width="1.0" stroke-dasharray="4 3"/>
+  <line x1="224.0" y1="126.0" x2="92.0" y2="258.0" stroke="#8a8a8a" stroke-width="1.0" stroke-dasharray="4 3"/>
+  <circle cx="158.0" cy="192.0" r="4.2" fill="none" stroke="#8a8a8a" stroke-width="1.3"/>
+  <line x1="158.0" y1="186.0" x2="158.0" y2="168.0" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="158.0" y="163.0" fill="#8a8a8a" font-size="11.5" text-anchor="middle" font-weight="bold">X</text>
+  <circle cx="92.0" cy="126.0" r="5.2" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.4"/>
+  <circle cx="224.0" cy="258.0" r="5.2" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.4"/>
+  <line x1="218.4" y1="120.4" x2="229.6" y2="131.6" stroke="#e0645c" stroke-width="2.0"/>
+  <line x1="218.4" y1="131.6" x2="229.6" y2="120.4" stroke="#e0645c" stroke-width="2.0"/>
+  <line x1="86.4" y1="252.4" x2="97.6" y2="263.6" stroke="#e0645c" stroke-width="2.0"/>
+  <line x1="86.4" y1="263.6" x2="97.6" y2="252.4" stroke="#e0645c" stroke-width="2.0"/>
+  <text x="86.0" y="113.0" fill="#4a90d9" font-size="11.0" text-anchor="middle">p1  +</text>
+  <text x="238.0" y="113.0" fill="#e0645c" font-size="11.0" text-anchor="middle">p2  -</text>
+  <text x="238.0" y="280.0" fill="#4a90d9" font-size="11.0" text-anchor="middle">p3  +</text>
+  <text x="86.0" y="280.0" fill="#e0645c" font-size="11.0" text-anchor="middle">p4  -</text>
+  <text x="34.0" y="318.0" fill="#8a8a8a" font-size="10.5" text-anchor="start">A half-plane holding p1 and p3 holds X.</text>
+  <text x="34.0" y="334.0" fill="#8a8a8a" font-size="10.5" text-anchor="start">Its complement is a half-plane too, and it</text>
+  <text x="34.0" y="350.0" fill="#8a8a8a" font-size="10.5" text-anchor="start">holds p2 and p4, so it holds X. Impossible.</text>
+  <line x1="376.0" y1="40.0" x2="376.0" y2="356.0" stroke="#8a8a8a" stroke-width="0.8" stroke-dasharray="2 4"/>
+  <text x="404.0" y="54.0" fill="#8a8a8a" font-size="12.5" text-anchor="start" font-weight="bold">Three points, general position</text>
+  <text x="404.0" y="72.0" fill="#8a8a8a" font-size="11.0" text-anchor="start">all eight labellings realisable</text>
+  <line x1="424.0" y1="226.0" x2="672.0" y2="226.0" stroke="#4a90d9" stroke-width="1.3"/>
+  <text x="678.0" y="230.0" fill="#4a90d9" font-size="10.5" text-anchor="start">a</text>
+  <line x1="496.0" y1="152.0" x2="496.0" y2="312.0" stroke="#4a90d9" stroke-width="1.3"/>
+  <text x="496.0" y="146.0" fill="#4a90d9" font-size="10.5" text-anchor="middle">b</text>
+  <line x1="420.0" y1="126.0" x2="676.0" y2="114.0" stroke="#4a90d9" stroke-width="1.3"/>
+  <text x="682.0" y="118.0" fill="#4a90d9" font-size="10.5" text-anchor="start">c</text>
+  <circle cx="452.0" cy="278.0" r="5.2" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.4"/>
+  <text x="436.0" y="288.0" fill="#8a8a8a" font-size="11.0" text-anchor="middle">q1</text>
+  <circle cx="628.0" cy="278.0" r="5.2" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.4"/>
+  <text x="646.0" y="288.0" fill="#8a8a8a" font-size="11.0" text-anchor="middle">q2</text>
+  <circle cx="540.0" cy="172.0" r="5.2" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.4"/>
+  <text x="540.0" y="159.0" fill="#8a8a8a" font-size="11.0" text-anchor="middle">q3</text>
+  <text x="404.0" y="318.0" fill="#8a8a8a" font-size="10.5" text-anchor="start">Line a splits off q3, line b splits off q1,</text>
+  <text x="404.0" y="334.0" fill="#8a8a8a" font-size="10.5" text-anchor="start">line c keeps all three. Eight such half-planes</text>
+  <text x="404.0" y="350.0" fill="#8a8a8a" font-size="10.5" text-anchor="start">give all eight labellings.</text>
+</svg>

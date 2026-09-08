@@ -1,0 +1,42 @@
+<svg viewBox="0 0 700.0 330.0" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="12.5">
+  <text x="20.0" y="20.0" fill="#8a8a8a" font-size="11.5" text-anchor="start" font-style="italic">Excess risk splits in two: the class you chose, and the data you had.</text>
+  <line x1="70.0" y1="190.0" x2="665.0" y2="190.0" stroke="#8a8a8a" stroke-width="1.0"/>
+  <line x1="665.0" y1="190.0" x2="659.5" y2="192.4" stroke="#8a8a8a" stroke-width="1.0"/>
+  <line x1="665.0" y1="190.0" x2="659.5" y2="187.6" stroke="#8a8a8a" stroke-width="1.0"/>
+  <text x="660.0" y="220.0" fill="#8a8a8a" font-size="12.5" text-anchor="end" font-style="italic">risk</text>
+  <text x="70.0" y="208.0" fill="#8a8a8a" font-size="11.5" text-anchor="middle">0</text>
+  <line x1="70.0" y1="185.0" x2="70.0" y2="195.0" stroke="#8a8a8a" stroke-width="1.0"/>
+  <line x1="190.0" y1="174.0" x2="190.0" y2="206.0" stroke="#e0645c" stroke-width="1.8"/>
+  <circle cx="190.0" cy="190.0" r="3.6" fill="#e0645c" stroke="#e0645c" stroke-width="1.4"/>
+  <line x1="360.0" y1="174.0" x2="360.0" y2="206.0" stroke="#4a90d9" stroke-width="1.8"/>
+  <circle cx="360.0" cy="190.0" r="3.6" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.4"/>
+  <line x1="530.0" y1="174.0" x2="530.0" y2="206.0" stroke="#e0645c" stroke-width="1.8"/>
+  <circle cx="530.0" cy="190.0" r="3.6" fill="#e0645c" stroke="#e0645c" stroke-width="1.4"/>
+  <text x="190.0" y="164.0" fill="#e0645c" font-size="13" text-anchor="middle" font-weight="bold">R*</text>
+  <text x="190.0" y="250.0" fill="#8a8a8a" font-size="11.5" text-anchor="middle">Bayes risk</text>
+  <text x="190.0" y="265.0" fill="#8a8a8a" font-size="10.5" text-anchor="middle" font-style="italic">nobody beats it</text>
+  <text x="360.0" y="164.0" fill="#4a90d9" font-size="12" text-anchor="middle" font-weight="bold">best in class</text>
+  <text x="360.0" y="250.0" fill="#8a8a8a" font-size="11.5" text-anchor="middle">the h you wish</text>
+  <text x="360.0" y="265.0" fill="#8a8a8a" font-size="10.5" text-anchor="middle" font-style="italic">ERM had found</text>
+  <text x="530.0" y="164.0" fill="#e0645c" font-size="13" text-anchor="middle" font-weight="bold">R(h-hat)</text>
+  <text x="530.0" y="250.0" fill="#8a8a8a" font-size="11.5" text-anchor="middle">what ERM gives</text>
+  <text x="530.0" y="265.0" fill="#8a8a8a" font-size="10.5" text-anchor="middle" font-style="italic">you on n points</text>
+  <line x1="190.0" y1="218.0" x2="360.0" y2="218.0" stroke="#8a8a8a" stroke-width="1.0"/>
+  <line x1="360.0" y1="218.0" x2="530.0" y2="218.0" stroke="#8a8a8a" stroke-width="1.0"/>
+  <line x1="190.0" y1="214.0" x2="190.0" y2="222.0" stroke="#8a8a8a" stroke-width="1.0"/>
+  <line x1="360.0" y1="214.0" x2="360.0" y2="222.0" stroke="#8a8a8a" stroke-width="1.0"/>
+  <line x1="530.0" y1="214.0" x2="530.0" y2="222.0" stroke="#8a8a8a" stroke-width="1.0"/>
+  <text x="275.0" y="212.0" fill="#8a8a8a" font-size="11" text-anchor="middle">approximation</text>
+  <text x="445.0" y="212.0" fill="#8a8a8a" font-size="11" text-anchor="middle">estimation</text>
+  <line x1="360.0" y1="118.0" x2="648.0" y2="118.0" stroke="#4a90d9" stroke-width="1.6"/>
+  <line x1="360.0" y1="118.0" x2="360.0" y2="132.0" stroke="#4a90d9" stroke-width="1.6"/>
+  <line x1="648.0" y1="118.0" x2="648.0" y2="132.0" stroke="#4a90d9" stroke-width="1.6"/>
+  <text x="504.0" y="108.0" fill="#4a90d9" font-size="12" text-anchor="middle">risks achievable inside the class H</text>
+  <line x1="360.0" y1="132.0" x2="360.0" y2="160.0" stroke="#4a90d9" stroke-width="1.0" stroke-dasharray="3 3"/>
+  <line x1="530.0" y1="150.0" x2="530.0" y2="160.0" stroke="#e0645c" stroke-width="1.0" stroke-dasharray="3 3"/>
+  <text x="530.0" y="145.0" fill="#e0645c" font-size="11" text-anchor="middle">ERM lands here</text>
+  <line x1="70.0" y1="160.0" x2="190.0" y2="160.0" stroke="#8a8a8a" stroke-width="1.0" stroke-dasharray="4 4"/>
+  <text x="130.0" y="152.0" fill="#8a8a8a" font-size="11" text-anchor="middle" font-style="italic">impossible</text>
+  <line x1="190.0" y1="160.0" x2="190.0" y2="160.0" stroke="#8a8a8a" stroke-width="1.0" stroke-dasharray="3 3"/>
+  <text x="350.0" y="305.0" fill="#8a8a8a" font-size="13" text-anchor="middle" font-weight="bold">excess risk  =  approximation error  +  estimation error</text>
+</svg>

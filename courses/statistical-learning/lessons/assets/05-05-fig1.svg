@@ -1,0 +1,47 @@
+<svg viewBox="0 0 700.0 400.0" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="12.5">
+  <text x="20.0" y="20.0" fill="#8a8a8a" font-size="11.5" text-anchor="start" font-style="italic">Test risk against capacity: the classical U, a spike where the model just barely interpolates, then a second descent.</text>
+  <line x1="74.0" y1="336.0" x2="668.0" y2="336.0" stroke="#8a8a8a" stroke-width="1.0"/>
+  <line x1="668.0" y1="336.0" x2="662.5" y2="338.4" stroke="#8a8a8a" stroke-width="1.0"/>
+  <line x1="668.0" y1="336.0" x2="662.5" y2="333.6" stroke="#8a8a8a" stroke-width="1.0"/>
+  <line x1="74.0" y1="336.0" x2="74.0" y2="54.0" stroke="#8a8a8a" stroke-width="1.0"/>
+  <line x1="74.0" y1="54.0" x2="76.4" y2="59.5" stroke="#8a8a8a" stroke-width="1.0"/>
+  <line x1="74.0" y1="54.0" x2="71.6" y2="59.5" stroke="#8a8a8a" stroke-width="1.0"/>
+  <text x="370.0" y="374.0" fill="#8a8a8a" font-size="12" text-anchor="middle">capacity  p / n</text>
+  <text x="24.0" y="202.0" fill="#8a8a8a" font-size="12" text-anchor="start">risk</text>
+  <path d="M 79.9 332.7 L 85.8 332.8 L 91.6 332.9 L 97.5 333.0 L 103.4 333.0 L 109.3 333.1 L 115.2 333.2 L 121.0 333.3 L 126.9 333.4 L 132.8 333.5 L 138.7 333.6 L 144.6 333.6 L 150.4 333.7 L 156.3 333.8 L 162.2 333.9 L 168.1 334.0 L 174.0 334.1 L 179.8 334.1 L 185.7 334.2 L 191.6 334.3 L 197.5 334.4 L 203.4 334.5 L 209.2 334.6 L 215.1 334.6 L 221.0 334.7 L 226.9 334.8 L 232.8 334.9 L 238.6 335.0 L 244.5 335.1 L 250.4 335.2 L 256.3 335.2 L 262.2 335.3 L 268.0 335.4 L 273.9 335.5 L 279.8 335.6 L 285.7 335.7 L 291.6 335.7 L 297.4 335.8 L 303.3 335.9 L 309.2 336.0 L 315.1 336.0 L 321.0 336.0 L 326.8 336.0 L 332.7 336.0 L 338.6 336.0 L 344.5 336.0 L 350.4 336.0 L 356.2 336.0 L 362.1 336.0 L 368.0 336.0 L 373.9 336.0 L 379.8 336.0 L 385.6 336.0 L 391.5 336.0 L 397.4 336.0 L 403.3 336.0 L 409.2 336.0 L 415.0 336.0 L 420.9 336.0 L 426.8 336.0 L 432.7 336.0 L 438.6 336.0 L 444.4 336.0 L 450.3 336.0 L 456.2 336.0 L 462.1 336.0 L 468.0 336.0 L 473.8 336.0 L 479.7 336.0 L 485.6 336.0 L 491.5 336.0 L 497.4 336.0 L 503.2 336.0 L 509.1 336.0 L 515.0 336.0 L 520.9 336.0 L 526.8 336.0 L 532.6 336.0 L 538.5 336.0 L 544.4 336.0 L 550.3 336.0 L 556.2 336.0 L 562.0 336.0 L 567.9 336.0 L 573.8 336.0 L 579.7 336.0 L 585.6 336.0 L 591.4 336.0 L 597.3 336.0 L 603.2 336.0 L 609.1 336.0 L 615.0 336.0 L 620.8 336.0 L 626.7 336.0 L 632.6 336.0 L 638.5 336.0 L 644.4 336.0 L 650.2 336.0 L 656.1 336.0 L 662.0 336.0" fill="none" stroke="#8a8a8a" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M 79.9 278.8 L 85.8 284.1 L 91.6 287.1 L 97.5 288.9 L 103.4 289.9 L 109.3 290.5 L 115.2 290.9 L 121.0 291.3 L 126.9 291.4 L 132.8 291.2 L 138.7 291.0 L 144.6 290.2 L 150.4 289.2 L 156.3 288.2 L 162.2 287.5 L 168.1 285.5 L 174.0 284.5 L 179.8 282.9 L 185.7 281.2 L 191.6 279.9 L 197.5 277.3 L 203.4 275.0 L 209.2 272.6 L 215.1 269.0 L 221.0 264.7 L 226.9 258.7 L 232.8 253.0 L 238.6 247.3 L 244.5 238.6 L 250.4 229.0 L 256.3 216.9 L 262.2 201.1 L 268.0 177.3 L 273.9 154.3 L 279.8 116.8" fill="none" stroke="#4a90d9" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M 338.6 73.5 L 344.5 121.5 L 350.4 155.7 L 356.2 178.5 L 362.1 196.4 L 368.0 209.8 L 373.9 219.5 L 379.8 227.5 L 385.6 234.3 L 391.5 240.3 L 397.4 244.7 L 403.3 247.9 L 409.2 251.0 L 415.0 253.6 L 420.9 256.1 L 426.8 257.6 L 432.7 259.4 L 438.6 261.3 L 444.4 262.6 L 450.3 264.1 L 456.2 265.1 L 462.1 266.1 L 468.0 267.0 L 473.8 267.8 L 479.7 268.3 L 485.6 269.0 L 491.5 269.6 L 497.4 270.2 L 503.2 270.6 L 509.1 271.1 L 515.0 271.4 L 520.9 271.9 L 526.8 272.2 L 532.6 272.6 L 538.5 272.8 L 544.4 273.0 L 550.3 273.3 L 556.2 273.5 L 562.0 273.7 L 567.9 273.9 L 573.8 274.1 L 579.7 274.3 L 585.6 274.4 L 591.4 274.6 L 597.3 274.7 L 603.2 274.8 L 609.1 274.9 L 615.0 275.0 L 620.8 275.1 L 626.7 275.1 L 632.6 275.2 L 638.5 275.3 L 644.4 275.3 L 650.2 275.4 L 656.1 275.4 L 662.0 275.5" fill="none" stroke="#4a90d9" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+  <line x1="309.2" y1="60.0" x2="309.2" y2="336.0" stroke="#e0645c" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <text x="309.2" y="54.0" fill="#e0645c" font-size="11.5" text-anchor="middle">p = n</text>
+  <text x="168.1" y="70.0" fill="#8a8a8a" font-size="11.5" text-anchor="middle">classical regime</text>
+  <text x="168.1" y="86.0" fill="#8a8a8a" font-size="10.5" text-anchor="middle">the U of Lesson 1.2</text>
+  <text x="492.7" y="70.0" fill="#8a8a8a" font-size="11.5" text-anchor="middle">interpolating regime</text>
+  <text x="492.7" y="86.0" fill="#8a8a8a" font-size="10.5" text-anchor="middle">training risk 0 throughout</text>
+  <circle cx="126.9" cy="291.4" r="3.4" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.4"/>
+  <text x="130.9" y="309.4" fill="#4a90d9" font-size="10.5" text-anchor="middle">0.66</text>
+  <circle cx="662.0" cy="275.5" r="3.4" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.4"/>
+  <text x="656.0" y="265.5" fill="#4a90d9" font-size="10.5" text-anchor="end">0.90</text>
+  <text x="330.4" y="103.1" fill="#e0645c" font-size="10.5" text-anchor="start">the peak runs off the axis</text>
+  <text x="455.0" y="292.0" fill="#4a90d9" font-size="11" text-anchor="start">test risk</text>
+  <text x="144.6" y="323.0" fill="#8a8a8a" font-size="11" text-anchor="start">training risk (zero from p = n onward)</text>
+  <line x1="191.6" y1="336.0" x2="191.6" y2="340.0" stroke="#8a8a8a" stroke-width="1.0"/>
+  <text x="191.6" y="354.0" fill="#8a8a8a" font-size="10.5" text-anchor="middle">0.5</text>
+  <line x1="309.2" y1="336.0" x2="309.2" y2="340.0" stroke="#8a8a8a" stroke-width="1.0"/>
+  <text x="309.2" y="354.0" fill="#8a8a8a" font-size="10.5" text-anchor="middle">1.0</text>
+  <line x1="426.8" y1="336.0" x2="426.8" y2="340.0" stroke="#8a8a8a" stroke-width="1.0"/>
+  <text x="426.8" y="354.0" fill="#8a8a8a" font-size="10.5" text-anchor="middle">1.5</text>
+  <line x1="544.4" y1="336.0" x2="544.4" y2="340.0" stroke="#8a8a8a" stroke-width="1.0"/>
+  <text x="544.4" y="354.0" fill="#8a8a8a" font-size="10.5" text-anchor="middle">2.0</text>
+  <line x1="662.0" y1="336.0" x2="662.0" y2="340.0" stroke="#8a8a8a" stroke-width="1.0"/>
+  <text x="662.0" y="354.0" fill="#8a8a8a" font-size="10.5" text-anchor="middle">2.5</text>
+  <text x="74.0" y="354.0" fill="#8a8a8a" font-size="10.5" text-anchor="middle">0</text>
+  <line x1="70.0" y1="268.5" x2="74.0" y2="268.5" stroke="#8a8a8a" stroke-width="1.0"/>
+  <text x="66.0" y="272.5" fill="#8a8a8a" font-size="10.5" text-anchor="end">1</text>
+  <line x1="70.0" y1="201.0" x2="74.0" y2="201.0" stroke="#8a8a8a" stroke-width="1.0"/>
+  <text x="66.0" y="205.0" fill="#8a8a8a" font-size="10.5" text-anchor="end">2</text>
+  <line x1="70.0" y1="133.5" x2="74.0" y2="133.5" stroke="#8a8a8a" stroke-width="1.0"/>
+  <text x="66.0" y="137.5" fill="#8a8a8a" font-size="10.5" text-anchor="end">3</text>
+  <line x1="70.0" y1="66.0" x2="74.0" y2="66.0" stroke="#8a8a8a" stroke-width="1.0"/>
+  <text x="66.0" y="70.0" fill="#8a8a8a" font-size="10.5" text-anchor="end">4</text>
+  <text x="66.0" y="340.0" fill="#8a8a8a" font-size="10.5" text-anchor="end">0</text>
+</svg>
