@@ -1,0 +1,31 @@
+<svg viewBox="0 0 790 420" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="40" y="24" fill="#8a8a8a" font-size="11.5" font-style="italic">Two kinds of waste with the same name. One is between the blocks, the other is inside them.</text>
+  <text x="60" y="62" fill="#e0645c" font-size="11.5">EXTERNAL: free memory exists, in pieces too small to use</text>
+  <rect x="60.0" y="74" width="126.49999999999999" height="44" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.5" rx="4" opacity="0.16"/>
+  <text x="123.25" y="101" fill="#4a90d9" font-size="10.5" text-anchor="middle">P1</text>
+  <rect x="186.5" y="74" width="69.0" height="44" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.5" rx="4" opacity="0.05"/>
+  <text x="221.0" y="101" fill="#8a8a8a" font-size="10.5" text-anchor="middle">free 60K</text>
+  <rect x="255.49999999999997" y="74" width="103.49999999999999" height="44" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.5" rx="4" opacity="0.16"/>
+  <text x="307.24999999999994" y="101" fill="#4a90d9" font-size="10.5" text-anchor="middle">P3</text>
+  <rect x="359.0" y="74" width="57.49999999999999" height="44" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.5" rx="4" opacity="0.05"/>
+  <text x="387.75" y="101" fill="#8a8a8a" font-size="10.5" text-anchor="middle">free 50K</text>
+  <rect x="416.5" y="74" width="161.0" height="44" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.5" rx="4" opacity="0.16"/>
+  <text x="497.0" y="101" fill="#4a90d9" font-size="10.5" text-anchor="middle">P4</text>
+  <rect x="577.5" y="74" width="80.5" height="44" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.5" rx="4" opacity="0.05"/>
+  <text x="617.75" y="101" fill="#8a8a8a" font-size="10.5" text-anchor="middle">free 70K</text>
+  <text x="60" y="138" fill="#8a8a8a" font-size="11">total free = 180K, largest hole = 70K.  A 100K request FAILS with 180K free.</text>
+  <line x1="55" y1="158" x2="735" y2="158" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="60" y="182" fill="#e0645c" font-size="11.5">INTERNAL: memory handed out but unused, inside an allocated block</text>
+  <rect x="60" y="196" width="300" height="46" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.5" rx="4" opacity="0.16"/>
+  <rect x="280" y="196" width="80" height="46" fill="#e0645c" stroke="#e0645c" stroke-width="1.5" rx="4" opacity="0.22"/>
+  <text x="170" y="224" fill="#4a90d9" font-size="11" text-anchor="middle">requested 88 KB</text>
+  <text x="320" y="224" fill="#e0645c" font-size="10.5" text-anchor="middle">wasted</text>
+  <text x="60" y="262" fill="#8a8a8a" font-size="11">allocation unit 32 KB, so 88 KB is rounded up to 96 KB and 8 KB is unreachable.</text>
+  <text x="60" y="280" fill="#4a90d9" font-size="11">Paging removes external fragmentation entirely and accepts internal waste of at most one page per region.</text>
+  <line x1="55" y1="300" x2="735" y2="300" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="60" y="324" fill="#e0645c" font-size="11.5">THE FIFTY-PERCENT RULE</text>
+  <text x="60" y="346" fill="#8a8a8a" font-size="11">At equilibrium with first fit, for every n allocated blocks about n/2 holes exist, so roughly one third of</text>
+  <text x="60" y="364" fill="#8a8a8a" font-size="11">memory is lost to holes. Compaction recovers it and costs a full copy of everything that moves,</text>
+  <text x="60" y="382" fill="#8a8a8a" font-size="11">which is why relocation must be dynamic: a program that cannot be moved cannot be compacted.</text>
+  <text x="60" y="406" fill="#4a90d9" font-size="11">base + bound registers are what make moving a running program a two-register update instead of a rewrite.</text>
+</svg>

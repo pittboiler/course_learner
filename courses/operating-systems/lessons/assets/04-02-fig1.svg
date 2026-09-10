@@ -1,0 +1,49 @@
+<svg viewBox="0 0 790 420" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="40" y="24" fill="#8a8a8a" font-size="11.5" font-style="italic">Small files cost one lookup. Large files pay for their size in indirection, not in wasted space.</text>
+  <rect x="50" y="64" width="150" height="230" fill="none" stroke="#e0645c" stroke-width="1.5" rx="6"/>
+  <text x="125" y="84" fill="#e0645c" font-size="11" text-anchor="middle">inode</text>
+  <rect x="60" y="100" width="130" height="32" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.3" rx="3" opacity="0.14"/>
+  <text x="125" y="121" fill="#4a90d9" font-size="10.5" text-anchor="middle">12 direct</text>
+  <rect x="60" y="146" width="130" height="32" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.3" rx="3" opacity="0.14"/>
+  <text x="125" y="167" fill="#8a8a8a" font-size="10.5" text-anchor="middle">single indirect</text>
+  <rect x="60" y="186" width="130" height="32" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.3" rx="3" opacity="0.14"/>
+  <text x="125" y="207" fill="#8a8a8a" font-size="10.5" text-anchor="middle">double indirect</text>
+  <rect x="60" y="226" width="130" height="32" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.3" rx="3" opacity="0.14"/>
+  <text x="125" y="247" fill="#8a8a8a" font-size="10.5" text-anchor="middle">triple indirect</text>
+  <text x="125" y="278" fill="#8a8a8a" font-size="10" text-anchor="middle">128 bytes of pointers</text>
+  <line x1="194" y1="116" x2="254.0" y2="116.0" stroke="#4a90d9" stroke-width="1.4"/>
+  <polygon points="260,116 254.0,119.3 254.0,112.7" fill="#4a90d9"/>
+  <rect x="262" y="100" width="90" height="32" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.3" rx="3" opacity="0.16"/>
+  <text x="307" y="121" fill="#4a90d9" font-size="10.5" text-anchor="middle">data</text>
+  <text x="360" y="121" fill="#4a90d9" font-size="10.5">48 KB reachable with 0 extra reads</text>
+  <line x1="194" y1="162" x2="254.0" y2="162.0" stroke="#8a8a8a" stroke-width="1.4"/>
+  <polygon points="260,162 254.0,165.3 254.0,158.7" fill="#8a8a8a"/>
+  <rect x="262" y="146" width="90" height="32" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.3" rx="3" opacity="0.12"/>
+  <text x="307" y="167" fill="#8a8a8a" font-size="10" text-anchor="middle">1024 ptrs</text>
+  <line x1="354" y1="162" x2="404.0" y2="162.0" stroke="#8a8a8a" stroke-width="1.4"/>
+  <polygon points="410,162 404.0,165.3 404.0,158.7" fill="#8a8a8a"/>
+  <rect x="412" y="146" width="90" height="32" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.3" rx="3" opacity="0.16"/>
+  <text x="457" y="167" fill="#4a90d9" font-size="10.5" text-anchor="middle">data</text>
+  <text x="512" y="167" fill="#8a8a8a" font-size="10.5">+4 MB, 1 extra read</text>
+  <line x1="194" y1="202" x2="254.0" y2="202.0" stroke="#8a8a8a" stroke-width="1.4"/>
+  <polygon points="260,202 254.0,205.3 254.0,198.7" fill="#8a8a8a"/>
+  <rect x="262" y="186" width="90" height="32" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.3" rx="3" opacity="0.12"/>
+  <text x="307" y="207" fill="#8a8a8a" font-size="10" text-anchor="middle">1024 ptrs</text>
+  <line x1="354" y1="202" x2="404.0" y2="202.0" stroke="#8a8a8a" stroke-width="1.4"/>
+  <polygon points="410,202 404.0,205.3 404.0,198.7" fill="#8a8a8a"/>
+  <rect x="412" y="186" width="90" height="32" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.3" rx="3" opacity="0.12"/>
+  <text x="457" y="207" fill="#8a8a8a" font-size="10" text-anchor="middle">1024 ptrs</text>
+  <line x1="504" y1="202" x2="550.0" y2="202.0" stroke="#8a8a8a" stroke-width="1.4"/>
+  <polygon points="556,202 550.0,205.3 550.0,198.7" fill="#8a8a8a"/>
+  <rect x="558" y="186" width="90" height="32" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.3" rx="3" opacity="0.16"/>
+  <text x="603" y="207" fill="#4a90d9" font-size="10.5" text-anchor="middle">data</text>
+  <text x="262" y="240" fill="#8a8a8a" font-size="10.5">+4 GB, 2 extra reads</text>
+  <line x1="194" y1="242" x2="234.0" y2="242.0" stroke="#8a8a8a" stroke-width="1.4"/>
+  <polygon points="240,242 234.0,245.3 234.0,238.7" fill="#8a8a8a"/>
+  <text x="262" y="262" fill="#8a8a8a" font-size="10.5">triple indirect: +4 TB, 3 extra reads</text>
+  <line x1="50" y1="300" x2="740" y2="300" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="60" y="324" fill="#8a8a8a" font-size="11">4 KB blocks, 4-byte pointers, so 1024 pointers per block.</text>
+  <text x="60" y="348" fill="#4a90d9" font-size="11">The design is deliberately unfair, and correctly so: most files are small, so most files are reached in one</text>
+  <text x="60" y="366" fill="#4a90d9" font-size="11">read with no indirection at all, while the rare huge file pays three extra reads for its first byte.</text>
+  <text x="60" y="394" fill="#e0645c" font-size="11">Cost is proportional to log of file size, and the constant is tiny because the fan-out is 1024.</text>
+</svg>

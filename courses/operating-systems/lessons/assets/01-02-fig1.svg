@@ -1,0 +1,31 @@
+<svg viewBox="0 0 790 410" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="40" y="24" fill="#8a8a8a" font-size="11.5" font-style="italic">A system call is not a function call. It is a controlled request to change privilege level.</text>
+  <line x1="300" y1="58" x2="300" y2="300" stroke="#8a8a8a" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <text x="150" y="52" fill="#8a8a8a" font-size="11" text-anchor="middle">USER MODE</text>
+  <text x="560" y="52" fill="#e0645c" font-size="11" text-anchor="middle">KERNEL MODE</text>
+  <rect x="60" y="70" width="230" height="34" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.5" rx="5" opacity="0.13"/>
+  <text x="70" y="92" fill="#4a90d9" font-size="10.5">your code calls  read(fd, buf, n)</text>
+  <rect x="60" y="120" width="230" height="34" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.5" rx="5" opacity="0.13"/>
+  <text x="70" y="142" fill="#4a90d9" font-size="10.5">library stub: put 63 in a register, execute  ecall</text>
+  <rect x="320" y="170" width="400" height="34" fill="#e0645c" stroke="#e0645c" stroke-width="1.5" rx="5" opacity="0.13"/>
+  <text x="330" y="192" fill="#e0645c" font-size="10.5">hardware: save PC, flip mode bit, jump to the trap vector</text>
+  <rect x="320" y="220" width="400" height="34" fill="#e0645c" stroke="#e0645c" stroke-width="1.5" rx="5" opacity="0.13"/>
+  <text x="330" y="242" fill="#e0645c" font-size="10.5">kernel: check the number, check the arguments, do the work</text>
+  <rect x="320" y="270" width="400" height="34" fill="#e0645c" stroke="#e0645c" stroke-width="1.5" rx="5" opacity="0.13"/>
+  <text x="330" y="292" fill="#e0645c" font-size="10.5">sret: restore PC, flip the bit back, resume the caller</text>
+  <line x1="175" y1="104" x2="175.0" y2="114.0" stroke="#8a8a8a" stroke-width="1.4"/>
+  <polygon points="175,120 171.7,114.0 178.3,114.0" fill="#8a8a8a"/>
+  <line x1="175" y1="154" x2="514.0" y2="169.7" stroke="#8a8a8a" stroke-width="1.4"/>
+  <polygon points="520,170 513.9,173.0 514.2,166.4" fill="#8a8a8a"/>
+  <line x1="520" y1="204" x2="520.0" y2="214.0" stroke="#8a8a8a" stroke-width="1.4"/>
+  <polygon points="520,220 516.7,214.0 523.3,214.0" fill="#8a8a8a"/>
+  <line x1="520" y1="254" x2="520.0" y2="264.0" stroke="#8a8a8a" stroke-width="1.4"/>
+  <polygon points="520,270 516.7,264.0 523.3,264.0" fill="#8a8a8a"/>
+  <line x1="520" y1="304" x2="181.0" y2="317.8" stroke="#8a8a8a" stroke-width="1.4"/>
+  <polygon points="175,318 180.9,314.5 181.1,321.1" fill="#8a8a8a"/>
+  <text x="60" y="318" fill="#8a8a8a" font-size="10.5">back</text>
+  <line x1="55" y1="340" x2="735" y2="340" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="65" y="362" fill="#8a8a8a" font-size="11">A plain function call costs a few cycles. A round trip through this path costs on the order of a hundred times more,</text>
+  <text x="65" y="380" fill="#8a8a8a" font-size="11">because of the mode switch, the argument checks, and the cache and branch-predictor state the kernel disturbs.</text>
+  <text x="65" y="400" fill="#e0645c" font-size="11">That single fact explains buffering, batching, and every I/O interface you have ever seen.</text>
+</svg>

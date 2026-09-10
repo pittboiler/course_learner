@@ -1,0 +1,21 @@
+<svg viewBox="0 0 790 420" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="40" y="24" fill="#8a8a8a" font-size="11.5" font-style="italic">Isolation is not one mechanism. It is four, at four different layers, and each fails differently.</text>
+  <rect x="50" y="62" width="690" height="52" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.4" rx="5" opacity="0.1"/>
+  <text x="64" y="84" fill="#4a90d9" font-size="11">privilege: the mode bit</text>
+  <text x="64" y="102" fill="#8a8a8a" font-size="10.5">a user process cannot execute privileged instructions</text>
+  <rect x="50" y="122" width="690" height="52" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.4" rx="5" opacity="0.1"/>
+  <text x="64" y="144" fill="#4a90d9" font-size="11">address space: the page table</text>
+  <text x="64" y="162" fill="#8a8a8a" font-size="10.5">a process cannot name another's memory</text>
+  <rect x="50" y="182" width="690" height="52" fill="#e0645c" stroke="#e0645c" stroke-width="1.4" rx="5" opacity="0.1"/>
+  <text x="64" y="204" fill="#e0645c" font-size="11">authorisation: uid, mode bits, ACLs</text>
+  <text x="64" y="222" fill="#8a8a8a" font-size="10.5">a process cannot open a file it lacks rights to</text>
+  <rect x="50" y="242" width="690" height="52" fill="#e0645c" stroke="#e0645c" stroke-width="1.4" rx="5" opacity="0.1"/>
+  <text x="64" y="264" fill="#e0645c" font-size="11">resource limits: quotas and cgroups</text>
+  <text x="64" y="282" fill="#8a8a8a" font-size="10.5">a process cannot exhaust the machine</text>
+  <line x1="50" y1="308" x2="740" y2="308" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="60" y="332" fill="#8a8a8a" font-size="11">Every one of them is enforced AT USE, by the kernel or the hardware, on the operation actually being</text>
+  <text x="60" y="350" fill="#8a8a8a" font-size="11">performed - never by inspecting the program beforehand. That is lesson 1.1's rule, and it is the</text>
+  <text x="60" y="368" fill="#8a8a8a" font-size="11">reason a static check can never replace any of these four.</text>
+  <text x="60" y="396" fill="#e0645c" font-size="11">The weakest link is the syscall interface: it is the one door through all four, and every kernel bug</text>
+  <text x="60" y="414" fill="#e0645c" font-size="11">reachable from it defeats all four at once.</text>
+</svg>

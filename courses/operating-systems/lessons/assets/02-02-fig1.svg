@@ -1,0 +1,29 @@
+<svg viewBox="0 0 790 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="40" y="24" fill="#8a8a8a" font-size="11.5" font-style="italic">Both spin. Only one of them keeps writing to the line every other core is reading.</text>
+  <rect x="60" y="54" width="320" height="250" fill="none" stroke="#e0645c" stroke-width="1.4" rx="6"/>
+  <text x="220" y="74" fill="#e0645c" font-size="11.5" text-anchor="middle">test-and-set: spin by WRITING</text>
+  <text x="76" y="98" fill="#8a8a8a" font-size="10.5">while (test_and_set(&amp;lock))</text>
+  <text x="76" y="116" fill="#8a8a8a" font-size="10.5">    ;  // retry</text>
+  <text x="76" y="176" fill="#8a8a8a" font-size="10.5">each waiting core, every iteration:</text>
+  <text x="86" y="196" fill="#e0645c" font-size="10.5">- writes the line</text>
+  <text x="86" y="214" fill="#e0645c" font-size="10.5">- invalidates every other copy</text>
+  <text x="86" y="232" fill="#e0645c" font-size="10.5">- the line ping-pongs between cores</text>
+  <rect x="76" y="262" width="288" height="32" fill="#e0645c" stroke="#e0645c" stroke-width="1.4" rx="4" opacity="0.14"/>
+  <text x="220" y="283" fill="#e0645c" font-size="10.5" text-anchor="middle">n waiters -&gt; O(n) invalidations per iteration</text>
+  <rect x="410" y="54" width="320" height="250" fill="none" stroke="#4a90d9" stroke-width="1.4" rx="6"/>
+  <text x="570" y="74" fill="#4a90d9" font-size="11.5" text-anchor="middle">test-and-test-and-set: spin by READING</text>
+  <text x="426" y="98" fill="#8a8a8a" font-size="10.5">while (true) {</text>
+  <text x="426" y="116" fill="#8a8a8a" font-size="10.5">  while (lock == 1) ;   // read only</text>
+  <text x="426" y="134" fill="#8a8a8a" font-size="10.5">  if (!test_and_set(&amp;lock)) break;</text>
+  <text x="426" y="152" fill="#8a8a8a" font-size="10.5">}</text>
+  <text x="426" y="176" fill="#8a8a8a" font-size="10.5">each waiting core, every iteration:</text>
+  <text x="436" y="196" fill="#4a90d9" font-size="10.5">- reads the line, hits in its own cache</text>
+  <text x="436" y="214" fill="#4a90d9" font-size="10.5">- no coherence traffic at all</text>
+  <text x="436" y="232" fill="#4a90d9" font-size="10.5">- writes only when the lock looks free</text>
+  <rect x="426" y="262" width="288" height="32" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.4" rx="4" opacity="0.14"/>
+  <text x="570" y="283" fill="#4a90d9" font-size="10.5" text-anchor="middle">n waiters -&gt; 0 invalidations while held</text>
+  <line x1="55" y1="324" x2="735" y2="324" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="60" y="348" fill="#8a8a8a" font-size="11">The correctness of the two is identical. The difference is entirely in the cache-coherence traffic they generate,</text>
+  <text x="60" y="366" fill="#8a8a8a" font-size="11">which is invisible in the source and dominates the cost at high contention - see computer-architecture 5.3.</text>
+  <text x="60" y="390" fill="#e0645c" font-size="11">Spinning is right only when the expected wait is shorter than the two context switches it avoids.</text>
+</svg>

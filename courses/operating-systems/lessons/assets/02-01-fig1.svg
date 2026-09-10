@@ -1,0 +1,43 @@
+<svg viewBox="0 0 790 420" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="40" y="24" fill="#8a8a8a" font-size="11.5" font-style="italic">One line of source, three machine steps, and a window between them that another thread can walk through.</text>
+  <text x="60" y="58" fill="#8a8a8a" font-size="11.5">count = count + 1   compiles to three separate instructions:</text>
+  <rect x="60" y="68" width="215" height="30" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.4" rx="4" opacity="0.13"/>
+  <text x="70" y="88" fill="#4a90d9" font-size="11">1.  load  r &lt;- count</text>
+  <rect x="300" y="68" width="215" height="30" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.4" rx="4" opacity="0.13"/>
+  <text x="310" y="88" fill="#4a90d9" font-size="11">2.  add   r &lt;- r + 1</text>
+  <rect x="520" y="68" width="215" height="30" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.4" rx="4" opacity="0.13"/>
+  <text x="530" y="88" fill="#4a90d9" font-size="11">3.  store count &lt;- r</text>
+  <line x1="60" y1="118" x2="730" y2="118" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="60" y="140" fill="#e0645c" font-size="11.5">A LOSING INTERLEAVING   (count starts at 7)</text>
+  <text x="70" y="166" fill="#8a8a8a" font-size="10.5">time</text>
+  <text x="150" y="166" fill="#4a90d9" font-size="10.5">thread A</text>
+  <text x="370" y="166" fill="#e0645c" font-size="10.5">thread B</text>
+  <text x="600" y="166" fill="#8a8a8a" font-size="10.5">count in memory</text>
+  <line x1="60" y1="172" x2="730" y2="172" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="72" y="192" fill="#8a8a8a" font-size="10.5">t1</text>
+  <text x="150" y="192" fill="#4a90d9" font-size="11">load  rA &lt;- 7</text>
+  <text x="640" y="192" fill="#8a8a8a" font-size="11.5" text-anchor="middle">7</text>
+  <line x1="60" y1="200" x2="730" y2="200" stroke="#8a8a8a" stroke-width="0.6" stroke-dasharray="2 4"/>
+  <text x="72" y="220" fill="#8a8a8a" font-size="10.5">t2</text>
+  <text x="370" y="220" fill="#e0645c" font-size="11">load  rB &lt;- 7</text>
+  <text x="640" y="220" fill="#8a8a8a" font-size="11.5" text-anchor="middle">7</text>
+  <line x1="60" y1="228" x2="730" y2="228" stroke="#8a8a8a" stroke-width="0.6" stroke-dasharray="2 4"/>
+  <text x="72" y="248" fill="#8a8a8a" font-size="10.5">t3</text>
+  <text x="150" y="248" fill="#4a90d9" font-size="11">add   rA = 8</text>
+  <text x="640" y="248" fill="#8a8a8a" font-size="11.5" text-anchor="middle">7</text>
+  <line x1="60" y1="256" x2="730" y2="256" stroke="#8a8a8a" stroke-width="0.6" stroke-dasharray="2 4"/>
+  <text x="72" y="276" fill="#8a8a8a" font-size="10.5">t4</text>
+  <text x="370" y="276" fill="#e0645c" font-size="11">add   rB = 8</text>
+  <text x="640" y="276" fill="#8a8a8a" font-size="11.5" text-anchor="middle">7</text>
+  <line x1="60" y1="284" x2="730" y2="284" stroke="#8a8a8a" stroke-width="0.6" stroke-dasharray="2 4"/>
+  <text x="72" y="304" fill="#8a8a8a" font-size="10.5">t5</text>
+  <text x="150" y="304" fill="#4a90d9" font-size="11">store count = 8</text>
+  <text x="640" y="304" fill="#8a8a8a" font-size="11.5" text-anchor="middle">8</text>
+  <line x1="60" y1="312" x2="730" y2="312" stroke="#8a8a8a" stroke-width="0.6" stroke-dasharray="2 4"/>
+  <text x="72" y="332" fill="#8a8a8a" font-size="10.5">t6</text>
+  <text x="370" y="332" fill="#e0645c" font-size="11">store count = 8</text>
+  <text x="640" y="332" fill="#8a8a8a" font-size="11.5" text-anchor="middle">8</text>
+  <line x1="60" y1="340" x2="730" y2="340" stroke="#8a8a8a" stroke-width="0.6" stroke-dasharray="2 4"/>
+  <text x="60" y="382" fill="#8a8a8a" font-size="11">Two increments, and count is 8 instead of 9. Nothing is corrupted, nothing errors - one update simply vanished,</text>
+  <text x="60" y="400" fill="#e0645c" font-size="11">because B read the value before A wrote it back. The window is exactly steps 1 to 3.</text>
+</svg>

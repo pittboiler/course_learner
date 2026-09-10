@@ -1,0 +1,32 @@
+<svg viewBox="0 0 790 420" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="40" y="24" fill="#8a8a8a" font-size="11.5" font-style="italic">A page fault is a trap whose handler goes to the disk. Look at where the time actually goes.</text>
+  <rect x="60" y="66" width="470" height="26" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.3" rx="4" opacity="0.12"/>
+  <text x="70" y="84" fill="#4a90d9" font-size="10.5">1. reference an address; hardware finds P = 0</text>
+  <text x="660" y="84" fill="#8a8a8a" font-size="10.5" text-anchor="end">0.0 ns</text>
+  <rect x="60" y="98" width="470" height="26" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.3" rx="4" opacity="0.12"/>
+  <text x="70" y="116" fill="#4a90d9" font-size="10.5">2. trap to the kernel, save state</text>
+  <text x="660" y="116" fill="#8a8a8a" font-size="10.5" text-anchor="end">0.5 ns</text>
+  <rect x="60" y="130" width="470" height="26" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.3" rx="4" opacity="0.12"/>
+  <text x="70" y="148" fill="#4a90d9" font-size="10.5">3. kernel checks the region: legal address?</text>
+  <text x="660" y="148" fill="#8a8a8a" font-size="10.5" text-anchor="end">1.0 ns</text>
+  <rect x="60" y="162" width="470" height="26" fill="#e0645c" stroke="#e0645c" stroke-width="1.3" rx="4" opacity="0.12"/>
+  <text x="70" y="180" fill="#e0645c" font-size="10.5">4. find a free frame (or evict one)</text>
+  <text x="660" y="180" fill="#8a8a8a" font-size="10.5" text-anchor="end">2.0 ns</text>
+  <rect x="60" y="194" width="470" height="26" fill="#e0645c" stroke="#e0645c" stroke-width="1.3" rx="4" opacity="0.12"/>
+  <text x="70" y="212" fill="#e0645c" font-size="10.5">5. issue the disk read; BLOCK the process</text>
+  <text x="660" y="212" fill="#8a8a8a" font-size="10.5" text-anchor="end">3.0 ns</text>
+  <rect x="60" y="226" width="470" height="26" fill="#e0645c" stroke="#e0645c" stroke-width="1.3" rx="4" opacity="0.12"/>
+  <text x="70" y="244" fill="#e0645c" font-size="10.5">6. ... 4,000,000 ns of disk ...</text>
+  <text x="660" y="244" fill="#8a8a8a" font-size="10.5" text-anchor="end">4,000,000 ns</text>
+  <rect x="60" y="258" width="470" height="26" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.3" rx="4" opacity="0.12"/>
+  <text x="70" y="276" fill="#4a90d9" font-size="10.5">7. interrupt; update the page table, P = 1</text>
+  <text x="660" y="276" fill="#8a8a8a" font-size="10.5" text-anchor="end">1.5 ns</text>
+  <rect x="60" y="290" width="470" height="26" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.3" rx="4" opacity="0.12"/>
+  <text x="70" y="308" fill="#4a90d9" font-size="10.5">8. mark ready; later, restart the faulting instruction</text>
+  <text x="660" y="308" fill="#8a8a8a" font-size="10.5" text-anchor="end">1.0 ns</text>
+  <text x="660" y="54" fill="#8a8a8a" font-size="10.5" text-anchor="end">cost</text>
+  <line x1="55" y1="330" x2="735" y2="330" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="60" y="354" fill="#8a8a8a" font-size="11">Total about 4,000,009 ns, of which the disk is 99.9998 percent. Every line of kernel code in the handler is</text>
+  <text x="60" y="372" fill="#8a8a8a" font-size="11">free by comparison - which is why the OS can afford a smart eviction policy and cannot afford a wrong one.</text>
+  <text x="60" y="398" fill="#e0645c" font-size="11">Step 5 is the one that matters most: the process BLOCKS, so the CPU runs someone else for four milliseconds.</text>
+</svg>
