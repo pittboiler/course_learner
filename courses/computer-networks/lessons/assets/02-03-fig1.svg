@@ -1,0 +1,54 @@
+<svg viewBox="0 0 790 440" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="40" y="24" fill="#8a8a8a" font-size="11.5" font-style="italic">Two facts about a TCP connection: what the header carries, and how the two ends agree it exists.</text>
+  <text x="60" y="60" fill="#e0645c" font-size="11.5">segment header, the fields that matter here</text>
+  <rect x="60" y="72" width="150" height="26" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.3" rx="3" opacity="0.13"/>
+  <text x="135.0" y="90" fill="#4a90d9" font-size="10.5" text-anchor="middle">source port</text>
+  <rect x="210" y="72" width="150" height="26" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.3" rx="3" opacity="0.13"/>
+  <text x="285.0" y="90" fill="#4a90d9" font-size="10.5" text-anchor="middle">dest port</text>
+  <rect x="60" y="102" width="300" height="26" fill="#e0645c" stroke="#e0645c" stroke-width="1.3" rx="3" opacity="0.15"/>
+  <text x="210" y="120" fill="#e0645c" font-size="10.5" text-anchor="middle">sequence number</text>
+  <rect x="60" y="132" width="300" height="26" fill="#e0645c" stroke="#e0645c" stroke-width="1.3" rx="3" opacity="0.15"/>
+  <text x="210" y="150" fill="#e0645c" font-size="10.5" text-anchor="middle">acknowledgement number</text>
+  <rect x="60" y="162" width="150" height="26" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.3" rx="3" opacity="0.1"/>
+  <text x="135" y="180" fill="#8a8a8a" font-size="9.5" text-anchor="middle">flags: SYN ACK FIN RST</text>
+  <rect x="210" y="162" width="150" height="26" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.3" rx="3" opacity="0.1"/>
+  <text x="285" y="180" fill="#8a8a8a" font-size="10" text-anchor="middle">receive window</text>
+  <text x="60" y="208" fill="#8a8a8a" font-size="10">sequence number = byte offset of the first byte, not a packet count</text>
+  <text x="60" y="224" fill="#8a8a8a" font-size="10">ack number = the next byte expected, so it is CUMULATIVE</text>
+  <text x="60" y="240" fill="#8a8a8a" font-size="10">receive window = how much buffer is free, which is flow control</text>
+  <line x1="400" y1="58" x2="400" y2="262" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="5 4"/>
+  <text x="430" y="60" fill="#e0645c" font-size="11.5">opening and closing</text>
+  <line x1="450" y1="74" x2="450" y2="250" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="700" y1="74" x2="700" y2="250" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="450" y="70" fill="#8a8a8a" font-size="10" text-anchor="middle">client</text>
+  <text x="700" y="70" fill="#8a8a8a" font-size="10" text-anchor="middle">server</text>
+  <line x1="452" y1="86" x2="692.0" y2="93.8" stroke="#4a90d9" stroke-width="1.3"/>
+  <polygon points="698,94 691.9,97.1 692.1,90.5" fill="#4a90d9"/>
+  <text x="575" y="82" fill="#4a90d9" font-size="9.5" text-anchor="middle">SYN  seq=x</text>
+  <line x1="698" y1="116" x2="458.0" y2="123.8" stroke="#4a90d9" stroke-width="1.3"/>
+  <polygon points="452,124 457.9,120.5 458.1,127.1" fill="#4a90d9"/>
+  <text x="575" y="112" fill="#4a90d9" font-size="9.5" text-anchor="middle">SYN ACK  seq=y, ack=x+1</text>
+  <line x1="452" y1="146" x2="692.0" y2="153.8" stroke="#4a90d9" stroke-width="1.3"/>
+  <polygon points="698,154 691.9,157.1 692.1,150.5" fill="#4a90d9"/>
+  <text x="575" y="142" fill="#4a90d9" font-size="9.5" text-anchor="middle">ACK  ack=y+1</text>
+  <line x1="452" y1="186" x2="692.0" y2="193.8" stroke="#8a8a8a" stroke-width="1.3"/>
+  <polygon points="698,194 691.9,197.1 692.1,190.5" fill="#8a8a8a"/>
+  <text x="575" y="182" fill="#8a8a8a" font-size="9.5" text-anchor="middle">FIN</text>
+  <line x1="698" y1="206" x2="458.0" y2="213.8" stroke="#8a8a8a" stroke-width="1.3"/>
+  <polygon points="452,214 457.9,210.5 458.1,217.1" fill="#8a8a8a"/>
+  <text x="575" y="202" fill="#8a8a8a" font-size="9.5" text-anchor="middle">ACK</text>
+  <line x1="698" y1="226" x2="458.0" y2="233.8" stroke="#8a8a8a" stroke-width="1.3"/>
+  <polygon points="452,234 457.9,230.5 458.1,237.1" fill="#8a8a8a"/>
+  <text x="575" y="222" fill="#8a8a8a" font-size="9.5" text-anchor="middle">FIN</text>
+  <line x1="452" y1="246" x2="692.0" y2="253.8" stroke="#8a8a8a" stroke-width="1.3"/>
+  <polygon points="698,254 691.9,257.1 692.1,250.5" fill="#8a8a8a"/>
+  <text x="575" y="242" fill="#8a8a8a" font-size="9.5" text-anchor="middle">ACK</text>
+  <line x1="45" y1="274" x2="745" y2="274" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="60" y="298" fill="#e0645c" font-size="11">THE HANDSHAKE IS THREE MESSAGES BECAUSE BOTH DIRECTIONS MUST BE OPENED.</text>
+  <text x="60" y="318" fill="#8a8a8a" font-size="11">Each side picks an initial sequence number and needs the other to acknowledge it. Two messages would</text>
+  <text x="60" y="336" fill="#8a8a8a" font-size="11">leave the server unsure its own number arrived; the third closes that gap and costs nothing extra.</text>
+  <text x="60" y="364" fill="#e0645c" font-size="11">THE TEARDOWN IS FOUR BECAUSE THE CONNECTION IS TWO INDEPENDENT BYTE STREAMS.</text>
+  <text x="60" y="384" fill="#8a8a8a" font-size="11">Each direction is closed separately, so one side may keep sending after the other has finished - the</text>
+  <text x="60" y="402" fill="#8a8a8a" font-size="11">half-closed state. The final waiting period exists so a delayed retransmission cannot be mistaken</text>
+  <text x="60" y="420" fill="#8a8a8a" font-size="11">for data on a new connection reusing the same four-tuple.</text>
+</svg>

@@ -1,0 +1,34 @@
+<svg viewBox="0 0 790 440" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="40" y="24" fill="#8a8a8a" font-size="11.5" font-style="italic">Four properties, four mechanisms, and each one gives exactly one of them.</text>
+  <text x="64" y="66" fill="#e0645c" font-size="10">mechanism</text>
+  <text x="240" y="66" fill="#e0645c" font-size="10">detects accidental change</text>
+  <text x="420" y="66" fill="#e0645c" font-size="10">detects deliberate change</text>
+  <text x="620" y="66" fill="#e0645c" font-size="10">proves who sent it</text>
+  <line x1="60" y1="74" x2="740" y2="74" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="64" y="96" fill="#4a90d9" font-size="10.5">CRC / checksum</text>
+  <text x="240" y="96" fill="#8a8a8a" font-size="10.5">yes</text>
+  <text x="420" y="96" fill="#e0645c" font-size="10.5">NO</text>
+  <text x="620" y="96" fill="#8a8a8a" font-size="10.5">no</text>
+  <text x="64" y="126" fill="#4a90d9" font-size="10.5">message auth code</text>
+  <text x="240" y="126" fill="#8a8a8a" font-size="10.5">yes</text>
+  <text x="420" y="126" fill="#8a8a8a" font-size="10.5">yes</text>
+  <text x="620" y="126" fill="#8a8a8a" font-size="10.5">only to key holders</text>
+  <text x="64" y="156" fill="#4a90d9" font-size="10.5">digital signature</text>
+  <text x="240" y="156" fill="#8a8a8a" font-size="10.5">yes</text>
+  <text x="420" y="156" fill="#8a8a8a" font-size="10.5">yes</text>
+  <text x="620" y="156" fill="#e0645c" font-size="10.5">YES, to anyone</text>
+  <text x="64" y="186" fill="#4a90d9" font-size="10.5">encryption alone</text>
+  <text x="240" y="186" fill="#8a8a8a" font-size="10.5">no</text>
+  <text x="420" y="186" fill="#8a8a8a" font-size="10.5">no</text>
+  <text x="620" y="186" fill="#8a8a8a" font-size="10.5">no</text>
+  <line x1="60" y1="222" x2="740" y2="222" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="60" y="246" fill="#e0645c" font-size="11">THE ONE THAT SURPRISES PEOPLE is the first row. A CRC is a public function of the data, so anyone</text>
+  <text x="60" y="264" fill="#8a8a8a" font-size="11">who changes the data recomputes it in a microsecond. It is an error detector, not an integrity check,</text>
+  <text x="60" y="282" fill="#8a8a8a" font-size="11">and the difference is whether the adversary knows the algorithm - which they always do.</text>
+  <text x="60" y="310" fill="#e0645c" font-size="11">THE LAST ROW MATTERS TOO. Encryption hides content and does not stop an attacker flipping bits in</text>
+  <text x="60" y="328" fill="#8a8a8a" font-size="11">the ciphertext. Confidentiality without integrity is a known way to get both wrong, which is why</text>
+  <text x="60" y="346" fill="#8a8a8a" font-size="11">modern schemes authenticate and encrypt together rather than separately.</text>
+  <text x="60" y="376" fill="#4a90d9" font-size="11">TLS supplies all four: a key exchange establishes shared secrets, a certificate proves identity, and</text>
+  <text x="60" y="394" fill="#4a90d9" font-size="11">every record is encrypted and authenticated together.</text>
+  <text x="60" y="422" fill="#8a8a8a" font-size="11">The primitives themselves are the subject of the cryptography course; here they are black boxes.</text>
+</svg>

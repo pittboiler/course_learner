@@ -49,7 +49,7 @@ The layer that turns IP's best-effort delivery into the reliable, well-behaved b
 | 2.3 | TCP: segments, connections, and flow control | Read a TCP segment and walk a connection's life | segment structure, sequence/ACK numbers, RTT estimation and timeout, three-way handshake and teardown, flow control (receive window) |
 | 2.4 | TCP congestion control | Trace the congestion window and explain why TCP is fair | congestion signals, slow start, congestion avoidance (AIMD), fast retransmit/recovery, the sawtooth, fairness, a taste of CUBIC/BBR |
 
-**Boss problem 2:** A TCP Reno sender starts with `cwnd = 1 MSS` and `ssthresh = 8 MSS`. Trace `cwnd` round by round through slow start into congestion avoidance; at `cwnd = 12` a triple-duplicate-ACK loss occurs, and eight rounds later a timeout occurs. Draw the resulting sawtooth, label every phase transition with the rule that fired, and state each new `ssthresh`. Then explain, using AIMD, why two long-lived flows sharing a bottleneck converge toward an equal share.
+**Boss problem 2:** A TCP Reno sender starts with `cwnd = 1 MSS` and `ssthresh = 8 MSS`. Trace `cwnd` round by round through slow start into congestion avoidance; at `cwnd = 12` a triple-duplicate-ACK loss occurs, and eight rounds later a timeout occurs. Give `cwnd` for every round in a table, label every phase transition with the rule that fired, and state each new `ssthresh`. Then explain, using AIMD, why two long-lived flows sharing a bottleneck converge toward an equal share.
 
 ### Module 3: The network layer
 
@@ -92,3 +92,54 @@ The bottom of the stack — moving frames across one physical hop, arbitrating a
 - **The cryptography bridge.** Lesson 4.4 treats TLS's symmetric and public-key primitives as black boxes; [`cryptography`](../cryptography/syllabus.md) opens them (AES, RSA/ECC, key exchange).
 - **The control-theory bridge.** TCP congestion control is a distributed feedback loop — AIMD is a control law tuned for stability and fairness, the same lens as [`control-systems`](../control-systems/syllabus.md).
 - **Feeds forward.** This course is a prerequisite for [`distributed-systems`](../distributed-systems/syllabus.md): reliable transport, the CAP-relevant realities of latency and partition, and the client–server/P2P models here are the substrate consensus and replication build on.
+
+## Revision note — 2026-09-10
+
+Recorded when all 16 lessons were built.
+
+**1. How problems are posed.** Following the standing rule for Computer Science
+courses that answers must be inputtable in the web app, every problem here
+resolves to one of: a number or short table; a classification or selection **with
+the named reason**; an explicit trace as an ordered list — a packet exchange, a
+congestion-window round, a switch table, a Dijkstra step; a concrete
+counterexample instance; or a hand derivation. Nothing asks for a drawing, and
+nothing asks for code. Problems whose correct answers are not unique — attack
+constructions, hidden-terminal instances, distance-vector orderings — open their
+solution with a one-line **accept criterion** before the worked exemplar, the
+convention introduced in `operating-systems`.
+
+**2. Boss problem 2 was re-aimed for the same reason.** It asked the reader to
+"draw the resulting sawtooth", which the app cannot accept; it now asks for
+`cwnd` per round in a table. The figure in lesson 2.4 supplies the picture. The
+other three boss problems were reproduced numerically before the lessons were
+written and all three are correct as stated, which is worth recording after three
+consecutive courses in which one was not.
+
+**3. Ownership cessions**, checked against the files on disk rather than against
+syllabi:
+
+- **Dijkstra and Bellman-Ford** belong to [`algorithms`](../algorithms/syllabus.md)
+  3.3 and 3.4. Lesson 3.3 re-derives neither. What it owns is what changes when
+  they run distributed with no global view on a graph that changes underneath
+  them: count to infinity, poisoned reverse, and why BGP carries a path.
+- **Channel partitioning** — FDMA, TDMA, CDMA, OFDM — belongs to
+  [`communications`](../communications/syllabus.md) 4.5. Lesson 4.2 owns random
+  access only: ALOHA, CSMA, CSMA/CD and switching.
+- **Error correction** — Hamming codes, syndromes, block codes — belongs to
+  [`information-theory`](../information-theory/syllabus.md) 3.5 and
+  `communications` 4.3. Lesson 4.1 owns **detection** only, and cites
+  [`abstract-algebra`](../abstract-algebra/syllabus.md) 4.3 for the finite-field
+  facts that state the CRC guarantees rather than re-deriving them.
+- **Queueing** — Little's law and M/M/1 — belongs to
+  [`operations-research`](../operations-research/syllabus.md) 4.1 and 4.2, cited
+  for the queueing-delay term in 1.1 and the utilisation blow-up.
+- **Cryptographic primitives** belong to
+  [`cryptography`](../cryptography/syllabus.md) and, for RSA specifically,
+  [`number-theory`](../number-theory/syllabus.md) 5.4. Lesson 4.4 treats them as
+  black boxes and owns only what each property does and does not give you.
+
+**4. Forward cessions.** [`distributed-systems`](../distributed-systems/syllabus.md)
+owns consensus, replication, distributed time and CAP;
+[`databases`](../databases/syllabus.md) owns transactions, serializability and
+recovery. Both are stated in the reference card so the later courses can be built
+against them. This course is `distributed-systems`' last remaining prerequisite.

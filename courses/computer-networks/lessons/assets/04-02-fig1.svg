@@ -1,0 +1,55 @@
+<svg viewBox="0 0 790 440" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="40" y="24" fill="#8a8a8a" font-size="11.5" font-style="italic">A switch learns where hosts are by reading the SOURCE address of every frame it forwards.</text>
+  <rect x="300" y="64" width="190" height="52" fill="#e0645c" stroke="#e0645c" stroke-width="1.5" rx="6" opacity="0.12"/>
+  <text x="395" y="95" fill="#e0645c" font-size="12" text-anchor="middle">switch</text>
+  <rect x="90" y="64" width="80" height="40" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.4" rx="5" opacity="0.14"/>
+  <text x="130" y="90" fill="#4a90d9" font-size="12" text-anchor="middle">A</text>
+  <line x1="170" y1="84" x2="300" y2="90" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="220" y="76" fill="#8a8a8a" font-size="9.5">port 1</text>
+  <rect x="620" y="64" width="80" height="40" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.4" rx="5" opacity="0.14"/>
+  <text x="660" y="90" fill="#4a90d9" font-size="12" text-anchor="middle">B</text>
+  <line x1="490" y1="90" x2="620" y2="84" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="550" y="76" fill="#8a8a8a" font-size="9.5">port 2</text>
+  <rect x="90" y="160" width="80" height="40" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.4" rx="5" opacity="0.14"/>
+  <text x="130" y="186" fill="#4a90d9" font-size="12" text-anchor="middle">C</text>
+  <line x1="170" y1="180" x2="300" y2="90" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="220" y="172" fill="#8a8a8a" font-size="9.5">port 3</text>
+  <rect x="620" y="160" width="80" height="40" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.4" rx="5" opacity="0.14"/>
+  <text x="660" y="186" fill="#4a90d9" font-size="12" text-anchor="middle">D</text>
+  <line x1="490" y1="90" x2="620" y2="180" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="550" y="172" fill="#8a8a8a" font-size="9.5">port 4</text>
+  <text x="60" y="238" fill="#e0645c" font-size="11.5">four frames, in order</text>
+  <text x="64" y="258" fill="#8a8a8a" font-size="10">frame</text>
+  <text x="150" y="258" fill="#8a8a8a" font-size="10">learns</text>
+  <text x="280" y="258" fill="#8a8a8a" font-size="10">destination known?</text>
+  <text x="430" y="258" fill="#8a8a8a" font-size="10">action</text>
+  <text x="560" y="258" fill="#8a8a8a" font-size="10">table after</text>
+  <line x1="60" y1="264" x2="740" y2="264" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="64" y="282" fill="#8a8a8a" font-size="9.5">A to B</text>
+  <text x="150" y="282" fill="#8a8a8a" font-size="9.5">A on 1</text>
+  <text x="280" y="282" fill="#8a8a8a" font-size="9.5">no</text>
+  <text x="430" y="282" fill="#8a8a8a" font-size="9.5">FLOOD to 2,3,4</text>
+  <text x="560" y="282" fill="#8a8a8a" font-size="9.5">A:1</text>
+  <text x="64" y="306" fill="#8a8a8a" font-size="9.5">B to A</text>
+  <text x="150" y="306" fill="#8a8a8a" font-size="9.5">B on 2</text>
+  <text x="280" y="306" fill="#8a8a8a" font-size="9.5">yes, port 1</text>
+  <text x="430" y="306" fill="#8a8a8a" font-size="9.5">FORWARD to 1</text>
+  <text x="560" y="306" fill="#8a8a8a" font-size="9.5">A:1 B:2</text>
+  <text x="64" y="330" fill="#8a8a8a" font-size="9.5">C to A</text>
+  <text x="150" y="330" fill="#8a8a8a" font-size="9.5">C on 3</text>
+  <text x="280" y="330" fill="#8a8a8a" font-size="9.5">yes, port 1</text>
+  <text x="430" y="330" fill="#8a8a8a" font-size="9.5">FORWARD to 1</text>
+  <text x="560" y="330" fill="#8a8a8a" font-size="9.5">A:1 B:2 C:3</text>
+  <text x="64" y="354" fill="#8a8a8a" font-size="9.5">A to D</text>
+  <text x="150" y="354" fill="#8a8a8a" font-size="9.5">already known</text>
+  <text x="280" y="354" fill="#8a8a8a" font-size="9.5">no</text>
+  <text x="430" y="354" fill="#8a8a8a" font-size="9.5">FLOOD to 2,3,4</text>
+  <text x="560" y="354" fill="#8a8a8a" font-size="9.5">A:1 B:2 C:3</text>
+  <text x="64" y="378" fill="#e0645c" font-size="9.5">E to A, E also on port 1</text>
+  <text x="150" y="378" fill="#e0645c" font-size="9.5">E on 1</text>
+  <text x="280" y="378" fill="#e0645c" font-size="9.5">yes, port 1</text>
+  <text x="430" y="378" fill="#e0645c" font-size="9.5">FILTER - drop it</text>
+  <text x="560" y="378" fill="#e0645c" font-size="9.5">A:1 B:2 C:3 E:1</text>
+  <line x1="45" y1="412" x2="745" y2="412" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="60" y="434" fill="#e0645c" font-size="10.5">FILTER is the whole point: the frame's destination is on the port it arrived from, so forwarding is pointless.</text>
+</svg>
