@@ -1,0 +1,75 @@
+<svg viewBox="0 0 790 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="12">
+  <text x="20" y="22" fill="#8a8a8a" font-size="11.5" font-style="italic">The same two tables under three join shapes. Coral marks a NULL the join invented, not one that was stored.</text>
+  <text x="24" y="56" fill="#8a8a8a" font-size="11">publisher (3 rows)</text>
+  <text x="24" y="72" fill="#8a8a8a" font-size="10.5">RVN, HOL, KIN</text>
+  <text x="24" y="92" fill="#8a8a8a" font-size="11">book (5 rows)</text>
+  <text x="24" y="108" fill="#8a8a8a" font-size="10.5">3 Ravenwood, 2 Holloway,</text>
+  <text x="24" y="124" fill="#e0645c" font-size="10.5">none from Kingsley</text>
+  <text x="24" y="150" fill="#8a8a8a" font-size="10.5">Kingsley matches nothing.</text>
+  <text x="24" y="166" fill="#8a8a8a" font-size="10.5">What each join does with</text>
+  <text x="24" y="182" fill="#8a8a8a" font-size="10.5">that row is the whole</text>
+  <text x="24" y="198" fill="#8a8a8a" font-size="10.5">difference between them.</text>
+  <text x="238" y="68" fill="#4a90d9" font-size="11.5" font-weight="bold">INNER JOIN - 5 rows</text>
+  <rect x="238" y="76" width="109.2" height="17" fill="#4a90d9" stroke="#4a90d9" stroke-width="0.9" rx="2" opacity="0.13"/>
+  <text x="245" y="90" fill="#4a90d9" font-size="10.5">Holloway</text>
+  <rect x="351.4" y="76" width="96.6" height="17" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="0.9" rx="2" opacity="0.13"/>
+  <text x="358.4" y="90" fill="#8a8a8a" font-size="10.5">Saltmarsh</text>
+  <rect x="238" y="96" width="109.2" height="17" fill="#4a90d9" stroke="#4a90d9" stroke-width="0.9" rx="2" opacity="0.13"/>
+  <text x="245" y="110" fill="#4a90d9" font-size="10.5">Holloway</text>
+  <rect x="351.4" y="96" width="96.6" height="17" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="0.9" rx="2" opacity="0.13"/>
+  <text x="358.4" y="110" fill="#8a8a8a" font-size="10.5">The Long Field</text>
+  <rect x="238" y="116" width="109.2" height="17" fill="#4a90d9" stroke="#4a90d9" stroke-width="0.9" rx="2" opacity="0.13"/>
+  <text x="245" y="130" fill="#4a90d9" font-size="10.5">Ravenwood</text>
+  <rect x="351.4" y="116" width="96.6" height="17" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="0.9" rx="2" opacity="0.13"/>
+  <text x="358.4" y="130" fill="#8a8a8a" font-size="10.5">Tidewater</text>
+  <rect x="238" y="136" width="109.2" height="17" fill="#4a90d9" stroke="#4a90d9" stroke-width="0.9" rx="2" opacity="0.13"/>
+  <text x="245" y="150" fill="#4a90d9" font-size="10.5">Ravenwood</text>
+  <rect x="351.4" y="136" width="96.6" height="17" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="0.9" rx="2" opacity="0.13"/>
+  <text x="358.4" y="150" fill="#8a8a8a" font-size="10.5">Nine Gates</text>
+  <rect x="238" y="156" width="109.2" height="17" fill="#4a90d9" stroke="#4a90d9" stroke-width="0.9" rx="2" opacity="0.13"/>
+  <text x="245" y="170" fill="#4a90d9" font-size="10.5">Ravenwood</text>
+  <rect x="351.4" y="156" width="96.6" height="17" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="0.9" rx="2" opacity="0.13"/>
+  <text x="358.4" y="170" fill="#8a8a8a" font-size="10.5">Ember</text>
+  <text x="238" y="196" fill="#8a8a8a" font-size="10">unmatched rows dropped</text>
+  <text x="238" y="212" fill="#8a8a8a" font-size="10">from BOTH sides</text>
+  <text x="486" y="68" fill="#4a90d9" font-size="11.5" font-weight="bold">LEFT JOIN - 6 rows</text>
+  <rect x="486" y="76" width="109.2" height="17" fill="#4a90d9" stroke="#4a90d9" stroke-width="0.9" rx="2" opacity="0.13"/>
+  <text x="493" y="90" fill="#4a90d9" font-size="10.5">Holloway</text>
+  <rect x="599.4" y="76" width="96.6" height="17" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="0.9" rx="2" opacity="0.13"/>
+  <text x="606.4" y="90" fill="#8a8a8a" font-size="10.5">Saltmarsh</text>
+  <rect x="486" y="96" width="109.2" height="17" fill="#4a90d9" stroke="#4a90d9" stroke-width="0.9" rx="2" opacity="0.13"/>
+  <text x="493" y="110" fill="#4a90d9" font-size="10.5">Holloway</text>
+  <rect x="599.4" y="96" width="96.6" height="17" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="0.9" rx="2" opacity="0.13"/>
+  <text x="606.4" y="110" fill="#8a8a8a" font-size="10.5">The Long Field</text>
+  <rect x="486" y="116" width="109.2" height="17" fill="#4a90d9" stroke="#4a90d9" stroke-width="0.9" rx="2" opacity="0.13"/>
+  <text x="493" y="130" fill="#4a90d9" font-size="10.5">Kingsley</text>
+  <rect x="599.4" y="116" width="96.6" height="17" fill="#e0645c" stroke="#e0645c" stroke-width="0.9" rx="2" opacity="0.22"/>
+  <text x="606.4" y="130" fill="#e0645c" font-size="10.5">NULL</text>
+  <rect x="486" y="136" width="109.2" height="17" fill="#4a90d9" stroke="#4a90d9" stroke-width="0.9" rx="2" opacity="0.13"/>
+  <text x="493" y="150" fill="#4a90d9" font-size="10.5">Ravenwood</text>
+  <rect x="599.4" y="136" width="96.6" height="17" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="0.9" rx="2" opacity="0.13"/>
+  <text x="606.4" y="150" fill="#8a8a8a" font-size="10.5">Tidewater</text>
+  <rect x="486" y="156" width="109.2" height="17" fill="#4a90d9" stroke="#4a90d9" stroke-width="0.9" rx="2" opacity="0.13"/>
+  <text x="493" y="170" fill="#4a90d9" font-size="10.5">Ravenwood</text>
+  <rect x="599.4" y="156" width="96.6" height="17" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="0.9" rx="2" opacity="0.13"/>
+  <text x="606.4" y="170" fill="#8a8a8a" font-size="10.5">Nine Gates</text>
+  <rect x="486" y="176" width="109.2" height="17" fill="#4a90d9" stroke="#4a90d9" stroke-width="0.9" rx="2" opacity="0.13"/>
+  <text x="493" y="190" fill="#4a90d9" font-size="10.5">Ravenwood</text>
+  <rect x="599.4" y="176" width="96.6" height="17" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="0.9" rx="2" opacity="0.13"/>
+  <text x="606.4" y="190" fill="#8a8a8a" font-size="10.5">Ember</text>
+  <text x="486" y="216" fill="#8a8a8a" font-size="10">every left row survives;</text>
+  <text x="486" y="232" fill="#8a8a8a" font-size="10">missing right columns</text>
+  <text x="486" y="248" fill="#e0645c" font-size="10">are filled with NULL</text>
+  <text x="238" y="288" fill="#e0645c" font-size="11.5" font-weight="bold">LEFT JOIN then WHERE b.isbn IS NULL - 1 row</text>
+  <rect x="238" y="306" width="109.2" height="17" fill="#4a90d9" stroke="#4a90d9" stroke-width="0.9" rx="2" opacity="0.13"/>
+  <text x="245" y="320" fill="#4a90d9" font-size="10.5">Kingsley</text>
+  <rect x="351.4" y="306" width="96.6" height="17" fill="#e0645c" stroke="#e0645c" stroke-width="0.9" rx="2" opacity="0.22"/>
+  <text x="358.4" y="320" fill="#e0645c" font-size="10.5">NULL</text>
+  <text x="486" y="300" fill="#8a8a8a" font-size="10.5">Keeping only the invented-NULL rows</text>
+  <text x="486" y="316" fill="#8a8a8a" font-size="10.5">is the anti-join: every left row with</text>
+  <text x="486" y="332" fill="#8a8a8a" font-size="10.5">no partner on the right. This is how</text>
+  <text x="486" y="348" fill="#4a90d9" font-size="10.5">you ask for what is NOT there.</text>
+  <text x="24" y="350" fill="#8a8a8a" font-size="10.5">A FULL OUTER JOIN keeps the</text>
+  <text x="24" y="366" fill="#8a8a8a" font-size="10.5">unmatched rows of both sides</text>
+  <text x="24" y="382" fill="#8a8a8a" font-size="10.5">and NULL-fills in both directions.</text>
+</svg>

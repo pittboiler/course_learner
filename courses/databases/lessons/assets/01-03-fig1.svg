@@ -1,0 +1,75 @@
+<svg viewBox="0 0 790 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="12">
+  <text x="20" y="22" fill="#8a8a8a" font-size="11.5" font-style="italic">Three-valued logic. WHERE keeps a row only when the predicate evaluates to true - unknown is discarded, exactly like false.</text>
+  <text x="24" y="64" fill="#4a90d9" font-size="12" font-weight="bold">p AND q</text>
+  <text x="93" y="90" fill="#8a8a8a" font-size="11" text-anchor="middle">T</text>
+  <text x="139" y="90" fill="#8a8a8a" font-size="11" text-anchor="middle">F</text>
+  <text x="185" y="90" fill="#8a8a8a" font-size="11" text-anchor="middle">U</text>
+  <text x="47" y="136" fill="#8a8a8a" font-size="11" text-anchor="middle">T</text>
+  <rect x="70" y="120" width="46" height="40" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.0" rx="3" opacity="0.15"/>
+  <text x="93" y="137" fill="#4a90d9" font-size="12" text-anchor="middle">T</text>
+  <rect x="116" y="120" width="46" height="40" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.0" rx="3" opacity="0.15"/>
+  <text x="139" y="137" fill="#8a8a8a" font-size="12" text-anchor="middle">F</text>
+  <rect x="162" y="120" width="46" height="40" fill="#e0645c" stroke="#e0645c" stroke-width="1.0" rx="3" opacity="0.15"/>
+  <text x="185" y="137" fill="#e0645c" font-size="12" text-anchor="middle">U</text>
+  <text x="47" y="182" fill="#8a8a8a" font-size="11" text-anchor="middle">F</text>
+  <rect x="70" y="166" width="46" height="40" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.0" rx="3" opacity="0.15"/>
+  <text x="93" y="183" fill="#8a8a8a" font-size="12" text-anchor="middle">F</text>
+  <rect x="116" y="166" width="46" height="40" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.0" rx="3" opacity="0.15"/>
+  <text x="139" y="183" fill="#8a8a8a" font-size="12" text-anchor="middle">F</text>
+  <rect x="162" y="166" width="46" height="40" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.0" rx="3" opacity="0.15"/>
+  <text x="185" y="183" fill="#8a8a8a" font-size="12" text-anchor="middle">F</text>
+  <text x="47" y="228" fill="#8a8a8a" font-size="11" text-anchor="middle">U</text>
+  <rect x="70" y="212" width="46" height="40" fill="#e0645c" stroke="#e0645c" stroke-width="1.0" rx="3" opacity="0.15"/>
+  <text x="93" y="229" fill="#e0645c" font-size="12" text-anchor="middle">U</text>
+  <rect x="116" y="212" width="46" height="40" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.0" rx="3" opacity="0.15"/>
+  <text x="139" y="229" fill="#8a8a8a" font-size="12" text-anchor="middle">F</text>
+  <rect x="162" y="212" width="46" height="40" fill="#e0645c" stroke="#e0645c" stroke-width="1.0" rx="3" opacity="0.15"/>
+  <text x="185" y="229" fill="#e0645c" font-size="12" text-anchor="middle">U</text>
+  <text x="230" y="64" fill="#4a90d9" font-size="12" font-weight="bold">p OR q</text>
+  <text x="299" y="90" fill="#8a8a8a" font-size="11" text-anchor="middle">T</text>
+  <text x="345" y="90" fill="#8a8a8a" font-size="11" text-anchor="middle">F</text>
+  <text x="391" y="90" fill="#8a8a8a" font-size="11" text-anchor="middle">U</text>
+  <text x="253" y="136" fill="#8a8a8a" font-size="11" text-anchor="middle">T</text>
+  <rect x="276" y="120" width="46" height="40" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.0" rx="3" opacity="0.15"/>
+  <text x="299" y="137" fill="#4a90d9" font-size="12" text-anchor="middle">T</text>
+  <rect x="322" y="120" width="46" height="40" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.0" rx="3" opacity="0.15"/>
+  <text x="345" y="137" fill="#4a90d9" font-size="12" text-anchor="middle">T</text>
+  <rect x="368" y="120" width="46" height="40" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.0" rx="3" opacity="0.15"/>
+  <text x="391" y="137" fill="#4a90d9" font-size="12" text-anchor="middle">T</text>
+  <text x="253" y="182" fill="#8a8a8a" font-size="11" text-anchor="middle">F</text>
+  <rect x="276" y="166" width="46" height="40" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.0" rx="3" opacity="0.15"/>
+  <text x="299" y="183" fill="#4a90d9" font-size="12" text-anchor="middle">T</text>
+  <rect x="322" y="166" width="46" height="40" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.0" rx="3" opacity="0.15"/>
+  <text x="345" y="183" fill="#8a8a8a" font-size="12" text-anchor="middle">F</text>
+  <rect x="368" y="166" width="46" height="40" fill="#e0645c" stroke="#e0645c" stroke-width="1.0" rx="3" opacity="0.15"/>
+  <text x="391" y="183" fill="#e0645c" font-size="12" text-anchor="middle">U</text>
+  <text x="253" y="228" fill="#8a8a8a" font-size="11" text-anchor="middle">U</text>
+  <rect x="276" y="212" width="46" height="40" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.0" rx="3" opacity="0.15"/>
+  <text x="299" y="229" fill="#4a90d9" font-size="12" text-anchor="middle">T</text>
+  <rect x="322" y="212" width="46" height="40" fill="#e0645c" stroke="#e0645c" stroke-width="1.0" rx="3" opacity="0.15"/>
+  <text x="345" y="229" fill="#e0645c" font-size="12" text-anchor="middle">U</text>
+  <rect x="368" y="212" width="46" height="40" fill="#e0645c" stroke="#e0645c" stroke-width="1.0" rx="3" opacity="0.15"/>
+  <text x="391" y="229" fill="#e0645c" font-size="12" text-anchor="middle">U</text>
+  <text x="436" y="64" fill="#4a90d9" font-size="12" font-weight="bold">NOT p</text>
+  <text x="459" y="136" fill="#8a8a8a" font-size="11" text-anchor="middle">T</text>
+  <rect x="482" y="120" width="46" height="40" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.0" rx="3" opacity="0.15"/>
+  <text x="505" y="137" fill="#8a8a8a" font-size="12" text-anchor="middle">F</text>
+  <text x="459" y="182" fill="#8a8a8a" font-size="11" text-anchor="middle">F</text>
+  <rect x="482" y="166" width="46" height="40" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.0" rx="3" opacity="0.15"/>
+  <text x="505" y="183" fill="#4a90d9" font-size="12" text-anchor="middle">T</text>
+  <text x="459" y="228" fill="#8a8a8a" font-size="11" text-anchor="middle">U</text>
+  <rect x="482" y="212" width="46" height="40" fill="#e0645c" stroke="#e0645c" stroke-width="1.0" rx="3" opacity="0.15"/>
+  <text x="505" y="229" fill="#e0645c" font-size="12" text-anchor="middle">U</text>
+  <rect x="556" y="66" width="214" height="176" fill="none" stroke="#8a8a8a" stroke-width="1.2" rx="5" stroke-dasharray="4 4"/>
+  <text x="568" y="88" fill="#8a8a8a" font-size="11">Any comparison with NULL</text>
+  <text x="568" y="104" fill="#8a8a8a" font-size="11">yields U, including</text>
+  <text x="568" y="124" fill="#e0645c" font-size="11.5">NULL = NULL</text>
+  <text x="568" y="148" fill="#8a8a8a" font-size="10.5">So price &lt; 25 OR price &gt;= 25</text>
+  <text x="568" y="164" fill="#8a8a8a" font-size="10.5">is U for a NULL price,</text>
+  <text x="568" y="180" fill="#8a8a8a" font-size="10.5">and that book vanishes -</text>
+  <text x="568" y="196" fill="#e0645c" font-size="10.5">4 of 5 rows come back.</text>
+  <text x="568" y="220" fill="#4a90d9" font-size="10.5">Test with IS NULL, never =.</text>
+  <text x="24" y="286" fill="#8a8a8a" font-size="11">Notice NOT U = U. That is why negating a filter does not partition the table:</text>
+  <text x="24" y="304" fill="#8a8a8a" font-size="11">rows whose predicate is unknown are dropped by the filter AND by its negation.</text>
+  <text x="24" y="322" fill="#e0645c" font-size="11">The two results together can be smaller than the table you started with.</text>
+</svg>

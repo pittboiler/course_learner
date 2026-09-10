@@ -1,0 +1,46 @@
+<svg viewBox="0 0 790 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="12">
+  <text x="20" y="22" fill="#8a8a8a" font-size="11.5" font-style="italic">Each ACID letter names a different way the world can break, and each is delivered by a different mechanism.</text>
+  <text x="24" y="58" fill="#8a8a8a" font-size="11" font-weight="bold">a transfer of 200 pounds from account A to account B</text>
+  <rect x="24" y="72" width="200" height="24" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.1" rx="3" opacity="0.1"/>
+  <text x="32" y="89" fill="#8a8a8a" font-size="10.5">read A  (1,000)</text>
+  <rect x="24" y="102" width="200" height="24" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.1" rx="3" opacity="0.1"/>
+  <text x="32" y="119" fill="#8a8a8a" font-size="10.5">A := A - 200</text>
+  <rect x="24" y="132" width="200" height="24" fill="#e0645c" stroke="#e0645c" stroke-width="1.1" rx="3" opacity="0.22"/>
+  <text x="32" y="149" fill="#e0645c" font-size="10.5">write A  (800)</text>
+  <rect x="24" y="162" width="200" height="24" fill="#e0645c" stroke="#e0645c" stroke-width="1.1" rx="3" opacity="0.22"/>
+  <text x="32" y="179" fill="#e0645c" font-size="10.5">-- CRASH --</text>
+  <rect x="24" y="192" width="200" height="24" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.1" rx="3" opacity="0.1"/>
+  <text x="32" y="209" fill="#8a8a8a" font-size="10.5">read B  (500)</text>
+  <rect x="24" y="222" width="200" height="24" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.1" rx="3" opacity="0.1"/>
+  <text x="32" y="239" fill="#8a8a8a" font-size="10.5">B := B + 200</text>
+  <rect x="24" y="252" width="200" height="24" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.1" rx="3" opacity="0.1"/>
+  <text x="32" y="269" fill="#8a8a8a" font-size="10.5">write B  (700)</text>
+  <text x="24" y="296" fill="#e0645c" font-size="10.5">The crash leaves A debited and B never credited.</text>
+  <text x="24" y="312" fill="#e0645c" font-size="10.5">200 pounds have left the system. No single write</text>
+  <text x="24" y="328" fill="#e0645c" font-size="10.5">was wrong; the SET of writes was incomplete.</text>
+  <text x="24" y="352" fill="#4a90d9" font-size="10.5">Atomicity is the promise that this state cannot</text>
+  <text x="24" y="368" fill="#4a90d9" font-size="10.5">be observed: all of the writes, or none.</text>
+  <text x="268" y="58" fill="#4a90d9" font-size="11" font-weight="bold">what each letter promises</text>
+  <text x="268" y="76" fill="#4a90d9" font-size="11" font-weight="bold">and what delivers it</text>
+  <rect x="268" y="96" width="498" height="56" fill="#e0645c" stroke="#e0645c" stroke-width="1.2" rx="4" opacity="0.12"/>
+  <text x="282" y="118" fill="#e0645c" font-size="17" font-weight="bold">A</text>
+  <text x="306" y="116" fill="#e0645c" font-size="11.5" font-weight="bold">Atomicity</text>
+  <text x="306" y="134" fill="#8a8a8a" font-size="10.5">all writes happen or none do</text>
+  <text x="560" y="134" fill="#e0645c" font-size="10.5">delivered by:  undo, from the log</text>
+  <rect x="268" y="162" width="498" height="56" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.2" rx="4" opacity="0.12"/>
+  <text x="282" y="184" fill="#8a8a8a" font-size="17" font-weight="bold">C</text>
+  <text x="306" y="182" fill="#8a8a8a" font-size="11.5" font-weight="bold">Consistency</text>
+  <text x="306" y="200" fill="#8a8a8a" font-size="10.5">declared constraints still hold</text>
+  <text x="560" y="200" fill="#8a8a8a" font-size="10.5">delivered by:  constraint checks + your code</text>
+  <rect x="268" y="228" width="498" height="56" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.2" rx="4" opacity="0.12"/>
+  <text x="282" y="250" fill="#4a90d9" font-size="17" font-weight="bold">I</text>
+  <text x="306" y="248" fill="#4a90d9" font-size="11.5" font-weight="bold">Isolation</text>
+  <text x="306" y="266" fill="#8a8a8a" font-size="10.5">concurrent runs look serial</text>
+  <text x="560" y="266" fill="#4a90d9" font-size="10.5">delivered by:  2PL or MVCC</text>
+  <rect x="268" y="294" width="498" height="56" fill="#e0645c" stroke="#e0645c" stroke-width="1.2" rx="4" opacity="0.12"/>
+  <text x="282" y="316" fill="#e0645c" font-size="17" font-weight="bold">D</text>
+  <text x="306" y="314" fill="#e0645c" font-size="11.5" font-weight="bold">Durability</text>
+  <text x="306" y="332" fill="#8a8a8a" font-size="10.5">a commit survives a crash</text>
+  <text x="560" y="332" fill="#e0645c" font-size="10.5">delivered by:  redo, from the log</text>
+  <text x="268" y="372" fill="#8a8a8a" font-size="10.5">Only C is not the database's job alone - it enforces what you declared, and nothing you did not.</text>
+</svg>

@@ -1,0 +1,52 @@
+<svg viewBox="0 0 790 440" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="12">
+  <text x="20" y="22" fill="#8a8a8a" font-size="11.5" font-style="italic">ARIES repeats history first, then undoes what never committed. Redo re-applies even a loser's writes before undo removes them.</text>
+  <text x="24" y="58" fill="#4a90d9" font-size="11" font-weight="bold">the log at the moment of the crash</text>
+  <rect x="24" y="72" width="300" height="23" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.1" rx="3" opacity="0.14"/>
+  <text x="32" y="88" fill="#8a8a8a" font-size="10">LSN 10</text>
+  <text x="96" y="88" fill="#8a8a8a" font-size="10">begin T1</text>
+  <rect x="24" y="100" width="300" height="23" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.1" rx="3" opacity="0.14"/>
+  <text x="32" y="116" fill="#4a90d9" font-size="10">LSN 20</text>
+  <text x="96" y="116" fill="#4a90d9" font-size="10">update T1  P5  A -&gt; B</text>
+  <rect x="24" y="128" width="300" height="23" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.1" rx="3" opacity="0.14"/>
+  <text x="32" y="144" fill="#8a8a8a" font-size="10">LSN 30</text>
+  <text x="96" y="144" fill="#8a8a8a" font-size="10">begin T2</text>
+  <rect x="24" y="156" width="300" height="23" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.1" rx="3" opacity="0.14"/>
+  <text x="32" y="172" fill="#4a90d9" font-size="10">LSN 40</text>
+  <text x="96" y="172" fill="#4a90d9" font-size="10">update T2  P3  C -&gt; D</text>
+  <rect x="24" y="184" width="300" height="23" fill="#e0645c" stroke="#e0645c" stroke-width="1.1" rx="3" opacity="0.14"/>
+  <text x="32" y="200" fill="#e0645c" font-size="10">LSN 50</text>
+  <text x="96" y="200" fill="#e0645c" font-size="10">checkpoint</text>
+  <rect x="24" y="212" width="300" height="23" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.1" rx="3" opacity="0.14"/>
+  <text x="32" y="228" fill="#4a90d9" font-size="10">LSN 60</text>
+  <text x="96" y="228" fill="#4a90d9" font-size="10">update T1  P5  B -&gt; E</text>
+  <rect x="24" y="240" width="300" height="23" fill="#e0645c" stroke="#e0645c" stroke-width="1.1" rx="3" opacity="0.14"/>
+  <text x="32" y="256" fill="#e0645c" font-size="10">LSN 70</text>
+  <text x="96" y="256" fill="#e0645c" font-size="10">commit T2</text>
+  <rect x="24" y="268" width="300" height="23" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.1" rx="3" opacity="0.14"/>
+  <text x="32" y="284" fill="#8a8a8a" font-size="10">LSN 80</text>
+  <text x="96" y="284" fill="#8a8a8a" font-size="10">begin T3</text>
+  <rect x="24" y="296" width="300" height="23" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.1" rx="3" opacity="0.14"/>
+  <text x="32" y="312" fill="#4a90d9" font-size="10">LSN 90</text>
+  <text x="96" y="312" fill="#4a90d9" font-size="10">update T3  P3  D -&gt; F</text>
+  <rect x="24" y="324" width="300" height="20" fill="#e0645c" stroke="#e0645c" stroke-width="1.3" rx="3" opacity="0.3"/>
+  <text x="32" y="339" fill="#e0645c" font-size="11" font-weight="bold">CRASH</text>
+  <text x="110" y="339" fill="#8a8a8a" font-size="9.5">on disk: P5 has LSN 20, P3 has none</text>
+  <text x="356" y="70" fill="#4a90d9" font-size="11" font-weight="bold">1. ANALYSIS   forward, from the checkpoint</text>
+  <text x="364" y="90" fill="#8a8a8a" font-size="9.5">dirty page table:  P5 -&gt; recLSN 20,  P3 -&gt; recLSN 40</text>
+  <text x="364" y="107" fill="#8a8a8a" font-size="9.5">transaction table: T1 -&gt; 60,  T3 -&gt; 90   (T2 committed)</text>
+  <text x="364" y="124" fill="#e0645c" font-size="9.5">LOSERS = T1 and T3.   WINNER = T2.</text>
+  <text x="356" y="175" fill="#4a90d9" font-size="11" font-weight="bold">2. REDO   forward, from the smallest recLSN (20)</text>
+  <text x="364" y="195" fill="#8a8a8a" font-size="9.5">LSN 20  skip: the page already has LSN 20 on disk</text>
+  <text x="364" y="212" fill="#8a8a8a" font-size="9.5">LSN 40  REDO  P3 := D</text>
+  <text x="364" y="229" fill="#8a8a8a" font-size="9.5">LSN 60  REDO  P5 := E</text>
+  <text x="364" y="246" fill="#e0645c" font-size="9.5">LSN 90  REDO  P3 := F     &lt;- a LOSER's write, redone anyway</text>
+  <text x="356" y="297" fill="#e0645c" font-size="11" font-weight="bold">3. UNDO   backward, losers only, writing CLRs</text>
+  <text x="364" y="317" fill="#8a8a8a" font-size="9.5">LSN 100  CLR: undo LSN 90,  P3 := D,  undoNext = none</text>
+  <text x="364" y="334" fill="#8a8a8a" font-size="9.5">LSN 110  CLR: undo LSN 60,  P5 := B,  undoNext = 20</text>
+  <text x="364" y="351" fill="#8a8a8a" font-size="9.5">LSN 120  CLR: undo LSN 20,  P5 := A,  undoNext = none</text>
+  <rect x="356" y="342" width="410" height="84" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.2" rx="5" opacity="0.1"/>
+  <text x="368" y="362" fill="#4a90d9" font-size="11" font-weight="bold">final state:  P3 = D,  P5 = A</text>
+  <text x="368" y="382" fill="#8a8a8a" font-size="10">T2 committed, so its D survives. T1 and T3 never committed,</text>
+  <text x="368" y="398" fill="#8a8a8a" font-size="10">so P5 is back to A and P3 back to D. Exactly the state a</text>
+  <text x="368" y="414" fill="#8a8a8a" font-size="10">serial execution of the winners alone would have produced.</text>
+</svg>

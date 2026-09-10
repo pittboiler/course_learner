@@ -1129,7 +1129,7 @@
       "prereqs": [
         "programming-foundations"
       ],
-      "lessons_estimate": 19,
+      "lessons_estimate": 25,
       "blurb": "The relational model, SQL, normalization, indexing, transactions, and query processing."
     },
     {

@@ -1,0 +1,51 @@
+<svg viewBox="0 0 790 440" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="12">
+  <text x="20" y="22" fill="#8a8a8a" font-size="11.5" font-style="italic">Selinger's dynamic programming: solve every subset once, cheapest first, and build each answer from smaller answers already solved.</text>
+  <text x="24" y="58" fill="#8a8a8a" font-size="11" font-weight="bold">size 1  -  base tables, cost 0</text>
+  <rect x="24" y="68" width="172" height="24" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.1" rx="3" opacity="0.11"/>
+  <text x="32" y="85" fill="#8a8a8a" font-size="10">B booking   2,000,000 rows</text>
+  <rect x="210" y="68" width="172" height="24" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.1" rx="3" opacity="0.11"/>
+  <text x="218" y="85" fill="#8a8a8a" font-size="10">P passenger   5,000 rows</text>
+  <rect x="396" y="68" width="172" height="24" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.1" rx="3" opacity="0.11"/>
+  <text x="404" y="85" fill="#8a8a8a" font-size="10">F flight   20,000 rows</text>
+  <rect x="582" y="68" width="172" height="24" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.1" rx="3" opacity="0.11"/>
+  <text x="590" y="85" fill="#8a8a8a" font-size="10">A airport   6 rows</text>
+  <text x="24" y="124" fill="#8a8a8a" font-size="11" font-weight="bold">size 2  -  only connected pairs exist</text>
+  <rect x="24" y="134" width="228" height="40" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.2" rx="4" opacity="0.14"/>
+  <text x="32" y="150" fill="#4a90d9" font-size="11" font-weight="bold">FA</text>
+  <text x="86" y="150" fill="#8a8a8a" font-size="10.5">400</text>
+  <text x="32" y="166" fill="#8a8a8a" font-size="10">the two tiny inputs, joined first</text>
+  <rect x="268" y="134" width="228" height="40" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.2" rx="4" opacity="0.14"/>
+  <text x="276" y="150" fill="#8a8a8a" font-size="11" font-weight="bold">BP</text>
+  <text x="330" y="150" fill="#8a8a8a" font-size="10.5">200,000</text>
+  <text x="276" y="166" fill="#8a8a8a" font-size="10">booking filtered by GB passengers</text>
+  <rect x="512" y="134" width="228" height="40" fill="#e0645c" stroke="#e0645c" stroke-width="1.2" rx="4" opacity="0.14"/>
+  <text x="520" y="150" fill="#e0645c" font-size="11" font-weight="bold">BF</text>
+  <text x="574" y="150" fill="#8a8a8a" font-size="10.5">2,000,000</text>
+  <text x="520" y="166" fill="#8a8a8a" font-size="10">no filter reaches it - full size</text>
+  <text x="24" y="200" fill="#8a8a8a" font-size="11" font-weight="bold">size 3  -  each built from a size-2 answer plus one table</text>
+  <rect x="24" y="210" width="350" height="40" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.2" rx="4" opacity="0.14"/>
+  <text x="32" y="226" fill="#4a90d9" font-size="11" font-weight="bold">ABF</text>
+  <text x="86" y="226" fill="#8a8a8a" font-size="10.5">40,400</text>
+  <text x="32" y="242" fill="#8a8a8a" font-size="10">(F |x| A) |x| B</text>
+  <rect x="400" y="210" width="350" height="40" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.2" rx="4" opacity="0.14"/>
+  <text x="408" y="226" fill="#8a8a8a" font-size="11" font-weight="bold">BFP</text>
+  <text x="462" y="226" fill="#8a8a8a" font-size="10.5">400,000</text>
+  <text x="408" y="242" fill="#8a8a8a" font-size="10">(B |x| P) |x| F</text>
+  <text x="24" y="266" fill="#e0645c" font-size="10">alternative was ((B |x| F) |x| A) at 2,040,000 - discarded</text>
+  <text x="400" y="266" fill="#e0645c" font-size="10">alternative was ((B |x| F) |x| P) at 2,200,000 - discarded</text>
+  <text x="24" y="300" fill="#4a90d9" font-size="11" font-weight="bold">size 4  -  the answer</text>
+  <rect x="24" y="310" width="460" height="40" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.2" rx="4" opacity="0.14"/>
+  <text x="32" y="326" fill="#4a90d9" font-size="11" font-weight="bold">ABFP</text>
+  <text x="86" y="326" fill="#8a8a8a" font-size="10.5">44,400</text>
+  <text x="32" y="342" fill="#8a8a8a" font-size="10">((F |x| A) |x| B) |x| P     -   4,000 rows out</text>
+  <text x="500" y="328" fill="#e0645c" font-size="10.5">worst legal order:</text>
+  <text x="500" y="344" fill="#e0645c" font-size="10.5">((B |x| F) |x| P) |x| A</text>
+  <text x="500" y="360" fill="#e0645c" font-size="11">2,204,000  -  50x worse</text>
+  <rect x="24" y="366" width="460" height="66" fill="none" stroke="#8a8a8a" stroke-width="1.1" rx="4" stroke-dasharray="4 4"/>
+  <text x="36" y="388" fill="#8a8a8a" font-size="10.5">Both orders return the same 4,000 rows. The cheap one joins the two</text>
+  <text x="36" y="404" fill="#8a8a8a" font-size="10.5">smallest inputs first so the filter on airport propagates early; the</text>
+  <text x="36" y="420" fill="#e0645c" font-size="10.5">dear one builds a 2,000,000-row intermediate before filtering anything.</text>
+  <text x="500" y="392" fill="#8a8a8a" font-size="10.5">12 tables: 479,001,600</text>
+  <text x="500" y="408" fill="#8a8a8a" font-size="10.5">left-deep orders, but only</text>
+  <text x="500" y="424" fill="#4a90d9" font-size="10.5">4,096 subsets to solve.</text>
+</svg>

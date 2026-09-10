@@ -1,0 +1,38 @@
+<svg viewBox="0 0 790 420" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="12">
+  <text x="20" y="22" fill="#8a8a8a" font-size="11.5" font-style="italic">The translation is mechanical. Cardinality decides where the key goes; participation decides whether it may be NULL.</text>
+  <rect x="24" y="58" width="226" height="26" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.2" rx="3" opacity="0.14"/>
+  <text x="34" y="76" fill="#4a90d9" font-size="10.5">entity set E</text>
+  <line x1="254" y1="71" x2="286" y2="71" stroke="#8a8a8a" stroke-width="1.1"/>
+  <text x="294" y="76" fill="#8a8a8a" font-size="10.5">table E, key = E's key</text>
+  <rect x="24" y="92" width="226" height="26" fill="#e0645c" stroke="#e0645c" stroke-width="1.2" rx="3" opacity="0.14"/>
+  <text x="34" y="110" fill="#e0645c" font-size="10.5">weak entity W, owner O</text>
+  <line x1="254" y1="105" x2="286" y2="105" stroke="#8a8a8a" stroke-width="1.1"/>
+  <text x="294" y="110" fill="#8a8a8a" font-size="10.5">table W, key = O's key + discriminator</text>
+  <rect x="24" y="126" width="226" height="26" fill="#e0645c" stroke="#e0645c" stroke-width="1.2" rx="3" opacity="0.14"/>
+  <text x="34" y="144" fill="#e0645c" font-size="10.5">relationship M:N</text>
+  <line x1="254" y1="139" x2="286" y2="139" stroke="#8a8a8a" stroke-width="1.1"/>
+  <text x="294" y="144" fill="#8a8a8a" font-size="10.5">its own table, key = both entity keys</text>
+  <rect x="24" y="160" width="226" height="26" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.2" rx="3" opacity="0.14"/>
+  <text x="34" y="178" fill="#4a90d9" font-size="10.5">relationship N:1</text>
+  <line x1="254" y1="173" x2="286" y2="173" stroke="#8a8a8a" stroke-width="1.1"/>
+  <text x="294" y="178" fill="#8a8a8a" font-size="10.5">foreign key column on the N side</text>
+  <rect x="24" y="194" width="226" height="26" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.2" rx="3" opacity="0.14"/>
+  <text x="34" y="212" fill="#4a90d9" font-size="10.5">relationship 1:1</text>
+  <line x1="254" y1="207" x2="286" y2="207" stroke="#8a8a8a" stroke-width="1.1"/>
+  <text x="294" y="212" fill="#8a8a8a" font-size="10.5">foreign key on either side; prefer the total one</text>
+  <rect x="24" y="228" width="226" height="26" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.2" rx="3" opacity="0.14"/>
+  <text x="34" y="246" fill="#8a8a8a" font-size="10.5">total participation</text>
+  <line x1="254" y1="241" x2="286" y2="241" stroke="#8a8a8a" stroke-width="1.1"/>
+  <text x="294" y="246" fill="#8a8a8a" font-size="10.5">that foreign key becomes NOT NULL</text>
+  <rect x="24" y="262" width="226" height="26" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.2" rx="3" opacity="0.14"/>
+  <text x="34" y="280" fill="#8a8a8a" font-size="10.5">multivalued attribute</text>
+  <line x1="254" y1="275" x2="286" y2="275" stroke="#8a8a8a" stroke-width="1.1"/>
+  <text x="294" y="280" fill="#8a8a8a" font-size="10.5">its own table, key = owner key + value</text>
+  <rect x="24" y="296" width="226" height="26" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.2" rx="3" opacity="0.14"/>
+  <text x="34" y="314" fill="#8a8a8a" font-size="10.5">composite attribute</text>
+  <line x1="254" y1="309" x2="286" y2="309" stroke="#8a8a8a" stroke-width="1.1"/>
+  <text x="294" y="314" fill="#8a8a8a" font-size="10.5">flattened into its component columns</text>
+  <text x="24" y="356" fill="#8a8a8a" font-size="11">Applied to the diagram in 2.1, the eight rules produce six tables and no judgement calls:</text>
+  <text x="24" y="378" fill="#4a90d9" font-size="11">Passenger  Aircraft  Airport  Flight(tail_no, origin)  Departure(flight_no, date)</text>
+  <text x="24" y="400" fill="#e0645c" font-size="11">Books(pid, flight_no, date, seat)  -  the only table with two candidate keys</text>
+</svg>

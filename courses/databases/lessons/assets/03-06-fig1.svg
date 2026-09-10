@@ -1,0 +1,75 @@
+<svg viewBox="0 0 790 430" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="12">
+  <text x="20" y="22" fill="#8a8a8a" font-size="11.5" font-style="italic">The same 2,000,000 fares under two histogram schemes. Neither dominates - and both beat assuming uniformity.</text>
+  <path d="M 65.1,96.2 L 75.4,96.0 L 85.6,96.1 L 95.9,183.6 L 106.1,227.5 L 116.4,227.6 L 126.6,227.6 L 136.9,227.5 L 147.1,227.5 L 157.4,227.6 L 167.6,231.1 L 177.9,248.3 L 188.1,248.2 L 198.4,248.2 L 208.6,248.3 L 218.9,248.2 L 229.1,248.2 L 239.4,248.2 L 249.6,248.2 L 259.9,248.2 L 270.1,248.2 L 280.4,248.2 L 290.6,248.2 L 300.9,248.3 L 311.1,248.3 L 321.4,248.2 L 331.6,248.3 L 341.9,248.3 L 352.1,248.3 L 362.4,248.2 L 372.6,248.2 L 382.9,248.2 L 393.1,248.2 L 403.4,248.3 L 413.6,248.3 L 423.9,248.2 L 434.1,248.2 L 444.4,248.2 L 454.6,248.2 L 464.9,248.2" fill="none" stroke="#4a90d9" stroke-width="1.8"/>
+  <line x1="60" y1="250" x2="470" y2="250" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="60" y1="96" x2="60" y2="250" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="60" y1="250" x2="60" y2="254" stroke="#8a8a8a" stroke-width="1.0"/>
+  <text x="60" y="266" fill="#8a8a8a" font-size="10" text-anchor="middle">40</text>
+  <line x1="171.157" y1="250" x2="171.157" y2="254" stroke="#8a8a8a" stroke-width="1.0"/>
+  <text x="171.157" y="266" fill="#8a8a8a" font-size="10" text-anchor="middle">300</text>
+  <line x1="299.416" y1="250" x2="299.416" y2="254" stroke="#8a8a8a" stroke-width="1.0"/>
+  <text x="299.416" y="266" fill="#8a8a8a" font-size="10" text-anchor="middle">600</text>
+  <line x1="470" y1="250" x2="470" y2="254" stroke="#8a8a8a" stroke-width="1.0"/>
+  <text x="470" y="266" fill="#8a8a8a" font-size="10" text-anchor="middle">999</text>
+  <text x="62" y="284" fill="#8a8a8a" font-size="10.5">fare</text>
+  <text x="54" y="90" fill="#8a8a8a" font-size="10.5" text-anchor="end">rows</text>
+  <text x="66" y="84" fill="#4a90d9" font-size="10">the true distribution: a tall head under 120, a long thin tail</text>
+  <text x="60" y="300" fill="#8a8a8a" font-size="10.5">equi-width: 10 buckets of equal fare span</text>
+  <line x1="60" y1="308" x2="60" y2="322" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="101" y1="308" x2="101" y2="322" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="142" y1="308" x2="142" y2="322" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="183" y1="308" x2="183" y2="322" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="224" y1="308" x2="224" y2="322" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="265" y1="308" x2="265" y2="322" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="306" y1="308" x2="306" y2="322" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="347" y1="308" x2="347" y2="322" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="388" y1="308" x2="388" y2="322" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="429" y1="308" x2="429" y2="322" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="470" y1="308" x2="470" y2="322" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="60" y1="315" x2="470" y2="315" stroke="#8a8a8a" stroke-width="0.8"/>
+  <text x="60" y="340" fill="#e0645c" font-size="10">one bucket holds 1,441,452 rows; six hold about 19,000 each</text>
+  <text x="60" y="372" fill="#8a8a8a" font-size="10.5">equi-depth: 10 buckets of equal row count (200,000 each)</text>
+  <line x1="60" y1="380" x2="60" y2="394" stroke="#4a90d9" stroke-width="1.2"/>
+  <line x1="64.7028" y1="380" x2="64.7028" y2="394" stroke="#4a90d9" stroke-width="1.2"/>
+  <line x1="69.4056" y1="380" x2="69.4056" y2="394" stroke="#4a90d9" stroke-width="1.2"/>
+  <line x1="74.536" y1="380" x2="74.536" y2="394" stroke="#4a90d9" stroke-width="1.2"/>
+  <line x1="79.2388" y1="380" x2="79.2388" y2="394" stroke="#4a90d9" stroke-width="1.2"/>
+  <line x1="84.3691" y1="380" x2="84.3691" y2="394" stroke="#4a90d9" stroke-width="1.2"/>
+  <line x1="89.0719" y1="380" x2="89.0719" y2="394" stroke="#4a90d9" stroke-width="1.2"/>
+  <line x1="93.7748" y1="380" x2="93.7748" y2="394" stroke="#4a90d9" stroke-width="1.2"/>
+  <line x1="127.55" y1="380" x2="127.55" y2="394" stroke="#4a90d9" stroke-width="1.2"/>
+  <line x1="160.897" y1="380" x2="160.897" y2="394" stroke="#4a90d9" stroke-width="1.2"/>
+  <line x1="470" y1="380" x2="470" y2="394" stroke="#4a90d9" stroke-width="1.2"/>
+  <line x1="60" y1="387" x2="470" y2="387" stroke="#8a8a8a" stroke-width="0.8"/>
+  <text x="60" y="412" fill="#e0645c" font-size="10">boundaries crowd where the data is; the last bucket spans 276 to 999</text>
+  <text x="500" y="88" fill="#4a90d9" font-size="11" font-weight="bold">estimate error by query range</text>
+  <text x="500" y="110" fill="#8a8a8a" font-size="10.5">range</text>
+  <text x="570" y="110" fill="#8a8a8a" font-size="10.5">uniform</text>
+  <text x="640" y="110" fill="#8a8a8a" font-size="10.5">eq-width</text>
+  <text x="710" y="110" fill="#8a8a8a" font-size="10.5">eq-depth</text>
+  <line x1="500" y1="115" x2="762" y2="115" stroke="#8a8a8a" stroke-width="0.8"/>
+  <text x="500" y="136" fill="#8a8a8a" font-size="10.5">40-120</text>
+  <text x="570" y="136" fill="#e0645c" font-size="10.5">88%</text>
+  <text x="640" y="136" fill="#4a90d9" font-size="10.5">14%</text>
+  <text x="710" y="136" fill="#4a90d9" font-size="10.5">0%</text>
+  <text x="500" y="162" fill="#8a8a8a" font-size="10.5">150-250</text>
+  <text x="570" y="162" fill="#4a90d9" font-size="10.5">19%</text>
+  <text x="640" y="162" fill="#4a90d9" font-size="10.5">6%</text>
+  <text x="710" y="162" fill="#4a90d9" font-size="10.5">0%</text>
+  <text x="500" y="188" fill="#8a8a8a" font-size="10.5">400-500</text>
+  <text x="570" y="188" fill="#e0645c" font-size="10.5">919%</text>
+  <text x="640" y="188" fill="#4a90d9" font-size="10.5">1%</text>
+  <text x="710" y="188" fill="#e0645c" font-size="10.5">36%</text>
+  <text x="500" y="214" fill="#8a8a8a" font-size="10.5">800-999</text>
+  <text x="570" y="214" fill="#e0645c" font-size="10.5">940%</text>
+  <text x="640" y="214" fill="#4a90d9" font-size="10.5">0%</text>
+  <text x="710" y="214" fill="#e0645c" font-size="10.5">38%</text>
+  <text x="500" y="250" fill="#8a8a8a" font-size="10">Equi-depth is exact where the rows are,</text>
+  <text x="500" y="266" fill="#8a8a8a" font-size="10">and poor in the sparse tail its last</text>
+  <text x="500" y="282" fill="#8a8a8a" font-size="10">bucket has to swallow whole.</text>
+  <text x="500" y="306" fill="#8a8a8a" font-size="10">Equi-width is the reverse.</text>
+  <text x="500" y="330" fill="#e0645c" font-size="10">Assuming uniformity is wrong by</text>
+  <text x="500" y="346" fill="#e0645c" font-size="10">an order of magnitude in both</text>
+  <text x="500" y="362" fill="#e0645c" font-size="10">directions - and that is the</text>
+  <text x="500" y="378" fill="#e0645c" font-size="10">default when no histogram exists.</text>
+</svg>

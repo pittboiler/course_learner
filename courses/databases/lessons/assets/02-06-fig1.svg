@@ -1,0 +1,57 @@
+<svg viewBox="0 0 790 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="12">
+  <text x="20" y="22" fill="#8a8a8a" font-size="11.5" font-style="italic">Minimal cover in three passes, then synthesis. Each pass only removes; the closure of the set never changes.</text>
+  <text x="24" y="62" fill="#8a8a8a" font-size="11" font-weight="bold">start</text>
+  <rect x="24" y="78" width="152" height="24" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.1" rx="3" opacity="0.13"/>
+  <text x="34" y="95" fill="#8a8a8a" font-size="11">A -&gt; BC</text>
+  <rect x="24" y="108" width="152" height="24" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.1" rx="3" opacity="0.13"/>
+  <text x="34" y="125" fill="#8a8a8a" font-size="11">B -&gt; C</text>
+  <rect x="24" y="138" width="152" height="24" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.1" rx="3" opacity="0.13"/>
+  <text x="34" y="155" fill="#8a8a8a" font-size="11">A -&gt; B</text>
+  <rect x="24" y="168" width="152" height="24" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.1" rx="3" opacity="0.13"/>
+  <text x="34" y="185" fill="#8a8a8a" font-size="11">AB -&gt; C</text>
+  <rect x="24" y="198" width="152" height="24" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.1" rx="3" opacity="0.13"/>
+  <text x="34" y="215" fill="#8a8a8a" font-size="11">AC -&gt; D</text>
+  <text x="196" y="150" fill="#8a8a8a" font-size="15">&gt;</text>
+  <text x="214" y="62" fill="#8a8a8a" font-size="11" font-weight="bold">1. split right sides</text>
+  <rect x="214" y="78" width="152" height="24" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.1" rx="3" opacity="0.13"/>
+  <text x="224" y="95" fill="#8a8a8a" font-size="11">A -&gt; B</text>
+  <rect x="214" y="108" width="152" height="24" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.1" rx="3" opacity="0.13"/>
+  <text x="224" y="125" fill="#8a8a8a" font-size="11">A -&gt; C</text>
+  <rect x="214" y="138" width="152" height="24" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.1" rx="3" opacity="0.13"/>
+  <text x="224" y="155" fill="#8a8a8a" font-size="11">B -&gt; C</text>
+  <rect x="214" y="168" width="152" height="24" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.1" rx="3" opacity="0.13"/>
+  <text x="224" y="185" fill="#8a8a8a" font-size="11">A -&gt; B</text>
+  <rect x="214" y="198" width="152" height="24" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.1" rx="3" opacity="0.13"/>
+  <text x="224" y="215" fill="#8a8a8a" font-size="11">AB -&gt; C</text>
+  <rect x="214" y="228" width="152" height="24" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.1" rx="3" opacity="0.13"/>
+  <text x="224" y="245" fill="#8a8a8a" font-size="11">AC -&gt; D</text>
+  <text x="386" y="150" fill="#8a8a8a" font-size="15">&gt;</text>
+  <text x="414" y="62" fill="#4a90d9" font-size="11" font-weight="bold">2. strip left sides</text>
+  <rect x="414" y="78" width="152" height="24" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.1" rx="3" opacity="0.13"/>
+  <text x="424" y="95" fill="#4a90d9" font-size="11">A -&gt; B</text>
+  <rect x="414" y="108" width="152" height="24" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.1" rx="3" opacity="0.13"/>
+  <text x="424" y="125" fill="#4a90d9" font-size="11">A -&gt; C</text>
+  <rect x="414" y="138" width="152" height="24" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.1" rx="3" opacity="0.13"/>
+  <text x="424" y="155" fill="#4a90d9" font-size="11">B -&gt; C</text>
+  <rect x="414" y="168" width="152" height="24" fill="#e0645c" stroke="#e0645c" stroke-width="1.1" rx="3" opacity="0.22"/>
+  <text x="424" y="185" fill="#e0645c" font-size="11">A -&gt; B</text>
+  <rect x="414" y="198" width="152" height="24" fill="#e0645c" stroke="#e0645c" stroke-width="1.1" rx="3" opacity="0.22"/>
+  <text x="424" y="215" fill="#e0645c" font-size="11">B -&gt; C</text>
+  <rect x="414" y="228" width="152" height="24" fill="#e0645c" stroke="#e0645c" stroke-width="1.1" rx="3" opacity="0.22"/>
+  <text x="424" y="245" fill="#e0645c" font-size="11">A -&gt; D</text>
+  <text x="586" y="150" fill="#8a8a8a" font-size="15">&gt;</text>
+  <text x="614" y="62" fill="#e0645c" font-size="11" font-weight="bold">3. drop redundant</text>
+  <rect x="614" y="78" width="150" height="24" fill="#e0645c" stroke="#e0645c" stroke-width="1.1" rx="3" opacity="0.13"/>
+  <text x="624" y="95" fill="#e0645c" font-size="11">A -&gt; B</text>
+  <rect x="614" y="108" width="150" height="24" fill="#e0645c" stroke="#e0645c" stroke-width="1.1" rx="3" opacity="0.13"/>
+  <text x="624" y="125" fill="#e0645c" font-size="11">B -&gt; C</text>
+  <rect x="614" y="138" width="150" height="24" fill="#e0645c" stroke="#e0645c" stroke-width="1.1" rx="3" opacity="0.13"/>
+  <text x="624" y="155" fill="#e0645c" font-size="11">A -&gt; D</text>
+  <text x="24" y="274" fill="#8a8a8a" font-size="10.5">Pass 2 rewrote AB -&gt; C as B -&gt; C, because A is extraneous: B alone already determines C.</text>
+  <text x="24" y="292" fill="#8a8a8a" font-size="10.5">It rewrote AC -&gt; D as A -&gt; D for the same reason. Pass 3 then dropped A -&gt; C, which now follows</text>
+  <text x="24" y="310" fill="#8a8a8a" font-size="10.5">from A -&gt; B and B -&gt; C, and the duplicate A -&gt; B.</text>
+  <rect x="24" y="328" width="742" height="62" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.2" rx="5" opacity="0.1"/>
+  <text x="36" y="350" fill="#4a90d9" font-size="11">Synthesis: one table per left side, so A -&gt; B and A -&gt; D merge into ABD, and B -&gt; C gives BC.</text>
+  <text x="36" y="370" fill="#4a90d9" font-size="11">ABD contains the candidate key A, so nothing extra is needed. Two tables, in 3NF, lossless,</text>
+  <text x="36" y="386" fill="#4a90d9" font-size="11">and every dependency still sits inside one of them.</text>
+</svg>
