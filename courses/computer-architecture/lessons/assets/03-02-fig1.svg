@@ -1,0 +1,43 @@
+<svg viewBox="0 0 780 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="40.0" y="24.0" fill="#8a8a8a" font-style="italic">Control is a truth table: opcode in, wires out. Nothing more.</text>
+  <text x="108.0" y="104.0" fill="#8a8a8a" font-size="11" text-anchor="middle">opcode</text>
+  <text x="199.0" y="104.0" fill="#8a8a8a" font-size="11" text-anchor="middle">RegWrite</text>
+  <text x="279.0" y="104.0" fill="#8a8a8a" font-size="11" text-anchor="middle">ALUSrc</text>
+  <text x="358.0" y="104.0" fill="#8a8a8a" font-size="11" text-anchor="middle">MemRead</text>
+  <text x="445.0" y="104.0" fill="#8a8a8a" font-size="11" text-anchor="middle">MemWrite</text>
+  <text x="536.0" y="104.0" fill="#8a8a8a" font-size="11" text-anchor="middle">MemToReg</text>
+  <text x="618.0" y="104.0" fill="#8a8a8a" font-size="11" text-anchor="middle">Branch</text>
+  <line x1="60.0" y1="112.0" x2="654.0" y2="112.0" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="108.0" y="140.0" fill="#4a90d9" font-size="12" text-anchor="middle">R-type</text>
+  <text x="199.0" y="140.0" fill="#e0645c" font-size="12" text-anchor="middle" font-weight="bold">1</text>
+  <text x="279.0" y="140.0" fill="#8a8a8a" font-size="12" text-anchor="middle">0</text>
+  <text x="358.0" y="140.0" fill="#8a8a8a" font-size="12" text-anchor="middle">0</text>
+  <text x="445.0" y="140.0" fill="#8a8a8a" font-size="12" text-anchor="middle">0</text>
+  <text x="536.0" y="140.0" fill="#8a8a8a" font-size="12" text-anchor="middle">0</text>
+  <text x="618.0" y="140.0" fill="#8a8a8a" font-size="12" text-anchor="middle">0</text>
+  <text x="108.0" y="178.0" fill="#4a90d9" font-size="12" text-anchor="middle">lw</text>
+  <text x="199.0" y="178.0" fill="#e0645c" font-size="12" text-anchor="middle" font-weight="bold">1</text>
+  <text x="279.0" y="178.0" fill="#e0645c" font-size="12" text-anchor="middle" font-weight="bold">1</text>
+  <text x="358.0" y="178.0" fill="#e0645c" font-size="12" text-anchor="middle" font-weight="bold">1</text>
+  <text x="445.0" y="178.0" fill="#8a8a8a" font-size="12" text-anchor="middle">0</text>
+  <text x="536.0" y="178.0" fill="#e0645c" font-size="12" text-anchor="middle" font-weight="bold">1</text>
+  <text x="618.0" y="178.0" fill="#8a8a8a" font-size="12" text-anchor="middle">0</text>
+  <text x="108.0" y="216.0" fill="#4a90d9" font-size="12" text-anchor="middle">sw</text>
+  <text x="199.0" y="216.0" fill="#8a8a8a" font-size="12" text-anchor="middle">0</text>
+  <text x="279.0" y="216.0" fill="#e0645c" font-size="12" text-anchor="middle" font-weight="bold">1</text>
+  <text x="358.0" y="216.0" fill="#8a8a8a" font-size="12" text-anchor="middle">0</text>
+  <text x="445.0" y="216.0" fill="#e0645c" font-size="12" text-anchor="middle" font-weight="bold">1</text>
+  <text x="536.0" y="216.0" fill="#8a8a8a" font-size="12" text-anchor="middle">x</text>
+  <text x="618.0" y="216.0" fill="#8a8a8a" font-size="12" text-anchor="middle">0</text>
+  <text x="108.0" y="254.0" fill="#4a90d9" font-size="12" text-anchor="middle">beq</text>
+  <text x="199.0" y="254.0" fill="#8a8a8a" font-size="12" text-anchor="middle">0</text>
+  <text x="279.0" y="254.0" fill="#8a8a8a" font-size="12" text-anchor="middle">0</text>
+  <text x="358.0" y="254.0" fill="#8a8a8a" font-size="12" text-anchor="middle">0</text>
+  <text x="445.0" y="254.0" fill="#8a8a8a" font-size="12" text-anchor="middle">0</text>
+  <text x="536.0" y="254.0" fill="#8a8a8a" font-size="12" text-anchor="middle">x</text>
+  <text x="618.0" y="254.0" fill="#e0645c" font-size="12" text-anchor="middle" font-weight="bold">1</text>
+  <line x1="60.0" y1="300.0" x2="654.0" y2="300.0" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="60.0" y="326.0" fill="#8a8a8a" font-size="11">x = don&#x27;t care: no register is written, so it makes no difference what the mux selects.</text>
+  <text x="60.0" y="346.0" fill="#8a8a8a" font-size="11">Every 1 is a wire pulled high for the whole cycle. The control unit is pure combinational logic.</text>
+  <text x="60.0" y="84.0" fill="#8a8a8a" font-size="11.5">one row per instruction class:</text>
+</svg>

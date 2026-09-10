@@ -1,0 +1,40 @@
+<svg viewBox="0 0 780 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="40.0" y="24.0" fill="#8a8a8a" font-style="italic">An address is not a number to the cache - it is three fields with three different jobs.</text>
+  <rect x="70.0" y="92.0" width="337.5" height="32.0" fill="#e0645c" stroke="#e0645c" stroke-width="1.6" opacity="0.14" rx="4"/>
+  <text x="238.8" y="113.0" fill="#e0645c" font-size="11.5" text-anchor="middle">tag  (18 bits)</text>
+  <rect x="407.5" y="92.0" width="168.8" height="32.0" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.6" opacity="0.14" rx="4"/>
+  <text x="491.9" y="113.0" fill="#4a90d9" font-size="11.5" text-anchor="middle">index (9)</text>
+  <rect x="576.2" y="92.0" width="93.8" height="32.0" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.6" opacity="0.14" rx="4"/>
+  <text x="623.1" y="113.0" fill="#8a8a8a" font-size="11.5" text-anchor="middle">off (5)</text>
+  <text x="70.0" y="84.0" fill="#8a8a8a" font-size="10">31</text>
+  <text x="670.0" y="84.0" fill="#8a8a8a" font-size="10" text-anchor="end">0</text>
+  <text x="238.8" y="146.0" fill="#4a90d9" font-size="11" text-anchor="middle">which SET to look in</text>
+  <text x="238.8" y="146.0" fill="#e0645c" font-size="11" text-anchor="middle">which BLOCK is here</text>
+  <text x="623.1" y="146.0" fill="#8a8a8a" font-size="10.5" text-anchor="middle">byte in block</text>
+  <text x="70.0" y="178.0" fill="#8a8a8a" font-size="11.5">16 KiB, direct-mapped, 32-byte blocks:  512 sets, so 9 index bits; 5 offset bits; 18 left for tag.</text>
+  <line x1="60.0" y1="204.0" x2="720.0" y2="204.0" stroke="#8a8a8a" stroke-width="1"/>
+  <rect x="90.0" y="224.0" width="150.0" height="28.0" fill="none" stroke="#e0645c" stroke-width="1.5" rx="4"/>
+  <text x="165.0" y="243.0" fill="#e0645c" font-size="11.5" text-anchor="middle">registers</text>
+  <text x="268.0" y="243.0" fill="#e0645c" font-size="11">1 cycle</text>
+  <text x="380.0" y="243.0" fill="#8a8a8a" font-size="11">~1 KiB</text>
+  <rect x="90.0" y="262.0" width="150.0" height="28.0" fill="none" stroke="#4a90d9" stroke-width="1.5" rx="4"/>
+  <text x="165.0" y="281.0" fill="#4a90d9" font-size="11.5" text-anchor="middle">L1 cache</text>
+  <text x="268.0" y="281.0" fill="#4a90d9" font-size="11">~4 cycles</text>
+  <text x="380.0" y="281.0" fill="#8a8a8a" font-size="11">32 KiB</text>
+  <rect x="90.0" y="300.0" width="150.0" height="28.0" fill="none" stroke="#4a90d9" stroke-width="1.5" rx="4"/>
+  <text x="165.0" y="319.0" fill="#4a90d9" font-size="11.5" text-anchor="middle">L2 cache</text>
+  <text x="268.0" y="319.0" fill="#4a90d9" font-size="11">~12 cycles</text>
+  <text x="380.0" y="319.0" fill="#8a8a8a" font-size="11">256 KiB</text>
+  <rect x="90.0" y="338.0" width="150.0" height="28.0" fill="none" stroke="#8a8a8a" stroke-width="1.5" rx="4"/>
+  <text x="165.0" y="357.0" fill="#8a8a8a" font-size="11.5" text-anchor="middle">main memory</text>
+  <text x="268.0" y="357.0" fill="#8a8a8a" font-size="11">~200 cycles</text>
+  <text x="380.0" y="357.0" fill="#8a8a8a" font-size="11">16 GiB</text>
+  <text x="165.0" y="222.0" fill="#8a8a8a" font-size="10.5" text-anchor="middle">level</text>
+  <text x="268.0" y="222.0" fill="#8a8a8a" font-size="10.5">latency</text>
+  <text x="380.0" y="222.0" fill="#8a8a8a" font-size="10.5">capacity</text>
+  <text x="470.0" y="262.0" fill="#8a8a8a" font-size="11">Each level down is roughly</text>
+  <text x="470.0" y="282.0" fill="#8a8a8a" font-size="11">10x bigger and 10x slower.</text>
+  <text x="470.0" y="312.0" fill="#e0645c" font-size="11">Caches work only because</text>
+  <text x="470.0" y="332.0" fill="#e0645c" font-size="11">programs reuse data (temporal)</text>
+  <text x="470.0" y="352.0" fill="#e0645c" font-size="11">and neighbours (spatial).</text>
+</svg>

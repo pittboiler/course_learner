@@ -1,0 +1,43 @@
+<svg viewBox="0 0 720 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="40.0" y="24.0" fill="#8a8a8a" font-style="italic">The ISA is the contract: everything above it is portable, everything below it is free to change.</text>
+  <rect x="60.0" y="84.0" width="300.0" height="30.0" fill="none" stroke="#4a90d9" stroke-width="1.4" rx="5"/>
+  <text x="210.0" y="104.0" fill="#4a90d9" font-size="12" text-anchor="middle">high-level program</text>
+  <rect x="60.0" y="120.0" width="300.0" height="30.0" fill="none" stroke="#8a8a8a" stroke-width="1.4" rx="5"/>
+  <text x="210.0" y="140.0" fill="#8a8a8a" font-size="12" text-anchor="middle">compiler</text>
+  <rect x="60.0" y="156.0" width="300.0" height="34.0" fill="#e0645c" stroke="#e0645c" stroke-width="2.6" opacity="0.16" rx="5"/>
+  <text x="210.0" y="178.0" fill="#e0645c" font-size="12.5" text-anchor="middle">ISA  (the contract)</text>
+  <rect x="60.0" y="204.0" width="300.0" height="30.0" fill="none" stroke="#8a8a8a" stroke-width="1.4" rx="5"/>
+  <text x="210.0" y="224.0" fill="#8a8a8a" font-size="12" text-anchor="middle">microarchitecture</text>
+  <rect x="60.0" y="240.0" width="300.0" height="30.0" fill="none" stroke="#8a8a8a" stroke-width="1.4" rx="5"/>
+  <text x="210.0" y="260.0" fill="#8a8a8a" font-size="12" text-anchor="middle">logic gates and registers</text>
+  <rect x="60.0" y="276.0" width="300.0" height="30.0" fill="none" stroke="#8a8a8a" stroke-width="1.4" rx="5"/>
+  <text x="210.0" y="296.0" fill="#8a8a8a" font-size="12" text-anchor="middle">transistors</text>
+  <text x="210.0" y="64.0" fill="#8a8a8a" font-size="12" text-anchor="middle">one machine, many layers</text>
+  <text x="210.0" y="322.0" fill="#8a8a8a" font-size="11" text-anchor="middle">digital-logic built these two</text>
+  <line x1="46.0" y1="204.0" x2="46.0" y2="270.0" stroke="#8a8a8a" stroke-width="1.4"/>
+  <text x="210.0" y="340.0" fill="#8a8a8a" font-size="11" text-anchor="middle">electronics owns this one</text>
+  <circle cx="530.0" cy="104.0" r="7" fill="#4a90d9"/>
+  <text x="530.0" y="86.0" fill="#8a8a8a" font-size="10.5" text-anchor="middle">FETCH</text>
+  <circle cx="611.8" cy="163.4" r="7" fill="#4a90d9"/>
+  <text x="632.7" y="160.6" fill="#8a8a8a" font-size="10.5" text-anchor="middle">DECODE</text>
+  <circle cx="580.5" cy="259.6" r="7" fill="#4a90d9"/>
+  <text x="593.5" y="281.4" fill="#8a8a8a" font-size="10.5" text-anchor="middle">EXECUTE</text>
+  <circle cx="479.5" cy="259.6" r="7" fill="#4a90d9"/>
+  <text x="466.5" y="281.4" fill="#8a8a8a" font-size="10.5" text-anchor="middle">MEMORY</text>
+  <circle cx="448.2" cy="163.4" r="7" fill="#4a90d9"/>
+  <text x="427.3" y="160.6" fill="#8a8a8a" font-size="10.5" text-anchor="middle">WRITE BACK</text>
+  <line x1="547.9" y1="105.9" x2="604.5" y2="147.0" stroke="#4a90d9" stroke-width="1.4"/>
+  <polygon points="604.5,147.0 599.7,138.6 595.0,145.1" fill="#4a90d9"/>
+  <line x1="615.5" y1="181.0" x2="593.9" y2="247.5" stroke="#4a90d9" stroke-width="1.4"/>
+  <polygon points="593.9,247.5 600.4,240.4 592.8,237.9" fill="#4a90d9"/>
+  <line x1="565.0" y1="268.6" x2="495.0" y2="268.6" stroke="#4a90d9" stroke-width="1.4"/>
+  <polygon points="495.0,268.6 503.8,272.6 503.8,264.6" fill="#4a90d9"/>
+  <line x1="466.1" y1="247.5" x2="444.5" y2="181.0" stroke="#4a90d9" stroke-width="1.4"/>
+  <polygon points="444.5,181.0 443.4,190.6 451.0,188.1" fill="#4a90d9"/>
+  <line x1="455.5" y1="147.0" x2="512.1" y2="105.9" stroke="#4a90d9" stroke-width="1.4"/>
+  <polygon points="512.1,105.9 502.6,107.8 507.4,114.3" fill="#4a90d9"/>
+  <text x="530.0" y="194.0" fill="#e0645c" font-size="13" text-anchor="middle">PC</text>
+  <text x="530.0" y="212.0" fill="#8a8a8a" font-size="10" text-anchor="middle">advances</text>
+  <text x="530.0" y="326.0" fill="#8a8a8a" font-size="11" text-anchor="middle">the fetch-execute cycle,</text>
+  <text x="530.0" y="342.0" fill="#8a8a8a" font-size="11" text-anchor="middle">repeated until power off</text>
+</svg>

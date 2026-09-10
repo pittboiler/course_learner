@@ -1,0 +1,67 @@
+<svg viewBox="0 0 800 410" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="40.0" y="24.0" fill="#8a8a8a" font-style="italic">Forwarding sends a result backwards in space, not in time. A load cannot beat the clock.</text>
+  <text x="161.0" y="102.0" fill="#8a8a8a" font-size="11" text-anchor="middle">1</text>
+  <text x="231.0" y="102.0" fill="#8a8a8a" font-size="11" text-anchor="middle">2</text>
+  <text x="301.0" y="102.0" fill="#8a8a8a" font-size="11" text-anchor="middle">3</text>
+  <text x="371.0" y="102.0" fill="#8a8a8a" font-size="11" text-anchor="middle">4</text>
+  <text x="441.0" y="102.0" fill="#8a8a8a" font-size="11" text-anchor="middle">5</text>
+  <text x="511.0" y="102.0" fill="#8a8a8a" font-size="11" text-anchor="middle">6</text>
+  <text x="581.0" y="102.0" fill="#8a8a8a" font-size="11" text-anchor="middle">7</text>
+  <text x="651.0" y="102.0" fill="#8a8a8a" font-size="11" text-anchor="middle">8</text>
+  <text x="116.0" y="140.0" fill="#8a8a8a" font-size="11" text-anchor="end">add x3,x1,x2</text>
+  <rect x="129.0" y="120.0" width="64.0" height="30.0" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.4" opacity="0.16" rx="4"/>
+  <text x="161.0" y="140.0" fill="#8a8a8a" font-size="10.5" text-anchor="middle">IF</text>
+  <rect x="199.0" y="120.0" width="64.0" height="30.0" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.4" opacity="0.16" rx="4"/>
+  <text x="231.0" y="140.0" fill="#8a8a8a" font-size="10.5" text-anchor="middle">ID</text>
+  <rect x="269.0" y="120.0" width="64.0" height="30.0" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.4" opacity="0.16" rx="4"/>
+  <text x="301.0" y="140.0" fill="#4a90d9" font-size="10.5" text-anchor="middle">EX</text>
+  <rect x="339.0" y="120.0" width="64.0" height="30.0" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.4" opacity="0.16" rx="4"/>
+  <text x="371.0" y="140.0" fill="#4a90d9" font-size="10.5" text-anchor="middle">MEM</text>
+  <rect x="409.0" y="120.0" width="64.0" height="30.0" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.4" opacity="0.16" rx="4"/>
+  <text x="441.0" y="140.0" fill="#8a8a8a" font-size="10.5" text-anchor="middle">WB</text>
+  <text x="116.0" y="180.0" fill="#8a8a8a" font-size="11" text-anchor="end">sub x5,x3,x6</text>
+  <rect x="199.0" y="160.0" width="64.0" height="30.0" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.4" opacity="0.16" rx="4"/>
+  <text x="231.0" y="180.0" fill="#8a8a8a" font-size="10.5" text-anchor="middle">IF</text>
+  <rect x="269.0" y="160.0" width="64.0" height="30.0" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.4" opacity="0.16" rx="4"/>
+  <text x="301.0" y="180.0" fill="#8a8a8a" font-size="10.5" text-anchor="middle">ID</text>
+  <rect x="339.0" y="160.0" width="64.0" height="30.0" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.4" opacity="0.16" rx="4"/>
+  <text x="371.0" y="180.0" fill="#4a90d9" font-size="10.5" text-anchor="middle">EX</text>
+  <rect x="409.0" y="160.0" width="64.0" height="30.0" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.4" opacity="0.16" rx="4"/>
+  <text x="441.0" y="180.0" fill="#4a90d9" font-size="10.5" text-anchor="middle">MEM</text>
+  <rect x="479.0" y="160.0" width="64.0" height="30.0" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.4" opacity="0.16" rx="4"/>
+  <text x="511.0" y="180.0" fill="#8a8a8a" font-size="10.5" text-anchor="middle">WB</text>
+  <line x1="301.0" y1="150.0" x2="371.0" y2="162.0" stroke="#e0645c" stroke-width="1.8"/>
+  <polygon points="371.0,162.0 361.0,155.2 359.3,165.1" fill="#e0645c"/>
+  <text x="379.0" y="158.0" fill="#e0645c" font-size="11">forward EX/MEM -&gt; EX: no stall</text>
+  <text x="116.0" y="220.0" fill="#8a8a8a" font-size="11" text-anchor="end">lw  x1,0(x2)</text>
+  <rect x="129.0" y="200.0" width="64.0" height="30.0" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.4" opacity="0.16" rx="4"/>
+  <text x="161.0" y="220.0" fill="#8a8a8a" font-size="10.5" text-anchor="middle">IF</text>
+  <rect x="199.0" y="200.0" width="64.0" height="30.0" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.4" opacity="0.16" rx="4"/>
+  <text x="231.0" y="220.0" fill="#8a8a8a" font-size="10.5" text-anchor="middle">ID</text>
+  <rect x="269.0" y="200.0" width="64.0" height="30.0" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.4" opacity="0.16" rx="4"/>
+  <text x="301.0" y="220.0" fill="#4a90d9" font-size="10.5" text-anchor="middle">EX</text>
+  <rect x="339.0" y="200.0" width="64.0" height="30.0" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.4" opacity="0.16" rx="4"/>
+  <text x="371.0" y="220.0" fill="#4a90d9" font-size="10.5" text-anchor="middle">MEM</text>
+  <rect x="409.0" y="200.0" width="64.0" height="30.0" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.4" opacity="0.16" rx="4"/>
+  <text x="441.0" y="220.0" fill="#8a8a8a" font-size="10.5" text-anchor="middle">WB</text>
+  <text x="116.0" y="260.0" fill="#8a8a8a" font-size="11" text-anchor="end">add x3,x1,x4</text>
+  <rect x="199.0" y="240.0" width="64.0" height="30.0" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.4" opacity="0.16" rx="4"/>
+  <text x="231.0" y="260.0" fill="#8a8a8a" font-size="10.5" text-anchor="middle">IF</text>
+  <rect x="269.0" y="240.0" width="64.0" height="30.0" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.4" opacity="0.16" rx="4"/>
+  <text x="301.0" y="260.0" fill="#8a8a8a" font-size="10.5" text-anchor="middle">ID</text>
+  <rect x="339.0" y="240.0" width="64.0" height="30.0" fill="#e0645c" stroke="#e0645c" stroke-width="1.4" opacity="0.3" rx="4"/>
+  <text x="371.0" y="260.0" fill="#e0645c" font-size="10" text-anchor="middle">stall</text>
+  <rect x="409.0" y="240.0" width="64.0" height="30.0" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.4" opacity="0.16" rx="4"/>
+  <text x="441.0" y="260.0" fill="#4a90d9" font-size="10.5" text-anchor="middle">EX</text>
+  <rect x="479.0" y="240.0" width="64.0" height="30.0" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.4" opacity="0.16" rx="4"/>
+  <text x="511.0" y="260.0" fill="#4a90d9" font-size="10.5" text-anchor="middle">MEM</text>
+  <rect x="549.0" y="240.0" width="64.0" height="30.0" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.4" opacity="0.16" rx="4"/>
+  <text x="581.0" y="260.0" fill="#8a8a8a" font-size="10.5" text-anchor="middle">WB</text>
+  <line x1="371.0" y1="230.0" x2="441.0" y2="242.0" stroke="#4a90d9" stroke-width="1.8"/>
+  <polygon points="441.0,242.0 431.0,235.2 429.3,245.1" fill="#4a90d9"/>
+  <text x="449.0" y="238.0" fill="#4a90d9" font-size="11">data only ready after MEM</text>
+  <text x="116.0" y="314.0" fill="#8a8a8a" font-size="11">Top pair: the ALU result exists at the end of EX, and the consumer needs it at the start of its EX.</text>
+  <text x="116.0" y="334.0" fill="#e0645c" font-size="11">Forwarding hands it straight across. Zero cost.</text>
+  <text x="116.0" y="358.0" fill="#8a8a8a" font-size="11">Bottom pair: a load&#x27;s value arrives only at the end of MEM - one cycle too late. Forwarding cannot</text>
+  <text x="116.0" y="378.0" fill="#4a90d9" font-size="11">send data back in time, so one bubble is unavoidable. This is the load-use hazard.</text>
+</svg>

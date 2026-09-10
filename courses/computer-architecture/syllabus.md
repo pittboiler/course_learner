@@ -119,3 +119,35 @@ Finish with the vocabulary of *fast*: how to measure it, and the two ways archit
 - Patterson & Hennessy, *Computer Organization and Design (RISC-V edition)* — the spine: RISC-V ISA and formats, single-cycle and pipelined datapaths, forwarding/hazards, caches, the three C's, and the performance equations.
 - Harris & Harris, *Digital Design and Computer Architecture (RISC-V edition)* — for the gate-to-datapath bridge from `digital-logic` and the microarchitecture/control conventions.
 - Hennessy & Patterson, *Computer Architecture: A Quantitative Approach* — for the "taste" of ILP (out-of-order, speculation), multiprocessors, and cache coherence at the level this course only samples.
+
+---
+
+## Revision note — 2026-09-09
+
+Built as written: 20 lessons, 5 modules, no structural change. All five boss
+problems were reproduced numerically before writing and needed **no correction** —
+the first syllabus in this build run to verify clean.
+
+Two lessons were **re-scoped** against the prerequisite, because
+[`digital-logic`](../digital-logic/syllabus.md) owns more than this syllabus
+assumed:
+
+| Lesson | Overlap found | Delta this course adds |
+|---|---|---|
+| **2.1** The ALU | `digital-logic` 1.2 already teaches two's complement, carry-versus-overflow and the $-128$ edge case; 2.5 builds an ALU with status flags | the adder as the **critical path that sets the clock** — ripple versus lookahead depth, and why optimising past the critical path buys nothing |
+| **3.1 / 3.2** Datapath and control | `digital-logic` 4.4 already builds a datapath plus an FSM controller with PC, IR, MAR and MDR | the **specific RISC-V single-cycle datapath**, the exact control truth table from opcode, and why single-cycle pins cycle time to the slowest instruction — the motivation for pipelining |
+
+Neither lesson was cut; both cite the prerequisite for the material it owns and
+spend their fifteen minutes on the architectural delta. Recorded here per the
+one-owner rule.
+
+**Problem format.** Following the analytical framing of
+[CS-BUILD-BRIEF.md](../../CS-BUILD-BRIEF.md) and a specific request that answers
+be enterable in the study app, every problem resolves to a number, a bit or hex
+string, a classification, a short table, or a handwritten derivation. Nothing asks
+the reader to *draw* a datapath or pipeline chart, and assembly problems are
+hand-encode, find-the-bug or complete-the-missing-instruction rather than
+write-from-scratch — free-form code has many correct answers and cannot be
+self-graded against one solutions block. Diagrams appear in lessons as SVG; they
+are never the deliverable.
+
