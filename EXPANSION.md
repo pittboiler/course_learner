@@ -166,7 +166,15 @@ Lower priority but on the map. Sequenced so each field's roots come first.
 
 ### Phase 7 — Computer Science (Field 3) · ~16 courses
 
-Mostly prereq-light; a strong greenfield.
+Mostly prereq-light; a strong greenfield. Pedagogy is settled in `CS-BUILD-BRIEF.md` —
+CS is taught **analytically** against six problem archetypes, because the platform runs no code.
+
+**Status (2026-09-11): 10 of 16 built.** Done: `programming-foundations` (15), `algorithms` (20),
+`theory-of-computation` (16), `computer-architecture` (20), `operating-systems` (20),
+`computer-networks` (16), `databases` (25), `machine-learning` (23), `distributed-systems` (25),
+`cryptography` (21). Remaining, all with prerequisites already built so none is blocked:
+`deep-learning` (22), `programming-languages` (21), `computational-complexity` (18),
+`reinforcement-learning` (21), `quantum-computing` (20), `computer-graphics` (20).
 
 `programming-foundations` (0) → `algorithms` (1) → `theory-of-computation` (1),
 `computer-architecture` (1), `operating-systems` (1), `computer-networks` (1),
