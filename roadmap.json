@@ -639,18 +639,6 @@
       "blurb": "The physicist toolbox: vector calculus, special functions, complex methods, tensors, and Greens functions."
     },
     {
-      "id": "computational-physics",
-      "title": "Computational Physics",
-      "tier": 1,
-      "field": "Physics",
-      "prereqs": [
-        "ode-refresher",
-        "linalg-refresher"
-      ],
-      "lessons_estimate": 17,
-      "blurb": "Numerical integration of ODEs/PDEs, Monte Carlo, molecular dynamics, and simulating physical systems."
-    },
-    {
       "id": "nuclear-particle-physics",
       "title": "Nuclear & Particle Physics",
       "tier": 2,

@@ -219,7 +219,6 @@ Below college level — the on-ramp for genuinely-from-scratch or very rusty fun
 | `waves-optics` | Waves & Optics | 0 | calc, ode | Oscillations, the wave equation, interference, diffraction, polarization, and geometric & physical optics. |
 | `thermodynamics-physics` | Classical Thermodynamics | 0 | calc | The four laws, heat engines, entropy, and thermodynamic potentials — before the statistical picture. |
 | `mathematical-methods-physics` | Mathematical Methods for Physics | 1 | calc, ode, linalg | The physicist's toolbox: vector calculus, special functions, complex methods, tensors, Green's functions. |
-| `computational-physics` | Computational Physics | 1 | ode, linalg | **Dropped** (2026-08-10, Jacob's call — not doing computational physics). Retained here for continuity. |
 | `quantum-mechanics` | Quantum Mechanics | 2 | linalg, analytical-mechanics, complex (light) | State vectors, operators, Schrödinger equation, spin, entanglement, perturbation theory. |
 | `stat-mech` | Statistical Mechanics | 2 | probability-theory, analytical-mechanics | Ensembles, entropy, partition functions, phase transitions. Bridges probability ↔ physics; feeds astro. |
 | `relativity` | Relativity (SR + GR) | 2 | mechanics, em, analytical-mechanics, linalg, topology (light) | SR from postulates, a **classical field theory** module, then geodesics, Einstein equations, black holes, cosmology. Leans on `differential-geometry`. |

@@ -103,14 +103,13 @@ Prereqs met by proofs-primer / calc / linalg / real-analysis ✓.
 - [x] `waves-optics` — Waves & Optics (0, 14) — **lessons ✓** (14)
 - [x] `thermodynamics-physics` — Classical Thermodynamics (0, 11) — **lessons ✓** (11)
 - [x] `mathematical-methods-physics` — Mathematical Methods for Physics (1, 21) — **lessons ✓** (21)
-- [–] `computational-physics` — Computational Physics (1, 17) — **dropped** (2026-08-10, Jacob: not doing computational physics)
 - [x] `nuclear-particle-physics` — Nuclear & Particle Physics (2, 25) — **lessons ✓** (25)
 - [x] `condensed-matter` — Condensed Matter / Solid State (2, 28) — **lessons ✓** (28)
 - [x] `plasma-physics` — Plasma Physics (2, 22) — **lessons ✓** (22) → **unlocks fusion in Phase 5**
 - [x] `biophysics` — Biophysics (2, 21) — **lessons ✓** (21)
 - [x] `photonics-quantum-optics` — Quantum Optics & Photonics (2, 20) — **lessons ✓** (prepped 2026-08-10, 20)
 
-**Physics breadth complete** (2026-08-10): all 8 remaining Phase-3 physics courses are prepped; `computational-physics` dropped per Jacob. Together with `cosmology` (Phase 9, prepped 2026-08-10) this closes the physics track.
+**Physics breadth complete** (2026-08-10): all 8 remaining Phase-3 physics courses are prepped. Together with `cosmology` (Phase 9, prepped 2026-08-10) this closes the physics track.
 
 ### Phase 4 — Engineering core (Field 6, Shelf A) · 7 courses · ~116 lessons
 
@@ -242,12 +241,11 @@ decision theory.
   syllabi generated, validated, and registered — Engineering (29, incl. the nuclear shelf),
   Computer Science (16), Chemistry (9), Earth & Space (6), cosmology (Physics, 1),
   Life Sciences (9), Mathematics Tier-2 (4). ~1,449 lessons planned.
-- **Library now holds 133 courses across 10 fields** (Foundations 6, Mathematics 29,
-  Computer Science 16, Physics 19, Chemistry 9, Engineering 29, Earth & Space 6,
+- **Library now holds 132 courses across 10 fields** (Foundations 6, Mathematics 29,
+  Computer Science 16, Physics 18, Chemistry 9, Engineering 29, Earth & Space 6,
   Life Sciences 9, Economics & Finance 8, Humanities 2). Every course has a syllabus.
-- **Lessons built: 97 of 133 courses, 1,899 lessons (2026-08-25).** All four priority
-  fields are finished — Foundations, Mathematics, Physics (`computational-physics`
-  dropped), and Engineering (Phase 6 closed 2026-08-25). Chemistry is finished too.
+- **Lessons built: 97 of 132 courses, 1,899 lessons (2026-08-25).** All four priority
+  fields are finished — Foundations, Mathematics, Physics, and Engineering (Phase 6 closed 2026-08-25). Chemistry is finished too.
   Remaining: Computer Science 16, Life Sciences 9, Earth & Space 6, Economics 2,
   Humanities 2 (deferred) — about 709 lessons.
 - **Still deferred** (Phase-10 non-STEM): econ extras (time-series, IO, behavioral,
