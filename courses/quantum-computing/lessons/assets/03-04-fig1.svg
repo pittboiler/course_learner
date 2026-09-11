@@ -1,0 +1,43 @@
+<svg viewBox="0 0 700 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+<text x="28" y="22" fill="#8a8a8a" font-style="italic">Simon&#8217;s problem: a hidden XOR period, and the exponential separation that led to Shor</text>
+<text x="50" y="52" fill="#8a8a8a" font-size="12">f is 2-to-1 with hidden period s = 110: the pairs x and x&#8853;s collide</text>
+<text x="70" y="86" fill="#4a90d9" font-size="12">000</text>
+<text x="220" y="86" fill="#d98c3f" font-size="12">000</text>
+<text x="70" y="112" fill="#4a90d9" font-size="12">001</text>
+<text x="220" y="112" fill="#d98c3f" font-size="12">001</text>
+<text x="70" y="138" fill="#4a90d9" font-size="12">010</text>
+<text x="220" y="138" fill="#d98c3f" font-size="12">010</text>
+<text x="70" y="164" fill="#4a90d9" font-size="12">011</text>
+<text x="220" y="164" fill="#d98c3f" font-size="12">011</text>
+<text x="70" y="190" fill="#4a90d9" font-size="12">100</text>
+<text x="220" y="190" fill="#d98c3f" font-size="12">010</text>
+<text x="70" y="216" fill="#4a90d9" font-size="12">101</text>
+<text x="220" y="216" fill="#d98c3f" font-size="12">011</text>
+<text x="70" y="242" fill="#4a90d9" font-size="12">110</text>
+<text x="220" y="242" fill="#d98c3f" font-size="12">000</text>
+<text x="70" y="268" fill="#4a90d9" font-size="12">111</text>
+<text x="220" y="268" fill="#d98c3f" font-size="12">001</text>
+<path d="M 106 82 C 160 82, 166 82, 210 82" fill="none" stroke="#8a8a8a" stroke-width="0.8"/>
+<path d="M 106 108 C 160 108, 166 108, 210 108" fill="none" stroke="#8a8a8a" stroke-width="0.8"/>
+<path d="M 106 134 C 160 134, 166 134, 210 134" fill="none" stroke="#8a8a8a" stroke-width="0.8"/>
+<path d="M 106 160 C 160 160, 166 160, 210 160" fill="none" stroke="#8a8a8a" stroke-width="0.8"/>
+<path d="M 106 186 C 160 186, 166 134, 210 134" fill="none" stroke="#8a8a8a" stroke-width="0.8"/>
+<path d="M 106 212 C 160 212, 166 160, 210 160" fill="none" stroke="#8a8a8a" stroke-width="0.8"/>
+<path d="M 106 238 C 160 238, 166 82, 210 82" fill="none" stroke="#8a8a8a" stroke-width="0.8"/>
+<path d="M 106 264 C 160 264, 166 108, 210 108" fill="none" stroke="#8a8a8a" stroke-width="0.8"/>
+<text x="70" y="70" fill="#4a90d9" font-size="11">x</text>
+<text x="220" y="70" fill="#d98c3f" font-size="11">f(x)</text>
+<text x="360" y="52" fill="#8a8a8a" font-size="12">measuring the input register returns a random z with z&#183;s = 0:</text>
+<text x="380" y="86" fill="#3f9e6a" font-size="13">z = 000</text>
+<text x="480" y="86" fill="#8a8a8a" font-size="11">probability &#188;</text>
+<text x="380" y="112" fill="#3f9e6a" font-size="13">z = 001</text>
+<text x="480" y="112" fill="#8a8a8a" font-size="11">probability &#188;</text>
+<text x="380" y="138" fill="#3f9e6a" font-size="13">z = 110</text>
+<text x="480" y="138" fill="#8a8a8a" font-size="11">probability &#188;</text>
+<text x="380" y="164" fill="#3f9e6a" font-size="13">z = 111</text>
+<text x="480" y="164" fill="#8a8a8a" font-size="11">probability &#188;</text>
+<text x="360" y="204" fill="#8a8a8a" font-size="12">each z is one linear equation over &#120125;&#8322;.</text>
+<text x="360" y="224" fill="#e0645c" font-size="12">n&#8722;1 independent ones pin down s.</text>
+<text x="360" y="248" fill="#8a8a8a" font-size="11">quantum: O(n) queries.</text>
+<text x="360" y="266" fill="#8a8a8a" font-size="11">classical: &#937;(2&#8319;&#7443;&#178;) &#8212; the birthday bound.</text>
+</svg>

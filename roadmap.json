@@ -1213,8 +1213,8 @@
         "linalg-refresher",
         "quantum-mechanics"
       ],
-      "lessons_estimate": 20,
-      "blurb": "Qubits, gates & circuits, teleportation, and the Deutsch-Jozsa, Grover, and Shor algorithms."
+      "lessons_estimate": 34,
+      "blurb": "Qubits, gates & circuits, teleportation & CHSH, Deutsch-Jozsa/Grover/Shor, error correction, and the honest resource count."
     },
     {
       "id": "general-chemistry",

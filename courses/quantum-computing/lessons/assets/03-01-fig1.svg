@@ -1,0 +1,38 @@
+<svg viewBox="0 0 700 310" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+<text x="28" y="22" fill="#8a8a8a" font-style="italic">An oracle is a reversible circuit; put the ancilla in |&#8722;&#10217; and its output becomes a sign</text>
+<line x1="119" y1="70" x2="239" y2="70" stroke="#8a8a8a" stroke-width="1.1"/>
+<text x="117" y="74" fill="#8a8a8a" font-size="12" text-anchor="end">|x&#10217;</text>
+<line x1="119" y1="118" x2="239" y2="118" stroke="#8a8a8a" stroke-width="1.1"/>
+<line x1="119" y1="166" x2="239" y2="166" stroke="#8a8a8a" stroke-width="1.1"/>
+<text x="117" y="170" fill="#8a8a8a" font-size="12" text-anchor="end">|&#8722;&#10217;</text>
+<rect x="159.0" y="8.0" width="40" height="124" rx="3" fill="#ffffff" stroke="#4a90d9" stroke-width="1.4"/>
+<text x="179" y="75.0" fill="#4a90d9" font-size="13" text-anchor="middle">U&#7584;</text>
+<text x="213" y="74" fill="#4a90d9" font-size="12">|x&#10217;</text>
+<text x="213" y="170" fill="#4a90d9" font-size="12">|&#8722;&#10217;</text>
+<text x="125" y="30" fill="#8a8a8a" font-size="11">the ancilla comes back untouched &#8230;</text>
+<text x="125" y="222" fill="#d98c3f" font-size="13">&#8230; and the answer arrives as a phase:</text>
+<text x="125" y="248" fill="#d98c3f" font-size="14">U&#7584; |x&#10217;|&#8722;&#10217; = (&#8722;1)&#7584;&#8317;&#739;&#8318; |x&#10217;|&#8722;&#10217;</text>
+<text x="125" y="274" fill="#8a8a8a" font-size="11">one query, no garbage, nothing to clean up</text>
+<line x1="484" y1="70" x2="704" y2="70" stroke="#8a8a8a" stroke-width="1.1"/>
+<text x="482" y="74" fill="#8a8a8a" font-size="12" text-anchor="end">|x&#10217;</text>
+<line x1="484" y1="110" x2="704" y2="110" stroke="#8a8a8a" stroke-width="1.1"/>
+<text x="482" y="114" fill="#8a8a8a" font-size="12" text-anchor="end">|0&#10217;</text>
+<line x1="484" y1="150" x2="704" y2="150" stroke="#8a8a8a" stroke-width="1.1"/>
+<text x="482" y="154" fill="#8a8a8a" font-size="12" text-anchor="end">|0&#10217;</text>
+<rect x="525.0" y="72.0" width="34" height="76" rx="3" fill="#ffffff" stroke="#3f9e6a" stroke-width="1.4"/>
+<text x="542" y="115.0" fill="#3f9e6a" font-size="13" text-anchor="middle">C</text>
+<line x1="594" y1="110" x2="594" y2="150" stroke="#d98c3f" stroke-width="1.3"/>
+<circle cx="594" cy="110" r="4.2" fill="#d98c3f"/>
+<circle cx="594" cy="150" r="9" fill="#ffffff" stroke="#d98c3f" stroke-width="1.3"/>
+<line x1="585" y1="150" x2="603" y2="150" stroke="#d98c3f" stroke-width="1.3"/>
+<line x1="594" y1="141" x2="594" y2="159" stroke="#d98c3f" stroke-width="1.3"/>
+<rect x="629.0" y="72.0" width="34" height="76" rx="3" fill="#ffffff" stroke="#3f9e6a" stroke-width="1.4"/>
+<text x="646" y="115.0" fill="#3f9e6a" font-size="13" text-anchor="middle">C&#8224;</text>
+<text x="420" y="30" fill="#8a8a8a" font-size="11">reversible computing: compute, copy, uncompute</text>
+<text x="420" y="196" fill="#8a8a8a" font-size="11">C writes f(x) plus scratch;</text>
+<text x="420" y="212" fill="#d98c3f" font-size="11">one CNOT copies the answer out;</text>
+<text x="420" y="228" fill="#3f9e6a" font-size="11">C&#8224; erases every scratch bit.</text>
+<text x="420" y="252" fill="#e0645c" font-size="11">leave the scratch and interference dies:</text>
+<text x="420" y="270" fill="#e0645c" font-size="11">P(0) = (1 + Re&#10216;g&#8320;|g&#8321;&#10217;)/2</text>
+<text x="420" y="288" fill="#8a8a8a" font-size="11">cost: twice the circuit, zero leftovers</text>
+</svg>

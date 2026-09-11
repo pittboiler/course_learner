@@ -1,0 +1,63 @@
+<svg viewBox="0 0 700 370" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+<text x="28" y="22" fill="#8a8a8a" font-style="italic">Teleportation&#8217;s dual: one shared Bell pair lets one qubit carry two classical bits</text>
+<line x1="134" y1="80" x2="494" y2="80" stroke="#8a8a8a" stroke-width="1.1"/>
+<text x="132" y="84" fill="#8a8a8a" font-size="12" text-anchor="end">|0&#10217;</text>
+<line x1="134" y1="140" x2="494" y2="140" stroke="#8a8a8a" stroke-width="1.1"/>
+<text x="132" y="144" fill="#8a8a8a" font-size="12" text-anchor="end">|0&#10217;</text>
+<rect x="125.0" y="66.0" width="30" height="28" rx="3" fill="#ffffff" stroke="#4a90d9" stroke-width="1.4"/>
+<text x="140" y="85.0" fill="#4a90d9" font-size="13" text-anchor="middle">H</text>
+<line x1="198" y1="80" x2="198" y2="140" stroke="#4a90d9" stroke-width="1.3"/>
+<circle cx="198" cy="80" r="4.2" fill="#4a90d9"/>
+<circle cx="198" cy="140" r="9" fill="#ffffff" stroke="#4a90d9" stroke-width="1.3"/>
+<line x1="189" y1="140" x2="207" y2="140" stroke="#4a90d9" stroke-width="1.3"/>
+<line x1="198" y1="131" x2="198" y2="149" stroke="#4a90d9" stroke-width="1.3"/>
+<rect x="126" y="66" width="86" height="88" rx="4" fill="none" stroke="#4a90d9" stroke-width="1.1" stroke-dasharray="5 3"/>
+<text x="130" y="60" fill="#4a90d9" font-size="11">Bell pair made in advance</text>
+<rect x="257.0" y="65.0" width="56" height="30" rx="3" fill="#ffffff" stroke="#d98c3f" stroke-width="1.4"/>
+<text x="285.0" y="85.0" fill="#d98c3f" font-size="12" text-anchor="middle">Z&#7495;&#8320;X&#7495;&#8321;</text>
+<rect x="269.0" y="64" width="32.0" height="32" rx="4" fill="none" stroke="#d98c3f" stroke-width="1.1" stroke-dasharray="5 3"/>
+<text x="273.0" y="58" fill="#d98c3f" font-size="11">Alice encodes 2 bits</text>
+<line x1="372" y1="80" x2="372" y2="140" stroke="#e0645c" stroke-width="1.3"/>
+<circle cx="372" cy="80" r="4.2" fill="#e0645c"/>
+<circle cx="372" cy="140" r="9" fill="#ffffff" stroke="#e0645c" stroke-width="1.3"/>
+<line x1="363" y1="140" x2="381" y2="140" stroke="#e0645c" stroke-width="1.3"/>
+<line x1="372" y1="131" x2="372" y2="149" stroke="#e0645c" stroke-width="1.3"/>
+<rect x="415.0" y="66.0" width="30" height="28" rx="3" fill="#ffffff" stroke="#e0645c" stroke-width="1.4"/>
+<text x="430" y="85.0" fill="#e0645c" font-size="13" text-anchor="middle">H</text>
+<rect x="473" y="66" width="30" height="28" rx="3" fill="#ffffff" stroke="#e0645c" stroke-width="1.4"/>
+<path d="M 479 87 A 9 9 0 0 1 497 87" fill="none" stroke="#e0645c" stroke-width="1.2"/>
+<line x1="488" y1="87" x2="496" y2="75" stroke="#e0645c" stroke-width="1.2"/>
+<text x="511" y="85" fill="#e0645c" font-size="11">b&#8320;</text>
+<rect x="473" y="126" width="30" height="28" rx="3" fill="#ffffff" stroke="#e0645c" stroke-width="1.4"/>
+<path d="M 479 147 A 9 9 0 0 1 497 147" fill="none" stroke="#e0645c" stroke-width="1.2"/>
+<line x1="488" y1="147" x2="496" y2="135" stroke="#e0645c" stroke-width="1.2"/>
+<text x="511" y="145" fill="#e0645c" font-size="11">b&#8321;</text>
+<rect x="357" y="65" width="146" height="90" rx="4" fill="none" stroke="#e0645c" stroke-width="1.1" stroke-dasharray="5 3"/>
+<text x="361" y="59" fill="#e0645c" font-size="11">Bob: Bell measurement</text>
+<line x1="319.8" y1="50" x2="354.6" y2="50" stroke="#3f9e6a" stroke-width="1.6"/>
+<path d="M 348.6 45 L 357.6 50 L 348.6 55" fill="#3f9e6a"/>
+<text x="337.20000000000005" y="42" fill="#3f9e6a" font-size="11" text-anchor="middle">Alice sends her ONE qubit to Bob</text>
+<text x="76" y="84" fill="#8a8a8a" font-size="11" text-anchor="end">Alice</text>
+<text x="76" y="144" fill="#8a8a8a" font-size="11" text-anchor="end">Bob</text>
+<text x="80" y="255" fill="#8a8a8a" font-size="11.5" font-weight="bold">message</text>
+<text x="190" y="255" fill="#8a8a8a" font-size="11.5" font-weight="bold">Alice applies</text>
+<text x="330" y="255" fill="#8a8a8a" font-size="11.5" font-weight="bold">resulting state</text>
+<text x="500" y="255" fill="#8a8a8a" font-size="11.5" font-weight="bold">Bob decodes</text>
+<line x1="72" y1="262" x2="600" y2="262" stroke="#8a8a8a" stroke-width="0.9"/>
+<text x="80" y="281" fill="#3f9e6a" font-size="12">0 0</text>
+<text x="190" y="281" fill="#d98c3f" font-size="12">I</text>
+<text x="330" y="281" fill="#4a90d9" font-size="12">|&#934;&#8314;&#10217;</text>
+<text x="500" y="281" fill="#3f9e6a" font-size="12">0 0</text>
+<text x="80" y="303" fill="#3f9e6a" font-size="12">0 1</text>
+<text x="190" y="303" fill="#d98c3f" font-size="12">X</text>
+<text x="330" y="303" fill="#4a90d9" font-size="12">|&#936;&#8314;&#10217;</text>
+<text x="500" y="303" fill="#3f9e6a" font-size="12">0 1</text>
+<text x="80" y="325" fill="#3f9e6a" font-size="12">1 0</text>
+<text x="190" y="325" fill="#d98c3f" font-size="12">Z</text>
+<text x="330" y="325" fill="#4a90d9" font-size="12">|&#934;&#8315;&#10217;</text>
+<text x="500" y="325" fill="#3f9e6a" font-size="12">1 0</text>
+<text x="80" y="347" fill="#3f9e6a" font-size="12">1 1</text>
+<text x="190" y="347" fill="#d98c3f" font-size="12">XZ</text>
+<text x="330" y="347" fill="#4a90d9" font-size="12">&#8722;|&#936;&#8315;&#10217;</text>
+<text x="500" y="347" fill="#3f9e6a" font-size="12">1 1</text>
+</svg>

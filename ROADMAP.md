@@ -253,7 +253,7 @@ New field (Phase 7 in [EXPANSION.md](EXPANSION.md)).
 | `deep-learning` | Deep Learning | 2 | machine-learning | Neural networks, backpropagation, CNNs, RNNs, transformers, and training at scale. |
 | `reinforcement-learning` | Reinforcement Learning | 2 | machine-learning, probability-theory | MDPs, dynamic programming, TD & Q-learning, policy gradients, and deep RL. |
 | `computer-graphics` | Computer Graphics | 2 | linalg, programming-foundations | Rasterization, ray tracing, transformations, shading, and the linear algebra of rendering. |
-| `quantum-computing` | Quantum Computing | 2 | linalg, quantum-mechanics | Qubits, gates & circuits, teleportation, and the Deutsch-Jozsa, Grover, and Shor algorithms. |
+| `quantum-computing` | Quantum Computing | 2 | linalg, quantum-mechanics | Qubits, gates & circuits, teleportation & CHSH, Deutsch-Jozsa/Grover/Shor, error correction, and the honest resource count. |
 
 ## Chemistry
 

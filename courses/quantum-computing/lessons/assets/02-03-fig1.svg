@@ -1,0 +1,32 @@
+<svg viewBox="0 0 700 320" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+<text x="28" y="22" fill="#8a8a8a" font-style="italic">Two proofs, one conclusion: a universal copier breaks linearity, and it would distort every angle</text>
+<line x1="124" y1="90" x2="256" y2="90" stroke="#8a8a8a" stroke-width="1.1"/>
+<text x="122" y="94" fill="#8a8a8a" font-size="12" text-anchor="end">|&#968;&#10217;</text>
+<line x1="124" y1="144" x2="256" y2="144" stroke="#8a8a8a" stroke-width="1.1"/>
+<text x="122" y="148" fill="#8a8a8a" font-size="12" text-anchor="end">|0&#10217;</text>
+<rect x="167.0" y="40.0" width="46" height="100" rx="3" fill="#ffffff" stroke="#e0645c" stroke-width="1.4"/>
+<text x="190" y="95.0" fill="#e0645c" font-size="13" text-anchor="middle">U</text>
+<text x="230" y="96" fill="#e0645c" font-size="13">|&#968;&#10217;</text>
+<text x="230" y="150" fill="#e0645c" font-size="13">|&#968;&#10217;</text>
+<text x="90" y="216" fill="#e0645c" font-size="14">no such U exists</text>
+<text x="90" y="238" fill="#8a8a8a" font-size="11">for all unknown |&#968;&#10217; at once</text>
+<text x="90" y="262" fill="#8a8a8a" font-size="11">it works fine for any FIXED |&#968;&#10217;,</text>
+<text x="90" y="278" fill="#8a8a8a" font-size="11">and for any ORTHOGONAL set</text>
+<circle cx="470" cy="160" r="92" fill="none" stroke="#8a8a8a" stroke-width="1"/>
+<line x1="470" y1="160" x2="470.0" y2="68.0" stroke="#4a90d9" stroke-width="2"/>
+<circle cx="470.0" cy="68.0" r="3.4" fill="#4a90d9"/>
+<text x="456.0" y="58.0" fill="#4a90d9" font-size="12">|&#968;&#10217;</text>
+<line x1="470" y1="160" x2="549.7" y2="114.0" stroke="#4a90d9" stroke-width="2"/>
+<circle cx="549.7" cy="114.0" r="3.4" fill="#4a90d9"/>
+<text x="557.7" y="118.0" fill="#4a90d9" font-size="12">|&#966;&#10217;</text>
+<path d="M 503.5,140.7 L 502.5,139.2 L 501.6,137.7 L 500.5,136.3 L 499.4,134.9 L 498.2,133.6 L 497.0,132.4 L 495.7,131.2 L 494.4,130.0 L 493.0,128.9 L 491.6,127.9 L 490.1,127.0 L 488.6,126.1 L 487.0,125.3 L 485.4,124.6 L 483.8,123.9 L 482.1,123.3 L 480.4,122.8 L 478.7,122.4 L 477.0,122.0 L 475.3,121.7 L 473.5,121.5 L 471.8,121.4 L 470.0,121.4" fill="none" stroke="#4a90d9" stroke-width="1.1"/>
+<text x="486" y="108" fill="#4a90d9" font-size="12">&#920;</text>
+<line x1="470" y1="160" x2="559.1" y2="137.0" stroke="#d98c3f" stroke-width="2"/>
+<circle cx="559.1" cy="137.0" r="3.4" fill="#d98c3f"/>
+<text x="567.1" y="153.0" fill="#d98c3f" font-size="12">clone of |&#966;&#10217;</text>
+<path d="M 530.6,144.4 L 529.6,140.9 L 528.4,137.5 L 527.0,134.2 L 525.4,131.0 L 523.7,127.9 L 521.8,124.9 L 519.7,121.9 L 517.4,119.2 L 515.0,116.5 L 512.4,114.0 L 509.7,111.7 L 506.9,109.5 L 503.9,107.4 L 500.9,105.6 L 497.7,103.9 L 494.4,102.4 L 491.1,101.1 L 487.7,100.0 L 484.2,99.1 L 480.7,98.4 L 477.2,97.9 L 473.6,97.5 L 470.0,97.4" fill="none" stroke="#d98c3f" stroke-width="1.1"/>
+<text x="510" y="94" fill="#d98c3f" font-size="12">&#920;&#8242;</text>
+<text x="378" y="292" fill="#8a8a8a" font-size="12">cloning would send cos&#920; &#8594; cos&#178;&#920;</text>
+<text x="378" y="310" fill="#d98c3f" font-size="12">&#8594; angles change, so it is not unitary</text>
+<text x="378" y="328" fill="#8a8a8a" font-size="11">6060&#176; apart would become 76&#176; apart#176; apart would become 75.560&#176; apart would become 76&#176; apart#176; apart</text>
+</svg>
