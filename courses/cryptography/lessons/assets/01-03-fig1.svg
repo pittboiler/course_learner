@@ -1,0 +1,27 @@
+<svg viewBox="0 0 700 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Fewer keys than messages: some plaintext is unreachable, so the ciphertext rules it out</text>
+  <circle cx="150" cy="170" r="26" fill="none" stroke="#4a90d9" stroke-width="1.8"/>
+  <text x="150" y="175" fill="#4a90d9" font-size="16" text-anchor="middle">c</text>
+  <text x="150" y="220" fill="#8a8a8a" font-size="11" text-anchor="middle">one observed</text>
+  <text x="150" y="235" fill="#8a8a8a" font-size="11" text-anchor="middle">ciphertext</text>
+  <rect x="470" y="52" width="72" height="36" fill="none" stroke="#4a90d9" stroke-width="1.6"/>
+  <text x="506" y="75" fill="#4a90d9" font-size="14" text-anchor="middle">m1</text>
+  <line x1="178" y1="158.0" x2="462" y2="70" stroke="#8a8a8a" stroke-width="1.3"/>
+  <polygon points="462.0,70.0 455.0,75.7 453.0,69.3" fill="#8a8a8a"/>
+  <text x="320.0" y="109.0" fill="#8a8a8a" font-size="11" text-anchor="middle">Dec with k1</text>
+  <rect x="470" y="112" width="72" height="36" fill="none" stroke="#4a90d9" stroke-width="1.6"/>
+  <text x="506" y="135" fill="#4a90d9" font-size="14" text-anchor="middle">m2</text>
+  <line x1="178" y1="165.2" x2="462" y2="130" stroke="#8a8a8a" stroke-width="1.3"/>
+  <polygon points="462.0,130.0 454.1,134.3 453.3,127.7" fill="#8a8a8a"/>
+  <text x="320.0" y="142.0" fill="#8a8a8a" font-size="11" text-anchor="middle">Dec with k2</text>
+  <rect x="470" y="172" width="72" height="36" fill="none" stroke="#4a90d9" stroke-width="1.6"/>
+  <text x="506" y="195" fill="#4a90d9" font-size="14" text-anchor="middle">m3</text>
+  <line x1="178" y1="172.4" x2="462" y2="190" stroke="#8a8a8a" stroke-width="1.3"/>
+  <polygon points="462.0,190.0 453.5,192.8 453.9,186.2" fill="#8a8a8a"/>
+  <text x="320.0" y="175.0" fill="#8a8a8a" font-size="11" text-anchor="middle">Dec with k3</text>
+  <rect x="470" y="232" width="72" height="36" fill="none" stroke="#e0645c" stroke-width="1.6"/>
+  <text x="506" y="255" fill="#e0645c" font-size="14" text-anchor="middle">m4</text>
+  <text x="556" y="255" fill="#e0645c" font-size="12">no key decrypts c to m4</text>
+  <text x="556" y="272" fill="#e0645c" font-size="12">so Pr(M = m4 | C = c) = 0</text>
+  <text x="40" y="306" fill="#8a8a8a" font-size="11">Three keys unlock c in at most three ways. With four possible messages one is left out, and being left out is information.</text>
+</svg>

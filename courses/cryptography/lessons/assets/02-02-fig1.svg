@@ -1,0 +1,35 @@
+<svg viewBox="0 0 700 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Merkle-Damgard: the digest is the final chaining value, which is why it can be continued</text>
+  <text x="46" y="145" fill="#8a8a8a">IV</text>
+  <line x1="72" y1="140" x2="108" y2="140" stroke="#8a8a8a" stroke-width="1.4"/>
+  <polygon points="108.0,140.0 99.6,143.3 99.6,136.7" fill="#8a8a8a"/>
+  <rect x="108" y="116" width="64" height="48" fill="none" stroke="#8a8a8a" stroke-width="1.7" rx="5"/>
+  <text x="140" y="145" fill="#8a8a8a" font-size="16" text-anchor="middle">f</text>
+  <line x1="140" y1="70" x2="140" y2="114" stroke="#8a8a8a" stroke-width="1.3"/>
+  <polygon points="140.0,114.0 136.7,105.6 143.3,105.6" fill="#8a8a8a"/>
+  <text x="140" y="60" fill="#8a8a8a" font-size="12" text-anchor="middle">m1</text>
+  <line x1="172" y1="140" x2="248" y2="140" stroke="#8a8a8a" stroke-width="1.4"/>
+  <polygon points="248.0,140.0 239.6,143.3 239.6,136.7" fill="#8a8a8a"/>
+  <text x="210.0" y="130" fill="#8a8a8a" font-size="11" text-anchor="middle">h1</text>
+  <rect x="248" y="116" width="64" height="48" fill="none" stroke="#8a8a8a" stroke-width="1.7" rx="5"/>
+  <text x="280" y="145" fill="#8a8a8a" font-size="16" text-anchor="middle">f</text>
+  <line x1="280" y1="70" x2="280" y2="114" stroke="#8a8a8a" stroke-width="1.3"/>
+  <polygon points="280.0,114.0 276.7,105.6 283.3,105.6" fill="#8a8a8a"/>
+  <text x="280" y="60" fill="#8a8a8a" font-size="12" text-anchor="middle">m2</text>
+  <line x1="312" y1="140" x2="388" y2="140" stroke="#8a8a8a" stroke-width="1.4"/>
+  <polygon points="388.0,140.0 379.6,143.3 379.6,136.7" fill="#8a8a8a"/>
+  <text x="350.0" y="130" fill="#8a8a8a" font-size="11" text-anchor="middle">h2</text>
+  <rect x="388" y="116" width="64" height="48" fill="none" stroke="#4a90d9" stroke-width="1.7" rx="5"/>
+  <text x="420" y="145" fill="#4a90d9" font-size="16" text-anchor="middle">f</text>
+  <line x1="420" y1="70" x2="420" y2="114" stroke="#4a90d9" stroke-width="1.3"/>
+  <polygon points="420.0,114.0 416.7,105.6 423.3,105.6" fill="#4a90d9"/>
+  <text x="420" y="60" fill="#4a90d9" font-size="12" text-anchor="middle">pad + length</text>
+  <line x1="452" y1="140" x2="530" y2="140" stroke="#4a90d9" stroke-width="1.6"/>
+  <polygon points="530.0,140.0 521.6,143.3 521.6,136.7" fill="#4a90d9"/>
+  <text x="546" y="145" fill="#4a90d9" font-size="14">H(m)</text>
+  <rect x="560" y="116" width="64" height="48" fill="none" stroke="#e0645c" stroke-width="1.7" rx="5"/>
+  <rect x="560" y="116" width="0" height="0" fill="none" stroke="#e0645c" stroke-width="0"/>
+  <text x="40" y="232" fill="#e0645c" font-size="11">Length extension: H(m) IS the chaining value h3. An attacker who knows H(m) and the length of m can set h3 as her starting</text>
+  <text x="40" y="250" fill="#e0645c" font-size="11">state, absorb her own block m', and output a valid H(m || pad || m') without ever seeing m.</text>
+  <text x="40" y="284" fill="#8a8a8a" font-size="11">SHA-3's sponge keeps part of its state secret from the output, so the digest is not a resumable state and the trick fails.</text>
+</svg>

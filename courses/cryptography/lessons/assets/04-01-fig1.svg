@@ -1,0 +1,32 @@
+<svg viewBox="0 0 700 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">A MAC has one key and two equal parties; a signature has two keys and a judge</text>
+  <rect x="40" y="56" width="300" height="120" fill="none" stroke="#8a8a8a" stroke-width="1.6" rx="6"/>
+  <text x="190" y="80" fill="#8a8a8a" text-anchor="middle">MAC</text>
+  <text x="105" y="110" fill="#8a8a8a" font-size="12" text-anchor="middle">Alice</text>
+  <text x="275" y="110" fill="#8a8a8a" font-size="12" text-anchor="middle">Bob</text>
+  <line x1="140" y1="110" x2="240" y2="110" stroke="#8a8a8a" stroke-width="1.3"/>
+  <polygon points="240.0,110.0 231.6,113.3 231.6,106.7" fill="#8a8a8a"/>
+  <text x="190" y="102" fill="#8a8a8a" font-size="11" text-anchor="middle">m, t</text>
+  <text x="190" y="138" fill="#e0645c" font-size="12" text-anchor="middle">both hold k</text>
+  <text x="190" y="158" fill="#e0645c" font-size="12" text-anchor="middle">either could have made t</text>
+  <rect x="370" y="56" width="290" height="120" fill="none" stroke="#4a90d9" stroke-width="1.6" rx="6"/>
+  <text x="515" y="80" fill="#4a90d9" text-anchor="middle">Signature</text>
+  <text x="425" y="110" fill="#8a8a8a" font-size="12" text-anchor="middle">Alice</text>
+  <text x="605" y="110" fill="#8a8a8a" font-size="12" text-anchor="middle">Bob</text>
+  <line x1="462" y1="110" x2="568" y2="110" stroke="#4a90d9" stroke-width="1.3"/>
+  <polygon points="568.0,110.0 559.6,113.3 559.6,106.7" fill="#4a90d9"/>
+  <text x="515" y="102" fill="#4a90d9" font-size="11" text-anchor="middle">m, sigma</text>
+  <text x="515" y="138" fill="#4a90d9" font-size="12" text-anchor="middle">only Alice holds sk</text>
+  <text x="515" y="158" fill="#4a90d9" font-size="12" text-anchor="middle">anyone with pk can check</text>
+  <rect x="430" y="220" width="170" height="44" fill="none" stroke="#4a90d9" stroke-width="1.6" rx="6"/>
+  <text x="515" y="247" fill="#4a90d9" font-size="12" text-anchor="middle">third party / court</text>
+  <line x1="515" y1="180" x2="515" y2="216" stroke="#4a90d9" stroke-width="1.3"/>
+  <polygon points="515.0,216.0 511.7,207.6 518.3,207.6" fill="#4a90d9"/>
+  <line x1="180" y1="232" x2="200" y2="252" stroke="#e0645c" stroke-width="2.0"/>
+  <line x1="180" y1="252" x2="200" y2="232" stroke="#e0645c" stroke-width="2.0"/>
+  <text x="190" y="272" fill="#e0645c" font-size="12" text-anchor="middle">no third party can tell</text>
+  <text x="190" y="290" fill="#e0645c" font-size="12" text-anchor="middle">which of them made the tag</text>
+  <text x="515" y="286" fill="#4a90d9" font-size="12" text-anchor="middle">can verify without any secret,</text>
+  <text x="515" y="304" fill="#4a90d9" font-size="12" text-anchor="middle">so Alice cannot deny it</text>
+  <text x="40" y="340" fill="#8a8a8a" font-size="11">That asymmetry is non-repudiation, and it is the one property a shared-key MAC can never provide.</text>
+</svg>

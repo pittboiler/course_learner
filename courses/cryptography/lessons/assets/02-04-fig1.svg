@@ -1,0 +1,29 @@
+<svg viewBox="0 0 700 390" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Three ways to combine a cipher and a MAC; one of them is safe in general</text>
+  <rect x="40" y="66" width="250" height="74" fill="none" stroke="#e0645c" stroke-width="1.7" rx="6"/>
+  <text x="52" y="90" fill="#e0645c">Encrypt-and-MAC</text>
+  <text x="52" y="112" fill="#8a8a8a" font-size="12">c = Enc(m),  t = Mac(m)</text>
+  <text x="52" y="131" fill="#8a8a8a" font-size="12">send c, t</text>
+  <line x1="296" y1="103" x2="330" y2="103" stroke="#e0645c" stroke-width="1.4"/>
+  <polygon points="330.0,103.0 321.6,106.3 321.6,99.7" fill="#e0645c"/>
+  <text x="342" y="98" fill="#e0645c" font-size="12">deterministic MAC leaks</text>
+  <text x="342" y="116" fill="#e0645c" font-size="12">equality of plaintexts</text>
+  <rect x="40" y="162" width="250" height="74" fill="none" stroke="#e0645c" stroke-width="1.7" rx="6"/>
+  <text x="52" y="186" fill="#e0645c">MAC-then-encrypt</text>
+  <text x="52" y="208" fill="#8a8a8a" font-size="12">t = Mac(m),  c = Enc(m || t)</text>
+  <text x="52" y="227" fill="#8a8a8a" font-size="12">send c</text>
+  <line x1="296" y1="199" x2="330" y2="199" stroke="#e0645c" stroke-width="1.4"/>
+  <polygon points="330.0,199.0 321.6,202.3 321.6,195.7" fill="#e0645c"/>
+  <text x="342" y="194" fill="#e0645c" font-size="12">decrypt first, so malformed</text>
+  <text x="342" y="212" fill="#e0645c" font-size="12">ciphertexts are processed</text>
+  <rect x="40" y="258" width="250" height="74" fill="none" stroke="#4a90d9" stroke-width="1.7" rx="6"/>
+  <text x="52" y="282" fill="#4a90d9">Encrypt-then-MAC</text>
+  <text x="52" y="304" fill="#8a8a8a" font-size="12">c = Enc(m),  t = Mac(c)</text>
+  <text x="52" y="323" fill="#8a8a8a" font-size="12">send c, t</text>
+  <line x1="296" y1="295" x2="330" y2="295" stroke="#4a90d9" stroke-width="1.4"/>
+  <polygon points="330.0,295.0 321.6,298.3 321.6,291.7" fill="#4a90d9"/>
+  <text x="342" y="290" fill="#4a90d9" font-size="12">reject before decrypting;</text>
+  <text x="342" y="308" fill="#4a90d9" font-size="12">generically secure</text>
+  <text x="40" y="358" fill="#8a8a8a" font-size="11">Encrypt-then-MAC is the only order where the receiver can authenticate without touching the decryption routine,</text>
+  <text x="40" y="376" fill="#8a8a8a" font-size="11">which is exactly what closes the chosen-ciphertext door.</text>
+</svg>

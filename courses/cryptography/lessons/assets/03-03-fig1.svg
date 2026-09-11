@@ -1,0 +1,41 @@
+<svg viewBox="0 0 700 390" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">OAEP: a two-round Feistel that randomises the message before RSA ever sees it</text>
+  <rect x="60" y="60" width="180" height="34" fill="none" stroke="#4a90d9" stroke-width="1.6" rx="4"/>
+  <text x="150" y="82" fill="#4a90d9" font-size="11" text-anchor="middle">m || 0-padding || label hash</text>
+  <rect x="420" y="60" width="120" height="34" fill="none" stroke="#e0645c" stroke-width="1.6" rx="4"/>
+  <text x="480" y="82" fill="#e0645c" font-size="11" text-anchor="middle">random seed r</text>
+  <rect x="300" y="130" width="90" height="34" fill="none" stroke="#8a8a8a" stroke-width="1.6" rx="4"/>
+  <text x="345" y="152" fill="#8a8a8a" font-size="14" text-anchor="middle">G</text>
+  <line x1="480" y1="94" x2="480" y2="130" stroke="#e0645c" stroke-width="1.3"/>
+  <polygon points="480.0,130.0 476.7,121.6 483.3,121.6" fill="#e0645c"/>
+  <line x1="390" y1="147" x2="480" y2="147" stroke="#e0645c" stroke-width="1.3"/>
+  <line x1="480" y1="130" x2="480" y2="147" stroke="#e0645c" stroke-width="1.3"/>
+  <circle cx="150" cy="147" r="12" fill="none" stroke="#4a90d9" stroke-width="1.5"/>
+  <line x1="142" y1="147" x2="158" y2="147" stroke="#4a90d9" stroke-width="1.3"/>
+  <line x1="150" y1="139" x2="150" y2="155" stroke="#4a90d9" stroke-width="1.3"/>
+  <line x1="300" y1="147" x2="162" y2="147" stroke="#8a8a8a" stroke-width="1.3"/>
+  <polygon points="162.0,147.0 170.4,143.7 170.4,150.3" fill="#8a8a8a"/>
+  <line x1="150" y1="94" x2="150" y2="135" stroke="#4a90d9" stroke-width="1.3"/>
+  <polygon points="150.0,135.0 146.7,126.6 153.3,126.6" fill="#4a90d9"/>
+  <line x1="150" y1="159" x2="150" y2="196" stroke="#4a90d9" stroke-width="1.3"/>
+  <polygon points="150.0,196.0 146.7,187.6 153.3,187.6" fill="#4a90d9"/>
+  <rect x="60" y="196" width="180" height="32" fill="none" stroke="#4a90d9" stroke-width="1.6" rx="4"/>
+  <text x="150" y="217" fill="#4a90d9" font-size="11" text-anchor="middle">masked data block  DB</text>
+  <rect x="300" y="250" width="90" height="34" fill="none" stroke="#8a8a8a" stroke-width="1.6" rx="4"/>
+  <text x="345" y="272" fill="#8a8a8a" font-size="14" text-anchor="middle">H</text>
+  <line x1="150" y1="228" x2="150" y2="267" stroke="#4a90d9" stroke-width="1.3"/>
+  <line x1="150" y1="267" x2="298" y2="267" stroke="#4a90d9" stroke-width="1.3"/>
+  <polygon points="298.0,267.0 289.6,270.3 289.6,263.7" fill="#4a90d9"/>
+  <circle cx="480" cy="267" r="12" fill="none" stroke="#e0645c" stroke-width="1.5"/>
+  <line x1="472" y1="267" x2="488" y2="267" stroke="#e0645c" stroke-width="1.3"/>
+  <line x1="480" y1="259" x2="480" y2="275" stroke="#e0645c" stroke-width="1.3"/>
+  <line x1="392" y1="267" x2="468" y2="267" stroke="#8a8a8a" stroke-width="1.3"/>
+  <polygon points="468.0,267.0 459.6,270.3 459.6,263.7" fill="#8a8a8a"/>
+  <line x1="480" y1="159" x2="480" y2="255" stroke="#e0645c" stroke-width="1.3"/>
+  <line x1="480" y1="279" x2="480" y2="308" stroke="#e0645c" stroke-width="1.3"/>
+  <polygon points="480.0,308.0 476.7,299.6 483.3,299.6" fill="#e0645c"/>
+  <rect x="420" y="308" width="120" height="32" fill="none" stroke="#e0645c" stroke-width="1.6" rx="4"/>
+  <text x="480" y="329" fill="#e0645c" font-size="11" text-anchor="middle">masked seed</text>
+  <text x="50" y="362" fill="#8a8a8a" font-size="11">RSA is applied to the pair (masked seed, masked DB). G and H are hashes.</text>
+  <text x="50" y="380" fill="#8a8a8a" font-size="11">Every message carries fresh randomness r, so encryption is no longer deterministic.</text>
+</svg>

@@ -1,0 +1,22 @@
+<svg viewBox="0 0 700 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">HMAC: hash twice, under two keys derived from one</text>
+  <rect x="60" y="84" width="150" height="52" fill="none" stroke="#4a90d9" stroke-width="1.7" rx="5"/>
+  <text x="135" y="106" fill="#4a90d9" font-size="12" text-anchor="middle">inner hash</text>
+  <text x="135" y="124" fill="#4a90d9" font-size="12" text-anchor="middle">H( k xor ipad || m )</text>
+  <text x="60" y="66" fill="#8a8a8a" font-size="11">message m and key k enter here</text>
+  <line x1="212" y1="110" x2="300" y2="110" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="300.0,110.0 291.6,113.3 291.6,106.7" fill="#8a8a8a"/>
+  <text x="256" y="100" fill="#8a8a8a" font-size="11" text-anchor="middle">inner digest</text>
+  <rect x="302" y="84" width="160" height="52" fill="none" stroke="#e0645c" stroke-width="1.7" rx="5"/>
+  <text x="382" y="106" fill="#e0645c" font-size="12" text-anchor="middle">outer hash</text>
+  <text x="382" y="124" fill="#e0645c" font-size="12" text-anchor="middle">H( k xor opad || inner )</text>
+  <line x1="464" y1="110" x2="556" y2="110" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="556.0,110.0 547.6,113.3 547.6,106.7" fill="#8a8a8a"/>
+  <text x="566" y="115" fill="#8a8a8a" font-size="14">tag t</text>
+  <text x="40" y="206" fill="#8a8a8a" font-size="11">What the attacker sees is the OUTER hash's output, which is the chaining state of a hash whose input she</text>
+  <text x="40" y="224" fill="#8a8a8a" font-size="11">does not know and cannot continue: the inner digest sits behind k xor opad. Length extension gets nowhere.</text>
+  <text x="40" y="262" fill="#8a8a8a" font-size="11">ipad = the byte 0x36 repeated;  opad = the byte 0x5c repeated.  The two pads differ in many bits, so</text>
+  <text x="40" y="280" fill="#8a8a8a" font-size="11">k xor ipad and k xor opad behave as two independent keys even though only one key was stored.</text>
+  <text x="40" y="318" fill="#e0645c" font-size="11">Security rests on the compression function being a PRF, not on collision resistance,</text>
+  <text x="40" y="336" fill="#e0645c" font-size="11">which is why HMAC-SHA1 survived SHA-1's collision break.</text>
+</svg>

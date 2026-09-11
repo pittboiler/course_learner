@@ -1,0 +1,23 @@
+<svg viewBox="0 0 700 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">KEM/DEM: the public key ships one small key, the symmetric layer carries the data</text>
+  <rect x="50" y="70" width="250" height="86" fill="none" stroke="#4a90d9" stroke-width="1.7" rx="6"/>
+  <text x="175" y="94" fill="#4a90d9" text-anchor="middle">KEM  -  Encap(pk)</text>
+  <text x="175" y="118" fill="#4a90d9" font-size="12" text-anchor="middle">pick r, set k = KDF(r)</text>
+  <text x="175" y="140" fill="#4a90d9" font-size="12" text-anchor="middle">encapsulation c0 = f_pk(r)</text>
+  <rect x="400" y="70" width="250" height="86" fill="none" stroke="#e0645c" stroke-width="1.7" rx="6"/>
+  <text x="525" y="94" fill="#e0645c" text-anchor="middle">DEM  -  AEAD under k</text>
+  <text x="525" y="118" fill="#e0645c" font-size="12" text-anchor="middle">c1 = Enc_k(nonce, ad, m)</text>
+  <text x="525" y="140" fill="#e0645c" font-size="12" text-anchor="middle">any message length</text>
+  <line x1="304" y1="113" x2="396" y2="113" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="396.0,113.0 387.6,116.3 387.6,109.7" fill="#8a8a8a"/>
+  <text x="350" y="104" fill="#8a8a8a" text-anchor="middle">k</text>
+  <rect x="230" y="200" width="240" height="40" fill="none" stroke="#8a8a8a" stroke-width="1.7" rx="6"/>
+  <text x="350" y="225" fill="#8a8a8a" text-anchor="middle">ciphertext  =  ( c0 , c1 )</text>
+  <line x1="175" y1="158" x2="300" y2="198" stroke="#4a90d9" stroke-width="1.4"/>
+  <polygon points="300.0,198.0 291.0,198.6 293.1,192.3" fill="#4a90d9"/>
+  <line x1="525" y1="158" x2="400" y2="198" stroke="#e0645c" stroke-width="1.4"/>
+  <polygon points="400.0,198.0 406.9,192.3 409.0,198.6" fill="#e0645c"/>
+  <text x="40" y="282" fill="#8a8a8a" font-size="11">Exactly one public-key operation per message, whatever the message size. The recipient decapsulates c0 to recover k,</text>
+  <text x="40" y="300" fill="#8a8a8a" font-size="11">then decrypts c1 with it. A malformed c0 yields a random-looking k, so there is no decryption-failure oracle.</text>
+  <text x="40" y="330" fill="#4a90d9" font-size="11">Composition theorem: a CCA-secure KEM plus a CCA-secure DEM gives a CCA-secure public-key scheme.</text>
+</svg>

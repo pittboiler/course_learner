@@ -1,0 +1,32 @@
+<svg viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Shamir with t = 2: one share rules nothing out, two shares pin the secret</text>
+  <line x1="71.0" y1="300" x2="622.0" y2="300" stroke="#8a8a8a" stroke-width="1.1"/>
+  <line x1="90" y1="310.4" x2="90" y2="50.400000000000006" stroke="#8a8a8a" stroke-width="1.1"/>
+  <text x="80" y="318" fill="#8a8a8a" font-size="11" text-anchor="end">0</text>
+  <text x="185" y="318" fill="#8a8a8a" font-size="11" text-anchor="middle">1</text>
+  <text x="280" y="318" fill="#8a8a8a" font-size="11" text-anchor="middle">2</text>
+  <text x="375" y="318" fill="#8a8a8a" font-size="11" text-anchor="middle">3</text>
+  <text x="470" y="318" fill="#8a8a8a" font-size="11" text-anchor="middle">4</text>
+  <text x="565" y="318" fill="#8a8a8a" font-size="11" text-anchor="middle">5</text>
+  <text x="356.0" y="340" fill="#8a8a8a" font-size="12" text-anchor="middle">share index x</text>
+  <text x="76" y="50.400000000000006" fill="#8a8a8a" font-size="12" text-anchor="end">f(x)</text>
+  <line x1="90" y1="274" x2="603.0" y2="-6.800000000000011" stroke="#8a8a8a" stroke-width="1.0" stroke-dasharray="4 4"/>
+  <circle cx="90" cy="274" r="3.5" fill="#8a8a8a"/>
+  <line x1="90" y1="222" x2="603.0" y2="81.6" stroke="#8a8a8a" stroke-width="1.0" stroke-dasharray="4 4"/>
+  <circle cx="90" cy="222" r="3.5" fill="#8a8a8a"/>
+  <line x1="90" y1="170" x2="603.0" y2="170.0" stroke="#8a8a8a" stroke-width="1.0" stroke-dasharray="4 4"/>
+  <circle cx="90" cy="170" r="3.5" fill="#8a8a8a"/>
+  <line x1="90" y1="118" x2="603.0" y2="258.4" stroke="#8a8a8a" stroke-width="1.0" stroke-dasharray="4 4"/>
+  <circle cx="90" cy="118" r="3.5" fill="#8a8a8a"/>
+  <line x1="90" y1="66" x2="603.0" y2="346.8" stroke="#8a8a8a" stroke-width="1.0" stroke-dasharray="4 4"/>
+  <circle cx="90" cy="66" r="3.5" fill="#8a8a8a"/>
+  <circle cx="280" cy="170" r="5.5" fill="#4a90d9"/>
+  <text x="290" y="160" fill="#4a90d9" font-size="12">the one share you hold</text>
+  <line x1="90" y1="222" x2="603.0" y2="81.6" stroke="#e0645c" stroke-width="1.8"/>
+  <circle cx="470" cy="118" r="5.5" fill="#e0645c"/>
+  <text x="480" y="110" fill="#e0645c" font-size="12">a second share</text>
+  <circle cx="90" cy="222" r="5.5" fill="#e0645c"/>
+  <text x="102" y="212" fill="#e0645c" font-size="12">secret f(0)</text>
+  <text x="40" y="350" fill="#8a8a8a" font-size="11">Every dashed line is consistent with the single blue share, so every intercept stays equally possible.</text>
+  <text x="40" y="370" fill="#e0645c" font-size="11">Add one more point and exactly one line survives.</text>
+</svg>

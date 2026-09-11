@@ -1,0 +1,32 @@
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">A certificate chain: each link is a signature, and the last one is trusted by assumption</text>
+  <rect x="210" y="60" width="290" height="88" fill="none" stroke="#4a90d9" stroke-width="1.7" rx="6"/>
+  <text x="355" y="84" fill="#4a90d9" text-anchor="middle">Root CA certificate</text>
+  <text x="226" y="106" fill="#8a8a8a" font-size="12">subject = Root CA</text>
+  <text x="226" y="124" fill="#8a8a8a" font-size="12">key = pk_root</text>
+  <text x="226" y="142" fill="#4a90d9" font-size="12">SELF-signed</text>
+  <rect x="210" y="170" width="290" height="88" fill="none" stroke="#8a8a8a" stroke-width="1.7" rx="6"/>
+  <text x="355" y="194" fill="#8a8a8a" text-anchor="middle">Intermediate certificate</text>
+  <text x="226" y="216" fill="#8a8a8a" font-size="12">subject = Issuing CA</text>
+  <text x="226" y="234" fill="#8a8a8a" font-size="12">key = pk_int</text>
+  <text x="226" y="252" fill="#e0645c" font-size="12">signed with sk_root</text>
+  <rect x="210" y="280" width="290" height="88" fill="none" stroke="#8a8a8a" stroke-width="1.7" rx="6"/>
+  <text x="355" y="304" fill="#8a8a8a" text-anchor="middle">Leaf certificate</text>
+  <text x="226" y="326" fill="#8a8a8a" font-size="12">subject = example.com</text>
+  <text x="226" y="344" fill="#8a8a8a" font-size="12">key = pk_site</text>
+  <text x="226" y="362" fill="#e0645c" font-size="12">signed with sk_int</text>
+  <line x1="355" y1="148" x2="355" y2="168" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="355.0,168.0 351.7,159.6 358.3,159.6" fill="#e0645c"/>
+  <text x="368" y="164" fill="#e0645c" font-size="11">signs</text>
+  <line x1="355" y1="258" x2="355" y2="278" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="355.0,278.0 351.7,269.6 358.3,269.6" fill="#e0645c"/>
+  <text x="368" y="274" fill="#e0645c" font-size="11">signs</text>
+  <text x="60" y="104" fill="#4a90d9" font-size="12">in the</text>
+  <text x="60" y="120" fill="#4a90d9" font-size="12">trust store</text>
+  <line x1="126" y1="110" x2="206" y2="110" stroke="#4a90d9" stroke-width="1.4"/>
+  <polygon points="206.0,110.0 197.6,113.3 197.6,106.7" fill="#4a90d9"/>
+  <text x="520" y="324" fill="#8a8a8a" font-size="11">the server proves it</text>
+  <text x="520" y="340" fill="#8a8a8a" font-size="11">holds sk_site by signing</text>
+  <text x="520" y="356" fill="#8a8a8a" font-size="11">the handshake transcript</text>
+  <text x="40" y="388" fill="#8a8a8a" font-size="11">Verification walks upward: check each signature with the parent's key, then stop when a certificate is already trusted.</text>
+</svg>

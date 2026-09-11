@@ -1,0 +1,35 @@
+<svg viewBox="0 0 700 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Key sizes that buy the same security: the cost of having an index calculus</text>
+  <line x1="120" y1="250" x2="632" y2="250" stroke="#8a8a8a" stroke-width="1.2"/>
+  <rect x="128" y="238.6233383360083" width="26" height="11.37666166399172" fill="#8a8a8a" stroke="none" stroke-width="0"/>
+  <text x="141" y="232.6233383360083" fill="#8a8a8a" font-size="11" text-anchor="middle">112</text>
+  <rect x="160" y="217.97081328676475" width="26" height="32.029186713235255" fill="#4a90d9" stroke="none" stroke-width="0"/>
+  <text x="173" y="211.97081328676475" fill="#4a90d9" font-size="11" text-anchor="middle">224</text>
+  <rect x="192" y="152.03463084121535" width="26" height="97.96536915878467" fill="#e0645c" stroke="none" stroke-width="0"/>
+  <text x="205" y="146.03463084121535" fill="#e0645c" font-size="11" text-anchor="middle">2048</text>
+  <text x="176" y="268" fill="#8a8a8a" font-size="12" text-anchor="middle">112-bit security</text>
+  <rect x="256" y="234.64473103818946" width="26" height="15.355268961810529" fill="#8a8a8a" stroke="none" stroke-width="0"/>
+  <text x="269" y="228.64473103818946" fill="#8a8a8a" font-size="11" text-anchor="middle">128</text>
+  <rect x="288" y="213.99220598894595" width="26" height="36.00779401105406" fill="#4a90d9" stroke="none" stroke-width="0"/>
+  <text x="301" y="207.99220598894595" fill="#4a90d9" font-size="11" text-anchor="middle">256</text>
+  <rect x="320" y="139.95367814220356" width="26" height="110.04632185779644" fill="#e0645c" stroke="none" stroke-width="0"/>
+  <text x="333" y="133.95367814220356" fill="#e0645c" font-size="11" text-anchor="middle">3072</text>
+  <text x="304" y="268" fill="#8a8a8a" font-size="12" text-anchor="middle">128-bit security</text>
+  <rect x="384" y="222.56377833917765" width="26" height="27.43622166082235" fill="#8a8a8a" stroke="none" stroke-width="0"/>
+  <text x="397" y="216.56377833917765" fill="#8a8a8a" font-size="11" text-anchor="middle">192</text>
+  <rect x="416" y="201.9112532899341" width="26" height="48.088746710065884" fill="#4a90d9" stroke="none" stroke-width="0"/>
+  <text x="429" y="195.9112532899341" fill="#4a90d9" font-size="11" text-anchor="middle">384</text>
+  <rect x="448" y="112.65252504924351" width="26" height="137.3474749507565" fill="#e0645c" stroke="none" stroke-width="0"/>
+  <text x="461" y="106.65252504924351" fill="#e0645c" font-size="11" text-anchor="middle">7680</text>
+  <text x="432" y="268" fill="#8a8a8a" font-size="12" text-anchor="middle">192-bit security</text>
+  <rect x="512" y="213.99220598894595" width="26" height="36.00779401105406" fill="#8a8a8a" stroke="none" stroke-width="0"/>
+  <text x="525" y="207.99220598894595" fill="#8a8a8a" font-size="11" text-anchor="middle">256</text>
+  <rect x="544" y="193.33968093970242" width="26" height="56.66031906029759" fill="#4a90d9" stroke="none" stroke-width="0"/>
+  <text x="557" y="187.33968093970242" fill="#4a90d9" font-size="11" text-anchor="middle">512</text>
+  <rect x="576" y="92.0" width="26" height="158.0" fill="#e0645c" stroke="none" stroke-width="0"/>
+  <text x="589" y="86.0" fill="#e0645c" font-size="11" text-anchor="middle">15360</text>
+  <text x="560" y="268" fill="#8a8a8a" font-size="12" text-anchor="middle">256-bit security</text>
+  <text x="60" y="290" fill="#8a8a8a" font-size="12">grey = symmetric key    blue = elliptic curve    coral = RSA modulus or finite-field DH prime</text>
+  <text x="60" y="310" fill="#8a8a8a" font-size="11">Bar heights are on a log scale. RSA and finite-field DH need far larger parameters because index calculus</text>
+  <text x="60" y="326" fill="#8a8a8a" font-size="11">and the number field sieve attack them in subexponential time; no such algorithm is known for elliptic curves.</text>
+</svg>

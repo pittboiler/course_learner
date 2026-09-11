@@ -1,0 +1,39 @@
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Diffie-Hellman, and the same exchange with an unauthenticated middle</text>
+  <text x="50" y="62" fill="#4a90d9" font-size="12">honest run</text>
+  <text x="150" y="64" fill="#4a90d9" font-size="12" text-anchor="middle">Alice: secret a</text>
+  <text x="520" y="64" fill="#4a90d9" font-size="12" text-anchor="middle">Bob: secret b</text>
+  <line x1="150" y1="80" x2="150" y2="180" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="520" y1="80" x2="520" y2="180" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="154" y1="102" x2="516" y2="102" stroke="#4a90d9" stroke-width="1.4"/>
+  <polygon points="516.0,102.0 507.6,105.3 507.6,98.7" fill="#4a90d9"/>
+  <text x="335" y="96" fill="#4a90d9" font-size="12" text-anchor="middle">A = g^a mod p</text>
+  <line x1="516" y1="136" x2="154" y2="136" stroke="#4a90d9" stroke-width="1.4"/>
+  <polygon points="154.0,136.0 162.4,132.7 162.4,139.3" fill="#4a90d9"/>
+  <text x="335" y="130" fill="#4a90d9" font-size="12" text-anchor="middle">B = g^b mod p</text>
+  <text x="150" y="202" fill="#4a90d9" font-size="11" text-anchor="middle">computes B^a</text>
+  <text x="520" y="202" fill="#4a90d9" font-size="11" text-anchor="middle">computes A^b</text>
+  <text x="335" y="202" fill="#4a90d9" font-size="12" text-anchor="middle">both equal g^(ab)</text>
+  <text x="50" y="244" fill="#e0645c" font-size="12">active attacker in the middle</text>
+  <text x="120" y="266" fill="#8a8a8a" font-size="12" text-anchor="middle">Alice</text>
+  <text x="350" y="266" fill="#e0645c" font-size="12" text-anchor="middle">Eve: secret e</text>
+  <text x="580" y="266" fill="#8a8a8a" font-size="12" text-anchor="middle">Bob</text>
+  <line x1="120" y1="274" x2="120" y2="356" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="350" y1="274" x2="350" y2="356" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="580" y1="274" x2="580" y2="356" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="124" y1="294" x2="346" y2="294" stroke="#8a8a8a" stroke-width="1.3"/>
+  <polygon points="346.0,294.0 337.6,297.3 337.6,290.7" fill="#8a8a8a"/>
+  <text x="235" y="288" fill="#8a8a8a" font-size="11" text-anchor="middle">g^a</text>
+  <line x1="354" y1="294" x2="576" y2="294" stroke="#e0645c" stroke-width="1.3"/>
+  <polygon points="576.0,294.0 567.6,297.3 567.6,290.7" fill="#e0645c"/>
+  <text x="465" y="288" fill="#e0645c" font-size="11" text-anchor="middle">g^e</text>
+  <line x1="576" y1="322" x2="354" y2="322" stroke="#8a8a8a" stroke-width="1.3"/>
+  <polygon points="354.0,322.0 362.4,318.7 362.4,325.3" fill="#8a8a8a"/>
+  <text x="465" y="316" fill="#8a8a8a" font-size="11" text-anchor="middle">g^b</text>
+  <line x1="346" y1="322" x2="124" y2="322" stroke="#e0645c" stroke-width="1.3"/>
+  <polygon points="124.0,322.0 132.4,318.7 132.4,325.3" fill="#e0645c"/>
+  <text x="235" y="316" fill="#e0645c" font-size="11" text-anchor="middle">g^e</text>
+  <text x="235" y="350" fill="#e0645c" font-size="11" text-anchor="middle">shares g^(ae)</text>
+  <text x="465" y="350" fill="#e0645c" font-size="11" text-anchor="middle">shares g^(be)</text>
+  <text x="40" y="382" fill="#e0645c" font-size="11">Alice and Bob each complete a correct exchange and neither notices. Diffie-Hellman agrees a key with whoever answered.</text>
+</svg>

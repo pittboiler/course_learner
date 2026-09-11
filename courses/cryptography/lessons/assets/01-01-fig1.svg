@@ -1,0 +1,116 @@
+<svg viewBox="0 0 700 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">English letter frequency, and the same profile shifted by a key of 7</text>
+  <line x1="64" y1="150" x2="674.0" y2="150" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="58" y="98" fill="#8a8a8a" font-size="12" text-anchor="end">plaintext</text>
+  <text x="58" y="112" fill="#8a8a8a" font-size="12" text-anchor="end">English</text>
+  <rect x="75.0" y="92.60000000000001" width="17.0" height="57.39999999999999" fill="#4a90d9" stroke="none" stroke-width="0"/>
+  <text x="83.5" y="165" fill="#8a8a8a" font-size="11" text-anchor="middle">A</text>
+  <rect x="98.0" y="139.5" width="17.0" height="10.5" fill="#4a90d9" stroke="none" stroke-width="0"/>
+  <text x="106.5" y="165" fill="#8a8a8a" font-size="11" text-anchor="middle">B</text>
+  <rect x="121.0" y="130.4" width="17.0" height="19.599999999999998" fill="#4a90d9" stroke="none" stroke-width="0"/>
+  <text x="129.5" y="165" fill="#8a8a8a" font-size="11" text-anchor="middle">C</text>
+  <rect x="144.0" y="119.9" width="17.0" height="30.099999999999998" fill="#4a90d9" stroke="none" stroke-width="0"/>
+  <text x="152.5" y="165" fill="#8a8a8a" font-size="11" text-anchor="middle">D</text>
+  <rect x="167.0" y="61.10000000000001" width="17.0" height="88.89999999999999" fill="#e0645c" stroke="none" stroke-width="0"/>
+  <text x="175.5" y="165" fill="#8a8a8a" font-size="11" text-anchor="middle">E</text>
+  <rect x="190.0" y="134.6" width="17.0" height="15.400000000000002" fill="#4a90d9" stroke="none" stroke-width="0"/>
+  <text x="198.5" y="165" fill="#8a8a8a" font-size="11" text-anchor="middle">F</text>
+  <rect x="213.0" y="136.0" width="17.0" height="14.0" fill="#4a90d9" stroke="none" stroke-width="0"/>
+  <text x="221.5" y="165" fill="#8a8a8a" font-size="11" text-anchor="middle">G</text>
+  <rect x="236.0" y="107.30000000000001" width="17.0" height="42.699999999999996" fill="#4a90d9" stroke="none" stroke-width="0"/>
+  <text x="244.5" y="165" fill="#8a8a8a" font-size="11" text-anchor="middle">H</text>
+  <rect x="259.0" y="101.0" width="17.0" height="49.0" fill="#4a90d9" stroke="none" stroke-width="0"/>
+  <text x="267.5" y="165" fill="#8a8a8a" font-size="11" text-anchor="middle">I</text>
+  <rect x="282.0" y="148.95" width="17.0" height="1.05" fill="#4a90d9" stroke="none" stroke-width="0"/>
+  <text x="290.5" y="165" fill="#8a8a8a" font-size="11" text-anchor="middle">J</text>
+  <rect x="305.0" y="144.61" width="17.0" height="5.390000000000001" fill="#4a90d9" stroke="none" stroke-width="0"/>
+  <text x="313.5" y="165" fill="#8a8a8a" font-size="11" text-anchor="middle">K</text>
+  <rect x="328.0" y="122.0" width="17.0" height="28.0" fill="#4a90d9" stroke="none" stroke-width="0"/>
+  <text x="336.5" y="165" fill="#8a8a8a" font-size="11" text-anchor="middle">L</text>
+  <rect x="351.0" y="133.2" width="17.0" height="16.8" fill="#4a90d9" stroke="none" stroke-width="0"/>
+  <text x="359.5" y="165" fill="#8a8a8a" font-size="11" text-anchor="middle">M</text>
+  <rect x="374.0" y="103.1" width="17.0" height="46.9" fill="#4a90d9" stroke="none" stroke-width="0"/>
+  <text x="382.5" y="165" fill="#8a8a8a" font-size="11" text-anchor="middle">N</text>
+  <rect x="397.0" y="97.5" width="17.0" height="52.5" fill="#4a90d9" stroke="none" stroke-width="0"/>
+  <text x="405.5" y="165" fill="#8a8a8a" font-size="11" text-anchor="middle">O</text>
+  <rect x="420.0" y="136.7" width="17.0" height="13.299999999999999" fill="#4a90d9" stroke="none" stroke-width="0"/>
+  <text x="428.5" y="165" fill="#8a8a8a" font-size="11" text-anchor="middle">P</text>
+  <rect x="443.0" y="149.335" width="17.0" height="0.665" fill="#4a90d9" stroke="none" stroke-width="0"/>
+  <text x="451.5" y="165" fill="#8a8a8a" font-size="11" text-anchor="middle">Q</text>
+  <rect x="466.0" y="108.0" width="17.0" height="42.0" fill="#4a90d9" stroke="none" stroke-width="0"/>
+  <text x="474.5" y="165" fill="#8a8a8a" font-size="11" text-anchor="middle">R</text>
+  <rect x="489.0" y="105.9" width="17.0" height="44.1" fill="#4a90d9" stroke="none" stroke-width="0"/>
+  <text x="497.5" y="165" fill="#8a8a8a" font-size="11" text-anchor="middle">S</text>
+  <rect x="512.0" y="86.30000000000001" width="17.0" height="63.699999999999996" fill="#e0645c" stroke="none" stroke-width="0"/>
+  <text x="520.5" y="165" fill="#8a8a8a" font-size="11" text-anchor="middle">T</text>
+  <rect x="535.0" y="130.4" width="17.0" height="19.599999999999998" fill="#4a90d9" stroke="none" stroke-width="0"/>
+  <text x="543.5" y="165" fill="#8a8a8a" font-size="11" text-anchor="middle">U</text>
+  <rect x="558.0" y="143.14" width="17.0" height="6.859999999999999" fill="#4a90d9" stroke="none" stroke-width="0"/>
+  <text x="566.5" y="165" fill="#8a8a8a" font-size="11" text-anchor="middle">V</text>
+  <rect x="581.0" y="133.2" width="17.0" height="16.8" fill="#4a90d9" stroke="none" stroke-width="0"/>
+  <text x="589.5" y="165" fill="#8a8a8a" font-size="11" text-anchor="middle">W</text>
+  <rect x="604.0" y="148.95" width="17.0" height="1.05" fill="#4a90d9" stroke="none" stroke-width="0"/>
+  <text x="612.5" y="165" fill="#8a8a8a" font-size="11" text-anchor="middle">X</text>
+  <rect x="627.0" y="136.0" width="17.0" height="14.0" fill="#4a90d9" stroke="none" stroke-width="0"/>
+  <text x="635.5" y="165" fill="#8a8a8a" font-size="11" text-anchor="middle">Y</text>
+  <rect x="650.0" y="149.482" width="17.0" height="0.518" fill="#4a90d9" stroke="none" stroke-width="0"/>
+  <text x="658.5" y="165" fill="#8a8a8a" font-size="11" text-anchor="middle">Z</text>
+  <line x1="64" y1="310" x2="674.0" y2="310" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="58" y="258" fill="#8a8a8a" font-size="12" text-anchor="end">ciphertext</text>
+  <text x="58" y="272" fill="#8a8a8a" font-size="12" text-anchor="end">shift 7</text>
+  <rect x="75.0" y="246.3" width="17.0" height="63.699999999999996" fill="#e0645c" stroke="none" stroke-width="0"/>
+  <text x="83.5" y="325" fill="#8a8a8a" font-size="11" text-anchor="middle">A</text>
+  <rect x="98.0" y="290.4" width="17.0" height="19.599999999999998" fill="#4a90d9" stroke="none" stroke-width="0"/>
+  <text x="106.5" y="325" fill="#8a8a8a" font-size="11" text-anchor="middle">B</text>
+  <rect x="121.0" y="303.14" width="17.0" height="6.859999999999999" fill="#4a90d9" stroke="none" stroke-width="0"/>
+  <text x="129.5" y="325" fill="#8a8a8a" font-size="11" text-anchor="middle">C</text>
+  <rect x="144.0" y="293.2" width="17.0" height="16.8" fill="#4a90d9" stroke="none" stroke-width="0"/>
+  <text x="152.5" y="325" fill="#8a8a8a" font-size="11" text-anchor="middle">D</text>
+  <rect x="167.0" y="308.95" width="17.0" height="1.05" fill="#4a90d9" stroke="none" stroke-width="0"/>
+  <text x="175.5" y="325" fill="#8a8a8a" font-size="11" text-anchor="middle">E</text>
+  <rect x="190.0" y="296.0" width="17.0" height="14.0" fill="#4a90d9" stroke="none" stroke-width="0"/>
+  <text x="198.5" y="325" fill="#8a8a8a" font-size="11" text-anchor="middle">F</text>
+  <rect x="213.0" y="309.482" width="17.0" height="0.518" fill="#4a90d9" stroke="none" stroke-width="0"/>
+  <text x="221.5" y="325" fill="#8a8a8a" font-size="11" text-anchor="middle">G</text>
+  <rect x="236.0" y="252.60000000000002" width="17.0" height="57.39999999999999" fill="#4a90d9" stroke="none" stroke-width="0"/>
+  <text x="244.5" y="325" fill="#8a8a8a" font-size="11" text-anchor="middle">H</text>
+  <rect x="259.0" y="299.5" width="17.0" height="10.5" fill="#4a90d9" stroke="none" stroke-width="0"/>
+  <text x="267.5" y="325" fill="#8a8a8a" font-size="11" text-anchor="middle">I</text>
+  <rect x="282.0" y="290.4" width="17.0" height="19.599999999999998" fill="#4a90d9" stroke="none" stroke-width="0"/>
+  <text x="290.5" y="325" fill="#8a8a8a" font-size="11" text-anchor="middle">J</text>
+  <rect x="305.0" y="279.9" width="17.0" height="30.099999999999998" fill="#4a90d9" stroke="none" stroke-width="0"/>
+  <text x="313.5" y="325" fill="#8a8a8a" font-size="11" text-anchor="middle">K</text>
+  <rect x="328.0" y="221.10000000000002" width="17.0" height="88.89999999999999" fill="#e0645c" stroke="none" stroke-width="0"/>
+  <text x="336.5" y="325" fill="#8a8a8a" font-size="11" text-anchor="middle">L</text>
+  <rect x="351.0" y="294.6" width="17.0" height="15.400000000000002" fill="#4a90d9" stroke="none" stroke-width="0"/>
+  <text x="359.5" y="325" fill="#8a8a8a" font-size="11" text-anchor="middle">M</text>
+  <rect x="374.0" y="296.0" width="17.0" height="14.0" fill="#4a90d9" stroke="none" stroke-width="0"/>
+  <text x="382.5" y="325" fill="#8a8a8a" font-size="11" text-anchor="middle">N</text>
+  <rect x="397.0" y="267.3" width="17.0" height="42.699999999999996" fill="#4a90d9" stroke="none" stroke-width="0"/>
+  <text x="405.5" y="325" fill="#8a8a8a" font-size="11" text-anchor="middle">O</text>
+  <rect x="420.0" y="261.0" width="17.0" height="49.0" fill="#4a90d9" stroke="none" stroke-width="0"/>
+  <text x="428.5" y="325" fill="#8a8a8a" font-size="11" text-anchor="middle">P</text>
+  <rect x="443.0" y="308.95" width="17.0" height="1.05" fill="#4a90d9" stroke="none" stroke-width="0"/>
+  <text x="451.5" y="325" fill="#8a8a8a" font-size="11" text-anchor="middle">Q</text>
+  <rect x="466.0" y="304.61" width="17.0" height="5.390000000000001" fill="#4a90d9" stroke="none" stroke-width="0"/>
+  <text x="474.5" y="325" fill="#8a8a8a" font-size="11" text-anchor="middle">R</text>
+  <rect x="489.0" y="282.0" width="17.0" height="28.0" fill="#4a90d9" stroke="none" stroke-width="0"/>
+  <text x="497.5" y="325" fill="#8a8a8a" font-size="11" text-anchor="middle">S</text>
+  <rect x="512.0" y="293.2" width="17.0" height="16.8" fill="#4a90d9" stroke="none" stroke-width="0"/>
+  <text x="520.5" y="325" fill="#8a8a8a" font-size="11" text-anchor="middle">T</text>
+  <rect x="535.0" y="263.1" width="17.0" height="46.9" fill="#4a90d9" stroke="none" stroke-width="0"/>
+  <text x="543.5" y="325" fill="#8a8a8a" font-size="11" text-anchor="middle">U</text>
+  <rect x="558.0" y="257.5" width="17.0" height="52.5" fill="#4a90d9" stroke="none" stroke-width="0"/>
+  <text x="566.5" y="325" fill="#8a8a8a" font-size="11" text-anchor="middle">V</text>
+  <rect x="581.0" y="296.7" width="17.0" height="13.299999999999999" fill="#4a90d9" stroke="none" stroke-width="0"/>
+  <text x="589.5" y="325" fill="#8a8a8a" font-size="11" text-anchor="middle">W</text>
+  <rect x="604.0" y="309.335" width="17.0" height="0.665" fill="#4a90d9" stroke="none" stroke-width="0"/>
+  <text x="612.5" y="325" fill="#8a8a8a" font-size="11" text-anchor="middle">X</text>
+  <rect x="627.0" y="268.0" width="17.0" height="42.0" fill="#4a90d9" stroke="none" stroke-width="0"/>
+  <text x="635.5" y="325" fill="#8a8a8a" font-size="11" text-anchor="middle">Y</text>
+  <rect x="650.0" y="265.9" width="17.0" height="44.1" fill="#4a90d9" stroke="none" stroke-width="0"/>
+  <text x="658.5" y="325" fill="#8a8a8a" font-size="11" text-anchor="middle">Z</text>
+  <line x1="175.5" y1="172" x2="336.5" y2="211.10000000000002" stroke="#e0645c" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <text x="392" y="205" fill="#e0645c" font-size="11">the whole profile slides 7 places;</text>
+  <text x="392" y="221" fill="#e0645c" font-size="11">the peak just moves</text>
+</svg>
