@@ -1,0 +1,37 @@
+<svg viewBox="0 0 700 392" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="40.0" y="24.0" fill="#8a8a8a" font-style="italic">The broadcast ladder: each rung forbids one more kind of delivery order</text>
+  <rect x="40.0" y="52.0" width="392.0" height="50.0" fill="none" stroke="#4a90d9" stroke-width="1.8" rx="5"/>
+  <text x="52.0" y="72.0" fill="#4a90d9">total order</text>
+  <text x="52.0" y="90.0" fill="#8a8a8a" font-size="10.5">every process delivers every message in the SAME order</text>
+  <text x="448.0" y="83.0" fill="#8a8a8a" font-size="10">rejects</text>
+  <text x="448.0" y="68.0" fill="#e0645c" font-size="10.5">C: m1 m2    D: m2 m1</text>
+  <line x1="236.0" y1="118.0" x2="236.0" y2="106.0" stroke="#8a8a8a" stroke-width="1.4"/>
+  <polygon points="236.0,106.0 231.5,115.9 240.5,115.9" fill="#8a8a8a"/>
+  <rect x="40.0" y="118.0" width="392.0" height="50.0" fill="none" stroke="#4a90d9" stroke-width="1.8" rx="5"/>
+  <text x="52.0" y="138.0" fill="#4a90d9">causal</text>
+  <text x="52.0" y="156.0" fill="#8a8a8a" font-size="10.5">if send(m) happens-before send(m&#x27;), no one delivers m&#x27; first</text>
+  <text x="448.0" y="149.0" fill="#8a8a8a" font-size="10">rejects</text>
+  <text x="448.0" y="134.0" fill="#e0645c" font-size="10.5">C: m3 m1  where m1 caused m3</text>
+  <line x1="236.0" y1="184.0" x2="236.0" y2="172.0" stroke="#8a8a8a" stroke-width="1.4"/>
+  <polygon points="236.0,172.0 231.5,181.9 240.5,181.9" fill="#8a8a8a"/>
+  <rect x="40.0" y="184.0" width="392.0" height="50.0" fill="none" stroke="#8a8a8a" stroke-width="1.8" rx="5"/>
+  <text x="52.0" y="204.0" fill="#8a8a8a">FIFO</text>
+  <text x="52.0" y="222.0" fill="#8a8a8a" font-size="10.5">messages from ONE sender are delivered in send order</text>
+  <text x="448.0" y="215.0" fill="#8a8a8a" font-size="10">rejects</text>
+  <text x="448.0" y="200.0" fill="#e0645c" font-size="10.5">C: m2 m1  both sent by A, m1 first</text>
+  <line x1="236.0" y1="250.0" x2="236.0" y2="238.0" stroke="#8a8a8a" stroke-width="1.4"/>
+  <polygon points="236.0,238.0 231.5,247.9 240.5,247.9" fill="#8a8a8a"/>
+  <rect x="40.0" y="250.0" width="392.0" height="50.0" fill="none" stroke="#8a8a8a" stroke-width="1.8" rx="5"/>
+  <text x="52.0" y="270.0" fill="#8a8a8a">reliable</text>
+  <text x="52.0" y="288.0" fill="#8a8a8a" font-size="10.5">if one correct process delivers m, all correct ones do</text>
+  <text x="448.0" y="281.0" fill="#8a8a8a" font-size="10">rejects</text>
+  <text x="448.0" y="266.0" fill="#e0645c" font-size="10.5">C delivers m1, D never does</text>
+  <line x1="236.0" y1="316.0" x2="236.0" y2="304.0" stroke="#8a8a8a" stroke-width="1.4"/>
+  <polygon points="236.0,304.0 231.5,313.9 240.5,313.9" fill="#8a8a8a"/>
+  <rect x="40.0" y="316.0" width="392.0" height="50.0" fill="none" stroke="#8a8a8a" stroke-width="1.8" rx="5"/>
+  <text x="52.0" y="336.0" fill="#8a8a8a">best-effort</text>
+  <text x="52.0" y="354.0" fill="#8a8a8a" font-size="10.5">a correct sender&#x27;s message reaches every correct process</text>
+  <text x="448.0" y="347.0" fill="#8a8a8a" font-size="10">rejects</text>
+  <text x="448.0" y="332.0" fill="#e0645c" font-size="10.5">sender correct, m1 delivered nowhere</text>
+  <text x="40.0" y="362.0" fill="#8a8a8a" font-size="10.5">Each rung implies every rung below it. Total order is the top, and it is exactly as hard as consensus.</text>
+</svg>

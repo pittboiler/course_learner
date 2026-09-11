@@ -1,0 +1,44 @@
+<svg viewBox="0 0 700 392" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="40.0" y="24.0" fill="#8a8a8a" font-style="italic">One round of Paxos: the promises tell the proposer what it is allowed to propose</text>
+  <text x="142.0" y="96.2" fill="#8a8a8a" font-size="12" text-anchor="end">proposer</text>
+  <line x1="150.0" y1="92.0" x2="650.0" y2="92.0" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="650.0,92.0 640.1,87.5 640.1,96.5" fill="#8a8a8a"/>
+  <text x="142.0" y="168.2" fill="#8a8a8a" font-size="12" text-anchor="end">A1</text>
+  <line x1="150.0" y1="164.0" x2="650.0" y2="164.0" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="650.0,164.0 640.1,159.5 640.1,168.5" fill="#8a8a8a"/>
+  <text x="142.0" y="236.2" fill="#8a8a8a" font-size="12" text-anchor="end">A2</text>
+  <line x1="150.0" y1="232.0" x2="650.0" y2="232.0" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="650.0,232.0 640.1,227.5 640.1,236.5" fill="#8a8a8a"/>
+  <text x="142.0" y="304.2" fill="#8a8a8a" font-size="12" text-anchor="end">A3</text>
+  <line x1="150.0" y1="300.0" x2="650.0" y2="300.0" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="650.0,300.0 640.1,295.5 640.1,304.5" fill="#8a8a8a"/>
+  <text x="156.0" y="156.0" fill="#8a8a8a" font-size="10">accepted (3, X)</text>
+  <text x="156.0" y="224.0" fill="#8a8a8a" font-size="10">nothing accepted</text>
+  <text x="156.0" y="292.0" fill="#e0645c" font-size="10">unreachable</text>
+  <line x1="250.0" y1="92.0" x2="290.0" y2="164.0" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="290.0,164.0 289.1,153.2 281.3,157.5" fill="#e0645c"/>
+  <line x1="250.0" y1="92.0" x2="300.0" y2="232.0" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="300.0,232.0 300.9,221.2 292.4,224.2" fill="#e0645c"/>
+  <text x="206.0" y="114.0" fill="#e0645c" font-size="10.5">prepare(7)</text>
+  <line x1="310.0" y1="164.0" x2="352.0" y2="92.0" stroke="#4a90d9" stroke-width="1.5"/>
+  <polygon points="352.0,92.0 343.1,98.3 350.9,102.8" fill="#4a90d9"/>
+  <line x1="320.0" y1="232.0" x2="360.0" y2="92.0" stroke="#4a90d9" stroke-width="1.5"/>
+  <polygon points="360.0,92.0 353.0,100.3 361.6,102.8" fill="#4a90d9"/>
+  <text x="364.0" y="112.0" fill="#4a90d9" font-size="10.5">promise(7, had 3:X)</text>
+  <text x="364.0" y="128.0" fill="#4a90d9" font-size="10.5">promise(7, had nothing)</text>
+  <rect x="398.0" y="58.0" width="250.0" height="30.0" fill="none" stroke="#e0645c" stroke-width="1.8" rx="4"/>
+  <text x="404.0" y="78.0" fill="#e0645c" font-size="11">highest accepted is 3:X - propose X</text>
+  <line x1="470.0" y1="92.0" x2="510.0" y2="164.0" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="510.0,164.0 509.1,153.2 501.3,157.5" fill="#e0645c"/>
+  <line x1="470.0" y1="92.0" x2="520.0" y2="232.0" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="520.0,232.0 520.9,221.2 512.4,224.2" fill="#e0645c"/>
+  <text x="452.0" y="148.0" fill="#e0645c" font-size="10.5">accept(7, X)</text>
+  <line x1="530.0" y1="164.0" x2="570.0" y2="92.0" stroke="#4a90d9" stroke-width="1.5"/>
+  <polygon points="570.0,92.0 561.3,98.5 569.1,102.8" fill="#4a90d9"/>
+  <line x1="540.0" y1="232.0" x2="580.0" y2="92.0" stroke="#4a90d9" stroke-width="1.5"/>
+  <polygon points="580.0,92.0 573.0,100.3 581.6,102.8" fill="#4a90d9"/>
+  <text x="584.0" y="144.0" fill="#4a90d9" font-size="10.5">accepted</text>
+  <text x="24.0" y="338.0" fill="#8a8a8a" font-size="10.5">The proposer arrived wanting to propose Z. It is forbidden: a majority promise revealed an earlier</text>
+  <text x="24.0" y="356.0" fill="#8a8a8a" font-size="10.5">accepted value, and any majority that might already have chosen it must contain one of these acceptors.</text>
+  <text x="24.0" y="378.0" fill="#4a90d9" font-size="11">Paxos never chooses a second value; a later proposer can only re-choose the first.</text>
+</svg>

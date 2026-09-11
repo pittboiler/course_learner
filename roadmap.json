@@ -1165,7 +1165,7 @@
         "operating-systems",
         "computer-networks"
       ],
-      "lessons_estimate": 20,
+      "lessons_estimate": 25,
       "blurb": "Time & consistency, replication, consensus (Paxos/Raft), the CAP theorem, and fault tolerance."
     },
     {

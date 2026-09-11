@@ -1,0 +1,25 @@
+<svg viewBox="0 0 700 372" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="40.0" y="24.0" fill="#8a8a8a" font-style="italic">Each ring drops one requirement, and the note names what you lose by stepping out</text>
+  <rect x="30.0" y="46.0" width="400.0" height="308.0" fill="none" stroke="#8a8a8a" stroke-width="1.8" rx="8"/>
+  <text x="230.0" y="64.0" fill="#8a8a8a" font-size="12" text-anchor="middle">eventual consistency</text>
+  <rect x="54.0" y="78.0" width="352.0" height="244.0" fill="none" stroke="#8a8a8a" stroke-width="1.8" rx="8"/>
+  <text x="230.0" y="96.0" fill="#8a8a8a" font-size="12" text-anchor="middle">causal consistency</text>
+  <rect x="78.0" y="110.0" width="304.0" height="180.0" fill="none" stroke="#4a90d9" stroke-width="1.8" rx="8"/>
+  <text x="230.0" y="128.0" fill="#4a90d9" font-size="12" text-anchor="middle">sequential consistency</text>
+  <rect x="102.0" y="142.0" width="256.0" height="116.0" fill="none" stroke="#4a90d9" stroke-width="1.8" rx="8"/>
+  <text x="230.0" y="160.0" fill="#4a90d9" font-size="12" text-anchor="middle">linearizable</text>
+  <line x1="436.0" y1="258.0" x2="462.0" y2="258.0" stroke="#e0645c" stroke-width="1.4"/>
+  <polygon points="462.0,258.0 452.1,253.5 452.1,262.5" fill="#e0645c"/>
+  <text x="468.0" y="255.0" fill="#e0645c" font-size="11">stepping out drops real-time order</text>
+  <text x="468.0" y="271.0" fill="#8a8a8a" font-size="10">a completed write may go unseen by a later read</text>
+  <line x1="436.0" y1="290.0" x2="462.0" y2="290.0" stroke="#e0645c" stroke-width="1.4"/>
+  <polygon points="462.0,290.0 452.1,285.5 452.1,294.5" fill="#e0645c"/>
+  <text x="468.0" y="287.0" fill="#e0645c" font-size="11">stepping out drops a single agreed order</text>
+  <text x="468.0" y="303.0" fill="#8a8a8a" font-size="10">two nodes may order concurrent writes differently</text>
+  <line x1="436.0" y1="322.0" x2="462.0" y2="322.0" stroke="#e0645c" stroke-width="1.4"/>
+  <polygon points="462.0,322.0 452.1,317.5 452.1,326.5" fill="#e0645c"/>
+  <text x="468.0" y="319.0" fill="#e0645c" font-size="11">stepping out drops causal order</text>
+  <text x="468.0" y="335.0" fill="#8a8a8a" font-size="10">a reply may appear before the message it answers</text>
+  <text x="230.0" y="200.0" fill="#4a90d9" font-size="11" text-anchor="middle">strongest, most expensive</text>
+  <text x="30.0" y="368.0" fill="#8a8a8a" font-size="10.5">Only causal consistency and weaker remain available during a network partition (lesson 3.5).</text>
+</svg>

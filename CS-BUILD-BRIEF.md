@@ -106,7 +106,7 @@ Full field: 16 courses, ~312 lessons.
 | 2 | computer-graphics | 20 |
 | 2 | cryptography | 21 |
 | 2 | deep-learning | 22 |
-| 2 | distributed-systems | 20 |
+| 2 | distributed-systems | 25 (built 2026-09-10; syllabus extended from 20) |
 | 2 | machine-learning | 23 |
 | 2 | programming-languages | 21 |
 | 2 | quantum-computing | 20 |

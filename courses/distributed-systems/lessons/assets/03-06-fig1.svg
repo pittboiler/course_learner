@@ -1,0 +1,33 @@
+<svg viewBox="0 0 700 392" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="40.0" y="24.0" fill="#8a8a8a" font-style="italic">State-machine replication: agree on the commands, never on the state</text>
+  <rect x="250.0" y="56.0" width="200.0" height="36.0" fill="none" stroke="#8a8a8a" stroke-width="1.5" rx="4"/>
+  <text x="350.0" y="78.2" fill="#8a8a8a" font-size="12" text-anchor="middle">clients</text>
+  <line x1="350.0" y1="92.0" x2="350.0" y2="120.0" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="350.0,120.0 354.5,110.1 345.5,110.1" fill="#8a8a8a"/>
+  <rect x="96.0" y="120.0" width="508.0" height="56.0" fill="none" stroke="#4a90d9" stroke-width="2.0" rx="5"/>
+  <text x="350.0" y="144.0" fill="#4a90d9" font-size="12" text-anchor="middle">consensus log: one agreed order of commands</text>
+  <text x="350.0" y="166.0" fill="#8a8a8a" font-size="10.5" text-anchor="middle">Paxos or Raft decides slot k, for every k</text>
+  <line x1="166.0" y1="176.0" x2="166.0" y2="212.0" stroke="#4a90d9" stroke-width="1.5"/>
+  <polygon points="166.0,212.0 170.5,202.1 161.5,202.1" fill="#4a90d9"/>
+  <rect x="82.0" y="212.0" width="168.0" height="72.0" fill="none" stroke="#8a8a8a" stroke-width="1.7" rx="5"/>
+  <text x="166.0" y="236.0" fill="#8a8a8a" font-size="11.5" text-anchor="middle">replica 1</text>
+  <text x="166.0" y="256.0" fill="#8a8a8a" font-size="10.5" text-anchor="middle">deterministic</text>
+  <text x="166.0" y="272.0" fill="#8a8a8a" font-size="10.5" text-anchor="middle">state machine</text>
+  <line x1="350.0" y1="176.0" x2="350.0" y2="212.0" stroke="#4a90d9" stroke-width="1.5"/>
+  <polygon points="350.0,212.0 354.5,202.1 345.5,202.1" fill="#4a90d9"/>
+  <rect x="266.0" y="212.0" width="168.0" height="72.0" fill="none" stroke="#8a8a8a" stroke-width="1.7" rx="5"/>
+  <text x="350.0" y="236.0" fill="#8a8a8a" font-size="11.5" text-anchor="middle">replica 2</text>
+  <text x="350.0" y="256.0" fill="#8a8a8a" font-size="10.5" text-anchor="middle">deterministic</text>
+  <text x="350.0" y="272.0" fill="#8a8a8a" font-size="10.5" text-anchor="middle">state machine</text>
+  <line x1="534.0" y1="176.0" x2="534.0" y2="212.0" stroke="#4a90d9" stroke-width="1.5"/>
+  <polygon points="534.0,212.0 538.5,202.1 529.5,202.1" fill="#4a90d9"/>
+  <rect x="450.0" y="212.0" width="168.0" height="72.0" fill="none" stroke="#8a8a8a" stroke-width="1.7" rx="5"/>
+  <text x="534.0" y="236.0" fill="#8a8a8a" font-size="11.5" text-anchor="middle">replica 3</text>
+  <text x="534.0" y="256.0" fill="#8a8a8a" font-size="10.5" text-anchor="middle">deterministic</text>
+  <text x="534.0" y="272.0" fill="#8a8a8a" font-size="10.5" text-anchor="middle">state machine</text>
+  <text x="350.0" y="308.0" fill="#4a90d9" font-size="11" text-anchor="middle">Same commands + same order + determinism = same state, with no agreement about state at all.</text>
+  <line x1="30.0" y1="326.0" x2="670.0" y2="326.0" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="30.0" y="346.0" fill="#e0645c" font-size="10.5">Determinism is a REQUIREMENT, not a consequence: a state machine that reads a clock, calls out</text>
+  <text x="30.0" y="364.0" fill="#e0645c" font-size="10.5">to a service, or iterates a hash map in memory order will silently diverge across replicas.</text>
+  <text x="30.0" y="386.0" fill="#8a8a8a" font-size="10.5">Put the nondeterminism in the command, chosen once by the leader, and the log carries it to everyone.</text>
+</svg>

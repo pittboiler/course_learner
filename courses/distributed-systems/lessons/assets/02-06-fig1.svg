@@ -1,0 +1,44 @@
+<svg viewBox="0 0 700 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="40.0" y="24.0" fill="#8a8a8a" font-style="italic">A grid quorum over 25 replicas: smaller quorums than a majority, worse availability</text>
+  <rect x="48.0" y="66.0" width="34.0" height="34.0" fill="none" stroke="#8a8a8a" stroke-width="1.1" rx="3"/>
+  <rect x="90.0" y="66.0" width="34.0" height="34.0" fill="none" stroke="#4a90d9" stroke-width="1.8" rx="3"/>
+  <rect x="132.0" y="66.0" width="34.0" height="34.0" fill="none" stroke="#8a8a8a" stroke-width="1.1" rx="3"/>
+  <rect x="174.0" y="66.0" width="34.0" height="34.0" fill="none" stroke="#4a90d9" stroke-width="1.8" rx="3"/>
+  <rect x="216.0" y="66.0" width="34.0" height="34.0" fill="none" stroke="#8a8a8a" stroke-width="1.1" rx="3"/>
+  <rect x="48.0" y="108.0" width="34.0" height="34.0" fill="none" stroke="#8a8a8a" stroke-width="1.1" rx="3"/>
+  <rect x="90.0" y="108.0" width="34.0" height="34.0" fill="none" stroke="#4a90d9" stroke-width="1.8" rx="3"/>
+  <rect x="132.0" y="108.0" width="34.0" height="34.0" fill="none" stroke="#8a8a8a" stroke-width="1.1" rx="3"/>
+  <rect x="174.0" y="108.0" width="34.0" height="34.0" fill="none" stroke="#4a90d9" stroke-width="1.8" rx="3"/>
+  <rect x="216.0" y="108.0" width="34.0" height="34.0" fill="none" stroke="#8a8a8a" stroke-width="1.1" rx="3"/>
+  <rect x="48.0" y="150.0" width="34.0" height="34.0" fill="none" stroke="#8a8a8a" stroke-width="1.1" rx="3"/>
+  <rect x="90.0" y="150.0" width="34.0" height="34.0" fill="none" stroke="#4a90d9" stroke-width="1.8" rx="3"/>
+  <rect x="132.0" y="150.0" width="34.0" height="34.0" fill="none" stroke="#8a8a8a" stroke-width="1.1" rx="3"/>
+  <rect x="174.0" y="150.0" width="34.0" height="34.0" fill="none" stroke="#4a90d9" stroke-width="1.8" rx="3"/>
+  <rect x="216.0" y="150.0" width="34.0" height="34.0" fill="none" stroke="#8a8a8a" stroke-width="1.1" rx="3"/>
+  <rect x="48.0" y="192.0" width="34.0" height="34.0" fill="none" stroke="#4a90d9" stroke-width="1.8" rx="3"/>
+  <rect x="90.0" y="192.0" width="34.0" height="34.0" fill="none" stroke="#e0645c" stroke-width="2.4" rx="3"/>
+  <circle cx="107.0" cy="209.0" r="6" fill="#e0645c"/>
+  <rect x="132.0" y="192.0" width="34.0" height="34.0" fill="none" stroke="#4a90d9" stroke-width="1.8" rx="3"/>
+  <rect x="174.0" y="192.0" width="34.0" height="34.0" fill="none" stroke="#4a90d9" stroke-width="1.8" rx="3"/>
+  <rect x="216.0" y="192.0" width="34.0" height="34.0" fill="none" stroke="#4a90d9" stroke-width="1.8" rx="3"/>
+  <rect x="48.0" y="234.0" width="34.0" height="34.0" fill="none" stroke="#8a8a8a" stroke-width="1.1" rx="3"/>
+  <rect x="90.0" y="234.0" width="34.0" height="34.0" fill="none" stroke="#4a90d9" stroke-width="1.8" rx="3"/>
+  <rect x="132.0" y="234.0" width="34.0" height="34.0" fill="none" stroke="#8a8a8a" stroke-width="1.1" rx="3"/>
+  <rect x="174.0" y="234.0" width="34.0" height="34.0" fill="none" stroke="#4a90d9" stroke-width="1.8" rx="3"/>
+  <rect x="216.0" y="234.0" width="34.0" height="34.0" fill="none" stroke="#8a8a8a" stroke-width="1.1" rx="3"/>
+  <text x="107.0" y="54.0" fill="#4a90d9" font-size="10.5" text-anchor="middle">read</text>
+  <text x="262.0" y="214.0" fill="#4a90d9" font-size="10.5">write</text>
+  <text x="191.0" y="292.0" fill="#4a90d9" font-size="10.5" text-anchor="middle">write</text>
+  <text x="310.0" y="96.0" fill="#4a90d9" font-size="11.5">read quorum = one full column</text>
+  <text x="310.0" y="114.0" fill="#8a8a8a" font-size="11">5 replicas</text>
+  <text x="310.0" y="146.0" fill="#4a90d9" font-size="11.5">write quorum = one row + one column</text>
+  <text x="310.0" y="164.0" fill="#8a8a8a" font-size="11">9 replicas</text>
+  <text x="310.0" y="196.0" fill="#8a8a8a" font-size="11.5">majority quorum, for comparison</text>
+  <text x="310.0" y="214.0" fill="#8a8a8a" font-size="11">13 replicas, for both reads and writes</text>
+  <text x="310.0" y="248.0" fill="#e0645c" font-size="11">The marked cells are the forced overlap:</text>
+  <text x="310.0" y="266.0" fill="#e0645c" font-size="11">a full row meets every column, so no read</text>
+  <text x="310.0" y="284.0" fill="#e0645c" font-size="11">quorum can miss a completed write.</text>
+  <line x1="30.0" y1="304.0" x2="670.0" y2="304.0" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="30.0" y="324.0" fill="#8a8a8a" font-size="10">The cost: with each replica down 10 percent of the time, a read quorum is unavailable 1.2 percent of the</text>
+  <text x="30.0" y="340.0" fill="#8a8a8a" font-size="10">time against 0.00002 percent for a majority. Small quorums are bought with fragility, not for free.</text>
+</svg>
