@@ -1,0 +1,27 @@
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Loss against compute is a straight line on log-log axes, over many orders of magnitude</text>
+  <line x1="100" y1="294.0" x2="521.5999999999999" y2="294.0" stroke="#8a8a8a" stroke-width="1.0"/>
+  <line x1="100" y1="294.0" x2="100" y2="84.0" stroke="#8a8a8a" stroke-width="1.0"/>
+  <text x="100" y="312.0" fill="#8a8a8a" font-size="10" text-anchor="middle">1e18</text>
+  <text x="168" y="312.0" fill="#8a8a8a" font-size="10" text-anchor="middle">1e19</text>
+  <text x="236" y="312.0" fill="#8a8a8a" font-size="10" text-anchor="middle">1e20</text>
+  <text x="304" y="312.0" fill="#8a8a8a" font-size="10" text-anchor="middle">1e21</text>
+  <text x="372" y="312.0" fill="#8a8a8a" font-size="10" text-anchor="middle">1e22</text>
+  <text x="440" y="312.0" fill="#8a8a8a" font-size="10" text-anchor="middle">1e23</text>
+  <text x="508" y="312.0" fill="#8a8a8a" font-size="10" text-anchor="middle">1e24</text>
+  <text x="304" y="334.0" fill="#8a8a8a" font-size="12" text-anchor="middle">training compute, FLOPs</text>
+  <text x="92" y="94.60000000000002" fill="#8a8a8a" font-size="10" text-anchor="end">2.5</text>
+  <text x="92" y="137.50000000000003" fill="#8a8a8a" font-size="10" text-anchor="end">1.8</text>
+  <text x="92" y="170.20000000000002" fill="#8a8a8a" font-size="10" text-anchor="end">1.4</text>
+  <text x="92" y="214.0" fill="#8a8a8a" font-size="10" text-anchor="end">1.0</text>
+  <text x="54" y="150.0" fill="#8a8a8a" font-size="12" text-anchor="middle">loss</text>
+  <text x="54" y="165.0" fill="#8a8a8a" font-size="11" text-anchor="middle">(nats)</text>
+  <polyline points="100.0,90.0 106.8,91.5 113.6,93.0 120.4,94.5 127.2,96.0 134.0,97.5 140.8,99.0 147.6,100.5 154.4,102.0 161.2,103.5 168.0,105.0 174.8,106.5 181.6,108.0 188.4,109.5 195.2,111.0 202.0,112.5 208.8,114.0 215.6,115.5 222.4,117.0 229.2,118.5 236.0,120.0 242.8,121.5 249.6,123.0 256.4,124.5 263.2,126.0 270.0,127.5 276.8,129.0 283.6,130.5 290.4,132.0 297.2,133.5 304.0,135.0 310.8,136.5 317.6,138.0 324.4,139.5 331.2,141.0 338.0,142.5 344.8,144.0 351.6,145.5 358.4,147.0 365.2,148.5 372.0,150.0 378.8,151.5 385.6,153.0 392.4,154.5 399.2,156.0 406.0,157.5 412.8,159.0 419.6,160.5 426.4,162.0 433.2,163.5 440.0,165.0 446.8,166.5 453.6,168.0 460.4,169.5 467.2,171.0 474.0,172.5 480.8,174.0 487.6,175.5 494.4,177.0 501.2,178.5 508.0,180.0 514.8,181.5 521.6,183.0" fill="none" stroke="#4a90d9" stroke-width="2.4"/>
+  <text x="331.19999999999993" y="120.0" fill="#4a90d9" font-size="12">slope -0.05: ten times the compute,</text>
+  <text x="331.19999999999993" y="130.50000000000003" fill="#4a90d9" font-size="12">about eleven percent less loss</text>
+  <line x1="100" y1="204.0" x2="521.5999999999999" y2="204.0" stroke="#e0645c" stroke-width="1.4" stroke-dasharray="6 4"/>
+  <text x="412.80000000000007" y="196.5" fill="#e0645c" font-size="11">irreducible entropy of the data</text>
+  <text x="40" y="352" fill="#8a8a8a" font-size="11">Straight on log-log means a power law: L = (C_c / C)^0.05. No threshold, no plateau, no sign of where it stops.</text>
+  <text x="40" y="378" fill="#4a90d9" font-size="11">Compute-optimal: spend a ten-fold budget increase on sqrt(10) times the parameters AND sqrt(10) times the data,</text>
+  <text x="40" y="396" fill="#4a90d9" font-size="11">which for a transformer means about 20 training tokens per parameter.</text>
+</svg>

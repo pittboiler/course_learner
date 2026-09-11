@@ -1,0 +1,77 @@
+<svg viewBox="0 0 700 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Same grid, two directions: batch norm averages down a column, layer norm across a row</text>
+  <text x="230.0" y="56" fill="#4a90d9" text-anchor="middle">batch norm</text>
+  <rect x="110" y="86" width="40" height="34" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <rect x="150" y="86" width="40" height="34" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <rect x="190" y="86" width="40" height="34" fill="none" stroke="#4a90d9" stroke-width="1.8"/>
+  <rect x="230" y="86" width="40" height="34" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <rect x="270" y="86" width="40" height="34" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <rect x="310" y="86" width="40" height="34" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <rect x="110" y="120" width="40" height="34" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <rect x="150" y="120" width="40" height="34" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <rect x="190" y="120" width="40" height="34" fill="none" stroke="#4a90d9" stroke-width="1.8"/>
+  <rect x="230" y="120" width="40" height="34" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <rect x="270" y="120" width="40" height="34" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <rect x="310" y="120" width="40" height="34" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <rect x="110" y="154" width="40" height="34" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <rect x="150" y="154" width="40" height="34" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <rect x="190" y="154" width="40" height="34" fill="none" stroke="#4a90d9" stroke-width="1.8"/>
+  <rect x="230" y="154" width="40" height="34" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <rect x="270" y="154" width="40" height="34" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <rect x="310" y="154" width="40" height="34" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <rect x="110" y="188" width="40" height="34" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <rect x="150" y="188" width="40" height="34" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <rect x="190" y="188" width="40" height="34" fill="none" stroke="#4a90d9" stroke-width="1.8"/>
+  <rect x="230" y="188" width="40" height="34" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <rect x="270" y="188" width="40" height="34" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <rect x="310" y="188" width="40" height="34" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <rect x="110" y="222" width="40" height="34" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <rect x="150" y="222" width="40" height="34" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <rect x="190" y="222" width="40" height="34" fill="none" stroke="#4a90d9" stroke-width="1.8"/>
+  <rect x="230" y="222" width="40" height="34" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <rect x="270" y="222" width="40" height="34" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <rect x="310" y="222" width="40" height="34" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="98" y="171.0" fill="#8a8a8a" font-size="11" text-anchor="end">batch</text>
+  <text x="98" y="186.0" fill="#8a8a8a" font-size="11" text-anchor="end">(examples)</text>
+  <text x="230.0" y="276" fill="#8a8a8a" font-size="11" text-anchor="middle">features</text>
+  <text x="550.0" y="56" fill="#e0645c" text-anchor="middle">layer norm</text>
+  <rect x="430" y="86" width="40" height="34" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <rect x="470" y="86" width="40" height="34" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <rect x="510" y="86" width="40" height="34" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <rect x="550" y="86" width="40" height="34" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <rect x="590" y="86" width="40" height="34" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <rect x="630" y="86" width="40" height="34" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <rect x="430" y="120" width="40" height="34" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <rect x="470" y="120" width="40" height="34" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <rect x="510" y="120" width="40" height="34" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <rect x="550" y="120" width="40" height="34" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <rect x="590" y="120" width="40" height="34" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <rect x="630" y="120" width="40" height="34" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <rect x="430" y="154" width="40" height="34" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+  <rect x="470" y="154" width="40" height="34" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+  <rect x="510" y="154" width="40" height="34" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+  <rect x="550" y="154" width="40" height="34" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+  <rect x="590" y="154" width="40" height="34" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+  <rect x="630" y="154" width="40" height="34" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+  <rect x="430" y="188" width="40" height="34" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <rect x="470" y="188" width="40" height="34" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <rect x="510" y="188" width="40" height="34" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <rect x="550" y="188" width="40" height="34" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <rect x="590" y="188" width="40" height="34" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <rect x="630" y="188" width="40" height="34" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <rect x="430" y="222" width="40" height="34" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <rect x="470" y="222" width="40" height="34" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <rect x="510" y="222" width="40" height="34" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <rect x="550" y="222" width="40" height="34" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <rect x="590" y="222" width="40" height="34" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <rect x="630" y="222" width="40" height="34" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <text x="418" y="171.0" fill="#8a8a8a" font-size="11" text-anchor="end">batch</text>
+  <text x="418" y="186.0" fill="#8a8a8a" font-size="11" text-anchor="end">(examples)</text>
+  <text x="550.0" y="276" fill="#8a8a8a" font-size="11" text-anchor="middle">features</text>
+  <text x="110" y="296" fill="#4a90d9" font-size="11">one mean and variance per feature,</text>
+  <text x="110" y="312" fill="#4a90d9" font-size="11">pooled over the batch</text>
+  <text x="110" y="334" fill="#4a90d9" font-size="11">so the answer for one example depends on the others</text>
+  <text x="430" y="296" fill="#e0645c" font-size="11">one mean and variance per example,</text>
+  <text x="430" y="312" fill="#e0645c" font-size="11">pooled over its own features</text>
+  <text x="430" y="334" fill="#e0645c" font-size="11">so each example is normalized alone</text>
+</svg>

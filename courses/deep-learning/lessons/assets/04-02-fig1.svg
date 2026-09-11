@@ -1,0 +1,42 @@
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Move the randomness off the path the gradient has to travel</text>
+  <text x="50" y="66" fill="#e0645c" font-size="12">sampling inside the graph</text>
+  <rect x="72.0" y="113.0" width="76" height="34" fill="none" stroke="#8a8a8a" stroke-width="1.6" rx="5"/>
+  <text x="110" y="135" fill="#8a8a8a" font-size="12" text-anchor="middle">x</text>
+  <rect x="182.0" y="113.0" width="96" height="34" fill="none" stroke="#4a90d9" stroke-width="1.6" rx="5"/>
+  <text x="230" y="135" fill="#4a90d9" font-size="12" text-anchor="middle">mu, sigma</text>
+  <line x1="148" y1="130" x2="182" y2="130" stroke="#8a8a8a" stroke-width="1.3"/>
+  <polygon points="182.0,130.0 173.6,133.3 173.6,126.7" fill="#8a8a8a"/>
+  <circle cx="350" cy="130" r="22" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+  <text x="350" y="135" fill="#e0645c" font-size="12" text-anchor="middle">z ~ q</text>
+  <line x1="278" y1="130" x2="328" y2="130" stroke="#8a8a8a" stroke-width="1.3"/>
+  <polygon points="328.0,130.0 319.6,133.3 319.6,126.7" fill="#8a8a8a"/>
+  <rect x="422.0" y="113.0" width="76" height="34" fill="none" stroke="#8a8a8a" stroke-width="1.6" rx="5"/>
+  <text x="460" y="135" fill="#8a8a8a" font-size="12" text-anchor="middle">decoder</text>
+  <line x1="372" y1="130" x2="422" y2="130" stroke="#8a8a8a" stroke-width="1.3"/>
+  <polygon points="422.0,130.0 413.6,133.3 413.6,126.7" fill="#8a8a8a"/>
+  <line x1="304" y1="165" x2="322" y2="183" stroke="#e0645c" stroke-width="2.2"/>
+  <line x1="304" y1="183" x2="322" y2="165" stroke="#e0645c" stroke-width="2.2"/>
+  <text x="330" y="178" fill="#e0645c" font-size="11">gradient stops here: you cannot differentiate</text>
+  <text x="330" y="196" fill="#e0645c" font-size="11">through the act of drawing a sample</text>
+  <text x="50" y="240" fill="#4a90d9" font-size="12">reparameterized</text>
+  <rect x="72.0" y="283.0" width="76" height="34" fill="none" stroke="#8a8a8a" stroke-width="1.6" rx="5"/>
+  <text x="110" y="305" fill="#8a8a8a" font-size="12" text-anchor="middle">x</text>
+  <rect x="182.0" y="283.0" width="96" height="34" fill="none" stroke="#4a90d9" stroke-width="1.6" rx="5"/>
+  <text x="230" y="305" fill="#4a90d9" font-size="12" text-anchor="middle">mu, sigma</text>
+  <line x1="148" y1="300" x2="182" y2="300" stroke="#8a8a8a" stroke-width="1.3"/>
+  <polygon points="182.0,300.0 173.6,303.3 173.6,296.7" fill="#8a8a8a"/>
+  <rect x="305.0" y="283.0" width="150" height="34" fill="none" stroke="#4a90d9" stroke-width="1.6" rx="5"/>
+  <text x="380" y="305" fill="#4a90d9" font-size="12" text-anchor="middle">z = mu + sigma . eps</text>
+  <line x1="278" y1="300" x2="305" y2="300" stroke="#8a8a8a" stroke-width="1.3"/>
+  <polygon points="305.0,300.0 296.6,303.3 296.6,296.7" fill="#8a8a8a"/>
+  <rect x="502.0" y="283.0" width="76" height="34" fill="none" stroke="#8a8a8a" stroke-width="1.6" rx="5"/>
+  <text x="540" y="305" fill="#8a8a8a" font-size="12" text-anchor="middle">decoder</text>
+  <line x1="455" y1="300" x2="502" y2="300" stroke="#8a8a8a" stroke-width="1.3"/>
+  <polygon points="502.0,300.0 493.6,303.3 493.6,296.7" fill="#8a8a8a"/>
+  <line x1="380" y1="242" x2="380" y2="282" stroke="#e0645c" stroke-width="1.4"/>
+  <polygon points="380.0,282.0 376.7,273.6 383.3,273.6" fill="#e0645c"/>
+  <text x="380" y="232" fill="#e0645c" font-size="11" text-anchor="middle">eps ~ N(0, I): an input, not a node to differentiate</text>
+  <text x="40" y="364" fill="#4a90d9" font-size="11">dz/dmu = 1 and dz/dsigma = eps, both exact, so the gradient reaches the encoder unbroken.</text>
+  <text x="40" y="386" fill="#8a8a8a" font-size="11">The sample is still random; the randomness just enters from outside the computation.</text>
+</svg>

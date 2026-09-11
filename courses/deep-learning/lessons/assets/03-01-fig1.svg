@@ -1,0 +1,71 @@
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Unrolled in time: one recurrent matrix, used at every step, gradients summed over all of them</text>
+  <rect x="96" y="128" width="68" height="44" fill="none" stroke="#8a8a8a" stroke-width="1.6" rx="5"/>
+  <text x="130" y="155" fill="#8a8a8a" font-size="16" text-anchor="middle">h</text>
+  <text x="142" y="159" fill="#8a8a8a" font-size="10">1</text>
+  <line x1="130" y1="206" x2="130" y2="176" stroke="#4a90d9" stroke-width="1.3"/>
+  <polygon points="130.0,176.0 133.3,184.4 126.7,184.4" fill="#4a90d9"/>
+  <text x="130" y="222" fill="#4a90d9" font-size="14" text-anchor="middle">x</text>
+  <text x="141" y="226" fill="#4a90d9" font-size="10">1</text>
+  <line x1="130" y1="124" x2="130" y2="94" stroke="#e0645c" stroke-width="1.3"/>
+  <polygon points="130.0,94.0 133.3,102.4 126.7,102.4" fill="#e0645c"/>
+  <text x="130" y="88" fill="#e0645c" font-size="14" text-anchor="middle">y</text>
+  <text x="141" y="92" fill="#e0645c" font-size="10">1</text>
+  <line x1="164" y1="150" x2="226" y2="150" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="226.0,150.0 217.6,153.3 217.6,146.7" fill="#8a8a8a"/>
+  <text x="195.0" y="141" fill="#8a8a8a" font-size="12" text-anchor="middle">W</text>
+  <text x="206.0" y="145" fill="#8a8a8a" font-size="9">h</text>
+  <rect x="226" y="128" width="68" height="44" fill="none" stroke="#8a8a8a" stroke-width="1.6" rx="5"/>
+  <text x="260" y="155" fill="#8a8a8a" font-size="16" text-anchor="middle">h</text>
+  <text x="272" y="159" fill="#8a8a8a" font-size="10">2</text>
+  <line x1="260" y1="206" x2="260" y2="176" stroke="#4a90d9" stroke-width="1.3"/>
+  <polygon points="260.0,176.0 263.3,184.4 256.7,184.4" fill="#4a90d9"/>
+  <text x="260" y="222" fill="#4a90d9" font-size="14" text-anchor="middle">x</text>
+  <text x="271" y="226" fill="#4a90d9" font-size="10">2</text>
+  <line x1="260" y1="124" x2="260" y2="94" stroke="#e0645c" stroke-width="1.3"/>
+  <polygon points="260.0,94.0 263.3,102.4 256.7,102.4" fill="#e0645c"/>
+  <text x="260" y="88" fill="#e0645c" font-size="14" text-anchor="middle">y</text>
+  <text x="271" y="92" fill="#e0645c" font-size="10">2</text>
+  <line x1="294" y1="150" x2="356" y2="150" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="356.0,150.0 347.6,153.3 347.6,146.7" fill="#8a8a8a"/>
+  <text x="325.0" y="141" fill="#8a8a8a" font-size="12" text-anchor="middle">W</text>
+  <text x="336.0" y="145" fill="#8a8a8a" font-size="9">h</text>
+  <rect x="356" y="128" width="68" height="44" fill="none" stroke="#8a8a8a" stroke-width="1.6" rx="5"/>
+  <text x="390" y="155" fill="#8a8a8a" font-size="16" text-anchor="middle">h</text>
+  <text x="402" y="159" fill="#8a8a8a" font-size="10">3</text>
+  <line x1="390" y1="206" x2="390" y2="176" stroke="#4a90d9" stroke-width="1.3"/>
+  <polygon points="390.0,176.0 393.3,184.4 386.7,184.4" fill="#4a90d9"/>
+  <text x="390" y="222" fill="#4a90d9" font-size="14" text-anchor="middle">x</text>
+  <text x="401" y="226" fill="#4a90d9" font-size="10">3</text>
+  <line x1="390" y1="124" x2="390" y2="94" stroke="#e0645c" stroke-width="1.3"/>
+  <polygon points="390.0,94.0 393.3,102.4 386.7,102.4" fill="#e0645c"/>
+  <text x="390" y="88" fill="#e0645c" font-size="14" text-anchor="middle">y</text>
+  <text x="401" y="92" fill="#e0645c" font-size="10">3</text>
+  <line x1="424" y1="150" x2="486" y2="150" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="486.0,150.0 477.6,153.3 477.6,146.7" fill="#8a8a8a"/>
+  <text x="455.0" y="141" fill="#8a8a8a" font-size="12" text-anchor="middle">W</text>
+  <text x="466.0" y="145" fill="#8a8a8a" font-size="9">h</text>
+  <rect x="486" y="128" width="68" height="44" fill="none" stroke="#8a8a8a" stroke-width="1.6" rx="5"/>
+  <text x="520" y="155" fill="#8a8a8a" font-size="16" text-anchor="middle">h</text>
+  <text x="532" y="159" fill="#8a8a8a" font-size="10">4</text>
+  <line x1="520" y1="206" x2="520" y2="176" stroke="#4a90d9" stroke-width="1.3"/>
+  <polygon points="520.0,176.0 523.3,184.4 516.7,184.4" fill="#4a90d9"/>
+  <text x="520" y="222" fill="#4a90d9" font-size="14" text-anchor="middle">x</text>
+  <text x="531" y="226" fill="#4a90d9" font-size="10">4</text>
+  <line x1="520" y1="124" x2="520" y2="94" stroke="#e0645c" stroke-width="1.3"/>
+  <polygon points="520.0,94.0 523.3,102.4 516.7,102.4" fill="#e0645c"/>
+  <text x="520" y="88" fill="#e0645c" font-size="14" text-anchor="middle">y</text>
+  <text x="531" y="92" fill="#e0645c" font-size="10">4</text>
+  <line x1="66" y1="150" x2="96" y2="150" stroke="#8a8a8a" stroke-width="1.4"/>
+  <polygon points="96.0,150.0 87.6,153.3 87.6,146.7" fill="#8a8a8a"/>
+  <text x="58" y="155" fill="#8a8a8a" text-anchor="end">h</text>
+  <text x="62" y="159" fill="#8a8a8a" font-size="9">0</text>
+  <line x1="554" y1="150" x2="590" y2="150" stroke="#8a8a8a" stroke-width="1.4"/>
+  <polygon points="590.0,150.0 581.6,153.3 581.6,146.7" fill="#8a8a8a"/>
+  <text x="600" y="155" fill="#8a8a8a">...</text>
+  <text x="40" y="250" fill="#8a8a8a" font-size="11">The SAME W each time, so its gradient accumulates one contribution per step - lesson 1.3's shared-weight rule with T terms.</text>
+  <text x="40" y="286" fill="#e0645c" font-size="11">Backwards, the gradient from step T to step t is multiplied by the recurrent Jacobian once per step in between:</text>
+  <text x="40" y="308" fill="#e0645c" font-size="11">a product of (T - t) factors. At 0.9 each and T - t = 100 that is 2.7e-5; at 1.1 each it is 13,781.</text>
+  <text x="40" y="344" fill="#e0645c" font-size="11">Neither number is survivable, and the boundary between them is a knife edge at exactly 1.</text>
+  <text x="40" y="380" fill="#8a8a8a" font-size="11">Note also what cannot be parallelised: h(t) needs h(t-1), so the T steps are strictly sequential.</text>
+</svg>

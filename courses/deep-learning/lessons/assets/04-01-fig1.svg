@@ -1,0 +1,43 @@
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">The data is one-dimensional; the question is whether the code has to be a straight line</text>
+  <polyline points="375.3,262.7 374.4,259.5 373.5,256.3 372.5,253.2 371.4,250.1 370.3,247.0 369.1,243.9 367.8,240.9 366.5,237.8 365.1,234.9 363.7,231.9 362.1,229.0 360.5,226.1 358.9,223.2 357.2,220.4 355.4,217.6 353.5,214.9 351.6,212.2 349.7,209.6 347.7,207.0 345.6,204.4 343.4,201.9 341.3,199.4 339.0,197.0 336.7,194.6 334.4,192.3 332.0,190.0 329.5,187.8 327.1,185.6 324.5,183.5 321.9,181.5 319.3,179.5 316.6,177.5 313.9,175.7 311.2,173.9 308.4,172.1 305.5,170.4 302.7,168.8 299.8,167.2 296.8,165.7 293.9,164.3 290.9,162.9 287.8,161.6 284.8,160.4 281.7,159.2 278.6,158.1 275.5,157.1 272.3,156.1 269.1,155.2 265.9,154.4 262.7,153.6 259.5,152.9 256.3,152.3 253.0,151.8 249.7,151.3 246.5,150.9 243.2,150.6 239.9,150.3 236.6,150.1 233.3,150.0 230.0,150.0 226.7,150.0 223.4,150.1 220.1,150.3 216.8,150.6 213.5,150.9 210.3,151.3 207.0,151.8 203.7,152.3 200.5,152.9 197.3,153.6 194.1,154.4 190.9,155.2 187.7,156.1 184.5,157.1 181.4,158.1 178.3,159.2 175.2,160.4 172.2,161.6 169.1,162.9 166.1,164.3 163.2,165.7 160.2,167.2 157.3,168.8 154.5,170.4 151.6,172.1 148.8,173.9 146.1,175.7 143.4,177.5 140.7,179.5 138.1,181.5 135.5,183.5 132.9,185.6 130.5,187.8 128.0,190.0 125.6,192.3 123.3,194.6 121.0,197.0 118.7,199.4 116.6,201.9 114.4,204.4 112.3,207.0 110.3,209.6 108.4,212.2 106.5,214.9 104.6,217.6 102.8,220.4 101.1,223.2 99.5,226.1 97.9,229.0 96.3,231.9 94.9,234.9 93.5,237.8 92.2,240.9 90.9,243.9 89.7,247.0 88.6,250.1 87.5,253.2 86.5,256.3 85.6,259.5 84.7,262.7" fill="none" stroke="#8a8a8a" stroke-width="1.4" stroke-dasharray="4 3"/>
+  <circle cx="369.4664728832377" cy="244.7813170972983" r="4.5" fill="#4a90d9"/>
+  <circle cx="354.30237580168875" cy="216.04215718555088" r="4.5" fill="#4a90d9"/>
+  <circle cx="333.30496626379426" cy="191.24300507444897" r="4.5" fill="#4a90d9"/>
+  <circle cx="307.4596192458443" cy="171.54764546226167" r="4.5" fill="#4a90d9"/>
+  <circle cx="277.97921570627614" cy="157.88035019670704" r="4.5" fill="#4a90d9"/>
+  <circle cx="246.2472240146712" cy="150.88250366969982" r="4.5" fill="#4a90d9"/>
+  <circle cx="213.75277598532875" cy="150.88250366969982" r="4.5" fill="#4a90d9"/>
+  <circle cx="182.02078429372386" cy="157.88035019670704" r="4.5" fill="#4a90d9"/>
+  <circle cx="152.5403807541557" cy="171.54764546226164" r="4.5" fill="#4a90d9"/>
+  <circle cx="126.69503373620579" cy="191.24300507444894" r="4.5" fill="#4a90d9"/>
+  <circle cx="105.69762419831129" cy="216.04215718555085" r="4.5" fill="#4a90d9"/>
+  <circle cx="90.53352711676234" cy="244.78131709729823" r="4.5" fill="#4a90d9"/>
+  <line x1="57.5" y1="188.72949644766112" x2="402.5" y2="188.72949644766112" stroke="#e0645c" stroke-width="2.0"/>
+  <text x="230" y="176.72949644766112" fill="#e0645c" font-size="12" text-anchor="middle">best line (PCA)</text>
+  <line x1="369.4664728832377" y1="244.7813170972983" x2="369.4664728832377" y2="188.72949644766112" stroke="#e0645c" stroke-width="0.9" stroke-dasharray="2 3"/>
+  <line x1="354.30237580168875" y1="216.04215718555088" x2="354.30237580168875" y2="188.72949644766112" stroke="#e0645c" stroke-width="0.9" stroke-dasharray="2 3"/>
+  <line x1="333.30496626379426" y1="191.24300507444897" x2="333.30496626379426" y2="188.72949644766112" stroke="#e0645c" stroke-width="0.9" stroke-dasharray="2 3"/>
+  <line x1="307.4596192458443" y1="171.54764546226167" x2="307.4596192458443" y2="188.72949644766112" stroke="#e0645c" stroke-width="0.9" stroke-dasharray="2 3"/>
+  <line x1="277.97921570627614" y1="157.88035019670704" x2="277.97921570627614" y2="188.72949644766112" stroke="#e0645c" stroke-width="0.9" stroke-dasharray="2 3"/>
+  <line x1="246.2472240146712" y1="150.88250366969982" x2="246.2472240146712" y2="188.72949644766112" stroke="#e0645c" stroke-width="0.9" stroke-dasharray="2 3"/>
+  <line x1="213.75277598532875" y1="150.88250366969982" x2="213.75277598532875" y2="188.72949644766112" stroke="#e0645c" stroke-width="0.9" stroke-dasharray="2 3"/>
+  <line x1="182.02078429372386" y1="157.88035019670704" x2="182.02078429372386" y2="188.72949644766112" stroke="#e0645c" stroke-width="0.9" stroke-dasharray="2 3"/>
+  <line x1="152.5403807541557" y1="171.54764546226164" x2="152.5403807541557" y2="188.72949644766112" stroke="#e0645c" stroke-width="0.9" stroke-dasharray="2 3"/>
+  <line x1="126.69503373620579" y1="191.24300507444894" x2="126.69503373620579" y2="188.72949644766112" stroke="#e0645c" stroke-width="0.9" stroke-dasharray="2 3"/>
+  <line x1="105.69762419831129" y1="216.04215718555085" x2="105.69762419831129" y2="188.72949644766112" stroke="#e0645c" stroke-width="0.9" stroke-dasharray="2 3"/>
+  <line x1="90.53352711676234" y1="244.78131709729823" x2="90.53352711676234" y2="188.72949644766112" stroke="#e0645c" stroke-width="0.9" stroke-dasharray="2 3"/>
+  <text x="50.0" y="142.5" fill="#8a8a8a" font-size="11">data lies on a curve</text>
+  <text x="40" y="344" fill="#e0645c" font-size="11">A linear code must project onto a line, and here that discards the curvature: 11 percent of the variance,</text>
+  <text x="40" y="362" fill="#e0645c" font-size="11">and worse, points far apart along the curve land near each other on the line.</text>
+  <text x="40" y="390" fill="#4a90d9" font-size="11">A nonlinear encoder can use arc length as its single coordinate and lose nothing at all.</text>
+  <rect x="430" y="60" width="240" height="190" fill="none" stroke="#4a90d9" stroke-width="1.6" rx="6"/>
+  <text x="550" y="86" fill="#4a90d9" text-anchor="middle">what the bottleneck does</text>
+  <text x="444" y="114" fill="#8a8a8a" font-size="11">Force the code narrower than the input</text>
+  <text x="444" y="132" fill="#8a8a8a" font-size="11">and the network cannot copy; it must</text>
+  <text x="444" y="150" fill="#8a8a8a" font-size="11">find structure that survives the squeeze.</text>
+  <text x="444" y="182" fill="#e0645c" font-size="11">Linear encoder + squared error</text>
+  <text x="444" y="200" fill="#e0645c" font-size="11">= PCA exactly (statistical-learning 6.1).</text>
+  <text x="444" y="224" fill="#4a90d9" font-size="11">Everything a deep autoencoder adds</text>
+  <text x="444" y="242" fill="#4a90d9" font-size="11">comes from dropping the linearity.</text>
+</svg>

@@ -1,0 +1,47 @@
+<svg viewBox="0 0 700 470" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">One block: two residual sublayers, each with its normalization inside the branch</text>
+  <text x="230" y="66" fill="#8a8a8a" font-size="12" text-anchor="middle">input tokens + positional encoding</text>
+  <line x1="230" y1="74" x2="230" y2="96" stroke="#8a8a8a" stroke-width="1.3"/>
+  <rect x="140" y="100" width="180" height="30" fill="none" stroke="#8a8a8a" stroke-width="1.5" rx="4"/>
+  <text x="230" y="120.0" fill="#8a8a8a" font-size="12" text-anchor="middle">layer norm</text>
+  <line x1="230" y1="130" x2="230" y2="146" stroke="#8a8a8a" stroke-width="1.3"/>
+  <rect x="140" y="146" width="180" height="34" fill="none" stroke="#4a90d9" stroke-width="1.5" rx="4"/>
+  <text x="230" y="168.0" fill="#4a90d9" font-size="12" text-anchor="middle">multi-head attention</text>
+  <circle cx="230" cy="218" r="13" fill="none" stroke="#4a90d9" stroke-width="1.7"/>
+  <line x1="222" y1="218" x2="238" y2="218" stroke="#4a90d9" stroke-width="1.4"/>
+  <line x1="230" y1="210" x2="230" y2="226" stroke="#4a90d9" stroke-width="1.4"/>
+  <line x1="230" y1="180" x2="230" y2="205" stroke="#8a8a8a" stroke-width="1.3"/>
+  <line x1="230" y1="92" x2="360" y2="92" stroke="#4a90d9" stroke-width="2.0"/>
+  <line x1="360" y1="92" x2="360" y2="218" stroke="#4a90d9" stroke-width="2.0"/>
+  <line x1="360" y1="218" x2="243" y2="218" stroke="#4a90d9" stroke-width="2.0"/>
+  <text x="370" y="156" fill="#4a90d9" font-size="11">residual</text>
+  <rect x="140" y="248" width="180" height="30" fill="none" stroke="#8a8a8a" stroke-width="1.5" rx="4"/>
+  <text x="230" y="268.0" fill="#8a8a8a" font-size="12" text-anchor="middle">layer norm</text>
+  <line x1="230" y1="278" x2="230" y2="294" stroke="#8a8a8a" stroke-width="1.3"/>
+  <rect x="140" y="294" width="180" height="52" fill="none" stroke="#e0645c" stroke-width="1.5" rx="4"/>
+  <text x="230" y="325.0" fill="#e0645c" font-size="12" text-anchor="middle">feed-forward: d -> 4d -> d</text>
+  <circle cx="230" cy="384" r="13" fill="none" stroke="#e0645c" stroke-width="1.7"/>
+  <line x1="222" y1="384" x2="238" y2="384" stroke="#e0645c" stroke-width="1.4"/>
+  <line x1="230" y1="376" x2="230" y2="392" stroke="#e0645c" stroke-width="1.4"/>
+  <line x1="230" y1="346" x2="230" y2="371" stroke="#8a8a8a" stroke-width="1.3"/>
+  <line x1="230" y1="232" x2="360" y2="232" stroke="#e0645c" stroke-width="2.0"/>
+  <line x1="360" y1="232" x2="360" y2="384" stroke="#e0645c" stroke-width="2.0"/>
+  <line x1="360" y1="384" x2="243" y2="384" stroke="#e0645c" stroke-width="2.0"/>
+  <text x="370" y="304" fill="#e0645c" font-size="11">residual</text>
+  <line x1="230" y1="397" x2="230" y2="418" stroke="#8a8a8a" stroke-width="1.3"/>
+  <text x="230" y="434" fill="#8a8a8a" font-size="12" text-anchor="middle">to the next block</text>
+  <text x="440" y="120" fill="#4a90d9" font-size="11">Multi-head: h heads of width d/h,</text>
+  <text x="440" y="138" fill="#4a90d9" font-size="11">run in parallel, concatenated, projected.</text>
+  <text x="440" y="156" fill="#4a90d9" font-size="11">Same total arithmetic as one wide head,</text>
+  <text x="440" y="174" fill="#4a90d9" font-size="11">but h separate attention patterns.</text>
+  <text x="440" y="216" fill="#8a8a8a" font-size="11">Attention block params:  4 d^2</text>
+  <text x="440" y="234" fill="#e0645c" font-size="11">Feed-forward params:      8 d^2</text>
+  <text x="440" y="252" fill="#8a8a8a" font-size="11">Total per block:              12 d^2</text>
+  <text x="440" y="270" fill="#e0645c" font-size="11">So two thirds of a transformer's</text>
+  <text x="440" y="288" fill="#e0645c" font-size="11">weights are in the feed-forward</text>
+  <text x="440" y="306" fill="#e0645c" font-size="11">sublayer, not in attention.</text>
+  <text x="440" y="348" fill="#8a8a8a" font-size="11">Pre-norm (shown) keeps the residual</text>
+  <text x="440" y="366" fill="#8a8a8a" font-size="11">path clean; post-norm puts a layer</text>
+  <text x="440" y="384" fill="#8a8a8a" font-size="11">norm on it and needs warmup.</text>
+  <text x="40" y="452" fill="#8a8a8a" font-size="11">The block is permutation equivariant without the positional encoding at the top: that is why it is added, not optional.</text>
+</svg>

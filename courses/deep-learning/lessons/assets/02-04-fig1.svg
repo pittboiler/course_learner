@@ -1,0 +1,28 @@
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Two questions decide the strategy: how much data, and how far from the pretraining domain</text>
+  <rect x="180" y="70" width="230" height="120" fill="none" stroke="#4a90d9" stroke-width="1.7" rx="6"/>
+  <text x="295.0" y="100" fill="#4a90d9" font-size="12" text-anchor="middle">similar domain, little data</text>
+  <text x="295.0" y="132" fill="#8a8a8a" font-size="12" text-anchor="middle">freeze the backbone,</text>
+  <text x="295.0" y="150" fill="#8a8a8a" font-size="12" text-anchor="middle">train a new head only</text>
+  <rect x="410" y="70" width="230" height="120" fill="none" stroke="#e0645c" stroke-width="1.7" rx="6"/>
+  <text x="525.0" y="100" fill="#e0645c" font-size="12" text-anchor="middle">different domain, little data</text>
+  <text x="525.0" y="132" fill="#8a8a8a" font-size="12" text-anchor="middle">freeze the EARLY layers,</text>
+  <text x="525.0" y="150" fill="#8a8a8a" font-size="12" text-anchor="middle">retrain the later ones</text>
+  <rect x="180" y="190" width="230" height="120" fill="none" stroke="#4a90d9" stroke-width="1.7" rx="6"/>
+  <text x="295.0" y="220" fill="#4a90d9" font-size="12" text-anchor="middle">similar domain, lots of data</text>
+  <text x="295.0" y="252" fill="#8a8a8a" font-size="12" text-anchor="middle">fine-tune everything</text>
+  <text x="295.0" y="270" fill="#8a8a8a" font-size="12" text-anchor="middle">at a low learning rate</text>
+  <rect x="410" y="190" width="230" height="120" fill="none" stroke="#e0645c" stroke-width="1.7" rx="6"/>
+  <text x="525.0" y="220" fill="#e0645c" font-size="12" text-anchor="middle">different domain, lots of data</text>
+  <text x="525.0" y="252" fill="#8a8a8a" font-size="12" text-anchor="middle">fine-tune everything, or</text>
+  <text x="525.0" y="270" fill="#8a8a8a" font-size="12" text-anchor="middle">train from scratch</text>
+  <text x="295.0" y="56" fill="#8a8a8a" font-size="12" text-anchor="middle">little data</text>
+  <text x="525.0" y="56" fill="#8a8a8a" font-size="12" text-anchor="middle">lots of data</text>
+  <text x="166" y="130.0" fill="#8a8a8a" font-size="12" text-anchor="end">similar</text>
+  <text x="166" y="146.0" fill="#8a8a8a" font-size="12" text-anchor="end">domain</text>
+  <text x="166" y="250.0" fill="#8a8a8a" font-size="12" text-anchor="end">different</text>
+  <text x="166" y="266.0" fill="#8a8a8a" font-size="12" text-anchor="end">domain</text>
+  <text x="40" y="348" fill="#8a8a8a" font-size="11">The diagonal is the useful reading: little data and a similar domain is the cheapest case and the most common one.</text>
+  <text x="40" y="366" fill="#e0645c" font-size="11">Lots of data and a different domain is the only cell where pretraining may not help at all.</text>
+  <text x="40" y="392" fill="#8a8a8a" font-size="11">Early layers hold edges and textures and transfer almost everywhere; late layers hold task-specific structure.</text>
+</svg>

@@ -1,0 +1,29 @@
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">The cell state is a highway: multiplied by the forget gate and added to, never passed through a weight matrix</text>
+  <line x1="60" y1="110" x2="640" y2="110" stroke="#4a90d9" stroke-width="3.0"/>
+  <text x="46" y="115" fill="#4a90d9" font-size="15" text-anchor="end">c</text>
+  <text x="50" y="119" fill="#4a90d9" font-size="9">t-1</text>
+  <text x="652" y="115" fill="#4a90d9" font-size="15">c</text>
+  <text x="666" y="119" fill="#4a90d9" font-size="9">t</text>
+  <circle cx="230" cy="110" r="14" fill="none" stroke="#e0645c" stroke-width="1.7"/>
+  <text x="230" y="115" fill="#e0645c" font-size="14" text-anchor="middle">x</text>
+  <line x1="230" y1="200" x2="230" y2="126" stroke="#e0645c" stroke-width="1.4"/>
+  <polygon points="230.0,126.0 233.3,134.4 226.7,134.4" fill="#e0645c"/>
+  <text x="230" y="218" fill="#e0645c" font-size="12" text-anchor="middle">forget gate f</text>
+  <text x="230" y="236" fill="#e0645c" font-size="11" text-anchor="middle">(sigmoid, near 1 to remember)</text>
+  <circle cx="440" cy="110" r="14" fill="none" stroke="#4a90d9" stroke-width="1.7"/>
+  <line x1="431" y1="110" x2="449" y2="110" stroke="#4a90d9" stroke-width="1.5"/>
+  <line x1="440" y1="101" x2="440" y2="119" stroke="#4a90d9" stroke-width="1.5"/>
+  <line x1="440" y1="200" x2="440" y2="126" stroke="#8a8a8a" stroke-width="1.4"/>
+  <polygon points="440.0,126.0 443.3,134.4 436.7,134.4" fill="#8a8a8a"/>
+  <text x="440" y="218" fill="#8a8a8a" font-size="12" text-anchor="middle">input gate x candidate</text>
+  <text x="440" y="236" fill="#8a8a8a" font-size="11" text-anchor="middle">(what to write this step)</text>
+  <line x1="590" y1="110" x2="590" y2="180" stroke="#8a8a8a" stroke-width="1.4"/>
+  <text x="580" y="154" fill="#8a8a8a" font-size="11" text-anchor="end">tanh, then x output gate</text>
+  <text x="580" y="170" fill="#8a8a8a" font-size="11" text-anchor="end">gives the hidden state h</text>
+  <text x="40" y="286" fill="#4a90d9" font-size="11">Along the highway the Jacobian is diag(f) - elementwise, no weight matrix, no repeated multiplication by W.</text>
+  <text x="40" y="310" fill="#8a8a8a" font-size="11">With f near 1 the gradient survives hundreds of steps. At f = 0.95 the factor over 100 steps is 5.9e-3;</text>
+  <text x="40" y="328" fill="#e0645c" font-size="11">a plain RNN at 0.85 gives 8.7e-8, sixty-eight thousand times smaller.</text>
+  <text x="40" y="364" fill="#8a8a8a" font-size="11">This is lesson 2.3's residual connection, drawn along time instead of along depth:</text>
+  <text x="40" y="382" fill="#8a8a8a" font-size="11">an additive path the gradient can travel without being multiplied by anything learned.</text>
+</svg>

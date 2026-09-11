@@ -1,0 +1,35 @@
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="40" y="24" fill="#8a8a8a" font-style="italic">Every token asks a question, offers a label, and contributes a payload</text>
+  <rect x="50" y="64" width="110" height="34" fill="none" stroke="#8a8a8a" stroke-width="1.6" rx="4"/>
+  <text x="105" y="86" fill="#8a8a8a" font-size="12" text-anchor="middle">tokens X</text>
+  <line x1="105" y1="98" x2="105" y2="130" stroke="#8a8a8a" stroke-width="1.1"/>
+  <rect x="50" y="130" width="110" height="36" fill="none" stroke="#4a90d9" stroke-width="1.6" rx="4"/>
+  <text x="105" y="153" fill="#4a90d9" font-size="12" text-anchor="middle">Q = X W_Q</text>
+  <text x="174" y="153" fill="#8a8a8a" font-size="11">what I am looking for</text>
+  <rect x="50" y="184" width="110" height="36" fill="none" stroke="#8a8a8a" stroke-width="1.6" rx="4"/>
+  <text x="105" y="207" fill="#8a8a8a" font-size="12" text-anchor="middle">K = X W_K</text>
+  <text x="174" y="207" fill="#8a8a8a" font-size="11">what I offer as a label</text>
+  <rect x="50" y="238" width="110" height="36" fill="none" stroke="#e0645c" stroke-width="1.6" rx="4"/>
+  <text x="105" y="261" fill="#e0645c" font-size="12" text-anchor="middle">V = X W_V</text>
+  <text x="174" y="261" fill="#8a8a8a" font-size="11">what I contribute</text>
+  <text x="50" y="320" fill="#8a8a8a">scores = Q K^T / sqrt(d_k)</text>
+  <line x1="232" y1="316" x2="268" y2="316" stroke="#8a8a8a" stroke-width="1.3"/>
+  <polygon points="268.0,316.0 259.6,319.3 259.6,312.7" fill="#8a8a8a"/>
+  <text x="278" y="320" fill="#8a8a8a">softmax over keys</text>
+  <line x1="400" y1="316" x2="436" y2="316" stroke="#8a8a8a" stroke-width="1.3"/>
+  <polygon points="436.0,316.0 427.6,319.3 427.6,312.7" fill="#8a8a8a"/>
+  <text x="446" y="320" fill="#e0645c">weighted sum of V</text>
+  <rect x="380" y="64" width="290" height="222" fill="none" stroke="#4a90d9" stroke-width="1.6" rx="6"/>
+  <text x="525" y="90" fill="#4a90d9" text-anchor="middle">why divide by sqrt(d_k)</text>
+  <text x="396" y="120" fill="#8a8a8a" font-size="11">A dot product of two vectors with d_k</text>
+  <text x="396" y="138" fill="#8a8a8a" font-size="11">independent unit-variance components has</text>
+  <text x="396" y="156" fill="#8a8a8a" font-size="11">variance d_k, so standard deviation sqrt(d_k).</text>
+  <text x="396" y="186" fill="#8a8a8a" font-size="11">At d_k = 64 the logits spread over about</text>
+  <text x="396" y="204" fill="#8a8a8a" font-size="11">plus or minus 24. A softmax of logits that far</text>
+  <text x="396" y="222" fill="#8a8a8a" font-size="11">apart is one-hot, and its gradient p(1 - p)</text>
+  <text x="396" y="240" fill="#e0645c" font-size="11">collapses: 0.0025 unscaled against 0.25 scaled.</text>
+  <text x="396" y="272" fill="#4a90d9" font-size="11">The scaling keeps the logits order-one.</text>
+  <text x="40" y="366" fill="#8a8a8a" font-size="11">Self-attention is permutation equivariant: shuffle the tokens and the outputs shuffle with them, unchanged.</text>
+  <text x="40" y="384" fill="#e0645c" font-size="11">Nothing in the formula knows about order, which is exactly why positional encoding has to be added.</text>
+  <text x="40" y="410" fill="#8a8a8a" font-size="11">Cost is T x T scores per head: quadratic in sequence length, and fully parallel across positions.</text>
+</svg>
