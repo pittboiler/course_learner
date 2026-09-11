@@ -43,7 +43,7 @@ Four reals, minus normalization, minus global phase, is two. So:
 > $$\lvert\psi\rangle = \cos\frac{\theta}{2}\lvert0\rangle + e^{i\phi}\sin\frac{\theta}{2}\lvert1\rangle, \qquad \theta\in[0,\pi],\ \phi\in[0,2\pi),$$
 > corresponding to the point on the unit sphere with **Bloch vector**
 > $$\vec r = (\sin\theta\cos\phi,\ \sin\theta\sin\phi,\ \cos\theta) = \big(\langle X\rangle, \langle Y\rangle, \langle Z\rangle\big),$$
-> where $\langle A\rangle = \langle\psi\vert A\vert\psi\rangle$ and $X,Y,Z$ are the Pauli matrices.
+> where $\langle A\rangle = \langle\psi\vert A\vert\psi\rangle$ and $X,Y,Z$ are the [Pauli matrices](../reference.md#pauli-algebra).
 
 In words: pick a direction in ordinary 3D space and you have named a qubit. The three components of that direction are the expected values of the three Pauli observables, which is why the sphere is a *physical* picture and not an analogy.
 
@@ -51,7 +51,7 @@ The **half-angle** $\theta/2$ in the amplitudes is the whole reason the picture 
 
 > **Orthogonal states are antipodal, not perpendicular.** $\langle\psi\vert\psi^\perp\rangle = 0$ holds exactly when the two Bloch vectors point in opposite directions, and more generally $\lvert\langle\psi_1\vert\psi_2\rangle\rvert^2 = \tfrac12\left(1 + \vec r_1\cdot\vec r_2\right) = \cos^2\frac{\Theta}{2}$, with $\Theta$ the angle between the Bloch vectors.
 
-In words: a 90-degree turn on the sphere does *not* get you to an orthogonal state — it gets you to a state that still has a 50 percent overlap. You must go all the way around to the far side. Six directions get names because you will meet them constantly:
+In words: a 90-degree turn on the sphere does *not* get you to an orthogonal state — it gets you to a state that still has a 50 percent overlap. You must go all the way around to the far side. Six directions get names because you will meet them constantly (the card keeps this table as [named states](../reference.md#named-states)):
 
 | State | Amplitudes | $(\theta,\phi)$ | Bloch vector |
 |---|---|---|---|

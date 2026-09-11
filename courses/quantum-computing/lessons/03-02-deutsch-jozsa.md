@@ -63,7 +63,7 @@ Now the honest accounting, which is the other half of this lesson:
 | classical randomized, error $\le 1/3$ | $O(1)$ — about 3 queries suffices |
 | quantum, exact | $1$ |
 
-In words: against deterministic classical algorithms the separation is exponential; against randomized ones it is a constant factor. The randomized algorithm is embarrassingly simple: query a few random inputs, and if you ever see two different values, $f$ is balanced; if all $k$ agree, guess constant. A balanced $f$ fools you with probability $2^{-(k-1)}$, so three queries give error 1/4 and ten give error under 0.2 percent.
+In words: against deterministic classical algorithms the separation is exponential; against randomized ones it is a constant factor. The card tabulates every algorithm this way under [algorithm costs](../reference.md#algorithm-costs-and-their-classical-baselines). The randomized algorithm is embarrassingly simple: query a few random inputs, and if you ever see two different values, $f$ is balanced; if all $k$ agree, guess constant. A balanced $f$ fools you with probability $2^{-(k-1)}$, so three queries give error 1/4 and ten give error under 0.2 percent.
 
 > **Why the honest version still matters.** Deutsch–Jozsa proves an exponential separation between quantum and **exact** classical computation, and it introduced the technique. Simon's problem ([3.4](03-04-simons-algorithm.md)) upgrades the separation to exponential against *randomized* classical algorithms too, which is the version that leads to Shor.
 

@@ -62,7 +62,7 @@ Now the code that gets built:
 > and its logical error rate is well fitted by
 > $$p_L \approx 0.1\left(\frac{p}{p_{\text{th}}}\right)^{(d+1)/2}.$$
 
-In words: every increase of the code distance by 2 divides the logical error rate by $p_{\text{th}}/p$. At $p = 10^{-3}$, one tenth of threshold, that means **an order of magnitude per two units of distance** — the exponential suppression that makes everything possible.
+In words: every increase of the code distance by 2 divides the logical error rate by $p_{\text{th}}/p$; the card collects these formulas under [fault-tolerance arithmetic](../reference.md#fault-tolerance-and-resource-arithmetic). At $p = 10^{-3}$, one tenth of threshold, that means **an order of magnitude per two units of distance** — the exponential suppression that makes everything possible.
 
 | $d$ | physical per logical $\approx2d^2$ | $p_L$ at $p = 10^{-3}$ |
 |---|---|---|

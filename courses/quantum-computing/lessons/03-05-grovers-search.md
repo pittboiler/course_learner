@@ -51,7 +51,7 @@ which is exactly "invert about the mean."
 
 **Why the formula.** Write $\lvert u\rangle = \frac{1}{\sqrt{N-1}}\sum_{x\ne w}\lvert x\rangle$, so $\lvert s\rangle = \sin\theta\,\lvert w\rangle + \cos\theta\,\lvert u\rangle$ with $\sin\theta = 1/\sqrt N$. Both $O_w$ and $D$ map this two-dimensional plane to itself: $O_w$ is a reflection about $\lvert u\rangle$, and $D$ is a reflection about $\lvert s\rangle$. **The composition of two reflections is a rotation by twice the angle between their axes**, and the angle between $\lvert u\rangle$ and $\lvert s\rangle$ is $\theta$, so $G$ rotates by $2\theta$ toward $\lvert w\rangle$. After $k$ iterations the state is at angle $(2k+1)\theta$ and the overlap with $\lvert w\rangle$ is $\sin\big((2k+1)\theta\big)$. $\blacksquare$
 
-The numbers, with the optimal stopping point:
+The numbers, with the optimal stopping point — the card keeps the formulas as [Grover arithmetic](../reference.md#grover-and-amplitude-amplification-arithmetic):
 
 | $N$ | $\theta$ | $k^\star$ | $P_{k^\star}$ |
 |---|---|---|---|

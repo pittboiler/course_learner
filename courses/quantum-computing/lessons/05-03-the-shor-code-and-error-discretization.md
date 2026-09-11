@@ -60,7 +60,7 @@ The condition on the code for this to work is worth having by name:
 
 In words: distinct correctable errors must send the code space to distinguishable places, and no error may reveal anything about the encoded data. The second half is the no-cloning constraint of [5.2](05-02-the-three-qubit-codes.md) in operator form — **$\alpha_{ij}$ must not depend on which code state you are in.**
 
-Two more standard facts, stated for use later:
+Two more standard facts, stated for use later; the card lists each code's parameters under [codes](../reference.md#codes):
 
 > **Distance and correction capacity.** A code with distance $d$ detects $d-1$ errors and corrects $\lfloor(d-1)/2\rfloor$. So $d = 3$ corrects one error, $d=5$ corrects two, and so on.
 

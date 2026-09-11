@@ -41,7 +41,7 @@ The preconditions in the first line are cheap to arrange classically: even $N$ i
 
 > **Why step 5 works.** If $r$ is even and $x = a^{r/2}$, then $x^2 \equiv 1$, so $N \mid (x-1)(x+1)$. Since $r$ is the *least* exponent with $a^r\equiv1$, we have $x\not\equiv1$; and step 4 rules out $x\equiv-1$. So $N$ divides the product but neither factor, meaning each factor contains part of $N$: both gcds are nontrivial.
 
-> **Success probability.** If $N$ has $k\ge2$ distinct odd prime factors, a random $a$ coprime to $N$ passes step 4 with probability at least $1 - 2^{-(k-1)} \ge 1/2$.
+> **Success probability.** If $N$ has $k\ge2$ distinct odd prime factors, a random $a$ coprime to $N$ passes step 4 with probability at least $1 - 2^{-(k-1)} \ge 1/2$. (The card summarizes the recipe and this bound under [Shor and the HSP table](../reference.md#shors-algorithm-and-the-hsp-table).)
 
 In words: at least half of all bases work, so a constant number of attempts suffices. The proof counts square roots of 1 modulo $N$ using the Chinese remainder theorem: there are $2^k$ of them, and only two ($\pm1$) are useless.
 

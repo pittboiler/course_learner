@@ -48,7 +48,7 @@ $$\lvert\psi\rangle = \frac{1}{2^n}\sum_z\left[\sum_x(-1)^{s\cdot x + x\cdot z}\
 
 Now evaluate the inner sum, which is the one identity this module runs on:
 
-> **Orthogonality of characters.** $\displaystyle\sum_{x\in\{0,1\}^n}(-1)^{x\cdot a} = \begin{cases}2^n & a = 0,\\ 0 & a\ne 0.\end{cases}$
+> **Orthogonality of characters** ([on the card](../reference.md#fourier-and-phase-estimation-facts))**.** $\displaystyle\sum_{x\in\{0,1\}^n}(-1)^{x\cdot a} = \begin{cases}2^n & a = 0,\\ 0 & a\ne 0.\end{cases}$
 
 In words: the signs of a nonzero pattern cancel perfectly when summed over all inputs. (Proof: if $a\ne0$ it has a nonzero bit $a_j$, and pairing each $x$ with $x\oplus e_j$ pairs every $+1$ with a $-1$.)
 

@@ -61,7 +61,7 @@ In words: two nested classical codes give one quantum code, with the $X$-checks 
 > $$g_4 = IIIZZZZ,\quad g_5 = IZZIIZZ,\quad g_6 = ZIZIZIZ.$$
 > All six commute; $k = 7-6 = 1$; $d = 3$, so it corrects one arbitrary error.
 
-The three $X$-patterns are the rows of the $[7,4,3]$ Hamming code's parity-check matrix:
+The card carries the generator list and every other code under [codes](../reference.md#codes). The three $X$-patterns are the rows of the $[7,4,3]$ Hamming code's parity-check matrix:
 
 $$H = \begin{pmatrix}0&0&0&1&1&1&1\\0&1&1&0&0&1&1\\1&0&1&0&1&0&1\end{pmatrix}.$$
 

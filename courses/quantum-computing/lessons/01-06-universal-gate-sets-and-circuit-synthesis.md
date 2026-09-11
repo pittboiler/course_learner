@@ -48,7 +48,7 @@ Now the cost side, which is the part to take seriously.
 
 > **Gate-count lower bounds.** A generic $n$-qubit unitary has $4^n$ real parameters (a $2^n\times2^n$ unitary, minus phase), so any circuit built from a fixed finite set needs $\Omega(4^n)$ gates. With exact CNOTs and free single-qubit gates the CNOT count alone is at least $\left\lceil\tfrac14\left(4^n - 3n - 1\right)\right\rceil$.
 
-In words: the number of gates must be at least the number of parameters you are trying to set, and each gate sets $O(1)$ of them. The table is brutal:
+In words: the number of gates must be at least the number of parameters you are trying to set, and each gate sets $O(1)$ of them. The card carries these as [synthesis costs](../reference.md#synthesis-and-universality-costs); the table is brutal:
 
 | $n$ | minimum CNOTs for a generic unitary |
 |---|---|

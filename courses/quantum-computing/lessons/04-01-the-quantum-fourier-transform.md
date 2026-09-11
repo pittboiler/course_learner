@@ -41,7 +41,7 @@ In words: every output qubit is an equal superposition with a phase given by a *
 
 > **Cost.** $n$ Hadamards, $n(n+1)/2$ controlled phases, $\lfloor n/2\rfloor$ SWAPs: $\Theta(n^2)$ gates.
 
-Compare the two transforms honestly:
+Compare the two transforms honestly — the card keeps the gate counts under [Fourier and phase-estimation facts](../reference.md#fourier-and-phase-estimation-facts):
 
 | $n$ | QFT gates $\approx n^2/2$ | classical FFT operations $\approx N\log_2 N$ |
 |---|---|---|

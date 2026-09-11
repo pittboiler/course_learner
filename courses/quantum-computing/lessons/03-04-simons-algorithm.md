@@ -52,7 +52,7 @@ In words: the two colliding inputs interfere, and the interference is destructiv
 
 > **Classical post-processing.** Collect strings $z_1,\dots,z_k$. They span a subspace of the orthogonal complement of $s$ in $\mathbb{F}_2^n$. Once $n-1$ of them are linearly independent, solve the homogeneous system $Zs = 0$ by Gaussian elimination; the solution space is $\{0, s\}$, so the unique nonzero solution is $s$.
 
-> **Query cost.** Quantum: $O(n)$ queries in expectation, plus $O(n^3)$ classical time for the elimination. Classical: $\Theta(2^{n/2})$ queries, even with randomness and bounded error.
+> **Query cost.** Quantum: $O(n)$ queries in expectation, plus $O(n^3)$ classical time for the elimination. Classical: $\Theta(2^{n/2})$ queries, even with randomness and bounded error. (Compare the whole family on the card: [algorithm costs](../reference.md#algorithm-costs-and-their-classical-baselines).)
 
 In words: each round gives an independent uniform sample from an $(n-1)$-dimensional subspace, and the coupon-collector-style analysis says $n + O(1)$ samples give $n-1$ independent ones with high probability. The separation is exponential and it is against the realistic classical model, which is why this result changed the field's expectations.
 

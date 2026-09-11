@@ -43,7 +43,7 @@ In words: sandwich by the gate, trace against the projector. Each formula reduce
 
 > **Purity.** $\mathrm{tr}\,\rho^2 = \tfrac12\left(1 + \lvert\vec r\rvert^2\right)$, so purity runs from $1$ (pure) down to $1/2$ (maximally mixed) for one qubit, and down to $1/d$ in dimension $d$.
 
-In words: one number tells you how far from the surface you are. Purity is the workhorse diagnostic — it detects decoherence in an experiment and entanglement in a subsystem, with the same arithmetic.
+In words: one number tells you how far from the surface you are; the card states it as [purity](../reference.md#purity). Purity is the workhorse diagnostic — it detects decoherence in an experiment and entanglement in a subsystem, with the same arithmetic.
 
 Now the operation that makes all of this necessary:
 

@@ -53,7 +53,7 @@ The proof is worth appreciating: it uses **no physics**, only that each box has 
 > $$\langle A_0B_0\rangle = \langle A_0B_1\rangle = \langle A_1B_0\rangle = \tfrac{1}{\sqrt2}, \qquad \langle A_1B_1\rangle = -\tfrac{1}{\sqrt2},$$
 > so $S = 4\cdot\tfrac{1}{\sqrt2} = 2\sqrt2 \approx 2.828$ and $P(\text{win}) = \tfrac12 + \tfrac{2\sqrt2}{8} = \cos^2\tfrac\pi8 \approx 0.8536$.
 
-> **Tsirelson bound.** For *any* quantum state and *any* measurements, $\lvert S\rvert \le 2\sqrt2$. The strategy above is optimal.
+> **Tsirelson bound.** For *any* quantum state and *any* measurements, $\lvert S\rvert \le 2\sqrt2$. The strategy above is optimal. (The card collects every bound and the optimal axes under [CHSH numbers](../reference.md#chsh-numbers).)
 
 In words: quantum mechanics beats the classical bound by exactly a factor of $\sqrt2$ in the correlator, and not one bit more. Worth noting that $\lvert S\rvert\le 4$ is what mere no-signaling would allow — so nature is neither classical nor maximally nonlocal, and *why* it stops at $2\sqrt2$ is an open research question with no satisfying answer.
 

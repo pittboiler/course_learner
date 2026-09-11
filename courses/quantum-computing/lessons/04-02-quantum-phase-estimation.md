@@ -58,7 +58,7 @@ In words: the spectrum is a peak at the right place with small sidelobes. You wi
 > $$m = n + \left\lceil\log_2\!\left(2 + \frac{1}{2\epsilon}\right)\right\rceil$$
 > ancilla qubits.
 
-In words: pay a handful of extra qubits to buy confidence. The extra term is small — 6 qubits for $\epsilon = 0.01$, 9 for $\epsilon = 0.001$ — because the sidelobes decay quadratically.
+In words: pay a handful of extra qubits to buy confidence; the card states the rule under [Fourier and phase-estimation facts](../reference.md#fourier-and-phase-estimation-facts). The extra term is small — 6 qubits for $\epsilon = 0.01$, 9 for $\epsilon = 0.001$ — because the sidelobes decay quadratically.
 
 | target bits $n$ | failure $\epsilon$ | ancillas $m$ |
 |---|---|---|

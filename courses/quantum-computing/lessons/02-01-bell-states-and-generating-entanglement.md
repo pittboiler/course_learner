@@ -38,7 +38,7 @@ In words: run the circuit backwards and read two bits. This is the single most i
 
 The four states are also cleanly labeled by two observables:
 
-> **Bell states as joint eigenstates.** $Z\otimes Z$ and $X\otimes X$ commute, and each Bell state is a simultaneous eigenstate of both:
+> **Bell states as joint eigenstates.** $Z\otimes Z$ and $X\otimes X$ commute, and each Bell state is a simultaneous eigenstate of both (the card merges this with the local-Pauli column as [Bell states and local Paulis](../reference.md#bell-states-and-local-paulis)):
 
 | Bell state | input $x\,y$ | $\langle Z\otimes Z\rangle$ | $\langle X\otimes X\rangle$ |
 |---|---|---|---|

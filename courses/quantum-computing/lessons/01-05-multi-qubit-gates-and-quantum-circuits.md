@@ -39,7 +39,7 @@ The general form, for any single-qubit $U$:
 
 In words: identity in the control-is-0 block, $U$ in the control-is-1 block. The block form is worth internalizing, because it makes controlled gates' phases obvious — the phase of $U$ appears in only one block, which is precisely why it becomes *relative* ([3.1](03-01-oracles-reversibility-and-phase-kickback.md)).
 
-The standard two- and three-qubit library:
+The standard two- and three-qubit library, also on the card as [multi-qubit gates](../reference.md#multi-qubit-gates):
 
 | Gate | Action | Note |
 |---|---|---|

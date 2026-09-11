@@ -1,0 +1,48 @@
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+<text x="28" y="22" fill="#8a8a8a" font-style="italic">From an algorithm to a machine: every estimate runs down this ladder</text>
+<text x="60" y="62" fill="#4a90d9" font-size="11.5" font-weight="bold">ALGORITHM</text>
+<text x="230" y="62" fill="#8a8a8a" font-size="10.5">Shor on RSA-2048</text>
+<text x="440" y="62" fill="#4a90d9" font-size="11.5" font-weight="bold">&#8212;</text>
+<line x1="52" y1="70" x2="52" y2="84" stroke="#8a8a8a" stroke-width="1"/>
+<path d="M 48 80 L 52 86 L 56 80" fill="#8a8a8a"/>
+<text x="60" y="94" fill="#4a90d9" font-size="11.5">logical qubits</text>
+<text x="230" y="94" fill="#8a8a8a" font-size="10.5">&#8776; 3n</text>
+<text x="440" y="94" fill="#4a90d9" font-size="11.5">6,200</text>
+<line x1="52" y1="102" x2="52" y2="116" stroke="#8a8a8a" stroke-width="1"/>
+<path d="M 48 112 L 52 118 L 56 112" fill="#8a8a8a"/>
+<text x="60" y="126" fill="#4a90d9" font-size="11.5">Toffoli / T gates</text>
+<text x="230" y="126" fill="#8a8a8a" font-size="10.5">&#8776; 0.3n&#179;</text>
+<text x="440" y="126" fill="#4a90d9" font-size="11.5">2.6 &#215; 10&#8313;</text>
+<line x1="52" y1="134" x2="52" y2="148" stroke="#8a8a8a" stroke-width="1"/>
+<path d="M 48 144 L 52 150 L 56 144" fill="#8a8a8a"/>
+<text x="60" y="158" fill="#d98c3f" font-size="11.5">required logical error</text>
+<text x="230" y="158" fill="#8a8a8a" font-size="10.5">1 / (gate count)</text>
+<text x="440" y="158" fill="#d98c3f" font-size="11.5">10&#8315;&#185;&#8304;</text>
+<line x1="52" y1="166" x2="52" y2="180" stroke="#8a8a8a" stroke-width="1"/>
+<path d="M 48 176 L 52 182 L 56 176" fill="#8a8a8a"/>
+<text x="60" y="190" fill="#d98c3f" font-size="11.5">code distance</text>
+<text x="230" y="190" fill="#8a8a8a" font-size="10.5">from p&#7524; &#8776; 0.1 &#215; (p/p&#7511;&#7429;) to the (d+1)/2</text>
+<text x="440" y="190" fill="#d98c3f" font-size="11.5">d &#8776; 27 at p = 10&#8315;&#179;</text>
+<line x1="52" y1="198" x2="52" y2="212" stroke="#8a8a8a" stroke-width="1"/>
+<path d="M 48 208 L 52 214 L 56 208" fill="#8a8a8a"/>
+<text x="60" y="222" fill="#e0645c" font-size="11.5">physical per logical</text>
+<text x="230" y="222" fill="#8a8a8a" font-size="10.5">&#8776; 2d&#178;</text>
+<text x="440" y="222" fill="#e0645c" font-size="11.5">1,458</text>
+<line x1="52" y1="230" x2="52" y2="244" stroke="#8a8a8a" stroke-width="1"/>
+<path d="M 48 240 L 52 246 L 56 240" fill="#8a8a8a"/>
+<text x="60" y="254" fill="#e0645c" font-size="11.5">+ magic-state factories</text>
+<text x="230" y="254" fill="#8a8a8a" font-size="10.5">routing and distillation</text>
+<text x="440" y="254" fill="#e0645c" font-size="11.5">&#215; ~1.5&#8211;2</text>
+<line x1="52" y1="262" x2="52" y2="276" stroke="#8a8a8a" stroke-width="1"/>
+<path d="M 48 272 L 52 278 L 56 272" fill="#8a8a8a"/>
+<text x="60" y="286" fill="#e0645c" font-size="11.5" font-weight="bold">PHYSICAL QUBITS</text>
+<text x="230" y="286" fill="#8a8a8a" font-size="10.5"></text>
+<text x="440" y="286" fill="#e0645c" font-size="11.5" font-weight="bold">&#8776; 20 million</text>
+<line x1="52" y1="294" x2="52" y2="308" stroke="#8a8a8a" stroke-width="1"/>
+<path d="M 48 304 L 52 310 L 56 304" fill="#8a8a8a"/>
+<text x="60" y="318" fill="#e0645c" font-size="11.5">wall clock</text>
+<text x="230" y="318" fill="#8a8a8a" font-size="10.5">depth &#215; d rounds &#215; 1 &#956;s</text>
+<text x="440" y="318" fill="#e0645c" font-size="11.5">&#8776; 8 hours</text>
+<line x1="52" y1="340" x2="600" y2="340" stroke="#8a8a8a" stroke-width="0.9"/>
+<text x="60" y="356" fill="#8a8a8a" font-size="11">today: ~10&#178;&#8211;10&#179; physical qubits at p &#8776; 10&#8315;&#179; &#183; the gap is four orders of magnitude</text>
+</svg>

@@ -36,7 +36,7 @@ $$= \tfrac12\Big[\lvert\Phi^+\rangle_{01}\left(\alpha\lvert0\rangle+\beta\lvert1
 
 In words: the same state, rewritten. **Every term already has $\lvert\psi\rangle$ on Bob's qubit, up to a Pauli.** Nothing has happened yet — this is algebra, not dynamics, which is why people call teleportation "a change of basis that happens to be useful."
 
-Read off the four branches:
+Read off the four branches — the card keeps this table alongside superdense coding's as [teleportation and superdense coding](../reference.md#teleportation-and-superdense-coding):
 
 | $m_0 m_1$ | Alice's Bell state | Bob's qubit | Bob applies | probability |
 |---|---|---|---|---|

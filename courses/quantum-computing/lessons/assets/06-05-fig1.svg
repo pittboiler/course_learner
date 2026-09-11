@@ -1,0 +1,40 @@
+<svg viewBox="0 0 700 390" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+<text x="28" y="22" fill="#8a8a8a" font-style="italic">HHL inverts a matrix in polylog time, and four caveats eat the speedup</text>
+<rect x="50" y="70" width="116" height="52" rx="4" fill="none" stroke="#e0645c" stroke-width="1.3"/>
+<text x="108.0" y="93.0" fill="#e0645c" font-size="10.5" text-anchor="middle">load b into |b&#10217;</text>
+<text x="108.0" y="109.0" fill="#8a8a8a" font-size="9.5" text-anchor="middle">&#8486;(N) without QRAM</text>
+<line x1="166" y1="96" x2="176" y2="96" stroke="#8a8a8a" stroke-width="1.1"/>
+<path d="M 171 91 L 177 96 L 171 101" fill="#8a8a8a"/>
+<rect x="176" y="70" width="116" height="52" rx="4" fill="none" stroke="#3f9e6a" stroke-width="1.3"/>
+<text x="234.0" y="93.0" fill="#3f9e6a" font-size="10.5" text-anchor="middle">phase-estimate A</text>
+<text x="234.0" y="109.0" fill="#8a8a8a" font-size="9.5" text-anchor="middle">needs A sparse</text>
+<line x1="292" y1="96" x2="302" y2="96" stroke="#8a8a8a" stroke-width="1.1"/>
+<path d="M 297 91 L 303 96 L 297 101" fill="#8a8a8a"/>
+<rect x="302" y="70" width="116" height="52" rx="4" fill="none" stroke="#d98c3f" stroke-width="1.3"/>
+<text x="360.0" y="93.0" fill="#d98c3f" font-size="10.5" text-anchor="middle">invert eigenvalues</text>
+<text x="360.0" y="109.0" fill="#8a8a8a" font-size="9.5" text-anchor="middle">cost &#8733; &#954;</text>
+<line x1="418" y1="96" x2="428" y2="96" stroke="#8a8a8a" stroke-width="1.1"/>
+<path d="M 423 91 L 429 96 L 423 101" fill="#8a8a8a"/>
+<rect x="428" y="70" width="116" height="52" rx="4" fill="none" stroke="#3f9e6a" stroke-width="1.3"/>
+<text x="486.0" y="93.0" fill="#3f9e6a" font-size="10.5" text-anchor="middle">un-estimate</text>
+<text x="486.0" y="109.0" fill="#8a8a8a" font-size="9.5" text-anchor="middle">uncompute</text>
+<line x1="544" y1="96" x2="554" y2="96" stroke="#8a8a8a" stroke-width="1.1"/>
+<path d="M 549 91 L 555 96 L 549 101" fill="#8a8a8a"/>
+<rect x="554" y="70" width="116" height="52" rx="4" fill="none" stroke="#e0645c" stroke-width="1.3"/>
+<text x="612.0" y="93.0" fill="#e0645c" font-size="10.5" text-anchor="middle">you now hold |x&#10217;</text>
+<text x="612.0" y="109.0" fill="#8a8a8a" font-size="9.5" text-anchor="middle">reading it out costs &#8486;(N)</text>
+<text x="50" y="150" fill="#8a8a8a" font-size="12">HHL solves Ax = b in O(&#954; s polylog N) &#8212; but read the fine print:</text>
+<text x="60" y="178" fill="#e0645c" font-size="11.5" font-weight="bold">1. state preparation</text>
+<text x="210" y="178" fill="#8a8a8a" font-size="11">loading an arbitrary b costs &#8486;(N); QRAM is assumed, not built</text>
+<text x="60" y="204" fill="#e0645c" font-size="11.5" font-weight="bold">2. readout</text>
+<text x="210" y="204" fill="#8a8a8a" font-size="11">you get the STATE |x&#10217;, not the vector x &#8212; one number per run</text>
+<text x="60" y="230" fill="#e0645c" font-size="11.5" font-weight="bold">3. condition number</text>
+<text x="210" y="230" fill="#8a8a8a" font-size="11">&#954; enters at least linearly, and real matrices have large &#954;</text>
+<text x="60" y="256" fill="#e0645c" font-size="11.5" font-weight="bold">4. the comparison</text>
+<text x="210" y="256" fill="#8a8a8a" font-size="11">must beat the best classical algorithm for the SAME restricted task</text>
+<rect x="52" y="292" width="600" height="76" rx="5" fill="none" stroke="#8a6fc0" stroke-width="1.3"/>
+<text x="66" y="313" fill="#8a6fc0" font-size="12" font-weight="bold">DEQUANTIZATION (Tang 2018 and after)</text>
+<text x="66" y="332" fill="#8a8a8a" font-size="10.5">give the CLASSICAL algorithm the same sampling access that QRAM assumes, and it also runs in</text>
+<text x="66" y="348" fill="#8a8a8a" font-size="10.5">polylog(N) &#8212; so the exponential speedup was an artifact of an unfair comparison. Recommendation</text>
+<text x="66" y="364" fill="#8a8a8a" font-size="10.5">systems, PCA, low-rank matrix inversion and support vector machines were all dequantized.</text>
+</svg>

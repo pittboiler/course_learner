@@ -32,7 +32,7 @@ Notice that $X$ and $Z$ are the same gate seen from different angles — literal
 
 In words: a gate is a matrix whose columns are orthonormal, and running it backwards means applying its conjugate transpose. Every gate has an undo button; this is the structural break from classical logic.
 
-The standard library:
+The standard library, also tabulated on the card as [single-qubit gates](../reference.md#single-qubit-gates):
 
 | Gate | Matrix | Bloch action | Effect |
 |---|---|---|---|

@@ -44,7 +44,7 @@ In words: $f$ is a labelling of the cosets, with distinct labels for distinct co
 
 In words: sample the annihilator, then take its annihilator back to get $H$. The "coset representative is only a phase" step is what makes the unknown offset harmless, and it is the same computation as [3.4](03-04-simons-algorithm.md) P2 and [4.1](04-01-the-quantum-fourier-transform.md) P3.
 
-Now the table that is the real content of this lesson:
+Now the table that is the real content of this lesson, also on the card as [Shor and the HSP table](../reference.md#shors-algorithm-and-the-hsp-table):
 
 | algorithm | group $G$ | hidden subgroup $H$ | status |
 |---|---|---|---|

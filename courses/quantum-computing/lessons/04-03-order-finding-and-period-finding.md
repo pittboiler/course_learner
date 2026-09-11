@@ -62,7 +62,7 @@ In words: $\lvert1\rangle$ is an unbiased mixture of every eigenvector, and the 
 
 > **Why $m \approx 2n$ bits.** Two distinct fractions with denominators below $N$ differ by at least $1/N^2$, so you need phase accuracy better than $1/2N^2$, hence about $2\log_2 N = 2n$ bits.
 
-> **Continued fractions (the classical guarantee).** If $\lvert x - p/q\rvert < 1/2q^2$ with $\gcd(p,q) = 1$, then $p/q$ appears among the convergents of $x$'s continued-fraction expansion, computable in $O(\log^3 N)$ time.
+> **Continued fractions** ([on the card](../reference.md#fourier-and-phase-estimation-facts))**.** If $\lvert x - p/q\rvert < 1/2q^2$ with $\gcd(p,q) = 1$, then $p/q$ appears among the convergents of $x$'s continued-fraction expansion, computable in $O(\log^3 N)$ time.
 
 In words: a good enough decimal approximation determines the fraction uniquely, and Euclid's algorithm finds it. This theorem is what converts "a number near $s/r$" into "$r$ exactly."
 

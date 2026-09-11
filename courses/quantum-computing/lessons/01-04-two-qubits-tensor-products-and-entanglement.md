@@ -43,7 +43,7 @@ The reason the magnitude means something is the Schmidt decomposition:
 
 > **Schmidt decomposition (two qubits).** Every two-qubit state can be written $\lvert\psi\rangle = \lambda_1\lvert u_1\rangle\lvert v_1\rangle + \lambda_2\lvert u_2\rangle\lvert v_2\rangle$ with $\lambda_1 \ge \lambda_2 \ge 0$, $\lambda_1^2+\lambda_2^2 = 1$, and orthonormal $\{\lvert u_i\rangle\}$, $\{\lvert v_i\rangle\}$. The $\lambda_i$ are the singular values of $C$; the number of nonzero ones is the **Schmidt rank**.
 
-In words: in the right local bases, any two-qubit state needs at most two terms. Schmidt rank 1 is a product state, rank 2 is entangled, and $\lambda_1 = \lambda_2 = 1/\sqrt2$ is maximal entanglement. This is the singular value decomposition of [`linalg-refresher` 5.2](../../linalg-refresher/lessons/05-02-svd.md) applied to the coefficient table — the same theorem, wearing a physics hat.
+In words: in the right local bases, any two-qubit state needs at most two terms. Schmidt rank 1 is a product state, rank 2 is entangled, and $\lambda_1 = \lambda_2 = 1/\sqrt2$ is maximal entanglement. The card keeps the four equivalent tests side by side as [entanglement diagnostics](../reference.md#entanglement-diagnostics-two-qubits). This is the singular value decomposition of [`linalg-refresher` 5.2](../../linalg-refresher/lessons/05-02-svd.md) applied to the coefficient table — the same theorem, wearing a physics hat.
 
 Finally, measuring only one qubit:
 

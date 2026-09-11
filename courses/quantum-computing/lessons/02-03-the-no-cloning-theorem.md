@@ -46,7 +46,7 @@ $$\langle\psi\vert\varphi\rangle = \left(\langle\psi\vert\otimes\langle0\rvert\r
 
 Writing $c = \langle\psi\vert\varphi\rangle$, we need $c = c^2$, so $c = 0$ or $c = 1$. **A cloner works only on sets of states that are mutually orthogonal or identical.** $\blacksquare$
 
-The second proof is the more informative one, because it tells you exactly where the boundary is:
+The second proof is the more informative one, because it tells you exactly where the boundary is (the card states the theorem itself under [no-cloning](../reference.md#no-cloning-theorem)):
 
 | Task | Possible? | Why |
 |---|---|---|

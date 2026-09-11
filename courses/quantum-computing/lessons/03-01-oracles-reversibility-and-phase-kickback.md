@@ -40,7 +40,7 @@ In words: the two oracle types cost the same. Which explains why textbooks switc
 
 In words: classical computation is available at roughly double the gate count and with ancillas you must give back. The uncomputation is not an optimization; it is mandatory, for the reason in Example 2.
 
-Two standard tools for the rest of the module:
+Two standard tools for the rest of the module, both kept on the card under [Fourier and phase-estimation facts](../reference.md#fourier-and-phase-estimation-facts):
 
 > **Uniform superposition.** $H^{\otimes n}\lvert0\rangle^{\otimes n} = \dfrac{1}{\sqrt{2^n}}\displaystyle\sum_{x\in\{0,1\}^n}\lvert x\rangle$.
 

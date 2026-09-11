@@ -32,7 +32,7 @@ In words: sandwich the sign-flip between your algorithm and its inverse and you 
 
 $$\text{classical: } \Theta(1/p) \text{ runs of } \mathcal A, \qquad \text{quantum: } \Theta(1/\sqrt p) \text{ runs of } \mathcal A \text{ and } \mathcal A^\dagger.$$
 
-Two conditions are easy to miss and fatal to forget. $\mathcal A$ must be **coherent** — no measurements inside it, since $\mathcal A^\dagger$ must undo it — and you need a **checker** that recognizes success as a unitary sign flip.
+The card carries the iteration formulas under [Grover and amplitude-amplification arithmetic](../reference.md#grover-and-amplitude-amplification-arithmetic). Two conditions are easy to miss and fatal to forget. $\mathcal A$ must be **coherent** — no measurements inside it, since $\mathcal A^\dagger$ must undo it — and you need a **checker** that recognizes success as a unitary sign flip.
 
 > **Quantum counting.** The Grover operator $G$ for $M$ marked items out of $N$ has eigenvalues $e^{\pm2i\theta}$ with $\sin^2\theta = M/N$. Applying phase estimation to $G$ with $m$ ancilla bits yields an estimate $\tilde\theta$, and
 > $$\tilde M = N\sin^2\tilde\theta.$$

@@ -47,7 +47,7 @@ The two bases used constantly:
 
 In words: you only ever need one detector. To ask a different question, rotate the state so that your question's axis lands on the detector's axis. The $X$-basis row above is the case $U = H$, since $HZH = X$ ([1.2](01-02-single-qubit-gates.md)).
 
-Finally, the quantity you actually estimate in practice:
+Finally, the quantity you actually estimate in practice — the card collects all of these under [measurement](../reference.md#measurement):
 
 > **Expectation value.** For an observable $A$ with eigenvalues $\pm1$, $\langle A\rangle = \langle\psi\vert A\vert\psi\rangle = P(+) - P(-)$, estimated by averaging $\pm1$ over repeated runs. The standard error after $N$ shots is $\sqrt{(1-\langle A\rangle^2)/N} \le 1/\sqrt N$.
 

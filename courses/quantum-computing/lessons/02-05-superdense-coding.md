@@ -34,7 +34,7 @@ One qubit crossed the channel; two bits arrived. The trick is where the second b
 
 In words: the two bits index the four Bell states, and a Bell measurement reads the index off. Success probability is exactly 1 — the four Bell states are orthogonal, so a projective measurement in that basis never errs. Note the phase in the last row is global and invisible.
 
-The resource statement, alongside teleportation's for contrast:
+The resource statement, alongside teleportation's for contrast and on the card under [Holevo bound](../reference.md#holevo-bound):
 
 $$\text{superdense: } 1\ \text{ebit} + 1\ \text{qubit} \;\ge\; 2\ \text{cbits}, \qquad\qquad \text{teleportation: } 1\ \text{ebit} + 2\ \text{cbits} \;\ge\; 1\ \text{qubit}.$$
 

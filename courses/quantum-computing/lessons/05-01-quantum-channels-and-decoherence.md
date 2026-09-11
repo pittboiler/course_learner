@@ -39,7 +39,7 @@ In words: apply several operators, each with its own weight, and add the results
 
 In words: **noise is a unitary you cannot see all of.** Nothing non-unitary happens in the universe; you just lack access to part of it. This is the purification statement of [2.2](02-02-density-matrices-and-the-partial-trace.md) read backwards, and it is why error correction is possible at all — the information is not destroyed, only relocated.
 
-The catalogue, with the Bloch action written out:
+The catalogue, with the Bloch action written out — the card keeps it as [noise channels](../reference.md#noise-channels):
 
 | channel | Kraus operators | Bloch action on $(r_x,r_y,r_z)$ |
 |---|---|---|

@@ -44,7 +44,7 @@ Phase flips get the same treatment for free. Since $HZH = X$ ([1.2](01-02-single
 
 In words: $Z_1Z_2$ is the parity of the first two bits. It commutes with $Z_2Z_3$ ([2.1](02-01-bell-states-and-generating-entanglement.md) P2), so both can be measured simultaneously, and neither distinguishes $\lvert000\rangle$ from $\lvert111\rangle$ — both are $+1$ eigenstates of both. **That is the design requirement**, and in [5.4](05-04-stabilizer-codes-and-the-css-construction.md) it becomes the definition of a stabilizer.
 
-The syndrome table, with $s_i = 0$ meaning outcome $+1$:
+The syndrome table, with $s_i = 0$ meaning outcome $+1$ (the card keeps every code side by side under [codes](../reference.md#codes)):
 
 | $s_1 s_2$ | diagnosis | correction | probability |
 |---|---|---|---|
