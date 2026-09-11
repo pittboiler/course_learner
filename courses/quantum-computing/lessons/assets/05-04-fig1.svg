@@ -1,0 +1,23 @@
+<svg viewBox="0 0 700 370" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+<text x="28" y="22" fill="#8a8a8a" font-style="italic">A code is a group: pick commuting Pauli strings, and their joint +1 eigenspace is the code</text>
+<text x="50" y="50" fill="#8a8a8a" font-size="12">the Steane code [[7,1,3]]: six commuting Pauli strings, one logical qubit, distance 3</text>
+<text x="70" y="84" fill="#4a90d9" font-family="Courier, monospace" font-size="13">g&#8321; = I I I X X X X</text>
+<text x="70" y="108" fill="#4a90d9" font-family="Courier, monospace" font-size="13">g&#8322; = I X X I I X X</text>
+<text x="70" y="132" fill="#4a90d9" font-family="Courier, monospace" font-size="13">g&#8323; = X I X I X I X</text>
+<text x="70" y="156" fill="#3f9e6a" font-family="Courier, monospace" font-size="13">g&#8324; = I I I Z Z Z Z</text>
+<text x="70" y="180" fill="#3f9e6a" font-family="Courier, monospace" font-size="13">g&#8325; = I Z Z I I Z Z</text>
+<text x="70" y="204" fill="#3f9e6a" font-family="Courier, monospace" font-size="13">g&#8326; = Z I Z I Z I Z</text>
+<text x="270" y="108" fill="#4a90d9" font-size="11">three X-type checks</text>
+<text x="270" y="180" fill="#3f9e6a" font-size="11">three Z-type checks</text>
+<text x="270" y="132" fill="#8a8a8a" font-size="11">(these rows are the</text>
+<text x="270" y="147" fill="#8a8a8a" font-size="11">[7,4,3] Hamming parity check)</text>
+<text x="50" y="248" fill="#d98c3f" font-size="12.5">k = n &#8722; (number of independent generators) = 7 &#8722; 6 = 1</text>
+<text x="50" y="272" fill="#d98c3f" font-size="12.5">d = minimum weight of a Pauli that commutes with all generators but is not in the group</text>
+<text x="70" y="292" fill="#8a8a8a" font-size="11.5">e.g. I I Z I Z Z I has weight 3 &#8594; d = 3 &#8594; corrects &#8970;(d&#8722;1)/2&#8971; = 1 arbitrary error</text>
+<rect x="430" y="240" width="230" height="110" rx="5" fill="none" stroke="#8a6fc0" stroke-width="1.3"/>
+<text x="445" y="262" fill="#8a6fc0" font-size="12">CSS construction</text>
+<text x="445" y="282" fill="#8a8a8a" font-size="10.5">take classical codes C&#8322; &#8838; C&#8321;</text>
+<text x="445" y="299" fill="#8a8a8a" font-size="10.5">X-checks from C&#8321;&#8319;s parity matrix</text>
+<text x="445" y="316" fill="#8a8a8a" font-size="10.5">Z-checks from C&#8322;&#8319;s dual</text>
+<text x="445" y="333" fill="#8a8a8a" font-size="10.5">get [[n, k&#8321;&#8722;k&#8322;, d]] quantum code</text>
+</svg>

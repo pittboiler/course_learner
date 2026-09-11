@@ -1,0 +1,32 @@
+<svg viewBox="0 0 700 390" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+<text x="28" y="22" fill="#8a8a8a" font-style="italic">Nine qubits, two layers: the first code that corrects an arbitrary single-qubit error</text>
+<text x="50" y="52" fill="#8a8a8a" font-size="12">the Shor code = phase-flip code on the OUTSIDE, bit-flip code on the INSIDE</text>
+<rect x="70" y="90" width="120" height="30" rx="4" fill="none" stroke="#4a90d9" stroke-width="1.3"/>
+<text x="130" y="110" fill="#4a90d9" font-size="12" text-anchor="middle">&#945;|0&#10217;+&#946;|1&#10217;</text>
+<text x="200" y="110" fill="#8a8a8a" font-size="18">&#8594;</text>
+<rect x="230" y="90" width="180" height="30" rx="4" fill="none" stroke="#3f9e6a" stroke-width="1.3"/>
+<text x="320" y="110" fill="#3f9e6a" font-size="12" text-anchor="middle">&#945;|+++&#10217;+&#946;|&#8722;&#8722;&#8722;&#10217;</text>
+<text x="422" y="110" fill="#8a8a8a" font-size="18">&#8594;</text>
+<text x="450" y="104" fill="#d98c3f" font-size="11">each |&#177;&#10217; &#8594; (|000&#10217;&#177;|111&#10217;)/&#8730;2</text>
+<text x="450" y="120" fill="#d98c3f" font-size="11">&#8594; 9 physical qubits</text>
+<rect x="110" y="160" width="140" height="52" rx="4" fill="none" stroke="#d98c3f" stroke-width="1.2" stroke-dasharray="4 3"/>
+<circle cx="138" cy="186" r="9" fill="none" stroke="#4a90d9" stroke-width="1.3"/>
+<circle cx="180" cy="186" r="9" fill="none" stroke="#4a90d9" stroke-width="1.3"/>
+<circle cx="222" cy="186" r="9" fill="none" stroke="#4a90d9" stroke-width="1.3"/>
+<text x="180" y="230" fill="#d98c3f" font-size="11" text-anchor="middle">block 1: corrects 1 bit flip</text>
+<rect x="290" y="160" width="140" height="52" rx="4" fill="none" stroke="#d98c3f" stroke-width="1.2" stroke-dasharray="4 3"/>
+<circle cx="318" cy="186" r="9" fill="none" stroke="#4a90d9" stroke-width="1.3"/>
+<circle cx="360" cy="186" r="9" fill="none" stroke="#4a90d9" stroke-width="1.3"/>
+<circle cx="402" cy="186" r="9" fill="none" stroke="#4a90d9" stroke-width="1.3"/>
+<text x="360" y="230" fill="#d98c3f" font-size="11" text-anchor="middle">block 2: corrects 1 bit flip</text>
+<rect x="470" y="160" width="140" height="52" rx="4" fill="none" stroke="#d98c3f" stroke-width="1.2" stroke-dasharray="4 3"/>
+<circle cx="498" cy="186" r="9" fill="none" stroke="#4a90d9" stroke-width="1.3"/>
+<circle cx="540" cy="186" r="9" fill="none" stroke="#4a90d9" stroke-width="1.3"/>
+<circle cx="582" cy="186" r="9" fill="none" stroke="#4a90d9" stroke-width="1.3"/>
+<text x="540" y="230" fill="#d98c3f" font-size="11" text-anchor="middle">block 3: corrects 1 bit flip</text>
+<text x="110" y="256" fill="#3f9e6a" font-size="11.5">across blocks: corrects 1 phase flip &#183; [[9,1,3]]</text>
+<text x="50" y="300" fill="#8a8a8a" font-size="12">DISCRETIZATION: any single-qubit error is a combination of just four operators</text>
+<text x="70" y="328" fill="#e0645c" font-size="14">E = c&#8320; I + c&#8321; X + c&#8322; Y + c&#8323; Z</text>
+<text x="70" y="352" fill="#8a8a8a" font-size="11.5">so a code that corrects X, Y and Z on every qubit corrects EVERY single-qubit error,</text>
+<text x="70" y="370" fill="#8a8a8a" font-size="11.5">including continuous over-rotations &#8212; the syndrome measurement digitizes them.</text>
+</svg>
