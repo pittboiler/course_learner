@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 440" width="780" height="440" font-family="Helvetica, Arial, sans-serif" font-size="11.5">
+  <text x="390.00" y="18.00" font-size="12" fill="#8a8a8a" text-anchor="middle" font-weight="bold">Sumcheck: each round removes one variable and one exponential</text>
+  <text x="390.00" y="40.00" font-size="10.5" fill="#8a8a8a" text-anchor="middle" font-style="italic">phi = (x1 v x2 v ~x3) and (~x1 v x2 v x3),  arithmetized over GF(97)</text>
+  <text x="145.00" y="72.00" font-size="12" fill="#4a90d9" text-anchor="middle" font-weight="bold">Verifier</text>
+  <text x="625.00" y="72.00" font-size="12" fill="#e0645c" text-anchor="middle" font-weight="bold">Prover</text>
+  <line x1="145.00" y1="84.00" x2="145.00" y2="378.00" stroke="#4a90d9" stroke-width="1.4" stroke-linecap="round"/>
+  <line x1="625.00" y1="84.00" x2="625.00" y2="378.00" stroke="#e0645c" stroke-width="1.4" stroke-linecap="round"/>
+  <line x1="617.00" y1="108.00" x2="159.00" y2="108.00" stroke="#8a8a8a" stroke-width="1.2" stroke-linecap="round"/>
+  <polygon points="153.00,108.00 158.48,105.55 158.48,110.45" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="0.6" stroke-linejoin="round" stroke-linecap="round"/>
+  <text x="385.00" y="100.00" font-size="10" fill="#8a8a8a" text-anchor="middle">g_1 (degree &lt;= 2)</text>
+  <text x="133.00" y="114.00" font-size="10" fill="#8a8a8a" text-anchor="end">checks 3 + 3 = 6</text>
+  <text x="133.00" y="129.00" font-size="10" fill="#8a8a8a" text-anchor="end">picks r_1 = 5;</text>
+  <text x="133.00" y="144.00" font-size="10" fill="#8a8a8a" text-anchor="end">claim becomes g_1(5) = 3</text>
+  <line x1="617.00" y1="180.00" x2="159.00" y2="180.00" stroke="#8a8a8a" stroke-width="1.2" stroke-linecap="round"/>
+  <polygon points="153.00,180.00 158.48,177.55 158.48,182.45" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="0.6" stroke-linejoin="round" stroke-linecap="round"/>
+  <text x="385.00" y="172.00" font-size="10" fill="#8a8a8a" text-anchor="middle">g_2 (degree &lt;= 2)</text>
+  <text x="133.00" y="186.00" font-size="10" fill="#8a8a8a" text-anchor="end">checks 1 + 2 = 3</text>
+  <text x="133.00" y="201.00" font-size="10" fill="#8a8a8a" text-anchor="end">picks r_2 = 11;</text>
+  <text x="133.00" y="216.00" font-size="10" fill="#8a8a8a" text-anchor="end">claim becomes g_2(11) = 12</text>
+  <line x1="617.00" y1="252.00" x2="159.00" y2="252.00" stroke="#8a8a8a" stroke-width="1.2" stroke-linecap="round"/>
+  <polygon points="153.00,252.00 158.48,249.55 158.48,254.45" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="0.6" stroke-linejoin="round" stroke-linecap="round"/>
+  <text x="385.00" y="244.00" font-size="10" fill="#8a8a8a" text-anchor="middle">g_3 (degree &lt;= 2)</text>
+  <text x="133.00" y="258.00" font-size="10" fill="#8a8a8a" text-anchor="end">checks 51 + 58 = 12</text>
+  <text x="133.00" y="273.00" font-size="10" fill="#8a8a8a" text-anchor="end">picks r_3 = 3;</text>
+  <text x="133.00" y="288.00" font-size="10" fill="#8a8a8a" text-anchor="end">claim becomes g_3(3) = 44</text>
+  <text x="159.00" y="330.00" font-size="10" fill="#8a8a8a">evaluates the polynomial itself</text>
+  <text x="159.00" y="345.00" font-size="10" fill="#8a8a8a">at (5, 11, 3): gets 44 = claim</text>
+  <text x="159.00" y="360.00" font-size="10.5" fill="#4a90d9" font-weight="bold">ACCEPT</text>
+  <text x="20.00" y="400.00" font-size="10.5" fill="#8a8a8a">The claim is that the sum over all 8 Boolean points is 6, which is the number of satisfying assignments. The verifier</text>
+  <text x="20.00" y="416.00" font-size="10.5" fill="#8a8a8a">never sums 8 terms; it checks two field elements per round. A cheating prover must send a wrong degree-2 polynomial,</text>
+  <text x="20.00" y="432.00" font-size="10.5" fill="#8a8a8a" font-style="italic">which agrees with the true one at most 2 of 97 points, so three rounds catch a lie with probability at least 0.94.</text>
+</svg>

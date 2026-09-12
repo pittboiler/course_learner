@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 330" width="780" height="330" font-family="Helvetica, Arial, sans-serif" font-size="11.5">
+  <text x="390.00" y="18.00" font-size="12" fill="#8a8a8a" text-anchor="middle" font-weight="bold">One accepting path, written down, is the certificate</text>
+  <line x1="390.00" y1="55.00" x2="225.00" y2="103.00" stroke="#8a8a8a" stroke-width="0.9" stroke-linecap="round"/>
+  <line x1="390.00" y1="55.00" x2="555.00" y2="103.00" stroke="#e0645c" stroke-width="2.0" stroke-linecap="round"/>
+  <line x1="225.00" y1="117.00" x2="142.50" y2="165.00" stroke="#8a8a8a" stroke-width="0.9" stroke-linecap="round"/>
+  <line x1="225.00" y1="117.00" x2="307.50" y2="165.00" stroke="#8a8a8a" stroke-width="0.9" stroke-linecap="round"/>
+  <line x1="555.00" y1="117.00" x2="472.50" y2="165.00" stroke="#e0645c" stroke-width="2.0" stroke-linecap="round"/>
+  <line x1="555.00" y1="117.00" x2="637.50" y2="165.00" stroke="#8a8a8a" stroke-width="0.9" stroke-linecap="round"/>
+  <line x1="142.50" y1="179.00" x2="101.25" y2="227.00" stroke="#8a8a8a" stroke-width="0.9" stroke-linecap="round"/>
+  <line x1="142.50" y1="179.00" x2="183.75" y2="227.00" stroke="#8a8a8a" stroke-width="0.9" stroke-linecap="round"/>
+  <line x1="307.50" y1="179.00" x2="266.25" y2="227.00" stroke="#8a8a8a" stroke-width="0.9" stroke-linecap="round"/>
+  <line x1="307.50" y1="179.00" x2="348.75" y2="227.00" stroke="#8a8a8a" stroke-width="0.9" stroke-linecap="round"/>
+  <line x1="472.50" y1="179.00" x2="431.25" y2="227.00" stroke="#8a8a8a" stroke-width="0.9" stroke-linecap="round"/>
+  <line x1="472.50" y1="179.00" x2="513.75" y2="227.00" stroke="#e0645c" stroke-width="2.0" stroke-linecap="round"/>
+  <line x1="637.50" y1="179.00" x2="596.25" y2="227.00" stroke="#8a8a8a" stroke-width="0.9" stroke-linecap="round"/>
+  <line x1="637.50" y1="179.00" x2="678.75" y2="227.00" stroke="#8a8a8a" stroke-width="0.9" stroke-linecap="round"/>
+  <circle cx="390.00" cy="48.00" r="7.00" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+  <circle cx="225.00" cy="110.00" r="7.00" fill="none" stroke="#8a8a8a" stroke-width="1.0"/>
+  <circle cx="555.00" cy="110.00" r="7.00" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+  <circle cx="142.50" cy="172.00" r="7.00" fill="none" stroke="#8a8a8a" stroke-width="1.0"/>
+  <circle cx="307.50" cy="172.00" r="7.00" fill="none" stroke="#8a8a8a" stroke-width="1.0"/>
+  <circle cx="472.50" cy="172.00" r="7.00" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+  <circle cx="637.50" cy="172.00" r="7.00" fill="none" stroke="#8a8a8a" stroke-width="1.0"/>
+  <circle cx="101.25" cy="234.00" r="7.00" fill="none" stroke="#8a8a8a" stroke-width="1.0"/>
+  <circle cx="183.75" cy="234.00" r="7.00" fill="none" stroke="#8a8a8a" stroke-width="1.0"/>
+  <circle cx="266.25" cy="234.00" r="7.00" fill="none" stroke="#8a8a8a" stroke-width="1.0"/>
+  <circle cx="348.75" cy="234.00" r="7.00" fill="none" stroke="#8a8a8a" stroke-width="1.0"/>
+  <circle cx="431.25" cy="234.00" r="7.00" fill="none" stroke="#8a8a8a" stroke-width="1.0"/>
+  <circle cx="513.75" cy="234.00" r="7.00" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+  <text x="513.75" y="258.00" font-size="10" fill="#e0645c" text-anchor="middle">accept</text>
+  <circle cx="596.25" cy="234.00" r="7.00" fill="none" stroke="#8a8a8a" stroke-width="1.0"/>
+  <circle cx="678.75" cy="234.00" r="7.00" fill="none" stroke="#8a8a8a" stroke-width="1.0"/>
+  <text x="40.00" y="52.00" font-size="10" fill="#8a8a8a" text-anchor="end">start</text>
+  <text x="752.00" y="52.00" font-size="9.5" fill="#8a8a8a" text-anchor="end">step 0</text>
+  <text x="752.00" y="114.00" font-size="9.5" fill="#8a8a8a" text-anchor="end">step 1</text>
+  <text x="752.00" y="176.00" font-size="9.5" fill="#8a8a8a" text-anchor="end">step 2</text>
+  <text x="752.00" y="238.00" font-size="9.5" fill="#8a8a8a" text-anchor="end">step 3</text>
+  <text x="60.00" y="300.00" font-size="10.5" fill="#8a8a8a">Choices along the coral path:  1, 0, 1  — three bits, one per nondeterministic step.</text>
+  <text x="60.00" y="318.00" font-size="10.5" fill="#8a8a8a" font-style="italic">A verifier replays them in deterministic time. Width 2^t is why the simulation is exponential.</text>
+</svg>

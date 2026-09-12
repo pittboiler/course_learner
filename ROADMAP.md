@@ -245,7 +245,7 @@ New field (Phase 7 in [EXPANSION.md](EXPANSION.md)).
 | `operating-systems` | Operating Systems | 1 | programming-foundations, computer-architecture | Processes & threads, scheduling, virtual memory, file systems, and concurrency. |
 | `computer-networks` | Networking | 1 | programming-foundations | The TCP/IP stack, routing, reliable transport, congestion control, and security basics. |
 | `databases` | Database Systems | 1 | programming-foundations | The relational model, SQL, normalization, indexing, transactions, and query processing. |
-| `computational-complexity` | Complexity Theory | 2 | theory-of-computation | P vs NP, NP-completeness & reductions, space complexity, and randomized & approximation classes. |
+| `computational-complexity` | Complexity Theory | 2 | theory-of-computation | Hierarchy theorems, Cook-Levin and NP-completeness, space and the polynomial hierarchy, counting, randomness and interaction, circuits, approximation barriers, and fine-grained lower bounds. |
 | `programming-languages` | Programming Languages & Compilers | 2 | theory-of-computation, algorithms | Lexing & parsing, type systems, semantics, the lambda calculus, and code generation. |
 | `cryptography` | Cryptography | 2 | number-theory, algorithms | One-way functions, symmetric & public-key crypto (AES/RSA/ECC), hashing, protocols, and zero-knowledge. |
 | `distributed-systems` | Distributed Systems | 2 | operating-systems, computer-networks | Time & consistency, replication, consensus (Paxos/Raft), the CAP theorem, and fault tolerance. |

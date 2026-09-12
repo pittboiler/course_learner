@@ -112,7 +112,7 @@
         "calc-refresher"
       ],
       "lessons_estimate": 25,
-      "blurb": "Sequences, limits, continuity, integration, uniform convergence — with proofs."
+      "blurb": "Sequences, limits, continuity, integration, uniform convergence \u2014 with proofs."
     },
     {
       "id": "complex-analysis",
@@ -198,7 +198,7 @@
         "complex-analysis"
       ],
       "lessons_estimate": 32,
-      "blurb": "State vectors, operators, Schrödinger equation, spin, entanglement, perturbation theory."
+      "blurb": "State vectors, operators, Schr\u00f6dinger equation, spin, entanglement, perturbation theory."
     },
     {
       "id": "stat-mech",
@@ -471,7 +471,7 @@
         "algebra-foundations"
       ],
       "lessons_estimate": 11,
-      "blurb": "Congruence, similarity, circles, area — proof-based. The classic first taste of rigor."
+      "blurb": "Congruence, similarity, circles, area \u2014 proof-based. The classic first taste of rigor."
     },
     {
       "id": "trigonometry",
@@ -518,7 +518,7 @@
         "discrete-math-intro"
       ],
       "lessons_estimate": 16,
-      "blurb": "Logic, sets, combinatorics, recurrences, and graphs — the mathematics of the discrete, and the backbone of CS."
+      "blurb": "Logic, sets, combinatorics, recurrences, and graphs \u2014 the mathematics of the discrete, and the backbone of CS."
     },
     {
       "id": "number-theory",
@@ -563,7 +563,7 @@
         "linalg-refresher"
       ],
       "lessons_estimate": 23,
-      "blurb": "Floating point, root-finding, interpolation, quadrature, linear solvers, and ODE integrators — with error & stability."
+      "blurb": "Floating point, root-finding, interpolation, quadrature, linear solvers, and ODE integrators \u2014 with error & stability."
     },
     {
       "id": "convex-optimization",
@@ -623,7 +623,7 @@
         "calc-refresher"
       ],
       "lessons_estimate": 11,
-      "blurb": "The four laws, heat engines, entropy, and thermodynamic potentials — before the statistical picture."
+      "blurb": "The four laws, heat engines, entropy, and thermodynamic potentials \u2014 before the statistical picture."
     },
     {
       "id": "mathematical-methods-physics",
@@ -671,7 +671,7 @@
         "stat-mech"
       ],
       "lessons_estimate": 22,
-      "blurb": "Single-particle motion, kinetic theory, MHD, and waves & instabilities — the bridge to fusion."
+      "blurb": "Single-particle motion, kinetic theory, MHD, and waves & instabilities \u2014 the bridge to fusion."
     },
     {
       "id": "biophysics",
@@ -705,7 +705,7 @@
         "calc-refresher"
       ],
       "lessons_estimate": 15,
-      "blurb": "Forces, moments, equilibrium, trusses & frames, friction, centroids — the engineering foundation for structures."
+      "blurb": "Forces, moments, equilibrium, trusses & frames, friction, centroids \u2014 the engineering foundation for structures."
     },
     {
       "id": "engineering-dynamics",
@@ -787,7 +787,7 @@
         "ode-refresher"
       ],
       "lessons_estimate": 18,
-      "blurb": "Nuclear reactions & cross-sections, fission, ionizing radiation, and dose — the foundations of the field."
+      "blurb": "Nuclear reactions & cross-sections, fission, ionizing radiation, and dose \u2014 the foundations of the field."
     },
     {
       "id": "reactor-physics",
@@ -1008,7 +1008,7 @@
         "heat-transfer"
       ],
       "lessons_estimate": 25,
-      "blurb": "Unified momentum, heat, and mass transfer — the chemical-engineering keystone."
+      "blurb": "Unified momentum, heat, and mass transfer \u2014 the chemical-engineering keystone."
     },
     {
       "id": "reaction-engineering",
@@ -1040,7 +1040,7 @@
       "field": "Computer Science",
       "prereqs": [],
       "lessons_estimate": 15,
-      "blurb": "Programming fundamentals plus the core data structures: lists, stacks, trees, hashing, graphs — with Big-O."
+      "blurb": "Programming fundamentals plus the core data structures: lists, stacks, trees, hashing, graphs \u2014 with Big-O."
     },
     {
       "id": "algorithms",
@@ -1072,8 +1072,8 @@
       "prereqs": [
         "theory-of-computation"
       ],
-      "lessons_estimate": 18,
-      "blurb": "P vs NP, NP-completeness & reductions, space complexity, and randomized & approximation classes."
+      "lessons_estimate": 28,
+      "blurb": "Hierarchy theorems, Cook-Levin and NP-completeness, space and the polynomial hierarchy, counting, randomness and interaction, circuits, approximation barriers, and fine-grained lower bounds."
     },
     {
       "id": "computer-architecture",
@@ -1167,7 +1167,7 @@
         "convex-optimization"
       ],
       "lessons_estimate": 23,
-      "blurb": "Regression, SVMs, trees, clustering, and model selection — the applied companion to statistical-learning."
+      "blurb": "Regression, SVMs, trees, clustering, and model selection \u2014 the applied companion to statistical-learning."
     },
     {
       "id": "deep-learning",
@@ -1248,7 +1248,7 @@
         "quantum-mechanics"
       ],
       "lessons_estimate": 24,
-      "blurb": "Chemical thermodynamics, kinetics, and quantum chemistry — chemistry from physical first principles."
+      "blurb": "Chemical thermodynamics, kinetics, and quantum chemistry \u2014 chemistry from physical first principles."
     },
     {
       "id": "quantum-chemistry",
@@ -1393,7 +1393,7 @@
         "relativity"
       ],
       "lessons_estimate": 20,
-      "blurb": "The expanding universe, the FLRW model & ΛCDM, the CMB, nucleosynthesis, inflation, and structure formation."
+      "blurb": "The expanding universe, the FLRW model & \u039bCDM, the CMB, nucleosynthesis, inflation, and structure formation."
     },
     {
       "id": "general-biology",
@@ -1504,7 +1504,7 @@
         "real-analysis"
       ],
       "lessons_estimate": 20,
-      "blurb": "σ-algebras, Lebesgue measure & integration, the convergence theorems, and Lᵖ spaces."
+      "blurb": "\u03c3-algebras, Lebesgue measure & integration, the convergence theorems, and L\u1d56 spaces."
     },
     {
       "id": "algebraic-topology",
@@ -1516,7 +1516,7 @@
         "abstract-algebra"
       ],
       "lessons_estimate": 21,
-      "blurb": "Homotopy, the fundamental group, covering spaces, and homology — the tools past π₁."
+      "blurb": "Homotopy, the fundamental group, covering spaces, and homology \u2014 the tools past \u03c0\u2081."
     },
     {
       "id": "algebraic-geometry",

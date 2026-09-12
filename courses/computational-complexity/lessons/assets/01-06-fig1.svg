@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 392" width="760" height="392" font-family="Helvetica, Arial, sans-serif" font-size="11.5">
+  <text x="380.00" y="18.00" font-size="12" fill="#8a8a8a" text-anchor="middle" font-weight="bold">If P is not NP there is a middle, and it is infinitely layered</text>
+  <ellipse cx="230.00" cy="160.00" rx="200.00" ry="112.00" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="230.00" y="66.00" font-size="13" fill="#8a8a8a" text-anchor="middle" font-weight="bold">NP</text>
+  <ellipse cx="144.00" cy="178.00" rx="84.00" ry="54.00" fill="none" stroke="#4a90d9" stroke-width="1.7"/>
+  <text x="144.00" y="182.00" font-size="13" fill="#4a90d9" text-anchor="middle" font-weight="bold">P</text>
+  <ellipse cx="330.00" cy="134.00" rx="74.00" ry="48.00" fill="none" stroke="#e0645c" stroke-width="1.7"/>
+  <text x="330.00" y="116.00" font-size="10.5" fill="#e0645c" text-anchor="middle">NP-complete</text>
+  <text x="330.00" y="132.00" font-size="9.5" fill="#e0645c" text-anchor="middle">SAT, CLIQUE</text>
+  <text x="330.00" y="148.00" font-size="9.5" fill="#e0645c" text-anchor="middle">HAMPATH</text>
+  <text x="30.00" y="280.00" font-size="10" fill="#8a8a8a">NP-intermediate (the crescent): Ladner's language lives here, and so would</text>
+  <text x="30.00" y="296.00" font-size="10" fill="#8a8a8a" font-style="italic">graph isomorphism and factoring if anyone could place them.</text>
+  <text x="630.00" y="54.00" font-size="11" fill="#8a8a8a" text-anchor="middle" font-weight="bold">the padding function f(n)</text>
+  <line x1="520.00" y1="282.00" x2="740.00" y2="282.00" stroke="#8a8a8a" stroke-width="1.4" stroke-linecap="round"/>
+  <line x1="520.00" y1="282.00" x2="520.00" y2="80.00" stroke="#8a8a8a" stroke-width="1.4" stroke-linecap="round"/>
+  <text x="630.00" y="304.00" font-size="10" fill="#8a8a8a" text-anchor="middle">input length n</text>
+  <text x="514.00" y="76.00" font-size="10" fill="#8a8a8a" text-anchor="end">f(n)</text>
+  <polyline points="520.00,258.00 556.00,258.00 556.00,218.00 594.00,218.00 594.00,178.00 634.00,178.00 634.00,138.00 684.00,138.00 684.00,98.00 740.00,98.00" fill="none" stroke="#e0645c" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+  <text x="528.00" y="249.00" font-size="9" fill="#8a8a8a">behave like SAT</text>
+  <text x="564.00" y="209.00" font-size="9" fill="#8a8a8a">like the empty set</text>
+  <text x="602.00" y="169.00" font-size="9" fill="#8a8a8a">like SAT</text>
+  <text x="642.00" y="129.00" font-size="9" fill="#8a8a8a">like the empty set</text>
+  <text x="20.00" y="344.00" font-size="10" fill="#8a8a8a">The staircase flips whenever the construction finds a new machine to defeat. The treads get longer as you go right,</text>
+  <text x="20.00" y="360.00" font-size="10" fill="#8a8a8a" font-style="italic">which is what makes the language too sparse to be NP-complete and too dense to be in P.</text>
+</svg>

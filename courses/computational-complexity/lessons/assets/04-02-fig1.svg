@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 400" width="780" height="400" font-family="Helvetica, Arial, sans-serif" font-size="11.5">
+  <text x="390.00" y="18.00" font-size="12" fill="#8a8a8a" text-anchor="middle" font-weight="bold">Repetition drives the error down exponentially</text>
+  <line x1="110.00" y1="330.00" x2="700.00" y2="330.00" stroke="#8a8a8a" stroke-width="1.4" stroke-linecap="round"/>
+  <line x1="110.00" y1="330.00" x2="110.00" y2="56.00" stroke="#8a8a8a" stroke-width="1.4" stroke-linecap="round"/>
+  <line x1="110.00" y1="330.00" x2="110.00" y2="334.00" stroke="#8a8a8a" stroke-width="1.4" stroke-linecap="round"/>
+  <text x="110.00" y="347.00" font-size="9.5" fill="#8a8a8a" text-anchor="middle">0</text>
+  <line x1="223.46" y1="330.00" x2="223.46" y2="334.00" stroke="#8a8a8a" stroke-width="1.4" stroke-linecap="round"/>
+  <text x="223.46" y="347.00" font-size="9.5" fill="#8a8a8a" text-anchor="middle">250</text>
+  <line x1="336.92" y1="330.00" x2="336.92" y2="334.00" stroke="#8a8a8a" stroke-width="1.4" stroke-linecap="round"/>
+  <text x="336.92" y="347.00" font-size="9.5" fill="#8a8a8a" text-anchor="middle">500</text>
+  <line x1="450.38" y1="330.00" x2="450.38" y2="334.00" stroke="#8a8a8a" stroke-width="1.4" stroke-linecap="round"/>
+  <text x="450.38" y="347.00" font-size="9.5" fill="#8a8a8a" text-anchor="middle">750</text>
+  <line x1="563.85" y1="330.00" x2="563.85" y2="334.00" stroke="#8a8a8a" stroke-width="1.4" stroke-linecap="round"/>
+  <text x="563.85" y="347.00" font-size="9.5" fill="#8a8a8a" text-anchor="middle">1000</text>
+  <line x1="677.31" y1="330.00" x2="677.31" y2="334.00" stroke="#8a8a8a" stroke-width="1.4" stroke-linecap="round"/>
+  <text x="677.31" y="347.00" font-size="9.5" fill="#8a8a8a" text-anchor="middle">1250</text>
+  <line x1="110.00" y1="56.00" x2="106.00" y2="56.00" stroke="#8a8a8a" stroke-width="1.4" stroke-linecap="round"/>
+  <text x="102.00" y="59.50" font-size="9.5" fill="#8a8a8a" text-anchor="end">1</text>
+  <line x1="110.00" y1="121.24" x2="106.00" y2="121.24" stroke="#8a8a8a" stroke-width="1.4" stroke-linecap="round"/>
+  <text x="102.00" y="124.74" font-size="9.5" fill="#8a8a8a" text-anchor="end">2^-25</text>
+  <line x1="110.00" y1="186.48" x2="106.00" y2="186.48" stroke="#8a8a8a" stroke-width="1.4" stroke-linecap="round"/>
+  <text x="102.00" y="189.98" font-size="9.5" fill="#8a8a8a" text-anchor="end">2^-50</text>
+  <line x1="110.00" y1="251.71" x2="106.00" y2="251.71" stroke="#8a8a8a" stroke-width="1.4" stroke-linecap="round"/>
+  <text x="102.00" y="255.21" font-size="9.5" fill="#8a8a8a" text-anchor="end">2^-75</text>
+  <line x1="110.00" y1="316.95" x2="106.00" y2="316.95" stroke="#8a8a8a" stroke-width="1.4" stroke-linecap="round"/>
+  <text x="102.00" y="320.45" font-size="9.5" fill="#8a8a8a" text-anchor="end">2^-100</text>
+  <text x="405.00" y="364.00" font-size="10.5" fill="#8a8a8a" text-anchor="middle">number of independent runs t</text>
+  <text x="24.00" y="52.00" font-size="10.5" fill="#8a8a8a">error</text>
+  <polyline points="110.45,60.14 114.99,63.91 133.15,74.74 155.84,86.90 201.22,110.25 291.99,155.81 473.53,245.76 618.76,317.34" fill="none" stroke="#4a90d9" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+  <polyline points="110.45,56.21 119.53,60.39 128.61,64.58 137.68,68.76 146.76,72.94 155.84,77.12 164.92,81.31 173.99,85.49 183.07,89.67 192.15,93.86 201.22,98.04 210.30,102.22 219.38,106.41 228.45,110.59 237.53,114.77 246.61,118.95 255.68,123.14 264.76,127.32 273.84,131.50 282.92,135.69 291.99,139.87 301.07,144.05 310.15,148.24 319.22,152.42 328.30,156.60 337.38,160.79 346.45,164.97 355.53,169.15 364.61,173.33 373.68,177.52 382.76,181.70 391.84,185.88 400.92,190.07 409.99,194.25 419.07,198.43 428.15,202.62 437.22,206.80 446.30,210.98 455.38,215.17 464.45,219.35 473.53,223.53 482.61,227.71 491.68,231.90 500.76,236.08 509.84,240.26 518.92,244.45 527.99,248.63 537.07,252.81 546.15,257.00 555.22,261.18 564.30,265.36 573.38,269.54 582.45,273.73 591.53,277.91 600.61,282.09 609.68,286.28 618.76,290.46 627.84,294.64 636.92,298.83 645.99,303.01 655.07,307.19 664.15,311.38 673.22,315.56 682.30,319.74 691.38,323.92" fill="none" stroke="#e0645c" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 4"/>
+  <text x="454.92" y="191.70" font-size="10.5" fill="#4a90d9">exact majority error</text>
+  <text x="246.15" y="144.72" font-size="10.5" fill="#e0645c">Chernoff bound</text>
+  <line x1="110.00" y1="316.95" x2="700.00" y2="316.95" stroke="#8a8a8a" stroke-width="1.0" stroke-linecap="round" stroke-dasharray="3 3"/>
+  <circle cx="618.76" cy="316.95" r="4.00" fill="none" stroke="#4a90d9" stroke-width="1.4"/>
+  <circle cx="676.40" cy="316.95" r="4.00" fill="none" stroke="#e0645c" stroke-width="1.4"/>
+  <text x="618.76" y="304.95" font-size="9.5" fill="#4a90d9" text-anchor="middle">1121</text>
+  <text x="698.40" y="330.95" font-size="9.5" fill="#e0645c" text-anchor="middle">1248</text>
+  <text x="20.00" y="372.00" font-size="10.5" fill="#8a8a8a">A machine correct with probability 2/3 per run, repeated t times with a majority vote. To reach error 2^-100 the</text>
+  <text x="20.00" y="388.00" font-size="10.5" fill="#8a8a8a" font-style="italic">exact requirement is 1121 runs and the Chernoff bound prescribes 1248 — the bound overshoots by 11 percent.</text>
+</svg>

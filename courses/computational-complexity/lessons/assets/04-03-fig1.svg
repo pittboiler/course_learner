@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 420" width="780" height="420" font-family="Helvetica, Arial, sans-serif" font-size="11.5">
+  <text x="390.00" y="18.00" font-size="12" fill="#8a8a8a" text-anchor="middle" font-weight="bold">Proving two graphs are DIFFERENT, with no certificate to show</text>
+  <text x="150.00" y="54.00" font-size="12" fill="#4a90d9" text-anchor="middle" font-weight="bold">Verifier</text>
+  <text x="620.00" y="54.00" font-size="12" fill="#e0645c" text-anchor="middle" font-weight="bold">Prover</text>
+  <line x1="150.00" y1="66.00" x2="150.00" y2="330.00" stroke="#4a90d9" stroke-width="1.4" stroke-linecap="round"/>
+  <line x1="620.00" y1="66.00" x2="620.00" y2="330.00" stroke="#e0645c" stroke-width="1.4" stroke-linecap="round"/>
+  <text x="138.00" y="104.00" font-size="10" fill="#8a8a8a" text-anchor="end">picks i in {1,2} at random</text>
+  <text x="138.00" y="120.00" font-size="10" fill="#8a8a8a" text-anchor="end">and a random permutation pi</text>
+  <line x1="158.00" y1="150.00" x2="606.00" y2="150.00" stroke="#8a8a8a" stroke-width="1.3" stroke-linecap="round"/>
+  <polygon points="612.00,150.00 606.52,152.45 606.52,147.55" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="0.6" stroke-linejoin="round" stroke-linecap="round"/>
+  <text x="385.00" y="142.00" font-size="10.5" fill="#8a8a8a" text-anchor="middle">H = pi(G_i)</text>
+  <text x="634.00" y="190.00" font-size="10" fill="#8a8a8a">decides which</text>
+  <text x="634.00" y="205.00" font-size="10" fill="#8a8a8a">one H came from</text>
+  <line x1="612.00" y1="240.00" x2="164.00" y2="240.00" stroke="#8a8a8a" stroke-width="1.3" stroke-linecap="round"/>
+  <polygon points="158.00,240.00 163.48,237.55 163.48,242.45" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="0.6" stroke-linejoin="round" stroke-linecap="round"/>
+  <text x="385.00" y="232.00" font-size="10.5" fill="#8a8a8a" text-anchor="middle">a guess j in {1,2}</text>
+  <text x="138.00" y="286.00" font-size="10" fill="#8a8a8a" text-anchor="end">accepts iff j = i</text>
+  <line x1="110.00" y1="330.00" x2="660.00" y2="330.00" stroke="#8a8a8a" stroke-width="0.8" stroke-linecap="round"/>
+  <text x="20.00" y="358.00" font-size="10.5" fill="#8a8a8a">If G_1 and G_2 are NOT isomorphic, the prover can always tell which graph H is a shuffle of, so j = i always: the</text>
+  <text x="20.00" y="374.00" font-size="10.5" fill="#8a8a8a">verifier accepts with certainty. If they ARE isomorphic, H is equally likely to have come from either, so no prover</text>
+  <text x="20.00" y="390.00" font-size="10.5" fill="#8a8a8a">can do better than guessing and the verifier rejects with probability 1/2 — repeat k times for error 2^-k.</text>
+  <text x="20.00" y="412.00" font-size="10.5" fill="#8a8a8a" font-style="italic">Nothing here is a certificate. The proof is the prover's demonstrated ability to pass a test it could not fake.</text>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 400" width="780" height="400" font-family="Helvetica, Arial, sans-serif" font-size="11.5">
+  <text x="390.00" y="18.00" font-size="12" fill="#8a8a8a" text-anchor="middle" font-weight="bold">Derandomizing by conditional expectations: always walk into the better half</text>
+  <line x1="390.00" y1="74.00" x2="245.00" y2="138.00" stroke="#8a8a8a" stroke-width="0.8" stroke-linecap="round"/>
+  <text x="299.50" y="106.00" font-size="9.5" fill="#8a8a8a" text-anchor="middle">x1 = 0</text>
+  <line x1="390.00" y1="74.00" x2="535.00" y2="138.00" stroke="#e0645c" stroke-width="2.2" stroke-linecap="round"/>
+  <text x="480.50" y="106.00" font-size="9.5" fill="#8a8a8a" text-anchor="middle">x1 = 1</text>
+  <line x1="245.00" y1="158.00" x2="172.50" y2="222.00" stroke="#8a8a8a" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="245.00" y1="158.00" x2="317.50" y2="222.00" stroke="#8a8a8a" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="535.00" y1="158.00" x2="462.50" y2="222.00" stroke="#8a8a8a" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="535.00" y1="158.00" x2="607.50" y2="222.00" stroke="#e0645c" stroke-width="2.2" stroke-linecap="round"/>
+  <line x1="172.50" y1="242.00" x2="136.25" y2="306.00" stroke="#8a8a8a" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="172.50" y1="242.00" x2="208.75" y2="306.00" stroke="#8a8a8a" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="317.50" y1="242.00" x2="281.25" y2="306.00" stroke="#8a8a8a" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="317.50" y1="242.00" x2="353.75" y2="306.00" stroke="#8a8a8a" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="462.50" y1="242.00" x2="426.25" y2="306.00" stroke="#8a8a8a" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="462.50" y1="242.00" x2="498.75" y2="306.00" stroke="#8a8a8a" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="607.50" y1="242.00" x2="571.25" y2="306.00" stroke="#8a8a8a" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="607.50" y1="242.00" x2="643.75" y2="306.00" stroke="#e0645c" stroke-width="2.2" stroke-linecap="round"/>
+  <circle cx="390.00" cy="64.00" r="10.00" fill="none" stroke="#e0645c" stroke-width="1.9"/>
+  <circle cx="245.00" cy="148.00" r="10.00" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <circle cx="535.00" cy="148.00" r="10.00" fill="none" stroke="#e0645c" stroke-width="1.9"/>
+  <circle cx="172.50" cy="232.00" r="10.00" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <circle cx="317.50" cy="232.00" r="10.00" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <circle cx="462.50" cy="232.00" r="10.00" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <circle cx="607.50" cy="232.00" r="10.00" fill="none" stroke="#e0645c" stroke-width="1.9"/>
+  <circle cx="136.25" cy="316.00" r="10.00" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <circle cx="208.75" cy="316.00" r="10.00" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <circle cx="281.25" cy="316.00" r="10.00" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <circle cx="353.75" cy="316.00" r="10.00" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <circle cx="426.25" cy="316.00" r="10.00" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <circle cx="498.75" cy="316.00" r="10.00" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <circle cx="571.25" cy="316.00" r="10.00" fill="none" stroke="#8a8a8a" stroke-width="0.9"/>
+  <circle cx="643.75" cy="316.00" r="10.00" fill="none" stroke="#e0645c" stroke-width="1.9"/>
+  <text x="86.00" y="68.00" font-size="10.5" fill="#8a8a8a" text-anchor="end" font-weight="bold">E = 7m/8</text>
+  <text x="86.00" y="152.00" font-size="10" fill="#8a8a8a" text-anchor="end">pick the larger</text>
+  <text x="86.00" y="236.00" font-size="10" fill="#8a8a8a" text-anchor="end">and again</text>
+  <text x="86.00" y="320.00" font-size="10" fill="#8a8a8a" text-anchor="end">a full assignment</text>
+  <text x="20.00" y="336.00" font-size="10.5" fill="#8a8a8a">At each variable, compute the conditional expectation of the number of satisfied clauses under each of the two</text>
+  <text x="20.00" y="352.00" font-size="10.5" fill="#8a8a8a">settings — a polynomial-time sum over clauses — and commit to the larger. The average of the two children equals</text>
+  <text x="20.00" y="368.00" font-size="10.5" fill="#8a8a8a">the parent, so the larger child is at least the parent: the expectation never falls below its starting value 7m/8.</text>
+  <text x="20.00" y="390.00" font-size="10.5" fill="#8a8a8a" font-style="italic">After n steps the 'expectation' is an actual assignment satisfying at least 7m/8 clauses. No randomness is used.</text>
+</svg>

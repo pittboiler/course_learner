@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 360" width="780" height="360" font-family="Helvetica, Arial, sans-serif" font-size="11.5">
+  <text x="390.00" y="18.00" font-size="12" fill="#8a8a8a" text-anchor="middle" font-weight="bold">NP certifies its yes-answers; coNP certifies its no-answers</text>
+  <ellipse cx="300.00" cy="170.00" rx="180.00" ry="110.00" fill="none" stroke="#4a90d9" stroke-width="1.7"/>
+  <ellipse cx="470.00" cy="170.00" rx="180.00" ry="110.00" fill="none" stroke="#e0645c" stroke-width="1.7"/>
+  <text x="205.00" y="82.00" font-size="13" fill="#4a90d9" text-anchor="middle" font-weight="bold">NP</text>
+  <text x="566.00" y="82.00" font-size="13" fill="#e0645c" text-anchor="middle" font-weight="bold">coNP</text>
+  <ellipse cx="385.00" cy="188.00" rx="92.00" ry="62.00" fill="none" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="385.00" y="176.00" font-size="10" fill="#8a8a8a" text-anchor="middle">NP and coNP</text>
+  <text x="385.00" y="191.00" font-size="9.5" fill="#8a8a8a" text-anchor="middle">factoring</text>
+  <text x="385.00" y="205.00" font-size="9.5" fill="#8a8a8a" text-anchor="middle">linear programming</text>
+  <ellipse cx="385.00" cy="216.00" rx="52.00" ry="26.00" fill="none" stroke="#8a8a8a" stroke-width="1.4"/>
+  <text x="385.00" y="220.00" font-size="11" fill="#8a8a8a" text-anchor="middle" font-weight="bold">P</text>
+  <text x="232.00" y="136.00" font-size="10.5" fill="#4a90d9" text-anchor="middle">SAT</text>
+  <text x="232.00" y="152.00" font-size="10.5" fill="#4a90d9" text-anchor="middle">CLIQUE</text>
+  <text x="232.00" y="168.00" font-size="10.5" fill="#4a90d9" text-anchor="middle">HAMPATH</text>
+  <text x="540.00" y="136.00" font-size="10.5" fill="#e0645c" text-anchor="middle">TAUTOLOGY</text>
+  <text x="540.00" y="152.00" font-size="10.5" fill="#e0645c" text-anchor="middle">UNSAT</text>
+  <text x="540.00" y="168.00" font-size="10.5" fill="#e0645c" text-anchor="middle">NO-CLIQUE</text>
+  <text x="20.00" y="318.00" font-size="10.5" fill="#8a8a8a">A yes-instance of SAT has a one-line proof: the assignment. A no-instance has none known — you would have to</text>
+  <text x="20.00" y="334.00" font-size="10.5" fill="#8a8a8a" font-style="italic">rule out every assignment. Whether NP = coNP is asking whether unsatisfiability has short proofs, and it is open.</text>
+</svg>

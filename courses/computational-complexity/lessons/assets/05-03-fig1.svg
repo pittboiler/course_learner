@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" width="760" height="400" font-family="Helvetica, Arial, sans-serif" font-size="11.5">
+  <text x="380.00" y="18.00" font-size="12" fill="#8a8a8a" text-anchor="middle" font-weight="bold">Depth is parallel time; the NC hierarchy interleaves with the space classes</text>
+  <rect x="125.00" y="324.00" width="130.00" height="32.00" rx="3" fill="none" stroke="#8a8a8a" stroke-width="1.4"/>
+  <text x="190.00" y="344.02" font-size="11.5" fill="#8a8a8a" text-anchor="middle">P</text>
+  <text x="270.00" y="344.00" font-size="10" fill="#8a8a8a">CIRCUIT-VALUE is complete here</text>
+  <rect x="125.00" y="280.00" width="130.00" height="32.00" rx="3" fill="none" stroke="#4a90d9" stroke-width="1.4"/>
+  <text x="190.00" y="300.02" font-size="11.5" fill="#4a90d9" text-anchor="middle">NC</text>
+  <text x="270.00" y="300.00" font-size="10" fill="#8a8a8a">polylog depth, poly size</text>
+  <rect x="125.00" y="236.00" width="130.00" height="32.00" rx="3" fill="none" stroke="#4a90d9" stroke-width="1.4"/>
+  <text x="190.00" y="256.02" font-size="11.5" fill="#4a90d9" text-anchor="middle">NC^2</text>
+  <text x="270.00" y="256.00" font-size="10" fill="#8a8a8a">depth O(log^2 n): matrix inverse, PATH</text>
+  <rect x="125.00" y="192.00" width="130.00" height="32.00" rx="3" fill="none" stroke="#8a8a8a" stroke-width="1.4"/>
+  <text x="190.00" y="212.03" font-size="11.5" fill="#8a8a8a" text-anchor="middle">NL</text>
+  <text x="270.00" y="212.00" font-size="10" fill="#8a8a8a">PATH</text>
+  <rect x="125.00" y="148.00" width="130.00" height="32.00" rx="3" fill="none" stroke="#8a8a8a" stroke-width="1.4"/>
+  <text x="190.00" y="168.03" font-size="11.5" fill="#8a8a8a" text-anchor="middle">L</text>
+  <text x="270.00" y="168.00" font-size="10" fill="#8a8a8a">undirected connectivity</text>
+  <rect x="125.00" y="104.00" width="130.00" height="32.00" rx="3" fill="none" stroke="#4a90d9" stroke-width="1.4"/>
+  <text x="190.00" y="124.03" font-size="11.5" fill="#4a90d9" text-anchor="middle">NC^1</text>
+  <text x="270.00" y="124.00" font-size="10" fill="#8a8a8a">depth O(log n): addition, majority</text>
+  <rect x="125.00" y="60.00" width="130.00" height="32.00" rx="3" fill="none" stroke="#e0645c" stroke-width="1.4"/>
+  <text x="190.00" y="80.03" font-size="11.5" fill="#e0645c" text-anchor="middle">AC^0</text>
+  <text x="270.00" y="80.00" font-size="10" fill="#8a8a8a">depth O(1): NOT parity</text>
+  <line x1="190.00" y1="324.00" x2="190.00" y2="312.00" stroke="#8a8a8a" stroke-width="1.1" stroke-linecap="round"/>
+  <line x1="190.00" y1="280.00" x2="190.00" y2="268.00" stroke="#8a8a8a" stroke-width="1.1" stroke-linecap="round"/>
+  <line x1="190.00" y1="236.00" x2="190.00" y2="224.00" stroke="#8a8a8a" stroke-width="1.1" stroke-linecap="round"/>
+  <line x1="190.00" y1="192.00" x2="190.00" y2="180.00" stroke="#8a8a8a" stroke-width="1.1" stroke-linecap="round"/>
+  <line x1="190.00" y1="148.00" x2="190.00" y2="136.00" stroke="#8a8a8a" stroke-width="1.1" stroke-linecap="round"/>
+  <line x1="190.00" y1="104.00" x2="190.00" y2="92.00" stroke="#8a8a8a" stroke-width="1.1" stroke-linecap="round"/>
+  <text x="105.00" y="208.00" font-size="9.5" fill="#8a8a8a" text-anchor="end">contains</text>
+  <text x="20.00" y="376.00" font-size="10.5" fill="#8a8a8a">A problem in NC has an algorithm running in polylogarithmic time on polynomially many processors. A P-complete</text>
+  <text x="20.00" y="392.00" font-size="10.5" fill="#8a8a8a" font-style="italic">problem probably does not: NC = P would be as surprising as L = P, and nobody can prove either way.</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" width="760" height="420" font-family="Helvetica, Arial, sans-serif" font-size="11.5">
+  <text x="380.00" y="18.00" font-size="12" fill="#8a8a8a" text-anchor="middle" font-weight="bold">The polynomial hierarchy: one level per quantifier alternation</text>
+  <rect x="325.00" y="336.00" width="110.00" height="32.00" rx="3" fill="none" stroke="#8a8a8a" stroke-width="1.4"/>
+  <text x="380.00" y="356.20" font-size="12" fill="#8a8a8a" text-anchor="middle">P</text>
+  <rect x="175.00" y="279.00" width="150.00" height="34.00" rx="3" fill="none" stroke="#4a90d9" stroke-width="1.4"/>
+  <text x="250.00" y="300.02" font-size="11.5" fill="#4a90d9" text-anchor="middle">NP = Sigma_1</text>
+  <rect x="435.00" y="279.00" width="150.00" height="34.00" rx="3" fill="none" stroke="#e0645c" stroke-width="1.4"/>
+  <text x="510.00" y="300.02" font-size="11.5" fill="#e0645c" text-anchor="middle">coNP = Pi_1</text>
+  <text x="695.00" y="300.00" font-size="9.5" fill="#8a8a8a" text-anchor="end">1 alternation</text>
+  <rect x="175.00" y="223.00" width="150.00" height="34.00" rx="3" fill="none" stroke="#4a90d9" stroke-width="1.4"/>
+  <text x="250.00" y="244.03" font-size="11.5" fill="#4a90d9" text-anchor="middle">Sigma_2</text>
+  <rect x="435.00" y="223.00" width="150.00" height="34.00" rx="3" fill="none" stroke="#e0645c" stroke-width="1.4"/>
+  <text x="510.00" y="244.03" font-size="11.5" fill="#e0645c" text-anchor="middle">Pi_2</text>
+  <text x="695.00" y="244.00" font-size="9.5" fill="#8a8a8a" text-anchor="end">2 alternations</text>
+  <rect x="175.00" y="167.00" width="150.00" height="34.00" rx="3" fill="none" stroke="#4a90d9" stroke-width="1.4"/>
+  <text x="250.00" y="188.03" font-size="11.5" fill="#4a90d9" text-anchor="middle">Sigma_3</text>
+  <rect x="435.00" y="167.00" width="150.00" height="34.00" rx="3" fill="none" stroke="#e0645c" stroke-width="1.4"/>
+  <text x="510.00" y="188.03" font-size="11.5" fill="#e0645c" text-anchor="middle">Pi_3</text>
+  <text x="695.00" y="188.00" font-size="9.5" fill="#8a8a8a" text-anchor="end">3 alternations</text>
+  <text x="380.00" y="140.00" font-size="16" fill="#8a8a8a" text-anchor="middle">...</text>
+  <rect x="290.00" y="87.00" width="180.00" height="34.00" rx="3" fill="none" stroke="#8a8a8a" stroke-width="1.4"/>
+  <text x="380.00" y="108.20" font-size="12" fill="#8a8a8a" text-anchor="middle">PH</text>
+  <rect x="290.00" y="35.00" width="180.00" height="34.00" rx="3" fill="none" stroke="#8a8a8a" stroke-width="1.4"/>
+  <text x="380.00" y="56.20" font-size="12" fill="#8a8a8a" text-anchor="middle">PSPACE</text>
+  <line x1="320.00" y1="336.00" x2="320.00" y2="313.00" stroke="#8a8a8a" stroke-width="1.0" stroke-linecap="round"/>
+  <line x1="440.00" y1="336.00" x2="440.00" y2="313.00" stroke="#8a8a8a" stroke-width="1.0" stroke-linecap="round"/>
+  <line x1="250.00" y1="279.00" x2="250.00" y2="257.00" stroke="#8a8a8a" stroke-width="1.0" stroke-linecap="round"/>
+  <line x1="510.00" y1="279.00" x2="510.00" y2="257.00" stroke="#8a8a8a" stroke-width="1.0" stroke-linecap="round"/>
+  <line x1="250.00" y1="223.00" x2="250.00" y2="201.00" stroke="#8a8a8a" stroke-width="1.0" stroke-linecap="round"/>
+  <line x1="510.00" y1="223.00" x2="510.00" y2="201.00" stroke="#8a8a8a" stroke-width="1.0" stroke-linecap="round"/>
+  <line x1="250.00" y1="167.00" x2="250.00" y2="152.00" stroke="#8a8a8a" stroke-width="1.0" stroke-linecap="round"/>
+  <line x1="510.00" y1="167.00" x2="510.00" y2="152.00" stroke="#8a8a8a" stroke-width="1.0" stroke-linecap="round"/>
+  <line x1="250.00" y1="152.00" x2="510.00" y2="152.00" stroke="#8a8a8a" stroke-width="1.0" stroke-linecap="round"/>
+  <line x1="380.00" y1="152.00" x2="380.00" y2="121.00" stroke="#8a8a8a" stroke-width="1.0" stroke-linecap="round"/>
+  <line x1="380.00" y1="87.00" x2="380.00" y2="69.00" stroke="#8a8a8a" stroke-width="1.0" stroke-linecap="round"/>
+  <line x1="325.00" y1="296.00" x2="435.00" y2="240.00" stroke="#8a8a8a" stroke-width="0.8" stroke-linecap="round" stroke-dasharray="3 3"/>
+  <line x1="435.00" y1="296.00" x2="325.00" y2="240.00" stroke="#8a8a8a" stroke-width="0.8" stroke-linecap="round" stroke-dasharray="3 3"/>
+  <text x="380.00" y="268.00" font-size="9.5" fill="#8a8a8a" text-anchor="middle">each level contains both below it</text>
+  <text x="20.00" y="394.00" font-size="10.5" fill="#8a8a8a">Sigma_k is EXISTS ... FORALL ... with k blocks; Pi_k is its complement, starting with FORALL. If any two adjacent</text>
+  <text x="20.00" y="410.00" font-size="10.5" fill="#8a8a8a" font-style="italic">levels ever coincide, everything above collapses to that level — which is why a collapse would be big news.</text>
+</svg>

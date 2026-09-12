@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 340" width="780" height="340" font-family="Helvetica, Arial, sans-serif" font-size="11.5">
+  <text x="390.00" y="18.00" font-size="12" fill="#8a8a8a" text-anchor="middle" font-weight="bold">Savitch: guess the midpoint, recurse on both halves, reuse the space</text>
+  <line x1="150.00" y1="64.00" x2="690.00" y2="64.00" stroke="#8a8a8a" stroke-width="1.0" stroke-linecap="round"/>
+  <line x1="150.00" y1="59.00" x2="150.00" y2="69.00" stroke="#8a8a8a" stroke-width="1.0" stroke-linecap="round"/>
+  <line x1="690.00" y1="59.00" x2="690.00" y2="69.00" stroke="#8a8a8a" stroke-width="1.0" stroke-linecap="round"/>
+  <text x="140.00" y="68.00" font-size="10.5" fill="#8a8a8a" text-anchor="end">length 2^k</text>
+  <line x1="150.00" y1="64.00" x2="690.00" y2="64.00" stroke="#4a90d9" stroke-width="3.0" stroke-linecap="round"/>
+  <line x1="150.00" y1="124.00" x2="690.00" y2="124.00" stroke="#8a8a8a" stroke-width="1.0" stroke-linecap="round"/>
+  <line x1="150.00" y1="119.00" x2="150.00" y2="129.00" stroke="#8a8a8a" stroke-width="1.0" stroke-linecap="round"/>
+  <line x1="420.00" y1="119.00" x2="420.00" y2="129.00" stroke="#8a8a8a" stroke-width="1.0" stroke-linecap="round"/>
+  <line x1="690.00" y1="119.00" x2="690.00" y2="129.00" stroke="#8a8a8a" stroke-width="1.0" stroke-linecap="round"/>
+  <text x="140.00" y="128.00" font-size="10.5" fill="#8a8a8a" text-anchor="end">two halves 2^(k-1)</text>
+  <line x1="150.00" y1="124.00" x2="420.00" y2="124.00" stroke="#4a90d9" stroke-width="3.0" stroke-linecap="round"/>
+  <line x1="420.00" y1="124.00" x2="690.00" y2="124.00" stroke="#e0645c" stroke-width="3.0" stroke-linecap="round"/>
+  <line x1="150.00" y1="184.00" x2="690.00" y2="184.00" stroke="#8a8a8a" stroke-width="1.0" stroke-linecap="round"/>
+  <line x1="150.00" y1="179.00" x2="150.00" y2="189.00" stroke="#8a8a8a" stroke-width="1.0" stroke-linecap="round"/>
+  <line x1="285.00" y1="179.00" x2="285.00" y2="189.00" stroke="#8a8a8a" stroke-width="1.0" stroke-linecap="round"/>
+  <line x1="420.00" y1="179.00" x2="420.00" y2="189.00" stroke="#8a8a8a" stroke-width="1.0" stroke-linecap="round"/>
+  <line x1="555.00" y1="179.00" x2="555.00" y2="189.00" stroke="#8a8a8a" stroke-width="1.0" stroke-linecap="round"/>
+  <line x1="690.00" y1="179.00" x2="690.00" y2="189.00" stroke="#8a8a8a" stroke-width="1.0" stroke-linecap="round"/>
+  <text x="140.00" y="188.00" font-size="10.5" fill="#8a8a8a" text-anchor="end">four quarters 2^(k-2)</text>
+  <line x1="150.00" y1="184.00" x2="285.00" y2="184.00" stroke="#4a90d9" stroke-width="3.0" stroke-linecap="round"/>
+  <line x1="285.00" y1="184.00" x2="420.00" y2="184.00" stroke="#e0645c" stroke-width="3.0" stroke-linecap="round"/>
+  <line x1="420.00" y1="184.00" x2="555.00" y2="184.00" stroke="#4a90d9" stroke-width="3.0" stroke-linecap="round"/>
+  <line x1="555.00" y1="184.00" x2="690.00" y2="184.00" stroke="#e0645c" stroke-width="3.0" stroke-linecap="round"/>
+  <line x1="150.00" y1="244.00" x2="690.00" y2="244.00" stroke="#8a8a8a" stroke-width="1.0" stroke-linecap="round"/>
+  <line x1="150.00" y1="239.00" x2="150.00" y2="249.00" stroke="#8a8a8a" stroke-width="1.0" stroke-linecap="round"/>
+  <line x1="217.50" y1="239.00" x2="217.50" y2="249.00" stroke="#8a8a8a" stroke-width="1.0" stroke-linecap="round"/>
+  <line x1="285.00" y1="239.00" x2="285.00" y2="249.00" stroke="#8a8a8a" stroke-width="1.0" stroke-linecap="round"/>
+  <line x1="352.50" y1="239.00" x2="352.50" y2="249.00" stroke="#8a8a8a" stroke-width="1.0" stroke-linecap="round"/>
+  <line x1="420.00" y1="239.00" x2="420.00" y2="249.00" stroke="#8a8a8a" stroke-width="1.0" stroke-linecap="round"/>
+  <line x1="487.50" y1="239.00" x2="487.50" y2="249.00" stroke="#8a8a8a" stroke-width="1.0" stroke-linecap="round"/>
+  <line x1="555.00" y1="239.00" x2="555.00" y2="249.00" stroke="#8a8a8a" stroke-width="1.0" stroke-linecap="round"/>
+  <line x1="622.50" y1="239.00" x2="622.50" y2="249.00" stroke="#8a8a8a" stroke-width="1.0" stroke-linecap="round"/>
+  <line x1="690.00" y1="239.00" x2="690.00" y2="249.00" stroke="#8a8a8a" stroke-width="1.0" stroke-linecap="round"/>
+  <text x="140.00" y="248.00" font-size="10.5" fill="#8a8a8a" text-anchor="end">eight, and so on</text>
+  <line x1="150.00" y1="244.00" x2="217.50" y2="244.00" stroke="#4a90d9" stroke-width="3.0" stroke-linecap="round"/>
+  <line x1="217.50" y1="244.00" x2="285.00" y2="244.00" stroke="#e0645c" stroke-width="3.0" stroke-linecap="round"/>
+  <line x1="285.00" y1="244.00" x2="352.50" y2="244.00" stroke="#4a90d9" stroke-width="3.0" stroke-linecap="round"/>
+  <line x1="352.50" y1="244.00" x2="420.00" y2="244.00" stroke="#e0645c" stroke-width="3.0" stroke-linecap="round"/>
+  <line x1="420.00" y1="244.00" x2="487.50" y2="244.00" stroke="#4a90d9" stroke-width="3.0" stroke-linecap="round"/>
+  <line x1="487.50" y1="244.00" x2="555.00" y2="244.00" stroke="#e0645c" stroke-width="3.0" stroke-linecap="round"/>
+  <line x1="555.00" y1="244.00" x2="622.50" y2="244.00" stroke="#4a90d9" stroke-width="3.0" stroke-linecap="round"/>
+  <line x1="622.50" y1="244.00" x2="690.00" y2="244.00" stroke="#e0645c" stroke-width="3.0" stroke-linecap="round"/>
+  <text x="148.00" y="54.00" font-size="11" fill="#8a8a8a" text-anchor="end" font-weight="bold">a</text>
+  <text x="695.00" y="68.00" font-size="11" fill="#8a8a8a" font-weight="bold">b</text>
+  <text x="20.00" y="286.00" font-size="10.5" fill="#8a8a8a">Depth of the recursion is k = log2(number of configurations) = O(s). Each frame stores three configuration</text>
+  <text x="20.00" y="302.00" font-size="10.5" fill="#8a8a8a">identifiers, O(s) bits each, and the two halves run one after the other so only one path of frames is ever live.</text>
+  <text x="20.00" y="322.00" font-size="10.5" fill="#8a8a8a" font-style="italic">Total space O(s) x O(s) = O(s^2) — quadratic, not exponential, which is the whole theorem.</text>
+</svg>

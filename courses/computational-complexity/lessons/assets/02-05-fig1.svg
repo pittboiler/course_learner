@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 390" width="760" height="390" font-family="Helvetica, Arial, sans-serif" font-size="11.5">
+  <text x="380.00" y="18.00" font-size="12" fill="#8a8a8a" text-anchor="middle" font-weight="bold">2SAT is reachability: a clause is two implications</text>
+  <line x1="194.75" y1="239.68" x2="359.11" y2="124.62" stroke="#4a90d9" stroke-width="1.2" stroke-linecap="round"/>
+  <polygon points="363.62,121.47 360.79,126.19 358.22,122.51" fill="#4a90d9" stroke="#4a90d9" stroke-width="0.6" stroke-linejoin="round" stroke-linecap="round"/>
+  <line x1="365.25" y1="239.68" x2="200.89" y2="124.62" stroke="#4a90d9" stroke-width="1.2" stroke-linecap="round"/>
+  <polygon points="196.38,121.47 201.78,122.51 199.21,126.19" fill="#4a90d9" stroke="#4a90d9" stroke-width="0.6" stroke-linejoin="round" stroke-linecap="round"/>
+  <line x1="198.00" y1="110.00" x2="554.50" y2="110.00" stroke="#4a90d9" stroke-width="1.2" stroke-linecap="round"/>
+  <polygon points="560.00,110.00 554.98,112.24 554.98,107.76" fill="#4a90d9" stroke="#4a90d9" stroke-width="0.6" stroke-linejoin="round" stroke-linecap="round"/>
+  <line x1="562.00" y1="250.00" x2="205.50" y2="250.00" stroke="#4a90d9" stroke-width="1.2" stroke-linecap="round"/>
+  <polygon points="200.00,250.00 205.02,247.76 205.02,252.24" fill="#4a90d9" stroke="#4a90d9" stroke-width="0.6" stroke-linejoin="round" stroke-linecap="round"/>
+  <line x1="394.75" y1="120.32" x2="559.11" y2="235.38" stroke="#4a90d9" stroke-width="1.2" stroke-linecap="round"/>
+  <polygon points="563.62,238.53 558.22,237.49 560.79,233.81" fill="#4a90d9" stroke="#4a90d9" stroke-width="0.6" stroke-linejoin="round" stroke-linecap="round"/>
+  <line x1="565.25" y1="120.32" x2="400.89" y2="235.38" stroke="#4a90d9" stroke-width="1.2" stroke-linecap="round"/>
+  <polygon points="396.38,238.53 399.21,233.81 401.78,237.49" fill="#4a90d9" stroke="#4a90d9" stroke-width="0.6" stroke-linejoin="round" stroke-linecap="round"/>
+  <line x1="198.00" y1="250.00" x2="554.50" y2="250.00" stroke="#4a90d9" stroke-width="1.2" stroke-linecap="round"/>
+  <polygon points="560.00,250.00 554.98,252.24 554.98,247.76" fill="#4a90d9" stroke="#4a90d9" stroke-width="0.6" stroke-linejoin="round" stroke-linecap="round"/>
+  <line x1="562.00" y1="110.00" x2="205.50" y2="110.00" stroke="#4a90d9" stroke-width="1.2" stroke-linecap="round"/>
+  <polygon points="200.00,110.00 205.02,107.76 205.02,112.24" fill="#4a90d9" stroke="#4a90d9" stroke-width="0.6" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="180.00" cy="110.00" r="18.00" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="180.00" y="114.00" font-size="10.5" fill="#8a8a8a" text-anchor="middle">x1</text>
+  <circle cx="180.00" cy="250.00" r="18.00" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="180.00" y="254.00" font-size="10.5" fill="#8a8a8a" text-anchor="middle">~x1</text>
+  <circle cx="380.00" cy="110.00" r="18.00" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="380.00" y="114.00" font-size="10.5" fill="#8a8a8a" text-anchor="middle">x2</text>
+  <circle cx="380.00" cy="250.00" r="18.00" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="380.00" y="254.00" font-size="10.5" fill="#8a8a8a" text-anchor="middle">~x2</text>
+  <circle cx="580.00" cy="110.00" r="18.00" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="580.00" y="114.00" font-size="10.5" fill="#8a8a8a" text-anchor="middle">x3</text>
+  <circle cx="580.00" cy="250.00" r="18.00" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="580.00" y="254.00" font-size="10.5" fill="#8a8a8a" text-anchor="middle">~x3</text>
+  <text x="20.00" y="300.00" font-size="10.5" fill="#8a8a8a">Clauses: (x1 v x2), (~x1 v x3), (~x2 v ~x3), (x1 v ~x3).  Each clause (a v b) becomes ~a -&gt; b and ~b -&gt; a.</text>
+  <text x="20.00" y="320.00" font-size="10.5" fill="#8a8a8a">The formula is unsatisfiable exactly when some variable has x reachable from ~x AND ~x reachable from x.</text>
+  <text x="20.00" y="340.00" font-size="10.5" fill="#8a8a8a">Testing that is st-connectivity, which a nondeterministic machine does in O(log n) space by remembering only</text>
+  <text x="20.00" y="356.00" font-size="10.5" fill="#8a8a8a" font-style="italic">the current vertex and a step counter. Here no variable has both, so the formula is satisfiable (models 010 and 101).</text>
+</svg>

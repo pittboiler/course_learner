@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 462" width="720" height="462" font-family="Helvetica, Arial, sans-serif" font-size="11.5">
+  <text x="360.00" y="18.00" font-size="12" fill="#8a8a8a" text-anchor="middle" font-weight="bold">SUBSET-SUM by digits: each column is independent because nothing carries</text>
+  <text x="146.00" y="56.00" font-size="11" fill="#4a90d9" text-anchor="middle" font-weight="bold">x1</text>
+  <text x="222.00" y="56.00" font-size="11" fill="#4a90d9" text-anchor="middle" font-weight="bold">x2</text>
+  <text x="298.00" y="56.00" font-size="11" fill="#4a90d9" text-anchor="middle" font-weight="bold">x3</text>
+  <text x="374.00" y="56.00" font-size="11" fill="#e0645c" text-anchor="middle" font-weight="bold">C1</text>
+  <text x="450.00" y="56.00" font-size="11" fill="#e0645c" text-anchor="middle" font-weight="bold">C2</text>
+  <text x="98.00" y="87.00" font-size="10.5" fill="#8a8a8a" text-anchor="end">y1</text>
+  <rect x="110.00" y="68.00" width="72.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.7"/>
+  <text x="146.00" y="86.50" font-size="10.5" fill="#4a90d9" text-anchor="middle" font-weight="bold">1</text>
+  <rect x="186.00" y="68.00" width="72.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.7"/>
+  <rect x="262.00" y="68.00" width="72.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.7"/>
+  <rect x="338.00" y="68.00" width="72.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.7"/>
+  <text x="374.00" y="86.50" font-size="10.5" fill="#e0645c" text-anchor="middle" font-weight="bold">1</text>
+  <rect x="414.00" y="68.00" width="72.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.7"/>
+  <text x="98.00" y="117.00" font-size="10.5" fill="#8a8a8a" text-anchor="end">z1</text>
+  <rect x="110.00" y="98.00" width="72.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.7"/>
+  <text x="146.00" y="116.50" font-size="10.5" fill="#4a90d9" text-anchor="middle" font-weight="bold">1</text>
+  <rect x="186.00" y="98.00" width="72.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.7"/>
+  <rect x="262.00" y="98.00" width="72.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.7"/>
+  <rect x="338.00" y="98.00" width="72.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.7"/>
+  <rect x="414.00" y="98.00" width="72.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.7"/>
+  <text x="450.00" y="116.50" font-size="10.5" fill="#e0645c" text-anchor="middle" font-weight="bold">1</text>
+  <text x="98.00" y="147.00" font-size="10.5" fill="#8a8a8a" text-anchor="end">y2</text>
+  <rect x="110.00" y="128.00" width="72.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.7"/>
+  <rect x="186.00" y="128.00" width="72.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.7"/>
+  <text x="222.00" y="146.50" font-size="10.5" fill="#4a90d9" text-anchor="middle" font-weight="bold">1</text>
+  <rect x="262.00" y="128.00" width="72.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.7"/>
+  <rect x="338.00" y="128.00" width="72.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.7"/>
+  <text x="374.00" y="146.50" font-size="10.5" fill="#e0645c" text-anchor="middle" font-weight="bold">1</text>
+  <rect x="414.00" y="128.00" width="72.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.7"/>
+  <text x="98.00" y="177.00" font-size="10.5" fill="#8a8a8a" text-anchor="end">z2</text>
+  <rect x="110.00" y="158.00" width="72.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.7"/>
+  <rect x="186.00" y="158.00" width="72.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.7"/>
+  <text x="222.00" y="176.50" font-size="10.5" fill="#4a90d9" text-anchor="middle" font-weight="bold">1</text>
+  <rect x="262.00" y="158.00" width="72.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.7"/>
+  <rect x="338.00" y="158.00" width="72.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.7"/>
+  <rect x="414.00" y="158.00" width="72.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.7"/>
+  <text x="450.00" y="176.50" font-size="10.5" fill="#e0645c" text-anchor="middle" font-weight="bold">1</text>
+  <text x="98.00" y="207.00" font-size="10.5" fill="#8a8a8a" text-anchor="end">y3</text>
+  <rect x="110.00" y="188.00" width="72.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.7"/>
+  <rect x="186.00" y="188.00" width="72.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.7"/>
+  <rect x="262.00" y="188.00" width="72.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.7"/>
+  <text x="298.00" y="206.50" font-size="10.5" fill="#4a90d9" text-anchor="middle" font-weight="bold">1</text>
+  <rect x="338.00" y="188.00" width="72.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.7"/>
+  <rect x="414.00" y="188.00" width="72.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.7"/>
+  <text x="450.00" y="206.50" font-size="10.5" fill="#e0645c" text-anchor="middle" font-weight="bold">1</text>
+  <text x="98.00" y="237.00" font-size="10.5" fill="#8a8a8a" text-anchor="end">z3</text>
+  <rect x="110.00" y="218.00" width="72.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.7"/>
+  <rect x="186.00" y="218.00" width="72.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.7"/>
+  <rect x="262.00" y="218.00" width="72.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.7"/>
+  <text x="298.00" y="236.50" font-size="10.5" fill="#4a90d9" text-anchor="middle" font-weight="bold">1</text>
+  <rect x="338.00" y="218.00" width="72.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.7"/>
+  <text x="374.00" y="236.50" font-size="10.5" fill="#e0645c" text-anchor="middle" font-weight="bold">1</text>
+  <rect x="414.00" y="218.00" width="72.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.7"/>
+  <text x="98.00" y="267.00" font-size="10.5" fill="#8a8a8a" text-anchor="end">g1</text>
+  <rect x="110.00" y="248.00" width="72.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.7"/>
+  <rect x="186.00" y="248.00" width="72.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.7"/>
+  <rect x="262.00" y="248.00" width="72.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.7"/>
+  <rect x="338.00" y="248.00" width="72.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.7"/>
+  <text x="374.00" y="266.50" font-size="10.5" fill="#e0645c" text-anchor="middle" font-weight="bold">1</text>
+  <rect x="414.00" y="248.00" width="72.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.7"/>
+  <text x="98.00" y="297.00" font-size="10.5" fill="#8a8a8a" text-anchor="end">h1</text>
+  <rect x="110.00" y="278.00" width="72.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.7"/>
+  <rect x="186.00" y="278.00" width="72.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.7"/>
+  <rect x="262.00" y="278.00" width="72.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.7"/>
+  <rect x="338.00" y="278.00" width="72.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.7"/>
+  <text x="374.00" y="296.50" font-size="10.5" fill="#e0645c" text-anchor="middle" font-weight="bold">1</text>
+  <rect x="414.00" y="278.00" width="72.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.7"/>
+  <text x="98.00" y="327.00" font-size="10.5" fill="#8a8a8a" text-anchor="end">g2</text>
+  <rect x="110.00" y="308.00" width="72.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.7"/>
+  <rect x="186.00" y="308.00" width="72.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.7"/>
+  <rect x="262.00" y="308.00" width="72.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.7"/>
+  <rect x="338.00" y="308.00" width="72.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.7"/>
+  <rect x="414.00" y="308.00" width="72.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.7"/>
+  <text x="450.00" y="326.50" font-size="10.5" fill="#e0645c" text-anchor="middle" font-weight="bold">1</text>
+  <text x="98.00" y="357.00" font-size="10.5" fill="#8a8a8a" text-anchor="end">h2</text>
+  <rect x="110.00" y="338.00" width="72.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.7"/>
+  <rect x="186.00" y="338.00" width="72.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.7"/>
+  <rect x="262.00" y="338.00" width="72.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.7"/>
+  <rect x="338.00" y="338.00" width="72.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.7"/>
+  <rect x="414.00" y="338.00" width="72.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.7"/>
+  <text x="450.00" y="356.50" font-size="10.5" fill="#e0645c" text-anchor="middle" font-weight="bold">1</text>
+  <text x="98.00" y="393.00" font-size="10.5" fill="#8a8a8a" text-anchor="end" font-weight="bold">target</text>
+  <rect x="110.00" y="374.00" width="72.00" height="26.00" rx="0" fill="none" stroke="#4a90d9" stroke-width="1.8"/>
+  <text x="146.00" y="392.50" font-size="11" fill="#4a90d9" text-anchor="middle" font-weight="bold">1</text>
+  <rect x="186.00" y="374.00" width="72.00" height="26.00" rx="0" fill="none" stroke="#4a90d9" stroke-width="1.8"/>
+  <text x="222.00" y="392.50" font-size="11" fill="#4a90d9" text-anchor="middle" font-weight="bold">1</text>
+  <rect x="262.00" y="374.00" width="72.00" height="26.00" rx="0" fill="none" stroke="#4a90d9" stroke-width="1.8"/>
+  <text x="298.00" y="392.50" font-size="11" fill="#4a90d9" text-anchor="middle" font-weight="bold">1</text>
+  <rect x="338.00" y="374.00" width="72.00" height="26.00" rx="0" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+  <text x="374.00" y="392.50" font-size="11" fill="#e0645c" text-anchor="middle" font-weight="bold">3</text>
+  <rect x="414.00" y="374.00" width="72.00" height="26.00" rx="0" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+  <text x="450.00" y="392.50" font-size="11" fill="#e0645c" text-anchor="middle" font-weight="bold">3</text>
+  <text x="20.00" y="426.00" font-size="10.5" fill="#8a8a8a">Formula (x1 v x2 v ~x3) &amp; (~x1 v ~x2 v x3).  A variable column has exactly two 1s, so the target 1</text>
+  <text x="20.00" y="442.00" font-size="10.5" fill="#8a8a8a">forces a choice of y or z.  A clause column has at most five 1s, so no column can reach 10 and no digit</text>
+  <text x="20.00" y="458.00" font-size="10.5" fill="#8a8a8a" font-style="italic">can carry into its neighbour.  Slack rows g and h let a clause with one or two true literals still reach 3.</text>
+</svg>

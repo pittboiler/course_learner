@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 790 400" width="790" height="400" font-family="Helvetica, Arial, sans-serif" font-size="11.5">
+  <text x="395.00" y="18.00" font-size="12" fill="#8a8a8a" text-anchor="middle" font-weight="bold">There are far more Boolean functions than there are small circuits</text>
+  <line x1="120.00" y1="320.00" x2="700.00" y2="320.00" stroke="#8a8a8a" stroke-width="1.4" stroke-linecap="round"/>
+  <line x1="120.00" y1="320.00" x2="120.00" y2="60.00" stroke="#8a8a8a" stroke-width="1.4" stroke-linecap="round"/>
+  <line x1="120.00" y1="320.00" x2="120.00" y2="324.00" stroke="#8a8a8a" stroke-width="1.4" stroke-linecap="round"/>
+  <text x="120.00" y="337.00" font-size="9.5" fill="#8a8a8a" text-anchor="middle">2</text>
+  <line x1="216.67" y1="320.00" x2="216.67" y2="324.00" stroke="#8a8a8a" stroke-width="1.4" stroke-linecap="round"/>
+  <text x="216.67" y="337.00" font-size="9.5" fill="#8a8a8a" text-anchor="middle">5</text>
+  <line x1="377.78" y1="320.00" x2="377.78" y2="324.00" stroke="#8a8a8a" stroke-width="1.4" stroke-linecap="round"/>
+  <text x="377.78" y="337.00" font-size="9.5" fill="#8a8a8a" text-anchor="middle">10</text>
+  <line x1="538.89" y1="320.00" x2="538.89" y2="324.00" stroke="#8a8a8a" stroke-width="1.4" stroke-linecap="round"/>
+  <text x="538.89" y="337.00" font-size="9.5" fill="#8a8a8a" text-anchor="middle">15</text>
+  <line x1="700.00" y1="320.00" x2="700.00" y2="324.00" stroke="#8a8a8a" stroke-width="1.4" stroke-linecap="round"/>
+  <text x="700.00" y="337.00" font-size="9.5" fill="#8a8a8a" text-anchor="middle">20</text>
+  <line x1="120.00" y1="320.00" x2="116.00" y2="320.00" stroke="#8a8a8a" stroke-width="1.4" stroke-linecap="round"/>
+  <text x="112.00" y="323.50" font-size="9.5" fill="#8a8a8a" text-anchor="end">10^0</text>
+  <line x1="120.00" y1="255.00" x2="116.00" y2="255.00" stroke="#8a8a8a" stroke-width="1.4" stroke-linecap="round"/>
+  <text x="112.00" y="258.50" font-size="9.5" fill="#8a8a8a" text-anchor="end">10^5</text>
+  <line x1="120.00" y1="190.00" x2="116.00" y2="190.00" stroke="#8a8a8a" stroke-width="1.4" stroke-linecap="round"/>
+  <text x="112.00" y="193.50" font-size="9.5" fill="#8a8a8a" text-anchor="end">10^10</text>
+  <line x1="120.00" y1="125.00" x2="116.00" y2="125.00" stroke="#8a8a8a" stroke-width="1.4" stroke-linecap="round"/>
+  <text x="112.00" y="128.50" font-size="9.5" fill="#8a8a8a" text-anchor="end">10^15</text>
+  <line x1="120.00" y1="60.00" x2="116.00" y2="60.00" stroke="#8a8a8a" stroke-width="1.4" stroke-linecap="round"/>
+  <text x="112.00" y="63.50" font-size="9.5" fill="#8a8a8a" text-anchor="end">10^20</text>
+  <text x="410.00" y="354.00" font-size="10.5" fill="#8a8a8a" text-anchor="middle">number of inputs n</text>
+  <text x="30.00" y="52.00" font-size="10.5" fill="#8a8a8a">log2 of the count</text>
+  <polyline points="120.00,312.17 152.22,308.26 184.44,304.35 216.67,300.43 248.89,296.52 281.11,292.61 313.33,288.69 345.56,284.78 377.78,280.87 410.00,276.95 442.22,273.04 474.44,269.13 506.67,265.21 538.89,261.30 571.11,257.39 603.33,253.47 635.56,249.56 667.78,245.65 700.00,241.73" fill="none" stroke="#e0645c" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round"/>
+  <polyline points="120.00,306.38 152.22,303.82 184.44,300.73 216.67,297.37 248.89,293.81 281.11,290.10 313.33,286.30 345.56,282.42 377.78,278.50 410.00,274.55 442.22,270.59 474.44,266.63 506.67,262.66 538.89,258.69 571.11,254.73 603.33,250.77 635.56,246.82 667.78,242.87 700.00,238.91" fill="none" stroke="#4a90d9" stroke-width="2.0" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 4"/>
+  <text x="474.44" y="281.00" font-size="10.5" fill="#e0645c">all Boolean functions: 2^(2^n)</text>
+  <text x="352.00" y="208.20" font-size="10.5" fill="#4a90d9">circuits of size 2^n / n</text>
+  <text x="20.00" y="352.00" font-size="10.5" fill="#8a8a8a">Both axes are counts of objects, plotted as the log10 of their log2 — so a gap on this chart is a doubly</text>
+  <text x="20.00" y="368.00" font-size="10.5" fill="#8a8a8a">exponential gap in reality. Below Shannon's size 2^n/n there are simply not enough circuits to go around,</text>
+  <text x="20.00" y="384.00" font-size="10.5" fill="#8a8a8a" font-style="italic">so ALMOST EVERY Boolean function needs a circuit of that size. Not one such function has ever been named.</text>
+</svg>

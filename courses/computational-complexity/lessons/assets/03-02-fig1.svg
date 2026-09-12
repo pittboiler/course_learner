@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 420" width="780" height="420" font-family="Helvetica, Arial, sans-serif" font-size="11.5">
+  <text x="390.00" y="18.00" font-size="12" fill="#8a8a8a" text-anchor="middle" font-weight="bold">A decision reduction may move the count; a parsimonious one may not</text>
+  <text x="180.00" y="44.00" font-size="11.5" fill="#4a90d9" text-anchor="middle" font-weight="bold">parsimonious</text>
+  <rect x="40.00" y="58.00" width="100.00" height="190.00" rx="6" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+  <rect x="220.00" y="58.00" width="100.00" height="190.00" rx="6" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="90.00" y="262.00" font-size="10" fill="#8a8a8a" text-anchor="middle">solutions of x</text>
+  <text x="270.00" y="262.00" font-size="10" fill="#8a8a8a" text-anchor="middle">solutions of f(x)</text>
+  <circle cx="90.00" cy="80.00" r="7.00" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+  <circle cx="90.00" cy="110.00" r="7.00" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+  <circle cx="90.00" cy="140.00" r="7.00" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+  <circle cx="90.00" cy="170.00" r="7.00" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+  <circle cx="270.00" cy="80.00" r="7.00" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+  <circle cx="270.00" cy="136.67" r="7.00" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+  <circle cx="270.00" cy="193.33" r="7.00" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+  <circle cx="270.00" cy="250.00" r="7.00" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="99.00" y1="80.00" x2="256.00" y2="80.00" stroke="#4a90d9" stroke-width="1.2" stroke-linecap="round"/>
+  <polygon points="261.00,80.00 256.43,82.04 256.43,77.96" fill="#4a90d9" stroke="#4a90d9" stroke-width="0.6" stroke-linejoin="round" stroke-linecap="round"/>
+  <line x1="99.00" y1="110.00" x2="256.07" y2="135.85" stroke="#4a90d9" stroke-width="1.2" stroke-linecap="round"/>
+  <polygon points="261.00,136.67 256.16,137.94 256.83,133.91" fill="#4a90d9" stroke="#4a90d9" stroke-width="0.6" stroke-linejoin="round" stroke-linecap="round"/>
+  <line x1="99.00" y1="140.00" x2="256.25" y2="191.77" stroke="#4a90d9" stroke-width="1.2" stroke-linecap="round"/>
+  <polygon points="261.00,193.33 256.03,193.84 257.30,189.97" fill="#4a90d9" stroke="#4a90d9" stroke-width="0.6" stroke-linejoin="round" stroke-linecap="round"/>
+  <line x1="99.00" y1="170.00" x2="256.52" y2="247.79" stroke="#4a90d9" stroke-width="1.2" stroke-linecap="round"/>
+  <polygon points="261.00,250.00 256.00,249.81 257.81,246.15" fill="#4a90d9" stroke="#4a90d9" stroke-width="0.6" stroke-linejoin="round" stroke-linecap="round"/>
+  <text x="180.00" y="290.00" font-size="10" fill="#8a8a8a" text-anchor="middle">count preserved exactly</text>
+  <text x="570.00" y="44.00" font-size="11.5" fill="#e0645c" text-anchor="middle" font-weight="bold">not parsimonious</text>
+  <rect x="430.00" y="58.00" width="100.00" height="190.00" rx="6" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+  <rect x="610.00" y="58.00" width="100.00" height="190.00" rx="6" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="480.00" y="262.00" font-size="10" fill="#8a8a8a" text-anchor="middle">solutions of x</text>
+  <text x="660.00" y="262.00" font-size="10" fill="#8a8a8a" text-anchor="middle">solutions of f(x)</text>
+  <circle cx="480.00" cy="80.00" r="7.00" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+  <circle cx="480.00" cy="110.00" r="7.00" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+  <circle cx="480.00" cy="140.00" r="7.00" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+  <circle cx="480.00" cy="170.00" r="7.00" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+  <circle cx="660.00" cy="80.00" r="7.00" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+  <circle cx="660.00" cy="108.33" r="7.00" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+  <circle cx="660.00" cy="136.67" r="7.00" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+  <circle cx="660.00" cy="165.00" r="7.00" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+  <circle cx="660.00" cy="193.33" r="7.00" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+  <circle cx="660.00" cy="221.67" r="7.00" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+  <circle cx="660.00" cy="250.00" r="7.00" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="489.00" y1="80.00" x2="646.00" y2="80.00" stroke="#e0645c" stroke-width="1.2" stroke-linecap="round"/>
+  <polygon points="651.00,80.00 646.43,82.04 646.43,77.96" fill="#e0645c" stroke="#e0645c" stroke-width="0.6" stroke-linejoin="round" stroke-linecap="round"/>
+  <line x1="489.00" y1="80.00" x2="646.07" y2="107.47" stroke="#e0645c" stroke-width="1.2" stroke-linecap="round"/>
+  <polygon points="651.00,108.33 646.15,109.56 646.85,105.54" fill="#e0645c" stroke="#e0645c" stroke-width="0.6" stroke-linejoin="round" stroke-linecap="round"/>
+  <line x1="489.00" y1="110.00" x2="646.07" y2="135.85" stroke="#e0645c" stroke-width="1.2" stroke-linecap="round"/>
+  <polygon points="651.00,136.67 646.16,137.94 646.83,133.91" fill="#e0645c" stroke="#e0645c" stroke-width="0.6" stroke-linejoin="round" stroke-linecap="round"/>
+  <line x1="489.00" y1="140.00" x2="646.06" y2="164.24" stroke="#e0645c" stroke-width="1.2" stroke-linecap="round"/>
+  <polygon points="651.00,165.00 646.18,166.32 646.80,162.29" fill="#e0645c" stroke="#e0645c" stroke-width="0.6" stroke-linejoin="round" stroke-linecap="round"/>
+  <line x1="489.00" y1="140.00" x2="646.25" y2="191.77" stroke="#e0645c" stroke-width="1.2" stroke-linecap="round"/>
+  <polygon points="651.00,193.33 646.03,193.84 647.30,189.97" fill="#e0645c" stroke="#e0645c" stroke-width="0.6" stroke-linejoin="round" stroke-linecap="round"/>
+  <line x1="489.00" y1="140.00" x2="646.54" y2="219.42" stroke="#e0645c" stroke-width="1.2" stroke-linecap="round"/>
+  <polygon points="651.00,221.67 646.01,221.43 647.84,217.79" fill="#e0645c" stroke="#e0645c" stroke-width="0.6" stroke-linejoin="round" stroke-linecap="round"/>
+  <line x1="489.00" y1="170.00" x2="646.52" y2="247.79" stroke="#e0645c" stroke-width="1.2" stroke-linecap="round"/>
+  <polygon points="651.00,250.00 646.00,249.81 647.81,246.15" fill="#e0645c" stroke="#e0645c" stroke-width="0.6" stroke-linejoin="round" stroke-linecap="round"/>
+  <text x="570.00" y="290.00" font-size="10" fill="#8a8a8a" text-anchor="middle">count multiplied, by a factor that varies</text>
+  <text x="20.00" y="344.00" font-size="10.5" fill="#8a8a8a">Both maps are valid Karp reductions: a yes-instance has at least one solution on each side, and a no-instance has</text>
+  <text x="20.00" y="360.00" font-size="10.5" fill="#8a8a8a">none on either. For deciding, that is all you need. For counting it is not — the right-hand map turns a question about</text>
+  <text x="20.00" y="376.00" font-size="10.5" fill="#8a8a8a">4 into a question about 7, and the factor depends on the instance, so it cannot be divided out afterwards.</text>
+  <text x="20.00" y="400.00" font-size="10.5" fill="#8a8a8a" font-style="italic">Measured case: 3SAT to INDEPENDENT SET on a 2-clause formula gives 7 independent sets of size m against 6 models.</text>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 414" width="780" height="414" font-family="Helvetica, Arial, sans-serif" font-size="11.5">
+  <text x="390.00" y="18.00" font-size="12" fill="#8a8a8a" text-anchor="middle" font-weight="bold">A quantified formula is a game, and its value is who wins</text>
+  <text x="390.00" y="40.00" font-size="10.5" fill="#8a8a8a" text-anchor="middle" font-style="italic">phi = (x1 v x2 v x3) and (~x2 v x3) and (x1 v ~x3)</text>
+  <line x1="430.00" y1="97.00" x2="275.00" y2="155.00" stroke="#8a8a8a" stroke-width="0.9" stroke-linecap="round"/>
+  <line x1="430.00" y1="97.00" x2="585.00" y2="155.00" stroke="#8a8a8a" stroke-width="0.9" stroke-linecap="round"/>
+  <line x1="275.00" y1="177.00" x2="197.50" y2="235.00" stroke="#8a8a8a" stroke-width="0.9" stroke-linecap="round"/>
+  <line x1="275.00" y1="177.00" x2="352.50" y2="235.00" stroke="#8a8a8a" stroke-width="0.9" stroke-linecap="round"/>
+  <line x1="585.00" y1="177.00" x2="507.50" y2="235.00" stroke="#8a8a8a" stroke-width="0.9" stroke-linecap="round"/>
+  <line x1="585.00" y1="177.00" x2="662.50" y2="235.00" stroke="#8a8a8a" stroke-width="0.9" stroke-linecap="round"/>
+  <line x1="197.50" y1="257.00" x2="158.75" y2="315.00" stroke="#8a8a8a" stroke-width="0.9" stroke-linecap="round"/>
+  <line x1="197.50" y1="257.00" x2="236.25" y2="315.00" stroke="#8a8a8a" stroke-width="0.9" stroke-linecap="round"/>
+  <line x1="352.50" y1="257.00" x2="313.75" y2="315.00" stroke="#8a8a8a" stroke-width="0.9" stroke-linecap="round"/>
+  <line x1="352.50" y1="257.00" x2="391.25" y2="315.00" stroke="#8a8a8a" stroke-width="0.9" stroke-linecap="round"/>
+  <line x1="507.50" y1="257.00" x2="468.75" y2="315.00" stroke="#8a8a8a" stroke-width="0.9" stroke-linecap="round"/>
+  <line x1="507.50" y1="257.00" x2="546.25" y2="315.00" stroke="#8a8a8a" stroke-width="0.9" stroke-linecap="round"/>
+  <line x1="662.50" y1="257.00" x2="623.75" y2="315.00" stroke="#8a8a8a" stroke-width="0.9" stroke-linecap="round"/>
+  <line x1="662.50" y1="257.00" x2="701.25" y2="315.00" stroke="#8a8a8a" stroke-width="0.9" stroke-linecap="round"/>
+  <text x="112.00" y="90.00" font-size="10.5" fill="#e0645c" text-anchor="end">FORALL x1</text>
+  <circle cx="430.00" cy="86.00" r="13.00" fill="none" stroke="#e0645c" stroke-width="1.6"/>
+  <text x="430.00" y="90.00" font-size="11" fill="#e0645c" text-anchor="middle" font-weight="bold">F</text>
+  <text x="112.00" y="170.00" font-size="10.5" fill="#4a90d9" text-anchor="end">EXISTS x2</text>
+  <circle cx="275.00" cy="166.00" r="13.00" fill="none" stroke="#4a90d9" stroke-width="1.6"/>
+  <text x="275.00" y="170.00" font-size="11" fill="#4a90d9" text-anchor="middle" font-weight="bold">F</text>
+  <circle cx="585.00" cy="166.00" r="13.00" fill="none" stroke="#4a90d9" stroke-width="1.6"/>
+  <text x="585.00" y="170.00" font-size="11" fill="#4a90d9" text-anchor="middle" font-weight="bold">T</text>
+  <text x="112.00" y="250.00" font-size="10.5" fill="#e0645c" text-anchor="end">FORALL x3</text>
+  <circle cx="197.50" cy="246.00" r="13.00" fill="none" stroke="#e0645c" stroke-width="1.6"/>
+  <text x="197.50" y="250.00" font-size="11" fill="#e0645c" text-anchor="middle" font-weight="bold">F</text>
+  <circle cx="352.50" cy="246.00" r="13.00" fill="none" stroke="#e0645c" stroke-width="1.6"/>
+  <text x="352.50" y="250.00" font-size="11" fill="#e0645c" text-anchor="middle" font-weight="bold">F</text>
+  <circle cx="507.50" cy="246.00" r="13.00" fill="none" stroke="#e0645c" stroke-width="1.6"/>
+  <text x="507.50" y="250.00" font-size="11" fill="#e0645c" text-anchor="middle" font-weight="bold">T</text>
+  <circle cx="662.50" cy="246.00" r="13.00" fill="none" stroke="#e0645c" stroke-width="1.6"/>
+  <text x="662.50" y="250.00" font-size="11" fill="#e0645c" text-anchor="middle" font-weight="bold">F</text>
+  <rect x="145.75" y="313.00" width="26.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.4"/>
+  <text x="158.75" y="330.00" font-size="11" fill="#8a8a8a" text-anchor="middle" font-weight="bold">F</text>
+  <rect x="223.25" y="313.00" width="26.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.4"/>
+  <text x="236.25" y="330.00" font-size="11" fill="#8a8a8a" text-anchor="middle" font-weight="bold">F</text>
+  <rect x="300.75" y="313.00" width="26.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.4"/>
+  <text x="313.75" y="330.00" font-size="11" fill="#8a8a8a" text-anchor="middle" font-weight="bold">F</text>
+  <rect x="378.25" y="313.00" width="26.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.4"/>
+  <text x="391.25" y="330.00" font-size="11" fill="#8a8a8a" text-anchor="middle" font-weight="bold">F</text>
+  <rect x="455.75" y="313.00" width="26.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.4"/>
+  <text x="468.75" y="330.00" font-size="11" fill="#8a8a8a" text-anchor="middle" font-weight="bold">T</text>
+  <rect x="533.25" y="313.00" width="26.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.4"/>
+  <text x="546.25" y="330.00" font-size="11" fill="#8a8a8a" text-anchor="middle" font-weight="bold">T</text>
+  <rect x="610.75" y="313.00" width="26.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.4"/>
+  <text x="623.75" y="330.00" font-size="11" fill="#8a8a8a" text-anchor="middle" font-weight="bold">F</text>
+  <rect x="688.25" y="313.00" width="26.00" height="26.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="1.4"/>
+  <text x="701.25" y="330.00" font-size="11" fill="#8a8a8a" text-anchor="middle" font-weight="bold">T</text>
+  <text x="112.00" y="330.00" font-size="10.5" fill="#8a8a8a" text-anchor="end">phi value</text>
+  <text x="20.00" y="366.00" font-size="10.5" fill="#8a8a8a">A coral node takes the AND of its children (the opponent picks the worse branch); a blue node takes the OR</text>
+  <text x="20.00" y="382.00" font-size="10.5" fill="#8a8a8a">(you pick the better one). Here the root is F, so the formula is false — the opponent has a winning first move.</text>
+  <text x="20.00" y="404.00" font-size="10.5" fill="#8a8a8a" font-style="italic">Evaluating needs only one root-to-leaf path in memory at a time, which is why TQBF is in PSPACE and not just EXP.</text>
+</svg>

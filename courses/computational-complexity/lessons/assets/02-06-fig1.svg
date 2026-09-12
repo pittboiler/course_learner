@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 470" width="800" height="470" font-family="Helvetica, Arial, sans-serif" font-size="11.5">
+  <text x="400.00" y="18.00" font-size="12" fill="#8a8a8a" text-anchor="middle" font-weight="bold">The map: every containment known, and the three places we know it is strict</text>
+  <rect x="225.00" y="39.00" width="150.00" height="34.00" rx="3" fill="none" stroke="#4a90d9" stroke-width="1.4"/>
+  <text x="300.00" y="60.20" font-size="12" fill="#4a90d9" text-anchor="middle">EXP</text>
+  <rect x="225.00" y="91.00" width="150.00" height="34.00" rx="3" fill="none" stroke="#4a90d9" stroke-width="1.4"/>
+  <text x="300.00" y="112.20" font-size="12" fill="#4a90d9" text-anchor="middle">PSPACE</text>
+  <rect x="225.00" y="143.00" width="150.00" height="34.00" rx="3" fill="none" stroke="#4a90d9" stroke-width="1.4"/>
+  <text x="300.00" y="164.20" font-size="12" fill="#4a90d9" text-anchor="middle">PH</text>
+  <rect x="225.00" y="195.00" width="150.00" height="34.00" rx="3" fill="none" stroke="#4a90d9" stroke-width="1.4"/>
+  <text x="300.00" y="216.20" font-size="12" fill="#4a90d9" text-anchor="middle">NP</text>
+  <rect x="225.00" y="247.00" width="150.00" height="34.00" rx="3" fill="none" stroke="#4a90d9" stroke-width="1.4"/>
+  <text x="300.00" y="268.20" font-size="12" fill="#4a90d9" text-anchor="middle">P</text>
+  <rect x="225.00" y="299.00" width="150.00" height="34.00" rx="3" fill="none" stroke="#4a90d9" stroke-width="1.4"/>
+  <text x="300.00" y="320.20" font-size="12" fill="#4a90d9" text-anchor="middle">NL</text>
+  <rect x="225.00" y="351.00" width="150.00" height="34.00" rx="3" fill="none" stroke="#4a90d9" stroke-width="1.4"/>
+  <text x="300.00" y="372.20" font-size="12" fill="#4a90d9" text-anchor="middle">L</text>
+  <line x1="300.00" y1="91.00" x2="300.00" y2="73.00" stroke="#8a8a8a" stroke-width="1.2" stroke-linecap="round"/>
+  <text x="312.00" y="86.00" font-size="9" fill="#8a8a8a">contains</text>
+  <line x1="300.00" y1="143.00" x2="300.00" y2="125.00" stroke="#8a8a8a" stroke-width="1.2" stroke-linecap="round"/>
+  <text x="312.00" y="138.00" font-size="9" fill="#8a8a8a">contains</text>
+  <line x1="300.00" y1="195.00" x2="300.00" y2="177.00" stroke="#8a8a8a" stroke-width="1.2" stroke-linecap="round"/>
+  <text x="312.00" y="190.00" font-size="9" fill="#8a8a8a">contains</text>
+  <line x1="300.00" y1="247.00" x2="300.00" y2="229.00" stroke="#8a8a8a" stroke-width="1.2" stroke-linecap="round"/>
+  <text x="312.00" y="242.00" font-size="9" fill="#8a8a8a">contains</text>
+  <line x1="300.00" y1="299.00" x2="300.00" y2="281.00" stroke="#8a8a8a" stroke-width="1.2" stroke-linecap="round"/>
+  <text x="312.00" y="294.00" font-size="9" fill="#8a8a8a">contains</text>
+  <line x1="300.00" y1="351.00" x2="300.00" y2="333.00" stroke="#8a8a8a" stroke-width="1.2" stroke-linecap="round"/>
+  <text x="312.00" y="346.00" font-size="9" fill="#8a8a8a">contains</text>
+  <line x1="376.00" y1="368.00" x2="470.00" y2="368.00" stroke="#e0645c" stroke-width="1.3" stroke-linecap="round"/>
+  <line x1="470.00" y1="368.00" x2="470.00" y2="108.00" stroke="#e0645c" stroke-width="1.3" stroke-linecap="round"/>
+  <line x1="470.00" y1="108.00" x2="376.00" y2="108.00" stroke="#e0645c" stroke-width="1.3" stroke-linecap="round"/>
+  <line x1="376.00" y1="316.00" x2="530.00" y2="316.00" stroke="#e0645c" stroke-width="1.3" stroke-linecap="round"/>
+  <line x1="530.00" y1="316.00" x2="530.00" y2="108.00" stroke="#e0645c" stroke-width="1.3" stroke-linecap="round"/>
+  <line x1="530.00" y1="108.00" x2="376.00" y2="108.00" stroke="#e0645c" stroke-width="1.3" stroke-linecap="round"/>
+  <line x1="376.00" y1="264.00" x2="590.00" y2="264.00" stroke="#e0645c" stroke-width="1.3" stroke-linecap="round"/>
+  <line x1="590.00" y1="264.00" x2="590.00" y2="56.00" stroke="#e0645c" stroke-width="1.3" stroke-linecap="round"/>
+  <line x1="590.00" y1="56.00" x2="376.00" y2="56.00" stroke="#e0645c" stroke-width="1.3" stroke-linecap="round"/>
+  <text x="620.00" y="214.00" font-size="10" fill="#e0645c" font-weight="bold">the only strict</text>
+  <text x="620.00" y="229.00" font-size="10" fill="#e0645c">containments proved,</text>
+  <text x="620.00" y="244.00" font-size="10" fill="#e0645c">all from the</text>
+  <text x="620.00" y="259.00" font-size="10" fill="#e0645c">hierarchy theorems</text>
+  <text x="216.00" y="60.00" font-size="9.5" fill="#8a8a8a" text-anchor="end">complete problems provably not in P</text>
+  <text x="216.00" y="112.00" font-size="9.5" fill="#8a8a8a" text-anchor="end">TQBF; perfect play in a game</text>
+  <text x="216.00" y="164.00" font-size="9.5" fill="#8a8a8a" text-anchor="end">NP with a constant number of alternations</text>
+  <text x="216.00" y="216.00" font-size="9.5" fill="#8a8a8a" text-anchor="end">SAT; checkable in polynomial time</text>
+  <text x="216.00" y="268.00" font-size="9.5" fill="#8a8a8a" text-anchor="end">the tractable baseline</text>
+  <text x="216.00" y="320.00" font-size="9.5" fill="#8a8a8a" text-anchor="end">PATH; equals coNL</text>
+  <text x="216.00" y="372.00" font-size="9.5" fill="#8a8a8a" text-anchor="end">undirected connectivity (Reingold)</text>
+  <text x="20.00" y="412.00" font-size="10.5" fill="#8a8a8a">Every arrow is a containment nobody has managed to make strict, except the three marked in coral. In particular</text>
+  <text x="20.00" y="428.00" font-size="10.5" fill="#8a8a8a">not one of P vs NP, NP vs PH, or PH vs PSPACE is settled, and any single one of them being strict would settle</text>
+  <text x="20.00" y="444.00" font-size="10.5" fill="#8a8a8a" font-style="italic">P vs PSPACE. BQP sits off this line: it contains P, is inside PSPACE, and is not known to compare with NP.</text>
+</svg>

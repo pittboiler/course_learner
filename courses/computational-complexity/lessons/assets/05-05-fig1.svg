@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 790 400" width="790" height="400" font-family="Helvetica, Arial, sans-serif" font-size="11.5">
+  <text x="395.00" y="18.00" font-size="12" fill="#8a8a8a" text-anchor="middle" font-weight="bold">Where each problem sits on the approximability line</text>
+  <line x1="90.00" y1="168.00" x2="700.00" y2="168.00" stroke="#8a8a8a" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="90.00" y1="163.00" x2="90.00" y2="173.00" stroke="#8a8a8a" stroke-width="1.4" stroke-linecap="round"/>
+  <text x="90.00" y="188.00" font-size="9.5" fill="#8a8a8a" text-anchor="middle">0</text>
+  <line x1="242.50" y1="163.00" x2="242.50" y2="173.00" stroke="#8a8a8a" stroke-width="1.4" stroke-linecap="round"/>
+  <text x="242.50" y="188.00" font-size="9.5" fill="#8a8a8a" text-anchor="middle">0.25</text>
+  <line x1="395.00" y1="163.00" x2="395.00" y2="173.00" stroke="#8a8a8a" stroke-width="1.4" stroke-linecap="round"/>
+  <text x="395.00" y="188.00" font-size="9.5" fill="#8a8a8a" text-anchor="middle">0.5</text>
+  <line x1="547.50" y1="163.00" x2="547.50" y2="173.00" stroke="#8a8a8a" stroke-width="1.4" stroke-linecap="round"/>
+  <text x="547.50" y="188.00" font-size="9.5" fill="#8a8a8a" text-anchor="middle">0.75</text>
+  <line x1="700.00" y1="163.00" x2="700.00" y2="173.00" stroke="#8a8a8a" stroke-width="1.4" stroke-linecap="round"/>
+  <text x="700.00" y="188.00" font-size="9.5" fill="#8a8a8a" text-anchor="middle">1</text>
+  <text x="395.00" y="210.00" font-size="10.5" fill="#8a8a8a" text-anchor="middle">best achievable approximation ratio (maximization; 1 = exact)</text>
+  <line x1="395.00" y1="162.00" x2="395.00" y2="124.00" stroke="#8a8a8a" stroke-width="1.1" stroke-linecap="round"/>
+  <text x="401.00" y="120.00" font-size="10.5" fill="#8a8a8a">MAX-3SAT by a random assignment</text>
+  <circle cx="395.00" cy="168.00" r="4.00" fill="none" stroke="#8a8a8a" stroke-width="1.6"/>
+  <line x1="623.75" y1="162.00" x2="623.75" y2="82.00" stroke="#e0645c" stroke-width="1.1" stroke-linecap="round"/>
+  <text x="617.75" y="78.00" font-size="10.5" fill="#e0645c" text-anchor="end">MAX-3SAT: 7/8</text>
+  <circle cx="623.75" cy="168.00" r="4.00" fill="none" stroke="#e0645c" stroke-width="1.6"/>
+  <line x1="625.58" y1="162.00" x2="625.58" y2="102.00" stroke="#4a90d9" stroke-width="1.1" stroke-linecap="round"/>
+  <text x="631.58" y="98.00" font-size="10.5" fill="#4a90d9">MAX-CUT: 0.878</text>
+  <circle cx="625.58" cy="168.00" r="4.00" fill="none" stroke="#4a90d9" stroke-width="1.6"/>
+  <line x1="700.00" y1="162.00" x2="700.00" y2="58.00" stroke="#4a90d9" stroke-width="1.1" stroke-linecap="round"/>
+  <text x="694.00" y="54.00" font-size="10.5" fill="#4a90d9" text-anchor="end">knapsack: FPTAS</text>
+  <circle cx="700.00" cy="168.00" r="4.00" fill="none" stroke="#4a90d9" stroke-width="1.6"/>
+  <rect x="120.00" y="232.00" width="550.00" height="118.00" rx="6" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+  <text x="395.00" y="256.00" font-size="11.5" fill="#8a8a8a" text-anchor="middle" font-weight="bold">MAX-3SAT is a THRESHOLD, not just a ratio</text>
+  <text x="150.00" y="282.00" font-size="10.5" fill="#4a90d9">7/8 is achievable:</text>
+  <text x="320.00" y="282.00" font-size="10.5" fill="#4a90d9">random assignment, then derandomize (5.4)</text>
+  <text x="150.00" y="306.00" font-size="10.5" fill="#e0645c">7/8 + eps is NP-hard:</text>
+  <text x="320.00" y="306.00" font-size="10.5" fill="#e0645c">Hastad 2001, from the PCP theorem (4.5)</text>
+  <text x="150.00" y="332.00" font-size="10.5" fill="#8a8a8a" font-style="italic">so the line is drawn exactly at 7/8, from both sides.</text>
+  <text x="20.00" y="376.00" font-size="10.5" fill="#8a8a8a">Above 1/2 is what a coin gets you for free. Below 1 is where NP-hardness bites. Knapsack, and any problem with an</text>
+  <text x="20.00" y="392.00" font-size="10.5" fill="#8a8a8a" font-style="italic">FPTAS, has its barrier at 1 itself — you can get as close as you are willing to pay for.</text>
+</svg>

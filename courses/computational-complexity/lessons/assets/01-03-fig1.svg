@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 378" width="760" height="378" font-family="Helvetica, Arial, sans-serif" font-size="11.5">
+  <text x="380.00" y="18.00" font-size="12" fill="#8a8a8a" text-anchor="middle" font-weight="bold">Diagonalization with a clock: D differs from every M_i somewhere</text>
+  <text x="194.00" y="50.00" font-size="10.5" fill="#8a8a8a" text-anchor="middle">w_1</text>
+  <text x="282.00" y="50.00" font-size="10.5" fill="#8a8a8a" text-anchor="middle">w_2</text>
+  <text x="370.00" y="50.00" font-size="10.5" fill="#8a8a8a" text-anchor="middle">w_3</text>
+  <text x="458.00" y="50.00" font-size="10.5" fill="#8a8a8a" text-anchor="middle">w_4</text>
+  <text x="546.00" y="50.00" font-size="10.5" fill="#8a8a8a" text-anchor="middle">w_5</text>
+  <text x="634.00" y="50.00" font-size="10.5" fill="#8a8a8a" text-anchor="middle">w_6</text>
+  <text x="140.00" y="80.00" font-size="10.5" fill="#8a8a8a" text-anchor="end">M_1</text>
+  <text x="140.00" y="116.00" font-size="10.5" fill="#8a8a8a" text-anchor="end">M_2</text>
+  <text x="140.00" y="152.00" font-size="10.5" fill="#8a8a8a" text-anchor="end">M_3</text>
+  <text x="140.00" y="188.00" font-size="10.5" fill="#8a8a8a" text-anchor="end">M_4</text>
+  <text x="140.00" y="224.00" font-size="10.5" fill="#8a8a8a" text-anchor="end">M_5</text>
+  <text x="140.00" y="260.00" font-size="10.5" fill="#8a8a8a" text-anchor="end">M_6</text>
+  <rect x="150.00" y="58.00" width="82.00" height="30.00" rx="0" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+  <text x="191.00" y="79.50" font-size="9.5" fill="#e0645c" text-anchor="middle">accept</text>
+  <rect x="238.00" y="58.00" width="82.00" height="30.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.8"/>
+  <text x="279.00" y="79.50" font-size="9.5" fill="#8a8a8a" text-anchor="middle">reject</text>
+  <rect x="326.00" y="58.00" width="82.00" height="30.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.8"/>
+  <text x="367.00" y="79.50" font-size="9.5" fill="#8a8a8a" text-anchor="middle">accept</text>
+  <rect x="414.00" y="58.00" width="82.00" height="30.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.8"/>
+  <text x="455.00" y="79.50" font-size="9.5" fill="#8a8a8a" text-anchor="middle">accept</text>
+  <rect x="502.00" y="58.00" width="82.00" height="30.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.8"/>
+  <text x="543.00" y="79.50" font-size="9.5" fill="#8a8a8a" text-anchor="middle">reject</text>
+  <rect x="590.00" y="58.00" width="82.00" height="30.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.8"/>
+  <text x="631.00" y="79.50" font-size="9.5" fill="#8a8a8a" text-anchor="middle">accept</text>
+  <rect x="150.00" y="94.00" width="82.00" height="30.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.8"/>
+  <text x="191.00" y="115.50" font-size="9.5" fill="#8a8a8a" text-anchor="middle">reject</text>
+  <rect x="238.00" y="94.00" width="82.00" height="30.00" rx="0" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+  <text x="279.00" y="115.50" font-size="9.5" fill="#e0645c" text-anchor="middle">reject</text>
+  <rect x="326.00" y="94.00" width="82.00" height="30.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.8"/>
+  <text x="367.00" y="115.50" font-size="9.5" fill="#8a8a8a" text-anchor="middle">accept</text>
+  <rect x="414.00" y="94.00" width="82.00" height="30.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.8"/>
+  <text x="455.00" y="115.50" font-size="9.5" fill="#8a8a8a" text-anchor="middle">reject</text>
+  <rect x="502.00" y="94.00" width="82.00" height="30.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.8"/>
+  <text x="543.00" y="115.50" font-size="9.5" fill="#8a8a8a" text-anchor="middle">accept</text>
+  <rect x="590.00" y="94.00" width="82.00" height="30.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.8"/>
+  <text x="631.00" y="115.50" font-size="9.5" fill="#8a8a8a" text-anchor="middle">accept</text>
+  <rect x="150.00" y="130.00" width="82.00" height="30.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.8"/>
+  <text x="191.00" y="151.50" font-size="9.5" fill="#8a8a8a" text-anchor="middle">accept</text>
+  <rect x="238.00" y="130.00" width="82.00" height="30.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.8"/>
+  <text x="279.00" y="151.50" font-size="9.5" fill="#8a8a8a" text-anchor="middle">accept</text>
+  <rect x="326.00" y="130.00" width="82.00" height="30.00" rx="0" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+  <text x="367.00" y="151.50" font-size="9.5" fill="#e0645c" text-anchor="middle">reject</text>
+  <rect x="414.00" y="130.00" width="82.00" height="30.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.8"/>
+  <text x="455.00" y="151.50" font-size="9.5" fill="#8a8a8a" text-anchor="middle">reject</text>
+  <rect x="502.00" y="130.00" width="82.00" height="30.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.8"/>
+  <text x="543.00" y="151.50" font-size="9.5" fill="#8a8a8a" text-anchor="middle">accept</text>
+  <rect x="590.00" y="130.00" width="82.00" height="30.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.8"/>
+  <text x="631.00" y="151.50" font-size="9.5" fill="#8a8a8a" text-anchor="middle">reject</text>
+  <rect x="150.00" y="166.00" width="82.00" height="30.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.8"/>
+  <text x="191.00" y="187.50" font-size="9.5" fill="#8a8a8a" text-anchor="middle">reject</text>
+  <rect x="238.00" y="166.00" width="82.00" height="30.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.8"/>
+  <text x="279.00" y="187.50" font-size="9.5" fill="#8a8a8a" text-anchor="middle">accept</text>
+  <rect x="326.00" y="166.00" width="82.00" height="30.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.8"/>
+  <text x="367.00" y="187.50" font-size="9.5" fill="#8a8a8a" text-anchor="middle">accept</text>
+  <rect x="414.00" y="166.00" width="82.00" height="30.00" rx="0" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+  <text x="455.00" y="187.50" font-size="9.5" fill="#e0645c" text-anchor="middle">accept</text>
+  <rect x="502.00" y="166.00" width="82.00" height="30.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.8"/>
+  <text x="543.00" y="187.50" font-size="9.5" fill="#8a8a8a" text-anchor="middle">reject</text>
+  <rect x="590.00" y="166.00" width="82.00" height="30.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.8"/>
+  <text x="631.00" y="187.50" font-size="9.5" fill="#8a8a8a" text-anchor="middle">reject</text>
+  <rect x="150.00" y="202.00" width="82.00" height="30.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.8"/>
+  <text x="191.00" y="223.50" font-size="9.5" fill="#8a8a8a" text-anchor="middle">accept</text>
+  <rect x="238.00" y="202.00" width="82.00" height="30.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.8"/>
+  <text x="279.00" y="223.50" font-size="9.5" fill="#8a8a8a" text-anchor="middle">reject</text>
+  <rect x="326.00" y="202.00" width="82.00" height="30.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.8"/>
+  <text x="367.00" y="223.50" font-size="9.5" fill="#8a8a8a" text-anchor="middle">reject</text>
+  <rect x="414.00" y="202.00" width="82.00" height="30.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.8"/>
+  <text x="455.00" y="223.50" font-size="9.5" fill="#8a8a8a" text-anchor="middle">accept</text>
+  <rect x="502.00" y="202.00" width="82.00" height="30.00" rx="0" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+  <text x="543.00" y="223.50" font-size="9.5" fill="#e0645c" text-anchor="middle">accept</text>
+  <rect x="590.00" y="202.00" width="82.00" height="30.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.8"/>
+  <text x="631.00" y="223.50" font-size="9.5" fill="#8a8a8a" text-anchor="middle">reject</text>
+  <rect x="150.00" y="238.00" width="82.00" height="30.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.8"/>
+  <text x="191.00" y="259.50" font-size="9.5" fill="#8a8a8a" text-anchor="middle">reject</text>
+  <rect x="238.00" y="238.00" width="82.00" height="30.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.8"/>
+  <text x="279.00" y="259.50" font-size="9.5" fill="#8a8a8a" text-anchor="middle">accept</text>
+  <rect x="326.00" y="238.00" width="82.00" height="30.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.8"/>
+  <text x="367.00" y="259.50" font-size="9.5" fill="#8a8a8a" text-anchor="middle">reject</text>
+  <rect x="414.00" y="238.00" width="82.00" height="30.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.8"/>
+  <text x="455.00" y="259.50" font-size="9.5" fill="#8a8a8a" text-anchor="middle">accept</text>
+  <rect x="502.00" y="238.00" width="82.00" height="30.00" rx="0" fill="none" stroke="#8a8a8a" stroke-width="0.8"/>
+  <text x="543.00" y="259.50" font-size="9.5" fill="#8a8a8a" text-anchor="middle">reject</text>
+  <rect x="590.00" y="238.00" width="82.00" height="30.00" rx="0" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+  <text x="631.00" y="259.50" font-size="9.5" fill="#e0645c" text-anchor="middle">accept</text>
+  <text x="140.00" y="310.00" font-size="11.5" fill="#4a90d9" text-anchor="end" font-weight="bold">D</text>
+  <rect x="150.00" y="288.00" width="82.00" height="30.00" rx="0" fill="none" stroke="#4a90d9" stroke-width="1.6"/>
+  <text x="191.00" y="309.50" font-size="9.5" fill="#4a90d9" text-anchor="middle">reject</text>
+  <rect x="238.00" y="288.00" width="82.00" height="30.00" rx="0" fill="none" stroke="#4a90d9" stroke-width="1.6"/>
+  <text x="279.00" y="309.50" font-size="9.5" fill="#4a90d9" text-anchor="middle">accept</text>
+  <rect x="326.00" y="288.00" width="82.00" height="30.00" rx="0" fill="none" stroke="#4a90d9" stroke-width="1.6"/>
+  <text x="367.00" y="309.50" font-size="9.5" fill="#4a90d9" text-anchor="middle">accept</text>
+  <rect x="414.00" y="288.00" width="82.00" height="30.00" rx="0" fill="none" stroke="#4a90d9" stroke-width="1.6"/>
+  <text x="455.00" y="309.50" font-size="9.5" fill="#4a90d9" text-anchor="middle">reject</text>
+  <rect x="502.00" y="288.00" width="82.00" height="30.00" rx="0" fill="none" stroke="#4a90d9" stroke-width="1.6"/>
+  <text x="543.00" y="309.50" font-size="9.5" fill="#4a90d9" text-anchor="middle">reject</text>
+  <rect x="590.00" y="288.00" width="82.00" height="30.00" rx="0" fill="none" stroke="#4a90d9" stroke-width="1.6"/>
+  <text x="631.00" y="309.50" font-size="9.5" fill="#4a90d9" text-anchor="middle">reject</text>
+  <text x="20.00" y="348.00" font-size="10.5" fill="#8a8a8a">D runs M_i on w_i under a step budget, then flips the answer, so D disagrees with M_i on w_i.</text>
+  <text x="20.00" y="366.00" font-size="10.5" fill="#8a8a8a" font-style="italic">No M_i in the smaller time bound decides D. The clock is what makes every simulation terminate.</text>
+</svg>
