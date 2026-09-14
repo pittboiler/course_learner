@@ -1,0 +1,15 @@
+<svg viewBox="0 0 660 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="40.0" y="24.0" fill="#8a8a8a" font-style="italic">Unifying the constraints from  \f.\x. f (f x)</text>
+  <text x="70.0" y="70.0" fill="#8a8a8a" font-size="12.5">fresh variables:   f : t0     x : t1</text>
+  <text x="70.0" y="104.0" fill="#8a8a8a" font-size="12.5">constraints from the two applications:</text>
+  <text x="100.0" y="132.0" fill="#4a90d9" font-size="13">(1)   t0  =  t1 -&gt; t2</text>
+  <text x="320.0" y="132.0" fill="#8a8a8a" font-size="11.5">from the inner  f x</text>
+  <text x="100.0" y="158.0" fill="#4a90d9" font-size="13">(2)   t0  =  t2 -&gt; t3</text>
+  <text x="320.0" y="158.0" fill="#8a8a8a" font-size="11.5">from the outer  f (f x)</text>
+  <line x1="60.0" y1="180.0" x2="600.0" y2="180.0" stroke="#8a8a8a" stroke-width="1.0" stroke-dasharray="4,4"/>
+  <text x="70.0" y="206.0" fill="#e0645c" font-size="13">solve:  t1 -&gt; t2  =  t2 -&gt; t3</text>
+  <text x="100.0" y="232.0" fill="#e0645c" font-size="12.5">t1 := t2      (domains)</text>
+  <text x="100.0" y="256.0" fill="#e0645c" font-size="12.5">t2 := t3      (codomains)</text>
+  <text x="70.0" y="292.0" fill="#8a8a8a" font-size="12.5">so t1 = t2 = t3, and  f : t3 -&gt; t3,  x : t3</text>
+  <text x="70.0" y="318.0" fill="#4a90d9" font-size="13.5">principal type:   (a -&gt; a) -&gt; a -&gt; a</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg viewBox="0 0 640 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="40.0" y="24.0" fill="#8a8a8a" font-style="italic">Curry-Howard: the same rules, read twice</text>
+  <line x1="320.0" y1="60.0" x2="320.0" y2="290.0" stroke="#8a8a8a" stroke-width="1.2" stroke-dasharray="4,4"/>
+  <text x="160.0" y="64.0" fill="#4a90d9" font-size="13" text-anchor="middle" font-weight="bold">TYPES</text>
+  <text x="480.0" y="64.0" fill="#e0645c" font-size="13" text-anchor="middle" font-weight="bold">LOGIC</text>
+  <text x="300.0" y="96.0" fill="#4a90d9" font-size="12" text-anchor="end">type</text>
+  <text x="340.0" y="96.0" fill="#e0645c" font-size="12">proposition</text>
+  <text x="300.0" y="120.0" fill="#4a90d9" font-size="12" text-anchor="end">term</text>
+  <text x="340.0" y="120.0" fill="#e0645c" font-size="12">proof</text>
+  <text x="300.0" y="144.0" fill="#4a90d9" font-size="12" text-anchor="end">A -&gt; B</text>
+  <text x="340.0" y="144.0" fill="#e0645c" font-size="12">A implies B</text>
+  <text x="300.0" y="168.0" fill="#4a90d9" font-size="12" text-anchor="end">A x B  (pair)</text>
+  <text x="340.0" y="168.0" fill="#e0645c" font-size="12">A and B</text>
+  <text x="300.0" y="192.0" fill="#4a90d9" font-size="12" text-anchor="end">A + B  (sum)</text>
+  <text x="340.0" y="192.0" fill="#e0645c" font-size="12">A or B</text>
+  <text x="300.0" y="216.0" fill="#4a90d9" font-size="12" text-anchor="end">Void  (empty)</text>
+  <text x="340.0" y="216.0" fill="#e0645c" font-size="12">falsehood</text>
+  <text x="300.0" y="240.0" fill="#4a90d9" font-size="12" text-anchor="end">Unit</text>
+  <text x="340.0" y="240.0" fill="#e0645c" font-size="12">truth</text>
+  <text x="300.0" y="264.0" fill="#4a90d9" font-size="12" text-anchor="end">function application</text>
+  <text x="340.0" y="264.0" fill="#e0645c" font-size="12">modus ponens</text>
+  <text x="300.0" y="288.0" fill="#4a90d9" font-size="12" text-anchor="end">beta-reduction</text>
+  <text x="340.0" y="288.0" fill="#e0645c" font-size="12">proof normalization</text>
+  <text x="70.0" y="318.0" fill="#8a8a8a" font-size="11.5" font-style="italic">An inhabited type is a provable proposition; a term of that type IS the proof.</text>
+</svg>
