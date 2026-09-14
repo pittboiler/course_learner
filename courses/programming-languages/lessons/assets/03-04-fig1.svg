@@ -1,0 +1,20 @@
+<svg viewBox="0 0 660 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="40.0" y="24.0" fill="#8a8a8a" font-style="italic">(\x.\y.y) OMEGA  under two strategies</text>
+  <text x="70.0" y="64.0" fill="#4a90d9" font-size="12.5">call-by-name: reduce the outer redex first</text>
+  <text x="90.0" y="92.0" fill="#8a8a8a" font-size="13">(\x.\y.y) OMEGA</text>
+  <line x1="100.0" y1="104.0" x2="100.0" y2="124.0" stroke="#4a90d9" stroke-width="1.4"/>
+  <polygon points="100.0,124.0 105.0,113.0 95.0,113.0" fill="#4a90d9"/>
+  <text x="112.0" y="120.0" fill="#4a90d9" font-size="11.5">argument never used: discard it</text>
+  <text x="90.0" y="144.0" fill="#e0645c" font-size="13">\y.y</text>
+  <text x="140.0" y="144.0" fill="#e0645c" font-size="11.5">normal form, 1 step</text>
+  <line x1="60.0" y1="168.0" x2="600.0" y2="168.0" stroke="#8a8a8a" stroke-width="1.0" stroke-dasharray="4,4"/>
+  <text x="70.0" y="196.0" fill="#4a90d9" font-size="12.5">call-by-value: reduce the argument first</text>
+  <text x="90.0" y="224.0" fill="#8a8a8a" font-size="13">OMEGA  =  (\x.x x) (\x.x x)</text>
+  <line x1="100.0" y1="236.0" x2="100.0" y2="254.0" stroke="#e0645c" stroke-width="1.4"/>
+  <polygon points="100.0,254.0 105.0,243.0 95.0,243.0" fill="#e0645c"/>
+  <text x="90.0" y="274.0" fill="#8a8a8a" font-size="13">(\x.x x) (\x.x x)</text>
+  <line x1="100.0" y1="286.0" x2="100.0" y2="300.0" stroke="#e0645c" stroke-width="1.4"/>
+  <polygon points="100.0,300.0 105.0,289.0 95.0,289.0" fill="#e0645c"/>
+  <text x="112.0" y="268.0" fill="#e0645c" font-size="11.5">reduces to itself, forever</text>
+  <text x="90.0" y="318.0" fill="#e0645c" font-size="12.5">...  the outer redex is never reached</text>
+</svg>

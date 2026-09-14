@@ -1,0 +1,25 @@
+<svg viewBox="0 0 620 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="40.0" y="24.0" fill="#8a8a8a" font-style="italic">A Church numeral is its own for-loop: n applies f exactly n times</text>
+  <text x="80.0" y="76.0" fill="#e0645c" font-size="15">0</text>
+  <text x="120.0" y="76.0" fill="#8a8a8a">\f.\x. x</text>
+  <text x="80.0" y="120.0" fill="#e0645c" font-size="15">1</text>
+  <text x="120.0" y="120.0" fill="#8a8a8a">\f.\x. f x</text>
+  <circle cx="370.0" cy="115.0" r="7" fill="none" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="370.0" y="120.0" fill="#4a90d9" font-size="11" text-anchor="middle">f</text>
+  <text x="80.0" y="164.0" fill="#e0645c" font-size="15">2</text>
+  <text x="120.0" y="164.0" fill="#8a8a8a">\f.\x. f (f x)</text>
+  <circle cx="370.0" cy="159.0" r="7" fill="none" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="370.0" y="164.0" fill="#4a90d9" font-size="11" text-anchor="middle">f</text>
+  <circle cx="396.0" cy="159.0" r="7" fill="none" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="396.0" y="164.0" fill="#4a90d9" font-size="11" text-anchor="middle">f</text>
+  <text x="80.0" y="208.0" fill="#e0645c" font-size="15">3</text>
+  <text x="120.0" y="208.0" fill="#8a8a8a">\f.\x. f (f (f x))</text>
+  <circle cx="370.0" cy="203.0" r="7" fill="none" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="370.0" y="208.0" fill="#4a90d9" font-size="11" text-anchor="middle">f</text>
+  <circle cx="396.0" cy="203.0" r="7" fill="none" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="396.0" y="208.0" fill="#4a90d9" font-size="11" text-anchor="middle">f</text>
+  <circle cx="422.0" cy="203.0" r="7" fill="none" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="422.0" y="208.0" fill="#4a90d9" font-size="11" text-anchor="middle">f</text>
+  <line x1="60.0" y1="258.0" x2="560.0" y2="258.0" stroke="#8a8a8a" stroke-width="1.0" stroke-dasharray="4,4"/>
+  <text x="70.0" y="282.0" fill="#8a8a8a" font-size="12.5">SUCC = \n.\f.\x. f (n f x)   -- run n, then apply f once more</text>
+</svg>
