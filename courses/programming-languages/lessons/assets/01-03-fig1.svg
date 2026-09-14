@@ -1,0 +1,27 @@
+<svg viewBox="0 0 640 250" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="40.0" y="24.0" fill="#8a8a8a" font-style="italic">Maximal munch on a+++b: longest match at each position, no backtracking</text>
+  <text x="90.0" y="92.0" fill="#8a8a8a" font-size="22" text-anchor="middle">a</text>
+  <text x="150.0" y="92.0" fill="#8a8a8a" font-size="22" text-anchor="middle">+</text>
+  <text x="195.0" y="92.0" fill="#8a8a8a" font-size="22" text-anchor="middle">+</text>
+  <text x="240.0" y="92.0" fill="#8a8a8a" font-size="22" text-anchor="middle">+</text>
+  <text x="295.0" y="92.0" fill="#8a8a8a" font-size="22" text-anchor="middle">b</text>
+  <line x1="70.0" y1="108.0" x2="330.0" y2="108.0" stroke="#8a8a8a" stroke-width="1.0"/>
+  <line x1="72.0" y1="135.0" x2="108.0" y2="135.0" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="72.0" y1="130.0" x2="72.0" y2="140.0" stroke="#4a90d9" stroke-width="2.0"/>
+  <line x1="108.0" y1="130.0" x2="108.0" y2="140.0" stroke="#4a90d9" stroke-width="2.0"/>
+  <text x="90.0" y="155.0" fill="#4a90d9" font-size="12" text-anchor="middle">ID a</text>
+  <line x1="128.0" y1="135.0" x2="218.0" y2="135.0" stroke="#e0645c" stroke-width="2.5"/>
+  <line x1="128.0" y1="130.0" x2="128.0" y2="140.0" stroke="#e0645c" stroke-width="2.0"/>
+  <line x1="218.0" y1="130.0" x2="218.0" y2="140.0" stroke="#e0645c" stroke-width="2.0"/>
+  <text x="173.0" y="155.0" fill="#e0645c" font-size="12" text-anchor="middle">INC ++</text>
+  <line x1="222.0" y1="135.0" x2="262.0" y2="135.0" stroke="#e0645c" stroke-width="2.5"/>
+  <line x1="222.0" y1="130.0" x2="222.0" y2="140.0" stroke="#e0645c" stroke-width="2.0"/>
+  <line x1="262.0" y1="130.0" x2="262.0" y2="140.0" stroke="#e0645c" stroke-width="2.0"/>
+  <text x="242.0" y="155.0" fill="#e0645c" font-size="12" text-anchor="middle">PLUS +</text>
+  <line x1="275.0" y1="135.0" x2="315.0" y2="135.0" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="275.0" y1="130.0" x2="275.0" y2="140.0" stroke="#4a90d9" stroke-width="2.0"/>
+  <line x1="315.0" y1="130.0" x2="315.0" y2="140.0" stroke="#4a90d9" stroke-width="2.0"/>
+  <text x="295.0" y="155.0" fill="#4a90d9" font-size="12" text-anchor="middle">ID b</text>
+  <text x="70.0" y="195.0" fill="#8a8a8a" font-size="12">At position 1 the scanner sees &quot;+++&quot;. The longest legal token is &quot;++&quot;,</text>
+  <text x="70.0" y="214.0" fill="#8a8a8a" font-size="12">so it commits — and &quot;a + (++b)&quot; becomes unreachable.</text>
+</svg>

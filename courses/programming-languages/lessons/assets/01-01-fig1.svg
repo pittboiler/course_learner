@@ -1,0 +1,28 @@
+<svg viewBox="0 0 620 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="40.0" y="24.0" fill="#8a8a8a" font-style="italic">Two independent axes, routinely confused</text>
+  <rect x="120.0" y="60.0" width="450.0" height="240.0" fill="none" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="345.0" y1="60.0" x2="345.0" y2="300.0" stroke="#8a8a8a" stroke-width="1.0" stroke-dasharray="4,4"/>
+  <line x1="120.0" y1="180.0" x2="570.0" y2="180.0" stroke="#8a8a8a" stroke-width="1.0" stroke-dasharray="4,4"/>
+  <text x="345.0" y="326.0" fill="#8a8a8a" font-size="12" text-anchor="middle">checked when?  →  later</text>
+  <text x="110.0" y="180.0" fill="#8a8a8a" font-size="12" text-anchor="end">how</text>
+  <text x="110.0" y="195.0" fill="#8a8a8a" font-size="12" text-anchor="end">strictly?</text>
+  <text x="128.0" y="52.0" fill="#8a8a8a" font-size="12">static</text>
+  <text x="562.0" y="52.0" fill="#8a8a8a" font-size="12" text-anchor="end">dynamic</text>
+  <text x="110.0" y="80.0" fill="#8a8a8a" font-size="12" text-anchor="end">strong</text>
+  <text x="110.0" y="292.0" fill="#8a8a8a" font-size="12" text-anchor="end">weak</text>
+  <circle cx="232.5" cy="120.0" r="4" fill="#4a90d9"/>
+  <text x="241.5" y="124.0" fill="#4a90d9" font-size="12">Haskell</text>
+  <circle cx="232.5" cy="160.8" r="4" fill="#4a90d9"/>
+  <text x="241.5" y="164.8" fill="#4a90d9" font-size="12">Rust</text>
+  <circle cx="232.5" cy="201.6" r="4" fill="#4a90d9"/>
+  <text x="241.5" y="205.6" fill="#4a90d9" font-size="12">Java</text>
+  <circle cx="457.5" cy="120.0" r="4" fill="#e0645c"/>
+  <text x="466.5" y="124.0" fill="#e0645c" font-size="12">Python</text>
+  <circle cx="457.5" cy="160.8" r="4" fill="#e0645c"/>
+  <text x="466.5" y="164.8" fill="#e0645c" font-size="12">Ruby</text>
+  <circle cx="232.5" cy="264.0" r="4" fill="#8a8a8a"/>
+  <text x="241.5" y="268.0" fill="#8a8a8a" font-size="12">C</text>
+  <circle cx="457.5" cy="264.0" r="4" fill="#8a8a8a"/>
+  <text x="466.5" y="268.0" fill="#8a8a8a" font-size="12">JavaScript</text>
+  <text x="130.0" y="270.0" fill="#8a8a8a" font-size="11" font-style="italic">implicit coercions</text>
+</svg>

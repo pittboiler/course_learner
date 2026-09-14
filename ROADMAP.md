@@ -246,7 +246,7 @@ New field (Phase 7 in [EXPANSION.md](EXPANSION.md)).
 | `computer-networks` | Networking | 1 | programming-foundations | The TCP/IP stack, routing, reliable transport, congestion control, and security basics. |
 | `databases` | Database Systems | 1 | programming-foundations | The relational model, SQL, normalization, indexing, transactions, and query processing. |
 | `computational-complexity` | Complexity Theory | 2 | theory-of-computation | Hierarchy theorems, Cook-Levin and NP-completeness, space and the polynomial hierarchy, counting, randomness and interaction, circuits, approximation barriers, and fine-grained lower bounds. |
-| `programming-languages` | Programming Languages & Compilers | 2 | theory-of-computation, algorithms | Lexing & parsing, type systems, semantics, the lambda calculus, and code generation. |
+| `programming-languages` | Programming Languages & Compilers | 2 | theory-of-computation, algorithms | Lexing & parsing, semantics, the lambda calculus, type systems and inference, language design choices, runtime, and compilation. |
 | `cryptography` | Cryptography | 2 | number-theory, algorithms | One-way functions, symmetric & public-key crypto (AES/RSA/ECC), hashing, protocols, and zero-knowledge. |
 | `distributed-systems` | Distributed Systems | 2 | operating-systems, computer-networks | Time & consistency, replication, consensus (Paxos/Raft), the CAP theorem, and fault tolerance. |
 | `machine-learning` | Machine Learning | 2 | linalg, prob-stat, convex-optimization | Regression, SVMs, trees, clustering, and model selection — the applied companion to statistical-learning. |

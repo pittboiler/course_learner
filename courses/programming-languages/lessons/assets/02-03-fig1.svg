@@ -1,0 +1,26 @@
+<svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="40.0" y="24.0" fill="#8a8a8a" font-style="italic">Each iteration defines the loop on one more input</text>
+  <line x1="70.0" y1="75.0" x2="130.0" y2="75.0" stroke="#4a90d9" stroke-width="6.0"/>
+  <text x="70.0" y="102.0" fill="#4a90d9" font-size="12.5">F^0(_|_)</text>
+  <text x="250.0" y="82.0" fill="#8a8a8a" font-size="12">defined when  nowhere</text>
+  <text x="430.0" y="82.0" fill="#8a8a8a" font-size="11.5">undefined everywhere</text>
+  <line x1="70.0" y1="119.0" x2="144.0" y2="119.0" stroke="#4a90d9" stroke-width="6.0"/>
+  <text x="70.0" y="146.0" fill="#4a90d9" font-size="12.5">F^1(_|_)</text>
+  <text x="250.0" y="126.0" fill="#8a8a8a" font-size="12">defined when  r &lt; y</text>
+  <text x="430.0" y="126.0" fill="#8a8a8a" font-size="11.5">loop runs 0 times</text>
+  <line x1="70.0" y1="163.0" x2="158.0" y2="163.0" stroke="#4a90d9" stroke-width="6.0"/>
+  <text x="70.0" y="190.0" fill="#4a90d9" font-size="12.5">F^2(_|_)</text>
+  <text x="250.0" y="170.0" fill="#8a8a8a" font-size="12">defined when  r &lt; 2y</text>
+  <text x="430.0" y="170.0" fill="#8a8a8a" font-size="11.5">loop runs at most once</text>
+  <line x1="70.0" y1="207.0" x2="172.0" y2="207.0" stroke="#4a90d9" stroke-width="6.0"/>
+  <text x="70.0" y="234.0" fill="#4a90d9" font-size="12.5">F^3(_|_)</text>
+  <text x="250.0" y="214.0" fill="#8a8a8a" font-size="12">defined when  r &lt; 3y</text>
+  <text x="430.0" y="214.0" fill="#8a8a8a" font-size="11.5">loop runs at most twice</text>
+  <line x1="70.0" y1="251.0" x2="186.0" y2="251.0" stroke="#8a8a8a" stroke-width="6.0"/>
+  <text x="70.0" y="278.0" fill="#8a8a8a" font-size="12.5">...</text>
+  <line x1="70.0" y1="295.0" x2="200.0" y2="295.0" stroke="#e0645c" stroke-width="6.0"/>
+  <text x="70.0" y="322.0" fill="#e0645c" font-size="12.5">lfp F</text>
+  <text x="250.0" y="302.0" fill="#8a8a8a" font-size="12">defined when  all r &gt;= 0</text>
+  <text x="430.0" y="302.0" fill="#8a8a8a" font-size="11.5">the loop semantics</text>
+  <text x="70.0" y="326.0" fill="#8a8a8a" font-size="11.5" font-style="italic">Each bar is a partial function; each extends the one above it.</text>
+</svg>

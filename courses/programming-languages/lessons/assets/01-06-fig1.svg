@@ -1,0 +1,23 @@
+<svg viewBox="0 0 640 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="40.0" y="24.0" fill="#8a8a8a" font-style="italic">Resolving x: innermost scope wins</text>
+  <rect x="200.0" y="210.0" width="250.0" height="58.0" fill="none" stroke="#8a8a8a" stroke-width="1.4" rx="4"/>
+  <text x="190.0" y="226.0" fill="#4a90d9" font-size="12" text-anchor="end">global</text>
+  <text x="212.0" y="226.0" fill="#8a8a8a" font-size="12">x : int</text>
+  <text x="212.0" y="244.0" fill="#8a8a8a" font-size="12">f : int -&gt; int</text>
+  <rect x="200.0" y="158.0" width="250.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="1.4" rx="4"/>
+  <text x="190.0" y="174.0" fill="#4a90d9" font-size="12" text-anchor="end">f&#x27;s body</text>
+  <text x="212.0" y="174.0" fill="#8a8a8a" font-size="12">y : int</text>
+  <rect x="200.0" y="88.0" width="250.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="1.4" rx="4"/>
+  <text x="190.0" y="104.0" fill="#4a90d9" font-size="12" text-anchor="end">inner block</text>
+  <text x="212.0" y="104.0" fill="#8a8a8a" font-size="12">x : string</text>
+  <text x="470.0" y="105.0" fill="#e0645c" font-size="11.5">lookup &quot;x&quot; starts here</text>
+  <line x1="468.0" y1="112.0" x2="456.0" y2="118.0" stroke="#e0645c" stroke-width="1.4"/>
+  <polygon points="456.0,118.0 468.1,117.6 463.6,108.6" fill="#e0645c"/>
+  <line x1="462.0" y1="128.0" x2="462.0" y2="150.0" stroke="#e0645c" stroke-width="1.4"/>
+  <polygon points="462.0,150.0 467.0,139.0 457.0,139.0" fill="#e0645c"/>
+  <text x="470.0" y="145.0" fill="#e0645c" font-size="11.5">found: string</text>
+  <text x="470.0" y="258.0" fill="#8a8a8a" font-size="11.5">the int binding is shadowed,</text>
+  <text x="470.0" y="274.0" fill="#8a8a8a" font-size="11.5">not replaced</text>
+  <text x="60.0" y="308.0" fill="#8a8a8a" font-size="11" font-style="italic">Push a frame on entering a scope, pop on leaving.</text>
+  <text x="60.0" y="323.0" fill="#8a8a8a" font-size="11" font-style="italic">Lookup walks outward and stops at the first hit.</text>
+</svg>
