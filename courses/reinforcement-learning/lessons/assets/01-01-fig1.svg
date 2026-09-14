@@ -1,0 +1,60 @@
+<svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Left: the loop that defines the problem. Right: the reward arrives long after the action that earned it.</text>
+  <rect x="60" y="70" width="150" height="52" rx="6" fill="#4a90d9" stroke="#4a90d9" stroke-width="2" opacity="0.14"/>
+  <rect x="60" y="70" width="150" height="52" rx="6" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="135" y="101" text-anchor="middle" font-size="15" fill="#4a90d9">agent</text>
+  <rect x="60" y="208" width="150" height="52" rx="6" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="135" y="239" text-anchor="middle" font-size="15" fill="#8a8a8a">environment</text>
+  <line x1="214" y1="96" x2="249.5" y2="96" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="258,96 248,91 248,101" fill="#e0645c" stroke="none" stroke-width="1"/>
+  <line x1="258" y1="96" x2="258" y2="234" stroke="#e0645c" stroke-width="2"/>
+  <line x1="258" y1="234" x2="222.5" y2="234" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="214,234 224,239 224,229" fill="#e0645c" stroke="none" stroke-width="1"/>
+  <text x="266" y="160" fill="#e0645c">action</text>
+  <text x="266" y="176" fill="#e0645c">a</text>
+  <text x="273.228" y="180" font-size="9.1" fill="#e0645c">t</text>
+  <line x1="56" y1="234" x2="26.5" y2="234" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="18,234 28,239 28,229" fill="#4a90d9" stroke="none" stroke-width="1"/>
+  <line x1="18" y1="234" x2="18" y2="96" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="18" y1="96" x2="47.5" y2="96" stroke="#4a90d9" stroke-width="2"/>
+  <polygon points="56,96 46,91 46,101" fill="#4a90d9" stroke="none" stroke-width="1"/>
+  <text x="22" y="62" fill="#4a90d9">reward r</text>
+  <text x="69.671" y="66" font-size="9.1" fill="#4a90d9">t+1</text>
+  <text x="22" y="44" fill="#4a90d9">state s</text>
+  <text x="60.298" y="48" font-size="9.1" fill="#4a90d9">t+1</text>
+  <text x="135" y="286" text-anchor="middle" font-size="12" fill="#8a8a8a">one scalar of feedback per step</text>
+  <circle cx="360" cy="180" r="15" fill="#4a90d9" stroke="#4a90d9" stroke-width="2" opacity="0.14"/>
+  <circle cx="360" cy="180" r="15" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="353" y="185" fill="#4a90d9">a</text>
+  <text x="360.228" y="189" font-size="9.1" fill="#4a90d9">0</text>
+  <line x1="376" y1="180" x2="397.5" y2="180" stroke="#8a8a8a" stroke-width="1.4"/>
+  <polygon points="406,180 396,175 396,185" fill="#8a8a8a" stroke="none" stroke-width="1"/>
+  <circle cx="422" cy="180" r="15" fill="#4a90d9" stroke="#4a90d9" stroke-width="2" opacity="0.14"/>
+  <circle cx="422" cy="180" r="15" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="415" y="185" fill="#4a90d9">a</text>
+  <text x="422.228" y="189" font-size="9.1" fill="#4a90d9">1</text>
+  <line x1="438" y1="180" x2="459.5" y2="180" stroke="#8a8a8a" stroke-width="1.4"/>
+  <polygon points="468,180 458,175 458,185" fill="#8a8a8a" stroke="none" stroke-width="1"/>
+  <circle cx="484" cy="180" r="15" fill="#4a90d9" stroke="#4a90d9" stroke-width="2" opacity="0.14"/>
+  <circle cx="484" cy="180" r="15" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="477" y="185" fill="#4a90d9">a</text>
+  <text x="484.228" y="189" font-size="9.1" fill="#4a90d9">2</text>
+  <line x1="500" y1="180" x2="521.5" y2="180" stroke="#8a8a8a" stroke-width="1.4"/>
+  <polygon points="530,180 520,175 520,185" fill="#8a8a8a" stroke="none" stroke-width="1"/>
+  <circle cx="546" cy="180" r="15" fill="#4a90d9" stroke="#4a90d9" stroke-width="2" opacity="0.14"/>
+  <circle cx="546" cy="180" r="15" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="539" y="185" fill="#4a90d9">a</text>
+  <text x="546.228" y="189" font-size="9.1" fill="#4a90d9">3</text>
+  <line x1="562" y1="180" x2="569.5" y2="180" stroke="#8a8a8a" stroke-width="1.4"/>
+  <polygon points="578,180 568,175 568,185" fill="#8a8a8a" stroke="none" stroke-width="1"/>
+  <rect x="578" y="161" width="80" height="38" rx="5" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <text x="618" y="185" text-anchor="middle" font-size="14" fill="#e0645c">r = +10</text>
+  <path d="M 360 163 Q 489.0 88 612 159" fill="none" stroke="#e0645c" stroke-width="1.2" stroke-dasharray="4 4"/>
+  <path d="M 422 163 Q 520.0 88 612 159" fill="none" stroke="#e0645c" stroke-width="1.2" stroke-dasharray="4 4"/>
+  <path d="M 484 163 Q 551.0 88 612 159" fill="none" stroke="#e0645c" stroke-width="1.2" stroke-dasharray="4 4"/>
+  <path d="M 546 163 Q 582.0 88 612 159" fill="none" stroke="#e0645c" stroke-width="1.2" stroke-dasharray="4 4"/>
+  <text x="489" y="80" text-anchor="middle" fill="#e0645c">which action earned it?</text>
+  <text x="354" y="232" font-size="12" fill="#8a8a8a">reward on every earlier step: 0</text>
+  <text x="354" y="252" font-size="12" fill="#8a8a8a">the signal is real but it is late, and it is a</text>
+  <text x="354" y="268" font-size="12" fill="#8a8a8a">single number for the whole sequence</text>
+</svg>

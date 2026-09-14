@@ -1,0 +1,59 @@
+<svg viewBox="0 0 790 352" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">The critic does not just centre the return - it replaces everything downstream with an estimate of its mean.</text>
+  <rect x="48" y="76" width="128" height="50" rx="6" fill="#4a90d9" stroke="#4a90d9" stroke-width="2" opacity="0.14"/>
+  <rect x="48" y="76" width="128" height="50" rx="6" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="112" y="99" text-anchor="middle" font-size="14" fill="#4a90d9">actor</text>
+  <text x="112" y="117" text-anchor="middle" font-size="11" fill="#4a90d9">π(a|s ; θ)</text>
+  <rect x="48" y="166" width="128" height="50" rx="6" fill="#e0645c" stroke="#e0645c" stroke-width="2" opacity="0.14"/>
+  <rect x="48" y="166" width="128" height="50" rx="6" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <text x="112" y="189" text-anchor="middle" font-size="14" fill="#e0645c">critic</text>
+  <text x="112" y="207" text-anchor="middle" font-size="11" fill="#e0645c">V(s ; w)</text>
+  <rect x="48" y="268" width="128" height="46" rx="6" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="2" opacity="0.14"/>
+  <rect x="48" y="268" width="128" height="46" rx="6" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="112" y="296" text-anchor="middle" font-size="14" fill="#8a8a8a">environment</text>
+  <line x1="180" y1="100" x2="227.5" y2="100" stroke="#4a90d9" stroke-width="1.8"/>
+  <polygon points="236,100 226,95 226,105" fill="#4a90d9" stroke="none" stroke-width="1"/>
+  <line x1="236" y1="100" x2="236" y2="291" stroke="#4a90d9" stroke-width="1.8"/>
+  <line x1="236" y1="291" x2="188.5" y2="291" stroke="#4a90d9" stroke-width="1.8"/>
+  <polygon points="180,291 190,296 190,286" fill="#4a90d9" stroke="none" stroke-width="1"/>
+  <text x="244" y="196" font-size="11.5" fill="#4a90d9">action</text>
+  <line x1="44" y1="291" x2="24.5" y2="291" stroke="#8a8a8a" stroke-width="1.8"/>
+  <polygon points="16,291 26,296 26,286" fill="#8a8a8a" stroke="none" stroke-width="1"/>
+  <line x1="16" y1="291" x2="16" y2="101" stroke="#8a8a8a" stroke-width="1.8"/>
+  <line x1="16" y1="101" x2="35.5" y2="101" stroke="#8a8a8a" stroke-width="1.8"/>
+  <polygon points="44,101 34,96 34,106" fill="#8a8a8a" stroke="none" stroke-width="1"/>
+  <line x1="16" y1="191" x2="44" y2="191" stroke="#8a8a8a" stroke-width="1.8"/>
+  <polygon points="44,191 35,187 35,195" fill="#8a8a8a" stroke="none" stroke-width="1"/>
+  <text x="6" y="66" font-size="11.5" fill="#8a8a8a">reward, next state</text>
+  <line x1="112" y1="162" x2="112" y2="141.35" stroke="#e0645c" stroke-width="2.4"/>
+  <polygon points="112,132 106.5,143 117.5,143" fill="#e0645c" stroke="none" stroke-width="1"/>
+  <text x="122" y="150" font-size="15" fill="#e0645c">δ</text>
+  <text x="136" y="150" font-size="11" fill="#e0645c">- the TD error, used twice</text>
+  <text x="20" y="336" font-size="11.5" fill="#8a8a8a" font-style="italic">the critic trains itself on δ and hands the same δ to the actor</text>
+  <line x1="452" y1="270" x2="754" y2="270" stroke="#8a8a8a" stroke-width="1.3"/>
+  <line x1="452" y1="270" x2="452" y2="96" stroke="#8a8a8a" stroke-width="1.3"/>
+  <line x1="447" y1="270" x2="452" y2="270" stroke="#8a8a8a" stroke-width="1.1"/>
+  <text x="443" y="274" text-anchor="end" font-size="10.5" fill="#8a8a8a">0</text>
+  <line x1="447" y1="232.174" x2="452" y2="232.174" stroke="#8a8a8a" stroke-width="1.1"/>
+  <text x="443" y="236.174" text-anchor="end" font-size="10.5" fill="#8a8a8a">25</text>
+  <line x1="447" y1="194.348" x2="452" y2="194.348" stroke="#8a8a8a" stroke-width="1.1"/>
+  <text x="443" y="198.348" text-anchor="end" font-size="10.5" fill="#8a8a8a">50</text>
+  <line x1="447" y1="156.522" x2="452" y2="156.522" stroke="#8a8a8a" stroke-width="1.1"/>
+  <text x="443" y="160.522" text-anchor="end" font-size="10.5" fill="#8a8a8a">75</text>
+  <line x1="447" y1="118.696" x2="452" y2="118.696" stroke="#8a8a8a" stroke-width="1.1"/>
+  <text x="443" y="122.696" text-anchor="end" font-size="10.5" fill="#8a8a8a">100</text>
+  <text x="422" y="66" font-size="11.5" fill="#8a8a8a">variance of the gradient estimate</text>
+  <text x="422" y="82" font-size="11.5" fill="#8a8a8a">(all three have the same mean, -0.5)</text>
+  <rect x="476.16" y="118.317" width="52.3467" height="151.683" fill="#e0645c" stroke="#e0645c" stroke-width="1.8" opacity="0.3"/>
+  <rect x="476.16" y="118.317" width="52.3467" height="151.683" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+  <text x="502.333" y="110.317" text-anchor="middle" font-size="11.5" fill="#e0645c">100.25</text>
+  <text x="502.333" y="290" text-anchor="middle" font-size="11" fill="#8a8a8a">REINFORCE</text>
+  <rect x="576.827" y="118.696" width="52.3467" height="151.304" fill="#e0645c" stroke="#e0645c" stroke-width="1.8" opacity="0.3"/>
+  <rect x="576.827" y="118.696" width="52.3467" height="151.304" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+  <text x="603" y="110.696" text-anchor="middle" font-size="11.5" fill="#e0645c">100</text>
+  <text x="603" y="290" text-anchor="middle" font-size="11" fill="#8a8a8a">+ baseline</text>
+  <line x1="677.493" y1="270" x2="729.84" y2="270" stroke="#4a90d9" stroke-width="4"/>
+  <text x="703.667" y="260" text-anchor="middle" font-size="12" fill="#4a90d9" font-weight="bold">0</text>
+  <text x="703.667" y="290" text-anchor="middle" font-size="11" fill="#8a8a8a">actor-critic</text>
+  <text x="603" y="312" text-anchor="middle" font-size="11" fill="#8a8a8a" font-style="italic">a constant baseline cannot touch the noise that arrives later</text>
+</svg>

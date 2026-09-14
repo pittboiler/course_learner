@@ -1,0 +1,71 @@
+<svg viewBox="0 0 790 344" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">TD replaces the rest of the episode with its own current estimate - and, on this task, wins outright.</text>
+  <circle cx="150" cy="84" r="10" fill="#4a90d9" stroke="#4a90d9" stroke-width="2" opacity="0.3"/>
+  <circle cx="150" cy="84" r="10" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="126" y="89" fill="#4a90d9">s</text>
+  <circle cx="150" cy="106" r="5" fill="#e0645c" stroke="#e0645c" stroke-width="1.5"/>
+  <line x1="150" y1="94" x2="150" y2="101" stroke="#8a8a8a" stroke-width="1.3"/>
+  <line x1="150" y1="111" x2="150" y2="120" stroke="#8a8a8a" stroke-width="1.3"/>
+  <circle cx="150" cy="128" r="8" fill="none" stroke="#4a90d9" stroke-width="1.8"/>
+  <text x="168" y="133" font-size="12" fill="#e0645c">V(s')  - a guess</text>
+  <text x="150" y="66" text-anchor="middle" font-size="12.5" fill="#8a8a8a">TD(0)</text>
+  <text x="150" y="166" text-anchor="middle" font-size="11.5" fill="#8a8a8a">stop here and</text>
+  <text x="150" y="183" text-anchor="middle" font-size="11.5" fill="#8a8a8a">reuse the estimate</text>
+  <text x="300" y="66" text-anchor="middle" font-size="12.5" fill="#8a8a8a">Monte Carlo</text>
+  <circle cx="300" cy="84" r="10" fill="#4a90d9" stroke="#4a90d9" stroke-width="2" opacity="0.3"/>
+  <circle cx="300" cy="84" r="10" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="276" y="89" fill="#4a90d9">s</text>
+  <circle cx="300" cy="106" r="5" fill="#e0645c" stroke="#e0645c" stroke-width="1.5"/>
+  <line x1="300" y1="94" x2="300" y2="101" stroke="#8a8a8a" stroke-width="1.3"/>
+  <line x1="300" y1="111" x2="300" y2="120" stroke="#8a8a8a" stroke-width="1.3"/>
+  <circle cx="300" cy="128" r="8" fill="none" stroke="#4a90d9" stroke-width="1.8"/>
+  <circle cx="300" cy="150" r="5" fill="#e0645c" stroke="#e0645c" stroke-width="1.5"/>
+  <line x1="300" y1="138" x2="300" y2="145" stroke="#8a8a8a" stroke-width="1.3"/>
+  <line x1="300" y1="155" x2="300" y2="164" stroke="#8a8a8a" stroke-width="1.3"/>
+  <circle cx="300" cy="172" r="8" fill="none" stroke="#4a90d9" stroke-width="1.8"/>
+  <circle cx="300" cy="194" r="5" fill="#e0645c" stroke="#e0645c" stroke-width="1.5"/>
+  <line x1="300" y1="182" x2="300" y2="189" stroke="#8a8a8a" stroke-width="1.3"/>
+  <line x1="300" y1="199" x2="300" y2="208" stroke="#8a8a8a" stroke-width="1.3"/>
+  <circle cx="300" cy="216" r="8" fill="none" stroke="#4a90d9" stroke-width="1.8"/>
+  <circle cx="300" cy="238" r="5" fill="#e0645c" stroke="#e0645c" stroke-width="1.5"/>
+  <line x1="300" y1="226" x2="300" y2="233" stroke="#8a8a8a" stroke-width="1.3"/>
+  <line x1="300" y1="243" x2="300" y2="252" stroke="#8a8a8a" stroke-width="1.3"/>
+  <rect x="287" y="247" width="26" height="26" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="300" y="265" text-anchor="middle" fill="#8a8a8a">T</text>
+  <text x="300" y="294" text-anchor="middle" font-size="11.5" fill="#8a8a8a">wait for the end</text>
+  <line x1="440" y1="262" x2="756" y2="262" stroke="#8a8a8a" stroke-width="1.3"/>
+  <line x1="440" y1="262" x2="440" y2="78" stroke="#8a8a8a" stroke-width="1.3"/>
+  <line x1="435" y1="262" x2="440" y2="262" stroke="#8a8a8a" stroke-width="1.1"/>
+  <text x="431" y="266" text-anchor="end" font-size="10" fill="#8a8a8a">0.00</text>
+  <line x1="435" y1="226.615" x2="440" y2="226.615" stroke="#8a8a8a" stroke-width="1.1"/>
+  <text x="431" y="230.615" text-anchor="end" font-size="10" fill="#8a8a8a">0.05</text>
+  <line x1="435" y1="191.231" x2="440" y2="191.231" stroke="#8a8a8a" stroke-width="1.1"/>
+  <text x="431" y="195.231" text-anchor="end" font-size="10" fill="#8a8a8a">0.10</text>
+  <line x1="435" y1="155.846" x2="440" y2="155.846" stroke="#8a8a8a" stroke-width="1.1"/>
+  <text x="431" y="159.846" text-anchor="end" font-size="10" fill="#8a8a8a">0.15</text>
+  <line x1="435" y1="120.462" x2="440" y2="120.462" stroke="#8a8a8a" stroke-width="1.1"/>
+  <text x="431" y="124.462" text-anchor="end" font-size="10" fill="#8a8a8a">0.20</text>
+  <line x1="435" y1="85.0769" x2="440" y2="85.0769" stroke="#8a8a8a" stroke-width="1.1"/>
+  <text x="431" y="89.0769" text-anchor="end" font-size="10" fill="#8a8a8a">0.25</text>
+  <line x1="440" y1="262" x2="440" y2="267" stroke="#8a8a8a" stroke-width="1.1"/>
+  <text x="440" y="281" text-anchor="middle" font-size="10.5" fill="#8a8a8a">0</text>
+  <line x1="519" y1="262" x2="519" y2="267" stroke="#8a8a8a" stroke-width="1.1"/>
+  <text x="519" y="281" text-anchor="middle" font-size="10.5" fill="#8a8a8a">25</text>
+  <line x1="598" y1="262" x2="598" y2="267" stroke="#8a8a8a" stroke-width="1.1"/>
+  <text x="598" y="281" text-anchor="middle" font-size="10.5" fill="#8a8a8a">50</text>
+  <line x1="677" y1="262" x2="677" y2="267" stroke="#8a8a8a" stroke-width="1.1"/>
+  <text x="677" y="281" text-anchor="middle" font-size="10.5" fill="#8a8a8a">75</text>
+  <line x1="756" y1="262" x2="756" y2="267" stroke="#8a8a8a" stroke-width="1.1"/>
+  <text x="756" y="281" text-anchor="middle" font-size="10.5" fill="#8a8a8a">100</text>
+  <text x="598" y="300" text-anchor="middle" font-size="11.5" fill="#8a8a8a">episodes</text>
+  <text x="412" y="64" font-size="11.5" fill="#8a8a8a">RMS error over the five states</text>
+  <path d="M 443.2 97.6 L 446.3 100.5 L 449.5 103.7 L 452.6 106.9 L 455.8 109.3 L 459.0 112.4 L 462.1 114.7 L 465.3 117.8 L 468.4 119.8 L 471.6 121.8 L 474.8 124.3 L 477.9 126.2 L 481.1 129.0 L 484.2 131.5 L 487.4 133.7 L 490.6 135.5 L 493.7 137.1 L 496.9 139.5 L 500.0 141.3 L 503.2 142.9 L 506.4 144.6 L 509.5 146.3 L 512.7 148.2 L 515.8 149.9 L 519.0 150.8 L 522.2 152.6 L 525.3 154.0 L 528.5 155.6 L 531.6 158.1 L 534.8 160.2 L 538.0 161.1 L 541.1 162.7 L 544.3 163.5 L 547.4 165.2 L 550.6 166.4 L 553.8 167.1 L 556.9 169.2 L 560.1 170.5 L 563.2 170.8 L 566.4 171.8 L 569.6 173.4 L 572.7 173.4 L 575.9 174.6 L 579.0 176.3 L 582.2 177.3 L 585.4 178.7 L 588.5 179.5 L 591.7 180.5 L 594.8 181.0 L 598.0 182.6 L 601.2 183.7 L 604.3 184.3 L 607.5 185.6 L 610.6 186.2 L 613.8 186.9 L 617.0 187.3 L 620.1 187.4 L 623.3 187.8 L 626.4 188.6 L 629.6 189.4 L 632.8 190.2 L 635.9 191.4 L 639.1 192.9 L 642.2 193.3 L 645.4 193.2 L 648.6 194.6 L 651.7 192.4 L 654.9 193.0 L 658.0 193.3 L 661.2 193.1 L 664.4 194.0 L 667.5 194.1 L 670.7 195.1 L 673.8 195.4 L 677.0 194.7 L 680.2 194.3 L 683.3 194.7 L 686.5 195.5 L 689.6 195.4 L 692.8 196.3 L 696.0 196.9 L 699.1 197.2 L 702.3 197.9 L 705.4 198.4 L 708.6 198.4 L 711.8 199.5 L 714.9 199.7 L 718.1 199.7 L 721.2 200.1 L 724.4 199.7 L 727.6 199.7 L 730.7 199.0 L 733.9 198.9 L 737.0 198.9 L 740.2 197.8 L 743.4 199.0 L 746.5 199.3 L 749.7 199.6 L 752.8 199.9 L 756.0 200.0" fill="none" stroke="#e0645c" stroke-width="2.4"/>
+  <path d="M 443.2 98.4 L 446.3 102.6 L 449.5 107.9 L 452.6 113.1 L 455.8 115.9 L 459.0 120.9 L 462.1 123.6 L 465.3 128.4 L 468.4 131.1 L 471.6 133.6 L 474.8 137.1 L 477.9 139.0 L 481.1 143.0 L 484.2 146.8 L 487.4 149.1 L 490.6 150.9 L 493.7 151.5 L 496.9 154.5 L 500.0 156.5 L 503.2 157.3 L 506.4 158.9 L 509.5 161.4 L 512.7 163.7 L 515.8 165.3 L 519.0 165.0 L 522.2 167.2 L 525.3 167.1 L 528.5 168.0 L 531.6 171.2 L 534.8 173.8 L 538.0 172.6 L 541.1 175.8 L 544.3 174.3 L 547.4 175.5 L 550.6 176.2 L 553.8 174.8 L 556.9 177.2 L 560.1 178.9 L 563.2 176.6 L 566.4 176.8 L 569.6 178.9 L 572.7 177.9 L 575.9 179.5 L 579.0 180.8 L 582.2 180.8 L 585.4 182.5 L 588.5 182.4 L 591.7 182.8 L 594.8 182.5 L 598.0 184.1 L 601.2 185.6 L 604.3 184.8 L 607.5 186.9 L 610.6 185.1 L 613.8 184.8 L 617.0 184.4 L 620.1 184.3 L 623.3 184.6 L 626.4 185.1 L 629.6 186.1 L 632.8 186.8 L 635.9 188.5 L 639.1 189.9 L 642.2 188.3 L 645.4 187.2 L 648.6 189.2 L 651.7 184.1 L 654.9 183.6 L 658.0 183.3 L 661.2 183.3 L 664.4 184.4 L 667.5 183.7 L 670.7 185.0 L 673.8 185.6 L 677.0 183.5 L 680.2 182.6 L 683.3 182.5 L 686.5 182.6 L 689.6 181.0 L 692.8 182.5 L 696.0 183.5 L 699.1 183.9 L 702.3 183.7 L 705.4 184.5 L 708.6 183.1 L 711.8 184.4 L 714.9 183.7 L 718.1 184.1 L 721.2 183.4 L 724.4 183.6 L 727.6 183.6 L 730.7 182.8 L 733.9 182.5 L 737.0 181.9 L 740.2 179.6 L 743.4 182.1 L 746.5 183.5 L 749.7 183.7 L 752.8 183.4 L 756.0 184.4" fill="none" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <path d="M 443.2 100.1 L 446.3 104.8 L 449.5 109.4 L 452.6 114.0 L 455.8 118.3 L 459.0 122.6 L 462.1 126.7 L 465.3 130.8 L 468.4 134.6 L 471.6 138.5 L 474.8 142.3 L 477.9 145.8 L 481.1 149.4 L 484.2 152.7 L 487.4 156.0 L 490.6 159.2 L 493.7 162.2 L 496.9 165.3 L 500.0 168.2 L 503.2 171.2 L 506.4 173.8 L 509.5 176.6 L 512.7 179.4 L 515.8 181.9 L 519.0 184.2 L 522.2 186.7 L 525.3 189.0 L 528.5 191.0 L 531.6 193.1 L 534.8 195.2 L 538.0 197.1 L 541.1 199.3 L 544.3 201.2 L 547.4 203.1 L 550.6 204.9 L 553.8 206.5 L 556.9 208.2 L 560.1 209.9 L 563.2 211.2 L 566.4 212.7 L 569.6 213.8 L 572.7 214.9 L 575.9 216.4 L 579.0 217.7 L 582.2 218.9 L 585.4 220.1 L 588.5 221.3 L 591.7 222.3 L 594.8 223.1 L 598.0 224.1 L 601.2 225.1 L 604.3 225.8 L 607.5 226.5 L 610.6 227.1 L 613.8 227.8 L 617.0 228.4 L 620.1 228.9 L 623.3 229.6 L 626.4 229.7 L 629.6 230.3 L 632.8 230.7 L 635.9 231.3 L 639.1 232.0 L 642.2 232.6 L 645.4 232.6 L 648.6 233.2 L 651.7 233.2 L 654.9 233.3 L 658.0 233.5 L 661.2 233.9 L 664.4 234.0 L 667.5 234.3 L 670.7 234.7 L 673.8 235.1 L 677.0 235.2 L 680.2 235.3 L 683.3 235.5 L 686.5 235.5 L 689.6 235.5 L 692.8 235.7 L 696.0 235.8 L 699.1 236.0 L 702.3 236.1 L 705.4 235.9 L 708.6 236.1 L 711.8 236.3 L 714.9 236.4 L 718.1 236.5 L 721.2 236.8 L 724.4 236.8 L 727.6 236.8 L 730.7 236.5 L 733.9 236.3 L 737.0 236.3 L 740.2 236.0 L 743.4 235.7 L 746.5 236.0 L 749.7 236.0 L 752.8 236.1 L 756.0 235.7" fill="none" stroke="#4a90d9" stroke-width="2.4"/>
+  <path d="M 443.2 104.7 L 446.3 113.7 L 449.5 122.3 L 452.6 130.8 L 455.8 138.4 L 459.0 145.7 L 462.1 152.6 L 465.3 159.2 L 468.4 165.2 L 471.6 171.1 L 474.8 176.8 L 477.9 181.8 L 481.1 186.7 L 484.2 191.0 L 487.4 194.9 L 490.6 198.8 L 493.7 201.8 L 496.9 205.4 L 500.0 208.3 L 503.2 211.3 L 506.4 213.3 L 509.5 216.0 L 512.7 218.4 L 515.8 219.8 L 519.0 221.1 L 522.2 223.0 L 525.3 223.7 L 528.5 224.7 L 531.6 225.1 L 534.8 225.8 L 538.0 226.1 L 541.1 227.2 L 544.3 227.0 L 547.4 228.3 L 550.6 228.8 L 553.8 228.3 L 556.9 228.5 L 560.1 228.8 L 563.2 228.1 L 566.4 227.9 L 569.6 226.4 L 572.7 225.9 L 575.9 225.7 L 579.0 225.3 L 582.2 225.9 L 585.4 225.6 L 588.5 225.8 L 591.7 225.2 L 594.8 225.3 L 598.0 225.0 L 601.2 225.5 L 604.3 224.6 L 607.5 224.5 L 610.6 224.0 L 613.8 224.3 L 617.0 223.9 L 620.1 222.8 L 623.3 222.8 L 626.4 222.0 L 629.6 222.4 L 632.8 222.5 L 635.9 222.6 L 639.1 222.5 L 642.2 222.3 L 645.4 221.9 L 648.6 222.3 L 651.7 221.7 L 654.9 221.7 L 658.0 221.9 L 661.2 222.5 L 664.4 222.3 L 667.5 222.4 L 670.7 222.7 L 673.8 223.0 L 677.0 222.8 L 680.2 222.2 L 683.3 222.0 L 686.5 222.2 L 689.6 221.7 L 692.8 221.6 L 696.0 221.8 L 699.1 222.1 L 702.3 222.3 L 705.4 221.9 L 708.6 221.6 L 711.8 221.9 L 714.9 222.7 L 718.1 222.8 L 721.2 223.6 L 724.4 223.3 L 727.6 223.2 L 730.7 222.3 L 733.9 222.3 L 737.0 222.5 L 740.2 222.1 L 743.4 221.5 L 746.5 221.9 L 749.7 221.8 L 752.8 221.8 L 756.0 221.2" fill="none" stroke="#4a90d9" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="629.6" y="137.446" font-size="12" fill="#e0645c">Monte Carlo</text>
+  <text x="629.6" y="150.185" font-size="10.5" fill="#e0645c">α = 0.02 solid, 0.04 dashed</text>
+  <text x="629.6" y="195.477" font-size="12" fill="#4a90d9">TD(0)</text>
+  <text x="629.6" y="208.215" font-size="10.5" fill="#4a90d9">α = 0.05 solid, 0.10 dashed</text>
+  <text x="449.48" y="88.6154" font-size="10.5" fill="#8a8a8a">5-state random walk, V initialised to 0.5, 200 runs</text>
+</svg>

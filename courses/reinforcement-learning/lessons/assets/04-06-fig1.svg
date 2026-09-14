@@ -1,0 +1,98 @@
+<svg viewBox="0 0 790 332" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">One simulation of Monte Carlo tree search: walk down, add a node, estimate it, carry the number back up.</text>
+  <line x1="92" y1="101" x2="46" y2="135" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="92" y1="101" x2="92" y2="135" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="92" y1="101" x2="138" y2="135" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="46" y1="153" x2="28" y2="187" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="46" y1="153" x2="64" y2="187" stroke="#8a8a8a" stroke-width="1.2"/>
+  <circle cx="92" cy="92" r="9" fill="#e0645c" stroke="#e0645c" stroke-width="1.8" opacity="0.28"/>
+  <circle cx="92" cy="92" r="9" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+  <circle cx="46" cy="144" r="9" fill="#e0645c" stroke="#e0645c" stroke-width="1.8" opacity="0.28"/>
+  <circle cx="46" cy="144" r="9" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+  <circle cx="92" cy="144" r="9" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.8" opacity="0.0"/>
+  <circle cx="92" cy="144" r="9" fill="none" stroke="#8a8a8a" stroke-width="1.8"/>
+  <circle cx="138" cy="144" r="9" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.8" opacity="0.0"/>
+  <circle cx="138" cy="144" r="9" fill="none" stroke="#8a8a8a" stroke-width="1.8"/>
+  <circle cx="28" cy="196" r="9" fill="#e0645c" stroke="#e0645c" stroke-width="1.8" opacity="0.28"/>
+  <circle cx="28" cy="196" r="9" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+  <circle cx="64" cy="196" r="9" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.8" opacity="0.0"/>
+  <circle cx="64" cy="196" r="9" fill="none" stroke="#8a8a8a" stroke-width="1.8"/>
+  <text x="92" y="66" text-anchor="middle" font-size="12" fill="#8a8a8a">1  selection</text>
+  <text x="92" y="240" text-anchor="middle" font-size="10.5" fill="#e0645c">follow the UCT score</text>
+  <text x="92" y="255" text-anchor="middle" font-size="10.5" fill="#e0645c">down to a leaf</text>
+  <line x1="266" y1="101" x2="220" y2="135" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="266" y1="101" x2="266" y2="135" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="266" y1="101" x2="312" y2="135" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="220" y1="153" x2="202" y2="187" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="220" y1="153" x2="238" y2="187" stroke="#8a8a8a" stroke-width="1.2"/>
+  <circle cx="266" cy="92" r="9" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.8" opacity="0.0"/>
+  <circle cx="266" cy="92" r="9" fill="none" stroke="#8a8a8a" stroke-width="1.8"/>
+  <circle cx="220" cy="144" r="9" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.8" opacity="0.0"/>
+  <circle cx="220" cy="144" r="9" fill="none" stroke="#8a8a8a" stroke-width="1.8"/>
+  <circle cx="266" cy="144" r="9" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.8" opacity="0.0"/>
+  <circle cx="266" cy="144" r="9" fill="none" stroke="#8a8a8a" stroke-width="1.8"/>
+  <circle cx="312" cy="144" r="9" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.8" opacity="0.0"/>
+  <circle cx="312" cy="144" r="9" fill="none" stroke="#8a8a8a" stroke-width="1.8"/>
+  <circle cx="202" cy="196" r="9" fill="#e0645c" stroke="#e0645c" stroke-width="1.8" opacity="0.28"/>
+  <circle cx="202" cy="196" r="9" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+  <circle cx="238" cy="196" r="9" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.8" opacity="0.0"/>
+  <circle cx="238" cy="196" r="9" fill="none" stroke="#8a8a8a" stroke-width="1.8"/>
+  <line x1="202" y1="205" x2="186" y2="239" stroke="#8a8a8a" stroke-width="1.2"/>
+  <circle cx="186" cy="248" r="9" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.8" opacity="0.3"/>
+  <circle cx="186" cy="248" r="9" fill="none" stroke="#4a90d9" stroke-width="1.8"/>
+  <text x="266" y="66" text-anchor="middle" font-size="12" fill="#8a8a8a">2  expansion</text>
+  <text x="266" y="270" text-anchor="middle" font-size="10.5" fill="#4a90d9">add one new child</text>
+  <line x1="440" y1="101" x2="394" y2="135" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="440" y1="101" x2="440" y2="135" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="440" y1="101" x2="486" y2="135" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="394" y1="153" x2="376" y2="187" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="394" y1="153" x2="412" y2="187" stroke="#8a8a8a" stroke-width="1.2"/>
+  <circle cx="440" cy="92" r="9" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.8" opacity="0.0"/>
+  <circle cx="440" cy="92" r="9" fill="none" stroke="#8a8a8a" stroke-width="1.8"/>
+  <circle cx="394" cy="144" r="9" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.8" opacity="0.0"/>
+  <circle cx="394" cy="144" r="9" fill="none" stroke="#8a8a8a" stroke-width="1.8"/>
+  <circle cx="440" cy="144" r="9" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.8" opacity="0.0"/>
+  <circle cx="440" cy="144" r="9" fill="none" stroke="#8a8a8a" stroke-width="1.8"/>
+  <circle cx="486" cy="144" r="9" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.8" opacity="0.0"/>
+  <circle cx="486" cy="144" r="9" fill="none" stroke="#8a8a8a" stroke-width="1.8"/>
+  <circle cx="376" cy="196" r="9" fill="#e0645c" stroke="#e0645c" stroke-width="1.8" opacity="0.28"/>
+  <circle cx="376" cy="196" r="9" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+  <circle cx="412" cy="196" r="9" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.8" opacity="0.0"/>
+  <circle cx="412" cy="196" r="9" fill="none" stroke="#8a8a8a" stroke-width="1.8"/>
+  <line x1="376" y1="205" x2="360" y2="239" stroke="#8a8a8a" stroke-width="1.2"/>
+  <circle cx="360" cy="248" r="9" fill="none" stroke="#4a90d9" stroke-width="1.8"/>
+  <path d="M 360 257 L 346 278 L 368 296" fill="none" stroke="#4a90d9" stroke-width="1.6" stroke-dasharray="4 3"/>
+  <text x="440" y="66" text-anchor="middle" font-size="12" fill="#8a8a8a">3  evaluation</text>
+  <text x="440" y="282" text-anchor="middle" font-size="10.5" fill="#4a90d9">roll out, or ask</text>
+  <text x="440" y="297" text-anchor="middle" font-size="10.5" fill="#4a90d9">the value network</text>
+  <line x1="614" y1="101" x2="568" y2="135" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="614" y1="101" x2="614" y2="135" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="614" y1="101" x2="660" y2="135" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="568" y1="153" x2="550" y2="187" stroke="#8a8a8a" stroke-width="1.2"/>
+  <line x1="568" y1="153" x2="586" y2="187" stroke="#8a8a8a" stroke-width="1.2"/>
+  <circle cx="614" cy="92" r="9" fill="#e0645c" stroke="#e0645c" stroke-width="1.8" opacity="0.28"/>
+  <circle cx="614" cy="92" r="9" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+  <circle cx="568" cy="144" r="9" fill="#e0645c" stroke="#e0645c" stroke-width="1.8" opacity="0.28"/>
+  <circle cx="568" cy="144" r="9" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+  <circle cx="614" cy="144" r="9" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.8" opacity="0.0"/>
+  <circle cx="614" cy="144" r="9" fill="none" stroke="#8a8a8a" stroke-width="1.8"/>
+  <circle cx="660" cy="144" r="9" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.8" opacity="0.0"/>
+  <circle cx="660" cy="144" r="9" fill="none" stroke="#8a8a8a" stroke-width="1.8"/>
+  <circle cx="550" cy="196" r="9" fill="#e0645c" stroke="#e0645c" stroke-width="1.8" opacity="0.28"/>
+  <circle cx="550" cy="196" r="9" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+  <circle cx="586" cy="196" r="9" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.8" opacity="0.0"/>
+  <circle cx="586" cy="196" r="9" fill="none" stroke="#8a8a8a" stroke-width="1.8"/>
+  <line x1="550" y1="205" x2="534" y2="239" stroke="#8a8a8a" stroke-width="1.2"/>
+  <circle cx="534" cy="248" r="9" fill="#e0645c" stroke="#e0645c" stroke-width="1.8" opacity="0.28"/>
+  <circle cx="534" cy="248" r="9" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+  <line x1="550" y1="186" x2="564.159" y2="161.616" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="568,155 559.589,160.523 567.372,165.043" fill="#e0645c" stroke="none" stroke-width="1"/>
+  <line x1="568" y1="134" x2="607.656" y2="107.275" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="614,103 604.022,104.298 609.051,111.761" fill="#e0645c" stroke="none" stroke-width="1"/>
+  <line x1="534" y1="237" x2="546.4" y2="213.75" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="550,207 541.794,212.824 549.735,217.059" fill="#e0645c" stroke="none" stroke-width="1"/>
+  <text x="614" y="66" text-anchor="middle" font-size="12" fill="#8a8a8a">4  backup</text>
+  <text x="614" y="270" text-anchor="middle" font-size="10.5" fill="#e0645c">update N and Q on</text>
+  <text x="614" y="285" text-anchor="middle" font-size="10.5" fill="#e0645c">every node passed</text>
+  <text x="395" y="314" text-anchor="middle" font-size="11.5" fill="#8a8a8a" font-style="italic">Repeat thousands of times, then play the move with the most visits.</text>
+</svg>

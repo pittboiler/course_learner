@@ -1,0 +1,55 @@
+<svg viewBox="0 0 790 362" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">Exploration that shrinks with the evidence beats exploration that never stops.</text>
+  <text x="54" y="60" font-size="12.5" fill="#8a8a8a">UCB1 scores at t = 4</text>
+  <text x="54" y="78" font-size="11" fill="#8a8a8a">(the boss problem)</text>
+  <rect x="70" y="238" width="54" height="34" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.6" opacity="0.32"/>
+  <rect x="70" y="238" width="54" height="34" fill="none" stroke="#4a90d9" stroke-width="1.6"/>
+  <rect x="70" y="157.936" width="54" height="80.0639" fill="#e0645c" stroke="#e0645c" stroke-width="1.6" opacity="0.24"/>
+  <rect x="70" y="157.936" width="54" height="80.0639" fill="none" stroke="#e0645c" stroke-width="1.6"/>
+  <text x="97" y="290" text-anchor="middle" font-size="11" fill="#8a8a8a">arm 1</text>
+  <text x="97" y="305" text-anchor="middle" font-size="10" fill="#8a8a8a">n = 2</text>
+  <text x="97" y="149.936" text-anchor="middle" font-size="11" fill="#8a8a8a">1.68</text>
+  <rect x="158" y="204" width="54" height="68" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.6" opacity="0.32"/>
+  <rect x="158" y="204" width="54" height="68" fill="none" stroke="#4a90d9" stroke-width="1.6"/>
+  <rect x="158" y="90.7725" width="54" height="113.227" fill="#e0645c" stroke="#e0645c" stroke-width="1.6" opacity="0.24"/>
+  <rect x="158" y="90.7725" width="54" height="113.227" fill="none" stroke="#e0645c" stroke-width="1.6"/>
+  <text x="185" y="290" text-anchor="middle" font-size="11" fill="#8a8a8a">arm 2</text>
+  <text x="185" y="305" text-anchor="middle" font-size="10" fill="#8a8a8a">n = 1</text>
+  <text x="185" y="82.7725" text-anchor="middle" font-size="11" fill="#8a8a8a">2.67</text>
+  <rect x="246" y="272" width="54" height="0" fill="#4a90d9" stroke="#4a90d9" stroke-width="1.6" opacity="0.32"/>
+  <rect x="246" y="272" width="54" height="0" fill="none" stroke="#4a90d9" stroke-width="1.6"/>
+  <rect x="246" y="158.773" width="54" height="113.227" fill="#e0645c" stroke="#e0645c" stroke-width="1.6" opacity="0.24"/>
+  <rect x="246" y="158.773" width="54" height="113.227" fill="none" stroke="#e0645c" stroke-width="1.6"/>
+  <text x="273" y="290" text-anchor="middle" font-size="11" fill="#8a8a8a">arm 3</text>
+  <text x="273" y="305" text-anchor="middle" font-size="10" fill="#8a8a8a">n = 1</text>
+  <text x="273" y="150.773" text-anchor="middle" font-size="11" fill="#8a8a8a">1.67</text>
+  <line x1="62" y1="272" x2="310" y2="272" stroke="#8a8a8a" stroke-width="1.3"/>
+  <text x="270" y="112" font-size="11" fill="#e0645c">exploration bonus</text>
+  <text x="270" y="128" font-size="11" fill="#e0645c">sqrt(2 ln t / n)</text>
+  <text x="270" y="158" font-size="11" fill="#4a90d9">observed mean</text>
+  <text x="54" y="316" font-size="11" fill="#8a8a8a">arm 2 wins: best mean AND a large bonus.</text>
+  <text x="54" y="332" font-size="11" fill="#8a8a8a">arm 1 has more data, so a smaller bonus.</text>
+  <line x1="452" y1="268" x2="754" y2="268" stroke="#8a8a8a" stroke-width="1.3"/>
+  <line x1="452" y1="268" x2="452" y2="88" stroke="#8a8a8a" stroke-width="1.3"/>
+  <line x1="447" y1="222.713" x2="452" y2="222.713" stroke="#8a8a8a" stroke-width="1.1"/>
+  <text x="443" y="226.713" text-anchor="end" font-size="10" fill="#8a8a8a">0.001</text>
+  <line x1="447" y1="157.922" x2="452" y2="157.922" stroke="#8a8a8a" stroke-width="1.1"/>
+  <text x="443" y="161.922" text-anchor="end" font-size="10" fill="#8a8a8a">0.01</text>
+  <line x1="447" y1="93.1303" x2="452" y2="93.1303" stroke="#8a8a8a" stroke-width="1.1"/>
+  <text x="443" y="97.1303" text-anchor="end" font-size="10" fill="#8a8a8a">0.1</text>
+  <line x1="452" y1="268" x2="452" y2="273" stroke="#8a8a8a" stroke-width="1.1"/>
+  <text x="452" y="287" text-anchor="middle" font-size="10.5" fill="#8a8a8a">1k</text>
+  <line x1="583.246" y1="268" x2="583.246" y2="273" stroke="#8a8a8a" stroke-width="1.1"/>
+  <text x="583.246" y="287" text-anchor="middle" font-size="10.5" fill="#8a8a8a">10k</text>
+  <line x1="714.491" y1="268" x2="714.491" y2="273" stroke="#8a8a8a" stroke-width="1.1"/>
+  <text x="714.491" y="287" text-anchor="middle" font-size="10.5" fill="#8a8a8a">100k</text>
+  <text x="603" y="306" text-anchor="middle" font-size="11.5" fill="#8a8a8a">pulls so far (log scale)</text>
+  <text x="424" y="74" font-size="11.5" fill="#8a8a8a">regret added per pull</text>
+  <path d="M 452.0 135.8 L 583.2 146.1 L 675.0 149.5 L 754.0 149.5" fill="none" stroke="#e0645c" stroke-width="2.5"/>
+  <path d="M 452.0 112.9 L 583.2 148.5 L 675.0 177.5 L 754.0 199.6" fill="none" stroke="#8a8a8a" stroke-width="2.5"/>
+  <path d="M 452.0 158.5 L 583.2 214.5 L 675.0 244.6 L 754.0 264.1" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="622.754" y="137.045" font-size="11" fill="#e0645c">ε-greedy: flat for ever</text>
+  <text x="622.754" y="171.373" font-size="11" fill="#8a8a8a">UCB1</text>
+  <text x="588.678" y="238.041" font-size="11" fill="#4a90d9">Thompson sampling</text>
+  <text x="457.433" y="258.532" font-size="10.5" fill="#8a8a8a">falling = sublinear regret</text>
+</svg>

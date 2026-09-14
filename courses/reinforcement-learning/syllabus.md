@@ -1,6 +1,6 @@
 # Reinforcement Learning — Syllabus
 
-> Computer Science · Tier 2 · ~21 lessons · Prereqs: [machine-learning](../machine-learning/syllabus.md), [probability-theory](../probability-theory/syllabus.md) · Roadmap id: `reinforcement-learning`
+> Computer Science · Tier 2 · 25 lessons · Prereqs: [machine-learning](../machine-learning/syllabus.md), [probability-theory](../probability-theory/syllabus.md) · Roadmap id: `reinforcement-learning`
 
 ## Goal
 
@@ -34,7 +34,8 @@ The formal spine of RL: what problem we are actually solving, and how to solve i
 | 1.2 | Markov Decision Processes | Define an MDP and the discounted return | state, action, transition kernel, reward, discount $\gamma$, Markov property |
 | 1.3 | Value Functions & the Bellman Expectation Equation | Express $V^\pi$ and $Q^\pi$ recursively | policy, state-value, action-value, Bellman expectation backup |
 | 1.4 | Optimality & the Bellman Optimality Equation | Characterize the best policy and its value | optimal policy, $V^*$, $Q^*$, greedy improvement, existence of a deterministic optimum |
-| 1.5 | Dynamic Programming | Solve a known MDP by iterating the Bellman operator | policy evaluation, policy iteration, value iteration, contraction & convergence |
+| 1.5 | Policy Evaluation & Policy Iteration | Evaluate a policy by sweeps, then improve it | iterative policy evaluation, full backup, policy iteration, generalized policy iteration |
+| 1.6 | Value Iteration & Why It Converges | Truncate evaluation to one sweep, and prove it works | Bellman optimality operator, max-norm contraction, error bounds |
 
 **Boss problem 1:** A 2-state MDP has states $\{s_1, s_2\}$ and discount $\gamma = 0.9$. From $s_1$: action *stay* self-loops with reward $0$; action *switch* moves to $s_2$ with reward $+1$. From $s_2$: the only action self-loops with reward $+2$. Compute $V^*(s_1)$ and $V^*(s_2)$ by value iteration, state the optimal policy, and verify your answer satisfies the Bellman optimality equation exactly.
 
@@ -49,7 +50,9 @@ Drop the assumption that we know the dynamics. Now we must *learn* from sampled 
 | 2.3 | Temporal-Difference Learning: TD(0) | Update value estimates from single transitions | bootstrapping, TD error, TD vs MC bias–variance |
 | 2.4 | SARSA — On-Policy TD Control | Learn action-values for the policy you are following | on-policy control, $Q(s,a)$ update, GLIE convergence |
 | 2.5 | Q-Learning — Off-Policy TD Control | Learn the optimal action-values while behaving otherwise | off-policy control, max-bootstrap target, behavior vs target policy |
-| 2.6 | Eligibility Traces & TD($\lambda$) | Interpolate smoothly between TD(0) and Monte Carlo | $n$-step returns, $\lambda$-return, forward/backward view, eligibility traces |
+| 2.6 | Off-Policy Learning & Importance Sampling | Learn about one policy from another's data | behaviour vs target policy, importance ratio, ordinary vs weighted IS, variance explosion |
+| 2.7 | $n$-Step Returns & the $\lambda$-Return | Interpolate between TD(0) and Monte Carlo | $n$-step return, $\lambda$-return, the forward view, the interior optimum |
+| 2.8 | Eligibility Traces & the Backward View | Compute the $\lambda$-return online | eligibility traces, backward view, forward/backward equivalence, accumulating vs replacing |
 
 **Boss problem 2:** Run Q-learning with $\alpha = 0.5$, $\gamma = 1$, all $Q$ initialized to $0$, on the episode $(s_1,\text{right},r{=}{-}1,s_2),\ (s_2,\text{right},r{=}{+}10,\text{terminal})$. Compute every $Q$-value updated during the episode. Then state exactly what the *target* would have been under SARSA for the first update, assuming the agent's next chosen action from $s_2$ was *left* with $Q(s_2,\text{left})=0$ — and explain in one sentence why the two methods can learn different policies near a cliff.
 
@@ -77,9 +80,21 @@ Assemble the pieces into the systems that beat Atari and Go, and give exploratio
 | 4.2 | A2C & A3C | Scale actor–critic with parallel workers and advantages | advantage actor–critic, parallelism, on-policy sampling |
 | 4.3 | PPO — A Taste | Take large-but-safe policy steps with a clipped objective | trust region intuition, clipped surrogate objective, importance ratio |
 | 4.4 | Bandits & Principled Exploration | Quantify and minimize regret in the pure-exploration setting | multi-armed bandits, regret, UCB1, Thompson sampling |
-| 4.5 | Model-Based RL & Self-Play | See how planning and learning combine, up to AlphaGo | learned models, planning vs learning, Monte Carlo tree search, self-play |
+| 4.5 | Model-Based RL & Planning | Learn a model and practise against it | Dyna, planning vs learning, compounding model error, stale models |
+| 4.6 | Monte Carlo Tree Search & Self-Play | See how search and learning combine, up to AlphaZero | MCTS, UCT, PUCT, search as policy improvement, self-play |
 
 **Boss problem 4:** A 3-armed bandit has been pulled so far with these results: arm 1 → rewards $\{1,0\}$; arm 2 → reward $\{1\}$; arm 3 → reward $\{0\}$ (so $t=4$ total pulls). Using UCB1, $a_t = \arg\max_i \big(\bar x_i + \sqrt{2\ln t / n_i}\big)$, compute the UCB score of each arm and state which arm is pulled at $t=5$. Then, in three sentences, explain why DQN's *target network* addresses a problem that plain online Q-learning with a neural net does not — and name which term in the UCB formula is the "exploration bonus" and why it shrinks over time.
+
+## Syllabus revisions
+
+**2026-09-14 — built out from ~21 to 25 lessons.** Four changes, all made while writing:
+
+- **1.5 split into 1.5 and 1.6.** Policy evaluation, policy iteration, value iteration and the contraction proof do not fit one 15-minute lesson, and the contraction argument is this course's main delta over [`operations-research` 3.4](../operations-research/lessons/03-04-stochastic-dynamic-programming.md), which states it without proof.
+- **New 2.6, off-policy learning and importance sampling.** The original outline covered off-policy Q-learning but never the importance ratio, leaving [4.3](lessons/04-03-ppo-a-taste.md)'s clipped objective with no foundation — PPO's ratio is exactly this object, and the variance problem it solves is diagnosed here.
+- **Old 2.6 split into 2.7 and 2.8**, separating the forward view ($n$-step and $\lambda$-returns) from the backward view (eligibility traces and the equivalence theorem).
+- **Old 4.5 split into 4.5 and 4.6**, separating model-based learning (Dyna, model error) from decision-time search (MCTS, self-play, AlphaZero).
+
+**Ownership.** [`operations-research` 3.4](../operations-research/lessons/03-04-stochastic-dynamic-programming.md) owns the MDP five-tuple, the Bellman equation for known dynamics, and value iteration; Module 1 cites it throughout and owns instead the Markov property as a modelling choice, the Bellman *expectation* equation and $Q^\pi$, the policy improvement theorem, and the contraction proof. [`statistical-learning`](../statistical-learning/reference.md#hoeffdings-inequality) owns Hoeffding, used in [4.4](lessons/04-04-bandits-and-principled-exploration.md). [`deep-learning`](../deep-learning/syllabus.md) owns networks and hands policy gradients to this course.
 
 ## Sources of truth
 

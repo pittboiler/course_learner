@@ -1,0 +1,46 @@
+<svg viewBox="0 0 790 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="20" y="22" fill="#8a8a8a" font-style="italic">A greedy policy seals its own blind spot: the action it never tries keeps the estimate that stopped it.</text>
+  <circle cx="110" cy="150" r="30" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="105" y="155" font-size="16" fill="#4a90d9">s</text>
+  <circle cx="270" cy="214" r="30" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="266" y="219" font-size="16" fill="#4a90d9">t</text>
+  <line x1="116" y1="118" x2="161.387" y2="81.3409" stroke="#e0645c" stroke-width="2"/>
+  <polygon points="168,76 157.079,78.3937 163.362,86.1731" fill="#e0645c" stroke="none" stroke-width="1"/>
+  <rect x="168" y="54" width="26" height="26" fill="none" stroke="#e0645c" stroke-width="1.8"/>
+  <text x="181" y="72" text-anchor="middle" fill="#e0645c">T</text>
+  <text x="204" y="66" font-size="12" fill="#e0645c">A:  r = +1</text>
+  <line x1="136" y1="168" x2="233.863" y2="197.543" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="242,200 233.872,192.323 230.982,201.897" fill="#8a8a8a" stroke="none" stroke-width="1"/>
+  <text x="134" y="202" font-size="12" fill="#8a8a8a">B:  r = 0</text>
+  <line x1="298" y1="200" x2="343.387" y2="163.341" stroke="#8a8a8a" stroke-width="2"/>
+  <polygon points="350,158 339.079,160.394 345.362,168.173" fill="#8a8a8a" stroke="none" stroke-width="1"/>
+  <rect x="350" y="136" width="26" height="26" fill="none" stroke="#8a8a8a" stroke-width="1.8"/>
+  <text x="363" y="154" text-anchor="middle" fill="#8a8a8a">T</text>
+  <text x="304" y="142" font-size="12" fill="#8a8a8a">r = +10</text>
+  <text x="60" y="296" fill="#8a8a8a">Q*(s, A) = 1     but     Q*(s, B) = 10</text>
+  <text x="60" y="318" font-size="12" fill="#8a8a8a" font-style="italic">and a greedy agent that tries A first never tries B again.</text>
+  <line x1="470" y1="262" x2="754" y2="262" stroke="#8a8a8a" stroke-width="1.3"/>
+  <line x1="470" y1="262" x2="470" y2="80" stroke="#8a8a8a" stroke-width="1.3"/>
+  <line x1="465" y1="262" x2="470" y2="262" stroke="#8a8a8a" stroke-width="1.1"/>
+  <text x="461" y="266" text-anchor="end" font-size="10.5" fill="#8a8a8a">0</text>
+  <line x1="465" y1="171" x2="470" y2="171" stroke="#8a8a8a" stroke-width="1.1"/>
+  <text x="461" y="175" text-anchor="end" font-size="10.5" fill="#8a8a8a">0.5</text>
+  <line x1="465" y1="80" x2="470" y2="80" stroke="#8a8a8a" stroke-width="1.1"/>
+  <text x="461" y="84" text-anchor="end" font-size="10.5" fill="#8a8a8a">1</text>
+  <line x1="470" y1="262" x2="470" y2="267" stroke="#8a8a8a" stroke-width="1.1"/>
+  <text x="470" y="281" text-anchor="middle" font-size="10.5" fill="#8a8a8a">0</text>
+  <line x1="564.667" y1="262" x2="564.667" y2="267" stroke="#8a8a8a" stroke-width="1.1"/>
+  <text x="564.667" y="281" text-anchor="middle" font-size="10.5" fill="#8a8a8a">40</text>
+  <line x1="659.333" y1="262" x2="659.333" y2="267" stroke="#8a8a8a" stroke-width="1.1"/>
+  <text x="659.333" y="281" text-anchor="middle" font-size="10.5" fill="#8a8a8a">80</text>
+  <line x1="754" y1="262" x2="754" y2="267" stroke="#8a8a8a" stroke-width="1.1"/>
+  <text x="754" y="281" text-anchor="middle" font-size="10.5" fill="#8a8a8a">120</text>
+  <text x="612" y="300" text-anchor="middle" font-size="11.5" fill="#8a8a8a">episodes</text>
+  <text x="436" y="66" font-size="11.5" fill="#8a8a8a">chance the better action has been tried</text>
+  <path d="M 472.4 171.0 L 474.7 166.4 L 477.1 162.1 L 479.5 158.0 L 481.8 154.1 L 484.2 150.4 L 486.6 146.9 L 488.9 143.5 L 491.3 140.4 L 493.7 137.4 L 496.0 134.5 L 498.4 131.8 L 500.8 129.2 L 503.1 126.7 L 505.5 124.4 L 507.9 122.2 L 510.2 120.1 L 512.6 118.0 L 515.0 116.1 L 517.3 114.3 L 519.7 112.6 L 522.1 111.0 L 524.4 109.4 L 526.8 108.0 L 529.2 106.6 L 531.5 105.2 L 533.9 104.0 L 536.3 102.8 L 538.6 101.6 L 541.0 100.6 L 543.4 99.5 L 545.7 98.6 L 548.1 97.6 L 550.5 96.7 L 552.8 95.9 L 555.2 95.1 L 557.6 94.4 L 559.9 93.6 L 562.3 93.0 L 564.7 92.3 L 567.0 91.7 L 569.4 91.1 L 571.8 90.6 L 574.1 90.0 L 576.5 89.5 L 578.9 89.0 L 581.2 88.6 L 583.6 88.2 L 586.0 87.8 L 588.3 87.4 L 590.7 87.0 L 593.1 86.7 L 595.4 86.3 L 597.8 86.0 L 600.2 85.7 L 602.5 85.4 L 604.9 85.1 L 607.3 84.9 L 609.6 84.6 L 612.0 84.4 L 614.4 84.2 L 616.7 84.0 L 619.1 83.8 L 621.5 83.6 L 623.8 83.4 L 626.2 83.2 L 628.6 83.1 L 630.9 82.9 L 633.3 82.8 L 635.7 82.6 L 638.0 82.5 L 640.4 82.4 L 642.8 82.3 L 645.1 82.2 L 647.5 82.0 L 649.9 81.9 L 652.2 81.8 L 654.6 81.8 L 657.0 81.7 L 659.3 81.6 L 661.7 81.5 L 664.1 81.4 L 666.4 81.4 L 668.8 81.3 L 671.2 81.2 L 673.5 81.2 L 675.9 81.1 L 678.3 81.0 L 680.6 81.0 L 683.0 80.9 L 685.4 80.9 L 687.7 80.9 L 690.1 80.8 L 692.5 80.8 L 694.8 80.7 L 697.2 80.7 L 699.6 80.7 L 701.9 80.6 L 704.3 80.6 L 706.7 80.6 L 709.0 80.5 L 711.4 80.5 L 713.8 80.5 L 716.1 80.5 L 718.5 80.4 L 720.9 80.4 L 723.2 80.4 L 725.6 80.4 L 728.0 80.4 L 730.3 80.3 L 732.7 80.3 L 735.1 80.3 L 737.4 80.3 L 739.8 80.3 L 742.2 80.3 L 744.5 80.2 L 746.9 80.2 L 749.3 80.2 L 751.6 80.2 L 754.0 80.2" fill="none" stroke="#4a90d9" stroke-width="2.6"/>
+  <text x="578.867" y="116.4" font-size="12" fill="#4a90d9">ε-greedy, ε = 0.1</text>
+  <line x1="472.367" y1="171" x2="754" y2="171" stroke="#e0645c" stroke-width="2.6"/>
+  <text x="564.667" y="189.2" font-size="12" fill="#e0645c">pure greedy - flat at 1/2 for ever</text>
+  <line x1="517.333" y1="114.343" x2="517.333" y2="262" stroke="#8a8a8a" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="522.333" y="234.7" font-size="10.5" fill="#8a8a8a">20 episodes</text>
+</svg>
