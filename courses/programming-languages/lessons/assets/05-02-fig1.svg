@@ -1,0 +1,19 @@
+<svg viewBox="0 0 660 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="40.0" y="24.0" fill="#8a8a8a" font-style="italic">Variance: which way subtyping flows through a type former</text>
+  <text x="70.0" y="72.0" fill="#8a8a8a" font-size="13">Given   Cat  &lt;:  Animal</text>
+  <line x1="60.0" y1="90.0" x2="600.0" y2="90.0" stroke="#8a8a8a" stroke-width="1.0" stroke-dasharray="4,4"/>
+  <text x="80.0" y="118.0" fill="#8a8a8a" font-size="12.5">Producer&lt;Cat&gt;  &lt;:  Producer&lt;Animal&gt;</text>
+  <text x="400.0" y="118.0" fill="#4a90d9" font-size="12" font-weight="bold">COVARIANT</text>
+  <text x="520.0" y="118.0" fill="#8a8a8a" font-size="11">output position</text>
+  <text x="80.0" y="160.0" fill="#8a8a8a" font-size="12.5">Consumer&lt;Animal&gt;  &lt;:  Consumer&lt;Cat&gt;</text>
+  <text x="400.0" y="160.0" fill="#4a90d9" font-size="12" font-weight="bold">CONTRAVARIANT</text>
+  <text x="520.0" y="160.0" fill="#8a8a8a" font-size="11">input position</text>
+  <text x="80.0" y="202.0" fill="#8a8a8a" font-size="12.5">List&lt;Cat&gt;   vs   List&lt;Animal&gt;</text>
+  <text x="400.0" y="202.0" fill="#e0645c" font-size="12" font-weight="bold">INVARIANT</text>
+  <text x="520.0" y="202.0" fill="#8a8a8a" font-size="11">read AND write</text>
+  <line x1="60.0" y1="228.0" x2="600.0" y2="228.0" stroke="#8a8a8a" stroke-width="1.0" stroke-dasharray="4,4"/>
+  <text x="70.0" y="256.0" fill="#8a8a8a" font-size="12.5">The function rule, which is both at once:</text>
+  <text x="100.0" y="286.0" fill="#4a90d9" font-size="13">S1 -&gt; S2  &lt;:  T1 -&gt; T2     iff     T1 &lt;: S1   and   S2 &lt;: T2</text>
+  <text x="100.0" y="310.0" fill="#8a8a8a" font-size="11.5" font-style="italic">contravariant in the argument, covariant in the result</text>
+  <text x="70.0" y="334.0" fill="#e0645c" font-size="11.5" font-style="italic">A mutable cell is both a producer and a consumer, so it must be invariant.</text>
+</svg>

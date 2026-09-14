@@ -1,0 +1,21 @@
+<svg viewBox="0 0 660 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="40.0" y="24.0" fill="#8a8a8a" font-style="italic">One interface, four notions of &quot;computation that does something&quot;</text>
+  <text x="70.0" y="72.0" fill="#4a90d9" font-size="13">M a   =   a value of type a, plus some context</text>
+  <text x="70.0" y="100.0" fill="#8a8a8a" font-size="12.5">return : a -&gt; M a           bind : M a -&gt; (a -&gt; M b) -&gt; M b</text>
+  <line x1="60.0" y1="122.0" x2="600.0" y2="122.0" stroke="#8a8a8a" stroke-width="1.0" stroke-dasharray="4,4"/>
+  <text x="90.0" y="150.0" fill="#e0645c" font-size="13">Maybe a</text>
+  <text x="240.0" y="150.0" fill="#8a8a8a" font-size="12">a, or nothing</text>
+  <text x="420.0" y="150.0" fill="#8a8a8a" font-size="11.5" font-style="italic">failure short-circuits</text>
+  <text x="90.0" y="186.0" fill="#e0645c" font-size="13">[a]</text>
+  <text x="240.0" y="186.0" fill="#8a8a8a" font-size="12">zero or more results</text>
+  <text x="420.0" y="186.0" fill="#8a8a8a" font-size="11.5" font-style="italic">nondeterminism branches</text>
+  <text x="90.0" y="222.0" fill="#e0645c" font-size="13">s -&gt; (a, s)</text>
+  <text x="240.0" y="222.0" fill="#8a8a8a" font-size="12">a, threading a state</text>
+  <text x="420.0" y="222.0" fill="#8a8a8a" font-size="11.5" font-style="italic">the state is passed along</text>
+  <text x="90.0" y="258.0" fill="#e0645c" font-size="13">IO a</text>
+  <text x="240.0" y="258.0" fill="#8a8a8a" font-size="12">a, after touching the world</text>
+  <text x="420.0" y="258.0" fill="#8a8a8a" font-size="11.5" font-style="italic">the actions are sequenced</text>
+  <line x1="60.0" y1="282.0" x2="600.0" y2="282.0" stroke="#8a8a8a" stroke-width="1.0" stroke-dasharray="4,4"/>
+  <text x="70.0" y="310.0" fill="#4a90d9" font-size="12.5">do  { x &lt;- m; rest }     desugars to     m &gt;&gt;= \x -&gt; do { rest }</text>
+  <text x="70.0" y="332.0" fill="#8a8a8a" font-size="11.5" font-style="italic">Sequencing is not a keyword: it is one operator, and each M decides what it means.</text>
+</svg>

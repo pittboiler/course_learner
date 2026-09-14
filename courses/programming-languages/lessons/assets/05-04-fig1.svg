@@ -1,0 +1,12 @@
+<svg viewBox="0 0 660 300" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="40.0" y="24.0" fill="#8a8a8a" font-style="italic">A type class is a dictionary the compiler passes for you</text>
+  <text x="70.0" y="72.0" fill="#4a90d9" font-size="12.5" font-weight="bold">what you write</text>
+  <text x="90.0" y="100.0" fill="#8a8a8a" font-size="12.5">elem :: Eq a =&gt; a -&gt; [a] -&gt; Bool</text>
+  <line x1="330.0" y1="140.0" x2="330.0" y2="168.0" stroke="#e0645c" stroke-width="1.6"/>
+  <polygon points="330.0,168.0 335.0,157.0 325.0,157.0" fill="#e0645c"/>
+  <text x="345.0" y="160.0" fill="#e0645c" font-size="11.5">elaboration</text>
+  <text x="70.0" y="200.0" fill="#4a90d9" font-size="12.5" font-weight="bold">what the compiler produces</text>
+  <text x="90.0" y="228.0" fill="#8a8a8a" font-size="12.5">elem :: EqDict a -&gt; a -&gt; [a] -&gt; Bool</text>
+  <text x="90.0" y="252.0" fill="#8a8a8a" font-size="12.5">EqDict a = { eq : a -&gt; a -&gt; Bool }</text>
+  <text x="70.0" y="288.0" fill="#8a8a8a" font-size="11.5" font-style="italic">The constraint is a parameter. Resolution happens at compile time, by type.</text>
+</svg>
