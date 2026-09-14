@@ -40,7 +40,7 @@ $$\text{cost } O(\text{live}) \text{ only; free space is contiguous; allocation 
 
 **Nothing is proportional to the garbage.** A copying collector never touches a dead object, so a heap that is 95% garbage collects almost instantly. In exchange it needs twice the address space and moves every survivor, which invalidates every raw pointer the program holds — the reason a language with a copying collector cannot casually hand addresses to C.
 
-**Generational collection.** The **weak generational hypothesis**: *most objects die young*. It is an empirical claim, and it holds strongly for the allocation patterns of functional and object-oriented programs — short-lived temporaries, intermediate lists, boxed values.
+**Generational collection.** *(card: [weak generational hypothesis](../reference.md#weak-generational-hypothesis))* The **weak generational hypothesis**: *most objects die young*. It is an empirical claim, and it holds strongly for the allocation patterns of functional and object-oriented programs — short-lived temporaries, intermediate lists, boxed values.
 
 So split the heap by age. Collect the **nursery** frequently with a copying collector (cheap, because almost everything there is dead and cost is $O(\text{live})$); promote survivors to an older generation collected rarely.
 

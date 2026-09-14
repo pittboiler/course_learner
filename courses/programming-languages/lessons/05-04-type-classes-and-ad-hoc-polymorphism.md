@@ -217,29 +217,44 @@ The colleague has the relationship backwards: the way to get parametricity back 
 
 ## Flashback
 
-**From Lesson 5.3 (Recursive types, existentials and modules):** A package $\exists\alpha.\ \{\ldots\}$ bundles a hidden type with operations over it, and the client may use the operations and cannot learn the type.
+**From Lesson 4.3 (Unification and Hindley-Milner inference):** Robinson's algorithm unifies two types by recursing on structure, binding a variable to a type when the two sides differ, and failing on a structural clash or an occurs-check violation.
 
-A type-class dictionary also bundles operations with a type.
+Instance resolution for `Eq [[Nat]]` also proceeds by structural recursion, against the instance heads `Eq Nat` and `Eq a => Eq [a]`.
 
-(a) State the key structural difference between a dictionary and an existential package, in terms of where the type sits.
-(b) Use (a) to explain why a type class can support `mempty :: Monoid a => a` while an interface-based design cannot have a "static method dispatched by return type".
+(a) Run the resolution step by step, saying at each step which instance head is matched and what the remaining goal is.
+(b) State what plays the role of unification here, and what plays the role of the substitution it produces.
+(c) Give a set of instance declarations for which resolution would **not** terminate, and say which of Robinson's two failure modes it does *not* correspond to.
 
 <details>
 <summary>Solution</summary>
 
-(a) In an existential package the type is **hidden inside** — $\exists\alpha.\ \{\ldots\}$ — and the client cannot name it. In a type-class constraint the type is **exposed and universally quantified** — $\forall\alpha.\ C\,\alpha \Rightarrow \tau$ — and the client both names it and chooses it.
+(a) The goal is $\mathsf{Eq}\ [[\mathsf{Nat}]]$.
 
-So the two are opposite in exactly the $\forall$/$\exists$ way of [Lesson 5.3](05-03-recursive-types-existentials-and-modules.md): a package says *"there is some type, with these operations, and you may not know which"*; a constraint says *"for every type you pick that has these operations"*. A dictionary is the operations record from a package, kept but with the type let out.
+| step | goal | matched head | remaining goal |
+|---|---|---|---|
+| 1 | $\mathsf{Eq}\ [[\mathsf{Nat}]]$ | $\mathsf{Eq}\ [a]$ with $a := [\mathsf{Nat}]$ | $\mathsf{Eq}\ [\mathsf{Nat}]$ |
+| 2 | $\mathsf{Eq}\ [\mathsf{Nat}]$ | $\mathsf{Eq}\ [a]$ with $a := \mathsf{Nat}$ | $\mathsf{Eq}\ \mathsf{Nat}$ |
+| 3 | $\mathsf{Eq}\ \mathsf{Nat}$ | $\mathsf{Eq}\ \mathsf{Nat}$ (base instance) | none — done |
 
-(This is why the dictionary translation works so smoothly: `EqDict a` is the package's operations record, *indexed* by the visible type rather than sealed with a hidden one.)
+The dictionary the compiler builds mirrors the derivation exactly: `eqList (eqList eqNat)`, which is P2(d) of this lesson arrived at from the other direction.
 
-(b) Because in a type-class design the dictionary is selected by the **type**, which the checker knows from context, while in an interface design the vtable is carried by a **value**, and for `mempty` there is no value to carry it.
+(b) **Matching the goal against an instance head is unification** — specifically the one-sided variant usually called *matching*, in which only the head's variables may be bound and the goal is treated as ground. Step 1 unifies $[[\mathsf{Nat}]]$ with $[a]$, which decomposes the list constructor on both sides and binds $a := [\mathsf{Nat}]$ exactly as [Lesson 4.3](04-03-unification-and-hindley-milner.md)'s step 4 would.
 
-Spelled out: `mempty :: Monoid a => a` elaborates to `mempty :: MonoidDict a -> a`, and at a use site such as `mempty :: [Nat]` the compiler reads $\alpha = [\mathsf{Nat}]$ from the expected type, resolves the instance, and passes that dictionary. **The type determined the implementation with no value involved.**
+**The dictionary expression plays the role of the substitution.** Unification returns a substitution witnessing *why* two types are equal; resolution returns a term witnessing *why* a constraint is satisfied — and in both cases the witness is built compositionally from the recursive calls. That correspondence is not an analogy: instance resolution is proof search in a Horn-clause logic, and the dictionary is the proof term, which is why the same machinery runs Prolog.
 
-An interface method is found through its receiver — `x.foo()` looks up `foo` in the vtable that `x` carries — so there must *be* an `x`. A "static method dispatched by return type" would need to choose an implementation before any object of that type exists, and the runtime has nothing to dispatch on. Java's workaround is to pass a factory object explicitly, which is precisely passing the dictionary by hand — the ML column of Example 2.
+(c) *Accept criterion:* any instance set whose resolution generates an infinite chain of strictly larger goals.
 
-The same argument explains `read :: Read a => String -> a`, which parses into whatever type the context demands, and has no interface equivalent for the same reason. **Dispatch on the type is strictly more general than dispatch on the value**, and the cost is that it must be resolved statically — which is why it requires coherence, and why a language with runtime-only type information cannot offer it.
+```
+instance Eq [a] => Eq a
+```
+
+Resolving $\mathsf{Eq}\ \mathsf{Nat}$ matches this head with $a := \mathsf{Nat}$, leaving the goal $\mathsf{Eq}\ [\mathsf{Nat}]$; that matches again with $a := [\mathsf{Nat}]$, leaving $\mathsf{Eq}\ [[\mathsf{Nat}]]$, and so on for ever — the goal **grows** at every step instead of shrinking.
+
+**This corresponds to neither of Robinson's failure modes.** It is not a structural clash (nothing ever conflicts) and it is not an occurs-check failure (no variable is ever equated with a type containing it). It is a *third* kind of failure that unification cannot have: **non-termination**.
+
+Robinson's algorithm is guaranteed to terminate, because each step either binds a variable — strictly reducing the number of unbound ones — or decomposes an equation into smaller ones, and both measures are well-founded ([Lesson 4.3](04-03-unification-and-hindley-milner.md)'s Flashback). Instance resolution has no such guarantee, because a conditional instance may produce a context *larger* than the head it discharged.
+
+That is why Haskell imposes the **Paterson conditions** on instance declarations — each constraint in the context must be structurally smaller than the head — which is precisely a syntactic well-foundedness check, reinstating the decreasing measure that unification gets for free. Relaxing them with `UndecidableInstances` is exactly a promise to the compiler that you have checked termination yourself.
 
 </details>
 

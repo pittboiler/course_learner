@@ -155,7 +155,9 @@ pack <[Nat], { empty = Nil,
                push  = \n s -> Cons n s,
                pop   = \s -> case s of Nil -> None
                                        Cons n r -> Some (n, r) }>
-  as exists a. { empty : a, push : Nat -> a -> a, pop : a -> Option (Nat * a) }
+  as exists a. { empty : a,
+                 push  : Nat -> a -> a,
+                 pop   : a -> Option (Nat * a) }
 ```
 
 (b) *Accept criterion:* any second implementation with a different $\alpha$ whose operations satisfy the same equations (`pop empty = None`, and `pop (push n s) = Some (n, s)`).
@@ -163,10 +165,12 @@ pack <[Nat], { empty = Nil,
 Represent a stack as a **pair of a list and its length**, $\alpha := [\mathsf{Nat}]\times\mathsf{Nat}$:
 
 ```
-pack <[Nat] * Nat, { empty = (Nil, 0),
-                     push  = \n (s, k) -> (Cons n s, k + 1),
-                     pop   = \(s, k) -> case s of Nil -> None
-                                                  Cons n r -> Some (n, (r, k - 1)) }>
+pack <[Nat] * Nat,
+      { empty = (Nil, 0),
+        push  = \n (s, k) -> (Cons n s, k + 1),
+        pop   = \(s, k) -> case s of
+                   Nil      -> None
+                   Cons n r -> Some (n, (r, k-1)) }>
   as exists a. { ... }
 ```
 
@@ -206,29 +210,40 @@ So the representation-independence theorem of Example 2 is **false for Java**: t
 
 ## Flashback
 
-**From Lesson 2.3 (Denotational semantics and least fixed points):** A loop's meaning is the **least** fixed point, and larger fixed points were rejected because they assert termination the equation never forced.
+**From Lesson 5.1 (Algebraic data types and pattern matching):** Cardinality is literal — $|\tau_1\times\tau_2| = |\tau_1|\cdot|\tau_2|$ and $|\tau_1+\tau_2| = |\tau_1|+|\tau_2|$ — and P1 counted several finite types exactly.
 
-$\mu\beta.\,\tau$ is also a fixed point — of a function on types rather than on partial functions.
+Now apply the same counting to a **recursive** type, $L = \mu\beta.\ \mathsf{Unit} + \mathsf{Bool}\times\beta$.
 
-(a) Say what the least fixed point gives for $\mu\beta.\ \mathsf{Unit}+\mathsf{Nat}\times\beta$, and what the greatest would give.
-(b) Use this to explain, in one sentence each, why ML's lists are finite and Haskell's may be infinite.
+(a) Write the cardinality equation the definition forces, and say why it has no finite solution other than one.
+(b) Count the values of $L$ whose list length is at most 2, and give the general count for length at most $n$.
+(c) A colleague proposes $S = \mu\beta.\ \mathsf{Bool}\times\beta$, dropping the $\mathsf{Unit}$ summand. Give $|S|$ and explain the answer in terms of how a $\mu$-value is built.
 
 <details>
 <summary>Solution</summary>
 
-(a) The type equation is $\beta = \mathsf{Unit} + \mathsf{Nat}\times\beta$, and both fixed points satisfy it.
+(a) Substituting the definition into itself gives the equation
 
-**Least fixed point** ($\mu$): the *finite* lists. Building a value requires finitely many applications of the constructors, starting from the $\mathsf{Unit}$ summand, so every inhabitant is $\mathsf{Cons}\ n_1\ (\cdots(\mathsf{Cons}\ n_k\ \mathsf{Nil}))$ for some finite $k$. This is the same construction as $\bigsqcup_n F^n(\bot)$ in [Lesson 2.3](02-03-denotational-semantics-and-fixed-points.md) — approximate from below, and the limit contains exactly what finitely many steps can reach.
+$$|L| \;=\; 1 + 2\,|L|$$
 
-**Greatest fixed point** ($\nu$): the finite lists **and** the infinite ones. Here membership is not "can be built from below" but "cannot be ruled out" — a value belongs as long as every observation of it is consistent with the equation, so an endless stream of `Cons` cells qualifies. This is the coinductive reading, and it is the type-level counterpart of the greatest fixed point [Lesson 2.3](02-03-denotational-semantics-and-fixed-points.md) P3(d) declined to use for loops.
+since $|\mathsf{Unit}| = 1$, $|\mathsf{Bool}| = 2$, and the product with $\beta$ contributes $|L|$. Rearranging, $|L| = -1$, which no cardinality satisfies — so **$L$ is not finite**, and the only "solution" is $|L| = \infty$, where the equation holds trivially.
 
-The slogan: **$\mu$-types are *constructed* and eliminated by recursion; $\nu$-types are *observed* and constructed by corecursion.**
+That is the counting shadow of recursion: a type mentioning itself under a product generates values of unbounded size, so the cardinality arithmetic of [Lesson 5.1](05-01-algebraic-data-types-and-pattern-matching.md) reports the failure by having no finite fixed point. (The formal reading is that $\mu$ is a fixed point in a domain of *types*, not of numbers, and the numeric equation is only a fingerprint of it.)
 
-(b) **ML's lists are finite** because it is strict ([Lesson 3.4](03-04-evaluation-strategies.md)): a constructor's arguments are evaluated before the cell is built, so constructing an infinite list would require infinitely much work before the first cell exists, and the least fixed point is the honest description of what can be built.
+(b) Count by length. Length 0 is the $\mathsf{Unit}$ summand: **1** value. Length 1 is one boolean and then the empty list: **2**. Length 2 is two booleans: **4**.
 
-**Haskell's may be infinite** because it is lazy: `Cons n thunk` is built without forcing the tail, so a finite amount of work produces a cell whose tail is a recipe — and `nats = 0 : map (+1) nats` is a legal, terminating definition whose inhabitant lives in the greatest fixed point rather than the least.
+At most 2: $1 + 2 + 4 = \mathbf{7}$.
 
-The consequence follows immediately and is worth stating: a function consuming a Haskell list **cannot** assume it will reach `Nil`, so structural recursion is no longer a termination argument there, whereas in ML it is. That is the same trade as [Lesson 3.4](03-04-evaluation-strategies.md)'s — laziness buys infinite data and gives up a guarantee — appearing here as a fact about which fixed point the type denotes.
+In general, length exactly $k$ contributes $2^k$, so at most $n$ gives
+
+$$\sum_{k=0}^{n} 2^k \;=\; 2^{n+1} - 1$$
+
+Unbounded as $n$ grows, which is (a) again — and notice that the finite *approximations* $2^{n+1}-1$ are precisely the $n$-th iterates of the type-level operator, the same ladder as [Lesson 2.3](02-03-denotational-semantics-and-fixed-points.md)'s $F^n(\bot)$.
+
+(c) $|S| = \mathbf{0}$ — the type is **empty**.
+
+The reason is exactly how a $\mu$-value is built: every value must be constructed by **finitely many** applications of `fold`, and each `fold` for $S$ requires a $\mathsf{Bool}$ *and* an existing value of $S$. With no base case there is no first value to start from, so no finite construction ever completes and nothing inhabits the type.
+
+This is the least-fixed-point reading doing its job, and it is the same phenomenon as [Lesson 2.3](02-03-denotational-semantics-and-fixed-points.md)'s $\mathrm{lfp}$ of `while true do skip` being $\bot$: a definition that never bottoms out denotes nothing rather than denoting something arbitrary. Under the **greatest** fixed point $\nu\beta.\ \mathsf{Bool}\times\beta$ the type is instead the infinite streams of booleans — uncountably many — which is the reading a lazy language gives it, and P1(d) above is the same trap.
 
 </details>
 

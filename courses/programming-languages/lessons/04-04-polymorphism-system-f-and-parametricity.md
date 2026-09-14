@@ -62,7 +62,7 @@ The identity becomes $\Lambda\alpha.\,\lambda x{:}\alpha.\ x$. System F is stric
 
 So the choice is forced: annotation-free inference, or first-class polymorphism. Not both. Haskell's `RankNTypes` and Scala's and Rust's higher-rank features are the practical compromise — allow the types, require the annotation.
 
-**Parametricity.** A polymorphic function cannot inspect the type it is instantiated at, so it must behave **uniformly**. Formalized by Reynolds and popularized by Wadler as "theorems for free", this yields real theorems from types alone:
+**Parametricity.** *(card: [parametricity](../reference.md#parametricity))* A polymorphic function cannot inspect the type it is instantiated at, so it must behave **uniformly**. Formalized by Reynolds and popularized by Wadler as "theorems for free", this yields real theorems from types alone:
 
 | type | what the function must be |
 |---|---|
@@ -224,29 +224,40 @@ Now $f$ has a polymorphic type in the context and each use supplies its own type
 
 ## Flashback
 
-**From Lesson 3.2 (Church encodings and beta-reduction):** $\mathsf{pair} = \lambda a.\lambda b.\lambda s.\ s\,a\,b$, with $\mathsf{fst} = \lambda p.\ p\ (\lambda a.\lambda b.\,a)$ — a pair is a function awaiting a selector, and the selector for the first component is literally $\mathsf{tru}$.
+**From Lesson 4.1 (The simply-typed lambda calculus):** The Church numerals type at $\mathsf{Nat}_\tau = (\tau\to\tau)\to\tau\to\tau$, and Example 2 there noted the limitation that motivated this lesson: $\mathsf{Nat}_{\mathsf{Bool}}$ and $\mathsf{Nat}_{\mathsf{Nat}}$ are *different types*, so a numeral usable as a loop over booleans is a different term from one usable over numbers.
 
-(a) Example 1 inferred $\mathsf{pair} : \forall\alpha\beta\gamma.\ \alpha\to\beta\to(\alpha\to\beta\to\gamma)\to\gamma$. Give the type of $\mathsf{fst}$ that HM infers, and say which variable of $\mathsf{pair}$'s type the selector instantiates and to what.
-(b) Parametricity says $\forall\alpha.\ \alpha\to\alpha\to\alpha$ has exactly two inhabitants (P2c). Use this to say something precise about how many *projections* out of a Church pair exist.
+(a) Give the polymorphic type that collapses the whole family into one, and write $\overline{2}$ as a System F term inhabiting it.
+(b) State whether that type is a legal Hindley–Milner scheme, and whether HM would infer it for the unannotated term.
+(c) $\mathsf{plus}$ has type $\mathsf{Nat}_\tau \to \mathsf{Nat}_\tau \to \mathsf{Nat}_\tau$ for each fixed $\tau$. Give its polymorphic type, and say which lesson's rule licenses applying it to two numerals instantiated at *different* types — or state that none does.
 
 <details>
 <summary>Solution</summary>
 
-(a) $\mathsf{fst} = \lambda p.\ p\ (\lambda a.\lambda b.\,a)$ applies $p$ to a selector, so $p$'s type must be an arrow whose domain is the selector's type. The selector $\lambda a.\lambda b.\,a$ has type $\alpha\to\beta\to\alpha$. Hence
+(a) Quantify the parameter:
 
-$$\mathsf{fst} : \forall\alpha\beta.\ \big((\alpha\to\beta\to\alpha) \to \gamma\big) \to \gamma$$
+$$\mathsf{Nat} \;=\; \forall\alpha.\ (\alpha\to\alpha)\to\alpha\to\alpha$$
 
-and since the only way to produce the $\gamma$ is through that application, HM infers (renaming) $\forall\alpha\beta\gamma.\ ((\alpha\to\beta\to\alpha)\to\gamma)\to\gamma$.
+and in System F, with explicit type abstraction,
 
-Matching against $\mathsf{pair}$'s type: after supplying two components, $\mathsf{pair}\ a\ b$ has type $(\alpha\to\beta\to\gamma)\to\gamma$. Applying $\mathsf{fst}$ to it forces the selector type $\alpha\to\beta\to\gamma$ to equal $\alpha\to\beta\to\alpha$, so **$\gamma$ instantiates to $\alpha$** — the result type of the projection is the type of the first component, which is exactly what "first projection" means. Choosing the other selector instantiates $\gamma := \beta$ instead, giving $\mathsf{snd}$.
+$$\overline{2} \;=\; \Lambda\alpha.\ \lambda f{:}\alpha\to\alpha.\ \lambda x{:}\alpha.\ f\,(f\,x)$$
 
-So the pair's third type variable $\gamma$ is a *result-type slot*, and the selector's job is to decide which component's type fills it. That is a precise statement of what [Lesson 3.2](03-02-church-encodings-and-beta-reduction.md) described informally as "a pair is a function awaiting a selector".
+One term. Instantiate it at $\mathsf{Bool}$ to iterate over booleans and at $\mathsf{Nat}$ to iterate over numbers, with no duplication — which is precisely the annoyance [Lesson 4.1](04-01-the-simply-typed-lambda-calculus.md) left open.
 
-(b) Specialize the pair to two components of the **same** type $\alpha$, so that a selector has type $\alpha\to\alpha\to\alpha$. By P2(c) there are exactly **two** closed functions of that type, $\lambda a.\lambda b.\,a$ and $\lambda a.\lambda b.\,b$.
+(b) **Yes, it is a legal HM scheme.** The single quantifier sits at the very front over a quantifier-free body, so it is prenex (rank-1) — P1(a) of this lesson in another costume.
 
-Therefore there are exactly **two projections** out of such a pair — first and second — and no others. Not "two that anyone has thought of", but two in total: parametricity rules out any third selector, because a function at that type cannot inspect its arguments and so cannot make a choice depending on them, and cannot manufacture a new $\alpha$.
+**And yes, HM infers it**, given a `let`-binding. Inferring $\lambda f.\lambda x.\ f\,(f\,x)$ yields $(t\to t)\to t\to t$ with $t$ unconstrained and not free in the context, so $\mathrm{gen}$ quantifies it and the principal type is $\forall\alpha.\ (\alpha\to\alpha)\to\alpha\to\alpha$ — no annotation anywhere. This is the encouraging case: the very thing simple types could not express is inside the fragment HM infers for free.
 
-This is the encoding's completeness argument, and it is the same fact from a different direction as [Lesson 3.2](03-02-church-encodings-and-beta-reduction.md)'s observation that $\mathsf{fst}$'s selector *is* $\mathsf{tru}$: the type $\alpha\to\alpha\to\alpha$ is simultaneously the type of Church booleans and the type of selectors on a homogeneous pair, it has exactly two inhabitants, and those two are the two booleans and the two projections at once.
+(c) $$\mathsf{plus} \;:\; \forall\alpha.\ \mathsf{Nat}_\alpha \to \mathsf{Nat}_\alpha \to \mathsf{Nat}_\alpha$$
+
+with the quantifier outside, so both arguments and the result share **one** $\alpha$.
+
+**No rule licenses applying it to numerals at different types**, and this is the point worth extracting. $\mathsf{Inst}$ instantiates $\alpha$ to a single type for the whole application, so once you pick $\alpha := \mathsf{Bool}$ both arguments must be $\mathsf{Nat}_{\mathsf{Bool}}$. A type permitting genuinely independent instantiations would have to be
+
+$$(\forall\alpha.\ \mathsf{Nat}_\alpha) \to (\forall\beta.\ \mathsf{Nat}_\beta) \to \cdots$$
+
+with quantifiers to the *left* of an arrow — a **rank-2** type, outside HM, requiring an annotation and losing inference by Wells' theorem.
+
+So the limitation did not disappear; it moved. Prenex polymorphism lets one *term* serve every type, and still requires every use within a single application to agree — which is exactly the boundary the Picture draws, and exactly why P3 needed an annotation to type $B$.
 
 </details>
 

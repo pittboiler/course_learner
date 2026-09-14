@@ -37,7 +37,7 @@ class Monad m where
     (>>=)  :: m a -> (a -> m b) -> m b
 ```
 
-**The three laws.** These are not checked by the compiler; they are obligations on the implementer, and every useful consequence depends on them.
+**The three laws.** *(card: [the monad laws](../reference.md#the-monad-laws))* These are not checked by the compiler; they are obligations on the implementer, and every useful consequence depends on them.
 
 $$\textbf{left identity:}\quad \mathsf{return}\ a \mathbin{>\!\!>\!\!=} f \;=\; f\ a$$
 

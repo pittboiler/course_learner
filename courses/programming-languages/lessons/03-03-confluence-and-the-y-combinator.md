@@ -32,7 +32,7 @@ There the fixed point was constructed *semantically*, as the limit of a chain. H
 
 **Definition (redex, normal form).** A **redex** is a subterm of the form $(\lambda x.\,t)\,s$. A term is in **normal form** if it contains no redex. Write $\to^*_\beta$ for the reflexive-transitive closure of $\to_\beta$.
 
-**Theorem (Church–Rosser / confluence).** If $t \to^*_\beta u$ and $t \to^*_\beta v$, then there exists $w$ with $u \to^*_\beta w$ and $v \to^*_\beta w$.
+**Theorem (Church–Rosser / confluence).** *(card: [redex normal form confluence](../reference.md#redex-normal-form-confluence))* If $t \to^*_\beta u$ and $t \to^*_\beta v$, then there exists $w$ with $u \to^*_\beta w$ and $v \to^*_\beta w$.
 
 **Corollary (uniqueness of normal forms).** If $t \to^*_\beta u$ and $t \to^*_\beta v$ with $u$ and $v$ both in normal form, then $u \equiv_\alpha v$.
 

@@ -54,7 +54,7 @@ $$F(g) \;=\; \lambda s.\ \text{if } [\![ b ]\!]\,s \ \text{ then } g([\![ c ]\!]
 
 In words: $F$ takes a candidate loop-meaning $g$ and returns the meaning of "check the guard; if false stop, if true run the body once and then behave like $g$". So $F(g)$ knows how to run **one more iteration** than $g$ does.
 
-**Theorem (Kleene fixed point).** If $F$ is monotone ($g \sqsubseteq h \Rightarrow F(g) \sqsubseteq F(h)$) and continuous (it commutes with least upper bounds of chains) on a CPO with least element $\bot$, then $F$ has a least fixed point, and it is
+**Theorem (Kleene fixed point).** *(card: [complete partial order and least fixed point](../reference.md#complete-partial-order-and-least-fixed-point))* If $F$ is monotone ($g \sqsubseteq h \Rightarrow F(g) \sqsubseteq F(h)$) and continuous (it commutes with least upper bounds of chains) on a CPO with least element $\bot$, then $F$ has a least fixed point, and it is
 
 $$\mathrm{lfp}\,F \;=\; \bigsqcup_{n \ge 0} F^n(\bot)$$
 

@@ -169,16 +169,20 @@ Lower priority but on the map. Sequenced so each field's roots come first.
 Mostly prereq-light; a strong greenfield. Pedagogy is settled in `CS-BUILD-BRIEF.md` —
 CS is taught **analytically** against six problem archetypes, because the platform runs no code.
 
-**Status (2026-09-11): 13 of 16 built.** Done: `programming-foundations` (15), `algorithms` (20),
+**Status (2026-09-14): 14 of 16 built.** Done: `programming-foundations` (15), `algorithms` (20),
 `theory-of-computation` (16), `computer-architecture` (20), `operating-systems` (20),
 `computer-networks` (16), `databases` (25), `machine-learning` (23), `distributed-systems` (25),
 `cryptography` (21), `deep-learning` (22), `quantum-computing` (**34** — syllabus deepened from 20
 at Jacob's request; see the revision note in its syllabus), `computational-complexity` (**28** —
 syllabus rebuilt from 18; the original taught no hierarchy theorems despite two courses promising
 them, four lessons restated `algorithms` Module 4, and counting and fine-grained complexity were
-absent entirely. See the revision note in its syllabus). Remaining, all with prerequisites already
-built so none is blocked: `programming-languages` (21), `reinforcement-learning` (21),
-`computer-graphics` (20).
+absent entirely. See the revision note in its syllabus), `programming-languages` (**36** — syllabus
+rebuilt from 21; two lessons restated `theory-of-computation` 2.1 (including Boss problem 1
+verbatim), four topics that other built courses explicitly promise this one would teach were absent
+(linear types and borrow checking, abstract interpretation, monads-as-effects, axiomatic semantics),
+and subtyping, modules and type classes appeared nowhere. See the revision note in its syllabus).
+Remaining, both with prerequisites already built so neither is blocked:
+`reinforcement-learning` (21), `computer-graphics` (20).
 
 `programming-foundations` (0) → `algorithms` (1) → `theory-of-computation` (1),
 `computer-architecture` (1), `operating-systems` (1), `computer-networks` (1),

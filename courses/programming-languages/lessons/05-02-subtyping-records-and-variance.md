@@ -34,7 +34,7 @@ $$\frac{\tau_i <: \sigma_i \ \text{for each } i}{\{\ell_1{:}\tau_1,\ldots,\ell_n
 
 Width: **more fields is a subtype** — a record with extra fields can stand in wherever fewer are needed, because every field the client asks for is present. (It reads backwards the first time; the *smaller* type has the *larger* set of values.) Depth: fields may be replaced by subtypes, **provided the record is immutable** — see the Watch out.
 
-**The function rule.** The one to memorize:
+**The function rule.** *(card: [variance](../reference.md#variance))* The one to memorize:
 
 $$\frac{T_1 <: S_1 \qquad S_2 <: T_2}{S_1 \to S_2 \;<:\; T_1 \to T_2}\;(\mathsf{Arrow})$$
 
@@ -75,7 +75,7 @@ Row four is the one to internalize. A function that accepts *any* animal and is 
 String[] strings = new String[1];
 Object[] objects = strings;          // legal: String[] <: Object[]
 objects[0] = Integer.valueOf(42);    // compiles fine
-String s = strings[0];               // would read an Integer as a String
+String s = strings[0];          // reads an Integer as a String
 ```
 
 Every line type-checks. Line 2 uses array covariance. Line 3 stores an `Integer` into something statically typed `Object[]`, which the type rules permit. Line 4 reads through the original alias, whose static type says `String`.

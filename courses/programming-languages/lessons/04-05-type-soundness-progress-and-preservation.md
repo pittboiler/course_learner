@@ -25,7 +25,7 @@ Note what is *not* claimed. Soundness says nothing about termination — a well-
 
 **Definition (stuck).** A term is **stuck** if it is not a value and no evaluation rule applies. This is [Lesson 2.1](02-01-small-step-operational-semantics.md)'s definition; $\mathsf{if}\ \overline{3}\ \mathsf{then}\ \cdots$ and $\mathsf{true}\ \overline{5}$ (applying a boolean) are the canonical examples.
 
-**Lemma (canonical forms).** If $\vdash v : \tau_1 \to \tau_2$ and $v$ is a value, then $v$ has the form $\lambda x{:}\tau_1.\,e$. If $\vdash v : \mathsf{Bool}$ and $v$ is a value, then $v$ is $\mathsf{true}$ or $\mathsf{false}$.
+**Lemma (canonical forms).** *(card: [canonical forms](../reference.md#canonical-forms))* If $\vdash v : \tau_1 \to \tau_2$ and $v$ is a value, then $v$ has the form $\lambda x{:}\tau_1.\,e$. If $\vdash v : \mathsf{Bool}$ and $v$ is a value, then $v$ is $\mathsf{true}$ or $\mathsf{false}$.
 
 In words: **a value's type determines its shape.** This unglamorous lemma is the workhorse — it is what lets progress conclude that the thing in function position really is a function, and it is proved by inspecting which typing rules can conclude each type.
 

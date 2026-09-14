@@ -28,7 +28,7 @@ And once continuations are values, "control" is just "which continuation do I ca
 
 ## The formal version
 
-**The CPS transform.** Write $[\![ e ]\!]\,k$ for "evaluate $e$ and pass the result to $k$".
+**The CPS transform.** *(card: [the cps transform](../reference.md#the-cps-transform))* Write $[\![ e ]\!]\,k$ for "evaluate $e$ and pass the result to $k$".
 
 $$[\![ x ]\!]\,k = k\,x \qquad\qquad [\![ \lambda x.\,e ]\!]\,k = k\,(\lambda x.\lambda k'.\ [\![ e ]\!]\,k')$$
 
@@ -97,7 +97,7 @@ Implement it with continuations. When `yield v` runs, it must (i) hand $v$ to th
 ```
 yield v = callcc (\resume ->
               producerState := resume;     -- save where we are
-              consumerCont v)              -- jump to the consumer with v
+              consumerCont v)        -- jump to the consumer
 ```
 
 and `next()` on the consumer side does the mirror image: save the consumer's continuation, then invoke the saved `producerState`.
@@ -203,12 +203,10 @@ Its presence makes the language correspond to **classical** rather than intuitio
 
 ## Flashback
 
-**From Lesson 3.2 (Church encodings and beta-reduction):** A pair is $\lambda a.\lambda b.\lambda s.\ s\,a\,b$ — a value packaged as "give me a consumer and I will feed myself to it".
+**From Lesson 4.2 (Type checking and the Curry-Howard correspondence):** P1(c) gave $\lambda x.\lambda f.\ f\,x$ as an inhabitant of $\alpha \to (\alpha\to\beta)\to\beta$, and P3(a) gave the *same term* as an inhabitant of $\alpha \to \neg\neg\alpha$, where $\neg\tau = \tau \to \mathsf{Void}$.
 
-[Lesson 4.2](04-02-type-checking-and-curry-howard.md) P1(c) noted that $\alpha \to (\alpha\to\beta)\to\beta$ is inhabited by $\lambda x.\lambda f.\ f\,x$.
-
-(a) State the relationship between that term and the CPS transform of a value.
-(b) Use it to explain in one sentence why the Church encoding of a datatype ([Lesson 5.1](05-01-algebraic-data-types-and-pattern-matching.md)'s Flashback) is "the type of its eliminator".
+(a) State the relationship between that term and the CPS transform of a value, reading the type.
+(b) Use it to say what the CPS transform does to a *program's type*, and name the logical translation this coincides with.
 
 <details>
 <summary>Solution</summary>
@@ -217,15 +215,23 @@ Its presence makes the language correspond to **classical** rather than intuitio
 
 $$[\![ x ]\!]\,k = k\,x \qquad\text{i.e.}\qquad [\![ x ]\!] = \lambda k.\ k\,x$$
 
-So CPS-converting the value $x$ produces exactly $\lambda k.\ k\,x$, and $\lambda x.\lambda f.\ f\,x$ is that operation as a function — "take a value, return its CPS form". The type $\alpha\to(\alpha\to\beta)\to\beta$ reads directly as "from an $\alpha$, produce something that takes an $\alpha$-consumer and runs it", and the continuation type $\alpha\to\beta$ is the consumer.
+So CPS-converting the value $x$ produces exactly $\lambda k.\ k\,x$, and the term above is that operation packaged as a function — "take a value, return its CPS form".
 
-This also explains [Lesson 4.2](04-02-type-checking-and-curry-howard.md)'s observation that $\alpha\to\neg\neg\alpha$ is inhabited by the same term with $\beta := \mathsf{Void}$: double negation *is* the continuation type with an uninhabited answer type, and the CPS transform is double-negation translation. Classical logic embeds into intuitionistic logic by exactly the transformation that makes control explicit — which is the same fact as (d) above, seen from the proof-theory side.
+The type says the same thing, once you read $\beta$ as the answer type: $\alpha\to\beta$ is the type of a **continuation** expecting an $\alpha$, and $(\alpha\to\beta)\to\beta$ is the type of a computation that will hand an $\alpha$ to any such continuation. So
 
-(b) Because a Church-encoded value **is** its own continuation-taker: it is defined as "hand me the handlers and I will apply the right one", so its type is precisely the type of the function that consumes it — the eliminator.
+$$\alpha \;\to\; \underbrace{(\alpha\to\beta)\to\beta}_{\text{CPS of an }\alpha}$$
 
-Spelled out for a sum, whose eliminator is `case`: a value of $\alpha+\beta$ is encoded as $\forall\gamma.\ (\alpha\to\gamma)\to(\beta\to\gamma)\to\gamma$, which is the type of `case` with its scrutinee removed. The two handlers are the two continuations — one for each branch — and choosing which to call *is* the case analysis. Likewise a Church numeral takes the successor-continuation and the zero-continuation, and a Church pair takes the selector.
+is literally "every value can be presented as a computation that feeds itself to a consumer". That is also [Lesson 3.2](03-02-church-encodings-and-beta-reduction.md)'s slogan — data encoded by what you can do with it — applied to control rather than to data.
 
-So the three ideas in this Flashback are one: **CPS, Church encoding, and "an object is known by its maps"** ([`category-theory` 2.2](../../category-theory/lessons/02-02-representable-functors.md)) all say that a value can be replaced by the function that consumes it, with no loss. [Lesson 3.2](03-02-church-encodings-and-beta-reduction.md) called it "data encoded by what you can do with it"; here it is the same move applied to control.
+(b) CPS transforms a program of type $\tau$ into one of type $(\tau\to\rho)\to\rho$, where $\rho$ is the answer type. Setting $\rho := \mathsf{Void}$ gives
+
+$$\tau \quad\rightsquigarrow\quad (\tau\to\mathsf{Void})\to\mathsf{Void} \;=\; \neg\neg\tau$$
+
+so **the CPS transform is the double-negation translation**, which is the standard embedding of classical logic into intuitionistic logic (Gödel–Gentzen, and in this precise form the Kolmogorov/Friedman translation).
+
+The coincidence is exact and explains the lesson's other surprise from both sides. P3(d) observed that `callcc` inhabits Peirce's law and so makes the language classical. This says *why* the embedding works: a classical proof of $A$ is an intuitionistic proof of $\neg\neg A$, and computationally an intuitionistic proof of $\neg\neg A$ **is** a CPS-converted program — one that never returns a value but instead hands it to a continuation. "Assume the negation, derive a contradiction, jump back" and "capture the continuation and invoke it later" are the same operation, read in logic and in code.
+
+It also explains P3(b)'s asymmetry cleanly. $\alpha\to\neg\neg\alpha$ is inhabited because every value *can* be put in CPS; $\neg\neg\alpha\to\alpha$ is not, because running a CPS computation to extract its value requires an answer type you do not have — you would need to supply a continuation $\alpha\to\mathsf{Void}$, and none exists.
 
 </details>
 

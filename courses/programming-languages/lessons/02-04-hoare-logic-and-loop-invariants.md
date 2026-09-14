@@ -48,7 +48,7 @@ Three obligations follow, and they are exactly [`programming-foundations` 1.2](.
 
 **Finding $I$ is not mechanical.** The rule *checks* an invariant; it does not produce one. This is the creative step, and the useful heuristic is: **the invariant is the postcondition, weakened just enough to be true at every iteration.** You want $x = q\cdot y + r \wedge 0 \le r < y$; the part $r < y$ is false during the loop (that is why the loop is still running), so drop it and keep the rest.
 
-**Termination: the variant.** Exhibit an expression $V$ over the program variables such that
+**Termination: the variant.** *(card: [loop invariant and variant](../reference.md#loop-invariant-and-variant))* Exhibit an expression $V$ over the program variables such that
 
 $$I \wedge b \;\Rightarrow\; V \ge 0, \qquad\qquad \{I \wedge b \wedge V = k\}\ c\ \{V < k\}$$
 
@@ -192,25 +192,25 @@ Concretely, on $x = -3$, $y = 5$: the precondition $y > 0$ holds, but after init
 
 ## Flashback
 
-**From Lesson 2.3 (Denotational semantics and least fixed points):** The loop's denotation is $\mathrm{lfp}\,F$, reached by the chain $\bot \sqsubseteq F(\bot) \sqsubseteq F^2(\bot) \sqsubseteq \cdots$, where $F^n(\bot)$ is the loop truncated to fewer than $n$ iterations.
+**From Lesson 2.2 (Big-step semantics and the environment model):** The loop needs two rules, and $\mathsf{While\text{-}T}$ has three premises — the guard, the body, and *the same judgment about the same command*, making the rule recursive. A loop running $k$ times produces a derivation of depth $k+1$.
 
-The Hoare rule $\dfrac{\{I \wedge b\}\ c\ \{I\}}{\{I\}\ \mathsf{while}\ b\ \mathsf{do}\ c\ \{I \wedge \neg b\}}$ mentions no chain and no limit.
+The Hoare rule $\dfrac{\{I \wedge b\}\ c\ \{I\}}{\{I\}\ \mathsf{while}\ b\ \mathsf{do}\ c\ \{I \wedge \neg b\}}$ has **one** premise and no recursion.
 
-(a) Explain what the invariant $I$ is doing that lets the rule avoid the iteration entirely.
-(b) Use this to say why the Hoare rule proves only *partial* correctness, referring to what the chain does and the rule does not.
+(a) State what the invariant is doing that lets the rule avoid the recursive premise.
+(b) Use this to say why the Hoare rule proves only *partial* correctness, referring to what the big-step derivation records and the Hoare rule does not.
 
 <details>
 <summary>Solution</summary>
 
-(a) The invariant is a property that holds at **every** point of the chain — it is true of $F^1(\bot)$'s behaviour, of $F^2(\bot)$'s, and so of the limit. The premise $\{I \wedge b\}\ c\ \{I\}$ is precisely the inductive step showing that if $I$ describes the state after $n$ iterations then it describes the state after $n+1$; establishment is the base case. So the rule is an **induction over the chain, discharged in one premise** rather than by exhibiting the chain.
+(a) The invariant is a property holding at **every** depth of the big-step derivation — after zero iterations, after one, after $k$. The premise $\{I \wedge b\}\ c\ \{I\}$ is exactly the inductive step showing that if $I$ describes the state entering an iteration then it describes the state leaving it; establishment is the base case. So the Hoare rule is **an induction over the derivation's depth, discharged in one premise** rather than by building the derivation.
 
-That is the general trade. The denotational account computes the loop's meaning by unbounded iteration, which is exact but infinite; the Hoare rule asks you to supply a *finitely checkable* property strong enough to survive one step, and gets a conclusion about all steps for free. The invariant is what makes an infinite process finitely provable — the same move as a loop invariant in [`programming-foundations` 1.2](../../programming-foundations/lessons/01-02-functions-contracts-and-invariants.md), and the same move as induction itself.
+That is the general trade. Big-step describes the loop by a tree whose depth is the iteration count, which is exact and grows with the input; the Hoare rule asks you to supply a *finitely checkable* property strong enough to survive one iteration, and concludes something about all of them. The invariant is what makes an unbounded process finitely provable — the same move as induction itself, and the same move [`programming-foundations` 1.2](../../programming-foundations/lessons/01-02-functions-contracts-and-invariants.md) called loop maintenance.
 
-(b) The chain does one thing the rule does not: it records **where the loop is defined**. $F^n(\bot)$ has a domain, and the limit's domain is exactly the set of states from which the loop terminates. States outside it are simply absent, and that absence is the semantics' record of divergence.
+(b) The big-step derivation records one thing the Hoare rule does not: **that the loop terminated at all.** A derivation of $\langle \mathsf{while}\ b\ \mathsf{do}\ c,\ s\rangle \Downarrow s'$ is a *finite* tree, and its very existence certifies that $\mathsf{While\text{-}F}$ was reached — that the guard eventually failed. [Lesson 2.2](02-02-big-step-semantics-and-environments.md) Example 2 made this precise: a non-terminating loop has no derivation, because any purported one would contain a proper sub-derivation of itself.
 
-The Hoare rule has no domain. Its conclusion $\{I\}\ \mathsf{while}\ b\ \mathsf{do}\ c\ \{I \wedge \neg b\}$ is a conditional claim — *if* the loop exits, $I \wedge \neg b$ holds — and nothing in the premise can fail when the loop never exits, because the premise only constrains a single body execution. So a loop that runs forever satisfies every invariant vacuously, which is exactly why $\{\mathsf{true}\}\ \mathsf{while\ true\ do\ skip}\ \{\mathsf{false}\}$ is derivable.
+The Hoare rule has no such witness. Its conclusion is a conditional claim — *if* the loop exits, then $I \wedge \neg b$ — and nothing in its single premise can fail when the loop never exits, since that premise constrains only one body execution. A loop that runs forever therefore satisfies every invariant vacuously, which is why $\{\mathsf{true}\}\ \mathsf{while\ true\ do\ skip}\ \{\mathsf{false}\}$ is derivable.
 
-Recovering what the chain knew requires the separate termination obligation: the **variant**, a natural number decreasing each iteration, which bounds the number of chain steps needed and so certifies that the state is inside the limit's domain. Partial correctness plus a variant is total correctness — that is, the Hoare account plus the variant recovers exactly the information the denotational domain carried for free.
+Recovering what the derivation's finiteness supplied for free requires the separate obligation: the **variant**, a natural number decreasing each iteration, which bounds the depth the derivation would have had. Partial correctness plus a variant is total correctness — that is, the Hoare account plus the variant recovers exactly the information a big-step derivation carries in its existence.
 
 </details>
 

@@ -161,30 +161,6 @@ Subtraction has the mirror property. The right-associative reading collapses: $a
 
 </details>
 
-## Flashback
-
-**From Lesson 1.1 (Languages, paradigms and the design space):** A language designer chooses to make her language *expression-oriented*: every construct produces a value, and there is no separate statement category. She now wants a `for` loop.
-
-(a) Her core language has `while`, which produces the unit value. She desugars `for` to `while` exactly as in the table above. Which of the six design axes has she just constrained, and what has the desugaring committed her to about the *value* of a `for` loop?
-
-(b) A colleague proposes instead making `for` a primitive that returns the list of values its body produced on each iteration. State which axis this moves her along, and name one thing it costs.
-
-<details>
-<summary>Solution</summary>
-
-(a) **Axis 1 — what is a value, and is everything an expression.** Desugaring `for` to `while` commits `for` to producing whatever `while` produces, namely the unit value. So in her language `x = for (...) {...}` is legal (everything is an expression) but useless (it always yields unit). This is the ordinary outcome and it is fine: expression-orientation guarantees that every construct *has* a value, not that every value is interesting.
-
-The general point is that a desugaring is not neutral. It forces the surface construct to inherit every property of its target — value, evaluation order, and scoping — so the choice of target *is* a semantic decision, not a notational one.
-
-(b) Making `for` collect its body's values moves her along **axis 6, the abstraction mechanism**: the loop becomes a `map`-like combinator rather than a control construct, which is a choice about how repetition composes with the rest of the language.
-
-Costs, any one of which is a complete answer:
-- It can no longer desugar to `while` — it needs its own typing rule, its own optimization treatment, and its own code generation, which is precisely the $m \times n$ cost the core-language discipline exists to avoid.
-- It allocates. A loop run purely for effect now builds a list nobody reads, so either the compiler must prove the result dead and eliminate it (dead-code elimination, Lesson 7.4) or every loop pays for a collection.
-- It forces a decision about the element type when branches of the body produce different types, which pushes work onto the type system (Module 4).
-
-</details>
-
 ## Connections
 
 - **Backward:** grammars, derivations, parse trees and ambiguity are [`theory-of-computation` 2.1](../../theory-of-computation/lessons/02-01-context-free-grammars-derivations-parse-trees.md)'s, and this lesson uses its layered expression grammar without re-deriving it. Axis 1 of [Lesson 1.1](01-01-languages-paradigms-and-the-design-space.md) is the choice the Flashback constrains.

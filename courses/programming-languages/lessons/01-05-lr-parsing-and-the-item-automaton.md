@@ -23,7 +23,7 @@ The stack does not hold symbols; it holds **states**. The states already summari
 
 ## The formal version
 
-**Definition (LR(0) item).** For a production $A \to \alpha\beta$, the item $A \to \alpha \cdot \beta$. An item with the dot at the right end is **complete**.
+**Definition (LR(0) item).** *(card: [lr0 item and the item automaton](../reference.md#lr0-item-and-the-item-automaton))* For a production $A \to \alpha\beta$, the item $A \to \alpha \cdot \beta$. An item with the dot at the right end is **complete**.
 
 **Definition (closure).** If $A \to \alpha \cdot B\beta$ is in a state and $B$ is a nonterminal, then for every production $B \to \gamma$ the item $B \to \cdot\,\gamma$ is also in that state. Iterate to a fixed point.
 

@@ -26,7 +26,7 @@ But exclusive ownership alone is unusable: you could not pass a value to a funct
 
 ## The formal version
 
-**Structural rules.** Ordinary type systems admit three rules usually left implicit:
+**Structural rules.** *(card: [linear and affine types](../reference.md#linear-and-affine-types))* Ordinary type systems admit three rules usually left implicit:
 
 $$\frac{\Gamma, x{:}\tau, y{:}\tau \vdash e : \sigma}{\Gamma, z{:}\tau \vdash [x,y := z]\,e : \sigma}\;(\mathsf{Contraction}) \qquad \frac{\Gamma \vdash e : \sigma}{\Gamma, x{:}\tau \vdash e : \sigma}\;(\mathsf{Weakening})$$
 

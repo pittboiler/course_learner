@@ -44,7 +44,7 @@ In words. $\mathsf{T\text{-}Var}$: look it up. $\mathsf{T\text{-}Abs}$: to type 
 
 Since $\Omega = (\lambda x.\,x\,x)(\lambda x.\,x\,x)$ and $Y$ both contain $x\,x$ ([Lesson 3.3](03-03-confluence-and-the-y-combinator.md)), **both are untypable.** And that is not an accident:
 
-**Theorem (strong normalization).** Every well-typed term of the simply-typed lambda calculus reduces to a normal form, under *every* reduction order, in finitely many steps.
+**Theorem (strong normalization).** *(card: [strong normalization](../reference.md#strong-normalization))* Every well-typed term of the simply-typed lambda calculus reduces to a normal form, under *every* reduction order, in finitely many steps.
 
 In words: **a well-typed program always terminates.** No infinite loops, no divergence, no matter what you write.
 

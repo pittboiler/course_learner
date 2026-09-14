@@ -42,7 +42,7 @@ The substitution it produces is the *most general* one: it commits to nothing th
 4. If both are arrows, $\tau_1 = a_1 \to b_1$ and $\tau_2 = a_2 \to b_2$: let $S_1 = \mathrm{unify}(a_1, a_2)$, then $S_2 = \mathrm{unify}(S_1 b_1, S_1 b_2)$, and return $S_2 \circ S_1$.
 5. Otherwise fail (a structural clash — arrow against base type).
 
-**Theorem (Robinson).** If two types have any unifier, this algorithm finds one, and it is most general.
+**Theorem (Robinson).** *(card: [most general unifier and the occurs check](../reference.md#most-general-unifier-and-the-occurs-check))* If two types have any unifier, this algorithm finds one, and it is most general.
 
 **The occurs check is the whole difficulty.** Without step 1's check, $\mathrm{unify}(\alpha,\ \alpha \to \beta)$ would return $\{\alpha \mapsto \alpha \to \beta\}$, and substituting into itself gives $(\alpha\to\beta)\to\beta$, then $((\alpha\to\beta)\to\beta)\to\beta$ — an **infinite type**. Types are finite trees, so no such type exists, and the check is what enforces that. It is exactly [Lesson 4.1](04-01-the-simply-typed-lambda-calculus.md) P2's counting argument, mechanized.
 

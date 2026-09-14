@@ -93,9 +93,11 @@ This is by-reference capture meeting a shared binding, and it appears in every l
 Two repairs, both verified:
 
 ```python
-fs = [ (lambda i=i: i) for i in range(3) ]      # [0, 1, 2] -- default arg copies at capture
+# default arg copies the value at capture time
+fs = [ (lambda i=i: i) for i in range(3) ]      # [0, 1, 2]
 def mk(x): return lambda: x
-fs = [ mk(i) for i in range(3) ]                # [0, 1, 2] -- a fresh binding per call
+# mk gives a fresh binding per call
+fs = [ mk(i) for i in range(3) ]                # [0, 1, 2]
 ```
 
 Both work by the same mechanism: **create a new binding whose value is fixed at capture time.** The default-argument trick copies the value into a parameter; `mk` creates a fresh `x` per call, and the closure captures *that*.

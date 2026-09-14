@@ -30,12 +30,15 @@ The output is a decorated tree: every use occurrence now points at the declarati
 
 ```
 resolve(node, stack):
-    case Block(stmts):      push(stack); for s in stmts: resolve(s, stack); pop(stack)
-    case Decl(name, init):  resolve(init, stack)            # before inserting: see below
-                            if name in top(stack): error "duplicate declaration"
+    case Block(stmts):      push(stack)
+                            for s in stmts: resolve(s, stack)
+                            pop(stack)
+    case Decl(name, init):  resolve(init, stack)   # before inserting!
+                            if name in top(stack): error "duplicate"
                             top(stack)[name] = node
     case Use(name):         for frame in stack, top to bottom:
-                                if name in frame: node.binder = frame[name]; return
+                                if name in frame:
+                                    node.binder = frame[name]; return
                             error "undefined variable: " + name
     otherwise:              for c in children(node): resolve(c, stack)
 ```

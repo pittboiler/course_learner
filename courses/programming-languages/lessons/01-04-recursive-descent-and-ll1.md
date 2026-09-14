@@ -24,7 +24,7 @@ So the grammar has to have a property: **for every nonterminal, the next token m
 
 ## The formal version
 
-**Definition (FIRST).** For a string of symbols $\alpha$, $\mathrm{FIRST}(\alpha)$ is the set of terminals that can begin a string derived from $\alpha$, plus $\varepsilon$ if $\alpha \Rightarrow^* \varepsilon$.
+**Definition (FIRST).** *(card: [first and follow](../reference.md#first-and-follow))* For a string of symbols $\alpha$, $\mathrm{FIRST}(\alpha)$ is the set of terminals that can begin a string derived from $\alpha$, plus $\varepsilon$ if $\alpha \Rightarrow^* \varepsilon$.
 
 **Definition (FOLLOW).** For a nonterminal $A$, $\mathrm{FOLLOW}(A)$ is the set of terminals that can appear immediately after $A$ in some sentential form derived from the start symbol, plus the end-marker $\mathsf{eof}$ if $A$ can end a complete derivation.
 
@@ -57,7 +57,7 @@ parseE():
     while lookahead in {+, -}:
         op = consume()
         rhs = parseT()
-        node = BinOp(op, node, rhs)     # <- left-leaning: node goes on the left
+        node = BinOp(op, node, rhs)   # <- left-leaning
     return node
 ```
 

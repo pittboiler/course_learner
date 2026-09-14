@@ -168,7 +168,9 @@ Worth noting: the four values are `None`, `Some None`, `Some (Some true)`, `Some
 
 (Note the placement: values live on `Leaf` and `Node` carries none, which is what the question specified. The more common shape, values at internal nodes, is `data Tree a = Empty | Node (Tree a) a (Tree a)`.)
 
-(d) ```
+(d)
+
+```
 data JSON = JNull
           | JBool Bool
           | JNum Double
