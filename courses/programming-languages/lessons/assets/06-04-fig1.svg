@@ -1,0 +1,26 @@
+<svg viewBox="0 0 660 340" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="40.0" y="24.0" fill="#8a8a8a" font-style="italic">Stack and heap: two allocation disciplines</text>
+  <rect x="90.0" y="70.0" width="200.0" height="200.0" fill="none" stroke="#4a90d9" stroke-width="1.6" rx="4"/>
+  <text x="190.0" y="94.0" fill="#4a90d9" font-size="12" text-anchor="middle">STACK</text>
+  <rect x="106.0" y="120.0" width="168.0" height="36.0" fill="none" stroke="#8a8a8a" stroke-width="1.2" rx="3"/>
+  <text x="190.0" y="143.0" fill="#8a8a8a" font-size="11" text-anchor="middle">main  activation record</text>
+  <rect x="106.0" y="164.0" width="168.0" height="36.0" fill="none" stroke="#8a8a8a" stroke-width="1.2" rx="3"/>
+  <text x="190.0" y="187.0" fill="#8a8a8a" font-size="11" text-anchor="middle">outer  activation record</text>
+  <rect x="106.0" y="208.0" width="168.0" height="36.0" fill="none" stroke="#8a8a8a" stroke-width="1.2" rx="3"/>
+  <text x="190.0" y="231.0" fill="#8a8a8a" font-size="11" text-anchor="middle">inner  activation record</text>
+  <line x1="300.0" y1="226.0" x2="300.0" y2="140.0" stroke="#e0645c" stroke-width="1.4"/>
+  <polygon points="300.0,140.0 295.0,151.0 305.0,151.0" fill="#e0645c"/>
+  <text x="308.0" y="190.0" fill="#e0645c" font-size="11">grows</text>
+  <text x="308.0" y="206.0" fill="#e0645c" font-size="11">and pops</text>
+  <rect x="400.0" y="70.0" width="200.0" height="200.0" fill="none" stroke="#e0645c" stroke-width="1.6" rx="4"/>
+  <text x="500.0" y="94.0" fill="#e0645c" font-size="12" text-anchor="middle">HEAP</text>
+  <circle cx="440.0" cy="140.0" r="14" fill="none" stroke="#8a8a8a" stroke-width="1.3"/>
+  <circle cx="500.0" cy="128.0" r="18" fill="none" stroke="#8a8a8a" stroke-width="1.3"/>
+  <circle cx="556.0" cy="152.0" r="12" fill="none" stroke="#8a8a8a" stroke-width="1.3"/>
+  <circle cx="452.0" cy="196.0" r="16" fill="none" stroke="#8a8a8a" stroke-width="1.3"/>
+  <circle cx="520.0" cy="196.0" r="13" fill="none" stroke="#8a8a8a" stroke-width="1.3"/>
+  <circle cx="566.0" cy="214.0" r="10" fill="none" stroke="#8a8a8a" stroke-width="1.3"/>
+  <text x="500.0" y="252.0" fill="#8a8a8a" font-size="11" text-anchor="middle">no order, freed on demand</text>
+  <text x="70.0" y="296.0" fill="#8a8a8a" font-size="12">A stack frame dies exactly when its call returns, so deallocation is free -- one</text>
+  <text x="70.0" y="318.0" fill="#8a8a8a" font-size="11">register move. Anything outliving its call must go on the heap, and then somebody has to decide.</text>
+</svg>
