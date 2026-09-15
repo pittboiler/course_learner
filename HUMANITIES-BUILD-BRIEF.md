@@ -176,6 +176,10 @@ openly. The discipline that keeps them honest:
   encyclicals and conciliar translations, modern Bible translations). At most a short
   phrase in quotation marks, attributed; otherwise summarize and cite the section.
 - Close-reading problems (archetype 7) use public-domain passages only, ≤150 words.
+- **Where only the original is public domain** (Husserl, Heidegger, Scheler, Stein, Simmel, and
+  conciliar Latin), a lesson may publish its **own translation of ≤150 words** from an original
+  published in 1930 or earlier, marked as the lesson's translation. Never translate from a
+  copyrighted modern translation; paraphrase instead when a text's status is unclear.
 - A lesson may add a `## Source` section after "The idea" holding the passage it reads
   closely. This is an addition to the lesson template, not a replacement.
 

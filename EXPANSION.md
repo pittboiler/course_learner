@@ -228,7 +228,7 @@ science, and ethics & decision theory moved to Phase 11.)
 
 ---
 
-### Phase 11 — Philosophy, Politics & Society, Catholic Theology · 47 courses · ~1,037 lessons
+### Phase 11 — Philosophy, Politics & Society, Catholic Theology · 47 courses · ~1,181 lessons
 
 Locked 2026-09-15. Replaces the "Humanities" placeholder. Pedagogy (problem kinds,
 rubric keys, stance rules, primary sources, ownership, build order) is settled in
@@ -241,64 +241,64 @@ changes the brief lists) → roots (`ethics`, `fundamental-theology`,
 `political-institutions`, `history-of-debt`, `church-history`,
 `history-of-political-thought`, `social-theory`) → spines → Tier 2 in prerequisite order.
 
-**Philosophy (Field 11)** · 15 courses · ~306 lessons
+**Philosophy (Field 11)** · 15 courses · ~357 lessons
 
 - [ ] `philosophical-method` — Philosophical Method (1, 16) — syllabus ✓ (2026-09-15), lessons pending
-- [ ] `ancient-medieval-philosophy` — Ancient & Medieval Philosophy (1, 24) — pending
-- [ ] `modern-philosophy` — Modern Philosophy (1, 22) — pending
+- [ ] `ancient-medieval-philosophy` — Ancient & Medieval Philosophy (1, 29) — syllabus ✓ (2026-09-15), lessons pending
+- [ ] `modern-philosophy` — Modern Philosophy (1, 27) — syllabus ✓ (2026-09-15), lessons pending
 - [ ] `ethics` — Ethics (1, 26) — syllabus ✓ (2026-09-15), lessons pending
-- [ ] `epistemology` — Epistemology (1, 20) — pending
-- [ ] `metaphysics` — Metaphysics (1, 22) — pending
-- [ ] `decision-theory` — Decision Theory (1, 20) — pending
-- [ ] `philosophy-of-religion` — Philosophy of Religion (1, 20) — pending
-- [ ] `philosophy-of-mind` — Philosophy of Mind (2, 20) — pending
-- [ ] `philosophy-of-science` — Philosophy of Science (2, 22) — pending
-- [ ] `philosophy-of-physics` — Philosophy of Physics (2, 20) — pending
-- [ ] `philosophy-of-language-and-logic` — Philosophy of Language & Logic (2, 20) — pending
-- [ ] `phenomenology-and-personalism` — Phenomenology & Personalism (2, 18) — pending
-- [ ] `philosophy-of-economics` — Philosophy of Economics (2, 18) — pending
-- [ ] `philosophy-of-debt` — Philosophy of Debt (2, 18) — pending
+- [ ] `epistemology` — Epistemology (1, 23) — syllabus ✓ (2026-09-15), lessons pending
+- [ ] `metaphysics` — Metaphysics (1, 26) — syllabus ✓ (2026-09-15), lessons pending
+- [ ] `decision-theory` — Decision Theory (1, 23) — syllabus ✓ (2026-09-15), lessons pending
+- [ ] `philosophy-of-religion` — Philosophy of Religion (1, 24) — syllabus ✓ (2026-09-15), lessons pending
+- [ ] `philosophy-of-mind` — Philosophy of Mind (2, 25) — syllabus ✓ (2026-09-15), lessons pending
+- [ ] `philosophy-of-science` — Philosophy of Science (2, 26) — syllabus ✓ (2026-09-15), lessons pending
+- [ ] `philosophy-of-physics` — Philosophy of Physics (2, 25) — syllabus ✓ (2026-09-15), lessons pending
+- [ ] `philosophy-of-language-and-logic` — Philosophy of Language & Logic (2, 23) — syllabus ✓ (2026-09-15), lessons pending
+- [ ] `phenomenology-and-personalism` — Phenomenology & Personalism (2, 21) — syllabus ✓ (2026-09-15), lessons pending
+- [ ] `philosophy-of-economics` — Philosophy of Economics (2, 21) — syllabus ✓ (2026-09-15), lessons pending
+- [ ] `philosophy-of-debt` — Philosophy of Debt (2, 22) — syllabus ✓ (2026-09-15), lessons pending
 
-**Politics & Society (Field 10)** · 14 courses · ~317 lessons
+**Politics & Society (Field 10)** · 14 courses · ~346 lessons
 
-- [ ] `political-philosophy` — Political Philosophy (1, 22) — syllabus ✓ (to be rewritten), lessons pending
+- [ ] `political-philosophy` — Political Philosophy (1, 26) — syllabus ✓ (2026-09-15), lessons pending
 - [ ] `political-institutions` — Political Institutions (1, 25) — syllabus ✓ (2026-09-15), lessons pending
 - [ ] `history-of-political-thought` — History of Political Thought (1, 27) — syllabus ✓ (2026-09-15), lessons pending
 - [ ] `social-theory` — Social Theory (1, 24) — syllabus ✓ (2026-09-15), lessons pending
-- [ ] `comparative-politics` — Comparative Politics (1, 22) — pending
-- [ ] `international-relations` — International Relations (1, 20) — pending
-- [ ] `constitutional-law` — Constitutional Law (1, 22) — pending
+- [ ] `comparative-politics` — Comparative Politics (1, 25) — syllabus ✓ (2026-09-15), lessons pending
+- [ ] `international-relations` — International Relations (1, 23) — syllabus ✓ (2026-09-15), lessons pending
+- [ ] `constitutional-law` — Constitutional Law (1, 26) — syllabus ✓ (2026-09-15), lessons pending
 - [ ] `history-of-debt` — A History of Debt (1, 29) — syllabus ✓ (2026-09-15), lessons pending
-- [ ] `political-economy` — Political Economy & Social Choice (2, 22) — syllabus ✓ (to be rewritten), lessons pending
-- [ ] `philosophy-of-law` — Philosophy of Law (2, 20) — pending
-- [ ] `social-choice` — Social Choice Theory (2, 20) — pending
-- [ ] `institutions-and-development` — Institutions & Development (2, 22) — pending
-- [ ] `conflict-and-bargaining` — Conflict & Bargaining (2, 20) — pending
-- [ ] `empirical-political-economy` — Empirical Political Economy (2, 22) — pending
+- [ ] `political-economy` — Political Economy & Social Choice (2, 25) — syllabus ✓ (2026-09-15), lessons pending
+- [ ] `philosophy-of-law` — Philosophy of Law (2, 23) — syllabus ✓ (2026-09-15), lessons pending
+- [ ] `social-choice` — Social Choice Theory (2, 24) — syllabus ✓ (2026-09-15), lessons pending
+- [ ] `institutions-and-development` — Institutions & Development (2, 24) — syllabus ✓ (2026-09-15), lessons pending
+- [ ] `conflict-and-bargaining` — Conflict & Bargaining (2, 23) — syllabus ✓ (2026-09-15), lessons pending
+- [ ] `empirical-political-economy` — Empirical Political Economy (2, 22) — syllabus ✓ (2026-09-15), lessons pending
 
-**Catholic Theology (Field 12)** · 16 courses · ~368 lessons
+**Catholic Theology (Field 12)** · 16 courses · ~422 lessons
 
 - [ ] `fundamental-theology` — Fundamental Theology (1, 22) — syllabus ✓ (2026-09-15), lessons pending
-- [ ] `old-testament` — The Old Testament (1, 24) — pending
-- [ ] `new-testament` — The New Testament (1, 24) — pending
-- [ ] `patristics` — The Church Fathers (1, 20) — pending
+- [ ] `old-testament` — The Old Testament (1, 27) — syllabus ✓ (2026-09-15), lessons pending
+- [ ] `new-testament` — The New Testament (1, 27) — syllabus ✓ (2026-09-15), lessons pending
+- [ ] `patristics` — The Church Fathers (1, 24) — syllabus ✓ (2026-09-15), lessons pending
 - [ ] `church-history` — Church History (1, 30) — syllabus ✓ (2026-09-15), lessons pending
-- [ ] `thomistic-synthesis` — The Thomistic Synthesis (2, 22) — pending
-- [ ] `trinity-and-god` — The Triune God (2, 20) — pending
-- [ ] `christology` — Christology (2, 20) — pending
-- [ ] `creation-grace-last-things` — Creation, Grace & the Last Things (2, 24) — pending
-- [ ] `ecclesiology-and-mariology` — The Church & Mary (2, 22) — pending
-- [ ] `sacraments-and-liturgy` — Sacraments & Liturgy (2, 22) — pending
-- [ ] `moral-theology` — Moral Theology (2, 24) — pending
-- [ ] `catholic-social-teaching` — Catholic Social Teaching (2, 22) — pending
-- [ ] `apologetics-foundations` — Apologetics I: God, Christ & the Religions (2, 26) — pending
-- [ ] `apologetics-catholic-claims` — Apologetics II: The Catholic Claims (2, 26) — pending
-- [ ] `theology-of-debt` — Theology of Debt (2, 20) — pending
+- [ ] `thomistic-synthesis` — The Thomistic Synthesis (2, 24) — syllabus ✓ (2026-09-15), lessons pending
+- [ ] `trinity-and-god` — The Triune God (2, 25) — syllabus ✓ (2026-09-15), lessons pending
+- [ ] `christology` — Christology (2, 24) — syllabus ✓ (2026-09-15), lessons pending
+- [ ] `creation-grace-last-things` — Creation, Grace & the Last Things (2, 28) — syllabus ✓ (2026-09-15), lessons pending
+- [ ] `ecclesiology-and-mariology` — The Church & Mary (2, 25) — syllabus ✓ (2026-09-15), lessons pending
+- [ ] `sacraments-and-liturgy` — Sacraments & Liturgy (2, 25) — syllabus ✓ (2026-09-15), lessons pending
+- [ ] `moral-theology` — Moral Theology (2, 28) — syllabus ✓ (2026-09-15), lessons pending
+- [ ] `catholic-social-teaching` — Catholic Social Teaching (2, 27) — syllabus ✓ (2026-09-15), lessons pending
+- [ ] `apologetics-foundations` — Apologetics I: God, Christ & the Religions (2, 31) — syllabus ✓ (2026-09-15), lessons pending
+- [ ] `apologetics-catholic-claims` — Apologetics II: The Catholic Claims (2, 29) — syllabus ✓ (2026-09-15), lessons pending
+- [ ] `theology-of-debt` — Theology of Debt (2, 26) — syllabus ✓ (2026-09-15), lessons pending
 
-**Economics & Finance additions** · 2 courses · ~46 lessons
+**Economics & Finance additions** · 2 courses · ~56 lessons
 
-- [ ] `public-economics` — Public Economics (2, 22) — pending
-- [ ] `economics-of-debt` — Economics of Debt (2, 24) — pending
+- [ ] `public-economics` — Public Economics (2, 26) — syllabus ✓ (2026-09-15), lessons pending
+- [ ] `economics-of-debt` — Economics of Debt (2, 30) — syllabus ✓ (2026-09-15), lessons pending
 ---
 
 ## Scale & cadence
@@ -335,6 +335,12 @@ changes the brief lists) → roots (`ethics`, `fundamental-theology`,
   syllabi generated, validated, and registered — Engineering (29, incl. the nuclear shelf),
   Computer Science (16), Chemistry (9), Earth & Space (6), cosmology (Physics, 1),
   Life Sciences (9), Mathematics Tier-2 (4). ~1,449 lessons planned.
+- **Phase 11 syllabi written (2026-09-15):** all 47 Philosophy / Politics & Society /
+  Catholic Theology / Economics additions have syllabi and are registered (~1,181 lessons
+  planned). `political-philosophy` and `political-economy` were rewritten against the new
+  owners. Pedagogy is settled in [HUMANITIES-BUILD-BRIEF.md](HUMANITIES-BUILD-BRIEF.md);
+  the pilot to build is `philosophical-method`.
+- **Library now holds 179 courses across 12 fields.** Earlier count:
 - **Library now holds 132 courses across 10 fields** (Foundations 6, Mathematics 29,
   Computer Science 16, Physics 18, Chemistry 9, Engineering 29, Earth & Space 6,
   Life Sciences 9, Economics & Finance 8, Humanities 2). Every course has a syllabus.

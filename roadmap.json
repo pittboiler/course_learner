@@ -417,7 +417,7 @@
         "social-choice",
         "grad-game-theory"
       ],
-      "lessons_estimate": 22,
+      "lessons_estimate": 25,
       "blurb": "Electoral competition, collective action, political agency, lobbying, coalitions and redistribution. Syllabus to be rewritten against social-choice and public-economics."
     },
     {
@@ -441,7 +441,7 @@
       "prereqs": [
         "ethics"
       ],
-      "lessons_estimate": 22,
+      "lessons_estimate": 26,
       "blurb": "Authority, justice (Rawls/Nozick), liberty, equality, democracy. Prose-driven; the normative companion to political-economy."
     },
     {
@@ -1560,7 +1560,7 @@
       "prereqs": [
         "philosophical-method"
       ],
-      "lessons_estimate": 24,
+      "lessons_estimate": 29,
       "blurb": "Presocratics, Plato, Aristotle, Stoics & Epicureans, Augustine, Boethius, Aquinas, Scotus, Ockham."
     },
     {
@@ -1571,7 +1571,7 @@
       "prereqs": [
         "philosophical-method"
       ],
-      "lessons_estimate": 22,
+      "lessons_estimate": 27,
       "blurb": "Descartes to Kant — rationalists, empiricists, the critical turn — with a look at Hegel and Nietzsche."
     },
     {
@@ -1593,7 +1593,7 @@
       "prereqs": [
         "philosophical-method"
       ],
-      "lessons_estimate": 20,
+      "lessons_estimate": 23,
       "blurb": "Knowledge, justification, skepticism, testimony, peer disagreement, and Bayesian epistemology."
     },
     {
@@ -1604,7 +1604,7 @@
       "prereqs": [
         "philosophical-method"
       ],
-      "lessons_estimate": 22,
+      "lessons_estimate": 26,
       "blurb": "Being, universals, substance & essence, identity, causation, modality, free will, persons."
     },
     {
@@ -1616,7 +1616,7 @@
         "prob-stat-refresher",
         "philosophical-method"
       ],
-      "lessons_estimate": 20,
+      "lessons_estimate": 23,
       "blurb": "vNM & Savage axioms, Newcomb's problem, ambiguity, Harsanyi's aggregation theorem, population ethics."
     },
     {
@@ -1628,7 +1628,7 @@
         "metaphysics",
         "epistemology"
       ],
-      "lessons_estimate": 20,
+      "lessons_estimate": 24,
       "blurb": "Arguments for God, the problem of evil, miracles, reformed epistemology, divine attributes."
     },
     {
@@ -1639,7 +1639,7 @@
       "prereqs": [
         "metaphysics"
       ],
-      "lessons_estimate": 20,
+      "lessons_estimate": 25,
       "blurb": "Mind-body problem, consciousness, intentionality, personal identity, and machine minds."
     },
     {
@@ -1651,7 +1651,7 @@
         "epistemology",
         "prob-stat-refresher"
       ],
-      "lessons_estimate": 22,
+      "lessons_estimate": 26,
       "blurb": "Induction, Bayesian confirmation, explanation, scientific realism, Kuhn, demarcation."
     },
     {
@@ -1663,7 +1663,7 @@
         "philosophy-of-science",
         "quantum-mechanics"
       ],
-      "lessons_estimate": 20,
+      "lessons_estimate": 25,
       "blurb": "Interpretations of quantum mechanics, the nature of spacetime, time's arrow, probability in statistical mechanics."
     },
     {
@@ -1675,7 +1675,7 @@
         "philosophical-method",
         "mathematical-logic"
       ],
-      "lessons_estimate": 20,
+      "lessons_estimate": 23,
       "blurb": "Frege, Russell, Kripke; meaning and reference; modal logic and possible worlds."
     },
     {
@@ -1686,7 +1686,7 @@
       "prereqs": [
         "modern-philosophy"
       ],
-      "lessons_estimate": 18,
+      "lessons_estimate": 21,
       "blurb": "Husserl, Heidegger, Scheler, Edith Stein, Wojtyla — the road into John Paul II's thought."
     },
     {
@@ -1698,7 +1698,7 @@
         "ethics",
         "grad-micro"
       ],
-      "lessons_estimate": 18,
+      "lessons_estimate": 21,
       "blurb": "Welfare and well-being, rationality, the moral limits of markets, what economic models explain."
     },
     {
@@ -1710,7 +1710,7 @@
         "ethics",
         "history-of-debt"
       ],
-      "lessons_estimate": 18,
+      "lessons_estimate": 22,
       "blurb": "Promising and obligation, the justice of interest, Nietzsche's Schuld, moral hazard vs forgiveness, odious debt. Part of the debt thread."
     },
     {
@@ -1748,7 +1748,7 @@
       "prereqs": [
         "political-institutions"
       ],
-      "lessons_estimate": 22,
+      "lessons_estimate": 25,
       "blurb": "Regimes, state formation, nationalism, revolutions, and democratic backsliding, through cases."
     },
     {
@@ -1759,7 +1759,7 @@
       "prereqs": [
         "political-institutions"
       ],
-      "lessons_estimate": 20,
+      "lessons_estimate": 23,
       "blurb": "Realism, liberalism, constructivism; the history of the state system; international law and organizations."
     },
     {
@@ -1770,7 +1770,7 @@
       "prereqs": [
         "political-institutions"
       ],
-      "lessons_estimate": 22,
+      "lessons_estimate": 26,
       "blurb": "US-focused: judicial review, separation of powers, federalism, rights, and theories of interpretation."
     },
     {
@@ -1790,7 +1790,7 @@
       "prereqs": [
         "political-philosophy"
       ],
-      "lessons_estimate": 20,
+      "lessons_estimate": 23,
       "blurb": "Hart vs Dworkin, natural-law jurisprudence, legal obligation, and the justification of punishment."
     },
     {
@@ -1802,7 +1802,7 @@
         "proofs-primer",
         "game-theory-refresher"
       ],
-      "lessons_estimate": 20,
+      "lessons_estimate": 24,
       "blurb": "Beyond Arrow: May's theorem, scoring rules, Sen's liberal paradox, the jury theorem, judgment aggregation, apportionment."
     },
     {
@@ -1813,7 +1813,7 @@
       "prereqs": [
         "political-economy"
       ],
-      "lessons_estimate": 22,
+      "lessons_estimate": 24,
       "blurb": "Acemoglu-Robinson, North, state capacity, selectorate theory, and the political economy of autocracy."
     },
     {
@@ -1825,7 +1825,7 @@
         "grad-game-theory",
         "international-relations"
       ],
-      "lessons_estimate": 20,
+      "lessons_estimate": 23,
       "blurb": "Formal IR: the bargaining model of war, commitment problems, alliances, sanctions, and trade politics."
     },
     {
@@ -1857,7 +1857,7 @@
       "prereqs": [
         "fundamental-theology"
       ],
-      "lessons_estimate": 24,
+      "lessons_estimate": 27,
       "blurb": "Pentateuch, historical books, prophets, wisdom literature, and the deuterocanon, read with Catholic exegesis."
     },
     {
@@ -1868,7 +1868,7 @@
       "prereqs": [
         "fundamental-theology"
       ],
-      "lessons_estimate": 24,
+      "lessons_estimate": 27,
       "blurb": "The Synoptics, John, Paul, Hebrews, and Revelation; the historical Jesus."
     },
     {
@@ -1879,7 +1879,7 @@
       "prereqs": [
         "fundamental-theology"
       ],
-      "lessons_estimate": 20,
+      "lessons_estimate": 24,
       "blurb": "Ignatius, Irenaeus, Athanasius, the Cappadocians, Augustine — read in primary texts."
     },
     {
@@ -1900,7 +1900,7 @@
         "ancient-medieval-philosophy",
         "metaphysics"
       ],
-      "lessons_estimate": 22,
+      "lessons_estimate": 24,
       "blurb": "The structure of the Summa, act and potency, analogy, the Five Ways — Aquinas as the Church's common doctor."
     },
     {
@@ -1912,7 +1912,7 @@
         "thomistic-synthesis",
         "patristics"
       ],
-      "lessons_estimate": 20,
+      "lessons_estimate": 25,
       "blurb": "De Deo Uno et Trino: divine attributes, processions, relations, persons, the filioque."
     },
     {
@@ -1924,7 +1924,7 @@
         "trinity-and-god",
         "new-testament"
       ],
-      "lessons_estimate": 20,
+      "lessons_estimate": 24,
       "blurb": "Nicaea to Constantinople III, the hypostatic union, Christ's knowledge and wills, theories of atonement."
     },
     {
@@ -1935,7 +1935,7 @@
       "prereqs": [
         "christology"
       ],
-      "lessons_estimate": 24,
+      "lessons_estimate": 28,
       "blurb": "Imago Dei, original sin, grace and justification (Trent), the de auxiliis controversy, eschatology."
     },
     {
@@ -1947,7 +1947,7 @@
         "christology",
         "church-history"
       ],
-      "lessons_estimate": 22,
+      "lessons_estimate": 25,
       "blurb": "The nature of the Church, the papacy and infallibility (Vatican I and II), the Marian dogmas."
     },
     {
@@ -1958,7 +1958,7 @@
       "prereqs": [
         "ecclesiology-and-mariology"
       ],
-      "lessons_estimate": 22,
+      "lessons_estimate": 25,
       "blurb": "The seven sacraments, the Eucharist and transubstantiation, the history and theology of the liturgy."
     },
     {
@@ -1970,7 +1970,7 @@
         "ethics",
         "fundamental-theology"
       ],
-      "lessons_estimate": 24,
+      "lessons_estimate": 28,
       "blurb": "Natural law in light of revelation, virtue, conscience, double effect, Veritatis Splendor, bioethics."
     },
     {
@@ -1981,7 +1981,7 @@
       "prereqs": [
         "moral-theology"
       ],
-      "lessons_estimate": 22,
+      "lessons_estimate": 27,
       "blurb": "Rerum Novarum to Fratelli Tutti: dignity, subsidiarity, solidarity, property, labor, just war."
     },
     {
@@ -1993,7 +1993,7 @@
         "philosophy-of-religion",
         "new-testament"
       ],
-      "lessons_estimate": 26,
+      "lessons_estimate": 31,
       "blurb": "The case against atheism and naturalism, the resurrection as history, and Christianity in dialogue with Judaism and Islam."
     },
     {
@@ -2005,7 +2005,7 @@
         "ecclesiology-and-mariology",
         "sacraments-and-liturgy"
       ],
-      "lessons_estimate": 26,
+      "lessons_estimate": 29,
       "blurb": "The Catholic case against Protestant (sola scriptura, sola fide, canon, Mary, purgatory) and Orthodox (primacy, filioque, Vatican I) positions, each stated at its strongest."
     },
     {
@@ -2018,7 +2018,7 @@
         "new-testament",
         "moral-theology"
       ],
-      "lessons_estimate": 20,
+      "lessons_estimate": 26,
       "blurb": "Jubilee and debt slavery, 'forgive us our debts', sin as debt, Anselm, the treasury of merit, usury from Lateran III to Vix Pervenit. Part of the debt thread."
     },
     {
@@ -2029,7 +2029,7 @@
       "prereqs": [
         "grad-micro"
       ],
-      "lessons_estimate": 22,
+      "lessons_estimate": 26,
       "blurb": "Public goods, externalities, optimal taxation (Mirrlees), social insurance, and fiscal federalism."
     },
     {
@@ -2041,7 +2041,7 @@
         "grad-micro",
         "grad-macro"
       ],
-      "lessons_estimate": 24,
+      "lessons_estimate": 30,
       "blurb": "Credit rationing, Modigliani-Miller, debt overhang, Fisher and Minsky, leverage cycles, r - g sustainability, sovereign default. Part of the debt thread."
     }
   ]

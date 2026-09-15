@@ -710,6 +710,191 @@
       "status": "available",
       "started": "2026-09-15",
       "lessons": {}
+    },
+    "ancient-medieval-philosophy": {
+      "status": "available",
+      "started": "2026-09-15",
+      "lessons": {}
+    },
+    "modern-philosophy": {
+      "status": "available",
+      "started": "2026-09-15",
+      "lessons": {}
+    },
+    "epistemology": {
+      "status": "available",
+      "started": "2026-09-15",
+      "lessons": {}
+    },
+    "metaphysics": {
+      "status": "available",
+      "started": "2026-09-15",
+      "lessons": {}
+    },
+    "decision-theory": {
+      "status": "available",
+      "started": "2026-09-15",
+      "lessons": {}
+    },
+    "philosophy-of-religion": {
+      "status": "available",
+      "started": "2026-09-15",
+      "lessons": {}
+    },
+    "philosophy-of-mind": {
+      "status": "available",
+      "started": "2026-09-15",
+      "lessons": {}
+    },
+    "philosophy-of-science": {
+      "status": "available",
+      "started": "2026-09-15",
+      "lessons": {}
+    },
+    "philosophy-of-physics": {
+      "status": "available",
+      "started": "2026-09-15",
+      "lessons": {}
+    },
+    "philosophy-of-language-and-logic": {
+      "status": "available",
+      "started": "2026-09-15",
+      "lessons": {}
+    },
+    "phenomenology-and-personalism": {
+      "status": "available",
+      "started": "2026-09-15",
+      "lessons": {}
+    },
+    "philosophy-of-economics": {
+      "status": "available",
+      "started": "2026-09-15",
+      "lessons": {}
+    },
+    "philosophy-of-debt": {
+      "status": "available",
+      "started": "2026-09-15",
+      "lessons": {}
+    },
+    "comparative-politics": {
+      "status": "available",
+      "started": "2026-09-15",
+      "lessons": {}
+    },
+    "international-relations": {
+      "status": "available",
+      "started": "2026-09-15",
+      "lessons": {}
+    },
+    "constitutional-law": {
+      "status": "available",
+      "started": "2026-09-15",
+      "lessons": {}
+    },
+    "philosophy-of-law": {
+      "status": "available",
+      "started": "2026-09-15",
+      "lessons": {}
+    },
+    "social-choice": {
+      "status": "available",
+      "started": "2026-09-15",
+      "lessons": {}
+    },
+    "institutions-and-development": {
+      "status": "available",
+      "started": "2026-09-15",
+      "lessons": {}
+    },
+    "conflict-and-bargaining": {
+      "status": "available",
+      "started": "2026-09-15",
+      "lessons": {}
+    },
+    "empirical-political-economy": {
+      "status": "available",
+      "started": "2026-09-15",
+      "lessons": {}
+    },
+    "old-testament": {
+      "status": "available",
+      "started": "2026-09-15",
+      "lessons": {}
+    },
+    "new-testament": {
+      "status": "available",
+      "started": "2026-09-15",
+      "lessons": {}
+    },
+    "patristics": {
+      "status": "available",
+      "started": "2026-09-15",
+      "lessons": {}
+    },
+    "thomistic-synthesis": {
+      "status": "available",
+      "started": "2026-09-15",
+      "lessons": {}
+    },
+    "trinity-and-god": {
+      "status": "available",
+      "started": "2026-09-15",
+      "lessons": {}
+    },
+    "christology": {
+      "status": "available",
+      "started": "2026-09-15",
+      "lessons": {}
+    },
+    "creation-grace-last-things": {
+      "status": "available",
+      "started": "2026-09-15",
+      "lessons": {}
+    },
+    "ecclesiology-and-mariology": {
+      "status": "available",
+      "started": "2026-09-15",
+      "lessons": {}
+    },
+    "sacraments-and-liturgy": {
+      "status": "available",
+      "started": "2026-09-15",
+      "lessons": {}
+    },
+    "moral-theology": {
+      "status": "available",
+      "started": "2026-09-15",
+      "lessons": {}
+    },
+    "catholic-social-teaching": {
+      "status": "available",
+      "started": "2026-09-15",
+      "lessons": {}
+    },
+    "apologetics-foundations": {
+      "status": "available",
+      "started": "2026-09-15",
+      "lessons": {}
+    },
+    "theology-of-debt": {
+      "status": "available",
+      "started": "2026-09-15",
+      "lessons": {}
+    },
+    "public-economics": {
+      "status": "available",
+      "started": "2026-09-15",
+      "lessons": {}
+    },
+    "economics-of-debt": {
+      "status": "available",
+      "started": "2026-09-15",
+      "lessons": {}
+    },
+    "apologetics-catholic-claims": {
+      "status": "available",
+      "started": "2026-09-15",
+      "lessons": {}
     }
   },
   "review_queue": [],
