@@ -1,0 +1,72 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="40.0" y="24.0" fill="#8a8a8a" font-style="italic">Shadow mapping: ask the light what it sees, then compare depths</text>
+  <text x="210.0" y="64.0" fill="#8a8a8a" font-size="12" text-anchor="middle">pass 1 stores the nearest depth per texel</text>
+  <line x1="60.0" y1="80.0" x2="60.0" y2="118.0" stroke="#e0645c" stroke-width="1.2"/>
+  <polygon points="60.0,118.0 63.5,110.3 56.5,110.3" fill="#e0645c"/>
+  <line x1="98.0" y1="80.0" x2="98.0" y2="118.0" stroke="#e0645c" stroke-width="1.2"/>
+  <polygon points="98.0,118.0 101.5,110.3 94.5,110.3" fill="#e0645c"/>
+  <line x1="136.0" y1="80.0" x2="136.0" y2="118.0" stroke="#e0645c" stroke-width="1.2"/>
+  <polygon points="136.0,118.0 139.5,110.3 132.5,110.3" fill="#e0645c"/>
+  <line x1="174.0" y1="80.0" x2="174.0" y2="118.0" stroke="#e0645c" stroke-width="1.2"/>
+  <polygon points="174.0,118.0 177.5,110.3 170.5,110.3" fill="#e0645c"/>
+  <line x1="212.0" y1="80.0" x2="212.0" y2="118.0" stroke="#e0645c" stroke-width="1.2"/>
+  <polygon points="212.0,118.0 215.5,110.3 208.5,110.3" fill="#e0645c"/>
+  <line x1="250.0" y1="80.0" x2="250.0" y2="118.0" stroke="#e0645c" stroke-width="1.2"/>
+  <polygon points="250.0,118.0 253.5,110.3 246.5,110.3" fill="#e0645c"/>
+  <line x1="288.0" y1="80.0" x2="288.0" y2="118.0" stroke="#e0645c" stroke-width="1.2"/>
+  <polygon points="288.0,118.0 291.5,110.3 284.5,110.3" fill="#e0645c"/>
+  <line x1="326.0" y1="80.0" x2="326.0" y2="118.0" stroke="#e0645c" stroke-width="1.2"/>
+  <polygon points="326.0,118.0 329.5,110.3 322.5,110.3" fill="#e0645c"/>
+  <line x1="364.0" y1="80.0" x2="364.0" y2="118.0" stroke="#e0645c" stroke-width="1.2"/>
+  <polygon points="364.0,118.0 367.5,110.3 360.5,110.3" fill="#e0645c"/>
+  <text x="390.0" y="104.0" fill="#e0645c" font-size="12" text-anchor="end">light</text>
+  <line x1="40.0" y1="340.0" x2="380.0" y2="340.0" stroke="#8a8a8a" stroke-width="2.5"/>
+  <rect x="150.0" y="250.0" width="90.0" height="90.0" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="1.5" opacity="0.35"/>
+  <text x="195.0" y="300.0" fill="#8a8a8a" font-size="12" text-anchor="middle">box</text>
+  <line x1="150.0" y1="340.0" x2="240.0" y2="340.0" stroke="#4a90d9" stroke-width="6" opacity="0.6"/>
+  <text x="195.0" y="362.0" fill="#4a90d9" font-size="12" text-anchor="middle">shadowed: its depth &gt; stored</text>
+  <line x1="195.0" y1="120.0" x2="195.0" y2="250.0" stroke="#e0645c" stroke-width="1" stroke-dasharray="4 3"/>
+  <line x1="310.0" y1="120.0" x2="310.0" y2="340.0" stroke="#e0645c" stroke-width="1" stroke-dasharray="4 3"/>
+  <circle cx="195.0" cy="250.0" r="4" fill="#e0645c"/>
+  <circle cx="195.0" cy="340.0" r="4" fill="#4a90d9"/>
+  <text x="202.0" y="244.0" fill="#e0645c" font-size="12">stored 0.875</text>
+  <circle cx="310.0" cy="340.0" r="4" fill="#4a90d9"/>
+  <text x="318.0" y="332.0" fill="#4a90d9" font-size="12">lit: depth = stored</text>
+  <text x="610.0" y="64.0" fill="#8a8a8a" font-size="12" text-anchor="middle">acne: one stored depth per texel, a sloped surface</text>
+  <line x1="450.0" y1="330.0" x2="770.0" y2="154.0" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="450.0" y1="319.0" x2="490.0" y2="319.0" stroke="#e0645c" stroke-width="2.5"/>
+  <line x1="450.0" y1="330.0" x2="470.0" y2="319.0" stroke="#4a90d9" stroke-width="7" opacity="0.9"/>
+  <line x1="490.0" y1="297.0" x2="530.0" y2="297.0" stroke="#e0645c" stroke-width="2.5"/>
+  <line x1="490.0" y1="308.0" x2="510.0" y2="297.0" stroke="#4a90d9" stroke-width="7" opacity="0.9"/>
+  <line x1="530.0" y1="275.0" x2="570.0" y2="275.0" stroke="#e0645c" stroke-width="2.5"/>
+  <line x1="530.0" y1="286.0" x2="550.0" y2="275.0" stroke="#4a90d9" stroke-width="7" opacity="0.9"/>
+  <line x1="570.0" y1="253.0" x2="610.0" y2="253.0" stroke="#e0645c" stroke-width="2.5"/>
+  <line x1="570.0" y1="264.0" x2="590.0" y2="253.0" stroke="#4a90d9" stroke-width="7" opacity="0.9"/>
+  <line x1="610.0" y1="231.0" x2="650.0" y2="231.0" stroke="#e0645c" stroke-width="2.5"/>
+  <line x1="610.0" y1="242.0" x2="630.0" y2="231.0" stroke="#4a90d9" stroke-width="7" opacity="0.9"/>
+  <line x1="650.0" y1="209.0" x2="690.0" y2="209.0" stroke="#e0645c" stroke-width="2.5"/>
+  <line x1="650.0" y1="220.0" x2="670.0" y2="209.0" stroke="#4a90d9" stroke-width="7" opacity="0.9"/>
+  <line x1="690.0" y1="187.0" x2="730.0" y2="187.0" stroke="#e0645c" stroke-width="2.5"/>
+  <line x1="690.0" y1="198.0" x2="710.0" y2="187.0" stroke="#4a90d9" stroke-width="7" opacity="0.9"/>
+  <line x1="730.0" y1="165.0" x2="770.0" y2="165.0" stroke="#e0645c" stroke-width="2.5"/>
+  <line x1="730.0" y1="176.0" x2="750.0" y2="165.0" stroke="#4a90d9" stroke-width="7" opacity="0.9"/>
+  <line x1="470.0" y1="80.0" x2="470.0" y2="118.0" stroke="#e0645c" stroke-width="1.2"/>
+  <polygon points="470.0,118.0 473.5,110.3 466.5,110.3" fill="#e0645c"/>
+  <line x1="510.0" y1="80.0" x2="510.0" y2="118.0" stroke="#e0645c" stroke-width="1.2"/>
+  <polygon points="510.0,118.0 513.5,110.3 506.5,110.3" fill="#e0645c"/>
+  <line x1="550.0" y1="80.0" x2="550.0" y2="118.0" stroke="#e0645c" stroke-width="1.2"/>
+  <polygon points="550.0,118.0 553.5,110.3 546.5,110.3" fill="#e0645c"/>
+  <line x1="590.0" y1="80.0" x2="590.0" y2="118.0" stroke="#e0645c" stroke-width="1.2"/>
+  <polygon points="590.0,118.0 593.5,110.3 586.5,110.3" fill="#e0645c"/>
+  <line x1="630.0" y1="80.0" x2="630.0" y2="118.0" stroke="#e0645c" stroke-width="1.2"/>
+  <polygon points="630.0,118.0 633.5,110.3 626.5,110.3" fill="#e0645c"/>
+  <line x1="670.0" y1="80.0" x2="670.0" y2="118.0" stroke="#e0645c" stroke-width="1.2"/>
+  <polygon points="670.0,118.0 673.5,110.3 666.5,110.3" fill="#e0645c"/>
+  <line x1="710.0" y1="80.0" x2="710.0" y2="118.0" stroke="#e0645c" stroke-width="1.2"/>
+  <polygon points="710.0,118.0 713.5,110.3 706.5,110.3" fill="#e0645c"/>
+  <line x1="750.0" y1="80.0" x2="750.0" y2="118.0" stroke="#e0645c" stroke-width="1.2"/>
+  <polygon points="750.0,118.0 753.5,110.3 746.5,110.3" fill="#e0645c"/>
+  <text x="610.0" y="370.0" fill="#e0645c" font-size="12" text-anchor="middle">coral: stored depth (texel centre)</text>
+  <text x="610.0" y="388.0" fill="#4a90d9" font-size="12" text-anchor="middle">blue: surface farther than stored = falsely shadowed</text>
+  <text x="610.0" y="406.0" fill="#8a8a8a" font-size="12" text-anchor="middle">a bias of at least texel size x tan(slope) removes it</text>
+</svg>

@@ -1,0 +1,46 @@
+<svg viewBox="0 0 800 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="40.0" y="24.0" fill="#8a8a8a" font-style="italic">The programmable pipeline: blue stages run your code, grey stages are fixed</text>
+  <rect x="20.0" y="150.0" width="110.0" height="64.0" fill="none" stroke="#8a8a8a" stroke-width="1.5" rx="4"/>
+  <text x="75.0" y="178.8" fill="#8a8a8a" text-anchor="middle">vertex data</text>
+  <text x="75.0" y="195.0" fill="#8a8a8a" font-size="11" text-anchor="middle">attributes</text>
+  <rect x="160.0" y="150.0" width="120.0" height="64.0" fill="none" stroke="#4a90d9" stroke-width="2.4" rx="4"/>
+  <text x="220.0" y="178.8" fill="#4a90d9" text-anchor="middle">vertex</text>
+  <text x="220.0" y="195.0" fill="#8a8a8a" font-size="11" text-anchor="middle">shader</text>
+  <rect x="310.0" y="150.0" width="130.0" height="64.0" fill="none" stroke="#8a8a8a" stroke-width="1.5" rx="4"/>
+  <text x="375.0" y="178.8" fill="#8a8a8a" text-anchor="middle">clip, divide,</text>
+  <text x="375.0" y="195.0" fill="#8a8a8a" font-size="11" text-anchor="middle">viewport</text>
+  <rect x="470.0" y="150.0" width="110.0" height="64.0" fill="none" stroke="#8a8a8a" stroke-width="1.5" rx="4"/>
+  <text x="525.0" y="178.8" fill="#8a8a8a" text-anchor="middle">rasterize</text>
+  <text x="525.0" y="195.0" fill="#8a8a8a" font-size="11" text-anchor="middle">interpolate</text>
+  <rect x="610.0" y="150.0" width="110.0" height="64.0" fill="none" stroke="#4a90d9" stroke-width="2.4" rx="4"/>
+  <text x="665.0" y="178.8" fill="#4a90d9" text-anchor="middle">fragment</text>
+  <text x="665.0" y="195.0" fill="#8a8a8a" font-size="11" text-anchor="middle">shader</text>
+  <line x1="130.0" y1="182.0" x2="160.0" y2="182.0" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="160.0,182.0 151.2,178.0 151.2,186.0" fill="#8a8a8a"/>
+  <line x1="280.0" y1="182.0" x2="310.0" y2="182.0" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="310.0,182.0 301.2,178.0 301.2,186.0" fill="#8a8a8a"/>
+  <line x1="440.0" y1="182.0" x2="470.0" y2="182.0" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="470.0,182.0 461.2,178.0 461.2,186.0" fill="#8a8a8a"/>
+  <line x1="580.0" y1="182.0" x2="610.0" y2="182.0" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="610.0,182.0 601.2,178.0 601.2,186.0" fill="#8a8a8a"/>
+  <text x="295.0" y="172.0" fill="#8a8a8a" font-size="11"></text>
+  <text x="220.0" y="236.0" fill="#4a90d9" font-size="12" text-anchor="middle">per vertex: position, varyings</text>
+  <text x="525.0" y="236.0" fill="#8a8a8a" font-size="12" text-anchor="middle">per fragment: varyings</text>
+  <text x="525.0" y="252.0" fill="#8a8a8a" font-size="12" text-anchor="middle">(perspective-correct)</text>
+  <rect x="160.0" y="60.0" width="120.0" height="38.0" fill="none" stroke="#e0645c" stroke-width="1.5" rx="4"/>
+  <text x="220.0" y="83.5" fill="#e0645c" text-anchor="middle">uniforms</text>
+  <line x1="220.0" y1="98.0" x2="220.0" y2="148.0" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="220.0,148.0 224.0,139.2 216.0,139.2" fill="#e0645c"/>
+  <rect x="560.0" y="60.0" width="210.0" height="38.0" fill="none" stroke="#e0645c" stroke-width="1.5" rx="4"/>
+  <text x="665.0" y="83.5" fill="#e0645c" text-anchor="middle">uniforms, textures</text>
+  <line x1="665.0" y1="98.0" x2="665.0" y2="148.0" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="665.0,148.0 669.0,139.2 661.0,139.2" fill="#e0645c"/>
+  <line x1="665.0" y1="214.0" x2="665.0" y2="262.0" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="665.0,262.0 669.0,253.2 661.0,253.2" fill="#8a8a8a"/>
+  <rect x="560.0" y="264.0" width="210.0" height="50.0" fill="none" stroke="#8a8a8a" stroke-width="1.5" rx="4"/>
+  <text x="665.0" y="285.8" fill="#8a8a8a" text-anchor="middle">depth test, blend</text>
+  <text x="665.0" y="302.0" fill="#8a8a8a" font-size="11" text-anchor="middle">framebuffer</text>
+  <text x="20.0" y="300.0" fill="#4a90d9" font-size="12.5">vertex shader: once per vertex</text>
+  <text x="20.0" y="320.0" fill="#4a90d9" font-size="12.5">fragment shader: once per covered sample group</text>
+  <text x="20.0" y="340.0" fill="#8a8a8a" font-size="12.5">early-z can reject a fragment before its shader runs</text>
+</svg>

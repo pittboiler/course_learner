@@ -1189,7 +1189,7 @@
         "machine-learning",
         "probability-theory"
       ],
-      "lessons_estimate": 21,
+      "lessons_estimate": 25,
       "blurb": "MDPs, dynamic programming, TD & Q-learning, policy gradients, and deep RL."
     },
     {
@@ -1201,7 +1201,7 @@
         "linalg-refresher",
         "programming-foundations"
       ],
-      "lessons_estimate": 20,
+      "lessons_estimate": 26,
       "blurb": "Rasterization, ray tracing, transformations, shading, and the linear algebra of rendering."
     },
     {

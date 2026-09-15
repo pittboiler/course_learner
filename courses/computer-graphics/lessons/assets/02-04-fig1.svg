@@ -1,0 +1,26 @@
+<svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="40.0" y="24.0" fill="#8a8a8a" font-style="italic">The four unit vectors of local lighting at a surface point</text>
+  <line x1="60.0" y1="320.0" x2="580.0" y2="320.0" stroke="#8a8a8a" stroke-width="2.5"/>
+  <text x="575.0" y="342.0" fill="#8a8a8a" font-size="12" text-anchor="end">surface</text>
+  <line x1="320.0" y1="320.0" x2="320.0" y2="130.0" stroke="#8a8a8a" stroke-width="2.4"/>
+  <polygon points="320.0,130.0 314.0,143.2 326.0,143.2" fill="#8a8a8a"/>
+  <text x="328.0" y="134.0" fill="#8a8a8a" font-size="15">n</text>
+  <line x1="320.0" y1="320.0" x2="206.0" y2="168.0" stroke="#e0645c" stroke-width="2.6"/>
+  <polygon points="206.0,168.0 209.1,182.2 218.7,175.0" fill="#e0645c"/>
+  <text x="196.0" y="168.0" fill="#e0645c" text-anchor="end">l  (to light)</text>
+  <line x1="320.0" y1="320.0" x2="434.0" y2="168.0" stroke="#4a90d9" stroke-width="2.6"/>
+  <polygon points="434.0,168.0 421.3,175.0 430.9,182.2" fill="#4a90d9"/>
+  <text x="442.0" y="168.0" fill="#4a90d9">r  (mirror of l)</text>
+  <line x1="320.0" y1="320.0" x2="463.8" y2="239.1" stroke="#4a90d9" stroke-width="1.8" stroke-dasharray="6 4"/>
+  <polygon points="463.8,239.1 451.8,240.1 456.7,248.9" fill="#4a90d9"/>
+  <text x="471.8" y="251.1" fill="#4a90d9">v  (to eye)</text>
+  <path d="M 320.0 260.0 L 318.7 260.0 L 317.3 260.1 L 316.0 260.1 L 314.7 260.2 L 313.4 260.4 L 312.0 260.5 L 310.7 260.7 L 309.4 260.9 L 308.1 261.2 L 306.8 261.5 L 305.5 261.8 L 304.2 262.1 L 302.9 262.5 L 301.7 262.9 L 300.4 263.3 L 299.1 263.7 L 297.9 264.2 L 296.7 264.7 L 295.4 265.3 L 294.2 265.8 L 293.0 266.4 L 291.9 267.0 L 290.7 267.6 L 289.5 268.3 L 288.4 269.0 L 287.3 269.7 L 286.2 270.5 L 285.1 271.2 L 284.0 272.0" fill="none" stroke="#e0645c" stroke-width="1.4"/>
+  <text x="296.6" y="253.8" fill="#e0645c" text-anchor="middle">θ</text>
+  <path d="M 356.0 272.0 L 354.9 271.2 L 353.8 270.5 L 352.7 269.7 L 351.6 269.0 L 350.5 268.3 L 349.3 267.6 L 348.1 267.0 L 347.0 266.4 L 345.8 265.8 L 344.6 265.3 L 343.3 264.7 L 342.1 264.2 L 340.9 263.7 L 339.6 263.3 L 338.3 262.9 L 337.1 262.5 L 335.8 262.1 L 334.5 261.8 L 333.2 261.5 L 331.9 261.2 L 330.6 260.9 L 329.3 260.7 L 328.0 260.5 L 326.6 260.4 L 325.3 260.2 L 324.0 260.1 L 322.7 260.1 L 321.3 260.0 L 320.0 260.0" fill="none" stroke="#e0645c" stroke-width="1.4"/>
+  <text x="343.4" y="253.8" fill="#e0645c" text-anchor="middle">θ</text>
+  <path d="M 411.5 268.5 L 410.8 267.2 L 410.0 265.9 L 409.2 264.6 L 408.4 263.4 L 407.6 262.1 L 406.8 260.9 L 405.9 259.6 L 405.0 258.4 L 404.1 257.2 L 403.2 256.0 L 402.3 254.8 L 401.4 253.6 L 400.4 252.5 L 399.4 251.3 L 398.5 250.2 L 397.4 249.1 L 396.4 248.0 L 395.4 246.9 L 394.3 245.8 L 393.3 244.8 L 392.2 243.7 L 391.1 242.7 L 390.0 241.7 L 388.8 240.7 L 387.7 239.7 L 386.5 238.8 L 385.4 237.8 L 384.2 236.9 L 383.0 236.0" fill="none" stroke="#4a90d9" stroke-width="1.4"/>
+  <text x="409.5" y="245.5" fill="#4a90d9" text-anchor="middle">α</text>
+  <circle cx="320.0" cy="320.0" r="4.5" fill="#8a8a8a"/>
+  <text x="60.0" y="385.0" fill="#e0645c">diffuse ~ cos θ = n·l</text>
+  <text x="330.0" y="385.0" fill="#4a90d9">specular ~ (cos α)^p = (r·v)^p</text>
+</svg>

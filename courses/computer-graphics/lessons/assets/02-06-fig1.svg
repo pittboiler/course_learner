@@ -1,0 +1,27 @@
+<svg viewBox="0 0 620 470" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="40.0" y="24.0" fill="#8a8a8a" font-style="italic">Bilinear filtering: each texel is weighted by the area of the opposite rectangle</text>
+  <rect x="120.0" y="60.0" width="266.0" height="34.0" fill="#4a90d9" stroke="none" stroke-width="1.5" opacity="0.14"/>
+  <rect x="386.0" y="60.0" width="114.0" height="34.0" fill="#e0645c" stroke="none" stroke-width="1.5" opacity="0.14"/>
+  <rect x="120.0" y="94.0" width="266.0" height="306.0" fill="#e0645c" stroke="none" stroke-width="1.5" opacity="0.22"/>
+  <rect x="386.0" y="94.0" width="114.0" height="306.0" fill="#4a90d9" stroke="none" stroke-width="1.5" opacity="0.22"/>
+  <rect x="120.0" y="60.0" width="380.0" height="340.0" fill="none" stroke="#8a8a8a" stroke-width="1.6"/>
+  <line x1="386.0" y1="400.0" x2="386.0" y2="60.0" stroke="#8a8a8a" stroke-width="1.1" stroke-dasharray="4 3"/>
+  <line x1="120.0" y1="94.0" x2="500.0" y2="94.0" stroke="#8a8a8a" stroke-width="1.1" stroke-dasharray="4 3"/>
+  <circle cx="120.0" cy="400.0" r="7" fill="#8a8a8a"/>
+  <text x="108.0" y="420.0" fill="#8a8a8a" font-size="15" text-anchor="end" font-weight="bold">50</text>
+  <circle cx="500.0" cy="400.0" r="7" fill="#8a8a8a"/>
+  <text x="512.0" y="420.0" fill="#8a8a8a" font-size="15" font-weight="bold">60</text>
+  <circle cx="120.0" cy="60.0" r="7" fill="#8a8a8a"/>
+  <text x="108.0" y="50.0" fill="#8a8a8a" font-size="15" text-anchor="end" font-weight="bold">90</text>
+  <circle cx="500.0" cy="60.0" r="7" fill="#8a8a8a"/>
+  <text x="512.0" y="50.0" fill="#8a8a8a" font-size="15" font-weight="bold">100</text>
+  <circle cx="386.0" cy="94.0" r="6" fill="#e0645c"/>
+  <text x="396.0" y="84.0" fill="#e0645c">sample: 93</text>
+  <text x="253.0" y="247.0" fill="#8a8a8a" font-size="12" text-anchor="middle">area fx fy = 0.63</text>
+  <text x="253.0" y="263.0" fill="#8a8a8a" font-size="12" text-anchor="middle">weights the 100</text>
+  <text x="443.0" y="247.0" fill="#8a8a8a" font-size="12" text-anchor="middle">(1-fx) fy = 0.27</text>
+  <text x="443.0" y="263.0" fill="#8a8a8a" font-size="12" text-anchor="middle">weights the 90</text>
+  <text x="310.0" y="434.0" fill="#8a8a8a" text-anchor="middle">fx = 0.7</text>
+  <text x="76.0" y="230.0" fill="#8a8a8a" text-anchor="middle">fy = 0.9</text>
+  <text x="40.0" y="458.0" fill="#8a8a8a" font-size="12">texel centres (i, j) = (0, 1), (1, 1), (0, 2), (1, 2) of the 4 x 4 texture</text>
+</svg>

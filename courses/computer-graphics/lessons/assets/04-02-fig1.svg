@@ -1,0 +1,25 @@
+<svg viewBox="0 0 640 420" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="40.0" y="24.0" fill="#8a8a8a" font-style="italic">de Casteljau at t = 0.5: three rounds of midpoints land on the curve</text>
+  <path d="M 80.0 360.0 L 82.5 353.0 L 85.0 346.1 L 87.6 339.4 L 90.3 332.7 L 93.1 326.2 L 95.9 319.8 L 98.9 313.5 L 101.8 307.3 L 104.9 301.3 L 108.0 295.3 L 111.2 289.5 L 114.5 283.8 L 117.8 278.3 L 121.2 272.8 L 124.7 267.5 L 128.2 262.2 L 131.8 257.1 L 135.4 252.2 L 139.1 247.3 L 142.9 242.6 L 146.7 237.9 L 150.5 233.4 L 154.4 229.0 L 158.4 224.8 L 162.4 220.6 L 166.4 216.6 L 170.5 212.7 L 174.7 208.9 L 178.8 205.2 L 183.1 201.6 L 187.3 198.2 L 191.6 194.9 L 196.0 191.7 L 200.3 188.6 L 204.8 185.6 L 209.2 182.8 L 213.7 180.0 L 218.2 177.4 L 222.7 174.9 L 227.3 172.6 L 231.9 170.3 L 236.5 168.2 L 241.2 166.1 L 245.8 164.3 L 250.5 162.5 L 255.2 160.8 L 259.9 159.3 L 264.7 157.8 L 269.4 156.5 L 274.2 155.4 L 279.0 154.3 L 283.8 153.3 L 288.6 152.5 L 293.4 151.8 L 298.2 151.2 L 303.1 150.7 L 307.9 150.4 L 312.7 150.1 L 317.6 150.0 L 322.4 150.0 L 327.3 150.1 L 332.1 150.4 L 336.9 150.7 L 341.8 151.2 L 346.6 151.8 L 351.4 152.5 L 356.2 153.3 L 361.0 154.3 L 365.8 155.4 L 370.6 156.5 L 375.3 157.8 L 380.1 159.3 L 384.8 160.8 L 389.5 162.5 L 394.2 164.3 L 398.8 166.1 L 403.5 168.2 L 408.1 170.3 L 412.7 172.6 L 417.3 174.9 L 421.8 177.4 L 426.3 180.0 L 430.8 182.8 L 435.2 185.6 L 439.7 188.6 L 444.0 191.7 L 448.4 194.9 L 452.7 198.2 L 456.9 201.6 L 461.2 205.2 L 465.3 208.9 L 469.5 212.7 L 473.6 216.6 L 477.6 220.6 L 481.6 224.8 L 485.6 229.0 L 489.5 233.4 L 493.3 237.9 L 497.1 242.6 L 500.9 247.3 L 504.6 252.2 L 508.2 257.1 L 511.8 262.2 L 515.3 267.5 L 518.8 272.8 L 522.2 278.3 L 525.5 283.8 L 528.8 289.5 L 532.0 295.3 L 535.1 301.3 L 538.2 307.3 L 541.1 313.5 L 544.1 319.8 L 546.9 326.2 L 549.7 332.7 L 552.4 339.4 L 555.0 346.1 L 557.5 353.0 L 560.0 360.0" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <path d="M 80.0 360.0 L 176.0 80.0 L 464.0 80.0 L 560.0 360.0" fill="none" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <path d="M 128.0 220.0 L 320.0 80.0 L 512.0 220.0" fill="none" stroke="#8a8a8a" stroke-width="1.3"/>
+  <path d="M 224.0 150.0 L 416.0 150.0" fill="none" stroke="#e0645c" stroke-width="1.5"/>
+  <circle cx="80.0" cy="360.0" r="5" fill="#8a8a8a"/>
+  <text x="72.0" y="378.0" fill="#8a8a8a" font-size="12.5" text-anchor="end">P0 (0, 0)</text>
+  <circle cx="176.0" cy="80.0" r="5" fill="#8a8a8a"/>
+  <text x="168.0" y="70.0" fill="#8a8a8a" font-size="12.5" text-anchor="end">P1 (1, 3)</text>
+  <circle cx="464.0" cy="80.0" r="5" fill="#8a8a8a"/>
+  <text x="472.0" y="70.0" fill="#8a8a8a" font-size="12.5">P2 (4, 3)</text>
+  <circle cx="560.0" cy="360.0" r="5" fill="#8a8a8a"/>
+  <text x="568.0" y="378.0" fill="#8a8a8a" font-size="12.5">P3 (5, 0)</text>
+  <circle cx="128.0" cy="220.0" r="4" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <circle cx="320.0" cy="80.0" r="4" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <circle cx="512.0" cy="220.0" r="4" fill="none" stroke="#8a8a8a" stroke-width="1.5"/>
+  <circle cx="224.0" cy="150.0" r="4.5" fill="#e0645c"/>
+  <circle cx="416.0" cy="150.0" r="4.5" fill="#e0645c"/>
+  <circle cx="320.0" cy="150.0" r="6.5" fill="#4a90d9"/>
+  <text x="320.0" y="208.0" fill="#4a90d9" text-anchor="middle">P(0.5) = (2.5, 2.25)</text>
+  <text x="214.0" y="142.0" fill="#e0645c" font-size="12" text-anchor="end">(1.5, 2.25)</text>
+  <text x="426.0" y="142.0" fill="#e0645c" font-size="12">(3.5, 2.25)</text>
+  <text x="40.0" y="404.0" fill="#8a8a8a" font-size="12">the coral segment is tangent to the curve at P(0.5); its halves are the two sub-curves&#x27; control legs</text>
+</svg>

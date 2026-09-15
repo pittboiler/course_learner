@@ -1,0 +1,27 @@
+<svg viewBox="0 0 780 470" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="40.0" y="24.0" fill="#8a8a8a" font-style="italic">Side view of a frustum: the same pole at twice the depth projects half as tall</text>
+  <polygon points="209.6,201.1 698.1,64.9 698.1,415.1 209.6,278.9" fill="#8a8a8a" opacity="0.1"/>
+  <line x1="70.0" y1="240.0" x2="698.1" y2="64.9" stroke="#8a8a8a" stroke-width="1.3"/>
+  <line x1="70.0" y1="240.0" x2="698.1" y2="415.1" stroke="#8a8a8a" stroke-width="1.3"/>
+  <line x1="698.1" y1="415.1" x2="698.1" y2="64.9" stroke="#8a8a8a" stroke-width="2"/>
+  <text x="692.1" y="433.1" fill="#8a8a8a" font-size="12" text-anchor="end">far plane</text>
+  <line x1="70.0" y1="240.0" x2="740.0" y2="240.0" stroke="#8a8a8a" stroke-width="1.0" stroke-dasharray="3 3"/>
+  <polygon points="740.0,240.0 731.2,236.0 731.2,244.0" fill="#8a8a8a"/>
+  <text x="740.0" y="258.0" fill="#8a8a8a" font-size="12" text-anchor="end">-z</text>
+  <circle cx="70.0" cy="240.0" r="5" fill="#4a90d9"/>
+  <text x="62.0" y="244.0" fill="#4a90d9" font-size="12" text-anchor="end">eye</text>
+  <line x1="209.6" y1="278.9" x2="209.6" y2="201.1" stroke="#4a90d9" stroke-width="3"/>
+  <text x="215.6" y="296.9" fill="#4a90d9" font-size="12">near plane z = -n</text>
+  <line x1="349.2" y1="240.0" x2="349.2" y2="171.9" stroke="#e0645c" stroke-width="3.5"/>
+  <line x1="70.0" y1="240.0" x2="349.2" y2="171.9" stroke="#e0645c" stroke-width="1.1" stroke-dasharray="4 4"/>
+  <circle cx="209.6" cy="205.9" r="4" fill="#e0645c"/>
+  <text x="349.2" y="161.9" fill="#e0645c" font-size="12" text-anchor="middle">depth 4</text>
+  <line x1="628.3" y1="240.0" x2="628.3" y2="171.9" stroke="#e0645c" stroke-width="3.5"/>
+  <line x1="70.0" y1="240.0" x2="628.3" y2="171.9" stroke="#e0645c" stroke-width="1.1" stroke-dasharray="4 4"/>
+  <circle cx="209.6" cy="223.0" r="4" fill="#e0645c"/>
+  <text x="628.3" y="161.9" fill="#e0645c" font-size="12" text-anchor="middle">depth 8</text>
+  <text x="217.6" y="201.9" fill="#e0645c" font-size="12">0.7</text>
+  <text x="217.6" y="237.0" fill="#e0645c" font-size="12">0.35</text>
+  <text x="279.4" y="371.4" fill="#8a8a8a">y_near = n y / (-z)</text>
+  <text x="279.4" y="391.4" fill="#8a8a8a" font-size="12">dividing by depth is foreshortening</text>
+</svg>

@@ -1,0 +1,66 @@
+<svg viewBox="0 0 800 330" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="40.0" y="24.0" fill="#8a8a8a" font-style="italic">Two loops, one image: object order (top) and image order (bottom)</text>
+  <text x="20.0" y="62.0" fill="#4a90d9" font-size="12" font-weight="bold">RASTERIZATION  -  for each triangle, find the pixels it covers</text>
+  <rect x="20.0" y="78.0" width="92.0" height="50.0" fill="none" stroke="#e0645c" stroke-width="1.5" rx="4"/>
+  <text x="66.0" y="99.9" fill="#e0645c" font-size="12.5" text-anchor="middle">Vertices</text>
+  <text x="66.0" y="115.5" fill="#8a8a8a" font-size="10.5" text-anchor="middle">scene data</text>
+  <line x1="112.0" y1="103.0" x2="132.0" y2="103.0" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="132.0,103.0 123.2,99.0 123.2,107.0" fill="#8a8a8a"/>
+  <rect x="132.0" y="78.0" width="92.0" height="50.0" fill="none" stroke="#4a90d9" stroke-width="1.5" rx="4"/>
+  <text x="178.0" y="99.9" fill="#4a90d9" font-size="12.5" text-anchor="middle">Transform</text>
+  <text x="178.0" y="115.5" fill="#8a8a8a" font-size="10.5" text-anchor="middle">Module 1</text>
+  <line x1="224.0" y1="103.0" x2="244.0" y2="103.0" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="244.0,103.0 235.2,99.0 235.2,107.0" fill="#8a8a8a"/>
+  <rect x="244.0" y="78.0" width="92.0" height="50.0" fill="none" stroke="#4a90d9" stroke-width="1.5" rx="4"/>
+  <text x="290.0" y="99.9" fill="#4a90d9" font-size="12.5" text-anchor="middle">Clip</text>
+  <text x="290.0" y="115.5" fill="#8a8a8a" font-size="10.5" text-anchor="middle">2.2</text>
+  <line x1="336.0" y1="103.0" x2="356.0" y2="103.0" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="356.0,103.0 347.2,99.0 347.2,107.0" fill="#8a8a8a"/>
+  <rect x="356.0" y="78.0" width="92.0" height="50.0" fill="none" stroke="#4a90d9" stroke-width="1.5" rx="4"/>
+  <text x="402.0" y="99.9" fill="#4a90d9" font-size="12.5" text-anchor="middle">Rasterize</text>
+  <text x="402.0" y="115.5" fill="#8a8a8a" font-size="10.5" text-anchor="middle">2.1</text>
+  <line x1="448.0" y1="103.0" x2="468.0" y2="103.0" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="468.0,103.0 459.2,99.0 459.2,107.0" fill="#8a8a8a"/>
+  <rect x="468.0" y="78.0" width="92.0" height="50.0" fill="none" stroke="#4a90d9" stroke-width="1.5" rx="4"/>
+  <text x="514.0" y="99.9" fill="#4a90d9" font-size="12.5" text-anchor="middle">Shade</text>
+  <text x="514.0" y="115.5" fill="#8a8a8a" font-size="10.5" text-anchor="middle">2.4 - 2.7</text>
+  <line x1="560.0" y1="103.0" x2="580.0" y2="103.0" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="580.0,103.0 571.2,99.0 571.2,107.0" fill="#8a8a8a"/>
+  <rect x="580.0" y="78.0" width="92.0" height="50.0" fill="none" stroke="#4a90d9" stroke-width="1.5" rx="4"/>
+  <text x="626.0" y="99.9" fill="#4a90d9" font-size="12.5" text-anchor="middle">Depth test</text>
+  <text x="626.0" y="115.5" fill="#8a8a8a" font-size="10.5" text-anchor="middle">2.2</text>
+  <line x1="672.0" y1="103.0" x2="692.0" y2="103.0" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="692.0,103.0 683.2,99.0 683.2,107.0" fill="#8a8a8a"/>
+  <rect x="692.0" y="78.0" width="92.0" height="50.0" fill="none" stroke="#e0645c" stroke-width="1.5" rx="4"/>
+  <text x="738.0" y="99.9" fill="#e0645c" font-size="12.5" text-anchor="middle">Pixels</text>
+  <text x="738.0" y="115.5" fill="#8a8a8a" font-size="10.5" text-anchor="middle">framebuffer</text>
+  <text x="20.0" y="160.0" fill="#8a8a8a" font-size="11.5">coordinate spaces:  object -&gt; world -&gt; eye -&gt; clip -&gt; NDC -&gt; screen</text>
+  <text x="20.0" y="205.0" fill="#4a90d9" font-size="12" font-weight="bold">RAY TRACING  -  for each pixel, find the object it sees</text>
+  <rect x="20.0" y="221.0" width="92.0" height="50.0" fill="none" stroke="#e0645c" stroke-width="1.5" rx="4"/>
+  <text x="66.0" y="242.9" fill="#e0645c" font-size="12.5" text-anchor="middle">Pixels</text>
+  <text x="66.0" y="258.5" fill="#8a8a8a" font-size="10.5" text-anchor="middle">image plane</text>
+  <line x1="112.0" y1="246.0" x2="188.0" y2="246.0" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="188.0,246.0 179.2,242.0 179.2,250.0" fill="#8a8a8a"/>
+  <rect x="188.0" y="221.0" width="92.0" height="50.0" fill="none" stroke="#4a90d9" stroke-width="1.5" rx="4"/>
+  <text x="234.0" y="242.9" fill="#4a90d9" font-size="12.5" text-anchor="middle">Make ray</text>
+  <text x="234.0" y="258.5" fill="#8a8a8a" font-size="10.5" text-anchor="middle">3.3</text>
+  <line x1="280.0" y1="246.0" x2="356.0" y2="246.0" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="356.0,246.0 347.2,242.0 347.2,250.0" fill="#8a8a8a"/>
+  <rect x="356.0" y="221.0" width="92.0" height="50.0" fill="none" stroke="#4a90d9" stroke-width="1.5" rx="4"/>
+  <text x="402.0" y="242.9" fill="#4a90d9" font-size="12.5" text-anchor="middle">Intersect</text>
+  <text x="402.0" y="258.5" fill="#8a8a8a" font-size="10.5" text-anchor="middle">3.3, 3.5</text>
+  <line x1="448.0" y1="246.0" x2="524.0" y2="246.0" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="524.0,246.0 515.2,242.0 515.2,250.0" fill="#8a8a8a"/>
+  <rect x="524.0" y="221.0" width="92.0" height="50.0" fill="none" stroke="#4a90d9" stroke-width="1.5" rx="4"/>
+  <text x="570.0" y="242.9" fill="#4a90d9" font-size="12.5" text-anchor="middle">Shade</text>
+  <text x="570.0" y="258.5" fill="#8a8a8a" font-size="10.5" text-anchor="middle">3.4, 3.6 - 3.7</text>
+  <line x1="616.0" y1="246.0" x2="692.0" y2="246.0" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="692.0,246.0 683.2,242.0 683.2,250.0" fill="#8a8a8a"/>
+  <rect x="692.0" y="221.0" width="92.0" height="50.0" fill="none" stroke="#e0645c" stroke-width="1.5" rx="4"/>
+  <text x="738.0" y="242.9" fill="#e0645c" font-size="12.5" text-anchor="middle">Pixels</text>
+  <text x="738.0" y="258.5" fill="#8a8a8a" font-size="10.5" text-anchor="middle">framebuffer</text>
+  <path d="M 570 271 C 570 305, 234 305, 234 275" fill="none" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <line x1="234.0" y1="283.0" x2="234.0" y2="273.0" stroke="#e0645c" stroke-width="1.5"/>
+  <polygon points="234.0,273.0 230.0,281.8 238.0,281.8" fill="#e0645c"/>
+  <text x="402.0" y="318.0" fill="#e0645c" font-size="11.5" text-anchor="middle">secondary rays: shadows, reflection, refraction</text>
+</svg>
