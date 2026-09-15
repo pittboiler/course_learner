@@ -4,7 +4,7 @@ The library is shelved by **field** (the subject area) and, within each field, b
 
 **Target:** every course ends at "enough to be dangerous" — defined per course by a concrete *Dangerous Checklist* in its syllabus (can-do statements, not topics covered).
 
-Field expansion (Foundations, CS, Chemistry, Engineering, Earth/Space, Life Sciences) is planned in [EXPANSION.md](EXPANSION.md); [roadmap.json](roadmap.json) is the machine-readable companion — keep the two in sync.
+Field expansion (Foundations, CS, Chemistry, Engineering, Earth/Space, Life Sciences, and the Philosophy / Politics & Society / Catholic Theology fields) is planned in [EXPANSION.md](EXPANSION.md); the three prose fields follow [HUMANITIES-BUILD-BRIEF.md](HUMANITIES-BUILD-BRIEF.md); [roadmap.json](roadmap.json) is the machine-readable companion — keep the two in sync.
 
 ## Fields
 
@@ -19,7 +19,9 @@ Field expansion (Foundations, CS, Chemistry, Engineering, Earth/Space, Life Scie
 | Earth & Space | seeding |
 | Life Sciences | seeding |
 | Economics & Finance | established |
-| Humanities | deferred |
+| Politics & Society | planned |
+| Philosophy | planned |
+| Catholic Theology | planned |
 
 ## Dependency graph
 
@@ -65,11 +67,7 @@ graph TD
         gmacro[Grad Macro]
         econ[Econometrics]
         mfin[Mathematical Finance]
-        poleco[Political Economy]
         sl[Statistical Learning]
-    end
-    subgraph HU["Humanities"]
-        polphil[Political Philosophy]
     end
 
     calc --> ode
@@ -144,8 +142,6 @@ graph TD
     sc --> mfin
     pt --> mfin
     gmicro --> mfin
-    ggt --> poleco
-    micro0 --> poleco
     pt --> sl
     linalg --> sl
     prob0 --> sl
@@ -155,7 +151,6 @@ graph TD
     rt -.-> qm
     dg -.-> rel
     it -.-> sm
-    poleco -.-> polphil
 ```
 
 *(Dashed edges are "deepens/illuminates" relationships, not hard prerequisites. Foundations sit below Tier 0 as an optional floor and are omitted from the graph to keep the refresher roots prereq-free. The graph shows the established core; expansion courses (see [EXPANSION.md](EXPANSION.md)) are listed in the field tables below with their prerequisites.)*
@@ -347,14 +342,81 @@ New field (Phase 9 in [EXPANSION.md](EXPANSION.md)).
 | `grad-macro` | Grad Macroeconomics | 2 | grad-micro, real-analysis, probability-theory | Recursive methods, growth, OLG, RBC/DSGE, consumption/investment, asset pricing, policy. The pair to grad-micro. |
 | `econometrics` | Econometrics | 2 | probability-theory, linalg, prob-stat | OLS geometry, inference, identification, IV, panel & diff-in-diff, staggered DiD, RD, synthetic control, MLE/GMM. |
 | `mathematical-finance` | Mathematical Finance | 2 | stochastic-calculus, probability-theory, grad-micro | No-arbitrage & risk-neutral pricing, Black–Scholes, portfolio theory/SDF, term structure. |
+| `public-economics` | Public Economics | 2 | grad-micro | Public goods, externalities, optimal taxation (Mirrlees), social insurance, and fiscal federalism. |
+| `economics-of-debt` | Economics of Debt | 2 | grad-micro, grad-macro | Credit rationing, Modigliani-Miller, debt overhang, Fisher and Minsky, leverage cycles, r - g sustainability, sovereign default. Part of the debt thread. |
 | `statistical-learning` | Statistical Learning Theory | 2 | probability-theory, linalg, prob-stat | Bias–variance, regularization, VC/PAC generalization, kernels/SVM, trees/boosting, neural nets, unsupervised. |
 
-## Humanities
+## Politics & Society
 
-Deferred per current priorities (STEM-first); retained here for continuity.
+The normative and the positive side by side: political philosophy, institutions, and formal and empirical political economy. Built to [HUMANITIES-BUILD-BRIEF.md](HUMANITIES-BUILD-BRIEF.md).
 
 | id | Course | Tier | Prereqs | Notes |
 |---|---|---|---|---|
+| `political-philosophy` | Political Philosophy | 1 | ethics | Authority, justice (Rawls/Nozick), liberty, equality, democracy. Prose-driven; the normative companion to political-economy. |
+| `political-institutions` | Political Institutions | 1 | — | Electoral systems, presidential vs parliamentary government, federalism, parties, courts, and bureaucracy. |
+| `history-of-political-thought` | History of Political Thought | 1 | — | Plato and Aristotle through Augustine, Aquinas, Machiavelli, the contract theorists, Burke, Marx, and Tocqueville. |
+| `social-theory` | Social Theory | 1 | — | Durkheim, Weber, Marx as sociologist, social capital, and the secularization debate. |
+| `comparative-politics` | Comparative Politics | 1 | political-institutions | Regimes, state formation, nationalism, revolutions, and democratic backsliding, through cases. |
+| `international-relations` | International Relations | 1 | political-institutions | Realism, liberalism, constructivism; the history of the state system; international law and organizations. |
+| `constitutional-law` | Constitutional Law | 1 | political-institutions | US-focused: judicial review, separation of powers, federalism, rights, and theories of interpretation. |
+| `history-of-debt` | A History of Debt | 1 | — | From Mesopotamian clean slates and Solon through the English financial revolution, sovereign default, and Jubilee 2000 to 2008. Entry point of the debt thread. |
+| `political-economy` | Political Economy & Social Choice | 2 | social-choice, grad-game-theory | Electoral competition, collective action, political agency, lobbying, coalitions and redistribution. Syllabus to be rewritten against social-choice and public-economics. |
+| `philosophy-of-law` | Philosophy of Law | 2 | political-philosophy | Hart vs Dworkin, natural-law jurisprudence, legal obligation, and the justification of punishment. |
+| `social-choice` | Social Choice Theory | 2 | proofs-primer, game-theory-refresher | Beyond Arrow: May's theorem, scoring rules, Sen's liberal paradox, the jury theorem, judgment aggregation, apportionment. |
+| `institutions-and-development` | Institutions & Development | 2 | political-economy | Acemoglu-Robinson, North, state capacity, selectorate theory, and the political economy of autocracy. |
+| `conflict-and-bargaining` | Conflict & Bargaining | 2 | grad-game-theory, international-relations | Formal IR: the bargaining model of war, commitment problems, alliances, sanctions, and trade politics. |
+| `empirical-political-economy` | Empirical Political Economy | 2 | econometrics, political-economy | Close-election RD, diff-in-diff on institutions, text as data — the identification literature on politics. |
+
+## Philosophy
+
+The analytic core plus its history, taught verdict-neutral: every position at the strength its best defenders would recognize. Built to [HUMANITIES-BUILD-BRIEF.md](HUMANITIES-BUILD-BRIEF.md).
+
+| id | Course | Tier | Prereqs | Notes |
+|---|---|---|---|---|
+| `philosophical-method` | Philosophical Method | 1 | — | Argument reconstruction, validity vs soundness, thought experiments, reflective equilibrium, conceptual analysis. The on-ramp for all three prose fields. |
+| `ancient-medieval-philosophy` | Ancient & Medieval Philosophy | 1 | philosophical-method | Presocratics, Plato, Aristotle, Stoics & Epicureans, Augustine, Boethius, Aquinas, Scotus, Ockham. |
+| `modern-philosophy` | Modern Philosophy | 1 | philosophical-method | Descartes to Kant — rationalists, empiricists, the critical turn — with a look at Hegel and Nietzsche. |
+| `ethics` | Ethics | 1 | philosophical-method | Consequentialism, deontology, virtue ethics, natural law, contractualism, and metaethics. |
+| `epistemology` | Epistemology | 1 | philosophical-method | Knowledge, justification, skepticism, testimony, peer disagreement, and Bayesian epistemology. |
+| `metaphysics` | Metaphysics | 1 | philosophical-method | Being, universals, substance & essence, identity, causation, modality, free will, persons. |
+| `decision-theory` | Decision Theory | 1 | prob-stat-refresher, philosophical-method | vNM & Savage axioms, Newcomb's problem, ambiguity, Harsanyi's aggregation theorem, population ethics. |
+| `philosophy-of-religion` | Philosophy of Religion | 1 | metaphysics, epistemology | Arguments for God, the problem of evil, miracles, reformed epistemology, divine attributes. |
+| `philosophy-of-mind` | Philosophy of Mind | 2 | metaphysics | Mind-body problem, consciousness, intentionality, personal identity, and machine minds. |
+| `philosophy-of-science` | Philosophy of Science | 2 | epistemology, prob-stat-refresher | Induction, Bayesian confirmation, explanation, scientific realism, Kuhn, demarcation. |
+| `philosophy-of-physics` | Philosophy of Physics | 2 | philosophy-of-science, quantum-mechanics | Interpretations of quantum mechanics, the nature of spacetime, time's arrow, probability in statistical mechanics. |
+| `philosophy-of-language-and-logic` | Philosophy of Language & Logic | 2 | philosophical-method, mathematical-logic | Frege, Russell, Kripke; meaning and reference; modal logic and possible worlds. |
+| `phenomenology-and-personalism` | Phenomenology & Personalism | 2 | modern-philosophy | Husserl, Heidegger, Scheler, Edith Stein, Wojtyla — the road into John Paul II's thought. |
+| `philosophy-of-economics` | Philosophy of Economics | 2 | ethics, grad-micro | Welfare and well-being, rationality, the moral limits of markets, what economic models explain. |
+| `philosophy-of-debt` | Philosophy of Debt | 2 | ethics, history-of-debt | Promising and obligation, the justice of interest, Nietzsche's Schuld, moral hazard vs forgiveness, odious debt. Part of the debt thread. |
+
+## Catholic Theology
+
+Catholic theology taught from within the tradition, on the plan of a pontifical theology degree (STB): fundamental theology, then scripture and history, then dogmatic, moral and sacramental theology, with two apologetics courses. Doctrinal claims carry their level of authority. Built to [HUMANITIES-BUILD-BRIEF.md](HUMANITIES-BUILD-BRIEF.md).
+
+| id | Course | Tier | Prereqs | Notes |
+|---|---|---|---|---|
+| `fundamental-theology` | Fundamental Theology | 1 | — | Revelation, faith and reason, Scripture-Tradition-Magisterium, levels of doctrinal authority, development of doctrine. |
+| `old-testament` | The Old Testament | 1 | fundamental-theology | Pentateuch, historical books, prophets, wisdom literature, and the deuterocanon, read with Catholic exegesis. |
+| `new-testament` | The New Testament | 1 | fundamental-theology | The Synoptics, John, Paul, Hebrews, and Revelation; the historical Jesus. |
+| `patristics` | The Church Fathers | 1 | fundamental-theology | Ignatius, Irenaeus, Athanasius, the Cappadocians, Augustine — read in primary texts. |
+| `church-history` | Church History | 1 | — | From the apostolic Church through the councils, 1054, the Reformation and Trent, to Vatican II. |
+| `thomistic-synthesis` | The Thomistic Synthesis | 2 | ancient-medieval-philosophy, metaphysics | The structure of the Summa, act and potency, analogy, the Five Ways — Aquinas as the Church's common doctor. |
+| `trinity-and-god` | The Triune God | 2 | thomistic-synthesis, patristics | De Deo Uno et Trino: divine attributes, processions, relations, persons, the filioque. |
+| `christology` | Christology | 2 | trinity-and-god, new-testament | Nicaea to Constantinople III, the hypostatic union, Christ's knowledge and wills, theories of atonement. |
+| `creation-grace-last-things` | Creation, Grace & the Last Things | 2 | christology | Imago Dei, original sin, grace and justification (Trent), the de auxiliis controversy, eschatology. |
+| `ecclesiology-and-mariology` | The Church & Mary | 2 | christology, church-history | The nature of the Church, the papacy and infallibility (Vatican I and II), the Marian dogmas. |
+| `sacraments-and-liturgy` | Sacraments & Liturgy | 2 | ecclesiology-and-mariology | The seven sacraments, the Eucharist and transubstantiation, the history and theology of the liturgy. |
+| `moral-theology` | Moral Theology | 2 | ethics, fundamental-theology | Natural law in light of revelation, virtue, conscience, double effect, Veritatis Splendor, bioethics. |
+| `catholic-social-teaching` | Catholic Social Teaching | 2 | moral-theology | Rerum Novarum to Fratelli Tutti: dignity, subsidiarity, solidarity, property, labor, just war. |
+| `apologetics-foundations` | Apologetics I: God, Christ & the Religions | 2 | philosophy-of-religion, new-testament | The case against atheism and naturalism, the resurrection as history, and Christianity in dialogue with Judaism and Islam. |
+| `apologetics-catholic-claims` | Apologetics II: The Catholic Claims | 2 | ecclesiology-and-mariology, sacraments-and-liturgy | The Catholic case against Protestant (sola scriptura, sola fide, canon, Mary, purgatory) and Orthodox (primacy, filioque, Vatican I) positions, each stated at its strongest. |
+| `theology-of-debt` | Theology of Debt | 2 | old-testament, new-testament, moral-theology | Jubilee and debt slavery, 'forgive us our debts', sin as debt, Anselm, the treasury of merit, usury from Lateran III to Vix Pervenit. Part of the debt thread. |
+
+### The debt thread
+
+Four courses on debt, one in each new field plus one in Economics & Finance, as history, moral problem, theology and economics: [`history-of-debt`](courses/history-of-debt/syllabus.md) is the shared entry point; `philosophy-of-debt`, `theology-of-debt` and `economics-of-debt` build on it. Ownership split in the build brief.
+
+---|---|---|---|---|
 | `political-economy` | Political Economy & Social Choice | 2 | grad-game-theory, micro | Social choice, voting & elections, collective action, political agency, coalitions & redistribution. |
 | `political-philosophy` | Political Philosophy | 1 | — (proofs optional) | Authority, justice (Rawls/Nozick), liberty, equality, democracy. Prose-driven, no math. The normative companion to `political-economy`. |
 
@@ -362,7 +424,7 @@ Deferred per current priorities (STEM-first); retained here for continuity.
 
 ## Future shelf (not yet in the graph)
 
-Planned fields and courses are enumerated phase-by-phase in [EXPANSION.md](EXPANSION.md): **Foundations** (seeded above), **Mathematics** expansion (discrete math, number theory, graph theory, combinatorics, numerical analysis, convex optimization, Fourier/harmonic analysis, logic & set theory; later measure theory, algebraic topology, algebraic geometry, category theory), **Physics** breadth (waves & optics, thermodynamics, mathematical methods, computational physics, nuclear & particle, condensed matter, plasma, biophysics, quantum optics), **Engineering** (core mechanics/thermal/controls shelf, the **nuclear engineering** flagship, EE, aero/mech/chem/civil/materials), **Computer Science**, **Chemistry**, **Earth & Space**, and **Life Sciences**. Also on the shelf: reinforcement learning, macroeconometrics/time series, philosophy of science, ethics & decision theory, and a future theology track.
+Planned fields and courses are enumerated phase-by-phase in [EXPANSION.md](EXPANSION.md): **Foundations** (seeded above), **Mathematics** expansion (discrete math, number theory, graph theory, combinatorics, numerical analysis, convex optimization, Fourier/harmonic analysis, logic & set theory; later measure theory, algebraic topology, algebraic geometry, category theory), **Physics** breadth (waves & optics, thermodynamics, mathematical methods, computational physics, nuclear & particle, condensed matter, plasma, biophysics, quantum optics), **Engineering** (core mechanics/thermal/controls shelf, the **nuclear engineering** flagship, EE, aero/mech/chem/civil/materials), **Computer Science**, **Chemistry**, **Earth & Space**, and **Life Sciences**. Also on the shelf: macroeconometrics/time series, industrial organization, behavioral economics, market design. Philosophy, Politics & Society and Catholic Theology are now enumerated in the field tables above.
 
 ## Suggested default path
 

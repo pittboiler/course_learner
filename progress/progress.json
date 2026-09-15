@@ -670,6 +670,46 @@
       "status": "available",
       "started": "2026-08-04",
       "lessons": {}
+    },
+    "philosophical-method": {
+      "status": "available",
+      "started": "2026-09-15",
+      "lessons": {}
+    },
+    "ethics": {
+      "status": "available",
+      "started": "2026-09-15",
+      "lessons": {}
+    },
+    "fundamental-theology": {
+      "status": "available",
+      "started": "2026-09-15",
+      "lessons": {}
+    },
+    "political-institutions": {
+      "status": "available",
+      "started": "2026-09-15",
+      "lessons": {}
+    },
+    "history-of-debt": {
+      "status": "available",
+      "started": "2026-09-15",
+      "lessons": {}
+    },
+    "church-history": {
+      "status": "available",
+      "started": "2026-09-15",
+      "lessons": {}
+    },
+    "history-of-political-thought": {
+      "status": "available",
+      "started": "2026-09-15",
+      "lessons": {}
+    },
+    "social-theory": {
+      "status": "available",
+      "started": "2026-09-15",
+      "lessons": {}
     }
   },
   "review_queue": [],

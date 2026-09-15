@@ -412,13 +412,13 @@
       "id": "political-economy",
       "title": "Political Economy & Social Choice",
       "tier": 2,
-      "field": "Humanities",
+      "field": "Politics & Society",
       "prereqs": [
-        "grad-game-theory",
-        "micro-refresher"
+        "social-choice",
+        "grad-game-theory"
       ],
-      "lessons_estimate": 24,
-      "blurb": "Social choice, voting & elections, collective action, political agency, coalitions & redistribution."
+      "lessons_estimate": 22,
+      "blurb": "Electoral competition, collective action, political agency, lobbying, coalitions and redistribution. Syllabus to be rewritten against social-choice and public-economics."
     },
     {
       "id": "statistical-learning",
@@ -437,10 +437,12 @@
       "id": "political-philosophy",
       "title": "Political Philosophy",
       "tier": 1,
-      "field": "Humanities",
-      "prereqs": [],
-      "lessons_estimate": 20,
-      "blurb": "Authority, justice (Rawls/Nozick), liberty, equality, democracy. The first course in a humanities track; normative companion to political-economy."
+      "field": "Politics & Society",
+      "prereqs": [
+        "ethics"
+      ],
+      "lessons_estimate": 22,
+      "blurb": "Authority, justice (Rawls/Nozick), liberty, equality, democracy. Prose-driven; the normative companion to political-economy."
     },
     {
       "id": "arithmetic-number-sense",
@@ -1540,6 +1542,507 @@
       ],
       "lessons_estimate": 16,
       "blurb": "Categories, functors, natural transformations, universal properties, limits, and adjunctions."
+    },
+    {
+      "id": "philosophical-method",
+      "title": "Philosophical Method",
+      "tier": 1,
+      "field": "Philosophy",
+      "prereqs": [],
+      "lessons_estimate": 16,
+      "blurb": "Argument reconstruction, validity vs soundness, thought experiments, reflective equilibrium, conceptual analysis. The on-ramp for all three prose fields."
+    },
+    {
+      "id": "ancient-medieval-philosophy",
+      "title": "Ancient & Medieval Philosophy",
+      "tier": 1,
+      "field": "Philosophy",
+      "prereqs": [
+        "philosophical-method"
+      ],
+      "lessons_estimate": 24,
+      "blurb": "Presocratics, Plato, Aristotle, Stoics & Epicureans, Augustine, Boethius, Aquinas, Scotus, Ockham."
+    },
+    {
+      "id": "modern-philosophy",
+      "title": "Modern Philosophy",
+      "tier": 1,
+      "field": "Philosophy",
+      "prereqs": [
+        "philosophical-method"
+      ],
+      "lessons_estimate": 22,
+      "blurb": "Descartes to Kant — rationalists, empiricists, the critical turn — with a look at Hegel and Nietzsche."
+    },
+    {
+      "id": "ethics",
+      "title": "Ethics",
+      "tier": 1,
+      "field": "Philosophy",
+      "prereqs": [
+        "philosophical-method"
+      ],
+      "lessons_estimate": 26,
+      "blurb": "Consequentialism, deontology, virtue ethics, natural law, contractualism, and metaethics."
+    },
+    {
+      "id": "epistemology",
+      "title": "Epistemology",
+      "tier": 1,
+      "field": "Philosophy",
+      "prereqs": [
+        "philosophical-method"
+      ],
+      "lessons_estimate": 20,
+      "blurb": "Knowledge, justification, skepticism, testimony, peer disagreement, and Bayesian epistemology."
+    },
+    {
+      "id": "metaphysics",
+      "title": "Metaphysics",
+      "tier": 1,
+      "field": "Philosophy",
+      "prereqs": [
+        "philosophical-method"
+      ],
+      "lessons_estimate": 22,
+      "blurb": "Being, universals, substance & essence, identity, causation, modality, free will, persons."
+    },
+    {
+      "id": "decision-theory",
+      "title": "Decision Theory",
+      "tier": 1,
+      "field": "Philosophy",
+      "prereqs": [
+        "prob-stat-refresher",
+        "philosophical-method"
+      ],
+      "lessons_estimate": 20,
+      "blurb": "vNM & Savage axioms, Newcomb's problem, ambiguity, Harsanyi's aggregation theorem, population ethics."
+    },
+    {
+      "id": "philosophy-of-religion",
+      "title": "Philosophy of Religion",
+      "tier": 1,
+      "field": "Philosophy",
+      "prereqs": [
+        "metaphysics",
+        "epistemology"
+      ],
+      "lessons_estimate": 20,
+      "blurb": "Arguments for God, the problem of evil, miracles, reformed epistemology, divine attributes."
+    },
+    {
+      "id": "philosophy-of-mind",
+      "title": "Philosophy of Mind",
+      "tier": 2,
+      "field": "Philosophy",
+      "prereqs": [
+        "metaphysics"
+      ],
+      "lessons_estimate": 20,
+      "blurb": "Mind-body problem, consciousness, intentionality, personal identity, and machine minds."
+    },
+    {
+      "id": "philosophy-of-science",
+      "title": "Philosophy of Science",
+      "tier": 2,
+      "field": "Philosophy",
+      "prereqs": [
+        "epistemology",
+        "prob-stat-refresher"
+      ],
+      "lessons_estimate": 22,
+      "blurb": "Induction, Bayesian confirmation, explanation, scientific realism, Kuhn, demarcation."
+    },
+    {
+      "id": "philosophy-of-physics",
+      "title": "Philosophy of Physics",
+      "tier": 2,
+      "field": "Philosophy",
+      "prereqs": [
+        "philosophy-of-science",
+        "quantum-mechanics"
+      ],
+      "lessons_estimate": 20,
+      "blurb": "Interpretations of quantum mechanics, the nature of spacetime, time's arrow, probability in statistical mechanics."
+    },
+    {
+      "id": "philosophy-of-language-and-logic",
+      "title": "Philosophy of Language & Logic",
+      "tier": 2,
+      "field": "Philosophy",
+      "prereqs": [
+        "philosophical-method",
+        "mathematical-logic"
+      ],
+      "lessons_estimate": 20,
+      "blurb": "Frege, Russell, Kripke; meaning and reference; modal logic and possible worlds."
+    },
+    {
+      "id": "phenomenology-and-personalism",
+      "title": "Phenomenology & Personalism",
+      "tier": 2,
+      "field": "Philosophy",
+      "prereqs": [
+        "modern-philosophy"
+      ],
+      "lessons_estimate": 18,
+      "blurb": "Husserl, Heidegger, Scheler, Edith Stein, Wojtyla — the road into John Paul II's thought."
+    },
+    {
+      "id": "philosophy-of-economics",
+      "title": "Philosophy of Economics",
+      "tier": 2,
+      "field": "Philosophy",
+      "prereqs": [
+        "ethics",
+        "grad-micro"
+      ],
+      "lessons_estimate": 18,
+      "blurb": "Welfare and well-being, rationality, the moral limits of markets, what economic models explain."
+    },
+    {
+      "id": "philosophy-of-debt",
+      "title": "Philosophy of Debt",
+      "tier": 2,
+      "field": "Philosophy",
+      "prereqs": [
+        "ethics",
+        "history-of-debt"
+      ],
+      "lessons_estimate": 18,
+      "blurb": "Promising and obligation, the justice of interest, Nietzsche's Schuld, moral hazard vs forgiveness, odious debt. Part of the debt thread."
+    },
+    {
+      "id": "political-institutions",
+      "title": "Political Institutions",
+      "tier": 1,
+      "field": "Politics & Society",
+      "prereqs": [],
+      "lessons_estimate": 25,
+      "blurb": "Electoral systems, presidential vs parliamentary government, federalism, parties, courts, and bureaucracy."
+    },
+    {
+      "id": "history-of-political-thought",
+      "title": "History of Political Thought",
+      "tier": 1,
+      "field": "Politics & Society",
+      "prereqs": [],
+      "lessons_estimate": 27,
+      "blurb": "Plato and Aristotle through Augustine, Aquinas, Machiavelli, the contract theorists, Burke, Marx, and Tocqueville."
+    },
+    {
+      "id": "social-theory",
+      "title": "Social Theory",
+      "tier": 1,
+      "field": "Politics & Society",
+      "prereqs": [],
+      "lessons_estimate": 24,
+      "blurb": "Durkheim, Weber, Marx as sociologist, social capital, and the secularization debate."
+    },
+    {
+      "id": "comparative-politics",
+      "title": "Comparative Politics",
+      "tier": 1,
+      "field": "Politics & Society",
+      "prereqs": [
+        "political-institutions"
+      ],
+      "lessons_estimate": 22,
+      "blurb": "Regimes, state formation, nationalism, revolutions, and democratic backsliding, through cases."
+    },
+    {
+      "id": "international-relations",
+      "title": "International Relations",
+      "tier": 1,
+      "field": "Politics & Society",
+      "prereqs": [
+        "political-institutions"
+      ],
+      "lessons_estimate": 20,
+      "blurb": "Realism, liberalism, constructivism; the history of the state system; international law and organizations."
+    },
+    {
+      "id": "constitutional-law",
+      "title": "Constitutional Law",
+      "tier": 1,
+      "field": "Politics & Society",
+      "prereqs": [
+        "political-institutions"
+      ],
+      "lessons_estimate": 22,
+      "blurb": "US-focused: judicial review, separation of powers, federalism, rights, and theories of interpretation."
+    },
+    {
+      "id": "history-of-debt",
+      "title": "A History of Debt",
+      "tier": 1,
+      "field": "Politics & Society",
+      "prereqs": [],
+      "lessons_estimate": 29,
+      "blurb": "From Mesopotamian clean slates and Solon through the English financial revolution, sovereign default, and Jubilee 2000 to 2008. Entry point of the debt thread."
+    },
+    {
+      "id": "philosophy-of-law",
+      "title": "Philosophy of Law",
+      "tier": 2,
+      "field": "Politics & Society",
+      "prereqs": [
+        "political-philosophy"
+      ],
+      "lessons_estimate": 20,
+      "blurb": "Hart vs Dworkin, natural-law jurisprudence, legal obligation, and the justification of punishment."
+    },
+    {
+      "id": "social-choice",
+      "title": "Social Choice Theory",
+      "tier": 2,
+      "field": "Politics & Society",
+      "prereqs": [
+        "proofs-primer",
+        "game-theory-refresher"
+      ],
+      "lessons_estimate": 20,
+      "blurb": "Beyond Arrow: May's theorem, scoring rules, Sen's liberal paradox, the jury theorem, judgment aggregation, apportionment."
+    },
+    {
+      "id": "institutions-and-development",
+      "title": "Institutions & Development",
+      "tier": 2,
+      "field": "Politics & Society",
+      "prereqs": [
+        "political-economy"
+      ],
+      "lessons_estimate": 22,
+      "blurb": "Acemoglu-Robinson, North, state capacity, selectorate theory, and the political economy of autocracy."
+    },
+    {
+      "id": "conflict-and-bargaining",
+      "title": "Conflict & Bargaining",
+      "tier": 2,
+      "field": "Politics & Society",
+      "prereqs": [
+        "grad-game-theory",
+        "international-relations"
+      ],
+      "lessons_estimate": 20,
+      "blurb": "Formal IR: the bargaining model of war, commitment problems, alliances, sanctions, and trade politics."
+    },
+    {
+      "id": "empirical-political-economy",
+      "title": "Empirical Political Economy",
+      "tier": 2,
+      "field": "Politics & Society",
+      "prereqs": [
+        "econometrics",
+        "political-economy"
+      ],
+      "lessons_estimate": 22,
+      "blurb": "Close-election RD, diff-in-diff on institutions, text as data — the identification literature on politics."
+    },
+    {
+      "id": "fundamental-theology",
+      "title": "Fundamental Theology",
+      "tier": 1,
+      "field": "Catholic Theology",
+      "prereqs": [],
+      "lessons_estimate": 22,
+      "blurb": "Revelation, faith and reason, Scripture-Tradition-Magisterium, levels of doctrinal authority, development of doctrine."
+    },
+    {
+      "id": "old-testament",
+      "title": "The Old Testament",
+      "tier": 1,
+      "field": "Catholic Theology",
+      "prereqs": [
+        "fundamental-theology"
+      ],
+      "lessons_estimate": 24,
+      "blurb": "Pentateuch, historical books, prophets, wisdom literature, and the deuterocanon, read with Catholic exegesis."
+    },
+    {
+      "id": "new-testament",
+      "title": "The New Testament",
+      "tier": 1,
+      "field": "Catholic Theology",
+      "prereqs": [
+        "fundamental-theology"
+      ],
+      "lessons_estimate": 24,
+      "blurb": "The Synoptics, John, Paul, Hebrews, and Revelation; the historical Jesus."
+    },
+    {
+      "id": "patristics",
+      "title": "The Church Fathers",
+      "tier": 1,
+      "field": "Catholic Theology",
+      "prereqs": [
+        "fundamental-theology"
+      ],
+      "lessons_estimate": 20,
+      "blurb": "Ignatius, Irenaeus, Athanasius, the Cappadocians, Augustine — read in primary texts."
+    },
+    {
+      "id": "church-history",
+      "title": "Church History",
+      "tier": 1,
+      "field": "Catholic Theology",
+      "prereqs": [],
+      "lessons_estimate": 30,
+      "blurb": "From the apostolic Church through the councils, 1054, the Reformation and Trent, to Vatican II."
+    },
+    {
+      "id": "thomistic-synthesis",
+      "title": "The Thomistic Synthesis",
+      "tier": 2,
+      "field": "Catholic Theology",
+      "prereqs": [
+        "ancient-medieval-philosophy",
+        "metaphysics"
+      ],
+      "lessons_estimate": 22,
+      "blurb": "The structure of the Summa, act and potency, analogy, the Five Ways — Aquinas as the Church's common doctor."
+    },
+    {
+      "id": "trinity-and-god",
+      "title": "The Triune God",
+      "tier": 2,
+      "field": "Catholic Theology",
+      "prereqs": [
+        "thomistic-synthesis",
+        "patristics"
+      ],
+      "lessons_estimate": 20,
+      "blurb": "De Deo Uno et Trino: divine attributes, processions, relations, persons, the filioque."
+    },
+    {
+      "id": "christology",
+      "title": "Christology",
+      "tier": 2,
+      "field": "Catholic Theology",
+      "prereqs": [
+        "trinity-and-god",
+        "new-testament"
+      ],
+      "lessons_estimate": 20,
+      "blurb": "Nicaea to Constantinople III, the hypostatic union, Christ's knowledge and wills, theories of atonement."
+    },
+    {
+      "id": "creation-grace-last-things",
+      "title": "Creation, Grace & the Last Things",
+      "tier": 2,
+      "field": "Catholic Theology",
+      "prereqs": [
+        "christology"
+      ],
+      "lessons_estimate": 24,
+      "blurb": "Imago Dei, original sin, grace and justification (Trent), the de auxiliis controversy, eschatology."
+    },
+    {
+      "id": "ecclesiology-and-mariology",
+      "title": "The Church & Mary",
+      "tier": 2,
+      "field": "Catholic Theology",
+      "prereqs": [
+        "christology",
+        "church-history"
+      ],
+      "lessons_estimate": 22,
+      "blurb": "The nature of the Church, the papacy and infallibility (Vatican I and II), the Marian dogmas."
+    },
+    {
+      "id": "sacraments-and-liturgy",
+      "title": "Sacraments & Liturgy",
+      "tier": 2,
+      "field": "Catholic Theology",
+      "prereqs": [
+        "ecclesiology-and-mariology"
+      ],
+      "lessons_estimate": 22,
+      "blurb": "The seven sacraments, the Eucharist and transubstantiation, the history and theology of the liturgy."
+    },
+    {
+      "id": "moral-theology",
+      "title": "Moral Theology",
+      "tier": 2,
+      "field": "Catholic Theology",
+      "prereqs": [
+        "ethics",
+        "fundamental-theology"
+      ],
+      "lessons_estimate": 24,
+      "blurb": "Natural law in light of revelation, virtue, conscience, double effect, Veritatis Splendor, bioethics."
+    },
+    {
+      "id": "catholic-social-teaching",
+      "title": "Catholic Social Teaching",
+      "tier": 2,
+      "field": "Catholic Theology",
+      "prereqs": [
+        "moral-theology"
+      ],
+      "lessons_estimate": 22,
+      "blurb": "Rerum Novarum to Fratelli Tutti: dignity, subsidiarity, solidarity, property, labor, just war."
+    },
+    {
+      "id": "apologetics-foundations",
+      "title": "Apologetics I: God, Christ & the Religions",
+      "tier": 2,
+      "field": "Catholic Theology",
+      "prereqs": [
+        "philosophy-of-religion",
+        "new-testament"
+      ],
+      "lessons_estimate": 26,
+      "blurb": "The case against atheism and naturalism, the resurrection as history, and Christianity in dialogue with Judaism and Islam."
+    },
+    {
+      "id": "apologetics-catholic-claims",
+      "title": "Apologetics II: The Catholic Claims",
+      "tier": 2,
+      "field": "Catholic Theology",
+      "prereqs": [
+        "ecclesiology-and-mariology",
+        "sacraments-and-liturgy"
+      ],
+      "lessons_estimate": 26,
+      "blurb": "The Catholic case against Protestant (sola scriptura, sola fide, canon, Mary, purgatory) and Orthodox (primacy, filioque, Vatican I) positions, each stated at its strongest."
+    },
+    {
+      "id": "theology-of-debt",
+      "title": "Theology of Debt",
+      "tier": 2,
+      "field": "Catholic Theology",
+      "prereqs": [
+        "old-testament",
+        "new-testament",
+        "moral-theology"
+      ],
+      "lessons_estimate": 20,
+      "blurb": "Jubilee and debt slavery, 'forgive us our debts', sin as debt, Anselm, the treasury of merit, usury from Lateran III to Vix Pervenit. Part of the debt thread."
+    },
+    {
+      "id": "public-economics",
+      "title": "Public Economics",
+      "tier": 2,
+      "field": "Economics & Finance",
+      "prereqs": [
+        "grad-micro"
+      ],
+      "lessons_estimate": 22,
+      "blurb": "Public goods, externalities, optimal taxation (Mirrlees), social insurance, and fiscal federalism."
+    },
+    {
+      "id": "economics-of-debt",
+      "title": "Economics of Debt",
+      "tier": 2,
+      "field": "Economics & Finance",
+      "prereqs": [
+        "grad-micro",
+        "grad-macro"
+      ],
+      "lessons_estimate": 24,
+      "blurb": "Credit rationing, Modigliani-Miller, debt overhang, Fisher and Minsky, leverage cycles, r - g sustainability, sovereign default. Part of the debt thread."
     }
   ]
 }

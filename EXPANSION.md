@@ -6,7 +6,8 @@ time to time." Check boxes as courses are stood up. No syllabi are written until
 a course's phase comes up.
 
 **Priority order (Jacob, Aug 2026):** Fields **1, 2, 4, 6** first, then most of
-the rest. Political economy / philosophy and the theology track are deferred.
+the rest. Political economy / philosophy and the theology track were deferred until
+2026-09-15, when they became three fields (Phase 11).
 
 ---
 
@@ -29,7 +30,9 @@ difficulty axis *within* a field. This is a small, additive schema change.
 | 7 | Earth, Atmosphere & Space | new |
 | 8 | Life Sciences | new |
 | 9 | Economics, Finance & Quant Social | existing |
-| 10 | Humanities | existing — deferred |
+| 10 | Politics & Society | new (2026-09-15) — absorbs the two Humanities courses |
+| 11 | Philosophy | new (2026-09-15) |
+| 12 | Catholic Theology | new (2026-09-15) |
 
 **Existing 36 courses → field assignment** (applied in Phase 0):
 
@@ -220,10 +223,82 @@ behind molecular-cell-biology. `computational-biology` (2) also needs `algorithm
 
 Math Tier 2: `measure-theory`, `algebraic-topology`, `algebraic-geometry`,
 `category-theory`. Econ extras: `time-series`, `industrial-organization`,
-`behavioral-economics`, `market-design`. Humanities/theology track + resume
-political-economy / political-philosophy. Philosophy of science, ethics &
-decision theory.
+`behavioral-economics`, `market-design`. (The humanities/theology track, philosophy of
+science, and ethics & decision theory moved to Phase 11.)
 
+---
+
+### Phase 11 — Philosophy, Politics & Society, Catholic Theology · 47 courses · ~1,037 lessons
+
+Locked 2026-09-15. Replaces the "Humanities" placeholder. Pedagogy (problem kinds,
+rubric keys, stance rules, primary sources, ownership, build order) is settled in
+[HUMANITIES-BUILD-BRIEF.md](HUMANITIES-BUILD-BRIEF.md) — read it first. Includes the
+**debt thread** (`history-of-debt`, `philosophy-of-debt`, `theology-of-debt`,
+`economics-of-debt`).
+
+Order: **pilot `philosophical-method` and stop to report** (with the two server-prompt
+changes the brief lists) → roots (`ethics`, `fundamental-theology`,
+`political-institutions`, `history-of-debt`, `church-history`,
+`history-of-political-thought`, `social-theory`) → spines → Tier 2 in prerequisite order.
+
+**Philosophy (Field 11)** · 15 courses · ~306 lessons
+
+- [ ] `philosophical-method` — Philosophical Method (1, 16) — syllabus ✓ (2026-09-15), lessons pending
+- [ ] `ancient-medieval-philosophy` — Ancient & Medieval Philosophy (1, 24) — pending
+- [ ] `modern-philosophy` — Modern Philosophy (1, 22) — pending
+- [ ] `ethics` — Ethics (1, 26) — syllabus ✓ (2026-09-15), lessons pending
+- [ ] `epistemology` — Epistemology (1, 20) — pending
+- [ ] `metaphysics` — Metaphysics (1, 22) — pending
+- [ ] `decision-theory` — Decision Theory (1, 20) — pending
+- [ ] `philosophy-of-religion` — Philosophy of Religion (1, 20) — pending
+- [ ] `philosophy-of-mind` — Philosophy of Mind (2, 20) — pending
+- [ ] `philosophy-of-science` — Philosophy of Science (2, 22) — pending
+- [ ] `philosophy-of-physics` — Philosophy of Physics (2, 20) — pending
+- [ ] `philosophy-of-language-and-logic` — Philosophy of Language & Logic (2, 20) — pending
+- [ ] `phenomenology-and-personalism` — Phenomenology & Personalism (2, 18) — pending
+- [ ] `philosophy-of-economics` — Philosophy of Economics (2, 18) — pending
+- [ ] `philosophy-of-debt` — Philosophy of Debt (2, 18) — pending
+
+**Politics & Society (Field 10)** · 14 courses · ~317 lessons
+
+- [ ] `political-philosophy` — Political Philosophy (1, 22) — syllabus ✓ (to be rewritten), lessons pending
+- [ ] `political-institutions` — Political Institutions (1, 25) — syllabus ✓ (2026-09-15), lessons pending
+- [ ] `history-of-political-thought` — History of Political Thought (1, 27) — syllabus ✓ (2026-09-15), lessons pending
+- [ ] `social-theory` — Social Theory (1, 24) — syllabus ✓ (2026-09-15), lessons pending
+- [ ] `comparative-politics` — Comparative Politics (1, 22) — pending
+- [ ] `international-relations` — International Relations (1, 20) — pending
+- [ ] `constitutional-law` — Constitutional Law (1, 22) — pending
+- [ ] `history-of-debt` — A History of Debt (1, 29) — syllabus ✓ (2026-09-15), lessons pending
+- [ ] `political-economy` — Political Economy & Social Choice (2, 22) — syllabus ✓ (to be rewritten), lessons pending
+- [ ] `philosophy-of-law` — Philosophy of Law (2, 20) — pending
+- [ ] `social-choice` — Social Choice Theory (2, 20) — pending
+- [ ] `institutions-and-development` — Institutions & Development (2, 22) — pending
+- [ ] `conflict-and-bargaining` — Conflict & Bargaining (2, 20) — pending
+- [ ] `empirical-political-economy` — Empirical Political Economy (2, 22) — pending
+
+**Catholic Theology (Field 12)** · 16 courses · ~368 lessons
+
+- [ ] `fundamental-theology` — Fundamental Theology (1, 22) — syllabus ✓ (2026-09-15), lessons pending
+- [ ] `old-testament` — The Old Testament (1, 24) — pending
+- [ ] `new-testament` — The New Testament (1, 24) — pending
+- [ ] `patristics` — The Church Fathers (1, 20) — pending
+- [ ] `church-history` — Church History (1, 30) — syllabus ✓ (2026-09-15), lessons pending
+- [ ] `thomistic-synthesis` — The Thomistic Synthesis (2, 22) — pending
+- [ ] `trinity-and-god` — The Triune God (2, 20) — pending
+- [ ] `christology` — Christology (2, 20) — pending
+- [ ] `creation-grace-last-things` — Creation, Grace & the Last Things (2, 24) — pending
+- [ ] `ecclesiology-and-mariology` — The Church & Mary (2, 22) — pending
+- [ ] `sacraments-and-liturgy` — Sacraments & Liturgy (2, 22) — pending
+- [ ] `moral-theology` — Moral Theology (2, 24) — pending
+- [ ] `catholic-social-teaching` — Catholic Social Teaching (2, 22) — pending
+- [ ] `apologetics-foundations` — Apologetics I: God, Christ & the Religions (2, 26) — pending
+- [ ] `apologetics-catholic-claims` — Apologetics II: The Catholic Claims (2, 26) — pending
+- [ ] `theology-of-debt` — Theology of Debt (2, 20) — pending
+
+**Economics & Finance additions** · 2 courses · ~46 lessons
+
+- [ ] `public-economics` — Public Economics (2, 22) — pending
+- [ ] `economics-of-debt` — Economics of Debt (2, 24) — pending
 ---
 
 ## Scale & cadence

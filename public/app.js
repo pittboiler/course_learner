@@ -69,7 +69,8 @@ const TIER_NAMES = { 0: "Tier 0 · Refreshers", 1: "Tier 1 · Bridges", 2: "Tier
 /* The library is shelved by field (primary) and tier (difficulty within a field). */
 const FIELD_ORDER = [
   "Foundations", "Mathematics", "Computer Science", "Physics", "Chemistry",
-  "Engineering", "Earth & Space", "Life Sciences", "Economics & Finance", "Humanities",
+  "Engineering", "Earth & Space", "Life Sciences", "Economics & Finance",
+  "Politics & Society", "Philosophy", "Catholic Theology",
 ];
 const TIER_LABEL = { F: "Foundations", 0: "Tier 0", 1: "Tier 1", 2: "Tier 2" };
 const tierRank = (t) => (t === "F" ? -1 : Number(t));
