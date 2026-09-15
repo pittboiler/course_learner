@@ -1,0 +1,79 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="40.0" y="24.0" fill="#8a8a8a" font-style="italic">Left: two modules joined by one edge. Right: Poisson (random graph) against power-law degrees</text>
+  <rect x="30.0" y="70.0" width="225.0" height="190.0" fill="none" stroke="#4a90d9" stroke-width="1.2" stroke-dasharray="5,4" rx="14"/>
+  <rect x="290.0" y="70.0" width="205.0" height="190.0" fill="none" stroke="#e0645c" stroke-width="1.2" stroke-dasharray="5,4" rx="14"/>
+  <line x1="74.0" y1="142.2" x2="136.0" y2="107.8" stroke="#8a8a8a" stroke-width="1.8"/>
+  <line x1="72.6" y1="159.8" x2="137.4" y2="210.2" stroke="#8a8a8a" stroke-width="1.8"/>
+  <line x1="150.0" y1="116.0" x2="150.0" y2="204.0" stroke="#8a8a8a" stroke-width="1.8"/>
+  <line x1="163.2" y1="210.9" x2="216.8" y2="174.1" stroke="#8a8a8a" stroke-width="1.8"/>
+  <line x1="162.4" y1="110.1" x2="217.6" y2="154.9" stroke="#8a8a8a" stroke-width="1.8"/>
+  <line x1="246.0" y1="165.0" x2="304.0" y2="165.0" stroke="#e0645c" stroke-width="2.6"/>
+  <line x1="332.4" y1="154.9" x2="387.6" y2="110.1" stroke="#8a8a8a" stroke-width="1.8"/>
+  <line x1="400.0" y1="116.0" x2="400.0" y2="214.0" stroke="#8a8a8a" stroke-width="1.8"/>
+  <line x1="332.4" y1="175.1" x2="387.6" y2="219.9" stroke="#8a8a8a" stroke-width="1.8"/>
+  <line x1="411.7" y1="219.1" x2="458.3" y2="175.9" stroke="#8a8a8a" stroke-width="1.8"/>
+  <line x1="411.7" y1="110.9" x2="458.3" y2="154.1" stroke="#8a8a8a" stroke-width="1.8"/>
+  <line x1="336.0" y1="165.0" x2="454.0" y2="165.0" stroke="#8a8a8a" stroke-width="1.8"/>
+  <circle cx="60.0" cy="150.0" r="16" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="60.0" y="155.0" fill="#4a90d9" font-size="14" text-anchor="middle" font-weight="bold">A</text>
+  <circle cx="150.0" cy="100.0" r="16" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="150.0" y="105.0" fill="#4a90d9" font-size="14" text-anchor="middle" font-weight="bold">B</text>
+  <circle cx="150.0" cy="220.0" r="16" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="150.0" y="225.0" fill="#4a90d9" font-size="14" text-anchor="middle" font-weight="bold">C</text>
+  <circle cx="230.0" cy="165.0" r="16" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="230.0" y="170.0" fill="#4a90d9" font-size="14" text-anchor="middle" font-weight="bold">D</text>
+  <circle cx="320.0" cy="165.0" r="16" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <text x="320.0" y="170.0" fill="#e0645c" font-size="14" text-anchor="middle" font-weight="bold">E</text>
+  <circle cx="400.0" cy="100.0" r="16" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <text x="400.0" y="105.0" fill="#e0645c" font-size="14" text-anchor="middle" font-weight="bold">F</text>
+  <circle cx="400.0" cy="230.0" r="16" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <text x="400.0" y="235.0" fill="#e0645c" font-size="14" text-anchor="middle" font-weight="bold">G</text>
+  <circle cx="470.0" cy="165.0" r="16" fill="none" stroke="#e0645c" stroke-width="2"/>
+  <text x="470.0" y="170.0" fill="#e0645c" font-size="14" text-anchor="middle" font-weight="bold">H</text>
+  <text x="150.0" y="290.0" fill="#8a8a8a" font-size="12" text-anchor="middle">k = degree, C = clustering</text>
+  <text x="60.0" y="312.0" fill="#8a8a8a"></text>
+  <text x="115.0" y="312.0" fill="#8a8a8a"></text>
+  <text x="170.0" y="312.0" fill="#8a8a8a"></text>
+  <text x="60.0" y="312.0" fill="#8a8a8a"></text>
+  <text x="115.0" y="312.0" fill="#8a8a8a"></text>
+  <text x="170.0" y="312.0" fill="#8a8a8a"></text>
+  <text x="60.0" y="312.0" fill="#8a8a8a"></text>
+  <text x="115.0" y="312.0" fill="#8a8a8a"></text>
+  <text x="170.0" y="312.0" fill="#8a8a8a"></text>
+  <text x="60.0" y="312.0" fill="#8a8a8a"></text>
+  <text x="115.0" y="312.0" fill="#8a8a8a"></text>
+  <text x="170.0" y="312.0" fill="#8a8a8a"></text>
+  <text x="60.0" y="312.0" fill="#8a8a8a"></text>
+  <text x="115.0" y="312.0" fill="#8a8a8a"></text>
+  <text x="170.0" y="312.0" fill="#8a8a8a"></text>
+  <text x="60.0" y="312.0" fill="#8a8a8a"></text>
+  <text x="115.0" y="312.0" fill="#8a8a8a"></text>
+  <text x="170.0" y="312.0" fill="#8a8a8a"></text>
+  <text x="60.0" y="312.0" fill="#8a8a8a"></text>
+  <text x="115.0" y="312.0" fill="#8a8a8a"></text>
+  <text x="170.0" y="312.0" fill="#8a8a8a"></text>
+  <text x="60.0" y="312.0" fill="#8a8a8a"></text>
+  <text x="115.0" y="312.0" fill="#8a8a8a"></text>
+  <text x="170.0" y="312.0" fill="#8a8a8a"></text>
+  <text x="60.0" y="312.0" fill="#8a8a8a"></text>
+  <text x="115.0" y="312.0" fill="#8a8a8a"></text>
+  <text x="170.0" y="312.0" fill="#8a8a8a"></text>
+  <text x="40.0" y="316.0" fill="#4a90d9" font-size="12">A:2/1  B:3/0.67  C:3/0.67  D:3/0.33</text>
+  <text x="40.0" y="336.0" fill="#e0645c" font-size="12">E:4/0.5  F:3/1  G:3/1  H:3/1</text>
+  <text x="40.0" y="366.0" fill="#8a8a8a" font-size="12.5">modularity of this split: Q = 0.41</text>
+  <line x1="560.0" y1="360.0" x2="770.0" y2="360.0" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="560.0" y1="360.0" x2="560.0" y2="90.0" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="560.0" y="376.0" fill="#8a8a8a" font-size="11.5" text-anchor="middle">2</text>
+  <text x="633.4" y="376.0" fill="#8a8a8a" font-size="11.5" text-anchor="middle">10</text>
+  <text x="738.5" y="376.0" fill="#8a8a8a" font-size="11.5" text-anchor="middle">100</text>
+  <text x="554.0" y="94.0" fill="#8a8a8a" font-size="11.5" text-anchor="end">1</text>
+  <text x="554.0" y="229.0" fill="#8a8a8a" font-size="11.5" text-anchor="end">1e-4</text>
+  <text x="554.0" y="364.0" fill="#8a8a8a" font-size="11.5" text-anchor="end">1e-8</text>
+  <text x="649.2" y="394.0" fill="#8a8a8a" font-size="12" text-anchor="middle">degree k (log)</text>
+  <text x="562.0" y="80.0" fill="#8a8a8a" font-size="12">P(k) (log)</text>
+  <path d="M 560.0 135.6 L 578.5 125.4 L 591.6 119.5 L 601.8 116.8 L 610.1 116.8 L 617.2 119.1 L 623.2 123.3 L 628.6 129.2 L 633.4 136.7 L 637.8 145.6 L 641.7 155.8 L 645.4 167.1 L 648.8 179.5 L 651.9 192.9 L 654.9 207.3 L 657.6 222.6 L 660.2 238.7 L 662.7 255.6 L 665.1 273.2 L 667.3 291.6 L 669.4 310.6 L 671.4 330.3 L 673.4 350.6" fill="none" stroke="#4a90d9" stroke-width="2.4"/>
+  <path d="M 560.0 104.4 L 578.5 119.2 L 591.6 129.8 L 601.8 138.0 L 610.1 144.6 L 617.2 150.3 L 623.2 155.2 L 628.6 159.5 L 633.4 163.4 L 637.8 166.8 L 641.7 170.0 L 645.4 173.0 L 648.8 175.7 L 651.9 178.2 L 654.9 180.6 L 657.6 182.8 L 660.2 184.9 L 662.7 186.9 L 665.1 188.8 L 667.3 190.5 L 669.4 192.2 L 671.4 193.9 L 673.4 195.4 L 675.2 196.9 L 677.0 198.4 L 678.7 199.7 L 680.4 201.1 L 682.0 202.4 L 683.6 203.6 L 685.0 204.8 L 686.5 206.0 L 687.9 207.1 L 689.3 208.2 L 690.6 209.3 L 691.9 210.3 L 693.1 211.3 L 694.3 212.3 L 695.5 213.2 L 696.7 214.2 L 697.8 215.1 L 698.9 215.9 L 700.0 216.8 L 701.0 217.6 L 702.1 218.5 L 703.1 219.3 L 704.0 220.1 L 705.0 220.8 L 705.9 221.6 L 706.9 222.3 L 707.8 223.1 L 708.6 223.8 L 709.5 224.5 L 710.4 225.1 L 711.2 225.8 L 712.0 226.5 L 712.8 227.1 L 713.6 227.8 L 714.4 228.4 L 715.2 229.0 L 715.9 229.6 L 716.7 230.2 L 717.4 230.8 L 718.1 231.4 L 718.8 231.9 L 719.5 232.5 L 720.2 233.1 L 720.9 233.6 L 721.6 234.1 L 722.2 234.7 L 722.9 235.2 L 723.5 235.7 L 724.1 236.2 L 724.7 236.7 L 725.4 237.2 L 726.0 237.7 L 726.6 238.1 L 727.1 238.6 L 727.7 239.1 L 728.3 239.6 L 728.9 240.0 L 729.4 240.5 L 730.0 240.9 L 730.5 241.3 L 731.1 241.8 L 731.6 242.2 L 732.1 242.6 L 732.7 243.0 L 733.2 243.5 L 733.7 243.9 L 734.2 244.3 L 734.7 244.7 L 735.2 245.1 L 735.7 245.5 L 736.1 245.8 L 736.6 246.2 L 737.1 246.6 L 737.6 247.0 L 738.0 247.4 L 738.5 247.7 L 738.9 248.1 L 739.4 248.5 L 739.8 248.8 L 740.3 249.2 L 740.7 249.5 L 741.1 249.9 L 741.6 250.2 L 742.0 250.5 L 742.4 250.9 L 742.8 251.2 L 743.2 251.6 L 743.7 251.9 L 744.1 252.2 L 744.5 252.5 L 744.9 252.8 L 745.3 253.2 L 745.6 253.5 L 746.0 253.8 L 746.4 254.1 L 746.8 254.4 L 747.2 254.7 L 747.6 255.0 L 747.9 255.3 L 748.3 255.6 L 748.7 255.9 L 749.0 256.2 L 749.4 256.5 L 749.7 256.8 L 750.1 257.1 L 750.5 257.3 L 750.8 257.6 L 751.2 257.9 L 751.5 258.2 L 751.8 258.5 L 752.2 258.7 L 752.5 259.0 L 752.8 259.3 L 753.2 259.5 L 753.5 259.8 L 753.8 260.1 L 754.2 260.3 L 754.5 260.6 L 754.8 260.8 L 755.1 261.1 L 755.4 261.3 L 755.7 261.6 L 756.1 261.8 L 756.4 262.1 L 756.7 262.3 L 757.0 262.6 L 757.3 262.8 L 757.6 263.1 L 757.9 263.3 L 758.2 263.5 L 758.5 263.8 L 758.8 264.0 L 759.1 264.3 L 759.4 264.5 L 759.6 264.7 L 759.9 264.9 L 760.2 265.2 L 760.5 265.4 L 760.8 265.6 L 761.1 265.9 L 761.3 266.1 L 761.6 266.3 L 761.9 266.5 L 762.2 266.7 L 762.4 267.0 L 762.7 267.2 L 763.0 267.4 L 763.2 267.6 L 763.5 267.8 L 763.8 268.0 L 764.0 268.2 L 764.3 268.4 L 764.5 268.6 L 764.8 268.9 L 765.0 269.1 L 765.3 269.3 L 765.6 269.5 L 765.8 269.7 L 766.1 269.9 L 766.3 270.1 L 766.6 270.3 L 766.8 270.5 L 767.0 270.7 L 767.3 270.9 L 767.5 271.1 L 767.8 271.2 L 768.0 271.4 L 768.2 271.6 L 768.5 271.8 L 768.7 272.0 L 769.0 272.2 L 769.2 272.4 L 769.4 272.6 L 769.6 272.8 L 769.9 272.9" fill="none" stroke="#e0645c" stroke-width="2.4"/>
+  <text x="638.7" y="312.8" fill="#4a90d9" font-size="12" text-anchor="end">Poisson, mean 6</text>
+  <text x="764.7" y="167.6" fill="#e0645c" font-size="12" text-anchor="end">power law</text>
+  <text x="764.7" y="191.2" fill="#e0645c" font-size="12" text-anchor="end">exponent 2.5</text>
+</svg>

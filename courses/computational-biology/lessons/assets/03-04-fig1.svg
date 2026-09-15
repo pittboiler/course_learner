@@ -1,0 +1,22 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="40.0" y="24.0" fill="#8a8a8a" font-style="italic">Baum-Welch on one 27-base sequence: every run climbs, but not every run climbs to the same place</text>
+  <line x1="90.0" y1="330.0" x2="740.0" y2="330.0" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="90.0" y1="330.0" x2="90.0" y2="70.0" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="90.0" y="348.0" fill="#8a8a8a" font-size="12" text-anchor="middle">0</text>
+  <text x="256.7" y="348.0" fill="#8a8a8a" font-size="12" text-anchor="middle">10</text>
+  <text x="423.3" y="348.0" fill="#8a8a8a" font-size="12" text-anchor="middle">20</text>
+  <text x="590.0" y="348.0" fill="#8a8a8a" font-size="12" text-anchor="middle">30</text>
+  <text x="740.0" y="348.0" fill="#8a8a8a" font-size="12" text-anchor="middle">39</text>
+  <text x="82.0" y="334.0" fill="#8a8a8a" font-size="12" text-anchor="end">-56</text>
+  <text x="82.0" y="254.0" fill="#8a8a8a" font-size="12" text-anchor="end">-52</text>
+  <text x="82.0" y="174.0" fill="#8a8a8a" font-size="12" text-anchor="end">-48</text>
+  <text x="82.0" y="94.0" fill="#8a8a8a" font-size="12" text-anchor="end">-44</text>
+  <text x="415.0" y="368.0" fill="#8a8a8a" font-size="12.5" text-anchor="middle">iteration</text>
+  <text x="96.0" y="62.0" fill="#8a8a8a" font-size="12.5">log2 P(x)</text>
+  <path d="M 90.0 286.3 L 106.7 261.4 L 123.3 252.1 L 140.0 240.4 L 156.7 228.2 L 173.3 217.6 L 190.0 208.3 L 206.7 197.3 L 223.3 181.7 L 240.0 162.1 L 256.7 139.2 L 273.3 119.2 L 290.0 110.4 L 306.7 108.3 L 323.3 107.8 L 340.0 107.7 L 356.7 107.7 L 373.3 107.7 L 390.0 107.7 L 406.7 107.7 L 423.3 107.7 L 440.0 107.7 L 456.7 107.7 L 473.3 107.7 L 490.0 107.7 L 506.7 107.7 L 523.3 107.7 L 540.0 107.7 L 556.7 107.7 L 573.3 107.7 L 590.0 107.7 L 606.7 107.7 L 623.3 107.7 L 640.0 107.7 L 656.7 107.7 L 673.3 107.7 L 690.0 107.7 L 706.7 107.7 L 723.3 107.7 L 740.0 107.7" fill="none" stroke="#e0645c" stroke-width="2.4"/>
+  <path d="M 90.0 290.2 L 106.7 277.1 L 123.3 276.1 L 140.0 274.7 L 156.7 272.3 L 173.3 268.3 L 190.0 261.8 L 206.7 251.7 L 223.3 238.9 L 240.0 227.2 L 256.7 219.7 L 273.3 216.2 L 290.0 214.6 L 306.7 214.0 L 323.3 213.6 L 340.0 213.3 L 356.7 213.2 L 373.3 213.0 L 390.0 212.9 L 406.7 212.8 L 423.3 212.7 L 440.0 212.6 L 456.7 212.6 L 473.3 212.5 L 490.0 212.5 L 506.7 212.4 L 523.3 212.4 L 540.0 212.3 L 556.7 212.3 L 573.3 212.3 L 590.0 212.2 L 606.7 212.2 L 623.3 212.2 L 640.0 212.2 L 656.7 212.1 L 673.3 212.1 L 690.0 212.1 L 706.7 212.1 L 723.3 212.1 L 740.0 212.1" fill="none" stroke="#4a90d9" stroke-width="2.4"/>
+  <path d="M 90.0 290.0 L 106.7 279.4 L 123.3 279.4 L 140.0 279.4 L 156.7 279.4 L 173.3 279.4 L 190.0 279.4 L 206.7 279.4 L 223.3 279.4 L 240.0 279.4 L 256.7 279.4 L 273.3 279.4 L 290.0 279.4 L 306.7 279.4 L 323.3 279.4 L 340.0 279.4 L 356.7 279.4 L 373.3 279.4 L 390.0 279.4 L 406.7 279.4 L 423.3 279.4 L 440.0 279.4 L 456.7 279.4 L 473.3 279.4 L 490.0 279.4 L 506.7 279.4 L 523.3 279.4 L 540.0 279.4 L 556.7 279.4 L 573.3 279.4 L 590.0 279.4 L 606.7 279.4 L 623.3 279.4 L 640.0 279.4 L 656.7 279.4 L 673.3 279.4 L 690.0 279.4 L 706.7 279.4 L 723.3 279.4 L 740.0 279.4" fill="none" stroke="#8a8a8a" stroke-width="2.2" stroke-dasharray="6,4"/>
+  <text x="740.0" y="97.7" fill="#e0645c" font-size="12.5" text-anchor="end">random start: -44.9</text>
+  <text x="740.0" y="202.1" fill="#4a90d9" font-size="12.5" text-anchor="end">GC-model start: -50.1</text>
+  <text x="740.0" y="299.4" fill="#8a8a8a" font-size="12.5" text-anchor="end">identical states: stuck at -53.5</text>
+</svg>

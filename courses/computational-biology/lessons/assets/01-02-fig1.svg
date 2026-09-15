@@ -1,0 +1,279 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="14">
+  <text x="40.0" y="24.0" fill="#8a8a8a" font-style="italic">A slice of BLOSUM62 in half-bits: blue = paired more often than chance, coral = less</text>
+  <text x="110.0" y="72.0" fill="#8a8a8a" text-anchor="middle" font-weight="bold">C</text>
+  <text x="80.0" y="105.0" fill="#8a8a8a" text-anchor="end" font-weight="bold">C</text>
+  <rect x="92.0" y="82.0" width="36.0" height="36.0" fill="#4a90d9" stroke="#4a90d9" stroke-width="1" opacity="0.18"/>
+  <text x="110.0" y="105.0" fill="#4a90d9" font-size="17.4" text-anchor="middle" font-weight="bold">9</text>
+  <rect x="130.0" y="80.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="150.0" y="105.0" fill="#e0645c" font-size="13.2" text-anchor="middle">-2</text>
+  <rect x="170.0" y="80.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="190.0" y="105.0" fill="#e0645c" font-size="12.6" text-anchor="middle">-1</text>
+  <rect x="210.0" y="80.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="230.0" y="105.0" fill="#e0645c" font-size="12.6" text-anchor="middle">-1</text>
+  <rect x="250.0" y="80.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="270.0" y="105.0" fill="#e0645c" font-size="12.6" text-anchor="middle">-1</text>
+  <rect x="290.0" y="80.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="310.0" y="105.0" fill="#e0645c" font-size="12.6" text-anchor="middle">-1</text>
+  <rect x="330.0" y="80.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="350.0" y="105.0" fill="#e0645c" font-size="13.8" text-anchor="middle" font-weight="bold">-3</text>
+  <rect x="370.0" y="80.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="390.0" y="105.0" fill="#e0645c" font-size="13.8" text-anchor="middle" font-weight="bold">-3</text>
+  <rect x="410.0" y="80.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="430.0" y="105.0" fill="#e0645c" font-size="13.8" text-anchor="middle" font-weight="bold">-3</text>
+  <rect x="450.0" y="80.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="470.0" y="105.0" fill="#e0645c" font-size="14.4" text-anchor="middle" font-weight="bold">-4</text>
+  <rect x="490.0" y="80.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="510.0" y="105.0" fill="#e0645c" font-size="13.8" text-anchor="middle" font-weight="bold">-3</text>
+  <text x="150.0" y="72.0" fill="#8a8a8a" text-anchor="middle" font-weight="bold">W</text>
+  <text x="80.0" y="145.0" fill="#8a8a8a" text-anchor="end" font-weight="bold">W</text>
+  <rect x="90.0" y="120.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="110.0" y="145.0" fill="#e0645c" font-size="13.2" text-anchor="middle">-2</text>
+  <rect x="132.0" y="122.0" width="36.0" height="36.0" fill="#4a90d9" stroke="#4a90d9" stroke-width="1" opacity="0.18"/>
+  <text x="150.0" y="145.0" fill="#4a90d9" font-size="18" text-anchor="middle" font-weight="bold">11</text>
+  <rect x="170.0" y="120.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="190.0" y="145.0" fill="#e0645c" font-size="13.8" text-anchor="middle" font-weight="bold">-3</text>
+  <rect x="210.0" y="120.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="230.0" y="145.0" fill="#e0645c" font-size="13.2" text-anchor="middle">-2</text>
+  <rect x="250.0" y="120.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="270.0" y="145.0" fill="#e0645c" font-size="13.8" text-anchor="middle" font-weight="bold">-3</text>
+  <rect x="290.0" y="120.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="310.0" y="145.0" fill="#e0645c" font-size="12.6" text-anchor="middle">-1</text>
+  <rect x="330.0" y="120.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="350.0" y="145.0" fill="#e0645c" font-size="13.8" text-anchor="middle" font-weight="bold">-3</text>
+  <rect x="370.0" y="120.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="390.0" y="145.0" fill="#e0645c" font-size="13.8" text-anchor="middle" font-weight="bold">-3</text>
+  <rect x="410.0" y="120.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="430.0" y="145.0" fill="#e0645c" font-size="14.4" text-anchor="middle" font-weight="bold">-4</text>
+  <rect x="450.0" y="120.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="470.0" y="145.0" fill="#e0645c" font-size="13.8" text-anchor="middle" font-weight="bold">-3</text>
+  <rect x="490.0" y="120.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="510.0" y="145.0" fill="#e0645c" font-size="13.2" text-anchor="middle">-2</text>
+  <text x="190.0" y="72.0" fill="#8a8a8a" text-anchor="middle" font-weight="bold">I</text>
+  <text x="80.0" y="185.0" fill="#8a8a8a" text-anchor="end" font-weight="bold">I</text>
+  <rect x="90.0" y="160.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="110.0" y="185.0" fill="#e0645c" font-size="12.6" text-anchor="middle">-1</text>
+  <rect x="130.0" y="160.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="150.0" y="185.0" fill="#e0645c" font-size="13.8" text-anchor="middle" font-weight="bold">-3</text>
+  <rect x="172.0" y="162.0" width="36.0" height="36.0" fill="#4a90d9" stroke="#4a90d9" stroke-width="1" opacity="0.18"/>
+  <text x="190.0" y="185.0" fill="#4a90d9" font-size="14.4" text-anchor="middle" font-weight="bold">4</text>
+  <rect x="210.0" y="160.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="230.0" y="185.0" fill="#4a90d9" font-size="13.2" text-anchor="middle">2</text>
+  <rect x="250.0" y="160.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="270.0" y="185.0" fill="#4a90d9" font-size="13.8" text-anchor="middle" font-weight="bold">3</text>
+  <rect x="290.0" y="160.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="310.0" y="185.0" fill="#4a90d9" font-size="12.6" text-anchor="middle">1</text>
+  <rect x="330.0" y="160.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="350.0" y="185.0" fill="#e0645c" font-size="13.8" text-anchor="middle" font-weight="bold">-3</text>
+  <rect x="370.0" y="160.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="390.0" y="185.0" fill="#e0645c" font-size="13.8" text-anchor="middle" font-weight="bold">-3</text>
+  <rect x="410.0" y="160.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="430.0" y="185.0" fill="#e0645c" font-size="13.8" text-anchor="middle" font-weight="bold">-3</text>
+  <rect x="450.0" y="160.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="470.0" y="185.0" fill="#e0645c" font-size="13.8" text-anchor="middle" font-weight="bold">-3</text>
+  <rect x="490.0" y="160.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="510.0" y="185.0" fill="#e0645c" font-size="14.4" text-anchor="middle" font-weight="bold">-4</text>
+  <text x="230.0" y="72.0" fill="#8a8a8a" text-anchor="middle" font-weight="bold">L</text>
+  <text x="80.0" y="225.0" fill="#8a8a8a" text-anchor="end" font-weight="bold">L</text>
+  <rect x="90.0" y="200.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="110.0" y="225.0" fill="#e0645c" font-size="12.6" text-anchor="middle">-1</text>
+  <rect x="130.0" y="200.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="150.0" y="225.0" fill="#e0645c" font-size="13.2" text-anchor="middle">-2</text>
+  <rect x="170.0" y="200.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="190.0" y="225.0" fill="#4a90d9" font-size="13.2" text-anchor="middle">2</text>
+  <rect x="212.0" y="202.0" width="36.0" height="36.0" fill="#4a90d9" stroke="#4a90d9" stroke-width="1" opacity="0.18"/>
+  <text x="230.0" y="225.0" fill="#4a90d9" font-size="14.4" text-anchor="middle" font-weight="bold">4</text>
+  <rect x="250.0" y="200.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="270.0" y="225.0" fill="#4a90d9" font-size="12.6" text-anchor="middle">1</text>
+  <rect x="290.0" y="200.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="310.0" y="225.0" fill="#4a90d9" font-size="13.2" text-anchor="middle">2</text>
+  <rect x="330.0" y="200.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="350.0" y="225.0" fill="#e0645c" font-size="13.2" text-anchor="middle">-2</text>
+  <rect x="370.0" y="200.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="390.0" y="225.0" fill="#e0645c" font-size="13.2" text-anchor="middle">-2</text>
+  <rect x="410.0" y="200.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="430.0" y="225.0" fill="#e0645c" font-size="14.4" text-anchor="middle" font-weight="bold">-4</text>
+  <rect x="450.0" y="200.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="470.0" y="225.0" fill="#e0645c" font-size="13.8" text-anchor="middle" font-weight="bold">-3</text>
+  <rect x="490.0" y="200.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="510.0" y="225.0" fill="#e0645c" font-size="14.4" text-anchor="middle" font-weight="bold">-4</text>
+  <text x="270.0" y="72.0" fill="#8a8a8a" text-anchor="middle" font-weight="bold">V</text>
+  <text x="80.0" y="265.0" fill="#8a8a8a" text-anchor="end" font-weight="bold">V</text>
+  <rect x="90.0" y="240.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="110.0" y="265.0" fill="#e0645c" font-size="12.6" text-anchor="middle">-1</text>
+  <rect x="130.0" y="240.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="150.0" y="265.0" fill="#e0645c" font-size="13.8" text-anchor="middle" font-weight="bold">-3</text>
+  <rect x="170.0" y="240.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="190.0" y="265.0" fill="#4a90d9" font-size="13.8" text-anchor="middle" font-weight="bold">3</text>
+  <rect x="210.0" y="240.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="230.0" y="265.0" fill="#4a90d9" font-size="12.6" text-anchor="middle">1</text>
+  <rect x="252.0" y="242.0" width="36.0" height="36.0" fill="#4a90d9" stroke="#4a90d9" stroke-width="1" opacity="0.18"/>
+  <text x="270.0" y="265.0" fill="#4a90d9" font-size="14.4" text-anchor="middle" font-weight="bold">4</text>
+  <rect x="290.0" y="240.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="310.0" y="265.0" fill="#4a90d9" font-size="12.6" text-anchor="middle">1</text>
+  <rect x="330.0" y="240.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="350.0" y="265.0" fill="#e0645c" font-size="13.2" text-anchor="middle">-2</text>
+  <rect x="370.0" y="240.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="390.0" y="265.0" fill="#e0645c" font-size="13.8" text-anchor="middle" font-weight="bold">-3</text>
+  <rect x="410.0" y="240.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="430.0" y="265.0" fill="#e0645c" font-size="13.8" text-anchor="middle" font-weight="bold">-3</text>
+  <rect x="450.0" y="240.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="470.0" y="265.0" fill="#e0645c" font-size="13.2" text-anchor="middle">-2</text>
+  <rect x="490.0" y="240.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="510.0" y="265.0" fill="#e0645c" font-size="13.8" text-anchor="middle" font-weight="bold">-3</text>
+  <text x="310.0" y="72.0" fill="#8a8a8a" text-anchor="middle" font-weight="bold">M</text>
+  <text x="80.0" y="305.0" fill="#8a8a8a" text-anchor="end" font-weight="bold">M</text>
+  <rect x="90.0" y="280.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="110.0" y="305.0" fill="#e0645c" font-size="12.6" text-anchor="middle">-1</text>
+  <rect x="130.0" y="280.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="150.0" y="305.0" fill="#e0645c" font-size="12.6" text-anchor="middle">-1</text>
+  <rect x="170.0" y="280.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="190.0" y="305.0" fill="#4a90d9" font-size="12.6" text-anchor="middle">1</text>
+  <rect x="210.0" y="280.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="230.0" y="305.0" fill="#4a90d9" font-size="13.2" text-anchor="middle">2</text>
+  <rect x="250.0" y="280.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="270.0" y="305.0" fill="#4a90d9" font-size="12.6" text-anchor="middle">1</text>
+  <rect x="292.0" y="282.0" width="36.0" height="36.0" fill="#4a90d9" stroke="#4a90d9" stroke-width="1" opacity="0.18"/>
+  <text x="310.0" y="305.0" fill="#4a90d9" font-size="15.0" text-anchor="middle" font-weight="bold">5</text>
+  <rect x="330.0" y="280.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="350.0" y="305.0" fill="#e0645c" font-size="12.6" text-anchor="middle">-1</text>
+  <rect x="370.0" y="280.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="390.0" y="305.0" fill="#e0645c" font-size="12.6" text-anchor="middle">-1</text>
+  <rect x="410.0" y="280.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="430.0" y="305.0" fill="#e0645c" font-size="13.8" text-anchor="middle" font-weight="bold">-3</text>
+  <rect x="450.0" y="280.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="470.0" y="305.0" fill="#e0645c" font-size="13.2" text-anchor="middle">-2</text>
+  <rect x="490.0" y="280.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="510.0" y="305.0" fill="#e0645c" font-size="13.8" text-anchor="middle" font-weight="bold">-3</text>
+  <text x="350.0" y="72.0" fill="#8a8a8a" text-anchor="middle" font-weight="bold">K</text>
+  <text x="80.0" y="345.0" fill="#8a8a8a" text-anchor="end" font-weight="bold">K</text>
+  <rect x="90.0" y="320.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="110.0" y="345.0" fill="#e0645c" font-size="13.8" text-anchor="middle" font-weight="bold">-3</text>
+  <rect x="130.0" y="320.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="150.0" y="345.0" fill="#e0645c" font-size="13.8" text-anchor="middle" font-weight="bold">-3</text>
+  <rect x="170.0" y="320.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="190.0" y="345.0" fill="#e0645c" font-size="13.8" text-anchor="middle" font-weight="bold">-3</text>
+  <rect x="210.0" y="320.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="230.0" y="345.0" fill="#e0645c" font-size="13.2" text-anchor="middle">-2</text>
+  <rect x="250.0" y="320.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="270.0" y="345.0" fill="#e0645c" font-size="13.2" text-anchor="middle">-2</text>
+  <rect x="290.0" y="320.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="310.0" y="345.0" fill="#e0645c" font-size="12.6" text-anchor="middle">-1</text>
+  <rect x="332.0" y="322.0" width="36.0" height="36.0" fill="#4a90d9" stroke="#4a90d9" stroke-width="1" opacity="0.18"/>
+  <text x="350.0" y="345.0" fill="#4a90d9" font-size="15.0" text-anchor="middle" font-weight="bold">5</text>
+  <rect x="370.0" y="320.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="390.0" y="345.0" fill="#4a90d9" font-size="13.2" text-anchor="middle">2</text>
+  <rect x="410.0" y="320.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="430.0" y="345.0" fill="#e0645c" font-size="12.6" text-anchor="middle">-1</text>
+  <rect x="450.0" y="320.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="470.0" y="345.0" fill="#4a90d9" font-size="12.6" text-anchor="middle">1</text>
+  <rect x="490.0" y="320.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="510.0" y="345.0" fill="#e0645c" font-size="13.2" text-anchor="middle">-2</text>
+  <text x="390.0" y="72.0" fill="#8a8a8a" text-anchor="middle" font-weight="bold">R</text>
+  <text x="80.0" y="385.0" fill="#8a8a8a" text-anchor="end" font-weight="bold">R</text>
+  <rect x="90.0" y="360.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="110.0" y="385.0" fill="#e0645c" font-size="13.8" text-anchor="middle" font-weight="bold">-3</text>
+  <rect x="130.0" y="360.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="150.0" y="385.0" fill="#e0645c" font-size="13.8" text-anchor="middle" font-weight="bold">-3</text>
+  <rect x="170.0" y="360.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="190.0" y="385.0" fill="#e0645c" font-size="13.8" text-anchor="middle" font-weight="bold">-3</text>
+  <rect x="210.0" y="360.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="230.0" y="385.0" fill="#e0645c" font-size="13.2" text-anchor="middle">-2</text>
+  <rect x="250.0" y="360.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="270.0" y="385.0" fill="#e0645c" font-size="13.8" text-anchor="middle" font-weight="bold">-3</text>
+  <rect x="290.0" y="360.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="310.0" y="385.0" fill="#e0645c" font-size="12.6" text-anchor="middle">-1</text>
+  <rect x="330.0" y="360.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="350.0" y="385.0" fill="#4a90d9" font-size="13.2" text-anchor="middle">2</text>
+  <rect x="372.0" y="362.0" width="36.0" height="36.0" fill="#4a90d9" stroke="#4a90d9" stroke-width="1" opacity="0.18"/>
+  <text x="390.0" y="385.0" fill="#4a90d9" font-size="15.0" text-anchor="middle" font-weight="bold">5</text>
+  <rect x="410.0" y="360.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="430.0" y="385.0" fill="#e0645c" font-size="13.2" text-anchor="middle">-2</text>
+  <rect x="450.0" y="360.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="470.0" y="385.0" fill="#8a8a8a" font-size="12.0" text-anchor="middle">0</text>
+  <rect x="490.0" y="360.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="510.0" y="385.0" fill="#e0645c" font-size="13.2" text-anchor="middle">-2</text>
+  <text x="430.0" y="72.0" fill="#8a8a8a" text-anchor="middle" font-weight="bold">D</text>
+  <text x="80.0" y="425.0" fill="#8a8a8a" text-anchor="end" font-weight="bold">D</text>
+  <rect x="90.0" y="400.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="110.0" y="425.0" fill="#e0645c" font-size="13.8" text-anchor="middle" font-weight="bold">-3</text>
+  <rect x="130.0" y="400.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="150.0" y="425.0" fill="#e0645c" font-size="14.4" text-anchor="middle" font-weight="bold">-4</text>
+  <rect x="170.0" y="400.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="190.0" y="425.0" fill="#e0645c" font-size="13.8" text-anchor="middle" font-weight="bold">-3</text>
+  <rect x="210.0" y="400.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="230.0" y="425.0" fill="#e0645c" font-size="14.4" text-anchor="middle" font-weight="bold">-4</text>
+  <rect x="250.0" y="400.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="270.0" y="425.0" fill="#e0645c" font-size="13.8" text-anchor="middle" font-weight="bold">-3</text>
+  <rect x="290.0" y="400.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="310.0" y="425.0" fill="#e0645c" font-size="13.8" text-anchor="middle" font-weight="bold">-3</text>
+  <rect x="330.0" y="400.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="350.0" y="425.0" fill="#e0645c" font-size="12.6" text-anchor="middle">-1</text>
+  <rect x="370.0" y="400.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="390.0" y="425.0" fill="#e0645c" font-size="13.2" text-anchor="middle">-2</text>
+  <rect x="412.0" y="402.0" width="36.0" height="36.0" fill="#4a90d9" stroke="#4a90d9" stroke-width="1" opacity="0.18"/>
+  <text x="430.0" y="425.0" fill="#4a90d9" font-size="15.6" text-anchor="middle" font-weight="bold">6</text>
+  <rect x="450.0" y="400.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="470.0" y="425.0" fill="#4a90d9" font-size="13.2" text-anchor="middle">2</text>
+  <rect x="490.0" y="400.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="510.0" y="425.0" fill="#e0645c" font-size="12.6" text-anchor="middle">-1</text>
+  <text x="470.0" y="72.0" fill="#8a8a8a" text-anchor="middle" font-weight="bold">E</text>
+  <text x="80.0" y="465.0" fill="#8a8a8a" text-anchor="end" font-weight="bold">E</text>
+  <rect x="90.0" y="440.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="110.0" y="465.0" fill="#e0645c" font-size="14.4" text-anchor="middle" font-weight="bold">-4</text>
+  <rect x="130.0" y="440.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="150.0" y="465.0" fill="#e0645c" font-size="13.8" text-anchor="middle" font-weight="bold">-3</text>
+  <rect x="170.0" y="440.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="190.0" y="465.0" fill="#e0645c" font-size="13.8" text-anchor="middle" font-weight="bold">-3</text>
+  <rect x="210.0" y="440.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="230.0" y="465.0" fill="#e0645c" font-size="13.8" text-anchor="middle" font-weight="bold">-3</text>
+  <rect x="250.0" y="440.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="270.0" y="465.0" fill="#e0645c" font-size="13.2" text-anchor="middle">-2</text>
+  <rect x="290.0" y="440.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="310.0" y="465.0" fill="#e0645c" font-size="13.2" text-anchor="middle">-2</text>
+  <rect x="330.0" y="440.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="350.0" y="465.0" fill="#4a90d9" font-size="12.6" text-anchor="middle">1</text>
+  <rect x="370.0" y="440.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="390.0" y="465.0" fill="#8a8a8a" font-size="12.0" text-anchor="middle">0</text>
+  <rect x="410.0" y="440.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="430.0" y="465.0" fill="#4a90d9" font-size="13.2" text-anchor="middle">2</text>
+  <rect x="452.0" y="442.0" width="36.0" height="36.0" fill="#4a90d9" stroke="#4a90d9" stroke-width="1" opacity="0.18"/>
+  <text x="470.0" y="465.0" fill="#4a90d9" font-size="15.0" text-anchor="middle" font-weight="bold">5</text>
+  <rect x="490.0" y="440.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="510.0" y="465.0" fill="#e0645c" font-size="13.2" text-anchor="middle">-2</text>
+  <text x="510.0" y="72.0" fill="#8a8a8a" text-anchor="middle" font-weight="bold">G</text>
+  <text x="80.0" y="505.0" fill="#8a8a8a" text-anchor="end" font-weight="bold">G</text>
+  <rect x="90.0" y="480.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="110.0" y="505.0" fill="#e0645c" font-size="13.8" text-anchor="middle" font-weight="bold">-3</text>
+  <rect x="130.0" y="480.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="150.0" y="505.0" fill="#e0645c" font-size="13.2" text-anchor="middle">-2</text>
+  <rect x="170.0" y="480.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="190.0" y="505.0" fill="#e0645c" font-size="14.4" text-anchor="middle" font-weight="bold">-4</text>
+  <rect x="210.0" y="480.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="230.0" y="505.0" fill="#e0645c" font-size="14.4" text-anchor="middle" font-weight="bold">-4</text>
+  <rect x="250.0" y="480.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="270.0" y="505.0" fill="#e0645c" font-size="13.8" text-anchor="middle" font-weight="bold">-3</text>
+  <rect x="290.0" y="480.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="310.0" y="505.0" fill="#e0645c" font-size="13.8" text-anchor="middle" font-weight="bold">-3</text>
+  <rect x="330.0" y="480.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="350.0" y="505.0" fill="#e0645c" font-size="13.2" text-anchor="middle">-2</text>
+  <rect x="370.0" y="480.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="390.0" y="505.0" fill="#e0645c" font-size="13.2" text-anchor="middle">-2</text>
+  <rect x="410.0" y="480.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="430.0" y="505.0" fill="#e0645c" font-size="12.6" text-anchor="middle">-1</text>
+  <rect x="450.0" y="480.0" width="40.0" height="40.0" fill="none" stroke="#8a8a8a" stroke-width="0.5" opacity="0.5"/>
+  <text x="470.0" y="505.0" fill="#e0645c" font-size="13.2" text-anchor="middle">-2</text>
+  <rect x="492.0" y="482.0" width="36.0" height="36.0" fill="#4a90d9" stroke="#4a90d9" stroke-width="1" opacity="0.18"/>
+  <text x="510.0" y="505.0" fill="#4a90d9" font-size="15.6" text-anchor="middle" font-weight="bold">6</text>
+  <line x1="550.0" y1="84.0" x2="550.0" y2="156.0" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="560.0" y="125.0" fill="#8a8a8a" font-size="13">rare, conserved</text>
+  <line x1="550.0" y1="164.0" x2="550.0" y2="316.0" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="560.0" y="245.0" fill="#8a8a8a" font-size="13">hydrophobic</text>
+  <line x1="550.0" y1="324.0" x2="550.0" y2="396.0" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="560.0" y="365.0" fill="#8a8a8a" font-size="13">basic</text>
+  <line x1="550.0" y1="404.0" x2="550.0" y2="476.0" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="560.0" y="445.0" fill="#8a8a8a" font-size="13">acidic</text>
+  <line x1="550.0" y1="484.0" x2="550.0" y2="516.0" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="560.0" y="505.0" fill="#8a8a8a" font-size="13">tiny, flexible</text>
+  <text x="30.0" y="554.0" fill="#8a8a8a" font-size="13">Diagonal: W-W = 11 but L-L = 4. Matching a rare residue is stronger evidence.</text>
+  <text x="30.0" y="576.0" fill="#8a8a8a" font-size="13">Off-diagonal: I-L, I-V, K-R and D-E are positive: they swap without breaking the fold.</text>
+</svg>

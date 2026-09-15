@@ -1,0 +1,130 @@
+<svg viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="40.0" y="24.0" fill="#8a8a8a" font-style="italic">A beta hairpin and its contact map: pairs across the strands light up an anti-diagonal</text>
+  <path d="M 80.0 300.0 L 135.0 300.0 L 190.0 300.0 L 245.0 300.0 L 290.0 245.0 L 245.0 190.0 L 190.0 190.0 L 135.0 190.0 L 80.0 190.0" fill="none" stroke="#4a90d9" stroke-width="3"/>
+  <circle cx="80.0" cy="300.0" r="14" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="80.0" y="305.0" fill="#4a90d9" font-size="12" text-anchor="middle" font-weight="bold">1</text>
+  <circle cx="135.0" cy="300.0" r="14" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="135.0" y="305.0" fill="#4a90d9" font-size="12" text-anchor="middle" font-weight="bold">2</text>
+  <circle cx="190.0" cy="300.0" r="14" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="190.0" y="305.0" fill="#4a90d9" font-size="12" text-anchor="middle" font-weight="bold">3</text>
+  <circle cx="245.0" cy="300.0" r="14" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="245.0" y="305.0" fill="#4a90d9" font-size="12" text-anchor="middle" font-weight="bold">4</text>
+  <circle cx="290.0" cy="245.0" r="14" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="290.0" y="250.0" fill="#4a90d9" font-size="12" text-anchor="middle" font-weight="bold">5</text>
+  <circle cx="245.0" cy="190.0" r="14" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="245.0" y="195.0" fill="#4a90d9" font-size="12" text-anchor="middle" font-weight="bold">6</text>
+  <circle cx="190.0" cy="190.0" r="14" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="190.0" y="195.0" fill="#4a90d9" font-size="12" text-anchor="middle" font-weight="bold">7</text>
+  <circle cx="135.0" cy="190.0" r="14" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="135.0" y="195.0" fill="#4a90d9" font-size="12" text-anchor="middle" font-weight="bold">8</text>
+  <circle cx="80.0" cy="190.0" r="14" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <text x="80.0" y="195.0" fill="#4a90d9" font-size="12" text-anchor="middle" font-weight="bold">9</text>
+  <line x1="80.0" y1="285.0" x2="80.0" y2="205.0" stroke="#e0645c" stroke-width="1.6" stroke-dasharray="3,3"/>
+  <line x1="135.0" y1="285.0" x2="135.0" y2="205.0" stroke="#e0645c" stroke-width="1.6" stroke-dasharray="3,3"/>
+  <line x1="190.0" y1="285.0" x2="190.0" y2="205.0" stroke="#e0645c" stroke-width="1.6" stroke-dasharray="3,3"/>
+  <line x1="245.0" y1="285.0" x2="245.0" y2="205.0" stroke="#e0645c" stroke-width="1.6" stroke-dasharray="3,3"/>
+  <text x="162.0" y="340.0" fill="#8a8a8a" font-size="12" text-anchor="middle">strand 1: residues 1-4</text>
+  <text x="162.0" y="160.0" fill="#8a8a8a" font-size="12" text-anchor="middle">strand 2: residues 6-9</text>
+  <text x="162.0" y="362.0" fill="#e0645c" font-size="12" text-anchor="middle">dashed: cross-strand partners</text>
+  <text x="440.0" y="102.0" fill="#8a8a8a" font-size="12" text-anchor="end">1</text>
+  <text x="467.0" y="72.0" fill="#8a8a8a" font-size="12" text-anchor="middle">1</text>
+  <rect x="450.0" y="80.0" width="34.0" height="34.0" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="0.5" opacity="0.25"/>
+  <rect x="484.0" y="80.0" width="34.0" height="34.0" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="0.5" opacity="0.25"/>
+  <rect x="518.0" y="80.0" width="34.0" height="34.0" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="0.5" opacity="0.25"/>
+  <rect x="552.0" y="80.0" width="34.0" height="34.0" fill="none" stroke="#8a8a8a" stroke-width="0.5"/>
+  <rect x="586.0" y="80.0" width="34.0" height="34.0" fill="none" stroke="#8a8a8a" stroke-width="0.5"/>
+  <rect x="620.0" y="80.0" width="34.0" height="34.0" fill="none" stroke="#8a8a8a" stroke-width="0.5"/>
+  <rect x="654.0" y="80.0" width="34.0" height="34.0" fill="none" stroke="#8a8a8a" stroke-width="0.5"/>
+  <rect x="688.0" y="80.0" width="34.0" height="34.0" fill="#e0645c" stroke="#8a8a8a" stroke-width="0.5" opacity="0.75"/>
+  <rect x="722.0" y="80.0" width="34.0" height="34.0" fill="#e0645c" stroke="#8a8a8a" stroke-width="0.5" opacity="0.75"/>
+  <text x="440.0" y="136.0" fill="#8a8a8a" font-size="12" text-anchor="end">2</text>
+  <text x="501.0" y="72.0" fill="#8a8a8a" font-size="12" text-anchor="middle">2</text>
+  <rect x="450.0" y="114.0" width="34.0" height="34.0" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="0.5" opacity="0.25"/>
+  <rect x="484.0" y="114.0" width="34.0" height="34.0" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="0.5" opacity="0.25"/>
+  <rect x="518.0" y="114.0" width="34.0" height="34.0" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="0.5" opacity="0.25"/>
+  <rect x="552.0" y="114.0" width="34.0" height="34.0" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="0.5" opacity="0.25"/>
+  <rect x="586.0" y="114.0" width="34.0" height="34.0" fill="none" stroke="#8a8a8a" stroke-width="0.5"/>
+  <rect x="620.0" y="114.0" width="34.0" height="34.0" fill="none" stroke="#8a8a8a" stroke-width="0.5"/>
+  <rect x="654.0" y="114.0" width="34.0" height="34.0" fill="#e0645c" stroke="#8a8a8a" stroke-width="0.5" opacity="0.75"/>
+  <rect x="688.0" y="114.0" width="34.0" height="34.0" fill="#e0645c" stroke="#8a8a8a" stroke-width="0.5" opacity="0.75"/>
+  <rect x="722.0" y="114.0" width="34.0" height="34.0" fill="#e0645c" stroke="#8a8a8a" stroke-width="0.5" opacity="0.75"/>
+  <text x="440.0" y="170.0" fill="#8a8a8a" font-size="12" text-anchor="end">3</text>
+  <text x="535.0" y="72.0" fill="#8a8a8a" font-size="12" text-anchor="middle">3</text>
+  <rect x="450.0" y="148.0" width="34.0" height="34.0" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="0.5" opacity="0.25"/>
+  <rect x="484.0" y="148.0" width="34.0" height="34.0" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="0.5" opacity="0.25"/>
+  <rect x="518.0" y="148.0" width="34.0" height="34.0" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="0.5" opacity="0.25"/>
+  <rect x="552.0" y="148.0" width="34.0" height="34.0" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="0.5" opacity="0.25"/>
+  <rect x="586.0" y="148.0" width="34.0" height="34.0" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="0.5" opacity="0.25"/>
+  <rect x="620.0" y="148.0" width="34.0" height="34.0" fill="#e0645c" stroke="#8a8a8a" stroke-width="0.5" opacity="0.75"/>
+  <rect x="654.0" y="148.0" width="34.0" height="34.0" fill="#e0645c" stroke="#8a8a8a" stroke-width="0.5" opacity="0.75"/>
+  <rect x="688.0" y="148.0" width="34.0" height="34.0" fill="#e0645c" stroke="#8a8a8a" stroke-width="0.5" opacity="0.75"/>
+  <rect x="722.0" y="148.0" width="34.0" height="34.0" fill="none" stroke="#8a8a8a" stroke-width="0.5"/>
+  <text x="440.0" y="204.0" fill="#8a8a8a" font-size="12" text-anchor="end">4</text>
+  <text x="569.0" y="72.0" fill="#8a8a8a" font-size="12" text-anchor="middle">4</text>
+  <rect x="450.0" y="182.0" width="34.0" height="34.0" fill="none" stroke="#8a8a8a" stroke-width="0.5"/>
+  <rect x="484.0" y="182.0" width="34.0" height="34.0" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="0.5" opacity="0.25"/>
+  <rect x="518.0" y="182.0" width="34.0" height="34.0" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="0.5" opacity="0.25"/>
+  <rect x="552.0" y="182.0" width="34.0" height="34.0" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="0.5" opacity="0.25"/>
+  <rect x="586.0" y="182.0" width="34.0" height="34.0" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="0.5" opacity="0.25"/>
+  <rect x="620.0" y="182.0" width="34.0" height="34.0" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="0.5" opacity="0.25"/>
+  <rect x="654.0" y="182.0" width="34.0" height="34.0" fill="#e0645c" stroke="#8a8a8a" stroke-width="0.5" opacity="0.75"/>
+  <rect x="688.0" y="182.0" width="34.0" height="34.0" fill="none" stroke="#8a8a8a" stroke-width="0.5"/>
+  <rect x="722.0" y="182.0" width="34.0" height="34.0" fill="none" stroke="#8a8a8a" stroke-width="0.5"/>
+  <text x="440.0" y="238.0" fill="#8a8a8a" font-size="12" text-anchor="end">5</text>
+  <text x="603.0" y="72.0" fill="#8a8a8a" font-size="12" text-anchor="middle">5</text>
+  <rect x="450.0" y="216.0" width="34.0" height="34.0" fill="none" stroke="#8a8a8a" stroke-width="0.5"/>
+  <rect x="484.0" y="216.0" width="34.0" height="34.0" fill="none" stroke="#8a8a8a" stroke-width="0.5"/>
+  <rect x="518.0" y="216.0" width="34.0" height="34.0" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="0.5" opacity="0.25"/>
+  <rect x="552.0" y="216.0" width="34.0" height="34.0" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="0.5" opacity="0.25"/>
+  <rect x="586.0" y="216.0" width="34.0" height="34.0" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="0.5" opacity="0.25"/>
+  <rect x="620.0" y="216.0" width="34.0" height="34.0" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="0.5" opacity="0.25"/>
+  <rect x="654.0" y="216.0" width="34.0" height="34.0" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="0.5" opacity="0.25"/>
+  <rect x="688.0" y="216.0" width="34.0" height="34.0" fill="none" stroke="#8a8a8a" stroke-width="0.5"/>
+  <rect x="722.0" y="216.0" width="34.0" height="34.0" fill="none" stroke="#8a8a8a" stroke-width="0.5"/>
+  <text x="440.0" y="272.0" fill="#8a8a8a" font-size="12" text-anchor="end">6</text>
+  <text x="637.0" y="72.0" fill="#8a8a8a" font-size="12" text-anchor="middle">6</text>
+  <rect x="450.0" y="250.0" width="34.0" height="34.0" fill="none" stroke="#8a8a8a" stroke-width="0.5"/>
+  <rect x="484.0" y="250.0" width="34.0" height="34.0" fill="none" stroke="#8a8a8a" stroke-width="0.5"/>
+  <rect x="518.0" y="250.0" width="34.0" height="34.0" fill="#e0645c" stroke="#8a8a8a" stroke-width="0.5" opacity="0.75"/>
+  <rect x="552.0" y="250.0" width="34.0" height="34.0" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="0.5" opacity="0.25"/>
+  <rect x="586.0" y="250.0" width="34.0" height="34.0" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="0.5" opacity="0.25"/>
+  <rect x="620.0" y="250.0" width="34.0" height="34.0" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="0.5" opacity="0.25"/>
+  <rect x="654.0" y="250.0" width="34.0" height="34.0" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="0.5" opacity="0.25"/>
+  <rect x="688.0" y="250.0" width="34.0" height="34.0" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="0.5" opacity="0.25"/>
+  <rect x="722.0" y="250.0" width="34.0" height="34.0" fill="none" stroke="#8a8a8a" stroke-width="0.5"/>
+  <text x="440.0" y="306.0" fill="#8a8a8a" font-size="12" text-anchor="end">7</text>
+  <text x="671.0" y="72.0" fill="#8a8a8a" font-size="12" text-anchor="middle">7</text>
+  <rect x="450.0" y="284.0" width="34.0" height="34.0" fill="none" stroke="#8a8a8a" stroke-width="0.5"/>
+  <rect x="484.0" y="284.0" width="34.0" height="34.0" fill="#e0645c" stroke="#8a8a8a" stroke-width="0.5" opacity="0.75"/>
+  <rect x="518.0" y="284.0" width="34.0" height="34.0" fill="#e0645c" stroke="#8a8a8a" stroke-width="0.5" opacity="0.75"/>
+  <rect x="552.0" y="284.0" width="34.0" height="34.0" fill="#e0645c" stroke="#8a8a8a" stroke-width="0.5" opacity="0.75"/>
+  <rect x="586.0" y="284.0" width="34.0" height="34.0" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="0.5" opacity="0.25"/>
+  <rect x="620.0" y="284.0" width="34.0" height="34.0" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="0.5" opacity="0.25"/>
+  <rect x="654.0" y="284.0" width="34.0" height="34.0" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="0.5" opacity="0.25"/>
+  <rect x="688.0" y="284.0" width="34.0" height="34.0" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="0.5" opacity="0.25"/>
+  <rect x="722.0" y="284.0" width="34.0" height="34.0" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="0.5" opacity="0.25"/>
+  <text x="440.0" y="340.0" fill="#8a8a8a" font-size="12" text-anchor="end">8</text>
+  <text x="705.0" y="72.0" fill="#8a8a8a" font-size="12" text-anchor="middle">8</text>
+  <rect x="450.0" y="318.0" width="34.0" height="34.0" fill="#e0645c" stroke="#8a8a8a" stroke-width="0.5" opacity="0.75"/>
+  <rect x="484.0" y="318.0" width="34.0" height="34.0" fill="#e0645c" stroke="#8a8a8a" stroke-width="0.5" opacity="0.75"/>
+  <rect x="518.0" y="318.0" width="34.0" height="34.0" fill="#e0645c" stroke="#8a8a8a" stroke-width="0.5" opacity="0.75"/>
+  <rect x="552.0" y="318.0" width="34.0" height="34.0" fill="none" stroke="#8a8a8a" stroke-width="0.5"/>
+  <rect x="586.0" y="318.0" width="34.0" height="34.0" fill="none" stroke="#8a8a8a" stroke-width="0.5"/>
+  <rect x="620.0" y="318.0" width="34.0" height="34.0" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="0.5" opacity="0.25"/>
+  <rect x="654.0" y="318.0" width="34.0" height="34.0" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="0.5" opacity="0.25"/>
+  <rect x="688.0" y="318.0" width="34.0" height="34.0" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="0.5" opacity="0.25"/>
+  <rect x="722.0" y="318.0" width="34.0" height="34.0" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="0.5" opacity="0.25"/>
+  <text x="440.0" y="374.0" fill="#8a8a8a" font-size="12" text-anchor="end">9</text>
+  <text x="739.0" y="72.0" fill="#8a8a8a" font-size="12" text-anchor="middle">9</text>
+  <rect x="450.0" y="352.0" width="34.0" height="34.0" fill="#e0645c" stroke="#8a8a8a" stroke-width="0.5" opacity="0.75"/>
+  <rect x="484.0" y="352.0" width="34.0" height="34.0" fill="#e0645c" stroke="#8a8a8a" stroke-width="0.5" opacity="0.75"/>
+  <rect x="518.0" y="352.0" width="34.0" height="34.0" fill="none" stroke="#8a8a8a" stroke-width="0.5"/>
+  <rect x="552.0" y="352.0" width="34.0" height="34.0" fill="none" stroke="#8a8a8a" stroke-width="0.5"/>
+  <rect x="586.0" y="352.0" width="34.0" height="34.0" fill="none" stroke="#8a8a8a" stroke-width="0.5"/>
+  <rect x="620.0" y="352.0" width="34.0" height="34.0" fill="none" stroke="#8a8a8a" stroke-width="0.5"/>
+  <rect x="654.0" y="352.0" width="34.0" height="34.0" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="0.5" opacity="0.25"/>
+  <rect x="688.0" y="352.0" width="34.0" height="34.0" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="0.5" opacity="0.25"/>
+  <rect x="722.0" y="352.0" width="34.0" height="34.0" fill="#8a8a8a" stroke="#8a8a8a" stroke-width="0.5" opacity="0.25"/>
+  <text x="603.0" y="412.0" fill="#e0645c" font-size="12" text-anchor="middle">coral: C-alpha within 8 A, |i - j| at least 3</text>
+  <text x="603.0" y="430.0" fill="#8a8a8a" font-size="12" text-anchor="middle">grey: chain neighbours, always close</text>
+</svg>
