@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 262" width="800" height="262" role="img">
+  <text x="10" y="18" font-family="Helvetica, Arial, sans-serif" font-size="12" font-style="italic" fill="#8a8a8a">How does a thing occupy an interval of time? One wire, coiled at t1 and straight at t3, drawn three ways.</text>
+
+  <text x="135" y="44" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#4a90d9" text-anchor="middle">ENDURANTISM</text>
+  <text x="399" y="44" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#4a90d9" text-anchor="middle">PERDURANTISM</text>
+  <text x="663" y="44" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#4a90d9" text-anchor="middle">STAGE VIEW</text>
+
+  <text x="135" y="64" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#8a8a8a" text-anchor="middle">one thing, wholly present at each</text>
+  <text x="135" y="78" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#8a8a8a" text-anchor="middle">time; no temporal parts</text>
+  <text x="399" y="64" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#8a8a8a" text-anchor="middle">one thing, spread through time;</text>
+  <text x="399" y="78" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#8a8a8a" text-anchor="middle">a different part at each time</text>
+  <text x="663" y="64" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#8a8a8a" text-anchor="middle">the thing is one slice; persisting</text>
+  <text x="663" y="78" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#8a8a8a" text-anchor="middle">is having counterparts elsewhen</text>
+
+  <path d="M46 114 q7 -13 14 0 q7 13 14 0" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <path d="M121 114 q14 -11 28 0" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="196" y1="114" x2="224" y2="114" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="46" y1="130" x2="224" y2="130" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="46" y1="126" x2="46" y2="134" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="135" y1="126" x2="135" y2="134" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="224" y1="126" x2="224" y2="134" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="135" y="146" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#8a8a8a" text-anchor="middle">strictly one and the same thing</text>
+
+  <rect x="300" y="96" width="198" height="36" rx="5" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <line x1="348" y1="96" x2="348" y2="132" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <line x1="424" y1="96" x2="424" y2="132" stroke="#8a8a8a" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <path d="M310 114 q7 -11 14 0 q7 11 14 0" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <path d="M385 114 q14 -10 28 0" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="460" y1="114" x2="488" y2="114" stroke="#4a90d9" stroke-width="2.5"/>
+  <text x="399" y="146" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#8a8a8a" text-anchor="middle">the wire is the whole bar; each slice is a part of it</text>
+
+  <path d="M574 114 q7 -13 14 0 q7 13 14 0" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <path d="M649 114 q14 -11 28 0" fill="none" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="724" y1="114" x2="752" y2="114" stroke="#4a90d9" stroke-width="2.5"/>
+  <line x1="608" y1="130" x2="638" y2="130" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <polygon points="638,126 648,130 638,134" fill="#e0645c"/>
+  <line x1="683" y1="130" x2="713" y2="130" stroke="#e0645c" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <polygon points="713,126 723,130 713,134" fill="#e0645c"/>
+  <text x="663" y="146" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#e0645c" text-anchor="middle">temporal counterpart relations, not identity</text>
+
+  <line x1="14" y1="160" x2="256" y2="160" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="278" y1="160" x2="520" y2="160" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="542" y1="160" x2="784" y2="160" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="60" y1="155" x2="60" y2="165" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="135" y1="155" x2="135" y2="165" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="210" y1="155" x2="210" y2="165" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="324" y1="155" x2="324" y2="165" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="399" y1="155" x2="399" y2="165" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="474" y1="155" x2="474" y2="165" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="588" y1="155" x2="588" y2="165" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="663" y1="155" x2="663" y2="165" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="738" y1="155" x2="738" y2="165" stroke="#8a8a8a" stroke-width="1.5"/>
+  <text x="60" y="179" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#8a8a8a" text-anchor="middle">t1</text>
+  <text x="135" y="179" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#8a8a8a" text-anchor="middle">t2</text>
+  <text x="210" y="179" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#8a8a8a" text-anchor="middle">t3</text>
+  <text x="324" y="179" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#8a8a8a" text-anchor="middle">t1</text>
+  <text x="399" y="179" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#8a8a8a" text-anchor="middle">t2</text>
+  <text x="474" y="179" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#8a8a8a" text-anchor="middle">t3</text>
+  <text x="588" y="179" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#8a8a8a" text-anchor="middle">t1</text>
+  <text x="663" y="179" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#8a8a8a" text-anchor="middle">t2</text>
+  <text x="738" y="179" font-family="Helvetica, Arial, sans-serif" font-size="10.5" fill="#8a8a8a" text-anchor="middle">t3</text>
+
+  <text x="14" y="203" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#8a8a8a">Coiled and straight must both</text>
+  <text x="14" y="217" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#8a8a8a">belong to one complete thing.</text>
+  <text x="278" y="203" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#8a8a8a">The coiled part and the straight part</text>
+  <text x="278" y="217" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#8a8a8a">are two different things.</text>
+  <text x="542" y="203" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#8a8a8a">Strictly, the coiled one never</text>
+  <text x="542" y="217" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#8a8a8a">becomes the straight one.</text>
+
+  <line x1="14" y1="233" x2="786" y2="233" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="14" y="253" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#8a8a8a">Panels 2 and 3 share one ontology of temporal parts. They differ only over what ordinary names pick out: the whole bar, or one slice.</text>
+</svg>
