@@ -114,7 +114,7 @@ app.post("/api/complete", (req, res) => {
    review AND quizzes. So generated problems must be unanswerable by lookup —
    what's being measured is whether he can USE the machinery, not recall it. */
 const OPEN_BOOK =
-  "The student has the course's reference card open while answering — it lists every definition, formula, symbol and standard result from the course. NEVER ask for a definition, a formula statement, a symbol's meaning, or anything else a lookup would answer. Every problem must require applying the machinery to a concrete situation the card does not cover: compute something, decide which tool applies and why, interpret a result, or find the flaw in a plausible-looking argument.";
+  "The student has the course's reference card open while answering — it lists every definition, formula, symbol and standard result from the course — and, in the prose fields, every position, argument skeleton, thinker and doctrinal citation too. NEVER ask for a definition, a formula statement, a symbol's meaning, or anything else a lookup would answer. Every problem must require applying the machinery to a concrete situation the card does not cover: compute something, decide which tool applies and why, interpret a result, or find the flaw in a plausible-looking argument.";
 
 /* ---------- Claude-graded practice ---------- */
 
@@ -155,10 +155,43 @@ const GRADE_SCHEMA = {
   },
 };
 
+/* Philosophy, Politics & Society and Catholic Theology problems mostly have no single
+   right answer, so their lessons declare a KIND per problem part and their solution keys
+   are rubrics (must-hit moves + wrong turns) rather than worked answers. These clauses
+   teach the grader and the generators that model. See HUMANITIES-BUILD-BRIEF.md. */
+const PROSE_FIELDS = new Set(["Philosophy", "Politics & Society", "Catholic Theology"]);
+
+let fieldCache = null;
+function fieldOf(courseId) {
+  try {
+    if (!fieldCache) {
+      fieldCache = new Map(readJSON(path.join(ROOT, "roadmap.json")).courses.map((c) => [c.id, c.field]));
+    }
+    return fieldCache.get(path.basename(courseId || "")) || null;
+  } catch {
+    return null;
+  }
+}
+const isProseCourse = (courseId) => PROSE_FIELDS.has(fieldOf(courseId));
+
+const PROSE_GRADING =
+  "\n\nTHIS COURSE'S PROBLEMS ARE ARGUMENTS, NOT CALCULATIONS. Each problem (or part) declares its kind, and the solution key is a rubric. Grade each part by its kind:\n" +
+  "- EXEGETICAL (what a text, principle or doctrine says or implies; what a council defined; at what level of authority): strict on accuracy. There is a right answer.\n" +
+  "- EVALUATIVE (is the argument sound? is the policy justified? who wins?): grade ONLY the must-hit moves the rubric names. NEVER mark down a conclusion the rubric does not require, and never reward agreeing with the lesson. Either verdict earns \"correct\" when the moves are made.\n" +
+  "- APOLOGETIC (defend a position against a named alternative): grade the student's statement of the OPPOSING view first, strictly, as exegesis; then the quality of the reply. The stance is set by the task.\n" +
+  "- FORMAL: grade as any math problem.\n" +
+  "Reconstructions are graded on validity and fidelity to the text, not on style. An answer that misses a rubric move is \"partial\"; one that misreads the text or overstates a level of authority is \"incorrect\". weak_concepts should name the method that slipped (e.g. \"suppressed premise\", \"verbal dispute\", \"levels of authority\").";
+
+const PROSE_GENERATION =
+  "\n\nTHIS IS A PROSE COURSE (philosophy, politics or theology), so write argument problems, not calculations. Use the archetypes: reconstruct a passage into numbered premises; build a counterexample; apply a principle to a hard case; diagnose which concept is doing the work in an invented op-ed or memo; find the crux between two positions; steelman and reply; close-read a short public-domain passage. Label each problem (or part) with its kind — exegetical, evaluative, apologetic or formal. Bound prose answers at 150 words and say so. Write the solution as a RUBRIC: must-hit moves (marking which are strict and which allow any verdict), the one or two wrong turns a smart reader makes, then one model answer. Never write a rubric move that requires a particular verdict on an evaluative part. Never invent a quotation attributed to a real person.";
+
 const GRADER_SYSTEM = `You are a sharp, warm grad-student TA grading one problem from a 15-minute self-study lesson. The student's answer may be typed, a photo of handwritten work, or both — read handwritten math carefully.
 Grade generously on arithmetic slips, strictly on concepts. "correct" = right answer and sound reasoning (minor arithmetic slips allowed if flagged in feedback). "partial" = right idea with a real gap, or right answer with unjustified reasoning. "incorrect" = wrong approach or conclusion.
 Feedback: 2-6 sentences, markdown with $...$ LaTeX. Name what was done well, then the precise gap and the key step to fix it. Never just restate the solution key.
 weak_concepts: 0-3 short concept tags (e.g. "chain rule", "one-sided limits") ONLY for genuine conceptual gaps — empty for correct answers with minor slips.`;
+
+const graderSystem = (courseId) =>
+  isProseCourse(courseId) ? GRADER_SYSTEM + PROSE_GRADING : GRADER_SYSTEM;
 
 app.post("/api/grade", async (req, res) => {
   try {
@@ -175,7 +208,7 @@ app.post("/api/grade", async (req, res) => {
     const response = await anthropic.messages.create({
       model: MODEL,
       max_tokens: 1500,
-      system: GRADER_SYSTEM,
+      system: graderSystem(course),
       output_config: { format: GRADE_SCHEMA },
       messages: [{ role: "user", content: userContent(prompt, imgs) }],
     });
@@ -237,8 +270,9 @@ app.post("/api/review/question", async (req, res) => {
       model: MODEL,
       max_tokens: 1500,
       system:
-        "You write spaced-repetition retrieval problems for a self-study math curriculum. Given a lesson, produce ONE fresh problem testing its central concept — a variant, never a verbatim copy of a lesson problem. Solvable in ~3 minutes. Use markdown with $...$ LaTeX. The solution must be fully worked. " +
-        OPEN_BOOK,
+        "You write spaced-repetition retrieval problems for a self-study curriculum. Given a lesson, produce ONE fresh problem testing its central concept — a variant, never a verbatim copy of a lesson problem. Solvable in ~3 minutes. Use markdown with $...$ LaTeX for any math. The solution must be fully worked. " +
+        OPEN_BOOK +
+        (isProseCourse(item.course) ? PROSE_GENERATION : ""),
       output_config: { format: QUESTION_SCHEMA },
       messages: [
         {
@@ -273,7 +307,7 @@ app.post("/api/review/grade", async (req, res) => {
     const response = await anthropic.messages.create({
       model: MODEL,
       max_tokens: 1200,
-      system: GRADER_SYSTEM,
+      system: graderSystem(pending.item.course),
       output_config: { format: GRADE_SCHEMA },
       messages: [{ role: "user", content: userContent(prompt, imgs) }],
     });
@@ -389,7 +423,7 @@ app.post("/api/quiz/start", async (req, res) => {
     const response = await anthropic.messages.create({
       model: MODEL,
       max_tokens: 6000,
-      system: `You write checkpoint quizzes for a self-paced math curriculum. Given the covered lessons, produce exactly 5 problems: breadth across the covered modules, ramping from direct application to synthesis (the last problem should combine at least two lessons — the syllabus's boss problems are good inspiration). All problems must be fresh — never verbatim copies of lesson problems. Each solvable in ~4 minutes, markdown with $...$ LaTeX, fully worked solutions. Tag each problem with the single most relevant source lesson id (e.g. "01-03"). If the student has documented weak concepts, target 1-2 problems at them. ${OPEN_BOOK}`,
+      system: `You write checkpoint quizzes for a self-paced curriculum. Given the covered lessons, produce exactly 5 problems: breadth across the covered modules, ramping from direct application to synthesis (the last problem should combine at least two lessons — the syllabus's boss problems are good inspiration). All problems must be fresh — never verbatim copies of lesson problems. Each solvable in ~4 minutes, markdown with $...$ LaTeX, fully worked solutions. Tag each problem with the single most relevant source lesson id (e.g. "01-03"). If the student has documented weak concepts, target 1-2 problems at them. ${OPEN_BOOK}${isProseCourse(course) ? PROSE_GENERATION : ""}`,
       output_config: { format: QUIZ_SCHEMA },
       messages: [
         {
@@ -425,7 +459,7 @@ app.post("/api/quiz/grade", async (req, res) => {
     const response = await anthropic.messages.create({
       model: MODEL,
       max_tokens: 1200,
-      system: GRADER_SYSTEM,
+      system: graderSystem(pending.course),
       output_config: { format: GRADE_SCHEMA },
       messages: [{ role: "user", content: userContent(prompt, imgs) }],
     });

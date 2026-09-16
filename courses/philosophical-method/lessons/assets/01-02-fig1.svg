@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 350" width="720" height="350" role="img">
+  <text x="10" y="20" font-family="Helvetica, Arial, sans-serif" font-size="13" font-style="italic" fill="#8a8a8a">Two independent questions: does the form work, and are the premises true?</text>
+
+  <text x="305" y="52" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#8a8a8a" text-anchor="middle">Valid form</text>
+  <text x="555" y="52" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#8a8a8a" text-anchor="middle">Invalid form</text>
+
+  <text x="170" y="115" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#8a8a8a" text-anchor="end">All premises</text>
+  <text x="170" y="133" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#8a8a8a" text-anchor="end">true</text>
+  <text x="170" y="235" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#8a8a8a" text-anchor="end">Some premise</text>
+  <text x="170" y="253" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#8a8a8a" text-anchor="end">false</text>
+
+  <rect x="180" y="65" width="250" height="120" fill="none" stroke="#4a90d9" stroke-width="2"/>
+  <rect x="430" y="65" width="250" height="120" fill="none" stroke="#8a8a8a" stroke-width="1"/>
+  <rect x="180" y="185" width="250" height="120" fill="none" stroke="#8a8a8a" stroke-width="1"/>
+  <rect x="430" y="185" width="250" height="120" fill="none" stroke="#8a8a8a" stroke-width="1"/>
+
+  <text x="305" y="110" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#4a90d9" text-anchor="middle">SOUND</text>
+  <text x="305" y="136" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">the conclusion must be true</text>
+  <text x="305" y="156" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">this is the only safe cell</text>
+
+  <text x="555" y="110" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#e0645c" text-anchor="middle">UNSOUND</text>
+  <text x="555" y="136" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">form fails, so nothing follows</text>
+  <text x="555" y="156" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">the conclusion may still be true</text>
+
+  <text x="305" y="230" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#e0645c" text-anchor="middle">UNSOUND</text>
+  <text x="305" y="256" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">a false premise infects it</text>
+  <text x="305" y="276" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">the conclusion may still be true</text>
+
+  <text x="555" y="230" font-family="Helvetica, Arial, sans-serif" font-size="17" fill="#e0645c" text-anchor="middle">UNSOUND</text>
+  <text x="555" y="256" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">both tests fail</text>
+
+  <text x="10" y="330" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#8a8a8a">Validity is the column test; truth of the premises is the row test. Only one cell is sound.</text>
+</svg>

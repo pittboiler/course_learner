@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 250" width="800" height="250" role="img">
+  <text x="10" y="18" font-family="Helvetica, Arial, sans-serif" font-size="12" font-style="italic" fill="#8a8a8a">Three cases built from one another. Blue circles are the five; the coral circle is the one.</text>
+
+  <text x="130" y="44" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#4a90d9" text-anchor="middle">SWITCH</text>
+  <text x="400" y="44" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#4a90d9" text-anchor="middle">LOOP</text>
+  <text x="670" y="44" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#4a90d9" text-anchor="middle">FOOTBRIDGE</text>
+
+  <line x1="14" y1="110" x2="246" y2="110" stroke="#8a8a8a" stroke-width="2"/>
+  <path d="M80 110 L110 148 L246 148" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <circle cx="80" cy="110" r="4" fill="#8a8a8a"/>
+  <rect x="18" y="98" width="20" height="14" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="44" y1="105" x2="60" y2="105" stroke="#8a8a8a" stroke-width="1.5"/>
+  <polygon points="60,101 70,105 60,109" fill="#8a8a8a"/>
+  <circle cx="180" cy="101" r="5" fill="#4a90d9"/>
+  <circle cx="194" cy="101" r="5" fill="#4a90d9"/>
+  <circle cx="208" cy="101" r="5" fill="#4a90d9"/>
+  <circle cx="222" cy="101" r="5" fill="#4a90d9"/>
+  <circle cx="236" cy="101" r="5" fill="#4a90d9"/>
+  <text x="208" y="86" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#8a8a8a" text-anchor="middle">five</text>
+  <circle cx="190" cy="139" r="5" fill="#e0645c"/>
+  <text x="190" y="130" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#8a8a8a" text-anchor="middle">one</text>
+  <text x="14" y="180" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#8a8a8a">Turn the trolley onto the side track.</text>
+  <text x="14" y="196" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#8a8a8a">The one dies; nothing needs his body.</text>
+
+  <line x1="284" y1="110" x2="516" y2="110" stroke="#8a8a8a" stroke-width="2"/>
+  <path d="M330 110 L352 150 L478 150 L500 110" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <circle cx="330" cy="110" r="4" fill="#8a8a8a"/>
+  <rect x="288" y="98" width="20" height="14" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <circle cx="400" cy="101" r="5" fill="#4a90d9"/>
+  <circle cx="414" cy="101" r="5" fill="#4a90d9"/>
+  <circle cx="428" cy="101" r="5" fill="#4a90d9"/>
+  <circle cx="442" cy="101" r="5" fill="#4a90d9"/>
+  <circle cx="456" cy="101" r="5" fill="#4a90d9"/>
+  <text x="428" y="86" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#8a8a8a" text-anchor="middle">five</text>
+  <circle cx="400" cy="150" r="5" fill="#e0645c"/>
+  <text x="400" y="167" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#8a8a8a" text-anchor="middle">one</text>
+  <text x="284" y="180" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#8a8a8a">The side track rejoins the main line past the five,</text>
+  <text x="284" y="196" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#8a8a8a">so only the one stops the trolley.</text>
+
+  <line x1="554" y1="150" x2="786" y2="150" stroke="#8a8a8a" stroke-width="2"/>
+  <rect x="558" y="138" width="20" height="14" fill="none" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="600" y1="95" x2="682" y2="95" stroke="#8a8a8a" stroke-width="3"/>
+  <line x1="604" y1="95" x2="604" y2="150" stroke="#8a8a8a" stroke-width="1.5"/>
+  <line x1="678" y1="95" x2="678" y2="150" stroke="#8a8a8a" stroke-width="1.5"/>
+  <circle cx="641" cy="87" r="6" fill="#e0645c"/>
+  <text x="641" y="72" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#8a8a8a" text-anchor="middle">one</text>
+  <circle cx="712" cy="141" r="5" fill="#4a90d9"/>
+  <circle cx="726" cy="141" r="5" fill="#4a90d9"/>
+  <circle cx="740" cy="141" r="5" fill="#4a90d9"/>
+  <circle cx="754" cy="141" r="5" fill="#4a90d9"/>
+  <circle cx="768" cy="141" r="5" fill="#4a90d9"/>
+  <text x="740" y="126" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#8a8a8a" text-anchor="middle">five</text>
+  <text x="554" y="180" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#8a8a8a">Push the one off the bridge into the trolley.</text>
+  <text x="554" y="196" font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#8a8a8a">His body is what stops it.</text>
+
+  <line x1="14" y1="216" x2="786" y2="216" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="14" y="236" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#8a8a8a">Switch to Footbridge changes two things at once. Switch to Loop changes one: whether the one has to die for the five to live.</text>
+</svg>
