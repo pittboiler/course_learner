@@ -939,7 +939,7 @@ function answerFormHTML(idPrefix, buttonLabel) {
     <div class="ink-mount" id="${idPrefix}-ink"></div>
     <details class="type-answer">
       <summary>⌨︎ Type instead / add a note</summary>
-      <textarea id="${idPrefix}-text" rows="3" placeholder="Type your answer or a note (optional)."></textarea>
+      <textarea id="${idPrefix}-text" rows="12" placeholder="Type your answer or a note (optional)."></textarea>
     </details>
     <div class="answer-actions">
       <label class="file-label">📷 Photo

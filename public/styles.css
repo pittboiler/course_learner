@@ -180,10 +180,13 @@ button:disabled { opacity: 0.5; cursor: wait; }
   border: 1px solid var(--line); border-radius: 12px;
 }
 .grade-box label { display: inline-block; margin: 10px 0 6px; }
-.grade-box textarea {
-  width: 100%; font: inherit; padding: 10px; border-radius: 8px;
+.grade-box textarea, .type-answer textarea {
+  width: 100%; font: inherit; padding: 12px; border-radius: 8px;
   border: 1px solid var(--line); background: var(--bg); color: var(--ink);
   resize: vertical; margin-top: 8px;
+  /* Prose answers run to 150 words, so the box starts tall enough to hold one
+     without scrolling and grows from there. */
+  min-height: 15em; line-height: 1.5;
 }
 .answer-actions { display: flex; align-items: center; gap: 12px; margin-top: 10px; flex-wrap: wrap; }
 .file-label {
