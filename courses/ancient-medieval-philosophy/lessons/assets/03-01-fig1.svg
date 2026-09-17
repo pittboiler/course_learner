@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 410" width="640" height="410" role="img">
+  <text x="10" y="20" font-family="Helvetica, Arial, sans-serif" font-size="12" font-style="italic" fill="#8a8a8a">The square of opposition for one subject term S and one predicate term P.</text>
+
+  <line x1="170" y1="100" x2="470" y2="100" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="170" y1="300" x2="470" y2="300" stroke="#8a8a8a" stroke-width="2"/>
+  <line x1="170" y1="100" x2="170" y2="300" stroke="#8a8a8a" stroke-width="2" stroke-dasharray="6 4"/>
+  <line x1="470" y1="100" x2="470" y2="300" stroke="#8a8a8a" stroke-width="2" stroke-dasharray="6 4"/>
+  <polygon points="164,286 170,300 176,286" fill="#8a8a8a"/>
+  <polygon points="464,286 470,300 476,286" fill="#8a8a8a"/>
+  <line x1="170" y1="100" x2="470" y2="300" stroke="#e0645c" stroke-width="2.5"/>
+  <line x1="470" y1="100" x2="170" y2="300" stroke="#e0645c" stroke-width="2.5"/>
+
+  <circle cx="170" cy="100" r="6" fill="#4a90d9"/>
+  <circle cx="470" cy="100" r="6" fill="#4a90d9"/>
+  <circle cx="170" cy="300" r="6" fill="#4a90d9"/>
+  <circle cx="470" cy="300" r="6" fill="#4a90d9"/>
+
+  <text x="170" y="78" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#4a90d9" text-anchor="middle">A: Every S is P</text>
+  <text x="470" y="78" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#4a90d9" text-anchor="middle">E: No S is P</text>
+  <text x="170" y="332" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#4a90d9" text-anchor="middle">I: Some S is P</text>
+  <text x="470" y="332" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#4a90d9" text-anchor="middle">O: Some S is not P</text>
+
+  <text x="320" y="122" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">contraries: never both true</text>
+  <text x="320" y="287" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">subcontraries: never both false</text>
+  <text x="152" y="200" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle" transform="rotate(-90 152 200)">subalterns: A true, so I true</text>
+  <text x="488" y="200" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle" transform="rotate(90 488 200)">subalterns: E true, so O true</text>
+
+  <line x1="10" y1="352" x2="630" y2="352" stroke="#8a8a8a" stroke-width="1"/>
+  <text x="10" y="372" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#e0645c">Coral diagonals, contradictories (A and O, E and I): exactly one of each pair is true.</text>
+  <text x="10" y="394" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#8a8a8a">Grey sides hold only if some S exists. With S empty, modern logic keeps the diagonals alone.</text>
+</svg>
