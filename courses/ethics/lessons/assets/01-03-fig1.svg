@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 305" width="600" height="305" role="img">
+  <text x="10" y="18" font-family="Helvetica, Arial, sans-serif" font-size="12" font-style="italic" fill="#8a8a8a">Well-being of three people under two distributions. Same total.</text>
+
+  <text x="150" y="44" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#4a90d9" text-anchor="middle">DISTRIBUTION A</text>
+  <text x="450" y="44" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#4a90d9" text-anchor="middle">DISTRIBUTION B</text>
+
+  <line x1="40" y1="230" x2="260" y2="230" stroke="#8a8a8a" stroke-width="2"/>
+  <rect x="65" y="170" width="40" height="60" fill="#4a90d9"/>
+  <rect x="130" y="170" width="40" height="60" fill="#4a90d9"/>
+  <rect x="195" y="170" width="40" height="60" fill="#4a90d9"/>
+  <text x="85" y="162" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">10</text>
+  <text x="150" y="162" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">10</text>
+  <text x="215" y="162" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">10</text>
+
+  <line x1="340" y1="230" x2="560" y2="230" stroke="#8a8a8a" stroke-width="2"/>
+  <rect x="365" y="62" width="40" height="168" fill="#4a90d9"/>
+  <rect x="430" y="224" width="40" height="6" fill="#e0645c"/>
+  <rect x="495" y="224" width="40" height="6" fill="#e0645c"/>
+  <text x="385" y="56" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">28</text>
+  <text x="450" y="216" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">1</text>
+  <text x="515" y="216" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">1</text>
+
+  <text x="150" y="252" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">Sum 30 · square-root weighted sum 9.49</text>
+  <text x="450" y="252" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">Sum 30 · square-root weighted sum 7.29</text>
+  <text x="10" y="278" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#8a8a8a">Utilitarian ranking: a tie. A prioritarian weighting, which counts gains</text>
+  <text x="10" y="295" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#8a8a8a">to the worse off for more, ranks A higher.</text>
+</svg>
