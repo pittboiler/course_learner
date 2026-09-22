@@ -282,7 +282,7 @@ changes the brief lists) → roots (`ethics`, `fundamental-theology`,
 - [ ] `old-testament` — The Old Testament (1, 27) — syllabus ✓ (2026-09-15), lessons pending
 - [ ] `new-testament` — The New Testament (1, 27) — syllabus ✓ (2026-09-15), lessons pending
 - [ ] `patristics` — The Church Fathers (1, 24) — syllabus ✓ (2026-09-15), lessons pending
-- [ ] `church-history` — Church History (1, 30) — syllabus ✓ (2026-09-15), lessons pending
+- [ ] `church-history` — Church History (1, 31) — syllabus ✓ (2026-09-15), lessons pending
 - [ ] `thomistic-synthesis` — The Thomistic Synthesis (2, 24) — syllabus ✓ (2026-09-15), lessons pending
 - [ ] `trinity-and-god` — The Triune God (2, 25) — syllabus ✓ (2026-09-15), lessons pending
 - [ ] `christology` — Christology (2, 24) — syllabus ✓ (2026-09-15), lessons pending
