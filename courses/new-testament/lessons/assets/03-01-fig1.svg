@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 330" font-family="sans-serif" font-size="12">
+<line x1="30.0" y1="200" x2="740.0" y2="200" stroke="#8a8a8a" stroke-width="2"/>
+<line x1="59.6" y1="195" x2="59.6" y2="205" stroke="#8a8a8a"/>
+<text x="59.6" y="222" text-anchor="middle" fill="#8a8a8a" font-size="11">1780</text>
+<line x1="118.8" y1="195" x2="118.8" y2="205" stroke="#8a8a8a"/>
+<text x="118.8" y="222" text-anchor="middle" fill="#8a8a8a" font-size="11">1800</text>
+<line x1="177.9" y1="195" x2="177.9" y2="205" stroke="#8a8a8a"/>
+<text x="177.9" y="222" text-anchor="middle" fill="#8a8a8a" font-size="11">1820</text>
+<line x1="237.1" y1="195" x2="237.1" y2="205" stroke="#8a8a8a"/>
+<text x="237.1" y="222" text-anchor="middle" fill="#8a8a8a" font-size="11">1840</text>
+<line x1="296.2" y1="195" x2="296.2" y2="205" stroke="#8a8a8a"/>
+<text x="296.2" y="222" text-anchor="middle" fill="#8a8a8a" font-size="11">1860</text>
+<line x1="355.4" y1="195" x2="355.4" y2="205" stroke="#8a8a8a"/>
+<text x="355.4" y="222" text-anchor="middle" fill="#8a8a8a" font-size="11">1880</text>
+<line x1="414.6" y1="195" x2="414.6" y2="205" stroke="#8a8a8a"/>
+<text x="414.6" y="222" text-anchor="middle" fill="#8a8a8a" font-size="11">1900</text>
+<line x1="473.8" y1="195" x2="473.8" y2="205" stroke="#8a8a8a"/>
+<text x="473.8" y="222" text-anchor="middle" fill="#8a8a8a" font-size="11">1920</text>
+<line x1="532.9" y1="195" x2="532.9" y2="205" stroke="#8a8a8a"/>
+<text x="532.9" y="222" text-anchor="middle" fill="#8a8a8a" font-size="11">1940</text>
+<line x1="592.1" y1="195" x2="592.1" y2="205" stroke="#8a8a8a"/>
+<text x="592.1" y="222" text-anchor="middle" fill="#8a8a8a" font-size="11">1960</text>
+<line x1="651.2" y1="195" x2="651.2" y2="205" stroke="#8a8a8a"/>
+<text x="651.2" y="222" text-anchor="middle" fill="#8a8a8a" font-size="11">1980</text>
+<line x1="710.4" y1="195" x2="710.4" y2="205" stroke="#8a8a8a"/>
+<text x="710.4" y="222" text-anchor="middle" fill="#8a8a8a" font-size="11">2000</text>
+<rect x="53.7" y="150" width="378.6" height="40" fill="#4a90d9" fill-opacity="0.25" stroke="#4a90d9"/>
+<text x="243.0" y="167" text-anchor="middle" fill="#4a90d9" font-weight="bold">Old quest</text>
+<text x="243.0" y="183" text-anchor="middle" fill="#4a90d9" font-size="11">the liberal lives</text>
+<rect x="432.3" y="150" width="139.1" height="40" fill="#8a8a8a" fill-opacity="0.25" stroke="#8a8a8a"/>
+<text x="501.9" y="167" text-anchor="middle" fill="#8a8a8a" font-weight="bold">&#8220;No quest&#8221;</text>
+<text x="501.9" y="183" text-anchor="middle" fill="#8a8a8a" font-size="11">form criticism</text>
+<rect x="571.4" y="150" width="79.8" height="40" fill="#4a90d9" fill-opacity="0.25" stroke="#4a90d9"/>
+<text x="611.3" y="167" text-anchor="middle" fill="#4a90d9" font-weight="bold">New quest</text>
+<text x="611.3" y="183" text-anchor="middle" fill="#4a90d9" font-size="11">continuity</text>
+<rect x="651.2" y="150" width="88.8" height="40" fill="#e0645c" fill-opacity="0.25" stroke="#e0645c"/>
+<text x="695.6" y="167" text-anchor="middle" fill="#e0645c" font-weight="bold">Third quest</text>
+<text x="695.6" y="183" text-anchor="middle" fill="#e0645c" font-size="11">Jesus the Jew</text>
+<circle cx="53.7" cy="200" r="4" fill="#4a90d9"/>
+<line x1="53.7" y1="143" x2="53.7" y2="150" stroke="#8a8a8a"/>
+<text x="53.7" y="140" transform="rotate(-75 53.7 140)" fill="#4a90d9" font-size="11">Reimarus, pub. Lessing (1778)</text>
+<circle cx="222.3" cy="200" r="4" fill="#4a90d9"/>
+<line x1="222.3" y1="143" x2="222.3" y2="150" stroke="#8a8a8a"/>
+<text x="222.3" y="140" transform="rotate(-75 222.3 140)" fill="#4a90d9" font-size="11">Strauss, Leben Jesu (1835)</text>
+<circle cx="305.1" cy="200" r="4" fill="#4a90d9"/>
+<line x1="305.1" y1="143" x2="305.1" y2="150" stroke="#8a8a8a"/>
+<text x="305.1" y="140" transform="rotate(-75 305.1 140)" fill="#4a90d9" font-size="11">Renan (1863)</text>
+<circle cx="390.9" cy="200" r="4" fill="#4a90d9"/>
+<line x1="390.9" y1="143" x2="390.9" y2="150" stroke="#8a8a8a"/>
+<text x="390.9" y="140" transform="rotate(-75 390.9 140)" fill="#4a90d9" font-size="11">K&#228;hler (1892)</text>
+<circle cx="414.6" cy="200" r="4" fill="#4a90d9"/>
+<line x1="414.6" y1="143" x2="414.6" y2="150" stroke="#8a8a8a"/>
+<text x="414.6" y="140" transform="rotate(-75 414.6 140)" fill="#4a90d9" font-size="11">Harnack (1900)</text>
+<circle cx="432.3" cy="200" r="4" fill="#e0645c"/>
+<line x1="432.3" y1="143" x2="432.3" y2="150" stroke="#8a8a8a"/>
+<text x="432.3" y="140" transform="rotate(-75 432.3 140)" fill="#4a90d9" font-size="11">Schweitzer (1906)</text>
+<circle cx="491.5" cy="200" r="4" fill="#4a90d9"/>
+<line x1="491.5" y1="143" x2="491.5" y2="150" stroke="#8a8a8a"/>
+<text x="491.5" y="140" transform="rotate(-75 491.5 140)" fill="#4a90d9" font-size="11">Bultmann, Jesus (1926)</text>
+<circle cx="571.4" cy="200" r="4" fill="#e0645c"/>
+<line x1="571.4" y1="143" x2="571.4" y2="150" stroke="#8a8a8a"/>
+<text x="571.4" y="140" transform="rotate(-75 571.4 140)" fill="#4a90d9" font-size="11">K&#228;semann lecture (1953)</text>
+<circle cx="666.0" cy="200" r="4" fill="#4a90d9"/>
+<line x1="666.0" y1="143" x2="666.0" y2="150" stroke="#8a8a8a"/>
+<text x="666.0" y="140" transform="rotate(-75 666.0 140)" fill="#4a90d9" font-size="11">Sanders; Jesus Seminar (1985)</text>
+<circle cx="683.8" cy="200" r="4" fill="#4a90d9"/>
+<line x1="683.8" y1="143" x2="683.8" y2="150" stroke="#8a8a8a"/>
+<text x="683.8" y="140" transform="rotate(-75 683.8 140)" fill="#4a90d9" font-size="11">Meier (1991)</text>
+<circle cx="698.6" cy="200" r="4" fill="#4a90d9"/>
+<line x1="698.6" y1="143" x2="698.6" y2="150" stroke="#8a8a8a"/>
+<text x="698.6" y="140" transform="rotate(-75 698.6 140)" fill="#4a90d9" font-size="11">Wright (1996)</text>
+<circle cx="731.1" cy="200" r="4" fill="#4a90d9"/>
+<line x1="731.1" y1="143" x2="731.1" y2="150" stroke="#8a8a8a"/>
+<text x="731.1" y="140" transform="rotate(-75 731.1 140)" fill="#4a90d9" font-size="11">Benedict XVI (2007)</text>
+<text x="243.0" y="250" text-anchor="middle" fill="#8a8a8a" font-size="11">Jesus behind dogma is recoverable</text>
+<text x="503.3" y="270" text-anchor="middle" fill="#8a8a8a" font-size="11">Sources are preaching</text>
+<text x="609.8" y="250" text-anchor="middle" fill="#8a8a8a" font-size="11">Some continuity recoverable</text>
+<text x="695.6" y="270" text-anchor="middle" fill="#8a8a8a" font-size="11">Place him inside Judaism</text>
+<text x="400" y="312" text-anchor="middle" fill="#8a8a8a" font-size="11">Phase labels and boundaries are a later scholarly convention; work never fully stopped between them.</text>
+</svg>
