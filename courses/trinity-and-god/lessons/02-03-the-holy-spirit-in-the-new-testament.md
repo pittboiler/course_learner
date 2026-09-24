@@ -12,7 +12,7 @@ For the Spirit there is no such sentence. Nowhere in the New Testament is the Ho
 
 Keep two questions apart, because the texts answer them unevenly.
 
-1. **Is the Spirit someone?** Distinct from the Father and from the Son — or is "the Spirit of God" just a way of naming God's own power at work, as it mostly is in the prophets ([`old-testament`](../../old-testament/syllabus.md) 4.5)?
+1. **Is the Spirit someone?** Distinct from the Father and from the Son — or is "the Spirit of God" just a way of naming God's own power at work, as it mostly is in the prophets ([`old-testament` 4.5](../../old-testament/lessons/04-05-the-book-of-the-twelve.md))?
 2. **Is that someone God?**
 
 On the first question the New Testament is loud. On the second it is indirect throughout. And the evidence for the second comes in three streams, none of which is a predication of deity:
@@ -169,6 +169,6 @@ A colleague who does not share the faith asks whether the three *holies* show th
 
 ## Connections
 
-- **Backward:** [2.2](02-02-the-father-and-the-son-in-the-new-testament.md) gave the texts for the Son and the reading of John 14:28 that this lesson reuses on Romans 8. [2.1](02-01-the-one-god-of-israel.md) set the rule that keeps this lesson honest: the Church reads scripture in the light of a faith she already holds, and does not mine it for proofs. The Spirit poured out in Joel and the prophetic background belong to [`old-testament`](../../old-testament/syllabus.md) 4.5; the exegesis of the Paraclete discourses and of Romans 8 as exegesis is [`new-testament`](../../new-testament/syllabus.md) 4.3, 6.2.
+- **Backward:** [2.2](02-02-the-father-and-the-son-in-the-new-testament.md) gave the texts for the Son and the reading of John 14:28 that this lesson reuses on Romans 8. [2.1](02-01-the-one-god-of-israel.md) set the rule that keeps this lesson honest: the Church reads scripture in the light of a faith she already holds, and does not mine it for proofs. The Spirit poured out in Joel and the prophetic background belong to [`old-testament` 4.5](../../old-testament/lessons/04-05-the-book-of-the-twelve.md); the exegesis of the Paraclete discourses and of Romans 8 as exegesis is [`new-testament`](../../new-testament/syllabus.md) 4.3, 6.2.
 - **Forward:** [2.4](02-04-from-confession-to-creed.md) follows the baptismal confession of premise 1 into a rule of faith. [3.3](03-03-constantinople-i-and-the-divinity-of-the-spirit.md) is where this argument becomes a creed, and where you find out why the council praised rather than defined. [5.1](05-01-the-latin-doctrine.md) and [5.2](05-02-the-greek-doctrine-and-the-addition.md) take up John 15:26, deliberately left untouched here.
 - **Sideways:** Basil's own version of the argument from worship, with his texts and his reticence about the word "God", is [`patristics` 3.2](../../patristics/lessons/03-02-basil-the-great.md); Athanasius's parallel argument for the Son is [`patristics` 3.1](../../patristics/lessons/03-01-athanasius.md). The levels used to mark the dogma against the argument for it come from [`fundamental-theology` 4.4](../../fundamental-theology/lessons/04-04-the-ladder-of-doctrinal-authority.md). What the Spirit's indwelling in Romans 8 *is*, as a doctrine of grace, is `creation-grace-last-things`.
