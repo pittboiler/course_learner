@@ -79,7 +79,7 @@ The course's grammar is at work here too. The life laid down is of infinite wort
 - **You might think "the Father punished the Son" is simply vivid preaching.** It sets a Father who wills punishment against a Son who suffers it — two opposed wills in God, which is **tritheism** in effect, since the three have one will ([`trinity-and-god` 4.3](../../trinity-and-god/lessons/04-03-the-two-processions.md)). Aquinas: Christ as God delivered himself up by the same will and action as the Father (q.47 a.3 ad 2).
 - **You might think the value comes from the man's heroism.** Then the offering is a finite man's, God merely accepting it, and the *who* has been split: **Nestorianism** in soteriological dress. Fuse the natures instead ("his divine flesh") and you land in **Eutychianism**. The worth is from the person.
 - **You might think [satisfaction](../reference.md#satisfaction) theory is dogma.** Trent teaches *that* Christ satisfied; it defines no mechanism, and Aquinas denied Anselm's necessity.
-- **You might think Anselm's God is a feudal lord guarding his pride.** Anselm says nothing can be added to or taken from God's honour in itself (I.15); sin disturbs the creature's order. The feudal-honour debate belongs to [`theology-of-debt`](../../theology-of-debt/syllabus.md) 3.3.
+- **You might think Anselm's God is a feudal lord guarding his pride.** Anselm says nothing can be added to or taken from God's honour in itself (I.15); sin disturbs the creature's order. The feudal-honour debate belongs to [`theology-of-debt`](../../theology-of-debt/lessons/03-03-anselm-cur-deus-homo.md) 3.3.
 
 ## One-liner
 
