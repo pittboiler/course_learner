@@ -107,8 +107,11 @@ Using this clause and the Source passage (Article I(v)): (a) does the treaty pla
 **P2** *(Exegetical.)*
 
 **Must hit, strict (a):** essentially no affirmative burden. Article I(v) puts correction on the member drawing resources — "correct maladjustments in **their** balance of payments" — i.e. the deficit country; and the scarce-currency clause imposes nothing on the surplus country itself. Its operative words authorize *other members* to impose exchange limitations; the words that decide are "declare such currency scarce" (a finding about the Fund's holdings, not about the surplus country's conduct) and the permission granted to members to restrict, which is a right of others rather than a duty of the creditor.
+
 **Must hit, strict (b):** any one of — the trigger is the Fund's supply of the currency, not the size or persistence of the surplus; the consequence is discriminatory trade or exchange restriction by others, not a charge or corrective obligation on the creditor; the limitations are "temporary" and require consultation; the Fund has discretion whether to declare. Keynes's premise 4 wanted an automatic, priced penalty on the creditor plus a duty to discuss corrective measures; this gives none of that.
+
 **Wrong turns:** reading the clause as a penalty on the surplus country; saying the treaty is silent on creditors altogether (the clause exists, and is the concession); arguing about whether the clause was wise (not asked, and evaluative).
+
 **Model answer:** Almost none. Article I(v) makes correction the job of the member drawing resources — its own balance of payments is what gets corrected — and the scarce-currency clause imposes no obligation on the creditor. Its operative words let other members "temporarily impose limitations" on dealings in the scarce currency; the burden it creates is borne by those who need the currency, and the trigger is the Fund's dwindling holdings, not the surplus itself. Limiting feature: the clause is discretionary and defensive. Keynes wanted an automatic charge on any large credit balance and a duty on the creditor to discuss revaluation or expansion; the treaty offers a permission to ration, exercisable by others, after the Fund decides.
 
 ---
@@ -116,8 +119,11 @@ Using this clause and the Source passage (Article I(v)): (a) does the treaty pla
 **P3** *(Exegetical.)*
 
 **Must hit, strict:** premise 5 — that financing should be large and near-automatic — is the one the Americans deny outright; a good answer may instead target premise 4 (charges on creditors) provided it explains that the US denial is of the *obligation*, not of the arithmetic of premise 1. The strongest reason: an automatic overdraft facility of that size is an open-ended claim on the resources of the one certain creditor, which no legislature would grant, and unconditional credit lets a debtor postpone correcting the underlying imbalance rather than correct it (a moral-hazard argument, not a denial that surpluses have two sides).
+
 **Must hit, strict (evidence):** something that would distinguish the two stories — whether deficit countries with easy access did adjust or postponed; whether the postwar dollar shortage was relieved by Fund drawings or by unilateral American transfer (Marshall aid) and by the 1949 devaluations; whether surplus countries' later persistent surpluses transmitted deflationary pressure; how the scarce-currency clause fared in practice, never once invoked.
+
 **Wrong turns:** naming premise 1 or 2 (the Americans did not dispute the description of the 1930s); answering with a verdict on who was right; citing evidence from after 1975, which the question excludes.
+
 **Model answer:** Premise 5. The Americans accepted that imbalance has two sides but denied that finance should be large and automatic: an unlimited overdraft in a unit like *bancor* is a claim on US goods that Congress cannot commit to, and credit without conditions rewards postponement rather than correction — so access must be capped and guarded. Evidence that bears on it: whether early drawers under stand-by arrangements actually adjusted or merely delayed; whether the postwar dollar shortage was in fact resolved by Fund resources or by Marshall aid and the 1949 devaluations, which suggests the Fund was too small for the task Keynes assigned it; and whether the scarce-currency clause's total disuse reflects creditor discipline or a mechanism designed never to bite.
 
 </details>

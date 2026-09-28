@@ -112,6 +112,7 @@ Find **four** errors. For each, give the correction and, where a level is involv
 **P3** *(Exegetical)*
 
 **Must hit, strict (a):** the premise is the **identity of subject**: the one begotten of the Father is the same one born of Mary. Impassibility is not the crux because both affirm it. Cyril's Second Letter says the divine nature cannot suffer, and he places suffering in the Word's own flesh.
+
 **Must hit, strict (b):** "a union of two natures". Cyril could sign a plural count of natures because the same text says "one Christ, one Son, one Lord" and confesses *Theotokos*, which fixes the subject as one. With the who settled, counting the what as two no longer divides him.
 
 **Wrong turns:** naming "whether Mary may be honoured" as the crux; naming "the divine nature suffers" as Cyril's premise; discussing "one incarnate nature", which is not asked here.

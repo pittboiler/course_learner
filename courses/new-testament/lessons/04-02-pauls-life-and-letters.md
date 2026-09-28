@@ -134,9 +134,13 @@ Luke's adjective is *dikaios*, "just", which in a courtroom setting also means "
 <summary>Solution</summary>
 
 **Must hit, strict (a):** any three. **Who:** Matthew adds "they that were with him", so a group speaks, not the centurion alone. **What prompts it:** in Mark, the *manner* of Jesus's death ("crying out in this manner he had given up the ghost"); in Matthew, "the earthquake and the things that were done", with fear ("sore afraid"); in Luke, "what was done". **Response:** Luke adds "glorified God". **What is said:** Luke replaces "son of God" with "a just man" (*dikaios*).
+
 **Must hit, strict (b):** Luke's pattern of declaring Jesus **innocent**. Pilate finds "no cause" in him three times (23:4, 14, 22). Now a Roman officer, at the execution itself, says the same thing: this man was *dikaios*.
+
 **Must hit, strict (c):** the usual explanation is that a writer inside the Empire had reason to show that Rome's own officials found Jesus guiltless. That explanation is a **hypothesis about motive**, not a datum. The trend itself is an observation, and the order Mark → Luke rests on Markan priority, which is itself a hypothesis.
+
 **Wrong turns:** treating the Douay's lower-case "son" in Mark against its capital in Matthew as one of the evangelists' changes. The capital is the printer's; in the Greek neither verse has the article. Reading Luke's "just man" as a denial that Jesus is Son of God, when Luke's own Gabriel says he "shall be called the Son of God" (1:35). Presenting the political motive as fact.
+
 **Model answer:** (a) Matthew makes the speakers the centurion "and they that were with him", and has them moved by the earthquake and afraid, where Mark's centurion is moved by the way Jesus died. Luke adds that the centurion "glorified God", and changes the confession from "son of God" to "a just man". (b) It continues Luke's innocence theme: Pilate has three times found no cause in him, and now the officer in charge of the execution calls him *dikaios*, innocent. (c) The usual explanation is that Luke, writing inside the Empire, wanted Roman officials on record declaring Jesus guiltless. That is a hypothesis about motive, and it assumes Markan priority, itself a hypothesis; only the trend is observed.
 
 </details>

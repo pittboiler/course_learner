@@ -136,8 +136,11 @@ Name three errors of fact or of level, and correct each with a text or act from 
 <summary>Solution</summary>
 
 **Must hit, strict (a):** markup $90 - 60 = 30$ baths. As a rate on the advance, $30/60 = 50\%$. As a share of the bond, $30/90 = 1/3 \approx 33\%$. State which base each figure uses.
+
 **Must hit, strict (b):** **fraud:** the 30 were the master's lawful due, and the steward gave them away to buy friends. **His own cut:** the 30 were the steward's commission written into the bond, and he gave up his own profit. **Hidden usury:** the 30 were interest hidden in the commodity amount, which the Torah forbade, so the master had no lawful claim to them and could only ratify the cut.
+
 **Must hit, strict (c):** No, not from the text. The calculation needs the **advance** (the principal), and Luke gives only the amount written in the bond and the rewritten one. The implied 100% on oil is what the usury reading *infers*, and which reading is right is **freely disputed**.
+
 **Wrong turns:** dividing by the bond when asked for a rate on the advance (answer 33% instead of 50%). Treating the invented bond as evidence for Derrett's reading; it only shows what his reading claims.
 
 **Model answer:** (a) $90 - 60 = 30$ baths: $30/60 = 50\%$ on the advance, $30/90 \approx 33\%$ of the bond. (b) Fraud: the master's due, given away. Own cut: the steward's commission, forgone. Hidden usury: interest the master could not lawfully claim, cancelled. (c) Only by assuming the principal was fifty, because Luke never states what was advanced. The 100% figure is the conclusion of the usury reading, not a datum of the text.

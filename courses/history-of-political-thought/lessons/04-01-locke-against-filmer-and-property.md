@@ -146,6 +146,7 @@ The case is hard because one phrase carries both. Whichever you favour, notice t
 <summary>Solution</summary>
 
 **Must hit, strict (a):** reading (ii). "That to be every mans that he can get" concedes that things are got and held; "for so long, as he can keep it" makes the holding last only as long as the force behind it. What is denied is "Propriety" and "Mine and Thine *distinct*": a line between yours and mine that binds others, not possession itself.
+
 **Must hit, strict (b):**
 - No injustice: where there is no common power there is no law, and where no law, no injustice (ch. 13).
 - No right violated: the right of nature is a *liberty* to use one's own power for one's preservation, which in this condition extends to all things, the harvest included. The stranger has the same right to it as the settler, and a liberty imposes no duty on anyone else.

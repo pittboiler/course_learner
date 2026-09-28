@@ -176,9 +176,13 @@ This is the most famous of the [minor agreements](../reference.md#minor-agreemen
 <summary>Solution</summary>
 
 **Must hit, strict (a):** the crux is **whether the scrolls in the caves belonged to the people living at the Qumran settlement**, the link between site and caves. Golb must deny that the collection was the settlement's own library. He need not deny that Essenes existed, or that Pliny and Josephus describe them accurately.
+
 **Must hit, strict (b):** evidence bearing on that link. Physical or archaeological ties between the caves and the settlement favour the majority. A collection too varied in outlook to be one sect's library favours Golb. Either qualifies if the direction is stated.
+
 **Must hit, strict (c):** a **historical reconstruction** on both sides, with **no magisterial standing** either way. The majority view is well evidenced, and a majority is not a proof.
+
 **Wrong turns:** making the crux "whether the Essenes existed" or "whether Josephus is reliable", which both sides can grant. Offering Pliny's location as the decisive evidence: it puts Essenes near the Dead Sea, not their books in these caves. Treating the Essene identification as settled fact, or as something the Church teaches.
+
 **Model answer:** (a) The crux is whether the cave scrolls were the Qumran settlement's own library; Golb denies it. (b) Physical ties between caves and settlement would favour the majority; a collection too diverse for one sect would favour Golb. (c) It is a historians' hypothesis with no magisterial standing.
 
 </details>

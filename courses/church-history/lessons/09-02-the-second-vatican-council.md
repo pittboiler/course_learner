@@ -104,7 +104,9 @@ Name the source whose framing the script inherits, and correct three distinct fa
 (a) All ballots: $\tfrac{2}{3} \times 2209 = 1472.67$, so **1,473** yes votes were needed; shortfall $1473 - 1368 =$ **105**. Valid ballots only: $2209 - 19 = 2190$, and $\tfrac{2}{3} \times 2190 =$ **1,460** exactly; shortfall $1460 - 1368 =$ **92**. Yes share of all ballots: $1368 / 2209 = 0.6193$, i.e. **61.9 percent**. (Computed in Python.) Published accounts give different shortfalls partly for this reason, and some print the yes figure as 1,360.
 
 **Must hit, strict (b):** the motion to interrupt failed, so under the rules debate on the schema was to continue; the next day John XXIII withdrew the schema and sent it to a mixed commission of the Theological Commission and Bea's Secretariat for revision.
+
 **Wrong turns:** saying the council "rejected" the schema by vote; saying the minority won the outcome as well as the vote; forgetting that 1,473 is the next whole vote above 1,472.67.
+
 **Model answer:** (b) Technically nothing was rejected: the motion to interrupt fell short of two-thirds, so discussion should have gone on. On 21 November John XXIII took the schema off the floor himself and gave it to a joint commission under Ottaviani and Bea, which in effect gave the majority what the rules had denied it.
 
 ---
@@ -112,8 +114,11 @@ Name the source whose framing the script inherits, and correct three distinct fa
 **P2** *(Exegetical (a) · Exegetical (b))*
 
 **Must hit, strict (a):** three claims. (1) Liberty of conscience and worship is a personal right: "each man's own right". (2) It ought to be established in law everywhere: "proclaimed and asserted by law in every rightly constituted society". (3) Citizens have an unlimited liberty of public expression: "every kind of liberty, to be restrained by no authority, whether ecclesiastical or civil".
+
 **Must hit, strict (b):** the premise is whether the condemnation targets the *civil right as such* (claims 1–2, which *Dignitatis Humanae* 2 appears to assert) or the *package*: a right conceived as unlimited ("restrained by no authority") and, in context, grounded in indifferentism. *Dignitatis Humanae* limits the right by public order (7) and grounds it in the duty to seek truth, not in indifferentism. Evidence for the Coetus: Syllabus 77–78 (the Source) condemn even a *limited* grant of public worship to immigrants, which is harder to read as aimed only at unlimited liberty.
+
 **Wrong turns:** deciding whether *Dignitatis Humanae* is a development or a reversal (not asked; that belongs to `fundamental-theology` and `catholic-social-teaching`); misreading Syllabus 79's double negative as Pius affirming liberty.
+
 **Model answer:** (a) Personal right ("each man's own right"); legal establishment everywhere ("proclaimed and asserted by law in every rightly constituted society"); unlimited public expression ("restrained by no authority"). (b) They disagree about which element is essential to what was condemned. For the Coetus, claims one and two are the target, and *Dignitatis Humanae* 2 asserts exactly those. For the drafters, what was condemned was a liberty "restrained by no authority" and resting on indifferentism, while the council's right is limited by public order and rests on the duty to seek truth. The Coetus can cite Syllabus 78, which condemns praise of even limited public worship for immigrants.
 
 ---
@@ -121,7 +126,9 @@ Name the source whose framing the script inherits, and correct three distinct fa
 **P3** *(Exegetical)*
 
 **Must hit, strict:** the framing is Wiltgen's "Rhine flows into the Tiber" story of a European alliance. Any three corrections: (1) 13 October 1962 produced only a *postponement*; the alliance's influence came through elections on 16 October, where on Wiltgen's own figures its slate won about half the elected seats, not "power". (2) Not every curial text was thrown out: the liturgy schema was accepted as the basis with only 46 against and became *Sacrosanctum Concilium*; even the revelation schema was not voted down but withdrawn by John XXIII. (3) Paul VI was no rubber stamp: in Black Week he imposed the *Nota praevia* and nineteen changes to the ecumenism decree, and let the postponement of the religious-liberty vote stand. (4) The 1054 excommunications were lifted on 7 December, the day before the close, by a joint declaration of pope and patriarch rather than a conciliar act, and the text says it does not end the differences.
+
 **Wrong turns:** calling Wiltgen hostile to the alliance, or treating the framing as simply false (his tallies are usable); counting "first morning" and "seized power" as two errors when they are the same point.
+
 **Model answer:** The script inherits Wiltgen's picture of a Rhine alliance capturing the council. First, 13 October brought only a postponement of elections; the alliance's slate then won about half the elected commission seats, a strong position but not seized power. Second, the Curia's liturgy schema was accepted as the basis with just 46 against and became *Sacrosanctum Concilium*, and the revelation schema was withdrawn by the pope, not voted out. Third, Paul VI imposed the *Nota praevia* and nineteen changes to the ecumenism decree during Black Week. And the lifting of the 1054 excommunications on 7 December was a joint act of pope and patriarch, which says itself that it does not end the schism.
 
 </details>
@@ -134,8 +141,11 @@ Name the source whose framing the script inherits, and correct three distinct fa
 <summary>Solution</summary>
 
 **Must hit, strict (a):** openings, any two: *Au milieu des sollicitudes* and the ralliement (1892), telling French Catholics to accept the Republic; *Rerum Novarum* on industrial workers (1891); the Vatican archives opened to researchers (1881); *Providentissimus Deus* encouraging Catholic biblical study (1893); the negotiated end of the Kulturkampf (peace laws of 1886–87). Limits, any two: *Testem benevolentiae* against "Americanism" (1899); *Providentissimus Deus*'s teaching that inspiration covers the whole of Scripture and excludes error (1893); the Pontifical Biblical Commission (1902), meant to supervise as well as promote; his retention of the Syllabus's principles throughout. Credit for noting that *Providentissimus Deus* belongs on both lists.
+
 **Must hit, any verdict (b):** (1) separate *posture* (engagement versus defence) from *doctrine* (what each pope taught); (2) use Leo's own brakes as evidence against "liberal"; (3) say what Pius X added that Leo had not done: the system-condemnation of *Lamentabili* and *Pascendi* (1907), the councils of vigilance, the oath of 1910, and his blessing of Benigni's network's aims; (4) give a verdict on "reversed".
+
 **Wrong turns:** calling the ralliement an endorsement of liberal political theory (it accepted a regime, not a theory of the state); treating *Rerum Novarum* as evidence of theological liberalism; forgetting that the brakes of 1893–1902 were Leo's.
+
 **Model answer (b), one of several:** Neither half holds as stated. Leo was not a liberal: he kept the Syllabus's principles, taught strict inerrancy and condemned Americanism. What he changed was posture, engaging governments and scholarship instead of only refusing. Pius X did not reverse Leo's doctrine; he reversed the posture, turning Leo's brakes into a system of condemnation and surveillance: *Pascendi*, vigilance councils, the oath. "Leo engaged and Pius defended, on the same doctrine" fits the record better. Evidence that Leo had planned a wider opening, cut short by his death, would push toward the popular claim.
 
 </details>

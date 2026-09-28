@@ -112,8 +112,11 @@ Where this lesson stops: whether the privation account answers the *problem* of 
 **P1** *(Exegetical.)*
 
 **Must hit, strict (a):** the words are "does not add any reality to 'being'; but is only a negation of division" and the gloss "'one' means undivided 'being.'" The simple/compound split is an exhaustive case proof that being and undividedness coincide: what is simple is undivided both actually and potentially, and what is compound has no being at all while its parts are divided and has being once they compose. Since the two cases are exhaustive, "the being of anything consists in undivision", so "one" names being under a negation rather than adding a further reality.
+
 **Must hit, strict (b):** it is evidence that the coincidence is real and not merely a way of speaking — a thing's holding together and its staying in existence are not two projects but one, which is what you expect if unity *is* its being under a negation.
+
 **Wrong turns:** reading "negation of division" as making unity unreal or purely mental (q.11 a.1 ad 3 says "one" does add an idea); running the two senses of "one" together — ad 1 separates the "one" convertible with being from the "one" that is the principle of number, and says Avicenna's mistake was to treat the first like the second; taking (b) as a claim that things consciously desire unity.
+
 **Model answer:** (a) "Does not add any reality to 'being'; but is only a negation of division", since "one" just means undivided being. The simple/compound division covers every case and shows that in each one being and undividedness arrive together — the simple thing is undivided outright, the compound has being only once its parts are united — so unity is being viewed under a negation. (b) That the identity shows in how things behave: a thing preserves itself by holding together, so guarding unity and guarding being are one act, not two.
 
 ---
@@ -121,9 +124,13 @@ Where this lesson stops: whether the privation account answers the *problem* of 
 **P2** *(Exegetical.)*
 
 **Must hit, strict (a):** step 4 (and with it step 5) — that "evil" cannot signify a being, a form or a nature. The giveaway phrases are "a force with an energy of its own" and "a nature set against the Maker from the beginning"; "from the beginning" is the dualist load, an evil principle that was never made.
+
 **Must hit, strict (b):** that evil is real and really does damage — the privation account never says evil is an illusion or that the struggle is fake. ST I q.48 a.1 **ad 4**: evil corrupts good formally, as a privation is itself the corruption; it effects nothing of itself, but acts and is desired only by virtue of some good joined to it. So there is real agency in evil deeds; it belongs to the good in them (power, will, intelligence), not to the privation.
+
 **Must hit, strict (c):** the highest level. Lateran IV (1215), ch. 1, professes one God, creator of all things visible and invisible, and teaches that the devil and the other demons were created good in nature by God and became evil by their own doing — defined against Albigensian dualism. On [`fundamental-theology` 4.4](../../fundamental-theology/lessons/04-04-the-ladder-of-doctrinal-authority.md) that is rung 1, divinely revealed and proposed as such, and obstinate denial is heresy. What does *not* stand there: the privation analysis itself (at most common teaching), the six-item list, and the beauty question.
+
 **Wrong turns:** treating the paragraph as mere rhetoric and grading nothing; saying the Church has defined that evil is a privation (overstating in one direction); saying that because evil is a privation the struggle is unreal (overstating in the other); naming step 1 or 2, which the paragraph never touches.
+
 **Model answer:** (a) Step 4: it makes evil a nature and a form with its own energy, and "set against the Maker from the beginning" makes that nature uncreated. (b) That evil is real and destructive; q.48 a.1 ad 4 keeps this by distinguishing how evil acts — formally, as a privation corrupting, and efficiently only through the good annexed to it. (c) Rung 1: Lateran IV ch. 1 defines one creator of all things visible and invisible and teaches that the demons were created naturally good and fell by their own act. The philosophical analysis of evil as privation of a due good is not defined at that level, and whether beauty is a transcendental is freely disputed.
 
 ---
@@ -131,11 +138,15 @@ Where this lesson stops: whether the privation account answers the *problem* of 
 **P3** *(Exegetical (a) · Evaluative (b))*
 
 **Must hit, strict (a):** the criterion from q.48 a.3 — an absence of good is an evil only when taken *privatively*, that is, when the missing good is due to this subject; a merely *negative* absence, the lack of a good belonging to some other kind, is not an evil (a man lacking the roe's swiftness or the lion's strength is not thereby evil). Applied: generative power is a perfection due to a complete animal of a kind, so if the mule is a defective member of the equine kind, its sterility is a privation and an evil in it; if "mule" names a stable nature of its own whose specification does not include fertility, the sterility is a bare negation and no evil at all. The prior question, which q.48 a.3 does not settle, is whether a sterile hybrid has a nature of its own or is a damaged instance of another kind — a question of natural philosophy, not of this distinction. Either verdict passes provided the criterion and the prior question are both named.
+
 **Wrong turns:** deciding it by whether the sterility is inconvenient to farmers (usefulness is not the criterion); saying it is an evil because the mule "cannot do what horses do", which is exactly the negative reading the roe-and-lion example rules out; concluding that it is no evil because nothing suffers.
+
 **Model answer (a):** Only a good that is due to the subject counts, since a privative absence is an evil and a negative one is not (q.48 a.3). If the mule is a defective member of the horse kind, the missing generative power is due to it and the sterility is a privation, hence an evil in it, though not a disorder in the universe; if "mule" is a nature of its own that never included fertility, the lack is like a man's lack of the lion's strength and is no evil. Which of those the mule is — a kind or a defective cross — is the prior question, and q.48 a.3 does not answer it.
 
 **Must hit, any verdict (b):** state the test a candidate must pass — convertibility with being (every being beautiful) plus adding only an idea, not a content; engage q.5 a.4 ad 1, where beauty and goodness are identical in the thing, both resting on its form, and differ logically, goodness relating to appetite and beauty to a cognitive power ("beautiful things are those which please when seen"); say what that text does for your verdict; and register that Aquinas's own enumerations, including *De Veritate* q.1 a.1, do not list beauty.
+
 **Wrong turns:** settling it by observing that beautiful things exist; treating "he never lists it" as decisive on its own without handling q.5 a.4 ad 1; treating "it is really the same as the good" as decisive against, when the same is true of *every* transcendental; claiming the Church has settled the question.
+
 **Model answer (b), one of several:** Yes. The test is convertibility plus addition in idea alone, and q.5 a.4 ad 1 gives beauty both: it is identical with the good in reality, resting on the same form, and distinguished only logically by the power it answers to — a cognitive power rather than appetite. That is structurally what separates *verum* from *bonum*, so if the relation-to-intellect earns truth a place, the relation-to-a-power-that-delights should earn beauty one. The omission from Aquinas's lists is real but weak evidence: those lists derive the transcendentals from appetite and intellect as such, and beauty falls out as their join rather than as a further root. The opposite verdict is equally defensible on the same ad: if beauty is the good *under* a relation to knowing, it is a mode of the good, not a seventh name for being.
 
 </details>

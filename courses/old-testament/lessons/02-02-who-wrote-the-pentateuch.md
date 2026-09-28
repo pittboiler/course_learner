@@ -102,21 +102,29 @@ The Douay's "ADONAI" follows the Vulgate. The Hebrew of Ex 6:3 has the four-lett
 **P1** *(Exegetical)*
 
 **Must hit, strict (a):** *Shared:* the patriarch calls his wife his sister, a foreign king takes her, God intervenes on her behalf, the king rebukes the patriarch, and she is restored with wealth or gifts. Any three. *Different:* the king is Pharao in Egypt in chapter 12 and Abimelech in Gerara in chapter 20. God strikes with plagues in chapter 12 but speaks in a dream in chapter 20. Chapter 20 insists the king never touched her (20:4, 6). Abimelech protests his innocence and Abraham justifies himself as a half-brother (20:12), while in chapter 12 Abram says nothing. Abraham is called a prophet who will pray (20:7). Any three.
+
 **Must hit, strict (b):** chapter 20 mostly uses *Elohim* (20:3, 6, 17), the classic E marker. But **20:18 uses YHWH**, and **20:4's "Lord" is *Adonai***, a title and not the name. So an English "Lord" cannot be sorted as YHWH, and a single verse breaks the pattern. Documentarians usually give 20:18 to a redactor, which is the kind of adjustment their critics call *ad hoc*.
+
 **Wrong turns:** counting 20:4's "Lord" as YHWH from the Douay's English. Treating the doublet as proof of separate sources rather than as data several models explain.
+
 **Model answer (b):** Chapter 20 names God *Elohim* in its dream scenes, but 20:18 uses YHWH and 20:4 addresses God with the title *Adonai*, which the English "Lord" hides. So the names alone do not yield a clean "E" story; a redactor must be posited for 20:18.
 
 **P2** *(Exegetical)*
 
 **Must hit, strict:** (1) **Defined dogma**: canonicity and divine authorship (Trent, Vatican I). (2) **Tradition's report**: the baraita in Bava Batra 14b–15a, on Rabbi Yehuda's view, disputed there by Rabbi Shimon. (3) **Hypothesis, majority**: de Wette's link, still widely held. It is not doctrine. (4) **Hypothesis, unsettled**: widespread in Europe (Rendtorff, Blum, Schmid) and denied by the neo-documentarians. (5) **False as a level claim**: Trent defines the canon and uses the traditional title. Mosaic authorship was never defined.
+
 **Wrong turns:** calling (3) or (4) Church teaching or "consensus". Calling (2) a Christian tradition, or giving it as Talmudic doctrine without the internal dispute. Marking (5) as defined.
+
 **Model answer:** (1) Dogma. (2) Report, Bava Batra 15a (R. Yehuda; R. Shimon disagrees). (3) Majority hypothesis. (4) Hypothesis, split by region and school. (5) Wrong: the title is not a definition.
 
 **P3** *(Exegetical)*
 
 **Must hit, strict (a):** the crux is **whether P was composed independently of, or without regard to, the non-Priestly narrative**. The documentarian needs P to be a free-standing document. The supplementarian denies it: P was written onto the earlier text. Both can grant that Ex 6:3 and Gen 15:7 are in tension.
+
 **Must hit, strict (b):** evidence of P's continuity or dependence. If the P passages, extracted, form a continuous story that needs nothing from the non-P text, that favours independence. If P passages presuppose non-P episodes, cross-reference them, or are unintelligible alone, that favours supplementation. Either direction counts if stated.
+
 **Wrong turns:** making the crux "whether Moses wrote it" or "whether the texts contradict", which both scholars accept. Offering the divine names as the decisive evidence, since both models already account for them.
+
 **Model answer:** (a) Whether P was an independent document; the supplementarian denies it. (b) If extracted P passages read as a complete, self-standing narrative, independence gains; if they presuppose non-P episodes they could not tell alone, supplementation gains.
 
 </details>
@@ -141,8 +149,11 @@ The Douay's "ADONAI" follows the Vulgate. The Hebrew of Ex 6:3 has the four-lett
 <summary>Solution</summary>
 
 **Must hit, strict:** (1) **Harmonizing**: it removes the tension with a distinction between the deed and the doer's spirit. (2) **Canonical reading**: each verdict keeps its literal sense, and the meaning is read from the arrangement that holds both. (3) **Flattening**: a later text replaces both passages' meaning, and 10:30's explicit approval simply disappears.
+
 **Must hit, strict (b):** it leans on **10:29 and 10:31**, which already fault Jehu for keeping Jeroboam's golden calves and not walking in the law with all his heart. It must **narrow Hosea's "blood of Jezrahel"** to guilt for Jehu's motive or his later sins, when Hosea's words name the blood shed at Jezreel itself.
+
 **Wrong turns:** calling move 1 illegitimate. Harmonizing is a real operation and may be right; the task is to name it. Calling move 2 harmonizing because it draws a lesson; it removes neither text's claim. Calling move 3 a spiritual sense: a spiritual sense rests on the literal, and "neither text is really about Jehu" discards it.
+
 **Model answer:** (1) Harmonizing. (2) Canonical reading. (3) Flattening. (b) Move 1 draws on 10:29–31, where Kings itself says Jehu kept the calves of Bethel and Dan and did not walk in the law with all his heart. To reconcile the two, it has to read Hosea's "blood of Jezrahel" as guilt for Jehu's motives rather than for the bloodshed Hosea actually names.
 
 </details>

@@ -151,9 +151,13 @@ Solid edges are teaching (authentic ordinary magisterium). Dashed edges are prop
 <summary>Solution</summary>
 
 **Must hit, strict (a):** Number reading: surplus $= 11{,}500 - 10{,}000 = 1{,}500$, which is 15% nominal. Value reading: restoring the value needs $10{,}000 \times 1.12 = 11{,}200$, so the surplus is $11{,}500 - 11{,}200 = 300$. Real rate $= 11{,}500 / 11{,}200 - 1 \approx 2.68\%$. Inflation compensation is $1{,}200/1{,}500 = 80\%$ of the nominal surplus.
+
 **Must hit, strict (b):** **Number reading:** all 1,500 is gain above principal and needs a title, including the 1,200 that merely offsets inflation, which fits no classical title neatly (at most an argued *damnum emergens*). **Value reading:** the 1,200 is simply the principal restored, and only the 300 needs a title, for example *periculum sortis* if the risk to the principal is real, or *lucrum cessans* if the lender really gave up a return elsewhere, established and not presumed (§3.V).
+
 **Must hit, strict (c):** **No act decides it.** Neither Vienne nor *Vix Pervenit* faced sustained inflation of a paper currency, so the question is open and argued: Noonan reads the silence as the old categories running out, continuity (i) as an old principle meeting a new fact.
+
 **Wrong turns:** dividing 300 by 10,000 and calling 3% the real rate (the 300 is in end-of-year units; divide by 11,200). Treating the value reading as the Church's answer, or the number reading as *Vix Pervenit*'s plain sense: the text says *tantundem* and no more. Presuming *lucrum cessans* for the 300 without facts.
+
 **Model answer:** (a) Surplus 1,500 (15%) on the number reading; 300 on the value reading, a real return of about 2.68%. (b) On the number reading the whole 1,500 needs a title, and the 1,200 of it that only offsets inflation fits no classical title comfortably. On the value reading only the 300 needs one, such as a real risk to the principal or a real forgone return. (c) No magisterial act decides it, because neither Vienne nor *Vix Pervenit* faced paper inflation; the question is open, and the change and continuity readings each claim the silence.
 
 </details>

@@ -97,22 +97,31 @@ The dotted edge is the one forgiveness never touches: what is owed to a neighbou
 **P1** *(Exegetical.)*
 
 **Must hit, strict (a):** taking the punishment on oneself "of his own accord", and bearing "patiently the punishment which God inflicts". The second is not self-imposed: God inflicts it, and the will's part is patient acceptance. Both avail for satisfaction.
+
 **Must hit, strict (b):** "the nature of punishment is to be against the will", while satisfactory punishment is "voluntary" "in this particular case and for this particular purpose". It stays against the will absolutely, so it keeps *somewhat* of punishment's nature, not all of it.
+
 **Must hit, strict (c):** a debt of **satisfactory** punishment may remain; a debt of punishment **simply** (penal, inflicted on an unwilling will still turned from God) may not, because the stain, the will's separation from God, is gone.
+
 **Wrong turns:** reading "loses somewhat" as "stops being punishment": the text says absolutely it is still against the will. Reading (c) as "no debt remains": the passage's conclusion is that one may.
+
 **Model answer:** (a) The will accepts justice either by taking punishment on itself or by bearing patiently what God inflicts; the second comes from God, not from the sinner. (b) Punishment is by nature against the will, but satisfactory punishment is voluntary for this purpose, though absolutely still against the will, so it loses only "somewhat" of the nature of punishment. (c) A debt of satisfactory punishment may remain after the stain is removed; a debt of punishment simply may not.
 
 **P2** *(Exegetical.)*
 
 **Must hit, strict (a):** absolution lifts the **stain** and the **guilt with the eternal debt** (III q.86 a.4; Trent VI ch. 14). A **temporal debt** may remain, owed to God's justice and discharged by satisfaction (the assigned penance is part of it). The **20,000 dollars** are owed to the **employer** in commutative justice: restitution (II-II q.62 a.2), untouched by absolution. Whether the employer knows is irrelevant.
+
 **Must hit, strict (b):** accept: the Passion is superabundant satisfaction and abolishes the debt of punishment directly (III q.49 a.3). Fails twice: its effect reaches a post-baptismal sinner by conformity through some penalty of his own, made lighter by Christ's (a.3 ad 2); and Christ's satisfaction to God does not pay Marco's neighbour, since restitution is a separate debt.
+
 **Wrong turns:** treating the penance as restitution; calling the temporal debt owed to the Church; saying superabundance makes the penance a formality.
+
 **Model answer:** Absolution lifted the stain, the guilt and the eternal debt (III q.86 a.4). A temporal debt may remain before God, which his penance begins to satisfy, and the 20,000 dollars are still owed to his employer as restitution (II-II q.62 a.2), whether or not the employer knows. Aquinas grants that Christ's satisfaction is superabundant and abolishes the debt of punishment (q.49 a.3). But after baptism its effect comes by conformity, through a lighter penalty of one's own borne with Christ (ad 2), and it was paid to God, not to Marco's employer.
 
 **P3** *(Exegetical.)*
 
 **Must hit, strict:** **(a)** Taught in Trent, Session VI, ch. 7, a doctrinal chapter of an ecumenical council; commonly ranked as of faith, though canon 10's anathema names merit rather than satisfaction. **(b)** **Defined**, rung 1: Session VI, canon 30, with anathema; ch. 14 teaches the same. **(c)** Aquinas's theology (I-II q.87 aa.1, 6): no magisterial act; a theological explanation, not dogma. **(d)** The common teaching of theologians since Anselm and Aquinas (III q.48 a.4 ad 3), with no act defining it; rung 4 at most.
+
 **Wrong turns:** calling (b) a school opinion (understating a canon); calling (c) of faith because Trent speaks of temporal punishment (Trent defines the survival, not the mechanism); calling (d) defined because the devil-ransom view is now rejected.
+
 **Model answer:** (a) Conciliar teaching in a doctrinal chapter (Trent VI ch. 7), usually ranked as of faith; the anathema of canon 10 falls on merit. (b) Defined by Trent VI canon 30 under anathema: rung 1. (c) Aquinas's explanation in I-II q.87, with no magisterial act behind it; it is theology, not dogma. (d) Common theological teaching from q.48 a.4 ad 3 and Anselm, fixed by no act of the Church.
 
 </details>

@@ -128,8 +128,11 @@ Augustine's own sentence, from *Against the Letter of Parmenianus* III.4.24, is 
 **P1** *(Exegetical.)*
 
 **Must hit, strict (a):** the conclusion is that no one may separate from the Church because wicked men are mixed into it, since sorting the good from the bad before the end was not granted even to the apostles. Carrying words: "did not grant even to the apostles"; "distinguish the tares from the wheat"; "separate the chaff from the grain"; or, from the gloss, "in which there should be good and bad."
+
 **Must hit, strict (b):** Cyprian is the authority the Donatists claim as their own — the African martyr-bishop whose rebaptism position is the root of their practice ([2.4](02-04-cyprian-of-carthage.md)). An argument in Cyprian's words cannot be met by appealing to Cyprian, and it concedes his holiness while denying the inference the Donatists draw from him. Credit for noting that Cyprian wrote this against a *different* separatist party, so the principle is his own and not framed for this quarrel.
+
 **Wrong turns:** reading the passage as being about sacramental validity — it is about who may separate, not about whose baptism is real; treating the first paragraph as Augustine's own words; saying Cyprian condemned the Donatists, who did not exist in his lifetime.
+
 **Model answer:** (a) Cyprian's words establish that separating from a Church containing wicked men usurps a judgment reserved to the Lord at the harvest; the phrase "the Lord did not grant even to the apostles" carries it, with "distinguish the tares from the wheat." (b) Making it in Cyprian's voice takes the Donatists' own patron away from them, since they cannot answer Cyprian by citing Cyprian. It also lets Augustine grant everything they revere in him — holiness, martyrdom — while denying the conclusion they draw.
 
 ---
@@ -137,8 +140,11 @@ Augustine's own sentence, from *Against the Letter of Parmenianus* III.4.24, is 
 **P2** *(Exegetical.)*
 
 **Must hit, strict (a):** the bulletin drops the object clause. Augustine does not write "the whole world judges securely" and stop; he writes that the world judges securely **that those are not good who divide themselves from the whole world**. The claim is narrow — about separation, not about controversies generally — and its stated ground is what can be known: a local party cannot know the lives of distant Christians it condemns, whereas the fact of the division is open to everyone. "Count heads" is not his ground.
+
 **Must hit, strict (b):** Newman generalized twice. He moved the sentence from schism to doctrinal controversy (he applied it to the Monophysites), and he turned "the world judges securely against those who divide" into a rule that the settled judgment of the whole Church is a final sentence on any portion that secedes — which also required treating the present judgment of the whole as outranking the appeal to antiquity.
+
 **Wrong turns:** arguing whether Newman's use is legitimate, which belongs to `apologetics-catholic-claims`; calling the tag spurious (the sentence is genuine and the tag is a compression of it); answering only that Augustine meant the Donatists, without naming the dropped clause.
+
 **Model answer:** The bulletin drops Augustine's object clause. He says the world judges securely *that those who divide themselves from it are not good* — a verdict about separating, grounded on what is knowable, since a local party condemning distant Christians judges what it cannot see. Newman had to add scope and force: extend the sentence from schism to doctrinal disputes such as the Monophysite one, and read it as making the Church's settled judgment a final sentence against any seceding part, outranking antiquity.
 
 ---
@@ -151,8 +157,11 @@ P2. What makes a martyr is the cause, not the punishment ("the punishment of the
 P3. The Donatists' cause is schism, not righteousness.
 ∴ C. Their sufferings under the laws do not make them martyrs; and since the Church acts to correct rather than destroy, the persecution she inflicts is righteous.
 The premise carrying the inference is **P2** — P1 alone only shows that suffering is inconclusive. The premise a Donatist must deny is **P3**, which is the whole question at issue, so the argument is worth exactly as much as the ecclesiology behind it.
+
 **Must hit, any verdict (b):** identify what §11 does supply — the end is correction, not destruction ("she that she may correct, they that they may overthrow"; "recall from error" rather than "drive headlong"), which rules out measures that destroy rather than reclaim, and matches Augustine's refusals elsewhere (Letter 133). Identify what it does not supply: any procedure, any external check, and any test of the "spirit of love" or of the rightness of the cause that is not applied by the coercer to himself. Then say whether a self-applied criterion counts as a limit. Either verdict passes.
+
 **Wrong turns:** arguing that coercion is wrong without engaging Augustine's own criteria; treating "spirit of love" as though Augustine gives it a procedural content; using *Dignitatis Humanae* as a premise available to Augustine rather than as the Church's later teaching; answering (b) as though (a) settled it.
+
 **Model answer (b), one of several:** The sections do supply one limit with teeth: the stated end is correction, so anything that destroys rather than reclaims is excluded, which is why Augustine can consistently beg against executions and mutilation. But everything else in the test is internal. Whether the cause is righteous and whether the spirit is love are judgments the persecutor makes about himself, and §9 has already taught that the sufferer's experience is no evidence either way. On my reading that leaves the criterion unable to restrain anyone who is sincere, which is the condition most persecutors satisfy.
 
 </details>

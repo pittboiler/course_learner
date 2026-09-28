@@ -101,7 +101,9 @@ The Society and Bologna both see a rupture and judge it oppositely; Benedict den
 (b) $10{,}667 / 4{,}392 = 2.43$ accusers per accused priest on average. The distribution is skewed: most accused priests (56 percent) had one accuser, while a small group had many. The report finds that 149 priests with more than ten allegations accounted for about a quarter of all allegations, which pulls the mean above the typical case.
 
 **Must hit, strict (c):** the 4 percent is the share of priests *against whom allegations were made* and recorded in diocesan and religious files (not withdrawn or known to be false), as reported to the researchers by 2003. It is not a count of proven abusers. **Overstates:** "abused" turns an allegation into a finding. **May understate:** the count only includes allegations made by 2002–03, and reporting is often decades late (two-thirds came after 1993), so further allegations were expected. It also depends on dioceses' own files.
+
 **Wrong turns:** "correcting" the number itself (one in twenty-five *is* 4 percent); treating the low conviction count as proof of innocence, when statutes of limitation had often expired; naming only one direction of error.
+
 **Model answer (c):** The 4 percent is the share of priests serving between 1950 and 2002 with allegations on file that had not been withdrawn or shown false, as dioceses reported by 2003. The placard overstates by calling allegations abuse, and it may understate, because the count stops in 2002 while victims often reported decades later.
 
 ---
@@ -109,8 +111,11 @@ The Society and Bologna both see a rupture and judge it oppositely; Benedict den
 **P2** *(Exegetical.)*
 
 **Must hit, strict (a):** whether the council is found in its **promulgated texts** read within the tradition (Benedict) or also in the **event**: the assembly's experience and dynamic, of which the texts are compromises (Bologna). Benedict must deny that the "spirit" or event can override the texts; Alberigo's school must deny that the texts alone exhaust the council.
+
 **Must hit, strict (b):** Bologna treats the process as decisive: diaries, drafts, votes, the rejection of the preparatory schemas. Benedict treats the final texts and their continuity with earlier teaching as decisive. Bologna is embarrassed by texts whose plain sense repeats earlier teaching, where no compromise explains the wording. Benedict's reading is embarrassed by a point of doctrine (not a contingent application) that the texts reverse.
+
 **Wrong turns:** making the crux "progressive vs conservative" (a verdict, not a premise); saying Benedict denies all change (he allows discontinuity in contingent applications); saying Bologna ignores the texts.
+
 **Model answer:** (a) Where the council is: in its texts, or in the event those texts only partly record. Benedict must deny that the event can outrank the texts; Bologna must deny that the texts are the whole council. (b) Bologna reads the history of the sessions, meaning drafts, diaries and the overturned schemas, as the key to the council's direction. Benedict reads the final texts against earlier teaching. A text that plainly repeats earlier teaching where nothing forced a compromise embarrasses Bologna. A reversal at the level of principle, not application, embarrasses Benedict.
 
 ---
@@ -118,8 +123,11 @@ The Society and Bologna both see a rupture and judge it oppositely; Benedict den
 **P3** *(Exegetical (a) · Evaluative (b).)*
 
 **Must hit, strict (a):** the fact: John Paul II visited Poland in June 1979 and said Mass in Warsaw on 2 June, and communist rule in Poland and the Wall both ended in 1989. The misdescription: the homily did not call for a rising. It was a prayer that the Spirit renew the face of the earth, "of this land": religious language with political resonance. The leap: from sequence (1979 then 1989) to sole cause, skipping Solidarity, martial law, economic collapse and Gorbachev's refusal to use force.
+
 **Must hit, any verdict (b):** name at least two rival causal factors; use evidence from both sides (e.g. Gorbachev's 1992 tribute, or Weigel's *The Final Revolution*, 1992, for the pope; Kotkin's *Uncivil Society*, 2009, for the regimes' implosion, which still treats Poland's Solidarity as the real exception); distinguish Poland from the rest of the bloc; say what evidence would change the weighting.
+
 **Wrong turns:** "the pope had nothing to do with it" (as unsupported as sole cause); treating Gorbachev's tribute as proof rather than as one actor's testimony; forgetting that Solidarity was a trade union with its own leaders and aims.
+
 **Model answer (b), one of several:** The strongest case for the pope is Polish: the 1979 crowds showed Poles their own numbers, and Solidarity formed fourteen months later with the Church as its sheltering institution. Gorbachev himself called the pope indispensable. But the bloc fell in 1989 because Soviet power would not intervene and the regimes were bankrupt; Kotkin argues that the establishments imploded, with Poland the one place where organized society really forced the pace. So I'd weight the pope as a major cause in Poland and a contributing one elsewhere. Evidence that would move me: archival proof that Moscow's restraint was shaped by fear of Polish Catholic resistance.
 
 </details>
@@ -132,8 +140,11 @@ The Society and Bologna both see a rupture and judge it oppositely; Benedict den
 <summary>Solution</summary>
 
 **Must hit, strict (a):** Enabling Act (23 March) → bishops withdraw their warnings (28 March) → Centre dissolves (5 July) → concordat signed (20 July) → ratified (10 September). The treaty came after the Enabling Act and after the Centre's dissolution, so the signed concordat cannot have caused either. Its Article 32, barring clergy from party politics, confirmed a withdrawal that had already happened.
+
 **Must hit, strict (b):** the crux is whether the prospect of a concordat, in negotiations before 23 March, motivated the Centre's vote. Scholder argued there was such a link; Repgen held that the Centre voted on its own political reckoning. Evidence toward Scholder: documents showing concordat talks or assurances passing to Centre leaders before the vote. Evidence toward Repgen: records of the party's deliberations giving other grounds for its vote, with no reference to a treaty. The state of the question: later work in the Vatican files (Brechenmacher) has not proved the link.
+
 **Wrong turns:** treating the order of events as settling the Scholder–Repgen question (it rules out the signed treaty as cause, not the negotiations); saying the archives have disproved the link (they have not proved it, which is different); saying the concordat "made Hitler legitimate" or "saved the German Church", both causal claims the lesson flags.
+
 **Model answer:** (a) 23 March, Enabling Act; 28 March, bishops' warnings withdrawn; 5 July, Centre dissolves; 20 July, signing; 10 September, ratification. The signed treaty cannot have caused either the Enabling Act or the Centre's end, both of which came first. (b) The crux is motive: was the Centre's yes in March bought with the prospect of a concordat (Scholder), or did the party vote on its own reckoning (Repgen)? Papers showing concordat assurances reaching Centre leaders before 23 March would favour Scholder. Party records giving other reasons, with no mention of a treaty, would favour Repgen. The Vatican files have not proved the link.
 
 </details>

@@ -110,8 +110,11 @@ Name the historical analogy doing the work, two features of the medieval prohibi
 **P1** *(Exegetical — strict.)*
 
 **Must hit, strict (a):** the decisive words are "waive or modify" against "rewrite … from the ground up", and "existing … provisions". The distinction is between *adjusting provisions Congress wrote* and *replacing the scheme with a different one*: the verbs presuppose a statute that stays in place and is altered at the margin. "Existing" does real work too — the Secretary must act on provisions already there, not create a new discharge category. (Credit for noting that the Court reads "modify" as incremental, following its earlier reading of that word.)
+
 **Must hit, strict (b):** either (i) a plan small and incremental enough to count as a modification of existing provisions rather than a new program, or (ii) clear congressional authorization for a program of this economic and political significance — the major-questions requirement. Mentioning that standing had to be established first (Missouri through MOHELA) is a bonus, not required.
+
 **Wrong turns:** answering that the Court found cancellation unfair or bad policy — it says nothing about that; treating "national emergency" as the disputed term, when the Court's holding turns on the verbs.
+
 **Model answer:** (a) The holding rides on "waive or modify" versus "rewrite that statute from the ground up", plus "existing". The Act lets the Secretary adjust provisions Congress already enacted; it does not let him build a new forgiveness program on their site. "Modify" is read as incremental change, so scale is what converts a modification into a rewrite. (b) He would have had to show either that the plan was a genuine, limited adjustment of existing provisions, or that Congress had clearly authorized a cancellation of this magnitude — which the majority found nowhere in the HEROES Act.
 
 ---
@@ -131,6 +134,7 @@ At 12 percent, $r = 0.01$: $rB/P = 50/150 = 0.3333$, $n = \ln 1.5/\ln 1.01 = 0.4
 The ceiling is worth about 2,210 dollars and 15 months to this borrower — which is the stake states were playing for after *Marquette*.
 
 **Must hit, strict:** (a) the balance is constant and why; (b) the 0.99 factor, $5000(0.99)^m$, month 161, and the recognition that a geometric minimum alone never retires the debt; (c) 56 and 41 payments with interest of about 3,322 and about 1,112.
+
 **Wrong turns:** using 24 percent as a monthly rate; treating the 2-percent minimum as 2 percent of the *original* balance (that would amortize); rounding $n$ down instead of up.
 
 ---
@@ -138,8 +142,11 @@ The ceiling is worth about 2,210 dollars and 15 months to this borrower — whic
 **P3** *(Exegetical — strict; no verdict.)*
 
 **Must hit, strict (a):** the analogy is the medieval usury prohibition, invoked as precedent for a modern rate cap. Two features it needs, neither of which carries cleanly: (i) the prohibition was on *any* gain from a loan (*mutuum*), not on a rate above a threshold — a 36 percent ceiling grants precisely what the doctrine denied, so a cap is a different institution, not the old one restored; (ii) it was never a universal, unbroken practice — Christian Europe ran on the workarounds of 2.1 (partnerships, bills of exchange, *census*) and on licensed lenders and the Monti di Pietà of 2.2, which charged fees; "every Christian society kept it" describes the doctrine, not the practice. A third available point: *Marquette* did not sweep away state ceilings; it decided which state's ceiling applies, and the states then repealed their own.
+
 **Must hit, strict (b):** the dividing premise is whether student debtors who filed *could* have repaid — strategic use of bankruptcy by borrowers with good prospects — or *could not*. Evidence that would move it: filing rates among recent graduates compared with other debtors, how soon after graduation filings came, and the post-filing earnings and repayment records of those who filed. (Contemporary studies found such filings rare, which is what opponents pointed to.)
+
 **Wrong turns:** arguing whether a 36 percent cap is justified, or whether student loans *should* be dischargeable — those belong to [`philosophy-of-debt`](../../philosophy-of-debt/syllabus.md); naming "morality versus economics" instead of a testable premise.
+
 **Model answer:** (a) The analogy is the medieval ban on usury. It needs the ban to have been a limit on *rates* and to have been generally observed. Neither holds: the doctrine forbade any return on a loan, so a 36 percent cap concedes its central point, and medieval credit ran on partnerships, exchange contracts and licensed pawn lending. Nor did a court abolish American caps; states did, competing for issuers after 1978. (b) They divide on whether filers could have paid. Filing rates by recent graduates, the timing of filings relative to graduation, and post-filing earnings would settle it.
 
 </details>

@@ -110,8 +110,11 @@ So the same country was called able to pay in 1929 and unable in 1931 with no ch
 **P2** *(Exegetical — strict.)*
 
 **Must hit, strict (a):** the budgetary/transfer distinction — Keynes's point in the argument above, that raising marks at home and converting them into foreign currency are separate operations. Deciding words: **"ability to transfer"** (not ability to pay, and not the state of the budget), and **"external factors"**, which concedes that conditions outside Germany — world demand, creditors' trade policy, the capital market — bear on whether payment is possible. Credit also for "economic, financial and monetary considerations," which opens the inquiry beyond fiscal capacity.
+
 **Must hit, strict (b):** it gives no right to suspend or reduce payment. The obligations stand ("without derogating from"); what the clause creates is a procedure — consultation, with expert advice if the principal parties so decide. Transfer difficulty is a trigger for talks, not a defence.
+
 **Wrong turns:** reading "ability to transfer" as ability to afford, which erases the distinction the clause was written to capture; treating the article as an automatic hardship or escape clause; saying the clause proves Germany could not pay (it is a procedure, not a finding).
+
 **Model answer:** (a) It encodes the budgetary/transfer distinction: the question is not whether Germany can raise the money but whether it can turn it into foreign exchange. "Ability to transfer" is the decisive phrase, and "external factors" concedes that creditors' markets and world conditions govern it, as premise 5 of Keynes's argument claims. (b) No relief. The obligations are expressly undisturbed; a transfer difficulty buys consultation and possibly expert advice, not suspension, reduction or a defence to a claim.
 
 ---
@@ -120,7 +123,9 @@ So the same country was called able to pay in 1929 and unable in 1931 with no ch
 
 **Must hit, strict:** the premise is the *ledger rule* — that private capital flowing into Germany and never repaid (loans repudiated after 1933, plus mark-denominated claims destroyed in the inflation) belongs in the same account as reparations flowing out, so that the two can be netted and the net figure answers "did Germany pay?" Critics must deny that they are commensurable: the loans were voluntary investments made at a price for risk, by private American lenders, not transfers by the Allied governments who were owed reparations; and the resources Germany actually gave up in coal, ships, patents and cash are not undone by a later default on a different set of creditors.
 **What would move it:** a full flow accounting that separates parties (who lent, who received, who lost) and asks whether the borrowing would have occurred at all absent reparations — the counterfactual on which the netting stands or falls; evidence on the seniority of the Dawes and Young loans, which determines whether commercial lenders were first or last in line; and a decision about how to value the mark assets wiped out by the inflation, which is a large and contestable share of Schuker's figure.
+
 **Wrong turns:** treating the crux as a dispute about the size of the flows (both sides can accept the numbers and still divide on whether they may be netted); answering "who suffered more," which is a different question; ruling on whether Germany was treated harshly, which this problem does not ask.
+
 **Model answer:** The premise is that unrepaid private American loans and inflation-destroyed mark claims may be netted against reparations, so that net capital flow settles who paid. Critics deny commensurability: those lenders were private investors taking a priced risk, not the governments owed reparations, and a later default on them does not restore the coal, ships and cash Germany transferred. Moving it takes a party-by-party flow accounting, a counterfactual on whether Germany would have borrowed absent reparations, evidence on the seniority of the Dawes and Young loans, and a defensible valuation of the wiped-out mark assets.
 
 </details>

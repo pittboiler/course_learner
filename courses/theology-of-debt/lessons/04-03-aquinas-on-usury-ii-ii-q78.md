@@ -165,8 +165,11 @@ Name **four** distinct errors and correct each from q.78 or this lesson. **150 w
 <summary>Solution</summary>
 
 **Must hit, strict (a):** (i) $45 - 30 = 15$ measures on 30, so $15/30 = 50\%$ over four months, $50\%/4 = 12.5\%$ a month, which is $12.5$ times the hundredth (150 percent a year simple). (ii) $16/200 = 8\%$ over eight months, $8\%/8 = 1\%$ a month: exactly the hundredth, 12 percent a year simple.
+
 **Must hit, strict (b):** (i) **Reached**: repaying the whole and one half is the *hemiolia*, named in the canon, and a loan in kind is no escape. (ii) **Reached**: the oil is agreed in advance, so it is the hundredth by "secret transaction" or "other contrivance"; calling it a gift does not change what was bargained for. (iii) **Not reached**: the canon binds only those "enrolled among the Clergy", and deposition is a clerical penalty. Demetrios is reached by the Fathers' **moral teaching** that usury is a sin for every Christian (the homilies; Leo's Letter 4, which punishes convicted laymen), not by the canon.
+
 **Wrong turns:** treating the hundredth as a legal ceiling below which a cleric is safe; the operative clause is receiving usury by any means. Calling the canon a definition, or concluding that because the canon misses Demetrios his lending was licit.
+
 **Model answer:** (a) Theon takes 15 on 30 in four months, 12.5 percent a month, twelve and a half times the hundredth; Kyros takes 16 on 200 in eight months, 1 percent a month, the hundredth itself. (b) Theon is deposed under the *hemiolia* clause, since grain loans are covered. Kyros is deposed because a pre-arranged "gift" is the hundredth by contrivance. Demetrios is outside the canon, which disciplines clergy only; the moral teaching of the Fathers and of Leo condemns his lending as sin.
 
 </details>

@@ -142,9 +142,13 @@ Each reading is fixed by the phase's **assumption** before the verse is read. Th
 <summary>Solution</summary>
 
 **Must hit, strict (a):** any three. In Mark the disciples raise the problem (6:35); in John Jesus raises it himself, to Philip (6:5). John names Philip and Andrew; Mark's disciples are unnamed. Only John has the boy and the *barley* loaves. Only John has the crowd hail Jesus as "the prophet", try to make him king, and Jesus withdraw (6:14–15). Only John dates the scene by a Passover. Only Mark has the seating "by companies upon the green grass".
+
 **Must hit, strict (b):** John's pattern of **sign followed by discourse**: he calls the miracles signs and has a discourse unpack what the sign means (bread → "I am the bread of life"). The Synoptic Jesus does not expound his miracles in long discourses about himself; he teaches mainly in short sayings and parables about the kingdom.
+
 **Must hit, strict (c):** It is the **second** of John's three Passovers (2:13, 6:4, 11:55), the middle marker that, with the other two, requires a ministry of **at least two years**. Mark names no Passover here, and his silence fails to require a longer ministry without establishing a shorter one. So there is no contradiction; his "green grass" is often read as a spring detail, which fits the season.
+
 **Wrong turns:** listing the two hundred denarii as a difference; both have the same sum ("pence", "pennyworth"). Taking 6:4 for the Passover of the passion. Treating Mark's single narrated Passover as proof of a one-year ministry. Saying the Church teaches John's chronology; *Dei Verbum* 19 fixes none.
+
 **Model answer:** (a) Jesus, not the disciples, raises the question of bread in John; John names Philip and Andrew; only John has the boy's barley loaves and the crowd's attempt to make Jesus king. (b) The pairing shows John's signs-with-discourse pattern: the feeding is a sign whose meaning the bread of life discourse spells out. The Synoptic Jesus does not explain his miracles in discourses about himself; he preaches the kingdom in parables. (c) It is the second of three Passovers, which together require at least two years. Mark names no Passover here, and a silence cannot contradict a positive count.
 
 </details>

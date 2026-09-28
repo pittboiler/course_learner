@@ -152,9 +152,13 @@ Three **invented** depositors, Florence, 1300:
 <summary>Solution</summary>
 
 **Must hit, strict (a):** (1) Entrusting money to a usurer **"lacking other means of practising usury"**, which supplies the very "matter for sin". (2) Entrusting it **"with the intention of making a greater profit … by reason of the usury"**, which makes the usury one's own aim. The clauses are joined by **"or"**, so **either alone** suffices. The contrasting case, a usurer with other means and a deposit "that it may be in safer keeping", is using a sinner for a good purpose, a.4's principle.
+
 **Must hit, strict (b):** **Gemma: no sin.** Lapo has other means, and her end is safe keeping, the case the reply expressly allows. **Piero: participator.** He deposits for a share of the usury, the second clause, whatever Lapo's other means. **Bice: participator.** Her purpose is innocent, but Nuccio lacks other means, so her 300 florins are the matter of his sin, the first clause.
+
 **Must hit, strict (c):** Q.78 is a **theologian's article, not a magisterial act**. The Church commends Thomas as a teacher without defining his theses, so the reply carries his weight as a theologian and no more. His categories are **using another's sin** and **participating in his guilt**. Formal and material cooperation is **the later tradition's vocabulary**, applied to him by his readers ([`moral-theology` 4.2](../../moral-theology/lessons/04-02-double-effect-and-cooperation-as-catholic-method.md)).
+
 **Wrong turns:** clearing Bice because her intention is good. The first clause does not depend on intention. Condemning Gemma because Lapo is a notorious usurer: notoriety is not the test; his other means are. Reading the two clauses as jointly required. Calling the reply defined teaching, or putting "material cooperation" in Aquinas's mouth.
+
 **Model answer:** (a) A depositor shares the usurer's guilt if the usurer has no other means of lending, or if the depositor aims at a profit from the usury; either suffices, because the clauses are joined by "or". (b) Gemma does not sin, since Lapo has other means and she seeks only safety. Piero shares Lapo's guilt by intending a profit from his usury. Bice shares Nuccio's, because her money is the only matter he has to sin with, whatever her purpose. (c) The reply is a theologian's article, carrying Thomas's authority as a teacher, not a magisterial act. "Formal and material cooperation" is the later tradition's language; Aquinas speaks of using another's sin and of participating in his guilt.
 
 </details>

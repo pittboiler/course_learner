@@ -108,9 +108,13 @@ Bellarmine's certificate of 26 May:
 **P1** *(Exegetical (a) · Formal (b)–(c).)*
 
 **Must hit, strict (a):** Letter to Castelli (1613) → Index decree (1616, 5 March) → Bellarmine's certificate (1616, 26 May) → *Dialogue* (1632) → general permission (1822) → Index omitting Copernicus and the *Dialogue* (1835). Decree before certificate: the certificate reports the Index's declaration, so it must follow it.
+
 **Must hit, strict (b):** computed in Python: $1835 - 1616 = 219$ years; $1758 - 1616 = 142$ years; $1835 - 1822 = 13$ years.
+
 **Must hit, strict (c):** permission granted by decree (1820 for Settele, 1822 generally) took effect before the printed list caught up. The Index was a periodically reissued catalogue, and books could be licit before they came off it.
+
 **Wrong turns:** giving 1820 as the general permission (1820 was Settele's case, 1822 the general decree); treating 1758 as the date Copernicus came off the list (1758 dropped the *general* ban, and the named books stayed until 1835); placing the certificate before the decree.
+
 **Model answer:** (a) Castelli 1613; Index decree 1616; certificate 1616; *Dialogue* 1632; permission 1822; 1835 Index. (b) 219, 142 and 13 years. (c) The Holy Office had already made such books licit in 1822; the printed Index recorded the change only in its next edition.
 
 ---
@@ -118,9 +122,13 @@ Bellarmine's certificate of 26 May:
 **P2** *(Exegetical (a)–(b) · Evaluative (c).)*
 
 **Must hit, strict (a):** the minute adds "teach" and "in any way whatsoever" (with "verbally or in writing") to "hold" and "defend". Under the certificate's terms a hypothetical discussion was arguably allowed, and Galileo had understood Urban to permit one in 1624. Under the minute's terms any treatment was forbidden, and he had not disclosed it to the licensers. The 1633 sentence itself names the two missing phrases.
+
 **Must hit, strict (b):** form: it is signed by no one, neither Galileo, nor the notary, nor the witnesses. Procedure: Paul V's order made the Commissary's injunction conditional on Galileo's refusing Bellarmine's warning, but the minute has it follow "immediately thereafter" and records no refusal.
+
 **Must hit, any verdict (c):** separate **authenticity** (the paper dates from 1616) from **accuracy** (did the Commissary actually say this, with Galileo present?) and **legitimacy** (was an injunction issued without a refusal valid under the pope's conditional order?). Name evidence bearing on at least one of the last two: the named witnesses and Galileo's 1633 testimony that the words "struck me as quite novel", which is not a flat denial; Bellarmine's certificate, which is silent; the conditional order of 25 February. Then give a verdict.
+
 **Wrong turns:** asserting that the minute was forged in 1632 (Gebler himself retracted this in 1877); treating the certificate as proof that no injunction was given (it was written to rebut the abjuration rumour, not to list every order); grading (c) on the verdict.
+
 **Model answer (c), one of several:** No. Authenticity shows that someone in 1616 wrote that the injunction was given. It does not show that the Commissary spoke those words, or that he could lawfully do so. The minute names witnesses, and Galileo in 1633 said only that he did not remember the phrases, which slightly favours accuracy. But Paul V had authorized the injunction only if Galileo refused, and nothing records a refusal. So even an accurate minute records an order issued outside its terms. Bellarmine's certificate, which Galileo held in the cardinal's own hand, stated the milder obligation. I think the injunction was probably spoken but not validly binding, and the court treated the question of fact as if it settled the question of law.
 
 ---
@@ -128,9 +136,13 @@ Bellarmine's certificate of 26 May:
 **P3** *(Exegetical.)*
 
 **Must hit, strict (a):** any two of: there was no summons, accusation or trial in 1616 (he was called to Bellarmine's residence and warned); no recantation (Bellarmine's certificate says he abjured nothing and received no penance); the published decree called the doctrine false and contrary to Scripture, not heresy (only the unpublished consultors' opinion said "formally heretical"). He has read the 1633 abjuration, and the injunction as the 1633 sentence narrated it, back into 1616. Credit for noting that "utterly contrary to the Scriptures" is close to the Index decree's own wording, so that detail is accurate.
+
 **Must hit, strict (b):** the motion was not proved in 1633. The Tychonic system fitted the telescopic evidence, Galileo's tidal proof was wrong, and direct evidence came with aberration (1729) and parallax (1838). Galileo believed it; his judges held the opposite.
+
 **Must hit, strict (c):** "vehemently suspected of heresy", the middle of three grades, requiring abjuration *de vehementi*, not a conviction for formal heresy. The threat in the rigorous examination was of torture, not death.
+
 **Wrong turns:** claiming he was never threatened at all (he was, formally, on 21 June); saying the Church never called the doctrine heretical (the consultors did, in 1616); treating Draper's whole passage as invented (the abjuration on his knees happened).
+
 **Model answer:** (a) In 1616 Galileo was warned at Bellarmine's residence, not tried, and Bellarmine certified that he abjured nothing; the published decree also called the doctrine false, not heretical. Draper has folded the 1633 abjuration back into 1616. (b) Nobody knew it in 1633: Tycho's system fitted the evidence and Galileo's tidal proof failed, and aberration (1729) and parallax (1838) came later. Galileo was convinced, not his judges. (c) The verdict was vehement suspicion of heresy, the middle grade, which required abjuration *de vehementi*; he was not convicted of heresy. And the threat was of torture, never carried out, not of death.
 
 </details>
@@ -143,8 +155,11 @@ Bellarmine's certificate of 26 May:
 <summary>Solution</summary>
 
 **Must hit, strict (a):** Montesinos's sermon (1511), then the Laws of Burgos (1512). *Sublimis Deus* (1537), then the annulment of *Pastorale officium* (1538). The New Laws (1542), then the revocation of the inheritance clause (1545), amid the encomenderos' resistance and the Peruvian rising under Gonzalo Pizarro.
+
 **Must hit, strict (b):** (1) The patronato: Rome had granted the Castilian crown the tithes of the Indies (1501) and the nomination of every bishop and benefice (1508), and the crown claimed that papal letters for the Indies needed its approval. So Charles V could protest that the 1537 brief infringed his patronage, and Paul III annulled it. (2) The title: Castile's claim rested on *Inter caetera* (1493), a papal grant tied to the duty of converting the peoples. A friar who showed that conquest and forced labour blocked conversion and were mortal sins was attacking the crown's title, which is why the king's conscience and the confessional were the critics' levers.
+
 **Wrong turns:** pairing Montesinos with the New Laws, or *Sublimis Deus* with the New Laws; dating Burgos to 1542; saying *Sublimis Deus* itself was annulled (the annulled document was the companion brief, and whether the bull fell with it is disputed); describing the struggle as mainly Rome against Madrid.
+
 **Model answer:** (a) Montesinos 1511 and Burgos 1512; *Sublimis Deus* 1537 and the annulment of *Pastorale officium* 1538; the New Laws 1542 and the revoked inheritance clause 1545. (b) Under the patronato the crown held the Indies' tithes and appointments and claimed to screen papal letters, so the real decisions were made in the king's councils, and Charles V could make Paul III withdraw the enforcing brief within a year. Castile's title was a papal grant for the sake of conversion, so the friars' charge that conquest and forced labour obstructed conversion and were mortal sins struck at the title itself.
 
 </details>

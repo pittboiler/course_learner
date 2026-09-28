@@ -145,8 +145,11 @@ Name three errors. For each, give the text that corrects it and, where a level i
 <summary>Solution</summary>
 
 **Must hit, strict (a):** Doubt 1 is a doubt about whether a known law has **ceased**. For the equiprobabilist the law **keeps possession** unless liberty is *more* probable, so with the opinions evenly split he **must fast**. Doubt 2 is a doubt about whether a law **exists**. There an equally probable opinion for liberty suffices, so he **may skip the vigil**. The probabilist **may follow liberty in both**, since an evenly balanced opinion resting on serious reasons is solidly probable, and a doubtful law does not bind.
+
 **Must hit, strict (b):** the choice among probabiliorism, equiprobabilism and probabilism is **freely disputed**. The official sanction of Alphonsus's moral works (1803, 1831), his canonization (1839) and his doctorate (1871) mark his system as **safe to follow**, not as the Church's system.
+
 **Wrong turns:** giving the equiprobabilist the same answer in both doubts, which erases the existence/cessation distinction that defines the position. Saying the probabilist must fast in doubt 1 because the law was once certain; only the equiprobabilist's possession rule says that. Overcorrecting in (b) with "equiprobabilism is suspect", when the condemned systems are laxism and absolute tutiorism.
+
 **Model answer:** (a) As an equiprobabilist, Rafael must fast, because a known law keeps possession until liberty is more probable, but he may skip the vigil, because an equally probable opinion is enough against a law whose existence is in doubt. As a probabilist he may follow liberty in both, since each opinion for liberty is solidly probable. (b) No system is the Church's own; the choice among the moderate systems is freely disputed. Alphonsus's canonization and doctorate, with the earlier approval of his works, mark his system as safe to follow, not as defined or official.
 
 </details>

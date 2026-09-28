@@ -153,6 +153,7 @@ He adds a second reason: atheists, undermining all religion, can claim no religi
 <summary>Solution</summary>
 
 **Must hit, strict (a):** reading (ii). "Not therefore the Victory … but his own Covenant" sets the two grounds against each other and assigns the right to the covenant, and *his own* makes it the vanquished person's act. Hobbes goes on to say the vanquished is obliged not because he is beaten but because he comes in and submits. The swordpoint does not void the promise because covenants entered from fear are valid (ch. 20, and ch. 14): the commonwealth by institution is also made from fear, only fear of one another rather than of the victor. That is why acquisition and institution give the same rights: both rest on authorization.
+
 **Must hit, strict (b):**
 - **(1)** No obligation. A captive kept in prison or bonds has made no covenant, and Hobbes says such men may break their bonds, and even kill or carry off their master, justly.
 - **(2)** Obliged. Granted bodily liberty on a promise, express or by sufficient signs, he is a servant in Hobbes's sense and the author of what the victor does.

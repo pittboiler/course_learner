@@ -155,8 +155,11 @@ Two Fathers read the scene (ANF translation):
 <summary>Solution</summary>
 
 **Must hit, strict (a):** the cord is an **agreed recognition sign under oath**: it marks Rahab's house, so that everyone gathered inside is spared when the city is taken, while anyone who goes out bears his own blood (2:19). Nothing in Joshua's literal sense is about Christ.
+
 **Must hit, strict (b):** **Clement** reads a real saving sign in a real deliverance as prefiguring a real redemption: **typology**, **allegorical** sense (Christ's blood saving believers). The literal sense **does supply the thing**: a sign that saves all who stay under the marked roof, which parallels the Passover blood on the doorposts (Exodus 12). Credit a note that the link from the cord's colour to blood has an allegorical edge. **Irenaeus** reads a *number* as a code for a truth of faith: **allegory** in the narrow sense, aiming at the **allegorical** sense (the Trinity). But the literal sense **does not supply the thing**, because Joshua 2:1 says **two** men. A reading with no literal foundation is not a spiritual sense of the text; it is at best accommodation, and it carries one Father's weight.
+
 **Wrong turns:** putting Christ's blood into the literal sense of Joshua 2. Treating Irenaeus's reading as authoritative because a Father made it, or as doctrinally suspect because it is unfounded: the doctrine is sound, and the *reading* is what fails. (The ANF translators put the "three" down to a slip of memory.) Calling Clement's reading allegory just because it involves a detail.
+
 **Model answer:** (a) The scarlet cord is the sign the spies swear by: the house it marks, and everyone gathered inside it, will be spared when Jericho falls. (b) Clement's reading is typology in the allegorical sense: a real sign that saved those under one roof prefigures Christ's blood saving believers, and the literal sense supplies that sign, as the Passover blood did. Irenaeus's reading is allegory aiming at the Trinity, but Joshua sends two spies, not three, so the literal sense supplies nothing for it to rest on, and it is at best accommodation.
 
 </details>

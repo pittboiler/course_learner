@@ -100,9 +100,13 @@ Most Catholic exegetes now combine two: the book is read first as addressed to f
 **P1** *(Formal (a) · Formal (b) · Exegetical (c))*
 
 **Must hit, strict (a):** chi-iota-stigma: $600 + 10 + 6 = 616$, against chi-xi-stigma $600 + 60 + 6 = 666$. The difference is $60 - 10 = 50$, Irenaeus's "deducting the amount of fifty".
+
 **Must hit, strict (b):** *Iēsous* $= 10 + 8 + 200 + 70 + 400 + 200 = 888$. *Lateinos* $= 30 + 1 + 300 + 5 + 10 + 50 + 70 + 200 = 666$.
+
 **Must hit, strict (c):** Hebrew *nrw qsr*, the Latin form *Nero* without the final nun: $50 + 200 + 6 + 100 + 60 + 200 = 616$, beside *nrwn qsr* $= 666$. The point is that one identification explains **both** readings. No rival candidate does, and that raises the Nero solution's probability above a single sum that many names could match.
+
 **Wrong turns:** using eta $= 8$ for the epsilon in *Lateinos* (it is epsilon, $5$). Saying Irenaeus denied that the 616 reading existed, when he reports it. Treating the match as proof, when Irenaeus himself shows that a sum fits many names.
+
 **Model answer (c):** Spelled as the Latin *Nero*, Nero Caesar in Hebrew letters gives $50+200+6+100+60+200 = 616$, and spelled as the Greek *Nerōn* it gives 666. A hypothesis that predicts both readings in the manuscripts explains more than one that fits only 666, which is why the variant counts in the Nero solution's favour.
 
 **P2** *(Exegetical)*
@@ -114,13 +118,17 @@ Most Catholic exegetes now combine two: the book is read first as addressed to f
 4. **Idealist** (the Augustinian reading). The meaning of the thousand years is not defined, so rung 5. The reading agrees with CCC 676's exclusion of an earthly reign. Credit calling it the common Catholic reading since Augustine, provided it is not called defined.
 
 **Wrong turns:** calling (2) heresy, which overstates the level. Calling (4) "the Church's defined interpretation", which also overstates it. Classing (3) as historicist because it names emperors: historicism runs a chain of eras down to the end, while (3) stops at the author's own day.
+
 **Model answer:** (1) Historicist, freely disputed. (2) Futurist and premillennial, rejected as mitigated millenarianism by the ordinary magisterium (CCC 676; Holy Office 1944), not defined. (3) Preterist, freely disputed, so long as the return of Christ is kept. (4) Idealist in Augustine's line, freely disputed, and consistent with CCC 676.
 
 **P3** *(Exegetical (a) · Evaluative (b))*
 
 **Must hit, strict (a):** outside: "where the seat of Satan is" and "where Satan dwelleth", with the martyr Antipas "slain among you". Commentators propose several referents for the "seat" (literally *thronos*, "throne"), such as the imperial cult or the great altar of Zeus, but the text itself names none. Inside: "the doctrine of Balaam", eating (idol food, by comparison with 2:20) and "fornication", and "the Nicolaites". Repentance ("do penance") is demanded for the **inside** problem. The church is praised for its conduct under outside pressure ("hast not denied my faith").
+
 **Must hit, any verdict (b):** note that the letter names **one** martyr, in the past ("in those days"), and at one place. It gives no picture of empire-wide persecution in either reign, and it gives no emperor. Say what that does to arguments for either date that rest on persecution. Any verdict passes, including "neither", if the evidence is placed.
+
 **Wrong turns:** reading Antipas as proof of a general Domitianic persecution. Treating "seat of Satan" as a fixed identification. Missing that the rebuke is about accommodation, not courage.
+
 **Model answer (b), one of several:** Neither, strictly. Antipas is a single martyr from an earlier moment, "in those days", and the present danger is members eating idol food. That fits the local, sporadic hostility of [`church-history` 1.3](../../church-history/lessons/01-03-persecution-and-martyrdom.md), which could hold under Nero in Asia or under Domitian. What it does undercut is any argument for the 90s that needs a great Domitianic persecution. The case for that date must rest on Irenaeus and "Babylon", not on this letter.
 
 </details>
@@ -139,8 +147,11 @@ Hebrews opens with *pistei*, "by faith"; James asks *ouk ex ergōn edikaiōthē*
 <summary>Solution</summary>
 
 **Must hit, strict (a):** **yes.** For James, faith and works are not rival causes. Faith "cooperates" with works and is completed by them (2:22), and 2:26 makes them body and spirit of one living thing. So Hebrews can name the act's root (**faith**) and James the faith's **deed**, and the act is the same. Credit the extra point that *dikaioō* in James can mean shown or judged righteous ([6.3](06-03-james-faith-and-works.md)), not the initial verdict Paul means.
+
 **Must hit, strict (b):** her confession has the same content as the demons' creed, but she **acts on it at risk to herself**: she shelters the messengers and sends them away safely. The demons only "believe and tremble". Her work is **hospitality and protection**, done by a Gentile outside the covenant, with no circumcision, food laws or Torah observance in view. That is why it is not *erga nomou*, the works of the law that Paul excludes.
+
 **Wrong turns:** declaring that Hebrews and James contradict each other because one says "faith" and the other "works". That is the same verbal error 6.3 took apart for Romans and James. Reading Rahab as a second Abraham chosen for piety, when James's pairing gives a patriarch and a Canaanite prostitute, which makes the point that the "work" is obedient mercy, not ritual law. Claiming the Church has defined how the two verses fit: it has defined the canonicity of both books, not the exegesis.
+
 **Model answer:** (a) Yes: for James faith works together with works and is dead without them, so Hebrews names the faith behind Rahab's act and James the deed that made that faith alive, and "justified" in James can mean shown to be righteous. (b) Rahab confessed the same one God the demons believe in, but she staked her life on it by hiding and freeing the messengers, which is exactly the living faith James asks for. Her work was mercy and hospitality done by a Canaanite outside the Law, not circumcision or Torah observance, so Paul's "works of the law" cannot name it. 1 Clement 12 (ANF) says she was saved "on account of her faith and hospitality".
 
 </details>

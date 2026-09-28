@@ -109,8 +109,11 @@ Identify four factual or interpretive errors, and for each give the correction f
 **P1** *(Exegetical.)*
 
 **Must hit, strict (a):** Article 17, which excludes "all such as do not belong to the two above named religions." The deciding words are "as it was submitted to ... Emperor Charles Vth twenty-fifth of June 1530." Pinning the Augsburg Confession to the 1530 text denies the peace to the Reformed, who claimed its protection. So the Calvinist territories, above all the Palatinate, Reformed since the 1560s, are most exposed. The first sentence's Passau date (1552) adds the church lands taken since then.
+
 **Must hit, strict (b):** Westphalia admitted the Reformed to the religious peace, which answers the second sentence. It fixed church property and worship as of 1 January 1624 (the normative year) instead of 1552, which answers the first.
+
 **Wrong turns:** citing article 24 (emigration), which the edict does not touch; saying the edict aimed at Lutherans generally (it protects the 1530 confession); giving 1648's date of 1555 or 1552 as the normative year.
+
 **Model answer:** (a) It relies on article 17's exclusion of everyone outside "the two above named religions," and the words "as it was submitted ... twenty-fifth of June 1530" make Calvinist territories like the Palatinate the ones shut out. The Passau date then reaches back for every church land secularized since 1552. (b) Westphalia brought the Reformed into the peace, reversing the exclusion. It replaced 1552 with the normative year of 1 January 1624, which left most of the lands the edict claimed in Protestant hands.
 
 ---
@@ -118,7 +121,9 @@ Identify four factual or interpretive errors, and for each give the correction f
 **P2** *(Exegetical.)*
 
 **Must hit, strict:** any four of: (1) the formula is not in the treaty; Stephani coined it around 1600. (2) The peace gave *estates* the choice, not individuals; subjects got only the right to emigrate (art. 24). (3) Calvinists were also outside it (art. 17 as read by Catholics and Lutherans), not only Anabaptists. (4) Münster was an apocalyptic exception; the Schleitheim Anabaptists refused the sword. (5) The war began with a Bohemian Protestant revolt (1618), not an unprovoked Catholic attack, and the Calvinist gap in the 1555 peace helped cause it.
+
 **Wrong turns:** calling Münster invented (it happened, 1534–35); saying Augsburg protected Calvinists; counting one error twice.
+
 **Model answer:** First, *cuius regio* is a later jurist's summary, not the treaty's words. Second, the peace protected princes and cities, and gave subjects only the right to sell up and leave. Third, Calvinists were also shut out by article 17, and that gap mattered more than the Anabaptists. Fourth, Münster was an apocalyptic exception; mainstream Anabaptists, as at Schleitheim, renounced the sword. (Also: the war began with a Bohemian revolt in 1618, not an emperor's unprovoked attack.)
 
 ---
@@ -126,8 +131,11 @@ Identify four factual or interpretive errors, and for each give the correction f
 **P3** *(Exegetical (a) · Evaluative (b).)*
 
 **Must hit, strict (a):** that confessional identity was formed mainly from *above*, by rulers and their churches imposing doctrine and discipline. Critics hold that it was also, or chiefly, formed from below and could persist against the ruler.
+
 **Must hit, any verdict (b):** state what "drawn by princes" means (the ruler's choice decided the territory's church). Test it on a case that fits (Germany under 1555, the Palatinate switching with its rulers in 1563, 1576 and 1583) and one that strains (France: a Catholic crown that could not impose, an heir who converted to fit the majority; or Reformed churches spreading by synods and pastors against rulers). Say whether the strain is a counterexample or a delay (1685).
+
 **Wrong turns:** treating "preachers" as irrelevant because princes signed treaties; ignoring that Geneva-trained pastors built churches under hostile kings; grading the verdict.
+
 **Model answer (b), one of several:** In Germany the claim is nearly right. After 1555 the prince chose, and the Palatinate's subjects changed confession three times in twenty years as its rulers did. But the Reformed map outside Germany was drawn by preachers first. Geneva-trained pastors built churches in France under a Catholic crown, strong enough that the crown fought eight wars and conceded Nantes. There the ruler followed the religion: Henry converted to fit the majority. The best verdict is that princes drew the borders wherever they had the force to, and preachers drew them wherever princes did not. 1685 shows that a stronger crown could redraw them later.
 
 </details>
@@ -140,8 +148,11 @@ Identify four factual or interpretive errors, and for each give the correction f
 <summary>Solution</summary>
 
 **Must hit, strict (a):** A explains the **spread** of the protest: the theses in print at Leipzig, Nuremberg and Basel by the turn of the year, and the German *Sermon on Indulgence and Grace*, reprinted about fourteen times in 1518. B explains Luther's **survival**. Hus also had a safe conduct and was burned, whereas Luther had a prince who would not hand him over (Frederick hid him in the Wartburg) and an emperor who could not afford to alienate the princes. The lesson's point is that the protest ran on theology, money and print, and the survival ran on politics, so the two voices partly answer different questions.
+
 **Must hit, strict (b):** the clash is over whether Luther's political protection **depended on** his public following, or would have held without it. A needs it to depend on print (Hus "would have" been Luther's fate because Hus lacked the presses). B needs protection to be independent of print. Relevant evidence, any one: Frederick had barred the indulgence campaign from Saxony before Luther wrote, which suggests interests of his own; the German grievances against Rome and Charles V's weakness existed apart from the pamphlets; or the speed and scale of the 1518 reprints, which made Luther a public cause before Worms.
+
 **Wrong turns:** treating the two voices as simply contradictory; saying Hus lacked a safe conduct; making the posting of the theses the clash (neither voice depends on it).
+
 **Model answer:** (a) A explains why the protest spread: the theses were in print by the end of 1517, and the German *Sermon* ran to about fourteen reprints in 1518. B explains why Luther survived to lead it: Hus had a safe conduct and burned, while Luther had Frederick's protection and an emperor who needed the princes. (b) They clash only on whether that protection depended on Luther's printed following. Frederick had barred the indulgence from Saxony before the theses existed, which suggests reasons of his own, while the reprints of 1518 show Luther was already a public cause by the time he needed protecting.
 
 </details>

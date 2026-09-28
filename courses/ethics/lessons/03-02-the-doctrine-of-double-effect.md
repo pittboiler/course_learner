@@ -95,8 +95,11 @@ The problem is general. With a fine enough description, nearly any harm drops ou
 **P1** *(Exegetical, strict.)*
 
 **Must hit, strict (a):** the illustration ties disproportion to the *means*. The violence exceeds what the end, saving one's life, requires. A uses more force than necessary, so on the passage's own example A's defence is unlawful even though the intention (self-preservation) is good.
+
 **Must hit, strict (b):** no. B uses only necessary force, so the illustration's test (necessity/moderation) is met, and the passage does not state a separate weighing of harms. A reader may argue "out of proportion to the end" *could* also carry a weighing reading, but the example given does not settle it. Credit for keeping "what the text says" apart from "what it could be read as allowing."
+
 **Wrong turns:** reading modern condition 4 straight into the passage; saying the passage condemns B because a death results (that would also condemn every lethal defence the article permits).
+
 **Model answer:** (a) Force beyond what saving one's life requires; A exceeds it, so A's defence is unlawful. (b) No. B's force is the minimum necessary, which meets the illustrated test; whether proportion also weighs outcomes is not settled by the example.
 
 ---
@@ -104,8 +107,11 @@ The problem is general. With a fine enough description, nearly any harm drops ou
 **P2** *(Exegetical (a) · Evaluative (b).)*
 
 **Must hit, strict (a):** (1) sealing a hatch is not wrong in itself. (2) The engineer intends to put out the fire; if the two crew somehow survived, the plan succeeds fully. (3) The fire goes out through lack of oxygen, not through the deaths, so the harm is not a means. (4) About 40 lives against 2, with no alternative stipulated, so proportionate. Verdict: permissible under double effect.
+
 **Must hit, any verdict (b):** exactly one factor changed, named; the condition that flips or goes indeterminate identified; a check that nothing else moved.
+
 **Wrong turns:** saying the deaths are a means "because sealing the hatch kills them" (causing is not using); varying two things at once, e.g. fewer passengers *and* a rescue option.
+
 **Model answer (b), one of several:** Change only the numbers aboard: besides the two trapped crew, the ferry carries just two people. Conditions 1 to 3 are untouched, since sealing is still innocent, the deaths are still foreseen, and the fire still goes out through lack of oxygen. Condition 4 now weighs two lives against two, and the doctrine supplies no metric for a tie: it does not say whether equal numbers are "proportionate." So the verdict becomes indeterminate, and condition 4 does all the work. The line (conditions 2 and 3) can make a harm *eligible*; only the scale decides, and the scale is left to judgment.
 
 ---
@@ -119,6 +125,7 @@ The problem is general. With a fine enough description, nearly any harm drops ou
 - One case the criterion now mishandles, with the reason.
 
 **Wrong turns:** a case where the harm plainly *is* the means (that is not a closeness case); a criterion so vague ("too close") it decides nothing; asserting the doctrine is refuted without the cost check.
+
 **Model answer (one of several):** A guard needs a sleeping sentry *unable to raise the alarm* and so decapitates him. Strictly, he needs only incapacity, and a living but silent sentry would serve, so the counterfactual test calls the death foreseen. Most would reject "permitted as a side effect." Criterion: an effect is intended if, in the circumstances as the agent knows them, the chosen means cannot produce the intended effect without it. That blocks the guard. Cost: it also seems to make the strategic bomber's civilian deaths intended, since in that town the bombs cannot destroy the factory without killing them, and that erases the distinction the doctrine exists to draw.
 
 </details>

@@ -97,8 +97,11 @@ But the text gives no period, and some commentators take the word as the loan ch
 **P1** *(Exegetical (a) · Exegetical (b))*
 
 **Must hit, strict (a):** Exodus 22:26–27 (return the pledged garment "before sunset," because it is all he has to sleep in) and/or Deuteronomy 24:12–13, 17. The breach is in "sat down upon" and "laid … by every altar": the cloaks are kept and used at the shrine, not returned. Taking a pledge was itself lawful (Deut 24:10–11).
+
 **Must hit, strict (b):** the fines and pledges, the takings of oppression, are consumed in worship, so the cult is being fed by breach of the covenant it celebrates. The wrong becomes a sin against God in His own house, not only a wrong to a neighbor (compare Amos 5:21–24).
+
 **Wrong turns:** reading the verse as condemning all pledge-taking; finding interest here (no interest word appears in 2:6–8); treating (b) as a charge of idolatry. The altars are Israel's own.
+
 **Model answer:** (a) Exodus 22:26–27 (with Deuteronomy 24:12–13) orders a pledged cloak returned before sunset; "sat down upon garments laid to pledge by every altar" shows the cloaks kept overnight and used, which is the breach, since taking the pledge was lawful. (b) The fines and pledges are consumed as offerings and feast-wine at the sanctuary, so worship itself is financed by the injustice. That makes the offense a profanation of God's house, not only a wrong to the poor man.
 
 ---
@@ -106,8 +109,11 @@ But the text gives no period, and some commentators take the word as the loan ch
 **P2** *(Exegetical (a) · Exegetical (b))*
 
 **Must hit, strict (a):** the list describes a *person* (just or wicked) and ends in a verdict of life or death, and usury sits beside idolatry, adultery, violence and the unreturned pledge, so it is a mark of character, not a single breach. The feature: the verdict form ("he shall surely live" / "he shall not live") or the company usury keeps. Absent: the *brother* qualifier and the foreigner exception of Deut 23:19–20. Ezekiel states it without restriction, which is exactly how Aquinas reads it (ST II-II q.78 a.1 ad 2, "without any distinction"; a.2 *sed contra* cites 18:17 among "conditions requisite in a just man").
+
 **Must hit, strict (b):** (1) *Category error:* a biblical text is not a Church definition. Its inspiration is rung 1, but its application is a reading, and conciliar teaching on usury came later (Module 4). (2) *Scope by fiat:* the text names *neshek* and *tarbit*; "any charge on any loan" settles what usury denotes, which is exactly what the course leaves argued (Vienne's scope; [5.4](05-04-did-the-usury-doctrine-change.md)). Also acceptable: "mortal sin" is a later theological category imposed on "he shall not live."
+
 **Wrong turns:** answering (a) with "individual responsibility" alone. That is the chapter's frame ([`old-testament` 4.4](../../old-testament/lessons/04-04-jeremiah-and-ezekiel.md)), not what the list does to usury. Calling the guide's claim false because usury is permitted. The error is in the level and the scope, not the condemnation.
+
 **Model answer:** (a) The list portrays a just or a wicked man and closes with "he shall surely live" or "he shall not live," so usury, set beside idolatry and robbery, marks the person as wicked rather than breaching a single rule. Unlike Deuteronomy 23:19–20 it has no "to thy brother" and no foreigner exception. (b) It calls an inspired text the Church's *definition*, when a definition is a magisterial act and later conciliar teaching is where the level has to be read. It also turns *neshek* and *tarbit* into "any charge on any loan," settling by fiat a scope the tradition still argues. (For comparison, the Talmud reads 18:13 as putting the interest-taker beside the shedder of blood, liable before Heaven rather than in court; Bava Metzia 61b, paraphrased.)
 
 ---
@@ -115,8 +121,11 @@ But the text gives no period, and some commentators take the word as the loan ch
 **P3** *(Exegetical (a) · Exegetical (b))*
 
 **Must hit, strict (a):** it assumes that a creditor may lawfully take a dead debtor's children into service to work off the debt; the widow protests her plight, not his right. Supporting texts (any two): Exodus 21:2–7 (Hebrew servants; a daughter sold); Leviticus 25:39–41 (a brother who sells himself serves till the Jubilee, "with his children"); Deuteronomy 15:12; Isaiah 50:1 ("who is my creditor, to whom I sold you"); Nehemiah 5:5.
+
 **Must hit, strict (b):** lawful: service as "a hireling," with release at the set time; unjust: treating them with "the service of bondservants" or "afflict[ing] him by might" (25:39, 43). The remedy is **payment** ("pay thy creditor"), not cancellation, so the story treats the claim as valid and puts the mercy in supplying the means, with provision left over ("live of the rest").
+
 **Wrong turns:** reading the creditor as the villain of Amos 2:6; calling the miracle a release or a forgiveness of the debt; inferring approval from silence.
+
 **Model answer (b):** Leviticus 25 lets a creditor hold a debtor's family as hired workers until release, but forbids working them as bondmen or ruling them "by might." So he could take the boys lawfully and still sin in how he held them, and the story does not tell us which. What it does show is its view of the claim: Elisha has the debt paid, not annulled. The creditor's right stands, and God's mercy meets it with enough oil to spare.
 
 </details>

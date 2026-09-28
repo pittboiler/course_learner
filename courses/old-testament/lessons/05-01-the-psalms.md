@@ -105,15 +105,21 @@ Name **four** errors, correct each, and give the right level for each correction
 **P1** *(Exegetical)*
 
 **Must hit, strict (a):** 1 **synonymous** (heavens / firmament, shew forth / declareth, glory of God / work of his hands). 2 **antithetic** (the way of the just is known / the way of the wicked perishes). 3 **synonymous**, with each half an oath about remembering Jerusalem. "Synthetic" is acceptable if the answer argues that the second half extends the first from memory to joy. Kugel for any one: the second line is not a repeat. It specifies or heightens. In 1, "the work of his hands" makes the vague "glory" concrete. In 3, the oath moves from not forgetting to putting Jerusalem above every joy.
+
 **Must hit, strict (b):** Douay 18 = **Hebrew 19**; Douay 1 = **1**; Douay 136 = **137**; Douay 147 = **Hebrew 147:12–20**, the second half of Hebrew 147.
+
 **Wrong turns:** answering "148" for Douay 147 by adding one out of habit. Calling 2 "synthetic" because its halves differ, when opposition is exactly what antithetic means.
+
 **Model answer:** (a) 1 synonymous, 2 antithetic, 3 synonymous. By Kugel, 1's second line makes "glory" concrete as handiwork. (b) 19; 1; 137; 147:12–20.
 
 **P2** *(Exegetical)*
 
 **Must hit, strict (a):** an **individual lament**. Credit also "lament with a refrain" (the "Why art thou sad" refrain recurs in Hebrew 42:11 and 43:5, and many read 42–43 as one psalm). Two parts named with their words: **complaint** ("My tears have been my bread day and night", the mockers' "Where is thy God?"); **longing or petition** ("when shall I come and appear before the face of God?"); **trust and vow of praise** ("Hope in God, for I will still give praise to him").
+
 **Must hit, strict (b):** Hebrew **41:13** = Douay **40:14**, "Blessed be the Lord the God of Israel from eternity to eternity. So be it. So be it."
+
 **Wrong turns:** calling it a hymn because it is addressed to God. Hymns praise from the start and give reasons, and this psalm complains first. Giving the Book I doxology as 41:14 in the Hebrew/English system, which mixes the systems.
+
 **Model answer:** (a) An individual lament: the complaint is "my tears have been my bread ... Where is thy God?", and the turn to trust is "Hope in God, for I will still give praise to him." (b) Psalm 41:13 [Douay 40:14].
 
 **P3** *(Exegetical)*
@@ -124,7 +130,9 @@ Name **four** errors, correct each, and give the right level for each correction
 - **"Purely a prediction."** The literal sense is a royal oracle to a Davidic king. The New Testament's christological reading is Scripture's own teaching, and **how** it applies (the psalmist's own prediction, a fuller sense, or typology) is **freely disputed**.
 - **"Jewish interpreters ignore it."** Rashi, following the rabbis and the Midrash on Psalms, reads it of Abraham. This is a reading of the psalm, not a silence (stated for fidelity, no level).
 - **"No longer inspired."** The 1971 omission (GILH §131) is **liturgical law** about public prayer. Psalm 137 is canonical and inspired (**defined**, Trent Session IV).
+
 **Wrong turns:** "correcting" the first error by saying the Church teaches David wrote none. Treating the 1910 response as irrelevant, or as still binding in every clause.
+
 **Model answer:** The 1910 Commission denied that David wrote every psalm and called him the principal author. Its authorship clauses once bound, and are now freely disputed among Catholics. No dogma names the psalmists. Psalm 110 is literally a royal oracle. That the New Testament reads it of Christ is Scripture's teaching; how it applies is freely disputed. Rashi does not ignore it: with the rabbis he reads it of Abraham. The 1971 omission is liturgical law about the public office. Psalm 137 remains part of the defined canon, and its inspiration is untouched.
 
 </details>
@@ -145,9 +153,13 @@ The name is Hebrew *YHWH tsidqenu*, "the LORD is our righteousness". In 23:6 the
 <summary>Solution</summary>
 
 **Must hit, strict (a):** three of these. 33:14 adds an introduction: God will "perform the good word that I have spoken to the house of Israel, and to the house of Juda". 23:5's "a just branch" becomes "the bud of justice" (33:15). 23:5's "a king shall reign, and shall be wise" is **absent** from 33. 23:6's "Israel shall dwell confidently" becomes "**Jerusalem** shall dwell securely" (33:16). 33:15 adds "and at that time".
+
 **Must hit, strict (b):** in 23:6 the name belongs to **the king**, the Davidic Branch. In 33:16 it belongs to **Jerusalem**, the city. The promise moves from a righteous king to a restored city that carries the LORD's righteousness, so the second passage is less exclusively royal. The verses that follow, on David's throne and the Levites (33:17–18), keep the king in view beside the city.
+
 **Must hit, strict (c):** 33:14 presents itself as **fulfilling a promise already given**. Its near-verbatim reuse of 23:5–6 then reads as a later reworking of Jeremiah's own oracle. That fits the majority view (Janzen, Tov) that 33:14–26 is an expansion in the longer Hebrew edition, absent from the shorter edition behind the Greek and from 4QJer<sup>b</sup> and <sup>d</sup>. Credit: "perform my good word" is also the formula of 29:10 (the return after seventy years), so the phrase may point to the promise of restoration generally.
+
 **Wrong turns:** reading the Douay's "him" in 33:16 as the Hebrew. Calling the doublet a copying slip, when the changes are deliberate. Concluding that 33:14–26 is not Scripture because it may be later: canonicity is defined of the book "with all their parts", and the dating is text criticism with no magisterial level.
+
 **Model answer:** (a) 33:14 adds "I will perform the good word that I have spoken". "A just branch" becomes "the bud of justice". "A king shall reign, and shall be wise" drops out, and "Israel shall dwell confidently" becomes "Jerusalem shall dwell securely". (b) In 23:6 the Davidic king is called "the LORD our righteousness", and in 33:16 Jerusalem is. The promise widens from a righteous king to a righteous city. (c) The passage announces itself as keeping a word already spoken, and it reuses 23:5–6 almost word for word. On the majority view, that marks it as a later expansion of the longer Hebrew edition, reworking Jeremiah's own oracle.
 
 </details>

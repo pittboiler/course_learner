@@ -154,6 +154,7 @@ Name **four** misreportings. For each, give the section of the encyclical that c
 - (c) **Cooperation**, **material, mediate and remote**. Her act, delivery, has its own object, serves every office alike, adds nothing the fraud depends on, and rests on a rumour. Licit **given a proportionate reason**: her livelihood suffices, since she has no duty to prevent the fraud and there is no scandal.
 
 **Wrong turns:** treating (a) as cooperation, when the only agent is the chief. Calling (b) material cooperation "because it's the client's fraud", which is the "I disapprove, so it's material" error. Calling (c) illicit because any link to the fraud taints, which erases the formal/material distinction.
+
 **Model answer:** as above, two sentences each.
 
 </details>

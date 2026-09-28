@@ -117,8 +117,11 @@ Name the historical analogy doing the work, state two features of Madison's 1790
 **P1** *(Exegetical, strict.)*
 
 **Must hit, strict (a):** (1) the debt must be funded: "properly funded"; (2) lenders must trust it: "an object of established confidence." Both are conditions. The claim is about *that* kind of debt, not debt as such.
+
 **Must hit, strict (b):** the text does not support the reading. The benefit is conditional on proper funding and confidence (and the Report says an unfunded debt does the opposite). Hamilton also held that creating debt should always come with the means of paying it off, and he proposed a sinking fund.
+
 **Wrong turns:** listing "well known fact" as a condition; answering (b) with a verdict on whether public debt *is* beneficial, which the problem does not ask.
+
 **Model answer (b):** No. The sentence makes debt money-like only when "properly funded" and trusted, and the Report treats an unfunded debt as a drain on circulating cash. Hamilton also insisted that creating debt should always come with the means of extinguishing it. His claim is about funding an existing debt well, not about borrowing more.
 
 ---
@@ -143,7 +146,9 @@ Name the historical analogy doing the work, state two features of Madison's 1790
 - The analogy: Madison's 1790 discrimination proposal, i.e. treating the buyer of a depreciated public debt differently from its original holder.
 - Feature 1: **the full sum was still paid.** Madison gave the buyer the highest market price and gave the *balance to the original holder*. The public saved nothing. The op-ed keeps the difference for taxpayers. That is a haircut or partial default, not discrimination, so this feature does not carry over.
 - Feature 2 (any one of): **identifiable wronged original holders** (soldiers and suppliers paid in paper), who have no counterpart in the op-ed. **Depreciation caused by the debtor's own default**, which does carry over if Port Halden's default drove the price down. **The highest market price, not the purchase price,** which is more generous to buyers than the op-ed's rule, so it only partly carries over.
+
 **Wrong turns:** arguing whether the funds deserve 100 cents (a verdict the problem excludes); treating Madison's plan as adopted law; calling it Hamilton's plan.
+
 **Model answer:** The op-ed borrows Madison's 1790 proposal to discriminate between original and present holders. It depends first on the idea that a buyer of depreciated paper deserves less than face. But Madison's plan still paid the whole debt: buyers got the highest market price and original holders got the rest. The op-ed gives the difference to the debtor's taxpayers, which is a haircut, not discrimination. That feature does not carry over. Second, Madison had a class of injured original creditors, soldiers paid in paper they had to sell. The op-ed names no original bondholders at all. That also fails, though the idea that the debtor's own default caused the discount may still apply.
 
 </details>

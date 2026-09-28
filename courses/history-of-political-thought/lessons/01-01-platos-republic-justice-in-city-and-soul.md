@@ -106,8 +106,11 @@ What each reading costs. Popper's reading must explain away the passage's own em
 **P1** *(Exegetical, strict.)*
 
 **Must hit, strict (a):** reading (ii). The deciding words are "the best of all, which is to do injustice and not be punished." Justice is ranked below unpunished injustice, so it is only a second-best, chosen by those who cannot reach the best. Someone who can do injustice with impunity has no reason on this account to accept the compromise. (The next sentence makes this explicit, but the quoted words already imply it.) "Without the power of retaliation" shows the bargain is struck from weakness.
+
 **Must hit, strict (b):** for Thrasymachus the rulers (the strong) make laws for their own interest and impose them on subjects. On the received account the many, who both do and suffer injustice, agree among themselves to laws that protect them from the worst.
+
 **Wrong turns:** choosing (i) because "compromise" sounds mutual. The compromise is mutual only among people who are unable to do better. Also: attributing the account to Glaucon's own belief.
+
 **Model answer:** (a) Reading (ii). Unpunished injustice is "the best of all," and justice is merely a middle point below it. The compromise is rational only for someone who lacks the power to reach the best. (b) Thrasymachus has the strong write the law against the weak. The received account has the weak write it together against the strong.
 
 ---
@@ -125,7 +128,9 @@ What each reading costs. Popper's reading must explain away the passage's own em
 - Weakest premise flagged, with a reason. The best candidate is P3, since the strict-sense move invites Socrates' craft analogy. P4's shift from "the rulers' advantage" to "another's good" is also acceptable.
 
 **Must hit, strict (b):** the crux is whether ruling, taken strictly, is a craft whose defining aim is the good of those ruled. Socrates affirms it: a craft as such serves its object, and wage-earning is a separate craft (346a–e). Thrasymachus denies it: the shepherd fattens sheep for the master's table. Say what would move each side. Socrates' defender could be moved by showing that the strict/popular distinction does not carry over from medicine to ruling. Thrasymachus's defender could be moved by showing that his own "strict sense" commits him to judging rulers by the standard of their craft.
+
 **Wrong turns:** naming "whether justice pays" as the crux, which is the conclusion in dispute, not the premise; naming two premises.
+
 **Model answer (b):** The crux is whether ruling in the strict sense aims at the good of the ruled. Socrates says every craft as such serves its object, as medicine serves the body. Thrasymachus's shepherd speech denies that ruling works this way: the shepherd tends sheep for his own or his master's gain. Thrasymachus himself introduced the strict sense, so he is exposed to Socrates' use of it. He would have to drop it, or show that ruling is a craft whose object is the ruler's own interest. A Socratic would be moved by an argument that ruling is unlike medicine: its "patients" can be exploited without the art of ruling itself being done badly.
 
 ---
@@ -139,6 +144,7 @@ What each reading costs. Popper's reading must explain away the passage's own em
 - What it drops: at least one of these. Glaucon does not hold the view and puts it forward to be refuted (358c). Thrasymachus's claim concerns rulers in the strict sense, not every powerful party. The *Republic*'s question is whether justice is good *in itself*, which the op-ed never asks.
 
 **Wrong turns:** naming only Thrasymachus; attributing the impunity argument to Thrasymachus. He praises the tyrant, but the impunity thought experiment is Glaucon's.
+
 **Model answer:** The first claim, that incumbents write regulations to serve themselves, is Thrasymachus: laws made by rulers for their own interest, called justice for the subject. The impunity test is Glaucon's ring of Gyges. So is the conclusion that honesty is only inability to cheat. The op-ed runs the two together, though they disagree about who writes the law: for Thrasymachus the strong, for Glaucon's received account the weak, to protect themselves. It also drops the frame. Glaucon puts the view forward so that Socrates must defeat it, and the demand is to show justice worth having for itself, a question the op-ed never raises.
 
 </details>

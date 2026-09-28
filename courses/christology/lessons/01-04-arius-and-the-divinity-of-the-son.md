@@ -125,7 +125,9 @@ This is where historians divide. Aloys Grillmeier (*Christ in Christian Traditio
 **P2** *(Exegetical.)*
 
 **Must hit, strict (a):** the first sentence denies **premise 2** — there *is* a human soul, with sense and intelligence, in Christ. The last sentence denies **premise 3** — the asking is said "as man," so the ignorance is not the Word's in his own nature — while keeping **premise 1**: "the same it was."
+
 **Must hit, strict (b):** it argues **from salvation to the completeness of what was assumed**: salvation reaches the soul, so the Word must have taken a soul. This is the soteriological argument Gregory of Nazianzus will state as "what is not assumed is not healed" against Apollinaris ([2.1](02-01-apollinaris-a-complete-humanity.md)).
+
 **Must hit, strict (c):** **dividing Christ into two subjects** — one Son who raises, another who asks. That is the error later charged against Nestorius (2.2). Credit "two Sons."
 
 **Wrong turns:** reading (a)'s first sentence as denying premise 3 — it says nothing yet about how predicates are assigned, only what the manhood contains; reading (b) as an argument from scripture; naming modalism or Apollinarianism for (c) — the sentence insists on *one* against *two*.
@@ -135,6 +137,7 @@ This is where historians divide. Aloys Grillmeier (*Christ in Christian Traditio
 **P3** *(Exegetical (a) · Exegetical (b).)*
 
 **Must hit, strict (a):** the homily asserts **premise 3** — the ignorance and fear belong to the Word "in his very godhead," in his own nature. An Arian welcomes it because, with premises 4 and 5, it yields his conclusion: what trembles and does not know is changeable, so the Word is not God as the Father is. "He laid aside his changelessness" concedes the very predicate Nicaea anathematized. Credit for noting the true thing reached for: the Passion was real, and the one who suffered was God — true of the person, as man.
+
 **Must hit, strict (b):** (i) **Defined dogma, rung 1**, by the solemn definition and anathemas of Nicaea (325), received by the Church and reaffirmed at Chalcedon. (ii) **Defined dogma, rung 1**, by Chalcedon's Definition (451), which confesses a rational soul and body; *not* Nicaea's act. (iii) **No rung**: a historical claim about a person, attested by opponents such as Theodoret and debated by historians; no magisterial act touches it.
 
 **Wrong turns:** calling the homily Apollinarian — it denies nothing about Christ's humanity; its fault is the nature it assigns the weakness to. Citing Nicaea for (ii). Putting (iii) at rung 4 as "common teaching" — it is not a doctrinal proposition at all.

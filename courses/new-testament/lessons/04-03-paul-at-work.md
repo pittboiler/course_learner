@@ -152,9 +152,13 @@ Compare Paul's own letters: "we labour, working with our own hands" (1 Cor 4:12)
 <summary>Solution</summary>
 
 **Must hit, strict (a):** the crux is **where the speech's Pauline content came from**: from memory of Paul's words (the narrator's own, or a source's), or from Luke's own composition out of what he knew of Paul. Both agree the wording is Luke's and that ancient speeches kept to the general sense at best, so the dispute is not "transcript or not". Credit the sharper form: whether Luke knew Paul's letters.
+
 **Must hit, strict (b):** B takes the parallel as evidence of **independent access to Paul**. If Luke did not use the letters, the match on self-support is best explained by memory of Paul himself. D takes it as **what the convention predicts**. An author composing a fitting farewell for Paul would give him Paul's known habits, which were also public knowledge in the churches, so the match proves no speech was remembered.
+
 **Must hit, strict (c):** any one. Proof that Luke used Paul's letters would weaken B's inference. Evidence that the self-support theme is a stock feature of ancient farewell speeches would help D. Establishing that the "we" narrator was at Miletus would help B.
+
 **Wrong turns:** reading D as calling the speech fiction or false; the Thucydidean convention adheres to the general sense. Treating B's case as proof of a verbatim record. Settling it by inspiration or inerrancy: Dei Verbum 12 sends the reader to ancient literary forms, and both readings are free.
+
 **Model answer:** They divide on the source of the speech's Pauline content. B says it comes from memory of Paul, at first or second hand; D says Luke composed what the occasion called for from what he knew of Paul. For B, the match with 1 Corinthians and 1 Thessalonians, letters Acts never cites, shows access to Paul independent of them. For D, it is exactly what a well-informed composer produces, since Paul's working for his keep was widely known. Proof that Luke read Paul's letters would undercut B; evidence that the narrator was present at Miletus would support B.
 
 </details>

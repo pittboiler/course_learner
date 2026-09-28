@@ -141,7 +141,9 @@ Name **four** errors and correct each from this lesson, giving the correct level
 <summary>Solution</summary>
 
 **Must hit, strict:** (a) **Defined.** Trent, Session VI, canon 30, anathematizes anyone who says no debt of temporal punishment remains for any penitent; calling it a pious opinion understates it. (b) **Scholastic theology.** The act is a theological article, compiled after Aquinas's death from his *Sentences* commentary. Papal teaching adopted the treasury's core (*Unigenitus*, *Indulgentiarum Doctrina*, CCC 1476–1477) but not this quantitative step, so the treasury's rung-3 weight does not transfer to it. (c) **Discipline, no rung.** The interval is changeable papal law: Boniface VIII envisaged a hundred years (1300), Clement VI's *Unigenitus* cut it to fifty (1343), and the later fifteenth century set twenty-five. (d) **No magisterial level as exegesis.** No act defines this reading; it is the tradition's widely received use of the verse, and purgatory itself is taught elsewhere ([`creation-grace-last-things`](../../creation-grace-last-things/syllabus.md)).
+
 **Wrong turns:** lifting (b) to authentic teaching because the treasury is taught at rung 3. Calling (c) doctrine because popes decreed it, or because fifty echoes Leviticus. Citing (d) as a defined interpretation, or dismissing it as a modern invention. Understating (a).
+
 **Model answer:** (a) Defined: Trent VI canon 30 anathematizes the denial that any temporal debt remains. (b) Scholastic theology: the Supplement argues it, and papal teaching took up the treasury without endorsing this measurement. (c) Discipline: the interval was set and reset by papal law, from a hundred years to fifty to twenty-five, and sits on no rung. (d) No defined exegesis: the reading is the tradition's use of the verse, and no act of the magisterium fixes it.
 
 </details>

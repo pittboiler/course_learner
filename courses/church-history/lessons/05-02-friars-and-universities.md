@@ -95,8 +95,11 @@ Identify three factual errors and correct each in one sentence.
 **P1** *(Exegetical.)*
 
 **Must hit, strict (a):** it protects the Rule and the *Testament* itself ("these words") from interpretation by gloss, i.e. from commentary that says how they "ought to be understood". Francis wants them understood "simply and purely" and kept literally.
+
 **Must hit, strict (b):** Gregory IX's *Quo elongati* (28 September 1230). It ruled that the *Testament* did not bind the order and allowed friars to use a *nuntius*, a go-between who could receive money from benefactors and spend it on the friars' needs.
+
 **Wrong turns:** reading "glosses" as a ban on all study or on scripture commentary (it targets glosses on the Rule and *Testament*); naming *Solet annuere* (1223, the Rule itself) or *Exiit* (1279) as the answer.
+
 **Model answer:** (a) It protects the Rule and the *Testament* from glosses, commentaries that explain how they "ought to be understood". Francis demands they be read "simply and purely" and kept to the letter. (b) Gregory IX's *Quo elongati* (1230) declared the *Testament* not binding. It let the friars appoint a *nuntius* to receive and spend money on their behalf.
 
 ---
@@ -108,7 +111,9 @@ Identify three factual errors and correct each in one sentence.
 - **"Welcomed from the start."** Friars took chairs from 1229 amid resentment. The secular masters expelled them in 1253, and the 1250s controversy (William of Saint-Amour) ended only by papal order, with Aquinas and Bonaventure admitted in 1257.
 - **"Declared the vow of poverty heretical."** *Cum inter nonnullos* (1323) condemned the pertinacious assertion that Christ and the apostles owned nothing, singly or in common; the friars' own vow was untouched. (*Ad conditorem*, 1322, had renounced papal ownership of their goods.)
 - **"The order's leaders fled" in or right after 1323.** The flight was in 1328, and it was the minister general Michael of Cesena with Ockham and a few others, not the order as such; most Franciscans submitted.
+
 **Wrong turns:** "correcting" 1231 or 1323 as dates (both are right); saying John XXII abolished Franciscan poverty.
+
 **Model answer:** First, Gregory IX did not found the university: the masters' guild already existed, and *Parens scientiarum* ended their strike and confirmed their privileges. Second, the friars were not welcomed: the secular masters expelled them in 1253, and only Alexander IV's intervention restored them. Third, John XXII did not condemn the vow: he condemned as heresy the obstinate claim that Christ and the apostles owned nothing, and the flight to the emperor came in 1328, by Michael of Cesena, Ockham and a few companions.
 
 ---
@@ -116,7 +121,9 @@ Identify three factual errors and correct each in one sentence.
 **P3** *(Evaluative.)*
 
 **Must hit, any verdict:** distinguish the actors (the pope, the bishop of Paris, the secular guild) and say which one did what; use all three episodes; note that in 1231 and the 1250s papal power *overrode* local control, once for the guild and once for the friars against the guild; note that 1277 was an episcopal act, prompted by a papal letter, and that its 1325 revocation came from a later bishop of Paris after a papal canonization; say what "free inquiry" means (freedom from whom?) and whether the claim survives in any weaker form.
+
 **Wrong turns:** treating "the Church" as one actor; treating 1277 as a papal condemnation; treating the Saint-Amour affair as the suppression of a heresy about doctrine, when it was an attack on the friars' place in the university; judging by modern academic-freedom norms without saying so.
+
 **Model answer, one of several:** The claim fails as stated but survives in a weaker form. In 1231 Gregory IX protected the Paris masters' self-government against the bishop's chancellor and the crown. In the 1250s the papacy overruled the guild to keep friars in theology chairs, and condemned Saint-Amour's attack on them: control of the university, not of inquiry as such. The 1277 list was Tempier's, prompted by John XXI's letter, and it did restrict what masters could teach; its partial revocation in 1325 followed Aquinas's canonization. So the papacy mostly acted as the universities' patron. But every episode assumed that someone in the Church could set limits, and the limits moved with the politics of the moment.
 
 </details>
@@ -133,7 +140,9 @@ Identify three claims the record does not support and give the correction for ea
 <summary>Solution</summary>
 
 **Must hit, strict:** three of these four corrections. (1) **"His orders" / "exactly what Clermont had preached":** no papal text called for attacks on Jews, and canon 2 of Clermont offered remission of penance for a *journey to Jerusalem* made out of devotion. (2) **"The bishops stood aside":** bishops at Speyer, Worms, Mainz and Cologne tried to shelter Jews. At Speyer Bishop John saved most of the community and punished some attackers. At Mainz the Jews took refuge in Archbishop Ruthard's palace. The protection often failed: at Mainz, the Hebrew chronicle says, Ruthard's men fled first and he fled too. (3) **"Only at Speyer":** the same evidence. (4) **"Tens of thousands":** Mainz was about 1,100 dead by the Hebrew chronicle's count (about 700 by Albert of Aachen's), and Worms about 800. Estimates of the total start at about two thousand, and none can be checked closely. (2) and (3) count as one error if the answer gives the same evidence for both. **What it gets right:** the killers were crusaders, acting in the language of the crusade and before the main armies left, and many Jews died rather than accept forced baptism.
+
 **Wrong turns:** overcorrecting to "just a mob with no connection to the crusade"; treating the bishops' attempts as proof that the protection worked; replacing "tens of thousands" with a new precise total.
+
 **Model answer:** First, no pope ordered it: Clermont's canon offered remission of penance for a devout journey to Jerusalem, not war on Jews at home. Second, the bishops did not simply stand aside. At Speyer, Worms, Mainz and Cologne they tried to shelter Jews, though at Mainz Ruthard's protection collapsed and he fled. Third, the dead were not tens of thousands: about 800 at Worms and 700 to 1,100 at Mainz, with estimates of the total starting at about two thousand. What the script gets right is that the killers were crusaders who spoke the crusade's language, so the massacres cannot be separated from the movement that the preaching set off.
 
 </details>

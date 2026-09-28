@@ -99,21 +99,29 @@ Three words carry it. **"House"** (*bayit*) shifts meaning. In verse 5 it is a t
 **P1** *(Exegetical (a) · Exegetical (b))*
 
 **Must hit, strict (a):** the rich man is **David** (many wives, 12:8); the poor man is **Uriah**; the ewe is **Bathsheba**, his only wife. Details that make the lamb more than property: it grew up **with his children**, ate **his bread**, drank from **his cup**, slept **in his bosom**, and was **"as a daughter"**. Any two.
+
 **Must hit, strict (b):** the parable is presented as a real case for the king's judgment (a **juridical parable**, Uriel Simon's term), so David rules as judge before he knows he is the defendant. **"Thou art the man"** turns his verdict ("a child of death", no pity) onto himself. "Fourfold" is the **theft law of Exodus 22:1** (Hebrew 21:37): four sheep for one sheep.
+
 **Wrong turns:** making the "stranger" Bathsheba or Nathan: he is the occasion of the rich man's greed, not a figure for a character in chapter 11. Saying David's sentence of death is the law's penalty for sheep theft: the law requires restitution, and "child of death" is David's anger outrunning it, which is the point.
+
 **Model answer:** (a) David is the rich man with many wives, Uriah the poor man, Bathsheba the ewe. The lamb shares the poor man's bread and cup, sleeps in his bosom, and is "as a daughter": she is family, not stock. (b) Nathan brings the story as a legal case, so David judges it as king, and "Thou art the man" turns the verdict on him. The fourfold restitution is the sheep-theft law of Exodus 22:1, and his "child of death" goes beyond it.
 
 **P2** *(Exegetical (a) · Evaluative (b))*
 
 **Must hit, strict (a):** in each note, **God acts behind and through human choices**, and the narrator names it rarely, in a single clause. There are **no miracles and no theophany**. In the Exodus, by contrast, God acts openly: plagues, the Sea, speech from the mountain. Credit: all three notes fall at hinges of the succession plot (the sin, Solomon's birth, Absalom's fall).
+
 **Must hit, any verdict (b):** (1) State both readings fairly. (2) Use the notes: 12:24 ("the Lord loved him") favours legitimation, while 11:27 frames the whole line in David's sin. (3) Weigh one episode, e.g. 1 Kings 1 (Nathan and Bathsheba steer the dying David toward Solomon) or 1 Kings 2 (Solomon's killings of Adonijah and Joab). (4) Say what the other reading must explain away.
+
 **Wrong turns:** treating either reading as Church teaching; the purpose of the Succession Narrative is a scholarly question. Reading the rarity of divine action as secularism: the three notes say God is sovereign over the whole plot.
+
 **Model answer (b), one of several:** Critique fits better. The story begins its succession plot with adultery and murder that "displeased the Lord". Its heir comes through Bathsheba, whose son owes the throne to a palace manoeuvre in 1 Kings 1, when Nathan and Bathsheba work on a dying king's memory. Solomon then secures his throne by executions in 1 Kings 2. A court propagandist would hardly narrate all this. Still, 12:24 is a clear divine seal on Solomon, and an apology can admit ugly facts in order to answer them. The legitimation reading must explain why the narrator dwells on the ugliness. The critique reading must explain 12:24. I weigh the sustained narrative over the single note.
 
 **P3** *(Exegetical)*
 
 **Must hit, strict:** (1) **Literal sense** of 2 Samuel 7:13–16: the promise is what the text says; how and in whom it is fulfilled is a further question. (2) **Church teaching**: that Jesus is the Christ belongs to the faith (the creed), and the Catechism teaches that he fulfils Israel's messianic hope as David's heir (CCC 436–439). (3) **Scholarly hypothesis**: Noth's Deuteronomistic History, which covers Deuteronomy–Kings, rivalled by Cross's two editions and the Göttingen layers. It has **no magisterial standing**. (4) **Old Biblical Commission response** (1905, on apparently historical narratives): binding when issued. Its practical force was changed by *Divino Afflante Spiritu* and the 1955 statements, and the Commission is consultative since 1971. It is not current doctrine, and not simply void either. (5) **Disputed date**: the 480 years of 1 Kings 6:1 is widely read as schematic (12 × 40), and a fifteenth-century Exodus is a minority reconstruction against most critical and archaeological readings.
+
 **Wrong turns:** (1) as Church teaching "about Solomon": the literal sense is a promise to David's line, and the Christological reading is its fuller or typological sense. (3) as settled because Noth is famous. (4) as either still binding or "abolished in 1943". (5) as secure because it is arithmetic on the text.
+
 **Model answer:** (1) Literal sense of 2 Sam 7. (2) Church teaching: the faith confesses Jesus as Christ, and CCC 436–439 names him David's heir. (3) Hypothesis (Noth, 1943), freely disputed. (4) Old PBC response of 1905: binding then, practically loosened since, the Commission now advisory. (5) Disputed date: the 480 years looks schematic, and a 1446 Exodus is a minority view.
 
 </details>
@@ -136,6 +144,7 @@ Name three errors. For each, give the correction, and give the level where one i
 4. **The level is overstated.** The division is **common theological teaching**, not defined dogma. Trent (Session VI, canon 19) defines only that the Ten Commandments bind Christians. Florence taught that the ceremonies ended. Neither defines the scheme.
 
 **Wrong turns:** calling verse 13 judicial without qualification because it concerns money, which is the note's own error. Answering error 4 by making the division Trent's. Swinging to the opposite error: that because the division is not dogma it is only one theologian's private opinion.
+
 **Model answer:** First, Aquinas asks where a precept gets its force, not what it is about: reason for moral precepts, divine institution for ceremonial and judicial ones. Second, paying a hired man his due is dictated by reason, so verse 13 is moral in substance and still binds, with only the overnight deadline a judicial detail. Third, Leviticus 19 mixes all three kinds under the one refrain "I am the Lord", so the division is a later reading. (Fourth: the scheme is common theological teaching, not a definition. Trent defined only that the Commandments bind.)
 
 </details>

@@ -96,8 +96,11 @@ Which chapters of *The Prince* is it borrowing, and which elements of each? Name
 **P1** *(Exegetical, strict.)*
 
 **Must hit, strict (a):** R3. The deciding words are conditional: fortune shows her power "where valour has not prepared to resist her", and turns her force where "barriers and defences have not been raised". Her power is real (against R2, the flood is not abolished, only channelled; the surrounding text gives her half of our actions). Its reach depends on prior human preparation (against R1). The dikes are built in fair weather, beforehand, so *virtù* here is largely foresight.
+
 **Must hit, strict (b):** "valour" captures the active, spirited, martial side of *virtù*, which suits the image of resistance and Italy's lack of defence. It leaves out foresight, prudence and the capacity to adapt to the times, which this very passage needs, since dikes are built in calm weather. It also hides the link between this chapter and *virtù* elsewhere in the book (ch. 8's "talent", ch. 26's "virtue").
+
 **Wrong turns:** choosing R2 from the book's bold ending, which is a different claim (boldness succeeds more often), not the abolition of fortune. Treating "valour" as simply wrong: it is a partial rendering, not a mistranslation.
+
 **Model answer:** (a) R3. Fortune shows her power "where valour has not prepared" and strikes where barriers "have not been raised". Both clauses make her damage depend on what humans failed to do beforehand. She is not abolished (the flood still comes), and preparation is not futile. (b) "Valour" catches the courage and energy of resistance. It misses what the dike image actually requires: foresight in calm times and adaptability. It also severs the word from *virtù*'s other appearances in the book.
 
 ---
@@ -113,8 +116,11 @@ Which chapters of *The Prince* is it borrowing, and which elements of each? Name
 - P6 (constraint). Fear must not become hatred, which is avoided by keeping away from subjects' property and women and by killing only with manifest cause.
 - ∴ It is safer to be feared (without being hated) than loved.
 Weakest premise: P2 (the general claim about human nature) or P4 (that fear never fails, given that P6 concedes fear can curdle into hatred). Either is accepted with a reason.
+
 **Must hit, strict (b):** the crux is P3, whether a bond of love or obligation is reliable enough to hold subjects when holding costs them. Aquinas must affirm it and Machiavelli denies it. *Not* the crux: whether hatred is dangerous. Machiavelli's own constraint (P6) concedes Aquinas's point that hated rulers fall, so the two agree on that.
+
 **Wrong turns:** reconstructing without P6, which turns the argument into a case for terror. Naming the difference in ends (glory vs heavenly reward) as the crux of *this* dispute: it is a real difference, but the love/fear argument does not turn on it. It turns on what holds subjects.
+
 **Model answer (b):** Both accept that fear which breeds hatred destroys a ruler. Machiavelli builds that concession into his advice. The disagreement is over love. Aquinas treats it as the firmest bond. Machiavelli holds that obligation is broken whenever advantage suggests, because men are base, while fear of punishment stays in the ruler's control. The premise one must deny is: *love reliably binds subjects in adversity.*
 
 ---
@@ -122,7 +128,9 @@ Weakest premise: P2 (the general claim about human nature) or P4 (that fear neve
 **P3** *(Exegetical, strict.)*
 
 **Must hit, strict:** borrowings: ch. 8 (injuries all at once, benefits little by little); ch. 17 (fear over love, love as a bond that breaks when payments stop, since friendships bought with payments are not secured); ch. 15 in flattened form ("nice executives get eaten": the good man ruined among the not-good). Two losses or distortions from: (i) ch. 17's *avoid hatred* constraint is gone; (ii) the end: Machiavelli's test is maintaining the state and *glory*, and ch. 8 denies glory to success by any means (Agathocles), whereas "results are the only morality" erases that limit; (iii) "the only morality" turns a claim about necessity into a claim that success *is* morality, a vocabulary of justification the book doesn't use; (iv) the new prince's setting of mortal danger, arms and a disordered state is swapped for a firm with law, courts and exit.
+
 **Wrong turns:** tracing "results are the only morality" to *The Prince* as a quotation. Crediting ch. 18: nothing here is about keeping faith.
+
 **Model answer:** It borrows ch. 8's timing rule (all cuts at once, benefits by drips) and ch. 17's preference for fear over love, including the point that bought loyalty fails. "Nice executives get eaten" echoes ch. 15. It drops ch. 17's warning to avoid hatred, and it replaces maintaining the state and winning glory with "results". Machiavelli refused Agathocles glory despite his success, and never claimed that success *is* morality.
 
 </details>
@@ -135,8 +143,11 @@ Weakest premise: P2 (the general claim about human nature) or P4 (that fear neve
 <summary>Solution</summary>
 
 **Must hit, strict (a):** the two thinkers use "unity" in different senses. Aquinas's unity is *peace*, a community holding together instead of splitting into factions. Aristotle's target in II.2 is unity as *sameness*: Plato's city, where citizens share one set of feelings and the plurality of different kinds of people is erased. Aristotle wants a city at peace too, and Aquinas nowhere asks for a city of identical people. So the apparent disagreement dissolves once the term is split.
+
 **Must hit, strict (b):** the premise pressed is *what is itself one produces unity better than a plurality* (A4, with its conclusion that one should rule). III.11 says a plurality, pooled, can judge better than one or a few, so many hands need not pull in different directions. The shared premise: rule is just when it serves the common good of the ruled and deviant when it serves the rulers (the six-regime grid, A2), or that humans are political or social by nature (A1).
+
 **Wrong turns:** saying Aristotle rejects kingship outright; he allows it for a man of outstanding virtue (III.13–17). Naming "one or many rulers" as the crux, which is the conclusion in dispute, not a premise.
+
 **Model answer:** (a) The two "unities" differ. Aquinas means peace, a community not torn by faction. Aristotle attacks unity as sameness, a city pressed toward being one person. Both want peace, and neither wants sameness. (b) The real pressure falls on Aquinas's premise that what is one produces unity better than many. III.11 claims that many judging together can do better than one, as a feast many contribute to beats one host's. Both accept the grid: rule is just when it serves the common good, and corrupt when it serves the rulers.
 
 </details>

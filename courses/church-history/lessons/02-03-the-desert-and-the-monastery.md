@@ -100,8 +100,11 @@ Identify four distinct claims in the placard that the historical record contradi
 **P1** *(Exegetical.)*
 
 **Must hit, strict (a):** the *Conferences* and *Institutes*, both by John Cassian; the *Lives* of the Fathers (the desert lives, of which Athanasius's *Life of Antony* in Latin is the best known); and the Rule of Basil. Benedict read Basil in **Latin**, in **Rufinus's** translation of Basil's *Asketikon* (397), not in Greek.
+
 **Must hit, strict (b):** the silence does **not** count against dependence. Chapter 73 is a reading list for monks who want more than the Rule, not a list of the Rule's sources. The case for dependence rests on comparing the two texts (shared and abridged passages, argued by Genestout and de Vogüé), which a silence cannot answer.
+
 **Wrong turns:** taking "Lives" to mean the lives of the monks now living in the house; saying Benedict read Basil in Greek; treating an author's failure to cite a source as proof he didn't use it.
+
 **Model answer:** (a) It recommends Cassian's *Conferences* and *Institutes*, the Lives of the desert Fathers, such as the Latin *Life of Antony*, and the Rule of Basil. Benedict read Basil in Latin, through Rufinus's translation of 397. (b) The silence proves nothing either way, because the chapter recommends further reading for advanced monks and does not list the Rule's sources. The dependence is shown by comparing the texts, which Genestout and de Vogüé did.
 
 ---
@@ -114,7 +117,9 @@ Identify four distinct claims in the placard that the historical record contradi
 (iii) **"Soon adopted across Europe":** mixed rules were normal for centuries, and the Rule became the norm only through the Carolingian reforms of 816–817.
 (iv) **"Before him, solitary hermits":** Pachomius's cenobitic *koinonia* goes back to about 320, and Basil's communities to 358. Women's houses existed too.
 (v) **Dates:** 529 is the traditional date for Monte Cassino. The Rule itself is dated anywhere from c. 530 to c. 560 and the date is disputed, so "around 529… writing" runs two uncertain dates together.
+
 **Wrong turns:** counting the date of Monte Cassino as simply wrong (it is traditional, not refuted); calling Cassian's houses Benedictine; repeating one error under two labels.
+
 **Model answer:** First, Western monasticism came before Benedict: Martin at Ligugé around 361, Lérins, and Cassian's Marseilles foundations around 415. Second, the Rule wasn't original. It abridges the anonymous Rule of the Master and itself recommends Cassian and Basil (chapter 73). Third, it wasn't "soon adopted." Houses followed mixed rules until the Carolingian synods of 816–817 imposed it. Fourth, monks before Benedict weren't only hermits: Pachomius organized communities from about 320, Basil from 358, and both included or inspired women's houses.
 
 ---
@@ -126,7 +131,9 @@ Identify four distinct claims in the placard that the historical record contradi
 - **Evidence against, stated at full strength:** Antony's withdrawal (c. 270) and the fort at Pispir (c. 285) come before Constantine. The *Life* has Antony defer to bishops (ch. 67) and fight for Nicaea (ch. 69). Basil became a bishop. Athanasius allied himself with the monks.
 - **A distinction:** protest against the *world*, or against wealth and status, versus protest against the *Church or its bishops*. Any verdict must say which it means.
 - **Source caution:** the pro-episcopal evidence comes from a bishop's text with a purpose. Say how that affects its weight.
+
 **Wrong turns:** citing only the post-313 growth and ignoring the pre-Constantinian start; treating the *Life*'s deference scenes as neutral reporting; giving a verdict with no distinction between world and Church.
+
 **Model answer, one of several:** For the claim: monasticism became a mass movement only after 313, and the *Life* casts the monk as the martyr's successor (ch. 47). That fits a reaction against a Church grown comfortable. Against it: Antony withdrew about 270, decades before Constantine. The *Life* shows him bowing to bishops and defending Nicaea, and Basil went from monk to bishop. The claim merges two targets. A protest against worldliness, including worldliness inside the Church, is well attested. A protest against the Church's alliance with the empire as such isn't, though the pro-bishop evidence comes largely from Athanasius, who had reasons to stress it. Verdict: true of worldliness, unproven as a protest against the imperial Church.
 
 </details>
@@ -139,8 +146,11 @@ Identify four distinct claims in the placard that the historical record contradi
 <summary>Solution</summary>
 
 **Must hit, strict (a):** Tyre deposes Athanasius (335) → Liberius exiled (355) → Ariminum and Seleucia (359) → Julian recalls the exiles (362) → *Cunctos populos* (27 February 380) → Council of Constantinople (May 381).
+
 **Must hit, strict (b):** Damasus of Rome and Peter of Alexandria. The law defined orthodoxy as the faith Peter the apostle handed to the Romans, as those two sees now held it. That put the emperor behind the Nicene side, the side Constantius had driven into exile, and it made the line between Catholic and heretic a legal status that carried punishment.
+
 **Wrong turns:** naming Athanasius, who had died in 373; putting Liberius's exile after 359 (it came four years before); making the Council of Constantinople the source of the law, when the law came first and was addressed to the people of Constantinople.
+
 **Model answer:** (a) Tyre, 335; Liberius exiled, 355; Ariminum and Seleucia, 359; Julian's recall, 362; *Cunctos populos*, 380; Constantinople, 381. (b) Damasus of Rome and Peter of Alexandria. By naming them, the law tied orthodoxy to the Nicene faith of Rome and Alexandria, both sees whose bishops Constantius had exiled, and it turned dissent from that faith into a legal status, heresy, liable to imperial punishment.
 
 </details>

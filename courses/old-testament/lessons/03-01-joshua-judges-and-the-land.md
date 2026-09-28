@@ -99,23 +99,33 @@ Two chapters after "all the land", God tells Joshua that much is left. The Douay
 **P1** *(Exegetical)*
 
 **Must hit, strict (a):** Joshua 11:23 claims a **complete** conquest: "took all the land" and "the land rested from wars". Judges 1:27–28 claims a **partial** one: "did not destroy", "the Chanaanite began to dwell with them".
+
 **Must hit, strict (b):** 1:28 makes the failure partly a **choice**. Once Israel "was grown strong" it "made them tributaries, and would not destroy them", which prefers tribute to the ban. That is what Judges 2:2–3 then indicts.
+
 **Must hit, strict (c):** Joshua 15:63 (the Jebusites in Jerusalem "until this present day", nearly Judges 1:21) or 13:1 (much land left). So the tension sits **inside Joshua**, and its editor kept both. That points to 11:23 as a summary in the idiom of conquest reports, not a contradiction between two books that the editor failed to notice.
+
 **Wrong turns:** reading 1:28 as inability only. Arguing from the Douay's "not yet divided by lot" as if it were the Hebrew. Treating (c) as proof that no conquest happened, when it is a literary point.
+
 **Model answer:** (a) Joshua 11:23 claims the whole land taken and at rest ("all the land", "rested from wars"). Judges 1:27–28 lists cities left standing whose Canaanites "dwell with them". (b) Verse 28 says that once strong, Israel chose tribute over destruction ("would not destroy them"). The failure is disobedience as well as weakness. (c) Joshua 15:63 already says Judah could not remove the Jebusites of Jerusalem. The contradiction is within Joshua, so 11:23 reads as a stylized summary its own editor qualified.
 
 **P2** *(Exegetical (a) · Evaluative (b))*
 
 **Must hit, strict (a):** 1: troubles **conquest**, fits the others. 2: helps **conquest**, and is compatible with others because who burned Hazor is disputed. 3: helps **infiltration** and **emergence**, and is neutral to mildly troubling for conquest, which predicts destroyed cities rather than new villages. 4: helps **emergence/revolt** (continuity from inside Canaan) and troubles **conquest/infiltration** from outside. 5: marks a **distinct identity** usable by any model; it does not settle where the people came from.
+
 **Must hit, any verdict (b):** choose a model; name the strongest datum against it (for emergence, usually the tradition of an origin in Egypt and Hazor; for conquest, Jericho and Ai); state that inspiration **does not require** any one model, because what Joshua asserts depends on its genre (DV 11–12) and no magisterial act fixes the conquest's scale.
+
 **Wrong turns:** making datum 5 decisive for "Israelites came from outside". Saying a Catholic must hold the conquest model. Saying the emergence model is proven.
+
 **Model answer (b), one of several:** Emergence explains the most: new highland villages, pottery continuous with Canaan, and a distinct diet all fit a population forming inside the land. Jericho's silence costs it nothing. Its weak point is Hazor's burning and, more deeply, Israel's insistent memory of coming from Egypt, which a small immigrant group within an emerging Israel could explain. Nothing here strains inspiration. The Church teaches that Scripture asserts without error what God wills for our salvation, read by genre. It does not teach any settlement model.
 
 **P3** *(Exegetical)*
 
 **Must hit, strict (a):** A turns a narrated ban into a **standing policy**. Correctives: the tradition never read it so (Origen's spiritual war via Eph 6:12; the rabbinic peace-first reading; Wis 12:10 "place of repentance"), and *Verbum Domini* 42 reads such passages through the paschal mystery. B misstates both the scholarship and the Church. The scale of the conquest is **disputed**, not "proven" false. *Verbum Domini* 42 says the dark passages must **not be neglected**, which is the opposite of leaving Joshua out.
+
 **Must hit, strict (b):** A gives an **ancient narrative** (or Deuteronomy's program) the force of a present command; no Church teaching does so. B gives a **scholarly majority** the weight of a result, and invents a Church teaching ("mistakes") that contradicts Dei Verbum 11.
+
 **Wrong turns:** answering A with a philosophical theodicy (ceded to `philosophy-of-religion`). Correcting B by asserting that the conquest happened as narrated, which swaps one level error for another.
+
 **Model answer:** (a) A reads the ban as a model, which no stream of the tradition did: Origen spiritualized it, the rabbis required peace first, and *Verbum Domini* 42 reads it in light of the paschal mystery. B says the dark passages may be dropped, when *Verbum Domini* 42 says they must not be neglected but read in context. (b) A gives an ancient narrative, or Deuteronomy's program, the force of present Church teaching. B gives a contested majority reconstruction the force of proof, and attributes to the Church a doctrine of biblical error it rejects (DV 11).
 
 </details>
@@ -133,9 +143,13 @@ Two chapters after "all the land", God tells Joshua that much is left. The Douay
 <summary>Solution</summary>
 
 **Must hit, strict (a):** the crux is **whether the treaty form, or the features Exodus shares with it, is distinctive of the late second millennium**, so that it can **date** a text. Both sides grant that Israel pictured its covenant as a vassal treaty.
+
 **Must hit, strict (b):** a comparison of treaties across periods. If features Exodus shares, such as the **historical prologue**, occur in second-millennium treaties but **not** in first-millennium ones like Esarhaddon's, the first position gains. If first-millennium treaties show them too, the second gains. Either direction counts if stated.
+
 **Must hit, strict (c):** a **scholarly hypothesis** with **no magisterial standing**. The date of the covenant form is **disputed**, while what the Church teaches, that God gave Israel his law at Sinai (CCC 62), does not depend on which side wins.
+
 **Wrong turns:** making the crux "whether the Sinai covenant resembles a treaty", which both grant. Treating Esarhaddon's 672 BC date as disputed: it is secure. Making (c) Church teaching because CCC 62 affirms the Sinai covenant.
+
 **Model answer:** (a) Whether the treaty shape is specific to the fourteenth and thirteenth centuries, and so can date Exodus; McCarthy denies it. (b) If Exodus's historical prologue has parallels only in Hittite treaties and none in first-millennium ones, the early date gains; if Assyrian treaties have it too, the form dates nothing. (c) A disputed scholarly hypothesis; the Church's teaching on Sinai does not ride on it.
 
 </details>

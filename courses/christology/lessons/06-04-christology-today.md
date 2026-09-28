@@ -135,6 +135,7 @@ Run [the closing rule](../reference.md#the-closing-rule) on each: passes, fails,
 <summary>Solution</summary>
 
 **Must hit, strict (a):** *Throne beside the Father's, above the stars:* the right hand is not a place. John of Damascus (*Exposition* IV.2) denies that the Uncircumscribed has a right hand limited by place, so the session is the human body sharing divine glory and rule. *Wounds healed away:* the risen body keeps its scars (ST III q.54 a.4, following Bede). It is the same body with its history, and the scars are a trophy, not a defect. *Work finished, he rests:* the sacrifice is once for all, but the risen humanity is "always living to make intercession for us" (Heb 7:25, DR), and Aquinas ties the scars to that pleading.
+
 **Must hit, strict (b):** defined dogma (the Creeds): he truly ascended in his body and sits at the Father's right hand. Not dogma: any location, since the Catechism calls the cloud and heaven symbols of the humanity's entry into divine glory (659), and where heaven is remains freely disputed.
 
 **Wrong turns:** overcorrecting to "the ascension is only a metaphor", which drops "ascended in both" (Lateran IV). Calling the throne error Nestorian or Eutychian: it confuses neither the *who* nor the *what*, only the meaning of "right hand". Answering the third error by denying that the passion's work is finished, instead of naming the ongoing intercession. Marking the retention of the scars as defined dogma.

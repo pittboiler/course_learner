@@ -146,9 +146,13 @@ Find the three errors and correct each in **one or two sentences**, marking the 
 <summary>Solution</summary>
 
 **Must hit, strict (a):** Old Perspective: "**not of yourselves**", "**the gift of God**", "**not of works, that no man may glory**": grace against human doing and boasting. Boundary-marker: "**uncircumcision ... circumcision**", "**aliens from the conversation of Israel**", "**the middle wall of partition**", "**made both one**": the Law's decrees as the fence between Jew and Gentile.
+
 **Must hit, strict (b):** With *erga nomou* reduced to plain "works" and set against gift and boasting, 2:9 is most naturally read as **human doing as such**, which favours the Old Perspective reading **of Ephesians**. But Ephesians' authorship is **disputed** ([6.1](06-01-the-disputed-pauline-letters-and-the-pastorals.md)): if a disciple wrote it, 2:9 shows how an **early reader generalized** Paul, not what Paul's own phrase meant at Antioch. Even if Paul wrote it, a later letter's wording does not fix the sense of an earlier one.
+
 **Must hit, strict (c):** **Incongruity**: the gift goes to those with no prior worth, both the "dead in sins" of 2:5 who could not boast and the Gentiles "without God" of 2:12 who had no share in Israel, so the "not of works" and the broken wall are one thought.
+
 **Wrong turns:** claiming Ephesians proves the New Perspective wrong, or right; it is one witness, of disputed authorship. Saying the Church, by defining Ephesians canonical, has fixed which contrast Paul meant: canonicity is **defined** (Trent, Session IV); the exegesis of "works" is a **scholarly question, freely disputed**, and Trent VI defines justification by grace, not a reading of *erga nomou*. Answering (c) with "priority" alone: God's acting first does not explain why Gentiles are included.
+
 **Model answer:** (a) An Old Perspective reader cites "not of yourselves ... the gift of God. Not of works, that no man may glory", which sets grace against human doing and boasting. A boundary-marker reader cites the circumcision/uncircumcision labels, "aliens from the conversation of Israel" and "the middle wall of partition", where the Law's decrees are the fence between two peoples. (b) Plain "works", set against gift and boasting, reads most naturally as human doing, so on Ephesians itself the Old Perspective has the easier verse. Since Ephesians' authorship is disputed, that may show only how an early Pauline writer generalized Paul, not what *erga nomou* meant in Galatians and Romans. (c) Incongruity: God's gift ignores every prior worth, moral or ethnic, so saving the unworthy and admitting the Gentile are the same act.
 
 </details>

@@ -115,8 +115,11 @@ Identify four distinct errors or unsupported claims and correct each from the le
 **P1** *(Exegetical.)*
 
 **Must hit, strict (a):** corroborates: Christians were punished under Nero, and a Roman writer saw them as a new and mischievous superstition (compare Tacitus's "most mischievous superstition"). Does not corroborate: any link to the fire. Suetonius places the punishment among Nero's regulations, not in his account of the fire. He also gives no number, no method, and no connection to Pilate or Judaea.
+
 **Must hit, strict (b):** it is not early: it was written some fifty-five years after the events, at the same time as Tacitus. It is probably independent of Tacitus, because it does not share his framing. So it is a second late witness, not an early one. Two late witnesses that agree on a bare fact (punishment under Nero) strengthen that fact. They do nothing for details only one of them reports.
+
 **Wrong turns:** treating the shared word "superstition" as proof that one copied the other (it was the ordinary Roman word for a foreign cult); treating Suetonius as confirming the fire charge.
+
 **Model answer:** (a) It corroborates that Nero punished Christians and that Romans regarded them as a new, pernicious superstition. It does not corroborate the fire: Suetonius lists the punishment as one of Nero's police measures and never connects it to the blaze. (b) No. It is late, written about 120 like Tacitus. It is probably independent of him, so it confirms the bare punishment under Nero, but not the scapegoating or the scale.
 
 ---
@@ -124,8 +127,11 @@ Identify four distinct errors or unsupported claims and correct each from the le
 **P2** *(Exegetical (a) · Evaluative (b).)*
 
 **Must hit, strict (a):** Acts: abstaining from four things (food sacrificed to idols, blood, strangled meat, fornication), with no circumcision. Its limiting words are "no further burden … than these necessary things." Galatians: nothing but remembering the poor, and a division of mission (Gentiles to Paul and Barnabas, the circumcised to the pillars). Its limiting word is "Only." Both deny that circumcision was required. They differ on whether food and purity rules were imposed.
+
 **Must hit, any verdict (b):** (i) The date "49" is too exact. The meeting is c. 48–50, and the date is disputed. (ii) Galatians 2:11–14 shows that shared meals between Jewish and Gentile believers at Antioch were unsettled *after* the meeting: Peter withdrew when "some came from James." (iii) A meeting of one community's leaders is not "the whole Church" in any institutional sense. (iv) Say what *was* settled, on both accounts: circumcision was not required of Gentiles. A defensible verdict either way distinguishes the circumcision question, which was settled, from table fellowship, which was not.
+
 **Wrong turns:** harmonizing the texts by assuming Paul simply left the decree out, without saying so as a hypothesis; treating Galatians as neutral because it is earlier; calling the meeting an ecumenical council.
+
 **Model answer (b), one of several:** Half right. Both accounts agree that the meeting freed Gentile converts from circumcision. But "49" should be "c. 48–50," and "settled" overstates it. By Paul's own account, the meeting settled circumcision and nothing about shared meals. Soon after, at Antioch, Peter stopped eating with Gentiles when men came from James, and Barnabas followed him. Whether Gentiles had to keep any food laws depends on which account you trust: Acts has the four abstentions and Galatians says "only" the poor. "The whole Church" also reads a later institution back into what was a meeting between Jerusalem and Antioch.
 
 ---
@@ -133,7 +139,9 @@ Identify four distinct errors or unsupported claims and correct each from the le
 **P3** *(Exegetical.)*
 
 **Must hit, strict:** any four of: (1) **Tacitus was not a witness.** He was born about 56, a small child in 64, and wrote around 115–120. (2) **It was not empire-wide.** All the early evidence puts the punishment in Rome, and there was no general law in 64 (1.3). (3) **Peter and Paul are not in Tacitus** or Suetonius. Their deaths in Rome under Nero rest on later Christian tradition. (4) **"Executed as arsonists" misreads Tacitus.** He says they were convicted "not so much" of arson as of "hatred against mankind." (5) **"Blaming Christians for the fire" rests on Tacitus alone.** Suetonius does not make the link, and Shaw doubts it (Jones replies). A placard should say "according to Tacitus."
+
 **Wrong turns:** "correcting" the placard by saying the persecution never happened, which states Shaw's minority view as fact; counting "64 AD" as an error (the fire is July 64).
+
 **Model answer:** Tacitus was not an eyewitness: he was born about 56 and wrote around 115–120. The persecution was confined to Rome, and no empire-wide measure existed in 64. Neither Tacitus nor Suetonius names Peter or Paul; their martyrdom under Nero is later Christian tradition. Tacitus says the victims were condemned less for arson than for "hatred against mankind," so "executed as arsonists" is wrong. And the fire connection comes from Tacitus alone, since Suetonius records the punishment without it, so the placard should attribute that claim to him.
 
 </details>

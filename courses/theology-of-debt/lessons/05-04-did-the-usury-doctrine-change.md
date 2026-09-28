@@ -116,14 +116,19 @@ Name **four** errors and correct each, giving the correct level where a level is
 **P1** *(Exegetical)*
 
 **Must hit, strict (a):** B denies that the charge then and the charge now are **the same act in the morally relevant sense**. That is, it denies that "ordinary interest" then and now falls under the same description, because the presence of a title (forgone gain) changes the act. B need not deny A's history of restitution.
+
 **Must hit, strict (b):** toward A: evidence that medieval lenders commonly *did* forgo real returns (open investment outlets, partnerships, the census), yet restitution was still required. Toward B: evidence that such outlets were genuinely scarce, *or* that confessors released lenders who could prove a real title.
+
 **Wrong turns:** saying B denies that the Church ever condemned interest (it concedes this). Offering a verdict instead of evidence. Naming "the Church's authority" as evidence: it does not settle a historical premise.
+
 **Model answer:** (a) B denies that the act then condemned and the act now permitted are the same act, because a title now present changes it. (b) Toward A: proof that medieval lenders forwent real profits and were still made to restore. Toward B: proof that such profits were rarely available, or that proven titles were honoured.
 
 **P2** *(Evaluative)*
 
 **Must hit, any verdict:** state a **type** before judging (for example "gratuitous loan, gain only on a real title", or "a Church that does not live on interest"). Apply it to *both* 5° (paying interest, which is the borrower's side and was never itself usury) and 6° (investing, which may be a non-loan contract). Reach a one-line verdict. Note that one note is evidence, not proof.
+
 **Wrong turns:** treating paying interest as committing usury (q.78 a.4 allows borrowing at usury for a good end). Assuming "invest" means "lend". Giving a verdict with no type stated, so the note does no work. Giving 1284 a rung it lacks: it is law, and it does not define usury.
+
 **Model answer, one of several:** Type: a loan as such earns nothing; gain needs a title or a different contract. 5° is the borrower's side, which even Aquinas allowed for a good end, so it does not touch the type. 6° commands investing, not lending, and a partnership or share is a non-loan contract (4.5). Verdict: the type is preserved, though the canon's silence on how funds are placed means the note is not fully tested. (A "not preserved" answer passes if it argues that the type was a *practice* of gratuitous lending that the Church no longer keeps.)
 
 **P3** *(Exegetical)*
@@ -135,6 +140,7 @@ Name **four** errors and correct each, giving the correct level where a level is
 4. **"As Noonan proves … changed a dogma."** Noonan argues that *moral* teaching changed and holds the deposit of faith cannot. His is one side of a freely disputed question.
 
 **Wrong turns:** correcting 1 by calling Vienne "only discipline", which understates it. Correcting 4 by asserting continuity as the Church's answer.
+
 **Model answer:** Vienne punished as heresy the obstinate assertion that usury is not sinful. That makes usury's sinfulness at least theologically certain, but it leaves what "usury" covers open, and "usury" is not "all interest". *Vix Pervenit* went to Italy's bishops; its wider authority is argued, not infallible by assertion. The nineteenth-century responses told confessors not to disturb penitents taking legal interest, pointedly without declaring it licit, and they were pastoral, not definitions. Noonan claims moral teaching changed, not dogma, and whether it changed is freely disputed.
 
 </details>
@@ -151,8 +157,11 @@ Name **four** errors and correct each, giving the correct level where a level is
 <summary>Solution</summary>
 
 **Must hit, strict (a):** (1) It spares the lender **anxiety and scruples**: his own conscience, the internal forum. (2) It lets the contract be **proved in the external forum**, before a court or a Church judge. (3) It **shuts out disputes** about whether an apparently proper transaction hides a **disguised usury** (*palliata usura*), which serves both forums and the peace of the community.
+
 **Must hit, strict (b):** §9 is addressed to those who wish to receive **only lawful fruit**: it presupposes that the fruit is already lawful on some other ground and makes that ground visible; it does not create it. If the declared contract is a *mutuum* and the 6 percent is asked for the loan itself, §3.I makes it usury and §3.II denies that its moderation excuses it; lawful fruit needs a real extrinsic title or a contract of another nature (§3.III), established by inquiry and not presumed (§3.V). The declaration only turns a possibly disguised usury into an open one.
+
 **Wrong turns:** reading §9 as a formality that validates whatever it records. Reading it the other way, as a condition without which any gain is usury: it is an admonition ("are to be warned") for peace of conscience and for proof, not a new definition of the sin. Answering (b) from the modern sense of usury ("6 percent is not exploitative"), which is not the encyclical's question.
+
 **Model answer:** (a) Declaring the contract beforehand spares the lender anxiety and scruples in his own conscience, lets the contract be proved in the external forum, and forestalls disputes over whether the money hides a disguised usury. (b) The passage speaks to people who want to take only *lawful* fruit, so it assumes the fruit is lawful on another ground and makes that ground visible, not lawful. If the 6 percent is charged for the loan itself, §3.I–II make it usury however moderate, and only a real title or a different contract (§3.III), found by inquiry and not presumed (§3.V), would change that.
 
 </details>

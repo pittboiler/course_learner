@@ -101,8 +101,11 @@ Every renewal passes the price test, since 15 is the benchmark; if there is a wr
 (b) The cap allows $36\%/12 = 3\%$ a month. The lender breaks even when $20/L + 1.5\% + 0.5\% \le 3\%$, so $20/L \le 1\%$ and $L \ge 2{,}000$ dollars. Check: $20/2{,}000 + 2\% = 3\%$. At the cap the lender would lose $(10\% - 3\%) \times 250 = 17.50$ dollars on each 250-dollar loan.
 
 **Must hit, strict (a)–(b):** 10% a month; APR 120%; EAR about 214%; smallest loan 2,000 dollars.
+
 **Must hit, strict (c):** it **rations**. The loan costs 10% a month to make and the cap allows 3%, so a lender with these costs will not make it at any lawful price. The premise is **P4** (a cap removes the markup and leaves the loan), which fails here because there is no markup to remove. In effect the cap sets a minimum loan size.
+
 **Wrong turns:** treating 36% as a monthly rate; computing the EAR as $12 \times 10\%$; forgetting that the fixed cost per dollar falls as the loan grows; calling the 250-dollar loan exploitative because its APR is 120%, when it is priced at cost.
+
 **Model answer (c):** It rations: breaking even takes 10% a month and the cap allows 3%, so no lender with these costs makes the loan. That falsifies P4 for this loan, since there is no markup for the cap to remove.
 
 ---
@@ -115,7 +118,9 @@ Every renewal passes the price test, since 15 is the benchmark; if there is a wr
 - **Empirical prediction:** "costs the poor nothing: the lenders will simply earn less". It predicts that the cap reprices rather than rations.
 
 **Must hit, strict (b):** the non-worseness reply targets the prediction. If the cap rations, borrowers lose loans they preferred to none, so the cap is not costless to them. The prediction holds only if lenders' full costs (funds, expected loss, servicing) for these loans are at or below 36% APR, so that everything above 36% is markup. P1 shows how the fixed cost of a small loan makes that doubtful.
+
 **Wrong turns:** grading the op-ed's verdict; filing "protect them from their own mistakes" under exploitation, when it concerns the borrower's choice, not the lender's advantage; saying the non-worseness claim denies that such loans exploit, when it grants that and denies only that they are worse than no loan.
+
 **Model answer:** (a) "Theft with paperwork" is an exploitation charge, but it reads exploitation off the rate alone, with no benchmark. "No one who understood … their own mistakes" is paternalist. It infers ignorance from the signing, when an informed borrower in need might rationally accept, and a cap overrides informed borrowers too, which makes it hard paternalism for them. "Costs the poor nothing: the lenders will simply earn less" is an empirical prediction that the cap reprices. (b) The non-worseness reply targets that prediction. It is true only where lenders' costs sit at or below 36% and the rest is markup. Where small loans cost more than that to make, the cap rations, and borrowers lose loans they preferred to none.
 
 ---
@@ -129,6 +134,7 @@ Every renewal passes the price test, since 15 is the benchmark; if there is a wr
 - Weight and force kept apart: blame versus prohibition, and whether a ban here would reprice (a lender with market power) or ration.
 
 **Wrong turns:** a case that turns on fraud, coercion or harm to third parties, which falls outside the claim rather than refuting it; moving from "worse" straight to "should be banned".
+
 **Model answer (one of several):** A collector learns that his neighbour must find 1,000 dollars by Friday to keep her shop, and no bank can lend in time. He owes her nothing and could profit at 8%, but demands 60%. She accepts, since the shop is worth far more. Both gain, and no one else is touched. I judge this worse than refusing: a refusal leaves her need alone, while this loan turns her need into his income. The defender replies that she prefers his loan to his refusal, so my verdict condemns the one person who helped; if the loan is wrong, refusing is worse than we thought. That is a verdict on weight: he deserves blame. On force: as the only lender in reach, he would likely lend at a capped fair rate rather than not at all, so the state has a reason to forbid these terms, not the loan.
 
 </details>

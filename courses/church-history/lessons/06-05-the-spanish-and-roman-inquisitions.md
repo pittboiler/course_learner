@@ -101,8 +101,11 @@ See [Inquisition death toll estimates](../reference.md#inquisition-death-toll-es
 **P2** *(Exegetical (a) · Evaluative (b).)*
 
 **Must hit, strict (a):** any four of: (1) not "the Pope's inquisitors": a crown tribunal whose inquisitors the monarchs named under Sixtus IV's 1478 bull; (2) not "Spain's Jews": it tried baptized Christians, mainly conversos suspected of judaizing, while unbaptized Jews were expelled by royal decree in 1492; (3) not "more than a million": scholarly estimates run from under 3,000 to about 12,000, and even Llorente claimed 31,912; (4) not "above all witches": it burned few witches (six in person at Logroño, 1610) and after 1614 effectively none; (5) not "for good in 1808": suppressed 1808 and 1813, restored 1814, finally abolished 15 July 1834.
+
 **Must hit, any verdict (b):** say what the number changes (scale, comparison with other courts and the witch trials, the plausibility of the Black Legend) and what it leaves standing (coercion of conscience, the conversos' fate, confiscation and torture, inherited infamy), and then judge whether the guide's "moral point" survives in the form he stated it.
+
 **Wrong turns:** "the Inquisition executed no Jews" (it burned many conversos accused of judaizing); treating Llorente's figure as a modern estimate; arguing in (b) that because the number is low there is no moral point, or that because there is a moral point the number is irrelevant, without weighing the two.
+
 **Model answer (b), one of several:** The number matters because the guide's moral point depends on it: "more than a million" puts the Inquisition beside the great massacres of history, and the evidence puts it at several thousand executions, most before 1530. Correcting that removes a comparison the record does not support and a staple of anti-Spanish and anti-Catholic polemic. It does not remove the rest. Several thousand people burned, most of them baptized Jews and their descendants, thousands more ruined by confiscation and shame, and a whole minority made suspect by ancestry are grave wrongs at any scale, and in 2000 the Church asked pardon for violence used in the service of truth. So the moral point stands, but only in a corrected form: a real persecution, not an imagined holocaust.
 
 ---
@@ -110,7 +113,9 @@ See [Inquisition death toll estimates](../reference.md#inquisition-death-toll-es
 **P3** *(Exegetical.)*
 
 **Must hit, strict:** the crux is not the death toll but the Inquisition's **causes and effects**. Lea read it as the instrument of a pervasive clerical intolerance that deformed Spanish religion and intellectual life and contributed to Spain's decline; Kamen reads it as driven as much by crown politics and Old-Christian social conflict as by religion, with little reach into most Spaniards' lives, and not a cause of decline. Evidence that bears on it: how far the tribunals' presence reached (familiares, rural contact, case density by region), and measured effects on literacy, book output and scholarship where the tribunals were stronger or weaker (e.g. recent quantitative studies comparing municipalities by inquisitorial activity).
+
 **Wrong turns:** saying Kamen lowered Lea's numbers (Lea had already rejected Llorente); making the crux Protestant against Catholic bias rather than a claim evidence could test; naming a verdict instead of a crux.
+
 **Model answer:** They agree roughly on how many people the tribunals killed after 1540. They disagree about what the Inquisition was and what it did to Spain. For Lea it was the engine of an intolerance that shaped Spanish religion and contributed to national decline. For Kamen it served the crown and Old-Christian society, touched most Spaniards only lightly, and did not cause decline. Evidence that would move the question is regional and comparative: how dense the tribunal's network was, and whether places where it was more active show lower literacy, book production or scholarship than places where it was weaker.
 
 </details>
@@ -123,8 +128,11 @@ See [Inquisition death toll estimates](../reference.md#inquisition-death-toll-es
 <summary>Solution</summary>
 
 **Must hit, strict (a):** inquisitors did not carry out death sentences. The obstinate and the relapsed were "relinquished" to the secular arm, and lay authorities burned them; under *Ad extirpanda* (1252) lay officials, not friars, also applied torture. (An answer may add that execution was the exception: most of those convicted received penances or prison.)
+
 **Must hit, any verdict (b):** (1) grant that the distinction between judging and executing was real in canon law, not a later excuse; (2) weigh against it at least two of: the inquisitor handed people over knowing what the lay authorities would do; Lateran IV (canon 3) threatened rulers who failed to purge heresy with the loss of their lands, so the secular arm acted under Church pressure; *Ad extirpanda* was a papal licence for the torture lay officials applied; the Albigensian Crusade was called by a pope, and the killing at Béziers was done by an army whose spiritual leader was a papal legate; (3) say whether "never executed" and "not responsible" are the same claim.
+
 **Wrong turns:** denying that the procedure separated judging from executing; saying friars lit the fires or applied the torture; answering with the Spanish Inquisition's figures, which belong to a later institution.
+
 **Model answer (b), one of several:** No. The claim is right about who carried out the sentence and wrong about what follows from it. The distinction was real to canonists, but the inquisitor relinquished the relapsed knowing the result. Lateran IV had threatened any ruler who failed to purge heresy with the loss of his lands, and Innocent IV's *Ad extirpanda* licensed the torture lay officials applied. The Church designed the procedure and pressed rulers to enforce it. The formal distinction assigns the act to laymen; it does not remove the Church's share of responsibility for the outcome.
 
 </details>

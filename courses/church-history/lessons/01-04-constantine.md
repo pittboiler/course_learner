@@ -127,8 +127,11 @@ The evidence strains in both directions. Lactantius, the nearest witness, has no
 **P2** *(Exegetical.)*
 
 **Must hit, strict (a):** liberty of worship for Christians, *and the same for everyone else*. Christianity is not given precedence. The deciding words are "the Christians and all others", "that mode of religion which to each of them appeared best", and "granted to all others, as well as to the Christians". "Ample and unconditional" removes the conditions of earlier orders; it does not establish anything.
+
 **Must hit, strict (b):** (1) Not an edict: a letter from Licinius to governors, posted at Nicomedia in June 313. (2) Not issued by Constantine at Milan: the emperors met there, and the text was Licinius's. (3) Not an official religion: the letter grants freedom to all; the establishment landmark is Theodosius's edict of 380. Also acceptable as a third error: toleration itself was not new, since Galerius's edict of 311 had already granted it.
+
 **Wrong turns:** reading "ample and unconditional" as privileged status; listing "not issued at Milan" and "not by Constantine" as two errors when you mean one; saying the letter "legalized Christianity for the first time".
+
 **Model answer:** (a) Full legal freedom of worship, but no privilege: the text gives the same liberty to "the Christians and all others", each following the religion "which to each of them appeared best". (b) First, it was not an edict but a letter to governors. Second, it was not issued at Milan: Licinius posted it at Nicomedia, putting into effect what the two emperors agreed at Milan. Third, it did not make Christianity the official religion, since it freed all cults alike; that came with Theodosius in 380.
 
 ---
@@ -136,8 +139,11 @@ The evidence strains in both directions. Lactantius, the nearest witness, has no
 **P3** *(Exegetical (a) · Evaluative (b).)*
 
 **Must hit, strict (a):** Burckhardt needs the premise that acts which were politically useful (or morally ruthless) count as evidence *against* sincere belief, so that a policy explained by interest needs no religious explanation. Barnes denies it. He holds that a ruler can believe and calculate at once, and reads the acts inside a Christian self-understanding attested by Constantine's own letters.
+
 **Must hit, any verdict (b):** give each side's account fairly. For Burckhardt, continuing Sol shows public religion was still hedged or pagan, or at least that Constantine was keeping every option open. For Barnes and those near him, it shows political caution towards a pagan majority, or a solar image Christians themselves could read as Christ the Sun. Then say what would decide between them, such as the timing of Sol's disappearance or evidence of how contemporaries read the coins, and give a verdict with its reason.
+
 **Wrong turns:** treating the coinage as proof either way without addressing the rival reading; making (a) a verdict ("Burckhardt assumes Constantine was cynical"), which restates the conclusion rather than the premise; forgetting that coin types were chosen by mint officials as well as the emperor.
+
 **Model answer (b), one of several:** Burckhardt reads Sol on the coins as Constantine hedging his bets: no sincere convert keeps a pagan god on his money for a decade. Barnes's side answers that coinage is public messaging to a mostly pagan empire, designed partly by mint officials, and that a solar image was ambiguous enough for Christians to read as Christ, the Sun of justice of Malachi 4:2. I find the second account stronger, but only modestly. Sol's gradual disappearance in the 320s, as Constantine's power grew, fits caution better than indifference. A true indifferentist had no reason to drop Sol at all. What would move me back is evidence that Sol was dropped for reasons unrelated to religion.
 
 </details>
@@ -150,8 +156,11 @@ The evidence strains in both directions. Lactantius, the nearest witness, has no
 <summary>Solution</summary>
 
 **Must hit, strict (a):** it suggests Rome had no single bishop for Ignatius to name, and was led by a college of presbyters (Lampe's reading). The two other texts: 1 Clement, which is sent in the name of "the church of God which sojourns at Rome," names no bishop, and uses "bishops" and "presbyters" for one office; and the Shepherd of Hermas, where presbyters preside and a Clement handles letters to foreign churches.
+
 **Must hit, any verdict (b):** (1) One alternative explanation, e.g. Roman letters were written and received in the name of the church, as 1 Clement shows, so Ignatius may be following that convention; or he simply had no occasion to name anyone. (2) Barnes's date cuts two ways: it moves the Asian evidence for single bishops later, weakening "attested early in Asia"; and it puts the Roman silence in the 140s, close to Anicetus (c. 155), which fits a mid-century emergence at Rome. (3) A verdict on how much the silence carries alone versus alongside 1 Clement and Hermas.
+
 **Wrong turns:** treating the silence as proof on its own; reading "presides over love" as a statement about a bishop (it is said of the church); noticing only one of Barnes's two effects.
+
 **Model answer (b), one of several:** On its own the silence is weak. Ignatius may have followed the Roman habit, seen in 1 Clement, of letters passing between churches rather than leaders. But it does not stand alone: 1 Clement and Hermas also show presbyters, not a single bishop, at Rome. A 140s date cuts both ways. It makes the Asian single bishop less early, and it brings the Roman silence close to Anicetus, which fits Lampe's mid-century emergence. I think the silence is modest corroboration, not evidence that carries weight alone.
 
 </details>

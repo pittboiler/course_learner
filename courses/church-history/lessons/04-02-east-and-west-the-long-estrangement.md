@@ -96,7 +96,9 @@ Identify three factual errors and correct each in one sentence.
 **P1** *(Exegetical.)*
 
 **Must hit, strict:** any three of the following ((ii) and (iii) may be counted separately or together): (i) Leo IX had died on 19 April 1054, so he did not excommunicate anyone in July; the bull was laid by his legates, led by Humbert. (ii) The bull excommunicated Cerularius, Leo of Ohrid and their adherents, not the Orthodox Church. (iii) The patriarch's synod excommunicated the three legates, not the Catholic Church. (iv) The churches were not simply divided "ever since": intercommunion continued in many places into the twelfth century, and reunions were signed at Lyons (1274) and Florence (1439). (v) The 1965 declaration lifted the 1054 excommunications and expressed regret; it did not end the schism or restore communion.
+
 **Wrong turns:** "correcting" the date (16 July 1054 is right) or the place (the bull was laid on the altar of Hagia Sophia); saying 1965 was only a "Catholic" act, when it was a joint declaration.
+
 **Model answer:** First, Leo IX was already dead (19 April 1054); his legates, led by Humbert, laid the bull. Second, the bull excommunicated Patriarch Cerularius and his adherents, and the synod replied by excommunicating the legates, so neither church excommunicated the other. Third, 1965 lifted those excommunications and expressed regret, but it did not restore communion, so the schism was not ended.
 
 ---
@@ -104,8 +106,11 @@ Identify three factual errors and correct each in one sentence.
 **P2** *(Exegetical.)*
 
 **Must hit, strict (a):** "as is also contained in the acts of the ecumenical councils and in the sacred canons," read as a *measure* that limits the full power to what the canons describe; and "saving all their privileges and rights," which protects the patriarchs' canonical rights from being overridden. (The renewal of the canonical order of the patriarchs is acceptable as a supporting third phrase, but not in place of the first.)
+
 **Must hit, strict (b):** the signatures establish that the emperor and nearly all the Greek bishops at the council accepted a text affirming Roman primacy and full power, however they construed it. They do not establish that the Eastern churches accepted it: the union was repudiated or ignored after the delegates returned (signers withdrew, Mark of Ephesus led the opposition, Moscow rejected it, and it was proclaimed in Hagia Sophia only in December 1452).
+
 **Wrong turns:** reading the phrase about the canons as unambiguous in either direction, when the point is that it can be read both ways; treating the delegates' signatures as proof of Eastern belief; citing 1453 as evidence of rejection, since the city's fall ended the question without showing what the Greeks would have received.
+
 **Model answer:** (a) "As is also contained in the acts of the ecumenical councils and in the sacred canons": he could read this as defining the pope's power by the canons, so it reaches only as far as they allow. "Saving all their privileges and rights": the patriarchs keep their canonical powers, which papal power cannot override. (b) The signatures show that the Greek delegation, under the emperor, accepted a primacy formula in 1439. They do not show that the Eastern churches accepted it: signers withdrew on their return, clergy and monks followed Mark of Ephesus, and the union was proclaimed in Constantinople only in 1452.
 
 ---
@@ -113,9 +118,13 @@ Identify three factual errors and correct each in one sentence.
 **P3** *(Exegetical (a) · Evaluative (b).)*
 
 **Must hit, strict (a):** the crux is a factual question about what happened after 877: did John VIII and his successors recognize Photius's second patriarchate and the council of 879–880, or condemn him again? It is decided by the documentary record: the papal letters and their authenticity, the acts of 879–880 as the West received them, and the Western canonical collections that show which council they listed as eighth and when the list changed.
+
 **Must hit, any verdict (b):** state what Dvornik's result changes (a ninth-century quarrel healed rather than a first break never mended; a Western list revised in the eleventh century, during the reform papacy of [4.1](04-01-the-reform-papacy-and-the-investiture-contest.md)), and then say whether that supports or complicates the process reading. Either direction passes if it is argued. A healed quarrel fits a process of alternating rift and repair. Alternatively, the evidence shows ninth-century communion was more robust than the process story assumes, so the decisive estrangement is later.
+
 **Wrong turns:** treating the crux as theological (whether Photius was right about the filioque); saying Dvornik showed Photius never quarrelled with Rome, when the break of 863–867 is not in dispute; answering (b) with a verdict and no reason.
+
 **Model answer (a):** The crux is whether Rome recognized Photius's second patriarchate and the council of 879–880 or condemned him again. It is decided by documents: the authenticity of the papal letters and which council the Western canonical collections listed as eighth, and when that changed.
+
 **Model answer (b), one of several:** It supports the process reading, but not in the obvious way. If Photius was reconciled, the ninth century gives a rift that was healed, and the later Western memory of a "schismatic Photius" is itself evidence that estrangement grew in the eleventh century, when canonists rewrote the past to fit the present quarrel.
 
 </details>
@@ -128,10 +137,15 @@ Identify three factual errors and correct each in one sentence.
 <summary>Solution</summary>
 
 **Must hit, strict (a):** the earliest surviving texts are much later (Mark Cohen found none earlier than the tenth or eleventh century), and several historians think the rules grew up piecemeal rather than being issued at once. The attribution to Umar comes from Muslim tradition.
+
 **Must hit, any verdict (b):** (1) Silence about new churches is not a ban on them: the treaty is consistent with the Pact's rule without implying it. (2) The Damascus text is itself late: it reaches us through al-Baladhuri (d. c. 892), about 250 years after the event, and he reports that it was undated at first and later rewritten at the bishop's request. So it is evidence for the form surrender terms took in Muslim memory, and one late text is weak ground for dating another. A "yes" must meet (2); a "no" must concede (1)'s consistency.
+
 **Must hit, strict (c):** what jurists later thought dhimmi status should be, the legal theory of the period of its surviving texts. Later rulers did impose similar rules, for example al-Mutawakkil's dress decree of 850.
+
 **Wrong turns:** calling the Pact a worthless fabrication; treating the Damascus treaty as Khalid's verbatim words; using either text to show that Christians were excluded from early administration (Sarjun ibn Mansur ran Syria's finances until about 700).
+
 **Model answer:** (a) No surviving text is earlier than the tenth or eleventh century, and several historians think the rules accumulated piecemeal rather than in one act of the 630s. (c) It shows what later jurists thought dhimmi status should be, which rulers such as al-Mutawakkil sometimes enforced.
+
 **Model answer (b), one of several:** Only weakly. A treaty that protects existing churches fits a later ban on new ones, but silence is not a rule. And the Damascus text comes from Baladhuri, writing some 250 years on, who admits it was rewritten, so it cannot securely anchor the Pact in the 630s.
 
 </details>

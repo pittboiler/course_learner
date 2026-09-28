@@ -134,9 +134,13 @@ The Greek has no quotation marks. "All things are lawful to me" is *panta moi ex
 <summary>Solution</summary>
 
 **Must hit, strict (a):** "All things are lawful to me" and "Meat for the belly and the belly for the meats". The signal is the pattern of a short maxim followed by Paul's "but", repeated for the first one: he quotes the slogan, then qualifies it. Credit noting the wordplay (*exestin* / *exousiasthēsomai*: "permitted" / "mastered"), and credit either answer on whether "God shall destroy both it and them" belongs to the slogan or to Paul, since commentators divide. Say that the identification is itself a mirror-reading judgment, widely held but not given by the text.
+
 **Must hit, strict (b):** the slogans treat what one does with the body as morally indifferent, because the body belongs to what passes away, as the belly does. The same low view of the body lies behind the Corinthian denial in 15:12, "there is no resurrection of the dead", or the objection in 15:35, "with what manner of body shall they come?"
+
 **Must hit, strict (c):** verse 14 sets **resurrection** against **destruction**. The belly and its food will be destroyed, but the body will be raised as the Lord was, so it is "for the Lord" and what it does matters. This is the argument of chapter 15 in miniature: Christ's resurrection is the pattern for ours.
+
 **Wrong turns:** taking "All things are lawful to me" as Paul's own unqualified principle. The Douay's note reads it that way, limiting it to "indifferent things", but it misses the "but" that follows. Mirror-reading every clause as a slogan, including "the body is not for fornication". Treating the slogan identification as certain.
+
 **Model answer:** (a) "All things are lawful to me" and "Meat for the belly and the belly for the meats" are probably Corinthian slogans. Each is a short maxim that Paul immediately qualifies with "but", and he quotes the first one twice to bend it ("permitted" / "mastered"), though no quotation marks in the Greek make this certain. (b) They imply that bodily acts are indifferent because the body, like the stomach, is temporary. That same disregard for the body shows in 15:12's "there is no resurrection of the dead" and in 15:35's "with what manner of body?" (c) Verse 14 answers "God shall destroy" with "God will raise us up": the body is not destroyed, like food, but raised, like Christ. So the body belongs to the Lord, and Paul answers a moral question with the resurrection, as he does in chapter 15.
 
 </details>

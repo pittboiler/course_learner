@@ -113,22 +113,31 @@ Diagnose three errors: (a) what the silence of Sinai does and does not tell agai
 **P1** *(Exegetical)*
 
 **Must hit, strict (a):** any four of: (1) the opening verb, **"Remember"** (*zakhor*) vs **"Observe"** (*shamor*); (2) Deuteronomy's **"as the Lord thy God hath commanded thee"**, which refers back to an earlier giving; (3) the **motive**: creation and God's rest ("in six days the Lord made heaven and earth") vs deliverance ("thou also didst serve in Egypt ... brought thee out"); (4) the **purpose clause** "that thy manservant and thy maidservant may rest, even as thyself", so rest for the dependent is the point; (5) **"ox" and "ass" named** where Exodus has only "beast".
+
 **Must hit, strict (b):** rabbinic tradition holds that "Remember" and "Observe" were **spoken in a single utterance** (b. Shevuot 20b), so the two texts give one commandment heard both ways. Critics commonly read Exodus 20:11 as tied to the **Priestly creation account** (Gen 2:2–3), and Deuteronomy's motive as Deuteronomy's own theology of remembering the deliverance and caring for the servant. That sentence describes the method; it does not decide a date.
+
 **Wrong turns:** counting the family members as a difference: both lists name the same ones. Declaring one version the "original" in (b). Treating the rabbinic reading as naive harmonization rather than stating it as its tradition states it.
+
 **Model answer:** (a) "Remember" vs "Observe"; Deuteronomy adds "as the Lord thy God hath commanded thee"; Exodus grounds the day in creation ("in six days the Lord made"), Deuteronomy in the release from Egypt ("thou also didst serve in Egypt"); Deuteronomy adds "that thy manservant and thy maidservant may rest, even as thyself". (b) The rabbis teach that God said "Remember" and "Observe" in one utterance. Critics assign Exodus's motive to the Priestly creation theology and Deuteronomy's to its own exodus-centred reworking.
 
 **P2** *(Exegetical)*
 
 **Must hit, strict:** (1) **Church teaching**, CCC 62, taught as the history of revelation. It fixes no date, number or route. (2) **Scholarly hypothesis**: a *disputed* date from 1 Kings 6:1 (480 years before c. 966), with no magisterial standing; the thirteenth-century date is its rival. (3) **Historical datum**, the Merneptah stele, *reconstructed* date (Merneptah's fifth year, within a few years). (4) **Scholarly hypothesis**, which the **Biblical Commission's 1934 decree** on Schmidtke censured. That decree was owed submission when issued. It is not a definition, and its force today is read through the 1948 Suhard letter and the 1955 clarification. (5) **Scholarly hypothesis about the literal sense**, freely disputed (the presence and reserve readings are its rivals). The Thomist doctrine of God as subsistent being is a separate theological claim and does not depend on this exegesis.
+
 **Wrong turns:** calling (1) "just a hypothesis" or (2) Church teaching. Calling (4) forbidden today, or saying the 1934 decree never bound. Calling (5) defined doctrine because Aquinas and Challoner read it so.
+
 **Model answer:** (1) Church teaching, CCC 62. (2) Disputed scholarly date. (3) Historical datum, c. 1208 reconstructed. (4) Hypothesis; censured by the 1934 decree, a pre-1971 act weighed through 1948 and 1955, not a definition. (5) Disputed exegetical hypothesis; the metaphysics stands on other grounds.
 
 **P3** *(Exegetical)*
 
 **Must hit, strict (a):** the silence tells against an exodus **on the scale told** (two million people over forty years). It does not tell against a **small group** leaving Egypt, which would leave little trace (Friedman; many in the majority).
+
 **Must hit, strict (b):** the stele shows an **Israel in Canaan c. 1208 BC** and so sets a latest date for Israel's presence there. A thirteenth-century exodus under Ramesses II falls before it, so the stele constrains the dating without excluding an exodus.
+
 **Must hit, strict (c):** a Biblical Commission document of 1993 comes **after the 1971 reorganization**. The Commission is then consultative, and its documents are **not magisterial acts**. Whatever it says, it cannot make anything "official Catholic teaching". Credit also: the only teaching in view (CCC 62) affirms the deliverance.
+
 **Wrong turns:** answering (a) by asserting the maximal view as proven. Saying the stele "proves the exodus". Answering (c) by claiming to know what the 1993 document says about the exodus, when the level error does not depend on its content.
+
 **Model answer:** (a) Finding nothing in Sinai counts against two million people wandering there. It does not count against a small group escaping Egypt. (b) The stele puts a people Israel in Canaan by about 1208 BC. A thirteenth-century exodus fits before that, so the stele limits the dates rather than excluding the event. (c) After 1971 the Commission is an advisory body, and its 1993 document is not a magisterial act. The teaching that does exist (CCC 62) says the opposite of "legend".
 
 </details>
@@ -146,8 +155,11 @@ Diagnose three errors: (a) what the silence of Sinai does and does not tell agai
 <summary>Solution</summary>
 
 **Must hit, strict (a):** in *Atrahasis* the offence is **noise and numbers**, a disturbance to the gods' rest with **no moral fault** in it, and humans exist **to labour for the gods**. In Genesis the offence is **moral**, corruption and **violence**. Humans were made in blessing, and their multiplying is **commanded** (1:28, repeated to Noah in 9:1), not the problem. So Genesis reworks the shared story's cause into a moral judgment by one God.
+
 **Must hit, strict (b):** **Cain's murder of Abel** (4:8) and **Lamech's boast** of seventy-sevenfold vengeance (4:23–24). Violence grows from one murder to a boast of revenge to an earth "filled" with it. That is the **spread of sin** that structures Genesis 3–11: each transgression reaches further, and God judges each one, while also mitigating the judgment until Babel.
+
 **Wrong turns:** reading the Genesis flood as punishment for overpopulation: the text blesses multiplying. Making the parallel prove direct copying from *Atrahasis*, or settle whether a flood happened. Picking Eden as one of the two: its sin is disobedience, not violence.
+
 **Model answer:** (a) The gods of *Atrahasis* are kept awake by the noise of a labour force grown too large, so the flood fixes an inconvenience and involves no guilt. Genesis blesses human increase (1:28) and sends the flood because the earth is full of violence, so humans are blessed creatures judged for what they do, not servants culled for their noise. (b) Cain's murder of his brother and Lamech's seventy-sevenfold vengeance are the violence that now fills the whole earth. The flood caps a story in which sin spreads from one household to all flesh.
 
 </details>

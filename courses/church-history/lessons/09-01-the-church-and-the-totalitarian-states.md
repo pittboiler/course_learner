@@ -96,8 +96,11 @@ Identify four factual errors and correct each. Then say, in one sentence, what t
 **P1** *(Exegetical (a) · Formal (b))*
 
 **Must hit, strict (a):** (i) **Treaty**: it creates and recognizes the new state, and sovereignty is the Treaty's business. (ii) **Concordat**: it regulates the Church's life inside Italy. (iii) **Treaty**: Article 1 of the Treaty reaffirms the principle of the 1848 Statute that Catholicism is the sole religion of the state. (iv) **Concordat**: Article 43 on Catholic Action, the clause the 1931 clash was fought over. (v) **Financial Convention**: the compensation for 1870.
+
 **Must hit, strict (b):** coupon $= 0.05 \times 1{,}000{,}000{,}000 = 50{,}000{,}000$ lire a year. Multiple: $50{,}000{,}000 / 3{,}225{,}000 = 15.503\ldots \approx$ **15.5** (computed in Python). The lira of 1929 was worth far less than the lira of 1871, because of the First World War's inflation above all, so a nominal comparison across 58 years overstates the real gain.
+
 **Wrong turns:** putting (iii) in the Concordat. It sounds like church–state regulation, but it is Article 1 of the Treaty (the 1984 revision later declared the principle no longer in force in an additional protocol). Adding the 750 million cash to the annual figure. Treating 15.5 as a real-terms ratio.
+
 **Model answer:** (a) (i) Treaty, since it founds the state; (ii) Concordat, since it concerns Church life in Italy; (iii) Treaty, its Article 1; (iv) Concordat, Article 43; (v) Financial Convention, the compensation. (b) 50 million lire a year, about 15.5 times the 1871 annuity. Prices had risen steeply since 1871, so the real multiple is much smaller.
 
 ---
@@ -105,7 +108,9 @@ Identify four factual errors and correct each. Then say, in one sentence, what t
 **P2** *(Exegetical)*
 
 **Must hit, strict:** four of these five errors, each corrected. (1) It was written in **German**, not Latin. (2) It was **smuggled in and printed secretly**, some 300,000 copies, and read from the pulpits on Palm Sunday, 21 March. It was not sent openly through diplomatic channels. (3) It **named neither Hitler nor National Socialism**. It condemned exalting race, people or state into an idol. (4) It **did not end the concordat**. It accused the regime of breaking it and appealed to fidelity to treaties, and the concordat stayed in force. (5) The regime did not merely ignore it: the **Gestapo seized the presses** (twelve) and arrested people involved in the distribution. For the final sentence: secret delivery shows the Church could no longer rely on the treaty's own guarantee (Article 4: pastoral letters may be published without hindrance) to carry its public word. Instrument 1 had failed, and instrument 2 had to route around the state.
+
 **Wrong turns:** counting "1937" or "Pius XI" as errors, since both are right. Saying the encyclical condemned communism, which is *Divini Redemptoris*, five days later. Saying it was drafted by Pacelli alone, when it came from Faulhaber's draft with Pacelli's revisions.
+
 **Model answer:** It was in German, not Latin. It was smuggled in, printed secretly and read from pulpits on 21 March, not sent through diplomatic channels. It named neither Hitler nor National Socialism, attacking instead the idolizing of race, people and state. It did not end the concordat, which it accused the regime of breaking. It was not ignored, either: the Gestapo closed the twelve presses that printed it. The secrecy shows that by 1937 the treaty's promise of free communication with the faithful could not even carry the pope's own letter.
 
 ---
@@ -113,7 +118,9 @@ Identify four factual errors and correct each. Then say, in one sentence, what t
 **P3** *(Evaluative)*
 
 **Must hit, any verdict:** (1) State the claim's evidence at its strongest: the bishops' collective letter of July 1937 backed the Nationalists, and the hierarchy's public alignment with Franco's side was real. (2) State the evidence that strains "simply": 6,832 clergy and religious killed in the Republican zone (Montero Moreno), which makes the Church a victim before it was an ally; Vidal i Barraquer's refusal to sign; Múgica's objection over the Basque priests shot by Nationalists. (3) Separate *why* the hierarchy aligned (persecution) from *whether* it aligned, and say which the claim is about. (4) Give a verdict on "simply," and say what evidence would move it.
+
 **Wrong turns:** answering whether the alignment was justified, which was not asked. Citing the killings as if they disproved the alignment, or the alignment as if it discounted the killings. Treating the hierarchy as one voice.
+
 **Model answer, one of several:** The claim is right about the public stance. The collective letter of 1 July 1937 put nearly all the bishops behind the Nationalists. "Simply" fails on two counts. First, the alignment followed the killing of 6,832 clergy and religious in the Republican zone, most in the war's first months, so the Church entered the alliance as a persecuted body, not a neutral one. Second, the hierarchy was not unanimous. Vidal i Barraquer refused to sign, and Múgica protested the Nationalists' shooting of Basque priests. A fair version reads: "the Spanish hierarchy, persecuted by one side, publicly allied with the other, with dissent at its edges." Evidence of wide clerical support for the rising before July 1936 would push back toward the original claim.
 
 </details>
@@ -126,8 +133,11 @@ Identify four factual errors and correct each. Then say, in one sentence, what t
 <summary>Solution</summary>
 
 **Must hit, strict (a):** amnesty (July 1846) → constitution (March 1848) → allocution refusing war on Austria (April 1848) → Rossi killed (November 1848) → flight to Gaeta (November 1848, nine days after Rossi's death) → Roman Republic proclaimed (February 1849) → return to Rome (April 1850).
+
 **Must hit, strict (b):** the allocution of 29 April 1848: he would not make war on Catholic Austria for Italian unity, and nationalist enthusiasm for the "liberal pope" turned against him. His restoration depended on France: French troops took Rome in the summer of 1849, and a French garrison guarded the city for most of the next twenty years. France declared war on Prussia on 19 July 1870 and recalled the garrison in early August; after Sedan (2 September), Italian troops entered Rome on 20 September.
+
 **Wrong turns:** putting the Roman Republic before the flight (the Republic was proclaimed after Pius had left); placing the constitution before the amnesty; naming Rossi's murder as the turning point of opinion (the turn came with the allocution, seven months earlier); saying Italian troops defeated the French garrison.
+
 **Model answer:** (a) Amnesty, July 1846; constitution, March 1848; allocution, April 1848; Rossi stabbed, November 1848; flight to Gaeta, November 1848; Roman Republic, February 1849; return, April 1850. (b) The allocution of April 1848 did it: a pope who would not fight Catholic Austria for Italy could not lead the national cause. After 1849 his rule in Rome rested on French troops, and when France recalled them for its war with Prussia in 1870, Italian troops entered Rome on 20 September.
 
 </details>

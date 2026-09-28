@@ -100,6 +100,7 @@ Meanwhile the Jewish banks did not simply vanish. A monte's capital was limited:
 (c) Entry fee on 10 lire: 10 soldi $= 0.5$ lira. Over $t$ months, the monte costs $10 \times 0.06 \times t/12 + 0.5 = 0.05t + 0.5$ lire and the bank costs $10t/60 = t/6$ lire. Setting them equal: $t(\tfrac{1}{6} - \tfrac{1}{20}) = 0.5$, so $t = 0.5 \times \tfrac{60}{7} = \tfrac{30}{7} \approx 4.3$ months. The monte is cheaper for loans longer than about 4.3 months. Check at 5 months: monte $0.75$ lira (15 soldi) vs bank $\tfrac{5}{6}$ lira (16 soldi 8 denari).
 
 **Must hit, strict:** the per-month fraction 1/60; the two-thirds cap applied before comparing; simple interest; the break-even set up with the fixed fee.
+
 **Wrong turns:** treating 4 denari per lira as 4% a month (240 denari to the lira, not 100); letting the monte lend the full 12 lire.
 
 ---

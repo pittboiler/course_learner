@@ -156,8 +156,11 @@ The positive alternative has a history. The [monti di pietà](../reference.md#mo
 <summary>Solution</summary>
 
 **Must hit, strict (a):** A uses the **modern magisterial sense** (exploiting need: *Rerum Novarum* §20, *OePQ* §16) and is right on its terms: nothing here feeds on need or exceeds the borrower's reach. B uses the **classical sense** (*Vix Pervenit* §3.I) and is right on its terms: with no real *damnum emergens*, *lucrum cessans* or *periculum sortis*, the gain is claimed by reason of the loan, and §3.II rejects exactly A's facts (a moderate rate, a rich borrower, a productive use) as excuses.
+
 **Must hit, strict (b):** they divide on **whether the modern usage has replaced the classical sense or only sits beside it unwithdrawn**; neither disputes the other's reading of the facts. It would be settled by a magisterial act that withdraws or reaffirms the classical definition, and none exists (the responses and can. 1543 were pastoral and disciplinary, not revisions), so whether the classical sense still binds such lending is **freely disputed (rung 5)**.
+
 **Wrong turns:** treating A and B as disagreeing about the facts. Answering with a verdict on Helena instead of a crux. Citing the nineteenth-century toleration as a ruling that such interest is just (it was a practical norm for confessors). Rescuing B's case with a presumed *lucrum cessans* when the facts exclude it. Calling A's sense a formal redefinition: no act defines the modern sense either.
+
 **Model answer:** (a) A uses the modern sense, exploitation of need, and on it Helena's loan is plainly not usury; B uses the classical sense, gain by reason of the loan itself, and with no title present the 1,500 dollars is exactly what *Vix Pervenit* §3.I–II condemns. (b) The crux is whether modern usage has displaced the classical definition or merely stopped invoking it. Only an act withdrawing or reaffirming that definition would settle it; none has been issued, so the question is freely disputed.
 
 </details>

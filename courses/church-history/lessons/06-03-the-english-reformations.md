@@ -90,8 +90,11 @@ Name three historical claims the script depends on. For each, say what in the re
 **P1** *(Exegetical.)*
 
 **Must hit, strict (a):** the spiritual sentence is the declaration that she is "a heretic and a favourer of heretics" who, with her adherents, has incurred "the sentence of anathema" and is "cut off from the unity of the body of Christ". The political sentence is that she is "deprived of her pretended right to the aforesaid kingdom" and that her subjects are "absolved forever from that oath and from every duty of lordship, fealty and obedience". The political sentence is the one that goes beyond excommunication.
+
 **Must hit, strict (b):** the final two sentences forbid obedience to "her ... mandates and laws" on pain of anathema. So a Catholic must either obey the queen and fall under the Church's sentence, or obey the pope and be disloyal to the Crown. The government could point to the absolution from "fealty and obedience" and the command not to "dare to obey her". On those words, a priest who brought or stood by the bull's authority was, in law, withdrawing subjects from their allegiance.
+
 **Wrong turns:** treating the excommunication alone as the source of the treason charge (popes had excommunicated rulers without deposing them); saying the bull launched the Northern Rising (it came after); saying the bull called for her assassination (it does not).
+
 **Model answer:** (a) The spiritual sentence is "a heretic and a favourer of heretics ... incurred the sentence of anathema ... cut off from the unity of the body of Christ." The political one is "deprived of her pretended right to the aforesaid kingdom" and the subjects "absolved forever ... from every duty of lordship, fealty and obedience." (b) Obey the queen and incur anathema, or obey the pope and deny the Crown obedience. The government cited "absolved ... from every duty of ... fealty and obedience" and "forbid ... to dare to obey her" to argue that a priest acting on Rome's authority was undoing allegiance, which is treason.
 
 ---
@@ -107,7 +110,9 @@ Name three historical claims the script depends on. For each, say what in the re
 Every pairing leaves Mary's rate several times Elizabeth's, and the answer moves by more than a factor of two depending on which years you choose to count.
 
 **Must hit, any verdict (b):** (i) state what is robust: on any pairing, Mary's government killed for religion at a far higher annual rate. (ii) Name at least two things the comparison omits or distorts. These include: the charge (heresy against treason statutes that made priesthood itself treason); the choice of denominator (shown in (a)); the several hundred executed after the Northern Rising and the Catholics who died in prison, both outside the 189; fines, imprisonment and exclusion, which a death count does not measure; the war with Spain after 1585. (iii) Say what "tolerant" would have to mean for the claim to hold, and whether the evidence supports that.
+
 **Wrong turns:** treating the 189 as the whole Elizabethan cost; treating "executed for treason" as settling that no one died for religion (or the reverse); comparing raw totals without any time base.
+
 **Model answer, one of several:** The comparison shows something real: however you pick the years, Mary's regime killed for religion seven to seventeen times faster. It does not show that Elizabeth was tolerant. Her statutes made a priest's mere presence in England treason, and she enforced recusancy by fines and prison. The 189 also leaves out several hundred rebels hanged in 1569–70 and those who died in custody. The names matter, since the government insisted it punished treason, and the "bloody question" shows how far that could stretch. My verdict: "persecutor" fits both reigns, and the numbers measure intensity rather than principle.
 
 ---
@@ -119,7 +124,9 @@ Every pairing leaves Mary's rate several times Elizabeth's, and the answer moves
 (2) *Henry dissolved the houses as a Protestant reformer.* Henry kept Catholic doctrine (Six Articles, 1539) and burned Protestants. The dissolution followed from the royal supremacy and the Crown's need for money. It was not a Protestant programme.
 (3) *The abbots went quietly.* The abbots of Glastonbury, Reading and Colchester were executed in 1539, and abbots were among those executed after the Pilgrimage.
 (4) *The North did nothing.* The Pilgrimage of Grace (October 1536) gathered perhaps 30,000 men, demanded that the abbeys be saved, and put monks back into some suppressed houses. About 216 people were executed afterwards.
+
 **Wrong turns:** saying the visitors fabricated everything (the evidence is exaggeration and selection, not wholesale invention); turning the answer into the fast-versus-slow debate about belief, which the script does not raise.
+
 **Model answer:** The script depends on three claims. First, that the visitors' reports prove corruption. But Cromwell's men knew such findings were wanted and put the worst construction on what they heard, and the 1536 act dissolved houses by income, not by conduct. Second, that Henry acted as a Protestant. He kept Catholic doctrine in the Six Articles and burned Protestants. The dissolution followed from the supremacy and his need for money. Third, that the North accepted it quietly. The Pilgrimage of Grace, perhaps 30,000 strong, demanded that the abbeys be saved and restored some monks, and about 216 people were executed after it. Three abbots were hanged in 1539.
 
 </details>
@@ -132,7 +139,9 @@ Every pairing leaves Mary's rate several times Elizabeth's, and the answer moves
 <summary>Solution</summary>
 
 **Must hit, strict:** (i) The **ecclesiastical reservation** (article 18): a bishop who converts must give up his see, so the church lands stay Catholic and do not follow him. He may change his own religion but not take the territory with him. (ii) **Article 17** excludes all who do not belong to the two named religions. The Reformed claimed the protection of the Augsburg Confession, but Catholics and Lutherans argued for ninety years that it did not cover them. So the Palatinate's standing was contested, and that gap was closed only when Westphalia admitted the Reformed in 1648. (iii) The peace required imperial cities that were already mixed to **keep both confessions**, so the council may not suppress Lutheran worship. **Last part:** (iii), or (i), since in each the ruler does *not* decide the religion. Either answer earns credit with the reason stated.
+
 **Wrong turns:** giving the burgher only article 24's right to emigrate, which is the answer for a subject in a single-confession territory, not a mixed city; saying the peace protected Calvinists outright; treating *cuius regio* as a phrase in the treaty.
+
 **Model answer:** (i) The ecclesiastical reservation of article 18 lets the bishop change his own faith but requires him to give up his see, so its lands stay Catholic. (ii) Article 17 excludes anyone outside the two named religions, and Catholics and Lutherans read that as shutting out the Reformed. The Palatinate's Calvinism therefore stood outside the peace's clear protection until Westphalia admitted the Reformed in 1648. (iii) Imperial cities that were already mixed had to keep both confessions, so the council cannot abolish Lutheran worship. The mixed city shows the formula's overstatement most plainly, since there the ruling council may not impose its own religion at all.
 
 </details>

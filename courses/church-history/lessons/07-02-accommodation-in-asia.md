@@ -100,8 +100,11 @@ Identify three distinct errors or overstatements, and for each give the correcti
 **P1** *(Exegetical.)*
 
 **Must hit, strict (a):** (i) permitted: dress is a civil custom and the bull does not touch it. (ii) permitted: the bull expressly keeps *Tianzhu*. (iii) forbidden: *Tian* and *Shangdi* are both banned as names for God. (iv) forbidden: the bull orders such plaques taken down from churches. (v) forbidden: the bull names officials' worship in Confucian temples, as well as the seasonal sacrifices, among the banned acts. (vi) permitted: a tablet with only the name and a Christian inscription is allowed; offerings and rites before it are not.
+
 **Must hit, strict (b):** customs and ideas had changed over the centuries, so ceremonies once tied to pagan religion now carried only civil meaning (piety toward ancestors, love of country, courtesy). The instruction did not declare the 1715 judgement mistaken for its own time.
+
 **Wrong turns:** marking (i) forbidden because "Rome banned accommodation"; marking (ii) forbidden because Ricci chose it; marking (v) permitted because the bull tolerated passive presence in narrow cases (performing the worship is not passive presence), or because 1939 allowed attendance (that is 1939's rule, not 1715's); saying 1939 declared the rites "never religious."
+
 **Model answer:** (a) (i) permitted, civil dress; (ii) permitted, the term the bull approves; (iii) forbidden, named in the ban; (iv) forbidden, plaques to come down; (v) forbidden, officials' temple worship is named; (vi) permitted, name-only tablet with Christian inscription. (b) The instruction held that with the change of customs and thinking over centuries, these ceremonies had come to express only civil respect for ancestors, country and neighbours, so Catholics could take part.
 
 ---
@@ -109,8 +112,11 @@ Identify three distinct errors or overstatements, and for each give the correcti
 **P2** *(Exegetical (a) · Evaluative (b).)*
 
 **Must hit, strict (a):** any three of: (1) **the translation**: the emperor reacted to a Chinese version made at his court by missionaries, not to the Latin, so its wording shaped his reaction; (2) **the genre**: a written comment on a document inside the palace, not a promulgated edict, so it shows his view but is not itself the law of the empire; (3) **the context**: it came at the end of a process that began with Tournon (1705–07) and the permit system of 1706, so it is not a first response; (4) **transmission**: it survives in Qing palace records and reaches most readers through modern English paraphrase, so check the Chinese before resting weight on a word.
+
 **Must hit, any verdict (b):** state the case for the claim (the comment's timing and wording tie the order to the bull) and the case against (the hostility predates 1715; the enforced proscription came from Yongzheng in 1724 with other causes), and say what the claim would need to hold.
+
 **Wrong turns:** treating the English wording as the emperor's exact words; ignoring the 1706 permits; treating 1721 as the end of Christianity in China.
+
 **Model answer, (b) one of several:** (a) Who translated the bull, since he read their Chinese, not Clement's Latin. What kind of text this is, since a comment written on a document is not a public edict. And where it sits in time, since the permits of 1706 show his stance was already set by Tournon. (b) The bull was the last straw, not the cause. Kangxi's objection was to a foreign ruler ordering his subjects' conduct, which was settled in 1706. The comment of 1721 hardened it, and the proscription that bit came in 1724 under a different emperor. The claim holds only in the weak form "the ruling removed the compromise that had kept the peace."
 
 ---
@@ -118,7 +124,9 @@ Identify three distinct errors or overstatements, and for each give the correcti
 **P3** *(Exegetical.)*
 
 **Must hit, strict:** three of: (1) the suppression was driven by the Catholic crowns (Portugal 1759, France 1764, Spain 1767, the Bourbon courts' pressure on the pope), not by a Dominican victory on the rites; (2) *Dominus ac Redemptor* gives the Church's peace as its ground and mentions the rites only among many quarrels, without condemning Jesuit doctrine; (3) the rites had already been settled against the Jesuits in 1715, 1742 and 1744, decades earlier, so 1773 decided nothing about them; (4) 1939 did not say the Jesuits had been right; it said the rites' meaning had changed; (5) the order had been restored in 1814, so its standing did not wait for 1939.
+
 **Wrong turns:** saying Clement XIV condemned Jesuit doctrine; saying 1939 reversed the suppression; giving one error three times in different words.
+
 **Model answer:** First, the suppression came from the Catholic crowns, not the Dominicans: Pombal's Portugal, then France and Spain, whose ambassadors pressed Clement XIV. Second, the brief suppressed the order for the Church's peace and did not condemn its doctrine or rule on China; the rites had been decided in 1715, 1742 and 1744. Third, *Plane compertum est* did not vindicate the Jesuits. It held that the ceremonies' meaning had changed over the centuries to something civil, and it left the earlier rulings standing for their time.
 
 </details>
@@ -131,8 +139,11 @@ Identify three distinct errors or overstatements, and for each give the correcti
 <summary>Solution</summary>
 
 **Must hit, strict (a):** (i) Roman Inquisition: Paul III's congregation of cardinals (1542) supervised the Italian tribunals and condemned him. (ii) Spanish Inquisition: the Logroño tribunal's sentence, before Salazar's investigation and the Suprema's rules of 1614 ended the burning of witches. (iii) Spanish crown: an act of Philip III, not a sentence of the tribunal. (iv) Another authority: a diocesan "junta of faith" standing in for the Inquisition, which had been suspended in 1820. (v) Portuguese Inquisition: founded in 1536 on the Spanish model, it opened the Goa tribunal in 1560.
+
 **Must hit, strict (b):** an inquisition had jurisdiction only over the baptized, so unbaptized Jews could be expelled by royal decree but not tried for heresy.
+
 **Wrong turns:** assigning (i) to the Spanish Inquisition, or treating Rome and Spain as one "Inquisition"; assigning (iii) to the tribunal because the Moriscos, as baptized Christians, fell under its jurisdiction (trying them and expelling them are different acts, and the expulsion was the crown's); assigning (iv) to the Spanish Inquisition proper. Adding that the secular arm carried out the burnings in (i) and (ii) is correct and does not change the answer.
+
 **Model answer:** (a) (i) Roman Inquisition, the papal tribunal; (ii) Spanish Inquisition, the Logroño tribunal; (iii) the Spanish crown, a royal expulsion; (iv) a diocesan junta of faith, since the tribunal was suspended; (v) the Portuguese Inquisition, its tribunal in Asia. (b) The tribunals judged only baptized Christians suspected of heresy, so Jews who had never been baptized were outside their jurisdiction and were dealt with by the crown's decree.
 
 </details>

@@ -109,8 +109,11 @@ Two readings. **(R1)** Natural ends need a mind directing them; Aristotle's poin
 **P1** *(Exegetical (a) · Evaluative (b))*
 
 **Must hit, strict (a):** material: the saplings, sticks and mud. Formal: the structure of a dam, what makes these sticks a barrier holding back water, not a heap. Efficient: the beaver building it (in the strict sense, the beaver in virtue of its building capacity). Final: the pond, and through it the beaver's safety and food store, i.e. the beaver's life.
+
 **Must hit, any verdict (b):** apply II.1 — the dam has no inner source of motion and rest: it does not grow, reproduce or repair itself, and its principle of change is in the beaver, as an artefact's is in the craftsman. Then II.8 — it is made for an end without art, inquiry or deliberation, which is the mark Aristotle gives natural making (he uses spiders and swallows). So the case sits between his categories: made like an artefact, aimed like nature. A verdict either way passes if both criteria are applied and the tension is named.
+
 **Wrong turns:** giving "the beaver's plan" as the formal cause, which imports the intention II.8 denies; calling the dam a natural thing because a natural animal made it, which confuses "having a nature" with "coming from something that has one".
+
 **Model answer (b), one of several:** No: the dam has no nature of its own. Its source of change lies outside it, in the beaver, and once built it neither grows nor mends itself, which is exactly II.1's mark of an artefact. But it is not made by art either: the beaver neither learns a craft nor deliberates, and II.8 treats that kind of making (the spider's web) as nature at work for an end. The best fit is that the dam is *by nature* in the sense of being the product of the beaver's nature, while not itself a natural thing. Aristotle's pair "nature or art" classifies the source of the making; "has a nature" classifies the product. The beaver pulls them apart.
 
 ---
@@ -118,7 +121,9 @@ Two readings. **(R1)** Natural ends need a mind directing them; Aristotle's poin
 **P2** *(Exegetical — strict)*
 
 **Must hit, strict:** R2. Deciding words: "It is absurd to suppose that purpose is not present because we do not observe the agent deliberating" (purpose is detached from observed deliberation); "Art does not deliberate" (even purposive making needs no reasoning in the moment); "If the ship-building art were in the wood" (the end-directed principle placed *inside* the material, with no maker outside); "a doctor doctoring himself: nature is like that" (the principle of change and its end inside the same thing). The passage leaves open whether a mind is needed somewhere *else* — it never discusses a cosmic or divine intelligence, so it does not refute R1 at that level; it only shows Aristotle's argument does not rely on one.
+
 **Wrong turns:** reading "whether it is by intelligence or by some other faculty" as Aristotle's endorsement of animal intelligence (he reports a discussion); treating the ship-building sentence as a claim that wood literally contains craft (it is a counterfactual illustrating internal principles).
+
 **Model answer:** R2. Aristotle denies that purpose needs a deliberating agent ("It is absurd to suppose that purpose is not present because we do not observe the agent deliberating") and backs it with "Art does not deliberate". The counterfactual "If the ship-building art were in the wood" moves the purposive principle inside the material, and the self-healing doctor is chosen because the source of change and its goal sit in one subject: "nature is like that". What the passage does not settle is whether some higher intelligence stands behind nature as a whole; it simply makes no appeal to one. That question comes later, with Aquinas's Fifth Way.
 
 ---
@@ -126,8 +131,11 @@ Two readings. **(R1)** Natural ends need a mind directing them; Aristotle's poin
 **P3** *(Exegetical (a) · Evaluative (b))*
 
 **Must hit, strict (a):** Antiphon: P1 a thing's nature is what it really is, underneath what is imposed on it. P2 if a buried bed sprouted, what grew would be wood, not bed. P3 so the bed-shape is an incidental arrangement by art, and the wood persists. ∴ the nature is the matter. Aristotle: P1' what a thing generates shows its nature. P2' man comes from man, but bed does not come from bed. ∴ in natural things form is reproduced, so form is nature more than matter is (and the bed's sprouting wood shows only that the *wood* has a nature, the bed not). Crux: whether nature is marked by what *persists* under change (Antiphon) or by what *reproduces itself* (Aristotle).
+
 **Must hit, any verdict (b):** say whether Antiphon would grant that generation, not persistence, is the test; and note that Aristotle keeps Antiphon's datum and reinterprets it.
+
 **Wrong turns:** saying Aristotle denies that matter is ever nature — he allows that matter is called nature in one sense, form in another, and form more properly.
+
 **Model answer (b), one of several:** He answers on shared ground: both accept the sprouting bed, and Aristotle uses it to show that the bed has no nature at all, only its wood. But Antiphon's test was persistence, and Aristotle's is reproduction, so to that extent the question has shifted.
 
 </details>

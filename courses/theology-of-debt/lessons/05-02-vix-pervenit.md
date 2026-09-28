@@ -146,9 +146,13 @@ Name **three** errors and correct each from the encyclical, with its section. **
 <summary>Solution</summary>
 
 **Must hit, strict (a):** P1: a *mutuum* makes the money the borrower's, puts every risk on him, and obliges him to return the principal whatever happens. P2: usury is a charge for such a loan as such. P3: the census buyer buys a right to a yearly rent charged on real, fruitful property, in proportion to its yield. P4: if the property perishes, the rent fails, so the buyer carries the property's risk. P5: only the seller may redeem; the buyer cannot demand the price back. ∴ C: the census lacks the marks of a loan, so its rent is not a price for a loan, and it is not usury.
+
 **Must hit, strict (b):** yield $90/1000 = 9\%$ a year. Share of the meadow's yield: $90/60 = 1.5$, i.e. **150%**. The condition that fails is **proportion to the property's yield** (in P3). The meadow can pay at most 60, so the other 30 a year must come from the knight's other goods and labor. That part rests on his **person**, not on the thing, which is how a personal debt is paid, not a rent on land.
+
 **Must hit, strict (c):** Martin V's *Regimini universalis* (1425) and Callixtus III's reissue under the same title (1455) are **papal decisions resolving a disputed practice**: **authentic ordinary magisterium (rung 3) for the practice they approve, under their conditions**. They define nothing about usury in general, and a rent that outruns its property's fruit fails the conditions, so the approval **does not reach** the knight's contract.
+
 **Wrong turns:** passing the contract because P4 (risk) and P5 (redemption) still hold. Those are necessary, not sufficient, and the proportion condition exists for exactly this case. Treating the 9% rate itself as the fault: a 9% census within the fruit could pass. Calling the bulls definitions, or calling them mere tolerance.
+
 **Model answer (b), last step, and (c):** The rent takes 150% of the meadow's fruit, so it breaks the proportion condition, and 30 a year can be paid only from the knight's person and other goods, as a personal debt is. That part is no longer a rent bought from a thing. The census bulls of Martin V (1425) and Callixtus III (1455) are papal decisions, authentic ordinary magisterium for the contract they approve under their conditions, and not definitions about usury. Because this rent outruns its property, their approval does not cover it.
 
 </details>

@@ -97,22 +97,31 @@ Supplied facts: Kings gives Manasseh a fifty-five-year reign (21:1) and makes hi
 **P1** *(Exegetical (a) · Exegetical (b))*
 
 **Must hit, strict (a):** it is called **"the book of the law"** and **"the words of the law of the Lord"**, and in 22:13 **"this book which is found"**. The text treats it as **old and neglected, not new**: "our fathers have not hearkened to the words of this book". It contains **threats**: hearing it kindles "the great wrath of the Lord", and Josiah **rends his garments**. The text **does not name Deuteronomy or Moses** as its author.
+
 **Must hit, strict (b):** (i) An **identification**, old (Jerome; Challoner's note) and shared by most critics, with **no magisterial standing**. It is a scholarly judgement from the match with Deuteronomy's demands (centralization, Passover). (ii) **De Wette's thesis (1805)** in its strong form, a **disputed hypothesis**. The majority dates a core of Deuteronomy to the seventh century, but "composed just before" is narrower and contested. (iii) **Church teaching**: inspiration is defined dogma (Vatican I; Dei Verbum 11); inerrancy is taught at the highest weight, its scope freely disputed (`fundamental-theology` 3.2).
+
 **Wrong turns:** reading "Deuteronomy" out of the Douay text, where it is only in Challoner's note. Saying the text *claims* the book is new. The fathers' neglect implies the opposite. Calling (ii) "the scholarly consensus" or "condemned".
+
 **Model answer:** (a) "The book of the law"/"the law of the Lord", presented as old, since "our fathers have not hearkened" to it. It contains threats, since it provokes "great wrath" and rent garments. It is not named as Deuteronomy and has no author. (b) (i) Traditional and critical identification, not Church teaching. (ii) Disputed hypothesis (de Wette's strong form). (iii) Church teaching, Dei Verbum 11.
 
 **P2** *(Exegetical (a) · Exegetical (b) · Evaluative (c))*
 
 **Must hit, strict (a):** Chronicles adds **capture by Assyrian captains, chains, Babylon, prayer and penance, God hearing him, restoration, and a reform** removing the idols. Kings has none of this and lets Manasseh die unrepentant. The addition **explains the long reign** (repentance earns years) but **removes the unrepented sin that Kings makes the cause of the fall** (23:26). The Chronicler has to explain Jerusalem's fall differently, through later kings' own sins.
+
 **Must hit, strict (b):** the Mishnah names Jeroboam, Ahab and Manasseh as having no share. **R. Judah** says Manasseh has a share, citing **"he heard his prayer"** (33:13). The **Sages** reply from the same verse: he was brought back **"to Jerusalem into his kingdom"**, which is a restoration to the throne and not to the world to come.
+
 **Must hit, any verdict (c):** (1) The case for a tradition: the Chronicler cites sources ("the words of Hozai", 33:19). Assyria did hold Manasseh as a vassal. Taking a vassal to Babylon is not impossible, since Assyria ruled Babylon. (2) The case for theology: the story fits the Chronicler's rule that long reigns follow fidelity. It repeats his own patterns of humbling and restoration. No Assyrian text records it. (3) Say what inspiration does and does not require here: the genre and the author's intent (Dei Verbum 12), not a verdict on the captivity's historicity.
+
 **Wrong turns:** treating the Mishnah's dispute as about whether the captivity happened; both sides accept the verse. Setting the Jewish reading up to be refuted. Saying the silence of Assyrian records disproves the story. Silence is weak evidence.
+
 **Model answer (c), one of several:** Theology does most of the work, but it may be working on a tradition. The Chronicler's rule predicts that a fifty-five-year reign needs repentance, and the story follows his template: sin, distress, humbling, restoration. That makes it suspect as independent history. But he names a source, the Assyrians did control Manasseh, and their kings did deal with Babylon, so a summons of a vassal is plausible. The silence of the inscriptions weighs little. My verdict is a historical core of Assyrian pressure on a vassal king, which the Chronicler shaped into a conversion. Nothing in the doctrine of inspiration decides this. It asks what the Chronicler meant to teach, and he clearly meant to teach that repentance is heard.
 
 **P3** *(Exegetical)*
 
 **Must hit, strict:** (1) **Secure**: the Kurkh monolith, dated by the Assyrian year-lists pinned by the eclipse of 763. (2) **Reconstructed**: biblical regnal totals counted back from fixed Assyrian points, with a margin of years. (3) **Disputed**: the fall in 722/721 is secure, but Kings names Shalmaneser as besieger, Sargon claims the capture, and historians divide. (4) **Disputed** within a secure event: 2 Kings 25:8's "nineteenth year" counted from 597, where different regnal-year counting gives 587 or 586. (5) **Secure**: the Babylonian Chronicle, to the month. (6) **Disputed**: majority critical view since de Wette, and no composition theory is settled.
+
 **Wrong turns:** marking (4) as simply secure. The event is secure within a year, but the question asks *which* year. Marking (6) secure because it is the majority. Marking (2) secure because the Bible gives regnal years; they must be synchronized, not read off.
+
 **Model answer:** as the must-hit list, one line each.
 
 </details>
@@ -133,8 +142,11 @@ Two readings. **Reading 1** (the sequential reading 3.1 gave): the offer of peac
 <summary>Solution</summary>
 
 **Must hit, strict (a):** the crux is **"So shalt thou do"** (v. 15). On **Reading 1** it covers the whole procedure of vv. 10–14, *including the offer of peace*, so v. 10 applies only to distant cities. On **Reading 2** it covers only the treatment of a city *after it refuses* (vv. 13–14: men killed, women, children and spoil kept). The offer of v. 10 then stays general, and vv. 16–17 only make the outcome of refusal harsher for the cities of the land: none spared.
+
 **Must hit, strict (b):** for **Reading 1**, Deuteronomy 7:2 ("thou shalt utterly destroy them. Thou shalt make no league with them") or Joshua 9:6–7. There the Gibeonites pretend to come "from a far country", because Israel answers that if they dwell in the land "we can make no league with you". For **Reading 2**, Joshua 11:19–20: "There was not a city that delivered itself to the children of Israel, except the Hevite, who dwelt in Gabaon". The cities fought because their hearts were hardened, which implies that surrender and peace were open to them.
+
 **Wrong turns:** treating Reading 2 as an apologetic softening rather than a reading of the text's structure, stated as the tradition states it. Making the crux historical (did a conquest happen?) when it is a question about the scope of a law. Thinking the Douay's "kill" against the Hebrew *herem* decides between the readings. It does not touch the scope of v. 15.
+
 **Model answer:** (a) The dispute is over what "So shalt thou do" in verse 15 refers back to. Reading 1 takes it to cover the whole procedure, offer of peace included, so the seven nations get no offer. Reading 2 takes it to cover only what is done to a city that has refused, so every city is offered peace first. (b) Reading 1 cites Deuteronomy 7:2's "make no league with them", borne out when Israel tells the Gibeonites it could make no league with people of the land (Josh 9:7). Reading 2 cites Joshua 11:19–20: no city "delivered itself" except Gibeon, because the rest were hardened to fight, which assumes that peace was on offer.
 
 </details>

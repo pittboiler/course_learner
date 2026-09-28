@@ -100,8 +100,11 @@ Name three distinct historical errors in the placard. For each, give the evidenc
 **P1** *(Exegetical.)*
 
 **Must hit, strict (a):** the tribute paid for **protection**. The words that show it are the Muslims' own reason for refunding it: "We are too busy to support and protect you." Because they could no longer defend the city, they returned the payment. This matches the Damascus treaty's condition in the Source ("so long as they pay the poll-tax").
+
 **Must hit, strict (b):** the limiting words are the other cities' conditional: "If Heraclius and his followers win over the Moslems we would return to our previous condition, otherwise we shall retain our present state so long as numbers are with the Moslems." That is a wait-and-see calculation about the winning side, not a welcome. The source fact: Baladhuri was a Muslim scholar writing around 250 years later (he died c. 892) at the caliph's court, reporting a tradition that flatters the conquerors. Acceptable alternatives are that the story reaches him through a chain of Muslim transmitters, or that Hims speaks for itself only while the other cities hedge.
+
 **Wrong turns:** reading "we like your rule and justice" as the passage's last word, when the next sentence qualifies it; saying the tribute bought exemption from military service (the passage names protection, and the claim goes beyond the text).
+
 **Model answer:** (a) It paid for protection: the Muslims return it because "we are too busy to support and protect you," so payment and defence are two sides of one bargain. (b) The other cities say they will go back to their "previous condition" if Heraclius wins and stay as they are "so long as numbers are with the Moslems," which is prudence about the winner, not welcome. And the whole scene comes from Baladhuri, a Muslim court scholar writing some 250 years later.
 
 ---
@@ -109,8 +112,11 @@ Name three distinct historical errors in the placard. For each, give the evidenc
 **P2** *(Exegetical (a) · Evaluative (b).)*
 
 **Must hit, strict (a):** P1: papyrus was made only in Egypt and reached the West by Mediterranean trade. P2: papyrus disappears from Gaul after the seventh century (the last Merovingian royal papyrus is from 692), after Egypt fell to the Arabs. C: the Arab conquest cut the West's Mediterranean trade, and the West had to fall back on local parchment.
+
 **Must hit, any verdict (b):** say that the Roman evidence hits **P1's supply claim**. Papyrus from Muslim-ruled lands still reached a western buyer for centuries after the conquest, so the conquest did not by itself stop supply. Then either (i) absorb it: Rome had routes Gaul lacked, through Byzantine southern Italy, so the sea was closed to Gaul but not to Rome; or (ii) take it as fatal to the papyrus argument: if supply continued, Gaul's switch needs another cause, such as cost, lower demand from a shrinking royal chancery, the durability of parchment in a damp climate, or Gaul's own economic decline before the conquest (Hodges and Whitehouse). Either way, name the test: evidence on whether any papyrus reached Gaul after 692, or when Gaulish parchment use began to rise relative to the conquest of Egypt.
+
 **Wrong turns:** treating the problem as a verdict on the whole Pirenne thesis (it tests one strand); saying papyrus production stopped with the conquest (Rome's documents show it did not); forgetting that "last surviving" is a fact about survival, and more documents may once have existed.
+
 **Model answer (b), one of several:** The Roman evidence hits P1's assumption that the conquest cut supply. Papyrus from Muslim-ruled lands reached the papal chancery until 1057, so the sea was not closed to papyrus as such. A defender can reply that Rome sat on routes Gaul lacked, through Byzantine southern Italy, so only the Frankish West was cut off. But that concedes the argument has moved from "the Arabs closed the sea" to "Gaul lost access," which a decline in Gaul itself explains just as well. My verdict: the papyrus argument is badly weakened. To test it, I would want to know whether Gaul's switch to parchment began before 641 (favouring internal decline) or only after (favouring Pirenne).
 
 ---
@@ -118,7 +124,9 @@ Name three distinct historical errors in the placard. For each, give the evidenc
 **P3** *(Exegetical.)*
 
 **Must hit, strict:** three errors from this set, each with evidence. (1) **Conquest is conflated with conversion** ("within a generation … vanished"): Bulliet puts Muslim majorities in Egypt, Syria and Iraq around the tenth century at the earliest, and later scholarship pushes Egypt later still. Benjamin's restored Coptic church shows Christian institutions continuing under Muslim rule. (2) **"Shut out of public life" is false for the early period:** Sarjun ibn Mansur ran Syria's fiscal administration until about 700, and John of Damascus probably served after him. *Concede:* exclusion came later and unevenly, with Abd al-Malik's Arabization, al-Mutawakkil's decrees of 850, and Muhammad I's purge of Christian officials after 852. (3) **Córdoba's martyrs were not resisting forced conversion:** most were executed for publicly denouncing Muhammad (blasphemy) or, as children of mixed marriages, for professing Christianity (apostasy in law). A council of bishops in 852 discouraged seeking martyrdom. The historians' debate is over protest against assimilation (Coope) or penitential ideals (Wolf). *Concede:* the executions were real, and the law made both acts capital.
+
 **Wrong turns:** disputing "Syria to Spain by 750" (roughly right, and Spain was entered in 711); calling the placard wrong because Christians "welcomed" the Arabs (over-correcting with late, partisan evidence); using the Pact of Umar as a seventh-century source for restrictions.
+
 **Model answer:** First, it conflates conquest with conversion. Churches did not vanish within a generation: Bulliet puts Muslim majorities around the tenth century at the earliest, and Egypt's Coptic church was restored under Benjamin. Second, Christians were not shut out at first. John of Damascus's father ran Syria's finances until about 700. Exclusion came later, with Arabization and the decrees of 850 and 852, which is the true part. Third, the Córdoba martyrs were not refusing forced conversion. Most were executed for publicly denouncing Muhammad, or for apostasy as children of mixed marriages. Their own bishops discouraged it in 852, and historians read the movement as protest against assimilation. The executions themselves were real.
 
 </details>
@@ -131,9 +139,13 @@ Name three distinct historical errors in the placard. For each, give the evidenc
 <summary>Solution</summary>
 
 **Must hit, strict (a):** Theophilus deposed John Chrysostom (403); Cyril deposed Nestorius (Ephesus, 431); Dioscorus deposed Flavian (the Robber Synod, Ephesus, 449).
+
 **Must hit, strict (b):** any two of: Theodosius II died in 450, and his successor Marcian, married to Pulcheria, called a new council near the capital; the 449 council was never received, and Leo branded it a *latrocinium*; Leo's Tome, which Dioscorus had refused to have read in 449, was read and received in 451, with Leo's legates holding first place.
+
 **Must hit, strict (c):** doctrine: Egypt saw the definition as a betrayal of Cyril's formula, "one incarnate nature of God the Word." Sees: the council deposed Alexandria's own bishop, Dioscorus, in favour of a settlement run from the capital by imperial officials.
+
 **Wrong turns:** counting Chalcedon as a fourth Alexandrian victory; saying Dioscorus deposed Eutyches (he restored Eutyches; Flavian had condemned him); calling the Egyptians "monophysites" who denied Christ's humanity (they were miaphysites and condemned Eutyches too).
+
 **Model answer:** (a) Theophilus deposed Chrysostom in 403, Cyril deposed Nestorius at Ephesus in 431, and Dioscorus deposed Flavian at the Robber Synod in 449. (b) Theodosius II died in 450, and Marcian and Pulcheria called a new council near the capital that reversed 449. Leo's Tome, which Dioscorus had kept from being read in 449, was now read and received, and Leo's legates held first place. (c) Egypt held that the definition betrayed Cyril's "one incarnate nature of God the Word." It also saw its own patriarch deposed by a council run from the emperor's city, so the rivalry of sees and the quarrel over doctrine fed each other.
 
 </details>

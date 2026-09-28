@@ -133,8 +133,11 @@ Name three errors. For each, give the correction and the document that supplies 
 **P3** *(Exegetical)*
 
 **Must hit, strict (a):** "died there" and the burial: a narrator after Moses's death. "Until this present day": a writer looking back across enough time for the grave to be forgotten. "There arose no more a prophet … like unto Moses": a writer who can survey a *series* of later prophets, so a long interval, generations at least.
+
 **Must hit, strict (b):** neither charge applies. It is internal evidence, but the charge was against internal evidence *alone*, and here the text states the fact outright. It assumes nothing against prophecy or miracle. The Challoner note itself assigns the chapter to Joshua "or by some of the prophets", and the 1906 answer allowed later inspired additions.
+
 **Wrong turns:** "Moses wrote his own death by prophecy, so this proves nothing": the passage's *perspective* (looking back) is the point, not whether prediction is possible. Inferring that the whole Pentateuch is late from these verses alone.
+
 **Model answer:** "Died there" and "buried" need a narrator after Moses. "Until this present day" implies the grave has since been lost. "There arose no more a prophet" surveys later prophets, so it is generations later. The argument uses internal evidence but not internal evidence alone, since the text states it, and it needs no premise against miracle. So neither of Leo's charges applies. Even the Douay note gives the chapter to Joshua or a later prophet.
 
 </details>
@@ -153,8 +156,11 @@ Name three errors. For each, give the correction and the document that supplies 
 <summary>Solution</summary>
 
 **Must hit, strict (a):** 2 Chronicles 36:23 ends the **Tanakh** in the Talmud's order (*Bava Batra* 14b) and in most printed Jewish Bibles. It leaves the reader waiting for the **return to the land and the rebuilt Temple**: "build him a house in Jerusalem", "let him go up". Malachi ends the **Protestant Old Testament**. It leaves the reader waiting for **a prophet still to come**, Elias, "before the coming of the great and dreadful day of the Lord", and the next page in a Christian Bible is the New Testament, where John the Baptist appears.
+
 **Must hit, strict (b):** the great **medieval codices put Chronicles first among the Writings**, not last. The **Douay** (following the Vulgate) ends with **1–2 Maccabees**, placed after the prophets.
+
 **Wrong turns:** saying Malachi ends the Tanakh. In the Jewish order it closes the Twelve, and so the Prophets, but the Writings follow. Saying the Douay ends with Malachi. Treating the Jewish ending as a rule of Jewish law rather than an order of books.
+
 **Model answer:** (a) Chronicles closes the Tanakh in its usual printed order. It ends with Cyrus telling God's people to "go up" and build the house in Jerusalem, so the story waits for a return. Malachi closes the Protestant Old Testament. It ends by promising Elias before the day of the Lord, so the collection waits for a prophet, and John the Baptist is on the next page. (b) The great medieval codices put Chronicles at the start of the Writings, so the ending is a convention. The Douay places 1–2 Maccabees after the prophets and ends there.
 
 </details>

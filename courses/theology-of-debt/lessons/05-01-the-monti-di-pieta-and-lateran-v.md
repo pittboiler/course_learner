@@ -172,6 +172,7 @@ Name **three** errors and correct each from the bull. 120 words or fewer.
 - (d) **Misstated: no act defines any title.** The four are common teaching (the Catholic Encyclopedia of 1912, a secondary source, reports them admitted without dispute since the late sixteenth century). *Vix Pervenit* recognizes that titles *can* exist, but it names and lists none.
 
 **Wrong turns:** calling (b) a definition, or "only advice to Italian bishops": it was confirmed, commanded and backed by penalties. Calling (c) a magisterial ruling that later theologians defied. Rescuing (d) by citing *Vix Pervenit*, which lists no titles. Giving (a) rung 3 because *Vix Pervenit* allows titles in general: the encyclical does not name this one.
+
 **Model answer:** (a) Common teaching, from Aquinas's ad 1 and the canonists, with no defining act; stipulating it in advance is Aquinas's own position, narrower among many canonists. (b) Authentic ordinary magisterium, *Vix Pervenit* §3.III; it is binding at that rung, but it is not a definition, and its reach beyond Italy is argued. (c) A theologian's teaching, Aquinas's ad 1; later common teaching admitted the title under conditions, and no definition was overturned. (d) False as stated: no council or pope has defined the titles, which are common teaching; *Vix Pervenit* allows that titles exist but names none.
 
 </details>

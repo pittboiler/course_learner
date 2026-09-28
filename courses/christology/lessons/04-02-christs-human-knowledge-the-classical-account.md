@@ -119,8 +119,11 @@ Three things decide the reading. **"Nothing ... was wanting"** is the soteriolog
 <summary>Solution</summary>
 
 **Must hit, strict (a):** "the same grace" names God's **gratuitous will**, which gives without merit. The sameness lies in the *cause* and its freeness, not in the *gift*. One free will produces two different effects: the union, which is personal being, and habitual grace, which is a quality perfecting the soul for acting. This is the point of q.2 a.10: the union is called grace only because no merit preceded it.
+
 **Must hit, strict (b):** it denies that the union is a kind or degree of habitual grace, a created quality that could be ranked with the saints' graces. It sits outside the scale of habits "even as the Divine Person Himself", because it is the Word's own being given to the nature. Put the two in one genus and the union becomes a matter of degree: Jesus is the most graced of the saints, a man indwelt more fully than the prophets. That is **Nestorianism**, by way of Theodore.
+
 **Wrong turns:** reading Reply 1 as a concession that the union is a habit. Reading "above all genera" as "an infinitely large habitual grace". The union is infinite because the person is, but it is not a habit at all (q.2 a.10). Concluding from Reply 1 that a Christian and Christ have equal grace, when the reply claims only that both are unmerited.
+
 **Model answer:** (a) "Grace" in Augustine's sentence means God's free will to give without merit, so the Christian and the Christ are alike only in being unmerited. The gifts themselves differ: one is personal being, the other a quality of the soul for acting. (b) "Above all genera" denies that the union is a created quality on the same scale as habitual grace, since it is the divine person's own being. Put them in one genus and the union becomes a greater degree of sanctity in a man, which is Theodore's Nestorian Christ.
 
 </details>

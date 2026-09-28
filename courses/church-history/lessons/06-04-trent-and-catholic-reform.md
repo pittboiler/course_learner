@@ -107,9 +107,13 @@ Social historians added a third view from below. John Bossy (*Past and Present*,
 **P1** *(Exegetical.)*
 
 **Must hit, strict (a):** the marriage must be contracted in the presence of the parish priest (or another priest with his permission or the Ordinary's) **and** of two or three witnesses. Anything else is declared invalid and null, not merely forbidden.
+
 **Must hit, strict (b):** the problem is a man who married one woman secretly, abandoned her, and publicly married another, with no way to prove the first marriage. The words: "judges not of what is hidden". A secret marriage left no evidence a church court could act on.
+
 **Must hit, strict (c):** witnesses die, move away or forget. The book is a lasting written record kept by the parish priest, giving names, witnesses, date and place, so a prior marriage can be proved years later and elsewhere.
+
 **Wrong turns:** saying the decree made clandestine marriages sinful for the first time (the text says the Church had always prohibited them; what changes is **validity**); leaving out the witnesses; saying the parish priest must perform the marriage in person, when another priest with his permission suffices.
+
 **Model answer:** (a) From now on, a marriage is valid only if contracted before the parish priest, or a priest he or the bishop authorizes, and two or three witnesses; otherwise it is null. (b) It targets men who married secretly and then publicly married someone else, which the Church could not correct because it "judges not of what is hidden". (c) The register turns a spoken event into a permanent record of who, when, where and before whom, so a prior marriage can still be proved after the witnesses are gone.
 
 ---
@@ -117,7 +121,9 @@ Social historians added a third view from below. John Bossy (*Past and Present*,
 **P2** *(Evaluative.)*
 
 **Must hit, any verdict:** (1) split the claim: registers *as a practice* versus registers *as universal Church law*. (2) Use the earlier evidence (Italian baptismal registers from 1379, Cromwell's 1538 order) against invention as a practice. (3) State what Trent itself required, which is only marriages and godparents' names, and note that the full system of five books came in 1614 from Rome, not from the council. (4) Say what Trent did add, for example universal law for the Catholic Church, the parish priest as keeper, and a register tied to the *validity* of marriage. (5) Give a verdict with its reason.
+
 **Wrong turns:** crediting Trent with burial or confirmation registers; treating Cromwell's order as a Catholic measure or ignoring that it came 25 years earlier; accepting or rejecting the claim wholesale without making the split.
+
 **Model answer (one of several):** As stated, the claim is false. Italian cities kept baptismal registers from 1379, and Cromwell ordered them for every English parish in 1538, a generation before Trent. The council itself required only a marriage register and the names of godparents. The five-book system came from the Roman Ritual of 1614. What Trent did invent was a register with legal force across the whole Church: under *Tametsi* the book recorded the act that made a marriage valid at all, and the parish priest became its keeper. So "Trent universalized and weaponized the register" survives; "Trent invented it" does not.
 
 ---
@@ -125,8 +131,11 @@ Social historians added a third view from below. John Bossy (*Past and Present*,
 **P3** *(Exegetical.)*
 
 **Must hit, strict (a):** the script assumes that promulgating a decree is the same as implementing it: a council's law takes effect everywhere at once, with the council as the only agent.
+
 **Must hit, strict (b):** any three distinct points, each with evidence. (i) **Timing and reception:** reform decrees depended on bishops, rulers and money. In France the crown never promulgated the decrees, and about sixteen seminaries were founded between 1580 and 1620 for more than a hundred dioceses. (ii) **The Mass:** the council did not compose it. It handed the missal to the pope, and Pius V's 1570 missal largely standardized the existing Roman use. (iii) **Borromeo as exception:** he was the first resident archbishop of Milan in about eighty years, and he became a model because he was unusual. (iv) **Residence:** the council nearly broke over it in 1562–63, so residence was contested, not settled overnight. (v) *Tametsi* bound only where it was published.
+
 **Wrong turns:** turning the answer into an argument about whether Trent was a reaction to Protestantism, which the script does not claim and the question does not ask; offering one correction three times (for example, three examples of slow seminary foundation).
+
 **Model answer:** (a) The script assumes that a council's decree is the same as its implementation, so a law passed in 1563 was in force everywhere from 1564. (b) First, reception depended on rulers and money: France's crown never promulgated the decrees, and France founded only about sixteen seminaries between 1580 and 1620 for more than a hundred dioceses. Second, the council composed no Mass. It handed the missal to the pope, and Pius V's 1570 missal standardized the existing Roman use. Third, Borromeo was the exception: he was Milan's first resident archbishop in about eighty years, and that is why he became a model.
 
 </details>
@@ -139,8 +148,11 @@ Social historians added a third view from below. John Bossy (*Past and Present*,
 <summary>Solution</summary>
 
 **Must hit, strict (a):** E, 1533 (Henry VIII); B, 1536 (Henry VIII); F, 1549 (Edward VI); C, 1554 (Mary I); D, 1569 (Elizabeth I); A, 1570 (Elizabeth I). A year off by one is a slip; swapping D and A is a conceptual error, because (b) depends on it.
+
 **Must hit, strict (b):** the Northern Rising (November 1569) had already failed when the bull was issued (25 February 1570), so the bull did not cause it. The bull's effect came afterwards: by absolving subjects of their allegiance and forbidding obedience, it let the government treat a priest acting on Rome's authority as a traitor, and Parliament answered with the statutes of 1571, 1581 and 1585.
+
 **Wrong turns:** putting the bull before the rising, as its cause; placing Pole's reconciliation under Henry or Edward; concluding from the correct order that the bull was irrelevant to the treason charge, when it made the loyalty question far worse after 1570.
+
 **Model answer:** (a) E, Restraint of Appeals, 1533, Henry VIII; B, Pilgrimage of Grace, 1536, Henry VIII; F, Prayer Book Rebellion, 1549, Edward VI; C, Pole's reconciliation, 1554, Mary I; D, Northern Rising, 1569, Elizabeth I; A, *Regnans in Excelsis*, 1570, Elizabeth I. (b) The bull came after the rising had failed, so it did not launch the rising, and the rising cannot show the bull's effect. What the bull did was later and larger: by releasing English Catholics from obedience it gave the government its case that priests acting for Rome were traitors, written into the statutes of 1571, 1581 and 1585.
 
 </details>

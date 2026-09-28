@@ -96,8 +96,11 @@ Socrates held that this is impossible — no one knowingly does what is worse. A
 **P1** *(Exegetical — strict.)*
 
 **Must hit, strict (a):** (1) **mean as arithmetic midpoint** — the memo's "midpoint between the two positions" ignores that the mean is *relative to us*, fixed by the person and situation, as the Milo passage shows (six pounds is the mean of the thing, not the right portion); (2) **mean as moderation of feeling** — "a calm middle register" confuses the mean with a fixed low intensity, when the mean can be strong feeling (great anger at a grave wrong).
+
 **Must hit, strict (b):** some actions and passions admit **no mean** because their names already imply badness (II.6: spite, shamelessness, envy; adultery, theft, murder). A vendor gift that functions as a bribe falls here: there is no right-sized bribe, so "accept something modest" is wrong in kind, not degree. (Also acceptable: a disagreement where one position is simply dishonest, so splitting the difference is not a mean.)
+
 **Wrong turns:** saying Aristotle rejects balance altogether — he does locate virtue between two vices; the error is in how the memo locates the mean. Rebutting the memo's management advice instead of identifying the misreadings.
+
 **Model answer:** (a) It treats the mean as the midpoint between positions, but the mean is relative to us, as Milo's portion shows; and it treats it as a fixed, mild intensity of feeling, when the right response to a grave wrong can be intense anger. (b) Bribes: II.6 says some actions admit no mean because their very description implies badness. There is no appropriate amount of bribe-taking, so a "modest" one is still the vice, not a midpoint between vices.
 
 ---
@@ -105,8 +108,11 @@ Socrates held that this is impossible — no one knowingly does what is worse. A
 **P2** *(Exegetical (a) — strict · Evaluative (b) — any verdict.)*
 
 **Must hit, strict (a):** spheres in play include **anger** (at the wrong done), **liberality/justice about money** (for Ellen, and for Rosa's handling of donors' money), and plausibly **truthfulness** toward the organisation. **Theft admits no mean** (II.6): the taking is not a vice of excess to be corrected by taking less. The mean for Rosa's anger is **real but proportionate** — relative to a small, need-driven, confessed wrong by a long-serving volunteer, anger that neither excuses the theft (inirascibility) nor explodes (irascibility); the II.6 "right object, right person, right way" clause does the work.
+
 **Must hit, any verdict (b):** state that the mean and the vices narrow the options (rule out covering it up and rule out public humiliation) but do not select among the remaining permissible options; say that on Aristotle's account the final step is the practically wise person's perception of particulars (II.9, VI.8); then *assess* that — either defend it (ethics admits limited precision, I.3; no rule would do better) or press the application objection (the standard helps only those who already have it).
+
 **Wrong turns:** treating Ellen's need as making the theft a mean between too much and too little honesty; claiming Aristotle's theory yields a determinate rule here ("always report"), which imports a rule the account does not contain.
+
 **Model answer (b), one of several:** The account rules out both vices — hushing it up to spare Ellen, and a public dismissal that serves Rosa's indignation more than the food bank. Between reporting to the board with a plea for leniency and a private repayment plan, it says only: do what the practically wise person would see. That is a real gap, but not obviously a defect. Whether to report turns on particulars no rule anticipates: the board's policy, whether other volunteers know, what donors were promised. A rule such as "always report" would be clearer and would get some versions of the case wrong. The cost is real too: Rosa, unsure what she sees, gets no further instruction.
 
 ---
@@ -114,8 +120,11 @@ Socrates held that this is impossible — no one knowingly does what is worse. A
 **P3** *(Exegetical (a) — strict · Evaluative (b) — graded on the crux, not the ranking.)*
 
 **Must hit, strict (a):** Aristotle ranks **Jonah higher**: he has the virtue (his feelings agree with reason, and pleasure in the act signals the state, II.3), while Mara is **continent** — she acts rightly against contrary appetite (VII.9), which is creditable but short of virtue. The rival view, associated with a reading of Kant's *Groundwork* I (the sympathetic versus the dutiful philanthropist, [2.1](02-01-the-good-will-and-acting-from-duty.md)), holds that moral worth shows most clearly when one acts from duty with inclination absent or opposed. (Credit for noting that many Kant scholars deny Kant ranks the struggler higher as a person.)
+
 **Must hit, any verdict (b):** the crux is whether the **agent's feelings are part of what is morally assessed**, which turns on whether they are **under the agent's control**. Aristotle affirms: feelings are shaped by habituation, so we are responsible for them. The rival denies: inclinations are not commandable, so credit attaches to the will alone. What would move it: evidence or argument on whether emotional dispositions can be trained.
+
 **Wrong turns:** making the crux "who tried harder" — both sides agree Mara struggled; the dispute is over whether struggle or harmony is the mark of goodness. Treating Aristotle's ranking as a denial that Mara acted well.
+
 **Model answer:** Aristotle ranks Jonah higher: he is honest, Mara merely continent. The rival says Mara's act shows moral worth most plainly, since she acts from duty with inclination opposed. Crux: are a person's feelings a proper object of moral assessment? The rival denies it — no one can will away wanting the money — so credit goes to what she wills. Aristotle affirms it: habituation shapes feeling, so a settled wish for honesty is an achievement. What would move it: evidence on how far emotional dispositions can be trained, and whether training them is something an agent chooses.
 
 </details>

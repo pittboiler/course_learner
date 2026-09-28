@@ -112,7 +112,9 @@ Find three errors. For each, say what the claim overstates or misreads, and give
 **P1** *(Exegetical, strict.)*
 
 **Must hit, strict (a):** any three of: (1) the creditor may not **enter the house** to take a pledge, which protects the debtor's home and dignity; (2) he must **stand without** while the debtor **brings out what he hath**, so the debtor, not the creditor, chooses the security (Aquinas: "what he needs least"); (3) if the debtor is **poor**, the pledge may not stay overnight and is **restored before the going down of the sun**, so the poor man has his covering to sleep in.
+
 **Must hit, strict (b):** the purpose clauses "that he may sleep in his own raiment and bless thee" and "thou mayst have justice before the Lord thy God". The reward is the debtor's blessing and standing righteous before *God*, not anything paid by the debtor. The Hebrew word is *tsedaqah*, righteousness: keeping the rule is counted to the creditor before God.
+
 **Wrong turns:** treating the overnight return as protecting the *creditor* (it destroys his security); saying the creditor's reward is repayment of the loan; missing that the poor-debtor clause (24:12) is narrower than the no-entry rule (24:10), which covers any debtor.
 
 **Model answer:** (a) He may not enter the house for a pledge, which guards the debtor's home. He stands outside and takes what the debtor brings, so the debtor chooses the security. And if the debtor is poor, the pledge goes back before sunset so that he can sleep in it. (b) "That he may sleep in his own raiment and bless thee, and thou mayst have justice before the Lord." The creditor gains nothing from the debtor except a blessing. His reward is righteousness counted to him by God. That is mercy, not contract.

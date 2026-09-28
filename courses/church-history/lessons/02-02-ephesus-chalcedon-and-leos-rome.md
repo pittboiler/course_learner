@@ -93,8 +93,11 @@ Leo stated the Roman claim more fully than any predecessor. In his anniversary s
 **P1** *(Exegetical.)*
 
 **Must hit, strict (a):** The concession: the emperor's supremacy "from heaven" in public order, which the clergy recognise by obeying his laws. The ground for priestly weight: priests will answer for kings at the divine judgment, and the emperor receives the sacraments (the "heavenly mysteries") from them.
+
 **Must hit, strict (b):** The policy is Zeno's *Henotikon* (482), which set Chalcedon aside to reconcile the miaphysites and which Anastasius maintained. Rome excommunicated Acacius of Constantinople over it. The final sentence makes the Roman see the highest authority in divine matters, and so implies that the emperor must follow Rome's judgment on Chalcedon, not his own policy or Constantinople's.
+
 **Wrong turns:** Reading (a) as Gelasius claiming authority over civil government; he concedes it. Reading the letter as abstract political theory, detached from the schism. Confusing the *Henotikon* with the Three Chapters, which were Justinian's policy half a century later.
+
 **Model answer:** (a) Gelasius grants that the emperor holds supremacy from heaven in public affairs, and that bishops obey his laws there. He claims more weight for priests because they must answer for kings at God's judgment and administer the sacraments on which the emperor's salvation depends. (b) The issue is the *Henotikon*, Zeno's compromise that set Chalcedon aside and that Anastasius upheld, which led Rome to excommunicate Acacius. By placing the Roman see above all others in divine things, the last sentence tells the emperor that on Chalcedon he must defer to Rome, not to his own formula.
 
 ---
@@ -102,8 +105,11 @@ Leo stated the Roman claim more fully than any predecessor. In his anniversary s
 **P2** *(Exegetical.)*
 
 **Must hit, strict (a):** "Monophysite" and "only a divine nature, no true humanity" describe Eutyches's position, which these churches condemn. The better term is **miaphysite**: Christ has one incarnate nature out of two, fully divine and fully human, following Cyril's formula ("one incarnate nature of God the Word").
+
 **Must hit, strict (b):** The separation was a process, not a single act in 451. Any two of: the *Henotikon* (482), an imperial attempt to set Chalcedon aside and reunite; the Acacian schism (484–519), a break between Rome and Constantinople over that compromise; Justinian's condemnation of the Three Chapters and Constantinople II (553), a later failed attempt to win the miaphysites. Full credit also notes that "broke away from the Church" takes one side's view of which body was the Church.
+
 **Wrong turns:** Saying miaphysites hold two natures after the union (that is Chalcedon's formula, which they reject). Naming the Robber Synod (449) as a later event.
+
 **Model answer:** "Monophysite," glossed as "only a divine nature," describes Eutyches, whom the Coptic Church itself condemns. The accurate term is miaphysite: one incarnate nature of the Word, formed from divinity and humanity, both complete, as in Cyril's formula. Nor did Egypt simply break away in 451. Rejection of the council began there at once, but emperors kept trying to reunite the parties, through Zeno's *Henotikon* (482) and Justinian's condemnation of the Three Chapters at Constantinople II (553). Separate churches hardened over the following century, as those efforts failed.
 
 ---
@@ -111,8 +117,11 @@ Leo stated the Roman claim more fully than any predecessor. In his anniversary s
 **P3** *(Exegetical (a) · Evaluative (b).)*
 
 **Must hit, strict (a):** *Iudicatum* (548) → first *Constitutum* (May 553) → struck from the diptychs (during the council, May–June 553) → acceptance of the condemnation (December 553, confirmed in the second *Constitutum*, February 554).
+
 **Must hit, any verdict (b):** State the evidence for the claim: the council proceeded without him, overrode his *Constitutum*, and struck his name. State the evidence against it: Justinian spent years (547–553) extracting his signature, and his assent was needed for the West to receive the council. Name the complication either side must handle: his assent came under coercion, so it shows the emperor's power at least as much as Eastern opinion. Distinguish the emperor's attitude from "the East's."
+
 **Wrong turns:** Placing Vigilius's acceptance before the council's sentence, which hides the fact that the council acted without him. Drawing a lesson about papal infallibility, which is not a historical question here. Taking "the East" as one actor when it was chiefly Justinian.
+
 **Model answer (b), one of several:** The claim is half right. The council met without Vigilius, rejected his refusal and struck him from the diptychs, so his judgment did not bind it. But Justinian had held him in Constantinople for six years to get his signature, which is not the conduct of someone indifferent to Rome. The best reading is that the emperor needed Rome's assent to make the council hold in the West, though not to hold it. The pressure came from Justinian more than from the Eastern bishops as a body. Since the assent was coerced, the episode measures imperial power more than Eastern opinion of Rome.
 
 </details>
@@ -125,8 +134,11 @@ Leo stated the Roman claim more fully than any predecessor. In his anniversary s
 <summary>Solution</summary>
 
 **Must hit, strict (a):** his own grants of 313 named a beneficiary, the clergy of the catholic Church "over which Cæcilianus presides." So the party that rejected Caecilian, on the charge that his consecrator Felix of Aptunga was a *traditor*, had a material stake as well as a theological one, and only the state could decide who received state privileges. 313: he refers the appeal to a synod at Rome under Miltiades, which finds for Caecilian. 314: on a second appeal he summons the Council of Arles, which also rules against the Donatists. 316: he decides the case himself, for Caecilian. 317–321: Donatist churches are confiscated, with bloodshed; in 321 he gives up and urges Catholics to be patient.
+
 **Must hit, any verdict (b):** (1) Evidence for the claim: he convened synods, heard appeals, gave final judgment and enforced it by confiscation. (2) Evidence against: he referred the question to bishops first, his judgment followed theirs, and he could not make his ruling stick. (3) Separate convening, judging and enforcing from defining what the Church is. (4) Note that he was deciding who received his own benefactions, which is a state question as well as a Church one.
+
 **Wrong turns:** treating the 316 decision as Constantine's own theology rather than a ratification of two episcopal verdicts; assuming the coercion worked (the schism outlived the Western empire in Africa); dating the first appeal before the grants of 313.
+
 **Model answer (b), one of several:** Partly true. Constantine convened the synods, took appeals, judged the case in 316 and used state force against the losers, which is more than any bishop could do. But at every stage he handed the question to bishops first, Rome in 313 and Arles in 314, and his own verdict repeated theirs. When force failed he retreated. He acted less as head of the Church than as a patron who had to decide which church his grants were for, and as its enforcer: he convened and enforced, but did not define.
 
 </details>

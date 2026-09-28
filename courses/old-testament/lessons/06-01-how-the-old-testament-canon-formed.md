@@ -109,8 +109,11 @@ The translator notes that "Wisdom also" renders Greek *hē kai Sophia*, "which i
 **P1** *(Exegetical)*
 
 **Must hit, strict (a):** the criterion is **prophetic authorship within an unbroken succession of prophets**, ending at **Artaxerxes**. Later histories are not "of the like authority ... because there hath not been an exact succession of prophets since that time". The Tosefta's exclusion of Ben Sira and "all books written from then on" works with a similar cut-off.
+
 **Must hit, strict (b):** any two, each with a reason. (1) **Which books** make up the 13 and the 4: Josephus names none after Moses, so the contents are a reconstruction, and Esther and the Song are argued over. (2) That **all Jews agreed**: the passage is an apologetic contrast with "the Greeks", and the Mishnah still records debate over the Song and Ecclesiastes. (3) That **a council had closed the list**: he appeals to ancestral esteem ("by our forefathers"), not to any decision.
+
 **Wrong turns:** reading "twenty-two" as proof that the list matched the modern 24 book for book. Taking "no one has been so bold as to add" (later in the section) as neutral reporting and not rhetoric. Making Artaxerxes a date of composition, not the end of the prophetic era.
+
 **Model answer:** (a) Books count if prophets wrote them in the succession running from Moses to Artaxerxes. The words are "the prophets, who were after Moses" and "there hath not been an exact succession of prophets since that time". (b) We cannot infer which books fill the thirteen and the four, since Josephus names none after the Torah. Nor can we infer a uniform Jewish consensus or a formal closing, because this is an apologetic boast against the Greeks and rests on "our forefathers", not a ruling.
 
 **P2** *(Exegetical)*
@@ -122,15 +125,21 @@ The translator notes that "Wisdom also" renders Greek *hē kai Sophia*, "which i
 (iv) **Half right.** He ranked them outside the canon (helmeted preface; preface to Solomon), but he did translate Tobit and Judith. His Judith preface says Nicaea was reported to have counted it.
 (v) **Half right / legend.** He separated them under the heading "Apocrypha", useful and good to read. He did not delete them.
 (vi) **Attested** (*Yadayim* 3:5), with Akiva defending the Song.
+
 **Wrong turns:** calling (iii) evidence that Qumran had a 46-book canon. Treating (i) as "attested but debated". Marking (iv) plain true.
+
 **Model answer:** as above.
 
 **P3** *(Exegetical)*
 
 **Must hit, strict (a):** **Esther** is missing. **Lamentations** (probably counted with Jeremiah) and **Nehemiah** (inside "Esdras", as the Hebrew tradition counts Ezra-Nehemiah) are probably present, but neither is named.
+
 **Must hit, strict (b):** **No, on the natural reading.** "Wisdom also" (*hē kai Sophia*) is a second title for **Proverbs**, which it follows directly, and not a separate book. That reading has a live minority. Either way the list has no Tobit, Judith, Sirach or Maccabees.
+
 **Must hit, strict (c):** omits Esther: **historical fact, attested** in the text, with no magisterial level. The second-century Church held 22: **an unsupported generalization**. It is a scholarly claim at most, and one bishop's inquiry "in the East" is not the Church's usage. Esther canonical: **defined dogma** (Trent, Session IV), Greek parts included.
+
 **Wrong turns:** counting "Wisdom" as the Wisdom of Solomon and so finding a deuterocanonical book. Treating Melito's omission of Esther as a problem only for Catholics, when Esther is in the Protestant 39 too. Giving the second claim a magisterial grade either way.
+
 **Model answer:** (a) Esther is missing, while Lamentations and Nehemiah are probably counted under Jeremiah and "Esdras". (b) No: *hē kai Sophia* is an alternative name for Proverbs, the book it follows. (c) Attested fact; overgeneralized historical claim with no magisterial level; defined dogma.
 
 </details>
@@ -149,8 +158,11 @@ Hebrew notes: 8:4 opens with *'im*, "if", not "although". In 8:7 "former things"
 <summary>Solution</summary>
 
 **Must hit, strict (a):** Baldad argues from God's justice (8:3) to the children's guilt: they died, so they must have sinned and been handed over to their own transgression. That is the friends' retribution rule applied to the dead. The reader knows from the prologue that the disasters come from the wager in the heavenly court, and God himself calls Job's suffering *hinnam*, "without cause" (2:3). The narrator never gives the children's sin as a reason, and 42:7 rules that the friends "have not spoken the thing that is right".
+
 **Must hit, strict (b):** any two of: (1) **Order.** God declares Job in the right and the friends in the wrong (42:7–8) *before* the restoration, so the restoration is not the proof of the verdict. (2) **"Job repented" leans on the Douay.** The Hebrew of 42:10 has no "penance". The turning comes "when he prayed for his friends", not when Job confessed the sins Baldad demanded. (3) **The echo works against the note, not for it.** The book gives Baldad's outcome (a greater *acharit*) while denying his premise (the children sinned, and Job must "walk clean" to be restored), and God says the friends spoke wrongly. (4) **Reported speech is not assertion.** Baldad's speech is recorded, not taught, so a later verbal echo does not turn it into the book's teaching.
+
 **Wrong turns:** reading *'im* ("if") as softening Baldad into kindness. Baldad still makes the children's death a verdict on their sin. Treating 42:6's repentance as confession of guilt when God has just declared Job innocent. Saying the epilogue "contradicts" the dialogues and so must be a later addition. Whether the frame and the poetry had different origins is a separate question, and it does not change the reading of the book as it stands.
+
 **Model answer:** (a) Baldad reasons that God cannot pervert justice, so Job's children must have sinned and been handed over to their own guilt. The reader knows from 1:18–19 and 2:3 that they died in a test God calls "without cause", and 42:7 condemns the friends' speech. (b) The restoration follows God's verdict for Job (42:7–8) and does not prove Baldad right. God rebukes the friends by name. And the Hebrew of 42:10 ties the turning to Job's prayer for his friends, not to a "penance" for sins he never committed.
 
 </details>

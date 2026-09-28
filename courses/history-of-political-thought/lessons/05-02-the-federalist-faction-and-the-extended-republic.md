@@ -155,6 +155,7 @@ He calls the lawgiver's position "an authority that is no authority." (a) Which 
 <summary>Solution</summary>
 
 **Must hit, strict (a):** reading (ii). "No right of legislation" denies the drafter any power to make law, however great his genius; "even if it wishes" and "incommunicable" say the people cannot give that power away, so no vote can turn the drafter or anyone else into a legislator. The ground is step 6, that sovereignty is inalienable and cannot be represented: only the general will binds, and II.7 adds that there is no assurance a particular will conforms to it until it has been put to the free vote of the people. That is why the lawgiver has "an authority that is no authority": he can propose and persuade, never command.
+
 **Must hit, strict (b):**
 - **(1)** Fits. Drafting by an outsider is Rousseau's own approved practice (the Greek towns, Geneva), and the free vote makes the code law.
 - **(2)** Fails twice. There is no vote, so the code is not law; and the general holds command over men and over the laws at once, the combination II.7 says turns laws into servants of the drafter's passions (Rome under the decemvirs). Lycurgus resigned the throne *before* giving laws, not after.

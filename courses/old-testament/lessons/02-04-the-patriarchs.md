@@ -98,21 +98,29 @@ All three are **scholarly positions**. None has magisterial standing.
 **P1** *(Exegetical)*
 
 **Must hit, strict (a):** **Land**: "come into the land which I shall shew thee". **Seed**: "I will make of thee a great nation". **Blessing**: "I will bless thee", "magnify thy name", "thou shalt be blessed", blessing and cursing others according to how they treat Abram, and "in thee shall all the kindreds of the earth be blessed". Credit noting that the land is promised only as a destination here; it is not granted until 12:7 and 15:18.
+
 **Must hit, strict (b):** **Passive**: the nations *receive* blessing through Abram; he is its channel, the reading Paul uses (Gal 3:8). **Reflexive**: the nations *invoke* Abram as the standard of blessedness ("may you be like Abram"); he is its model, and the verse does not say they share it.
+
 **Wrong turns:** putting "great nation" under blessing and leaving seed empty. Calling one rendering correct: the form allows both, and the Hebrew elsewhere (e.g. 22:18) uses a form usually taken as reflexive, which is why translators divide.
+
 **Model answer:** (a) Land: "the land which I shall shew thee". Seed: "a great nation". Blessing: "bless thee", "magnify thy name", blessing those who bless him, and "in thee shall all the kindreds of the earth be blessed". (b) Read as passive, the nations will be blessed through Abram, so he is the means of a blessing meant for everyone. Read as reflexive, they will use his name when they bless, so he is the model of blessedness without the verse promising that they will share it.
 
 **P2** *(Exegetical)*
 
 **Must hit, strict:** (1) **Church teaching**: Scripture's own statement (Gen 15:6), taught in the Catechism (CCC 146). *How* the reckoning works is a further, disputed question. (2) **Past scholarly consensus** (Albright), now a minority, and the Nuzi support is contested. It is not doctrine. (3) **Majority scholarly position**, with no magisterial standing either way. (4) **Church teaching**: Dei Verbum 11, conciliar teaching (owned by `fundamental-theology` 3.2). (5) **Not establishable**: archaeology can show anachronism in the telling, not the absence of an individual.
+
 **Wrong turns:** marking (2) as Church teaching because of the 1905 response. Marking (3) as settled fact. Marking (5) as the majority view: the majority says "unrecoverable", not "disproved".
+
 **Model answer:** (1) Church teaching, Gen 15:6 via CCC 146. (2) Former consensus, now a minority. (3) Majority hypothesis. (4) Church teaching, Dei Verbum 11. (5) Unprovable overstatement.
 
 **P3** *(Exegetical (a) · Evaluative (b))*
 
 **Must hit, strict (a):** two of: (i) "the Church has always taught the patriarchs as history" turns a traditional assumption into defined teaching. **No magisterial act defines or dates the patriarchs.** (ii) The 1905 response is treated as settling the matter today. It set a burden of proof and was binding then, but its force changed with the 1948 Suhard letter, *Divino Afflante Spiritu* and the Commission's consultative status after 1971. The question is now freely disputed. (Equally wrong would be calling it meaningless.) (iii) "Scholars now say Abraham may never have existed" is roughly fair as a report, since most doubt he is recoverable. "Collapses" skips Dei Verbum 12: genre decides what a narrative asserts.
+
 **Must hit, any verdict (b):** state what the literal sense of 15:6 asserts: trust in God's promise is counted as right standing. Distinguish that assertion from the claim that the episode happened as reported in a given century. Take a verdict. State the strongest opposing reason. For "yes", that is Dei Verbum 12's recognition of genres, and the fact that the verse's theological point survives in a story of origins. For "no", that is the worry that a faith grounded in God acting in history needs some real history, and that Paul's argument presupposes a real Abraham.
+
 **Wrong turns:** answering (b) by asserting a historicity verdict as fact. Swapping one level error for its mirror ("the 1905 decree no longer matters at all").
+
 **Model answer (b), one of several:** Not in full. What Genesis 15:6 asserts is a truth about God and trust: faith in a promise is counted as righteousness. That truth holds if the chapter tells Israel's origins in a genre closer to a family saga than to a chronicle, and Dei Verbum 12 lets genre decide what is asserted. Still, the strongest reason for the other side is real. Biblical faith claims that God acted in history, and Paul argues from the order of events in Abraham's life (Rom 4:10). A wholly invented founder would weaken that. So I would say the faith needs a real history of promise behind Israel, not a verified biography of Abraham.
 
 </details>
@@ -135,9 +143,13 @@ Diagnose three errors: (a) what one late place name does and does not show; (b) 
 <summary>Solution</summary>
 
 **Must hit, strict (a):** "Dan" is a **post-Mosaic notice**: it shows that **this wording** comes from after the Judges-era renaming. It does **not** show that the whole book is late, since a later hand can **update** an old place name, and even the **tradition allowed later additions**: the baraita in Bava Batra 14b–15a gives Deuteronomy's last verses to Joshua, and Challoner assigns Deut 34 to Joshua or later prophets. One verse dates the verse, not the book.
+
 **Must hit, strict (b):** J's date is **reconstructed and disputed**, not secure. Since the 1970s the classic Yahwist has been dated to the exile (Van Seters) or dissolved into blocks (Rendtorff); much of European scholarship now works with a Priestly/non-Priestly model **without a J**, while the neo-documentarians revive J redefined. **There is no consensus**, so "securely dated" misreports the field.
+
 **Must hit, strict (c):** **authorship is not defined**: the Church defines the books as canonical and inspired, and "the five books of Moses" is a traditional title, not a ruling on who wrote them. Inspiration attaches to the books and their true human authors, whoever they were, and inerrancy concerns what the text asserts, so holding a **substantial Mosaic origin**, or denying it, is a **freely disputed** position that denies nothing.
+
 **Wrong turns:** answering (a) by insisting Moses wrote every word, 14:14's "Dan" included: the tradition itself did not require that. Answering (c) with the mirror error, "the Church requires Mosaic authorship". Treating the divine name in the surrounding chapter as the decisive evidence; the note's argument does not use it.
+
 **Model answer:** (a) The name "Dan" shows that the verse, as worded, was written or updated after the Danites renamed Lais. It cannot date the whole Torah, since tradition itself allowed later additions, such as Deuteronomy's account of Moses's death. (b) The Yahwist's date has been disputed since the 1970s, and many scholars no longer posit a continuous J at all. The note presents one model's reconstruction as a settled result. (c) Who wrote the Pentateuch has never been defined; the Church defines the books' canonicity and inspiration. A Catholic may hold a substantial Mosaic origin or a later composition without touching inerrancy, which concerns what the text asserts.
 
 </details>

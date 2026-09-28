@@ -98,8 +98,11 @@ Name two things in the Concordat's actual terms that the placard leaves out, and
 **P1** *(Exegetical.)*
 
 **Must hit, strict (a):** within the Church: 3 (deposing bishops), 16 (general synods), 19 (judged by no one), 22 (the Roman church has never erred). Over lay rulers: 12 (deposing emperors) and 27 (absolving subjects from fealty). An answer that puts 19 in both groups, since it also puts the pope beyond any king's judgment, is acceptable if it says so.
+
 **Must hit, strict (b):** 27 directly: the February 1076 sentence absolves all Christians from their oaths to Henry. Deposition is covered in substance by 12. The hesitation: in 1076 Henry was king, not emperor. He was crowned emperor only in 1084, and by the antipope Clement III. So 12, which names emperors, covers him only by extension.
+
 **Wrong turns:** putting 22 under papal infallibility (it speaks of the Roman church, and the Dictatus defines nothing); saying the Dictatus was cited in the 1076 sentence (it was an unpublished register entry; the sentence appeals to Peter's power of binding and loosing).
+
 **Model answer:** (a) Within the Church: 3, 16, 19, 22. Over lay rulers: 12 and 27. (b) The sentence carries out 27, absolving Henry's subjects, and in effect 12, taking his rule from him. But Henry was only king in 1076, not yet emperor, so 12 fits him only by extension.
 
 ---
@@ -107,7 +110,9 @@ Name two things in the Concordat's actual terms that the placard leaves out, and
 **P2** *(Exegetical.)*
 
 **Must hit, strict:** at least two of: (i) German elections were held *in the emperor's presence*; (ii) in a disputed election the emperor, with the metropolitan and the provincial bishops, could back one side; (iii) the elect received the regalia from the emperor by the sceptre, *before* consecration in Germany (within six months after in Italy and Burgundy), which gave him a practical veto. What Henry gave up was investiture *with ring and staff*, the spiritual symbols, not all say in appointments. Most-wrong word: **"alone"** (or "surrendered," if argued as a compromise mislabelled as surrender); either is accepted with the reason that the settlement was mutual and left the king a role.
+
 **Wrong turns:** saying the pope conceded investiture with ring and staff (that was the extorted grant of 1111, repudiated in 1112); treating "fifty years" as the error (1075/76 to 1122 is roughly right).
+
 **Model answer:** The placard omits that elections in Germany took place in the emperor's presence, with his right to back one side in a disputed election, and that every bishop-elect still received his lands and rights from the emperor by the sceptre, in Germany before he could be consecrated. Henry V renounced investiture with ring and staff, the symbols of the spiritual office, not his say in who became bishop. The most wrong word is "alone": the Concordat divided the process between Church and crown, and the German timing left the emperor an effective veto.
 
 ---
@@ -115,8 +120,11 @@ Name two things in the Concordat's actual terms that the placard leaves out, and
 **P3** *(Exegetical (a) · Evaluative (b).)*
 
 **Must hit, strict (a):** the 1075 ban rests on the Milanese chronicler Arnulf's report of the Lenten synod (February 1075). The synod's record in Gregory's register does not mention it, and some historians read it as a measure about Milan only. The first securely documented general decree is November 1078 (renewed March 1080).
+
 **Must hit, any verdict (b):** (i) weigh the chronology of the break: Henry's appointments to Milan, Fermo and Spoleto, and his excommunicated councillors (the December 1075 letter), then Worms (January 1076) and the deposition (February 1076); (ii) say what the break was over, investiture specifically or the wider question of who judges whom; (iii) concede what is true in the claim, since royal appointment of bishops was at the centre of Milan.
+
 **Wrong turns:** citing the *Dictatus Papae* as the 1075 ban (it says nothing of investiture); dating Canossa as the start.
+
 **Model answer (one of several):** (a) Only Arnulf of Milan reports a 1075 ban. The register's record of the synod is silent, and it may have concerned Milan alone. The first secure general decree is November 1078. (b) Partly true. The break did begin over royal appointments, Milan above all, so investiture in the broad sense was at the heart of it. But what Henry "refused" in 1075 was Gregory's judgment on particular appointments and on his excommunicated advisers, not a general law we can show he received. The escalation at Worms and in February 1076 was about whether pope or king could depose the other, and the general ban came after the break, not before it.
 
 </details>
@@ -129,9 +137,13 @@ Name two things in the Concordat's actual terms that the placard leaves out, and
 <summary>Solution</summary>
 
 **Must hit, strict (a):** any two of: he overruled Lothar II's attempt to put away his wife; he deposed the archbishops of Cologne and Trier who had backed Lothar; he reversed Hincmar of Reims on appeal; he refused to recognize Photius as patriarch of Constantinople.
+
 **Must hit, strict (b):** the crux is whether the jurisdiction Nicholas exercised, judging archbishops on appeal and a patriarch's election, **continued earlier Roman claims and practice or was new**. Toward continuity: earlier genuine texts making the same claim, such as Leo I's sermons on Peter's care living on in his see, or Gelasius's letter of 494 placing Rome's see "above all others"; or proof that Nicholas acted without the forgeries. Toward novelty: proof that Nicholas knew and used Pseudo-Isidore (historians dispute it), or first-millennium cases where the East settled its sees by councils without accepting a Roman verdict.
+
 **Must hit, strict (c):** both sides accept that it happened. It shows the claim was **not accepted** in Constantinople, which is a question about reception, while the dispute is about whether the claim itself was old or new.
+
 **Wrong turns:** assuming that proof of forgery use settles the question (Schatz already concedes the forgeries served the claims; his point is that the claims predate them); turning the crux into a theological question about what primacy proves, which belongs to `ecclesiology-and-mariology`; offering the 867 deposition as evidence for novelty (see c).
+
 **Model answer:** (a) He deposed the archbishops of Cologne and Trier for backing Lothar II's divorce, and he refused to recognize Photius as patriarch. (b) They divide on whether judging archbishops and a patriarch was an old Roman prerogative or a ninth-century novelty. Genuine earlier claims like Leo's and Gelasius's push toward continuity, while showing that Nicholas's case rested on Pseudo-Isidore, or that the East had never accepted such judgments, pushes toward novelty. (c) Both historians accept the deposition. It shows that Constantinople rejected the claim, not whether the claim was new.
 
 </details>

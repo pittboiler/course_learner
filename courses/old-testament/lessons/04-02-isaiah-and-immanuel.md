@@ -115,17 +115,25 @@ The method strains here. Does *parthenos* show the Greek translators expected a 
 **P2** *(Exegetical)*
 
 **Must hit, strict (a):** the sign must come true **within the child's infancy**. Before he can tell good from evil, the lands of Rezin and Pekah are deserted, so fulfilment falls in Ahaz's own years (Damascus falls in 732). The sign is given **to you plural**, *lakhem*, the **house of David** (7:13, "O house of David"), not to Ahaz alone.
+
 **Must hit, strict (b):** any two of these: a woman conceives and bears a son; the child receives a symbolic name; the same **"before the child knows ..." deadline** is set; the enemies are **Damascus/Syria and Samaria/Israel**; Assyria is the agent.
+
 **Must hit, strict (c):** any two of these: the child of 8:3 is named **Maher-shalal-hash-baz** ("Hasten to take away the spoils"), not Immanuel; the mother is called **the prophetess**, not an *almah*; **8:8 addresses Immanuel as owner of the land** ("thy land, O Emmanuel"), which suits a royal figure. Credit also: 7:14 has the *almah* naming the child (*qarat*), where in 8:3 the Lord tells the prophet to name him.
+
 **Wrong turns:** reading 7:16 as a prediction set centuries off. The deadline is the child's infancy. Treating the parallel as proof that the *almah* is Isaiah's wife: it makes Rashi's reading plausible but does not settle it.
+
 **Model answer:** (a) The sign is fulfilled while the child is still an infant, when Damascus and Samaria are laid waste in Ahaz's reign. It is given *lakhem*, to "you" plural, the house of David. (b) Both have a birth to a named mother followed by a symbolic name, and both set the same "before the child knows" deadline for the ruin of Damascus and Samaria. (c) The child of 8:3 bears a different name and is born to "the prophetess". In 8:8 the land is called Immanuel's, which suits a king's son better than the prophet's.
 
 **P3** *(Exegetical)*
 
 **Must hit, strict (a):** three of these: (1) the Hezekiah reading is **not medieval**, since Trypho gives it in Justin's *Dialogue* 67 in the second century; (2) **Rashi rejects** the Hezekiah reading, because Hezekiah was born nine years before Ahaz reigned (2 Kings 16:2; 18:2); (3) *almah* **does not "always mean virgin"**: it means a young woman of marriageable age, and *betulah* is the specific word; (4) the Jewish readings do not rest on *almah* alone but on **the deadline of 7:16 and the parallel in 8:3–4**.
+
 **Must hit, strict (b), graded for fidelity:** the *almah* is **the prophet's own wife**, who conceives that year (Rashi dates it to Ahaz's fourth year). The sign is tied to the **present crisis**, by the deadline of 7:16. The support is **8:3–4**, where the prophet goes in to "the prophetess", a son is born, and the same deadline is repeated. Credit: Rashi reads Immanuel as meaning that God will be with Judah, and says a prophetic spirit rests on the young wife in naming the child.
+
 **Must hit, strict (c):** it makes the **dogma depend on the philology of *almah***, when the virginal conception rests on **Matthew and Luke** and the Church's faith. Isaiah 7:14 bears on how the fulfilment is read, not on whether the dogma stands.
+
 **Wrong turns:** answering (b) with Hezekiah, the reading Rashi rejects. Stating Rashi's view in order to refute it: fidelity is what is graded, and the argued dispute belongs to `apologetics-foundations`. Swapping the handout's error for its mirror, "*almah* means not a virgin".
+
 **Model answer:** (a) The Hezekiah reading is attested in the second century (Trypho), not invented in the Middle Ages. Rashi rejects it on chronology rather than teaching it. *Almah* means a young woman of marriageable age, not "virgin" as such. (b) For Rashi, the young woman is Isaiah's wife, and she conceives that very year. The sign is for Ahaz's crisis: before the child can tell good from bad, the two enemy kings will be gone. Chapter 8 shows it happening: the prophetess bears a son, and the same deadline is given. "Immanuel" declares that God is with Judah. (c) It makes the dogma hang on a Hebrew word, when the Church professes the virginal conception on the witness of Matthew and Luke.
 
 </details>
@@ -153,8 +161,11 @@ In 1:2–3, "the Lord" renders the divine name *YHWH*. In 6:3 the Aramaic has on
 5. **Theology:** only 1:2–3 confesses that God gave Cyrus "all the kingdoms of the earth" and "charged" him.
 
 **Must hit, strict (b):** **Proclamation:** 1:2–4 speaks to people: a public call in the second person ("Who is there among you ... let him go up") that also appeals to the neighbours. **Docket:** 6:3–5 addresses no one. It is an administrative record in the third person, with measurements, a budget line and an inventory item, and it was found in an archive. **Recast:** in 1:2–3 a Persian king names Israel's God as *YHWH*, says *YHWH* gave him every kingdom, and confesses "he is the God that is in Jerusalem". That is Israel's own confession in Cyrus's mouth. The Aramaic memo has only a generic "God". Credit also: the memo is in Aramaic, the empire's administrative language, and the proclamation is in Hebrew.
+
 **Must hit, strict (c):** **Which version is closer to Cyrus's words** is a historical question with **no magisterial level**. It is debated: Bickerman accepts both, and many scholars accept the memo in substance. **539** is **secure**. **538** ("the first year of Cyrus", 1:1) is **reconstructed**, and the edict's wording is debated.
+
 **Wrong turns:** treating the two versions as a contradiction that one must lose, when on Bickerman's view they are two genres recording one policy. Citing the Cyrus Cylinder as the text of either version, although it never mentions Jerusalem. Saying that because Ezra is canonical (defined), the Church has settled the edict's exact wording.
+
 **Model answer:** (a) The Hebrew edict lets the exiles go home and asks their neighbours to fund them. The Aramaic memo mentions no return, charges the costs to the royal treasury, and adds the Temple's dimensions and the return of the vessels. (b) The Hebrew addresses a public ("Who is there among you ... let him go up"), as a herald would, and the Aramaic is a filed record of specifications and costs. What marks the Hebrew as recast is a Persian king confessing that *YHWH* gave him every kingdom and "is the God that is in Jerusalem", where the memo says only "God". (c) Which version is nearer Cyrus's words is a debated historical question with no magisterial level. The year 539 is secure; 538 is reconstructed.
 
 </details>

@@ -94,8 +94,11 @@ Identify three distinct errors in how the voice-over handles its sources, and na
 **P1** *(Exegetical.)*
 
 **Must hit, strict (a):** two grounds. **Motive:** they killed "through greed of money, rather than for the sake of God's justice." **Coercion:** God "orders no one unwillingly, or under compulsion, to come under the yoke of the Catholic faith." This condemns forced conversion, the choice of baptism or death. Full credit also notes the limit on Albert's sympathy: he condemns the crusaders *although the Jews were opposed to Christ*. His objection is to greed and compulsion, not to the view of Jews as enemies of the faith. Mentioning "impurity and fornication" as part of the charge is acceptable.
+
 **Must hit, strict (b):** the passage cannot establish that the archbishop's protection was sincere or effective. Albert reports only that he took the treasure and hid the Jews, and he was writing at a distance from reports. The Hebrew chronicle complicates it: the archbishop's men fled first, Ruthard fled too, and he was later accused of taking plunder. An answer that says instead that the passage cannot confirm the death toll (Albert's roughly 700 against the Hebrew chronicle's 1,100) earns partial credit, because that is about the victims, not the archbishop.
+
 **Wrong turns:** reading Albert as a modern advocate of tolerance; treating "that excellent Bishop" as proof that the protection worked.
+
 **Model answer:** (a) Albert condemns the killers for greed, since they acted "through greed of money, rather than for the sake of God's justice", and for compulsion, since God forces no one "unwillingly, or under compulsion" into the faith. He does this while still calling the Jews "opposed to Christ", so he objects to their motive and to forced baptism, not to the hostility itself. (b) It cannot show that Ruthard's protection was sincere or that it held, since Albert only reports the deposit and the hiding place. The Hebrew chronicle says the archbishop's men fled first and that he fled as well.
 
 ---
@@ -103,8 +106,11 @@ Identify three distinct errors in how the voice-over handles its sources, and na
 **P2** *(Exegetical (a) · Evaluative (b).)*
 
 **Must hit, strict (a):** any three of these: the reward attaches to the **journey** to Jerusalem, not to killing; it is **conditional on intention** ("devotion alone", not honour or money); it remits **penance**, the satisfaction for confessed sins, not sin as such and not a promise of salvation; it is aimed at **liberating the Church of God**, not at killing Muslims as such.
+
 **Must hit, any verdict (b):** state what Fulcher's version adds: remission of *sins* for those who *die* on the way or in battle, with no condition of intention. Place it as a text written after 1099 by a participant. Then say what the claim survives as. Either side has to make this distinction: it is weak evidence of Urban's legislation and good evidence of what crusaders believed. A verdict either way passes if both halves are addressed.
+
 **Wrong turns:** declaring the claim simply false, which ignores Fulcher and what the crusaders believed; declaring it simply true on Fulcher's word, which treats a post-1099 account as the council's text; comparing Fulcher with Robert the Monk (not asked).
+
 **Model answer (b), one of several:** Some of it survives, but as a fact about belief, not law. Fulcher, writing after 1099, has Urban grant "immediate remission of sins" to those who die on the way or in battle, and he drops the condition of pure intention. That is weak evidence for what the council enacted, which is better known from the canon. It is good evidence that crusaders and their families understood death on crusade as saving. So "promised salvation" is too strong for the Church's legislation, and roughly right for what crusaders thought they had been promised. "For killing" fails on both readings, since even Fulcher ties the reward to dying on the journey, not to killing.
 
 ---
@@ -112,7 +118,9 @@ Identify three distinct errors in how the voice-over handles its sources, and na
 **P3** *(Exegetical.)*
 
 **Must hit, strict:** three errors, each with its evidence. (i) **"Eyewitnesses agree … ankle-deep" treats a trope as a measurement.** The witnesses do not agree: the *Gesta* says ankles and Raymond says knees and bridle reins, which echoes Revelation 14:20. The image signals judgment, not depth. (ii) **"Chroniclers of the day counted seventy thousand"** is wrong on date. Ibn al-Athir wrote more than a century later. The witness closest in time that Kedar brought forward, Ibn al-Arabi, gives about three thousand in al-Aqsa. (iii) **"Therefore a legend"** does not follow. Deflating the numbers does not remove the event. Kedar argues the massacre was more thorough than usual, with little evidence of captives taken, and every Latin eyewitness reports mass killing.
+
 **Wrong turns:** attacking only the conclusion and missing the two source errors; replacing seventy thousand with a new precise total; reading Raymond's "just judgment" as an exaggeration of the numbers rather than a theological framing.
+
 **Model answer:** First, the eyewitnesses do not agree on "ankle-deep". The *Gesta* says ankles, but Raymond says knees and bridle reins, echoing Revelation 14:20. That is a biblical image of judgment, not a measurement. Second, seventy thousand does not come from a chronicler "of the day". It comes from Ibn al-Athir, writing over a century later, while Ibn al-Arabi, who had lived in the city shortly before, gives about three thousand in al-Aqsa. Third, showing that the numbers are inflated does not make the massacre a legend. The Latin eyewitnesses themselves describe mass killing, and Kedar argues the slaughter was unusually thorough for a stormed town.
 
 </details>
@@ -129,9 +137,13 @@ Identify three distinct errors in how the voice-over handles its sources, and na
 <summary>Solution</summary>
 
 **Must hit, strict (a):** the claim: a king is "subject to the judgment of God alone," so no earthly judge, the pope included, may depose him. The exception: "unless … I should have strayed from the faith," that is, heresy.
+
 **Must hit, strict (b):** Gregory was acclaimed pope by the Roman crowd on 22 April 1073, which was hard to square with the 1059 election decree giving the choice to the cardinal bishops. The synod of Brixen (June 1080) declared his election invalid and chose Wibert of Ravenna as "Clement III."
+
 **Must hit, strict (c):** no. The grievances were Henry's appointments at Milan, Fermo and Spoleto and his keeping of excommunicated councillors: disobedience, not straying from the faith. Gregory's synod nonetheless excommunicated Henry, withdrew from him the rule of Germany and Italy, and absolved his subjects from their oaths, claiming a power to judge a king that Henry's formula denied.
+
 **Wrong turns:** reading the exception as a concession that the pope may judge kings in general (it is confined to heresy, and the passage does not say who judges that); dating Brixen to 1076 (Worms renounced Gregory in 1076; Brixen chose an antipope in 1080); answering (c) with a general ban on lay investiture broken by Henry, when no such ban is securely documented before November 1078.
+
 **Model answer:** (a) Henry says he is "subject to the judgment of God alone," so no pope may depose him. His one exception is if he "should have strayed from the faith." (b) Gregory had been acclaimed by the Roman crowd in 1073, not chosen by the cardinal bishops as the 1059 decree required. The synod of Brixen acted on this in 1080, declaring his election invalid and choosing Wibert of Ravenna as Clement III. (c) No: the quarrel was over Milan, Fermo, Spoleto and excommunicated advisers, which is disobedience, not heresy. Gregory excommunicated Henry, took away his rule and freed his subjects from their oaths anyway, so the two men disagreed about the grounds on which a king could be judged at all.
 
 </details>

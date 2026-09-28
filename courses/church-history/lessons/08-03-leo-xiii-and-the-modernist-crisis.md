@@ -98,8 +98,11 @@ A defender of the encyclical has a real reply. A pope condemning a *tendency* ha
 **P1** *(Exegetical.)*
 
 **Must hit, strict (a):** the judgment rests on observable things: their "tenets," their "manner of speech," and their "conduct." It expressly excludes the "internal disposition of soul," which it leaves to God. The encyclical judges doctrines and behaviour, not sincerity.
+
 **Must hit, strict (b):** it concedes that they are intensely active in learning and that they have, as a rule, a reputation for the strictest morality. It turns both into aggravations: combined with working "from within" and doubling "the parts of rationalist and Catholic," learning and good repute are what make them persuasive to "the unwary." Their virtues become the vehicle of the danger.
+
 **Wrong turns:** saying the passage accuses the modernists of bad faith or immorality; it disclaims judging the interior and grants the good reputation. Treating "from within" as a charge of secret membership in an organization; the passage means Catholic insiders, priests and laity.
+
 **Model answer:** (a) The judgment rests on their tenets, speech and conduct, and it sets aside their interior disposition, which only God judges. So it condemns what they teach and do, not their sincerity. (b) It grants that they are learned and hard-working and usually have a reputation for strict morality. It then makes these part of the danger: insiders who play both rationalist and Catholic, and whose learning and good name mislead the unwary.
 
 ---
@@ -107,8 +110,11 @@ A defender of the encyclical has a real reply. A pope condemning a *tendency* ha
 **P2** *(Exegetical.)*
 
 **Must hit, strict (a):** the first reading must hold that the official machinery (bishops' censors and councils of vigilance under *Pascendi*) and Benigni's private network were distinct, so that approval of anti-modernist aims did not extend to the network's methods. The second must hold that the network was a channel the pope himself used to get round slow or reluctant bishops and curial offices, so that its methods fell within the policy.
+
 **Must hit, strict (b):** two kinds of evidence, each with a direction. Examples: documents showing the pope received or acted on the network's reports, or gave its members tasks directly (pushes toward knowledge and backing); his three letters of blessing (1911, 1912, 1914) and the annual subsidy the network received (show support, but for aims or methods depends on their wording); the absence of canonical approval and curial resistance to it (pushes toward limited endorsement); the Ghent papers, seized in the war and sent to Rome in 1921, read for what Rome was told.
+
 **Wrong turns:** treating the 1907 councils of vigilance as the Sodalitium; treating canonization as settling a historical question; naming evidence without saying which way it pushes.
+
 **Model answer:** (a) The "aims, not methods" reading must hold that Benigni's network was separate from *Pascendi*'s official machinery, so that blessing its aims did not approve its spying. The "policy" reading must hold that the pope used the network to bypass bishops and officials who were slow to enforce, which makes its methods part of the policy. (b) Evidence that he read its reports or gave members missions himself would push toward the second. Whether his letters of 1911, 1912 and 1914 bless methods or only loyalty cuts either way, while the network's failure to gain canonical approval pushes toward the first.
 
 ---
@@ -116,8 +122,11 @@ A defender of the encyclical has a real reply. A pope condemning a *tendency* ha
 **P3** *(Exegetical (a) · Evaluative (b).)*
 
 **Must hit, strict (a):** any three of: *Pascendi* targeted philosophy of religion, the history of dogma and biblical criticism, not natural science; "evolution" in it is the evolution of dogma, not biology. The oath came in 1910 by *Sacrorum antistitum*, not in 1907 or by *Pascendi*, and it was a profession of specific doctrinal propositions (for instance, that God can be known by reason and that Christ instituted the Church), not an oath "against the modern world." Relief did not wait for Vatican II: *Ad beatissimi* (1914) curbed the labelling, the Sodalitium was suppressed in 1921, and *Divino Afflante Spiritu* (1943) opened biblical study before the council. "War on science" also leaves out Leo XIII's opening of the archives and his encouragement of biblical study.
+
 **Must hit, any verdict (b):** say what "suppressed" must mean (condemnations of specific theses, the Index, removals such as Lagrange's recall, censorship, the oath's chilling effect) and weigh it against what continued (the École biblique survived, and church history and archival scholarship went on). Also address the time span: 1907 to 1943 for biblical study, and the oath until 1967.
+
 **Wrong turns:** answering (b) only by repeating (a)'s corrections; treating Lagrange's return as proof nothing was suppressed, or his recall as proof everything was.
+
 **Model answer (b), one of several:** Largely defensible for biblical and doctrinal history, not for historical scholarship as a whole. Condemned theses, the Index, censors, the oath, and Lagrange's recall made critical exegesis and the history of dogma dangerous for Catholic clergy until *Divino Afflante Spiritu* in 1943. But archival history of the Church flourished after 1881, the École biblique survived, and the labelling was curbed in 1914. "Suppressed" overstates the case; "sharply constrained, in the disciplines touching doctrine" fits the record.
 
 </details>
@@ -130,8 +139,11 @@ A defender of the encyclical has a real reply. A pope condemning a *tendency* ha
 <summary>Solution</summary>
 
 **Must hit, strict (a):** roughly half the parish clergy swore; estimates run up to 55–60 percent, depending on the date counted and on retractions (only seven bishops swore). Jurors predominated in the Paris basin, the centre and the southeast. Refusers predominated in the west (Brittany, Anjou, the future Vendée), the north and northeast (Flanders, Alsace, Lorraine) and the southern Massif Central. Tackett argues that priests' choices were heavily shaped by their parishioners' attitudes and by regional clerical cultures, and that the oath map matches the map of religious practice and political allegiance into the twentieth century.
+
 **Must hit, strict (b):** against "given up the faith", any two of: constitutional priests saw themselves as Catholic clergy, many as convinced Gallicans; Rome's charge was that they lacked canonical mission, not that they had abandoned the faith; in 1801 every constitutional bishop resigned when the pope asked; dechristianization in 1793–94 struck jurors too. Tackett adds that refusal was largely a communal and regional choice, not only a test of each priest's personal faith, so the geography does not show that refusers were individually more devout.
+
 **Wrong turns:** treating the correlation with later practice as proof that the claim is right (it describes regions, not motives); over-reading Tackett the other way, as if priests had no convictions of their own; calling the jurors a small minority.
+
 **Model answer:** About half the parish clergy swore, perhaps up to 55–60 percent. Jurors predominated around Paris and in the southeast, refusers in the west and the northeast. Tackett argues that priests chose within their communities, shaped by parishioners and regional clerical cultures, which is why his map still matches religious practice a century later. Against apostasy: Rome charged the jurors with lacking canonical mission, not with losing the faith, and in 1801 the constitutional bishops resigned at the pope's request. So "the faithful refused" describes regions better than individual priests.
 
 </details>

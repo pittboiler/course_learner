@@ -96,9 +96,13 @@ Watch the pronouns. Verse 8 has "they"; verse 10 switches to "we" unannounced, a
 **P1** *(Exegetical)*
 
 **Must hit, strict (a):** the "we" stopped at **Philippi** (16:17, just before the arrest of Paul and Silas) and resumes at **Philippi** ("we sailed from Philippi", 20:6), years later in the story. The fact is cited because it fits a narrator, or a diarist, who stayed behind in Philippi and rejoined Paul there. Both the eyewitness and the source explanations predict exactly this.
+
 **Must hit, strict (b):** "being there to take in **Paul**", "**he** had appointed, **himself** purposing to travel by land", "when **he** had met with **us**". Paul goes by land and "we" go by sea, so "we" is a group Paul can be apart from and must rejoin.
+
 **Must hit, strict (c):** the **literary-device** explanation, especially Robbins's sea-voyage convention. A convention should put the voyaging hero inside the "we". Here the "we" sails *without* Paul, and he travels by land, which is the kind of odd, unmotivated detail an itinerary records and a stylist would not invent.
+
 **Wrong turns:** saying the passage *proves* the author was an eyewitness. The source explanation fits it equally well. Reading "stayed for us at Troas" as the named companions being the "we"; they are the ones who went ahead.
+
 **Model answer:** (a) The first "we" section ends at Philippi in 16:17, and this one picks up at Philippi in 20:6, so the "we" seems to have stayed there. That pattern suits a companion, or a diarist the author used, who stayed in Philippi and rejoined Paul. (b) "To take in Paul" and "he ... purposing to travel by land" set Paul apart from "us". The "we" is a group without Paul in it for this stage. (c) The literary-device reading is least helped. A convention would not put the hero on land while "we" sail, and that is the kind of detail a real itinerary leaves behind.
 
 **P2** *(Exegetical)*
@@ -109,15 +113,21 @@ Watch the pronouns. Verse 8 has "they"; verse 10 switches to "we" unannounced, a
 3. **B.** It fits the office and the date, but no source outside Acts reports the hearing.
 4. **C.** Josephus places Theudas under Fadus (c. 44–46) and Judas at the census (c. 6): the reverse order, and after Gamaliel's speech.
 5. **D.** It is a claim about divine action. Historical method can report that Paul changed route, but it cannot confirm or refute the cause.
+
 **Wrong turns:** marking 3 as A because 1 is A, which confuses confirming the setting with confirming the event. Marking 5 as C on the ground that miracles are improbable. That is a philosophical judgment, not outside evidence, and it belongs to [`philosophy-of-religion`](../../philosophy-of-religion/syllabus.md). Marking 4 as B on the "different Theudas" reading; that reading is a proposed resolution of the tension, not a lack of one.
+
 **Model answer:** 1 A (Delphi). 2 A (Macedonian inscriptions). 3 B (right office, unattested hearing). 4 C (Josephus reverses the order and puts Theudas later). 5 D (divine action, outside historical check).
 
 **P3** *(Exegetical)*
 
 **Must hit, strict (a):** the note infers the accuracy of **speeches** from the accuracy of the **setting**. Correct titles confirm local knowledge, not events, and still less wording. The **Thucydidean convention** (1.22) is that the historian composes speeches fitting the occasion and keeps to the general sense. So "verbatim" is not what an ancient history claims even when it is accurate. Credit for noting "proven" overreaches, since the Theudas check runs the other way.
+
 **Must hit, strict (b):** *Acts is inspired*: **defined dogma**, rung 1 (Trent's canon). *The speeches are verbatim*: **no level**. It is a hypothesis, and one that almost no scholar holds; no magisterial act teaches it, and Dei Verbum 12 directs attention to ancient literary forms. *The "we" is the author's eyewitness narration*: a **scholarly hypothesis** (Irenaeus's reading, defended by Fitzmyer; rivals are the source and device explanations). It is not defined. Tradition and the 1913 Biblical Commission response back Lucan authorship, but their present weight is a separate question, and how far authorship attributions bind is freely disputed.
+
 **Must hit, strict (c):** "Denies the faith" is the charge for denying a **rung-1** truth (heresy). The eyewitness reading of "we" is not defined at any level, so rejecting it cannot deny the faith. The note has promoted a hypothesis to dogma.
+
 **Wrong turns:** conceding that the speeches must be verbatim because inerrancy covers them. Inerrancy covers what is **asserted**, and an ancient speech asserts its sense, not a transcript ([`fundamental-theology` 3.2](../../fundamental-theology/lessons/03-02-inerrancy.md)). Marking Lucan authorship itself as defined dogma because Trent's list says "written by Luke".
+
 **Model answer:** (a) It moves from correct titles, which show that Luke knew the world he described, to verbatim speeches, which no such check can reach. By the convention Thucydides states, ancient historians composed speeches that fit the occasion, so a verbatim record is not what Acts claims. (b) Inspiration is defined dogma (rung 1, Trent). The verbatim speeches are a hypothesis with no magisterial backing and little scholarly support. The eyewitness "we" is a scholarly hypothesis among three. (c) Only denying rung-1 teaching is denying the faith, and no definition covers the "we". The note promotes a hypothesis to dogma, which is the course's basic level error.
 
 </details>
@@ -136,9 +146,13 @@ Watch the pronouns. Verse 8 has "they"; verse 10 switches to "we" unannounced, a
 <summary>Solution</summary>
 
 **Must hit, strict (a):** The fall of **Babylon to the Medes** (13:17, 19), a conquest inside history, announced as "the day of the Lord" in cosmic imagery. So darkened sun, moon and stars could express the theological weight of an earthly event, not forecast a change in the sky.
+
 **Must hit, strict (b):** The premise is that **Jesus, or Mark, used the imagery the way Isaiah did**, for events inside history (on Wright's reading, the Temple's fall and Jesus's vindication). The eschatological side must deny that Isaiah's usage decides this text: a parallel shows what the language *can* mean, not what it means here. It can cite **Allison's sandwich**: John before Jesus preached imminent judgment, and the church after him expected the Lord's literal coming soon (1 Thessalonians 4:15–17).
+
 **Must hit, strict (c):** The first is **near-consensus**. The second is a **live dispute**: the eschatological-prophet reading is probably the majority, but Crossan denies an apocalyptic Jesus, Wright redefines "the end", and Meier doubts the deadline sayings. *Lamentabili* does **not** settle it: it condemned the dilemma "either Jesus erred or the gospels are inauthentic", not any historical reconstruction.
+
 **Wrong turns:** reading Isaiah 13 as proof that Mark 13 is metaphor, or dismissing it as irrelevant. Treating the majority view in (c) as near-consensus. Reading *Lamentabili* as a definition of Jesus's eschatology.
+
 **Model answer:** (a) The darkened heavens accompany Babylon's fall to the Medes, a political conquest in history. So such language could mark an earthly event as God's judgment rather than predict the end of the cosmos. (b) The premise is that Jesus's cosmic imagery refers, as Isaiah's does, to events inside history; the other side denies that one parallel fixes the sense here. It can cite the sandwich: John's imminent judgment before Jesus, and Paul's expectation in 1 Thessalonians 4 of the Lord's coming soon after him. (c) The kingdom preaching is near-consensus, while an expected end of the cosmos within a generation is a live dispute, a majority reading with serious rivals. *Lamentabili* refused the either-he-erred-or-the-gospels-are-false dilemma and left the historical question open.
 
 </details>

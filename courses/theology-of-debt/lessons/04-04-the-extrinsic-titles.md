@@ -137,9 +137,13 @@ graph TD
 <summary>Solution</summary>
 
 **Must hit, strict (a):** **No real contradiction.** The confessor answers whether Rinaldo **sins**, which *Consuluit* locates in the intention of gain; the judge answers whether he is a **manifest** usurer liable to a public penalty, which is a juridical test of notoriety, not a moral one. The crux is the difference between the sin and the canon's jurisdictional threshold.
+
 **Must hit, strict (b):** the confessor relies on **Urban III's *Consuluit***, whose second case is exactly a merchant who charges more for goods sold on credit, wrong because of the intention of gain (Luke 6:35). It is a papal rescript made universal law in Gregory IX's *Liber Extra* (1234): **authentic papal teaching in legal form, not a definition**. The judge relies on **Lateran III canon 25** (1179), which denies communion and Christian burial to *manifest* usurers: a **disciplinary canon of a general council**, binding law, not a definition.
+
 **Must hit, strict (c):** Rinaldo would have to become a **manifest** (publicly notorious) usurer. Then Lateran III bars him from communion and, if he dies unrepentant, from Christian burial, and Lyons II would further require restitution made or pledged before burial.
+
 **Wrong turns:** saying the judge thinks the markup is licit; his refusal concerns proof and notoriety, not morals. Promoting *Consuluit* to a definition, or demoting it to a private opinion. Bringing in Vienne's heresy clause, which targets pertinacious assertion that usury is no sin, and Rinaldo asserts nothing.
+
 **Model answer:** (a) They do not disagree about the sin: the confessor judges his intention, while the judge applies a penalty reserved for usurers known as such. (b) The confessor stands on *Consuluit*, which names the credit-sale markup and made the intention of gain the sin as universal law through the *Liber Extra*, authentic papal teaching and not a definition. The judge stands on Lateran III canon 25, a general council's disciplinary law that reaches only manifest usurers. (c) Rinaldo's usury would have to become public and notorious. Then the canon bars him from communion and, if he dies unrepentant, from Christian burial.
 
 </details>

@@ -92,8 +92,11 @@ The strain, then: the argument rests on a fact about persons, and what persons *
 **P1** *(Formal (a) · Exegetical (b).)*
 
 **Must hit, strict (a):** sums are X = 60, Y = 45 + 10 + 5 = 60, Z = 30 + 30 + 0 = 60, a three-way utilitarian tie. Prioritarian: X = $3\sqrt{20} \approx 3 \times 4.472 = 13.42$; Y = $\sqrt{45} + \sqrt{10} + \sqrt{5} \approx 6.708 + 3.162 + 2.236 = 12.11$; Z = $\sqrt{30} + \sqrt{30} + 0 \approx 5.477 + 5.477 = 10.95$. Ranking X > Y > Z.
+
 **Must hit, strict (b):** W = $7 + 7 + 2 = 16$, which beats X (13.42), even though W takes person 3 from 20 down to 4. So prioritarianism still endorses a severe loss to one for large gains to others. It fixes *distribution-insensitivity* but not the *sacrifice* strand, because it still aggregates across persons.
+
 **Wrong turns:** ranking Z above Y because Z has "more people doing well" (the prioritarian function penalizes the 0 heavily); saying prioritarianism fully answers Rawls and Nozick.
+
 **Model answer:** (a) Utilitarian: X = Y = Z = 60. Prioritarian: X 13.42 > Y 12.11 > Z 10.95. (b) W scores 16 > 13.42, so prioritarianism prefers cutting one person from 20 to 4 for the others' gain. It answers distribution-insensitivity, not sacrifice: it still sums across lives.
 
 ---
@@ -101,8 +104,11 @@ The strain, then: the argument rests on a fact about persons, and what persons *
 **P2** *(Exegetical (a) · Evaluative (b).)*
 
 **Must hit, strict (a):** a valid reconstruction, e.g. P1 If the separateness objection is sound, every policy that imposes costs on some for others' benefit is wrong. P2 Taxes, quarantines and compulsory purchase impose such costs. P3 These policies are not wrong. ∴ C The objection is unsound (modus tollens). Weakest premise: **P1**, because the objection's principle (a burden must be *justifiable to* the person, not merely outweighed) need not condemn every cost-imposing policy.
+
 **Must hit, any verdict (b):** name a feature the everyday cases have that the sheriff lacks: the policy is justifiable to each person *ex ante* (everyone benefits from a scheme of taxes and quarantines), burdens are shared or compensated (market price for land), and the burden is not a grave harm to an innocent singled out. Then test whether that feature is principled or ad hoc, e.g. whether "justifiable ex ante" would also license a lottery for framing people.
+
 **Wrong turns:** accepting P1 without noticing it misstates the principle; answering "those policies are wrong too" without saying what that costs.
+
 **Model answer (b), one of several:** The objection never said costs cannot cross between persons. It said a burden must be justifiable to the person who bears it. Taxes and quarantines pass: each citizen gains from living under the scheme, the burdens are spread, and land is bought at a fair price. The drifter gets nothing, and he is chosen for the frame-up precisely because he is expendable. So P1 is false and the reply fails as stated. It has a real bite, though: "justifiable to each ex ante" risks licensing a fair lottery for sacrifice, which many find just as bad. The defender needs a further constraint on *how* someone may be burdened.
 
 ---
@@ -110,7 +116,9 @@ The strain, then: the argument rests on a fact about persons, and what persons *
 **P3** *(Evaluative, graded on construction.)*
 
 **Must hit, any verdict:** a case where the harm to an innocent maximizes total well-being; explicit stipulations blocking the long-run reply (secrecy, no precedent, no effect on institutions or trust); an identification of the principle violated (a burden not justifiable to her); a judgment on whether the stipulations control a variable or disarm the objection, with a reason.
+
 **Wrong turns:** a case where the "victim" consents or is guilty (it no longer tests the objection); leaving detection open, so the utilitarian can reply that the act is forbidden anyway; stipulating so much that your own verdict is unreliable, without saying so.
+
 **Model answer, one of several:** A vaccine researcher can secretly infect one unconscious, unconsenting patient to confirm a vaccine that will save thousands a year sooner. Stipulations: no one will ever know, the result is scientifically valid, and it is a one-off, so no practice or precedent forms. With those in place, act utilitarianism requires the infection. Are the stipulations fair? Secrecy and no precedent only cut the act off from its downstream effects, which is what a control should do, so they do not disarm the objection. But the case moves two factors at once: the patient bears a burden no one could justify to him, and he is also *used* as a means. To see which is doing the work, retest it with a version where his harm is only a side effect ([3.2](03-02-the-doctrine-of-double-effect.md)).
 
 </details>
@@ -123,8 +131,11 @@ The strain, then: the argument rests on a fact about persons, and what persons *
 <summary>Solution</summary>
 
 **Must hit, strict (a):** "believable" is ambiguous between *can be believed* (true of anything people in fact believe) and *worthy of belief* (what ought to be believed). Only the first makes "people believe it" a proof. Mill needs "desirable" in the second, normative sense, which is Moore's point in *Principia Ethica* (1903) §40.
+
 **Must hit, any verdict (b):** say the parallel exposes the equivocation (people believe falsehoods, so belief does not prove worthiness of belief), and then give the charitable reading. Mill calls it evidence rather than proof, says in ch. 1 that ultimate ends are not open to direct proof, and may mean only that desire is the best evidence of desirability we have.
+
 **Wrong turns:** saying Mill commits a fallacy and stopping; treating "evidence" as "proof".
+
 **Model answer:** (a) True only as "capable of being believed"; the analogue must be "deserving belief." (b) It hurts the literal step: widespread belief in falsehoods shows that being believed does not make a claim worth believing, and the same gap opens between desired and desirable. Charitably, Mill offers desire as the best available evidence, not a proof, since he denies ultimate ends admit of proof.
 
 </details>

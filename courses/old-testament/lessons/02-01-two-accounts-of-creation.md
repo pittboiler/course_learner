@@ -107,23 +107,33 @@ The Fathers, and Challoner's note, read the plural as a hint of the Trinity: leg
 **P1** *(Exegetical)*
 
 **Must hit, strict (a):** the lights **divide** day from night and light from darkness; they serve as **signs, seasons, days and years**, a calendar; they **shine / give light upon the earth**; and they **rule** the day and the night.
+
 **Must hit, strict (b):** the sun and moon are **never named**. They are "lights", a "greater light" and a "lesser light", things God **made** and **set** in the firmament, with the stars added in three words ("and the stars"). The likeliest reason is **polemical**: the ordinary Hebrew words for sun and moon were also names of gods in the region (Akkadian Shamash is the sun god). Leaving them nameless makes them lamps with a job, not powers. This is the majority reading, and it should be hedged as an inference, since the text gives no reason.
+
 **Wrong turns:** treating "to rule" as giving the lights divine power. In the text their rule is an assignment from God. Stating the anti-astral motive as proven fact. Reading "and the stars" as a cosmological claim about their size.
+
 **Model answer:** (a) They divide day from night and light from darkness, mark signs, seasons, days and years, give light on the earth, and rule the day and the night. (b) The passage never names the sun or moon. It calls them a "greater" and "lesser light" that God "made" and "set", which most scholars read as a deliberate refusal to treat bodies worshipped as gods around Israel as anything but lamps, an inference the text itself does not state.
 
 **P2** *(Exegetical)*
 
 **Must hit, strict (a):** days 1/4 are **heaven**: light (1:3), then the lights (1:14–19). Days 2/5 are **water**, the middle part: the firmament separating the waters (1:6–8), then fish and birds (1:20–23). Days 3/6 are **earth**: dry land and plants (1:9–13), then land animals and humans (1:24–31).
+
 **Must hit, strict (b):** any one of these. **Birds** fill the air "under the firmament" (1:20), not the water, yet they are day 5's work. The **lights are set in the firmament**, which is made on day 2, not day 1. **Day 1's light** is not a region at all.
+
 **Must hit, strict (c):** **no.** As reported, Augustine reads day 1's light as the formation of **spiritual creatures** (the angels). That is not what the human author meant by light. It is a theological or spiritual reading, compatible with the literal sense but not the literal sense itself.
+
 **Wrong turns:** calling Aquinas's scheme a modern invention. He reports it from "holy writers". Calling Augustine's reading an error. It is a legitimate reading, just not of the literal sense in the course's (post-*Divino Afflante*) usage. Credit a student who notes that Augustine himself called his reading "literal" (*De Genesi ad litteram*) in an older sense of the word.
+
 **Model answer:** (a) Days 1/4 are heaven: light, then the lights. Days 2/5 are water: the dividing firmament, then fish and birds. Days 3/6 are earth: land and plants, then animals and humans. (b) Birds, which fill the air, are made with the fish. (c) No. Reading the first light as the angels goes beyond what the author meant by light, so it is a spiritual or theological reading that rests on the literal sense.
 
 **P3** *(Exegetical)*
 
 **Must hit, strict (a):** (1) The 1909 responses did **not** require every word to be literal. Response V says figurative and anthropomorphic language may be read as such. (2) Response VIII left **yom** open: a natural day or a period of time, freely discussed. (3) Response VII said Genesis 1 does not aim at **scientific** precision, and the "waters above" belong to the **ancient cosmology** the account uses, not to what it asserts.
+
 **Must hit, strict (b):** (1) "Copy" overstates it: Genesis shares a **cosmology** with *Enuma Elish*, with **pointed differences** (no battle, sea monsters simply created, lights unnamed, humanity blessed rather than enslaved). (2) ***Tehom* ~ Tiamat** is contested; many treat the words as **cognates**, and in Genesis *tehom* is not a goddess. (3) The Church has **not** declared these chapters myth without reality. *Humani Generis* §38 (rung 3) and the 1948 Suhard letter say they belong to history in a true, non-modern sense. And the 1955 clarification freed literary and historical questions, not the faith-bearing facts of Response III, so "dead letters" overstates it.
+
 **Wrong turns:** defending A's six days as "one permitted reading" without saying that the handout makes it *compulsory*, which is the error. Answering B by insisting Genesis is modern history, which swaps one genre error for another. Calling the Commission's documents dogma, or calling them irrelevant.
+
 **Model answer:** (a) The Commission said the opposite of "word for word": Response V allows figurative language, Response VIII leaves the length of the "days" to free discussion, and Response VII says Genesis 1 does not aim at scientific precision. The waters above the firmament are the ancient picture of the world the account uses, not something it asserts. So nothing obliges a Catholic to 24-hour days or to an upper ocean. (b) Genesis shares Babylon's map of the world but rewrites its theology: no divine battle, no named sun and moon, humanity blessed rather than made to serve, and *tehom* may be a cognate, not a borrowed goddess. The Church has not called these chapters myth without reality; *Humani Generis* and the Suhard letter hold that they are history in a true though non-modern sense. The 1955 clarification freed literary and historical questions, but not the faith-bearing facts, so the decrees are neither dogma nor dead.
 
 </details>
@@ -145,9 +155,13 @@ Josiah's reform came about three centuries later (conventionally 622). 2 Kings 2
 <summary>Solution</summary>
 
 **Must hit, strict (a):** **Argument 1.** Its premise rules out prediction in advance, the rationalist exclusion of "all prophecy and miracle" that Leo named, so the conclusion is settled before any evidence is weighed. (This is 1.3's Form A.)
+
 **Must hit, strict (b):** **No.** Argument 2 rests on evidence in the text, an **anachronism** and a literary fit, and argues to the likeliest setting of the story's composition. It needs no premise about what God can reveal (Form B). *Divino Afflante Spiritu* (1943) and **Dei Verbum 12** make the study of how and when ancient texts took shape a duty, and *Verbum Domini* §§34–36 forbids only the secularized premise, not the evidence. Leo's first charge, against internal evidence *alone*, was a prudential rule later documents moved past; credit an answer that says so.
+
 **Must hit, strict (c):** **No.** Argument 2 dates the story's **present wording**, not the event behind it. Whether a man of God foretold the altar's desecration, and whether the king's name stood in the original oracle or was made explicit by a narrator who knew the fulfilment, are **scholarly questions left free**. Either answer is compatible with inspiration.
+
 **Wrong turns:** calling Argument 2 rationalist because it concludes the passage is late; its conclusion is not the problem, its premises are what count. Calling Argument 1 acceptable because its conclusion might be true. Treating "written after Josiah" as a denial of inerrancy, when the genre and the narrator's purpose decide what the text asserts.
+
 **Model answer:** (a) Argument 1: it assumes prophecy of a future name is impossible, which is the rationalist premise Leo condemned, and so it decides the case before looking at the text. (b) Argument 2 does not need it; it argues from an anachronism and a literary fit to the story's likeliest date, which is the kind of historical and literary study *Divino Afflante Spiritu* and Dei Verbum 12 require. (c) No: a late date for the narrative's wording leaves open whether a prophet foretold Josiah's act, and whether the name was in the oracle or supplied by the narrator is a freely disputed question.
 
 </details>

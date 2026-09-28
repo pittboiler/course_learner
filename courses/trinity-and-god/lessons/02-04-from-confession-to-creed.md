@@ -111,8 +111,11 @@ Dionysius of Rome writes to Alexandria condemning, in one letter, those who spli
 **P1** *(Exegetical.)*
 
 **Must hit, strict (a):** (i) **Tritheism** — dividing the one God into three separate gods: "making it as it were three powers and partitive subsistences and god-heads three", and "in some sort preach three Gods". (ii) **The Son as a creature** — the error Nicaea will condemn in Arius: "those who hold the Son to be a work, and consider that the Lord has come into being, as one of things which really came to be". Credit for noting that Sabellius is named in passing as the error the tritheists are reacting against ("the Son is the Father, and the Father the Son"), so three positions appear, two of them condemned here.
+
 **Must hit, strict (b):** it supplies no positive vocabulary for what is three. The tell is in the passage: the only word available for the three is *subsistences*, and Dionysius uses it exclusively as a term of abuse — a plurality of subsistences just is the tritheist error. A writer with a settled term for the threeness would not have to reach for the word he is condemning. (Equally good: he has no term for what is one that is not simply "the Monarchy" or "the Monad", both of which name the oneness without leaving room for the three.)
+
 **Wrong turns:** calling the first error modalism because "Monarchy" appears — the monarchy here is what is being *defended*, not the error; reading "partitive subsistences" as Nicaea's *hypostasis* in its later sense, which is the whole point of [3.2](03-02-one-ousia-three-hypostaseis.md) and is not yet available in 260; treating the passage as a conciliar definition rather than a bishop's letter reported by a later Father.
+
 **Model answer:** (a) Tritheism — "three powers and partitive subsistences and god-heads three", "in some sort preach three Gods"; and the Son as a creature — "those who hold the Son to be a work … as one of things which really came to be". (b) It supplies no word for what is three: the only available term, *subsistences*, appears solely as the name of the error. That is the missing middle of the road, and the vocabulary that fills it is still sixty-five years and one council away.
 
 ---
@@ -120,9 +123,13 @@ Dionysius of Rome writes to Alexandria condemning, in one letter, those who spli
 **P2** *(Exegetical.)*
 
 **Must hit, strict (a):** the oneness of God and the full divinity of the one who saves — "No second Lord, no lesser throne" refuses both polytheism and a ranked, lesser Christ. Both are things the Church defines; the verse is guarding real ground.
+
 **Must hit, strict (b):** **modalism** (monarchianism in its modalist form). Costs: (i) **patripassianism** — if the Saviour's face is simply the Maker under another name, the Father was born and suffered; (ii) the **loss of the real distinction** the New Testament reports, so that the Son praying to the Father becomes one subject in two costumes rather than two who are. "Masks", "faces" and "seasons" are the words that carry it; the sequencing of creation, salvation and sanctification is Sabellius with a calendar.
+
 **Must hit, strict (c):** the motive of glorifying Christ without qualification — Noetus's own defence before his presbyters, "What evil, then, am I doing in glorifying Christ?", reported by Hippolytus, *Against Noetus* 1. (Equally acceptable: the defence of the monarchy, with Tertullian, *Against Praxeas* 3.)
+
 **Wrong turns:** naming subordinationism — the verse denies a lesser throne, which is the opposite error; skipping (a) and going straight to the condemnation, which is the failure this archetype is built to catch; calling the sequencing a legitimate **appropriation**, which is a different move and belongs to [4.5](04-05-common-proper-appropriated.md) — an appropriation attributes a *common* work to one person by resemblance, and does not make the three into phases.
+
 **Model answer:** It is protecting the oneness of God and a Christ who is God without remainder — "no second Lord, no lesser throne". But "masks", "faces" and three seasons of one praise make the three modes of a single subject, which is modalism. Two costs: the Father is then the one born and crucified, and the Son's prayer to the Father becomes a performance. The motive is Noetus's own — "What evil, then, am I doing in glorifying Christ?" (*Against Noetus* 1).
 
 ---
@@ -136,8 +143,11 @@ Dionysius of Rome writes to Alexandria condemning, in one letter, those who spli
 - ∴ C. The Word exists as distinct from the Father only from the moment God turns toward creation.
 
 The damaging premise is **P3**, because it makes the begetting an event with a *purpose outside God*: the Son's distinct existence is conditioned on the world's. Full credit for naming the consequence — God without the world would not yet be a Father, so fatherhood becomes accidental to God — and for noting that Origen's eternal generation ([`patristics` 2.5](../../patristics/lessons/02-05-clement-of-alexandria-and-origen.md)) is the repair. P2 is accepted as a fair reading of the account rather than attacked; the argument's problem is where the distinction is *introduced*, not that the Word is God's reason.
+
 **Must hit, strict (b):** **no level at all.** Theophilus is a second-century apologist writing private theology; a bishop's or a theologian's explanation acquires a level only by a magisterial act — for the top rung, a solemn definition by pope or council, or the infallible teaching of the ordinary universal magisterium ([`fundamental-theology` 4.4](../../fundamental-theology/lessons/04-04-the-ladder-of-doctrinal-authority.md)). Naming the act is the point of the part: "the Church later rejected it" is not an act, and "it is patristic" is not a level.
+
 **Wrong turns:** calling the account heresy — there is no definition yet to contradict, which is exactly what makes the period hard to grade; calling it dogma because Theophilus is early and a bishop, which is the promotion error this course grades strictly; answering (b) with a level and no act.
+
 **Model answer (b):** None. *To Autolycus* is a private theologian's book, and nothing a Father writes acquires a level by being written; a claim reaches the top rung only when a pope or an ecumenical council solemnly defines it, or when the ordinary universal magisterium teaches it as divinely revealed. Theophilus's *account* therefore stands nowhere on the ladder, even though the thing he was trying to say — that the Word is God's own and eternal — is later defined.
 
 </details>

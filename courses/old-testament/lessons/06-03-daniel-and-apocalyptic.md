@@ -92,21 +92,29 @@ The fit is close through row four, and row five breaks. The dating argument live
 **P1** *(Exegetical)*
 
 **Must hit, strict:** (1) **Defined dogma**: Trent, Session IV, the books "entire with all their parts", with the Vulgate's Daniel including chapters 13–14 ([`fundamental-theology` 3.3](../../fundamental-theology/lessons/03-03-the-canon-as-defined.md)). (2) **Scholarly position, the critical majority**. The date is **reconstructed**, and it is not Church teaching. (3) **Secure date** (1 Macc 1:54 [Douay 1:57]: Kislev, year 145 of the Seleucid era). (4) **Not Church teaching.** No definition or Commission response fixes Daniel's author or date. The sixth-century date is a live minority scholarly position. (5) **Defined dogma** (the creeds' resurrection of the dead), for which Dan 12:2 is a supporting text, not the definition.
+
 **Wrong turns:** grading (1) as disputed because Jerome obelized the additions. Trent settled canonicity, whatever the additions' original language. Grading (4) as Church teaching because Jesus calls Daniel "the prophet" (Matt 24:15): a title of reception is not a definition of authorship. Calling (2) "proven".
+
 **Model answer:** (1) Defined dogma, Trent IV. (2) Majority scholarly view, reconstructed date. (3) Secure date, 1 Macc 1:54. (4) Not Church teaching; a minority scholarly view. (5) Defined dogma; Dan 12:2 a supporting text.
 
 **P2** *(Exegetical)*
 
 **Must hit, strict (a):** any two of: **place of death**, Palestine "between the seas, upon a ... holy mountain" versus Persia, near Elymais, "in a strange land"; **the campaign**, a victorious southern war against Egypt versus a failed raid in the east; **circumstances**, a king at the height of conquest versus a king who "fled away" in sadness. Credit also: the "tidings out of the east" (11:44) are an eastern threat in the forecast but the setting of his defeat in the record.
+
 **Must hit, strict (b):** the crux is **whether the subject of 11:40–45 is the same king as 11:21–39**, that is, whether the text marks a change of referent. A denies any change; B affirms one. Textual evidence that would move it: whether anything in the Hebrew marks a new subject at 11:36 or 11:40. "The king" continues without a new name, and "at the time of the end" (*be'et qets*, DR "at the time prefixed", 11:40) already appears for the crisis at 11:35. That continuity helps A. A clear shift of scale or vocabulary would help B.
+
 **Wrong turns:** making the crux "whether prophecy is possible". Both positions allow it, and B's move is a change of referent, not a denial of forecast. Treating Challoner's note as a Church ruling on the referent.
+
 **Model answer:** (a) The forecast ends the king in Palestine after conquering Egypt; the record has him fail in Persia and die there. (b) The crux is whether 11:40–45 still speaks of Antiochus. A says yes and B says the subject has passed to the Antichrist. The absence of any new subject or name, with "time of the end" already used for 11:35's crisis, favours A; a marked shift in scope would favour B.
 
 **P3** *(Exegetical)*
 
 **Must hit, strict (a):** **"many"** of those who sleep in the dust, not stated as all; **two destinies**, "life everlasting" and "reproach"; **"at that time"** (12:1), the unparalleled distress of the crisis in chapter 11; "they that are learned" are **the same group as the "learned among the people" who "teach many" and fall (11:33, 35)**, the faithful teachers of the persecution. They receive a special glory.
+
 **Must hit, strict (b):** right: 12:2 does teach bodily resurrection to judgment, and the Church's doctrine leans on it. Unsupported: **"all"**, because the text says "many" (a universal reading comes with later texts such as John 5:28–29, "all that are in the graves"); and **"always believed"**, because this is the first clear statement, with Isaiah 26:19 the nearest earlier text, so the belief developed.
+
 **Wrong turns:** calling the doctrine "not Church teaching" because Daniel says "many". The dogma stands on the creeds and the New Testament. Reading "learned" as scholars in general, ignoring 11:33–35.
+
 **Model answer:** (a) Many sleepers rise, some to everlasting life and some to reproach, at the time of distress in 12:1. The "learned" are 11:33's teachers, the martyrs, who shine like stars. (b) It is right that 12:2 affirms resurrection to judgment. But "many" is not "all", and this is the belief's first clear statement, not its constant form. Universality comes from John 5:28–29 and the creeds.
 
 </details>
@@ -123,8 +131,11 @@ The fit is close through row four, and row five breaks. The dating argument live
 <summary>Solution</summary>
 
 **Must hit, strict (a):** (1) **The canon**: "included in the Canon", the twenty-two books. (2) **Books to be read**: "not indeed included in the Canon, but appointed by the Fathers to be read" by converts ("those who newly join us"). This is a middle tier, not a rejection. (3) **Apocrypha**: the books of which there is "not ... in any place a mention", and the letter goes on to call them heretics' inventions.
+
 **Must hit, strict (b):** any two of these facts. (i) **Baruch and the epistle** (the Letter of Jeremiah) are *inside* his canon, counted with Jeremiah, and the Protestant 39 have neither. (ii) **Esther** is *outside* his canon, among the books read, and the 39 include it. (iii) Wisdom, Sirach, Judith and Tobit are **recommended reading**, not thrown out with the apocrypha, so his scheme has two tiers the 39-book model does not have. On authority: a Father's list is a **historical witness with no magisterial level**. The Old Testament canon of 46 books is **defined dogma** (Trent, Session IV).
+
 **Wrong turns:** filing Wisdom and Sirach with the apocrypha. Adding Maccabees to the read tier, when the passage names them nowhere. Claiming the passage shows whether his "Daniel" contained the Greek additions, when it says nothing either way. Calling a Doctor's list binding, or saying Trent "overruled" a definition that was never made. Reading the middle tier as an Old Testament category only, when the *Teaching of the Apostles* and the *Shepherd* are in it too.
+
 **Model answer:** (a) There is the canon ("included in the Canon"), and below it the books "appointed by the Fathers to be read" by new converts, such as Wisdom, Sirach, Esther, Judith and Tobit. Outside both are the apocrypha, which get "not ... in any place a mention". (b) His canon counts Baruch and the Letter of Jeremiah inside Jeremiah and leaves Esther out, so it is not the Protestant 39, and it keeps the other books as recommended reading instead of discarding them. A Father's list is a historical witness with no magisterial level, while the 46-book canon is defined dogma at Trent.
 
 </details>

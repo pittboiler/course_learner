@@ -92,9 +92,13 @@ But now the second horn. In a case where the stipulations hold and the surgeon k
 **P1** *(Formal (a), (c) · Exegetical (b).)*
 
 **Must hit, strict (a):** $EV(A) = 1 \times 60 = 60$. $EV(B) = 0.7 \times 100 + 0.3 \times 0 = 70$. Since exactly one of B and C cures, $P(\text{C cures}) = 1 - 0.7 = 0.3$, so $EV(C) = 0.3 \times 100 + 0.7 \times 0 = 30$. Check: B and C's expected values sum to 100, as they must when exactly one of them cures.
+
 **Must hit, strict (b):** the expected-value view says giving B was *right*, because it had the highest expected value on her evidence ($70 > 60 > 30$), and the bad outcome doesn't change that. The actual-consequences view says giving B was *wrong*, because C, which in fact was the cure, would have produced 100. The best an actualist can add is that she is blameless.
+
 **Must hit, strict (c):** $EV(B) = 100p + 0 \cdot (1-p) = 100p$. We need $100p > 60$, so $p > 0.6$.
+
 **Wrong turns:** giving C the same 0.7 chance, forgetting that the two probabilities are linked; saying the actual view counts A as right because it was "safe". The actual view ranks only what happened or would have happened, and A's 60 is beaten by whichever drug was the cure.
+
 **Model answer:** (a) 60, 70, 30. (b) Expected-value view: right, since it maximized expected value on her evidence. Actual view: wrong, since C would have cured, though she is not to blame. (c) $p > 0.6$.
 
 ---
@@ -102,11 +106,14 @@ But now the second horn. In a case where the stipulations hold and the surgeon k
 **P2** *(Exegetical (a) · Evaluative (b).)*
 
 **Must hit, strict (a):** act utilitarianism says break the promise, since that act has the best consequences by stipulation. Hooker's rule consequentialism says keep it: the ideal code contains a promise-keeping rule whose exceptions cover disaster and serious harm, and this case triggers neither. Collapse: the amended rule "keep promises unless breaking does more good" would, under perfect general compliance, do at least as well as the plain rule. So by rule consequentialism's own criterion it belongs in the code, and then the code says break, just as act utilitarianism does.
+
 **Must hit, any verdict (b):**
 - State the reply precisely. Evaluating *internalization*: a population that has internalized "unless breaking does more good" cannot rely on promises. That destroys the assurance promising exists to provide, invites self-serving miscalculation, and costs something to teach. So the amended rule does *worse* than the plain one.
 - Say whether the reply generalizes or only moves the line. The code already allows exceptions for disaster and serious harm, so where exactly the exceptions stop has to be defended.
 - Face the second horn. In *this* case you keep a promise you know is worse to keep. Either accept Hooker's claim that the theory rests on fit with considered judgments, not on maximizing, or press what that concession costs the theory's claim to be consequentialist.
+
 **Wrong turns:** reading rule consequentialism as asking about the consequences of *this* promise-breaking; running the collapse argument against internalization without noticing that P2 is exactly what the internalization reply denies; changing the stipulated numbers ("but the loss of trust would make it worse"). The stipulation already counts that loss.
+
 **Model answer (b), one of several acceptable:** The internalization reply blocks collapse. A code that licenses breaking promises whenever the breaker judges it better, internalized by real people, removes the reliability that makes promises worth having, so its expected value is lower than the plain rule's, and the two theories really do diverge here. But this doesn't dispose of rule worship: I know that keeping *this* promise is worse, and the theory still tells me to keep it. Hooker's answer, that his view is justified by fit with considered judgments and not by a maximizing ideal, is consistent. It does, though, make the consequentialist structure look optional: a Rossian duty of fidelity fits the same verdict directly. So collapse is avoided, but at the cost of the theory's claim that outcomes are the ground of rightness.
 
 ---
@@ -117,7 +124,9 @@ But now the second horn. In a case where the stipulations hold and the surgeon k
 - **The crux:** whether a moral theory's authority comes from a foundational value claim that well-being is what ultimately matters and is to be promoted, or from coherence with considered judgments. A asserts the foundational premise and uses it to judge every rule-following act. H denies that rule consequentialism is justified *by* that premise.
 - **What would move A:** showing that the maximizing premise is not itself self-evident, and that its verdicts on 1.3's cases (framing the innocent, the surgeon) are real evidence against it. That is, showing that A's foundation has to answer to considered judgments too.
 - **What would move H:** showing that a non-consequentialist theory, such as Ross's pluralism, fits the same considered judgments at least as well. Then fit gives no reason to prefer *rule consequentialism*, and H's choice of that theory rested on the maximizing idea after all.
+
 **Wrong turns:** naming "whether rules matter" as the crux, since both agree rules are useful; naming the collapse objection, which is a symptom of the disagreement, not the premise at issue; taking a side on who wins.
+
 **Model answer:** The crux is whether consequentialism's justification comes from a foundational premise that well-being is to be promoted, or from fit with considered judgments. A holds the premise and so treats any rule as a mere instrument. H denies that rule consequentialism rests on it. A would move if shown that the premise must itself answer to considered judgments, which the cases in 1.3 contradict. H would move if a non-consequentialist theory, like Ross's, fit the same judgments equally well, since then fit alone would not favour rule consequentialism.
 
 </details>
@@ -133,8 +142,11 @@ But now the second horn. In a case where the stipulations hold and the surgeon k
 - **Hedonism:** no. Well-being is pleasure and the absence of pain, and nothing in her experience changed.
 - **Informed-desire theory:** yes, on the standard unrestricted version, since her desire that the book succeed is satisfied whether or not she knows it. Credit also for noting that versions restricted to desires about one's own experiences say no.
 - **Objective list with achievement:** yes, if achievement counts regardless of awareness. The book's success is her accomplishment. Credit for noting that some list theorists require that the goods be recognized or endorsed by the person.
+
 **Must hit, any verdict (b):** connect the case to the experience machine from 1.2. That thought experiment pushes against hedonism by suggesting we care about how things actually are, not only how they seem, and Maren's case pushes the same way. Then face the cost on the other side: when did the benefit occur, and can someone who no longer exists be benefited?
+
 **Wrong turns:** saying the desire theory says no "because she's dead", which confuses the satisfaction of a desire with the experience of satisfaction; treating (b) as settled by (a).
+
 **Model answer (b), one of several acceptable:** It seems plausible: if we would refuse the experience machine because we want our projects really to succeed, then Maren's real success matters to her life, not just to the region. The cost is a puzzle about timing, because the benefit arrives twenty years after the life it improves. A hedonist can reply that this intuition is really about the value of her work to others, not about her well-being.
 
 </details>

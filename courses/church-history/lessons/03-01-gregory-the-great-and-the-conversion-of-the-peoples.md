@@ -99,9 +99,13 @@ Chapters 3–13, of which chapter 8 is one, each set the death penalty for an of
 **P1** *(Exegetical.)*
 
 **Must hit, strict (a):** four elements: the person is a Saxon ("of the race of the Saxons"); he is hidden among his people ("concealed among them … hide himself"); he is unbaptised; and he refuses on purpose ("scorned to come to baptism", "wished to remain a pagan"). Being unbaptised is not enough without the concealment and the will to stay pagan.
+
 **Must hit, strict (b):** yes, on the text's own words. "These mortal crimes" refers back to the capital offences just listed, which include chapter 8, and an offence of concealment is by nature "secretly committed". The offender must go to a priest "of his own accord", confess, and be willing to do penance. The priest's "testimony" frees him from death.
+
 **Must hit, strict (c):** delay in baptising an infant, even deliberate delay, costs a fine graded by rank, and a priest can excuse it; only an adult's hidden, wilful refusal is capital. The contrast suggests chapter 8 targets defiance, the choice to stay outside the conquerors' Church and order, rather than the bare fact of being unbaptised.
+
 **Wrong turns:** saying chapter 8 punishes any unbaptised Saxon; reading chapter 14 as an amnesty for crimes committed openly (it covers only those "secretly committed" and confessed voluntarily); missing that a priest, not a judge, is the gatekeeper.
+
 **Model answer:** (a) The person must be a Saxon, hiding among his people, unbaptised, and refusing baptism on purpose: he "scorned" it and "wished to remain a pagan." Lacking baptism is not enough on its own. (b) Yes. "These mortal crimes secretly committed" takes in the capital offences before it, chapter 8 included, and concealment is secret by definition. If he goes to a priest of his own accord, confesses and accepts penance, the priest's testimony saves him from death. (c) An infant's delayed baptism costs a graded fine that a priest can waive, while only an adult's hidden, wilful refusal carries death. So the capital law aims at defiance of the new order, not at being unbaptised as such.
 
 ---
@@ -109,8 +113,11 @@ Chapters 3–13, of which chapter 8 is one, each set the death penalty for an of
 **P2** *(Exegetical.)*
 
 **Must hit, strict (a):** the generalization is from Saxony, a real case of conquest plus legally enforced baptism, to the whole conversion of Europe. The conflation is between *top-down* conversion, where kings decide under political pressure, and *forced* conversion, where baptism is compelled by law or arms.
+
 **Must hit, strict (b):** two counter-cases, for example: Kent (597), where a king who already had a Christian queen received unarmed monks, and no one was conquered; Moravia (863), where a Slavic prince *asked* Constantinople for missionaries and got a liturgy in his people's language, which directly contradicts "the Slavic east"; Whitby, where Christians chose between two Christian usages; the Irish monasteries. What it gets right: Saxony was conquered and baptised under pain of death, with Verden and the *Capitulatio*; Boniface admitted he depended on Frankish power; and even royal conversions carried pressure (Bede's "favour or fear").
+
 **Wrong turns:** denying that force was used anywhere; counting Boniface as a purely peaceful counter-example (he worked under Frankish protection); treating the letter to Mellitus as evidence of tolerance.
+
 **Model answer:** The placard generalizes from Saxony, where conquest and a law punishing refusal of baptism with death really did make Christians, to all of Europe, and it runs together top-down conversion (kings choosing, under political pressure) with forced conversion. Kent does not fit: Æthelberht, already married to a Christian, received unarmed monks, and no army came. Neither does Moravia, the placard's own "Slavic east": Rastislav asked Constantinople for teachers and got a Slavonic liturgy. What is true is that Saxony's conversion was compelled, that Boniface relied on Frankish power, and that even royal conversions drew followers by "favour or fear."
 
 ---
@@ -118,7 +125,9 @@ Chapters 3–13, of which chapter 8 is one, each set the death penalty for an of
 **P3** *(Evaluative.)*
 
 **Must hit, any verdict:** (1) Separate *what* is compelled: baptism itself (which Gregory rejects in I.47) versus pressure on those who stay pagan, through fines and punishments (IV.26, IX.65). (2) Separate *who* and *where*: a missionary among an independent people (Mellitus), a Christian king (Æthelberht), and a bishop managing Church estates and slaves in imperial Sardinia (Januarius). (3) Notice that the letter to Mellitus justifies its gentleness as teaching by stages, not as a right to refuse, and still has the idols destroyed. (4) Deal with the two 601 letters, a month apart: a change of mind, or a split between what a king should do and what missionaries should do.
+
 **Wrong turns:** reading Mellitus as religious tolerance; treating I.47 as covering pagans (it concerns Jews baptised by force); judging Gregory by *Dignitatis Humanae* without first reconstructing his own distinction; ignoring IV.26, where the aim of the fiscal pressure is conversion.
+
 **Model answer (one of several):** Mostly false as stated, though it has a true core. Gregory consistently rejects *forced baptism*: I.47 says converts made by compulsion relapse. His English letters prefer persuasion by stages. But the reason is pedagogical, and the idols are still destroyed. Where he had power, on Church estates in Sardinia, he used heavier payments to push peasants into conversion and punishment against slaves who worshipped idols. The June letter to Æthelberht asks a king to tear down temples. A fairer statement: Gregory would not compel the sacrament, but he readily used pressure to bring people to it, and he gauged the pressure to how much power he had. A defender of the claim would reply that none of this is the death penalty for refusing baptism, and that on that line Gregory and Charlemagne differ in kind.
 
 </details>
@@ -131,7 +140,9 @@ Chapters 3–13, of which chapter 8 is one, each set the death penalty for an of
 <summary>Solution</summary>
 
 **Must hit, strict:** (i) **B.** An unlettered saint who defeats philosophers serves the portrait. Seven letters under Antony's name, which Rubenson argues are genuine, show a teacher at home in Platonist and Origenist ideas, and in hagiography "unlettered" can mean without rhetorical schooling. (ii) **B.** It is exactly what a bishop wanted monks to do; Brakke reads the *Life* as part of Athanasius's campaign to bind the monks to his episcopate. (iii) **A.** These details cut against a hagiographer's interest in making his hero the first monk, and Athanasius gains nothing by inventing them. (iv) **A.** A text written to recruit monks is good evidence of the ideals its readers admired around 360, whatever it shows about Antony himself.
+
 **Wrong turns:** classifying everything in a partisan source as B (the *Life* is strong evidence for its own time and for details against its author's interest); taking (i) at face value because the *Life* states it plainly; treating (iv) as a claim about Antony's private motives rather than about what readers admired.
+
 **Model answer:** (i) B: the unlettered sage suits Athanasius's portrait, and the letters Rubenson defends point to a learned Antony. (ii) B: deference to bishops is what the bishop-author needed, so the *Life* cannot confirm it alone. (iii) A: the details make Antony a pupil rather than a pioneer, against the author's interest, so they are likely to be true. (iv) A: whatever the *Life* says about Antony, it shows what a bishop expected monks of about 360 to admire.
 
 </details>

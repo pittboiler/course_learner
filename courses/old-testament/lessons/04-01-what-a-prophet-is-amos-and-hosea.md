@@ -95,24 +95,35 @@ The literal event is contested; the point is not: God's covenant love outlasts b
 **P1** *(Exegetical (a)–(c))*
 
 **Must hit, strict (a):** verse 9 threatens "the house of Jeroboam," his dynasty. Amaziah reports a personal death sentence on the king ("Jeroboam shall die by the sword") and calls it rebellion, so he turns an oracle into sedition. The Douay's own note flags the change. Jeroboam in fact "slept with his fathers" (2 Kings 14:29 [Douay 4 Kings]), and it was his son Zachary who was killed (2 Kings 15:10).
+
 **Must hit, strict (b):** (i) **present tense**: "I am not a (professional) prophet, nor a member of a prophetic guild," disowning the paid role Amaziah implies with "eat bread there." The "sons of the prophets" were guild members (2 Kings 2:3 [Douay 4 Kings 2:3], at Bethel itself). (ii) **past tense**: "I was not a prophet ... until the Lord took me," supported by verse 15's narrative "the Lord took me." Either way the contrast is between profession and commission.
+
 **Must hit, strict (c):** the call, "the Lord took me ... Go, prophesy to my people Israel" (7:15). Set against it are royal authority ("the king's sanctuary," v. 13) and professional status, which Amaziah's "seer ... eat bread there" assumes.
+
 **Wrong turns:** reading 7:14 as Amos denying he prophesies, when verse 15 commands him to. Treating Amaziah's report as an accurate quotation.
+
 **Model answer:** (a) Amos threatened the dynasty with the sword; Amaziah makes it the king's own death and brands it conspiracy, a charge a king must act on. (b) Present: "I am no professional or guild prophet," fitting "eat bread there"; past: "I was not one until the Lord took me," fitting verse 15. (c) He rests on God's call (v. 15) against the king's sanctuary (v. 13) and the professional's livelihood (v. 12).
 
 **P2** *(Exegetical (a)–(c))*
 
 **Must hit, strict (a):** *Summons:* "Hear the word of the Lord, ye children of Israel." *Case:* "the Lord shall enter into judgment." The Hebrew is ***rib***, a legal case or dispute: "the Lord has a case against" the land. *Charges:* no truth, no mercy (*hesed*), no knowledge of God, then the five crimes. *Sentence:* "Therefore shall the land mourn ..."
+
 **Must hit, strict (b):** **No.** "Hear the word of the Lord" is a summons to listen, not "Thus saith the Lord," the envoy's opening that marks the speaker.
+
 **Must hit, strict (c):** the **Decalogue**: cursing or false swearing, lying, killing, theft, adultery (Ex 20; Deut 5). The standard is **Israel's own covenant law**, not a new or foreign morality. (Which came first, Hosea's list or the Decalogue's final form, is debated; the answer does not change the point.)
+
 **Wrong turns:** calling "Hear the word of the Lord" the messenger formula. Glossing "mercy" as pity instead of covenant loyalty.
+
 **Model answer:** Summons (v. 1a); case: *rib*, "the Lord has a lawsuit"; charges: no truth, *hesed* or knowledge of God, then five crimes (vv. 1b–2); sentence: "Therefore ..." (v. 3). No messenger formula: "Hear the word" summons, it does not introduce the envoy. Verse 2 echoes the Decalogue, so the covenant is the law applied.
 
 **P3** *(Exegetical (a)–(b))*
 
 **Must hit, strict (a):** any four of these. (1) Prophecy reduced to prediction: most of Amos is accusation (5:21–24), and the threats are covenant sanctions that can be revoked (7:1–6). (2) "Professional prophet": Amos 7:14–15. (3) Inspiration limited to predictions: the whole book is inspired ([`fundamental-theology` 3.1](../../fundamental-theology/lessons/03-01-inspiration.md)), and the Creed says the Spirit "spake by the Prophets" without restriction. (4) The formula as a guarantee: it is an envoy's opening that names the sender (Gen 32:4; 2 Kings 18:19). (5) "Amos foretold the fall of Samaria in 722": he foretold exile (7:17); the date is the historian's, not his.
+
 **Must hit, strict (b):** prediction is genuinely part of prophecy (Deut 18:22; Amos 7:17 fulfilled in 722, a secure date). *Dei Filius* ch. 3 teaches that prophecies are among the signs of revelation. That is conciliar teaching, and it does not make prediction prophecy's main business.
+
 **Wrong turns:** overcorrecting to "prophets never predicted." Treating the messenger-formula analysis as Church teaching.
+
 **Model answer:** (1) Prophecy is chiefly forthtelling: Amos accuses (5:21–24), and his threats are conditional (7:3, 6). (2) Amos denies being a professional (7:14) and rests on the call (7:15). (3) Inspiration covers the whole book, justice oracles included (FT 3.1; the Creed). (4) "Thus saith" is an envoy's opening naming the sender (Gen 32:4), not a guarantee. Right: prediction is real (Deut 18:22; 7:17 and 722), and Vatican I counts fulfilled prophecy among the signs of revelation. That is conciliar teaching about signs, not a definition of the prophet's task.
 
 </details>
@@ -133,8 +144,11 @@ Supplied facts: "these things" in 32:1 are Hezekiah's Temple reform and Passover
 <summary>Solution</summary>
 
 **Must hit, strict (a):** any three of: Kings' **"took them"** becomes **"besieged ... desiring to take them"**; Hezekiah's submission **"I have offended"** is gone; the **tribute and the Temple silver** (and the stripped Temple doors, 18:16) are gone; the gifts now flow the other way, **"presents to Ezechias"** (32:23). The purpose: "After these things, and this truth" ties the invasion to the reform, and the Chronicler's **sharper rule of reward** does not let a faithful king be humiliated. He writes for a community rebuilding Temple worship and assumes readers know Kings, so he **omits rather than denies**.
+
 **Must hit, strict (b):** (1) **Tribute was paid.** Kings admits it against the honour of a good king, while the annals boast of it. (2) **Jerusalem was not taken.** The annals, which exist to boast, record no capture, and so concede it by silence, while Kings claims a deliverance. A partisan witness is most credible where it has no motive to shade the story, so points each side would rather hide or could not avoid are the firmest. Each side's *reason* for the withdrawal (the angel, or nothing at all) stays its own theology.
+
 **Wrong turns:** concluding that one book *errs*. Difference of purpose is judged by genre and intent (Dei Verbum 12), and Chronicles assumes Kings. Treating the annals as a neutral record. Calling the date reconstructed: 701 is **secure**.
+
 **Model answer:** (a) Chronicles has the cities besieged, not taken, drops "I have offended" with the tribute and the stripped Temple, and ends with presents brought *to* Hezekiah. Placed "after ... this truth", the reform, the story obeys the Chronicler's rule that fidelity is rewarded, and it leaves Kings' humiliation to readers who already know it. (b) Both record tribute, which Kings concedes against its hero, and both leave Jerusalem uncaptured, which the boasting annals concede by silence. Agreement between partisan witnesses on points against their own interest is the strongest evidence either offers.
 
 </details>

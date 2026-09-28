@@ -120,8 +120,11 @@ Name the assumption doing the work, give two pieces of evidence from the lesson 
 **P1** *(Exegetical (a) · Exegetical (b))*
 
 **Must hit, strict (a):** it does not name Tetzel or anyone else; it attacks "they" who preach. It establishes that Luther believed, in October 1517, that some preachers were promising instant release of souls for payment, and that he judged this contrary to church teaching ("they preach man"). It cannot establish the exact words any preacher used, or that Tetzel himself used them.
+
 **Must hit, strict (b):** the couplet is attributed, not attested. No text of Tetzel's contains it, and the Catholic Encyclopedia (1912), following Paulus, called it verbally spurious while holding that Tetzel did teach its substance for the dead. An accurate caption marks it as a saying attributed to him, or as a summary of his teaching.
+
 **Wrong turns:** reading thesis 27 as an eyewitness transcript of Tetzel; overcorrecting to "Tetzel never taught anything like this", which the Paulus/Catholic Encyclopedia judgement about his teaching for the dead contradicts.
+
 **Model answer:** (a) No; thesis 27 attacks unnamed preachers, so it shows only that Luther believed some were promising instant release for the dead in exchange for money, and that he called this a human invention. It cannot show what words anyone used, or that Tetzel used these. (b) The placard presents an attributed rhyme as Tetzel's recorded words, though no text of his contains it. Better: *A couplet later attributed to Tetzel ran: "As soon as the coin in the coffer rings, the soul from purgatory springs." Its words are not his, but he did teach that a payment for the dead could win their release.*
 
 ---
@@ -129,8 +132,11 @@ Name the assumption doing the work, give two pieces of evidence from the lesson 
 **P2** *(Exegetical (a) · Evaluative (b))*
 
 **Must hit, strict (a):** Melanchthon: 1546, after Luther's death; not an eyewitness, since he arrived in Wittenberg in August 1518. Rörer: probably 1544, in Luther's lifetime; not an eyewitness either. Rörer's weight: (i) it is earlier, written while Luther was alive and among his closest collaborators, so it does not derive from Melanchthon's published account; (ii) its plural, "doors of the churches", matches the university's rule that disputation notices went up on church doors, so it describes routine practice rather than a set-piece legend.
+
 **Must hit, any verdict (b):** say what the posting question could change: whether the act of 31 October was a public challenge or a private appeal through proper channels. Say what it does not change: the letter to Albrecht, the forwarding to Rome, and the printings of late 1517 and 1518 are what actually spread the theses. Reach a verdict about how much weight the posting carries.
+
 **Wrong turns:** calling Rörer an eyewitness; treating Iserloh as having proved that no posting happened; arguing that the posting was the cause of the Reformation's spread.
+
 **Model answer (b), one of several:** It matters less than its fame suggests. What the posting could decide is the character of Luther's act. A notice nailed up for all to see reads as a public challenge; a letter to the archbishop reads as a loyal appeal through channels. Iserloh cared about this because it bears on whether Luther meant to provoke a break. But even a posting would have been routine, since the university's disputation notices went up on church doors, as Rörer's plural implies. And the theses did not travel by the door. They travelled through Albrecht's forwarding to Rome, the printings in Leipzig, Nuremberg and Basel, and the German *Sermon* of 1518. So the question changes how we picture 31 October, not how the protest spread.
 
 ---
@@ -138,7 +144,9 @@ Name the assumption doing the work, give two pieces of evidence from the lesson 
 **P3** *(Exegetical)*
 
 **Must hit, strict:** the assumption is that scandal at the top means religious decay throughout, and that decay makes a break inevitable. Two strains from different kinds of evidence: (i) lay piety: Moeller's evidence of booming foundations, confraternities and church building in Germany; Duffy's wills and churchwardens' accounts for England; or the fact that the indulgence itself sold well, which shows demand, not unbelief; (ii) the contingent path: in 1517 Luther appealed to the pope (thesis 50); the break came through Leipzig, *Exsurge Domine* and Worms; and Luther survived because Frederick protected him and Charles V could not act freely (contrast Hus). What it gets right: the papal scandals (Alexander VI's children, Julius II's wars) and the pluralism behind Albrecht's campaign are real.
+
 **Wrong turns:** denying the scandals; offering two pieces of evidence of the same kind (two papal facts) as if they were different kinds; treating "priests sold salvation" as accurate. The dispute was over remission of temporal punishment, and even Luther's thesis 27 attacks preaching, not the whole Church.
+
 **Model answer:** The voice-over assumes that corruption at the top means decay throughout, and that decay makes a break inevitable. Two kinds of evidence strain it. First, lay religion: Moeller found German foundations, confraternities and church building booming before 1517, and Duffy's wills and parish accounts show English traditional religion flourishing. People who had stopped believing do not endow Masses. Second, the path: in 1517 Luther appealed to the pope against the preachers, and a break came only after Leipzig, *Exsurge Domine* and Worms. He survived because Frederick protected him and Charles V needed the princes, whereas Hus, with a safe conduct, was burned. What it gets right: the Renaissance popes' conduct and Albrecht's uncanonical sees are real and help explain the anger.
 
 </details>
@@ -151,7 +159,9 @@ Name the assumption doing the work, give two pieces of evidence from the lesson 
 <summary>Solution</summary>
 
 **Must hit, any verdict:** (1) **Evidence against, from the pattern:** the lines follow alliances in the Hundred Years' War. England was Roman, so its enemy Scotland, and France, were Avignonese. Rulers chose, and their clergy and people followed. University theologians mostly sided with their own country. (2) **Evidence for, or at least for sincerity:** the validity of the 1378 election was a real question of fact about fear, and the witnesses were split. The same cardinals testified first one way and then the other, and even Valois, the great modern student of the schism, at first judged it beyond history's power to decide. Saints stood on both sides. (3) **A distinction either verdict needs:** the belief of *individuals* against the choice of *realms*. The map shows how realms chose; it cannot show that individuals chose insincerely.
+
 **Wrong turns:** reading the obediences as a theological split; concluding that because rulers chose, no one believed in his pope; using the modern official list, which counts the Roman line, as if contemporaries could have consulted it.
+
 **Model answer, one of several:** The claim fails for realms and may hold for persons. The obediences track the Hundred Years' War too neatly to be a map of conviction: England Roman, so Scotland Avignonese, with France on Avignon's side. Castile, Aragon and Navarre committed only years later. Rulers chose, clergy and people followed, and theologians mostly backed their own country. But the underlying question was genuinely open. Whether fear voided the vote of April 1378 was disputed by the very cardinals who cast it, and a modern expert long thought it undecidable. So individual Christians, saints included, could sincerely believe in either pope. Verdict: belief was real, but geography decided which belief most people held.
 
 </details>

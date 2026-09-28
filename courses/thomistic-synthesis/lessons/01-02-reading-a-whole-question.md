@@ -122,8 +122,11 @@ So the reading rule has a text behind it. *Sed contra* means "on the contrary", 
 **P1** *(Exegetical.)*
 
 **Must hit, strict (a):** No. The reply keeps Dionysius's sentence and supplies a reason for it — it opens "**The reason why** God has no name, **or is said to be above being named**, is because...". Those words, plus "is above all that we understand about God, and signify in word", restrict the denial to a name that would express the essence, which is exactly what the body does not claim.
+
 **Must hit, strict (b):** the distinction between naming a thing as far as we understand it — here, from creatures, as effects — and a name that expresses the essence in itself, the way a definition does. Dionysius's "no name" is true of the second sort; the body affirms only the first. Credit for spotting that the Proverbs text is carried along and not separately answered.
+
 **Wrong turns:** reading the reply as a polite refutation ("Dionysius overstated the case"); reading it as flat agreement, which would contradict the body of the article; treating the reply as a concession that we know nothing of God.
+
 **Model answer:** (a) It does not deny him. The reply begins by giving "the reason why God has no name, or is said to be above being named", which keeps the words and explains them, rather than correcting them. (b) The distinction is between a name we impose from God's effects, which we can understand, and a name that would express his essence as a definition does. The first is possible and is what the article grants; the second is not, and is what Dionysius was denying.
 
 ---
@@ -131,8 +134,11 @@ So the reading rule has a text behind it. *Sed contra* means "on the contrary", 
 **P2** *(Exegetical.)*
 
 **Must hit, strict (a):** a.4 supplies that the perfections that are divided and multiplied in creatures pre-exist in God unitedly — so "wise" said of a man signifies something distinct from his essence, power and existence, while said of God it signifies nothing distinct from them, and the same word therefore cannot be working in the same way. a.1 supplies that we can name God only from creatures, since his essence is not seen in this life — which is what puts the one word to two jobs in the first place and raises a.5's question at all.
+
 **Must hit, strict (b):** the sixth item is written as conditional on an answer a.5 has not yet given ("Supposing they are applied analogically"), so a.6 is a follow-on rather than an independent query: the prologue's order is a dependency. If a.5 had concluded for pure equivocity there would be no common idea shared between the two uses, so nothing could be said to belong first to one and derivatively to the other, and a.6 would not arise.
+
 **Wrong turns:** getting the direction backwards and making a.5 depend on a.6; saying a.6 would simply be answered "of creatures" under equivocity — under pure equivocity the question has no subject matter, because there is no one *notion* whose priority could be at issue; treating the prologue as an editor's index rather than the plan of the question.
+
 **Model answer:** (a) Article 4 supplies that perfections divided among creatures pre-exist in God as one, so "wise" signifies something distinct from essence and power in a man and nothing distinct in God. Article 1 supplies that we can name God only from creatures, which is why one word is being stretched across both and why the question arises. (b) The sixth item is stated conditionally on the fifth's answer, so the order of articles is a dependency, not a list: a.6 asks about priority within an analogical community of meaning. Had a.5 concluded for pure equivocity there would be no shared notion at all, and the question of which it belongs to first would have nothing to be about.
 
 ---
@@ -140,8 +146,11 @@ So the reading rule has a text behind it. *Sed contra* means "on the contrary", 
 **P3** *(Exegetical.)*
 
 **Must hit, strict (a):** the quoted sentence is from the ***sed contra*** of a.5, not from the *respondeo*. Aquinas grants that those arguments show the names are not predicated univocally, and denies that they show equivocal predication, in the closing paragraph of the article; his own answer is that the names are said analogically. So the bulletin has published as Aquinas's teaching the position a.5 exists to refute.
+
 **Must hit, strict (b):** two errors, opposite in direction. **Upward:** the inference from "common doctor" to "what a Catholic is to hold". The Church's recommendation of Aquinas as master belongs to the ordinary magisterium and to Church law; it is not a definition, and it does not convert his theses into doctrine. A position of his carries the weight of his argument plus his standing — a theologian's weight on the [`fundamental-theology` 4.4](../../fundamental-theology/lessons/04-04-the-ladder-of-doctrinal-authority.md) ladder, not a magisterial one. **Downward:** the content actually asserted, pure equivocity, is not a free school option either, because *Dei Filius* defines that God can be certainly known by the natural light of reason through created things ([`fundamental-theology` 1.2](../../fundamental-theology/lessons/01-02-natural-knowledge-of-god.md)) — which is the very consequence Aquinas says pure equivocity destroys. So the paragraph inflates the authority of its source and misses the one real doctrine bearing on its claim.
+
 **Wrong turns:** answering only the upward error and calling the second sentence "merely one opinion", which is the mirror mistake; saying the recommendation of Aquinas is "just discipline" and stopping, which understates an act of the ordinary magisterium; treating analogy itself as defined doctrine — it is not.
+
 **Model answer:** (a) It is the *sed contra*. Aquinas concedes that its arguments rule out univocity but says in the article's last paragraph that they do not prove equivocity, and his own answer is analogical predication. (b) First, "common doctor" does not make a thesis binding: the Church's recommendation of Aquinas is ordinary magisterium and Church law, not a definition, so his positions carry a theologian's weight and not a magisterial one. Second, the claim being asserted is not a free option in the other direction either, since pure equivocity would make God unknowable from creatures, against *Dei Filius*.
 
 </details>

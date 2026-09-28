@@ -139,8 +139,11 @@ Dei Verbum 19 (paraphrased) maps three stages: what Jesus did and taught; the ap
 <summary>Solution</summary>
 
 **Must hit, strict (a):** **12:16 is stage 2.** "Did not know at the first" is stage 1 seen without understanding. "When Jesus was glorified (*edoxasthē*, John's word for the cross and resurrection), then they remembered" is the post-Easter fuller understanding Dei Verbum 19 names. **20:30–31 is stage 3.** "Not written in this book" is selection, and "these are written, that you may believe" is a writer shaping his material for his readers.
+
 **Must hit, strict (b):** **No.** Selection is part of what Dei Verbum 19 itself describes, and historical character commits the Church to the truth of what is handed on, not to its completeness.
+
 **Wrong turns:** reading "remembered" in 12:16 as "invented". The three stages allow reinterpretation in the light of Easter, and *Sancta Mater Ecclesia* rejects inflating the community's creativity. Assigning 20:30–31 to stage 1 because it mentions signs Jesus did. Treating "not written" as a concession of error: leaving out is not getting wrong.
+
 **Model answer:** (a) John 12:16 shows stage 2: the disciples saw the events without understanding, and only after Jesus "was glorified" did they "remember" them as fulfilling Scripture. John 20:30–31 shows stage 3: the evangelist says he chose from "many other signs" and wrote with a purpose, "that you may believe". (b) No. Dei Verbum 19 says the evangelists selected from what was handed on, and the gospels' historical character concerns the truth of what they report, not a complete record.
 
 </details>

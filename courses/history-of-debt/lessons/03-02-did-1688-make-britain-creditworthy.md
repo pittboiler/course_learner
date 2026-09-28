@@ -105,8 +105,11 @@ Name the historical claim the argument relies on, identify which two of North an
 **P2** *(Exegetical.)*
 
 **Must hit, strict (a):** P4 (multiple veto players protect creditors), or equivalently P5 read as a *constant* (Parliament reliably represents creditors). Stasavage's point is that after 1688 Parliament itself held the power to default, and the Crown's and Lords' vetoes were weak against it. So protection depended on which coalition held the Commons, not on the veto structure.
+
 **Must hit, strict (b):** a comparison that holds the rules fixed while the governing coalition changes (e.g. the same constitution before and after a change of ministry, as in 1710), and/or one that holds the coalition fixed while the rules change. If credibility moves with the coalition and the rules stay the same, that favours Stasavage. If it moves with the rules alone, that favours North and Weingast.
+
 **Wrong turns:** saying Stasavage denies that institutions matter; picking P1, which both sides accept; proposing a comparison in which rules and coalition change together (1688 itself), which cannot separate them.
+
 **Model answer:** (a) P4. Stasavage grants the settlement but denies that vetoes protected creditors, since Parliament was the supreme veto and could itself default; what protected them was a Whig majority that included creditors. (b) Hold the rules constant and let the coalition vary, as in the change of ministry in 1710 and the later Whig supremacy. Or hold the coalition constant across a rule change. Tracking credibility across such pairs separates the two; 1688 alone cannot, because both changed at once.
 
 ---
@@ -114,7 +117,9 @@ Name the historical claim the argument relies on, identify which two of North an
 **P3** *(Exegetical.)*
 
 **Must hit, strict:** the claim is that 1688's constitutional constraints *caused* the fall in British borrowing costs, and did so quickly. The op-ed carries over P4 (vetoes block changes to debt terms, here a supermajority) and P6 (credible commitment leads to lower rates). Two breaks from different positions: (i) **timing** (Sussman–Yafeh, Clark): rates stayed high and volatile for decades, so "within the year" is not what the British record shows; (ii) **mechanism** (Stasavage): credibility tracked the governing coalition, so a rule without creditor-friendly majorities may not bind. An acceptable third: the 1689 settlement was not an entrenched written amendment, so the institutional analogy is loose.
+
 **Wrong turns:** arguing that the amendment is bad policy (not asked); naming a single break twice under different labels; treating the 14 percent to 3 percent fall as settled proof.
+
 **Model answer:** It relies on North and Weingast's reading that binding the sovereign in 1688 caused British borrowing costs to fall. It imports P4 (a supermajority as a veto on changing debt terms) and P6 (commitment brings cheaper credit). First break, on timing: Sussman and Yafeh find British yields high and volatile for about forty years after 1688, and Clark finds no break in private rates, so no quick reward is shown. Second break, on mechanism: Stasavage ties credibility to a Whig coalition that included creditors, and costs rose when the Tories came in during 1710. So a rule may not bind if the majority does not want it to.
 
 </details>

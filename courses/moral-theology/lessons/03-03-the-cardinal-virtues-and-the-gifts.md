@@ -148,8 +148,11 @@ For each, name the act of prudence that fails (counsel, judgment or command), or
 <summary>Solution</summary>
 
 **Must hit, strict (a):** P1: effects must be proportionate to their causes and principles. P2: acquired virtues arise from natural principles already in us (the "seeds" of 3.1) and are proportioned to them. P3: in place of those natural principles, God gives the theological virtues, which direct us to a supernatural end. ∴ C: we need from God further habits, proportioned to the theological virtues. The proportion: **infused moral and intellectual virtues are to the theological virtues as acquired virtues are to the natural principles.**
+
 **Must hit, strict (b):** **"inchoatively"**. The reply grants that the theological virtues direct us sufficiently to the end itself, to God immediately, as a beginning. It denies that they are enough for the rest of life. The soul must still be perfected "in regard to other things", ordered "in relation to God", and that is the work of the infused moral virtues.
+
 **Wrong turns:** concluding that the infused virtues differ in species from the acquired. That is the next article, q.63 a.4, and a freely disputed Thomist thesis; this article only argues that infused moral virtues exist. Setting the proportion up as infused virtue to acquired virtue, which leaves out the two principles the argument actually compares. Reading (b) as a full concession that the objection is right.
+
 **Model answer:** (a) P1: effects are proportioned to their principles. P2: acquired virtues grow from natural principles and are proportioned to them. P3: God gives the theological virtues in place of those principles, for a supernatural end. ∴ C: God must also give habits proportioned to the theological virtues. Infused moral virtues are to the theological virtues as acquired virtues are to the natural principles. (b) "Inchoatively" concedes that the theological virtues reach the end itself, God, at least as a beginning. The reply denies that this orders everything else in life to that end, which needs further infused virtues.
 
 </details>

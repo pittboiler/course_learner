@@ -165,8 +165,11 @@ The norm doesn't move. What strains is the description: is the risk to the hosta
 <summary>Solution</summary>
 
 **Must hit, strict (a):** a **refusal of a kind of act**, not a weighing. The decisive words are **"without doing it"** against **"to sin"**. Both alternatives end in death ("it is death to me" / "I shall not escape your hands"), so no outcome is left to weigh. What she compares is her own *doing* of the act with *suffering* what others will do to her, which is the object taken from the acting person's perspective (VS 78). VS 91 cites her as a witness that one may not do evil to draw good from it.
+
 **Must hit, strict (b):** the **Sunday obligation** is suspended. It is a **positive** precept: it binds universally, but what it demands here and now depends on circumstances, and prison can prevent the act (VS 52, 67). The **false accusation** cannot be excused by his situation. Bearing false witness falls under a **negative** precept that binds *semper et pro semper*, and no one can be forced to do the forbidden act, even at the cost of his life (VS 52).
+
 **Wrong turns:** in (a), reading "it is better for me" as a comparison of outcomes: the two branches have the same outcome, and "better" ranks doing against suffering. In (b), saying Pedro sins by missing Mass, or saying fear makes the false statement right. Fear can lessen his guilt ([2.1](02-01-the-voluntary.md)) but does not change the act.
+
 **Model answer:** (a) The verse supports a refusal of a kind of act. Both branches end in death, so what "better" ranks is "without doing it" against "to sin": her own act against what is done to her. (b) Prison suspends the Sunday obligation, a positive precept whose demand depends on circumstances and which he can be prevented from keeping. It cannot suspend the ban on false witness, a negative precept binding always, which no coercion can force him to break, even if refusing costs his life.
 
 </details>

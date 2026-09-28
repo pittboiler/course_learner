@@ -112,22 +112,31 @@ Genesis 8:6–12 (Douay–Rheims):
 **P1** *(Exegetical)*
 
 **Must hit, strict (a):** agreements (any two): birds are sent to test whether the waters have gone down; a **dove returns** because it finds no resting place; a **raven does not return**; a **sacrifice follows** whose smell the deity notices. Differences (any three): **order** (Genesis sends the raven first; Gilgamesh sends it last); **species** (Gilgamesh has a swallow; Genesis has no third species but sends the dove three times); **the olive leaf** exists only in Genesis; **seven-day intervals** between sendings in Genesis, none in Gilgamesh; the raven's non-return is **decisive** in Gilgamesh but **inconclusive** in Genesis, where the dove settles it.
+
 **Must hit, strict (b):** evidence for a **shared Mesopotamian flood tradition** that Genesis knows and reworks, down to the motif of the deity smelling the offering; *not* evidence of direct copying from this tablet, of the direction of every detail, or of whether a flood happened. Credit also: the reworking is theological (one Lord who pledges never again, not gods swarming like flies).
+
 **Wrong turns:** counting "a raven is sent" as a difference in species rather than noting the reversed order. Concluding that the parallel disproves inspiration: inspiration works through human sources.
+
 **Model answer:** (a) Both send birds to test the waters, and in both a dove returns for lack of a resting place. Genesis sends the raven first and Gilgamesh last; only Gilgamesh has a swallow; only Genesis has the olive leaf and the seven-day waits. (b) The parallel shows that Genesis tells a flood story Mesopotamia already told, including the deity smelling the sacrifice. It does not show that the writer copied this tablet or tell us anything about whether a flood happened.
 
 **P2** *(Exegetical (a) · Evaluative (b))*
 
 **Must hit, strict (a):** **Non-Priestly (J):** 7:2–4 (**seven pairs** of clean animals, and **forty days** of rain), 7:12 (**forty days**, rain), 7:16b (**"the Lord"**, *YHWH*, shutting Noah in). **Priestly (P):** 7:11 (**dated by Noah's age**, deep and heavens burst), 7:15–16a (**two and two**, **"God"**, *Elohim*), 7:24 (**150 days**). Each placement must name its criterion.
+
 **Must hit, any verdict (b):** (1) state the two-source case: the pairs clash on numbers, duration and names, and 7:16 switches name mid-verse; (2) state the unity case: the clean-animal command anticipates the sacrifice, and Wenham's palistrophe reads the whole as designed, so 40 and 150 can be read as phases of one flood; (3) weigh which explanation handles the **7:2 vs 7:15 animal numbers** or the **mid-verse name switch** better.
+
 **Wrong turns:** assigning 7:12 to P because it mentions the flood's start; its forty days and rain are the non-Priestly markers. Treating either verdict as Church teaching.
+
 **Model answer (b), one of several:** The two-source reading explains more with less. Seven pairs and two of every kind are not two phases of one command, and a narrator who switches from "God" to "the Lord" inside 7:16 is doing exactly what a redactor joining two texts would do. Wenham's reply is strong on structure: the whole narrative does rise to 8:1 and fall away in mirror order, and forty days of rain inside 150 days of high water is arithmetically possible. But a redactor can produce a symmetrical whole out of two sources, so symmetry does not decide authorship. The animal numbers remain the hardest datum for single authorship. I lean two sources, with the unity of the final form as the text the Church reads.
 
 **P3** *(Exegetical)*
 
 **Must hit, strict (a):** it **truncates CCC 390**, which says the account uses figurative language **but affirms a primeval event**. It **inverts *Humani Generis* 38**, which says the chapters, though not history by the method of Greek, Latin or modern historians, **pertain to history in a true sense**.
+
 **Must hit, strict (b):** the parallel shows a **shared tradition reworked**, not simple copying, and it has no bearing on inspiration or on the doctrine. The reality of **a primeval fault by our first parents** is **defined dogma** (Trent, Session V), while the degree of figuration in the narrative is freely disputed within that.
+
 **Wrong turns:** answering by asserting that every detail of Genesis 3 is literal history, which swaps one overstatement for another. Treating the 1909 response as still binding in its original force. Assigning the doctrine to CCC 390 as its source rather than as its report.
+
 **Model answer:** (a) It cuts CCC 390 in half: the Catechism says the language is figurative and that it affirms a real event at the start of human history. It reverses Pius XII, who said these chapters belong to history in a true sense even though they are not history as classical or modern historians write it. (b) Gilgamesh shows that Genesis reworks a Mesopotamian story, not that the Bible is "simply" a copy or that it is uninspired. What binds a Catholic is the reality of the original fault, defined at Trent, and how figurative the telling is remains open.
 
 </details>
@@ -146,8 +155,11 @@ Genesis 8:6–12 (Douay–Rheims):
 <summary>Solution</summary>
 
 **Must hit, strict (a):** any three of: (1) **no "God said"** and no new work: the day is defined by **ceasing** ("ended", "rested", *shavat*); (2) **no "evening and morning" refrain** closes it; (3) God **blesses and sanctifies a time**, where earlier blessings fell on living creatures (fish and birds, 1:22; humans, 1:28); (4) "the **seventh day**" is **repeated three times** in three verses, the week's climax stated with emphasis.
+
 **Must hit, strict (b):** the account is built **toward the Sabbath**: its seven-part, refrain-marked structure is a **liturgical week**, the rhythm of worship, not a chronicle's or a physicist's sequence (2.1, argument step 1). It does **not** settle the **length of a "day"** (*yom*), which the text uses loosely (2:4, "in the day that the Lord God made the heaven and the earth") and which the 1909 Commission's Response VIII left to free discussion. Credit also: it does not settle the sources question (P as author of the account is a hypothesis, [2.2](02-02-who-wrote-the-pentateuch.md)).
+
 **Wrong turns:** reading "rested" as tiredness. The verb means ceasing, and the text gives no fatigue. Treating the missing refrain as proof that the seventh day is still going on as the *literal* sense: that is a later theological reading, not something the author asserts. Concluding that the liturgical shape makes the account "mere myth". Genre decides *how* it asserts, not *whether* it asserts anything.
+
 **Model answer:** (a) The seventh day has no "God said" and no work, only God "ended" and "rested" (*shavat*, ceased). It lacks the closing "evening and morning" formula, and it is the one day God "blessed" and "sanctified", a blessing given to a time rather than to creatures. (b) The whole account is shaped to end in Sabbath, so it reads as a liturgical week that orders creation toward worship, not as a chronicle of stages. It leaves open how long a "day" is, which Genesis itself uses loosely (2:4) and the Church has left to exegetes.
 
 </details>

@@ -99,19 +99,25 @@ Identify four errors. For each, name the text or act that corrects it and, where
 **P1** *(Exegetical)*
 
 **Must hit, strict (a):** imperfect virtue is "nothing but an inclination ... to do some kind of good deed". Perfect virtue "inclines us to do a good deed **well**". The word *well* carries the difference, meaning chosen rightly, which is prudence's work.
+
 **Must hit, strict (b):** moral virtue needs prudence to choose the means ("no moral virtue can be without prudence"), and prudence needs the moral virtues to fix the ends it reasons from ("one cannot have prudence unless one has the moral virtues"). So lacking one moral virtue means lacking prudence, which means lacking every perfect moral virtue.
+
 **Must hit, strict (c):** she has liberality only as an **imperfect** virtue, an inclination like the passage's "prompt in doing deeds of liberality". Her unchastity means her prudence is defective in that matter, so by (b) her liberality is not perfect virtue.
+
 **Wrong turns:** reading "imperfect" as "not a virtue at all in any sense". The passage calls it an imperfect *moral virtue*. Answering (c) with "yes, the virtues are separable". That holds only for inclinations, which is the passage's first sentence.
+
 **Model answer:** (a) "Nothing but an inclination" against "inclines us to do a good deed well". The *well* is right choice, which only prudence gives. (b) Moral virtue cannot be without prudence, and prudence cannot be without the moral virtues that fix its ends, so the perfect virtues stand or fall together. (c) Only as an imperfect virtue, a readiness for generous deeds. Unchastity leaves her prudence deficient, and without prudence her generosity is not the perfect virtue.
 
 **P2** *(Exegetical)*
 
 **Must hit, strict:** (a) **Infused only**: all the infused virtues come with grace and charity (q.65 a.3), held as habits without yet the use, as Vienne's preferred opinion put it (the level is common teaching). There is no acquired virtue, since there have been no acts (q.63 a.2). (b) **Acquired** virtues, and since they cover every part of her life, plausibly connected through acquired prudence (q.65 a.1). They are true but imperfect relative to the last end, "as in many of the Gentiles" (q.65 a.2). She has **no infused** virtue. (c) He loses **infused** temperance, because mortal sin is incompatible with infused virtue (q.63 a.2 ad 2) and the infused virtues stand together with charity (q.65 a.2–3). He keeps **acquired** temperance, because one act does not destroy a habit (q.63 a.2 ad 2). (d) **Both**: infused temperance returns whole with charity (q.65 a.3), and acquired temperance was never lost.
+
 **Wrong turns:** in (c), saying all his temperance is gone. In (d), saying infused temperance must be rebuilt by new fasts. Acts from an infused habit strengthen it but do not cause it (q.51 a.4 ad 3). In (a), crediting the infant with acquired virtue "because infused virtue includes it". The two differ in species (q.63 a.4).
 
 **P3** *(Exegetical)*
 
 **Must hit, strict:** (1) "Practising adds nothing." Acts from an infused habit strengthen it (q.51 a.4 ad 3), and repeated acts remove the contrary dispositions that make virtuous acts hard (q.65 a.3 ad 2). The line on Pelagianism is also misplaced: q.55 a.4 ad 6 says God infuses virtue without our action but *not without our consent*. (2) "Pagans never had real virtue." Acquired virtues existed "in many of the Gentiles" and are true virtue, imperfect relative to the last end (q.65 a.2). (3) "Vienne defined." Vienne chose the opinion as **more probable**, which is not a definition. The infusion of the moral virtues is **common teaching**. (4) "The acquired ones perfected by grace." q.63 a.4 teaches that the infused virtues differ **in species** from the acquired, and even that thesis is **freely disputed**, a Thomist position rather than doctrine.
+
 **Wrong turns:** "correcting" (4) by saying the Church defined the difference in species. Treating the charge of Pelagianism as the error to be corrected, rather than the claim that practice adds nothing.
 
 </details>

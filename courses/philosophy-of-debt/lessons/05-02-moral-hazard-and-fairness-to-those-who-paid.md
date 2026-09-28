@@ -102,9 +102,13 @@ What the parable teaches about grace is theology's question. Here only the house
 **P1** *(Exegetical — strict.)*
 
 **Must hit, strict (a):** the author uses "moral hazard" to mean an *undeserved benefit*, which is a desert verdict. In economics it names an incentive effect: the change in behaviour when someone else bears part of the cost of your risk, a prediction about future conduct ([`grad-micro` 5.4](../../grad-micro/lessons/05-04-moral-hazard-principal-agent.md)). All the work is done by the desert objection, Argument B: "haven't earned it", "played by the rules", "undeserving".
+
 **Must hit, strict (b):** S2 is conceptual, and false as a definition. S3 is empirical: one anecdote plus an unsupported generalization about why the relieved did not pay. S4 is normative, a desert claim. S3 carries the factual premise, and it is **B1**: that the relieved stood where the payers stood and chose freely not to pay.
+
 **Must hit, strict (c):** a believed promise removes **A1**. Nobody expects relief again, so the incentive objection has nothing left. The desert objection is untouched, which shows it was the real objection all along. A genuine moral-hazard argument needs evidence that borrowers or lenders will expect a repeat despite the promise, and that they will change their behaviour enough to outweigh what the relief does (A3–A4).
+
 **Wrong turns:** accepting S2 and then debating whether the relieved "earned" relief, which argues about desert while believing it argues about incentives. Reading S5 as strengthening the moral-hazard case, when a credible one-off is where moral hazard is weakest. Calling S3 normative because it sounds like blame: whether they "chose not to pay" is a question of fact.
+
 **Model answer:** (a) The author means "undeserved"; economists mean the change in behaviour when someone else bears part of your risk's cost. Only the desert objection is at work. (b) S2 is conceptual (and wrong), S3 empirical (an anecdote stretched into a generalization), S4 normative. S3 supplies B1, the claim that the relieved chose as freely as the payers did. (c) A believed promise removes A1 and kills the incentive objection, while the desert objection stands untouched. A real moral-hazard argument would need evidence that future borrowers or lenders will expect a repeat anyway and will act on it enough to matter.
 
 ---
@@ -122,6 +126,7 @@ What the parable teaches about grace is theology's question. Here only the house
 - A verdict with a reason.
 
 **Wrong turns:** treating "compensation" as settling who pays. Extending the reply to Eli because he also lost money: a loss is not a wrong. Calling Dana's loss option luck because she chose to enroll, when she chose on false information.
+
 **Model answer (b), one of several:** Compensation is owed by whoever did the wrong: the college, which falsified its rates, and arguably the state, which lent the money for study at a college it had approved. So the reply fully answers anyone who says Dana doesn't deserve relief. She was deceived, not imprudent. It does not by itself answer the taxpayer who repaid her own loan, since she wronged no one. The advocate must add that the state shares responsibility as lender and gatekeeper, or better, that it will recover the cost from the college. Otherwise the complaint survives in its funding form. My verdict: tax-funded relief for Dana is justified as an advance on the college's debt, provided the state pursues recovery. The reply does not reach Eli. No one wronged him, so his relief must rest on other grounds and meets both objections.
 
 ---
@@ -139,6 +144,7 @@ What the parable teaches about grace is theology's question. Here only the house
 - A verdict on whether Reply 1 alone answers her, with a reason. The envy charge may be addressed, but it is not required.
 
 **Wrong turns:** treating the envy question as a third argument about justice, when it is a diagnosis of the complainant's motive. Saying neither reply carries over because the state is not a householder: Reply 1 does not depend on who pays. Reading "what I will" as licensing anything, and missing the note.
+
 **Model answer (b), one of several:** Reply 1 carries over. The graduate got exactly what she contracted for, and cancelling others' loans takes nothing she was owed. Reply 2 fails. The householder gives "with my own", but a state cancelling loans from general taxes gives with common money, some of it hers. Is Reply 1 enough? I think not. Her complaint was never that her contract was breached. It is that, as a taxpayer, she helps fund for others a relief she was never offered, under a rule changed after she relied on it. The householder's answer to that was Reply 2, and it is exactly the one that does not transfer. The envy charge lands only on a complainant who wants others to have less. She may want only not to pay.
 
 </details>

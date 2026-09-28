@@ -97,21 +97,29 @@ Here the method strains. One fragment shows that *some* Jews linked these works 
 **P1** *(Exegetical.)*
 
 **Must hit, strict (a):** (i) providence works but does not remove freedom. The phrase is "to act what is right, or the contrary, is principally in the power of men, although fate does co-operate". (ii) The righteous live again in a body. The phrase is "the souls of good men only are removed into other bodies". The wicked face "eternal punishment".
+
 **Must hit, strict (b):** a reason for reading resurrection: the *Antiquities* version says the righteous "shall have power to revive and live again", and Acts 23:8 has the Pharisees "confess" the resurrection, both independent of this passage. A reason for the phrasing: Josephus is presenting the groups to Greek readers as "philosophies", in terms (souls, fate, Hades) that sound like Greek schools.
+
 **Wrong turns:** concluding the Pharisees taught reincarnation on this sentence alone, against two other witnesses. Saying the Pharisees were determinists: the sentence keeps freedom explicitly.
+
 **Model answer:** (a) They held that God's providence co-operates in every act while right and wrong remain "principally in the power of men", and that the souls of the good "are removed into other bodies". (b) The *Antiquities* says the righteous "revive and live again" and Acts 23:8 has the Pharisees confess the resurrection, so a body given back is the likelier sense. Josephus is translating a Jewish hope into the vocabulary of Greek philosophy for Greek readers.
 
 **P2** *(Exegetical.)*
 
 **Must hit, strict:** (1) **Sadducee**: rejects traditions beyond the written Law (*Ant.* 18.1.4). (2) **Fourth philosophy**: refuses the census and tribute, God alone Lord (*Ant.* 18.1.6). (3) **Essene/Qumran**: judges the Jerusalem priesthood defiled, keeps its own calendar, withdrawn. (4) **Pharisee**: resurrection plus ancestral tradition (compare Mark 7:3's "tradition of the ancients"). (5) **Sadducee**: a magistrate of the council who, per *Ant.* 18.1.4, defers to Pharisaic notions "because the multitude would not otherwise bear them".
+
 **Wrong turns:** giving (5) to the Pharisees because the *view* voiced is theirs; the speaker is the one deferring, which is Josephus's Sadducee. Giving (2) to the Pharisees; Josephus says the fourth philosophy agrees with them on everything *except* this. Giving (4) to the Essenes for its purity concern; the resurrection-plus-tradition pair is Pharisaic.
+
 **Model answer:** 1 Sadducee (Law only). 2 Fourth philosophy (God alone Lord). 3 Essene/Qumran (defiled Temple, own calendar). 4 Pharisee (resurrection and tradition). 5 Sadducee (defers to the Pharisees for the crowd's sake).
 
 **P3** *(Exegetical.)*
 
 **Must hit, strict (a):** three of: (1) the **Sadducees**, the high-priestly families, ran the Temple, not the Pharisees, a lay and popular party; (2) "earning heaven by rules" is the legalist caricature. Josephus presents them as the people's trusted teachers, and on Sanders's reading Jewish obedience was a response to God's election, not a way to earn it. Credit a hedge that this is disputed; (3) **no gospel puts the Pharisees at the trial**: the hearing is led by the high priest with the chief priests, elders and scribes (Mark 14:53), and the sentence is Pilate's. The 1985 *Notes* say the Pharisees are not mentioned in the passion accounts; strictly, John 18:3 and Matthew 27:62 name them at the arrest and at the request for a guard, but not at the trial; (4) Jesus shared Pharisaic doctrines such as the resurrection. Credit: Pharisees warn Jesus (Luke 13:31) and Gamaliel defends the apostles (Acts 5:34–39).
+
 **Must hit, strict (b):** the Church has **not** "always taught" this. Its 1985 directive asks preachers not to present the Pharisees in wholly negative terms, and it is a pastoral directive, not a definition. Sanders's covenantal nomism is a **scholarly hypothesis** with no magisterial standing, and it cuts *against* the preacher. "Modern scholars agree" misreports it in both content and status.
+
 **Wrong turns:** claiming the Pharisees are wholly absent from the passion narratives (John 18:3 and Matthew 27:62 name them); the error is about the *trial*. Answering (b) by making Sanders Church teaching; that is the same level error the sermon makes, run the other way. Faulting "613 rules" as the error. The number is a later rabbinic count, so the real mistake is the "earned" claim.
+
 **Model answer:** The Sadducean high-priestly families, not the Pharisees, ran the Temple. Josephus presents the Pharisees as the popular party, and on Sanders's reading their Law-keeping answered God's election rather than earning it, though that is disputed. No gospel places the Pharisees at the trial, which the high priest and Pilate conduct. As for authority, the Church's 1985 directive asks preachers *not* to paint the Pharisees wholly negatively. That is pastoral guidance, not dogma. Sanders's view is a scholarly hypothesis, not a consensus the preacher can cite, and it contradicts him.
 
 </details>

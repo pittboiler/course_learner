@@ -178,8 +178,11 @@ Facts you need: the CDF's *Declaration on Procured Abortion* (1974), n.19, leave
 <summary>Solution</summary>
 
 **Must hit, strict (a):** (1) Deliberately killing an innocent human person is always gravely wrong (EV 57). (2) To choose an act that may be such a killing, without being able to exclude it, is to accept the risk of killing a person, which is itself gravely wrong. (3) The early embryo's being a person is at least probable and cannot be disproved (n.19; EV 60). (4) So directly killing the early embryo is gravely wrong, however the ensoulment question is settled.
+
 **Must hit, strict (b):** the remark grants (3) at least in part and attacks **(2)**: it treats a probable opinion that no person is present as licensing the act. The manuals' reply: probabilism covers doubts about **law**; when the doubt is one of **fact** and an innocent life is at stake, the safer course binds (the hunter unsure whether it is a deer or a man may not fire). Level: **common teaching of the manuals, not a magisterial act.**
+
 **Wrong turns:** answering that "the Church teaches immediate ensoulment" (the timing is freely disputed; overstating). Resting premise (3) on genetics. Calling the law/fact distinction magisterial teaching. Conceding the remark because ensoulment is undefined, when the argument never needed it defined. Naming (1) as the target.
+
 **Model answer:** (1) Directly killing an innocent person is always gravely wrong. (2) Knowingly choosing what may be such a killing accepts that risk and is also gravely wrong. (3) The early embryo is at least probably a person, and that cannot be disproved. (4) So directly killing it is gravely wrong. The remark attacks (2), treating a probable "no person" as a licence. The manuals answer that probabilism resolves doubts of law, not doubts of fact where innocent life is at stake; there one takes the safer course. That is common manual teaching, not a magisterial act.
 
 </details>

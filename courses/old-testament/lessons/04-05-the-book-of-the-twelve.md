@@ -108,16 +108,23 @@ Name **four** errors, and for each give the correction from this lesson. At leas
 **P1** *(Exegetical (a) · Evaluative (b))*
 
 **Must hit, strict (a):** Jonah fled **because he knew God would forgive Nineveh**. He did not fear failure; he feared mercy ("is not this what I said ... therefore I went before to flee"). His prayer quotes the **divine self-description of Exodus 34:6** ("gracious and merciful ... patient ... of much compassion"), the creed Joel 2:13 also quotes. The irony: Israel's confession of God's mercy becomes Jonah's **complaint**, and the prophet asks to die because God is what the creed says he is. Any two genre signals: the plant that "in one night came up, and in one night perished"; the book **ends on God's unanswered question**; the prophet asking to die over the success of his own preaching; the huge round number (120,000) and "many beasts" as objects of God's care; the exaggerated contrast between pagans and the prophet.
+
 **Must hit, any verdict (b):** a clear verdict; at least one feature of chapter 4 used as evidence; the strongest opposing point stated fairly. Against history: the one-night plant and the open ending read as teaching devices. Against parable/satire: the book names a real prophet (4 Kings 14:25) and tells its story in narrative form with no parable marker. Credit noting that parable and satire can be combined.
+
 **Wrong turns:** saying Jonah fled from fear of the Ninevites or of failure; the passage says otherwise. Treating the genre as settled by the Church in either direction.
+
 **Model answer (a):** Jonah fled because he expected God to forgive Nineveh, and says so. He quotes the creed of Exodus 34:6, so Israel's praise of God's mercy becomes a grievance in his mouth. The plant grown and withered in a night, and the book ending on God's unanswered question, are what parable readers point to.
+
 **Model answer (b), one of several:** Satire fits chapter 4 best. The prophet's anger at the success of his own preaching is played for irony, and the plant is a staged lesson. The book ends on a question aimed at the reader, not a report of what Jonah did next. The strongest point against: the book names a historical prophet and uses the plain narrative style of Kings, with no marker like "a certain man" that signals a parable. A historical story can also carry irony.
 
 **P2** *(Exegetical)*
 
 **Must hit, strict (a):** Joel 2:28 = **3:1**; Joel 2:32 = **3:5**; Joel 3:2 = **4:2**; Malachi 4:5 = **3:23**; Micah 5:2 = **5:1**.
+
 **Must hit, strict (b):** any three changes. (1) **"After this" becomes "in the last days"**: an indefinite future becomes the end-time, and Peter says it is now. (2) **"And they shall prophesy" added** after the servants: the gift is named as prophecy, which bears on the claim that prophecy has returned. (3) **Joel's "for in Mount Sion, and in Jerusalem" is cut**, so salvation is not tied to a place. (4) **2:39's "all that are far off, whomsoever the Lord our God shall call"** picks up Joel's last words, "whom the Lord shall call", and widens them past Israel. Also acceptable: "of my Spirit", a share of it. **"All flesh" in Joel** = all Israel, of every age, sex and rank. The words "*your* sons and *your* daughters", "your old men", "your young men" and "servants and handmaids" show it.
+
 **Wrong turns:** reading Joel's "all flesh" as all nations in its literal sense; that is the extension Acts makes, not Joel's own horizon. Mixing up the directions (Hebrew 3:1 = Douay 2:28, not the other way round).
+
 **Model answer:** Acts turns "after this" into "in the last days", making the promise an end-time event happening now. It adds "and they shall prophesy", naming the gift as renewed prophecy. It drops "in Mount Sion, and in Jerusalem" and then echoes Joel's closing "whom the Lord shall call" to reach "all that are far off". In Joel, "all flesh" means every Israelite, as "your sons and your daughters" and the servants show, without distinction of age, sex or rank.
 
 **P3** *(Exegetical)*
@@ -128,7 +135,9 @@ Name **four** errors, and for each give the correction from this lesson. At leas
 - **Level error on 1905.** The response bound exegetes when issued, and the 1955 clarifications freed research on literary questions like genre. Jonah's genre is **freely disputed**. The response itself also allowed a non-historical reading where solid arguments proved it.
 - **"Prophecy ended in 400 BC" is not a recorded date.** The cessation is a Second Temple *claim* (1 Macc, Josephus, the Tosefta), about canonical prophecy. Christians hold that prophecy returned with John and Pentecost, so they have not "always agreed".
 - **Level error on the canon.** The Church defines **which books** are canonical (Trent). It teaches no date when prophecy ended or the canon closed; that is history.
+
 **Wrong turns:** "correcting" the first error by saying the Twelve are later than the major prophets; Amos, Hosea and Micah are eighth-century, as early as Isaiah. Treating the 1905 response as never having bound anyone.
+
 **Model answer:** "Minor" means short, as Augustine says, and the Twelve stand together because they were one scroll. Matthew does not quote Micah word for word: he changes "little" to "not the least" and adds a line from 2 Samuel 5:2. The 1905 response once bound exegetes, but after the 1955 clarifications Jonah's genre is freely disputed, and the response itself allowed for parable given solid proof. No one recorded prophecy ending in 400 BC; that is a Second Temple claim about canonical prophecy, and Christians hold it resumed. The Church defines which books are canonical, not a date when the canon closed.
 
 </details>
@@ -149,9 +158,13 @@ Name **four** errors, and for each give the correction from this lesson. At leas
 <summary>Solution</summary>
 
 **Must hit, strict (a):** the servant is **Jacob-Israel, the people**. The text slides from "my servant" (42:19) to "a people that is robbed and wasted" (42:22) and names it: "Who hath given **Jacob** for a spoil, and **Israel** to robbers?" (42:24). This matches the context's regular usage, "thou Israel, art my servant" (41:8).
+
 **Must hit, strict (b):** any two of these. The first Song's servant **carries out a mission**; this servant is **blind and deaf** to what it sees and hears (42:19–20). That servant **brings justice** to the nations; this one is **prey with "none to deliver"** it, the object of rescue rather than its agent. This servant suffers **for its own sin**: "against whom we have sinned ... they would not walk in his ways" (42:24). The Song's servant is faithful.
+
 **Must hit, strict (c):** **Duhm** took the gap between the faithful servant of the Songs and the failing servant Israel of the surrounding chapters as grounds to **separate the four Songs** as poems about a different figure. A **contextual reader** answers that the Songs portray what Israel is called to be: **ideal or faithful Israel**, or a remnant, set beside the blind nation God is still forming. Some add that the book sets the two side by side on purpose. Duhm's separation is itself **debated**. The servant's literal identity is a **scholarly question with no magisterial answer**. What the Church teaches is fulfilment in Christ (CCC 601), which does not settle the literal referent.
+
 **Wrong turns:** reading the blind servant of 42:19 as the Messiah or as Christ; 42:24 names Jacob-Israel. Treating the contrast as proof that the Songs' servant is an **individual**: it shows only that he differs from the failing nation, and the ideal-Israel reading accounts for that. Stating that the Church teaches the Songs are separate compositions, or teaches that they are not.
+
 **Model answer:** (a) The servant is the people Israel, blind and deaf to God's instruction. Verse 24 names it, "Jacob ... Israel", plundered because "we have sinned", and 41:8 already calls Israel God's servant. (b) The Song's servant brings justice to the nations, and this servant is itself plundered prey with "none to deliver". That servant is faithful, and this one "would not walk in his ways". (c) Duhm took such contrasts as a sign that the Songs describe a different figure, and so he set the four poems apart. A contextual reader answers that the Songs show the faithful Israel God is making out of the blind one. Who the servant is in the literal sense is a scholarly question, with no magisterial answer; the Church's teaching concerns fulfilment in Christ.
 
 </details>

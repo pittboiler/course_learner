@@ -107,22 +107,31 @@ And Leviticus 19:17–18 (Douay–Rheims; its "friend" renders the Hebrew word t
 **P1** *(Exegetical (a) · Exegetical (b))*
 
 **Must hit, strict (a):** "Love thy neighbour" is Leviticus 19:18. "Hate thy enemy" is in no commandment of the Law. The antithesis sets Jesus against a current inference or reading, not against a written precept; Leviticus 19:17 even forbids hating a brother.
+
 **Must hit, strict (b):** No: whoever loves his enemy still loves his neighbour, so Leviticus 19:18 is kept, and more than kept. This is an antithesis that **fills the commandment to its full measure** (*plērōsai*) by removing the limit on who counts, not one that annuls (*katalysai*) it.
+
 **Wrong turns:** saying Jesus contradicts a Torah command to hate enemies (there is none). Classing this antithesis with oaths as one that might leave a precept idle. Here the precept stays fully in force.
+
 **Model answer:** (a) "Thou shalt love thy neighbour" is Leviticus 19:18, but "hate thy enemy" is written nowhere in the Law, which in 19:17 forbids hating a brother. The second half is a reading of the commandment, not the commandment. (b) No: loving enemies includes loving neighbours, so the commandment is kept and its reach extended. It is an antithesis that fills the Law full rather than annulling it.
 
 **P2** *(Exegetical (a) · Evaluative (b))*
 
 **Must hit, strict (a):** third person in Matthew vs second person ("ye", "yours") in Luke; Matthew adds "in spirit"; Matthew adds "and thirst after justice"; Luke adds "now"; "kingdom of heaven" vs "kingdom of God"; "have their fill" vs "be filled" is wording only (credit either way). The characteristic word is **"justice"**, *dikaiosynē*: seven times in Matthew, once in Luke's gospel, never in Mark.
+
 **Must hit, any verdict (b):** state the direction clearly. Name the decisive difference and explain it on the chosen hypothesis. Give one real point against. For **Two-Source / Matthew edits**: "in spirit" and "justice" are Matthean additions, since *dikaiosynē* is his redactional word; Luke's plain "poor" and "hunger" are the harder, earlier form. Against: Luke also has motives, since reversal of rich and poor is his theme and he adds woes (6:24–26). For **Farrer / Luke edits Matthew**: Luke drops "in spirit" and "justice" to fit his theme of the literal poor, and adds "now" and the woes. Against: it requires Luke to strip out wording he would have had no reason to dislike, and Matthew's vocabulary is otherwise the clearest mark of Matthean editing. The verdict does not matter; both hypotheses are hypotheses.
+
 **Wrong turns:** treating "justice" as settling the direction on its own. It shows Matthew's hand but cannot tell whether Luke saw it. Calling either hypothesis Church teaching.
+
 **Model answer (b), one of several:** Matthew edited the source. "Justice" is his word (seven uses to Luke's one), so "hunger and thirst after justice" looks like his addition, and "in spirit" is the same move applied to "poor". The strongest point against is that Luke has his own reason to prefer the literal poor, and his woes show it, so the plain form could be his editing too.
 
 **P3** *(Exegetical)*
 
 **Must hit, strict (a):** "The gospels are historical" is **Church teaching** (Dei Verbum 19). Apostolic personal authorship, the "tax-collector heard it" inference, a Hebrew original and a date before 70 are **hypotheses** (or tradition, Papias and Irenaeus, weighed as historical evidence). "Scholars who date it to the 80s contradict Dei Verbum 19" is **false**. Credit noting that Dei Verbum 18 (apostolic origin) is also teaching.
+
 **Must hit, strict (b):** Dei Verbum 18 teaches **apostolic origin**, written by apostles "and apostolic men", not personal authorship by Matthew. Dei Verbum 19 teaches the gospels faithfully hand on what Jesus did and taught, while the authors selected, synthesised and explained with their churches' situation in view. A date is a historical question the documents do not settle, so a date in the 80s is compatible with both.
+
 **Wrong turns:** overcorrecting to "the Church teaches nothing about Matthew", which forgets canonicity (dogma) and Dei Verbum 18–19. Arguing about whether *ekklēsia* in 18:17 is authentic, which the note does not raise and which is not asked.
+
 **Model answer:** (a) Teaching: the gospels' historical character (DV 19). Hypotheses: that the apostle wrote it personally, that he heard 18:17, that it was in Hebrew, that it predates 70, and that an 80s date contradicts DV 19 (a false claim). (b) DV 18 affirms that the gospels are of apostolic origin, set down by apostles and "apostolic men", which does not require the apostle's own pen. DV 19 affirms their faithful witness to Jesus while allowing the evangelists to select and shape material for their churches. Neither document fixes a date, so a date in the 80s leaves both untouched.
 
 </details>
@@ -146,9 +155,13 @@ And Leviticus 19:17–18 (Douay–Rheims; its "friend" renders the Hebrew word t
 <summary>Solution</summary>
 
 **Must hit, strict (a):** Robinson needs the premise that **where Acts stops marks the limit of what its author knew**: an author who knew of Paul's death, or of the year 70, would have said so. The majority must deny it, holding that the ending is set by the book's **purpose** (the gospel reaching Rome), so silence about later events is not evidence of ignorance.
+
 **Must hit, any verdict (b):** "Two whole years", told as a completed stay, shows the author writing **after** the two years ended, so he knows more than he narrates. That weakens Robinson's premise, though it only moves the date past c. 62. 20:25 reads like **foreshadowing** of an end the author knew, but it can equally be Paul's own foreboding, and it says nothing of how he died. A verdict on whether either decides the date.
+
 **Must hit, strict (c):** a **scholarly hypothesis** on both sides, with no magisterial standing; a majority is not a proof. Dei Verbum 19 teaches the gospels' historical character and names no date, so neither dating touches it.
+
 **Wrong turns:** making the crux "whether Luke used Mark", which neither position here turns on. Reading "without prohibition" as a report that Paul was released: the text does not say. Saying the early date is the more Catholic one because it protects historicity; that confuses date with reliability, as 1.5 warned.
+
 **Model answer:** (a) Robinson needs the premise that Acts ends where its author's knowledge ended, so that he would have told of Paul's death or the Temple's fall had he known them. The majority denies this: the ending is chosen because the story's goal, the word preached in Rome, has been reached. (b) *One of several:* "Two whole years", told as a finished stay, means the author writes after it ended, so he knows more than he tells, which undercuts Robinson's premise. 20:25 may foreshadow a death Luke knew of, or may be Paul's own foreboding. Both are modest points for the majority; neither settles the date. (c) Both dates are scholarly hypotheses with no magisterial standing. Dei Verbum 19 names no date, so Luke-Acts can be early or late without touching its historical character.
 
 </details>

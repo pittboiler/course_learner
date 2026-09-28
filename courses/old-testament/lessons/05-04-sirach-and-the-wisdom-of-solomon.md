@@ -97,23 +97,33 @@ Hebrews 1:3: the Son is "the brightness of his glory and the figure of his subst
 **P1** *(Formal (a) · Exegetical (b))*
 
 **Must hit, strict (a):** **Ptolemy VIII Euergetes II**, because Ptolemy III reigned only about 25 years (246 − 222 = 24, plus a partial year) and so never reached a 38th. With year 1 = 170/169, year 38 = 170 − 37 = **133/132 BC**. "132 BC" is the conventional answer.
+
 **Must hit, strict (b):** any two of: the praise of the high priest **Simon son of Onias** (ch. 50, usually Simon II, about 200 BC); **no trace of Antiochus IV's persecution** (from 167 BC); the grandson's own "grandfather", which puts two generations back from 132. Statuses: 246–222 and 170 are **secure** regnal data. The arrival in 132 is **reconstructed** but firm, an arithmetic inference from a stated regnal year. The grandfather's date (about 190–175) and Simon's (about 200) are **reconstructed**. Antiochus's persecution (167) is **secure**.
+
 **Wrong turns:** choosing Ptolemy III and computing 246 − 37 = 209. Counting year 38 as 170 − 38 = 132 with no account of year 1 (the right answer by the wrong route; credit it, but note the off-by-one). Calling Ben Sira's date "disputed". It is reconstructed, and the reconstructions agree closely.
+
 **Model answer:** (a) Ptolemy VIII: 170 − 37 = 133, so year 38 is 133/132, conventionally 132 BC. Ptolemy III never had a 38th year. (b) Chapter 50 praises Simon son of Onias, probably Simon II (about 200 BC, reconstructed), and the book knows nothing of the persecution of 167 (secure). Both fit a grandfather writing about 190–175 (reconstructed); the regnal data are secure, and the arrival date is a firm reconstruction.
 
 **P2** *(Exegetical)*
 
 **Must hit, strict (a):** ***apaugasma*** ("brightness, radiance"). Plus one of: **"image" (*eikōn*)**, shared with Colossians 1:15 ("image of the invisible God"); or **"glory"** (Wis 7:25, "the glory of the Almighty"; Heb 1:3, "his glory").
+
 **Must hit, strict (b):** one of: "**the figure of his substance**" (*charaktēr tēs hypostaseōs*), an exact impression of God's very being, which Wisdom does not say; Hebrews speaks of a **Son**, a person, where Wisdom speaks of "she"; in Heb 1:3 he upholds all things and makes purgation of sins.
+
 **Must hit, strict (c):** literally, "she" is **God's own wisdom personified**, an attribute or emanation of God described in bold images within Jewish monotheism, not a second divine person in the author's mind. Reading it of the Son is a **spiritual or canonical reading** (Hebrews and the Fathers, e.g. Origen), and it should be labelled as one.
+
 **Wrong turns:** saying the author of Wisdom taught the Trinity. Saying Hebrews "quotes" Wisdom. It borrows a word and an image, and it shifts "eternal light" to "his glory". Saying the Latin has the same word in both places. The Vulgate has *candor* in Wisdom and *splendor* in Hebrews, and only the Greek shares a word.
+
 **Model answer:** (a) *Apaugasma*, "brightness", in both. Wisdom's "image of his goodness" answers Colossians' "image of the invisible God". (b) Hebrews adds "the figure of his substance" and says it of a Son. (c) Literally "she" is God's wisdom personified, a radiance of God and not a second person. Reading it of Christ is a spiritual, canonical reading, as in Hebrews and Origen.
 
 **P3** *(Exegetical)*
 
 **Must hit, strict (a):** **authorship** (who wrote the books: not Solomon, say "the more learned") and **authority** (whether the Church receives them: "received them into authority"). Augustine answers the two separately and differently.
+
 **Must hit, strict (b):** (1) **Defined dogma**: Trent's canon, [`fundamental-theology` 3.3](../../fundamental-theology/lessons/03-03-the-canon-as-defined.md). (2) **Scholarly consensus**, with no magisterial ruling either way (already Augustine's "more learned"). (3) **Reconstructed date**, the scholarly majority. (4) **Error**: it makes canonicity depend on attribution, and canonicity rests on inspiration and the Church's reception. Denying the book's canonicity would contradict a defined dogma. (5) **Spiritual-sense reading**: Augustine's, echoed at Matt 27:43. Its literal sense is the persecuted righteous Jew. That the text points to Christ is a typological reading, not a defined one.
+
 **Wrong turns:** marking (2) as "contrary to Church teaching": Trent names the book "Wisdom" and attributes it to no one. Marking (5) as defined dogma, or as the literal sense. Reading Augustine's "especially the Western" as a denial of canonicity. He is reporting reception history.
+
 **Model answer:** (a) Authorship (not Solomon's) and authority (received by the Church). (b) 1: defined dogma, Trent. 2: scholarly consensus, no magisterial level. 3: reconstructed date, majority view. 4: error, since canonicity does not rest on attribution. 5: spiritual-sense (typological) reading, Augustine's; the literal sense concerns the righteous Jew.
 
 </details>
@@ -130,9 +140,13 @@ Hebrews 1:3: the Son is "the brightness of his glory and the figure of his subst
 <summary>Solution</summary>
 
 **Must hit, strict (a):** The passage commands **enjoying food, wine, festive dress and married love, and working "earnestly"**. It gives two grounds: these things are **God's gift and approved by him** ("thy works please God", "this is thy portion"), and **life is short and ends in *sheol***, where there is no work or wisdom. *Hebel* here means **fleeting, brief, breath-like**, not worthless or sinful. The context proves it: the reader is told to *enjoy* these days *because* they are *hebel*, and the joy is God-approved.
+
 **Must hit, strict (b):** **No outright denial.** Qoheleth **presses the rule's exceptions**. Proverbs states what usually happens, and Qoheleth observes that "time and chance" can overturn it for the swift, the wise and the skilful alike. He does not deny that diligence and wisdom have value (v. 10 says to work earnestly, and 9:16–18 says that "wisdom is better than strength"). He denies only that they **guarantee** the outcome.
+
 **Must hit, strict (c):** any two of: **(1) Solomonic authorship is not Church teaching.** The book is defined as canonical, not as Solomon's. Its authorship and date are **scholarly questions with no magisterial level**, and most scholars date it to the Persian or Hellenistic period (**disputed**). **(2) *Hebel* does not mean "sinful".** It means fleeting breath, and "vanity" pushing toward moral contempt is the Vulgate/Douay's colouring. **(3) The passage does not recommend sinful pleasure.** It commends these joys *as God's gift* ("thy works please God"). The "fallen Solomon" backstory is imported, not in the text.
+
 **Wrong turns:** reading "neither work, nor reason ... in hell" as the Christian hell of punishment, when *sheol* is the common grave of all. Reading verse 10 as a doctrinal denial of any afterlife. The book asks and does not settle ("Who knoweth", 3:21). Calling Qoheleth a nihilist who rejects wisdom. Correcting the note by asserting that the Church teaches Solomon did *not* write the book, which is equally no teaching.
+
 **Model answer:** (a) Eat, drink, dress for a feast, love your wife and work hard, because God approves these as your portion and because *sheol* ends all work. *Hebel* here is "fleeting breath": the days are to be enjoyed precisely because they pass, so the word cannot mean "sinful". (b) Not a denial. Qoheleth grants that effort and wisdom matter but observes that "time and chance" can defeat them, so Proverbs states a tendency, not a guarantee. (c) Solomonic authorship is a scholarly question with no magisterial level, since the Church defines the book's canonicity, not its author. And "vanity" (*hebel*) means transience, not sin: the passage calls these joys God's gift, not worldly vice.
 
 </details>

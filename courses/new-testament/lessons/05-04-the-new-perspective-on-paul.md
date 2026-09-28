@@ -101,22 +101,31 @@ For each numbered sentence, name the error and correct it, stating the right lev
 **P1** *(Exegetical (a) · Exegetical (b))*
 
 **Must hit, strict (a):** (i) **priority**: the gift comes before any initiative by the recipient. (ii) refuses **incongruity**: it makes the gift fit the recipient's worth. (iii) **efficacy**: the gift transforms the recipient's agency. (iv) **non-circularity**: the gift escapes the cycle of return. (v) **incongruity**: the gift goes to the unworthy.
+
 **Must hit, strict (b):** **incongruity** is Paul's distinctive stress: in Christ, God gives without regard to any prior worth, ethnic or moral. The perfections are independent, so Judaism can be full of grace (superabundance, priority), as Sanders said, while not perfecting incongruity the way Paul does.
+
 **Wrong turns:** labelling (i) incongruity. "Before Israel had done anything" is about timing, and a gift can come first and still go to the fitting. Labelling (ii) as a denial of grace altogether: Barclay's point is that it is still grace, perfected differently. Reading (iv) as Barclay's view of Paul. He argues Paul's gift is unconditioned but still expects a return of obedience and thanks.
+
 **Model answer:** (a) (i) priority; (ii) refuses incongruity; (iii) efficacy; (iv) non-circularity; (v) incongruity. (b) Barclay holds that Paul's distinctive emphasis is incongruity, God's gift in Christ given without regard to worth. Because the six perfections are independent, Second Temple Judaism can be saturated with grace, as Sanders showed, and still differ from Paul over whether grace must fit its recipient.
 
 **P2** *(Exegetical (a)–(c))*
 
 **Must hit, strict (a):** Dunn: "their own" = righteousness as **Israel's own**, belonging to them and not to the nations; he appeals to "**to everyone that believeth**" (10:4), the universal scope set against a national possession. Westerholm: "their own" = righteousness **based on their own doing**, set against God's righteousness received; he appeals to "**the man that shall do it shall live by it**" (10:5), doing contrasted with the faith-righteousness of 10:6. Credit citing "zeal" (10:2) for either side, if the use is explained.
+
 **Must hit, strict (b):** the note takes the **doing** (Old Perspective) reading: "by their own strength, or by the observance of the law". It is a translator's explanatory note with **no magisterial standing**, so it reports a reading and defines nothing.
+
 **Must hit, strict (c):** Dunn's side must deny that *idian* here means "achieved by their own effort"; Westerholm's side must deny that it means "theirs as opposed to the Gentiles'". The adjective allows both, so the context (10:4 against 10:5) decides.
+
 **Wrong turns:** treating the Douay note as Church teaching because it is printed in a Catholic Bible. Claiming the Greek settles it. Reading 10:5 as Paul rejecting obedience itself rather than setting two kinds of righteousness side by side.
+
 **Model answer:** (a) On Dunn's reading "their own" is Israel's own righteousness, a covenant status held against the nations, which is why 10:4 insists on "everyone that believeth". On Westerholm's reading it is righteousness established by their own doing, which is why 10:5 defines the Law's righteousness as "the man that shall do it". (b) Challoner takes the doing reading ("by their own strength, or by the observance of the law"). His note is a translator's gloss and carries no magisterial weight. (c) Dunn must deny that *idian* means "self-achieved", and Westerholm must deny that it means "Israel's as against the Gentiles'". Which contrast 10:4–5 foregrounds is the evidence that would move it.
 
 **P3** *(Exegetical)*
 
 **Must hit, strict:** (1) **Misreport of Stendahl.** He argued the reverse: Paul had a robust conscience ("without blame", Phil 3:6), and the introspective guilt belongs to Augustine and Luther. (2) **Hypothesis stated as proof, and as grounds for a change in teaching.** Covenantal nomism is a scholarly hypothesis, contested (the *Variegated Nomism* volumes). The Church's defined teaching is that justification is by grace (Trent VI); it never defined, and so never withdrew, an exegesis of Paul's opponents. (3) **Wrong kind of document.** The Joint Declaration is a Lutheran–Catholic agreement on the doctrine of justification; it adopts no reading of *erga nomou*, which stays freely disputed. (4) **Level overstated.** A general-audience catechesis defines nothing. It shows the boundary-marker reading is compatible with Catholic faith, not that it is taught.
+
 **Wrong turns:** correcting (2) by saying the Church teaches the Old Perspective, which repeats the error in reverse. In (4), denying that Benedict said it: he did describe the works of the Law this way. The error is the verb "defined".
+
 **Model answer:** (1) Stendahl argued the opposite: Paul's conscience was robust, "without blame" under the Law (Phil 3:6), and the tormented conscience is the West's. (2) Sanders's covenantal nomism is an influential but contested hypothesis, not a proof. Church teaching defines justification by grace, not any account of Paul's opponents, so there was nothing to abandon. (3) The Joint Declaration is an agreement on justification doctrine and makes no ruling on what "works of the law" means. That question remains freely disputed among Catholic exegetes. (4) Benedict XVI did describe the works of the Law as Israel's identity observances, but in a general-audience catechesis, which defines nothing. The reading is permitted, not taught.
 
 </details>
@@ -134,8 +143,11 @@ In 5:21, "that we might be made the justice of God" is *hina hēmeis genōmetha 
 <summary>Solution</summary>
 
 **Must hit, strict (a):** ***logizomai***, "reckon, credit to an account" (here the participle *logizomenos*). In Romans 4:3 faith is **credited** to Abraham as righteousness; in 5:19 trespasses are **not debited** to the world. Same ledger, one entry made, the other withheld.
+
 **Must hit, strict (b):** **Gift** is favoured: human beings are the ones who *become* the righteousness of God, so it ends up as the believers' standing, received from God "in him". But the verse is **contested**. The "we" of 5:18–20 is Paul's ministry ("the word of reconciliation", "ambassadors"), so an attribute reader can take "we" as the apostles who embody God's own faithfulness. A saving-action reader can point to "God ... reconciling the world", God's own act, into which the "we" are taken. Either counter-reading earns full credit.
+
 **Wrong turns:** glossing *logizomai* as "infuse" or "impute" in the doctrinal sense. The verb means "reckon"; what the reckoning *effects* is the separate, disputed question. Claiming "become" settles whether righteousness is credited or made real: the words alone do not decide that fork. Saying the Church defines the reading of 5:21: no act rules on this genitive, so it is a scholarly question.
+
 **Model answer:** (a) The verb is *logizomai*, "reckon, credit to an account". In Romans 4:3 God credits faith to Abraham as righteousness; in 5:19 he declines to debit the world's trespasses to it. (b) "We ... become the righteousness of God" makes it something believers come to have from God in Christ, which favours the gift reading. An attribute reader can reply that the "we" of 5:18–20 is the apostolic ministry of reconciliation, whose preaching shows God's own faithfulness, and a saving-action reader can reply that 5:19 makes God's reconciling of the world the controlling act.
 
 </details>

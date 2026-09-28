@@ -108,8 +108,11 @@ Two disciplines apply. Exactness: *una substantia, tres personae* is a later con
 **P1** *(Exegetical.)*
 
 **Must hit, strict (a):** (i) **Wording.** The sentence does not occur in Tertullian in that form. *On the Flesh of Christ* 5 has two separate clauses, and neither is first-person: of the death, "it is by all means to be believed, because it is absurd" (*prorsus credibile est, quia ineptum est*); of the burial and resurrection, "the fact is certain, because it is impossible" (*certum est, quia impossibile*). The tag fuses them and changes "it is to be believed" into "I believe." (ii) **Context.** The clauses sit inside an argument against Marcion's docetism whose whole force is that a phantom Christ makes the faith false; Tertullian goes on to ask how any of it could be true if Christ were not true. It is a rhetorical paradox inside a reasoned case, not a rejection of reasoning. Work and chapter: *On the Flesh of Christ* 5.
+
 **Must hit, strict (b):** **fideism** — the claim that reason can establish nothing about God or about the fact of revelation, so faith must rest on something else. Owned by [`fundamental-theology`](../../fundamental-theology/lessons/02-03-fideism-and-rationalism.md) 2.3, which reads it against *Dei Filius*.
+
 **Wrong turns:** saying the quotation is "basically accurate in substance" — the fusion and the change of person are the whole difference; treating the Athens line as a second wording error (it is quoted accurately from *Prescription* 7, and is misused rather than misquoted); calling the column's position traditionalism, which is the specific nineteenth-century French form, not what the column says.
+
 **Model answer:** The tag is not in Tertullian. *On the Flesh of Christ* 5 has two impersonal clauses — believed because absurd, certain because impossible — which the column merges and puts in the first person. And the context is inverted: the clauses belong to an argument against Marcion that a Christ without real flesh would make the faith false, so Tertullian is reasoning, not refusing to. The conclusion "faith begins where argument ends" is fideism, condemned by Vatican I and owned by `fundamental-theology` 2.3.
 
 ---
@@ -117,8 +120,11 @@ Two disciplines apply. Exactness: *una substantia, tres personae* is a later con
 **P2** *(Exegetical.)*
 
 **Must hit, strict (a):** it means that the plea Tertullian is entering does not require exegesis — the question of who may appeal to the Scriptures is settled by ownership (title and descent), before any verse is opened, so he can defeat the heretics' appeal without interpreting a text. It does **not** mean that Scripture is unnecessary, obscure, or subordinate to tradition as a source, nor that Christians should not argue from it: the same author argues from it at length against Marcion and against Praxeas, and ch. 13 sets out the rule of faith in full.
+
 **Must hit, strict (b):** (i) **title by inheritance** — "I hold sure title-deeds from the original owners themselves"; "I am the heir of the apostles"; and (ii) **priority in time, i.e. possession before the claimant** — "I have long possessed it; I possessed it before you," reinforced by "When and whence did you come?" Credit for adding that the heretics are cast as strangers with no relation to the testator ("As you are none of mine").
+
 **Wrong turns:** giving "they are not Christians" as one of the two grounds — that is the conclusion the ownership claim supports, not a separate ground; reading the property language as a claim that the Church may withhold the Bible from the laity, which is not what the estate metaphor is about.
+
 **Model answer:** (a) It means the objection is procedural: Tertullian establishes who owns the Scriptures from apostolic descent alone, so the heretics' appeal fails before a single verse is construed. It does not mean Scripture is unclear or that Christians should avoid scriptural argument — he conducts such arguments at book length elsewhere. (b) First, inherited title: "I hold sure title-deeds from the original owners themselves" and "I am the heir of the apostles." Second, prior possession: "I have long possessed it; I possessed it before you," set against the challenge "When and whence did you come?"
 
 ---
@@ -126,8 +132,11 @@ Two disciplines apply. Exactness: *una substantia, tres personae* is a later con
 **P3** *(Exegetical (a) · Evaluative (b).)*
 
 **Must hit, strict (a):** *Protecting unity* — "not by way of diversity … but by distribution"; "not by division … but by distinction." *Ranking* — "a derivation and portion of the whole"; "My Father is greater than I." "The Father is the entire substance" may be offered on either side, and counts if the student says which way he is taking it: as naming the one substance the Son derives from, or as making the Son something less than that substance.
+
 **Must hit, any verdict (b):** state both readings with their textual anchors. The **economic** reading leans on *derivatio* and on the language of sending and distribution — the Son is described in his going forth, in the ordered dispensation Tertullian calls the *oeconomia*, and "greater" is Christ's own word in John 14:28, spoken in his humanity. The **ontological** reading leans on *portio*: a portion of a substance is quantitatively less than the whole, which is a statement about what the Son is, not about what he is sent to do; and the ranking language of ch. 2 ("not in condition, but in degree") is general, not confined to the mission. Then: note that the Nicene alternative — same substance, no degrees — was not yet available as a formula, so the question is what the words can bear, not whether he passed a later test. Then a verdict, either way.
+
 **Wrong turns:** answering (b) by condemning Tertullian as an Arian — Arius denies the Son is from the Father's substance, which this passage asserts; treating the question as settled by the fact that the Church later received *trinitas*, *substantia* and *persona* (vocabulary received is not doctrine received); using a Father's title to decide it, which is doubly wrong here since Tertullian has no such title.
+
 **Model answer (b), one of several:** The economic reading takes "derivation" and the whole vocabulary of distribution and sending as describing the Son's going forth into the world; on this reading "greater than I" is Christ's own word about his state in the flesh, and Tertullian's real target is Praxeas's collapse of the three, not their equality. The ontological reading fixes on "portion." A portion of a substance is less than the whole, and ch. 2's "not in condition, but in degree" speaks of the three as such, not of a mission. Verdict: the ranking is real and not merely economic, but calling it subordinationism imports a later category. Tertullian is doing what pre-Nicene Latin could do — securing distinction inside one substance — with a part-and-whole image that Nicaea had to discard.
 
 </details>

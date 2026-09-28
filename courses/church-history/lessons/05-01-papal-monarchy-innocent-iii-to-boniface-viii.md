@@ -109,9 +109,13 @@ Identify the three claims, and for each say what Lateran IV actually did, with t
 **P1** *(Exegetical.)*
 
 **Must hit, strict (a):** two classes: clergy of any rank who pay or promise to pay a share of their revenues to laymen, and lay rulers and officials of any rank who impose, exact or receive such payments. The trigger is the payment or levy itself, whatever it is called ("aid, loan, subvention, subsidy or gift"). The sentence is excommunication "by the act itself", with no trial needed.
+
 **Must hit, strict (b):** no. The prohibition applies to payments made "without the authority of that same chair": the bull reserves consent to the pope and does not declare the clergy untaxable. The long list of names (aid, loan, gift) closes loopholes; it does not widen the ban beyond unauthorized levies.
+
 **Must hit, strict (c):** *Etsi de statu* (July 1297). In a case of necessity the king could tax his clergy without consulting the pope, and the king himself judged whether necessity existed.
+
 **Wrong turns:** reading (b) as a claim of absolute clerical immunity; saying the retreat was forced by Anagni (it came six years earlier); naming *Unam Sanctam* in (c).
+
 **Model answer:** (a) Clergy who pay or promise a share of their revenues to laymen, and any lay ruler or official who levies or receives it, under any label. Doing so incurs excommunication automatically. (b) No: the ban covers payments made "without the authority of that same chair", so what the bull demands is papal consent, not immunity. (c) *Etsi de statu* (1297) let the king tax his clergy without asking Rome in an emergency, and left it to the king to say when an emergency existed.
 
 ---
@@ -119,7 +123,9 @@ Identify the three claims, and for each say what Lateran IV actually did, with t
 **P2** *(Exegetical.)*
 
 **Must hit, strict:** (1) Confession: canon 21 did not invent it. It made annual confession to one's own priest, with Easter communion, a universal obligation for all past the age of discretion. (2) Badge: canon 68 required Jews and Muslims to be distinguished by dress, without prescribing a badge or colour; badges came from later local and royal decrees. (3) Inquisition: canon 3 set anti-heresy measures (excommunication of suspects who could not clear themselves, handing convicted heretics to the secular power, pressure on rulers, bishops' annual inquiries in suspect parishes). Papal inquisitors came in the 1230s.
+
 **Wrong turns:** denying that canon 68 existed or softening it; it did mandate public marking of Jews and Muslims. Treating canon 3 as harmless because it is not yet "the Inquisition": it did require episcopal inquiry and delivery to secular punishment. Citing canon 67 for the dress rule.
+
 **Model answer:** The voice-over makes three claims. Confession: canon 21 made existing practice a universal law, requiring every adult Christian to confess to his own priest at least yearly and receive communion at Easter. The badge: canon 68 required Jews and Muslims to be marked off by their dress, but set no form; specific badges, such as France's *rouelle* of 1269, came later from kings and local councils. The Inquisition: canon 3 ordered action against heresy, including excommunication of suspects who could not clear themselves, handing the convicted to secular rulers, sanctions on rulers who failed to act, and yearly episcopal inquiries in suspect parishes. The papal inquisitors of 5.3 came in the 1230s. The council was drastic enough without the inventions.
 
 ---
@@ -127,7 +133,9 @@ Identify the three claims, and for each say what Lateran IV actually did, with t
 **P3** *(Evaluative.)*
 
 **Must hit, any verdict:** (1) State the personal case with evidence: the tone of *Ausculta fili* and *Unam Sanctam*, and the Colonna feud, which gave Philip allies in Rome and supplied Sciarra Colonna at Anagni. (2) State the structural case with evidence: the 1296 export ban, the 1297 retreat before any escalation of tone, the French clergy and estates backing the king in 1302, and Clement V's later accommodation. (3) Weigh them with a counterfactual: would a more conciliatory pope have kept the right to veto clerical taxation?
+
 **Wrong turns:** treating *Unam Sanctam* as the cause of the conflict (it came late, in the second round); using Anagni alone as proof of weakness, when Boniface was freed by the townspeople; grading Boniface's theology instead of his tactics.
+
 **Model answer, one of several:** The claim is half right. Boniface's manner cost him: *Ausculta fili* invited a quarrel over a treason trial, and his war on the Colonna gave Philip Roman allies and the man who led the raid on Anagni. But the decisive facts are structural. In 1297, before any violence, a single French export ban forced Boniface to concede that the king could tax clergy in an emergency of the king's own judging. In 1302 the French clergy stood with their king. A more tactful pope might have avoided Anagni; he would not have regained the veto over taxation, because the money that paid for it now flowed through the king. Intransigence shaped how Boniface lost, not whether he lost.
 
 </details>
@@ -140,9 +148,13 @@ Identify the three claims, and for each say what Lateran IV actually did, with t
 <summary>Solution</summary>
 
 **Must hit, strict (a):** who: the emperor Michael VIII, through his envoys, who accepted Roman faith and primacy; the record names no Eastern council behind it. Authority: imperial, and politically motivated, since Michael had retaken Constantinople in 1261 and feared a Western crusade to restore the Latins. Reception: none lasting; his son Andronikos II repudiated the union after Michael died in December 1282.
+
 **Must hit, strict (b):** at Florence the emperor John VIII attended in person, and nearly all the Greek bishops signed a conciliar decree. Both failed reception: Lyons was repudiated in 1282; after Florence signers withdrew, clergy, monks and people followed Mark of Ephesus, Moscow rejected the union, and it was proclaimed in Hagia Sophia only in December 1452.
+
 **Must hit, strict (c):** in 1204 the Fourth Crusade sacked Constantinople, and Greek clergy were replaced by Latins in their own cathedrals, under a Venetian Latin patriarch whom Innocent III confirmed. Union with Rome therefore looked, to clergy and people, like submission to the Church whose armies had sacked the city; Innocent himself wrote that the Greeks now had reason to detest the Latins "more than dogs."
+
 **Wrong turns:** treating Lyons as a Greek conciliar act equal to Florence; counting 1453 as evidence that Florence was rejected (the city's fall ended the question without showing what the Greeks would have received); blaming 1204 on Innocent's orders, when he had forbidden attacks on Christians.
+
 **Model answer:** (a) At Lyons the emperor's envoys accepted Roman faith and primacy for Michael VIII, who feared a Western crusade to restore the Latin empire he had ended in 1261. It rested on imperial authority alone and was not received: Andronikos II repudiated it after 1282. (b) Florence was signed by the emperor in person and nearly all the Greek bishops, as a conciliar decree. Yet it too went unreceived: signers withdrew, Mark of Ephesus led the resistance, and the union was proclaimed only in 1452. (c) After 1204 Latin clergy held Greek cathedrals under a Latin patriarch, so union meant accepting the Church of the conquerors. Innocent III admitted the Greeks had reason to detest the Latins "more than dogs."
 
 </details>

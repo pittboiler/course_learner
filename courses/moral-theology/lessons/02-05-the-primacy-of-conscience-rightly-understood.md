@@ -113,21 +113,29 @@ The dashed edge is where primacy and culpability meet. A person who must follow 
 **P1** *(Exegetical (a) · Exegetical (b))*
 
 **Must hit, strict (a):** any two of: (1) **category error**: whether a teaching is *true* is not a judgment of conscience, which concerns acts here and now (DV 38; Newman §5 says conscience judges no "speculative truth"). (2) **Authorship**: conscience applies the law and does not decide it; the Magisterium helps conscience see what it should already hold (VS 60, 64), and "creative" conscience is rejected (VS 54–56). (3) **Level inflation**: CCC 1778 quotes one sentence of Newman; it does not make his *Letter*, or the speaker's gloss on it, Church teaching. (4) **Newman misused**: he denies that conscience and papal infallibility can collide directly, and the collision he allows is over a practical command.
+
 **Must hit, strict (b):** one must never act against a certain conscience: GS 16, VS 60, CCC 1790, **authentic ordinary magisterium** (not defined).
+
 **Wrong turns:** answering with Newman's conditions for resisting a command (the question is what the speaker gets wrong about the *object* of conscience, not whether he met the conditions). Saying the true part is "infallible" or "dogma".
+
 **Model answer:** (a) The speaker treats conscience as a judge of whether teachings are true, but conscience is a practical judgment about acts, and DV 38 says it cannot legitimate dissent from a doctrinal pronouncement. Newman makes the same point: conscience judges conduct, not doctrine. He also treats conscience as author of the norm, which VS 54–56 rejects as "creative" conscience. (b) True: one must never act against a certain conscience (GS 16, CCC 1790), authentic ordinary magisterium.
 
 **P2** *(Exegetical (a) · Evaluative (b))*
 
 **Must hit, strict (a):** the phrase: conscience sees "with a certain moral security" that the response is "what God himself is asking", while it is not yet the objective ideal. A takes "what God is asking" to mean *the step this person can take now*, a judgment about growth and culpability, with the norm untouched. B takes it as a judgment that *this act* is what God wills for this person, so conscience approves conduct the norm forbids.
+
 **Must hit, any verdict (b):** use the text: A can cite AL 301–302's framing in imputability (CCC 1735) and 295's explicit "not a gradualness of law". B can cite 303's move *beyond* recognizing limits ("can do more than recognize…") and the positive language of what God asks. State the other side's best point and meet it. Mark the level: the exhortation is authentic magisterium, and its reading is freely disputed.
+
 **Wrong turns:** deciding by who defends which reading, or by the *dubia*'s unanswered status. Treating either reading as heresy or dissent. Drifting into the sacramental question, which is ceded.
+
 **Model answer (b), one of several:** Reading A fits better. AL 295 expressly keeps FC 34's line against a "gradualness of the law", and 301–302 frame the whole section in imputability. "What God is asking" most naturally names the next step a limited person can take, not approval of the act. The strongest point for B is that 303 says conscience "can do more than" recognize a shortfall. If it only confirmed reduced culpability, that clause would add nothing. My reply: what it adds is a positive discernment of growth, which is more than excuse and less than approval. The phrase "while yet not fully the objective ideal" keeps the norm in force. The text is authentic magisterium; its reading remains freely disputed.
 
 **P3** *(Exegetical)*
 
 **Must hit, strict:** (i) **Authentic ordinary magisterium**: taught by an ecumenical council (GS 16), repeated in VS 60 and CCC 1790, and common teaching since Aquinas (q.19 a.5); no act defines it. (ii) **At least authentic ordinary magisterium**: VS 56, with 54–64. Because it rests on the existence of intrinsically evil acts, whether it is also *definitive* is argued (4.4), and either answer is acceptable if the dispute is named. (iii) **No magisterial level**: a theologian's proposal (Ratzinger, 1991 lecture, as cardinal). His later election as pope does not raise it. (iv) **The sentence as the Catechism uses it** is adopted in CCC 1778, an authentic magisterial text, to mean that conscience is God's messenger. **Newman's theory as a whole** has no magisterial level.
+
 **Wrong turns:** calling (i) *de fide* or (ii) simply "infallible". Promoting (iii) because the author became Benedict XVI. Treating the Catechism's quotation as canonizing Newman's whole *Letter*, or dismissing (iv) as "just Newman" when the Catechism adopts it.
+
 **Model answer:** (i) Authentic ordinary magisterium: GS 16, VS 60 and CCC 1790 teach it, and it has been common teaching since Aquinas, but nothing defines it. (ii) At least authentic ordinary magisterium (VS 56); whether it is definitive depends on the disputed status of the teaching on intrinsically evil acts. (iii) A theological opinion (Ratzinger, 1991) with no magisterial level, whoever later held office. (iv) The Catechism adopts the sentence in CCC 1778, meaning conscience as God's messenger, but Newman's wider theory stays theology.
 
 </details>

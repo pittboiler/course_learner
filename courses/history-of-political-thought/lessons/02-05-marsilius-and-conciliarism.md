@@ -165,8 +165,11 @@ For a people not free to make its own laws, he says a custom has force insofar a
 <summary>Solution</summary>
 
 **Must hit, strict (a):** reading (ii). The representation clause is governed by "if they are free, and able to make their own laws" (the full sentence opens with "if"). The second case then describes a people that lacks that power and cannot abolish a law made by a higher authority; its custom binds only as far as whoever makes its laws tolerates it. So the reply does not make popular authority universal.
+
 **Must hit, strict (b):** in a free people the two options in q.90 a.3 are not rival sources. The public person makes law *as representing* the people, so the people's consent, even unwritten in custom, outweighs his authority. Where the people is not free, the "public person" can hold lawmaking power that does not derive from them.
+
 **Wrong turns:** choosing (i) by reading the quoted clause without the "if" that governs it. Treating this as Marsilius's thesis: Aquinas makes popular lawmaking depend on a people's condition, and he does not say the people may correct or depose the ruler.
+
 **Model answer:** (a) Reading (ii). The sovereign legislates only "as representing the people" in the case of a people "free, and able to make their own laws". For a people lacking that power, law comes from a higher authority and custom counts only as tolerated. (b) For a free people, the "or" is one source, not two: the public person holds the people's lawmaking power as their representative. Only for an unfree people can lawmaking authority sit elsewhere.
 
 </details>

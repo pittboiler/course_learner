@@ -98,8 +98,11 @@ Here the theory strains. Whether conflict runs through ordinary channels depends
 **P1** *(Exegetical, strict.)*
 
 **Must hit, strict (a):** the ground is structural, not moral. It is about what each group *wants* and what it *stands to gain*. The deciding words are "desire to dominate" against "merely a desire not to be dominated", and "since they have less to gain … by destroying it". The people are the safer guardians because their interest does not run against liberty, not because they are better people. "Merely" marks their desire as purely negative: they do not want to rule, only not to be ruled.
+
 **Must hit, strict (b):** no. The sentence sets out the case *for* the Roman arrangement. I.5 gives the case for Sparta and Venice too, and notes that by results those noble-guarded republics lasted longer. The conclusion is conditional: a republic set on expanding must do as Rome did, while one content to preserve itself may follow Sparta and Venice. I.6 then sides with Rome, because necessity may force growth on any state.
+
 **Wrong turns:** reading "attachment to freedom" as praise of popular virtue; treating the sentence as Machiavelli's flat verdict for popular guardianship.
+
 **Model answer:** (a) Structural: the commons' desire is "merely" not to be dominated, so they have "less to gain" by destroying liberty. The argument rests on interest, not moral worth. (b) No. This is the case for Rome's side. I.5 also weighs Sparta and Venice, which lasted longer, and concludes conditionally: expansionist republics must copy Rome, self-preserving ones may copy Sparta and Venice. I.6 prefers Rome because necessity can force expansion.
 
 ---
@@ -107,8 +110,11 @@ Here the theory strains. Whether conflict runs through ordinary channels depends
 **P2** *(Exegetical (a) · Evaluative (b).)*
 
 **Must hit, strict (a):** a reconstruction that includes, in some order: every republic has two factions, people and nobles; laws favourable to freedom originate in their conflict; the tumults did little harm (three centuries, few exiles, little bloodshed); virtue comes from education, education from good laws, good laws from the tumults; the rowdy methods were Rome's ordinary way for the people to voice demands, and unfounded fears could be corrected by a trusted speaker; **C:** the dissensions made Rome free (and are not a defect it overcame by luck and arms). The reply to the disorder objection must appear as a premise.
+
 **Must hit, any verdict (b):** name one premise precisely. Say why it is weakest: likely candidates are the causal chain (tumults → laws, rather than laws despite tumults) or the low-harm claim, which is dated to end at the Gracchi, where the harm began. Name evidence that bears on it, for example whether comparable reforms came without conflict, or whether the low-harm count holds.
+
 **Wrong turns:** premises in modern terms ("class struggle", "checks and balances"); making (b) a verdict on whether conflict is good, rather than a test of one premise; ignoring I.37 when choosing the low-harm premise.
+
 **Model answer (b), one of several:** The weakest premise is that the good laws *originated* in the tumults. It is a causal claim, and I.4 supports it mainly with a correlation: Rome had tumults and good laws. To strengthen it, show that specific liberty-protecting institutions, like the tribunate, were conceded only under popular pressure and would not have come otherwise. To undermine it, find republics that got comparable laws through negotiation or a founder, or Roman laws passed in calm periods. The low-harm premise is also exposed: the count stops at the Gracchi, exactly where I.37 admits the conflict turned deadly.
 
 ---
@@ -121,6 +127,7 @@ Here the theory strains. Whether conflict runs through ordinary channels depends
 - The one-theory reply: the books address different situations. Founding or reforming, especially a corrupt city, needs one man with absolute authority (I.9, I.18), while maintaining a free state is where peoples excel. I.58 itself says princes surpass peoples in founding, and peoples surpass princes in maintaining.
 
 **Wrong turns:** naming "whether the people are good" (both books use desire, not goodness); naming the lawfulness of cruelty, which is not about the people; citing Baron's dating as the reconciliation (that is the two-teachings view).
+
 **Model answer:** Both books agree the people want only not to be oppressed. They part on whether the people's *judgment* can be trusted with a share in rule. The *Discourses* says yes: a law-bound people chooses magistrates better and holds its course more steadily than a prince (I.58). *The Prince* uses the people only as the prince's securest base and never relies on their judgment. A one-theory reader denies a contradiction. Founding or reforming a state needs one man's absolute authority (I.9, I.18), while preserving it needs the many, and I.58 says exactly this.
 
 </details>

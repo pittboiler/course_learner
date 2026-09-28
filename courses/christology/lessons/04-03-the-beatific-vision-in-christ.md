@@ -153,8 +153,11 @@ graph TD
 <summary>Solution</summary>
 
 **Must hit, strict (a):** a premise that God chooses without doubt (Ephesians 1:4), so doubt is not essential to choice and attends it only in an ignorant nature. A premise that choice follows counsel only as counsel ends in judgment, so a judgment of what is to be done suffices even without prior doubt or inquiry. A premise that Christ's human reason judged what was to be done without doubt. A premise that choice is the act of free will, in the will as reason. The conclusion must be about the **human** will.
+
 **Must hit, strict (b):** the premise that a judgment of what is to be done *suffices* for choice. The leeway theorist says choice also needs open alternatives. Ad 3 answers that Christ's will is "determined to good" but not "to this or that good", so he chooses as the blessed do, with free will confirmed in good ([freedom confirmed in good](../reference.md#freedom-confirmed-in-good)).
+
 **Wrong turns:** a conclusion that Christ *could have sinned*, which the argument neither needs nor gives. Reading ad 2 as "Christ had no counsel", when it says only that doubt and inquiry are not essential to counsel's outcome. Putting the choosing in the divine will: then the free obedience is not human, which is monothelitism. Calling this analysis defined. Christ's free human obedience is presupposed by Trent's teaching on his merit, but the Thomist account of choice is common teaching.
+
 **Model answer:** (a) P1. God chooses (Ephesians 1:4), and there is no doubt in God. P2. So doubt is not essential to choice; it belongs to choice only in an ignorant nature. P3. Choice follows counsel only as counsel ends in judgment, so a judgment of what is to be done suffices for choice, even without doubt or inquiry. P4. Christ's human reason judged what was to be done, without doubt. P5. Choice is the act of free will, in the will as reason. ∴ C. Christ's human will chose, and was free, though it never deliberated in doubt. (b) The leeway theorist denies P3's "suffices", because for him freedom needs alternatives open at the moment of choice. Ad 3 leaves Christ's will undetermined as to *which* good it chooses, though never undetermined between good and evil.
 
 </details>

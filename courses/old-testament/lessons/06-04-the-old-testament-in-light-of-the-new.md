@@ -100,8 +100,11 @@ Name **four** errors. For each, give the text or document that corrects it and i
 **P1** *(Exegetical)*
 
 **Must hit, strict (a):** the son is **Israel, the people**. The words that decide it are "Israel was a child" in parallel with "my son", and the plural "they" of 11:2, who sacrificed to the Baals. Exodus 4:22 is a supporting parallel. The calling is **past**: the Exodus, remembered ("I loved him", "I called", "I carried them"). It is not a prediction.
+
 **Must hit, strict (b):** the link is the **pattern**. God's son is called out of Egypt, first Israel and now Jesus: typology, which depends on Hosea's literal sense. The Septuagint's "his children" loses the singular **"my son"**, which carries the link to Jesus as Son. Matthew follows the Hebrew (Jerome, *Illustrious Men* 3).
+
 **Wrong turns:** calling Hosea 11:1 a messianic prediction. Saying Matthew "misunderstood" Hosea. Typology does not claim that Hosea meant Jesus. Answering (b) by saying Matthew quotes the Septuagint.
+
 **Model answer:** (a) "My son" is Israel: "Israel was a child" stands in parallel with it, and the next verse's "they" sacrificed to Baalim. The calling is the Exodus, told in the past tense as a memory. (b) Matthew reads a pattern: the son God called out of Egypt, Israel, is relived by Jesus, who also returns from Egypt. The Greek "his children" drops the singular "my son" on which that link hangs, and Matthew follows the Hebrew.
 
 **P2** *(Exegetical)*
@@ -114,6 +117,7 @@ Name **four** errors. For each, give the text or document that corrects it and i
 5. **Freely disputed (rung 5)**: the *sensus plenior* theory. Credit a note that the 1993 document keeps the term, and that document is advisory too.
 
 **Wrong turns:** ranking 2 as Church teaching because Ratzinger signed the preface. Calling 3 "defined". Treating 5 as settled because Matthew's use is canonical: the *fact* of fulfilment is Scripture's, but the *theory* of how it works is not.
+
 **Model answer:** (1) DV 16, rung 3, resting on a rung-1 dogma. (2) PBC 2001 no. 22, advisory. (3) NA 4, rung 3. (4) CCC 123, with the weight of DV 14–16 and Trent behind it. (5) Freely disputed.
 
 **P3** *(Exegetical)*
@@ -126,6 +130,7 @@ Name **four** errors. For each, give the text or document that corrects it and i
 - **The Jews and Hebrews 8:13:** Nostra Aetate 4 (rung 3) forbids presenting the Jews as rejected on the strength of Scripture. Hebrews 8:13 concerns the Levitical cult. PBC no. 22 (advisory) calls the Jewish reading "a possible one".
 
 **Wrong turns:** correcting the preacher by denying that Christ fulfils the Old Testament, which DV 15–16 teaches. Citing the 2001 document as if it bound.
+
 **Model answer:** (1) "Placeholder": DV 14 and CCC 121 say the books keep permanent value (rung 3). Rejecting them is the Marcionism CCC 123 names, contrary to Trent's canon (rung 1). (2) "Old" does not mean void: PBC 2001 no. 19 (advisory), and CCC 121, "never revoked". (3) Hosea looks back on Israel's Exodus. Matthew reads a type, not a forecast: PBC no. 21 (advisory). (4) Nostra Aetate 4 (rung 3) forbids calling the Jews rejected on scriptural grounds. Hebrews 8:13 is about the Levitical cult, and PBC no. 22 calls the Jewish reading possible.
 
 </details>
@@ -144,9 +149,13 @@ Name **four** errors. For each, give the text or document that corrects it and i
 <summary>Solution</summary>
 
 **Must hit, strict (a):** *Shared* (any two): Antiochus is **in Persia after trying to take a temple's wealth**; he **dies far from home** ("a strange land", "a strange country"); his death is **tied to his crimes against Jerusalem** (his own confession in 1 Macc 6:12–13; God's stroke in 2 Macc 9; "Blessed be God ... who hath delivered up the wicked" after the letter's report, 1:17). *Conflicting* (any two): **how he dies** (sickness from grief in bed; a plague, a fall and worms; stoned and hacked apart by priests); **where** (after Elymais, heading back toward Babylonia; near Ecbatana, "among the mountains"; inside Nanea's temple); **the order of events** (1 Maccabees: death in year 149, after the rededication in 148; 2 Maccabees: death in ch. 9, before the purification in ch. 10); **his repentance** (remorse for Jerusalem vs a vow to free it and become a Jew).
+
 **Must hit, strict (b):** **1 Maccabees** is sober dynastic history, dated by the Seleucid era. Even its moral lesson is spoken by the king himself, not added by the narrator. **2 Maccabees 9** is **theological history**, an epitome built to show God's justice: punishment fits the crime (bowels for bowels, "as himself had treated others", 9:28), the man who would "reach to the stars" is brought to the ground, and the tyrant falls before the temple is restored. **1:13–16** is a **quoted document**. The epitomist asserts that the letter said this; he does not thereby vouch for every report in it. Its account differs from his own in chapter 9, so he evidently did not make it his own.
+
 **Must hit, strict (c):** it skips **genre and the author's assertion**. Inerrancy concerns **what the sacred writer asserts**, read in its literary form (Dei Verbum 11–12; [`fundamental-theology` 3.2](../../fundamental-theology/lessons/03-02-inerrancy.md); [literary forms](../reference.md#literary-forms)). Before calling a conflict an error, you have to ask what each account asserts, and whether a copied letter is asserted at all. Levels: 2 Maccabees' canonicity is **defined dogma** (Trent); which account is closest to the event is a **historical judgment with no magisterial level**.
+
 **Wrong turns:** harmonizing all three into one death. Taking 1 Maccabees' Elymais and 2 Maccabees' Persepolis as proof of error without asking what each writer claims to know. Treating 2 Maccabees 9's stylized punishment as a medical report. Saying the letter must refer to Antiochus IV beyond doubt: some scholars think it confuses him with his father Antiochus III, who was killed while plundering a temple in Elymais in 187 (**secure**). Swinging the other way and calling 2 Maccabees "only theology, so not about a real king".
+
 **Model answer:** (a) All three put Antiochus in Persia after a raid on a temple's treasure, and all three see his death far from home as judgment for what he did to Jerusalem. They conflict on how he died (grief, a plague of worms, or stoning by priests) and on the order of events: 1 Maccabees dates his death after the rededication, and 2 Maccabees narrates it before the purification. (b) 1 Maccabees reports, and lets the dying king draw the moral himself. 2 Maccabees 9 shapes the story to display God's measure-for-measure justice. In 1:13–16 the author copies a letter, so what he asserts is that the letter said this, not that its account is exact. (c) The note skips the question of what each author asserts in his genre, since inerrancy attaches to that and not to every detail as a chronicle entry or to every quoted report. That the book is canonical is defined; which death happened is history.
 
 </details>

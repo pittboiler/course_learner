@@ -101,8 +101,11 @@ Now watch the strain. In q.7 a.2 Aquinas allows that such a form, not received i
 **P1** *(Exegetical.)*
 
 **Must hit, strict (a):** (i) **power and its operation** — "an action is properly the actuality of a power"; (ii) **substance or essence and its existence** — "existence is the actuality of a substance or of an essence." Both are act-potency pairs: in each, the second term is the actuality of the first.
+
 **Must hit, strict (b):** the principle is that *actuality is opposed to potentiality, so whatever has any admixture of potency cannot be its own actuality* — with the minor that God alone is pure act. What it establishes: in every creature, acting is really distinct from the power to act and from the creature itself, so no creature is identical with its own operation (or its own existence); a creature can be without acting.
+
 **Wrong turns:** reading "God alone is pure act" as the passage's conclusion — it is a premise, taken from earlier articles, and the conclusion is the last sentence. Treating the passage as *proving* that essence and existence differ in creatures: it leans on that, already shown at I q.3 a.4, and the *sed contra* says so. Inferring that an angel therefore does not understand — the claim is that its understanding is not its substance, not that it has none.
+
 **Model answer:** (a) Power and operation: "an action is properly the actuality of a power." Essence (or substance) and existence: "existence is the actuality of a substance or of an essence." (b) Nothing with any potency in it can be its own actuality, since act and potency are opposed, and God alone has none. So in every creature power, operation and existence come apart: the creature has its acting rather than being it, which is why it can be there without doing anything.
 
 ---
@@ -110,8 +113,11 @@ Now watch the strain. In q.7 a.2 Aquinas allows that such a form, not received i
 **P2** *(Exegetical.)*
 
 **Must hit, strict (a):** (i) **"act" read as activity or effort** — "pure activity," "the busiest being there is," "never resting," "full effort." *Actus* means actuality, not exertion. (ii) **limitation read as quantity, on one scale shared with creatures** — "a little bit actual," "more actual than others," "further along the same line," "the ocean is more water than a cup." This makes the difference between God and us a difference of amount within a common kind, which is univocal God-talk.
+
 **Must hit, strict (b):** against (i): pure act means *no potency*, nothing in God waiting to be actualised — which is why immutability follows from it; busyness is a creature's operation, and operation is distinct from essence in every creature (q.54 a.1, q.77 a.1). Against (ii): the Source makes limitation come from a *receiver*, not from an amount, and the same article denies quantitative infinity of God, since the infinite of quantity is the infinite of matter. God is not more of what we are; he is *esse* not received at all.
+
 **Wrong turns:** calling "God is pure act" itself the error. Answering that God is "not a being at all" — Aquinas's claim is the opposite, that God is subsistent being. Objecting to the ocean image merely for being an image: images are fine, and this one fails because of the single scale it implies. Naming one confusion twice under two labels.
+
 **Model answer:** The first confusion is "act" as busyness — "pure activity," "never resting," "full effort." Pure act means no potency, not high output; that is why q.9 derives immutability from it, and in any case a creature's activity is distinct from its essence and power (q.77 a.1), so busyness measures creatures, not God. The second is quantity on a shared scale — "a little bit actual," "further along the same line," the ocean and the cup. ST I q.7 a.1 makes a thing finite by what receives its act, not by how much it has, and the same article rules out quantitative infinity in God, because the infinite of quantity is the infinite of matter. God is not more of what we are; his being is received into nothing.
 
 ---
@@ -119,8 +125,11 @@ Now watch the strain. In q.7 a.2 Aquinas allows that such a form, not received i
 **P3** *(Apologetic.)*
 
 **Must hit, strict (a) — graded first:** the objection must appear as a real position, not a mistake. Limitation is **intrinsic** to an act: a form or a being is of a certain degree by what it is, so no receiving principle is needed to account for finitude; being admits of intensive degrees, and God is the maximal degree. What it no longer needs to prove: any real composition of essence and *esse* in creatures. The distance between creature and God can be carried by degree alone, so the critic can take the distinction to be formal (Scotus) or conceptual (Suárez) and still deny that any creature is God — and he need not rely on an axiom Aquinas nowhere states in that general form. Credit for noting that the objection concedes God's infinity rather than attacking it.
+
 **Must hit (b):** the reply must run through the Source's claim that being is *the most formal of all things* — *esse* is not one nature among others with degrees of its own, but the act by which any nature is at all; so a limit in it cannot come from what it is, and must come from a receiver. Aquinas's separated-whiteness case is the test: an act in nothing is not thereby one instance among others. The premise the critic denies is exactly premise 4 as the Thomist reads it — that existing is an act of unlimited perfection in itself, rather than a nature that comes in intensities.
+
 **Wrong turns:** answering from authority — that the Church recommends Aquinas, or that the Twenty-Four Theses teach the axiom. The axiom is a school thesis and the recommendation of a master settles no school thesis. Stating the objection as "God is finite" or as a denial of creation. Claiming q.7 a.1 refutes it outright: the article states the Thomist premise rather than proving it against this rival, which is why the dispute is live.
+
 **Model answer:** (a) Finitude needs no explanation outside the act itself. A form or a being has an intrinsic degree, so this angel's being is simply being of that intensity, received or not; God is that same perfection at its maximum. The gain is that no real composition of essence and existence is required to keep creatures from being God — a formal or conceptual distinction suffices — and no general axiom about receiving potencies is needed. (b) The Thomist replies that being is the most formal of all things: *esse* is not a nature with intensities but the act of every nature, so a limit in it has to be imposed by a receiver, as whiteness subsisting in nothing would not be one whiteness among many. The critic denies precisely that premise, and the dispute moves to 2.2.
 
 </details>

@@ -148,9 +148,13 @@ Jeremiah 34:18 (Douay) threatens the men "that have transgressed my covenant ...
 <summary>Solution</summary>
 
 **Must hit, strict (a):** In **Genesis 15, God alone** binds himself. Only the "smoking furnace, and a lamp of fire", figures of God's presence, pass "between those divisions". Abram has fallen into a deep sleep (15:12) and does nothing. The content is a promise: "To thy seed **will I give**". In **Genesis 17, Abraham and his seed** take on an obligation: "thou therefore **shalt keep**", "which you **shall observe**". It has a sign (circumcision) and a sanction: the uncircumcised is "destroyed" (cut off), because "he hath broken my covenant".
+
 **Must hit, strict (b):** passing between the halves is a **self-curse**: whoever passes calls the animals' fate down on himself if he breaks faith, as Jeremiah's covenant-breakers now suffer. In Genesis 15 **only God passes**, so God alone takes the curse on himself, and the promise of land does not rest on Abram's performance.
+
 **Must hit, strict (c):** a **majority scholarly hypothesis** (Gen 17 Priestly, Gen 15 non-Priestly), with no magisterial standing. The *difference* between the chapters is in the text, whatever its source.
+
 **Wrong turns:** reading Genesis 17 as the same covenant told twice. Reading the fire as scenery rather than as the party who passes. Treating (c) as settled, or as Church teaching.
+
 **Model answer:** (a) In Genesis 15 only God acts: the furnace and lamp pass between the pieces while Abram sleeps, and the words are a promise, "To thy seed will I give this land". In Genesis 17 Abraham and his descendants must "keep" and "observe" the covenant through circumcision, on pain of being cut off for having "broken my covenant". (b) Jeremiah shows that whoever walked between the halves invoked the animals' fate on himself if he broke the covenant. Since only God passes in Genesis 15, God alone takes the oath and the curse, and the promise depends on him. (c) A majority source-critical hypothesis, not settled and not Church teaching.
 
 </details>

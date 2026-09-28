@@ -164,9 +164,13 @@ Fee per rollover $= 0.17 \times 500 = 85$ dollars, so ten rollovers cost $10 \ti
 <summary>Solution</summary>
 
 **Must hit, strict (a):** **No.** Signor V. meets every condition of the replies: the moderate legal rate, taken on the title of the law alone, from a borrower who is not poor, with readiness to abide by the Holy See's commands. The 1830 answer said confessors who absolve such penitents are "not to be disturbed", and the 1873 instruction said the title of the law may be held sufficient **in practice** and confessors **may not disturb** such penitents. As a theologian Don P. may still hold that the legal title is no real title, because the replies never declared it valid; what he may not do is impose that opinion as a condition of absolution.
+
 **Must hit, strict (b):** the question **whether the civil law itself creates a real title** (or only a presumption that the usual titles are present). The 1873 instruction said the toleration holds **"so long as this question hangs under judgment"** and the Holy See has not defined it: Rome itself declared the question open, so a confessor cannot treat it as closed by §3.V.
+
 **Must hit, strict (c):** the toleration would **lapse**: it was granted only while the question was pending, and the 1838 reply made absolution conditional on the penitent being **ready to abide by the commands of the Holy See**. Signor V. would be bound by his own stated readiness to stop taking interest on the title of the law alone.
+
 **Wrong turns:** saying the replies declared moderate interest just, so Don P. is simply wrong about the doctrine (they declined to say so). Saying the replies bound only penitents and left confessors free (the 1830 answer and 1873 no. 3 are addressed precisely to confessors). In (c), asserting that the replies prescribe restitution of past interest after such a decision: they say nothing about that.
+
 **Model answer:** (a) No: Signor V. meets the replies' conditions, and from 1830 to 1873 Rome told confessors not to disturb such penitents, since the title of the law may be held sufficient in practice. Don P. may still argue as a theologian that the legal title is no title, since Rome never declared it valid; he may not make that opinion a condition of absolution. (b) He treats as settled whether the civil law can create a real title. Rome said the toleration held "so long as this question hangs under judgment", so the Holy See itself had declared it open. (c) The toleration would end, since it was granted only while the question was pending. Signor V. had promised to abide by the Holy See's commands, so he would be bound to stop taking interest on the title of the law alone.
 
 </details>

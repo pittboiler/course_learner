@@ -107,8 +107,11 @@ The evidence strains both ways. For Ayres, at the Dedication Council of Antioch 
 **P1** *(Exegetical.)*
 
 **Must hit, strict (a):** Ambrose will not celebrate the Eucharist ("offer the sacrifice") if Theodosius intends to be present. The condition is repentance for the massacre: the letter argues that what is barred after one innocent death cannot be allowed after many. He does not pronounce a formal sentence of excommunication in these words; he refuses to celebrate in the emperor's presence.
+
 **Must hit, strict (b):** "commend privately … rather than … in public" and "writing with my own hand that which you alone may read". They show the rebuke was delivered as a private, handwritten letter, deliberately kept out of public view. So the letter gives no support to a public confrontation at the door, and it fits McLynn's view that the scene is a later dramatization. It does not by itself prove that no meeting at the church ever happened.
+
 **Wrong turns:** saying Ambrose excommunicated the emperor by name in this letter; claiming the letter disproves the penance, which is attested elsewhere; treating Theodoret, writing about sixty years later, as an equal witness to Ambrose's own letter.
+
 **Model answer:** (a) Ambrose says he will not offer the Eucharistic sacrifice if Theodosius means to attend. The condition is that the emperor repent, since what would bar a man after one innocent death cannot be allowed after many. (b) "Commend privately … rather than … in public" and "you alone may read" show a deliberately private, handwritten rebuke. That tells against Theodoret's public scene at the church door, though it cannot prove no meeting there ever took place.
 
 ---
@@ -116,8 +119,11 @@ The evidence strains both ways. For Ayres, at the Dedication Council of Antioch 
 **P2** *(Exegetical (a) · Evaluative (b).)*
 
 **Must hit, strict (a):** the premise that the anti-Nicene bishops formed **one continuous party with a shared theology derived from Arius**. Evidence: Antioch 341's "We have not been followers of Arius"; the Homoian creed of 359 avoided Arius's own claims; Nicaea's creed was little invoked until the 350s, when Athanasius made *homoousios* the test. Any two.
+
 **Must hit, any verdict (b):** say what the name gets right or wrong. It is Athanasius's polemical label, but there was a real alignment that readmitted Arius and enforced the 359 creed. Then say what the name costs or buys: clarity against distortion. Either verdict passes.
+
 **Wrong turns:** saying Ayres denies that the dispute happened or that the Homoians existed; treating Jerome's "find itself Arian" as neutral evidence (it is the winning side's retrospect); answering (b) with no reason.
+
 **Model answer (one of several):** (a) He denies that one Arian party, with a theology inherited from Arius, ran from 318 to 381. Antioch's bishops in 341 disowned being "followers of Arius", and the 359 creed did not adopt Arius's claims. (b) Usable with care. The name records the winners' framing, but the Homoian coalition was real enough to depose Nicaea's defenders and impose its creed, so "Arian controversy" in quotation marks, with "Homoian" for the 359 party, keeps the period's name without pretending it was one sect.
 
 ---
@@ -125,8 +131,11 @@ The evidence strains both ways. For Ayres, at the Dedication Council of Antioch 
 **P3** *(Exegetical (a) · Evaluative (b).)*
 
 **Must hit, strict (a):** (i) the vote was not close. Of roughly 250–300 bishops, only two, Secundus and Theonas, refused to sign and were exiled with Arius. The question was not whether to honour Christ as divine at all, but whether the Son was of one substance with the Father (one line; `trinity-and-god` 3.1). (ii) No canon, creed or reliable report has Nicaea deciding which books belonged in the Bible. Its known business was the creed, the date of Easter, the Melitian schism and twenty disciplinary canons. No source reports the bishops being locked in.
+
 **Must hit, any verdict (b):** concede what is true: emperors convened, enforced, exiled, and in 380 made one faith law. Test it against the record: Constantius imposed the 359 creed and it was repudiated after his death; Julian and Valens pulled the other way; Ambrose made Theodosius do penance in 390. Then say whether "whatever the emperor believed" survives.
+
 **Wrong turns:** "correcting" the script by saying the emperor had no influence at all; arguing about whether Nicaea's doctrine was true (not asked); counting the eastern Homoian majority of 359–360 as proof the emperor always won, without noting it collapsed.
+
 **Model answer (one of several):** (a) Only two bishops of about 250–300 refused to sign, so the vote was not close, and the question was how the Son is divine, not whether. No source has Nicaea choosing gospels. Its business was the creed, Easter, a schism in Egypt and twenty canons. (b) Half true. Emperors called councils, exiled bishops and, in 380, made Nicene faith law. But Constantius's 359 creed was his own belief imposed by force, and it was abandoned once he died. Julian and Valens reversed their predecessors, and Ambrose made Theodosius repent. Emperors decided who held a see for a time, not what the Church believed.
 
 </details>
@@ -139,8 +148,11 @@ The evidence strains both ways. For Ayres, at the Dedication Council of Antioch 
 <summary>Solution</summary>
 
 **Must hit, strict (a):** (i) Nothing: anonymous accusations are to be rejected, and the governor is not to go looking for Christians. (ii) Pardon: anyone who sacrifices is pardoned, whatever their past. (iii) Punishment: he is accused by a named person, convicted by his own confession, and persists.
+
 **Must hit, strict (b):** Sherwin-White: for obstinacy (*contumacia*). Refusing a magistrate's repeated order was defiance of Roman authority, intolerable in itself. De Ste. Croix: for the name. Being a Christian was the offence, and the refusal to sacrifice only revealed it. Behind it lay the religious fear that Christian "atheism" endangered the *pax deorum*.
+
 **Wrong turns:** having the governor investigate the list, which is exactly the hunting Trajan forbids; punishing the woman for having been a Christian; swapping the two historians; citing a general law against Christianity in 112 (there was none until the middle of the third century).
+
 **Model answer:** (a) (i) Ignore the list: anonymous accusations have no place, and Christians are not to be sought out. (ii) Release her: sacrifice earns pardon, whatever she was before. (iii) Punish him: he was properly accused, confessed, and persisted. (b) For Sherwin-White, he is punished for obstinacy, since refusing a magistrate's order three times is defiance of Roman authority. For de Ste. Croix, he is punished for being a Christian, and his refusal only confirms the charge; the underlying fear was that such "atheists" disturbed the peace of the gods.
 
 </details>

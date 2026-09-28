@@ -98,22 +98,31 @@ Even Peter's "seventy times seven" offences, each as large as the fellow servant
 **P1** *(Formal (a) · Exegetical (b).)*
 
 **Must hit, strict (a):** $10{,}000 \times 6{,}000 = 60{,}000{,}000$ denarii; $60{,}000{,}000 / 100 = 600{,}000$, so the ratio is 600,000 to 1. Years: $60{,}000{,}000 / 300 = 200{,}000$ years of labour. State the assumptions (the Attic talent of 6,000 drachmae with a drachma taken as a denarius; the Challoner note gives the same figure, 750 ounces at 8 pence to the ounce).
+
 **Must hit, strict (b):** Counting offences becomes pointless: no number of small debts owed to you comes near the one you were released from (even 490 debts of 100 denarii are about 0.08% of it). The rule is 18:35 (or 18:33, "even as I had compassion on thee").
+
 **Wrong turns:** dividing 10,000 by 100 and forgetting the conversion (answer 100 to 1). Reading (b) as "forgive exactly 490 times": 18:22 abolishes the count.
+
 **Model answer:** (a) $10{,}000 \times 6{,}000 = 60{,}000{,}000$ denarii against 100: a ratio of $600{,}000 : 1$, or 200,000 years of labour at 300 days a year. (b) Peter wants a ceiling on forgiving, and the parable shows that any ceiling is absurd, since all the debts others could owe him are a rounding error beside what he has been released from. The rule comes in 18:33–35: forgive as you were forgiven, from the heart.
 
 **P2** *(Exegetical.)*
 
 **Must hit, strict (a):** The words fit **all three** readings. "Forasmuch as he had done wisely" (*phronimōs*) places the praise on his foresight, not on the justice of the reductions, and "unjust steward" can refer to the waste of 16:1–2. The passage by itself does not decide between the readings. An answer that says it supports only fraud has to explain the ratification; one that says it supports only usury is importing background.
+
 **Must hit, strict (b):** It needs evidence from outside the text: that bonds were written in commodities with interest built in (Derrett's rabbinic evidence), and that such evidence applies to Jesus's time. Nothing in 16:5–7 mentions interest, a principal or a rate.
+
 **Wrong turns:** taking "the lord" as certainly Jesus. Treating the 100% and 25% markups as data from the text; they are what the usury reading infers.
+
 **Model answer:** "Commended ... forasmuch as he had done wisely" praises prudence, not honesty, so it fits all three readings: fraud praised for foresight, a cut forgone, or usury cancelled. "Unjust steward" does not settle it either, because it can label his earlier waste (16:1). The text tells us only that the bonds were rewritten at the steward's direction. The usury reading needs what the passage lacks: evidence that such bonds hid interest in the commodity amounts, and that the practice held in Jesus's day. Without that, 50 and 20 are simply reductions.
 
 **P3** *(Exegetical.)*
 
 **Must hit, strict (a):** Maps (any three): a large debt released by the superior after a plea; the forgiven man then pressing a far smaller debt against a peer; coercive collection (garnishment for throttling and prison); fellow servants reporting to the master. Does not map (any two): the ratio (about 267 to 1, not 600,000); the owner is not God, and the parable's king stands for the Father (18:35); a lawful court claim is not throttling; the story's revocation and torturers have no counterpart.
+
 **Must hit, strict (b):** It judges the heart of one forgiven who will not forgive (18:35); it does not rule on whether a lawful small claim is itself unjust.
+
 **Wrong turns:** treating the owner as God. Concluding that the parable forbids all lawsuits.
+
 **Model answer:** (a) Maps: a huge debt forgiven on a plea; the forgiven man then exacting a small debt from a peer; peers reporting him. Doesn't map: the owner is not the Father of 18:35, and 80,000 to 300 is about 267 to 1, not 600,000 to 1. (b) The parable judges a heart that received mercy and refuses it to others; it does not say whether a lawful 300-dollar claim is unjust in itself.
 
 </details>

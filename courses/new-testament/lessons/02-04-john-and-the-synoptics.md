@@ -160,8 +160,11 @@ Assume Markan priority (a hypothesis). (a) List three changes Matthew makes to M
 <summary>Solution</summary>
 
 **Must hit, strict (a):** any three: **two animals** (an ass and a colt) where Mark has one colt, with the plurals that follow ("them", "hath need of them"); the **formula quotation** added by the narrator (21:4–5, one of the ten); Mark's "**upon which no man yet hath sat**" dropped; Jesus set on "them" rather than "him". The words that account for the second animal: "**riding upon an ass, and upon a colt, the foal of an ass**". Matthew reads the two lines of the verse as naming two animals.
+
 **Must hit, strict (b):** **No.** Zechariah 9:9 is already forward-looking ("will come to thee"): an oracle of a coming king, so it is closer to prediction than Hosea's memory of the Exodus. Yet on Markan priority Matthew fulfils it **to the letter**, matching the event to both lines of the verse, so "fulfil" means filling the text full, word for word, not merely noting that a forecast came true. Credit the counter-reading that an unbroken colt would naturally come with its mother, so Matthew may be specifying rather than adding; the direction of dependence stays a hypothesis.
+
 **Wrong turns:** listing "no man yet hath sat" as a Matthean addition; it is Mark's, and Matthew drops it. Building on "made him sit thereon" as proof that Jesus rode both animals at once: the Greek says he sat "upon them", which may mean the garments. Calling the quotation purely typological because most of Matthew's are. (Credit noticing that "Tell ye the daughter of Sion" is not Zechariah's opening; it matches Isaiah 62:11, so the citation is composite, like 27:9.)
+
 **Model answer:** (a) Matthew has an ass and a colt where Mark has one colt, he drops "upon which no man yet hath sat", and he adds the narrator's "that it might be fulfilled" quotation. The second animal answers Zechariah's "riding upon an ass, and upon a colt, the foal of an ass", read as two beasts. (b) No: Zechariah 9:9 announces a king who "will come", so it looks forward in its own setting, unlike Hosea 11:1. Even so, Matthew makes the scene match each line of the verse, which shows that for him fulfilment means the text filled to its full measure, not just a prediction checked off.
 
 </details>

@@ -99,7 +99,9 @@ Identify every factual error, correct each from the record, and name the assumpt
 (b) $533/535 = 0.99626\ldots \approx$ **99.6 percent** *placet*. Attendance fell by $601 - 535 =$ **66**.
 
 **Must hit, strict (c):** the 66 is a *net* figure. It equals departures minus arrivals, and some who had not voted on 13 July (among the letter's roughly 70 abstainers, and Italian bishops recalled for the session, as the hostile correspondent Quirinus reports) voted on the 18th. So it cannot count the minority's departures, and the 533 to 2 result cannot be read as the council's opinion with the minority present.
+
 **Wrong turns:** dividing by 774 (everyone who attended at some point) or by the roughly 1,050 entitled to attend. Reading 25 percent as "a quarter opposed the definition": the 62 conditional votes were yes votes that asked for amendments. Treating 66 as the number who walked out.
+
 **Model answer (c):** The fall of 66 is net: some bishops left, and others who had not voted on 13 July took their seats, so it undercounts the departures. It measures who was in the hall on the 18th, not what the council thought on the 13th.
 
 ---
@@ -107,7 +109,9 @@ Identify every factual error, correct each from the record, and name the assumpt
 **P2** *(Exegetical.)*
 
 **Must hit, strict:** four errors. (1) Pius did not back down; he refused every appeal and raised the boy under his patronage. (2) Edgardo was not returned in 1859. He stayed in Rome, left after 1870, became a priest and died in Belgium in 1940. (3) Feletti was tried in 1860 and **acquitted**, as having acted under the government of the day. (4) There was no apology in 2000. That year Pius IX was **beatified**, and the Mortara family and Jewish groups protested; the Church has made no statement on the case. The shared assumption is that the story ended in restitution: that outrage and the change of government undid the seizure. In fact the seizure stood.
+
 **Wrong turns:** "correcting" the true parts (the seizure was in Bologna in 1858, he was six, and the claim was a secret baptism by a servant). Adding a moral verdict on the seizure, which the question does not ask for.
+
 **Model answer:** Pius did not back down; he refused all appeals and kept Edgardo. The boy was never returned: he grew up in Rome, became a priest, and died in Belgium in 1940. Feletti was tried in 1860 and acquitted as having acted for the government of the time. There was no apology in 2000; that was the year Pius IX was beatified, and Jewish groups and Mortara's family protested. The placard assumes the story ended in restitution, as if outrage and Bologna's change of ruler reversed the seizure. The seizure stood.
 
 ---
@@ -115,8 +119,11 @@ Identify every factual error, correct each from the record, and name the assumpt
 **P3** *(Exegetical (a) · Evaluative (b).)*
 
 **Must hit, strict (a):** they stay away out of filial piety and reverence, unwilling to say *non placet* to the pope's face in a cause touching his person, and they must return to their flocks. They say nothing has changed their view, and they formally renew and confirm the votes of 13 July.
+
 **Must hit, any verdict (b):** separate *freedom to vote* from *freedom from pressure*. Use the letter's own evidence: the signers voted *non placet* on 13 July and renew it in writing, and they give reverence, not threat, as their reason for leaving. Weigh the pressure the letter does not record: Pius's own advocacy of the definition, the refusal of their envoys' last requests, and the closing of debate. Say what would move the question: evidence of sanctions for opposing votes, or the minority bishops' private correspondence.
+
 **Wrong turns:** treating departure as proof of coercion without evidence of a threat, or 533 to 2 as proof of consent. Deciding the definition's validity, which is [`ecclesiology-and-mariology`](../../ecclesiology-and-mariology/syllabus.md)'s question.
+
 **Model answer (b), one of several:** The departure shows a minority that could vote freely and did: 88 said *non placet* on 13 July, and the letter renews that vote in writing. Nothing in it claims they were forbidden to vote again; their stated reason is reverence. That favours Schatz on the narrow question of the vote. Hasler's point is about pressure, not prohibition. The pope was a party to the question, lobbied for it, and turned down the minority deputation's last appeal, and the letter itself says reverence kept them from saying *non placet* "to our father's face". So the departure shows a council free to vote but not neutral in atmosphere. Whether that reaches "unfree" depends on evidence of sanctions, which the letter does not supply.
 
 </details>
@@ -129,8 +136,11 @@ Identify every factual error, correct each from the record, and name the assumpt
 <summary>Solution</summary>
 
 **Must hit, strict (a):** (i) The Holy Office's theological consultors; advice, never published. They judged the sun's immobility absurd in philosophy and formally heretical, and the earth's motion absurd and at least erroneous in faith. (ii) The Congregation of the Index, with Paul V's approval; a disciplinary decree. It called the doctrine false and wholly contrary to Scripture, suspended Copernicus's *De revolutionibus* until corrected, prohibited Foscarini's book and banned others teaching the same; Galileo was not named. (iii) The cardinals of the Holy Office sitting as judges (seven of ten signed); a judicial sentence. It found Galileo vehemently suspected of heresy, required his abjuration, banned the *Dialogue* and imposed formal imprisonment. (iv) The Holy Office, with Pius VII's approval; a permission. It allowed books teaching the earth's motion generally, after Settele's case of 1820.
+
 **Must hit, strict (b):** the claim fails twice. The only 1616 text to use "formally heretical" was the unpublished consultors' opinion, and it attached that word to the sun's immobility, calling the earth's motion only "at least erroneous in faith". The published decree said "false" and "contrary to Scripture", not heresy.
+
 **Wrong turns:** treating (i) as the Church's public act; calling (iii) a conviction for heresy (vehement suspicion is the middle of three grades); saying (iv) took Copernicus off the Index (that came with the 1835 edition); calling any of the four a council or a papal definition.
+
 **Model answer:** (a) (i) Holy Office consultors, unpublished advice: the sun's immobility formally heretical, the earth's motion at least erroneous in faith. (ii) The Index, a decree Paul V approved: the doctrine false and contrary to Scripture, Copernicus suspended until corrected, Foscarini banned. (iii) The Holy Office cardinals as judges, a sentence: Galileo vehemently suspected of heresy, made to abjure, the *Dialogue* banned. (iv) The Holy Office with Pius VII's approval, a permission: such books allowed generally. (b) The word "heretical" appears only in the unpublished advice, and there it is applied to the sun standing still, while the earth's motion is called erroneous in faith. The decree that was published called the doctrine false and contrary to Scripture, which is a grave censure but not a declaration of heresy.
 
 </details>

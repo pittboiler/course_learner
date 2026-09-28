@@ -99,8 +99,11 @@ Descriptive relativism: confirmed, vividly. But look at what each side is doing.
 **P1** *(Exegetical — strict.)*
 
 **Must hit, strict (a):** descriptive: "no two agree on marriage, punishment, or what is owed to strangers"; metaethical: "no moral truth out there, only what each people has decided is true for itself"; normative: "guilty of arrogance … we should stop judging practices."
+
 **Must hit, strict (b):** the step from variation to "no moral truth" (argument A, premise 2 suppressed): disagreement does not entail absence of truth, as disagreement over medicine shows. Credit also for noting the second invalid step: the normative conclusion is a non-relative moral claim the metaethical premise cannot support.
+
 **Wrong turns:** classing "arrogance" as descriptive; saying the argument fails because the anthropology is false (the premise may well be true).
+
 **Model answer:** (a) Descriptive: "no two agree on marriage, punishment…"; metaethical: "no moral truth… only what each people has decided is true for itself"; normative: "we should stop judging." (b) The load-bearing step runs from diversity to no truth, and needs the hidden premise that truth would produce agreement, which fails for astronomy and medicine. The last step also fails: if all moral truth is relative, "don't judge" binds only cultures that accept it, so the lawyers' home culture may rightly judge.
 
 ---
@@ -113,6 +116,7 @@ Descriptive relativism: confirmed, vividly. But look at what each side is doing.
 - An assessment of whether the disanalogy holds (e.g. some scientific disputes persisted for centuries among the informed; or much apparent moral disagreement rests on non-moral beliefs, as with the Callatiae).
 
 **Wrong turns:** using a matter of taste (which may really be relative) as the counterexample; giving a moral case, which begs the question.
+
 **Model answer (one of several):** For centuries, informed physicians across cultures disagreed about whether disease spreads by miasma or contagion. The truth was not relative to Galenic or Chinese medicine; some were wrong. So persistent disagreement does not entail relativity. The relativist's best disanalogy: medical disputes ended when evidence arrived, while moral disputes persist among people who agree on every fact, so no evidence of the relevant kind seems available. That partly holds. But much moral disagreement does turn on non-moral beliefs (about souls, bodies, consequences), and the disanalogy then shows that moral knowledge is harder to get, not that there is nothing to get.
 
 ---
@@ -120,8 +124,11 @@ Descriptive relativism: confirmed, vividly. But look at what each side is doing.
 **P3** *(Exegetical (a) · Evaluative (b).)*
 
 **Must hit, strict (a):** the equal weight view: give the peer's judgment the same weight as your own, so each should move substantially toward the other or suspend judgment. Discounting requires a reason independent of the disagreement itself: evidence that the other is tired, biased, missing information, or has erred in reasoning on this occasion.
+
 **Must hit, any verdict (b):** a verdict; one objection stated fairly; the conciliationist's best reply to it; a judgment on whether the reply works.
+
 **Wrong turns:** discounting the peer because her conclusion is wrong (question-begging); treating suspension as a claim that there is no fact about meat-eating.
+
 **Model answer (b), one of several:** No, not with undiminished confidence. Self-undermining objection: conciliationism is itself contested among peers, so it recommends doubting itself. Reply: a principle about how to respond to evidence can coherently exempt itself, as a rule for updating need not be revisable by its own application (Elga has argued along these lines). That reply looks ad hoc unless the exemption is independently motivated. Still, even if conciliationism fails as a universal rule, disagreement from a known peer is some evidence I may be wrong. So some reduction of confidence is warranted, though not necessarily full suspension.
 
 </details>
@@ -140,8 +147,11 @@ Descriptive relativism: confirmed, vividly. But look at what each side is doing.
 <summary>Solution</summary>
 
 **Must hit, strict (a):** both clauses in P1 ("gambling is wrong," "running the state lottery is wrong") are unasserted, since the speaker commits only to the conditional. On Blackburn's account P1 expresses a higher-order attitude: disapproval of the combination of disapproving of gambling while not disapproving of running the lottery.
+
 **Must hit, strict (b):** P2 and C must express *some* attitude toward lotteries and gambling, and the expressivist must explain why "running the lottery is not wrong" is inconsistent with "running the lottery is wrong" as a logical matter, not merely as a clash of attitudes. Mark Schroeder (*Being For*, 2008) pressed this as the negation problem: disapproval has one place for "not," while a belief's structured content has several.
+
 **Wrong turns:** calling P2 unasserted (it is asserted, though negated); answering (b) with Hale's point that a clash of attitudes is not a logical inconsistency, which concerns the conditional, not negation.
+
 **Model answer:** (a) Both clauses in P1 are unasserted; Blackburn reads P1 as disapproving of anyone who disapproves of gambling but tolerates the lottery. (b) "Not wrong" has to express tolerance, and the view must explain why tolerating and disapproving of the same thing are logically inconsistent rather than just in tension. Schroeder argued that a single attitude like disapproval has too little structure to place the negation, since "thinks not-wrong" and "thinks wrong not to" need different homes.
 
 </details>

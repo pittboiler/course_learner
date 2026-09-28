@@ -155,8 +155,11 @@ Follow the logic without importing a verdict. Aristotle's criteria sort people b
 <summary>Solution</summary>
 
 **Must hit, strict (a):** reading (ii). The deciding words are "if there be a difference in the individual" (a failed match is openly contemplated) and "come back to the State and have another trial of the theory" (a mismatch sends the inquiry back to revise the city, not just the soul). "if they were the same" at 368d confirms that the sameness was conditional from the outset.
+
 **Must hit, strict (b):** it pulls toward (i). The principle that things called by the same name are alike in that respect makes the soul's justice match the city's before the soul has been examined. So the hypothesis is tested against a premise that already favours a match. (Book IV then does argue separately for three parts of the soul, 436b–441c, which is the real test.)
+
 **Wrong turns:** choosing (i) because the argument does in fact find a match; the passage is about method, not outcome. Treating "come back to the State" as a retreat from the soul rather than a revision of the city.
+
 **Model answer:** (a) Reading (ii). "If there be a difference in the individual" allows that the match could fail, and "come back to the State and have another trial" makes the city's account revisable in that case; 368d's "if they were the same" was already conditional. (b) It pulls toward (i). If things sharing a name are alike in that respect, the soul's justice must resemble the city's before we look. The independent test is the argument for the soul's three parts that follows.
 
 </details>

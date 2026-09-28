@@ -144,8 +144,11 @@ Three Greek phrases decide how this is read. *Hermēneutēs Petrou* is "Peter's 
 <summary>Solution</summary>
 
 **Must hit, strict (a):** Year 1 is 37 BC, so year 18 is $37 - 17 =$ **20 BC**. There is no year zero, so write 20 BC as the astronomical year $-19$. Then $-19 + 46 = 27$, which is **AD 27**. Equivalently, $46 - 20 + 1 = 27$.
+
 **Must hit, strict (b):** **Yes.** AD 27 lies inside 26 to 33/34 and inside Pilate's 26–36. It is a **historians' reconstruction**, built on Josephus's regnal count and on one reading of John's phrase. It has **no magisterial standing**: neither the Creed nor Dei Verbum 19 fixes any date.
+
 **Wrong turns:** $37 - 18 = 19$ BC, which forgets that 37 BC is itself year 1. $46 - 20 = 26$, which forgets there is no year zero. Presenting AD 27 as exact: other counting conventions move it by a year, which is why it is a reconstruction. Treating it as the year of the crucifixion; John sets this scene at the first Passover of the ministry.
+
 **Model answer:** (a) Year 18 of a reign whose year 1 is 37 BC is 20 BC. With no year zero, 20 BC is $-19$, and $-19 + 46 = 27$, so AD 27. (b) Yes: 27 falls inside both the Luke 3:1–2 window and Pilate's term. It is a reconstruction from Josephus and John on stated counting conventions, not Church teaching.
 
 </details>

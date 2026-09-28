@@ -99,15 +99,21 @@ Name **three** errors of fact or of level, and correct each from this lesson. **
 **P1** *(Exegetical)*
 
 **Must hit, strict (a):** a gloss such as "anointed one" or "installed agent". It means someone God has **commissioned for a task**, in the royal idiom of anointing, **not** "the Messiah" as a fixed future title. The two phrases: "**For the sake of my servant Jacob, and Israel my elect**" (the commission serves Israel), and "**thou hast not known me**" (Cyrus is used without knowing Israel's God). Also acceptable: "that thou mayest know that I am the Lord", which marks the knowledge as a purpose not yet achieved.
+
 **Must hit, strict (b):** the Greek *Kyrō* (to Cyrus) was miscopied as *Kyriō* (to the Lord), which turned "my anointed, Cyrus" into "Christ, my Lord". It **cannot be the literal sense**, because it rests on a corrupt text. The Hebrew names Cyrus (*le-Koresh*). A typology that keeps Cyrus as Cyrus remains open.
+
 **Wrong turns:** translating *mashiach* as "Messiah" and concluding that the prophet calls Cyrus the Messiah. Treating Barnabas's reading as a legitimate spiritual sense of the correct text, when it is a reading of a different, corrupted text.
+
 **Model answer:** (a) *Mashiach* is "anointed one": a king God has installed and commissioned, here to overthrow nations "for the sake of my servant Jacob". Cyrus serves a God he does not recognise: "thou hast not known me". (b) A scribe wrote *Kyriō*, "Lord", for *Kyrō*, "Cyrus", and the Christian reading built on the slip. The Hebrew names Cyrus, so this cannot be the literal sense.
 
 **P2** *(Exegetical (a) · Evaluative (b))*
 
 **Must hit, strict (a):** **Deuteronomy 23:3** excludes the Moabite from "the church of the Lord for ever". **Ezra 9:1–2 and 10:3** list Moabites among the peoples of the land, call the marriages a mingling of "the holy seed", and vow to "put away all the wives, and such as are born of them". **Ruth 1:16–17** has a Moabite woman take Israel's people and God as her own ("thy God my God"), and **4:17** makes her David's great-grandmother. **Mishnah *Yevamot* 8:3**: the exclusion binds Ammonite and Moabite **men**, while their women may enter at once. So Ruth breaks no law.
+
 **Must hit, any verdict (b):** both positions. **For** the counter-voice reading: a Persian-period date, the book's insistence on "Ruth the Moabitess", and the Davidic payoff. **Against**: arguments from language for an earlier date, and a story whose stated purpose is David's ancestry, with no polemic signalled. Then the canonical point: whatever the author intended, the canon now sets Ruth beside Ezra, and a reader must hold both (1.4).
+
 **Wrong turns:** stating the counter-voice reading as settled. Saying the Mishnah "refutes" Ezra, when it harmonises Ruth with Deuteronomy on its own terms. Claiming Ezra 10 is Church teaching on marriage.
+
 **Model answer (b), one of several:** Ruth is at least *usable* as a counter-voice, and probably meant as one. The book keeps calling her "the Moabitess", in a way that seems to press on exactly the question Nehemiah 13 raises, and its ending makes a Moabite convert the root of David's house. Against this, its Hebrew has been argued to be early, and it never alludes to Ezra. A story about David's ancestors needs no opponent. The date cannot be fixed, so the intent stays uncertain. But canonically the question matters less. The Church received both books, so a reader cannot take Ezra 10 as the whole word on outsiders, and Matthew 1:5 shows the New Testament already reading Ruth that way.
 
 **P3** *(Exegetical)*
@@ -117,7 +123,9 @@ Name **three** errors of fact or of level, and correct each from this lesson. **
 2. "**First charter of human rights**" is a modern slogan. The text is Babylonian royal propaganda that credits Marduk.
 3. The **Church teaches nothing** about the edict's authenticity. That is a historical question with no magisterial level. Scholars debate whether the Hebrew edict or the Aramaic memorandum (Ezra 6:3–5) is closer to a Persian original.
 4. **458 is disputed.** If "Artaxerxes" in Ezra 7:7 is Artaxerxes II, Ezra came in 398, after Nehemiah (van Hoonacker). "Every historian agrees" is false. 445 for Nehemiah is well supported.
+
 **Wrong turns:** "correcting" the script by saying the Cylinder is a forgery or irrelevant. It is genuine and relevant as evidence of the policy. Swapping one overstated date for another, for example asserting 398 as fact.
+
 **Model answer:** The Cylinder never names Jews or Jerusalem. It records Cyrus restoring gods and peoples to Babylonian sanctuaries, which fits the policy behind Ezra 1 but is not that decree, and "human rights charter" is a modern label. The Church has no teaching on whether Ezra 1 is verbatim; that is historians' work, and many prefer the Aramaic memo of Ezra 6. Nehemiah's 445 is well supported, but Ezra's 458 is disputed: if the king was Artaxerxes II, Ezra came in 398, after Nehemiah.
 
 </details>
@@ -136,8 +144,11 @@ Name **three** errors of fact or of level, and correct each from this lesson. **
 <summary>Solution</summary>
 
 **Must hit, strict (a):** In **8:5–7 the people initiate**: the elders ask for a king "as all nations have". God reads the request as **rejecting him** ("not rejected thee, but me, that I should not reign over them"), yet he tells Samuel to "hearken" and grant it. In **9:16 God initiates**: "I will send thee", "thou shalt anoint him". The king is **God's gift**, a deliverer ("he shall save my people") sent out of compassion ("their cry is come to me", the language of Exodus 3:9).
+
 **Must hit, strict (b):** (i) is a **scholarly hypothesis** about the book's composition, widely held and with no magisterial standing. (ii) is a reading of the **literal sense of the final text**, which holds both attitudes in one story. The two do not compete: one explains how the tension arose, the other what the book as it stands says.
+
 **Wrong turns:** reading 8:7 as God refusing a king, when he orders Samuel to grant one. Merging the "cry" of 9:16 (the Philistine oppression) with the elders' request of 8:5 (to be like the nations). Treating (i) as proven, or as a threat to inspiration.
+
 **Model answer:** (a) In chapter 8 the elders ask for a king to be like the nations, and God calls it a rejection of his own rule, though he tells Samuel to grant it. In 9:16 God himself sends and anoints the king to rescue his people, because their "cry is come" to him, as in the Exodus. (b) The two-strands theory is a scholarly hypothesis about how 1 Samuel was put together, with no magisterial weight. The concession-adopted reading describes what the final text says. It is a literal-sense reading and does not depend on any source theory.
 
 </details>

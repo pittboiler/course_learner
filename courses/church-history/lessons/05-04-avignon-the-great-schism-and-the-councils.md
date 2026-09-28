@@ -86,7 +86,9 @@ Identify three claims in the placard that the passage or the lesson does not sup
 **P1** *(Exegetical.)*
 
 **Must hit, strict:** any three of: (1) **"every matter"**: the text limits the duty of obedience to matters of "the faith and the healing of the said schism, and … the general reformation of the Church … in head and members." (2) **"said nothing of future councils"**: the second clause extends the penalty to disobedience toward "any other general council, legitimately summoned." Whether the council meant a *standing* rule is the disputed question, but the placard's statement about the text is false. (3) **"binding Catholic dogma"**: the decree's standing is disputed, and assigning it a doctrinal level is an overstatement (fundamental-theology's ladder; ecclesiology-and-mariology 4.2). (4) **"Martin V confirmed it"**: stated flatly, this goes beyond the record. His approval of what the council did "in a conciliar way" is ambiguous and is itself part of the dispute. "Emergency measure" alone is one of the rival readings, so it counts as an error only if the answer says the placard presents it as settled.
+
 **Wrong turns:** treating the placard's "emergency measure" as plainly true or plainly false; saying the text claims authority over the pope in nothing at all.
+
 **Model answer:** First, the text gives the council authority only in matters of faith, ending the schism, and general reform "in head and members," not every matter. Second, the decree does speak beyond Constance: it threatens anyone who disobeys "any other general council, legitimately summoned." Whether that was meant as a lasting rule is disputed, but the text names future councils. Third, "binding dogma ever since" assigns a doctrinal level the record does not support. The decree's standing is disputed: it may have been a standing rule, an emergency act, or invalidly enacted by one obedience. Martin V's approval of what was done "conciliariter" does not clearly cover it.
 
 ---
@@ -94,8 +96,11 @@ Identify three claims in the placard that the passage or the lesson does not sup
 **P2** *(Exegetical.)*
 
 **Must hit, strict (a):** Urbanist: the cardinals' acts after the vote were free, so the repeated vote, the enthronement, the coronation of 18 April, the petitions for favours and the letters to princes ratified the election even if the vote itself was pressured. Clementist: the fear lasted as long as they were in Rome, so none of those acts was free, and only once outside the city (Anagni) could they speak freely.
+
 **Must hit, strict (b):** evidence of what cardinals did or wrote when they were beyond the crowd's reach. Examples: private letters, and whether the cardinals who left Rome in early summer went on treating Urban as pope before the August declaration. The six cardinals at Avignon, who recognized Urban on their colleagues' report, show how the election was first described. Also evidence about timing and motive: did the reversal follow Urban's abuse of the cardinals rather than any new danger?
+
 **Wrong turns:** making Urban's harsh character the crux (a valid pope does not become invalid by being unpleasant, and both sides knew it); arguing only about the noise on 7–8 April while ignoring the weeks after.
+
 **Model answer:** (a) Urbanists must hold that the cardinals were free after the vote, so months of acknowledgement ratified it. Clementists must hold that fear persisted until they left Rome, so none of it counts. (b) Letters and acts from cardinals once outside the crowd's reach, for instance at Anagni before August, would test the fear claim. So would evidence that the reversal tracked Urban's conduct rather than any threat.
 
 ---
@@ -103,7 +108,9 @@ Identify three claims in the placard that the passage or the lesson does not sup
 **P3** *(Evaluative.)*
 
 **Must hit, any verdict:** separate the **arrest** (28 November 1414, before Sigismund arrived, which Bohemians at once called a breach) from the **execution** (6 July 1415, after trial). Say who granted the safe-conduct (Sigismund, a secular ruler) and who judged (the council). State the rival reading of what the safe-conduct covered: a guarantee of travel against unlawful violence, or protection from judgment. Note that Sigismund acquiesced by January 1415 and that the council's decree denying that safe-conducts bar heresy trials came *after* the burning (23 September 1415). A verdict either way passes if these moves are made. Mentioning John Paul II's regret (1999) is acceptable only after the facts, not in place of them.
+
 **Wrong turns:** treating "lured" as established intent (the record shows Hus came willingly, hoping to persuade the council); saying the pope issued the safe-conduct; citing the September 1415 decree as the ground on which Hus was tried.
+
 **Model answer (one of several):** The core is true. Hus travelled under Sigismund's safe-conduct, was imprisoned within weeks, and was burned. But the claim blurs two acts. The arrest in November 1414 came before Sigismund reached Constance, and Bohemians protested it at once as a breach. The execution followed a heresy trial, and defenders held the safe-conduct guaranteed lawful passage, not immunity from a church court. That the council formally stated this only in September 1415, after the burning, weakens the defence. "Lured" also overstates: Hus came willingly, expecting to argue his case. Verdict: a breach of the safe-conduct's evident purpose, which contemporaries themselves recognized, but not a premeditated trap.
 
 </details>
@@ -116,8 +123,11 @@ Identify three claims in the placard that the passage or the lesson does not sup
 <summary>Solution</summary>
 
 **Must hit, strict (a):** *Quo elongati* (Gregory IX): overruled **Francis's *Testament***, declared not binding on the order, and let friars use a go-between (*nuntius*) to handle money. *Parens scientiarum* (Gregory IX): overruled the **bishop's chancellor** and backed the masters against the town and crown after the 1229 strike. The chancellor had to license qualified candidates, and the masters could make statutes and suspend lectures. *Quasi lignum vitae* (Alexander IV): overruled the **secular masters' guild** and ordered the friars readmitted to the Paris corporation. *Ad conditorem canonum* (John XXII): overruled the **Franciscan order's legal arrangement** by renouncing papal ownership of its goods.
+
 **Must hit, strict (b):** *Quasi lignum vitae* set aside **Innocent IV's curbs** on the friars' pastoral privileges (late 1254). *Ad conditorem* set aside **Nicholas III's *Exiit qui seminat*** (1279) arrangement, under which the Holy See owned the friars' goods so that they had use without ownership. What the pair shows: a privilege that rested on a pope's grant could be withdrawn or reversed by the next pope, so both the friars' place in the university and their form of poverty depended on papal favour.
+
 **Wrong turns:** saying *Quo elongati* overruled a pope (it overruled the founder); treating *Parens scientiarum* as founding the university; naming *Cum inter nonnullos* (1323) as the act that ended papal ownership (it condemned a claim about Christ and the apostles; *Ad conditorem* renounced the ownership).
+
 **Model answer:** (a) *Quo elongati* overruled Francis, declaring his *Testament* not binding and allowing a *nuntius* to handle money. *Parens scientiarum* overruled the bishop's chancellor, who now had to license qualified masters, and confirmed the guild's right to strike and make statutes. *Quasi lignum vitae* overruled the secular masters and forced them to readmit the friars. *Ad conditorem* overruled the order's own arrangement by giving up papal ownership of Franciscan goods. (b) *Quasi lignum vitae* reversed Innocent IV's curbs of 1254, and *Ad conditorem* dismantled *Exiit*'s papal ownership of 1279. Both show that what one pope granted, another could take back.
 
 </details>

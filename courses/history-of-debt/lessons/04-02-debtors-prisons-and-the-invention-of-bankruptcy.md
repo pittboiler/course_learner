@@ -105,8 +105,11 @@ And the narrator on Mr Dorrit, a few lines later: "the lock and key that kept hi
 **P1** *(Exegetical — strict.)*
 
 **Must hit, strict (a):** coercion works only if prison is *worse* than paying. Both passages say that for some debtors it is *better*, because it shields them from creditors' pressure. The deciding words: "no knocker … to be hammered at by creditors" (the creditors' leverage stops at the gate) and "kept numbers of his troubles out" (the jail protects its prisoner). So the threat loses its bite for exactly the long-term prisoners it was meant to squeeze.
+
 **Must hit, strict (b):** it is a *different* criticism. Sam says jail sorts badly: shirkers don't mind it, and it ruins the honest. Haggage and the narrator say jail can become a *refuge* that destroys the incentive to pay at all, even for a man like Dorrit, who is not a shirker.
+
 **Wrong turns:** reading Haggage as simply condemning the prison (he is praising it, and Dickens makes the praise damning); treating (b) as the same point because both involve prisoners not minding.
+
 **Model answer:** (a) The coercion premise assumes jail is worse than paying. Haggage calls it "freedom", and the narrator says the lock "kept numbers of his troubles out": the knocker, the dunning letters and the creditor on the doormat all stop at the wall. For a long-term debtor the prison is a shelter, so the threat no longer moves him. (b) It is a different point. Sam says the prison hits the wrong people: idlers enjoy it, and the honest are crushed. Dickens here says it can neutralize even an honest man, like Dorrit, by making surrender comfortable. Sam's complaint is about sorting. This one is about the incentive vanishing.
 
 ---
@@ -132,6 +135,7 @@ The most D can extract is the amount that leaves the others exactly their bankru
 **(c)** Signers A, B, C, E: 4 of 5 in number $= 80\%$, which meets four-fifths. By value, $10{,}500/12{,}000 = 87.5\% \ge 80\%$. **Yes, it binds D**, and his holdout value falls to his 562.50 share. (Rounding: shillings and pence to the nearest penny; pounds exact.)
 
 **Must hit, strict:** 3,360 net; 5s 7d; the two recovery columns; 5s 9d with D paid; 1,560; both thresholds checked.
+
 **Wrong turns:** applying the 20% cost to the composition; checking the four-fifths rule by number only; dividing the leftover 3,000 by 12,000 instead of 10,500.
 
 ---
@@ -139,7 +143,9 @@ The most D can extract is the amount that leaves the others exactly their bankru
 **P3** *(Exegetical — strict on the crux; no verdict.)*
 
 **Must hit, strict:** the dividing premise is *who wanted discharge and on whose terms*. On the creditor account, discharge expanded where and when it raised creditors' net recoveries, and it stayed under their control (consent thresholds). On the moral account, it expanded because legislators and the public came to see failure as misfortune, *even against* creditors' interests. Evidence that would move it: who petitioned for and against each act; whether discharge rules tightened creditor control or loosened it (1706 four-fifths veto vs the 1841 voluntary petition for non-merchants); whether passage tracked panics and debtor numbers (1800, 1841, 1867) rather than dividend data; and whether repeal followed creditor complaints about dividends.
+
 **Wrong turns:** stating a verdict; treating the accounts as exclusive when the evidence can show both at different dates; naming "economics vs morality" without a testable premise.
+
 **Model answer:** They divide on whether discharge spread *with* creditors' interest or *against* it. If creditors wanted it, discharge should come with creditor vetoes and should track recoveries. The 1706 four-fifths certificate fits that. If moral change drove it, discharge should arrive as a debtor-initiated right, pushed through over creditors' objections after panics. The American 1841 Act, voluntary and open to non-merchants, passed after 1837 and repealed within two years, fits that better. Decisive evidence: the petitions and votes behind each act, dividend rates before and after, and who sought each repeal.
 
 </details>

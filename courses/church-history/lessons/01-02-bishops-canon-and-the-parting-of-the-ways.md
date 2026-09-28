@@ -111,7 +111,9 @@ Identify **three** claims on the placard that the evidence in this lesson does n
 (iii) **"In AD 96."** The date is conventional and disputed: Herron argues about 70, and Welborn allows 80 to 140.
 (iv) **"The whole world obeyed."** We have one letter to one church. Its later reading at Corinth (Dionysius) shows esteem there, not obedience everywhere. When Victor later tried to impose a Roman ruling, bishops rebuked him.
 (v) **"The break came in AD 70."** Dunn's partings run to at least 135 and play out issue by issue. Boyarin puts the settled border in the fourth century. Neither gives a single date.
+
 **Wrong turns:** objecting to "St Peter's martyrdom" at Rome, which the lesson does not dispute; calling the whole list "invented," when the lesson says it shows a remembered order, not that the names were fictions; answering "Pope is anachronistic" with no evidence.
+
 **Model answer:** (1) The claim that each man was sole bishop outruns the evidence. 1 Clement names no bishop and treats bishops and presbyters as one office, and Hermas and even Irenaeus speak of Roman presbyters presiding; Lampe dates a single bishop at Rome to after about 150. (2) The letter is not signed. It comes from "the church ... at Rome," its link to Clement is first attested around 170, and 96 is a disputed conventional date. (3) The Temple's fall did not end the relationship. Dunn traces partings to at least 135 and Boyarin to the fourth century, so no single year marks the break.
 
 ---
@@ -119,9 +121,13 @@ Identify **three** claims on the placard that the evidence in this lesson does n
 **P2** *(Exegetical (a) · Evaluative (b).)*
 
 **Must hit, strict (a):** Victor *issued* a declaration: "he wrote letters and declared all the brethren there wholly excommunicate." Whether it took effect is left open. The words that decide this are "attempted" and "this did not please all the bishops," and the text reports no withdrawal and no enforcement. Irenaeus calls the earlier Roman leaders **"presbyters"** who "presided." That fits Lampe's college of presbyters. It does not prove it, because in *Against Heresies* III.3.3 Irenaeus places the same men in "the episcopate," so his terms are fluid.
+
 **Must hit, any verdict (b):** (1) Weigh evidence on both sides. For recognition: Polycrates convened his bishops "at your desire," and synods across the Church sided with Rome's practice; Victor assumed that exclusion from Roman communion was a serious sanction; Irenaeus argues from Roman precedent rather than denying Victor any standing. Against: Polycrates defied him openly, bishops "sharply" rebuked him, and there is no evidence the ruling was enforced. (2) Separate *claiming* authority from its being *acknowledged*. (3) Note the source problem: Eusebius writes more than a century later, and the letters he summarizes are lost. (4) Say what would move the verdict, for example evidence of how the Asian churches were treated afterwards.
+
 **Wrong turns:** treating "declared ... excommunicate" as proof that Asia *was* excommunicated; reading Irenaeus's rebuke as a denial that Rome had any role, when his argument is about the wisdom of the act, and he still pleads with Victor; settling the theological meaning of primacy, which belongs to other courses.
+
 **Model answer (a):** Eusebius establishes that Victor wrote letters declaring the Asian churches excommunicate. With "attempted" and "this did not please all the bishops," he leaves open whether anyone treated the sentence as binding. Irenaeus calls Anicetus and the others "presbyters" who presided. That fits Lampe's picture of a presbyteral college, though Irenaeus elsewhere puts the same men in the episcopate.
+
 **Model answer (b), one of several:** The episode shows a Roman *claim* more clearly than its *acceptance*. Synods from Palestine to Gaul took up the question, and even the defiant Polycrates convened his bishops "at your desire." So Rome could set a wider agenda, and its communion was worth threatening. But the decisive act, cutting off a whole region, was openly resisted and sharply rebuked, including by Irenaeus, who appealed to earlier Roman practice against it. Nothing shows the sentence was enforced. I read it as Rome having recognized leadership in initiative but not an accepted power to exclude. The lost letters, or any evidence of later relations between Rome and Asia, could change that.
 
 ---
@@ -129,8 +135,11 @@ Identify **three** claims on the placard that the evidence in this lesson does n
 **P3** *(Exegetical.)*
 
 **Must hit, strict (a):** The crux is whether the separating texts **describe** a social separation that had already happened (Dunn), or **try to create** one that ordinary practice had not yet made (Boyarin). Boyarin must deny that heresiologists' and rabbis' boundary statements are reliable evidence of what ordinary communities did. Dunn must hold that, read with care, they largely are.
+
 **Must hit, strict (b):** evidence of ordinary practice. Examples: sermons or canons that complain about Christians keeping Jewish feasts or attending synagogue (such complaints still appear in fourth-century Antioch); inscriptions or burials that mix Jewish and Christian markers; Christians still reckoning Easter by the Jewish calendar. Plenty of such evidence late in time pushes toward Boyarin. Its absence after the mid-second century pushes toward Dunn.
+
 **Wrong turns:** making the crux the date alone (135 versus the fourth century), which is a consequence of the disagreement, not its premise; proposing more bishops' letters as the deciding evidence, which is the very kind of source in dispute.
+
 **Model answer:** (a) Dunn reads the separating texts as reports: Christians and Jews really did divide over Christology, Torah and Temple, mostly by 135. Boyarin reads them as programmes: border-drawers like Justin, Irenaeus and the rabbis were trying to produce a separation that everyday practice had not made. The premise at issue is whether those texts describe practice or prescribe it. (b) Evidence of ordinary practice would move it: complaints in sermons and canons about Christians keeping Jewish feasts, or mixed burial inscriptions. If such evidence is common in the fourth century, the border was still being drawn, as Boyarin says. If it has thinned out by the late second century, Dunn's earlier parting stands.
 
 </details>

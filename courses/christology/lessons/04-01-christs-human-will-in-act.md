@@ -127,7 +127,9 @@ Aquinas's answer runs through premise 3. What freedom needs is not the ability t
 **P3** *(Exegetical)*
 
 **Must hit, strict (a):** *Error 1:* "his divine side wanted the cross … at war inside him" makes the wills **contrary**, a real conflict between the human and the divine. That is the error the definition rejects by name ("as the impious heretics assert"). Picturing two "sides" at war, each with its own wants, drifts toward two subjects, which is **Nestorian**. Credit either diagnosis if it names contrariety. *Error 2:* "wasn't really afraid … only let them see him troubled" makes the passions feigned. That is **Docetism** about Christ's soul (q.15 a.7: fear of future evil was truly in him).
+
 **Must hit, strict (b):** "not contrary the one to the other … but his human will follows … not as resisting and reluctant, but rather as subject to his divine and omnipotent will." **Defined dogma**, Constantinople III.
+
 **Must hit, strict (c):** there really is a pull in two directions: nature's recoil from death and reason's choice of the Father's will. The sweat of blood shows how costly the yes was.
 
 **Wrong turns:** calling Error 1 monothelitism: the homily has two wills set at war, and monothelitism has one. Defending "he knew he would rise" as the reason fear was impossible: q.15 a.7 allows fear of a known future evil, and denies only the fear that comes from uncertainty. Marking (b) as common teaching, as though the Thomist layering were what is at stake; non-contrariety is in the definition itself.

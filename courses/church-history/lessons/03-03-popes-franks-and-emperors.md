@@ -95,7 +95,9 @@ So is the story false? Not simply. The political facts do not rest on Liutprand 
 **P1** *(Exegetical.)*
 
 **Must hit, strict:** (vi) 731 → (ii) 751 → (v) 754 → (iv) 756 → (iii) 800 → (i) 962. The lands (the exarchate of Ravenna and the Pentapolis) had been Byzantine imperial territory taken by the Lombards. Pepin was giving away land that was legally the emperor's, and the emperor wanted it back.
+
 **Wrong turns:** dating the Donation of Pepin to 754 (that is the Ponthion promise and the Saint-Denis anointing; the handover followed the second campaign, in 756); putting the synod against iconoclasm at 726 (726–730 is Leo III's turn, and the Roman synod came in 731); saying the lands were Lombard by right.
+
 **Model answer:** 731, 751, 754, 756, 800, 962, in the order vi, ii, v, iv, iii, i. The cities had belonged to the Byzantine exarchate until Aistulf seized them, so in law they were the emperor's, and Pepin was giving the pope Byzantine territory.
 
 ---
@@ -103,8 +105,11 @@ So is the story false? Not simply. The political facts do not rest on Liutprand 
 **P2** *(Exegetical (a) · Exegetical (b).)*
 
 **Must hit, strict (a):** the target is the supremacy clause, "the four chief seats Antioch, Alexandria, Constantinople and Jerusalem." Valla combines (1) **anachronism**: on the document's own date Constantinople did not exist ("not yet a patriarchate, nor a see … nor founded, nor planned"; "Byzantium, not Constantinople, occupied that site"); and (2) **internal contradiction**: the document itself later speaks of the city as still to be built ("a city should be built in our name"; "he had not yet built it").
+
 **Must hit, strict (b):** the objection does not touch this argument. It rests on evidence anyone can check: the document's claimed date, the founding of Constantinople, and the document's own later sentence. An author's interest matters when a conclusion rests on his testimony, which is not the case here.
+
 **Wrong turns:** answering that Valla shows the Donation was forged "in the eighth century" (this passage shows only that it was not Constantine's; dating it takes other evidence, such as the satraps); treating the motive objection as partly valid "because he might have cherry-picked" (the contradiction is on the page whatever else he left out); naming the grant of Rome and Italy as the target sentence.
+
 **Model answer:** (a) He attacks the clause giving Rome supremacy over "Antioch, Alexandria, Constantinople and Jerusalem." He argues first from anachronism, since Constantinople was "not yet … founded, nor planned" three days after the baptism, and then from self-contradiction, since the same document says a city "should be built," so "he had not yet built it." (b) The objection misses, because the argument rests on facts and a sentence any reader can check, not on Valla's word. His employer's quarrel with Eugenius IV explains why he wrote, but it cannot make the contradiction disappear.
 
 ---
@@ -112,8 +117,11 @@ So is the story false? Not simply. The political facts do not rest on Liutprand 
 **P3** *(Exegetical (a) · Evaluative (b).)*
 
 **Must hit, strict (a):** any three of the following. (1) **Interest:** Liutprand was Otto's bishop and envoy, took part in the deposition, and wrote to justify it, so "he was there" makes him a party, not a neutral witness. (2) **Hearsay:** on his own report, the sexual charges were ones the witnesses said they "knew" but had not seen. The script merges them with the charges witnesses claimed to have seen. (3) **"The Church's own council"** was a synod summoned by the emperor to depose a pope who had turned against him. John's own synod of 964 annulled it, so its verdict is itself a disputed political act. (4) **John XI's paternity** rests on Liutprand's *Antapodosis* and is contradicted by Flodoard, who makes John XI Alberic II's brother. The script presents a contested claim as fact.
+
 **Must hit, any verdict (b):** separate the claims by the evidence behind them. The political structure (family control of elections from 904, Alberic's son made pope young, the switch of sides, deposition by the emperor) is confirmed by sources that do not depend on Liutprand. The personal scandals rest largely on Liutprand and hearsay. Weigh both, name at least one independent source that bears on the question (Flodoard, or other contemporaries on John's worldliness), and say what evidence would move the verdict.
+
 **Wrong turns:** concluding that because Liutprand is partisan the whole iron century is a Protestant invention (Baronius, a cardinal, named it, and the political facts are independent); taking the synod's verdict as proof of the charges; treating "biased" as "false."
+
 **Model answer (b), one of several:** Most of the picture survives in outline. Its lurid detail does not survive intact. That lay families controlled papal elections from 904, that Alberic's young son became pope, and that an emperor then deposed him do not depend on Liutprand. Those facts alone make the century a low point for the office. The sexual charges are another matter. Liutprand wrote for the man who deposed John, and the witnesses admitted they had not seen what they swore to. Where an independent source can be checked, it sometimes disagrees, as Flodoard does on John XI's father. I would call John XII a worldly prince-pope on good evidence and treat the brothel story as unproven. An independent Roman account confirming the specific charges would change that.
 
 </details>
@@ -133,9 +141,13 @@ So is the story false? Not simply. The political facts do not rest on Liutprand 
 <summary>Solution</summary>
 
 **Must hit, strict (a):** (i) conversion: a mass baptism, a datable event at the start of the Kent mission. (ii) Christianization: a vernacular Gospel written for Saxons two generations after their forced baptism, which shows the faith being made their own. (iii) conversion: the submission of a people's leader, a single datable act. (iv) Christianization: everyday practice, reconstructed by historians because no chronicle records it.
+
 **Must hit, strict (b):** (i) top-down without force: the king received unarmed monks, and no law or army compelled anyone; the pressure was royal favour. (iii) forced, or at least made under conquest: it came during Charlemagne's war of conversion, in the years of Verden (782) and of the *Capitulatio*, which made hiding unbaptised a capital crime.
+
 **Must hit, strict (c):** (iv), the charms. Read as pagan survivals, they show Christianization incomplete, with a Christian veneer. On Karen Jolly's reading they are a Christian popular religion, a middle ground between liturgy and folk medicine, and so show Christianization achieved in the people's own terms.
+
 **Wrong turns:** calling (ii) evidence that coercion worked (that is one reading of the Saxon case, not the category of the item); treating (i)'s number as a count, when Gregory says it was reported to him second-hand; calling Kent forced because it was top-down.
+
 **Model answer:** (a) (i) and (iii) are conversions: datable acts of baptism and submission. (ii) and (iv) are Christianization: a vernacular Gospel epic and everyday charms show belief and custom becoming Christian over generations. (b) Kent was top-down without force, since a king already married to a Christian received unarmed monks. Widukind's baptism was forced: it ended a war of conquest, under a law that punished hiding unbaptised with death. (c) The charms: older readings saw pagan survivals under a Christian surface, while Jolly reads them as how a Christian people actually prayed.
 
 </details>

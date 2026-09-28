@@ -95,22 +95,31 @@ The Douay's note on verse 8 reads the "voice" as "the preaching of the gospel su
 **P1** *(Exegetical (a) · Evaluative (b))*
 
 **Must hit, strict (a):** **Judgment is affirmed:** "God shall judge both the just and the wicked" (v. 17), although injustice is seen now "in the place of justice" (v. 16). **Death is the same for all:** "the death of man, and of beasts is one ... into earth they return together" (vv. 19–20). **Life after death is left open, neither denied nor affirmed:** "**Who knoweth** if the spirit of the children of Adam ascend upward" (v. 21). The conclusion is to enjoy one's work as one's "portion" (v. 22). *Hebel* ("vanity") here means fleeting and ungraspable, not worthless.
+
 **Must hit, any verdict (b):** read 12:14 closely: judgment of "all things that are done", including hidden things. Note that 3:17 **already** affirms judgment, so the epilogue is not introducing a new idea. State the case that the epilogue is an editor's frame (third person, 12:9–10), and the case that it continues Qoheleth's own voice. Draw a conclusion.
+
 **Wrong turns:** reading v. 21 as a denial of the soul's survival, or as its affirmation. It is a question. Reading "man hath nothing more than beast" as metaphysics rather than as a statement about how death looks (the Douay's own note says "as to the life of the body"). Reading *hebel* as "sinful".
+
 **Model answer (b), one of several:** Completes more than corrects. Qoheleth himself already says that God "shall judge" (3:17). What he cannot see is *when*, since the courts are corrupt and death levels everyone. The epilogue changes the voice to the third person, so an editor probably wrote it. But it presses a conviction the book already holds and does not import a foreign one. What it does add is emphasis: it makes judgment, and not *hebel*, the last word.
 
 **P2** *(Exegetical)*
 
 **Must hit, strict (a):** **kept:** riches that grow wings and fly to the sky (geese in *Amenemope*, an eagle in Proverbs); the ban on moving boundaries; concern for the vulnerable owner. **Changed:** the bird; the widow becomes "the fatherless" and "little ones"; the vague "divine power" becomes a named defender, the "near kinsman" (Hebrew *go'el*, the redeemer-relative) who "will judge their cause". In Israel's idiom that defender is ultimately God (compare 22:23). Proverbs also sets the riches saying under "Labour not to be rich".
+
 **Must hit, strict (b):** evidence **for** literary contact, most likely Proverbs depending on *Amenemope* (the majority view), with Israelite editing. It does **not** settle the direction of dependence with certainty, a precise date, or anything about inspiration. Inspiration covers what the sacred author asserts, whatever his source.
+
 **Wrong turns:** "the parallel proves Proverbs is not inspired." Assuming Egypt copied Israel without argument. Treating *go'el* as merely human, when the saying makes it a threat of divine judgment.
+
 **Model answer:** Kept: wealth that flies off on wings, and the ban on shifting boundaries. Changed: geese become an eagle, the widow becomes the fatherless, and anonymous divine power becomes the orphans' strong kinsman who "will judge their cause", which in Proverbs points to God. The parallels show literary contact, and most scholars think Proverbs used *Amenemope*. They do not fix the direction beyond doubt, and they say nothing against inspiration.
 
 **P3** *(Exegetical (a) · Evaluative (b))*
 
 **Must hit, strict (a):** **literal:** the woman speaks. She hears her lover coming "leaping upon the mountains", sees him at the wall and lattice, and reports his invitation to come out because winter is over and spring has come (flowers, the turtledove, figs, vines). He asks to see her face and hear her voice. It is a spring love lyric of courtship and invitation. **Rashi's tradition:** the lover is God and the woman is the Congregation of Israel, often read of the Exodus, God coming to redeem Israel from Egypt. Credit it without the Exodus detail if the lovers are named correctly. **Origen's:** the Bridegroom is Christ, the Word, and the bride is the Church or the individual soul.
+
 **Must hit, any verdict (b):** state the principle that the spiritual senses are founded on the literal (1.2). Test the note against it: is there a point of contact, such as the lover's approach overcoming obstacles, or the call to "arise" at the turn of the season? Or is the gospel read into the images with no anchor? Then conclude.
+
 **Wrong turns:** making the literal sense the Church, or denying that the passage is erotic poetry. Stating Rashi's reading as "just a love poem", which is not his reading. Treating the Douay note as a magisterial interpretation. It is an eighteenth-century editor's note.
+
 **Model answer (b), one of several:** Legitimate, but loosely anchored. The allegory works by carrying the whole love relation over (Bridegroom to Christ, bride to Church) and not by decoding each image. At that level the approach of the beloved who overcomes mountains to call his love out of winter carries naturally into Christ seeking the Church. The note fails when it fixes "voice" as "preaching of the gospel": nothing in the image supplies that particular, and a different allegorist could as easily make it the Incarnation. So the passage's spiritual sense is sound, and this note's precision is not required by it.
 
 </details>
@@ -131,9 +140,13 @@ The Douay's note on verse 8 reads the "voice" as "the preaching of the gospel su
 <summary>Solution</summary>
 
 **Must hit, strict (a):** Elijah is sent **before the day of the Lord** to **reconcile the generations**, turning fathers' hearts to children and children's to fathers. If he fails, God will strike the land with ***herem***, **total destruction**. The last verses of the Twelve set **Moses (the law, at Horeb)** beside **Elijah (the prophet)**.
+
 **Must hit, strict (b):** **Ben Sira adds** that Elijah will **"restore the tribes of Jacob"**, gathering scattered Israel, and "appease the wrath of the Lord". **Luke** (any two): he **keeps only the first half** of the reconciliation and **replaces "children to their fathers"** with **"the incredulous to the wisdom of the just"**, a moral conversion. He sends John **"in the spirit and power of Elias"**, not Elijah in person. He **drops the threat** of *herem*. He makes the goal **"to prepare unto the Lord a perfect people"**, and "before him" points to the one John precedes.
+
 **Must hit, strict (c):** **The Mishnah:** the Sages hold, citing this verse, that Elijah comes **to make peace in the world**. Stated as the Mishnah's own reading, not refuted. **Luke:** the promise is fulfilled in **John the Baptist**, who comes in Elijah's spirit and power. **Level:** Malachi's literal sense names Elijah and does not name John. Luke's identification is the **New Testament's fulfilment reading**, a **spiritual sense** resting on the literal one, not what Malachi's Persian-period hearers (a reconstructed date) understood.
+
 **Wrong turns:** saying Malachi's literal sense predicts John. Reading "spirit and power of Elias" as Elijah returning in person, or as reincarnation. Treating Luke's changes as a careless misquotation instead of a reading. Presenting the Mishnah's view as a failed Christian reading.
+
 **Model answer:** (a) Elijah comes before the day of the Lord to reconcile fathers and children; if he does not, God will strike the land with *herem*, total destruction. The Twelve thus end by naming Moses, whose law is to be remembered, and Elijah, the prophet to come. (b) Ben Sira adds a national task: Elijah will "restore the tribes of Jacob". Luke replaces the second half of the reconciliation with turning "the incredulous to the wisdom of the just", and sends John in Elijah's "spirit and power" rather than Elijah himself, with no threat of the ban. (c) The Mishnah's Sages read the verse to mean that Elijah comes to make peace in the world. Luke reads it as fulfilled in John, which is a New Testament spiritual reading built on a literal sense that names only Elijah.
 
 </details>

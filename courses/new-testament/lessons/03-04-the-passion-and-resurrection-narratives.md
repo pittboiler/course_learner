@@ -142,9 +142,13 @@ Mark's cry is the opening of Psalm 22 (21:2 in the Douay). Luke's words are Psal
 <summary>Solution</summary>
 
 **Must hit, strict (a):** **Embarrassment.** A cry of abandonment by God sits awkwardly on the Son's lips, and Luke and John both replace it with words of trust or completion, while Matthew keeps it. The **Aramaic** form (*Eloi ... lamma sabacthani*, which Mark has to translate) is a secondary criterion, usable only in support.
+
 **Must hit, strict (b):** **No.** On Markan priority Matthew copies Mark, so there is one witness, not two, and Luke and John do not have the saying. Failing proves nothing, because the criteria are one-way: a singly attested saying is not thereby inauthentic.
+
 **Must hit, strict (c):** It **weakens** embarrassment. If the Church read the passion through Psalm 22, it had a positive motive to use the psalm's first line, and Mark may not have found it embarrassing at all (the weak point of the criterion: knowing what embarrassed whom). What **cuts back** is that Luke replaces one psalm verse with another, so what troubled a later evangelist was not quoting Scripture but the content of *this* verse. The discomfort was real by Luke's time, even if it does not prove Mark felt it.
+
 **Wrong turns:** counting Matthew as a second independent witness. Concluding "fails attestation, so invented". Treating any verdict here as Church teaching or as a threat to it: the authenticity of the saying is a hypothesis, and *Dei Verbum* 19 does not turn on it.
+
 **Model answer:** (a) It passes embarrassment: Luke and John drop a cry of abandonment that Matthew keeps, and the Aramaic words give secondary support. (b) It fails multiple attestation, since Matthew depends on Mark, but a one-way test failed shows nothing against the saying. (c) Psalm 22's role in the passion gives the Church a motive to use the verse, so the embarrassment may be Luke's rather than Mark's. But Luke's swap of one psalm for another shows that the trouble was this verse's content, not psalm-quotation as such.
 
 </details>

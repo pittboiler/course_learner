@@ -93,21 +93,29 @@ For each numbered sentence, name the error, correct it, and state the right leve
 **P1** *(Exegetical (a) · Exegetical (b))*
 
 **Must hit, strict (a):** the **custodian** reading. Any three of: "kept under the law" (*ephrouroumetha*, held under guard); "shut up" (*synkleiomenoi*); "before the faith came" and "unto that faith which was to be revealed" (a time limit); "no longer under a pedagogue" (the authority ends). Also credit the social fact that a *paidagōgos* was a slave-escort who supervised the child and did not teach him.
+
 **Must hit, strict (b):** **temporal**, "until Christ", and **purposive**, "to lead us to Christ" (credit the Douay's "in Christ" as a third, local rendering). The context favours the temporal sense, because 3:23 and 3:25 frame the verse as *before* and *after*. Credit a purposive answer only if it keeps the time limit.
+
 **Wrong turns:** taking the Douay note's "schoolmaster" at face value, so the Law "taught Christ". Treating "custodian" as contempt for the Law, when a guardian protects, and 3:21 denies that the Law is against the promises.
+
 **Model answer:** (a) The custodian reading. "Kept under the law shut up" describes confinement under guard, not instruction, and "before the faith came" with "no longer under a pedagogue" puts an expiry date on it. The *paidagōgos* was the slave who escorted a boy and minded his conduct until he came of age. (b) *Eis Christon* can mean "until Christ" or "to lead us to Christ". The before/after frame of 3:23 and 3:25 favours "until". Even on the purposive reading, the guardian's job ends when the destination is reached.
 
 **P2** *(Exegetical (a) · Evaluative (b))*
 
 **Must hit, strict (a):** objective: "I live by faith **in** the Son of God"; subjective: "I live by the **faithfulness of** the Son of God". The objective reading appeals to "**I live**": the faith is how Paul lives now, his own act, as in 2:16's "we believe in Christ Jesus". The subjective reading appeals to the **participial clauses**, "who loved me and delivered himself for me": they describe Christ's own act, his fidelity shown in self-giving, and so tell us whose *pistis* is meant.
+
 **Must hit, any verdict (b):** name the verse's evidence for your side; state the strongest point for the other (the one named in (a)); say why it does not decide the question for you. Recognize that the grammar alone allows both readings.
+
 **Wrong turns:** claiming the genitive is grammatically unambiguous either way. Saying the subjective reading removes human faith, when "I live" still has Paul living by it on either reading. Settling (b) by Church authority: the question is freely disputed.
+
 **Model answer (b), one of several:** Objective. "I live" makes *pistis* the mode of Paul's present life, and the natural sense of living "in faith" is believing. The participles are the strongest point against me: they fill the verse with Christ's own action. But they identify the Son, giving the object of Paul's faith its content. They do not tell us that *pistis* is the Son's. 2:16's unambiguous "we believe in Christ Jesus" tips a verse that the grammar leaves open.
 
 **P3** *(Exegetical)*
 
 **Must hit, strict:** (1) **Misreading.** Paul denies the Law is against the promises (3:21, "God forbid!"). The 430 years show that a later law cannot annul a ratified promise (3:17), and "until the seed should come" (3:19) with the *paidagōgos* (3:24) gives the Law a real but temporary role. (2) **A hypothesis stated as Church teaching, and a false consensus.** *Pistis Christou* is freely disputed (rung 5) with no magisterial act on the genitive. Scholars remain divided: Hays against Dunn, and among Catholics Johnson against Fitzmyer. (3) **Church teaching treated as a hypothesis.** Galatians' canonicity is **defined dogma** (the canon as defined at Trent, rung 1) and not a historians' question. Credit adding that Galatians is also among the undisputed letters, so even its human authorship is secure; the point, though, is that canonicity and authorship are different kinds of claim.
+
 **Wrong turns:** correcting (2) by saying the Church teaches the *objective* reading, which repeats the error in the other direction. In (3), resting canonicity on the scholarly consensus about authorship. In (1), saying Paul rejects the Law as bad.
+
 **Model answer:** (1) This misreads Galatians 3: Paul says the Law is not against the promises (3:21). The 430 years prove only that a later law cannot annul a ratified promise, and the Law's role as guardian "until the seed" was real and temporary. (2) This states a disputed hypothesis as Church teaching: the genitive in 2:16 is freely disputed among Catholics, with no magisterial act on it. Nor is there a scholarly consensus. (3) This treats defined dogma as an open question: Galatians' place in the canon was defined at Trent. Its Pauline authorship is also undisputed by scholars, but that is a different kind of claim.
 
 </details>
@@ -127,7 +135,9 @@ Find **three** errors and correct each, marking the level wherever Church teachi
 1. **The inscription does not mention Paul.** It is a letter of Claudius that names Gallio as proconsul; its date (the 26th acclamation, 52) places Gallio's year in Achaia at about 51–52. Paul is tied to Gallio only by Acts 18:12, so the inscription gives one peg for his chronology, not a record of his trial.
 2. **The method is backwards.** Paul's letters are first-hand and written at the time; Acts was written a generation later, and that its author was Paul's companion is a hypothesis resting on the "we" passages and on tradition. Knox's rule is letters first, Acts second: on who watched the gates, the default is 2 Corinthians 11:32, with the caveat that the letters are partisan.
 3. **Level error.** That all thirteen letters are canonical and inspired is **defined dogma (rung 1)**, from Trent's canon. Who wrote each one is a **scholarly hypothesis**, and whether Trent's titles bind on human authorship is **freely disputed**, so the undisputed/disputed sort is open to Catholics; it measures historical confidence, not doctrinal weight.
+
 **Wrong turns:** "correcting" (3) by saying the Church teaches that some letters are *not* Paul's; it teaches nothing either way on authorship. Saying the inscription dates Paul's *arrival* in Corinth. Swinging to "Acts is worthless" in (2), when Acts is the secondary source, and is used wherever the letters are silent.
+
 **Model answer:** (1) The Delphi inscription is Claudius's letter naming Gallio as proconsul, which dates Gallio's year to about 51–52; it never mentions Paul. The link to Paul comes from Acts 18:12. (2) The letters are the primary source, first-hand and contemporary, and Acts is later and secondary, its author's companionship with Paul being a hypothesis. So by Knox's rule, 2 Corinthians' Aretas governor is the default account. (3) The canonicity of all thirteen is defined dogma, but their human authorship is a scholarly question, and whether Trent's titles bind on it is freely disputed. The sort is therefore open to Catholics.
 
 </details>

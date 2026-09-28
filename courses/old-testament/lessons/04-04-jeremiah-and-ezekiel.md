@@ -106,16 +106,23 @@ Name **three** errors and correct each from this lesson. Then say what, in this 
 **P1** *(Exegetical)*
 
 **Must hit, strict (a):** the proverb claims that **children suffer for their parents' sins**: the exile generation is paying for its fathers' sins. God abolishes it ("this parable shall be no more to you a proverb") and puts in its place **"the soul that sinneth, the same shall die"**, grounded in "all souls are mine". Each person answers for his own sin, "the son shall not bear the iniquity of the father", and the reverse.
+
 **Must hit, strict (b):** *nefesh* is the **living person or life**, so "the soul that sinneth" means "the person who sins". "Die" is **death as judgment** (in context, perishing under the catastrophe), opposed to "living, he shall live". The pairing of "soul" with "father" and "son", and the contrast of dying with living, decide it. The verse is about who bears guilt, not about what survives death.
+
 **Must hit, strict (c):** the hearers ask why the son should *not* bear his father's guilt. So they had taken inherited guilt as **just, or as God's settled way** (it echoes Exod 20:5), and the oracle must overturn an expectation, not just a complaint. (Credit for noting the proverb's fatalism: if the fathers caused it, repentance is pointless, which 18:30–32 answers.)
+
 **Wrong turns:** reading "soul" as the immortal soul (the Greek-philosophical sense) or "die" as damnation. Calling the chapter an invention of modern individualism: it is addressed to the "house of Israel" as a call to repent.
+
 **Model answer:** (a) The proverb says the children pay for their fathers' sins. God retires it and replaces it with "the soul that sinneth, the same shall die": each person answers for his own sin, since every life belongs to God. (b) *Nefesh* here means the living person, and "die" means perishing under judgment, set against "living, he shall live". The verse decides who bears guilt, not whether a soul survives death. (c) They ask why the son should not bear his father's iniquity. That shows they had taken inherited guilt as how God's justice works, which the oracle overturns.
 
 **P2** *(Exegetical)*
 
 **Must hit, strict (a):** **New:** a covenant "not according to" the Exodus covenant "which they made void"; the law placed "in their bowels" and written "in their heart" (interior, not on stone); no more need to teach "Know the Lord", "for all shall know me from the least ... to the greatest"; forgiveness, "I will ... remember their sin no more". **Same:** the partners ("the house of Israel, and ... the house of Juda"); the law itself ("**my** law", *torati*); the covenant formula ("I will be their God, and they shall be my people"); God's initiative.
+
 **Must hit, strict (b):** **Jewish reading:** a promise to Israel and Judah that God will renew his covenant after its breach, with the **same Torah** written on the heart so that it is kept. It leans on "house of Israel ... house of Juda", "my law", and the unchanged covenant formula. **Hebrews 8:** the oracle shows the first covenant was faulty and is fulfilled in Christ, the mediator of a better covenant. It leans on "**new**", from which 8:13 infers that the first is "made old" and "near its end", and on the promise of forgiveness (taken up in 10:16–18). Each stated without refuting the other.
+
 **Wrong turns:** listing "a new law" as new. The text says "my law". Stating the Jewish reading as "denial of Jesus" rather than on its own terms. Attributing Hebrews' inference (8:13) to Jeremiah.
+
 **Model answer:** (a) New: a covenant unlike Sinai's broken one, the law inside and on the heart, knowledge of God without teaching, and sins forgotten. Same: the parties, "my law", and "I will be their God, and they shall be my people". (b) Jewish interpreters read a renewal of God's covenant with Israel and Judah, with the Torah itself inscribed within, leaning on the named houses and on "my law". Hebrews reads the oracle as announcing Christ's better covenant. It leans on the word "new" to infer that the first is growing old, and on the promise to forget sins.
 
 **P3** *(Exegetical)*
@@ -127,7 +134,9 @@ Name **three** errors and correct each from this lesson. Then say what, in this 
 - **"The Church has always followed the Hebrew alone."** The Greek-speaking Church read the Septuagint, and Augustine held both inspired (*City of God* XVIII.43). Trent made the **Latin Vulgate** authentic, and *Divino Afflante Spiritu* §21 calls that authenticity juridical, not critical.
 
 **Teaching and level:** Jeremiah is canonical, "with all their parts" as in the Vulgate: **defined dogma, rung 1** (Trent). Which edition is earlier has **no magisterial level**; it is text criticism.
+
 **Wrong turns:** calling the Masoretic text "the Church's text" by definition. Swinging to "the Septuagint is the true Jeremiah", which overstates a majority text-critical view. Saying 33:14–26 is non-canonical because it may be late.
+
 **Model answer:** Two Qumran fragments, 4QJer<sup>b</sup> and <sup>d</sup>, preserve a shorter Hebrew Jeremiah with the Greek's arrangement, so most scholars think the Greek translates an earlier edition rather than abridging carelessly. The Scrolls also contain the longer text, so they show two editions side by side and prove no single "original". The Church did not follow the Hebrew alone: the Greek churches read the Septuagint, Augustine held it inspired, and Trent authorized the Latin Vulgate, whose authority *Divino Afflante Spiritu* calls juridical, not critical. What is defined is that Jeremiah, with its parts, is canonical (rung 1). Which edition came first is a text-critical question with no magisterial level.
 
 </details>
@@ -150,9 +159,13 @@ Two positions, paraphrased. **The majority:** 40:1–2 speaks to people for whom
 <summary>Solution</summary>
 
 **Must hit, strict (a):** the crux is **whether a prophet addresses a far-future generation as his present audience**, that is, whether the hearers of 40:1–2 locate the speaker. The majority holds that prophets speak to their own contemporaries, forthtelling before foretelling ([4.1](04-01-what-a-prophet-is-amos-and-hosea.md)), so an audience at the end of the exile means a speaker there. The single-author view holds that Isaiah, having foreseen the exile in 39:6, can be carried forward to speak to its survivors as if present. Credit: the perfects do not settle it alone, since Hebrew prophecy can put a future event seen as certain in the perfect (the grammarians' "prophetic perfect").
+
 **Must hit, strict (b):** **Majority:** Cyrus named and addressed as already on the move (44:28; 45:1); Isaiah's name absent after 39:8; chapters 56–66 assuming a community back in Judah. **Single author:** "the Holy One of Israel" running through both halves; the Great Isaiah Scroll copying all sixty-six chapters as one book; Sirach 48:24 [Douay Ecclesiasticus 48:27] crediting Isaiah with comforting the mourners in Sion. One from each side.
+
 **Must hit, strict (c):** both sides can grant that God reveals the future. Holding an exilic author for 40–55 does not deny the faith point of *Dei Filius* ch. 3 or of the 1908 response's first answer. The dispute is historical and literary (who is addressed, and when), and authorship stays **freely disputed**.
+
 **Wrong turns:** treating the perfect tense as proof of an exilic date. Treating 39:6 as settling it: it foretells deportation, not the comfort and return of chapter 40. Offering the Qumran scroll or Sirach as proof of authorship: they show how the book was copied and read by the second century BC, which fits both views. Framing the majority as "denying prophecy".
+
 **Model answer:** (a) The verdict turns on whether the audience of 40:1–2 is the speaker's own. The majority says a prophet speaks to his contemporaries, so the speaker stands at the end of the exile, and the single-author view says Isaiah, having foreseen the exile, speaks ahead to its survivors. (b) The majority points to Cyrus named in 44:28 and 45:1 as a figure already in motion. The single-author side points to "the Holy One of Israel" running through both halves. (c) Both sides can grant that God reveals the future, so the dispute is over who is addressed and when, which is freely disputed history, not the faith point of *Dei Filius*.
 
 </details>

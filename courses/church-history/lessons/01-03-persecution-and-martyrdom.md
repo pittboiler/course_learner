@@ -111,9 +111,13 @@ The estimate strains at every joint. Was Palestine typical? Eusebius also claims
 **P1** *(Exegetical.)*
 
 **Must hit, strict (a):** (1) persecution had not worked, since "great numbers still persist in their opinions"; (2) it had produced people who worshipped neither the gods nor "their own God", so it left them with no worship at all. The second reason is the distinctive one: an irreligious subject was worse for the state than a Christian one.
+
 **Must hit, strict (b):** it permits them "again to be Christians" and to rebuild their meeting places, on condition that they "offend not against good order", with details left to a further mandate to magistrates. In return Christians must pray to their God for the emperors' welfare, the public's and their own.
+
 **Must hit, strict (c):** "from our wonted clemency in bestowing pardon" and "extend our indulgence": the language of pardon, which presupposes an offence. The unquoted opening of the chapter also calls Christianity "wilfulness and folly", and credit goes for citing it.
+
 **Wrong turns:** reading the edict as religious freedom in a modern sense; confusing it with the 313 settlement of [1.4](01-04-constantine.md); forgetting that the text survives through Lactantius, a Christian author hostile to Galerius, writing c. 315. (The copy is generally trusted because Eusebius gives a Greek version that agrees in substance.)
+
 **Model answer:** (a) The persecution failed, because most Christians held firm, and it left many honouring neither the gods nor their own God. (b) It lets them be Christians again and rebuild their assembly places, provided they keep good order, and it asks them to pray to their God for the emperors and the state. (c) "Clemency", "pardon" and "indulgence" frame the toleration as mercy toward offenders, not a confession of wrong.
 
 ---
@@ -122,7 +126,9 @@ The estimate strains at every joint. Was Palestine typical? Eusebius also claims
 
 **Must hit, strict (a):** (1) the number: scholarly estimates run from Gibbon's under 2,000 to Frend's 3,000–3,500, so 300,000 is off by roughly two orders of magnitude; (2) that Eusebius recorded it: he gives no empire-wide total. His *Martyrs of Palestine* names under a hundred, and his reports of mass executions in the Thebaid are counts of single days, not a total. The placard borrows his eyewitness authority for a figure he never gives. Credit for noting that "exterminate the Church" fits the fourth edict (304) better than the first ones, which targeted buildings, scriptures and clergy.
 **Formal (b):** Gibbon: $92 \times 16 = 1{,}472$, which is his "about fifteen hundred" for the East. Placard: $300{,}000 / 92 \approx 3{,}261$, so Palestine's toll must be multiplied about 3,260-fold. Frend's upper figure: $300{,}000 / 3{,}500 \approx 85.7$, so the placard is about 86 times Frend's estimate. (Computed in Python.)
+
 **Wrong turns:** treating Gibbon's figure as a count rather than an extrapolation; objecting to "a decade", which fits the East (303–313); "correcting" the placard to trivial numbers.
+
 **Model answer:** (a) First, 300,000 exceeds the scholarly estimates (Gibbon under 2,000, Frend 3,000–3,500) by about a hundredfold. Second, Eusebius recorded no such figure. He gives no empire-wide total, and his *Martyrs of Palestine* names under a hundred; even his worst Egyptian days run to dozens. (b) $92 \times 16 = 1{,}472$; $300{,}000/92 \approx 3{,}261$; $300{,}000/3{,}500 \approx 86$.
 
 ---
@@ -130,7 +136,9 @@ The estimate strains at every joint. Was Palestine typical? Eusebius also claims
 **P3** *(Evaluative.)*
 
 **Must hit, any verdict:** (1) the libelli: the order bound everyone, including a pagan priestess, and the certificates never mention Christians; (2) the Christian sources (Cyprian, Dionysius in Eusebius) and events: bishops were arrested, and some died (Fabian, January 250), and mass lapse followed, so Christians bore the effect because only they could not comply; (3) the edict's text is lost, so its *intent* is inferred, which is the gap Rives's reading ("The Decree of Decius and the Religion of Empire", *JRS* 1999) exploits. He reads it as a new empire-wide act of religious unity, whatever its toll on Christians. (4) a one-line verdict that says whether it judges the edict by its wording, its target or its effect.
+
 **Wrong turns:** treating the libelli as Christian certificates; assuming the edict's wording survives; arguing that because pagans also sacrificed, no Christian was persecuted.
+
 **Model answer (one of several):** The libelli show a universal order. Pagans, even a priestess of Petesouchos, had to sacrifice and prove it, and no certificate names Christians. The Christian sources show where the weight fell. Fabian of Rome died a martyr, bishops fled or were seized, and Carthage and Rome were left with crowds of lapsed. Because the text of the decree is lost, we cannot read Decius's intent off it; Rives argues the aim was a new, empire-wide religious unity, not Christians as such. Verdict: in form it was not an anti-Christian law but a loyalty sacrifice for all. In effect it was the first empire-wide persecution, since Christians were the people whose faith forbade them to comply. Whether Decius intended that outcome is the open question.
 
 </details>
@@ -148,9 +156,13 @@ The estimate strains at every joint. Was Palestine typical? Eusebius also claims
 <summary>Solution</summary>
 
 **Must hit, strict (a):** A: event 62, written 93–94, a gap of about thirty years. B: event before or during 66–70, written in the early fourth century, a gap of well over two centuries.
+
 **Must hit, strict (b):** A is stronger. It is closer to the event, and Josephus is a non-Christian with no stake in James; the mention is incidental to a story about a high priest's overreach. B is very late, comes from a Christian writer with an interest in the mother church's survival, and rests on an oracle.
+
 **Must hit, strict (c):** a reason to think the late report preserves an early fact: evidence that Eusebius drew on an earlier source, or independent corroboration. Lateness alone makes it unproven, not false. Historians divide on whether Pella is memory or legend.
+
 **Wrong turns:** judging by the gap alone and ignoring interest (1.1's rule: weigh proximity and interest separately); declaring the Pella story false because it is late ("later" is not "false"); treating Josephus as a Christian witness.
+
 **Model answer:** (a) Josephus writes in 93–94 about an event of 62, about thirty years on. Eusebius writes in the early 300s about a flight before or during 66–70, well over two centuries on. (b) Josephus is the stronger witness. He is much closer in time, and as a non-Christian he has no reason to invent James or his standing; James comes up only in a story about Ananus. Eusebius is late, has a Christian interest in the Jerusalem church being providentially spared, and reports an oracle. (c) I would need a reason to think Eusebius was passing on something early, such as a named earlier source or independent corroboration. Without that the story is unproven, not disproved.
 
 </details>

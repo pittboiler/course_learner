@@ -104,16 +104,23 @@ Rows 1–4 are literal-sense claims; row 5 works at a different level. A Catholi
 **P2** *(Exegetical)*
 
 **Must hit, strict (a):** collective: **"my servant Israel"** (3), and **"in thee will I glory"**, God glorified in his people, as in 44:23. Individual: **"formed me from the womb"** (5) and a mission **to "bring back Jacob" / "raise up the tribes of Jacob"** (5–6), so the servant stands over against Israel. Credit also "I have laboured in vain" (4), a personal career.
+
 **Must hit, strict (b):** "not" (Douay, Vulgate) makes the servant's mission to Israel **fail**, which leads into the turn to the Gentiles in verse 6. "To him" makes it a mission to gather Israel **to God**, which verse 6 then enlarges. Either way the servant acts on Israel.
+
 **Must hit, strict (c):** Rashi takes the speaker of 49:1–6 to be **the prophet himself**, called from the womb to prophesy consolation. God's "light of the nations" charge means prophesying Babylon's fall.
+
 **Wrong turns:** claiming Rashi reads this Song of the nation, as he does 42:1 and 52:13. Citing 49:3's "Israel" as decisive: the individual reading reads it as a title.
+
 **Model answer:** (a) Collective: "my servant Israel", "in thee will I glory". Individual: "formed me from the womb", sent "to raise up the tribes of Jacob". (b) "Not" makes Israel refuse the gathering and motivates verse 6's turn to the nations. "To him" states the gathering as the goal. (c) Rashi reads it of Isaiah himself.
 
 **P3** *(Exegetical)*
 
 **Must hit, strict (a):** the crux is **whether "Israel" in 49:3 names a group within the nation or is a title given to one person**. Equivalently: whether the one sent to Israel can be *part* of Israel. A reads the singular "I" and "from the womb" as a personified collective, which Isaiah 40–55 does for Jacob-Israel elsewhere (44:2, 24). B must deny that the personification extends here. Evidence that would move it: whether the rest of chapters 40–55 uses "from the womb" of the *nation* (it does: in the Hebrew of 44:2 and 44:24 God formed Jacob "from the womb", which helps A). Or whether the first-person career details (labour "in vain", 49:4) fit a group (which helps B if they do not).
+
 **Must hit, strict (b):** Matthew takes the Greek's **"in his name the Gentiles shall hope"** (12:21) over the Hebrew's "the islands shall wait for his law". He does **not** take the Septuagint's added **"Jacob" and "Israel"**, so his text names no one and leaves the servant free to be Jesus.
+
 **Wrong turns:** making the crux "whether Israel means the nation", which both sides can grant elsewhere in 40–55. Saying Matthew simply quotes the Septuagint: his wording also departs from it ("my beloved", "whom I have chosen").
+
 **Model answer:** (a) The crux is whether "Israel" in 49:3 is a collective personified or a title for one person, since both agree the servant is sent to Israel. That the same book says God formed the nation "from the womb" (44:2, 24) supports the collective side. First-person details that no group could have would support the individual side. (b) Matthew follows the Greek in "in his name the Gentiles shall hope", but drops its "Jacob" and "Israel". His quotation therefore carries no collective label, and it can point to one person.
 
 </details>
@@ -130,8 +137,11 @@ Rows 1–4 are literal-sense claims; row 5 works at a different level. A Catholi
 <summary>Solution</summary>
 
 **Must hit, strict (a):** (1) **"The Church has settled" event versus vision.** Nothing magisterial settles it. Hosea 1 narrates it as fact ("went and took Gomer"), the Talmud (*Pesachim* 87a–b) takes it as real, Maimonides (*Guide* II.46) as a prophetic vision, and many moderns as a real marriage read as a sign-act. (2) **The *rib* as a fixed form used for every oracle.** The lawsuit genre is a form-critical hypothesis (Huffmon, Wright), doubted by De Roche and others. Prophets also use the judgment speech, the woe oracle and more. *Divino Afflante Spiritu* encouraged the study of forms but endorsed no classification. (3) **"Mercy" as pity.** It is *hesed*, loyal covenant love owed both ways. In 4:1 it is what *Israel* lacks, a charge, not a comfort, and in 6:6 it is what God asks of Israel. (4) **Hosea preached to Jerusalem.** He is the northern kingdom's own prophet, addressing Israel and Samaria before 722.
+
 **Must hit, strict (b):** "The Holy Spirit spoke through him": the Creed's "spake by the Prophets" (Constantinople I, 381), **creedal**, rung 1.
+
 **Wrong turns:** overcorrecting to "the marriage was certainly real" or "certainly a sign-act"; the point is that it is open. Treating De Roche's doubt as the Church's position. Glossing *rib* as anything other than a legal case or dispute.
+
 **Model answer:** (1) Event versus vision is open: the Talmud reads a real marriage, Maimonides a vision, moderns often a sign-act, and no Church teaching decides. (2) The covenant lawsuit is a contested form-critical hypothesis, one form among several, and *Divino Afflante Spiritu* endorsed no classification. (3) "Mercy" is *hesed*, covenant loyalty, and 4:1 charges Israel with lacking it. (4) Hosea prophesied to the northern kingdom, not Jerusalem. Right: the Spirit "spake by the Prophets" is creedal, rung 1.
 
 </details>

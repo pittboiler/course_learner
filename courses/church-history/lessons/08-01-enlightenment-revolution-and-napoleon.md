@@ -110,8 +110,11 @@ Both readings rest on true facts. They measure different things: the Church's le
 **P1** *(Exegetical.)*
 
 **Must hit, strict (a):** the First Consul, the head of the state, **nominates** (arts. 4–5), and the **pope confers canonical institution**, "following the forms established … before the change of government," meaning the arrangement of the Concordat of Bologna (1516). Compared with 1790, choosing passes from elected lay electors to the head of state, and institution passes from the metropolitan back to the pope, who in 1790 only received a letter (Title II arts. 17, 19).
+
 **Must hit, strict (b):** the Gallican principle that papal acts take effect in France only with the sovereign's consent. This is the old *placet*, in line with 1682's third article bounding papal power by the customs of the French Church, and the Organic Articles also made seminaries teach the Four Articles. Rome refused them because they were added unilaterally by the French government and published together with the Concordat as if agreed. The pope never signed them and protested them.
+
 **Wrong turns:** saying the Concordat restored election of bishops; saying the pope nominates; treating the Organic Articles as a negotiated part of the treaty.
+
 **Model answer:** (a) The First Consul chooses the bishop and the pope institutes him, as under the old Bologna arrangement. In 1790 lay electors chose and the metropolitan instituted, with the pope merely informed. (b) Article 1 revives the Gallican *placet*: no papal act runs in France without the government's authorisation, the principle of the 1682 articles that papal power is bounded by French custom. Rome rejected the Organic Articles because Bonaparte added them unilaterally to a bilateral treaty and published them as if they belonged to it.
 
 ---
@@ -119,8 +122,11 @@ Both readings rest on true facts. They measure different things: the Church's le
 **P2** *(Exegetical.)*
 
 **Must hit, strict (a):** the assumption is **continuity of intent**: that one anti-Christian design ran from Voltaire through 1789 to the Terror, so that every measure from 1789 to 1794 expressed it. It hides the Gallican and Catholic character of the first reforms and the turn made by the oath and the war.
+
 **Must hit, strict (b), any three:** (1) the Civil Constitution (July 1790) did not replace the Church with a state religion; it reorganized the *Catholic* Church (one diocese per department, elected clergy, state salaries). (2) Refractory priests refused the **oath to the constitution** (decreed 27 November 1790), not worship of Reason; the Festival of Reason came in November 1793, and dechristianizers struck juring clergy too. (3) The Concordat (1801) did **not** return church lands; art. 13 confirmed the buyers' ownership. Also acceptable: (4) 1789 did not "abolish" the Church; it nationalized church property (2 November 1789). (5) Whether *écrasez l'infâme* meant Christianity itself is disputed; the placard asserts the contested reading as fact.
+
 **Wrong turns:** listing the executions as the error (priests were executed, and the placard's mistake is the reason given); calling the Cult of the Supreme Being part of the Civil Constitution; treating "restore the Church" in 1801 as itself the error, when the Concordat did re-establish public worship and the hierarchy; the error is the lands.
+
 **Model answer:** (a) It assumes a single anti-Christian intention ran from Voltaire to the Terror, so the reforms of 1789–90 were steps toward 1793. (b) First, the Civil Constitution of July 1790 reorganized the Catholic Church, with elected clergy on state salaries; it did not replace it. Second, refractory priests refused the oath to the constitution decreed in November 1790, and the Festival of Reason came only in November 1793. Third, the 1801 Concordat did not return church lands; article 13 guaranteed the purchasers' titles.
 
 ---
@@ -128,7 +134,9 @@ Both readings rest on true facts. They measure different things: the Church's le
 **P3** *(Evaluative.)*
 
 **Must hit, any verdict:** (i) State what the oath did. It made a dispute over authority into a public test of loyalty, split the clergy into two churches, and turned refractories into political suspects, which led to the deportation decree of 1792, the prison killings of September 1792 and the Vendée. McManners's "went wrong" judgement is the case at its strongest. (ii) State the rival case. Enlightenment anticlericalism and the Jansenist-Gallican quarrels (Van Kley) had already made the clergy a problem the state felt entitled to solve, and the Civil Constitution itself came out of that climate. (iii) Deal with 1793–94. Dechristianization struck constitutional clergy too, and it grew out of war and Terror, which neither the oath nor Voltaire fully explains. (iv) Say what evidence would move the question, e.g. whether the targets and timing of repression tracked refractory resistance, or whether the Assembly could have enforced the Civil Constitution without an oath.
+
 **Wrong turns:** treating the oath and the Enlightenment as mutually exclusive when the claim is about weight; ignoring dechristianization's attack on jurors; assuming Voltaire called for violence against clergy.
+
 **Model answer (one of several):** Mostly true. The Assembly's first reforms were Gallican, and many Catholic deputies voted for them. What turned reform into war was the oath of 27 November 1790. It forced every priest into a public choice, created two churches, and made the refractory clergy suspects, which led to the deportations, the September massacres and the Vendée. Enlightenment hostility supplied a climate, and Van Kley shows that older Jansenist-Gallican quarrels shaped the Civil Constitution. But climate did not require a schism: a reform without the oath might have been absorbed, as Rome later absorbed an even more sweeping one in 1801. The weakness of my verdict is 1793–94. Dechristianization hit jurors too and owed more to war and Terror than to the oath. Evidence that repression tracked refractory resistance would strengthen the claim, and evidence that it did not would weaken it.
 
 </details>
@@ -141,8 +149,11 @@ Both readings rest on true facts. They measure different things: the Church's le
 <summary>Solution</summary>
 
 **Must hit, strict (a):** the shared rule is that no Christian may take part in idolatry. The dispute was over a fact, not a principle: what the thread and the other marks *meant* to the people who wore them.
+
 **Must hit, strict (b):** any two of the following, each applied to the thread rather than merely named: (1) *origin or present use*: if a practice's religious origin fixes its meaning, the critics win whatever converts intend; if present use fixes it, the question is what wearers in Madurai took the thread to signify; (2) *whose understanding counts*: the learned elite's account of their own marks (here the Brahmins') or the understanding of ordinary people; (3) *which informants and texts to trust*: whose reports reached Rome, and on what evidence.
+
 **Wrong turns:** saying the Jesuits held idolatry permissible for the sake of conversions; treating the dispute as a disagreement about doctrine; saying Rome banned the thread outright in 1623 (Gregory XV allowed the thread and tuft, with conditions; *Omnium sollicitudinum*, 1744, settled the Malabar rites and confirmed most of Rome's restrictions).
+
 **Model answer:** (a) Both sides held that a Christian may never take part in idolatry; they disagreed about a fact, whether the thread was a religious sign or a social one. (b) First, origin against present use: if the thread began as a religious sign and origin fixes meaning, it is forbidden whatever converts intend; if present use fixes it, the question is what wearers took it to mean. Second, whose understanding counts: the Brahmins' account of their own marks, or how ordinary people, and the missionaries' informants, understood them.
 
 </details>

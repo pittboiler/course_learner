@@ -113,8 +113,11 @@ Ruth · Daniel · Lamentations · Baruch · 1 Chronicles · Sirach
 **P2** *(Exegetical)*
 
 **Must hit, strict (a):** 2 Samuel 7 = **2 Kings 7**. 2 Kings 22:8 = **4 Kings 22:8** (Helcias finds the book of the law). Psalm 51 = **Psalm 50** (the *Miserere*; like the Hebrew, the Douay counts the heading as verses 1–2, so its verses run two ahead of most English Bibles). Nehemiah 8 = **2 Esdras 8**, "Nehemias, which is called the Second of Esdras".
+
 **Must hit, strict (b):** it marks the switch from **Hebrew to Aramaic** ("Syriac" is the Vulgate's word, following the Hebrew *'aramit*). The Aramaic runs from the Chaldeans' words in **2:4b to 7:28**.
+
 **Wrong turns:** reading 2 Kings 22 as the same chapter in both systems. Giving Psalm 52 (the one-lower rule runs the other way). Taking "Syriac" as the later Christian Syriac language, or as a comment on the speakers' nationality alone.
+
 **Model answer:** (a) 2 Kings 7; 4 Kings 22:8; Psalm 50; 2 Esdras (Nehemias) 8. (b) The phrase marks the point where the book itself changes from Hebrew into Aramaic, the language the courtiers speak. The Aramaic section runs from 2:4b to the end of chapter 7.
 
 **P3** *(Exegetical)*
@@ -125,7 +128,9 @@ Ruth · Daniel · Lamentations · Baruch · 1 Chronicles · Sirach
 - **"Proved the Bible was changed" is too crude.** Some scrolls show a second edition of a book, such as 4QJer^b, which follows the shorter Jeremiah the Septuagint translated. That is evidence of more than one edition before the text was standardized, not of tampering with a single original.
 
 **Must hit, strict (b):** Trent called the Vulgate **"authentic" in a juridical sense**, as the Latin text for public teaching. It passed no verdict against the Hebrew (FT 3.3). **Dei Verbum 22** asks for translations "especially from the original texts". That is conciliar teaching about practice, and it defines no manuscript. What Trent defined is the **list of books** (rung 1), not a textual edition.
+
 **Wrong turns:** answering "the Scrolls proved the Bible never changed", which is the opposite overstatement. Treating Trent's Vulgate decree as a dogma about the text.
+
 **Model answer:** The Scrolls are copies, not autographs: the Isaiah scroll dates from the second century BC. It matches the medieval Hebrew Isaiah closely, with differences mostly in spelling. Where scrolls do differ, as the short Jeremiah of 4QJer^b does, they show that more than one edition circulated, not that someone tampered with the text. Trent's decree made the Vulgate the authentic Latin text for public use, a juridical choice rather than a ranking above the Hebrew. What Trent defined was the list of books. Dei Verbum 22 asks for translations especially from the original languages, a conciliar directive about practice that settles no textual question.
 
 </details>

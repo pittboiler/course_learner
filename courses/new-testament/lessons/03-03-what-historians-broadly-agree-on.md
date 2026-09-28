@@ -147,8 +147,11 @@ Three **invented** readings:
 <summary>Solution</summary>
 
 **Must hit, strict (a):** (1) The **rationalist** explanation, a real natural event misunderstood. It assumes that events happened but the miracles did not. This is the view Strauss rejected alongside the supernaturalist one. (2) **Strauss**: myth, the early Church's faith and Old Testament patterns told as narrative. It assumes that the gospel form itself is faith, not report. (3) **Bultmann**: form-critical scepticism plus theological indifference. It assumes that the units are community proclamation, that the history is out of reach, and that faith needs only the kerygma's call to decision.
+
 **Must hit, strict (b):** It serves **reading 2**. The psalm gives the pattern (the Lord stills the storm for those who cry to him), and the disciples' question "who is this that both wind and sea obey him?" points to the psalm's answer. By itself the parallel does **not** show that the story was generated from the psalm: an evangelist telling a remembered event could echo Scripture just as well. An echo fits both the myth reading and the memory reading.
+
 **Wrong turns:** giving (1) to Reimarus, whose charge was deliberate fraud, not honest misunderstanding. Giving (3) to Kähler; his preached Christ is close, but the form-critical scepticism about the history is Bultmann's. Treating the psalm echo as proof of invention.
+
 **Model answer:** (a) 1: the rationalists; the events were real and natural, and the miracle is a misreading of them. 2: Strauss; the story is the Church's faith, shaped on Old Testament patterns, told as history. 3: Bultmann; the story is proclamation, its history is unrecoverable, and faith needs only the call to decide. (b) The psalm parallel serves Strauss, since it supplies the pattern of a Lord who stills the sea. But an echo of Scripture is equally what a writer telling a remembered event might produce, so the parallel alone cannot decide between myth and memory.
 
 </details>

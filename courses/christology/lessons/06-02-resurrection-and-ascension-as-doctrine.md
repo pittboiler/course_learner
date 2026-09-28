@@ -122,7 +122,9 @@ Three moves decide the reading:
 **P3** *(Exegetical)*
 
 **Must hit, strict (a):** *Error 1:* "left his body behind and became spirit ... everywhere at once." This drops or dissolves the humanity, and gives a divine attribute to the humanity as humanity. That is **Eutychian** absorption, or **Docetism** about the risen body; credit either if it names the lost humanity. *Error 2:* "the empty tomb doesn't matter." That detaches the resurrection from the body that was buried and denies the **bodily resurrection**. "Alive in us" also shifts the event into the believers.
+
 **Must hit, strict (b):** against 1: the ascension and session in the body, **defined dogma** (the Creed's "ascended ... sitteth"; Lateran IV "ascended in both"; the Creed's "kingdom shall have no end" for permanence). Against 2: he rose in his own flesh, **defined dogma** (the Creed; Lateran IV "rose in the flesh"). The tomb's emptiness follows from that dogma, even though its force as *evidence* is not defined (Catechism 640).
+
 **Must hit, strict (c):** the glorified Christ really is not confined as he was in Galilee. He is present how and when he wills (Catechism 645), and he is present to believers by his Spirit.
 
 **Wrong turns:** calling Error 1 Nestorian. Nothing splits the subject; the humanity is lost, not doubled. Citing Lateran IV's "all shall rise with their own bodies" for Christ. Marking the empty tomb itself as a separate defined article.

@@ -115,6 +115,7 @@ The province may redeem at 100. When market rates fall below the coupon, it can 
 Break-even with a 14 per cent life annuity: $7{,}000/n = 14 \Rightarrow n = 500$. Once more than half the nominees have died, the tontine share pays more.
 
 **Must hit, strict:** $P = C/r$ with correct values; the redemption cap at par; payment $7{,}000/n$; break-even at 500.
+
 **Wrong turns:** pricing the 3.5 per cent case at 114.29 and stopping, ignoring the call; dividing the pool by the dead rather than the living.
 
 ---

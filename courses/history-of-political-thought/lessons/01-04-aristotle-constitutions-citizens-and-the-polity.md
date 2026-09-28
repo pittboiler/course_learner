@@ -149,8 +149,11 @@ Where the scheme strains: nothing tells you *how much* self-interest turns a pol
 <summary>Solution</summary>
 
 **Must hit, strict (a):** reading (ii). "The greatest of all" ranks wisdom *among* the titles; it does not strike the rest from the list. Lot is called "quite just", so at least one title besides wisdom is endorsed outright. "Naturally opposed to each other" and "fountain-head of seditions" make the clash between titles, not the invalidity of six of them, the lawgiver's problem. That is the route to the *Laws*' mixed constitution (693d–e) and its election procedure as a mean (756e).
+
 **Must hit, strict (b):** wisdom now rules *through* law. In the *Laws*, law stands in for living knowledge that no one can safely hold (875c–d), and rulers serve it (715c–d). The *Republic*'s rulers rule by their own knowledge, with law as their instrument. Consent itself is not new: the *Republic*'s temperance was already agreement about who should rule (431d–432a).
+
 **Wrong turns:** choosing (i) because "greatest" sounds exclusive. Answering (b) with "willing subjects" as the novelty, when the *Republic* already required agreement between rulers and ruled.
+
 **Model answer:** (a) Reading (ii). Wisdom is "the greatest of all", a rank among real titles, and lot is called "quite just". The titles are "naturally opposed", a "fountain-head of seditions", so the lawgiver's task is to reconcile them, which the *Laws* does by mixing monarchy and democracy. (b) The wise rule as law, not over it. That is the *Laws*' retreat: law stands in for knowledge, where the *Republic*'s kings used law as their tool. Willing obedience was already the *Republic*'s temperance.
 
 </details>

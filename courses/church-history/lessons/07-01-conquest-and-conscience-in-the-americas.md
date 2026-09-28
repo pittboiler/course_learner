@@ -99,9 +99,13 @@ Name three claims in the placard that the record in this lesson contradicts or c
 **P1** *(Exegetical.)*
 
 **Must hit, strict (a):** it rejects the claim that the Indians are "dumb brutes" made for Spanish service and *incapable of receiving the faith*. The reason is that they are "truly men": they can understand the faith and, by the pope's information, want it. (Credit for noting that capacity for the faith is the hinge: the error is framed as an obstacle to preaching.)
+
 **Must hit, strict (b):** not by name. The operative words forbid depriving the Indians of "liberty" and "property" and forbid enslaving them. The encomienda was legally a grant of tribute and labour, not ownership of persons, so the text reaches it only if forced encomienda labour counts as loss of liberty. That is a question of application which the words leave open. "Null and of no effect" makes any enslavement legally void, not merely sinful.
+
 **Must hit, strict (c):** 2 June 1537. The Nones of June fall on the 5th, and Roman dates count inclusively backwards: 5, 4, 3, 2, so "the fourth day before the Nones" is 2 June.
+
 **Wrong turns:** (a) saying the bull rejects conquest as such, which it does not mention. (b) Answering "yes, it abolished the encomienda," which confuses the bull with the New Laws of 1542. (c) Counting exclusively, which gives 1 June, or accepting "4 June."
+
 **Model answer:** (a) It rejects the view that the Indians are like beasts, made to serve and unable to receive the faith, because they are "truly men" capable of the faith and eager for it. (b) Not expressly: it forbids taking their "liberty" and "property" and enslaving them, while the encomienda was legally neither ownership nor slavery. Whether forced encomienda labour violates "liberty" is left to application. (c) 2 June 1537: the Nones of June are the 5th, and counting inclusively four days back gives the 2nd.
 
 ---
@@ -114,7 +118,9 @@ Name three claims in the placard that the record in this lesson contradicts or c
 (iii) *"Disease, which no one could have prevented"*: most deaths were from disease, but Livi-Bacci argues that Hispaniola's Taíno were near extinction before smallpox (1518), with forced labour, war and famine as causes.
 (iv) *"Invented by Protestants"*: Protestants spread and exaggerated it, but its central text was the Spanish Dominican Las Casas's *Brevísima*, written for the Spanish king.
 What it gets right: *Sublimis Deus* did forbid enslavement; the laws were real and early; disease was the largest killer; Protestant propaganda did exploit the story.
+
 **Wrong turns:** calling the whole placard false (the brief asks what it gets right); counting "disease" as simply wrong rather than incomplete; confusing the 1512 and 1542 laws.
+
 **Model answer:** First, "Spain obeyed": Paul III annulled the enforcing brief in 1538 at Charles V's insistence, and the patronato let the crown screen papal letters. Second, "the laws protected": Burgos regulated forced labour and left it in place, and the New Laws' inheritance clause was withdrawn in 1545 after the Peruvian encomenderos revolted. Third, "no one could have prevented": disease killed most victims, but Hispaniola's population was collapsing before smallpox arrived, from forced labour, war and famine. The placard is right that the bull condemned enslavement and that disease was the largest cause of death. Protestant printers did spread the Black Legend, but its core text came from a Spanish friar.
 
 ---
@@ -122,8 +128,11 @@ What it gets right: *Sublimis Deus* did forbid enslavement; the laws were real a
 **P3** *(Exegetical (a) · Evaluative (b).)*
 
 **Must hit, strict (a):** the crux is **what the character of a colonial regime is to be judged by.** Hanke takes the debates, laws and reformers as telling evidence of what Spanish colonialism was, and as setting it apart from other empires. Keen denies that these outweigh practice and outcomes: he looks at enforcement, labour and mortality, and charges Hanke with a "White Legend." Evidence that would move it: enforcement records (how far the Laws of Burgos and New Laws changed labour and tribute on the ground), and comparisons with empires that did not hold such debates.
+
 **Must hit, any verdict (b):** (1) say which "Church" is meant (friars, bishops, Rome, clergy who held encomiendas, religious orders as slaveholders), since the claim may be true of one and false of another; (2) weigh evidence on both sides, at least one item from each: Montesinos, Las Casas, *Sublimis Deus* and Valladolid for the claim; *Inter caetera* as the title for conquest, the requerimiento, clerical encomenderos, and institutional slaveholding against it; (3) face the Africa problem: a conscience that did not extend to enslaved Africans for decades; (4) state a verdict and what would change it.
+
 **Wrong turns:** treating the 2015 apology or the 2023 note as evidence about the sixteenth century; letting Claver stand for the whole Church, or the encomenderos stand for it; deciding (b) by counting famous names.
+
 **Model answer (b), one of several:** Only if "Church" means its reforming friars. Montesinos, Las Casas and the Dominicans forced the crown to legislate, and Rome's *Sublimis Deus* backed them. But the same Church gave the conquest its title (*Inter caetera*) and its legal ritual (the requerimiento, which demanded submission to the Church). It lived under a patronage that let the crown silence Rome's strongest brief within a year, and its clergy and orders held encomiendas and later African slaves. A conscience is more than a voice in the room. The friars' protest changed law and rarely changed practice, and until late it stopped at Africa: Las Casas himself proposed African slaves before repenting. So "a conscience within the conquest" fits the record better than "the conscience of the conquest." Enforcement studies showing that the New Laws did change labour on the ground would push me toward the stronger claim.
 
 </details>
@@ -144,7 +153,9 @@ Identify three claims the record contradicts or complicates, and give the correc
 (2) *Bishops.* Trent's instruments of reform were bishops and parish priests, and the early Jesuits refused those offices. They served diocesan reform through teaching instead, as in the seminary opened in Borromeo's Milan in 1564, staffed by Jesuits.
 (3) *The name.* Historians have not agreed. Jedin (1946) set "Catholic Reform", a self-renewal with late-medieval roots, beside "Counter-Reformation", a self-defence; O'Malley (2000) argued that both labels distort and proposed "early modern Catholicism". Bossy and the confessionalization historians offered further frames.
 (4) *"Launched."* The pope approved an order formed by Ignatius of Loyola and his companions; he did not create it.
+
 **Wrong turns:** turning the answer into an argument over whether Trent was a reaction to Protestantism, when the script's claims are about the Jesuits and the label; saying the Jesuits never engaged Protestantism (they turned to Germany later); saying Jedin rejected the term "Counter-Reformation" (he kept it, alongside "Catholic Reform").
+
 **Model answer:** First, the Jesuits were not founded to stop Luther: Paul III approved them in 1540 for missions, preaching, sacraments and charity, and O'Malley finds anti-Protestant work incidental to them until the mid-1550s. Second, they did not become Trent's resident bishops. They refused episcopal and parish office, the very instruments of Trent's reform, and served it through schools and seminaries. Third, historians have not agreed on the name: Jedin paired "Catholic Reform" with "Counter-Reformation" in 1946, and O'Malley proposed "early modern Catholicism" in 2000.
 
 </details>

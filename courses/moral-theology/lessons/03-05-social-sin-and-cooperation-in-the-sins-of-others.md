@@ -170,9 +170,13 @@ A case written for the problem. In a cholera outbreak, Ines volunteers for the i
 <summary>Solution</summary>
 
 **Must hit, strict (a):** (1) the one who endures faces a **stronger** opponent; (2) he feels the danger as **present**, while the aggressor sees it as future; (3) endurance takes **length of time**, while aggression can be a sudden movement.
+
 **Must hit, strict (b):** **Jonah**: endurance, standing unmoved under a present danger for a long time, is the chief act (q.123 a.6). Ines fails on the **second** and **third** reasons: she was brave while the danger was still to come and briefly, and gave way when it was present and prolonged. The words are Aristotle's: "some hurry to meet danger, yet fly when the danger is present; this is not the behavior of a brave man."
+
 **Must hit, strict (c):** **No.** The passage ranks the acts, claiming only that endurance is *more difficult* and so the chief act. Aggression still belongs to fortitude; the article's body assigns it to fortitude as the virtue that moderates daring.
+
 **Wrong turns:** crediting Ines because she volunteered first, which confuses eagerness with firmness. Crediting Jonah's reluctance as the virtue. His reluctance counts for nothing; what counts is that he stayed. Reading "chief act" as "only act".
+
 **Model answer:** (a) The one who endures faces a stronger foe, feels the danger as present rather than coming, and must hold for a long time rather than move once. (b) Jonah shows endurance, the chief act. Ines fits the second and third reasons: she met the danger while it was future and brief, and fled once it was present, like those who "hurry to meet danger, yet fly when the danger is present." (c) No. Endurance is ranked first because it is harder, but attack remains an act of fortitude.
 
 </details>

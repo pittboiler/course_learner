@@ -99,20 +99,27 @@ Diagnose the paragraph: find the three distinct errors (one historical, one abou
 **P1** *(Exegetical)*
 
 **Must hit, strict (a):** Any two of the following. **Placement**: the prohibition is part of "the second commandment of the Teaching", an expansion of the Decalogue beside "Thou shalt not commit murder" (the ANF notes key the neighbouring precepts to Ex 20). **The verb**: "murder a child", the commandment's own verb. **Company**: it is listed with adultery, theft and false witness, not with ritual or discipline.
+
 **Must hit, strict (b):** No. The first clause, "murder a child by abortion", already forbids abortion. The textual question affects only whether the second clause adds infanticide ("the new-born") or restates the prohibition ("that which is begotten").
+
 **Wrong turns:** resting the argument on the disputed second clause. Claiming the passage distinguishes early from late abortion, or contains any theory of the soul; it has neither.
+
 **Model answer:** (a) The prohibition stands inside the "second commandment", an expansion of the Decalogue beside "Thou shalt not commit murder", and it uses the same verb: the child is *murdered*. (b) The reading does not matter for abortion, because "murder a child by abortion" in the first clause decides it; the variant only settles whether the second clause names infanticide or repeats the first.
 
 **P2** *(Exegetical)*
 
 **Must hit, strict:** (i) **Infallibly taught by the ordinary and universal magisterium**, confirmed by *Evangelium Vitae* 62 (1995). At least **rung 2**, and on the natural reading **rung 1**. Full credit for "at least definitive, commonly read as proposed as revealed" with the reason (EV 62 grounds it in the written Word of God and treats it as a case of the EV 57 norm, which the 1998 CDF commentary places in the first paragraph). (ii) **Freely disputed**: no act proposes it. The *Declaration on Procured Abortion* n.19 and *Donum Vitae* I.1 expressly decline to commit to it. (iii) **Authentic ordinary magisterium**: *Donum Vitae* I.1 (CDF, 1987), restated in EV 60. (iv) **Canonical discipline**, not doctrine: the penal law named in EV 62. **Changeable:** only (iv). A future pope could alter the penalty without contradicting any teaching.
+
 **Wrong turns:** calling (i) "ex cathedra" or "solemnly defined"; it is a confirmation of ordinary universal teaching. Calling (i) "authentic, non-definitive" (understating). Calling (ii) Church teaching. Treating (iv) as a doctrinal claim whose change would reverse (i).
+
 **Model answer:** (i) Infallibly taught by the ordinary universal magisterium, confirmed in EV 62: at least rung 2, naturally read as rung 1. (ii) Freely disputed; the 1974 *Declaration* (n.19) and *Donum Vitae* leave it open. (iii) Authentic ordinary magisterium, *Donum Vitae* I.1. (iv) Canonical discipline in current penal law, cited by EV 62. Only (iv) could be changed by a future pope without contradicting any teaching.
 
 **P3** *(Exegetical)*
 
 **Must hit, strict:** **Historical**: the judgment is attested from the start: *Didache* 2, Ancyra c.21 (314) treating abortion as grave sin needing years of penance, Sixtus V (1588) and Innocent XI (1679), long before 1869. **Aquinas**: he held delayed animation (ST I q.118 a.2 ad 2), but that bears on whether early abortion is *homicide*. He and his contemporaries still judged it a grave sin (*Declaration* 7); only the penalty was graded. **Discipline vs doctrine**: *Apostolicae Sedis* (1869) removed the "animated fetus" limit from a *penalty*. A change in who is excommunicated is not the origin of a moral judgment. **Level**: infallibly taught by the ordinary universal magisterium (EV 62), at least rung 2, so "another can unmake" is false.
+
 **Wrong turns:** conceding "not a serious matter" for early abortion because of Aquinas. Correcting the history but not the inference from penalty to doctrine. Calling EV 62 an *ex cathedra* definition.
+
 **Model answer:** The paragraph makes three errors. Historically, the judgment is ancient: the *Didache* forbids murdering a child by abortion, and Ancyra (314) treats it as a grave sin needing ten years' penance. On Aquinas: he did hold that the rational soul comes late (ST I q.118 a.2 ad 2), but medieval authors, him included, still called procured abortion a grave sin at every stage; delayed animation graded the penalty, not the permission. On 1869: Pius IX's *Apostolicae Sedis* dropped the "animated" limit that Gregory XIV had put on excommunication. It widened a penalty and created no teaching. The judgment itself is confirmed in EV 62 as taught infallibly by the ordinary and universal magisterium, at least rung 2. No pope can unmake it; a pope can only change the penalty.
 
 </details>

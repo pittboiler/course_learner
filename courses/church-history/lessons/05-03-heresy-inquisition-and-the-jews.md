@@ -108,7 +108,9 @@ Moore's later *The War on Heresy* (2012) moved to the sceptical side. Both sides
 (a) Low count: $41/636 = 0.0645$, so **6.4 percent**. High count: $45/636 = 0.0708$, so **7.1 percent**. Prison: $307/636 = 0.4827$, so **48.3 percent**. (Computed in Python; 42 gives 6.6 percent.)
 
 **Must hit, strict (b):** *against the claim, from the figures:* nearly half of those convicted (48.3 percent) were imprisoned, and 143 more were sentenced to wear crosses, so a low execution rate is not a low punishment rate. *What the figures cannot show:* any one of (1) the *severity* of the non-capital penalties, such as how long and how harsh the prison terms were (some were for life) and what years of wearing crosses cost; (2) the *deterrent* effect, since the threat of burning for relapse is what made penance enforceable; (3) *representativeness*, since this is one tribunal in one period and excludes the crusade's killings at Béziers and Montségur; (4) *who was never tried*, such as those who fled.
+
 **Wrong turns:** treating a low execution rate as proof of a lenient system; computing shares of the roughly 900 counts instead of the 636 people; saying the figures are unreliable, when they are the tribunal's own record.
+
 **Model answer:** (a) 6.4 percent at 41 executions, 7.1 percent at 45, and 48.3 percent imprisoned. (b) Against the claim: almost half of those convicted went to prison, and 143 more wore crosses, so few executions does not mean light punishment. What the claim needs and the figures cannot show: how harsh the lesser penalties were in practice. The counts do not say how long prisoners were held or in what conditions, and they cannot measure deterrence. The fire for relapse is what made every lesser sentence stick.
 
 ---
@@ -116,8 +118,11 @@ Moore's later *The War on Heresy* (2012) moved to the sceptical side. Both sides
 **P2** *(Exegetical.)*
 
 **Must hit, strict (a):** Pegg needs the premise that the inquisitors' fixed questions (and the notaries' Latin translation) shaped the testimony, so that the dualist system in the records reflects the prosecutors' categories more than the deponents' beliefs. Hamilton must deny or weaken it: the records largely report something that was really there.
+
 **Must hit, strict (b):** for Hamilton, texts written by dualists themselves, such as the *Book of the Two Principles* and the Cathar rituals, or the Saint-Félix account and the links to the Bogomils. For Pegg, the scarcity point: villagers' own beliefs survive almost only in depositions, so independent evidence from Languedoc's ordinary believers is thin. That thinness is the ground of his argument.
+
 **Wrong turns:** saying Pegg denies that anyone was persecuted; treating a text from a hostile polemicist as independent of the prosecutors' categories; saying Hamilton accepts the records uncritically.
+
 **Model answer:** (a) The premise is that the questions produced the answers: the dualist system in the depositions came from the inquisitors' questionnaires and the notaries' translation, not from the villagers. Hamilton must weaken it. (b) Hamilton can point to dualist texts written by insiders, such as the *Book of the Two Principles* and the rituals, and to the Saint-Félix account of Nicetas ordaining bishops. Independent evidence for Pegg is scarce by nature, since villagers left few records of their own. His case rests on reading the depositions against their questions.
 
 ---
@@ -125,9 +130,13 @@ Moore's later *The War on Heresy* (2012) moved to the sceptical side. Both sides
 **P3** *(Exegetical (a) · Evaluative (b).)*
 
 **Must hit, strict (a):** (1) "reported by those who heard them": the only source is Caesarius of Heisterbach, writing c. 1219–1223 in the Rhineland, who says the abbot "is said to have replied"; no eyewitness records it. (2) "all 20,000 people": 20,000 is Arnaud's own report of the dead, not the population; the town probably held about 10,000–14,500, and some escaped. (3) "ordered": that Arnaud gave such an order is unverified; the massacre is documented, the command is not. The date and place are correct, so an answer that merges (1) and (3) has found only two errors.
+
 **Must hit, any verdict (b):** separate the saying's historicity from its representativeness; weigh what the documented record shows, such as the legate's own report of the killing as a victory, Caesarius's approving gloss, and later sieges and burnings, against the parts of the war it would misdescribe, such as the conquest's political aims and the later inquisitors' preference for penance over killing.
+
 **Wrong turns:** concluding that because the quotation is doubtful the massacre is too; treating Caesarius as an eyewitness; grading the placard wrong for using the quotation at all rather than for presenting it as attested.
+
 **Model answer (a):** The words are not reported by hearers: the only source is Caesarius, a Rhineland monk writing a decade later, who says the abbot "is said to have replied". 20,000 is Arnaud's own inflated count of the dead, not the town's population, which was probably 10,000–14,500, and some escaped. And no reliable source shows Arnaud giving the order; the massacre is documented, the command is not.
+
 **Model answer (b), one of several:** Partly. The saying is unverified, but the attitude it expresses is documented: Arnaud reported the slaughter to the pope as part of a victory, and Caesarius, writing for novices, thought the reasoning sound. As a summary of 1209 it is fair. As a summary of the whole war it is not. The war was also a northern conquest of the south, and the inquisitors who followed mostly imposed penance, not death. A defensible placard would quote it as "attributed, a decade later" and let the legate's letter carry the charge.
 
 </details>
@@ -140,8 +149,11 @@ Moore's later *The War on Heresy* (2012) moved to the sceptical side. Both sides
 <summary>Solution</summary>
 
 **Must hit, strict (a):** John's resignation of England and Ireland (1213); annulment of Magna Carta (1215); *Clericis laicos* (1296); *Etsi de statu* (1297); *Unam Sanctam* (1302); Anagni (1303); *Meruit* (1306). Years must be right; month-level precision is not required.
+
 **Must hit, strict (b):** (1) *Clericis laicos* narrowed by *Etsi de statu*, both Boniface VIII's: the king could tax his clergy without consulting Rome in a case of necessity, and the king himself judged the necessity. (2) *Unam Sanctam* narrowed by Clement V's *Meruit*: the bull was declared to have placed France under the Roman Church no differently than before, so it created no new subjection of the French king or kingdom.
+
 **Wrong turns:** pairing the Magna Carta annulment with John's surrender (the annulment defended the fief; it did not narrow it); naming *Rex gloriae* (1311) as the text that narrowed *Unam Sanctam*, when that bull exonerated Philip's zeal and closed the posthumous trial of Boniface; placing *Etsi de statu* after Anagni.
+
 **Model answer:** (a) 1213 John's surrender; 1215 Magna Carta annulled; 1296 *Clericis laicos*; 1297 *Etsi de statu*; 1302 *Unam Sanctam*; 1303 Anagni; 1306 *Meruit*. (b) *Etsi de statu* narrowed *Clericis laicos*: in an emergency the French king could tax his clergy without papal consent, and he decided when the emergency existed. *Meruit* narrowed *Unam Sanctam*: Clement V declared that the bull left France subject to the Roman Church no differently than it had been before 1302.
 
 </details>

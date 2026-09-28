@@ -166,8 +166,11 @@ That is the strain in one sentence: the Fathers ran a debt owed **to God** and a
 <summary>Solution</summary>
 
 **Must hit, strict (a):** 1 → Colossians 2:13–14: *charisamenos* ("forgiving", a free grant) or *exaleipsas* ("blotting out"). 2 → 1 Corinthians 6:20 / 7:22–23: *agorazō* ("bought with a price"), with the bought man becoming "the bondman of Christ". 3 → Philemon 18–19: *elloga* ("put that to my account") or *apotisō* ("I will repay"). 4 → Romans 4:4: *kata opheilēma*, "according to debt".
+
 **Must hit, strict (b):** Document 1 is the remission: the creditor cancels and nobody pays. Document 2 names a payee, the slave owner. The purchase texts name a captive, a price and a new owner (God, Revelation 5:9) but never say who received the price.
+
 **Must hit, strict (c):** Paul denies that justification is a wage God owes; it is "according to grace". That the justified truly merit eternal life is **defined** (Trent VI, canon 32). Trent's chapter 16 grounds that merit in God's promise and his own gifts ("His own gifts be their merits"), not in strict debt.
+
 **Wrong turns:** matching document 2 to Delphi as though the parallel were established. In the Delphic rite the slave pays his own price, which is one of the critics' objections. Matching document 3 to Colossians because both involve a handwritten bond: in Colossians nobody pays, while document 3 has a third party paying. In (c), calling merit "only a pious opinion", which understates canon 32.
 
 **Model answer:** (a) 1 is Colossians' *charisamenos*, a bond forgiven and wiped out. 2 is Paul's *agorazō*, bought with a price into a new master's service. 3 is Philemon's *elloga* and *apotisō*, a debt charged to a third party who will repay. 4 is Romans 4:4's *kata opheilēma*. (b) Document 1 is pure remission. Document 2 names who was paid, which no New Testament purchase text does. (c) Paul denies that justification is wages owed. Trent defines that the justified truly merit eternal life (VI, can. 32) but grounds that merit in God's promise and gifts (ch. 16), so God owes it only because he bound himself.

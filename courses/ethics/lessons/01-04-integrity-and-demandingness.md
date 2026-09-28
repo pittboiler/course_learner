@@ -113,8 +113,11 @@ Three replies each give her a stopping point, and each pays a price.
 **P1** *(Exegetical — strict.)*
 
 **Must hit, strict (a):** sentence 3 is the **integrity** objection. The theory requires her to give up a ground project, "the one thing she is for", whenever the sum tips, which cuts her off from her own life from the inside. Sentence 4 is the **demandingness** objection, in the form of **supererogation**: some sacrifice is admirable but not required.
+
 **Must hit, strict (b):** sentence 2 concedes the **verdict** (the consequentialist arithmetic may be correct) while objecting to what the theory *is*, just as Williams grants that Jim probably should shoot but objects that the theory finds it obvious and misdescribes the situation.
+
 **Wrong turns:** calling sentence 3 the separateness-of-persons objection from 1.3. That objection concerns a *victim* sacrificed for others, and here the person asked to give something up is the agent herself. Reading sentence 2 as sarcasm. Nothing in the passage signals it.
+
 **Model answer:** (a) Sentence 3 is integrity: the theory can order her to abandon a defining project, treating it as one preference among many. Sentence 4 is demandingness, stated as supererogation: sainthood is above duty. (b) It concedes the verdict and objects to the reasoning, which is Williams's move on Jim.
 
 ---
@@ -122,8 +125,11 @@ Three replies each give her a stopping point, and each pays a price.
 **P2** *(Exegetical (a) — strict · Formal (b).)*
 
 **Must hit, strict (a):** (i) both versions: give up the first ticket, since a concert is neither of comparable importance nor morally significant next to a 1-in-20 chance at a child's life. (ii) The strong version requires giving all 5,000 dollars and more, stopping only where further giving costs about as much as it prevents. The moderate version gives **no determinate verdict**: whether losing every concert and hobby for a year is "morally significant" is exactly what it leaves open.
+
 **Must hit (b):** expected benefit of donating $= \frac{250}{5000}\times 2000 = 0.05 \times 2000 = 100$ units. Keeping is permitted when $M \times 40 \ge 100$, so $M \ge 100/40 = 2.5$. Smallest $M = 2.5$. Check: at $M = 1$, $40 < 100$, so give, which is the impartial verdict.
+
 **Wrong turns:** saying the moderate version permits keeping the entire 5,000 dollars. It doesn't say that; it goes silent. Comparing 40 with 2,000 instead of with the *expected* 100.
+
 **Model answer:** (a) (i) Strong and moderate both say give it up. (ii) Strong says give it all and keep going; moderate does not determine an answer. (b) $0.05 \times 2000 = 100$; $40M \ge 100 \Rightarrow M \ge 2.5$.
 
 ---
