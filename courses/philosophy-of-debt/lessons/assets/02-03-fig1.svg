@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 410" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="800" height="410" fill="#ffffff"/>
+<text x="400" y="28" text-anchor="middle" font-size="16" fill="#111">One lender, two one-year loans: each rate in layers (percentage points)</text>
+<text x="140" y="101" text-anchor="end" font-size="13" fill="#111">Workshop loan</text>
+<text x="140" y="117" text-anchor="end" font-size="13" fill="#111">at 9%</text>
+<path d="M 150.00 80 L 150.00 74 L 212.00 74 L 212.00 80" fill="none" stroke="#333" stroke-width="1.2"/>
+<text x="181.00" y="69" text-anchor="middle" font-size="12" fill="#333">safe rate 4 (opportunity cost)</text>
+<rect x="150.00" y="84" width="23.25" height="40" fill="#1a6fb5" stroke="#333" stroke-width="1"/>
+<text x="161.62" y="109" text-anchor="middle" font-size="12" fill="#ffffff">1.5</text>
+<rect x="173.25" y="84" width="38.75" height="40" fill="#2e8b57" stroke="#333" stroke-width="1"/>
+<text x="192.62" y="109" text-anchor="middle" font-size="12" fill="#ffffff">2.5</text>
+<rect x="212.00" y="84" width="67.17" height="40" fill="#d1495b" stroke="#333" stroke-width="1"/>
+<text x="245.58" y="109" text-anchor="middle" font-size="12" fill="#ffffff">4.33</text>
+<rect x="279.17" y="84" width="10.33" height="40" fill="#d9d9d9" stroke="#333" stroke-width="1"/>
+<line x1="279.17" y1="82" x2="279.17" y2="134" stroke="#111" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="279.17" y="148" text-anchor="middle" font-size="12" fill="#111">break-even 8.33</text>
+<text x="295.50" y="109" text-anchor="start" font-size="12" fill="#333">0.67 residual; total 9.00</text>
+<text x="140" y="217" text-anchor="end" font-size="13" fill="#111">Harvest loan</text>
+<text x="140" y="233" text-anchor="end" font-size="13" fill="#111">at 35%</text>
+<path d="M 150.00 196 L 150.00 190 L 212.00 190 L 212.00 196" fill="none" stroke="#333" stroke-width="1.2"/>
+<text x="181.00" y="185" text-anchor="middle" font-size="12" fill="#333">safe rate 4 (opportunity cost)</text>
+<rect x="150.00" y="200" width="23.25" height="40" fill="#1a6fb5" stroke="#333" stroke-width="1"/>
+<text x="161.62" y="225" text-anchor="middle" font-size="12" fill="#ffffff">1.5</text>
+<rect x="173.25" y="200" width="38.75" height="40" fill="#2e8b57" stroke="#333" stroke-width="1"/>
+<text x="192.62" y="225" text-anchor="middle" font-size="12" fill="#ffffff">2.5</text>
+<rect x="212.00" y="200" width="179.11" height="40" fill="#d1495b" stroke="#333" stroke-width="1"/>
+<text x="301.56" y="225" text-anchor="middle" font-size="12" fill="#ffffff">11.56</text>
+<rect x="391.11" y="200" width="301.39" height="40" fill="#d9d9d9" stroke="#333" stroke-width="1"/>
+<text x="541.81" y="225" text-anchor="middle" font-size="12" fill="#111">19.44 residual</text>
+<line x1="391.11" y1="198" x2="391.11" y2="250" stroke="#111" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="391.11" y="264" text-anchor="middle" font-size="12" fill="#111">break-even 15.56</text>
+<rect x="692.50" y="200" width="77.50" height="40" fill="none" stroke="#333" stroke-width="1.2" stroke-dasharray="5 3"/>
+<text x="770.00" y="264" text-anchor="end" font-size="12" fill="#333">borrower would pay up to 40</text>
+<line x1="150.00" y1="290" x2="770.00" y2="290" stroke="#111" stroke-width="1.5"/>
+<line x1="150.00" y1="290" x2="150.00" y2="296" stroke="#111" stroke-width="1"/>
+<text x="150.00" y="311" text-anchor="middle" font-size="12" fill="#333">0</text>
+<line x1="227.50" y1="290" x2="227.50" y2="296" stroke="#111" stroke-width="1"/>
+<text x="227.50" y="311" text-anchor="middle" font-size="12" fill="#333">5</text>
+<line x1="305.00" y1="290" x2="305.00" y2="296" stroke="#111" stroke-width="1"/>
+<text x="305.00" y="311" text-anchor="middle" font-size="12" fill="#333">10</text>
+<line x1="382.50" y1="290" x2="382.50" y2="296" stroke="#111" stroke-width="1"/>
+<text x="382.50" y="311" text-anchor="middle" font-size="12" fill="#333">15</text>
+<line x1="460.00" y1="290" x2="460.00" y2="296" stroke="#111" stroke-width="1"/>
+<text x="460.00" y="311" text-anchor="middle" font-size="12" fill="#333">20</text>
+<line x1="537.50" y1="290" x2="537.50" y2="296" stroke="#111" stroke-width="1"/>
+<text x="537.50" y="311" text-anchor="middle" font-size="12" fill="#333">25</text>
+<line x1="615.00" y1="290" x2="615.00" y2="296" stroke="#111" stroke-width="1"/>
+<text x="615.00" y="311" text-anchor="middle" font-size="12" fill="#333">30</text>
+<line x1="692.50" y1="290" x2="692.50" y2="296" stroke="#111" stroke-width="1"/>
+<text x="692.50" y="311" text-anchor="middle" font-size="12" fill="#333">35</text>
+<line x1="770.00" y1="290" x2="770.00" y2="296" stroke="#111" stroke-width="1"/>
+<text x="770.00" y="311" text-anchor="middle" font-size="12" fill="#333">40</text>
+<text x="460.00" y="330" text-anchor="middle" font-size="12" fill="#333">percentage points of the rate (illustrative figures)</text>
+<rect x="40" y="358" width="14" height="14" fill="#1a6fb5" stroke="#333" stroke-width="1"/>
+<text x="60" y="370" font-size="12" fill="#111">pure time preference: B&#246;hm-Bawerk&#8217;s 2nd ground</text>
+<rect x="420" y="358" width="14" height="14" fill="#2e8b57" stroke="#333" stroke-width="1"/>
+<text x="440" y="370" font-size="12" fill="#111">rest of the safe rate: his 1st and 3rd grounds</text>
+<rect x="40" y="384" width="14" height="14" fill="#d1495b" stroke="#333" stroke-width="1"/>
+<text x="60" y="396" font-size="12" fill="#111">expected loss: a premium for risk, not interest</text>
+<rect x="420" y="384" width="14" height="14" fill="#d9d9d9" stroke="#333" stroke-width="1"/>
+<text x="440" y="396" font-size="12" fill="#111">residual: no defender&#8217;s ground as stated</text>
+</svg>

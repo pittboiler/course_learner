@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" width="800" height="380" font-family="Helvetica, Arial, sans-serif">
+  <title>Marx&#8217;s example of interest-bearing capital: the circuit and the split of the surplus</title>
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#333"/>
+    </marker>
+    <marker id="arrRed" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="800" height="380" fill="#ffffff"/>
+
+  <text x="400" y="22" font-size="15" font-weight="bold" fill="#111" text-anchor="middle">Marx&#8217;s example (Capital III, ch. XXI): 100 lent, profit 20, interest 5</text>
+
+  <path d="M200,64 L200,54 L780,54 L780,64" fill="none" stroke="#1a6fb5" stroke-width="1.5" stroke-dasharray="5,4"/>
+  <text x="490" y="46" font-size="12" fill="#1a6fb5" text-anchor="middle">the process M&#8211;C&#8230;C&#8242;&#8211;M&#8242;, which drops out of the lender&#8217;s view</text>
+
+  <rect x="20" y="70" width="140" height="58" rx="6" fill="#fdecef" stroke="#d1495b" stroke-width="1.5"/>
+  <text x="90" y="94" font-size="13" font-weight="bold" fill="#111" text-anchor="middle">A lends 100</text>
+  <text x="90" y="113" font-size="12" fill="#333" text-anchor="middle">owner, not producer</text>
+
+  <rect x="200" y="70" width="210" height="58" rx="6" fill="#f2f2f2" stroke="#333" stroke-width="1.5"/>
+  <text x="305" y="94" font-size="13" font-weight="bold" fill="#111" text-anchor="middle">B buys inputs</text>
+  <text x="305" y="113" font-size="12" fill="#333" text-anchor="middle">materials 60, labour-power 40</text>
+
+  <rect x="450" y="70" width="150" height="58" rx="6" fill="#f2f2f2" stroke="#333" stroke-width="1.5"/>
+  <text x="525" y="94" font-size="13" font-weight="bold" fill="#111" text-anchor="middle">Workers produce</text>
+  <text x="525" y="113" font-size="12" fill="#333" text-anchor="middle">output worth 120</text>
+
+  <rect x="635" y="70" width="145" height="58" rx="6" fill="#f2f2f2" stroke="#333" stroke-width="1.5"/>
+  <text x="707" y="94" font-size="13" font-weight="bold" fill="#111" text-anchor="middle">B sells output</text>
+  <text x="707" y="113" font-size="12" fill="#333" text-anchor="middle">M&#8242; = 120</text>
+
+  <line x1="160" y1="99" x2="198" y2="99" stroke="#333" stroke-width="1.5" marker-end="url(#arr)"/>
+  <line x1="410" y1="99" x2="448" y2="99" stroke="#333" stroke-width="1.5" marker-end="url(#arr)"/>
+  <line x1="600" y1="99" x2="633" y2="99" stroke="#333" stroke-width="1.5" marker-end="url(#arr)"/>
+
+  <path d="M707,128 L707,156 L90,156 L90,131" fill="none" stroke="#d1495b" stroke-width="1.5" marker-end="url(#arrRed)"/>
+  <text x="400" y="176" font-size="12" fill="#111" text-anchor="middle">B repays 105 (principal 100 + interest 5) and keeps 15 as profit of enterprise</text>
+  <text x="400" y="196" font-size="12" font-weight="bold" fill="#d1495b" text-anchor="middle">All A sees: 100 out, 105 back, M&#8211;M&#8242;</text>
+
+  <text x="20" y="226" font-size="13" font-weight="bold" fill="#111">The same year as value (the 60/40 split is illustrative)</text>
+
+  <path d="M633.3,248 L633.3,242 L750,242 L750,248" fill="none" stroke="#111" stroke-width="1.2"/>
+  <text x="691.7" y="237" font-size="12" font-weight="bold" fill="#111" text-anchor="middle">s = 20: surplus value</text>
+
+  <rect x="50" y="250" width="350" height="40" fill="#d9d9d9" stroke="#333" stroke-width="1"/>
+  <rect x="400" y="250" width="233.3" height="40" fill="#cfe0f1" stroke="#333" stroke-width="1"/>
+  <rect x="633.3" y="250" width="29.2" height="40" fill="#d1495b" stroke="#333" stroke-width="1"/>
+  <rect x="662.5" y="250" width="87.5" height="40" fill="#2e8b57" stroke="#333" stroke-width="1"/>
+  <text x="225" y="275" font-size="13" fill="#111" text-anchor="middle">c = 60</text>
+  <text x="516.7" y="275" font-size="13" fill="#111" text-anchor="middle">v = 40</text>
+  <text x="647.9" y="275" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">5</text>
+  <text x="706.3" y="275" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">15</text>
+
+  <rect x="50" y="308" width="12" height="12" fill="#d9d9d9" stroke="#333" stroke-width="1"/>
+  <text x="68" y="318" font-size="12" fill="#111">c = 60: materials and wear, value passed on</text>
+  <rect x="430" y="308" width="12" height="12" fill="#cfe0f1" stroke="#333" stroke-width="1"/>
+  <text x="448" y="318" font-size="12" fill="#111">v = 40: wages, the value of labour-power</text>
+  <rect x="50" y="336" width="12" height="12" fill="#d1495b" stroke="#333" stroke-width="1"/>
+  <text x="68" y="346" font-size="12" fill="#111">interest = 5: to A, the fruit of ownership</text>
+  <rect x="430" y="336" width="12" height="12" fill="#2e8b57" stroke="#333" stroke-width="1"/>
+  <text x="448" y="346" font-size="12" fill="#111">profit of enterprise = 15: to B, the fruit of function</text>
+</svg>
