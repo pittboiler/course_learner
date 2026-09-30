@@ -243,12 +243,12 @@ changes the brief lists) → roots (`ethics`, `fundamental-theology`,
 
 **Philosophy (Field 11)** · 15 courses · ~357 lessons
 
-- [ ] `philosophical-method` — Philosophical Method (1, 16) — syllabus ✓ (2026-09-15), lessons pending
-- [ ] `ancient-medieval-philosophy` — Ancient & Medieval Philosophy (1, 29) — syllabus ✓ (2026-09-15), lessons pending
+- [x] `philosophical-method` — Philosophical Method (1, 16) — syllabus ✓ (2026-09-15) — **lessons ✓** (16 lessons + reference card, prepped 2026-09-15)
+- [x] `ancient-medieval-philosophy` — Ancient & Medieval Philosophy (1, 29) — syllabus ✓ (2026-09-15) — **lessons ✓** (29 lessons + reference card, prepped 2026-09-16)
 - [ ] `modern-philosophy` — Modern Philosophy (1, 27) — syllabus ✓ (2026-09-15), lessons pending
-- [ ] `ethics` — Ethics (1, 26) — syllabus ✓ (2026-09-15), lessons pending
+- [x] `ethics` — Ethics (1, 26) — syllabus ✓ (2026-09-15) — **lessons ✓** (26 lessons + reference card, prepped 2026-09-16)
 - [ ] `epistemology` — Epistemology (1, 23) — syllabus ✓ (2026-09-15), lessons pending
-- [ ] `metaphysics` — Metaphysics (1, 26) — syllabus ✓ (2026-09-15), lessons pending
+- [x] `metaphysics` — Metaphysics (1, 26) — syllabus ✓ (2026-09-15) — **lessons ✓** (26 lessons + reference card, prepped 2026-09-16)
 - [ ] `decision-theory` — Decision Theory (1, 23) — syllabus ✓ (2026-09-15), lessons pending
 - [ ] `philosophy-of-religion` — Philosophy of Religion (1, 24) — syllabus ✓ (2026-09-15), lessons pending
 - [ ] `philosophy-of-mind` — Philosophy of Mind (2, 25) — syllabus ✓ (2026-09-15), lessons pending
@@ -257,18 +257,18 @@ changes the brief lists) → roots (`ethics`, `fundamental-theology`,
 - [ ] `philosophy-of-language-and-logic` — Philosophy of Language & Logic (2, 23) — syllabus ✓ (2026-09-15), lessons pending
 - [ ] `phenomenology-and-personalism` — Phenomenology & Personalism (2, 21) — syllabus ✓ (2026-09-15), lessons pending
 - [ ] `philosophy-of-economics` — Philosophy of Economics (2, 21) — syllabus ✓ (2026-09-15), lessons pending
-- [ ] `philosophy-of-debt` — Philosophy of Debt (2, 22) — syllabus ✓ (2026-09-15), lessons pending
+- [x] `philosophy-of-debt` — Philosophy of Debt (2, 22) — syllabus ✓ (2026-09-15) — **lessons ✓** (22 lessons + reference card, prepped 2026-09-28)
 
 **Politics & Society (Field 10)** · 14 courses · ~346 lessons
 
 - [ ] `political-philosophy` — Political Philosophy (1, 26) — syllabus ✓ (2026-09-15), lessons pending
 - [ ] `political-institutions` — Political Institutions (1, 25) — syllabus ✓ (2026-09-15), lessons pending
-- [ ] `history-of-political-thought` — History of Political Thought (1, 27) — syllabus ✓ (2026-09-15), lessons pending
+- [x] `history-of-political-thought` — History of Political Thought (1, 27) — syllabus ✓ (2026-09-15) — **lessons ✓** (27 lessons + reference card, prepped 2026-09-16)
 - [ ] `social-theory` — Social Theory (1, 24) — syllabus ✓ (2026-09-15), lessons pending
 - [ ] `comparative-politics` — Comparative Politics (1, 25) — syllabus ✓ (2026-09-15), lessons pending
 - [ ] `international-relations` — International Relations (1, 23) — syllabus ✓ (2026-09-15), lessons pending
 - [ ] `constitutional-law` — Constitutional Law (1, 26) — syllabus ✓ (2026-09-15), lessons pending
-- [ ] `history-of-debt` — A History of Debt (1, 29) — syllabus ✓ (2026-09-15), lessons pending
+- [x] `history-of-debt` — A History of Debt (1, 29) — syllabus ✓ (2026-09-15) — **lessons ✓** (29 lessons + reference card, prepped 2026-09-17)
 - [ ] `political-economy` — Political Economy & Social Choice (2, 25) — syllabus ✓ (2026-09-15), lessons pending
 - [ ] `philosophy-of-law` — Philosophy of Law (2, 23) — syllabus ✓ (2026-09-15), lessons pending
 - [ ] `social-choice` — Social Choice Theory (2, 24) — syllabus ✓ (2026-09-15), lessons pending
@@ -278,27 +278,27 @@ changes the brief lists) → roots (`ethics`, `fundamental-theology`,
 
 **Catholic Theology (Field 12)** · 16 courses · ~422 lessons
 
-- [ ] `fundamental-theology` — Fundamental Theology (1, 22) — syllabus ✓ (2026-09-15), lessons pending
-- [ ] `old-testament` — The Old Testament (1, 27) — syllabus ✓ (2026-09-15), lessons pending
-- [ ] `new-testament` — The New Testament (1, 27) — syllabus ✓ (2026-09-15), lessons pending
-- [ ] `patristics` — The Church Fathers (1, 24) — syllabus ✓ (2026-09-15), lessons pending
-- [ ] `church-history` — Church History (1, 31) — syllabus ✓ (2026-09-15), lessons pending
-- [ ] `thomistic-synthesis` — The Thomistic Synthesis (2, 24) — syllabus ✓ (2026-09-15), lessons pending
-- [ ] `trinity-and-god` — The Triune God (2, 25) — syllabus ✓ (2026-09-15), lessons pending
-- [ ] `christology` — Christology (2, 24) — syllabus ✓ (2026-09-15), lessons pending
+- [x] `fundamental-theology` — Fundamental Theology (1, 22) — syllabus ✓ (2026-09-15) — **lessons ✓** (22 lessons + reference card, prepped 2026-09-15)
+- [x] `old-testament` — The Old Testament (1, 27) — syllabus ✓ (2026-09-15) — **lessons ✓** (27 lessons + reference card, prepped 2026-09-24)
+- [x] `new-testament` — The New Testament (1, 27) — syllabus ✓ (2026-09-15) — **lessons ✓** (27 lessons + reference card, prepped 2026-09-23)
+- [x] `patristics` — The Church Fathers (1, 24) — syllabus ✓ (2026-09-15) — **lessons ✓** (24 lessons + reference card, prepped 2026-09-22)
+- [x] `church-history` — Church History (1, 31) — syllabus ✓ (2026-09-15) — **lessons ✓** (31 lessons + reference card, prepped 2026-09-22)
+- [x] `thomistic-synthesis` — The Thomistic Synthesis (2, 24) — syllabus ✓ (2026-09-15) — **lessons ✓** (24 lessons + reference card, prepped 2026-09-22)
+- [x] `trinity-and-god` — The Triune God (2, 25) — syllabus ✓ (2026-09-15) — **lessons ✓** (25 lessons + reference card, prepped 2026-09-23)
+- [x] `christology` — Christology (2, 24) — syllabus ✓ (2026-09-15) — **lessons ✓** (24 lessons + reference card, prepped 2026-09-23)
 - [ ] `creation-grace-last-things` — Creation, Grace & the Last Things (2, 28) — syllabus ✓ (2026-09-15), lessons pending
 - [ ] `ecclesiology-and-mariology` — The Church & Mary (2, 25) — syllabus ✓ (2026-09-15), lessons pending
 - [ ] `sacraments-and-liturgy` — Sacraments & Liturgy (2, 25) — syllabus ✓ (2026-09-15), lessons pending
-- [ ] `moral-theology` — Moral Theology (2, 28) — syllabus ✓ (2026-09-15), lessons pending
+- [x] `moral-theology` — Moral Theology (2, 28) — syllabus ✓ (2026-09-15) — **lessons ✓** (28 lessons + reference card, prepped 2026-09-25)
 - [ ] `catholic-social-teaching` — Catholic Social Teaching (2, 27) — syllabus ✓ (2026-09-15), lessons pending
 - [ ] `apologetics-foundations` — Apologetics I: God, Christ & the Religions (2, 31) — syllabus ✓ (2026-09-15), lessons pending
 - [ ] `apologetics-catholic-claims` — Apologetics II: The Catholic Claims (2, 29) — syllabus ✓ (2026-09-15), lessons pending
-- [ ] `theology-of-debt` — Theology of Debt (2, 26) — syllabus ✓ (2026-09-15), lessons pending
+- [x] `theology-of-debt` — Theology of Debt (2, 26) — syllabus ✓ (2026-09-15) — **lessons ✓** (26 lessons + reference card, prepped 2026-09-26)
 
 **Economics & Finance additions** · 2 courses · ~56 lessons
 
 - [ ] `public-economics` — Public Economics (2, 26) — syllabus ✓ (2026-09-15), lessons pending
-- [ ] `economics-of-debt` — Economics of Debt (2, 30) — syllabus ✓ (2026-09-15), lessons pending
+- [x] `economics-of-debt` — Economics of Debt (2, 34) — syllabus ✓ (2026-09-15; revised 2026-09-28, 30 → 34) — **lessons ✓** (34 lessons + reference card, prepped 2026-09-29)
 ---
 
 ## Scale & cadence
