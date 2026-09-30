@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect x="0" y="0" width="720" height="300" fill="#ffffff"/>
+<rect x="237" y="8" width="94" height="286" rx="0" fill="#eeeeee" stroke="none" stroke-width="0"/>
+<rect x="519" y="8" width="94" height="286" rx="0" fill="#eeeeee" stroke="none" stroke-width="0"/>
+<text x="190" y="26" font-size="13" text-anchor="middle" fill="#111111" font-weight="bold">Year 1</text>
+<text x="190" y="44" font-size="12" text-anchor="middle" fill="#333333">good: 1.1</text>
+<text x="284" y="26" font-size="13" text-anchor="middle" fill="#111111" font-weight="bold">Year 2</text>
+<text x="284" y="44" font-size="12" text-anchor="middle" fill="#333333">bad: 0.7</text>
+<text x="378" y="26" font-size="13" text-anchor="middle" fill="#111111" font-weight="bold">Year 3</text>
+<text x="378" y="44" font-size="12" text-anchor="middle" fill="#333333">good: 1.1</text>
+<text x="472" y="26" font-size="13" text-anchor="middle" fill="#111111" font-weight="bold">Year 4</text>
+<text x="472" y="44" font-size="12" text-anchor="middle" fill="#333333">good: 1.1</text>
+<text x="566" y="26" font-size="13" text-anchor="middle" fill="#111111" font-weight="bold">Year 5</text>
+<text x="566" y="44" font-size="12" text-anchor="middle" fill="#333333">bad: 0.7</text>
+<text x="660" y="26" font-size="13" text-anchor="middle" fill="#111111" font-weight="bold">Year 6</text>
+<text x="660" y="44" font-size="12" text-anchor="middle" fill="#333333">good: 1.1</text>
+<line x1="10" y1="54" x2="710" y2="54" stroke="#bbbbbb" stroke-width="1"/>
+<rect x="144" y="62" width="562" height="66" rx="6" fill="none" stroke="#1a6fb5" stroke-width="1.6"/>
+<text x="12" y="90" font-size="13" text-anchor="start" fill="#1a6fb5" font-weight="bold">Keep the</text>
+<text x="12" y="107" font-size="13" text-anchor="start" fill="#1a6fb5" font-weight="bold">contract</text>
+<text x="190" y="88" font-size="12" text-anchor="middle" fill="#1a6fb5">pays 0.1</text>
+<text x="190" y="114" font-size="12" text-anchor="middle" fill="#111111">c = 1</text>
+<text x="284" y="88" font-size="12" text-anchor="middle" fill="#1a6fb5">gets 0.3</text>
+<text x="284" y="114" font-size="12" text-anchor="middle" fill="#111111">c = 1</text>
+<text x="378" y="88" font-size="12" text-anchor="middle" fill="#1a6fb5">pays 0.1</text>
+<text x="378" y="114" font-size="12" text-anchor="middle" fill="#111111">c = 1</text>
+<text x="472" y="88" font-size="12" text-anchor="middle" fill="#1a6fb5">pays 0.1</text>
+<text x="472" y="114" font-size="12" text-anchor="middle" fill="#111111">c = 1</text>
+<text x="566" y="88" font-size="12" text-anchor="middle" fill="#1a6fb5">gets 0.3</text>
+<text x="566" y="114" font-size="12" text-anchor="middle" fill="#111111">c = 1</text>
+<text x="660" y="88" font-size="12" text-anchor="middle" fill="#1a6fb5">pays 0.1</text>
+<text x="660" y="114" font-size="12" text-anchor="middle" fill="#111111">c = 1</text>
+<rect x="144" y="138" width="562" height="94" rx="6" fill="none" stroke="#d1495b" stroke-width="1.6"/>
+<text x="12" y="166" font-size="13" text-anchor="start" fill="#d1495b" font-weight="bold">Default at</text>
+<text x="12" y="183" font-size="13" text-anchor="start" fill="#d1495b" font-weight="bold">the peak</text>
+<text x="12" y="200" font-size="12" text-anchor="start" fill="#d1495b">(year 3)</text>
+<line x1="331" y1="134" x2="331" y2="236" stroke="#d1495b" stroke-width="1.6" stroke-dasharray="5,4"/>
+<text x="190" y="164" font-size="12" text-anchor="middle" fill="#777777">pays 0.1</text>
+<text x="190" y="216" font-size="12" text-anchor="middle" fill="#777777">c = 1</text>
+<text x="284" y="164" font-size="12" text-anchor="middle" fill="#777777">gets 0.3</text>
+<text x="284" y="216" font-size="12" text-anchor="middle" fill="#777777">c = 1</text>
+<text x="378" y="164" font-size="12" text-anchor="middle" fill="#d1495b" font-weight="bold">defaults</text>
+<text x="378" y="188" font-size="12" text-anchor="middle" fill="#333333">prepays 0.096</text>
+<text x="378" y="216" font-size="12" text-anchor="middle" fill="#111111" font-weight="bold">c = 1.0038</text>
+<text x="472" y="188" font-size="12" text-anchor="middle" fill="#333333">prepays 0.096</text>
+<text x="472" y="216" font-size="12" text-anchor="middle" fill="#111111" font-weight="bold">c = 1.0038</text>
+<text x="566" y="164" font-size="12" text-anchor="middle" fill="#2e8b57" font-weight="bold">claim pays 0.4</text>
+<text x="566" y="188" font-size="12" text-anchor="middle" fill="#333333">prepays 0.096</text>
+<text x="566" y="216" font-size="12" text-anchor="middle" fill="#111111" font-weight="bold">c = 1.0038</text>
+<text x="660" y="188" font-size="12" text-anchor="middle" fill="#333333">prepays 0.096</text>
+<text x="660" y="216" font-size="12" text-anchor="middle" fill="#111111" font-weight="bold">c = 1.0038</text>
+<text x="12" y="258" font-size="12" text-anchor="start" fill="#111111">Debt owed, D</text>
+<text x="12" y="282" font-size="12" text-anchor="start" fill="#111111">Claim held, 0.1 - D</text>
+<text x="190" y="258" font-size="12" text-anchor="middle" fill="#333333">0.1</text>
+<text x="284" y="258" font-size="12" text-anchor="middle" fill="#333333">-0.3</text>
+<text x="378" y="258" font-size="12" text-anchor="middle" fill="#333333">0.1</text>
+<text x="378" y="282" font-size="12" text-anchor="middle" fill="#111111" font-weight="bold">0</text>
+<text x="472" y="258" font-size="12" text-anchor="middle" fill="#333333">0.1</text>
+<text x="472" y="282" font-size="12" text-anchor="middle" fill="#111111" font-weight="bold">0</text>
+<text x="566" y="258" font-size="12" text-anchor="middle" fill="#333333">-0.3</text>
+<text x="566" y="282" font-size="12" text-anchor="middle" fill="#111111" font-weight="bold">0.4</text>
+<text x="660" y="258" font-size="12" text-anchor="middle" fill="#333333">0.1</text>
+<text x="660" y="282" font-size="12" text-anchor="middle" fill="#111111" font-weight="bold">0</text>
+</svg>

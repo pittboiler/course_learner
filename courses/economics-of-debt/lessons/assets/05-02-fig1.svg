@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 440" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect x="0" y="0" width="680" height="440" fill="#ffffff"/>
+<line x1="70" y1="340" x2="520" y2="340" stroke="#333333" stroke-width="1.3"/>
+<line x1="70" y1="340" x2="70" y2="46" stroke="#333333" stroke-width="1.3"/>
+<line x1="70" y1="340" x2="70" y2="345" stroke="#333333" stroke-width="1"/>
+<text x="70" y="358" font-size="12" text-anchor="middle" fill="#333333">0</text>
+<line x1="182.5" y1="340" x2="182.5" y2="345" stroke="#333333" stroke-width="1"/>
+<line x1="182.5" y1="340" x2="182.5" y2="46" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="182.5" y="358" font-size="12" text-anchor="middle" fill="#333333">5</text>
+<line x1="295" y1="340" x2="295" y2="345" stroke="#333333" stroke-width="1"/>
+<line x1="295" y1="340" x2="295" y2="46" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="295" y="358" font-size="12" text-anchor="middle" fill="#333333">10</text>
+<line x1="407.5" y1="340" x2="407.5" y2="345" stroke="#333333" stroke-width="1"/>
+<line x1="407.5" y1="340" x2="407.5" y2="46" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="407.5" y="358" font-size="12" text-anchor="middle" fill="#333333">15</text>
+<line x1="520" y1="340" x2="520" y2="345" stroke="#333333" stroke-width="1"/>
+<line x1="520" y1="340" x2="520" y2="46" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="520" y="358" font-size="12" text-anchor="middle" fill="#333333">20</text>
+<line x1="65" y1="340" x2="70" y2="340" stroke="#333333" stroke-width="1"/>
+<text x="62" y="344" font-size="12" text-anchor="end" fill="#333333">60</text>
+<line x1="65" y1="281.2" x2="70" y2="281.2" stroke="#333333" stroke-width="1"/>
+<line x1="70" y1="281.2" x2="520" y2="281.2" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="62" y="285.2" font-size="12" text-anchor="end" fill="#333333">80</text>
+<line x1="65" y1="222.4" x2="70" y2="222.4" stroke="#333333" stroke-width="1"/>
+<line x1="70" y1="222.4" x2="520" y2="222.4" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="62" y="226.4" font-size="12" text-anchor="end" fill="#333333">100</text>
+<line x1="65" y1="163.6" x2="70" y2="163.6" stroke="#333333" stroke-width="1"/>
+<line x1="70" y1="163.6" x2="520" y2="163.6" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="62" y="167.6" font-size="12" text-anchor="end" fill="#333333">120</text>
+<line x1="65" y1="104.8" x2="70" y2="104.8" stroke="#333333" stroke-width="1"/>
+<line x1="70" y1="104.8" x2="520" y2="104.8" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="62" y="108.8" font-size="12" text-anchor="end" fill="#333333">140</text>
+<line x1="65" y1="46" x2="70" y2="46" stroke="#333333" stroke-width="1"/>
+<line x1="70" y1="46" x2="520" y2="46" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="62" y="50" font-size="12" text-anchor="end" fill="#333333">160</text>
+<text x="295" y="378" font-size="13" text-anchor="middle" fill="#111111">years from today</text>
+<text x="70" y="32" font-size="13" text-anchor="start" fill="#111111">debt, percent of GDP</text>
+<polygon points="70,222.4 92.5,211.76 115,207.48 137.5,204.13 160,201.35 182.5,198.84 205,196.69 227.5,194.78 250,193.03 272.5,191.35 295,189.76 317.5,188.26 340,186.94 362.5,185.75 385,184.52 407.5,183.38 430,182.39 452.5,181.09 475,180.06 497.5,179.01 520,178.02 520,264.18 497.5,263.2 475,262.39 452.5,261.45 430,260.55 407.5,259.53 385,258.53 362.5,257.36 340,256.11 317.5,254.93 295,253.61 272.5,252.23 250,250.58 227.5,249.07 205,247.12 182.5,245.18 160,242.9 137.5,240.29 115,237.16 92.5,232.88 70,222.4" fill="#dbe8f5" stroke="none" stroke-width="0"/>
+<polyline points="70,222.4 92.5,211.76 115,207.48 137.5,204.13 160,201.35 182.5,198.84 205,196.69 227.5,194.78 250,193.03 272.5,191.35 295,189.76 317.5,188.26 340,186.94 362.5,185.75 385,184.52 407.5,183.38 430,182.39 452.5,181.09 475,180.06 497.5,179.01 520,178.02" fill="none" stroke="#1a6fb5" stroke-width="1.3"/>
+<polyline points="70,222.4 92.5,232.88 115,237.16 137.5,240.29 160,242.9 182.5,245.18 205,247.12 227.5,249.07 250,250.58 272.5,252.23 295,253.61 317.5,254.93 340,256.11 362.5,257.36 385,258.53 407.5,259.53 430,260.55 452.5,261.45 475,262.39 497.5,263.2 520,264.18" fill="none" stroke="#1a6fb5" stroke-width="1.3"/>
+<polyline points="70,222.4 92.5,222.38 115,222.49 137.5,222.57 160,222.73 182.5,222.82 205,222.95 227.5,223.06 250,223.15 272.5,223.24 295,223.36 317.5,223.45 340,223.53 362.5,223.63 385,223.75 407.5,223.81 430,223.86 452.5,224 475,224.03 497.5,224.18 520,224.22" fill="none" stroke="#1a6fb5" stroke-width="2.8"/>
+<line x1="70" y1="148.9" x2="520" y2="148.9" stroke="#333333" stroke-width="1.3" stroke-dasharray="6,4"/>
+<text x="79" y="141.9" font-size="12" text-anchor="start" fill="#333333">125 percent threshold</text>
+<polyline points="70,222.4 92.5,211.76 115,202.06 137.5,192.9 160,184.12 182.5,175.65 205,167.64 227.5,159.85 250,152.78 272.5,145.41 295,138.7 317.5,132.38 340,125.9 362.5,119.99 385,114.11 407.5,108.55 430,103.4 452.5,98.43 475,93.27 497.5,88.14 520,83.48" fill="none" stroke="#d1495b" stroke-width="2.2" stroke-dasharray="7,4"/>
+<polyline points="70,222.4 92.5,232.88 115,241.83 137.5,249.94 160,257.21 182.5,263.78 205,269.67 227.5,275.2 250,280.08 272.5,284.55 295,288.84 317.5,292.66 340,296.17 362.5,299.25 385,302.49 407.5,305.42 430,308.14 452.5,310.75 475,313.05 497.5,315.14 520,317.29" fill="none" stroke="#d1495b" stroke-width="2.2" stroke-dasharray="7,4"/>
+<text x="528" y="87.48" font-size="12" text-anchor="start" fill="#d1495b">90th, persistent</text>
+<text x="528" y="182.02" font-size="12" text-anchor="start" fill="#1a6fb5">90th, independent</text>
+<text x="528" y="228.22" font-size="12" text-anchor="start" fill="#1a6fb5" font-weight="bold">median</text>
+<text x="528" y="268.18" font-size="12" text-anchor="start" fill="#1a6fb5">10th, independent</text>
+<text x="528" y="321.29" font-size="12" text-anchor="start" fill="#d1495b">10th, persistent</text>
+<text x="30" y="410" font-size="11" text-anchor="start" fill="#333333">Start 100% of GDP; primary deficit 1% of GDP; a - 1 drawn each year with mean -1%, sd 2.8%.</text>
+<text x="30" y="427" font-size="11" text-anchor="start" fill="#333333">Persistent: 80% of each year's deviation carries over. 100,000 paths, seed 52.</text>
+</svg>

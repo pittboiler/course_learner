@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect x="0" y="0" width="720" height="400" fill="#ffffff"/>
+<line x1="64" y1="330" x2="324" y2="330" stroke="#333333" stroke-width="1.3"/>
+<line x1="64" y1="330" x2="64" y2="72" stroke="#333333" stroke-width="1.3"/>
+<line x1="64" y1="330" x2="64" y2="335" stroke="#333333" stroke-width="1"/>
+<text x="64" y="348" font-size="12" text-anchor="middle" fill="#333333">0</text>
+<line x1="129" y1="330" x2="129" y2="335" stroke="#333333" stroke-width="1"/>
+<text x="129" y="348" font-size="12" text-anchor="middle" fill="#333333">0.25</text>
+<line x1="194" y1="330" x2="194" y2="335" stroke="#333333" stroke-width="1"/>
+<text x="194" y="348" font-size="12" text-anchor="middle" fill="#333333">0.5</text>
+<line x1="259" y1="330" x2="259" y2="335" stroke="#333333" stroke-width="1"/>
+<text x="259" y="348" font-size="12" text-anchor="middle" fill="#333333">0.75</text>
+<line x1="298" y1="330" x2="298" y2="335" stroke="#333333" stroke-width="1"/>
+<text x="298" y="348" font-size="12" text-anchor="middle" fill="#333333">0.9</text>
+<line x1="324" y1="330" x2="324" y2="335" stroke="#333333" stroke-width="1"/>
+<text x="324" y="348" font-size="12" text-anchor="middle" fill="#333333">1</text>
+<line x1="59" y1="330" x2="64" y2="330" stroke="#333333" stroke-width="1"/>
+<text x="56" y="334" font-size="12" text-anchor="end" fill="#333333">0</text>
+<line x1="59" y1="271.36" x2="64" y2="271.36" stroke="#333333" stroke-width="1"/>
+<text x="56" y="275.36" font-size="12" text-anchor="end" fill="#333333">25</text>
+<line x1="59" y1="236.18" x2="64" y2="236.18" stroke="#333333" stroke-width="1"/>
+<text x="56" y="240.18" font-size="12" text-anchor="end" fill="#333333">40</text>
+<line x1="59" y1="95.45" x2="64" y2="95.45" stroke="#333333" stroke-width="1"/>
+<text x="56" y="99.45" font-size="12" text-anchor="end" fill="#333333">100</text>
+<text x="194" y="368" font-size="13" text-anchor="middle" fill="#111111">share of creditors accepting</text>
+<line x1="440" y1="330" x2="700" y2="330" stroke="#333333" stroke-width="1.3"/>
+<line x1="440" y1="330" x2="440" y2="72" stroke="#333333" stroke-width="1.3"/>
+<line x1="440" y1="330" x2="440" y2="335" stroke="#333333" stroke-width="1"/>
+<text x="440" y="348" font-size="12" text-anchor="middle" fill="#333333">0</text>
+<line x1="505" y1="330" x2="505" y2="335" stroke="#333333" stroke-width="1"/>
+<text x="505" y="348" font-size="12" text-anchor="middle" fill="#333333">0.25</text>
+<line x1="570" y1="330" x2="570" y2="335" stroke="#333333" stroke-width="1"/>
+<text x="570" y="348" font-size="12" text-anchor="middle" fill="#333333">0.5</text>
+<line x1="635" y1="330" x2="635" y2="335" stroke="#333333" stroke-width="1"/>
+<text x="635" y="348" font-size="12" text-anchor="middle" fill="#333333">0.75</text>
+<line x1="700" y1="330" x2="700" y2="335" stroke="#333333" stroke-width="1"/>
+<text x="700" y="348" font-size="12" text-anchor="middle" fill="#333333">1</text>
+<line x1="435" y1="330" x2="440" y2="330" stroke="#333333" stroke-width="1"/>
+<text x="432" y="334" font-size="12" text-anchor="end" fill="#333333">0</text>
+<line x1="435" y1="271.36" x2="440" y2="271.36" stroke="#333333" stroke-width="1"/>
+<text x="432" y="275.36" font-size="12" text-anchor="end" fill="#333333">25</text>
+<line x1="435" y1="236.18" x2="440" y2="236.18" stroke="#333333" stroke-width="1"/>
+<text x="432" y="240.18" font-size="12" text-anchor="end" fill="#333333">40</text>
+<line x1="435" y1="95.45" x2="440" y2="95.45" stroke="#333333" stroke-width="1"/>
+<text x="432" y="99.45" font-size="12" text-anchor="end" fill="#333333">100</text>
+<text x="570" y="368" font-size="13" text-anchor="middle" fill="#111111">share of creditors voting yes</text>
+<text x="64" y="22" font-size="13" text-anchor="start" fill="#111111" font-weight="bold">No clause: holdouts are paid in full</text>
+<text x="64" y="42" font-size="12" text-anchor="start" fill="#333333">payoff per 100 of face</text>
+<text x="440" y="22" font-size="13" text-anchor="start" fill="#111111" font-weight="bold">A 75 percent majority clause</text>
+<text x="440" y="42" font-size="12" text-anchor="start" fill="#333333">payoff per 100 of face</text>
+<rect x="298" y="72" width="26" height="258" rx="0" fill="#dcefe4" stroke="none" stroke-width="0"/>
+<line x1="64" y1="271.36" x2="298" y2="271.36" stroke="#111111" stroke-width="2.5"/>
+<text x="71.8" y="262.36" font-size="12" text-anchor="start" fill="#111111">deal fails: 25 either way</text>
+<line x1="298" y1="236.18" x2="324" y2="236.18" stroke="#1a6fb5" stroke-width="3"/>
+<line x1="298" y1="95.45" x2="324" y2="95.45" stroke="#d1495b" stroke-width="3"/>
+<line x1="298" y1="271.36" x2="298" y2="95.45" stroke="#333333" stroke-width="1" stroke-dasharray="4,3"/>
+<text x="292" y="99.45" font-size="12" text-anchor="end" fill="#d1495b" font-weight="bold">hold out: 100</text>
+<text x="292" y="229.18" font-size="12" text-anchor="end" fill="#1a6fb5" font-weight="bold">accept: 40</text>
+<line x1="312.3" y1="234.18" x2="312.3" y2="97.45" stroke="#333333" stroke-width="1.3" marker-end="url(#arr)"/>
+<line x1="312.3" y1="97.45" x2="312.3" y2="234.18" stroke="#333333" stroke-width="1.3" marker-end="url(#arr)"/>
+<text x="292" y="169.82" font-size="12" text-anchor="end" fill="#333333">premium 60</text>
+<polyline points="204.4,330 205.4,328.35 206.39,326.72 207.39,325.11 208.39,323.52 209.38,321.96 210.38,320.42 211.38,318.9 212.37,317.4 213.37,315.92 214.37,314.45 215.36,313.01 216.36,311.59 217.36,310.18 218.35,308.8 219.35,307.43 220.35,306.08 221.34,304.74 222.34,303.43 223.34,302.13 224.33,300.84 225.33,299.57 226.33,298.32 227.32,297.08 228.32,295.86 229.32,294.65 230.31,293.46 231.31,292.28 232.31,291.11 233.3,289.96 234.3,288.82 235.3,287.7 236.29,286.58 237.29,285.48 238.29,284.4 239.28,283.32 240.28,282.26 241.28,281.21 242.27,280.17 243.27,279.14 244.27,278.13 245.26,277.12 246.26,276.13 247.26,275.15 248.25,274.18 249.25,273.22 250.25,272.26 251.24,271.32 252.24,270.39 253.24,269.47 254.23,268.56 255.23,267.66 256.23,266.76 257.22,265.88 258.22,265.01 259.22,264.14 260.21,263.28 261.21,262.43 262.21,261.6 263.2,260.76 264.2,259.94 265.2,259.13 266.19,258.32 267.19,257.52 268.19,256.73 269.18,255.95 270.18,255.17 271.18,254.4 272.17,253.64 273.17,252.89 274.17,252.14 275.16,251.4 276.16,250.67 277.16,249.94 278.15,249.22 279.15,248.51 280.15,247.81 281.14,247.11 282.14,246.41 283.14,245.73 284.13,245.05 285.13,244.37 286.13,243.7 287.12,243.04 288.12,242.39 289.12,241.74 290.11,241.09 291.11,240.45 292.11,239.82 293.1,239.19 294.1,238.57 295.1,237.95 296.09,237.34 297.09,236.73 298.09,236.13 299.08,235.53 300.08,234.94 301.08,234.36 302.07,233.77 303.07,233.2 304.07,232.63 305.06,232.06 306.06,231.5 307.06,230.94 308.05,230.38 309.05,229.84 310.05,229.29 311.04,228.75 312.04,228.22 313.04,227.68 314.03,227.16 315.03,226.63 316.03,226.12 317.02,225.6 318.02,225.09 319.02,224.58 320.01,224.08 321.01,223.58 322.01,223.09 323,222.6 324,222.11" fill="none" stroke="#777777" stroke-width="1.8" stroke-dasharray="2,3"/>
+<text x="194" y="308.89" font-size="12" text-anchor="end" fill="#555555">most it can offer</text>
+<text x="194" y="323.89" font-size="12" text-anchor="end" fill="#555555">each acceptor</text>
+<circle cx="298" cy="236.18" r="4" fill="#111111" stroke="none" stroke-width="1"/>
+<text x="328" y="226.11" font-size="12" text-anchor="start" fill="#555555">46</text>
+<rect x="635" y="72" width="65" height="258" rx="0" fill="#dcefe4" stroke="none" stroke-width="0"/>
+<line x1="440" y1="271.36" x2="635" y2="271.36" stroke="#111111" stroke-width="2.5"/>
+<line x1="635" y1="236.18" x2="700" y2="236.18" stroke="#111111" stroke-width="3"/>
+<line x1="635" y1="271.36" x2="635" y2="95.45" stroke="#333333" stroke-width="1" stroke-dasharray="4,3"/>
+<text x="447.8" y="262.36" font-size="12" text-anchor="start" fill="#111111">vote fails: 25</text>
+<text x="629" y="214.18" font-size="12" text-anchor="end" fill="#111111">passes: all bound,</text>
+<text x="629" y="229.18" font-size="12" text-anchor="end" fill="#111111">40 whatever you vote</text>
+<text x="629" y="99.45" font-size="12" text-anchor="end" fill="#d1495b">no one can hold out</text>
+</svg>

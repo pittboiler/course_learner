@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect x="0" y="0" width="720" height="340" fill="#ffffff"/>
+<line x1="62" y1="272" x2="330" y2="272" stroke="#333333" stroke-width="1.3"/>
+<line x1="62" y1="272" x2="62" y2="58" stroke="#333333" stroke-width="1.3"/>
+<line x1="62" y1="272" x2="62" y2="277" stroke="#333333" stroke-width="1"/>
+<text x="62" y="290" font-size="12" text-anchor="middle" fill="#333333">60</text>
+<line x1="129" y1="272" x2="129" y2="277" stroke="#333333" stroke-width="1"/>
+<text x="129" y="290" font-size="12" text-anchor="middle" fill="#333333">80</text>
+<line x1="196" y1="272" x2="196" y2="277" stroke="#333333" stroke-width="1"/>
+<text x="196" y="290" font-size="12" text-anchor="middle" fill="#333333">100</text>
+<line x1="263" y1="272" x2="263" y2="277" stroke="#333333" stroke-width="1"/>
+<text x="263" y="290" font-size="12" text-anchor="middle" fill="#333333">120</text>
+<line x1="330" y1="272" x2="330" y2="277" stroke="#333333" stroke-width="1"/>
+<text x="330" y="290" font-size="12" text-anchor="middle" fill="#333333">140</text>
+<line x1="57" y1="272" x2="62" y2="272" stroke="#333333" stroke-width="1"/>
+<text x="54" y="276" font-size="12" text-anchor="end" fill="#333333">0</text>
+<line x1="57" y1="200.67" x2="62" y2="200.67" stroke="#333333" stroke-width="1"/>
+<text x="54" y="204.67" font-size="12" text-anchor="end" fill="#333333">10</text>
+<line x1="57" y1="129.33" x2="62" y2="129.33" stroke="#333333" stroke-width="1"/>
+<text x="54" y="133.33" font-size="12" text-anchor="end" fill="#333333">20</text>
+<line x1="57" y1="58" x2="62" y2="58" stroke="#333333" stroke-width="1"/>
+<text x="54" y="62" font-size="12" text-anchor="end" fill="#333333">30</text>
+<text x="196" y="310" font-size="13" text-anchor="middle" fill="#111111">GDP next year (mean 100)</text>
+<text x="62" y="46" font-size="13" text-anchor="start" fill="#111111">paid to creditors</text>
+<text x="22" y="20" font-size="14" text-anchor="start" fill="#111111" font-weight="bold">Relief without a default</text>
+<polygon points="62,186.4 162.5,143.6 162.5,175.7 62,207.8" fill="#f6dde1" stroke="none" stroke-width="0"/>
+<polyline points="62,186.4 330,72.27" fill="none" stroke="#777777" stroke-width="1.5" stroke-dasharray="5,4"/>
+<polyline points="62,207.8 162.5,175.7" fill="none" stroke="#d1495b" stroke-width="6"/>
+<polyline points="162.5,143.6 330,143.6" fill="none" stroke="#d1495b" stroke-width="3"/>
+<line x1="162.5" y1="175.7" x2="162.5" y2="143.6" stroke="#d1495b" stroke-width="1.2" stroke-dasharray="3,3"/>
+<circle cx="162.5" cy="143.6" r="4" fill="#d1495b" stroke="none" stroke-width="1"/>
+<circle cx="162.5" cy="175.7" r="4" fill="#ffffff" stroke="#d1495b" stroke-width="1.5"/>
+<polyline points="62,207.8 330,122.2" fill="none" stroke="#1a6fb5" stroke-width="2.5"/>
+<circle cx="129" cy="186.4" r="4.5" fill="#111111" stroke="none" stroke-width="1"/>
+<circle cx="263" cy="143.6" r="4.5" fill="#111111" stroke="none" stroke-width="1"/>
+<text x="333.35" y="64.27" font-size="12" text-anchor="end" fill="#555555">most it can pay: 0.2 x GDP</text>
+<text x="335" y="147.6" font-size="12" text-anchor="start" fill="#d1495b">plain</text>
+<text x="335" y="126.2" font-size="12" text-anchor="start" fill="#1a6fb5">indexed</text>
+<text x="65.35" y="111.5" font-size="12" text-anchor="start" fill="#d1495b">burned in default</text>
+<line x1="102.2" y1="115.5" x2="102.2" y2="182.12" stroke="#d1495b" stroke-width="1"/>
+<text x="132.35" y="206.4" font-size="12" text-anchor="start" fill="#111111">80: 12</text>
+<text x="263" y="163.6" font-size="12" text-anchor="middle" fill="#111111">120: 18</text>
+<line x1="420" y1="272" x2="700" y2="272" stroke="#333333" stroke-width="1.3"/>
+<line x1="420" y1="272" x2="420" y2="58" stroke="#333333" stroke-width="1.3"/>
+<line x1="420" y1="272" x2="420" y2="277" stroke="#333333" stroke-width="1"/>
+<text x="420" y="290" font-size="12" text-anchor="middle" fill="#333333">0</text>
+<line x1="466.67" y1="272" x2="466.67" y2="277" stroke="#333333" stroke-width="1"/>
+<text x="466.67" y="290" font-size="12" text-anchor="middle" fill="#333333">2</text>
+<line x1="513.33" y1="272" x2="513.33" y2="277" stroke="#333333" stroke-width="1"/>
+<text x="513.33" y="290" font-size="12" text-anchor="middle" fill="#333333">4</text>
+<line x1="560" y1="272" x2="560" y2="277" stroke="#333333" stroke-width="1"/>
+<text x="560" y="290" font-size="12" text-anchor="middle" fill="#333333">6</text>
+<line x1="606.67" y1="272" x2="606.67" y2="277" stroke="#333333" stroke-width="1"/>
+<text x="606.67" y="290" font-size="12" text-anchor="middle" fill="#333333">8</text>
+<line x1="653.33" y1="272" x2="653.33" y2="277" stroke="#333333" stroke-width="1"/>
+<text x="653.33" y="290" font-size="12" text-anchor="middle" fill="#333333">10</text>
+<line x1="700" y1="272" x2="700" y2="277" stroke="#333333" stroke-width="1"/>
+<text x="700" y="290" font-size="12" text-anchor="middle" fill="#333333">12</text>
+<line x1="415" y1="272" x2="420" y2="272" stroke="#333333" stroke-width="1"/>
+<text x="412" y="276" font-size="12" text-anchor="end" fill="#333333">78</text>
+<line x1="415" y1="236.33" x2="420" y2="236.33" stroke="#333333" stroke-width="1"/>
+<text x="412" y="240.33" font-size="12" text-anchor="end" fill="#333333">80</text>
+<line x1="415" y1="200.67" x2="420" y2="200.67" stroke="#333333" stroke-width="1"/>
+<text x="412" y="204.67" font-size="12" text-anchor="end" fill="#333333">82</text>
+<line x1="415" y1="165" x2="420" y2="165" stroke="#333333" stroke-width="1"/>
+<text x="412" y="169" font-size="12" text-anchor="end" fill="#333333">84</text>
+<line x1="415" y1="129.33" x2="420" y2="129.33" stroke="#333333" stroke-width="1"/>
+<text x="412" y="133.33" font-size="12" text-anchor="end" fill="#333333">86</text>
+<line x1="415" y1="93.67" x2="420" y2="93.67" stroke="#333333" stroke-width="1"/>
+<text x="412" y="97.67" font-size="12" text-anchor="end" fill="#333333">88</text>
+<line x1="415" y1="58" x2="420" y2="58" stroke="#333333" stroke-width="1"/>
+<text x="412" y="62" font-size="12" text-anchor="end" fill="#333333">90</text>
+<text x="560" y="310" font-size="13" text-anchor="middle" fill="#111111">year</text>
+<text x="420" y="46" font-size="13" text-anchor="start" fill="#111111">debt, percent of GDP</text>
+<text x="380" y="20" font-size="14" text-anchor="start" fill="#111111" font-weight="bold">Debt ratio through a recession</text>
+<rect x="420" y="58" width="46.67" height="214" rx="0" fill="#eeeeee" stroke="none" stroke-width="0"/>
+<text x="471.67" y="72" font-size="12" text-anchor="start" fill="#333333">recession in years 1 and 2</text>
+<polyline points="420,236.33 443.33,148.09 466.67,102.64 490,116.01 513.33,129.38 536.67,142.75 560,156.12 583.33,169.49 606.67,182.85 630,196.22 653.33,209.59 676.67,222.96 700,236.33" fill="none" stroke="#d1495b" stroke-width="2" stroke-dasharray="6,4"/>
+<polyline points="420,236.33 443.33,148.09 466.67,102.64 490,102.64 513.33,102.64 536.67,102.64 560,102.64 583.33,102.64 606.67,102.64 630,102.64 653.33,102.64 676.67,102.64 700,102.64" fill="none" stroke="#d1495b" stroke-width="2.5"/>
+<polyline points="420,236.33 700,236.33" fill="none" stroke="#1a6fb5" stroke-width="2.5"/>
+<text x="700" y="94.58" font-size="12" text-anchor="end" fill="#d1495b">plain: 87.5</text>
+<text x="546" y="122.2" font-size="12" text-anchor="start" fill="#d1495b">plain, surplus 0.75% a year</text>
+<text x="700" y="254.33" font-size="12" text-anchor="end" fill="#1a6fb5">indexed: 80</text>
+</svg>

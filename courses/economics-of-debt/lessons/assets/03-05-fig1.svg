@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 430" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect x="0" y="0" width="680" height="430" fill="#ffffff"/>
+<line x1="80" y1="350" x2="640" y2="350" stroke="#333333" stroke-width="1.3"/>
+<line x1="80" y1="350" x2="80" y2="50" stroke="#333333" stroke-width="1.3"/>
+<line x1="80" y1="350" x2="80" y2="355" stroke="#333333" stroke-width="1"/>
+<text x="80" y="368" font-size="12" text-anchor="middle" fill="#333333">0</text>
+<line x1="220" y1="350" x2="220" y2="355" stroke="#333333" stroke-width="1"/>
+<text x="220" y="368" font-size="12" text-anchor="middle" fill="#333333">0.15</text>
+<line x1="360" y1="350" x2="360" y2="355" stroke="#333333" stroke-width="1"/>
+<text x="360" y="368" font-size="12" text-anchor="middle" fill="#333333">0.3</text>
+<line x1="500" y1="350" x2="500" y2="355" stroke="#333333" stroke-width="1"/>
+<text x="500" y="368" font-size="12" text-anchor="middle" fill="#333333">0.45</text>
+<line x1="640" y1="350" x2="640" y2="355" stroke="#333333" stroke-width="1"/>
+<text x="640" y="368" font-size="12" text-anchor="middle" fill="#333333">0.6</text>
+<line x1="75" y1="350" x2="80" y2="350" stroke="#333333" stroke-width="1"/>
+<text x="72" y="354" font-size="12" text-anchor="end" fill="#333333">0.65</text>
+<line x1="75" y1="300" x2="80" y2="300" stroke="#333333" stroke-width="1"/>
+<text x="72" y="304" font-size="12" text-anchor="end" fill="#333333">0.7</text>
+<line x1="75" y1="250" x2="80" y2="250" stroke="#333333" stroke-width="1"/>
+<text x="72" y="254" font-size="12" text-anchor="end" fill="#333333">0.75</text>
+<line x1="75" y1="200" x2="80" y2="200" stroke="#333333" stroke-width="1"/>
+<text x="72" y="204" font-size="12" text-anchor="end" fill="#333333">0.8</text>
+<line x1="75" y1="150" x2="80" y2="150" stroke="#333333" stroke-width="1"/>
+<text x="72" y="154" font-size="12" text-anchor="end" fill="#333333">0.85</text>
+<line x1="75" y1="100" x2="80" y2="100" stroke="#333333" stroke-width="1"/>
+<text x="72" y="104" font-size="12" text-anchor="end" fill="#333333">0.9</text>
+<line x1="75" y1="50" x2="80" y2="50" stroke="#333333" stroke-width="1"/>
+<text x="72" y="54" font-size="12" text-anchor="end" fill="#333333">0.95</text>
+<text x="360" y="388" font-size="13" text-anchor="middle" fill="#111111">loan allowed per unit of the asset</text>
+<text x="80" y="38" font-size="13" text-anchor="start" fill="#111111">price of the asset</text>
+<line x1="80" y1="200" x2="640" y2="200" stroke="#bbbbbb" stroke-width="1.4" stroke-dasharray="6,4"/>
+<text x="640" y="216" font-size="12" text-anchor="end" fill="#333333">average opinion: 0.8</text>
+<polyline points="80,250 89.33,247.5 98.67,245 108,242.5 117.33,240 126.67,237.5 136,235 145.33,232.5 154.67,230 164,227.5 173.33,225 182.67,222.5 192,220 201.33,217.5 210.67,215 220,212.5 229.33,210 238.67,207.5 248,205 257.33,202.5 266.67,200 276,197.5 285.33,195 294.67,192.5 304,190 313.33,187.5 322.67,185 332,182.5 341.33,180 350.67,177.5 360,175 369.33,172.5 378.67,170 388,167.5 397.33,165 406.67,162.5 416,160 425.33,157.5 434.67,155 444,152.5 453.33,150 462.67,147.5 472,145 481.33,142.5 490.67,140 500,137.5 509.33,135 518.67,132.5 528,130 537.33,127.5 546.67,125 556,122.5 565.33,120 574.67,117.5 584,115 593.33,112.5 602.67,110 612,107.5 621.33,105 630.67,102.5 640,100" fill="none" stroke="#1a6fb5" stroke-width="2.6"/>
+<polyline points="80,300 89.33,296.67 98.67,293.33 108,290 117.33,286.67 126.67,283.33 136,280 145.33,276.67 154.67,273.33 164,270 173.33,266.67 182.67,263.33 192,260 201.33,256.67 210.67,253.33 220,250 229.33,246.67 238.67,243.33 248,240 257.33,236.67 266.67,233.33 276,230 285.33,226.67 294.67,223.33 304,220 313.33,216.67 322.67,213.33 332,210 341.33,206.67 350.67,203.33 360,200 369.33,196.67 378.67,193.33 388,190 397.33,186.67 406.67,183.33 416,180 425.33,176.67 434.67,173.33 444,170 453.33,166.67 462.67,163.33 472,160 481.33,156.67 490.67,153.33 500,150 509.33,146.67 518.67,143.33 528,140 537.33,136.67 546.67,133.33 556,130 565.33,126.67 574.67,123.33 584,120 593.33,116.67 602.67,113.33 612,110 621.33,106.67 630.67,103.33 640,100" fill="none" stroke="#d1495b" stroke-width="2.6"/>
+<circle cx="640" cy="100" r="5" fill="#111111" stroke="none" stroke-width="1"/>
+<text x="632" y="88" font-size="13" text-anchor="end" fill="#111111">boom: loan 0.6, price 0.9</text>
+<circle cx="80" cy="250" r="4.5" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<text x="88" y="214" font-size="12" text-anchor="start" fill="#1a6fb5">no borrowing: 0.75</text>
+<circle cx="80" cy="300" r="4.5" fill="#d1495b" stroke="none" stroke-width="1"/>
+<text x="90" y="317" font-size="12" text-anchor="start" fill="#d1495b">lending stops after the boom: 0.70</text>
+<circle cx="500" cy="150" r="4.5" fill="#d1495b" stroke="none" stroke-width="1"/>
+<circle cx="500" cy="137.5" r="4.5" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<text x="509" y="167" font-size="12" text-anchor="start" fill="#d1495b">cut to 0.45: 0.85</text>
+<text x="491" y="128.5" font-size="12" text-anchor="end" fill="#1a6fb5">capped at 0.45 all along: 0.8625</text>
+<text x="266.67" y="170" font-size="13" text-anchor="middle" fill="#1a6fb5" font-weight="bold">loan allowed from the start</text>
+<text x="284.67" y="265.33" font-size="13" text-anchor="middle" fill="#d1495b" font-weight="bold">loan cut after the boom</text>
+</svg>

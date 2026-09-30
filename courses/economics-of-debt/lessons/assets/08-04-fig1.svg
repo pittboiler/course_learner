@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 324" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect x="0" y="0" width="720" height="324" fill="#ffffff"/>
+<line x1="290" y1="56" x2="290" y2="306" stroke="#bbbbbb" stroke-width="1.6" stroke-dasharray="6,5"/>
+<rect x="245.65" y="34" width="88.7" height="17" rx="0" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="290" y="46" font-size="12" text-anchor="middle" fill="#333333" font-style="italic">loans are made</text>
+<text x="24" y="24" font-size="14" text-anchor="start" fill="#d1495b" font-weight="bold">Ruling after lending (ex post)</text>
+<text x="24" y="196" font-size="14" text-anchor="start" fill="#1a6fb5" font-weight="bold">Designation before lending (ex ante)</text>
+<line x1="24" y1="116" x2="700" y2="116" stroke="#d1495b" stroke-width="2.2" marker-end="url(#arr)"/>
+<line x1="24" y1="264" x2="700" y2="264" stroke="#1a6fb5" stroke-width="2.2" marker-end="url(#arr)"/>
+<circle cx="290" cy="116" r="5.5" fill="#d1495b" stroke="none" stroke-width="1"/>
+<circle cx="418" cy="116" r="5.5" fill="#d1495b" stroke="none" stroke-width="1"/>
+<circle cx="546" cy="116" r="5.5" fill="#d1495b" stroke="none" stroke-width="1"/>
+<circle cx="650" cy="116" r="5.5" fill="#d1495b" stroke="none" stroke-width="1"/>
+<rect x="264.32" y="90" width="51.36" height="17" rx="0" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="290" y="102" font-size="12" text-anchor="middle" fill="#111111">20 loans</text>
+<rect x="255.65" y="128" width="68.7" height="17" rx="0" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="290" y="140" font-size="12" text-anchor="middle" fill="#d1495b">all at 9.47%</text>
+<text x="418" y="102" font-size="12" text-anchor="middle" fill="#111111">regime falls</text>
+<text x="546" y="86" font-size="12" text-anchor="middle" fill="#111111">tribunal rules</text>
+<text x="546" y="102" font-size="12" text-anchor="middle" fill="#111111">on old debts</text>
+<text x="546" y="140" font-size="12" text-anchor="middle" fill="#d1495b">1 loan in 20</text>
+<text x="546" y="156" font-size="12" text-anchor="middle" fill="#d1495b">voided</text>
+<text x="650" y="102" font-size="12" text-anchor="middle" fill="#111111">repayment</text>
+<text x="650" y="140" font-size="12" text-anchor="middle" fill="#d1495b">19 pay 109.47</text>
+<text x="650" y="156" font-size="12" text-anchor="middle" fill="#d1495b">each</text>
+<circle cx="120" cy="264" r="5.5" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<circle cx="290" cy="264" r="5.5" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<circle cx="418" cy="264" r="5.5" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<circle cx="650" cy="264" r="5.5" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<text x="120" y="234" font-size="12" text-anchor="middle" fill="#111111">institution</text>
+<text x="120" y="250" font-size="12" text-anchor="middle" fill="#111111">names 1 regime</text>
+<text x="120" y="288" font-size="12" text-anchor="middle" fill="#1a6fb5">no loan to it</text>
+<rect x="264.32" y="238" width="51.36" height="17" rx="0" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="290" y="250" font-size="12" text-anchor="middle" fill="#111111">19 loans</text>
+<rect x="263.99" y="276" width="52.02" height="17" rx="0" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="290" y="288" font-size="12" text-anchor="middle" fill="#1a6fb5">all at 4%</text>
+<text x="418" y="250" font-size="12" text-anchor="middle" fill="#111111">regime falls</text>
+<text x="546" y="250" font-size="12" text-anchor="middle" fill="#333333" font-style="italic">nothing to rule on</text>
+<text x="650" y="250" font-size="12" text-anchor="middle" fill="#111111">repayment</text>
+<text x="650" y="288" font-size="12" text-anchor="middle" fill="#1a6fb5">19 pay 104</text>
+<text x="650" y="304" font-size="12" text-anchor="middle" fill="#1a6fb5">each</text>
+</svg>

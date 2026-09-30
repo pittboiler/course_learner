@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 420" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect x="0" y="0" width="680" height="420" fill="#ffffff"/>
+<polygon points="78,299.23 650,56.15 650,44 78,44" fill="#dcefe4" stroke="none" stroke-width="0"/>
+<polygon points="78,360 650,116.92 650,56.15 78,299.23" fill="#dbe8f5" stroke="none" stroke-width="0"/>
+<polygon points="78,360 650,116.92 650,360" fill="#f6dde1" stroke="none" stroke-width="0"/>
+<line x1="78" y1="360" x2="650" y2="360" stroke="#333333" stroke-width="1.3"/>
+<line x1="78" y1="360" x2="78" y2="44" stroke="#333333" stroke-width="1.3"/>
+<line x1="78" y1="360" x2="78" y2="365" stroke="#333333" stroke-width="1"/>
+<text x="78" y="378" font-size="12" text-anchor="middle" fill="#333333">0</text>
+<line x1="192.4" y1="360" x2="192.4" y2="365" stroke="#333333" stroke-width="1"/>
+<text x="192.4" y="378" font-size="12" text-anchor="middle" fill="#333333">2</text>
+<line x1="306.8" y1="360" x2="306.8" y2="365" stroke="#333333" stroke-width="1"/>
+<text x="306.8" y="378" font-size="12" text-anchor="middle" fill="#333333">4</text>
+<line x1="421.2" y1="360" x2="421.2" y2="365" stroke="#333333" stroke-width="1"/>
+<text x="421.2" y="378" font-size="12" text-anchor="middle" fill="#333333">6</text>
+<line x1="535.6" y1="360" x2="535.6" y2="365" stroke="#333333" stroke-width="1"/>
+<text x="535.6" y="378" font-size="12" text-anchor="middle" fill="#333333">8</text>
+<line x1="650" y1="360" x2="650" y2="365" stroke="#333333" stroke-width="1"/>
+<text x="650" y="378" font-size="12" text-anchor="middle" fill="#333333">10</text>
+<line x1="73" y1="360" x2="78" y2="360" stroke="#333333" stroke-width="1"/>
+<text x="70" y="364" font-size="12" text-anchor="end" fill="#333333">0</text>
+<line x1="73" y1="299.23" x2="78" y2="299.23" stroke="#333333" stroke-width="1"/>
+<text x="70" y="303.23" font-size="12" text-anchor="end" fill="#333333">25</text>
+<line x1="73" y1="238.46" x2="78" y2="238.46" stroke="#333333" stroke-width="1"/>
+<text x="70" y="242.46" font-size="12" text-anchor="end" fill="#333333">50</text>
+<line x1="73" y1="177.69" x2="78" y2="177.69" stroke="#333333" stroke-width="1"/>
+<text x="70" y="181.69" font-size="12" text-anchor="end" fill="#333333">75</text>
+<line x1="73" y1="116.92" x2="78" y2="116.92" stroke="#333333" stroke-width="1"/>
+<text x="70" y="120.92" font-size="12" text-anchor="end" fill="#333333">100</text>
+<line x1="73" y1="56.15" x2="78" y2="56.15" stroke="#333333" stroke-width="1"/>
+<text x="70" y="60.15" font-size="12" text-anchor="end" fill="#333333">125</text>
+<text x="364" y="398" font-size="13" text-anchor="middle" fill="#111111">interest rate i (percent)</text>
+<text x="78" y="32" font-size="13" text-anchor="start" fill="#111111">cash flow Y (debt D = 1,000, principal due P = 25)</text>
+<line x1="78" y1="299.23" x2="650" y2="56.15" stroke="#2e8b57" stroke-width="2.2"/>
+<line x1="78" y1="360" x2="650" y2="116.92" stroke="#d1495b" stroke-width="2.2"/>
+<text x="203.84" y="235.75" font-size="13" text-anchor="end" fill="#2e8b57" font-weight="bold">Y = iD + P</text>
+<text x="261.04" y="304.22" font-size="13" text-anchor="start" fill="#d1495b" font-weight="bold">Y = iD</text>
+<text x="100.88" y="87.75" font-size="14" text-anchor="start" fill="#2e8b57" font-weight="bold">HEDGE</text>
+<text x="100.88" y="104.75" font-size="12" text-anchor="start" fill="#333333">cash flow pays interest and principal</text>
+<text x="627.12" y="316.25" font-size="14" text-anchor="end" fill="#d1495b" font-weight="bold">PONZI</text>
+<text x="627.12" y="333.25" font-size="12" text-anchor="end" fill="#333333">cannot even pay interest</text>
+<text x="552.76" y="132.86" font-size="13" text-anchor="middle" fill="#1a6fb5" font-weight="bold">SPECULATIVE</text>
+<line x1="335.4" y1="189.85" x2="335.4" y2="360" stroke="#333333" stroke-width="1.1" stroke-dasharray="4,3"/>
+<line x1="478.4" y1="189.85" x2="478.4" y2="360" stroke="#333333" stroke-width="1.1" stroke-dasharray="4,3"/>
+<text x="330.4" y="351" font-size="12" text-anchor="end" fill="#333333">hedge limit 4.5%</text>
+<text x="483.4" y="351" font-size="12" text-anchor="start" fill="#333333">Ponzi limit 7%</text>
+<line x1="249.6" y1="189.85" x2="581.36" y2="189.85" stroke="#111111" stroke-width="2" marker-end="url(#arr)"/>
+<text x="239.6" y="193.85" font-size="12" text-anchor="end" fill="#111111" font-weight="bold">unit: Y = 70</text>
+<circle cx="249.6" cy="189.85" r="5" fill="#111111" stroke="none" stroke-width="1"/>
+<text x="249.6" y="179.85" font-size="12" text-anchor="middle" fill="#111111" font-weight="bold">3%</text>
+<circle cx="421.2" cy="189.85" r="5" fill="#111111" stroke="none" stroke-width="1"/>
+<text x="421.2" y="179.85" font-size="12" text-anchor="middle" fill="#111111" font-weight="bold">6%</text>
+<circle cx="535.6" cy="189.85" r="5" fill="#111111" stroke="none" stroke-width="1"/>
+<text x="535.6" y="179.85" font-size="12" text-anchor="middle" fill="#111111" font-weight="bold">8%</text>
+<circle cx="335.4" cy="189.85" r="3.5" fill="#ffffff" stroke="#111111" stroke-width="1.5"/>
+<circle cx="478.4" cy="189.85" r="3.5" fill="#ffffff" stroke="#111111" stroke-width="1.5"/>
+</svg>

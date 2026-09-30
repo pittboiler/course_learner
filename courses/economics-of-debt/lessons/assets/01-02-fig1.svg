@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 420" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect x="0" y="0" width="680" height="420" fill="#ffffff"/>
+<line x1="78" y1="352" x2="640" y2="352" stroke="#333333" stroke-width="1.3"/>
+<line x1="78" y1="352" x2="78" y2="60" stroke="#333333" stroke-width="1.3"/>
+<line x1="78" y1="352" x2="78" y2="357" stroke="#333333" stroke-width="1"/>
+<line x1="78" y1="352" x2="78" y2="60" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="78" y="370" font-size="12" text-anchor="middle" fill="#333333">0</text>
+<line x1="218.5" y1="352" x2="218.5" y2="357" stroke="#333333" stroke-width="1"/>
+<line x1="218.5" y1="352" x2="218.5" y2="60" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="218.5" y="370" font-size="12" text-anchor="middle" fill="#333333">25</text>
+<line x1="359" y1="352" x2="359" y2="357" stroke="#333333" stroke-width="1"/>
+<line x1="359" y1="352" x2="359" y2="60" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="359" y="370" font-size="12" text-anchor="middle" fill="#333333">50</text>
+<line x1="499.5" y1="352" x2="499.5" y2="357" stroke="#333333" stroke-width="1"/>
+<line x1="499.5" y1="352" x2="499.5" y2="60" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="499.5" y="370" font-size="12" text-anchor="middle" fill="#333333">75</text>
+<line x1="640" y1="352" x2="640" y2="357" stroke="#333333" stroke-width="1"/>
+<line x1="640" y1="352" x2="640" y2="60" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="640" y="370" font-size="12" text-anchor="middle" fill="#333333">100</text>
+<line x1="73" y1="352" x2="78" y2="352" stroke="#333333" stroke-width="1"/>
+<line x1="78" y1="352" x2="640" y2="352" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="70" y="356" font-size="12" text-anchor="end" fill="#333333">40</text>
+<line x1="73" y1="287.11" x2="78" y2="287.11" stroke="#333333" stroke-width="1"/>
+<line x1="78" y1="287.11" x2="640" y2="287.11" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="70" y="291.11" font-size="12" text-anchor="end" fill="#333333">60</text>
+<line x1="73" y1="222.22" x2="78" y2="222.22" stroke="#333333" stroke-width="1"/>
+<line x1="78" y1="222.22" x2="640" y2="222.22" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="70" y="226.22" font-size="12" text-anchor="end" fill="#333333">80</text>
+<line x1="73" y1="157.33" x2="78" y2="157.33" stroke="#333333" stroke-width="1"/>
+<line x1="78" y1="157.33" x2="640" y2="157.33" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="70" y="161.33" font-size="12" text-anchor="end" fill="#333333">100</text>
+<line x1="73" y1="92.44" x2="78" y2="92.44" stroke="#333333" stroke-width="1"/>
+<line x1="78" y1="92.44" x2="640" y2="92.44" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="70" y="96.44" font-size="12" text-anchor="end" fill="#333333">120</text>
+<text x="359" y="390" font-size="13" text-anchor="middle" fill="#111111">loan rate charged (percent)</text>
+<text x="78" y="48" font-size="13" text-anchor="start" fill="#111111">bank's expected repayment per 100 lent</text>
+<polyline points="78,189.78 79.41,189.05 80.81,188.32 82.22,187.59 83.62,186.86 85.03,186.13 86.43,185.4 87.84,184.67 89.24,183.94 90.64,183.21 92.05,182.48 93.45,181.75 94.86,181.02 96.27,180.29 97.67,179.56 99.08,178.83 100.48,178.1 101.89,177.37 103.29,176.64 104.69,175.91 106.1,175.18 107.5,174.45 108.91,173.72 110.31,172.99 111.72,172.26 113.12,171.53 114.53,170.8 115.94,170.07 117.34,169.34 118.75,168.61 120.15,167.88 121.56,167.15 122.96,166.42 124.37,165.69 125.77,164.96 127.17,164.23 128.58,163.5 129.99,162.77 131.39,162.04 132.8,161.31 134.2,160.58 135.6,159.85 137.01,159.12 138.41,158.39 139.82,157.66 141.22,156.93 142.63,156.2 144.03,155.47 145.44,154.74 146.84,154.01 148.25,153.28 149.66,152.55 151.06,151.82 152.47,151.09 153.87,150.36 155.28,149.63 156.68,148.9 158.08,148.17 159.49,147.44 160.89,146.71 162.3,145.98 163.7,145.25 165.11,144.52 166.51,143.79 167.92,143.06 169.32,142.33 170.73,141.6 172.13,140.87 173.54,140.14 174.94,139.41 176.35,138.68 177.75,137.95 179.16,137.22 180.56,136.49 181.97,135.76 183.38,135.03 184.78,134.3 186.19,133.57 187.59,132.84 189,132.11 190.4,131.38 191.81,130.65 193.21,129.92 194.62,129.19 196.02,128.46 197.43,127.73 198.83,127 200.24,126.27 201.64,125.54 203.05,124.81 204.45,124.08 205.86,123.35 207.26,122.62 208.67,121.89 210.07,121.16 211.47,120.43 212.88,119.7 214.28,118.97 215.69,118.24 217.09,117.51 218.5,116.78" fill="none" stroke="#1a6fb5" stroke-width="2.8"/>
+<polyline points="218.5,279 222.15,277.95 225.81,276.89 229.46,275.84 233.11,274.78 236.76,273.73 240.42,272.67 244.07,271.62 247.72,270.56 251.38,269.51 255.03,268.46 258.68,267.4 262.34,266.35 265.99,265.29 269.64,264.24 273.29,263.18 276.95,262.13 280.6,261.07 284.25,260.02 287.91,258.97 291.56,257.91 295.21,256.86 298.87,255.8 302.52,254.75 306.17,253.69 309.82,252.64 313.48,251.58 317.13,250.53 320.78,249.48 324.44,248.42 328.09,247.37 331.74,246.31 335.4,245.26 339.05,244.2 342.7,243.15 346.35,242.09 350.01,241.04 353.66,239.99 357.31,238.93 360.97,237.88 364.62,236.82 368.27,235.77 371.93,234.71 375.58,233.66 379.23,232.6 382.88,231.55 386.54,230.5 390.19,229.44 393.84,228.39 397.5,227.33 401.15,226.28 404.8,225.22 408.46,224.17 412.11,223.11 415.76,222.06 419.42,221.01 423.07,219.95 426.72,218.9 430.37,217.84 434.03,216.79 437.68,215.73 441.33,214.68 444.99,213.62 448.64,212.57 452.29,211.52 455.94,210.46 459.6,209.41 463.25,208.35 466.9,207.3 470.56,206.24 474.21,205.19 477.86,204.13 481.52,203.08 485.17,202.03 488.82,200.97 492.48,199.92 496.13,198.86 499.78,197.81 503.43,196.75 507.09,195.7 510.74,194.64 514.39,193.59 518.05,192.54 521.7,191.48 525.35,190.43 529,189.37 532.66,188.32 536.31,187.26 539.96,186.21 543.62,185.15 547.27,184.1 550.92,183.05 554.58,181.99 558.23,180.94 561.88,179.88 565.54,178.83 569.19,177.77 572.84,176.72 576.49,175.66 580.15,174.61 583.8,173.56" fill="none" stroke="#d1495b" stroke-width="2.8"/>
+<line x1="218.5" y1="116.78" x2="640" y2="116.78" stroke="#333333" stroke-width="1.2" stroke-dasharray="6,4"/>
+<text x="636" y="108.78" font-size="12" text-anchor="end" fill="#333333">peak 112.5, never regained</text>
+<line x1="218.5" y1="116.78" x2="218.5" y2="279" stroke="#333333" stroke-width="1.2" stroke-dasharray="2,3"/>
+<circle cx="218.5" cy="116.78" r="5" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<circle cx="218.5" cy="279" r="5" fill="#ffffff" stroke="#d1495b" stroke-width="2"/>
+<line x1="218.5" y1="279" x2="218.5" y2="352" stroke="#bbbbbb" stroke-width="1" stroke-dasharray="2,3"/>
+<text x="226.5" y="106.78" font-size="13" text-anchor="start" fill="#1a6fb5" font-weight="bold">R* = 25%</text>
+<text x="100.48" y="202.76" font-size="13" text-anchor="start" fill="#1a6fb5">both types borrow</text>
+<text x="246.6" y="293.6" font-size="13" text-anchor="start" fill="#d1495b">only long shots borrow</text>
+<text x="638" y="150.33" font-size="12" text-anchor="end" fill="#d1495b">95 at 90%, the most long shots pay</text>
+<circle cx="583.8" cy="173.56" r="4" fill="#d1495b" stroke="none" stroke-width="1"/>
+<text x="226.5" y="206" font-size="12" text-anchor="start" fill="#333333">safe borrowers leave:</text>
+<text x="226.5" y="222" font-size="12" text-anchor="start" fill="#333333">112.5 falls to 62.5</text>
+</svg>

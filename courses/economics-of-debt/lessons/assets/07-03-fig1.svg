@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect x="0" y="0" width="680" height="400" fill="#ffffff"/>
+<line x1="70" y1="310" x2="600" y2="310" stroke="#333333" stroke-width="1.3"/>
+<line x1="70" y1="310" x2="70" y2="70" stroke="#333333" stroke-width="1.3"/>
+<line x1="65" y1="310" x2="70" y2="310" stroke="#333333" stroke-width="1"/>
+<text x="62" y="314" font-size="12" text-anchor="end" fill="#333333">0</text>
+<line x1="65" y1="230" x2="70" y2="230" stroke="#333333" stroke-width="1"/>
+<text x="62" y="234" font-size="12" text-anchor="end" fill="#333333">40</text>
+<line x1="65" y1="150" x2="70" y2="150" stroke="#333333" stroke-width="1"/>
+<text x="62" y="154" font-size="12" text-anchor="end" fill="#333333">80</text>
+<line x1="65" y1="70" x2="70" y2="70" stroke="#333333" stroke-width="1"/>
+<text x="62" y="74" font-size="12" text-anchor="end" fill="#333333">120</text>
+<text x="70" y="56" font-size="13" text-anchor="start" fill="#111111">firm value</text>
+<line x1="70" y1="230" x2="600" y2="230" stroke="#bbbbbb" stroke-width="1" stroke-dasharray="5,4"/>
+<text x="606" y="234" font-size="12" text-anchor="start" fill="#333333">bank paid</text>
+<line x1="70" y1="150" x2="600" y2="150" stroke="#bbbbbb" stroke-width="1" stroke-dasharray="5,4"/>
+<text x="606" y="154" font-size="12" text-anchor="start" fill="#333333">debt paid</text>
+<rect x="70" y="16" width="14" height="14" rx="0" fill="#dbe8f5" stroke="#1a6fb5" stroke-width="1.2"/>
+<text x="90" y="28" font-size="12" text-anchor="start" fill="#111111">bank, owed 40, paid first</text>
+<rect x="242.07" y="16" width="14" height="14" rx="0" fill="#dcefe4" stroke="#2e8b57" stroke-width="1.2"/>
+<text x="262.07" y="28" font-size="12" text-anchor="start" fill="#111111">bondholders, owed 40, paid next</text>
+<rect x="457.5" y="16" width="14" height="14" rx="0" fill="#f6dde1" stroke="#d1495b" stroke-width="1.2"/>
+<text x="477.5" y="28" font-size="12" text-anchor="start" fill="#111111">shareholders, paid last</text>
+<rect x="101" y="230" width="58" height="80" rx="0" fill="#dbe8f5" stroke="#1a6fb5" stroke-width="1.2"/>
+<text x="130" y="274.5" font-size="13" text-anchor="middle" fill="#111111">40</text>
+<rect x="101" y="214" width="58" height="16" rx="0" fill="#dcefe4" stroke="#2e8b57" stroke-width="1.2"/>
+<text x="130" y="226.5" font-size="13" text-anchor="middle" fill="#111111">8</text>
+<text x="130" y="328" font-size="12" text-anchor="middle" fill="#333333">Sell now</text>
+<text x="130" y="343" font-size="12" text-anchor="middle" fill="#333333">48</text>
+<rect x="201" y="230" width="58" height="80" rx="0" fill="#dbe8f5" stroke="#1a6fb5" stroke-width="1.2"/>
+<text x="230" y="274.5" font-size="13" text-anchor="middle" fill="#111111">40</text>
+<rect x="201" y="150" width="58" height="80" rx="0" fill="#dcefe4" stroke="#2e8b57" stroke-width="1.2"/>
+<text x="230" y="194.5" font-size="13" text-anchor="middle" fill="#111111">40</text>
+<rect x="201" y="70" width="58" height="80" rx="0" fill="#f6dde1" stroke="#d1495b" stroke-width="1.2"/>
+<text x="230" y="114.5" font-size="13" text-anchor="middle" fill="#111111">40</text>
+<text x="230" y="328" font-size="12" text-anchor="middle" fill="#333333">Continue:</text>
+<text x="230" y="343" font-size="12" text-anchor="middle" fill="#333333">good year, 120</text>
+<rect x="301" y="290" width="58" height="20" rx="0" fill="#dbe8f5" stroke="#1a6fb5" stroke-width="1.2"/>
+<text x="330" y="304.5" font-size="13" text-anchor="middle" fill="#111111">10</text>
+<text x="330" y="328" font-size="12" text-anchor="middle" fill="#333333">Continue:</text>
+<text x="330" y="343" font-size="12" text-anchor="middle" fill="#333333">bad year, 10</text>
+<rect x="401" y="260" width="58" height="50" rx="0" fill="#dbe8f5" stroke="#1a6fb5" stroke-width="1.2"/>
+<text x="430" y="289.5" font-size="13" text-anchor="middle" fill="#111111">25</text>
+<rect x="401" y="220" width="58" height="40" rx="0" fill="#dcefe4" stroke="#2e8b57" stroke-width="1.2"/>
+<text x="430" y="244.5" font-size="13" text-anchor="middle" fill="#111111">20</text>
+<rect x="401" y="180" width="58" height="40" rx="0" fill="#f6dde1" stroke="#d1495b" stroke-width="1.2"/>
+<text x="430" y="204.5" font-size="13" text-anchor="middle" fill="#111111">20</text>
+<text x="430" y="328" font-size="12" text-anchor="middle" fill="#333333">Continue:</text>
+<text x="430" y="343" font-size="12" text-anchor="middle" fill="#333333">average, 65</text>
+<rect x="526" y="230" width="58" height="80" rx="0" fill="#dbe8f5" stroke="#1a6fb5" stroke-width="1.2"/>
+<text x="555" y="274.5" font-size="13" text-anchor="middle" fill="#111111">40</text>
+<rect x="526" y="180" width="58" height="50" rx="0" fill="#dcefe4" stroke="#2e8b57" stroke-width="1.2"/>
+<text x="555" y="209.5" font-size="13" text-anchor="middle" fill="#111111">25</text>
+<text x="555" y="328" font-size="12" text-anchor="middle" fill="#333333">Bebchuk</text>
+<text x="555" y="343" font-size="12" text-anchor="middle" fill="#333333">at 65</text>
+<line x1="492" y1="66" x2="492" y2="346" stroke="#bbbbbb" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="280" y="372" font-size="12" text-anchor="middle" fill="#111111">Averages, sell vs continue: bank 40 vs 25; bondholders 8 vs 20; shareholders 0 vs 20</text>
+<text x="555" y="95" font-size="11" text-anchor="middle" fill="#333333">debts turned</text>
+<text x="555" y="109" font-size="11" text-anchor="middle" fill="#333333">into shares</text>
+</svg>
