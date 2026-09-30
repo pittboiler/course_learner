@@ -592,7 +592,7 @@ that lets people who do not love each other trade across time.
   convention is not a promise, since promises themselves arise from conventions (III.ii.2).
 - **Its sanction is reputation:** "the penalty of never being trusted again". That is the
   whole enforcement story of the reputational model of sovereign debt
-  ([`economics-of-debt`](../economics-of-debt/syllabus.md) 6.2–6.3) and of grim trigger
+  ([`economics-of-debt` 6.2](../economics-of-debt/lessons/06-02-reputation-and-eaton-gersovitz.md)–[6.3](../economics-of-debt/lessons/06-03-bulow-rogoff-and-sanctions.md)) and of grim trigger
   ([`grad-game-theory` 3.3](../grad-game-theory/lessons/03-03-repeated-games-finite-infinite.md)),
   where cooperation survives only if the future weighs enough. David Lewis's *Convention*
   (1969) rebuilt the theory with game theory.
@@ -1817,7 +1817,7 @@ much above" the lowest market rate.
   A projector, as Bentham reads Smith, is anyone trying something new, and every new venture
   is riskier than an old trade, so the cap screens out invention with folly.
 - **The crux is empirical:** who borrows at high rates? The selection effect Smith saw is
-  credit rationing ([`economics-of-debt`](../economics-of-debt/syllabus.md) 1.2, Stiglitz–Weiss;
+  credit rationing ([`economics-of-debt` 1.2](../economics-of-debt/lessons/01-02-credit-rationing-stiglitz-weiss.md), Stiglitz–Weiss;
   the lemons logic of [`grad-micro` 5.1](../grad-micro/lessons/05-01-adverse-selection-lemons.md)).
 
 Lessons: [3.2](lessons/03-02-predatory-lending-and-usury-caps.md)
@@ -1873,7 +1873,7 @@ Flesh can be taken only against a present will.
   household goods the borrower already owns and keeps, wedding rings included.
 - **In [5.3](lessons/05-03-bankruptcy-as-a-moral-institution.md):** the future-freedom argument says an unlimited claim on income crosses this
   line; its critic holds to 3.3's line, that a claim on earnings leaves the debtor free.
-- **Economists' version** ([`economics-of-debt`](../economics-of-debt/syllabus.md) 1.3): a
+- **Economists' version** ([`economics-of-debt` 1.3](../economics-of-debt/lessons/01-03-pledgeable-income-collateral-and-monitors.md)): a
   borrower can pledge future returns but not skills, which walk out the door with her. That is
   a claim about what she *can* pledge; this is about what she *may*.
 
@@ -2598,7 +2598,7 @@ anyone deserved. **Argument A** ([5.2](lessons/05-02-moral-hazard-and-fairness-t
 - **Weakest: A1 and A4.** The argument proves too much: insurance, bankruptcy and fire brigades all
   move costs off risk-takers, so an effect's existence settles nothing and only its size matters.
   Size depends on design: a rule or a one-off (a promise never to repeat it may not be believed,
-  the time-inconsistency problem of [`economics-of-debt`](../economics-of-debt/syllabus.md) 8.1);
+  the time-inconsistency problem of [`economics-of-debt` 8.1](../economics-of-debt/lessons/08-01-forgiveness-commitment-and-the-fresh-start.md));
   conditions attached; who bears the loss (a write-down charged to the creditor makes lenders more
   careful; a bailout paying creditors in full makes them less so). The defender: a one-off is
   rarely credible, since every rescue is a precedent.
@@ -2756,13 +2756,13 @@ that, bankruptcy should respect the rights creditors held outside it.
   wage lien stand; the Court overrode it for the fresh start ([fresh start](#fresh-start)).
 - **A different contract could produce a discharge:** a borrower choosing before she knows her luck
   might buy one as insurance, paid for in higher rates
-  ([`economics-of-debt`](../economics-of-debt/syllabus.md) 8.1). That reading grants the incentive
+  ([`economics-of-debt` 8.1](../economics-of-debt/lessons/08-01-forgiveness-commitment-and-the-fresh-start.md)). That reading grants the incentive
   objection in full and says lenders price it.
 - **For states:** bondholders suing one by one face the same common-pool problem, and a collective
   action clause is the bargain written into the contract in advance
   ([`history-of-debt` 6.3](../history-of-debt/lessons/06-03-holdouts-and-the-law-of-sovereign-restructuring.md)).
 - A mutual-advantage argument of the kind in [`ethics` 5.1](../ethics/lessons/05-01-contractarianism-morality-as-mutual-advantage.md);
-  as mechanism design, [`economics-of-debt`](../economics-of-debt/syllabus.md) 7.3.
+  as mechanism design, [`economics-of-debt` 7.3](../economics-of-debt/lessons/07-03-designing-bankruptcy.md).
 
 Lessons: [5.3](lessons/05-03-bankruptcy-as-a-moral-institution.md)
 
@@ -2914,7 +2914,7 @@ land and persons return in the fiftieth year; in Paine, every twenty-one-year-ol
   that values fall as the expiry nears is the advance-notice problem.
 - **The thread's showcase:** Leviticus 25 as law ([`history-of-debt` 1.3](../history-of-debt/lessons/01-03-release-laws-in-ancient-israel.md)),
   as theology ([`theology-of-debt` 1.3](../theology-of-debt/lessons/01-03-the-jubilee-the-land-is-mine.md)),
-  as a mechanism lenders price ([`economics-of-debt`](../economics-of-debt/syllabus.md) 8.1–8.2),
+  as a mechanism lenders price ([`economics-of-debt` 8.1](../economics-of-debt/lessons/08-01-forgiveness-commitment-and-the-fresh-start.md)–[8.2](../economics-of-debt/lessons/08-02-the-scheduled-release.md)),
   and here as a candidate principle of justice.
 - Boss problem 5(d) asks about a seven-year consumer Jubilee known in advance; the card gives no
   verdict.
@@ -3196,7 +3196,7 @@ Lessons: [6.2](lessons/06-02-public-debt-and-the-unborn.md)
 |---|---|---|
 | Lerner: internal debt is a transfer inside the future | P2 | conceptual |
 | Ricardian equivalence: bequests cover heirs' taxes ([`grad-macro` 3.4](../grad-macro/lessons/03-04-social-security-transfers.md)) | P2 | empirical |
-| $r<g$: the debt rolls over as its ratio to income falls ([`economics-of-debt`](../economics-of-debt/syllabus.md) 5.2) | P1 | empirical |
+| $r<g$: the debt rolls over as its ratio to income falls ([`economics-of-debt` 5.2](../economics-of-debt/lessons/05-02-when-r-is-less-than-g.md)) | P1 | empirical |
 | Crowding out: less private capital (Diamond, 1965; [`grad-macro` 3.1](../grad-macro/lessons/03-01-olg-model.md)) | strengthens P2: a loss even on the nation's books (if $r>g$) | empirical |
 | Madison's debits and advances ([6.1](lessons/06-01-the-earth-belongs-to-the-living.md)) | P3 | normative and empirical |
 | Parfit's non-identity problem | P4: a wrong to whom? | conceptual |
@@ -3816,14 +3816,14 @@ number the syllabus gives.
 | Monopoly pricing (a local lender's markup) | [`grad-micro` 6.1](../grad-micro/lessons/06-01-monopoly-price-discrimination.md) |
 | The Nash bargaining solution (the equal-split benchmark) | [`game-theory-refresher` 4.1](../game-theory-refresher/lessons/04-01-bargaining.md) |
 | Repeated games and grim trigger (Hume's reputational sanction) | [`grad-game-theory` 3.3](../grad-game-theory/lessons/03-03-repeated-games-finite-infinite.md) |
-| The fixed-payment debt contract (costly state verification) | [`economics-of-debt`](../economics-of-debt/syllabus.md) 1.1 |
-| Credit rationing (Stiglitz–Weiss) | [`economics-of-debt`](../economics-of-debt/syllabus.md) 1.2 |
-| Pledgeable income; inalienable human capital; collateral | [`economics-of-debt`](../economics-of-debt/syllabus.md) 1.3 |
-| Debt dynamics and when $r<g$ lets a debt roll | [`economics-of-debt`](../economics-of-debt/syllabus.md) 5.1–5.2 |
-| Reputation (Eaton–Gersovitz) and sanctions (Bulow–Rogoff) in sovereign debt | [`economics-of-debt`](../economics-of-debt/syllabus.md) 6.2–6.3 |
-| The collective bankruptcy proceeding as mechanism design | [`economics-of-debt`](../economics-of-debt/syllabus.md) 7.3 |
-| Forgiveness as rules vs discretion; discharge as insurance; strategic default as an incentive effect | [`economics-of-debt`](../economics-of-debt/syllabus.md) 8.1 |
-| Pricing credit by years to a release; the *prosbul* as an opt-out | [`economics-of-debt`](../economics-of-debt/syllabus.md) 8.2 |
+| The fixed-payment debt contract (costly state verification) | [`economics-of-debt` 1.1](../economics-of-debt/lessons/01-01-costly-state-verification.md) |
+| Credit rationing (Stiglitz–Weiss) | [`economics-of-debt` 1.2](../economics-of-debt/lessons/01-02-credit-rationing-stiglitz-weiss.md) |
+| Pledgeable income; inalienable human capital; collateral | [`economics-of-debt` 1.3](../economics-of-debt/lessons/01-03-pledgeable-income-collateral-and-monitors.md) |
+| Debt dynamics and when $r<g$ lets a debt roll | [`economics-of-debt` 5.1](../economics-of-debt/lessons/05-01-the-government-budget-constraint.md)–[5.2](../economics-of-debt/lessons/05-02-when-r-is-less-than-g.md) |
+| Reputation (Eaton–Gersovitz) and sanctions (Bulow–Rogoff) in sovereign debt | [`economics-of-debt` 6.2](../economics-of-debt/lessons/06-02-reputation-and-eaton-gersovitz.md)–[6.3](../economics-of-debt/lessons/06-03-bulow-rogoff-and-sanctions.md) |
+| The collective bankruptcy proceeding as mechanism design | [`economics-of-debt` 7.3](../economics-of-debt/lessons/07-03-designing-bankruptcy.md) |
+| Forgiveness as rules vs discretion; discharge as insurance; strategic default as an incentive effect | [`economics-of-debt` 8.1](../economics-of-debt/lessons/08-01-forgiveness-commitment-and-the-fresh-start.md) |
+| Pricing credit by years to a release; the *prosbul* as an opt-out | [`economics-of-debt` 8.2](../economics-of-debt/lessons/08-02-the-scheduled-release.md) |
 | Sovereign default models and the incentive case for declaring regimes odious in advance | [`economics-of-debt`](../economics-of-debt/syllabus.md) |
 
 **The debt thread: history**

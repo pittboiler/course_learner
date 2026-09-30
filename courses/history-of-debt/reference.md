@@ -151,7 +151,7 @@ This course follows debt as a **political institution**: not a contract between 
 | EFSM, EFSF, ESM, OMT | The rescue facilities and the ECB's conditional bond-buying program invented between 2010 and 2012, where the treaty had provided none | [6.2](lessons/06-02-the-eurozone-and-greece.md) |
 | Holdout problem | If most creditors accept a cut, the sovereign is solvent again, so refusing becomes more attractive. The relief is a public good; the holdout free-rides on it | [6.3](lessons/06-03-holdouts-and-the-law-of-sovereign-restructuring.md) |
 | Collective action clause (CAC) | A bond term letting a stated supermajority of holders amend payment terms and bind the rest. Standard in English-law sovereign bonds for a century; in New York-law bonds from Mexico's issue of February 2003 | [6.3](lessons/06-03-holdouts-and-the-law-of-sovereign-restructuring.md) |
-| Two-limb / single-limb (aggregation) | A vote series by series / one vote across all series, which multiplies the capital a blocking stake costs. Single-limb clauses carry a *uniformly applicable* condition: every holder is offered the same menu | [6.3](lessons/06-03-holdouts-and-the-law-of-sovereign-restructuring.md) |
+| Series-by-series / two-limb / single-limb | A vote in each series at 75 percent / 66⅔ percent of the aggregate plus more than half of each series / one vote across all series at 75 percent; each step multiplies the capital a blocking stake costs. Single-limb clauses carry a *uniformly applicable* condition: every holder is offered the same menu | [6.3](lessons/06-03-holdouts-and-the-law-of-sovereign-restructuring.md) |
 | *Pari passu* | "With equal step". The Equal Treatment Provision of Argentina's 1994 Fiscal Agency Agreement; on the traditional reading a promise about legal rank, on the holdouts' reading a promise about payment | [6.3](lessons/06-03-holdouts-and-the-law-of-sovereign-restructuring.md) |
 | SDRM | The Sovereign Debt Restructuring Mechanism proposed by Anne Krueger in 2001: bankruptcy by treaty, with a supermajority binding the rest and a stay on litigation. Shelved in 2003 | [6.3](lessons/06-03-holdouts-and-the-law-of-sovereign-restructuring.md) |
 | Lock Law | Argentina's Law 26,017 (2005), forbidding the executive to reopen the swap or settle with untendered bonds; repealed 2016 | [6.3](lessons/06-03-holdouts-and-the-law-of-sovereign-restructuring.md) |
@@ -1179,11 +1179,11 @@ Losses are absorbed from the bottom up: equity first, then mezzanine, then senio
 
 *From* [6.1](lessons/06-01-the-american-mortgage-and-2008.md), [6.3](lessons/06-03-holdouts-and-the-law-of-sovereign-restructuring.md)
 
-### Blocking stakes under two-limb and single-limb clauses
+### Blocking stakes under series-by-series and single-limb clauses
 
 What aggregation buys. With a 75 per cent amendment threshold, a blocking stake is just over 25 per cent of whatever the vote is taken over.
 
-**Worked (6.3):** ten equal series of 1 billion dollars. Series by series, a fund needs about 251 million — 2.5 per cent of the stock — to block one series and force full payment or litigation. With a single limb across all series it needs just over 25 per cent of 10 billion, about 2.5 billion: ten times the capital for the same veto. The same arithmetic is the case for aggregation and the worry about it, since one vote also lets a majority impose terms on a series that voted no — hence the *uniformly applicable* condition.
+**Worked (6.3):** ten equal series of 1 billion dollars. Series by series, a fund needs about 251 million — 2.5 per cent of the stock — to block one series and force full payment or litigation. With a single limb across all series it needs just over 25 per cent of 10 billion, about 2.5 billion: ten times the capital for the same veto. (A two-limb clause, 66⅔ per cent of the aggregate plus more than half of each series, puts a one-series veto at half the series, about 500 million.) The same arithmetic is the case for aggregation and the worry about it, since one vote also lets a majority impose terms on a series that voted no — hence the *uniformly applicable* condition.
 
 *From* [6.3](lessons/06-03-holdouts-and-the-law-of-sovereign-restructuring.md)
 
@@ -1322,13 +1322,13 @@ A refresher may assume; it may not hide. Every ceded topic points at the course 
 | Forgiveness against moral hazard as a moral argument; whether a fresh start is just | [philosophy-of-debt](../philosophy-of-debt/syllabus.md) |
 | Intergenerational debt: Jefferson's 1789 letter to Madison on whether one generation can bind the next | [philosophy-of-debt](../philosophy-of-debt/syllabus.md) |
 | Whether a successor government or population owes what a prior regime contracted | [philosophy-of-debt](../philosophy-of-debt/syllabus.md) |
-| Sovereign default models: Eaton–Gersovitz (reputation) and Bulow–Rogoff (sanctions), the pair the gunboats-versus-reputation crux maps onto | [economics-of-debt](../economics-of-debt/syllabus.md) 6.2–6.3 |
+| Sovereign default models: Eaton–Gersovitz (reputation) and Bulow–Rogoff (sanctions), the pair the gunboats-versus-reputation crux maps onto | [economics-of-debt 6.2](../economics-of-debt/lessons/06-02-reputation-and-eaton-gersovitz.md)–[6.3](../economics-of-debt/lessons/06-03-bulow-rogoff-and-sanctions.md) |
 | Debt overhang, the debt Laffer curve, and the Bulow–Rogoff buyback result as models | [economics-of-debt](../economics-of-debt/syllabus.md) |
-| The transfer problem and the ability-versus-willingness distinction as models | [economics-of-debt](../economics-of-debt/syllabus.md) 6.1–6.2 |
+| The transfer problem and the ability-versus-willingness distinction as models | [economics-of-debt 6.1](../economics-of-debt/lessons/06-01-the-transfer-problem-and-original-sin.md)–[6.2](../economics-of-debt/lessons/06-02-reputation-and-eaton-gersovitz.md) |
 | Fisher and Minsky, Kiyotaki–Moore, the leverage cycle | [economics-of-debt](../economics-of-debt/syllabus.md) |
 | Sustainability: what makes the $r$ against $g$ identity into a theory, and when a debt can be rolled over forever | [economics-of-debt](../economics-of-debt/syllabus.md) |
-| Credit rationing (Stiglitz–Weiss), monopoly lending and risk premia; why a borrower who cannot pledge his person may not borrow at all | [economics-of-debt](../economics-of-debt/syllabus.md) 1.2 |
-| Pricing credit under a periodic, scheduled release | [economics-of-debt](../economics-of-debt/syllabus.md) 8.2 |
+| Credit rationing (Stiglitz–Weiss), monopoly lending and risk premia; why a borrower who cannot pledge his person may not borrow at all | [economics-of-debt 1.2](../economics-of-debt/lessons/01-02-credit-rationing-stiglitz-weiss.md) |
+| Pricing credit under a periodic, scheduled release | [economics-of-debt 8.2](../economics-of-debt/lessons/08-02-the-scheduled-release.md) |
 | Ricardian equivalence — the claim that denies Smith's fiscal-illusion premise | [grad-macro 3.4](../grad-macro/lessons/03-04-social-security-transfers.md) |
 | Rational bubbles: a price component growing at the discount rate | [grad-macro 3.3](../grad-macro/lessons/03-03-money-rational-bubbles.md) |
 | Bond pricing, yield to maturity, discounting and the term structure — everything past coupon-over-price | [mathematical-finance 4.1](../mathematical-finance/lessons/04-01-term-structure-bond-pricing.md) |

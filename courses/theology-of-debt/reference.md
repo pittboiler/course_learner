@@ -357,7 +357,7 @@ Example: $P = 100$ measures in year 6, $p = 0.3$: recovery 30, loss 70. With
 interest forbidden, nothing in the contract offsets the 70. Aquinas's middle
 sentence: those able to pay would probably have paid before the seventh year, so the
 release costs little against the solvent. Generalized as pricing under a known
-release date in [`economics-of-debt`](../economics-of-debt/syllabus.md) 8.2.
+release date in [`economics-of-debt` 8.2](../economics-of-debt/lessons/08-02-the-scheduled-release.md).
 
 Lessons: [1.2](lessons/01-02-the-seventh-year-deuteronomy-15.md)
 
@@ -382,7 +382,7 @@ returns to its families and Israelites who sold themselves go out.**
   Luke 4 ([the Nazareth reading](#the-nazareth-reading)); the Christian Jubilee of
   1300 borrowed the name, not the institution ([the treasury](#the-treasury-of-the-church)).
 - Read three ways in the debt thread: law ([`history-of-debt` 1.3](../history-of-debt/lessons/01-03-release-laws-in-ancient-israel.md)),
-  theology (here), relief device ([`economics-of-debt`](../economics-of-debt/syllabus.md) 8.2).
+  theology (here), relief device ([`economics-of-debt` 8.2](../economics-of-debt/lessons/08-02-the-scheduled-release.md)).
 
 Lessons: [1.3](lessons/01-03-the-jubilee-the-land-is-mine.md), [2.1](lessons/02-01-the-acceptable-year-of-the-lord.md), [3.5](lessons/03-05-the-christian-jubilee-and-the-treasury.md)
 
@@ -1515,7 +1515,7 @@ debtor side: corruption, misuse; the people suffering are not responsible).
 
 - **Moral hazard,** met without the term: premise that debts bind kept; duties laid on
   debtors; losses put on lenders who took the risk. How much imprudence relief causes
-  is empirical ([`economics-of-debt`](../economics-of-debt/syllabus.md) 8.1).
+  is empirical ([`economics-of-debt` 8.1](../economics-of-debt/lessons/08-01-forgiveness-commitment-and-the-fresh-start.md)).
 - The 1986 text is curial; its principles gained papal weight via SRS 19 and CA 35.
 - **Odious debt** is not Church doctrine ([`philosophy-of-debt`](../philosophy-of-debt/syllabus.md) 6.3).
 

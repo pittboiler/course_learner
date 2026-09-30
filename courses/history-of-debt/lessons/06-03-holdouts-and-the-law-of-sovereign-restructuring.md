@@ -68,9 +68,9 @@ Two tracks run in parallel: the case, and the architecture built while the case 
 
 **Example 1 (clean: what aggregation buys).** A sovereign has 10 billion dollars of bonds in ten equal series of 1 billion. The CACs require 75 percent of a series to amend that series.
 
-*Two-limb (series by series):* a fund that buys just over 25 percent of one series — about 251 million dollars, 2.5 percent of the stock — blocks that series and must be paid in full or litigated with. Cheap.
+*Series by series:* a fund that buys just over 25 percent of one series — about 251 million dollars, 2.5 percent of the stock — blocks that series and must be paid in full or litigated with. Cheap.
 
-*Single-limb (one vote across all series):* the amendment needs 75 percent of the aggregate 10 billion, so blocking requires just over 25 percent of 10 billion, about 2.5 billion. Ten times the capital for the same veto.
+*Single-limb (one vote across all series):* the amendment needs 75 percent of the aggregate 10 billion, so blocking requires just over 25 percent of 10 billion, about 2.5 billion. Ten times the capital for the same veto. (The *two-limb* clause sits between the two: 66⅔ percent of the aggregate plus more than 50 percent of each series, so a veto confined to one series costs half of it, about 500 million.)
 
 That arithmetic is the whole case for aggregation — and the whole worry about it, since a single vote also lets a majority impose terms on a series that voted no. Single-limb clauses therefore come with a *uniformly applicable* condition: every holder must be offered the same menu.
 
