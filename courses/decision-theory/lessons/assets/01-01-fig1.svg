@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 330" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect x="0" y="0" width="780" height="330" fill="#ffffff"/>
+<text x="14" y="30" font-size="14" text-anchor="start" fill="#111111" font-weight="bold">States: how the talk goes</text>
+<text x="169" y="48" font-size="12" text-anchor="middle" fill="#333333">goes</text>
+<text x="169" y="62" font-size="12" text-anchor="middle" fill="#333333">well</text>
+<text x="279" y="48" font-size="12" text-anchor="middle" fill="#333333">goes</text>
+<text x="279" y="62" font-size="12" text-anchor="middle" fill="#333333">badly</text>
+<text x="18" y="109" font-size="13" text-anchor="start" fill="#111111" font-weight="bold">Rehearse</text>
+<rect x="114" y="82" width="110" height="44" rx="0" fill="#ffffff" stroke="#333333" stroke-width="1"/>
+<text x="169" y="110" font-size="15" text-anchor="middle" fill="#111111">8</text>
+<rect x="224" y="82" width="110" height="44" rx="0" fill="#ffffff" stroke="#333333" stroke-width="1"/>
+<text x="279" y="110" font-size="15" text-anchor="middle" fill="#111111">0</text>
+<text x="18" y="153" font-size="13" text-anchor="start" fill="#111111" font-weight="bold">Skip</text>
+<rect x="114" y="126" width="110" height="44" rx="0" fill="#dcefe4" stroke="#333333" stroke-width="1"/>
+<text x="169" y="154" font-size="15" text-anchor="middle" fill="#111111">10</text>
+<rect x="224" y="126" width="110" height="44" rx="0" fill="#dcefe4" stroke="#333333" stroke-width="1"/>
+<text x="279" y="154" font-size="15" text-anchor="middle" fill="#111111">2</text>
+<text x="18" y="194" font-size="12" text-anchor="start" fill="#1a6fb5">chance</text>
+<text x="169" y="194" font-size="12" text-anchor="middle" fill="#1a6fb5">0.9 / 0.3</text>
+<text x="279" y="194" font-size="12" text-anchor="middle" fill="#1a6fb5">0.1 / 0.7</text>
+<text x="18" y="224" font-size="12" text-anchor="start" fill="#111111">Skip is better in every column,</text>
+<text x="18" y="242" font-size="12" text-anchor="start" fill="#111111">but the chance depends on the act</text>
+<text x="18" y="260" font-size="12" text-anchor="start" fill="#111111">(rehearse / skip): EU 7.2 vs 4.4</text>
+<text x="400" y="30" font-size="14" text-anchor="start" fill="#111111" font-weight="bold">States: what rehearsing would do</text>
+<text x="544" y="48" font-size="12" text-anchor="middle" fill="#333333">well</text>
+<text x="544" y="62" font-size="12" text-anchor="middle" fill="#333333">either way</text>
+<text x="632" y="48" font-size="12" text-anchor="middle" fill="#333333">well only</text>
+<text x="632" y="62" font-size="12" text-anchor="middle" fill="#333333">if rehearse</text>
+<text x="720" y="48" font-size="12" text-anchor="middle" fill="#333333">badly</text>
+<text x="720" y="62" font-size="12" text-anchor="middle" fill="#333333">either way</text>
+<text x="404" y="109" font-size="13" text-anchor="start" fill="#111111" font-weight="bold">Rehearse</text>
+<rect x="500" y="82" width="88" height="44" rx="0" fill="#ffffff" stroke="#333333" stroke-width="1"/>
+<text x="544" y="110" font-size="15" text-anchor="middle" fill="#111111">8</text>
+<rect x="588" y="82" width="88" height="44" rx="0" fill="#dcefe4" stroke="#333333" stroke-width="1"/>
+<text x="632" y="110" font-size="15" text-anchor="middle" fill="#111111">8</text>
+<rect x="676" y="82" width="88" height="44" rx="0" fill="#ffffff" stroke="#333333" stroke-width="1"/>
+<text x="720" y="110" font-size="15" text-anchor="middle" fill="#111111">0</text>
+<text x="404" y="153" font-size="13" text-anchor="start" fill="#111111" font-weight="bold">Skip</text>
+<rect x="500" y="126" width="88" height="44" rx="0" fill="#dcefe4" stroke="#333333" stroke-width="1"/>
+<text x="544" y="154" font-size="15" text-anchor="middle" fill="#111111">10</text>
+<rect x="588" y="126" width="88" height="44" rx="0" fill="#ffffff" stroke="#333333" stroke-width="1"/>
+<text x="632" y="154" font-size="15" text-anchor="middle" fill="#111111">2</text>
+<rect x="676" y="126" width="88" height="44" rx="0" fill="#dcefe4" stroke="#333333" stroke-width="1"/>
+<text x="720" y="154" font-size="15" text-anchor="middle" fill="#111111">2</text>
+<text x="404" y="194" font-size="12" text-anchor="start" fill="#1a6fb5">chance</text>
+<text x="544" y="194" font-size="12" text-anchor="middle" fill="#1a6fb5">0.3</text>
+<text x="632" y="194" font-size="12" text-anchor="middle" fill="#1a6fb5">0.6</text>
+<text x="720" y="194" font-size="12" text-anchor="middle" fill="#1a6fb5">0.1</text>
+<text x="404" y="224" font-size="12" text-anchor="start" fill="#111111">No act is better in every column.</text>
+<text x="404" y="242" font-size="12" text-anchor="start" fill="#111111">Same chances whatever you do:</text>
+<text x="404" y="260" font-size="12" text-anchor="start" fill="#111111">EU 7.2 vs 4.4, as before</text>
+</svg>

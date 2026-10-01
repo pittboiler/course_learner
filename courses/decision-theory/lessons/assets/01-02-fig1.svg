@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect x="0" y="0" width="800" height="400" fill="#ffffff"/>
+<line x1="70" y1="330" x2="370" y2="330" stroke="#333333" stroke-width="1.3"/>
+<line x1="70" y1="330" x2="70" y2="50" stroke="#333333" stroke-width="1.3"/>
+<line x1="70" y1="330" x2="70" y2="335" stroke="#333333" stroke-width="1"/>
+<line x1="70" y1="330" x2="70" y2="50" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="70" y="348" font-size="12" text-anchor="middle" fill="#333333">0</text>
+<line x1="145" y1="330" x2="145" y2="335" stroke="#333333" stroke-width="1"/>
+<line x1="145" y1="330" x2="145" y2="50" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="145" y="348" font-size="12" text-anchor="middle" fill="#333333">10</text>
+<line x1="220" y1="330" x2="220" y2="335" stroke="#333333" stroke-width="1"/>
+<line x1="220" y1="330" x2="220" y2="50" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="220" y="348" font-size="12" text-anchor="middle" fill="#333333">20</text>
+<line x1="295" y1="330" x2="295" y2="335" stroke="#333333" stroke-width="1"/>
+<line x1="295" y1="330" x2="295" y2="50" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="295" y="348" font-size="12" text-anchor="middle" fill="#333333">30</text>
+<line x1="370" y1="330" x2="370" y2="335" stroke="#333333" stroke-width="1"/>
+<line x1="370" y1="330" x2="370" y2="50" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="370" y="348" font-size="12" text-anchor="middle" fill="#333333">40</text>
+<line x1="65" y1="330" x2="70" y2="330" stroke="#333333" stroke-width="1"/>
+<line x1="70" y1="330" x2="370" y2="330" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="62" y="334" font-size="12" text-anchor="end" fill="#333333">0</text>
+<line x1="65" y1="267.78" x2="70" y2="267.78" stroke="#333333" stroke-width="1"/>
+<line x1="70" y1="267.78" x2="370" y2="267.78" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="62" y="271.78" font-size="12" text-anchor="end" fill="#333333">10</text>
+<line x1="65" y1="205.56" x2="70" y2="205.56" stroke="#333333" stroke-width="1"/>
+<line x1="70" y1="205.56" x2="370" y2="205.56" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="62" y="209.56" font-size="12" text-anchor="end" fill="#333333">20</text>
+<line x1="65" y1="143.33" x2="70" y2="143.33" stroke="#333333" stroke-width="1"/>
+<line x1="70" y1="143.33" x2="370" y2="143.33" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="62" y="147.33" font-size="12" text-anchor="end" fill="#333333">30</text>
+<line x1="65" y1="81.11" x2="70" y2="81.11" stroke="#333333" stroke-width="1"/>
+<line x1="70" y1="81.11" x2="370" y2="81.11" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="62" y="85.11" font-size="12" text-anchor="end" fill="#333333">40</text>
+<text x="220" y="368" font-size="13" text-anchor="middle" fill="#111111">cap exponent K (casino pays at most 2^K)</text>
+<text x="70" y="38" font-size="13" text-anchor="start" fill="#111111">expected payout, dollars</text>
+<polyline points="70,323.78 370,74.89" fill="none" stroke="#1a6fb5" stroke-width="2.5"/>
+<circle cx="145" cy="261.56" r="5" fill="#d1495b" stroke="none" stroke-width="1"/>
+<circle cx="295" cy="137.11" r="5" fill="#d1495b" stroke="none" stroke-width="1"/>
+<text x="153" y="279.56" font-size="12" text-anchor="start" fill="#d1495b">K = 10: cap 1,024, EV 11</text>
+<text x="287" y="125.11" font-size="12" text-anchor="end" fill="#d1495b">K = 30: cap about 1.07 billion, EV 31</text>
+<text x="77.5" y="68.67" font-size="13" text-anchor="start" fill="#1a6fb5" font-weight="bold">EV = K + 1</text>
+<line x1="470" y1="330" x2="770" y2="330" stroke="#333333" stroke-width="1.3"/>
+<line x1="470" y1="330" x2="470" y2="50" stroke="#333333" stroke-width="1.3"/>
+<line x1="470" y1="330" x2="470" y2="335" stroke="#333333" stroke-width="1"/>
+<text x="470" y="348" font-size="12" text-anchor="middle" fill="#333333">0</text>
+<line x1="520" y1="330" x2="520" y2="335" stroke="#333333" stroke-width="1"/>
+<text x="520" y="348" font-size="12" text-anchor="middle" fill="#333333">2</text>
+<line x1="570" y1="330" x2="570" y2="335" stroke="#333333" stroke-width="1"/>
+<text x="570" y="348" font-size="12" text-anchor="middle" fill="#333333">4</text>
+<line x1="620" y1="330" x2="620" y2="335" stroke="#333333" stroke-width="1"/>
+<text x="620" y="348" font-size="12" text-anchor="middle" fill="#333333">6</text>
+<line x1="670" y1="330" x2="670" y2="335" stroke="#333333" stroke-width="1"/>
+<text x="670" y="348" font-size="12" text-anchor="middle" fill="#333333">8</text>
+<line x1="720" y1="330" x2="720" y2="335" stroke="#333333" stroke-width="1"/>
+<text x="720" y="348" font-size="12" text-anchor="middle" fill="#333333">10</text>
+<line x1="770" y1="330" x2="770" y2="335" stroke="#333333" stroke-width="1"/>
+<text x="770" y="348" font-size="12" text-anchor="middle" fill="#333333">12</text>
+<line x1="465" y1="330" x2="470" y2="330" stroke="#333333" stroke-width="1"/>
+<text x="462" y="334" font-size="12" text-anchor="end" fill="#333333">0</text>
+<line x1="465" y1="252.22" x2="470" y2="252.22" stroke="#333333" stroke-width="1"/>
+<text x="462" y="256.22" font-size="12" text-anchor="end" fill="#333333">1</text>
+<line x1="465" y1="174.44" x2="470" y2="174.44" stroke="#333333" stroke-width="1"/>
+<text x="462" y="178.44" font-size="12" text-anchor="end" fill="#333333">2</text>
+<line x1="465" y1="96.67" x2="470" y2="96.67" stroke="#333333" stroke-width="1"/>
+<text x="462" y="100.67" font-size="12" text-anchor="end" fill="#333333">3</text>
+<text x="620" y="368" font-size="13" text-anchor="middle" fill="#111111">sure payout x, dollars</text>
+<text x="470" y="38" font-size="13" text-anchor="start" fill="#111111">u(x) = square root of x</text>
+<polyline points="470,330 471.25,312.61 472.5,305.4 473.75,299.88 475,295.22 476.25,291.11 477.5,287.4 478.75,283.99 480,280.81 481.25,277.83 482.5,275 483.75,272.32 485,269.75 486.25,267.29 487.5,264.93 488.75,262.64 490,260.43 491.25,258.29 492.5,256.21 493.75,254.19 495,252.22 496.25,250.3 497.5,248.43 498.75,246.59 500,244.8 501.25,243.04 502.5,241.32 503.75,239.63 505,237.97 506.25,236.34 507.5,234.74 508.75,233.17 510,231.62 511.25,230.09 512.5,228.59 513.75,227.11 515,225.65 516.25,224.21 517.5,222.79 518.75,221.39 520,220.01 521.25,218.64 522.5,217.29 523.75,215.96 525,214.64 526.25,213.33 527.5,212.04 528.75,210.77 530,209.51 531.25,208.26 532.5,207.02 533.75,205.8 535,204.59 536.25,203.39 537.5,202.2 538.75,201.02 540,199.85 541.25,198.7 542.5,197.55 543.75,196.41 545,195.28 546.25,194.17 547.5,193.06 548.75,191.96 550,190.87 551.25,189.78 552.5,188.71 553.75,187.64 555,186.58 556.25,185.53 557.5,184.49 558.75,183.46 560,182.43 561.25,181.41 562.5,180.39 563.75,179.38 565,178.38 566.25,177.39 567.5,176.4 568.75,175.42 570,174.44 571.25,173.48 572.5,172.51 573.75,171.55 575,170.6 576.25,169.66 577.5,168.72 578.75,167.78 580,166.85 581.25,165.93 582.5,165.01 583.75,164.09 585,163.19 586.25,162.28 587.5,161.38 588.75,160.49 590,159.6 591.25,158.71 592.5,157.83 593.75,156.96 595,156.08 596.25,155.22 597.5,154.35 598.75,153.49 600,152.64 601.25,151.79 602.5,150.94 603.75,150.1 605,149.26 606.25,148.43 607.5,147.59 608.75,146.77 610,145.94 611.25,145.12 612.5,144.31 613.75,143.5 615,142.69 616.25,141.88 617.5,141.08 618.75,140.28 620,139.48 621.25,138.69 622.5,137.9 623.75,137.12 625,136.33 626.25,135.56 627.5,134.78 628.75,134.01 630,133.24 631.25,132.47 632.5,131.7 633.75,130.94 635,130.19 636.25,129.43 637.5,128.68 638.75,127.93 640,127.18 641.25,126.44 642.5,125.69 643.75,124.96 645,124.22 646.25,123.49 647.5,122.75 648.75,122.03 650,121.3 651.25,120.58 652.5,119.86 653.75,119.14 655,118.42 656.25,117.71 657.5,117 658.75,116.29 660,115.58 661.25,114.88 662.5,114.18 663.75,113.48 665,112.78 666.25,112.08 667.5,111.39 668.75,110.7 670,110.01 671.25,109.32 672.5,108.64 673.75,107.96 675,107.28 676.25,106.6 677.5,105.92 678.75,105.25 680,104.58 681.25,103.91 682.5,103.24 683.75,102.57 685,101.91 686.25,101.25 687.5,100.59 688.75,99.93 690,99.27 691.25,98.62 692.5,97.97 693.75,97.32 695,96.67 696.25,96.02 697.5,95.37 698.75,94.73 700,94.09 701.25,93.45 702.5,92.81 703.75,92.17 705,91.54 706.25,90.9 707.5,90.27 708.75,89.64 710,89.01 711.25,88.39 712.5,87.76 713.75,87.14 715,86.52 716.25,85.9 717.5,85.28 718.75,84.66 720,84.05 721.25,83.43 722.5,82.82 723.75,82.21 725,81.6 726.25,80.99 727.5,80.38 728.75,79.78 730,79.17 731.25,78.57 732.5,77.97 733.75,77.37 735,76.77 736.25,76.18 737.5,75.58 738.75,74.99 740,74.4 741.25,73.81 742.5,73.22 743.75,72.63 745,72.04 746.25,71.45 747.5,70.87 748.75,70.29 750,69.71 751.25,69.13 752.5,68.55 753.75,67.97 755,67.39 756.25,66.82 757.5,66.24 758.75,65.67 760,65.1 761.25,64.53 762.5,63.96 763.75,63.39 765,62.82 766.25,62.26 767.5,61.69 768.75,61.13 770,60.57" fill="none" stroke="#1a6fb5" stroke-width="2.5"/>
+<line x1="470" y1="142.23" x2="615.71" y2="142.23" stroke="#2e8b57" stroke-width="1.6" stroke-dasharray="5,4"/>
+<line x1="615.71" y1="142.23" x2="615.71" y2="330" stroke="#2e8b57" stroke-width="1.6" stroke-dasharray="5,4"/>
+<circle cx="615.71" cy="142.23" r="5" fill="#2e8b57" stroke="none" stroke-width="1"/>
+<text x="477.5" y="134.23" font-size="12" text-anchor="start" fill="#2e8b57">expected utility 2.41</text>
+<text x="623.71" y="302.78" font-size="12" text-anchor="start" fill="#2e8b57" font-weight="bold">CE 5.83</text>
+<text x="635" y="213.33" font-size="12" text-anchor="start" fill="#d1495b">expected payout: infinite</text>
+</svg>

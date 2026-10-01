@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 400" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect x="0" y="0" width="780" height="400" fill="#ffffff"/>
+<line x1="70" y1="320" x2="70" y2="55" stroke="#333333" stroke-width="1.5"/>
+<line x1="65" y1="320" x2="70" y2="320" stroke="#333333" stroke-width="1.5"/>
+<text x="61" y="324" font-size="12" text-anchor="end" fill="#111111">0</text>
+<line x1="65" y1="255" x2="70" y2="255" stroke="#333333" stroke-width="1.5"/>
+<text x="61" y="259" font-size="12" text-anchor="end" fill="#111111">25</text>
+<line x1="65" y1="190" x2="70" y2="190" stroke="#333333" stroke-width="1.5"/>
+<text x="61" y="194" font-size="12" text-anchor="end" fill="#111111">50</text>
+<line x1="65" y1="125" x2="70" y2="125" stroke="#333333" stroke-width="1.5"/>
+<text x="61" y="129" font-size="12" text-anchor="end" fill="#111111">75</text>
+<line x1="65" y1="60" x2="70" y2="60" stroke="#333333" stroke-width="1.5"/>
+<text x="61" y="64" font-size="12" text-anchor="end" fill="#111111">100</text>
+<text x="16" y="42" font-size="12" text-anchor="start" fill="#333333">welfare per person</text>
+<rect x="100" y="86" width="90" height="234" rx="0" fill="#dbe8f5" stroke="#1a6fb5" stroke-width="1.5"/>
+<text x="145" y="80" font-size="12" text-anchor="middle" fill="#111111">200 at 90</text>
+<text x="145" y="342" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">A</text>
+<text x="145" y="362" font-size="11" text-anchor="middle" fill="#333333">total 18,000 · avg 90 · CL 13,000</text>
+<rect x="245" y="86" width="90" height="234" rx="0" fill="#dbe8f5" stroke="#1a6fb5" stroke-width="1.5"/>
+<text x="290" y="80" font-size="12" text-anchor="middle" fill="#111111">200 at 90</text>
+<rect x="335" y="294" width="90" height="26" rx="0" fill="#f6dde1" stroke="#d1495b" stroke-width="1.5"/>
+<text x="380" y="288" font-size="12" text-anchor="middle" fill="#111111">200 at 10</text>
+<text x="335" y="342" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">A+</text>
+<text x="335" y="362" font-size="11" text-anchor="middle" fill="#333333">total 20,000 · avg 50 · CL 10,000</text>
+<rect x="470" y="177" width="180" height="143" rx="0" fill="#dcefe4" stroke="#2e8b57" stroke-width="1.5"/>
+<text x="560" y="171" font-size="12" text-anchor="middle" fill="#111111">400 at 55</text>
+<text x="560" y="342" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">B</text>
+<text x="560" y="362" font-size="11" text-anchor="middle" fill="#333333">total 22,000 · avg 55 · CL 12,000</text>
+<line x1="70" y1="320" x2="760" y2="320" stroke="#111111" stroke-width="1.5"/>
+<line x1="70" y1="255" x2="760" y2="255" stroke="#333333" stroke-width="1.2" stroke-dasharray="6 4"/>
+<text x="758" y="249" font-size="12" text-anchor="end" fill="#333333">critical level 25</text>
+<text x="390" y="386" font-size="11" text-anchor="middle" fill="#333333">width = number of people, height = welfare; CL = critical-level value</text>
+</svg>

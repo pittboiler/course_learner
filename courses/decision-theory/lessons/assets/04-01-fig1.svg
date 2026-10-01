@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 420" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect x="0" y="0" width="680" height="420" fill="#ffffff"/>
+<rect x="392.5" y="40" width="247.5" height="310" rx="0" fill="#dcefe4" stroke="none" stroke-width="0"/>
+<line x1="90" y1="350" x2="640" y2="350" stroke="#333333" stroke-width="1.3"/>
+<line x1="90" y1="350" x2="90" y2="40" stroke="#333333" stroke-width="1.3"/>
+<line x1="90" y1="350" x2="90" y2="355" stroke="#333333" stroke-width="1"/>
+<line x1="90" y1="350" x2="90" y2="40" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="90" y="368" font-size="12" text-anchor="middle" fill="#333333">0</text>
+<line x1="227.5" y1="350" x2="227.5" y2="355" stroke="#333333" stroke-width="1"/>
+<line x1="227.5" y1="350" x2="227.5" y2="40" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="227.5" y="368" font-size="12" text-anchor="middle" fill="#333333">0.25</text>
+<line x1="365" y1="350" x2="365" y2="355" stroke="#333333" stroke-width="1"/>
+<line x1="365" y1="350" x2="365" y2="40" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="365" y="368" font-size="12" text-anchor="middle" fill="#333333">0.5</text>
+<line x1="502.5" y1="350" x2="502.5" y2="355" stroke="#333333" stroke-width="1"/>
+<line x1="502.5" y1="350" x2="502.5" y2="40" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="502.5" y="368" font-size="12" text-anchor="middle" fill="#333333">0.75</text>
+<line x1="640" y1="350" x2="640" y2="355" stroke="#333333" stroke-width="1"/>
+<line x1="640" y1="350" x2="640" y2="40" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="640" y="368" font-size="12" text-anchor="middle" fill="#333333">1</text>
+<line x1="85" y1="350" x2="90" y2="350" stroke="#333333" stroke-width="1"/>
+<line x1="90" y1="350" x2="640" y2="350" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="82" y="354" font-size="12" text-anchor="end" fill="#333333">0</text>
+<line x1="85" y1="298.33" x2="90" y2="298.33" stroke="#333333" stroke-width="1"/>
+<line x1="90" y1="298.33" x2="640" y2="298.33" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="82" y="302.33" font-size="12" text-anchor="end" fill="#333333">2,000</text>
+<line x1="85" y1="246.67" x2="90" y2="246.67" stroke="#333333" stroke-width="1"/>
+<line x1="90" y1="246.67" x2="640" y2="246.67" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="82" y="250.67" font-size="12" text-anchor="end" fill="#333333">4,000</text>
+<line x1="85" y1="195" x2="90" y2="195" stroke="#333333" stroke-width="1"/>
+<line x1="90" y1="195" x2="640" y2="195" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="82" y="199" font-size="12" text-anchor="end" fill="#333333">6,000</text>
+<line x1="85" y1="143.33" x2="90" y2="143.33" stroke="#333333" stroke-width="1"/>
+<line x1="90" y1="143.33" x2="640" y2="143.33" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="82" y="147.33" font-size="12" text-anchor="end" fill="#333333">8,000</text>
+<line x1="85" y1="91.67" x2="90" y2="91.67" stroke="#333333" stroke-width="1"/>
+<line x1="90" y1="91.67" x2="640" y2="91.67" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="82" y="95.67" font-size="12" text-anchor="end" fill="#333333">10,000</text>
+<line x1="85" y1="40" x2="90" y2="40" stroke="#333333" stroke-width="1"/>
+<line x1="90" y1="40" x2="640" y2="40" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="82" y="44" font-size="12" text-anchor="end" fill="#333333">12,000</text>
+<text x="365" y="388" font-size="13" text-anchor="middle" fill="#111111">p, chance the prediction matches your act</text>
+<text x="90" y="28" font-size="13" text-anchor="start" fill="#111111">expected payoff (dollars)</text>
+<polyline points="90,350 640,91.67" fill="none" stroke="#1a6fb5" stroke-width="2.5"/>
+<polyline points="90,65.83 640,324.17" fill="none" stroke="#d1495b" stroke-width="2.5"/>
+<line x1="392.5" y1="207.92" x2="392.5" y2="350" stroke="#333333" stroke-width="1.5" stroke-dasharray="5,4"/>
+<circle cx="392.5" cy="207.92" r="5" fill="#111111" stroke="none" stroke-width="1"/>
+<text x="402.5" y="316.42" font-size="13" text-anchor="start" fill="#111111">cross at p* = 0.55</text>
+<text x="402.5" y="333.42" font-size="12" text-anchor="start" fill="#333333">both worth 5,500</text>
+<circle cx="585" cy="117.5" r="4" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<circle cx="585" cy="298.33" r="4" fill="#d1495b" stroke="none" stroke-width="1"/>
+<text x="577" y="107.5" font-size="12" text-anchor="end" fill="#1a6fb5">9,000</text>
+<text x="577" y="316.33" font-size="12" text-anchor="end" fill="#d1495b">2,000</text>
+<text x="200" y="334.5" font-size="13" text-anchor="start" fill="#1a6fb5" font-weight="bold">one box: 10,000 p</text>
+<text x="183.5" y="78.75" font-size="13" text-anchor="start" fill="#d1495b" font-weight="bold">two boxes: 11,000 - 10,000 p</text>
+<text x="420" y="56.92" font-size="13" text-anchor="start" fill="#2e8b57" font-weight="bold">one box wins</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 470" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect x="0" y="0" width="720" height="470" fill="#ffffff"/>
+<line x1="80" y1="400" x2="520" y2="400" stroke="#333333" stroke-width="1.3"/>
+<line x1="80" y1="400" x2="80" y2="130" stroke="#333333" stroke-width="1.3"/>
+<line x1="80" y1="400" x2="80" y2="405" stroke="#333333" stroke-width="1"/>
+<text x="80" y="418" font-size="12" text-anchor="middle" fill="#333333">0</text>
+<line x1="190" y1="400" x2="190" y2="405" stroke="#333333" stroke-width="1"/>
+<text x="190" y="418" font-size="12" text-anchor="middle" fill="#333333">0.25</text>
+<line x1="300" y1="400" x2="300" y2="405" stroke="#333333" stroke-width="1"/>
+<text x="300" y="418" font-size="12" text-anchor="middle" fill="#333333">0.5</text>
+<line x1="410" y1="400" x2="410" y2="405" stroke="#333333" stroke-width="1"/>
+<text x="410" y="418" font-size="12" text-anchor="middle" fill="#333333">0.75</text>
+<line x1="520" y1="400" x2="520" y2="405" stroke="#333333" stroke-width="1"/>
+<text x="520" y="418" font-size="12" text-anchor="middle" fill="#333333">1</text>
+<line x1="75" y1="400" x2="80" y2="400" stroke="#333333" stroke-width="1"/>
+<text x="72" y="404" font-size="12" text-anchor="end" fill="#333333">0</text>
+<line x1="75" y1="373" x2="80" y2="373" stroke="#333333" stroke-width="1"/>
+<text x="72" y="377" font-size="12" text-anchor="end" fill="#333333">10</text>
+<line x1="75" y1="265" x2="80" y2="265" stroke="#333333" stroke-width="1"/>
+<text x="72" y="269" font-size="12" text-anchor="end" fill="#333333">50</text>
+<line x1="75" y1="157" x2="80" y2="157" stroke="#333333" stroke-width="1"/>
+<text x="72" y="161" font-size="12" text-anchor="end" fill="#333333">90</text>
+<line x1="75" y1="130" x2="80" y2="130" stroke="#333333" stroke-width="1"/>
+<text x="72" y="134" font-size="12" text-anchor="end" fill="#333333">100</text>
+<text x="300" y="438" font-size="13" text-anchor="middle" fill="#111111">c = your credence that you will go to Damascus</text>
+<text x="80" y="118" font-size="13" text-anchor="start" fill="#111111">causal expected utility (p = 0.9)</text>
+<polyline points="80,157 520,373" fill="none" stroke="#d1495b" stroke-width="2.5"/>
+<polyline points="80,373 520,157" fill="none" stroke="#1a6fb5" stroke-width="2.5" stroke-dasharray="7,5"/>
+<line x1="300" y1="400" x2="300" y2="130" stroke="#111111" stroke-width="1.2" stroke-dasharray="3,3"/>
+<circle cx="300" cy="265" r="5" fill="#111111" stroke="none" stroke-width="1"/>
+<text x="528" y="377" font-size="13" text-anchor="start" fill="#d1495b">go to Damascus (solid)</text>
+<text x="528" y="161" font-size="13" text-anchor="start" fill="#1a6fb5">go to Aleppo (dashed)</text>
+<line x1="498" y1="80" x2="335.2" y2="80" stroke="#333333" stroke-width="2" marker-end="url(#arr)"/>
+<line x1="102" y1="80" x2="264.8" y2="80" stroke="#333333" stroke-width="2" marker-end="url(#arr)"/>
+<text x="423.2" y="34" font-size="12" text-anchor="middle" fill="#111111">lean Damascus:</text>
+<text x="423.2" y="50" font-size="12" text-anchor="middle" fill="#111111">Aleppo looks better</text>
+<text x="176.8" y="34" font-size="12" text-anchor="middle" fill="#111111">lean Aleppo:</text>
+<text x="176.8" y="50" font-size="12" text-anchor="middle" fill="#111111">Damascus looks better</text>
+<text x="300" y="460" font-size="12" text-anchor="middle" fill="#111111" font-weight="bold">deliberation can rest only at c = 1/2, where the lines cross</text>
+</svg>

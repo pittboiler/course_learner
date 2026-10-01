@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 360" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect x="0" y="0" width="700" height="360" fill="#ffffff"/>
+<text x="350" y="26" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">One draw from 100 tickets settles all four gambles</text>
+<text x="220" y="64" font-size="13" text-anchor="middle" fill="#111111" font-weight="bold">tickets 1 to 3</text>
+<text x="220" y="81" font-size="12" text-anchor="middle" fill="#333333">3 in 100</text>
+<text x="370" y="64" font-size="13" text-anchor="middle" fill="#111111" font-weight="bold">tickets 4 to 20</text>
+<text x="370" y="81" font-size="12" text-anchor="middle" fill="#333333">17 in 100</text>
+<text x="570" y="64" font-size="13" text-anchor="middle" fill="#111111" font-weight="bold">tickets 21 to 100</text>
+<text x="570" y="81" font-size="12" text-anchor="middle" fill="#333333">80 in 100</text>
+<rect x="150" y="94" width="140" height="44" rx="0" fill="#ffffff" stroke="#333333" stroke-width="1.2"/>
+<text x="220" y="122" font-size="15" text-anchor="middle" fill="#111111">2,000</text>
+<rect x="290" y="94" width="160" height="44" rx="0" fill="#ffffff" stroke="#333333" stroke-width="1.2"/>
+<text x="370" y="122" font-size="15" text-anchor="middle" fill="#111111">2,000</text>
+<rect x="450" y="94" width="240" height="44" rx="0" fill="#dcefe4" stroke="#333333" stroke-width="1.2"/>
+<text x="570" y="122" font-size="15" text-anchor="middle" fill="#111111">2,000</text>
+<text x="136" y="122" font-size="14" text-anchor="end" fill="#111111" font-weight="bold">Gamble A</text>
+<rect x="150" y="138" width="140" height="44" rx="0" fill="#ffffff" stroke="#333333" stroke-width="1.2"/>
+<text x="220" y="166" font-size="15" text-anchor="middle" fill="#111111">0</text>
+<rect x="290" y="138" width="160" height="44" rx="0" fill="#ffffff" stroke="#333333" stroke-width="1.2"/>
+<text x="370" y="166" font-size="15" text-anchor="middle" fill="#111111">6,000</text>
+<rect x="450" y="138" width="240" height="44" rx="0" fill="#dcefe4" stroke="#333333" stroke-width="1.2"/>
+<text x="570" y="166" font-size="15" text-anchor="middle" fill="#111111">2,000</text>
+<text x="136" y="166" font-size="14" text-anchor="end" fill="#111111" font-weight="bold">Gamble B</text>
+<rect x="150" y="204" width="140" height="44" rx="0" fill="#ffffff" stroke="#333333" stroke-width="1.2"/>
+<text x="220" y="232" font-size="15" text-anchor="middle" fill="#111111">2,000</text>
+<rect x="290" y="204" width="160" height="44" rx="0" fill="#ffffff" stroke="#333333" stroke-width="1.2"/>
+<text x="370" y="232" font-size="15" text-anchor="middle" fill="#111111">2,000</text>
+<rect x="450" y="204" width="240" height="44" rx="0" fill="#dcefe4" stroke="#333333" stroke-width="1.2"/>
+<text x="570" y="232" font-size="15" text-anchor="middle" fill="#111111">0</text>
+<text x="136" y="232" font-size="14" text-anchor="end" fill="#111111" font-weight="bold">Gamble C</text>
+<rect x="150" y="248" width="140" height="44" rx="0" fill="#ffffff" stroke="#333333" stroke-width="1.2"/>
+<text x="220" y="276" font-size="15" text-anchor="middle" fill="#111111">0</text>
+<rect x="290" y="248" width="160" height="44" rx="0" fill="#ffffff" stroke="#333333" stroke-width="1.2"/>
+<text x="370" y="276" font-size="15" text-anchor="middle" fill="#111111">6,000</text>
+<rect x="450" y="248" width="240" height="44" rx="0" fill="#dcefe4" stroke="#333333" stroke-width="1.2"/>
+<text x="570" y="276" font-size="15" text-anchor="middle" fill="#111111">0</text>
+<text x="136" y="276" font-size="14" text-anchor="end" fill="#111111" font-weight="bold">Gamble D</text>
+<text x="12" y="143" font-size="12" text-anchor="start" fill="#1a6fb5" font-weight="bold">Pair 1</text>
+<text x="12" y="253" font-size="12" text-anchor="start" fill="#1a6fb5" font-weight="bold">Pair 2</text>
+<rect x="147" y="90" width="306" height="96" rx="0" fill="none" stroke="#d1495b" stroke-width="2.5" stroke-dasharray="6,4"/>
+<rect x="147" y="200" width="306" height="96" rx="0" fill="none" stroke="#d1495b" stroke-width="2.5" stroke-dasharray="6,4"/>
+<text x="300" y="318" font-size="13" text-anchor="middle" fill="#d1495b">identical in both pairs: the real choice</text>
+<text x="570" y="318" font-size="13" text-anchor="middle" fill="#2e8b57">same within each pair: ignore it</text>
+<text x="350" y="344" font-size="13" text-anchor="middle" fill="#333333">Prizes in dollars. Sure-thing principle: A over B if and only if C over D.</text>
+</svg>
