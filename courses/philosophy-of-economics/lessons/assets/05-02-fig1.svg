@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 330" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect x="0" y="0" width="800" height="330" fill="#ffffff"/>
+<text x="415" y="20" font-size="13" text-anchor="middle" fill="#333333" font-weight="bold">Sources</text>
+<text x="665" y="20" font-size="13" text-anchor="middle" fill="#333333" font-weight="bold">Outcomes</text>
+<line x1="296" y1="28" x2="534" y2="28" stroke="#333333" stroke-width="1"/>
+<line x1="546" y1="28" x2="784" y2="28" stroke="#333333" stroke-width="1"/>
+<text x="352.5" y="54" font-size="12" text-anchor="middle" fill="#111111" font-weight="bold">Vulnerability</text>
+<text x="477.5" y="54" font-size="12" text-anchor="middle" fill="#111111" font-weight="bold">Weak agency</text>
+<text x="602.5" y="46" font-size="12" text-anchor="middle" fill="#111111" font-weight="bold">Harm to the</text>
+<text x="602.5" y="61" font-size="12" text-anchor="middle" fill="#111111" font-weight="bold">individual</text>
+<text x="727.5" y="46" font-size="12" text-anchor="middle" fill="#111111" font-weight="bold">Harm to</text>
+<text x="727.5" y="61" font-size="12" text-anchor="middle" fill="#111111" font-weight="bold">society</text>
+<text x="10" y="97" font-size="13" text-anchor="start" fill="#111111">Unregulated cash kidney sales</text>
+<rect x="293" y="74" width="119" height="36" rx="4" fill="#f6dde1" stroke="#ffffff" stroke-width="1"/>
+<text x="352.5" y="97" font-size="13" text-anchor="middle" fill="#d1495b" font-weight="bold">high</text>
+<rect x="418" y="74" width="119" height="36" rx="4" fill="#f6dde1" stroke="#ffffff" stroke-width="1"/>
+<text x="477.5" y="97" font-size="13" text-anchor="middle" fill="#d1495b" font-weight="bold">high</text>
+<rect x="543" y="74" width="119" height="36" rx="4" fill="#f6dde1" stroke="#ffffff" stroke-width="1"/>
+<text x="602.5" y="97" font-size="13" text-anchor="middle" fill="#d1495b" font-weight="bold">high</text>
+<rect x="668" y="74" width="119" height="36" rx="4" fill="#fdf0d5" stroke="#ffffff" stroke-width="1"/>
+<text x="727.5" y="97" font-size="13" text-anchor="middle" fill="#8a5a00" font-weight="bold">medium</text>
+<text x="10" y="141" font-size="13" text-anchor="start" fill="#111111">State-run fixed-price kidney purchase</text>
+<rect x="293" y="118" width="119" height="36" rx="4" fill="#f6dde1" stroke="#ffffff" stroke-width="1"/>
+<text x="352.5" y="141" font-size="13" text-anchor="middle" fill="#d1495b" font-weight="bold">high</text>
+<rect x="418" y="118" width="119" height="36" rx="4" fill="#dcefe4" stroke="#ffffff" stroke-width="1"/>
+<text x="477.5" y="141" font-size="13" text-anchor="middle" fill="#2e8b57" font-weight="bold">low</text>
+<rect x="543" y="118" width="119" height="36" rx="4" fill="#fdf0d5" stroke="#ffffff" stroke-width="1"/>
+<text x="602.5" y="141" font-size="13" text-anchor="middle" fill="#8a5a00" font-weight="bold">medium</text>
+<rect x="668" y="118" width="119" height="36" rx="4" fill="#fdf0d5" stroke="#ffffff" stroke-width="1"/>
+<text x="727.5" y="141" font-size="13" text-anchor="middle" fill="#8a5a00" font-weight="bold">medium</text>
+<text x="10" y="185" font-size="13" text-anchor="start" fill="#111111">Vote sales in council elections</text>
+<rect x="293" y="162" width="119" height="36" rx="4" fill="#fdf0d5" stroke="#ffffff" stroke-width="1"/>
+<text x="352.5" y="185" font-size="13" text-anchor="middle" fill="#8a5a00" font-weight="bold">medium</text>
+<rect x="418" y="162" width="119" height="36" rx="4" fill="#dcefe4" stroke="#ffffff" stroke-width="1"/>
+<text x="477.5" y="185" font-size="13" text-anchor="middle" fill="#2e8b57" font-weight="bold">low</text>
+<rect x="543" y="162" width="119" height="36" rx="4" fill="#dcefe4" stroke="#ffffff" stroke-width="1"/>
+<text x="602.5" y="185" font-size="13" text-anchor="middle" fill="#2e8b57" font-weight="bold">low</text>
+<rect x="668" y="162" width="119" height="36" rx="4" fill="#f6dde1" stroke="#ffffff" stroke-width="1"/>
+<text x="727.5" y="185" font-size="13" text-anchor="middle" fill="#d1495b" font-weight="bold">high</text>
+<text x="10" y="229" font-size="13" text-anchor="start" fill="#111111">Surrogacy, contract enforced at birth</text>
+<rect x="293" y="206" width="119" height="36" rx="4" fill="#fdf0d5" stroke="#ffffff" stroke-width="1"/>
+<text x="352.5" y="229" font-size="13" text-anchor="middle" fill="#8a5a00" font-weight="bold">medium</text>
+<rect x="418" y="206" width="119" height="36" rx="4" fill="#fdf0d5" stroke="#ffffff" stroke-width="1"/>
+<text x="477.5" y="229" font-size="13" text-anchor="middle" fill="#8a5a00" font-weight="bold">medium</text>
+<rect x="543" y="206" width="119" height="36" rx="4" fill="#fdf0d5" stroke="#ffffff" stroke-width="1"/>
+<text x="602.5" y="229" font-size="13" text-anchor="middle" fill="#8a5a00" font-weight="bold">medium</text>
+<rect x="668" y="206" width="119" height="36" rx="4" fill="#fdf0d5" stroke="#ffffff" stroke-width="1"/>
+<text x="727.5" y="229" font-size="13" text-anchor="middle" fill="#8a5a00" font-weight="bold">medium</text>
+<text x="10" y="273" font-size="13" text-anchor="start" fill="#111111">Paid queue-standing for theatre tickets</text>
+<rect x="293" y="250" width="119" height="36" rx="4" fill="#dcefe4" stroke="#ffffff" stroke-width="1"/>
+<text x="352.5" y="273" font-size="13" text-anchor="middle" fill="#2e8b57" font-weight="bold">low</text>
+<rect x="418" y="250" width="119" height="36" rx="4" fill="#dcefe4" stroke="#ffffff" stroke-width="1"/>
+<text x="477.5" y="273" font-size="13" text-anchor="middle" fill="#2e8b57" font-weight="bold">low</text>
+<rect x="543" y="250" width="119" height="36" rx="4" fill="#dcefe4" stroke="#ffffff" stroke-width="1"/>
+<text x="602.5" y="273" font-size="13" text-anchor="middle" fill="#2e8b57" font-weight="bold">low</text>
+<rect x="668" y="250" width="119" height="36" rx="4" fill="#dcefe4" stroke="#ffffff" stroke-width="1"/>
+<text x="727.5" y="273" font-size="13" text-anchor="middle" fill="#2e8b57" font-weight="bold">low</text>
+<text x="10" y="316" font-size="12" text-anchor="start" fill="#333333">Illustrative readings by this lesson, not Satz's own scores. One high cell can make a market noxious.</text>
+</svg>
