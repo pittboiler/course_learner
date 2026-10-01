@@ -42,7 +42,7 @@ $$b_i'(G) = c \qquad(\text{own } \mathrm{MRS}_i = \mathrm{MRT}).$$
 
 **Lindahl equilibrium.** The fix, in principle: give each consumer a **personalized price** $\tau_i \ge 0$ per unit of $G$, with $\sum_i \tau_i = c$. Facing price $\tau_i$, consumer $i$ demands the $G$ solving $b_i'(G) = \tau_i$. A **Lindahl equilibrium** is a price vector at which everyone demands the *same* $G$ and the prices cover cost. Then $\sum_i \tau_i = \sum_i b_i'(G) = c$ — exactly Samuelson.
 
-**In words:** Lindahl prices are the public-good analog of Walrasian prices — each person pays per unit their own marginal benefit, the personalized prices add up to marginal cost, and the resulting common quantity is efficient. The catch: computing $\tau_i$ requires knowing $b_i'$, and each person has every incentive to understate it (lower price, still consume the same $G$). Lindahl is not incentive-compatible; eliciting truthful valuations needs a mechanism — VCG / Clarke–Groves ([5.5 mechanism design](06-05-social-choice-welfare.md)), itself limited by budget-balance and participation constraints.
+**In words:** Lindahl prices are the public-good analog of Walrasian prices — each person pays per unit their own marginal benefit, the personalized prices add up to marginal cost, and the resulting common quantity is efficient. The catch: computing $\tau_i$ requires knowing $b_i'$, and each person has every incentive to understate it (a lower report cuts her price by more than it cuts $G$). Lindahl is not incentive-compatible; eliciting truthful valuations needs a mechanism — VCG / Clarke–Groves ([5.5 mechanism design](05-05-mechanism-design-markets.md)), itself limited by budget-balance and participation constraints.
 
 ## Picture
 

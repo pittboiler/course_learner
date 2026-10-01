@@ -297,7 +297,7 @@ changes the brief lists) → roots (`ethics`, `fundamental-theology`,
 
 **Economics & Finance additions** · 2 courses · ~56 lessons
 
-- [ ] `public-economics` — Public Economics (2, 26) — syllabus ✓ (2026-09-15), lessons pending
+- [x] `public-economics` — Public Economics (2, 26) — syllabus ✓ (2026-09-15), built 2026-09-30 (26 lessons + reference card)
 - [x] `economics-of-debt` — Economics of Debt (2, 34) — syllabus ✓ (2026-09-15; revised 2026-09-28, 30 → 34) — **lessons ✓** (34 lessons + reference card, prepped 2026-09-29)
 ---
 

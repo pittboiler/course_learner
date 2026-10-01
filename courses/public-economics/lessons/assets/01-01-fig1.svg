@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect x="0" y="0" width="680" height="400" fill="#ffffff"/>
+<line x1="80" y1="330" x2="600" y2="330" stroke="#333333" stroke-width="1.3"/>
+<line x1="80" y1="330" x2="80" y2="50" stroke="#333333" stroke-width="1.3"/>
+<line x1="80" y1="330" x2="80" y2="335" stroke="#333333" stroke-width="1"/>
+<line x1="80" y1="330" x2="80" y2="50" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="80" y="348" font-size="12" text-anchor="middle" fill="#333333">0</text>
+<line x1="184" y1="330" x2="184" y2="335" stroke="#333333" stroke-width="1"/>
+<line x1="184" y1="330" x2="184" y2="50" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="184" y="348" font-size="12" text-anchor="middle" fill="#333333">0.2</text>
+<line x1="288" y1="330" x2="288" y2="335" stroke="#333333" stroke-width="1"/>
+<line x1="288" y1="330" x2="288" y2="50" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="288" y="348" font-size="12" text-anchor="middle" fill="#333333">0.4</text>
+<line x1="392" y1="330" x2="392" y2="335" stroke="#333333" stroke-width="1"/>
+<line x1="392" y1="330" x2="392" y2="50" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="392" y="348" font-size="12" text-anchor="middle" fill="#333333">0.6</text>
+<line x1="496" y1="330" x2="496" y2="335" stroke="#333333" stroke-width="1"/>
+<line x1="496" y1="330" x2="496" y2="50" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="496" y="348" font-size="12" text-anchor="middle" fill="#333333">0.8</text>
+<line x1="600" y1="330" x2="600" y2="335" stroke="#333333" stroke-width="1"/>
+<line x1="600" y1="330" x2="600" y2="50" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="600" y="348" font-size="12" text-anchor="middle" fill="#333333">1</text>
+<line x1="75" y1="330" x2="80" y2="330" stroke="#333333" stroke-width="1"/>
+<line x1="80" y1="330" x2="600" y2="330" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="72" y="334" font-size="12" text-anchor="end" fill="#333333">0</text>
+<line x1="75" y1="283.33" x2="80" y2="283.33" stroke="#333333" stroke-width="1"/>
+<line x1="80" y1="283.33" x2="600" y2="283.33" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="72" y="287.33" font-size="12" text-anchor="end" fill="#333333">10</text>
+<line x1="75" y1="236.67" x2="80" y2="236.67" stroke="#333333" stroke-width="1"/>
+<line x1="80" y1="236.67" x2="600" y2="236.67" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="72" y="240.67" font-size="12" text-anchor="end" fill="#333333">20</text>
+<line x1="75" y1="190" x2="80" y2="190" stroke="#333333" stroke-width="1"/>
+<line x1="80" y1="190" x2="600" y2="190" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="72" y="194" font-size="12" text-anchor="end" fill="#333333">30</text>
+<line x1="75" y1="143.33" x2="80" y2="143.33" stroke="#333333" stroke-width="1"/>
+<line x1="80" y1="143.33" x2="600" y2="143.33" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="72" y="147.33" font-size="12" text-anchor="end" fill="#333333">40</text>
+<line x1="75" y1="96.67" x2="80" y2="96.67" stroke="#333333" stroke-width="1"/>
+<line x1="80" y1="96.67" x2="600" y2="96.67" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="72" y="100.67" font-size="12" text-anchor="end" fill="#333333">50</text>
+<line x1="75" y1="50" x2="80" y2="50" stroke="#333333" stroke-width="1"/>
+<line x1="80" y1="50" x2="600" y2="50" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="72" y="54" font-size="12" text-anchor="end" fill="#333333">60</text>
+<text x="340" y="368" font-size="13" text-anchor="middle" fill="#111111">person 1's share of private consumption, s</text>
+<text x="80" y="38" font-size="13" text-anchor="start" fill="#111111">efficient public good G*</text>
+<polyline points="80,236.67 82.6,235.55 85.2,234.44 87.8,233.34 90.4,232.24 93,231.15 95.6,230.07 98.2,228.99 100.8,227.92 103.4,226.85 106,225.79 108.6,224.74 111.2,223.69 113.8,222.65 116.4,221.62 119,220.59 121.6,219.57 124.2,218.55 126.8,217.54 129.4,216.53 132,215.53 134.6,214.54 137.2,213.55 139.8,212.57 142.4,211.59 145,210.62 147.6,209.65 150.2,208.69 152.8,207.74 155.4,206.79 158,205.84 160.6,204.9 163.2,203.97 165.8,203.04 168.4,202.11 171,201.19 173.6,200.28 176.2,199.37 178.8,198.46 181.4,197.56 184,196.67 186.6,195.78 189.2,194.89 191.8,194.01 194.4,193.13 197,192.26 199.6,191.39 202.2,190.53 204.8,189.67 207.4,188.82 210,187.97 212.6,187.13 215.2,186.29 217.8,185.45 220.4,184.62 223,183.79 225.6,182.97 228.2,182.15 230.8,181.33 233.4,180.52 236,179.72 238.6,178.92 241.2,178.12 243.8,177.32 246.4,176.53 249,175.75 251.6,174.96 254.2,174.19 256.8,173.41 259.4,172.64 262,171.87 264.6,171.11 267.2,170.35 269.8,169.6 272.4,168.84 275,168.1 277.6,167.35 280.2,166.61 282.8,165.87 285.4,165.14 288,164.41 290.6,163.68 293.2,162.96 295.8,162.24 298.4,161.52 301,160.81 303.6,160.1 306.2,159.39 308.8,158.69 311.4,157.99 314,157.3 316.6,156.6 319.2,155.91 321.8,155.23 324.4,154.54 327,153.87 329.6,153.19 332.2,152.51 334.8,151.84 337.4,151.18 340,150.51 342.6,149.85 345.2,149.19 347.8,148.54 350.4,147.89 353,147.24 355.6,146.59 358.2,145.95 360.8,145.31 363.4,144.67 366,144.04 368.6,143.4 371.2,142.77 373.8,142.15 376.4,141.53 379,140.9 381.6,140.29 384.2,139.67 386.8,139.06 389.4,138.45 392,137.84 394.6,137.24 397.2,136.64 399.8,136.04 402.4,135.44 405,134.85 407.6,134.26 410.2,133.67 412.8,133.08 415.4,132.5 418,131.92 420.6,131.34 423.2,130.76 425.8,130.19 428.4,129.62 431,129.05 433.6,128.48 436.2,127.92 438.8,127.36 441.4,126.8 444,126.24 446.6,125.69 449.2,125.14 451.8,124.59 454.4,124.04 457,123.5 459.6,122.95 462.2,122.41 464.8,121.87 467.4,121.34 470,120.8 472.6,120.27 475.2,119.74 477.8,119.22 480.4,118.69 483,118.17 485.6,117.65 488.2,117.13 490.8,116.61 493.4,116.1 496,115.59 498.6,115.08 501.2,114.57 503.8,114.06 506.4,113.56 509,113.05 511.6,112.55 514.2,112.06 516.8,111.56 519.4,111.07 522,110.57 524.6,110.08 527.2,109.6 529.8,109.11 532.4,108.62 535,108.14 537.6,107.66 540.2,107.18 542.8,106.71 545.4,106.23 548,105.76 550.6,105.29 553.2,104.82 555.8,104.35 558.4,103.88 561,103.42 563.6,102.96 566.2,102.5 568.8,102.04 571.4,101.58 574,101.13 576.6,100.67 579.2,100.22 581.8,99.77 584.4,99.32 587,98.87 589.6,98.43 592.2,97.99 594.8,97.54 597.4,97.1 600,96.67" fill="none" stroke="#1a6fb5" stroke-width="2.5"/>
+<line x1="80" y1="150.51" x2="600" y2="150.51" stroke="#d1495b" stroke-width="2" stroke-dasharray="7,5"/>
+<circle cx="184" cy="196.67" r="5" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<circle cx="496" cy="115.59" r="5" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<text x="194" y="216.67" font-size="13" text-anchor="start" fill="#1a6fb5">s = 0.2: G* = 28.6</text>
+<text x="486" y="103.59" font-size="13" text-anchor="end" fill="#1a6fb5">s = 0.8: G* = 45.9</text>
+<text x="596" y="86.67" font-size="13" text-anchor="end" fill="#1a6fb5" font-weight="bold">tastes differ: 1 and 1/4</text>
+<text x="596" y="172.51" font-size="13" text-anchor="end" fill="#d1495b" font-weight="bold">same tastes, 5/8 each: G* = 38.5</text>
+<text x="86" y="256.67" font-size="13" text-anchor="start" fill="#1a6fb5">G* = 20</text>
+</svg>
