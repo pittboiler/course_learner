@@ -1283,7 +1283,7 @@ An agent-centred prerogative lets you weight your own interests $M$ times as hea
 | Harsanyi's aggregation theorem; interpersonal comparison; the completeness axiom behind utility representation | [decision-theory](../decision-theory/syllabus.md) 5.1–5.2 |
 | Population ethics | [decision-theory](../decision-theory/syllabus.md) 5.3–5.4 |
 | Instrumental rationality; *akrasia* against revealed preference | [decision-theory](../decision-theory/syllabus.md) |
-| Utilitarianism as a principle for institutions; Rawls; Nozick's minimal state; consent of the governed; political liberalism; just war | [political-philosophy](../political-philosophy/syllabus.md) 1.2, 2.1–2.4, 4.1 |
+| Utilitarianism as a principle for institutions; Rawls; Nozick's minimal state; consent of the governed; political liberalism | [political-philosophy](../political-philosophy/syllabus.md) 1.2, 2.1–2.4, 4.1 (just war: [catholic-social-teaching](../catholic-social-teaching/syllabus.md)) |
 | Negative and positive liberty | [political-philosophy](../political-philosophy/syllabus.md) |
 | Welfare metrics, adaptive preferences, money and happiness measures | [philosophy-of-economics](../philosophy-of-economics/syllabus.md) 1.1–1.3 |
 | Public goods and free riding | [public-economics](../public-economics/syllabus.md) 1.2–1.3 |

@@ -1570,7 +1570,7 @@ anything:** a verdict counts only if it survives every transformation the inform
 ### Prioritarianism
 
 **A unit of well-being counts for more the worse off its recipient is** (treated here only formally;
-the justice debate is [`political-philosophy`](../political-philosophy/syllabus.md) 2.6, and
+the justice debate is [`political-philosophy` 2.6](../political-philosophy/lessons/02-06-luck-relations-priority-and-sufficiency.md), and
 [`ethics` 1.3](../ethics/lessons/01-03-justice-and-the-separateness-of-persons.md) runs it with $f=\sqrt{\ }$).
 
 $$W=\sum_i f(u_i),\quad f \text{ increasing, strictly concave}$$

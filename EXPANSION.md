@@ -261,7 +261,7 @@ changes the brief lists) → roots (`ethics`, `fundamental-theology`,
 
 **Politics & Society (Field 10)** · 14 courses · ~346 lessons
 
-- [ ] `political-philosophy` — Political Philosophy (1, 26) — syllabus ✓ (2026-09-15), lessons pending
+- [x] `political-philosophy` — Political Philosophy (1, 26) — syllabus ✓ (2026-09-15), built 2026-10-02 (26 lessons + reference card)
 - [ ] `political-institutions` — Political Institutions (1, 25) — syllabus ✓ (2026-09-15), lessons pending
 - [x] `history-of-political-thought` — History of Political Thought (1, 27) — syllabus ✓ (2026-09-15) — **lessons ✓** (27 lessons + reference card, prepped 2026-09-16)
 - [ ] `social-theory` — Social Theory (1, 24) — syllabus ✓ (2026-09-15), lessons pending

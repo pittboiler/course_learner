@@ -39,10 +39,10 @@ Four phrases carry [Shylock's bond](../reference.md#shylocks-bond). "Merry sport
 
 Premise 4 carries the weight, and its defenders agree on little else.
 
-- **Mill's self-defeat** ([Mill's slavery contract](../reference.md#mills-slavery-contract); *On Liberty*, 1859, ch. V; paternalism is [`political-philosophy`](../../political-philosophy/syllabus.md) 3.3). We honor voluntary choices out of regard for liberty, and selling oneself spends all future liberty in one act: "The principle of freedom cannot require that he should be free not to be free. It is not freedom, to be allowed to alienate his freedom."
+- **Mill's self-defeat** ([Mill's slavery contract](../reference.md#mills-slavery-contract); *On Liberty*, 1859, ch. V; paternalism is [`political-philosophy` 3.3](../../political-philosophy/lessons/03-03-paternalism-and-legal-moralism.md)). We honor voluntary choices out of regard for liberty, and selling oneself spends all future liberty in one act: "The principle of freedom cannot require that he should be free not to be free. It is not freedom, to be allowed to alienate his freedom."
 - **Locke's natural law** (*Second Treatise* §§23–24). Men are God's workmanship, and no one may take his own life: "No body can give more power than he has himself; and he that cannot take away his own life, cannot give another power over it." He accepted self-sale into limited service, like the Hebrew servant freed for a lost eye or tooth, never into a power of life and death.
 - **Kant's dignity.** A person has dignity, not a price, so cannot stand as the equivalent of a sum ([`ethics` 2.3](../../ethics/lessons/02-03-humanity-autonomy-and-the-lie.md)).
-- **Republican [non-domination](../reference.md#non-domination).** The wrong is the power's existence, not its use. A creditor who may cut you at pleasure dominates you even if he never would, as a benevolent master is still a master ([`political-philosophy`](../../political-philosophy/syllabus.md) 3.1).
+- **Republican [non-domination](../reference.md#non-domination).** The wrong is the power's existence, not its use. A creditor who may cut you at pleasure dominates you even if he never would, as a benevolent master is still a master ([`political-philosophy` 3.1](../../political-philosophy/lessons/03-01-three-concepts-of-liberty.md)).
 
 Some libertarians accept a version too. For Murray Rothbard (*The Ethics of Liberty*, 1982) the will cannot be surrendered, so rights over oneself can be waived but not alienated: you may agree to work, but no one may compel you to perform.
 

@@ -17,7 +17,7 @@ Keep two questions apart.
 Bentham listed the reasons for a cap in order to knock each down (Letter I). Apart from "prevention of usury", they sort into three kinds:
 
 - **Exploitation:** protect the needy from extortion by lenders.
-- **Paternalism:** protect prodigals and the naive from their own choices. A cap binds the fully informed too, so for them it is *hard* [paternalism](../reference.md#paternalism) ([`political-philosophy`](../../political-philosophy/syllabus.md) 3.3).
+- **Paternalism:** protect prodigals and the naive from their own choices. A cap binds the fully informed too, so for them it is *hard* [paternalism](../reference.md#paternalism) ([`political-philosophy` 3.3](../../political-philosophy/lessons/03-03-paternalism-and-legal-moralism.md)).
 - **Social allocation:** keep the nation's capital away from rash "projectors". This is Smith's reason, about third parties rather than the borrower.
 
 Modern Catholic teaching makes the exploitation argument with a different benchmark: it condemns as usury profit drawn from need at rates beyond the borrower's reach, measuring a rate by what the borrower can bear, not by what the loan costs ([`theology-of-debt` 6.1](../../theology-of-debt/lessons/06-01-usury-and-finance-in-modern-teaching.md)).

@@ -504,7 +504,7 @@ monk could eat.
   Capabilities*, 2011): life, bodily health, bodily integrity, senses imagination and thought,
   emotions, practical reason, affiliation, other species, play, control over one's environment.
 - **Here a measure;** capabilities as the currency of justice is
-  [`political-philosophy`](../political-philosophy/syllabus.md) 2.5's question.
+  [`political-philosophy` 2.5](../political-philosophy/lessons/02-05-equality-of-what.md)'s question.
 
 *Lessons:* [1.3](lessons/01-03-capabilities-as-a-welfare-metric.md)
 
@@ -834,7 +834,7 @@ Sunstein, "Libertarian Paternalism" (*AER* Papers and Proceedings, 2003); Sunste
   [manipulation objection](#manipulation-objection)).
 - **Not soft paternalism in Feinberg's sense:** soft paternalism interferes only to check that a
   choice is voluntary and informed; nudges steer choices that are already both
-  ([`political-philosophy`](../political-philosophy/syllabus.md) 3.3).
+  ([`political-philosophy` 3.3](../political-philosophy/lessons/03-03-paternalism-and-legal-moralism.md)).
 - **The organ-donor default** ([2.3](lessons/02-03-nudges-and-behavioural-welfare-economics.md)
   Example 2; Johnson and Goldstein, *Science*, 2003, large opt-in/opt-out gaps, no rates asserted)
   is a nudge for strangers' benefit, not paternalism at all.
@@ -1991,7 +1991,7 @@ taken.** The luck-egalitarian distinction, cited to [`political-philosophy`](../
 ### Entitlement theory
 
 **Holdings are just if they arose by just acquisition and just transfer, whatever anyone deserves.**
-Nozick, cited to [`political-philosophy`](../political-philosophy/syllabus.md) 2.4. Wilt Chamberlain:
+Nozick, cited to [`political-philosophy` 2.4](../political-philosophy/lessons/02-04-nozick-entitlement-and-the-challenge-to-patterns.md). Wilt Chamberlain:
 fans freely pay to watch a star; his large income is just because the transfers were free.
 
 - **Drops Clark's premise 1, not premise 2,** and defends market incomes anyway: as entitlements, not

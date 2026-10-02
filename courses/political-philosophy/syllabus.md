@@ -108,7 +108,7 @@ If citizens reasonably disagree about religion, morality and the good life, on w
 | # | Lesson | Goal (one line) | Key concepts |
 |---|---|---|---|
 | 4.1 | Political liberalism | State Rawls's answer to reasonable pluralism and what it requires of coercive law | the fact of reasonable pluralism, the burdens of judgment, comprehensive vs political doctrines, overlapping consensus, the liberal principle of legitimacy, neutrality of aim vs effect |
-| 4.2 | Public reason and religious argument | Apply the inclusive and exclusive views to a case and test them on their standard objections | exclusive vs inclusive public reason, the wide view and its proviso, consensus vs convergence (Gaus), the asymmetry and integrity objections (Wolterstorff, Eberle), the self-defeat objection |
+| 4.2 | Public reason and religious argument | Apply the inclusive and exclusive views to a case and test them on their standard objections | exclusive vs inclusive public reason, the wide view and its proviso, consensus vs convergence (Gaus), the integrity and fairness objections (Wolterstorff, Eberle), the self-defeat objection |
 | 4.3 | Perfectionism and the common good | Present the case that the state may promote the good, in its secular and religious forms | liberal perfectionism and autonomy (Raz), the communitarian critique of the unencumbered self (Sandel, MacIntyre, Taylor), natural-law perfectionism (George; theory cited to [`ethics`](../ethics/syllabus.md) 4.4-4.5), Catholic social teaching's common good as one position (cited to `catholic-social-teaching`) |
 | 4.4 | Feminist political philosophy | See what the public/private line hides and whether liberalism can absorb the critique | the family as part of the basic structure (Okin), the personal is political, care and dependency, structural injustice and the social connection model (Young) |
 
@@ -168,3 +168,15 @@ Rewritten before any lesson was built, to the [HUMANITIES-BUILD-BRIEF.md](../../
 - **Democracy (old 5.1-5.4) kept at 5.1-5.4.** **Judicial review stays 5.2**; the epistocracy challenge is added to 5.1. 5.4 keeps only the normative question: Arrow's proof is owned by [`grad-game-theory`](../grad-game-theory/syllabus.md) 5.1, deeper social choice by `social-choice`.
 - **New Module 6 (hard cases):** global justice, immigration, exemptions, welfare provision. Catholic social teaching appears there and in 4.3 as one position, cited to `catholic-social-teaching`, not taught.
 - **Removed:** the old boss problem 5 pointer to `political-economy` for Arrow's machinery (now `grad-game-theory` 5.1); the optional [`proofs-primer`](../proofs-primer/syllabus.md) prerequisite.
+
+## Revision note — 2026-10-02 (lessons built)
+
+All 26 lessons built to this syllabus; numbering unchanged. Corrections the lesson agents made against sources, which the lessons and the reference card follow:
+
+- **2.3:** *A Theory of Justice* §46 (1971) states the second principle as (a) the difference principle, (b) fair equality of opportunity. The FEO-first order and "fully adequate scheme" are *Political Liberalism* (1993) and the *Restatement* (2001). The lesson gives the 1971 order and notes the change.
+- **4.2:** the "asymmetry objection" in the public-reason literature is the claim that we disagree about justice as deeply as about the good (Sandel, Waldron); it is taught in 4.1. Wolterstorff's and Eberle's points are taught as the integrity and fairness objections. The 4.2 row above is corrected.
+- **5.2:** in *Freedom's Law* (1996) Dworkin calls his view the "constitutional conception" of democracy, against the "majoritarian premise"; "partnership conception" is his later label (1998; *Is Democracy Possible Here?*, 2006).
+- **1.2:** Simmons gives five conditions for tacit consent, not four. Estlund's normative consent is taught without the "flight attendant" example, which could not be verified.
+- **Boss problem 2(a):** with three *equal-sized* positions and expected utility linear in the index, equiprobable expected utility and the utilitarian sum rank structures identically (the first is the second divided by 3). A quiz built from 2(a) must give unequal population shares (so "equiprobable positions" differs from the population-weighted sum) or a concave utility over the index, or the two rules cannot diverge.
+- **Boss problem 1(b) and 5(b)** stay reserved; lesson 5.4's own crux problem is Riker vs a proceduralist, not Riker vs Mackie.
+

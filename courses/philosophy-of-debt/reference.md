@@ -458,7 +458,7 @@ with no promise behind them.
   enforceable.
 - **A quasi-contract is not a contract.** A hypothetical agreement binds no one merely by
   being hypothetical, so Bourgeois needs a further argument that its terms are fair: the
-  fair-play debate ([`political-philosophy`](../political-philosophy/syllabus.md) 1.3),
+  fair-play debate ([`political-philosophy` 1.3](../political-philosophy/lessons/01-03-fair-play-gratitude-and-associative-obligation.md)),
   including Nozick's neighbours who set up a public address system.
 - **Against Seneca** ([6.4](lessons/06-04-debts-of-gratitude.md)): Roman law already made some benefits collectible, and modern
   law lets some rescuers recover their costs. The defender replies that what is recovered
@@ -673,7 +673,7 @@ You justify the practice by its benefits, never a single promise by its own.
 
 - **Plus the principle of fairness** (1971): whoever voluntarily takes the benefits of a
   just practice must do his part as its rules define it
-  ([`political-philosophy`](../political-philosophy/syllabus.md) 1.3).
+  ([`political-philosophy` 1.3](../political-philosophy/lessons/01-03-fair-play-gratitude-and-associative-obligation.md)).
 - **Attacked:** Scanlon ("Promises and Practices", 1990) says it names the wrong victim; a
   broken promise wrongs the promisee first. Kolodny and Wallace ("Promises and Practices
   Revisited", 2003) keep the practice as the ground of the obligation and use assurance to
@@ -1783,7 +1783,7 @@ Lessons: [3.2](lessons/03-02-predatory-lending-and-usury-caps.md)
 
 **Interfering with someone's choice for her own good: soft if the choice is uninformed or
 not fully voluntary, hard if it is informed and voluntary.** Owned by
-[`political-philosophy`](../political-philosophy/syllabus.md) 3.3.
+[`political-philosophy` 3.3](../political-philosophy/lessons/03-03-paternalism-and-legal-moralism.md).
 
 - **A usury cap is hard paternalism toward informed borrowers,** since it binds the fully
   informed too. A warning of how long borrowers typically stay in debt, or instalments unless
@@ -1968,7 +1968,7 @@ should be free not to be free. It is not freedom, to be allowed to alienate his 
 - **It shrinks as the pledge shrinks:** a year's service is not a life. The republican objection,
   by contrast, grows with the creditor's discretion, whatever is pledged ([non-domination](#non-domination)).
 - Paternalism and the slavery contract as political philosophy belong to
-  [`political-philosophy`](../political-philosophy/syllabus.md) 3.3.
+  [`political-philosophy` 3.3](../political-philosophy/lessons/03-03-paternalism-and-legal-moralism.md).
 
 Lessons: [3.3](lessons/03-03-what-may-be-pledged.md)
 
@@ -1976,7 +1976,7 @@ Lessons: [3.3](lessons/03-03-what-may-be-pledged.md)
 
 **Republican freedom: not being subject to another's power to interfere at will. The wrong is
 the power's existence, not its use.** A benevolent master is still a master (Pettit; owned by
-[`political-philosophy`](../political-philosophy/syllabus.md) 3.1, not this course's 3.1).
+[`political-philosophy` 3.1](../political-philosophy/lessons/03-01-three-concepts-of-liberty.md), not this course's 3.1).
 
 - **Applied to pledges** ([3.3](lessons/03-03-what-may-be-pledged.md)): a creditor holding a pledge of the person dominates even if
   he never collects. A borrower who must work a year on the lender's farm if he defaults faces
@@ -2695,7 +2695,7 @@ Lessons: [5.2](lessons/05-02-moral-hazard-and-fairness-to-those-who-paid.md)
 luck is how risks fall that were no such gamble.** Ronald Dworkin ("Equality of Resources";
 *Sovereign Virtue*, 2000; paraphrased). Available insurance links them: declined cover makes a
 bad outcome option luck. Luck egalitarians compensate brute luck only (owned by
-[`political-philosophy`](../political-philosophy/syllabus.md) 2.6).
+[`political-philosophy` 2.6](../political-philosophy/lessons/02-06-luck-relations-priority-and-sufficiency.md)).
 
 - **Against the desert objection** ([5.2](lessons/05-02-moral-hazard-and-fairness-to-those-who-paid.md)): B1 fails for borrowers whose losses were brute luck.
 - **The hard case, student debt** ([5.2](lessons/05-02-moral-hazard-and-fairness-to-those-who-paid.md) Example 2): a degree is a deliberate gamble, so its bad
@@ -2712,7 +2712,7 @@ Lessons: [5.2](lessons/05-02-moral-hazard-and-fairness-to-those-who-paid.md), [5
 ### Leveling-down objection
 
 **Removing an advantage that benefits no one cannot be an improvement, so equality is not
-valuable for its own sake.** Owned by [`political-philosophy`](../political-philosophy/syllabus.md) 2.6.
+valuable for its own sake.** Owned by [`political-philosophy` 2.6](../political-philosophy/lessons/02-06-luck-relations-priority-and-sufficiency.md).
 
 - **Applied to relief** ([5.2](lessons/05-02-moral-hazard-and-fairness-to-those-who-paid.md)): denying relief to others makes no payer better off, so a purely
   comparative complaint grounds at most *leveling up*, such as crediting the payers.
@@ -2963,7 +2963,7 @@ Lessons: [5.4](lessons/05-04-jubilee-as-a-moral-principle.md)
 
 **Holdings are just if justly acquired and justly transferred, judged by their history, not by
 their pattern.** Robert Nozick (*Anarchy, State, and Utopia*, 1974;
-[`political-philosophy`](../political-philosophy/syllabus.md) 2.4), with rectification of past
+[`political-philosophy` 2.4](../political-philosophy/lessons/02-04-nozick-entitlement-and-the-challenge-to-patterns.md)), with rectification of past
 injustice. Extremes of wealth prove no injustice by themselves. A Lockean proviso: an
 appropriation wrongs anyone it leaves worse off than if the land had stayed in common, and the
 remedy is compensation, not surrender; Nozick held that market economies readily satisfy it.
@@ -3783,13 +3783,13 @@ number the syllabus gives.
 | Hohfeld's claims, powers and liabilities; will vs interest theories of rights | [`philosophy-of-law`](../philosophy-of-law/syllabus.md) 6.1–6.2 |
 | Retributivism; punishment theory | [`philosophy-of-law`](../philosophy-of-law/syllabus.md) 5.2 (Module 5) |
 | The paradox of mercy; Portia's mercy speech | [`philosophy-of-law`](../philosophy-of-law/syllabus.md) 5.4 |
-| Hypothetical and tacit consent as grounds of obligation (the "no contract at all" objection; Hume's peasant) | [`political-philosophy`](../political-philosophy/syllabus.md) 1.2 |
-| Fair play, gratitude and associative obligation as political obligation; Nozick's public address system | [`political-philosophy`](../political-philosophy/syllabus.md) 1.3 |
-| Nozick's entitlement theory | [`political-philosophy`](../political-philosophy/syllabus.md) 2.4 |
+| Hypothetical and tacit consent as grounds of obligation (the "no contract at all" objection; Hume's peasant) | [`political-philosophy` 1.2](../political-philosophy/lessons/01-02-consent-actual-tacit-and-hypothetical.md) |
+| Fair play, gratitude and associative obligation as political obligation; Nozick's public address system | [`political-philosophy` 1.3](../political-philosophy/lessons/01-03-fair-play-gratitude-and-associative-obligation.md) |
+| Nozick's entitlement theory | [`political-philosophy` 2.4](../political-philosophy/lessons/02-04-nozick-entitlement-and-the-challenge-to-patterns.md) |
 | Dworkin's equality of resources; brute and option luck; leveling down | [`political-philosophy`](../political-philosophy/syllabus.md) 2.5–2.6 |
-| Non-domination; the benevolent master | [`political-philosophy`](../political-philosophy/syllabus.md) 3.1 |
-| Soft and hard paternalism; Mill's slavery contract | [`political-philosophy`](../political-philosophy/syllabus.md) 3.3 |
-| Property-owning democracy; basic income | [`political-philosophy`](../political-philosophy/syllabus.md) 6.4 |
+| Non-domination; the benevolent master | [`political-philosophy` 3.1](../political-philosophy/lessons/03-01-three-concepts-of-liberty.md) |
+| Soft and hard paternalism; Mill's slavery contract | [`political-philosophy` 3.3](../political-philosophy/lessons/03-03-paternalism-and-legal-moralism.md) |
+| Property-owning democracy; basic income | [`political-philosophy` 6.4](../political-philosophy/lessons/06-04-welfare-property-and-subsidiarity.md) |
 | Legitimacy and political obligation in general | [`political-philosophy`](../political-philosophy/syllabus.md) |
 | Aristotle's household and city; natural slavery | [`history-of-political-thought` 1.3](../history-of-political-thought/lessons/01-03-aristotle-the-city-exists-by-nature.md) |
 | Hobbes's sovereign by authorization, by institution or acquisition | [`history-of-political-thought` 3.4](../history-of-political-thought/lessons/03-04-hobbes-the-sovereign-and-the-church.md) |

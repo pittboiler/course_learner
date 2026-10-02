@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect x="0" y="0" width="720" height="380" fill="#ffffff"/>
+<line x1="70" y1="320" x2="700" y2="320" stroke="#bbbbbb" stroke-width="0.8"/>
+<text x="62" y="324" font-size="12" text-anchor="end" fill="#333333">0</text>
+<line x1="70" y1="282.67" x2="700" y2="282.67" stroke="#bbbbbb" stroke-width="0.8"/>
+<text x="62" y="286.67" font-size="12" text-anchor="end" fill="#333333">10</text>
+<line x1="70" y1="245.33" x2="700" y2="245.33" stroke="#bbbbbb" stroke-width="0.8"/>
+<text x="62" y="249.33" font-size="12" text-anchor="end" fill="#333333">20</text>
+<line x1="70" y1="208" x2="700" y2="208" stroke="#bbbbbb" stroke-width="0.8"/>
+<text x="62" y="212" font-size="12" text-anchor="end" fill="#333333">30</text>
+<line x1="70" y1="170.67" x2="700" y2="170.67" stroke="#bbbbbb" stroke-width="0.8"/>
+<text x="62" y="174.67" font-size="12" text-anchor="end" fill="#333333">40</text>
+<line x1="70" y1="133.33" x2="700" y2="133.33" stroke="#bbbbbb" stroke-width="0.8"/>
+<text x="62" y="137.33" font-size="12" text-anchor="end" fill="#333333">50</text>
+<line x1="70" y1="96" x2="700" y2="96" stroke="#bbbbbb" stroke-width="0.8"/>
+<text x="62" y="100" font-size="12" text-anchor="end" fill="#333333">60</text>
+<line x1="70" y1="58.67" x2="700" y2="58.67" stroke="#bbbbbb" stroke-width="0.8"/>
+<text x="62" y="62.67" font-size="12" text-anchor="end" fill="#333333">70</text>
+<line x1="70" y1="320" x2="700" y2="320" stroke="#111111" stroke-width="1.2"/>
+<text x="18" y="30" font-size="12" text-anchor="start" fill="#333333">primary-goods index</text>
+<rect x="95" y="245.33" width="34" height="74.67" rx="0" fill="#dcefe4" stroke="#d1495b" stroke-width="2.6"/>
+<text x="112" y="240.33" font-size="12" text-anchor="middle" fill="#111111">20</text>
+<rect x="137" y="245.33" width="34" height="74.67" rx="0" fill="#dcefe4" stroke="#2e8b57" stroke-width="1.2"/>
+<text x="154" y="240.33" font-size="12" text-anchor="middle" fill="#111111">20</text>
+<rect x="179" y="245.33" width="34" height="74.67" rx="0" fill="#dcefe4" stroke="#2e8b57" stroke-width="1.2"/>
+<text x="196" y="240.33" font-size="12" text-anchor="middle" fill="#111111">20</text>
+<rect x="221" y="245.33" width="34" height="74.67" rx="0" fill="#dcefe4" stroke="#2e8b57" stroke-width="1.2"/>
+<text x="238" y="240.33" font-size="12" text-anchor="middle" fill="#111111">20</text>
+<line x1="89" y1="245.33" x2="261" y2="245.33" stroke="#111111" stroke-width="1.6" stroke-dasharray="6,4"/>
+<text x="175" y="340" font-size="13" text-anchor="middle" fill="#111111" font-weight="bold">E: flat</text>
+<text x="175" y="358" font-size="12" text-anchor="middle" fill="#333333">min 20, average 20</text>
+<rect x="305" y="237.87" width="34" height="82.13" rx="0" fill="#dbe8f5" stroke="#d1495b" stroke-width="2.6"/>
+<text x="322" y="232.87" font-size="12" text-anchor="middle" fill="#111111">22</text>
+<rect x="347" y="222.93" width="34" height="97.07" rx="0" fill="#dbe8f5" stroke="#1a6fb5" stroke-width="1.2"/>
+<text x="364" y="217.93" font-size="12" text-anchor="middle" fill="#111111">26</text>
+<rect x="389" y="193.07" width="34" height="126.93" rx="0" fill="#dbe8f5" stroke="#1a6fb5" stroke-width="1.2"/>
+<text x="406" y="188.07" font-size="12" text-anchor="middle" fill="#111111">34</text>
+<rect x="431" y="58.67" width="34" height="261.33" rx="0" fill="#dbe8f5" stroke="#1a6fb5" stroke-width="1.2"/>
+<text x="448" y="53.67" font-size="12" text-anchor="middle" fill="#111111">70</text>
+<line x1="299" y1="206.51" x2="471" y2="206.51" stroke="#111111" stroke-width="1.6" stroke-dasharray="6,4"/>
+<text x="385" y="340" font-size="13" text-anchor="middle" fill="#111111" font-weight="bold">I: incentive pay</text>
+<text x="385" y="358" font-size="12" text-anchor="middle" fill="#333333">min 22, average 30.4</text>
+<rect x="515" y="215.47" width="34" height="104.53" rx="0" fill="#f6dde1" stroke="#d1495b" stroke-width="2.6"/>
+<text x="532" y="210.47" font-size="12" text-anchor="middle" fill="#111111">28</text>
+<rect x="557" y="215.47" width="34" height="104.53" rx="0" fill="#f6dde1" stroke="#d1495b" stroke-width="1.2"/>
+<text x="574" y="210.47" font-size="12" text-anchor="middle" fill="#111111">28</text>
+<rect x="599" y="193.07" width="34" height="126.93" rx="0" fill="#f6dde1" stroke="#d1495b" stroke-width="1.2"/>
+<text x="616" y="188.07" font-size="12" text-anchor="middle" fill="#111111">34</text>
+<rect x="641" y="170.67" width="34" height="149.33" rx="0" fill="#f6dde1" stroke="#d1495b" stroke-width="1.2"/>
+<text x="658" y="165.67" font-size="12" text-anchor="middle" fill="#111111">40</text>
+<line x1="509" y1="206.51" x2="681" y2="206.51" stroke="#111111" stroke-width="1.6" stroke-dasharray="6,4"/>
+<text x="595" y="340" font-size="13" text-anchor="middle" fill="#111111" font-weight="bold">C: no premium</text>
+<text x="595" y="358" font-size="12" text-anchor="middle" fill="#333333">min 28, average 30.4</text>
+<text x="700" y="30" font-size="11" text-anchor="end" fill="#333333">bars left to right: unskilled, semi-skilled, skilled, professional</text>
+</svg>

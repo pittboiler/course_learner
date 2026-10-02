@@ -1676,7 +1676,7 @@ Premise 4's first reason is Aristotle's summation argument ([1.4](lessons/01-04-
 | Kant's formula of universal law, the target of Hegel's empty-formalism charge | [ethics 2.2](../ethics/lessons/02-02-the-formula-of-universal-law.md) |
 | Efficient but distributionally unacceptable equilibria (the rabble's cousin) | [grad-micro 4.4](../grad-micro/lessons/04-04-two-welfare-theorems.md) |
 | Interest rightly understood as sustained cooperation | [game-theory-refresher 2.3](../game-theory-refresher/lessons/02-03-repeated-games-folk-theorem.md) |
-| Mill's harm principle (*On Liberty*); political equality and its grounds | [political-philosophy](../political-philosophy/syllabus.md) 3.2 |
+| Mill's harm principle (*On Liberty*); political equality and its grounds | [political-philosophy](../political-philosophy/syllabus.md) 3.2 (harm principle), 5.1 (political equality) |
 | Utilitarianism as a moral theory | [ethics 1.1](../ethics/lessons/01-01-classical-utilitarianism.md) |
 | Electoral systems formally; impossibility results | [social-choice](../social-choice/syllabus.md); [grad-game-theory 5.1](../grad-game-theory/lessons/05-01-social-choice-impossibility.md) |
 | Marx's and Weber's sociology; class analysis as social science; whether historical materialism survives the record | [social-theory](../social-theory/syllabus.md) |
