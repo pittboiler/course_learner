@@ -4,9 +4,9 @@ import path from "path";
 import crypto from "crypto";
 import { fileURLToPath } from "url";
 import Anthropic from "@anthropic-ai/sdk";
+import * as db from "./db/db.js";
 
 const ROOT = path.dirname(fileURLToPath(import.meta.url));
-const PROGRESS_PATH = path.join(ROOT, "progress", "progress.json");
 const COURSES_DIR = path.join(ROOT, "courses");
 const MODEL = "claude-opus-4-8";
 
@@ -36,18 +36,6 @@ app.use("/vendor/mermaid", express.static(path.join(ROOT, "node_modules/mermaid/
 app.use("/content", express.static(COURSES_DIR));
 
 const readJSON = (p) => JSON.parse(fs.readFileSync(p, "utf8"));
-// Best-effort: on a read-only serverless filesystem (Vercel, /var/task) this write
-// throws EROFS. Persistence there lives client-side (localStorage), so we must not
-// fail the request — the grade/quiz/review result has already been produced.
-const writeProgress = (data) => {
-  try {
-    fs.writeFileSync(PROGRESS_PATH, JSON.stringify(data, null, 2) + "\n");
-  } catch (e) {
-    if (e.code !== "EROFS" && e.code !== "EACCES")
-      console.warn("progress write failed:", e.message);
-  }
-};
-
 // Scan the courses directory for created courses and their lesson files
 function scanCourses() {
   const out = {};
@@ -72,42 +60,75 @@ function scanCourses() {
   return out;
 }
 
+/* Passcode gate. The deployed URL is public and these endpoints spend the
+   Anthropic key and write progress, so when APP_PASSCODE is set every /api/* call
+   needs the cookie /api/login hands out. Unset (local dev) = open. Lesson content
+   under /content stays public. Real accounts replace this if the app goes public. */
+const PASS_COOKIE = "learner_pass";
+const passToken = () =>
+  crypto.createHash("sha256").update(`learner:${process.env.APP_PASSCODE}`).digest("hex");
+app.post("/api/login", (req, res) => {
+  if (!process.env.APP_PASSCODE || req.body?.passcode !== process.env.APP_PASSCODE) {
+    return res.status(401).json({ error: "wrong passcode" });
+  }
+  res.setHeader("Set-Cookie",
+    `${PASS_COOKIE}=${passToken()}; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=${400 * 86400}`);
+  res.json({ ok: true });
+});
+app.use("/api", (req, res, next) => {
+  if (!process.env.APP_PASSCODE) return next();
+  const cookies = Object.fromEntries(
+    (req.headers.cookie || "").split(";").map((c) => c.trim().split("=")).filter((c) => c.length === 2)
+  );
+  if (cookies[PASS_COOKIE] === passToken()) return next();
+  res.status(401).json({ error: "passcode required", passcode: true });
+});
+
+// Express 4 doesn't catch rejected promises from async handlers.
+const safe = (fn) => (req, res) =>
+  fn(req, res).catch((err) => {
+    console.error(err);
+    res.status(500).json({ error: err.message });
+  });
+
 // Everything the frontend needs in one call
-app.get("/api/state", (_req, res) => {
+app.get("/api/state", safe(async (_req, res) => {
   res.json({
     roadmap: readJSON(path.join(ROOT, "roadmap.json")),
-    progress: readJSON(PROGRESS_PATH),
+    progress: await db.getProgress(),
     courses: scanCourses(),
     today: new Date().toISOString().slice(0, 10),
   });
-});
+}));
 
-// Record a lesson completion; keeps the same progress.json shape the /learn skill writes
-app.post("/api/complete", (req, res) => {
+// Record a lesson completion (same shape the /learn skill writes, via progress-sync)
+app.post("/api/complete", safe(async (req, res) => {
   const { course, lesson, self_rating, problems, weak_concepts } = req.body || {};
   if (!course || !lesson || !self_rating) {
     return res.status(400).json({ error: "course, lesson, self_rating required" });
   }
-  const progress = readJSON(PROGRESS_PATH);
-  const today = new Date().toISOString().slice(0, 10);
+  const review_due = await db.recordCompletion({ course, lesson, self_rating, problems, weak_concepts });
+  res.json({ ok: true, review_due });
+}));
 
-  progress.courses[course] ||= { status: "active", started: today, lessons: {} };
-  progress.courses[course].lessons[lesson] = {
-    completed: today,
-    self_rating,
-    problems: problems || null,
-    weak_concepts: weak_concepts || [],
-  };
-  progress.log.push({ date: today, course, lesson, type: "lesson", source: "webapp" });
+// Handwriting pads, one row per problem. key = "<course>:<file>:<label>"
+app.get("/api/ink", safe(async (req, res) => {
+  res.json({ strokes: await db.getInk(String(req.query.key || "")) });
+}));
+app.put("/api/ink", safe(async (req, res) => {
+  const { key, strokes } = req.body || {};
+  if (!key) return res.status(400).json({ error: "key required" });
+  await db.putInk(key, strokes && strokes.some((page) => page.length) ? strokes : null);
+  res.json({ ok: true });
+}));
 
-  const intervals = progress.settings.review_intervals_days || {};
-  const days = intervals[String(self_rating)] || 5;
-  const due = new Date(Date.now() + days * 86400000).toISOString().slice(0, 10);
-  progress.review_queue.push({ course, lesson, rating: self_rating, due });
-
-  writeProgress(progress);
-  res.json({ ok: true, review_due: due });
-});
+// One-time rescue of progress a browser kept in localStorage before the database existed.
+app.post("/api/import", safe(async (req, res) => {
+  const { progress } = req.body || {};
+  if (!progress) return res.status(400).json({ error: "progress required" });
+  const statements = await db.mergeProgress(progress, { replaceQueue: false });
+  res.json({ ok: true, statements });
+}));
 
 /* The student studies open book: the course's reference card (definitions,
    formula tables, notation, pitfalls) is available in the app during lessons,
@@ -218,8 +239,7 @@ app.post("/api/grade", async (req, res) => {
     const result = JSON.parse(response.content.find((b) => b.type === "text").text);
 
     // Log the grade so /prep and /status can see practice history
-    const progress = readJSON(PROGRESS_PATH);
-    progress.log.push({
+    await db.logEvent({
       date: new Date().toISOString().slice(0, 10),
       course,
       lesson: lesson.slice(0, 5),
@@ -229,7 +249,6 @@ app.post("/api/grade", async (req, res) => {
       type: "grade",
       source: "webapp",
     });
-    writeProgress(progress);
 
     res.json(result);
   } catch (err) {
@@ -318,33 +337,10 @@ app.post("/api/review/grade", async (req, res) => {
     pendingReviews.delete(id);
 
     // Reschedule the queue item
-    const progress = readJSON(PROGRESS_PATH);
     const { item } = pending;
-    const idx = progress.review_queue.findIndex(
-      (r) => r.course === item.course && r.lesson === item.lesson && r.due === item.due
-    );
-    const today = new Date().toISOString().slice(0, 10);
-    const intervals = progress.settings.review_intervals_days || {};
-    if (idx !== -1) {
-      const entry = progress.review_queue[idx];
-      if (result.verdict === "correct") {
-        entry.rating = Math.min(5, (entry.rating || 3) + 1);
-        entry.streak = (entry.streak || 0) + 1;
-        if (entry.rating === 5 && entry.streak >= 2) {
-          progress.review_queue.splice(idx, 1); // retired
-        } else {
-          entry.due = new Date(Date.now() + (intervals[String(entry.rating)] || 5) * 86400000)
-            .toISOString().slice(0, 10);
-        }
-      } else {
-        entry.rating = Math.max(1, (entry.rating || 3) - (result.verdict === "incorrect" ? 1 : 0));
-        entry.streak = 0;
-        entry.due = new Date(Date.now() + (result.verdict === "incorrect" ? 1 : 2) * 86400000)
-          .toISOString().slice(0, 10);
-      }
-    }
-    progress.log.push({
-      date: today,
+    await db.rescheduleReview(item, result.verdict);
+    await db.logEvent({
+      date: new Date().toISOString().slice(0, 10),
       course: item.course,
       lesson: item.lesson,
       verdict: result.verdict,
@@ -352,7 +348,6 @@ app.post("/api/review/grade", async (req, res) => {
       type: "review",
       source: "webapp",
     });
-    writeProgress(progress);
 
     res.json({ ...result, solution: pending.solution });
   } catch (err) {
@@ -409,16 +404,7 @@ app.post("/api/quiz/start", async (req, res) => {
       .join("\n\n");
 
     // Recent misses for this course, from in-app grades and reviews
-    const progress = readJSON(PROGRESS_PATH);
-    const weak = [
-      ...new Set(
-        progress.log
-          .filter((e) => e.course === course && ["grade", "review", "quiz"].includes(e.type))
-          .slice(-30)
-          .filter((e) => e.verdict && e.verdict !== "correct")
-          .flatMap((e) => e.weak_concepts || [])
-      ),
-    ];
+    const weak = await db.recentWeakConcepts(course);
 
     const response = await anthropic.messages.create({
       model: MODEL,
@@ -468,9 +454,8 @@ app.post("/api/quiz/grade", async (req, res) => {
     }
     const result = JSON.parse(response.content.find((b) => b.type === "text").text);
 
-    const progress = readJSON(PROGRESS_PATH);
     const today = new Date().toISOString().slice(0, 10);
-    progress.log.push({
+    await db.logEvent({
       date: today,
       course: pending.course,
       quiz: pending.quiz,
@@ -484,7 +469,7 @@ app.post("/api/quiz/grade", async (req, res) => {
     });
     // A quiz miss puts its source lesson back in the review rotation
     if (result.verdict !== "correct") {
-      progress.review_queue.push({
+      await db.addReview({
         course: pending.course,
         lesson: problem.source_lesson,
         concept: result.weak_concepts?.[0],
@@ -492,7 +477,6 @@ app.post("/api/quiz/grade", async (req, res) => {
         due: new Date(Date.now() + 86400000).toISOString().slice(0, 10),
       });
     }
-    writeProgress(progress);
 
     if (index === pending.problems.length - 1) pendingQuizzes.delete(id);
     res.json({ ...result, solution: problem.solution });

@@ -1,7 +1,7 @@
 {
   "settings": {
-    "lesson_target_minutes": 15,
     "max_active_courses": 2,
+    "lesson_target_minutes": 15,
     "review_intervals_days": {
       "1": 1,
       "2": 2,
