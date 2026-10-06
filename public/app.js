@@ -86,20 +86,12 @@ const LS = {
 const inkKey = (course, file, label) => `learner:ink:${course}:${file}:${label}`;
 const serverInkKey = (k) => k.replace(/^learner:ink:/, "");
 
-// fetch + JSON + passcode gate: a 401 asks for the passcode once, then retries.
+// fetch + JSON. A 401 means "not logged in": throw an AuthError so route() shows the login screen.
+class AuthError extends Error {}
 async function api(url, opts = {}) {
-  const go = () => fetch(url, opts);
-  let r = await go();
-  if (r.status === 401 && (await r.clone().json().catch(() => ({}))).passcode) {
-    const passcode = window.prompt("Passcode:");
-    if (passcode) {
-      await fetch("/api/login", {
-        method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ passcode }),
-      });
-      r = await go();
-    }
-  }
+  const r = await fetch(url, opts);
   const data = await r.json().catch(() => ({}));
+  if (r.status === 401 && data.auth) throw new AuthError(data.error || "Please log in");
   if (!r.ok) throw new Error(data.error || `Request failed (${r.status})`);
   return data;
 }
@@ -1224,11 +1216,72 @@ function renderReview() {
   nextItem();
 }
 
+/* ---------- accounts ---------- */
+
+function renderUserMenu() {
+  const nav = document.querySelector("header nav");
+  if (!nav) return;
+  nav.querySelector(".user-menu")?.remove();
+  if (!STATE?.user) return;
+  nav.insertAdjacentHTML("beforeend",
+    `<a href="#" class="user-menu" title="Log out">${esc(STATE.user.name)} · Log out</a>`);
+  nav.querySelector(".user-menu").onclick = async (ev) => {
+    ev.preventDefault();
+    await fetch("/api/logout", { method: "POST" });
+    STATE = null;
+    renderLogin();
+  };
+}
+
+function renderLogin() {
+  document.querySelector("header nav .user-menu")?.remove();
+  $app.innerHTML = `
+    <div class="auth-box">
+      <h1>Log in</h1>
+      <form id="auth-form">
+        <label>Username <input name="username" autocomplete="username" autocapitalize="none" required></label>
+        <label>Password <input name="password" type="password" autocomplete="current-password" required minlength="8"></label>
+        <label id="code-row" hidden>Invite code <input name="code" autocapitalize="none"></label>
+        <p class="error" id="auth-error"></p>
+        <button class="primary" type="submit" id="auth-submit">Log in</button>
+      </form>
+      <p class="muted"><a href="#" id="auth-toggle">New here? Create an account</a></p>
+    </div>`;
+  let signup = false;
+  const form = document.getElementById("auth-form");
+  document.getElementById("auth-toggle").onclick = (ev) => {
+    ev.preventDefault();
+    signup = !signup;
+    $app.querySelector("h1").textContent = signup ? "Create an account" : "Log in";
+    document.getElementById("code-row").hidden = !signup;
+    form.code.required = signup;
+    form.password.autocomplete = signup ? "new-password" : "current-password";
+    document.getElementById("auth-submit").textContent = signup ? "Create account" : "Log in";
+    ev.target.textContent = signup ? "Have an account? Log in" : "New here? Create an account";
+  };
+  form.onsubmit = async (ev) => {
+    ev.preventDefault();
+    const body = { username: form.username.value, password: form.password.value, code: form.code.value };
+    try {
+      await postJSON(signup ? "/api/signup" : "/api/login", body);
+      route();
+    } catch (e) {
+      document.getElementById("auth-error").textContent = e.message;
+    }
+  };
+}
+
 /* ---------- router ---------- */
 
 async function route() {
   closeReference(); // a drawer left open from the previous view is stale
-  await loadState();
+  try {
+    await loadState();
+  } catch (e) {
+    if (e instanceof AuthError) return renderLogin();
+    throw e;
+  }
+  renderUserMenu();
   const hash = location.hash || "#/";
   const parts = hash.slice(2).split("/").filter(Boolean);
   if (parts.length === 0) return renderDashboard();

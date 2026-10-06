@@ -365,3 +365,11 @@ body.ref-open { overflow: hidden; }
   border-radius: 8px;
 }
 .mermaid-figure svg { max-width: 100%; height: auto; }
+
+/* Login / sign-up */
+.auth-box { max-width: 360px; margin: 48px auto; }
+.auth-box form { display: flex; flex-direction: column; gap: 12px; }
+.auth-box label { display: flex; flex-direction: column; gap: 4px; font-weight: 600; }
+.auth-box input { font: inherit; padding: 8px 10px; border: 1px solid var(--border, #ccc); border-radius: 6px; background: transparent; color: inherit; }
+.auth-box .error:empty { display: none; }
+.user-menu { opacity: 0.75; }

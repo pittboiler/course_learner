@@ -3,6 +3,7 @@
      { settings, courses: {id: {status, started, lessons: {NN-MM: {...}}}}, review_queue: [], log: [] }
    so the frontend and the skills didn't have to change shape when storage moved. */
 import fs from "fs";
+import crypto from "crypto";
 import path from "path";
 import { fileURLToPath } from "url";
 import { neon } from "@neondatabase/serverless";
@@ -16,7 +17,7 @@ if (!process.env.DATABASE_URL) throw new Error("DATABASE_URL is not set (.env lo
 
 export const sql = neon(process.env.DATABASE_URL);
 
-// Single user until the app gets real accounts; every row is already keyed by it.
+// Default user for CLI tools (progress-sync); web requests pass the logged-in user.
 export const USER = process.env.LEARNER_USER || "jacob";
 
 const DEFAULT_SETTINGS = {
@@ -67,8 +68,8 @@ const reviewQuery = (user, r) =>
   sql`insert into review_items (user_id, course, lesson, concept, rating, streak, due)
       values (${user}, ${r.course}, ${r.lesson}, ${r.concept ?? null}, ${r.rating ?? null}, ${r.streak || 0}, ${r.due})`;
 
-export const logEvent = (entry, user = USER) => eventQuery(user, entry);
-export const addReview = (item, user = USER) => reviewQuery(user, item);
+export const logEvent = (user, entry) => eventQuery(user, entry);
+export const addReview = (user, item) => reviewQuery(user, item);
 
 // Mark a lesson complete: completion + course activation + review item + log, atomically.
 export async function recordCompletion({ course, lesson, self_rating, problems, weak_concepts }, user = USER) {
@@ -183,3 +184,48 @@ export async function mergeProgress(p, { replaceQueue = false } = {}, user = USE
   if (qs.length) await sql.transaction(qs);
   return qs.length;
 }
+
+/* ---------- accounts & sessions ----------
+   Passwords: scrypt with a per-user salt ("salt:hash" hex). Sessions: a random
+   token lives in the cookie; only its sha256 is stored. */
+const SESSION_DAYS = 400;
+const sha256 = (s) => crypto.createHash("sha256").update(s).digest("hex");
+const scrypt = (pw, salt) => crypto.scryptSync(pw, salt, 64).toString("hex");
+
+export const normalizeUsername = (u) => String(u || "").trim().toLowerCase();
+
+export async function createUser(username, password) {
+  const id = normalizeUsername(username);
+  if (!/^[a-z0-9_-]{2,32}$/.test(id)) throw new Error("Username: 2–32 letters, numbers, - or _");
+  if (String(password || "").length < 8) throw new Error("Password must be at least 8 characters");
+  const salt = crypto.randomBytes(16).toString("hex");
+  const rows = await sql`insert into users (id, display_name, password_hash)
+    values (${id}, ${String(username).trim()}, ${`${salt}:${scrypt(password, salt)}`})
+    on conflict (id) do nothing returning id`;
+  if (!rows.length) throw new Error("That username is taken");
+  return id;
+}
+
+export async function checkPassword(username, password) {
+  const [u] = await sql`select id, password_hash from users where id = ${normalizeUsername(username)}`;
+  if (!u) return null;
+  const [salt, hash] = u.password_hash.split(":");
+  const ok = crypto.timingSafeEqual(Buffer.from(hash, "hex"), Buffer.from(scrypt(String(password || ""), salt), "hex"));
+  return ok ? u.id : null;
+}
+
+export async function createSession(userId) {
+  const token = crypto.randomBytes(32).toString("hex");
+  await sql`insert into sessions (token_hash, user_id, expires_at)
+    values (${sha256(token)}, ${userId}, now() + make_interval(days => ${SESSION_DAYS}))`;
+  return { token, maxAge: SESSION_DAYS * 86400 };
+}
+
+export async function sessionUser(token) {
+  if (!token) return null;
+  const [s] = await sql`select s.user_id, u.display_name from sessions s join users u on u.id = s.user_id
+    where s.token_hash = ${sha256(token)} and s.expires_at > now()`;
+  return s ? { id: s.user_id, name: s.display_name } : null;
+}
+
+export const deleteSession = (token) => sql`delete from sessions where token_hash = ${sha256(token || "")}`;

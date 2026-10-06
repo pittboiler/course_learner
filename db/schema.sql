@@ -62,3 +62,18 @@ create table if not exists ink (
   updated_at timestamptz not null default now(),
   primary key (user_id, key)
 );
+
+-- Accounts. id is the lowercase username and is the user_id used by every table above.
+create table if not exists users (
+  id            text primary key,
+  display_name  text not null,
+  password_hash text not null,
+  created_at    timestamptz not null default now()
+);
+
+-- Login sessions; only a hash of the cookie token is stored.
+create table if not exists sessions (
+  token_hash text primary key,
+  user_id    text not null references users (id) on delete cascade,
+  expires_at timestamptz not null
+);

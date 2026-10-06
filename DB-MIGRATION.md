@@ -14,26 +14,32 @@ on Vercel at all.
 - [x] `db/schema.sql` applied (`node db/migrate.mjs`, safe to re-run). Tables are keyed by `user_id` ('jacob').
 - [x] `db/db.js` is the only module that talks to the database. `getProgress()` returns the old progress.json shape.
 - [x] `server.js`: every progress read and write goes through the database; new `/api/ink`, `/api/import`,
-      `/api/login`; `APP_PASSCODE` gates `/api/*` when it's set.
+      `/api/signup`, `/api/login`, `/api/logout`. Every `/api/*` call needs a logged-in account and
+      only touches that account's rows.
 - [x] `public/app.js`: the browser no longer keeps its own copy of progress; Mark complete reports an
       error if the save fails; ink saves to the server (debounced) at one decimal place; the first load
       after deploy uploads and then deletes the old localStorage progress and ink.
 - [x] `progress-sync.mjs pull|push` added, the five skills call it, and CLAUDE.md is updated.
-- [x] Seeded from progress.json (177 courses, settings). Tested locally with a throwaway user: passcode
-      gate, rescue import, Mark complete → Library, ink save and restore.
+- [x] Seeded from progress.json (177 courses, settings) under user_id `jacob`. Tested locally with throwaway
+      users: rescue import, Mark complete → Library, ink save and restore, sign-up with right and wrong
+      invite code, duplicate username, log out and back in, two accounts not seeing each other's progress.
+- [x] Accounts instead of a shared passcode (Jacob's call, 2026-10-06): username + password (scrypt),
+      sessions in the database, httpOnly cookie. Sign-up requires `SIGNUP_CODE` so strangers can't spend the API key.
 
 ## To deploy (Jacob)
-1. In Vercel → Project → Settings → Environment Variables, add `APP_PASSCODE` (any passphrase).
+1. In Vercel → Project → Settings → Environment Variables, add `SIGNUP_CODE` (an invite code to share).
 2. Push `main` so Vercel redeploys.
-3. On the iPad, open the app and enter the passcode once. The first load uploads what's left in
-   localStorage. Then re-mark the lesson that didn't save.
-4. Check: `node progress-sync.mjs pull` should show the iPad's completions.
+3. On the iPad: "Create an account" with username **`jacob`**. Existing data is stored under that id.
+   The first load after logging in uploads what's left in localStorage, so do this on your own iPad
+   before anyone else logs in there. Then re-mark the lesson that didn't save.
+4. Your sister: same screen, her own username, plus the invite code.
+5. Check: `node progress-sync.mjs pull` should show the iPad's completions.
 
 ## Follow-ups (not urgent)
 - `pendingReviews` and `pendingQuizzes` in server.js are in-memory Maps. On serverless, a review or quiz
   can expire if the grade request lands on a different instance than the one that generated the
   question. Move them into a `pending` table if "quiz expired" errors show up.
-- Going public: replace the passcode with real accounts (Clerk / Better Auth / Neon Auth), set `USER`
-  per request instead of the `LEARNER_USER` constant, and decide who pays for grading.
+- Going public: accounts exist; what's left is password reset (there's no email, so for now reset by
+  hand in the database), rate limits, and deciding who pays for grading (every user's grades bill Jacob's key).
 - The `/new-course` skill still caps active courses at `settings.max_active_courses` (2); raise it if
   that limit is no longer wanted.
