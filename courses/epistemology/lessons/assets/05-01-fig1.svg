@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 400" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect x="0" y="0" width="700" height="400" fill="#ffffff"/>
+<line x1="70" y1="330" x2="670" y2="330" stroke="#333333" stroke-width="1.3"/>
+<line x1="70" y1="330" x2="70" y2="50" stroke="#333333" stroke-width="1.3"/>
+<line x1="70" y1="330" x2="70" y2="335" stroke="#333333" stroke-width="1"/>
+<text x="70" y="348" font-size="12" text-anchor="middle" fill="#333333">0</text>
+<line x1="170" y1="330" x2="170" y2="335" stroke="#333333" stroke-width="1"/>
+<text x="170" y="348" font-size="12" text-anchor="middle" fill="#333333">25</text>
+<line x1="270" y1="330" x2="270" y2="335" stroke="#333333" stroke-width="1"/>
+<text x="270" y="348" font-size="12" text-anchor="middle" fill="#333333">50</text>
+<line x1="370" y1="330" x2="370" y2="335" stroke="#333333" stroke-width="1"/>
+<text x="370" y="348" font-size="12" text-anchor="middle" fill="#333333">75</text>
+<line x1="470" y1="330" x2="470" y2="335" stroke="#333333" stroke-width="1"/>
+<text x="470" y="348" font-size="12" text-anchor="middle" fill="#333333">100</text>
+<line x1="570" y1="330" x2="570" y2="335" stroke="#333333" stroke-width="1"/>
+<text x="570" y="348" font-size="12" text-anchor="middle" fill="#333333">125</text>
+<line x1="670" y1="330" x2="670" y2="335" stroke="#333333" stroke-width="1"/>
+<text x="670" y="348" font-size="12" text-anchor="middle" fill="#333333">150</text>
+<line x1="65" y1="330" x2="70" y2="330" stroke="#333333" stroke-width="1"/>
+<text x="62" y="334" font-size="12" text-anchor="end" fill="#333333">0</text>
+<line x1="65" y1="302" x2="70" y2="302" stroke="#333333" stroke-width="1"/>
+<text x="62" y="306" font-size="12" text-anchor="end" fill="#333333">0.1</text>
+<line x1="65" y1="260" x2="70" y2="260" stroke="#333333" stroke-width="1"/>
+<text x="62" y="264" font-size="12" text-anchor="end" fill="#333333">0.25</text>
+<line x1="65" y1="190" x2="70" y2="190" stroke="#333333" stroke-width="1"/>
+<text x="62" y="194" font-size="12" text-anchor="end" fill="#333333">0.5</text>
+<line x1="65" y1="120" x2="70" y2="120" stroke="#333333" stroke-width="1"/>
+<text x="62" y="124" font-size="12" text-anchor="end" fill="#333333">0.75</text>
+<line x1="65" y1="78" x2="70" y2="78" stroke="#333333" stroke-width="1"/>
+<text x="62" y="82" font-size="12" text-anchor="end" fill="#333333">0.9</text>
+<line x1="65" y1="50" x2="70" y2="50" stroke="#333333" stroke-width="1"/>
+<text x="62" y="54" font-size="12" text-anchor="end" fill="#333333">1</text>
+<text x="370" y="368" font-size="13" text-anchor="middle" fill="#111111">n, number of independent claims, each at credence 0.98</text>
+<text x="70" y="38" font-size="13" text-anchor="start" fill="#111111">credence that all n are true</text>
+<polyline points="70,50 74,55.6 78,61.09 82,66.47 86,71.74 90,76.9 94,81.96 98,86.92 102,91.79 106,96.55 110,101.22 114,105.8 118,110.28 122,114.67 126,118.98 130,123.2 134,127.34 138,131.39 142,135.36 146,139.25 150,143.07 154,146.81 158,150.47 162,154.06 166,157.58 170,161.03 174,164.41 178,167.72 182,170.97 186,174.15 190,177.26 194,180.32 198,183.31 202,186.25 206,189.12 210,191.94 214,194.7 218,197.41 222,200.06 226,202.66 230,205.2 234,207.7 238,210.15 242,212.54 246,214.89 250,217.19 254,219.45 258,221.66 262,223.83 266,225.95 270,228.03 274,230.07 278,232.07 282,234.03 286,235.95 290,237.83 294,239.67 298,241.48 302,243.25 306,244.98 310,246.69 314,248.35 318,249.98 322,251.58 326,253.15 330,254.69 334,256.2 338,257.67 342,259.12 346,260.54 350,261.93 354,263.29 358,264.62 362,265.93 366,267.21 370,268.47 374,269.7 378,270.9 382,272.08 386,273.24 390,274.38 394,275.49 398,276.58 402,277.65 406,278.7 410,279.72 414,280.73 418,281.71 422,282.68 426,283.63 430,284.55 434,285.46 438,286.35 442,287.23 446,288.08 450,288.92 454,289.74 458,290.55 462,291.34 466,292.11 470,292.87 474,293.61 478,294.34 482,295.05 486,295.75 490,296.43 494,297.11 498,297.76 502,298.41 506,299.04 510,299.66 514,300.27 518,300.86 522,301.44 526,302.01 530,302.57 534,303.12 538,303.66 542,304.19 546,304.7 550,305.21 554,305.71 558,306.19 562,306.67 566,307.13 570,307.59 574,308.04 578,308.48 582,308.91 586,309.33 590,309.74 594,310.15 598,310.55 602,310.94 606,311.32 610,311.69 614,312.06 618,312.42 622,312.77 626,313.11 630,313.45 634,313.78 638,314.1 642,314.42 646,314.73 650,315.04 654,315.34 658,315.63 662,315.92 666,316.2 670,316.48" fill="none" stroke="#1a6fb5" stroke-width="2.5"/>
+<line x1="70" y1="78" x2="670" y2="78" stroke="#d1495b" stroke-width="1.6" stroke-dasharray="6,4"/>
+<line x1="70" y1="302" x2="670" y2="302" stroke="#2e8b57" stroke-width="1.6" stroke-dasharray="6,4"/>
+<text x="670" y="70" font-size="12" text-anchor="end" fill="#d1495b">threshold t = 0.9: believe all true above this</text>
+<text x="82" y="294" font-size="12" text-anchor="start" fill="#2e8b57">1 - t = 0.1: believe some claim false below this</text>
+<circle cx="90" cy="76.9" r="4.5" fill="#d1495b" stroke="none" stroke-width="1"/>
+<text x="100" y="66.9" font-size="12" text-anchor="start" fill="#111111">n = 5: all true still believed (0.904)</text>
+<circle cx="526" cy="302.01" r="4.5" fill="#2e8b57" stroke="none" stroke-width="1"/>
+<text x="526" y="326.01" font-size="12" text-anchor="middle" fill="#111111">n = 114 (0.0999)</text>
+<circle cx="210" cy="191.94" r="4" fill="#333333" stroke="none" stroke-width="1"/>
+<text x="218" y="183.94" font-size="12" text-anchor="start" fill="#333333">n = 35: below one half (0.493)</text>
+</svg>

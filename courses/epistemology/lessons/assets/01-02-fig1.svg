@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 450" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect x="0" y="0" width="760" height="450" fill="#ffffff"/>
+<text x="195" y="34" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">I am not a brain in a vat</text>
+<text x="195" y="54" font-size="12" text-anchor="middle" fill="#333333">insensitive but safe</text>
+<circle cx="195" cy="230" r="150" fill="none" stroke="#bbbbbb" stroke-width="1.2"/>
+<circle cx="195" cy="230" r="78" fill="#dbe8f5" stroke="#1a6fb5" stroke-width="1.6"/>
+<text x="195" y="146" font-size="12" text-anchor="middle" fill="#1a6fb5">close worlds</text>
+<text x="195" y="368" font-size="12" text-anchor="middle" fill="#333333">far worlds</text>
+<circle cx="195" cy="230" r="6" fill="#111111" stroke="none" stroke-width="1"/>
+<text x="205" y="234" font-size="12" text-anchor="start" fill="#111111">actual</text>
+<circle cx="155" cy="200" r="5" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<circle cx="230" cy="185" r="5" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<circle cx="145" cy="265" r="5" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<circle cx="240" cy="260" r="5" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<circle cx="195" cy="285" r="5" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<circle cx="75" cy="290" r="5" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<circle cx="305" cy="160" r="5" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<circle cx="313" cy="302" r="5" fill="#d1495b" stroke="none" stroke-width="1"/>
+<text x="195" y="408" font-size="12" text-anchor="middle" fill="#333333">nearest not-p world (red) is far:</text>
+<text x="195" y="425" font-size="12" text-anchor="middle" fill="#333333">it fails sensitivity, not safety</text>
+<text x="305" y="324" font-size="12" text-anchor="middle" fill="#d1495b">BIV world</text>
+<text x="570" y="34" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">My ticket will lose</text>
+<text x="570" y="54" font-size="12" text-anchor="middle" fill="#333333">insensitive and unsafe</text>
+<circle cx="570" cy="230" r="150" fill="none" stroke="#bbbbbb" stroke-width="1.2"/>
+<circle cx="570" cy="230" r="78" fill="#dbe8f5" stroke="#1a6fb5" stroke-width="1.6"/>
+<text x="570" y="146" font-size="12" text-anchor="middle" fill="#1a6fb5">close worlds</text>
+<text x="570" y="368" font-size="12" text-anchor="middle" fill="#333333">far worlds</text>
+<circle cx="570" cy="230" r="6" fill="#111111" stroke="none" stroke-width="1"/>
+<text x="580" y="234" font-size="12" text-anchor="start" fill="#111111">actual</text>
+<circle cx="530" cy="200" r="5" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<circle cx="605" cy="185" r="5" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<circle cx="520" cy="265" r="5" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<circle cx="570" cy="285" r="5" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<circle cx="610" cy="248" r="5" fill="#d1495b" stroke="none" stroke-width="1"/>
+<circle cx="455" cy="155" r="5" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<circle cx="680" cy="300" r="5" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<text x="570" y="408" font-size="12" text-anchor="middle" fill="#333333">the winning world (red) is close:</text>
+<text x="570" y="425" font-size="12" text-anchor="middle" fill="#333333">it fails both conditions</text>
+<text x="620" y="252" font-size="12" text-anchor="start" fill="#d1495b">ticket wins</text>
+<circle cx="250" cy="438" r="5" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<text x="260" y="442" font-size="12" text-anchor="start" fill="#111111">p true, believed</text>
+<circle cx="420" cy="438" r="5" fill="#d1495b" stroke="none" stroke-width="1"/>
+<text x="430" y="442" font-size="12" text-anchor="start" fill="#111111">p false, believed</text>
+</svg>

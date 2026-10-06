@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect x="0" y="0" width="760" height="400" fill="#ffffff"/>
+<text x="40" y="24" font-size="13" text-anchor="start" fill="#333333">Four cells: H and E, not-H and E, H and not-E, not-H and not-E</text>
+<text x="40" y="60" font-size="14" text-anchor="start" fill="#111111" font-weight="bold">Before: prior cr0</text>
+<rect x="40" y="70" width="163.2" height="44" rx="0" fill="#dbe8f5" stroke="#1a6fb5" stroke-width="1.4"/>
+<rect x="203.2" y="70" width="108.8" height="44" rx="0" fill="#f6dde1" stroke="#d1495b" stroke-width="1.4"/>
+<rect x="312" y="70" width="40.8" height="44" rx="0" fill="#dbe8f5" stroke="#1a6fb5" stroke-width="1.4"/>
+<rect x="352.8" y="70" width="367.2" height="44" rx="0" fill="#f6dde1" stroke="#d1495b" stroke-width="1.4"/>
+<text x="121.6" y="97" font-size="12" text-anchor="middle" fill="#111111">H,E 0.24</text>
+<text x="257.6" y="97" font-size="12" text-anchor="middle" fill="#111111">not-H,E 0.16</text>
+<text x="332.4" y="132" font-size="11" text-anchor="middle" fill="#333333">H,not-E 0.06</text>
+<text x="536.4" y="97" font-size="12" text-anchor="middle" fill="#111111">not-H,not-E 0.54</text>
+<text x="720" y="132" font-size="11" text-anchor="end" fill="#333333">cr0(E) = 0.40, cr0(H given E) = 0.24 / 0.40 = 0.6</text>
+<text x="40" y="172" font-size="14" text-anchor="start" fill="#111111" font-weight="bold">Strict: learn E for certain</text>
+<rect x="40" y="182" width="408" height="44" rx="0" fill="#dbe8f5" stroke="#1a6fb5" stroke-width="1.4"/>
+<rect x="448" y="182" width="272" height="44" rx="0" fill="#f6dde1" stroke="#d1495b" stroke-width="1.4"/>
+<text x="244" y="209" font-size="12" text-anchor="middle" fill="#111111">H,E 0.6</text>
+<text x="584" y="209" font-size="12" text-anchor="middle" fill="#111111">not-H,E 0.4</text>
+<text x="720" y="244" font-size="12" text-anchor="end" fill="#d1495b">not-E cells set to 0; E cells divided by 0.40</text>
+<text x="40" y="284" font-size="14" text-anchor="start" fill="#111111" font-weight="bold">Jeffrey: cr1(E) = 0.75</text>
+<rect x="40" y="294" width="306" height="44" rx="0" fill="#dbe8f5" stroke="#1a6fb5" stroke-width="1.4"/>
+<rect x="346" y="294" width="204" height="44" rx="0" fill="#f6dde1" stroke="#d1495b" stroke-width="1.4"/>
+<rect x="550" y="294" width="17" height="44" rx="0" fill="#dbe8f5" stroke="#1a6fb5" stroke-width="1.4"/>
+<rect x="567" y="294" width="153" height="44" rx="0" fill="#f6dde1" stroke="#d1495b" stroke-width="1.4"/>
+<text x="193" y="321" font-size="12" text-anchor="middle" fill="#111111">H,E 0.45</text>
+<text x="448" y="321" font-size="12" text-anchor="middle" fill="#111111">not-H,E 0.3</text>
+<text x="558.5" y="356" font-size="11" text-anchor="middle" fill="#333333">H,not-E 0.025</text>
+<text x="643.5" y="321" font-size="12" text-anchor="middle" fill="#111111">not-H,not-E 0.225</text>
+<text x="40" y="356" font-size="11" text-anchor="start" fill="#333333">E cells scaled to sum 0.75, not-E to 0.25</text>
+<text x="40" y="392" font-size="13" text-anchor="start" fill="#2e8b57">Inside E the H : not-H ratio stays 3 : 2 in every row (rigidity).</text>
+</svg>
