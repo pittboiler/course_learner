@@ -7,10 +7,10 @@ description: Run a short spaced-repetition quiz from the review queue. Use when 
 
 A ~5-minute retrieval session. Read CLAUDE.md conventions first if not already in context.
 
-1. Read `progress/progress.json`. Collect review-queue items with `due <= today`, oldest first. Take up to 5 (mix courses when possible). If none are due, say so, show the next due date, and offer to pull the 3 weakest concepts anyway.
+1. Run `node progress-sync.mjs pull` from the repo root first — the database is the source of truth and the web app writes there; this refreshes `progress/progress.json` from it. Read `progress/progress.json`. Collect review-queue items with `due <= today`, oldest first. Take up to 5 (mix courses when possible). If none are due, say so, show the next due date, and offer to pull the 3 weakest concepts anyway.
 2. For each item, write a **fresh variant** problem testing the same concept (look up the source lesson file for context; never reuse a problem verbatim). Administer one at a time; wait for the answer before grading.
 3. Grade as in /learn (generous on arithmetic, strict on concepts). Briefly re-teach anything missed — two or three sentences plus the key step, not a full lesson.
-4. Update progress.json per item:
+4. Update progress.json per item (then `node progress-sync.mjs push` once all items are recorded):
    - correct → reschedule at the next-longer interval in `settings.review_intervals_days` (item stores its current rating; bump it by 1, cap 5). After two consecutive correct at rating 5, retire the item.
    - wrong → reset to the 1-day interval, decrement rating (floor 1), and add/update the concept in the source lesson's `weak_concepts`.
    - Append a `{"type": "review"}` entry to `log`.

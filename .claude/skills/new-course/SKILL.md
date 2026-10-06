@@ -7,7 +7,7 @@ description: Stand up a new course — generate its syllabus from the roadmap an
 
 Generate a course's stable spine. Read CLAUDE.md conventions first if not already in context.
 
-1. Validate the id against ROADMAP.md (if it's not there, propose adding it to the roadmap first — tier, prereqs, then proceed). Check prereqs against progress.json; if a prereq course is below ~60% complete, warn but let Jacob decide.
+1. Validate the id against ROADMAP.md (if it's not there, propose adding it to the roadmap first — tier, prereqs, then proceed). Run `node progress-sync.mjs pull` first (the database is the source of truth), then check prereqs against progress.json; if a prereq course is below ~60% complete, warn but let Jacob decide.
 2. Think hard about scope before writing: the goal is "enough to be dangerous", not comprehensiveness. Decide what to deliberately skip and say so in the Goal section.
 3. Write `courses/<course-id>/syllabus.md` following `templates/syllabus-template.md`:
    - **Dangerous Checklist**: 8–12 concrete can-do statements (verbs: compute, prove, model, explain, estimate).
@@ -16,5 +16,5 @@ Generate a course's stable spine. Read CLAUDE.md conventions first if not alread
    - Lesson counts should land near the ROADMAP.md estimate; if you deviate by >25%, note why.
    - Order lessons so each builds on the previous; front-load whatever downstream courses need soonest.
 4. Stub `courses/<course-id>/reference.md` from `templates/reference-template.md`: fill in "Assumed, not taught here" from the course's prereqs (what this course will lean on without deriving, and which course teaches it), and leave the other sections to be filled in by `/prep` as lessons get written.
-5. Register in progress.json: `courses.<id> = {"status": "active", "started": "<date>", "lessons": {}}`. If this would exceed `settings.max_active_courses`, ask which course to pause.
+5. Register in progress.json: `courses.<id> = {"status": "active", "started": "<date>", "lessons": {}}`. If this would exceed `settings.max_active_courses`, ask which course to pause. Then run `node progress-sync.mjs push` so the app sees the change.
 6. Present the syllabus summary in chat (modules + checklist) and ask if Jacob wants to adjust before it's locked. The syllabus is stable once accepted — later changes get a dated note at the bottom of the file.

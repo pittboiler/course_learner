@@ -9,7 +9,7 @@ Teach one ~15-minute lesson, end to end. Read CLAUDE.md conventions first if not
 
 ## 1. Locate
 
-- Read `progress/progress.json`. If a course-id was given, use it; otherwise pick the active course whose lesson is most overdue (alternate between the two active courses by default).
+- Run `node progress-sync.mjs pull` from the repo root first — the database is the source of truth and the web app writes there; this refreshes `progress/progress.json` from it. Read `progress/progress.json`. If a course-id was given, use it; otherwise pick the active course whose lesson is most overdue (alternate between the two active courses by default).
 - If the course has no syllabus yet, tell Jacob and offer to run `/new-course` first.
 - Next lesson = first syllabus lesson not marked completed. If the just-completed lesson was the last in a module, administer the module's **boss problem** instead of a new lesson (same grading flow, `"type": "boss"` in the log).
 
@@ -35,7 +35,7 @@ Teach one ~15-minute lesson, end to end. Read CLAUDE.md conventions first if not
 ## 5. Record
 
 - Ask for a 1–5 confidence rating.
-- Update progress.json:
+- Update progress.json, then run `node progress-sync.mjs push`:
   - lesson entry: `{"completed": "<date>", "self_rating": n, "problems": {"correct": x, "total": y}, "weak_concepts": [...]}`
   - append to `log`: `{"date", "course", "lesson", "minutes_estimate", "type": "lesson"}`
   - queue review items: every completed lesson gets one review item due per `settings.review_intervals_days[rating]`; missed concepts get an extra item due sooner (rating-1 interval, floor 1 day).

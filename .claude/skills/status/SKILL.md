@@ -5,7 +5,7 @@ description: Show learning progress — courses, streak, due reviews, weak spots
 
 # /status
 
-1. Read `progress/progress.json` and the active courses' syllabi.
+1. Run `node progress-sync.mjs pull` from the repo root first — the database is the source of truth and the web app writes there; this refreshes `progress/progress.json` from it. Read `progress/progress.json` and the active courses' syllabi.
 2. Report concisely in chat:
    - Per active course: lessons done / total, current module, Dangerous Checklist items plausibly earned so far.
    - Review queue: items due today, next due date, any concept missed twice or more (call these out as "shaky").

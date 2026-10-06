@@ -75,57 +75,70 @@ const FIELD_ORDER = [
 const TIER_LABEL = { F: "Foundations", 0: "Tier 0", 1: "Tier 1", 2: "Tier 2" };
 const tierRank = (t) => (t === "F" ? -1 : Number(t));
 
-/* ---------- local persistence -------------------------------------------
-   The server's filesystem is read-only on Vercel, so progress and handwriting
-   are kept in the browser and merged over whatever the server can return. */
+/* ---------- persistence -------------------------------------------------
+   Progress and handwriting live in the server's database (db/db.js). The browser
+   keeps only unsynced handwriting drafts in localStorage, cleared once saved. */
 const LS = {
   get(k, fallback) { try { return JSON.parse(localStorage.getItem(k)) ?? fallback; } catch { return fallback; } },
   set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} },
   del(k) { try { localStorage.removeItem(k); } catch {} },
 };
-const LS_PROGRESS = "learner:progress"; // { courses:{id:{lessons:{}}}, review_queue:[], log:[] }
 const inkKey = (course, file, label) => `learner:ink:${course}:${file}:${label}`;
+const serverInkKey = (k) => k.replace(/^learner:ink:/, "");
 
-function localProgress() {
-  const o = LS.get(LS_PROGRESS, {}) || {};
-  o.courses ||= {}; o.review_queue ||= []; o.log ||= [];
-  return o;
-}
-function recordLocal({ course, lesson, completion, review, log }) {
-  const o = localProgress();
-  if (completion) {
-    o.courses[course] ||= { status: "active", started: completion.completed, lessons: {} };
-    o.courses[course].lessons[lesson] = completion;
+// fetch + JSON + passcode gate: a 401 asks for the passcode once, then retries.
+async function api(url, opts = {}) {
+  const go = () => fetch(url, opts);
+  let r = await go();
+  if (r.status === 401 && (await r.clone().json().catch(() => ({}))).passcode) {
+    const passcode = window.prompt("Passcode:");
+    if (passcode) {
+      await fetch("/api/login", {
+        method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ passcode }),
+      });
+      r = await go();
+    }
   }
-  if (review) o.review_queue.push(review);
-  if (log) o.log.push(log);
-  LS.set(LS_PROGRESS, o);
-}
-// Overlay the browser's saved progress on top of the server's baseline.
-function mergeLocalProgress() {
-  const o = localProgress();
-  const p = STATE.progress;
-  for (const [cid, c] of Object.entries(o.courses)) {
-    p.courses[cid] ||= { status: "active", started: c.started, lessons: {} };
-    Object.assign(p.courses[cid].lessons, c.lessons);
-  }
-  const seen = new Set(p.review_queue.map((r) => `${r.course}|${r.lesson}|${r.due}`));
-  for (const r of o.review_queue) {
-    const k = `${r.course}|${r.lesson}|${r.due}`;
-    if (!seen.has(k)) { p.review_queue.push(r); seen.add(k); }
-  }
-  // A writable server may also have logged the same event; dedup so streak/session
-  // counts aren't doubled. (On Vercel the server can't write, so only local exists.)
-  const logSeen = new Set(p.log.map((e) => JSON.stringify(e)));
-  for (const e of o.log) {
-    const s = JSON.stringify(e);
-    if (!logSeen.has(s)) { p.log.push(e); logSeen.add(s); }
-  }
+  const data = await r.json().catch(() => ({}));
+  if (!r.ok) throw new Error(data.error || `Request failed (${r.status})`);
+  return data;
 }
 
+/* One-time rescue: before the database, progress and ink lived in this browser's
+   localStorage ("learner:progress", "learner:ink:*"). Upload whatever is there, and
+   delete each piece only after the server confirms it's stored. */
+async function rescueLocalData() {
+  const local = LS.get("learner:progress", null);
+  if (local && (Object.keys(local.courses || {}).length || (local.log || []).length)) {
+    await api("/api/import", {
+      method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ progress: local }),
+    });
+  }
+  LS.del("learner:progress");
+  let keys = [];
+  try { keys = Object.keys(localStorage).filter((k) => k.startsWith("learner:ink:")); } catch {}
+  for (const k of keys) {
+    const strokes = LS.get(k, null);
+    if (Array.isArray(strokes)) await saveInk(k, strokes);
+    else LS.del(k);
+  }
+}
+async function saveInk(storageKey, strokes) {
+  await api("/api/ink", {
+    method: "PUT", headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ key: serverInkKey(storageKey), strokes }),
+  });
+  LS.del(storageKey);
+}
+
+let rescued = false;
 async function loadState() {
-  STATE = await (await fetch("/api/state")).json();
-  mergeLocalProgress();
+  if (!rescued) {
+    rescued = true;
+    try { await rescueLocalData(); } catch (e) { console.warn("local data rescue failed; will retry next load", e); rescued = false; }
+  }
+  STATE = await api("/api/state");
 }
 
 function courseInfo(id) {
@@ -573,10 +586,6 @@ async function renderLesson(courseId, file) {
   // A grader bound to one problem label ("P1"/"P2"/"P3"/"Flashback").
   const gradeOne = (problem) => async (answer, fb) => {
     const result = await postJSON("/api/grade", { course: courseId, lesson: file, problem, ...answer });
-    recordLocal({ course: courseId, lesson: lessonId, log: {
-      date: STATE.today, course: courseId, lesson: lessonId, problem,
-      verdict: result.verdict, weak_concepts: result.weak_concepts || [], type: "grade", source: "webapp",
-    }});
     fb.innerHTML = feedbackHTML(result);
     renderMath(fb);
     renderDiagrams(fb);
@@ -604,29 +613,19 @@ async function renderLesson(courseId, file) {
   if (btn)
     btn.onclick = async () => {
       const self_rating = Number(document.getElementById("rating").value);
+      const box = document.getElementById("complete-box");
+      btn.disabled = true;
       let review_due;
       try {
-        const r = await fetch("/api/complete", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ course: courseId, lesson: lessonId, self_rating }),
-        });
-        review_due = (await r.json()).review_due;
-      } catch {}
-      if (!review_due) {
-        const days = (STATE.progress.settings?.review_intervals_days || {})[String(self_rating)] || 5;
-        review_due = new Date(Date.now() + days * 86400000).toISOString().slice(0, 10);
+        ({ review_due } = await postJSON("/api/complete", { course: courseId, lesson: lessonId, self_rating }));
+        await loadState();
+      } catch (e) {
+        btn.disabled = false;
+        box.insertAdjacentHTML("beforeend", `<p class="error">Not saved: ${esc(e.message)} — try again.</p>`);
+        return;
       }
-      // Persist locally too — the server FS is read-only on Vercel.
-      recordLocal({
-        course: courseId, lesson: lessonId,
-        completion: { completed: STATE.today, self_rating, problems: null, weak_concepts: [] },
-        review: { course: courseId, lesson: lessonId, rating: self_rating, due: review_due },
-        log: { date: STATE.today, course: courseId, lesson: lessonId, type: "lesson", source: "webapp" },
-      });
-      await loadState();
-      document.getElementById("complete-box").className = "complete-box done";
-      document.getElementById("complete-box").innerHTML =
+      box.className = "complete-box done";
+      box.innerHTML =
         `<span>✅ Recorded — a review of this material is queued for ${review_due}.</span>`;
     };
 }
@@ -682,6 +681,9 @@ let __penDrawing = false;
 document.addEventListener("selectstart", (e) => { if (__penDrawing) e.preventDefault(); }, true);
 window.addEventListener("pointerup", () => { __penDrawing = false; }, true);   // backstop
 window.addEventListener("pointercancel", () => { __penDrawing = false; }, true);
+
+// Full-precision floats made each pen sample ~60 bytes of JSON; 0.1px is plenty.
+const compactPoint = (x, y, w) => [Math.round(x * 10) / 10, Math.round(y * 10) / 10, Math.round(w * 100) / 100];
 
 function createInkPad(mount, storageKey) {
   const pages = []; // { canvas, ctx, strokes:[{color, pts:[{x,y,w}]}] }
@@ -755,11 +757,13 @@ function createInkPad(mount, storageKey) {
     }
   }
 
+  let saveTimer;
   function persist() {
     if (!storageKey) return;
     const data = pages.map((p) => p.strokes);
-    if (data.some((s) => s.length)) LS.set(storageKey, data);
-    else LS.del(storageKey);
+    LS.set(storageKey, data); // draft, in case we're offline or the tab closes
+    clearTimeout(saveTimer);
+    saveTimer = setTimeout(() => saveInk(storageKey, data).catch(() => {}), 800);
   }
 
   // Drawing input. We use TOUCH events (not Pointer events) for the pen: iPadOS Safari
@@ -779,6 +783,7 @@ function createInkPad(mount, storageKey) {
     const mouseWidth = () => (tool === "erase" ? ERASER_W : 2.2);
 
     function begin(x, y, w) {
+      [x, y, w] = compactPoint(x, y, w);
       __penDrawing = true;
       try { window.getSelection()?.removeAllRanges(); } catch {}
       cur = { color: tool === "erase" ? ERASER_HEX : color, pts: [{ x, y, w }] };
@@ -791,6 +796,7 @@ function createInkPad(mount, storageKey) {
       ctx.fill();
     }
     function extend(x, y, w) {
+      [x, y, w] = compactPoint(x, y, w);
       if (!cur) return;
       const ctx = page.ctx;
       const prev = cur.pts[cur.pts.length - 1];
@@ -899,9 +905,11 @@ function createInkPad(mount, storageKey) {
 
   addPage();
 
-  // Restore any previously saved work for this problem.
-  const saved = storageKey ? LS.get(storageKey) : null;
-  if (Array.isArray(saved) && saved.some((s) => s.length)) {
+  // Restore saved work for this problem: an unsynced local draft wins (and gets
+  // re-saved); otherwise fetch the server copy. Never clobber strokes drawn meanwhile.
+  function restore(saved) {
+    if (!Array.isArray(saved) || !saved.some((s) => s.length)) return;
+    if (pages.some((p) => p.strokes.length)) return;
     while (pages.length < saved.length) addPage();
     saved.forEach((strokes, i) => {
       if (!pages[i]) return;
@@ -909,6 +917,17 @@ function createInkPad(mount, storageKey) {
       strokes.forEach(() => order.push(pages[i])); // so Undo works on restored strokes too
       redraw(pages[i]);
     });
+  }
+  if (storageKey) {
+    const draft = LS.get(storageKey, null);
+    if (Array.isArray(draft) && draft.some((s) => s.length)) {
+      restore(draft);
+      saveInk(storageKey, draft).catch(() => {});
+    } else {
+      api(`/api/ink?key=${encodeURIComponent(serverInkKey(storageKey))}`)
+        .then((r) => restore(r.strokes))
+        .catch(() => {});
+    }
   }
 
   return {
@@ -1030,15 +1049,8 @@ function feedbackHTML(result, extraMd = "") {
     </div>`;
 }
 
-async function postJSON(url, body) {
-  const r = await fetch(url, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(body),
-  });
-  const data = await r.json();
-  if (!r.ok) throw new Error(data.error || `Request failed (${r.status})`);
-  return data;
+function postJSON(url, body) {
+  return api(url, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) });
 }
 
 /* Checkpoint quizzes: Foundations & Tier 0 get 2 (mid + final), Tier 1/2 get 3 (thirds) */

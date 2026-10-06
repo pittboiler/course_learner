@@ -17,7 +17,7 @@ if (!process.env.DATABASE_URL) throw new Error("DATABASE_URL is not set (.env lo
 export const sql = neon(process.env.DATABASE_URL);
 
 // Single user until the app gets real accounts; every row is already keyed by it.
-export const USER = "jacob";
+export const USER = process.env.LEARNER_USER || "jacob";
 
 const DEFAULT_SETTINGS = {
   lesson_target_minutes: 15,
