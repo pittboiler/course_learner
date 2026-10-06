@@ -88,7 +88,7 @@ An analyst who assumes state-independent linear utility reads $P(D) = c/1000 = \
 
 ## Watch out
 
-- **You might think betting odds in dollars reveal credence directly.** They do only if utility is linear in money over the stakes. The Dutch book argument for probabilism (a sure-loss book against betting quotients that break the probability axioms, which Ramsey himself sketched) assumes exactly that; [`epistemology`](../../epistemology/syllabus.md) 5.2 owns it, as the belief-side cousin of this lesson's derivation from preference.
+- **You might think betting odds in dollars reveal credence directly.** They do only if utility is linear in money over the stakes. The Dutch book argument for probabilism (a sure-loss book against betting quotients that break the probability axioms, which Ramsey himself sketched) assumes exactly that; [`epistemology`](../../epistemology/syllabus.md) [5.2](../../epistemology/lessons/05-02-dutch-books-and-accuracy.md) owns it, as the belief-side cousin of this lesson's derivation from preference.
 - **You might think the elicited number is wrong in the insurance case and Savage's is right elsewhere.** Both are fixed by the same convention. Preferences alone fix $P(s)\lambda_s$; Savage gets a unique $P$ by declaring $\lambda_s$ constant.
 - **You might think "ethically neutral" means "probability one half".** Neutrality is about *value* (she does not care whether $N$ is true); the indifference under swapping prizes is what then certifies credence $\tfrac12$. Ramsey needed both.
 
@@ -161,7 +161,7 @@ The analyst reads $P(D) = c/2000 = \tfrac1{17}$, against her true $\tfrac15$.
 
 **Must hit, strict (a):**
 
-- The Dutch book (Ramsey sketched it; de Finetti developed it; [`epistemology`](../../epistemology/syllabus.md) 5.2 owns it) gives a *normative* argument targeted at credences: betting quotients that violate the probability axioms expose you to a sure loss, so the incoherence is exploitable. Savage's theorem shows only that preferences satisfying his postulates are *representable* by a probability and a utility.
+- The Dutch book (Ramsey sketched it; de Finetti developed it; [`epistemology`](../../epistemology/syllabus.md) [5.2](../../epistemology/lessons/05-02-dutch-books-and-accuracy.md) owns it) gives a *normative* argument targeted at credences: betting quotients that violate the probability axioms expose you to a sure loss, so the incoherence is exploitable. Savage's theorem shows only that preferences satisfying his postulates are *representable* by a probability and a utility.
 - An assumption it needs that Savage does not: utility linear in money over the stakes (or stakes small enough to treat so), and that the agent will take either side of any bet at her quotient. It also works with finitely many events, without Savage's rich state space.
 
 **Must hit, any verdict (b):**

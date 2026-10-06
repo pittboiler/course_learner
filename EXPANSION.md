@@ -247,10 +247,10 @@ changes the brief lists) → roots (`ethics`, `fundamental-theology`,
 - [x] `ancient-medieval-philosophy` — Ancient & Medieval Philosophy (1, 29) — syllabus ✓ (2026-09-15) — **lessons ✓** (29 lessons + reference card, prepped 2026-09-16)
 - [ ] `modern-philosophy` — Modern Philosophy (1, 27) — syllabus ✓ (2026-09-15), lessons pending
 - [x] `ethics` — Ethics (1, 26) — syllabus ✓ (2026-09-15) — **lessons ✓** (26 lessons + reference card, prepped 2026-09-16)
-- [ ] `epistemology` — Epistemology (1, 23) — syllabus ✓ (2026-09-15), lessons pending
+- [x] `epistemology` — Epistemology (1, 23) — syllabus ✓ (2026-09-15), built 2026-10-05 (23 lessons + reference card)
 - [x] `metaphysics` — Metaphysics (1, 26) — syllabus ✓ (2026-09-15) — **lessons ✓** (26 lessons + reference card, prepped 2026-09-16)
 - [x] `decision-theory` — Decision Theory (1, 23) — syllabus ✓ (2026-09-15), built 2026-10-01 (23 lessons + reference card)
-- [ ] `philosophy-of-religion` — Philosophy of Religion (1, 24) — syllabus ✓ (2026-09-15), lessons pending
+- [x] `philosophy-of-religion` — Philosophy of Religion (1, 24) — syllabus ✓ (2026-09-15), built 2026-10-05 (24 lessons + reference card)
 - [ ] `philosophy-of-mind` — Philosophy of Mind (2, 25) — syllabus ✓ (2026-09-15), lessons pending
 - [ ] `philosophy-of-science` — Philosophy of Science (2, 26) — syllabus ✓ (2026-09-15), lessons pending
 - [ ] `philosophy-of-physics` — Philosophy of Physics (2, 25) — syllabus ✓ (2026-09-15), lessons pending
@@ -291,7 +291,7 @@ changes the brief lists) → roots (`ethics`, `fundamental-theology`,
 - [ ] `sacraments-and-liturgy` — Sacraments & Liturgy (2, 25) — syllabus ✓ (2026-09-15), lessons pending
 - [x] `moral-theology` — Moral Theology (2, 28) — syllabus ✓ (2026-09-15) — **lessons ✓** (28 lessons + reference card, prepped 2026-09-25)
 - [ ] `catholic-social-teaching` — Catholic Social Teaching (2, 27) — syllabus ✓ (2026-09-15), lessons pending
-- [ ] `apologetics-foundations` — Apologetics I: God, Christ & the Religions (2, 31) — syllabus ✓ (2026-09-15), lessons pending
+- [x] `apologetics-foundations` — Apologetics I: God, Christ & the Religions (2, 31) — syllabus ✓ (2026-09-15), built 2026-10-06 (31 lessons + reference card)
 - [ ] `apologetics-catholic-claims` — Apologetics II: The Catholic Claims (2, 29) — syllabus ✓ (2026-09-15), lessons pending
 - [x] `theology-of-debt` — Theology of Debt (2, 26) — syllabus ✓ (2026-09-15) — **lessons ✓** (26 lessons + reference card, prepped 2026-09-26)
 

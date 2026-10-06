@@ -4,7 +4,7 @@
 
 ## Why this matters
 
-The most argued-over paragraph in the philosophy of religion was written by a Benedictine abbot in Normandy, in the form of a prayer, for monks who already believed its conclusion. Most people meet it as "the ontological argument", a puzzle to be refuted in a seminar. This lesson reads it as history instead. What did Anselm think he was doing? How did the argument differ from his earlier book? And what happened when a fellow monk wrote a reply on behalf of the fool, and a Dominican two centuries later turned it down? Whether the argument works belongs to [`philosophy-of-religion`](../../philosophy-of-religion/syllabus.md) 2.1. Here the question is what it was.
+The most argued-over paragraph in the philosophy of religion was written by a Benedictine abbot in Normandy, in the form of a prayer, for monks who already believed its conclusion. Most people meet it as "the ontological argument", a puzzle to be refuted in a seminar. This lesson reads it as history instead. What did Anselm think he was doing? How did the argument differ from his earlier book? And what happened when a fellow monk wrote a reply on behalf of the fool, and a Dominican two centuries later turned it down? Whether the argument works belongs to [`philosophy-of-religion`](../../philosophy-of-religion/syllabus.md) [2.1](../../philosophy-of-religion/lessons/02-01-anselms-ontological-argument.md). Here the question is what it was.
 
 ## The idea
 
@@ -24,7 +24,7 @@ Anselm, *Monologion* ch.1 (Deane, 1903, public domain). This is the heart of the
 
 ## The argument
 
-***Proslogion* 2–3, in outline only.** The full reconstruction, with the classic replies weighed, is [`philosophy-of-religion`](../../philosophy-of-religion/syllabus.md) 2.1. Anselm's terms, in Deane's English:
+***Proslogion* 2–3, in outline only.** The full reconstruction, with the classic replies weighed, is [`philosophy-of-religion`](../../philosophy-of-religion/syllabus.md) [2.1](../../philosophy-of-religion/lessons/02-01-anselms-ontological-argument.md). Anselm's terms, in Deane's English:
 
 1. **We believe that God is "a being than which nothing greater can be conceived."** *In words:* the argument starts from a formula for what believers mean by "God", not from anything observed.
 2. **The fool who says in his heart "there is no God" understands this formula when he hears it, and what is understood is in the understanding.** *In words:* even the denier has the idea before him, or he would not know what he denies.
@@ -165,5 +165,5 @@ Treat this as a historical exchange, not a question of who is right. (a) State t
 ## Connections
 
 - **Backward:** the *Monologion*'s climb from many goods to the one Good is Augustine's Platonist ascent from [5.1](05-01-augustine-certainty-and-illumination.md), and its engine, one thing through which all *F* things are *F*, is the one-over-many that posited the Forms in [2.1](02-01-the-forms-and-what-goes-wrong-with-them.md). Setting out Anselm's steps and Gaunilo's pressure point is [`philosophical-method` 1.3](../../philosophical-method/lessons/01-03-reconstruction-and-charity.md) and [4.3](../../philosophical-method/lessons/04-03-finding-the-crux.md) at work.
-- **Forward:** [6.2](06-02-avicenna-essence-existence-and-the-necessary-existent.md) gives a rival route to a necessary being that starts from contingent existents, not a formula. [7.3](07-03-the-five-ways-as-text.md) reads Aquinas's own route, and his fourth way, from grades of goodness and being, has a close cousin in the *Monologion* chain. The argument's modern careers belong to [`modern-philosophy`](../../modern-philosophy/syllabus.md) (Descartes in 1.3, Kant's critique in 6.3). Whether any of it succeeds is [`philosophy-of-religion`](../../philosophy-of-religion/syllabus.md) 2.1.
+- **Forward:** [6.2](06-02-avicenna-essence-existence-and-the-necessary-existent.md) gives a rival route to a necessary being that starts from contingent existents, not a formula. [7.3](07-03-the-five-ways-as-text.md) reads Aquinas's own route, and his fourth way, from grades of goodness and being, has a close cousin in the *Monologion* chain. The argument's modern careers belong to [`modern-philosophy`](../../modern-philosophy/syllabus.md) (Descartes in 1.3, Kant's critique in 6.3). Whether any of it succeeds is [`philosophy-of-religion`](../../philosophy-of-religion/syllabus.md) [2.1](../../philosophy-of-religion/lessons/02-01-anselms-ontological-argument.md).
 - **Sideways:** "faith seeking understanding" as the programme of theology is [`fundamental-theology` 1.1](../../fundamental-theology/lessons/01-01-what-fundamental-theology-asks.md). *Proslogion* 3's "cannot be conceived not to exist" is the ancestor of the necessary-existence debates in [`metaphysics` 3.3](../../metaphysics/lessons/03-03-brute-facts-and-necessary-existence.md).

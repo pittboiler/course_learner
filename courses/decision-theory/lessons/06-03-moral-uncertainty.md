@@ -1,6 +1,6 @@
 # Decision Theory · Lesson 6.3: Moral uncertainty
 
-> ⏱ ~15 min · Module 6: The edges of expected value · Builds on: [6.2 Fanaticism and tiny probabilities](06-02-fanaticism-and-tiny-probabilities.md), [5.2 Interpersonal comparison and social welfare functions](05-02-interpersonal-comparison-and-social-welfare-functions.md) · Unlocks: peer disagreement in [`epistemology`](../../epistemology/syllabus.md) 4.5
+> ⏱ ~15 min · Module 6: The edges of expected value · Builds on: [6.2 Fanaticism and tiny probabilities](06-02-fanaticism-and-tiny-probabilities.md), [5.2 Interpersonal comparison and social welfare functions](05-02-interpersonal-comparison-and-social-welfare-functions.md) · Unlocks: peer disagreement in [`epistemology`](../../epistemology/syllabus.md) [4.5](../../epistemology/lessons/04-05-peer-disagreement.md)
 
 ## Why this matters
 
@@ -42,7 +42,7 @@ $$k = \sigma_1 / \sigma_2 .$$
 
 *In words:* give every theory an equal say, measured by how much it cares about the differences among the options.
 
-**The regress and the belief side.** If you are unsure whether MEC or MFT is right, you need a rule for *that* uncertainty, and then for uncertainty about that rule. Some philosophers deny the project starts. Elizabeth Harman argues that false moral beliefs do not excuse, so moral uncertainty changes nothing about what you ought to do. Brian Weatherson argues that aiming at rightness *as such*, rather than at what makes acts right, is a kind of fetishism. Where the credences come from is the belief-side analogue: when a peer you respect disagrees, should you move toward her? That is peer disagreement ([`epistemology`](../../epistemology/syllabus.md) 4.5), applied to morality in [ethics 6.6](../../ethics/lessons/06-06-moral-knowledge-and-disagreement.md).
+**The regress and the belief side.** If you are unsure whether MEC or MFT is right, you need a rule for *that* uncertainty, and then for uncertainty about that rule. Some philosophers deny the project starts. Elizabeth Harman argues that false moral beliefs do not excuse, so moral uncertainty changes nothing about what you ought to do. Brian Weatherson argues that aiming at rightness *as such*, rather than at what makes acts right, is a kind of fetishism. Where the credences come from is the belief-side analogue: when a peer you respect disagrees, should you move toward her? That is peer disagreement ([`epistemology`](../../epistemology/syllabus.md) [4.5](../../epistemology/lessons/04-05-peer-disagreement.md)), applied to morality in [ethics 6.6](../../ethics/lessons/06-06-moral-knowledge-and-disagreement.md).
 
 **The argument for MEC.**
 
@@ -212,7 +212,7 @@ With $f_2 = -x$, wagering wins iff $\tfrac{1}{300} > \tfrac{10}{2{,}010 + x}$, t
 ## Connections
 
 - **Backward:** MEC is expected utility ([1.3](01-03-the-vnm-theorem-and-how-utility-is-built.md)) with theories as states. Its scale problem is [5.2](05-02-interpersonal-comparison-and-social-welfare-functions.md)'s unit comparability between people, moved up to theories. Variance normalization's menu-dependence is [3.3](03-03-decisions-under-ignorance.md)'s independence of irrelevant alternatives. A low-credence theory with vast stakes is [6.2](06-02-fanaticism-and-tiny-probabilities.md)'s fanatic in moral form.
-- **Forward:** where credences in theories come from is peer disagreement in [`epistemology`](../../epistemology/syllabus.md) 4.5. Boss 6 asks for expected choiceworthiness and its exchange-rate ranges on a fresh table.
+- **Forward:** where credences in theories come from is peer disagreement in [`epistemology`](../../epistemology/syllabus.md) [4.5](../../epistemology/lessons/04-05-peer-disagreement.md). Boss 6 asks for expected choiceworthiness and its exchange-rate ranges on a fresh table.
 - **Sideways:** [moral theology 4.1](../../moral-theology/lessons/04-01-casuistry-and-the-probabilism-controversy.md) ran the stakes-versus-probability dispute two centuries early (probabiliorism, compensationism). [Ethics 6.6](../../ethics/lessons/06-06-moral-knowledge-and-disagreement.md) asks whether moral disagreement undermines moral knowledge. Finding the premise Hana and Omar split on is [finding the crux](../../philosophical-method/lessons/04-03-finding-the-crux.md).
 
 ## Closing the course
