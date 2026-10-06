@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect x="0" y="0" width="720" height="400" fill="#ffffff"/>
+<line x1="80" y1="340" x2="700" y2="340" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="72" y="344" font-size="13" text-anchor="end" fill="#333333">10^-4</text>
+<line x1="80" y1="282" x2="700" y2="282" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="72" y="286" font-size="13" text-anchor="end" fill="#333333">10^-2</text>
+<line x1="80" y1="224" x2="700" y2="224" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="72" y="228" font-size="13" text-anchor="end" fill="#333333">1</text>
+<line x1="80" y1="166" x2="700" y2="166" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="72" y="170" font-size="13" text-anchor="end" fill="#333333">10^2</text>
+<line x1="80" y1="108" x2="700" y2="108" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="72" y="112" font-size="13" text-anchor="end" fill="#333333">10^4</text>
+<line x1="80" y1="50" x2="700" y2="50" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="72" y="54" font-size="13" text-anchor="end" fill="#333333">10^6</text>
+<line x1="80" y1="224" x2="700" y2="224" stroke="#111111" stroke-width="1.5"/>
+<text x="700" y="218" font-size="11" text-anchor="end" fill="#333333">even odds</text>
+<line x1="80" y1="340" x2="80" y2="50" stroke="#333333" stroke-width="1.5"/>
+<text x="20" y="30" font-size="12" text-anchor="start" fill="#333333">odds or ratio, log scale</text>
+<rect x="118.75" y="224" width="69.75" height="87" rx="0" fill="#e4e4e4" stroke="#333333" stroke-width="1.5"/>
+<text x="153.62" y="326" font-size="13" text-anchor="middle" fill="#333333" font-weight="bold">1:1,000</text>
+<text x="153.62" y="358" font-size="11" text-anchor="middle" fill="#111111">prior</text>
+<rect x="200.12" y="79" width="69.75" height="145" rx="0" fill="#dbe8f5" stroke="#1a6fb5" stroke-width="1.5"/>
+<text x="235" y="73" font-size="13" text-anchor="middle" fill="#1a6fb5" font-weight="bold">100,000</text>
+<text x="235" y="358" font-size="11" text-anchor="middle" fill="#111111">x likelihood ratio</text>
+<rect x="281.5" y="166" width="69.75" height="58" rx="0" fill="#dcefe4" stroke="#2e8b57" stroke-width="1.5"/>
+<text x="316.38" y="160" font-size="13" text-anchor="middle" fill="#2e8b57" font-weight="bold">100:1</text>
+<text x="316.38" y="358" font-size="11" text-anchor="middle" fill="#111111">= posterior</text>
+<text x="240.81" y="380" font-size="12" text-anchor="middle" fill="#111111">Baseline: range 10^9, Pr(E | design) = 1/100</text>
+<rect x="428.75" y="224" width="69.75" height="87" rx="0" fill="#e4e4e4" stroke="#333333" stroke-width="1.5"/>
+<text x="463.62" y="326" font-size="13" text-anchor="middle" fill="#333333" font-weight="bold">1:1,000</text>
+<text x="463.62" y="358" font-size="11" text-anchor="middle" fill="#111111">prior</text>
+<rect x="510.12" y="195" width="69.75" height="29" rx="0" fill="#dbe8f5" stroke="#1a6fb5" stroke-width="1.5"/>
+<text x="545" y="189" font-size="13" text-anchor="middle" fill="#1a6fb5" font-weight="bold">10</text>
+<text x="545" y="358" font-size="11" text-anchor="middle" fill="#111111">x likelihood ratio</text>
+<rect x="591.5" y="224" width="69.75" height="58" rx="0" fill="#f6dde1" stroke="#d1495b" stroke-width="1.5"/>
+<text x="626.38" y="297" font-size="13" text-anchor="middle" fill="#d1495b" font-weight="bold">1:100</text>
+<text x="626.38" y="358" font-size="11" text-anchor="middle" fill="#111111">= posterior</text>
+<text x="550.81" y="380" font-size="12" text-anchor="middle" fill="#111111">Range 10^5, or Pr(E | design) = 1/1,000,000</text>
+</svg>
