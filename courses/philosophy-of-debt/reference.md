@@ -1996,7 +1996,7 @@ Lessons: [3.3](lessons/03-03-what-may-be-pledged.md), [4.3](lessons/04-03-graebe
 **A history of how a value or practice originated, told to change how we assess what
 descends from it.** It may vindicate or debunk. Nietzsche's *Genealogy of Morals* (1887),
 Second Essay, is the course's case; genealogy as a method belongs to
-[`modern-philosophy`](../modern-philosophy/syllabus.md) 6.5. Whether the history is true is a
+[`modern-philosophy` 6.5](../modern-philosophy/lessons/06-05-nietzsche-perspectivism-and-genealogy.md). Whether the history is true is a
 historical question; what it would show about what we owe is a separate, normative one.
 Nietzsche himself separates a thing's origin from its later purposes (GM II §12).
 
@@ -3762,14 +3762,14 @@ number the syllabus gives.
 | Kant's false promise; the imperfect duty of beneficence | [`ethics` 2.2](../ethics/lessons/02-02-the-formula-of-universal-law.md) |
 | The Formula of Humanity; possible consent; dignity vs price | [`ethics` 2.3](../ethics/lessons/02-03-humanity-autonomy-and-the-lie.md) |
 | Aristotle's human good (living well); liberality and the mean | [`ethics` 4.1](../ethics/lessons/04-01-aristotle-the-human-good.md), [4.2](../ethics/lessons/04-02-aristotle-virtue-and-practical-wisdom.md) |
-| Hume's is–ought passage and the sentimentalism of *Treatise* III.i | [`ethics` 4.5](../ethics/lessons/04-05-the-new-natural-law-theory.md); Hume on reason and the passions: [`modern-philosophy`](../modern-philosophy/syllabus.md) 4.4 |
+| Hume's is–ought passage and the sentimentalism of *Treatise* III.i | [`ethics` 4.5](../ethics/lessons/04-05-the-new-natural-law-theory.md); Hume on reason and the passions: [`modern-philosophy` 4.4](../modern-philosophy/lessons/04-04-the-self-belief-and-the-passions.md) |
 | Contractarianism as mutual advantage; the hypothetical contract | [`ethics` 5.1](../ethics/lessons/05-01-contractarianism-morality-as-mutual-advantage.md) |
 | Scanlon's contractualism; generic reasons | [`ethics` 5.2](../ethics/lessons/05-02-contractualism-what-no-one-could-reasonably-reject.md) |
 | Ross's fidelity as a prima facie duty | [`ethics` 5.3](../ethics/lessons/05-03-pluralism-and-particularism.md) |
 | Evolutionary debunking; Street's Darwinian dilemma | [`ethics` 6.4](../ethics/lessons/06-04-constructivism-and-debunking.md) |
 | Strawson's reactive attitudes within the free-will debate | [`metaphysics` 6.2](../metaphysics/lessons/06-02-compatibilism.md) |
 | Reading a whole *Summa* question, objections and replies included | [`thomistic-synthesis` 1.2](../thomistic-synthesis/lessons/01-02-reading-a-whole-question.md) |
-| Genealogy as a method; Nietzsche's wider critique of Kant | [`modern-philosophy`](../modern-philosophy/syllabus.md) 6.5 |
+| Genealogy as a method; Nietzsche's wider critique of Kant | [`modern-philosophy` 6.5](../modern-philosophy/lessons/06-05-nietzsche-perspectivism-and-genealogy.md) |
 | Population ethics; Harsanyi (the non-identity problem's formal neighbours) | [`decision-theory`](../decision-theory/syllabus.md) 5.1, 5.3–5.4 |
 | The ethics of discounting; the case against pure time preference; the Ramsey equation | [`philosophy-of-economics`](../philosophy-of-economics/syllabus.md) 4.1–4.2 (Module 4) |
 | Present bias and nudges | [`philosophy-of-economics`](../philosophy-of-economics/syllabus.md) 2.2–2.3 |

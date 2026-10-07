@@ -12,7 +12,7 @@ A lender's question is simple: will this person pay? It presupposes that the bor
 
 Hume ([1.2](01-02-hume-promises-as-artificial-obligation.md)) also denied that promising is natural. But he thought its point plain to anyone after very little experience of the world, and its sanction reputational: the breaker is never trusted again. Nietzsche thinks making a creature that can promise was the longest and cruellest work of prehistory. The tools were custom and pain. The scene was debt: a debtor made his promise credible by pledging his body, and a creditor facing default was paid in suffering.
 
-One distinction before the text. This is a [genealogy](../reference.md#genealogy): a history of origins, told to change how we see what descends from them (the method belongs to [`modern-philosophy`](../../modern-philosophy/syllabus.md) 6.5). Whether the history is true is a historical question. What it would show about what we owe is a separate, normative one.
+One distinction before the text. This is a [genealogy](../reference.md#genealogy): a history of origins, told to change how we see what descends from them (the method belongs to [`modern-philosophy` 6.5](../../modern-philosophy/lessons/06-05-nietzsche-perspectivism-and-genealogy.md)). Whether the history is true is a historical question. What it would show about what we owe is a separate, normative one.
 
 ## Source
 

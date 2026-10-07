@@ -18,7 +18,7 @@ Two questions then decide everything: **What goes on the ground floor?** And **w
 - **Incorrigible**: no one else could be in a position to correct you.
 - **Indubitable**: you cannot, on reflection, doubt it.
 
-Everything else must be derived from that base by deduction or by strong, explicitly good induction. Descartes is the paradigm: the method of doubt strips belief down to what survives the demon, then rebuilds (read historically in [`modern-philosophy`](../../modern-philosophy/syllabus.md) 1.1).
+Everything else must be derived from that base by deduction or by strong, explicitly good induction. Descartes is the paradigm: the method of doubt strips belief down to what survives the demon, then rebuilds (read historically in [`modern-philosophy` 1.1](../../modern-philosophy/lessons/01-01-the-method-of-doubt.md)).
 
 **[Modest foundationalism](../reference.md#modest-foundationalism)** keeps the structure and lowers the bar. Basic beliefs need only be **prima facie justified**: justified unless something defeats them. They are fallible. Ordinary perceptual beliefs ("there's a tomato on the counter"), memory beliefs and simple a priori beliefs can all be basic. Note the subtle point: a modest basic belief does not *depend* on other beliefs for its justification, but other beliefs can *defeat* it (learning that the lighting is red defeats "the tomato is red"). Negative dependence on the rest of your beliefs is allowed; positive dependence is not.
 
