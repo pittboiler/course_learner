@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect x="0" y="0" width="800" height="400" fill="#ffffff"/>
+<text x="400" y="24" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">Who must agree before regional powers can be taken away?</text>
+<line x1="40" y1="46" x2="760" y2="46" stroke="#333333" stroke-width="1.5" marker-end="url(#arr)"/>
+<text x="40" y="64" font-size="12" text-anchor="start" fill="#333333">less entrenched</text>
+<text x="758" y="64" font-size="12" text-anchor="end" fill="#333333">more entrenched</text>
+<rect x="20" y="82" width="245" height="300" rx="6" fill="#ffffff" stroke="#111111" stroke-width="2"/>
+<rect x="20" y="82" width="245" height="34" rx="6" fill="#eeeeee" stroke="#111111" stroke-width="2"/>
+<text x="142.5" y="105" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">Unitary</text>
+<text x="32" y="140" font-size="12" text-anchor="start" fill="#333333" font-weight="bold">Regional lawmaking</text>
+<text x="32" y="159" font-size="13" text-anchor="start" fill="#111111">Regions make no statutes</text>
+<text x="32" y="176" font-size="13" text-anchor="start" fill="#111111">of their own; local councils</text>
+<text x="32" y="193" font-size="13" text-anchor="start" fill="#111111">run services under</text>
+<text x="32" y="210" font-size="13" text-anchor="start" fill="#111111">national law</text>
+<text x="32" y="252" font-size="12" text-anchor="start" fill="#d1495b" font-weight="bold">The lock</text>
+<text x="32" y="271" font-size="13" text-anchor="start" fill="#111111">The national parliament</text>
+<text x="32" y="288" font-size="13" text-anchor="start" fill="#111111">alone, by ordinary law</text>
+<text x="32" y="352" font-size="13" text-anchor="start" fill="#333333" font-style="italic">Example: France</text>
+<rect x="277" y="82" width="245" height="300" rx="6" fill="#ffffff" stroke="#1a6fb5" stroke-width="2"/>
+<rect x="277" y="82" width="245" height="34" rx="6" fill="#dbe8f5" stroke="#1a6fb5" stroke-width="2"/>
+<text x="399.5" y="105" font-size="16" text-anchor="middle" fill="#1a6fb5" font-weight="bold">Devolved</text>
+<text x="289" y="140" font-size="12" text-anchor="start" fill="#333333" font-weight="bold">Regional lawmaking</text>
+<text x="289" y="159" font-size="13" text-anchor="start" fill="#111111">A regional parliament</text>
+<text x="289" y="176" font-size="13" text-anchor="start" fill="#111111">makes law, under powers</text>
+<text x="289" y="193" font-size="13" text-anchor="start" fill="#111111">granted by an ordinary</text>
+<text x="289" y="210" font-size="13" text-anchor="start" fill="#111111">national statute</text>
+<text x="289" y="252" font-size="12" text-anchor="start" fill="#d1495b" font-weight="bold">The lock</text>
+<text x="289" y="271" font-size="13" text-anchor="start" fill="#111111">The national parliament,</text>
+<text x="289" y="288" font-size="13" text-anchor="start" fill="#111111">by ordinary law: what one</text>
+<text x="289" y="305" font-size="13" text-anchor="start" fill="#111111">statute grants, another</text>
+<text x="289" y="322" font-size="13" text-anchor="start" fill="#111111">can revoke</text>
+<text x="289" y="352" font-size="13" text-anchor="start" fill="#333333" font-style="italic">Example: the UK and</text>
+<text x="289" y="369" font-size="13" text-anchor="start" fill="#333333" font-style="italic">Scotland</text>
+<rect x="534" y="82" width="245" height="300" rx="6" fill="#ffffff" stroke="#2e8b57" stroke-width="2"/>
+<rect x="534" y="82" width="245" height="34" rx="6" fill="#dcefe4" stroke="#2e8b57" stroke-width="2"/>
+<text x="656.5" y="105" font-size="16" text-anchor="middle" fill="#2e8b57" font-weight="bold">Federal</text>
+<text x="546" y="140" font-size="12" text-anchor="start" fill="#333333" font-weight="bold">Regional lawmaking</text>
+<text x="546" y="159" font-size="13" text-anchor="start" fill="#111111">Each level has lawmaking</text>
+<text x="546" y="176" font-size="13" text-anchor="start" fill="#111111">powers the constitution</text>
+<text x="546" y="193" font-size="13" text-anchor="start" fill="#111111">itself reserves to it</text>
+<text x="546" y="252" font-size="12" text-anchor="start" fill="#d1495b" font-weight="bold">The lock</text>
+<text x="546" y="271" font-size="13" text-anchor="start" fill="#111111">A constitutional amendment</text>
+<text x="546" y="288" font-size="13" text-anchor="start" fill="#111111">the units must consent to,</text>
+<text x="546" y="305" font-size="13" text-anchor="start" fill="#111111">directly or through a</text>
+<text x="546" y="322" font-size="13" text-anchor="start" fill="#111111">territorial chamber</text>
+<text x="546" y="352" font-size="13" text-anchor="start" fill="#333333" font-style="italic">Examples: the US,</text>
+<text x="546" y="369" font-size="13" text-anchor="start" fill="#333333" font-style="italic">Germany, Switzerland</text>
+</svg>

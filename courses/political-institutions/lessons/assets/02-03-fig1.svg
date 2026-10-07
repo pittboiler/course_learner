@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect x="0" y="0" width="800" height="420" fill="#ffffff"/>
+<rect x="20" y="14" width="14" height="14" rx="0" fill="#1a6fb5" stroke="#333333" stroke-width="0.8"/>
+<text x="40" y="26" font-size="12" text-anchor="start" fill="#111111">Hearth (H)</text>
+<rect x="118" y="14" width="14" height="14" rx="0" fill="#d1495b" stroke="#333333" stroke-width="0.8"/>
+<text x="138" y="26" font-size="12" text-anchor="start" fill="#111111">Forum (F)</text>
+<rect x="213.33" y="14" width="14" height="14" rx="0" fill="#c8c8c8" stroke="#333333" stroke-width="0.8"/>
+<text x="233.33" y="26" font-size="12" text-anchor="start" fill="#111111">Lantern (L)</text>
+<rect x="314.02" y="14" width="14" height="14" rx="0" fill="#2e8b57" stroke="#333333" stroke-width="0.8"/>
+<text x="334.02" y="26" font-size="12" text-anchor="start" fill="#111111">Boreal (North only) (B)</text>
+<text x="20" y="62" font-size="14" text-anchor="start" fill="#111111" font-weight="bold">Nationally: shares of votes and of seats (%)</text>
+<text x="170" y="94" font-size="13" text-anchor="end" fill="#111111">Votes</text>
+<rect x="180" y="74" width="239.28" height="30" rx="0" fill="#1a6fb5" stroke="#ffffff" stroke-width="1"/>
+<text x="299.64" y="93" font-size="12" text-anchor="middle" fill="#ffffff">H 39.9</text>
+<rect x="419.28" y="74" width="222.72" height="30" rx="0" fill="#d1495b" stroke="#ffffff" stroke-width="1"/>
+<text x="530.64" y="93" font-size="12" text-anchor="middle" fill="#ffffff">F 37.1</text>
+<rect x="642" y="74" width="72" height="30" rx="0" fill="#c8c8c8" stroke="#ffffff" stroke-width="1"/>
+<text x="678" y="93" font-size="12" text-anchor="middle" fill="#111111">L 12</text>
+<rect x="714" y="74" width="66" height="30" rx="0" fill="#2e8b57" stroke="#ffffff" stroke-width="1"/>
+<text x="747" y="93" font-size="12" text-anchor="middle" fill="#ffffff">B 11</text>
+<text x="170" y="132" font-size="13" text-anchor="end" fill="#111111">Seats</text>
+<rect x="180" y="112" width="264" height="30" rx="0" fill="#1a6fb5" stroke="#ffffff" stroke-width="1"/>
+<text x="312" y="131" font-size="12" text-anchor="middle" fill="#ffffff">H 44</text>
+<rect x="444" y="112" width="216" height="30" rx="0" fill="#d1495b" stroke="#ffffff" stroke-width="1"/>
+<text x="552" y="131" font-size="12" text-anchor="middle" fill="#ffffff">F 36</text>
+<rect x="660" y="112" width="120" height="30" rx="0" fill="#2e8b57" stroke="#ffffff" stroke-width="1"/>
+<text x="720" y="131" font-size="12" text-anchor="middle" fill="#ffffff">B 20</text>
+<text x="180" y="166" font-size="12" text-anchor="start" fill="#333333">Lantern: 12% of the votes, no seats. Boreal: 11% of the votes, 20 seats.</text>
+<text x="20" y="210" font-size="14" text-anchor="start" fill="#111111" font-weight="bold">Inside the districts: vote shares (%)</text>
+<text x="170" y="242" font-size="13" text-anchor="end" fill="#111111">South, 44 districts</text>
+<rect x="180" y="222" width="294" height="30" rx="0" fill="#1a6fb5" stroke="#ffffff" stroke-width="1"/>
+<text x="327" y="241" font-size="12" text-anchor="middle" fill="#ffffff">H 49</text>
+<rect x="474" y="222" width="234" height="30" rx="0" fill="#d1495b" stroke="#ffffff" stroke-width="1"/>
+<text x="591" y="241" font-size="12" text-anchor="middle" fill="#ffffff">F 39</text>
+<rect x="708" y="222" width="72" height="30" rx="0" fill="#c8c8c8" stroke="#ffffff" stroke-width="1"/>
+<text x="744" y="241" font-size="12" text-anchor="middle" fill="#111111">L 12</text>
+<text x="170" y="280" font-size="13" text-anchor="end" fill="#111111">South, 36 districts</text>
+<rect x="180" y="260" width="222" height="30" rx="0" fill="#1a6fb5" stroke="#ffffff" stroke-width="1"/>
+<text x="291" y="279" font-size="12" text-anchor="middle" fill="#ffffff">H 37</text>
+<rect x="402" y="260" width="306" height="30" rx="0" fill="#d1495b" stroke="#ffffff" stroke-width="1"/>
+<text x="555" y="279" font-size="12" text-anchor="middle" fill="#ffffff">F 51</text>
+<rect x="708" y="260" width="72" height="30" rx="0" fill="#c8c8c8" stroke="#ffffff" stroke-width="1"/>
+<text x="744" y="279" font-size="12" text-anchor="middle" fill="#111111">L 12</text>
+<text x="170" y="318" font-size="13" text-anchor="end" fill="#111111">North, 20 districts</text>
+<rect x="180" y="298" width="150" height="30" rx="0" fill="#1a6fb5" stroke="#ffffff" stroke-width="1"/>
+<text x="255" y="317" font-size="12" text-anchor="middle" fill="#ffffff">H 25</text>
+<rect x="330" y="298" width="48" height="30" rx="0" fill="#d1495b" stroke="#ffffff" stroke-width="1"/>
+<text x="354" y="317" font-size="12" text-anchor="middle" fill="#ffffff">F 8</text>
+<rect x="378" y="298" width="72" height="30" rx="0" fill="#c8c8c8" stroke="#ffffff" stroke-width="1"/>
+<text x="414" y="317" font-size="12" text-anchor="middle" fill="#111111">L 12</text>
+<rect x="450" y="298" width="330" height="30" rx="0" fill="#2e8b57" stroke="#ffffff" stroke-width="1"/>
+<text x="615" y="317" font-size="12" text-anchor="middle" fill="#ffffff">B 55</text>
+<text x="180" y="348" font-size="12" text-anchor="start" fill="#333333">In every district only two parties contend for the seat; which two depends on the region.</text>
+<text x="180" y="368" font-size="12" text-anchor="start" fill="#333333">Effective number of parties by votes: 2.43 to 2.59 per district, 3.09 nationally (2.75 by seats).</text>
+</svg>

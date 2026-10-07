@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 470" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect x="0" y="0" width="680" height="470" fill="#ffffff"/>
+<rect x="390" y="40" width="270" height="170" rx="0" fill="#dbe8f5" stroke="#333333" stroke-width="1.2"/>
+<rect x="120" y="40" width="270" height="170" rx="0" fill="#ffffff" stroke="#333333" stroke-width="1.2"/>
+<rect x="390" y="210" width="270" height="170" rx="0" fill="#ffffff" stroke="#333333" stroke-width="1.2"/>
+<rect x="120" y="210" width="270" height="170" rx="0" fill="#ffffff" stroke="#333333" stroke-width="1.2"/>
+<text x="402" y="62" font-size="13" text-anchor="start" fill="#1a6fb5" font-weight="bold">Strong (4.0)</text>
+<text x="402" y="90" font-size="14" text-anchor="start" fill="#111111">US</text>
+<text x="402" y="112" font-size="14" text-anchor="start" fill="#111111">Germany (Lijphart's coding)</text>
+<text x="402" y="134" font-size="14" text-anchor="start" fill="#111111">Switzerland, Australia</text>
+<text x="402" y="166" font-size="13" text-anchor="start" fill="#2e8b57" font-style="italic">Norvale (invented)</text>
+<text x="132" y="62" font-size="13" text-anchor="start" fill="#111111" font-weight="bold">Medium (3.0)</text>
+<text x="132" y="90" font-size="14" text-anchor="start" fill="#111111">France</text>
+<text x="132" y="112" font-size="14" text-anchor="start" fill="#111111">Canada, Spain</text>
+<text x="132" y="150" font-size="13" text-anchor="start" fill="#d1495b">UK (2.5): powers weaker still</text>
+<text x="402" y="232" font-size="13" text-anchor="start" fill="#111111" font-weight="bold">Medium (3.0)</text>
+<text x="402" y="260" font-size="14" text-anchor="start" fill="#111111">Italy</text>
+<text x="402" y="282" font-size="14" text-anchor="start" fill="#111111">Japan, Netherlands</text>
+<text x="132" y="232" font-size="13" text-anchor="start" fill="#111111" font-weight="bold">Weak (2.0)</text>
+<text x="132" y="260" font-size="14" text-anchor="start" fill="#111111">Ireland</text>
+<text x="255" y="402" font-size="13" text-anchor="middle" fill="#333333">asymmetric</text>
+<text x="525" y="402" font-size="13" text-anchor="middle" fill="#333333">symmetric</text>
+<text x="390" y="424" font-size="13" text-anchor="middle" fill="#111111" font-weight="bold">POWERS: formal powers and democratic legitimacy</text>
+<text x="110" y="129" font-size="13" text-anchor="end" fill="#333333">incongruent</text>
+<text x="110" y="299" font-size="13" text-anchor="end" fill="#333333">congruent</text>
+<text x="8" y="24" font-size="13" text-anchor="start" fill="#111111" font-weight="bold">COMPOSITION</text>
+<text x="8" y="452" font-size="12" text-anchor="start" fill="#333333">Unicameral, about 1.0: Israel, New Zealand. Scores: Lijphart, 1945-2010.</text>
+</svg>

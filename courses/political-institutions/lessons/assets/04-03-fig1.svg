@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 330" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect x="0" y="0" width="800" height="330" fill="#ffffff"/>
+<text x="400" y="26" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">Ballot structure: which levers voters hold</text>
+<rect x="16" y="48" width="146" height="150" rx="6" fill="#f4f7fb" stroke="#1a6fb5" stroke-width="1.6"/>
+<text x="89" y="70" font-size="13" text-anchor="middle" fill="#111111" font-weight="bold">Closed list</text>
+<text x="89" y="94" font-size="12" text-anchor="middle" fill="#333333">Leaders set the</text>
+<text x="89" y="111" font-size="12" text-anchor="middle" fill="#333333">order; the voter</text>
+<text x="89" y="128" font-size="12" text-anchor="middle" fill="#333333">picks a party</text>
+<text x="89" y="186" font-size="12" text-anchor="middle" fill="#2e8b57" font-style="italic">Spain, Israel</text>
+<line x1="163" y1="123" x2="170" y2="123" stroke="#333333" stroke-width="1.5"/>
+<rect x="171" y="48" width="146" height="150" rx="6" fill="#f4f7fb" stroke="#333333" stroke-width="1.6"/>
+<text x="244" y="70" font-size="13" text-anchor="middle" fill="#111111" font-weight="bold">Flexible list</text>
+<text x="244" y="94" font-size="12" text-anchor="middle" fill="#333333">Leaders set the</text>
+<text x="244" y="111" font-size="12" text-anchor="middle" fill="#333333">order; enough</text>
+<text x="244" y="128" font-size="12" text-anchor="middle" fill="#333333">personal votes</text>
+<text x="244" y="145" font-size="12" text-anchor="middle" fill="#333333">override it</text>
+<text x="244" y="186" font-size="12" text-anchor="middle" fill="#2e8b57" font-style="italic">Netherlands</text>
+<line x1="318" y1="123" x2="325" y2="123" stroke="#333333" stroke-width="1.5"/>
+<rect x="326" y="48" width="146" height="150" rx="6" fill="#fbf4f5" stroke="#333333" stroke-width="1.6"/>
+<text x="399" y="70" font-size="13" text-anchor="middle" fill="#111111" font-weight="bold">Open list</text>
+<text x="399" y="94" font-size="12" text-anchor="middle" fill="#333333">Party decides who</text>
+<text x="399" y="111" font-size="12" text-anchor="middle" fill="#333333">runs; personal</text>
+<text x="399" y="128" font-size="12" text-anchor="middle" fill="#333333">votes set the order</text>
+<text x="399" y="186" font-size="12" text-anchor="middle" fill="#2e8b57" font-style="italic">Finland, Brazil</text>
+<line x1="473" y1="123" x2="480" y2="123" stroke="#333333" stroke-width="1.5"/>
+<rect x="481" y="48" width="146" height="150" rx="6" fill="#fbf4f5" stroke="#333333" stroke-width="1.6"/>
+<text x="554" y="70" font-size="13" text-anchor="middle" fill="#111111" font-weight="bold">STV</text>
+<text x="554" y="94" font-size="12" text-anchor="middle" fill="#333333">Party decides who</text>
+<text x="554" y="111" font-size="12" text-anchor="middle" fill="#333333">runs; voters rank</text>
+<text x="554" y="128" font-size="12" text-anchor="middle" fill="#333333">candidates, even</text>
+<text x="554" y="145" font-size="12" text-anchor="middle" fill="#333333">across parties</text>
+<text x="554" y="186" font-size="12" text-anchor="middle" fill="#2e8b57" font-style="italic">Ireland</text>
+<line x1="628" y1="123" x2="635" y2="123" stroke="#333333" stroke-width="1.5"/>
+<rect x="636" y="48" width="146" height="150" rx="6" fill="#fbf4f5" stroke="#d1495b" stroke-width="1.6"/>
+<text x="709" y="70" font-size="13" text-anchor="middle" fill="#111111" font-weight="bold">Primary + plurality</text>
+<text x="709" y="94" font-size="12" text-anchor="middle" fill="#333333">Primary voters</text>
+<text x="709" y="111" font-size="12" text-anchor="middle" fill="#333333">decide who runs</text>
+<text x="709" y="128" font-size="12" text-anchor="middle" fill="#333333">at all</text>
+<text x="709" y="186" font-size="12" text-anchor="middle" fill="#2e8b57" font-style="italic">US House</text>
+<line x1="30" y1="228" x2="770" y2="228" stroke="#d1495b" stroke-width="2.5" marker-end="url(#arr)"/>
+<text x="30" y="218" font-size="12" text-anchor="start" fill="#1a6fb5">party reputation matters most</text>
+<text x="752" y="218" font-size="12" text-anchor="end" fill="#d1495b">personal reputation matters most</text>
+<text x="400" y="250" font-size="12" text-anchor="middle" fill="#111111">Each step hands voters another lever: the order, then whether votes stay in the party, then access.</text>
+<text x="400" y="272" font-size="12" text-anchor="middle" fill="#333333">Apart from the ladder: one party-selected candidate per single-member seat (UK, German constituencies)</text>
+<text x="400" y="290" font-size="12" text-anchor="middle" fill="#333333">has no rival from her own party on the ballot.</text>
+</svg>

@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 545" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect x="0" y="0" width="800" height="545" fill="#ffffff"/>
+<text x="70" y="44" font-size="14" text-anchor="start" fill="#111111" font-weight="bold">D'Hondt: divide by 1, 2, 3  (seats: A 3, B 3, C 1, D 0)</text>
+<line x1="70" y1="230" x2="780" y2="230" stroke="#333333" stroke-width="1.3"/>
+<line x1="70" y1="230" x2="70" y2="60" stroke="#333333" stroke-width="1.3"/>
+<line x1="65" y1="230" x2="70" y2="230" stroke="#333333" stroke-width="1"/>
+<text x="62" y="234" font-size="11" text-anchor="end" fill="#333333">0</text>
+<line x1="65" y1="187.5" x2="70" y2="187.5" stroke="#333333" stroke-width="1"/>
+<text x="62" y="191.5" font-size="11" text-anchor="end" fill="#333333">10</text>
+<line x1="65" y1="145" x2="70" y2="145" stroke="#333333" stroke-width="1"/>
+<text x="62" y="149" font-size="11" text-anchor="end" fill="#333333">20</text>
+<line x1="65" y1="102.5" x2="70" y2="102.5" stroke="#333333" stroke-width="1"/>
+<text x="62" y="106.5" font-size="11" text-anchor="end" fill="#333333">30</text>
+<line x1="65" y1="60" x2="70" y2="60" stroke="#333333" stroke-width="1"/>
+<text x="62" y="64" font-size="11" text-anchor="end" fill="#333333">40</text>
+<text x="6" y="136.5" font-size="11" text-anchor="start" fill="#333333">votes</text>
+<text x="6" y="150.5" font-size="11" text-anchor="start" fill="#333333">(000s)</text>
+<rect x="76" y="68.5" width="47.17" height="161.5" rx="0" fill="#dbe8f5" stroke="#1a6fb5" stroke-width="1.5"/>
+<rect x="135.17" y="149.25" width="47.17" height="80.75" rx="0" fill="#dbe8f5" stroke="#1a6fb5" stroke-width="1.5"/>
+<rect x="194.33" y="176.17" width="47.17" height="53.83" rx="0" fill="#dbe8f5" stroke="#1a6fb5" stroke-width="1.5"/>
+<text x="158.75" y="248" font-size="12" text-anchor="middle" fill="#111111">party A</text>
+<rect x="253.5" y="94" width="47.17" height="136" rx="0" fill="#dbe8f5" stroke="#1a6fb5" stroke-width="1.5"/>
+<rect x="312.67" y="162" width="47.17" height="68" rx="0" fill="#dbe8f5" stroke="#1a6fb5" stroke-width="1.5"/>
+<rect x="371.83" y="184.67" width="47.17" height="45.33" rx="0" fill="#dbe8f5" stroke="#1a6fb5" stroke-width="1.5"/>
+<text x="336.25" y="248" font-size="12" text-anchor="middle" fill="#111111">party B</text>
+<rect x="431" y="140.75" width="47.17" height="89.25" rx="0" fill="#dbe8f5" stroke="#1a6fb5" stroke-width="1.5"/>
+<rect x="490.17" y="185.38" width="47.17" height="44.62" rx="0" fill="#ffffff" stroke="#bbbbbb" stroke-width="1.5"/>
+<rect x="549.33" y="200.25" width="47.17" height="29.75" rx="0" fill="#ffffff" stroke="#bbbbbb" stroke-width="1.5"/>
+<text x="513.75" y="248" font-size="12" text-anchor="middle" fill="#111111">party C</text>
+<rect x="608.5" y="191.75" width="47.17" height="38.25" rx="0" fill="#ffffff" stroke="#bbbbbb" stroke-width="1.5"/>
+<rect x="667.67" y="210.88" width="47.17" height="19.12" rx="0" fill="#ffffff" stroke="#bbbbbb" stroke-width="1.5"/>
+<rect x="726.83" y="217.25" width="47.17" height="12.75" rx="0" fill="#ffffff" stroke="#bbbbbb" stroke-width="1.5"/>
+<text x="691.25" y="248" font-size="12" text-anchor="middle" fill="#111111">party D</text>
+<line x1="70" y1="185.02" x2="780" y2="185.02" stroke="#111111" stroke-width="1.2" stroke-dasharray="5,4"/>
+<rect x="85.58" y="52.5" width="28" height="14" rx="0" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="99.58" y="63.5" font-size="11" text-anchor="middle" fill="#111111">38</text>
+<rect x="144.75" y="133.25" width="28" height="14" rx="0" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="158.75" y="144.25" font-size="11" text-anchor="middle" fill="#111111">19</text>
+<rect x="203.92" y="160.17" width="28" height="14" rx="0" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="217.92" y="171.17" font-size="11" text-anchor="middle" fill="#111111">12.7</text>
+<rect x="263.08" y="78" width="28" height="14" rx="0" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="277.08" y="89" font-size="11" text-anchor="middle" fill="#111111">32</text>
+<rect x="322.25" y="146" width="28" height="14" rx="0" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="336.25" y="157" font-size="11" text-anchor="middle" fill="#111111">16</text>
+<rect x="381.42" y="168.67" width="28" height="14" rx="0" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="395.42" y="179.67" font-size="11" text-anchor="middle" fill="#111111">10.7</text>
+<rect x="440.58" y="124.75" width="28" height="14" rx="0" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="454.58" y="135.75" font-size="11" text-anchor="middle" fill="#111111">21</text>
+<rect x="499.75" y="169.38" width="28" height="14" rx="0" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="513.75" y="180.38" font-size="11" text-anchor="middle" fill="#333333">10.5</text>
+<rect x="558.92" y="184.25" width="28" height="14" rx="0" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="572.92" y="195.25" font-size="11" text-anchor="middle" fill="#333333">7</text>
+<rect x="618.08" y="175.75" width="28" height="14" rx="0" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="632.08" y="186.75" font-size="11" text-anchor="middle" fill="#333333">9</text>
+<rect x="677.25" y="194.88" width="28" height="14" rx="0" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="691.25" y="205.88" font-size="11" text-anchor="middle" fill="#333333">4.5</text>
+<rect x="736.42" y="201.25" width="28" height="14" rx="0" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="750.42" y="212.25" font-size="11" text-anchor="middle" fill="#333333">3</text>
+<text x="780" y="161.02" font-size="11" text-anchor="end" fill="#111111">7th seat goes at 10.67</text>
+<text x="70" y="294" font-size="14" text-anchor="start" fill="#111111" font-weight="bold">Sainte-Laguë: divide by 1, 3, 5  (seats: A 3, B 2, C 1, D 1)</text>
+<line x1="70" y1="480" x2="780" y2="480" stroke="#333333" stroke-width="1.3"/>
+<line x1="70" y1="480" x2="70" y2="310" stroke="#333333" stroke-width="1.3"/>
+<line x1="65" y1="480" x2="70" y2="480" stroke="#333333" stroke-width="1"/>
+<text x="62" y="484" font-size="11" text-anchor="end" fill="#333333">0</text>
+<line x1="65" y1="437.5" x2="70" y2="437.5" stroke="#333333" stroke-width="1"/>
+<text x="62" y="441.5" font-size="11" text-anchor="end" fill="#333333">10</text>
+<line x1="65" y1="395" x2="70" y2="395" stroke="#333333" stroke-width="1"/>
+<text x="62" y="399" font-size="11" text-anchor="end" fill="#333333">20</text>
+<line x1="65" y1="352.5" x2="70" y2="352.5" stroke="#333333" stroke-width="1"/>
+<text x="62" y="356.5" font-size="11" text-anchor="end" fill="#333333">30</text>
+<line x1="65" y1="310" x2="70" y2="310" stroke="#333333" stroke-width="1"/>
+<text x="62" y="314" font-size="11" text-anchor="end" fill="#333333">40</text>
+<text x="6" y="386.5" font-size="11" text-anchor="start" fill="#333333">votes</text>
+<text x="6" y="400.5" font-size="11" text-anchor="start" fill="#333333">(000s)</text>
+<rect x="76" y="318.5" width="47.17" height="161.5" rx="0" fill="#f6dde1" stroke="#d1495b" stroke-width="1.5"/>
+<rect x="135.17" y="426.17" width="47.17" height="53.83" rx="0" fill="#f6dde1" stroke="#d1495b" stroke-width="1.5"/>
+<rect x="194.33" y="447.7" width="47.17" height="32.3" rx="0" fill="#f6dde1" stroke="#d1495b" stroke-width="1.5"/>
+<text x="158.75" y="498" font-size="12" text-anchor="middle" fill="#111111">party A</text>
+<rect x="253.5" y="344" width="47.17" height="136" rx="0" fill="#f6dde1" stroke="#d1495b" stroke-width="1.5"/>
+<rect x="312.67" y="434.67" width="47.17" height="45.33" rx="0" fill="#f6dde1" stroke="#d1495b" stroke-width="1.5"/>
+<rect x="371.83" y="452.8" width="47.17" height="27.2" rx="0" fill="#ffffff" stroke="#bbbbbb" stroke-width="1.5"/>
+<text x="336.25" y="498" font-size="12" text-anchor="middle" fill="#111111">party B</text>
+<rect x="431" y="390.75" width="47.17" height="89.25" rx="0" fill="#f6dde1" stroke="#d1495b" stroke-width="1.5"/>
+<rect x="490.17" y="450.25" width="47.17" height="29.75" rx="0" fill="#ffffff" stroke="#bbbbbb" stroke-width="1.5"/>
+<rect x="549.33" y="462.15" width="47.17" height="17.85" rx="0" fill="#ffffff" stroke="#bbbbbb" stroke-width="1.5"/>
+<text x="513.75" y="498" font-size="12" text-anchor="middle" fill="#111111">party C</text>
+<rect x="608.5" y="441.75" width="47.17" height="38.25" rx="0" fill="#f6dde1" stroke="#d1495b" stroke-width="1.5"/>
+<rect x="667.67" y="467.25" width="47.17" height="12.75" rx="0" fill="#ffffff" stroke="#bbbbbb" stroke-width="1.5"/>
+<rect x="726.83" y="472.35" width="47.17" height="7.65" rx="0" fill="#ffffff" stroke="#bbbbbb" stroke-width="1.5"/>
+<text x="691.25" y="498" font-size="12" text-anchor="middle" fill="#111111">party D</text>
+<line x1="70" y1="448.98" x2="780" y2="448.98" stroke="#111111" stroke-width="1.2" stroke-dasharray="5,4"/>
+<rect x="85.58" y="302.5" width="28" height="14" rx="0" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="99.58" y="313.5" font-size="11" text-anchor="middle" fill="#111111">38</text>
+<rect x="144.75" y="410.17" width="28" height="14" rx="0" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="158.75" y="421.17" font-size="11" text-anchor="middle" fill="#111111">12.7</text>
+<rect x="203.92" y="431.7" width="28" height="14" rx="0" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="217.92" y="442.7" font-size="11" text-anchor="middle" fill="#111111">7.6</text>
+<rect x="263.08" y="328" width="28" height="14" rx="0" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="277.08" y="339" font-size="11" text-anchor="middle" fill="#111111">32</text>
+<rect x="322.25" y="418.67" width="28" height="14" rx="0" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="336.25" y="429.67" font-size="11" text-anchor="middle" fill="#111111">10.7</text>
+<rect x="381.42" y="436.8" width="28" height="14" rx="0" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="395.42" y="447.8" font-size="11" text-anchor="middle" fill="#333333">6.4</text>
+<rect x="440.58" y="374.75" width="28" height="14" rx="0" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="454.58" y="385.75" font-size="11" text-anchor="middle" fill="#111111">21</text>
+<rect x="499.75" y="434.25" width="28" height="14" rx="0" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="513.75" y="445.25" font-size="11" text-anchor="middle" fill="#333333">7</text>
+<rect x="558.92" y="446.15" width="28" height="14" rx="0" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="572.92" y="457.15" font-size="11" text-anchor="middle" fill="#333333">4.2</text>
+<rect x="618.08" y="425.75" width="28" height="14" rx="0" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="632.08" y="436.75" font-size="11" text-anchor="middle" fill="#111111">9</text>
+<rect x="677.25" y="451.25" width="28" height="14" rx="0" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="691.25" y="462.25" font-size="11" text-anchor="middle" fill="#333333">3</text>
+<rect x="736.42" y="456.35" width="28" height="14" rx="0" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="750.42" y="467.35" font-size="11" text-anchor="middle" fill="#333333">1.8</text>
+<text x="780" y="424.98" font-size="11" text-anchor="end" fill="#111111">7th seat goes at 7.60</text>
+<text x="70" y="537" font-size="12" text-anchor="start" fill="#333333">Filled bars win seats; outlined bars fall below the 7th-largest quotient (dashed line).</text>
+</svg>

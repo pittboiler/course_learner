@@ -111,6 +111,7 @@ Prereqs met by proofs-primer / calc / linalg / real-analysis ✓.
 - [x] `plasma-physics` — Plasma Physics (2, 22) — **lessons ✓** (22) → **unlocks fusion in Phase 5**
 - [x] `biophysics` — Biophysics (2, 21) — **lessons ✓** (21)
 - [x] `photonics-quantum-optics` — Quantum Optics & Photonics (2, 20) — **lessons ✓** (prepped 2026-08-10, 20)
+- [x] `quantum-networking` — Quantum Networking (2, 22) — syllabus ✓ (2026-10-06), built 2026-10-06 (22 lessons + reference card). Added at Jacob's request, built around Qunnect, with a business lens on every lesson
 
 **Physics breadth complete** (2026-08-10): all 8 remaining Phase-3 physics courses are prepped. Together with `cosmology` (Phase 9, prepped 2026-08-10) this closes the physics track.
 
@@ -262,7 +263,7 @@ changes the brief lists) → roots (`ethics`, `fundamental-theology`,
 **Politics & Society (Field 10)** · 14 courses · ~346 lessons
 
 - [x] `political-philosophy` — Political Philosophy (1, 26) — syllabus ✓ (2026-09-15), built 2026-10-02 (26 lessons + reference card)
-- [ ] `political-institutions` — Political Institutions (1, 25) — syllabus ✓ (2026-09-15), lessons pending
+- [x] `political-institutions` — Political Institutions (1, 25) — syllabus ✓ (2026-09-15), built 2026-10-06 (25 lessons + reference card)
 - [x] `history-of-political-thought` — History of Political Thought (1, 27) — syllabus ✓ (2026-09-15) — **lessons ✓** (27 lessons + reference card, prepped 2026-09-16)
 - [ ] `social-theory` — Social Theory (1, 24) — syllabus ✓ (2026-09-15), lessons pending
 - [ ] `comparative-politics` — Comparative Politics (1, 25) — syllabus ✓ (2026-09-15), lessons pending
