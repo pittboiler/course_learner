@@ -2245,7 +2245,7 @@ good-faith disagreement about rights. Then:
 word. Weak form (Tushnet): a court declares a statute incompatible with rights while the legislature
 keeps the last word.** Examples of weak-form designs: declarations of incompatibility under the UK
 Human Rights Act 1998, which leave the statute valid; Canada's Charter notwithstanding clause. Designs
-compared in [`political-institutions`](../political-institutions/syllabus.md) 5.3-5.4. Weak-form
+compared in [`political-institutions`](../political-institutions/syllabus.md) [5.3](../political-institutions/lessons/05-03-judicial-review-compared.md)-[5.4](../political-institutions/lessons/05-04-weak-form-review-appointments-and-independence.md). Weak-form
 review accepts Waldron's conclusion and offers a design that respects it; Dworkin's worry is that it
 can leave the violation in place.
 
@@ -3210,7 +3210,7 @@ built lessons go to the lesson, syllabus-only courses to their syllabus.
 | Weber's descriptive legitimacy and three types of authority | [1.1](lessons/01-01-the-problem-of-political-authority.md) | [`social-theory`](../social-theory/syllabus.md) 4.3 |
 | Church teaching on the state, property, labor, migration and religious liberty (*Gaudium et spes*, *Dignitatis humanae*, *Quadragesimo Anno*, *Pacem in terris*, *Populorum progressio*, *Sollicitudo rei socialis*); subsidiarity and the universal destination of goods from within | [2.2](lessons/02-02-rawls-the-original-position.md), [4.3](lessons/04-03-perfectionism-and-the-common-good.md), [6.1](lessons/06-01-global-justice-cosmopolitans-and-statists.md)-[6.4](lessons/06-04-welfare-property-and-subsidiarity.md) | [`catholic-social-teaching`](../catholic-social-teaching/syllabus.md) (3.3, 3.5) |
 | US speech doctrine (*Brandenburg*); theories of constitutional interpretation | [3.4](lessons/03-04-free-speech.md), [5.2](lessons/05-02-majority-rule-vs-rights-judicial-review.md) | [`constitutional-law`](../constitutional-law/syllabus.md) (6.1) |
-| Courts' observed powers; review designs (notwithstanding clause, declarations of incompatibility) | [5.2](lessons/05-02-majority-rule-vs-rights-judicial-review.md) | [`political-institutions`](../political-institutions/syllabus.md) (5.3-5.4) |
+| Courts' observed powers; review designs (notwithstanding clause, declarations of incompatibility) | [5.2](lessons/05-02-majority-rule-vs-rights-judicial-review.md) | [`political-institutions`](../political-institutions/syllabus.md) ([5.3](../political-institutions/lessons/05-03-judicial-review-compared.md)-[5.4](../political-institutions/lessons/05-04-weak-form-review-appointments-and-independence.md)) |
 | Legal obligation; Hart vs Dworkin on law; punishment; how law should respond to civil disobedience | [1.1](lessons/01-01-the-problem-of-political-authority.md), [1.4](lessons/01-04-natural-duty-and-philosophical-anarchism.md) | [`philosophy-of-law`](../philosophy-of-law/syllabus.md) |
 | Positive models of elections and institutions | [5.4](lessons/05-04-does-social-choice-wound-democracy.md) | [`political-economy`](../political-economy/syllabus.md) |
 | The WTO as an organization | [6.1](lessons/06-01-global-justice-cosmopolitans-and-statists.md) | [`international-relations`](../international-relations/syllabus.md) |
