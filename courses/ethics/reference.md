@@ -1306,7 +1306,7 @@ An agent-centred prerogative lets you weight your own interests $M$ times as hea
 | Arguments for God's existence; whether God could be necessarily good; God as a third factor | [philosophy-of-religion](../philosophy-of-religion/syllabus.md) |
 | Natural law in light of revelation; conscience; the moral object; double effect as Catholic method; *Veritatis Splendor*; the prohibition on lying | [moral-theology](../moral-theology/syllabus.md) 1.3, 2.2, 4.2, 4.4 |
 | Natural-law jurisprudence; omissions and duties to rescue in criminal law; rules versus standards | [philosophy-of-law](../philosophy-of-law/syllabus.md) 2.1–2.2 |
-| Wojtyła's personalistic norm | [phenomenology-and-personalism](../phenomenology-and-personalism/syllabus.md) 5.2 |
+| Wojtyła's personalistic norm | [phenomenology-and-personalism 5.2](../phenomenology-and-personalism/lessons/05-02-the-personalistic-norm.md) |
 
 ## Pitfalls
 

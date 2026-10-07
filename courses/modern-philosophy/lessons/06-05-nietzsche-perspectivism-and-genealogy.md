@@ -1,6 +1,6 @@
 # Modern Philosophy · Lesson 6.5: Nietzsche: perspectivism and genealogy
 
-> ⏱ ~15 min · Module 6: The limits of reason, and two ways past Kant · Builds on: [6.4 Hegel: dialectic and spirit](06-04-hegel-dialectic-and-spirit.md), [6.1 Transcendental idealism and the thing in itself](06-01-transcendental-idealism-and-the-thing-in-itself.md), [5.1 The critical question](05-01-the-critical-question.md), [1.2 The cogito and the wax](01-02-the-cogito-and-the-wax.md) · Unlocks: [`phenomenology-and-personalism`](../../phenomenology-and-personalism/syllabus.md) 4.1, [`philosophy-of-debt` 4.1](../../philosophy-of-debt/lessons/04-01-the-animal-with-the-right-to-make-promises.md)
+> ⏱ ~15 min · Module 6: The limits of reason, and two ways past Kant · Builds on: [6.4 Hegel: dialectic and spirit](06-04-hegel-dialectic-and-spirit.md), [6.1 Transcendental idealism and the thing in itself](06-01-transcendental-idealism-and-the-thing-in-itself.md), [5.1 The critical question](05-01-the-critical-question.md), [1.2 The cogito and the wax](01-02-the-cogito-and-the-wax.md) · Unlocks: [`phenomenology-and-personalism` 4.1](../../phenomenology-and-personalism/lessons/04-01-scheler-values-given-in-feeling.md), [`philosophy-of-debt` 4.1](../../philosophy-of-debt/lessons/04-01-the-animal-with-the-right-to-make-promises.md)
 
 ## Why this matters
 
@@ -189,7 +189,7 @@ Name two errors in the post's reading of *Gay Science* §125, correcting each fr
 ## Connections
 
 - **Backward:** the fable's stage 3 is the thing in itself of [6.1](06-01-transcendental-idealism-and-the-thing-in-itself.md) and the postulates left standing after [6.3](06-03-the-critique-of-the-proofs-of-god.md). *BGE* §11 rewrites the question of [5.1](05-01-the-critical-question.md). The critique of the "I think" extends Lichtenberg's objection to the cogito ([1.2](01-02-the-cogito-and-the-wax.md)) and is a cousin of Hume's bundle ([4.4](04-04-the-self-belief-and-the-passions.md)). Hegel ([6.4](06-04-hegel-dialectic-and-spirit.md)) is the other way past Kant.
-- **Forward:** Scheler's *ressentiment* answers the First Essay in [`phenomenology-and-personalism`](../../phenomenology-and-personalism/syllabus.md) 4.1. The Second Essay's guilt as debt (*Schuld*) is [`philosophy-of-debt` 4.1](../../philosophy-of-debt/lessons/04-01-the-animal-with-the-right-to-make-promises.md), with what a genealogy can prove in its [4.3](../../philosophy-of-debt/lessons/04-03-graebers-thesis-examined.md).
+- **Forward:** Scheler's *ressentiment* answers the First Essay in [`phenomenology-and-personalism` 4.1](../../phenomenology-and-personalism/lessons/04-01-scheler-values-given-in-feeling.md). The Second Essay's guilt as debt (*Schuld*) is [`philosophy-of-debt` 4.1](../../philosophy-of-debt/lessons/04-01-the-animal-with-the-right-to-make-promises.md), with what a genealogy can prove in its [4.3](../../philosophy-of-debt/lessons/04-03-graebers-thesis-examined.md).
 - **Sideways:** evolutionary debunking is the genealogy pattern with selection in place of history ([`ethics` 6.4](../../ethics/lessons/06-04-constructivism-and-debunking.md)). The sociology of a God who "is dead" is [`social-theory` 7.1](../../social-theory/lessons/07-01-classical-secularization-theory.md).
 
 ## Closing the course
