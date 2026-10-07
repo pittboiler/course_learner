@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 440" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect x="0" y="0" width="780" height="440" fill="#ffffff"/>
+<text x="325" y="40" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">A priori</text>
+<text x="325" y="60" font-size="12" text-anchor="middle" fill="#333333">independent of all experience</text>
+<text x="325" y="76" font-size="12" text-anchor="middle" fill="#333333">marks: necessity, strict universality</text>
+<text x="615" y="40" font-size="16" text-anchor="middle" fill="#111111" font-weight="bold">A posteriori</text>
+<text x="615" y="60" font-size="12" text-anchor="middle" fill="#333333">possible only through experience</text>
+<text x="615" y="76" font-size="12" text-anchor="middle" fill="#333333">universality only comparative</text>
+<text x="12" y="150" font-size="16" text-anchor="start" fill="#111111" font-weight="bold">Analytic</text>
+<text x="12" y="170" font-size="12" text-anchor="start" fill="#333333">predicate contained</text>
+<text x="12" y="186" font-size="12" text-anchor="start" fill="#333333">in the subject concept</text>
+<text x="12" y="202" font-size="12" text-anchor="start" fill="#333333" font-style="italic">(explicative)</text>
+<text x="12" y="310" font-size="16" text-anchor="start" fill="#111111" font-weight="bold">Synthetic</text>
+<text x="12" y="330" font-size="12" text-anchor="start" fill="#333333">predicate added to</text>
+<text x="12" y="346" font-size="12" text-anchor="start" fill="#333333">the subject concept</text>
+<text x="12" y="362" font-size="12" text-anchor="start" fill="#333333" font-style="italic">(augmentative)</text>
+<rect x="180" y="90" width="290" height="160" rx="0" fill="#dcefe4" stroke="#333333" stroke-width="1.2"/>
+<rect x="470" y="90" width="290" height="160" rx="0" fill="#f2f2f2" stroke="#333333" stroke-width="1.2" stroke-dasharray="6,4"/>
+<rect x="180" y="250" width="290" height="170" rx="0" fill="#f6dde1" stroke="#333333" stroke-width="1.2"/>
+<rect x="470" y="250" width="290" height="170" rx="0" fill="#dbe8f5" stroke="#333333" stroke-width="1.2"/>
+<text x="325" y="125" font-size="13" text-anchor="middle" fill="#111111">All bodies are extended.</text>
+<text x="325" y="147" font-size="13" text-anchor="middle" fill="#111111">A triangle has three angles.</text>
+<text x="325" y="200" font-size="13" text-anchor="middle" fill="#2e8b57" font-weight="bold">Ground: the principle of</text>
+<text x="325" y="218" font-size="13" text-anchor="middle" fill="#2e8b57" font-weight="bold">contradiction. Unproblematic.</text>
+<text x="615" y="150" font-size="16" text-anchor="middle" fill="#333333" font-weight="bold">EMPTY</text>
+<text x="615" y="178" font-size="13" text-anchor="middle" fill="#333333">Analysis needs nothing beyond the concept,</text>
+<text x="615" y="196" font-size="13" text-anchor="middle" fill="#333333">so grounding it on experience is absurd.</text>
+<text x="325" y="285" font-size="13" text-anchor="middle" fill="#111111">7 + 5 = 12</text>
+<text x="325" y="307" font-size="13" text-anchor="middle" fill="#111111">Triangle angles = two right angles.</text>
+<text x="325" y="329" font-size="13" text-anchor="middle" fill="#111111" font-style="italic">Metaphysics wants: the world</text>
+<text x="325" y="347" font-size="13" text-anchor="middle" fill="#111111" font-style="italic">must have a beginning.</text>
+<text x="325" y="382" font-size="13" text-anchor="middle" fill="#d1495b" font-weight="bold">Ground: the unknown X?</text>
+<text x="325" y="400" font-size="13" text-anchor="middle" fill="#d1495b" font-weight="bold">The critical question.</text>
+<text x="615" y="300" font-size="13" text-anchor="middle" fill="#111111">All bodies are heavy.</text>
+<text x="615" y="322" font-size="13" text-anchor="middle" fill="#111111">This wax melted near the fire.</text>
+<text x="615" y="382" font-size="13" text-anchor="middle" fill="#1a6fb5" font-weight="bold">Ground: experience joins</text>
+<text x="615" y="400" font-size="13" text-anchor="middle" fill="#1a6fb5" font-weight="bold">the predicate to the subject.</text>
+</svg>

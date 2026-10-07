@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 430" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect x="0" y="0" width="780" height="430" fill="#ffffff"/>
+<text x="390" y="24" font-size="14" text-anchor="middle" fill="#111111" font-weight="bold">Two series of perceptions, both successive in apprehension</text>
+<rect x="20" y="40" width="740" height="160" rx="8" fill="#dbe8f5" stroke="#1a6fb5" stroke-width="1.6"/>
+<text x="36" y="64" font-size="14" text-anchor="start" fill="#1a6fb5" font-weight="bold">THE HOUSE: a standing object</text>
+<rect x="60" y="82" width="180" height="44" rx="4" fill="#ffffff" stroke="#333333" stroke-width="1.2"/>
+<text x="150" y="109" font-size="13" text-anchor="middle" fill="#111111">perception of roof</text>
+<rect x="300" y="82" width="180" height="44" rx="4" fill="#ffffff" stroke="#333333" stroke-width="1.2"/>
+<text x="390" y="109" font-size="13" text-anchor="middle" fill="#111111">perception of walls</text>
+<rect x="540" y="82" width="180" height="44" rx="4" fill="#ffffff" stroke="#333333" stroke-width="1.2"/>
+<text x="630" y="109" font-size="13" text-anchor="middle" fill="#111111">perception of foundation</text>
+<line x1="244" y1="96" x2="296" y2="96" stroke="#1a6fb5" stroke-width="1.8" marker-end="url(#arr)"/>
+<line x1="296" y1="114" x2="244" y2="114" stroke="#1a6fb5" stroke-width="1.8" marker-end="url(#arr)"/>
+<line x1="484" y1="96" x2="536" y2="96" stroke="#1a6fb5" stroke-width="1.8" marker-end="url(#arr)"/>
+<line x1="536" y1="114" x2="484" y2="114" stroke="#1a6fb5" stroke-width="1.8" marker-end="url(#arr)"/>
+<text x="390" y="152" font-size="13" text-anchor="middle" fill="#111111">I can run the series either way: roof to foundation, or foundation to roof.</text>
+<text x="390" y="176" font-size="13" text-anchor="middle" fill="#1a6fb5" font-weight="bold">Order of apprehension reversible: no event, the parts coexist</text>
+<rect x="20" y="214" width="740" height="170" rx="8" fill="#f6dde1" stroke="#d1495b" stroke-width="1.6"/>
+<text x="36" y="238" font-size="14" text-anchor="start" fill="#d1495b" font-weight="bold">THE SHIP: something happens</text>
+<rect x="60" y="256" width="260" height="44" rx="4" fill="#ffffff" stroke="#333333" stroke-width="1.2"/>
+<text x="190" y="283" font-size="13" text-anchor="middle" fill="#111111">A: ship higher up the river</text>
+<rect x="460" y="256" width="260" height="44" rx="4" fill="#ffffff" stroke="#333333" stroke-width="1.2"/>
+<text x="590" y="283" font-size="13" text-anchor="middle" fill="#111111">B: ship lower down</text>
+<line x1="324" y1="272" x2="456" y2="272" stroke="#d1495b" stroke-width="2.2" marker-end="url(#arr)"/>
+<line x1="456" y1="292" x2="324" y2="292" stroke="#bbbbbb" stroke-width="1.6" stroke-dasharray="5,4"/>
+<text x="390" y="318" font-size="12" text-anchor="middle" fill="#333333" font-style="italic">B before A: impossible</text>
+<text x="390" y="344" font-size="13" text-anchor="middle" fill="#d1495b" font-weight="bold">Order of apprehension fixed: an objective succession, an event</text>
+<text x="390" y="368" font-size="13" text-anchor="middle" fill="#111111">Kant: only a rule (something in the prior state on which B follows) fixes the order</text>
+<text x="390" y="414" font-size="13" text-anchor="middle" fill="#2e8b57" font-weight="bold">Second Analogy: the rule is the category of cause, schematized as succession by a rule</text>
+</svg>

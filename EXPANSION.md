@@ -246,7 +246,7 @@ changes the brief lists) → roots (`ethics`, `fundamental-theology`,
 
 - [x] `philosophical-method` — Philosophical Method (1, 16) — syllabus ✓ (2026-09-15) — **lessons ✓** (16 lessons + reference card, prepped 2026-09-15)
 - [x] `ancient-medieval-philosophy` — Ancient & Medieval Philosophy (1, 29) — syllabus ✓ (2026-09-15) — **lessons ✓** (29 lessons + reference card, prepped 2026-09-16)
-- [ ] `modern-philosophy` — Modern Philosophy (1, 27) — syllabus ✓ (2026-09-15), lessons pending
+- [x] `modern-philosophy` — Modern Philosophy (1, 27) — syllabus ✓ (2026-09-15), built 2026-10-07 (27 lessons + reference card)
 - [x] `ethics` — Ethics (1, 26) — syllabus ✓ (2026-09-15) — **lessons ✓** (26 lessons + reference card, prepped 2026-09-16)
 - [x] `epistemology` — Epistemology (1, 23) — syllabus ✓ (2026-09-15), built 2026-10-05 (23 lessons + reference card)
 - [x] `metaphysics` — Metaphysics (1, 26) — syllabus ✓ (2026-09-15) — **lessons ✓** (26 lessons + reference card, prepped 2026-09-16)

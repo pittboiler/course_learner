@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 470" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect x="0" y="0" width="760" height="470" fill="#ffffff"/>
+<rect x="250" y="14" width="260" height="40" rx="6" fill="none" stroke="#333333" stroke-width="1.2" stroke-dasharray="5,4"/>
+<text x="380" y="31" font-size="12" text-anchor="middle" fill="#333333" font-style="italic">a common root,</text>
+<text x="380" y="47" font-size="12" text-anchor="middle" fill="#333333" font-style="italic">"to us unknown" (Introduction)</text>
+<line x1="300" y1="54" x2="190" y2="84" stroke="#bbbbbb" stroke-width="1.5" stroke-dasharray="4,4"/>
+<line x1="460" y1="54" x2="570" y2="84" stroke="#bbbbbb" stroke-width="1.5" stroke-dasharray="4,4"/>
+<rect x="30" y="84" width="320" height="270" rx="8" fill="#dbe8f5" stroke="#1a6fb5" stroke-width="1.6"/>
+<text x="190" y="106" font-size="14" text-anchor="middle" fill="#1a6fb5" font-weight="bold">SENSIBILITY (receptivity)</text>
+<text x="190" y="124" font-size="12" text-anchor="middle" fill="#333333">objects are given to us</text>
+<rect x="50" y="138" width="280" height="52" rx="4" fill="#ffffff" stroke="#333333" stroke-width="1.2"/>
+<text x="190" y="158" font-size="13" text-anchor="middle" fill="#111111">matter: sensation</text>
+<text x="190" y="177" font-size="12" text-anchor="middle" fill="#333333">colour, hardness, heat (a posteriori)</text>
+<rect x="50" y="202" width="280" height="70" rx="4" fill="#ffffff" stroke="#1a6fb5" stroke-width="1.8"/>
+<text x="190" y="222" font-size="13" text-anchor="middle" fill="#1a6fb5" font-weight="bold">form: pure intuition (a priori)</text>
+<text x="190" y="242" font-size="12" text-anchor="middle" fill="#111111">space = form of outer sense</text>
+<text x="190" y="260" font-size="12" text-anchor="middle" fill="#111111">time = form of inner sense</text>
+<line x1="190" y1="272" x2="190" y2="300" stroke="#1a6fb5" stroke-width="1.8" marker-end="url(#arr)"/>
+<text x="190" y="318" font-size="13" text-anchor="middle" fill="#111111" font-weight="bold">INTUITIONS</text>
+<text x="190" y="336" font-size="12" text-anchor="middle" fill="#333333">singular, immediate</text>
+<rect x="410" y="84" width="320" height="270" rx="8" fill="#dcefe4" stroke="#2e8b57" stroke-width="1.6"/>
+<text x="570" y="106" font-size="14" text-anchor="middle" fill="#2e8b57" font-weight="bold">UNDERSTANDING (spontaneity)</text>
+<text x="570" y="124" font-size="12" text-anchor="middle" fill="#333333">objects are thought</text>
+<rect x="430" y="138" width="280" height="52" rx="4" fill="#ffffff" stroke="#333333" stroke-width="1.2"/>
+<text x="570" y="158" font-size="13" text-anchor="middle" fill="#111111">empirical concepts</text>
+<text x="570" y="177" font-size="12" text-anchor="middle" fill="#333333">body, gold, dog</text>
+<rect x="430" y="202" width="280" height="70" rx="4" fill="#ffffff" stroke="#2e8b57" stroke-width="1.8"/>
+<text x="570" y="222" font-size="13" text-anchor="middle" fill="#2e8b57" font-weight="bold">pure concepts (a priori)</text>
+<text x="570" y="242" font-size="12" text-anchor="middle" fill="#111111">the categories:</text>
+<text x="570" y="260" font-size="12" text-anchor="middle" fill="#111111">lesson 5.3</text>
+<line x1="570" y1="272" x2="570" y2="300" stroke="#2e8b57" stroke-width="1.8" marker-end="url(#arr)"/>
+<text x="570" y="318" font-size="13" text-anchor="middle" fill="#111111" font-weight="bold">CONCEPTS</text>
+<text x="570" y="336" font-size="12" text-anchor="middle" fill="#333333">general, mediate</text>
+<line x1="190" y1="354" x2="330" y2="392" stroke="#333333" stroke-width="1.8" marker-end="url(#arr)"/>
+<line x1="570" y1="354" x2="430" y2="392" stroke="#333333" stroke-width="1.8" marker-end="url(#arr)"/>
+<rect x="250" y="394" width="260" height="54" rx="6" fill="#ffffff" stroke="#111111" stroke-width="1.8"/>
+<text x="380" y="416" font-size="13" text-anchor="middle" fill="#111111" font-weight="bold">COGNITION of an object</text>
+<text x="380" y="436" font-size="12" text-anchor="middle" fill="#333333">needs both stems (5.3, 5.4)</text>
+<text x="30" y="462" font-size="12" text-anchor="start" fill="#1a6fb5" font-style="italic">This lesson: the left stem.</text>
+</svg>
