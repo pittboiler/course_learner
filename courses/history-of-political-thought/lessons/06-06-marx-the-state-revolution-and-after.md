@@ -69,7 +69,7 @@ Second, the base. Bonaparte won millions of peasant votes. The peasants lived in
 - **A vanguard reading.** Lenin, in *The State and Revolution* (1917) and against Kautsky (1918), read step 4 as a demand to smash the old state. He held that the dictatorship is rule unrestricted by law and exercised against the bourgeoisie.
 - **The anarchist objection.** Bakunin, in *Statism and Anarchy*, pressed the premise all three share: a class cannot rule as a class. Someone governs in its name, and former workers who become rulers soon represent only themselves. Marx's marginal notes on the book (c. 1874–75) reply, roughly, that a workers' government would resemble the executive of a trade union, and that it starts from communal self-government. Critics such as Leszek Kołakowski (*Main Currents of Marxism*, 1976–78) later argued over whether Soviet one-party rule betrayed Marx or developed a gap he left open.
 
-The text supports asking which reading is right. It does not settle the question, because steps 5 and 6 are never tied together in Marx's own words. Whether later history refutes the theory, or shows only that its conditions were never met, belongs to [`political-philosophy`](../../political-philosophy/syllabus.md) and [`social-theory`](../../social-theory/syllabus.md) 2.3.
+The text supports asking which reading is right. It does not settle the question, because steps 5 and 6 are never tied together in Marx's own words. Whether later history refutes the theory, or shows only that its conditions were never met, belongs to [`political-philosophy`](../../political-philosophy/syllabus.md) and [`social-theory`](../../social-theory/syllabus.md) [2.3](../../social-theory/lessons/02-03-capitalism-and-the-test-of-history.md).
 
 ## Watch out
 

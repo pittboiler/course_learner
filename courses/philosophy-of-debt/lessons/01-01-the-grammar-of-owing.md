@@ -26,7 +26,7 @@ A **[debt](../reference.md#debt)** is a directed obligation with four marks.
 3. **Transferability.** The creditor can sell or give the claim away (lawyers say *assign* it), so you can come to owe a stranger. You cannot swap in a new debtor without the creditor's agreement.
 4. **Discharge by payment or [release](../reference.md#release).** Anyone's payment ends it, not only yours. Short of the law's own power to cancel (Module 5), only the creditor can end it without payment.
 
-Seen from the other side, a debt is a credit, from *credere*, to trust. Simmel made trust in the social order the footing of money and credit alike ([`social-theory`](../../social-theory/syllabus.md) 5.2).
+Seen from the other side, a debt is a credit, from *credere*, to trust. Simmel made trust in the social order the footing of money and credit alike ([`social-theory`](../../social-theory/syllabus.md) [5.2](../../social-theory/lessons/05-02-simmels-philosophy-of-money.md)).
 
 ## Source
 

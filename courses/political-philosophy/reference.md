@@ -227,7 +227,7 @@ Module 1. The question is political obligation; each lesson tries one ground for
 **The moral right to rule: to make law and enforce it coercively without thereby wronging the
 people coerced.** A normative property, not a belief. Weber's legitimacy is descriptive (people
 take the order to be rightful, which stabilizes domination), owned by
-[`social-theory`](../social-theory/syllabus.md) 4.3; a regime can be believed legitimate and not
+[`social-theory`](../social-theory/syllabus.md) [4.3](../social-theory/lessons/04-03-domination-and-the-three-types-of-authority.md); a regime can be believed legitimate and not
 be, and the reverse.
 
 - **Does it entail a duty to obey?** Disputed. Edmundson (1998): a legitimate state may issue and
@@ -3207,7 +3207,7 @@ built lessons go to the lesson, syllabus-only courses to their syllabus.
 
 | Fact or tool | Used in | Where it's taught |
 |---|---|---|
-| Weber's descriptive legitimacy and three types of authority | [1.1](lessons/01-01-the-problem-of-political-authority.md) | [`social-theory`](../social-theory/syllabus.md) 4.3 |
+| Weber's descriptive legitimacy and three types of authority | [1.1](lessons/01-01-the-problem-of-political-authority.md) | [`social-theory`](../social-theory/syllabus.md) [4.3](../social-theory/lessons/04-03-domination-and-the-three-types-of-authority.md) |
 | Church teaching on the state, property, labor, migration and religious liberty (*Gaudium et spes*, *Dignitatis humanae*, *Quadragesimo Anno*, *Pacem in terris*, *Populorum progressio*, *Sollicitudo rei socialis*); subsidiarity and the universal destination of goods from within | [2.2](lessons/02-02-rawls-the-original-position.md), [4.3](lessons/04-03-perfectionism-and-the-common-good.md), [6.1](lessons/06-01-global-justice-cosmopolitans-and-statists.md)-[6.4](lessons/06-04-welfare-property-and-subsidiarity.md) | [`catholic-social-teaching`](../catholic-social-teaching/syllabus.md) (3.3, 3.5) |
 | US speech doctrine (*Brandenburg*); theories of constitutional interpretation | [3.4](lessons/03-04-free-speech.md), [5.2](lessons/05-02-majority-rule-vs-rights-judicial-review.md) | [`constitutional-law`](../constitutional-law/syllabus.md) (6.1) |
 | Courts' observed powers; review designs (notwithstanding clause, declarations of incompatibility) | [5.2](lessons/05-02-majority-rule-vs-rights-judicial-review.md) | [`political-institutions`](../political-institutions/syllabus.md) ([5.3](../political-institutions/lessons/05-03-judicial-review-compared.md)-[5.4](../political-institutions/lessons/05-04-weak-form-review-appointments-and-independence.md)) |

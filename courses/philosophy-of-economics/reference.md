@@ -1592,7 +1592,7 @@ teacher had become a service with a price.
 - **Sandel himself files coercion under fairness;** the lesson splits his fairness argument into
   unequal access (fairness) and unfree consent (coercion) for the map.
 - **Polanyi** (*The Great Transformation*, 1944): labour, land and money as *fictitious
-  commodities*, the sociological version ([`social-theory`](../social-theory/syllabus.md) 5.3).
+  commodities*, the sociological version ([`social-theory`](../social-theory/syllabus.md) [5.3](../social-theory/lessons/05-03-polanyis-great-transformation.md)).
 - **Not inalienability:** see [contested commodities](#contested-commodities).
 
 *Lessons:* [5.1](lessons/05-01-commodification.md)

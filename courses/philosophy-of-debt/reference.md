@@ -3797,8 +3797,8 @@ number the syllabus gives.
 | Burke's partnership of the generations; Paine's "governing beyond the grave" | [`history-of-political-thought` 5.3](../history-of-political-thought/lessons/05-03-burke-prescription-against-abstract-rights.md) |
 | Marx as political theorist; historical materialism | [`history-of-political-thought` 6.5](../history-of-political-thought/lessons/06-05-marx-from-hegel-to-historical-materialism.md), [6.6](../history-of-political-thought/lessons/06-06-marx-the-state-revolution-and-after.md) |
 | Marx as social theorist, and how his predictions fared | [`social-theory`](../social-theory/syllabus.md) Module 2 |
-| Simmel on credit as trust | [`social-theory`](../social-theory/syllabus.md) 5.2 |
-| Polanyi's embeddedness | [`social-theory`](../social-theory/syllabus.md) 5.3 |
+| Simmel on credit as trust | [`social-theory`](../social-theory/syllabus.md) [5.2](../social-theory/lessons/05-02-simmels-philosophy-of-money.md) |
+| Polanyi's embeddedness | [`social-theory`](../social-theory/syllabus.md) [5.3](../social-theory/lessons/05-03-polanyis-great-transformation.md) |
 | The Contracts Clause and state insolvency laws as doctrine | [`constitutional-law`](../constitutional-law/syllabus.md) 4.2 |
 | The universal destination of goods | [`catholic-social-teaching`](../catholic-social-teaching/syllabus.md) 3.5 |
 | Intergenerational solidarity (*Laudato Si'* 159) | [`catholic-social-teaching`](../catholic-social-teaching/syllabus.md) 6.1 |

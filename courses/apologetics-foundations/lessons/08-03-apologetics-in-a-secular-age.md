@@ -198,7 +198,7 @@ Name the three errors and correct each in one sentence.
 
 - **Backward:** Newman's informal inference is the theory behind [1.3](01-03-burden-of-proof-and-the-shape-of-a-cumulative-case.md)'s cable, and 1.3 promised it here. Newman on development, the other half of his work this course leans on, is [`fundamental-theology` 5.2](../../fundamental-theology/lessons/05-02-newmans-theory-of-development.md) and carried [8.2](08-02-salvation-outside-the-visible-church.md). The one-sentence mention of the argument from desire in [`philosophy-of-religion` 3.3](../../philosophy-of-religion/lessons/03-03-moral-arguments.md) is built out here.
 - **Forward:** [`apologetics-catholic-claims`](../../apologetics-catholic-claims/syllabus.md) argues among Christians, where the shared ground is wide and the dispute is authority and interpretation. Newman's convergence returns there in arguments from history.
-- **Sideways:** Taylor's secularity 3 is [`social-theory`](../../social-theory/syllabus.md) 7.3, where its evidence is assessed. The illative sense is close to what epistemologists call judgement under underdetermination, and to the expert intuition a physician uses in reaching a diagnosis no single test settles.
+- **Sideways:** Taylor's secularity 3 is [`social-theory`](../../social-theory/syllabus.md) [7.3](../../social-theory/lessons/07-03-taylors-a-secular-age.md), where its evidence is assessed. The illative sense is close to what epistemologists call judgement under underdetermination, and to the expert intuition a physician uses in reaching a diagnosis no single test settles.
 
 ## Closing the course
 

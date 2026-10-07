@@ -2385,7 +2385,7 @@ removal only for cause.**
   can raise accountability. Ting, Snyder, Hirano and Folke: merit as insurance bought by incumbents
   expecting to lose.
 - Weakest at the trade-off itself: no good cross-national measure of responsiveness.
-- Weber's ideal type is [`social-theory`](../social-theory/syllabus.md) 4.4's.
+- Weber's ideal type is [`social-theory`](../social-theory/syllabus.md) [4.4](../social-theory/lessons/04-04-bureaucracy-rationalization-and-disenchantment.md)'s.
 
 *Lessons:* [6.1](lessons/06-01-bureaucracy-merit-and-patronage.md)
 
@@ -2993,7 +2993,7 @@ lessons are linked directly, syllabus-only courses through their syllabus.
 | Subsidiarity | [5.1](lessons/05-01-federal-unitary-devolved.md), [5.2](lessons/05-02-decentralization-in-practice.md) | [`political-philosophy` 6.4](../political-philosophy/lessons/06-04-welfare-property-and-subsidiarity.md) |
 | Whether proportionality is owed; whether a representative should follow party, conscience or voters; fused versus separated design (normative questions) | [1.2](lessons/01-02-ranked-ballots-the-alternative-vote-and-stv.md), [1.5](lessons/01-05-mixed-systems-mmp-and-parallel.md), [3.1](lessons/03-01-parliamentary-government.md), [4.3](lessons/04-03-parties-organization-and-discipline.md) | [`political-philosophy`](../political-philosophy/syllabus.md) |
 | Kelsen's hierarchy of norms; theories of statutory interpretation ("so far as it is possible") | [5.3](lessons/05-03-judicial-review-compared.md), [5.4](lessons/05-04-weak-form-review-appointments-and-independence.md) | [`philosophy-of-law`](../philosophy-of-law/syllabus.md) |
-| Weber's ideal type of bureaucracy | [6.1](lessons/06-01-bureaucracy-merit-and-patronage.md) | [`social-theory`](../social-theory/syllabus.md) 4.4 |
+| Weber's ideal type of bureaucracy | [6.1](lessons/06-01-bureaucracy-merit-and-patronage.md) | [`social-theory`](../social-theory/syllabus.md) [4.4](../social-theory/lessons/04-04-bureaucracy-rationalization-and-disenchantment.md) |
 
 ### Assumed from economics, game theory and mathematics
 
