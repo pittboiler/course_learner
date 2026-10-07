@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 420" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect x="0" y="0" width="780" height="420" fill="#ffffff"/>
+<rect x="10" y="10" width="760" height="165" rx="8" fill="#f7f7f7" stroke="#bbbbbb" stroke-width="1.2"/>
+<text x="25" y="34" font-size="15" text-anchor="start" fill="#111111" font-weight="bold">Classical network: the payload is data</text>
+<rect x="40" y="70" width="110" height="50" rx="6" fill="#dbe8f5" stroke="#333333" stroke-width="1.2"/>
+<text x="95" y="100" font-size="13" text-anchor="middle" fill="#111111">Alice</text>
+<rect x="320" y="70" width="140" height="50" rx="6" fill="#dbe8f5" stroke="#333333" stroke-width="1.2"/>
+<text x="390" y="92" font-size="13" text-anchor="middle" fill="#111111">amplifier /</text>
+<text x="390" y="110" font-size="13" text-anchor="middle" fill="#111111">router</text>
+<rect x="630" y="70" width="110" height="50" rx="6" fill="#dbe8f5" stroke="#333333" stroke-width="1.2"/>
+<text x="685" y="100" font-size="13" text-anchor="middle" fill="#111111">Bob</text>
+<line x1="150" y1="95" x2="318" y2="95" stroke="#333333" stroke-width="2" marker-end="url(#arr)"/>
+<text x="234" y="87" font-size="13" text-anchor="middle" fill="#111111">bits</text>
+<line x1="460" y1="95" x2="628" y2="95" stroke="#333333" stroke-width="2" marker-end="url(#arr)"/>
+<text x="544" y="87" font-size="13" text-anchor="middle" fill="#111111">bits (a copy)</text>
+<text x="390" y="150" font-size="13" text-anchor="middle" fill="#333333">Copy it, boost it, resend it: every node may keep a copy.</text>
+<rect x="10" y="190" width="760" height="220" rx="8" fill="#f7f7f7" stroke="#bbbbbb" stroke-width="1.2"/>
+<text x="25" y="214" font-size="15" text-anchor="start" fill="#111111" font-weight="bold">Quantum network: the payload is entanglement</text>
+<rect x="320" y="230" width="140" height="50" rx="6" fill="#dcefe4" stroke="#2e8b57" stroke-width="1.2"/>
+<text x="390" y="252" font-size="13" text-anchor="middle" fill="#111111">pair source</text>
+<text x="390" y="270" font-size="12" text-anchor="middle" fill="#111111">makes a Bell pair</text>
+<rect x="40" y="290" width="110" height="50" rx="6" fill="#dbe8f5" stroke="#333333" stroke-width="1.2"/>
+<text x="95" y="312" font-size="13" text-anchor="middle" fill="#111111">Alice</text>
+<text x="95" y="330" font-size="12" text-anchor="middle" fill="#111111">holds half</text>
+<rect x="630" y="290" width="110" height="50" rx="6" fill="#dbe8f5" stroke="#333333" stroke-width="1.2"/>
+<text x="685" y="312" font-size="13" text-anchor="middle" fill="#111111">Bob</text>
+<text x="685" y="330" font-size="12" text-anchor="middle" fill="#111111">holds half</text>
+<line x1="320" y1="262" x2="152" y2="305" stroke="#1a6fb5" stroke-width="2.5" marker-end="url(#arr)"/>
+<text x="225" y="266" font-size="13" text-anchor="middle" fill="#1a6fb5">photon 1</text>
+<line x1="460" y1="262" x2="628" y2="305" stroke="#1a6fb5" stroke-width="2.5" marker-end="url(#arr)"/>
+<text x="555" y="266" font-size="13" text-anchor="middle" fill="#1a6fb5">photon 2</text>
+<line x1="150" y1="360" x2="630" y2="360" stroke="#2e8b57" stroke-width="2" stroke-dasharray="6,4"/>
+<text x="390" y="354" font-size="12" text-anchor="middle" fill="#2e8b57">classical bits: herald, then 2 bits per teleported qubit</text>
+<text x="390" y="384" font-size="13" text-anchor="middle" fill="#d1495b">No copies, no amplifiers: a lost photon is retried, never boosted.</text>
+<text x="390" y="402" font-size="12" text-anchor="middle" fill="#333333">The pair is then spent: a key bit, one teleported qubit, or a gate between processors.</text>
+</svg>

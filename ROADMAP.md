@@ -225,6 +225,7 @@ Below college level — the on-ramp for genuinely-from-scratch or very rusty fun
 | `plasma-physics` | Plasma Physics | 2 | em, stat-mech | Single-particle motion, kinetic theory, MHD, and waves & instabilities — the bridge to fusion. |
 | `biophysics` | Biophysics | 2 | stat-mech | The statistical physics of life: random walks, polymers, membranes, molecular motors, reaction kinetics. |
 | `photonics-quantum-optics` | Quantum Optics & Photonics | 2 | quantum-mechanics, em | Quantized light, coherence, cavity QED, single photons, and the optics behind lasers. |
+| `quantum-networking` | Quantum Networking | 2 | photonics-quantum-optics, quantum-computing | Entanglement distribution in real fiber: sources, polarization compensation, memories, swapping & repeaters, QKD — built around Qunnect, with a business lens. |
 | `cosmology` | Cosmology | 2 | relativity | The expanding universe, the FLRW model & ΛCDM, the CMB, nucleosynthesis, inflation, and structure formation. |
 
 ## Computer Science

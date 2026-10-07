@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect x="0" y="0" width="720" height="420" fill="#ffffff"/>
+<rect x="425.67" y="50" width="67.78" height="290" rx="0" fill="#dbe8f5" stroke="none" stroke-width="1.2"/>
+<rect x="608.67" y="50" width="23.72" height="290" rx="0" fill="#dcefe4" stroke="none" stroke-width="1.2"/>
+<line x1="80" y1="340" x2="690" y2="340" stroke="#333333" stroke-width="1.3"/>
+<line x1="80" y1="340" x2="80" y2="50" stroke="#333333" stroke-width="1.3"/>
+<line x1="113.89" y1="340" x2="113.89" y2="345" stroke="#333333" stroke-width="1"/>
+<text x="113.89" y="358" font-size="12" text-anchor="middle" fill="#333333">800</text>
+<line x1="249.44" y1="340" x2="249.44" y2="345" stroke="#333333" stroke-width="1"/>
+<text x="249.44" y="358" font-size="12" text-anchor="middle" fill="#333333">1000</text>
+<line x1="385" y1="340" x2="385" y2="345" stroke="#333333" stroke-width="1"/>
+<text x="385" y="358" font-size="12" text-anchor="middle" fill="#333333">1200</text>
+<line x1="520.56" y1="340" x2="520.56" y2="345" stroke="#333333" stroke-width="1"/>
+<text x="520.56" y="358" font-size="12" text-anchor="middle" fill="#333333">1400</text>
+<line x1="656.11" y1="340" x2="656.11" y2="345" stroke="#333333" stroke-width="1"/>
+<text x="656.11" y="358" font-size="12" text-anchor="middle" fill="#333333">1600</text>
+<line x1="75" y1="340" x2="80" y2="340" stroke="#333333" stroke-width="1"/>
+<text x="72" y="344" font-size="12" text-anchor="end" fill="#333333">0</text>
+<line x1="75" y1="298.57" x2="80" y2="298.57" stroke="#333333" stroke-width="1"/>
+<text x="72" y="302.57" font-size="12" text-anchor="end" fill="#333333">0.5</text>
+<line x1="75" y1="257.14" x2="80" y2="257.14" stroke="#333333" stroke-width="1"/>
+<text x="72" y="261.14" font-size="12" text-anchor="end" fill="#333333">1</text>
+<line x1="75" y1="215.71" x2="80" y2="215.71" stroke="#333333" stroke-width="1"/>
+<text x="72" y="219.71" font-size="12" text-anchor="end" fill="#333333">1.5</text>
+<line x1="75" y1="174.29" x2="80" y2="174.29" stroke="#333333" stroke-width="1"/>
+<text x="72" y="178.29" font-size="12" text-anchor="end" fill="#333333">2</text>
+<line x1="75" y1="132.86" x2="80" y2="132.86" stroke="#333333" stroke-width="1"/>
+<text x="72" y="136.86" font-size="12" text-anchor="end" fill="#333333">2.5</text>
+<line x1="75" y1="91.43" x2="80" y2="91.43" stroke="#333333" stroke-width="1"/>
+<text x="72" y="95.43" font-size="12" text-anchor="end" fill="#333333">3</text>
+<line x1="75" y1="50" x2="80" y2="50" stroke="#333333" stroke-width="1"/>
+<text x="72" y="54" font-size="12" text-anchor="end" fill="#333333">3.5</text>
+<text x="385" y="378" font-size="13" text-anchor="middle" fill="#111111">wavelength (nm)</text>
+<text x="80" y="38" font-size="13" text-anchor="start" fill="#111111">loss in standard single-mode fiber (dB/km)</text>
+<polyline points="80,74.45 83.39,81.41 86.78,88.15 90.17,94.67 93.56,100.98 96.94,107.09 100.33,113 103.72,118.73 107.11,124.28 110.5,129.66 113.89,134.87 117.28,139.92 120.67,144.81 124.06,149.56 127.44,154.16 130.83,158.62 134.22,162.96 137.61,167.16 141,171.24 144.39,175.2 147.78,179.04 151.17,182.77 154.56,186.4 157.94,189.92 161.33,193.34 164.72,196.66 168.11,199.89 171.5,203.03 174.89,206.08 178.28,209.05 181.67,211.94 185.06,214.74 188.44,217.47 191.83,220.13 195.22,222.71 198.61,225.23 202,227.68 205.39,230.06 208.78,232.38 212.17,234.64 215.56,236.84 218.94,238.99 222.33,241.07 225.72,243.11 229.11,245.09 232.5,247.02 235.89,248.91 239.28,250.74 242.67,252.53 246.06,254.28 249.44,255.98 252.83,257.64 256.22,259.26 259.61,260.84 263,262.38 266.39,263.88 269.78,265.35 273.17,266.78 276.56,268.18 279.94,269.54 283.33,270.87 286.72,272.18 290.11,273.45 293.5,274.69 296.89,275.9 300.28,277.08 303.67,278.24 307.06,279.37 310.44,280.48 313.83,281.56 317.22,282.61 320.61,283.64 324,284.65 327.39,285.64 330.78,286.6 334.17,287.55 337.56,288.47 340.94,289.37 344.33,290.25 347.72,291.12 351.11,291.96 354.5,292.79 357.89,293.6 361.28,294.39 364.67,295.16 368.06,295.92 371.44,296.66 374.83,297.39 378.22,298.1 381.61,298.8 385,299.48 388.39,300.15 391.78,300.8 395.17,301.44 398.56,302.07 401.94,302.69 405.33,303.29 408.72,303.88 412.11,304.46 415.5,305.03 418.89,305.58 422.28,306.13 425.67,306.66 429.06,307.19 432.44,307.7 435.83,308.21 439.22,308.7 442.61,309.18 446,309.66 449.39,310.12 452.78,310.58 456.17,311.03 459.56,311.47 462.94,311.9 466.33,312.32 469.72,312.74 473.11,313.15 476.5,313.55 479.89,313.94 483.28,314.33 486.67,314.7 490.06,315.07 493.44,315.44 496.83,315.8 500.22,316.15 503.61,316.49 507,316.83 510.39,317.17 513.78,317.49 517.17,317.81 520.56,318.13 523.94,318.44 527.33,318.74 530.72,319.04 534.11,319.33 537.5,319.62 540.89,319.91 544.28,320.19 547.67,320.46 551.06,320.73 554.44,320.99 557.83,321.25 561.22,321.51 564.61,321.76 568,322.01 571.39,322.25 574.78,322.49 578.17,322.72 581.56,322.95 584.94,323.18 588.33,323.4 591.72,323.62 595.11,323.84 598.5,324.05 601.89,324.26 605.28,324.46 608.67,324.67 612.06,324.87 615.44,325.06 618.83,325.25 622.22,325.44 625.61,325.63 629,325.81 632.39,325.99 635.78,326.17 639.17,326.35 642.56,326.52 645.94,326.69 649.33,326.85 652.72,327.02 656.11,327.18 659.5,327.34 662.89,327.49 666.28,327.65 669.67,327.8 673.06,327.95 676.44,328.1 679.83,328.24 683.22,328.38 686.61,328.53 690,328.66" fill="none" stroke="#333333" stroke-width="1.8" stroke-dasharray="6,4"/>
+<line x1="425.67" y1="340" x2="425.67" y2="50" stroke="#d1495b" stroke-width="1.5" stroke-dasharray="3,3"/>
+<text x="419.67" y="74.86" font-size="12" text-anchor="end" fill="#d1495b">single-mode cutoff</text>
+<text x="419.67" y="89.86" font-size="12" text-anchor="end" fill="#d1495b">about 1260 nm</text>
+<text x="459.56" y="66" font-size="12" text-anchor="middle" fill="#1a6fb5" font-weight="bold">O-band</text>
+<text x="620.19" y="66" font-size="12" text-anchor="middle" fill="#2e8b57" font-weight="bold">C-band</text>
+<circle cx="110.5" cy="132.86" r="6" fill="#d1495b" stroke="none" stroke-width="1"/>
+<circle cx="469.04" cy="312.66" r="6" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<circle cx="622.22" cy="323.43" r="6" fill="#2e8b57" stroke="none" stroke-width="1"/>
+<text x="122.5" y="124.86" font-size="12" text-anchor="start" fill="#d1495b">795 nm: about 2.5 dB/km</text>
+<text x="122.5" y="140.86" font-size="12" text-anchor="start" fill="#d1495b">(rubidium photon, stays home)</text>
+<text x="479.04" y="284.66" font-size="12" text-anchor="start" fill="#1a6fb5">1324 nm: about 0.33</text>
+<text x="479.04" y="299.66" font-size="12" text-anchor="start" fill="#1a6fb5">(the photon that travels)</text>
+<text x="632.39" y="245.43" font-size="12" text-anchor="middle" fill="#2e8b57">1550 nm: about 0.2</text>
+<text x="632.39" y="260.43" font-size="12" text-anchor="middle" fill="#2e8b57">(classical traffic)</text>
+<line x1="625.61" y1="265.43" x2="622.22" y2="315.43" stroke="#2e8b57" stroke-width="1"/>
+<line x1="247.44" y1="174.29" x2="202" y2="231.68" stroke="#333333" stroke-width="1"/>
+<text x="253.44" y="153.71" font-size="12" text-anchor="start" fill="#333333">Rayleigh trend, proportional to 1/wavelength^4</text>
+<text x="253.44" y="169.71" font-size="12" text-anchor="start" fill="#333333">(schematic, anchored at 0.33 dB/km at 1324 nm)</text>
+</svg>

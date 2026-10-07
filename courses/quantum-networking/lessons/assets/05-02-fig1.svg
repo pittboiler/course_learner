@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect x="0" y="0" width="800" height="360" fill="#ffffff"/>
+<text x="20" y="26" font-size="14" text-anchor="start" fill="#111111" font-weight="bold">Lambda system in rubidium-87</text>
+<line x1="120" y1="80" x2="240" y2="80" stroke="#111111" stroke-width="2.5"/>
+<text x="250" y="84" font-size="13" text-anchor="start" fill="#111111">|e&gt;  5P1/2</text>
+<line x1="110" y1="110" x2="250" y2="110" stroke="#333333" stroke-width="1.2" stroke-dasharray="5,4"/>
+<text x="256" y="114" font-size="11" text-anchor="start" fill="#333333">700 MHz below</text>
+<line x1="40" y1="270" x2="140" y2="270" stroke="#111111" stroke-width="2.5"/>
+<text x="40" y="290" font-size="13" text-anchor="start" fill="#111111">|g&gt;  F = 2</text>
+<line x1="220" y1="290" x2="320" y2="290" stroke="#111111" stroke-width="2.5"/>
+<text x="220" y="310" font-size="13" text-anchor="start" fill="#111111">|s&gt;  F = 1</text>
+<line x1="90" y1="270" x2="170" y2="113" stroke="#1a6fb5" stroke-width="2.5" marker-end="url(#arr)"/>
+<text x="20" y="190" font-size="13" text-anchor="start" fill="#1a6fb5">795 nm photon</text>
+<text x="20" y="207" font-size="12" text-anchor="start" fill="#1a6fb5">(probe, weak)</text>
+<line x1="270" y1="290" x2="190" y2="113" stroke="#d1495b" stroke-width="3.5" marker-end="url(#arr)"/>
+<text x="268" y="190" font-size="13" text-anchor="start" fill="#d1495b">control</text>
+<text x="268" y="207" font-size="12" text-anchor="start" fill="#d1495b">(strong)</text>
+<line x1="140" y1="270" x2="215" y2="270" stroke="#2e8b57" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="150" y="330" font-size="12" text-anchor="middle" fill="#2e8b57">g and s: 6.8 GHz apart</text>
+<line x1="180" y1="272" x2="180" y2="288" stroke="#2e8b57" stroke-width="1.5"/>
+<text x="400" y="26" font-size="14" text-anchor="start" fill="#111111" font-weight="bold">One memory cycle (times in ns)</text>
+<line x1="430" y1="90" x2="780" y2="90" stroke="#bbbbbb" stroke-width="1"/>
+<line x1="430" y1="170" x2="780" y2="170" stroke="#bbbbbb" stroke-width="1"/>
+<line x1="430" y1="250" x2="780" y2="250" stroke="#bbbbbb" stroke-width="1"/>
+<text x="424" y="94" font-size="12" text-anchor="end" fill="#111111">photon</text>
+<text x="424" y="174" font-size="12" text-anchor="end" fill="#111111">control</text>
+<text x="424" y="254" font-size="12" text-anchor="end" fill="#111111">pumping</text>
+<polyline points="473.33,90 473.75,90 474.17,90 474.58,90 475,90 475.42,90 475.83,90 476.25,90 476.67,90 477.08,90 477.5,90 477.92,90 478.33,90 478.75,89.99 479.17,89.99 479.58,89.98 480,89.97 480.42,89.96 480.83,89.93 481.25,89.9 481.67,89.85 482.08,89.78 482.5,89.69 482.92,89.56 483.33,89.38 483.75,89.14 484.17,88.82 484.58,88.41 485,87.89 485.42,87.23 485.83,86.42 486.25,85.43 486.67,84.25 487.08,82.87 487.5,81.28 487.92,79.49 488.33,77.49 488.75,75.33 489.17,73.02 489.58,70.63 490,68.2 490.42,65.81 490.83,63.52 491.25,61.42 491.67,59.58 492.08,58.06 492.5,56.93 492.92,56.24 493.33,56 493.75,56.24 494.17,56.93 494.58,58.06 495,59.58 495.42,61.42 495.83,63.52 496.25,65.81 496.67,68.2 497.08,70.63 497.5,73.02 497.92,75.33 498.33,77.49 498.75,79.49 499.17,81.28 499.58,82.87 500,84.25 500.42,85.43 500.83,86.42 501.25,87.23 501.67,87.89 502.08,88.41 502.5,88.82 502.92,89.14 503.33,89.38 503.75,89.56 504.17,89.69 504.58,89.78 505,89.85 505.42,89.9 505.83,89.93 506.25,89.96 506.67,89.97 507.08,89.98 507.5,89.99 507.92,89.99 508.33,90 508.75,90 509.17,90 509.58,90 510,90 510.42,90 510.83,90 511.25,90 511.67,90 512.08,90 512.5,90 512.92,90 513.33,90" fill="none" stroke="#1a6fb5" stroke-width="2.5"/>
+<text x="493.33" y="45" font-size="12" text-anchor="middle" fill="#1a6fb5">in</text>
+<polyline points="571.67,90 572.08,90 572.5,90 572.92,90 573.33,90 573.75,90 574.17,90 574.58,90 575,90 575.42,90 575.83,90 576.25,90 576.67,90 577.08,90 577.5,90 577.92,89.99 578.33,89.99 578.75,89.98 579.17,89.97 579.58,89.96 580,89.94 580.42,89.91 580.83,89.87 581.25,89.82 581.67,89.74 582.08,89.64 582.5,89.51 582.92,89.35 583.33,89.13 583.75,88.86 584.17,88.52 584.58,88.12 585,87.63 585.42,87.07 585.83,86.41 586.25,85.67 586.67,84.85 587.08,83.96 587.5,83.01 587.92,82.02 588.33,81.02 588.75,80.04 589.17,79.1 589.58,78.23 590,77.47 590.42,76.85 590.83,76.38 591.25,76.1 591.67,76 592.08,76.1 592.5,76.38 592.92,76.85 593.33,77.47 593.75,78.23 594.17,79.1 594.58,80.04 595,81.02 595.42,82.02 595.83,83.01 596.25,83.96 596.67,84.85 597.08,85.67 597.5,86.41 597.92,87.07 598.33,87.63 598.75,88.12 599.17,88.52 599.58,88.86 600,89.13 600.42,89.35 600.83,89.51 601.25,89.64 601.67,89.74 602.08,89.82 602.5,89.87 602.92,89.91 603.33,89.94 603.75,89.96 604.17,89.97 604.58,89.98 605,89.99 605.42,89.99 605.83,90 606.25,90 606.67,90 607.08,90 607.5,90 607.92,90 608.33,90 608.75,90 609.17,90 609.58,90 610,90 610.42,90 610.83,90 611.25,90 611.67,90" fill="none" stroke="#1a6fb5" stroke-width="2.5"/>
+<text x="591.67" y="62" font-size="12" text-anchor="middle" fill="#1a6fb5">out</text>
+<text x="541.67" y="66" font-size="12" text-anchor="middle" fill="#1a6fb5">held as</text>
+<text x="541.67" y="81" font-size="12" text-anchor="middle" fill="#1a6fb5">spin wave</text>
+<polyline points="430,170 488.33,170 488.33,130 496.67,130 496.67,170 588.33,170 588.33,130 780,130" fill="none" stroke="#d1495b" stroke-width="2.5"/>
+<text x="493.33" y="122" font-size="12" text-anchor="middle" fill="#d1495b">write</text>
+<text x="663.33" y="122" font-size="12" text-anchor="middle" fill="#d1495b">read, then stays on</text>
+<polyline points="430,220 463.33,220 463.33,250 746.67,250 746.67,220 780,220" fill="none" stroke="#2e8b57" stroke-width="2.5"/>
+<text x="605" y="242" font-size="12" text-anchor="middle" fill="#2e8b57">off during storage</text>
+<line x1="463.33" y1="268" x2="463.33" y2="274" stroke="#333333" stroke-width="1"/>
+<text x="463.33" y="290" font-size="12" text-anchor="middle" fill="#333333">-20</text>
+<line x1="496.67" y1="268" x2="496.67" y2="274" stroke="#333333" stroke-width="1"/>
+<text x="496.67" y="290" font-size="12" text-anchor="middle" fill="#333333">0</text>
+<line x1="588.33" y1="268" x2="588.33" y2="274" stroke="#333333" stroke-width="1"/>
+<text x="588.33" y="290" font-size="12" text-anchor="middle" fill="#333333">55</text>
+<line x1="746.67" y1="268" x2="746.67" y2="274" stroke="#333333" stroke-width="1"/>
+<text x="746.67" y="290" font-size="12" text-anchor="middle" fill="#333333">150</text>
+<text x="605" y="320" font-size="12" text-anchor="middle" fill="#111111">control off = photon held; control on = photon released</text>
+</svg>

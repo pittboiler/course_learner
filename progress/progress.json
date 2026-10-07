@@ -286,6 +286,16 @@
       "started": "2026-08-04",
       "lessons": {}
     },
+    "general-biology": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
+    "molecular-cell-biology": {
+      "status": "available",
+      "started": "2026-08-04",
+      "lessons": {}
+    },
     "plasma-physics": {
       "status": "available",
       "started": "2026-08-04",
@@ -606,16 +616,6 @@
       "started": "2026-08-04",
       "lessons": {}
     },
-    "general-biology": {
-      "status": "available",
-      "started": "2026-08-04",
-      "lessons": {}
-    },
-    "molecular-cell-biology": {
-      "status": "available",
-      "started": "2026-08-04",
-      "lessons": {}
-    },
     "genetics": {
       "status": "available",
       "started": "2026-08-04",
@@ -894,6 +894,11 @@
     "apologetics-catholic-claims": {
       "status": "available",
       "started": "2026-09-15",
+      "lessons": {}
+    },
+    "quantum-networking": {
+      "status": "available",
+      "started": "2026-10-06",
       "lessons": {}
     }
   },

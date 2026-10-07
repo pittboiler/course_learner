@@ -699,6 +699,18 @@
       "blurb": "Quantized light, coherence, cavity QED, single photons, and the optics behind lasers."
     },
     {
+      "id": "quantum-networking",
+      "title": "Quantum Networking",
+      "tier": 2,
+      "field": "Physics",
+      "prereqs": [
+        "photonics-quantum-optics",
+        "quantum-computing"
+      ],
+      "lessons_estimate": 22,
+      "blurb": "Entanglement distribution in real fiber: sources, polarization compensation, memories, swapping and repeaters, QKD — built around Qunnect, with a business lens on every lesson."
+    },
+    {
       "id": "statics",
       "title": "Statics",
       "tier": 0,
