@@ -256,7 +256,7 @@ changes the brief lists) → roots (`ethics`, `fundamental-theology`,
 - [ ] `philosophy-of-science` — Philosophy of Science (2, 26) — syllabus ✓ (2026-09-15), lessons pending
 - [ ] `philosophy-of-physics` — Philosophy of Physics (2, 25) — syllabus ✓ (2026-09-15), lessons pending
 - [ ] `philosophy-of-language-and-logic` — Philosophy of Language & Logic (2, 23) — syllabus ✓ (2026-09-15), lessons pending
-- [ ] `phenomenology-and-personalism` — Phenomenology & Personalism (2, 21) — syllabus ✓ (2026-09-15), lessons pending
+- [x] `phenomenology-and-personalism` — Phenomenology & Personalism (2, 21) — syllabus ✓ (2026-09-15), built 2026-10-07 (21 lessons + reference card)
 - [x] `philosophy-of-economics` — Philosophy of Economics (2, 21) — syllabus ✓ (2026-09-15), built 2026-09-30 (21 lessons + reference card)
 - [x] `philosophy-of-debt` — Philosophy of Debt (2, 22) — syllabus ✓ (2026-09-15) — **lessons ✓** (22 lessons + reference card, prepped 2026-09-28)
 
