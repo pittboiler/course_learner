@@ -361,7 +361,7 @@ The normative and the positive side by side: political philosophy, institutions,
 | `international-relations` | International Relations | 1 | political-institutions | Realism, liberalism, constructivism; the history of the state system; international law and organizations. |
 | `constitutional-law` | Constitutional Law | 1 | political-institutions | US-focused: judicial review, separation of powers, federalism, rights, and theories of interpretation. |
 | `history-of-debt` | A History of Debt | 1 | — | From Mesopotamian clean slates and Solon through the English financial revolution, sovereign default, and Jubilee 2000 to 2008. Entry point of the debt thread. |
-| `political-economy` | Political Economy & Social Choice | 2 | social-choice, grad-game-theory | Electoral competition, collective action, political agency, lobbying, coalitions and redistribution. Syllabus to be rewritten against social-choice and public-economics. |
+| `political-economy` | Political Economy & Social Choice | 2 | social-choice, grad-game-theory | Positive political theory: voters and turnout, electoral competition, collective action, accountability and lobbying, legislative bargaining and redistribution. |
 | `philosophy-of-law` | Philosophy of Law | 2 | political-philosophy | Hart vs Dworkin, natural-law jurisprudence, legal obligation, and the justification of punishment. |
 | `social-choice` | Social Choice Theory | 2 | proofs-primer, game-theory-refresher | Beyond Arrow: May's theorem, scoring rules, Sen's liberal paradox, the jury theorem, judgment aggregation, apportionment. |
 | `institutions-and-development` | Institutions & Development | 2 | political-economy | Acemoglu-Robinson, North, state capacity, selectorate theory, and the political economy of autocracy. |

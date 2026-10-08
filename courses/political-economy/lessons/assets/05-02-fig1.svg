@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect x="0" y="0" width="760" height="330" fill="#ffffff"/>
+<text x="20" y="28" font-size="14" text-anchor="start" fill="#111111" font-weight="bold">How Birch (30 seats) and Cedar (25 seats) split office, delta = 0.8</text>
+<rect x="250" y="60" width="256.36" height="34" rx="0" fill="#1a6fb5" stroke="#333333" stroke-width="1.2"/>
+<rect x="506.36" y="60" width="213.64" height="34" rx="0" fill="#f6dde1" stroke="#333333" stroke-width="1.2"/>
+<text x="240" y="82" font-size="13" text-anchor="end" fill="#111111">Seats (Gamson's law)</text>
+<text x="258" y="82" font-size="13" text-anchor="start" fill="#ffffff" font-weight="bold">Birch 0.545</text>
+<text x="712" y="82" font-size="13" text-anchor="end" fill="#111111">Cedar 0.455</text>
+<rect x="250" y="118" width="235" height="34" rx="0" fill="#1a6fb5" stroke="#333333" stroke-width="1.2"/>
+<rect x="485" y="118" width="235" height="34" rx="0" fill="#f6dde1" stroke="#333333" stroke-width="1.2"/>
+<text x="240" y="140" font-size="13" text-anchor="end" fill="#111111">Voting weight</text>
+<text x="258" y="140" font-size="13" text-anchor="start" fill="#ffffff" font-weight="bold">Birch 0.500</text>
+<text x="712" y="140" font-size="13" text-anchor="end" fill="#111111">Cedar 0.500</text>
+<rect x="250" y="176" width="344.67" height="34" rx="0" fill="#1a6fb5" stroke="#333333" stroke-width="1.2"/>
+<rect x="594.67" y="176" width="125.33" height="34" rx="0" fill="#f6dde1" stroke="#333333" stroke-width="1.2"/>
+<text x="240" y="198" font-size="13" text-anchor="end" fill="#111111">Bargaining, Birch formateur</text>
+<text x="258" y="198" font-size="13" text-anchor="start" fill="#ffffff" font-weight="bold">Birch 0.733</text>
+<text x="712" y="198" font-size="13" text-anchor="end" fill="#111111">Cedar 0.267</text>
+<rect x="250" y="234" width="125.33" height="34" rx="0" fill="#1a6fb5" stroke="#333333" stroke-width="1.2"/>
+<rect x="375.33" y="234" width="344.67" height="34" rx="0" fill="#f6dde1" stroke="#333333" stroke-width="1.2"/>
+<text x="240" y="256" font-size="13" text-anchor="end" fill="#111111">Bargaining, Cedar formateur</text>
+<text x="258" y="256" font-size="13" text-anchor="start" fill="#ffffff" font-weight="bold">Birch 0.267</text>
+<text x="712" y="256" font-size="13" text-anchor="end" fill="#111111">Cedar 0.733</text>
+<line x1="250" y1="290" x2="250" y2="296" stroke="#333333" stroke-width="1.5"/>
+<text x="250" y="312" font-size="12" text-anchor="middle" fill="#111111">0</text>
+<line x1="367.5" y1="290" x2="367.5" y2="296" stroke="#333333" stroke-width="1.5"/>
+<text x="367.5" y="312" font-size="12" text-anchor="middle" fill="#111111">0.25</text>
+<line x1="485" y1="290" x2="485" y2="296" stroke="#333333" stroke-width="1.5"/>
+<text x="485" y="312" font-size="12" text-anchor="middle" fill="#111111">0.5</text>
+<line x1="602.5" y1="290" x2="602.5" y2="296" stroke="#333333" stroke-width="1.5"/>
+<text x="602.5" y="312" font-size="12" text-anchor="middle" fill="#111111">0.75</text>
+<line x1="720" y1="290" x2="720" y2="296" stroke="#333333" stroke-width="1.5"/>
+<text x="720" y="312" font-size="12" text-anchor="middle" fill="#111111">1</text>
+<line x1="250" y1="290" x2="720" y2="290" stroke="#333333" stroke-width="1.5"/>
+<text x="485" y="326" font-size="12" text-anchor="middle" fill="#111111">share of the coalition's portfolios</text>
+</svg>

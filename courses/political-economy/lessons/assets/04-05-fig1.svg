@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect x="0" y="0" width="640" height="400" fill="#ffffff"/>
+<line x1="80" y1="330" x2="600" y2="330" stroke="#333333" stroke-width="1.3"/>
+<line x1="80" y1="330" x2="80" y2="50" stroke="#333333" stroke-width="1.3"/>
+<line x1="80" y1="330" x2="80" y2="335" stroke="#333333" stroke-width="1"/>
+<text x="80" y="348" font-size="12" text-anchor="middle" fill="#333333">2</text>
+<line x1="145" y1="330" x2="145" y2="335" stroke="#333333" stroke-width="1"/>
+<text x="145" y="348" font-size="12" text-anchor="middle" fill="#333333">3</text>
+<line x1="210" y1="330" x2="210" y2="335" stroke="#333333" stroke-width="1"/>
+<text x="210" y="348" font-size="12" text-anchor="middle" fill="#333333">4</text>
+<line x1="275" y1="330" x2="275" y2="335" stroke="#333333" stroke-width="1"/>
+<text x="275" y="348" font-size="12" text-anchor="middle" fill="#333333">5</text>
+<line x1="340" y1="330" x2="340" y2="335" stroke="#333333" stroke-width="1"/>
+<text x="340" y="348" font-size="12" text-anchor="middle" fill="#333333">6</text>
+<line x1="405" y1="330" x2="405" y2="335" stroke="#333333" stroke-width="1"/>
+<text x="405" y="348" font-size="12" text-anchor="middle" fill="#333333">7</text>
+<line x1="470" y1="330" x2="470" y2="335" stroke="#333333" stroke-width="1"/>
+<text x="470" y="348" font-size="12" text-anchor="middle" fill="#333333">8</text>
+<line x1="535" y1="330" x2="535" y2="335" stroke="#333333" stroke-width="1"/>
+<text x="535" y="348" font-size="12" text-anchor="middle" fill="#333333">9</text>
+<line x1="600" y1="330" x2="600" y2="335" stroke="#333333" stroke-width="1"/>
+<text x="600" y="348" font-size="12" text-anchor="middle" fill="#333333">10</text>
+<line x1="75" y1="330" x2="80" y2="330" stroke="#333333" stroke-width="1"/>
+<text x="72" y="334" font-size="12" text-anchor="end" fill="#333333">0</text>
+<line x1="75" y1="266.36" x2="80" y2="266.36" stroke="#333333" stroke-width="1"/>
+<text x="72" y="270.36" font-size="12" text-anchor="end" fill="#333333">0.25</text>
+<line x1="75" y1="202.73" x2="80" y2="202.73" stroke="#333333" stroke-width="1"/>
+<text x="72" y="206.73" font-size="12" text-anchor="end" fill="#333333">0.5</text>
+<line x1="75" y1="139.09" x2="80" y2="139.09" stroke="#333333" stroke-width="1"/>
+<text x="72" y="143.09" font-size="12" text-anchor="end" fill="#333333">0.75</text>
+<line x1="75" y1="75.45" x2="80" y2="75.45" stroke="#333333" stroke-width="1"/>
+<text x="72" y="79.45" font-size="12" text-anchor="end" fill="#333333">1</text>
+<text x="340" y="368" font-size="13" text-anchor="middle" fill="#111111">number of contestants n</text>
+<text x="80" y="38" font-size="13" text-anchor="start" fill="#111111">share of rent dissipated</text>
+<line x1="80" y1="75.45" x2="600" y2="75.45" stroke="#333333" stroke-width="1" stroke-dasharray="5,4"/>
+<text x="596" y="67.45" font-size="12" text-anchor="end" fill="#333333">full dissipation</text>
+<line x1="80" y1="202.73" x2="600" y2="202.73" stroke="#1a6fb5" stroke-width="1" stroke-dasharray="3,4"/>
+<polyline points="80,266.36 145,245.15 210,234.55 275,228.18 340,223.94 405,220.91 470,218.64 535,216.87 600,215.45" fill="none" stroke="#1a6fb5" stroke-width="2"/>
+<circle cx="80" cy="266.36" r="4" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<circle cx="145" cy="245.15" r="4" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<circle cx="210" cy="234.55" r="4" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<circle cx="275" cy="228.18" r="4" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<circle cx="340" cy="223.94" r="4" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<circle cx="405" cy="220.91" r="4" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<circle cx="470" cy="218.64" r="4" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<circle cx="535" cy="216.87" r="4" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<circle cx="600" cy="215.45" r="4" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<polyline points="80,202.73 145,160.3 210,139.09 275,126.36 340,117.88 405,111.82 470,107.27 535,103.74 600,100.91" fill="none" stroke="#2e8b57" stroke-width="2"/>
+<circle cx="80" cy="202.73" r="4" fill="#2e8b57" stroke="none" stroke-width="1"/>
+<circle cx="145" cy="160.3" r="4" fill="#2e8b57" stroke="none" stroke-width="1"/>
+<circle cx="210" cy="139.09" r="4" fill="#2e8b57" stroke="none" stroke-width="1"/>
+<circle cx="275" cy="126.36" r="4" fill="#2e8b57" stroke="none" stroke-width="1"/>
+<circle cx="340" cy="117.88" r="4" fill="#2e8b57" stroke="none" stroke-width="1"/>
+<circle cx="405" cy="111.82" r="4" fill="#2e8b57" stroke="none" stroke-width="1"/>
+<circle cx="470" cy="107.27" r="4" fill="#2e8b57" stroke="none" stroke-width="1"/>
+<circle cx="535" cy="103.74" r="4" fill="#2e8b57" stroke="none" stroke-width="1"/>
+<circle cx="600" cy="100.91" r="4" fill="#2e8b57" stroke="none" stroke-width="1"/>
+<polyline points="80,170.91 145,117.88 210,91.36 275,75.45" fill="none" stroke="#d1495b" stroke-width="2"/>
+<circle cx="80" cy="170.91" r="4" fill="#d1495b" stroke="none" stroke-width="1"/>
+<circle cx="145" cy="117.88" r="4" fill="#d1495b" stroke="none" stroke-width="1"/>
+<circle cx="210" cy="91.36" r="4" fill="#d1495b" stroke="none" stroke-width="1"/>
+<circle cx="275" cy="75.45" r="4" fill="#d1495b" stroke="none" stroke-width="1"/>
+<text x="596" y="233.45" font-size="12" text-anchor="end" fill="#1a6fb5">r = 0.5 (tends to 0.5)</text>
+<text x="596" y="118.91" font-size="12" text-anchor="end" fill="#2e8b57">r = 1 (tends to 1)</text>
+<text x="283" y="93.45" font-size="12" text-anchor="start" fill="#d1495b">r = 1.25: full at n = 5</text>
+<text x="340" y="266.36" font-size="12" text-anchor="start" fill="#d1495b">no symmetric pure equilibrium</text>
+<text x="340" y="282.36" font-size="12" text-anchor="start" fill="#d1495b">for r = 1.25 once n is 6 or more</text>
+</svg>

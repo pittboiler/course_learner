@@ -270,7 +270,7 @@ changes the brief lists) → roots (`ethics`, `fundamental-theology`,
 - [ ] `international-relations` — International Relations (1, 23) — syllabus ✓ (2026-09-15), lessons pending
 - [ ] `constitutional-law` — Constitutional Law (1, 26) — syllabus ✓ (2026-09-15), lessons pending
 - [x] `history-of-debt` — A History of Debt (1, 29) — syllabus ✓ (2026-09-15) — **lessons ✓** (29 lessons + reference card, prepped 2026-09-17)
-- [ ] `political-economy` — Political Economy & Social Choice (2, 25) — syllabus ✓ (2026-09-15), lessons pending
+- [x] `political-economy` — Political Economy & Social Choice (2, 25) — syllabus ✓ (2026-09-15), built 2026-10-08 (25 lessons + reference card)
 - [ ] `philosophy-of-law` — Philosophy of Law (2, 23) — syllabus ✓ (2026-09-15), lessons pending
 - [x] `social-choice` — Social Choice Theory (2, 24) — syllabus ✓ (2026-09-15), built 2026-10-08 (24 lessons + reference card)
 - [ ] `institutions-and-development` — Institutions & Development (2, 24) — syllabus ✓ (2026-09-15), lessons pending

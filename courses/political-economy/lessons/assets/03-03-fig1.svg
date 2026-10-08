@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect x="0" y="0" width="680" height="400" fill="#ffffff"/>
+<line x1="80" y1="330" x2="640" y2="330" stroke="#333333" stroke-width="1.3"/>
+<line x1="80" y1="330" x2="80" y2="50" stroke="#333333" stroke-width="1.3"/>
+<line x1="136" y1="330" x2="136" y2="335" stroke="#333333" stroke-width="1"/>
+<text x="136" y="348" font-size="12" text-anchor="middle" fill="#333333">2</text>
+<line x1="192" y1="330" x2="192" y2="335" stroke="#333333" stroke-width="1"/>
+<text x="192" y="348" font-size="12" text-anchor="middle" fill="#333333">4</text>
+<line x1="248" y1="330" x2="248" y2="335" stroke="#333333" stroke-width="1"/>
+<text x="248" y="348" font-size="12" text-anchor="middle" fill="#333333">6</text>
+<line x1="304" y1="330" x2="304" y2="335" stroke="#333333" stroke-width="1"/>
+<text x="304" y="348" font-size="12" text-anchor="middle" fill="#333333">8</text>
+<line x1="360" y1="330" x2="360" y2="335" stroke="#333333" stroke-width="1"/>
+<text x="360" y="348" font-size="12" text-anchor="middle" fill="#333333">10</text>
+<line x1="416" y1="330" x2="416" y2="335" stroke="#333333" stroke-width="1"/>
+<text x="416" y="348" font-size="12" text-anchor="middle" fill="#333333">12</text>
+<line x1="472" y1="330" x2="472" y2="335" stroke="#333333" stroke-width="1"/>
+<text x="472" y="348" font-size="12" text-anchor="middle" fill="#333333">14</text>
+<line x1="528" y1="330" x2="528" y2="335" stroke="#333333" stroke-width="1"/>
+<text x="528" y="348" font-size="12" text-anchor="middle" fill="#333333">16</text>
+<line x1="584" y1="330" x2="584" y2="335" stroke="#333333" stroke-width="1"/>
+<text x="584" y="348" font-size="12" text-anchor="middle" fill="#333333">18</text>
+<line x1="640" y1="330" x2="640" y2="335" stroke="#333333" stroke-width="1"/>
+<text x="640" y="348" font-size="12" text-anchor="middle" fill="#333333">20</text>
+<line x1="75" y1="330" x2="80" y2="330" stroke="#333333" stroke-width="1"/>
+<text x="72" y="334" font-size="12" text-anchor="end" fill="#333333">0.4</text>
+<line x1="75" y1="283.33" x2="80" y2="283.33" stroke="#333333" stroke-width="1"/>
+<text x="72" y="287.33" font-size="12" text-anchor="end" fill="#333333">0.5</text>
+<line x1="75" y1="236.67" x2="80" y2="236.67" stroke="#333333" stroke-width="1"/>
+<text x="72" y="240.67" font-size="12" text-anchor="end" fill="#333333">0.6</text>
+<line x1="75" y1="190" x2="80" y2="190" stroke="#333333" stroke-width="1"/>
+<text x="72" y="194" font-size="12" text-anchor="end" fill="#333333">0.7</text>
+<line x1="75" y1="143.33" x2="80" y2="143.33" stroke="#333333" stroke-width="1"/>
+<text x="72" y="147.33" font-size="12" text-anchor="end" fill="#333333">0.8</text>
+<line x1="75" y1="96.67" x2="80" y2="96.67" stroke="#333333" stroke-width="1"/>
+<text x="72" y="100.67" font-size="12" text-anchor="end" fill="#333333">0.9</text>
+<line x1="75" y1="50" x2="80" y2="50" stroke="#333333" stroke-width="1"/>
+<text x="72" y="54" font-size="12" text-anchor="end" fill="#333333">1</text>
+<text x="360" y="368" font-size="13" text-anchor="middle" fill="#111111">number of users n</text>
+<text x="80" y="38" font-size="13" text-anchor="start" fill="#111111">critical discount factor (grim trigger, full quota)</text>
+<polyline points="136,269.61 164,250 192,232.11 220,216.67 248,203.42 276,192.03 304,182.15 332,173.53 360,165.94 388,159.22 416,153.23 444,147.85 472,143 500,138.61 528,134.61 556,130.95 584,127.6 612,124.51 640,121.66" fill="none" stroke="#1a6fb5" stroke-width="2.5"/>
+<circle cx="136" cy="269.61" r="3.5" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<circle cx="164" cy="250" r="3.5" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<circle cx="192" cy="232.11" r="3.5" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<circle cx="220" cy="216.67" r="3.5" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<circle cx="248" cy="203.42" r="3.5" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<circle cx="276" cy="192.03" r="3.5" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<circle cx="304" cy="182.15" r="3.5" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<circle cx="332" cy="173.53" r="3.5" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<circle cx="360" cy="165.94" r="3.5" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<circle cx="388" cy="159.22" r="3.5" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<circle cx="416" cy="153.23" r="3.5" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<circle cx="444" cy="147.85" r="3.5" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<circle cx="472" cy="143" r="3.5" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<circle cx="500" cy="138.61" r="3.5" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<circle cx="528" cy="134.61" r="3.5" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<circle cx="556" cy="130.95" r="3.5" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<circle cx="584" cy="127.6" r="3.5" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<circle cx="612" cy="124.51" r="3.5" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<circle cx="640" cy="121.66" r="3.5" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<line x1="80" y1="190" x2="640" y2="190" stroke="#d1495b" stroke-width="1.6" stroke-dasharray="6,4"/>
+<text x="636" y="208" font-size="13" text-anchor="end" fill="#d1495b">patience 0.7</text>
+<circle cx="192" cy="232.11" r="6" fill="none" stroke="#2e8b57" stroke-width="2.2"/>
+<text x="202" y="254.11" font-size="13" text-anchor="start" fill="#2e8b57">n = 4: 0.610, quota holds</text>
+<circle cx="360" cy="165.94" r="6" fill="none" stroke="#d1495b" stroke-width="2.2"/>
+<text x="350" y="151.94" font-size="13" text-anchor="end" fill="#d1495b">n = 10: 0.752, full quota fails</text>
+<text x="108" y="73.33" font-size="13" text-anchor="start" fill="#333333">restraint is self-enforcing above the curve</text>
+</svg>
