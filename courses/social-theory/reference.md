@@ -1616,7 +1616,7 @@ Prerequisites the lessons use without deriving, and questions the course flags b
 | Hegel's system (the source of "in itself / for itself" language) | [modern-philosophy](../modern-philosophy/syllabus.md) |
 | Whether capitalism or serfdom is just; evaluative questions about class | [political-philosophy](../political-philosophy/syllabus.md) |
 | Institutional accounts of growth (North; Acemoglu and Robinson) | [institutions-and-development](../institutions-and-development/syllabus.md) |
-| Olson's collective-action model (group size, selective incentives) | [political-economy](../political-economy/syllabus.md) 3.2 |
+| Olson's collective-action model (group size, selective incentives) | [political-economy 3.2](../political-economy/lessons/03-02-olsons-logic-of-collective-action.md) |
 | Duverger's law (electoral rules and working-class parties) | [political-institutions 2.3](../political-institutions/lessons/02-03-duvergers-law-observed.md) |
 | Whether markets corrupt what they price | [philosophy-of-economics 5.1](../philosophy-of-economics/lessons/05-01-commodification.md) |
 | Falsifiability; progressive and degenerating research programmes | [philosophy-of-science](../philosophy-of-science/syllabus.md) |
@@ -1652,7 +1652,7 @@ Prerequisites the lessons use without deriving, and questions the course flags b
 | Repeated games, grim trigger, the folk theorem, focal points | [game-theory-refresher 2.3](../game-theory-refresher/lessons/02-03-repeated-games-folk-theorem.md) |
 | Repeated games in general (finite and infinite horizons) | [grad-game-theory 3.3](../grad-game-theory/lessons/03-03-repeated-games-finite-infinite.md) |
 | First-order free riding and underprovision of public goods | [public-economics 1.2](../public-economics/lessons/01-02-voluntary-provision-and-crowding-out.md) |
-| Turnout, Olson, Ostrom's commons | [political-economy](../political-economy/syllabus.md) 1.2 and Module 3 |
+| Turnout, Olson, Ostrom's commons | [political-economy 1.2](../political-economy/lessons/01-02-turnout-and-the-paradox-of-voting.md) and Module 3 |
 | Consistency axioms behind thin rationality | [decision-theory 1.3](../decision-theory/lessons/01-03-the-vnm-theorem-and-how-utility-is-built.md) |
 | The Church's role in Poland, 1979-80 | [church-history 9.3](../church-history/lessons/09-03-after-the-council.md) |
 | Subsidiarity | [catholic-social-teaching](../catholic-social-teaching/syllabus.md) |

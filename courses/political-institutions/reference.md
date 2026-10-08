@@ -1223,7 +1223,7 @@ efficiency-gap convention, every winner's vote beyond half the district total.
 candidates: two under first-past-the-post.** Gary Cox, *Making Votes Count* (1997).
 
 - Here an empirical regularity, fairly robust at district level with known departures; why it is an
-  equilibrium of strategic voting, and when it is not, is [`political-economy`](../political-economy/syllabus.md) 2.5's.
+  equilibrium of strategic voting, and when it is not, is [`political-economy` 2.5](../political-economy/lessons/02-05-strategic-voting-and-duvergers-law.md)'s.
 - Desertion is weak where no vote can change the result (a safe regional stronghold), and strong where
   a third party's voters outnumber the gap between the top two ([2.3](lessons/02-03-duvergers-law-observed.md) Example 2).
 
@@ -1459,7 +1459,7 @@ ministries after an informateur has mapped which parties are willing to deal.**
   proposes.
 - Belgium after the 13 June 2010 election took 541 days until a government was sworn in (December 2011).
 - Which coalitions *should* form (minimal winning, Gamson's law, Baron-Ferejohn) is modelled in
-  [`political-economy`](../political-economy/syllabus.md) 5.1 to 5.2.
+  [`political-economy` 5.1](../political-economy/lessons/05-01-legislative-bargaining-baron-ferejohn.md) to 5.2.
 
 *Lessons:* [3.2](lessons/03-02-forming-governments-coalitions-and-minorities.md)
 
@@ -1803,7 +1803,7 @@ gatekeeper can kill a bill without losing a vote; a floor majority decides passa
   chamber's version is in its own entry, and finding which one holds a given bill is the diagnostic skill.
 - Because leaders call the votes they expect to win, recorded roll calls overstate cohesion ([4.3](lessons/04-03-parties-organization-and-discipline.md)).
 - Agenda-setting under cycling is [`political-philosophy` 5.4](../political-philosophy/lessons/05-04-does-social-choice-wound-democracy.md)'s;
-  setter models are [`political-economy`](../political-economy/syllabus.md) 3.5's.
+  setter models are [`political-economy` 3.5](../political-economy/lessons/03-05-agenda-setters-and-veto-players.md)'s.
 
 *Lessons:* [4.2](lessons/04-02-committees-and-agenda-control.md), [4.3](lessons/04-03-parties-organization-and-discipline.md)
 

@@ -1564,7 +1564,7 @@ intransitive, and there may be no strict Condorcet winner; the unbeaten set is e
 middle peaks (brute-force checked, $n\in\{2,4\}$, $m\le5$).
 
 *Does not say:* that electorates are single-peaked (an empirical question), or anything with two policy dimensions
-(Plott 1967, McKelvey 1976, owned by [`political-economy`](../political-economy/syllabus.md) 2.2). Second place in
+(Plott 1967, McKelvey 1976, owned by [`political-economy` 2.2](../political-economy/lessons/02-02-multidimensional-voting-and-chaos.md)). Second place in
 $M$ can be nobody's favourite.
 
 *Lessons:* [3.3](lessons/03-03-single-peakedness-black-and-moulin.md)
