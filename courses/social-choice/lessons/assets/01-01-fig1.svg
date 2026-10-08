@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 430" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect x="0" y="0" width="760" height="430" fill="#ffffff"/>
+<line x1="357.37" y1="202.21" x2="175.25" y2="99.27" stroke="#1a6fb5" stroke-width="2.4" marker-end="url(#arr)"/>
+<line x1="402.63" y1="202.21" x2="584.75" y2="99.27" stroke="#1a6fb5" stroke-width="2.4" marker-end="url(#arr)"/>
+<line x1="380" y1="241" x2="380" y2="341" stroke="#1a6fb5" stroke-width="2.4" marker-end="url(#arr)"/>
+<line x1="176" y1="85" x2="581" y2="85" stroke="#d1495b" stroke-width="2.4" marker-end="url(#arr)"/>
+<line x1="593.67" y1="105.23" x2="398.21" y2="347.43" stroke="#d1495b" stroke-width="2.4" marker-end="url(#arr)"/>
+<line x1="363.67" y1="349.77" x2="168.21" y2="107.57" stroke="#d1495b" stroke-width="2.4" marker-end="url(#arr)"/>
+<text x="265" y="182" font-size="13" text-anchor="middle" fill="#1a6fb5" font-weight="bold">6 to 5</text>
+<text x="495" y="182" font-size="13" text-anchor="middle" fill="#1a6fb5" font-weight="bold">6 to 5</text>
+<text x="392" y="296.5" font-size="13" text-anchor="start" fill="#1a6fb5" font-weight="bold">6 to 5</text>
+<text x="380" y="73" font-size="13" text-anchor="middle" fill="#d1495b" font-weight="bold">6 to 5</text>
+<text x="511" y="237.5" font-size="13" text-anchor="start" fill="#d1495b" font-weight="bold">6 to 5</text>
+<text x="249" y="237.5" font-size="13" text-anchor="end" fill="#d1495b" font-weight="bold">8 to 3</text>
+<circle cx="380" cy="215" r="26" fill="#ffffff" stroke="#111111" stroke-width="2"/>
+<text x="380" y="221" font-size="18" text-anchor="middle" fill="#111111" font-weight="bold">A</text>
+<circle cx="150" cy="85" r="26" fill="#ffffff" stroke="#111111" stroke-width="2"/>
+<text x="150" y="91" font-size="18" text-anchor="middle" fill="#111111" font-weight="bold">B</text>
+<circle cx="610" cy="85" r="26" fill="#ffffff" stroke="#111111" stroke-width="2"/>
+<text x="610" y="91" font-size="18" text-anchor="middle" fill="#111111" font-weight="bold">C</text>
+<circle cx="380" cy="370" r="26" fill="#ffffff" stroke="#111111" stroke-width="2"/>
+<text x="380" y="376" font-size="18" text-anchor="middle" fill="#111111" font-weight="bold">D</text>
+<text x="20" y="30" font-size="14" text-anchor="start" fill="#111111" font-weight="bold">Majority relation of Example 1 (11 voters)</text>
+<text x="20" y="412" font-size="13" text-anchor="start" fill="#1a6fb5">Blue: A beats each rival 6 to 5.</text>
+<text x="740" y="412" font-size="13" text-anchor="end" fill="#d1495b">Red: B, C, D form a cycle.</text>
+</svg>

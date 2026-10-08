@@ -272,7 +272,7 @@ changes the brief lists) → roots (`ethics`, `fundamental-theology`,
 - [x] `history-of-debt` — A History of Debt (1, 29) — syllabus ✓ (2026-09-15) — **lessons ✓** (29 lessons + reference card, prepped 2026-09-17)
 - [ ] `political-economy` — Political Economy & Social Choice (2, 25) — syllabus ✓ (2026-09-15), lessons pending
 - [ ] `philosophy-of-law` — Philosophy of Law (2, 23) — syllabus ✓ (2026-09-15), lessons pending
-- [ ] `social-choice` — Social Choice Theory (2, 24) — syllabus ✓ (2026-09-15), lessons pending
+- [x] `social-choice` — Social Choice Theory (2, 24) — syllabus ✓ (2026-09-15), built 2026-10-08 (24 lessons + reference card)
 - [ ] `institutions-and-development` — Institutions & Development (2, 24) — syllabus ✓ (2026-09-15), lessons pending
 - [ ] `conflict-and-bargaining` — Conflict & Bargaining (2, 23) — syllabus ✓ (2026-09-15), lessons pending
 - [ ] `empirical-political-economy` — Empirical Political Economy (2, 22) — syllabus ✓ (2026-09-15), lessons pending

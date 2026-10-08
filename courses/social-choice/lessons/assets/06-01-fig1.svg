@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect x="0" y="0" width="800" height="380" fill="#ffffff"/>
+<text x="20" y="26" font-size="13" text-anchor="start" fill="#111111">Left: each group's utilities and its mean threshold (dashed). Filled bars are approved.</text>
+<text x="20" y="46" font-size="13" text-anchor="start" fill="#111111">Right: approval tallies as thresholds respond to the poll.</text>
+<line x1="44" y1="300" x2="44" y2="110" stroke="#333333" stroke-width="1.2"/>
+<line x1="39" y1="300" x2="44" y2="300" stroke="#333333" stroke-width="1"/>
+<text x="36" y="304" font-size="12" text-anchor="end" fill="#333333">0</text>
+<line x1="39" y1="205" x2="44" y2="205" stroke="#333333" stroke-width="1"/>
+<text x="36" y="209" font-size="12" text-anchor="end" fill="#333333">5</text>
+<line x1="39" y1="110" x2="44" y2="110" stroke="#333333" stroke-width="1"/>
+<text x="36" y="114" font-size="12" text-anchor="end" fill="#333333">10</text>
+<text x="44" y="96" font-size="12" text-anchor="middle" fill="#333333">utility</text>
+<rect x="50" y="110" width="26" height="190" rx="0" fill="#1a6fb5" stroke="#1a6fb5" stroke-width="1.2"/>
+<text x="63" y="317" font-size="12" text-anchor="middle" fill="#111111">L</text>
+<rect x="84" y="224" width="26" height="76" rx="0" fill="#ffffff" stroke="#1a6fb5" stroke-width="1.6"/>
+<text x="97" y="317" font-size="12" text-anchor="middle" fill="#111111">C</text>
+<rect x="118" y="300" width="26" height="0.01" rx="0" fill="#ffffff" stroke="#1a6fb5" stroke-width="1.6"/>
+<text x="131" y="317" font-size="12" text-anchor="middle" fill="#111111">R</text>
+<line x1="46" y1="211.33" x2="148" y2="211.33" stroke="#d1495b" stroke-width="1.8" stroke-dasharray="5,3"/>
+<text x="97" y="336" font-size="12" text-anchor="middle" fill="#111111">4 voters</text>
+<text x="97" y="352" font-size="12" text-anchor="middle" fill="#d1495b">mean 4.67</text>
+<rect x="166" y="186" width="26" height="114" rx="0" fill="#1a6fb5" stroke="#1a6fb5" stroke-width="1.2"/>
+<text x="179" y="317" font-size="12" text-anchor="middle" fill="#111111">L</text>
+<rect x="200" y="110" width="26" height="190" rx="0" fill="#1a6fb5" stroke="#1a6fb5" stroke-width="1.2"/>
+<text x="213" y="317" font-size="12" text-anchor="middle" fill="#111111">C</text>
+<rect x="234" y="300" width="26" height="0.01" rx="0" fill="#ffffff" stroke="#1a6fb5" stroke-width="1.6"/>
+<text x="247" y="317" font-size="12" text-anchor="middle" fill="#111111">R</text>
+<line x1="162" y1="198.67" x2="264" y2="198.67" stroke="#d1495b" stroke-width="1.8" stroke-dasharray="5,3"/>
+<text x="213" y="336" font-size="12" text-anchor="middle" fill="#111111">2 voters</text>
+<text x="213" y="352" font-size="12" text-anchor="middle" fill="#d1495b">mean 5.33</text>
+<rect x="282" y="300" width="26" height="0.01" rx="0" fill="#ffffff" stroke="#1a6fb5" stroke-width="1.6"/>
+<text x="295" y="317" font-size="12" text-anchor="middle" fill="#111111">L</text>
+<rect x="316" y="224" width="26" height="76" rx="0" fill="#ffffff" stroke="#1a6fb5" stroke-width="1.6"/>
+<text x="329" y="317" font-size="12" text-anchor="middle" fill="#111111">C</text>
+<rect x="350" y="110" width="26" height="190" rx="0" fill="#1a6fb5" stroke="#1a6fb5" stroke-width="1.2"/>
+<text x="363" y="317" font-size="12" text-anchor="middle" fill="#111111">R</text>
+<line x1="278" y1="211.33" x2="380" y2="211.33" stroke="#d1495b" stroke-width="1.8" stroke-dasharray="5,3"/>
+<text x="329" y="336" font-size="12" text-anchor="middle" fill="#111111">3 voters</text>
+<text x="329" y="352" font-size="12" text-anchor="middle" fill="#d1495b">mean 4.67</text>
+<line x1="394" y1="300" x2="44" y2="300" stroke="#333333" stroke-width="1.2"/>
+<line x1="470" y1="300" x2="790" y2="300" stroke="#333333" stroke-width="1.2"/>
+<line x1="470" y1="300" x2="470" y2="110" stroke="#333333" stroke-width="1.2"/>
+<line x1="465" y1="300" x2="470" y2="300" stroke="#333333" stroke-width="1"/>
+<text x="462" y="304" font-size="12" text-anchor="end" fill="#333333">0</text>
+<line x1="465" y1="236.67" x2="470" y2="236.67" stroke="#333333" stroke-width="1"/>
+<text x="462" y="240.67" font-size="12" text-anchor="end" fill="#333333">3</text>
+<line x1="465" y1="173.33" x2="470" y2="173.33" stroke="#333333" stroke-width="1"/>
+<text x="462" y="177.33" font-size="12" text-anchor="end" fill="#333333">6</text>
+<line x1="465" y1="110" x2="470" y2="110" stroke="#333333" stroke-width="1"/>
+<text x="462" y="114" font-size="12" text-anchor="end" fill="#333333">9</text>
+<text x="470" y="96" font-size="12" text-anchor="middle" fill="#333333">approvals</text>
+<rect x="482" y="173.33" width="24" height="126.67" rx="0" fill="#2e8b57" stroke="#2e8b57" stroke-width="1.2"/>
+<text x="494" y="168.33" font-size="12" text-anchor="middle" fill="#111111">6</text>
+<text x="494" y="317" font-size="12" text-anchor="middle" fill="#111111">L</text>
+<rect x="512" y="257.78" width="24" height="42.22" rx="0" fill="#1a6fb5" stroke="#1a6fb5" stroke-width="1.2"/>
+<text x="524" y="252.78" font-size="12" text-anchor="middle" fill="#111111">2</text>
+<text x="524" y="317" font-size="12" text-anchor="middle" fill="#111111">C</text>
+<rect x="542" y="236.67" width="24" height="63.33" rx="0" fill="#1a6fb5" stroke="#1a6fb5" stroke-width="1.2"/>
+<text x="554" y="231.67" font-size="12" text-anchor="middle" fill="#111111">3</text>
+<text x="554" y="317" font-size="12" text-anchor="middle" fill="#111111">R</text>
+<text x="524" y="336" font-size="12" text-anchor="middle" fill="#111111">mean</text>
+<text x="524" y="352" font-size="12" text-anchor="middle" fill="#111111">threshold</text>
+<rect x="588" y="173.33" width="24" height="126.67" rx="0" fill="#2e8b57" stroke="#2e8b57" stroke-width="1.2"/>
+<text x="600" y="168.33" font-size="12" text-anchor="middle" fill="#111111">6</text>
+<text x="600" y="317" font-size="12" text-anchor="middle" fill="#111111">L</text>
+<rect x="618" y="194.44" width="24" height="105.56" rx="0" fill="#1a6fb5" stroke="#1a6fb5" stroke-width="1.2"/>
+<text x="630" y="189.44" font-size="12" text-anchor="middle" fill="#111111">5</text>
+<text x="630" y="317" font-size="12" text-anchor="middle" fill="#111111">C</text>
+<rect x="648" y="236.67" width="24" height="63.33" rx="0" fill="#1a6fb5" stroke="#1a6fb5" stroke-width="1.2"/>
+<text x="660" y="231.67" font-size="12" text-anchor="middle" fill="#111111">3</text>
+<text x="660" y="317" font-size="12" text-anchor="middle" fill="#111111">R</text>
+<text x="630" y="336" font-size="12" text-anchor="middle" fill="#111111">leader rule</text>
+<text x="630" y="352" font-size="12" text-anchor="middle" fill="#111111">poll L, R</text>
+<rect x="694" y="215.56" width="24" height="84.44" rx="0" fill="#1a6fb5" stroke="#1a6fb5" stroke-width="1.2"/>
+<text x="706" y="210.56" font-size="12" text-anchor="middle" fill="#111111">4</text>
+<text x="706" y="317" font-size="12" text-anchor="middle" fill="#111111">L</text>
+<rect x="724" y="194.44" width="24" height="105.56" rx="0" fill="#2e8b57" stroke="#2e8b57" stroke-width="1.2"/>
+<text x="736" y="189.44" font-size="12" text-anchor="middle" fill="#111111">5</text>
+<text x="736" y="317" font-size="12" text-anchor="middle" fill="#111111">C</text>
+<rect x="754" y="236.67" width="24" height="63.33" rx="0" fill="#1a6fb5" stroke="#1a6fb5" stroke-width="1.2"/>
+<text x="766" y="231.67" font-size="12" text-anchor="middle" fill="#111111">3</text>
+<text x="766" y="317" font-size="12" text-anchor="middle" fill="#111111">R</text>
+<text x="736" y="336" font-size="12" text-anchor="middle" fill="#111111">leader rule</text>
+<text x="736" y="352" font-size="12" text-anchor="middle" fill="#111111">poll L, C</text>
+<text x="788" y="372" font-size="12" text-anchor="end" fill="#2e8b57">green bar: winner</text>
+</svg>

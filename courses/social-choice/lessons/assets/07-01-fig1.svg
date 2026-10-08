@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect x="0" y="0" width="720" height="400" fill="#ffffff"/>
+<line x1="70" y1="340" x2="560" y2="340" stroke="#333333" stroke-width="1.3"/>
+<line x1="70" y1="340" x2="70" y2="50" stroke="#333333" stroke-width="1.3"/>
+<line x1="70" y1="340" x2="70" y2="345" stroke="#333333" stroke-width="1"/>
+<line x1="70" y1="340" x2="70" y2="50" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="70" y="358" font-size="12" text-anchor="middle" fill="#333333">4</text>
+<line x1="119" y1="340" x2="119" y2="345" stroke="#333333" stroke-width="1"/>
+<line x1="119" y1="340" x2="119" y2="50" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="119" y="358" font-size="12" text-anchor="middle" fill="#333333">5</text>
+<line x1="168" y1="340" x2="168" y2="345" stroke="#333333" stroke-width="1"/>
+<line x1="168" y1="340" x2="168" y2="50" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="168" y="358" font-size="12" text-anchor="middle" fill="#333333">6</text>
+<line x1="217" y1="340" x2="217" y2="345" stroke="#333333" stroke-width="1"/>
+<line x1="217" y1="340" x2="217" y2="50" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="217" y="358" font-size="12" text-anchor="middle" fill="#333333">7</text>
+<line x1="266" y1="340" x2="266" y2="345" stroke="#333333" stroke-width="1"/>
+<line x1="266" y1="340" x2="266" y2="50" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="266" y="358" font-size="12" text-anchor="middle" fill="#333333">8</text>
+<line x1="315" y1="340" x2="315" y2="345" stroke="#333333" stroke-width="1"/>
+<line x1="315" y1="340" x2="315" y2="50" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="315" y="358" font-size="12" text-anchor="middle" fill="#333333">9</text>
+<line x1="364" y1="340" x2="364" y2="345" stroke="#333333" stroke-width="1"/>
+<line x1="364" y1="340" x2="364" y2="50" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="364" y="358" font-size="12" text-anchor="middle" fill="#333333">10</text>
+<line x1="413" y1="340" x2="413" y2="345" stroke="#333333" stroke-width="1"/>
+<line x1="413" y1="340" x2="413" y2="50" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="413" y="358" font-size="12" text-anchor="middle" fill="#333333">11</text>
+<line x1="462" y1="340" x2="462" y2="345" stroke="#333333" stroke-width="1"/>
+<line x1="462" y1="340" x2="462" y2="50" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="462" y="358" font-size="12" text-anchor="middle" fill="#333333">12</text>
+<line x1="511" y1="340" x2="511" y2="345" stroke="#333333" stroke-width="1"/>
+<line x1="511" y1="340" x2="511" y2="50" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="511" y="358" font-size="12" text-anchor="middle" fill="#333333">13</text>
+<line x1="560" y1="340" x2="560" y2="345" stroke="#333333" stroke-width="1"/>
+<line x1="560" y1="340" x2="560" y2="50" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="560" y="358" font-size="12" text-anchor="middle" fill="#333333">14</text>
+<line x1="65" y1="340" x2="70" y2="340" stroke="#333333" stroke-width="1"/>
+<line x1="70" y1="340" x2="560" y2="340" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="62" y="344" font-size="12" text-anchor="end" fill="#333333">0</text>
+<line x1="65" y1="298.57" x2="70" y2="298.57" stroke="#333333" stroke-width="1"/>
+<line x1="70" y1="298.57" x2="560" y2="298.57" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="62" y="302.57" font-size="12" text-anchor="end" fill="#333333">1</text>
+<line x1="65" y1="257.14" x2="70" y2="257.14" stroke="#333333" stroke-width="1"/>
+<line x1="70" y1="257.14" x2="560" y2="257.14" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="62" y="261.14" font-size="12" text-anchor="end" fill="#333333">2</text>
+<line x1="65" y1="215.71" x2="70" y2="215.71" stroke="#333333" stroke-width="1"/>
+<line x1="70" y1="215.71" x2="560" y2="215.71" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="62" y="219.71" font-size="12" text-anchor="end" fill="#333333">3</text>
+<line x1="65" y1="174.29" x2="70" y2="174.29" stroke="#333333" stroke-width="1"/>
+<line x1="70" y1="174.29" x2="560" y2="174.29" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="62" y="178.29" font-size="12" text-anchor="end" fill="#333333">4</text>
+<line x1="65" y1="132.86" x2="70" y2="132.86" stroke="#333333" stroke-width="1"/>
+<line x1="70" y1="132.86" x2="560" y2="132.86" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="62" y="136.86" font-size="12" text-anchor="end" fill="#333333">5</text>
+<line x1="65" y1="91.43" x2="70" y2="91.43" stroke="#333333" stroke-width="1"/>
+<line x1="70" y1="91.43" x2="560" y2="91.43" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="62" y="95.43" font-size="12" text-anchor="end" fill="#333333">6</text>
+<line x1="65" y1="50" x2="70" y2="50" stroke="#333333" stroke-width="1"/>
+<line x1="70" y1="50" x2="560" y2="50" stroke="#bbbbbb" stroke-width="0.8" stroke-dasharray="3,3"/>
+<text x="62" y="54" font-size="12" text-anchor="end" fill="#333333">7</text>
+<text x="315" y="378" font-size="13" text-anchor="middle" fill="#111111">house size h</text>
+<text x="70" y="38" font-size="13" text-anchor="start" fill="#111111">seats under Hamilton</text>
+<polyline points="70,294.57 119,294.57 168,294.57 217,294.57 266,294.57 315,253.14 364,294.57 413,253.14 462,253.14 511,253.14 560,253.14" fill="none" stroke="#d1495b" stroke-width="2.5"/>
+<circle cx="70" cy="294.57" r="3.5" fill="#d1495b" stroke="none" stroke-width="1"/>
+<circle cx="119" cy="294.57" r="3.5" fill="#d1495b" stroke="none" stroke-width="1"/>
+<circle cx="168" cy="294.57" r="3.5" fill="#d1495b" stroke="none" stroke-width="1"/>
+<circle cx="217" cy="294.57" r="3.5" fill="#d1495b" stroke="none" stroke-width="1"/>
+<circle cx="266" cy="294.57" r="3.5" fill="#d1495b" stroke="none" stroke-width="1"/>
+<circle cx="315" cy="253.14" r="3.5" fill="#d1495b" stroke="none" stroke-width="1"/>
+<circle cx="364" cy="294.57" r="3.5" fill="#d1495b" stroke="none" stroke-width="1"/>
+<circle cx="413" cy="253.14" r="3.5" fill="#d1495b" stroke="none" stroke-width="1"/>
+<circle cx="462" cy="253.14" r="3.5" fill="#d1495b" stroke="none" stroke-width="1"/>
+<circle cx="511" cy="253.14" r="3.5" fill="#d1495b" stroke="none" stroke-width="1"/>
+<circle cx="560" cy="253.14" r="3.5" fill="#d1495b" stroke="none" stroke-width="1"/>
+<polyline points="70,298.57 119,257.14 168,257.14 217,215.71 266,215.71 315,215.71 364,174.29 413,174.29 462,174.29 511,132.86 560,132.86" fill="none" stroke="#2e8b57" stroke-width="2.5"/>
+<circle cx="70" cy="298.57" r="3.5" fill="#2e8b57" stroke="none" stroke-width="1"/>
+<circle cx="119" cy="257.14" r="3.5" fill="#2e8b57" stroke="none" stroke-width="1"/>
+<circle cx="168" cy="257.14" r="3.5" fill="#2e8b57" stroke="none" stroke-width="1"/>
+<circle cx="217" cy="215.71" r="3.5" fill="#2e8b57" stroke="none" stroke-width="1"/>
+<circle cx="266" cy="215.71" r="3.5" fill="#2e8b57" stroke="none" stroke-width="1"/>
+<circle cx="315" cy="215.71" r="3.5" fill="#2e8b57" stroke="none" stroke-width="1"/>
+<circle cx="364" cy="174.29" r="3.5" fill="#2e8b57" stroke="none" stroke-width="1"/>
+<circle cx="413" cy="174.29" r="3.5" fill="#2e8b57" stroke="none" stroke-width="1"/>
+<circle cx="462" cy="174.29" r="3.5" fill="#2e8b57" stroke="none" stroke-width="1"/>
+<circle cx="511" cy="132.86" r="3.5" fill="#2e8b57" stroke="none" stroke-width="1"/>
+<circle cx="560" cy="132.86" r="3.5" fill="#2e8b57" stroke="none" stroke-width="1"/>
+<polyline points="70,261.14 119,261.14 168,219.71 217,219.71 266,178.29 315,178.29 364,136.86 413,136.86 462,95.43 511,95.43 560,54" fill="none" stroke="#1a6fb5" stroke-width="2.5"/>
+<circle cx="70" cy="261.14" r="3.5" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<circle cx="119" cy="261.14" r="3.5" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<circle cx="168" cy="219.71" r="3.5" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<circle cx="217" cy="219.71" r="3.5" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<circle cx="266" cy="178.29" r="3.5" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<circle cx="315" cy="178.29" r="3.5" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<circle cx="364" cy="136.86" r="3.5" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<circle cx="413" cy="136.86" r="3.5" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<circle cx="462" cy="95.43" r="3.5" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<circle cx="511" cy="95.43" r="3.5" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<circle cx="560" cy="54" r="3.5" fill="#1a6fb5" stroke="none" stroke-width="1"/>
+<circle cx="315" cy="253.14" r="8" fill="none" stroke="#d1495b" stroke-width="2"/>
+<circle cx="364" cy="294.57" r="8" fill="none" stroke="#d1495b" stroke-width="2"/>
+<text x="376" y="320.57" font-size="13" text-anchor="start" fill="#d1495b">A drops from 2 to 1</text>
+<text x="376" y="336.57" font-size="13" text-anchor="start" fill="#d1495b">as h goes from 9 to 10</text>
+<line x1="578" y1="66" x2="600" y2="66" stroke="#1a6fb5" stroke-width="2.5"/>
+<text x="606" y="70" font-size="12" text-anchor="start" fill="#111111">C, population 480</text>
+<line x1="578" y1="88" x2="600" y2="88" stroke="#2e8b57" stroke-width="2.5"/>
+<text x="606" y="92" font-size="12" text-anchor="start" fill="#111111">B, population 370</text>
+<line x1="578" y1="110" x2="600" y2="110" stroke="#d1495b" stroke-width="2.5"/>
+<text x="606" y="114" font-size="12" text-anchor="start" fill="#111111">A, population 150</text>
+<text x="578" y="146" font-size="12" text-anchor="start" fill="#333333">total 1,000</text>
+</svg>

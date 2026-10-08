@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 344" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect x="0" y="0" width="680" height="344" fill="#ffffff"/>
+<text x="327" y="22" font-size="13" text-anchor="middle" fill="#333333" font-style="italic">Premises</text>
+<text x="563" y="22" font-size="13" text-anchor="middle" fill="#333333" font-style="italic">Conclusion</text>
+<text x="209" y="54" font-size="13" text-anchor="middle" fill="#111111" font-weight="bold">Teaching</text>
+<text x="327" y="54" font-size="13" text-anchor="middle" fill="#111111" font-weight="bold">Research</text>
+<text x="445" y="54" font-size="13" text-anchor="middle" fill="#111111" font-weight="bold">Service</text>
+<text x="563" y="54" font-size="13" text-anchor="middle" fill="#111111" font-weight="bold">Tenure</text>
+<text x="138" y="90" font-size="13" text-anchor="end" fill="#111111">Member 1</text>
+<rect x="150" y="64" width="118" height="40" rx="0" fill="#f6dde1" stroke="#333333" stroke-width="1"/>
+<text x="209" y="90" font-size="13" text-anchor="middle" fill="#d1495b" font-weight="bold">no</text>
+<rect x="268" y="64" width="118" height="40" rx="0" fill="#dcefe4" stroke="#333333" stroke-width="1"/>
+<text x="327" y="90" font-size="13" text-anchor="middle" fill="#2e8b57" font-weight="bold">yes</text>
+<rect x="386" y="64" width="118" height="40" rx="0" fill="#dcefe4" stroke="#333333" stroke-width="1"/>
+<text x="445" y="90" font-size="13" text-anchor="middle" fill="#2e8b57" font-weight="bold">yes</text>
+<rect x="504" y="64" width="118" height="40" rx="0" fill="#f6dde1" stroke="#333333" stroke-width="1"/>
+<text x="563" y="90" font-size="13" text-anchor="middle" fill="#d1495b" font-weight="bold">no</text>
+<text x="138" y="130" font-size="13" text-anchor="end" fill="#111111">Member 2</text>
+<rect x="150" y="104" width="118" height="40" rx="0" fill="#dcefe4" stroke="#333333" stroke-width="1"/>
+<text x="209" y="130" font-size="13" text-anchor="middle" fill="#2e8b57" font-weight="bold">yes</text>
+<rect x="268" y="104" width="118" height="40" rx="0" fill="#f6dde1" stroke="#333333" stroke-width="1"/>
+<text x="327" y="130" font-size="13" text-anchor="middle" fill="#d1495b" font-weight="bold">no</text>
+<rect x="386" y="104" width="118" height="40" rx="0" fill="#dcefe4" stroke="#333333" stroke-width="1"/>
+<text x="445" y="130" font-size="13" text-anchor="middle" fill="#2e8b57" font-weight="bold">yes</text>
+<rect x="504" y="104" width="118" height="40" rx="0" fill="#f6dde1" stroke="#333333" stroke-width="1"/>
+<text x="563" y="130" font-size="13" text-anchor="middle" fill="#d1495b" font-weight="bold">no</text>
+<text x="138" y="170" font-size="13" text-anchor="end" fill="#111111">Member 3</text>
+<rect x="150" y="144" width="118" height="40" rx="0" fill="#dcefe4" stroke="#333333" stroke-width="1"/>
+<text x="209" y="170" font-size="13" text-anchor="middle" fill="#2e8b57" font-weight="bold">yes</text>
+<rect x="268" y="144" width="118" height="40" rx="0" fill="#dcefe4" stroke="#333333" stroke-width="1"/>
+<text x="327" y="170" font-size="13" text-anchor="middle" fill="#2e8b57" font-weight="bold">yes</text>
+<rect x="386" y="144" width="118" height="40" rx="0" fill="#f6dde1" stroke="#333333" stroke-width="1"/>
+<text x="445" y="170" font-size="13" text-anchor="middle" fill="#d1495b" font-weight="bold">no</text>
+<rect x="504" y="144" width="118" height="40" rx="0" fill="#f6dde1" stroke="#333333" stroke-width="1"/>
+<text x="563" y="170" font-size="13" text-anchor="middle" fill="#d1495b" font-weight="bold">no</text>
+<text x="138" y="220" font-size="13" text-anchor="end" fill="#111111" font-weight="bold">Majority</text>
+<rect x="150" y="194" width="118" height="40" rx="0" fill="#dcefe4" stroke="#111111" stroke-width="2"/>
+<text x="209" y="220" font-size="13" text-anchor="middle" fill="#2e8b57" font-weight="bold">yes 2 to 1</text>
+<rect x="268" y="194" width="118" height="40" rx="0" fill="#dcefe4" stroke="#111111" stroke-width="2"/>
+<text x="327" y="220" font-size="13" text-anchor="middle" fill="#2e8b57" font-weight="bold">yes 2 to 1</text>
+<rect x="386" y="194" width="118" height="40" rx="0" fill="#dcefe4" stroke="#111111" stroke-width="2"/>
+<text x="445" y="220" font-size="13" text-anchor="middle" fill="#2e8b57" font-weight="bold">yes 2 to 1</text>
+<rect x="504" y="194" width="118" height="40" rx="0" fill="#f6dde1" stroke="#111111" stroke-width="2"/>
+<text x="563" y="220" font-size="13" text-anchor="middle" fill="#d1495b" font-weight="bold">no 0 to 3</text>
+<line x1="504" y1="16" x2="504" y2="240" stroke="#1a6fb5" stroke-width="2.5" stroke-dasharray="6,4"/>
+<text x="20" y="268" font-size="13" text-anchor="start" fill="#1a6fb5">Premise-based: majority accepts all three premises, so the doctrine says tenure.</text>
+<text x="20" y="292" font-size="13" text-anchor="start" fill="#d1495b">Conclusion-based: no member votes for tenure, so it fails 0 to 3.</text>
+<text x="20" y="316" font-size="13" text-anchor="start" fill="#111111">Majority row: teaching, research, service, and not tenure. That set is inconsistent.</text>
+</svg>

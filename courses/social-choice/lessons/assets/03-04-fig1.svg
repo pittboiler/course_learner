@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333333"/></marker></defs>
+<rect x="0" y="0" width="760" height="400" fill="#ffffff"/>
+<text x="380" y="24" font-size="15" text-anchor="middle" fill="#111111" font-weight="bold">Example 1: who prefers what, voters lined up 1 to 9</text>
+<text x="173" y="48" font-size="13" text-anchor="middle" fill="#111111">1</text>
+<text x="173" y="66" font-size="11" text-anchor="middle" fill="#333333">ABCD</text>
+<text x="219" y="48" font-size="13" text-anchor="middle" fill="#111111">2</text>
+<text x="219" y="66" font-size="11" text-anchor="middle" fill="#333333">ABCD</text>
+<text x="265" y="48" font-size="13" text-anchor="middle" fill="#111111">3</text>
+<text x="265" y="66" font-size="11" text-anchor="middle" fill="#333333">ABCD</text>
+<text x="311" y="48" font-size="13" text-anchor="middle" fill="#111111">4</text>
+<text x="311" y="66" font-size="11" text-anchor="middle" fill="#333333">ABDC</text>
+<text x="357" y="48" font-size="13" text-anchor="middle" fill="#111111" font-weight="bold">5</text>
+<text x="357" y="66" font-size="11" text-anchor="middle" fill="#333333">BDAC</text>
+<text x="403" y="48" font-size="13" text-anchor="middle" fill="#111111">6</text>
+<text x="403" y="66" font-size="11" text-anchor="middle" fill="#333333">BDAC</text>
+<text x="449" y="48" font-size="13" text-anchor="middle" fill="#111111">7</text>
+<text x="449" y="66" font-size="11" text-anchor="middle" fill="#333333">DBCA</text>
+<text x="495" y="48" font-size="13" text-anchor="middle" fill="#111111">8</text>
+<text x="495" y="66" font-size="11" text-anchor="middle" fill="#333333">DBCA</text>
+<text x="541" y="48" font-size="13" text-anchor="middle" fill="#111111">9</text>
+<text x="541" y="66" font-size="11" text-anchor="middle" fill="#333333">DBCA</text>
+<text x="138" y="48" font-size="12" text-anchor="end" fill="#111111">voter</text>
+<text x="138" y="66" font-size="12" text-anchor="end" fill="#111111">ranking</text>
+<text x="634" y="66" font-size="12" text-anchor="middle" fill="#111111">majority</text>
+<text x="138" y="103" font-size="13" text-anchor="end" fill="#111111">A vs B</text>
+<rect x="150" y="78" width="46" height="40" rx="0" fill="#dbe8f5" stroke="#ffffff" stroke-width="1.5"/>
+<text x="173" y="103" font-size="14" text-anchor="middle" fill="#1a6fb5">A</text>
+<rect x="196" y="78" width="46" height="40" rx="0" fill="#dbe8f5" stroke="#ffffff" stroke-width="1.5"/>
+<text x="219" y="103" font-size="14" text-anchor="middle" fill="#1a6fb5">A</text>
+<rect x="242" y="78" width="46" height="40" rx="0" fill="#dbe8f5" stroke="#ffffff" stroke-width="1.5"/>
+<text x="265" y="103" font-size="14" text-anchor="middle" fill="#1a6fb5">A</text>
+<rect x="288" y="78" width="46" height="40" rx="0" fill="#dbe8f5" stroke="#ffffff" stroke-width="1.5"/>
+<text x="311" y="103" font-size="14" text-anchor="middle" fill="#1a6fb5">A</text>
+<rect x="334" y="78" width="46" height="40" rx="0" fill="#f6dde1" stroke="#ffffff" stroke-width="1.5"/>
+<text x="357" y="103" font-size="14" text-anchor="middle" fill="#d1495b">B</text>
+<rect x="380" y="78" width="46" height="40" rx="0" fill="#f6dde1" stroke="#ffffff" stroke-width="1.5"/>
+<text x="403" y="103" font-size="14" text-anchor="middle" fill="#d1495b">B</text>
+<rect x="426" y="78" width="46" height="40" rx="0" fill="#f6dde1" stroke="#ffffff" stroke-width="1.5"/>
+<text x="449" y="103" font-size="14" text-anchor="middle" fill="#d1495b">B</text>
+<rect x="472" y="78" width="46" height="40" rx="0" fill="#f6dde1" stroke="#ffffff" stroke-width="1.5"/>
+<text x="495" y="103" font-size="14" text-anchor="middle" fill="#d1495b">B</text>
+<rect x="518" y="78" width="46" height="40" rx="0" fill="#f6dde1" stroke="#ffffff" stroke-width="1.5"/>
+<text x="541" y="103" font-size="14" text-anchor="middle" fill="#d1495b">B</text>
+<text x="634" y="103" font-size="13" text-anchor="middle" fill="#111111" font-weight="bold">B wins 5-4</text>
+<text x="138" y="143" font-size="13" text-anchor="end" fill="#111111">A vs C</text>
+<rect x="150" y="118" width="46" height="40" rx="0" fill="#dbe8f5" stroke="#ffffff" stroke-width="1.5"/>
+<text x="173" y="143" font-size="14" text-anchor="middle" fill="#1a6fb5">A</text>
+<rect x="196" y="118" width="46" height="40" rx="0" fill="#dbe8f5" stroke="#ffffff" stroke-width="1.5"/>
+<text x="219" y="143" font-size="14" text-anchor="middle" fill="#1a6fb5">A</text>
+<rect x="242" y="118" width="46" height="40" rx="0" fill="#dbe8f5" stroke="#ffffff" stroke-width="1.5"/>
+<text x="265" y="143" font-size="14" text-anchor="middle" fill="#1a6fb5">A</text>
+<rect x="288" y="118" width="46" height="40" rx="0" fill="#dbe8f5" stroke="#ffffff" stroke-width="1.5"/>
+<text x="311" y="143" font-size="14" text-anchor="middle" fill="#1a6fb5">A</text>
+<rect x="334" y="118" width="46" height="40" rx="0" fill="#dbe8f5" stroke="#ffffff" stroke-width="1.5"/>
+<text x="357" y="143" font-size="14" text-anchor="middle" fill="#1a6fb5">A</text>
+<rect x="380" y="118" width="46" height="40" rx="0" fill="#dbe8f5" stroke="#ffffff" stroke-width="1.5"/>
+<text x="403" y="143" font-size="14" text-anchor="middle" fill="#1a6fb5">A</text>
+<rect x="426" y="118" width="46" height="40" rx="0" fill="#f6dde1" stroke="#ffffff" stroke-width="1.5"/>
+<text x="449" y="143" font-size="14" text-anchor="middle" fill="#d1495b">C</text>
+<rect x="472" y="118" width="46" height="40" rx="0" fill="#f6dde1" stroke="#ffffff" stroke-width="1.5"/>
+<text x="495" y="143" font-size="14" text-anchor="middle" fill="#d1495b">C</text>
+<rect x="518" y="118" width="46" height="40" rx="0" fill="#f6dde1" stroke="#ffffff" stroke-width="1.5"/>
+<text x="541" y="143" font-size="14" text-anchor="middle" fill="#d1495b">C</text>
+<text x="634" y="143" font-size="13" text-anchor="middle" fill="#111111" font-weight="bold">A wins 6-3</text>
+<text x="138" y="183" font-size="13" text-anchor="end" fill="#111111">A vs D</text>
+<rect x="150" y="158" width="46" height="40" rx="0" fill="#dbe8f5" stroke="#ffffff" stroke-width="1.5"/>
+<text x="173" y="183" font-size="14" text-anchor="middle" fill="#1a6fb5">A</text>
+<rect x="196" y="158" width="46" height="40" rx="0" fill="#dbe8f5" stroke="#ffffff" stroke-width="1.5"/>
+<text x="219" y="183" font-size="14" text-anchor="middle" fill="#1a6fb5">A</text>
+<rect x="242" y="158" width="46" height="40" rx="0" fill="#dbe8f5" stroke="#ffffff" stroke-width="1.5"/>
+<text x="265" y="183" font-size="14" text-anchor="middle" fill="#1a6fb5">A</text>
+<rect x="288" y="158" width="46" height="40" rx="0" fill="#dbe8f5" stroke="#ffffff" stroke-width="1.5"/>
+<text x="311" y="183" font-size="14" text-anchor="middle" fill="#1a6fb5">A</text>
+<rect x="334" y="158" width="46" height="40" rx="0" fill="#f6dde1" stroke="#ffffff" stroke-width="1.5"/>
+<text x="357" y="183" font-size="14" text-anchor="middle" fill="#d1495b">D</text>
+<rect x="380" y="158" width="46" height="40" rx="0" fill="#f6dde1" stroke="#ffffff" stroke-width="1.5"/>
+<text x="403" y="183" font-size="14" text-anchor="middle" fill="#d1495b">D</text>
+<rect x="426" y="158" width="46" height="40" rx="0" fill="#f6dde1" stroke="#ffffff" stroke-width="1.5"/>
+<text x="449" y="183" font-size="14" text-anchor="middle" fill="#d1495b">D</text>
+<rect x="472" y="158" width="46" height="40" rx="0" fill="#f6dde1" stroke="#ffffff" stroke-width="1.5"/>
+<text x="495" y="183" font-size="14" text-anchor="middle" fill="#d1495b">D</text>
+<rect x="518" y="158" width="46" height="40" rx="0" fill="#f6dde1" stroke="#ffffff" stroke-width="1.5"/>
+<text x="541" y="183" font-size="14" text-anchor="middle" fill="#d1495b">D</text>
+<text x="634" y="183" font-size="13" text-anchor="middle" fill="#111111" font-weight="bold">D wins 5-4</text>
+<text x="138" y="223" font-size="13" text-anchor="end" fill="#111111">B vs C</text>
+<rect x="150" y="198" width="46" height="40" rx="0" fill="#dbe8f5" stroke="#ffffff" stroke-width="1.5"/>
+<text x="173" y="223" font-size="14" text-anchor="middle" fill="#1a6fb5">B</text>
+<rect x="196" y="198" width="46" height="40" rx="0" fill="#dbe8f5" stroke="#ffffff" stroke-width="1.5"/>
+<text x="219" y="223" font-size="14" text-anchor="middle" fill="#1a6fb5">B</text>
+<rect x="242" y="198" width="46" height="40" rx="0" fill="#dbe8f5" stroke="#ffffff" stroke-width="1.5"/>
+<text x="265" y="223" font-size="14" text-anchor="middle" fill="#1a6fb5">B</text>
+<rect x="288" y="198" width="46" height="40" rx="0" fill="#dbe8f5" stroke="#ffffff" stroke-width="1.5"/>
+<text x="311" y="223" font-size="14" text-anchor="middle" fill="#1a6fb5">B</text>
+<rect x="334" y="198" width="46" height="40" rx="0" fill="#dbe8f5" stroke="#ffffff" stroke-width="1.5"/>
+<text x="357" y="223" font-size="14" text-anchor="middle" fill="#1a6fb5">B</text>
+<rect x="380" y="198" width="46" height="40" rx="0" fill="#dbe8f5" stroke="#ffffff" stroke-width="1.5"/>
+<text x="403" y="223" font-size="14" text-anchor="middle" fill="#1a6fb5">B</text>
+<rect x="426" y="198" width="46" height="40" rx="0" fill="#dbe8f5" stroke="#ffffff" stroke-width="1.5"/>
+<text x="449" y="223" font-size="14" text-anchor="middle" fill="#1a6fb5">B</text>
+<rect x="472" y="198" width="46" height="40" rx="0" fill="#dbe8f5" stroke="#ffffff" stroke-width="1.5"/>
+<text x="495" y="223" font-size="14" text-anchor="middle" fill="#1a6fb5">B</text>
+<rect x="518" y="198" width="46" height="40" rx="0" fill="#dbe8f5" stroke="#ffffff" stroke-width="1.5"/>
+<text x="541" y="223" font-size="14" text-anchor="middle" fill="#1a6fb5">B</text>
+<text x="634" y="223" font-size="13" text-anchor="middle" fill="#111111" font-weight="bold">B wins 9-0</text>
+<text x="138" y="263" font-size="13" text-anchor="end" fill="#111111">B vs D</text>
+<rect x="150" y="238" width="46" height="40" rx="0" fill="#dbe8f5" stroke="#ffffff" stroke-width="1.5"/>
+<text x="173" y="263" font-size="14" text-anchor="middle" fill="#1a6fb5">B</text>
+<rect x="196" y="238" width="46" height="40" rx="0" fill="#dbe8f5" stroke="#ffffff" stroke-width="1.5"/>
+<text x="219" y="263" font-size="14" text-anchor="middle" fill="#1a6fb5">B</text>
+<rect x="242" y="238" width="46" height="40" rx="0" fill="#dbe8f5" stroke="#ffffff" stroke-width="1.5"/>
+<text x="265" y="263" font-size="14" text-anchor="middle" fill="#1a6fb5">B</text>
+<rect x="288" y="238" width="46" height="40" rx="0" fill="#dbe8f5" stroke="#ffffff" stroke-width="1.5"/>
+<text x="311" y="263" font-size="14" text-anchor="middle" fill="#1a6fb5">B</text>
+<rect x="334" y="238" width="46" height="40" rx="0" fill="#dbe8f5" stroke="#ffffff" stroke-width="1.5"/>
+<text x="357" y="263" font-size="14" text-anchor="middle" fill="#1a6fb5">B</text>
+<rect x="380" y="238" width="46" height="40" rx="0" fill="#dbe8f5" stroke="#ffffff" stroke-width="1.5"/>
+<text x="403" y="263" font-size="14" text-anchor="middle" fill="#1a6fb5">B</text>
+<rect x="426" y="238" width="46" height="40" rx="0" fill="#f6dde1" stroke="#ffffff" stroke-width="1.5"/>
+<text x="449" y="263" font-size="14" text-anchor="middle" fill="#d1495b">D</text>
+<rect x="472" y="238" width="46" height="40" rx="0" fill="#f6dde1" stroke="#ffffff" stroke-width="1.5"/>
+<text x="495" y="263" font-size="14" text-anchor="middle" fill="#d1495b">D</text>
+<rect x="518" y="238" width="46" height="40" rx="0" fill="#f6dde1" stroke="#ffffff" stroke-width="1.5"/>
+<text x="541" y="263" font-size="14" text-anchor="middle" fill="#d1495b">D</text>
+<text x="634" y="263" font-size="13" text-anchor="middle" fill="#111111" font-weight="bold">B wins 6-3</text>
+<text x="138" y="303" font-size="13" text-anchor="end" fill="#111111">C vs D</text>
+<rect x="150" y="278" width="46" height="40" rx="0" fill="#dbe8f5" stroke="#ffffff" stroke-width="1.5"/>
+<text x="173" y="303" font-size="14" text-anchor="middle" fill="#1a6fb5">C</text>
+<rect x="196" y="278" width="46" height="40" rx="0" fill="#dbe8f5" stroke="#ffffff" stroke-width="1.5"/>
+<text x="219" y="303" font-size="14" text-anchor="middle" fill="#1a6fb5">C</text>
+<rect x="242" y="278" width="46" height="40" rx="0" fill="#dbe8f5" stroke="#ffffff" stroke-width="1.5"/>
+<text x="265" y="303" font-size="14" text-anchor="middle" fill="#1a6fb5">C</text>
+<rect x="288" y="278" width="46" height="40" rx="0" fill="#f6dde1" stroke="#ffffff" stroke-width="1.5"/>
+<text x="311" y="303" font-size="14" text-anchor="middle" fill="#d1495b">D</text>
+<rect x="334" y="278" width="46" height="40" rx="0" fill="#f6dde1" stroke="#ffffff" stroke-width="1.5"/>
+<text x="357" y="303" font-size="14" text-anchor="middle" fill="#d1495b">D</text>
+<rect x="380" y="278" width="46" height="40" rx="0" fill="#f6dde1" stroke="#ffffff" stroke-width="1.5"/>
+<text x="403" y="303" font-size="14" text-anchor="middle" fill="#d1495b">D</text>
+<rect x="426" y="278" width="46" height="40" rx="0" fill="#f6dde1" stroke="#ffffff" stroke-width="1.5"/>
+<text x="449" y="303" font-size="14" text-anchor="middle" fill="#d1495b">D</text>
+<rect x="472" y="278" width="46" height="40" rx="0" fill="#f6dde1" stroke="#ffffff" stroke-width="1.5"/>
+<text x="495" y="303" font-size="14" text-anchor="middle" fill="#d1495b">D</text>
+<rect x="518" y="278" width="46" height="40" rx="0" fill="#f6dde1" stroke="#ffffff" stroke-width="1.5"/>
+<text x="541" y="303" font-size="14" text-anchor="middle" fill="#d1495b">D</text>
+<text x="634" y="303" font-size="13" text-anchor="middle" fill="#111111" font-weight="bold">D wins 6-3</text>
+<rect x="334" y="34" width="46" height="288" rx="0" fill="none" stroke="#2e8b57" stroke-width="3"/>
+<text x="357" y="340" font-size="13" text-anchor="middle" fill="#2e8b57" font-weight="bold">median voter 5</text>
+<text x="380" y="366" font-size="12" text-anchor="middle" fill="#333333">Each row switches color at most once; voter 5 sits on the winning side of every row.</text>
+</svg>
