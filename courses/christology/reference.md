@@ -1812,7 +1812,7 @@ it up is a bug.
 |---|---|
 | The ladder of doctrinal authority and the assent each rung asks | [`fundamental-theology` 4.4](../fundamental-theology/lessons/04-04-the-ladder-of-doctrinal-authority.md) |
 | Reading a document's weight; the *responsum* genre; a Catechism keeps its sources' weight | [`fundamental-theology` 4.5](../fundamental-theology/lessons/04-05-reading-a-documents-weight.md) |
-| Infallibility and its conditions (the Honorius question) | [`fundamental-theology` 4.2](../fundamental-theology/lessons/04-02-infallibility-and-its-conditions.md) |
+| Infallibility and its conditions (the Honorius question) | [`fundamental-theology` 4.2](../fundamental-theology/lessons/04-02-infallibility-and-its-conditions.md) for the conditions; [`ecclesiology-and-mariology` 4.4](../ecclesiology-and-mariology/lessons/04-04-infallibility-in-exercise-and-the-ordinary-universal-magisterium.md) runs them on Honorius |
 | Vincent's canon; Newman's notes of development | [`fundamental-theology` 5.1](../fundamental-theology/lessons/05-01-vincent-of-lerins.md), [5.2](../fundamental-theology/lessons/05-02-newmans-theory-of-development.md) |
 | Chapter versus canon; what a DH number is and is not | [`fundamental-theology` 1.1](../fundamental-theology/lessons/01-01-what-fundamental-theology-asks.md) |
 | Divine immutability, eternity, immensity as defined | [`trinity-and-god` 1.4](../trinity-and-god/lessons/01-04-immutability-eternity-immensity.md) |
