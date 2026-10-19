@@ -288,8 +288,8 @@ changes the brief lists) → roots (`ethics`, `fundamental-theology`,
 - [x] `trinity-and-god` — The Triune God (2, 25) — syllabus ✓ (2026-09-15) — **lessons ✓** (25 lessons + reference card, prepped 2026-09-23)
 - [x] `christology` — Christology (2, 24) — syllabus ✓ (2026-09-15) — **lessons ✓** (24 lessons + reference card, prepped 2026-09-23)
 - [ ] `creation-grace-last-things` — Creation, Grace & the Last Things (2, 28) — syllabus ✓ (2026-09-15), lessons pending
-- [ ] `ecclesiology-and-mariology` — The Church & Mary (2, 25) — syllabus ✓ (2026-09-15), lessons pending
-- [ ] `sacraments-and-liturgy` — Sacraments & Liturgy (2, 25) — syllabus ✓ (2026-09-15), lessons pending
+- [x] `ecclesiology-and-mariology` — The Church & Mary (2, 25) — syllabus ✓ (2026-09-15), built 2026-10-10 (25 lessons + reference card)
+- [x] `sacraments-and-liturgy` — Sacraments & Liturgy (2, 25) — syllabus ✓ (2026-09-15), built 2026-10-12 (25 lessons + reference card)
 - [x] `moral-theology` — Moral Theology (2, 28) — syllabus ✓ (2026-09-15) — **lessons ✓** (28 lessons + reference card, prepped 2026-09-25)
 - [ ] `catholic-social-teaching` — Catholic Social Teaching (2, 27) — syllabus ✓ (2026-09-15), lessons pending
 - [x] `apologetics-foundations` — Apologetics I: God, Christ & the Religions (2, 31) — syllabus ✓ (2026-09-15), built 2026-10-06 (31 lessons + reference card)

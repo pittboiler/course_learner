@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 580" width="800" height="580" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="800" height="580" fill="#ffffff"/>
+<text x="20" y="32" font-size="18" font-weight="bold" fill="#111">The liturgical year, Advent 2025 to Advent 2026 (364 days)</text>
+<path d="M 330.0 90.0 A 195 195 0 0 1 411.6 107.9 L 375.2 186.9 A 108 108 0 0 0 330.0 177.0 Z" fill="#7b4fa0" stroke="#333" stroke-width="1.5"/>
+<path d="M 411.6 107.9 A 195 195 0 0 1 461.8 141.3 L 403.0 205.4 A 108 108 0 0 0 375.2 186.9 Z" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+<path d="M 461.8 141.3 A 195 195 0 0 1 521.5 248.2 L 436.1 264.6 A 108 108 0 0 0 403.0 205.4 Z" fill="#2e8b57" stroke="#333" stroke-width="1.5"/>
+<path d="M 521.5 248.2 A 195 195 0 0 1 494.2 390.2 L 420.9 343.2 A 108 108 0 0 0 436.1 264.6 Z" fill="#7b4fa0" stroke="#333" stroke-width="1.5"/>
+<path d="M 494.2 390.2 A 195 195 0 0 1 488.5 398.5 L 417.8 347.9 A 108 108 0 0 0 420.9 343.2 Z" fill="#c9a227" stroke="#111" stroke-width="2.5"/>
+<path d="M 488.5 398.5 A 195 195 0 0 1 350.2 479.0 L 341.2 392.4 A 108 108 0 0 0 417.8 347.9 Z" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+<path d="M 350.2 479.0 A 195 195 0 1 1 330.0 90.0 L 330.0 177.0 A 108 108 0 1 0 341.2 392.4 Z" fill="#2e8b57" stroke="#333" stroke-width="1.5"/>
+<line x1="372.4" y1="91.6" x2="389.0" y2="66.0" stroke="#333" stroke-width="1"/>
+<text x="395" y="70" font-size="14" font-weight="bold" fill="#111" text-anchor="start">Advent: 25 days</text>
+<line x1="439.6" y1="120.1" x2="464.0" y2="108.0" stroke="#333" stroke-width="1"/>
+<text x="470" y="112" font-size="14" font-weight="bold" fill="#111" text-anchor="start">Christmas Time: 18 days</text>
+<line x1="502.9" y1="188.5" x2="542.0" y2="178.0" stroke="#333" stroke-width="1"/>
+<text x="548" y="182" font-size="14" font-weight="bold" fill="#111" text-anchor="start">Ordinary Time: 37 days</text>
+<line x1="524.4" y1="322.4" x2="554.0" y2="296.0" stroke="#333" stroke-width="1"/>
+<text x="560" y="300" font-size="14" font-weight="bold" fill="#111" text-anchor="start">Lent: 44 days</text>
+<text x="560" y="317" font-size="14" fill="#111" text-anchor="start">from Ash Wednesday</text>
+<line x1="493.9" y1="396.1" x2="542.0" y2="396.0" stroke="#333" stroke-width="1"/>
+<text x="548" y="400" font-size="14" font-weight="bold" fill="#111" text-anchor="start">Paschal Triduum: the hinge</text>
+<text x="548" y="417" font-size="14" fill="#111" text-anchor="start">Holy Thursday evening to</text>
+<text x="548" y="434" font-size="14" fill="#111" text-anchor="start">Easter Sunday evening</text>
+<line x1="429.5" y1="456.2" x2="464.0" y2="496.0" stroke="#333" stroke-width="1"/>
+<text x="470" y="500" font-size="14" font-weight="bold" fill="#111" text-anchor="start">Easter Time: 50 days,</text>
+<text x="470" y="517" font-size="14" fill="#111" text-anchor="start">Easter Sunday to Pentecost</text>
+<line x1="132.3" y1="295.2" x2="124.0" y2="296.0" stroke="#333" stroke-width="1"/>
+<text x="118" y="300" font-size="14" font-weight="bold" fill="#111" text-anchor="end">Ordinary Time</text>
+<text x="118" y="317" font-size="14" fill="#111" text-anchor="end">after Pentecost:</text>
+<text x="118" y="334" font-size="14" fill="#111" text-anchor="end">188 days</text>
+<text x="330" y="245" font-size="15" font-weight="bold" fill="#111" text-anchor="middle">Every Sunday:</text>
+<text x="330" y="266" font-size="14" font-weight="normal" fill="#111" text-anchor="middle">a weekly Easter</text>
+<text x="330" y="302" font-size="15" font-weight="bold" fill="#111" text-anchor="middle">Easter:</text>
+<text x="330" y="323" font-size="14" font-weight="normal" fill="#111" text-anchor="middle">the Sunday of the year</text>
+<line x1="330.0" y1="181.0" x2="330.0" y2="76.0" stroke="#d1495b" stroke-width="2.5"/>
+<text x="322.0" y="70.0" font-size="13" fill="#111" text-anchor="end">year begins: First Sunday of Advent</text>
+<rect x="20" y="522" width="14" height="14" fill="#7b4fa0" stroke="#333" stroke-width="1"/>
+<text x="40" y="534" font-size="13" fill="#111">violet: Advent and Lent</text>
+<rect x="260" y="522" width="14" height="14" fill="#ffffff" stroke="#333" stroke-width="1"/>
+<text x="280" y="534" font-size="13" fill="#111">white: Christmas and Easter Time</text>
+<rect x="20" y="548" width="14" height="14" fill="#2e8b57" stroke="#333" stroke-width="1"/>
+<text x="40" y="560" font-size="13" fill="#111">green: Ordinary Time</text>
+<rect x="260" y="548" width="14" height="14" fill="#c9a227" stroke="#333" stroke-width="1"/>
+<text x="280" y="560" font-size="13" fill="#111">gold: marks the Triduum, the hinge</text>
+</svg>
