@@ -1949,7 +1949,7 @@ The sudden change of mood in a lament is a convention of the form, not a psychol
 Davidic psalms shows collections joined over time. Individual psalms run from the monarchy to
 after the exile (reconstructed); the Psalter's final shape is disputed (the Cave 11 Psalms
 Scroll's different order). **Status:** scholarly analysis, no magisterial level. The liturgical
-use is [`sacraments-and-liturgy`](../sacraments-and-liturgy/syllabus.md) 6.2.
+use is [`sacraments-and-liturgy`](../sacraments-and-liturgy/syllabus.md) [6.2](../sacraments-and-liturgy/lessons/06-02-the-liturgical-year-and-the-liturgy-of-the-hours.md).
 
 *Introduced:* [5.1](lessons/05-01-the-psalms.md)
 

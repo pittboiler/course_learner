@@ -53,7 +53,7 @@ Defenders add that Paul VI himself reopened the question for examination (HV 6) 
 
 - **HV is a definition: no.** Neither reading says it is.
 - **The norm is at least authentic ordinary magisterium (rung 3), owed religious submission.** This is not disputed. Its markers are the heaviest that rung has.
-- **Whether it is infallibly taught (rung 1 or 2) is freely disputed.** No magisterial act has settled the point. By contrast, the CDF's 1995 response did settle it for *Ordinatio Sacerdotalis*.
+- **Whether it is infallibly taught (rung 1 or 2) is freely disputed.** No magisterial act has settled the point. By contrast, the CDF's 1995 response did address it for *Ordinatio Sacerdotalis*, stating that teaching to be set forth infallibly by the ordinary and universal magisterium; whether that response itself settles rung 1 against rung 2 is disputed ([`fundamental-theology` 4.4](../../fundamental-theology/lessons/04-04-the-ladder-of-doctrinal-authority.md)).
 - **The assent owed** is firm and irrevocable if Reading A is right, and religious submission if Reading B is right. On neither reading is the teaching optional.
 
 ## Map of positions

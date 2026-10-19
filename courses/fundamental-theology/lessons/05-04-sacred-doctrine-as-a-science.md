@@ -224,7 +224,7 @@ And from a.8 —
 
 **F (🟡) *(Exegetical.)*** From [5.2](05-02-newmans-theory-of-development.md). An invented paragraph from a lecture, defending a technical term as a development rather than an innovation:
 
-> "The word is thirteenth-century; nothing it says is. The earliest liturgies already handle the consecrated elements as the Lord's own body and arrange their whole ritual around that, centuries before there was any controversy to win by saying so. When the Aristotelian vocabulary of substance and accident became available, the Church took it up and made it carry what she had been doing all along. And once the term was fixed, it became harder, not easier, to read the earlier centuries as having meant something thinner."
+> "The word is twelfth-century; nothing it says is. The earliest liturgies already handle the consecrated elements as the Lord's own body and arrange their whole ritual around that, centuries before there was any controversy to win by saying so. When the Aristotelian vocabulary of substance and accident became available, the Church took it up and made it carry what she had been doing all along. And once the term was fixed, it became harder, not easier, to read the earlier centuries as having meant something thinner."
 
 (a) The paragraph leans on three of Newman's seven notes. Name each and quote the clause that carries it. (b) Name one note it does not address at all, and say in one sentence what the lecturer would have to show to satisfy it. (c) In one sentence: why does the gap you found in (b) not by itself convict the development of being a corruption? Bound the whole answer at 150 words.
 

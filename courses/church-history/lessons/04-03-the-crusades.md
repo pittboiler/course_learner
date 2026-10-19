@@ -20,7 +20,7 @@ Canon 2 of the Council of Clermont (1095). No official record of the council sur
 >
 > Whoever, out of devotion alone and not to gain honour or money, sets out for Jerusalem to liberate the Church of God, let that journey be counted to him in place of all penance.
 
-Read it with the [four questions for a source](../reference.md#four-questions-for-a-source). It is a disciplinary canon of a regional council, not a doctrinal definition. Three features decide what it offers. The reward attaches to the *journey*, not to killing. It is **conditional on intention**: devotion alone, not honour or money. And what it remits is *penance*, the satisfaction a confessor imposed for sins already confessed. It is not a promise of heaven. This is the [crusade indulgence](../reference.md#crusade-indulgence) in its earliest surviving form. Its later theology belongs to [`sacraments-and-liturgy`](../../sacraments-and-liturgy/syllabus.md), and the treasury of merit behind it to [`theology-of-debt`](../../theology-of-debt/syllabus.md).
+Read it with the [four questions for a source](../reference.md#four-questions-for-a-source). It is a disciplinary canon of a regional council, not a doctrinal definition. Three features decide what it offers. The reward attaches to the *journey*, not to killing. It is **conditional on intention**: devotion alone, not honour or money. And what it remits is *penance*, the satisfaction a confessor imposed for sins already confessed. It is not a promise of heaven. This is the [crusade indulgence](../reference.md#crusade-indulgence) in its earliest surviving form. Its later theology, with the treasury of merit behind it, belongs to [`theology-of-debt`](../../theology-of-debt/syllabus.md).
 
 ## The record
 

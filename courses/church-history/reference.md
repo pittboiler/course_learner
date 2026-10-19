@@ -325,7 +325,7 @@ The two readings of Rome's first-millennium standing: presidency within a commun
 
 In its earliest form, remission of penance for the journey to Jerusalem made with pure intention.
 
-Canon 2 of Clermont (1095), known only from participants' notes such as Bishop Lambert of Arras's (no official record survives): "Whoever, out of devotion alone and not to gain honour or money, sets out for Jerusalem to liberate the Church of God, let that journey be counted to him in place of all penance" (lesson's translation). A disciplinary canon of a regional council, not a definition. Three features: the reward attaches to the **journey**, not to killing; it is **conditional on intention**; it remits **penance** (satisfaction for confessed sins), not sin as such and not a promise of heaven. Preachers and chroniclers promised more (Fulcher's Urban: "immediate remission of sins" for those who die on the way or in battle; Thatcher, 1905), and many crusaders believed them: the canon is better evidence of what Urban offered, Fulcher of what crusaders came to believe. Later theology: [`sacraments-and-liturgy`](../sacraments-and-liturgy/syllabus.md); treasury of merit: [`theology-of-debt`](../theology-of-debt/syllabus.md). (Comparing the speech versions is Boss 4.)
+Canon 2 of Clermont (1095), known only from participants' notes such as Bishop Lambert of Arras's (no official record survives): "Whoever, out of devotion alone and not to gain honour or money, sets out for Jerusalem to liberate the Church of God, let that journey be counted to him in place of all penance" (lesson's translation). A disciplinary canon of a regional council, not a definition. Three features: the reward attaches to the **journey**, not to killing; it is **conditional on intention**; it remits **penance** (satisfaction for confessed sins), not sin as such and not a promise of heaven. Preachers and chroniclers promised more (Fulcher's Urban: "immediate remission of sins" for those who die on the way or in battle; Thatcher, 1905), and many crusaders believed them: the canon is better evidence of what Urban offered, Fulcher of what crusaders came to believe. Later theology and the treasury of merit: [`theology-of-debt`](../theology-of-debt/syllabus.md); indulgences as present practice: [`sacraments-and-liturgy` 4.2](../sacraments-and-liturgy/lessons/04-02-indulgences-as-a-practice.md). (Comparing the speech versions is Boss 4.)
 
 *Introduced:* [4.3](lessons/04-03-the-crusades.md)
 
@@ -1739,7 +1739,7 @@ The majority of a papal birth-control commission had favoured change (reports to
 
 Archbishop Lefebvre's consecration of four bishops without papal mandate, 30 June 1988.
 
-Paul VI's *Missale Romanum* (3 April 1969) put the new Order of Mass in force on 30 November 1969 (full missal 1970, itself a Latin book; the council kept Latin and widened the vernacular). Lefebvre founded the Society of St Pius X at Econe in 1970 (named after the pope of *Tra le sollecitudini*, 1903: "active participation" and Latin chant both). A decree of the Congregation for Bishops (1 July 1988) and John Paul II's *Ecclesia Dei* (2 July) declared automatic excommunication. Benedict XVI freed the older missal (*Summorum Pontificum*, 2007) and had the four bishops' excommunications remitted (21 January 2009); Francis restricted it again (*Traditionis custodes*, 2021).
+Paul VI's *Missale Romanum* (3 April 1969) put the new Order of Mass in force on 30 November 1969 (full missal 1970, itself a Latin book; the council kept Latin and widened the vernacular). Lefebvre founded the Society of St Pius X at Econe in 1970 (named after the pope of *Tra le sollecitudini*, 1903: "active participation" and Latin chant both). A decree of the Congregation for Bishops (1 July 1988) and John Paul II's *Ecclesia Dei* (2 July) declared automatic excommunication. Benedict XVI freed the older missal (*Summorum Pontificum*, 2007) and had the four bishops' excommunications remitted (21 January 2009); Francis restricted it again (*Traditionis custodes*, 2021). In July 2026 new consecrations without mandate drew a Dicastery for the Doctrine of the Faith decree (2 July) declaring excommunication and schism ([`sacraments-and-liturgy` 7.1](../sacraments-and-liturgy/lessons/07-01-the-twentieth-century-reform-and-the-disputes-over-it.md)).
 
 *Introduced:* [9.3](lessons/09-03-after-the-council.md)
 
@@ -2508,7 +2508,7 @@ The course's scope table cedes these topics. Every row points at the course that
 | Development of doctrine as theory (whether the episcopate's emergence is apostolic) | [`fundamental-theology` 5.2](../fundamental-theology/lessons/05-02-newmans-theory-of-development.md) |
 | The Fathers as theologians (1 Clement, Ignatius and which letters are genuine, Irenaeus III.3.2 in full, Cyprian on unity, Tertullian, Augustine on coercing Donatists) | [`patristics`](../patristics/syllabus.md) |
 | What the second-century record proves about primacy | [`ecclesiology-and-mariology`](../ecclesiology-and-mariology/syllabus.md) 4.2, [`apologetics-catholic-claims`](../apologetics-catholic-claims/syllabus.md) 4.2 |
-| Baptism of blood (the unbaptized martyr) | [`sacraments-and-liturgy`](../sacraments-and-liturgy/syllabus.md) 2.2 |
+| Baptism of blood (the unbaptized martyr) | [`sacraments-and-liturgy`](../sacraments-and-liturgy/syllabus.md) [2.2](../sacraments-and-liturgy/lessons/02-02-necessity-infants-and-baptism-of-desire-and-blood.md) |
 | Finding the crux between two scholars, as a method | [`philosophical-method` 4.3](../philosophical-method/lessons/04-03-finding-the-crux.md) |
 | Augustine's two cities as political theory | [`history-of-political-thought` 2.2](../history-of-political-thought/lessons/02-02-augustine-the-two-cities.md) |
 | Justin's *Dialogue with Trypho* | [`apologetics-foundations`](../apologetics-foundations/syllabus.md) 6.1 |
@@ -2523,13 +2523,13 @@ The course's scope table cedes these topics. Every row points at the course that
 | John of Damascus as a theologian; Gregory as pastor and exegete | [`patristics`](../patristics/syllabus.md) 5.3, 5.4 |
 | The act of faith is free (Alcuin; *Dignitatis Humanae*) | [`fundamental-theology` 2.1](../fundamental-theology/lessons/02-01-the-act-of-faith.md) |
 | How much weight a conciliar declaration carries | [`fundamental-theology` 4.5](../fundamental-theology/lessons/04-05-reading-a-documents-weight.md) |
-| Baptism's theology and the catechumenate | [`sacraments-and-liturgy`](../sacraments-and-liturgy/syllabus.md) 2.1 |
+| Baptism's theology and the catechumenate | [`sacraments-and-liturgy`](../sacraments-and-liturgy/syllabus.md) [2.1](../sacraments-and-liturgy/lessons/02-01-baptism-the-rite-and-its-effects.md) |
 | The Arabic translation movement carried by Syriac Christians | [`ancient-medieval-philosophy` 6.2](../ancient-medieval-philosophy/lessons/06-02-avicenna-essence-existence-and-the-necessary-existent.md) |
 | When an author's interest counts against an argument (ad hominem) | [`philosophical-method` 2.3](../philosophical-method/lessons/02-03-informal-fallacies-and-when-they-arent.md) |
 | The filioque as doctrine; whether the West could add to the Creed | [`trinity-and-god`](../trinity-and-god/syllabus.md) Module 5; [`apologetics-catholic-claims`](../apologetics-catholic-claims/syllabus.md) 5.1 |
 | The Orthodox case on primacy argued at full strength | [`apologetics-catholic-claims`](../apologetics-catholic-claims/syllabus.md) Module 5 |
 | What the primacy record proves; *Pastor Aeternus* renewing Florence | [`ecclesiology-and-mariology`](../ecclesiology-and-mariology/syllabus.md) 4.2 |
-| Indulgences as theology; the treasury of merit | [`sacraments-and-liturgy`](../sacraments-and-liturgy/syllabus.md); [`theology-of-debt`](../theology-of-debt/syllabus.md) |
+| Indulgences as theology; the treasury of merit | [`theology-of-debt`](../theology-of-debt/syllabus.md) (practice: [`sacraments-and-liturgy` 4.2](../sacraments-and-liturgy/lessons/04-02-indulgences-as-a-practice.md)) |
 | Aquinas on war (*ST* II-II q.40); double effect | [`philosophical-method`](../philosophical-method/syllabus.md) Boss 4; [`ethics` 3.2](../ethics/lessons/03-02-the-doctrine-of-double-effect.md) |
 | Christianity's relations with Judaism and Islam (cites this course's record) | [`apologetics-foundations`](../apologetics-foundations/syllabus.md) |
 | Transubstantiation (Lateran IV canon 1) | [`sacraments-and-liturgy`](../sacraments-and-liturgy/syllabus.md) |
@@ -2551,7 +2551,7 @@ The course's scope table cedes these topics. Every row points at the course that
 | *Dignitatis Humanae* on religious liberty as doctrine | [`catholic-social-teaching`](../catholic-social-teaching/syllabus.md) 5.2 |
 | Aristotle's natural slavery (Sepulveda's premise) | [`history-of-political-thought` 1.3](../history-of-political-thought/lessons/01-03-aristotle-the-city-exists-by-nature.md) |
 | The Church's teaching on just war and armed force | [`catholic-social-teaching`](../catholic-social-teaching/syllabus.md) 5.3 |
-| Inculturation as liturgical law (*Varietates Legitimae*, 1994); catholicity and inculturation's limits | [`sacraments-and-liturgy`](../sacraments-and-liturgy/syllabus.md) 7.2; [`ecclesiology-and-mariology`](../ecclesiology-and-mariology/syllabus.md) 2.3 |
+| Inculturation as liturgical law (*Varietates Legitimae*, 1994); catholicity and inculturation's limits | [`sacraments-and-liturgy`](../sacraments-and-liturgy/syllabus.md) [7.2](../sacraments-and-liturgy/lessons/07-02-liturgical-language-and-ars-celebrandi.md); [`ecclesiology-and-mariology`](../ecclesiology-and-mariology/syllabus.md) 2.3 |
 | The Galileo affair as faith-and-reason test case; what the 1616 and 1633 acts weigh | [`fundamental-theology` 4.4](../fundamental-theology/lessons/04-04-the-ladder-of-doctrinal-authority.md) |
 | Scripture's sacred writers describing appearances in ordinary speech (*Providentissimus Deus*) | [`fundamental-theology` 3.2](../fundamental-theology/lessons/03-02-inerrancy.md) |
 | Infallibility and its conditions; Vatican I against the fourth Gallican article | [`fundamental-theology` 4.2](../fundamental-theology/lessons/04-02-infallibility-and-its-conditions.md) |

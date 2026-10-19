@@ -2705,7 +2705,8 @@ history, not the document's genre.
 - **The two readings**: [Ford and Grisez on infallibility](#ford-and-grisez-on-infallibility);
   [Sullivan on the burden of proof](#sullivan-on-the-burden-of-proof). No
   magisterial act has settled which is right (contrast the CDF's 1995 response on
-  *Ordinatio Sacerdotalis*, which did settle its case).
+  *Ordinatio Sacerdotalis*, which did address its case, though whether it settles
+  rung 1 against rung 2 is itself disputed).
 - **Newman's rule**, *Letter to the Duke of Norfolk* §9: his "repugnance to impose
   upon the faith of others more than what the Church distinctly claims of them", met
   "with a wise and gentle minimism" — but owed to "a generous loyalty towards
