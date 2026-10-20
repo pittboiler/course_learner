@@ -287,7 +287,7 @@ changes the brief lists) → roots (`ethics`, `fundamental-theology`,
 - [x] `thomistic-synthesis` — The Thomistic Synthesis (2, 24) — syllabus ✓ (2026-09-15) — **lessons ✓** (24 lessons + reference card, prepped 2026-09-22)
 - [x] `trinity-and-god` — The Triune God (2, 25) — syllabus ✓ (2026-09-15) — **lessons ✓** (25 lessons + reference card, prepped 2026-09-23)
 - [x] `christology` — Christology (2, 24) — syllabus ✓ (2026-09-15) — **lessons ✓** (24 lessons + reference card, prepped 2026-09-23)
-- [ ] `creation-grace-last-things` — Creation, Grace & the Last Things (2, 28) — syllabus ✓ (2026-09-15), lessons pending
+- [x] `creation-grace-last-things` — Creation, Grace & the Last Things (2, 29) — syllabus ✓ (2026-09-15; boss problems revised 2026-10-18), built 2026-10-19 (29 lessons + reference card; 7.3 split into 7.3 hope for all and 7.4 limbo)
 - [x] `ecclesiology-and-mariology` — The Church & Mary (2, 25) — syllabus ✓ (2026-09-15), built 2026-10-10 (25 lessons + reference card)
 - [x] `sacraments-and-liturgy` — Sacraments & Liturgy (2, 25) — syllabus ✓ (2026-09-15), built 2026-10-12 (25 lessons + reference card)
 - [x] `moral-theology` — Moral Theology (2, 28) — syllabus ✓ (2026-09-15) — **lessons ✓** (28 lessons + reference card, prepped 2026-09-25)
