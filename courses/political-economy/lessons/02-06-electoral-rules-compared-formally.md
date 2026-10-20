@@ -99,11 +99,13 @@ Check the indifference under winner-take-all with a deviation that leaves $p = 0
 **P1 (🟢)** *(Formal.)* In the LP model let $G = 5/4$.
 
 (a) Find the equilibrium probability that the public good is provided under each rule and each rule's ex ante expected utility per voter. Which rule do voters prefer?
+
 (b) Under the proportional system, suppose the opponent offered the public good with probability $\frac12$, the winner-take-all rate. Exhibit a pork scheme that earns close to $3/5$ of the vote, and conclude that $\frac12$ is not a proportional-system equilibrium.
 
 **P2 (🟡)** *(Formal.)* Use the swing-district model with $D = 5$ districts (two safe for each party, one swing) and $u_J = f_J + 0.75\ln g$.
 
 (a) Find $g$ under each rule, and the per-resident transfer to the swing district under majoritarian rule.
+
 (b) Compute per-capita utilitarian welfare, $(1 - g) + 0.75\ln g$, under each rule, and the loss from majoritarian rule.
 
 **P3 (🟡)** *(Evaluative.)* "Lizzeri and Persico model proportional representation as two candidates maximizing vote share, so their model tells us nothing about real PR systems with five parties and coalition governments." Assess this claim in 150 words or fewer.

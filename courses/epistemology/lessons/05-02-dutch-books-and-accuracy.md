@@ -122,13 +122,17 @@ Both gaps are $0.02 = 2\delta^2$, as the proof predicts. Now swap in the **absol
 **P1 (🟢) *(Formal.)*** Before a match, an invented analyst, Ilse, has credences 0.40 in a home win, 0.25 in a draw and 0.20 in an away win (exactly one will happen), and 0.75 in "home win or draw". Bets are on tickets paying 20 dollars.
 
 (a) Name the two ways her credences violate the axioms.
+
 (b) Construct a book against the first violation using only the three outcome tickets. State each trade and her net in every outcome.
+
 (c) Construct a separate book against the second violation, and state her net in every outcome.
 
 **P2 (🟡) *(Formal.)*** An agent has $\mathrm{cr}(A) = 0.2$ and $\mathrm{cr}(\neg A) = 0.4$.
 
 (a) Compute her Brier inaccuracy in each world.
+
 (b) Find the coherent pair the two-cell proof constructs, compute its inaccuracy in each world, and verify that the improvement in each world equals $2\delta^2$.
+
 (c) Show that the coherent pair $(0.35, 0.65)$ does *not* dominate her.
 
 **P3 (🔴, optional) *(Exegetical (a) · Evaluative (b).)*** An invented forum post:
@@ -136,6 +140,7 @@ Both gaps are $0.02 = 2\delta^2$, as the proof predicts. Now swap in the **absol
 > "Dutch book arguments are a parlour trick. I never bet, so nobody can book me, so my credences can be whatever I like. And the accuracy argument is the same trick with a fancier payoff table: swap money for 'inaccuracy points' and you have the bookie back."
 
 (a) In one sentence, name the premise of the Dutch book argument the first two sentences attack, and say whether the depragmatized version (Christensen) needs it.
+
 (b) In 150 words or fewer: does accuracy dominance escape the "I just won't bet" objection, or does it, as the post says, bring the bookie back? Any verdict passes.
 
 <details>

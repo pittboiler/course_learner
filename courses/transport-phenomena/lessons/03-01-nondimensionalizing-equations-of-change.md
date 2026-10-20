@@ -128,6 +128,7 @@ Then $1/Pe\approx1.3\times10^{-4}$: the conduction term is **tiny** in the bulk 
 
 **P2** (a) Same fluid ⇒ same $\nu$. Match $Re$:
 $$\frac{V_m L_m}{\nu}=\frac{V_p L_p}{\nu}\ \Rightarrow\ V_m=V_p\frac{L_p}{L_m}=6\times\frac{2}{0.5}=6\times4=24\ \mathrm{m/s}.$$
+
 (b) With $Re$ matched and geometry similar, the flows are dynamically similar, so the dimensionless output is identical: $C_{D,p}=C_{D,m}=\mathbf{0.012}$. The drag coefficient can depend *only* on $Re$ (and shape), and $Re$ is the same, so $C_D$ transfers unchanged. (The *dimensional* drag force differs — it scales with $\rho V^2 L^2$ — but the coefficient does not.)
 
 *Sanity:* the smaller model must run faster ($\times4$) to hold $Re$, matching Example 1's rule $V\propto1/L$. ✓
@@ -136,6 +137,7 @@ $$\frac{V_m L_m}{\nu}=\frac{V_p L_p}{\nu}\ \Rightarrow\ V_m=V_p\frac{L_p}{L_m}=6
 $$Gr=\frac{g\beta\,\Delta T\,L^3}{\nu^2}=\frac{9.8\times(3.3\times10^{-3})\times40\times(0.3)^3}{(1.6\times10^{-5})^2}.$$
 Numerator: $9.8\times3.3\times10^{-3}=0.03234$; $\times40=1.294$; $\times0.027=0.03493$. Denominator: $(1.6\times10^{-5})^2=2.56\times10^{-10}$. So
 $$Gr=\frac{0.03493}{2.56\times10^{-10}}\approx1.36\times10^{8}.$$
+
 (b) Reynolds:
 $$Re=\frac{VL}{\nu}=\frac{0.5\times0.3}{1.6\times10^{-5}}=\frac{0.15}{1.6\times10^{-5}}\approx9.4\times10^{3}.$$
 Buoyancy-to-inertia ratio:

@@ -132,17 +132,21 @@ $$m = 0.0935^{-5/4} \approx 19.3.$$
 **P1 (🟢)** Volume in the unit cube, at $d = 2$, $d = 10$, $d = 50$.
 
 (a) Give the side length of a sub-cube capturing 1 percent of the volume, and in one sentence per dimension say what it means for a method that predicts using "the nearest few points".
+
 (b) Give the fraction of the cube lying within $0.05$ of the boundary, and in one sentence say what it means for a kernel bump centred at a typical data point.
 
 **P2 (🟡)** Take $\mathrm{MISE}(h) = C_1 h^{4} + C_2 n^{-1} h^{-d}$ with $C_1, C_2 > 0$.
 
 (a) Minimise over $h > 0$ and confirm you have a minimum, not a maximum.
+
 (b) Substitute back and read off the exponent of $n$ in $\mathrm{MISE}(h^*)$.
+
 (c) At the optimum, compute the ratio of the squared-bias term to the variance term. Say what your answer implies about a rule of thumb like "tune $h$ until bias and variance are equal".
 
 **P3 (🔴)** You can estimate a density well from $n = 500$ points in one dimension.
 
 (a) How many points would the rate $n^{-4/(4+d)}$ demand at $d = 10$ for the same accuracy? Give the number and its order of magnitude.
+
 (b) People nevertheless fit generative models to 4,096-dimensional image data and get something useful. State the assumption about the data that makes this possible, say what the rate becomes under it, and name the two earlier lessons in this course that exploit it.
 
 <details>
@@ -203,6 +207,7 @@ Two earlier lessons exploit exactly this. [6.1](06-01-principal-component-analys
 $$\sum_k \sum_{i \in C_k} \lVert x_i - \mu_k\rVert^2$$
 
 for the left/right partition $\{(0,0),(2,0),(1,3)\}$ against $\{(7,0),(9,0),(8,3)\}$, and for the bottom/top partition $\{(0,0),(2,0),(7,0),(9,0)\}$ against $\{(1,3),(8,3)\}$, taking each centre to be its cluster's mean.
+
 (b) k-means partitions space into Voronoi cells. Using this lesson's volume argument, say what happens to those cells when the points live in $d = 100$ dimensions with $k = 2$.
 
 <details>

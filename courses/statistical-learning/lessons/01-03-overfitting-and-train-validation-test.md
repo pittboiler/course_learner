@@ -119,20 +119,27 @@ Notice the shape as well as the size: going from 4 candidates to 64 — sixteen 
 **P1 (🟢)** You evaluate a single pre-specified classifier on a held-out set of $m = 500$ points and it misclassifies 125 of them.
 
 (a) Give $\hat R_V(h)$, its standard error, and an approximate 95 percent interval.
+
 (b) How many held-out points would you need for a standard error of 0.01? Of 0.005?
+
 (c) In one sentence, say why the answer to (b) grows the way it does.
 
 **P2 (🟡)** You have $k$ candidate models whose true risks happen to be **exactly equal**, $R(h_j) = 0.20$ for every $j$, and a validation set of $m = 250$ points. You pick the model with the lowest validation error.
 
 (a) Without computing anything, argue that the expected validation error of the winner is strictly below 0.20, and say why this is the same phenomenon as 1.1's ERM optimism.
+
 (b) Estimate $\mathbb E[\min_j \hat R_V(h_j)]$ for $k = 2, 4, 16, 64$ by simulation (draw $k$ independent $\mathrm{Bin}(250, 0.2)/250$ values, take the minimum, average over many replicates), and tabulate the optimism in units of the standard error.
+
 (c) State the rule of thumb your table implies about how optimism scales with $k$, and one practical consequence for reading a leaderboard of validation scores.
 
 **P3 (🔴)** A colleague reports a test error of 0.11 on $m = 2000$ test points and adds, cheerfully, that they "only glanced at the test set twice to sanity-check things" before the final run — once to check the preprocessing, once after fixing a bug.
 
 (a) Formalise what those glances cost. Model the situation as $k = 3$ evaluations of hypotheses whose selection may depend on all previous test scores, and write down the uniform bound that still holds, using Hoeffding plus a union bound over the $k$ evaluations at confidence $1-\delta$.
+
 (b) Evaluate the deviation term at $\delta = 0.05$ for $k = 1$ and $k = 3$, and give the honest upper bound on $R(\hat h)$ in each case.
+
 (c) What number can they still honestly report, and what claim have they lost?
+
 (d) How much extra test data would restore the $k = 1$ precision?
 
 <details>

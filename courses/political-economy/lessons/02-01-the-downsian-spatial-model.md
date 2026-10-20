@@ -109,18 +109,23 @@ Finally, both candidates would rather have 5 for sure (payoff $-9$) than the equ
 **P1 (🟢)** *(Formal (a)–(c).)* Six voters on $[0, 10]$ have Euclidean preferences with ideal points 1, 3, 4, 6, 8 and 9. Two candidates maximize vote share.
 
 (a) Candidate A stands at 5. Find **every** best reply for B, and B's vote count there.
+
 (b) Find all Nash equilibria. Is $(q_A, q_B) = (5, 3.5)$ one? If not, give A's profitable deviation.
+
 (c) A seventh voter with ideal point 7 joins. What are the equilibria now?
 
 **P2 (🟡)** *(Formal (a)–(b) · Exegetical (c).)* Candidate A has ideal point 1 and B has ideal point 10; both have linear losses $u(q) = -|q - \theta|$, care only about the implemented policy, and commit to platforms. The median voter's ideal point is uniform on $[3, 7]$.
 
 (a) With $q_A < q_B$, write $\pi_A$, show that A's payoff is concave in $q_A$, and solve for the equilibrium platforms.
+
 (b) Replace the support by $[5 - e, 5 + e]$ with $0 < e < 4$. Find the equilibrium and its limit as $e \to 0$.
+
 (c) An invented column says: "Parties at 3 and 7 are so far apart that they plainly ignore the median voter." In two sentences, say what the model of (a) implies about this inference.
 
 **P3 (🔴, optional)** *(Formal (a)–(b).)* Voters are uniformly distributed on $[0, 1]$; three candidates each choose a location to maximize vote share; candidates at the same location split its voters equally.
 
 (a) Prove that there is no pure-strategy Nash equilibrium.
+
 (b) At the profile $(\tfrac13, \tfrac13, \tfrac23)$, give each candidate's share and one profitable deviation.
 
 <details>

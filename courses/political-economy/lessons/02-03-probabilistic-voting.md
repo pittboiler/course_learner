@@ -94,17 +94,21 @@ At $t_1 = 0.01$ it is already 0.530. So $q^*$ is not an equilibrium. The write-o
 **P1 (🟢)** *(Formal (a)–(c).)* Two equal groups ($n_1 = n_2 = \tfrac12$) have densities $\phi_1 = 0.1$ and $\phi_2 = 0.2$ and utility $u(t) = \sqrt{t}$ from per-capita transfers, with budget $\tfrac12 t_1 + \tfrac12 t_2 = 1$. Interiority holds.
 
 (a) Find the equilibrium transfers.
+
 (b) The density ratio is 2. What is the transfer ratio $t_2/t_1$, and why is it not 2? One sentence.
+
 (c) A candidate facing $q^*$ instead offers $(1, 1)$. With $\delta = 0$, compute her vote share.
 
 **P2 (🟡)** *(Formal (a)–(b).)*
 
 (a) Prove: if every $n_g\phi_g > 0$, the equilibrium $q^*$ is Pareto efficient: no $q'$ makes every group at least as well off and some group strictly better off.
+
 (b) Transfers with $u = \ln$, budget $\sum_g n_g t_g = 1$. Prove that every allocation $t^\circ$ with all $t^\circ_g > 0$ is the unique equilibrium for some densities, and give them.
 
 **P3 (🔴, optional)** *(Formal (a) · Exegetical (b).)* Two equal groups, $\phi_1 = \phi_2 = 0.2$, $u = \sqrt{c}$ of delivered consumption $c$, per-capita budget 1 for each party. Party $A$'s local machine delivers each dollar to group 1 in full but only a quarter of each dollar to group 2; party $B$ is the mirror image.
 
 (a) Find each party's equilibrium spending and delivered consumption, and group 1's vote share for $A$ at $\delta = 0$.
+
 (b) An invented strategy memo: "The theory says money goes to swing voters, and our groups are equally swingy, so we must match our rival dollar for dollar in every group." In 100 words or fewer, name the model, the assumption the memo needs, and what the model predicts instead here. Would the prediction survive log utility?
 
 <details>

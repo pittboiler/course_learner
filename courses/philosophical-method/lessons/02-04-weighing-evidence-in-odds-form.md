@@ -99,6 +99,7 @@ Same three documents. $56\%$ against under $5\%$ — the odds move by a factor o
 **P1 (🟢) *(Formal.)*** A benefits agency runs an algorithm on every claim. Two claims in every 1,000 are fraudulent. The algorithm flags 90% of fraudulent claims and 3% of honest ones.
 
 (a) State the prior odds, the likelihood ratio, and the posterior odds that a flagged claim is fraudulent, and give the posterior as an exact fraction.
+
 (b) The agency wants flagged claims to be more likely fraudulent than not. Holding the 90% hit rate fixed, how low must the false-positive rate go?
 
 **P2 (🟡) *(Exegetical (a) · Evaluative (b).)*** An internal memo, written for this problem and attributed to no one:

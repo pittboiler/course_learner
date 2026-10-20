@@ -119,7 +119,9 @@ $1.333^9$: $1.333^2 = 1.777$, $^4 = 3.16$, $^8 = 9.98$, $\times 1.333 = 13.3$. S
 Ideal limits with $\tau k = 3$: $X_{\text{PFR}} = 1 - e^{-3} = 0.950$; $X_{\text{CSTR}} = 3/4 = 0.750$. Since $0.925$ sits much nearer $0.950$ than $0.750$ — and $N = 9$ is fairly large — this reactor is **closer to a PFR**. ✓
 
 **P3** (a) At steady state $\mu = D$, and $D = \mu_{max}S/(K_s+S) = 0.8 \times 0.5/(1.5+0.5) = 0.4/2.0 = 0.20\ \mathrm{h^{-1}}$.
+
 (b) Washout occurs at $D = \mu_{max} = 0.8\ \mathrm{h^{-1}}$. Starting from $0.20\ \mathrm{h^{-1}}$, you could increase $D$ by a factor of $0.8/0.20 = 4$ before washout.
+
 (c) Cell production rate per volume is (cells leaving per time)/$V = D\,C_c$. Raising $D$ increases the flush rate directly; the cell concentration $C_c$ stays roughly steady until $D$ nears $\mu_{max}$, where $S$ climbs and $C_c$ finally collapses. So the volumetric productivity $D\,C_c$ rises with $D$ almost up to washout, peaking just short of it — you run the pump as fast as you dare, then a hair slower for safety margin. ✓
 </details>
 

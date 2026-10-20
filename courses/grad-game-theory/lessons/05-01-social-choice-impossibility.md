@@ -114,7 +114,9 @@ and each voter's preference is single-peaked (closer to my ideal is strictly bet
 Compute the three pairwise majority outcomes and state whether a Condorcet winner exists.
 
 **P2 (🟡)** Five voters have single-peaked preferences over $X = \{1,2,3,4,5,6,7\}$ with peaks $p = (2, 2, 5, 6, 7)$.
+
 (a) Which alternative is the Condorcet winner under majority rule? Justify with one pairwise check against an alternative on each side.
+
 (b) The voter with peak 2 would love a lower outcome. Under the "median of reported peaks" rule, show they cannot gain by misreporting.
 
 **P3 (🔴, optional)** *Manipulating plurality — a Gibbard–Satterthwaite instance.* Nine voters choose among $\{L, M, R\}$ by plurality (each casts one vote for their reported top choice; most votes wins, ties broken alphabetically). True preferences:
@@ -151,6 +153,7 @@ The median voter (peak 5) joins whichever side opposes the challenger, giving th
 No report lowers the outcome below 5, because to move the median down you'd need to displace one of the values $\{5,6,7\}$ from the top three, and a single voter reporting low cannot do that (there are still three reports $\ge 5$). Truth-telling is (weakly) best: the rule is strategy-proof for this voter, and by symmetry for all.
 
 **P3**
+
 (a) **Sincere tallies:** $R = 4$, $L = 3$, $M = 2$. Plurality winner is **R** (most votes).
 
 (b) The 3 voters with $L \succ M \succ R$ get their worst outcome, R, under sincere voting. If they **misreport their top as $M$** instead of $L$, the tallies become $R = 4$, $M = 2 + 3 = 5$, $L = 0$. Now **M wins**. Each of these three voters strictly prefers M to R (their sincere-vote result), so all three are strictly better off — a profitable joint manipulation. (Even the 2 sincere $M$-voters are happier, but the point is the deviators gain.)

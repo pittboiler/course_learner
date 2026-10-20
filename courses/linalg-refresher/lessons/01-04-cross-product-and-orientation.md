@@ -120,13 +120,19 @@ And the degenerate case is the physical one you already know: push the load *alo
 **P1 (🟢)** For $\mathbf a = (2,-1,3)$ and $\mathbf b = (1,4,-2)$: compute $\mathbf a\times\mathbf b$, verify it is perpendicular to both, and give the area of the triangle with edges $\mathbf a$ and $\mathbf b$.
 
 **P2 (🟡)** A spanner is bolted at the origin, and you push on it at the point $\mathbf r = (0.6,\,0.2,\,0)$ metres with the force $\mathbf F = (0,\,-90,\,0)$ newtons.
+
 (a) Find $\vec M_O = \mathbf r\times\mathbf F$, and say which way it twists (out of the page is $+\mathbf e_3$).
+
 (b) Find the lever arm $d$ from $\lVert\vec M_O\rVert = \lVert\mathbf F\rVert\,d$, and explain the number geometrically.
+
 (c) Recompute the moment using $\mathbf r' = (0.6,\,3,\,0)$ — another point on the same line of action of $\mathbf F$. What does the result say about *where* along a force's line you are allowed to apply it?
 
 **P3 (🔴, optional)** A rigid body spins about the vertical axis with angular velocity $\boldsymbol\omega = \omega\,\mathbf e_3$. A point of the body sits at $\mathbf r = (x,y,z)$, and its velocity is $\mathbf v = \boldsymbol\omega\times\mathbf r$.
+
 (a) Compute $\mathbf v$ in components.
+
 (b) Show $\mathbf v\perp\boldsymbol\omega$ and $\mathbf v\perp\mathbf r$, and that $\lVert\mathbf v\rVert = \omega\sqrt{x^2+y^2}$ — not $\omega\lVert\mathbf r\rVert$.
+
 (c) Which points of the body have $\mathbf v = \mathbf 0$, and why does the zero test predict them without any computation?
 
 <details>

@@ -123,9 +123,11 @@ $$f'=u_x+i\,v_x=2x+0=2x\quad(\text{at }y=x).$$
 But holomorphy requires the equations on an *open set*, and the line $y=x$ contains no open disk — every disk around a line point spills off the line, where Cauchy–Riemann fails. So $f$ is differentiable on a line yet **holomorphic nowhere**. (This is the *Watch out* open-set point made concrete.)
 
 **P3** (a) $u=x^2+y^2$, $v=0$: $u_x=2x$, $u_y=2y$, $v_x=v_y=0$. Cauchy–Riemann demands $u_x=v_y\Rightarrow 2x=0$ and $u_y=-v_x\Rightarrow 2y=0$, so $x=y=0$. The only possible point is $z=0$.
+
 (b) At $z=0$, $f(0)=0$, and for $h\to0$,
 $$\frac{f(0+h)-f(0)}{h}=\frac{|h|^2}{h}=\frac{h\,\bar h}{h}=\bar h\xrightarrow[h\to0]{}0,$$
 and this holds for *every* direction of approach (as $h\to0$, $\bar h\to0$). So $f'(0)=0$ exists.
+
 (c) $f$ is complex-differentiable only at the single point $0$; no open disk fits inside a point, so $f$ is holomorphic nowhere — differentiable at exactly one place, analytic at none.
 
 </details>

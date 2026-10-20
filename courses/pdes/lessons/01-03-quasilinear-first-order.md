@@ -94,6 +94,7 @@ $$u_t + u\,u_x = \frac{-u\,f'(F)}{1+t\,f'(F)} + u\cdot\frac{f'(F)}{1+t\,f'(F)} =
 Both derivatives share the denominator $1 + t\,f'(F)$, which vanishes at $t = -1/f'(F)$. Along the characteristic through $x_0$ (where $F=x_0$), the formula breaks at $t = -1/f'(x_0)$ — infinite when $f'(x_0)\ge 0$ (that characteristic never gets caught), finite and positive only where the profile descends. The earliest such time over all $x_0$ is exactly $t^* = -1/\min f'$.
 
 **P3** (a) Characteristic from $0$ carrying $2$: $x = 0 + 2t = 2t$. Characteristic from $1$ carrying $1$: $x = 1 + t$. Collision: $2t = 1 + t \Rightarrow t = 1$, at $x = 2$. So they meet at $(x,t) = (2,1)$ — the fast state behind overtakes the slow state ahead, a **compression forming a shock**.
+
 (b) Now $x = 0 + t = t$ (slow, behind) and $x = 1 + 2t$ (fast, ahead). Collision would need $t = 1 + 2t \Rightarrow t = -1 < 0$: never, for $t>0$. The fast state pulls away from the slow one, opening a widening gap — a **rarefaction** (the fan spreads, and the region between them fills with intermediate speeds). Same two speeds, but which one is behind decides everything.
 
 </details>

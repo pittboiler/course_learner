@@ -108,7 +108,9 @@ Two and a half meters of graphite to stop 95% — a sobering reminder that a goo
 <summary>Solutions</summary>
 
 **P1** (a) $L = \sqrt{D/\Sigma_a} = \sqrt{0.16/0.0197} = \sqrt{8.12} = 2.85\,\text{cm}$.
+
 (b) $r_{\text{rms}} = \sqrt6\,L = 2.449(2.85\,\text{cm}) = 6.98 \approx 7.0\,\text{cm}$.
+
 (c) Water is packed with hydrogen, which absorbs thermal neutrons far more strongly than carbon does — a larger $\Sigma_a$ (and smaller $D$) shrinks $L=\sqrt{D/\Sigma_a}$, so a neutron is captured after a much shorter reach. (Good moderator ≠ good absorber: graphite is a clean moderator with tiny $\Sigma_a$, hence $L\approx 52$ cm.)
 
 **P2** The fraction captured within radius $r$ is the cumulative distribution from Example 2, $F(r) = 1-(1+r/L)e^{-r/L}$. Set $F = 0.5$ with $x=r/L$:
@@ -120,6 +122,7 @@ Solve numerically. Test $x=1.68$: $(2.68)e^{-1.68} = 2.68(0.1864) = 0.4996 \appr
 Compare: median $\approx 1.68\,L$, rms $= \sqrt6\,L \approx 2.45\,L$. The rms sits well above the median, so the distribution is **right-skewed** — most neutrons are captured within a couple of $L$, but a long tail of far-reaching neutrons (the $r^3$ weighting in $\langle r^2\rangle$) drags the rms outward. Half the captures happen inside $1.68\,L$, yet the "typical squared distance" is set by the stragglers.
 
 **P3** (a) With $-1/L^2$: solutions are real exponentials $e^{\pm r/L}$ (or $\sinh,\cosh$), and physical boundedness keeps only the *decaying* one — flux monotonically dies away from the source. With $+B^2$: solutions are *oscillatory* — $\sin(Br)$, $\cos(Br)$, $J_0(Br)$ — that can turn back down and vanish at a finite boundary. The sign of the constant in a second-order linear ODE is exactly what decides exponential-vs-trigonometric behavior.
+
 (b) In the source problem, absorption dominates and there is no production, so the population can only *decay* with distance — nothing pushes it back up. In the reactor, fission *replaces* the leaked and absorbed neutrons, and criticality demands a self-consistent standing flux shape that is nonzero inside and drops to (nearly) zero at the edges. That "nonzero interior, zero at the boundary" requirement is precisely a Helmholtz eigenvalue problem, whose solutions must oscillate to curve down and meet the boundary condition. The eigenvalue is the buckling $B^2$ — the subject of Module 2.
 
 </details>

@@ -84,7 +84,9 @@ $$\binom{8}{3}=\frac{8\cdot 7\cdot 6}{3\cdot 2\cdot 1}=\frac{336}{6}=56.$$
 It equals $\binom{8}{5}=56$ by symmetry: naming the 3 toppings you *put on* is the very same decision as naming the 5 you *leave off* — each choice of one determines the other.
 
 **P2** Let $C$ = took calculus, $S$ = took statistics, with $|C|=18$, $|S|=15$, $|C\cap S|=7$.
+
 (a) By inclusion–exclusion, $|C\cup S| = 18 + 15 - 7 = 26$. (Adding $18+15$ counts the 7 "both" students twice, so subtract them once.)
+
 (b) Neither $= $ total $-$ at least one $= 30 - 26 = 4$ students.
 
 **P3** Partition the $2\times2$ square into four $1\times1$ cells (a $2\times2$ grid of unit squares). That's 4 boxes and 5 points, so by pigeonhole at least one cell contains $\ge 2$ of the points. Two points in the same unit square are at most as far apart as its diagonal, whose length is $\sqrt{1^2+1^2}=\sqrt{2}$. Hence some pair is within $\sqrt{2}$. (Points on shared cell borders can be assigned to either adjacent cell; the count still forces a doubled-up cell.)
@@ -99,7 +101,9 @@ It equals $\binom{8}{5}=56$ by symmetry: naming the 3 toppings you *put on* is t
 <summary>Solution</summary>
 
 (a) Multiplication rule, 10 choices per slot, 4 independent slots: $10^4 = 10{,}000$.
+
 (b) No repeats — this is an ordered arrangement, a permutation: $P(10,4)=10\cdot 9\cdot 8\cdot 7 = 5040$.
+
 (c) The first digit must be odd: 5 choices ($1,3,5,7,9$). Then the remaining three slots are filled from the 9 unused digits, distinct and ordered: $9\cdot 8\cdot 7 = 504$. Total $= 5\cdot 504 = 2520$ — exactly half of (b), as it should be, since a PIN's leading digit is odd or even with equal counts here.
 
 </details>

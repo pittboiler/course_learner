@@ -110,12 +110,15 @@ Both answers are available and neither is a trick. The crux is fixed and narrow:
 **P1 (🟢) *(Exegetical.)*** For each claim, say (i) which version(s) of the PSR it would violate, if any, and (ii) whether what it asserts is metaphysical bruteness or only our present ignorance. One or two sentences each.
 
 (a) "The cosmological constant has the value it has, and there is no reason why — it is simply one of the numbers the world came with."
+
 (b) "Every event inside the universe has an explanation; the existence of the universe has none."
+
 (c) "The number 3 exists, and nothing caused it to exist."
 
 **P2 (🟡) *(Exegetical (a) · Evaluative (b).)*** The subtraction argument, as stated in this lesson.
 
 (a) Identify the exact point where the argument moves from a claim about each object to a claim about all of them together, and name the premise that is supposed to license the move.
+
 (b) The powers theorist blocks the final subtraction on the ground that every possibility needs an actual ground. Is that a genuine objection or a restatement of the disputed premise? 150 words or fewer, any verdict, provided you state what grounds possibility on the Humean view as well as on the powers view.
 
 **P3 (🔴, optional) *(Diagnose — Exegetical (a) · Evaluative (b).)*** An invented post from a physicist's blog:
@@ -171,7 +174,9 @@ Both answers are available and neither is a trick. The crux is fixed and narrow:
 **F1 (🟡) *(Exegetical.)*** For each claim, name the **strongest** kind of necessity it has — logical/conceptual, metaphysical, physical (nomological), or none — and give the one-line reason.
 
 (a) Nothing accelerates from rest to beyond the speed of light.
+
 (b) Gold has atomic number 79.
+
 (c) No bachelor is married.
 
 Then: (d) the denial of (b) is easy to imagine — someone could hold up a bar of gold and be told it is element 47. In one sentence, say why that does not show (b) is contingent.

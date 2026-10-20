@@ -86,6 +86,7 @@ Same cost uncertainty, opposite verdicts, and the only thing that changed was th
 
 **P3 (🔴, optional) *(Formal (a) · Exegetical (b).)*** Add a benefit shock $\eta$ to Example 1: $\mathrm{MB}=120-a+\eta$, with $\eta$ of standard deviation $\sigma_\eta=20$ and correlation $\rho$ with the cost shock $\theta$ ($\sigma_\theta=30$). The same loss calculation, done with both shocks, gives (Stavins 1996, *Journal of Environmental Economics and Management*)
 $$\Delta=\frac{\sigma_\theta^2\,(C-D)}{2C^2}-\frac{\rho\,\sigma_\eta\sigma_\theta}{C}.$$
+
 (a) Find the correlation at which the regulator is indifferent. (b) Why does positive correlation favor the quantity instrument? Two sentences.
 
 <details>

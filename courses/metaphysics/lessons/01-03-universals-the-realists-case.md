@@ -119,7 +119,9 @@ The example is worth holding onto because it shows the shape of most arguments i
 **P1 (🟢) *(Exegetical.)*** For each claim, say which position it commits you to — transcendent realism, immanent realism, or neither because it belongs to the sparse/abundant question instead. One sentence each.
 
 (a) "Had the universe contained no charged thing at all, charge would still have existed."
+
 (b) "Charge is at this electron and at that one, entirely, at the same moment."
+
 (c) "There is a property of being either a proton or a teacup."
 
 **P2 (🟡) *(Exegetical (a) · Evaluative (b).)*** (a) Set out Bradley's regress in numbered steps, beginning from "*a* instantiates F-ness," and name the single assumption that generates it. (b) Pick **one** of the three standard replies (non-relational tie, states of affairs as basic, benign regress), state it precisely, and say what it costs — what you have to accept as unanalysed or unexplained in order to use it. 150 words or fewer for (b); any verdict on whether the cost is worth paying.

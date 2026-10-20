@@ -103,6 +103,7 @@ Solid arrows: "is explained by". The four facts point to both hypotheses; only F
 **P2 (🟡) *(Apologetic: (a) Exegetical, graded first · (b) reply.)*** A critic writes: "The minimal-facts argument is a poll dressed up as history."
 
 (a) State the head-count objection at the strength its secular critics give it, in three strands. Then say which strand Allison's position adds to or differs from. 120 words or fewer.
+
 (b) Reply in 150 words or fewer. Open with a **named concession**. Then say what the argument must look like if the objection is granted.
 
 **P3 (🔴) *(Exegetical: diagnose (a) · Exegetical: find the crux (b).)*** An invented opening statement from a campus debate (nobody said this; it is written for the problem):

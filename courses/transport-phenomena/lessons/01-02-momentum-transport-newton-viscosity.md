@@ -102,10 +102,12 @@ Momentum's news travels to the 1 cm mark in seconds through air but takes a coup
 **P1.** (a) Linear drag flow, so $dv_x/dy = V/b = 0.20/(1.0\times10^{-3}) = 200\ \mathrm{s^{-1}}$ (constant).
 $$\tau_{yx} = -\mu\frac{dv_x}{dy} = -(1.5)(200) = -300\ \text{Pa}.$$
 The sign is negative: momentum flux points in $-y$ (down toward the fixed plate), as expected. The force per area to move the plate is the magnitude, $|\tau_{yx}| = 300$ Pa. (Units: Pa·s × s⁻¹ = Pa. ✓)
+
 (b) $\nu = \mu/\rho = 1.5/1260 \approx 1.2\times10^{-3}\ \mathrm{m^2/s}$. That's about $1200\times$ larger than water's $1.0\times10^{-6}$ m²/s, so **momentum diffuses far faster in glycerin** — even though glycerin is enormously "thicker" ($\mu$ is 1500× water's), it's only ~1.3× denser, so the diffusivity $\nu=\mu/\rho$ is dominated by the huge $\mu$. Good reminder that "viscous" (large $\mu$) and "spreads momentum fast" (large $\nu$) are different statements.
 
 **P2.** (a) $\dfrac{dv_x}{dy} = V\cdot\dfrac{d}{dy}\big[1-(1-y/b)^2\big] = V\cdot\big[-2(1-y/b)\cdot(-1/b)\big] = \dfrac{2V}{b}\Big(1-\dfrac{y}{b}\Big).$
 $$\tau_{yx}(y) = -\mu\frac{dv_x}{dy} = -\frac{2\mu V}{b}\Big(1 - \frac{y}{b}\Big).$$
+
 (b) The magnitude $\frac{2\mu V}{b}(1-y/b)$ is **largest at $y=0$** (the fixed bottom plate), where it equals $2\mu V/b$, and **vanishes at $y=b$** (the top). (c) Zero flux at the top means no $x$-momentum crosses that plane — the velocity gradient is flat there ($dv_x/dy=0$, the profile has levelled off), so neighboring layers move at the same speed and have nothing to hand each other. Physically this is a free/shear-free surface: the moving boundary imposes velocity but no drag.
 
 **P3.** (a) $\dfrac{dv_x}{dy} = A\cdot\dfrac{d}{dy}\big(y^{1/2}\big) = \dfrac{A}{2\sqrt{y}}.$

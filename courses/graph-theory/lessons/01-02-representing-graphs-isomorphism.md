@@ -97,6 +97,7 @@ They tie on vertex count, edge count, **and** the entire degree sequence — the
 
 **P1** (a) With order $1,2,3,4$, each vertex is joined to its two cycle-neighbors:
 $$A = \begin{bmatrix} 0&1&0&1 \\ 1&0&1&0 \\ 0&1&0&1 \\ 1&0&1&0 \end{bmatrix}, \qquad N(1)=\{2,4\},\ N(2)=\{1,3\},\ N(3)=\{2,4\},\ N(4)=\{1,3\}.$$
+
 (b) Every row sums to $2$, so the degree sequence is $(2,2,2,2)$. Handshake: $\sum_v \deg(v) = 8 = 2m$, hence $m = 4$ — matching the four listed edges. (Aside: $\overline{C_4}$ has edges $\{13, 24\}$, the two "diagonals" — a perfect matching $2K_2$.)
 
 **P2** The six possible pairs on $\{1,2,3,4\}$ are $12,13,14,23,24,34$. Removing $G$'s edges $\{12,23,34\}$ leaves

@@ -89,7 +89,9 @@ Moore's later *The War on Heresy* (2012) moved to the sceptical side. Both sides
 ## Problems
 
 **P1 (🟢) *(Formal (a) · Exegetical (b).)*** Bernard Gui convicted about 636 people at Toulouse (1308–1323). Counts of those handed to the secular arm range from 41 to 45; 307 were sentenced to prison.
+
 (a) Compute the share of convicted people executed at the low and high counts, and the share imprisoned, each to one decimal place of a percent.
+
 (b) An invented tour-guide script: *"Gui's own record proves that the medieval inquisitors were lenient."* Name one thing in the figures that tells against the claim, and one thing the claim needs that the figures cannot show. 100 words or fewer.
 
 **P2 (🟡) *(Exegetical.)*** Pegg and Hamilton disagree about whether a Cathar church existed. (a) Name the single premise about the inquisitorial records that Pegg needs and Hamilton must deny or weaken. (b) Name one kind of evidence each side can cite that does *not* depend on inquisitors' questions, or say why that kind of evidence is scarce for one side. 150 words or fewer in total.

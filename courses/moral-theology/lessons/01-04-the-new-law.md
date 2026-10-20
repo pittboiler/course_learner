@@ -84,10 +84,15 @@ The strain is real. The dogma is about possibility *with grace*; a pastor who pr
 ## Problems
 
 **P1 (🟢)** *(Exegetical)* Classify each as **precept of the New Law**, **counsel** (say whether absolute or in a particular case), or **left to discretion** (q.108 a.1), and cite the article that decides it. One line each.
+
 (a) Under interrogation, a believer is asked whether she is a Christian. She is tempted to deny it to keep her job, and she refuses.
+
 (b) A woman makes a perpetual vow of poverty in a religious community.
+
 (c) A landlord cancels a tenant's rent arrears that he could lawfully collect, and he is under no obligation to do so.
+
 (d) On an ordinary weekday, a man chooses the fish over the chicken.
+
 (e) A wealthy investor does not make his portfolio the point of his life.
 
 **P2 (🟡)** *(Exegetical)* ST I-II q.108 a.4, *respondeo* (English Dominican Province):

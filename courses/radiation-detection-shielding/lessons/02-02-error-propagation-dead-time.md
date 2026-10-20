@@ -124,7 +124,9 @@ Net rate $= 3.50 \pm 0.09\,\text{s}^{-1}$ — same $2.57\%$ relative uncertainty
 
 **P2** (a) Invert the non-paralyzable relation with $\tau = 100\,\mu\text{s} = 1\times10^{-4}\,\text{s}$:
 $$n = \frac{m}{1 - m\tau} = \frac{2000}{1 - (2000)(1\times10^{-4})} = \frac{2000}{1 - 0.20} = \frac{2000}{0.80} = 2500\,\text{s}^{-1}.$$
+
 (b) Loss fraction $= (n - m)/n = (2500 - 2000)/2500 = 500/2500 = 20\%$. (Equivalently, the dead fraction $m\tau = 0.20$.) A GM tube's long dead time makes this loss serious even at a modest 2000 counts/s.
+
 (c) The non-paralyzable observed rate saturates at
 $$m_{\max} = \frac{1}{\tau} = \frac{1}{1\times10^{-4}\,\text{s}} = 10{,}000\,\text{s}^{-1}.$$
 No true rate, however large, makes this tube read above $10{,}000\,\text{s}^{-1}$. ✓

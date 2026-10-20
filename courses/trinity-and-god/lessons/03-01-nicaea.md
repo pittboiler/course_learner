@@ -92,7 +92,9 @@ The repair the next generation needed was a second word for the concrete distinc
 ## Problems
 
 **P1 (🟢) *(Exegetical.)*** Using the Source only.
+
 (a) Two phrases in the creed's second article exclude a made Son. Name them, and say what each excludes that the other does not.
+
 (b) The creed never calls the Son eternal. Which clause does the work the word *eternal* would do, and what does its Greek literally say?
 Two sentences per part.
 

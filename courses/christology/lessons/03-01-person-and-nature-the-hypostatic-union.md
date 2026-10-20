@@ -85,8 +85,11 @@ graph TD
 **P1 (🟢)** *(Exegetical)* Mark each sentence **true**, **false**, or **true only with a distinction**, and give the deciding rule or article in one line each.
 
 (a) "The Son of God assumed a human person."
+
 (b) "Christ's humanity lacks something every other human nature has."
+
 (c) "At the Incarnation the Word entered a relation to a creature that he did not have before."
+
 (d) "Divinity and humanity combined in Christ into one nature, as soul and body combine into one man."
 
 **P2 (🟡)** *(Exegetical)* This is an **invented** paragraph from a parish Advent handout, written for this problem and not the words of any real person:

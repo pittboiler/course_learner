@@ -91,8 +91,11 @@ You read off the launch time, landing time, and peak location without a single d
 <summary>Solutions</summary>
 
 **P1** Rewrite mentally as factors of $x$: $x^3$ gives multiplicity $3$ at $x=0$; $(x-2)$ gives multiplicity $1$ at $x=2$; $(x+1)^2$ gives multiplicity $2$ at $x=-1$.
+
 (a) Degree $= 3+1+2 = 6$.
+
 (b) Leading term: $-x^3 \cdot x \cdot x^2 = -x^6$, so leading coefficient $-1$, degree even. Even degree + negative leading coefficient → **both ends $\to -\infty$**.
+
 (c) Zeros: $x=0$ (mult $3$, odd → **crosses**, with a flattened S), $x=2$ (mult $1$, odd → **crosses**), $x=-1$ (mult $2$, even → **touches/bounces**).
 
 **P2** Requirements translate to factors: crosses at $x=-3$ → factor $(x+3)$ to an **odd** power (use $1$); tangent at $x=2$ → factor $(x-2)$ to an **even** power (use $2$); passes through the origin → $x=0$ is a zero, factor $x$ (use $1$, crossing is fine, none specified). So far $(x+3)^1 x^1 (x-2)^2$ has degree $1+1+2=4$ — **even**, which allows both ends to agree. Both ends to $+\infty$ needs a **positive** leading coefficient. Answer:

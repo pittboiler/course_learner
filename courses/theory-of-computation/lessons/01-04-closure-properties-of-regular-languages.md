@@ -107,7 +107,9 @@ The correct recipe: determinize first (subset construction), *then* swap. That c
 **P3 (🔴)** Decide each claim. If false, give a concrete counterexample; if true, give a proof.
 
 (a) If $A$ and $B$ are both non-regular, then $A \cap B$ is non-regular.
+
 (b) If $A$ is regular and $B \subseteq A$, then $B$ is regular.
+
 (c) If $A$ is regular then so is $A^R = \{w^R : w \in A\}$, where $w^R$ is $w$ reversed.
 
 <details>

@@ -111,8 +111,11 @@ Notice also that *stay* earns reward $0$ forever while *switch* pays $+1$ once �
 **P1 (🟢)** For each proposed state, say whether it is Markov and give the reason in one sentence. If it is not, state the smallest addition that repairs it.
 
 (a) In blackjack: the player's current hand total, the dealer's visible card, and whether the player holds a usable ace — in a game dealt from an infinite shoe.
+
 (b) The same, but dealt from a single 52-card deck.
+
 (c) For a car following a road: the car's position on the map.
+
 (d) For an inventory manager: the number of units currently in stock, where demand each day is i.i.d.
 
 **P2 (🟡)** An MDP has states $\{A, B\}$. From $A$: action *left* goes to $A$ with reward $0$ and probability $1$; action *right* goes to $B$ with reward $+4$ with probability $0.5$, and back to $A$ with reward $-2$ with probability $0.5$. State $B$ is terminal.
@@ -120,15 +123,21 @@ Notice also that *stay* earns reward $0$ forever while *switch* pays $+1$ once �
 Let $\pi$ choose *right* with probability $0.8$ and *left* with probability $0.2$ in state $A$.
 
 (a) Compute $p^\pi(A \mid A)$ and $p^\pi(B\mid A)$.
+
 (b) Compute $r^\pi(A)$.
+
 (c) With $\gamma = 1$, compute $V^\pi(A)$ by solving the one-equation linear system $V^\pi(A) = r^\pi(A) + \gamma\, p^\pi(A\mid A)V^\pi(A)$.
+
 (d) The episode is guaranteed to terminate even though $\gamma = 1$. State why, in terms of $p^\pi(A\mid A)$.
 
 **P3 (🔴)** An agent controls a robot down a corridor of five cells. Its observation is what it can see locally: whether there is a wall immediately to its left and to its right. Cells 2 and 4 both have open corridor on both sides and so produce the identical observation "open, open". The goal is in cell 5, and the agent starts in cell 1.
 
 (a) Explain why *no* deterministic policy that is a function of the observation alone can reliably reach the goal.
+
 (b) A colleague proposes making the policy stochastic — move left or right with probability $\tfrac12$ each on seeing "open, open". State whether this reaches the goal, and what it costs.
+
 (c) Give a state construction that makes the problem Markov, and state the size of the resulting state space.
+
 (d) This is the argument the "Watch out" bullet about stochastic policies pointed at. State precisely why the guarantee in [Lesson 1.4](01-04-optimality-bellman-optimality.md) — that some deterministic policy is optimal — does not apply here.
 
 <details>

@@ -117,6 +117,7 @@ $$q = 0.92\times5.67\times10^{-8}\times2.5\times1.0486\times10^{10} \approx 1.37
 *Check.* Units $\mathrm{W/(m^2K^4)}\cdot\mathrm{m^2}\cdot\mathrm{K^4}=\mathrm W$ ✓. Radiators are how spacecraft shed *all* their waste heat — no air to convect into — so this $T^4$ law sizes real hardware.
 
 **P2** (a) Opaque means $\tau=0$, so $\alpha + \rho = 1$, giving $\alpha = 1 - 0.30 = 0.70$.
+
 (b) Gray means $\varepsilon = \alpha = 0.70$. Emissive power:
 
 $$E = \varepsilon\sigma T^4 = 0.70\times5.67\times10^{-8}\times500^4.$$

@@ -146,12 +146,15 @@ The grammar is right-recursive in both cases. **Associativity was moved out of t
 **P2 (🟡)** Transform each grammar so that a predictive parser can handle it, naming the surgery used. Then state, for the transformed grammar, whether a naive recursive tree-builder would give the right associativity — and if not, what the parser must do instead.
 
 (a) $A \to A\,x \mid A\,y \mid z$
+
 (b) $S \to \texttt{if}\ E\ \texttt{then}\ S \mid \texttt{if}\ E\ \texttt{then}\ S\ \texttt{else}\ S \mid a$, with $E \to b$
 
 **P3 (🔴)** Using the precedence-climbing pseudocode above with the table $\mathrm{prec}(\texttt{+}) = 1$ (left-associative), $\mathrm{prec}(\texttt{*}) = 2$ (left-associative), $\mathrm{prec}(\texttt{\^{}}) = 3$ (right-associative):
 
 (a) Hand-trace `parseExpr(0)` on `2 ^ 3 ^ 2`, giving the value of `minPrec` at every recursive call, and state the resulting tree and its value.
+
 (b) Do the same for `2 * 3 * 4`, and state the tree.
+
 (c) In one sentence, say exactly which line of the pseudocode is responsible for the difference, and what would happen to `2 * 3 * 4` if that line were changed to always use `prec(op)`.
 
 <details>
@@ -225,6 +228,7 @@ If the line always used `prec(op)`, then `2 * 3 * 4` would parse as `*(2, *(3, 4
 **From Lesson 1.3 (Lexical analysis in practice):** A language's lexer uses maximal munch over the rules `ARROW` = `=>`, `GE` = `>=`, `ASSIGN` = `=`, `GT` = `>`, `ID` = `[A-Za-z_]\w*`.
 
 (a) Give the token sequence for `x>=>y`.
+
 (b) The parser is a predictive recursive-descent parser with one token of lookahead. Does having a *second* token of lookahead let it recover the alternative reading `x > (=> y)`? Answer yes or no and say why in one sentence.
 
 <details>

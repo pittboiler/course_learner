@@ -90,7 +90,9 @@ The standard repair is to describe consequences more finely: not "voucher" but "
 **P1 (🟢) *(Formal (a)–(b) · Formal and Exegetical (c).)*** A drug firm awaits a regulator's ruling: Approve, Delay or Reject. Entries are utilities. Acts: $f = (100, 40, 0)$, $g = (60, 60, 0)$, $f' = (100, 40, 50)$, $g' = (60, 60, 50)$.
 
 (a) With $P = (0.3, 0.3, 0.4)$, compute the expected utility of all four acts.
+
 (b) Still using these utilities, find every probability vector $(p_1, p_2, p_3)$ for which $f \succ g$ under expected utility.
+
 (c) Dana chooses $f$ over $g$ and $g'$ over $f'$. Prove that no probability $P$ and utility $u$ (over the consequences 0, 40, 50, 60, 100) make both choices maximize expected utility, and name the Savage postulate she violates.
 
 **P2 (🟡) *(Exegetical (a) · Formal (b).)*** Three invented agents.
@@ -100,11 +102,13 @@ The standard repair is to describe consequences more finely: not "voucher" but "
 - **Cleo**, offered three job contracts, prefers $A$ to $B$, $B$ to $C$, and $C$ to $A$.
 
 (a) Name the postulate each agent violates, one line each.
+
 (b) Prove that no probability $P$ and increasing utility $u$ make both of Ben's choices maximize expected utility.
 
 **P3 (🔴, optional) *(Exegetical (a) · Evaluative (b).)*** Two invented theorists. Ada: "Savage's theorem shows that anyone whose preferences are coherent has precise credences. Impossible constant acts are a harmless idealization, like a frictionless plane." Ravi: "A preference over an act no one could perform records nothing about anyone. Credences derived from it are fictions."
 
 (a) Name the single premise they split on.
+
 (b) Say what argument or evidence would move each side. 150 words or fewer for (a) and (b) together.
 
 <details>
@@ -177,7 +181,9 @@ Since $u$ is increasing, $u(x) - u(0) > 0$ for both $x = 10$ and $x = 1{,}000$. 
 **From Lesson [1.3](01-03-the-vnm-theorem-and-how-utility-is-built.md) (The vNM theorem and how utility is built):** *(Formal (a)–(b) · Exegetical (c).)* Omar's prizes are 0, 30, 60 and 90 dollars. He is indifferent between 60 dollars for sure and a 0.8 chance of 90 dollars (else 0). He is also indifferent between 30 dollars for sure and a 50–50 gamble between 60 dollars and nothing.
 
 (a) Normalize $u(0) = 0$, $u(90) = 1$. Find $u(60)$ and $u(30)$.
+
 (b) Compare $L_1$ (90, 30 or 0 dollars with probabilities 0.25, 0.5, 0.25) with $L_2$ (60 or 30 dollars, 50–50). For each, give the chance $p$ of 90 dollars (else 0) that he finds exactly as good.
+
 (c) Omar later adds that 30 dollars for sure is exactly as good as a 0.5 chance of 90 dollars (else 0). Show that this cannot be squared with his first two answers under the vNM axioms, and name the premises of the construction he must give up at least one of. Two sentences for the naming.
 
 <details>

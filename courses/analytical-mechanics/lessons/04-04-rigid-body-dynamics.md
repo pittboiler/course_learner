@@ -98,6 +98,7 @@ $$I_3=\sigma\!\int\!\!\int (x_1^2+x_2^2)\,dA=\frac{1}{12}Ma^2+\frac{1}{12}Mb^2=\
 Principal axes: the plate is symmetric under $x_1\to-x_1$ and $x_2\to-x_2$, so every product of inertia integrand ($x_ix_j$, $i\ne j$) is odd in some coordinate and integrates to zero — $I$ is already diagonal, so $\hat e_1,\hat e_2,\hat e_3$ are principal. **Check:** $I_1+I_2=\frac{1}{12}Mb^2+\frac{1}{12}Ma^2=\frac{1}{12}M(a^2+b^2)=I_3$ — the perpendicular-axis theorem, valid because the plate is planar. ✓
 
 **P2** (a) With $I_1=I_2$, $\ T_{\text{rot}}=\tfrac12 I_1(\omega_1^2+\omega_2^2)+\tfrac12 I_3\omega_3^2$. Now $\omega_1^2+\omega_2^2=A^2\cos^2\Omega t+A^2\sin^2\Omega t=A^2$ (constant), and $\omega_3$ is constant, so $T_{\text{rot}}=\tfrac12 I_1 A^2+\tfrac12 I_3\omega_3^2=\text{const}$. ✓
+
 (b) $|\mathbf L|^2=(I_1\omega_1)^2+(I_2\omega_2)^2+(I_3\omega_3)^2=I_1^2(\omega_1^2+\omega_2^2)+I_3^2\omega_3^2=I_1^2A^2+I_3^2\omega_3^2=\text{const}$. ✓
 **Check** (independent, from the dynamics): differentiate $\tfrac12(I_1\omega_1^2+I_2\omega_2^2+I_3\omega_3^2)$ and use torque-free Euler's equations — $\dot T=\omega_1\!\cdot\!(I_2-I_3)\omega_2\omega_3+\omega_2\!\cdot\!(I_3-I_1)\omega_3\omega_1+\omega_3\!\cdot\!(I_1-I_2)\omega_1\omega_2=(I_2-I_3+I_3-I_1+I_1-I_2)\,\omega_1\omega_2\omega_3=0$. Energy and $|\mathbf L|$ are conserved for *any* torque-free body, not just the symmetric one. ✓
 

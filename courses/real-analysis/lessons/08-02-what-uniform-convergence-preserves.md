@@ -79,7 +79,9 @@ The right side is independent of $x$. Since $\sum M_k$ converges, its tail $\sum
 **P2 (🟡)** Let $f_n(x)=n\,x\,(1-x^2)^n$ on $[0,1]$. Show that $f_n\to0$ pointwise but $\int_0^1 f_n\,dx\not\to\int_0^1 0\,dx$. What does this prove about the *mode* of convergence — without computing any sup norm?
 
 **P3 (🔴, optional)** Let $f_n(x)=\dfrac{\sin(nx)}{n}$.
+
 (a) Prove $f_n\to0$ uniformly on $\mathbb{R}$.
+
 (b) Show $f_n'(0)\to1$ while $f'(0)=0$, so $\lim f_n'(0)\ne f'(0)$. Which hypothesis of Theorem 3 fails, and where does it fail?
 
 <details>

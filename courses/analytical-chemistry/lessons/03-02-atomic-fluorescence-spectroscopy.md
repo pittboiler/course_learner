@@ -122,6 +122,7 @@ Emission scales with $N_1$, so it grows by the ratio $\dfrac{2.3\times10^{-2}}{3
 *Check.* Both ratios are far below 1 (excited level is the minority at any realistic $T$), and the hotter source gives the larger ratio, as the exponential demands. ✓
 
 **P3**
+
 (a) **Lead at ~1 ppb, one element:** choose **graphite-furnace (electrothermal) AAS** (or atomic fluorescence / ICP-MS if available). Flame AAS bottoms out near ppm and can't reach ppb; the furnace traps the atom cloud in the beam far longer, pushing detection limits to low ppb from a few microliters — and you only need one element, so single-element AAS is no handicap. Atomic fluorescence's black-background geometry is the other classic ultratrace choice.
 
 (b) **15 metals, fast:** choose **ICP-OES**. Its 7000 K plasma atomizes and excites everything at once, giving simultaneous multi-element readout over a wide linear range — swapping 15 hollow-cathode lamps for sequential AAS runs would be far slower. Likely interference: **spectral** (with dozens of emission lines, one element's line can overlap the analyte's); remedy: select an alternate, interference-free analytical line or use higher-resolution optics / background correction. (An **ionization** interference for easily ionized metals like the alkalis/alkaline earths is also fair — remedy: add an ionization suppressor such as excess Cs.)

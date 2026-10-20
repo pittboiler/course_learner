@@ -107,12 +107,15 @@ She bets on red.
 **P1 (🟢) *(Formal (a)–(b) · Exegetical (c).)*** A firm faces three demand states $s_1, s_2, s_3$. Two forecasts disagree: $P = (1/2,\ 1/4,\ 1/4)$ and $Q = (1/6,\ 1/3,\ 1/2)$. The firm treats every mixture as possible, so $C = \{\lambda P + (1-\lambda) Q : 0 \le \lambda \le 1\}$. Three plans give utilities $f = (10, 6, 2)$, $g = (0, 6, 14)$, $h = (6, 6, 6)$ across the states.
 
 (a) Compute each plan's maxmin expected utility over $C$ and say which the firm chooses.
+
 (b) Under alpha-maxmin, find the value of $\alpha$ at which the choice switches, and the choice on each side.
+
 (c) At $\alpha = 1/2$ each plan's value equals its expected utility under the single midpoint prior $\tfrac12 P + \tfrac12 Q$. In two sentences, say why, and what this shows about reading $\alpha$ as an ambiguity attitude.
 
 **P2 (🟡) *(Formal (a) · Exegetical (b).)*** An urn holds 50 balls: 20 green and 30 white or purple, with the number of white $w$ anywhere from 5 to 25. A winning bet pays 1 util. The agent maximizes maxmin expected utility over that set and updates every prior by Bayes's rule.
 
 (a) Compute her maxmin values for "white or purple" and "green or purple". She is then offered, free, the news of whether the ball is purple before she chooses. Find what she chooses after "not purple", the ex ante value of learning first, and the largest sure fee in utils she would pay to choose before the news.
+
 (b) Three sentences or fewer: say what an expected-utility agent with any single value of $w$ would pay to *avoid* the news, and why; then say how a resolute chooser avoids the fee and which assumption she gives up.
 
 **P3 (🔴, optional) *(Evaluative.)*** An **invented** op-ed, not the words of any real author:
@@ -202,6 +205,7 @@ She bets on green. If purple, both win. So learning first leaves her holding "gr
 **From Lesson [2.4](02-04-risk-beyond-curvature.md) (Risk beyond curvature: non-expected-utility theories):** *(Formal (a)–(b).)* Three agents value money linearly, $u(x) = x$, and differ only in their risk functions: $r(p) = p^2$, $r(p) = p$, and $r(p) = \sqrt{p}$. Gamble $G$ pays 0 dollars with probability 0.36, 60 with 0.48, and 100 with 0.16.
 
 (a) Compute each agent's risk-weighted expected utility of $G$, which is her certainty equivalent in dollars.
+
 (b) Each is offered 40 dollars for sure instead of $G$. Who takes it? In one sentence, say which property of $r$ sorts the three.
 
 <details>

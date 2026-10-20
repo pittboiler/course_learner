@@ -113,20 +113,27 @@ Two checks against the machine: $\mathsf{plus}\ \overline{2}\ \overline{3} \to^*
 **P1 (🟢)** Reduce each to normal form, showing every $\beta$-step, and state the number of steps.
 
 (a) $(\lambda x.\,x\,x)\ (\lambda y.\,y)$
+
 (b) $\mathsf{tru}\ a\ b$, where $\mathsf{tru} = \lambda t.\lambda f.\,t$
+
 (c) $\mathsf{fst}\ (\mathsf{pair}\ a\ b)$
 
 **P2 (🟡)** Verify each by reduction, showing the key steps.
 
 (a) $\mathsf{not}\ \mathsf{tru} \to^*_\beta \mathsf{fls}$, where $\mathsf{not} = \lambda p.\lambda a.\lambda b.\ p\,b\,a$.
+
 (b) $\mathsf{and}\ \mathsf{fls}\ \mathsf{tru} \to^*_\beta \mathsf{fls}$, where $\mathsf{and} = \lambda p.\lambda q.\ p\,q\,p$.
+
 (c) $\mathsf{iszro}\ \overline{1} \to^*_\beta \mathsf{fls}$, where $\mathsf{iszro} = \lambda n.\ n\,(\lambda x.\,\mathsf{fls})\,\mathsf{tru}$.
 
 **P3 (🔴)** Define exponentiation on Church numerals.
 
 (a) Using $\overline{n}\,f = f^n$ and the $\mathsf{mult}$ argument from Example 2, guess $\mathsf{exp}$ with $\mathsf{exp}\ \overline{m}\ \overline{n} = \overline{m^n}$. The definition is two characters longer than $\mathsf{mult}$'s body.
+
 (b) Verify it on $\mathsf{exp}\ \overline{2}\ \overline{3}$ by reasoning about iterators — you do not need to write out every $\beta$-step, but you must say what each application computes.
+
 (c) Your definition takes its arguments in the order (base, exponent). State what $\mathsf{exp}\ \overline{m}\ \overline{0}$ reduces to, and check it against the mathematical convention.
+
 (d) Explain in two sentences why $\mathsf{exp}$ is *shorter* than $\mathsf{plus}$ even though exponentiation is the more complex operation, connecting it to Example 2's point.
 
 <details>
@@ -219,6 +226,7 @@ Put the three side by side and the pattern is visible: $\mathsf{plus}$ names bot
 $\beta$-reduction is a single rule, $(\lambda x.\,t)\,s \to_\beta [x := s]\,t$, closed under all three term formers.
 
 (a) Exhibit a term with two distinct $\beta$-redexes and give both results of one step.
+
 (b) State whether $\to_\beta$ is deterministic, and say what property replaces determinism here.
 
 <details>

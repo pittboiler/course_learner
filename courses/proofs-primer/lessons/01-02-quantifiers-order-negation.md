@@ -77,33 +77,47 @@ Read it left to right, and *feel the dependence*: "*Hand me any error tolerance 
 ## Problems
 
 **P1 (🟢)** Negate each statement. Give the negation both in symbols and in plain English, and say whether the *original* is true or false.
+
 (a) $\forall x \in \mathbb{R}, \; x^2 \ge 0.$
+
 (b) $\exists n \in \mathbb{N}, \; n^2 = 2.$
 
 **P2 (🟡)** Consider "every integer has a strictly larger integer," i.e. $\forall m \in \mathbb{Z}\; \exists n \in \mathbb{Z}: n > m$.
+
 (a) Write its negation in symbols and English; is the original true?
+
 (b) Now *swap the quantifier order* to $\exists n\, \forall m : n > m$. Translate it and explain how its meaning — and truth — differ from the original.
 
 **P3 (🔴, optional — Boss problem 1 warm-up)** Take the convergence definition $\forall \varepsilon > 0\; \exists N\; \forall n > N: |a_n - L| < \varepsilon$.
+
 (a) Write its full negation in symbols.
+
 (b) Translate that negation into plain English, and state operationally what "$a_n$ does **not** converge to $L$" demands you exhibit.
+
 (c) Verify your negation by negating it a second time and checking you recover the original.
 
 <details>
 <summary>Solutions</summary>
 
 **P1**
+
 (a) Negation: $\exists x \in \mathbb{R}, \; x^2 < 0$ — "there is a real number whose square is negative." The original is **true** (a square is never negative), so this negation is correctly false. (Flip $\forall \to \exists$; negate $x^2 \ge 0$ to $x^2 < 0$.)
+
 (b) Negation: $\forall n \in \mathbb{N}, \; n^2 \ne 2$ — "every natural number has square different from 2." The original is **false** (no natural number squares to 2, since $1^2 = 1$ and $2^2 = 4$), so this negation is correctly true. (Flip $\exists \to \forall$; negate $n^2 = 2$ to $n^2 \ne 2$.)
 
 **P2**
+
 (a) Negation: $\lnot\big(\forall m\, \exists n : n > m\big) \equiv \exists m\, \forall n : n \le m$ — "there is an integer $m$ such that every integer $n$ satisfies $n \le m$," i.e. *there is a largest integer.* The original is **true** (given any $m$, take $n = m+1$), so the negation is false — there is no largest integer.
+
 (b) $\exists n\, \forall m : n > m$ reads "there is a single integer $n$ that is strictly larger than *every* integer $m$" — one universal upper bound. This is **false**: such an $n$ would have to satisfy $n > n$ (taking $m = n$), a contradiction. The original let $n$ depend on $m$ (pick a fresh, bigger integer each time); the swap demands *one fixed* $n$ that beats them all at once. Same symbols, order reversed, truth flips from true to false — the $\forall x\,\exists y$ vs. $\exists y\,\forall x$ picture exactly.
 
 **P3**
+
 (a) Flip all three quantifiers left to right and negate the core ($|a_n - L| < \varepsilon$ becomes $|a_n - L| \ge \varepsilon$):
 $$\exists \varepsilon > 0\; \forall N\; \exists n > N : \; |a_n - L| \ge \varepsilon.$$
+
 (b) In words: "there is a tolerance $\varepsilon > 0$ such that, no matter how large a cutoff $N$ you pick, some later term $a_n$ (with $n > N$) lies at least $\varepsilon$ away from $L$." Operationally, to show $a_n$ does **not** converge to $L$ you must *exhibit one specific $\varepsilon > 0$* and then argue that the sequence keeps escaping the band $(L - \varepsilon,\, L + \varepsilon)$ forever — for every proposed cutoff there is a still-later term outside the band. (Example: $a_n = (-1)^n$ does not converge to $1$; take $\varepsilon = 1$, and every odd $n$ gives $|a_n - 1| = 2 \ge 1$.)
+
 (c) Negate the negation, flipping each quantifier back and negating $|a_n - L| \ge \varepsilon$ to $|a_n - L| < \varepsilon$:
 $$\lnot\big(\exists \varepsilon > 0\, \forall N\, \exists n > N : |a_n - L| \ge \varepsilon\big) \equiv \forall \varepsilon > 0\; \exists N\; \forall n > N : |a_n - L| < \varepsilon,$$
 which is the original definition. ✓ The double negation returns us home, confirming the negation was formed correctly.

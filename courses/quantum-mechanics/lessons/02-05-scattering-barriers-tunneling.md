@@ -80,7 +80,9 @@ Thick-barrier shortcut: $e^{-2\kappa a}=e^{-10.25}=3.5\times10^{-5}$ and prefact
 **P2 (🟡)** For the *step* potential ($V=0$ for $x<0$, $V=V_0$ for $x>0$) with $E>V_0$, the amplitudes satisfy $B/A=(k-k')/(k+k')$ and $F/A=2k/(k+k')$, where $k=\sqrt{2mE}/\hbar$, $k'=\sqrt{2m(E-V_0)}/\hbar$. Using the flux-weighted coefficients $R=|B/A|^2$ and $T=(k'/k)\,|F/A|^2$, show that $R+T=1$. Explain in one line why the naive $T=|F/A|^2$ *fails* here but is fine for the rectangular barrier.
 
 **P3 (🔴, optional)** In the thick-barrier regime $T\approx C\,e^{-2\kappa a}$ with $C=16E(V_0-E)/V_0^2$ nearly constant.
+
 (a) Show that *doubling* the width $a\to 2a$ multiplies $T$ by $e^{-2\kappa a}$, and evaluate that factor for the Example 1 barrier ($\kappa=10.25\ \text{nm}^{-1}$, $a=0.5$ nm).
+
 (b) An STM tunnels electrons across a vacuum gap with work-function barrier $V_0-E\approx 4$ eV, so $\kappa\approx 10.25\ \text{nm}^{-1}\approx 1.0\ \text{Å}^{-1}$. The tunneling current obeys $I\propto T\propto e^{-2\kappa a}$. By what factor does the current change when the tip moves $1$ Å ($=0.1$ nm) closer? Connect this to why the STM resolves single atoms.
 
 <details>

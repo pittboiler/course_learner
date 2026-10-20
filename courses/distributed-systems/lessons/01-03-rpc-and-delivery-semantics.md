@@ -109,23 +109,33 @@ The server, inside the same transaction that moves the money, inserts the key in
 **P1 (🟢)** A service handles 4,000 requests per second. Each dedup entry costs 20 bytes.
 
 (a) Give the table size for a 10-minute retention window, in megabytes.
+
 (b) Clients are configured to retry with exponential backoff for up to 90 minutes. State whether the 10-minute window is sufficient, and give the consequence if it is not.
+
 (c) Give the table size for a window that covers the client's retry horizon with a 2x safety margin.
+
 (d) Classify the delivery semantics the service provides if the dedup table is held in memory only and the server restarts, and name the failure model from [1.2](01-02-failure-models-and-the-network.md) that makes this matter.
 
 **P2 (🟡)** For each operation, state whether it is idempotent as written, and if not, give the smallest change that makes retrying safe.
 
 (a) `SET counter = 7`
+
 (b) `INCREMENT counter BY 1`
+
 (c) `DELETE user WHERE id = 42`
+
 (d) `APPEND "line" TO log`
+
 (e) `CHARGE card FOR 50 DOLLARS`
 
 **P3 (🔴, optional)** A queue consumer reads a message, processes it, and acknowledges it. The broker redelivers any message not acknowledged within 30 seconds.
 
 (a) Give an ordered step list in which one message is processed twice, with no component behaving incorrectly.
+
 (b) The team moves the acknowledgement to *before* processing instead of after. Give an ordered step list in which a message is now processed zero times, and name the delivery semantics each ordering provides.
+
 (c) State whether any ordering of "acknowledge" and "process" gives exactly-once processing, and justify the answer in one sentence using Two Generals.
+
 (d) Give the design that does achieve exactly-once *effects* here, and state the one property the processing step must have for it to work.
 
 <details>
@@ -199,7 +209,9 @@ Keep acknowledge-after-processing, so nothing is ever lost, and make the process
 **From Lesson 1.1 (why it's hard):** A read request is served by fanning out to all 12 shards of a partitioned index and merging the results, so **every shard must respond**. Each shard is independently available 99.8 percent of the time.
 
 (a) Give the availability of the fan-out read.
+
 (b) The team adds a second replica of each shard, and a shard counts as up if **either** replica is up. Give the new availability of the fan-out read.
+
 (c) State in one clause which of the two structures — the 12-way fan-out and the 2-way replication — is series and which is parallel.
 
 <details>

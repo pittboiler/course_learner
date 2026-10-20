@@ -93,16 +93,23 @@ Here the view stops giving a verdict. The rationalist can always redescribe a fa
 **P1 (🟢) *(Exegetical.)*** Classify each claim on all three axes: a priori or a posteriori (as knowable by an ordinary thinker), necessary or contingent, analytic or synthetic. One line each. Assume Kripke's view of names. In (c), "Vela" was introduced by an astronomer with the stipulation: *let "Vela" name the body, if there is exactly one, that is perturbing comet K's orbit.*
 
 (a) Every grandparent is a parent.
+
 (b) George Eliot is Mary Ann Evans.
+
 (c) If exactly one body is perturbing comet K's orbit, Vela is perturbing it.
+
 (d) The Thames flows through London.
 
 **P2 (🟡) *(Exegetical (a) · Evaluative (b).)*** A Quinean argues: "Physicists have seriously proposed revising even the law of excluded middle. So no belief is immune to revision by experience, and therefore no belief is justified a priori."
+
 (a) State the premise about what "a priori" means that the argument needs in order to be valid. Two sentences.
+
 (b) Give the strongest moderate-rationalist reply, and the best Quinean rejoinder to it. 150 words or fewer, any verdict.
 
 **P3 (🔴, optional) *(Exegetical (a) · Evaluative (b).)*** Ines, a number theorist, considers $f(n) = n^2 + n + 41$. After working through the algebra she has a vivid sense that she "just sees" that $f(n)$ is prime for every natural number $n$. A colleague's computer search then reports that $f(40) = 1681 = 41^2$.
+
 (a) After reading the output, Ines multiplies $41 \times 41$ by hand. Say which of her beliefs about 1681 is justified a priori and which a posteriori, and what kind of defeater the computer output was. Two sentences.
+
 (b) On BonJour's moderate rationalism, was her original belief ever justified a priori? Does the case support Quine? 120 words or fewer, any verdict.
 
 <details>
@@ -169,7 +176,9 @@ Here the view stops giving a verdict. The rationalist can always redescribe a fa
 **From Lesson [3.3](03-03-moore-and-the-dogmatist.md) (Moore and the dogmatist):** *(Formal (a)–(b) · Exegetical (c).)* Tamsin lives next to a film studio that sometimes sprays artificial snow on the street at night. On waking she has an experience as of fresh snow on her lawn ($E$). Let $SK$ be "the lawn is covered in the studio's artificial snow and there is no real snow", and $S$ be "there is real snow on the lawn", so $S$ entails $\neg SK$. Her illustrative credences: $\mathrm{cr}(SK) = 0.2$ and $\mathrm{cr}(E \mid \neg SK) = 0.5$.
 
 (a) Suppose the artificial snow is indistinguishable from real snow, so $\mathrm{cr}(E \mid SK) = 1$. Compute $\mathrm{cr}(\neg SK \mid E)$ and the ceiling it sets on $\mathrm{cr}(S \mid E)$.
+
 (b) Suppose instead the artificial snow passes for real only a quarter of the time, so $\mathrm{cr}(E \mid SK) = 0.25$. Compute $\mathrm{cr}(\neg SK \mid E)$ again.
+
 (c) In two sentences: which condition of White's result does (b) violate, and why does that give Moore no help against the brain in a vat?
 
 <details>

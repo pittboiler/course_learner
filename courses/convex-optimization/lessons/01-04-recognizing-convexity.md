@@ -102,11 +102,15 @@ For any $v$, $v^\top(\operatorname{diag}(z)-zz^\top)v = \sum_i z_i v_i^2 - \big(
 ## Problems
 
 **P1 (🟢)** Certify convex on the stated domain by naming operations only — no Hessian.
+
 (a) $f(x) = \lVert Ax-b\rVert_2 + \lambda\lVert x\rVert_1$ on $\mathbb{R}^n$, where $\lambda \ge 0$ (this is the lasso objective of [Lesson 5.1](05-01-least-squares-lasso.md)).
+
 (b) $g(x_1,x_2) = \max\{\,x_1^2 + x_2^2,\ \ e^{x_1 - x_2}\,\}$ on $\mathbb{R}^2$.
 
 **P2 (🟡)** For each, decide convex / concave / neither and justify by the composition rule — or, if the rule is inconclusive, find a different certificate.
+
 (a) $f(x) = \exp(x^2 - 2x)$ on $\mathbb{R}$.
+
 (b) $f(x) = \sqrt{1 + x^2}$ on $\mathbb{R}$.
 
 **P3 (🔴, optional)** Prove the partial-minimization rule and apply it. (a) Let $f(x,y)$ be convex jointly in $(x,y)$ and let $C$ be a convex set; assume $g(x) := \inf_{y\in C} f(x,y) > -\infty$ for all $x$. Prove $g$ is convex. (b) Deduce that the **distance to a convex set**, $\operatorname{dist}(x,C) = \inf_{y\in C}\lVert x-y\rVert_2$, is a convex function of $x$.

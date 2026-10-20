@@ -119,22 +119,31 @@ Five replicas of a pricing service run a crash-tolerant consensus protocol. A de
 **P1 (🟢)** A consortium wants Byzantine fault tolerance.
 
 (a) Give the minimum node count for $f = 1$, $f = 3$ and $f = 4$.
+
 (b) Give the quorum size in each case, and verify the intersection contains an honest node for $f = 3$.
+
 (c) A 12-node cluster is deployed. Give the largest $f$ it tolerates, and state how many nodes are wasted relative to the tight bound.
+
 (d) State how many **crash** faults the same 12 nodes would tolerate, and the one clause explaining the difference.
 
 **P2 (🟡)** A PBFT deployment has $n = 10$.
 
 (a) Give $f$, the quorum size, and the size of the intersection of two quorums.
+
 (b) Give the number of honest nodes guaranteed in that intersection, with the arithmetic.
+
 (c) Give the message count for the prepare and commit phases of one request.
+
 (d) Compare with a Raft cluster of the same size, on both fault tolerance and messages per operation.
 
 **P3 (🔴, optional)** A team runs a 4-node PBFT cluster and is asked whether the protocol is still needed now that all nodes are in one data centre under one administrator.
 
 (a) State the largest $f$ the cluster tolerates, and whether it is on the tight bound.
+
 (b) Give two concrete non-adversarial faults that PBFT would catch and a crash-tolerant protocol would not.
+
 (c) The team proposes switching to Raft with 5 nodes, arguing it tolerates more faults. State what it gains and what it loses, with the numbers.
+
 (d) Give the cheap mechanism that recovers most of the lost detection under Raft, and state precisely what it does and does not catch.
 
 <details>
@@ -211,7 +220,9 @@ In both cases the consensus layer of a crash-tolerant system is functioning perf
 **From Lesson 4.4 (consistent hashing and DHTs):** A 24-node ring holds 1.2 TB, using 256 virtual nodes per physical node. A 25th node joins.
 
 (a) Give the expected fraction and volume of data that moves.
+
 (b) Give the same figures if the cluster used `hash mod N` instead.
+
 (c) State what the 256 virtual nodes buy, in one clause each for load and for failure.
 
 <details>

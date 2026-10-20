@@ -101,9 +101,13 @@ The strain comes with the staff who never pay a bribe themselves. The accountant
 **P1 (🟢)** *(Exegetical)* Classify each person by CCC 1868's four ways and by the item in Aquinas's verse, or say that they do not share the sin and why. **One line each.**
 
 (a) A town councillor votes for a contract he knows was won by bribery, because the briber is his cousin.
+
 (b) A landlord lets a room to a man he knows is hiding from arrest for assault, and keeps quiet when police ask the neighbourhood.
+
 (c) A student who knows a classmate cheated on an exam tells no one.
+
 (d) A professor who proctored the exam saw the cheating and filed no report.
+
 (e) A podcaster tells listeners that skimming from one's employer is "just taking back your wages", and a listener does it.
 
 **P2 (🟡)** *(Exegetical (a) · Exegetical (b))* 1 Corinthians 8:9–13 (Douay–Rheims):
@@ -111,6 +115,7 @@ The strain comes with the staff who never pay a bribe themselves. The accountant
 > 9 But take heed lest perhaps this your liberty become a stumblingblock to the weak. 10 For if a man see him that hath knowledge sit at meat in the idol's temple, shall not his conscience, being weak, be emboldened to eat those things which are sacrificed to idols? 11 And through thy knowledge shall the weak brother perish, for whom Christ hath died? 12 Now when you sin thus against the brethren and wound their weak conscience, you sin against Christ. 13 Wherefore, if meat scandalize my brother, I will never eat flesh, lest I should scandalize my brother.
 
 (a) The act in verse 10 is not sinful in itself. What makes it scandal, and which words carry that? Give Aquinas's reading (q.43 a.1 ad 2). **Two sentences.**
+
 (b) An invented case: Tom has a legitimate dispensation from Friday abstinence during Lent, for a medical reason. He eats a burger at the parish fish fry in front of the confirmation class he teaches. Afterwards, (i) two students, who know nothing of the dispensation, decide the rule must not matter, and (ii) a parishioner who knows about the dispensation denounces Tom anyway, to discredit him. Classify each kind of scandal using q.43 a.7–8, and say what Tom should have done. **80 words or fewer.**
 
 **P3 (🔴)** *(Exegetical)* An **invented** parish study-guide paragraph, not the words of any real person:

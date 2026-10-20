@@ -129,8 +129,11 @@ And errors **compound through a plan**. If the first join's output is underestim
 **P1 (🟢)** A `flight` table has 500,000 rows. The column `carrier` has 25 distinct values, `aircraft_type` has 40, and `year` ranges from 2010 to 2024.
 
 (a) Give the estimated rows for `WHERE carrier = 'BA'`.
+
 (b) Give the estimated rows for `WHERE year > 2020`.
+
 (c) Give the estimated rows for `WHERE carrier = 'BA' AND aircraft_type = 'A320'`.
+
 (d) Give the estimated rows for `WHERE carrier = 'BA' OR carrier = 'AF'`.
 
 **P2 (🟡)** An equi-depth histogram on `delay_minutes` over 800,000 rows has 8 buckets of 100,000 rows each, with boundaries
@@ -140,8 +143,11 @@ $$0,\; 2,\; 5,\; 9,\; 14,\; 22,\; 38,\; 95,\; 600$$
 so the first bucket covers 0 to 2, the second 2 to 5, and so on.
 
 (a) Give the estimated rows for `WHERE delay_minutes BETWEEN 0 AND 14`.
+
 (b) Give the estimated rows for `WHERE delay_minutes BETWEEN 100 AND 200`.
+
 (c) Give the estimate for (b) that the uniformity assumption would produce with no histogram, given the range 0 to 600.
+
 (d) State which of the two estimates in (b) and (c) you would trust more, and name the specific structural reason the histogram estimate for (b) is still likely to be too high.
 
 **P3 (🔴, optional)** Three tables: `customer` (100,000 rows, `cid` unique), `order` (2,000,000 rows, `cid` a foreign key to `customer`, `region_id` with 12 distinct values), and `region` (12 rows, `region_id` unique). The query is
@@ -155,8 +161,11 @@ WHERE  o.region_id = 3 AND o.status = 'shipped';
 `status` has 5 distinct values, of which `'shipped'` covers 80 percent of orders.
 
 (a) Give the optimizer's estimated row count for the two filters on `order`, under uniformity and independence.
+
 (b) Give the true row count for those filters, assuming regions are equally sized.
+
 (c) Estimate the cardinality of `order ⋈ customer` after the filters, using the join formula, and explain why the formula is exact here rather than approximate.
+
 (d) The `region` join is on `region_id`, which the `WHERE` clause has already pinned to a single value. State the estimated cardinality of joining the filtered result to `region`, and name the optimizer rewrite that makes this join nearly free.
 
 <details>
@@ -243,8 +252,11 @@ The same rewrite is what lets a predicate on one table restrict another it was n
 **From Lesson 3.5 (query operators & join algorithms):** Join $P$ (600 pages, 30,000 rows) to $Q$ (24,000 pages, 1,200,000 rows) on a key of $P$, with $B = 202$ frames. A height-3 clustered index exists on $Q$'s join column, and $Q$ holds 50 rows per page.
 
 (a) Give the block nested-loop cost with $P$ as outer.
+
 (b) Give the grace hash join cost.
+
 (c) Give the index nested-loop cost with $P$ as outer, given 40 matching $Q$ rows per $P$ row.
+
 (d) Rank the three.
 
 <details>

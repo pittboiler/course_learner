@@ -84,18 +84,22 @@ Since $|z| = 2.11 > 1.96$, reject. The p-value: $p = 2(1-\Phi(2.11)) = 2(1-0.982
 
 **P1** (a) Standard error $\sigma/\sqrt{n} = 10/\sqrt{25} = 10/5 = 2$, so
 $$z = \frac{103 - 100}{2} = \frac{3}{2} = 1.5.$$
+
 (b) Two-sided: $p = 2(1-\Phi(1.5)) = 2(1 - 0.9332) = 2(0.0668) = 0.1336$.
+
 (c) Since $p = 0.1336 > 0.05$ (equivalently $|z| = 1.5 < 1.96$), **fail to reject** $H_0$. A gap of 3 is well within the noise for this sample size.
 Check (CI duality): the 95% CI is $103 \pm 1.96(2) = 103 \pm 3.92 = (99.08, 106.92)$, which **contains** $100$ — so a two-sided 5% test retains $H_0$, matching part (c). ✓
 
 **P2** (a) Standard error $\sigma/\sqrt{n} = 8/\sqrt{64} = 8/8 = 1$, so
 $$z = \frac{52.4 - 50}{1} = 2.4.$$
 One-sided p-value: $p = 1-\Phi(2.4) = 1 - 0.9918 = 0.0082$. Since $0.0082 < 0.05$ (equivalently $z = 2.4 > 1.645$), **reject** $H_0$: there is significant evidence the program raises the mean above 50. (Honest reading: this says the lift is unlikely to be pure chance — it does *not* say the lift is large or practically meaningful.)
+
 (b) Two-sided 95% CI: $52.4 \pm 1.96(1) = (50.44, 54.36)$. The null value $50$ lies **outside** the interval, so a two-sided 5% test also rejects — consistent. (The two-sided p would be $2(1-\Phi(2.4)) = 0.0164$, still $< 0.05$.)
 Check: one-sided $z=2.4 > 1.645$ ⟺ two-sided CI excludes 50 ⟺ reject. All three agree. ✓
 
 **P3** (a) Standard error is $2$ (as in P1). The one-sided 5% rule rejects when $z > 1.645$, i.e. when
 $$\bar{X} > 100 + 1.645(2) = 100 + 3.29 = 103.29.$$
+
 (b) Power is the probability of that rejection *when the truth is* $\mu = 105$. Then $\bar{X} \sim N(105,\ 2^2)$, so
 $$1-\beta = \mathbb{P}(\bar{X} > 103.29 \mid \mu = 105) = \mathbb{P}\!\left(Z > \frac{103.29 - 105}{2}\right) = \mathbb{P}(Z > -0.855).$$
 By symmetry $\mathbb{P}(Z > -0.855) = \Phi(0.855) = 0.8037$. So the power is about **$0.80$**, and the Type II error rate is $\beta \approx 0.20$.

@@ -219,7 +219,9 @@ $$\text{amphibole present} \;\Longrightarrow\; \text{the melt was water-bearing}
 **P3 (🔴)** In a dark, coarse-grained rock you find stubby prismatic crystals, $H$ between 5.5 and 6.5, with two cleavages measured at $87^\circ$ and $93^\circ$. Take $a\sin\beta = 9.37\ \text{Å}$.
 
 (a) Invert $\tan(\phi/2) = b/(a\sin\beta)$ to get the cell edge $b$, and say what chain type this is.
+
 (b) A hand lens lets you measure a cleavage angle to about $\pm 5^\circ$. Show that this precision is ample to separate pyroxene from amphibole, but hopeless for separating orthoclase ($90^\circ$) from plagioclase ($86^\circ$) — and state what you use instead for the feldspars.
+
 (c) The same rock has a fine-grained chilled margin where no crystal is large enough to test. Name the two laboratory methods that would still work and say what physical quantity each actually measures.
 
 <details>

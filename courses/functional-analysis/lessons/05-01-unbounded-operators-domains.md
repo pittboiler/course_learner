@@ -97,7 +97,9 @@ So $A$ is the model citizen of this lesson: **densely defined, unbounded, and cl
 **P1 (🟢)** On $L^2[0,1]$, the operator $A = -i\,d/dx$ satisfies $A e_n = 2\pi n\, e_n$ for $e_n = e^{2\pi i n x}$. Show directly that there is *no* constant $M$ with $\|Af\| \le M\|f\|$ for all $f \in D(A)$, and state in one line why this means $D(A)$ cannot be all of $L^2[0,1]$.
 
 **P2 (🟡)** Consider the **position operator** $X$ on $H = L^2(\mathbb{R})$, defined by $(Xf)(x) = x\,f(x)$, with natural domain $D(X) = \{\, f \in L^2(\mathbb{R}) : x f(x) \in L^2(\mathbb{R}) \,\}$.
+
 (a) Exhibit one $f \in L^2(\mathbb{R})$ with $f \notin D(X)$, proving $D(X) \subsetneq H$.
+
 (b) Show $X$ is unbounded by finding unit vectors $f_a$ with $\|X f_a\| \to \infty$. *(Hint: slide a fixed bump out to $x = a$.)*
 
 **P3 (🔴, optional)** Show the position operator $X$ of P2 is **closed**. *(Suggestion: if $f_n \to f$ and $X f_n \to g$ in $L^2(\mathbb{R})$, pass to a subsequence converging pointwise a.e. and identify $g(x)$.)*

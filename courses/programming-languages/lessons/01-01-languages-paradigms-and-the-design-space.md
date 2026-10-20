@@ -93,7 +93,9 @@ So "immutable by default" is not a preference about assignment. It is a bet that
 **P3 (🔴)** Classify each of the following surprises by which axis produced it, and in one sentence name the trade the designer made. Give the axis number.
 
 (a) In JavaScript, `[] + {}` evaluates to the string `"[object Object]"` rather than raising.
+
 (b) In Haskell, `take 5 [1..]` terminates and returns five elements, although `[1..]` is an infinite list.
+
 (c) In C, a function may return a pointer to a local variable, and the program compiles cleanly and then misbehaves at run time.
 
 <details>

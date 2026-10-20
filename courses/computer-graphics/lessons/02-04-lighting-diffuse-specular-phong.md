@@ -102,16 +102,23 @@ under 5% of the peak. The visible highlight on the sphere is roughly half as wid
 ## Problems
 
 **P1 (🟢)** A surface point at $(1, 1, 0)$ has normal $(0, 0, 1)$ and diffuse reflectance $k_d = (0.9, 0.6, 0.3)$. Compute the diffuse colour (no ambient, no specular) for:
+
 (a) a white directional light of intensity 1 arriving from direction $(1, 1, 1)$ (that is, $\mathbf{l} \propto (1,1,1)$);
+
 (b) instead, a white point light of intensity $I_0 = 8$ at $(0, 0, 2)$, with physical $1/d^2$ falloff.
 
 **P2 (🟡)** A surface point at the origin has $\mathbf{n} = (0, 1, 0)$. A white light of intensity 1 is at $(-2, 2, 1)$; the eye is at $(2, 3, -1)$. Material: $k_d = (0.2, 0.4, 0.9)$, $k_a = k_d$ with $I_a = 0.15$, $k_s = 0.6$, $p = 8$.
+
 (a) Compute $\mathbf{l}$, $\mathbf{v}$, $\mathbf{r}$, $\mathbf{n}\cdot\mathbf{l}$ and $\mathbf{r}\cdot\mathbf{v}$.
+
 (b) Compute the unclamped RGB colour, then the displayed colour.
 
 **P3 (🔴)** A unit sphere centred at the origin is lit by a directional light from $\mathbf{l} = (0, 0, 1)$ and viewed by a distant eye in direction $\mathbf{v} = (1, 0, 0)$. Take $p = 50$.
+
 (a) At which point on the sphere is the specular highlight brightest? Justify.
+
 (b) Take the point on the sphere's equator ($y = 0$) whose normal is $10°$ further from the light than the highlight normal. Compute its $\mathbf{n}\cdot\mathbf{l}$, its $\mathbf{r}\cdot\mathbf{v}$, and its specular factor $(\mathbf{r}\cdot\mathbf{v})^{50}$.
+
 (c) Explain in one sentence why the specular factor dropped so much more than the $10°$ suggests.
 
 <details>
@@ -165,8 +172,11 @@ Specular factor $0.940^{50} = \mathbf{0.045}$.
 ## Flashback
 
 **From Lesson 2.2 (clipping):** Using the projection with $90°$ field of view, aspect 1, $n = 1$, $f = 10$, clip the triangle with eye-space vertices $\mathbf{a} = (0, 0, -3)$, $\mathbf{b} = (2, 0, 1)$, $\mathbf{c} = (0, 2, 1)$ against the near plane.
+
 (a) Give each vertex's near-plane distance $d = z + w$.
+
 (b) Run Sutherland–Hodgman and list the output polygon in clip coordinates.
+
 (c) How many triangles reach the rasterizer?
 
 <details>

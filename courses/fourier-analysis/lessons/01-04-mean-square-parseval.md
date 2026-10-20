@@ -92,7 +92,9 @@ Apply Parseval and the value $\int_{-\pi}^{\pi}x^4\,dx=\tfrac{2\pi^5}{5}$ to pro
 <summary>Solutions</summary>
 
 **P1** Read coefficients off directly: $a_0/2=2$ so $a_0=4$; $a_1=4$, $b_1=3$, $a_3=-1$; all others $0$.
+
 (a) Real-form Parseval: $\dfrac1\pi\int_{-\pi}^{\pi}f^2=\dfrac{a_0^2}{2}+\sum(a_n^2+b_n^2)=\dfrac{4^2}{2}+\bigl(4^2+3^2\bigr)+(-1)^2=8+25+1=34.$
+
 (b) The DC term contributes $\tfrac{a_0^2}{2}=8$ of that total, i.e. $8/34=4/17\approx 23.5\%$. (Note the half-weight: the constant $2$ contributes $\tfrac{a_0^2}{2}=8$, not $2^2=4$. This is the standard trap — the constant mode $\cos 0x=1$ carries the $\tfrac{a_0^2}{2}$ term.)
 
 **P2** Here $g$ is even, $b_n=0$, $a_n=\dfrac{4(-1)^n}{n^2}$, and the constant is $\tfrac{a_0}{2}=\tfrac{\pi^2}{3}$, i.e. $a_0=\tfrac{2\pi^2}{3}$.
@@ -110,6 +112,7 @@ $$\sum_{n\neq 0}|c_n|^2=\sum_{n\neq 0}\frac{1}{|n|}=2\sum_{n=1}^{\infty}\frac1n=
 ## Flashback
 
 **From [Lesson 1.3](01-03-convergence-pointwise-uniform-gibbs.md) (pointwise convergence and jumps):** Use the sawtooth series derived above, $x=2\sum_{n=1}^{\infty}\dfrac{(-1)^{n+1}}{n}\sin nx$.
+
 (a) What value does the right-hand side converge to at $x=\pi$, and why does it *not* equal $f(\pi^-)=\pi$? (b) Evaluate the series at $x=\tfrac{\pi}{2}$ to derive Leibniz's formula $1-\tfrac13+\tfrac15-\tfrac17+\cdots=\tfrac\pi4$.
 
 <details>

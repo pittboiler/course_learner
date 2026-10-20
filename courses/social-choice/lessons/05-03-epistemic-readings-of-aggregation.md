@@ -122,16 +122,19 @@ Why: $\Pr(x \text{ best})$ sums $\varphi^{a(R)}$ over rankings with $x$ first. A
 **P1 (🟢) *(Formal (a)–(b).)*** Eleven voters: 5: B ≻ A ≻ C, 4: C ≻ B ≻ A, 2: A ≻ C ≻ B.
 
 (a) Give the three pairwise counts and the agreement score of all six rankings, and name the maximum-likelihood ranking under Condorcet's model.
+
 (b) With $p = 3/4$ and a uniform prior, find the posterior odds of that ranking against the runner-up, and its posterior probability.
 
 **P2 (🟡) *(Formal (a) · Evaluative (b).)*** A three-judge panel finds liability iff both premises hold; each judge is right on each premise with probability $r = 0.8$, independently.
 
 (a) Compute the accuracy on the conclusion of the premise-based and the conclusion-based procedure when both premises are true, and when exactly one is true.
+
 (b) An invented reform memo says: "The mathematics shows premise-based voting is the more accurate procedure, so appellate courts should adopt it." Respond in 100 words or fewer, any verdict.
 
 **P3 (🔴, optional) *(Formal (a) · Exegetical (b).)*** An invented assembly of 101 votes 61–40 for a law.
 
 (a) Under E1–E4 with prior $\tfrac12$, find the posterior probability that the majority is right if $p = 0.52$, and if $p = 0.6$.
+
 (b) An invented speech: "Sixty-one of us said yes. Rousseau proved the forty were simply mistaken, and the jury theorem makes it a mathematical certainty." Name what the inference needs and two things it gets wrong. 120 words or fewer.
 
 <details>

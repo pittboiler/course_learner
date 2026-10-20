@@ -132,8 +132,11 @@ The order on screen is now correct, and crucially Carol **knew** to wait rather 
 **P1 (🟢)** Two processes exchange messages. Process X's events in order: $x_1$ (local), $x_2$ (send $m$ to Y), $x_3$ (local). Process Y's events in order: $y_1$ (local), $y_2$ (local), $y_3$ (receive $m$).
 
 (a) Give the Lamport timestamp of every event.
+
 (b) Give the vector timestamp of every event, with coordinates ordered $(X, Y)$.
+
 (c) List every pair of concurrent events.
+
 (d) Give one pair that is concurrent but whose Lamport timestamps are strictly ordered, or state that none exists.
 
 **P2 (🟡)** Three processes A, B, C run the following, with each process's events listed in program order:
@@ -143,15 +146,21 @@ The order on screen is now correct, and crucially Carol **knew** to wait rather 
 - C: $c_1$ (local), $c_2$ (receive $q$), $c_3$ (send $r$ to A)
 
 (a) Give the vector timestamp of every event, coordinates ordered $(A, B, C)$.
+
 (b) List every event concurrent with $a_2$.
+
 (c) Give the Lamport timestamps of $b_3$ and $c_3$, and state what the comparison between them wrongly suggests.
+
 (d) State whether $a_1 \to c_3$, giving the chain or the dominating comparison that settles it.
 
 **P3 (🔴, optional)** A key-value store replicates to three replicas and resolves conflicts by keeping the write with the larger Lamport timestamp, breaking ties by replica id.
 
 (a) Construct a concrete two-write execution — as an ordered step list — in which this rule silently discards a write that was **not** overwritten by anything causally later. State the two Lamport timestamps.
+
 (b) State what the vector timestamps of the two writes would be in your execution, and what a vector-clock-based store would do instead.
+
 (c) The team argues that discarding is fine because "some write has to win." Give the precise circumstance in which that argument is correct, and the circumstance in which it destroys data.
+
 (d) Give one kind of data for which last-writer-wins is genuinely safe, and one for which it is not, with a one-clause reason for each.
 
 <details>
@@ -259,7 +268,9 @@ What it does instead is **keep both versions as siblings** and surface them: to 
 **From Lesson 1.4 (physical clocks):** Two data centres synchronize against the same NTP source. A client in each records an event, and the exchange used to set each local clock had a round-trip delay of 90 ms in one case and 30 ms in the other.
 
 (a) Give the worst-case uncertainty in each clock's offset, and the worst-case uncertainty in the *difference* between the two readings.
+
 (b) The two events are logged 40 ms apart. State whether the physical timestamps determine their order.
+
 (c) State what vector clocks would report about the same pair, and why the two answers are not in conflict.
 
 <details>

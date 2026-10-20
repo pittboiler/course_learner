@@ -151,6 +151,7 @@ At $\beta_0 = 3$ — three prior standard deviations out, unlikely under the pri
 **P1 (🟢)** Working in the orthonormal case, where the ridge estimate is $\hat\beta_j = z_j/(1+\lambda)$:
 
 (a) You estimate $\sigma^2 = 12$ and believe coefficients have standard deviation $\tau = 2$. Give $\lambda$, the shrinkage factor, and what an OLS coefficient of $z_j = 4$ becomes.
+
 (b) Invert: a colleague cross-validates to $\lambda = 0.75$ on data with $\sigma^2 = 12$. What prior standard deviation are they implicitly asserting, and state their belief in one sentence about the size of coefficients.
 
 **P2 (🟡)** Derive the Laplace ↔ lasso correspondence from scratch, including the constant. Start from $y\mid\beta \sim \mathcal N(X\beta, \sigma^2 I)$ and the prior with density $\prod_j \frac{1}{2b}e^{-|\beta_j|/b}$, and show that the MAP estimate minimizes $\lVert y-X\beta\rVert^2 + \lambda\lVert\beta\rVert_1$ with $\lambda = 2\sigma^2/b$. Then say precisely which step would have to change to make the constant $\sigma^2/b$ instead, and why that is bookkeeping rather than a different model.
@@ -158,6 +159,7 @@ At $\beta_0 = 3$ — three prior standard deviations out, unlikely under the pri
 **P3 (🔴)** Under the Laplace prior, show both of the following and then reconcile them.
 
 (a) For every dataset $y$, $\Pr(\beta_j = 0 \mid y) = 0$.
+
 (b) Over the randomness in the data, $\Pr(\hat\beta_j^{\text{MAP}} = 0) > 0$. Do this concretely in the scalar orthonormal case with $\sigma^2 = 1$, $b = 1$ and true coefficient $\beta_j^0 = 0.5$, using the soft-threshold solution of $\min_\beta (z-\beta)^2 + \lambda|\beta|$; give the number.
 
 Then explain in two sentences why (a) and (b) are not a contradiction, and name the change to the prior that would let the posterior itself report a coefficient as exactly zero.
@@ -208,6 +210,7 @@ To let the posterior itself say "this coefficient is zero," the prior needs an a
 **From Lesson 2.3 (Ridge regression and shrinkage):** A centred, standardized design has $X^\top X$ with eigenvalues (squared singular values) $\sigma_i^2 = (10,\ 5,\ 2,\ 1)$.
 
 (a) Compute the [effective degrees of freedom](../reference.md#effective-degrees-of-freedom) $\mathrm{df}(\lambda) = \sum_i \sigma_i^2/(\sigma_i^2+\lambda)$ at $\lambda = 0$, $\lambda = 2$ and $\lambda = 5$, as exact fractions.
+
 (b) Your noise variance is estimated at $\sigma^2 = 6$. Express $\lambda = 2$ as a prior-to-noise variance ratio: what prior standard deviation on the coefficients does it encode, and what does that belief say relative to the noise?
 
 <details>

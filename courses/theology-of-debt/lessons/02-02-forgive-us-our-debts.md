@@ -84,8 +84,11 @@ The Catechism's contribution is not a verdict on the tense. It is 2843: not feel
 ## Problems
 
 **P1 (🟢)** *(Exegetical.)* Assign each claim its rung on [the ladder](../../fundamental-theology/lessons/04-04-the-ladder-of-doctrinal-authority.md) and **name the act** that fixes it, or say that none does. **Two sentences per claim.**
+
 (a) One who refuses to forgive his brother closes himself to the Father's forgiveness.
+
 (b) Matthew's aorist *aphēkamen* means the disciple must have finished forgiving before he may pray the petition.
+
 (c) The Didache's form of the prayer, "forgive us our debt", belongs to the canon of Scripture.
 
 **P2 (🟡)** *(Exegetical.)* Cyprian, *On the Lord's Prayer* 23 (ANF 5, trans. Ernest Wallis):
@@ -114,7 +117,9 @@ Name the error in each of its **three** claims (the word "debts", the Greek, the
 **P2** *(Exegetical.)*
 
 **Must hit, strict (a):** a **condition**: "bound us by a certain condition and engagement", "cannot be obtained unless". A **measure**: "in such a manner as", and "With what measure ye mete" (Matthew 7:2). Credit "law" ("added the law") as the frame for the condition.
+
 **(b):** **necessary only.** "Cannot be obtained unless" states necessity. Nothing in the passage says that forgiving others obtains pardon by itself, and no word of payment or price appears.
+
 **(c):** a forgiveness **already given can be lost**. The servant had "all his debt forgiven" and "lost the indulgence". So the condition governs keeping the release, not only obtaining it at the start.
 
 **Wrong turns:** answering (b) "sufficient" because of "in such a manner as"; a measure fixes the proportion, not the sufficiency. Reading "indulgence" in (c) in the later technical sense of [3.5](03-05-the-christian-jubilee-and-the-treasury.md); here it just means the lord's leniency.

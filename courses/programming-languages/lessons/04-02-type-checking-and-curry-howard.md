@@ -116,22 +116,31 @@ can only permute, duplicate and drop elements — it can never invent one, becau
 **P1 (🟢)** For each type, give a closed term inhabiting it, or state that none exists.
 
 (a) $\alpha \to \beta \to \beta$
+
 (b) $(\alpha \to \beta) \to (\beta \to \gamma) \to \alpha \to \gamma$
+
 (c) $\alpha \to (\alpha \to \beta) \to \beta$
+
 (d) $(\alpha \to \beta) \to \alpha$
 
 **P2 (🟡)** Using the bidirectional rules, say for each term whether it needs an annotation, and if so where and why.
 
 (a) $\lambda x.\ x$, at the top level with no expected type
+
 (b) $\lambda x.\ x$, as the argument of a function of known type $(\mathsf{Nat} \to \mathsf{Nat}) \to \mathsf{Nat}$
+
 (c) $(\lambda x.\ x)\ \overline{3}$
+
 (d) $f\,(\lambda x.\ x)$, where $f : (\mathsf{Bool} \to \mathsf{Bool}) \to \mathsf{Bool}$ is in the context
 
 **P3 (🔴)** Let $\mathsf{Void}$ be the empty type (no constructors, no closed inhabitants) and define $\neg \tau = \tau \to \mathsf{Void}$.
 
 (a) Give a closed term of type $\alpha \to \neg\neg\alpha$, and state the logical theorem it proves.
+
 (b) State whether there is a closed term of type $\neg\neg\alpha \to \alpha$, and say what its existence would mean logically.
+
 (c) Parts (a) and (b) are not symmetric. Explain the asymmetry in terms of what a program of each type would have to *do*.
+
 (d) Given (b), name the operator from later in this course that inhabits the classically-valid Peirce's law $((\alpha \to \beta) \to \alpha) \to \alpha$, and state in one sentence what its presence does to the logic a language corresponds to.
 
 <details>
@@ -208,6 +217,7 @@ Its presence makes the language correspond to **classical** rather than intuitio
 Typing is also given by inference rules.
 
 (a) State what "a finite derivation tree ending in $\Gamma \vdash e : \tau$" *is*, under the Curry–Howard reading.
+
 (b) A typing derivation for a term of type $\tau$ is finite. Use this, plus the reading in (a), to say why a language whose types have no inhabitant for $\mathsf{Void}$ is logically consistent — and what [Lesson 4.1](04-01-the-simply-typed-lambda-calculus.md)'s $\mathsf{fix}$ rule does to that argument.
 
 <details>

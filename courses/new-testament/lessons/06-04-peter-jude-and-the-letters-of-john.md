@@ -137,6 +137,7 @@ Name the **three** errors and correct each in one sentence. You are not asked fo
 > And every priest indeed standeth daily ministering and often offering the same sacrifices which can never take away sins. But this man, offering one sacrifice for sins, for ever sitteth on the right hand of God, From henceforth expecting until his enemies be made his footstool. For by one oblation he hath perfected for ever them that are sanctified.
 
 The Greek verbs of posture are *hestēken*, "stands" (10:11), and *ekathisen*, "sat down" (10:12). "For ever" in 10:12 and 10:14 is *eis to diēnekes*, "in perpetuity". In 10:12 the Greek order is "one ... sacrifice *eis to diēnekes* sat down", so the phrase can go with either the sacrifice or the sitting.
+
 (a) Name the two contrasts in 10:11–12, and say what the change of posture argues. (b) Which psalm verse do 10:12–13 echo, and how does it combine with the verse of that psalm Hebrews has already used for Christ's priesthood? (c) Give the two ways of attaching *eis to diēnekes* in 10:12, and say why the argument survives either choice. **Two sentences per part.**
 
 <details>

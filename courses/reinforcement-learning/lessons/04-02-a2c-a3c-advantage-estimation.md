@@ -124,22 +124,31 @@ That last point is the structural one. **DQN can use replay because Q-learning i
 **P1 (🟢)** A three-step segment with $\gamma = 1$, $\lambda = 0.8$, TD errors $\delta_0 = 2$, $\delta_1 = -1$, $\delta_2 = 4$, terminating after step $2$.
 
 (a) Compute $\hat A_2$, $\hat A_1$, $\hat A_0$ by the backward recursion.
+
 (b) Verify $\hat A_0$ against the forward sum $\sum_l(\gamma\lambda)^l\delta_l$.
+
 (c) Compute $\hat A_0$ at $\lambda = 0$ and at $\lambda = 1$.
+
 (d) State which of the three values of $\hat A_0$ has the largest variance as an estimator, and why.
 
 **P2 (🟡)** An A2C agent runs $N = 16$ environments for $T = 5$ steps between updates.
 
 (a) State the batch size of one update.
+
 (b) After $10^6$ environment steps in total, state how many gradient updates have occurred.
+
 (c) A DQN agent with a batch size of $32$ performs one update per environment step. State how many updates *it* performs in $10^6$ steps, and comment on the comparison.
+
 (d) State what the comparison in (c) implies about which method you would choose if environment steps were the expensive resource, and which if wall-clock time were.
 
 **P3 (🔴)** GAE's two forms are $(1-\lambda)\sum_n\lambda^{n-1}\hat A^{(n)}_t$ and $\sum_l(\gamma\lambda)^l\delta_{t+l}$.
 
 (a) Verify their equality for a two-step episode with $\gamma = 1$: rewards $R_1, R_2$, values $\hat V(S_0), \hat V(S_1)$, terminal after $S_1$.
+
 (b) State what $\hat A^{\text{GAE}}$ becomes at $\lambda = 1$, in terms of the return, and confirm it matches [Lesson 3.4](03-04-reinforce.md)'s REINFORCE-with-baseline multiplier.
+
 (c) Suppose the critic is perfect, $\hat V = V^\pi$. State what happens to the *bias* of $\hat A^{\text{GAE}}$ as $\lambda$ varies, and what this implies about the right $\lambda$ in that case.
+
 (d) Using (c), explain the practical rule that $\lambda$ should be lowered when the critic is good and raised when it is poor.
 
 <details>
@@ -229,8 +238,11 @@ In practice the critic is poor early in training and improves, which suggests an
 **From Lesson 3.5 (Actor–critic methods):** An actor–critic agent has $\hat V(s) = 6$, $\hat V(s') = 2$, softmax probabilities $(0.25,\ 0.75)$ over two actions, takes $a_2$, and receives $R = 1$. Take $\gamma = 0.9$, $\alpha^\theta = 0.4$, $\alpha^{\mathbf{w}} = 0.2$, tabular critic.
 
 (a) Compute $\delta$.
+
 (b) Update the critic.
+
 (c) Compute the score for $a_2$ and update the actor.
+
 (d) State whether $\pi(a_2)$ rose or fell, and explain it in terms of the advantage rather than the reward.
 
 <details>

@@ -95,7 +95,9 @@ Two things to notice, neither of them a verdict. First, the dispute is entirely 
 **P2 (🟡) *(Formal.)*** A card balance of 5,000 dollars at 24 percent APR, compounded monthly (so 2 percent a month), with no new purchases. Round money to the nearest cent and months up to whole months.
 
 (a) The minimum payment is 2 percent of the balance. Write the balance next month in terms of the balance this month, and say what happens to the debt.
+
 (b) The minimum is instead the month's interest plus 1 percent of the balance. Show that the balance falls by a fixed proportion each month, give the formula for the balance after $m$ months, and compute how many months until it first falls below 1,000 dollars. Real minimums carry a floor — say 25 dollars, whichever is greater. What ends the debt, and roughly when?
+
 (c) The borrower instead pays a fixed 150 dollars a month. Using $n = -\ln\!\left(1 - \frac{rB}{P}\right)/\ln(1+r)$, with $B$ the balance, $r$ the monthly rate and $P$ the payment, find the number of payments and the total interest. Repeat at a 12 percent APR ceiling, and say in one line what the ceiling was worth to this borrower.
 
 **P3 (🔴, optional) *(Exegetical.)*** (a) An invented op-ed argues:

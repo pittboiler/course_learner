@@ -92,17 +92,25 @@ So a dome must continue into a **trough**: the cross-boundary handles have to mi
 
 **P1 (🟢)** A patch has $\mathbf{P}_{ij} = (i, j, z_{ij})$ with
 $$z = \begin{pmatrix} 0 & 1 & 1 & 0 \\ 1 & 3 & 3 & 1 \\ 1 & 3 & 3 & 1 \\ 0 & 1 & 1 & 0 \end{pmatrix}.$$
+
 (a) Find $\mathbf{S}(0.5, 0.5)$.
+
 (b) Find $\mathbf{S}(0.5, 0.25)$.
+
 (c) Find $\mathbf{S}(0, 0.5)$, and say which control points it depends on.
 
 **P2 (🟡)** A patch is flat ($\mathbf{P}_{ij} = (i, j, 0)$) except that $\mathbf{P}_{10} = (1, 0, 1)$ and $\mathbf{P}_{01} = (0, 1, 0.5)$.
+
 (a) Compute the corner tangents $\mathbf{S}_u(0,0)$, $\mathbf{S}_v(0,0)$ and the unit normal at $\mathbf{P}_{00}$.
+
 (b) Compute $\mathbf{S}(0, 0.5)$. Why does $\mathbf{P}_{10}$ not affect it?
+
 (c) A neighbouring patch $B$ attaches along the boundary $u = 0$ of this patch (so that $B(1, v) = \mathbf{S}(0, v)$). For $C^1$, what must $B$'s control point $\mathbf{B}_{20}$ be?
 
 **P3 (🔴)** (a) A patch is surrounded on all four sides by neighbours with fixed control points, and all four joins must be $C^1$. Count how many of its 16 control points are determined. Which remain free?
+
 (b) Explain, in terms of the number of patches meeting at a corner and the directions of their boundary curves, why a regular grid of bicubic patches can close up around a vertex where four patches meet but runs into trouble at a vertex where three meet (as at the corner of a rounded cube).
+
 (c) Name the modeling approach that [4.5](04-05-subdivision-surfaces.md) uses to avoid this, in one sentence.
 
 <details>
@@ -157,7 +165,9 @@ $$\mathbf{B}_{20} = 2\mathbf{P}_{00} - \mathbf{P}_{10} = (0,0,0) - (1, 0, 1) = \
 ## Flashback
 
 **From Lesson 4.1 (meshes):** (a) A closed genus-0 triangle mesh has 1000 vertices. Give $E$ and $F$.
+
 (b) A scanned statue with 5 handles (genus 5) also has 1000 vertices, closed and triangulated. Give $E$ and $F$.
+
 (c) Stored as an indexed face set with 32-bit float positions and 32-bit indices, how many bytes does (b) take?
 
 <details>

@@ -96,9 +96,13 @@ The tradition's tools give a structure, not a number. The first drinks of years 
 ## Problems
 
 **P1 (🟢)** *(Exegetical)* Classify each invented case's ignorance as concomitant, consequent (say which kind) or antecedent, and say whether it excuses altogether, diminishes, or does neither. One line each.
+
 (a) A pharmacist fills a prescription with the wrong drug. The bottle had been mislabelled at the factory, and her double-check procedure was followed exactly.
+
 (b) A landlord avoids reading the new safety code "so no one can say I knew," and rents out a flat with illegal wiring.
+
 (c) A driver runs a red light he did not see because he was reading a text message.
+
 (d) A man steals a bicycle he believes belongs to a stranger; it is in fact his brother's, and he would have stolen it anyway.
 
 **P2 (🟡)** *(Exegetical)* Two invented cases. (i) A bank clerk is told by a robber that her child will be shot unless she opens the vault; she opens it. (ii) A security guard is shoved by three men through a door, which knocks over and breaks a display case. For each, name the factor in q.6, say whether the act is voluntary simply, involuntary simply, or mixed, and give the reason Aquinas's text supplies. Then say, in one sentence, why (i) being voluntary does not by itself settle whether the clerk sinned. **Two sentences per case, one for the last part.**
@@ -145,9 +149,13 @@ The tradition's tools give a structure, not a number. The first drinks of years 
 ## Flashback
 
 **From Lesson [1.3](01-03-natural-law-in-light-of-revelation.md) (Natural law in light of revelation):** *(Exegetical.)* Give each claim its level on the [ladder](../../fundamental-theology/lessons/04-04-the-ladder-of-doctrinal-authority.md), naming the act that fixes it, or saying that no magisterial act does. **One sentence each.**
+
 (a) The Ten Commandments bind Christians.
+
 (b) Revelation is morally necessary so that the moral truths reason can reach are known by all with firm certainty and without admixture of error.
+
 (c) The Decalogue's moral precepts are known in three ways: some by any reason at once, some only through the teaching of the wise, some only by divine instruction.
+
 (d) A natural moral law exists, written on the human heart and knowable by reason.
 
 <details>

@@ -94,13 +94,17 @@ The whole thing is an **equilibrium** (note the $\ce{<=>}$): dilute acid + exces
 ## Problems
 
 **P1 (🟢)** Give the organic product of each reaction, name the alcohol, and for the Grignard state where the new C–C bond forms.
+
 (a) Propanal, $\ce{CH3CH2CHO}$, treated with $\ce{NaBH4}$ then $\ce{H3O+}$.
+
 (b) Acetone, $\ce{(CH3)2CO}$, treated with $\ce{CH3MgBr}$ then $\ce{H3O+}$.
 
 **P2 (🟡)** Ethanal (acetaldehyde), $\ce{CH3CHO}$, is treated with 2 equivalents of methanol ($\ce{CH3OH}$) and a trace of acid. Draw/describe the acetal product, and explain in one line why a chemist would deliberately make it before running a reaction elsewhere in the molecule.
 
 **P3 (🔴)** Predict the product and push the mechanism (through the tetrahedral/carbinolamine intermediate to the final species) for:
+
 (a) benzaldehyde $\ce{C6H5CHO}$ + methylamine $\ce{CH3NH2}$ (a 1° amine);
+
 (b) cyclohexanone + dimethylamine $\ce{(CH3)2NH}$ (a 2° amine).
 Say why the two nitrogen nucleophiles give *different classes* of product.
 
@@ -108,6 +112,7 @@ Say why the two nitrogen nucleophiles give *different classes* of product.
 <summary>Solutions</summary>
 
 **P1**
+
 (a) Hydride ($\ce{H-}$) adds to the carbonyl carbon; workup protonates the alkoxide. Propanal (an aldehyde) → a **primary** alcohol, **1-propanol** $\ce{CH3CH2CH2OH}$. (The $\ce{C=O}$ became $\ce{CH-OH}$; here that carbon gains an H and an OH.)
 
 $$\ce{CH3CH2CHO ->[\text{1. NaBH4}][\text{2. H3O+}] CH3CH2CH2OH}$$

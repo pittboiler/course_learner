@@ -106,6 +106,7 @@ $$w_L = \tfrac12 L i_L^2 = \tfrac12 (0.5)(2)^2 = 1\,\text{J}, \qquad w_C = \tfra
 <summary>Solutions</summary>
 
 **P1** (a) Series capacitors combine by reciprocals: $\dfrac{1}{C_{12}} = \dfrac12 + \dfrac14 = \dfrac34$, so $C_{12} = \dfrac43\,\text{F}$. Parallel adds: $C_\text{eq} = C_{12} + C_3 = \dfrac43 + 1 = \dfrac73 \approx 2.33\,\text{F}$.
+
 (b) Parallel inductors combine by reciprocals (like resistors): $L_{12} = \dfrac{3\times 6}{3+6} = \dfrac{18}{9} = 2\,\text{H}$. Series adds: $L_\text{eq} = L_{12} + L_3 = 2 + 4 = 6\,\text{H}$.
 (The two elements use *opposite* rules — that's the one thing to remember.)
 
@@ -115,8 +116,11 @@ Voltage across $R_2$ (and hence the capacitor): $v_C = i_L R_2 = 1 \times 4 = 4\
 Energies: $w_L = \tfrac12 L i_L^2 = \tfrac12 (2)(1)^2 = 1\,\text{J}$, and $w_C = \tfrac12 C v_C^2 = \tfrac12 (0.1)(4)^2 = 0.8\,\text{J}.$
 
 **P3** (a) Voltage across a capacitor cannot jump, so $v_C(0^+) = v_C(0^-) = 4\,\text{V}.$
+
 (b) Just after closing, KVL around the loop: the source is $10\,\text{V}$, the capacitor holds $4\,\text{V}$, so the resistor takes the difference. $i(0^+) = \dfrac{10 - v_C(0^+)}{R} = \dfrac{10 - 4}{5} = 1.2\,\text{A}.$
+
 (c) At steady state the capacitor is fully charged and open, so $i(\infty) = 0$; with no current there is no drop across $R$, so the capacitor sees the whole source: $v_C(\infty) = 10\,\text{V}.$
+
 (d) Energy gained $= \tfrac12 C\left[v_C(\infty)^2 - v_C(0^-)^2\right] = \tfrac12 (0.1)\left[10^2 - 4^2\right] = \tfrac12 (0.1)(84) = 4.2\,\text{J}.$
 (That the current *starts* at $1.2\,\text{A}$ and *decays* to $0$ is the whole story of Lesson 3.2 — an exponential set by $\tau = RC$.)
 

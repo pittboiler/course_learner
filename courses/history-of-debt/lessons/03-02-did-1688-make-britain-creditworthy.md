@@ -75,8 +75,11 @@ A defender of North and Weingast has replies at full strength. Tory governments 
 ## Problems
 
 **P1 (🟢) *(Formal.)*** The yields below are **invented for illustration** and are not historical data. British long-term government debt yields 7.0 percent in "year A" and 3.2 percent in "year B". Dutch provincial debt yields 4.0 percent and 2.8 percent in the same years.
+
 (a) Compute the British–Dutch spread in each year, in basis points, and the change.
+
 (b) Split the fall in British yields into the part shared with Holland and the British-specific part, and give the British-specific share as a percentage.
+
 (c) For a British debt of £50 million, how much annual interest does the British-specific part save, and how much does the common part save?
 
 **P2 (🟡) *(Exegetical.)*** North and Weingast say post-1688 credibility came from constitutional rules; Stasavage says it came from a creditor-friendly Whig coalition governing under those rules. (a) Name the single premise in the lesson's reconstruction of North and Weingast that Stasavage must deny or weaken, and say why. (b) Describe the *kind* of historical comparison that would separate the two explanations: what must be held fixed, and what must vary? 150 words or fewer in total.

@@ -85,6 +85,7 @@ About $85\%$ of the cluster is neither stars nor gas. And that ratio $\sim6$ is 
 **P1** (a) With $\sigma=10^6$ m/s, $\sigma^2=10^{12}\ \mathrm{m^2/s^2}$:
 $$M \sim \frac{\sigma^2 R}{G} = \frac{(10^{12})(3.086\times10^{22})}{6.674\times10^{-11}} = \frac{3.086\times10^{34}}{6.674\times10^{-11}} = 4.6\times10^{44}\ \mathrm{kg}.$$
 In solar masses: $4.6\times10^{44}/1.989\times10^{30} = 2.3\times10^{14}\,M_\odot$.
+
 (b) $M/M_{\rm stars} \approx 2.3\times10^{14}/10^{13} \approx 20$. The gravitating mass is ~20 times the stellar mass. Even after adding the hot gas (a few $\times10^{13}\,M_\odot$), the total baryons fall ~6× short — most of the cluster is dark.
 *Check:* units $(\mathrm{m^2/s^2})(\mathrm m)/(\mathrm{m^3\,kg^{-1}\,s^{-2}}) = \mathrm{kg}$ ✓; $\sim2\times10^{14}\,M_\odot$ is a textbook rich-cluster mass. ✓
 

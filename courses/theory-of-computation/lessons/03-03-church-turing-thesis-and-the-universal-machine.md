@@ -112,8 +112,11 @@ That is a complete proof. It contains no states, no tape, no $\delta$ — and by
 **P2 (🟡)** For each description, say whether it establishes that the language is **decidable**, only **Turing-recognizable**, or **neither as written** — and say which clause of the description settles it.
 
 (a) On input $\langle G \rangle$ for a CFG $G$ and a string $w$: try every derivation of $G$ in order of length; accept if one yields $w$.
+
 (b) On input $\langle D \rangle$ for a DFA $D$: mark the start state, then repeatedly mark any state reachable in one step from a marked state, until no change; accept iff some accept state is marked.
+
 (c) On input $\langle M \rangle$ for a TM $M$: run $M$ on every string of $\Sigma^*$ in order, and accept if any of them accepts.
+
 (d) On input $\langle M, w \rangle$: run $M$ on $w$ for $|w|^2$ steps; accept if it has accepted by then, reject otherwise.
 
 **P3 (🔴)** A colleague argues:
@@ -121,7 +124,9 @@ That is a complete proof. It contains no states, no tape, no $\delta$ — and by
 > "The universal machine $U$ simulates any $M$ on any $w$. So to decide whether $M$ accepts $w$, run $U$ on $\langle M, w\rangle$. If it accepts, output yes; if it rejects, output no; and if it is still running after a long time, output no — it is clearly stuck. Therefore $A_{\mathrm{TM}}$ is decidable."
 
 (a) Identify the exact step that fails, and say precisely what would have to be true for it to work.
+
 (b) Give a concrete pair $(M, w)$ for which the "long time" rule gives the wrong answer for *any* fixed time bound the colleague chooses.
+
 (c) The colleague retreats to: "fine, but for each $\langle M,w\rangle$ there *exists* a bound that works — accept if $M$ accepts within it, reject otherwise. That is a decider." Say what is wrong with this weaker claim, being careful about the difference between "a bound exists" and "a bound is computable."
 
 <details>

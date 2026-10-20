@@ -114,21 +114,29 @@ The internal representations disagree about everything: after three `tick`s, A h
 **P1 (🟢)** Write each type using $\mu$, $+$, $\times$ and $\mathsf{Unit}$.
 
 (a) A list of booleans.
+
 (b) A binary tree with $\mathsf{Nat}$ at internal nodes and nothing at leaves.
+
 (c) A non-empty list of $\alpha$.
+
 (d) A "stream" — an infinite list of $\mathsf{Nat}$, with no empty case.
 
 **P2 (🟡)** Consider the package type $\exists\alpha.\ \{\mathit{empty} : \alpha,\ \mathit{push} : \mathsf{Nat}\to\alpha\to\alpha,\ \mathit{pop} : \alpha \to \mathsf{Option}\ (\mathsf{Nat}\times\alpha)\}$.
 
 (a) Give an implementation packaging $\alpha := [\mathsf{Nat}]$ (a list).
+
 (b) Give a second implementation with a different $\alpha$ that no client can distinguish from the first.
+
 (c) State one expression a client can write, and one it cannot, with the reason for the second.
 
 **P3 (🔴)** A designer loosens $\mathsf{T\text{-}Open}$ by dropping the side condition $\alpha \notin \mathrm{ftv}(\tau_2)$.
 
 (a) Using the counter package, write a client expression that is now well-typed and should not be.
+
 (b) State what goes wrong when two *different* counter packages are opened in the same program.
+
 (c) Name the property from [Lesson 4.5](04-05-type-soundness-progress-and-preservation.md) that fails, and say at which point.
+
 (d) Java's `private` is enforced by the compiler but defeated by reflection. State whether Java's abstraction is a theorem or a convention, and say what reflection corresponds to in this lesson's terms.
 
 <details>
@@ -215,7 +223,9 @@ So the representation-independence theorem of Example 2 is **false for Java**: t
 Now apply the same counting to a **recursive** type, $L = \mu\beta.\ \mathsf{Unit} + \mathsf{Bool}\times\beta$.
 
 (a) Write the cardinality equation the definition forces, and say why it has no finite solution other than one.
+
 (b) Count the values of $L$ whose list length is at most 2, and give the general count for length at most $n$.
+
 (c) A colleague proposes $S = \mu\beta.\ \mathsf{Bool}\times\beta$, dropping the $\mathsf{Unit}$ summand. Give $|S|$ and explain the answer in terms of how a $\mu$-value is built.
 
 <details>

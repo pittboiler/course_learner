@@ -102,7 +102,9 @@ So $r=-0.3\%$, which is below $n=2\%$ (in fact below zero): **dynamically ineffi
 **P2 (🟡)** With $\alpha=\tfrac13$, $\delta=0.05$, $n=0.02$, a Ramsey economy has $\rho=0.04$. Compute $k^*$ and confirm $k^*<k_{gr}$ (use $k_{gr}$ from P1). In two or three sentences, explain why impatience makes $k^*<k_{gr}$ *optimal* rather than a failure to reach the best steady state — what would $k^*$ equal in the limit $\rho\to n^+$?
 
 **P3 (🔴)** Consider a Solow economy with $f(k)=k^\alpha$ and constant saving rate $s$.
+
 (a) Show it is dynamically inefficient — i.e. $k^*>k_{gr}$ — **iff** $s>\alpha$, and show this is equivalent to $r<n$ where $r=f'(k^*)-\delta$.
+
 (b) Suppose $s>\alpha$. Construct an explicit feasible consumption path that Pareto-dominates the steady-state path (consumption at least as high at every date, strictly higher somewhere), proving the inefficiency is a real free lunch.
 
 <details>

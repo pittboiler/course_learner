@@ -124,6 +124,7 @@ Check: $|\mathbb{P}^2(\mathbb{F}_2)| = 1+2+4 = 7$, matching $\frac{2^3-1}{2-1}=7
 
 **From [Lesson 2.2](02-02-regular-rational-maps.md) (regular & rational maps; dominant $\Leftrightarrow$ function-field injection; birational equivalence):** Let $C = V(y^2 - x^3)\subseteq\mathbb{A}^2$ be the cuspidal cubic over $k=\bar k$, and consider the polynomial map
 $$\varphi:\mathbb{A}^1 \to C, \qquad t \longmapsto (t^2,\ t^3).$$
+
 (a) Verify $\varphi$ lands in $C$ and is **dominant** (its image is Zariski-dense in $C$). (b) A dominant map induces an injection of function fields $\varphi^*: k(C)\hookrightarrow k(\mathbb{A}^1)=k(t)$. Show this $\varphi^*$ is in fact an **isomorphism**, so $C$ is birational to $\mathbb{A}^1$. (c) Despite that, explain in one line why $\varphi$ is *not* an isomorphism of varieties.
 
 <details>

@@ -83,11 +83,15 @@ Tolerating 11% flipped bits *halves* the rate on a source that was impossible to
 <summary>Solutions</summary>
 
 **P1** (a) $R = \frac{1}{2}\log_2\frac{\sigma^2}{D} = \frac{1}{2}\log_2\frac{9}{1} = \frac{1}{2}\log_2 9 = \frac{1}{2}(3.1699) \approx 1.585$ bits/sample.
+
 (b) At $D=4$: $R = \frac{1}{2}\log_2\frac{9}{4} = \frac{1}{2}(1.1699) \approx 0.585$ bits. The change is $1.585 - 0.585 = 1.0$ bit saved. (Sanity check via the halving rule: going $1 \to 4$ is two doublings of $D$, so $2 \times \frac{1}{2} = 1$ bit — matches.)
+
 (c) $R = 0$ when $D = \sigma^2 = 9$: allow distortion equal to the variance and the best fixed guess $\hat X = 0$ already meets it, so zero bits are needed.
 
 **P2** (a) $R(0) = H(p) - H(0) = H(0.2) - 0 \approx 0.7219$ bits/symbol — the lossless floor.
+
 (b) $R(0.05) = H(0.2) - H(0.05) \approx 0.7219 - 0.2864 = 0.4355$ bits/symbol. Tolerating a 5% error rate cuts the rate by about 40%.
+
 (c) $R(D) = 0$ for $D \ge \min(p,1-p) = \min(0.2, 0.8) = 0.2$. There the encoder sends nothing and outputs the constant most-likely symbol ($\hat X = 0$, the majority value), incurring average distortion $p = 0.2$ — exactly the allowed budget.
 
 **P3** Suppose scheme A achieves distortion $D_1$ at rate $R_1 = R(D_1)$ and scheme B achieves $D_2$ at rate $R_2 = R(D_2)$. Time-share: apply A to a fraction $\lambda$ of the symbols and B to the remaining $1-\lambda$. Average distortion of the blend is the weighted average $\lambda D_1 + (1-\lambda)D_2$ (distortion is linear in the per-symbol errors), and its rate is the weighted average $\lambda R_1 + (1-\lambda)R_2$ (bits add). So the point $\big(\lambda D_1 + (1-\lambda)D_2,\ \lambda R_1 + (1-\lambda)R_2\big)$ is *achievable*. Since $R(D)$ is the **minimum** achievable rate at each distortion, the true curve can only lie on or below this achievable blend:

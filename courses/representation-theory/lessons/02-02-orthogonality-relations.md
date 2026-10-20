@@ -112,7 +112,9 @@ So $\rho_{\text{perm}} \cong \rho_{\text{triv}} \oplus \rho_{\text{std}}$. Sanit
 **P2 (🟡)** Working in the group $G = C_4 = \{e, r, r^2, r^3\}$ (cyclic, so every element is its own class, all class sizes $1$, $|G| = 4$), two of its irreducible characters are
 $$\chi_1 = (1,\ i,\ -1,\ -i), \qquad \chi_2 = (1,\ -i,\ -1,\ i)$$
 on $(e, r, r^2, r^3)$.
+
 (a) Verify $\langle\chi_1,\chi_2\rangle = 0$ (mind the conjugation).
+
 (b) A reducible character of $C_4$ is $\psi = (3,\ i,\ -1,\ -i)$. Compute $\langle\psi,\psi\rangle$ and write it as $\sum m_i^2$ to say how many irreducible pieces $\psi$ has and with what multiplicities.
 
 **P3 (🔴)** Sketch the derivation of the first orthogonality relation from Schur's lemma. Specifically: (a) given irreducibles $\rho, \sigma$ and *any* linear map $T$, show the average $\tilde{T} = \frac{1}{|G|}\sum_g \sigma(g)T\rho(g)^{-1}$ satisfies $\sigma(h)\tilde{T} = \tilde{T}\rho(h)$ for all $h \in G$ (so it's an intertwiner). (b) State what Schur's lemma then forces $\tilde{T}$ to be in the two cases $\rho\not\cong\sigma$ and $\rho=\sigma$, and find the scalar in the second case by taking a trace. (c) Explain in one or two sentences how taking traces turns the resulting matrix-element relations into $\langle\chi_\rho,\chi_\sigma\rangle = \delta_{\rho\sigma}$.

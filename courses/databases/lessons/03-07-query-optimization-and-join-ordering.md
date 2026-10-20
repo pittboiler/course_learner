@@ -150,8 +150,11 @@ The fix is the one Selinger's paper introduced along with the DP: **keep the che
 **P1 (🟢)** A query joins 6 tables.
 
 (a) Give the number of left-deep join orders.
+
 (b) Give the number of subsets the DP must consider.
+
 (c) Give the ratio between them.
+
 (d) A seventh table is added. Give the factor by which each of (a) and (b) grows.
 
 **P2 (🟡)** Three tables with filters applied: $X$ (100 rows), $Y$ (50,000 rows), $Z$ (1,000,000 rows). Join predicates exist between $X$ and $Y$, and between $Y$ and $Z$; there is none between $X$ and $Z$. The join cardinalities are $|X \bowtie Y| = 2{,}000$ and $|Y \bowtie Z| = 800{,}000$, and the three-way result is 5,000 rows.
@@ -159,8 +162,11 @@ The fix is the one Selinger's paper introduced along with the DP: **keep the che
 Using "cost = sum of intermediate sizes":
 
 (a) List the connected two-table subsets and their cardinalities.
+
 (b) Give the cost of $(X \bowtie Y) \bowtie Z$.
+
 (c) Give the cost of $(Y \bowtie Z) \bowtie X$.
+
 (d) Give the winner, the ratio between the two, and the one-sentence reason.
 
 **P3 (🔴, optional)** A four-table query over $R$ (500 rows), $S$ (200,000), $T$ (3,000,000), $U$ (80 rows), with join predicates $R$–$S$, $S$–$T$, and $T$–$U$. The cardinalities are
@@ -170,8 +176,11 @@ $$|RS| = 4{,}000, \quad |ST| = 3{,}000{,}000, \quad |TU| = 6{,}000, \quad |RST| 
 Cost is the sum of intermediate sizes.
 
 (a) Give the connected subsets of size 2 and size 3, with any that are disconnected named and excluded.
+
 (b) Fill in the DP table for size 3, showing every option considered and which is kept.
+
 (c) Give the final answer: the best cost and the best plan.
+
 (d) Give the cost of the worst connected left-deep order, the ratio to your answer, and state which single structural feature of this query makes the ratio so large.
 
 <details>
@@ -265,7 +274,9 @@ So a plan either reaches one of the small tables first and stays small, or start
 **From Lesson 3.6 (selectivity, statistics & cost estimation):** A `sale` table has 900,000 rows. The column `store_id` has 300 distinct values, `channel` has 3, and `quarter` has 8.
 
 (a) Give the estimated rows for `WHERE store_id = 42 AND channel = 'web'`.
+
 (b) In fact store 42 is web-only. Give the true row count and the factor by which the estimate is wrong.
+
 (c) Name the assumption that failed and the two practical remedies.
 
 <details>

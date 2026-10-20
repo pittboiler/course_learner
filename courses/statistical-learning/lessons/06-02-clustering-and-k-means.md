@@ -151,7 +151,9 @@ Nothing here is a local minimum, an initialization or a tie-break. The global op
 **P1 (🟢)** Four points in the plane, $(0,0)$ and $(0,2)$ in $C_1$, $(6,1)$ and $(8,3)$ in $C_2$.
 
 (a) Use the centre-of-mass identity to prove the mean minimises within-cluster squared distance, then verify it on $C_1$ by comparing the cost of the centre $c = (0,0)$ with the cost of $\bar x_1$.
+
 (b) Give $W$ for this partition.
+
 (c) Compute $\mathrm{TSS}$ and $B$, check $\mathrm{TSS} = W + B$, and confirm $B$ against the $k=2$ formula.
 
 **P2 (🟡)** (a) Show that the set of points equidistant from two distinct centres $\mu_a,\mu_b$ is a hyperplane with normal $\mu_b-\mu_a$ passing through the midpoint $\tfrac12(\mu_a+\mu_b)$ — i.e. the perpendicular bisector. (b) Conclude that every cluster of a k-means optimum is the intersection of the data with a convex set. (c) Hence prove: if two groups $A$ and $B$ in your data are such that $\mathrm{conv}(A)$ lies in the interior of $\mathrm{conv}(B)$, then **no** k-means optimum, at any $k$, returns $A$ and $B$ as two of its clusters.
@@ -159,7 +161,9 @@ Nothing here is a local minimum, an initialization or a tie-break. The global op
 **P3 (🔴)** Build the counterexample the Picture shows, and find the exact threshold. Take eight points: $(\pm1, h)$, $(\pm3, h)$, $(\pm1, -h)$, $(\pm3, -h)$ for a half-gap $h > 0$, with $k = 2$.
 
 (a) Compute $W$ for the top-versus-bottom partition and for the left-versus-right partition, as functions of $h$.
+
 (b) Find the exact $h$ at which the objective switches its preference, and say in one sentence what that threshold compares.
+
 (c) At $h = 1$ both partitions are Lloyd fixed points. Say which of the two a practitioner running 100 random restarts and keeping the lowest $W$ will report, and what that shows about restarts as a remedy.
 
 <details>

@@ -183,6 +183,7 @@ The flip: $36\times(1/5)^{\varepsilon}=18$, so $5^{\varepsilon}=2$ and $\varepsi
 - **(ii) The vaccine.** Every resident of a town accepts the health authority's estimates, which no one disputes: a vaccine cuts each person's overall yearly risk of serious illness, side effects included, from 1 in 1,000 to 1 in 5,000, though a few vaccinated people will suffer a side effect without ever having been exposed to the disease. Everyone chooses to be vaccinated.
 
 (a) For case (i), compute each co-inventor's expected value of trial on their own beliefs. Then let $q$ be a single shared probability that Hal wins, and show that no $q$ makes both prefer trial to settling.
+
 (b) For each case, say whether the ex ante Pareto principle endorses the choice and whether the Gilboa-Samet-Schmeidler restriction withdraws that endorsement. Then say which case is spurious unanimity and which only a divergence between ex ante and ex post Pareto, and what feature of the cases decides it. Four sentences or fewer.
 
 <details>

@@ -79,6 +79,7 @@ Reduplication then makes it sharper. "Christ *as man* is a creature" is granted,
 ## Problems
 
 **P1 (🟢)** *(Exegetical)* Mark each sentence **true**, **false**, or **true only with a stated qualifier**, and name the rule (concrete/abstract, a.5 ad 3 on participation, the qualification rule, or reduplication) that decides it. One line each.
+
 (a) "The Son of God was hungry." (b) "The humanity of Christ is omnipotent." (c) "The man Jesus created the stars." (d) "Christ, as God, began to be." (e) "Christ is incorporeal." (f) "The immortal died."
 
 **P2 (🟡)** *(Exegetical)* ST III q.16 a.11 (English Dominican Province), the *respondeo* and the third reply:

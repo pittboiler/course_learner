@@ -93,18 +93,27 @@ Now world $+x$ is screen-right and world $-z$ is screen-up, and the camera works
 ## Problems
 
 **P1 (🟢)** Eye $(10, 0, 0)$, target at the origin, up $(0, 1, 0)$.
+
 (a) Compute $\mathbf{u}$, $\mathbf{v}$, $\mathbf{w}$.
+
 (b) Write $V$.
+
 (c) Find the camera coordinates of the world point $(0, 0, 3)$, and say whether it appears to the left or right of screen centre.
 
 **P2 (🟡)** Eye at the origin, gaze $\mathbf{g} = (1, 0, -1)$, and a sloppy up hint $\mathbf{t} = (0, 1, 1)$.
+
 (a) Compute $\mathbf{w}$, $\mathbf{u}$ and $\mathbf{v}$.
+
 (b) Confirm that $\mathbf{v}$ equals the normalized Gram–Schmidt residual $\mathbf{t} - (\mathbf{t}\cdot\mathbf{w})\mathbf{w}$.
+
 (c) The intended hint was $(0, 1, 0)$, which gives $\mathbf{v}_0 = (0, 1, 0)$. By what angle is the sloppy camera **rolled** relative to the intended one?
 
 **P3 (🔴)** An orbit camera circles the origin at radius 5 in the $xz$-plane: $\mathbf{e}(\varphi) = (5\sin\varphi,\ 0,\ 5\cos\varphi)$, target at the origin, up $(0, 1, 0)$.
+
 (a) Build $V$ for $\varphi = 90°$ with the look-at construction.
+
 (b) Show that it equals $T(0, 0, -5)\,R_y(-90°)$.
+
 (c) State the general formula for $V(\varphi)$ as a product of named factors, and explain in one sentence why it has that form.
 
 <details>
@@ -163,8 +172,11 @@ The eye was obtained by rotating the point $(0,0,5)$ by $R_y(\varphi)$; undoing 
 ## Flashback
 
 **From Lesson 1.1 (the pipeline):** A VR headset renders two eye buffers, each $2160 \times 2160$, at 90 Hz. Each pixel stores a half-float RGBA colour (8 bytes) and a 32-bit depth value.
+
 (a) How much memory do the two eyes' colour-plus-depth buffers take, in MiB?
+
 (b) With depth complexity 1, how many fragments are shaded per second?
+
 (c) The next headset raises each eye's resolution by 25% in *each* dimension. By what factor does the per-frame fragment count grow?
 
 <details>

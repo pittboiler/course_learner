@@ -140,6 +140,7 @@ Find the three errors and correct each in **one or two sentences**, marking the 
 > For by grace you are saved through faith: and that not of yourselves, for it is the gift of God. Not of works, that no man may glory. ... For which cause be mindful that you, being heretofore gentiles in the flesh, who are called uncircumcision by that which is called circumcision in the flesh, made by hands: That you were at that time without Christ, being aliens from the conversation of Israel and strangers to the testament ... For he is our peace, who hath made both one, and breaking down the middle wall of partition, the enmities in his flesh: Making void the law of commandments contained in decrees: that he might make the two in himself into one new man, making peace.
 
 "Not of works" in 2:9 is *ouk ex ergōn*, plain "works", not Galatians' *erga nomou*. "The middle wall of partition" in 2:14 is *to mesotoichon tou phragmou*, "the dividing wall of the fence".
+
 (a) Name the words an Old Perspective reader cites from 2:8–9, and the words a boundary-marker (Dunn) reader cites from 2:11–15. **One sentence each.** (b) What does the bare "works" of 2:9 do to the debate over Ephesians itself, and why does that not settle what Galatians and Romans meant? **Two sentences.** (c) In Barclay's scheme, which one perfection of grace lets you read both halves as a single thought? **One sentence.**
 
 <details>

@@ -119,7 +119,9 @@ This is the practical payoff of the denotational style, and it is why compiler c
 **P1 (🟢)** Using the clauses above, give $[\![ c ]\!]$ explicitly as a function of the state for each program. Say for each whether it is total or partial.
 
 (a) `x := 1; x := x + 1`
+
 (b) `if x >= 0 then y := x else y := 0 - x`
+
 (c) `while false do x := x + 1`
 
 **P2 (🟡)** For the loop `while x >= 1 do x := x - 1`, define $F$ explicitly and compute $F^0(\bot)$, $F^1(\bot)$, $F^2(\bot)$ and $F^3(\bot)$ as partial functions of $x$ (give domain and value). Then state $\mathrm{lfp}\,F$, including its behaviour on negative inputs.
@@ -127,8 +129,11 @@ This is the practical payoff of the denotational style, and it is why compiler c
 **P3 (🔴)** Consider `while true do skip`, so $[\![ b ]\!]\,s = \mathsf{true}$ always and $[\![ c ]\!] = \mathrm{id}$.
 
 (a) Write $F(g)$ explicitly and show that **every** partial function $g$ is a fixed point of $F$.
+
 (b) Compute $F^n(\bot)$ for every $n$ and state $\mathrm{lfp}\,F$.
+
 (c) The identity function is also a fixed point. State precisely what false claim about the program the identity would encode, and use this to explain in one sentence why "least" is forced rather than chosen.
+
 (d) A *greatest* fixed point is used in some semantics. Given (a), say what $\mathrm{gfp}\,F$ is here and what it would claim about the program.
 
 <details>
@@ -192,6 +197,7 @@ What it would claim is that the program terminates on every input, with a result
 Denotational semantics insists on **compositionality**: a construct's meaning is a function of its parts' meanings only.
 
 (a) Explain why $[\![ x ]\!]$ cannot be a plain integer, and state what it is instead.
+
 (b) Use (a) to say precisely what job the state $s$ is doing, and connect it to the scope stack.
 
 <details>

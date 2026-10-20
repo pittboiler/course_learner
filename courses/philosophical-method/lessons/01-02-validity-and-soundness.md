@@ -80,7 +80,9 @@ Form: *If P then Q. Q. Therefore P.* Counterexample with the same form: *If it r
 **P1 (🟢) *(Exegetical.)*** For each argument, say whether it is valid, and whether it is sound. One sentence each.
 
 (a) **P1.** Every government that suspends elections is authoritarian. **P2.** No democracy is authoritarian. **∴ C.** No democracy suspends elections.
+
 (b) **P1.** All popes have been Italian. **P2.** Francis was a pope. **∴ C.** Francis was Italian.
+
 (c) **P1.** If a text is in the canon, the Church received it as scripture. **P2.** The Church received Sirach as scripture. **∴ C.** Sirach is in the canon.
 
 **P2 (🟡) *(Evaluative.)*** Show that this argument is invalid by constructing a counterexample with the same form — premises obviously true, conclusion obviously false. State the form in letters first. 150 words or fewer.

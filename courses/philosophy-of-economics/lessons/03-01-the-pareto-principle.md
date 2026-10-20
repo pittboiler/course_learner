@@ -86,7 +86,9 @@ The second theorem says the equal optimum $(5,5)$ is reachable too: hand Ben eno
 **P1 (🟢) *(Formal (a)–(b) · Exegetical (c).)*** Example 1's economy (10 fish, 10 loaves, $u_i=\sqrt{x_iy_i}$), but the status quo is now $S'$: Ann $(9,1)$, Ben $(1,9)$.
 
 (a) For each allocation, give both utilities, say whether it is Pareto optimal, and classify it relative to $S'$ (strict improvement for both, strong-Pareto-only improvement, Pareto-indifferent, worse, or incomparable): (i) Ann $(2,8)$, Ben $(8,2)$; (ii) Ann $(3,3)$, Ben $(7,7)$; (iii) Ann $(8,8)$, Ben $(2,2)$.
+
 (b) Which Pareto-optimal allocations are Pareto improvements on $S'$?
+
 (c) Does the Pareto principle rank (ii) against (iii)? One sentence.
 
 **P2 (🟡) *(Exegetical (a) · Exegetical (b).)*** An **invented** op-ed in a city paper, not the words of any real person:
@@ -100,6 +102,7 @@ An invented critic replies: "Repeal would push some low-income tenants out of th
 **P3 (🔴, optional) *(Exegetical (a) · Evaluative (b).)*** An **invented** case. A river town builds a footbridge paid for by a state grant. Every one of 2,000 commuters saves twenty minutes a day. The town's single ferry operator loses her trade and is worse off, even after finding other work.
 
 (a) Does weak Pareto rank "bridge" above "no bridge"? Does strong Pareto? Name one change to the policy that would make strong Pareto rank it higher. Two sentences.
+
 (b) A planner replies: "Her loss is a loss of customers, not of anything she owned. She had no right to their fares, so it does not count, and the bridge is a Pareto improvement in every sense that matters." Assess the reply. 150 words or fewer. Any verdict passes.
 
 <details>
@@ -161,6 +164,7 @@ An invented critic replies: "Repeal would push some low-income tenants out of th
 **From Lesson [2.2](02-02-the-behavioural-challenge.md) (The behavioural challenge):** *(Formal (a) · Exegetical (b).)* Illustrative numbers. A tax return must be filed at date 2, at an effort cost of 10, or at date 3, the last allowed date, at a cost of 12 (a late surcharge). Gita has quasi-hyperbolic preferences with $\beta=0.65$, $\delta=0.9$ and linear utility, and costs count as negative utility.
 
 (a) At date 0, which date does she plan to file on? At date 2, does she file? Show the values.
+
 (b) A friend defends her: "Filing requirements sometimes get waived at the last minute, so putting it off is sensible." In two sentences: which premise of 2.2's irrationality argument does this defence attack, and why can a chance of a waiver that she already knew about at date 0, the same in every period, not explain the switch?
 
 <details>

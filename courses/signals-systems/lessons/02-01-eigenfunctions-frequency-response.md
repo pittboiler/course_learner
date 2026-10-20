@@ -136,18 +136,27 @@ Identical. That is not a coincidence, and it retroactively explains *why* phasor
 ## Problems
 
 **P1 (🟢)** An RC low-pass filter has $R = 1\ \mathrm{k\Omega}$ and $C = 1\ \mathrm{\mu F}$.
+
 (a) Find the cutoff $\omega_c$ in rad/s and $f_c$ in Hz.
+
 (b) The input is $x(t) = \cos(1000\,t)$. Write the steady-state output.
+
 (c) The input is $x(t) = \cos(3000\,t)$. Give the output amplitude, its value in dB, and the phase shift in degrees.
 
 **P2 (🟡)** A pure delay system is defined by $y(t) = x(t - T)$ with $T > 0$ a fixed delay in seconds.
+
 (a) Use the eigenfunction property directly (feed in $e^{j\omega t}$) to find $H(j\omega)$.
+
 (b) Give $|H(j\omega)|$ and $\angle H(j\omega)$, and say what kind of filter this is.
+
 (c) For $T = 2\ \mathrm{ms}$ and $\omega = 500$ rad/s, what is the phase shift in degrees?
 
 **P3 (🔴)** A system has impulse response $h(t) = \delta(t) - \dfrac{1}{RC}e^{-t/RC}u(t)$ (the RC filter's output *subtracted* from the input).
+
 (a) Find $H(j\omega)$. You may use $\int \delta(t)e^{-j\omega t}dt = 1$ from the sifting property in [1.2](01-02-elementary-signals.md).
+
 (b) Find $|H(j\omega)|$, evaluate it at $\omega = 0$ and $\omega\to\infty$, and classify the filter.
+
 (c) At what frequency is $|H| = 1/2$?
 
 <details>

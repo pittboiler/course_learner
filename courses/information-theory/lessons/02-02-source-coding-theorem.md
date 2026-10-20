@@ -93,13 +93,17 @@ You cover a vanishing slice of the probability; reconstruction fails with probab
 
 **P2** (a)
 $$H = -0.8\log_2 0.8 - 0.2\log_2 0.2 = 0.8(0.322) + 0.2(2.322) = 0.258 + 0.464 = 0.722 \text{ bits}.$$
+
 (b) The typical-set code uses about $nH = 100 \times 0.722 \approx 72$ bits per block (plus $O(1)$ overhead that washes out). Compression ratio $\approx 72/100 = 0.72$ — you save roughly $28\%$ over the naive $100$ bits.
+
 (c) The claim is impossible. $0.6 < H = 0.722$, so by the converse any code at $0.6$ bits/symbol has error $\to 1$ — it cannot be lossless. Either the rival is losing data, or the source is not the i.i.d. $0.8$ coin they described.
 
 **P3** (a) The typical set has $\approx 2^{nH} = 2^{1.585 n}$ nearly-equiprobable sequences; indexing them needs about $nH \approx 1.585\,n$ bits per block. Any fixed budget slightly above that (say $n(H+\varepsilon)$ bits) covers the typical set, whose probability $\to 1$, so reconstruction succeeds with high probability.
+
 (b) With $1.4n$ bits you have $2^{1.4n}$ codewords. The typical sequences each have probability $\approx 2^{-1.585 n}$, so the probability you can cover with your best $2^{1.4n}$ codewords is at most about
 $$2^{1.4n} \cdot 2^{-1.585 n} = 2^{-0.185\, n} \xrightarrow{n\to\infty} 0.$$
 You reach a vanishing fraction of the probability, so the error $\to 1$. $1.4 < 1.585 = H$, exactly the converse.
+
 (c) If the symbols are unequal, $H$ drops below $\log_2 3 = 1.585$ (uniform is the max, from 1.1), so the compression floor is *lower* — you can beat $1.585$ bits/symbol, and a budget like $1.4n$ might now suffice depending on how far $H$ falls.
 
 </details>

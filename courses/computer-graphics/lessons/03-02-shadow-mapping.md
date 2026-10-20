@@ -98,9 +98,13 @@ On the right, every texel is half right and half wrong, which is exactly the str
 Then say which one is most likely acne if you know A, C and D all lie on one sloped lit roof.
 
 **P2 (🟡)** An outdoor game uses one $4096 \times 4096$ orthographic shadow map covering a $200 \times 200$ m area.
+
 (a) How large is one shadow texel on the ground?
+
 (b) A lamp post is 15 cm wide. How many texels wide is its shadow, and what will its shadow look like?
+
 (c) How much memory does the map use as 32-bit float depth?
+
 (d) Instead, four cascades of $1024 \times 1024$ cover square regions 12.5, 50, 200 and 800 m wide. Give each cascade's texel size, and say what total memory they need compared with (c).
 
 **P3 (🔴)** A fragment has $d_{\text{frag}} = 0.601$. Its $3 \times 3$ shadow-map neighbourhood is
@@ -108,7 +112,9 @@ Then say which one is most likely acne if you know A, C and D all lie on one slo
 $$\begin{pmatrix} 0.412 & 0.415 & 0.600 \\ 0.414 & 0.600 & 0.601 \\ 0.600 & 0.602 & 0.603 \end{pmatrix}.$$
 
 (a) With PCF and bias $b = 0.003$, what fraction is lit? Interpret the three low values.
+
 (b) With $b = 0$, what fraction is lit? Explain what went wrong.
+
 (c) Why would bilinearly filtering these depths at the fragment's position and running one test give a meaningless result?
 
 <details>
@@ -150,8 +156,11 @@ The low values are an occluder about $0.19$ nearer the light, covering the top-l
 ## Flashback
 
 **From Lesson 3.1 (the GPU pipeline):** A character mesh with 25,000 unique vertices is drawn once, covering 80,000 pixels with depth complexity 1.4 (it overlaps itself), with $4\times$ MSAA.
+
 (a) How many vertex shader runs?
+
 (b) Roughly how many fragment shader runs without early-z?
+
 (c) The character is now also rendered into one shadow map pass (depth only, no fragment colour work). How many additional vertex shader runs does that cost, and why is the shadow pass usually cheap in fragments?
 
 <details>

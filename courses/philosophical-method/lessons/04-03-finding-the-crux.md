@@ -112,7 +112,9 @@ So: the first divergence can be semantic without the dispute being merely verbal
 **P1 (🟢) *(Exegetical.)*** For each disagreement, say whether the crux is **factual**, **evaluative**, or **semantic**, and give in one sentence what could settle it.
 
 (a) Two legislators agree that capital punishment is justified if and only if it deters murder better than life imprisonment. One holds that it does; the other that it does not.
+
 (b) Two curators agree on every established fact about a canvas: Rembrandt designed it, two pupils in his studio laid in most of the paint surface, and he reworked the face and hands himself before it was sold. One catalogues it as a Rembrandt; the other refuses to.
+
 (c) Two economists accept the same projections for a debt-relief program: debtor consumption rises, creditors recover forty cents on the dollar, borrowing costs rise for a decade. One supports the program, the other opposes it.
 
 **P2 (🟡) *(Exegetical (a)–(b) · Evaluative (c).)*** Two unsigned columns ran in the same paper on the same day. (a) Reconstruct both in parallel standard form, three lines each, aligned so the shared premise is visible. (b) Name the first contested line. (c) Apply the crux test to Column A and say what you find — including what you would conclude if A answers "no." 150 words or fewer for (b) and (c) together.
@@ -176,7 +178,9 @@ So: the first divergence can be semantic without the dispute being merely verbal
 **From Lesson 4.1 (Objections and replies):** An invented op-ed argues: *"An institution that has taught error cannot claim reliable authority. The Church condemned Galileo. So it cannot claim reliable authority."* Three readers write in. Classify each objection by type, and name which of the replies R1–R5 fits it. One sentence each.
 
 (a) "My doctor misread an X-ray in 2019. I still call him about my knee."
+
 (b) "The Galileo affair was a disciplinary proceeding of a Roman congregation, not a definition of doctrine."
+
 (c) "Run your principle on the Royal Society, on the Supreme Court, and on your own newspaper. If it disqualifies them all, you've proved more than you meant to."
 
 <details>

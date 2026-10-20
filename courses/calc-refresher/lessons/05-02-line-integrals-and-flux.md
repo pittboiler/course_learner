@@ -77,8 +77,11 @@ No parametrization, no integral — just subtract. And around any closed loop th
 **P1 (🟢)** Compute $\displaystyle\int_C \mathbf F\cdot d\mathbf r$ for the rotation field $\mathbf F(x,y)=(-y,\;x)$ along the quarter of the unit circle from $(1,0)$ to $(0,1)$.
 
 **P2 (🟡)** Let $\mathbf F(x,y)=(2xy+3,\;x^2+4y)$.
+
 (a) Show $\mathbf F$ is conservative and find a potential $f$.
+
 (b) Use the FTC shortcut to find the work from $(0,0)$ to $(1,2)$.
+
 (c) Confirm by direct parametrization along the straight segment, and note which method you'd rather repeat.
 
 **P3 (🔴, optional — physics)** A fluid flows with velocity field $\mathbf F(x,y,z)=(x,y,z)$ (an outward "source"). Find the **flux** $\iint_S \mathbf F\cdot\mathbf n\,dS$ through the unit sphere $S$ ($x^2+y^2+z^2=1$) with outward normal — the net rate at which fluid crosses the sphere.

@@ -98,8 +98,11 @@ But now the harder half, which the correction must not lose: the decree still sa
 **P1 (🟢) *(Exegetical.)*** For each claim, say (i) whether Trent's Session IV settles it and in which of its two decrees, and (ii) what level it carries. One sentence each.
 
 (a) The book of Judith is sacred and canonical.
+
 (b) The Greek portions of the book of Esther are Scripture.
+
 (c) The Vulgate is to be used as the standard text in public disputations.
+
 (d) The Vulgate renders Genesis 3:15 more accurately than the Hebrew does.
 
 **P2 (🟡) *(Exegetical.)*** Re-read the sentence quoted from *Dei Filius* ch. 2 in "The argument." Name the two accounts of canonicity it rejects, and for each say what the Church's approval would have been doing if that account were true. Then state what follows, on the chapter's own account, about a book that is in fact inspired but appears on no list. 150 words or fewer.

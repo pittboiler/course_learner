@@ -84,7 +84,9 @@ If the assets are uncorrelated ($\rho = 0$), the portfolio variance is $\sigma^2
 **P1** (a) Marginals sum the other variable out:
 $$p_X(0) = 0.4 + 0.2 = 0.6,\quad p_X(1) = 0.1 + 0.3 = 0.4 \ \ (\text{sum } 1.0\ \checkmark)$$
 $$p_Y(0) = 0.4 + 0.1 = 0.5,\quad p_Y(1) = 0.2 + 0.3 = 0.5 \ \ (\text{sum } 1.0\ \checkmark)$$
+
 (b) Independence needs $p(x,y) = p_X(x)p_Y(y)$ everywhere. Test the $(0,0)$ cell: $p_X(0)p_Y(0) = 0.6 \times 0.5 = 0.30$, but $p(0,0) = 0.4 \ne 0.30$. **Not independent.**
+
 (c) $X$ and $Y$ are $0/1$-valued, so $XY = 1$ only at $(1,1)$: $\mathbb{E}[XY] = 1\cdot1\cdot0.3 = 0.3$. With $\mathbb{E}[X] = 0.4$, $\mathbb{E}[Y] = 0.5$:
 $$\mathrm{Cov}(X,Y) = 0.3 - (0.4)(0.5) = 0.3 - 0.2 = 0.1.$$
 Positive — the pair co-moves upward, as the non-independence hinted.

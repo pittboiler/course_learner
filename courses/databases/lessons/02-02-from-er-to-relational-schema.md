@@ -125,22 +125,31 @@ Two things follow.
 **P1 (🟢)** A model has entity sets `Author(aid, name)` and `Book(isbn, title)`, and these relationships. For each, state whether it becomes **its own table** or **a foreign-key column**, and where.
 
 (a) `Wrote`, M:N between Author and Book.
+
 (b) `Published_by`, N:1 from Book to `Publisher(pub_id, name)`, total on the Book side.
+
 (c) `Favourite`, 1:1 between Author and Book, partial on both sides.
+
 (d) `email`, a multivalued attribute of Author.
 
 **P2 (🟡)** A gym models `Member`, `Class` (a scheduled session), and `Booking`, an M:N relationship between them carrying a `mat_number` attribute. Each class has a fixed set of numbered mats, and a mat holds one member per class.
 
 (a) Give the table produced by translating `Booking`, with its primary key.
+
 (b) Give the second candidate key, and write the SQL constraint that enforces it.
+
 (c) A developer stores bookings instead as a `mat_numbers` text column on `Member`, holding a comma-separated list. Name the two distinct defects, one of which is a normal-form violation you can name.
+
 (d) The gym adds a rule that a member may book at most one class per day. State whether this can be enforced by a key on the `Booking` table as designed, and if not, what the schema would need.
 
 **P3 (🔴, optional)** A conference system models `Paper(paper_id, title)`, `Reviewer(rid, name)`, and a `Review` relationship recording a score and comments. A paper gets several reviews; a reviewer reviews several papers.
 
 (a) Give the translated schema for all three, with keys and foreign keys.
+
 (b) The chair adds: "a reviewer submits at most one review per paper, and each review is submitted in one of three rounds." Give the revised key of the `Review` table under each of two readings — that the one-review rule holds overall, and that it holds per round — and say which reading the phrase most likely intends.
+
 (c) The system must also record, for each paper, the single reviewer designated as its discussion lead, who must be one of its reviewers. Give the schema change, and state precisely what stops a paper's lead from being someone who never reviewed it.
+
 (d) A `Rebuttal` records the authors' response to one review, at most one per review. State whether `Rebuttal` is a weak entity, give its key, and give the cardinality and participation of its relationship to `Review`.
 
 <details>
@@ -247,8 +256,11 @@ This is the degenerate case of R2, and it is worth recognizing: a weak entity wi
 **From Lesson 2.1 (entity–relationship modeling):** A logistics firm records that each shipment is carried on exactly one voyage; a voyage carries many shipments, and a voyage may be scheduled with no shipments yet booked. A `Leg` records one segment of a voyage, identified within its voyage by a sequence number.
 
 (a) Give the cardinality of the Shipment–Voyage relationship, from Shipment to Voyage.
+
 (b) Give the participation of Voyage in that relationship.
+
 (c) State whether `Leg` is a weak entity, and give its owner, discriminator and full key.
+
 (d) Name one thing the phrase "may be scheduled with no shipments yet booked" does *not* settle.
 
 <details>

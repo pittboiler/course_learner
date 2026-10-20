@@ -125,22 +125,31 @@ Now the case that matters. **Seat inventory during a partition**, with the 3 rep
 **P1 (🟢)** A key-value store has $N = 5$ replicas.
 
 (a) Give the smallest $W$ that guarantees strong consistency when $R = 1$.
+
 (b) Give the smallest $R$ that guarantees strong consistency when $W = 3$.
+
 (c) State whether $W = 2$, $R = 3$ gives strong consistency.
+
 (d) Give the number of replica failures the setting $W = 3$, $R = 3$ tolerates on each side.
 
 **P2 (🟡)** An events table of 4,000,000,000 rows is sharded across 16 machines.
 
 (a) The shard key is `user_id`. Give the number of shards touched by `WHERE user_id = 91123`.
+
 (b) Give the number touched by `WHERE occurred_at BETWEEN ... AND ...` under **hash** sharding on `user_id`.
+
 (c) The team switches to **range** sharding on `occurred_at`. Give the number of shards touched by each of the two queries above, and name the new problem this creates for a write-heavy workload.
+
 (d) State which sharding scheme you would choose given that 95 percent of queries filter on `user_id` and 5 percent on a time range, and give the reason in one clause.
 
 **P3 (🔴, optional)** A payments service holds account balances in a store with $N = 3$ replicas, currently set to $W = 2$, $R = 2$. A network partition splits the replicas 2 and 1.
 
 (a) State what happens to a transfer arriving at the majority side, and to one arriving at the minority side.
+
 (b) The team lowers the setting to $W = 1$, $R = 1$ to keep both sides serving. Give a concrete two-transaction scenario during the partition that produces an unacceptable outcome, with the final balances.
+
 (c) The store offers three reconciliation strategies: last-write-wins by timestamp, keep-both-and-ask-the-application, and a conflict-free replicated counter. For each, state whether it correctly resolves your scenario in (b), and why.
+
 (d) Give the design the team should adopt, and state which of ACID's four letters the distributed setting makes hardest to deliver and why.
 
 <details>
@@ -240,8 +249,11 @@ The argument: **A** and **D** survive distribution reasonably well, because the 
 Then the machine crashes. On disk, $P_7$ has pageLSN 30 and $P_8$ has pageLSN 0.
 
 (a) Give the dirty page table and the losers after analysis.
+
 (b) Give the redo start LSN and which records are redone.
+
 (c) Give the undo actions with CLR LSNs.
+
 (d) Give the final values of $P_7$ and $P_8$.
 
 <details>

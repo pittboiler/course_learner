@@ -103,7 +103,9 @@ So the label is wrong twice over. This is not a causal slope at all but a **prov
 **P1 (🟢) *(Exegetical.)*** For each passage, (i) name the classic label its shape fits, and (ii) write the bridge premise the move needs, in one sentence. Do not yet say whether it is a fallacy.
 
 (a) "You can ignore the bishop's letter on the living wage — he has never held a job outside the Church."
+
 (b) "The end of a thing is its perfection. Death is the end of life. So death is the perfection of life."
+
 (c) "Either we keep police funding where it is, or we accept a rise in violent crime."
 
 **P2 (🟡) *(Exegetical (a) · Evaluative (b).)*** Here is a paragraph from an invented op-ed in a regional paper, "The Safety Study Nobody Should Believe."

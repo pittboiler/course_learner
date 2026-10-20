@@ -145,10 +145,13 @@ That single comparison is why the method is called a random *forest* and not jus
 **P1 (🟢)** Two forests: **F** has $B = 200$ and $\rho = 0.1$; **G** has $B = 20$ and $\rho = 0.4$.
 
 (a) Give each one's variance as an exact multiple of $\sigma^2$, and state each one's floor.
+
 (b) For a forest with pairwise correlation $\rho$, find the smallest $B$ at which the variance is **within 1 percent of its own floor** — that is, the smallest $B$ with $\frac{1-\rho}{B}\sigma^2 \le 0.01\,\rho\sigma^2$. Give the general formula, then evaluate it at $\rho = 0.1$ and $\rho = 0.4$.
+
 (c) In one sentence, say what (b) implies about the common advice "use 100 trees".
 
 **P2 (🟡)** (a) Prove that $(1-1/n)^n \to e^{-1}$, and say (with a number from Example 1) how fast the convergence is.
+
 (b) Out-of-bag error is often sold as free cross-validation. Give **two** distinct reasons it is not the same quantity as $k$-fold CV error on the same forest, and say which direction each reason biases the OOB estimate.
 
 **P3 (🔴)** Bagging transforms decision trees and does essentially nothing for ordinary least squares ([1.3](01-03-linear-regression-and-least-squares.md)). Explain why, in terms of the variance formula: name which of the two terms averaging can touch, and say what $\rho$ is for bagged OLS and why. Then predict the ratio $\operatorname{Var}(\hat f_{\text{bag}})/\operatorname{Var}(\hat f_{\text{single}})$ at $B = 100$ for each of the two base learners.
@@ -216,6 +219,7 @@ A third, more technical reason if you want it: the OOB "folds" are random and ov
 | 8 | 1 | 1 | 0 |
 
 (a) Compute the Gini gain of the root split on $A$ and on $B$, as exact fractions. Which feature does a greedy tree put at the root?
+
 (b) Now flip row 1's label from $0$ to $1$ — one row, one bit. Recompute both gains. What happens, and what does it say about the variance of a single tree?
 
 <details>

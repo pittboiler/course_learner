@@ -128,6 +128,7 @@ Differentiate: $\dfrac{dp^*}{db}=\tfrac12\cdot 2(b-2)=b-2=-(2-b)=-\lambda_1^*(b)
 
 **From [Lesson 3.2](03-02-strong-duality-slater.md) (strong duality & Slater):** Consider
 $$\min_x\ x_1^2+x_2^2\quad\text{s.t.}\quad x_1+x_2\ge 1,\qquad x_1^2+(x_2-1)^2\le 1.$$
+
 (a) Is this a convex problem? (b) Does **Slater's condition** hold — is there a *strictly* feasible point? (c) What does that let you conclude about the duality gap?
 
 <details>

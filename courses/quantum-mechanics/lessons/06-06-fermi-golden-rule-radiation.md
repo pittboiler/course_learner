@@ -82,6 +82,7 @@ Step it out: $2\pi/\hbar = 5.98\times10^{34}$; $(4.0\times10^{-30})^2=1.6\times1
 **P1 (🟢)** A weak perturbation couples a discrete initial state to a continuum. The matrix element is $|\langle f|\hat H'|i\rangle| = 2.0\times10^{-30}\ \mathrm{J}$ and the density of final states at $E_f=E_i$ is $\rho(E_f)=4.0\times10^{33}\ \mathrm{states/J}$. Using $\hbar=1.05\times10^{-34}\ \mathrm{J\,s}$, compute the transition rate $\Gamma$ and the corresponding lifetime $\tau=1/\Gamma$.
 
 **P2 (🟡)** For each hydrogen transition below, decide whether it is electric-dipole **allowed** or **forbidden**, and state the reason ($\Delta\ell$ value / parity):
+
 (a) $2p\to1s$, (b) $3d\to2p$, (c) $2s\to1s$, (d) $3d\to1s$, (e) $3s\to2p$, (f) $3p\to3s$.
 
 **P3 (🔴, optional)** *Density of states for a free-particle final state.* A particle of mass $m$ is ejected into a large cubic box of side $L$ (volume $V=L^3$), with allowed wavevectors $\mathbf k$ on the lattice $k_i = 2\pi n_i/L$. Show that the number of states with energy below $E=\hbar^2k^2/2m$ is $N(E)=\dfrac{V}{6\pi^2}\left(\dfrac{2mE}{\hbar^2}\right)^{3/2}$, and hence that the density of states is

@@ -105,7 +105,9 @@ each a countable $\sup$/$\inf$ of measurable functions, hence measurable. If $f_
 ## Problems
 
 **P1 (🟢)** Let $f:X\to\mathbb{R}$ be measurable.
+
 (a) Show $\{f\ge a\}$, $\{f=a\}$, and $\{a<f<b\}$ are measurable for all reals $a<b$, using only that all sets $\{f>c\}$ are measurable.
+
 (b) Show $f^2$ is measurable by applying the ray test directly to $f^2$ (do not just cite "composition with a continuous map").
 
 **P2 (🟡)** Let $(f_n)$ be measurable. Prove that the set
@@ -113,7 +115,9 @@ $$C=\{x\in X: \lim_{n\to\infty} f_n(x)\text{ exists as a finite real number}\}$$
 is measurable. (Hint: compare $\limsup$ and $\liminf$, and handle finiteness. You'll want the fact that $\{g<h\}$ is measurable for measurable $g,h$.)
 
 **P3 (🔴, optional)** Let $(X,\mathcal{A},\mu)$ be a **complete** measure space.
+
 (a) Prove: if $g$ is measurable and $f=g$ $\mu$-a.e., then $f$ is measurable.
+
 (b) Deduce: if $f_n$ are measurable and $f_n\to f$ $\mu$-a.e., then $f$ is measurable.
 (This is the completeness clause of the Theorem, and it is what lets the convergence theorems of Lessons 2.4–2.5 conclude the *limit* is integrable.)
 

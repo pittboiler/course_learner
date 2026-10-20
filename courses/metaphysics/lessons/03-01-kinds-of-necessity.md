@@ -157,10 +157,15 @@ The checklist did not refute Hume; a Humean can answer every step, and the best 
 **P1 (🟢) *(Exegetical.)*** For each claim, name the *strongest* rung it reaches — logical, conceptual, metaphysical, physical, or none (contingent) — in one line each.
 
 (a) Nothing is both a proton and not a proton.
+
 (b) Nothing that has mass reaches the speed of light.
+
 (c) Every vixen is a fox.
+
 (d) Gold has atomic number 79.
+
 (e) Hesperus is Phosphorus.
+
 (f) There are eight planets.
 
 **P2 (🟡) *(Formal (a) · Exegetical (b).)*** Consider: "All bachelors are necessarily unmarried," and the inference
@@ -170,6 +175,7 @@ The checklist did not refute Hume; a Humean can answer every step, and the best 
 > **∴ C.** Jack is necessarily unmarried — he could not have married.
 
 (a) Write the de dicto and de re readings of P1 using $\Box$ and a quantifier, give the one-line English gloss of each, and say which reading is true.
+
 (b) Say which reading makes the inference valid, and give a two-world countermodel for the other. Name the general moral in one sentence.
 
 **P3 (🔴, optional) *(Evaluative.)*** An invented passage from a popular-science essay:
@@ -233,6 +239,7 @@ In 150 words or fewer: state precisely what the writer has conceived and what th
 **F1 (🟡) *(Exegetical (a) · Evaluative (b).)*** [2.4](02-04-essence-and-grounding.md) ended by reversing an order of explanation: rather than defining essence in modal terms, Fine proposes that a truth is metaphysically necessary *because* it follows from the natures of things.
 
 (a) Apply that proposal to two of today's necessities — (i) necessarily, water is H2O; (ii) necessarily, every vixen is a fox. For each, say whose nature the necessity is supposed to flow from, and which rung of the ladder it reaches.
+
 (b) In 100 words or fewer, give one thing the essence-first story buys in case (i) that the modal account cannot, and one cost it incurs. Any verdict.
 
 <details>

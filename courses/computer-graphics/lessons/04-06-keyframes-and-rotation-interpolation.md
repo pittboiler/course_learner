@@ -73,17 +73,25 @@ The slope of each curve is the object's speed. The blue curve is flat at both ke
 ## Problems
 
 **P1 (🟢)** A door swings from $0°$ at frame 10 to $90°$ at frame 40 with smoothstep easing.
+
 (a) What is its angle at frame 20?
+
 (b) What is its angular speed (degrees per frame) at frame 25, and how does that compare with linear interpolation?
+
 (c) What is its speed at frame 10?
 
 **P2 (🟡)** Rotate from the identity $q_0 = (1, 0, 0, 0)$ to $120°$ about $z$.
+
 (a) Write $q_1$ and find $\Omega$.
+
 (b) Compute slerp and nlerp at $s = 0.25$, and the rotation angle each represents.
+
 (c) A file stores the target as $-q_1$. What does slerp at $s = 0.5$ produce if you forget to check the sign, and what angle and direction does that represent?
 
 **P3 (🔴)** (a) Show that $M = \tfrac12\big(R_z(0°) + R_z(90°)\big)$ is not a rotation by computing its determinant and the length of $M(1,0,0)$. Generalize: for $\tfrac12(I + R_z(\theta))$, what is the length of the image of a unit vector in the $xy$-plane, and what happens at $\theta = 180°$?
+
 (b) Verify that $R_z(180°)R_x(180°) = R_y(180°)$.
+
 (c) Show that $R_z(90°)R_x(90°)$ is a rotation by $120°$, and find its axis.
 
 <details>
@@ -130,8 +138,11 @@ Trace $0 = 1 + 2\cos\theta$ gives $\cos\theta = -\tfrac12$, $\theta = \mathbf{12
 ## Flashback
 
 **From Lesson 4.4 (Bézier patches):** A bicubic patch has $\mathbf{P}_{ij} = (i, j, z_{ij})$ with $z_{ij} = 4$ for the four interior points ($i, j \in \{1, 2\}$) and $0$ elsewhere.
+
 (a) Find $\mathbf{S}(0.5, 0.25)$.
+
 (b) What height does the convex hull property guarantee the surface stays below?
+
 (c) Which control points does the boundary curve $\mathbf{S}(u, 0)$ depend on, and what shape is it?
 
 <details>

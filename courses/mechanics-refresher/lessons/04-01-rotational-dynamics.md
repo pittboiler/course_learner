@@ -103,7 +103,9 @@ Notice the pulley's mass adds to the inertia as $\tfrac12 M$ — its *rotational
 **P2 (🟡)** A bucket of mass $m = 1.5\ \mathrm{kg}$ hangs from a rope wound around a cylindrical pulley (solid disk) of mass $M = 4\ \mathrm{kg}$, radius $R = 0.20\ \mathrm m$. Released from rest, find the bucket's downward acceleration $a$ and the rope tension $T$. Use $g = 9.8\ \mathrm{m/s^2}$.
 
 **P3 (🔴, optional)** A motor applies a constant torque $\tau = 20\ \mathrm{N\cdot m}$ to a flywheel (solid disk, $M = 50\ \mathrm{kg}$, $R = 0.40\ \mathrm m$), starting from rest.
+
 (a) How many revolutions does it take to reach $600\ \mathrm{rpm}$?
+
 (b) Check your answer a second way, using the rotational work $\tau\,\Delta\theta$ and the kinetic energy $\tfrac12 I\omega^2$.
 
 <details>

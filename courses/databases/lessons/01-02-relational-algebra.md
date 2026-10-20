@@ -115,13 +115,17 @@ Now the sizes, reading up the right-hand tree in the figure: the publisher selec
 **P1 (🟢)** Using the library schema — `publisher(pub_id, name, city)`, `book(isbn, title, pub_id, year, price)`, `member(mid, name, city, joined)`, `loan(mid, isbn, taken, returned)` — write an algebra expression for each. Assume no NULLs.
 
 (a) The ISBNs of all books priced below 20.
+
 (b) The names of publishers based in Leeds.
+
 (c) The titles of books published by a Leeds-based publisher.
 
 **P2 (🟡)** Consider $\pi_{\text{title}}\bigl(\sigma_{\text{price} < 20 \,\wedge\, \text{city} = \text{'Leeds'}}(\text{book} \bowtie \text{publisher})\bigr)$ with $|\text{book}| = 5$ and $|\text{publisher}| = 3$.
 
 (a) Give the sizes of the intermediates when the expression is evaluated exactly as written, unfolding the natural join into a product followed by a selection.
+
 (b) Rewrite the expression with both selections pushed as far down as they will go, and give the new intermediate sizes using the instance from this lesson (two Leeds publishers, RVN and KIN; RVN has three books, KIN none; the books priced under 20 are B1 at 14 and B3 at 18).
+
 (c) One of the two selections can be pushed below the join and one requires care. Say which is which and why.
 
 **P3 (🔴, optional)** The `loan` relation records which member borrowed which book. Let $\text{RVN} = \pi_{\text{isbn}}(\sigma_{\text{pub\_id} = \text{'RVN'}}(\text{book}))$, the three Ravenwood ISBNs `{B1, B2, B5}`.

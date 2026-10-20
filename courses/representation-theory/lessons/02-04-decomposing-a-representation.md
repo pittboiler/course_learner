@@ -101,7 +101,9 @@ The output lands exactly on the all-ones line — the trivial-isotypic component
 **P2 (🟡)** Let $V_{\text{std}}$ be the $2$-dimensional standard rep of $S_3$, with character $\chi_{\text{std}} = (2, 0, -1)$. Its **tensor square** $V_{\text{std}} \otimes V_{\text{std}}$ has character $\chi_{\text{std}}^2 = (\chi_{\text{std}}(g))^2$ (characters of tensor products multiply — a [3.1](03-01-tensor-products.md) fact). Decompose $V_{\text{std}} \otimes V_{\text{std}}$ into irreducibles.
 
 **P3 (🔴 — Boss Problem 2, part 2, in full).** Decompose the $S_3$ permutation representation on $\mathbb{C}^3$ **two independent ways** and show they agree:
+
 (a) by character inner products, computing $m_{\text{triv}}, m_{\text{sign}}, m_{\text{std}}$;
+
 (b) by explicit invariant subspaces, using the projection operators $P_i = \frac{d_i}{|G|}\sum_g \overline{\chi_i(g)}\rho(g)$ to *produce* the trivial and standard subspaces as concrete spans, and confirm their dimensions and direct-sum match the multiplicities from (a).
 
 <details>

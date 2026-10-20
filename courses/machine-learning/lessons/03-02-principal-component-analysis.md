@@ -126,7 +126,9 @@ But the arithmetic is not what stops you. $S$ has $p^2 = 10^{10}$ entries, which
 $$S = \begin{pmatrix} 10 & 6 \\ 6 & 5\end{pmatrix}$$
 
 (a) Find both eigenvalues by trace and determinant.
+
 (b) Give both principal components as unit vectors, and each one's explained-variance fraction.
+
 (c) If you keep only PC1, what is the mean squared reconstruction error per point?
 
 **P2 (🟡)** Packages are measured by length in metres and mass in kilograms, with
@@ -134,12 +136,17 @@ $$S = \begin{pmatrix} 10 & 6 \\ 6 & 5\end{pmatrix}$$
 $$S = \begin{pmatrix} 1 & 3.5 \\ 3.5 & 25 \end{pmatrix}.$$
 
 (a) Give $\lambda_1,\lambda_2$, PC1, and PC1's explained-variance fraction.
+
 (b) A colleague re-exports the same data with length in **millimetres**. Write the new covariance matrix, and give PC1 and its explained-variance fraction (the eigenvalues are irrational here, so a few decimals are fine).
+
 (c) What does PC1 become if you standardise both columns first, and what does it explain? Name one situation in which you would deliberately *not* standardise.
 
 **P3 (🔴)** PCA finds variance, not discrimination. Construct a two-class dataset in the plane — give the actual points — for which PC1 is *exactly* the useless direction:
+
 (a) give the points, the covariance matrix $S$, and its eigen-decomposition;
+
 (b) show that projecting onto PC1 makes the two classes **identical**, while PC2 separates them perfectly;
+
 (c) rescale one feature by a factor $t$ so that PC1 explains more than 99 percent of the variance while remaining exactly as useless; give the smallest integer $t$ that works and say what a "keep 95 percent of the variance" rule would do to this dataset.
 
 <details>
@@ -210,6 +217,7 @@ so the smallest integer is $t = 5$, giving $125/126 \approx 99.21$ percent. (San
 | rash | 1 | 0 |
 
 (a) A new patient has fever and cough (ignore rash). Using naïve Bayes with raw frequency estimates, compute $P(F \mid \text{fever},\text{cough})$.
+
 (b) The patient also has a rash. What does the raw estimate now give, and why is that answer indefensible? Redo it with Laplace smoothing at $\alpha = 1$ (binary features, so the denominator is $n_k + 2$).
 
 <details>

@@ -125,22 +125,31 @@ The honest boundary: this works when a **perfect model is available** (the rules
 **P1 (🟢)** A node has $20$ visits across three children: $a$ with $Q = 0.3$, $N = 12$; $b$ with $Q = 0.5$, $N = 5$; $c$ with $Q = -0.1$, $N = 3$. Use plain UCT with $c = 1.0$ and $\ln 20 = 2.9957$.
 
 (a) Compute each child's exploration bonus.
+
 (b) Compute each UCT score and state which is selected.
+
 (c) State which child would be played if the search stopped now, under the most-visits rule.
+
 (d) State whether (b) and (c) name the same child, and why that is not a contradiction.
 
 **P2 (🟡)** AlphaZero runs $1600$ simulations per move in Go, where the branching factor is about $250$.
 
 (a) State how many children of the root could be visited even once if the search were uniform.
+
 (b) State what fraction of legal moves that is.
+
 (c) Explain how the network prior $P(s,a)$ changes this picture.
+
 (d) State what happens to the search's quality if the prior is confidently wrong, and which term limits the damage.
 
 **P3 (🔴)** MCTS is claimed to be a policy improvement operator: the visit distribution $\boldsymbol{\pi}$ is a better policy than the prior $\mathbf{p}$ that seeded it.
 
 (a) State the sense in which "better" is meant, and what would have to be true for the claim to fail.
+
 (b) Consider a search budget of exactly one simulation. State what $\boldsymbol{\pi}$ looks like and whether the claim holds.
+
 (c) Consider an infinite budget with a perfect model. State what $\boldsymbol{\pi}$ converges to.
+
 (d) Using (b) and (c), explain why the AlphaZero training loop needs the search budget to be in a particular range, and what goes wrong at each extreme.
 
 <details>
@@ -223,8 +232,11 @@ a deterministic policy concentrated on whichever child PUCT picked first — whi
 **From Lesson 4.4 (Bandits and principled exploration):** Three arms have been pulled: arm 1 four times with mean $0.7$; arm 2 once with mean $0.1$; arm 3 three times with mean $0.5$. So $t = 8$, and $\ln 8 = 2.0794$.
 
 (a) Compute each arm's UCB1 bonus.
+
 (b) Compute each UCB score and state which arm is pulled next.
+
 (c) Arm 2's observed mean is the worst by a wide margin. Explain why it is nonetheless competitive.
+
 (d) State how many pulls arm 2 would need, at fixed $t = 8$, for its score to fall below arm 1's current score.
 
 <details>

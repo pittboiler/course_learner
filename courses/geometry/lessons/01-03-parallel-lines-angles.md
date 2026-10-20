@@ -87,6 +87,7 @@ The two angles are $3(26) + 15 = 93^\circ$ and $2(26) + 35 = 87^\circ$ (check: $
 **P3** (a) $\angle 4$ and $\angle 6$ are **co-interior** (both interior, both on the right side of the transversal), so they must be supplementary for the lines to be parallel:
 $$(5x - 12) + (3x + 16) = 180 \;\Longrightarrow\; 8x + 4 = 180 \;\Longrightarrow\; x = 22.$$
 Then $\angle 4 = 5(22) - 12 = 98^\circ$ and $\angle 6 = 3(22) + 16 = 82^\circ$ (check: $98 + 82 = 180$ ✓).
+
 (b) The **converse of the same-side (co-interior) interior angles theorem**: if a transversal makes a pair of co-interior angles supplementary, the two lines are parallel.
 
 </details>

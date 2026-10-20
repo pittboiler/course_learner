@@ -97,6 +97,7 @@ So $(111)$ at $17.6$ beats $(100)$ at $15.3$ — the $(111)$ plane is the **dens
 <summary>Solutions</summary>
 
 **P1** (a) Head − tail $= (1,0,1)-(0,0,0) = (1,0,1)$, already smallest integers: $[101]$.
+
 (b) Intercepts in units of $a$: $1, \tfrac12, \tfrac13$. Reciprocals: $1, 2, 3$. Integers already, so $(123)$.
 
 *Check.* Both index sets are coprime (gcd $=1$), so they're fully reduced. ✓

@@ -88,8 +88,11 @@ Everything reduced to adding and subtracting fractions in the exponent — the p
 <summary>Solutions</summary>
 
 **P1**
+
 (a) $\sqrt{75} = \sqrt{25\cdot 3} = 5\sqrt{3}$.
+
 (b) $\sqrt[3]{54} = \sqrt[3]{27 \cdot 2} = \sqrt[3]{27}\,\sqrt[3]{2} = 3\sqrt[3]{2}$ (largest perfect *cube* factor is $27$).
+
 (c) $\sqrt[4]{x^3} = x^{3/4}$ — index $4$ is the denominator, power $3$ is the numerator.
 
 **P2**

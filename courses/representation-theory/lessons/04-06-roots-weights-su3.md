@@ -90,9 +90,11 @@ $$u+\bar u=(\tfrac12-\tfrac12,\ \tfrac13-\tfrac13)=(0,0);\quad u+\bar d=(1,0)=\p
 That's the top row — $\checkmark$. Now the split. Doing this for all three quarks gives six distinct outer weights (each occupied *once*) and the origin occupied *three* times ($u\bar u, d\bar d, s\bar s$). An irrep's weight multiplicities are fixed by its shape: the hexagon-with-center pattern of the **8** wants the origin doubly occupied, and a **1** is a single state at the origin. $6\text{ outer}+2\text{ center}=8$ and $1\text{ center}=1$ accounts for all $6+3=9$ states with the center's multiplicity $3=2+1$. Concretely the singlet is the ladder-invariant combination $\tfrac{1}{\sqrt3}(u\bar u+d\bar d+s\bar s)$ (annihilated by every root operator — the "colorless/flavor-blind" trace), and the orthogonal two central combinations complete the octet. A single **9** would need a *different* multiplicity profile and no invariant subspace; the existence of that ladder-killed state forces reducibility (Schur, [1.5](01-05-schur-lemma.md)). Hence $8\oplus1$.
 
 **P3.**
+
 (a) Extreme states maximize/minimize the coordinates, so they're the "all the same quark" products (each pushes the weight furthest in one direction):
 $$uuu=(\tfrac32,1)=\Delta^{++},\qquad ddd=(-\tfrac32,1)=\Delta^-,\qquad sss=(0,-2)=\Omega^-.$$
 (Check $s$: $3\times(0,-\tfrac23)=(0,-2)$.) These are the three corners of a downward triangular array — the decuplet.
+
 (b) Dimension count: $3\otimes3\otimes3$ has $3^3=27$ states. The claimed pieces total $10+8+8+1=27\ \checkmark$. (Route: $3\otimes3=6\oplus\bar3$, then $6\otimes3=10\oplus8$ and $\bar3\otimes3=8\oplus1$, giving $10\oplus8\oplus8\oplus1$.) The prediction lived at the **decuplet (10)**'s bottom corner: the $sss$ state $\Omega^-$, whose mass Gell-Mann read off from the even spacing of the decuplet's rows before it was discovered.
 
 </details>

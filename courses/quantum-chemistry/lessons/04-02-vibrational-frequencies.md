@@ -88,12 +88,15 @@ The blue parabola is the harmonic model; the coral curve is the real (Morse) pot
 
 **P2** (a) Reduced mass:
 $$\mu=\frac{m_{\text H}m_{\text{Cl}}}{m_{\text H}+m_{\text{Cl}}}=\frac{1.008\times35.45}{1.008+35.45}=\frac{35.73}{36.458}=0.9801\ \text{u}=0.9801\times1.6605\times10^{-27}=1.628\times10^{-27}\ \text{kg}.$$
+
 (b) $\dfrac{k}{\mu}=\dfrac{620}{1.628\times10^{-27}}=3.809\times10^{29}\ \text{s}^{-2}$, so $\sqrt{k/\mu}=6.172\times10^{14}\ \text{s}^{-1}$. Then
 $$\tilde\nu=\frac{6.172\times10^{14}}{2\pi(2.998\times10^{10})}=\frac{6.172\times10^{14}}{1.884\times10^{11}}\approx \boxed{3277\ \text{cm}^{-1}}.$$
+
 (c) Scaled: $0.89\times3277\approx\boxed{2917\ \text{cm}^{-1}}$. *The raw HF number (3277) overshoots experiment (2886) by ~14%; scaling brings it to 2917, within ~1%.* This is exactly the point of the scaling factor — the bare HF harmonic frequency is systematically too high.
 
 **P3** (a) $\mu=\dfrac{12.000\times15.999}{12.000+15.999}=\dfrac{191.99}{27.999}=6.857\ \text{u}=6.857\times1.6605\times10^{-27}=1.139\times10^{-26}\ \text{kg}$. Then $\dfrac{k}{\mu}=\dfrac{1902}{1.139\times10^{-26}}=1.670\times10^{29}$, $\sqrt{\,}=4.087\times10^{14}\ \text{s}^{-1}$, and
 $$\tilde\nu=\frac{4.087\times10^{14}}{1.884\times10^{11}}\approx\boxed{2170\ \text{cm}^{-1}}.$$
+
 (b) Computed harmonic $2170 > 2143$ experiment. The harmonic model replaces the real bond potential with a parabola that matches only the *curvature at the very bottom*. The real potential is Morse-like: it softens and flattens toward dissociation, so its energy levels sit lower and bunch closer than the evenly spaced parabola levels. The measured fundamental is the $v=0\to1$ gap of that *softened* ladder, so it comes out **below** the harmonic gap. (c) A scaling factor (~0.96 for a good DFT method, ~0.89 for HF) multiplies the computed harmonic frequency down to match experiment. It lumps together **two** systematic errors: the anharmonicity the harmonic model ignores, and the method/basis error (e.g. HF overbinding → too-stiff well). One number works because both errors are roughly *proportional* to the frequency and consistent across similar molecules, so a single multiplicative constant, fit to a large reference set, captures the bulk of the correction.
 
 </details>

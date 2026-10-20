@@ -155,7 +155,9 @@ Compute the parent's Gini and entropy, the weighted child impurity of each split
 **P3 (🔴)** Two binary features, four rows, label $y = x_1 \oplus x_2$ (exclusive or) — the dataset that defeated the perceptron in [2.1](02-01-the-perceptron-and-linear-separability.md), now handed to a tree.
 
 (a) Compute the Gini and entropy gain of the split on $x_1$ and of the split on $x_2$. What does `GROW` return?
+
 (b) Exhibit a depth-2 tree with zero error. So the hypothesis class contains the answer — what failed?
+
 (c) Name one change to the split search that finds the depth-2 tree, give its cost as a factor of the ordinary search at $d = 50$ features and $n = 1000$ rows, and give one reason nobody uses it.
 
 <details>

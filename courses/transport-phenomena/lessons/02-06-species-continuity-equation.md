@@ -118,8 +118,11 @@ $$N_A=-D_{AB}\frac{dc_A}{dx}=\frac{D_{AB}}{L}(c_{A0}-c_{AL})=\frac{2.1\times10^{
 *Units:* $(\mathrm{m^2\,s^{-1}}/\mathrm m)\,\mathrm{mol\,m^{-3}}=\mathrm{mol\,m^{-2}\,s^{-1}}$ ✓. Positive and downward — A flows from high to low concentration, as it should.
 
 **P2** Start from $\partial_t c_A+\nabla\!\cdot(c_A\mathbf v)=D_{AB}\nabla^2c_A+R_A$.
+
 (a) Set $\mathbf v=0$ (no flow) and $R_A=0$ (no reaction): the convection and source terms vanish, leaving $\partial_t c_A=D_{AB}\nabla^2c_A$.
+
 (b) Drop $\partial_t c_A$ (steady) and $\mathbf v=0$ (no flow), keep $R_A=-k_1c_A$: $0=D_{AB}c_A''-k_1c_A$, i.e. $D_{AB}c_A''=k_1c_A$.
+
 (c) Drop $R_A=0$ (inert tracer) and $D_{AB}\to0$ (or $Pe\to\infty$, diffusion negligible); using $\nabla\!\cdot\mathbf v=0$ for incompressible flow so $\nabla\!\cdot(c_A\mathbf v)=\mathbf v\!\cdot\!\nabla c_A$: $\partial_t c_A+\mathbf v\!\cdot\!\nabla c_A=0$. (The tracer just rides the flow — its substantial derivative is zero.)
 
 **P3** Steady, no flow, 1-D with $R_A=-k_1c_A$: $D_{AB}c_A''-k_1c_A=0\Rightarrow c_A''=m^2c_A$, $m=\sqrt{k_1/D_{AB}}$. General solution $c_A=A\cosh(mx)+B\sinh(mx)$. Symmetry about $x=0$ means zero flux at the center, $c_A'(0)=0$; since $c_A'=Am\sinh(mx)+Bm\cosh(mx)$, at $x=0$ this gives $Bm=0\Rightarrow B=0$. Then $c_A=A\cosh(mx)$, and $c_A(L)=c_{A,s}\Rightarrow A=c_{A,s}/\cosh(mL)$. Hence

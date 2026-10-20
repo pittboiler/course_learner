@@ -122,6 +122,7 @@ Ten microseconds to disrupt — far shorter than any energy confinement time you
 **P1** (a) The band edge is $kv_0=\sqrt2\,\omega_p$, so
 $$k=\frac{\sqrt2\,\omega_p}{v_0}=\frac{1.414\times2\times10^{9}}{10^{6}}\approx 2.8\times10^{3}\,\mathrm{m^{-1}}.$$
 Modes with $k$ above this are stable; below it, unstable.
+
 (b) The fastest-growing $k$ is $kv_0=\tfrac{\sqrt3}{2}\omega_p$, so
 $$k=\frac{\sqrt3}{2}\frac{\omega_p}{v_0}=0.866\times\frac{2\times10^{9}}{10^{6}}\approx 1.7\times10^{3}\,\mathrm{m^{-1}},$$
 and $\gamma_{\max}=\omega_p/2 = 1\times10^{9}\,\mathrm{s^{-1}}$, so the e-folding time is $\tau=1/\gamma_{\max}=1\,\mathrm{ns}$.

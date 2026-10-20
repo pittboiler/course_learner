@@ -101,17 +101,21 @@ Here the tool strains. The concave transform is legitimate only if the entries a
 **P1 (🟢)** *(Formal (a)–(b) · Exegetical (c).)* An invented society has two classes: laborers, 75% of the population, and proprietors, 25%. Incomes (thousands of dollars a year), listed as (laborers, proprietors): X = (10, 90), Y = (18, 30), Z = (16, 60). Take $u(x)=x$.
 
 (a) Find Harsanyi's choice, Rawls's choice, and the cost of maximin in average income per head.
+
 (b) Let the laborers' share be $s$. For which $s$ does Harsanyi's chooser pick each arrangement? For which $s$ does she agree with Rawls?
+
 (c) Rawls's veil hides even $s$. Which of his three conditions does that secure, and what does Harsanyi put in place of knowing $s$? Two sentences.
 
 **P2 (🟡)** *(Exegetical (a) · Evaluative (b).)* An invented valley must choose, before a lottery assigns plots, how scarce irrigation water is shared among family farms. The hydrology is new and no one can say how likely dry or wet years are, or which plots will be favoured. Under rule R every plot gets enough to keep the family on its land. Under rule S the best plots prosper and the worst lose their farms. All the families are commercial growers whose plans (new equipment, children's schooling, expansion) depend on earning well above subsistence.
 
 (a) Which of Rawls's three conditions does the case meet, and which does it fail? Cite the detail that decides each.
+
 (b) Does maximin still have a claim here? State the strongest case for and against in 120 words or fewer. Any verdict passes.
 
 **P3 (🔴, optional)** *(Formal (a) · Evaluative (b).)* A critic says: "Maximin is just expected utility with risk aversion turned up too high. It is always the more cautious choice, and it always costs average welfare." Society is three equal thirds, with incomes A = (11, 11, 100) and C = (10, 50, 50).
 
 (a) Find the choice under maximin, under Harsanyi with $u(x)=x$, and under Harsanyi with $u(x)=\ln x$.
+
 (b) Which parts of the critic's claim does (a) refute? Then say what the case shows about "turning up risk aversion" as the bridge from Harsanyi to Rawls. 100 words or fewer.
 
 <details>
@@ -182,7 +186,9 @@ Z beats X iff $36s>30$, i.e. $s>5/6$. Y beats Z iff $32s>30$, i.e. $s>15/16$. Y 
 **From Lesson [3.2](03-02-models-of-ambiguity.md) (Models of ambiguity):** *(Formal (a)–(b) · Exegetical (c).)* A farmer plants one field before the season. States: wet ($W$) or dry ($D$). Her evidence puts the probability of wet anywhere in $[1/3,\ 1/2]$, and her set of priors $C$ is that whole interval. In utils, crop $f$ pays $(12, 0)$ across $(W, D)$, crop $g$ pays $(0, 8)$, and planting half of each, $h$, pays the state-by-state average $(6, 4)$.
 
 (a) Compute the maxmin expected utility of $f$, $g$ and $h$.
+
 (b) Under alpha-maxmin over the same $C$, find every $\alpha$ for which $h$ is strictly better than both $f$ and $g$.
+
 (c) Show that an expected-utility agent with any single prior never ranks $h$ strictly above both $f$ and $g$. Then, in two sentences: name the Gilboa–Schmeidler axiom that the maxmin agent's ranking in (a) displays, and say why certainty independence permits that ranking while full independence forbids it.
 
 <details>

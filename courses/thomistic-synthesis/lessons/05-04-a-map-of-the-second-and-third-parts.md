@@ -114,9 +114,13 @@ Name the level error and say what would have to exist for the claim to hold. Two
 **Wrong turns:** putting q.109 in the treatise on law because both are about commandments — q.109 a.4 asks about the commandments *from inside* the treatise on grace, which is the point of Example 1; calling II-II q.161 part of the treatise on justice, since justice ends at q.122; answering that this course teaches (a) because [`ethics` 4.4](../../ethics/lessons/04-04-natural-law-aquinas.md) is in the library — that lesson is another course's.
 
 **Model answer:**
+
 (a) *Prima Secundae*, the treatise on law, qq.90-108, which is the first half of the extrinsic principles of human acts. Owned by [`moral-theology`](../../moral-theology/syllabus.md), with natural law as an ethical theory in [`ethics` 4.4](../../ethics/lessons/04-04-natural-law-aquinas.md).
+
 (b) *Prima Secundae*, the treatise on grace, qq.109-114, the second half of the same division and the end of I-II. Ceded to [`creation-grace-last-things`](../../creation-grace-last-things/syllabus.md).
+
 (c) *Secunda Secundae*, the block on fortitude and temperance, qq.123-170. Owned by [`moral-theology`](../../moral-theology/syllabus.md), which reads selected II-II questions.
+
 (d) Third Part, the sacraments, qq.60-90. Owned by [`sacraments-and-liturgy`](../../sacraments-and-liturgy/syllabus.md).
 None of the four. This course places them and stops.
 

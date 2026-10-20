@@ -86,6 +86,7 @@ Identical to the escape velocity you computed in [calc 2.3](../../calc-refresher
 
 **P1** (a) Orbital speed from the circular-orbit condition:
 $$v = \sqrt{\frac{GM_\oplus}{r}} = \sqrt{\frac{3.98\times10^{14}}{8.0\times10^6}} = \sqrt{4.975\times10^{7}} = 7.05\times10^3\ \mathrm{m/s} \approx 7.1\ \mathrm{km/s}.$$
+
 (b) Period:
 $$T = \frac{2\pi r}{v} = \frac{2\pi(8.0\times10^6)}{7.05\times10^3} = \frac{5.027\times10^7}{7.05\times10^3} = 7.13\times10^3\ \mathrm{s} = 119\ \text{min}\approx 2.0\ \text{h}.$$
 Longer than $\sim$90 min, as it should be: this orbit is at a larger radius ($8.0$ vs $\sim6.7\times10^6$ m for LEO), and Kepler III says bigger radius means longer period.

@@ -97,6 +97,7 @@ Interpretation via complementary slackness. If $\alpha_i = C$, then $\mu_i = C -
 
 **P3** (a) Take $\varphi(u) = (u_1^2,\ \sqrt{2}\,u_1 u_2,\ u_2^2)$. Then
 $$\varphi(u)^\top \varphi(v) = u_1^2 v_1^2 + 2 u_1 u_2 v_1 v_2 + u_2^2 v_2^2 = (u_1 v_1 + u_2 v_2)^2 = (u^\top v)^2 = k(u,v). \checkmark$$
+
 (b) The dual objective $\sum_i \alpha_i - \tfrac12\sum_{i,j}\alpha_i\alpha_j y_i y_j\,\varphi(x_i)^\top\varphi(x_j)$ and the prediction $\sum_i \alpha_i y_i\,\varphi(x_i)^\top\varphi(x) + b$ reference the feature vectors *only* through inner products $\varphi(\cdot)^\top\varphi(\cdot)$. Since every such inner product equals $(u^\top v)^2$, you compute all of them with the 2-dimensional formula and never build the 3-dimensional $\varphi(x_i)$. The optimal $w = \sum_i \alpha_i y_i \varphi(x_i)$ lives in feature space implicitly — you evaluate the classifier through kernel values alone. (With a large $m$ this is the whole point: the feature space can even be infinite-dimensional, e.g. the Gaussian kernel, while every computation stays finite.)
 
 </details>

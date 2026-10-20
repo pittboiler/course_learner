@@ -99,9 +99,13 @@ Notice the strain, though, and do not paper over it: if the human writer's judge
 **P2 (🟡) *(Exegetical.)*** For each item, say whether it is an instance of **revelation**, of **inspiration**, of **both**, or of **neither**, in one line each. 150 words or fewer overall.
 
 (a) Luke interviews eyewitnesses and writes his Gospel.
+
 (b) A prophet receives a vision from God and never writes anything down.
+
 (c) The apostles preach the resurrection orally and their preaching is handed on in the Church.
+
 (d) A theologian writes a true and profound book about the Trinity.
+
 (e) The author of 2 Machabees abridges a five-volume history he did not write.
 
 **P3 (🔴) *(Exegetical (a) · Evaluative (b).)***

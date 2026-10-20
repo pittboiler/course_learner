@@ -90,6 +90,7 @@ $$\dot D(4.0) = \frac{0.645}{4} \approx 0.161\,\text{mGy/h}.$$
 
 **P2.** (a) Time = budget ÷ rate:
 $$t = \frac{0.30\,\text{mSv}}{0.106\,\text{mSv/h}} \approx 2.8\,\text{h}.$$
+
 (b) If the task is fixed at $t=6\,\text{h}$, the *allowed* rate is
 $$\dot D_{\text{max}} = \frac{0.30\,\text{mSv}}{6\,\text{h}} = 0.050\,\text{mSv/h} = 0.050\,\text{mGy/h}.$$
 Solve for the distance that gives this rate:
@@ -98,6 +99,7 @@ $$d = \sqrt{\frac{\Gamma A}{\dot D_{\text{max}}}} = \sqrt{\frac{1.29\times 0.185
 
 **P3.** (a) Solve $\dot D=\Gamma A/d^2$ for $d$:
 $$d = \sqrt{\frac{\Gamma A}{\dot D}} = \sqrt{\frac{0.093\times 0.90}{0.40}} = \sqrt{\frac{0.0837}{0.40}} = \sqrt{0.209} \approx 0.46\,\text{m}.$$
+
 (b) Distance for $0.010\,\text{mGy/h}$:
 $$d' = \sqrt{\frac{0.093\times 0.90}{0.010}} = \sqrt{8.37} \approx 2.89\,\text{m}.$$
 So the wall-shielded area must be about $2.89 - 0.46 \approx 2.4\,\text{m}$ further back than the measurement point (before any lead — distance alone).

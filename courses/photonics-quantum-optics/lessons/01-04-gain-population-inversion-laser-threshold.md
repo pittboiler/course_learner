@@ -127,6 +127,7 @@ $$\Delta N_\text{th} = \frac{\gamma_\text{th}}{\sigma} = \frac{0.784}{2.0\times1
 
 **P2** (a) Saturated gain with $I/I_\text{sat} = 3$:
 $$\gamma = \frac{\gamma_0}{1 + I/I_\text{sat}} = \frac{0.50}{1+3} = \frac{0.50}{4} = 0.125\ \mathrm{m^{-1}}.$$
+
 (b) Half gain means $\gamma = \gamma_0/2$, so
 $$\frac{\gamma_0}{1+I/I_\text{sat}} = \frac{\gamma_0}{2} \;\Rightarrow\; 1 + I/I_\text{sat} = 2 \;\Rightarrow\; I = I_\text{sat} = 1.2\times10^{7}\ \mathrm{W/m^2}.$$
 *Check.* This is the definition of the saturation intensity: the gain halves precisely at $I = I_\text{sat}$. ✓

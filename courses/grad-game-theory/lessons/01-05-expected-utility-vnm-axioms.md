@@ -89,9 +89,11 @@ This is precisely the structure of a mixed strategy: if a player mixes between p
 **P1** Expected utility: $U = \tfrac12\ln 100 + \tfrac12\ln 400$. Since $\ln 100 = \ln 100$ and $\ln 400 = \ln 100 + \ln 4$, we get $U = \ln 100 + \tfrac12\ln 4 = \ln 100 + \ln 2 = \ln 200$. Certainty equivalent: $\ln(CE) = \ln 200 \Rightarrow CE = \$200$. Expected money $\mathbb{E}[x] = \tfrac12(100)+\tfrac12(400) = 250$, so risk premium $\pi = 250 - 200 = \$50$. She is **risk averse**: $\ln$ is strictly concave ($u''(x) = -1/x^2 < 0$), so by Jensen $\mathbb{E}[\ln x] < \ln \mathbb{E}[x]$ and $CE < \mathbb{E}[x]$. (Neatly, $CE = \sqrt{100\cdot 400}=200$ is the *geometric* mean — what $\ln$ utility always returns.)
 
 **P2** (a) $U(P) = 0.2(0) + 0.8(2) + 0(10) = 1.6$; $U(Q) = 0(0)+0.5(2)+0.5(10) = 6$. So $Q \succ P$.
+
 (b) $R_\lambda$ has probability vector $\big(0.2\lambda,\ 0.8\lambda + 0.5(1-\lambda),\ 0.5(1-\lambda)\big)$. Then
 $$U(R_\lambda) = 0.2\lambda(0) + \big(0.8\lambda+0.5(1-\lambda)\big)(2) + 0.5(1-\lambda)(10).$$
 Or just use linearity directly: $U(R_\lambda) = \lambda U(P) + (1-\lambda)U(Q) = 1.6\lambda + 6(1-\lambda) = 6 - 4.4\lambda$. Affine in $\lambda$. ✓ (Both routes agree.)
+
 (c) Indifferent between $R_\lambda$ and $P$ means $U(R_\lambda) = U(P) = 1.6$: solve $6 - 4.4\lambda = 1.6 \Rightarrow 4.4\lambda = 4.4 \Rightarrow \lambda = 1$. Only the degenerate mix $R_1 = P$ itself — sensible, since $Q$ is strictly better, so any positive weight on $Q$ strictly raises the value above $U(P)$.
 
 **P3** Let $u(0)=0$, $u(5\text{M})=1$, and write $u_1 := u(1\text{M}) \in (0,1)$. Expected utilities:

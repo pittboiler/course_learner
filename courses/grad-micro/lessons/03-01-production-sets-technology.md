@@ -102,6 +102,7 @@ So elasticity of substitution and returns to scale are *independent* dials: both
 
 **P2 (🟡)** A single-output firm uses good 1 as input and makes good 2, with netput set
 $$Y=\{(y_1,y_2):\ y_1\le 0,\ 0\le y_2\le \sqrt{-y_1}\}.$$
+
 (a) Does $Y$ satisfy *no free lunch*? *Possibility of inaction*? (b) Does $Y$ satisfy *free disposal*? (c) What are the returns to scale of the underlying $f$?
 
 **P3 (🔴, optional)** For the CES technology $f(x_1,x_2)=\big(x_1^{\rho}+x_2^{\rho}\big)^{\nu/\rho}$ with $0<\rho<1$ and $\nu>0$: (a) show $f$ is homogeneous of degree $\nu$ and give the returns-to-scale verdict in terms of $\nu$; (b) compute $\mathrm{MRTS}_{12}$; (c) show the elasticity of substitution is $\sigma=1/(1-\rho)$, independent of $\nu$.

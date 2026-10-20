@@ -111,7 +111,9 @@ converges. Convergence is unaffected by changing any *finite* block of signs —
 **P2 (🟡)** Independent random variables $X_1, X_2, \dots$ satisfy $\mathbb P(X_n = n) = \tfrac1{n^2}$ and $\mathbb P(X_n = 0) = 1-\tfrac1{n^2}$. Show that almost surely $X_n = 0$ for all sufficiently large $n$, and conclude $\mathbb P(X_n\to 0)=1$. (This is a taste of "a.s. convergence" ahead in Module 4.)
 
 **P3 (🔴, optional)** Let $(X_n)$ be independent with $\mathbb P(X_n=1)=\mathbb P(X_n=-1)=\tfrac12$. Consider the event $C=\big\{\limsup_n \tfrac1n\sum_{k=1}^n X_k \ge 0.01\big\}$.
+
 (a) Explain why $C$ is a tail event, so $\mathbb P(C)\in\{0,1\}$.
+
 (b) Without proving a law of large numbers, argue informally which value it is — and name the theorem (coming in Module 4) that would settle it rigorously.
 
 <details>

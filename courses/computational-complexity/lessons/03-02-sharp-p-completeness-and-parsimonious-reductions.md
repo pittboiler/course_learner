@@ -123,8 +123,11 @@ Case 3 is what the slack rows and the clause triangles do, and it is the common 
 **P2 (🟡)** For each proposed reduction, classify it as parsimonious, weakly parsimonious, or neither, giving the multiplier where one exists.
 
 (a) $\#\text{SAT}$ to $\#\text{SAT}$ by $\varphi \mapsto \varphi \wedge (y \vee \lnot y)$ for a fresh variable $y$.
+
 (b) $\#\text{SAT}$ to $\#\text{SAT}$ by $\varphi \mapsto \varphi \wedge y$ for a fresh variable $y$.
+
 (c) $\#3\text{SAT}$ to $\#\text{VERTEX-COVER}$ via Independent Set and the complement map $(G,k)\mapsto(G, n-k)$, assuming the Independent-Set step is already given.
+
 (d) $\#\text{SAT}$ to $\#\text{DOUBLE-SAT}$ by the Boss problem 1 padding $\varphi \mapsto \varphi \wedge (y \vee \lnot y)$, where DOUBLE-SAT counts assignments only when the formula has at least two.
 
 **P3 (🔴, optional)** Boss problem 1 asks you to prove DOUBLE-SAT NP-complete by the padding reduction $\varphi \mapsto \varphi \wedge (y \vee \lnot y)$ with $y$ fresh. (a) Prove both directions of the decision reduction. (b) Give the exact relationship between the number of satisfying assignments of $\varphi$ and of its image, and state whether the reduction is parsimonious, weakly parsimonious, or neither. (c) State what this costs you: name one thing the reduction proves and one thing it does not.

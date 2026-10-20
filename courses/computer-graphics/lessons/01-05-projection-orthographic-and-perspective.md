@@ -103,17 +103,25 @@ The true midpoint lands at $0.200$; the screen-space midpoint is at $0.556$. **P
 ## Problems
 
 **P1 (🟢)** Field of view $90°$ vertical, aspect ratio 2, $n = 1$, $f = 10$.
+
 (a) Write $P_{\text{persp}}$ with numeric entries.
+
 (b) Push the eye-space point $(2, 1, -4)$ through it: give clip coordinates and NDC, and say whether the point is visible.
 
 **P2 (🟡)** A frustum has $n = 2$ and $f = 6$.
+
 (a) Compute $A$ and $B$.
+
 (b) Find $z_{\text{ndc}}$ for the point at eye depth $z = -4$, halfway between the near and far planes.
+
 (c) Find the eye depth that maps to $z_{\text{ndc}} = 0$, and compare it with $2fn/(f+n)$.
 
 **P3 (🔴)** An object has model matrix $M = T(0, 0, -6)\,R_y(45°)$; the camera is at the origin looking down $-z$ with up $(0,1,0)$, field of view $60°$, aspect 1, $n = 1$, $f = 11$; the viewport is $800 \times 800$.
+
 (a) Find the world (and eye) coordinates of the object-space vertex $(1, 0, 1)$.
+
 (b) Find its NDC and pixel coordinates, and state which clip test, if any, it fails.
+
 (c) How far to the right, in world units, can a point at depth $z = -6$ be and still be on screen?
 
 <details>
@@ -158,8 +166,11 @@ All NDC coordinates lie in $[-1, 1]$: **it fails no clip test**. Equivalently, i
 ## Flashback
 
 **From Lesson 1.3 (frames and normals):** A mesh is placed with linear block $A = S(2, 1, 1)\,R_z(45°)$ (rotate, then stretch along $x$). At one vertex the object-space normal is $\mathbf{n} = (0, 1, 0)$ and a tangent is $\mathbf{t} = (1, 0, 0)$.
+
 (a) Compute the transformed tangent $A\mathbf{t}$.
+
 (b) Compute the correct world-space unit normal.
+
 (c) Compute the unit vector you would get by (wrongly) using $A\mathbf{n}$, and check which of the two is perpendicular to $A\mathbf{t}$.
 
 <details>

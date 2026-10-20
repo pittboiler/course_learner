@@ -139,15 +139,21 @@ The real dependency runs the other way. $T_1$'s decision depended on *reading* t
 **P1 (🟢)** For each behaviour, name the anomaly and the lowest standard isolation level that prevents it.
 
 (a) A transaction reads a balance, another transaction updates and commits, and the first reads the same row again and sees a different balance.
+
 (b) A transaction reads a row another transaction has written but not committed; that transaction then aborts.
+
 (c) A transaction runs `SELECT COUNT(*) FROM booking WHERE date = '2024-03-04'` twice and gets 40 then 41, with no row it read having changed.
+
 (d) At which of the four levels is (c) still possible?
 
 **P2 (🟡)** A bank enforces "the combined balance of a customer's current and savings accounts must stay at or above zero." Customer 7 has 100 in current and 100 in savings. Two transactions run concurrently under snapshot isolation: $T_1$ withdraws 150 from current, $T_2$ withdraws 150 from savings. Each reads both balances and checks the combined total before writing.
 
 (a) Give what each transaction reads and the check it performs.
+
 (b) Give the final balances if both commit, and state whether the invariant holds.
+
 (c) State whether snapshot isolation aborts either transaction, with the reason in terms of its conflict rule.
+
 (d) Give two distinct fixes, one that changes the isolation level and one that does not, and state what each costs.
 
 **P3 (🔴, optional)** A system runs MVCC. The row `seat(14A)` has this version chain, where each version is tagged with the transaction that created it:
@@ -159,8 +165,11 @@ The real dependency runs the other way. $T_1$'s decision depended on *reading* t
 | $v_3$ | $T_{30}$ | uncommitted |
 
 (a) Transaction $T_{40}$ starts at time 120. Give the version it reads, and why.
+
 (b) Transaction $T_{50}$ starts at time 160. Give the version it reads.
+
 (c) A long-running report $T_{60}$ started at time 90 and is still running. State which versions can be reclaimed and which cannot, and name the production problem this causes.
+
 (d) $T_{30}$ commits at time 180, and $T_{50}$ — which started at 160 and also wrote seat 14A — tries to commit at time 190. State whether it succeeds under first-committer-wins, and give the general rule you applied.
 
 <details>
@@ -252,7 +261,9 @@ $$r_1(M)\ \ r_2(M)\ \ w_2(M)\ \ w_1(M)$$
 under strict 2PL.
 
 (a) Give the lock requested at each step and whether it is granted or blocked.
+
 (b) State whether a deadlock occurs and give the wait-for cycle if so.
+
 (c) Name the mechanism responsible and the standard application-level fix.
 
 <details>

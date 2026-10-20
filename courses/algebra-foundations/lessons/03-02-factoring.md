@@ -93,7 +93,9 @@ The offending $(x-3)$ cancels, and now $x=3$ gives $6$. Factoring is the *only* 
 <summary>Solutions</summary>
 
 **P1**
+
 (a) Two numbers multiplying to $-15$ and adding to $+2$: that's $+5$ and $-3$. So $x^2 + 2x - 15 = (x + 5)(x - 3)$. Check: $x^2 - 3x + 5x - 15 = x^2 + 2x - 15$. ✓
+
 (b) $9x^2 - 49 = (3x)^2 - 7^2$, a difference of squares $= (3x - 7)(3x + 7)$. Check: $9x^2 + 21x - 21x - 49 = 9x^2 - 49$. ✓
 
 **P2** Here $a = 4,\ b = -4,\ c = -15$, so $ac = 4\cdot(-15) = -60$. Need two numbers with product $-60$ and sum $-4$: that's $-10$ and $+6$ (since $-10 + 6 = -4$, $-10\cdot 6 = -60$). Split the middle term:

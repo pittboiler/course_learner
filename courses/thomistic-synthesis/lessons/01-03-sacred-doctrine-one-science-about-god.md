@@ -104,7 +104,9 @@ Two things loosen that. One does not.
 **P1 (🟢) *(Exegetical.)*** For each claim, give its level on [`fundamental-theology` 4.4](../../fundamental-theology/lessons/04-04-the-ladder-of-doctrinal-authority.md)'s ladder and name the act or text that fixes it there. One sentence each. Overstating a level is an error, and so is understating one.
 
 (a) Sacred doctrine is one science, because everything in it is considered under the formality of being divinely revealed.
+
 (b) God can be known with certainty from created things by the natural light of human reason.
+
 (c) Sacred doctrine is speculative rather than practical.
 
 **P2 (🟡) *(Exegetical.)*** Close-read the reply to the second objection of ST I q.1 a.5 (English Dominican Province translation):

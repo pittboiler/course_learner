@@ -97,8 +97,11 @@ Watch what this does to the institution. The release still exists, but any credi
 A reader concludes: "So the Jubilee was a general cancellation of debts." (a) Which parts of that conclusion does the verse itself support, and which words decide it? (b) Where does the rest come from, and what would you check to test it? 120 words or fewer.
 
 **P2 (🟡) *(Formal (a)–(b) · Exegetical (c).)*** Stylize Deuteronomy 15. Years of the cycle are numbered 1–7. Nothing can be collected in year 7, and whatever is still owed then is cancelled. Loans are interest-free (Leviticus 25:37). A borrower repays at most 8 measures of grain per year, at the end of each year, and borrows at the start of a year.
+
 (a) A lender advances 40 measures. For loans made at the start of year 1, 5 and 6, how much does he recover, and what share of the loan is cancelled?
+
 (b) Give the largest loan that can be made with no loss for each starting year 1–7, and describe the pattern.
+
 (c) Which words of Deuteronomy 15:9 describe the behaviour your table predicts, and what does Hillel's *prosbul* do to the table? 80 words or fewer for (c).
 
 **P3 (🔴, optional) *(Exegetical.)*** Historian A: the Jubilee was utopian legislation that no community ever carried out. Historian B: it codified a real release practice, of the kind the Babylonian edicts attest. Name the single premise one must deny, and say what kind of document would move each of them. 150 words or fewer.

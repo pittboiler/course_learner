@@ -87,6 +87,7 @@ One step lands exactly on the minimum, because for a truly quadratic surface the
 ## Problems
 
 **P1 (🟢)** For each converged stationary point below, the Hessian eigenvalues (atomic units) are given. Classify each as a minimum, a transition state, or a higher-order saddle, and state how many imaginary vibrational frequencies each would show.
+
 (a) $\{0.51,\,0.22,\,0.14\}$  (b) $\{0.40,\,0.19,\,-0.08\}$  (c) $\{0.33,\,-0.05,\,-0.21\}$
 
 **P2 (🟡)** Describe the geometry-optimization loop in your own words: name the quantities computed at each step (energy, gradient, Hessian) and what each is used for, write the Newton/quasi-Newton step, explain *why* multiplying by $H^{-1}$ gives a better step than moving straight along $-\nabla E$, and list the four convergence criteria.
@@ -97,8 +98,11 @@ One step lands exactly on the minimum, because for a truly quadratic surface the
 <summary>Solutions</summary>
 
 **P1**
+
 (a) All three eigenvalues positive $\Rightarrow$ **minimum** (equilibrium structure). **Zero** imaginary frequencies.
+
 (b) Exactly one negative eigenvalue ($-0.08$) $\Rightarrow$ **first-order saddle = transition state**. **One** imaginary frequency.
+
 (c) Two negative eigenvalues ($-0.05,\,-0.21$) $\Rightarrow$ **second-order (higher-order) saddle** — not a chemically meaningful stationary point. **Two** imaginary frequencies.
 Rule: number of imaginary frequencies = number of negative Hessian eigenvalues, because $\omega\propto\sqrt\lambda$ and $\sqrt{\lambda<0}$ is imaginary.
 

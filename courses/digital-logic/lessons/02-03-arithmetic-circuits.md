@@ -233,13 +233,19 @@ $S =$ `0010` $= 2$. ✓ And $C_4 = 1$ says "no borrow", i.e. $5 \ge 3$ — the c
 **P1 (🟢)** A 4-bit ripple-carry adder gets $A =$ `0110`, $B =$ `1011`, $C_0 = 0$. Give $C_1, C_2, C_3, C_4$ and the sum bits. Then read the result twice — once as unsigned, once as signed two's complement — and state the overflow flag $V$.
 
 **P2 (🟡)** You are budgeting the clock for a 16-bit ripple-carry adder. Assume one gate delay is 80 ps and the $g + pC_{in}$ carry path from this lesson.
+
 (a) At what gate-delay count is the carry-out $C_{16}$ valid?
+
 (b) The adder's outputs must also pass through 3 gate delays of surrounding logic before the next clock edge. What is the maximum clock frequency?
+
 (c) A carry-lookahead unit makes every carry valid 3 gate delays after the inputs (one level for $p,g$, two for the lookahead), so the last sum bit lands at 4. Redo (b) and give the speedup.
 
 **P3 (🔴)** On the 4-bit adder–subtractor of the figure, set $SUB = 1$, $A =$ `0011`, $B =$ `1010`.
+
 (a) Give $B'$, $C_0$, the sum bits, $C_3$ and $C_4$.
+
 (b) Interpret the result as signed two's complement and use $V = C_4 \oplus C_3$ to say whether it is trustworthy. Explain the discrepancy.
+
 (c) Using the priority expression for $G$, what does a 4-bit magnitude comparator report for these same two patterns read as *unsigned* numbers?
 
 <details>

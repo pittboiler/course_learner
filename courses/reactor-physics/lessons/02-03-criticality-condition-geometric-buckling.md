@@ -116,15 +116,18 @@ That single number is the critical slab thickness. The higher modes aren't wrong
 **P1.** (a) $k_\infty = \nu\Sigma_f/\Sigma_a = 0.0129/0.0125 = 1.032$.
 $$B_m^2 = \frac{\nu\Sigma_f - \Sigma_a}{D} = \frac{0.0129 - 0.0125}{0.16} = \frac{0.0004}{0.16} = 0.0025\,\text{cm}^{-2}.$$
 Cross-check: $L^2 = D/\Sigma_a = 0.16/0.0125 = 12.8\,\text{cm}^2$, and $(k_\infty-1)/L^2 = 0.032/12.8 = 0.0025\,\text{cm}^{-2}$. ✓
+
 (b) Yes to both: $k_\infty = 1.032 > 1$ so an infinite block multiplies (supercritical material), and $B_m^2 > 0$ means a real geometric buckling can match it — a finite critical reactor exists.
 
 **P2.** (a) Criticality is $(\pi/\tilde a)^2 = B_m^2 = 0.0025$, so $B_m = \sqrt{0.0025} = 0.05\,\text{cm}^{-1}$ and
 $$\tilde a = \frac{\pi}{B_m} = \frac{\pi}{0.05} = 62.8\,\text{cm}, \qquad \phi(x) = A\cos\!\left(\frac{\pi x}{62.8}\right).$$
+
 (b) For $\tilde a = 40\,\text{cm}$, $B_g^2 = (\pi/40)^2 = (0.0785)^2 = 0.00617\,\text{cm}^{-2}$. Since $B_g^2 = 0.00617 > B_m^2 = 0.0025$, the geometry forces more curvature than the mix can afford — the slab leaks too much and is **subcritical**. (It is thinner than the critical $62.8\,\text{cm}$, exactly as the picture predicts: left of the crossing.)
 
 **P3.** (a) Plug the product $\phi = A\cos\frac{\pi x}{\tilde a}\cos\frac{\pi y}{\tilde b}\cos\frac{\pi z}{\tilde c}$ into $\nabla^2\phi + B_g^2\phi = 0$. Each second derivative pulls down its own factor: $\partial_{xx}$ gives $-(\pi/\tilde a)^2\phi$, and likewise for $y,z$. So
 $$\nabla^2\phi = -\left[\left(\tfrac{\pi}{\tilde a}\right)^2 + \left(\tfrac{\pi}{\tilde b}\right)^2 + \left(\tfrac{\pi}{\tilde c}\right)^2\right]\phi,$$
 and matching $\nabla^2\phi = -B_g^2\phi$ forces $B_g^2 = (\pi/\tilde a)^2 + (\pi/\tilde b)^2 + (\pi/\tilde c)^2$. This is the defining feature of separation of variables from `pdes`: a product ansatz turns one PDE into independent 1-D eigenvalue problems, and the total eigenvalue is the sum of the parts.
+
 (b) A cube has $\tilde a = \tilde b = \tilde c$, so $B_g^2 = 3(\pi/\tilde a)^2$. Setting this to $B_m^2 = 0.0025$:
 $$\left(\frac{\pi}{\tilde a}\right)^2 = \frac{0.0025}{3} = 8.33\times10^{-4}, \qquad \frac{\pi}{\tilde a} = 0.02887\,\text{cm}^{-1}, \qquad \tilde a = \frac{\pi}{0.02887} = 108.8\,\text{cm}.$$
 A critical cube of this mix is about $109\,\text{cm}$ on a side (extrapolated). Note it needs far more material than the slab: a compact 3-D shape leaks from all sides, raising $B_g^2$, so it must grow to bring $B_g^2$ back down to $B_m^2$.

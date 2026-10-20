@@ -92,6 +92,7 @@ The rule of thumb you'll reuse all course: **NaI to detect and survey; HPGe to i
 <summary>Solutions</summary>
 
 **P1.**
+
 (a) $N = E/w = 1{,}332{,}000\ \text{eV} / 3.0\ \text{eV} = 4.44\times 10^5$ e–h pairs.
 
 (b) $R = \dfrac{2.35}{\sqrt{4.44\times 10^5}} = \dfrac{2.35}{666} = 3.5\times 10^{-3} = 0.35\%.$ (FWHM $\approx 0.0035\times 1332 \approx 4.7\ \text{keV}$ — a good match to the ballpark of real coaxial detectors, which do a bit better still.)
@@ -99,6 +100,7 @@ The rule of thumb you'll reuse all course: **NaI to detect and survey; HPGe to i
 (c) Carrier creation in a semiconductor is *not* fully random — energy conservation correlates successive ionizations — so the true variance is $F\,N$ with the **Fano factor** $F\approx 0.1 < 1$, i.e. sub-Poisson. That shrinks the fluctuation by $\sqrt{F}\approx 0.3$, narrowing the measured peak below the plain Poisson estimate. (This is exactly the refinement Lesson 2.3 makes.)
 
 **P2.**
+
 (a) $N_{ph} = Y\,E = 38\ \text{photons/keV} \times 511\ \text{keV} = 1.94\times 10^4$ scintillation photons.
 
 (b) Photoelectrons: $N_{pe} = \eta\,N_{ph} = 0.22 \times 1.94\times 10^4 \approx 4.3\times 10^3$ photoelectrons. (Consistent with the ~100 eV/photoelectron rule of thumb: $511{,}000/4270 \approx 120\ \text{eV}$ each.)
@@ -106,6 +108,7 @@ The rule of thumb you'll reuse all course: **NaI to detect and survey; HPGe to i
 (c) $R = \dfrac{2.35}{\sqrt{4270}} = \dfrac{2.35}{65.3} = 0.036 = 3.6\%.$ You must use the *smallest* carrier number in the chain — the photoelectrons — because that bottleneck sets the statistics. Using the $1.94\times10^4$ photons would give $R \approx 2.35/\sqrt{19400} = 1.7\%$, roughly $\sqrt{1/\eta}\approx 2.1\times$ too optimistic. The 78% of photons that never make a photoelectron carry no information; only the ones that convert count. (Real NaI at 511 keV is ~$8$–$9\%$ once light-collection non-uniformity is folded in.)
 
 **P3.**
+
 (a) FWHM $= R\times E = 0.0030 \times 1332\ \text{keV} = 4.0\ \text{keV}.$
 
 (b) The two lines are $\Delta E = 2.0\ \text{keV}$ apart, which is *less* than the 4.0 keV FWHM — so by the one-FWHM criterion they are **not resolved**; they'd appear as one slightly broadened peak. (You'd need a lower-energy region or a sharper detector; note resolution improves toward lower $E$ because $R\propto 1/\sqrt{N}$ and $N\propto E$.)

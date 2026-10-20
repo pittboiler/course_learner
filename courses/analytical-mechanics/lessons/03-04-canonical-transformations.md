@@ -112,6 +112,7 @@ Since $K=\omega P$ has no $Q$ in it, $Q$ is **cyclic** and its conjugate $P=\par
 **P3** (a) With $Q=f(q)$ and $P=p/f'(q)$, note $Q$ depends only on $q$ (so $\partial Q/\partial p=0$) and $\partial P/\partial p = 1/f'(q)$:
 $$\{Q,P\}=\frac{\partial Q}{\partial q}\frac{\partial P}{\partial p}-\frac{\partial Q}{\partial p}\frac{\partial P}{\partial q}=f'(q)\cdot\frac{1}{f'(q)}-0\cdot\frac{\partial P}{\partial q}=1.\ \checkmark$$
 The $\partial P/\partial q$ term (which is messy — it involves $f''$) is annihilated because $\partial Q/\partial p=0$; that's the structural reason point transformations are always canonical.
+
 (b) Try $F_2(q,P)=f(q)\,P$. The type-2 rules give
 $$Q=\frac{\partial F_2}{\partial P}=f(q),\qquad p=\frac{\partial F_2}{\partial q}=f'(q)\,P\ \Rightarrow\ P=\frac{p}{f'(q)},$$
 exactly the stated map. So it's canonical by construction, no bracket needed.

@@ -100,8 +100,11 @@ Now let $s\uparrow 1$: the integrands $N s^{N-1}$ increase to $N$, so MCT gives 
 **P1** For each $x\in[0,1]$, $X_n(x)=\frac{n}{n+1}\to 1$, so $X_n\to\mathbf 1_{[0,1]}$ pointwise. And $\mathbb E[X_n]=\frac{n}{n+1}\int_0^1 1\,d\lambda=\frac{n}{n+1}\to 1$. The cleanest justification is **MCT**: the sequence $\frac{n}{n+1}=1-\frac1{n+1}$ is nonnegative and *increasing* up to $\mathbf 1_{[0,1]}$, exactly MCT's hypotheses. (DCT also applies with dominator $Y\equiv 1$, and Bounded Convergence likewise — any of the three works, but MCT is the tightest fit.)
 
 **P2**
+
 (a) **MCT fails because the sequence is not monotone increasing** (nor nonnegative-increasing to the limit): $X_1=\mathbf 1_{(0,1)}$ but $X_2=2\,\mathbf 1_{(0,1/2)}$, and e.g. at $x=0.7$ we have $X_1(0.7)=1>0=X_2(0.7)$ — it goes down, not up. MCT never applied. (The spikes are nonnegative, but monotonicity is the hypothesis that dies.)
+
 (b) **Fatou is satisfied — with a strict inequality, which is allowed.** Here $\liminf_n X_n=0$ (the pointwise limit), so $\mathbb E[\liminf_n X_n]=\mathbb E[0]=0$, while $\liminf_n\mathbb E[X_n]=\liminf_n 1=1$. Fatou asserts $0\le 1$ — true. Fatou only ever promised the "$\le$" direction, so a genuine gap $0<1$ is exactly the escaping mass it permits, not a contradiction.
+
 (c) **DCT fails for lack of an integrable dominator.** Any $Y$ with $Y\ge X_n$ for all $n$ must satisfy $Y(x)\ge \sup_n X_n(x)$. On $(0,1)$, for each $x$ the largest spike still covering $x$ has height $\lceil 1/x\rceil$, so $\sup_n X_n(x)\ge \frac1x$; hence $\mathbb E[Y]\ge\int_0^1\frac{dx}{x}=+\infty$. No integrable $Y$ dominates the whole sequence, so DCT's hypothesis is unmet — even though each individual $X_n$ is integrable. (This is precisely the trap in "Watch out": per-term integrability is not domination.)
 
 **P3** Set $Z_n=X\,\mathbf 1_{\{X>n\}}$. For each fixed $\omega$, since $X(\omega)<\infty$ a.s. (it's integrable, hence finite a.s.), once $n>X(\omega)$ the indicator is $0$, so $Z_n(\omega)\to 0$ a.s. Domination: $0\le Z_n=X\,\mathbf 1_{\{X>n\}}\le X$ for every $n$, and $X$ is integrable by hypothesis. So DCT applies with dominator $Y=X$:

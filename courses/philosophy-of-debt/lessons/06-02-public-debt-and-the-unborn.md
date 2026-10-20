@@ -108,6 +108,7 @@ Catholic social teaching extends the common good to future generations and calls
 **P3 (🔴, optional) *(Exegetical (a) · Evaluative (b).)*** **Apply to a hard case.** Invented: Brisa borrows to pay a large bonus to every family that has a baby in the next five years, financed with 50-year bonds. Demographers expect the bonus to change the timing of most births in those years, so most children born then would not otherwise have existed. The bonds will be serviced by taxes that fall mostly 25 to 50 years from now, when those children are working adults.
 
 (a) In two sentences: why can a taxpayer born under the bonus not make a person-affecting complaint against the bonus programme, and which later taxpayers can?
+
 (b) Brisa's finance minister says: "No one born under the bonus can complain about the bonds, because without the bonus they would not exist." Is the argument sound? Test it against paying for the same bonus with a tax on today's adults, saying what you must assume about who would then be born, and say where your answer stops giving a verdict. Any verdict; 150 words or fewer.
 
 <details>

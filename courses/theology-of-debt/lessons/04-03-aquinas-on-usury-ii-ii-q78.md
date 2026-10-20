@@ -91,13 +91,17 @@ The third case looks like the mirror image of the first two, so what separates t
 **P1 (🟢) *(Exegetical.)*** Four invented arrangements. For each, say whether q.78 calls it usury, and cite the article or reply that decides. **Two sentences each.**
 
 (a) A farmer lends his tractor for the harvest, charges 300 florins, and takes the tractor back.
+
 (b) A merchant lends 5,000 florins interest-free, on condition that the borrower promise to lend *him* 5,000 florins next year if he asks.
+
 (c) A borrower pledges an orchard for a loan of 800 florins. The lender harvests and sells the apples, and still demands the full 800.
+
 (d) A lender makes it known that borrowers who do not bring him a Christmas ham will not get another loan.
 
 **P2 (🟡) *(Exegetical (a) · Formal (b).)*** An invented case. Over ten years Marco, a usurer by profession, collected **1,200 florins** of usury from several borrowers. He bought a shop with it, which has since earned **3,000 florins** of profit. He also took Bettina's vineyard as usury, and has sold **400 florins** of wine from it. One borrower, Giulio, had to sell an ox **150 florins** below its just price because Marco was holding the usury he had paid. Marco repents.
 
 (a) Using a.3 and its replies, say which of these Marco must restore and which he may keep, with the reason for each. **100 words or fewer.**
+
 (b) Compute the cash Marco owes, and say what else he must hand over.
 
 **P3 (🔴) *(Exegetical.)*** An **invented** parish-bulletin paragraph, not the words of any real person:

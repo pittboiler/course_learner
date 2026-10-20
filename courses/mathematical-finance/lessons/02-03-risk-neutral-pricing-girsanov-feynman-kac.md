@@ -82,7 +82,9 @@ a driftless Itô integral — $Y_t = e^{-rt}V(t,S_t)$ is a **$Q$-martingale**. T
 **P2 (🟡)** With the same $Q$-dynamics $dS = rS\,dt + \sigma S\,dW^Q$, show directly (via Itô) that the discounted price $\tilde S_t = e^{-rt}S_t$ satisfies $d\tilde S_t = \sigma\tilde S_t\,dW^Q_t$ and is therefore a $Q$-martingale. State in one sentence why this is the continuous-time version of the EMM condition from [1.4](01-04-fundamental-theorem-asset-pricing.md).
 
 **P3 (🔴)** Feynman–Kac both directions.
+
 (a) Let $u(t,x)$ solve $u_t + \tfrac12\sigma^2 u_{xx} - r\,u = 0$ on $t<T$ with $u(T,x) = x^2$. Write $u(t,x)$ as an expectation over a diffusion $X$, identify that diffusion, and evaluate the expectation in closed form. (Here $X$ has zero drift and constant volatility $\sigma$.)
+
 (b) Conversely, express $w(t,x) = \mathbb{E}\big[e^{-r(T-t)}\cos(X_T)\mid X_t=x\big]$, where $dX = \sigma\,dW$, as the solution of a terminal-value PDE — just write the PDE and terminal condition, don't solve it.
 
 <details>

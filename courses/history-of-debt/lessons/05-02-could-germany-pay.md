@@ -81,7 +81,9 @@ So the same country was called able to pay in 1929 and unable in 1931 with no ch
 **P1 (🟢) *(Formal.)*** The figures below are **illustrative** — right order of magnitude for the Dawes years, not historical data. In one year, in billions of gold marks: Germany pays reparations $R = 2.0$; Germany receives new long-term foreign lending $L = 1.6$ (overwhelmingly American); the Allied governments pay $W = 1.0$ to the United States on war debts. German exports are 9.0 and German national income is 60.0.
 
 (a) Compute the net flow for each of the three parties (Germany, the Allies, the United States), and check that the three sum to zero.
+
 (b) Express Germany's gross reparations and its *net* outflow as percentages of national income, and gross reparations as a percentage of exports. Round to one decimal place.
+
 (c) Now set $L = 0$, holding $R$ and $W$ fixed. By what factor does Germany's net outflow rise? What extra trade surplus, as a percentage of exports, must Germany generate to transfer the same $R$? One sentence on what this implies about "capacity to pay."
 
 **P2 (🟡) *(Exegetical.)*** Article 34 of the 1953 London Agreement provides for consultation if Germany has difficulty meeting its obligations, and says that in that case:

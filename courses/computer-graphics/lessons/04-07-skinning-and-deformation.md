@@ -87,18 +87,27 @@ Rigs avoid it by adding **twist bones** along the forearm: with three segments e
 ## Problems
 
 **P1 (🟢)** A three-joint chain: $L_1 = R_z(30°)$ at the root (origin); $L_2 = T(2,0,0)\,R_z(45°)$; $L_3 = T(1.5,0,0)$ (the end joint, no rotation). In the bind pose the chain lies straight along $x$ with joints at $x = 0, 2, 3.5$.
+
 (a) Compute the global positions of joints 2 and 3.
+
 (b) What direction (angle from $x$) does the last segment point?
+
 (c) A vertex rigidly bound to joint 3 sits at $(3.5,\ 0.1,\ 0)$ in the bind pose. Where is it now?
 
 **P2 (🟡)** Using Example 1's arm (elbow at $(2,0,0)$, bent $90°$ about $z$):
+
 (a) Skin the vertex $(2,\ -0.2,\ 0)$ on the **outside** of the elbow with weights $\tfrac12, \tfrac12$. How far is it from the elbow?
+
 (b) Skin $(2,\ 0.2,\ 0)$ with weights $0.3$ (upper) and $0.7$ (lower). Distance?
+
 (c) Where would a rigid rotation about the elbow by $45°$ — the "ideal halfway" — have put $(2,\ 0.2,\ 0)$? Compare with Example 1's blended position.
 
 **P3 (🔴)** (a) Derive the radius factor $\cos(\theta/2)$ for a vertex at distance $r$ from a joint axis, weights $\tfrac12, \tfrac12$, relative rotation $\theta$.
+
 (b) At what twist angle does the skin shrink to half its radius?
+
 (c) A rig must support a $150°$ forearm twist with no more than 10% radius loss at any blend. What is the smallest number of equal twist segments that achieves this?
+
 (d) With weights $w$ and $1 - w$ instead, find the radius factor as a function of $w$ and $\theta$, and show it is smallest at $w = \tfrac12$.
 
 <details>
@@ -141,7 +150,9 @@ Radius factor $\sqrt{1 - 2w(1-w)(1 - \cos\theta)}$. Since $w(1-w)$ is largest at
 ## Flashback
 
 **From Lesson 4.5 (subdivision):** (a) An octahedron has $V = 6$, $E = 12$, $F = 8$ triangles. Give $V$, $E$, $F$ after one Catmull–Clark step, and compare with a cube after one step.
+
 (b) On a flat quad grid, a single vertex is raised to height 2. What is its height after one Catmull–Clark step?
+
 (c) A 500-quad character cage is subdivided three levels. How many quads?
 
 <details>

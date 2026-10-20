@@ -116,8 +116,11 @@ The symmetric error is worth naming because it is the same mistake: someone who 
 **P1 (🟢) *(Exegetical.)*** For each claim, say (i) whether it belongs to public revelation, and (ii) if so, whether it is a mystery strictly so called. One sentence each.
 
 (a) God is one and is the creator of all things.
+
 (b) The one God is Father, Son and Holy Spirit.
+
 (c) Christ is truly present under the eucharistic species.
+
 (d) Mary appeared at Fatima in 1917.
 
 **P2 (🟡) *(Exegetical (a) · Evaluative (b).)*** An invented paragraph from a diocesan formation handout:
@@ -129,7 +132,9 @@ The symmetric error is worth naming because it is the same mistake: someone who 
 **P3 (🔴, optional) *(Exegetical.)*** For each, name which charism is at work — revelation, inspiration, both, or neither — and say whether any *new* public revelation is involved. One sentence each, then one sentence on what the three cases together show.
 
 (a) The author of 2 Maccabees explains in his preface that he has condensed a longer five-volume history by another writer into one book.
+
 (b) Paul tells the Galatians that the gospel he preaches came to him not from men but by revelation (Galatians 1:11–12).
+
 (c) In 1950 a pope defines the bodily Assumption of Mary.
 
 <details>

@@ -113,6 +113,7 @@ Now nudge the constant term by $\delta = +10^{-6}$ (a relative change of $10^{-6
 <summary>Solutions</summary>
 
 **P1.**
+
 (a) $f(x)=x^n \Rightarrow f'(x)=n x^{n-1}$, so
 $$\kappa = \left|\frac{x\cdot n x^{n-1}}{x^n}\right| = \left|\frac{n x^n}{x^n}\right| = n.$$
 Constant $n$ for all $x\neq 0$: well-conditioned for modest $n$. Squaring ($n=2$) doubles relative error, cubing triples it — never dangerous, but it explains why raising to a large power slowly erodes precision.
@@ -122,6 +123,7 @@ $$\kappa = \left|\frac{x\cdot(1/x)}{\ln x}\right| = \left|\frac{1}{\ln x}\right|
 Ill-conditioned as $x\to 1$, where $\ln x\to 0$ and $\kappa\to\infty$ (e.g. $x=1.001$ gives $\ln x\approx 9.995\times10^{-4}$, $\kappa\approx 1000$). Reason: near $x=1$, $\ln x\approx x-1$, so evaluating $\ln$ *is* a subtraction of near-equal quantities — the cancellation archetype again.
 
 **P2.**
+
 (a) $f(x)=e^x-1$, $f'(x)=e^x$, so $\kappa(x)=\left|\dfrac{x e^x}{e^x-1}\right|$. Expand for small $x$: $e^x-1 = x+\tfrac{x^2}{2}+\cdots$ and $x e^x = x + x^2 + \cdots$, so
 $$\kappa(x) = \frac{x + x^2 + \cdots}{x + \tfrac{x^2}{2}+\cdots} \xrightarrow{\;x\to0\;} 1.$$
 The problem is well-conditioned ($\kappa\approx 1$).
@@ -131,6 +133,7 @@ The problem is well-conditioned ($\kappa\approx 1$).
 (c) Use the built-in `expm1(x)` (designed to be backward stable here), or the truncated series $x + \tfrac{x^2}{2}+\tfrac{x^3}{6}$, which for tiny $x$ is essentially $x$ to full accuracy — no cancellation.
 
 **P3.**
+
 (a) $g'(x)=3x^2-2$. At $x^*\approx 2.0946$: $x^{*2}\approx 4.3874$, so $g'(x^*)\approx 3(4.3874)-2 = 13.162 - 2 = 11.162$. Root condition number $= 1/|g'(x^*)| \approx 1/11.162 \approx 0.0896$. Since this is well below $1$, the root-finding problem is **well-conditioned**: a perturbation $\delta$ to $g$ moves the root by only $\approx 0.09\,\delta$ — the function crosses the axis steeply, so the crossing point barely budges.
 
 (b) By the master rule, forward error $\lesssim \kappa\times$ backward error with $\kappa\approx 0.09$. Bisection's residual (how close $g$ is to $0$ at its returned point) plays the role of backward error, and it drives that residual to rounding level; multiplied by the tiny $\kappa$, the *forward* error in the root is tiny too. Slow convergence costs iterations, not accuracy. For Example 2's near-double root, $g'(x^*)\approx \pm 2\times10^{-3}$ gives root condition $\approx 500$, and a further squaring effect makes coefficient perturbations of size $\delta$ move the root like $\sqrt{\delta}$ — so a backward error of $\varepsilon_{\text{mach}}$ still yields a forward error near $\sqrt{\varepsilon_{\text{mach}}}\approx 10^{-8}$. The problem, not the method, caps the achievable accuracy.

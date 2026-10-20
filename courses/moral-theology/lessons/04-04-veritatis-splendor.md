@@ -81,8 +81,11 @@ The same logic governs the [fundamental option](../reference.md#fundamental-opti
 **P1 (🟢)** *(Exegetical.)* Assign each claim its rung on the [ladder](../../fundamental-theology/lessons/04-04-the-ladder-of-doctrinal-authority.md), **name the act that fixes it**, and say in one clause what is disputed, if anything. **Two sentences per claim.**
 
 (a) There exist acts which, by reason of their object, are always gravely wrong, whatever the intention and circumstances.
+
 (b) Fornication is illicit.
+
 (c) The object that VS 78 says is grasped "from the perspective of the acting person" should be specified by Rhonheimer's intention-centred account, not by Long's, which gives more weight to the natural teleology of the act.
+
 (d) *Veritatis Splendor*'s teaching on intrinsically evil acts is an *ex cathedra* definition.
 
 **P2 (🟡)** *(Exegetical.)* An **invented** magazine paragraph, not the words of any real person:
@@ -142,7 +145,9 @@ Name **four** misreportings. For each, give the section of the encyclical that c
 **From Lesson [4.2](04-02-double-effect-and-cooperation-as-catholic-method.md) (Double effect and cooperation as Catholic method):** *(Exegetical, apply to a case.)* Three agents, invented for the problem. For each, say which tool applies: **double effect** (an evil effect of my own act) or **cooperation** (another agent's evil, which my act helps). Then classify: direct or indirect; or principal agent, formal, or material (immediate or mediate, proximate or remote). Finally say whether the act is licit, illicit, or licit only given a proportionate reason. **Two sentences each.**
 
 (a) To stop a wildfire reaching a town, a fire chief burns a firebreak through open scrub, foreseeing that the smoke will ruin a neighbouring vineyard's harvest.
+
 (b) A notary is told by his client that the date on a deed has been falsified to cheat the client's siblings of an inheritance. To keep the client's business, he certifies the date as genuine, telling the client he disapproves.
+
 (c) A courier delivers sealed envelopes for dozens of law offices. She has heard a rumour that one envelope she carries this week holds that deed, on its way to be filed.
 
 <details>

@@ -92,8 +92,11 @@ Use $\beta=0.0065$, $\Lambda=5\times10^{-5}\,\text{s}$, $\bar\lambda=0.08\,\text
 <summary>Solutions</summary>
 
 **P1** Dollars $=\rho/\beta$.
+
 (a) $0.0026/0.0065=0.40=\$0.40$ — **delayed-supercritical** (below a dollar; runs on delayed neutrons).
+
 (b) $0.0065/0.0065=1.00=\$1.00$ — **exactly prompt critical** ($\rho=\beta$, the threshold).
+
 (c) $0.0072/0.0065=1.108\approx\$1.11$ — **prompt supercritical** (over a dollar; prompt runaway).
 
 *Check.* Only (c) has $\rho>\beta$, so only (c) sits in the uncontrollable regime — consistent with the cliff in the figure. ✓

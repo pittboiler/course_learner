@@ -91,6 +91,7 @@ Note the carbonyl shift did double duty: $1715\ \mathrm{cm^{-1}}$ in IR *and* $2
 <summary>Solutions</summary>
 
 **P1**
+
 **(a) Acetone, $\ce{(CH3)2CO}$.** The two methyls are equivalent by symmetry (mirror plane through the $\ce{C=O}$), so they share one peak; the carbonyl is its own. → **2 signals**. The carbonyl carbon is a ketone, so ~$206\ \mathrm{ppm}$ (the two $\ce{CH3}$ carbons sit ~$30$). DEPT would show one $\ce{CH3}$ peak and one quaternary (the $\ce{C=O}$, invisible in DEPT).
 
 **(b) *para*-xylene.** Number the ring: the two $\ce{CH3}$ groups are equivalent; the two ring carbons bearing methyls (ipso) are equivalent; the four remaining aromatic C–H carbons are all equivalent by the molecule's symmetry. So the distinct environments are: $\ce{CH3}$, ipso aromatic C, and C–H aromatic C → **3 signals** (~$21$ for $\ce{CH3}$, and two aromatic peaks ~$134$ and ~$129$). No carbonyl.

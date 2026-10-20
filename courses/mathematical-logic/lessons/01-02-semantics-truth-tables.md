@@ -128,6 +128,7 @@ The final column is all $T$, so the formula is a **tautology**. Since a bicondit
 **P2** It is **not** satisfiable — it is a **contradiction**. Chase the conditionals instead of tabulating: for the conjunction to be true, every conjunct must be true. From $p$ (true) and $p \to q$ (true), the conditional's rule forces $q = T$ (if $q$ were $F$, then $p\to q$ would be $T \to F = F$). From $q = T$ and $q \to r$ (true), the same rule forces $r = T$. But the conjunct $\neg r$ demands $r = F$. No valuation can have $r$ both $T$ and $F$, so *no* valuation makes all four conjuncts true — the formula is false in all 8 rows, i.e. a contradiction.
 
 **P3**
+
 *(a)* ($\Rightarrow$) Suppose $\varphi$ is a tautology: $v(\varphi) = T$ for every $v$. By the negation rule, $v(\neg\varphi) = F$ for every $v$, so $\neg\varphi$ is a contradiction. ($\Leftarrow$) Suppose $\neg\varphi$ is a contradiction: $v(\neg\varphi) = F$ for every $v$. The negation rule says $v(\neg\varphi) = F \iff v(\varphi) = T$, so $v(\varphi) = T$ for every $v$; thus $\varphi$ is a tautology. $\blacksquare$
 
 *(b)* ($\Rightarrow$) Suppose $\varphi$ is satisfiable: there is some $v_0$ with $v_0(\varphi) = T$. Then $v_0(\neg\varphi) = F$, so $\neg\varphi$ is false under at least one valuation — hence $\neg\varphi$ is not a tautology. ($\Leftarrow$) Suppose $\neg\varphi$ is not a tautology: some $v_0$ has $v_0(\neg\varphi) = F$, which means $v_0(\varphi) = T$, so $\varphi$ is satisfiable. $\blacksquare$

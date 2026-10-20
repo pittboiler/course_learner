@@ -85,7 +85,9 @@ Both hold, so $f$ is bijective, and the $x$ we solved for *is* the inverse: $f^{
 **P1 (🟢)** Let $f : \mathbb{R} \to \mathbb{R}$, $f(x) = 3x - 5$. Prove $f$ is injective and surjective (hence bijective), then find $f^{-1}$ and verify $f \circ f^{-1} = \mathrm{id}_{\mathbb{R}}$.
 
 **P2 (🟡)** Let $f : \mathbb{R} \to \mathbb{R}$, $f(x) = x^2$.
+
 (a) Prove $f$ is **not** injective and **not** surjective (a counterexample suffices for each).
+
 (b) State a restriction of the domain and codomain that makes $f$ a bijection, and prove your restricted function is injective and surjective.
 
 **P3 (🔴, optional)** Let $f : A \to B$ and $g : B \to C$ both be injective. Prove that the composition $g \circ f : A \to C$ is injective.
@@ -98,6 +100,7 @@ $$3x_1 - 5 = 3x_2 - 5 \implies 3x_1 = 3x_2 \implies x_1 = x_2.$$
 So $f$ is injective. *Surjective.* Take arbitrary $y \in \mathbb{R}$; solve $3x - 5 = y$ to get $x = \frac{y+5}{3} \in \mathbb{R}$, and check $f\!\left(\frac{y+5}{3}\right) = 3\cdot\frac{y+5}{3} - 5 = (y+5) - 5 = y.$ So $f$ is surjective, hence bijective. The preimage formula is the inverse: $f^{-1}(y) = \frac{y+5}{3}$. Verify: $f\big(f^{-1}(y)\big) = 3\cdot\frac{y+5}{3} - 5 = y$, so $f \circ f^{-1} = \mathrm{id}_{\mathbb{R}}$ (and $f^{-1}(f(x)) = \frac{(3x-5)+5}{3} = x$ too). $\blacksquare$
 
 **P2**
+
 (a) *Not injective:* $f(-1) = 1 = f(1)$ but $-1 \ne 1$ — two distinct inputs, one output. *Not surjective:* the target $y = -1 \in \mathbb{R}$ has no preimage, since $x^2 \ge 0 > -1$ for every real $x$, so $f(x) = -1$ is impossible.
 
 (b) Restrict to $f : [0,\infty) \to [0,\infty)$, $f(x) = x^2$. *Injective:* assume $x_1^2 = x_2^2$ with $x_1, x_2 \ge 0$. Then $x_1^2 - x_2^2 = (x_1 - x_2)(x_1 + x_2) = 0$, so $x_1 = x_2$ or $x_1 = -x_2$; but both are $\ge 0$, so the second forces $x_1 = x_2 = 0$ as well. Either way $x_1 = x_2$. *Surjective:* take arbitrary $y \ge 0$; then $x = \sqrt{y}$ satisfies $x \ge 0$ (so it's in the restricted domain) and $f(\sqrt{y}) = (\sqrt{y})^2 = y$. Both hold, so the restriction is a bijection (with inverse $f^{-1}(y) = \sqrt{y}$). $\blacksquare$

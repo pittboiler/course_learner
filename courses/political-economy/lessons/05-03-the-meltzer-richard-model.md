@@ -99,17 +99,21 @@ Suppose citizens expect $t^e = 1/5$. Earnings are as in Example 1, with mean $6.
 **P1 (🟢)** *(Formal (a)–(b).)* Five types have squared wages $w_i^2 = 2, 4, 5, 8, 16$, with utility $c - \ell^2/2$, $c = (1-t)w\ell + T$ and a balanced-budget grant, as in the lesson.
 
 (a) Find each type's ideal tax rate. Which type's utility is convex in $t$, and why is that type still single-peaked?
+
 (b) Find the majority-rule rate and the grant it pays. Confirm it by vote counts against $0$, $3/10$ and $5/12$.
 
 **P2 (🟡)** *(Formal (a)–(b) · Exegetical (c).)* Start from P1's economy.
 
 (a) A plant closure drives the poorest type's $w^2$ from 2 to 0; nothing else changes. Find the new $\rho$ and $t^*$.
+
 (b) Instead, training raises the median type's $w^2$ from 5 to 6. Find the new $\rho$ and $t^*$.
+
 (c) An invented memo: "With the bottom fifth's earnings wiped out, inequality has soared, so the electorate will now vote for more redistribution." In 80 words or fewer: what does the model predict, which single statistic decides it, and what would have to change about the decisive voter for the memo to be right?
 
 **P3 (🔴, optional)** *(Formal.)* Generalize the effort cost to $\ell^{1 + 1/\varepsilon}/(1 + 1/\varepsilon)$ with $\varepsilon > 0$, so labor is $\ell_i = ((1-t)w_i)^{\varepsilon}$.
 
 (a) Write $V_i(t)$ and prove the profile is single-crossing in $w_i$.
+
 (b) Show the median's utility is single-peaked when $\rho > 1$, find $t^*$ in terms of $\rho$ and $\varepsilon$, and prove $t^* < 1/(1 + \varepsilon)$, the revenue peak. What happens as $\varepsilon \to 0$?
 
 <details>

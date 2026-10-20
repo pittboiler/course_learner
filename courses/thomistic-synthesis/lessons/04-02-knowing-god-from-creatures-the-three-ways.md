@@ -92,6 +92,7 @@ The real question between the two traditions is narrower than "how apophatic". I
 > Reply to Objection 2. God is known by natural knowledge through the images of His effects.
 
 (a) Which words in the first reply fix the limit on natural knowledge of God, and what exactly is conceded on the near side of that limit?
+
 (b) The second reply answers an objection that we cannot imagine God. What does it claim about the route natural knowledge takes, and which premise of this lesson's argument does it confirm? Two sentences per part.
 
 **P2 (🟡) *(Exegetical.)*** An invented paragraph from an adult-education handout (nobody wrote this; it is built for the problem):
@@ -99,10 +100,13 @@ The real question between the two traditions is narrower than "how apophatic". I
 > "Since Aquinas says we cannot know what God is, we should be honest about what our God-talk amounts to. Calling God 'good' does not tell us anything positive about him; it just rules something out, the way calling a rock 'non-musical' does. And the reason we can argue to God at all is that science still cannot say why there is a universe rather than nothing — the day it can, the argument goes away."
 
 (a) Name the two distinct errors, quoting the words that carry each.
+
 (b) For each, give the step of the circuit or the premise of the argument that blocks it, and cite the article. 150 words or fewer in total.
 
 **P3 (🔴, optional) *(Exegetical.)***
+
 (a) Assign the level of each of these three claims and name the act or text that fixes it, without overstating in either direction: (i) that the one true God can be known with certainty by the natural light of human reason from created things; (ii) that Aquinas's Five Ways are sound demonstrations of it; (iii) that the divine names are correctly formed by causality, remotion and eminence.
+
 (b) A student objects that eminence is "causality plus negation plus an adverb" — that step 3 adds no content. Using the last clause of the Source, say in two sentences what step 3 asserts that steps 1 and 2 do not.
 
 <details>

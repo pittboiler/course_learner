@@ -150,8 +150,11 @@ FROM   member a JOIN member b ON a.city = b.city AND a.mid < b.mid;
 **P1 (🟢)** Using `publisher(pub_id, name, city)` with three rows RVN, HOL, KIN and `book(isbn, title, pub_id, year, price)` with five rows — three with `pub_id` RVN, two with HOL, none with KIN — give the exact row count of each query.
 
 (a) `SELECT * FROM publisher p JOIN book b ON p.pub_id = b.pub_id;`
+
 (b) `SELECT * FROM publisher p LEFT JOIN book b ON p.pub_id = b.pub_id;`
+
 (c) `SELECT * FROM book b LEFT JOIN publisher p ON p.pub_id = b.pub_id;`
+
 (d) `SELECT * FROM publisher p, book b;`
 
 **P2 (🟡)** A team runs this query to find members who have never borrowed anything, against `member` (4 rows: Ada, Bram, Cyd, Devi) and `loan(mid, isbn, taken, returned)` (9 rows; Devi appears in none; the `returned` column is NULL for three loans that are still out).
@@ -165,8 +168,11 @@ WHERE  l.returned IS NULL;
 Three loans are still out: one held by Ada and two held by Cyd.
 
 (a) Give the exact row count and the names returned, in the order the join produces them.
+
 (b) State the intended answer.
+
 (c) Name the defect in one sentence, and give the corrected query.
+
 (d) The team's next attempt uses `WHERE l.mid IS NULL`. Does it work? Answer yes or no with the reason.
 
 **P3 (🔴, optional)** You have `staff(sid, name, manager_sid)` where `manager_sid` is a foreign key to `staff.sid` and is NULL for the one person with no manager.
@@ -179,8 +185,11 @@ Three loans are still out: one held by Ada and two held by Cyd.
 | 4 | Umar | 2 |
 
 (a) Write a query listing every employee's name beside their manager's name, including the employee who has none, and give its exact output.
+
 (b) Give the row count if `JOIN` is used instead of `LEFT JOIN`, and name the missing row.
+
 (c) Write a query returning the names of employees who manage nobody, and give its output. State which of the two patterns from this lesson you used and why the other one does not apply.
+
 (d) Someone proposes finding the top of the hierarchy with `SELECT name FROM staff WHERE manager_sid = NULL`. Give its row count and the one-word fix.
 
 <details>
@@ -272,7 +281,9 @@ $$\pi_{\text{title}}\Bigl(\sigma_{\text{price} > 20 \,\wedge\, \text{city} = \te
 with $|\text{book}| = 40$ and $|\text{publisher}| = 8$. Each book has exactly one publisher. Two publishers are in Bristol; 12 books cost more than 20.
 
 (a) Give the size of each intermediate when the expression is evaluated as written, unfolding the natural join into a product followed by a selection.
+
 (b) Rewrite it with both selections pushed to their leaves, and give the new intermediate sizes.
+
 (c) Give the ratio of the largest intermediate in (a) to the largest in (b).
 
 <details>

@@ -106,22 +106,31 @@ Merging: $A_{\text{merged}} = \{(x,t_1), (x,t_2)\}$ and $R_{\text{merged}} = \{(
 **P1 (🟢)** Four replicas $(A,B,C,D)$ run a G-Counter.
 
 (a) Replica states are $(2,0,1,0)$, $(0,3,0,0)$ and $(2,0,0,4)$. Give the merged state and its value.
+
 (b) State what the merged state and value would be if the same three states were merged in the reverse order.
+
 (c) Replica $A$ receives $(0,3,0,0)$ twice. Give the resulting state after both merges, starting from $(2,0,1,0)$.
+
 (d) A developer proposes storing a single integer per replica and merging by taking the larger integer. Give a two-replica execution where this loses an increment.
 
 **P2 (🟡)** A PN-Counter is a pair of G-Counters $(P, N)$ over three replicas.
 
 (a) Replica $A$ holds $P = (4,0,0)$, $N = (1,0,0)$. Give its value.
+
 (b) Replica $B$ holds $P = (0,2,0)$, $N = (0,3,0)$. Give its value, and state what it means that this value is negative.
+
 (c) Give the merged state of $A$ and $B$ and its value.
+
 (d) State whether "this PN-Counter never drops below zero" can be enforced by the CRDT, with the reason.
 
 **P3 (🔴, optional)** A collaborative shopping list is replicated with an OR-Set.
 
 (a) Replica $A$ adds `milk` with tag $t_1$ and replica $B$ adds `milk` with tag $t_2$, concurrently. Give the merged state and the value.
+
 (b) $A$ then removes `milk`, having seen only its own add. Give $A$'s add-set and remove-set, then the state after merging with $B$, and the value.
+
 (c) State which policy — add-wins or remove-wins — the OR-Set implements, and give the smallest change to the *remove* operation that would implement the other.
+
 (d) The team wants the list to hold at most 20 items, enforced across all replicas. State whether an OR-Set can enforce this, and give the one sentence that decides it.
 
 <details>
@@ -203,7 +212,9 @@ This is P2(d) again in a different costume, and the pattern is worth carrying: *
 **From Lesson 2.3 (eventual consistency and anti-entropy):** A key is replicated at four nodes $(A,B,C,D)$. Node $D$ receives two versions carrying version vectors $(2,1,0,1)$ and $(2,1,1,0)$.
 
 (a) State whether one supersedes the other, and what $D$ stores.
+
 (b) A client reads, merges the values by hand, and writes the result at $D$. Give the version vector of that write.
+
 (c) A third version now arrives carrying $(2,1,0,1)$. State what $D$ does with it.
 
 <details>

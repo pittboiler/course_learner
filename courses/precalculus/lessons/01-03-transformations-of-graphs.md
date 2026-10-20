@@ -86,8 +86,11 @@ That's the parent $2^t$ shifted **right 3** (the late start) and **compressed ve
 **P2** Two moves on $y=x^2$: the factor $\tfrac12$ is a **vertical compression by $\tfrac12$** (heights halved), and the minus sign is a **reflection across the $x$-axis** (flipped upside down). No horizontal shift or stretch. At $x=4$: the parent gives $4^2=16$; apply $-\tfrac12$ to the *output*, so $y=-\tfrac12(16)=\boxed{-8}$.
 
 **P3**
+
 (a) $f(-x)=(-x)^3-4(-x)=-x^3+4x=-(x^3-4x)=-f(x)$ → **odd**; graph has $180^\circ$ rotational symmetry about the origin.
+
 (b) $g(-x)=(-x)^2+(-x)=x^2-x$. This is neither $g(x)=x^2+x$ nor $-g(x)=-x^2-x$ → **neither**; no axis/origin symmetry.
+
 (c) $h(-x)=\tfrac{1}{(-x)^2}=\tfrac{1}{x^2}=h(x)$ → **even**; graph is symmetric across the $y$-axis.
 
 </details>

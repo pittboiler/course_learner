@@ -79,6 +79,7 @@ Trace–determinant: $\tau = -2$, $\Delta = 2$, discriminant $\tau^2 - 4\Delta =
 ## Problems
 
 **P1 (🟢)** Classify the origin (type **and** stability) for each system, using the eigenvalues:
+
 (a) $A = \begin{bmatrix} -2 & 0 \\ 0 & -3 \end{bmatrix}$  (b) $A = \begin{bmatrix} 1 & 0 \\ 0 & -1 \end{bmatrix}$.
 
 **P2 (🟡)** A system has eigenvalues $\lambda = -1 \pm 2i$. (a) What type is the origin, and is it stable? (b) One matrix with these eigenvalues is $A = \begin{bmatrix} -1 & -2 \\ 2 & -1 \end{bmatrix}$. Confirm your answer with the trace–determinant test (compute $\tau$, $\Delta$, and the discriminant).

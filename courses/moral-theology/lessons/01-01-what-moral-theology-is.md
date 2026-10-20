@@ -70,9 +70,13 @@ The shape is the argument. The end comes first. Sin sits among the *intrinsic pr
 ## Problems
 
 **P1 (🟢)** *(Exegetical)* Place each question in its block of ST I-II (give the question range) and name this course's lesson that treats it. One line each.
+
 (a) Does acting out of fear make an act less voluntary?
+
 (b) Is happiness found in honour or in wealth?
+
 (c) Can a charity poured in by God coexist with a habit of sin acquired over years?
+
 (d) Does a civil law that commands something unjust bind in conscience?
 
 **P2 (🟡)** *(Exegetical)* An **invented** parish handout, written for this problem:
@@ -82,9 +86,13 @@ The shape is the argument. The end comes first. Sin sits among the *intrinsic pr
 (a) Name the conception of freedom the handout assumes, in Pinckaers's terms, and say what it makes the centre of morality. (b) Name two further errors, one about what moral theology is and one about what the Council did, each with the text that corrects it. (c) Name one thing the handout gets right. 150 words or fewer.
 
 **P3 (🔴)** *(Exegetical)* Assign each claim a rung on the ladder, or say it is off the ladder, and name the act (or the absence of one) that fixes it. One sentence each.
+
 (a) By divine law, a penitent must confess every mortal sin remembered after diligent examination, with the circumstances that change its species.
+
 (b) Moral theology should be renewed, drawing more on scripture and showing the loftiness of the Christian calling.
+
 (c) Ockham's theory of freedom set moral theology on the road to a morality of obligation.
+
 (d) There is no true freedom except in the service of what is good.
 
 <details>

@@ -102,7 +102,9 @@ Exactly the capacitor energy density $\tfrac12\varepsilon_0 E^2$ — recovered f
 **P2 (🟡)** Derive $\partial_\mu F^{\mu\nu} = \mu_0 J^\nu$ from $\mathcal L = -\tfrac{1}{4\mu_0}F_{\alpha\beta}F^{\alpha\beta} - J^\alpha A_\alpha$ by applying the field Euler–Lagrange equation for $A_\nu$. You will need $\dfrac{\partial(F_{\alpha\beta}F^{\alpha\beta})}{\partial(\partial_\mu A_\nu)} = 4F^{\mu\nu}$ — derive it, using the antisymmetry of $F$.
 
 **P3 (🔴, optional)** For the tensor $T^{\mu\nu} = \tfrac{1}{\mu_0}[F^{\mu\alpha}F^{\nu}{}_{\alpha} - \tfrac14\eta^{\mu\nu}F_{\alpha\beta}F^{\alpha\beta}]$:
+
 (a) Verify $T^{00} = \tfrac12(\varepsilon_0 E^2 + B^2/\mu_0)$, the standard EM energy density.
+
 (b) Verify the tensor is traceless, $T^{\mu}{}_{\mu} = 0$, and say in one sentence why that reflects the photon being massless.
 
 <details>

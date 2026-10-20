@@ -137,8 +137,11 @@ returns both Leeds publishers, because `'Leeds' = 'Leeds'` is true and `true OR 
 | B5 | Ember | RVN | 2023 | NULL |
 
 (a) `SELECT year FROM book;`
+
 (b) `SELECT DISTINCT year FROM book;`
+
 (c) `SELECT title FROM book WHERE price BETWEEN 14 AND 22;`
+
 (d) `SELECT title FROM book WHERE title LIKE '%a%';`
 
 **P2 (🟡)** A colleague reports that these two queries return 3 rows and 1 row respectively against the table above, and concludes the table has 4 rows.
@@ -149,15 +152,21 @@ SELECT title FROM book WHERE price >= 25;
 ```
 
 (a) Confirm the two row counts.
+
 (b) Name the row that appears in neither result, and give the truth value of each predicate for it.
+
 (c) Rewrite the *first* query so that the two results do partition the table, and state the new row counts.
+
 (d) A different colleague proposes `WHERE NOT (price >= 25)` as the fix for the first query. Give its row count and say whether it works.
 
 **P3 (🔴, optional)** The `member` table has `city` values Leeds, Bristol, Leeds, NULL for members 1 to 4.
 
 (a) Give the row count of `SELECT name FROM member WHERE city NOT IN ('Bristol');` and name the members returned.
+
 (b) Give the row count of `SELECT name FROM member WHERE city NOT IN (SELECT city FROM member WHERE mid = 2);` and explain the difference from (a), if any.
+
 (c) Now consider `SELECT name FROM member WHERE city NOT IN (SELECT city FROM member WHERE mid IN (2, 4));`. Give the row count and explain it by unfolding the shorthand for member 1.
+
 (d) State a general rule of the form "`NOT IN` returns a row only when …" that covers all three cases.
 
 <details>

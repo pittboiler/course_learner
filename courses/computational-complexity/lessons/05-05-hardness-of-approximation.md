@@ -109,8 +109,11 @@ Note what is *not* ruled out: $0.99$ itself is untouched, and indeed [5.4](05-04
 **P2 (🟡)** For each problem, say whether its approximability threshold is known exactly, known only up to a band, or known to be unachievable at any constant, with the relevant numbers.
 
 (a) MAX-3SAT.
+
 (b) MAX-CUT.
+
 (c) SET-COVER.
+
 (d) General (non-metric) travelling salesman.
 
 **P3 (🔴, optional)** (a) Prove the proposition that NP-hardness of $\text{GAP-3SAT}_{c,s}$ rules out approximation better than $s/c$, handling both the yes and the no case explicitly. (b) Explain in two sentences why the promise — excluding instances between $s$ and $c$ — is essential, and what the algorithm is permitted to do on excluded instances. (c) Håstad's verifier has completeness $1-\delta$ rather than 1. State what the corresponding gap problem is and why the resulting hardness is for $7/8+\varepsilon$ rather than $7/8$.

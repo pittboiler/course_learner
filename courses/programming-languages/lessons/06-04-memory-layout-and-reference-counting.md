@@ -102,22 +102,31 @@ The first and second differ by one character and by an allocation. The fourth is
 **P1 (🟢)** For each, say whether the value escapes and therefore where it is allocated.
 
 (a) `fn a() -> i32 { let v = vec![1,2,3]; v.len() as i32 }`
+
 (b) `fn b() -> Vec<i32> { let v = vec![1,2,3]; v }`
+
 (c) `fn c(g: &mut Vec<Vec<i32>>) { let v = vec![1,2,3]; g.push(v); }`
+
 (d) `fn d() -> impl Fn() -> usize { let v = vec![1,2,3]; move || v.len() }`
 
 **P2 (🟡)** A heap has objects $P, Q, R, S$ with $P\to Q$, $Q\to R$, $R\to Q$, and $S$ isolated. The roots are $\{P\}$.
 
 (a) Give the reference count of each object.
+
 (b) Say which objects a reference-counting collector frees while $P$ is rooted.
+
 (c) The root is now dropped. Give the objects freed and the objects leaked, with the reason.
+
 (d) State the smallest change to the heap's edges that would let reference counting reclaim everything, and say what it costs.
 
 **P3 (🔴)** A designer proposes reference counting with **deferred** decrements: increments happen immediately, decrements are pushed onto a buffer and applied in a batch when the buffer fills.
 
 (a) State one performance advantage of this.
+
 (b) Give a concrete way the observable behaviour changes, referring to the property named in the Formal version as reference counting's main advantage.
+
 (c) State whether the cycle problem is affected.
+
 (d) A colleague concludes that with deferred decrements you may as well use tracing. Assess this in two sentences, naming what deferred counting still provides that tracing does not.
 
 <details>
@@ -185,6 +194,7 @@ What it still provides that tracing does not: **the cost is proportional to the 
 **From Lesson 3.4 (Evaluation strategies):** Call-by-need substitutes a **thunk** — a heap cell holding either an unevaluated term with its environment, or the value once forced — and all copies of the parameter share that one cell.
 
 (a) State why a thunk must be heap-allocated, using this lesson's escape criterion.
+
 (b) [Lesson 3.4](03-04-evaluation-strategies.md) noted that laziness has a space-leak problem strict languages do not. Explain it in terms of what a reference count or a collector can see.
 
 <details>

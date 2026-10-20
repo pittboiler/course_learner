@@ -82,11 +82,15 @@ At $r=3$ exactly, $f'(x^*)=-1$: the multiplier reaches the far side of the unit 
 <summary>Solutions</summary>
 
 **P1** (a) Fixed points $x=0$ and $x^*=1-\tfrac1{2.8}=1-0.3571=0.6429$.
+
 (b) $f'(0)=r=2.8$, so $|f'(0)|=2.8>1$ — **unstable**. $f'(x^*)=2-r=2-2.8=-0.8$, so $|f'(x^*)|=0.8<1$ — **stable**.
+
 (c) Since $f'(x^*)=-0.8<0$, the multiplier is negative, so the orbit approaches $0.6429$ **oscillating** from side to side (alternating high/low years), shrinking each step by the factor $0.8$. (This is consistent with $r=2.8<3$: still one stable equilibrium, just approached in a spiralling cobweb.)
 
 **P2** (a) $f'(x^*)=2-r=2-3.2=-1.2$, so $|f'(x^*)|=1.2>1$: the fixed point is **unstable**. (Makes sense — we are past $r_1=3$.)
+
 (b) We have $r_1=3<r=3.2<r_2\approx3.449$, so we are in the first doubled window: the fixed point is gone but the *2-cycle* is stable and its own doubling hasn't happened yet. Long-run behavior is a **stable period-2 cycle** (the population alternates between two values).
+
 (c) Pushing $r$ from $3.2$ toward $3.5$ you cross $r_2\approx3.449$: the 2-cycle destabilizes and a **stable 4-cycle** appears (the two branches each split in two). Approaching $r_3\approx3.544$ you'd get an 8-cycle, and the branches keep splitting faster — the run-up to the cascade's accumulation.
 
 **P3** With $f'(x)=r(1-2x)$,

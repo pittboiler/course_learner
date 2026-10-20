@@ -100,7 +100,9 @@ Check: $\mathbb{E}[q_2]=3$, and $q_1=(12-3-3)/2=3$ ✓. This private-information
 <summary>Solutions</summary>
 
 **P1** (a) Each type plays its dominant action regardless of Player 1: $s_2(H)=R,\ s_2(L)=L$. So Player 1 meets $L$ with prob $\tfrac12$ (from type $L$) and $R$ with prob $\tfrac12$ (from type $H$).
+
 (b) $\mathbb{E}[u_1(T)]=\tfrac12 u_1(T,L)+\tfrac12 u_1(T,R)=\tfrac12(2)+\tfrac12(3)=2.5$; $\mathbb{E}[u_1(B)]=\tfrac12(4)+\tfrac12(0)=2$. Since $2.5>2$, Player 1's best response is $T$.
+
 (c) BNE: $s_1^*=T$, $s_2^*=(R\text{ if }H,\ L\text{ if }L)$. (Player 1 optimizes against the *average* opponent, since $B$'s big payoff of $4$ only materializes against type $L$, which shows up just half the time.)
 
 **P2** Firm 2's interim best responses are unchanged: $q_2(t)=(a-q_1-c_t)/2$. Firm 1 maximizes $(a-q-\mathbb{E}[q_2]-c)q$ with $\mathbb{E}[q_2]=\theta q_2(L)+(1-\theta)q_2(H)=\tfrac{a-q_1-\bar c}{2}$, where $\bar c=\theta c_L+(1-\theta)c_H$. This is *algebraically identical* to Example 2 with the mean cost $\bar c$, so

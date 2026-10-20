@@ -91,7 +91,9 @@ Solid arrows are the argument; dashed arrows are objections and replies. The las
 Name the two misstatements of Wielenberg's position, and say in one sentence each what he actually holds. 100 words or fewer.
 
 **P2 (🟡) *(Apologetic: (a) Exegetical, graded first · (b) reply.)*** A godless realist presses parity against this lesson's argument.
+
 (a) State the parity objection as Wielenberg would recognize it: what basic ethical facts are, why their bruteness is no defect, and why theism gains nothing. Three sentences or fewer.
+
 (b) Reply. Open with a **named concession**, then say where the parity fails, if it does. 120 words or fewer.
 
 **P3 (🔴, optional) *(Evaluative.)*** The Thomist answers "Euthyphro one level up" by saying God does not have goodness but is goodness (divine simplicity). A critic says this relabels the problem: whether "God is goodness" explains anything depends on whether God's nature is good because it is loving and just. (a) State the critic's point in one sentence. (b) Give the best Thomist reply in two sentences. (c) Name the crux in one sentence. Any verdict passes.

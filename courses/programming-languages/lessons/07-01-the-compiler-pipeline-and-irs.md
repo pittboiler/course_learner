@@ -131,22 +131,31 @@ The same argument explains why an IR's instructions are so simple. Each does one
 **P1 (🟢)** Lower each to three-address code, using as few temporaries as you can.
 
 (a) `x = a + b * c`
+
 (b) `x = (a + b) * (c - d)`
+
 (c) `if (a < b) x = 1; else x = 2;`
+
 (d) `while (i < n) i = i + 1;`
 
 **P2 (🟡)** For each, give the number of basic blocks and state where each block begins.
 
 (a) The code from P1(c)
+
 (b) The code from P1(d)
+
 (c) A straight-line sequence of ten assignments with no jumps
+
 (d) A function with one `if` inside a `while`
 
 **P3 (🔴)** A compiler team maintains front ends for 4 languages and back ends for 6 architectures.
 
 (a) Give the number of translation components with and without a shared IR.
+
 (b) They now add a 5th language and a 7th architecture. Give both counts again, and the number of *new* components each approach requires.
+
 (c) They wish to add a new optimization. State how many places it must be written under each approach.
+
 (d) Name one genuine cost the IR approach imposes that direct translation does not, and give a concrete example of a program it can make slower.
 
 <details>
@@ -260,6 +269,7 @@ The general shape: **the IR buys reuse by forgetting what is specific, and every
 **From Lesson 6.3 (Continuations, CPS and control operators):** The CPS transform makes every call a tail call and turns the control stack into a chain of closures, and the lesson noted that CPS is a real compiler IR.
 
 (a) State what CPS makes explicit that three-address code does not.
+
 (b) Both CPS and three-address code give every intermediate value a name. State what each does with *control* flow, and say why that makes them comparable in power.
 
 <details>

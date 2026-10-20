@@ -97,18 +97,23 @@ So the stationary equilibrium in which the small parties behave alike prices eac
 **P1 (🟢)** *(Formal.)* A 100-seat parliament (quota 51): Oak 30, Pine 28, Rowan 22, Sorrel 20.
 
 (a) List the minimal winning coalitions and find Riker's minimum-size coalition.
+
 (b) Compute each party's Shapley–Shubik index by counting, among the 24 orderings, those in which it is pivotal.
+
 (c) Give the Gamson split of the minimum-size coalition, and name the two parties whose power is equal despite a six-seat gap.
 
 **P2 (🟡)** *(Formal.)* Ash 46, Elm 34, Fir 20 (quota 51), Baron–Ferejohn with equal recognition and $\delta = 0.75$.
 
 (a) State the formateur's and the partner's shares and each party's value.
+
 (b) For each possible coalition and each choice of formateur, compute the formateur premium over Gamson's law. Which formateur–partner pair has the smallest premium?
+
 (c) For that pair, find the $\delta$ at which the premium is zero.
 
 **P3 (🔴, optional)** *(Formal (a) · Exegetical (b).)* Invented news analysis, attributed to no real outlet: "In Velmora (Dorn 48, Esk 40, Fal 12 of 100 seats), the tiny Fal party joined Dorn's government and took two-fifths of the ministries with one-fifth of the coalition's seats. Coalition theory says ministries follow seats, so Dorn was outmanoeuvred."
 
 (a) Compute the Gamson split of Dorn–Fal, the three parties' Shapley–Shubik indices, and the Baron–Ferejohn split with Dorn as formateur at $\delta = 0.9$.
+
 (b) In 100 words or fewer: which result does the analysis assume, what does the voting-weight view say about Fal's two-fifths, and what does the outcome fail to fit under each model?
 
 <details>

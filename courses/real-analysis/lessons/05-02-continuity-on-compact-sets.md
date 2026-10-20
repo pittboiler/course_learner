@@ -117,7 +117,9 @@ Either way $|f(x)-f(y)|<\varepsilon$, so $f$ is uniformly continuous on $\mathbb
 ## Flashback
 
 **From Lesson 4.2 (Compactness and Heine–Borel):** For each set, decide whether it is compact and justify — via Heine–Borel where it applies, or by exhibiting an open cover with no finite subcover.
+
 (a) $A=\{0\}\cup\{1/n : n\in\mathbb{N}\}=\{0,1,\tfrac12,\tfrac13,\dots\}$.
+
 (b) $B=(0,1]$.
 
 <details>

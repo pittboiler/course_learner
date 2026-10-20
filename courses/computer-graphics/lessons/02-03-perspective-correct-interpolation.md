@@ -87,13 +87,19 @@ The naive answer is off by $0.218$ in $u$. On a $512 \times 512$ texture that is
 **P1 (🟢)** An edge runs from $w_0 = 2$, $u_0 = 0$ to $w_1 = 6$, $u_1 = 1$. Find the perspective-correct $u$ at screen fractions $s = 0.25$, $0.5$ and $0.75$ along the edge (weights $1 - s$ and $s$), and compare with the naive values.
 
 **P2 (🟡)** A screen-space triangle $\mathbf{a} = (40, 40)$, $\mathbf{b} = (360, 80)$, $\mathbf{c} = (120, 300)$ has $w = (1, 5, 2.5)$ and tiling texture coordinates $(0,0)$, $(4,0)$, $(0,4)$. For the pixel centre $(180.5, 140.5)$:
+
 (a) Compute the screen-space barycentrics.
+
 (b) Compute the naive and the perspective-correct $(u, v)$.
+
 (c) On a $256 \times 256$ texture, how many texels apart are the two lookups in $u$?
 
 **P3 (🔴)** Along the same edge as P1, the true eye distance $w$ varies linearly **on the surface**.
+
 (a) Find the correct $w$ at the screen midpoint $s = 0.5$, and the naive value.
+
 (b) Show that screen-linear interpolation of $z_{\text{ndc}}$ gives exactly the right depth there, taking $n = 1$ and $f = 10$.
+
 (c) A fog effect should fade with eye distance. Which quantity should the vertex stage output for the fragment stage to interpolate — $w$, $z_{\text{ndc}}$, or something else — and with which kind of interpolation?
 
 <details>
@@ -150,8 +156,11 @@ True depth at the surface point ($w = 3$): $1.2222 - 0.7407 = 0.4815$. ✓ Exact
 ## Flashback
 
 **From Lesson 2.1 (rasterization):** Triangle $\mathbf{a} = (0.5, 0.5)$, $\mathbf{b} = (6.5, 2.5)$, $\mathbf{c} = (2.5, 6.5)$.
+
 (a) Find $2A$ and confirm the winding.
+
 (b) Find the barycentric coordinates of the pixel centre $(3.5, 3.5)$.
+
 (c) The centre $(4.5, 4.5)$ gives $E_{\mathbf{bc}} = 0$. Is that pixel covered? Justify with the top-left rule.
 
 <details>

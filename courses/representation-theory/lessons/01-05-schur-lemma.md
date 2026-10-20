@@ -90,8 +90,11 @@ These are exactly the **characters** of $\mathbb{Z}/n$ — the discrete Fourier 
 **P2 (🟡)** A rep of $\mathbb{Z}/2 = \{e, s\}$ on $\mathbb{C}^3$ is given by $\rho(s) = \operatorname{diag}(1, 1, -1)$. Compute the commutant $\operatorname{End}_{\mathbb{Z}/2}(\mathbb{C}^3)$ — the set of all $3\times 3$ matrices commuting with $\rho(s)$ — find its dimension, and say what that dimension tells you about reducibility. (You do *not* need to fully decompose it, just read the test.)
 
 **P3 (🔴 — Boss problem 1: split the regular rep of $S_3$).** The **regular representation** $R$ of $S_3$ is the $6$-dimensional rep on $\mathbb{C}[S_3]$ with basis $\{e_g : g \in S_3\}$ and action $\rho_R(h)\,e_g = e_{hg}$.
+
 (a) Find an explicit $1$-dim invariant subspace on which $R$ acts as the **trivial** rep, and one on which it acts as the **sign** rep.
+
 (b) Using Maschke (complete reducibility) plus the fact that $S_3$'s only irreducibles have dimensions $\{1, 1, 2\}$, decompose $R$ completely into irreducibles. (The dimension bookkeeping does all the work.)
+
 (c) Confirm via Schur's commutant test that the $2$-dimensional standard rep appearing in (b) is genuinely irreducible.
 
 <details>

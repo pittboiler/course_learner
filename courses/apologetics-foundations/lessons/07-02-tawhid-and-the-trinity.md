@@ -88,6 +88,7 @@ Two of the three branches end where Ibn Taymiyya and the Church agree. The dispu
 Name two errors in the post. For each, say what an accurate account of the verse and the scholarship would put in its place. Three sentences per error at most.
 
 **P2 (🟡) *(Apologetic: (a) Exegetical, graded first · (b) reply.)*** At an invented interfaith evening, a Catholic speaker explains the Trinity with a shamrock: three leaves, one plant. A Muslim student answers with the parts complaint.
+
 (a) State the parts complaint as a Muslim theologian would state it, including the dilemma it rests on. (b) Reply. Open with a **named concession**. 150 words or fewer in total.
 
 **P3 (🔴, optional) *(Find the crux · Evaluative.)*** A Muslim theologian grants that the Catholic doctrine is not the tritheism of the substance horn. He then says: "A formula whose central term you admit you cannot fill in is not a doctrine of God. It is a refusal to give one." (a) Name the premise on which he and a Catholic actually disagree. (b) Say which side you think bears the burden on it, and why. 100 words or fewer.

@@ -89,9 +89,13 @@ By the **Arzelà–Ascoli theorem** — a uniformly bounded, equicontinuous fami
 <summary>Solutions</summary>
 
 **P1** A diagonal operator $\operatorname{diag}(\lambda_n)$ on $\ell^2$ is compact $\iff \lambda_n \to 0$ (Example 1).
+
 (a) $\tfrac1n \to 0$: **compact**.
+
 (b) $\tfrac{n}{n+1} \to 1 \ne 0$: **not compact** (the images $\lambda_n e_n$ stay $\approx\sqrt2$ apart).
+
 (c) $(-1)^n$ does not converge, in particular $\not\to 0$: **not compact**.
+
 (d) $e^{-n} \to 0$: **compact**.
 
 **P2** Let $(x_n)$ be bounded in $H$, say $\|x_n\| \le C$. Since $K$ is compact, there is a subsequence $(x_{n_k})$ with $Kx_{n_k} \to y$ for some $y \in H$. The bounded operator $A$ is continuous, so

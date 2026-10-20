@@ -104,16 +104,19 @@ She refuses for every $G$, a trillion included, because the most heads can add i
 **P1 (🟢) *(Formal.)*** A coin is tossed until the first head. If that comes on toss $n$, the game pays $3^n$ dollars.
 
 (a) Show that the expected value is infinite. Then compute the expected value when the casino pays at most $3^{10} = 59{,}049$ dollars, as an exact fraction.
+
 (b) Find the certainty equivalent of the uncapped game for an agent with $u(x) = \ln x$. You may use $\sum_{n\ge1} n\,2^{-n} = 2$.
 
 **P2 (🟡) *(Formal (a) · Exegetical (b).)***
 
 (a) Construct a game of the coin-tossing kind whose expected utility is infinite for an agent with $u(x) = \sqrt{x}$. Show the sum.
+
 (b) A reader concludes: "So square roots are too gentle; a logarithm would have been safe." In two sentences, say why no unbounded utility function is safe, and what the only general escape is.
 
 **P3 (🔴, optional) *(Formal (a) · Evaluative (b).)*** An agent has $u(x) = 1 - 2^{-x/100}$, where $x$ is her gain in dollars (so $u(0) = 0$). She is offered a gamble: with probability $\tfrac34$ she wins $G$ dollars, and with probability $\tfrac14$ she loses $L$ dollars.
 
 (a) Find the smallest loss $L$ at which she refuses the gamble for every gain $G$, however large.
+
 (b) A critic calls (a) a reductio of bounded utility. A defender replies that unbounded utility must swallow Menger's game instead. Say which axiom or assumption each side keeps and which it gives up, and whether each side's bitten bullet generalizes. 150 words or fewer.
 
 <details>

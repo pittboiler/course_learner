@@ -132,8 +132,11 @@ The rule that falls out: **Big-O decides the algorithm; constants decide the imp
 **P1 (🟢)** Give the exact operation count and the $\Theta$ class for each, in terms of $n$.
 
 (a) `for i in 0..n-1: for j in 0..n-1: s <- s + 1`
+
 (b) `for i in 0..n-1: for j in i+1..n-1: s <- s + 1`
+
 (c) `for i in 0..n-1: s <- s + 1` followed by `for j in 0..n-1: for k in 0..n-1: s <- s + 1`
+
 (d) `i <- n; while i > 1: i <- i / 3`
 
 **P2 (🟡)** A routine checks whether a list of $n$ names contains any duplicates:

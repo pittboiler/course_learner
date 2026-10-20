@@ -105,7 +105,9 @@ The texts hold both idioms and do not force a choice. The Catechism places the t
 **P1** *(Exegetical.)*
 
 **Must hit, strict (a):** **paid**, not cancelled. The deciding words are "not, strictly speaking, absolved from the debt ... but is given the means whereby he may pay it" (ad 2), and "pays the debt of punishment ... out of the common stock" (ad 3). That answers Objection 1: the proportion of punishment to sin is kept, because someone else "spontaneously" bore the punishment (ad 1). The measure is met, only by another payer.
+
 **(b):** it never removes **guilt**; sacramental absolution does (ad 3).
+
 **(c):** the satisfactions of **Christ and the saints**, above all Christ's superabundant satisfaction (the body: the saints' works "exceeding the requirements of their debts"; Christ's efficacy "infinitely" surpassing). That the treasury exists is **authentic ordinary magisterium** (*Unigenitus*, *Indulgentiarum Doctrina*, CCC 1476–1477), not defined.
 
 **Wrong turns:** reading ad 2 as saying indulgences do nothing before God. The body says they hold "in the judgment of God." Calling the treasury defined because Trent defined indulgences.
@@ -115,7 +117,9 @@ The texts hold both idioms and do not force a choice. The Catechism places the t
 **P2** *(Exegetical.)*
 
 **Must hit, strict (a):** guilt is remitted by contrition and absolution, not by the commutation. The commutation touches only the **temporal punishment**, re-pricing the enjoined penance. The **ox** is untouched: [restitution](../reference.md#restitution) is owed in commutative justice to the neighbour, and penitentials conditioned relief on it (Cummian).
+
 **(b):** **no**. He still pays, in another currency. An indulgence in q.25 a.1's sense applies **another's satisfaction from the common fund**.
+
 **(c):** the Church adopted Aquinas's position that the remission holds before God. CCC 1471 says "remission **before God**."
 
 **Wrong turns:** saying the pilgrimage "forgives the theft." Treating restitution as part of the penance that can be commuted away.
@@ -125,8 +129,11 @@ The texts hold both idioms and do not force a choice. The Catechism places the t
 **P3** *(Exegetical.)*
 
 **Must hit, strict (a):** **guilt vs temporal punishment**. Indulgences never remitted guilt (Supp. ad 3; CCC 1471; even Boniface's 1300 grant required penitence and confession).
+
 **(b):** money was genuinely tied to indulgences as alms, and preachers abused this. Boniface IX (1392) condemned religious who took money by promising pardon of all sins. Cusa (legate from 1450) condemned preaching that indulgences remit guilt. Lateran IV (1215) capped excessive grants, and Clovesho condemned hired penitents. Any two.
+
 **(c):** practice did come first: commutations, redemptions, the crusade indulgence. But the treasury was formulated in the thirteenth century (Hugh of St Cher, Alexander, Albert, Aquinas) from older roots: one member satisfying for another, the martyrs' intercession, Christ's superabundance. "Dreamed up to justify a trade" asserts a motive the record does not show.
+
 **(d):** Trent did not drop indulgences. It **defined** the Church's power to grant them and their usefulness, with anathema, and reformed the abuses. The treasury is not a pious opinion but **authentic teaching** (*Unigenitus*, *Indulgentiarum Doctrina*, CCC 1476–1477), though not defined.
 
 **Wrong turns:** denying any abuse, since the Church's own condemnations record it. Overcorrecting (d) by calling the treasury dogma.

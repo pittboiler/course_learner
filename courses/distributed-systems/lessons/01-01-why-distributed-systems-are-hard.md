@@ -99,22 +99,31 @@ Now drop to the **asynchronous** model. The same ping, the same silence at 110 m
 **P1 (🟢)** A checkout request passes through 6 services. Each is independently available 99.95 percent of the time and all 6 are required.
 
 (a) Give the end-to-end availability, to four decimal places as a percentage.
+
 (b) Give the expected downtime in hours per year.
+
 (c) The team replaces the least reliable service with 3 independent replicas behind a load balancer, the request succeeding if any replica is up. Give the new availability of that one service.
+
 (d) State, in one clause, the general rule for when adding a machine helps and when it hurts.
 
 **P2 (🟡)** A system is specified as follows: "messages between nodes are delivered within 200 ms or not at all; each node completes a request in under 30 ms; clocks are synchronized to within 5 ms."
 
 (a) Name the timing model this describes.
+
 (b) Give the smallest timeout that lets a node conclude with certainty that a peer it pinged has crashed, and show the terms.
+
 (c) The operations team removes the 200 ms delivery guarantee, replacing it with "messages are delivered eventually." Name the new timing model, and state what happens to your answer in (b).
+
 (d) A third engineer says: "the network is fine 99.99 percent of the time, so 200 ms is a safe bound in practice." State which model this actually describes, and name the one thing an algorithm may still rely on in it.
 
 **P3 (🔴, optional)** A client sends "transfer 100 dollars" to a server, waits, and receives nothing.
 
 (a) List the three distinct worlds the client cannot distinguish, stating for each whether the transfer happened.
+
 (b) The client retries. For each of the three worlds, state what the *server* now sees and what the resulting balance is if the server simply applies every request it receives.
+
 (c) Give the single change to the request that makes retrying safe in all three worlds, and state the property it gives the operation.
+
 (d) An engineer proposes instead: "before retrying, query the server to ask whether the transfer happened." Explain why this does not solve the problem, in terms of indistinguishability.
 
 <details>

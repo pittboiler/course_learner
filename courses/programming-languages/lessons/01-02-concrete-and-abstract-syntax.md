@@ -113,7 +113,9 @@ not `if (a == null, null, a.b)` — which would evaluate `a` twice, running any 
 **P3 (🔴)** A language has exponentiation `^`, and its designer writes the grammar layer as $P \to A \mathbin{\texttt{\^{}}} P \mid A$, with $A \to \texttt{n}$.
 
 (a) Which associativity is this, and what does `2 ^ 3 ^ 2` evaluate to under it?
+
 (b) What would it evaluate to under the other associativity?
+
 (c) Exponentiation is conventionally right-associative while subtraction is left-associative. Both are non-commutative and non-associative operations. Give the reason the conventions differ — the answer is not "convention", it is a fact about what the alternative reading would be *equal to*.
 
 <details>

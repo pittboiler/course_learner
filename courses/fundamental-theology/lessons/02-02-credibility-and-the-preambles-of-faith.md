@@ -112,20 +112,27 @@ Now the discipline this course is for. The council teaches that the Church **is*
 **P1 (🟢) *(Exegetical.)*** For each statement, say whether it concerns (i) the **motive of faith**, (ii) a **motive of credibility**, or (iii) a **preamble of faith**, with one clause of justification. One sentence each.
 
 (a) "God can neither deceive nor be deceived."
+
 (b) "The Church's unity of doctrine across twenty centuries witnesses to her divine mission."
+
 (c) "I hold the Assumption to be true because God, who revealed it, is truthful."
+
 (d) "God exists and is the creator of all things."
+
 (e) "The prophets foretold what only God could have known."
 
 **P2 (🟡) *(Exegetical (a)–(b) · Evaluative (c).)*** Work from the *Dei Filius* passages quoted above.
 
 (a) State in one sentence of the form "X **can** …" what the chapter and its canons actually define about the exterior signs, then name two stronger claims a careless reader takes away that are *not* defined.
+
 (b) The claim "the Church herself is a great and perpetual motive of credibility" — what act fixes its weight, and what is the difference between where it appears and where the anathemas are? (Recall the chapter-versus-canon distinction from [1.1](01-01-what-fundamental-theology-asks.md).)
+
 (c) A critic objects that the Church-as-sign argument is circular: you must already trust the Church to read her history as holy rather than as ordinary. In 150 words or fewer, assess it — any verdict passes — saying what the argument needs from the historical record and whether that requirement can be stated in terms an outsider could check.
 
 **P3 (🔴, optional) *(Exegetical (a) · Evaluative (b).)***
 
 (a) State the circularity problem in the analysis of faith in three sentences: the assent, what it requires, and the fork.
+
 (b) Pick either the two-step account or Rousselot's. In 150 words or fewer, present it accurately and then give the strongest objection **to the one you picked** — not to the other. Close with one sentence naming the level of authority this question carries and what that means for how the argument had to be conducted.
 
 <details>

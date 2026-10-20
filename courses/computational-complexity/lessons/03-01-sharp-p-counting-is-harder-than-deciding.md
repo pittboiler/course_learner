@@ -125,8 +125,11 @@ Where this bites in practice: statistical inference. A probabilistic graphical m
 **P2 (🟡)** For each problem, give the complexity class of the decision version and of the counting version, from the classes $\mathsf{P}$, NP-complete, and $\#\mathsf{P}$-complete, and say in a clause what makes the pair interesting or unremarkable.
 
 (a) 3SAT.
+
 (b) Bipartite perfect matching.
+
 (c) Counting spanning trees of a connected graph.
+
 (d) DNF satisfiability.
 
 **P3 (🔴, optional)** (a) Prove $\mathsf{P}^{\#\mathsf{P}} \subseteq \mathsf{PSPACE}$, stating what is held in memory. (b) Prove that if $\mathsf{P} = \mathsf{P}^{\#\mathsf{P}}$ then $\mathsf{P} = \mathsf{NP}$. (c) The converse — does $\mathsf{P} = \mathsf{NP}$ imply $\mathsf{P} = \mathsf{P}^{\#\mathsf{P}}$? Answer yes or no with the mechanism, referring forward to [Lesson 1.6](01-06-ladner-self-reducibility-search-vs-decision.md)'s binary-search idea.

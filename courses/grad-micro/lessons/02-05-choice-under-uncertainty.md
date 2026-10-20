@@ -130,8 +130,11 @@ $$\tfrac12 A\sigma^2=\tfrac12(0.00125)(10000)=6.25.$$
 Exact 6.35 vs. approximate 6.25 — agreement to about 1.5%, because a $\pm 25\%$ bet is nearly (not quite) "small."
 
 **P3** (a) $\mathbb{E}[A]=100$; $\mathbb{E}[B]=\tfrac12(60)+\tfrac12(140)=100$. Same mean. 
+
 (b) $B$ is a **mean-preserving spread** of $A$ (same mean, strictly more spread), so $A$ **second-order stochastically dominates** $B$. Concretely, by Jensen $\mathbb{E}[u(B)]\le u(\mathbb{E}[B])=u(100)=u(A)$ for every concave $u$; every risk-averse agent weakly prefers $A$. 
+
 (c) $\mathbb{E}[u(B)]=\tfrac12\ln 60+\tfrac12\ln 140=\tfrac12\ln 8400=\ln\sqrt{8400}=\ln 91.652$. So $\mathrm{CE}_B=91.65$, and the risk premium is $\pi=100-91.65=8.35$. She would pay any sure fee up to **8.35 dollars** to replace $B$ with the certain 100. 
+
 (d) No: $B$ sometimes pays 140 > 100, so its CDF is *not* everywhere to the right of $A$'s — neither lottery FOSD-dominates the other. The ranking is available only to risk-averse agents (SOSD), not to all increasing $u$.
 
 </details>

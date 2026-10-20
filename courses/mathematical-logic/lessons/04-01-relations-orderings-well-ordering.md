@@ -90,7 +90,9 @@ and order them by *position in this list*. This is a total order on $\mathbb{Z}$
 **P2 (🟡)** Let $(P, \le)$ be a poset in which *every* nonempty subset has a least element. Prove that $\le$ is total. (This is the "totality comes for free" fact from the notes — it justifies defining well-orders without separately assuming totality.)
 
 **P3 (🔴, optional)** For each order below, decide whether it is a well-order; if not, exhibit a nonempty subset with no least element.
+
 (a) $\mathbb{N} \times \mathbb{N}$ under the **lexicographic** order: $(a,b) \le (c,d)$ iff $a < c$, or ($a = c$ and $b \le d$).
+
 (b) The set $\{\,1/n : n \in \mathbb{Z}^+\,\} = \{1, \tfrac12, \tfrac13, \dots\}$ under the usual $<$.
 
 <details>
@@ -110,6 +112,7 @@ So $R$ is reflexive and transitive but not antisymmetric. A reflexive, transitiv
 Either way $a$ and $b$ are comparable. As $a, b$ were arbitrary, $\le$ is total. $\blacksquare$
 
 **P3**
+
 (a) **It is a well-order.** Let $S \subseteq \mathbb{N} \times \mathbb{N}$ be nonempty. Let $a^* = \min\{a : (a,b) \in S \text{ for some } b\}$ — this minimum exists because the first coordinates form a nonempty subset of $\mathbb{N}$, which is well-ordered. Among the pairs in $S$ with first coordinate $a^*$, let $b^* = \min\{b : (a^*, b) \in S\}$, again existing by well-ordering of $\mathbb{N}$. Then $(a^*, b^*) \in S$, and it is the least element: any $(c,d) \in S$ has $c \ge a^*$, and if $c = a^*$ then $d \ge b^*$ — exactly the lexicographic condition $(a^*,b^*) \le (c,d)$. So $S$ has a least element; the order is a well-order. *(Its order type, "$\omega$ copies of $\omega$ stacked end to end," is the ordinal $\omega \cdot \omega = \omega^2$ you'll meet in 4.2.)*
 
 (b) **Not a well-order.** Take the whole set $S = \{1, \tfrac12, \tfrac13, \dots\}$. It has no least element: for any $\tfrac1n \in S$, the element $\tfrac{1}{n+1} \in S$ is strictly smaller. Equivalently, $1 > \tfrac12 > \tfrac13 > \cdots$ is an infinite strictly-descending sequence — the forbidden descent. (This set is order-isomorphic to $\mathbb{N}$ *reversed*, the mirror image of $\omega$, which is the canonical non-well-order.)

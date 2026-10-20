@@ -103,11 +103,13 @@ The text fits both readings, and the choice decides the argument's reach. The sc
 > Now this unit is in truth demand, which holds all things together (for if men did not need one another's goods at all, or did not need them equally, there would be either no exchange or not the same exchange); but money has become by convention a sort of representative of demand; and this is why it has the name 'money' (*nomisma*)—because it exists not by nature but by law (*nomos*) and it is in our power to change it and make it useless. … And for the future exchange—that if we do not need a thing now we shall have it if ever we do need it—money is as it were our surety; for it must be possible for us to get what we want by bringing the money.
 
 (a) Which words say what money *is*, and which say where it *comes from*? What does the second answer imply about the kind of "nature" premise 3 appeals to? **Two sentences.**
+
 (b) The critic of premise 4 says a loan is itself an exchange of present money for future money. Which sentence here gives that critic the most support from Aristotle himself? Does it defeat premise 4? Give the defender's best reply either way. **Any verdict; 150 words or fewer.**
 
 **P3 (🔴, optional) *(Exegetical (a) · Evaluative (b).)*** Invented. Kleo, a widow with 2,000 drachmas and no land, lends at interest to merchants she knows. She spends the interest on food and on her daughters' dowries, and she stops lending once the dowries are paid.
 
 (a) Which premises of the reconstruction apply to her lending, and which do not? Take premise 4 on Example 2's form reading. **Two sentences.**
+
 (b) Is she a counterexample to the argument's conclusion, or can a defender absorb her? Say where the argument stops determining a verdict. **Any verdict; 150 words or fewer.**
 
 <details>

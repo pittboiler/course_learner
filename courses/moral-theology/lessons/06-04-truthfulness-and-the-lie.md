@@ -82,8 +82,11 @@ flowchart TD
 **P1 (🟢)** *(Exegetical)* Classify each invented statement as **lie**, **broad reservation**, **strict reservation** or **silence / non-assertion**, and name the feature that decides it. **One sentence each.**
 
 (a) A reporter is asked by a rival whether she is working on the mayor story and answers, "I don't talk about work in progress."
+
 (b) In a firm where everyone knows that "Ms. Ruiz is in a meeting" is the receptionist's formula for "she is not taking calls", the receptionist says it while Ms. Ruiz sits at her desk.
+
 (c) Asked by his wife whether he went to the casino this week, a man says, "I didn't go to the casino," silently adding "on Tuesday."
+
 (d) Asked whether she has finished the essay, a student says "Yes" to avoid a late penalty, though she has not started it.
 
 **P2 (🟡)** Augustine, *Against Lying* 23 (*NPNF* first series, vol. 3):
@@ -132,6 +135,7 @@ flowchart TD
 ## Flashback
 
 **From Lesson [6.2](06-02-humanae-vitae-the-argument.md) (Humanae Vitae: the argument):** *(Exegetical.)* An invented case. A married couple with three children have a serious, well-grounded reason to avoid another pregnancy for some years. The husband proposes that they not abstain in the fertile days but practise withdrawal instead: "It uses no pill and no device, so it is natural. It is the same as NFP, and we mean exactly what NFP couples mean."
+
 (a) Give the verdict on their plan of each of the three positions in 6.2: the majority report, *Humanae Vitae*, and Grisez–Finnis. Name the principle that decides each verdict. (b) Answer the husband's two claims, "natural" and "the same as NFP", from the text of *Humanae Vitae*. Then state the level of the norm that applies to the couple. **One sentence per position in (a); three sentences for (b).**
 
 <details>

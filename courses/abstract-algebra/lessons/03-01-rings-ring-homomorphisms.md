@@ -133,11 +133,15 @@ The non-units split into the zero element and the three zero divisors, exactly a
 **P1 (🟢)** Confirm $\mathbb{Z}/8\mathbb{Z}$ is a ring (one sentence on why the axioms hold) and find its full group of units $(\mathbb{Z}/8\mathbb{Z})^\times$. For each unit, give its inverse. Is any nonzero non-unit a zero divisor? Name one.
 
 **P2 (🟡)** Let $R = M_2(\mathbb{R})$, the $2\times 2$ real matrices with the usual $+$ and matrix $\times$.
+
 (a) Explain in one line why $R$ is a ring and why it is **noncommutative** — give an explicit pair $A, B$ with $AB \neq BA$.
+
 (b) Exhibit two **nonzero** matrices $C, D$ with $CD = 0$ (zero divisors), and confirm the product is the zero matrix.
 
 **P3 (🔴)** Working in an arbitrary ring $R$ (unital, not assumed commutative), prove *directly from the axioms*:
+
 (a) $0\cdot a = 0$ for all $a$.
+
 (b) $(-1)\cdot a = -a$ for all $a$, where $-a$ is the additive inverse of $a$.
 State which axiom you use at each step.
 

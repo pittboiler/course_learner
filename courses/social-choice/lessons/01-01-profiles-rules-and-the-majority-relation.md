@@ -126,17 +126,21 @@ With $n$ odd, simple majority is resolute, anonymous and neutral, and Propositio
 | 2 | Z ≻ Y ≻ X ≻ W |
 
 (a) Compute $n(x, y)$ for all six pairs, the majority relation $M$, and the Condorcet winner and loser if they exist.
+
 (b) Find the plurality winner (most first places). Is $M$ transitive? One sentence relating the two answers.
 
 **P2 (🟡) *(Formal (a)–(c).)*** A rule $g$ on $A = \{A, B, C\}$ accepts any number of voters $n \ge 1$. If $n$ is odd, $g$ picks voter 1's top choice. If $n$ is even, $g$ picks the plurality winner, breaking ties alphabetically (A before B before C).
 
 (a) Show $g$ is not anonymous: give a profile and a permutation of voters that changes the outcome, with the smallest $n$ for which this is possible, and say why no smaller $n$ works.
+
 (b) Show $g$ is not neutral, again with the smallest possible $n$.
+
 (c) Prove that $g$ restricted to odd $n$ is neutral.
 
 **P3 (🔴, optional) *(Formal (a) · Exegetical (b).)*** An invented committee memo: "Our bylaws require an odd number of members. So majority rule always gives us a clear choice: with no ties possible, one option must beat all the others."
 
 (a) Build a profile with five voters and three alternatives on which no alternative beats both others. Show all three pairwise counts.
+
 (b) In 80 words or fewer: what does an odd membership guarantee, what property does the memo confuse it with, and which theorem in this lesson shows the memo fails for every number of alternatives from three up?
 
 <details>

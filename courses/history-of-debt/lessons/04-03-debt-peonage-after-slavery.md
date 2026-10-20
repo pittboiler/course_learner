@@ -87,8 +87,11 @@ Is this peonage? Under *Clyatt*'s definition only if the service is *compelled*,
 **P1 (🟢) *(Exegetical.)*** Two sentences from *Bailey v. Alabama* (1911). Hughes, for the Court, on the statutory presumption: "an instrument of compulsion peculiarly effective as against the poor and the ignorant, its most likely victims." Holmes, dissenting: "Peonage is service to a private master at which a man is kept by bodily compulsion against his will." (a) What does each sentence imply about whether a threat of *criminal punishment* can make service compulsory? Name the words that decide it. (b) Hughes's sentence names the statute's likely victims. Does that make the majority's holding one about discrimination? Cite the lesson's account of the opinion. 150 words or fewer in total.
 
 **P2 (🟡) *(Formal.)*** On 1 March a furnishing merchant sells cornmeal whose cash price is 100 cents for a credit price of 130 cents, payable at settlement on 1 November.
+
 (a) Compute the implicit annual rate, both simple and compounded monthly (effective annual).
+
 (b) A family actually draws goods of equal cash value on the first of each month from March through August, all at the 30 percent markup, all payable 1 November. Using the average time outstanding, compute the simple annual rate.
+
 (c) Suppose the merchant's own cost of funds is 10 percent a year compounded, and an account that fails pays nothing. For the single March sale in (a), what share of accounts must fail for the 30 percent markup merely to break even? Say in one sentence which side of the lock-in debate this number is useful to.
 
 **P3 (🔴, optional) *(Exegetical.)*** Ransom and Sutch say high credit prices reflected merchants' territorial monopoly and locked farmers into debt and cotton. Their critics say credit prices reflected risk and cost, and farmers moved freely between landlords. Name the single premise one side must deny, and say what evidence from county records would move it. 150 words or fewer.

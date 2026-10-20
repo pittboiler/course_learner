@@ -113,8 +113,11 @@ The conflict $w_3(Z)$ before $r_1(Z)$ adds the edge $T_3 \to T_1$. Combined with
 **P1 (🟢)** For each schedule, list the edges of the precedence graph and state whether it is conflict-serializable. If it is, give an equivalent serial order.
 
 (a) $r_1(A)\ \ r_2(A)\ \ w_1(B)\ \ w_2(B)$
+
 (b) $r_1(A)\ \ w_1(A)\ \ r_2(A)\ \ w_2(A)$
+
 (c) $w_1(A)\ \ r_2(A)\ \ w_2(B)\ \ r_1(B)$
+
 (d) $r_1(A)\ \ r_2(B)\ \ r_3(C)$
 
 **P2 (🟡)** Consider
@@ -122,8 +125,11 @@ The conflict $w_3(Z)$ before $r_1(Z)$ adds the edge $T_3 \to T_1$. Combined with
 $$S: \quad r_1(X)\ \ r_2(X)\ \ w_1(X)\ \ r_3(Y)\ \ w_2(X)\ \ w_3(X)$$
 
 (a) List every conflicting pair, with its item and kind.
+
 (b) Give the precedence graph's edges.
+
 (c) State whether $S$ is conflict-serializable, and give the cycle if there is one.
+
 (d) Delete exactly one operation so that the result becomes conflict-serializable. Give the operation you deleted, the new edges, and the equivalent serial order.
 
 **P3 (🔴, optional)** Four transactions run this schedule:
@@ -131,8 +137,11 @@ $$S: \quad r_1(X)\ \ r_2(X)\ \ w_1(X)\ \ r_3(Y)\ \ w_2(X)\ \ w_3(X)$$
 $$S: \quad r_1(A)\ \ w_2(B)\ \ r_3(C)\ \ w_4(A)\ \ r_2(A)\ \ w_3(B)\ \ w_1(D)\ \ r_4(C)$$
 
 (a) Give the full list of conflicting pairs and the precedence graph's edges.
+
 (b) State whether $S$ is conflict-serializable. If it is, give every equivalent serial order; if not, give a cycle.
+
 (c) Now suppose the schedule ends with $c_2\ c_1\ c_3\ c_4$ and that $T_2$ read $A$ from $T_4$'s write. State whether the schedule is **recoverable**, and whether it is **cascadeless**, justifying each.
+
 (d) Give the smallest change to the commit order that makes the schedule recoverable, and state whether that change also makes it cascadeless.
 
 <details>
@@ -244,7 +253,9 @@ That makes the schedule **recoverable**: every transaction now commits after the
 **From Lesson 4.1 (transactions & the ACID properties):** A transaction reads `stock` (currently 10), computes $10 - 3 = 7$, writes `stock = 7`, inserts a shipment row, and commits.
 
 (a) The machine crashes after the write and before the insert. Give the state on disk, the ACID property violated, and whether recovery uses undo or redo.
+
 (b) Two such transactions run concurrently and both read 10 before either writes. Give the final `stock`, the number of shipment rows, and the property violated.
+
 (c) State whether `CHECK (stock >= 0)` would catch (b).
 
 <details>

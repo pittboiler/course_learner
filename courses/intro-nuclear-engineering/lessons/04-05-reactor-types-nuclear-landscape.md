@@ -94,9 +94,13 @@ with the other ~2280 MW dumped to the condenser's cooling water. That ~1120 MWe 
 ## Problems
 
 **P1 (🟢)** Classify each described reactor by naming its type, using only the moderator/coolant/fuel clues:
+
 (a) light water is both moderator and coolant, and the water boils inside the core to drive the turbine directly;
+
 (b) heavy water moderates, and the fuel is natural uranium;
+
 (c) solid graphite moderates while carbon-dioxide gas cools;
+
 (d) there is no moderator and liquid sodium is the coolant.
 
 **P2 (🟡)** A PWR core produces $3000\ \text{MW}$ thermal at a plant thermal efficiency of 34%. (a) What is the electrical output? (b) Roughly how much heat is rejected to the condenser? (c) Estimate the fission rate (use $200\ \text{MeV} = 3.2\times10^{-11}\,\text{J}$ per fission).

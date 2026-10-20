@@ -102,12 +102,15 @@ The grounds split the debt instead of accepting or rejecting it whole: a claim u
 **P2 (🟡) *(Exegetical (a) · Evaluative (b).)*** An invented country, Velmark, holds free and contested elections. Its government, re-elected with 52 percent of the vote, had borrowed 3 billion dollars from foreign banks and spent most of it on a stadium, a festival and fuel subsidies in the year before the election. The loan prospectuses described these purposes accurately. Four years later a new government calls the debt "odious" and proposes to stop paying.
 
 (a) For each of Sack's three conditions, say whether it holds, and which grounds of liability therefore still bind Velmark's citizens. One sentence per condition.
+
 (b) A citizen who voted against the government and marched against the subsidies says that she, at least, owes nothing. Assess her claim, stating the membership ground at full strength and one objection to it. Any verdict; 150 words or fewer.
 
 **P3 (🔴, optional) *(Formal (a) · Exegetical (b) · Evaluative (c).)*** An invented province, Doran, owes 10 billion dollars in bonds issued over twenty years by its elected assembly, in which every district was represented. Of that, 2 billion built the harbour of the port city of Askel. The other 8 billion paid for roads, schools and pensions across the province, Askel included. Askel now leaves Doran by a referendum Doran accepts, to become a separate province. Askel has 30 percent of Doran's population and 45 percent of its tax base.
 
 (a) Compute Askel's share of the debt under three rules: by population; by tax base; and by benefit, where the harbour is Askel's alone and the rest is divided by population.
+
 (b) Which grounds of liability bind Askel's citizens, and does any of Sack's conditions hold? Two sentences.
+
 (c) Choose a rule and defend it against its strongest objection. Say also what the bondholders, who lent to Doran, are owed by Askel directly. Any verdict; 150 words or fewer.
 
 <details>

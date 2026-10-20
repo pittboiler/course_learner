@@ -112,11 +112,13 @@ and $B(\mathrm{C}) = 21 + 12 = 33$. B wins by 8, because its 69–12 rout of C o
 **P1 (🟢)** *(Formal (a)–(b).)* Nine voters rank four candidates: 2: B ≻ C ≻ A ≻ D, 2: B ≻ D ≻ A ≻ C, 2: C ≻ A ≻ D ≻ B, 3: D ≻ C ≻ A ≻ B.
 
 (a) Find the plurality, Borda $(3, 2, 1, 0)$ and antiplurality winners.
+
 (b) Find the Condorcet winner, if any, and check the Borda score of that candidate by Theorem 1.
 
 **P2 (🟡)** *(Formal (a), counterexample · Formal (b), proof.)* Three candidates.
 
 (a) Build a 7-voter profile in which one candidate is the unique plurality winner and also the Condorcet loser.
+
 (b) Prove that no profile with fewer than 7 voters does this, and that no 8-voter profile does either.
 
 **P3 (🔴, optional)** *(Formal.)* Show that for every $s \in [0, 1]$ with $s \ne \tfrac12$ there is a profile on which the rule $(1, s, 0)$ uniquely elects the Condorcet loser. Conclude, with the Corollary, which three-candidate scoring rules never elect a Condorcet loser. *Hint:* for $s > \tfrac12$ put the loser second on almost every ballot; for $s < \tfrac12$ put it first on just under half.

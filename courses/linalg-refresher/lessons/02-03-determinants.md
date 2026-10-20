@@ -68,6 +68,7 @@ Both roads give $11$. So $B$ is invertible, orientation-preserving, and inflates
 ## Problems
 
 **P1 (🟢)** Compute both determinants:
+
 (a) $\det\begin{bmatrix} 3 & 1 \\ 2 & 4 \end{bmatrix}$; (b) $\det\begin{bmatrix} 2 & 0 & 1 \\ 1 & 3 & 2 \\ 0 & 1 & 1 \end{bmatrix}$ (cofactor expansion — expand along whichever row or column you like, then cross-check with a second one).
 
 **P2 (🟡)** Decide whether $C = \begin{bmatrix} 1 & 2 & 0 \\ 2 & 4 & 1 \\ 3 & 6 & 1 \end{bmatrix}$ is invertible by computing $\det C$. Then, *without* referring to the determinant, point to a linear dependence among the columns that explains your answer — and connect it to $C$ having a nontrivial null space.

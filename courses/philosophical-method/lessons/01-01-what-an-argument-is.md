@@ -88,7 +88,9 @@ Two things are now visible that the prose hid. First, the argument has a gap: no
 **P1 (🟢) *(Exegetical.)*** For each passage, say whether it is an argument or an explanation, and if it is an argument, state its conclusion in one sentence.
 
 (a) "Attendance at Mass collapsed in the 1970s because the generation that filled the pews had been raised in an immigrant Church that was dissolving into the suburbs."
+
 (b) "A regime that jails its opponents cannot call its elections free. Ours jailed two candidates last spring."
+
 (c) "Every serious historian agrees the Inquisition killed fewer people than the myth claims. So the myth survives for reasons that have nothing to do with the evidence."
 
 **P2 (🟡) *(Exegetical.)*** Put this passage into standard form — numbered premises and a conclusion — discarding anything that does no argumentative work. 150 words or fewer.

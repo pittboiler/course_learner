@@ -92,14 +92,19 @@ Same grammatical form — "the Church says X" — and completely different force
 **P1 (🟢) *(Exegetical.)*** For each citation, say what kind of source it points at and what you would have to read to know what is *defined* rather than explained. One sentence each.
 
 (a) Trent, Session IV, the decree on the canonical scriptures (1546)
+
 (b) *Providentissimus Deus* (1893)
+
 (c) ST II-II, q.2, a.2
+
 (d) A paragraph of the Catechism summarizing the Assumption
 
 **P2 (🟡) *(Exegetical.)*** Three statements a Catholic might make. For each, say whether it is (i) a claim about revealed doctrine, (ii) a theological opinion, or (iii) a historical claim — and say what kind of evidence or act would settle it. 150 words or fewer.
 
 (a) "God can be known with certainty from created things by the light of natural reason."
+
 (b) "Efficacious grace works by a physical premotion rather than through God's knowledge of what a free creature would do."
+
 (c) "The bishops at Trent intended to leave the 'two sources' question open."
 
 **P3 (🔴, optional) *(Exegetical (a) · Evaluative (b).)*** An invented parish bulletin paragraph:

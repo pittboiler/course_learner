@@ -131,22 +131,31 @@ because at $\overline{0}$ the $\mathsf{iszro}$ test selects the *first* branch a
 **P1 (🟢)** For each term, state whether it has a normal form; if so give it, and if not say what it reduces to.
 
 (a) $(\lambda x.\ x\,x)\ (\lambda y.\ y)$
+
 (b) $\Omega = (\lambda x.\ x\,x)\ (\lambda x.\ x\,x)$
+
 (c) $(\lambda x.\ \lambda y.\ x)\ \overline{0}\ \Omega$, reduced in normal order
+
 (d) $(\lambda x.\ x\,x)\ (\lambda x.\ x\,x\,x)$
 
 **P2 (🟡)** The term $t = (\lambda x.\ \mathsf{plus}\ x\ x)\ (\mathsf{plus}\ \overline{1}\ \overline{2})$ has two redexes.
 
 (a) Reduce it outer-redex-first for two steps and say how many copies of `plus 1 2` the term then contains.
+
 (b) Reduce it inner-redex-first for one step and say how many copies it contains.
+
 (c) Both reach $\overline{6}$. State which route does less total work and give the general rule this illustrates.
+
 (d) Name the implementation technique that lets a lazy language take route (a)'s termination behaviour with route (b)'s cost.
 
 **P3 (🔴)** Let $D = \lambda x.\ x\,x$ so that $\Omega = D\,D$.
 
 (a) Show $\Omega \to_\beta \Omega$ in one step, and conclude it has no normal form.
+
 (b) The $Y$ combinator is $\lambda f.\ (\lambda x.\ f\,(x\,x))\ (\lambda x.\ f\,(x\,x))$. State precisely how its body differs from $\Omega$, and what that difference buys.
+
 (c) Now consider $Y\,g$ for $g = \lambda z.\ \overline{5}$, a function that ignores its argument. Reduce $Y\,g$ in normal order and give the normal form. Then reduce it in call-by-value and say what happens.
+
 (d) Part (c) is a term whose normal form exists and whose call-by-value evaluation diverges. Say which theorem in this lesson guarantees normal order finds it, and state in one sentence what this implies about a strict language's `fix`.
 
 <details>
@@ -218,6 +227,7 @@ The implication for a strict language: **its `fix` cannot be defined as $Y$ insi
 $Y$ produces a fixed point too: $Y\,g \to^*_\beta g\,(Y\,g)$.
 
 (a) For $G$ the factorial builder of Example 2, say what the term $G^n(\text{anything})$ corresponds to, and match it against $F^n(\bot)$.
+
 (b) $Y$ produces *a* fixed point. State which one, and give the reason in terms of what a $\beta$-reduction can and cannot do.
 
 <details>

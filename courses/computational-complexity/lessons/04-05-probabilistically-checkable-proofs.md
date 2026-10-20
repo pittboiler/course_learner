@@ -115,8 +115,11 @@ Before 1992, proving a problem hard to approximate meant finding a bespoke gap-p
 **P2 (🟡)** For each parameter setting, name the resulting class or say what is known, with a one-clause reason.
 
 (a) $\mathsf{PCP}(0, O(1))$.
+
 (b) $\mathsf{PCP}(O(\log n), \mathrm{poly}(n))$.
+
 (c) $\mathsf{PCP}(\mathrm{poly}(n), O(1))$.
+
 (d) $\mathsf{PCP}(O(\log n), O(1))$.
 
 **P3 (🔴, optional)** Show that the PCP theorem implies the gap version. (a) Describe the 3CNF formula $\Psi$ built from the verifier, giving its variables and the number of clauses in terms of $r$ and $q$. (b) Prove the completeness direction: $\varphi$ satisfiable implies $\Psi$ satisfiable. (c) Prove the soundness direction, and give the constant $\varepsilon$ in terms of the number of clauses contributed per coin sequence.

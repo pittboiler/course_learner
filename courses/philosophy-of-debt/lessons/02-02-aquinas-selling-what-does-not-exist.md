@@ -100,6 +100,7 @@ One refinement. The van wears with every kilometre, so "not used up" cannot mean
 **P2 (🟡) *(Exegetical (a) · Evaluative (b).)*** An invented case. A pension fund lends 1,000 shares of a listed company to a trader for 90 days, for a fee of 150 dollars. The trader sells them at once, hoping to buy them back more cheaply before the return date. The contract makes the trader owner of the shares until he delivers 1,000 shares of the same company back.
 
 (a) Run a.1 and ad 6 (quoted in P1) on the fee. Is a share a consumptible? Does ownership pass? What use is being paid for, and what verdict follows on Aquinas's reasoning? **Four sentences or fewer.**
+
 (b) A critic compares a second loan: the trader borrows the shares only to pledge them as security for 90 days, returning the very same shares, for the same fee. "On ad 6 that fee is lawful and this one is usury. But the fund's position is identical: it gets 1,000 of the company's shares back on day 90 and bears the same risk that the trader defaults. A principle that condemns one fee and allows the other has put the injustice in the wrong place." Assess the objection. Any verdict; **150 words or fewer.**
 
 **P3 (🔴) *(Exegetical (a) · Evaluative (b).)*** An **invented** online comment, not the words of any real person:
@@ -107,6 +108,7 @@ One refinement. The van wears with every kilometre, so "not used up" cannot mean
 > "Aquinas's usury argument is a textbook circle. His key premise is that a loan of money transfers ownership to the borrower. But that just *is* the claim that the lender has nothing left to charge for. He assumed his conclusion."
 
 (a) The comment aims at the wrong premise. Say which premise it attacks, why that premise does not beg the question against a defender of interest, and which step is the real target. **Three sentences or fewer.**
+
 (b) Using the audience test of [`philosophical-method` 2.3](../../philosophical-method/lessons/02-03-informal-fallacies-and-when-they-arent.md), say against whom the real target begs the question, if anyone. Then give the best reply open to a defender of a.1, and say in one line whether it works. Any verdict; **150 words or fewer.**
 
 <details>

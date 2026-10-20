@@ -93,22 +93,28 @@ Against a 90–110% acceptance window, the method **passes** on accuracy — the
 <summary>Solutions</summary>
 
 **P1**
+
 (a) Variances add in quadrature:
 $$s_\text{total} = \sqrt{0.30^2 + 0.12^2} = \sqrt{0.09 + 0.0144} = \sqrt{0.1044} = 0.323\ \mathrm{mg/L}.$$
+
 (b) Sampling fraction of total variance:
 $$\frac{s_\text{samp}^2}{s_\text{total}^2} = \frac{0.09}{0.1044} = 0.862 = 86\%.$$
+
 (c) Cut **sampling**. Halving $s_\text{samp}$ to $0.15$: $s_\text{total} = \sqrt{0.0225 + 0.0144} = \sqrt{0.0369} = 0.192$ mg/L — a 41% reduction. Halving $s_\text{anal}$ to $0.06$: $s_\text{total} = \sqrt{0.09 + 0.0036} = \sqrt{0.0936} = 0.306$ mg/L — only a 5% reduction. The dominant term controls the total, so effort spent shrinking the small analytical term is nearly wasted. In practice: collect more increments (the $1/\sqrt{n}$ law), don't chase a fancier detector.
 
 **P2**
+
 (a) Recovery:
 $$\%\,\text{recovery} = \frac{C_\text{spiked} - C_\text{unspiked}}{C_\text{added}}\times 100\% = \frac{0.243 - 0.148}{0.100}\times 100\% = \frac{0.095}{0.100}\times 100\% = 95\%.$$
 95% lies inside 90–110%, so the method **passes** on accuracy — good analyte recovery from the rice matrix.
+
 (b) Detection limits (from [1.4](01-04-significance-tests-calibration.md)):
 $$\text{LOD} = \frac{3\,s_\text{blank}}{m} = \frac{3(0.0010)}{0.0500} = \frac{0.0030}{0.0500} = 0.060\ \mathrm{ppm},$$
 $$\text{LOQ} = \frac{10\,s_\text{blank}}{m} = \frac{10(0.0010)}{0.0500} = \frac{0.010}{0.0500} = 0.20\ \mathrm{ppm}.$$
 The 0.148 ppm sample sits below the LOQ of 0.20 ppm — detectable and above the 0.060 ppm LOD, but *not* in the reliably-quantifiable range. You would report it as detected but flag that it is below the LOQ, and consider preconcentrating to pull it above 0.20 ppm.
 
 **P3**
+
 (a) A defensible validation would measure:
 - **Accuracy** — analyze a certified reference water (or spike tap water with a known lead standard); target 85–115% recovery near 15 ppb.
 - **Precision** — replicate a spiked sample within-day (repeatability) and across several days (reproducibility); target RSD ≤ ~10–20% near the action level, tighter higher up.

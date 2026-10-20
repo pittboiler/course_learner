@@ -101,6 +101,7 @@ Peak ordinate $= 2.4$ m (moment per unit load, hence units of length). *Check.* 
 
 **P2** (a) A single point load maxes the response at the influence line's peak, i.e. park it **at $C$** ($x = 4$ m). Then
 $$M_C^{\max} = P \cdot (\text{peak}) = 60 \times 2.4 = 144\ \mathrm{kN\cdot m}.$$
+
 (b) The $M_C$ triangle is entirely positive, so load the **whole span**; response = $w \times$ triangle area:
 $$\text{area} = \tfrac12 (L)(\text{peak}) = \tfrac12(10)(2.4) = 12\ \mathrm{m^2}, \qquad M_C = 12 \times 12 = 144\ \mathrm{kN\cdot m}.$$
 *Check.* Units: kN × m and (kN/m)(m²) both give kN·m ✓. (The two happening to match at 144 is a coincidence of these numbers, not a rule.)

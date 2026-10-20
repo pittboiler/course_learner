@@ -79,8 +79,11 @@ Every renewal passes the price test, since 15 is the benchmark; if there is a wr
 ## Problems
 
 **P1 (🟢) *(Formal (a)–(b) · Exegetical (c))*** An **invented** storefront lender makes one-month, single-payment loans. Each loan costs it 20 dollars to make and collect, whatever its size. Expected default losses are 1.5% of principal a month, and its funds, including a normal return, cost 0.5% of principal a month.
+
 (a) Find the break-even monthly rate on a 250-dollar loan, and its APR and EAR.
+
 (b) A state caps all loans at 36% APR. What is the smallest one-month loan this lender can make without losing money?
+
 (c) Does the cap reprice or ration the 250-dollar loan, and which premise of "The argument" does your answer bear on? Two sentences.
 
 **P2 (🟡) *(Exegetical)*** Diagnose this **invented** op-ed paragraph, not the words of any real person:

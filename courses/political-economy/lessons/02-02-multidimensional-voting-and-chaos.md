@@ -99,6 +99,7 @@ Move one voter from $(8,7)$ to $(8,9)$. In direction $d = (-1,1)$ the products $
 **P1 (🟢)** *(Formal (a)–(b).)* Three voters have Euclidean preferences with ideal points $A = (0,1)$, $B = (8,5)$, $C = (4,9)$. The status quo is $q = (3,5)$.
 
 (a) Find the point $p$ on the line through $A$ and $B$ closest to $q$, and show by squared distances that $p$ beats $q$.
+
 (b) Find the point $r$ on the line through $A$ and $C$ closest to $p$, and show that $r$ beats $p$. Then compare $q$ with $r$. What have you built?
 
 **P2 (🟡)** *(Formal (a)–(b) · Exegetical (c).)* A three-member council sets parks spending $q_1$ and roads spending $q_2$. Utilities are separable quadratics $u_i(q) = -a_i (q_1 - x_{i1})^2 - b_i (q_2 - x_{i2})^2$:
@@ -108,12 +109,15 @@ Move one voter from $(8,7)$ to $(8,9)$. In direction $d = (-1,1)$ the products $
 - member 3: ideal $(8,5)$, weights $a = 4$, $b = 1$
 
 (a) The council's rules allow amendments to one budget line at a time. Find the structure-induced equilibrium and show that no admissible amendment beats it.
+
 (b) Show that $(6,4)$ beats it by majority.
+
 (c) An invented memo: "The council has passed the same parks-and-roads budget for ten years, which proves this budget is what a majority of members prefers to any alternative." In two sentences, say what the memo assumes and which model explains the stability without that assumption.
 
 **P3 (🔴, optional)** *(Formal (a)–(b).)* Four voters have Euclidean preferences with ideal points $A = (1,2)$, $B = (8,1)$, $C = (7,8)$, $D = (2,7)$.
 
 (a) Find a point that no other point beats by strict majority (that is, by at least 3 of 4), and prove it with Theorem 1.
+
 (b) A fifth voter joins at $E = (6,4)$. Show that your point from (a) is now beaten, by exhibiting a point that beats it.
 
 <details>

@@ -124,17 +124,21 @@ and the guilty go free with probability tending to $1 - 12^{-1/2} \approx 0.711$
 **P1 (🟢) *(Formal (a)–(b).)*** A five-member board votes by majority. With probability $\rho = \frac14$ a consultant's report reaches every member and each votes as it says; the report is right with probability $r = \frac35$. Otherwise members vote independently, each right with probability $0.65$.
 
 (a) Find one member's probability of being right, and the board's.
+
 (b) The consultant claims a large enough board will be right 95 percent of the time. Find the limit of the board's accuracy as it grows, and the largest $\rho$ (with $r$ and $0.65$ fixed) for which the claim could hold.
 
 **P2 (🟡) *(Formal (a)–(c).)*** A tribunal convicts only unanimously. The prior probability of guilt is $\frac13$; each member's private signal is correct with probability $\frac45$, independently given the truth; a member wants to convict iff her probability of guilt exceeds $\frac34$. Exact fractions.
 
 (a) For a member with an innocent signal on a three-member tribunal, find her posterior alone, and conditional on being pivotal when the other two vote their signals.
+
 (b) Is sincere voting a Bayes–Nash equilibrium with three members? Check both signals.
+
 (c) Find the smallest tribunal size at which sincere voting fails, and the pivotal posterior there.
 
 **P3 (🟡) *(Formal (a) · Exegetical (b).)*** An invented court-reform memo: "Under unanimity an innocent defendant is convicted only if every juror errs. Jurors are right four times in five, so a twelve-person jury convicts the innocent with probability $(1/5)^{12}$, about 4 in a billion, and every juror we add makes wrongful conviction rarer."
 
 (a) Check the memo's arithmetic on its own assumption. Then, with prior $\frac12$ and threshold $q = \frac{9}{10}$, find the pivotal posterior of a juror with an innocent signal on a twelve-person jury whose other members vote their signals. Is sincere voting an equilibrium?
+
 (b) In 100 words or fewer: name the assumption the memo needs, say what Feddersen and Pesendorfer's equilibrium implies for its two claims, and say what would have to be true of real juries for the memo to stand.
 
 <details>
@@ -189,6 +193,7 @@ $$P_5(0.65) = 0.3364 + 0.3124 + 0.1160 = 0.7648,$$
 **From Lesson [4.4](04-04-the-list-pettit-impossibility.md) (The List–Pettit impossibility):** *(Formal (a)–(b).)* A six-member panel judges the agenda $\{p, \neg p, q, \neg q, p\wedge q, \neg(p\wedge q)\}$, each member holding a complete consistent set. Rule $T_t$ accepts a proposition iff at least $t$ members accept it.
 
 (a) Give a profile on which $T_4$, a two-thirds rule, returns an inconsistent set, and name the inconsistent propositions.
+
 (b) Prove that $T_5$ never returns an inconsistent set. $T_5$ satisfies universal domain, anonymity and systematicity, so the List–Pettit theorem says it must fail collective rationality: exhibit a profile showing how.
 
 <details>

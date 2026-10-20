@@ -110,14 +110,17 @@ $$p = \frac{(2)(0.2968)(350)}{0.5} = \frac{207.8}{0.5} = 415.5\ \mathrm{kPa}.$$
 Justified? $T_R = 350/126.2 = 2.77$, $p_R = 0.4155/3.39 = 0.12$. Both deep in the ideal corner (high $T_R$, low $p_R$) — the model is excellent here, error well under 1%.
 
 **P2** (a) $T_R = 150/126.2 = 1.19$, $p_R = 8/3.39 = 2.36$. Moderate temperature, high reduced pressure — expect trouble, and the chart confirms it.
+
 (b) $v_{ideal} = \dfrac{RT}{p} = \dfrac{(0.2968)(150)}{8000} = \dfrac{44.52}{8000} = 5.565\times10^{-3}\ \mathrm{m^3/kg}.$
 True volume: $v = Z\,v_{ideal} = 0.80 \times 5.565\times10^{-3} = 4.452\times10^{-3}\ \mathrm{m^3/kg}.$
 Error of the ideal law: $\dfrac{v_{ideal}-v}{v} = \dfrac{1}{Z}-1 = \dfrac{1}{0.80}-1 = 0.25 = 25\%$ too high. Not safe — you'd size the tank 25% wrong. Use the chart (or tables) here.
 
 **P3** (a) $T = 600+273.15 = 873.15\ \mathrm{K}$, $p = 15\,000\ \mathrm{kPa}$, $R_{water}=0.4615$.
 $$v_{ideal} = \frac{RT}{p} = \frac{(0.4615)(873.15)}{15\,000} = \frac{402.96}{15\,000} = 0.02686\ \mathrm{m^3/kg}, \quad m_{ideal} = \frac{V}{v_{ideal}} = \frac{0.1}{0.02686} = 3.72\ \mathrm{kg}.$$
+
 (b) True mass: $m = \dfrac{V}{v_{table}} = \dfrac{0.1}{0.02491} = 4.01\ \mathrm{kg}.$
 Error: $\dfrac{m_{ideal}-m}{m} = \dfrac{3.72-4.01}{4.01} = -0.073 = -7.3\%$ (ideal undercounts the mass).
+
 (c) Here $Z = v_{table}/v_{ideal} = 0.02491/0.02686 = 0.93 < 1$: the real gas is *denser* than ideal (attraction pulls molecules closer), so a fixed tank actually holds *more* mass than the ideal law predicts. The ideal estimate is low — consistent with $Z<1$. (Sanity: $T_R = 873.15/647.1 = 1.35$, $p_R = 15/22.06 = 0.68$; a $\sim7\%$ deviation is right for that spot on the chart.)
 
 </details>
@@ -131,6 +134,7 @@ Error: $\dfrac{m_{ideal}-m}{m} = \dfrac{3.72-4.01}{4.01} = -0.073 = -7.3\%$ (ide
 
 (a) Inside the dome, specific volume interpolates on quality:
 $$v = v_f + x\,(v_g - v_f) = 0.001061 + 0.60\,(0.8858 - 0.001061) = 0.001061 + 0.60(0.884739) = 0.5319\ \mathrm{m^3/kg}.$$
+
 (b) Mass: $m = \dfrac{V}{v} = \dfrac{0.05}{0.5319} = 0.0940\ \mathrm{kg}.$
 Why no ideal gas: a saturated liquid–vapor mixture sits *on* the vapor dome ($T_R,p_R$ right at the two-phase boundary), where $Z$ deviates wildly and, worse, liquid is present — the ideal-gas model assumes a single dilute gas phase and knows nothing about condensation. You must read the tables and weight by quality.
 

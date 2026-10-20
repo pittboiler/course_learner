@@ -130,14 +130,19 @@ Now the modern version, where students go wrong. Surveys regularly report that l
 **P1 (🟢) *(Exegetical.)*** For each use of the phrase, say whether it is a **correct** or **incorrect** appeal to the *sensus fidei*, and give the one-clause reason.
 
 (a) "A diocesan survey found 70 per cent of respondents favour the change, so the *sensus fidei* supports it."
+
 (b) "Before defining the Assumption, Pius XII asked the bishops of the world what their people believed."
+
 (c) "The faithful have their own sense of the faith, so the laity can determine doctrine independently of the bishops."
+
 (d) "That a devotion has been prayed by ordinary Catholics in every century is evidence about the faith of the Church, to be weighed."
+
 (e) "I have a deep interior conviction about this, so my *sensus fidei* cannot be wrong."
 
 **P2 (🟡) *(Exegetical (a) · Evaluative (b).)*** Using the Newman passages in **Source** above:
 
 (a) Which words in the first passage decide the meaning of "consult" that Newman is defending, and what would it take to read him as making the faithful a court of appeal? Quote the deciding words.
+
 (b) Newman also argued a historical claim about the fourth century, which later historians have qualified. In **150 words or fewer**: does the qualification of the history weaken the doctrinal point he was using it to make? Any verdict — but say exactly which proposition the history was supposed to support, and what else could support it.
 
 **P3 (🔴, optional) *(Exegetical.)*** An invented pastoral memo from a diocesan synod office:
@@ -195,7 +200,9 @@ Name the **four** distinct errors. For each, say whether it is *false*, *oversta
 **F1 (🟡) *(Exegetical.)*** From [5.1](05-01-vincent-of-lerins.md). A parish catechist argues: "The Church has recently begun teaching X. Since Vincent's rule is 'what has been believed everywhere, always, and by all,' and X was not taught in the fourth century, X is a corruption. Vincent's rule forbids all novelty."
 
 (a) Name Vincent's three tests and say which one the catechist is actually applying.
+
 (b) Vincent does not in fact forbid all change — name the distinction he draws, and give the phrase in which he says what true growth must preserve.
+
 (c) In one clause, say what the catechist would still have to show for his conclusion to follow. **120 words or fewer.**
 
 <details>

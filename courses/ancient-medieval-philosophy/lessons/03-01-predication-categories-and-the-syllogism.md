@@ -123,8 +123,11 @@ The strain: nothing in the logic says which way the causation runs. Deciding whi
 **P2 (🟡) *(Formal.)*** Assume, with Aristotle, that every term is non-empty. For (a)–(c), say valid or invalid. If valid and in the first figure, name the mood. If invalid, give a substitution of terms with true premises and a false conclusion. (d) is not a syllogism: say whether the inference holds on Aristotle's square and in modern first-order logic, and name the assumption that makes the difference.
 
 > (a) No reptile nurses its young. Some pets are reptiles. So some pets do not nurse their young.
+>
 > (b) Every Sophist is paid for teaching. Some philosophers are paid for teaching. So some philosophers are Sophists.
+>
 > (c) Some sailors are not Athenians. Every Athenian is a Greek. So some sailors are not Greeks.
+>
 > (d) Every man who has squared the circle with ruler and compass is a geometer. So some man who has squared the circle with ruler and compass is a geometer.
 
 **P3 (🔴, optional) *(Exegetical (a) · Evaluative (b).)*** Use the Source. (a) Which words show that what Aristotle offers is not a demonstration of the principle, and what exactly must the opponent do for it to get started? Why does he refuse to demand that the opponent "say that something either is or is not"? (b) An opponent replies: "I will say 'man,' and I mean two-footed animal. But I do not grant that meaning *this* rules out meaning *not this*." Does the elenctic defence answer this opponent on terms the opponent accepts, or not? 150 words or fewer for (b).

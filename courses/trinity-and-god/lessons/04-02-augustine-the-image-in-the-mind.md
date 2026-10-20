@@ -96,8 +96,11 @@ What stays genuinely open is not whether Augustine avoided the error, but whethe
 ## Problems
 
 **P1 (🟢) *(Exegetical.)*** Sort each claim into **defined dogma**, **the Latin tradition's explanation**, or **Augustine's likeness drawn from a creature**, and name in one clause the act (or the absence of any act) that fixes the level.
+
 (a) There are three persons in one divine nature.
+
 (b) The Son proceeds as a word proceeds from the mind's knowledge.
+
 (c) Memory, understanding and will in the human mind are an image of the Trinity.
 One sentence per item.
 
@@ -112,6 +115,7 @@ One sentence per item.
 > Think about your own soul for a moment. You remember, you understand, you choose — three powers, one you. The Trinity is just like that. The Father is God's memory, the Son is God's understanding, and the Spirit is God's will. Three things the one divine mind does. So when we say three persons, we mean the three ways the one God operates.
 
 (a) Name the heresy this lands in and the single move that lands there, and cite the place where Augustine himself rules it out. Two sentences.
+
 (b) Any verdict: given how easily the analogy slides into (a), does Book 15 show the analogy to be a well-guarded instrument or one whose cost exceeds its yield? 120 words or fewer.
 
 <details>
@@ -120,8 +124,11 @@ One sentence per item.
 **P1** *(Exegetical.)*
 
 **Must hit, strict:**
+
 (a) **Defined dogma**, rung 1. Fixed by solemn conciliar act: the creeds of Nicaea and 381, and the Latin texts of [3.4](03-04-the-latin-rules-of-speech.md), propose it as divinely revealed and to be believed. Credit for naming any one of those acts.
+
 (b) **The Latin tradition's explanation.** No magisterial act proposes it; it is Augustine's, systematized by Aquinas, and sits below the seam as a theologians' question, freely disputed in its details. The answer must say that no act proposes it — that absence is what fixes the level.
+
 (c) **Augustine's likeness drawn from a creature**, and below the seam likewise: an image read in the light of a faith already held, and stated by its author as obscure. Credit for noting that *man is made in God's image* is scriptural, while *the mind's triad images the Trinity specifically* is Augustine's construction; the doctrine of the *imago Dei* itself is ceded to `creation-grace-last-things`.
 
 **Wrong turns:** promoting (b) or (c) by appeal to how long the tradition has held them, or to Aquinas's authority — neither is a magisterial act, and the ladder grades acts. Demoting (a) to "the Church's way of speaking" because the explanation of it is disputed. Answering (c) by asking how *important* the claim is rather than which act proposed it.

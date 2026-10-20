@@ -108,15 +108,19 @@ In the first round the R-voters approve C because they prefer it to the leader L
 - 3 voters: $(2, 6, 10, 0)$
 
 (a) Each voter approves exactly the candidates above her mean utility. Find the ballots, the approval winner, the plurality winner and the Condorcet winner.
+
 (b) Voters now follow the leader rule, using (a)'s approval scores as the poll. Find the new ballots and the winner.
 
 **P2 (🟡) *(Formal (a) · Exegetical (b).)*** (a) Build a profile with the fewest voters possible in which a candidate ranked first by a strict majority loses under approval voting, although every ballot is sincere and non-empty. Prove that fewer voters cannot do it.
+
 (b) Does your profile show approval voting violating an axiom of Theorem 2? Two sentences.
 
 **P3 (🔴, optional) *(Formal (a)–(c).)*** Vee ranks A ≻ B ≻ C with utilities 10, 7, 0. Ties are broken alphabetically.
 
 (a) The other voters' ballots give A 5, B 6, C 3 approvals. Vee's mean-threshold ballot is {A, B}. Find the winner, then a sincere ballot that does strictly better for her.
+
 (b) Now the others give A 3, B 6, C 7. Show that a sincere ballot different from the one in (a) is now optimal.
+
 (c) Say which ballot the leader rule recommends in (a) and in (b), treating the others' scores as the poll.
 
 <details>
@@ -172,6 +176,7 @@ Pairwise: Y beats X 7–5 (the 4- and 3-voter groups), W 7–5, and Z 8–4. **C
 **From Lesson [5.2](05-02-when-the-jury-theorem-fails.md) (When the jury theorem fails):** *(Formal (a)–(b).)* A safety board decides by simple majority whether to close a bridge. The bridge is unsafe ($U$) or sound ($S$), each with prior probability $\frac12$. Each member privately gets an alarm or a clear reading, independently given the state, with $\Pr(\text{alarm} \mid U) = \frac35$ and $\Pr(\text{clear} \mid S) = \frac45$. Each member wants to close iff her probability of $U$ exceeds $\frac12$. Exact fractions.
 
 (a) Find a member's posterior on $U$ alone, for each reading. Then, on a three-member board whose other two members vote their readings, find each reading's pivotal posterior. Is voting one's reading a Bayes–Nash equilibrium?
+
 (b) Find the pivotal posterior of a member with a clear reading on a five-member board, and say whether sincere voting survives. In one sentence, say why a split among the others is evidence here, when with 5.1's symmetric signals it would cancel.
 
 <details>

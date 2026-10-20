@@ -96,19 +96,25 @@ The SLR(1) construction yields **11 states and exactly one conflict**: in the st
 **P1 (🟢)** For the grammar $S' \to S$, $S \to (\,S\,) \mid \texttt{x}$:
 
 (a) Give the closure of $\{S' \to \cdot\,S\}$ — list every item.
+
 (b) Compute $\mathrm{goto}$ of that state on `(`, on `x`, and on $S$.
+
 (c) State how many states the full LR(0) automaton has.
 
 **P2 (🟡)** For each situation, classify the conflict as shift-reduce or reduce-reduce, and say in one sentence what the parser cannot decide.
 
 (a) A state contains $E \to E \cdot + T$ and $E \to E + T \cdot$, with `+` in $\mathrm{FOLLOW}(E)$.
+
 (b) A state contains $A \to \texttt{x} \cdot$ and $B \to \texttt{x} \cdot$, with $\mathrm{FOLLOW}(A) \cap \mathrm{FOLLOW}(B) \ne \emptyset$.
+
 (c) A state contains $S' \to \cdot\,\texttt{e}\,S$ and $S' \to \cdot$, with `e` in $\mathrm{FOLLOW}(S')$.
 
 **P3 (🔴)** The grammar $S \to A\,\texttt{a} \mid \texttt{b}\,A\,\texttt{c} \mid B\,\texttt{c} \mid \texttt{b}\,B\,\texttt{a}$, $A \to \texttt{d}$, $B \to \texttt{d}$ is the classic example of a grammar that is LALR(1)-problematic.
 
 (a) After reading the single token `d` from the start state, which two complete items are in the resulting state?
+
 (b) Compute $\mathrm{FOLLOW}(A)$ and $\mathrm{FOLLOW}(B)$, and use them to show that the **SLR(1)** construction has a reduce-reduce conflict in that state. Name the lookahead tokens on which it conflicts.
+
 (c) An LR(1) item carries its own lookahead, written $[A \to \texttt{d}\cdot,\ a]$. Explain in two sentences why the LR(1) construction has no conflict here, and say what it is using that SLR(1) throws away.
 
 <details>
@@ -167,6 +173,7 @@ What SLR(1) throws away is **context**. $\mathrm{FOLLOW}(A)$ pools every token t
 **From Lesson 1.4 (Recursive descent, LL(1) and precedence climbing):** The grammar $E \to E + T \mid T$, $T \to \texttt{n}$ is parsed directly by the LR automaton in the Picture, with no transformation.
 
 (a) Compute $\mathrm{FIRST}(E)$ and $\mathrm{FIRST}(T)$ for this grammar, build the two LL(1) cells for $E$ on lookahead `n`, and state the conflict.
+
 (b) Recursive descent needed the transformed grammar plus a loop-accumulator to recover left-associativity. Say in one sentence what LR does instead, pointing at a specific item in the Picture.
 
 <details>

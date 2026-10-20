@@ -148,13 +148,17 @@ Contrast the $d=3$ row: same shape, shifted. The gap opens at $n = 4$ instead of
 $$\mathcal H = \bigl\{\, h_{a,b}(x) = \mathbf 1[a \le x \le b] \;:\; a \le b \,\bigr\}.$$
 
 (a) Exhibit a set of two points that $\mathcal H$ shatters, naming a witness hypothesis for each of the four labellings. Use a different pair from the lesson's $\{1,2\}$.
+
 (b) Prove that $\mathcal H$ shatters no set of three points. Be explicit about the quantifier: your argument must cover every triple, not one you chose.
+
 (c) State $\mathrm{VCdim}(\mathcal H)$ and check $\Pi_{\mathcal H}(3)$ against Sauer's bound.
 
 **P2 (🟡)** A class $\mathcal H$ has $\mathrm{VCdim}(\mathcal H) = 3$.
 
 (a) Evaluate the Sauer bound $\sum_{i=0}^{3}\binom{n}{i}$ at $n = 3, 4, 8, 20$ and put each next to $2^n$.
+
 (b) At which $n$ does the bound first fall strictly below $2^n$? Prove that for a class of VC dimension $d$ this always happens at $n = d+1$ — and not before.
+
 (c) In one or two sentences: why is that the interesting point, and what would break in [3.4](03-04-vc-bounds-and-sample-complexity.md)'s generalization bound if the growth function stayed exponential in $n$?
 
 **P3 (🔴)** Half-planes in the plane,
@@ -164,6 +168,7 @@ $$\mathcal H = \bigl\{\, x \mapsto \mathbf 1[w^\top x + b \ge 0] \;:\; w \in \ma
 Prove $\mathrm{VCdim}(\mathcal H) = 3$.
 
 (a) *Lower bound.* Give three specific points and, for each of the eight labellings, a specific $(w, b)$ that realises it. Then say precisely why exhibiting *one* such triple suffices, even though other triples of three points are not shattered.
+
 (b) *Upper bound.* Show no set of four points is shattered. Split into the two possible configurations of four points in the plane and handle both; degenerate cases (three or four collinear points, repeated points) must land in one of your cases.
 
 <details>
@@ -255,6 +260,7 @@ $$n \;\ge\; \frac{1}{\epsilon}\ln\frac{1}{\delta}$$
 samples suffice.
 
 (a) How many samples does that require at $\epsilon = 0.02$, $\delta = 0.10$?
+
 (b) 3.2's general finite-class bound says *nothing whatsoever* about this class. Say why in one sentence, name the quantity that takes over the role of $\ln|\mathcal H|$, and give $\mathrm{VCdim}$ of the threshold class — then check that the VC route predicts the same shape of dependence on $\epsilon$ that 3.1 got directly.
 
 <details>

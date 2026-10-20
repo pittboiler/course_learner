@@ -95,18 +95,27 @@ Under this model rasterization does about **nine times fewer** operations than a
 ## Problems
 
 **P1 (🟢)** A 1440p gaming monitor is $2560 \times 1440$ and refreshes at 144 Hz. Colour is stored as 10 bits per RGB channel plus 2 bits of alpha, packed into 32 bits.
+
 (a) How many bytes does one colour buffer occupy? Give the answer in MiB too.
+
 (b) How many **gigabits per second** of pixel data leave the GPU if every frame is sent uncompressed?
 
 **P2 (🟢)** For each task, name the stage of the rasterization pipeline that performs it (vertex processing, clipping, rasterization, fragment shading, or visibility), and give a one-clause reason.
+
 (a) Deciding that pixel $(300, 200)$ is inside a particular triangle.
+
 (b) Deciding which of two overlapping triangles is nearer at pixel $(300, 200)$.
+
 (c) Moving a character's vertices from its own coordinate system into the world.
+
 (d) Cutting off the part of a triangle that pokes behind the camera.
+
 (e) Looking up the colour of a brick texture for one pixel.
 
 **P3 (🟡)** Use this lesson's cost model with $c = 2$ and depth complexity $d = 2.5$ at 1080p ($WH = 2{,}073{,}600$).
+
 (a) Compute the raster and hierarchical ray-casting operation counts for $N = 10^7$ triangles and for $N = 10^8$ triangles, and say which is cheaper in each case.
+
 (b) The crossover is near $N \approx 3.3 \times 10^7$ at 1080p. Without recomputing, does moving to 4K push the crossover to **more** or **fewer** triangles? Justify from the form of the two formulas.
 
 <details>
@@ -129,9 +138,13 @@ That is why display cables are specified in tens of gigabits per second, and why
 **P2**
 
 (a) **Rasterization** — it is the coverage test of a pixel centre against a triangle.
+
 (b) **Visibility** (the depth test) — it compares the two fragments' depths at that pixel and keeps the nearer.
+
 (c) **Vertex processing** — it is a matrix multiply (the model matrix) applied per vertex.
+
 (d) **Clipping** — geometry outside the view volume, including behind the eye, is cut before rasterization.
+
 (e) **Fragment shading** — texture lookups happen per fragment, using interpolated texture coordinates.
 
 **P3**

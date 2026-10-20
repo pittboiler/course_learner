@@ -85,7 +85,9 @@ This is where the principle strains. Kant's verdict follows from an unconditiona
 **P1 (🟢) *(Exegetical.)*** On O'Neill's possible-consent reading, does each agent use someone *merely* as a means? Name the feature that decides it. One sentence each.
 
 (a) A shopper pays the listed price for a sandwich.
+
 (b) A landlord hides a known mould problem so that a tenant will sign a lease.
+
 (c) An employer interviews five candidates under announced criteria, hires one, and rejects the other four.
 
 **P2 (🟡) *(Exegetical (a) · Evaluative (b).)*** Dana tells her friend Sam that they are going to a quiet dinner, so that Sam will walk into his own surprise birthday party. Sam loves surprise parties and would say, if asked in general, that he is glad his friends do this.

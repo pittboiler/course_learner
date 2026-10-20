@@ -110,8 +110,11 @@ And all of it stands under the judgement of the Church, which is charged with gu
 **P1 (🟢) *(Exegetical.)*** For each statement, give the level at which it is taught — or say that it is disputed — and name the act or document that fixes it. One sentence each.
 
 (a) The books of Scripture have God as their author.
+
 (b) Inspiration extends to the whole of Scripture, not only to matters of faith and morals.
+
 (c) The clause "for the sake of our salvation" limits inerrancy to matters bearing on salvation.
+
 (d) A biblical writer describing the sun's course is speaking of appearances in the ordinary language of his day.
 
 **P2 (🟡) *(Exegetical (a) · Evaluative (b).)*** (a) In one sentence each, say what the restrictive and the non-restrictive readings take the clause *for the sake of our salvation* to be doing, and name the single premise each side must deny in the other. (b) A friend says the drafting history settles it, since "saving truth" was removed from the draft. In 150 words or fewer, say what that fact does and does not establish, and argue for one reading — any verdict — stating the strongest consideration against you.

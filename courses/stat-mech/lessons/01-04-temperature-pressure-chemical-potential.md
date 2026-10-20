@@ -79,15 +79,18 @@ Energy is linear in temperature, with $\alpha N$ playing the role of "how many w
 
 **P1** (a) $\ln\Omega = aN\ln E + \text{const}$, so
 $$\beta = \frac{\partial\ln\Omega}{\partial E} = \frac{aN}{E}, \qquad \frac{1}{T} = k_B\beta = \frac{aNk_B}{E} \;\Longrightarrow\; T = \frac{E}{aNk_B}.$$
+
 (b) Invert: $E = aNk_BT$ — energy linear in $T$, slope $aNk_B$. (c) Matching $aNk_B = \tfrac{3}{2}Nk_B$ gives $a = \tfrac{3}{2}$. (The exponent counts the quadratic energy-storage modes: $3$ translational directions $\times \tfrac12$.)
 
 **P2** (a) With $n = E/\epsilon$ excited spins,
 $$\frac{S}{k_B} = \ln\binom{N}{n} \approx N\ln N - n\ln n - (N-n)\ln(N-n),$$
 using $\ln N! \approx N\ln N - N$ (the $-N$ terms cancel: $-N + n + (N-n) = 0$). So
 $$S(E) = k_B\Big[N\ln N - n\ln n - (N-n)\ln(N-n)\Big], \quad n = \tfrac{E}{\epsilon}.$$
+
 (b) Since $E = n\epsilon$, $\dfrac{\partial}{\partial E} = \dfrac1\epsilon\dfrac{\partial}{\partial n}$. Differentiating (the $\ln N$ term is constant in $n$):
 $$\frac{\partial S}{\partial n} = k_B\big[-\ln n - 1 + \ln(N-n) + 1\big] = k_B\ln\frac{N-n}{n},$$
 $$\boxed{\;\frac{1}{T} = \frac{\partial S}{\partial E} = \frac{k_B}{\epsilon}\ln\frac{N-n}{n}\;} \quad\Longrightarrow\quad T = \frac{\epsilon}{k_B\ln\!\big(\tfrac{N-n}{n}\big)}.$$
+
 (c) When $n < N/2$ (less than half excited, $E < N\epsilon/2$): $\frac{N-n}{n}>1$, the log is positive, $T>0$. At $n = N/2$ ($E = N\epsilon/2$): the log is $0$, so $1/T = 0$ and $T = \pm\infty$ — entropy is *maximal*, adding energy no longer buys microstates. For $n > N/2$ ($E > N\epsilon/2$): more than half the spins are excited (**population inversion**), $\frac{N-n}{n}<1$, the log is **negative**, so $T < 0$.
 
 *Physical meaning:* negative temperature is only possible because the energy spectrum is **bounded above** ($E \le N\epsilon$) — you can't do this with a gas, whose energy has no ceiling. Past half-filling, adding energy *reduces* the number of microstates ($\partial S/\partial E < 0$), so the system is "more than full." A negative-$T$ system dumps energy into any positive-$T$ system it touches, making it **hotter than $T = +\infty$**: the ordering by hotness runs $+0 \to +\infty \equiv -\infty \to -0$. Population inversion is exactly the lasing condition — a laser's active medium is, briefly, at negative temperature.

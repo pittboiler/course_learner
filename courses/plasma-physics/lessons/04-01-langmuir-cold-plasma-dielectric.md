@@ -144,14 +144,17 @@ Since $v_g$ is a fraction of the (small) thermal speed — and vanishes entirely
 
 **P2** (a) $n_0=1.2\times10^{12}\ \mathrm{m^{-3}}=1.2\times10^{6}\ \mathrm{cm^{-3}}$, so
 $$f_p\approx 8.98\times10^{3}\sqrt{1.2\times10^{6}}=8.98\times10^{3}(1.095\times10^{3})\approx 9.8\times10^{6}\ \mathrm{Hz}\approx 9.8\ \mathrm{MHz}.$$
+
 (b) The $5\ \mathrm{MHz}$ signal has $f<f_p$ → **reflects** (skips back to Earth — long-distance shortwave). The $15\ \mathrm{MHz}$ signal has $f>f_p$ → **escapes to space**.
 
 *Check.* Ionospheric critical frequencies really do sit at a few–10 MHz, and the shortwave band straddles the cutoff — matching the everyday fact that lower HF bands "skip" farther. ✓
 
 **P3** (a) At $\omega=0.8\,\omega_p$, $\varepsilon=1-1/0.8^2=1-1.5625=-0.5625<0$. The EM dispersion $k^2c^2=\omega^2\varepsilon$ then gives $k^2<0$, so $k=i\kappa$ is pure imaginary; $e^{ikx}=e^{-\kappa x}$ decays. With $k^2c^2=\omega^2-\omega_p^2$ (from $\omega^2=\omega_p^2+c^2k^2$), $\kappa^2=(\omega_p^2-\omega^2)/c^2$, so the field falls as $e^{-x/\delta}$ with
 $$\delta=\frac{1}{\kappa}=\frac{c}{\sqrt{\omega_p^2-\omega^2}}.$$
+
 (b) $\omega_p^2-\omega^2=\omega_p^2(1-0.64)=0.36\,\omega_p^2$, so $\sqrt{\omega_p^2-\omega^2}=0.6\,\omega_p=3.38\times10^{10}\ \mathrm{s^{-1}}$, and
 $$\delta=\frac{3\times10^{8}}{3.38\times10^{10}}\approx 8.9\times10^{-3}\ \mathrm{m}\approx 0.9\ \mathrm{cm}.$$
+
 (c) $\omega=\omega_p$, the root of $\varepsilon(\omega)=0$. A longitudinal mode needs a field that sustains itself with no drive; $\varepsilon=0$ is exactly the condition for a nonzero $E$ with zero external charge — the cold plasma oscillation.
 
 *Check.* $\delta=c/\sqrt{\omega_p^2-\omega^2}$: as $\omega\to\omega_p^-$ the skin depth $\to\infty$ (the wave *just* gets in — a cutoff), and deep below cutoff ($\omega\ll\omega_p$) it shrinks to the collisionless skin depth $c/\omega_p$. Both limits make sense. ✓

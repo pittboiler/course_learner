@@ -140,8 +140,11 @@ Two consequences follow that are worth recognizing in practice. Commit latency i
 **P1 (🟢)** For each situation, state whether recovery must **undo**, **redo**, or do **nothing**.
 
 (a) A transaction committed; its updated page is still dirty in memory at the crash.
+
 (b) A transaction did not commit; its updated page reached disk before the crash.
+
 (c) A transaction committed and its updated page reached disk before the crash.
+
 (d) A transaction did not commit and its updated page never reached disk.
 
 **P2 (🟡)** A log holds these records, with a fuzzy checkpoint at LSN 30 recording dirty pages $\{P_1 \to 20\}$ and active transactions $\{T_1 \to 20\}$:
@@ -160,15 +163,21 @@ Two consequences follow that are worth recognizing in practice. Commit latency i
 Then the machine crashes. On disk, $P_1$ has pageLSN 20 and $P_2$ has pageLSN 0.
 
 (a) Give the dirty page table and the transaction table after analysis, and name the losers and winners.
+
 (b) Give the LSN the redo pass starts from, and for each update record state whether it is redone or skipped, with the reason.
+
 (c) Give the undo actions in order, with the CLR's LSN and `undoNext` value for each.
+
 (d) Give the final values of $P_1$ and $P_2$, and justify each in one clause.
 
 **P3 (🔴, optional)** A system uses **no-steal** and **force** instead of steal and no-force.
 
 (a) State which of undo and redo the recovery algorithm still needs, and why the other is unnecessary.
+
 (b) A transaction updates 400 distinct pages. Give the number of page writes its commit triggers under force, and compare with no-force.
+
 (c) The buffer pool has 300 frames and a transaction needs to modify 400 distinct pages. State what happens under no-steal and why.
+
 (d) A colleague proposes keeping steal and no-force but logging only after images, arguing that redo alone suffices because "we can always replay the log from the beginning." Give the precise scenario that breaks this, and state what it would cost to make the proposal work.
 
 <details>
@@ -257,7 +266,9 @@ The disk now holds an uncommitted value. Recovery must restore the original, and
 **From Lesson 4.4 (isolation levels & MVCC):** A hospital requires at least one doctor on call. Two doctors, Adeyemi and Bhatt, are both on call. Under **snapshot isolation**, $T_1$ removes Adeyemi and $T_2$ removes Bhatt, concurrently; each reads the roster and checks that one will remain.
 
 (a) Give the final roster if both commit.
+
 (b) State whether snapshot isolation aborts either transaction, with the reason in terms of its conflict rule.
+
 (c) Name the anomaly and give one fix that does not change the isolation level.
 
 <details>

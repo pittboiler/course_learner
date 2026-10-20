@@ -89,7 +89,9 @@ In words: knocking the plutonium down by $200\times$ is like fast-forwarding the
 <summary>Solutions</summary>
 
 **P1** Activity $A=\lambda N=\frac{\ln 2}{T_{1/2}}N$; equal $N$, so activity ratio = inverse half-life ratio.
+
 (a) $\dfrac{A_{\text{Cs}}}{A_{\text{I}}}=\dfrac{T_{1/2,\text{I}}}{T_{1/2,\text{Cs}}}=\dfrac{1.6\times10^{7}}{30}\approx 5\times10^{5}$. Cesium-137 is about **half a million times more active** at discharge — it's a big share of the early activity and heat.
+
 (b) Iodine-129: at $10^4$ yr, $n=10^4/1.6\times10^7\approx 6\times10^{-4}$ half-lives, so $2^{-6\times10^{-4}}\approx 0.9996$ — **essentially all its atoms remain** (Cs-137 is long gone, $\sim2^{-333}$). One sentence: the short-lived Cs-137 drives near-term activity and decay heat but vanishes in centuries, while the near-stable I-129 contributes negligible activity yet persists for geologic time — and being a mobile, soluble species it becomes a *long-term repository dose* concern precisely because it doesn't decay away.
 
 **P2** Reaching the ore line means dropping the hazard by a factor of $10^4$. Number of halvings: $\log_2 10^4 = 4\log_2 10 = 4(3.32)=13.3$ half-lives. At $\sim$20,000 yr each: $13.3\times 20{,}000\approx 2.7\times10^{5}$ yr — a few hundred thousand years, consistent with the once-through story.

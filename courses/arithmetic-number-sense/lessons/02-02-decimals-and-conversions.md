@@ -78,8 +78,11 @@ The trick in the middle: to turn a denominator of $2^3$ into a power of ten, sup
 <summary>Solutions</summary>
 
 **P1**
+
 (a) Pad to three places and align points: $6.400 + 0.850 + 12.375$. Adding thousandths: $0+0+5=5$; hundredths $0+5+7=12$, write 2 carry 1; tenths $4+8+3+1=16$, write 6 carry 1; ones $6+0+2+1=9$; tens $1$. Result $\boxed{19.625}$.
+
 (b) $6 \times 5 = 30$; places $1 + 2 = 3$, so $0.030 = \boxed{0.03}$.
+
 (c) $40 = 2^3 \cdot 5$, so it terminates. Supply the missing factor to reach a power of ten: $\tfrac{7}{40} = \tfrac{7 \times 25}{40 \times 25} = \tfrac{175}{1000} = 0.175 = \boxed{17.5\%}$.
 
 **P2**

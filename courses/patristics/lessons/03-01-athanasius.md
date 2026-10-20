@@ -107,6 +107,7 @@ Two things are worth noticing. First, the reply concedes the fact and disputes t
 **P3 (🔴, optional) *(Exegetical (a) · Evaluative (b).)*** *On the Incarnation* never names Arius and never uses Nicaea's vocabulary.
 
 (a) That silence is read as evidence of an early date. Give the reason someone holding a late date can offer for the same silence, drawn from the treatise's own stated purpose and addressee. One or two sentences.
+
 (b) A writer wants to cite *On the Incarnation* to show that Athanasius already held the Son's full divinity **before** Nicaea. In 150 words, any verdict: say what the disputed date does to that argument, and what would have to be shown for it to go through.
 
 <details>

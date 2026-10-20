@@ -98,6 +98,7 @@ $$\left\lVert \begin{pmatrix} 2x \\ 2x_1 + 3 \end{pmatrix} \right\rVert_2 \le 2x
 
 **P2** (a) With $P^\top = \tfrac12 I$, the worst-case value is $\sup_{\lVert u\rVert_2\le1}(\bar a + Pu)^\top x = \bar a^\top x + \lVert P^\top x\rVert_2 = (x_1 + x_2) + \tfrac12\lVert x\rVert_2$. The robust constraint is
 $$x_1 + x_2 + \tfrac12\lVert x\rVert_2 \le 4.$$
+
 (b) At $x = (3, 0)$: nominal part $x_1 + x_2 = 3$; margin $\tfrac12\lVert(3,0)\rVert_2 = \tfrac12(3) = 1.5$. Robust left side $= 3 + 1.5 = 4.5 > 4$, so $x = (3,0)$ is **not** robustly feasible. The worst-case $a$ is the maximizer $a = \bar a + P\,\frac{P^\top x}{\lVert P^\top x\rVert_2}$; here $P^\top x = \tfrac12(3,0) = (1.5, 0)$, so the unit direction is $(1, 0)$ and $a = (1,1) + \tfrac12(1, 0) = (1.5,\, 1)$. Check: $a^\top x = 1.5\cdot 3 + 1\cdot 0 = 4.5 > 4$. ✓ (Nominal price would have said $a^\top x = 3 \le 4$, "affordable" — robustness catches what the nominal model misses.)
 
 **P3** (a) *Cone.* Let $(x,t) \in \mathcal{Q}$, so $\lVert x\rVert_2 \le t$, and let $\theta \ge 0$. Then $\lVert \theta x\rVert_2 = \theta\lVert x\rVert_2 \le \theta t$ (homogeneity of the norm, and $\theta \ge 0$ preserves the inequality). Hence $(\theta x, \theta t) \in \mathcal{Q}$.

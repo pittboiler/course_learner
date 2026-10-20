@@ -85,11 +85,15 @@ Relabel $\{0,1,2\}$ as $\{1,2,3\}$ if you prefer $S_3$'s usual names. The map $\
 ## Problems
 
 **P1 (🟢)** Let $G = \mathbb{Z}/4\mathbb{Z} = \{0,1,2,3\}$ act on $X = \{0,1,2,3\}$ by $g \cdot x = (x + g) \bmod 4$.
+
 (a) Verify the two action axioms.
+
 (b) Write the permutation representation $\varphi : \mathbb{Z}/4\mathbb{Z} \to S_4$ by giving $\sigma_g$ in cycle notation for each $g$.
 
 **P2 (🟡)** For any group $G$, define the **conjugation action** of $G$ on itself by $g \cdot x = g x g^{-1}$.
+
 (a) Show this is a group action (check both axioms).
+
 (b) Show its kernel — the set of $g$ acting as the identity permutation — is exactly the center $Z(G) = \{g : gx = xg \text{ for all } x\}$.
 
 **P3 (🔴)** Prove Cayley's theorem: for any group $G$, the left-multiplication action $g\cdot x = gx$ on $X = G$ is faithful, and conclude $G$ embeds in $\mathrm{Sym}(G)$ (so $G \hookrightarrow S_{|G|}$ when $G$ is finite).

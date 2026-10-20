@@ -100,10 +100,13 @@ So a field line wraps $3.3$ times the long way for each time around the short wa
 <summary>Solutions</summary>
 
 **P1.** Mirror ratio $R_m = B_{\max}/B_{\min} = 12/2 = 6$.
+
 (a) $\sin\theta_c = \sqrt{1/R_m} = \sqrt{1/6} = 0.408$, so $\theta_c = \arcsin(0.408) = 24.1^\circ$.
+
 (b) $f = 1 - \sqrt{1 - 1/6} = 1 - \sqrt{0.8333} = 1 - 0.9129 = 0.087$, about $9\%$ of the population sits in the loss cone at any instant. Since collisions continually scatter particles *back into* the empty cone, this fraction leaks out, is refilled, and leaks again — a steady, unavoidable drain. A mirror can't reach reactor-grade confinement by plugging harder; you have to remove the ends entirely. That's the case for the torus.
 
 **P2.** (a) $q \approx \dfrac{r B_t}{R B_p} = \dfrac{(0.8)(4)}{(2.5)(0.4)} = \dfrac{3.2}{1.0} = 3.2$. Rotational transform $\iota = 2\pi/q = 6.283/3.2 = 1.96\,\text{rad}$; in degrees, $360^\circ/q = 360/3.2 = 112.5^\circ$ of poloidal advance per toroidal loop.
+
 (b) Because $\iota \neq 0$, each field line spirals over the top and under the bottom of the plasma, so a particle following it is pushed outward (on top) and inward (on bottom) in turn — the vertical drift averages to nearly zero — while electrons stream along the connected line to neutralize the charge-separation $\mathbf{E}$ before an $E\times B$ ejection can build.
 
 **P3.** Convert: $10\,\text{keV} = 10^4 \times 1.602\times10^{-19}\,\text{J} = 1.602\times10^{-15}\,\text{J}$; $q = 1.602\times10^{-19}\,\text{C}$.
@@ -120,9 +123,11 @@ Roughly $670\,\text{m/s}$ vertically. But that's not what ejects the plasma dire
 <summary>Solution</summary>
 
 The alpha (self-heating) fraction of fusion power is $f_\alpha = 3.5/17.6 = 0.199$.
+
 (a) Alpha heating relative to external heating is
 $$\frac{P_\alpha}{P_\text{heat}} = \frac{f_\alpha\, P_\text{fus}}{P_\text{heat}} = f_\alpha\, Q = (0.199)(8) = 1.59,$$
 so the alphas deliver about $1.6\times$ the external heating.
+
 (b) Yes: $P_\alpha/P_\text{heat} = 1.59 \geq 1$, so it's a burning plasma — self-heating dominates the external drive. (The threshold is $f_\alpha Q = 1$, i.e. $Q \approx 5$; full ignition, needing no external heat at all, is $Q \to \infty$.) None of that matters, of course, unless the field configuration actually holds the plasma together long enough to reach these temperatures — which is exactly what this module builds.
 
 </details>

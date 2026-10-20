@@ -104,8 +104,11 @@ So $\cos z=2$ at $z=2\pi k \pm i\ln(2+\sqrt3)$. The solutions march off along ho
 <summary>Solutions</summary>
 
 **P1** Apply $e^{x+iy}=e^x(\cos y+i\sin y)$ directly.
+
 (a) $x=0,\ y=\pi/3$: $\cos\frac\pi3+i\sin\frac\pi3=\dfrac12+i\dfrac{\sqrt3}{2}$.
+
 (b) $x=1,\ y=\pi$: $e(\cos\pi+i\sin\pi)=e(-1+0)=-e$.
+
 (c) $x=2,\ y=-\pi/2$: $e^2(\cos(-\tfrac\pi2)+i\sin(-\tfrac\pi2))=e^2(0-i)=-\,e^2 i$.
 
 **P2** First put $z_1=-1+i\sqrt3$ in polar form: $|z_1|=\sqrt{1+3}=2$, and it sits in the second quadrant with $\tan^{-1}\!\big(\tfrac{\sqrt3}{-1}\big)$ resolved to $\operatorname{Arg}z_1=\tfrac{2\pi}{3}$. So

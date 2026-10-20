@@ -94,6 +94,7 @@ $$\nabla\cdot\mathbf J + \Sigma_t\phi = \Sigma_s\phi + \nu\Sigma_f\phi + S_0 \qu
 
 **P1** (a) Steady state kills $\partial\psi/\partial t$; no scatter/fission/source empties the right-hand side; with no scattering $\Sigma_t = \Sigma_a$; a single beam direction makes $\hat\Omega\cdot\nabla\psi = d\psi/dx$. What survives is streaming balanced against absorption:
 $$\frac{d\psi}{dx} + \Sigma_a\psi = 0 \quad\Longrightarrow\quad \psi(x) = \psi_0 e^{-\Sigma_a x}.$$
+
 (b) Transmitted fraction through $5\,\text{cm}$:
 $$\frac{\psi(5)}{\psi_0} = e^{-\Sigma_a x} = e^{-(0.20)(5)} = e^{-1} \approx 0.368,$$
 so about **37%** get through (and 63% are absorbed). (c) Mean free path $\lambda = 1/\Sigma_a = 1/0.20 = 5\,\text{cm}$ — note the slab is exactly one mean free path thick, which is why the survivor fraction is precisely $1/e$. *Check:* $\Sigma_a x = 0.20\,\text{cm}^{-1}\times 5\,\text{cm} = 1$ is dimensionless, as an exponent must be. ✓

@@ -100,15 +100,21 @@ No shadow map, no bias tuning, no texel size: the answer is exact at every pixel
 ## Problems
 
 **P1 (🟢)** A ray starts at $(0, 2, 0)$ with direction $(0, -1, -1)/\sqrt2$.
+
 (a) Find $t$ and the hit point on the floor plane $y = 0$.
+
 (b) Is $t$ a distance here? Why?
 
 **P2 (🟡)** (a) A ray starts at $(0.5, 0, 0)$ in direction $(1, 0, 0)$ inside a sphere of radius 2 centred at the origin. Find both roots and the hit the ray actually reports, with its normal.
+
 (b) A ray from $(0, 0, 5)$ in direction $\text{normalize}(0.3, 0.1, -1)$ is tested against the same sphere. Find the discriminant, both roots, and the entry point.
 
 **P3 (🔴)** A camera at the origin looks down $-z$ with $\mathbf{u} = (1,0,0)$, $\mathbf{v} = (0,1,0)$, $\mathbf{w} = (0,0,1)$, $90°$ field of view, and a $4 \times 4$ image.
+
 (a) Give the primary ray direction through pixel $(2, 3)$.
+
 (b) Intersect it with the triangle $(0,0,-4)$, $(3,0,-4)$, $(0,3,-4)$ using Möller–Trumbore. Hit or miss?
+
 (c) Repeat for pixel $(2, 2)$ and give the barycentric weights of the hit.
 
 <details>
@@ -164,8 +170,11 @@ $\beta + \gamma = 1.333 > 1$: **miss**. The ray reaches the triangle's plane at 
 ## Flashback
 
 **From Lesson 2.7 (mipmaps):** A $512 \times 512$ texture has, at some pixel, $\partial u/\partial x = 0.004$, $\partial v/\partial x = 0.001$, $\partial u/\partial y = 0.0005$, $\partial v/\partial y = 0.006$.
+
 (a) Compute $L_x$, $L_y$ and $\lambda$.
+
 (b) Which levels does trilinear filtering blend, with what weights?
+
 (c) Is this footprint strongly anisotropic?
 
 <details>

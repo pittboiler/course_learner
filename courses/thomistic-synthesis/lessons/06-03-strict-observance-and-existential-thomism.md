@@ -102,11 +102,15 @@ Now the strain. Gilson and Maritain are allies here, writing within a year of ea
 Assign each remark to Garrigou-Lagrange, Maritain or Gilson, and for each name the single move that decides it. One sentence per remark.
 
 **P2 (🟡) *(Exegetical (a) · Evaluative (b).)***
+
 (a) Give the level of each claim and name the act or text that fixes it, without overstating in either direction: (i) seminary theology is to be taught with St Thomas as teacher; (ii) Thomism is a *philosophia perennis*; (iii) Cajetan's commentaries lost Aquinas's doctrine of *esse*.
+
 (b) Take the crux of this lesson: is the Thomist system a perennial philosophy whose truth is independent of its history, or a historically located achievement that must be recovered historically? Argue for either answer in 150 words or fewer. Say which numbered premise of "The perennialist argument" your answer turns on, and give one thing that would count as evidence against you.
 
 **P3 (🔴, optional) *(Exegetical (a) · Evaluative (b).)***
+
 (a) State Bréhier and Brunschvicg's objection to the phrase "Christian philosophy" at its strongest, in two sentences, without using the words "Gilson" or "Maritain".
+
 (b) Gilson and Maritain both answer it, and both answers have a cost. In 150 words or fewer, say which answer concedes more to the objection and why, and name the cost of the answer you think concedes less. Any verdict.
 
 <details>

@@ -128,8 +128,11 @@ This reframing is what makes the model so useful in practice.
 **P2 (🟡)** For each proposed protocol, say whether it satisfies completeness and soundness for the stated language, and if not, name which condition fails and give the cheating strategy.
 
 (a) Language $\overline{\text{GI}}$. Verifier sends $G_1$ and $G_2$; prover replies "not isomorphic"; verifier accepts.
+
 (b) Language $\overline{\text{GI}}$. Verifier picks $i$ at random, sends $H = \pi(G_i)$ **together with $i$**; prover replies $j$; verifier accepts iff $j = i$.
+
 (c) Language SAT. Verifier sends $\varphi$; prover replies with an assignment; verifier accepts iff it satisfies $\varphi$.
+
 (d) Language UNSAT. Verifier sends $\varphi$; prover replies "unsatisfiable"; verifier picks a random assignment and accepts iff it fails to satisfy $\varphi$.
 
 **P3 (🔴, optional)** (a) Prove the soundness of the non-isomorphism protocol carefully: show that when $G_1\cong G_2$, the posterior distribution of $i$ given $H$ is uniform. Name the bijection you use. (b) Explain in two sentences why this argument would break if the verifier chose $\pi$ from a small set of permutations rather than uniformly from all $n!$. (c) State what the argument shows about a prover with **unbounded** power, and why that is the strongest possible form of soundness.

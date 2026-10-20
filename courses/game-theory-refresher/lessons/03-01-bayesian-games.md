@@ -124,6 +124,7 @@ $$
 **P2 (🟡)** *Cournot with an unknown-cost rival.* Inverse demand $P=12-Q$, $Q=q_1+q_2$. Firm 1's marginal cost is $0$ (known). Firm 2's marginal cost is **high** $c_H=6$ with probability $\tfrac12$ or **low** $c_L=0$ with probability $\tfrac12$; firm 2 knows its own cost, firm 1 does not. Find firm 2's type-contingent quantities $q_2(c_H),q_2(c_L)$ and firm 1's quantity $q_1$.
 
 **P3 (🔴)** *When does a small doubt unravel coordination?* Pure-coordination game: both **A** $\to(2,2)$, both **B** $\to(1,1)$, mismatch $\to(0,0)$; "both A" is the good equilibrium. Perturb it: independently, each player is with probability $\varepsilon$ a **B-type** for whom B is strictly dominant (B pays them, A pays $0$, regardless of the opponent), else a **normal** type with the payoffs above. Each learns only its own type.
+
 (a) What do B-types do? (b) Take a normal player and the candidate profile "all normal types play A." Compute its expected payoff from A vs. B, and show that for small $\varepsilon$ the good equilibrium *survives*. Find the exact threshold on $\varepsilon$. (c) Given (b), what extra ingredient is actually needed for a vanishingly small doubt to destroy A — and why is that a statement about *higher-order* beliefs, not about the probability $\varepsilon$ itself?
 
 <details>

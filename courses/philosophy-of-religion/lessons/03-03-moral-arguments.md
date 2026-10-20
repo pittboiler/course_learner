@@ -109,7 +109,9 @@ One sentence on a cousin: the **argument from desire** (Augustine's "restless he
 (a) Name the distinction the atheist's reply misses and say, in one sentence, why the reply leaves the theist's claim untouched. (b) Name the premise of the abductive argument that a *stronger* atheist reply would deny, and name a philosopher who denies it. 100 words or fewer in total.
 
 **P2 (🟡) *(Formal (a) · Evaluative (b).)*** A theist sets prior odds $G : N = 1 : 4$. Evidence $E_1$: there are objective obligations, with $\Pr(E_1 \mid G) = 0.9$, $\Pr(E_1 \mid N) = 0.3$. Evidence $E_2$: our moral faculties are reliable, with $\Pr(E_2 \mid G, E_1) = 0.8$ and $\Pr(E_2 \mid N, E_1) = 0.2$.
+
 (a) Compute the posterior odds and $\Pr(G)$. Then a critic says $E_1$ is necessary, so its ratio is 1, and a natural third factor raises $\Pr(E_2 \mid N, E_1)$ to $0.4$. Recompute.
+
 (b) Steelman the theist: give the best reply to the critic's claim that a necessary $E_1$ cannot be evidence, in 80 words or fewer.
 
 **P3 (🔴, optional) *(Evaluative.)*** Steelman and reply, atheist side. A theist says: "Wielenberg's brute ethical facts are just unexplained; theism explains them." (a) Give the strongest non-theist realist reply. (b) Give the best theist counter-reply, naming the premise it targets. (c) State in one sentence the crux the two disagree about. 150 words or fewer in total.

@@ -119,21 +119,29 @@ Both work by the same mechanism: **create a new binding whose value is fixed at 
 **P1 (🟢)** Give the value under lexical scope and under dynamic scope.
 
 (a) `let a = 1 in let g = \_ -> a in let a = 2 in g 0`
+
 (b) `let a = 1 in let h = \a -> a in let a = 2 in h 5`
+
 (c) `let a = 1 in let k = \y -> a + y in (let a = 10 in k 1) + k 1`
 
 **P2 (🟡)** For each closure, list exactly what it must capture.
 
 (a) `\y -> x + y`, with `x` bound outside
+
 (b) `\y -> y + 1`
+
 (c) `\y -> x * z + y - x`, with `x` and `z` bound outside
+
 (d) `\y -> (\x -> x + y) 3`, with `x` also bound outside
 
 **P3 (🔴)** A language is lexically scoped and captures **by value**: a closure copies each free variable's current value at the moment the closure is created.
 
 (a) Give the result of the Python loop example under this rule, and say why.
+
 (b) Give a program that works under by-reference capture and breaks under by-value.
+
 (c) State which of the two makes a closure cheaper to represent, and which makes the loop bug impossible.
+
 (d) C++ lets you choose per variable: `[x]` copies, `[&x]` captures by reference. State one concrete risk `[&x]` carries that `[x]` does not, and connect it to a lesson in Module 5.
 
 <details>
@@ -211,6 +219,7 @@ The Module 5 connection is [Lesson 5.6](05-06-ownership-linearity-and-borrow-che
 **From Lesson 5.3 (Recursive types, existentials and modules):** A package $\exists\alpha.\ \{\ldots\}$ bundles a hidden type with operations over it, and Example 2 there noted that a package *is* a closure and *is* an object.
 
 (a) Write the counter of [Lesson 5.3](05-03-recursive-types-existentials-and-modules.md)'s Picture using closures over a shared mutable variable, with `tick` and `read` as two closures.
+
 (b) State which capture mode from this lesson your answer requires, and what plays the role of the existential's hidden type.
 
 <details>

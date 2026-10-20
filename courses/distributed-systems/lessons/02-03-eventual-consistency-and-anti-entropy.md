@@ -100,22 +100,31 @@ A replica holds $10^6$ keys averaging 200 bytes, and a peer that was down for an
 **P1 (🟢)** A key is replicated at three nodes $(A, B, C)$. Two versions of the key arrive at $C$ carrying version vectors $V_1 = (3, 1, 0)$ and $V_2 = (3, 2, 0)$.
 
 (a) State whether one supersedes the other, and what $C$ should store.
+
 (b) Repeat for $V_1 = (3,1,0)$ and $V_2 = (2,2,0)$.
+
 (c) Repeat for $V_1 = (3,1,0)$ and $V_2 = (3,1,0)$ with **different values**, and state what this situation indicates about the system.
+
 (d) After resolving the case in (b) by merging, a client writes the merged value at $C$. Give the version vector the resolving write carries.
 
 **P2 (🟡)** A replica holds $2^{22}$ keys and uses a single Merkle tree over all of them.
 
 (a) Give the depth of the tree and the number of hash comparisons needed to locate one differing key.
+
 (b) A peer is missing exactly 4 keys, all adjacent in key order. Give an upper bound on the internal nodes visited, and state why the true number is lower than four times the single-key cost.
+
 (c) The peer is instead missing 10 percent of all keys, uniformly scattered. State what happens to the cost and why.
+
 (d) Give the design change that keeps the cost proportional to the divergence in case (c), and state the new cost when only one twentieth of the keyspace was affected.
 
 **P3 (🔴, optional)** A store uses last-writer-wins on wall-clock timestamps, with replicas whose clocks are synchronized to within 50 ms.
 
 (a) Give an ordered step list in which a client performs a read-modify-write, another client concurrently performs a different read-modify-write, and the *earlier-issued* write survives while the later one is discarded.
+
 (b) State the property of the timestamps that makes your scenario possible, quoting the relevant quantity from [1.4](01-04-physical-clocks-and-synchronization.md).
+
 (c) The team replaces wall-clock timestamps with Lamport timestamps, arguing that these are monotone and clock-free. State whether this fixes the data loss, with the reason.
+
 (d) Give the change that does prevent silent loss, and state what it costs the application.
 
 <details>
@@ -196,7 +205,9 @@ The intermediate option worth knowing: keep siblings in the store but have the *
 **From Lesson 2.2 (sequential, causal and session consistency):** A user of a replicated note-taking app experiences the following on three consecutive syncs, with no other device writing: the note shows 12 items, then 9 items, then 12 items again.
 
 (a) Name the session guarantee violated.
+
 (b) State whether the system could still be **causally consistent**, with the reason.
+
 (c) Give a client-side fix that costs the server nothing.
 
 <details>

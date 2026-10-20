@@ -78,6 +78,7 @@ The Chalcedonian reply is textual, and it is in the same paragraph. Leo writes t
 (NPNF prints "possible nature"; the Latin is *naturae passibili*, "passible", able to suffer.)
 
 (a) The passage contains a list of three paired opposites. Write them out and say, for each pair, which member is the one doing the taking.
+
 (b) "Could both die with the one and not die with the other": name what "the one" and "the other" refer to, and state which of Eutyches's two claims (two natures before the union, one after) this clause is aimed at. Two sentences per part.
 
 **P2 (🟡) *(Exegetical.)*** Return to the Source passage from Sermon 3. Catholic and Orthodox readers both use these sermons, and read them differently. State each reading and name the words in the passage it leans on. Do not say which is right; the argument over primacy belongs to `apologetics-catholic-claims`. 150 words or fewer in total.
@@ -135,6 +136,7 @@ Name three distinct errors and correct each in one sentence: one of attribution 
 **From Lesson [4.5](04-05-augustine-against-the-pelagians.md) (Augustine against the Pelagians):** *(Exegetical.)* Three facts about how Pelagius reaches us. His *On Nature* and *On Free Will* are lost and survive only in the quotations of Augustine and Jerome; his commentary on thirteen letters of Paul came down under Jerome's name and was disentangled only in the 1920s, by Alexander Souter; and his most-quoted sentence — the ability in our nature, the volition in our will, the actuality in the effect — is preserved because Augustine copies it out at *On the Grace of Christ* 5.
 
 (a) A writer quotes that sentence with the bare citation "Pelagius, *On Free Will*, book 3." State what the citation must add, and say why the omission matters more here than it would for a work that survives.
+
 (b) In 415 a synod of fourteen bishops at Diospolis heard the charges against Pelagius and acquitted him. Name one thing that acquittal establishes about his position which the surviving quotations, by themselves, could not — and one thing it does not establish. **Two sentences per part.**
 
 <details>

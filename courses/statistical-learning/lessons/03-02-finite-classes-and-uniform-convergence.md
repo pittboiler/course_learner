@@ -149,20 +149,27 @@ That is the crack the rest of the module widens. A class can be infinite — thr
 **P1 (🟢)** Take $|\mathcal H| = 2^{20}$ (about a million hypotheses), $\epsilon = 0.05$, $\delta = 0.1$.
 
 (a) Compute the required $n$ from the sample-complexity bound.
+
 (b) Recompute for each single change, keeping the other two fixed: $\delta \to 0.01$; $|\mathcal H| \to 2^{40}$ (the class *squared*); $\epsilon \to 0.025$.
+
 (c) Rank the three inputs by how expensive each is to tighten, and say which one you should therefore never be shy about. Give the structural reason in each case, not just the number.
 
 **P2 (🟡)** Prove the theorem from scratch: $n \ge \frac{1}{2\epsilon^2}\ln\frac{2|\mathcal H|}{\delta}$ implies $S$ is $\epsilon$-representative with probability at least $1-\delta$. In your write-up be explicit about:
 
 (a) at the moment you apply Hoeffding, what is fixed and what is random, and where independence of the $Z_i$ is used;
+
 (b) why the union bound is taken over *hypotheses* and not over sample points, and why it needs no independence;
+
 (c) exactly which step fails when $|\mathcal H| = \infty$ — name the step, and say whether the failure is technical or genuine.
 
 **P3 (🔴)** *The union bound is loose when hypotheses behave alike.* Let $\mathcal D$ be uniform on the interval from 0 to 1. Fix $h_0 = \mathbf 1[x < 1/2]$, and for $j = 1,\dots,M$ with $M = 1000$ let $h_j$ agree with $h_0$ everywhere except on the tiny interval $I_j$ of width $\gamma = 10^{-9}$ starting at $1/2 + (j-1)\gamma$, where it predicts 1 instead of 0. Take $\mathcal H = \{h_0,\dots,h_M\}$, and $n = 1000$, $\epsilon = 0.05$.
 
 (a) Compute the union bound's guarantee on the failure probability, and say what is wrong with the number you get.
+
 (b) Bound the probability that *any* sample point lands in $I_1 \cup \dots \cup I_M$. Conditional on no point landing there, how do the $M+1$ empirical risks compare?
+
 (c) Use (b) to give a genuine bound on the failure probability, and compare it with (a).
+
 (d) State in one sentence what this suggests capacity should really count — and what the smallest $M$ is at which the union bound goes vacuous here.
 
 <details>
@@ -245,7 +252,9 @@ The union bound goes vacuous as soon as $(M+1) \cdot 2e^{-5} \ge 1$, i.e. $M + 1
 **From Lesson 2.6 (Gradient descent, the workhorse):** Run gradient descent on a least-squares objective from $w = 0$ with step size $\eta = 0.1$, on a design whose squared singular values are $\sigma_i^2 = 8,\ 2,\ 0.5$.
 
 (a) Give the early-stopping shrinkage factor $1-(1-\eta\sigma_i^2)^t$ on each direction after $t = 3$ steps.
+
 (b) Find the ridge $\lambda$ whose shrinkage $\sigma_i^2/(\sigma_i^2+\lambda)$ matches your $t=3$ factor **exactly** on the middle direction, and report what that same $\lambda$ does to the other two. Are the two profiles the same function?
+
 (c) SGD minimises $\hat R_S$, not $R$. Name the theorem in this lesson that says something about $R$, and state its cost in one sentence.
 
 <details>

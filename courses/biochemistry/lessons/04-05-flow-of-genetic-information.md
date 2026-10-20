@@ -106,6 +106,7 @@ So the mRNA is $5'\text{-}\mathtt{AUG\;GCC\;UAA}\text{-}3'$.
 | UGA | stop | GCU | Ala |
 
 **P2 (🟡)** Classify each single-base change to the mRNA codon **UGG** (Trp) as silent, missense, or nonsense, and say what the new codon means. Use: UGG = Trp, UGA/UAG/UAA = stop, CGG = Arg, UGC = Cys.
+
 (a) UGG → UGA. (b) UGG → CGG. (c) UGG → UGC.
 
 **P3 (🔴, optional — bridge to [`genetics`](../../genetics/syllabus.md))** A stretch of a protein-coding gene has its reading frame shifted by the **insertion of a single extra base** near the start of the coding region (a *frameshift*). Explain why this typically wrecks the whole downstream protein far more thoroughly than a single-base *substitution* does — and why degeneracy of the code offers essentially **no** protection here.

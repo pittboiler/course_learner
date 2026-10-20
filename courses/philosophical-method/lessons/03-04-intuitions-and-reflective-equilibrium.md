@@ -110,8 +110,11 @@ A sheriff can stop a riot that will kill five by framing and hanging one innocen
 **P1 (🟢) *(Exegetical.)*** Which of these count as considered judgements in the philosopher's sense, and which do not? One clause of reason each.
 
 (a) "On first reading the transplant case I thought the surgeon acts wrongly; re-reading it with the numbers clear and nobody I know involved, I still do."
+
 (b) "Torturing a child for entertainment is wrong."
+
 (c) "I'm a utilitarian, so I judge that the surgeon acts rightly."
+
 (d) "Something about that case makes my skin crawl, though I couldn't tell you what is supposed to have happened in it."
 
 **P2 (🟡) *(Exegetical (a) · Evaluative (b).)*** The paragraph below is from a newspaper column written for this problem; the author is fictional.
@@ -119,6 +122,7 @@ A sheriff can stop a riot that will kill five by framing and hanging one innocen
 > "We punish because we think people deserve it. But desert requires that a person be the ultimate author of his own character, and nobody is: temperament is inherited, formation is dealt out by a childhood no one chose, and the will that picks between them was assembled by those same two forces. Strip out desert and what is left — deterrence, incapacitation, repair — justifies a fraction of the sentences we hand down. Yes, my readers will feel that the man who murdered a child deserves to suffer. They feel it because selection installed a taste for revenge in animals that had to deter free-riders without courts. A feeling with that pedigree is not evidence about what anyone deserves."
 
 (a) State the conditional that the columnist and his opponent both accept, say which direction each of them runs it, and name each side's fixed point.
+
 (b) The last two sentences are a debunking explanation. Does it do its work? 150 words or fewer for (b).
 
 **P3 (🔴, optional) *(Evaluative.)*** A principle and a judgement collide:

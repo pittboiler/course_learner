@@ -122,7 +122,9 @@ Identical $M_A$, reached through a different released structure and a *rotationa
 ## Problems
 
 **P1 (🟢)** State the degree of static indeterminacy of each, and say whether it is external or internal:
+
 (a) a continuous beam on **five** supports (a pin at one end, rollers at the other four), transverse loads only;
+
 (b) a portal frame — two columns rigidly joined to a beam across the top — with **both column bases fixed** and no internal hinges.
 
 **P2 (🟡)** A two-span continuous beam $ABC$ has a pin at $A$, a roller at the interior support $B$, and a roller at $C$, with equal spans $L$ and a uniform load. (i) Find the DSI. (ii) Describe **two different** valid choices of redundant, the released (primary) structure each produces, and the compatibility condition each one enforces.
@@ -133,7 +135,9 @@ Identical $M_A$, reached through a different released structure and a *rotationa
 <summary>Solutions</summary>
 
 **P1**
+
 (a) Five supports carrying transverse load give 5 vertical reactions and 2 useful equations ($\sum F_y=0,\ \sum M=0$): $\text{DSI}=5-2=\mathbf{3}$ (equivalently, a continuous beam over $N=5$ supports is indeterminate to degree $N-2=3$). It is **external** — the excess is all in the supports. *Check:* releasing the three interior rollers leaves a single simply supported span, which is determinate. ✓
+
 (b) Use the frame formula $(3m+r)-(3n+c)$. Members: two columns + one beam, $m=3$. Nodes: two fixed bases + two rigid corners, $n=4$. Reactions: each fixed base gives 3, so $r=6$. No internal hinges, $c=0$:
 
 $$\text{DSI}=(3\cdot3+6)-(3\cdot4+0)=15-12=\mathbf{3}.$$

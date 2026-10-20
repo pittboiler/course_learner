@@ -116,7 +116,9 @@ Same answer — you bid the runner-up's expected value. *Checks:* $b$ is strictl
 **P1** The highest competing bid is $0.62$. Your bid $0.7 > 0.62$, so you **win and pay $0.62$**, for surplus $0.7-0.62 = 0.08$. If you had bid $0.5$ instead, then $0.5 < 0.62$ and you would **lose**, getting surplus $0$. Deviating downward only converted a profitable win ($+0.08$) into nothing — because your bid never affected the price you'd pay (that's fixed at the second-highest, $0.62$), lowering it could only cost you the good. Truthful bidding was (weakly) best.
 
 **P2** (a) With $n=3$: $b(v)=\tfrac{n-1}{n}v = \tfrac23 v$.
+
 (b) At $v=0.9$: bid $b = \tfrac23(0.9) = 0.6$. Win probability = both rivals below $0.9$ = $0.9^{2} = 0.81$.
+
 (c) Formula: $U(v)=\tfrac1n v^n = \tfrac13(0.9)^3 = \tfrac13(0.729) = 0.243$. Direct: $\big(v-b(v)\big)\cdot\Pr(\text{win}) = (0.9-0.6)(0.81) = 0.3\times0.81 = 0.243$. ✓ Match.
 
 **P3** Let $G(y)=F(y)^{n-1}$ be the CDF of $Y=\max$ of $n-1$ i.i.d. rival values (each with CDF $F$). In a symmetric increasing equilibrium $b(\cdot)$, a bidder with value $v$ mimicking type $z$ wins iff all rivals are below $z$, probability $G(z)$, for expected surplus

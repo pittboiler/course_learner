@@ -82,7 +82,9 @@ Realized surplus with asymmetric information: $0$. The entire $m/2$ is lost — 
 **P2 (🟡)** Two types again: a peach is worth 8,000 dollars to its seller and 10,000 to a buyer; a lemon is worth 3,000 to its seller and 4,000 to a buyer. Fraction $\lambda$ are peaches. Find the smallest $\lambda$ for which both types trade, and state what happens just below it.
 
 **P3 (🔴, optional)** *Insurance version.* An insurer offers a policy at premium $p$. A person of risk type $r$ (expected claim cost) buys iff $p \le r$ (they insure when the premium is below their own expected cost). Risk $r$ is uniform on $[0,1]$; the insurer's cost of covering a buyer equals that buyer's $r$. 
+
 (a) At premium $p$, who buys, and what is the insurer's average cost per policy sold? 
+
 (b) Show the insurer's profit per policy is negative for every $p>0$, so no positive-premium market survives. Explain in one sentence why this is the same mechanism as the lemons market, with the roles of "high quality" and "low quality" swapped.
 
 <details>

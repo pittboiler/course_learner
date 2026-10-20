@@ -170,6 +170,7 @@ W over X: $\{1, 2\}$. W over Y: $\{1, 2, 3\}$. W over Z: $\{1, 2, 3\}$. X over Y
 **From Lesson [3.2](03-02-proving-gibbard-satterthwaite.md) (Proving Gibbard–Satterthwaite):** *(Formal (a)–(b).)* The veto rule on A, B, C: each voter vetoes her last-ranked alternative, the fewest vetoes wins, and ties go to the alphabetically earlier alternative. Five voters: 2: B ≻ C ≻ A, 2: C ≻ B ≻ A, 1: B ≻ A ≻ C.
 
 (a) Find $f(\mathbf{P})$. Run the lift-to-top construction: compute $f$ on $\mathbf{P}^{AB}$, $\mathbf{P}^{AC}$ and $\mathbf{P}^{BC}$, write $F(\mathbf{P})$, and show in one sentence that $F$ returns this same ranking at every profile.
+
 (b) Name the first step of 3.2's Claim that fails, and say why the failure cannot be blamed on onto. Then exhibit a single-voter manipulation at $\mathbf{P}^{AB}$.
 
 <details>

@@ -72,6 +72,7 @@ Convert to energy: $k_B T_{\rm ls} = (8.617\times10^{-5}\ \text{eV/K})(3000\ \te
 **P1** (a) Temperature scales as $T \propto 1 + z$:
 $$T_{\rm ls} = T_0(1 + z_{\rm ls}) = 2.725 \times (1 + 1100) = 2.725 \times 1101 \approx 3000\ \text{K}.$$
 *(In energy units, $k_B T_{\rm ls} \approx 0.26$ eV.)*
+
 (b) Wavelength stretches by the same factor the universe expanded, $1 + z_{\rm ls}$:
 $$\frac{\lambda_{\rm obs}}{\lambda_{\rm emit}} = 1 + z_{\rm ls} = 1101 \approx 1.1\times10^{3}.$$
 *Check.* A 3000 K blackbody peaks near $1\ \mu$m; stretched by 1101 that's $\approx 1.1$ mm, the microwave band the CMB actually peaks in. ✓
@@ -112,6 +113,7 @@ That is *exactly* the Planck occupation number at temperature $T'$. Since the pr
 
 (a) In equilibrium the ratio is a Boltzmann factor in the mass-energy difference:
 $$\frac{n}{p} = e^{-Q/k_BT_{\rm f}} = e^{-1.29/0.8} = e^{-1.61} \approx 0.20 \approx \frac{1}{5}.$$
+
 (b) With $n/p = 1/7$ at the onset of fusion (nearly all neutrons end up in $^4$He, two neutrons per helium nucleus):
 $$Y_p = \frac{2(n/p)}{1 + (n/p)} = \frac{2 \times \tfrac{1}{7}}{1 + \tfrac{1}{7}} = \frac{2/7}{8/7} = \frac{2}{8} = 0.25.$$
 

@@ -85,8 +85,11 @@ Now the pair separates. The lone $\Lambda^0$ would love to decay, but every stro
 ## Problems
 
 **P1 (🟢)** For each process, tally the conserved quantities and give the verdict — forbidden, or (if allowed) which force and the rough lifetime scale.
+
 (a) $\Sigma^- \to n + \pi^-$, where $\Sigma^- = dds$ ($Q=-1, B=1, S=-1$).
+
 (b) $p \to e^+ + \gamma$.
+
 (c) $\Delta^0 \to p + \pi^-$, where $\Delta^0 = udd$ ($Q=0, B=1, S=0$).
 
 **P2 (🟡)** The cascade baryon $\Xi^-$ has isospin $I_3 = -\tfrac12$, baryon number $B = 1$, and strangeness $S = -2$. (a) Use Gell-Mann–Nishijima to find its charge $Q$. (b) It decays via $\Xi^- \to \Lambda^0 + \pi^-$. Which force, and why can't it instead go straight to $n + \pi^-$ by the strong force?
@@ -97,21 +100,29 @@ Now the pair separates. The lone $\Lambda^0$ would love to decay, but every stro
 <summary>Solutions</summary>
 
 **P1**
+
 (a) $\Sigma^- \to n + \pi^-$. $n = udd$ ($0,1,0$), $\pi^- = d\bar u$ ($-1,0,0$). $Q: -1 = 0 + (-1)$ ✓; $B: 1 = 1 + 0$ ✓; $L: 0 = 0$ ✓; $S: -1 \to 0$, so $\Delta S = +1$. Ironclad laws hold, strangeness changes → **weak**, lifetime $\gtrsim 10^{-10}$ s. (Measured $\Sigma^-$: $1.5\times10^{-10}$ s. ✓)
+
 (b) $p \to e^+ + \gamma$. $Q: +1 = +1 + 0$ ✓, but $B: 1 \to 0$ — baryon number **broken**; also $L_e: 0 \to -1$ broken. → **Forbidden** by baryon (and lepton) number. This is exactly why the proton is stable — there is no lighter state it can decay into without breaking $B$.
+
 (c) $\Delta^0 \to p + \pi^-$. $Q: 0 = 1 + (-1)$ ✓; $B: 1 = 1$ ✓; $L: 0=0$ ✓; $S: 0 = 0$, $\Delta S = 0$. All conserved including strangeness → **strong**, lifetime $\sim 10^{-23}$ s.
 
 *Check.* Order of magnitude: (a) and (c) differ only by whether an $s$ quark must change — the $10^{13}$ lifetime gap between $\Sigma^-$ and $\Delta^0$ is the strong-vs-weak signature, consistent with Example 1's $\Lambda$/$\Delta$ pair. (b)'s forbiddenness matches the observed proton lifetime bound ($> 10^{34}$ yr). ✓
 
 **P2**
+
 (a) $Q = I_3 + \dfrac{B+S}{2} = -\dfrac12 + \dfrac{1 + (-2)}{2} = -\dfrac12 - \dfrac12 = -1.$ So the $\Xi^-$ has charge $-1$, matching its name. ✓
+
 (b) $\Xi^- \to \Lambda^0 + \pi^-$: $S$ goes $-2 \to (-1) + 0 = -1$, so $\Delta S = +1$ → **weak**, slow. A direct $\Xi^- \to n + \pi^-$ would need $S: -2 \to 0$, i.e. $|\Delta S| = 2$. The weak force changes strangeness only one unit per step, so $|\Delta S| = 2$ is hugely suppressed; the $\Xi$ must "climb down" one strangeness unit at a time ($\Xi \to \Lambda \to N$). The strong force can't do it at all ($\Delta S \neq 0$).
 
 *Check.* Both hard laws are fine in the direct route ($Q: -1 = 0 + (-1)$, $B: 1 = 1$), so the *only* thing forbidding the fast strong route is strangeness — confirming that $\Delta S$, not $Q$ or $B$, is what makes cascades decay in steps. ✓
 
 **P3**
+
 (a) $K^0 = d\bar s$: the $\bar s$ carries $S = +1$, so $S(K^0) = +1$.
+
 (b) $K^0 \to \pi^+\pi^-$: $\pi^+ = u\bar d$ ($+1,0,0$), $\pi^- = d\bar u$ ($-1,0,0$). $Q: 0 = +1 + (-1)$ ✓; $B: 0 = 0$ ✓; $L: 0=0$ ✓. $S: +1 \to 0$, so $\Delta S = -1$ → **weak**.
+
 (c) It's *made* strongly in pairs of canceling strangeness (associated production, e.g. alongside a $\Lambda^0$ of $S = -1$), but once alone it can shed its single unit of strangeness only through the slow weak force — fast birth, slow death.
 
 *Check.* $\Delta S = -1$ (one unit) is consistent with a single weak step, and the resulting $\sim10^{-10}$ s scale matches the table. ✓

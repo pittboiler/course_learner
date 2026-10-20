@@ -99,16 +99,23 @@ One step lowers the spike to $\tfrac{9}{16}$ of its height while spreading it on
 ## Problems
 
 **P1 (🟢)** (a) Give $V$, $E$, $F$ for a cube after one and after two Catmull–Clark steps.
+
 (b) A triangular prism has $V = 6$, $E = 9$, and $F = 5$ (two triangles, three quads). Give $V$, $E$, $F$ after one step, and check the Euler characteristic.
+
 (c) How many faces does the cube have after 6 steps?
 
 **P2 (🟡)** Apply one step of **cubic B-spline curve subdivision** to the closed square $(1,1), (-1,1), (-1,-1), (1,-1)$.
+
 (a) Give the new vertex point for $(1,1)$ and the edge point on the edge from $(1,1)$ to $(-1,1)$.
+
 (b) Where does the corner $(1,1)$ end up in the limit? How far is that from the centre, compared with the corner's original distance and with the edge midpoints?
+
 (c) Compare with Chaikin's limit curve on the same square (Picture): which is rounder, and which hugs the control polygon more closely?
 
 **P3 (🔴)** (a) Show that on a flat regular quad grid ($\mathbf{P} = (x, y, 0)$ at integer points), the Catmull–Clark vertex rule returns every vertex to its own position.
+
 (b) For the cube corner of Example 1, suppose instead the modeler had used the rule with weight $(n - 2)$ on $\mathbf{S}$ and divided by $n + 1$. Compute the "new corner" and explain what property the correct weights have that this variant lacks.
+
 (c) After two Catmull–Clark steps on a cube, how many vertices have valence 3, and how many valence 4?
 
 <details>
@@ -150,8 +157,11 @@ $$\mathbf{S}' = \frac{\mathbf{S} + 2\mathbf{S} + (4 - 3)\mathbf{S}}{4} = \mathbf
 ## Flashback
 
 **From Lesson 4.3 (splines):** Keyframe positions $(0,0)$, $(2,1)$, $(4,4)$, $(7,4)$ are joined by a Catmull–Rom spline.
+
 (a) Give the tangents at $(2,1)$ and $(4,4)$.
+
 (b) Give the Bézier control points of the segment from $(2,1)$ to $(4,4)$.
+
 (c) Evaluate that segment at $t = 0.5$.
 
 <details>

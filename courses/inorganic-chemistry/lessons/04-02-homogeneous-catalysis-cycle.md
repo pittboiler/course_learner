@@ -86,8 +86,11 @@ Oxidative addition always does $(+2, +2, +2)$. So Pd(0) $\to$ Pd(II); electron c
 <summary>Solutions</summary>
 
 **P1** Read the shifts straight off the toolkit.
+
 (a) **Oxidative addition of $\ce{H2}$:** oxidation state $+2$, electron count $+2$ (and coordination number $+2$). The metal splits H–H into two hydrides.
+
 (b) **Reductive elimination of an alkane:** oxidation state $-2$, electron count $-2$ (coordination number $-2$). Two cis ligands (an alkyl and a hydride) couple to R–H and leave.
+
 (c) **Dissociation of $\ce{CO}$:** oxidation state **0** (no redox), electron count $-2$ (coordination number $-1$). $\ce{CO}$ is a neutral 2-electron donor, so losing it removes 2 from the count but does not change the metal's oxidation state.
 
 **P2** Start: 16-electron, M(I), with an M–H bond present.

@@ -109,6 +109,7 @@ Apologetics feeds the left side; the step from "I ought" to "I believe" is grace
 (a) Which of the four rules of persuasion does the paragraph break, and in which words? (b) Name one rule it might seem to break but does not, and say why. 100 words or fewer in total.
 
 **P3 (🔴) *(Apologetic: (a) Exegetical, graded first · (b) reply.)*** The objection: apologetics is rationalization.
+
 (a) State it as its strongest defenders would, in a skeptical form, including the point a skeptic can take from *Dei Filius* itself. (b) Reply. Your reply must open with a named concession. 150 words or fewer in total.
 
 <details>

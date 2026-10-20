@@ -98,13 +98,19 @@ So $\eta$ is an arrow *between two arrows* $\operatorname{id} \Rightarrow L$ in 
 ## Problems
 
 **P1 (🟢)** Using the Curry–Howard–Lambek dictionary, translate each into categorical language and name the universal property that realizes it:
+
 (a) the proof rule "from $\top$, and from a proof of $A$, we always have $A$" (identify the relevant objects/morphisms);
+
 (b) and-elimination "from $A \wedge B$, conclude $A$";
+
 (c) modus ponens "from $A \Rightarrow B$ and $A$, conclude $B$." Give the morphism realizing (c).
 
 **P2 (🟡)** The **Maybe monad** on $\mathbf{Set}$ is $TX = X \sqcup \{\ast\}$ (an $X$-value, or the failure token $\ast$).
+
 (a) Write the unit $\eta_X: X \to TX$ and the multiplication $\mu_X: TTX \to TX$. (Note $TTX = X \sqcup \{\ast\} \sqcup \{\ast'\}$ — two distinct failure tokens.)
+
 (b) Verify the left unit law $\mu_X \circ \eta_{TX} = \operatorname{id}_{TX}$.
+
 (c) In one sentence, explain what monadic sequencing (`bind`) does to a chain of computations when one of them returns $\ast$.
 
 **P3 (🔴, optional)** Show that $\mathbf{Cat}$ really is a 2-category *at the level of one hom-category*: fix categories $\mathcal{C}, \mathcal{D}$ and prove that natural transformations $\mathcal{C} \to \mathcal{D}$ compose vertically to give a category — i.e. that the vertical composite $(\beta \bullet \alpha)_X := \beta_X \circ \alpha_X$ of $\alpha: F \Rightarrow G$ and $\beta: G \Rightarrow H$ is again natural, composition is associative, and each $F$ has an identity 2-cell. (This category is exactly the functor category $[\mathcal{C}, \mathcal{D}]$ of Lesson 1.5 — the hom-category of $\mathbf{Cat}$.)
@@ -113,7 +119,9 @@ So $\eta$ is an arrow *between two arrows* $\operatorname{id} \Rightarrow L$ in 
 <summary>Solutions</summary>
 
 **P1** (a) $\top$ is the **terminal object** $1$; a proof of $A$ is a morphism $1 \to A$ (equivalently $C \to A$ from a context $C$). "From $A$ we have $A$" is the **identity morphism** $\operatorname{id}_A$. The universal property in play is terminality: every object admits a unique map to $1$, so $\top$ adds no content and $A \wedge \top \cong A$ (product with the terminal object). 
+
 (b) $A \wedge B$ is the **product** $A \times B$; and-elimination is the **projection** $\pi_1: A \times B \to A$ (and $\pi_2$ for $B$). The universal property is that of the product: a map into $A\times B$ is a pair of maps, and the projections extract the components. 
+
 (c) $A \Rightarrow B$ is the **exponential** $B^A$; modus ponens is the **evaluation** morphism
 $$\operatorname{ev}: B^A \times A \longrightarrow B, \qquad \operatorname{ev}(f, a) = f(a).$$
 Given a proof $p: C \to B^A$ of the implication and a proof $q: C \to A$ of the hypothesis, the conclusion $B$ is proved by $\operatorname{ev} \circ \langle p, q\rangle : C \to B$. This is the counit of the $(-\times A)\dashv(-)^A$ adjunction — the categorical form of modus ponens.
@@ -121,7 +129,9 @@ Given a proof $p: C \to B^A$ of the implication and a proof $q: C \to A$ of the 
 **P2** (a) Unit: $\eta_X(x) = x$ (include a value as a successful computation). Multiplication $\mu_X: TTX \to TX$ collapses the nested failure: writing the two failure tokens of $TTX$ as $\ast$ (outer) and $\ast'$ (inner-lifted),
 $$\mu_X(x) = x, \qquad \mu_X(\ast') = \ast, \qquad \mu_X(\ast) = \ast.$$
 That is: a genuine value stays; either kind of failure becomes the single failure $\ast$. 
+
 (b) $\eta_{TX}: TX \to TTX$ includes $TX$ as successful outputs, so for $y \in TX$ it lands in the "value" copy. Then $\mu_X(\eta_{TX}(y)) = y$ for every $y \in TX$: if $y = x$ a value, $\eta$ sends it to the value $x$ and $\mu$ returns $x$; if $y = \ast$, $\eta$ sends it to the value-copy of $\ast$ and $\mu$ returns $\ast$. Either way $\mu_X \circ \eta_{TX} = \operatorname{id}_{TX}$. $\blacksquare$ (The right unit law $\mu_X \circ T\eta_X = \operatorname{id}$ checks the same way; associativity $\mu \circ \mu T = \mu \circ T\mu$ holds because both routes send any nesting of failures to the single $\ast$.) 
+
 (c) `bind` runs the steps in order, but the first step that returns $\ast$ short-circuits the whole chain to $\ast$ — no later step runs — which is exactly $\mu$ collapsing nested failures.
 
 **P3** *Vertical composite is natural.* Let $\alpha: F \Rightarrow G$ and $\beta: G \Rightarrow H$ be natural, with $F, G, H: \mathcal{C} \to \mathcal{D}$. Define $(\beta \bullet \alpha)_X = \beta_X \circ \alpha_X$. For a morphism $f: X \to Y$ in $\mathcal{C}$ we must show

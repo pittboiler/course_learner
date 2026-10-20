@@ -92,7 +92,9 @@ Three words carry the difference. *Convenire* can mean "agree with" or "come tog
 > When, however, they are confuted from the Scriptures, they turn round and accuse these same Scriptures, as if they were not correct, nor of authority, and [assert] that they are ambiguous, and that the truth cannot be extracted from them by those who are ignorant of tradition. For [they allege] that the truth was not delivered by means of written documents, but vivâ voce … But, again, when we refer them to that tradition which originates from the apostles, [and] which is preserved by means of the succession of presbyters in the Churches, they object to tradition, saying that they themselves are wiser not merely than the presbyters, but even than the apostles, because they have discovered the unadulterated truth.
 
 (a) The passage reports two *distinct* objections, not one. State each in a clause, and quote the words that mark where the second begins.
+
 (b) Which feature of the combined position makes it unfalsifiable from outside? Name it in one sentence.
+
 (c) Which of Irenaeus's three criteria is aimed at each objection? **Two sentences per part.**
 
 **P2 (🟡) *(Exegetical (a)–(b) · Evaluative (c).)*** An invented parish-bulletin note (not a real publication, and the words are not any real person's):
@@ -100,12 +102,15 @@ Three words carry the difference. *Convenire* can mean "agree with" or "come tog
 > "St Irenaeus settled this in the second century. Against people who invented their own doctrines he wrote that the apostles handed the churches to named successors, and he listed them one by one. Our diocese can do the same: our bishops are on record back to the eighth century. So whatever our chancery teaches on this question is by that fact the teaching the apostles handed down, and no appeal to the text of Scripture can stand against it."
 
 (a) Which premise of Irenaeus's argument (numbered as in the lesson) does the note quietly drop, and what does its absence cost the inference?
+
 (b) The note treats the succession as *generating* the content of the faith. State the direction Irenaeus actually runs it, pointing to the role of the rule of faith.
+
 (c) Suppose churches that can each show an unbroken line disagree with one another on a disputed question. Does Irenaeus's argument, as he states it, still deliver a determinate answer? Say what the argument needs, what divergence does to it, and what a further criterion would have to supply. **Any verdict; 150 words or fewer for (c), two sentences each for (a) and (b).**
 
 **P3 (🔴, optional) *(Exegetical (a) · Evaluative (b).)*** Take as given: the *Apocryphon of John*, found at Nag Hammadi in 1945, sets out a myth corresponding closely in outline to the system Irenaeus summarizes at *Against Heresies* 1.29; the same library also contains works with no such myth in them at all.
 
 (a) State precisely what the first fact establishes about Irenaeus as a source, and name one thing it does **not** establish. Be exact about the scope of each.
+
 (b) Williams and King argue that "Gnosticism," as a single religion with one origin, is substantially a construction of the heresiologists who opposed it. Name one kind of evidence that would tell for this and one that would tell against it, and give your verdict. **150 words or fewer.**
 
 <details>
@@ -159,7 +164,9 @@ Three words carry the difference. *Convenire* can mean "agree with" or "come tog
 - **Z.** Ussher publishes a Latin version, made about 1250 by Robert Grosseteste, of a short and unexpanded text.
 
 (a) Put the four in chronological order, giving the year where you know it.
+
 (b) In one sentence, say what the sequence settled — which recension a writer should quote, and what the other two are.
+
 (c) In one sentence, state the authenticity of the seven letters the way a careful writer states it today, naming what stands against it.
 
 <details>

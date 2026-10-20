@@ -78,13 +78,17 @@ about $6.2\times10^3$ km/s of recession. This is the everyday tool of observatio
 ## Problems
 
 **P1 (🟢)** Relativistic Doppler, both directions.
+
 (a) A galaxy recedes at $\beta=0.1$. Find the fractional redshift $z=\Delta\lambda/\lambda$ of a spectral line, and compare to the naive "$z=\beta$."
+
 (b) A source approaches at $\beta=0.5$. By what factor is the observed frequency blueshifted?
 
 **P2 (🟡)** Antiproton production threshold (Boss Problem 1 in miniature). A proton of total energy $E$ hits a proton at rest; the reaction $p+p\to p+p+p+\bar p$ creates a proton–antiproton pair (each of mass $m_p$; the final state is four particles of mass $m_p$). Using the invariant $s$ from Example 1 evaluated at threshold in the CM frame, find the minimum **kinetic** energy of the incident proton. Then find the required kinetic energy per beam if instead two protons collide head-on, and explain the "$\sqrt s$ scaling" that makes colliders win.
 
 **P3 (🔴, optional)** Transverse Doppler and beaming.
+
 (a) From the general Doppler formula, show the transverse case ($\theta=90^\circ$ in the observer frame) is pure time dilation, $f_{\rm obs}=f_{\rm src}/\gamma$, and give a one-line "moving clock runs slow" reading of it.
+
 (b) A source moving at speed $\beta c$ ($\gamma\gg1$) emits isotropically in its rest frame. Show that the photons filling the *forward hemisphere* in the rest frame ($\theta'\le90^\circ$) are compressed into a lab-frame cone of half-angle $\theta\approx1/\gamma$. (This forward "headlight" beaming is why AGN jets pointed at us appear as blazars; the astrophysical detail lives in astrophysics [4.3 Black holes](#/lesson/astrophysics/04-03-black-holes-astrophysics.md).)
 
 <details>

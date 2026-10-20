@@ -100,9 +100,13 @@ Both readings can be true of the same statute. The historians' disagreement is o
 (a) Name the two conditions this sentence attaches to its claim, quoting the words that state each. (b) A critic writes: "Hamilton thought public debt was a blessing in itself." Using this sentence and one other claim of the Report reported in the lesson, say whether the text supports that reading. 80 words or fewer for (b).
 
 **P2 (🟡) *(Formal.)*** In January 1788 a merchant buys a 1,000-dollar certificate of principal (no unpaid interest attached) for 200 dollars. He subscribes it under the 1790 Funding Act terms in the lesson. Use annual interest (ignore quarterly payment) and round to the cent.
+
 (a) What is his annual interest income in 1791–1800, and from 1801 on? What is each as a yield on his 200-dollar cost?
+
 (b) Treat both stocks as perpetual 6 percent annuities and value them at 1 January 1791 at a 6 percent discount rate, so each is worth its face value on the date its interest starts. What is his package worth?
+
 (c) Under the scheme Hamilton describes, in which purchasers receive only what they paid plus interest, he would receive his cost plus 6 percent simple interest for three years. How much is that, and what multiple of it is the value in (b)?
+
 (d) In one sentence: why is the value in (b) below 1,000 dollars even though the debt was "funded at par"?
 
 **P3 (🔴, optional) *(Exegetical.)*** An invented op-ed:

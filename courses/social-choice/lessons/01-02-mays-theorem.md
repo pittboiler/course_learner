@@ -101,7 +101,9 @@ Exactly one condition fails, so May's theorem certifies that this rule is a stat
 **P1 (🟢) *(Formal.)*** A five-party council votes on a motion $x$ against the status quo $y$, with party weights $3, 2, 2, 1, 1$. Each party votes for, against, or abstains. The motion passes if the total weight for it exceeds the total weight against it; otherwise $y$ stands. Which of May's four conditions does the rule satisfy? For each condition it fails, give a pair of profiles that shows the failure.
 
 **P2 (🟡) *(Formal (a) · Exegetical (b).)*** Five voters.
+
 (a) Build a rule that is decisive, anonymous and neutral, is weakly monotone (if $D' \ge D$ then $F(D') \ge F(D)$), and picks $x$ whenever all five voters prefer $x$, but is not positively responsive. Show it has each property and exhibit a failure of positive responsiveness.
+
 (b) In one sentence, say which step of May's proof breaks for your rule.
 
 **P3 (🔴, optional) *(Formal.)*** Suppose nobody may be indifferent: profiles lie in $\{-1, 1\}^n$ with $n$ odd, and positive responsiveness reads "if $F(D) \in \{0, 1\}$ and $D'$ comes from $D$ by switching at least one $-1$ to $1$, then $F(D') = 1$." Step 3 of the proof zeroed out votes, which is now impossible. Prove that decisiveness, anonymity, neutrality and positive responsiveness still force $F = F_{\text{maj}}$ on this domain.

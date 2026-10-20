@@ -85,13 +85,18 @@ $L_x = 1024 \times 0.002 = 2.048$ texels per pixel horizontally; $L_y = 1024 \ti
 ## Problems
 
 **P1 (🟢)** A texture is $1024 \times 512$.
+
 (a) List the dimensions of every mip level down to $1 \times 1$. How many levels are there?
+
 (b) What is the total texel count of the chain, and what multiple of the base level is that?
 
 **P2 (🟡)** At a pixel, a $2048 \times 2048$ texture has
 $$\frac{\partial u}{\partial x} = 0.0005,\quad \frac{\partial v}{\partial x} = 0.0002,\quad \frac{\partial u}{\partial y} = -0.0001,\quad \frac{\partial v}{\partial y} = 0.0012.$$
+
 (a) Compute $L_x$, $L_y$ and $\lambda$.
+
 (b) Which two levels does trilinear filtering read, with what weights?
+
 (c) Compute the anisotropy ratio, and the level an anisotropic filter would use.
 
 **P3 (🔴)** A fence's pickets project to a stripe pattern on screen. Rendered with one sample per pixel, what apparent stripe period (in pixels) appears if the true period is (a) 3 pixels, (b) 1.5 pixels, (c) 1.2 pixels, (d) 0.9 pixels? (e) Why does (d) look *worse* than (c) in motion even though its alias period is larger? (f) What sample rate per axis would be needed to represent (d) without aliasing?
@@ -152,8 +157,11 @@ Frequency $f = 1/\text{period}$ cycles per pixel, $f_s = 1$, $f_{\text{alias}} =
 ## Flashback
 
 **From Lesson 2.6 (texture filtering):** A $4 \times 4$ texture (row $j = 0$ at the bottom) has rows $j=1$: $(64, 128, 192, 255)$ and $j = 2$: $(128, 192, 255, 192)$, reading $i = 0$ to $3$. Look up $(u, v) = (0.95, 0.5)$ with bilinear filtering.
+
 (a) Find $i_0$, $j_0$, $f_x$, $f_y$.
+
 (b) Compute the value with **repeat** wrapping.
+
 (c) Compute the value with **clamp** wrapping, and explain the difference.
 
 <details>

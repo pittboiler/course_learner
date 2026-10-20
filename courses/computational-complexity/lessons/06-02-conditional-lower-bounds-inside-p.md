@@ -139,8 +139,11 @@ What remains, and this is the useful part, is everything the theorem does not co
 **P2 (🟡)** For each proposed result, say whether it would refute SETH, refute the 3SUM conjecture, refute neither, or refute $\mathsf{P}\ne\mathsf{NP}$.
 
 (a) Edit distance in $O(n^{1.9})$ time, exactly.
+
 (b) Edit distance in $O(n^{1.5})$ time, within a factor of 2.
+
 (c) Orthogonal Vectors in $O(N^2/\log^{100} N)$ time.
+
 (d) Three collinear points among $n$ given points in $O(n^{1.8})$ time.
 
 **P3 (🔴, optional)** This is Boss problem 6. Prove that SETH implies the OV conjecture. (a) Give the construction, defining the two vector sets explicitly. (b) Prove the correctness claim in both directions. (c) Give the running-time calculation showing an $O(N^{2-\varepsilon})$ OV algorithm yields a CNF-SAT algorithm with base below 2, and state where the sparsification lemma is needed.
@@ -222,7 +225,9 @@ The **sparsification lemma** of [Lesson 6.1](06-01-eth-seth-and-the-exponential-
 **From Lesson 6.1 (ETH, SETH & the exponential-time view):** For each claimed algorithm, state which of $\mathsf{P}\ne\mathsf{NP}$, ETH and SETH it would refute.
 
 (a) 4-SAT in $2^{O(\sqrt{n})}$ time.
+
 (b) $k$-SAT in $O(1.95^n)$ for every $k$.
+
 (c) Vertex Cover in $O(1.28^k n)$ time, where $k$ is the cover size.
 
 <details>

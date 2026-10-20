@@ -119,12 +119,15 @@ Because the dependence here is plainly causal, every theory in Module 4 agrees o
 | $a_4$ | 3 | 6 | 0 |
 
 (a) List every dominance relation, saying for each whether it is strict or weak. Which acts survive the dominance principle?
+
 (b) Writing $p_j = P(s_j)$, show that $EU(a_2) \ge EU(a_1)$ for every probability, and say exactly when they are equal.
 
 **P2 (🟡) *(Formal (a)–(b) · Exegetical (c).)*** A town is deciding whether to run a vaccination drive ($V$) or not ($N$) before winter. Utilities: the drive costs 10; an outbreak costs 50. A council member argues: "Either there is an outbreak or there isn't. Either way, not running the drive saves 10. So don't run it." The town's health office puts the chance of an outbreak at 0.1 with the drive and 0.5 without.
 
 (a) Write the council member's $2 \times 2$ matrix, confirm that $N$ strictly dominates, and compute each act's expected utility using the chance of an outbreak that goes with each act.
+
 (b) Construct a partition into act-independent states on which $N$ does not dominate $V$, give each state's probability, and confirm that expected utility is unchanged.
+
 (c) In one sentence: which premise of the dominance argument did the council member's matrix violate?
 
 **P3 (🔴, optional) *(Exegetical.)*** An **invented** board memo from a regional newspaper, not the words of any real company:

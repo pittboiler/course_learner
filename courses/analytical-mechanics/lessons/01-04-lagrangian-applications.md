@@ -89,9 +89,11 @@ $$T=\tfrac12 mR^2\dot\theta^2+\tfrac12 mR^2\Omega^2\sin^2\theta,\qquad V=-mgR\co
 $$L=\tfrac12 mR^2\dot\theta^2+\tfrac12 mR^2\Omega^2\sin^2\theta+mgR\cos\theta.$$
 Euler–Lagrange in $\theta$: $\partial L/\partial\dot\theta=mR^2\dot\theta$, $\partial L/\partial\theta=mR^2\Omega^2\sin\theta\cos\theta-mgR\sin\theta$, giving
 $$\boxed{\ \ddot\theta=\Omega^2\sin\theta\cos\theta-\frac{g}{R}\sin\theta=\sin\theta\Big(\Omega^2\cos\theta-\frac{g}{R}\Big).\ }$$
+
 (b) Writing $mR^2\ddot\theta=-U_{\text{eff}}'(\theta)$ means $U_{\text{eff}}'(\theta)=mgR\sin\theta-mR^2\Omega^2\sin\theta\cos\theta$; integrate:
 $$U_{\text{eff}}(\theta)=-mgR\cos\theta-\tfrac12 mR^2\Omega^2\sin^2\theta.$$
 (This is $V$ minus the centrifugal kinetic term — exactly the mislabeling trap in "Watch out.")
+
 (c) $U_{\text{eff}}'(\theta)=mR\sin\theta\,(g-R\Omega^2\cos\theta)=0$ gives $\sin\theta=0$ ($\theta=0,\pi$) or $\cos\theta=\dfrac{g}{R\Omega^2}$, which has a solution $\pm\theta^*$ **only when** $R\Omega^2\ge g$, i.e. $\Omega^2\ge g/R$. Stability from
 $$U_{\text{eff}}''(\theta)=mR\big[g\cos\theta-R\Omega^2\cos 2\theta\big]:$$
 - $\theta=0$: $U_{\text{eff}}''=mR(g-R\Omega^2)$ → **stable** iff $\Omega^2<g/R$, **unstable** iff $\Omega^2>g/R$.

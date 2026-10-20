@@ -79,6 +79,7 @@ So an index built to escape money's wealth-dependence implies that a year of lif
 **P1 (🟢) *(Formal (a) · Exegetical (b).)*** Two illustrative regions have (health, education, income) indices R = (0.90, 0.50, 0.70) and S = (0.70, 0.70, 0.68).
 
 (a) Rank them by the arithmetic and by the geometric mean of the three indices. Then, for R under each mean, find the rise in the income index (to first order) that offsets a 0.03 fall in R's education index.
+
 (b) In one sentence, say what your two answers in (a) imply about how each mean treats income as a substitute for education.
 
 **P2 (🟡) *(Formal (a) · Exegetical (b).)*** An **invented** brief from a provincial planning office, not the words of any real person:
@@ -88,11 +89,13 @@ So an index built to escape money's wealth-dependence implies that a year of lif
 Indices (health, education, income): North = (0.82, 0.60, 0.66), South = (0.70, 0.74, 0.66).
 
 (a) Compute both provinces' arithmetic and geometric means with equal weights, and with weights (1/2, 1/4, 1/4) on (health, education, income). For the weighted geometric mean use $\prod_k I_k^{w_k}$.
+
 (b) Which indexing choice does the brief's conclusion actually depend on, and what value judgment does that choice encode? Two sentences.
 
 **P3 (🔴, optional) *(Exegetical (a) · Evaluative (b).)*** An invented case: a close-knit community of deaf parents shares a signed language and a rich social life. Offered a device that would give their deaf infants hearing, most parents decline, on reflection and with full information, because they want their children raised fully inside the community and its language.
 
 (a) Say what a fixed-list view like Nussbaum's, with "senses" among the central capabilities and each owed up to a threshold, implies about the children's capability. One sentence.
+
 (b) Does the case work as a counterexample to measuring welfare against a fixed capability list? Name the premise it attacks, consider the capability-versus-functioning reply, and say whether the objection generalizes. Any verdict passes. 150 words or fewer.
 
 <details>

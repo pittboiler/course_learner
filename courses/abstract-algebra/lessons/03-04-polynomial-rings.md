@@ -82,8 +82,11 @@ No roots $\Rightarrow$ **irreducible over $\mathbb{Z}/2\mathbb{Z}$**. Therefore 
 **P1 (🟢)** Over $\mathbb{Q}$, divide $f = 2x^3 + 3x^2 - 1$ by $g = x + 2$ using long division, then use the factor theorem to factor $f$ completely.
 
 **P2 (🟡)** Determine, with justification, whether each is irreducible:
+
 (a) $x^2 + x + 1$ over $\mathbb{Z}/2\mathbb{Z}$;
+
 (b) $x^3 - 3x - 1$ over $\mathbb{Q}$;
+
 (c) $x^4 + 1$ over $\mathbb{Q}$ (hint: Eisenstein doesn't apply directly — try substituting $x \mapsto x+1$).
 
 **P3 (🔴)** Let $F$ be a field and $p \in F[x]$ with $\deg p \in \{2, 3\}$. Prove $p$ is irreducible over $F$ $\iff$ $p$ has no root in $F$. Then give a degree-4 polynomial over $\mathbb{R}$ with no real root that is nonetheless reducible, showing the equivalence breaks.
@@ -101,6 +104,7 @@ So $f = (x+2)(2x^2 - x + 2) - 5$, i.e. $q = 2x^2 - x + 2$, $r = -5$. Since $r = 
 Factor theorem, done honestly: search for an actual root. Rational-root candidates $\frac{p}{q}$ have $p \mid 1$, $q \mid 2$: $\pm1, \pm\frac12$. Test $x = \frac12$: $2\cdot\frac18 + 3\cdot\frac14 - 1 = \frac14 + \frac34 - 1 = 0$ ✓. So $(x - \frac12)$, equivalently $(2x - 1)$, divides $f$. Divide: $2x^3 + 3x^2 - 1 = (2x-1)(x^2 + 2x + 1) = (2x-1)(x+1)^2$. Complete factorization: $\boxed{(2x-1)(x+1)^2}$.
 
 **P2**
+
 (a) Degree 2 over $\mathbb{Z}/2\mathbb{Z}$, so check roots in $\{0,1\}$: $f(0) = 1$, $f(1) = 1+1+1 = 1 \pmod 2$. No root $\Rightarrow$ **irreducible**. (This builds $\mathrm{GF}(4)$.)
 
 (b) Degree 3 over $\mathbb{Q}$, so check for rational roots. Candidates $\pm1$ (since $a_0 = -1$, $a_n = 1$): $f(1) = 1 - 3 - 1 = -3 \neq 0$; $f(-1) = -1 + 3 - 1 = 1 \neq 0$. No rational root, and for degree 3 that's decisive $\Rightarrow$ **irreducible over $\mathbb{Q}$**.

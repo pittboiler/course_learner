@@ -143,6 +143,7 @@ Two honest caveats that make the real threshold far below 1/2.
 
 **P3 (🔴, optional)** A qubit in the three-qubit bit-flip code suffers a small coherent over-rotation on qubit 2 rather than a full flip:
 $$E = \cos\epsilon\,I + i\sin\epsilon\,X_2.$$
+
 (a) Write the damaged state and compute the probability of each syndrome outcome. (b) Show that in **both** branches the correction restores the logical state exactly, not approximately. (c) State in one sentence what this reveals about why digital error correction works on continuous errors, and connect it to the discretization theorem of [5.3](05-03-the-shor-code-and-error-discretization.md).
 
 <details>

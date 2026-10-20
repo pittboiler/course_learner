@@ -89,9 +89,13 @@ Hence every component vanishes: $\nabla\times(\nabla\phi)=\mathbf{0}$. The ident
 <summary>Solutions</summary>
 
 **P1**
+
 (a) $\delta_{ii}=\delta_{11}+\delta_{22}+\delta_{33}=3$ (trace of the identity).
+
 (b) $\delta_{ij}\delta_{ij}$: use substitution once, $\delta_{ij}\delta_{ij}=\delta_{jj}=3$. (Equivalently, it's $\sum_{i,j}\delta_{ij}^2$ = number of diagonal 1's = 3.)
+
 (c) $\varepsilon_{ijk}\delta_{jk}$ sets $k=j$ and sums: $\varepsilon_{ijj}=0$ for every $i$ (a repeated index kills $\varepsilon$). So the answer is $0$ — an antisymmetric symbol summed against the symmetric $\delta_{jk}$ must vanish.
+
 (d) $\varepsilon_{ijk}\varepsilon_{ijk}$: contract the $\varepsilon$–$\delta$ identity with $l=j,m=k$: $\varepsilon_{ijk}\varepsilon_{ijk}=\delta_{jj}\delta_{kk}-\delta_{jk}\delta_{kj}=3\cdot3-\delta_{jk}\delta_{jk}=9-3=6$.
 
 *Check.* $\varepsilon$ has exactly 6 nonzero entries, each $\pm1$, so summing their squares gives $6$ ✓; and (c) had to be zero by the same symmetric-times-antisymmetric principle used in Example 2. ✓

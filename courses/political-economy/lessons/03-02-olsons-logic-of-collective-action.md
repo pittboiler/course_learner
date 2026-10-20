@@ -91,17 +91,21 @@ The efficiency ratio is $1/27$ and then $1/27000$ in both cases. Absolute provis
 **P1 (🟢)** *(Formal.)* A trade association values lobbying $G$ at $V(G) = 12\ln(1+G)$; one unit of lobbying costs 1. Four firms hold shares 0.5, 0.2, 0.2, 0.1.
 
 (a) Find the equilibrium $G$, the efficient $G^*$ and their ratio. Show that no firm other than the largest wants to add a unit.
+
 (b) Now let the association have $n$ firms with equal shares. For which $n$ is the group privileged? Find $G$ at $n = 4$ and at $n = 12$.
 
 **P2 (🟡)** *(Formal.)* $V(G) = 8\,G^{3/4}$, three members with shares 0.5, 0.3, 0.2.
 
 (a) Find $\hat G$, $G^*$ and the ratio, and check that members 2 and 3 do not contribute.
+
 (b) Compute each member's net payoff, and the share above which a small member out-earns the provider.
+
 (c) Prove that in the general model of Proposition 1(ii), with any strictly concave $g$ and $g(0) = 0$, the provider's net payoff is strictly positive.
 
 **P3 (🔴, optional)** *(Formal (a) · Exegetical (b).)* An invented memo to a river-basin council: "Forty towns will never fund the cleanup lobby; four towns would. Olson proved that large groups fail."
 
 (a) Lobbying $G$ costs 1 per unit. Under reading R, the basin's total benefit is $24\ln(1+G)$, split equally among the towns. Under reading N, each town values $6\ln(1+G)$, however many towns there are. For 4 and for 40 towns, find the equilibrium $G$ and the ratio $G/G^*$ under each reading.
+
 (b) In 100 words or fewer: which reading does the memo assume, what is Hardin's $k$ for 40 towns under reading R, and which claim of Olson's survives under both readings?
 
 <details>
@@ -148,6 +152,7 @@ The efficiency ratio is $1/27$ and then $1/27000$ in both cases. Absolute provis
 **From Lesson [2.6](02-06-electoral-rules-compared-formally.md) (Electoral rules compared formally):** *(Formal.)* Five win-motivated candidates each take position Left or Right, and 30 percent of voters prefer Left. Each voter ranks the candidates at her own position above the others, breaking ties at random. The rule is "vote for $k$": each voter gives one point to each of her top $k$ candidates, with $1 \le k \le 4$. Start from all five at Right.
 
 (a) For $k = 1$ and for $k = 2$, find the score of a lone candidate who moves to Left and the score of each candidate left at Right. Does the move pay?
+
 (b) State the condition on $k$ under which all five at Right is an equilibrium, and find the smallest $k$ that meets it.
 
 <details>

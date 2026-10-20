@@ -74,7 +74,9 @@ That's the "divisible by 9 iff digit-sum is" rule, and it generalizes: banks and
 <summary>Solutions</summary>
 
 **P1** (a) $100 = 7\cdot 14 + 2$ with $0\le 2 < 7$, so $q=14$, $r=2$ and $100 \bmod 7 = 2$.
+
 (b) Need $0\le r<5$: $-17 = 5\cdot(-4) + 3$ (since $5\cdot(-4) = -20$ and $-20+3=-17$), so $(-17)\bmod 5 = 3$. (Watch the sign trap — not $-2$.)
+
 (c) $38 \equiv 2$ and $27 \equiv 0 \pmod 9$, so $(38+27)\equiv 2+0 = 2 \pmod 9$. Check: $65 = 9\cdot 7 + 2$. ✓
 
 **P2** By the QRT every integer is $x \equiv 0,1,2,$ or $3 \pmod 4$. Squaring each residue and reducing:

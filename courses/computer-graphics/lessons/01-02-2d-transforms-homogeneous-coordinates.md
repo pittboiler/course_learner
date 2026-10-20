@@ -108,18 +108,25 @@ Now apply $T(1,0)\,S(2,2)$ to the **vector** $(1, 1, 0)$ — say the sprite's fa
 ## Problems
 
 **P1 (🟢)** (a) Build the single $3 \times 3$ matrix that **scales by 3 about the point $(1, 2)$**.
+
 (b) Apply it to the point $(2, 2)$ and to the vector $(2, 2)$.
+
 (c) Check the point's image directly from the geometry.
 
 **P2 (🟡)** The matrix
 $$M = \begin{pmatrix} 0 & -1 & 5 \\ 1 & 0 & 1 \\ 0 & 0 & 1 \end{pmatrix}$$
 is a $90°$ rotation followed by a translation. It is claimed that it is *also* a pure $90°$ rotation about some pivot $\mathbf{c}$.
+
 (a) Find $\mathbf{c}$.
+
 (b) Check your answer by computing $M\mathbf{c}$.
 
 **P3 (🟡)** A 2D affine map sends $(0,0) \mapsto (1,1)$, $(1,0) \mapsto (3,2)$ and $(0,1) \mapsto (0,3)$.
+
 (a) Find its $3 \times 3$ matrix.
+
 (b) By what factor does it scale areas?
+
 (c) Find the image of the midpoint of $(0,0)$ and $(1,1)$ two ways — by mapping the midpoint, and by averaging the images of the endpoints — and say which property of affine maps the agreement demonstrates.
 
 <details>

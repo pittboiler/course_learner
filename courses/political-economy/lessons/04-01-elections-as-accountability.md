@@ -104,13 +104,17 @@ Raising the value of office buys discipline (period 1 up by 1/10) and costs sele
 **P1 (🟢)** *(Formal.)* An infinitely-lived incumbent faces the Barro model of this lesson with maximum rent $\bar R = 6$, office value $W = 0.5$ per term and $\delta = 0.6$.
 
 (a) Find the voter's optimal cutoff $\bar r^*$ and check the incumbent's constraint at it.
+
 (b) Find the smallest $\delta$ at which rents are zero.
+
 (c) A reform raises the official salary, paid by voters, so that $W = 1.5$. Find the new cutoff, and compare rents plus salary per term before and after.
 
 **P2 (🟡)** *(Formal.)* In the two-period selection model of Proposition 2, $\pi = 0.4$ of politicians are congruent.
 
 (a) Suppose dissonant incumbents mimic with probability $\lambda = 1/2$. Find the posterior that an incumbent with a good record is congruent.
+
 (b) Now derive $\lambda$ when $r \sim U[0, 5]$, $W = 1.5$, $\delta = 0.8$, and recompute the posterior.
+
 (c) Show that retaining after a good record and replacing after a bad one is a best response for the voter for every $\lambda \in (0, 1]$, and say what a good record reveals when $\lambda = 1$.
 
 **P3 (🔴, optional)** *(Evaluative.)* A political scientist says: "Retrospective voting is a sanctioning device. Voters set a standard and fire whoever misses it." Steelman this against Fearon's selection objection, then reply, in 150 words or fewer. State what each model assumes about politicians and which assumption your verdict turns on.

@@ -166,6 +166,7 @@ $P^*=\{(M,H)\}$. Optima: $L$ and $M$ (nothing beats either; $M$ beats $H$).
 **From Lesson [2.1](02-01-preference-and-revealed-preference.md) (Preference and revealed preference):** *(Formal (a) · Evaluative (b).)* An invented case. A city councillor votes over a year on where to site a new homeless shelter: $x$ is a vacant lot on her own street, $y$ a lot across town, $z$ no shelter. The agenda offers different menus, and her recorded votes are $C(\{x,y\})=\{x\}$, $C(\{x,z\})=\{x\}$, $C(\{y,z\})=\{y\}$ and $C(\{x,y,z\})=\{x\}$.
 
 (a) Check property alpha for every menu and its sub-menus, and give an ordering that rationalizes all four choices.
+
 (b) Complete the case in two or three sentences so that her votes stay exactly as recorded, yet voting $x$ is not evidence that $x$ is best for her, and name the idea from 2.1 your completion uses. Then say in one sentence where in the inference from choice to welfare the error enters.
 
 <details>

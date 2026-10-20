@@ -150,9 +150,13 @@ Cost: fixed $1000 + 700 = 1700$; shipping $4(80) + 6(70) + 4(40) = 320 + 420 + 1
 **P1 (🟢)** Five capital projects, $\delta_j \in \{0,1\}$ for $j = 1,\dots,5$, meaning "project $j$ is funded." Translate each condition into a linear constraint.
 
 (a) At most two of the five may be funded.
+
 (b) Project 2 can be funded only if project 1 is.
+
 (c) Projects 3 and 4 are mutually exclusive.
+
 (d) If project 5 is funded, then at least one of projects 1 and 2 must be funded.
+
 (e) Project 4 receives a budget $x_4 \ge 0$ (thousands of dollars) that must be 0 if project 4 is unfunded, and otherwise between 50 and 200.
 
 **P2 (🟡)** A workshop makes products A and B. A nets 8 dollars per unit and uses 2 machine-hours; B nets 5 dollars per unit and uses 1 machine-hour. There are 100 machine-hours per week. Producing *any* A costs a one-time setup of 60 dollars, and any B a setup of 20 dollars. The market absorbs at most 60 units of B per week (A is unlimited). (i) Write the full MIP, using the tightest valid $M$ for each linking constraint. (ii) Evaluate the plan "make 50 A, no B" — is it feasible, and what does it earn? (iii) Find the optimal plan and its profit.

@@ -113,7 +113,9 @@ Teaching order and proof are two different things. Aquinas arranges questions by
 **P1 (🟢) *(Exegetical.)*** For each claim, name the question it belongs to and what the *Summa* itself leans on for it — the prologue that licenses the placement, the earlier article cited by number, or both. **One sentence each.**
 
 (a) God is his own eternity.
+
 (b) God is infinite.
+
 (c) God alone is good by his essence.
 
 **P2 (🟡) *(Exegetical.)*** An invented parish-newsletter paragraph:

@@ -79,8 +79,11 @@ The Society and Bologna both see a rupture and judge it oppositely; Benedict den
 ## Problems
 
 **P1 (🟢) *(Formal (a)–(b) · Exegetical (c).)*** Figures from John Jay's *Nature and Scope* (2004): 4,392 priests with allegations out of 109,694 priests reported by dioceses (1950–2002); using a second count (CARA) for 1960–2002, 4,127 accused out of 94,607 priests; 10,667 people made allegations; 56 percent of accused priests were alleged to have abused one victim.
+
 (a) Compute both percentages of priests accused, to one decimal place.
+
 (b) Compute the mean number of accusers per accused priest, and say in one sentence why the typical accused priest had fewer.
+
 (c) An invented museum placard reads: "Between 1950 and 2002, one American priest in twenty-five abused a child." Say in two sentences what the 4 percent actually measures, and give one way the placard overstates and one way it may understate.
 
 **P2 (🟡) *(Exegetical.)*** The Bologna school and Benedict XVI's 2005 address disagree about whether Vatican II was a new beginning. (a) Name the single premise, about where "the council" is to be found, that one side must deny. (b) Say what kind of evidence each side treats as decisive, and what finding would embarrass each. 150 words or fewer in total.

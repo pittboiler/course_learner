@@ -99,15 +99,19 @@ Now the other horn. Lottery $C$: a coin flip gives both 10 or both 0. Lottery $A
 **P1 (🟢) *(Formal (a) · Exegetical (b).)*** Three people; $P = (1, 7, 10)$ and $Q = (4, 5, 6)$.
 
 (a) Rank $P$ and $Q$ by the utilitarian sum and by maximin. Then apply $T_1$: $u_1 \mapsto 2u_1 + 5$, $u_2 \mapsto 2u_2$, $u_3 \mapsto 2u_3 - 8$; and separately $T_2$: replace every utility by its natural log. For each transformation, say which ranking survives.
+
 (b) In one sentence each, name the informational basis $T_1$ and $T_2$ belong to, and the comparability each social welfare function needs.
 
 **P2 (🟡) *(Formal (a)–(b) · Exegetical (c).)*** (a) Three policies give three people $A = (36, 16, 1)$, $B = (25, 16, 9)$, $C = (12, 12, 12)$. Rank them by the utilitarian sum, the prioritarian sum with $f = \sqrt{\ }$, and maximin.
+
 (b) Kai, whose vNM utility is his well-being, alone faces a choice: $R$ gives 0 or 25 with equal chances, $S$ gives 9 for sure. Everyone else is unaffected. Which does Kai prefer? Compute $W_{\text{post}}$ and $W_{\text{ante}}$ with $f = \sqrt{\ }$ for both.
+
 (c) Two sentences: which principle does the view that disagrees with Kai violate, and why can the other not violate it here?
 
 **P3 (🔴, optional) *(Formal (a) · Exegetical (b).)*** One dose, three patients: Pia, Quinn and Rosa. The recipient gets 12, the others 0. $G_P$ gives the dose to Pia; $L$ draws a name uniformly at random.
 
 (a) Compute the equal-weight Harsanyi values and the $W_{\text{ante}}$ values with $f = \sqrt{\ }$ for $G_P$ and $L$. Show that the $W_{\text{ante}}$ verdict cannot be represented by any social expected utility.
+
 (b) Find the crux between Diamond and a defender of Harsanyi's sum: the axiom one accepts and the other rejects. Then state the redescription reply and its cost. 120 words or fewer.
 
 <details>
@@ -185,7 +189,9 @@ By symmetry $G_P$, $G_Q$, $G_R$ all score $\sqrt{12}$, so they are indifferent, 
 **From Lesson [4.4](04-04-hard-cases-for-both.md) (Hard cases for both):** *(Formal (a)–(b) · Exegetical (c).)* Death in Damascus, lopsided. Death predicts your city with reliability $0.8$ and waits there. Surviving is worth 100, dying 0, and Aleppo adds a bonus $b$ either way. A deliberational causalist's credence that she will go to Damascus is $c$, so Death is in Damascus with probability $0.8c+0.2(1-c)$ and in Aleppo otherwise.
 
 (a) With $b=12$, write $U(\text{Damascus})$ and $U(\text{Aleppo})$ as functions of $c$. Find the equilibrium credence $c^*$ where they are equal, and say which way deliberation pushes $c$ on each side of it.
+
 (b) Find the smallest $b$ at which deliberation comes to rest on a pure act. Which act, and how does that threshold relate to that act's ratifiability?
+
 (c) At $b=12$, what does evidential decision theory recommend, and what does the deliberational causalist give up that it does not? Two sentences.
 
 <details>

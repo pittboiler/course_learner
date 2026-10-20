@@ -97,8 +97,11 @@ So repetition can make the case for Reading A stronger. It cannot close the case
 **P1 (🟢)** *(Exegetical.)* For each item, **name the act** (who, in what genre) and say in one clause what it can and cannot do to the level of HV's norm. **Two sentences per item.**
 
 (a) The Winnipeg Statement §26 (1968).
+
 (b) *Familiaris Consortio* 32 (1981).
+
 (c) A theologian's journal article (1978) concluding that the norm has been infallibly taught.
+
 (d) CCC 2370.
 
 **P2 (🟡)** *(Exegetical.)* An **invented** parish bulletin, not the words of any real person:

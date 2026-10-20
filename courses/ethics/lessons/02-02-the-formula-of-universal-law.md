@@ -90,7 +90,9 @@ Korsgaard defends the practical reading. It explains *why* universality matters:
 **P1 (🟢) *(Exegetical.)*** Run each maxim through the universalization test. Say whether it fails in conception, fails in will, or passes, and name the kind of duty involved if it fails. One or two sentences each.
 
 > (a) When I want a book I cannot afford, I will borrow it from the public library and keep it.
+>
 > (b) I will spend all my free time on video games and never train any ability beyond what my undemanding job requires.
+>
 > (c) I will never learn to play a musical instrument.
 
 **P2 (🟡) *(Exegetical.)*** The paragraph below is from an invented op-ed. (a) Name the question it is actually asking, and say why that is not the Formula of Universal Law. (b) Run the Formula of Universal Law properly on the maxim it attacks, and give the verdict. 150 words or fewer for (a) and (b) together.

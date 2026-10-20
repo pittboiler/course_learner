@@ -77,8 +77,11 @@ Now test it. The surgeon's training has a cost, so there is a quantity. The cred
 **P1 (🟢) *(Exegetical.)*** Using 1.1's four marks of a debt (a quantity, a determinate creditor, transferability, discharge by payment or release), classify each invented case as a debt, owed but not a debt, or neither. Give the deciding mark in one sentence each.
 
 (a) A mother pays her son's rent for a year. They both sign a note: "to be repaid, without interest, when you find work."
+
 (b) A stranger pulls you out of a river and refuses any reward.
+
 (c) A burglar is sentenced to two years in prison. A second burglar, convicted of the same offence, is fined 500 dollars. Both are said to be "paying their debt to society."
+
 (d) A foundation pays a student's tuition on condition that she teaches in the region for five years or repays the tuition.
 
 **P2 (🟡) *(Exegetical (a)–(b).)*** Seneca, *On Benefits* III.30 (Stewart):

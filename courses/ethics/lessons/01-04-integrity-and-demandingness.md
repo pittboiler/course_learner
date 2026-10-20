@@ -102,7 +102,9 @@ Three replies each give her a stopping point, and each pays a price.
 (a) Which objection is doing the work in sentence 3, and which in sentence 4? (b) Sentence 2 concedes something. Which move from Williams's treatment of Jim does it echo? 100 words or fewer in total.
 
 **P2 (🟡) *(Exegetical (a) · Formal (b).)*** Use Dana's numbers from Example 2: a 250-dollar ticket, and 5,000 dollars saves one life in expectation. Stipulate that the concert is worth 40 welfare units to her, and that a child's life saved is worth 2,000 welfare units.
+
 (a) What do Singer's strong and moderate principles each say about (i) the first ticket and (ii) giving away her entire 5,000 dollars? One sentence each.
+
 (b) On an agent-centred prerogative, Dana may weigh her own welfare $M$ times as heavily as anyone else's. Find the smallest $M$ at which keeping the ticket is permitted, and show the arithmetic.
 
 **P3 (🔴, optional) *(Evaluative.)*** Steelman the demandingness objection against the reply that the judgement "I needn't give away almost everything" merely reports self-interest. Then give the best reply on Singer's behalf. Any verdict on who wins; you are graded on the moves. 150 words or fewer.

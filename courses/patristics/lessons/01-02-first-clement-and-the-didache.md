@@ -95,6 +95,7 @@ One authority note, since these texts attract the mistake: neither is Scripture.
 > Let us consider that wonderful sign [of the resurrection] which takes place in eastern lands, that is, in Arabia and the countries round about. There is a certain bird which is called a phœnix. This is the only one of its kind, and lives five hundred years. And when the time of its dissolution draws near that it must die, it builds itself a nest of frankincense, and myrrh, and other spices, into which, when the time is fulfilled, it enters and dies. … Do we then deem it any great and wonderful thing for the Maker of all things to raise up again those that have piously served Him in the assurance of a good faith, when even by a bird He shows us the mightiness of His power to fulfil His promise?
 
 (a) Set out the argument of chapters 24–26 in numbered premises, and say what job the phoenix does in it: a proof, an illustration inside a larger step, or a premise the conclusion cannot do without. Point to the words that decide.
+
 (b) There is no phoenix. In two sentences, say what that does to the argument as Clement frames it, and which test from [1.1](01-01-how-to-read-a-church-father.md) tells you whether it touches his standing as a witness.
 
 **P2 (🟡) *(Exegetical.)*** A note invented for this problem, from a parish bulletin:
@@ -106,6 +107,7 @@ Take the three claims — the date, the Mass, the officers — one at a time. Fo
 **P3 (🔴, optional) *(Exegetical (a) · Evaluative (b).)*** Until 1873 no known manuscript carried the Didache complete, and 1 Clement was read from one damaged fifth-century Bible. Bryennios's eleventh-century codex supplied both.
 
 (a) 1 Clement's text names no author and speaks in the name of the Roman church. State what the attribution to Clement actually rests on, and what follows for how you cite the letter.
+
 (b) Someone builds a doctrinal argument on a single word of the Didache. In two sentences, any verdict: what does the transmission history oblige him to do before the argument runs, and what should he do if the Jerusalem Codex turns out to be the only Greek witness for that word?
 
 <details>

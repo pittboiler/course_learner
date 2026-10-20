@@ -144,8 +144,11 @@ $$\text{required reduction} > \frac{1300}{10} = 130\times, \quad\text{i.e. } > 9
 **P1 (🟢)** For each antigen, name the compartment of degradation, the MHC class, and the responding T-cell subset. One of them has a twist.
 
 (a) Influenza nucleoprotein in an infected lung epithelial cell.
+
 (b) Tetanus toxoid captured by a B cell through its BCR.
+
 (c) A *Listeria monocytogenes* protein, in a macrophage — noting that *Listeria* escapes the phagosome into the cytosol.
+
 (d) A papillomavirus protein made in a keratinocyte, where a CD8 response is nonetheless primed in the draining lymph node.
 
 **P2 (🟡)** A dendritic cell cross-presents a vaccine antigen. It generates the relevant peptide–class I complex at $R = 20$ per hour while antigen lasts, and the complexes have a surface half-life of 8 h. (a) Steady-state display? (b) Antigen supply is exhausted and $R$ drops to zero; how many complexes remain 12 h later? (c) For how long after supply stops does the cell stay above a threshold of 10 complexes? (d) Why does this matter for [4.2](04-02-immunological-memory-vaccines.md)?
@@ -208,7 +211,9 @@ For TAP blockade to pay, the virus needs a *second, independent* mechanism to ke
 $$\text{G} \;\text{L} \;\text{L} \;\text{F} \;\text{G} \;\text{Y} \;\text{P} \;\text{V} \;\text{Y} \;\text{V} \;\text{R} \;\text{T} \;\text{K} \;\text{A} \;\text{E} \;\text{M}$$
 
 Find every 9-mer within it that satisfies both anchor requirements, and identify the closest near-miss.
+
 (b) A donor's class II presents a 15-mer spanning the same region. Why does the 9-mer anchor rule not apply?
+
 (c) A second patient, HLA-A\*02-negative, makes no CD8 response to this epitope at all. What does that illustrate about MHC polymorphism, and how many distinct class I molecules would that patient express if heterozygous at all three classical loci?
 
 <details>

@@ -88,7 +88,9 @@ using $sr^{-1} = rs$ (from $sr = r^{-1}s$). But $r^2 s \notin \{e,s\} = H$ — i
 ## Problems
 
 **P1 (🟢)** Decide normality by testing conjugates.
+
 (a) Is $\langle r^2\rangle = \{e, r^2\}$ normal in $D_4$?
+
 (b) Is $\langle (1\,2)\rangle = \{e, (1\,2)\}$ normal in $S_3$?
 In each case either exhibit a $g$ with $gNg^{-1}\ne N$, or give a one-line reason it must be normal.
 
@@ -100,6 +102,7 @@ In each case either exhibit a $g$ with $gNg^{-1}\ne N$, or give a one-line reaso
 <summary>Solutions</summary>
 
 **P1.**
+
 (a) **Normal.** $r^2$ is the $180°$ rotation and commutes with every element of $D_4$ (it's the center $Z(D_4)$). So $g r^2 g^{-1} = r^2$ for all $g$, hence $gNg^{-1} = N$. (Alternatively: $[D_4 : N] = 8/2 = 4$ doesn't give it for free, but index and centrality both close it — centrality is the clean reason.) $N \trianglelefteq D_4$. ✓
 
 (b) **Not normal.** $N = \{e,(1\,2)\}$. Conjugate the transposition by $(1\,3)$; conjugation sends $(a\,b)\mapsto(\sigma a\,\ \sigma b)$, and $(1\,3)$ maps $1\mapsto 3,\ 2\mapsto 2$:

@@ -101,18 +101,23 @@ An analyst who assumes state-independent linear utility reads $P(D) = c/1000 = \
 **P1 (🟢) *(Formal.)*** Normalize $u(0) = 0$ and $u(900) = 1$. A festival organizer treats a neutral coin toss $N$ as having credence $\tfrac12$ and reports $400 \sim [900 \text{ on } N;\ 0]$ and $625 \sim [900 \text{ on } N;\ 400]$.
 
 (a) Find $u(400)$ and $u(625)$.
+
 (b) She also reports $625 \sim [900 \text{ on } R;\ 0]$, where $R$ is "it rains on the festival day". Find her credence in $R$.
+
 (c) What credence in $R$ would an analyst report who took money to be utility, and in which direction is the error? One sentence on why.
 
 **P2 (🟡) *(Formal (a)–(b) · Exegetical (c).)*** An illustrative climber has credence $\tfrac15$ that she dies on an expedition ($D$). Money is linear in utility if she survives; a payout on $D$ goes to her heirs and is worth a quarter as much to her ($\lambda_D = \tfrac14$).
 
 (a) What sure amount does she take as equivalent to a policy paying 2,000 dollars on $D$? What probability of $D$ would an analyst elicit assuming state-independent linear utility?
+
 (b) Show that a climber with credence $\tfrac19$ and $\lambda_D = \tfrac12$ would make exactly the same choice in (a), and that she and the original climber rank *every* act alike.
+
 (c) In two sentences: which assumption of Savage's framework makes his probability unique, and what does (b) show about its status?
 
 **P3 (🔴, optional) *(Exegetical (a) · Evaluative (b).)***
 
 (a) In two sentences, say what the Dutch book argument establishes about credences that Savage's representation theorem does not, and one assumption it needs that Savage's does not. Cite; no proof.
+
 (b) A constructivist says: since preference cannot separate credence from state-dependent value, a "credence" is just the $Q$ a convention picks out, not a state of mind. A realist says credences are real states that preference measures imperfectly. In 120 words or fewer, find the crux between them and say what would move each side. Any verdict passes.
 
 <details>
@@ -181,6 +186,7 @@ The analyst reads $P(D) = c/2000 = \tfrac1{17}$, against her true $\tfrac15$.
 **From Lesson [1.4](01-04-what-a-representation-theorem-shows.md) (What a representation theorem shows):** *(Formal (a) · Exegetical (b).)* A spinner pays Rosa 200 dollars with probability 0.6; with probability 0.4 she instead reaches a choice between 800 dollars for sure and a 0.75 chance of 1,200 dollars (else nothing). At the choice node she takes the sure 800. Asked at the start, she prefers the plan "take the gamble at the node" to the plan "take the sure 800".
 
 (a) Reduce both plans to one-stage lotteries. Normalizing $u(0) = 0$ and $u(1200) = 1$, show that no utility function makes both preferences expected-utility maximizing, whatever $u(200)$ is. Which axiom does she violate, and with what $\alpha$ and what common lottery $N$?
+
 (b) One line each for myopic, sophisticated and resolute Rosa: the plan she adopts at the start, what she does at the node, and, for myopic and resolute Rosa, the premise of the sequential-choice argument she gives up.
 
 <details>

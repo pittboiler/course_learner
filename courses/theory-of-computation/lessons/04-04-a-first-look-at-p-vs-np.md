@@ -126,9 +126,13 @@ Both halves matter, and they are the two arrows of [Lesson 4.2's Picture](04-02-
 **P1 (🟢)** For each procedure on an input of size $n$, give the running time in $O(\cdot)$ form and say whether it is polynomial.
 
 (a) Check whether a supplied list of $n$ vertices is a Hamiltonian path in a graph given as an $n \times n$ adjacency matrix.
+
 (b) Try every ordering of $n$ vertices, checking each as in (a).
+
 (c) Check whether a supplied assignment satisfies a Boolean formula with $m$ occurrences of literals.
+
 (d) Try every assignment to the $v$ variables of that formula.
+
 (e) Multiply two $n$-bit integers by the grade-school method.
 
 **P2 (🟡)** Let
@@ -140,10 +144,15 @@ $$\mathit{SUBSET\text{-}SUM} = \{\, \langle S, t\rangle : S \text{ is a finite m
 **P3 (🔴)** Decide each claim: **true**, **false**, or **open**. Justify in one or two sentences each.
 
 (a) If $A \in \mathrm{P}$ then $A \in \mathrm{NP}$.
+
 (b) If $A \in \mathrm{NP}$ then $A$ is decidable.
+
 (c) If $A$ is NP-complete and $A \in \mathrm{P}$, then $\mathrm{P} = \mathrm{NP}$.
+
 (d) If $A \le_{\mathrm{P}} B$ and $A$ is NP-complete, then $B$ is NP-complete.
+
 (e) $A_{\mathrm{TM}} \in \mathrm{NP}$.
+
 (f) If $A \in \mathrm{NP}$ then $\overline{A} \in \mathrm{NP}$.
 
 <details>

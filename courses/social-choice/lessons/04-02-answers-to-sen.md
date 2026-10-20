@@ -107,12 +107,15 @@ The two formalizations disagree on a case with no meddling and no Pareto conflic
 **P1 (🟢) *(Formal (a)–(b).)*** Eli and Fay each choose whether the music on her own balcony is loud (L) or quiet (Q); Eli's choice is written first. Eli: QQ ≻ LL ≻ LQ ≻ QL. Fay: QL ≻ LQ ≻ QQ ≻ LL.
 
 (a) Under the libertarian claim, write the four rights verdicts and show that every state is beaten. Whose preference over her own feature is conditional?
+
 (b) Treat the situation as a simultaneous game in which each chooses her own feature. Show it has no pure-strategy Nash equilibrium, and explain in one sentence why (a) and (b) are the same fact in a two-person, two-value world.
 
 **P2 (🟡) *(Formal (a)–(b) · Exegetical (c).)*** Gus and Hana each choose to dye their own hair (D) or leave it natural (N); Gus's choice first. Gus: DN ≻ NN ≻ DD ≻ ND.
 
 (a) Hana: ND ≻ DD ≻ NN ≻ DN. Do the libertarian claim and weak Pareto force a cycle? Answer with Theorem 3, then confirm by listing every forced verdict and finding the unbeaten state.
+
 (b) Hana instead: ND ≻ NN ≻ DD ≻ DN. Exhibit the cycle. Then find the equilibrium of the game in which each chooses her own hair, and say whether it is Pareto-efficient.
+
 (c) Find the crux. A defender of Sen's formulation says (b) shows rights and Pareto contradict; a game-form theorist says it shows only that free people can produce an outcome both regret. In 100 words or fewer, name the premise one affirms and the other denies, and say what would move each.
 
 **P3 (🔴, optional) *(Exegetical.)*** A housing co-op's charter gives each member the final say over the paint inside her own flat, and forbids choosing an outcome every member likes less than some other outcome. Five invented amendments follow. For each, name the premise of Sen's theorem it denies or weakens (unrestricted domain, minimal liberalism, weak Pareto, acyclicity), or say that it rejects Sen's formalization of rights. One sentence each.
@@ -189,7 +192,9 @@ Direct check. Rights: DD ≻ ND and DN ≻ NN (Gus); DD ≻ DN and ND ≻ NN (Ha
 | 6 | U ≻ V ≻ T ≻ S |
 
 (a) With $n$ even, 3.4's version of Theorem 1 reads the majority relation $M$ off the two middle voters. Write $M$ down that way, without counting, and name the tied pairs.
+
 (b) Confirm S against V and T against U by direct count.
+
 (c) Is there a strict Condorcet winner? Show that the weak relation $R$ ($x \, R \, y$ iff $n(x,y) \ge n(y,x)$) is not transitive.
 
 <details>

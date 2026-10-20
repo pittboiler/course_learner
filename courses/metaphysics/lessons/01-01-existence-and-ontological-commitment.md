@@ -75,7 +75,9 @@ But "odd" was doing further work — it was a step in an argument about symmetry
 **P1 (🟢) *(Exegetical.)*** For each sentence, say what Quine's criterion commits the speaker to, and give a paraphrase that avoids the commitment if one is available. One or two sentences each.
 
 (a) "There are several properties that all electrons share."
+
 (b) "Sherlock Holmes is more famous than any real detective."
+
 (c) "There is a gap in the argument on page four."
 
 **P2 (🟡) *(Exegetical (a) · Evaluative (b).)*** An invented passage from a popular-science column:

@@ -106,18 +106,23 @@ In general, with $p > m$ the upper end is $\max(f', \min(p, v))$. "Gridlock is $
 **P1 (🟢)** *(Formal.)* A setter at $s = 2$ proposes to a median voter at $m = 7$; policies lie on $[0, 15]$, Euclidean utility, an indifferent voter accepts.
 
 (a) Give the enacted policy as a function of the reversion point $q$, as a table by region.
+
 (b) Find the outcome for $q = 9$ and for $q = 14$.
+
 (c) For $q \in [7, 15]$, which reversion points leave the voter worst off, and how far from her ideal is the outcome then?
 
 **P2 (🟡)** *(Formal.)* A 100-member chamber, one dimension, the pivotal-politics rules of this lesson (median proposes, cloture 60, override 67, all members vote). Members' positions: 34th from the left at 2, 41st at 3.5, 50th (the proposer) at 5, 60th at 6, 67th at 7.5. The president is at 1.
 
 (a) Which two pivots bound the gridlock interval, and what is it?
+
 (b) Find the outcome for $q = 0.5$ and for $q = 9$.
+
 (c) A new president at 6.5 takes office. Find the new gridlock interval and the outcome for $q = 7$.
 
 **P3 (🔴, optional)** *(Formal.)* Three veto players have ideals 3, 6 and 10 on a line (Euclidean utility); the one at 3 also sets the agenda. An invented memo claims: "Since our minister controls the agenda, any status quo far from her position, such as 9.5, will be pulled toward her."
 
 (a) Show that 9.5 cannot be moved, and find, with proof, every status quo that cannot be moved.
+
 (b) For $q = 14$, find the enacted policy. Recompute after adding a fourth veto player at 8, and instead at 12.
 
 <details>

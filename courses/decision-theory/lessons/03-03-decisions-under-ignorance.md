@@ -120,12 +120,15 @@ Here the rule strains, and each side pays. The critic says a ranking of A agains
 **P1 (🟢)** *(Formal (a) · Formal (b).)* Acts P, Q and R pay, across states $t_1,t_2,t_3$ (utils): P $=(1,4,9)$, Q $=(5,8,2)$, R $=(7,8,1)$.
 
 (a) Find the choice under maximin, maximax, Laplace, Hurwicz with $\alpha=1/4$, and minimax regret. Show the regret table.
+
 (b) Find every $\alpha\in[0,1]$ at which Hurwicz chooses P, and every one at which it chooses Q. Show that R, the Laplace choice, is chosen for no $\alpha$, and say in one sentence why.
 
 **P2 (🟡)** *(Formal (a) · Formal (b) · Exegetical (c).)* A port authority chooses between X (expand the quay) and Y (raise the seawall). In state $s_1$ trade grows; in $s_2$ it stalls. Payoffs: X $=(8,1)$, Y $=(3,5)$.
 
 (a) Find the choice under Laplace, maximin and minimax regret. Then a planner splits "trade stalls" into "stalls from recession" and "stalls from rerouting", with each act paying the same in both. Recompute all three rules on the $2\times3$ matrix.
+
 (b) Return to the original $2\times2$ matrix. Add one constant to every entry of one column so that maximin's choice reverses, and check whether Laplace's and minimax regret's choices change.
+
 (c) Name the Milnor axiom violated in (a) and the one violated in (b), and the rule that violates each. Two sentences.
 
 **P3 (🔴, optional)** *(Exegetical (a) · Evaluative (b).)* From an invented county planning memo:
@@ -133,6 +136,7 @@ Here the rule strains, and each side pays. The critic says a ranking of A agains
 > "We have no credible estimates for the three flood scenarios, so the consultant recommends the plan with the best worst case. This is not timidity. Von Neumann proved that against an opponent the minimax strategy is the rational one, and nature is the ultimate opponent. The mathematics settles it."
 
 (a) Name the move doing the work, and say exactly why the minimax theorem does not deliver the memo's conclusion. 100 words or fewer.
+
 (b) Without the game-theory premise, give the strongest case for using maximin here and the strongest objection to it. 150 words or fewer. Any verdict passes.
 
 <details>
@@ -211,6 +215,7 @@ Split matrix X $=(8,1,1)$, Y $=(3,5,5)$. Laplace: $10/3$ vs $13/3$, now Y. Maxim
 **From Lesson [3.1](03-01-the-ellsberg-paradox.md) (The Ellsberg paradox):** *(Formal (a)–(b).)* Urn K holds 60 balls: 15 red and 45 black. Urn U holds 60 red and black balls in unknown mix. A bet names an urn and a colour and pays 100 dollars if a ball drawn from that urn has that colour, else 0. Let $p$ be a chooser's subjective probability that a ball from U is red, and let $u$ be any utility with $u(100) > u(0)$.
 
 (a) Dana prefers K-red to U-red, and K-black to U-black. For which $p$ does expected utility endorse each choice taken alone? Show that no $p$ and no $u$ fit both.
+
 (b) Kim prefers U-red to K-red, and K-black to U-black. Find every $p$ that makes Kim an expected-utility maximizer. Then, in one sentence: what does the contrast with Dana show about which choice pairs reveal ambiguity aversion?
 
 <details>

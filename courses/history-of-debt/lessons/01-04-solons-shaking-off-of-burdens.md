@@ -94,9 +94,13 @@ Diagnosis: the analogy takes the structure from Solon and quietly changes what c
 (a) Which reading of the *hektemoroi* does this passage support, debtors or dependent cultivators? Name the words that decide it. (b) Compare it with Plutarch 13.2 (the Source): what does Plutarch's wording do that this passage does not? (c) Does either passage settle whether the sixth was paid or kept? 150 words or fewer in total.
 
 **P2 (🟡) *(Formal (a)–(c) · Exegetical (d).)*** Illustrative figures only. A sixth-parter's field yields 48 *medimnoi* (a measure of grain) of barley in a normal year. He must set aside 8 for seed, and his household eats 30.
+
 (a) Compute what he keeps, and his surplus or shortfall after seed and food, on reading A (he *pays* a sixth) and on reading B (he *keeps* a sixth).
+
 (b) For each reading, find the smallest harvest that covers seed and food.
+
 (c) On reading A, a bad year cuts the harvest by 25%. He borrows the shortfall in barley at 33⅓% a year, compounding (the Mesopotamian barley convention from [1.1](01-01-credit-before-coins.md), used only for illustration; no Athenian rate is attested for his time). Each later normal harvest he pays his whole surplus. Write the recurrence for the debt after each payment, give the debt after 5 payments, and find the largest loan he could ever pay off.
+
 (d) In one sentence: which reading makes the sources' claim that non-payment led to enslavement easier to understand, and why?
 
 **P3 (🔴, optional) *(Exegetical.)*** One historian holds that the *hektemoroi* were defaulted debtors paying a sixth on loans secured by their land. Another holds that they were dependent cultivators owing a customary share to landowners, with no loan involved. Name the single premise one side must deny, and name two kinds of evidence that would move it. 150 words or fewer.

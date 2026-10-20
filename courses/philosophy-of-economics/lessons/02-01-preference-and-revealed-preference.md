@@ -82,17 +82,21 @@ Now the strain. Redescribe the options as "take the last apple" and "take one ap
 **P1 (🟢) *(Formal (a) · Exegetical (b).)*** Three observations, two goods: day 1, prices $(2,1)$, bundle $x^1=(3,4)$; day 2, prices $(1,2)$, bundle $x^2=(2,5)$; day 3, prices $(1,1)$, bundle $x^3=(5,1)$.
 
 (a) Compute each day's spending and every cross-cost. List every direct revealed-preference relation, name the pair that violates WARP, and say whether GARP also fails.
+
 (b) The data show $x^2$ directly revealed preferred to $x^3$. In one sentence each, say what that statement means to a Samuelsonian behaviourist and to Hausman.
 
 **P2 (🟡) *(Exegetical.)*** Classify each invented case as **sympathy**, **commitment** or **neither** in Sen's sense, giving the deciding reason in one sentence. Then say in which cases the choice remains evidence of the chooser's own welfare.
 
 (a) Lena gives 50 dollars a month to a refugee charity because news from the camps keeps her awake at night, and giving lets her sleep.
+
 (b) Omar, a ticket inspector on a flat wage, reports a fare-dodging friend. He expects to feel worse about it all week, nothing in his pay or prospects depends on it, and he does it because he gave his word to do the job honestly.
+
 (c) Tess donates to her old university only because the published donor list brings clients to her consulting firm.
 
 **P3 (🔴, optional) *(Formal (a) · Exegetical (b).)*** An invented case. At a restaurant whose list offers a house red at 10 dollars a glass and a mid-range red at 20, a diner orders the house red. On another night the list adds a reserve red at 60; she orders the mid-range red. Nothing else differs.
 
 (a) Write her choices as a choice function, show that they violate property alpha, and show that no ordering of the three wines rationalizes both.
+
 (b) A behaviourist economist says she has no stable preference over these wines. A Hausmanian says her preferences may be stable and the 60-dollar wine changed her beliefs. Name the crux between them, and say what evidence or argument would move each. 100 words or fewer.
 
 <details>
@@ -168,7 +172,9 @@ Bold entries are affordable bundles passed over. Direct relations: $x^1$ over $x
 **From Lesson [1.2](01-02-money-and-happiness-as-measures.md) (Money and happiness as measures):** *(Formal (a)–(b) · Exegetical (c).)* An invented case, illustrative numbers. A dental clinic runs a procedure in two versions. In version A a patient rates her discomfort minute by minute (0–10, higher is worse) as 2, 5, 9, 6. Version B is A followed by three more minutes rated 4, 3, 2. Take experienced utility as total discomfort, and remembered utility as the stylized peak-end score: the average of the worst minute and the last.
 
 (a) Compute each version's total and peak-end score, and say which version each measure favours.
+
 (b) The clinic could instead add a tail of $m$ minutes, each rated $r$, with $0<r\le 9$. For which $r$ is the lengthened version remembered as better than A, and does $m$ matter? What happens to total discomfort as $m$ grows?
+
 (c) An invented board memo: "Patients who have had both versions overwhelmingly rate B as better and ask for it next time. Revealed preference shows what people want, so B raises their welfare, and adopting it simply respects their choices." Which of Kahneman's three utilities does each piece of the memo's evidence read, and what premise turns that evidence into "B raises their welfare"? Two sentences.
 
 <details>

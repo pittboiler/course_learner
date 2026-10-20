@@ -89,7 +89,9 @@ Now see where it strains. Eck's premise is not foolish. The insurance was a real
 **P1 (🟢)** *(Exegetical)* Classify each invented contract as **partnership**, **census**, **real exchange**, or **a loan in disguise**, and name the feature that decides it. **Two sentences each.**
 
 (a) Livia gives 2,000 florins to a cloth merchant "as a partner" for a year. The contract says she will receive her 2,000 back plus 160 in any event, and bears no share of any loss.
+
 (b) Tomás pays 800 to a miller for a yearly rent of 44 charged on the mill. The miller may end the rent at any time by repaying 800; Tomás may never demand it. If the mill burns, the rent ceases.
+
 (c) A Florentine banker "buys" a bill payable in Bruges, but by agreement no correspondent in Bruges ever receives or pays anything. The bill is returned to Florence after three months and settled at a pre-agreed higher sum.
 
 **P2 (🟡)** *(Formal (a) · Exegetical (b))* A landowner sells a rent of 72 a year charged on a vineyard that yields about 110 a year, for a price of 1,200. (a) Compute the buyer's annual yield, the share of the vineyard's yield the rent takes, and what the buyer has received if the seller redeems after 10 years. Compare with a 1,200 loan at 6 percent simple interest for 10 years. (b) The same numbers can describe a census and a loan. Name the two features that make this a census under the conditions the moralists read in the bulls, and say what single change to the contract would make it a loan in all but name. **80 words or fewer for (b).**

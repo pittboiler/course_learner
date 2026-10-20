@@ -104,9 +104,13 @@ Same historical facts, two arguments, two burdens, two ranges of admissible evid
 **P1 (🟢) *(Exegetical.)*** Below are five moves, scrambled and paraphrased, from *Summa Theologiae* I, q.1, a.2, on whether sacred doctrine is a science. Assign each to its part — objection, *sed contra*, *respondeo*, or reply — and give the one-line job that part performs in the article. One sentence each.
 
 (a) Augustine, in *De Trinitate*, assigns to this science the work by which saving faith is begotten, nourished and strengthened.
+
 (b) It seems that sacred doctrine is not a science, because every science proceeds from self-evident principles, and this one proceeds from articles of faith, which are not self-evident.
+
 (c) Some sciences take their principles from a higher science, as optics takes its principles from geometry and music from arithmetic; sacred doctrine takes its principles from the knowledge God and the blessed have.
+
 (d) The principles of any science are either self-evident or reducible to the principles of a higher science; the principles of this one are of the second sort, so the objection holds only of sciences of the first sort.
+
 (e) It seems that sacred doctrine is not a science, because a science does not treat of individuals, whereas this one treats of Abraham, Isaac and Jacob.
 
 **P2 (🟡) *(Exegetical (a) · Evaluative (b).)*** An invented opinion column, attributed to no one real:

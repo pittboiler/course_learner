@@ -93,13 +93,17 @@ Contrast Go, which declares types with `type x int` — a keyword at the start. 
 **P2 (🟡)** A language designer adds a `**` operator for exponentiation to a language that already has `*` for multiplication and `*` as a prefix pointer-dereference.
 
 (a) Give the shortest source string whose meaning changes as a result of adding the token, and say what it meant before and after.
+
 (b) State which of the two lexing rules causes the change.
+
 (c) Name the fix available to a programmer who wants the old meaning.
 
 **P3 (🔴)** Python's grammar is context-free, but Python source cannot be tokenized by a pure maximal-munch lexer over a regular rule set, because indentation is significant and blocks nest arbitrarily deep.
 
 (a) State precisely why nesting puts this beyond a regular rule set. Name the theorem.
+
 (b) Real Python lexers emit `INDENT` and `DEDENT` tokens. Describe the extra state the lexer must carry, and say what data structure it is.
+
 (c) That extra state makes the lexer strictly more powerful than a finite automaton. Say which class of automaton it now matches, and name one thing about Python's design that keeps this from being as costly as C's lexer hack.
 
 <details>

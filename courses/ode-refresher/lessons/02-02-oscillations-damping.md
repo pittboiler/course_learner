@@ -90,6 +90,7 @@ Both terms decay; the mass slides monotonically to rest. Halve the damper to $c=
 **P1 (🟢)** A mass $m=2$ kg on a frictionless spring with $k=8$ N/m is pulled to $x(0)=3$ m and released with velocity $x'(0)=8$ m/s. This is simple harmonic motion, $x'' + \omega_0^2 x = 0$. Find $\omega_0$ and the motion $x(t)$, then write it in amplitude–phase form $A\cos(\omega_0 t - \phi)$.
 
 **P2 (🟡)** Classify the damping of each equation (over / critical / under) and write its general solution:
+
 (a) $x'' + 4x' + 3x = 0$  (b) $x'' + 4x' + 4x = 0$  (c) $x'' + 2x' + 5x = 0$.
 
 **P3 (🔴)** A screen-door closer is modeled as a mass–spring–damper with effective mass $m=0.5$ kg and spring constant $k=8$ N/m. Find the damping coefficient $c$ that makes the door **critically damped**, and explain in one sentence why the manufacturer wants exactly this value (not more, not less).
@@ -106,8 +107,11 @@ Amplitude–phase form: $A=\sqrt{C_1^2+C_2^2}=\sqrt{9+16}=5$, and $\tan\phi = C_
 *Check:* $x(0)=5\cos(-0.927)=5(0.6)=3$ ✓; $x'(t)=-10\sin(2t-0.927)$, $x'(0)=-10\sin(-0.927)=-10(-0.8)=8$ ✓. And $x''=-4x$ ⇒ $x''+4x=0$, i.e. $x''+\omega_0^2 x=0$ with $\omega_0^2=4$ ✓.
 
 **P2**
+
 (a) $r^2+4r+3=(r+1)(r+3)=0$, roots $-1,-3$ (real, distinct; discriminant $16-12=4>0$) → **overdamped**. $x=C_1e^{-t}+C_2e^{-3t}$.
+
 (b) $r^2+4r+4=(r+2)^2=0$, repeated root $-2$ (discriminant $16-16=0$) → **critically damped**. $x=(C_1+C_2 t)e^{-2t}$.
+
 (c) $r^2+2r+5=0$, $r=-1\pm\sqrt{1-5}=-1\pm 2i$ (discriminant $4-20=-16<0$) → **underdamped**, with $\gamma=1$, $\omega_d=2$. $x=e^{-t}(C_1\cos 2t+C_2\sin 2t)$.
 
 *Check (b), the trap case:* let $x=(C_1+C_2t)e^{-2t}$. Then $x'=(C_2 - 2C_1 - 2C_2 t)e^{-2t}$ and $x''=(-4C_2 + 4C_1 + 4C_2 t)e^{-2t}$. So $x''+4x'+4x = e^{-2t}\big[(4C_1-4C_2) + (4C_2-8C_1+4C_1) + (4C_2-8C_2+4C_2)t\big]$. Collect: constant $= 4C_1-4C_2+4C_2-4C_1 = 0$; the $t$-coefficient $=4C_2-8C_2+4C_2=0$ ✓. (For (a) and (c), each $e^{rt}$ satisfies the ODE because $r$ is a characteristic root — that's what "root" means.)

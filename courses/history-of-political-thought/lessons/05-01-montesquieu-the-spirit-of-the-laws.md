@@ -100,9 +100,13 @@ The crux between the first two readings is which half of premise 8 carries the w
 ## Problems
 
 **P1 (🟢)** *(Exegetical.)* Classify each invented government by Montesquieu's **nature** and **principle**, one line each. For (d), also say what Book VIII says is happening.
+
 (a) An island of 30,000 where citizens meet in assembly to pass laws, most offices are filled by lot, and a law caps the size of any estate.
+
 (b) A trading city where 200 hereditary families form the only council with supreme power, and elect their magistrates from among themselves.
+
 (c) A ruler who governs through one favourite minister, whose decrees change with his moods, and whose governors execute without trial.
+
 (d) A hereditary king who rules by published codes through landed nobles and chartered law courts, and who, over twenty years, abolishes the courts' right to register edicts and the towns' charters.
 
 **P2 (🟡)** *(Exegetical (a) · Evaluative (b).)* In XI.6 Montesquieu admits that Venice gives its legislative, executive and judicial powers to three different councils. He goes on (Nugent):
@@ -110,10 +114,13 @@ The crux between the first two readings is which half of premise 8 carries the w
 > But the mischief is, that these different tribunals are composed of magistrates all belonging to the same body; which constitutes almost one and the same power.
 
 (a) Does Venice satisfy Montesquieu's condition for liberty? Which words decide it, and what do they show that "separation" has to mean for him? Three sentences or fewer.
+
 (b) Apply the Venice test to a modern state where one disciplined party wins both the legislature and the presidency. Is the party a "body" in Montesquieu's sense? Any verdict, 150 words or fewer.
 
 **P3 (🔴, optional)** *(Exegetical (a) · Evaluative (b).)* An invented op-ed: *"The new republic of Varenna should adopt the proven formula of liberty: three separate branches, just as every free people has. Liberty is the same everywhere. And it should throw open its ports, because trade makes nations peaceful and citizens gentle."*
+
 (a) Name the two ideas from *The Spirit of the Laws* the op-ed borrows, with book, and say what it has dropped from each. 100 words or fewer.
+
 (b) Is "liberty is the same everywhere" a betrayal of Montesquieu's relativism (I.3), or does XI.6 license it? Any verdict, 150 words or fewer.
 
 <details>

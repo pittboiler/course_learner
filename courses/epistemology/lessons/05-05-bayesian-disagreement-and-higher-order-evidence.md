@@ -95,13 +95,17 @@ Now the strain. Suppose his calculation was in fact flawless. The calibrationist
 **P1 (🟢) *(Formal.)*** Kofi and Mira give worlds $(\omega_1, \omega_2, \omega_3)$ credences $(0.5, 0.3, 0.2)$ and $(0.1, 0.3, 0.6)$. Use equal weights.
 
 (a) Compute the linear and geometric pools (three decimals).
+
 (b) Both learn $E = \{\omega_1, \omega_2\}$. Verify, by computing both orders, that the geometric pool's credence in $\omega_1$ is the same whether they pool first or conditionalize first. Give the exact value.
+
 (c) Now coarsen: let $B = \{\omega_2, \omega_3\}$, so each agent has credences only over $\{\omega_1, B\}$. Compute the geometric pool's credence in $\omega_1$ on the coarse partition and compare it with (a). Which property does this show the geometric pool lacks? Does the linear pool pass the same test?
 
 **P2 (🟡) *(Formal (a) · Exegetical (b) · Evaluative (c).)*** Yusra is navigating a yacht at night after 30 hours awake. Her chart work gives credence 0.95 that the current course clears a reef. The yacht's fatigue monitor then reports a 30 percent chance that she is impaired, and impaired navigators' conclusions of this kind are right half the time.
 
 (a) What credence does the calibration formula give? Assume her unimpaired judgment is calibrated and impairment is independent of where the reef is.
+
 (b) She instead keeps 0.95 while giving 0.3 to "I am impaired". Which view permits this, and what is the resulting combination called? Two sentences.
+
 (c) In 120 words or fewer, find the crux between the calibrationist and the level-splitter on her case: the single claim one side must deny, and what would move each side. Any verdict passes.
 
 **P3 (🔴) *(Formal (a) · Exegetical (b).)*** A risk team's memo reads:
@@ -109,6 +113,7 @@ Now the strain. Suppose his calculation was in fact flawless. The calibrationist
 > Our two analysts work separately. This quarter they put 0.9 and 0.6 on the merger closing, so we report 0.75. Last quarter both said 0.85, so we reported 0.85; when people agree there is nothing to adjust.
 
 (a) What does upco recommend in each quarter (as the credence of someone who starts at the first analyst's number and updates on the second's)? Three decimals.
+
 (b) In 100 words or fewer, diagnose the memo: what does averaging assume about the two reports that upco denies, and what fact about the analysts' evidence would decide which rule fits?
 
 <details>

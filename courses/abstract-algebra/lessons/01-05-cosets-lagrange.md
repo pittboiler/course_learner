@@ -80,8 +80,11 @@ Spot-check $a = 3$: $3^2 = 9 \equiv 2$, $3^3 \equiv 6$, $3^6 = (3^3)^2 \equiv 6^
 **P1 (🟢)** In $\mathbb{Z}/8\mathbb{Z}$ (integers mod 8 under addition) let $H = \langle 2\rangle$. List all the (left) cosets of $H$, state the index $[\,\mathbb{Z}/8\mathbb{Z} : H\,]$, and confirm the Lagrange count $|G| = [G:H]\cdot|H|$. (Cosets here are written additively as $a + H$.)
 
 **P2 (🟡)** Work in $S_4$, the symmetric group on $\{1,2,3,4\}$, $|S_4| = 24$.
+
 (a) Tabulate how many elements have each possible order.
+
 (b) Use Lagrange to list which subgroup orders are *a priori* possible.
+
 (c) Identify a subgroup of order $8$ (a Sylow 2-subgroup, isomorphic to $D_4$) and describe its three cosets.
 
 **P3 (🔴)** Prove: if $[G : H] = 2$, then $H$ is **normal** — meaning $gH = Hg$ for every $g \in G$. (A pure coset-counting argument; this is the fact that made "rotations vs. reflections" in Example 1 so clean, and it foreshadows [2.2](02-02-normal-subgroups-quotients.md).)
@@ -97,6 +100,7 @@ Spot-check $a = 3$: $3^2 = 9 \equiv 2$, $3^3 \equiv 6$, $3^6 = (3^3)^2 \equiv 6^
 Any other representative reproduces one of these: e.g. $2 + H = \{2,4,6,0\} = 0+H$ (since $2 \in H$, the equality test $g_1^{-1}g_2 = -2 + 4 = 2 \in H$ confirms it), and $3 + H = \{3,5,7,1\} = 1 + H$. So there are exactly **two** cosets: $[\mathbb{Z}/8\mathbb{Z} : H] = 2$. Lagrange: $|G| = [G:H]\cdot|H| = 2 \cdot 4 = 8$. ✓ (This is $\mathbb{Z}/8\mathbb{Z}$ split into even and odd residues — the same evens/odds partition, now as cosets.)
 
 **P2.**
+
 **(a)** The elements of $S_4$ sorted by cycle type, with orders:
 
 | Cycle type | Example | Order | Count |

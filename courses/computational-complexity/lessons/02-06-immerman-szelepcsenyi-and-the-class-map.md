@@ -141,8 +141,11 @@ Second, and more usefully: the same move — *certify a negative claim by counti
 **P3 (🔴, optional)** Consider these four statements. For each, say what it would imply about the other three, treating the map as the only available facts.
 
 (a) $\mathsf{P} = \mathsf{NP}$.
+
 (b) $\mathsf{P} = \mathsf{PSPACE}$.
+
 (c) $\mathsf{NP} = \mathsf{PSPACE}$.
+
 (d) $\mathsf{PSPACE} = \mathsf{EXP}$.
 
 Then state which single one of the four is known to be **false**, or state that none is, with the reason.

@@ -112,18 +112,23 @@ Here the tool strains. The expected-utility argument needs your credence in $F$ 
 **P1 (🟢)** *(Formal (a)–(c).)* The opaque box holds 600 dollars or nothing; the clear box holds 150. The predictor is right with probability $p$ whatever you choose. Money is utility.
 
 (a) Compute $EU(\text{One})$ and $EU(\text{Two})$ at $p = 0.8$.
+
 (b) Find the threshold $p^*$ above which the expected-utility argument favors one box.
+
 (c) Now fix $p = 0.9$ and let the clear box hold $T$ instead of 150. For which $T$ does the expected-utility argument favor one box? What does the dominance argument recommend for those same $T$?
 
 **P2 (🟡)** *(Exegetical (a) · Evaluative (b).)*
 
 (a) Using the three-premise dominance argument above, say which premise the one-boxer denies, and on which reading of "does not depend on" the two-boxer accepts it. Then name the principle each side gives up. Three sentences.
+
 (b) The two-boxer's friend argument: a friend who can see into the opaque box would, whatever she saw, want you to take both. Give the one-boxer's best reply, and say whether the friend argument begs the question against her. 120 words or fewer. Any verdict passes.
 
 **P3 (🔴, optional)** *(Formal (a)–(b) · Evaluative (c).)* Transparent Newcomb. Both boxes are clear. The big box holds 600 dollars if the predictor predicted that you would take only the big box *on seeing it full*; otherwise it is empty. The small box holds 150. The predictor gets your policy right with probability 0.9.
 
 (a) You see the big box full. Give the payoff of each act. Do dominance and expected utility, conditioning on what you see, agree?
+
 (b) Before the boxes are filled, compare the expected payoffs of two policies: A, "take only the big box if it is full, take both if it is empty", and B, "always take both".
+
 (c) In 80 words or fewer: what does the gap between (a) and (b) put pressure on? Any verdict passes.
 
 <details>
@@ -197,7 +202,9 @@ Policy B: with probability 0.9 it reads B correctly and leaves the box empty, gi
 **From Lesson [3.3](03-03-decisions-under-ignorance.md) (Decisions under ignorance):** *(Formal (a)–(b) · Exegetical (c).)* A choice under ignorance over states $w_1, w_2, w_3$, with no probabilities. Utilities: J $= (1, 9, 5)$, K $= (9, 1, 5)$, and L $= (5, 5, 5)$, which pays the average of J and K in every state.
 
 (a) Find the choice under maximin, Laplace and minimax regret. Show the regret table.
+
 (b) With the optimism index $\alpha$ on the best case, $H_\alpha = \alpha\max + (1-\alpha)\min$, find every $\alpha$ at which Hurwicz ranks L strictly below both J and K.
+
 (c) Name the Milnor axiom that (b) violates, and say in one sentence why Hurwicz's scoring produces the violation.
 
 <details>

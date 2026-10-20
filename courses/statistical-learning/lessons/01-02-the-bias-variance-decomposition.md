@@ -138,19 +138,25 @@ Two things to take. First, **you must not hold $k$ fixed as data arrives** — t
 **P1 (🟢)** A procedure returns, at a fixed $x_0$, one of the four predictions $8, 11, 12, 13$, each with probability $1/4$ over the draw of the training set. The truth is $f(x_0) = 10$ and the fresh test noise has $\sigma^2 = 4$.
 
 (a) Compute bias$^2$, variance, and the three-term sum.
+
 (b) Compute $\mathbb E[(y_0 - \hat f(x_0))^2]$ directly from the definition and check the two agree.
+
 (c) Of the two cross terms in the proof, which one would survive if the "test" observation at $x_0$ were the *training* label at $x_0$? Name the step and say which direction the surviving term pushes the error.
 
 **P2 (🟡)** $k$-NN on the integer grid, $k = 2m+1$, labels $y_j = f(j)+\varepsilon_j$.
 
 (a) Derive $\operatorname{Var}(\hat f(x_0)) = \sigma^2/k$, saying explicitly where you use "independent" and where you use "variance $\sigma^2$ each."
+
 (b) Explain in one sentence, from the definitions, why $\sigma^2$ does not appear in the bias term at all.
+
 (c) With $f(x) = x^2$ and $k = 5$, give the bias at $x_0 = 0$ and at $x_0 = 100$, and say why they are equal.
 
 **P3 (🔴)** "Choose an unbiased estimator" as a design rule.
 
 (a) Exhibit an estimator of $f(x_0)$ with exactly **zero variance** and bias you can make as large as you like.
+
 (b) Let $Z$ be unbiased for a scalar $\theta$ with $\operatorname{Var}(Z) = v$, and consider the shrunk estimator $cZ$ for $c \in [0,1]$. Compute its MSE, minimise over $c$, and evaluate at $\theta = 3$, $v = 3$. Then find every $c$ that strictly beats the unbiased choice.
+
 (c) Say precisely what (a) and (b) together show about the rule, and name the lesson in this course that cashes it in.
 
 <details>

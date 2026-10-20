@@ -97,13 +97,17 @@ Proposition 1 holds in both rows: each apportionment is the closest one to its o
 ## Problems
 
 **P1 (🟢) *(Formal (a)–(b).)*** Four states A, B, C, D have populations 100, 130, 140 and 630 (thousands) and a house of 10 seats.
+
 (a) Find the standard divisor, each quota and the Hamilton apportionment, and confirm it satisfies quota.
+
 (b) A new state E with population 250 joins, and the house grows by 3 seats to 13. Apportion it by Hamilton's method. Does E get 3 seats? Does any old state's delegation change? In one sentence, say why.
 
 **P2 (🟡) *(Formal (a)–(b).)*** (a) Prove that with two states, Hamilton's method never produces an Alabama paradox (ignore ties).
+
 (b) Three states have populations 200, 330 and 470 (thousands). Apportion by Hamilton's method at $h = 6$, 7 and 8, identify the paradox, and say whose remainders overtook whose.
 
 **P3 (🔴, optional) *(Formal (a)–(b).)*** (a) The house has 7 seats. The populations of A, B, C move from 220, 260, 520 to 250, 400, 600. Apportion both by Hamilton's method, compute each state's growth rate, and identify the pair of states that violates population monotonicity.
+
 (b) Prove: at a fixed house size, if state $i$'s quota rises and every other state's quota falls, Hamilton's method does not take a seat from $i$ (assume no remainder ties at the cut). Then say in one line which hypothesis Example 2 shows cannot be dropped.
 
 <details>

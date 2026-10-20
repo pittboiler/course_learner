@@ -97,20 +97,27 @@ The fix here is to reward the *state of the room* — litter on the floor, count
 **P1 (🟢)** An episode produces rewards $R_1 = 2$, $R_2 = 0$, $R_3 = -4$, $R_4 = 6$, and then terminates.
 
 (a) Compute $G_0$ at $\gamma = 1$ and at $\gamma = 0.5$.
+
 (b) Compute $G_2$ at $\gamma = 0.5$. (Careful with the indexing: $G_2 = R_3 + \gamma R_4 + \cdots$.)
+
 (c) State which of $G_0$ or $G_2$ the agent would be maximizing when it chooses $A_2$, and why.
 
 **P2 (🟡)** For each situation, name which of the three difficulties — evaluative feedback, delayed reward, or policy-dependent data — is the *primary* obstacle, and give the reason in one sentence.
 
 (a) A drug-trial algorithm must choose a treatment for each arriving patient and only ever observes the outcome of the treatment it gave.
+
 (b) A chess engine wins a game and must decide which of its 40 moves to credit.
+
 (c) An agent trained to drive cautiously has never seen a skid, so it has no data on how to recover from one.
 
 **P3 (🔴)** You are designing a reward for an agent that should learn to ride a bicycle to a goal position.
 
 (a) A colleague proposes $+1$ for every time step the bicycle does not fall. State the behaviour that maximizes this and why it is not what was wanted.
+
 (b) A second proposal adds a bonus for reducing the distance to the goal: reward $= d_t - d_{t+1}$ each step, where $d_t$ is the distance to the goal. Show that on any trajectory from start to goal this sums to a constant, and say what that implies about the behaviour it encourages.
+
 (c) Using (b), explain why *cycling in a small loop* is a genuine risk under a reward of $+1$ for each step the distance decreases, but not under $d_t - d_{t+1}$.
+
 (d) State the general principle these three cases illustrate, in one sentence.
 
 <details>

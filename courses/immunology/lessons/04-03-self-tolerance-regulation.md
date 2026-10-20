@@ -102,14 +102,19 @@ One Treg therefore does not neutralize one effector; it disarms an antigen-prese
 **P1 (🟢)** A young thymus imports $2\times10^{8}$ progenitors per day. Using $f_\beta = 5/9$, $f_+ = 0.10$, $f_- = 0.5$, compute the daily export of naive T cells and the overall survival percentage. Then state which single filter destroys the most cells, and why that one is *not* about self-tolerance.
 
 **P2 (🟡)** Each mTEC stochastically expresses a fraction $f = 0.02$ of the tissue-restricted antigen genes.
+
 (a) How many mTECs must a thymocyte scan for a given tissue antigen to be displayed to it with probability at least 0.99?
+
 (b) A patient carries a hypomorphic *AIRE* allele that halves promiscuous expression to $f = 0.01$. Holding the number of encounters at your answer to (a), what fraction of tissue antigens is now never displayed? Name the clinical consequence.
 
 **P3 (🔴, optional)** Tolerance as an optimization problem — this is the argument behind checkpoint-blockade toxicity ([4.5](04-05-immunodeficiency-tumor-transplant.md)).
 
 Take the survival model $P = e^{-pm}$ with baseline $pm = \ln 2$, and suppose a hypothetical variant lowers the deletion threshold so that the effective per-complex deletion probability doubles to $2p$.
+
 (a) What fraction of positively-selected thymocytes now survives, and by what factor does the exported repertoire shrink?
+
 (b) Model pathogen coverage as follows: with a repertoire of $N$ distinct clones, a given foreign epitope escapes recognition with probability $(1-q)^{N}$, and at baseline this "hole rate" is $10^{-3}$. Compute the hole rate after the shrinkage in (a).
+
 (c) State in one sentence what (a) and (b) together say about where the real threshold should sit, and why an autoimmune-disease prevalence of a few percent is evidence that the system is tuned correctly rather than broken.
 
 <details>
@@ -162,7 +167,9 @@ This is also the mechanistic prediction behind checkpoint blockade: anti-CTLA-4 
 **From Lesson 4.1 (cytotoxic T cells & cell-mediated killing):** A CTL clone is assayed against its virus-infected targets in three pairings — wild-type CTL with wild-type target, a **perforin-null** CTL with wild-type target, and wild-type CTL with a **Fas-null** target — and killing is scored at 45 minutes and again at 9 hours.
 
 (a) State which pairings show killing at each time point, and name the route responsible in each.
+
 (b) Each infected cell holds 850 assembled virions at the moment of the lethal hit, and one CTL kills 26 targets over the response. If its killing were necrotic rather than apoptotic, and each released virion had probability 0.002 of establishing a new infected cell, how many new infections would that single CTL cause? Compare with the 26 it removed, and find the per-virion infection probability at which lytic killing would break even.
+
 (c) This lesson uses one of the two routes to delete lymphocytes rather than pathogens. Which one, and why is a route dismissed as "too slow" for antiviral defense entirely adequate for that job?
 
 <details>

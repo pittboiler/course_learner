@@ -187,15 +187,21 @@ $$\int V_2\,dt = k\bigl(100 - 1000\bigr) = (0.070)(-900) = \mathbf{-63\ \text{mV
 **P1 (🟢)** Two interneurons are coupled by a junction with $R_j = 1.5$ G$\Omega$. Cell A has input resistance $R_A = 200$ M$\Omega$; cell B has $R_B = 100$ M$\Omega$. Cell B rests at $-65$ mV with threshold $-50$ mV.
 
 (a) Compute $k_{A\to B}$ and $k_{B\to A}$ and explain the asymmetry without invoking rectification.
+
 (b) Cell A is held 20 mV above rest. What steady depolarization does cell B see?
+
 (c) How many identical partners, each held 20 mV above rest and each coupled to B by the same $R_j$, are needed to bring B to threshold? Compare with the naive answer obtained by dividing, and say what goes wrong with the naive answer.
+
 (d) Now suppose the partners are held only 5 mV above rest. How many are needed?
 
 **P2 (🟡, bridges to [circuits 3.2](../../circuits/lessons/03-02-first-order-rc-rl-transients.md) and [signals-systems 2.5](../../signals-systems/lessons/02-05-transfer-functions-poles-zeros.md))** A postsynaptic neuron has $R_2 = 150$ M$\Omega$ and $C_2 = 60$ pF; the junction is $R_j = 1$ G$\Omega$. Its partner fires an action potential of 90 mV lasting 1.0 ms, followed by an afterhyperpolarization of 12 mV lasting 120 ms. Treat both as rectangular and take the presynaptic voltage as imposed.
 
 (a) Compute $k$, $\tau_c$ and $f_c$.
+
 (b) Compute the postsynaptic deflection produced by the spike and by the afterhyperpolarization. Which is larger, and by how much is the presynaptic AHP smaller than the presynaptic spike?
+
 (c) Compute the time-integrated postsynaptic response, and state the sign of the net effect.
+
 (d) The partner also carries a 3 mV subthreshold oscillation at 40 Hz. Compute how much of *that* transfers, and compare its transfer efficiency with the spike's. In one sentence, say what this predicts about what a coupled network does.
 
 <details>
@@ -274,8 +280,11 @@ Small — but compare efficiencies: the 40 Hz oscillation transfers at **5.9 per
 **From Lesson 2.2 (neurotransmitters and receptors):** A brainstem neuron rests at $-62$ mV with threshold $-48$ mV and a leak conductance $g_L = 5$ nS at $E_L = -62$ mV. It expresses two acetylcholine receptors. The **nicotinic** receptor is a non-selective cation channel with $P_{\text{Na}}:P_{\text{K}} = 1:1$; the **muscarinic M2** receptor is a GPCR that opens GIRK K$^+$ channels. Take $RT/F = 26.7$ mV, $[\text{Na}^+]_o = 145$, $[\text{Na}^+]_i = 12$, $[\text{K}^+]_o = 4$, $[\text{K}^+]_i = 140$ mM.
 
 (a) Compute the reversal potential of each receptor's conductance.
+
 (b) A cholinergic input activates 2 nS of nicotinic conductance. Does the cell fire?
+
 (c) The same input also activates 0.8 nS of GIRK conductance, more slowly. Recompute the steady voltage with both active, and say what happened.
+
 (d) State in one sentence what sets the sign of a cholinergic synapse.
 
 <details>

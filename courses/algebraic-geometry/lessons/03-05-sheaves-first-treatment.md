@@ -96,11 +96,15 @@ The cure names the difference: replace "constant" by **locally constant** — co
 <summary>Solutions</summary>
 
 **P1** (a) On the overlap $(0,1)$ both functions are $x^2$, so $f_1|_{(0,1)}=f_2|_{(0,1)}$ — the compatibility hypothesis holds. The glued section on $U_1\cup U_2=(-1,2)$ is $f(x)=x^2$; it is continuous and restricts to $f_1,f_2$ on the two pieces.
+
 (b) With $f_2(x)=x^2+1$, on the overlap $(0,1)$ we have $f_1(x)=x^2\neq x^2+1=f_2(x)$ for every $x$. The **hypothesis of (Sheaf-2) gluing** — "agree on overlaps" — fails. A putative glue $f$ would need $f|_{U_1}=x^2$ and $f|_{U_2}=x^2+1$; at any point of $(0,1)$ these demand two different values, so no function, let alone a continuous one, exists.
+
 (c) (Sheaf-1) locality: $\{U_1,U_2\}$ covers $U_1\cup U_2$; if $f,\tilde f$ both restrict to $f_1$ on $U_1$ and $f_2$ on $U_2$, then $f|_{U_i}=\tilde f|_{U_i}$ for all $i$, hence $f=\tilde f$. So the glue is unique.
 
 **P2** (a) Take the neighborhood $W=(-1,1)$ of $0$. On $W$, $g\equiv 0=0|_W$. Since $g$ and the zero function agree on the open set $W\ni 0$, by definition of germ $(U,g)\sim(\mathbb{R},0)$, i.e. $g_0=0_0$ in $\mathcal{C}_0$.
+
 (b) A germ at $2$ is zero iff the function vanishes on *some* neighborhood of $2$. But for every $\varepsilon>0$, the interval $(2-\varepsilon,2+\varepsilon)$ contains points $x>1$ where $g(x)=x-1>0$; indeed $g(2)=1\neq 0$. No neighborhood of $2$ kills $g$, so $g_2\neq 0$.
+
 (c) A stalk sees only the behavior of $g$ in arbitrarily small neighborhoods of that one point: $g$ is "zero at the origin" and "nonzero at $2$" simultaneously, even though it is one function — each stalk forgets everything outside its own shrinking neighborhoods.
 
 **P3** ($\Rightarrow$) If $s=0$ then every restriction $s|_W=0$, so each germ $s_p$ is the class of $(U,0)$, which is $0$ in $\mathcal{F}_p$.

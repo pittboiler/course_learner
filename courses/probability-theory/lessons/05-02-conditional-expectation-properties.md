@@ -103,7 +103,9 @@ This is **Wald's identity** $\mathbb E[\sum_{i=1}^N X_i]=\mathbb E[N]\,\mathbb E
 **P2 (🟡)** Roll a fair die to get $N\in\{1,\dots,6\}$, then flip $N$ fair coins; let $S$ be the number of heads. Using conditioning on $N$, find $\mathbb E[S]$. (Which two properties are you using, and where?)
 
 **P3 (🔴, optional — law of total variance)** Define the *conditional variance* $\operatorname{Var}(X\mid\mathcal G):=\mathbb E[X^2\mid\mathcal G]-\big(\mathbb E[X\mid\mathcal G]\big)^2$.
+
 (a) Use conditional Jensen to show $\operatorname{Var}(X\mid\mathcal G)\ge 0$ a.s.
+
 (b) Prove the **law of total variance**
 $$\operatorname{Var}(X)=\mathbb E\big[\operatorname{Var}(X\mid\mathcal G)\big]+\operatorname{Var}\big(\mathbb E[X\mid\mathcal G]\big).$$
 (Hint: expand both right-hand terms and use the law of total expectation on $\mathbb E[X\mid\mathcal G]$.)
@@ -112,7 +114,9 @@ $$\operatorname{Var}(X)=\mathbb E\big[\operatorname{Var}(X\mid\mathcal G)\big]+\
 <summary>Solutions</summary>
 
 **P1** (a) $W$ is independent of $\mathcal G=\sigma(Y)$, so by fact 6 the forecast is the mean: $\mathbb E[W\mid\mathcal G]=\mathbb E[W]=2$.
+
 (b) $Y$ is $\sigma(Y)$-measurable, so it pulls out (fact 5), then (a): $\mathbb E[WY\mid\mathcal G]=Y\,\mathbb E[W\mid\mathcal G]=2Y$.
+
 (c) Linearity, then: $3Y$ is $\mathcal G$-measurable so equals itself, and $\mathbb E[W\mid\mathcal G]=2$: $\mathbb E[3Y-W\mid\mathcal G]=3Y-2$.
 
 **P2** Condition on $N$. Given $N=n$, $S$ is the number of heads in $n$ fair flips, so $\mathbb E[S\mid N]=\tfrac12 N$ (linearity: sum of $N$ indicator-flips each with mean $\tfrac12$; $N$ pulls out as a known count). Then the law of total expectation:

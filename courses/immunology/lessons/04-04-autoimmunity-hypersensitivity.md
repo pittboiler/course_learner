@@ -189,7 +189,9 @@ The general statement, worth keeping: **the pathogenic complexes are the ones sm
 **From Lesson 4.3 (self-tolerance & immune regulation):** A knock-in mouse expresses a single TCR whose affinity for a self-peptide–MHC complex sits **just below** the negative-selection threshold.
 
 (a) What is this thymocyte's fate, and why is "just below threshold" the *expected* outcome of the selection design rather than an accident?
+
 (b) The mouse is infected with a microbe carrying a peptide that engages the same TCR with 30-fold higher affinity, in a tissue where innate sensing has fully licensed the APCs. Predict what happens, and name the two peripheral mechanisms that must now hold the line.
+
 (c) The same mouse is crossed onto a FoxP3-null background. Predict the outcome and name the human disease.
 
 <details>

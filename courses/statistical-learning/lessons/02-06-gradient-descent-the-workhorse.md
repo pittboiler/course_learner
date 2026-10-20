@@ -116,19 +116,25 @@ What the comparison licenses you to say: your five-step fit is *regularized*, at
 **P1 (🟢)** Fix $w$ before drawing data. Let $B=\{(x_j,y_j)\}_{j=1}^b$ be i.i.d. from $\mathcal D$ and let $\hat g_B(w)$ be the average of their per-example gradients.
 
 (a) Prove $\mathbb E[\hat g_B(w)] = \nabla R(w)$, naming the property of expectation used at each step.
+
 (b) Give $\operatorname{Cov}(\hat g_B(w))$ in terms of $b$ and $\Sigma(w)$, and state the independence assumption it needs.
+
 (c) By what factor must $b$ grow to halve the standard deviation of each gradient coordinate? State the practical consequence in one sentence.
 
 **P2 (🟡)** Gradient descent from $w_0=0$ on $\tfrac12\lVert y-Xw\rVert^2$ with $\eta = 0.1$, on a design whose squared singular values are $9,\,4,\,1$.
 
 (a) Check the step size is admissible, then give the shrinkage factor on each direction at $t=1,\,5,\,50$. Report $t=1$ exactly.
+
 (b) For $t=1$, find the ridge $\lambda$ that would reproduce the factor on each of the three directions *separately*. What do the three numbers show?
+
 (c) Say what happens to those implied $\lambda$ values as $t$ grows, and state the one claim relating $t$ and $\lambda$ that is actually true.
 
 **P3 (🔴)** A colleague runs SGD until the training loss has plateaued to six decimal places, reports that number, and concludes the model is good.
 
 (a) Name the two distinct error terms they have conflated, using the identity from **The formal version**.
+
 (b) Say which one more compute can reduce and which it cannot, and why.
+
 (c) They propose to fix it by switching to full-batch gradient descent, "so the gradient is exact." Say what is right and what is wrong in that sentence, in terms of what each gradient is an estimate of.
 
 <details>
@@ -203,7 +209,9 @@ with residual $r = y - X\hat\beta$, the [lasso KKT conditions](../reference.md#l
 Take $x_1 = (1,0,1)^\top$, $x_2 = (0,1,1)^\top$ and $y = (3,0,4)^\top$.
 
 (a) At $\lambda = 3$ a colleague claims $\hat\beta = (2,\,0)$. Verify or refute.
+
 (b) At $\lambda = 1$ they claim $\hat\beta = (3,\,\tfrac12)$. Verify or refute.
+
 (c) Gradient descent is this lesson's workhorse, yet it cannot be run on the lasso objective as written. Say why, and give the one-line fix.
 
 <details>

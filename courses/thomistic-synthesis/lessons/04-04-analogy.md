@@ -86,7 +86,9 @@ That is the twentieth century's charge. Erich Przywara's *Analogia Entis* (1932)
 ## Problems
 
 **P1 (🟢) *(Exegetical.)*** Scripture calls God faithful. Take the name "faithful" as said of God and of a man who keeps his promises.
+
 (a) Run the three ways of [4.2](04-02-knowing-god-from-creatures-the-three-ways.md) on it — causality, negation, eminence — one sentence each.
+
 (b) Classify it by *ST* I q.13 a.5 and a.6: univocal, purely equivocal, metaphorical, or properly analogical; and in each of a.6's two orders, does it belong first to God or first to the man? Two sentences.
 
 **P2 (🟡) *(Exegetical — level assignment, strict.)*** Two claims:
@@ -96,10 +98,13 @@ That is the twentieth century's charge. Erich Przywara's *Analogia Entis* (1932)
 > (ii) Analogy of proper proportionality is the analogy by which theological language works; analogy of attribution is not analogy properly so called.
 
 (a) For each, name the act or text that fixes its level, place it on the ladder of [`fundamental-theology` 4.4](../../fundamental-theology/lessons/04-04-the-ladder-of-doctrinal-authority.md), and say what a Catholic who denied it would be doing. Two sentences per claim.
+
 (b) Two students go wrong in opposite directions. The first says (ii) binds, because the Church gives us Aquinas as master and Cajetan is his authoritative interpreter. The second says (i) does not bind, because it appears inside a condemnation of Joachim's error about the Trinity and so is only a claim about Trinitarian language. Name the error in each, one sentence apiece.
 
 **P3 (🔴, optional) *(Exegetical.)*** Boethius defines a person as "an individual substance of a rational nature". *ST* I q.29 a.3 asks whether the word "person" should be said of God, and answers that it is fittingly applied to him, "not, however, as it is applied to creatures, but in a more excellent way", citing q.13 a.2. Its reply to objection 4 adds that God cannot be called an individual in the sense that his individuality comes from matter, but only in the sense that implies incommunicability.
+
 (a) Apply a.5's two tests to "person" — does the term signify something distinct from the thing's essence, power and existence? does it circumscribe what it signifies? — and say what follows about univocity.
+
 (b) By a.6, is "person" said of God properly or metaphorically, and which of the two orders puts God first? Then say what would follow for the Creed if "person" were purely equivocal.
 150 words or fewer in total.
 

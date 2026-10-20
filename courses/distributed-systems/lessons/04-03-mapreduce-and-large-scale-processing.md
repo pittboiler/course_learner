@@ -107,22 +107,31 @@ And this is not bad luck. At a 1 percent straggler rate, $1 - 0.99^{2000} > 99.9
 **P1 (🟢)** A job processes 2 TB of input with a 256 MB block size, using $R = 400$ reduce tasks.
 
 (a) Give the number of map tasks.
+
 (b) Give the number of shuffle transfers.
+
 (c) The intermediate data is 600 GB. Give the average size of one transfer.
+
 (d) The team doubles both $M$ and $R$. Give the effect on the transfer count and on the total bytes shuffled.
 
 **P2 (🟡)** Tasks are independently slow with probability $p = 0.02$, a slow task taking 8 times the normal 45 seconds.
 
 (a) Give the probability a job of 50 tasks contains at least one straggler, and the same for 1,500 tasks.
+
 (b) Give the expected phase duration for the 1,500-task job without speculative execution.
+
 (c) The scheduler duplicates any task still running at 3 times the median, and a backup on a healthy machine takes 50 seconds. Give the approximate phase duration.
+
 (d) State the three properties a task must have for (c) to be correct, and name one violation of each.
 
 **P3 (🔴, optional)** A team writes a MapReduce job to deduplicate user records.
 
 (a) The map function calls an external identity service to canonicalise each email address. State what breaks and under which framework behaviour.
+
 (b) The reduce function writes each output record directly to a production database rather than to the job's output path. Give the concrete failure and its observable symptom.
+
 (c) The reduce function computes, for each user, the mean of their session lengths, and the team adds a combiner that is the reduce function verbatim. State whether this is correct, with a two-group counterexample.
+
 (d) Give the change that makes (c) correct, and state the general property the combined function must have.
 
 <details>
@@ -201,7 +210,9 @@ This is the same move as [2.4](02-04-crdts-and-strong-eventual-consistency.md)'s
 **From Lesson 4.2 (three-phase commit and consensus-backed commit):** A 3PC transaction with participants $P_1 \ldots P_5$ is partitioned into $\{P_1, P_2\}$ and $\{P_3, P_4, P_5\}$, with the coordinator unreachable from both. $P_4$ is in `PRE-COMMIT`; nobody else is.
 
 (a) Give each group's decision and the rule it applies.
+
 (b) Name the property violated and state why 2PC would not have violated it.
+
 (c) State the change that makes the protocol safe under this partition, and what it costs.
 
 <details>

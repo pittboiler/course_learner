@@ -79,6 +79,7 @@ so the mug holds $\approx 4.1\times 10^{8}\times 3\times 10^{-4} \approx 1.2\tim
 <summary>Solutions</summary>
 
 **P1** (a) $1+z = T_{\mathrm{rec}}/T_0 = 3000/2.725 \approx 1101$, so $z \approx 1100$.
+
 (b) Since $a \propto 1/T$, $\ a_{\mathrm{rec}}/a_0 = T_0/T_{\mathrm{rec}} = 2.725/3000 \approx 9.1\times 10^{-4} \approx 1/1101$.
 Physically: the universe was about $1100$ times smaller in linear scale when the CMB was released — every distance has since stretched by that factor, which is exactly why the emission cooled from $3000\ \mathrm{K}$ to $2.725\ \mathrm{K}$.
 

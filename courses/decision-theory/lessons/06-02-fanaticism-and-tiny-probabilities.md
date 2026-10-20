@@ -94,17 +94,21 @@ Run the three exits. A bounded $u$ makes the sum converge absolutely, so order s
 **P1 (🟢)** *(Formal (a)–(c).)* A mugger asks for 10 units of value and promises $V$ units tomorrow.
 
 (a) With linear utility and credence $\varepsilon = 10^{-6}$ that he delivers, find the smallest offer at which paying is worthwhile.
+
 (b) Now let $u(x) = \dfrac{x}{x + 1000}$ for $x > -1000$, which is increasing and bounded above by 1. Find the largest credence $\varepsilon^*$ at which you refuse every offer, and confirm you refuse at $\varepsilon = 10^{-6}$.
+
 (c) With the same $u$ and $\varepsilon = 1/50$, find exactly which offers $V$ make paying worthwhile.
 
 **P2 (🟡)** *(Formal (a) · Exegetical (b).)* A discounter uses the naive rule with $t = 1/1000$: drop every outcome whose probability is below $t$, and sum probability times value over the rest.
 
 (a) Construct prospects $A$ and $B$ over the same states such that $A$ is at least as good as $B$ in every state and strictly better on an event of probability $1/500$, yet the discounter strictly prefers $B$. Give both discounted values.
+
 (b) In two sentences: does renormalizing (dividing by the probability of the outcomes kept) repair your example, and which principle does even the best-behaved rule giving sub-threshold events zero weight still violate?
 
 **P3 (🔴, optional)** *(Formal (a) · Evaluative (b).)* Each of 50 independent offers pays 1 unit with probability $0.9992$ and costs 2,000 units with probability $0.0008$. The discounter from P2 evaluates offers one at a time.
 
 (a) Compute one offer's expected value and its discounted value, and say what the discounter does with each offer. Then treat all 50 as one package. Compute its expected value and the probabilities of no loss and of exactly one loss, and show that the discounter's own rule rejects the package. You may use $0.9992^{50} \approx 0.96077$ and $50(0.0008)(0.9992)^{49} \approx 0.03846$; outcomes with two or more losses each have probability below $t$.
+
 (b) Steelman probability discounting against the objection that (a) exposes, then give the strongest reply. 150 words or fewer. Any verdict passes.
 
 <details>
@@ -195,6 +199,7 @@ and the discounter rejects the package she accepts piece by piece. The chance of
 **From Lesson [5.4](05-04-population-ethics-escape-routes.md) (Population ethics II: escape routes):** *(Formal (a) · Exegetical (b).)* A is 300 people at welfare 80. A+ is A plus 300 extra people at 20, affecting no one in A. B is the same 600 people as A+, all at 60. A critical-level view scores a population by $V_c=\sum_i(u_i-c)$ with $c\ge0$.
 
 (a) Write $V_c(A^+)-V_c(A)$ and $V_c(B)-V_c(A)$ as functions of $c$. Find every $c$ at which the view denies premise 1 (mere addition), and every $c$ at which it ranks B above A.
+
 (b) Take $c=30$. Give the view's ranking of the three populations, and say in two sentences what this shows about *where* the critical-level view's block on the repugnant conclusion comes from.
 
 <details>

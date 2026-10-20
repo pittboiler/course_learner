@@ -104,14 +104,19 @@ So adding two amateurs to the expert under simple majority *costs* $0.108$ in ac
 ## Problems
 
 **P1 (🟢) *(Formal (a)–(b).)*** (a) Each voter is right with $p = 0.8$, independently. Compute $P_3$ and $P_5$ from the binomial sum, showing the terms, and check $P_5$ with the lemma.
+
 (b) At $p = 0.55$ the exact smallest odd $n$ with $P_n \ge 0.99$ is $539$. Find the smallest odd $n$ at which Hoeffding's bound $1 - P_n \le e^{-2n(p - 1/2)^2}$ *guarantees* $0.99$, and estimate the smallest $n$ with the normal approximation $P_n \approx \Phi\big((p - \tfrac12)\sqrt n / \sqrt{pq}\big)$, using $\Phi^{-1}(0.99) \approx 2.326$. Which number is a guarantee and which an estimate?
 
 **P2 (🟡) *(Formal (a)–(b).)*** Allow even $n$, with ties broken by a fair coin. Competence $p$, independence as in the theorem.
+
 (a) Prove that $P_{2m} = P_{2m-1}$ for every $m \ge 1$.
+
 (b) Conclude that for $p > 1/2$, $P_n$ is non-decreasing in all $n \ge 1$, and say which steps are strict.
 
 **P3 (🔴, optional) *(Formal (a) · Exegetical (b).)*** A five-member review panel: two senior members with competence $0.8$ and three juniors with $0.65$. Equal prior; correctness independent.
+
 (a) Give the log-odds weights, describe the optimal rule in one sentence, and compute its accuracy and the accuracy of simple majority exactly.
+
 (b) An invented memo proposes weights "proportional to each member's accuracy record," that is $0.8$ and $0.65$, "so the seniors get their due." Show this rule decides every case exactly as simple majority does, and say in 80 words or fewer what the Nitzan–Paroush theorem says about the right scale for weights.
 
 <details>

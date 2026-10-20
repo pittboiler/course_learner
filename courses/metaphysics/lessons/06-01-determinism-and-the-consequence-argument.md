@@ -158,8 +158,11 @@ Where this leaves things is instructive, and it is the honest state of the dispu
 **P1 (🟢) *(Exegetical.)*** Four invented one-liners. For each, name which thesis it actually states — causal determinism, fatalism, a claim about predictability, or a claim about the truth of future-tensed propositions — and say in one sentence what it would take to make it into a statement of determinism (or why it already is one).
 
 (a) "Your cancer will either kill you or it won't, so the treatment decision changes nothing."
+
 (b) "Given the exact state of the atmosphere at midnight and the equations, tomorrow's weather is fixed — even though nobody will ever measure well enough to say what it is."
+
 (c) "If it's true today that you'll marry her, then there's nothing you can do about it."
+
 (d) "With enough brain data we'll be able to predict every choice a person makes."
 
 **P2 (🟡) *(Exegetical (a) · Evaluative (b).)*** (a) Show, in three lines, how agglomeration follows from Alpha and Beta, then state the coin counterexample precisely — including *why* both N-claims hold and why the conjunctive one does not. Say which numbered step of the modal argument is thereby left unsupported. (b) The repaired principle (from N p, plus p's strictly entailing q, infer N q) blocks the derivation but forces the argument to assume outright that no one has a choice about the conjunction of the remote past and the laws. Does the repair save the argument or merely relocate the dispute? **150 words or fewer**, any verdict.

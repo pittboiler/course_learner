@@ -102,7 +102,9 @@ The dotted edge is the lesson. Everything above it is reachable; nothing crosses
 For each sentence below, say whether the passage permits it, forbids it, or says something else — and name the words that decide. **One sentence each.**
 
 (a) "Reason alone shows that perfect love needs three, so the Trinity is demonstrated."
+
 (b) "No argument shows the Trinity to be impossible, and I can answer each one that claims to."
+
 (c) "Since the Trinity cannot be proved, there is nothing to say to someone who does not accept the Church's authority."
 
 **P2 (🟡) *(Exegetical.)*** An invented paragraph from a parish catechetical handout:
@@ -114,6 +116,7 @@ Each sentence contains a distinct error. Name all three, and for each cite the t
 **P3 (🔴) *(Exegetical.)*** Assign a level on the ladder to each claim, and **name the act that fixes it** — or say that no act does. **One sentence each.**
 
 (a) God is really and essentially distinct from the world.
+
 (b) The Son proceeds from the Father by way of intellect, as a word from a mind.
 
 <details>

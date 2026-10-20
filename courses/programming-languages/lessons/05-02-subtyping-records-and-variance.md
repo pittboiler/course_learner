@@ -108,22 +108,31 @@ That is the variance rule enforced rather than assumed, and the mnemonic is PECS
 **P1 (🟢)** With $\mathsf{Cat} <: \mathsf{Animal}$, decide each and name the rule.
 
 (a) $\{\mathit{name}{:}\mathsf{String}, \mathit{pet}{:}\mathsf{Cat}\} <: \{\mathit{name}{:}\mathsf{String}\}$
+
 (b) $\mathsf{Animal}\to\mathsf{Animal} \;<:\; \mathsf{Cat}\to\mathsf{Animal}$
+
 (c) $\mathsf{Cat}\to\mathsf{Cat} \;<:\; \mathsf{Cat}\to\mathsf{Animal}$
+
 (d) $\mathsf{Cat}\to\mathsf{Cat} \;<:\; \mathsf{Animal}\to\mathsf{Animal}$
 
 **P2 (🟡)** For each interface, state the correct variance of the parameter $\alpha$ and give the reason from the signatures.
 
 (a) `interface Supplier<a> { a get(); }`
+
 (b) `interface Consumer<a> { void accept(a x); }`
+
 (c) `interface Box<a> { a get(); void set(a x); }`
+
 (d) `interface Comparator<a> { int compare(a x, a y); }`
 
 **P3 (🔴)** A language adds covariant mutable generics: `List<S> <: List<T>` whenever `S <: T`, with `List` supporting both `get` and `add`.
 
 (a) Write four lines exhibiting the unsoundness, in the style of Example 2.
+
 (b) State which of progress and preservation fails, and at which line.
+
 (c) Give two repairs that restore safety without removing covariance from the language entirely, and name a language taking each.
+
 (d) One repair catches the problem at compile time and one at run time. State which is which, and give one concrete advantage of the run-time approach — it is not "simplicity".
 
 <details>
@@ -191,6 +200,7 @@ The second advantage, more subtle: a run-time check is **complete** where the st
 Subtyping adds the rule $\mathsf{T\text{-}Sub}$, which lets any term have any supertype of its type.
 
 (a) State whether principal types survive the addition, and give a term illustrating your answer.
+
 (b) Say what the analogous notion is in a system with subtyping, and name the practical consequence for type inference.
 
 <details>

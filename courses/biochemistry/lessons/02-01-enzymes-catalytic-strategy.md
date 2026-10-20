@@ -95,6 +95,7 @@ $$\Delta\Delta G^{\ddagger} = (2.58\ \mathrm{kJ/mol})\times\ln(10^{7}) = 2.58 \t
 So stabilizing the transition state by only about **42 kJ/mol** (a handful of well-placed contacts) delivers a ten-million-fold acceleration. It says **nothing** about the equilibrium amount of product: $\Delta\Delta G^{\ddagger}$ affects the barrier, not $\Delta G$, so $K_{\text{eq}}$ is unchanged — the enzyme just reaches the same equilibrium far sooner. *Check via the decade rule:* $7$ decades $\times 5.9 = 41.3\ \mathrm{kJ/mol}$ ✓.
 
 **P3.**
+
 (a) $\Delta G = \Delta G^{\ddagger}_{f} - \Delta G^{\ddagger}_{r} = 80 - 50 = +30\ \mathrm{kJ/mol}$ (endergonic, as advertised — B sits *above* A).
 
 (b) Lowering the shared transition state by 30 kJ/mol drops **both** barriers by 30:

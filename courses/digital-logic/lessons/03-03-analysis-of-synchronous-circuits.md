@@ -183,6 +183,7 @@ Analysis needs a starting point, and so does the hardware. Real flip-flops there
 
 **P2 (🟡)** Analyze this circuit fully. Two **JK** flip-flops $A$ (most significant) and $B$, one input $X$, one output $Z$, with
 $$J_A = K_A = X B, \qquad J_B = K_B = X, \qquad Z = A\,B\,X.$$
+
 (a) Write the next-state equations for $A^+$ and $B^+$, simplifying each. (b) Build the complete state table. (c) Describe the state diagram in words and say whether any state is unreachable. (d) Starting from `00`, trace $X = $ `1,1,1,1,0,1` and give the state and $Z$ each cycle — then verify the trace a second, independent way.
 
 **P3 (🔴)** Example 2's Mealy output is $Z_M = X\,P$, taken straight from an AND gate. (a) Suppose $X$ glitches briefly high in the middle of a cycle in which $P = 1$ and $X$ is otherwise 0. What does $Z_M$ do, and does the machine's *state* trajectory change? (b) Would the same glitch corrupt Example 1's Moore output $Z = Q_1$? (c) Name a fix that keeps the Mealy machine's small state count but makes its output glitch-free, and say what it costs.

@@ -100,11 +100,13 @@ Now $w$, Ana's favourite, wins, where before $y$ did. Nothing about anyone's pre
 Society satisfies premises 1–3, so $W = a_1u_1 + a_2u_2 + a_3u_3 + c$. Society is indifferent between $p$ and $q$, and between $r$ and $s$.
 
 (a) Find $a_1 : a_2 : a_3$ and society's value for each outcome.
+
 (b) A fifth outcome $t$ gives utilities $(0.7,\ 0.4,\ 0.3)$. Does society prefer $t$ to $p$? Which of the five outcomes would equal weights on these scales rank first?
 
 **P2 (🟡) *(Formal (a) · Exegetical (b).)*** Two people, three outcomes: $u_1 = (1,\ 0,\ 0.5)$ and $u_2 = (0.2,\ 1,\ 0.6)$ on outcomes $A, B, C$. A planner maximizes $u_1 + u_2$.
 
 (a) Find the planner's choice. Person 2's preferences are equally well represented by $v_2 = 3u_2 - 1$. Find the choice under equal weights on $u_1$ and $v_2$. Say which part of the transformation changed the verdict, and give weights on $(u_1, v_2)$ that reproduce the planner's original ranking.
+
 (b) In two sentences: what does (a) show Harsanyi's theorem does not settle, and what further premise would give "equal weights" a definite meaning?
 
 **P3 (🔴, optional) *(Exegetical (a) · Evaluative (b).)*** An **invented** op-ed, not the words of any real person:
@@ -112,6 +114,7 @@ Society satisfies premises 1–3, so $W = a_1u_1 + a_2u_2 + a_3u_3 + c$. Society
 > "Economists settled this in 1955. Harsanyi proved that any rational society that respects its citizens' preferences must add up their happiness with equal weight. The egalitarian who would trade some total happiness for a fairer spread is not making a moral claim. She is making a mathematical error."
 
 (a) Name two things the op-ed attributes to the theorem that it does not prove. Two sentences.
+
 (b) An egalitarian wants to rank lotteries over outcomes by something other than a weighted sum of vNM utilities. Name the premise of the theorem she must give up, or explain how she can avoid giving up any. Say what her choice costs her and whether the cost generalizes. 120 words or fewer.
 
 <details>
@@ -184,7 +187,9 @@ The shift $-1$ lowers every outcome's total by 1 and changes nothing; the factor
 (The rows average to the unconditional credences if she thinks she treats with chance $\tfrac12$.)
 
 (a) Compute Lewis's causal expected utility $U$ of each act. Above what cost of treatment would CDT wait?
+
 (b) Compute the evidential value $V$ of each act. Which does EDT recommend, and by how much?
+
 (c) In one sentence: why may CDT use the unconditional $P(K)$ here, and what feature of the case makes the two theories split?
 
 <details>

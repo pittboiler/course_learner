@@ -125,13 +125,17 @@ Now the point. **A model with zero training error has told you nothing.** B's pe
 **P1 (🟢)** Add a third procedure to Example 1: **model Z**, which ignores the data entirely and predicts $0$ at every $x_0$.
 
 (a) Give Z's row of the table at $x_0 = -1, 0, +1, +2$: its predictions over the four training sets, $\mathbb E\hat f$, bias², and variance.
+
 (b) Compare Z with model A at each of the four points. What do you notice, and what specific feature of this setup causes it?
+
 (c) Z beats A everywhere and is still not the model you want. Justify that with one number from the table.
 
 **P2 (🟡)** Three proposed fixes for a model that is performing badly. For each, name which term of the decomposition it moves and in which direction, and say which of the three fixes does anything at all about $\sigma^2$.
 
 (a) Collect ten times as much data, same hypothesis class.
+
 (b) Drop half the features.
+
 (c) Replace lines with degree-9 polynomials.
 
 Then make (a) exact. In Example 1's toy, suppose you may take $m$ independent noisy replicates at each of $x = -1$ and $x = +1$, and fit each procedure to the two group averages. Give A's and B's **reducible** error at $x_0 = +1$ as a function of $m$, and the limit of each as $m \to \infty$.
@@ -139,6 +143,7 @@ Then make (a) exact. In Example 1's toy, suppose you may take $m$ independent no
 **P3 (🔴)** Model P has training MSE $0.20$ and test MSE $1.80$. Model Q has training MSE $0.90$ and test MSE $1.10$.
 
 (a) State precisely what you can conclude and what you cannot. Give at least two things a reader would be tempted to conclude that this data does not support.
+
 (b) Now construct the case where the higher-bias model is right. Rerun Example 1's toy with $\varepsilon \in \{-c, +c\}$, so $\sigma^2 = c^2$. Find the exact value of $\sigma^2$ at which A and B tie at $x_0 = +1$, say which one wins on each side of it, and name in one sentence what "large $\sigma^2$" corresponds to in a real dataset.
 
 <details>
@@ -166,7 +171,9 @@ The cause is visible in the table: $\mathbb E[\bar y] = 0$. Model A is spending 
 **P2**
 
 (a) **More data → variance down.** Bias is unchanged (it is a property of the hypothesis class and the procedure, not the sample size), and $\sigma^2$ is a property of the world.
+
 (b) **Fewer features → variance down, bias up.** You have shrunk the hypothesis class, so the procedure wobbles less and can be further from the truth on average.
+
 (c) **Degree-9 polynomials → bias down, variance up.** A richer class, so the reverse trade.
 
 **None of the three does anything to $\sigma^2$**, and that is not a shortcoming of the list — $\sigma^2$ is the variance of $\varepsilon$, defined before any model exists. The only thing that ever moves it is measuring a different $y$, or measuring the same $y$ better (a new instrument, a new feature that was previously part of the "noise"). Reducing $\sigma^2$ is a data-collection act, never a modelling act.

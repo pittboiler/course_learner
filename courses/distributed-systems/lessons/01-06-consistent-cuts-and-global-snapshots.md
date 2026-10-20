@@ -108,22 +108,31 @@ The recorded global state is: $P$, $Q$ and $R$'s local states at their respectiv
 For each cut below, state whether it is consistent, and if not, name the specific send-receive pair that violates the condition.
 
 (a) $\{p_1, p_2\},\ \{q_1\},\ \{r_1, r_2\}$
+
 (b) $\{p_1\},\ \{q_1, q_2\},\ \{r_1\}$
+
 (c) $\{p_1, p_2, p_3\},\ \{q_1, q_2, q_3\},\ \{r_1, r_2\}$
+
 (d) For each consistent cut above, list the messages in flight.
 
 **P2 (🟡)** A distributed ledger has three nodes holding 400, 250 and 350. A snapshot taken by Chandy–Lamport records node states 400, 180 and 350, with channel $B \to C$ holding one message of value 70 and all other channels empty.
 
 (a) Give the total the snapshot accounts for, and state whether the ledger's invariant holds.
+
 (b) State what the snapshot would have totalled had channel states been omitted, and what an auditor would wrongly conclude.
+
 (c) A second run of the audit reports node states 400, 250 and 420 with all channels empty. State whether this is a possible Chandy–Lamport output, with the reason.
+
 (d) Name one property of this ledger that a snapshot can decide correctly and one it cannot, with a one-clause reason for each.
 
 **P3 (🔴, optional)** A four-node cluster runs a task system in which a node holding work may send some of it to an idle peer. The team wants to detect **termination**: every node idle and no work in transit.
 
 (a) State why checking "all four nodes report idle" is insufficient, giving a concrete two-node scenario as an ordered step list.
+
 (b) State whether termination is a stable property, and what that buys for snapshot-based detection.
+
 (c) The team implements Chandy–Lamport but drops the rule that markers must be sent before any further application message. Give an ordered step list in which the resulting snapshot reports termination while work is still in progress.
+
 (d) The cluster's channels are not FIFO. Give the specific way this breaks the algorithm, and state what must be added to the messages to repair it.
 
 <details>
@@ -201,7 +210,9 @@ What this buys: if the snapshot's global state satisfies "all idle and all chann
 **From Lesson 1.5 (logical time):** Two processes $S$ and $T$ run: $S$ has $s_1$ (local), $s_2$ (send $u$ to $T$), $s_3$ (receive $v$); $T$ has $t_1$ (send $v$ to $S$), $t_2$ (receive $u$), $t_3$ (local).
 
 (a) Give the vector timestamp of every event, coordinates ordered $(S, T)$.
+
 (b) State whether $s_2$ and $t_1$ are concurrent, with the comparison.
+
 (c) Give the Lamport timestamps of $s_3$ and $t_3$, and state what their comparison does and does not establish.
 
 <details>

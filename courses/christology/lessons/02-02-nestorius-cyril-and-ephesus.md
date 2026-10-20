@@ -77,9 +77,13 @@ graph TD
 ## Problems
 
 **P1 (🟢)** *(Exegetical)* Mark each sentence **true**, **false**, or **true only with a stated distinction**, and name the rule that decides it (identity of subject; predicates of a nature are said of the person, not traded between natures). One line each.
+
 (a) "Mary is the mother of Christ's human nature, not of the Word."
+
 (b) "The one who was nursed at Bethlehem existed before Abraham."
+
 (c) "God was two months old."
+
 (d) "*Christotokos* is a true title of Mary."
 
 **P2 (🟡)** *(Exegetical)* An **invented** handout from a parish adult-formation evening, written for this problem:

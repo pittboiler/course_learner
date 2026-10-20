@@ -130,6 +130,7 @@ That agreement is the empirical content of "plate rigidity", and it is worth app
 
 **P3 (🔴, bridges to [4.5](04-05-plate-driving-forces.md))** Three plates A, B and C have instantaneous rotation vectors, in a geocentric Cartesian frame with $z$ through the north pole and $x$ through the Greenwich meridian, in units of °/Myr:
 $$\boldsymbol\omega_{AB} = (0.20,\ 0.50,\ 0.80), \qquad \boldsymbol\omega_{BC} = (0.10,\ -0.30,\ 0.40).$$
+
 (a) Compute $\boldsymbol\omega_{AC}$ and its magnitude. (b) Compute the latitude and longitude of the A–C Euler pole. (c) Compute the relative velocity across the A–C boundary at a point 50° from that pole. (d) Geodesy across the A–C boundary measures 8.1 cm/yr at that point. State two distinct explanations for the discrepancy and how you would distinguish them.
 
 <details>

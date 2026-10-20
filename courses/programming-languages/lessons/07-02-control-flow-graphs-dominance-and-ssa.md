@@ -134,8 +134,11 @@ becomes `x2 = phi(x0, x1)` with `x0 = 1` and `x1 = 1`. A phi whose arguments are
 **P1 (🟢)** For the diamond CFG with edges $B_0\to B_1$, $B_0\to B_2$, $B_1\to B_3$, $B_2\to B_3$:
 
 (a) Give $\mathrm{Dom}(C)$ for each block.
+
 (b) Give $\mathrm{idom}(C)$ for each non-entry block.
+
 (c) Give $\mathrm{DF}(B)$ for each block.
+
 (d) A variable `x` is assigned in $B_1$ and $B_2$. Say where its phi-functions go.
 
 **P2 (🟡)** Convert to SSA, giving every definition a numbered name and inserting phi-functions where needed.
@@ -150,8 +153,11 @@ becomes `x2 = phi(x0, x1)` with `x0 = 1` and `x1 = 1`. A phi whose arguments are
 **P3 (🔴)** Consider the CFG $B_0\to B_1$, $B_1\to B_2$, $B_1\to B_3$, $B_2\to B_4$, $B_3\to B_4$, $B_4\to B_1$ — an `if`/`else` inside a loop.
 
 (a) Give the dominator tree.
+
 (b) Give $\mathrm{DF}(B)$ for every block.
+
 (c) A variable `x` is assigned in $B_0$, $B_2$ and $B_3$. Compute the iterated dominance frontier and say exactly which blocks get a phi for `x`.
+
 (d) Explain why the iteration in $\mathrm{DF}^+$ is necessary here — that is, name a phi that the *first* application of $\mathrm{DF}$ does not find, or state that none exists and say why.
 
 <details>
@@ -256,6 +262,7 @@ This is exactly why the theorem is stated with $\mathrm{DF}^+$ rather than $\mat
 SSA renames every assignment.
 
 (a) State the relationship between SSA and that proposal.
+
 (b) The proposal's problem was what happens when a rebinding occurs inside an inner scope. State what SSA does about the corresponding situation, and name the construct.
 
 <details>

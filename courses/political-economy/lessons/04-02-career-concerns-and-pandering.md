@@ -119,12 +119,15 @@ The newcomer *overworks*: $1.08 > 1$. With $\delta = 0.9$, three-period first-te
 **P1 (🟢)** *(Formal.)* A two-period career-concerns model with $\lambda = 1$ and $c(a) = a^2/2$: ability variance $\sigma_\eta^2 = 2$, noise variance $\sigma_\varepsilon^2 = 3$, $\delta = 0.8$.
 
 (a) Find the first-period effort $a_1^*$.
+
 (b) Better auditing halves the noise variance. Find the new $a_1^*$.
+
 (c) Back in the setting of (a), with $m_0 = 10$, voters observe $y_1 = 11.32$. Find their posterior mean ability $m_1$.
 
 **P2 (🟡)** *(Formal.)* In the pandering model, $\mu = 0.6$, $p = 0.7$, $W = 3$, $b = 2$.
 
 (a) For which revelation probabilities $q$ does a congruent incumbent in state 0 pander? Classify $q = 0.1$ and $q = 0.2$.
+
 (b) For each of the two equilibria in (a), find the probability that the first-term policy is right.
 
 **P3 (🟡)** *(Exegetical.)* An invented op-ed: "In her first term our new governor delivered the best results in a decade. Ability like that is rare. Re-elect her and expect the same for eight more years." In 150 words or fewer, name the model the op-ed ignores, the two inferences it gets wrong, and what that model predicts for her later terms.

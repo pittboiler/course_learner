@@ -94,7 +94,9 @@ flowchart TD
 > "Five prophecies, with the chance of each coming true by accident: born of David's line (1 in 10); entered Jerusalem on a donkey (1 in 50); betrayed for thirty pieces of silver (1 in 1,000); silent before his accusers (1 in 20); crucified (1 in 100). Multiply them: one chance in a billion. Chance is ruled out. Jesus is the Messiah."
 
 (a) Verify the tract's product, and name the assumption that licenses multiplying. *(Formal.)*
+
 (b) Re-run it with three corrections. The donkey entry and the silence could be enacted by someone who knew the texts: use 1 in 2 for each. The thirty pieces are known only from a gospel that quotes the text: use 1 in 5. What is the corrected figure, and by what factor did the tract overstate? *(Formal.)*
+
 (c) Name two further errors that no correction of the five numbers can repair. Two sentences. *(Exegetical.)*
 
 **P2 (🟡) *(Apologetic: (a) Exegetical, graded first · (b) reply.)*** Matthew 2:17–18 says Herod's massacre fulfilled Jeremiah. Jeremiah 31:15–17 (Douay–Rheims):

@@ -111,8 +111,11 @@ So the *only* failure mode is the expensive one, and the engineering response is
 **P1 (🟢)** Classify each into $\mathsf{RP}$, $\mathsf{coRP}$, $\mathsf{BPP}$ or $\mathsf{ZPP}$ for the stated language, naming the side on which the algorithm is certain.
 
 (a) Language NONZERO-POLYNOMIAL; algorithm: evaluate at a random point and accept iff the value is nonzero.
+
 (b) Language COMPOSITE; algorithm: Miller–Rabin, accepting when it finds a witness.
+
 (c) Language $L$; algorithm: runs two independent subroutines and accepts iff both accept, where each subroutine is correct with probability $0.9$ on every input.
+
 (d) Language SORTED-CORRECTLY; algorithm: randomized quicksort, then verify the output is sorted and accept.
 
 **P2 (🟡)** Prove $\mathsf{RP} \subseteq \mathsf{NP}$, and then explain in two sentences why the same argument does **not** show $\mathsf{BPP}\subseteq\mathsf{NP}$, referring to what the certificate would have to prove.

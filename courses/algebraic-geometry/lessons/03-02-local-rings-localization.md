@@ -103,8 +103,11 @@ a $1$-dimensional local domain. Interpret geometrically: what happened to the $y
 **P1** An element $f/g$ is in $k[x]_{(x)}$ iff we can write it with $g(0)\neq0$; it is a unit iff additionally $f(0)\neq0$, and in $\mathfrak{m}_0$ iff $f(0)=0$.
 
 (a) $g(0)=-1\neq0$, so it's in the ring. $f(0)=3\neq0$: **unit**.
+
 (b) Denominator $x$ vanishes at $0$, and the numerator $x-1$ has $(x-1)(0)=-1\neq0$, so the fraction is *not* defined at $0$ (in lowest terms the denominator still vanishes). **Not in the ring** ($1/x\notin k[x]_{(x)}$).
+
 (c) $g(0)=1\neq0$: in the ring. $f(0)=0$: lies in $\mathfrak{m}_0$ (indeed $=x^2\cdot\frac1{x^2+1}$, order $2$).
+
 (d) $x^2-x=x(x-1)$ vanishes at $0$, so $\dfrac1{x^2-x}$ blows up at $0$: **not in the ring**.
 
 **P2** *Ideal.* If $a/s,\,a'/s'\in\mathfrak{p}R_\mathfrak{p}$ (so $a,a'\in\mathfrak{p}$, $s,s'\notin\mathfrak{p}$), then $\dfrac{a}{s}+\dfrac{a'}{s'}=\dfrac{as'+a's}{ss'}$ has numerator in $\mathfrak{p}$ (as $a,a'\in\mathfrak{p}$) and denominator $ss'\notin\mathfrak{p}$ ($\mathfrak{p}$ prime ⇒ complement multiplicative), so it's in the set. For $r/t\in R_\mathfrak{p}$, $\dfrac{r}{t}\cdot\dfrac{a}{s}=\dfrac{ra}{ts}$ has numerator $ra\in\mathfrak{p}$ (ideal absorbs), denominator $\notin\mathfrak{p}$ — still in the set. So $\mathfrak{p}R_\mathfrak{p}$ is an ideal, and it is proper since $1/1\notin\mathfrak{p}R_\mathfrak{p}$ (a unit numerator can't be forced into $\mathfrak{p}$).

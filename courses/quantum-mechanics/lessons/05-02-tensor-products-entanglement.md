@@ -89,7 +89,9 @@ $B$'s local statistics are $50/50$ — **exactly what they were before $A$ was t
 ## Problems
 
 **P1 (🟢)** For each two-qubit state, decide product or entangled using $ad=bc$; for the product one, factor it as $|\psi\rangle\otimes|\varphi\rangle$.
+
 (a) $\ |\chi_a\rangle = \tfrac{1}{\sqrt{10}}\big(2|00\rangle + |01\rangle + 2|10\rangle + |11\rangle\big)$.
+
 (b) $\ |\chi_b\rangle = \tfrac{1}{\sqrt{30}}\big(|00\rangle + 2|01\rangle + 3|10\rangle + 4|11\rangle\big)$.
 
 **P2 (🟡)** For the spin singlet $|\Psi^-\rangle = \tfrac{1}{\sqrt2}\big(|{\uparrow}{\downarrow}\rangle - |{\downarrow}{\uparrow}\rangle\big)$ (with $|0\rangle=|{\uparrow}\rangle$, $|1\rangle=|{\downarrow}\rangle$), measure spin $A$ along $z$. Find $B$'s state when $A$ comes out $\uparrow$ and when it comes out $\downarrow$, then show $B$'s own outcome is $50/50$ either way — so no signal is sent.

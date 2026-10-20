@@ -174,7 +174,9 @@ Cournot: markup $\dfrac{a-c}{n+1}=\dfrac{80}{n+1}$, $Q=\dfrac{n}{n+1}\cdot40$.
 > "(i) No wage board could ever gather what millions of buyers and sellers know about which skills are scarce this year; prices do that for us. (ii) So when streaming took off, and projectionists' pay fell while video editors' pay rose, no one was treated unjustly. (iii) No one planned that shift, so no one is responsible for it, and the state has no business helping the projectionists."
 
 (a) What does sentence (i) establish, and which premise of Hayek's argument does (ii) need that (i) cannot supply?
+
 (b) Which part of (iii) would Hayek accept, which part would he reject, and why?
+
 (c) Name two replies from the lesson that deny different premises behind (iii), and say what each says about the projectionists.
 
 **Two sentences per part.**

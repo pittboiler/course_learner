@@ -123,6 +123,7 @@ Two extensive quantities ($V$ and $m$) both halved, but their **ratio held fixed
 *Check.* The single discriminating question — "does matter cross the boundary?" — gives no for (a),(c) and yes for (b),(d). ✓
 
 **P2**
+
 (a) **Extensive:** $m$ (kg), $V$ (m³), $U$ (kJ) — each scales with amount. **Intensive:** $T$ ($^\circ$C) — independent of amount.
 
 (b) Divide the extensive quantities by mass:

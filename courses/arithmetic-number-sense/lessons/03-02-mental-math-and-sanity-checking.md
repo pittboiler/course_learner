@@ -86,8 +86,11 @@ Anchor on $10\%$: $10\%$ of $240$ is $24$. So $6\%$ is a bit more than half of t
 <summary>Solutions</summary>
 
 **P1**
+
 (a) $48 \times 25$: since $25 = 100/4$, multiply by $100$ and divide by $4$ — $48\times 25 = 48\times 100 / 4 = 4800/4 = \boxed{1200}$. (Or halve-and-double twice: $48\times25 = 24\times50 = 12\times100 = 1200$.)
+
 (b) $15\%$ of $80$: anchor on $10\%$ of $80 = 8$; then $5\%$ is half of that, $4$; sum $8 + 4 = \boxed{12}$.
+
 (c) $8\%$ of $50$: flip using $p\%$ of $q = q\%$ of $p$ — $8\%$ of $50 = 50\%$ of $8 = \boxed{4}$.
 
 **P2** Round to compatible numbers: $0.39 \approx 0.4$ and $812 \approx 800$, so the product is about $0.4 \times 800 = 320$. The estimate is **a few hundred**; the display reads **about $3$**. They differ by a factor of $100$ — reject the display. The true value is roughly $320$ (exactly $316.68$); the machine's answer is off by two decimal places, the fingerprint of entering $0.0039$ or dropping two zeros somewhere. The *size* check settles it instantly.

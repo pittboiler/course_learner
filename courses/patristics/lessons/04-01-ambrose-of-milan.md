@@ -76,6 +76,7 @@ The honest description is that the chapter will not settle the question in its o
 > But why make use of arguments? Let us use the examples He gives, and by the example of the Incarnation prove the truth of the mystery. Did the course of nature proceed as usual when the Lord Jesus was born of Mary? If we look to the usual course, a woman ordinarily conceives after connection with a man. And this body which we make is that which was born of the Virgin. Why do you seek the order of nature in the Body of Christ, seeing that the Lord Jesus Himself was born of a Virgin, not according to nature? It is the true Flesh of Christ which crucified and buried, this is then truly the Sacrament of His Body.
 
 (a) The section switches from one kind of proof to another. Name both kinds and quote the words that mark the switch.
+
 (b) State the analogy as a correspondence — what answers to what — and name the one thing it asks the objector to concede beyond the virgin birth itself.
 
 Two sentences or fewer per part.
@@ -83,6 +84,7 @@ Two sentences or fewer per part.
 **P2 (🟡) *(Exegetical.)*** Two readers agree that chapter 9 teaches a change and disagree about what is changed. The first takes 9.51–53 to fix the sense of "changed"; the second takes 9.54 and 9.58 to fix it.
 
 (a) Which step in the lesson's reconstruction does the second reader have to weaken, and on what feature of Ambrose's examples does he rest that objection?
+
 (b) Name one thing in the chapter that each reader has to explain away, quoting the words in each case.
 
 **150 words or fewer** in total.
@@ -92,6 +94,7 @@ Two sentences or fewer per part.
 > "A wonderful line from St Ambrose for this week: 'the power of blessing is greater than that of nature.' And in his commentary on Romans he tells us that in Adam all have sinned. So the Doctor of Milan hands us the Eucharist and original sin in two sentences, and whoever disagrees is contradicting a Doctor of the Church."
 
 (a) The note makes three moves: one accurate quotation and two failures. Identify each, say what is wrong with the two failures, and state what a usable citation of the quoted line would have to name. Two sentences or fewer per item.
+
 (b) Scholars disagree about how far Ambrose's theology is his own and how far it is Origen, Basil and Philo recast in Latin. Take either side in **150 words or fewer**, using one piece of evidence from this lesson, and state the strongest point against your side.
 
 <details>

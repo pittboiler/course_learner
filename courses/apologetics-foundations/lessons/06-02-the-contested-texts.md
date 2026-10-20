@@ -176,8 +176,11 @@ Solid arrows support; dashed arrows attack. The heaviest attack, on P3, is the o
 **From Lesson [5.5](05-05-weighing-it-the-bayesian-apologetic-and-its-limits.md) (Weighing it: the Bayesian apologetic and its limits):** *(Formal (a)–(c) · Exegetical (d).)* Invented case and numbers (nobody argued this). Corvin, an apologist, has five witnesses to a reported appearance. Four belong to one household and spent the night together before any of them spoke. He credits each of the four with a likelihood ratio of 10 and multiplies, then adds an outsider, a former opponent, at 50. He takes prior odds of $1:10{,}000$ for illustration.
 
 (a) Compute Corvin's total $L$, the posterior odds and the probability (three decimals).
+
 (b) A critic counts the household as one testimony worth 10. Recompute.
+
 (c) Keeping the outsider at 50 and the prior at $1:10{,}000$, what factor must the household carry as a group for even posterior odds? How many of Corvin's per-witness factors of 10 is that worth?
+
 (d) In one sentence: what question decides where between (a) and (b) the truth lies, and why does no arithmetic answer it?
 
 <details>

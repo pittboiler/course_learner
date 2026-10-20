@@ -82,9 +82,13 @@ The strain: the visible thing, his ease in honest dealing, survives, while what 
 (a) Which words mark the difference between imperfect and perfect virtue? (b) State the two-way dependence that makes perfect virtues connected. (c) Ruth gives generously and gladly, but is habitually unchaste. Does she have the virtue of liberality on this passage's terms? Two sentences per part.
 
 **P2 (🟡)** *(Exegetical)* Four cases written for this problem. For each, say which moral virtues the person has (acquired, infused, both, or neither as perfect virtue), cite the article that decides it, and give one sentence of reasons.
+
 (a) A week-old infant, just baptized.
+
 (b) An unbaptized nurse, gentle and brave for twenty years across every part of her life.
+
 (c) A baptized man in grace who has fasted for years, and who today commits a grave sin of perjury with full knowledge and consent. Take his temperance only.
+
 (d) The same man a month later, after repentance and restoration to grace, before he has done any new act of fasting.
 
 **P3 (🔴)** *(Exegetical)* An **invented** parish handout, written for this problem:
@@ -125,7 +129,9 @@ Identify four errors. For each, name the text or act that corrects it and, where
 ## Flashback
 
 **From Lesson [2.4](02-04-conscience-its-nature-and-its-errors.md) (Conscience: its nature and its errors):** *(Exegetical.)* Two cases written for this problem.
+
 (a) Elena finds several cans of paint in her building's shared basement. She is genuinely unsure whether they were left for anyone to use or belong to a neighbour. Without asking anyone, she uses them.
+
 (b) Dario has heard a rumour that his neighbour poisoned his dog. He has not asked the vet who examined the dog, because "I already know." He is now certain that justice requires him to name the neighbour in the street's group chat, and he says: "If I stay silent, I betray my conscience. If I post and I'm wrong, I've wronged him. Either way I sin."
 For (a), say whether she acted wrongly and what she should have done. For (b), say whether his conscience binds, whether posting would be excused, and whether he is really trapped, citing the texts. **Two sentences for (a), three for (b).**
 

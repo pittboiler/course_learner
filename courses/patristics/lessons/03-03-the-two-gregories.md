@@ -105,13 +105,16 @@ What he is entitled to is narrower and stronger than a knock-down analogy: the p
 > We say, then, to begin with, that the practice of calling those who are not divided in nature by the very name of their common nature in the plural, and saying they are many men, is a customary abuse of language … Thus it would be much better to correct our erroneous habit, so as no longer to extend to a plurality the name of the nature, than by our bondage to habit to transfer to our statements concerning God the error which exists in the above case. But since the correction of the habit is impracticable … we are not so far wrong in not going contrary to the prevailing habit in the case of the lower nature, since no harm results from the mistaken use of the name: but in the case of the statement concerning the Divine nature the various use of terms is no longer so free from danger.
 
 (a) Which phrase in the passage states the premise the whole anti-tritheist argument rests on? Quote it.
+
 (b) Gregory treats the same usage as safe in one case and dangerous in the other. Name the two cases, and give the reason he supplies for the asymmetry.
+
 (c) What does he concede about ever fixing ordinary speech, and what does that concession cost him?
 Two sentences or fewer per part.
 
 **P2 (🟡) *(Exegetical (a) · Evaluative (b).)*** Oration 31.
 
 (a) Reconstruct in numbered premises Gregory of Nazianzus's reply to "the Spirit is nowhere called God in Scripture." Use at least three distinct moves and cite the section of Oration 31 for each.
+
 (b) An objector says the staged-revelation argument proves too much: a rule that explains away scriptural silence will explain away any silence, so any later teaching can claim to be the next instalment. State that objection precisely, name what in Gregory's own text limits it, and say what would settle whether the limit holds. **150 words or fewer** for (b); any verdict.
 
 **P3 (🔴, optional) *(Exegetical.)*** An invented parish-bulletin note, written for this problem:

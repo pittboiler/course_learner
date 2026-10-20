@@ -82,6 +82,7 @@ Three Nash equilibria — but backward induction singled out just **one**, $(A, 
 **P1 (🟢)** An **Entrant** decides whether to enter a market (In / Out). If Out, the game ends with payoffs $(0, 4)$ (entrant, incumbent). If In, the **Incumbent** chooses Fight or Accommodate: Fight $\to (-1, 1)$, Accommodate $\to (2, 2)$. Solve by backward induction: state each player's action, the induced path, and the payoffs. In one sentence, say why the incumbent cannot get its preferred $(0,4)$.
 
 **P2 (🟡)** A three-move tree. Player 1 at the root chooses **Out** $\to (2,2)$ or **In**. After In, Player 2 chooses **L** or **R**, with $R \to (1,3)$. After In-then-L, Player 1 moves again: **u** $\to (0,0)$ or **d** $\to (3,1)$. (Payoffs are (Player 1, Player 2).)
+
 (a) Player 1 has two information sets. Enumerate Player 1's *full* strategy set and confirm it has more members than the tree has terminal nodes distinguishable by Player 1 alone. (b) Give the backward-induction strategy profile and the outcome. (c) Which of Player 1's four strategies are outcome-equivalent, and why does that not make them the *same* strategy?
 
 **P3 (🔴) — Centipede.** Two players alternate. At each node the mover may **Take** (ending the game) or **Pass** (handing the move over and growing the pot). Payoffs $(u_1, u_2)$:

@@ -84,12 +84,17 @@ This is the kind of integral that appears constantly in physics when a constrain
 ## Problems
 
 **P1 (🟢)** Evaluate each integral (watch the limits):
+
 (a) $\displaystyle\int_{-\infty}^{\infty}(x^2-3x+2)\,\delta(x-4)\,dx$
+
 (b) $\displaystyle\int_{-2}^{2}\sin(\pi x)\,\delta\!\left(x-\tfrac12\right)dx$
+
 (c) $\displaystyle\int_{0}^{10} e^{-x}\,\delta(x+3)\,dx$
 
 **P2 (🟡)** Use the scaling and composition rules.
+
 (a) Evaluate $\displaystyle\int_{-\infty}^{\infty}\cos x\,\delta(3x-\pi)\,dx$ by first rewriting $\delta(3x-\pi)$ using the scaling rule.
+
 (b) Evaluate $\displaystyle\int_{-\infty}^{\infty} x^{2}\,\delta(x^2-9)\,dx.$
 
 **P3 (🔴, optional)** *(Convolution identity, generalized — connects to [Lesson 2.3](02-03-convolution-theorem.md).)* Let $\delta_a(x):=\delta(x-a)$ be a unit spike at $x=a$. Using the definition of convolution and the sifting property, show that
@@ -100,13 +105,18 @@ Then state, in one sentence, what this says about convolving a signal with a shi
 <summary>Solutions</summary>
 
 **P1** All three are direct sifting; the only trap is checking whether the spike lies in the interval.
+
 (a) Spike at $x=4$ (the whole line): value is $4^2-3\cdot4+2=16-12+2=6$.
+
 (b) Spike at $x=\tfrac12\in(-2,2)$: value is $\sin\!\left(\pi\cdot\tfrac12\right)=\sin\tfrac{\pi}{2}=1$.
+
 (c) Spike at $x=-3$, which is **outside** $[0,10]$, so the integral is $0$. (The value $e^{-(-3)}=e^{3}$ is irrelevant — no mass falls in $[0,10]$.)
 
 **P2**
+
 (a) By the scaling rule with $a=3$: $\delta(3x-\pi)=\delta\!\big(3(x-\tfrac{\pi}{3})\big)=\tfrac13\,\delta\!\left(x-\tfrac{\pi}{3}\right)$. Then
 $$\int_{-\infty}^{\infty}\cos x\,\delta(3x-\pi)\,dx=\frac13\cos\frac{\pi}{3}=\frac13\cdot\frac12=\frac16.$$
+
 (b) $g(x)=x^2-9$ has simple roots $x=\pm3$ with $g'(x)=2x$, so $|g'(\pm3)|=6$. Thus $\delta(x^2-9)=\tfrac16[\delta(x-3)+\delta(x+3)]$, and sifting $f(x)=x^2$:
 $$\int_{-\infty}^{\infty} x^2\,\delta(x^2-9)\,dx=\frac16\big(3^2+(-3)^2\big)=\frac16(9+9)=3.$$
 

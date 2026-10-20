@@ -67,10 +67,13 @@ But the ball turns around when $v = 0$, at $t = 3$. The **distance traveled** ne
 **P1 (🟢)** Evaluate $\displaystyle\int_1^3 \left(3x^2 - 4x + 1\right)dx$.
 
 **P2 (🟡)** Let $g(x) = \displaystyle\int_0^x \cos(t^2)\,dt$ (no closed form exists — you don't need one).
+
 (a) Find $g'(x)$.  (b) Find $\dfrac{d}{dx}\displaystyle\int_0^{x^3} \cos(t^2)\,dt$.
 
 **P3 (🔴, optional)** A tank drains at the rate $r(t) = 200\,e^{-t/10}$ liters per minute.
+
 (a) How much water drains in the first 10 minutes?
+
 (b) The tank holds 2200 L. Explain, using the accumulation picture, why the tank *never* fully empties.
 
 <details>

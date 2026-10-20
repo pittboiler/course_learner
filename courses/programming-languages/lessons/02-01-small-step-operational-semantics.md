@@ -111,14 +111,19 @@ Both "fail to produce an answer", and a compiler might report both as a hang and
 $$\frac{\langle a_1,s\rangle \to \langle a_1',s\rangle}{\langle a_1+a_2,s\rangle \to \langle a_1'+a_2,s\rangle} \qquad \frac{\langle a_2,s\rangle \to \langle a_2',s\rangle}{\langle a_1+a_2,s\rangle \to \langle a_1+a_2',s\rangle}$$
 
 (a) Give a specific term and state for which this relation is **not** deterministic, listing the two different terms it can step to.
+
 (b) In this pure arithmetic language, does the non-determinism change the *final* value? Answer yes or no with a one-sentence reason.
+
 (c) Name one language feature whose addition would make the answer to (b) change, and say why.
 
 **P3 (🔴)** Classify each term as a **value**, **steps** (give the next term), or **stuck**, in a language with the rules above plus booleans, `if`, and no coercions. Then answer (d).
 
 (a) $\langle 3 + 4, s \rangle$
+
 (b) $\langle \texttt{skip}; x := 1,\ s\rangle$
+
 (c) $\langle \texttt{if } 3 \texttt{ then skip else skip},\ s\rangle$
+
 (d) Exactly one of (a)–(c) is the kind of thing a type system is designed to prevent. Say which, and state the property a type system would need to guarantee in order to rule it out — in the vocabulary of this lesson.
 
 <details>

@@ -110,20 +110,31 @@ For an animator who set a character's foot on a mark at a frame, Catmull–Rom i
 ## Problems
 
 **P1 (🟢)** Segment $\mathbf{P}$ ends with $\mathbf{P}_2 = (4, 3)$, $\mathbf{P}_3 = (5, 0)$. Classify each proposed start of the next segment as not $C^0$, $C^0$ only, $G^1$ but not $C^1$, or $C^1$, with a reason.
+
 (a) $\mathbf{Q}_0 = (5, 0)$, $\mathbf{Q}_1 = (6, -3)$
+
 (b) $\mathbf{Q}_0 = (5, 0)$, $\mathbf{Q}_1 = (7, -6)$
+
 (c) $\mathbf{Q}_0 = (5, 0)$, $\mathbf{Q}_1 = (6, -2)$
+
 (d) $\mathbf{Q}_0 = (5.1, 0)$, $\mathbf{Q}_1 = (6, -3)$
 
 **P2 (🟡)** A uniform cubic B-spline has control points $\mathbf{c}_0 = (0,0)$, $\mathbf{c}_1 = (2,4)$, $\mathbf{c}_2 = (4,4)$, $\mathbf{c}_3 = (6,0)$, $\mathbf{c}_4 = (8,2)$, giving two segments.
+
 (a) Compute where segment 0 starts and where it ends.
+
 (b) Compute where segment 1 starts, and confirm $C^0$ at the join.
+
 (c) Compute the first and second derivatives at the join from both sides' formulas.
+
 (d) Moving $\mathbf{c}_0$ changes which segments?
 
 **P3 (🔴)** A designer joins [4.2](04-02-bezier-curves-de-casteljau.md)'s arch $(0,0), (1,3), (4,3), (5,0)$ to a second segment $(5,0), (7,-6), (9,-4), (10,0)$.
+
 (a) Show the join is $G^1$ but not $C^1$, and give the speed on each side.
+
 (b) A camera travels the first segment in 1 second and the second in 1 second. Describe what happens at the join, and give a travel time for the second segment that makes the camera's velocity continuous.
+
 (c) Alternatively, move a single control point of the second segment to make the join $C^1$ with both segments timed at 1 second. *Accept criterion:* any $\mathbf{Q}_1$ that satisfies the $C^1$ condition. Give it, and say what else about the second segment's shape changes.
 
 <details>
@@ -134,8 +145,11 @@ For an animator who set a character's foot on a mark at a frame, Catmull–Rom i
 The incoming handle is $\mathbf{P}_3 - \mathbf{P}_2 = (1, -3)$.
 
 (a) $\mathbf{Q}_1 - \mathbf{Q}_0 = (1, -3)$, equal to the incoming handle: **$C^1$**.
+
 (b) $(2, -6) = 2(1, -3)$: same direction, twice the length: **$G^1$ but not $C^1$**.
+
 (c) $(1, -2)$ is not parallel to $(1, -3)$ (cross product $1\cdot(-2) - (-3)\cdot 1 = 1 \ne 0$): the segments meet at an angle — **$C^0$ only** (a visible corner).
+
 (d) $\mathbf{Q}_0 \ne \mathbf{P}_3$: **not $C^0$** — there is a gap of $0.1$.
 
 **P2**
@@ -167,8 +181,11 @@ Speeds: $\lVert 3(1, -3)\rVert = 3\sqrt{10} = \mathbf{9.49}$ arriving; $\lVert 3
 ## Flashback
 
 **From Lesson 4.2 (Bézier curves):** A cubic has control points $(0,0)$, $(2,2)$, $(6,2)$, $(8,0)$.
+
 (a) Evaluate $\mathbf{P}(0.75)$ with de Casteljau.
+
 (b) Give the tangent $\mathbf{P}'(0.75)$.
+
 (c) Give the control points of the piece on $[0.75, 1]$.
 
 <details>

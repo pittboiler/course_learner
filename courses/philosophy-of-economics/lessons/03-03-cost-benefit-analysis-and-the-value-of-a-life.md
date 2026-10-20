@@ -159,7 +159,9 @@ Here is the strain. Nothing about the bypass is in dispute. All the work is done
 | Z | 12 | 2 | 4 |
 
 (a) For each of X, Y and Z, does weak Pareto rank it above S? Does strong Pareto?
+
 (b) Rank all four states by the sum of utilities. Then replace Ann's numbers by their square roots, which represent exactly the same ordering of her states, and rank them by the sum again.
+
 (c) In one sentence: what does (b) show that a summed ranking needs and the Pareto principle does not?
 
 <details>

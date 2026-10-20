@@ -111,8 +111,11 @@ $B$ returned 1 before $C$ was invoked, and $C$ returned 0. **Not linearizable.**
 **P1 (🟢)** A register starts at 0. For each history, state whether it is linearizable, and if not, give the two operations whose constraints conflict.
 
 (a) $A{:}\,W(5)[0,3]$, $B{:}\,R(5)[4,6]$
+
 (b) $A{:}\,W(5)[0,3]$, $B{:}\,R(0)[1,2]$
+
 (c) $A{:}\,W(5)[0,3]$, $B{:}\,R(0)[4,6]$
+
 (d) $A{:}\,W(5)[0,8]$, $B{:}\,R(5)[2,4]$, $C{:}\,R(0)[5,7]$
 
 **P2 (🟡)** A register starts at 0. Four clients run:
@@ -120,15 +123,21 @@ $B$ returned 1 before $C$ was invoked, and $C$ returned 0. **Not linearizable.**
 $$A{:}\,W(1)[0,6], \quad B{:}\,W(2)[4,10], \quad C{:}\,R(2)[7,9], \quad D{:}\,R(1)[11,13]$$
 
 (a) List every pair of operations ordered by real time, and every pair that overlaps.
+
 (b) State whether the history is linearizable, and give the linearization order if it is or the contradiction if it is not.
+
 (c) Change **exactly one returned value** to make the history linearizable, and give the resulting linearization order with a valid point for each operation.
+
 (d) State what the original history tells you about the system that produced it, in one sentence.
 
 **P3 (🔴, optional)** A three-replica store uses $N = 3$, $W = 2$, $R = 2$ and no read repair.
 
 (a) Give an ordered step list, naming which replicas each operation contacts, in which two non-overlapping reads return 1 and then 0, with no replica failing.
+
 (b) State which clause of the linearizability definition your history violates.
+
 (c) The team adds read repair: a reader that observes a stale replica writes the newer value back to it, **after** returning the value to the client. State whether this fixes (a), with the reason.
+
 (d) Give the change that does fix it, and state the cost it adds to every read.
 
 <details>
@@ -217,7 +226,9 @@ With it, $B$ cannot return 1 until version 1 is on two replicas, so $C$'s read q
 **From Lesson 1.6 (consistent cuts and global snapshots):** Two processes $P$ and $Q$ run: $P$ has $p_1$, $p_2$ (send $m$ to $Q$), $p_3$ (send $m'$ to $Q$); $Q$ has $q_1$, $q_2$ (receive $m$), $q_3$ (receive $m'$).
 
 (a) State whether the cut $\{p_1, p_2, p_3\}, \{q_1, q_2\}$ is consistent, and list the in-flight messages.
+
 (b) State whether the cut $\{p_1, p_2\}, \{q_1, q_2, q_3\}$ is consistent, naming the violation if not.
+
 (c) The channel $P \to Q$ is FIFO. State what Chandy–Lamport would record as the channel state for the cut in (a), and how it would know.
 
 <details>

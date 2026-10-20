@@ -78,7 +78,9 @@ Force this $\le 0.05$: $\ 400/n \le 0.05 \iff n \ge 8000$. So $8{,}000$ readings
 **P2 (🟡)** Readings from a sensor are i.i.d. with mean $\mu$ and standard deviation $\sigma = 3$. Using **Chebyshev's inequality only**, find the smallest $n$ that guarantees $\mathbb{P}\big(|\bar X_n - \mu| \ge 0.2\big) \le 0.05$ — i.e. the mean is within $0.2$ of $\mu$ with at least $95\%$ probability.
 
 **P3 (🔴, optional)** Flip a fair coin $n$ times; code each flip $X_i = +1$ (heads) or $-1$ (tails), so $\mu = 0$, $\sigma^2 = 1$. Let $S_n = \sum X_i$ be the running *surplus* of heads over tails and $\bar X_n = S_n/n$.
+
 (a) Give $\text{sd}(S_n)$ and $\text{sd}(\bar X_n)$ as functions of $n$, and evaluate both at $n = 100$ and $n = 10{,}000$.
+
 (b) Use the two trends to explain, precisely, why "after many tails, heads are due" is false yet "the fraction of heads $\to \tfrac12$" is true.
 
 <details>

@@ -99,8 +99,10 @@ Two lessons in one here. First, "cyclic" is about *structure*, not about which s
 <summary>Solutions</summary>
 
 **P1.** Use $\operatorname{ord}(k)=\dfrac{10}{\gcd(10,k)}$.
+
 (a) $\operatorname{ord}(2)=\tfrac{10}{\gcd(10,2)}=\tfrac{10}{2}=5$; $\operatorname{ord}(5)=\tfrac{10}{\gcd(10,5)}=\tfrac{10}{5}=2$; $\operatorname{ord}(6)=\tfrac{10}{\gcd(10,6)}=\tfrac{10}{2}=5$.
 Sanity check on $5$: $5+5=10\equiv0$, so order $2$. ✓ And on $2$: $2,4,6,8,0$ — five steps home. ✓
+
 (b) Generators are the $k$ with $\gcd(k,10)=1$: $k=1,3,7,9$. (That's $\varphi(10)=4$; note $10=2\cdot5$ gives $\varphi=10(1-\tfrac12)(1-\tfrac15)=4$.)
 
 **P2.** Since $p\ge 2$ is prime, $G$ has some element $g\ne e$. Let $d=\operatorname{ord}(g)$. Then $\langle g\rangle$ is a subgroup of order $d$, and by the given fact $d\mid p$. Because $p$ is prime, $d\in\{1,p\}$. But $g\ne e$ forces $d\ne1$, so $d=p$. Hence $\langle g\rangle$ has $p$ elements — all of $G$ — so $G=\langle g\rangle$ is cyclic.

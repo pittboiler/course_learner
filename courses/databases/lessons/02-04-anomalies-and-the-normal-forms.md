@@ -127,22 +127,31 @@ From [2.3](02-03-functional-dependencies-closure-and-keys.md), the candidate key
 **P1 (🟢)** $R(\text{sid}, \text{course}, \text{grade}, \text{instructor})$ with $\{\text{sid}, \text{course}\} \to \text{grade}$ and $\text{course} \to \text{instructor}$.
 
 (a) Give the candidate key.
+
 (b) List the prime and the non-prime attributes.
+
 (c) Name the highest normal form $R$ satisfies, and give the dependency that blocks the next one.
+
 (d) Give a concrete insertion anomaly, in one sentence naming the fact that cannot be recorded.
 
 **P2 (🟡)** $R(\text{isbn}, \text{title}, \text{author}, \text{author\_dob}, \text{publisher}, \text{pub\_city})$, where a book has one author, an author one date of birth, a book one publisher, and a publisher one city.
 
 (a) Write the dependency set.
+
 (b) Give the candidate key, and state which shortcut from [2.3](02-03-functional-dependencies-closure-and-keys.md) finds it with no search.
+
 (c) Name the highest normal form, and classify each violating dependency as **partial** or **transitive**.
+
 (d) Give a two-row instance exhibiting an update anomaly, state which single-cell edit creates a contradiction, and name the fact the database then asserts twice with different values.
 
 **P3 (🔴, optional)** $R(A, B, C, D)$ with $F = \{AB \to C,\ C \to D,\ D \to A\}$.
 
 (a) Give every candidate key.
+
 (b) List the prime and non-prime attributes.
+
 (c) Determine the highest normal form, testing BCNF then 3NF then 2NF in that order and showing each test.
+
 (d) The escape clause is doing real work in (c). State precisely which dependency uses it, and construct a four-row instance of $R$ satisfying all of $F$ in which the redundancy that 3NF tolerates is visible — pointing at the two cells that store the same fact twice.
 
 <details>
@@ -249,7 +258,9 @@ The consequence is the update anomaly in miniature. Correcting $c1$'s partner fr
 **From Lesson 2.3 (functional dependencies, closure & keys):** $R(P, Q, S, T)$ with $F = \{P \to Q,\ QS \to T,\ T \to P\}$.
 
 (a) Compute $\{P\}^+$ and $\{T, S\}^+$.
+
 (b) Give every candidate key.
+
 (c) State whether $S \to T$ follows from $F$, with the closure that settles it.
 
 <details>

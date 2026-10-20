@@ -97,6 +97,7 @@ On impact, $\hat y_0=1$: output jumps by the full shock, since capital can't res
 
 **P3 (🔴) — BOSS PROBLEM 4, full.** Consider the log-utility, $\delta=1$ stochastic growth model with inelastic labor:
 $$\max\ \mathbb{E}_0\sum_{t=0}^\infty\beta^t\ln c_t\quad\text{s.t.}\quad c_t+k_{t+1}=z_tk_t^\alpha,\quad \hat z_t=\phi\hat z_{t-1}+\varepsilon_t,\quad \hat z_t\equiv\ln z_t.$$
+
 (a) Derive the exact optimal policy and show the linearized law of motion is $\hat k_{t+1}=\alpha\hat k_t+\hat z_t$. (b) Solve for the output policy $\hat y_t$ in terms of $\hat k_t,\hat z_t$, and verify the system is saddle-path stable (Blanchard–Kahn). (c) For a one-time unit innovation $\varepsilon_0=1$, derive closed forms for $\hat z_t,\hat k_t,\hat y_t$, and describe in words the shape of the output and consumption impulse responses — in particular, why output can be *higher* several quarters after the shock than on impact.
 
 <details>

@@ -82,6 +82,7 @@ The factor of 100 between $10^{-5}$ and $10^{-3}$ — dark matter's head start �
 
 **P1** (a) $\delta\propto a$ and $a = 1/(1+z)$, so the growth factor is
 $$\frac{a_0}{a_{\rm rec}} = \frac{1+z_{\rm rec}}{1+0} = 1+1100 \approx 1.1\times 10^{3}.$$
+
 (b) $\delta_{\rm today} \sim 10^{-5}\times 1100 \approx 1.1\times 10^{-2} \approx 10^{-2}$. That is **not** enough — it's still a smooth universe, short of collapse by a factor of $\sim 100$. (c) To reach $\delta\sim 1$ you need
 $$\delta_{\rm rec} \sim \frac{1}{1100} \approx 10^{-3}.$$
 The photons and baryons only had $\sim 10^{-5}$ (that's the measured $\Delta T/T$). The component that had already grown to $\sim 10^{-3}$ by recombination is the **dark matter**, which started collapsing at $z_{\rm eq}\approx 3400$. So the "just barely enough" story works only for dark matter's head-start amplitude — the quantitative case for its existence.

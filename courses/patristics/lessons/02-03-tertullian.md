@@ -146,6 +146,7 @@ Two disciplines apply. Exactness: *una substantia, tres personae* is a later con
 **From Lesson [2.1](02-01-irenaeus-against-the-gnostics.md) (Irenaeus against the Gnostics):** *(Exegetical.)* Asked why the gospels are four and not some other number, Irenaeus answers (*Against Heresies* 3.11.8, ANF, Roberts and Rambaut): "since there are four zones of the world in which we live, and four principal winds, while the Church is scattered throughout all the world … it is fitting that she should have four pillars". He maps the four to the four faces of the cherubim of Revelation 4:7 and to four covenants. In the next section he names people who want fewer — Marcion — and others whose *Gospel of Truth* he says agrees with the apostles' gospels in nothing (3.11.9).
 
 (a) **As an argument** for the number four, what does this establish? Name the step that fails. **Two sentences.**
+
 (b) **As evidence** about the churches Irenaeus knew around 180, what does the same passage establish, and which feature of the text makes it good evidence? **Two sentences.**
 
 <details>

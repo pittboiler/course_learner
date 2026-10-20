@@ -92,8 +92,11 @@ The question that separates fideism from reformed epistemology is the third box,
 **P1 (🟢) *(Exegetical)*** Classify each invented position as evidentialist, reformed, Kierkegaardian fideist, Wittgensteinian fideist, or rationalist. Give one sentence each naming the words that decide it.
 
 (a) "I believe in God the way I believe the past is real: not by inference. But I take the problem of evil seriously, and I have read the replies because my belief could, in principle, be defeated."
+
 (b) "Asking for evidence that God exists is like asking for evidence that chess has a king. Within the life of prayer the question does not arise, and outside it the word means nothing."
+
 (c) "I have weighed the case and give theism about 0.7. I hold my belief with exactly that confidence, and I would revise it on new arguments."
+
 (d) "The more the scholars cast doubt on the Gospels, the more my commitment stands out as mine. A faith secured by evidence would be no faith at all."
 
 **P2 (🟡) *(Evaluative)*** Steelman Wittgensteinian fideism against Nielsen's objection that practice-internal criteria would equally protect astrology. Then give the best reply to your steelman. 150 words or fewer in total.

@@ -226,19 +226,25 @@ This is the single most important caveat about the whole catalogue, and it is wo
 **P1 (🟢)** A row of receptors reports intensities $20, 20, 20, 20, 50, 50, 50$ at positions 0–6. Each ganglion cell applies the kernel $(-1, +2, -1)$ to its own receptor and its two neighbours.
 
 (a) Compute the responses of cells 1 through 5.
+
 (b) The whole scene is now brightened to $60, 60, 60, 60, 150, 150, 150$ — every intensity tripled. Recompute cell 4's response and comment.
+
 (c) A cell reports 0. Name two completely different stimuli that produce this.
 
 **P2 (🟡)** A principal cell has open-loop gain $g = 0.5$ Hz/pA and is embedded in a feedback-inhibitory loop whose combined interneuron-plus-synapse strength is $wk = 6$ pA/Hz.
 
 (a) Compute the loop gain $L$ and the firing rate at an input drive of 200 pA, with and without the loop.
+
 (b) A neuromodulator raises the cell's intrinsic gain $g$ by 20 percent. Compute the new closed-loop rate at 200 pA and express the change as a percentage. Compare it to the prediction of $d\ln r/d\ln g = 1/(1+L)$.
+
 (c) In one sentence, say what property of the circuit this robustness costs.
 
 **P3 (🔴, bridges to [3.3](03-03-audition-somatosensation.md))** A neuron has rest $-65$ mV, threshold $-50$ mV, $\tau = 12$ ms, and receives 5 mV EPSPs that sum linearly. Volleys of **2** inputs (10 mV) arrive every 6 ms. Feedforward inhibition delivers an IPSP equal and opposite to each volley's excitation, 3 ms after it.
 
 (a) Without the inhibitory branch, does the cell fire, and on which volley?
+
 (b) With the branch intact, find the steady-state peak depolarization reached by a long train, and state whether the cell ever fires.
+
 (c) What is the smallest *synchronous* volley that does fire, and what does the comparison of (b) and (c) say about what this circuit measures?
 
 <details>
@@ -313,7 +319,9 @@ $$5n \ge 15 \quad\Longrightarrow\quad n = \mathbf{3}.$$
 **From Lesson 2.3 (synaptic integration):** A pyramidal cell rests at $-70$ mV with threshold $-52$ mV. A synapse on a thin distal dendrite generates a **6 mV** EPSP *locally*, but the branch attenuates signals reaching the soma by a factor of **0.35**.
 
 (a) What is the somatic EPSP?
+
 (b) Assuming linear summation, how many such synchronous distal inputs are needed to fire the cell?
+
 (c) A shunting inhibitory synapse sits on the dendritic trunk, between those synapses and the soma. When active it divides the signal passing it by 3, while producing almost no voltage change on its own. How many inputs are now needed — and why is "almost no voltage change" not a contradiction?
 
 <details>

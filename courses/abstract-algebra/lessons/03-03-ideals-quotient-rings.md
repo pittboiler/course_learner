@@ -109,14 +109,19 @@ This is the template for *all* of Module 4: to adjoin a root of an irreducible p
 ## Problems
 
 **P1 (🟢)** For each subset, decide whether it's an ideal of the given ring; justify with the absorption test.
+
 (a) The even integers $2\mathbb{Z} \subseteq \mathbb{Z}$.
+
 (b) $\{\overline{0}, \overline{3}\} \subseteq \mathbb{Z}/6\mathbb{Z}$.
+
 (c) The set of units of $\mathbb{Z}$, namely $\{+1, -1\}$.
 
 **P2 (🟡)** In $\mathbb{Z}[x]$ (integer-coefficient polynomials), show that $(x)$ is a prime ideal but **not** maximal, while $(2, x) = \{2f + xg : f,g \in \mathbb{Z}[x]\}$ is maximal. (Identify each quotient ring.)
 
 **P3 (🔴)** Prove the two structural facts this lesson leaned on:
+
 (a) If $\varphi: R \to S$ is a ring homomorphism, then $\ker\varphi$ is an ideal of $R$.
+
 (b) For an additive subgroup $I \subseteq R$, the multiplication $(a+I)(b+I) := ab + I$ on cosets is well-defined **if and only if** $I$ absorbs multiplication (i.e. $I$ is an ideal).
 
 <details>

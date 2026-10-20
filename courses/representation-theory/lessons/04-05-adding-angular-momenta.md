@@ -102,6 +102,7 @@ So $\langle 1\,0;\tfrac12\,\tfrac12\,|\,\tfrac32\,\tfrac12\rangle=\sqrt{2/3}$ an
 ## Problems
 
 **P1 (🟢)** State the total-spin content of each tensor product, and verify the dimension count on both sides.
+
 (a) $2\otimes 1$.  (b) $\tfrac32\otimes 1$.
 
 **P2 (🟡)** By starting from the top state and applying $J_-=J_-^{(1)}+J_-^{(2)}$, construct all four coupled states of $\tfrac12\otimes\tfrac12$ (the triplet ladder and the singlet), giving each Clebsch–Gordan coefficient. Then say which of the four are symmetric under particle exchange and which is antisymmetric.
@@ -114,6 +115,7 @@ So $\langle 1\,0;\tfrac12\,\tfrac12\,|\,\tfrac32\,\tfrac12\rangle=\sqrt{2/3}$ an
 **P1** The rule gives $j$ from $|j_1-j_2|$ to $j_1+j_2$ in integer steps.
 
 (a) $2\otimes1$: $j=1,2,3$, i.e. $2\otimes1 = 3\oplus2\oplus1$. Dimensions: $5\cdot3=15$ and $7+5+3=15$. ✓
+
 (b) $\tfrac32\otimes1$: $j=\tfrac12,\tfrac32,\tfrac52$, i.e. $\tfrac32\otimes1=\tfrac52\oplus\tfrac32\oplus\tfrac12$. Dimensions: $4\cdot3=12$ and $6+4+2=12$. ✓
 
 **P2** With $|{\uparrow}\rangle=|\tfrac12,\tfrac12\rangle$, $|{\downarrow}\rangle=|\tfrac12,-\tfrac12\rangle$ and $J_-|{\uparrow}\rangle=|{\downarrow}\rangle$, $J_-|{\downarrow}\rangle=0$:

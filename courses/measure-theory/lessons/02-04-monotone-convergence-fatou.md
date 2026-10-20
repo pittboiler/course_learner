@@ -85,8 +85,11 @@ a **strict** inequality. Where did the mass go? It didn't shrink or spike — th
 <summary>Solutions</summary>
 
 **P1** (a) For $x = 0$, $f_n(0) = n^2 \to \infty$. For any fixed $x \in (0,1]$, once $n > 1/x$ we have $x \notin [0,1/n]$, so $f_n(x) = 0$ eventually; thus $\lim_n f_n(x) = 0$. The pointwise limit is $0$ everywhere except at the single point $x=0$.
+
 (b) $\int f_n\,d\lambda = n^2 \cdot \lambda([0,1/n]) = n^2 \cdot \tfrac1n = n \to \infty$, so $\lim_n \int f_n = +\infty$. The pointwise limit is $0$ $\lambda$-a.e. (differs from $0$ only on the null set $\{0\}$), so $\int \lim_n f_n\,d\lambda = 0$.
+
 (c) $\liminf_n f_n = 0$ a.e., so Fatou says $0 = \int \liminf_n f_n \le \liminf_n \int f_n = +\infty$. It holds, and is strict ($0 < \infty$). This is escaping mass with an even faster spike than the area-$1$ bump — here the "area" $n$ itself blows up.
+
 (d) The sequence is not monotone increasing: e.g. $f_1 = \chi_{[0,1]}$ has $f_1(1) = 1$ while $f_2(1) = 0$, so $f_1 \not\le f_2$. MCT's monotonicity hypothesis fails, which is why $\lim\int \ne \int\lim$.
 
 **P2** On $(0,1)$ the integrand is $\dfrac{\ln(1/x)}{1-x} = \ln(1/x)\sum_{n=0}^\infty x^n = \sum_{n=0}^\infty x^n \ln(1/x)$. Each term $g_n(x) = x^n \ln(1/x)$ is $\ge 0$ on $(0,1)$ (there $x^n \ge 0$ and $\ln(1/x) = -\ln x \ge 0$). Because the terms are nonnegative, the term-by-term corollary of MCT applies with no convergence hypothesis:

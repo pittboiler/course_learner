@@ -117,8 +117,11 @@ Notice also that the larger step sizes ($\alpha = 0.10$ for TD, $0.04$ for MC) d
 $$X \xrightarrow{\ r=3\ } Y \xrightarrow{\ r=-1\ } \text{terminal}$$
 
 (a) Compute the TD error $\delta$ for the first transition and the resulting $V(X)$.
+
 (b) Compute the TD error for the second transition and the resulting $V(Y)$.
+
 (c) Compute the Monte Carlo return $G$ from $X$ and the resulting $V(X)$ under an MC update from the same starting values.
+
 (d) State which method produced the larger change to $V(X)$, and explain why in terms of what each target used.
 
 **P2 (🟡)** Eight episodes are observed in a two-state MDP with $\gamma = 1$:
@@ -128,15 +131,21 @@ $$X \xrightarrow{\ r=3\ } Y \xrightarrow{\ r=-1\ } \text{terminal}$$
 - one episode: $B \xrightarrow{0}$ terminal
 
 (a) Compute $V(B)$ — both methods agree.
+
 (b) Give the batch Monte Carlo estimate of $V(A)$, and say what it is minimizing.
+
 (c) Give the batch TD(0) estimate of $V(A)$, and say what model it corresponds to.
+
 (d) State which you would expect to predict better on *future* episodes, and why.
 
 **P3 (🔴)** A process is **not** Markov in the states the agent sees: the observation $B$ is really two distinct underlying situations, $B_{\text{hot}}$ and $B_{\text{cold}}$, which the agent cannot tell apart. From $B_{\text{hot}}$ the terminal reward is always $1$; from $B_{\text{cold}}$ it is always $0$. State $A$ always leads to $B_{\text{cold}}$, while episodes that start at $B$ directly are $B_{\text{hot}}$ nine times out of ten.
 
 (a) Compute the true $V(A)$.
+
 (b) Compute what batch TD(0) converges to for $V(A)$, using data in which $A$ appears once and direct-$B$ starts appear many times.
+
 (c) Compute what batch Monte Carlo converges to for $V(A)$.
+
 (d) State which is correct, and what general principle about bootstrapping this illustrates.
 
 <details>
@@ -216,8 +225,11 @@ This is the precise sense in which [Lesson 2.1](02-01-monte-carlo-prediction.md)
 - Episode 2: $Q \xrightarrow{+8} Q \xrightarrow{0} T$
 
 (a) Compute every return by the backward recursion.
+
 (b) Give the first-visit estimates of $V(P)$ and $V(Q)$.
+
 (c) Give the every-visit estimate of $V(Q)$.
+
 (d) State which estimate of $V(Q)$ is unbiased and identify, in this specific data, the correlation that biases the other.
 
 <details>

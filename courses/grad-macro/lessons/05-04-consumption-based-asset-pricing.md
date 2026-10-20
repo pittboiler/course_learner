@@ -88,7 +88,9 @@ The $\tfrac12\sigma_i^2$ is a Jensen correction converting the log premium to a 
 ## Problems
 
 **P1 (🟢)** A two-state endowment economy: $c_0=1$, and next period $c_g=1.05$ or $c_b=0.95$ with equal probability. Preferences are CRRA with $\gamma=2$, $\beta=0.97$.
+
 (a) Compute the SDF in each state and the risk-free gross return $R_f$.
+
 (b) Price an asset paying $x_g=1.2$, $x_b=0.9$, and report its expected gross return.
 
 **P2 (🟡)** Using the beta-pricing formula $\mathbb{E}[R_i]-R_f=-\operatorname{Cov}(m,R_i)/\mathbb{E}[m]$, consider two assets in a two-state world where the bust state carries the higher $m$. Asset A pays more in the boom (procyclical); asset B pays more in the bust (countercyclical). Show that A's covariance with $m$ is negative and B's is positive, and conclude the sign of each asset's risk premium. Explain in one sentence why a rational investor holds B at all despite its below-safe expected return.

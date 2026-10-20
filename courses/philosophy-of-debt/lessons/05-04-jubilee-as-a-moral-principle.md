@@ -100,12 +100,15 @@ So the surprise charges lenders who lent in good faith and, through a premium, f
 - **Rule P (personal clock):** each debt lapses ten years after the day it was made.
 
 (a) Under Rule N, what fraction of a loan does the lender expect to recover when $k = 1$, $3$ and $10$? What fraction under Rule P?
+
 (b) The lender lends only if he expects to recover at least 90 percent. For which $k$ does he lend under Rule N, and when does he lend under Rule P?
+
 (c) Which part of the Jubilee argument does Rule P keep, and what does it give up? Say whether the trade is worth making. **100 words or fewer.**
 
 **P3 (🔴, optional) *(Exegetical (a) · Evaluative (b).)*** An invented island republic, Tavora. Over forty years, distress sales after bad harvests have put most farmland in the hands of a few families. The legislature debates a Reversion Act: every sale of farmland becomes a lease that ends on a Reversion Day held every fifty years, when the land returns without payment to the family that sold it. **Version 1** covers only sales made after the Act. **Version 2** also reverts land sold in the past forty years.
 
 (a) Apply the entitlement objection to each version, assuming for this part that every past sale was free of force and fraud. From whom, if anyone, does each version take something justly held? **Two sentences per version.**
+
 (b) Give the best reply to the objection against Version 2, using either Paine's timing (collect at death) or Nozick's own principle of rectification, and say where the reply stops working. **150 words or fewer.**
 
 <details>

@@ -129,8 +129,11 @@ Name **three** errors and correct each from the texts. Then say, in one sentence
 **P2** *(Exegetical)*
 
 **Must hit, strict:**
+
 (a) "No gain can be taken **by reason of that contract itself**" (*ratione ipsius contractus*), which is *Vix Pervenit*'s *ipsius ratione mutui*. The opening clause is the definition of the *mutuum*.
+
 (b) (1) The legal rate, (2) unless it is clear that it is **immoderate**, or (3) a higher rate on a **just and proportionate title**. The burden lies in "**unless it is clear**" (*nisi constet*): the legal rate is presumed licit until immoderation is shown. A higher rate needs a title that is positively present ("supports it").
+
 (c) The legal-title reading points to "**legal gain**": the law's rate needs no further title. The practical reading points to "**in itself**" (*per se*), a presumption that can be rebutted, not a thesis about the title.
 
 **Wrong turns:** reading "not in itself unlawful" as "just in all cases". Missing that the first clause keeps the prohibition. Treating the higher-rate clause as unconditional.

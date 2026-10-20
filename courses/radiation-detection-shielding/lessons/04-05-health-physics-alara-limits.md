@@ -94,6 +94,7 @@ Both meet the limit and deliver the **same** dose — for a 30-min task, $0.10\ 
 
 **P1.** (a) Inverse-square from 1 m to 2 m is a factor $(1/2)^2 = \tfrac14$, and $40$ min $= \tfrac23$ h:
 $$\dot H(2\,\text{m}) = 1.2 \times \tfrac14 = 0.30\ \tfrac{\text{mSv}}{\text{h}}, \qquad H = 0.30 \times \tfrac23 = 0.20\ \text{mSv}.$$
+
 (b) $0.20 > 0.10$ — over by a factor of **2**. Any single factor-of-2 move fits it: halve the time to $20$ min ($\Rightarrow 0.10$ mSv), *or* add **one HVL** of shielding ($\Rightarrow 0.10$ mSv), *or* back off to $2\sqrt2 \approx 2.8$ m (factor $\tfrac12$). 
 *Check:* $1.2\times\tfrac14\times\tfrac23 = 1.2\times\tfrac16 = 0.20$ ✓; units mSv/h × h = mSv ✓.
 
@@ -105,6 +106,7 @@ Check: 2 HVLs give factor 4, so $H = 1.0/4 = 0.25$ mSv $< 0.40$ ✓ (1 HVL would
 Without the distance trick you'd need the full factor $4.0/0.40 = 10$: $n = \log_2 10 \approx 3.32 \Rightarrow$ **4 HVLs** ($48$ mm). The distance move saved **2 HVLs** (24 mm) of lead — inverse-square in action.
 
 **P3.** (a) Risk $\approx (5\times10^{-2}\ \text{Sv}^{-1})\times(0.015\ \text{Sv}) = 7.5\times10^{-4}$, i.e. about $0.075\%$, or **roughly 1 in 1,300**. 
+
 (b) Because LNT assumes risk is proportional to dose with **no threshold**: 15 mSv already carries that ~$7.5\times10^{-4}$ risk, and any reasonable, low-cost reduction (more distance, less time) removes a proportional slice of it — the 20 mSv limit is a ceiling, not a floor to relax toward. 
 *Check:* $0.05\times0.015 = 0.00075$ ✓; $1/0.00075 \approx 1333$ ✓.
 

@@ -77,8 +77,11 @@ graph LR
 ## Problems
 
 **P1 (🟢) *(Formal (a)–(b) · Exegetical (c).)*** Use the lesson's figures for 13 and 18 July 1870.
+
 (a) On 13 July, give each of the three responses as a percentage of those voting (one decimal), and the percentage who did *not* give a simple *placet*.
+
 (b) On 18 July, what percentage voted *placet*, and by how many did attendance fall between the two votes?
+
 (c) Take as given: the full text of the minority's letter says about 70 fathers in Rome abstained on 13 July, and some 55 to 60 bishops of the minority left before the 18th. In two sentences or fewer, say why the fall in attendance from (b) cannot be read as the number who walked out, and what the 533 to 2 result does not measure.
 
 **P2 (🟡) *(Exegetical.)*** An invented museum placard:

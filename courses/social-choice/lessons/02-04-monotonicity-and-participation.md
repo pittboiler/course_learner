@@ -104,9 +104,11 @@ With three candidates an exhaustive search finds nothing: every profile of up to
 ## Problems
 
 **P1 (🟢) *(Exegetical (a)–(b).)*** (a) State Moulin's no-show theorem with every hypothesis.
+
 (b) In 100 words or fewer, give two independent reasons why it puts no constraint on the Borda count.
 
 **P2 (🟡) *(Formal (a) · Exegetical (b).)*** (a) Prove that the Borda count with a fixed tie-break order is monotone. You may use [2.1](02-01-scoring-rules.md)'s identity $B(z) = \sum_{v \ne z} n(z, v)$.
+
 (b) In two sentences, name the step of your proof that has no analogue for instant runoff, and say what instant runoff does at that point instead.
 
 **P3 (🔴, optional) *(Formal.)*** Build a three-candidate IRV election and a group of at least two voters, all casting the same sincere ballot, whose turning out changes the winner from their second choice to their last. No elimination and no final may be decided by a tie. Show both counts.

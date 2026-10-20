@@ -90,7 +90,9 @@ $$t_D = \frac{M_0}{\dot M_{\text{net}}} = \frac{4000\ \text{kg}}{200\ \text{kg/y
 **P1** (a) $\text{BR} = \eta - 1 - L = 2.40 - 1 - 0.30 = 1.10$. (b) Yes — $\text{BR} = 1.10 > 1$, so it makes more fissile than it burns. (c) Breeding gain $G = \text{BR} - 1 = 0.10$: for every fissile atom consumed, the reactor breeds 0.1 extra fissile atom out of fertile $^{238}$U, a 10% net fuel surplus per pass. *Check:* smaller $\eta$ and larger $L$ than Example 1 both push BR down, and indeed $1.10 < 1.20$ ✓.
 
 **P2** (a) $\dot M_{\text{net}} = (\text{BR}-1)\,\dot M_{\text{burn}} = 0.15 \times 1200 = 180\ \text{kg/yr}$.
+
 (b) $t_D = M_0 / \dot M_{\text{net}} = 5000 / 180 \approx 27.8 \approx 28\ \text{years}$. *Check:* units $\text{kg}/(\text{kg/yr}) = \text{yr}$ ✓; lower BR and bigger inventory than Example 2 both lengthen it, and $28 > 20$ ✓.
+
 (c) Any of: **raise the breeding ratio** (harder spectrum, thicker/better blanket) — increases the *denominator* via $(\text{BR}-1)$; or **shrink the inventory $M_0$** (more compact core, faster out-of-core reprocessing so less fissile sits idle in the pipeline) — decreases the *numerator*. Either shortens $t_D$. (Reinvesting surplus to grow a fleet instead switches you to the compound time $t_D\ln 2$.)
 
 **P3** (a) Break-even means $\text{BR} = \eta - 1 - L = 1$, so $\eta = 2 + L = 2 + 0.35 = 2.35$. (b) Only **fast $^{239}$Pu** ($\eta = 2.45 > 2.35$) breeds; thermal $^{235}$U (2.07) and thermal $^{239}$Pu (2.10) both fall below 2.35 and would run $\text{BR} < 1$. The physical reason: $\eta$ rises with neutron energy for $^{239}$Pu — at fast energies a smaller fraction of absorptions are sterile captures and each fission releases slightly more neutrons — so removing the moderator is what buys the ~0.35 extra neutron that clears the $2 + L$ threshold. *Check:* consistent with Example 1's remark that the fast spectrum's higher $\eta$ is the margin that flips converter into breeder ✓.

@@ -81,6 +81,7 @@ Two curved arrows write the mechanism. **Arrow 1:** tail on an $\ce{O}$ lone pai
 ## Problems
 
 **P1 (🟢)** For each molecule, name the functional group(s) and label the key carbon (or site) as a likely nucleophile or electrophile, with one word of why:
+
 (a) $\ce{CH3CH2CH2Cl}$  (b) $\ce{CH3COCH3}$ (acetone)  (c) $\ce{CH3CH2NH2}$  (d) $\ce{CH2=CH2}$.
 
 **P2 (🟡)** For the reaction $\ce{CH3-Br + ^-CN -> CH3-CN + Br^-}$ (cyanide attacking bromomethane): describe the two curved arrows (tail and head of each), name the nucleophile, the electrophilic atom, and the leaving group, and state whether the $\ce{C-Br}$ bond breaks heterolytically or homolytically.
@@ -91,9 +92,13 @@ Two curved arrows write the mechanism. **Arrow 1:** tail on an $\ce{O}$ lone pai
 <summary>Solutions</summary>
 
 **P1**
+
 (a) **Alkyl (chloro)halide.** The $\ce{C-Cl}$ carbon is **electrophilic** — Cl is electronegative, so that carbon is $\delta+$ (and $\ce{Cl-}$ is a leaving group).
+
 (b) **Ketone (carbonyl).** The carbonyl carbon is **electrophilic** — the $\ce{C=O}$ is polarized and a resonance form places $+$ on carbon (a [1.2](01-02-resonance-formal-charge-delocalization.md) argument). (The oxygen, with lone pairs, is the nucleophilic/basic end.)
+
 (c) **Amine.** The nitrogen is **nucleophilic** (and basic) — it has a lone pair to donate.
+
 (d) **Alkene.** The $\ce{C=C}$ is **nucleophilic** — the $\pi$ bond is exposed electron density.
 
 **P2** **Nucleophile:** cyanide, $\ce{^-CN}$ (attacks through the carbon lone pair / negative charge). **Electrophilic atom:** the carbon of $\ce{CH3-Br}$ ($\delta+$ because Br pulls electron density). **Leaving group:** bromide, $\ce{Br-}$.

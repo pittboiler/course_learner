@@ -111,22 +111,31 @@ $X$'s write lands **after** $Y$'s and corrupts it. Every component behaved corre
 **P1 (🟢)** A leader takes 8,000 writes per second with one asynchronous follower.
 
 (a) The follower lags by 400 ms when the leader's host fails. Give the number of acknowledged writes lost.
+
 (b) The team sets a monitoring alert at 1 second of lag. Give the number of writes that alert corresponds to.
+
 (c) Switching the follower to synchronous, each write's added latency is one 0.6 ms round trip plus a 1.2 ms fsync at the follower. Give the added latency per write and the resulting cap on single-threaded write throughput from this term alone.
+
 (d) State what happens to write availability if the synchronous follower goes down, and name the arithmetic from [1.1](01-01-why-distributed-systems-are-hard.md) that describes it.
 
 **P2 (🟡)** A leader replicates to $k$ followers, each responding in 3 ms with probability 0.98 and 80 ms with probability 0.02, independently.
 
 (a) Give the probability that a fully synchronous write is slow, for $k = 2$ and $k = 6$.
+
 (b) Give the same probability under semi-synchronous replication (wait for one) at $k = 2$ and $k = 6$.
+
 (c) State which scheme benefits from adding followers and which is harmed, with the reason in one clause.
+
 (d) The team proposes waiting for a **majority** of the $k$ followers. Give the probability of a slow write at $k = 5$, and state which of the two behaviours this resembles.
 
 **P3 (🔴, optional)** A five-node cluster uses majority election for leadership and writes to a shared object store.
 
 (a) A partition splits the cluster 3–2. Give what each side can and cannot do, and state whether split brain occurs.
+
 (b) The old leader is on the minority side. Give an ordered step list in which it nonetheless corrupts the object store, with no node behaving incorrectly.
+
 (c) Give the mechanism that prevents your scenario, and state precisely which component performs the check and why it is the only one that can.
+
 (d) The team argues that a 30-second lease makes (b) impossible because "no pause lasts 30 seconds". State whether the argument holds, and give a concrete counterexample from [1.1](01-01-why-distributed-systems-are-hard.md) or [1.2](01-02-failure-models-and-the-network.md).
 
 <details>
@@ -204,7 +213,9 @@ Second, and more fundamentally, **the pause is not the only cause**. A message d
 **From Lesson 2.4 (CRDTs):** A team replicates a page-view counter across three data centres using a PN-Counter, and separately replicates a "remaining tickets" count using the same type.
 
 (a) State whether the page-view counter converges correctly under concurrent increments at all three sites, with the reason.
+
 (b) State whether the ticket count can enforce "never below zero", with the one sentence that decides it.
+
 (c) Give what the ticket system must do instead, in one clause.
 
 <details>

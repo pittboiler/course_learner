@@ -105,18 +105,27 @@ Each half's control points are at most $0.780$ from its own chord — about a qu
 ## Problems
 
 **P1 (🟢)** A quadratic Bézier curve has $\mathbf{P}_0 = (0, 0)$, $\mathbf{P}_1 = (2, 4)$, $\mathbf{P}_2 = (4, 0)$.
+
 (a) Evaluate $\mathbf{P}(0.25)$ with de Casteljau, and check it with the Bernstein form.
+
 (b) Give the tangent vector $\mathbf{P}'(0.25)$.
+
 (c) What is the highest point of the curve, and how does it compare with the control polygon's highest point?
 
 **P2 (🟡)** For the cubic of Example 1, $(0,0), (1,3), (4,3), (5,0)$:
+
 (a) Run de Casteljau at $t = \tfrac13$ with exact fractions.
+
 (b) Write the control points of the two sub-curves on $[0, \tfrac13]$ and $[\tfrac13, 1]$.
+
 (c) Verify that the left sub-curve evaluated at its own parameter $\tfrac12$ equals the original curve at $t = \tfrac16$.
 
 **P3 (🔴)** A cubic has $\mathbf{P}_0 = (0, 0)$, $\mathbf{P}_1 = (1, 4)$, $\mathbf{P}_2 = (5, 4)$, $\mathbf{P}_3 = (6, -1)$.
+
 (a) Write the control points of $\mathbf{P}'(t)$ and the formula for $y'(t)$.
+
 (b) Find the parameter where the curve is highest, and the maximum height.
+
 (c) The convex hull property guarantees the curve stays below what height? Explain why the true maximum is lower.
 
 <details>
@@ -176,8 +185,11 @@ $$y = 0.3947(4) + 0.3530(4) + 0.1052(-1) = 1.5787 + 1.4120 - 0.1052 = \mathbf{2.
 ## Flashback
 
 **From Lesson 3.7 (Monte Carlo):** Estimate $I = \int_0^\pi \sin x\,dx$ $(= 2)$ with samples drawn uniformly from $[0, \pi]$.
+
 (a) Write the estimator and evaluate it for the samples $x = 0.5, 1.2, 2.0, 2.8$.
+
 (b) Compute the per-sample variance.
+
 (c) How many samples give 1% relative error?
 
 <details>

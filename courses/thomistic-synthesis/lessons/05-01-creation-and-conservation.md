@@ -95,11 +95,13 @@ Hence a sentence you can use anywhere. *Creation is not a claim about the first 
 > "Creation places something in the thing created according to relation only; because what is created, is not made by movement, or by change. For what is made by movement or by change is made from something pre-existing. And this happens, indeed, in the particular productions of some beings, but cannot happen in the production of all being by the universal cause of all beings, which is God. Hence God by creation produces things without movement. Now when movement is removed from action and passion, only relation remains, as was said above. Hence creation in the creature is only a certain relation to the Creator as to the principle of its being."
 
 (a) Which words carry the step from "not made by movement" to "only relation remains", and what fact about the universal cause makes that step available here but not in an ordinary making?
+
 (b) The same article's reply to objection 3 adds that it is not necessary that a creature be *being created* for as long as it exists. What does that reply add to the bare relation of (a), and why does adding it not weaken the creature's dependence on God?
 
 Two sentences per part.
 
 **P2 (🟡)** (a) *(Exegetical.)* Two supposals about our universe, neither discussed by Aquinas: (i) it has an infinite past with no first moment; (ii) it has an absolute first moment. For each, say whether it establishes, refutes, or leaves untouched the claim that the world is created in Aquinas's sense, and name the article that decides it. One sentence each.
+
 (b) *(Exegetical.)* Give the level of each claim and name the act or text that fixes it, without overstating in either direction: (i) God made all things from nothing; (ii) the world had a beginning in time; (iii) that the world had a beginning in time cannot be demonstrated by natural reason. One sentence each.
 
 **P3 (🔴, optional) *(Exegetical.)*** An invented parish-newsletter paragraph:

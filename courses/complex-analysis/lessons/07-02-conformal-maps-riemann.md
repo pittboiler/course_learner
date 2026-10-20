@@ -110,6 +110,7 @@ Check: $\arg z=0\Rightarrow u=0$ ✓; $\arg z=\tfrac{3\pi}{4}\Rightarrow u=\frac
 
 **P3** (a) *Direct.* On the strip, symmetry says the temperature can't depend on the horizontal coordinate $x$ — only on the height $y=\operatorname{Im}z$. A harmonic function of $y$ alone satisfies $u_{yy}=0$, so $u$ is linear in $y$: $u=ay+b$. Boundary conditions $u(y{=}0)=0$ and $u(y{=}\pi)=100$ give $b=0$, $a=\frac{100}{\pi}$. So
 $$u(z)=\frac{100}{\pi}\,y=\frac{100}{\pi}\operatorname{Im}z.$$
+
 (b) *Transport.* The map $w=e^z=e^x e^{iy}$ sends the strip $0<y<\pi$ to the upper half-plane, with $\arg w=y$. The bottom edge $y=0$ goes to the positive real axis ($0°$), the top edge $y=\pi$ to the negative real axis ($100°$). Solve there with the angle solution $U(w)=\frac{100}{\pi}\arg w$, and pull back:
 $$u(z)=U(e^z)=\frac{100}{\pi}\arg(e^z)=\frac{100}{\pi}\cdot y=\frac{100}{\pi}\operatorname{Im}z.$$
 Identical to (a) ✓. The exponential unrolls the strip exactly so that "linear in height" and "linear in angle" are the *same* statement.

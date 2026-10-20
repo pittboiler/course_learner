@@ -84,7 +84,9 @@ Notice the through-line of this last lesson: heme keeps its sixth site open for 
 <summary>Solutions</summary>
 
 **P1**
+
 **(a) Deoxy-heme.** Coordination number **5**. Donors: four $\ce{N}$ atoms from the porphyrin macrocycle (equatorial) + one $\ce{N}$ from the proximal histidine (axial). Geometry: **square pyramidal** ($\ce{FeN5}$), i.e. an octahedron missing one vertex — the vacant sixth site.
+
 **(b) Oxy-heme.** Coordination number **6**. Donors: the same five $\ce{N}$ atoms + one $\ce{O}$ from the bound $\ce{O2}$ occupying the sixth site. Geometry: **octahedral**. Iron oxidation state is $+2$ in both.
 
 **P2** $\ce{Fe^2+}$ is $d^6$. In deoxy-heme the sixth site is empty, the ligand field is weaker, and the iron is **high-spin** ($t_{2g}^4 e_g^2$, four unpaired electrons). Occupying the $e_g$ orbitals — which point directly at the porphyrin nitrogens — swells the ion, so it can't fit the ring's central hole and sits $\sim0.4\ \text{Å}$ **out of the plane** (domed). Binding $\ce{O2}$, a strong-field ligand, raises $\Delta_o$ above the pairing energy; the iron becomes **low-spin** ($t_{2g}^6 e_g^0$, diamagnetic). Emptying $e_g$ shrinks the ion, which now fits and drops **into the plane**.
@@ -92,7 +94,9 @@ Notice the through-line of this last lesson: heme keeps its sixth site open for 
 That in-plane motion tugs the proximal histidine, which shifts the protein backbone, and in a four-subunit hemoglobin this nudges the *other* subunits from their low-affinity (T) shape toward the high-affinity (R) shape. So each $\ce{O2}$ bound makes the next easier to bind — positive **cooperativity** — producing the **sigmoidal** binding curve. Without a spin-state-driven geometry change there would be no mechanical signal to transmit, and binding would be independent at each site (hyperbolic, as in single-heme myoglobin).
 
 **P3**
+
 **(a)** Both are stories about a **vacant coordination site being the reactive spot**. A homogeneous catalyst can only bind and activate substrate at an empty coordination site — the catalytic cycle ([4.2](04-02-homogeneous-catalysis-cycle.md)) repeatedly opens a site (e.g. by ligand dissociation), binds substrate there, transforms it, and releases it to regenerate the open site. Heme does the identical thing at slower stakes: it holds one site permanently open so it can bind its "substrate" $\ce{O2}$, then release it. Five ligands are locked down precisely so that the sixth stays available and selective — reactivity lives at the open site, in both the catalyst and the carrier.
+
 **(b)** $\ce{CO}$ poisons heme by **occupying that open site too well**. It binds the sixth position $\sim200\times$ more tightly than $\ce{O2}$, so it does not come back off — the reversible equilibrium is killed and the site is permanently blocked. In catalytic terms this is exactly **catalyst poisoning by too-strong substrate binding**: a species that binds the active site so strongly it never dissociates halts turnover, because a site that can't reopen can't do its job. A good carrier (and a good catalyst) needs binding strong enough to grab but weak enough to let go; $\ce{CO}$ breaks that balance.
 
 </details>

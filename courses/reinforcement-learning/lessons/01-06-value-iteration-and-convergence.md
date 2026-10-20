@@ -129,15 +129,21 @@ Two things to take from this. First, **the bound is a guarantee, not a predictio
 **P1 (🟢)** A one-state MDP has a single state $s$ and two actions: $a$ with reward $3$, $b$ with reward $1$, both self-looping. Take $\gamma = 0.8$.
 
 (a) Write $(TV)(s)$ as an explicit function of $V(s)$.
+
 (b) Run value iteration from $V_0(s) = 0$ for four sweeps.
+
 (c) Compute $V^*(s)$ exactly and verify the error bound $\lVert V_k - V^*\rVert_\infty \le \gamma^k \lVert V_0 - V^*\rVert_\infty$ at $k = 4$.
+
 (d) State whether the bound is tight here, and why.
 
 **P2 (🟡)** Value iteration is run on an MDP with $\gamma = 0.95$. After sweep $k$, the largest change at any state is $\lVert V_{k+1} - V_k\rVert_\infty = 0.02$.
 
 (a) Compute the guaranteed bound on $\lVert V_{k+1} - V^*\rVert_\infty$.
+
 (b) The rewards in this MDP lie in $[0, 1]$. Compute the largest possible value of $V^*$ at any state, and express your answer to (a) as a percentage of that.
+
 (c) How many further sweeps guarantee $\lVert V - V^*\rVert_\infty < 0.01$? (Use the bound from (a) as the new starting distance.)
+
 (d) State one reason the greedy policy might already be optimal despite the remaining error.
 
 **P3 (🔴)** An engineer replaces the $\max$ in the Bellman optimality operator with a **softmax**, defining
@@ -147,8 +153,11 @@ $$(T_\beta V)(s) = \frac{1}{\beta}\log \sum_a \exp\!\Big(\beta\big[r(s,a) + \gam
 for a fixed $\beta > 0$. (This is the "soft" Bellman operator behind maximum-entropy RL.)
 
 (a) State what $T_\beta$ tends to as $\beta \to \infty$, and as $\beta \to 0^+$ with $|\mathcal{A}|$ actions.
+
 (b) The key fact is that log-sum-exp is non-expansive in the max norm: $\lvert \text{lse}_\beta(f) - \text{lse}_\beta(g)\rvert \le \max_a\lvert f(a) - g(a)\rvert$. Using it, adapt this lesson's proof to show $T_\beta$ is a $\gamma$-contraction.
+
 (c) State what therefore exists and is unique, and whether it equals $V^*$.
+
 (d) For a state with two actions whose bracketed quantities are $10$ and $4$, compute $(T_\beta V)(s)$ at $\beta = 1$ and at $\beta = 10$, and say which is closer to the hard max and why.
 
 <details>
@@ -230,8 +239,11 @@ At $\beta = 10$: $\frac{1}{10}\log(e^{100} + e^{40}) = \frac{1}{10}\big[100 + \l
 **From Lesson 1.4 (Optimality and the Bellman optimality equation):** A two-state MDP has $\gamma = 0.5$. In state $P$ the actions are *push* (reward $6$, moves to $Q$) and *rest* (reward $1$, stays at $P$). In state $Q$ the only action earns reward $0$ and returns to $P$.
 
 (a) Write both Bellman optimality equations.
+
 (b) Solve them for $V^*(P)$ and $V^*(Q)$, handling the $\max$ by testing each branch and checking consistency.
+
 (c) State the optimal policy.
+
 (d) Verify your answer satisfies both equations exactly.
 
 <details>

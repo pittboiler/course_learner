@@ -95,6 +95,7 @@ So the image lies in the quadric $Q=V_+(z_{00}z_{11}-z_{01}z_{10})$ — the surf
 <summary>Solutions</summary>
 
 **P1** (a) $[1:0]\mapsto[1^2:1\cdot0:0^2]=[1:0:0]$; $[0:1]\mapsto[0:0:1]$; $[1:1]\mapsto[1:1:1]$.
+
 (b) The pullback of $x-z$ is $s^2-t^2$: substitute $x=s^2,z=t^2$, giving the degree-$2$ form $s^2-t^2=(s-t)(s+t)$. Its zeros in $\mathbb{P}^1$ are $[1:1]$ and $[1:-1]$. So the *line* $\ell$ meets the conic $C$ in two points, which pull back to these two points of $\mathbb{P}^1$ — a hyperplane upstairs = a degree-$2$ divisor (two points) downstairs, exactly the Veronese dictionary. (Consistency check: $[1:1]\mapsto[1:1:1]$ indeed satisfies $x-z=0$.)
 
 **P2** Monomials of degree $3$ in $x_0,x_1,x_2$ number $\binom{2+3}{3}=\binom{5}{3}=10$, so $N=10-1=9$: $\nu_3\colon\mathbb{P}^2\hookrightarrow\mathbb{P}^9$. A plane cubic is $\sum_{|\alpha|=3}c_\alpha x^\alpha$, determined by its $10$ coefficients $c_\alpha$ up to overall scale — i.e. a point of $\mathbb{P}^9$; same $10$ monomials, same count. Under $\nu_3$ a cubic curve $\{\sum c_\alpha x^\alpha=0\}\subseteq\mathbb{P}^2$ becomes the *hyperplane* $\{\sum c_\alpha z_\alpha=0\}$ intersected with the Veronese image: **hyperplane sections of the Veronese variety $\leftrightarrow$ cubic curves in the plane.** (This is the trick behind linear systems: nonlinear curves become linear slices.)

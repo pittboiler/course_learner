@@ -131,6 +131,7 @@ Similarly $\{q^2, p\} = q\{q,p\} + \{q,p\}q = 2q$. Direct: $\{q^2,p\} = \partial
 $$\{q,H\} = \partial_q q\,\partial_p H - \partial_p q\,\partial_q H = 1\cdot\frac{p}{m} - 0 = \frac{p}{m} = \dot q,$$
 $$\{p,H\} = \partial_q p\,\partial_p H - \partial_p p\,\partial_q H = 0 - 1\cdot V'(q) = -V'(q) = \dot p.$$
 These are exactly Hamilton's equations $\dot q = \partial H/\partial p$, $\dot p = -\partial H/\partial q$ from 3.1. ✓
+
 (b) $\{H,H\} = 0$ by antisymmetry ($\{f,f\}=-\{f,f\}\Rightarrow\{f,f\}=0$), or directly: $\partial_q H\,\partial_p H - \partial_p H\,\partial_q H = 0$. Since $H$ has no explicit time dependence, $dH/dt = \{H,H\} + \partial H/\partial t = 0$. The answer was inevitable because *anything* has zero bracket with itself — energy conservation for a time-independent $H$ is pure antisymmetry. ✓
 
 **P3** Use bilinearity and split $H = H_x + H_y$ with $H_x = \frac{p_x^2}{2m} + \frac12 m\omega^2 x^2$ and $H_y$ its $x\to y$ copy. All cross-brackets between the $x$- and $y$-sectors vanish, so only matched pairs survive. Using $\{p_x p_y, x^2\} = -2x p_y$ and $\{xy, p_x^2\} = 2y p_x$ (each from Leibniz + fundamental brackets):

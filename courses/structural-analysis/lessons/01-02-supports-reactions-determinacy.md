@@ -101,7 +101,9 @@ $$\sum F_y = 0 \;\Rightarrow\; A_y + B_y - 30 = 0 \;\Rightarrow\; A_y = 30 - 11.
 **P1 (🟢)** A beam of span $6\ \mathrm{m}$ has a pin at $A$ ($x=0$) and a roller at $B$ ($x=6\ \mathrm{m}$). A downward point load of $18\ \mathrm{kN}$ acts at $x = 4\ \mathrm{m}$. Find $A_x$, $A_y$, and $B_y$.
 
 **P2 (🟡)** Classify each as determinate, indeterminate (give the degree), or unstable:
+
 (a) A beam fixed at $A$, roller at $B$, with **one internal hinge** between them.
+
 (b) A truss with $m = 13$ members, $r = 3$ reactions, $j = 8$ joints.
 
 **P3 (🔴)** A rigid beam is held by **three links** (each a two-force member, supplying one reaction along its own axis). The counting gives $r = 3$, $c = 0$, so $r - (3+c) = 0$ — "determinate." Yet the three link axes, when extended, all pass through a single point $O$. Is the beam stable? Justify with an equilibrium equation.
@@ -124,6 +126,7 @@ $$\sum F_y = 0 \;\Rightarrow\; A_y = 18 - 12 = 6\ \mathrm{kN}\ (\uparrow).$$
 *Check.* Moments about $B$: $A_y(6) - 18(2) = 36 - 36 = 0$ ✓. Load is nearer $B$, so $B$ carries more ($12 > 6$) ✓, and $6 + 12 = 18\ \mathrm{kN}$ = total load ✓.
 
 **P2**
+
 (a) Fixed (3) + roller (1) → $r = 4$. One internal hinge → $c = 1$. Degree $= r - (3+c) = 4 - (3+1) = 0$. **Statically determinate.** (The hinge's extra moment equation exactly absorbs the roller's extra reaction — remove the hinge and it would be indeterminate to degree 1, as in Example 2(a).)
 
 (b) Truss test: $m + r = 13 + 3 = 16$, and $2j = 2(8) = 16$. Since $m + r = 2j$, it is **statically determinate** (assuming the members are arranged so it isn't a partial mechanism — the count is satisfied).

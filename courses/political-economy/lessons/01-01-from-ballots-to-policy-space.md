@@ -106,11 +106,13 @@ The two richest voters' ideals sit at the boundary, and the profile is still sin
 **P1 (🟢)** *(Formal (a)–(b).)* Five households have incomes 10, 15, 20, 25, 30 (thousand units). A public good $G$ costs 1 per unit and is financed by a proportional income tax, so household $i$ pays the share $s_i = y_i / \sum_j y_j$ of the cost. Each household's utility is $y_i - s_i G + 12\sqrt{G}$.
 
 (a) Show each household's induced preference over $G \ge 0$ is single-peaked, find every ideal $G_i$, show the profile is single-crossing in income, and find the majority-rule level.
+
 (b) The richest household's income rises from 30 to 60, others unchanged. Find the new majority-rule level and say in one sentence why it moved.
 
 **P2 (🟡)** *(Formal (a)–(b).)* Three households vote on public-school spending per pupil $e \in \{0, 4, 16\}$, financed by a head tax of $e$ on each. A household that uses the public school gets quality $e$; household $i$ values quality $q$ at $a_i\sqrt{q}$, with $a = (3, 8, 10)$, and consumption enters linearly. Households 1 and 2 must use the public school. Household 3 may instead buy private quality $p$ at cost $p$, while still paying the tax.
 
 (a) Compute each household's induced utility at the three spending levels (optimize $p$ for household 3) and its ranking.
+
 (b) Show the majority relation cycles, and show that no ordering of the three levels makes all three households single-peaked. Name, in one sentence, the feature of the model that breaks single-peakedness.
 
 **P3 (🟡)** *(Exegetical.)* An invented memo to a mayor: "The council will vote on a budget package with two parts: the property-tax rate and the split of spending between transit and roads. Our survey identifies the median resident on the tax rate and, separately, the median resident on the split. Since the median voter decides, the council will adopt the package with the median rate and the median split, so we need lobby no one." In 100 words or fewer: which result is the memo using, which hypothesis of it fails, what can happen instead, and what one institutional rule could rescue the memo's prediction?

@@ -120,22 +120,31 @@ This is why the baseline is not an optimization but a necessity, and why "shift 
 **P1 (🟢)** A softmax policy over two actions has $\theta = (0.4,\ 0)$. The agent takes $a_2$ and receives a return $G = 5$, with $\alpha = 0.2$.
 
 (a) Compute $\pi(a_1)$ and $\pi(a_2)$.
+
 (b) Compute $\nabla_\theta\log\pi(a_2)$.
+
 (c) Perform the REINFORCE update and give the new $\theta$.
+
 (d) Compute the new $\pi(a_2)$ and confirm it rose.
 
 **P2 (🟡)** In the bandit of Example 2 ($\boldsymbol{\pi} = (0.5,0.5)$, rewards $10$ and $12$):
 
 (a) Compute the variance of the first gradient component with a baseline $b = 8$.
+
 (b) Compute it with $b = 14$.
+
 (c) Both differ from the optimum $b = 11$. State which is better and why the variance is not symmetric about... check whether it is.
+
 (d) State the value of $b$ that minimizes the variance here, and whether $b = V^\pi = 11$ is that value.
 
 **P3 (🔴)** An engineer wants to apply REINFORCE to a task whose per-episode returns are all near $1000$, with the best actions worth about $1005$ and the worst about $995$.
 
 (a) Estimate, using Example 2's mechanism, the factor by which the gradient variance exceeds what it would be for the same task with returns centred at zero.
+
 (b) Monte Carlo error falls like $1/\sqrt{n}$. Estimate the factor by which the number of episodes must increase to compensate.
+
 (c) The engineer proposes simply subtracting $1000$ from every reward as a preprocessing step. State whether this fixes the problem, and what it fails to fix.
+
 (d) State what a learned state-dependent baseline $\hat V(s)$ achieves that the constant in (c) does not, and give a concrete situation where the difference is decisive.
 
 <details>
@@ -216,8 +225,11 @@ With $\hat V(s)$ as the baseline the multiplier is the advantage, around $\pm5$ 
 **From Lesson 3.3 (The policy gradient theorem):** A softmax policy over three actions has preferences $\theta = (0,\ 0.6,\ -0.6)$.
 
 (a) Compute the three action probabilities.
+
 (b) Compute $\nabla_\theta\log\pi(a_3)$ and verify its components sum to zero.
+
 (c) With $Q(s,a_3) = 4$ and $\alpha = 0.05$, give the updated $\theta$.
+
 (d) Compute the new $\pi(a_3)$ and comment on the size of the change relative to how likely $a_3$ was.
 
 <details>

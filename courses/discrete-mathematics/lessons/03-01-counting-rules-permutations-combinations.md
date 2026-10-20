@@ -80,11 +80,13 @@ Now use it as a *denominator*. A flush (all five one suit) is chosen by the prod
 
 **P1** (a) Seven independent stages: $26$ options each for $3$ letter slots, $10$ each for $4$ digit slots. Product rule:
 $$26^3 \cdot 10^4 = 17{,}576 \cdot 10{,}000 = 175{,}760{,}000.$$
+
 (b) Letters now form an ordered selection without repetition: $P(26,3) = 26 \cdot 25 \cdot 24 = 15{,}600$. Digits likewise: $P(10,4) = 10 \cdot 9 \cdot 8 \cdot 7 = 5040$. The two blocks are independent stages, so multiply:
 $$15{,}600 \cdot 5040 = 78{,}624{,}000.$$
 
 **P2** (a) Order among the three members doesn't matter, no repeats — a combination:
 $$\binom{10}{3} = \frac{10 \cdot 9 \cdot 8}{3!} = \frac{720}{6} = 120.$$
+
 (b) Three *distinct labeled* roles means order matters — a permutation:
 $$P(10,3) = 10 \cdot 9 \cdot 8 = 720.$$
 Why exactly $3!$ times bigger: each unordered trio in (a) can be assigned the three roles in $3! = 6$ ways, and (b) counts every one of those assignments separately. So $P(10,3) = \binom{10}{3} \cdot 3! = 120 \cdot 6 = 720$. That's the $\binom{n}{k} = P(n,k)/k!$ identity in the flesh.

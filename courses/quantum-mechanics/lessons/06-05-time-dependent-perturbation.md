@@ -95,7 +95,9 @@ Check against Rabi: at resonance $P = \sin^2(\Omega_R t/2)$ with $\Omega_R=|V_{b
 **P3** (a) $P_{a\to b}=\sin^2(\Omega_R t/2)=1$ first when $\Omega_R t/2 = \pi/2$, i.e.
 $$t_\pi = \frac{\pi}{\Omega_R} = \frac{\pi\hbar}{|V_{ba}|}.$$
 At this **$\pi$-pulse** time the system is with certainty in $|b\rangle$: complete population transfer $a\to b$.
+
 (b) At $t=2t_\pi$: $\Omega_R t/2 = \pi$, so $P_{a\to b}=\sin^2\pi = 0$ — the population has returned entirely to $|a\rangle$. The population oscillates ("flops") coherently between the two states with period $2t_\pi = 2\pi/\Omega_R$; it never leaks away, it swaps back and forth.
+
 (c) A resonant pulse of duration $t_\pi$ is exactly what flips a qubit $|0\rangle\to|1\rangle$ (a quantum NOT / spin flip); tuning the pulse *length* sets any superposition — a half-length pulse ($t_\pi/2$, a "$\pi/2$-pulse") makes an equal superposition. This is the same coherent $2\times2$ rotation as a spin-1/2 precessing in a magnetic field, and it is the physical basis of NMR and gate operations in quantum computing.
 
 </details>

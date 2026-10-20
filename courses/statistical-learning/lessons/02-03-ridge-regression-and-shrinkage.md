@@ -136,13 +136,17 @@ One trap visible in that table: the first row splits its error 50/50 between bia
 **P1 (🟢)** A design matrix has singular values $\sigma = (5,\ 2,\ 0.5)$.
 
 (a) Compute $\mathrm{df}(\lambda)$ at $\lambda = 0$, $\lambda = 1$ and $\lambda = 25$, giving the first two exactly.
+
 (b) At $\lambda = 1$, which direction has lost the most freedom, and why is that the right direction to punish?
+
 (c) State in one sentence what $\mathrm{df}$ counts and why it need not be an integer.
 
 **P2 (🟡)** One orthonormal direction, true coefficient $\beta$, noise variance $\sigma^2$.
 
 (a) Derive $\lambda^* = \sigma^2/\beta^2$ from $\mathrm{MSE}(\lambda) = (\lambda^2\beta^2+\sigma^2)/(1+\lambda)^2$, and show the minimiser is unique.
+
 (b) Evaluate $\lambda^*$ and the MSE improvement over OLS for $(\beta,\sigma^2) = (3,\ 1)$ and for $(\beta,\sigma^2) = (0.5,\ 1)$.
+
 (c) The two cases differ by a factor of 36 in $\beta^2$. Say what that does to the value of shrinking, in one sentence.
 
 **P3 (🔴)** Prove that for every $\beta_j$ and every $\sigma^2 > 0$ there exists $\lambda > 0$ with $\mathrm{MSE}(\lambda) < \mathrm{MSE}(0)$. Then explain why this does not contradict the Gauss–Markov theorem stated in [2.1](02-01-linear-regression-as-learning.md), being precise about which class of estimators Gauss–Markov quantifies over and which loss each result is optimising.
@@ -194,7 +198,9 @@ The honest summary: Gauss–Markov is a statement about the best estimator subje
 **From Lesson 2.1 (Linear regression as learning):** A well-specified linear model with $n = 250$, $p = 10$, $\sigma^2 = 9$, fit by OLS.
 
 (a) Give $\mathbb E[\hat R_{\text{in}}]$, $\mathbb E[\hat R_{\text{out}}]$ and the gap between them.
+
 (b) You now refit the same design by ridge and find $\mathrm{df}(\lambda) = 2.4$. Does the $2p\sigma^2/n$ formula still apply, and if not, what replaces $p$? Give the new gap.
+
 (c) Do the two *individual* formulas $\sigma^2(1 \mp p/n)$ survive the switch to ridge?
 
 <details>

@@ -88,13 +88,19 @@ The rectangle is the universe $U$; the two circles are $A$ and $B$. The four reg
 - $A^{c} = U \setminus A = \{2,4,6,8\}$ (the evens in $U$).
 
 **P2**
+
 (a) $|\mathcal{P}(S)| = 2^{3} = 8$: $\{\ \varnothing,\ \{a\},\ \{b\},\ \{c\},\ \{a,b\},\ \{a,c\},\ \{b,c\},\ \{a,b,c\}\ \}$.
+
 (b) $|S \times T| = |S|\,|T| = 3 \cdot 2 = 6$: $(a,0),(a,1),(b,0),(b,1),(c,0),(c,1)$.
+
 (c) No. $S \times T$ holds pairs like $(a,0)$ (letter first); $T \times S$ holds $(0,a)$ (number first). Same *size* ($6$ each), but the ordered pairs differ, so they are different sets — order in a pair matters.
 
 **P3**
+
 (a) $\forall x \in U,\ (x \text{ is even}) \lor (3 \mid x)$.
+
 (b) **False.** Negation: $\exists x \in U,\ (x \text{ is odd}) \land (3 \nmid x)$. Smallest witness: $x = 1$ (odd, not a multiple of $3$). Next ones would be $5, 7, 11, \dots$
+
 (c) "Even or multiple of $3$" $= E \cup M$. Count: evens $E = \{2,4,\dots,20\}$, so $|E| = 10$; multiples of $3$ are $\{3,6,\dots,18\}$, so $|M| = 6$; multiples of $6$ (both) are $\{6,12,18\}$, so $|E \cap M| = 3$. Then $|E \cup M| = 10 + 6 - 3 = 13$. (Subtracting the overlap once is inclusion–exclusion — you'll meet it again in Module 3.)
 
 </details>

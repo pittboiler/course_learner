@@ -74,7 +74,9 @@ See [Inquisition death toll estimates](../reference.md#inquisition-death-toll-es
 ## Problems
 
 **P1 (🟢) *(Formal.)*** Lea (vol. 4, p. 524) compares surviving records of relaxations in person with the figures Llorente's method produces for the same tribunals and years: Toledo 1483–1501, records 297, Llorente 666; Saragossa 1485–1502, records 124, Llorente 584; Valladolid 1485–92, records 50, Llorente 424.
+
 (a) For each tribunal, by what factor does Llorente's figure exceed the record? What is the factor for the three combined?
+
 (b) Henningsen and Contreras found 826 executions in person in 44,674 recorded cases. Give the rate as a percentage to two decimals, and the number of executions it implies if it held across Henningsen's later estimate of 87,269 trials in the same period.
 
 **P2 (🟡) *(Exegetical (a) · Evaluative (b).)*** An invented tour-guide script:

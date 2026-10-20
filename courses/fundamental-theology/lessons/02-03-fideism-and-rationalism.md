@@ -106,8 +106,11 @@ Now change five words. Replace the second sentence with: *"The arguments prove n
 **P1 (🟢) *(Exegetical.)*** For each claim, say at what level it stands and what fixes it there — defined by a canon of *Dei Filius*, taught in an expository chapter of that constitution but not defined, or a theologian's position carrying no magisterial weight as such. One sentence each.
 
 (a) There exist mysteries hidden in God which unaided reason cannot know.
+
 (b) God can be known with certainty by the natural light of human reason through created things.
+
 (c) Reason illumined by faith can reach a fruitful understanding of the mysteries by analogy and by their connection with one another.
+
 (d) Against someone who denies revelation entirely, one can only answer his objections, not prove the articles.
 
 **P2 (🟡) *(Exegetical.)*** Run the diagnostic on this invented paragraph. Give a one-line verdict — rationalist, semi-rationalist, fideist, traditionalist, or neither — then quote the sentence that decides it and say which gate it fails. 150 words or fewer.
@@ -168,7 +171,9 @@ Now change five words. Replace the second sentence with: *"The arguments prove n
 **F (🟡) *(Exegetical.)*** From [2.1](02-01-the-act-of-faith.md). Three invented sentences from a parish adult-education handout:
 
 (a) "Her faith carried her through that year."
+
 (b) "The faith teaches that Christ is true God and true man."
+
 (c) "He believed the doctrine because the Church, which he trusted, taught it."
 
 For (a) and (b), say whether "faith" names *fides qua* or *fides quae*. For (c), say what the sentence gives as the motive of assent and whether, as written, it states the motive of the act of faith. Three sentences total.

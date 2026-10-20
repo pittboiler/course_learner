@@ -96,6 +96,7 @@ No. "Self" in a.4 means one's *spiritual* good, one's share in beatitude, and be
 (ii) Sofia skips Mass, lives with no thought of changing, and says: "God is love. He'll take me in at the end whatever I do."
 (iii) Tom: "Grace is a crutch. Enough discipline and honesty will get anyone to heaven."
 (iv) Irene, after a conversion, says: "I trust God completely to bring me to glory, and I fear falling, because I know my weakness."
+
 (a) Classify each as despair, presumption (say which kind), or neither, citing the article that decides it. One line each. (b) Irene's sister says Irene should be *certain* she will persevere. Give the level of the teaching that answers her, and name the act that fixes it.
 
 **P3 (🔴)** *(Exegetical)* An invented case. Nadia has 3,000 dollars of savings. Her father wants help repaying a loan he took out for a new car, and his need is real but not urgent. A family she barely knows at her parish faces eviction next week that would leave young children without shelter, and 3,000 dollars would prevent it. Using q.26 and q.31 a.3: (a) state which rule gives her father priority and why; (b) say whether that rule settles the case, and what does; (c) name one thing the order of charity would forbid her to do to raise the money for either party. 150 words total.
@@ -138,8 +139,11 @@ No. "Self" in a.4 means one's *spiritual* good, one's share in beatitude, and be
 ## Flashback
 
 **From Lesson [2.5](02-05-the-primacy-of-conscience-rightly-understood.md) (The primacy of conscience rightly understood):** *(Exegetical.)* Three **invented** appeals to conscience. For each, say which claim is in play: the **primacy of obligation** (never act against a certain conscience), a **doctrinal question** that is not conscience's field, or a **primacy of authorship** (conscience deciding the norm). Then say whether the appeal holds, citing the text that decides it. **Two sentences each.**
+
 (a) An army lieutenant ordered to fire on unarmed demonstrators refuses: "My conscience will not let me kill these people."
+
 (b) A catechist tells her pastor: "In conscience I cannot accept that Mary was assumed body and soul into heaven, so I will teach it as optional."
+
 (c) An interrogator writes: "The norm against torture is a general orientation. Weighing everything in this case, my conscience has decided that torturing the prisoner is right."
 
 <details>

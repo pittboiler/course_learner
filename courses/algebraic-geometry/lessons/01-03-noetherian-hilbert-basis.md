@@ -140,7 +140,9 @@ Equivalently: any nonempty collection of subvarieties has a minimal element, for
 ## Flashback
 
 **From [Lesson 1.2](01-02-ideals-radicals.md) (ideals & radicals):** Compute the radical in each case, and note how $\sqrt{\;}$ strips a repeated generator down to its reduced form.
+
 (a) In $k[x]$: find $\sqrt{(x^5)}$.
+
 (b) In $k[x,y]$: find $\sqrt{(x^3,\ x y^2)}$, and identify the variety $V(x^3, xy^2)$.
 
 <details>

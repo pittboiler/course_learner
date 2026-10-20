@@ -99,6 +99,7 @@ $$u(x,t)=\begin{cases} 0 & x\le 0\\[2pt] \dfrac{x}{t} & 0\le x\le 2t\\[4pt] 2 & 
 
 **From Lesson 1.3 (Quasilinear first-order equations):** Solve $u_t + u\,u_x = 0$ with the decreasing ramp
 $$u(x,0)=\begin{cases} 4 & x\le 0\\ 4-2x & 0\le x\le 2\\ 0 & x\ge 2.\end{cases}$$
+
 (a) Find the breaking time $t^*$, both from the slope formula and by crossing two characteristics. (b) After the ramp collapses, use Rankine–Hugoniot to give the speed of the resulting shock between the states $4$ and $0$.
 
 <details>

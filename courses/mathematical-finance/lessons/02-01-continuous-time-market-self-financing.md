@@ -108,7 +108,9 @@ The $-\tfrac12\sigma^2$ is Itô's fingerprint: it comes entirely from the $f''$ 
 **P2 (🟡)** For a self-financing strategy $(\varphi_t,\psi_t)$ with value $X_t = \varphi_t S_t + \psi_t B_t$, prove the discounted self-financing identity $d\tilde X_t = \varphi_t\,d\tilde S_t$, where $\tilde X_t = e^{-rt}X_t$ and $\tilde S_t = e^{-rt}S_t$. (Hint: apply Itô's product rule to $\tilde X_t = e^{-rt}X_t$, use self-financing for $dX_t$, and check that $e^{-rt}$ is smooth so it contributes no $dW$ or quadratic-variation term.)
 
 **P3 (🔴)** *Admissibility and doubling.*
+
 (a) Give a candidate strategy on $[0,1]$ that is self-financing but produces $X_1 = 1$ almost surely from $X_0 = 0$ — a continuous-time arbitrage — and explain in one line which admissibility clause it violates. (You may describe it schematically via a doubling / bounded-below argument; no closed form needed.)
+
 (b) Suppose instead you hold $\varphi_t \equiv 1$ share of stock funded entirely by borrowing: $\psi_t = -S_0/B_0 \cdot$ (whatever makes $X_0=0$). Write $X_t$, check self-financing, and decide whether it is admissible.
 
 <details>
@@ -159,7 +161,9 @@ $$X_t = S_t - S_0 B_t = S_t - S_0 e^{rt}.$$
 ## Flashback
 
 **From Lesson 1.5 (The binomial model):** A stock is at $S_0 = 100$. Over one period it goes up to $uS_0 = 120$ or down to $dS_0 = 90$; the one-period gross riskless return is $R = 1.05$. A European call has strike $K = 105$.
+
 (a) Find the risk-neutral probability $q$ of an up-move.
+
 (b) Price the call by risk-neutral valuation.
 
 <details>

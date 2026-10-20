@@ -84,7 +84,9 @@ $$S=Nk_B\left[\ln\!\left(\frac{V}{N}\left(\frac{4\pi mE}{3Nh^2}\right)^{3/2}\rig
 compute $\dfrac1T=\left(\dfrac{\partial S}{\partial E}\right)_{V,N}$ and $\dfrac pT=\left(\dfrac{\partial S}{\partial V}\right)_{E,N}$, and hence recover $E=\tfrac32Nk_BT$ and $pV=Nk_BT$. (You should never need to differentiate anything but $\ln E$ and $\ln V$.)
 
 **P2 (🟡)** Two equal boxes, each volume $V$, temperature $T$, holding $N$ atoms, sit side by side; then the partition between them is removed.
+
 (a) If the two gases are **different** species (say argon and neon), show the entropy increases by $\Delta S_{\text{mix}}=2Nk_B\ln2$, using $S\propto \ln(V/N)$ per species.
+
 (b) If the two gases are the **same** species, show that the correct (with-$N!$) entropy gives $\Delta S=0$, whereas the without-$N!$ formula $S_{\text{wrong}}\propto\ln V$ gives a spurious $2Nk_B\ln2>0$. Explain in one sentence why $\Delta S=0$ is the physically required answer, and what the $N!$ did to enforce it.
 
 **P3 (🔴, optional)** Evaluate Sackur–Tetrode numerically for **one mole of helium at STP** ($T=273.15$ K, $p=1$ atm $=1.013\times10^5$ Pa) and compare to the measured molar entropy $\approx126$ J/(mol·K). Data: $m_{\text{He}}=6.65\times10^{-27}$ kg, $k_B=1.381\times10^{-23}$ J/K, $h=6.626\times10^{-34}$ J·s, $R=8.314$ J/(mol·K). (Hint: use the $\lambda_{\text{th}}$ form; find $V/N$ from $pV=Nk_BT$.)

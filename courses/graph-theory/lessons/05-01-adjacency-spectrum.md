@@ -95,6 +95,7 @@ Walk check for $C_4$: $A^2$ has diagonal $2$ (each vertex has $\deg=2$) and $(A^
 
 **P1** (a) With the ordering $1,2,3$,
 $$A=\begin{pmatrix}0&1&0\\1&0&1\\0&1&0\end{pmatrix}.$$
+
 (b) Squaring,
 $$A^2=\begin{pmatrix}1&0&1\\0&2&0\\1&0&1\end{pmatrix}.$$
 Each diagonal entry $(A^2)_{ii}$ counts closed length-$2$ walks from $i$, i.e. "go to a neighbor and come back," which is exactly $\deg(i)$. Here $\deg(1)=\deg(3)=1$ and $\deg(2)=2$, matching the diagonal $1,2,1$ ✓. (The off-diagonal $(A^2)_{13}=1$ is the single walk $1\to2\to3$.)

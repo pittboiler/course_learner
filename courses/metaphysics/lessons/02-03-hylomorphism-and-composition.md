@@ -122,7 +122,9 @@ Everyone agrees the arrangement is real and explains the boiling point. The disa
 **P1 (🟢) *(Exegetical.)*** For each case, say whether a further object exists according to (i) nihilism, (ii) universalism, (iii) van Inwagen's organicism, and (iv) a classical hylomorphist. One clause each; where two views agree, say briefly what separates their reasons.
 
 (a) A swarm of bees moving as a unit.
+
 (b) A functioning heart inside a living dog.
+
 (c) The things consisting of your left shoe and the planet Neptune.
 
 **P2 (🟡) *(Exegetical (a) · Evaluative (b).)*** An invented passage from a popular-science column:

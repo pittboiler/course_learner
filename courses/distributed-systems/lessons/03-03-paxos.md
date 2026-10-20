@@ -114,8 +114,11 @@ And note what the distinguished proposer is *not*: it is not required for safety
 **P1 (🟢)** Five acceptors $A_1 \ldots A_5$. Their state: $A_1$ promised 4, accepted $(4, \text{P})$; $A_2$ promised 4, accepted $(4, \text{P})$; $A_3$ promised 2, accepted $(2, \text{Q})$; $A_4$ promised 0, accepted nothing; $A_5$ promised 0, accepted nothing.
 
 (a) State whether any value is already chosen, with the reason.
+
 (b) A proposer runs $\mathrm{prepare}(6)$ to $\{A_3, A_4, A_5\}$. Give each acceptor's reply and the value the proposer must propose.
+
 (c) The same proposer instead runs $\mathrm{prepare}(6)$ to $\{A_1, A_4, A_5\}$. Give the value it must propose.
+
 (d) State what (b) and (c) together show about the protocol, in one sentence.
 
 **P2 (🟡)** Three acceptors. Trace the following, giving each acceptor's promised number and accepted proposal after every step.
@@ -126,15 +129,21 @@ And note what the distinguished proposer is *not*: it is not required for safety
 4. $Q$ sends $\mathrm{accept}(2, v)$ to $A_2$ and $A_3$, for the $v$ the rules require.
 
 (a) Give the state after each of the four steps.
+
 (b) Give the value $v$ in step 4, with the reason.
+
 (c) State whether "a" was ever chosen, and whether the outcome in (b) would change if it had been.
+
 (d) A fifth step has $P$ sending $\mathrm{accept}(1, \text{“a”})$ to $A_2$. Give $A_2$'s response and the rule that produces it.
 
 **P3 (🔴, optional)** A team runs Paxos over five acceptors with three proposers, all active.
 
 (a) Give an ordered step list producing a livelock among two of them, and state which consensus property fails.
+
 (b) State why no acceptor can detect the livelock and break it by choosing a value itself.
+
 (c) The team adds a leader election so that normally one proposer is active. Give the failure scenario in which two proposers are active simultaneously, and state the consequence.
+
 (d) A colleague proposes that acceptors reject any proposal number more than 10 above the highest they have seen, "to stop runaway retries". State what this breaks, with an execution.
 
 <details>
@@ -224,7 +233,9 @@ Worse, the cap gives the acceptors a way to reject a proposal that has nothing t
 **From Lesson 3.2 (failure detectors):** A Paxos deployment on 7 acceptors uses an eventually accurate failure detector to elect its distinguished proposer.
 
 (a) Give the maximum number of acceptor crashes the deployment tolerates, with the bound used.
+
 (b) State what happens to safety and to liveness during a period in which the detector is wrong, and name the property of the detector that guarantees the period ends.
+
 (c) State the maximum tolerable crashes if a perfect failure detector were somehow available, and explain the difference in one clause.
 
 <details>

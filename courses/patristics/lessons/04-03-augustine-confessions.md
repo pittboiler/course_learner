@@ -85,6 +85,7 @@ Two lessons, and they point in different directions. As evidence for **what happ
 **P3 (🔴, optional) *(Exegetical (a) · Evaluative (b).)*** Courcelle argued that the garden scene is a literary composition rather than a report.
 
 (a) State what that thesis does and does not claim, and name the two features of the narrative it leans on. One or two sentences.
+
 (b) A writer wants to cite the garden scene to establish that Augustine, in 397–401, held that conversion is God's work rather than the convert's. In 150 words, any verdict: say what the literary-composition thesis does to that use of the passage, and what it would take to defeat the citation.
 
 <details>

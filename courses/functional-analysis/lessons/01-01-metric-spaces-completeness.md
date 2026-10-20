@@ -112,8 +112,11 @@ All three hold, so $d$ is a metric. (General principle: pulling back a metric th
 **P2** Take $x_n = \tfrac1n$ for $n \ge 1$; each $x_n \in (0,1]$. It's Cauchy: $|x_m - x_n| \le \tfrac1{\min(m,n)} \to 0$. In $\mathbb{R}$ it converges to $0$, and limits are unique, so any limit must be $0$ — but $0 \notin (0,1]$. Hence $(x_n)$ is Cauchy in $X$ with no limit in $X$, so $X$ is incomplete. The single missing point is the left endpoint, so the completion is the closed interval $[0,1]$ (it is complete — closed and bounded in $\mathbb{R}$ — and contains $(0,1]$ as a dense subset).
 
 **P3**
+
 (a) $x_1 = 2 \in \mathbb{Q}$. If $x_n \in \mathbb{Q}$ and $x_n > 0$, then $x_{n+1} = \tfrac{x_n}{2} + \tfrac1{x_n}$ is a sum/quotient of rationals with nonzero denominator, hence rational (and positive). By induction every $x_n \in \mathbb{Q}$.
+
 (b) Since $x_n \to \sqrt2$ in $\mathbb{R}$, the sequence converges in $\mathbb{R}$, and every convergent sequence in a metric space is Cauchy (if terms approach a limit, they approach each other: $d(x_m,x_n)\le d(x_m,L)+d(L,x_n)$). The Cauchy property only involves distances *between terms of the sequence*, all of which are rational, so $(x_n)$ is equally Cauchy viewed inside $\mathbb{Q}$. But its only possible limit is $\sqrt2 \notin \mathbb{Q}$, so it does not converge in $\mathbb{Q}$.
+
 (c) It exhibits a *different* Cauchy sequence with the same missing target, showing the hole at $\sqrt2$ is a genuine feature of $\mathbb{Q}$'s metric, not an artifact of how we chose to write $\sqrt2$ as a decimal.
 
 </details>

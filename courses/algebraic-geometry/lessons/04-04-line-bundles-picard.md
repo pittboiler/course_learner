@@ -81,6 +81,7 @@ Then $D-\operatorname{div}(f)=\big(n_\infty+\sum_a n_a\big)[\infty]=(\deg D)[\in
 <summary>Solutions</summary>
 
 **P1** (a) By Example 1 with $n=3$: $L(3[\infty])$ is the polynomials of degree $\le 3$, so $\ell(3[\infty])=4$ with basis $\{1,t,t^2,t^3\}$.
+
 (b) $\deg D=-2<0$, so $\ell(D)=0$ by the master fact. Directly: a nonzero $f\in L(-2[0])$ would need $\operatorname{div}(f)-2[0]\ge0$, i.e. $\operatorname{ord}_0(f)\ge2$ and $\operatorname{ord}_p(f)\ge0$ at every other point — so $f$ has a double zero at $0$ and no poles anywhere. A pole-free rational function on $\mathbb{P}^1$ is a constant, and a nonzero constant has no zeros; contradiction. Hence $L(D)=\{0\}$, $\ell(D)=0$.
 
 **P2** $D=[0]+[\infty]$ has $\deg D=2$. A function $f\in L(D)$ may have a pole of order $\le1$ at $0$, a pole of order $\le1$ at $\infty$, and no poles elsewhere. Functions on $\mathbb{P}^1$ with poles confined to $\{0,\infty\}$ are the Laurent polynomials $\sum_k c_k t^k$. The monomial $t^k$ has $\operatorname{ord}_0(t^k)=k$ (pole at $0$ iff $k<0$, of order $-k$) and $\operatorname{ord}_\infty(t^k)=-k$ (pole at $\infty$ iff $k>0$, of order $k$). The budget "pole order $\le1$ at each" forces $-k\le1$ and $k\le1$, i.e. $-1\le k\le1$. So

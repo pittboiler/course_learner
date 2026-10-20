@@ -119,7 +119,9 @@ Each theory strains in a different place.
 **P1 (🟢) *(Exegetical.)*** For each claim, name the theory of worlds it belongs to and state the commitment it carries. One or two sentences each.
 
 (a) "Our world is actual in just the sense that this room is here."
+
 (b) "Every world but one is an abstract object, and not a single one of them has any donkeys in it — only propositions about donkeys."
+
 (c) "You did not win, but someone sufficiently like you did, and that is the whole content of 'you could have won'."
 
 **P2 (🟡) *(Exegetical (a) · Evaluative (b).)*** An invented passage from a popular-science column:

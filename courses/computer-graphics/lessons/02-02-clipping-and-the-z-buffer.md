@@ -119,18 +119,27 @@ This is why engines set the near plane as far out as the camera can tolerate, an
 ## Problems
 
 **P1 (🟢)** One pixel starts with depth $1.0$ and a black background. Three fragments arrive in this order: red at depth $0.62$, green at $0.35$, blue at $0.48$.
+
 (a) Give the depth and colour after each fragment, and the final colour.
+
 (b) How many buffer writes happened? How many would happen if the fragments arrived in the order green, blue, red? In the order red, blue, green?
 
 **P2 (🟡)** Same projection as Example 1 ($n = 1$, $f = 10$, $90°$, aspect 1). An edge runs from eye-space $\mathbf{p} = (1, 2, -3)$ to $\mathbf{q} = (3, -2, 1)$.
+
 (a) Give both endpoints in clip space and their near-plane distances $d = z + w$.
+
 (b) Find the crossing parameter $t$ and the clip-space crossing point. Check that it corresponds to the eye-space point on the edge at the same $t$.
+
 (c) Give the NDC of the crossing point. What will happen to it next?
+
 (d) What NDC $x$ would you have got by dividing $\mathbf{q}$ directly?
 
 **P3 (🔴)** A flight simulator uses $n = 0.5$ m, $f = 500$ m and a 24-bit depth buffer.
+
 (a) Find the depth resolution $\Delta D$ at 10 m and at 400 m.
+
 (b) Beyond what distance does $\Delta D$ exceed 1 cm?
+
 (c) A designer proposes $n = 0.05$ m "so the cockpit glass doesn't clip." What does that do to the 1 cm distance in (b)?
 
 <details>
@@ -184,8 +193,11 @@ $$D^2 = \frac{0.01}{1.191 \times 10^{-7}} = 83{,}970, \qquad D \approx \mathbf{2
 ## Flashback
 
 **From Lesson 1.5 (projection):** An orthographic camera uses the box $l = -4$, $r = 4$, $b = -3$, $t = 3$, $n = 1$, $f = 21$.
+
 (a) Write $P_{\text{ortho}}$.
+
 (b) Find the NDC of the eye-space point $(2, -1.5, -6)$.
+
 (c) Move the point to $(2, -1.5, -16)$. What happens to its NDC $x$ and $z$, and how does that differ from what a perspective camera would do?
 
 <details>

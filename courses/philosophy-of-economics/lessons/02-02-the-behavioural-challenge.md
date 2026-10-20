@@ -100,7 +100,9 @@ Here the tool strains, twice. First, the pump assumes one price serves as both b
 **P1 (🟢) *(Formal.)*** A person has quasi-hyperbolic preferences with $\beta=0.6$, $\delta=1$, and linear utility. Going to the gym at date 1 costs her 10 (effort, at date 1) and yields a health benefit of 14 (at date 2). Not going yields 0.
 
 (a) At date 0, does she plan to go at date 1? At date 1, does she go? Show both values.
+
 (b) Keeping $\delta=1$, for which values of $\beta$ does this reversal occur?
+
 (c) Show that an exponential discounter with $\delta=0.9$ ($\beta=1$) makes the same decision at date 0 and date 1, and say why that must hold.
 
 **P2 (🟡) *(Exegetical (a) · Evaluative (b).)*** An **invented** memo from a consumer-protection office, not the words of any real agency:
@@ -108,11 +110,13 @@ Here the tool strains, twice. First, the pump assumes one price serves as both b
 > "Subscribers shown a health plan described as 'approves 90 percent of claims' signed up at twice the rate of subscribers shown 'denies 10 percent of claims'. The descriptions are logically equivalent, so one group chose against its true preferences. Insurers should be required to use the 'denies' wording, which shows subscribers their real risk."
 
 (a) Which reading of the framing effect does the memo assume, and which premise of the lesson's irrationality argument does it take for granted? Name one further assumption its recommendation needs that the data cannot supply. Two or three sentences.
+
 (b) In 100 words or fewer, state the strongest misspecified-model reading of the same data and say what it does to the recommendation. Any verdict passes.
 
 **P3 (🔴, optional) *(Formal (a) · Evaluative (b).)*** Every January (date 0) a worker says he will save his March bonus. The bonus arrives at date 1: spent then, it gives him 100; saved, it gives him 125 at date 2. Utility is linear, $\delta=1$, and he has quasi-hyperbolic preferences with unknown $\beta$. In January he pays a fee of 5, at once, for an account that saves the bonus automatically.
 
 (a) Assume he is sophisticated. For which $\beta$ do all three facts fit: he prefers saving when planning at date 0, he correctly foresees that without the account he would spend at date 1, and he pays the fee?
+
 (b) A critic says the fee proves present bias, and so a mistake at date 1. In 120 words or fewer, give a reading on which paying the fee is fully rational, and say whether the fee alone can tell that reading apart from present bias. Any verdict passes.
 
 <details>
@@ -178,6 +182,7 @@ Here the tool strains, twice. First, the pump assumes one price serves as both b
 **From Lesson [1.3](01-03-capabilities-as-a-welfare-metric.md) (Capabilities as a welfare metric):** *(Formal (a) · Exegetical (b).)* Two illustrative districts have (health, education, income) indices E = (0.92, 0.84, 0.36) and F = (0.64, 0.64, 0.64).
 
 (a) Compute each district's power mean $M_r$ with equal weights at $r=1$ (arithmetic), $r=0$ (geometric) and $r=-1$ (harmonic, $M_{-1}=3/\sum_k 1/I_k$), and the minimum index (the limit $r\to-\infty$). Say which district ranks first under each.
+
 (b) In two sentences: what single indexing choice decides the ranking here, and which of these aggregators sits closest to a Nussbaum-style threshold view, and why?
 
 <details>

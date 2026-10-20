@@ -82,11 +82,13 @@ Its weight is $mg = 5(9.8) = 49\ \mathrm{N}$, so the floor pushes with $59\ \mat
 *Sanity check:* set $a = 0$ and $N = mg = 49\ \mathrm{N}$, the resting value — correct. Bigger upward $a$ gives bigger $N$, matching the elevator-lurch feeling. Units: $\mathrm{kg}\cdot\mathrm{m/s^2} = \mathrm N$. ✓
 
 **P2** (a) The contact pair: the **table pushes up on the book** (normal force, acting *on the book*) and the **book pushes down on the table** (acting *on the table*). Equal magnitude, opposite direction, on two different bodies — a genuine third-law pair.
+
 (b) **No, not the same pair.** The book's equilibrium comes from the two forces acting *on the book*: the table's normal push up, and Earth's gravity (weight) pulling it down. Those sum to zero because they're both on the same body. The (a) pair can't be responsible — one of its members (book-on-table) doesn't even act on the book. The reaction partner of the book's weight is the *book pulling Earth upward*, which acts on Earth, not the book.
 *Sanity check:* a correctly identified third-law pair always has its two arrows on two different free-body diagrams; two forces that cancel in one FBD are never a third-law pair. Both statements hold here. ✓
 
 **P3** Treat the two blocks as one system of mass $m_1 + m_2 = 5$ kg. The only horizontal force on the system is $F$:
 $$a = \frac{F}{m_1 + m_2} = \frac{10}{5} = 2\ \mathrm{m/s^2}.$$
+
 (b) Now isolate $m_2$ alone. The only horizontal force on it is the contact push $C$ from $m_1$:
 $$C = m_2\,a = 3(2) = 6\ \mathrm{N}.$$
 If instead you push $m_2$ from the right, the contact force must accelerate $m_1$: $C' = m_1 a = 2(2) = 4\ \mathrm{N}$ — *different*, because the contact force only has to move whatever block is on the far side of the contact.

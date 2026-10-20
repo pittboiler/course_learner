@@ -75,7 +75,9 @@ Contrast $S_3$ (symmetries of the triangle, $=D_3$). Checking each non-identity 
 ## Problems
 
 **P1 (🟢)** For each subset, use the subgroup test to decide if it's a subgroup; if not, name the exact axiom that fails.
+
 (a) The even integers $2\mathbb{Z} = \{\dots,-2,0,2,4,\dots\}$ inside $(\mathbb{Z},+)$.
+
 (b) $E = \{\,g \in D_4 : g \text{ has even order}\,\}$ inside $D_4$ (recall order = smallest $n$ with $g^n=e$; the identity has order $1$).
 
 **P2 (🟡)** List all $10$ subgroups of $D_4$, organized by order. (Use the presentation from Example 1; you may cite the finite shortcut.)

@@ -87,6 +87,7 @@ So the optimality condition becomes $u'(c_1) = u'(\bar c_2) + \tfrac12 u'''(\bar
 <summary>Solutions</summary>
 
 **P1.**
+
 (a) CRRA: $u'=c^{-\gamma}$, $u''=-\gamma c^{-\gamma-1}$, $u'''=\gamma(\gamma+1)c^{-\gamma-2}$. Then
 $$P(c) = -\frac{u'''}{u''} = -\frac{\gamma(\gamma+1)c^{-\gamma-2}}{-\gamma c^{-\gamma-1}} = \frac{(\gamma+1)}{c} = \frac{\gamma+1}{c}.$$
 Risk aversion is $A(c) = -\frac{u''}{u'} = \frac{\gamma c^{-\gamma-1}}{c^{-\gamma}} = \frac{\gamma}{c}$. So for CRRA, **prudence exceeds risk aversion by exactly $1/c$**: $P = A + 1/c = (\gamma+1)/c$. Both decline in $c$ — richer households are less prudent and less risk-averse in absolute terms (constant in *relative* terms: $cP=\gamma+1$, $cA=\gamma$).

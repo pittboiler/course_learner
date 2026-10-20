@@ -133,6 +133,7 @@ For each: name the error, name the heresy or false conclusion it lands in if pre
 > "The strength of this book is that it finally makes the Trinity intelligible. The author shows that every human mind is already a trinity — memory, understanding and will, three in one — and that this is why the doctrine had to be true: once you have seen the structure in yourself, three-in-one stops being a mystery and becomes a necessity. The Church's teaching that God is triune is, in the end, her endorsement of Augustine's discovery, and a Catholic is bound to hold it in exactly that form."
 
 (a) Name the **two errors of level** — one about the analogy, one about the dogma — and say what fixes each. One sentence each.
+
 (b) The review also treats the analogy as establishing the doctrine. Say what is wrong with that, and name one break in Book 15 at which the structure itself fails to match. **Two sentences.**
 
 <details>

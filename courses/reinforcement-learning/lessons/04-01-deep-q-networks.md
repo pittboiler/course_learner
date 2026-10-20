@@ -112,22 +112,31 @@ The mechanism is exactly [Lesson 2.5](02-05-q-learning-off-policy-td-control.md)
 $$Q(s',\cdot\,;\theta^-) = (0.5,\ 3.0,\ 1.0), \qquad Q(s',\cdot\,;\theta) = (0.8,\ 2.6,\ 3.4).$$
 
 (a) Compute the DQN target and its TD error.
+
 (b) Compute the Double DQN target and its TD error.
+
 (c) State which is larger and explain why they differ here.
+
 (d) State the condition under which the two targets always coincide.
 
 **P2 (🟡)** DQN uses a replay buffer of $10^6$ transitions and a target network copied every $10^4$ steps, and acts once per step.
 
 (a) If the agent has collected $4\times10^6$ transitions, state the age range of the transitions in the buffer.
+
 (b) Compute how many target-network copies occur while the buffer turns over once.
+
 (c) A colleague raises the copy interval to $10^6$ steps. State the effect on stability and on learning speed.
+
 (d) A second colleague shrinks the buffer to $10^3$. State which of the three benefits of replay is most damaged and why.
 
 **P3 (🔴)** DQN is off-policy but uses **no importance sampling**, even though its replay buffer contains actions chosen by older policies.
 
 (a) State the property of Q-learning's target that makes this legitimate, recalling [Lesson 2.6](02-06-off-policy-learning-importance-sampling.md).
+
 (b) Now consider replacing the one-step target with a $3$-step return computed from three consecutive stored transitions. State precisely which of the actions in it would need correcting.
+
 (c) Explain why practitioners nevertheless often use $n$-step returns in replay-based agents without any correction, and what they are trading away.
+
 (d) Identify the remaining distributional mismatch that even the one-step target does not remove, and name the requirement it imposes.
 
 <details>
@@ -200,8 +209,11 @@ The requirement this imposes is [Lesson 2.5](02-05-q-learning-off-policy-td-cont
 **From Lesson 3.2 (Control with approximation, and the deadly triad):** For each of the following, state which of the three legs are present and whether divergence is possible.
 
 (a) DQN with the replay buffer removed, training on the current transition only.
+
 (b) DQN with the $\max$ replaced by the value of the action actually stored (an on-policy-flavoured target), still using replay.
+
 (c) Gradient Monte Carlo with a network, trained on a replay buffer of complete episodes.
+
 (d) State which of (a)–(c) you would expect to be most stable, and whether stability is the only thing that matters.
 
 <details>

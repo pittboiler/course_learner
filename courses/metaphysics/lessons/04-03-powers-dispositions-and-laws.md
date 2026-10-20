@@ -163,7 +163,9 @@ Now the strain. Take a **thin world**: a single particle drifting uniformly, for
 **P1 (🟢) *(Exegetical.)*** Three cases. For each, say whether it is a **fink**, a **mask/antidote**, a **mimic**, or none of these; say in one clause *why*, naming what happens to the causal basis; and say what the simple conditional analysis delivers as against the truth.
 
 (a) A lithium cell is disposed to ignite when punctured. This one is submerged in an inert, non-conductive coolant that quenches the reaction the moment the casing is pierced; the cell's chemistry is unaltered and it ignites normally once drained and punctured on the bench.
+
 (b) A superconducting coil carries current with zero resistance below its critical temperature. A monitoring circuit is set to inject a heat pulse the instant any measurement lead is attached, warming the coil above that temperature before any reading is taken.
+
 (c) A wine glass is annealed rather than tempered and genuinely is fragile — disposed to break when struck a sharp blow. A curator lifts it, sets it down gently on a felt pad, and it does not break.
 
 **P2 (🟡) *(Exegetical (a) · Evaluative (b).)*** An invented paragraph from a popular physics book:
@@ -229,6 +231,7 @@ Steelman Armstrong's reply in 100 words or fewer — the best version, not the s
 Every loaf baked on the Tuesday overnight shift comes out dense — no exceptions in three years. It is also true that a loaf comes out dense whenever the starter culture is under-active, the proof room runs below 22 degrees, and the baker does not extend the proof time to compensate. The Tuesday shift, as it happens, is the only one that draws from the older of the bakery's two starter cultures.
 
 (a) Give a sufficient cluster of conditions for a dense loaf, name the conjunct that is the **INUS condition** we would cite as *the* cause, and state the **causal field**. Then say what the Tuesday regularity is an instance of among 4.1's four standard problems, and whether the INUS account by itself excludes it.
+
 (b) A colleague proposes to exclude Tuesday by appeal to the best-system account taught in this lesson. Does that work here, and what does it assume? **120 words or fewer for (b).**
 
 <details>

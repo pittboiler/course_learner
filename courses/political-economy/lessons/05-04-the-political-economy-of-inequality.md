@@ -113,17 +113,21 @@ Use 5.3's preferences throughout: $V(t;y) = \tfrac12(1-t)^2 y + t(1-t)\bar y$, w
 **P1 (🟢)** *(Formal (a)–(b).)* Four groups have population shares 30%, 30%, 20%, 20% and zero-tax incomes $y = 2, 4, 9, 42$. Their turnout rates are 40%, 60%, 80%, 90%.
 
 (a) Find the rate the median citizen prefers and the rate chosen by majority among those who vote.
+
 (b) The top income rises to 52, turnout unchanged. Recompute both rates. Which rises more? One sentence on why.
 
 **P2 (🟡)** *(Formal (a)–(b) · Exegetical (c).)* Three equal classes have $y = 1, 4, 10$, so $\bar y = 5$. Between periods the poor stay; a middle earner rises to 10 with probability $p$; a rich earner falls to 4 with probability $p$ ($0 < p < \tfrac12$). A tax chosen today applies today and next period. Each voter weights the two periods equally and evaluates next period by expected utility.
 
 (a) Show that voter $i$'s preferred rate is $t(\tilde y_i)$ with $\tilde y_i = \tfrac12(y_i + E[y_i'])$, and find the majority rate as a function of $p$.
+
 (b) Find the smallest $p$ at which the majority chooses no redistribution, and the rate at $p = 1/5$.
+
 (c) Bénabou and Ok name three premises. Which one does this toy check, and which two does it simply assume? What is the majority rate if the tax is reset every period? (60 words or fewer.)
 
 **P3 (🔴, optional)** *(Formal (a)–(b).)* Probabilistic voting with two groups: 70% have $y = 4$, 30% have $y = 24$, with ideological densities $\phi_P$ and $\phi_R$. Interiority holds.
 
 (a) Find the equilibrium rate when $\phi_P = 3\phi_R$, and compare it with Meltzer–Richard's.
+
 (b) Prove that $t^* > 0$ if and only if $\phi_P > \phi_R$, and find the limit of $t^*$ as $\phi_P/\phi_R \to \infty$.
 
 <details>

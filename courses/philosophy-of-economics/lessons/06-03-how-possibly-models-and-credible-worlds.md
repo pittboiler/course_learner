@@ -76,7 +76,9 @@ Why is this hard? The minimal reading is secure: mutually beneficial trade can c
 **P1 (🟢) *(Formal (a), (b) · Exegetical (c).)*** Ten agents sit on a ring (position 10 is next to position 1): $X\,X\,O\,X\,O\,O\,X\,O\,X\,O$ at positions 1 to 10. Each agent's neighbours are the two adjacent agents; an agent is content if at least half its neighbours share its type.
 
 (a) Give each agent's like-neighbour share, the average share, and the list of unhappy agents.
+
 (b) The agents at positions 3 and 7 swap places. Recompute the average share and the unhappy list.
+
 (c) In two sentences: what kind of explanation could a full simulation along these lines provide, and of what?
 
 **P2 (🟡) *(Exegetical.)*** An **invented** methodology preface, not the words of any real author:

@@ -150,13 +150,17 @@ $$u = K_p e + K_i\!\int\! e\,d\tau \;-\; K_d\frac{dy}{dt}.$$
 **P1 (🟢)** For each symptom, name the term to add or increase, say in one sentence *why* it fixes it, and name the price you pay.
 
 (a) A tank-level loop under proportional-only control settles 4 cm below setpoint and sits there indefinitely.
+
 (b) A different loop tracks setpoint perfectly in steady state but overshoots 40 percent and rings for several cycles.
+
 (c) After the fix in (b), the control valve buzzes audibly and the actuator command is visibly fuzzy.
 
 **P2 (🟡)** A type-0 plant $G(s) = \dfrac{4}{(s+2)(s+4)}$ sits in a unity-feedback loop with proportional control $G_c = K_p$.
 
 (a) With $K_p = 6$, find the steady-state error to a unit step.
+
 (b) Find the smallest $K_p$ meeting a spec of $e_{ss} \le 0.05$, then compute $\zeta$ and the percent overshoot at that gain.
+
 (c) In one sentence, say what you'd do instead and why it's better.
 
 **P3 (🔴)** Plant $G(s) = \dfrac{1}{s+1}$ with PI control $G_c(s) = K_p + \dfrac{K_i}{s}$ in unity feedback. Find $K_p$ and $K_i$ that place the closed-loop poles at $\omega_n = 4$ rad/s with $\zeta = 0.7$. Then explain why the actual step overshoot is not the 4.6 percent the second-order formula predicts.

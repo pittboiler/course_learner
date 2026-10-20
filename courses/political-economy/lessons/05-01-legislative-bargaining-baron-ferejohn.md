@@ -85,12 +85,15 @@ Check the guess: $3/8 > 5/16$, so members 2 and 3 are right to skip the Speaker.
 **P1 (🟢)** *(Formal.)* Three legislators divide a dollar under a closed rule with equal recognition and $\delta = 3/5$.
 
 (a) Find the stationary equilibrium proposal, the proposer's share, and each member's ex ante value, and check that the values are consistent.
+
 (b) Show that neither of these proposer deviations pays: offering her partner $0.15$; buying both other votes.
+
 (c) Find the proposer's share as $\delta \to 1$, and say in one sentence why it does not tend to one half.
 
 **P2 (🟡)** *(Formal.)* Three legislators, closed rule, $\delta = 3/4$. Member 1 is recognized with probability $1/5$, members 2 and 3 with $2/5$ each.
 
 (a) Suppose proposers 2 and 3 always buy member 1's vote, and proposer 1 buys member 2 or member 3 with probability $1/2$ each. Compute the stationary values these strategies imply, and show that they contradict the proposers' choices.
+
 (b) Show that values $v_1 = v_2 = v_3 = 1/3$ are consistent with equilibrium. Give each proposer's offer and share, and, assuming proposer 1 splits $1/2$–$1/2$ and proposers 2 and 3 mirror each other, find the probability that proposer 3 buys member 2's vote rather than member 1's.
 
 **P3 (🔴, optional)** *(Exegetical.)* An invented memo from a committee chair's aide: "When the chair writes the district-projects bill, she should pay off as many members as she can. Every extra yes vote is insurance, and it costs her nothing, since members she leaves out get nothing anyway."

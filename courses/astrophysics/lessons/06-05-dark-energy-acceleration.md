@@ -101,11 +101,15 @@ $$\left(\frac{\dot a}{a}\right)^2 = \frac{8\pi G}{3}\rho_\Lambda = \text{const} 
 ## Problems
 
 **P1 (🟢)** Use the flat-universe budget $\Omega_\Lambda\approx0.68$, $\Omega_{\rm DM}\approx0.27$, $\Omega_{\rm baryon}\approx0.05$.
+
 (a) Verify $\Omega_{\rm total}\approx1$ and give the total matter fraction $\Omega_m$.
+
 (b) Matter density scales as $\rho_m\propto a^{-3}$ while $\rho_\Lambda$ is constant. Find the scale factor $a$ and redshift $z$ of matter–$\Lambda$ *equality* by setting $\Omega_m\,a^{-3}=\Omega_\Lambda$. (Recall $a=1/(1+z)$.)
 
 **P2 (🟡)** Starting from the acceleration equation with a single component of equation of state $p=w\rho c^2$:
+
 (a) Show that $\ddot a>0$ requires $w<-\tfrac13$.
+
 (b) Using the fluid equation $\dot\rho + 3\frac{\dot a}{a}(\rho+p/c^2)=0$, show that $\rho\propto a^{-3(1+w)}$, and confirm that $w=-1$ gives constant energy density.
 
 **P3 (🔴, optional)** Argue that a cosmological constant with *any* positive density $\rho_\Lambda$, however small, must eventually dominate a universe that also contains matter ($\rho_m\propto a^{-3}$) and radiation ($\rho_r\propto a^{-4}$), and describe the resulting far future. Address explicitly: (i) why the *smallness* of $\rho_\Lambda$ only delays but cannot prevent its dominance, and (ii) what the expansion history $a(t)$ looks like once $\Lambda$ has won.

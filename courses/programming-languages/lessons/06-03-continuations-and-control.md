@@ -123,21 +123,29 @@ and `next()` on the consumer side does the mirror image: save the consumer's con
 **P1 (🟢)** CPS-convert each definition.
 
 (a) $\mathsf{double}\ x = x \times 2$
+
 (b) $\mathsf{inc4}\ x = \mathsf{double}\ (x+2)$
+
 (c) $\mathsf{plus1}\ x = 1 + \mathsf{double}\ x$
+
 (d) $\mathsf{comp}\ x = \mathsf{double}\ (\mathsf{double}\ x)$
 
 **P2 (🟡)** For each call, say whether it is in tail position, and state the stack depth of evaluating the function on input $n$ with tail-call elimination and without.
 
 (a) `fact n = if n == 0 then 1 else n * fact (n-1)`
+
 (b) `factAcc n a = if n == 0 then a else factAcc (n-1) (n*a)`
+
 (c) `len xs = case xs of Nil -> 0; Cons _ r -> 1 + len r`
 
 **P3 (🔴)** Consider `callcc (\k -> 1 + k 10)`.
 
 (a) Give its value, and say what happens to the `1 +`.
+
 (b) Give the value of `1 + callcc (\k -> k 10)` and explain the difference from (a).
+
 (c) Give the value of `callcc (\k -> 1 + 10)` — note `k` is unused — and state the general rule your three answers illustrate.
+
 (d) `callcc` has type $((\tau\to\sigma)\to\tau)\to\tau$. State which logical law this is, whether it is intuitionistically provable, and what its presence does to the logic the language corresponds to.
 
 <details>
@@ -206,6 +214,7 @@ Its presence makes the language correspond to **classical** rather than intuitio
 **From Lesson 4.2 (Type checking and the Curry-Howard correspondence):** P1(c) gave $\lambda x.\lambda f.\ f\,x$ as an inhabitant of $\alpha \to (\alpha\to\beta)\to\beta$, and P3(a) gave the *same term* as an inhabitant of $\alpha \to \neg\neg\alpha$, where $\neg\tau = \tau \to \mathsf{Void}$.
 
 (a) State the relationship between that term and the CPS transform of a value, reading the type.
+
 (b) Use it to say what the CPS transform does to a *program's type*, and name the logical translation this coincides with.
 
 <details>

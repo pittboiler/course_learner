@@ -103,6 +103,7 @@ Where it strains: fitting a pattern with an extra free function is cheap, and a 
 **P1 (🟢)** *(Formal (a)–(b).)* An agent has risk function $r(p) = p^{3/2}$. Lottery $L$ pays 0 dollars with probability $7/16$, 100 with $5/16$, and 400 with $1/4$. Set $u(0) = 0$, $u(100) = 1$, $u(400) = v > 1$.
 
 (a) Compute $\mathrm{REU}(L)$ as a function of $v$, and find every $v$ for which she strictly prefers 100 dollars for sure to $L$. Do the same for an expected-utility maximizer with the same $u$.
+
 (b) Suppose her utility is linear in money, so $v = 4$. Which does each agent choose, and what does the comparison show? Two sentences.
 
 **P2 (🟡)** *(Exegetical (a)–(b).)* An **invented** paragraph from a finance blog, not the words of any real author:
@@ -110,11 +111,13 @@ Where it strains: fitting a pattern with an extra free function is cheap, and a 
 > "Prospect theory beats expected utility at predicting what investors do, so it is the better theory of rational investing. Loss-averse investors are simply more rational than economists assumed. And since Quiggin and Buchak use the same formula, their work just confirms Kahneman and Tversky."
 
 (a) Name the conflation in the first two sentences, using the lesson's three kinds of claim. Two sentences.
+
 (b) What is wrong with the third sentence? Say what the shared formula is and what each author does with it. Three sentences or fewer.
 
 **P3 (🔴, optional)** *(Formal (a) · Exegetical (b).)* Ana strictly prefers 40 dollars for sure to a fair coin flip paying 100 or 0. An EU theorist says this shows her utility of money is concave. A Buchak-style theorist says Ana may value money linearly and avoid risk.
 
 (a) Normalize $u(0) = 0$, $u(100) = 1$. What must hold of $u(40)$ for an expected-utility model to fit her choice? With linear $u$, $u(x) = x/100$, what must hold of $r(1/2)$ for an REU model to fit? Is $r(p) = p^2$ enough?
+
 (b) Find the crux: the single premise the two theorists split on over this one choice, and what further choices of Ana's could put pressure on the EU side. 120 words or fewer.
 
 <details>
@@ -183,7 +186,9 @@ REU with linear $u$: $\mathrm{REU}(\text{flip}) = u(0) + r(\tfrac12)(1 - 0) = r(
 **From Lesson [2.2](02-02-probability-from-preference.md) (Probability from preference):** *(Formal (a)–(b) · Exegetical (c).)* A farmer faces three states next season: Drought, Normal and Flood, with credences 0.2, 0.6 and 0.2. Her utility of money is linear, but money is worth twice as much to her in a drought: in the notation $\lambda_s u(x)$, $\lambda_{\text{Drought}} = 2$ and $\lambda_{\text{Normal}} = \lambda_{\text{Flood}} = 1$.
 
 (a) Three policies each pay 1,200 dollars in one state and nothing otherwise. Find the sure amount she takes as equivalent to each.
+
 (b) An analyst assumes state-independent linear utility and reads her credences off these three prices. What numbers does he report, and do they sum to 1? Which states does he overrate and which underrate? Why is Flood misread, when money is worth the same to her there as in a Normal year?
+
 (c) Could any further choice of hers, among acts paying money on these three states, expose the analyst's error? One sentence.
 
 <details>

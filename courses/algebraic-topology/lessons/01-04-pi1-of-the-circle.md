@@ -86,6 +86,7 @@ Hence $\deg(\gamma)=3$. The $-\sin(2\pi t)$ term wobbles the shadow up and down 
 <summary>Solutions</summary>
 
 **P1.** (a) $\alpha(t)=e^{2\pi i(-3t)}=p(-3t)$, and $-3t$ is continuous with value $0$ at $t=0$, so by uniqueness $\tilde\alpha(t)=-3t$. Endpoint $\tilde\alpha(1)=-3$, so $\deg\alpha=-3$ and $[\alpha]=[\omega_1]^{-3}$ (three clockwise laps).
+
 (b) Multiplicativity of $p$ gives $\beta(t)=p(t^2+t)$; the exponent $\tilde\beta(t)=t^2+t$ is continuous with $\tilde\beta(0)=0$, hence is the lift. Endpoint $\tilde\beta(1)=1+1=2$, so $\deg\beta=2$ and $[\beta]=[\omega_1]^2$. (The $t^2$ term speeds the climb non-uniformly but the net height is what counts.)
 
 **P2.** *Not simply connected:* simply connected means $\pi_1$ trivial. But $\pi_1(S^1)\cong\mathbb{Z}\ne 0$ (e.g. $[\omega_1]$ has infinite order and is $\ne$ identity), so $S^1$ is not simply connected. Concretely, the identity loop $\omega_1$ is not nullhomotopic because its degree is $1\ne 0$, and degree is a homotopy invariant.

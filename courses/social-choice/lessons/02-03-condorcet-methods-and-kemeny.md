@@ -167,6 +167,7 @@ since $x$ beats $y$. Then $R$ was not a maximizer, a contradiction. Nothing abou
 | **C** | | | 9–2 |
 
 (a) Without the ballots, compute every Borda $(3, 2, 1, 0)$ score and name the Borda winner.
+
 (b) Name the Condorcet winner and the Condorcet loser, and check each against the mean Borda score used in the proof of 2.1's Corollary. Two sentences for (b).
 
 <details>

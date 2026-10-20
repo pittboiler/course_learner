@@ -100,12 +100,14 @@ Check: half-width $1.568 > 0$ and the interval is symmetric about $\bar X = 50$.
 **P2** (a) Only the multiplier changes to $z_{0.005} = 2.576$: margin $= 2.576 \times 0.8 = 2.061$, giving
 $$50 \pm 2.061 = (47.94,\ 52.06).$$
 Its half-width $2.061 > 1.568$, so the 99% interval is indeed wider than the 95% one — more confidence, more width. ✓
+
 (b) Require $1.96 \times \dfrac{8}{\sqrt n} \le 1$. Then $\sqrt n \ge 1.96 \times 8 = 15.68$, so $n \ge 15.68^2 = 245.86$; round **up** to $n = 246$.
 Check: at $n = 246$, margin $= 1.96 \times 8/\sqrt{246} = 15.68/15.684 \approx 0.9997 \le 1$; at $n = 245$ it would be $\approx 1.0018 > 1$, so $246$ is the smallest that works. ✓
 
 **P3** (a) With $\sigma$ unknown we use the $t$-distribution with $n - 1 = 15$ degrees of freedom. The critical value is $t_{15,\,0.025} = 2.131$. Standard error $= s/\sqrt n = 10/\sqrt{16} = 10/4 = 2.5$, so the margin is
 $$2.131 \times 2.5 = 5.328, \qquad 112 \pm 5.328 = (106.67,\ 117.33).$$
 (Note $t_{15,0.025} = 2.131 > 1.96$: the interval is wider than a $z$-interval would be, paying for not knowing $\sigma$.)
+
 (b) **Correct:** if we repeated this sampling-and-interval procedure many times, about 95% of the intervals produced would contain the true mean tensile strength $\mu$. **Not:** it does *not* mean there is a 95% probability that $\mu$ lies in the specific interval $(106.67, 117.33)$ — $\mu$ is a fixed constant, so it is either in this interval or not.
 Check: symmetric about $\bar X = 112$, and using $t_{15} > z$ correctly widens the interval for the unknown-$\sigma$ case. ✓
 
@@ -119,7 +121,9 @@ Check: symmetric about $\bar X = 112$, and using $t_{15} > z$ correctly widens t
 <summary>Solution</summary>
 
 (a) The point estimate is $\bar X = 12.4$ volts. The sample mean is **unbiased**: $\mathbb{E}[\bar X] = \mu$ for any $n$, so on average it hits the target (from [4.1](04-01-estimation-and-mle.md)).
+
 (b) Standard error $= \sigma/\sqrt n = 2/\sqrt{25} = 2/5 = 0.4$ volts.
+
 (c) The standard error scales like $\sigma/\sqrt n \propto 1/\sqrt n$. To halve it, $\sqrt n$ must double, so $n$ must increase by a factor of $\mathbf{4}$ (e.g. $25 \to 100$).
 Check: at $n = 100$, SE $= 2/\sqrt{100} = 0.2 = 0.4/2$. ✓
 

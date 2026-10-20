@@ -94,8 +94,11 @@ The rule of thumb you can carry out of Module 1: **count time derivatives for ho
 <summary>Solutions</summary>
 
 **P1**
+
 (a) **Hyperbolic** → Cauchy data $u(x,0)=f(x),\ u_t(x,0)=g(x)$ on $0<x<\pi$, plus boundary conditions at $x=0,\pi$ for $t>0$. Two time-derivatives demand two initial conditions (position and velocity), and the finite interval needs its ends pinned.
+
 (b) **Elliptic** → boundary data on the *entire* circle $\partial\{x^2+y^2=1\}$: either $u$ prescribed (Dirichlet) or the normal derivative $u_n$ (Neumann). There is no time direction, so the whole closed boundary fixes the interior.
+
 (c) **Parabolic** → initial data $u(x,0)=f(x)$ plus boundary conditions at $x=0,1$ for all $t>0$, evolving forward in $t$ only. One time-derivative → one initial condition; diffusion is irreversible so it runs forward.
 
 **P2** The characteristics through $(x_0,t_0)=(5,3)$ are $x \pm c\,t = \text{const}$ with $c=2$, hitting $t=0$ at $x_0 \pm c\,t_0 = 5 \pm 6$. So $u(5,3)$ depends only on the initial data on $[\,-1,\ 11\,]$.
@@ -103,6 +106,7 @@ The rule of thumb you can carry out of Module 1: **count time derivatives for ho
 Changing the data near $x=12$ has **no effect** on $u(5,3)$: $x=12$ lies outside the domain of dependence $[-1,11]$, and signals travel at speed $c=2$, so at $t=3$ a disturbance from $x=12$ has reached only as far in as $12 - 2\cdot 3 = 6 > 5$ — it hasn't arrived.
 
 **P3**
+
 (a) $\partial_t u_n = \tfrac1n(-n^2)e^{-n^2t}\sin(nx) = -n\,e^{-n^2t}\sin(nx)$ and $\partial_{xx}u_n = \tfrac1n e^{-n^2t}(-n^2)\sin(nx) = -n\,e^{-n^2t}\sin(nx)$, so $u_t=u_{xx}$. ✓ At $t=0$, $u_n(x,0)=\tfrac1n\sin(nx)$ has amplitude $\tfrac1n \to 0$, so the initial data is uniformly small.
 
 (b) A mode of the heat equation with spatial shape $\sin(nx)$ must be $u(x,t)=A\,e^{-n^2 t}\sin(nx)$ for a constant $A$. Imposing $u(x,T)=\tfrac1n\sin(nx)$ gives $A\,e^{-n^2 T}=\tfrac1n$, so $A = \tfrac1n e^{+n^2 T}$ and

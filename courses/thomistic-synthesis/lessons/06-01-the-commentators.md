@@ -82,6 +82,7 @@ This lesson takes no side, and cannot: the whole dispute is a [school thesis](..
 **P1 (🟢) *(Exegetical.)*** Assign the level of each claim, naming the act or text that fixes it, and do not overstate in either direction. Use the ladder in [`fundamental-theology` 4.4](../../fundamental-theology/lessons/04-04-the-ladder-of-doctrinal-authority.md). **One or two sentences each.**
 
 (a) In every creature essence and *esse* are really distinct.
+
 (b) A study guide written for this problem states: "Leo XIII had Cajetan's commentary printed with the *Summa* in the Leonine edition, so Cajetan's readings carry the Church's authority."
 
 **P2 (🟡) *(Exegetical.)*** The essentialism charge (C1–C4) and the genre defence (R1–R4) are not simply opposed: the defence grants part of the charge. (a) Name the premise the defence concedes and the single claim the two sides actually part on. (b) Say what kind of evidence would move someone on that claim, and name one thing that would *not*, because both sides already grant it. **150 words or fewer in total.**

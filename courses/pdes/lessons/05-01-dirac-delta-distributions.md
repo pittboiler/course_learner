@@ -88,6 +88,7 @@ A tent — a straight kink with a corner at the source. That corner *is* the poi
 ## Problems
 
 **P1 (🟢)** Evaluate each:
+
 (a) $\displaystyle\int_{-\infty}^{\infty} \delta(x-\pi)\cos x\,dx$,  (b) $\displaystyle\int_{0}^{\infty} \delta(x-3)\,e^{-x}\,dx$,  (c) $\displaystyle\int_{-\infty}^{\infty} \delta(x+1)\,(x^2+2x)\,dx$.
 
 **P2 (🟡)** Let $f(x)=|x|$. Find $f'(x)$ and $f''(x)$ as distributions, and identify each. (Hint: $|x|$ has a *corner*, not a jump.)
@@ -98,8 +99,11 @@ A tent — a straight kink with a corner at the source. That corner *is* the poi
 <summary>Solutions</summary>
 
 **P1** Pure sifting — read off the test function at the spike, and check the spike lies inside the integration window.
+
 (a) spike at $x=\pi$: $\cos\pi = -1$.
+
 (b) spike at $x=3$, which is inside $(0,\infty)$: $e^{-3}$.
+
 (c) spike at $x=-1$: $\varphi(-1)=(-1)^2+2(-1)=1-2=-1$.
 
 **P2** For $x\neq 0$, $|x|$ is differentiable with slope $\pm 1$, so

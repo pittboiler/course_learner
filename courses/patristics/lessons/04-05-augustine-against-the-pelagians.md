@@ -97,11 +97,13 @@ Orange II (529) received the core: grace goes before every good movement, the be
 > He then starts an objection to his own position, as if, indeed, another person had raised it, and says: 'A man,' you will say, 'may possibly be \[without sin\]; but it is by the grace of God.' … Now, is it I that reject grace, who by acknowledging the thing must needs also confess the means by which it may be effected, or you, who by denying the thing do undoubtedly also deny whatever may be the means through which the thing is accomplished? … He says, indeed: Whether he confesses it to be by grace, or by aid, or by mercy, whatever that be by which a man can be without sin — every one acknowledges the thing itself.
 
 (a) State, in Pelagius's own terms, what he takes himself to have granted about grace here, and the counter-charge he makes.
+
 (b) Augustine says he read these words with sudden joy and then grew suspicious when Pelagius illustrated with a tongue for speaking, wings for flying, legs for running. Say what the illustrations reveal about which grace he means, and quote the clause in the passage above that left that question open. **Two sentences per part.**
 
 **P2 (🟡) *(Exegetical (a) · Evaluative (b).)*** Romans 5:12.
 
 (a) Augustine's Latin ends the verse *in quo omnes peccaverunt*, in the Douay–Rheims "in whom all have sinned." State what he takes the verse to assert; state how the underlying Greek *eph' hō* is now usually read; and say what that difference does to what the verse, by itself, establishes.
+
 (b) Suppose the Latin clause is simply set aside. Name **two** other supports the lesson gives for Augustine's claim that infants contract something from Adam, and for each say what it establishes and what it leaves open. Then give a one-line verdict on whether his case stands without the clause. **150 words or fewer for (b); any verdict.**
 
 **P3 (🔴, optional) *(Exegetical.)*** An invented note in a parish bulletin:

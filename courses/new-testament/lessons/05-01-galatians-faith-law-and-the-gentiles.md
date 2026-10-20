@@ -79,6 +79,7 @@ The Greek of 3:24 is *ho nomos paidagōgos hēmōn gegonen eis Christon*. A read
 **P2 (🟡)** Galatians 2:20, Douay–Rheims: "And that I live now in the flesh: I live in the faith of the Son of God, who loved me and delivered himself for me." Greek: *en pistei zō tē tou huiou tou theou tou agapēsantos me kai paradontos heauton hyper emou*.
 
 (a) *(Exegetical)* Give the lesson's own translation of the italic phrase as an objective genitive and as a subjective genitive, and name the word or clause **in this verse** that each reading appeals to. **Four sentences or fewer.**
+
 (b) *(Evaluative)* Which reading fits 2:20 better? **100 words or fewer**, any verdict. Meet the strongest point against your choice.
 
 **P3 (🔴)** *(Exegetical)* An **invented** parish handout on Galatians:

@@ -78,6 +78,7 @@ Four readings of Hosea 11:1:
 ## Problems
 
 **P1 (🟢)** *(Exegetical)* Read the Source (Hosea 11:1–4) and Matthew 2:14–15 (Douay–Rheims): "Who arose, and took the child and his mother by night, and retired into Egypt: and he was there until the death of Herod: That it might be fulfilled which the Lord spoke by the prophet, saying: Out of Egypt have I called my son."
+
 (a) In Hosea, who is "my son", when does the calling happen, and which words decide both? (b) What link lets Matthew use the verse, and why would the Septuagint's wording, "I called his children", not serve him? **Two sentences per part.**
 
 **P2 (🟡)** *(Exegetical)* Assign each statement its source and level: a rung on the ladder (name the act), "no magisterial act (advisory)", or "freely disputed". **One line each.**

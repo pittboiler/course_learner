@@ -127,15 +127,21 @@ With $\lambda = 0.5$ the traces at $t=2$ would be $e(K) = 0.25$, $e(L) = 0.5$, $
 **P1 (🟢)** An episode visits $X \to Y \to X \to$ terminal, with $\gamma = 1$ and $\lambda = 0.8$ (so the decay is $0.8$).
 
 (a) Give the accumulating traces $e(X)$ and $e(Y)$ after each of the three steps.
+
 (b) Give the replacing traces after each step.
+
 (c) State the step at which the two first differ, and by how much.
+
 (d) State what both would give at $\lambda = 0$.
 
 **P2 (🟡)** In Example 1's episode ($A, B, A, C$ with rewards $1,0,2,3$, all $V = 0$, $\gamma = 1$, $\alpha = 0.1$):
 
 (a) Recompute $\Delta V(A)$ using **replacing** traces.
+
 (b) State whether it is larger or smaller than the accumulating answer of $0.5375$, and explain why in terms of what the trace counts.
+
 (c) State which of the two corresponds to first-visit Monte Carlo in the $\lambda = 1$ limit.
+
 (d) Give one situation in which the accumulating version's larger update would be actively harmful.
 
 **P3 (🔴)** The equivalence theorem rests on the telescoping identity
@@ -143,8 +149,11 @@ With $\lambda = 0.5$ the traces at $t=2$ would be $e(K) = 0.25$, $e(L) = 0.5$, $
 $$G_t^\lambda - V(S_t) = \sum_{k=t}^{T-1}(\gamma\lambda)^{k-t}\,\delta_k.$$
 
 (a) Verify it for $\lambda = 0$, showing both sides reduce to the same thing.
+
 (b) Verify it for a two-step episode at general $\lambda$, with $\gamma = 1$: rewards $R_1, R_2$, states $S_0, S_1$, terminal after $S_1$.
+
 (c) Using the identity, explain in two or three sentences why the backward view's total update equals the forward view's.
+
 (d) State the one step of that argument that fails when the updates are applied online rather than accumulated offline.
 
 <details>
@@ -226,8 +235,11 @@ Offline, the updates are merely accumulated and $V$ is untouched until the episo
 $$P \xrightarrow{\ 3\ } Q \xrightarrow{\ -2\ } R \xrightarrow{\ 4\ } \text{terminal}$$
 
 (a) Compute $G^{(1)}$, $G^{(2)}$ and $G^{(3)}$ for $P$.
+
 (b) Compute $G^\lambda$ for $P$ at $\lambda = 0.5$.
+
 (c) Compute the three TD errors $\delta_0,\delta_1,\delta_2$ (taking $V(P) = 0$).
+
 (d) Verify the telescoping identity $G_0^\lambda - V(P) = \sum_k (\gamma\lambda)^k\delta_k$.
 
 <details>

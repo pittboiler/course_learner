@@ -128,7 +128,9 @@ Watch how the two objections cooperate here rather than stacking. The cross-time
 **P1 (🟢) *(Exegetical.)*** Answer each question for presentism, the growing block, and eternalism — one clause per view.
 
 (a) Is there something identical to Socrates?
+
 (b) Is there something identical to the first person born in the twenty-second century?
+
 (c) Is being present a feature of reality itself, or an indexical matter like being here?
 
 Then (d): give the moving spotlight's answers to (a)–(c), and say in one sentence what the pattern shows.
@@ -136,6 +138,7 @@ Then (d): give the moving spotlight's answers to (a)–(c), and say in one sente
 **P2 (🟡) *(Exegetical (a) · Evaluative (b).)*** "There were trilobites" is true.
 
 (a) State the truthmaker objection to presentism as it applies to that sentence, naming the principle it uses, and give two of the standard presentist answers with the cost of each.
+
 (b) A presentist replies by restricting the principle: only present-tense truths require truthmakers. Is that restriction principled or ad hoc? 150 words or fewer, any verdict, provided you say what the truthmaker principle is buying elsewhere in metaphysics and what the restriction costs there.
 
 **P3 (🔴, optional) *(Exegetical (a) · Exegetical, then evaluative (b).)*** An invented paragraph from a science column:
@@ -143,6 +146,7 @@ Then (d): give the moving spotlight's answers to (a)–(c), and say in one sente
 > "Physics settled this a century ago. Relativity shows there is no universal now — whether two distant events happen at the same moment depends on how fast you are moving. So the past and the future are every bit as real as the present: the whole of spacetime is laid out at once, and the flow of time is a trick of consciousness. Which means, if you think about it, that nothing is ever really lost. Your childhood is still there, at its own address."
 
 (a) Name the two distinct conclusions the passage runs together, say which axis each belongs on, and identify the step where it slides from the first to the second.
+
 (b) Name the single premise a presentist must deny to block the argument, and say what would count as a reason to give it up. 150 words or fewer.
 
 <details>
@@ -199,7 +203,9 @@ Then (d): give the moving spotlight's answers to (a)–(c), and say in one sente
 **F1 (🟡) *(Exegetical (a)–(b) · Evaluative (c).)*** A record cut in a studio in 1969 is playing tonight through an amplifier drawing current from a hydroelectric generator.
 
 (a) Identify one **essentially ordered** (per se) series and one **accidentally ordered** (per accidens) series in that description, and for the per se one say which members exercise **derived** causal power.
+
 (b) Which of the two series contains a member that does not exist, if presentism is true?
+
 (c) In one sentence, say why a presentist finds one of the two series far easier to accommodate than the other.
 
 <details>

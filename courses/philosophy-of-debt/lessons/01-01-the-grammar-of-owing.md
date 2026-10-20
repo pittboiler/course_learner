@@ -102,7 +102,9 @@ The same wrong produced first a directed claim, then a debt. The strain is in th
 **P1 (🟢) *(Exegetical.)*** For each obligation, say which of the four marks it has, classify it as a debt, owed but not a debt, or an undirected duty, and name its source (a promise or contract, a wrong, a benefit received, or law). Two sentences each.
 
 (a) Your aunt hands you a voucher she bought from a bakery: "Good for 40 dollars of bread to the bearer."
+
 (b) Your city bills you 2,400 dollars in property tax. By local law the city may sell overdue tax claims to investors, anyone may pay the bill for you, and the council may waive it.
+
 (c) A stranger drove you to hospital at 3 a.m. and refused your offer of 50 dollars for petrol.
 
 **P2 (🟡) *(Exegetical.)*** Justinian, *Institutes* III.29, from the opening and §1 (Moyle, 1913):

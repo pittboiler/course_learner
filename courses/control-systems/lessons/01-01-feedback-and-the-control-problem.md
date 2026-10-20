@@ -162,18 +162,23 @@ At steady state $e_{ss} = 6.5$, so $u_{ss} = 10 \times 6.5 = 65$ units — the t
 **P1 (🟢)** A heater has nominal DC gain $G = 2$ (degrees Celsius per unit of drive). It is driven open loop by $u = r/2$, which gives $y = r$ on the nominal plant. Over five years the element degrades and the true gain falls 30 percent, to $G' = 1.4$.
 
 (a) What is the percentage output error open loop?
+
 (b) The same plant is put in a unity-feedback loop with proportional gain $K = 4$. Compute the closed-loop gain $T = KG/(1+KG)$ before and after the degradation, and give the percentage change.
+
 (c) The sensitivity formula gives $S = 1/(1+KG) = 1/9$, predicting a 3.3 percent change. The exact answer in (b) is larger. Why?
 
 **P2 (🟡)** A room's temperature obeys $y = G(u + d)$ with DC gain $G = 2$ °C per unit of heater drive. Someone opens a window, a disturbance worth $d = -3$ units.
 
 (a) With the heater held at a fixed setting (open loop), how far does the temperature fall?
+
 (b) Now close the loop with $u = K(r - y)$. Find the smallest $K$ that keeps the steady-state temperature drop to at most 0.2 °C.
 
 **P3 (🔴)** A motor has $G(s) = \dfrac{4}{s+2}$ and sits in a unity-feedback loop with proportional gain $K$.
 
 (a) Find $T(s) = Y/R$ and its pole. Choose $K$ so the closed-loop time constant is $\tau = 0.05$ s (ten times faster than the open-loop motor).
+
 (b) With that $K$, what is the DC gain of $T$, and hence the steady-state error to a unit step reference?
+
 (c) For that unit step, compare the control effort $u$ at $t = 0^+$ with its steady-state value. What design tension does the ratio expose, and which later lesson removes the error in (b)?
 
 <details>

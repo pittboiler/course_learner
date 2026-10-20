@@ -79,6 +79,7 @@ That reproduces his 0.97. Now lower only $P(\text{God})$, to $\tfrac1{10}$. The 
 **P1 (🟢) *(Formal.)*** Mara, an invented historian, grants that the resurrection evidence carries $L = 2{,}000$ against the best naturalistic rival.
 
 (a) Compute the posterior odds and probability (to three decimals) for prior odds of $1:10$, $1:100$, $1:1{,}000$, $1:10{,}000$ and $1:100{,}000$.
+
 (b) A second critic accepts Mara's prior of $1:100$ but argues that dependence among the witnesses inflates $L$ by a factor of 20. Compute the posterior. Then say in one sentence whether this critic or one who lowers the prior by a single power of ten moves the verdict more.
 
 **P2 (🟡) *(Apologetic: (a) Exegetical, graded first · (b) reply.)*** (a) State Philipse's objection from predictive power as he would recognize it, including what it grants about the Bayesian form and which term of the odds equation it targets. (b) Reply, opening with a named concession. 150 words or fewer in total.

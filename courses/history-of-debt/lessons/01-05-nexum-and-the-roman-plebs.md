@@ -105,8 +105,11 @@ and then the outcome:
 A reader claims this passage shows the law abolished *all* personal execution for debt, including against debtors judged in court. Which words support that broad reading, which words support a narrow one (abolition of *nexum* only), and what in Example 1 shows why the difference matters? 150 words or fewer.
 
 **P2 (🟡) *(Formal.)*** An invented case. In 53 BC Lucius borrowed 40,000 sesterces at 1 percent a month (12 percent a year, simple interest), paying the interest in full at the end of each year. By 49 BC he has made four interest payments and owes the full principal. Apply Caesar's two rules.
+
 (a) What principal remains after the interest deduction, and what percentage relief is that?
+
 (b) Lucius settles by ceding a vineyard valued at its pre-war price of 16,000 sesterces (its current market price is 12,000) and paying the rest in cash. What does the creditor receive, at market value, against the 40,000 contract? Counting the interest he collected over four years, what did he get back in total, in nominal sesterces, for his 40,000?
+
 (c) Suetonius says creditors lost "about a quarter." For a loan like Lucius's, how many years of paid interest alone produce a 25 percent cut? What does that suggest about the typical loan in 49 BC?
 
 **P3 (🔴, optional) *(Exegetical.)*** (a) An invented op-ed: "Rome ended debt slavery with one law in 326 BC. If a republic could abolish bondage at a stroke 2,300 years ago, we can abolish medical debt at a stroke today." Name the historical analogy doing the work, and one way it breaks. (b) Name the crux between historians who say the *Lex Poetelia Papiria* ended debt bondage in Rome and those who say it relabelled it, and say what evidence would move it. 150 words or fewer in total.

@@ -114,6 +114,7 @@ Euler: $y_1^{\text{Euler}} = 1 + 0.2\,f(0,1) = 1 + 0.2(1) = 1.20$, **Euler error
 
 **P2** (a) The estimated local error is the size of the disagreement between the two orders:
 $$\text{est. error} = |y^{(5)} - y^{(4)}| = |2.001300 - 2.001350| = 5.0\times 10^{-5}.$$
+
 (b) With $\tau = 10^{-6}$ and $p = 4$,
 $$\frac{\tau}{\text{est. error}} = \frac{10^{-6}}{5.0\times 10^{-5}} = 0.02, \qquad h_{\text{new}} = h\,(0.02)^{1/5} = 0.1\times 0.4573 \approx 0.0457.$$
 The scale factor is $(0.02)^{1/5} \approx 0.46$. Since the estimated error $5.0\times10^{-5}$ **exceeds** the tolerance $10^{-6}$, the step is **rejected**; redo it with $h \approx 0.046$ (roughly less than half the size). This is exactly how an adaptive integrator refuses a too-ambitious step and retries.

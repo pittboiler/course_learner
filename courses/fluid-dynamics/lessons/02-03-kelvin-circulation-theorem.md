@@ -111,6 +111,7 @@ So the vorticity increases by a factor **3**, tracking the stretch factor, while
 *Check.* Dimensions: $[\omega]=[\Gamma]/[A]=(\mathrm{m^2/s})/\mathrm{m^2}=\mathrm{s^{-1}}$ ✓, a rate as vorticity must be. Consistency: $\omega A=(3\omega_0)(\tfrac13A_0)=\omega_0A_0=\Gamma_0$ ✓ — circulation really is preserved. Physical sense: stretching thins and speeds up the vortex (skater effect). ✓
 
 **P3**
+
 (a) **Viscosity.** Lift generation relies on the boundary layer at the trailing edge shedding a starting vortex; that vorticity is created by viscous stresses. Around a *small* material loop hugging the wing, circulation is **not** conserved (it grows to the bound value $+\Gamma$). Around a *large* loop enclosing wing + starting vortex, the total stays zero — Kelvin holds for the combined system, which is *why* the bound and starting vortices are equal and opposite.
 
 (b) **Baroclinicity.** Constant-pressure and constant-density surfaces cross, so $\nabla\rho\times\nabla p\neq0$; the pressure term is no longer a pure gradient and generates circulation (this is what drives the sea-breeze circulation). **Not conserved.**

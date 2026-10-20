@@ -103,6 +103,7 @@ $$\dot V = \frac{\partial V}{\partial x}\dot x + \frac{\partial V}{\partial y}\d
 
 **P3** (a) $V=x^2+y^2=r^2$, and $\dot{\mathbf x} = -(1-r^2)\mathbf x$ means $\dot x = -(1-r^2)x,\ \dot y=-(1-r^2)y$. So
 $$\dot V = 2x\dot x + 2y\dot y = -2(1-r^2)(x^2+y^2) = -2(1-r^2)\,r^2 = -2V(1-V).$$
+
 (b) $\dot V = -2V(1-V)<0$ exactly when $0 < V < 1$, i.e. on the punctured open unit disk $0<r<1$. (On $r>1$, $\dot V>0$.)
 
 (c) On $0<r<1$, $V$ is positive definite and $\dot V<0$, so by Lyapunov's method the origin is **asymptotically stable**. Every sublevel set $\{V \le c\}$ with $c<1$ is a bounded trap (once inside, $\dot V<0$ keeps $V$ falling, so the trajectory can't cross out) containing no fixed point but the origin, so it funnels into $\mathbf 0$. Taking the union over all $c<1$, the entire **open unit disk** $\{r<1\}$ lies in the basin of attraction. (Note the linearization here is $J(\mathbf 0)=-I$, a stable node — it confirms asymptotic stability but says *nothing* about how big the basin is. Only the Lyapunov sublevel sets deliver the disk.)

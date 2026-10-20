@@ -93,6 +93,7 @@ $$\forall M\in\mathbb{R},\ \exists x\in\mathbb{R},\ f(x) > M.$$
 ## Problems
 
 **P1 (🟢)** Domain $\mathbb{R}$. Write the negation of each, simplified so that $\lnot$ sits only on the core predicate, then say whether the *original* is true or false:
+
 (a) $\forall x\,(x^2 \ge 0)$  (b) $\exists x\,(x^2 = -1)$.
 
 **P2 (🟡)** Domain $\mathbb{R}$. Consider $\forall x\,\exists y\,(x + y = 0)$ and $\exists y\,\forall x\,(x + y = 0)$. Translate each into plain English, decide the truth value of each, and explain in one line why the order changes the answer.
@@ -103,7 +104,9 @@ $$\forall M\in\mathbb{R},\ \exists x\in\mathbb{R},\ f(x) > M.$$
 <summary>Solutions</summary>
 
 **P1**
+
 (a) $\lnot\forall x\,(x^2\ge 0)\equiv \exists x\,(x^2 < 0)$ — "some real has a negative square." The original is **true** (every real square is $\ge 0$), so this negation is false: no such $x$ exists.
+
 (b) $\lnot\exists x\,(x^2=-1)\equiv \forall x\,(x^2\ne -1)$ — "every real has square $\ne -1$." The original $\exists x\,(x^2=-1)$ is **false** over $\mathbb{R}$ (no real squares to $-1$), so its negation is true.
 
 **P2**

@@ -94,12 +94,15 @@ Proposition 1 at $p = 0.505$: $\Delta \approx 2(0.005)^2 = 5 \times 10^{-5}$, so
 **P1 (🟢)** *(Formal (a)–(b).)* A town referendum: you plus $n = 400$ others. Each other votes yes with probability $p$, independently. You gain $B = 60$ if yes wins; voting costs $C = 1$; $D = 0$; ties are a coin flip.
 
 (a) Using Proposition 1, find the value of voting at $p = \tfrac12$ and at $p = 0.55$, and say whether you vote in each case.
+
 (b) At $p = \tfrac12$, find the largest even $n$ at which you still vote.
 
 **P2 (🟡)** *(Formal (a)–(c).)* A participation game: two teams of two. Win pays 1, tie $\tfrac12$ (coin flip), loss 0; voting costs $c = \tfrac{7}{18}$; complete information.
 
 (a) Show that "everyone votes" is an equilibrium and "nobody votes" is not.
+
 (b) Find every symmetric mixed equilibrium, in which each of the four voters votes with the same probability $q \in (0,1)$.
+
 (c) Give the expected number of voters in each.
 
 **P3 (🔴, optional)** *(Evaluative.)* An invented column: "The odds that your ballot decides a national election are smaller than the odds of being struck by lightning on the way to the polls. Anyone who votes is therefore acting irrationally." In 150 words or fewer, assess the column's use of "rational."

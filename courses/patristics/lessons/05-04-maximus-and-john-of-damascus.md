@@ -93,6 +93,7 @@ Now separate what the correction destroys from what it leaves. Destroyed: every 
 > So, then, He had by nature, both as God and as man, the power of will. But His human will was obedient and subordinate to His divine will, not being guided by its own inclination, but willing those things which the divine will willed. … It was as man, then, that He wished the cup to pass from Him: but these are the words of natural timidity. Nevertheless, He said, not My will, that is to say, not in so far as I am of a different essence from You, but Your will be done, that is to say, My will and Your will, in so far as I am of the same essence as Thou.
 
 (a) Quote the words that show John takes "not my will" and "thy will" as marking **two natures in one speaker**, not two speakers.
+
 (b) A monothelite objects: if the human will only ever wills what the divine wills, it does no work and may as well not be there. State John's answer from this passage, in **two sentences or fewer**, and name the phrase it rests on.
 
 **P2 (🟡) *(Exegetical.)*** An invented parish blog post:
@@ -100,11 +101,14 @@ Now separate what the correction destroys from what it leaves. Destroyed: every 
 > "People say icon-veneration is a late Byzantine import. But Dionysius the Areopagite — the man St Paul converted in Athens, so we are talking about the first generation — already describes the ranks of heaven in ordered triads, and the whole hierarchical, image-filled worship of the Church follows from it. So when we worship our icons, we are doing what the apostles' own convert taught."
 
 (a) Run the check from [1.1](01-01-how-to-read-a-church-father.md) on the attribution: say what the corpus actually is, and name **one** claim in the post that the correction destroys and **one** that survives it.
+
 (b) One word in the last sentence would have been refused by John of Damascus himself. Name it, and give the distinction and the words — from the Source, or from the fifth premise of his argument for images — that decide it.
 **150 words or fewer in total.**
 
 **P3 (🔴, optional) *(Exegetical (a) · Evaluative (b).)***
+
 (a) Reconstruct Maximus's argument for two wills in **numbered premises and a conclusion**, then name the single premise a monothelite must deny, and say what he must then say about Gethsemane.
+
 (b) Maximus held no office; an imperial edict forbade the question he kept arguing; he was condemned, mutilated and exiled; and the council that defined his doctrine in 681 condemns the monothelite teachers by name without mentioning him. Some readers call that a vindication, others a doctrinal victory that was never a personal rehabilitation. In **150 words or fewer**, any verdict: say what evidence would decide between those descriptions, and whether the answer changes the standing of the doctrine.
 
 <details>
@@ -153,6 +157,7 @@ Now separate what the correction destroys from what it leaves. Destroyed: every 
 **From Lesson [5.2](05-02-leo-the-great.md) (Leo the Great):** *(Exegetical.)* Eutyches confessed two natures before the union and, after it, one. Leo's *Tome* (Letter 28, to Flavian of Constantinople, 449) opens not on a technical term but on the baptismal creed, charging that Eutyches has not grasped the rudiments every candidate for baptism professes — a confession that already names two births, one eternal from the Father and one in time from Mary. Two of the letter's early steps: **(i)** the birth in time adds nothing to the eternal one; **(ii)** the humanity is really ours, taken from the body of Mary, against the idea that Christ had the form of a man but not the reality of his mother's body.
 
 (a) The quarrel is over the word *physis* / *natura*. Say why Leo begins from the creed instead of defining the term, and what it costs Eutyches to answer him there.
+
 (b) Steps (i) and (ii) guard different things. Say what each rules out, and which of the two is aimed at where Eutychianism actually ends up. **Two sentences per part.**
 
 <details>

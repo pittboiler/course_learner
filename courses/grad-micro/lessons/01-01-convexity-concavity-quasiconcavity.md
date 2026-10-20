@@ -89,6 +89,7 @@ $$H = \begin{pmatrix} -2 & 1 \\ 1 & -4 \end{pmatrix}.$$
 Leading principal minors: $D_1 = -2 < 0$ and $D_2 = \det H = (-2)(-4) - (1)^2 = 8 - 1 = 7 > 0$. The signs alternate $-, +$, which is the **negative-definite** pattern. So $f$ is **strictly concave** on all of $\mathbb{R}^2$. (Sanity check: the lone $+xy$ cross term isn't large enough to overpower the two strong negative curvatures — $|f_{xy}|$ small relative to $\sqrt{f_{xx}f_{yy}}$.)
 
 **P2** (a) $u_x = 1/x$, $u_y = 1/y$, so $u_{xx} = -1/x^2 < 0$, $u_{yy} = -1/y^2 < 0$, $u_{xy} = 0$. Then $\det H = (1/x^2)(1/y^2) - 0 = 1/(x^2y^2) > 0$ with $u_{xx}<0$: **negative definite**, so $u$ is strictly concave.
+
 (b) $u(x,y) = \ln x + \ln y = \ln(xy) = \ln g(x,y)$, and $t \mapsto \ln t$ is strictly increasing on $t>0$. So $u = \ln \circ\, g$ is a strictly increasing transform of $g$ (equivalently $g = e^{u}$ turns $u$ back into $g$). A strictly increasing transform leaves the preference ranking untouched, so $u$ and $g$ — and also the $f=\sqrt{xy}$ of Example 1 — all represent **the same preferences**. Note the contrast: $u$ is concave, $g$ is not, yet they are preference-equivalent. Concavity is not preserved by the transform; the shared **quasiconcavity** is.
 
 **P3** *Claim: $f$ concave $\Rightarrow$ $f$ quasiconcave.* Fix any $a \in \mathbb{R}$ and take $x, y \in U_a = \{z : f(z) \geq a\}$, so $f(x) \geq a$ and $f(y) \geq a$. For any $\lambda \in [0,1]$, concavity gives

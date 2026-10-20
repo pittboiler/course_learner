@@ -97,7 +97,9 @@ So BonJour's conditions seem to deliver "justified." This is where the view stra
 **P1 (🟢) *(Formal (a)–(b) · Exegetical (c).)*** Before anyone reports, your probability that the ferry sailed at dawn ($A$) is $\tfrac15$. Two harbour workers, questioned separately, each say it did. Each reports $A$ with probability $0.8$ if $A$ is true and $0.3$ if it is false, and their reports are conditionally independent given $A$ and given $\neg A$.
 
 (a) Find $\Pr(A \mid E_1)$ and $\Pr(A \mid E_1 \wedge E_2)$.
+
 (b) Now suppose instead each worker reports $A$ with probability $0.45$ whether or not $A$. Find $\Pr(A \mid E_1 \wedge E_2)$, and prove in general that conditional independence plus $\Pr(E_i \mid A) = \Pr(E_i \mid \neg A)$ for each $i$ gives $\Pr(A \mid E_1 \wedge E_2) = \Pr(A)$.
+
 (c) In one sentence: which of Lewis and BonJour does (b) side with, and on what question?
 
 **P2 (🟡) *(Exegetical (a) · Evaluative (b).)*** From an invented forum post:

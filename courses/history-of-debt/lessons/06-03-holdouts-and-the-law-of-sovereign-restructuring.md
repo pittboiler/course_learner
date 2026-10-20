@@ -96,8 +96,11 @@ Why not settle at once? Its exchange bonds carried a Rights Upon Future Offers c
 **P1 (🟢) *(Exegetical.)*** In August 2013 the Second Circuit returned to the case and wrote: "Our decision here does not control the interpretation of all *pari passu* clauses or the obligations of other sovereign debtors under *pari passu* clauses in other debt instruments." It added that such cases were unlikely to recur because Argentina had been "a uniquely recalcitrant debtor" and because newer bonds almost universally include collective action clauses. (a) Which words in the first sentence do the limiting work, and what exactly is left undecided? (b) The court gives two reasons the case should not recur. Are they the same kind of reason? Say what each one would have to be true of for the reassurance to hold. 150 words or fewer in total.
 
 **P2 (🟡) *(Formal.)*** A holdout holds bonds with 100 of face value. The exchange offer is worth 30 today, take it or leave it. Litigating instead pays 150 (principal plus accrued interest) at year 10 with probability $p$, and nothing otherwise. Discount at 10 percent a year, compounded annually. Round rates to one decimal place.
+
 (a) Compute the break-even $p$ at which litigating matches the exchange.
+
 (b) Litigation costs 5, payable today, win or lose. Recompute the break-even $p$.
+
 (c) Now drop the costs again and suppose that if the suit fails the holdout can still take an exchange worth 30 *at year 10*. Recompute the break-even $p$, and say in one sentence what the change implies about a sovereign that promises never to reopen its offer.
 
 **P3 (🔴, optional) *(Exegetical.)*** The statutory camp (the SDRM) and the contractual camp (CACs) agreed that holdouts are a real problem. Name the single premise one side must deny for the disagreement to be live, and say what evidence from restructurings since 2014 would move it. 150 words or fewer.

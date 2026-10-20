@@ -112,22 +112,31 @@ So a language must choose, and the choice is a real trade:
 **P1 (🟢)** Give the final value and the final store for each, starting from an empty store.
 
 (a) `let a = ref 3 in (a := !a + 1; !a)`
+
 (b) `let a = ref 3 in let b = ref 3 in (a := 9; !b)`
+
 (c) `let a = ref 3 in let b = a in (b := 9; !a)`
+
 (d) `let a = ref 3 in let b = ref (!a) in (a := 9; !b)`
 
 **P2 (🟡)** For each pair of expressions, say whether they are interchangeable in a language with references, and give a store and a counterexample if not.
 
 (a) `e + e` and `2 * e`
+
 (b) `let x = e in x + x` and `e + e`
+
 (c) `f () + g ()` and `g () + f ()`
+
 (d) `(a := 1; a := 1)` and `a := 1`
 
 **P3 (🔴)** A designer wants the simplicity of the pure semantics *and* mutable state, and proposes: keep $\rho : \mathrm{Name}\to\mathrm{Value}$ and implement assignment by **rebinding the name** in the environment.
 
 (a) State what this gives up, with a two-line program distinguishing it from the store model.
+
 (b) State what it gains — name a specific class of reasoning that becomes valid again.
+
 (c) A language that made exactly this choice would resemble a feature you have already seen in this course. Name it and say what plays the role of the rebinding.
+
 (d) Give the scoping problem that arises when the rebinding happens inside an inner scope, and name the two possible answers.
 
 <details>
@@ -209,6 +218,7 @@ Real languages that assign without a store face exactly this and answer (2) with
 **From Lesson 5.5 (Effects, monads and the categorical view):** The `State` monad has $M\alpha = s \to (\alpha, s)$, with `return a = \s -> (a, s)` and bind threading the state from the first computation into the second.
 
 (a) Write the $\mathsf{Add}$ rule of this lesson as a do-block in the `State` monad.
+
 (b) State which of the three monad laws corresponds to a property of store-threading you have already relied on in this lesson, and name that property.
 
 <details>

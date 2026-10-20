@@ -113,11 +113,15 @@ So $|S| = 2\sqrt2 \approx 2.83 > 2$ — the LHV ceiling is broken by a comfortab
 **P1 (🟢)** Two experimenters share singlets. Compute the correlation $E(\hat a,\hat b)=-\cos\theta_{ab}$ when their axes differ by (a) $\theta = 30^\circ$, and (b) $\theta = 120^\circ$. For each, state in one phrase whether the outcomes mostly agree or mostly oppose.
 
 **P2 (🟡)** Correlations and the fragility of the effect.
+
 (a) Alice and Bob get sloppy and use axes $\hat a=0^\circ,\ \hat b=30^\circ,\ \hat a'=60^\circ,\ \hat b'=90^\circ$ (a $30^\circ$ staircase instead of $45^\circ$). Compute $S = E(\hat a,\hat b)-E(\hat a,\hat b')+E(\hat a',\hat b)+E(\hat a',\hat b')$. Is it still a violation?
+
 (b) Show that if Bob uses only *one* axis ($\hat b'=\hat b$), then $|S|\le 2$ automatically — no matter what anyone measures. What does this say about how many settings each side needs?
 
 **P3 (🔴, optional)** Build the best local-hidden-variable model and show it caps at $S=2$. Let the hidden variable be a unit vector $\hat\lambda$, shared by both particles and uniformly random over the sphere. Alice, measuring along $\hat a$, returns $A=\operatorname{sign}(\hat\lambda\cdot\hat a)$; Bob returns $B=-\operatorname{sign}(\hat\lambda\cdot\hat b)$ (the minus builds in the singlet's anticorrelation).
+
 (a) Argue that the correlation is $E_{\text{LHV}}(\theta) = -1 + \dfrac{2\theta}{\pi}$ — a straight line (a "triangle wave" once you extend it), *not* the cosine.
+
 (b) Plug this into $S$ at the optimal angles $\hat a=0^\circ,\hat b=45^\circ,\hat a'=90^\circ,\hat b'=135^\circ$ and show $S = -2$ exactly. Contrast with the quantum $-2\sqrt2$: the LHV model *saturates* Bell's bound but can never exceed it, while the cosine does.
 
 <details>

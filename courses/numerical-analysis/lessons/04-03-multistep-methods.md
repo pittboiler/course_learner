@@ -100,6 +100,7 @@ RK4 wins on order-per-step; AB2 wins decisively on *evaluations* per unit accura
 **P1** (a) Slopes: $f_0 = f(0,1) = -1$ and $f_1 = f(0.1, 0.905) = -0.905$. AB2:
 $$y_2 = y_1 + \tfrac{h}{2}(3f_1 - f_0) = 0.905 + 0.05\big(3(-0.905) - (-1)\big) = 0.905 + 0.05(-1.715) = 0.819250.$$
 Exact $y(0.2) = e^{-0.2} = 0.818731$, so error $\approx 5.2\times10^{-4}$.
+
 (b) AB2 costs **one** new evaluation, $f_1$ (and $f_1$ is then reused as history next step; $f_0$ was already on hand). One RK4 step costs **four** evaluations.
 
 **P2** Predictor $y_2^\ast = 0.819250$, so $f_2^\ast = f(0.2, 0.819250) = -0.819250$. Trapezoidal corrector:

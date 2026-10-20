@@ -179,7 +179,9 @@ A wins, by 0.2. "Equal say" flips the raw verdict back to MFT's. Two lessons fol
 **From Lesson [6.1](06-01-pascals-wager-as-a-decision-problem.md) (Pascal's wager as a decision problem):** *(Formal (a)–(b) · Exegetical (c).)* A wager matrix with a finite heaven and a finite hell. Wagering for God yields $H = 2{,}000$ if God exists and $f_1 = 40$ if not. Wagering against yields $f_2 = -500$ if God exists and $f_3 = 50$ if not.
 
 (a) Find the threshold credence $p^*$ as an exact fraction. What threshold would you get by mistakenly using $H$ in place of the gain $g$?
+
 (b) Your credence is $p = \tfrac{1}{300}$. Which act wins? Holding $H$, $f_1$ and $f_3$ fixed, how severe must the punishment $f_2 = -x$ be for wagering to win at this credence?
+
 (c) Now change only $f_1$ to 50. Which of Pascal's three arguments goes through, what credence does it need, and what did Pascal himself concede that rules this case out? Two sentences.
 
 <details>

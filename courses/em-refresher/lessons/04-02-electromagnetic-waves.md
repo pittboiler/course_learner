@@ -101,10 +101,13 @@ so $\omega=2\pi f=3.77\times10^{15}$ rad/s and $k=2\pi/\lambda=1.26\times10^{7}$
 
 **P1** (a) $\mu_0\varepsilon_0=(4\pi\times10^{-7})(8.85\times10^{-12})=1.112\times10^{-17}$. Then $c=1/\sqrt{1.112\times10^{-17}}=1/(3.335\times10^{-9})=2.998\times10^{8}\ \text{m/s}\approx3\times10^8$ m/s. ✓
 Units check: $[\mu_0\varepsilon_0]=\text{s}^2/\text{m}^2$ (it must, since $\mu_0\varepsilon_0=1/c^2$), so $1/\sqrt{\mu_0\varepsilon_0}$ has units $\sqrt{\text{m}^2/\text{s}^2}=$ **m/s**. ✓
+
 (b) $\lambda=c/f=(3\times10^8)/(100\times10^{6})=(3\times10^8)/(1\times10^8)=3$ m. ✓ (A few metres — why FM antennas are the size they are.)
 
 **P2** (a) $B_0=E_0/c=90/(3\times10^8)=3\times10^{-7}$ T $=300$ nT.
+
 (b) $k=2\pi/\lambda=2\pi/(3\times10^{-6})=2.09\times10^{6}$ rad/m.
+
 (c) $f=c/\lambda=(3\times10^8)/(3\times10^{-6})=1\times10^{14}$ Hz, so $\omega=2\pi f=6.28\times10^{14}$ rad/s.
 Check: $\omega/k=(6.28\times10^{14})/(2.09\times10^{6})=3.0\times10^{8}=c$. ✓ Units m/s. ✓
 
@@ -129,7 +132,9 @@ Check: the derivation used no property of light, only the four field equations, 
 <summary>Solution</summary>
 
 (a) The **Ampère–Maxwell law**; the responsible term is Maxwell's **displacement current**, $I_d=\varepsilon_0\,d\Phi_E/dt$, which sources $\mathbf B$ even where no charges flow.
+
 (b) $\displaystyle\oint\mathbf B\cdot d\boldsymbol\ell=\mu_0\!\left(I_{\text{enc}}+\varepsilon_0\frac{d\Phi_E}{dt}\right)$, with $\Phi_E=\int\mathbf E\cdot d\mathbf A$ the electric flux through the loop's surface. In the gap $I_{\text{enc}}=0$, so it is the flux term alone that produces the circulating field.
+
 (c) With uniform field, $\Phi_E=EA$, so $I_d=\varepsilon_0 A\,dE/dt=(8.85\times10^{-12})(0.01)(1\times10^{12})=8.85\times10^{-2}$ A $\approx88.5$ mA.
 Check units: $\varepsilon_0\,[\text{F/m}]\times A\,[\text{m}^2]\times dE/dt\,[\text{V/(m·s)}]=\text{F·V/s}=\text{C/s}=\text{A}$. ✓ (This same $\varepsilon_0\,\partial\mathbf E/\partial t$ term is exactly what closed the loop in today's wave-equation derivation — no displacement current, no light.)
 

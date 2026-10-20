@@ -117,14 +117,19 @@ Forward, may (union), starting from $\emptyset$ everywhere:
 - $B_3$: `y = a + b`
 
 (a) Run available expressions forward with intersection, giving IN and OUT for each block.
+
 (b) State whether the `a+b` in $B_3$ can be replaced by `x`, and why.
+
 (c) Now delete $B_2$. Redo (a) and (b).
 
 **P3 (🔴)** A compiler writer proposes a new analysis: **"definitely non-null"** — at each point, the set of pointer variables that are definitely not null.
 
 (a) Give the four parameters: direction, meet, transfer (say what generates and what kills), and boundary.
+
 (b) State whether the initial value at non-boundary blocks should be empty or full, with the reason.
+
 (c) A branch `if (p != null) { ... } else { ... }` gives different information on its two outgoing edges. State the problem this poses for the framework as stated, and name the standard extension that handles it.
+
 (d) The analysis is used to delete redundant null checks. State which direction of error would be a miscompile and which merely loses an optimization, and say which way the analysis must therefore err.
 
 <details>
@@ -202,6 +207,7 @@ This is the same soundness-versus-completeness direction as every type system in
 Dataflow analysis iterates to a fixed point too, and it terminates in finitely many steps.
 
 (a) State the single structural difference that makes this one finite.
+
 (b) [Lesson 2.3](02-03-denotational-semantics-and-fixed-points.md) rejected larger fixed points because they assert termination the equation never forced. State what the corresponding wrong answer would be for a live-variable analysis, and why it is wrong.
 
 <details>

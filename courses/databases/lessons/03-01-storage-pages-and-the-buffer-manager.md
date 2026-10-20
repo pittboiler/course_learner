@@ -108,22 +108,31 @@ The fix is to evict the **most** recently used page instead. Under MRU the pool 
 **P1 (🟢)** A page is 8192 bytes. A `reading` table has 12,000,000 rows of 48 bytes each.
 
 (a) Give the rows per page and the page count.
+
 (b) Give the bytes wasted per page.
+
 (c) The schema adds a 16-byte column. Give the new rows per page and page count.
+
 (d) Give the percentage increase in the cost of a full scan, and compare it with the percentage increase in row width.
 
 **P2 (🟡)** A nested-loop join repeatedly scans an inner table of 6 pages. The buffer pool has 5 frames available for it.
 
 (a) Give the number of misses over 4 complete passes under LRU, and the hit rate.
+
 (b) Give the number of misses over the same 4 passes under MRU. Show the frame contents at the moment the first eviction differs between the two policies.
+
 (c) The buffer is increased to 6 frames. Give the LRU miss count over 4 passes.
+
 (d) State the general rule this suggests, in the form "LRU on a cyclic scan of $N$ pages with $B$ frames gives …", covering both the $B \geq N$ and $B < N$ cases.
 
 **P3 (🔴, optional)** A system uses **steal** and **no-force**. Transaction $T$ updates page $p$ from value 10 to value 20 and is still running when the buffer manager evicts $p$ to disk. Transaction $U$ updates page $q$ from 5 to 7 and commits; $q$ is still dirty in memory when the machine loses power.
 
 (a) State what the disk holds for $p$ and for $q$ immediately after the crash.
+
 (b) For each page, say whether recovery must **undo**, **redo**, or do nothing, and why.
+
 (c) Suppose instead the system used **no-steal** and **force**. State what the disk holds for each page and what recovery must do. Then give the specific performance cost of each of the two policy changes, in one clause each.
+
 (d) A colleague proposes **no-steal with no-force** as a compromise: never evict uncommitted pages, and do not flush at commit. State which of undo and redo this requires, and give one workload on which the no-steal half of it fails badly.
 
 <details>
@@ -201,7 +210,9 @@ That is the honest summary of the whole matrix: the two policies that make recov
 **From Lesson 2.5 (decomposition — lossless join & dependency preservation):** $R(A, B, C, D)$ with $F = \{B \to C,\ C \to D\}$ is decomposed into $R_1(B, C)$ and $R_2(A, B, D)$.
 
 (a) Give the shared attributes and state whether the decomposition is lossless, with the closure that decides it.
+
 (b) State whether it is dependency-preserving, naming any lost dependency.
+
 (c) If a dependency is lost, give a pair of table instances that are individually valid and jointly violate it.
 
 <details>

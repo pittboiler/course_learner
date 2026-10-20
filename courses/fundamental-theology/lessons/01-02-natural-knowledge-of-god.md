@@ -118,8 +118,11 @@ What a careful reader concludes: the defined dogma is the capacity claim. Whethe
 **P2 (🟡) *(Exegetical.)*** For each statement, say (i) whether canon 1 condemns it, leaves it open, or is simply not about it, and (ii) what would settle it, if anything. 150 words or fewer in total.
 
 (a) "The argument from contingency fails at its second premise."
+
 (b) "Certainty about God's existence is available only to those who already believe."
+
 (c) "Fewer than one person in a thousand has ever formed a sound demonstration of God's existence."
+
 (d) "Since revelation is morally necessary for these truths anyway, reason's capacity here makes no practical difference."
 
 **P3 (🔴, optional) *(Exegetical (a) · Evaluative (b).)***

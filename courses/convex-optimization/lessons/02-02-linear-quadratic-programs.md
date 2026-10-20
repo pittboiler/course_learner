@@ -91,9 +91,11 @@ Optimum: $x^* = (2,3)$, value $\mathbf{13}$.
 $$\lVert Ax-b\rVert_2^2 + \lambda\lVert x\rVert_2^2 = x^\top(A^\top A)x - 2b^\top A x + b^\top b + \lambda\, x^\top x = x^\top\!\big(A^\top A + \lambda I\big)x - 2b^\top A x + b^\top b.$$
 Matching to $\tfrac12 x^\top P x + q^\top x + \text{const}$:
 $$P = 2\big(A^\top A + \lambda I\big), \qquad q = -2A^\top b.$$
+
 (b) For any $x \neq 0$,
 $$x^\top(A^\top A + \lambda I)x = \lVert Ax\rVert_2^2 + \lambda\lVert x\rVert_2^2 \ge \lambda \lVert x\rVert_2^2 > 0,$$
 since $\lambda > 0$ and $x\neq 0$. So $A^\top A + \lambda I \succ 0$, hence $P = 2(A^\top A + \lambda I) \succ 0$ — regardless of the shape or rank of $A$. (Equivalently: $A^\top A$ has eigenvalues $\ge 0$; adding $\lambda I$ shifts them all up to $\ge \lambda > 0$.)
+
 (c) A strictly convex objective ($P \succ 0$) is a bowl with a single lowest point, so the minimizer exists and is unique; plain least-squares has $P = 2A^\top A$ only $\succeq 0$, and when $A^\top A$ is singular the bowl has a flat trough — infinitely many minimizers. The ridge term $\lambda I$ tilts that trough into a strict bowl.
 
 **P3** Convert step by step.

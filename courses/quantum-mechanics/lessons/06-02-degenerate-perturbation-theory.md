@@ -98,8 +98,11 @@ $$W = V \begin{pmatrix} 2 & 1 & 1 \\ 1 & 2 & 1 \\ 1 & 1 & 2 \end{pmatrix}.$$
 Find the first-order shifts. Is the degeneracy fully lifted, partially lifted, or not at all? Identify the good state(s) for the *most-shifted* level. *(Hint: $W = 2V\,I + V\,J$, where $J$ is the all-ones matrix.)*
 
 **P3 (🔴, optional — the linear Stark effect in hydrogen)** The hydrogen $n=2$ level is 4-fold degenerate (ignore spin): $|2,0,0\rangle$ (the $2s$ state) and $|2,1,m\rangle$ for $m=-1,0,+1$ (the three $2p$ states). A uniform electric field $\mathcal{E}$ along $z$ adds $\hat H' = e\mathcal{E}\, z = e\mathcal{E}\, r\cos\theta$. Without computing any radial integral, use two symmetry arguments to show that **almost every entry of the $4\times4$ matrix $W$ vanishes**, and deduce the splitting pattern.
+
 (a) **Parity.** $z$ is odd under $\mathbf{r}\to-\mathbf{r}$, and $|2,\ell,m\rangle$ has parity $(-1)^\ell$. Which matrix elements $\langle 2,\ell',m'|z|2,\ell,m\rangle$ must vanish? In particular, what are all the *diagonal* elements?
+
 (b) **Azimuthal symmetry.** $z=r\cos\theta$ is independent of $\phi$, so $[\hat H', \hat L_z]=0$. Which pairs of states can $\hat H'$ connect? Combine with (a): which single pair of states actually couples?
+
 (c) Given that the one surviving element is $\langle 2,0,0|z|2,1,0\rangle = -3a_0$ (Bohr radius $a_0$), write $W$, find its eigenvalues, and describe the resulting levels and good states.
 
 <details>
@@ -118,8 +121,11 @@ $$E^{(1)} = 2V + V\{3, 0, 0\} = 5V,\ 2V,\ 2V.$$
 The degeneracy is **partially lifted**: the 3-fold level splits into a **singlet at $E^0+5V$** and a **doublet at $E^0+2V$**. The most-shifted level ($5V$) has the single good state $|\text{I}\rangle = \tfrac{1}{\sqrt3}\big(|1^0\rangle + |2^0\rangle + |3^0\rangle\big)$ (the symmetric combination). The remaining doublet spans any orthonormal pair in the plane $c_1+c_2+c_3=0$ — e.g. $\tfrac{1}{\sqrt2}(|1^0\rangle-|2^0\rangle)$ and $\tfrac{1}{\sqrt6}(|1^0\rangle+|2^0\rangle-2|3^0\rangle)$ — but that basis is not pinned down by first order, precisely because those two stay degenerate.
 
 **P3**
+
 (a) **Parity.** $|2,\ell,m\rangle$ has parity $(-1)^\ell$, and $z$ is odd, so $\langle 2,\ell',m'|z|2,\ell,m\rangle$ has integrand of parity $(-1)^{\ell'}\cdot(-1)\cdot(-1)^{\ell}$; it vanishes unless $(-1)^{\ell'+\ell} = -1$, i.e. unless $\ell'$ and $\ell$ have **opposite** parity. Within $n=2$ that means only $s\leftrightarrow p$ ($\ell=0$ with $\ell=1$) can be nonzero; $s\leftrightarrow s$ and $p\leftrightarrow p$ all vanish. In particular **every diagonal element vanishes** ($\ell'=\ell$), so naive nondegenerate PT would predict *zero* shift for all four states — we are forced into degenerate PT.
+
 (b) **Azimuthal.** $[\hat H',\hat L_z]=0$ means $\langle \ell',m'|z|\ell,m\rangle = 0$ unless $m'=m$. The four states have $m$-values $0$ (for $|2,0,0\rangle$), $0$ (for $|2,1,0\rangle$), $+1$ (for $|2,1,1\rangle$), $-1$ (for $|2,1,-1\rangle$). So $\hat H'$ can only connect states with equal $m$. Combining with (a) (opposite $\ell$), the **only surviving coupling** is between $|2,0,0\rangle$ and $|2,1,0\rangle$ — the two $m=0$ states of opposite parity. The $m=\pm1$ states have no partner (no other state shares their $m$ and has opposite $\ell$), so they don't shift at first order.
+
 (c) In the ordered basis $\{|2,0,0\rangle, |2,1,0\rangle, |2,1,1\rangle, |2,1,-1\rangle\}$, with $\gamma \equiv e\mathcal{E}\langle2,0,0|z|2,1,0\rangle = -3 e\mathcal{E}a_0$,
 
 $$W = \begin{pmatrix} 0 & \gamma & 0 & 0 \\ \gamma & 0 & 0 & 0 \\ 0 & 0 & 0 & 0 \\ 0 & 0 & 0 & 0 \end{pmatrix}.$$

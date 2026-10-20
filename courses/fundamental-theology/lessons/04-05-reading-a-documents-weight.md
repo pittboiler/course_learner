@@ -126,10 +126,15 @@ What the case teaches: the genre label told you nothing, the operative sentence 
 **P1 (🟢) *(Exegetical.)*** For each, name the **typical** weight the genre carries, and name the **one thing** you would look at next to fix the actual level. One clause each.
 
 (a) A dogmatic constitution of the Second Vatican Council
+
 (b) An instruction from a dicastery on the celebration of a sacrament
+
 (c) An apostolic letter issued *motu proprio* that reorganizes an office of the Curia
+
 (d) A papal general audience catechesis
+
 (e) A pope's answer to a journalist on a return flight
+
 (f) A paragraph of the Catechism
 
 **P2 (🟡) *(Exegetical (a) · Evaluative (b).)*** An invented parish bulletin insert, written for this problem:
@@ -137,6 +142,7 @@ What the case teaches: the genre label told you nothing, the operative sentence 
 > "Vatican II taught a hierarchy of truths, which means the Church herself distinguishes core doctrines from peripheral ones. The Trinity and the Resurrection are core. The Marian dogmas are peripheral — the Council placed them lower — so they ask less of us, and in conversation with our Protestant neighbours we can honestly set them aside as secondary."
 
 (a) Name the confusion the insert makes, say what *Unitatis Redintegratio* 11 actually concerns, and correct each of the three claims that follow from the confusion. Be exact about the Assumption's level and what denying it would amount to.
+
 (b) The hierarchy of truths was stated for ecumenical work. Does recognizing that a dogma stands far from the foundation change what a dialogue partner would have to accept for full communion? Argue either way in **150 words or fewer**, and state one thing the hierarchy of truths certainly does *not* license.
 
 **P3 (🔴, optional) *(Exegetical.)*** A fictional document, invented for this problem: the (fictional) *Note on the Pastoral Care of Catechumens in Mixed Marriages*, issued by a dicastery, approved by the pope in the ordinary way, whose two key sentences read:

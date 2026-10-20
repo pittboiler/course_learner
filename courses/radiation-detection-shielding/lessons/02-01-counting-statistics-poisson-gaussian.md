@@ -105,12 +105,17 @@ Four times the time gave $\sqrt{4} = 2$ times the precision ($2\% \to 1\%$). Tha
 <summary>Solutions</summary>
 
 **P1.**
+
 (a) $\sigma = \sqrt{900} = 30$ counts, so $N = 900 \pm 30$. Relative uncertainty $= 30/900 = 1/\sqrt{900} = 0.0333 = 3.3\%$.
+
 (b) Need $1/\sqrt{N} = 0.01 \Rightarrow \sqrt{N} = 100 \Rightarrow N = 10{,}000$ counts. (Going from $3.3\%$ to $1\%$ is a factor $3.33$ in precision, so $3.33^2 \approx 11.1\times$ the counts: $900 \times 11.1 \approx 10{,}000$. ✓)
 
 **P2.**
+
 (a) Target relative error $1/\sqrt{N} = 0.005 \Rightarrow \sqrt{N} = 200 \Rightarrow N = 40{,}000$ counts.
+
 (b) At $r = 200\,\text{cps}$, time $t = N/r = 40{,}000/200 = 200\,\text{s}$ (about $3.3$ min).
+
 (c) For $\pm 1\%$: $\sqrt{N} = 100 \Rightarrow N = 10{,}000$ counts $\Rightarrow t = 10{,}000/200 = 50\,\text{s}$. That's one-quarter the time ($200\,\text{s} \to 50\,\text{s}$), because relaxing the target error by a factor $2$ ($0.5\% \to 1\%$) cuts the required counts — and hence time — by $2^2 = 4$. The $1/\sqrt{t}$ law again.
 
 **P3.**

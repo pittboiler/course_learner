@@ -107,8 +107,11 @@ Sit with how weak that is. It is consistent with everything proved that $\mathsf
 **P1 (🟢)** For each pair, say whether the time hierarchy theorem establishes $\mathrm{TIME}(f) \subsetneq \mathrm{TIME}(g)$, and give the value or limit of $f\log f / g$ that settles it.
 
 (a) $f = n$, $g = n^2$.
+
 (b) $f = n^3$, $g = n^3 \log n$.
+
 (c) $f = n^3$, $g = n^3 \log^2 n$.
+
 (d) $f = 2^n$, $g = n^{100}$.
 
 **P2 (🟡)** The space hierarchy theorem needs only $f = o(g)$, with no logarithmic factor. (a) Give the one-sentence reason the time version needs the extra factor and the space version does not. (b) Use the space version to prove $\mathrm{SPACE}(\log n) \subsetneq \mathrm{SPACE}(\log^2 n)$, stating the limit you check. (c) Name the extra complication the space proof has that the time proof does not, and say in one clause how it is handled.

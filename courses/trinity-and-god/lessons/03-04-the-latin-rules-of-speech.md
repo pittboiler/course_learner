@@ -105,8 +105,11 @@ graph TD
 **P1 (🟢) *(Exegetical.)*** For each invented sentence, name the rule it breaks — the *Quicumque*'s "neither confounding nor dividing", Lateran IV's ruling on the essence, or Florence's clause on relative opposition — and the heresy or error it lands in. **One sentence each.**
 
 (a) "Father, Son and Spirit are three almighties acting as one."
+
 (b) "The one God meets us as Father in creation, as Son in redemption, and as Spirit in the Church."
+
 (c) "The divine nature, which the three have in common, begets the Son."
+
 (d) "The Spirit is distinct from the Father and the Son because he is holy in a way they are not."
 
 **P2 (🟡) *(Exegetical.)*** An invented hymn stanza, submitted for a parish hymnal:

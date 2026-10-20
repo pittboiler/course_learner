@@ -96,19 +96,29 @@ At $10^7$ rays per second (a fast CPU) that is **six minutes** per frame; at $10
 ## Problems
 
 **P1 (🟢)** Estimate $I = \int_0^1 x^2\,dx$ $(= \tfrac13)$.
+
 (a) Uniform samples $x = 0.1, 0.4, 0.7, 0.9$: give the estimate.
+
 (b) Samples drawn from $p(x) = 2x$: $x = 0.3, 0.6, 0.8, 0.95$. Give the estimate.
+
 (c) Compute the per-sample variance under each density. By what factor does importance sampling reduce the samples needed for a given error?
 
 **P2 (🟡)** A test render at 16 samples per pixel shows 8% relative noise in a grey region and takes 90 seconds.
+
 (a) How many samples per pixel for 2% noise, and how long will it take?
+
 (b) Switching from uniform to cosine-weighted hemisphere sampling cuts the per-sample relative error from $1.036$ to $0.577$ for this lighting. How many samples per pixel now give 2%?
+
 (c) A colleague proposes capping every path at 2 bounces "to make it faster and remove noise." What does that do to the image of a white room?
 
 **P3 (🔴)** A path's continuation contributes a value $X$.
+
 (a) Show that Russian roulette with survival probability $q$ gives an unbiased estimate of $X$.
+
 (b) If $X = 1$ exactly (no other randomness), compute the variance with $q = 0.7$.
+
 (c) With constant $q = 0.7$ at every bounce, what is the expected number of bounces per path (counting the first), and the probability that a path makes at least 5?
+
 (d) In a white room (every bounce carries throughput $0.9$), explain why choosing $q$ equal to the current throughput is better than constant $q = 0.5$.
 
 <details>
@@ -149,8 +159,11 @@ Ratio $0.0889/0.0139 = \mathbf{6.4}$: importance sampling needs $6.4\times$ fewe
 ## Flashback
 
 **From Lesson 3.5 (acceleration structures):** A BVH node's box is $[0, 2]^3$. A ray starts at $(-1, 0.5, 3)$ with direction $(1, 0.25, -1)$.
+
 (a) Run the slab test and give the entry and exit parameters and the entry point.
+
 (b) The traversal has already found a hit at $t_{\text{best}} = 2.5$ in a sibling. Must it open this node?
+
 (c) What if $t_{\text{best}}$ had been $0.8$?
 
 <details>

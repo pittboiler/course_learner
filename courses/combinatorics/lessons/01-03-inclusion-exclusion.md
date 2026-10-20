@@ -79,6 +79,7 @@ $$100 - (50+33+20) + (16+10+6) - 3 = 100 - 103 + 32 - 3 = 26.$$
 So $26$ integers in $[1,100]$ are divisible by none of $2,3,5$. (Sanity check: this is exactly the sieve of Eratosthenes bookkeeping — and $100\cdot\tfrac12\cdot\tfrac23\cdot\tfrac45 = 26.\overline6$, close to $26$.)
 
 **P2** (a) $\operatorname{Surj}(5,3) = \binom{3}{0}3^5 - \binom{3}{1}2^5 + \binom{3}{2}1^5 - \binom{3}{3}0^5 = 243 - 3\cdot 32 + 3\cdot 1 - 0 = 243 - 96 + 3 = 150.$
+
 (b) $3!\,S(5,3) = 6 \cdot 25 = 150.$ They agree. The bridge: a surjection onto $3$ labeled values is a partition of the $5$-set into $3$ nonempty blocks (the preimages), $S(5,3)=25$ of them, times the $3!$ ways to attach the $3$ labels to the blocks. $\checkmark$
 
 **P3** Consider a derangement $\sigma$ of $[n]$, $n\ge 2$. Element $1$ is sent to some $\sigma(1) = k \ne 1$; there are $n-1$ choices of $k$. Split on the value of $\sigma(k)$:

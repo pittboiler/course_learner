@@ -81,7 +81,9 @@ Arithmetic coding skips the table entirely and drives $L/n \to H \approx 0.469$ 
 Final interval $[0.8,\,0.9)$, width $W = 0.2\cdot 0.5 = 0.1 = p(\texttt{ca})$. Ideal cost $-\log_2 0.1 \approx 3.32$ bits (which is $-\log_2 0.2 - \log_2 0.5 = 2.32 + 1.00$). ✓
 
 **P2** (a) $H = -0.8\log_2 0.8 - 0.2\log_2 0.2 = 0.8(0.3219) + 0.2(2.3219) \approx 0.2575 + 0.4644 = 0.722$ bits/symbol.
+
 (b) With two symbols, a Huffman code assigns 1 bit to each, so its best rate is $L = 1.0$ bit/symbol. Arithmetic coding drives the rate to $H \approx 0.722$, a factor of $1.0/0.722 \approx 1.39\times$ fewer bits.
+
 (c) A binary prefix code must give both symbols distinct codewords, and the shortest distinct codewords are the single bits `0` and `1` — so 1 bit each is the floor unless you code *blocks* of several symbols at once (which lets the per-symbol average fall below 1).
 
 **P3** The final interval's width is $W = \prod_i p(x_i)$, a **product** — and multiplication is commutative, so $W$ (hence $-\log_2 W$, hence the bit length) depends only on *how many* of each symbol the message contains, not their order. Equivalently, the length is $\sum_i (-\log_2 p(x_i))$, a sum of surprisals, and sums don't care about order. Arithmetic coding charges each symbol its own surprisal on the spot, so rearranging the message only rearranges the addends. A Huffman *tree*, by contrast, fixes one integer-length codeword per symbol up front; the *total* Huffman length for a fixed multiset is likewise order-independent (it's $\sum_i \ell(x_i)$), but each symbol pays its rounded-up length $\ell(x_i) \ge -\log_2 p(x_i)$ rather than the exact surprisal — which is precisely the gap arithmetic coding closes. *(Full credit for identifying $W = \prod p(x_i)$ / the surprisal sum as the order-invariant that sets the length.)*

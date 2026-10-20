@@ -87,15 +87,19 @@ $$\mathbb{E}^Q[S_1]=0.4(60)+0.3(50)+0.3(40)=24+15+12=51,\qquad \tfrac{51}{1.02}=
 
 **P2. (a)** With $R=1$, discounted $=$ undiscounted. EMM $q=(q_1,q_2,q_3)$ solves $q_1+q_2+q_3=1$ and $\mathbb{E}^Q[S]=4q_1+2q_2+q_3=S_0=2$, with $q_i>0$. Subtract the first from the second: $3q_1+q_2=1\Rightarrow q_2=1-3q_1$. Then $q_3=1-q_1-q_2=2q_1$. Set $t=q_1$:
 $$Q_t=(t,\;1-3t,\;2t),\qquad t\in\left(0,\tfrac13\right)\ \text{(positivity: } t>0 \text{ and } 1-3t>0).$$
+
 **(b)** $\pi_t(X)=\mathbb{E}^{Q_t}[X]=2q_1=2t$. As $t$ ranges over $(0,\tfrac13)$, $\pi(X)\in(0,\tfrac23)$. The no-arbitrage price interval is $\boxed{(0,\,2/3)}$.
+
 **(c)** Marketed payoffs are $\operatorname{span}\{(1,1,1),(4,2,1)\}$, a 2-plane in $\mathbb{R}^3$. Solve $a(1,1,1)+b(4,2,1)=(2,0,0)$: from coords, $a+b\cdot? $ — set up $a+4b=2$, $a+2b=0$, $a+b=0$. The last two give $b=0,a=0$, contradicting $a+4b=2$. **Not replicable.** Its price would be pinned to a point only if the market were completed — e.g. by adding a third independent asset (say an Arrow security) so that $\operatorname{rank}(D)=3=n$, forcing a unique $Q$ by FTAP II.
 
 **P3. (a)** A state-price vector $\psi=(\psi_1,\psi_2)$ prices each asset as $\text{price}=\psi\cdot\text{payoff}$ (with $R=1$, no discount factor needed). Bond: $\psi_1+\psi_2=1$. Stock: $2\psi_1+\psi_2=0.9$. Subtract: $\psi_1=0.9-1=-0.1<0$. No **strictly positive** $\psi$ exists — in fact no non-negative one — so by FTAP I the market has an arbitrage.
+
 **(b)** The stock dominates the bond: it pays *more* in state 1 ($2>1$), the *same* in state 2 ($1=1$), yet costs *less* ($0.9<1$). Buy one stock, short one bond: portfolio $\theta=(\text{stock } +1,\ \text{bond } -1)$.
 - **Cost today:** $0.9-1=-0.1$ — you are *paid* $0.1$ to put it on.
 - **Payoff state 1:** $2-1=+1$. **Payoff state 2:** $1-1=0$.
 
 You collect $0.1$ now and never owe anything later, winning $1$ in state 1: a textbook arbitrage.
+
 **(c)** The portfolio's (−cost, payoff) vector $(0.1,\,1,\,0)$ lands in the non-negative orthant away from the origin, so no zero-cost marketed line can be separated from the orthant by a strictly positive normal — the state-price hyperplane of the Picture simply does not exist.
 
 </details>

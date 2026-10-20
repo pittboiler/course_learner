@@ -130,15 +130,21 @@ $$3 + \lceil 6{,}000/200 \rceil = 3 + 30 = 33 \text{ I/Os}$$
 **P1 (🟢)** An extendible hash index has global depth 3 and buckets holding 2 keys. Keys are routed by their low-order 3 bits.
 
 (a) A bucket at local depth 1 is full. Give the number of directory entries pointing at it.
+
 (b) That bucket overflows. State whether the directory doubles, and give the resulting local depth of the two buckets.
+
 (c) A bucket at local depth 3 is full and overflows. Give the new global depth and the number of directory entries afterwards.
+
 (d) Give the number of page reads for a lookup, before and after the doubling in (c).
 
 **P2 (🟡)** A `shipment` table has 5,000,000 rows, 25 rows per data page. An index page holds 250 entries; a B⁺-tree over any column has height 3.
 
 (a) Give the full-scan cost.
+
 (b) `WHERE tracking_id = 'X9912'` returns one row. Give the cost under a full scan, a B⁺-tree, and a hash index.
+
 (c) `SELECT tracking_id, weight FROM shipment WHERE carrier_id = 44` returns 30,000 rows, and an unclustered index exists on `(carrier_id, tracking_id, weight)`. Give the cost with and without using the index-only plan, and the ratio between them.
+
 (d) `WHERE country = 'GB'` matches 60 percent of rows. Give the cost of an unclustered index plan and recommend an access path, with the reason in one clause.
 
 **P3 (🔴, optional)** A team is designing indexes for an `event` table: 40,000,000 rows, 20 rows per data page, index pages holding 200 entries, B⁺-tree height 4. The workload, per hour, is 2,000,000 inserts and these three queries:
@@ -148,8 +154,11 @@ $$3 + \lceil 6{,}000/200 \rceil = 3 + 30 = 33 \text{ I/Os}$$
 - $Q_3$: `SELECT event_type, COUNT(*) ... GROUP BY event_type` — 4 times per hour, over the whole table; `event_type` has 6 distinct values.
 
 (a) Give the full-scan cost and the hourly I/O of $Q_1$, $Q_2$ and $Q_3$ if no index exists.
+
 (b) The table can have one clustered index. Say which column should get it, with the arithmetic that decides between the candidates.
+
 (c) Evaluate a proposed unclustered index on `event_type` for $Q_3$: give its cost and compare with (a).
+
 (d) Give the total hourly index-maintenance cost of holding three indexes (on `event_id`, `occurred_at`, `event_type`) at 2,000,000 inserts per hour, assuming each index update costs one descent plus one leaf write. Then state which indexes you would keep and why.
 
 <details>
@@ -256,7 +265,9 @@ The first two repay their maintenance by five and two orders of magnitude respec
 **From Lesson 3.2 (B⁺-tree indexes):** A `parcel` table has 6,000,000 rows at 30 rows per data page. An index page holds 300 entries, and a B⁺-tree over the table has height 3.
 
 (a) Give the number of data pages and the cost of a full scan.
+
 (b) A query matches 90,000 rows. Give the cost under a clustered index and under an unclustered one.
+
 (c) Give the number of matching rows at which the unclustered index stops beating the full scan.
 
 <details>

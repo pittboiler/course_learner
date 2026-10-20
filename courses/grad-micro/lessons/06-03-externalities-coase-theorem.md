@@ -98,8 +98,11 @@ $$\mathrm{DWL} = \tfrac{1}{2}\,(6)(12) = 36.$$
 **P2 (🟡)** A beekeeper's hives pollinate a neighboring orchard: each colony the beekeeper keeps confers a marginal external *benefit* $\mathrm{MEB} = 8$ on the orchard. The beekeeper's private marginal benefit from colonies is $\mathrm{PMB}(q) = 40 - 4q$ and marginal cost is $\mathrm{MC}(q) = 10 + 2q$. Find the beekeeper's private number of colonies and the socially efficient number, and state the per-colony subsidy that closes the gap. (Watch the sign: a positive externality means the market does what?)
 
 **P3 (🔴, optional)** Two roommates share a room. Ann wants to play loud music; the noise costs Ben. Ann's marginal benefit from hours of music is $\mathrm{MB}(h) = 10 - h$; Ben's marginal cost is $\mathrm{MC}(h) = 2h$.
+
 (a) Find the efficient number of hours $h^*$.
+
 (b) Suppose the lease gives Ben the right to silence. Show that they bargain to $h^*$, and give a total payment from Ann to Ben that leaves both at least as well off as at $h = 0$.
+
 (c) Now suppose instead Ann has the right to play as much as she likes. What is $h$ if they *don't* bargain, and to what $h$ do they bargain? Who pays whom? Confirm the efficient level is unchanged.
 
 <details>

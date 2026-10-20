@@ -85,11 +85,15 @@ That is Coulomb's field from [1.1](01-01-coulomb-electric-field.md), regenerated
 **P1 (🟢)** An electron (charge $-e$, $e=1.6\times10^{-19}$ C) is accelerated from rest through a potential difference of $100$ V (moving toward higher potential, as it must). How much kinetic energy does it gain — in electron-volts, and in joules?
 
 **P2 (🟡)** Two point charges are fixed in place: $q_1=+4.0$ nC and $q_2=-2.0$ nC, separated by $8.0$ cm. A point $P$ lies $4.0$ cm from $q_1$ and $6.0$ cm from $q_2$.
+
 (a) Find the potential $V$ at $P$ (scalar superposition — mind the signs).
+
 (b) Find the energy $U$ that was needed to assemble this pair from infinite separation, and say whether assembling them cost or released energy.
 
 **P3 (🔴)** Two large parallel plates are $2.0$ cm apart with a $500$ V potential difference between them, giving a uniform field in the gap.
+
 (a) Find the field magnitude $E$ from the voltage and gap.
+
 (b) A proton (charge $+e$, mass $m_p=1.67\times10^{-27}$ kg) is released from rest at the positive plate. Using energy conservation, find its speed when it reaches the negative plate.
 
 <details>

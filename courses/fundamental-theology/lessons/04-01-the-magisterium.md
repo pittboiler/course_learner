@@ -121,14 +121,19 @@ Where that leaves you: the teaching is to be definitively held, stated plainly a
 **P1 (🟢) *(Exegetical.)*** Place each act on the grid — **extraordinary or ordinary**, **universal or particular** — in one sentence each.
 
 (a) The canons on justification promulgated by the Council of Trent, Session VI (1547).
+
 (b) An encyclical letter of a reigning pope on the moral evaluation of warfare.
+
 (c) A pastoral letter from the bishop of a single diocese instructing his people on the same subject.
+
 (d) The bishops of the world, each in his own see, concurring in teaching that direct killing of the innocent is always gravely wrong and is to be definitively held.
+
 (e) One cell of the grid has no instances. Name it and say in one clause why it must be empty.
 
 **P2 (🟡) *(Exegetical (a) · Evaluative (b).)*** Using the sentence quoted from *Dei Filius* ch. 3 in "The argument":
 
 (a) Name the two routes by which a truth comes to be believed with divine and Catholic faith, and state what follows for a Catholic who argues: "Show me the definition, or it isn't dogma." Be precise about what the sentence does and does not settle.
+
 (b) A critic presses further: an infallibility with no defining act is unfalsifiable, since any claimed instance can be defended by asserting that the bishops agreed, and nobody has counted. Say what the objection gets right and what resources a Catholic account has for answering it. **150 words or fewer**, any verdict.
 
 **P3 (🔴, optional) *(Exegetical.)*** An invented paragraph from a theology blog:

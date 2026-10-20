@@ -90,7 +90,9 @@ Name **three** errors, one of each kind: **(i)** a statement about the persons' 
 > But Monarchy is that which we hold in honour. It is, however, a Monarchy that is not limited to one Person, for it is possible for Unity if at variance with itself to come into a condition of plurality; but one which is made of an equality of Nature and a Union of mind, and an identity of motion, and a convergence of its elements to unity — a thing which is impossible to the created nature — so that though numerically distinct there is no severance of Essence. … The Father is the Begetter and the Emitter; without passion of course, and without reference to time, and not in a corporeal manner. The Son is the Begotten, and the Holy Ghost the Emission.
 
 (a) Which words rule out reading "Monarchy" as the rule of a single person over two lesser ones?
+
 (b) The passage names what tells the three apart. Quote it, and say what kind of distinction it is.
+
 (c) What does "though numerically distinct there is no severance of Essence" deny, and to which of the three errors in P1 is that denial addressed?
 **Two sentences or fewer per part.**
 

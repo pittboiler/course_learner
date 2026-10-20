@@ -116,22 +116,31 @@ Three things to read off. **The number of mistakes is unbounded** — a longer c
 **P1 (🟢)** For each detector behaviour, name the completeness and accuracy properties it satisfies, and the resulting class among $P$, $S$, $\Diamond P$, $\Diamond S$.
 
 (a) Every crashed process is eventually permanently suspected by everyone, and no correct process is ever suspected.
+
 (b) Every crashed process is eventually permanently suspected by everyone, and after some unknown time no correct process is suspected.
+
 (c) Every crashed process is eventually permanently suspected by everyone, and one particular correct process is never suspected by anyone from the start.
+
 (d) A detector that suspects nobody, ever. State which property it satisfies and which it fails, and whether it is useful.
 
 **P2 (🟡)** A cluster of $n$ nodes uses an eventually accurate failure detector.
 
 (a) Give the maximum $f$ for $n = 4$, $n = 5$ and $n = 6$.
+
 (b) Give the maximum $f$ for $n = 5$ if a **perfect** detector were available.
+
 (c) Give the sizes of the two groups in the indistinguishability argument that forces $n > 2f$, at $n = 6$, $f = 3$, and state what each group does in the three executions.
+
 (d) State why a perfect detector escapes that argument, in one sentence.
 
 **P3 (🔴, optional)** A monitoring process uses a fixed 400 ms timeout, and its peer's message delays are bounded by 250 ms after some unknown time but unbounded before it.
 
 (a) State whether this detector satisfies strong completeness, eventual strong accuracy, both or neither, with the reason for each.
+
 (b) The team switches to an additive adaptive timeout starting at 200 ms and increasing by 100 ms per false suspicion. Give the number of false suspicions if the pre-stabilisation delays observed are 350, 610, 480 and 900 ms in that order, and the final timeout value.
+
 (c) State whether the adaptive scheme can suffer an unbounded number of false suspicions, and what that implies for the consensus protocol above it.
+
 (d) A colleague proposes never increasing the timeout, arguing that a large fixed timeout of 30 seconds is "eventually accurate in practice". State whether the resulting detector is in $\Diamond P$, with the reason, and name the cost of the 30-second choice when a node genuinely crashes.
 
 <details>
@@ -211,7 +220,9 @@ Eventual strong accuracy requires that after *some* time no correct process is s
 **From Lesson 3.1 (consensus and FLP):** A synchronous system of 9 processes tolerates at most $f$ crashes using the flooding algorithm and runs for 5 rounds.
 
 (a) Give the largest $f$ the 5-round run is correct for.
+
 (b) Give the number of messages sent in a crash-free execution, counting one per ordered pair per round.
+
 (c) State the property of the run that the round count guarantees, in one sentence.
 
 <details>

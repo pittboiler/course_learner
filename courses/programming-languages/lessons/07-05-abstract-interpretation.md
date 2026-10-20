@@ -143,15 +143,21 @@ and the next iteration confirms $[0,+\infty]$ is a fixed point. **Two steps inst
 **P1 (🟢)** Evaluate in the sign domain $\{\bot, \mathrm{neg}, \mathrm{zero}, \mathrm{pos}, \top\}$.
 
 (a) $\mathrm{pos} \times \mathrm{pos}$
+
 (b) $\mathrm{neg} + \mathrm{neg}$
+
 (c) $\mathrm{pos} + \mathrm{neg}$
+
 (d) $\mathrm{zero} \times \top$
 
 **P2 (🟡)** For each analysis, state which direction of error is safe and which would be a miscompile, and say which way it must therefore err.
 
 (a) "This array index is definitely in bounds" — used to delete a bounds check.
+
 (b) "This variable is definitely dead" — used to delete a store.
+
 (c) "This function definitely terminates" — used to delete a call whose result is unused.
+
 (d) "These two pointers definitely do not alias" — used to reorder two memory operations.
 
 **P3 (🔴)** Analyze over intervals:
@@ -162,8 +168,11 @@ while (x > 0) { x = x - 2; }
 ```
 
 (a) Give the first four intervals for `x` at the loop header with no widening, and say whether the chain terminates.
+
 (b) Apply widening at the second step and give the resulting fixed point.
+
 (c) Apply one narrowing pass and give the improved interval, showing the step.
+
 (d) The true set of values `x` takes at the header is $\{10, 8, 6, 4, 2, 0\}$. State the most precise interval describing it, say whether the interval domain can express the true set exactly, and name a domain that could do better.
 
 <details>
@@ -245,6 +254,7 @@ The general lesson: **precision is a property of the domain, not of the effort.*
 **From Lesson 4.5 (Type soundness: progress and preservation):** A type system is sound but not complete: it rejects every program that could go wrong, and also some that never would — [Lesson 4.3](04-03-unification-and-hindley-milner.md) P3(d) exhibited $\lambda x.\lambda y.\ x\,y\,x$, a term that reduces perfectly well and has no Hindley–Milner type.
 
 (a) State what the abstract domain is when the "analysis" is type checking, and what $\top$ would correspond to.
+
 (b) Say which direction of error a type system makes, in this lesson's vocabulary, and connect it to Rice's theorem.
 
 <details>

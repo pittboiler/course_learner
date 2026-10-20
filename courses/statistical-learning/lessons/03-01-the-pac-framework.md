@@ -145,19 +145,25 @@ Compare the two classes. Thresholds are infinite too — uncountably many hypoth
 **P1 (🟢)** Using $n_{\mathcal H}(\epsilon,\delta) = \lceil \frac1\epsilon\ln\frac1\delta\rceil$ for thresholds:
 
 (a) Evaluate $n$ at $(\epsilon,\delta) = (0.1,\ 0.05)$, then at $(0.01,\ 0.05)$, then at $(0.1,\ 0.005)$.
+
 (b) One tenfold improvement multiplied $n$; the other added a constant. Say which is which, read the reason off the formula, and say in one sentence why practitioners quote $\delta = 0.05$ or $0.01$ but rarely agonise over the choice.
+
 (c) Which costs more data: accuracy $\epsilon = 0.01$ at a one-in-a-million confidence $\delta = 10^{-6}$, or accuracy $\epsilon = 0.001$ at the ordinary $\delta = 0.05$? Compute both.
 
 **P2 (🟡)** Prove the threshold theorem yourself.
 
 (a) Show $\hat a \ge a^*$ always, and identify the set on which $h_{\hat a}$ and $h_{a^*}$ disagree.
+
 (b) Complete the argument to $\Pr[R > \epsilon] \le (1-\epsilon)^n$, being careful about one thing the sketch above glossed: why is $\mathcal D([a^*, a_\epsilon))$ at most $\epsilon$, given that $\mathcal D([a^*,a_\epsilon])$ is at least $\epsilon$? (An atom sitting at $a_\epsilon$ is the case to think about.)
+
 (c) Name every place realizability was used, and say what breaks in each without it.
 
 **P3 (🔴, optional)** A colleague says: "PAC's 'for every distribution' is theoretical hand-wringing. My learner is excellent on the distributions we actually see, so for practical purposes it is PAC."
 
 (a) Name exactly which quantifier they have dropped, and state the weaker definition they are actually claiming.
+
 (b) Construct a concrete learner for the threshold class that satisfies their weaker definition with $n = 0$ under some distribution, and prove it fails the real PAC definition. Keep it in the realizable case.
+
 (c) They propose a fix: "I will validate on held-out data from the same distribution, and if the risk is small, the guarantee holds." Say precisely what this does and does not buy, and why it is not the same statement as PAC.
 
 <details>

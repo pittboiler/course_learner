@@ -117,22 +117,31 @@ so it fails $1.6 \times 10^{-7}$ of the time — **about 70,000 times more relia
 **P1 (🟢)** A store has $N = 7$ replicas.
 
 (a) Give every $W$ satisfying the write-ordering condition $2W > N$.
+
 (b) For $W = 4$, give the smallest $R$ giving strong reads.
+
 (c) Give the setting that tolerates the most failures on both the read and write side while satisfying both conditions, and the number of failures it tolerates.
+
 (d) A team deploys $N = 7$, $R = 6$, $W = 2$ and cites $R + W > N$. State what is wrong, and give a concrete two-write scenario that exhibits it.
 
 **P2 (🟡)** Sixteen replicas are arranged in a $4 \times 4$ grid, with read quorums the columns and write quorums a row plus a column.
 
 (a) Give the read and write quorum sizes, and the corresponding majority quorum size.
+
 (b) Verify the read-write intersection property by stating which cells are forced to overlap.
+
 (c) Each replica is independently up 95 percent of the time. Give the probability that no read quorum is available.
+
 (d) A power event takes down exactly one replica in each column, 4 in total. Give the number of replicas still up, and state whether a read quorum exists.
 
 **P3 (🔴, optional)** A store uses $N = 3$, $R = 2$, $W = 2$, with no read repair and no write-back.
 
 (a) Give an ordered step list, naming the replicas contacted, in which two non-overlapping reads return the new value and then the old one.
+
 (b) Rerun your scenario with the ABD read rule — query, write back to a write quorum, then return — and state at which step the anomaly is prevented.
+
 (c) Give the number of message round trips ABD costs for a read and for a write, and state what the extra round buys in each case.
+
 (d) The team instead enables sloppy quorums so that writes succeed when only one home replica is reachable. Give the guarantee this breaks and a concrete read that now returns a stale value.
 
 <details>
@@ -217,7 +226,9 @@ The guarantee survives only in the eventual sense: once hinted handoff completes
 **From Lesson 2.5 (replication strategies):** A leader replicates synchronously to $k$ followers, each responding in 4 ms with probability 0.97 and 120 ms with probability 0.03, independently.
 
 (a) Give the probability a write is slow when the leader waits for all followers, at $k = 3$.
+
 (b) Give the same probability when it waits for exactly one, at $k = 3$.
+
 (c) State which of the two the leader is doing if it waits for a majority of $k = 3$, and give the probability.
 
 <details>

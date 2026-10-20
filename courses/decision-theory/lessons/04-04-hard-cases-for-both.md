@@ -97,18 +97,23 @@ Evidential decision theory pays. Causally the termites are already there or not;
 **P1 (🟢)** *(Formal (a)–(b) · Exegetical (c).)* A button kills every psychopath. Pressing is worth +8 if you are not one and −40 if you are; not pressing is worth 0. Your credence that you are a psychopath is 0.1, and 0.6 given that you press.
 
 (a) Compute the causal and evidential expected utility of pressing, and say what each theory recommends.
+
 (b) Find the largest credence $q$ that you are a psychopath at which causal decision theory still recommends pressing.
+
 (c) Is pressing ratifiable? Use your credence given that you press, and say in one sentence what the answer means.
 
 **P2 (🟡)** *(Formal (a)–(b) · Exegetical (c).)* An asymmetric Death in Damascus (a variant of this kind is due to Richter, 1984). Death is wherever you go with probability $p$. Surviving is worth 100, dying 0, and Aleppo adds 10 either way because the trip is pleasant.
 
 (a) Compute the evidential value of each city as a function of $p$. Which does evidential decision theory choose?
+
 (b) For which $p$ is Aleppo ratifiable, and for which is Damascus?
+
 (c) At $p=0.9$, what does a theory that says "choose a ratifiable act" advise, and what does that show about ratifiability as a decision rule? Two sentences.
 
 **P3 (🔴, optional)** *(Exegetical (a) · Evaluative (b).)* Two causalists face Example 1's button. Ana says: "Causal value says press; the evidence my choice gives about my own brain is not something pressing causes, so I press." Ben says: "I won't press; I won't pick an act I'll regret the moment I choose it."
 
 (a) Name the single premise Ana accepts and Ben denies. One sentence.
+
 (b) Say what argument or consideration would move one of them, and whether biting the bullet generalizes for that side. 150 words or fewer. Any verdict passes.
 
 <details>
@@ -187,7 +192,9 @@ Aleppo wins by 10 for every $p$, so evidential decision theory chooses Aleppo.
 **From Lesson [4.2](04-02-evidential-decision-theory.md) (Evidential decision theory):** *(Formal (a)–(b) · Exegetical (c).)* A gene $G$ raises the risk of heart disease: $P(\text{disease}\mid G)=\tfrac12$ and $P(\text{disease}\mid\neg G)=\tfrac1{10}$. Napping ($N$) is worth $+5$, disease $-75$, and napping causes nothing. The gene also produces a felt drowsiness $T$. The agent feels it, and given that, her credence in $G$ is $\tfrac12$. But the tickle leaks: the gene also tilts how drowsiness becomes a decision, so $P(N\mid G\wedge T)=\tfrac34$ and $P(N\mid\neg G\wedge T)=\tfrac12$.
 
 (a) Find $P(G\mid N\wedge T)$ and $P(G\mid\neg N\wedge T)$, then $V(N\mid T)$ and $V(\neg N\mid T)$. What does evidential decision theory recommend?
+
 (b) Find the smallest pleasure from napping (replacing $+5$) above which it naps. Then close the leak, $P(N\mid G\wedge T)=P(N\mid\neg G\wedge T)$: what does it recommend, and by how much?
+
 (c) Which assumption of the tickle defence does the leak break? One sentence.
 
 <details>

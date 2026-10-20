@@ -74,7 +74,9 @@ A few solar masses of gas per year — a modest galaxy's worth of star-formation
 ## Problems
 
 **P1 (🟢)** A quasar has luminosity $L_{\rm Q} = 10^{13}\,L_\odot$; its host galaxy contains $10^{11}$ stars and shines like the Milky Way, $L_{\rm MW} \approx 3\times 10^{10}\,L_\odot$.
+
 (a) By what factor does the quasar outshine its entire host galaxy?
+
 (b) The quasar's brightness varies noticeably over $\Delta t = 1$ day. Put an upper bound on the size $R$ of the emitting region (in meters and in AU; $1\,\mathrm{AU}=1.5\times 10^{11}$ m), and compare it to the solar system. In one sentence, state the paradox this poses.
 
 **P2 (🟡)** Use the $M$–$\sigma$ relation $M_{\rm BH}\approx 10^{8}\,M_\odot\,(\sigma/200\ \mathrm{km/s})^{4}$ to estimate the central black-hole mass in a galaxy with bulge velocity dispersion $\sigma = 100\ \mathrm{km/s}$. Then, if this galaxy's bulge stellar mass is $M_{\rm bulge} = 5\times 10^{9}\,M_\odot$, find the ratio $M_{\rm BH}/M_{\rm bulge}$ and compare it to the canonical $\sim 0.1\%$.

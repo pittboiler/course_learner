@@ -123,8 +123,11 @@ The security market line, recovered from $p=\mathbb{E}[m\,x]$ plus one assumptio
 ## Problems
 
 **P1 (🟢)** An investor has CRRA log utility $u(c)=\ln c$ with $\beta = 0.98$ and $c_0 = 1$. Tomorrow: **boom** with probability 0.6, $c_1 = 1.1$; **bust** with probability 0.4, $c_1 = 0.9$.
+
 (a) Compute the SDF $m$ in each state and $\mathbb{E}[m]$.
+
 (b) Find the risk-free gross return $R_f$.
+
 (c) Price an asset paying $x = 1.5$ in the boom and $x = 1.0$ in the bust.
 
 **P2 (🟡)** In a two-state economy with $P = (\tfrac12,\tfrac12)$ over (good, bad), the SDF is $m = (\tfrac23,\ \tfrac43)$, so $\mathbb{E}[m]=1$ and $R_f = 1$. Two correctly-priced assets:
@@ -134,15 +137,20 @@ The security market line, recovered from $p=\mathbb{E}[m\,x]$ plus one assumptio
 For each, compute $\mathbb{E}[R]$, $\operatorname{Cov}(m,R)$, and the risk premium $-\operatorname{Cov}(m,R)/\mathbb{E}[m]$; confirm it equals $\mathbb{E}[R]-R_f$, and explain the sign in one sentence.
 
 **P3 (🔴 — Boss problem 3)** Starting from $p=\mathbb{E}[m\,x]$ alone, in one connected argument:
+
 (a) assuming $m = a - b\,R_M$ is affine in the market return, derive the CAPM beta relation $\mathbb{E}[R_i]-R_f = \beta_i(\mathbb{E}[R_M]-R_f)$;
+
 (b) defining $dQ/dP = R_f\,m$, show $Q$ is an equivalent probability measure and that $p=\mathbb{E}[m\,x]$ becomes $p = \mathbb{E}^Q[x]/R_f$ — i.e. the SDF and the equivalent martingale measure are the same object. State where each of the two facts $m>0$ and $\mathbb{E}[m]=1/R_f$ is used.
 
 <details>
 <summary>Solutions</summary>
 
 **P1.** $u'(c)=1/c$, so $m = \beta\,c_0/c_1 = 0.98/c_1$.
+
 (a) $m_{\text{boom}} = 0.98/1.1 = 0.8909$, $m_{\text{bust}} = 0.98/0.9 = 1.0889$. $\mathbb{E}[m] = 0.6(0.8909) + 0.4(1.0889) = 0.5345 + 0.4356 = 0.9701$.
+
 (b) $R_f = 1/\mathbb{E}[m] = 1/0.9701 = 1.0308$ (a 3.08% risk-free rate).
+
 (c) $p = \mathbb{E}[m\,x] = 0.6(0.8909\cdot 1.5) + 0.4(1.0889\cdot 1.0) = 0.6(1.3364) + 0.4(1.0889) = 0.8018 + 0.4356 = 1.2374.$
 
 *Cross-check via $Q$:* densities $0.8909/0.9701 = 0.9184$ (boom), $1.0889/0.9701 = 1.1225$ (bust); $Q = (0.6\cdot0.9184,\ 0.4\cdot1.1225) = (0.5510,\ 0.4490)$ (sums to 1 ✓). $\mathbb{E}^Q[x] = 0.5510(1.5) + 0.4490(1.0) = 0.8266 + 0.4490 = 1.2756$; $p = 1.2756/1.0308 = 1.2374.$ ✓
@@ -154,6 +162,7 @@ Asset A: $\mathbb{E}[R_A] = \tfrac12(1.2) + \tfrac12(0.9) = 1.05$. $\mathbb{E}[m
 Asset B: $\mathbb{E}[R_B] = \tfrac12(0.8) + \tfrac12(1.1) = 0.95$. $\mathbb{E}[mR_B] = \tfrac12(\tfrac23\cdot0.8) + \tfrac12(\tfrac43\cdot1.1) = \tfrac12(0.5333) + \tfrac12(1.4667) = 1.0$ ✓. $\operatorname{Cov}(m,R_B) = 1 - 0.95 = +0.05$. Premium $= -0.05$, and $\mathbb{E}[R_B]-R_f = 0.95 - 1 = -0.05$ ✓. **Negative** premium: B pays more in the bad state (high $m$), so it's *insurance* — investors accept a return below the risk-free rate for that protection.
 
 **P3.**
+
 (a) *CAPM.* Write any correctly-priced return as $1 = \mathbb{E}[mR_i]$. Expanding the product's expectation, $1 = \mathbb{E}[m]\mathbb{E}[R_i] + \operatorname{Cov}(m,R_i)$, and using $R_f = 1/\mathbb{E}[m]$:
 $$\mathbb{E}[R_i] - R_f = -\frac{\operatorname{Cov}(m,R_i)}{\mathbb{E}[m]}.$$
 Now impose $m = a - bR_M$: $\operatorname{Cov}(m,R_i) = -b\,\operatorname{Cov}(R_M,R_i)$, so $\mathbb{E}[R_i]-R_f = \frac{b}{\mathbb{E}[m]}\operatorname{Cov}(R_M,R_i)$. This holds for every asset, so in particular for $i=M$: $\mathbb{E}[R_M]-R_f = \frac{b}{\mathbb{E}[m]}\operatorname{Var}(R_M)$. Dividing eliminates $b/\mathbb{E}[m]$:

@@ -120,22 +120,31 @@ One more observation, which matters for cost. Suppose $A$ had broadcast $m_1$ an
 **P1 (🟢)** Process $A$ broadcasts $x_1$ then $x_2$. Process $B$, after delivering $x_1$, broadcasts $y_1$. For each delivery trace, name the **strongest** guarantee on the ladder that it satisfies, and name the property it violates.
 
 (a) $C: x_1, x_2, y_1$ and $D: x_1, x_2, y_1$
+
 (b) $C: x_1, y_1, x_2$ and $D: x_1, x_2, y_1$
+
 (c) $C: x_2, x_1, y_1$ and $D: x_2, x_1, y_1$
+
 (d) $C: y_1, x_1, x_2$ and $D: y_1, x_1, x_2$
 
 **P2 (🟡)** Three processes $(P, Q, R)$ run causal broadcast with vector clocks, all starting at $(0,0,0)$. Process $R$ receives, in this order: $m_c$ from $Q$ with vector $(2,1,0)$; $m_a$ from $P$ with vector $(1,0,0)$; $m_b$ from $P$ with vector $(2,0,0)$.
 
 (a) For each message as it is received, state whether $R$ delivers or buffers it, with the failing condition where it buffers.
+
 (b) Give $R$'s delivery order and its vector after each delivery.
+
 (c) Give the total number of messages $R$ held in its buffer at the moment of peak buffering.
+
 (d) Suppose $m_b$ is lost by the network and never arrives. State what $R$ delivers, and name the ladder rung whose absence causes the problem.
 
 **P3 (🔴, optional)** A team implements total-order broadcast with a **sequencer**: every broadcast is sent to a designated node, which assigns the next sequence number and forwards the message to all $n$ processes, which deliver strictly in sequence-number order.
 
 (a) Give the message count per broadcast, and compare it with eager reliable broadcast's count at $n = 50$.
+
 (b) Give an ordered step list in which the sequencer crashes and the surviving processes hold delivery orders that cannot both be extended to one common order, or argue that no such list exists.
+
 (c) The team's fix is: "if the sequencer is unreachable for 3 seconds, the node with the lowest id becomes the new sequencer." Give the failure scenario from [1.2](01-02-failure-models-and-the-network.md) that breaks this, with the resulting damage.
+
 (d) State the general result this exercise is an instance of, and what it implies about building total-order broadcast without a consensus protocol.
 
 <details>
@@ -216,7 +225,9 @@ The implication: **there is no shortcut.** Any total-order broadcast implementat
 **From Lesson 1.3 (RPC and delivery semantics):** A broadcast library re-sends any message it has not seen acknowledged within 2 seconds, and receivers apply every message they receive.
 
 (a) Name the delivery semantics this provides.
+
 (b) The application uses the broadcast to replicate the operation `add 10 to the total`. Give the total after one broadcast in which one receiver's acknowledgement is lost twice before succeeding, starting from 0.
+
 (c) Give the change that makes the replicated total correct, and name the property it gives the operation.
 
 <details>

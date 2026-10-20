@@ -95,17 +95,21 @@ Here the tool strains. The defender of a critical level has two replies. One is 
 **P1 (🟢)** *(Formal (a)–(b) · Exegetical (c).)* A critical-level view has $c=5$. Option S adds 50 people at welfare $-10$ to an existing population; option H instead adds 400 people at welfare 3.
 
 (a) Compute each option's change in critical-level value, and say which the view prefers.
+
 (b) Keep the two options fixed. Find every critical level $c\ge0$ at which the view prefers S to H.
+
 (c) Name the result in (a) and say in one sentence why the total view does not face it on these options.
 
 **P2 (🟡)** *(Formal (a) · Exegetical (b).)* A is 100 people at 60. A+ adds 100 people at 20. B is the same 200 people as A+, all at 45.
 
 (a) Compute the total, average and critical-level value ($c=35$) of A, A+ and B, and give each view's ranking.
+
 (b) For each of the following, name which premise of the mere addition paradox it denies, one line each: the average view; the critical-level view with $c=35$; the narrow person-affecting view of this lesson (show its three pairwise verdicts); Temkin.
 
 **P3 (🔴, optional)** *(Exegetical (a) · Evaluative (b).)* Invented exchange. A town can fund a fertility programme that will, over a generation, add 5,000 people whose lives go well, though somewhat less well than the current residents'. No current resident's welfare changes. Tomás, a total utilitarian, says: "The programme makes the world better: 5,000 good lives exist that otherwise would not." Rhea, a narrow person-affecting theorist, says: "It makes the world neither better nor worse. Nobody is better off for it, since those 5,000 would not otherwise exist."
 
 (a) Name the single premise Tomás accepts and Rhea denies. One sentence.
+
 (b) Say what case or consideration would move one of them, and whether that side's bullet generalizes. 150 words or fewer. Any verdict passes.
 
 <details>
@@ -195,6 +199,7 @@ Total: $B>A^+>A$. Average: $A>B>A^+$. Critical level: $A>B>A^+$.
 **From Lesson [5.2](05-02-interpersonal-comparison-and-social-welfare-functions.md) (Interpersonal comparison and social welfare functions):** *(Formal (a) · Exegetical (b).)* Ana and Ben; each one's vNM utility is their well-being, measured on a ratio scale common to both. Three policies: $G$ gives Ana 9 and Ben 1 for sure; $L$ flips a fair coin, giving $(9,1)$ on heads and $(1,9)$ on tails; $E$ gives each 4 for sure.
 
 (a) Score $G$, $L$ and $E$ by the equal-weight Harsanyi sum, by $W_{\text{post}}$ and by $W_{\text{ante}}$, both with $f=\sqrt{\ }$.
+
 (b) Using these three policies, name the principle each rule gives up: one sentence each, citing the pair that shows it.
 
 <details>

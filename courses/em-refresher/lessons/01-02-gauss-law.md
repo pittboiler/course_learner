@@ -91,8 +91,11 @@ The length $L$ cancels — it had to, since an infinite wire has no special poin
 **P2 (🟡)** An infinite flat sheet carries uniform surface charge density $\sigma = 2.0\times10^{-8}\ \mathrm{C/m^2}$. Using a cylindrical "pillbox" Gaussian surface straddling the sheet, derive the field and evaluate it. Which surfaces carry flux, and which carry none — and why?
 
 **P3 (🔴, the boss)** A solid insulating sphere of radius $R = 0.10$ m carries total charge $Q = 6.0$ nC spread uniformly through its volume.
+
 (a) Use a spherical Gaussian surface to find $E(r)$ *inside* ($r < R$) and *outside* ($r > R$).
+
 (b) Evaluate $E$ at $r = 0.050$ m and at $r = 0.20$ m, and confirm the two formulas agree at the surface $r = R$.
+
 (c) Name the `calc-refresher` 5.3 theorem that guarantees the outside field is identical to that of a point charge $Q$ at the center.
 
 <details>

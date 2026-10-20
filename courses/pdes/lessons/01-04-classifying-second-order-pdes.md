@@ -78,8 +78,11 @@ That canonical form integrates by inspection: $u_\xi$ is independent of $\eta$, 
 ## Problems
 
 **P1 (🟢)** Classify each as elliptic, parabolic, or hyperbolic:
+
 (a) $u_{xx} - 6u_{xy} + 9u_{yy} + u_x = 0$;
+
 (b) $3u_{xx} + u_{yy} - 5u = 0$;
+
 (c) $u_{xx} + 3u_{xy} + u_{yy} = 0$.
 
 **P2 (🟡)** The equation $u_{xx} - 5u_{xy} + 6u_{yy} = 0$ has constant coefficients. Classify it, then find the two families of characteristic curves.
@@ -90,8 +93,11 @@ That canonical form integrates by inspection: $u_\xi$ is independent of $\eta$, 
 <summary>Solutions</summary>
 
 **P1** Ignore all lower-order terms; use $B = \tfrac{1}{2}(\text{coeff of } u_{xy})$.
+
 (a) $A = 1,\ B = -3,\ C = 9$: $\Delta = 9 - 9 = 0$ → **parabolic**. (The $u_x$ term is irrelevant.)
+
 (b) $A = 3,\ B = 0,\ C = 1$: $\Delta = 0 - 3 = -3 < 0$ → **elliptic**. (The $-5u$ term is irrelevant.)
+
 (c) $A = 1,\ B = \tfrac{3}{2},\ C = 1$: $\Delta = \tfrac{9}{4} - 1 = \tfrac{5}{4} > 0$ → **hyperbolic**.
 
 **P2** $A = 1,\ B = -\tfrac{5}{2},\ C = 6$, so $\Delta = \tfrac{25}{4} - 6 = \tfrac{1}{4} > 0$ → **hyperbolic**. The characteristic slopes:

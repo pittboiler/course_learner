@@ -193,6 +193,7 @@ Answer: $c \ge 2$. The sums all shift by $c$, so the utilitarian ranking stays $
 **From Lesson [6.1](06-01-approval-voting.md) (Approval voting):** *(Formal (a)–(b).)* Seven voters rank A, B, C: 2: A ≻ B ≻ C, 4: B ≻ C ≻ A, 1: B ≻ A ≻ C. Every approval ballot is sincere and non-empty (a top segment of its voter's ranking).
 
 (a) Find the Condorcet winner and the Condorcet loser. Give sincere ballots under which the Condorcet loser is the unique approval winner, with the scores.
+
 (b) C beats the Condorcet loser head to head. Prove, in three sentences or fewer, that no profile of sincere ballots makes C the unique winner. Then say in one sentence which candidates sincere approval voting can elect uniquely, on any profile.
 
 <details>

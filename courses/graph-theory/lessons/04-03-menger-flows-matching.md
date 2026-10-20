@@ -95,6 +95,7 @@ Both counts are $2$: Menger checks out. Notice the chord $ab$ is a decoy — it 
 <summary>Solutions</summary>
 
 **P1** (a) $P_1: s\to a\to t$ and $P_2: s\to b\to c\to t$ are edge-disjoint — $2$ paths. A third is impossible: $t$ has only the two edges $at,ct$, so at most two edge-disjoint paths can *enter* $t$.
+
 (b) Delete $at$ and $ct$: $t$ becomes isolated, no $s$–$t$ path remains, so this is a separator of size $2$. One edge alone can't separate (the two disjoint paths survive any single deletion), so $\lambda(s,t)=2$. Max paths $=2=$ min separator. $\blacksquare$
 
 **P2** Network: $s\to x_1,x_2,x_3$; middle arcs $x_1\to y_1,\ x_1\to y_2,\ x_2\to y_2,\ x_3\to y_2$; $y_1,y_2,y_3\to t$ (note $y_3$ has no in-arc). Max flow: push $s\to x_1\to y_1\to t$ and $s\to x_2\to y_2\to t$, value $2$. Can we get $3$? No: $x_2$ and $x_3$ can only reach $y_2$, and $y_2$'s out-arc $y_2\to t$ has capacity $1$, so at most one unit total flows through $\{x_2,x_3\}$. Max flow $=2$.

@@ -102,13 +102,19 @@ A household has financial wealth $A_0 = 50$ and expects labor income $y_0=40,\ y
 
 **P2 (🟡) — Transitory vs. permanent MPC, contrasted.**
 Stay in the infinite-horizon PIH with $c_t=\tfrac{r}{1+r}[A_t+\sum_{s\ge0}(1+r)^{-s}\mathbb{E}_t y_{t+s}]$ and take $r=0.05$.
+
 (a) A household receives an *unexpected* one-time transfer of $\Delta=1{,}000$ (this period only). By how much does $c_t$ rise? What is the implied MPC?
+
 (b) Instead the household learns its income is permanently higher by $\Delta=1{,}000$ per period, starting now. By how much does $c_t$ rise? What is the MPC?
+
 (c) In one sentence, explain why (a) and (b) differ by the factor $\tfrac{1+r}{r}$, and what that implies for the effect of a temporary tax rebate vs. a permanent tax cut.
 
 **P3 (🔴) — Hall's random walk and the two empirical puzzles.**
+
 (a) Starting from the Euler equation $u'(c_t)=\beta(1+r)\mathbb{E}_t u'(c_{t+1})$, assume quadratic utility $u(c)=-\tfrac12(\bar c-c)^2$ and $\beta(1+r)=1$. Derive $\mathbb{E}_t c_{t+1}=c_t$ and hence $c_{t+1}=c_t+\varepsilon_{t+1}$ with $\mathbb{E}_t\varepsilon_{t+1}=0$.
+
 (b) Explain precisely why this implies that a change in income that was *predictable* at time $t$ should have *zero* effect on $\Delta c_{t+1}$.
+
 (c) Define the "excess sensitivity" and "excess smoothness" puzzles and say which PIH prediction each one violates.
 
 <details>

@@ -80,12 +80,15 @@ The option reopens only where the remedy stops short, as in [strategic default](
 **P1 (🟢) *(Exegetical.)*** Three invented debtors, each able to pay. For each, say (i) whether the law would get the creditor all of it, and if not, whether the shortfall was written into the bargain or imposed by law; and (ii) what Fried's promise view says the debtor owes. Two sentences per case.
 
 (a) A restaurant group owes a produce supplier 4,000 dollars on an overdue invoice. Suing would cost the supplier about 3,000 dollars in fees that no court would make the group repay, so the group expects never to be sued.
+
 (b) Omar owes a phone company 900 dollars, nine years overdue. Under the local (invented) law, courts dismiss suits on debts more than six years overdue, but money paid voluntarily on such a debt cannot be reclaimed.
+
 (c) Dev pawns a guitar for 200 dollars. The ticket says he may redeem it within 30 days for 220 dollars or let the shop keep and sell it, and that either way he owes nothing more. The guitar is now worth 150 dollars, and Dev lets it go.
 
 **P2 (🟡) *(Formal (a) · Evaluative (b).)*** Invented figures. A bank sells 1,000 overdue card accounts, each with a balance of 2,000 dollars, to a collector for 4 cents on the dollar. The collector expects 5 percent of the accounts to pay in full, 10 percent to settle for 40 percent of the balance, and the rest to pay nothing. Collecting costs it 25 percent of whatever it collects.
 
 (a) Compute the price, the expected net collections and the expected return on the price. What did the collector pay for any one account, and what multiple of that price is one full payment?
+
 (b) Tomás holds one of the accounts and can pay. He says: "The bank sold my debt for 80 dollars, so I owe the buyer 80 dollars at most." Does he owe the collector 2,000 dollars? Use (a). Any verdict; 150 words or fewer.
 
 **P3 (🔴, optional) *(Exegetical.)*** Two invented commentators on contract law's refusal to award punitive damages for deliberate breach:

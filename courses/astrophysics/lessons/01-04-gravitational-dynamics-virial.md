@@ -92,8 +92,11 @@ Now count the light: the cluster's galaxies shine like maybe $10^{12}$–$10^{13
 **P2 (🟡)** A globular star cluster has a line-of-sight velocity dispersion $\sigma = 10\ \mathrm{km/s}$ and a radius $R = 10\ \mathrm{pc}$ ($1\ \mathrm{pc} = 3.086\times10^{16}\ \mathrm m$). Estimate its mass from the virial relation $M \sim \sigma^2 R/G$, in kg and in $M_\odot$. Its luminosity implies about $2\times10^5\,M_\odot$ of stars — is dark matter required here? Contrast with Example 2.
 
 **P3 (🔴, optional)** A self-gravitating cloud of ideal monatomic gas ($N$ particles, total mass $M$, radius $R$) is in virial equilibrium and radiates energy at luminosity $L>0$. Its thermal kinetic energy is $\langle K\rangle = \tfrac32 N k_B T$ and its gravitational energy is $\langle U\rangle = -\alpha GM^2/R$ ($k_B = 1.381\times10^{-23}\ \mathrm{J/K}$).
+
 (a) Show the total energy is $E = -\tfrac32 N k_B T$, and find the heat capacity $C = dE/dT$.
+
 (b) Radiating means $dE/dt = -L$. Show that $T$ *rises* and $R$ *shrinks* as the cloud loses energy.
+
 (c) Explain in one or two sentences why this makes a star a stable thermostat: what happens to the fusion rate if the core accidentally over- or under-produces energy?
 
 <details>

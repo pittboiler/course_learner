@@ -171,6 +171,7 @@ $$
 $$
 \partial_3[v_0,v_1,v_2,v_3] = [v_1,v_2,v_3] - [v_0,v_2,v_3] + [v_0,v_1,v_3] - [v_0,v_1,v_2].
 $$
+
 (b) The faces obtained by dropping $v_1$ and $v_3$ (odd positions) carry minus signs. Geometrically the sign records the *induced orientation* on each face: it flips the face's own vertex-ordering exactly when needed so that adjacent faces of $\sigma$ disagree along their shared edge — which is precisely what forces the double-boundary $\partial_2\partial_3\sigma$ to cancel to $0$. Quick check: applying $\partial_2$ to the four faces and collecting, every edge $[v_i,v_j]$ appears twice with opposite signs, so $\partial_2\partial_3\sigma = 0$, consistent with the fundamental identity. $\blacksquare$
 
 </details>

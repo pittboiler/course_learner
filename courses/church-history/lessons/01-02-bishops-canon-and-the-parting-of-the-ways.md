@@ -96,6 +96,7 @@ Identify **three** claims on the placard that the evidence in this lesson does n
 > "Among these were the presbyters before Soter, who presided over the church which you now rule. We mean Anicetus, and Pius, and Hyginus, and Telesphorus, and Xystus. They neither observed it themselves, nor did they permit those after them to do so. And yet though not observing it, they were none the less at peace with those who came to them from the parishes in which it was observed..."
 
 (a) What does the first paragraph establish that Victor did, and what does it leave open? Name the words that decide each. What does Irenaeus call Victor's predecessors, and why does that matter for Lampe's thesis? Four sentences or fewer.
+
 (b) Does the episode better support the reading that other churches recognized a special Roman authority, or the reading that they did not? Any verdict. 150 words or fewer.
 
 **P3 (🔴, optional) *(Exegetical.)*** (a) Name the crux between Dunn and Boyarin on the partings of the ways: the premise about the sources that one side must deny. (b) Name one kind of evidence from *outside* bishops' and rabbis' writings about identity that would move the question, and say which way a given finding would push it. 150 words or fewer in total.

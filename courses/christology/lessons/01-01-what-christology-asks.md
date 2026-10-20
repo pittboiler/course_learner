@@ -134,9 +134,13 @@ The strain is this. The grammar tells you which readings are closed. It doesn't 
 For each, in one line: does it err about the *who* or the *what*, which of the four moves does it make, and what is the error called?
 
 **P2 (🟡)** *(Exegetical)* Assign a level to each claim and name the act that fixes it, or say that no act does. One line each.
+
 (a) Christ has a rational human soul.
+
 (b) Christ has two natural wills. A student has marked this "common teaching, since it is not in the Creed."
+
 (c) Christ's human soul enjoyed the beatific vision from his conception.
+
 (d) Christ has a single act of existence (*esse*), not two.
 
 **P3 (🔴)** *(Exegetical)* An **invented** parish talk, written for this problem:

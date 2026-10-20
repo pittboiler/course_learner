@@ -92,6 +92,7 @@ The channel goes from **20% to about 75% open**.
 **P3** (a) Unfolded is the upper state, $\Delta E = +5\,k_BT$:
 $$p_{\text{unfolded}} = \frac{1}{1+e^{5}} = \frac{1}{1+148.4} \approx 0.0067,$$
 about **0.67%** — roughly 1 molecule in 150 is unfolded at any instant. That constant thermal unfolding/refolding is real: marginal stabilities of $5$–$15\,k_BT$ are typical for small proteins.
+
 (b) At $\Delta E = 0$, $p_{\text{unfolded}} = 1/(1+1) = 0.5$ — **50% unfolded**. The denaturant raised the folded-state energy by the full $5\,k_BT$ needed to close the gap.
 *Check.* $\Delta E$ went from $+5\,k_BT$ to $0$, a $5\,k_BT$ change, and occupancy rose from 0.67% to 50% — a huge swing from a modest energy, the hallmark of the sigmoid's steep region. Units are consistent (energies in $k_BT$, probabilities dimensionless). ✓
 
@@ -105,6 +106,7 @@ about **0.67%** — roughly 1 molecule in 150 is unfolded at any instant. That c
 <summary>Solution</summary>
 
 (a) $2\,k_BT \times 0.6\ \text{kcal/mol per }k_BT \approx 1.2\ \text{kcal/mol}$ — feeble on the scale of a covalent bond (~100 kcal/mol), which is why hydrogen bonds form and break constantly.
+
 (b) With the broken state $\Delta E = 2\,k_BT$ above the bonded state,
 $$p_{\text{broken}} = \frac{1}{1+e^{2}} = \frac{1}{1+7.39} \approx 0.12.$$
 About **12%** of such bonds are broken at any moment.

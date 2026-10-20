@@ -102,6 +102,7 @@ $g$ is continuous and $g(0)=g(1)=(1,0)$, so it descends to a continuous **biject
 ## Problems
 
 **P1 (🟢)** For each set, state whether it is compact in $\mathbb{R}^2$ and give the one-line Heine–Borel reason:
+
 (a) $\{(x,y):x^2+y^2=4\}$; (b) $\{(x,y):xy\ge 1,\ x>0\}$; (c) $\{(x,y):0\le x\le1,\ 0\le y\le1\}\setminus\{(1,1)\}$.
 
 **P2 (🟡)** Let $f:X\to\mathbb{R}$ be continuous on a compact space $X$, and suppose $f(x)>0$ for every $x\in X$. Prove there is a constant $c>0$ with $f(x)\ge c$ for all $x$. (This is the standard "a positive continuous function on a compact set is bounded away from $0$" — the reason so many estimates go through.)
@@ -112,8 +113,11 @@ $g$ is continuous and $g(0)=g(1)=(1,0)$, so it descends to a continuous **biject
 <summary>Solutions</summary>
 
 **P1**
+
 (a) **Compact.** The circle of radius $2$ is bounded (inside $B(0,3)$) and closed (preimage of $\{4\}$ under the continuous $x^2+y^2$).
+
 (b) **Not compact.** Closed, but unbounded — e.g. $(t,1/t)$ for large $t$ runs to infinity while staying in the set.
+
 (c) **Not compact.** Bounded, but not closed: $(1,1)$ is a limit point of the punctured square that the set omits.
 
 **P2** By the Extreme Value Theorem, the continuous $f$ on the compact $X$ attains a minimum: there is $p\in X$ with $f(p)\le f(x)$ for all $x$. Set $c=f(p)$. Since $p\in X$ and $f>0$ everywhere, $c=f(p)>0$, and $f(x)\ge c$ for all $x$ by minimality. Done. (The point is that $\inf f$ is *attained*, so it is a value of $f$ and hence strictly positive — without compactness the infimum could be $0$ and unreached, e.g. $f(x)=x$ on $(0,1)$.)

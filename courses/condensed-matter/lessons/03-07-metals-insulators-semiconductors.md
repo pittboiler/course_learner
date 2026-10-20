@@ -88,9 +88,13 @@ At the zone boundary $k = \pi/a$ this flat band top meets the nearly-free-electr
 ## Problems
 
 **P1 (🟢)** Classify each as metal, semiconductor, or insulator, and say why in one line:
+
 (a) a monovalent element with one half-filled band;
+
 (b) a divalent element whose two lowest bands overlap by 0.5 eV;
+
 (c) a tetravalent crystal with a filled valence band and $E_g = 5.5$ eV;
+
 (d) a tetravalent crystal with a filled valence band and $E_g = 1.1$ eV.
 
 **P2 (🟡)** For the tight-binding band $E(k) = \varepsilon_0 - 2t\cos(ka)$ with $t = 0.5$ eV and $a = 3\ \text{Å}$, compute the group velocity $v_g(k)$, and evaluate the effective mass at the band bottom in units of the free-electron mass $m_e = 9.11\times10^{-31}$ kg. Where in the band is $m^*$ negative, and what do we call the carriers there? ($\hbar = 1.055\times10^{-34}$ J·s, $1\ \text{eV} = 1.602\times10^{-19}$ J.)
@@ -101,9 +105,13 @@ At the zone boundary $k = \pi/a$ this flat band top meets the nearly-free-electr
 <summary>Solutions</summary>
 
 **P1**
+
 (a) **Metal** — a partially (half) filled band means $g(E_F) \neq 0$; empty states sit right at $E_F$ for a field to use.
+
 (b) **Metal** (a semimetal if the overlap were tiny) — the band overlap prevents the lower band from filling cleanly, so both bands are partly filled. The divalent count *alone* would suggest an insulator, but overlap wins.
+
 (c) **Insulator** — filled valence band, empty conduction band, and $E_g = 5.5$ eV $\gg k_BT \approx 0.025$ eV, so essentially no electrons are thermally promoted.
+
 (d) **Semiconductor** — identical band structure to (c), but $E_g = 1.1$ eV is small enough that a measurable (if tiny) fraction of electrons crosses at room temperature, leaving holes behind.
 
 *Check.* The insulator/semiconductor split turns entirely on $E_g/k_BT$: with $k_BT \approx 0.025$ eV, the promotion factor $e^{-E_g/2k_BT}$ has exponent $E_g/2k_BT = 110$ for diamond versus $22$ for silicon — a suppression differing by dozens of powers of $e$, which is exactly why one insulates and the other conducts weakly. ✓

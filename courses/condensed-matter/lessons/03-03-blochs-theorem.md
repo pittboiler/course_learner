@@ -97,7 +97,9 @@ The crystal momentum is $\hbar k$.
 
 **P2** (a) Born–von Kármán quantizes $k$ to $N$ values per band, one per unit cell, so **1000** distinct $k$. The zone has width $2\pi/a$, so the spacing is
 $$\Delta k = \frac{2\pi/a}{N} = \frac{2\pi}{Na} = \frac{2\pi}{1000 \times 3\ \text{Å}} = \frac{2\pi}{3000\ \text{Å}} \approx 2.1\times10^{-3}\ \text{Å}^{-1}.$$
+
 (b) Each $k$ holds 2 spin states, so a single band holds $2N = \mathbf{2000}$ electron states.
+
 (c) The zone $[-\pi/a,\ \pi/a)$ has length $2\pi/a$; $N$ equal steps of $\Delta k = 2\pi/(Na)$ span $N\cdot\Delta k = 2\pi/a$ — exactly one zone width, no gaps or overlaps. ✓
 
 *Check.* Units: $\Delta k \sim 1/\text{length}$ ✓. Order of magnitude: the zone half-width $\pi/a = \pi/3 \approx 1.05\ \text{Å}^{-1}$, and $\Delta k \approx 2.1\times10^{-3}\ \text{Å}^{-1}$ is about $1/1000$ of the full width — the $k$-grid is fine but discrete, exactly $N$ points, as it must be for $N$ cells. ✓

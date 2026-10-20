@@ -138,6 +138,7 @@ The quotation is genuine (Cyril's twelfth anathema, NPNF second series, vol. 14)
 **From Lesson [4.4](04-04-augustine-against-the-donatists.md) (Augustine against the Donatists):** *(Exegetical.)* Suppose the disputed fact had gone the Donatists' way — suppose it were proved beyond argument that one of the bishops who consecrated Caecilian really had handed over the scriptures to be burned in the persecution.
 
 (a) On the Donatist premises, trace what follows for Caecilian's ordination, for the sacraments of the African Catholic communion, and for a convert arriving from it; name the **two** premises that carry the chain.
+
 (b) On Augustine's premises, trace what follows, naming the move that blocks each of those two. **Two sentences per part.**
 
 <details>

@@ -113,6 +113,7 @@ $F(\mathbf{P})$ is A ≻ B ≻ D ≻ C, the majority ranking, with Condorcet win
 **P1 (🟢) *(Formal (a)–(b).)*** $f$ is the dictatorship of voter 2: it picks the top of $\succ_2$. Profile: voter 1: B ≻ D ≻ A ≻ C; voter 2: C ≻ A ≻ D ≻ B; voter 3: D ≻ B ≻ C ≻ A.
 
 (a) Write out $\mathbf{P}^{AD}$ and $\mathbf{P}^{BD}$ and find $f$ on each. Then give $F(\mathbf{P})$ in full as a ranking.
+
 (b) Prove that for every profile, $F(\mathbf{P}) = \succ_2$.
 
 **P2 (🟡) *(Formal.)*** Prove step 3. Let $f$ be onto and strategy-proof, and suppose every voter orders $x$ and $y$ the same way in $\mathbf{P}$ and $\mathbf{P}'$. Show $f(\mathbf{P}^{xy}) = f(\mathbf{P}'^{xy})$, using only step 1 and strong monotonicity.
@@ -120,7 +121,9 @@ $F(\mathbf{P})$ is A ≻ B ≻ D ≻ C, the majority ranking, with Condorcet win
 **P3 (🔴, optional) *(Exegetical (a), (c) · Formal (b).)*** Three voters, alternatives A, B, C. The rule $g$ picks whichever of A and B a majority ranks higher, and never looks at C.
 
 (a) Is $g$ strategy-proof? Onto? Dictatorial? Which hypothesis of the theorem does it fail?
+
 (b) Every voter reports C ≻ A ≻ B. Compute $g$ on $\mathbf{P}^{AB}$, $\mathbf{P}^{AC}$ and $\mathbf{P}^{BC}$, give $F(\mathbf{P})$, and name the step of the proof that fails.
+
 (c) In one sentence each: where does the proof use onto, and where does it use $m \ge 3$?
 
 <details>

@@ -124,7 +124,9 @@ So: is it still closed? Catholic theologians differ, and the disagreement is rea
 **P1 (🟢) *(Exegetical.)*** For each act, name which of Lumen Gentium 25's three signs tells you most about its weight, and say in one clause how heavy a submission that indicates.
 
 (a) A doctrinal principle stated in a papal encyclical and restated in encyclicals by the next two popes.
+
 (b) A single sentence on a disputed moral question in a papal address to a visiting pilgrimage group.
+
 (c) An instruction from a Roman dicastery, approved by the pope, which states that a named question is no longer to be treated as open.
 
 (d) Which of (a)–(c), if any, establishes that the teaching in question is infallible? Name the canon that decides this and state what it requires.
@@ -132,6 +134,7 @@ So: is it still closed? Catholic theologians differ, and the disagreement is rea
 **P2 (🟡) *(Exegetical (a) · Evaluative (b).)*** On *Humani Generis* (1950):
 
 (a) State the two things it teaches about assent to what popes set forth in encyclicals — including what it says happens to a matter the popes deliberately judge — and then state one thing its principle does **not** establish about such a teaching.
+
 (b) Is the question of polygenism still closed? Argue either side in **150 words or fewer**. Say what the act of 1950 was at the level of authority, what the dogma of original sin requires independently of it, and what would have to be shown for your answer to be wrong.
 
 **P3 (🔴, optional) *(Exegetical.)*** An invented open letter, circulated by a group of Catholic theologians:

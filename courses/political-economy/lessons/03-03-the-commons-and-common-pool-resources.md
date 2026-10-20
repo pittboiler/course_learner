@@ -98,11 +98,13 @@ Gordon's dissipation returns gradually rather than at a cliff. Each newcomer rai
 **P1 (🟢)** *(Formal.)* Three households draw from a well. Each draws 3 units (restrain) or 5 (overdraw), and each unit is worth $20 - E$, where $E$ is the total drawn this period.
 
 (a) Show that overdrawing is a dominant strategy in the stage game and that the outcome is Pareto-dominated by universal restraint.
+
 (b) The game repeats forever with discount factor $\delta$. Find the $\delta^*$ above which grim trigger sustains universal restraint.
 
 **P2 (🟡)** *(Formal.)* Keep the setting of the Proposition, but now a deviation is detected, and publicly revealed at the end of the period it occurs, only with probability $\pi \in (0, 1]$, independently each period. Once a deviation is detected, all users revert to the stage Nash forever. Undetected deviations go unpunished.
 
 (a) Show that grim trigger is subgame-perfect iff $\delta \ge \delta^*(\pi) = \dfrac{g}{g + \pi}$, where $g = \dfrac{v^D - v^C}{v^C - v^N}$, and check that $\pi = 1$ recovers the Proposition.
+
 (b) With P1's payoffs, find $\delta^*(1/2)$, and the smallest $\pi$ that sustains restraint at $\delta = 0.8$.
 
 **P3 (🔴, optional)** *(Evaluative.)* Pick one of Ostrom's design principles that you think the repeated-game reading of this lesson cannot capture, or argue that none escapes it. In 150 words or fewer, say what the principle requires, which assumption of the model it touches, and whether a richer game could absorb it.

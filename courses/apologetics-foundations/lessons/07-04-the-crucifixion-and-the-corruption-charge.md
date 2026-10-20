@@ -151,6 +151,7 @@ Name three distinct faults in the note, one sentence each.
 ## Flashback
 
 **From Lesson [7.2](07-02-tawhid-and-the-trinity.md) (Tawhid and the Trinity):** *(Apologetic: (a) Exegetical, graded first · (b) reply.)* At an invented reading group (nobody here is real; it is built for the problem), a Catholic student explains the Trinity as "God's being, God's knowledge and God's love". A Muslim friend answers with the first step of Ibn Taymiyya's reply in *al-Jawab al-Sahih*: "Why three?"
+
 (a) State that step as Ibn Taymiyya pressed it, and name the Christian gloss it was aimed at. Two sentences. (b) Reply, opening with a **named concession**, using only what the dogma says about how the persons are distinguished. Then say in one sentence what your reply does not show. 100 words or fewer for (b).
 
 <details>

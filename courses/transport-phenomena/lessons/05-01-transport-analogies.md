@@ -119,6 +119,7 @@ Ratios to P1: $h$ is larger by $1/0.796 = 1.26$, $k_c$ larger by $1/0.711 = 1.41
 
 **P3** (a) From the analogy, $h/k_c = \rho c_p\,Le^{2/3}$, i.e. $k_c/h = 1/(\rho c_p Le^{2/3})$. Divide the energy balance by $h$:
 $$T_\infty - T_w = \frac{k_c}{h}\,\lambda\,(c_{A,s} - c_{A,\infty}) = \frac{\lambda\,(c_{A,s} - c_{A,\infty})}{\rho c_p\,Le^{2/3}}.$$
+
 (b) Every surviving factor — $\lambda$, $\rho$, $c_p$, $Le = Sc/Pr$, and the concentrations — is a *property* of the fluids and the surface state, not of the flow. The velocity $V$ dropped out entirely because it multiplies *both* $h$ (via $St\,\rho c_p V$) and $k_c$ (via $St_m V$) identically, so it cancels in the ratio $k_c/h$. Physically: blow harder and you thin both boundary layers by the same factor — heat gain and evaporative loss scale up together, leaving the equilibrium $T_w$ untouched. The wet-bulb temperature is set by humidity and thermodynamics, not by wind speed.
 
 *Check.* $\left[\dfrac{\lambda\,\Delta c}{\rho c_p Le^{2/3}}\right] = \dfrac{(\mathrm{J/mol})(\mathrm{mol/m^3})}{\mathrm{J\,m^{-3}K^{-1}}} = \mathrm{K}$ ✓ — a temperature, as it must be. For air $Le^{2/3}\approx0.89\approx1$, so $T_\infty - T_w \approx \lambda\,\Delta c/\rho c_p$. ✓

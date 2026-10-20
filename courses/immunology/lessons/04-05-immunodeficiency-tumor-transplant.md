@@ -146,18 +146,27 @@ The clinical loop closes on (a): **a better HLA match permits lighter immunosupp
 ## Problems
 
 **P1 (🟢)** For each patient, name the missing layer and justify from mechanism, not from memory.
+
 (a) A 4-month-old given rotavirus vaccine develops persistent disseminated rotavirus infection; absolute lymphocyte count is very low.
+
 (b) A 22-year-old woman has had two episodes of *Neisseria gonorrhoeae* bacteremia. No other significant infections.
+
 (c) A 6-year-old has recurrent bacterial skin infections that never form pus, with a blood neutrophil count three times normal.
 
 **P2 (🟡)** A patient needs a marrow transplant and has four siblings.
+
 (a) Probability at least one is HLA-identical, and probability exactly two are.
+
 (b) A sibling matches. Explain why graft-versus-host disease is still expected, and what the transplanting T cells are recognizing.
+
 (c) Suppose instead the donor is HLA-mismatched at one allele. Using $f_{\text{allo}} \approx N_p f$ with $N_p = 10^4$ and $f = 10^{-6}$, estimate how many of the graft's $10^{9}$ transferred T cells are alloreactive, and compare with the number specific for any one conventional antigen.
 
 **P3 (🔴, bridges to evolution & ecology)** A melanoma is detected at $10^{9}$ cells. The per-division probability of inactivating the class-I pathway is $u \approx 10^{-7}$.
+
 (a) Expected number of independent MHC-I-loss clones present at detection, and the probability that none exists.
+
 (b) At what tumor size does escape first become more likely than not? Express it as an approximate diameter, using $10^{9}$ cells per cubic centimetre.
+
 (c) The patient receives anti-PD-1 and responds, then relapses at 14 months with a tumor whose biopsy shows loss of $\beta_2$-microglobulin. Explain what the therapy did to the population, why the relapse was predictable from (a), and which effector arm the escape variant should now be vulnerable to.
 
 <details>
@@ -212,7 +221,9 @@ $$V = \frac{10^{7}}{10^{9}\ \text{cells cm}^{-3}} = 10^{-2}\ \text{cm}^{3} = 10\
 **From Lesson 3.5 (Helper T cells & subset polarization):** A 9-year-old has had disseminated infection with *Mycobacterium avium* and non-typhoidal *Salmonella*, but recovered normally from varicella, measles and a helminth infection. Antibody titres are normal; CD4 and CD8 counts are normal; his dendritic cells mature and express B7 normally in vitro. Sequencing finds a loss-of-function mutation in the IL-12 receptor β1 chain.
 
 (a) Which step of CD4 activation has failed, in the signal 1 / signal 2 / signal 3 scheme, and which transcription factor and effector cytokine are consequently missing?
+
 (b) Why do *these* organisms fail while viruses and helminths do not?
+
 (c) His antigen-specific CD4 cells expand to normal numbers after stimulation. Explain why normal expansion is useless here.
 
 <details>

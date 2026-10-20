@@ -99,7 +99,9 @@ The fork is thin versus thick. Read thinly, duty is one more preference, and the
 **P1 (🟢) *(Formal (a)-(c).)*** Invented numbers. Two fishing crews share a bay. Each season each crew either keeps to its quota (cooperate) or overfishes (defect). Stage payoffs: $T = 9$, $R = 6$, $P = 1$, $S = 0$. Both use grim trigger.
 
 (a) Compute $\delta^*$, and say whether cooperation holds at $\delta = 0.3$ and at $\delta = 0.6$.
+
 (b) Suppose each skipper has internalized a norm against overfishing: overfishing while the other crew keeps its quota now carries a guilt cost $g = 2$, lowering that payoff to $T - g$. No other payoff changes. Recompute $\delta^*$ and the verdict at $\delta = 0.3$.
+
 (c) How large must $g$ be for cooperation to hold at every $\delta$? In one sentence, say what this shows about the thin and thick readings of a norm.
 
 **P2 (🟡) *(Exegetical (a) · Evaluative (b).)*** Diagnose. An **invented** memo from the agriculture ministry of the invented province of Lornmoor, not the words of any real person or body:

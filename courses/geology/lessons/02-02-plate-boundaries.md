@@ -197,16 +197,23 @@ against an actual Atlantic basin area of roughly $8\times10^{7}\ \text{km}^2$. *
 **P2 (🟡)** A single convergent margin has three along-strike segments. The volcanic front lies $240\ \text{km}$ from the trench in the northern segment and $130\ \text{km}$ in the southern segment. The central segment has **no volcanoes at all**; its Benioff seismicity puts the slab top at $100\ \text{km}$ depth some $600\ \text{km}$ inland from the trench. Take the arc-forming slab depth as $110\ \text{km}$.
 
 (a) Compute the slab dip in the northern and southern segments.
+
 (b) Compute the effective dip in the central segment.
+
 (c) Explain the volcanic gap mechanistically — the slab is still dehydrating, so why no magma?
+
 (d) Predict one structural and one seismological difference between the central and southern segments that a field programme could test.
 
 **P3 (🔴, optional)** A north–south oceanic ridge is offset. The northern crest lies $500\ \text{km}$ **west** of the southern crest. A linear scarp joins them and continues as a bathymetric step for thousands of kilometres beyond each crest. Earthquakes occur only on the segment between the crests. The half-spreading rate is $2\ \text{cm/yr}$.
 
 (a) Identify the active plate boundary and give its length. What is the correct name for the scarp beyond the crests, and why is it aseismic?
+
 (b) Determine the slip sense on the active segment, and state what sense a geologist would wrongly infer from the map pattern alone.
+
 (c) Compute the age contrast across the scarp.
+
 (d) At one point along the scarp the younger side is $20\ \text{Ma}$. Using $d(t) = 2500 + 350\sqrt{t}$ metres, compute the bathymetric step and say which side is deeper.
+
 (e) Does the offset grow with time? Justify.
 
 <details>

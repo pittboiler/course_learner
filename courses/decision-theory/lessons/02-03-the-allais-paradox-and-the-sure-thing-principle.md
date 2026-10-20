@@ -114,16 +114,19 @@ She takes D. That is the Allais pattern, from a coherent model of a real emotion
 **P1 (🟢)** *(Formal (a) · Exegetical (b).)* Prizes are 0, 1,000 and 3,000 dollars. J pays 1,000 for sure. K pays 3,000 with chance 12%, 1,000 with chance 85%, nothing with chance 3%. L pays 1,000 with chance 15%, else nothing. M pays 3,000 with chance 12%, else nothing. A subject chooses J over K and M over L.
 
 (a) Lay the four gambles out on one 100-ticket table with three ticket ranges, and show algebraically, without normalizing $u$, that no expected-utility function produces both choices.
+
 (b) Which of Savage's postulates does the pattern violate, and which column of your table does that postulate say should not matter? One or two sentences.
 
 **P2 (🟡)** *(Formal.)* E pays 1,500 dollars for sure; F pays 2,500 with chance 75%, else nothing. G pays 1,500 with chance 20%, else nothing; H pays 2,500 with chance 15%, else nothing. A subject chooses E over F and H over G.
 
 (a) With $u(0)=0$, show that no expected-utility function produces both choices.
+
 (b) Write G and H as mixtures $\alpha X+(1-\alpha)\delta_0$ of E and F with "nothing for sure", find $\alpha$, and say which axiom the pattern violates and how.
 
 **P3 (🔴, optional)** *(Formal (a) · Evaluative (b).)* A regret agent compares acts $X,Y$ by $R(X,Y)=\sum_s p_s\,\psi(x_s,y_s)$, summing over states $s$ with probabilities $p_s$, where $\psi(x,y)$ is how she feels getting $x$ when the rejected act paid $y$, and $\psi(x,x)=0$. She picks $X$ when $R(X,Y)>0$.
 
 (a) On your P1 ticket table, show that $R(J,K)=R(L,M)$, so on that table she cannot choose both J and M.
+
 (b) Steelman a regret-based defence of choosing J and M when the four gambles are separate, independently drawn lotteries, and give Savage's best reply. 150 words or fewer. Any verdict passes.
 
 <details>
@@ -199,7 +202,9 @@ The last terms are both zero, so $R(J,K)=R(L,M)$. If it is positive she picks J 
 **From Lesson [2.1](02-01-savages-framework.md) (Savage's framework):** *(Formal (a)–(b) · Exegetical (c).)* A fund manager faces three states, Slump, Flat and Boom, with probabilities $\tfrac14, \tfrac14, \tfrac12$. Payoffs are in utility units. She ranks acts by mean minus a variance penalty, $V(f) = \mu_f - \tfrac{1}{20}\sigma_f^2$, where $\mu_f$ and $\sigma_f^2$ are the mean and variance of $f$'s payoff. Act $f$ pays $(40, 0, c)$ and act $g$ pays $(10, 10, c)$ on (Slump, Flat, Boom), so they agree on Boom.
 
 (a) Compute $V(f)$ and $V(g)$ for $c = 0$ and for $c = 40$. Which act does she choose in each case?
+
 (b) Find the Boom payoff $c$ at which she is indifferent. How would an expected-utility maximizer, with these probabilities and payoffs as utilities, rank $f$ against $g$ as $c$ varies?
+
 (c) Which Savage postulate does her rule violate, and on which event? An objector says: "Mean-variance is just expected utility with a quadratic utility, so it cannot violate any Savage postulate." What is wrong with that? Two sentences.
 
 <details>

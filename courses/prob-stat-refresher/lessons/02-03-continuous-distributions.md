@@ -105,7 +105,9 @@ Mean: $\mathbb{E}[X] = (0 + 10)/2 = 5$.
 Check: $7$ is $70\%$ of the way along $[0,10]$, so the fraction above it is the remaining $30\%$. ✓
 
 **P2** Mean $1/\lambda = 5$, so $\lambda = 1/5$ per minute.
+
 (a) $\mathbb{P}(X > 10) = e^{-\lambda \cdot 10} = e^{-10/5} = e^{-2} \approx 0.135$.
+
 (b) By memorylessness $\mathbb{P}(X > s+t \mid X > s) = \mathbb{P}(X > t)$ with $s = 4$, $t = 10$:
 
 $$\mathbb{P}(X > 14 \mid X > 4) = \frac{\mathbb{P}(X > 14)}{\mathbb{P}(X > 4)} = \frac{e^{-14/5}}{e^{-4/5}} = e^{-10/5} = e^{-2} \approx 0.135.$$

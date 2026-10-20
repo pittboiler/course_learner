@@ -83,6 +83,7 @@ Read across the second row. All three accept that demonstration can govern inter
 Two readings. **(R1)** Negations are a second-best: positive attributes are true of God, but too high for us, so we settle for saying what he is not. **(R2)** Negations are the correct way to speak of God, and positive attributes are faulty in themselves, not just beyond our reach. Which does the passage support? Quote the deciding words, and say what "imply polytheism" means given the lesson's account of why positive attributes fail. 100 words or fewer.
 
 **P2 (🟡) *(Exegetical (a) · Exegetical (b))*** (a) Reconstruct, in 4–6 numbered premises and in Averroes's own terms, the *Decisive Treatise*'s argument that the Law makes the study of philosophy obligatory for those capable of it. Flag the premise a jurist hostile to philosophy is most likely to attack.
+
 (b) Diagnose this invented op-ed paragraph:
 
 > Scripture and science must collide. A believer who accepts a scientific result against the plain words of his holy book has already stopped believing, because faith means taking the text at its word. The rest is evasion.

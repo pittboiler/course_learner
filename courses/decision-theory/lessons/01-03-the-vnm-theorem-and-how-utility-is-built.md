@@ -105,16 +105,19 @@ But Gus's preferences are equally well represented by $v_G = 1.5\,u_G$, and the 
 **P1 (🟢) *(Formal (a)–(b).)*** Dana's prizes are 0, 10, 40 and 80 dollars, and she satisfies the vNM axioms. She is indifferent between 10 dollars for sure and a 0.2 chance of 80 dollars (else 0), and between 40 dollars for sure and a 0.65 chance of 80 dollars (else 0).
 
 (a) Normalize $u(0) = 0$, $u(80) = 1$. Give $u(10)$ and $u(40)$, and rank these lotteries: $K$, 80 or 10 dollars, 50–50; $M$, a 0.75 chance of 40 dollars, else 0; $N$, 40 dollars for sure; $R$, a 0.7 chance of 80 dollars, else 0.
+
 (b) Find the probability $q$ that makes Dana indifferent between 40 dollars for sure and "80 dollars with probability $q$, else 10 dollars".
 
 **P2 (🟡) *(Formal (a) · Exegetical (b).)*** Use Dana's utility from P1: $u = (0,\ 0.2,\ 0.65,\ 1)$ for 0, 10, 40 and 80 dollars.
 
 (a) Compare $R$ (a 0.7 chance of 80, else 0) with $N$ (40 for sure) under $u$, under $5u + 2$, and under $\sqrt{u}$.
+
 (b) In two sentences: which of Dana's own stated indifferences does $\sqrt{u}$ get wrong, and which step of the construction explains why only affine rescalings are allowed?
 
 **P3 (🔴, optional) *(Exegetical (a) · Evaluative (b).)*** Take Fern from Example 1: $u = (0,\ 0.35,\ 0.7,\ 1)$ for 0, 20, 50 and 100 dollars.
 
 (a) For each claim, say whether vNM utility alone makes it meaningful, in one sentence each. (i) "For Fern, going from 20 to 50 dollars is a bigger gain than going from 50 to 100." (ii) "50 dollars is twice as good for Fern as 20 dollars." (iii) "20 dollars has positive utility for Fern." (iv) "Fern gets more out of 50 dollars than Gus, whose $u(50)$ is 0.55."
+
 (b) An **invented** hospital memo, not the words of any real body: "Standard-gamble scores are probabilities, and a probability means the same thing for every patient. So a patient whose score rises by 0.3 gains more than one whose score rises by 0.2, and we should treat the first." Steelman the memo, then give the strongest reply, in 120 words or fewer.
 
 <details>
@@ -177,7 +180,9 @@ So $R \succ N \succ K \succ M$.
 **From Lesson [1.1](01-01-acts-states-outcomes.md) (Acts, states, outcomes):** *(Formal (a)–(b) · Exegetical (c).)* A landlord can repair a roof before storm season ($R$) or leave it ($D$). Utilities: the repair costs 3; a leak costs 30. Her surveyor puts the chance of a leak at 0.1 if she repairs and $q$ if she does not.
 
 (a) Write the $2 \times 2$ matrix on the states "leak" and "no leak", say which act dominates and how, and compute both expected utilities at $q = 0.35$, using the chance that goes with each act.
+
 (b) Find every $q$ at which repairing has the higher expected utility.
+
 (c) In one sentence: why does the dominance in (a) not settle the choice?
 
 <details>

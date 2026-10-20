@@ -85,7 +85,9 @@ Tiny — but not zero, and not optional. A laptop erasing $\sim10^{10}$ bits per
 **P2 (🟡)** Maximize $S=-k_B\sum_i p_i\ln p_i$ subject to two constraints, $\sum_i p_i=1$ and $\sum_i p_iE_i=\langle E\rangle$, using Lagrange multipliers. Show the result is the Boltzmann distribution $p_i\propto e^{-\beta E_i}$, and identify the multiplier enforcing the energy constraint as $\beta=1/k_BT$. (This is the Jaynes MaxEnt derivation of the canonical ensemble — compare it to the heat-bath derivation of [3.1](#/lesson/stat-mech/03-01-canonical-ensemble-boltzmann-factor.md).)
 
 **P3 (🔴, optional)** *Szilard engine and Landauer.* A single gas molecule sits in a box of volume $V$ at temperature $T$, in contact with a heat bath. A demon measures which half the molecule is in — acquiring **one bit** — then inserts a frictionless piston at the midplane on the empty side and lets the molecule push it out in an isothermal expansion from $V/2$ back to $V$.
+
 (a) Compute the work extracted. (Use the one-particle ideal gas $pV=k_BT$.)
+
 (b) All that work came from a *single* heat bath, which seems to violate the Kelvin statement of the second law. State precisely what the demon still holds that lets the second law survive, and show that erasing it (Landauer) costs at least as much as the work gained, so the net extractable work over a full cycle is $\le 0$.
 
 <details>

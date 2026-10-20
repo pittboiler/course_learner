@@ -125,22 +125,31 @@ This is the bias–variance decomposition of [`machine-learning` 1.2](../../mach
 **P1 (🟢)** Features $\mathbf{x}(s) = (1,\ s,\ s^2)$, weights $\mathbf{w} = (0,\ 1,\ -0.1)$, $\gamma = 1$, $\alpha = 0.05$. The agent moves from $s = 2$ to $s' = 4$ with reward $R = 1$.
 
 (a) Compute $\hat V(2)$ and $\hat V(4)$.
+
 (b) Compute the TD error $\delta$.
+
 (c) Perform the semi-gradient TD update and give the new $\mathbf{w}$.
+
 (d) Compute $\hat V(2)$ after the update and state whether the error at $s=2$ got smaller.
 
 **P2 (🟡)** In Example 2's setting, a colleague proposes using $100$ groups of $10$ states instead of $10$ groups of $100$.
 
 (a) State what happens to the approximation error (the staircase).
+
 (b) State what happens to the estimation error at a fixed number of episodes, and why.
+
 (c) At the extreme of $1000$ groups of $1$ state, state what the method becomes and what both error terms equal.
+
 (d) Explain in one sentence why the extreme in (c) is not what you want for a state space of $10^{20}$.
 
 **P3 (🔴)** Consider a two-state problem, $s_1$ and $s_2$, with a **single** weight and features $x(s_1) = 1$, $x(s_2) = 2$, so $\hat V(s_1) = w$ and $\hat V(s_2) = 2w$. The true values are $V^\pi(s_1) = 1$ and $V^\pi(s_2) = 1$ — which this approximator cannot represent, since it forces $\hat V(s_2) = 2\hat V(s_1)$.
 
 (a) Write $\overline{\text{VE}}(w)$ for a visitation distribution $\mu(s_1) = p$, $\mu(s_2) = 1-p$.
+
 (b) Minimize it to find $w^*$ as a function of $p$.
+
 (c) Evaluate $w^*$ at $p = 0.5$ and at $p = 0.9$, and state what changed and why.
+
 (d) State what this shows about the claim "the algorithm learns the value function".
 
 <details>
@@ -217,8 +226,11 @@ This is not a pathology to be engineered away — it is usually the right behavi
 **From Lesson 2.8 (Eligibility traces and the backward view):** An episode visits $M \to N \to M \to$ terminal with rewards $2, 0, 4$, all values initialized to $0$, $\gamma = 1$, $\lambda = 0.5$, $\alpha = 0.1$.
 
 (a) Give the three TD errors.
+
 (b) Give the accumulating traces after each step.
+
 (c) Compute the total offline update $\Delta V(M)$ and $\Delta V(N)$.
+
 (d) State what $\Delta V(M)$ would be with replacing traces, and which is larger.
 
 <details>

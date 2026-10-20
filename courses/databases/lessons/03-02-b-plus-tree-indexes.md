@@ -116,15 +116,21 @@ This crossover is the single most important number in practical indexing, and it
 **P1 (🟢)** A `reading` table has 8,000,000 rows, 50 rows per data page. An index page holds 250 entries.
 
 (a) Give the number of data pages.
+
 (b) Give the number of leaf pages in a B⁺-tree index over all 8,000,000 keys.
+
 (c) Give the height of the tree, counting the root and the leaf level.
+
 (d) Give the cost of a point query returning one row.
 
 **P2 (🟡)** Using the table from P1, a query matches 40,000 rows.
 
 (a) Give the I/O cost using a clustered index.
+
 (b) Give the I/O cost using an unclustered index.
+
 (c) Give the cost of a full scan, and say which of the three plans wins.
+
 (d) Give the number of matching rows at which the unclustered index stops beating the full scan, and express it as a percentage of the table.
 
 **P3 (🔴, optional)** A B⁺-tree holds at most 3 keys per node. Its current state is
@@ -132,8 +138,11 @@ This crossover is the single most important number in practical indexing, and it
 $$\text{root } [40] \qquad \text{internals } [18, 29]\ \ [55, 72] \qquad \text{leaves } [5,11]\ [18,24]\ [29,33]\ [40,47]\ [55,60]\ [72,80,91]$$
 
 (a) Give the sequence of leaves visited by a range query for all keys in the closed interval from 24 to 60, and the number of leaf pages read.
+
 (b) Insert the key 95. Give the resulting tree, level by level, and state which keys were copied up and which were moved up.
+
 (c) Give the height before and after the insertion of (b), and state how many leaves changed depth.
+
 (d) A colleague proposes storing the rows themselves in the internal nodes to save the final fetch. Give the effect on the tree's height for this data, and name the operation that gets worse.
 
 <details>
@@ -210,7 +219,9 @@ Since range scans and ordered full-index scans are the common case in a relation
 **From Lesson 2.6 (minimal cover & 3NF synthesis):** $F = \{X \to Y,\ Y \to Z,\ XY \to Z,\ X \to Z\}$ over $R(W, X, Y, Z)$.
 
 (a) Give the result of pass 1 and pass 2, naming any extraneous attribute with the closure that proves it.
+
 (b) Give the minimal cover.
+
 (c) Give the 3NF synthesis, and state whether a candidate-key table was required.
 
 <details>

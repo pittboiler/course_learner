@@ -149,14 +149,19 @@ Two costs. **Verdicts are relative to a model**: change the variables and the ve
 **P1 (🟢) *(Exegetical.)*** Two saboteurs, working for the same client and unaware of each other, want a satellite launch scrubbed. Ana cuts the fuel line at 6:00; the tank drains slowly. Ben intends to pull the ignition relay at 6:30 — but at 6:10 he sees the fuel telemetry go flat, concludes the job is already done, and leaves the site. At 7:00 the empty tank is discovered and the launch is scrubbed.
 
 (a) Does the scrub depend counterfactually on Ana's cut? Answer, and say what verdict the simple but-for analysis therefore delivers.
+
 (b) Give one intermediate event that lets Lewis's full analysis deliver the opposite verdict, and check both links of the chain explicitly.
+
 (c) Is Ben's decision to leave a cause of the scrub, on Lewis's analysis? One sentence, with the counterfactual you used.
+
 (d) Name the structure and say in one sentence what makes it that structure rather than the other kind.
 
 **P2 (🟡) *(Exegetical (a), (b) · Evaluative (c).)*** A spacecraft takes attitude commands from two independent radio channels. At 04:00 both channels transmit the same command — roll 90 degrees — and both signals arrive intact and undamaged at the flight computer. The computer's rule is that when two commands arrive in the same cycle, the one on the **primary** channel is executed and the one on the backup channel is discarded unread. The spacecraft rolls 90 degrees.
 
 (a) Run Lewis's analysis on the primary channel's transmission: check dependence, then check whether any chain of stepwise dependence runs from it to the roll, and state the verdict the analysis delivers.
+
 (b) Name the structure, and say in one sentence how it differs from the case in P1.
+
 (c) An interventionist gets this case right by putting a variable in the model for which channel the computer reads. Is that a solution or a relabelling of the problem — and what does the answer turn on? **150 words or fewer.** Any verdict; the moves are what is graded.
 
 **P3 (🔴, optional) *(Evaluative — find the crux.)*** A colleague proposes to rescue Lewis from late preemption by making events fragile: the effect is not *the bottle shatters* but *the bottle shatters at noon exactly, from the north, in that pattern*. Had Suzy not thrown, that event would not have occurred, so dependence is restored and no chain is needed.
@@ -214,6 +219,7 @@ Say what the fix buys and what it costs, and name the **crux** — the one thing
 > "Why do tetrapods have five digits rather than six? There is no reason. Some Devonian lineage happened to fix on five, everything since inherited it, and that is the whole story — not an explanation we have yet to find, but the absence of one. Biology is the science of frozen accidents. Trace any trait back far enough and you reach a fact that could have gone the other way and simply went this way, and at that point explanation stops."
 
 (a) The paragraph runs two distinct claims together and asserts bruteness of the wrong one. Name both claims, say which row or rows of the PSR table the second would violate if true, and say whether the bruteness asserted is metaphysical or epistemic.
+
 (b) The last sentence infers bruteness from contingency. Does contingency, by itself, establish it? Give a verdict, and state what would have to be true for the inference to go through. **150 words or fewer.** Any verdict, provided you say what a defender of the modest PSR says about the passage's closing posture.
 
 <details>

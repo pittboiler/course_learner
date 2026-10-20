@@ -153,7 +153,9 @@ Two things fall out. The middle row is a feature with a **genuinely nonzero coef
 **P1 (🟢)** A well-specified linear model with $\sigma^2 = 4$ is fitted on $n = 100$ observations.
 
 (a) Give $\mathbb E[\hat R_{\text{in}}]$, $\mathbb E[\hat R_{\text{out}}]$ and the optimism for $p = 10$, and again for $p = 40$.
+
 (b) In each case give the ratio $\mathbb E[\hat R_{\text{out}}] / \mathbb E[\hat R_{\text{in}}]$ — the factor by which the model is worse than it looks.
+
 (c) Quadrupling $p$ from 10 to 40 changed the training error by how much, and the test error by how much? Say in one sentence which of the two numbers a practitioner watching only the fit would notice.
 
 **P2 (🟡)** Prove $\mathbb E[\hat R_{\text{in}}] = \sigma^2(1 - p/n)$.
@@ -163,7 +165,9 @@ State clearly where you use each of the three projection facts from [`linalg-ref
 **P3 (🔴)** A colleague has a model with $n = 200$ observations, $p = 10$ parameters and training $R^2 = 0.30$. They append 50 columns of independent random noise, refit, and report that training $R^2$ rose. They conclude the larger model is better.
 
 (a) Predict the new expected training $R^2$. (Use $\mathbb E[\mathrm{SSE}] = \sigma^2(n-p)$ and treat the response, hence $\mathrm{SST}$, as fixed.)
+
 (b) Give the expected test risk before and after, in units of $\sigma^2$, and the percentage increase.
+
 (c) State the one-line correction that would have stopped them, and say what it does to the reported number.
 
 <details>
@@ -219,6 +223,7 @@ So $R^2$ climbs from $0.30$ to about $0.48$ — a rise of $q(1-R^2_{\text{old}})
 **From Lesson 1.3 (Overfitting, and train/validation/test):** You hold out $m = 400$ points and measure 0-1 loss for a classifier fixed before you looked at them; the observed error rate is $0.20$.
 
 (a) Give the standard error of that estimate, and the $m$ you would need to halve it.
+
 (b) You have $n = 200$ points total and eight candidate models. Say which of training error, validation error and test error you would report, and for what purpose — and name the one number among the three that is *not* an unbiased estimate of anything you care about.
 
 <details>

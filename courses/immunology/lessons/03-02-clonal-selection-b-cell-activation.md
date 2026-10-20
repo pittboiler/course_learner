@@ -126,8 +126,11 @@ Spread through about 3 L of plasma that is $1.4\ \mu\text{g}\,\text{mL}^{-1}$ ac
 ## Problems
 
 **P1 (🟢)** A primary response must reach $10^{8}$ antigen-specific B cells from $10^{3}$ recruited precursors, with a 2-day lag before the first division.
+
 (a) How many divisions are required?
+
 (b) How long does the response take if the division time is 12 h? If it is 6 h?
+
 (c) Germinal-center B cells cycle every 6 hours, the fastest of any cell in the body. Argue from (b) that this is a requirement rather than a curiosity.
 
 **P2 (🟡)** Dinitrophenyl (DNP) is a small chemical hapten. Three classic observations:
@@ -138,8 +141,11 @@ Spread through about 3 L of plasma that is $1.4\ \mu\text{g}\,\text{mL}^{-1}$ ac
 Explain all three from linked recognition. Then predict the result of boosting a DNP–BSA-primed mouse with DNP–BSA plus a blocking anti-CD40L antibody.
 
 **P3 (🔴, optional)** Two B-cell clones, A and B, both specific for the same antigen, are recruited at equal numbers. Clone A's receptor binds more tightly, so it captures more antigen, presents more peptide–MHC II, and receives more T-cell help — which shortens its division time to 8 h, against 12 h for clone B.
+
 (a) After 4 days of proliferation, what is the ratio of clone A to clone B?
+
 (b) How long until A outnumbers B by 1000-fold?
+
 (c) Recast this as selection in the sense of [evolution-ecology 1.1](../../evolution-ecology/lessons/01-01-fitness-quantitative.md): what plays the role of the selective agent, and what is the limiting resource being competed for? Why does this immediately imply that a *finite* supply of help is essential to the mechanism of [3.3](03-03-germinal-centers-affinity-maturation.md)?
 
 <details>
@@ -191,7 +197,9 @@ A modest 1.5-fold difference in cycle time becomes a thousandfold difference in 
 **From Lesson 2.2 (the B-cell receptor: affinity and avidity):** A germline IgM receptor binds its epitope with a single-site dissociation constant $K_d = 5\times10^{-6}$ M. Free antigen in the tissue sits at $[\text{L}] = 1\times10^{-7}$ M.
 
 (a) What fraction of single binding sites is occupied?
+
 (b) The antigen is a virion displaying its epitope repeatedly, so the receptor engages bivalently, and the geometry gives an apparent $K_d$ 200-fold tighter than the single-site value. Recompute the occupancy.
+
 (c) What apparent $K_d$ would be needed for half occupancy at this antigen concentration, and what does the comparison say about why IgM is the primary-response isotype?
 
 <details>

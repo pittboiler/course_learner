@@ -90,8 +90,11 @@ Conclusion: $V = \operatorname{im}P_0 \oplus \ker P_0 = W \oplus \ker P_0$, an i
 **P2 (🟡)** Let $G = \mathbb{Z}/2 = \{e, s\}$ act on $\mathbb{C}^2$ by $\rho(s) = \begin{pmatrix} 0 & 1 \\ 1 & 0\end{pmatrix}$ (coordinate swap). The line $W = \operatorname{span}\{(1,1)^{\mathsf T}\}$ is invariant. Starting from the lopsided projection $P = \begin{pmatrix} 1 & 0 \\ 1 & 0 \end{pmatrix}$ onto $W$, form $P_0 = \frac{1}{2}\sum_{g}\rho(g)P\rho(g)^{-1}$ and read off the invariant complement $\ker P_0$. Verify the complement is actually invariant.
 
 **P3 (🔴)** Take $G = \mathbb{Z}/3$ over the field $\mathbb{F}_3$, with generator $1 \mapsto A = \begin{pmatrix} 1 & 1 \\ 0 & 1\end{pmatrix}$.
+
 (a) Verify $A^3 = I$ over $\mathbb{F}_3$, so this really is a representation of $\mathbb{Z}/3$.
+
 (b) Find *all* invariant lines.
+
 (c) Conclude the rep is reducible but not completely reducible, and pinpoint the exact step in Maschke's averaging proof (Example 1) that fails here, and why.
 
 <details>
@@ -108,6 +111,7 @@ $$P_0 = \frac{1}{2}\left[\begin{pmatrix}1&0\\1&0\end{pmatrix} + \begin{pmatrix}0
 This is the orthogonal projection onto $(1,1)^{\mathsf T}$. Its kernel is $\ker P_0 = \{(a,b)^{\mathsf T} : a + b = 0\} = \operatorname{span}\{(1,-1)^{\mathsf T}\}$, the invariant complement. Check invariance: $\rho(s)(1,-1)^{\mathsf T} = (-1,1)^{\mathsf T} = -(1,-1)^{\mathsf T} \in \ker P_0$. ✓ So $\mathbb{C}^2 = \operatorname{span}\{(1,1)\} \oplus \operatorname{span}\{(1,-1)\}$ — the symmetric ⊕ antisymmetric split, i.e. trivial ⊕ sign rep.
 
 **P3.**
+
 (a) $A^3 = \begin{pmatrix}1 & 3 \\ 0 & 1\end{pmatrix} = \begin{pmatrix}1 & 0 \\ 0 & 1\end{pmatrix}$ since $3 \equiv 0 \pmod 3$. And $\rho(k) = A^k = \begin{pmatrix}1 & k \\ 0 & 1\end{pmatrix}$ is a well-defined homomorphism $\mathbb{Z}/3 \to GL_2(\mathbb{F}_3)$. ✓
 
 (b) $\operatorname{span}\{(a,b)^{\mathsf T}\}$ is invariant iff $A(a,b)^{\mathsf T} = (a+b,\,b)^{\mathsf T}$ is a scalar multiple of $(a,b)^{\mathsf T}$, i.e. the determinant $\begin{vmatrix} a+b & a \\ b & b \end{vmatrix} = (a+b)b - ab = b^2 = 0$, forcing $b = 0$. So the **only** invariant line is $W = \operatorname{span}\{(1,0)^{\mathsf T}\}$ (the same over $\mathbb{F}_3$ as it was for general $p$).

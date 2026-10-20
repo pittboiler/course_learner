@@ -104,22 +104,31 @@ There is a silver lining, and it is the basis of the standard fix: steering towa
 **P1 (🟢)** A Dyna-Q agent takes one real step per second and performs $n$ planning steps per real step, each costing $1$ ms.
 
 (a) Compute the wall-clock time per real step at $n = 0$, $n = 50$ and $n = 500$.
+
 (b) Using Example 1's table, state how many *real steps* the $n=50$ agent needs to reach a near-optimal policy versus the $n=0$ agent, taking episodes $5$ and $30$ respectively and using each agent's own episode lengths as a rough guide.
+
 (c) State which agent finishes sooner in wall-clock time.
+
 (d) State the condition on the cost of a real step that makes planning worth it.
 
 **P2 (🟡)** A learned deterministic model is correct on $95\%$ of state–action pairs and wrong on $5\%$.
 
 (a) Compute the probability that a $5$-step rollout is entirely correct.
+
 (b) Compute it for a $50$-step rollout.
+
 (c) State what (a) and (b) together imply about rollout horizons.
+
 (d) A colleague notes that being "wrong" on one step need not ruin the rollout if the error is small. State the circumstance under which that optimism is unjustified, connecting it to Example 2.
 
 **P3 (🔴)** Dyna-Q+ adds $\kappa\sqrt{\tau(s,a)}$ to the simulated reward for a pair last actually tried $\tau$ steps ago.
 
 (a) State what happens to the agent's behaviour as $\kappa \to 0$ and as $\kappa\to\infty$.
+
 (b) Compare the functional form $\sqrt{\tau}$ with UCB1's $\sqrt{2\ln t/N}$, and state what each is measuring.
+
 (c) Explain why the bonus is added to the *simulated* reward rather than the real one, and what would go wrong if it were added to both.
+
 (d) An environment changes so that a previously-blocked shortcut is now open. Explain how Dyna-Q+ discovers it and why plain Dyna-Q may never do so.
 
 <details>
@@ -200,8 +209,11 @@ The general lesson: **a model lets you stop exploring, and that is exactly the d
 **From Lesson 4.3 (PPO):** With $\epsilon = 0.25$, compute $L^{\text{CLIP}}$ for each case and state whether the gradient is zero.
 
 (a) $r_t = 1.1$, $\hat A_t = 4$.
+
 (b) $r_t = 1.6$, $\hat A_t = 4$.
+
 (c) $r_t = 0.5$, $\hat A_t = -2$.
+
 (d) $r_t = 1.6$, $\hat A_t = -2$.
 
 <details>

@@ -112,8 +112,11 @@ That asymmetry is not a failure of imagination. ALL-SAT is the complement of sat
 **P2 (🟡)** For each language, say whether it is in NP as far as this lesson's tools can establish, and if so give the certificate and its length in terms of the input size $n$. If not, name the specific obstacle.
 
 (a) $\{\langle G, k\rangle : G$ has a clique of size $k\}$.
+
 (b) $\{\langle G \rangle : G$ has **no** clique of size 5$\}$.
+
 (c) $\{\langle M, w, 1^t\rangle : $ the nondeterministic TM $M$ accepts $w$ within $t$ steps$\}$.
+
 (d) $\{\langle \varphi \rangle : \varphi$ has exactly one satisfying assignment$\}$.
 
 **P3 (🔴, optional)** Prove that $\mathsf{NP} \subseteq \mathsf{EXP}$ directly from the verifier definition, rather than from the tree-search theorem. Then say in two sentences exactly which step of your proof would have to be improved to show $\mathsf{NP} \subseteq \mathsf{P}$, and why that step is not obviously wasteful.

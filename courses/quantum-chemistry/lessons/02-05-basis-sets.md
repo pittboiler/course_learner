@@ -84,8 +84,11 @@ STO-3G, 6-31G(d), cc-pVTZ, 6-31+G(d,p).
 **P2 (🟡)** In two or three sentences each, state (a) which physical feature STOs get right that GTOs get wrong, and vice versa; (b) the mathematical reason codes prefer GTOs despite the wrong shape; (c) why *contracted* GTOs are the practical resolution.
 
 **P3 (🔴)** For each task, name an appropriate class of basis (and one concrete example) and justify it in one sentence:
+
 (a) the electron affinity of the fluorine atom (energy of $\ce{F} + e^- \to \ce{F-}$);
+
 (b) the equilibrium geometry of propane, a neutral hydrocarbon;
+
 (c) the binding energy of the methane dimer, held together only by dispersion.
 Then explain what BSSE is and how the counterpoise correction removes it, and say for which of (a)–(c) it matters most.
 
@@ -103,13 +106,19 @@ $$\text{STO-3G} \;<\; \text{6-31G(d)} \;<\; \text{6-31+G(d,p)} \;<\; \text{cc-pV
 (Recall the integral count scales like $N^4$, so these cost gaps are steep, not linear.)
 
 **P2**
+
 (a) **Shape.** STOs are physically correct at both ends: a **cusp** at the nucleus (right slope discontinuity, forced by the $-1/r$ attraction) and a slow **exponential tail** $e^{-\zeta r}$. A single GTO $e^{-\alpha r^2}$ is *rounded* at the nucleus (no cusp) and its tail dies *too fast* (Gaussian, not exponential). So STOs win on shape, at both the near and far end.
+
 (b) **Integrals.** The **Gaussian product theorem** says the product of two Gaussians on different centers is one Gaussian on a single intermediate center. This collapses the many-center two-electron repulsion integrals — which have no closed form for STOs — into fast, analytic Gaussian integrals. GTOs win, decisively, on cost.
+
 (c) **Contraction.** Freeze several primitive Gaussians together with fixed coefficients so their sum imitates one STO (a sharp inner Gaussian patches the cusp region, a fat outer one rebuilds the tail). You inherit the STO's shape *and* the GTOs' cheap integrals, while the SCF still sees just one function per contraction — the best of both, which is why every mainstream code does it.
 
 **P3**
+
 (a) **Anion / electron affinity → need diffuse functions**, e.g. **aug-cc-pVTZ** or at least **6-31+G(d)**. The extra electron in $\ce{F-}$ is weakly held and its density extends far from the nucleus; only small-exponent diffuse functions can describe that fat tail, and without them the EA is badly underestimated. (A correlated method is also needed for a good absolute number, but the *basis* red flag here is "diffuse.")
+
 (b) **Neutral hydrocarbon geometry → a polarized split-valence basis suffices**, e.g. **6-31G(d)** or **cc-pVDZ**. Geometries converge quickly with basis size; polarization functions are essential to get bond angles and hybridization right, but there are no anions or long-range effects, so diffuse functions are unnecessary.
+
 (c) **Dispersion complex → large, polarized *and* diffuse basis**, e.g. **aug-cc-pVTZ**, together with a correlated method (dispersion is pure correlation, invisible to HF). Diffuse functions capture the far-reaching density that produces the weak attraction, and you *must* correct for BSSE.
 
 **BSSE and counterpoise.** In the dimer $A\cdots B$ computed in the *combined* basis, each fragment borrows the other's nearby basis functions, artificially lowering its own energy and thus **overbinding** the complex — an artifact of the finite, incomplete basis. The **counterpoise correction** recomputes each isolated fragment in the *full* dimer basis, placing "ghost" basis functions (functions at the partner's atomic sites, but with no nucleus or electrons) where the partner would sit; subtracting these ghost-augmented monomer energies cancels the borrowed stabilization. It matters most for **(c)**, the dispersion complex — the binding is tiny, so the spurious overbinding is a large fraction of the answer — and is negligible for (b), an ordinary covalent geometry.

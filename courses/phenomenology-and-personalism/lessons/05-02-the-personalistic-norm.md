@@ -81,7 +81,9 @@ The positive norm is harder. Must each *love* the other? If love means feeling, 
 **P1 (🟢) *(Exegetical.)*** For each case, say whether it is use in sense 1, use in sense 2, or neither, and name the feature that decides it. One sentence each.
 
 (a) Mara keeps up a friendship with a former classmate only to get introductions to the partners at his firm, and plans to let it lapse once she is hired. He thinks the friendship is mutual.
+
 (b) Theo visits his elderly neighbour because her stories amuse him. He stops the week they turn repetitive, and nothing else ever drew him.
+
 (c) A tutor and a student agree that the goal is passing a May exam. The tutor is paid and wants a good pass record for her business, and both work toward the exam.
 
 **P2 (🟡) *(Exegetical (a) · Evaluative (b).)*** A lifeguard sees two swimmers in trouble at opposite ends of a beach. She can reach only one in time, and she knows neither of them.

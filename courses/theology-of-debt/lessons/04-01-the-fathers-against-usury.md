@@ -133,8 +133,11 @@ Name **four** errors and correct each from this lesson, giving the correct level
 **From Lesson [3.5](03-05-the-christian-jubilee-and-the-treasury.md) (The Christian Jubilee and the treasury of the Church):** *(Exegetical.)* Level assignment. Give each claim its level (defined; authentic magisterium; scholastic theology; discipline with no rung; or no magisterial level at all) and **name the act, or the absence of one, that fixes it**. **Two sentences per item.**
 
 (a) After guilt and eternal punishment are forgiven, a debt of temporal punishment can remain, to be discharged in this life or in purgatory.
+
 (b) The surplus of Christ's and the saints' satisfactions exceeds the whole debt of punishment owed by everyone now living (the Supplement, q.25 a.1).
+
 (c) The Holy Year is held every twenty-five years.
+
 (d) "Thou shalt not go out from thence till thou repay the last farthing" (Matthew 5:26, Douay-Rheims) describes the debt of punishment paid after death.
 
 <details>

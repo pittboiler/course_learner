@@ -106,7 +106,9 @@ This is not a peculiar motion through space — it is the grid stretching, $\dot
 
 **P1** (a) By definition $1+z = a(t_0)/a(t_{\text{emit}})$, so with $z=2$,
 $$\frac{a(t_0)}{a(t_{\text{emit}})} = 1+z = 3.$$
+
 (b) The universe has grown by a **linear factor of 3** since emission (every proper distance tripled); a comoving volume, scaling as $a^3$, has grown by $3^3 = 27$. Equivalently, at emission the universe was $1/3$ its present linear size and $1/27$ its present volume — so $27$ times denser (for pressureless matter).
+
 (c) Wavelengths stretch by the same factor $1+z=3$:
 $$\lambda_{\text{obs}} = (1+z)\,\lambda_{\text{emit}} = 3 \times 121.6\ \mathrm{nm} = 364.8\ \mathrm{nm},$$
 in the near-ultraviolet/violet — the Lyman-$\alpha$ line, redshifted out of the far-UV. (At higher $z$ this same line lands in the visible and then the infrared, which is how distant quasars are found.)

@@ -125,7 +125,9 @@ The same triage applies to your own attempts, which is the more useful direction
 **P1 (🟢)** For each proof technique, name the barrier that rules it out for P versus NP, and give the year and the authors.
 
 (a) Simulating one machine with another and flipping the answer.
+
 (b) Finding a property that a random Boolean function has, that no small circuit has, and that is checkable from a truth table in polynomial time.
+
 (c) Replacing a Boolean formula by a low-degree polynomial over a finite field and reasoning about degrees.
 
 **P2 (🟡)** (a) Prove $\mathsf{P}^{\text{TQBF}} = \mathsf{NP}^{\text{TQBF}}$, giving all four inclusions in the cycle and naming the theorem behind each. (b) Explain in two sentences why this does **not** suggest $\mathsf{P} = \mathsf{NP}$. (c) Name the property of the hierarchy-theorem proof that makes it relativize.

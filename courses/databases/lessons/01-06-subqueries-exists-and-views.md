@@ -143,8 +143,11 @@ SELECT m.name, v.isbn FROM active_loan v JOIN member m ON m.mid = v.mid;
 **P1 (🟢)** Using `book(isbn, title, pub_id, year, price)` with B1 (RVN, 2019, 14), B2 (RVN, 2021, 22), B3 (HOL, 2019, 18), B4 (HOL, 2023, 31), B5 (RVN, 2023, NULL), give the exact output of each query.
 
 (a) `SELECT title FROM book WHERE year = (SELECT MIN(year) FROM book);`
+
 (b) `SELECT title FROM book b WHERE year = (SELECT MIN(b2.year) FROM book b2 WHERE b2.pub_id = b.pub_id);`
+
 (c) `SELECT title FROM book b WHERE EXISTS (SELECT 1 FROM book b2 WHERE b2.pub_id = b.pub_id AND b2.price > b.price);`
+
 (d) State which of (a) to (c) are correlated.
 
 **P2 (🟡)** A `staff(sid, name, manager_sid)` table has four rows: Rao (1, manager NULL), Silva (2, manager 1), Tan (3, manager 1), Umar (4, manager 2). The task is to list everyone who manages nobody.
@@ -159,8 +162,11 @@ WHERE  NOT EXISTS (SELECT 1 FROM staff e WHERE e.manager_sid = s.sid);
 ```
 
 (a) Give the exact row count and output of attempt A.
+
 (b) Give the exact row count and output of attempt B.
+
 (c) Explain the difference by unfolding attempt A's predicate for Tan.
+
 (d) Give a one-clause repair to attempt A, and state which of the two you would ship and why.
 
 **P3 (🔴, optional)** A `qualification(staff_id, skill)` table records which skills each staff member holds, and `required(skill)` lists the skills a job needs. `required` holds three skills: welding, rigging, inspection.
@@ -176,8 +182,11 @@ WHERE  NOT EXISTS (SELECT 1 FROM staff e WHERE e.manager_sid = s.sid);
 | 3 | inspection |
 
 (a) Write the division query returning the staff who hold every required skill, and give its output.
+
 (b) Give the set of "missing pairs" the algebra formulation subtracts, and confirm it predicts your answer.
+
 (c) Staff member 4 exists in a `staff` table but has no row in `qualification`. State whether she appears in your answer, and whether that is correct.
+
 (d) The job is re-scoped so that `required` becomes empty. Give the output of your query from (a), give what the algebra's $r \div s$ would return, and say which behaviour you would want in a hiring tool.
 
 <details>
@@ -267,8 +276,11 @@ in place of the derived table. She would then be evaluated and correctly exclude
 **From Lesson 1.4 (SQL II — joins & set operations):** A `course` table has 20 rows and an `enrollment(student_id, course_id)` table has 300 rows covering 17 distinct courses. Every `enrollment.course_id` is a valid course.
 
 (a) Give the exact row count of `SELECT * FROM course c JOIN enrollment e ON c.course_id = e.course_id;`
+
 (b) Give the exact row count of `SELECT * FROM course c LEFT JOIN enrollment e ON c.course_id = e.course_id;`
+
 (c) Give the exact row count of `SELECT c.course_id FROM course c LEFT JOIN enrollment e ON c.course_id = e.course_id WHERE e.student_id IS NULL;`
+
 (d) A colleague writes the query in (c) but tests `WHERE e.course_id IS NULL` instead. Give its row count and say whether it is equally valid.
 
 <details>

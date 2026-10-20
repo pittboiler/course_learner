@@ -106,24 +106,34 @@ So route 1 is correct: **put the bulk on the alkoxide, the simplicity on the hal
 ## Problems
 
 **P1 (🟢)** Give the organic oxidation product of each, or state "no reaction":
+
 (a) 1-propanol $\ce{CH3CH2CH2OH}$ with **PCC**;
+
 (b) the same 1-propanol with **$\ce{KMnO4}$**;
+
 (c) cyclohexanol (a secondary alcohol) with Jones reagent;
+
 (d) 2-methyl-2-butanol $\ce{CH3CH2C(CH3)2OH}$ (tertiary) with $\ce{KMnO4}$.
 
 **P2 (🟡)** You need to synthesize **benzyl ethyl ether**, $\ce{C6H5CH2-O-CH2CH3}$, by a Williamson ether synthesis. Give the alkoxide and the alkyl halide you'd combine, name the mechanism, and explain in one line why the other pairing would be worse. (Both fragments here are primary — say what still guides the choice.)
 
 **P3 (🔴)** 2,2-dimethyloxirane (an epoxide: a three-membered ring of O, a $\ce{CH2}$, and a $\ce{C(CH3)2}$) is opened by methanol.
+
 (a) Under **basic** conditions ($\ce{NaOCH3}$), which carbon does methoxide attack, and what's the product's substitution pattern at that carbon?
+
 (b) Under **acidic** conditions ($\ce{CH3OH, H2SO4}$), which carbon is attacked instead? Explain both in one sentence each.
 
 <details>
 <summary>Solutions</summary>
 
 **P1**
+
 (a) PCC is mild and stops at the aldehyde: **propanal**, $\ce{CH3CH2CHO}$.
+
 (b) $\ce{KMnO4}$ is a strong oxidant, so a primary alcohol climbs both rungs to the acid: **propanoic acid**, $\ce{CH3CH2COOH}$.
+
 (c) A secondary alcohol gives the ketone and stops: **cyclohexanone**. (Jones/$\ce{KMnO4}$ makes no difference for a 2° alcohol — there's only one rung.)
+
 (d) Tertiary alcohol, no carbinol C–H: **no reaction**.
 
 **P2** Combine **sodium ethoxide** $\ce{CH3CH2O-}$ with **benzyl bromide** $\ce{C6H5CH2Br}$ (or benzyl chloride), by **SN2** (Williamson).

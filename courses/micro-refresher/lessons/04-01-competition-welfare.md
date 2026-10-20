@@ -90,7 +90,9 @@ $$\mathrm{TS}(40) = 80(40) - 40^2 = 3200 - 1600 = 1600, \qquad \mathrm{TS}(30) =
 Deadweight loss $= \mathrm{TS}(40) - \mathrm{TS}(30) = 100$. As a triangle: the quota stops the units from $30$ to $40$; at $q = 30$ the gap between benefit and cost is $P(30) - S(30) = 70 - 50 = 20$, closing linearly to $0$ at $q = 40$, so $\mathrm{DWL} = \tfrac12 \cdot (40 - 30) \cdot 20 = 100$ ✓. Both routes agree, and $1600 = \mathrm{TS}(40)$ is indeed the largest attainable — any $q \ne 40$ scores lower.
 
 **P3.** (a) Average total cost $ATC(q) = \dfrac{q^2 + k}{q} = q + \dfrac{k}{q}$. Minimize: $ATC'(q) = 1 - \dfrac{k}{q^2} = 0 \Rightarrow q_f = \sqrt{k} = \sqrt{25} = 5$. Minimum $ATC = 5 + \dfrac{25}{5} = 10$, so $p^{LR} = 10$. (Consistency check: $MC(q) = c'(q) = 2q$; at $q_f = 5$, $MC = 10 = ATC$ — marginal cost cuts average cost at its minimum, as it must.)
+
 (b) Each firm produces $q_f = 5$ (the efficient scale, and it satisfies $p = MC$: $10 = 2(5)$ ✓).
+
 (c) At $p^{LR} = 10$, market quantity is $Q = 100 - 10 = 90$. Number of firms $n = \dfrac{Q}{q_f} = \dfrac{90}{5} = 18$.
 Check (zero profit): each firm's profit $\pi = p^{LR} q_f - c(q_f) = 10 \cdot 5 - (5^2 + 25) = 50 - 50 = 0$ ✓. Price equals min ATC, so economic profit is exactly zero and no firm has any incentive to enter or exit — a genuine long-run equilibrium.
 

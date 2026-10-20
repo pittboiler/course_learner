@@ -98,6 +98,7 @@ which faithfully says "$y$ has something above it." This capture-avoidance is no
 
 **P1 (🟢)** For the formula
 $$\varphi \ :=\ \exists x\,\big(R(x,y) \ \land\ \forall y\,(S(y) \to R(x,y))\big),$$
+
 (a) give the scope of each quantifier; (b) classify **every** variable occurrence as free or bound (there are five: one $x$ and one $y$ in the first $R(x,y)$, then $y$ in $S(y)$, and $x, y$ in the second $R(x,y)$ — plus the two quantifier-attached variables); (c) list the free variables and decide whether $\varphi$ is a sentence.
 
 **P2 (🟡)** Let $\varphi(x) := \forall y\,(y \cdot x = y)$ over a signature with a binary function $\cdot$. (a) Is the term $t = y + 1$ free for $x$ in $\varphi$? (b) Compute $\varphi[x := t]$ correctly, renaming a bound variable first if you must, and (c) say in one sentence what goes wrong if you substitute without renaming.

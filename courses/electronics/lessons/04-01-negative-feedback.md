@@ -181,18 +181,27 @@ Almost everything you have built in this course is a feedback loop wearing a dis
 ## Problems
 
 **P1 (🟢)** An op-amp with open-loop gain $A = 10^5$ is wired as a non-inverting amplifier with a target closed-loop gain of 100.
+
 (a) Find $\beta_f$, $T$, and $1+T$.
+
 (b) Find the actual $A_f$ and say by what percentage it falls short of 100.
+
 (c) The op-amp's gain changes by $\pm10$ percent. Estimate the resulting percentage change in $A_f$ using the desensitivity relation, then check it exactly.
 
 **P2 (🟡)** The same op-amp ($A = 10^5$) has an open-loop differential input resistance of 2 M$\Omega$ and an open-loop output resistance of 75 $\Omega$. It is wired as a non-inverting amplifier with closed-loop gain 10.
+
 (a) Which topology is this, and what are $T$ and $1+T$?
+
 (b) Estimate the closed-loop input and output resistances.
+
 (c) In one sentence: why does the *inverting* amplifier built from the same op-amp **not** get a huge input resistance?
 
 **P3 (🔴)** A common-emitter stage runs at $I_C = 1$ mA with $\beta = 100$, $R_C = 3.3\ \text{k}\Omega$, and a 100 $\Omega$ unbypassed emitter resistor. Take $V_T = 25$ mV.
+
 (a) Find $g_m$, $r_\pi$, and the loop gain $T$ of the degeneration loop.
+
 (b) Find the voltage gain with and without $R_E$, and compare both to the "infinite-$T$" asymptote $-R_C/R_E$.
+
 (c) Find the input resistance looking into the base, with and without $R_E$, and check it against the $1+T$ rule.
 
 <details>

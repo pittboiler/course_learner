@@ -268,7 +268,9 @@ so $z_1z_2 \ge 4$ and $z \in S$. Equivalently, $S$ is a sublevel set of the conv
 A hardware chain uses $D = 6000$ fasteners per year at a steady rate. Placing an order costs $S = 30$ dollars and holding costs $H = 4$ dollars per unit per year.
 
 (a) Find the EOQ and the resulting annual cost, and verify with the equal-halves check.
+
 (b) How many orders per year is that, and how long is one inventory cycle?
+
 (c) Accounting revises the holding cost upward to 9 dollars per unit per year. Find the new EOQ, and compute the penalty — in dollars and percent — for stubbornly continuing to order the old quantity.
 
 <details>

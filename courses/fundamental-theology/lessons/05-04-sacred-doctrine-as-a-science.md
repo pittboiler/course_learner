@@ -157,14 +157,19 @@ And notice that the objector has walked straight into the Thomist–Scotist disp
 **P1 (🟢) *(Exegetical.)*** For each claim, say at what level it stands and what fixes it there: **defined doctrine**, **a theologian's position carrying no magisterial weight as such**, or **freely disputed among Catholics**. One sentence each; name the source where you can.
 
 (a) Sacred doctrine proceeds from principles known by a higher science, namely the knowledge of God and the blessed.
+
 (b) Theology as the wayfarer has it is a science in the strict Aristotelian sense.
+
 (c) The canonical Scriptures are inspired and belong to the canon.
+
 (d) In a theological argument the canonical Scriptures argue conclusively while the doctors of the Church argue only probably.
 
 **P2 (🟡) *(Exegetical.)*** Run the a.8 triage. For each interlocutor, say what sacred doctrine may do, what it may not do, and the reason a.8 gives. 150 words or fewer, total.
 
 (a) Someone who holds every article of faith but denies a conclusion two theologians drew from two of them.
+
 (b) Someone who holds the canonical Scriptures to be God's word but denies one article you affirm.
+
 (c) Someone who holds nothing of divine revelation and argues that the Incarnation is self-contradictory.
 
 **P3 (🔴, optional) *(Exegetical (a) · Evaluative (b).)*** An invented paragraph from a seminar handout:

@@ -101,19 +101,27 @@ Insulin after a meal runs every arrow backward: dephosphorylation → PFK-2 on �
 <summary>Solutions</summary>
 
 **P1**
+
 (a) **FBPase-1 (fructose-1,6-bisphosphatase)**, gluconeogenic. It *hydrolyzes* a phosphate off with water — **no ATP produced or consumed** (this is the asymmetry that makes the step irreversible; the phosphate's energy is lost as heat, not captured).
+
 (b) **Glucose-6-phosphatase**, gluconeogenic. Also a hydrolysis — **no high-energy phosphate produced** (phosphate released as inorganic $\text{P}_i$).
+
 (c) **Pyruvate carboxylase**, gluconeogenic — the first bypass reaction. It **consumes 1 ATP** (and adds $\ce{CO2}$) to make oxaloacetate.
 
 *Point:* the two phosphatase bypasses spend no ATP, but they also give none back — you never recover the ATP glycolysis "should" have regenerated, which is why building costs more than burning returns.
 
 **P2**
+
 (a) **High.** Insulin → dephosphorylation of PFK-2/FBPase-2 → PFK-2 (kinase) active → F-2,6-BP is synthesized.
+
 (b) **PFK-1** is more active — F-2,6-BP activates it. FBPase-1 is simultaneously inhibited by the same high F-2,6-BP.
+
 (c) **Net-consuming** glucose (running glycolysis). High blood sugar signals "there's plenty — burn/store it," so the liver switches on glycolysis and shuts gluconeogenesis off. This is the exact mirror image of Worked Example 2.
 
 **P3**
+
 (a) Muscle **nets** +2 ATP (it *gains* 2 by breaking glucose down); liver **spends** 6 ATP to rebuild it. Net across the loop: $+2 - 6 = \mathbf{-4}$ ATP per turn. The cycle is a net drain of 4 ATP.
+
 (b) It's a deliberate trade, not a mistake. The **muscle** gets fast, oxygen-independent ATP right when it's sprinting, and offloads the lactate (and the metabolic debt) into the blood. The **liver**, which has ample oxygen and ATP, pays the 4-ATP tax later to regenerate glucose and prevent lactate buildup / acidosis. The organism spends energy to move the *timing and location* of the cost — quick ATP now in muscle, repaid later in liver — which is worth it during a sprint.
 
 *Check:* the 6 ATP the liver spends is exactly the Worked-Example-1 cost of gluconeogenesis; the 2 ATP muscle nets is exactly the glycolysis yield from [3.2](03-02-glycolysis.md). The Cori cycle is just those two ledgers stitched together across organs. ✓

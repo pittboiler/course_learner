@@ -127,7 +127,9 @@ The monist argues that the cosmos may be *gunky* — every part has proper parts
 **P1 (🟢) *(Exegetical, with one evaluative step on (c).)*** Consider a particular pocket watch, Chronos, assembled in Geneva in 1910.
 
 (a) For each of these, say whether the **modal account** counts it as essential and whether a **real definition** would include it: (i) being a timepiece; (ii) being distinct from the number 7; (iii) having been assembled from those particular components; (iv) being such that there is no largest prime; (v) running four seconds fast.
+
 (b) Which of your answers, taken as a pair, shows that essence is finer-grained than necessity? One sentence.
+
 (c) Someone says: "Chronos is essentially a timepiece, so if the mechanism is destroyed and the case is kept as a paperweight, Chronos no longer exists." Is that inference licensed by sortal essentialism as stated? One or two sentences.
 
 **P2 (🟡) *(Exegetical (a) · Evaluative (b).)*** An invented passage from a magazine essay on cities:

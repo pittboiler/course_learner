@@ -76,9 +76,13 @@ Repeat the same glide and you get the next left foot at $(9,3)$ — back to the 
 **P1** (a) Swap coordinates: $A'(1,3)$. (b) $90^\circ$ CCW uses $(x,y)\mapsto(-y,x)$: $A'(-1,3)$. (c) $180^\circ$ uses $(x,y)\mapsto(-x,-y)$: $A'(-3,-1)$. Reflection (a) reverses orientation; the two rotations (b) and (c) preserve it.
 
 **P2**
+
 (a) Non-square rectangle: $2$ lines of symmetry (the two through opposite side-midpoints), rotational symmetry of order $2$ (a $180^\circ$ turn).
+
 (b) Equilateral triangle: $3$ lines of symmetry, order $3$ (turns of $120^\circ$).
+
 (c) Regular hexagon: $6$ lines of symmetry, order $6$ (turns of $60^\circ$).
+
 (d) Letter $\mathsf{S}$: $0$ lines of symmetry, but rotational symmetry of order $2$ — a $180^\circ$ turn maps it onto itself. (A clean example that rotational symmetry can exist with no mirror line.)
 
 **P3** Reflect over the $x$-axis: $(x,y)\mapsto(x,-y)$. Now reflect *that* over $y=x$ (swap its coordinates): $(x,-y)\mapsto(-y,\,x)$. So the composite is

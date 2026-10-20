@@ -106,12 +106,15 @@ Where it strains: White's claim applies straight away, since the trick-lighting 
 **P1 (🟢) *(Exegetical (a)–(b).)*** Orla, a keen birdwatcher, knows that willow tits and marsh tits look almost identical and that both visit her garden. A small bird at her feeder looks just like a willow tit. She believes (W) "that is a willow tit", and infers (M) "so that is not a marsh tit".
 
 (a) On Wright's account of transmission failure, does Orla's warrant for W transmit to M? Say why in two sentences.
+
 (b) On Pryor's dogmatism as stated in the lesson, does Orla's experience give her justification for W at all? Say which condition decides it, and why her case differs from Moore's hand. Two sentences.
 
 **P2 (🟡) *(Formal (a)–(b) · Evaluative (c).)*** Mira sits at a cabin window. Let $SK$ be "Mira is in a full-immersion simulation that feeds her an experience as of a lake, and there is no lake", $E$ "Mira has an experience as of a lake", and $L$ "there is a lake in front of her". Her illustrative credences: $\mathrm{cr}(SK) = 0.1$, $\mathrm{cr}(E \mid SK) = 1$, $\mathrm{cr}(E \mid \neg SK) = 0.4$.
 
 (a) Compute $\mathrm{cr}(\neg SK \mid E)$ by conditionalization, and give the upper bound it sets on $\mathrm{cr}(L \mid E)$.
+
 (b) Prove the more general result: if $\mathrm{cr}(E \mid SK) \ge \mathrm{cr}(E \mid \neg SK)$ and $\mathrm{cr}(E) > 0$, then $\mathrm{cr}(\neg SK \mid E) \le \mathrm{cr}(\neg SK)$.
+
 (c) In three sentences or fewer: state the dogmatist's best reply to what (a)–(b) show, and the cost of that reply.
 
 **P3 (🔴, optional) *(Exegetical (a) · Evaluative (b).)*** An invented forum post:
@@ -119,6 +122,7 @@ Where it strains: White's claim applies straight away, since the trick-lighting 
 > "Moore's 'proof' is plain circular reasoning: 'here is a hand' just *is* the claim that the external world exists, dressed up. And since no skeptic in history has been persuaded by it, it obviously gives nobody any reason to believe in the external world. The real lesson is simple: if you can't prove you're not a brain in a vat, you can't know you have hands."
 
 (a) Identify three distinct errors or contested assumptions in the post, and name the distinction or premise each one turns on. One sentence each.
+
 (b) Rewrite the post's first charge as the strongest version of the objection a careful critic of Moore would make. 80 words or fewer. Any verdict on whether it succeeds.
 
 <details>

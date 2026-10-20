@@ -115,12 +115,15 @@ Every row has a positive entry ($B$ can always win sometimes) and every column a
 **P1 (🟢)** *(Formal (a)–(b).)* Five voters have ideal points 0, 2, 3, 5 and 8 and Euclidean utility $-|q - x_i|$. Candidate $A$ has valence $\tfrac32$: a voter votes $B$ iff $|x_i - q_A| - |x_i - q_B| > \tfrac32$, and $A$ otherwise. Platforms are integers from 0 to 8, chosen simultaneously.
 
 (a) If both maximize vote count, show that no pure-strategy equilibrium exists.
+
 (b) If both maximize the probability of winning (majority of five), find every $q_A$ that beats every $q_B$, and describe all pure equilibria.
 
 **P2 (🟡)** *(Formal.)* Citizens are uniform on $[0, 12]$ in the Osborne–Slivinski model with plurality rule, $b = 4$ and $c = 3$.
 
 (a) Find every $\varepsilon$ for which candidates at $6 - \varepsilon$ and $6 + \varepsilon$ form an equilibrium, and the resulting positions.
+
 (b) At the largest such $\varepsilon$, show that the citizen at 6 prefers to stay out.
+
 (c) Find every one-candidate equilibrium.
 
 **P3 (🔴, optional)** *(Exegetical.)* An invented editorial: "Our district's two candidates stand at 3 and 7 on a ten-point scale. Downs proved that competition drives both candidates to the median, so this gap shows the system is broken. Halve the filing fee and centrists will flood in until the candidates converge." In 120 words or fewer: name the model the editorial relies on and the assumption it treats as fixed; say what the citizen-candidate model says about the gap; and say what that model predicts a lower filing fee does.

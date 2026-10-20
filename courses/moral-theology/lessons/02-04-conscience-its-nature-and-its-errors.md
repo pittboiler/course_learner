@@ -90,8 +90,11 @@ The top branch matters: only a *certain* conscience is a rule for action. Acting
 ## Problems
 
 **P1 (🟢)** *(Exegetical)* Three cases written for this problem. For each, say (i) whether the agent's conscience binds, (ii) whether acting on it is excused, and (iii) which kind of ignorance from [2.1](02-01-the-voluntary.md) is at work, if any. Two sentences per case.
+
 (a) Ines is convinced, wrongly, that it is a sin to whistle on a Friday. Bored at work one Friday, she whistles anyway, thinking it sinful.
+
 (b) Marcus, a landlord, keeps a tenant's whole deposit for "normal wear and tear," sure it is his right. He has twice skipped reading the local tenancy rules because, as he tells a friend, "I'd rather not find out."
+
 (c) Ade, a volunteer driver, takes a route that the city's official detour map marks as open, having checked it that morning. A bridge on it had been closed an hour earlier without notice, and a passenger misses a medical appointment.
 
 **P2 (🟡)** *(Exegetical)* ST I q.79 a.13, from the *respondeo* (English Dominican Province):

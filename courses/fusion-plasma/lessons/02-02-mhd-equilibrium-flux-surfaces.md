@@ -100,6 +100,7 @@ Read that: a 5 T field could in principle balance ~100 atm of plasma, but the pl
 **P1** (a) Magnetic pressure:
 $$\frac{B^{2}}{2\mu_0} = \frac{(12)^{2}}{2(4\pi\times10^{-7})} = \frac{144}{2.513\times10^{-6}} \approx 5.73\times10^{7}\,\text{Pa} \approx 573\ \text{atm}.$$
 Four times the 5 T value from Example 2, since magnetic pressure scales as $B^2$ and $12/5 = 2.4$, $2.4^2\approx5.76$. ✓
+
 (b) At $\beta = 0.04$: $p = \beta\,(B^2/2\mu_0) = 0.04\times5.73\times10^{7} \approx 2.3\times10^{6}\,\text{Pa} \approx 23\ \text{atm}.$ High field buys high confined pressure — roughly $4\times$ the 5 T machine at the same $\beta$, which (via $P_{\text{fus}}\propto p^2$) is the whole high-field bet.
 
 **P2** Dot force balance with $\mathbf{J}$:

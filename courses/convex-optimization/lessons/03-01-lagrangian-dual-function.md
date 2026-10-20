@@ -123,7 +123,9 @@ A nonzero slope $(c-\lambda)$ lets $x \to \pm\infty$ drive the linear function t
 **P3** (a) $L = x^2 + \lambda_1(1 - x) + \lambda_2(x - 3)$. Minimize over $x$: $2x - \lambda_1 + \lambda_2 = 0 \Rightarrow x^\star = \tfrac12(\lambda_1 - \lambda_2)$. Substitute; writing $u = \lambda_1 - \lambda_2$,
 $$g(\lambda_1,\lambda_2) = \tfrac{u^2}{4} + \lambda_1\!\left(1 - \tfrac{u}{2}\right) + \lambda_2\!\left(\tfrac{u}{2} - 3\right) = -\tfrac14(\lambda_1 - \lambda_2)^2 + \lambda_1 - 3\lambda_2.$$
 (Concave: the quadratic part is $-\tfrac14 u^2$, negative semidefinite in $(\lambda_1,\lambda_2)$.)
+
 (b) Maximize over $\lambda \succeq 0$. Try the interior stationarity: $\partial_{\lambda_1} g = -\tfrac12(\lambda_1-\lambda_2) + 1 = 0$ and $\partial_{\lambda_2} g = +\tfrac12(\lambda_1-\lambda_2) - 3 = 0$ are inconsistent (they'd need $u = 2$ and $u = 6$), so the max is on the boundary $\lambda_2 = 0$. With $\lambda_2 = 0$: $g = -\tfrac14\lambda_1^2 + \lambda_1$, maximized at $\lambda_1 = 2$, value $1$. Check the other face $\lambda_1 = 0$: $g = -\tfrac14\lambda_2^2 - 3\lambda_2$, decreasing for $\lambda_2 \ge 0$, best value $0$ at $\lambda_2 = 0$. So $d^* = 1$ at $(\lambda_1^*,\lambda_2^*) = (2, 0)$. Primal: $\min x^2$ on $[1,3]$ is at $x = 1$, $p^* = 1$. Zero gap. ✓
+
 (c) $\lambda_2^* = 0$. The upper constraint $x \le 3$ is slack (inactive) at the optimum $x = 1$, so its price is zero — you don't pay for a constraint that isn't binding. Only $\lambda_1^* = 2 > 0$, pricing the *active* constraint $x \ge 1$. That "price times slack $= 0$" pattern is complementary slackness ([Lesson 3.3](03-03-kkt-conditions.md)).
 
 </details>

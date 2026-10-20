@@ -200,7 +200,9 @@ Hence at the optimum $m_+ - m_- = 2$, which pins $b = m_+ - 1 = m_- + 1$. The po
 **From Lesson 2.1 (the perceptron and linear separability):** four points, separated by a hyperplane **through the origin** (no bias): $(1,2)$ and $(3,1)$ labelled $+1$; $(-2,1)$ and $(-1,-3)$ labelled $-1$.
 
 (a) Taking the unit separator $w^* = (1,0)$, compute $R = \max_i\lVert x_i\rVert$ and the margin $\gamma$ it achieves, and evaluate the perceptron mistake bound $(R/\gamma)^2$.
+
 (b) The bound is best when $\gamma$ is best. Find the maximum-margin separator through the origin for these four points and re-evaluate the bound.
+
 (c) The perceptron is guaranteed to stop — but with what margin? Exhibit a separator it could legitimately return whose geometric margin is below $0.05$, and say in one sentence what that shows about the relationship between the two lessons.
 
 <details>

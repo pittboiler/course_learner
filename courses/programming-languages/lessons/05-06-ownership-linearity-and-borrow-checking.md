@@ -131,21 +131,29 @@ The ownership column's cost is paid **entirely at compile time**, in two currenc
 **P1 (🟢)** For each, say whether the borrow checker accepts or rejects, and name the rule.
 
 (a) `let a = &v; let b = &v;` with `v` never mutated
+
 (b) `let a = &mut v; let b = &mut v;`
+
 (c) `let a = &mut v; let b = &v;`
+
 (d) `let n: i32 = 5; let m = n; println!("{}", n);`
 
 **P2 (🟡)** For each bug, state which of the two ingredients — aliasing or mutation — the borrow rule removes, and say which allowed configuration the fixed program lands in.
 
 (a) A C++ iterator invalidated by `push_back` during iteration.
+
 (b) Two threads incrementing a shared counter without a lock.
+
 (c) A pointer used after `free`.
 
 **P3 (🔴)** A doubly linked list gives each node a pointer to its successor and its predecessor.
 
 (a) State precisely which ownership rule this violates, and for which pointer.
+
 (b) Give two ways to build one in a language with affine ownership, and state what each gives up.
+
 (c) A colleague concludes the type system is defective. Assess this, referring to the property from [Lesson 4.5](04-05-type-soundness-progress-and-preservation.md) that is at stake.
+
 (d) A tracing collector handles a doubly linked list with no difficulty at all. State what it pays for that, and name the lesson where the cost is worked out.
 
 <details>
@@ -212,6 +220,7 @@ The cost is worked out in **[Lesson 6.5](06-05-tracing-garbage-collection.md)** 
 Rust has `&T` and `&mut T`.
 
 (a) State the variance of each in its referent type $T$, and give the reason from what each permits.
+
 (b) Both this lesson's borrow rule and [Lesson 5.2](05-02-subtyping-records-and-variance.md)'s invariance rule follow from one underlying observation. State it.
 
 

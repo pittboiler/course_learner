@@ -88,7 +88,9 @@ Defenders of representative-agent models reply that heterogeneous-agent versions
 **P1 (🟢) *(Formal (a)(b) · Exegetical (c).)*** At fixed prices, consumer 1's demand for good $x$ is $x_1=4+0.2\,m_1$ and consumer 2's is $x_2=1+0.2\,m_2$. Total income is 300.
 
 (a) Compute aggregate demand at the income splits (200, 100) and (100, 200), and the prediction of a representative consumer with $x=5+0.2M$.
+
 (b) Consumer 2's demand changes to $x_2=1+0.3\,m_2$. Recompute both splits, and the prediction of a representative consumer with the mean slope 0.25. By how much does a transfer of 100 from consumer 1 to consumer 2 change aggregate demand?
+
 (c) In one sentence: for which question is the representative consumer in (b) harmless, and for which does it fail?
 
 **P2 (🟡) *(Exegetical.)*** Mill, Essay V of *Essays on Some Unsettled Questions of Political Economy* (1844), a few pages after the disturbing-causes passage:
@@ -96,6 +98,7 @@ Defenders of representative-agent models reply that heterogeneous-agent versions
 > The error, when there is error, does not arise from generalizing too extensively; that is, from including too wide a range of particular cases in a single proposition. Doubtless, a man often asserts of an entire class what is only true of a part of it; but his error generally consists not in making too wide an assertion, but in making the wrong kind of assertion: he predicated an actual result, when he should only have predicated a tendency to that result—a power acting with a certain intensity in that direction. With regard to exceptions; in any tolerably advanced science there is properly no such thing as an exception. What is thought to be an exception to a principle is always some other and distinct principle cutting into the former: some other force which impinges against the first force, and deflects it from its direction.
 
 (a) Two readings: **(R1)** economic laws hold in most cases, and the rest are exceptions; **(R2)** economic laws state a tendency operating in every case, which other causes may outweigh. Which does the passage support? Quote the two phrases that decide it.
+
 (b) An economist asserts "a rise in a town's wages draws workers into it". In one town wages rose and workers left, because rents rose faster. In Mill's terms, what did the economist get wrong, and what should she have asserted? Two sentences.
 
 **P3 (🔴, optional) *(Evaluative.)*** An **invented** finance-ministry brief: "Our model treats the country as one representative household. It predicts that a tariff on imported staple foods will cut food imports by a modest amount and lower household welfare by a small amount, offset by the tariff revenue. We therefore judge the tariff's welfare cost to be negligible." The ministry's own (invented) household survey finds that low-income households spend 30 cents of each extra dollar of income on staple food and high-income households 10 cents.

@@ -103,16 +103,22 @@ Notice $O_h$ *does* have a 3-dimensional irreducible ($t_{2g}$), so it can suppo
 **P2 (🟡)** In $C_{3v}$, subduce the $A_2$ irreducible to the subgroup $C_3 = \{e, C_3, C_3^2\}$ (keep the 3-fold axis, drop all mirrors). $C_3$ is abelian with three 1-dimensional irreducibles $A, \ ^{1}\!E, \ ^{2}\!E$ whose characters on $(e, C_3, C_3^2)$ are $A:(1,1,1)$, $^{1}\!E:(1,\omega,\omega^2)$, $^{2}\!E:(1,\omega^2,\omega)$ with $\omega=e^{2\pi i/3}$. Does the (1-dimensional) $A_2$ level split? Which $C_3$-irreducible does it become? (You'll need $\chi_{A_2}$ on $e, C_3, C_3^2$ — read it off the $C_{3v}$ table, remembering $C_3$ and $C_3^2$ live in the class $2C_3$.)
 
 **P3 (🔴) — Boss Problem 3, final step.** A trigonal-pyramidal molecule ($C_{3v}$) has a set of vibrational modes whose symmetries decompose (from 3.4) as $\Gamma_{\text{vib}} = 2A_1 \oplus 2E$. The molecule is now clamped in a way that destroys the 3-fold axis and two of the mirror planes, leaving only symmetry $C_s = \{e,\sigma\}$ (one mirror). 
+
 (a) Subduce each irreducible in $\Gamma_{\text{vib}}$ to $C_s$ and write the full $C_s$-decomposition of the vibrational modes. 
+
 (b) The molecule had how many *distinct vibrational frequencies* before the distortion, and how many after? Explain the change purely in terms of splitting. 
+
 (c) State the general principle you've just demonstrated in one sentence.
 
 <details>
 <summary>Solutions</summary>
 
 **P1.**
+
 (a) $C_{4v}$: $1^2+1^2+1^2+1^2+2^2 = 4+4 = 8 = |C_{4v}|$. ✓ $\ \ T_d$: $1^2+1^2+2^2+3^2+3^2 = 1+1+4+9+9 = 24 = |T_d|$. ✓
+
 (b) Allowed degeneracies = the set of distinct irreducible dimensions. $C_{4v}$: **1 and 2** (non-degenerate and doubly-degenerate levels). $T_d$: **1, 2, and 3**.
+
 (c) **$T_d$** can host a triply-degenerate level (it has 3-dimensional irreducibles — indeed two of them, $T_1$ and $T_2$). **$C_{4v}$** tops out at doubly-degenerate (its largest irreducible is the 2-dimensional $E$). The abstract dimension list is a hard ceiling on symmetry-forced degeneracy.
 
 **P2.** From the $C_{3v}$ table, $A_2$ has $\chi_{A_2}(e)=1$ and $\chi_{A_2}=1$ on the class $2C_3$ — so $\chi_{A_2}(e)=\chi_{A_2}(C_3)=\chi_{A_2}(C_3^2)=1$. That is exactly the character $(1,1,1)$ of the trivial irreducible $A$ of $C_3$. So
@@ -122,6 +128,7 @@ $$A_2\big\downarrow_{C_3} = A \quad (\text{a single 1-dim irreducible}).$$
 **No split** — a 1-dimensional irreducible can never split, and here it simply subduces to the trivial representation of $C_3$ (the mirror-antisymmetry that distinguished $A_2$ from $A_1$ is invisible to $C_3$, which contains no mirrors). Degeneracy stays 1. (Sanity: dimension conserved, $1 = 1$.)
 
 **P3.**
+
 (a) Subduce each piece to $C_s=\{e,\sigma\}$, whose irreducibles are $A'\,(\chi:1,1)$ and $A''\,(\chi:1,-1)$.
 - $A_1$: character on $(e,\sigma_v)$ is $(1,1)$ → matches $A'$. So $A_1\downarrow_{C_s}=A'$ (no split).
 - $A_2$: character on $(e,\sigma_v)$ is $(1,-1)$ → matches $A''$. So $A_2\downarrow_{C_s}=A''$ (no split).

@@ -99,17 +99,25 @@ The two normals are $\arccos(0.949 \cdot 0.184 + 0.316 \cdot 0.983) = \arccos(0.
 ## Problems
 
 **P1 (🟢)** Let $M = T(0, 0, -5)\,R_y(90°)\,S(2, 2, 2)$.
+
 (a) Write $M$ as a single $4 \times 4$ matrix.
+
 (b) Apply it to the point $(1, 0, 0)$ and to the vector $(1, 0, 0)$.
 
 **P2 (🟡)** A frame has origin $\mathbf{e} = (1, 2, 3)$ and axes $\mathbf{u} = (0, 1, 0)$, $\mathbf{v} = (0, 0, 1)$, $\mathbf{w} = (1, 0, 0)$.
+
 (a) Check that the frame is right-handed.
+
 (b) Find the world coordinates of the frame point $(2, -1, 4)$.
+
 (c) Find the frame coordinates of the world point $(5, 4, 3)$.
 
 **P3 (🔴)** The plane $x + y + z = 1$ is transformed by the linear map $A = \text{diag}(3, 1, 1)$.
+
 (a) Find the unit normal of the transformed plane using the inverse transpose.
+
 (b) Verify it a second way: transform the two tangent vectors $(1, -1, 0)$ and $(0, 1, -1)$ of the original plane by $A$ and take their cross product.
+
 (c) Find the angle between your answer and the normal you would get by (wrongly) applying $A$ to $(1, 1, 1)$.
 
 <details>
@@ -169,8 +177,11 @@ The wrong normal is not even perpendicular to the transformed surface: $(3,1,1)\
 
 **From Lesson 1.2 (2D transforms):** A 2D sprite is drawn with the matrix
 $$M = \begin{pmatrix} 0 & -2 & 3 \\ 2 & 0 & 1 \\ 0 & 0 & 1 \end{pmatrix}.$$
+
 (a) Write $M$ as $T\,R\,S$ with $S$ a uniform scale, $R$ a rotation, and $T$ a translation, giving the scale factor, the angle and the translation vector.
+
 (b) Apply $M$ to the point $(1, 1)$ and to the vector $(1, 1)$.
+
 (c) Find $M^{-1}$ as a product of the inverses, in the right order.
 
 <details>

@@ -92,6 +92,7 @@ Every step is "expand, then set $i^2=-1$." The denominator $(1-i)(1+i) = 1 - i^2
 ## Problems
 
 **P1 (🟢)** For each, give the minimal polynomial over $\mathbb{Q}$ and the degree $[\mathbb{Q}(\alpha):\mathbb{Q}]$:
+
 (a) $\alpha = \sqrt5$; (b) $\alpha = \sqrt[3]{7}$; (c) $\alpha = \omega$, a primitive cube root of unity (so $\omega^3=1$, $\omega \neq 1$).
 
 **P2 (🟡)** In $\mathbb{Q}(\sqrt[3]{2})$ with $\alpha = \sqrt[3]{2}$ (so $\alpha^3=2$), find the inverse of $g = \alpha^2 + 1$ as an element $a + b\alpha + c\alpha^2$ with $a,b,c \in \mathbb{Q}$. Use the extended Euclidean algorithm on $x^2+1$ and $x^3-2$ in $\mathbb{Q}[x]$, then verify.
@@ -102,8 +103,11 @@ Every step is "expand, then set $i^2=-1$." The denominator $(1-i)(1+i) = 1 - i^2
 <summary>Solutions</summary>
 
 **P1.**
+
 (a) $\sqrt5$ satisfies $x^2-5$, irreducible over $\mathbb{Q}$ (Eisenstein at $5$, or no rational root). $m_\alpha = x^2-5$, degree $\mathbf{2}$.
+
 (b) $\sqrt[3]{7}$ satisfies $x^3-7$, irreducible (Eisenstein at $7$). $m_\alpha = x^3-7$, degree $\mathbf{3}$.
+
 (c) $\omega$ satisfies $x^3-1 = (x-1)(x^2+x+1)$. Since $\omega\neq 1$, it's a root of $x^2+x+1$, which is irreducible over $\mathbb{Q}$ (no rational roots; discriminant $-3<0$). $m_\alpha = x^2+x+1$, degree $\mathbf{2}$. (Explicitly $\omega = \tfrac{-1+i\sqrt3}{2}$.)
 
 **P2.** Run the Euclidean algorithm on $m = x^3-2$ and $g = x^2+1$.

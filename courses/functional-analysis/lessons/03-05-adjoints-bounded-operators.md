@@ -106,6 +106,7 @@ $$\langle Dx, y\rangle = \sum_n \lambda_n x_n\,\overline{y_n} = \sum_n x_n\,\ove
 so $D^*y = (\overline{\lambda_1}y_1, \overline{\lambda_2}y_2,\dots)$ — the diagonal operator with **conjugated** entries, $D^* = \text{diag}(\overline{\lambda_n})$.
 
 (a) Self-adjoint $\iff \overline{\lambda_n} = \lambda_n$ for all $n \iff$ every $\lambda_n$ is **real**.
+
 (b) $D^*D = \text{diag}(|\lambda_n|^2)$, so unitary $\iff D^*D = DD^* = I \iff |\lambda_n| = 1$ for all $n$. (Both hold together since diagonal operators commute.)
 
 **P2** Since $T = T^*$, move it across the inner product and use conjugate-symmetry $\langle a,b\rangle = \overline{\langle b,a\rangle}$:

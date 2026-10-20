@@ -109,7 +109,9 @@ Use the Picture network unless stated otherwise: $s\to a\,(3)$, $s\to b\,(2)$, $
 <summary>Solutions</summary>
 
 **P1** (a) *Capacities:* $2\le3$, $1\le1$, $1\le2$, $1\le2$, $2\le3$ — all hold. *Conservation at $a$:* in $=f(s\to a)=2$; out $=f(a\to b)+f(a\to t)=1+1=2$. ✓ *At $b$:* in $=f(s\to b)+f(a\to b)=1+1=2$; out $=f(b\to t)=2$. ✓ So $f$ is a valid flow.
+
 (b) $|f| = f(s\to a)+f(s\to b) = 2+1 = 3$. (Cross-check on the sink cut: $f(a\to t)+f(b\to t)=1+2=3$. ✓)
+
 (c) Take the source cut $S=\{s\},\,T=\{a,b,t\}$: crossing edges $s\to a\,(3)$ and $s\to b\,(2)$, so $\mathrm{cap}=5$. Weak duality: $|f|=3 \le 5$. ✓ (Any of the three minimum cuts, all capacity $5$, works.)
 
 **P2** The edges from $S=\{s,a\}$ to $T=\{b,t\}$ are: $s\to b$ (tail $s\in S$, head $b\in T$) with capacity $2$; $a\to b$ (tail $a\in S$, head $b\in T$) with capacity $1$; and $a\to t$ (tail $a\in S$, head $t\in T$) with capacity $2$. The edge $s\to a$ lies inside $S$ and $b\to t$ lies inside $T$, so neither counts. Total $\mathrm{cap}(S,T)=2+1+2=5$. Example 2 exhibits a flow with $|f|=5$; by weak duality no cut can have capacity below $5$, and this cut attains $5$, so it is a minimum cut.

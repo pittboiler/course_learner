@@ -115,6 +115,7 @@ So $x'=(2,1,-1)^\top$ — obtained without touching $A$ again. Ten right-hand si
 
 **P3 (🔴, optional)** Growth factor. Run partial-pivoting elimination on
 $$A=\begin{pmatrix}1&0&1\\ -1&1&1\\ -1&-1&1\end{pmatrix}.$$
+
 (a) Confirm no row swaps occur (each pivot is already largest in magnitude in its column). (b) Carry the elimination out and find the largest-magnitude entry that appears anywhere during the process. (c) Compute the growth factor $\rho$ and compare it to the partial-pivoting bound $2^{n-1}$. What does this matrix demonstrate about that bound?
 
 <details>
@@ -125,11 +126,15 @@ $$L=\begin{pmatrix}1&0&0\\ 3&1&0\\ -2&2&1\end{pmatrix},\qquad U=\begin{pmatrix}1
 Forward $Ly=b=(6,20,10)$: $y_1=6$; $y_2=20-3(6)=2$; $y_3=10-(-2)(6)-2(2)=10+12-4=18$. So $y=(6,2,18)$. Back $Ux=y$: $x_3=18/3=6$; $2x_2+3(6)=2\Rightarrow x_2=(2-18)/2=-8$; $x_1+(-8)+6=6\Rightarrow x_1=8$. So $x=(8,-8,6)^\top$. Check row 2: $3(8)+5(-8)+6(6)=24-40+36=20$ ✓.
 
 **P2** (a) *No pivoting.* Multiplier $\ell_{21}=1/0.001=1000$. $u_{22}=\operatorname{fl}(1-1000\cdot2)=\operatorname{fl}(-1999)=-2.00\times10^3$; $\tilde b_2=\operatorname{fl}(3-1000\cdot4)=\operatorname{fl}(-3997)=-4.00\times10^3$. Back: $x_2=(-4.00\times10^3)/(-2.00\times10^3)=2.00$; row 1: $0.001\,x_1=\operatorname{fl}(4-2\cdot2.00)=\operatorname{fl}(4-4)=0\Rightarrow x_1=0$. Result $x=(0,\,2.00)$ — $x_1$ is completely wrong.
+
 (b) *Partial pivoting.* $|1|>|0.001|$, so swap: $\begin{pmatrix}1&1\\0.001&2\end{pmatrix},\ b=(3,4)$. Multiplier $\ell_{21}=0.001$. $u_{22}=\operatorname{fl}(2-0.001\cdot1)=\operatorname{fl}(1.999)=2.00$; $\tilde b_2=\operatorname{fl}(4-0.001\cdot3)=\operatorname{fl}(3.997)=4.00$. Back: $x_2=4.00/2.00=2.00$; $x_1=\operatorname{fl}(3-1\cdot2.00)=1.00$. Result $x=(1.00,\,2.00)$.
+
 (c) Pivoting got it (matching $(1.0005,1.9990)$ to 3 digits); the tiny pivot $0.001$ produced a multiplier of $1000$ that amplified row 1 until the honest data was lost to rounding, and swapping to the larger pivot kept the multiplier at $0.001$ so nothing was amplified.
 
 **P3** (a) Column 1: pivot $|1|$ vs. below-diagonal $|-1|,|-1|$ — all magnitude $1$, so the diagonal is (tie-)largest; no swap. After eliminating: $\ell_{21}=-1,\ \ell_{31}=-1$, giving $R_2\to(0,\,1,\,1+1)=(0,1,2)$, $R_3\to(0,\,-1,\,1+1)=(0,-1,2)$. Column 2: pivot $|1|$ vs. below $|-1|$ — again largest is (tie) the diagonal; no swap. $\ell_{32}=-1$: $R_3\to(0,0,\,2+2)=(0,0,4)$.
+
 (b) The largest-magnitude entry appearing anywhere is the final $u_{33}=4$; it doubled at each of the two steps ($1\to2\to4$).
+
 (c) Original max entry $=1$, so $\rho=4/1=4$. The bound is $2^{n-1}=2^{3-1}=4$. This matrix **attains** the partial-pivoting bound exactly — proof that the $2^{n-1}$ worst case is real, not merely conservative. What makes partial pivoting safe in practice is that such matrices are vanishingly rare among the systems that actually arise; typical $\rho$ is a small constant, essentially independent of $n$.
 
 </details>

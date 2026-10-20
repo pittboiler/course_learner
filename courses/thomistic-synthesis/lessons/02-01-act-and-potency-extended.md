@@ -81,6 +81,7 @@ Now watch the strain. In q.7 a.2 Aquinas allows that such a form, not received i
 > I answer that, It is impossible for the action of an angel, or of any creature, to be its own substance. For an action is properly the actuality of a power; just as existence is the actuality of a substance or of an essence. Now it is impossible for anything which is not a pure act, but which has some admixture of potentiality, to be its own actuality: because actuality is opposed to potentiality. But God alone is pure act. Hence only in God is His substance the same as His existence and His action.
 
 (a) The passage asserts two act-and-potency pairs. Name both and quote the words that fix each.
+
 (b) State in one sentence the general principle carrying the inference, and say what it establishes about every creature's acting. Two sentences per part.
 
 **P2 (🟡) *(Exegetical.)*** An invented paragraph from a parish newsletter (nobody wrote this; it is built for the problem):
@@ -88,11 +89,13 @@ Now watch the strain. In q.7 a.2 Aquinas allows that such a form, not received i
 > "Ever wonder what the old phrase 'God is pure act' means? It means God is pure activity — the busiest being there is, never resting for an instant, always at full effort. And that is the difference between him and us. We are a little bit actual; some people are more actual than others; God is simply further along the same line, actual to the highest degree, the way the ocean is more water than a cup is."
 
 (a) Name the two distinct confusions, quoting the words that carry each.
+
 (b) For each, give the sentence from this lesson's argument or Source that blocks it. 150 words or fewer in total.
 
 **P3 (🔴, optional) *(Apologetic.)*** A critic denies premise 3. On his account a finite act is finite of itself: a form has its own intrinsic degree of perfection, so this angel's being is being of just this intensity whether or not anything receives it. Being comes in degrees, and God's is the maximal one; no receiving potency is needed to explain any limit. (The Scotist tradition presses this line, and Suárez independently denies a real composition of essence and *esse* — see [2.2](02-02-esse-and-essence-the-real-distinction.md).)
 
 (a) State that objection at its strongest in your own words, and say what it thereby no longer needs to prove.
+
 (b) Give the Thomist reply from the Source, and name the premise the critic will deny in return. 150 words or fewer in total.
 
 <details>

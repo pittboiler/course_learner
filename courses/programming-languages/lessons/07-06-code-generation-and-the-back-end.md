@@ -94,20 +94,27 @@ Two `mov` instructions where there were none. Now **coalescing**: if $i_0$ and $
 **P1 (🟢)** Variables `a`, `b`, `c` have live ranges: `a` from instruction 1 to 5, `b` from 3 to 8, `c` from 6 to 10.
 
 (a) Give the interference graph.
+
 (b) Give the minimum number of registers needed.
+
 (c) State which two variables can share a register, and why.
 
 **P2 (🟡)** An interference graph has five nodes: `p` (degree 4), `q` (degree 3), `r` (degree 2), `s` (degree 2), `t` (degree 3), with `p` adjacent to all others.
 
 (a) Run Chaitin's simplify phase with $k = 4$ and give the stack order.
+
 (b) State whether any spill is needed at $k = 4$.
+
 (c) Redo with $k = 3$: say where simplify stalls and which node the heuristic would spill, given that `p` is used twice and every other node is used ten times.
 
 **P3 (🔴)** A hot loop runs in 100 ms. Profiling shows it is $O(n^2)$ with $n = 10{,}000$, and the compiler's optimizer is disabled.
 
 (a) Enabling `-O2` brings it to 25 ms. State what kind of improvement this is and give two specific optimizations from Module 7 that plausibly contributed.
+
 (b) Rewriting the algorithm to $O(n\log n)$ brings the unoptimized version to 2 ms. Give the approximate ratio of operation counts and say whether the compiler could ever have found this.
+
 (c) State the general rule about what a compiler can and cannot improve.
+
 (d) A colleague proposes spending a week on compiler flags rather than a day on the algorithm. Assess this, and name one circumstance in which they would nonetheless be right.
 
 <details>
@@ -193,6 +200,7 @@ The circumstance in which they would be right: **when the algorithm is already o
 **From Lesson 7.2 (Control-flow graphs, dominance and SSA):** SSA gives every assignment its own name and inserts phi-functions at the iterated dominance frontier, and the Watch out noted that a phi is a fiction with no machine instruction behind it.
 
 (a) State what happens to the SSA names by the end of the back end.
+
 (b) SSA was introduced to make analyses cheaper and is entirely undone before code generation. State in two sentences why this is a good design rather than wasted work.
 
 <details>

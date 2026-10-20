@@ -80,7 +80,9 @@ Now tighten it. Suppose the only defense available is a blow she knows will kill
 ## Problems
 
 **P1 (🟢)** *(Exegetical)* Two pairs of invented acts. Each pair is physically identical.
+
 (a) Two men sign "R. Alvarez" on a check. Ruben Alvarez signs his own. His nephew signs his uncle's name, without authority, to cash it for himself.
+
 (b) Two surgeons remove a healthy kidney from an anesthetized man. The first acts for a donor who has consented to give it to his brother. The second takes it without consent to sell.
 For each act, name the object in a short phrase and name the feature, grasped by reason and not by sight, that separates the pair. Then say whether that feature is a mere circumstance or a condition of the object, and why. Two sentences per pair.
 
@@ -128,8 +130,11 @@ For each act, name the object in a short phrase and name the feature, grasped by
 ## Flashback
 
 **From Lesson [1.4](01-04-the-new-law.md) (The New Law):** *(Exegetical.)* Give each claim its level on the [ladder](../../fundamental-theology/lessons/04-04-the-ladder-of-doctrinal-authority.md), **naming the act that fixes it**, or saying that none does. **Two sentences each.**
+
 (a) The Ten Commandments bind Christians, and it is false that nothing besides faith is commanded in the Gospel.
+
 (b) Every baptized person, in whatever state of life, is called to the perfection of charity.
+
 (c) The New Law is chiefly the grace of the Holy Spirit and only secondarily a written law, as the Catechism restates.
 
 <details>

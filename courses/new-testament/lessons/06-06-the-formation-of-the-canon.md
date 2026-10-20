@@ -147,6 +147,7 @@ Name **three** factual errors and correct each from a source in this lesson. The
 - **The majority, toward which Brown's *Introduction* inclines**: the letter comes from a Roman circle loyal to Peter, c. 70–90, and 5:12 names Silvanus only as the man who **carried** it.
 
 Two facts: Acts 15:23 uses "writing by the hand of" (*grapsantes dia cheiros*) for the Jerusalem letter that Judas and Silas **carried**, and Silas is the same man as Silvanus. Ignatius's letter to the Romans closes: "Now I write these things to you from Smyrna by the Ephesians" (ANF vol. 1), naming the people who took the letter.
+
 (a) State the single question about 5:12 on which the two positions divide, and say which way the two facts push it. (b) Suppose the carrier reading wins. Why does that still not show that Peter did not write the letter? (c) Mark the levels of "1 Peter is canonical Scripture" and "Peter wrote 1 Peter". **Two sentences per part; one line per claim in (c).**
 
 <details>

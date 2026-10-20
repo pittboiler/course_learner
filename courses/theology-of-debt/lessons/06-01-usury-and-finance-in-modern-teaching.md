@@ -98,10 +98,13 @@ So the two senses answer different questions. The classical sense asks what the 
 **P1 (🟢)** *(Formal (a) · Exegetical (b))* An **invented** payday lender charges a fee of 17 dollars per 100 dollars borrowed for 14 days. A warehouse worker borrows 500 dollars for rent and, unable to repay, rolls the loan over ten times, paying only the fee each time.
 
 (a) Find the simple annual rate (365-day year), the effective annual rate if a 14-day loan is rolled over 26 times, and the worker's total fees after the ten rollovers, with the 500 dollars still owed.
+
 (b) Name the feature of the transaction that *OePQ* §16 and *Rerum Novarum* §20 each target, and say in one sentence why a lender's reply that "the fee is disclosed and the borrower agreed" does not meet it. Three sentences in all.
 
 **P2 (🟡)** *(Exegetical (a) · Evaluative (b))*
+
 (a) Give the act and the rung for each item, one line each: (i) *Rerum Novarum* §3's sentence on "rapacious usury"; (ii) CCC 2269 on usurious dealings that bring hunger and death; (iii) Francis's 2018 statement to the Anti-Usury Council that usury is a serious sin; (iv) *OePQ* §22's proposal to separate banking functions.
+
 (b) An **invented** parish credit union lends members 15,000 dollars for a car at 9% a year. Its cost of funds is 4%, expected defaults are 1% and administration is 2%, and the remaining 2 points go to members' dividends. Is the loan usury in the **classical** sense? Any verdict passes; name the titles and the premise your verdict rests on. 100 words or fewer.
 
 **P3 (🔴)** *(Exegetical)* An **invented** bank-newsletter paragraph, not the words of any real person:

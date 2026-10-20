@@ -131,14 +131,19 @@ The condition LICM must check is therefore not merely invariance but **safety to
 **P1 (🟢)** Name the analysis each transformation requires.
 
 (a) replacing `y` with `x` after `y = x`
+
 (b) deleting `t = a + b` when `t` is never read
+
 (c) replacing the second `a + b` with a saved temporary
+
 (d) folding `3 * 4` to `12`
 
 **P2 (🟡)** Optimize each, naming every pass applied and giving the final code.
 
 (a) `x = 2; y = x + 3; z = y * 2; return z;`
+
 (b) `t1 = a + b; t2 = a + b; return t1 + t2;`
+
 (c) `x = f(); y = 1; return y;` where `f` writes to a global
 
 **P3 (🔴)** Consider
@@ -153,8 +158,11 @@ for (i = 0; i < n; i++) {
 with `j` and `flag` not assigned in the loop.
 
 (a) State whether `arr[j] + 1` is loop-invariant, with the reason.
+
 (b) State whether LICM may hoist it, and give the precise condition that decides it.
+
 (c) Give a value of `n` and `flag` for which naive hoisting changes the program's behaviour, and say what changes.
+
 (d) Give one transformation of the loop that would make hoisting legal, and state what it costs.
 
 <details>
@@ -260,6 +268,7 @@ Inside the `if (flag)` arm the load is no longer guarded by anything inside the 
 CSE replaces a second computation of `a + b` with a saved temporary.
 
 (a) State the precise condition on the store that makes this legal, and say which analysis establishes it.
+
 (b) Suppose `a` and `b` are memory locations reached through pointers, and the code between the two computations writes through a third pointer `p`. State what the compiler must prove, and name the analysis.
 
 <details>

@@ -86,7 +86,9 @@ What survives is the **least-cost separating equilibrium** from Example 1 (here 
 **P2 (🟡)** Keep the original costs ($c_H=2$, $c_L=7$) but change the prior to $p(H)=0.8$. Recompute the pooling wage $w(0)$ at $e=0$. Then redo the Intuitive-Criterion test on the pooling equilibrium: is $L$ still equilibrium-dominated at $e=1$? Does the pooling equilibrium still fail?
 
 **P3 (🔴, optional)** A firm is either High or Low quality (prior $\tfrac12$ each) and chooses a warranty length $m\in\{0,1\}$. A consumer then buys (action $b$) or not (action $n$). The warranty costs the High firm $1$ and the Low firm $4$ per unit. If the consumer buys, payoffs to the firm are: revenue $6$ minus warranty cost; if not, $0$ minus warranty cost. The consumer earns $+3$ from buying High, $-3$ from buying Low, and $0$ from not buying.
+
 (a) Find a separating PBE (High offers $m=1$, Low offers $m=0$) and specify the consumer's beliefs and best responses.
+
 (b) Is there a pooling-on-$m=0$ PBE? If so, what off-path belief sustains it, and does it survive the Intuitive Criterion?
 
 <details>
@@ -125,7 +127,9 @@ So we must check whether the warranty is a strong enough signal. It isn't here: 
 ## Flashback
 
 **From Lesson 4.4 (Perfect Bayesian and sequential equilibrium):** A Sender has two types, $\theta_A$ (prior $0.7$) and $\theta_B$ (prior $0.3$). In a proposed profile both types send message $L$; a second message $R$ is available. After a message the Receiver chooses $u$ or $d$, with payoffs: $u$ yields the Receiver $1$ against $\theta_A$ and $0$ against $\theta_B$; $d$ yields $0$ against $\theta_A$ and $1$ against $\theta_B$.
+
 (a) What belief does Bayes' rule force at $L$, and what is the Receiver's sequentially rational action there?
+
 (b) Message $R$ is off path. What does PBE require of the belief $\mu(\theta_A\mid R)$?
 
 <details>

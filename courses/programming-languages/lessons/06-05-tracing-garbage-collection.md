@@ -103,22 +103,31 @@ Mark order $A, B, C$; live set $\{A,B,C\}$. Sweep walks all six and frees **$D$,
 **P1 (🟢)** A heap has $R_1 \to X$, $X \to Y$, $Y \to Z$, $Z \to X$, $P \to Q$, $Q \to P$, and $W$ isolated. Roots are $\{R_1\}$; $R_1$ is a root object, not in the heap.
 
 (a) Give the mark order from a breadth-first traversal.
+
 (b) Give the live set and the swept set.
+
 (c) Give the reference count of each heap object.
+
 (d) Say which objects a reference-counting collector frees, and which it leaks.
 
 **P2 (🟡)** For each scenario, say which collector performs better and why, in one sentence each.
 
 (a) A heap of 1 GB in which 990 MB is garbage at collection time.
+
 (b) A heap of 1 GB in which 990 MB is live at collection time.
+
 (c) A program that allocates heavily in a loop, with almost every object dying immediately.
+
 (d) A program that allocates almost nothing but writes references between long-lived objects constantly.
 
 **P3 (🔴)** A team's service has a 200 ms pause every 30 seconds and a 99th-percentile latency requirement of 50 ms.
 
 (a) Name the two tuning axes and say which one they are failing.
+
 (b) Give two distinct changes that would reduce the pause, and state what each costs.
+
 (c) The team discovers memory use grows steadily despite the collector running. Name the most likely cause and say why a collector cannot fix it.
+
 (d) A colleague proposes switching to reference counting to eliminate pauses. Give the two things this would break, referring to [Lesson 6.4](06-04-memory-layout-and-reference-counting.md).
 
 <details>
@@ -194,6 +203,7 @@ The right move for a latency requirement is (b)'s first option: a concurrent col
 **From Lesson 5.6 (Ownership, linearity and borrow checking):** Ownership types decide every deallocation at compile time, with no run-time cost and no collector — at the price of rejecting programs, the doubly linked list being the standard case.
 
 (a) State what a tracing collector does with a doubly linked list, and why it is untroubled.
+
 (b) [Lesson 5.6](05-06-ownership-linearity-and-borrow-checking.md) P3(d) said the collector "pays for that" and pointed here. Give the two costs precisely, and say which one a real-time system cannot accept.
 
 <details>

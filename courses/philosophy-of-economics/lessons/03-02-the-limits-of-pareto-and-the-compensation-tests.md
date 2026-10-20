@@ -86,11 +86,13 @@ Two readings either side can defend. On the first, ex ante Pareto stands: these 
 **P1 (🟢) *(Formal (a) · Exegetical (b).)*** Illustrative numbers. Cal has $u_1 = 4x_1 + y_1$ and Dee has $u_2 = x_2 + y_2$. Policy $A$ yields 2 units of $x$, split $x_1 = 0.25$, $x_2 = 1.75$. Policy $B$ yields 4 units of $y$, split $y_1 = 3.5$, $y_2 = 0.5$.
 
 (a) Give each status-quo utility pair and the equation of each utility-possibility frontier. Show that each policy passes Kaldor's test against the other by giving a redistribution that beats the status quo for both people. Say which policy Scitovsky's double criterion ranks higher.
+
 (b) Suppose $B$ is adopted and the redistribution you found in (a) is actually carried out. Say in two sentences what the Kaldor test then adds to the Pareto principle.
 
 **P2 (🟡) *(Formal (a) · Exegetical (b).)*** Eve thinks a start-up has a 60% chance of success; Finn thinks 20%. They sign a contract: if it succeeds Finn pays Eve 120 dollars, if it fails Eve pays Finn 80 dollars, and each pays a lawyer 6 dollars. Both are risk-neutral.
 
 (a) Compute each person's expected gain on their own beliefs. Then let $q$ be a single shared probability of success, and show that no $q$ gives both a non-negative expected gain.
+
 (b) Does the ex ante Pareto principle endorse the contract? Say what the Gilboa-Samet-Schmeidler restriction says about it and why. Three sentences or fewer.
 
 **P3 (🔴, optional) *(Exegetical.)*** An **invented** memo from a regional transport office, not the words of any real agency:
@@ -165,7 +167,9 @@ A residents' group replies that a payment no one makes is no answer to a loss so
 | $G_3$ | $\{N,F\}$ | active choice, contributions start in a year | $F$ |
 
 (a) Using Bernheim and Rangel's $P^*$ on the domain $\{G_1,G_2,G_3\}$, find every ranked pair and the welfare optima.
+
 (b) The analyst adds $G_4$: menu $\{N,F,T\}$, default $N$, contributions start today, chosen $N$. Redo (a).
+
 (c) In two sentences: explain why enlarging the welfare-relevant domain can never add a pair to $P^*$, and say what the analyst would need, on Bernheim and Rangel's terms, to drop $G_4$ again.
 
 <details>

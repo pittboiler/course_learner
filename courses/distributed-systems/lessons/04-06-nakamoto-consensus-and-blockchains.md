@@ -101,22 +101,31 @@ A fork happens when two miners find blocks before hearing about each other's. If
 **P1 (🟢)** Use the confirmation table.
 
 (a) Give the confirmations needed for a 0.1 percent reversal risk against a 20 percent attacker, and the wall-clock time at 10 minutes per block.
+
 (b) Give the same for a 40 percent attacker.
+
 (c) State the factor by which the required wait grows between (a) and (b), and whether it is proportional to the change in attacker share.
+
 (d) State what happens to the required depth as the attacker share approaches 50 percent, and why.
 
 **P2 (🟡)** A chain has a mean block interval $\tau$ and a block propagation time $\Delta \approx 12$ seconds.
 
 (a) Give the approximate orphan rate for $\tau = 600$ s and for $\tau = 15$ s.
+
 (b) State why a high orphan rate weakens security rather than merely wasting work, in one sentence.
+
 (c) A designer proposes $\tau = 60$ s. Give the orphan rate and state whether it is acceptable, with a reason.
+
 (d) Name the change to the fork-choice rule that lets a chain shorten $\tau$ without the security loss, and state what it counts.
 
 **P3 (🔴, optional)** A consortium of 10 known banks must agree on a shared ledger.
 
 (a) State whether Nakamoto consensus or PBFT is the right choice, with two reasons.
+
 (b) Give the PBFT fault tolerance and quorum size for 10 nodes, and the messages per request.
+
 (c) One bank argues for proof of work "because it is more secure". State what that would actually buy and what it would cost, in this setting.
+
 (d) Now change the setting: the ledger is open to anyone. State which of PBFT's requirements fails and why no amount of extra nodes repairs it.
 
 <details>
@@ -184,7 +193,9 @@ PBFT's safety rests on counting: quorums of $2f+1$ out of $3f+1$, intersecting i
 **From Lesson 4.5 (Byzantine fault tolerance):** A permissioned network sizes itself for $f = 4$ Byzantine faults.
 
 (a) Give the minimum node count and the quorum size.
+
 (b) Give the guaranteed number of honest nodes in the intersection of two quorums, with the arithmetic.
+
 (c) State how many **crash** faults the same node count would tolerate, and the clause that explains the gap.
 
 <details>

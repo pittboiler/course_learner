@@ -100,22 +100,31 @@ Because the full list is only cheap when membership is small and stable. A Dynam
 **P1 (🟢)** A cluster of 16 nodes holds 800 GB, and a 17th node is added.
 
 (a) Give the fraction and volume of data that moves under `hash mod N`.
+
 (b) Give the fraction and volume under consistent hashing.
+
 (c) The cluster instead loses a node, going from 16 to 15. Give the fraction that moves under each scheme.
+
 (d) State in one clause why the consistent-hashing figure cannot be improved on.
 
 **P2 (🟡)** A ring has 8 physical nodes.
 
 (a) With one token per node, state roughly how much larger the biggest arc is than the average, and the practical consequence.
+
 (b) With 128 virtual nodes per physical node, state what happens to the load spread and why.
+
 (c) Node 3 fails. State which nodes absorb its data with 1 token per node, and with 128.
+
 (d) The team sets 4096 virtual nodes per physical node. Give one cost this incurs.
 
 **P3 (🔴, optional)** A peer-to-peer store uses Chord over a 128-bit identifier space with roughly $2^{20}$ live nodes.
 
 (a) Give the finger-table size and the expected hop count for a lookup.
+
 (b) At 40 ms per hop, give the expected lookup latency, and compare with a one-hop design using a gossiped membership list.
+
 (c) A node's finger table is entirely stale but its successor pointer is correct. State whether lookups still return the right answer, and what changes.
+
 (d) Both the finger table and the successor pointer are stale. State what can go wrong, and give the mechanism that repairs it.
 
 <details>
@@ -182,7 +191,9 @@ Note what the successor list does double duty for: it is also where the $R$ repl
 **From Lesson 4.3 (MapReduce):** A job runs 3,000 map tasks, each normally taking 90 seconds, with each task independently slow — taking 12 times as long — with probability 0.005.
 
 (a) Give the probability the job contains at least one straggler.
+
 (b) Give the expected map-phase duration with no speculative execution.
+
 (c) State the property of a job's duration that makes (b) so much worse than the average task time.
 
 <details>

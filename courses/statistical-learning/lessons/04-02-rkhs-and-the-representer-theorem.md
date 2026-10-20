@@ -128,12 +128,15 @@ The headline: an optimization over an infinite-dimensional function space was an
 **P1 (🟢)** Take $\mathcal X = \mathbb R^2$ with the linear kernel $K(x,z) = x^\top z$. Its RKHS is the set of linear functions $f_w(x) = w^\top x$, with $\langle f_w, f_v\rangle_K = w^\top v$ and $\lVert f_w\rVert_K = \lVert w\rVert_2$.
 
 (a) Identify the function $K(\cdot,x)$ for $x = (2,5)$, and verify the reproducing property for $w = (3,-1)$ by computing both sides.
+
 (b) Compute $\lVert f_w\rVert_K$.
+
 (c) Write out what the representer theorem says here, and name the familiar fact about ridge and SVM weight vectors that it reduces to.
 
 **P2 (🟡)** Reproduce the proof of the representer theorem in your own words, then answer two questions about it.
 
 (a) Give the three steps, saying at each one which property of the RKHS you used.
+
 (b) Point at the exact line where **strict** monotonicity of $\Omega$ is needed, and state precisely how the conclusion weakens if $\Omega$ is merely non-decreasing.
 
 **P3 (🔴, optional)** Two extensions.
@@ -141,6 +144,7 @@ The headline: an optimization over an infinite-dimensional function space was an
 (a) Many kernel methods fit an unregularized offset: minimize over $f\in\mathcal H_K$ and $b\in\mathbb R$
 $$J(f,b) = L\bigl(y_i,\, f(x_i) + b\bigr)_{i=1}^n + \Omega\bigl(\lVert f\rVert_K\bigr).$$
 Show the theorem survives — any minimizer still has $f = \sum_i\alpha_i K(\cdot,x_i)$ — and say in one sentence why $b$ escaping the penalty does no damage.
+
 (b) Show that with $\Omega \equiv 0$ the "every minimizer" claim genuinely fails. Use one training point $x_1 = 0$, the Gaussian kernel $K(x,x') = e^{-(x-x')^2/2}$, squared loss, and the function $g = K(\cdot,1) - e^{-1/2}K(\cdot,0)$. Then say what the failure means about an unpenalized kernel fit.
 
 <details>

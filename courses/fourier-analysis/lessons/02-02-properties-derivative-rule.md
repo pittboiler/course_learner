@@ -92,6 +92,7 @@ A differential equation collapsed to one division. To get $f(x)$ itself you inve
 ## Problems
 
 **P1 (🟢)** With $\Pi$ the unit box and $\hat\Pi(\xi)=\operatorname{sinc}(\xi)$, use the rules (no integrals) to transform:
+
 (a) $\Pi(x-2)$;  (b) $\Pi(3x)$;  (c) $e^{2\pi i (5) x}\,\Pi(x)$. State which rule you used each time.
 
 **P2 (🟡)** In [Lesson 2.1](02-01-series-to-fourier-transform.md) you meet the Gaussian $g(x)=e^{-\pi x^2}$, which is its own transform: $\hat g(\xi)=e^{-\pi\xi^2}$. Using only the dual rule 5′ (no integral), find the transform of $x\,e^{-\pi x^2}$. Then explain, from the symmetry of the input, why your answer *had* to come out purely imaginary and odd.
@@ -104,6 +105,7 @@ $$|\hat f(\xi)|\le \frac{M}{(2\pi|\xi|)^{k}}\qquad(\xi\neq 0).$$
 <summary>Solutions</summary>
 
 **P1**
+
 (a) **Shift rule** (Rule 2) with $a=2$: $\widehat{\Pi(\cdot-2)}(\xi)=e^{-2\pi i(2)\xi}\hat\Pi(\xi)=e^{-4\pi i\xi}\operatorname{sinc}(\xi).$
 
 (b) **Scaling rule** (Rule 4) with $a=3$: $\widehat{\Pi(3\,\cdot)}(\xi)=\frac{1}{|3|}\hat\Pi(\xi/3)=\frac13\operatorname{sinc}(\xi/3).$ (Squeezing the box to a third its width tripled the spectral width and cut its height to $\tfrac13$.)

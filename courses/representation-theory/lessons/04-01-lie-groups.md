@@ -89,8 +89,11 @@ This antisymmetric $J$ is the tangent vector to the group at the identity, and $
 ## Problems
 
 **P1 (🟢) — membership and dimension.** For each matrix, decide which of $U(n)$, $SU(n)$, $SO(n)$ it belongs to; then state the dimension (number of free real parameters) of the named group.
+
 (a) $A = \begin{pmatrix} 0 & -1 \\ 1 & 0\end{pmatrix}$ — is it in $SO(2)$? Dimension of $SO(2)$?
+
 (b) $B = \begin{pmatrix} e^{i\phi} & 0 \\ 0 & e^{-i\phi}\end{pmatrix}$ — is it in $SU(2)$? Dimension of $SU(2)$?
+
 (c) $C = \begin{pmatrix} 1 & 0 \\ 0 & i\end{pmatrix}$ — is it in $U(2)$? In $SU(2)$? Dimension of $U(2)$?
 
 **P2 (🟡) — $SU(2)\cong S^3$.** Using the parametrization $M = \begin{pmatrix} a & b \\ -\bar b & \bar a\end{pmatrix}$ with $|a|^2+|b|^2 = 1$, show explicitly that (i) any such $M$ really is unitary with $\det = 1$, and (ii) the map $M \mapsto (a,b)$ is a bijection onto the unit sphere $\{(a,b)\in\mathbb{C}^2 : |a|^2 + |b|^2 = 1\} = S^3$. Conclude $\dim_{\mathbb{R}} SU(2) = 3$.
@@ -103,6 +106,7 @@ and explain why $n$ must be an *integer*. This is the continuous analogue of the
 <summary>Solutions</summary>
 
 **P1.**
+
 (a) $A^T A = \begin{pmatrix} 0 & 1 \\ -1 & 0\end{pmatrix}\begin{pmatrix} 0 & -1 \\ 1 & 0\end{pmatrix} = \begin{pmatrix} 1 & 0 \\ 0 & 1\end{pmatrix} = I$, and $\det A = 0\cdot 0 - (-1)(1) = 1$. So $A\in SO(2)$ (it's rotation by $90^\circ$). $\dim SO(2) = \binom{2}{2} = 1$ (one angle).
 
 (b) $B^\dagger B = \begin{pmatrix} e^{-i\phi} & 0 \\ 0 & e^{i\phi}\end{pmatrix}\begin{pmatrix} e^{i\phi} & 0 \\ 0 & e^{-i\phi}\end{pmatrix} = I$, so $B$ is unitary; $\det B = e^{i\phi}e^{-i\phi} = 1$. Hence $B\in SU(2)$. $\dim SU(2) = 2^2 - 1 = 3$.

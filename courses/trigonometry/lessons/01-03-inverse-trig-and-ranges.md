@@ -98,6 +98,7 @@ That is the entire content of two later lessons in one line: [4.2](04-02-law-of-
 ## Problems
 
 **P1 (🟢)** Evaluate exactly, in degrees and radians, without a calculator:
+
 (a) $\arccos\!\big(-\tfrac{\sqrt3}{2}\big)$ (b) $\arcsin\!\big(-\tfrac{\sqrt2}{2}\big)$ (c) $\arctan(\sqrt3)$ (d) $\arcsin(\sin 140^\circ)$.
 
 **P2 (🟡)** A particle's velocity has components $v_x = -6$ m/s and $v_y = 8$ m/s. Compute $\arctan(v_y/v_x)$, explain why it can't be the direction of motion, and give the true direction measured counterclockwise from the positive $x$-axis.

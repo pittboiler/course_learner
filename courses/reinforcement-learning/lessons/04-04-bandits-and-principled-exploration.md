@@ -112,22 +112,31 @@ Three things to read off, in order of importance.
 **P1 (🟢)** Four arms have been pulled: arm 1 five times with mean $0.6$; arm 2 twice with mean $0.8$; arm 3 once with mean $0.2$; arm 4 twice with mean $0.5$. So $t = 10$.
 
 (a) Compute each arm's UCB1 bonus, using $\ln 10 = 2.302585$.
+
 (b) Compute each UCB score and state which arm is pulled next.
+
 (c) State which arm has the largest bonus and why.
+
 (d) State how many further pulls arm 3 would need for its bonus to fall below arm 1's current bonus, holding $t$ fixed at $10$.
 
 **P2 (🟡)** A $\varepsilon$-greedy agent runs on a $5$-armed bandit with gaps $\Delta = (0,\ 0.1,\ 0.2,\ 0.3,\ 0.4)$ and $\varepsilon = 0.2$.
 
 (a) Compute the asymptotic per-step regret.
+
 (b) Compute the expected total regret over $10^5$ steps, assuming the means are learned quickly.
+
 (c) A colleague halves $\varepsilon$ to $0.1$. Compute the new asymptotic per-step regret and state the cost of the change.
+
 (d) State what value of $\varepsilon$ would make the asymptotic regret zero, and why that is not a solution.
 
 **P3 (🔴)** UCB1's bonus $\sqrt{2\ln t/N_i}$ comes from Hoeffding's inequality, which for an average of $n$ i.i.d. variables bounded in $[0,1]$ gives $\mathbb{P}[\bar x - \mu \ge \epsilon] \le e^{-2n\epsilon^2}$.
 
 (a) Set the right-hand side to $t^{-4}$ and solve for $\epsilon$, confirming you recover UCB1's bonus.
+
 (b) State what changing the exponent from $4$ to $2$ would do to the bonus and to the algorithm's behaviour.
+
 (c) Example 2 found UCB1 worse than $\varepsilon$-greedy for the first $20{,}000$ pulls. Using (b), explain the likely cause and a modification that would help.
+
 (d) State why the fix in (c) is not free, in terms of what the Hoeffding bound is guaranteeing.
 
 <details>
@@ -212,8 +221,11 @@ The modification: **shrink the constant.** Using $\sqrt{c\ln t / N_i}$ with $c$ 
 $$Q(s',\cdot\,;\theta^-) = (2.0,\ 6.0,\ 4.0), \qquad Q(s',\cdot\,;\theta) = (7.0,\ 5.5,\ 4.5).$$
 
 (a) Compute the DQN target and its TD error.
+
 (b) Compute the Double DQN target and its TD error.
+
 (c) State which is larger and explain the disagreement.
+
 (d) Relate the direction of the disagreement to this lesson's idea of optimism.
 
 <details>

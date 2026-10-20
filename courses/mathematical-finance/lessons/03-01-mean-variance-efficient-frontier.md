@@ -105,7 +105,9 @@ Check via the shortcut $S^2 = (\mu-r_f\mathbf{1})^\top\Sigma^{-1}(\mu-r_f\mathbf
 ## Problems
 
 **P1 (🟢)** Assets $X$ ($\mu_X=10\%,\ \sigma_X=25\%$) and $Y$ ($\mu_Y=6\%,\ \sigma_Y=15\%$), correlation $\rho=0.4$.
+
 (a) For the equal-weight portfolio $w_X=w_Y=0.5$, find $\mu_p$ and $\sigma_p$.
+
 (b) Find the global minimum-variance weight $w_X$.
 
 **P2 (🟡)** Two risky assets $\mu=(12\%,\ 7\%)$, uncorrelated, with $\sigma_1=20\%,\ \sigma_2=10\%$, and a risk-free rate $r_f=3\%$. Find the tangency (maximum-Sharpe) portfolio weights and its Sharpe ratio.

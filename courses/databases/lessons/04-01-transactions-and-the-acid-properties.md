@@ -113,22 +113,31 @@ So consistency in ACID is narrower than it sounds. It means "the constraints you
 **P1 (🟢)** For each scenario, name the ACID property violated and the mechanism that prevents it.
 
 (a) A transaction deletes a customer, and the machine crashes before its orders are deleted, leaving orders pointing at nothing.
+
 (b) A commit returns to the client; the machine loses power one second later and the change is gone.
+
 (c) A reporting query sums a column while a transfer is halfway through, and reports a total that was never true.
+
 (d) An insert supplies a `department_id` that no department has, and it is rejected.
 
 **P2 (🟡)** A booking transaction does: read `seats_left` (currently 3), compute $3 - 1 = 2$, write `seats_left = 2`, insert a `booking` row, commit.
 
 (a) The machine crashes after the write to `seats_left` and before the insert. Give the state on disk and the property violated.
+
 (b) Give what recovery must do, and state which of undo and redo it uses.
+
 (c) A second transaction runs the identical sequence concurrently, and both read `seats_left = 3` before either writes. Give the final value of `seats_left`, the number of booking rows, and the property violated.
+
 (d) State whether the anomaly in (c) would be caught by a `CHECK (seats_left >= 0)` constraint, and say what that tells you about the relationship between consistency and isolation.
 
 **P3 (🔴, optional)** A ticketing system holds `event(event_id, capacity, sold)` and `ticket(ticket_id, event_id)`. The business invariant is that `sold` equals the number of `ticket` rows for that event, and that `sold` never exceeds `capacity`.
 
 (a) State which part of the invariant a `CHECK (sold <= capacity)` constraint enforces and which part it does not.
+
 (b) Give a two-transaction interleaving in which both transactions satisfy every declared constraint at commit and the invariant is nonetheless violated. State the final values.
+
 (c) Give the schema change that makes the first half of the invariant true by construction, and name the cost it introduces.
+
 (d) The team instead keeps `sold` and enforces the invariant in application code inside a transaction. Name the isolation level at which this is still unsafe and the one at which it becomes safe, and give the reason in one clause. (You may answer in terms of "reads must not go stale between the read and the write" if you have not yet met isolation levels.)
 
 <details>
@@ -216,7 +225,9 @@ That trade is the general one for every derived-versus-stored decision, and it i
 **From Lesson 3.7 (query optimization & join ordering):** Three tables after filters: $D$ (40 rows), $E$ (600,000), $G$ (5,000,000). Join predicates connect $D$–$E$ and $E$–$G$. The cardinalities are $|DE| = 1{,}200$, $|EG| = 5{,}000{,}000$, and $|DEG| = 10{,}000$. Cost is the sum of intermediate sizes.
 
 (a) Name the two-table subset that is disconnected and excluded.
+
 (b) Give the cost of $(D \bowtie E) \bowtie G$ and of $(E \bowtie G) \bowtie D$.
+
 (c) Give the winner, the ratio, and the reason in one clause.
 
 <details>

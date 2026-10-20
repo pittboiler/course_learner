@@ -122,7 +122,9 @@ $$V_{\max} = v_1\,\frac{K_M + [\mathrm{S}]_1}{[\mathrm{S}]_1} = 50\cdot\frac{4 +
 **P1** Use $v/V_{\max} = r/(1+r)$ with $r = [\mathrm{S}]/K_M$.
 
 (a) $r = 1$: $v/V_{\max} = 1/2 = \mathbf{0.50}$.
+
 (b) $r = 10$: $v/V_{\max} = 10/11 = \mathbf{0.91}$.
+
 (c) $r = 0.1$: $v/V_{\max} = 0.1/1.1 = \mathbf{0.091}$. The linear estimate gives $v/V_{\max} \approx r = 0.10$ — a 10% overestimate, because it drops the $[\mathrm{S}]$ sitting in the denominator.
 
 *Check.* Monotonic and bracketed in $[0,1]$: $0.091 < 0.50 < 0.91$, rising with substrate as a saturating curve must. ✓

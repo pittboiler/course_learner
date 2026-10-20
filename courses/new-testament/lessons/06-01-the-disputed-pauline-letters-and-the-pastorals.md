@@ -144,6 +144,7 @@ The Greek is nearly identical, so something was copied. Three hypotheses fit: Pa
 "The purpose of God according to election" renders *hē kat' eklogēn prothesis tou theou*; "I have hated" is *emisēsa*. Readers divide over whether this election concerns **individuals' eternal destiny** (Augustine's reading) or **peoples' roles in history**.
 
 (a) Give one detail from these texts that each reading can appeal to, and say what it shows. **Two sentences.**
+
 (b) An **invented** study-Bible note reads: "Here Paul teaches, as the Church has defined, that before birth God chose Jacob for heaven and Esau for damnation." Name two distinct errors. **Two sentences.**
 
 <details>

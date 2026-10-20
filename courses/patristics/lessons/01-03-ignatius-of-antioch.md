@@ -87,6 +87,7 @@ The passage will not decide between them: a genitive carries the weight, with li
 **P1 (🟢) *(Exegetical.)*** Using only the Source passage (*Smyrnaeans* 6–7):
 
 (a) State in one sentence the inference Ignatius draws from his opponents' behaviour at the Eucharist, and quote the clause that carries it.
+
 (b) He also charges them with having no care for the widow, the orphan and the hungry. In one sentence, say how that charge connects to the doctrinal one on Ignatius's own logic.
 
 **P2 (🟡) *(Exegetical.)*** *Trallians* 3, in the two Greek recensions (Roberts–Donaldson, ANF).
@@ -100,6 +101,7 @@ Long recension:
 > And do ye reverence them as Christ Jesus, of whose place they are the keepers, even as the bishop is the representative of the Father of all things, and the presbyters are the sanhedrim of God, and assembly of the apostles of Christ. Apart from these there is no elect Church, no congregation of holy ones, no assembly of saints.
 
 (a) List the changes the long recension makes, and say which single change alters what the passage claims about the bishop.
+
 (b) A writer wants to cite this passage as second-century evidence that the bishop stands in the place of Christ. Say which text he may use, and what he must say about the other. **120 words or fewer in total.**
 
 **P3 (🔴, optional) *(Exegetical (a) · Evaluative (b).)*** An invented parish-bulletin note:
@@ -109,6 +111,7 @@ Long recension:
 The *Smyrnaeans* sentence is genuine and correctly reported.
 
 (a) Name **two** distinct things the note does with the *Romans* preface that the text does not license, using the readings in Example 2.
+
 (b) In **150 words or fewer**, any verdict: the note treats "a contemporary of the apostles wrote it" as settling a historical question. Say what one letter-writer's testimony can and cannot establish about the practice of the churches he writes to, and name one kind of further evidence that would strengthen or weaken the note's claim. Use the limits given in Example 1.
 
 <details>

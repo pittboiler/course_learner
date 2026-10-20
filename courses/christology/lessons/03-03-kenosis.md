@@ -88,6 +88,7 @@ The same test settles Charles Wesley's line "Emptied Himself of all but love" (1
 ## Problems
 
 **P1 (🟢)** *(Exegetical)* Mark each **true**, **false**, or **true only with a stated distinction**, and name the rule or text that decides it. One line each.
+
 (a) "The Son of God emptied himself." (b) "The divine nature emptied itself." (c) "In becoming man, the Word gave up his omnipresence." (d) "The Lord of glory hid his glory."
 
 **P2 (🟡)** *(Exegetical)* An **invented** carol verse, written for this problem:

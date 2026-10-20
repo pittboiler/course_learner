@@ -111,8 +111,11 @@ Two things to notice. Query 2 came back **no**, and the algorithm used that as i
 **P2 (🟡)** For each statement, say whether it follows from Ladner's theorem, contradicts it, or is independent of it, with a one-clause reason.
 
 (a) If $\mathsf{P} = \mathsf{NP}$, every language in NP except $\emptyset$ and $\Sigma^*$ is NP-complete.
+
 (b) Graph isomorphism is NP-intermediate.
+
 (c) There are infinitely many pairwise non-equivalent degrees of hardness strictly between P and NP-complete.
+
 (d) There is a language in NP that is neither in P nor NP-complete.
 
 **P3 (🔴, optional)** A colleague claims: "Self-reducibility shows that if $\mathsf{P} = \mathsf{NP}$ we could not only decide SAT quickly but *count* its satisfying assignments quickly, since we can find them one at a time." (a) Give the flaw, with a specific formula on $n$ variables where the proposed method fails badly and state how many assignments it has. (b) State what the claim would need instead. (c) The claim is nevertheless *true* — counting is in polynomial time if $\mathsf{P} = \mathsf{NP}$ — but for a different reason. Name the reason in one sentence. (Forward reference: [Lesson 3.3](03-03-todas-theorem-and-approximate-counting.md).)

@@ -77,19 +77,24 @@ with $F(x)=0$ below $0$ and $1$ above. So the break lands in the right half with
 <summary>Solutions</summary>
 
 **P1** (a) The masses must sum to $1$: $0.1 + 0.3 + p(2) + 0.2 = 1 \Rightarrow p(2) = 0.4$.
+
 (b) $F(2) = p(0)+p(1)+p(2) = 0.1 + 0.3 + 0.4 = 0.8$.
 Check: $0.1+0.3+0.4+0.2 = 1.0$ — the pmf sums to $1$. ✓
 
 **P2** (a) Normalize: $\int_0^2 cx\,dx = c\big[\tfrac{x^2}{2}\big]_0^2 = c\cdot 2 = 1 \Rightarrow c = \tfrac12$.
+
 (b) Accumulate the area from $0$: $F(x) = \int_0^x \tfrac12 t\,dt = \tfrac12\cdot\tfrac{x^2}{2} = \tfrac{x^2}{4}$ for $0 \le x \le 2$ (and $0$ below, $1$ above).
+
 (c) $\mathbb{P}(X > 1) = 1 - F(1) = 1 - \tfrac14 = \tfrac34$.
 Check: $F(2) = \tfrac{4}{4} = 1$ — the density integrates to $1$. ✓
 
 **P3** (a) Split the integral at the peak:
 $$\int_0^1 x\,dx + \int_1^2 (2-x)\,dx = \tfrac12 + \Big[2x - \tfrac{x^2}{2}\Big]_1^2 = \tfrac12 + \big(2 - \tfrac32\big) = \tfrac12 + \tfrac12 = 1. \checkmark$$
+
 (b) For $0 \le x \le 1$: $F(x) = \int_0^x t\,dt = \tfrac{x^2}{2}$.
 For $1 \le x \le 2$: $F(x) = \tfrac12 + \int_1^x (2-t)\,dt = \tfrac12 + \Big[2t - \tfrac{t^2}{2}\Big]_1^x = 2x - \tfrac{x^2}{2} - 1.$
 (Sanity: $F(1) = \tfrac12$ from both pieces; $F(2) = 4 - 2 - 1 = 1$. ✓)
+
 (c) By the definition $\mathbb{P}(A \mid B) = \tfrac{\mathbb{P}(A \cap B)}{\mathbb{P}(B)}$, and since $\{X > 1.5\} \subset \{X > 1\}$, the intersection is just $\{X > 1.5\}$:
 $$\mathbb{P}(X > 1) = 1 - F(1) = \tfrac12, \qquad \mathbb{P}(X > 1.5) = 1 - F(1.5) = 1 - \big(3 - 1.125 - 1\big) = 1 - 0.875 = 0.125.$$
 $$\mathbb{P}(X > 1.5 \mid X > 1) = \frac{0.125}{0.5} = 0.25.$$

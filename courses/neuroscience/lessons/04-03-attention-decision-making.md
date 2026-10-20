@@ -168,18 +168,27 @@ $$\boxed{\;\text{Errors are not a failure of the machinery. At the optimum, one 
 ## Problems
 
 **P1 (🟢)** An observer has drift rate $A = 3$ evidence units/s, noise $\sigma = 1$ unit/$\sqrt{\text{s}}$, symmetric bounds at $\pm B$ with $B = 0.8$ units, and non-decision time 250 ms.
+
 (a) Compute the accuracy and the mean reaction time.
+
 (b) A harder stimulus halves the drift rate to $A = 1.5$, with everything else unchanged. Recompute both.
+
 (c) State in one sentence what makes this pair of results a *test* of the model rather than a fit.
 
 **P2 (🟡)** A neuron has $R_{\max} = 100$ spikes/s and $\sigma = 8$. Its preferred stimulus delivers tuned drive $d_p = 30$, a non-preferred stimulus delivers $d_n = 6$, and each stimulus contributes $D = 30$ to the normalization pool. Attention multiplies its target's drive by $\beta = 3$.
+
 (a) Response to the preferred stimulus alone, unattended and attended; give the attentional gain as a percentage.
+
 (b) Response with both stimuli present, unattended and attending the preferred; give that gain.
+
 (c) Compare (a) and (b) and state the experimental prediction this makes, plus how you would falsify it.
 
 **P3 (🔴, bridges to information theory and to the drift–diffusion model)** A downstream area reads out a population of $N = 200$ neurons by averaging. Each has response variance $\sigma_r^2$; the mean pairwise noise correlation is $\rho = 0.12$.
+
 (a) Compute the variance of the pooled average, and its limit as $N\to\infty$.
+
 (b) Attention lowers the correlation to $\rho = 0.08$ with $N$ unchanged. Compute the new pooled variance, the improvement in signal-to-noise ratio, and show that **no population size whatsoever** achieves this at $\rho = 0.12$.
+
 (c) Suppose that SNR improvement raises the drift rate proportionally, from $A = 2.0$ to the new value, with $B = 1$, $\sigma = 1$ unchanged. Compute the error rate and mean decision time before and after, and say why the result is *not* a movement along the speed–accuracy trade-off.
 
 <details>
@@ -267,7 +276,9 @@ That is the substantive claim behind "attention improves performance": it is not
 $$\Delta t(\theta) = \frac{r}{c}\left(\theta + \sin\theta\right), \qquad \theta \text{ in radians.}$$
 
 (a) Compute this listener's ITD for a source at $\theta = 30^\circ$ and the maximum ITD, at $\theta = 90^\circ$. Comment on the ratio.
+
 (b) Psychophysics puts this listener's ITD discrimination threshold at 12 µs. Convert it into a minimum audible angle at the midline and at $\theta = 75^\circ$, and say what sets the difference.
+
 (c) Give the frequency above which interaural *phase* is ambiguous for this listener, and the frequency above which the head casts an acoustic shadow. What does the band between them predict, and which way does a big head move it?
 
 <details>

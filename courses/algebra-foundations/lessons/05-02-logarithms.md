@@ -97,9 +97,13 @@ Both logs are negative (decay shrinks a number below $1$), and the negatives can
 <summary>Solutions</summary>
 
 **P1** Ask "$b$ to the what?" each time.
+
 (a) $3^3 = 27$, so $\log_3 27 = 3$.
+
 (b) $10^{-2} = 0.01$, so $\log_{10} 0.01 = -2$.
+
 (c) Any base to the zero is $1$, so $\log_7 1 = 0$.
+
 (d) $\ln e^4 = 4\ln e = 4 \cdot 1 = 4$ (the power law, plus $\ln e = 1$). $\ln$ and $e^{(\cdot)}$ undo each other, which is the same statement.
 
 **P2** Take $\ln$ (or $\log$) of both sides and use the power law to free $x$:
@@ -122,7 +126,9 @@ Because dividing both sides by $N_0$ erases it before any log is taken, the "tim
 <summary>Solution</summary>
 
 (a) At $t = 0$: $P(0) = 8{,}000\,(1.03)^0 = 8{,}000$. The coefficient in front is always the initial amount.
+
 (b) The base is $1.03 = 1 + 0.03$, so the town grows **3% per year** — the base is (one + the growth rate).
+
 (c) 2025 is $t = 5$: $P(5) = 8{,}000\,(1.03)^5 = 8{,}000 \times 1.15927 \approx \boxed{9{,}274}$ people. Reading an exponential model is just plugging in $t$; the log machinery from this lesson is only needed when $t$ itself is the unknown.
 
 </details>

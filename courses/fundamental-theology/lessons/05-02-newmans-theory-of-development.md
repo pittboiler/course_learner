@@ -114,10 +114,15 @@ Notice that both sides accept the same facts. The dispute is about type and abou
 **P1 (🟢) *(Exegetical.)*** Each item is the sort of evidence an advocate would put forward for a proposed development. Name the single note it most directly supports, and in one clause say why.
 
 (a) Third-century inscriptions and prayers ask the dead to remember the living, centuries before any doctrine of intercession is formulated.
+
 (b) The teaching was defined in Latin scholastic terms, and the same content had earlier been carried in the categories of Greek patristic theology and before that in Semitic imagery.
+
 (c) Holding the later doctrine requires you to affirm, more firmly than before, an earlier teaching that had been under attack.
+
 (d) The movement produced its characteristic works, captured a large part of the Christian world, and was essentially spent within a hundred and fifty years.
+
 (e) Both the earlier and later stages treat the visible Church's judgement as settling what is to be believed, rather than leaving it to the individual reader.
+
 (f) The later doctrine can be derived, premise by premise, from two teachings the earlier period held explicitly.
 
 **P2 (🟡) *(Exegetical (a) and (b) · Evaluative (c).)*** An invented parish bulletin insert:
@@ -125,12 +130,15 @@ Notice that both sides accept the same facts. The dispute is about type and abou
 > "The Second Vatican Council taught that doctrine develops, so a teaching the Church once held can later be understood in a new sense. The Congregation for the Doctrine of the Faith confirmed in 1973 that dogmatic formulas are historically conditioned, which means they capture only the best approximation available in their own age. Newman's seven notes, which the Council adopted, are the Church's official test for whether such a change is legitimate. Since our question is a matter of the hierarchy of truths, nothing much hangs on it in any case."
 
 (a) Four sentences, four errors. Name each error in one clause, and for each say whether it is *false*, *overstated as to level*, or *a true point pushed past what its source says*.
+
 (b) For the 1973 document and for Dei Verbum 8, state the genre and the level of authority each carries, and what assent is owed.
+
 (c) Rewrite the insert's second sentence so that it states what *Mysterium Ecclesiae* actually holds, in one sentence of your own. **150 words or fewer for (a)–(c) together.**
 
 **P3 (🔴, optional) *(Exegetical (a) · Evaluative (b).)*** The Immaculate Conception — that Mary was preserved from original sin from the first instant of her conception — was defined by Pius IX in *Ineffabilis Deus* (1854). It was also denied, or at least not held in that form, by major medieval theologians: Aquinas is standardly read as holding that Mary was sanctified after animation rather than preserved at conception (ST III q.27), and the question was fought over by religious orders for centuries.
 
 (a) Give the claim's level on the ladder, the act that fixes it, and what a Catholic who obstinately denied it would be doing.
+
 (b) Which two of the seven notes does this history put under the most pressure, and what would a continuity reading have to **show** for each? Do not argue the case; state the burden. **150 words or fewer.**
 
 <details>
@@ -189,7 +197,9 @@ Notice that both sides accept the same facts. The dispute is about type and abou
 (i) a dogmatic constitution of an ecumenical council; (ii) an instruction from a Roman dicastery; (iii) a paragraph of the Catechism of the Catholic Church; (iv) a book by a theologian, however eminent.
 
 (a) Rank them by the weight their citation carries in a theological argument, and say in a clause what genre each one is doing.
+
 (b) The Catechism paragraph is the trap. State the rule for reading the weight of a claim you find there.
+
 (c) One of your opponent's claims sits low in the hierarchy of truths. Say why that does not lower the assent owed to it. **120 words or fewer.**
 
 <details>

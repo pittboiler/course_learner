@@ -116,8 +116,11 @@ So if GI were NP-complete, PH would flatten at the second level. That is not a c
 **P1 (🟢)** Place each of the following, giving the quantifier form and the tightest level among $\mathsf{P}$, $\Sigma_1^p$, $\Pi_1^p$, $\Sigma_2^p$, $\Pi_2^p$ that the obvious formulation yields.
 
 (a) $\{\langle G, k\rangle : G$ has a vertex cover of size $\le k\}$.
+
 (b) $\{\langle \varphi, \psi\rangle : \varphi$ and $\psi$ are logically equivalent$\}$.
+
 (c) $\{\langle G \rangle : G$ has a unique maximum independent set$\}$.
+
 (d) $\{\langle \varphi\rangle : $ there is an assignment satisfying $\varphi$ in which **every** variable set true appears in at least one clause positively$\}$.
 
 **P2 (🟡)** Prove that if $\mathsf{NP} = \mathsf{coNP}$ then $\mathsf{PH} = \mathsf{NP}$. (a) Give the argument for $\Sigma_2^p \subseteq \mathsf{NP}$ explicitly, showing where the hypothesis is used. (b) State what makes the induction to all levels go through in one sentence.
@@ -162,8 +165,11 @@ Substituting, $x \in A \iff \exists y_1 \exists z\, W(x,y_1,z) \iff \exists \lan
 **From Lesson 2.1 (coNP & the shape of NP):** For each language, say whether the obvious certificate places it in NP, coNP, both or neither, and name the certificate.
 
 (a) $\{\langle G\rangle : G$ is connected$\}$.
+
 (b) $\{\langle G, k\rangle : G$ has chromatic number exactly $k\}$, considering only the "at most $k$" half.
+
 (c) $\{\langle \varphi \rangle : \varphi$ has at least two satisfying assignments$\}$.
+
 (d) $\{\langle N \rangle : N$ is prime$\}$.
 
 <details>

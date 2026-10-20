@@ -102,6 +102,7 @@ One string, opposite truth values — because truth is *relative to a structure*
 ## Problems
 
 **P1 (🟢)** Let $\mathcal{G}$ be the structure over signature $\{E\}$ ($E$ binary) with domain $\{1,2,3\}$ and $E^{\mathcal{G}} = \{(1,2),(2,3),(3,1)\}$ — a directed 3-cycle. Decide, with a one-line justification from the definition, whether $\mathcal{G}$ satisfies each:
+
 (a) $\forall x\,\neg E(x,x)$;  (b) $\forall x\,\exists y\, E(x,y)$;  (c) $\exists x\,\forall y\,\neg E(y,x)$.
 
 **P2 (🟡)** Consider $\sigma :\; \exists x\,\forall y\,(x \le y)$ ("there is a least element") over signature $\{\le\}$. Determine whether $\sigma$ is true in $(\mathbb{N}, \le)$ and in $(\mathbb{Z}, \le)$, expanding the $\exists$ and $\forall$ clauses to justify each verdict. Why does swapping the quantifier order to $\forall y\,\exists x\,(x\le y)$ change the answer in $(\mathbb{Z},\le)$?

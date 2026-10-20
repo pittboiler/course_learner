@@ -198,6 +198,7 @@ This is fission's structure in different clothes, and it isolates the **causal c
 **P3 (🔴, optional) *(Evaluative.)*** **Steelman and reply.** Parfit claims identity is not what matters in survival.
 
 (a) State the claim at its strongest in your own words, including the role reductionism plays in it and why fission is the case that shows it. **150 words or fewer.**
+
 (b) Give the single strongest reply, then name the **crux** — the one proposition the two sides must disagree about for the dispute to be substantive rather than verbal. **150 words or fewer.** Any verdict; the crux is what is graded.
 
 <details>

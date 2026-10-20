@@ -114,22 +114,31 @@ A service runs replicas in Virginia, Oregon and London and must survive losing a
 **P1 (🟢)** Classify each system's behaviour during a partition as CP or AP, and name the specific mechanism that forces it.
 
 (a) A 5-node Raft cluster, split 3–2, with all reads served by the leader.
+
 (b) A 3-replica store with $R = W = 1$, split 2–1.
+
 (c) A 3-replica store with $R = W = 2$, split 2–1.
+
 (d) A single-leader database with two asynchronous read replicas, where the leader is cut off from both.
 
 **P2 (🟡)** A service replicates across Virginia, London and Sydney with a 3-replica majority quorum. Use a fibre speed of 200,000 km/s and these great-circle distances: Virginia–London 5,900 km, Virginia–Sydney 15,600 km, London–Sydney 17,000 km.
 
 (a) Give the round-trip floor for each of the three links.
+
 (b) The leader is in Virginia. Give the minimum write latency, and name the link that sets it.
+
 (c) The leader moves to London. Give the minimum write latency.
+
 (d) State where the leader should sit to minimise the worst-case write latency, and give the resulting figure.
 
 **P3 (🔴, optional)** A team runs a globally replicated inventory service and wants linearizable decrements of stock counts.
 
 (a) State which PACELC class this requirement forces, and why.
+
 (b) The team measures 180 ms median write latency and calls it a bug. Given a quorum spanning Virginia and Sydney, state whether 180 ms is anomalous, using the figures from P2.
+
 (c) The team proposes serving reads from the nearest replica while keeping writes quorum-based. State which guarantee this breaks and give a two-operation history that exhibits the failure.
+
 (d) Give a design that keeps linearizable decrements and gets most reads to local latency, and state what it costs.
 
 <details>
@@ -208,7 +217,9 @@ The general shape is the one worth carrying: **isolate the operations that genui
 **From Lesson 2.6 (quorum systems):** A store has $N = 7$ replicas configured with $R = 5$, $W = 2$.
 
 (a) State whether every read sees every completed write, with the arithmetic.
+
 (b) State whether two concurrent writes are guaranteed to be ordered, with the arithmetic.
+
 (c) Give the smallest change to $W$ that fixes the problem in (b), and the resulting constraint on $R$.
 
 <details>

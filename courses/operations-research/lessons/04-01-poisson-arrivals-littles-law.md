@@ -165,18 +165,27 @@ That $W$ is the **inventory turn** in disguise — $\lambda/L = 12$ turns per ye
 ## Problems
 
 **P1 (🟢)** A coffee kiosk's customers arrive as a Poisson process at $\lambda = 30$ per hour.
+
 (a) What is the probability that exactly 2 customers arrive in a given 5-minute window?
+
 (b) What is the mean time between arrivals, and what is the probability the next gap exceeds 4 minutes?
+
 (c) The barista has now seen nobody for 3 minutes. What is the probability she waits at least 4 more minutes?
 
 **P2 (🟡)** A support line takes 480 calls per 8-hour shift. A caller spends an average of 90 seconds in the system, of which 70 seconds is talk time with an agent.
+
 (a) Find $\lambda$ in calls per minute, then $L$ and $L_q$, stating units at each step.
+
 (b) Verify your numbers satisfy $L = L_q + \lambda/\mu$.
+
 (c) What is the smallest number of agents $c$ that keeps the system stable, and what is $\rho$ at that $c$?
 
 **P3 (🔴)** An emergency department has $\lambda = 6$ patients per hour arriving around the clock, and a patient averages 45 minutes in the department.
+
 (a) Find $L$.
+
 (b) A new fast-track lane is opened. Now 60 percent of patients are low-acuity and average 20 minutes, while the remaining 40 percent average 75 minutes. Arrival rate is unchanged. Find the new $L$.
+
 (c) Management wants no more than 3.5 patients in the department on average, at the same $\lambda$. What average time in the department does that require?
 
 <details>

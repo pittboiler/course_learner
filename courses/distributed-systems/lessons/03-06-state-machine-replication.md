@@ -105,22 +105,31 @@ $$\frac{8.64 \times 10^8}{50{,}000} = 17{,}280 \text{ s} \approx \mathbf{4.8 \te
 **P1 (🟢)** For each state-machine operation, state whether it is deterministic, and if not give the fix.
 
 (a) `balance = balance - amount`
+
 (b) `created_at = current_time()`
+
 (c) `winner = pick_random(candidates)`
+
 (d) `total = sum(v for k, v in accounts)` where `accounts` is an unordered map of integers
 
 **P2 (🟡)** A Raft-backed service handles 25,000 write operations per second, each producing a 200-byte log entry. Replicas apply at 80,000 entries per second.
 
 (a) Give the log growth in MB per second and GB per day.
+
 (b) A replica is offline for 6 hours. Give the number of entries it must replay and the time to do so.
+
 (c) The team sets snapshots every $2 \times 10^6$ entries. Give the snapshot interval in seconds and the worst-case replay after installing a snapshot.
+
 (d) State the two costs that the snapshot interval trades off, in one clause each.
 
 **P3 (🔴, optional)** A 5-replica cluster serves linearizable reads using leader leases of $L = 9$ seconds, with an election timeout of 10 seconds and a clock-drift bound of $\epsilon = 0.5$ seconds between any two replicas.
 
 (a) State whether the safety condition holds, with the arithmetic.
+
 (b) Give the latest point, on the leader's own clock, at which it may serve a local read after being granted the lease at time $t$.
+
 (c) The team shortens the election timeout to 8 seconds to speed up failover. Give an ordered step list in which a stale read is now served, and name the property violated.
+
 (d) A colleague proposes keeping the 8-second election timeout and instead having the leader check `is_leader()` before each read. State whether this fixes (c), with the reason.
 
 <details>
@@ -209,7 +218,9 @@ The correct fixes are to restore $\text{election timeout} > L + \epsilon$ — sh
 **From Lesson 3.4 (Raft):** A leader in term 6 has just been elected. Its log is `1 1 3 3 5`, and entries at indices 4 and 5 are replicated on three of the five servers.
 
 (a) State whether the leader may mark index 5 committed, with the rule.
+
 (b) Give the standard first action the leader takes, and what it achieves.
+
 (c) After that action commits, state which indices are committed.
 
 <details>

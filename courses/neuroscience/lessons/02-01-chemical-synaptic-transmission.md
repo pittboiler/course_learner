@@ -228,20 +228,31 @@ $$(1-p)^{n} = 0.25^{8} = \frac{1}{65{,}536} = 1.5\times10^{-5},$$
 ## Problems
 
 **P1 (🟢)** A synapse is stimulated 240 times in low external Ca²⁺, and 88 trials give no response. Spontaneous miniature events at this synapse have mean amplitude 0.35 mV.
+
 (a) Compute the mean quantal content $m$.
+
 (b) Assuming Poisson statistics, predict how many of the 240 trials should contain exactly 1, 2, and 3 quanta, and how many contain 4 or more.
+
 (c) Predict the mean response amplitude across all 240 trials.
+
 (d) State the condition under which the Poisson treatment is legitimate, and why low Ca²⁺ enforces it.
 
 **P2 (🟡)** Two synapses receive an identical pair of spikes 20 ms apart. Synapse A has $p_1 = 0.10$; synapse B has $p_1 = 0.60$. At both, residual Ca²⁺ raises the effective Ca²⁺ signal for the second spike by 12 percent, and release goes as the fourth power of Ca²⁺. Assume the readily-releasable pool does not refill measurably in 20 ms.
+
 (a) Compute the facilitation factor $f$ and then the paired-pulse ratio at each synapse.
+
 (b) Find the release probability at which the synapse switches from facilitating to depressing.
+
 (c) A single axon contacts both synapses and fires a 3-second burst at 40 Hz. Say in one sentence each what the two postsynaptic cells learn about the input, and name the signal-processing operation each synapse is performing.
 
 **P3 (🔴, bridges to biophysics)** A vesicle of internal radius 17.5 nm contains 4,000 glutamate molecules. It fuses and dumps them into a cleft you may model as a disc of radius 200 nm and height 20 nm. Take $D = 4\times10^{-10}\ \text{m}^2\text{/s}$ for glutamate in the cleft and $N_A = 6.022\times10^{23}\ \text{mol}^{-1}$.
+
 (a) Compute the glutamate concentration inside the vesicle.
+
 (b) Compute the concentration in the cleft immediately after fusion, assuming instantaneous uniform mixing and no escape.
+
 (c) Using $t \approx x^{2}/2D$, estimate the time to cross the cleft and the time to diffuse laterally out of it. Compare both with the 0.5 ms synaptic delay.
+
 (d) The measured transient is about 1 mM lasting about 1 ms. Both of your answers in (b) and (c) disagree with that. Explain each discrepancy.
 
 <details>
@@ -349,8 +360,11 @@ Against a 0.5 ms (500 µs) synaptic delay: crossing the cleft takes **0.1 percen
 **From Lesson 1.3 (the action potential):** Threshold is not a voltage written into the membrane; it is the point where inward and outward current balance. Consider a patch of membrane held at $V = -55$ mV, with $E_{\text{Na}} = +60$ mV and a combined K⁺-plus-leak reversal potential of $-75$ mV. At this voltage the outward conductance is $g_{\text{K,leak}} = 1.0$ nS and does not change appreciably on the timescale below.
 
 (a) The activated Na⁺ conductance at this instant is $g_{\text{Na}} = 0.15$ nS. Compute both currents and the net current, and say whether the patch fires.
+
 (b) A brief synaptic input drives $g_{\text{Na}}$ to 0.30 nS. Recompute, and state what happens next.
+
 (c) Find the threshold value of $g_{\text{Na}}$ at this voltage.
+
 (d) Immediately after a spike, Na⁺ inactivation has removed most available Na⁺ channels and $g_{\text{K,leak}}$ has risen to 3.0 nS. Compute the new threshold conductance and explain the refractory period in these terms.
 
 <details>

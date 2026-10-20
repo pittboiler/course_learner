@@ -105,14 +105,19 @@ And confirm the numéraire claim on the stock: $\mathbb{E}^Q[S_1] = 0.5(120)+0.5
 <summary>Solutions</summary>
 
 **P1.** Up/down factors: $u = 24/20 = 1.2$, $d = 15/20 = 0.75$.
+
 (a) $q = \dfrac{R-d}{u-d} = \dfrac{1.05 - 0.75}{1.2 - 0.75} = \dfrac{0.30}{0.45} = \dfrac{2}{3}$.
+
 (b) Payoffs $V_u = \max(24-20,0) = 4$, $V_d = \max(15-20,0) = 0$. Then
 
 $$V_0 = \frac{1}{1.05}\Big[\tfrac{2}{3}(4) + \tfrac{1}{3}(0)\Big] = \frac{8/3}{1.05} = \frac{2.6667}{1.05} \approx 2.54.$$
 
 **P2.** With $q = 2/3$:
+
 (a) $\psi_u = \dfrac{q}{R} = \dfrac{2/3}{1.05} \approx 0.6349$, $\psi_d = \dfrac{1-q}{R} = \dfrac{1/3}{1.05} \approx 0.3175$ (and $\psi_u+\psi_d \approx 0.9524 = 1/1.05$ ✓).
+
 (b) Claim A: $V_0 = 0.6349(10) + 0.3175(4) = 6.349 + 1.270 = 7.62$.  Claim B: $V_0 = 0.6349(0) + 0.3175(9) = 2.86$.
+
 (c) Claim A replication: $\Delta = \dfrac{10-4}{24-15} = \dfrac{6}{9} = \dfrac{2}{3}$; $B = \dfrac{V_u - \Delta S_u}{R} = \dfrac{10 - \frac{2}{3}(24)}{1.05} = \dfrac{10 - 16}{1.05} = \dfrac{-6}{1.05} = -5.71$. Cost today: $V_0 = \Delta S_0 + B = \tfrac{2}{3}(20) - 5.71 = 13.333 - 5.71 = 7.62$. ✓ Matches the state-price price exactly — as it must, since state prices *are* the repackaged replication weights.
 
 **P3.** *Equivalence.* Since $u > d$, the denominator $u - d > 0$. Then $q > 0 \iff R - d > 0 \iff R > d$, and $q < 1 \iff R - d < u - d \iff R < u$. Both together: $q \in (0,1) \iff d < R < u$. ∎

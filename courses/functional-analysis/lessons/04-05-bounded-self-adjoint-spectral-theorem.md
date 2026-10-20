@@ -103,6 +103,7 @@ And the functional calculus collapses the integral back to a sum: $f(K)=\sum_n f
 <summary>Solutions</summary>
 
 **P1** (a) $\|g\|^2=\int_0^1 3x^2\,dx=[x^3]_0^1=1$, so $\|g\|=1$. ✓
+
 (b) By Example 1, $\langle g,E([0,\tfrac12])g\rangle=\int_0^{1/2}|g(x)|^2\,dx=\int_0^{1/2}3x^2\,dx=[x^3]_0^{1/2}=\tfrac18$. Since $\|g\|=1$, this is a probability: measuring the observable $M_x$ (position) in state $g$ returns a value in $[0,\tfrac12]$ with probability $\tfrac18$ — the state's mass is concentrated near $x=1$ where $|g|^2=3x^2$ is largest.
 
 **P2** Functional calculus with $f(\lambda)=e^{it\lambda}$ gives $e^{itM_x}=M_{e^{itx}}$, i.e. $\big(e^{itM_x}\varphi\big)(x)=e^{itx}\varphi(x)$ — multiply by the unit-modulus function $e^{itx}$. Unitarity: for all $\varphi\in L^2[0,1]$,
@@ -110,6 +111,7 @@ $$\|e^{itM_x}\varphi\|^2=\int_0^1 |e^{itx}|^2\,|\varphi(x)|^2\,dx=\int_0^1 |\var
 since $|e^{itx}|=1$. So it preserves norms, and it is invertible with inverse $M_{e^{-itx}}=e^{-itM_x}$; hence unitary. This previews **Stone's theorem** ([5.4](05-04-stone-theorem-time-evolution.md)): a self-adjoint generator $H$ produces the one-parameter unitary group $e^{itH}$ of time evolution.
 
 **P3** (a) By $f(K)=\sum_n f(\lambda_n)P_n$ with $P_n=\langle\cdot,e_n\rangle e_n$: $K^2=\sum_n \tfrac{1}{n^2}P_n$ and (all $\lambda_n>0$) $\sqrt{K}=\sum_n \tfrac{1}{\sqrt n}P_n$.
+
 (b) The eigenvalues are $\{1/n : n\ge1\}$, which accumulate at $0$. For a compact operator on an infinite-dimensional space the spectrum is the eigenvalues together with their limit point:
 $$\sigma(K)=\{1/n:n\ge1\}\cup\{0\}.$$
 Each $1/n$ is an eigenvalue (eigenvector $e_n$). But $0$ is **not** an eigenvalue: $Kf=0$ means $\sum_n\tfrac1n\langle f,e_n\rangle e_n=0$, forcing every coefficient $\langle f,e_n\rangle=0$, so $f\perp\overline{\operatorname{span}}\{e_n\}$; if that span is dense (the $e_n$ form a basis) then $f=0$, so $K$ is injective and $0$ is not an eigenvalue. Yet $0\in\sigma(K)$ because $K$ is not boundedly invertible — $K^{-1}$ would send $e_n\mapsto n\,e_n$, unbounded. So $0$ is a spectral value carrying no eigenvector: exactly the phenomenon (spectrum $\ne$ eigenvalues) that forces the *measure* $E$ in the general theorem rather than a bare eigen-sum.

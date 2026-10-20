@@ -113,22 +113,31 @@ Coordinator role held by a Raft group $\{C_1, \ldots, C_5\}$, participants $P_1 
 **P1 (🟢)** A 3PC transaction has a coordinator and 4 participants.
 
 (a) Give the number of round trips and the message count, and compare with 2PC.
+
 (b) The coordinator crashes after sending `PRE-COMMIT` to two of the four participants, with no partition. Give the decision the survivors reach and the rule used.
+
 (c) The coordinator crashes after collecting all yes votes but before sending any `PRE-COMMIT`. Give the decision and the rule.
+
 (d) State what 2PC would have done in case (c).
 
 **P2 (🟡)** A 3PC deployment with participants $P_1 \ldots P_6$ is partitioned into $\{P_1, P_2, P_3\}$ and $\{P_4, P_5, P_6\}$, with the coordinator unreachable from both.
 
 (a) $P_2$ is in `PRE-COMMIT`; nobody else is. Give each group's decision.
+
 (b) State the property violated and what an operator would observe after the partition heals.
+
 (c) The team patches the termination rule to require a majority of all participants before deciding. Give what each group does now, and the new failure mode.
+
 (d) State the general result that (c) illustrates, naming the theorem.
 
 **P3 (🔴, optional)** A team replaces its 2PC coordinator with a 5-node Raft group, keeping 3 participants.
 
 (a) Give the number of coordinator-node failures the deployment now tolerates without blocking, and the number of participant failures.
+
 (b) The Raft group is partitioned 3–2 while all participants remain reachable from both sides. State what happens.
+
 (c) One participant crashes after voting yes; the Raft group is healthy. State what happens to the transaction and to that participant's locks.
+
 (d) State which single point of failure remains, and give the design change that would remove it, with what that change costs.
 
 <details>
@@ -195,7 +204,9 @@ The change that removes it: **make every participant a replicated state machine 
 **From Lesson 4.1 (2PC):** A 2PC transaction has a coordinator and 3 participants. The coordinator crashes, and the survivors' states are: $P_1$ prepared, $P_2$ prepared, $P_3$ committed.
 
 (a) State whether the survivors can decide, what they decide, and the rule.
+
 (b) Now $P_3$ also crashes, leaving $P_1$ and $P_2$. State whether they can decide.
+
 (c) State what $P_1$ and $P_2$ must do with their locks in case (b), and for how long.
 
 <details>

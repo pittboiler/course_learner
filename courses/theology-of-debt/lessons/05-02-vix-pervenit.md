@@ -139,7 +139,9 @@ Name **three** errors and correct each from the encyclical, with its section. **
 **From Lesson [4.5](04-05-contracts-that-are-not-loans.md) (Contracts that are not loans):** *(Exegetical (a) · Formal and Exegetical (b) · Exegetical (c).)* A **census** is a lump sum paid for a yearly rent charged on fruitful property.
 
 (a) Reconstruct, in numbered premises (P1, P2, … ∴ C), the moralists' argument that a census bought under the conditions they read in the papal census bulls is not usury. Use the three questions that separate a loan from other contracts (who owns, who bears the risk, who can recall the principal) and the four conditions. **100 words or fewer.**
+
 (b) An **invented** contract. A knight sells, for 1,000, a rent of 90 a year charged on a meadow that yields about 60 a year. Only the knight may redeem, and the rent ceases if the meadow is lost. Compute the buyer's annual yield on his price and the rent as a share of the meadow's yield. Then name the premise of (a) that fails, and say what the 30 a year beyond the meadow's fruit amounts to.
+
 (c) Give the level of the census bulls, naming the acts, and say whether their approval reaches the knight's contract. **Two sentences each for (b)'s last step and (c).**
 
 <details>

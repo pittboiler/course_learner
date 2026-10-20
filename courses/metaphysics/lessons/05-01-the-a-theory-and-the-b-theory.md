@@ -159,7 +159,9 @@ The A-theorist's charge is that this **explains away** rather than explains. A d
 **P1 (🟢) *(Exegetical.)*** For each claim, name the position it expresses and say which premise of McTaggart's argument it accepts or denies. One or two sentences each.
 
 (a) "The only thing that ever really changes about the Battle of Hastings is how long ago it was."
+
 (b) "'Now' means whatever time the person saying it is speaking at, and that exhausts its meaning."
+
 (c) "Every time is equally real, but exactly one of them is lit, and the light moves."
 
 **P2 (🟡) *(Exegetical (a) · Evaluative (b).)*** An invented passage from a seminar paper:

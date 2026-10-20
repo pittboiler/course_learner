@@ -245,8 +245,11 @@ f & \text{CTL} & \text{NK} \\ \hline
 **From Lesson 2.5 (antigen processing & presentation):** Two engineered B-cell lines, both with normal MHC class I, normal MHC class II genes, and normal TAP. Line A cannot express the **invariant chain** (Ii, CD74). Line B expresses invariant chain normally but lacks **HLA-DM**.
 
 (a) In line A, where does a newly assembled class II molecule first meet peptides, and what peptides are they?
+
 (b) Predict line A's ability to present an endocytosed bacterial toxin to a CD4 T cell.
+
 (c) In line B, what occupies the class II groove at the cell surface, and why?
+
 (d) Neither line has any defect presenting a cytosolic viral protein to a CD8 T cell. Why not?
 
 <details>

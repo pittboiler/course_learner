@@ -212,20 +212,27 @@ $$S_{\max} = \frac{5\ \text{g/day}}{0.50} = 10\ \text{g/day}$$
 **P1 (🟢)** A parietal cell holds cytosolic pH at 7.2 and drives luminal pH to 1.0. The H⁺/K⁺-ATPase is **electroneutral** (1 H⁺ out per 1 K⁺ in), and ATP hydrolysis in a cell yields about 50 kJ/mol. Use $RT = 2.577$ kJ/mol.
 
 (a) What is the H⁺ concentration ratio across the apical membrane?
+
 (b) What is the minimum free energy needed to move one mole of H⁺ up that gradient? Say why there is no electrical term.
+
 (c) How many protons can one ATP move, at most? Compare with the Na⁺/K⁺-ATPase's 3 Na⁺ + 2 K⁺ per ATP and comment.
+
 (d) An H2 blocker is given. Explain why it reduces the acid secretion driven by *gastrin*, even though gastrin has its own receptor.
 
 **P2 (🟡)** A person chews sugar-free gum and ingests 30 g of **sorbitol** (molar mass 182 g/mol), which is neither digested nor absorbed. Plasma osmolarity is 290 mOsm/L.
 
 (a) How much water must the sorbitol obligate in the lumen, assuming luminal contents equilibrate to plasma osmolarity?
+
 (b) The colon can absorb several litres of water per day — far more than this. Explain why that spare capacity does not rescue the situation.
+
 (c) In cholera, the toxin locks CFTR open and the crypts pour out chloride and water, but it leaves SGLT1 untouched. Explain in two sentences why adding **glucose** to an oral salt solution turns a lethal diarrhoea into a survivable one.
 
 **P3 (🔴, bridges to [4.3](04-03-exercise-integrative-physiology.md))** At rest, cardiac output is 5.0 L/min and the splanchnic bed receives 25 percent of it. During heavy exercise, cardiac output rises to 22 L/min and the splanchnic share falls to 3 percent.
 
 (a) Compute absolute splanchnic flow at rest and in exercise. By what percentage does it fall?
+
 (b) How much flow does the reallocation free up, and what fraction of the *total* increase in cardiac output does that represent?
+
 (c) Given your answer to (b), is splanchnic vasoconstriction worth doing? Argue both sides, and say what happens if the person ate a large meal an hour before the run.
 
 <details>
@@ -296,7 +303,9 @@ $$\Delta CO = 22 - 5 = 17\ \text{L/min}, \qquad \frac{0.59}{17} = 0.035 \;\Right
 **From Lesson 3.2 (tubular transport and concentrating the urine):** A subject is producing urine at $\dot V = 2.0$ mL/min with urine osmolarity $U_{\text{osm}} = 145$ mOsm/L; plasma osmolarity is $P_{\text{osm}} = 290$ mOsm/L.
 
 (a) Compute osmolar clearance $C_{\text{osm}}$ and free-water clearance $C_{\text{H}_2\text{O}}$, and say what the sign tells you about ADH.
+
 (b) ADH is now administered. Solute excretion is unchanged, but urine osmolarity rises to 1160 mOsm/L. Compute the new urine flow, $C_{\text{osm}}$, and $C_{\text{H}_2\text{O}}$.
+
 (c) In one sentence each, distinguish the countercurrent **multiplier** from the countercurrent **exchanger**, and say which one ADH acts on.
 
 <details>

@@ -143,8 +143,11 @@ Notice what this makes true. The union of the keys is $\{A, B, C, D, E\}$ — **
 **P1 (🟢)** For $R(A,B,C,D)$ with $F = \{A \to B,\ B \to C,\ C \to D\}$, give each closure as an explicit set.
 
 (a) $\{A\}^+$
+
 (b) $\{B\}^+$
+
 (c) $\{C, A\}^+$
+
 (d) Name the unique candidate key, and state the shortcut that identifies it without any search.
 
 **P2 (🟡)** A hospital table is $R(\text{patient}, \text{ward}, \text{bed}, \text{consultant}, \text{specialty})$ with
@@ -152,15 +155,21 @@ Notice what this makes true. The union of the keys is $\{A, B, C, D, E\}$ — **
 $$G_1: \text{ward}, \text{bed} \to \text{patient} \qquad G_2: \text{patient} \to \text{ward}, \text{bed} \qquad G_3: \text{patient} \to \text{consultant} \qquad G_4: \text{consultant} \to \text{specialty}$$
 
 (a) Compute $\{\text{patient}\}^+$, showing which dependency fires at each step.
+
 (b) Compute $\{\text{ward}, \text{bed}\}^+$.
+
 (c) Give every candidate key, and justify that your list is complete.
+
 (d) State whether $\text{ward}, \text{bed} \to \text{specialty}$ follows from $G$, and give the reason in terms of a closure.
 
 **P3 (🔴, optional)** $R(A,B,C,D,E,H)$ with $F = \{A \to BC,\ CD \to E,\ E \to C,\ D \to AEH,\ ABH \to BD,\ DH \to BC\}$.
 
 (a) Compute $\{D\}^+$ and state whether $\{D\}$ is a candidate key.
+
 (b) Compute $\{E\}^+$ and $\{A, D\}^+$.
+
 (c) Give every candidate key of $R$. State the shortcut you used to bound the search, and how many subsets you actually had to test.
+
 (d) State whether $A \to D$ follows from $F$. If it does, give the derivation; if not, describe a two-row instance satisfying every dependency in $F$ and violating $A \to D$.
 
 <details>
@@ -255,7 +264,9 @@ The rows agree on $A$ and differ on $D$, violating $A \to D$. Every dependency i
 **From Lesson 1.6 (SQL IV — subqueries, `EXISTS` & views):** A `certification(engineer_id, standard)` table records which standards each engineer is certified against, and `mandatory(standard)` lists the three standards a site requires.
 
 (a) Write the query returning the engineers certified against every mandatory standard.
+
 (b) An engineer holds all three mandatory standards plus two others. State whether she is returned, and why.
+
 (c) Someone rewrites the query using `NOT IN` on `mandatory.standard`, and it returns nothing even though the data is unchanged. Give the most likely cause.
 
 <details>

@@ -130,9 +130,13 @@ That five-second triage is worth more than any individual proof in this module, 
 **P1 (🟢)** For each language, apply Rice's theorem if it applies: state whether the property is semantic, and if so name a recognizable language **with** it and a recognizable language **without** it. If Rice does not apply, say why.
 
 (a) $\{\langle M\rangle : L(M) \text{ is finite}\}$
+
 (b) $\{\langle M\rangle : M \text{ has exactly 12 states}\}$
+
 (c) $\{\langle M\rangle : L(M) \text{ contains at least two strings}\}$
+
 (d) $\{\langle M\rangle : L(M) \text{ is Turing-recognizable}\}$
+
 (e) $\{\langle M\rangle : M \text{ halts on every input}\}$
 
 **P2 (🟡)** Prove that $\mathit{ALL}_{\mathrm{TM}} = \{\langle M\rangle : L(M) = \Sigma^*\}$ is undecidable, twice:
@@ -144,7 +148,9 @@ That five-second triage is worth more than any individual proof in this module, 
 > "$\mathit{TOTAL} = \{\langle M\rangle : M \text{ halts on every input}\}$ is undecidable by Rice's theorem. It is clearly a non-trivial property — some machines halt on everything and some do not — so Rice applies."
 
 (a) The conclusion is true but the argument is wrong. Identify the failing hypothesis and give **two specific machines** that demonstrate the failure.
+
 (b) Give a correct proof that $\mathit{TOTAL}$ is undecidable, by a mapping reduction from $A_{\mathrm{TM}}$. Check both directions.
+
 (c) State in one sentence the general test for whether a property of $\langle M\rangle$ is semantic, and apply it to *"$M$ accepts at least one string of length 5"* and to *"$M$ makes at most 100 moves on the empty input."*
 
 <details>

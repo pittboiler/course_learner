@@ -170,7 +170,9 @@ Everything above the dotted line to G rests on B. That is why [Crossan's burial 
 **From Lesson [5.1](05-01-can-history-establish-a-miracle.md) (Can history establish a miracle?):** *(Formal (a)–(b) · Exegetical (c).)* Invented numbers. Two readers agree that the evidence for H is $L = 200$ times more expected if R is true than if every natural explanation is. Both use the lesson's factorization $\Pr(R \mid B) = \Pr(G \mid B) \times \Pr(\text{raise} \mid G, B)$.
 
 (a) Both take $\Pr(\text{raise} \mid G, B) = \tfrac{1}{50}$. What value of $\Pr(G \mid B)$ leaves a reader at exactly even posterior odds?
+
 (b) Reader Z takes $\Pr(G \mid B) = 0.05$. Compute Z's posterior odds and probability with $\Pr(\text{raise} \mid G, B) = \tfrac{1}{50}$, then again with $\tfrac{1}{5}$.
+
 (c) In one sentence: which of the lesson's weak points does (b) display?
 
 <details>

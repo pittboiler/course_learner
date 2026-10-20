@@ -91,13 +91,17 @@ Here the principle strains, because which scheme it selects depends on what coun
 **P1 (🟢)** *(Formal (a)–(b) · Exegetical (c).)* Invented numbers. A society has four positions with population shares 10%, 30%, 40% and 20%, listed worst to best. Two basic structures give the primary-goods indices P = (12, 20, 30, 50) and Q = (14, 18, 26, 40).
 
 (a) Which structure does the difference principle select, and which has the higher average? Give the cost of the difference principle's choice in average index per head.
+
 (b) Let P's lowest entry be $x$ instead of 12, all else fixed. For which $x$ does the difference principle, with Rawls's leximin tie-break, select P?
+
 (c) If the worst-off position were only 1% of the population, would the difference principle's verdict change? One sentence on why.
 
 **P2 (🟡)** *(Exegetical (a)–(c).)* Invented cases. For each policy, name the principle or priority rule that decides it under Rawls's two principles, and give the verdict. Two sentences each.
 
 (a) The Republic of Varden, a prosperous country, proposes suspending contested elections for ten years under an appointed development council, projected to raise the least advantaged's income index by 40%.
+
 (b) Varden's state universities propose reserving a fifth of places for children of alumni, who pay a levy that funds larger cash transfers to the least advantaged.
+
 (c) Varden's capital limits rallies in its main square to booked two-hour slots, allocated by lottery among all groups that apply.
 
 **P3 (🔴, optional)** *(Evaluative.)* Steelman and reply. An invented association of Varden surgeons tells the finance ministry: "Cut the top tax rate or many of us will cut our hours, and the poorest will wait longer for operations." Give Cohen's strongest objection to treating this as a difference-principle justification for the cut, then the strongest Rawlsian reply. 150 words or fewer. Any verdict passes.

@@ -181,8 +181,11 @@ Two cautions, because physics is being cited, not derived. Identical fermions ca
 **P1 (🟢) *(Exegetical.)*** Using the *Categories* tests, place each of the following in one of the four cells, and say in one clause which test decided it.
 
 (a) Socrates.
+
 (b) The particular limp Socrates has after the battle.
+
 (c) Courage.
+
 (d) Animal.
 
 **P2 (🟡) *(Exegetical (a) · Evaluative (b).)*** (a) Explain in two or three sentences why bundle theory *built out of universals* entails the identity of indiscernibles, and why the trope version does not. (b) Black's two-sphere world is offered as a counterexample. Choose one bundle-theorist reply, state it precisely, and say what it costs the theory. 150 words or fewer for (b); any verdict on whether the reply succeeds.

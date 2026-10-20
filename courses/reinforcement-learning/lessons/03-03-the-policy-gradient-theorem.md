@@ -131,15 +131,21 @@ Why a stochastic policy is genuinely needed: the agent cannot tell the three sta
 **P1 (🟢)** A softmax policy over three actions has preferences $\theta = (1,\ 0,\ 0)$.
 
 (a) Compute the three action probabilities.
+
 (b) Compute $\nabla_\theta\log\pi(a_2)$ using $\mathbf{e}_2 - \boldsymbol{\pi}$.
+
 (c) Verify the components sum to zero and explain why they must.
+
 (d) With $Q(s,a_2) = -2$ and $\alpha = 0.1$, give the updated $\theta$ and state whether $\pi(a_2)$ rose or fell.
 
 **P2 (🟡)** For the corridor of Example 2, with $J(p) = \dfrac{2(2-p)}{p(p-1)}$:
 
 (a) Evaluate $J(0.5)$ and $J(0.586)$, and state the gap.
+
 (b) Compute $J(p)$ as $p \to 0^+$ and as $p\to1^-$, and explain both limits in words.
+
 (c) A colleague suggests fixing the problem by giving the agent a step counter so the three states become distinguishable. State what the optimal policy becomes and its value.
+
 (d) State the general lesson about when a stochastic policy is genuinely optimal, as opposed to merely useful for exploration.
 
 **P3 (🔴)** The **baseline invariance** result, which [Lesson 3.4](03-04-reinforce.md) relies on: for any function $b(s)$ that does not depend on the action,
@@ -147,8 +153,11 @@ Why a stochastic policy is genuinely needed: the agent cannot tell the three sta
 $$\sum_a b(s)\,\nabla_\theta\pi_\theta(a\mid s) = 0.$$
 
 (a) Prove it in two lines.
+
 (b) State what this means for the policy gradient: which quantity may be replaced by which, and why the gradient is unchanged.
+
 (c) Verify it numerically for the two-action softmax of Example 1 ($\boldsymbol{\pi} = (0.6225,\ 0.3775)$) with $b = 5$.
+
 (d) If the expected gradient is unchanged, explain why choosing a good baseline nonetheless matters enormously in practice.
 
 <details>
@@ -232,8 +241,11 @@ Subtracting a baseline leaves the mean of the gradient estimator untouched while
 **From Lesson 3.1 (Value-function approximation):** Features $\mathbf{x}(s) = (1,\ s)$, weights $\mathbf{w} = (1,\ 0.5)$, $\gamma = 0.8$, $\alpha = 0.05$. The agent moves from $s = 4$ to $s' = 6$ with reward $R = -1$.
 
 (a) Compute $\hat V(4)$ and $\hat V(6)$.
+
 (b) Compute the TD error and perform the semi-gradient update.
+
 (c) Compute $\hat V(4)$ and $\hat V(6)$ after the update.
+
 (d) State whether the TD error would now be smaller, and explain what that reveals about semi-gradient methods.
 
 <details>

@@ -108,18 +108,23 @@ Smoke, by exactly 10. Without the urge, $P(G\mid\neg T)=0.04$ and it is $-2$ aga
 **P1 (🟢)** *(Formal (a)–(b) · Exegetical (c).)* A heart variant $H$ causes both a taste for espresso and arrhythmia; espresso itself is harmless. Drinking espresso ($D$) is worth $+6$; arrhythmia is worth $-60$. $P(H)=\tfrac15$; $P(D\mid H)=\tfrac45$, $P(D\mid\neg H)=\tfrac14$; $P(\text{arrhythmia}\mid H)=\tfrac12$, $P(\text{arrhythmia}\mid\neg H)=\tfrac1{10}$.
 
 (a) Compute $V(D)$ and $V(\neg D)$. What does EDT recommend?
+
 (b) Find the smallest pleasure from espresso (replacing $+6$) above which EDT recommends drinking.
+
 (c) Name the partition on which drinking dominates, and say in one sentence why EDT does not follow it.
 
 **P2 (🟡)** *(Formal (a)–(b) · Exegetical (c).)* Same case as P1. Let $M$ be "arrhythmia if and only if I drink" (drink with arrhythmia, or abstain without it).
 
 (a) Compute $V(D)$ and $V(\neg D)$ on the partition $\{M,\neg M\}$ and confirm they match P1(a).
+
 (b) Compute $\sum_S P(S)\,u(\text{act},S)$ with *unconditional* weights on the partition {arrhythmia, none} and on $\{M,\neg M\}$, and give each verdict.
+
 (c) In one or two sentences: which formula is partition-invariant, and why?
 
 **P3 (🔴, optional)** *(Formal (a) · Evaluative (b).)* Same case, but $H$ now moves choice only through a felt craving $K$: $P(K\mid H)=\tfrac45$, $P(K\mid\neg H)=\tfrac14$, and whether she drinks depends only on $K$.
 
 (a) She feels the craving. Find $P(H\mid D\wedge K)$ and $P(H\mid\neg D\wedge K)$, then $V(D\mid K)$ and $V(\neg D\mid K)$.
+
 (b) Does the tickle defence vindicate EDT? State the defence's key assumption, the strongest objection to it, and what keeping the defence costs a one-boxer in Newcomb. 150 words or fewer; any verdict passes.
 
 <details>
@@ -200,7 +205,9 @@ Drink, by exactly 6.
 **From Lesson [3.4](03-04-choosing-behind-the-veil-rawls-vs-harsanyi.md) (Choosing behind the veil: Rawls vs Harsanyi):** *(Formal (a)–(b) · Exegetical (c).)* An invented society has four equal quarters. Incomes (thousands of dollars a year), worst quarter first: P = (8, 20, 30, 62), Q = (14, 18, 22, 26), R = (12, 20, 28, 40). Take $u(x)=x$. A chooser behind the veil only partly trusts "equal chances". She considers every prior of the form $(1-\delta)\cdot\big(\tfrac14,\tfrac14,\tfrac14,\tfrac14\big)+\delta\cdot q$, where $q$ is any probability over the four positions and $\delta$ is fixed in $[0,1]$, and she ranks arrangements by their *minimum* expected income over that set.
 
 (a) Show that an arrangement's value is $(1-\delta)\cdot\text{average}+\delta\cdot\text{minimum}$, and write it for P, Q and R.
+
 (b) For which $\delta$ does she choose each arrangement? Which do Harsanyi and Rawls choose?
+
 (c) Which premise of Harsanyi's reconstructed argument does $\delta>0$ weaken, and which of Rawls's three conditions does $\delta$ measure? Two sentences.
 
 <details>

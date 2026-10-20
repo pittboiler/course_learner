@@ -84,6 +84,7 @@ Amplitude down by $\sim 10^{-6}$, so **rate** (which goes as amplitude-squared) 
 ## Problems
 
 **P1 (🟢)** Classify each as charged current (CC) or neutral current (NC), and name the boson:
+
 (a) $\bar{\nu}_e + p \to n + e^+$;  (b) $\nu_\mu + N \to \nu_\mu + N$ (nucleus $N$ recoils, otherwise unchanged);  (c) $\Lambda^0 \to p + \pi^-$.
 
 **P2 (🟡)** Write beta-plus decay $p \to n + e^+ + \nu_e$ and muon decay $\mu^- \to e^- + \bar{\nu}_e + \nu_\mu$ each as a two-step process at the $W$ vertex (what emits the $W$, and what the $W$ decays to). For the muon decay, verify that electron lepton number $L_e$ and muon lepton number $L_\mu$ are each separately conserved.
@@ -94,8 +95,11 @@ Amplitude down by $\sim 10^{-6}$, so **rate** (which goes as amplitude-squared) 
 <summary>Solutions</summary>
 
 **P1**
+
 (a) $\bar{\nu}_e + p \to n + e^+$: at the quark level $u \to d$ with charge change; a positron and antineutrino are involved through a charged vertex. **CC**, mediated by $W^+$ (equivalently the crossed inverse-beta reaction). Charge check: $0 + 1 \to 0 + 1$ ✓.
+
 (b) $\nu_\mu + N \to \nu_\mu + N$: nothing changes identity, the neutrino is chargeless (no photon possible). **NC**, mediated by $Z^0$.
+
 (c) $\Lambda^0 \to p + \pi^-$: the $\Lambda^0$ is $uds$; the decay is $s \to u$, changing charge, flavor, *and* strangeness ($\Delta S = 1$). **CC** ($W^-$), Cabibbo-suppressed.
 
 *Check.* The tell for NC is "same particles in and out, and no electromagnetic route" — only (b) fits. Both (a) and (c) change identities, so both need a charged $W$. ✓

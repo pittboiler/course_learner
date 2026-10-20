@@ -128,6 +128,7 @@ Upshot: no first-order theory — not even the *complete* theory $\mathrm{Th}(\m
 
 **From [Lesson 2.3](02-03-translation-quantifier-order.md) (Translation & Quantifier Order):** Work over the domain $\mathbb{R}$ with the usual order $<$. Consider
 $$A:\ \forall x\, \exists y\,(y > x), \qquad\qquad B:\ \exists y\, \forall x\,(y > x).$$
+
 (a) Translate $A$ and $B$ into plain English. (b) Which is true over $\mathbb{R}$, and which is false? (c) Write the negation $\neg B$ in **prenex** form — all quantifiers out front, no $\neg$ left in front of a quantifier.
 
 <details>

@@ -230,20 +230,27 @@ $$P_{aCO_2}^{new} = 40 \times \frac{5.5}{4.6} = \mathbf{48\ \text{mmHg}}.$$
 **P1 (🟢)** A subject inhales 700 mL from FRC. Intrapleural pressure goes from $-5$ to $-8.5$ cm H₂O; airflow is zero at both ends of the measurement.
 
 (a) Compute the transpulmonary pressure at each instant and the lung compliance.
+
 (b) A patient with emphysema performs the same 700 mL inspiration, and their intrapleural pressure falls only from $-4$ to $-5.5$ cm H₂O. Compute their compliance.
+
 (c) In one sentence each, name two ways this "easier" lung is harder to breathe with.
 
 **P2 (🟡, bridges to [2.5](02-05-gas-exchange-and-transport.md))** A patient breathes $V_T = 400$ mL at $f = 20\ \text{min}^{-1}$; anatomic dead space is 150 mL and CO₂ production is 0.220 L/min.
 
 (a) Compute minute ventilation and alveolar ventilation.
+
 (b) After sedation the pattern becomes $V_T = 250$ mL at $f = 32\ \text{min}^{-1}$. Compute both again, and comment on what a monitor displaying only minute ventilation would show.
+
 (c) Estimate $P_{aCO_2}$ for each pattern using $P_{aCO_2} = 863\,\dot V_{CO_2}/\dot V_A$ (mmHg, with volumes in L/min).
+
 (d) At $f = 32\ \text{min}^{-1}$, what tidal volume would restore the original alveolar ventilation, and what minute ventilation does that require?
 
 **P3 (🔴, bridges to surface physics)** Two alveoli of radii $60\ \mu\text{m}$ and $180\ \mu\text{m}$ open into the same alveolar duct. Take $1$ cm H₂O $= 98.1$ Pa.
 
 (a) With surfactant absent and surface tension a uniform $T = 24$ mN/m, compute the collapsing pressure of each in Pa and cm H₂O, and state which way air flows.
+
 (b) Surfactant is present, and the large alveolus's film is dilute enough that its tension stays at 24 mN/m. What tension must the small alveolus's film have for the two pressures to be equal? Express it as a fraction of the large one's.
+
 (c) A neonate born at 27 weeks has no surfactant. During the first breath, an alveolus must be opened from a collapsed radius of $25\ \mu\text{m}$ against $T = 50$ mN/m. Compute the required pressure in cm H₂O and comment on it relative to the $5$–$10$ cm H₂O of a normal quiet breath. Then name both of surfactant's jobs and say which failure produces the neonate's patchy lung collapse and which produces their exhaustion.
 
 <details>
@@ -325,8 +332,11 @@ $$\frac{T_{60}}{T_{180}} = \frac{8}{24} = \mathbf{\tfrac{1}{3}}$$
 **From Lesson 2.3 (hemodynamics and blood pressure regulation):** In a systemic capillary, the Starling forces are: capillary hydrostatic pressure $P_c = 30$ mmHg at the arteriolar end and $14$ mmHg at the venular end; interstitial hydrostatic pressure $P_i = -2$ mmHg; plasma oncotic pressure $\pi_c = 26$ mmHg; interstitial oncotic pressure $\pi_i = 6$ mmHg. Take the reflection coefficient $\sigma = 1$ and the filtration coefficient $K_f = 0.30$ mL/(min·mmHg).
 
 (a) Compute the net filtration pressure at each end and state the direction of fluid movement at each.
+
 (b) This patient develops nephrotic syndrome and loses albumin in the urine; $\pi_c$ falls to 14 mmHg. Recompute both ends.
+
 (c) Taking mean capillary hydrostatic pressure as 22 mmHg, compute net filtration in mL/min before and after, and explain the resulting edema.
+
 (d) Name the analogous pressure that, when raised, floods the *lung* — and say why that connects this lesson to the next one.
 
 <details>

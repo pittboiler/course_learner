@@ -109,23 +109,33 @@ Key: owner's key plus discriminator, so `(flight_no, date)`. This is exactly the
 For each of the following, give the requested value.
 
 (a) The cardinality of the Patient–Ward relationship, written as a ratio from Patient to Ward.
+
 (b) The participation of Ward in the Patient–Ward relationship: total or partial.
+
 (c) The participation of Building in the Ward–Building relationship: total or partial.
+
 (d) The number of relationship sets in this model.
 
 **P2 (🟡)** Classify each of the following as **entity set**, **relationship set**, **attribute**, or **weak entity set**, and give the one-sentence reason. Where you answer weak entity set, also name its owner and discriminator.
 
 (a) `Employee`, in a payroll system.
+
 (b) `Assignment`, recording that an employee worked on a project at a stated percentage of their time.
+
 (c) `Dependent`, recording an employee's children by first name for benefits purposes, where two employees may each have a child named Sam.
+
 (d) `percentage_of_time`, from (b).
+
 (e) `Skill`, a list of the skills the company recognizes, maintained whether or not anyone currently holds them.
 
 **P3 (🔴, optional)** A university models `Section` as a weak entity: a section is a particular offering of a course in a term, identified by the course plus a section number, so its key is `(course_id, term, section_no)`.
 
 (a) State the owner, the discriminator, and why `section_no` alone cannot be the key.
+
 (b) `Section` has a relationship `Taught by` to `Instructor`, N:1, with total participation on the Section side. Give the resulting key of any table recording which instructor teaches which section, and state whether that table is needed at all.
+
 (c) The registrar proposes replacing the composite key with a surrogate `section_id`, keeping everything else. Name one constraint that is lost and give a concrete two-row instance that the surrogate design permits and the weak-entity design forbids.
+
 (d) A `Meeting` entity records that a section meets in a room at a time, identified within its section by day and start time. State whether `Meeting` is weak, and give its full key.
 
 <details>
@@ -191,8 +201,11 @@ GROUP BY w.ward_id;
 ```
 
 (a) Give the number of output rows.
+
 (b) Give the value of `n_patients` for an empty ward, and say why.
+
 (c) Give the sum of the `n_patients` column as reported, and the true total number of patients.
+
 (d) Give the one-token correction and the corrected sum.
 
 <details>

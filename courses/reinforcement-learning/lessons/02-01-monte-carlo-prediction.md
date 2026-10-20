@@ -126,22 +126,31 @@ Note that the error is **not monotone** — the estimate at $100$ episodes happe
 - Episode 2: $Y\ \tfrac{-2}{\to}\ X\ \tfrac{+6}{\to}\ T$
 
 (a) Compute all returns by the backward recursion $G \leftarrow R + \gamma G$.
+
 (b) Give the first-visit estimates of $V(X)$ and $V(Y)$.
+
 (c) Give the every-visit estimate of $V(X)$.
+
 (d) State which of the two estimates of $V(X)$ is unbiased, and why the other is not.
 
 **P2 (🟡)** An agent uses the incremental update $V(s) \leftarrow V(s) + \alpha[G - V(s)]$ with a **constant** $\alpha = 0.1$, starting from $V(s) = 0$, and observes the returns $10, 10, 10, 10$ in that order.
 
 (a) Compute $V(s)$ after each of the four updates.
+
 (b) Compute what the $1/N$ running mean would give after the same four returns.
+
 (c) Write the constant-$\alpha$ estimate after $n$ identical returns $G$ in closed form, and state its limit.
+
 (d) The agent now switches to a better policy whose true value is $20$, and observes $20$ repeatedly. State which of the two update rules adapts faster, and give the reason in terms of the weight each places on the newest sample.
 
 **P3 (🔴)** A state $s$ has the property that every episode visiting it visits it **exactly twice**, and the two returns are strongly positively correlated (the second is always the first minus a fixed constant $c > 0$, discounted).
 
 (a) State whether first-visit MC is unbiased here.
+
 (b) State whether every-visit MC is unbiased here, and if not, in which direction it errs.
+
 (c) Suppose instead you want the smallest *variance* for a fixed number of episodes. Argue which estimator you would prefer, and name the trade-off you are making.
+
 (d) A colleague proposes averaging the two returns within each episode first, then averaging across episodes. State what this estimator converges to and whether it estimates $V^\pi(s)$.
 
 <details>
@@ -222,8 +231,11 @@ So it does **not** estimate $V^\pi(s)$. It is a perfectly well-defined quantity 
 **From Lesson 1.5 (Policy evaluation and policy iteration):** A two-state MDP with $\gamma = 0.5$. In state $1$ the policy takes *wait* with probability $\tfrac12$ (reward $+1$, stays at state $1$) and *go* with probability $\tfrac12$ (reward $-1$, moves to state $2$). State $2$ has a single action with reward $+10$ that terminates.
 
 (a) Run iterative policy evaluation from $V_0 \equiv 0$ for four synchronous sweeps, reporting $V_k(1)$.
+
 (b) Solve for $V^\pi(1)$ exactly.
+
 (c) Compute both action-values at state $1$ and name the greedy action.
+
 (d) Evaluate the improved policy and confirm it is optimal.
 
 <details>

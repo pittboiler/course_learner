@@ -93,6 +93,7 @@ $$f = kx = 1.2\times10^{-5}\ \text{pN/nm}\times 1000\ \text{nm} \approx 1.2\time
 
 **P1** (a) Contour length is fully-stretched length:
 $$L = Nb = 40 \times 0.8\ \text{nm} = 32\ \text{nm}.$$
+
 (b) Coil size:
 $$\sqrt{\langle R^2\rangle} = b\sqrt N = 0.8\ \text{nm}\times\sqrt{40} = 0.8\times 6.32\ \text{nm} \approx 5.1\ \text{nm}.$$
 The coil is smaller than the contour by the factor $\sqrt N = \sqrt{40}\approx 6.3$.

@@ -213,7 +213,9 @@ Two-sided, decaying in both directions, and the ROC contains the $j\omega$ axis 
 **P1 (🟢)** Find $X(s)$ and its ROC for (a) $x(t) = 2e^{-3t}u(t)$ and (b) $x(t) = -2e^{-3t}u(-t)$. What does the comparison illustrate?
 
 **P2 (🟡)** For each signal, find $X(s)$ and the ROC, or explain why no Laplace transform exists.
+
 (a) $x(t) = e^{-2t}u(t) + e^{t}u(-t)$.
+
 (b) $x(t) = e^{2t}u(t) + e^{-3t}u(-t)$.
 
 **P3 (🔴)** An LTI system has $H(s) = \dfrac{s+1}{(s+3)(s-2)}$. (a) Can this system be both causal and BIBO stable? (b) Choose the ROC that makes it stable and find the corresponding impulse response $h(t)$. (c) Is that $h(t)$ causal?

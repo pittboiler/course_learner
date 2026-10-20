@@ -124,22 +124,31 @@ This is why an optimizer tracks not just each plan's cost but the **order its ou
 **P1 (🟢)** Join $R$ (800 pages) to $S$ (5,000 pages) with $B = 102$ frames.
 
 (a) Give the cost of a block nested loop with $R$ as outer.
+
 (b) Give the cost with $S$ as outer.
+
 (c) Give the cost of a grace hash join.
+
 (d) State which relation should be the outer in a nested-loop plan, and why in one clause.
 
 **P2 (🟡)** A `driver` table has 20,000 rows in 1,000 pages; a `trip` table has 4,000,000 rows in 80,000 pages, 50 rows per page. They join on `driver_id`. The buffer has $B = 402$ frames, and a height-3 B⁺-tree index exists on `trip.driver_id`.
 
 (a) Give the average number of trips per driver.
+
 (b) Give the block nested-loop cost with `driver` as outer.
+
 (c) Give the index nested-loop cost with `driver` as outer, for a clustered and an unclustered index on `trip.driver_id`.
+
 (d) Give the grace hash join cost, and rank all the plans from (b) and (c).
 
 **P3 (🔴, optional)** A query joins three tables on a common column `k`: $A$ (1,000 pages), $B$ (4,000 pages), $C$ (60,000 pages). The buffer has 202 frames. Table $C$ has a clustered B⁺-tree on `k` of height 3; $A$ and $B$ have no indexes. The query ends with `ORDER BY k`.
 
 (a) Give the grace hash join cost of $A \bowtie B$, and of joining that 3,000-page result to $C$ by grace hash. Give the total, plus the cost of the final sort on the 12,000-page output.
+
 (b) Now consider sorting $A$ and $B$ and sort-merge joining them, then sort-merge joining the result to $C$ read through its clustered index. Give each step's cost and the total, and state why the final `ORDER BY` is free.
+
 (c) Give the difference between the two totals and say which wins.
+
 (d) State the general principle your answer illustrates, and give one change to the problem that would flip the result.
 
 <details>
@@ -239,7 +248,9 @@ Either single change alone narrows the gap; both together reverse it. That sensi
 **From Lesson 3.4 (external sorting):** A file of 40,000 pages is sorted with $B$ buffer frames.
 
 (a) Give the number of passes and the I/O cost at $B = 150$.
+
 (b) Give the smallest $B$ at which the sort completes in two passes.
+
 (c) Give the cost saved by moving from $B - 1$ to $B$ at that threshold, as a percentage.
 
 <details>

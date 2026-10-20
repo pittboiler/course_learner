@@ -100,10 +100,13 @@ The required equality $n_p=(n_s+n_i)/2$ is violated — $n_p$ is strictly **too 
 **Birefringence fix (one line):** put the pump on the crystal's *extraordinary* axis, whose index $n_e(\theta)<n_o$, and tune the propagation angle $\theta$ until $n_p^{\,e}(\theta)=(n_s+n_i)/2$, so the crystal's birefringence exactly cancels the dispersion gap (this is Type-I phase matching).
 
 **P3**
+
 (a) A herald is an idler detection; idlers arrive at rate $R$ and are detected with efficiency $\eta_i$:
 $$R_{\text{herald}} = R\,\eta_i = 10^6 \times 0.25 = 2.5\times10^5\ \text{s}^{-1}.$$
+
 (b) A heralded (coincident) detection needs *both* photons detected. The two arms are independent, so
 $$R_{\text{coinc}} = R\,\eta_s\,\eta_i = 10^6\times0.40\times0.25 = 1.0\times10^5\ \text{s}^{-1}.$$
+
 (c) Heralding efficiency = coincidences ÷ heralds:
 $$\eta_H=\frac{R_{\text{coinc}}}{R_{\text{herald}}}=\frac{R\,\eta_s\eta_i}{R\,\eta_i}=\eta_s = 0.40.$$
 So the heralding efficiency is just the **signal-arm** efficiency — the probability that, given a herald, the promised photon is actually detected. (This is the Klyshko efficiency; it's independent of the pair rate $R$.)

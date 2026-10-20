@@ -82,6 +82,7 @@ Here is the strain. A month earlier Gregory had written to King Æthelberht urgi
 > Differently to be admonished are the joyful and the sad. That is, before the joyful are to be set the sad things that follow upon punishment; but before the sad the promised glad things of the kingdom. … But some are not made joyful or sad by circumstances, but are so by temperament. And to such it should be intimated that certain defects are connected with certain temperaments; that the joyful have lechery close at hand, and the sad wrath. Hence it is necessary for every one to consider not only what he suffers from his peculiar temperament, but also what worse thing presses on him in connection with it; lest, while he fights not at all against that which he has, he succumb also to that from which he supposes himself free.
 
 (a) The passage makes **two distinct** moves, not one. Name each, and quote the word or phrase that marks where the second begins.
+
 (b) On Gregory's account, what is the danger of treating a hearer's stated condition as the whole diagnosis? Answer from the last sentence only.
 Two sentences per part.
 
@@ -90,12 +91,15 @@ Two sentences per part.
 > "Our new pastor has asked why he preaches so differently at the 8 a.m. and the 6 p.m. Mass. St Gregory the Great answers for him: 'one and the same exhortation does not suit all.' The Fathers teach that doctrine itself must be adapted to what each congregation is ready to hear. A pastor who hands everyone the same exhortation has not served them all."
 
 (a) Identify the one claim in the note that Gregory's text does **not** support, and say in one sentence what the Source passage says instead — pointing to the words that decide it.
+
 (b) The note quotes Gregory accurately and still goes wrong. Name the general move, and state the one-question test a reader could have applied to the quotation to catch it. 100 words or fewer in total.
 
 **P3 (🔴, optional) *(Exegetical (a), (b) · Evaluative (c).)*** Attribution.
 
 (a) A writer cites "Gregory the Great, *Dialogues* II" for a detail in the life of St Benedict. What must he say about the text's standing, and in what terms? One sentence.
+
 (b) A second writer says Gregory adopted the style "servant of the servants of God" in order to shame the patriarch of Constantinople. State the evidence against this, and name the source of the claim and its date.
+
 (c) The chant attributed to Gregory and the "servant of the servants" story rest on the same ninth-century *Life*. Does one later witness supporting two claims make them stand or fall together? Say what evidence would change your verdict. 120 words or fewer, any verdict.
 
 <details>
@@ -144,6 +148,7 @@ Two sentences per part.
 **From Lesson [5.1](05-01-cyril-of-alexandria.md) (Cyril of Alexandria):** *(Exegetical.)* Three Cyrilline texts of the Nestorian controversy: the **Second Letter to Nestorius**; the **Twelve Anathemas** attached to the Third Letter; and the **Formula of Reunion of 433**, which reaches us inside Cyril's peace letter to John of Antioch.
 
 (a) For each, state what a council did or did not do with it — at Ephesus in 431, and at Chalcedon in 451. **One sentence each.**
+
 (b) A footnote reads: "the Council of Ephesus condemned Nestorius's Christology in twelve canons (Ephesus, Anathemas 1-12)." Say what is wrong with it, name the kind of error, and give the citation the writer should have used. **Two sentences.**
 
 <details>

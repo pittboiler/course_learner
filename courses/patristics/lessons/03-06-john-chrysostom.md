@@ -78,6 +78,7 @@ Hold the two apart. The setting explains the occasion and the register. It softe
 > Mark the wise dispensation of God. That He might put mankind to shame, He has made certain things common, as the sun, air, earth, and water, the heaven, the sea, the light, the stars; whose benefits are dispensed equally to all as brethren. … Other things then He has made common, as baths, cities, market-places, walks. And observe, that concerning things that are common there is no contention, but all is peaceable. But when one attempts to possess himself of anything, to make it his own, then contention is introduced, as if nature herself were indignant, that when God brings us together in every way, we are eager to divide and separate ourselves by appropriating things, and by using those cold words mine and yours. This state therefore is rather our inheritance, and more agreeable to nature.
 
 (a) Put the passage into two premises and a conclusion.
+
 (b) The passage is sometimes quoted to show that Chrysostom held private property to be unjust. State what the words themselves claim, and name one premise a reader must supply from outside the passage to reach that stronger conclusion. 100 words or fewer for (b).
 
 **P2 (🟡) *(Exegetical.)*** An invented parish-bulletin note (no real parish, no real author):
@@ -85,10 +86,13 @@ Hold the two apart. The setting explains the occasion and the register. It softe
 > **From the Finance Council.** Several of you have asked why the sanctuary restoration comes before the food pantry. St John Chrysostom settles it: "Would you do honor to Christ's body?" The Fathers built beautiful churches because beauty is itself how the poor are raised up. And since our Sunday rite is the Liturgy of St John Chrysostom, composed by the saint himself, we are following his own mind in giving the altar first place.
 
 (a) The note quotes Chrysostom's question accurately and then draws the opposite conclusion from the one he draws. Using the Source and "The argument", say what he concludes and quote the clause of his that makes it unavoidable.
+
 (b) One factual claim in the note is false. State it and correct it. 100 words or fewer in total.
 
 **P3 (🔴, optional) *(Exegetical (a) · Evaluative (b).)***
+
 (a) In three sentences: what the eight homilies of 386–387 are, whom they were preached to, and how they were used in the twentieth century.
+
 (b) Wilken argues that the register belongs to *psogos* and that "antisemite" is therefore an anachronism; Laqueur and Katz weight the reception history instead. Say what each side has to concede to the other, and give a one-line verdict on what the genre argument can and cannot establish. Any verdict passes. 150 words or fewer for (b).
 
 <details>

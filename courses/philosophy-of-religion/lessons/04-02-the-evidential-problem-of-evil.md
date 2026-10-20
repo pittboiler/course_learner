@@ -87,7 +87,9 @@ about $62\%$. This is the Moore shift with numbers: the critic and the theist sh
 **P1 (🟢) *(Formal (a)–(b) · Evaluative (c))*** A philosopher takes a different datum, $P$: *in nonhuman animals, pleasure attaches almost entirely to biologically useful activity: feeding, mating, and play that trains survival skills.* She grants prior odds $T : \text{HI} = 2:1$, and judges $P$ three times more expected on HI than on $T$.
 
 (a) Compute the posterior odds $T : \text{HI}$ and $T$'s share of the two-way contest as a fraction.
+
 (b) What prior odds would a theist need for the posterior to be exactly even? Then show, in one line, why a posterior below even for $T$ against HI implies $\Pr(T) < \frac{1}{2}$.
+
 (c) A theist replies: "A God who creates through natural selection would make pleasure track biological usefulness, so the ratio is 1, not one third." Say which term of the odds form the reply attacks, give the new posterior, and state the strongest rejoinder from Draper's side. 100 words or fewer for (c).
 
 **P2 (🟡) *(Exegetical)*** An invented exchange at a university debate:

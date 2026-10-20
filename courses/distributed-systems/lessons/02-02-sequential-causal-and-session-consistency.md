@@ -115,22 +115,31 @@ Fix: causal delivery, which orders Ana's write after the write she read.
 **P1 (🟢)** For each history on a single register starting at 0, state the **strongest** model it satisfies among linearizable, sequentially consistent, and neither. Notation is $W(v)[s,f]$ and $R(v)[s,f]$.
 
 (a) $A{:}\,W(1)[0,2]$, $B{:}\,R(1)[3,5]$
+
 (b) $A{:}\,W(1)[0,2]$, $B{:}\,R(0)[3,5]$
+
 (c) $A{:}\,W(1)[0,2]$, $A{:}\,R(0)[3,5]$ — both operations by the same process $A$
+
 (d) $A{:}\,W(1)[0,2]$, $B{:}\,R(0)[3,5]$, $B{:}\,R(1)[6,8]$, $B{:}\,R(0)[9,11]$
 
 **P2 (🟡)** Name the session guarantee violated in each scenario, and give a client-side or replication-side fix in one clause.
 
 (a) A user uploads an avatar, and the profile page shows the old one.
+
 (b) A dashboard shows 48 orders, then 45, then 48 again on three consecutive refreshes with no new orders placed.
+
 (c) A user sets a reminder for 9am, then changes it to 10am; the notification fires at 9am and the settings page shows 10am.
+
 (d) A support agent reads a customer's message, replies, and the transcript shows the reply above the message for the customer.
 
 **P3 (🔴, optional)** Two registers $p$ and $q$, both starting at 0, on a store that guarantees each register is sequentially consistent.
 
 (a) Construct a two-process history in which each register alone is sequentially consistent but the combination is not, and give the cycle.
+
 (b) State whether your history could occur on a store that is **linearizable** per register, and justify the answer with the composability theorem.
+
 (c) A team observes your history in production and concludes a replica is faulty. State whether that conclusion is warranted.
+
 (d) The team wants to forbid this history without buying linearizability. Give one mechanism that does so, and state what it costs.
 
 <details>
@@ -199,7 +208,9 @@ This is the practical sting of non-composability: the failure is real, user-visi
 **From Lesson 2.1 (linearizability):** A register starts at 0. Client $A$ runs $W(7)[0,5]$. Client $B$ runs $R(7)[1,3]$. Client $C$ runs $R(0)[6,8]$.
 
 (a) State whether the history is linearizable, with the constraint that decides it.
+
 (b) Give the linearization order and a valid point for each operation if it is linearizable, or the conflicting pair if it is not.
+
 (c) Change $C$'s returned value to make the history linearizable, and give the resulting points.
 
 <details>

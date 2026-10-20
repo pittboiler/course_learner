@@ -116,22 +116,31 @@ So there are three different numbers in play, and confusing them is the standard
 **P1 (🟢)** An agent uses $\varepsilon$-greedy with $\varepsilon = 0.2$ in a state with four actions, where $Q(s,a_1) = 5$ is the unique maximum.
 
 (a) Give $\pi(a_1\mid s)$ and $\pi(a_2\mid s)$.
+
 (b) Verify the four probabilities sum to $1$.
+
 (c) If the other three actions are worth $1$, $2$ and $0$, compute the expected value of one action selection, $\sum_a \pi(a\mid s)Q(s,a)$.
+
 (d) State how much this falls short of $\max_a Q(s,a)$, and what that shortfall is called.
 
 **P2 (🟡)** In the trap MDP of Example 1, an agent uses **optimistic initialization** instead of exploration: it sets $Q(s,A) = Q(s,B) = 20$ and acts greedily with a $1/N$ running mean.
 
 (a) Trace the first three episodes, giving $Q(s,A)$ and $Q(s,B)$ after each. (Break the first tie toward $A$.)
+
 (b) State whether the agent finds the better action, and after how many episodes.
+
 (c) Now suppose action $B$'s return is noisy: $+10$ with probability $0.5$ and $0$ otherwise, so $Q^*(s,B) = 5$, still better than $A$'s $1$. State what can go wrong with optimistic initialization that could not go wrong in (a).
+
 (d) State the general condition under which optimistic initialization is a safe substitute for $\varepsilon$-greedy.
 
 **P3 (🔴)** A colleague argues that GLIE is unnecessary: "just run $\varepsilon$-greedy with a small $\varepsilon$, say $0.001$ — the loss is only $0.1\%$."
 
 (a) Using the trap MDP, compute the expected number of episodes before $B$ is tried, given the agent started with $A$, at $\varepsilon = 0.001$.
+
 (b) Compute the expected total reward forgone during that wait, relative to an agent that already knew.
+
 (c) State the trade-off that (a) and (b) together reveal, and why a *fixed* $\varepsilon$ cannot escape it.
+
 (d) Explain how $\varepsilon_k = 1/k$ escapes it, and verify the two GLIE conditions for that schedule.
 
 <details>
@@ -200,8 +209,11 @@ Both conditions hold, so Monte Carlo control with this schedule converges to $Q^
 **From Lesson 1.6 (Value iteration and why it converges):** A three-state MDP has states $U$, $W$ and a terminal $T$, with $\gamma = 0.5$. From $U$: action *jump* earns $8$ and terminates; action *drift* earns $0$ and moves to $W$. From $W$: the only action earns $12$ and moves back to $U$.
 
 (a) Write the Bellman optimality equations for $V^*(U)$ and $V^*(W)$.
+
 (b) Run value iteration from $V_0 \equiv 0$ for four sweeps.
+
 (c) Solve exactly by testing each branch of the $\max$.
+
 (d) State the optimal policy and verify both equations.
 
 <details>

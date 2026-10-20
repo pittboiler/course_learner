@@ -98,22 +98,31 @@ Converting the server's reading to the client's frame gives $200.010 - \theta = 
 **P1 (🟢)** Two machines have clocks with drift bounded by 30 ppm each.
 
 (a) Give the maximum rate at which their readings can separate, in ppm and in milliseconds per minute.
+
 (b) Give the longest resynchronization interval that holds their skew under 50 ms, assuming each synchronization is exact.
+
 (c) The machines run for 6 hours with no synchronization. Give the worst-case skew, in seconds.
+
 (d) State why the answer to (b) is optimistic in practice, in one clause.
 
 **P2 (🟡)** A client and a server exchange NTP timestamps: $T_1 = 500.000$, $T_2 = 500.118$, $T_3 = 500.123$, $T_4 = 500.155$, all in seconds on the respective clocks.
 
 (a) Give the round-trip delay $\delta$, in milliseconds.
+
 (b) Give the offset estimate $\theta$, in milliseconds, and state which clock is ahead.
+
 (c) Give the interval in which the true offset is guaranteed to lie.
+
 (d) The client logs an event at its local 501.000 and the server logs one at its local 501.050. State whether the data determine which happened first, with the comparison that decides it.
 
 **P3 (🔴, optional)** A cluster of four nodes runs the Berkeley algorithm. The coordinator polls and finds these offsets relative to its own clock, in milliseconds: coordinator $0$, node B $-40$, node C $+22$, node D $+2400$.
 
 (a) State which reading should be discarded and why, in terms of the failure models of [1.2](01-02-failure-models-and-the-network.md).
+
 (b) Give the average offset over the surviving nodes, and the adjustment the coordinator tells each surviving node to apply.
+
 (c) State whether the resulting cluster time is closer to UTC than before, and justify the answer.
+
 (d) Node D's adjustment would require setting its clock back by more than two seconds. Give the correct way to apply it and name one concrete failure that a direct step would cause.
 
 <details>
@@ -184,7 +193,9 @@ A concrete failure a direct backward step causes: **every timeout and lease held
 **From Lesson 1.2 (failure models):** A 9-node cluster is deployed. For each of the following, give the largest number of simultaneous faults of that kind it tolerates, and state the bound you used.
 
 (a) Crash faults.
+
 (b) Byzantine faults.
+
 (c) The team then argues that adding a tenth node improves crash tolerance. State whether it does, with the arithmetic.
 
 <details>

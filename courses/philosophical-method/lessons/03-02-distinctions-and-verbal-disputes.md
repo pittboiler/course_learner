@@ -113,7 +113,9 @@ Now the evasion. The ruling party's spokesman replies that replacing the judges 
 **P1 (🟢) *(Exegetical.)*** For each dispute, say whether it is verbal, substantive, or mixed — and where it is verbal or mixed, name the two senses. One sentence each.
 
 (a) Two readers argue about whether Locke is an empiricist. One means the doctrine that all concepts come from experience; the other means the doctrine that all justification rests on experience. They agree about every passage in the text.
+
 (b) Two lawyers argue about whether solitary confinement is "cruel" within the meaning of a constitutional clause. They agree on every finding about what solitary confinement does to prisoners.
+
 (c) Two officers argue about whether the commander killed the villagers or merely failed to save them. They agree on every order given, every movement of troops, and every time of death.
 
 **P2 (🟡) *(Exegetical (a) · Evaluative (b).)*** The paragraph below is from an invented budget memo. (a) Name the distinction the writer is relying on, in one sentence, and say precisely what work it is doing. (b) Run the three marks of ad hoc-ness on it and reach a verdict. 150 words or fewer for (b).

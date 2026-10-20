@@ -93,7 +93,9 @@ Where it strains: the verdicts track who supplied the aid and whether it is self
 **P1 (🟢) *(Exegetical.)*** Classify each case as doing or allowing using Quinn's conditions and McMahan's view of withdrawing aid, naming the node of the tree that decides it. One sentence each.
 
 > (a) A volunteer hand-pumps air down a pipe to a miner trapped by a rockfall. After an hour, able but tired, she stops and leaves; he suffocates.
+>
 > (b) The same volunteer had instead hooked the pipe to a generator that runs on its own. Later she switches the generator off; he suffocates.
+>
 > (c) A passing engineer, who has had nothing to do with the rescue, switches off the generator in (b).
 
 **P2 (🟡) *(Evaluative.)*** (a) Build a matched pair, not using Rescue I and II or the gas case, that differs **only** in whether the agent kills or lets die, and where you judge the two cases differently. (b) Say what your pair shows about Rachels's conclusion, and what it does not show. Any verdict on the DDA passes; you are graded on the construction. 150 words or fewer.

@@ -72,8 +72,11 @@ Notice the shift: "drink **and** size" multiplied; "combo **or** pastry" added.
 **P1** Three independent stages, one choice each: $3 \times 4 \times 2 = \boxed{24}$ meals. Pure multiplication rule.
 
 **P2**
+
 (a) Repetition allowed: 3 independent stages of 5 options each, $5^3 = \boxed{125}$.
+
 (b) No repeats: a permutation $P(5,3) = 5 \times 4 \times 3 = \boxed{60}$.
+
 (c) Fix the first slot to a vowel: $2$ ways (A or E). Then fill the remaining 2 slots from the 4 unused letters, order matters, no repeats: $P(4,2) = 4 \times 3 = 12$. By the multiplication rule, $2 \times 12 = \boxed{24}$. (Check via symmetry: $\tfrac{2}{5}$ of the $60$ no-repeat codes should start with a vowel, and $\tfrac{2}{5}\cdot 60 = 24$. ✓)
 
 **P3** Work with 3-digit strings from $000$ to $999$ (that's the numbers $1$–$999$ plus $000$, which has no 7, so it won't affect the "contains a 7" count). Total strings: $10^3 = 1000$. Strings with **no** 7: each of the 3 positions has 9 allowed digits, so $9^3 = 729$. Strings with **at least one** 7: $1000 - 729 = \boxed{271}$. (The excluded $000$ has no 7, so it sits in the 729, not the 271 — the count of numbers $1$–$999$ containing a 7 is exactly $271$.)
@@ -88,7 +91,9 @@ Notice the shift: "drink **and** size" multiplied; "combo **or** pastry" added.
 <summary>Solution</summary>
 
 (a) $|A \times B| = |A|\cdot|B| = 3 \times 4 = 12$ ordered pairs.
+
 (b) $|\mathcal{P}(A)| = 2^{|A|} = 2^3 = 8$ subsets (each of the 3 elements is independently in or out — the multiplication rule with two choices per element, $2\times2\times2$).
+
 (c) The **multiplication rule**: forming a pair $(x,y)$ is two independent stages — pick $x$ from $A$ ($|A|$ ways), then $y$ from $B$ ($|B|$ ways) — so the pairs number $|A|\,|B|$.
 
 </details>

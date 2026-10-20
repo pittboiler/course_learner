@@ -114,22 +114,31 @@ Two honest caveats. The zero is exact here because the critic is exact and the r
 **P1 (🟢)** An actor–critic agent has $\hat V(s) = -3$, $\hat V(s') = 1$, takes an action with softmax probabilities $(0.3,\ 0.7)$, selects $a_1$, and receives $R = -1$. Take $\gamma = 0.9$, $\alpha^\theta = 0.5$, $\alpha^{\mathbf{w}} = 0.1$, tabular critic.
 
 (a) Compute $\delta$.
+
 (b) Update the critic and give the new $\hat V(s)$.
+
 (c) Compute $\nabla_\theta\log\pi(a_1)$ and update the actor.
+
 (d) State whether $\pi(a_1)$ rose or fell, and reconcile that with the fact that $R$ was negative.
 
 **P2 (🟡)** In Example 2's MDP, suppose the critic is imperfect: $\hat V(s_0) = 1$ (correct) but $\hat V(s_1) = 3$ (should be $0$).
 
 (a) Compute the four values of the actor–critic estimator's first component.
+
 (b) Compute its mean and variance.
+
 (c) State whether the estimator is still unbiased, and identify the source of any bias.
+
 (d) Compare with the correct-critic case and state what the error in $\hat V(s_1)$ cost.
 
 **P3 (🔴)** The identity $\mathbb{E}[\delta_t\mid S_t=s,A_t=a] = A^\pi(s,a)$ is what licenses using the TD error as the actor's multiplier.
 
 (a) Prove it, stating where you use the definition of $Q^\pi$.
+
 (b) The proof assumes $\hat V = V^\pi$. State what $\mathbb{E}[\delta_t\mid s,a]$ equals when $\hat V \ne V^\pi$, writing $\epsilon(s) = \hat V(s) - V^\pi(s)$.
+
 (c) Using (b), state the condition on $\epsilon$ under which the actor's expected update is still exactly the policy gradient, even with a wrong critic.
+
 (d) Explain why the condition in (c) is not as useless as it looks, by connecting it to the baseline-invariance result of [Lesson 3.3](03-03-the-policy-gradient-theorem.md).
 
 <details>
@@ -209,8 +218,11 @@ This is also the practical reason actor–critic tolerates a rough critic early 
 **From Lesson 3.4 (REINFORCE):** A two-action bandit has $\boldsymbol{\pi} = (0.4,\ 0.6)$ and deterministic rewards $R(a_1) = 6$, $R(a_2) = 1$.
 
 (a) Compute the score vector for each action.
+
 (b) Compute the expected first component of the un-baselined gradient estimator, $\mathbb{E}[R\nabla\log\pi]$.
+
 (c) Compute its variance.
+
 (d) Recompute the variance with the baseline $b = V^\pi$, and state the reduction factor.
 
 <details>

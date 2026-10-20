@@ -85,8 +85,11 @@ The phrase to watch is 3:9, *mē echōn emēn dikaiosynēn tēn ek nomou*: "not 
 > *Note:* the Jews' own justice is, that which they pretended to by their own strength, or by the observance of the law, without faith in Christ.
 
 The Greek of "their own" in 10:3 is *tēn idian* (*dikaiosynēn*), "their own righteousness".
+
 (a) *(Exegetical)* Give a boundary-marker (Dunn) reading and a doing-versus-receiving (Westerholm) reading of "their own", and name the words **in 10:2–5** each appeals to. **Four sentences or fewer.**
+
 (b) *(Exegetical)* Which reading does Challoner's note take, and what authority does the note carry? **Two sentences.**
+
 (c) *(Exegetical)* Name the crux: the one claim about *idian* that each side must deny. **Two sentences.**
 
 **P3 (🔴)** *(Exegetical)* An **invented** study-Bible note on Galatians 2:16:
@@ -137,6 +140,7 @@ For each numbered sentence, name the error and correct it, stating the right lev
 > For God indeed was in Christ, reconciling the world to himself, not imputing to them their sins. And he hath placed in us the word of reconciliation. For Christ therefore we are ambassadors, God as it were exhorting by us, for Christ, we beseech you, be reconciled to God. Him, who knew no sin, he hath made sin for us: that we might be made the justice of God in him.
 
 In 5:21, "that we might be made the justice of God" is *hina hēmeis genōmetha dikaiosynē theou*, literally "that we might become the righteousness of God".
+
 (a) Name the Greek verb behind "imputing" in 5:19 (Paul's verb for Abraham in Romans 4:3), gloss it, and say how 5:19 uses the same picture in the opposite direction from Romans 4:3. (b) Of the three readings of *dikaiosynē theou* (attribute, gift, saving action), which one does "we ... become" most naturally favour, and what in 5:18–20 could a reader of one of the other rows point to? **Two sentences per part.**
 
 <details>

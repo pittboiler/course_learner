@@ -139,8 +139,11 @@ GROUP BY m.mid, m.name;
 | B5 | RVN | 2023 | NULL |
 
 (a) `SELECT COUNT(*), COUNT(price), COUNT(DISTINCT year) FROM book;`
+
 (b) `SELECT AVG(price) FROM book WHERE pub_id = 'RVN';`
+
 (c) `SELECT SUM(price) / COUNT(*) FROM book WHERE pub_id = 'RVN';`
+
 (d) `SELECT MAX(price) FROM book WHERE year = 2025;`
 
 **P2 (🟡)** An analyst reports "average books per publisher" using
@@ -154,8 +157,11 @@ GROUP BY p.pub_id, p.name;
 against the three publishers RVN (3 books), HOL (2 books) and KIN (0 books).
 
 (a) Give the exact output table.
+
 (b) Give the mean of the `n_books` column as reported, and the true mean books per publisher.
+
 (c) Correct the query with a one-token change, and give the corrected output.
+
 (d) The analyst's colleague suggests using an inner join instead. Give the resulting number of output rows and explain why the reported mean would then be *further* from the truth, not closer.
 
 **P3 (🔴, optional)** A `reading(sensor_id, taken_at, celsius)` table logs temperature readings; `celsius` is NULL when the sensor failed to report. For one day, sensor S1 logged 4 readings of which 1 is NULL, and sensor S2 logged 2 readings, both NULL.
@@ -168,8 +174,11 @@ GROUP BY sensor_id;
 ```
 
 (a) Give the number of output rows, and state what `mean` is for S2 and why.
+
 (b) S1's three non-null readings are 18, 20 and 22. Give `n`, `mean` and `ok` for S1.
+
 (c) A downstream job computes an overall mean as $\bigl(\sum_g \texttt{mean}_g\bigr) / (\text{number of groups})$ from this result. Give the number it produces and the true mean over all readings, and name the two distinct defects that separate them.
+
 (d) Write a single query returning one row per sensor with a mean that is NULL only when the sensor reported nothing usable, plus a column flagging that case, and state what makes your flag reliable.
 
 <details>
@@ -253,7 +262,9 @@ SELECT COUNT(*) FROM part WHERE weight_kg > 5;       -- returns 5
 ```
 
 (a) Account for the discrepancy between $4 + 5$ and 12.
+
 (b) Give the row count of `SELECT COUNT(*) FROM part WHERE NOT (weight_kg <= 5);` and say whether it repairs the discrepancy.
+
 (c) Write a single query returning three counts — light, heavy, and unweighed — that sum to 12.
 
 <details>

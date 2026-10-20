@@ -84,6 +84,7 @@ overshooting by $\delta = 5.55\times10^{-17}$ relative to $0.1$ — and indeed $
 
 **P1** (a) The largest power of two not exceeding $0.375$ is $2^{-2} = 0.25$, and $0.375 / 0.25 = 1.5 = (1.1)_2$. So
 $$0.375 = (1.1000\ldots0)_2 \times 2^{-2}: \quad \text{sign } +,\ \ e = -2,\ \ \text{mantissa } 1000\ldots0.$$
+
 (b) Its binade is $[2^{-2}, 2^{-1}) = [0.25, 0.5)$, so the spacing is $\text{ulp}(0.375) = 2^{\,e-(p-1)} = 2^{-2-52} = 2^{-54} \approx 5.55\times10^{-17}$. Because $0.375 = 3/8$ has a terminating binary expansion, it is stored **exactly** — $\delta = 0$.
 
 **P2** Just below $8$ you are in the binade $[4, 8) = [2^2, 2^3)$, where the spacing is $2^{\,2-52} = 2^{-50} \approx 8.88\times10^{-16}$. Just above $8$ you are in $[8, 16) = [2^3, 2^4)$, where the spacing is $2^{\,3-52} = 2^{-49} \approx 1.78\times10^{-15}$. The upper gap is exactly **twice** the lower one. The jump lands precisely at $8$ because $8 = 2^3$ is where the exponent $e$ increments from $2$ to $3$; each binade carries the same fixed count of floats, so crossing a power of two doubles the absolute spacing.

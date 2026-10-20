@@ -71,6 +71,7 @@ Here $T=\tfrac12 m\dot x^2$ is a pure quadratic ($T_1=T_0=0$), so $h=E$; and $\p
 
 **P2 (🟡)** A bead of mass $m$ slides frictionlessly on a circular hoop of radius $a$ that is spun about its vertical diameter at a **fixed** angular rate $\Omega$ (a motor drives the azimuth, $\phi=\Omega t$). With $\theta$ the angle from the downward vertical, the Lagrangian is
 $$L=\tfrac12 ma^2\dot\theta^2 + \tfrac12 ma^2\Omega^2\sin^2\theta + mga\cos\theta.$$
+
 (a) Compute $h$. (b) Show $h$ is conserved. (c) Show $h\ne E=T+V$, identify the difference as $2T_0$, and explain physically why $E$ is *not* conserved even though $h$ is.
 
 **P3 (🔴)** A driven oscillator has $L=\tfrac12 m\dot x^2 - \tfrac12 kx^2 + xF_0\cos\omega t$ (i.e. $V=\tfrac12 kx^2 - xF_0\cos\omega t$). (a) Compute $h$ and show $h=E$ at every instant. (b) Show $h$ is **not** conserved by computing $dh/dt$ directly from the equation of motion, and verify it equals $-\partial L/\partial t$.
@@ -86,7 +87,9 @@ Conservation: $\partial L/\partial t=0$ (no explicit $t$), so by the theorem $dh
 **P2** (a) $p_\theta=\partial L/\partial\dot\theta=ma^2\dot\theta$, and only $\dot\theta$ appears, so
 $$h=\dot\theta\,p_\theta - L = ma^2\dot\theta^2 - \tfrac12 ma^2\dot\theta^2 - \tfrac12 ma^2\Omega^2\sin^2\theta - mga\cos\theta = \tfrac12 ma^2\dot\theta^2 - \tfrac12 ma^2\Omega^2\sin^2\theta - mga\cos\theta.$$
 This is $h=\tfrac12 ma^2\dot\theta^2 + V_{\text{eff}}(\theta)$ with $V_{\text{eff}}=-\tfrac12 ma^2\Omega^2\sin^2\theta - mga\cos\theta$.
+
 (b) $L$ has **no explicit $t$** (the drive $\phi=\Omega t$ was already substituted, leaving only $\theta,\dot\theta$), so $\partial L/\partial t=0$ and $dh/dt=-\partial L/\partial t=0$: $h$ is conserved.
+
 (c) In coordinate $\theta$ the velocity is $\dot\theta$, so the term $\tfrac12 ma^2\Omega^2\sin^2\theta$ carries **no** $\dot\theta$ — it is $T_0$ (degree 0), not part of $T_2$. Thus $T_2=\tfrac12 ma^2\dot\theta^2$, $T_0=\tfrac12 ma^2\Omega^2\sin^2\theta$, $T_1=0$, and
 $$E=T+V=T_2+T_0+V,\qquad h=T_2-T_0+V,\qquad E-h=2T_0=ma^2\Omega^2\sin^2\theta\neq 0.$$
 So $h\neq E$. Physically: the motor holding $\Omega$ fixed must feed torque in and out as the bead slides toward/away from the axis, doing work on the bead — that work changes the lab energy $E$, so $E$ is *not* conserved. What survives is $h$, the energy in the rotating frame (kinetic $+$ centrifugal-plus-gravity effective potential). *Check:* $E-h=2T_0\ge 0$ and depends on $\theta(t)$, so as $\theta$ evolves $E$ must vary while $h$ stays pinned — consistent with only $h$ conserved. ✓
@@ -94,6 +97,7 @@ So $h\neq E$. Physically: the motor holding $\Omega$ fixed must feed torque in a
 **P3** (a) $p=\partial L/\partial\dot x=m\dot x$, so
 $$h=\dot x\,p - L = m\dot x^2 - \tfrac12 m\dot x^2 + \tfrac12 kx^2 - xF_0\cos\omega t = \tfrac12 m\dot x^2 + \tfrac12 kx^2 - xF_0\cos\omega t.$$
 Here $T=\tfrac12 m\dot x^2$ is a pure quadratic ($T_1=T_0=0$), so $h=T+V=E$ at every instant — the instantaneous energy including the interaction term $-xF_0\cos\omega t$.
+
 (b) EOM: $\tfrac{d}{dt}(m\dot x)=\partial L/\partial x=-kx+F_0\cos\omega t$, i.e. $m\ddot x+kx=F_0\cos\omega t$. Differentiate $h$ directly:
 $$\frac{dh}{dt}=m\dot x\ddot x + kx\dot x - \dot x F_0\cos\omega t + xF_0\omega\sin\omega t = \dot x\underbrace{(m\ddot x+kx-F_0\cos\omega t)}_{=\,0\text{ by EOM}} + xF_0\omega\sin\omega t = xF_0\omega\sin\omega t.$$
 This is nonzero in general, so $h$ is not conserved. *Check* against the theorem: $\partial L/\partial t=\partial/\partial t\,[xF_0\cos\omega t]=-xF_0\omega\sin\omega t$, hence $-\partial L/\partial t=xF_0\omega\sin\omega t$, matching $dh/dt$ exactly. ✓ The explicit clock-dependence of the drive is precisely what leaks energy in and out.

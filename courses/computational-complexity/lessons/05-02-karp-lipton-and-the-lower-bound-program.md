@@ -129,8 +129,11 @@ You have now seen three instances of the same move at three levels:
 **P2 (🟡)** For each statement, say whether it follows from Karp–Lipton, contradicts it, or is independent, with a one-clause reason.
 
 (a) If $\mathsf{P} = \mathsf{NP}$ then $\mathsf{NP}\subseteq\mathsf{P/poly}$.
+
 (b) If $\mathsf{NP}\subseteq\mathsf{P/poly}$ then $\mathsf{P} = \mathsf{NP}$.
+
 (c) If $\Sigma_2^p\ne\Sigma_3^p$ then SAT has no polynomial-size circuits.
+
 (d) $\mathsf{P}\ne\mathsf{NP}$ implies SAT has no polynomial-size circuits.
 
 **P3 (🔴, optional)** (a) State precisely where the Karp–Lipton proof uses self-reducibility, and give the number of circuit queries per value of $y$ for a formula on $n$ variables. (b) Suppose SAT were **not** self-reducible but still had polynomial-size circuits. Explain in two sentences what would go wrong with the proof. (c) Karp–Lipton is stated for $\mathsf{NP}\subseteq\mathsf{P/poly}$. State what the analogous hypothesis and conclusion would be for $\mathsf{PSPACE}$, and name the property of TQBF that makes the same proof work.

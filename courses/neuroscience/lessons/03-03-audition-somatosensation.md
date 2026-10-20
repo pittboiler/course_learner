@@ -212,19 +212,25 @@ $$\sigma_{\text{est}} = \frac{100\ \mu\text{s}}{\sqrt{N}} = 10\ \mu\text{s} \;\;
 **P1 (🟢)** The middle ear. Take $Z_{\text{air}} = 415$ Pa·s/m, $Z_{\text{perilymph}} = 1.5\times10^{6}$ Pa·s/m, an effective tympanic membrane area of 55 mm², a stapes footplate area of 3.2 mm², and an ossicular lever ratio of 1.3.
 
 (a) Compute the fraction of incident sound power that would enter the cochlea with no middle ear, and express it in dB.
+
 (b) Compute the ossicular pressure gain and express it in dB.
+
 (c) Comment on the net, and on what the calculation predicts about the size of a conductive hearing loss.
 
 **P2 (🟡, bridges to cortical map organization)** The glabrous fingertip has about 140 mechanoreceptive afferents per cm²; its two-point threshold is about 2 mm. The thigh's two-point threshold is about 40 mm.
 
 (a) Estimate the fingertip receptor spacing and the two-point threshold it predicts.
+
 (b) Working backwards from the thigh's threshold, estimate its afferent density, and give the fingertip-to-thigh density ratio.
+
 (c) If cortical territory is allocated in proportion to afferent count, what does this predict about the two regions' representations in S1, and what does the prediction have to say about the homunculus?
 
 **P3 (🔴, bridges to [1.5](01-05-cable-theory-conduction.md) and to clinical reasoning)** You stub your toe. Nociceptive afferents run 1.0 m from the toe to the spinal cord. Take Aδ fibres at 15 m/s, C fibres at 1.0 m/s, and Aβ touch afferents at 50 m/s.
 
 (a) Compute the arrival time of each volley at the cord, and the interval between the Aδ and C arrivals. What perceptual phenomenon does this predict?
+
 (b) You immediately rub the toe. How much earlier does the touch volley arrive than each pain volley, and which pain component should rubbing suppress more effectively?
+
 (c) Repeat (a) for a fingertip, path length 0.75 m, and state what the comparison predicts about where the phenomenon in (a) is easiest to notice.
 
 <details>
@@ -301,7 +307,9 @@ The touch volley leads the Aδ volley by $67 - 20 = \mathbf{47\ \text{ms}}$ and 
 **From Lesson 2.1 (chemical synaptic transmission):** The endbulb of Held, in the cochlear nucleus, is the first synapse in the ITD pathway and must relay auditory nerve spikes with high reliability and sub-millisecond precision. Recordings give a mean evoked EPSC of $\mu = 4.20$ nA with variance $\sigma^2 = 0.063$ nA², and spontaneous miniature events with mean amplitude $q = 0.030$ nA.
 
 (a) Estimate the release probability $p$, the mean quantal content $m$, and the number of release sites $n$.
+
 (b) Compare the observed variance with what a Poisson process would predict, and say what the comparison establishes.
+
 (c) Residual $\text{Ca}^{2+}$ raises release probability on a second spike by a factor $f = 1.3$. Predict the paired-pulse ratio, and say why this synapse is built the way it is.
 
 <details>

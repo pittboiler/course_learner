@@ -118,8 +118,11 @@ This is exactly the response pattern NP-hardness triggers — approximate, restr
 **P2 (🟡)** For each statement, say whether it is true, false, or open, with a one-clause reason.
 
 (a) Every P-complete problem is NP-complete.
+
 (b) If CIRCUIT-VALUE is in $\mathsf{NC}$ then $\mathsf{L} = \mathsf{P}$.
+
 (c) $\mathsf{AC}^0 \ne \mathsf{NC}^1$.
+
 (d) Maximum flow is in $\mathsf{P}$ and is not known to be in $\mathsf{NC}$.
 
 **P3 (🔴, optional)** (a) Prove that $\mathsf{NC}$ is closed under logspace reductions, naming the technique that handles the intermediate string. (b) Use it to prove that if any P-complete problem lies in $\mathsf{NC}$ then $\mathsf{NC} = \mathsf{P}$. (c) Explain in two sentences why the analogous statement for NP — "if any NP-complete problem is in $\mathsf{P}$ then $\mathsf{P} = \mathsf{NP}$" — has the identical proof shape, and name the one structural ingredient both arguments need.

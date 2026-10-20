@@ -101,6 +101,7 @@ This is where the analysis strains. Ellsberg's defenders close the loophole by d
 **P1 (🟢) *(Formal (a) · Exegetical (b).)*** A bag holds 80 balls: 30 white, and 50 green or purple in unknown mix. For any number $c$, act $f_c$ pays 100 dollars on white, 0 on green and $c$ dollars on purple; act $g_c$ pays 0 on white, 100 dollars on green and $c$ dollars on purple. Abe chooses $f_0$ over $g_0$ and $g_{100}$ over $f_{100}$.
 
 (a) For any subjective probabilities $p_W, p_G, p_P$ and any utility $u$ with $u(100) > u(0)$, show that $EU(f_c) - EU(g_c)$ does not depend on $c$. Conclude that no probability and utility make Abe an expected-utility maximizer.
+
 (b) Name the Savage postulate Abe violates. In one sentence, say what setting $c = 100$ does to the ambiguity of $g$.
 
 **P2 (🟡) *(Formal (a)–(b) · Exegetical (c).)*** An **invented** memo from a pension fund's investment committee, not the words of any real fund:
@@ -108,12 +109,15 @@ This is where the analysis strains. Ellsberg's defenders close the loophole by d
 > "Zone 1's hurricane landfall rate is well documented at 20% a season. Zone 2 is newly developed coast with no reliable record; our models put its landfall chance anywhere from 5% to 35%. We will buy bond A, which pays 1 million dollars unless a hurricane lands in Zone 1, rather than bond B, which pays 1 million unless one lands in Zone 2. For our hedging book we will likewise buy contract C, paying 1 million if a hurricane lands in Zone 1, rather than contract D, paying 1 million if one lands in Zone 2. All four cost the same. Unknown risks deserve a margin of safety."
 
 (a) Let $q$ be a single probability of Zone 2 landfall. For which $q$ does an expected-utility maximizer with any increasing utility choose A over B? Which of those $q$ lie inside the models' range?
+
 (b) Show that no $q$ makes both of the committee's choices maximize expected utility.
+
 (c) In two sentences: is Zone 2 landfall risk or uncertainty in Knight's sense? If the committee's best single estimate for Zone 2 were also 20%, what would still differ between the two judgements in Keynes's terms?
 
 **P3 (🔴, optional) *(Formal (a) · Evaluative (b).)*** A trustee replies to P2's memo: "Say we hold B and D. If we pay 10,000 dollars to swap B for A, and another 10,000 to swap D for C, we end up holding A and C, which pays exactly what B and D paid in every state, and we are 20,000 dollars poorer."
 
 (a) Show that holding A and C together, and holding B and D together, each pays 1 million dollars in every state.
+
 (b) Steelman the committee's reply, name the premise of the trustee's argument that the reply denies, and say whether an argument of the trustee's form would also tell against the Allais pattern. 150 words or fewer.
 
 <details>
@@ -200,6 +204,7 @@ Each pair pays 1 million dollars in every state, so the trustee's endpoint is 1 
 **From Lesson [2.3](02-03-the-allais-paradox-and-the-sure-thing-principle.md) (The Allais paradox and the sure-thing principle):** *(Formal (a)–(b).)* Prizes are 0, 4,000 and 10,000 dollars. A pays 4,000 with chance 30% and 10,000 with chance 70%. B pays 10,000 with chance 95% and nothing with chance 5%. C pays 4,000 with chance 30%, else nothing. D pays 10,000 with chance 25%, else nothing. A subject chooses A over B and D over C.
 
 (a) Lay the four gambles out on one 100-ticket table with three ticket ranges. Show, without normalizing $u$, that no expected-utility function produces both choices, and say which column is the common consequence.
+
 (b) Normalize $u(0) = 0$, $u(4{,}000) = 1$, $u(10{,}000) = v$. At what $v$ does an expected-utility agent switch between the pairs' options? Which pair of choices does an agent with $u(x) = \sqrt{x}$ make?
 
 <details>

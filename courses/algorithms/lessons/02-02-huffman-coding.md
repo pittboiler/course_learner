@@ -240,7 +240,9 @@ giving a ratio of $1.0 / 0.286 = \mathbf{3.5\times}$ — well past $1.9$. (The $
 **From Lesson 1.5 (Divide-and-conquer beyond sorting):** Give the $\Theta$ class for each and name the lever that produced it.
 
 (a) An algorithm splits an $n$-element problem into 2 halves and combines in $\Theta(n^2)$.
+
 (b) The same, but a cleverer combine step runs in $\Theta(n)$.
+
 (c) A matrix algorithm that does 6 products of $n/2$ blocks plus $\Theta(n^2)$ additions — better or worse than Strassen's 7?
 
 <details>

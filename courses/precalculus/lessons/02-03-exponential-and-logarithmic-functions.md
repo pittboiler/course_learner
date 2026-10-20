@@ -76,9 +76,11 @@ That used two log laws (product, then power) to split a scary number into arithm
 <summary>Solutions</summary>
 
 **P1** (a) The base is $2$, the exponent is $5$, the result is $32$, so $\log_2 32 = 5$.
+
 (b) $5^x = 20 \Rightarrow x = \log_5 20 = \dfrac{\ln 20}{\ln 5} = \dfrac{2.996}{1.609} \approx \boxed{1.86}$. Check: $5^{1.86}$ is between $5^1=5$ and $5^2=25$, closer to $25$ — consistent.
 
 **P2** (a) Set $1000\,e^{0.04t} = 2500 \Rightarrow e^{0.04t} = 2.5$. Take $\ln$: $0.04t = \ln 2.5 = 0.9163 \Rightarrow t = \dfrac{0.9163}{0.04} \approx \boxed{22.9\text{ years}}$.
+
 (b) Doubling: $e^{0.04t} = 2 \Rightarrow 0.04t = \ln 2 \Rightarrow t = \dfrac{\ln 2}{0.04} \approx \boxed{17.3\text{ years}}$. It's independent of the starting amount because the balance is always the start times the *factor* $e^{0.04t}$; asking when that factor equals $2$ never mentions the start. Every exponential process has a fixed doubling (or halving) time for this reason.
 
 **P3** Combine with the product law: $\log_2\big(x(x-2)\big) = 3$. Convert to exponential form: $x(x-2) = 2^3 = 8 \Rightarrow x^2 - 2x - 8 = 0 \Rightarrow (x-4)(x+2) = 0$, so $x = 4$ or $x = -2$. **Check the domain:** the original has $\log_2 x$ and $\log_2(x-2)$, both requiring positive inputs, so $x > 2$. Thus $x = -2$ is extraneous (it would demand $\log_2(-2)$). The only solution is $\boxed{x = 4}$.

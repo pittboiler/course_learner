@@ -89,16 +89,23 @@ This is the same fact from two angles: hyperbolicity is an *open* condition (a s
 <summary>Solutions</summary>
 
 **P1** Hyperbolic means the linearization has *no* eigenvalue with zero real part; hyperbolic $\Rightarrow$ structurally stable.
+
 (a) Eigenvalues $2, 3$ (both real, nonzero) — hyperbolic, an unstable node. **Structurally stable.**
+
 (b) Eigenvalues $-1, 3$ — hyperbolic, a saddle. **Structurally stable.**
+
 (c) Linearization at the origin: Jacobian $\begin{pmatrix} 0 & -1 \\ 1 & 3y^2 \end{pmatrix}\big|_{(0,0)} = \begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}$, eigenvalues $\pm i$ — purely imaginary, **non-hyperbolic**. **Not structurally stable** (the nonlinear $y^3$ term decides the true behavior, and a perturbation can flip it — this is the borderline linearization-fails case of Lesson 1.4).
+
 (d) A limit cycle is hyperbolic iff its Poincaré-map slope has magnitude $\neq 1$. Here $|f'| = 0.4 \neq 1$ (and $<1$, so attracting) — hyperbolic, **structurally stable**.
 
 **P2** $f(x) = \mu_1 + \mu_2 x - x^3$.
+
 (a) With $\mu_1 = 0$: $f = \mu_2 x - x^3 = x(\mu_2 - x^2)$. Fixed points $x=0$ and, for $\mu_2>0$, $x = \pm\sqrt{\mu_2}$ — exactly the (supercritical) pitchfork normal form in the parameter $\mu_2$. ✓
+
 (b) Saddle-node = a double root, so require $f=0$ and $f'=0$ together. $f'(x) = \mu_2 - 3x^2 = 0 \Rightarrow x^2 = \mu_2/3 \Rightarrow x = \pm\sqrt{\mu_2/3}$. Substitute into $f=0$: $\mu_1 = x^3 - \mu_2 x = x(x^2 - \mu_2) = x\left(\tfrac{\mu_2}{3} - \mu_2\right) = -\tfrac{2\mu_2}{3}x$. With $x = \pm\sqrt{\mu_2/3}$,
 $$\mu_1 = \mp \frac{2\mu_2}{3}\sqrt{\frac{\mu_2}{3}} = \mp \frac{2}{3}\sqrt{\frac{\mu_2^{3}}{3}} = \mp\, 2\left(\frac{\mu_2}{3}\right)^{3/2}.$$
 So the two saddle-node values are $\mu_1 = \pm 2\left(\mu_2/3\right)^{3/2}$ — the two branches of the cusp curve $27\mu_1^2 = 4\mu_2^3$, meeting at the origin.
+
 (c) Reaching the cusp point itself (where the two saddle-node curves meet, $\mu_1 = \mu_2 = 0$) requires tuning **two** parameters to exact values simultaneously — two independent conditions — so it is codimension 2; a one-parameter path through parameter space generically misses it.
 
 **P3** $f(x) = \mu x - x^2 + x^5$. Fixed points solve $x(\mu - x + x^4) = 0$: one root at $x=0$, and the others from $\mu = x - x^4$. For small $x$ the $x^4$ is negligible, so the nonzero fixed point sits at $x^* \approx \mu$ (to leading order), just as for the plain transcritical.

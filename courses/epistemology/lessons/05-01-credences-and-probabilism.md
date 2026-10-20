@@ -114,12 +114,15 @@ Sufficiency has the author believe all 200 claims ($0.98 > 0.9$) and believe the
 **P1 (🟢) *(Formal.)*** A coherent forecaster has $\mathrm{cr}(R) = 0.4$ for rain tomorrow, $\mathrm{cr}(W) = 0.3$ for high wind, and $\mathrm{cr}(R \wedge W) = 0.15$.
 
 (a) Using only the three axioms and the consequences derived in the lesson, find $\mathrm{cr}(R \wedge \neg W)$, $\mathrm{cr}(R \vee W)$ and $\mathrm{cr}(\neg R \wedge \neg W)$. Show which axiom each step uses.
+
 (b) A second forecaster keeps $\mathrm{cr}(R) = 0.4$ but reports $\mathrm{cr}(R \wedge W) = 0.45$. In one sentence, which consequence of probabilism does she violate?
 
 **P2 (🟡) *(Formal (a)–(b) · Exegetical (c).)*** A Lockean believer has threshold $t = 0.96$.
 
 (a) She holds one ticket in a fair raffle of $N$ tickets with one winner. What is the smallest $N$ at which she believes, of each ticket, that it loses? Check the boundary case.
+
 (b) She keeps an archive catalogue of $n$ entries, each correct with independent credence $0.995$. Find the largest $n$ for which she believes the whole catalogue is correct, and the smallest $n$ for which she believes it contains an error.
+
 (c) Take the catalogue at $n = 300$. Say which of these she believes by the Lockean thesis: each entry; "all entries are correct"; "some entry is wrong". Then show, in two sentences, that adding conjunction closure makes her violate the *necessity* half of the Lockean thesis.
 
 **P3 (🔴, optional) *(Exegetical (a) · Evaluative (b).)*** Diagnose this invented forum post:
@@ -127,6 +130,7 @@ Sufficiency has the author believe all 200 claims ($0.98 > 0.9$) and believe the
 > "Credence just *is* betting price. I'd never bet on whether my brother's surgery succeeds, so I have no credence about it at all. And for rain tomorrow, I'll pay at most 40 cents for a ticket paying a dollar if it rains, but I'll only sell you one for 60 cents. So my credence in rain is both 0.4 and 0.6, which proves credences don't have to be probabilities."
 
 (a) Name the two objections from the lesson's list that the post runs into, one sentence each, and the step where the post treats a measure as a definition.
+
 (b) In 120 words or fewer: does the 40/60 spread show that the poster's credence is imprecise, or only that betting prices fail to measure a precise credence? Any verdict passes.
 
 <details>

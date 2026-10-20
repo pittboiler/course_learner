@@ -144,15 +144,21 @@ has a bug: it sometimes returns elements that were not in the input. **That bug 
 **P1 (🟢)** For each, state whether it is a legal Hindley–Milner type scheme, and why.
 
 (a) $\forall\alpha.\ \alpha \to \alpha$
+
 (b) $\forall\alpha.\ [\alpha] \to \mathsf{Nat}$
+
 (c) $(\forall\alpha.\ \alpha\to\alpha) \to \mathsf{Nat} \to \mathsf{Nat}$
+
 (d) $\forall\alpha.\ \alpha \to (\forall\beta.\ \beta \to \beta) \to \alpha$
 
 **P2 (🟡)** Using parametricity, say how many closed functions of each type there are (up to extensional equality), and name them.
 
 (a) $\forall\alpha.\ \alpha \to \alpha$
+
 (b) $\forall\alpha\beta.\ \alpha \to \beta \to \alpha$
+
 (c) $\forall\alpha.\ \alpha \to \alpha \to \alpha$
+
 (d) $\forall\alpha.\ [\alpha] \to \mathsf{Nat}$ — describe the family rather than counting.
 
 **P3 (🔴)** Consider the two terms
@@ -160,8 +166,11 @@ has a bug: it sometimes returns elements that were not in the input. **That bug 
 $$A = \mathsf{let}\ f = \lambda x.\,x\ \mathsf{in}\ (f\ \overline{3},\ f\ \mathsf{true}) \qquad\qquad B = (\lambda f.\ (f\ \overline{3},\ f\ \mathsf{true}))\ (\lambda x.\,x)$$
 
 (a) State the type HM infers for $A$, showing what $f$ generalizes to and both instantiations.
+
 (b) State what HM does with $B$, naming the rule that is unavailable and the unification failure that results.
+
 (c) $A$ and $B$ $\beta$-reduce to the same normal form. Say what this shows about the relationship between typability and dynamic behaviour.
+
 (d) $B$ **is** typable in System F, given an annotation. Write the annotation, and state what it costs the compiler — naming the theorem.
 
 <details>
@@ -227,7 +236,9 @@ Now $f$ has a polymorphic type in the context and each use supplies its own type
 **From Lesson 4.1 (The simply-typed lambda calculus):** The Church numerals type at $\mathsf{Nat}_\tau = (\tau\to\tau)\to\tau\to\tau$, and Example 2 there noted the limitation that motivated this lesson: $\mathsf{Nat}_{\mathsf{Bool}}$ and $\mathsf{Nat}_{\mathsf{Nat}}$ are *different types*, so a numeral usable as a loop over booleans is a different term from one usable over numbers.
 
 (a) Give the polymorphic type that collapses the whole family into one, and write $\overline{2}$ as a System F term inhabiting it.
+
 (b) State whether that type is a legal Hindley–Milner scheme, and whether HM would infer it for the unannotated term.
+
 (c) $\mathsf{plus}$ has type $\mathsf{Nat}_\tau \to \mathsf{Nat}_\tau \to \mathsf{Nat}_\tau$ for each fixed $\tau$. Give its polymorphic type, and say which lesson's rule licenses applying it to two numerals instantiated at *different* types — or state that none does.
 
 <details>

@@ -112,6 +112,7 @@ Their sum is $\begin{pmatrix}1&4\\2&3\end{pmatrix}=M_{\mu\nu}$ ✓. The symmetri
 
 **P1 (🟢)** In 2D spacetime ($\mu,\nu\in\{0,1\}$, $\eta=\mathrm{diag}(-1,+1)$) a rank-$(2,0)$ tensor has components
 $$T^{\mu\nu}=\begin{pmatrix} 3 & 5\\ 1 & 7\end{pmatrix}.$$
+
 (a) Compute its trace $\eta_{\mu\nu}T^{\mu\nu}$ (the metric contraction — mind the sign). (b) Compute its symmetric part $T^{(\mu\nu)}$ and antisymmetric part $T^{[\mu\nu]}$, and verify they sum to $T^{\mu\nu}$.
 
 **P2 (🟡)** Let $S^{\mu\nu}$ be symmetric ($S^{\mu\nu}=S^{\nu\mu}$) and $A_{\mu\nu}$ antisymmetric ($A_{\mu\nu}=-A_{\nu\mu}$). Show that the full contraction vanishes: $S^{\mu\nu}A_{\mu\nu}=0$. (This is why in any expression $S^{\mu\nu}X_{\mu\nu}$ only the symmetric part of $X$ survives — a workhorse trick in field theory.)
@@ -159,6 +160,7 @@ That is precisely the rank-$(0,2)$ transformation law, so $T_{\mu\nu}$ is a tens
 
 (a) Lowering with $\eta=\mathrm{diag}(-1,+1,+1,+1)$ flips the sign of the time component only:
 $$A_\mu=\eta_{\mu\nu}A^\nu=(-A^0,\,A^1,\,A^2,\,A^3)=(-2,\,1,\,0,\,0).$$
+
 (b) Contract:
 $$A_\mu A^\mu=(-2)(2)+(1)(1)+0+0=-4+1=-3.$$
 The invariant is negative, so $A^\mu$ is **timelike** (in the $(-,+,+,+)$ convention, negative norm-squared = timelike). Note the answer $-3$ is frame-independent: any boosted observer lowering and contracting their own components lands on $-3$ as well — the point of the whole apparatus.

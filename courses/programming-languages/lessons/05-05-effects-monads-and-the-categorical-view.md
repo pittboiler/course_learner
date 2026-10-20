@@ -127,14 +127,19 @@ which desugars to `p >>= \x -> q >>= \y -> return (x + y)`. Now vary the monad.
 **P1 (🟢)** Evaluate each expression in the `Maybe` monad, with `safeDiv a 0 = Nothing` and `safeDiv a b = Just (a / b)`.
 
 (a) `Just 10 >>= \x -> safeDiv x 2`
+
 (b) `Just 10 >>= \x -> safeDiv x 0`
+
 (c) `Nothing >>= \x -> safeDiv x 2`
+
 (d) `Just 10 >>= \x -> safeDiv x 0 >>= \y -> Just (y + 1)`
 
 **P2 (🟡)** Desugar each do-block into explicit binds, then evaluate in the list monad, where `m >>= f = concat (map f m)` and `return x = [x]`.
 
 (a) `do { x <- [1,2]; return (x * 10) }`
+
 (b) `do { x <- [1,2]; y <- [3,4]; return (x + y) }`
+
 (c) `do { x <- [1,2]; _ <- []; return x }`
 
 **P3 (🔴)** Define a candidate `Monad` instance for lists that uses `zip` rather than the cross product:
@@ -142,8 +147,11 @@ which desugars to `p >>= \x -> q >>= \y -> return (x + y)`. Now vary the monad.
 $$m \mathbin{>\!\!>\!\!=} f \;=\; \text{the } i\text{-th element of } f(m_i), \text{ for } i \text{ up to the shorter length} \qquad \mathsf{return}\ x = [x]$$
 
 (a) Check left identity on `[1,2] `. State whether it holds.
+
 (b) Check right identity on `[1,2]`. State whether it holds.
+
 (c) Give the standard `return` that would be needed to make the identities hold, and say what goes wrong with it.
+
 (d) Name which law this "zip monad" is usually said to fail, and state in one sentence what a programmer would observe if a library shipped it as a `Monad` instance anyway.
 
 <details>
@@ -219,6 +227,7 @@ What a programmer would observe if it shipped as a `Monad`: **refactorings that 
 Do-notation desugars $\mathsf{do}\{x \leftarrow m;\ \mathit{rest}\}$ to $m \mathbin{>\!\!>\!\!=} \lambda x.\ \mathsf{do}\{\mathit{rest}\}$.
 
 (a) State whether this rule needs a fresh temporary, with the reason.
+
 (b) A designer proposes an alternative rule $\mathsf{do}\{x \leftarrow m;\ \mathit{rest}\} \rightsquigarrow \mathit{rest}[x := \mathsf{extract}\ m]$ for a monad supplying $\mathsf{extract} : M\alpha \to \alpha$. Give two distinct reasons this is wrong.
 
 <details>

@@ -102,8 +102,11 @@ Neither reading is ruled out by any act of the Magisterium, and the definition i
 **P1 (🟢) *(Exegetical.)*** For each item, say whether it belongs to apostolic **Tradition** or is an **ecclesiastical tradition** that could be changed, and give the one-clause reason.
 
 (a) Priestly celibacy in the Latin Church
+
 (b) The confession that the Son is of one substance with the Father
+
 (c) The Church's knowledge of which books belong to the canon
+
 (d) A parish's Friday evening devotion to an approved apparition
 
 (e) Which of (a)–(d) is Trent's phrase "unwritten traditions" about? One sentence.
@@ -111,6 +114,7 @@ Neither reading is ruled out by any act of the Magisterium, and the definition i
 **P2 (🟡) *(Exegetical (a) · Evaluative (b).)*** Using the Source passage above:
 
 (a) Quote the words that decide whether Trent taught *partim–partim*, and state one thing the decree settles and one thing it leaves open.
+
 (b) Is Scripture materially sufficient? Argue either side in **150 words or fewer**, and deal with the sentence in Dei Verbum 9 about the Church not drawing her certainty about everything revealed from Scripture alone.
 
 **P3 (🔴, optional) *(Exegetical.)*** An invented catechism handout:

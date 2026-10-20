@@ -90,8 +90,11 @@ The takeaway: *any* pile of rotations — clockwise, multiple turns — collapse
 <summary>Solutions</summary>
 
 **P1**
+
 (a) $135^\circ$ is in Q2, reference angle $180^\circ - 135^\circ = 45^\circ$; base $\cos 45^\circ = \tfrac{\sqrt2}{2}$; in Q2 cosine is negative (**S** only positive), so $\cos 135^\circ = -\tfrac{\sqrt2}{2}$.
+
 (b) $300^\circ$ is in Q4, reference angle $360^\circ - 300^\circ = 60^\circ$; base $\sin 60^\circ = \tfrac{\sqrt3}{2}$; in Q4 sine is negative, so $\sin 300^\circ = -\tfrac{\sqrt3}{2}$.
+
 (c) $225^\circ$ is in Q3, reference angle $225^\circ - 180^\circ = 45^\circ$; base $\tan 45^\circ = 1$; in Q3 tangent is positive (**T**), so $\tan 225^\circ = 1$.
 
 **P2** $\sin\theta = -\tfrac{\sqrt3}{2}$ has base value $\tfrac{\sqrt3}{2}$ (reference angle $60^\circ$) and is negative, so $\theta$ lies where sine is negative: **Q3 and Q4**.
@@ -113,7 +116,9 @@ Tangent is positive (Q3 ✓) and secant negative (cosine negative ✓).
 <summary>Solution</summary>
 
 (a) One rotation is $2\pi$ radians in $8$ s, so $\omega = \dfrac{2\pi}{8} = \dfrac{\pi}{4}$ rad/s $\approx 0.785$ rad/s.
+
 (b) In $3$ s the carousel sweeps $\theta = \omega t = \tfrac{\pi}{4}\cdot 3 = \tfrac{3\pi}{4}$ rad. Arc length $s = r\theta = 4 \cdot \tfrac{3\pi}{4} = 3\pi \approx 9.42$ m.
+
 (c) Linear speed $v = r\omega = 4 \cdot \tfrac{\pi}{4} = \pi \approx 3.14$ m/s. (Check: $s = vt = \pi \cdot 3 = 3\pi$ m ✓.)
 
 </details>

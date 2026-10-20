@@ -139,8 +139,11 @@ The candidate keys are $\{A,B\}$, $\{A,C\}$ and $\{A,D\}$, and $R_1$ contains $\
 **P1 (🟢)** $F = \{A \to B,\ AB \to C,\ A \to C,\ B \to D\}$ over $R(A,B,C,D)$.
 
 (a) Give the result of pass 1.
+
 (b) Give the result of pass 2, naming the extraneous attribute and the closure that proves it.
+
 (c) Give the minimal cover.
+
 (d) Give the 3NF synthesis, and state whether a candidate-key table had to be added.
 
 **P2 (🟡)** $R(\text{course}, \text{room}, \text{time}, \text{instructor}, \text{building})$ with
@@ -148,15 +151,21 @@ The candidate keys are $\{A,B\}$, $\{A,C\}$ and $\{A,D\}$, and $R_1$ contains $\
 $$K_1: \text{course} \to \text{instructor} \qquad K_2: \text{room} \to \text{building} \qquad K_3: \text{room}, \text{time} \to \text{course} \qquad K_4: \text{course}, \text{time} \to \text{room}$$
 
 (a) Give every candidate key.
+
 (b) Give the highest normal form, naming each violating dependency.
+
 (c) Give the 3NF synthesis, showing whether a candidate-key table was needed.
+
 (d) State which of your tables, if any, fail BCNF, and for each give the dependency responsible.
 
 **P3 (🔴, optional)** $F = \{AB \to C,\ C \to A,\ BC \to D,\ ACD \to B,\ D \to EG,\ BE \to C,\ CG \to BD,\ CE \to AG\}$ over $R(A,B,C,D,E,G)$.
 
 (a) Compute $\{C, E\}^+$ and $\{B, E\}^+$.
+
 (b) Show that $A$ is extraneous in $ACD \to B$, giving the closure that proves it.
+
 (c) Determine whether $G$ is extraneous in $CE \to AG$, giving the closure that settles it.
+
 (d) Two students hand in different minimal covers of $F$, one with 8 dependencies and one with 9. State whether at most one of them can be correct, and justify your answer with the relevant property of minimal covers.
 
 <details>
@@ -269,6 +278,7 @@ There is a related fact worth knowing: finding a cover with the *fewest* depende
 **From Lesson 2.4 (anomalies and the normal forms):** $R(\text{isbn}, \text{title}, \text{author}, \text{author\_dob})$ with $\text{isbn} \to \text{title}, \text{author}$ and $\text{author} \to \text{author\_dob}$.
 
 (a) Give the candidate key and the highest normal form, naming the violating dependency and classifying it as partial or transitive.
+
 (b) Give a two-row instance exhibiting a deletion anomaly, and name the fact lost.
 
 <details>

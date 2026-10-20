@@ -144,8 +144,11 @@ The deeper point is that this deadlock is the **lost update** of [4.1](04-01-tra
 **P1 (🟢)** State whether each lock request is **granted** or **waits**.
 
 (a) $T_2$ requests S(A); $T_1$ holds S(A).
+
 (b) $T_2$ requests X(A); $T_1$ holds S(A).
+
 (c) $T_2$ requests S(A); $T_1$ holds X(A).
+
 (d) $T_1$ holds S(A) and requests X(A), with no other transaction holding anything.
 
 **P2 (🟡)** Trace this schedule under **strict** 2PL, giving for each step the lock requested, whether it is granted or blocked, and by whom.
@@ -153,8 +156,11 @@ The deeper point is that this deadlock is the **lost update** of [4.1](04-01-tra
 $$w_1(X)\ \ w_2(Y)\ \ r_1(Y)\ \ r_2(X)\ \ c_1\ \ c_2$$
 
 (a) Give the step-by-step trace as an ordered list.
+
 (b) Give the wait-for graph at the point where progress stops.
+
 (c) State whether a deadlock occurs, and give the cycle if so.
+
 (d) The system aborts $T_2$ as victim. Give what happens next, through to both transactions completing, and state the serial order the execution turns out to be equivalent to.
 
 **P3 (🔴, optional)** Three transactions run under strict 2PL:
@@ -162,8 +168,11 @@ $$w_1(X)\ \ w_2(Y)\ \ r_1(Y)\ \ r_2(X)\ \ c_1\ \ c_2$$
 $$w_1(A)\ \ w_2(B)\ \ w_3(C)\ \ r_1(B)\ \ r_2(C)\ \ r_3(A)$$
 
 (a) Give the trace to the point where no transaction can proceed, and the wait-for graph.
+
 (b) State whether a deadlock occurs and give the cycle.
+
 (c) The system uses **wound-wait** with timestamps $ts(T_1) = 10$, $ts(T_2) = 20$, $ts(T_3) = 30$ (smaller is older). Give what happens at each of the three blocked requests, and state which transactions survive.
+
 (d) Repeat (c) under **wait-die** with the same timestamps. Give which transactions abort, and state which of the two schemes aborts fewer transactions here — then say what would change if the timestamps were reversed.
 
 <details>

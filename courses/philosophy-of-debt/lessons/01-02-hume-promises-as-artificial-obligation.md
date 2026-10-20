@@ -95,6 +95,7 @@ This is where the account strains. Asked "why must I pay, here?", it answers wit
 **P2 (🟡) *(Exegetical (a) · Evaluative (b).)*** An invented case. On an island, people trade only hand to hand. They respect one another's possessions and hand things over by consent, but they have no form of words for binding the future: saying what you will do tomorrow is taken as news of your plans, nothing more. A stranded trader is handed two things one morning: a canoe to use for the day, and a basket of dried fish to eat. In their language he says he will bring the canoe back that evening, and a basket of fish next week, when his nets are dry.
 
 (a) On Hume's account, is the trader obliged to return the canoe? To bring the fish? For each, say which of Hume's three fundamental laws does the work or fails to: the stability of possession, its transfer by consent, or the performance of promises. Two sentences each.
+
 (b) A critic says the fish case refutes Hume: the trader surely wrongs the islanders if he eats the fish and never brings any. Can Hume absorb that verdict? Name the premise of this lesson's reconstruction that the critic must deny. Any verdict; 150 words or fewer.
 
 **P3 (🔴, optional) *(Exegetical (a) · Evaluative (b).)*** Hume's second route to the same conclusion, later in III.ii.5:

@@ -83,7 +83,9 @@ This is Dulong–Petit, and at room temperature it works for most solids to with
 **P2 (🟡)** Derive $\big\langle \tfrac12 m v_x^2\big\rangle = \tfrac12 k_B T$ directly by doing the Gaussian integral, *without* invoking the equipartition theorem. In the canonical ensemble the one-component velocity $v_x$ is distributed with weight $\propto e^{-\beta m v_x^2/2}$. Compute $\big\langle \tfrac12 m v_x^2\big\rangle = \tfrac12 m \langle v_x^2\rangle$ from that weight, using $\int_{-\infty}^{\infty} e^{-\alpha v^2}dv = \sqrt{\pi/\alpha}$.
 
 **P3 (🔴, optional)** A diatomic molecule's rotational energy levels are $E_J = \dfrac{\hbar^2}{2I}J(J+1)$, $J=0,1,2,\dots$, so the gap from the ground state to the first excited rotational state is of order $\dfrac{\hbar^2}{2I}$. Define the rotational "freeze-out" temperature $T_{\text{rot}}$ by $k_B T_{\text{rot}} = \dfrac{\hbar^2}{2I}$.
+
 (a) For $\mathrm{H_2}$, estimate $T_{\text{rot}}$. Use bond length $r \approx 0.74\ \text{Å} = 7.4\times10^{-11}$ m and reduced mass $\mu = m_H/2 \approx 8.4\times10^{-28}$ kg, so $I=\mu r^2$. Take $\hbar = 1.05\times10^{-34}\ \mathrm{J\,s}$, $k_B = 1.38\times10^{-23}\ \mathrm{J\,K^{-1}}$.
+
 (b) Explain, using your number, why $\mathrm{H_2}$'s molar $C_V$ drops from $\tfrac52 R$ toward $\tfrac32 R$ as it is cooled below room temperature — and why hydrogen is essentially the *only* common gas for which this rotational drop is observable before the gas liquefies.
 
 <details>

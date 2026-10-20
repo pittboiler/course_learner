@@ -177,12 +177,17 @@ But look at the current: $I = (5 - 0.062)/10\ \text{k}\Omega = 0.494\ \text{mA}$
 ## Problems
 
 **P1 (🟢)** An NMOS has $V_t = 0.8\ \text{V}$ and $k_n = k_n'(W/L) = 1\ \text{mA/V}^2$. For each bias below, name the region and compute $I_D$ (ignore channel-length modulation).
+
 (a) $V_{GS} = 0.5\ \text{V}$, $V_{DS} = 3\ \text{V}$.
+
 (b) $V_{GS} = 2.8\ \text{V}$, $V_{DS} = 1.0\ \text{V}$.
+
 (c) $V_{GS} = 2.0\ \text{V}$, $V_{DS} = 4.0\ \text{V}$.
 
 **P2 (🟡)** An NMOS with $V_t = 1\ \text{V}$ and $k_n = 1\ \text{mA/V}^2$ has its source grounded, its gate at a fixed $3\ \text{V}$, and its drain tied to $V_{DD} = 12\ \text{V}$ through $R_D$.
+
 (a) With $R_D = 2\ \text{k}\Omega$, find $I_D$ and $V_{DS}$, and verify the region.
+
 (b) What value of $R_D$ puts the device exactly at the edge between saturation and triode?
 
 **P3 (🔴)** Same device and supply as P2, but now $R_D = 8\ \text{k}\Omega$. Find $I_D$ and $V_{DS}$. Then compute the device's DC resistance $V_{DS}/I_D$ and compare it to the small-$V_{DS}$ estimate $R_{on} = 1/(k_n V_{ov})$ — explain the discrepancy.

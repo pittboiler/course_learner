@@ -84,13 +84,16 @@ Mean $np = 5(0.5)=2.5$; variance $np(1-p)=5(0.5)(0.5)=1.25$.
 Check: the whole pmf is $\binom{5}{k}/32$ for $k=0,\dots,5$, i.e. $\tfrac{1}{32}(1,5,10,10,5,1)$, summing to $32/32=1$. ✓
 
 **P2** Poisson($\lambda=4$).
+
 (a) $\displaystyle \mathbb{P}(X=6)=\frac{e^{-4}4^6}{6!}=\frac{e^{-4}\cdot 4096}{720}=e^{-4}(5.6889)\approx 0.01832\cdot 5.6889 \approx 0.1042.$
+
 (b) $\displaystyle \mathbb{P}(X=0)=\frac{e^{-4}4^0}{0!}=e^{-4}\approx 0.0183.$
 Check: mean $=$ variance $=\lambda=4$, and $\mathbb{P}(X=6)$ landing near the value $6$ (just above the mean 4) is plausibly sized at $\approx 10\%$ — consistent with a right-skewed hump centered at 4. ✓
 
 **P3** (a) Geometric($p=\tfrac16$), counting rolls including the winning 6.
 $$\mathbb{E}[X]=\frac{1}{p}=6, \qquad \mathrm{Var}(X)=\frac{1-p}{p^2}=\frac{5/6}{1/36}=\frac{5}{6}\cdot 36 = 30.$$
 Check: standard deviation $\sqrt{30}\approx 5.48$ — a wide spread, matching the fat tail of "unlucky" long waits a geometric allows. ✓
+
 (b) Poisson limit with $\lambda=np=1000(0.002)=2$.
 $$\mathbb{P}(X=2)\approx\frac{e^{-2}2^2}{2!}=\frac{e^{-2}\cdot 4}{2}=2e^{-2}\approx 2(0.13534)=0.2707.$$
 Check against the exact binomial: $\binom{1000}{2}(0.002)^2(0.998)^{998}=499500\cdot 4\times10^{-6}\cdot 0.13560 \approx 0.2709$ — the Poisson approximation matches to three decimals, exactly the large-$n$, small-$p$ regime it's built for. ✓

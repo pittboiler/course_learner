@@ -120,6 +120,7 @@ Now take any $G\in\sigma(g(X))$ and $H\in\sigma(h(Y))$. Since $G\in\sigma(X)$ an
 
 **From Lesson 2.2 (Distributions and CDFs):** A random variable $X$ has CDF
 $$F(x)=\begin{cases} 0, & x<0,\\[2pt] x/3, & 0\le x<1,\\[2pt] 2/3, & 1\le x<2,\\[2pt] 2/3+(x-2)/3, & 2\le x<3,\\[2pt] 1, & x\ge 3. \end{cases}$$
+
 (a) Find the atom of the distribution and its mass, i.e. compute $\mathbb P(X=1)$. (b) Compute $\mathbb P(1<X\le 3)$.
 
 <details>

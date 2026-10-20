@@ -85,6 +85,7 @@ If how people divide their spending does not depend on how hard they worked, a c
 
 **P1** 🟢 *(Exegetical (a) · Formal (b).)* Goods are $c_1,c_2$, leisure is $\ell$. (a) Which of these are weakly separable between goods and leisure? Give the MRS test result for each.
 (i) $\ln c_1+\ln c_2+\ln\ell$ (ii) $c_1^{0.3}c_2^{0.3}\ell^{0.4}$ (iii) $\ln c_1+(1+\ell)\ln c_2+\ln\ell$ (iv) $\ln c_1+\ln(c_2+\ell)+\ln\ell$
+
 (b) For each non-separable case: a low type with $\ell=0.5$ and a mimicker with $\ell=0.75$ each spend $B=2$ at prices $q_1=q_2=1$. Find both baskets and say which good's compensated tax slackens the high type's incentive constraint.
 
 **P2** 🟡 *(Formal.)* Utility is $\ln c_1+0.9\ln c_2-\tfrac12 l^2$ with $l=y/w$. The low type ($w=1$) earns $y_L=0.6$ and gets $B_L=1$. The pre-tax return is $R=1.6$ and interest is taxed at 50 percent. (a) Find the basket and utility of the low type and of a mimicker with $w=2$. (b) Abolish the savings tax and find the $B'$ that leaves the low type exactly as well off; show the mimicker's utility is also unchanged. (c) What does the government gain per low-type worker, in period-1 units?

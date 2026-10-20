@@ -75,7 +75,9 @@ The dispute over belief, set out as [fast versus slow Reformation](../reference.
 (a) The passage contains a spiritual sentence and a political one. Quote the words that carry each. (b) Name the choice the final two sentences put to an English Catholic, and the words Elizabeth's government could cite to call a Catholic priest a traitor rather than a heretic. Two sentences per part.
 
 **P2 (🟡) *(Formal (a) · Evaluative (b).)*** Take as given the usual counts: about **284** Protestants burned under Mary and about **189** Catholics executed under Elizabeth. Mary reigned 5.3 years (July 1553 to November 1558), but the burnings ran for only 3.8 of them (February 1555 to November 1558). Elizabeth reigned 44.3 years. The first seminary priest was executed in November 1577, which leaves about 25.3 years to the end of her reign.
+
 (a) Compute executions per year for Mary over her reign and over the burning years. Compute Elizabeth's rate over her reign and from 1577. Give the ratio of Mary's rate to Elizabeth's for the pairing that gives the largest ratio and for the pairing that gives the smallest. Round to one decimal place.
+
 (b) A popular book says: "The numbers prove Mary was the persecutor and Elizabeth the tolerant queen." In 150 words or fewer, say what the comparison does show and what it does not, reaching any verdict you like.
 
 **P3 (🔴, optional) *(Exegetical.)*** An invented tour-guide script, read at the ruins of a Yorkshire abbey:

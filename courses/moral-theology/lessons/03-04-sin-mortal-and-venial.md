@@ -77,8 +77,11 @@ The matter is grave by genus: blasphemy is Aquinas's own example (q.88 a.2). Kno
 ## Problems
 
 **P1 (🟢)** *(Exegetical)* Assign each claim its level on the [ladder](../../fundamental-theology/lessons/04-04-the-ladder-of-doctrinal-authority.md) and **name the act that fixes it**, or say that none does. **Two sentences per claim.**
+
 (a) The grace of justification is lost not only by unbelief but by any mortal sin.
+
 (b) For a sin to be mortal, its object must be grave matter and it must be committed with full knowledge and deliberate consent.
+
 (c) *An invented manual passage:* "Theft is grave matter when the sum taken equals roughly a day's wage of the person robbed; below that it is light matter."
 
 **P2 (🟡)** *(Exegetical)* An **invented** homily, written for this problem:

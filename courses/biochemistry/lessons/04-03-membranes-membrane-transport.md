@@ -99,9 +99,13 @@ $$\Delta G = 5.9 + 5.8 = +11.7\ \mathrm{kJ/mol}.$$
 <summary>Solutions</summary>
 
 **P1.**
+
 (a) **Simple diffusion** — $\ce{O2}$ is small and nonpolar, dissolves straight through the bilayer, no protein; it flows toward where it is consumed (low concentration), so $\Delta G < 0$.
+
 (b) **Facilitated diffusion** — a carrier (GLUT1), but glucose moves *down* its gradient, so $\Delta G < 0$; the carrier only speeds it up.
+
 (c) **Active transport (primary)** — $\ce{Na+}$ is pushed *up* its electrochemical gradient, so $\Delta G_{\text{transport}} > 0$; ATP hydrolysis makes the coupled process negative.
+
 (d) **Active transport (secondary)** — glucose is dragged *up* its gradient ($\Delta G_{\text{glucose}} > 0$), paid for by $\ce{Na+}$ falling *down* its gradient ($\Delta G_{\ce{Na+}} < 0$); no ATP at this step.
 
 **P2.** $\ce{K+}$ moves out: destination = outside, source = inside, so $c_2/c_1 = 5/140$ and $\Delta\psi = \psi_{\text{out}} - \psi_{\text{in}} = +0.060\ \mathrm{V}$.
@@ -118,6 +122,7 @@ $$\Delta G = -8.6 + 5.8 = -2.8\ \mathrm{kJ/mol}.$$
 $\Delta G < 0$, so the outward leak **is spontaneous** — this is why resting cells lose $\ce{K+}$ through leak channels. The two terms **fight**: the steep concentration gradient (140 → 5) pushes $\ce{K+}$ out ($-8.6$), while the negative interior pulls the cation back in ($+5.8$). The concentration term wins, but only just — the cell sits near the $\ce{K+}$ equilibrium potential. *(Sanity: the Nernst equilibrium voltage for $\ce{K+}$ here is about $-89\ \mathrm{mV}$; at only $-60\ \mathrm{mV}$ the voltage under-pulls, so net outward flow — consistent with $\Delta G < 0$.)*
 
 **P3.**
+
 (a) $\ce{Na+}$ leg, inward: $c_2/c_1 = 12/145$, $\Delta\psi = \psi_{\text{in}} - \psi_{\text{out}} = -0.060\ \mathrm{V}$.
 $$RT\ln\frac{12}{145} = (2577.3)\ln(0.0828) = (2577.3)(-2.492) \approx -6.4\ \mathrm{kJ/mol},$$
 $$zF\Delta\psi = (+1)(96485)(-0.060) \approx -5.8\ \mathrm{kJ/mol},$$

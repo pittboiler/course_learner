@@ -106,6 +106,7 @@ Traces: $\chi(e) = 2$, $\chi(g) = 0$, $\chi(g^2) = -2$, $\chi(g^3) = 0$. So $\ch
 **P2.** (a) *Class function.* For any $g,h$, using the homomorphism property and cyclicity of trace,
 $$\chi(hgh^{-1}) = \operatorname{tr}\!\big(\rho(h)\rho(g)\rho(h)^{-1}\big) = \operatorname{tr}\!\big(\rho(h)^{-1}\rho(h)\rho(g)\big) = \operatorname{tr}\rho(g) = \chi(g).$$
 So $\chi$ takes one value on each conjugacy class.
+
 (b) *Additivity.* On $V\oplus W$, a $g$-action that preserves each summand is block-diagonal in a basis $= (\text{basis of }V)\cup(\text{basis of }W)$:
 $$\rho_{V\oplus W}(g) = \begin{pmatrix}\rho_V(g) & 0\\ 0 & \rho_W(g)\end{pmatrix}.$$
 Its diagonal is the diagonal of $\rho_V(g)$ followed by that of $\rho_W(g)$, so
@@ -113,6 +114,7 @@ $$\chi_{V\oplus W}(g) = \operatorname{tr}\rho_{V\oplus W}(g) = \operatorname{tr}
 
 **P3.** (a) $g$ has finite order $m$ (finite group), so $\rho(g)^m = \rho(g^m) = \rho(e) = I$. Diagonalize the unitary matrix $\rho(g)$ with eigenvalues $\lambda_1,\dots,\lambda_n$; each satisfies $\lambda_i^m = 1$, so $|\lambda_i| = 1$ and $\overline{\lambda_i} = \lambda_i^{-1}$. Now $\rho(g^{-1}) = \rho(g)^{-1}$ has eigenvalues $\lambda_i^{-1}$, hence
 $$\chi(g^{-1}) = \sum_{i=1}^n \lambda_i^{-1} = \sum_{i=1}^n \overline{\lambda_i} = \overline{\sum_{i=1}^n \lambda_i} = \overline{\chi(g)}.$$
+
 (b) Count the set $S = \{(g,x)\in G\times X : g\cdot x = x\}$ two ways. Summing over $g$ first, the $x$-slice of $S$ has size $\chi_{\text{perm}}(g)$, so $|S| = \sum_{g} \chi_{\text{perm}}(g)$. Summing over $x$ first, the $g$-slice is the stabilizer $\operatorname{Stab}(x)$, so $|S| = \sum_{x}|\operatorname{Stab}(x)|$. By orbit–stabilizer $|\operatorname{Stab}(x)| = |G|/|\mathcal{O}_x|$ where $\mathcal{O}_x$ is the orbit of $x$. Group the sum by orbits: each orbit $\mathcal{O}$ contributes $\sum_{x\in\mathcal{O}} |G|/|\mathcal{O}| = |G|$. Hence
 $$\sum_{g}\chi_{\text{perm}}(g) = |S| = \sum_{\text{orbits }\mathcal{O}} |G| = |G|\cdot\#\{\text{orbits}\}.$$
 Divide by $|G|$. (In 2.2's inner product this reads $\langle \chi_{\text{perm}}, \chi_{\text{triv}}\rangle = \#\text{orbits}$ — the number of times the trivial rep appears, which is exactly the space of $G$-fixed vectors, one per orbit's "sum over the orbit" vector.)

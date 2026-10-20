@@ -100,7 +100,9 @@ That is a probability of $100/101 \approx 99\%$. Now see where it strains (the f
 **P1 (🟢) *(Formal (a)–(b) · Exegetical (c).)*** Surveyors on a remote plateau find twelve stones arranged in a near-perfect circle. Take prior odds of $1:20$ that people built it (most such sites are natural). Suppose the arrangement has probability $0.3$ if built by people and $0.0006$ if left by glacial deposition alone.
 
 (a) Compute the likelihood ratio, the posterior odds, and the posterior probability that people built it, as an exact fraction.
+
 (b) A geologist shows that freeze-thaw cycles sort stones into rings, so the natural rival now gives the arrangement probability $0.15$. Recompute all three.
+
 (c) Which move in the lesson does (b) reproduce, and which term of the odds form did it change? Two sentences.
 
 **P2 (🟡) *(Exegetical (a) · Evaluative (b).)*** From a parish newsletter, written for this problem and attributed to no one:

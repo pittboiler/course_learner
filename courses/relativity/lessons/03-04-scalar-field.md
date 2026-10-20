@@ -81,11 +81,15 @@ This is the **Yukawa potential**: the field of a massive scalar dies off exponen
 **P1 (🟢)** Show that the complex plane wave $\phi=A\,e^{i(kx-\omega t)}$ (one spatial dimension, constant amplitude $A$) satisfies the Klein–Gordon equation $(\Box-\mu^2)\phi=0$ **if and only if** $\omega^2=c^2k^2+(mc^2/\hbar)^2$, where $\mu=mc/\hbar$.
 
 **P2 (🟡)** Take the massless limit $m\to0$.
+
 (a) Show the Klein–Gordon equation becomes $\Box\phi=0$, i.e. $\tfrac1{c^2}\partial_t^2\phi=\partial_x^2\phi$ in one spatial dimension.
+
 (b) Show that *any* twice-differentiable profile $\phi(t,x)=f(x-ct)$ solves it, and explain why this means the disturbance travels rigidly at exactly speed $c$. What does the dispersion relation say about the speed of every wavelength?
 
 **P3 (🔴, optional)** Derive the Klein–Gordon equation from the Lagrangian, then bridge to Module 1.
+
 (a) Starting from $\mathcal L=-\tfrac12\eta^{\mu\nu}(\partial_\mu\phi)(\partial_\nu\phi)-\tfrac12\mu^2\phi^2$, compute $\dfrac{\partial\mathcal L}{\partial\phi}$ and $\dfrac{\partial\mathcal L}{\partial(\partial_\mu\phi)}$, and assemble the field Euler–Lagrange equation to obtain $(\Box-\mu^2)\phi=0$.
+
 (b) Using $E=\hbar\omega$ and $\mathbf p=\hbar\mathbf k$, turn the dispersion relation into $E^2=(pc)^2+(mc^2)^2$, and confirm it matches [1.5](#/lesson/relativity/01-05-four-vectors-momentum.md).
 
 <details>

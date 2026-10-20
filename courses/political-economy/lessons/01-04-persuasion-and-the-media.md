@@ -113,13 +113,17 @@ Suppose instead the report is verifiable, so she cannot fake it but can withhold
 **P1 (🟢)** *(Formal.)* A health agency wants a council to adopt a screening program that works with probability $1/3$. The council gains 1 if it adopts a working program, loses 1 if it adopts a failing one, and gets 0 if it does not adopt. The agency wants adoption in either case and commits to a trial design before the trial runs.
 
 (a) Find the council's adoption threshold, the trial design that maximizes the probability of adoption, and that probability.
+
 (b) What is the adoption probability under a perfectly informative trial? Explain the gap in one sentence using the concave closure.
+
 (c) Compute the council's expected payoff under the optimal design, the perfectly informative trial and no trial.
 
 **P2 (🟡)** *(Formal.)* A party releases one public report on its tax plan. Voters believe the plan is sound with probability $3/10$. Moderates, 60 percent of voters, back the plan iff their posterior is at least $1/2$; skeptics, 40 percent, iff it is at least $3/4$. The party commits to the report's design and maximizes the expected share of voters who back the plan.
 
 (a) Find the maximal expected share and a design that attains it.
+
 (b) Moderates are now 80 percent and skeptics 20 percent. Redo (a).
+
 (c) Above what moderate share does the party target the moderates?
 
 **P3 (🔴, optional)** *(Exegetical.)* An invented memo from a city communications office: "We should publish the full results of every safety inspection of the new bridge. Full transparency will maximize public support, since voters reward openness. And if an early inspection looks bad, we can simply hold it back until the next one comes in." In 150 words or fewer: name the model the memo relies on without saying so, say what that model implies about the first claim, and say what the last sentence does to the model's key assumption.

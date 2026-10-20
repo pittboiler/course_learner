@@ -99,13 +99,17 @@ a field — the defining property of a maximal ideal. So *points of $\mathbb{A}^
 ## Problems
 
 **P1 (🟢)** Work in $\mathbb{A}^2$ over $k = \bar k$.
+
 (a) Find $V(y - x^2,\ y - 1)$ as an explicit finite list of points.
+
 (b) Write down $I(\{(3, 0)\})$ and prove it is a maximal ideal.
 
 **P2 (🟡)** Let $S \subseteq k[x_1,\dots,x_n]$ be any set of polynomials. Prove that $V$ is order-reversing: if $S \subseteq T$ then $V(T) \subseteq V(S)$. Then combine this with Fact 1 to explain why, *once you know $k[x_1,\dots,x_n]$ is Noetherian* (every ideal is finitely generated — the Hilbert Basis Theorem of [Lesson 1.3](01-03-noetherian-hilbert-basis.md)), **every** variety is the common zero set of *finitely many* polynomials.
 
 **P3 (🔴, optional)**
+
 (a) Prove that for any $X \subseteq \mathbb{A}^n$, the ideal $I(X)$ is radical (i.e. $f^m \in I(X) \Rightarrow f \in I(X)$).
+
 (b) Over $k = \mathbb{R}$ (which is *not* algebraically closed), exhibit a proper ideal $J \subsetneq \mathbb{R}[x]$ with $V(J) = \varnothing$, and compute $I(V(J))$. Explain in one sentence why this cannot happen for a proper ideal over $\bar k$ — i.e. what the weak Nullstellensatz will buy us.
 
 <details>

@@ -87,7 +87,9 @@ contains $p$, and every $(x,y)\in R$ has $x^2+y^2<0.8^2+0.2^2=0.68<1$, so $R\sub
 **P2 (🟡)** Prove that if $X$ and $Y$ are both Hausdorff, then $X\times Y$ (product topology) is Hausdorff. (Recall: *Hausdorff* means any two distinct points have disjoint open neighborhoods.)
 
 **P3 (🔴, optional)** Define $f:\mathbb{R}\to\mathbb{R}^\omega$ by $f(t)=(t,\,2t,\,3t,\dots)=(nt)_{n\ge1}$.
+
 (a) Show $f$ is continuous when $\mathbb{R}^\omega$ carries the **product** topology.
+
 (b) Show $f$ is **not** continuous when $\mathbb{R}^\omega$ carries the **box** topology. (Hint: mimic the diagonal example — cook up a box-open set whose preimage is $\{0\}$.)
 
 <details>

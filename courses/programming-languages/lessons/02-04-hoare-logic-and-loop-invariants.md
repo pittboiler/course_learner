@@ -116,21 +116,29 @@ so the first conjunct survives. And $r' = r - y \ge 0$ because the guard gave $r
 **P1 (🟢)** Compute the precondition $P$ making each triple valid, using the assignment rule. Show the substitution.
 
 (a) $\{P\}\ x := x * 2\ \{x \le 20\}$
+
 (b) $\{P\}\ y := x + y\ \{y = 10\}$
+
 (c) $\{P\}\ n := n - 1\ \{n \ge 0\}$
 
 **P2 (🟡)** Consider $\{n \ge 0\}\ \ s := 0;\ i := 0;\ \mathsf{while}\ i < n\ \mathsf{do}\ (s := s + i;\ i := i + 1)\ \ \{s = \tfrac{n(n-1)}{2}\}$.
 
 (a) State an invariant $I$ that works, and verify establishment.
+
 (b) Verify preservation: show the body restores $I$.
+
 (c) Verify sufficiency: show $I \wedge \neg(i < n)$ implies the postcondition.
+
 (d) Give a variant and show it decreases.
 
 **P3 (🔴)** A programmer proposes the invariant $I' \equiv (x = q \cdot y + r)$ for Example 2's division loop — Example 2's invariant with the conjunct $r \ge 0$ removed.
 
 (a) Does $I'$ satisfy establishment? Does it satisfy preservation? Answer each with a one-line justification.
+
 (b) Does $I' \wedge \neg(r \ge y)$ imply the postcondition $x = q\cdot y + r \wedge 0 \le r < y$? If not, exhibit a concrete state satisfying the left side and violating the right.
+
 (c) Name which of the three obligations fails, and state the general lesson about what a loop invariant must carry beyond the arithmetic relationship.
+
 (d) Now suppose instead the precondition is weakened to $y > 0$ alone, dropping $x \ge 0$, with Example 2's full invariant $I$. Which obligation fails now, and on what input?
 
 <details>
@@ -197,6 +205,7 @@ Concretely, on $x = -3$, $y = 5$: the precondition $y > 0$ holds, but after init
 The Hoare rule $\dfrac{\{I \wedge b\}\ c\ \{I\}}{\{I\}\ \mathsf{while}\ b\ \mathsf{do}\ c\ \{I \wedge \neg b\}}$ has **one** premise and no recursion.
 
 (a) State what the invariant is doing that lets the rule avoid the recursive premise.
+
 (b) Use this to say why the Hoare rule proves only *partial* correctness, referring to what the big-step derivation records and the Hoare rule does not.
 
 <details>

@@ -101,13 +101,19 @@ Each is drawn exactly once. Without a rule — say, treating $E \ge 0$ as inside
 **P1 (🟢)** Rasterize the line from $(0, 0)$ to $(7, 3)$ with Bresenham's algorithm. Give a table of $x$, the decision variable $d$ at the moment each pixel is plotted, and the plotted pixel.
 
 **P2 (🟡)** Triangle $\mathbf{a} = (2, 1)$, $\mathbf{b} = (9, 4)$, $\mathbf{c} = (4, 8)$.
+
 (a) Confirm the winding and find $2A$.
+
 (b) For pixel centres $\mathbf{p} = (5.5, 4.5)$ and $\mathbf{q} = (8.5, 5.5)$, compute all three edge functions and say whether each is covered.
+
 (c) Give the barycentric coordinates of the covered one, and say which edge the other is outside.
 
 **P3 (🟡)** A square with corners at pixel centres $(1.5, 1.5)$, $(5.5, 1.5)$, $(5.5, 5.5)$, $(1.5, 5.5)$ is split along its diagonal into $T_1 = [(1.5,1.5),\ (5.5,5.5),\ (1.5,5.5)]$ and $T_2 = [(1.5,1.5),\ (5.5,1.5),\ (5.5,5.5)]$, both counter-clockwise.
+
 (a) Classify each directed edge of $T_1$ and of $T_2$ as top, left, or neither.
+
 (b) How many pixels does each triangle cover under the top-left rule, and how many does the square cover in total?
+
 (c) The closed square contains 25 pixel centres. Explain which ones are missing from your total, and why that is the right answer for a mesh.
 
 <details>
@@ -173,8 +179,11 @@ The diagonal is "neither" in $T_1$ and "left" in $T_2$, as it must be.
 ## Flashback
 
 **From Lesson 1.4 (the camera):** Eye $\mathbf{e} = (0, 2, 0)$, target $(4, 2, -3)$, up $(0, 1, 0)$.
+
 (a) Compute $\mathbf{w}$, $\mathbf{u}$, $\mathbf{v}$.
+
 (b) Find the camera coordinates of the target and of the world point $(4, 5, 1)$.
+
 (c) Is $(4, 5, 1)$ in front of the camera? Is it left or right of centre, above or below?
 
 <details>

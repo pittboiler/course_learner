@@ -104,16 +104,19 @@ Proposition 2 is not violated: her grade for B *equalled* $\alpha(B)$, so (a) di
 | 5 | 5 | 2 | 0 |
 
 (a) Find the range winner and the majority-judgment winner, showing the tie-break.
+
 (b) Find the Condorcet winner on the rankings the grades imply.
 
 **P2 (🟡) *(Formal (a)–(b).)*** Same sheet. Ties under range are broken alphabetically.
 
 (a) Voter 1 ranks E ≻ F ≻ D. Find a range ballot that elects E, and show that every such ballot gives E the top grade.
+
 (b) Voter 4 ranks F ≻ E ≻ D. Under majority judgment, show she can neither raise F's majority grade nor lower E's, then find a change to one of her grades that elects F.
 
 **P3 (🔴, optional) *(Formal (a) · Exegetical (b).)*** Five voters grade A and B: voter 1 (1, 0), voter 2 (0, 4), voter 3 (5, 4), voter 4 (4, 4), voter 5 (2, 3).
 
 (a) Find the majority-judgment winner. Voters 1 and 3 prefer A. Show that neither alone can make A win, and find a joint change of one grade each that does.
+
 (b) An invented campaign memo says: "Under majority judgment a voter whose grade is above a candidate's majority grade can only pull it down. So no voter, and no organized bloc, can gain by misgrading." In 100 words or fewer, say what in the memo is true and where it fails.
 
 <details>
@@ -167,6 +170,7 @@ Majority judgment, sorted high to low: D 5, 5, 0, 0, 0 gives $\alpha = 0$; E 3, 
 **From Lesson [5.3](05-03-epistemic-readings-of-aggregation.md) (Epistemic readings of aggregation):** *(Formal (a)–(b).)* Fifteen voters rank A, B, C: 6: A ≻ B ≻ C, 5: B ≻ C ≻ A, 4: C ≻ A ≻ B. Each judgment is independent across voters and pairs.
 
 (a) Give the three pairwise tallies and the maximum-likelihood ranking under Condorcet's noise model with a common competence $p \in (\tfrac12, 1)$. At $p = 2/3$, find its likelihood ratio against the runner-up.
+
 (b) Now every voter judges the pair $\{A, C\}$ correctly with probability $4/5$, and each of the other two pairs with probability $2/3$. Write the likelihood of a ranking $R$ as in the proof of 5.3's Theorem 1, find the maximum-likelihood ranking and its likelihood ratio against A ≻ B ≻ C, and say in one sentence which majority it overrules and why.
 
 <details>

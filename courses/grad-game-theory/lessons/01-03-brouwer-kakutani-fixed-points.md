@@ -111,13 +111,19 @@ Three fixed points, three Nash equilibria. Kakutani only *promised* one; it does
 **P1 (🟢)** Let $f:[0,1]\to[0,1]$ be defined by $f(x)=\tfrac12 x + \tfrac14$. Find its fixed point directly, and separately confirm the IVT argument by checking the signs of $g(x)=f(x)-x$ at $x=0$ and $x=1$.
 
 **P2 (🟡)** For each map, say whether Brouwer *guarantees* a fixed point; if a hypothesis fails, name which one and say whether a fixed point happens to exist anyway.
+
 (a) $f(x)=x^2$ on $K=[0,1]$.
+
 (b) $f(x)=x+\tfrac{1}{1+x^2}$ on $K=\mathbb{R}$.
+
 (c) $f(x)=\tfrac{x+1}{2}$ on $K=(0,1)$ (open interval).
 
 **P3 (🔴, optional)** Consider matching pennies: players choose $A$ or $B$; player 1 wins ($+1$, and player 2 gets $-1$) on a *match*, player 2 wins on a *mismatch*. With $p=\Pr_1(A)$, $q=\Pr_2(A)$:
+
 (a) Write player 1's best-response correspondence $\mathrm{BR}_1(q)$ and player 2's $\mathrm{BR}_2(p)$.
+
 (b) Verify Kakutani's three hypotheses hold for $\varphi(p,q)=\mathrm{BR}_1(q)\times\mathrm{BR}_2(p)$.
+
 (c) Find the unique fixed point, and explain why it *had* to be an interior (fully mixed) point — connect this to why convex values were essential.
 
 <details>
@@ -126,16 +132,22 @@ Three fixed points, three Nash equilibria. Kakutani only *promised* one; it does
 **P1** Fixed point: solve $\tfrac12 x+\tfrac14=x\Rightarrow \tfrac14=\tfrac12 x\Rightarrow x^*=\tfrac12$. And $f(\tfrac12)=\tfrac12\cdot\tfrac12+\tfrac14=\tfrac12$ ✓. IVT check: $g(x)=f(x)-x=-\tfrac12 x+\tfrac14$, so $g(0)=\tfrac14>0$ and $g(1)=-\tfrac14<0$. Sign change on a continuous $g$ over $[0,1]$ ⇒ a root, namely $g(\tfrac12)=0$, matching $x^*=\tfrac12$. (Here $f$ is a contraction, so the fixed point is also unique — but Brouwer alone only promised existence.)
 
 **P2**
+
 (a) $K=[0,1]$ compact and convex, $f(x)=x^2$ continuous, maps $[0,1]$ into $[0,1]$. **Brouwer applies** — guaranteed fixed point. (Indeed $x^2=x$ at $x=0$ and $x=1$.)
+
 (b) $K=\mathbb{R}$ is convex and $f$ is continuous, but $\mathbb{R}$ is **not compact** (unbounded), so Brouwer does not apply. In fact $f(x)-x=\tfrac{1}{1+x^2}>0$ for all $x$, so there is **no** fixed point — the missing hypothesis really does bite.
+
 (c) $f$ is continuous and maps $(0,1)$ into itself, and $(0,1)$ is convex, but it is **not compact** (not closed — missing endpoints), so Brouwer does not apply. Solving $\tfrac{x+1}{2}=x$ gives $x=1$, which is *not in* the open interval — so no fixed point in $K$. Exactly the endpoint that compactness would have supplied is the one that escaped.
 
 **P3**
+
 (a) Player 1 (wants a match): payoff to $A$ is $q$ (prob 2 also plays $A$) minus... more carefully, playing $A$ pays $(+1)q+(-1)(1-q)=2q-1$; playing $B$ pays $(-1)q+(+1)(1-q)=1-2q$. She prefers $A$ when $2q-1>1-2q\iff q>\tfrac12$. So
 $$\mathrm{BR}_1(q)=\begin{cases}\{1\}& q>\tfrac12\\ [0,1]& q=\tfrac12\\ \{0\}& q<\tfrac12.\end{cases}$$
 Player 2 (wants a mismatch): playing $A$ pays $(-1)p+(+1)(1-p)=1-2p$; playing $B$ pays $2p-1$. She prefers $A$ (i.e. $q=1$) when $1-2p>2p-1\iff p<\tfrac12$. So
 $$\mathrm{BR}_2(p)=\begin{cases}\{1\}& p<\tfrac12\\ [0,1]& p=\tfrac12\\ \{0\}& p>\tfrac12.\end{cases}$$
+
 (b) *Nonempty:* every branch is a point or $[0,1]$ — never empty. *Convex-valued:* each value is a single point or a full interval, both convex (payoffs are linear in own probability, so maximizer sets are convex). *Closed graph:* at the switch point $q=\tfrac12$ (resp. $p=\tfrac12$) the value jumps up to the whole segment $[0,1]$, which *bridges* the branches $\{0\}$ and $\{1\}$ with no gap — that vertical segment is exactly upper hemicontinuity, so the graph is closed. Kakutani's hypotheses hold on the compact convex square $[0,1]^2$.
+
 (c) Fixed point needs $p\in\mathrm{BR}_1(q)$ and $q\in\mathrm{BR}_2(p)$ simultaneously. If $q>\tfrac12$ then $p=1$, but $p=1>\tfrac12$ forces $q=0<\tfrac12$ — contradiction. Every pure/corner attempt loops like this (the players chase and flee), so no corner works. The only consistent point is $p=q=\tfrac12$: then $q=\tfrac12\Rightarrow p\in[0,1]\ni\tfrac12$ ✓ and $p=\tfrac12\Rightarrow q\in[0,1]\ni\tfrac12$ ✓. **Unique fixed point $(\tfrac12,\tfrac12)$.** It *had* to be interior because the pursuit structure rules out every corner — the only place best responses can mutually agree is where both players are *indifferent*, and indifference lives at $p=q=\tfrac12$ where the correspondence is thick. That thick (convex) value is what lets the graph meet the diagonal; with non-convex values the graph would jump across and matching pennies would have *no* equilibrium — which is why von Neumann needed mixed strategies.
 
 </details>

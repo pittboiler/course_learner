@@ -100,9 +100,13 @@ So about $1.2$ grams of copper. Notice $n = 2$ matters: if you'd wrongly used $n
 <summary>Solutions</summary>
 
 **P1**
+
 (a) Nickel is oxidized, so **nickel = anode**; by elimination **silver = cathode** (it's reduced, $\ce{Ag+ + e- -> Ag}$). It's a galvanic cell, so anode = **−**, cathode = **+**. Thus nickel is the negative terminal, silver the positive.
+
 (b) Electrons flow from the anode to the cathode through the wire: **nickel → silver**.
+
 (c) Anode on the left, cathode on the right: $\ce{Ni|Ni^2+||Ag+|Ag}$.
+
 (d) Driven as an electrolytic cell, the signs flip: anode = **+**, cathode = **−** (the power supply forces electrons out of the anode by holding it positive). The *labels* anode/cathode still follow whichever reaction each electrode runs; only the polarity reverses.
 
 **P2** With $n = 1$ (silver is $\ce{Ag+}$):

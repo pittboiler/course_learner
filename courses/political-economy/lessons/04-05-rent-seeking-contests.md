@@ -89,12 +89,15 @@ Each curve is $D = r(n-1)/n$. More rivals and a more decisive contest both raise
 **P1 (🟢)** *(Formal.)* Two firms compete for a broadcasting licence by lobbying, with $r = 1$. Firm 1 values the licence at 80, firm 2 at 20.
 
 (a) Find each firm's equilibrium effort, winning probability and expected payoff.
+
 (b) What fraction of firm 1's valuation is spent in total, and what is the expected loss from the licence going to the firm that values it less?
 
 **P2 (🟡)** *(Formal.)* Three firms compete for a rent $R = 90$ with contest success function exponent $r$.
 
 (a) For $r = 1.2$: check that the symmetric equilibrium exists, and find each firm's effort, total effort, each firm's expected payoff and the share dissipated.
+
 (b) For $r = 1.6$: show that the symmetric first-order-condition profile is not an equilibrium, naming the profitable deviation.
+
 (c) What is the largest $r$ for which a symmetric pure equilibrium exists with three firms, and what are effort and dissipation there?
 
 **P3 (🔴, optional)** *(Exegetical.)* An invented finance-ministry memo: "Our import quotas generate licence rents worth 2 percent of GDP. Since many firms lobby for the licences, the whole 2 percent is wasted, on top of the deadweight triangle. Abolishing the quotas would therefore save at least 2 percent of GDP."

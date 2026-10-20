@@ -110,7 +110,9 @@ Name the two distinct errors, say for each which text corrects it, and say what 
 **P3 (🔴) *(Exegetical.)*** Assign a level on the ladder to each claim below, and **name the act that fixes it**. One line each; do not use the subject matter to decide, use the act.
 
 (a) The Holy Spirit proceeds eternally from the Father and the Son as from one principle and by a single spiration.
+
 (b) If the Spirit did not proceed from the Son, the Son and the Spirit would not be personally distinct.
+
 (c) The Father and the Son may be called "two spirating" but not "two spirators."
 
 <details>

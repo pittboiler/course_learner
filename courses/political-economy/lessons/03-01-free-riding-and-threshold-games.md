@@ -118,17 +118,21 @@ At $n = 11$, $\pi(1/2) = \binom{10}{5}/2^{10} = 63/256$, and the benefit never r
 **P1 (🟢)** *(Formal.)* Four neighbours share a street light that is installed if and only if at least three of them pay. Each values the light at 8; paying costs 3 and is not refunded.
 
 (a) Find every pure-strategy Nash equilibrium.
+
 (b) Find every symmetric mixed equilibrium, and say which one is the tipping point.
 
 **P2 (🟡)** *(Formal (a) · Exegetical (b).)* An invented NGO memo: "The clinic needs 300 of our 1,000 members to pledge 50 dollars each; pledges are collected whether or not we reach 300. Every member values the clinic at 1,000 dollars, so its benefits (a million dollars) dwarf its cost (15,000). Rational members will see this and pledge. All we need to do is announce the target."
 
 (a) Treat it as Game 2 with members contributing independently with a common probability. The largest possible pivot probability here is about 0.028. Is there a symmetric mixed equilibrium?
+
 (b) In 150 words or fewer: name the model the memo relies on, the step it gets wrong, and two changes to the campaign that the model says would help.
 
 **P3 (🔴, optional)** *(Formal.)* The volunteer's dilemma: $k = 1$, $0 < c < V$, $n \ge 2$.
 
 (a) Find the symmetric mixed equilibrium $p_n$.
+
 (b) Prove that $p_n$ strictly decreases in $n$, and that the probability nobody volunteers strictly increases in $n$, with limit $c/V$.
+
 (c) With $c/V = 1/4$, compute $p_n$ and the probability nobody volunteers for $n = 2$ and $n = 5$.
 
 <details>

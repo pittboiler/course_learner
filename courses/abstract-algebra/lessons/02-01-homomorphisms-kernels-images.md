@@ -99,19 +99,24 @@ Two more to keep in your pocket: **$\operatorname{sgn} : S_n \to \{\pm 1\}$** ha
 ## Problems
 
 **P1 (🟢)** Two quick maps.
+
 (a) Is $\varphi : (\mathbb{Z}, +) \to (\mathbb{Z}, +)$, $\varphi(n) = 2n$, a homomorphism? If so, find $\ker\varphi$ and $\operatorname{im}\varphi$.
+
 (b) For a group $G$, define the squaring map $s : G \to G$ by $s(g) = g^2$. Show $s$ is a homomorphism **if and only if** $G$ is abelian.
 
 **P2 (🟡)** Prove the key theorem directly: for a homomorphism $\varphi : G \to H$, show $\varphi$ is injective if and only if $\ker\varphi = \{e_G\}$. (Write both directions in full; don't just cite the lesson.)
 
 **P3 (🔴)** Let $\varphi : G \to H$ be a homomorphism of **finite** groups.
+
 (a) Prove $|\operatorname{im}\varphi|$ divides both $|G|$ and $|H|$ — hence divides $\gcd(|G|, |H|)$.
+
 (b) Conclude that the only homomorphism $\mathbb{Z}/5\mathbb{Z} \to \mathbb{Z}/7\mathbb{Z}$ is the trivial one (everything $\mapsto 0$).
 
 <details>
 <summary>Solutions</summary>
 
 **P1.**
+
 (a) Yes: $\varphi(m+n) = 2(m+n) = 2m + 2n = \varphi(m) + \varphi(n)$. ✓
 Kernel: $\varphi(n) = 0 \iff 2n = 0 \iff n = 0$, so $\ker\varphi = \{0\}$ (hence $\varphi$ is injective).
 Image: $\operatorname{im}\varphi = \{2n : n \in \mathbb{Z}\} = 2\mathbb{Z}$, the even integers — injective but not surjective.
@@ -130,6 +135,7 @@ $$\varphi(a)\varphi(b^{-1}) = \varphi(b)\varphi(b^{-1}) = e_H.$$
 By the homomorphism property the left side is $\varphi(ab^{-1})$, so $\varphi(ab^{-1}) = e_H$, meaning $ab^{-1} \in \ker\varphi = \{e_G\}$. Thus $ab^{-1} = e_G$, i.e. $a = b$. So $\varphi$ is injective. $\blacksquare$
 
 **P3.**
+
 (a) *Divides $|H|$:* $\operatorname{im}\varphi$ is a subgroup of $H$, so by Lagrange's theorem ([1.5](01-05-cosets-lagrange.md)) $|\operatorname{im}\varphi|$ divides $|H|$.
 *Divides $|G|$:* the fibers of $\varphi$ are the cosets of $\ker\varphi$. Precisely, if $\varphi(g) = h$ then $\varphi^{-1}(h) = g\ker\varphi$, a coset of size $|\ker\varphi|$ (all cosets share one size). Distinct image points give distinct, disjoint cosets, and every element of $G$ lies in exactly one, so
 $$|G| = (\text{number of fibers}) \cdot |\ker\varphi| = |\operatorname{im}\varphi| \cdot |\ker\varphi|.$$

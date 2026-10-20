@@ -91,6 +91,7 @@ Each reading is fixed by the phase's **assumption** before the verse is read. Th
 (a) Identify three errors of fact or level, citing the document or text that corrects each. (b) State the level of "the gospels have a historical character" and of "Jesus was an apocalyptic prophet". **150 words or fewer in all.**
 
 **P3 (🔴)** *(Exegetical)* Paraphrased positions. **Bultmann:** the sources are proclamation. We can know almost nothing of Jesus's life and personality, and faith needs only the fact that he came, since grounding faith in historical research would make it depend on human works. **Käsemann:** the sources are proclamation too, but the gospels themselves tie the exalted Lord to the earthly Jesus. Without that continuity the kerygma becomes a myth, and some of Jesus's sayings are recoverable.
+
 (a) Name the crux: the single premise one side affirms and the other denies. Say whether it is historical or theological. (b) Say what kind of evidence or argument would move it. (c) Say which side of the crux Dei Verbum 19 commits a Catholic to, and what it does *not* thereby commit a Catholic to. **Two sentences per part.**
 
 <details>

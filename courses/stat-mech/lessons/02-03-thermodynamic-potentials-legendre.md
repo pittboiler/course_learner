@@ -78,13 +78,17 @@ One function $F(T,V,N)$, differentiated, delivers the equation of state *and* th
 ## Problems
 
 **P1 (🟢)** A system has internal energy $U(S,V)=a\,S^2/V$ for a positive constant $a$ (ignore $N$).
+
 (a) Compute $T=\partial U/\partial S$ and $-p=\partial U/\partial V$, and write $dU$.
+
 (b) Form the Helmholtz free energy $F=U-TS$ and the enthalpy $H=U+pV$ as Legendre transforms, and write $dF$ and $dH$. From $dF$ read off $S$ and $p$ as derivatives of $F$; from $dH$ read off $T$ and $V$.
 
 **P2 (🟡)** Prove the Helmholtz minimum principle. A system is held at fixed volume $V$ and in thermal contact with a reservoir at temperature $T$; it can exchange only heat. Starting from the second law $dS_{\text{total}}=dS_{\text{sys}}+dS_{\text{res}}\ge 0$ and the reservoir relation $dS_{\text{res}}=-\delta Q/T$ (heat $\delta Q$ flows *into* the system), show that any spontaneous change has $dF_{\text{sys}}\le 0$ — so $F$ decreases until equilibrium, where it is minimized. (Cross-link: this is the thermodynamic ancestor of $F=-k_BT\ln Z$ in [3.2](#/lesson/stat-mech/03-02-partition-function.md), which the canonical ensemble *minimizes* automatically.)
 
 **P3 (🔴, optional)** Show that for a single-component system $G=\mu N$, and hence $\Omega=-pV$.
+
 (a) Use extensivity: $U(\lambda S,\lambda V,\lambda N)=\lambda\,U(S,V,N)$ (doubling the system doubles $U$). Apply Euler's theorem for first-order homogeneous functions to derive the **Euler relation** $U=TS-pV+\mu N$.
+
 (b) Conclude $G=U-TS+pV=\mu N$ and $\Omega=F-\mu N=-pV$. Interpret $\mu$ in one sentence, and differentiate $G=\mu N$ to extract the **Gibbs–Duhem relation** $N\,d\mu=-S\,dT+V\,dp$.
 
 <details>

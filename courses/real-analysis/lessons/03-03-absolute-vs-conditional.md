@@ -83,6 +83,7 @@ The odd partial sums (red) sit above $S$, the even ones (blue) sit below, and th
 ## Problems
 
 **P1 (🟢)** Classify each as absolutely convergent, conditionally convergent, or divergent, with a one-line reason.
+
 (a) $\displaystyle\sum_{k=1}^{\infty} \frac{(-1)^{k+1}}{\sqrt{k}}$  (b) $\displaystyle\sum_{k=1}^{\infty} \frac{(-1)^{k+1}}{k^3}$  (c) $\displaystyle\sum_{k=1}^{\infty} (-1)^{k+1}\,\frac{k}{k+1}$
 
 **P2 (🟡)** For $\displaystyle\sum_{k=1}^{\infty} \frac{(-1)^{k+1}}{k^2}$ (which sums to $\pi^2/12$), how many terms $N$ guarantee the partial sum $S_N$ is within $10^{-3}$ of the true value? Justify using the Leibniz error bound, and name why you're *allowed* to use that bound here.
@@ -93,8 +94,11 @@ The odd partial sums (red) sit above $S$, the even ones (blue) sit below, and th
 <summary>Solutions</summary>
 
 **P1**
+
 (a) **Conditional.** Leibniz applies with $b_k=1/\sqrt{k}$ (decreasing to $0$), so it converges; but $\sum 1/\sqrt k$ is a $p=\tfrac12\le 1$ series, so the absolute version diverges. Converges but not absolutely $\Rightarrow$ conditional.
+
 (b) **Absolute.** $\sum \left|\tfrac{(-1)^{k+1}}{k^3}\right| = \sum \tfrac1{k^3}$ is a $p=3>1$ series, which converges. Absolute convergence, done (no need to test the signed series separately — the theorem hands you convergence).
+
 (c) **Divergent.** The terms are $(-1)^{k+1}\tfrac{k}{k+1}$, and $\tfrac{k}{k+1}\to 1\neq 0$, so $|a_k|\not\to 0$. By the $n$th-term test ([3.1](03-01-series-and-cauchy-criterion.md)) the series diverges — Leibniz never even gets to apply, since its terms must $\to 0$.
 
 **P2** The series is alternating with $b_k=1/k^2$ **decreasing to $0$**, so the Leibniz hypotheses hold — *that* is what licenses the error bound $|S-S_N|\le b_{N+1}$. We need

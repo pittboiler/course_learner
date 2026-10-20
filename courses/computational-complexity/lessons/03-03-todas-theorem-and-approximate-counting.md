@@ -122,8 +122,11 @@ The general lesson for anyone doing approximate inference: **look at the decisio
 **P2 (🟡)** For each counting problem, state whether an FPRAS is known, ruled out (under a standard hypothesis), or open, with a one-clause reason based on the decision version.
 
 (a) $\#\text{DNF}$.
+
 (b) $\#3\text{SAT}$.
+
 (c) $\#\text{PERFECT-MATCHINGS}$ in a bipartite graph.
+
 (d) $\#\text{HAMILTONIAN-CYCLES}$ in a graph.
 
 **P3 (🔴, optional)** (a) Prove the obstruction theorem: if $g \in \#\mathsf{P}$ has an FPRAS and $\{x : g(x)>0\}$ is NP-hard, then $\mathsf{NP} = \mathsf{RP}$. Be careful about which direction of error the FPRAS can make. (b) Explain in two sentences why the theorem does not rule out an FPRAS for $\#\text{DNF}$, even though $\#\text{DNF}$ is $\#\mathsf{P}$-complete. (c) A colleague proposes estimating $\#3\text{SAT}$ by sampling $\{0,1\}^n$ uniformly and scaling. Give the number of samples needed to see even one satisfying assignment with constant probability, for a formula with exactly one, and name the property of the estimator that fails.
@@ -187,8 +190,11 @@ The property that fails is not unbiasedness: the estimator $2^n \cdot (\text{hit
 **From Lesson 3.2 (#P-completeness & parsimonious reductions):** Classify each reduction as parsimonious, weakly parsimonious with a stated multiplier, or neither.
 
 (a) $\#\text{SAT}$ to $\#\text{SAT}$ by $\varphi \mapsto \varphi \wedge (y_1 \vee \lnot y_1) \wedge (y_2 \vee \lnot y_2)$, with $y_1, y_2$ fresh.
+
 (b) $\#\text{SAT}$ to $\#\text{SAT}$ by $\varphi(x_1,\dots,x_n) \mapsto \varphi \wedge (x_1 \vee \lnot x_1)$, with $x_1$ already a variable of $\varphi$.
+
 (c) $\#\text{INDEPENDENT-SET}$ of size $k$ to $\#\text{CLIQUE}$ of size $k$ by $(G,k)\mapsto(\overline G, k)$.
+
 (d) $\#3\text{SAT}$ to $\#\text{SUBSET-SUM}$ by the digit construction of [Lesson 1.5](01-05-reduction-craft-and-how-reductions-break.md).
 
 <details>

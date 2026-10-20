@@ -73,8 +73,11 @@ For a visible crystal, $N\sim10^{22}$, so $\sigma_E/\langle E\rangle \sim 10^{-1
 ## Problems
 
 **P1 (🟢)** For a monatomic ideal gas, $\langle E\rangle = \tfrac32 Nk_BT$.
+
 (a) Show $C_V=\tfrac32 Nk_B$ and hence $\operatorname{Var}(E)=\tfrac32 N(k_BT)^2$.
+
 (b) Compute the relative fluctuation $\sigma_E/\langle E\rangle$ and show it equals $\sqrt{2/(3N)}\propto 1/\sqrt N$.
+
 (c) Evaluate it for $N=10^{23}$.
 
 **P2 (🟡)** Starting only from $Z=\sum_s e^{-\beta E_s}$, prove the two identities
@@ -82,7 +85,9 @@ $$\langle E\rangle = -\frac{\partial\ln Z}{\partial\beta}, \qquad \operatorname{
 and then convert the second to $\operatorname{Var}(E)=k_BT^2C_V$. (Everything follows from differentiating $Z$ twice.)
 
 **P3 (🔴, optional)** Show the canonical energy distribution is Gaussian near its peak. The probability of energy $E$ is $P(E)\propto g(E)e^{-\beta E}=e^{\phi(E)}$ with $\phi(E)=\ln g(E)-\beta E$. Using $\ln g(E)=S(E)/k_B$ (microcanonical entropy) and $\partial S/\partial E = 1/T$:
+
 (a) Find the peak energy $E^{*}$ and show it is exactly the microcanonical energy whose temperature equals the bath temperature $T$.
+
 (b) Taylor-expand $\phi$ to second order about $E^{*}$ and show $P(E)\propto\exp\!\big[-(E-E^{*})^2/(2k_BT^2C_V)\big]$ — a Gaussian of variance $k_BT^2C_V$, matching P2. (Use $\partial(1/T)/\partial E = -1/(T^2C_V)$.)
 
 <details>
@@ -90,6 +95,7 @@ and then convert the second to $\operatorname{Var}(E)=k_BT^2C_V$. (Everything fo
 
 **P1** (a) $C_V=\partial\langle E\rangle/\partial T = \partial_T(\tfrac32 Nk_BT)=\tfrac32 Nk_B$. Then
 $$\operatorname{Var}(E)=k_BT^2C_V = k_BT^2\cdot\tfrac32 Nk_B = \tfrac32 N(k_BT)^2.$$
+
 (b) $\sigma_E=\sqrt{\tfrac32 N}\,k_BT$, and dividing by $\langle E\rangle=\tfrac32 Nk_BT$:
 $$\frac{\sigma_E}{\langle E\rangle}=\frac{\sqrt{\tfrac32 N}\,k_BT}{\tfrac32 Nk_BT}=\frac{\sqrt{\tfrac32 N}}{\tfrac32 N}=\frac{1}{\sqrt{\tfrac32 N}}=\sqrt{\frac{2}{3N}}.$$
 This is $\propto 1/\sqrt N$. (c) For $N=10^{23}$: $\sqrt{2/(3\times10^{23})}=\sqrt{6.7\times10^{-24}}\approx 2.6\times10^{-12}$. A few parts in a trillion — undetectable, so the gas's energy is effectively sharp and the canonical description reproduces the microcanonical one.

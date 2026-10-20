@@ -175,6 +175,7 @@ With Lemma 1, this makes strategy-proofness and strong monotonicity equivalent o
 **From Lesson [2.3](02-03-condorcet-methods-and-kemeny.md) (Condorcet methods and Kemeny):** *(Formal (a)–(b).)* Fifteen voters: 3: A ≻ B ≻ C, 3: B ≻ A ≻ C, 4: B ≻ C ≻ A, 5: C ≻ A ≻ B.
 
 (a) Find the three pairwise tallies, the Kemeny ranking with its score, and the maximin winner.
+
 (b) Prove: with three alternatives and strict rankings, if the majority relation is a cycle whose three margins are distinct, the Kemeny ranking is unique and its top is the maximin winner. Five sentences or fewer.
 
 <details>

@@ -112,18 +112,23 @@ The tool strains here. Both sides compute the same numbers. The dispute is over 
 **P1 (🟢)** *(Formal (a)–(b) · Exegetical (c).)* A gene $K$ (carriers have $P(K)=0.3$ unconditionally) raises the risk of a disease worth $-100$. A supplement costs 2 and causally lowers the risk: $P(\text{disease})$ is 0.5 for carriers who take it and 0.6 for carriers who don't; 0.05 for non-carriers who take it and 0.1 for non-carriers who don't. Carriers are drawn to the supplement: $P(K\mid\text{take})=0.6$, $P(K\mid\text{not})=0.15$.
 
 (a) Compute causal expected utility of taking and not taking it, using the causal partition by $K$.
+
 (b) Compute the evidential value of each act.
+
 (c) Which theory recommends what, and which single feature of the case makes them diverge? One or two sentences.
 
 **P2 (🟡)** *(Exegetical.)* For each invented case, say whether EDT and CDT agree or diverge in their *values*, and why, in one sentence each.
 
 (a) A voter is sure her single vote will not change the outcome, but she believes that people who think like her vote the way she does, so her choice is evidence of how the election goes.
+
 (b) A candidate decides whether to wear a suit to an interview; wearing it raises her chance of an offer, and nothing else links the suit to the offer.
+
 (c) Newcomb's problem with a predictor known to be right exactly half the time.
 
 **P3 (🔴, optional)** *(Formal (a) · Evaluative (b).)* Newcomb with $M=1{,}000$ and $T=50$ is played many times; the predictor is right with probability 0.8.
 
 (a) Compute the average payout of one-boxers and of two-boxers, and the average that two-boxers would have received, by CDT's counterfactual, had each of them taken one box instead.
+
 (b) Steelman the "why ain'cha rich?" argument for one-boxing, then give the causalist's best reply. 150 words or fewer. Any verdict passes.
 
 <details>
@@ -202,6 +207,7 @@ Don't take, by 16.5. (Consistency: $P(K)=0.3$ matches a 1/3 chance of taking, si
 **From Lesson [4.1](04-01-newcombs-problem.md) (Newcomb's problem):** *(Formal (a)–(b).)* The opaque box holds 4,000 dollars or nothing; the clear box holds 500. Money is utility. The predictor fills the box for 60% of one-boxers and leaves it empty for 50% of two-boxers, so $P(F \mid \text{One}) = 0.6$ and $P(F \mid \text{Two}) = 0.5$. Of its past players, 80% one-boxed.
 
 (a) Compute $EU(\text{One})$ and $EU(\text{Two})$ with act-conditional weights, and check the gap against $\Delta M - T$. Which act does the expected-utility argument favour?
+
 (b) A colleague computes the predictor's overall hit rate, plugs it into $p^* = (M+T)/(2M)$, and concludes one-boxing wins. Reproduce his numbers, say what is wrong, and find how high $P(F \mid \text{One})$ would have to be, with $P(F \mid \text{Two})$ held at 0.5, for one-boxing to win.
 
 <details>

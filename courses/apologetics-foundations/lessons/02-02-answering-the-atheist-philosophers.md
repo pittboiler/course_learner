@@ -81,6 +81,7 @@ Solid arrows are Oppy's argument; dashed arrows are replies, and the last is Opp
 **P1 (🟢) *(Apologetic: (a) Exegetical, graded first · (b) reply)*** A theist debater announces: "Even Mackie admitted the moral argument works."
 
 (a) State what Mackie actually concluded in *The Miracle of Theism*, including the shape of his final verdict and the two concessions this lesson names. Three sentences at most.
+
 (b) Give the best reply a theist can build on Mackie's moral concession, and name what that reply costs. 100 words or fewer.
 
 **P2 (🟡) *(Exegetical, diagnose)*** An invented debate opening (nobody said this; it is built for the problem):

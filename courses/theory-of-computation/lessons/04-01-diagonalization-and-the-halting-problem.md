@@ -138,7 +138,9 @@ If someone offers you a tool with none of these compromises — sound, complete,
 > "Given $\langle M, w\rangle$, simulate $M$ on $w$ and record every configuration you have seen. If a configuration ever repeats, $M$ is in a loop — report *does not halt*. If $M$ halts, report *halts*. Every non-halting computation must repeat a configuration eventually, since it runs forever."
 
 (a) The final sentence is false. Explain why, and give a concrete machine and input on which the checker never reports anything.
+
 (b) Now suppose the input is restricted so that $M$ may use **at most $k$ tape cells**, for a fixed $k$ given as part of the input. Show that halting **is** decidable in that case, and give an explicit bound on the number of steps after which you may safely declare a loop.
+
 (c) Reconcile (a) and (b): what exactly is the resource whose unboundedness makes halting undecidable, and why does the diagonalization proof not go through under the restriction in (b)?
 
 <details>

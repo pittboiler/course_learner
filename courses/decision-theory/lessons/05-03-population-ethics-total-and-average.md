@@ -99,14 +99,17 @@ Each view keeps one principle and drops another. The total view keeps **negative
 **P1 (🟢) *(Formal (a)–(b).)*** $C$: 300 people at 60. $D$: 900 at 25. $E$: $C$ plus 200 more people at 15.
 
 (a) Rank $C$, $D$, $E$ by the total view and by the average view.
+
 (b) What is the smallest number of people at welfare 3 whose population beats $D$ on the total view?
 
 **P2 (🟡) *(Formal (a)–(b).)*** (a) Construct two populations $X$ and $Y$ such that the total view ranks $X$ strictly above $Y$ and the average view ranks $Y$ strictly above $X$.
+
 (b) Prove that if every life in both populations is worth living, any such $X$ has more people than $Y$. Then show by example that this can fail if lives may be worse than none.
 
 **P3 (🔴, optional) *(Exegetical (a) · Evaluative (b).)*** Invented case. A couple can conceive a child now, during a temporary condition that would leave that child's life at welfare 40, or in three months, when a different child would be conceived, with welfare 70. Either way exactly one child is born, and nothing else differs.
 
 (a) Can a narrow person-affecting principle ("worse only if worse for someone") say conceiving now is worse? What do the total and average views say? Two sentences each.
+
 (b) A critic: "So person-affecting principles fail, and the total view follows." Name the gap in this inference, and say what accepting the total view on these grounds would commit the critic to. 120 words or fewer.
 
 <details>
@@ -181,7 +184,9 @@ since $\bar w(Y)/\bar w(X) > 1$. With lives worse than none: $X$ is 1 person at 
 Let $L$ be the lottery giving $b$ with probability $\tfrac14$ and $c$ with probability $\tfrac34$.
 
 (a) Show that both people are indifferent between $L$ and $d$, and write the equation Pareto indifference then imposes on a vNM social utility $W$.
+
 (b) Society is also indifferent between $a$ and $d$. Find $a_1 : a_2$ in $W = a_1u_1 + a_2u_2$ (in smallest integers) and society's ranking of the four outcomes.
+
 (c) A planner scores each outcome by the worse-off person's utility, $\min(u_1, u_2)$, and ranks lotteries by the expected score. Show that this violates the equation from (a), and name the premise of the theorem the planner keeps and the one she drops. Two sentences.
 
 <details>

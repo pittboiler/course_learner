@@ -108,8 +108,11 @@ Seven distinct nonzero elements, then $\alpha^7=1$. So $\alpha$ has order $7=|\m
 <summary>Solutions</summary>
 
 **P1.** Use $\alpha^2=\alpha+1$ and coefficients mod 2.
+
 (a) $(\alpha+1)+\alpha=(1+1)\alpha+1=1$.
+
 (b) $(\alpha+1)\alpha=\alpha^2+\alpha=(\alpha+1)+\alpha=1$. (So $\alpha+1=\alpha^{-1}$.)
+
 (c) $(\alpha+1)^2=\alpha^2+2\alpha+1=\alpha^2+1$ (cross term $2\alpha=0$) $=(\alpha+1)+1=\alpha$.
 
 **P2.** Expand, then reduce with $\alpha^3=\alpha+1$ (so $\alpha^4=\alpha^2+\alpha$):
@@ -120,15 +123,20 @@ $$=(\alpha^2+\alpha)+(\alpha+1)+\alpha+1=\alpha^2+\alpha.$$
 Order of $\alpha^2$: it lives in $\mathbb{F}_8^{*}$, a group of order $7$, so by Lagrange its order divides $7$. Since $7$ is prime the only divisors are $1$ and $7$; as $\alpha^2\ne 1$, its order is $\boxed{7}$ (it too is a primitive element). Equivalently, order of $\alpha^2=7/\gcd(2,7)=7$.
 
 **P3.** $g(x)=x^3+x^2+1$, root $\beta$, $\beta^3=\beta^2+1$ (char 2).
+
 (a) Degree 3 ⇒ reducible only with a root in $\mathbb{F}_2$. $g(0)=1$, $g(1)=1+1+1=1$ — no root, so **irreducible**. Thus $\mathbb{F}_2[x]/(g)$ is a field of $8$ elements.
+
 (b) Degree-$<3$ polynomials: $\{0,\,1,\,\beta,\,\beta+1,\,\beta^2,\,\beta^2+1,\,\beta^2+\beta,\,\beta^2+\beta+1\}$.
+
 (c) Sum: $(\beta^2+1)+(\beta^2+\beta+1)=\beta$. Product, reducing with $\beta^3=\beta^2+1$: 
 $$\beta\cdot\beta^2=\beta^3=\beta^2+1.$$
+
 (d) Powers, always reducing $\beta^3=\beta^2+1$ (and $\beta^4=\beta\cdot\beta^3=\beta^3+\beta=(\beta^2+1)+\beta=\beta^2+\beta+1$):
 $$\beta^1=\beta,\quad \beta^2=\beta^2,\quad \beta^3=\beta^2+1,\quad \beta^4=\beta^2+\beta+1,$$
 $$\beta^5=\beta\cdot\beta^4=\beta^3+\beta^2+\beta=(\beta^2+1)+\beta^2+\beta=\beta+1,$$
 $$\beta^6=\beta\cdot\beta^5=\beta^2+\beta,\qquad \beta^7=\beta\cdot\beta^6=\beta^3+\beta^2=(\beta^2+1)+\beta^2=1.$$
 Seven distinct nonzero values, then $\beta^7=1$: $\beta$ has order $7$, a **primitive element**. ✓
+
 (e) Uniqueness of $\mathrm{GF}(8)$ means this field and the $x^3+x+1$ field are **isomorphic** — the same field up to relabeling. (Concretely, $\beta\mapsto$ some power of $\alpha$ of order 7, e.g. $\alpha^3=\alpha+1$, extends to a field isomorphism; there is really only one $\mathrm{GF}(8)$.)
 
 </details>

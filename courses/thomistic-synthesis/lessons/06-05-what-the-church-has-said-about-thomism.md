@@ -102,7 +102,9 @@ Third, the later document teaches on the same subject. Where genuine tension rem
 **P1 (🟢) *(Exegetical.)*** For each claim, name the level on [`fundamental-theology`](../../fundamental-theology/syllabus.md) [4.4](../../fundamental-theology/lessons/04-04-the-ladder-of-doctrinal-authority.md)'s ladder, name the act or source that fixes it, and say in one clause what a Catholic who denied it would be doing. **One sentence each; do not overstate in either direction.**
 
 (a) The Church has no philosophy of her own and canonizes none in preference to others.
+
 (b) Analogy of the divine names must be read as analogy of proper proportionality.
+
 (c) God is subsisting being itself.
 
 **P2 (🟡) *(Exegetical.)*** Two invented classroom remarks, one from each end of the course's signature error.

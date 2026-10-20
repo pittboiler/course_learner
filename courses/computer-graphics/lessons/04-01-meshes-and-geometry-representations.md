@@ -97,12 +97,17 @@ Now **split the first face** into two coplanar triangles through the midpoint $(
 ## Problems
 
 **P1 (🟢)** (a) A closed genus-0 triangle mesh has 12 vertices (an icosahedron). Find $E$ and $F$.
+
 (b) A closed triangle mesh of a torus has 400 vertices. Find $E$ and $F$.
+
 (c) Someone reports a closed, orientable triangle mesh with $V = 10$ and $F = 18$. Show it cannot exist.
 
 **P2 (🟡)** Two unit spheres have SDFs $f_1(\mathbf{p}) = \lVert\mathbf{p}\rVert - 1$ and $f_2(\mathbf{p}) = \lVert\mathbf{p} - (1.5, 0, 0)\rVert - 1$. For the points $(0,0,0)$, $(1.2, 0, 0)$ and $(2.5, 0, 0)$:
+
 (a) evaluate $f_1$, $f_2$, and the union, intersection and difference ($A \setminus B$) functions;
+
 (b) classify each point as inside or outside each of the three solids;
+
 (c) The intersection function is $0.2$ at $(1.2, 0, 0)$ and $0.415$ at $(0.75, 1.2, 0)$. For each point, is that the true distance to the lens-shaped intersection solid? Justify.
 
 **P3 (🔴)** In a half-edge mesh, a vertex $v$ has an outgoing half-edge $h_0$. The following table gives `twin` and `next` for the half-edges involved (`origin` is listed for checking).
@@ -120,7 +125,9 @@ Now **split the first face** into two coplanar triangles through the midpoint $(
 | $h_8$ | $v$ | $h_6$ | $h_{13}$ |
 
 (a) Starting from $h_0$, apply $h \leftarrow \text{next}(\text{twin}(h))$ repeatedly and list the outgoing half-edges of $v$ until you return to $h_0$ or the table runs out. Then walk the other way with $h \leftarrow \text{twin}(\text{prev}(h))$, reading prev off the `next` column.
+
 (b) What is the valence of $v$, as far as the table shows, and which neighbour vertices do the outgoing half-edges point to?
+
 (c) Using $h \leftarrow \text{next}(\text{next}(h))$ instead, from $h_0$: what do you get, and why is that the wrong rule?
 
 <details>
@@ -175,8 +182,11 @@ Outgoing half-edges of $v$ found: $\mathbf{h_8,\ h_4,\ h_0,\ h_7}$ in rotational
 ## Flashback
 
 **From Lesson 3.6 (radiometry):** A courtyard floor sees a uniform sky of radiance $L$ only within $45°$ of the zenith; the floor is Lambertian with albedo $0.6$.
+
 (a) Find the floor's irradiance in terms of $L$.
+
 (b) Find the radiance the floor sends toward a camera.
+
 (c) What fraction of the hemisphere's solid angle does the visible sky cover?
 
 <details>

@@ -146,7 +146,9 @@ using the harmonic sum $H_m = \Theta(\log m)$. (Verified: $T(n)/(n\ln\log_2 n)$ 
 **P3 (🔴)** A colleague is designing a divide-and-conquer routine that splits an array into subproblems of size $n/4$ and needs $\Theta(n)$ time to split and recombine. They can choose how many of the four quarters to recurse on, from $a = 1$ to $a = 16$ (they may revisit quarters).
 
 (a) Give $T(n)$ as a function of $a$, and determine the resulting $\Theta$ class for every $a$ from 1 to 16 — you will find three regimes; give the boundaries exactly.
+
 (b) They currently have $a = 5$ and want to beat $\Theta(n\log n)$. Say whether that is possible by reducing $a$, and to what.
+
 (c) They propose instead to speed up the combine step from $\Theta(n)$ to $\Theta(\sqrt n)$, keeping $a = 5$. Compute the new running time and say whether the effort was worth it. Draw the general moral in one sentence.
 
 <details>

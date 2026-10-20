@@ -120,6 +120,7 @@ $$d_{111} = \frac{3.61}{\sqrt{1+1+1}} = \frac{3.61}{\sqrt3} \approx 2.08\ \text{
 *Check.* $(200)$ has larger indices than $(111)$ ($\sqrt4 > \sqrt3$), so its planes sit closer together — and indeed $1.81 < 2.08\ \text{Å}$. ✓ Both are a couple of ångströms, the right scale for atomic planes.
 
 **P3**
+
 (a) Corners contribute $8\times\tfrac18 = 1$, the body center contributes $1$: total **2 atoms**.
 
 (b) Atoms touch along the body diagonal, length $a\sqrt3$, spanning $4r$: $a\sqrt3 = 4r \Rightarrow r = \dfrac{a\sqrt3}{4} = \dfrac{4.29\times1.732}{4} \approx 1.86\ \text{Å}.$

@@ -79,11 +79,15 @@ Each step flipped one quantifier as $\neg$ moved right; at the core, $\neg(x<y)$
 ## Problems
 
 **P1 (🟢)** Domain: people. Predicates $S(x)$: "$x$ is a student," $H(x)$: "$x$ is happy," $K(x,y)$: "$x$ knows $y$." Translate into first-order logic:
+
 (a) "Every student is happy." (b) "Some student is not happy." (c) "Every student knows some student." (d) "There is a student that every student knows."
 
 **P2 (🟡)** Let $\psi$ be "someone is loved by everyone," i.e. $\exists y\,\forall x\,\mathrm{Loves}(x,y)$.
+
 (a) Write $\neg\psi$ with the negation pushed all the way in (only $\neg$ on the atom).
+
 (b) Translate your $\neg\psi$ back into a plain English sentence.
+
 (c) Exhibit a domain and a $\mathrm{Loves}$ relation on it where $\psi$ is **true** (so $\neg\psi$ is false), confirming your two forms are consistent.
 
 **P3 (🔴, optional)** The sentence $\chi:\ \forall x\,\exists y\,\big(\mathrm{Loves}(x,y)\land \mathrm{Loves}(y,x)\big)$ says "everyone has someone they love mutually." Negate it, pushing $\neg$ inward to the atoms (use De Morgan on the $\land$), and state the result in English.
@@ -92,15 +96,22 @@ Each step flipped one quantifier as $\neg$ moved right; at the core, $\neg(x<y)$
 <summary>Solutions</summary>
 
 **P1**
+
 (a) $\forall x\,(S(x)\to H(x))$ — "all A are B" pattern, so $\to$.
+
 (b) $\exists x\,(S(x)\land \neg H(x))$ — "some A is B" pattern with $B=\neg H$, so $\land$. (Equivalently this is $\neg\forall x(S(x)\to H(x))$, the negation of (a): $\neg\forall x(S\to H)\equiv\exists x\,\neg(S\to H)\equiv\exists x(S\land\neg H)$. ✓)
+
 (c) $\forall x\,\big(S(x)\to \exists y\,(S(y)\land K(x,y))\big)$ — outer "every student…" is $\forall/\!\to$; the inner "…knows some student" is $\exists/\land$. This is a $\forall\exists$ statement: the known student may differ per knower.
+
 (d) $\exists y\,\big(S(y)\land \forall x\,(S(x)\to K(x,y))\big)$ — "there is a student known by every student." This is the $\exists\forall$ form: one fixed $y$ for all $x$. Note (d) $\models$ (c) but not conversely — the same order asymmetry as the Picture.
 
 **P2**
+
 (a) $\neg\psi=\neg\,\exists y\,\forall x\,\mathrm{Loves}(x,y)\equiv \forall y\,\neg\,\forall x\,\mathrm{Loves}(x,y)\equiv \forall y\,\exists x\,\neg\mathrm{Loves}(x,y)$. So
 $$\neg\psi\;\equiv\;\forall y\,\exists x\,\neg\mathrm{Loves}(x,y).$$
+
 (b) "For every person $y$, there is someone $x$ who does not love $y$" — i.e. **no one is loved by everyone** (everybody has at least one non-admirer). That is precisely the denial of "someone is loved by everyone." ✓
+
 (c) Take $D=\{a,b\}$ with $\mathrm{Loves}=\{(a,a),(b,a)\}$: both $a$ and $b$ love $a$. Then $y=a$ is loved by every $x$, so $\psi$ is true. Check $\neg\psi$ is false: it would need some $y$ loved by nobody-universally, but $a$ is loved by all, so $\neg\psi$ fails. Consistent. ✓
 
 **P3** Push $\neg$ inward, flipping each quantifier and applying De Morgan to the $\land$:
@@ -112,6 +123,7 @@ In English: "**there is someone $x$** such that, for **every** person $y$, eithe
 ## Flashback
 
 **From [Lesson 2.2](02-02-structures-satisfaction.md) (Structures & Satisfaction):** Let $\mathfrak{A}$ be the structure with domain $|\mathfrak{A}|=\{1,2,3\}$ and one binary predicate $P$ interpreted as the strict order $<$, so $P^{\mathfrak{A}}=\{(1,2),(1,3),(2,3)\}$. Decide, by checking satisfaction directly, whether $\mathfrak{A}$ satisfies each sentence:
+
 (a) $\forall x\,\exists y\,P(x,y)$. (b) $\exists y\,\forall x\,P(x,y)$.
 
 <details>

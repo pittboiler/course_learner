@@ -114,8 +114,11 @@ Use $\hat L_x = \hat y\hat p_z - \hat z\hat p_y$, $\hat L_y=\hat z\hat p_x-\hat 
 **P2 (🟡)** For $\ell=1$, write down the matrices for $\hat L_z$ and $\hat L_x$ in the $\big(|1,1\rangle,|1,0\rangle,|1,-1\rangle\big)$ basis, then find the eigenvalues of $\hat L_x$. Comment on what the answer says about measuring angular momentum along a *different* axis than $z$. (This is the calculation behind a Stern–Gerlach magnet rotated off-axis, which you'll meet in 4.5.)
 
 **P3 (🔴, optional)** Derive the ladder coefficient and use it to bound $m$.
+
 (a) Show $\hat L_\mp\hat L_\pm = \hat L^2 - \hat L_z^2 \mp \hbar\hat L_z$.
+
 (b) By evaluating $\langle \ell,m|\hat L_\mp\hat L_\pm|\ell,m\rangle$ two ways — once as the norm $\|\hat L_\pm|\ell,m\rangle\|^2$, once with part (a) — obtain $\hat L_\pm|\ell,m\rangle = \hbar\sqrt{\ell(\ell+1)-m(m\pm1)}\,|\ell,m\pm1\rangle$.
+
 (c) Using that a norm is $\ge 0$, prove $-\ell \le m \le \ell$.
 
 <details>
@@ -145,6 +148,7 @@ $$\det(M-\mu\mathbb 1)=-\mu(\mu^2-1)-1(-\mu)=-\mu^3+2\mu=-\mu(\mu^2-2)=0\ \Right
 So the eigenvalues of $\hat L_x$ are $\frac{\hbar}{\sqrt2}\{0,\pm\sqrt2\}=\{0,+\hbar,-\hbar\}$ — **identical** to those of $\hat L_z$. That is the point: no axis is special. Measuring angular momentum along *any* direction yields the same menu $\{-\hbar,0,+\hbar\}$ (rotational invariance of the spectrum). What changes with the axis is only which *states* are definite, not which *values* are allowed — a rotated Stern–Gerlach magnet still splits the beam into $2\ell+1=3$ spots, just oriented differently.
 
 **P3**
+
 (a) $\hat L_\mp\hat L_\pm=(\hat L_x\mp i\hat L_y)(\hat L_x\pm i\hat L_y)=\hat L_x^2+\hat L_y^2\pm i(\hat L_x\hat L_y-\hat L_y\hat L_x)=(\hat L^2-\hat L_z^2)\pm i[\hat L_x,\hat L_y].$
 With $[\hat L_x,\hat L_y]=i\hbar\hat L_z$: $\ =\hat L^2-\hat L_z^2\pm i(i\hbar\hat L_z)=\hat L^2-\hat L_z^2\mp\hbar\hat L_z.$ ✓
 

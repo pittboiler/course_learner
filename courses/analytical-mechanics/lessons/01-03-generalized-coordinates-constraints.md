@@ -98,6 +98,7 @@ $$T = \tfrac12(m_1+m_2)\dot x^2, \quad V = -m_1 g x - m_2 g(\ell - x).$$
 $$L = \tfrac12(m_1+m_2)\dot x^2 + m_1 g x + m_2 g(\ell - x).$$
 Then $\frac{d}{dt}[(m_1+m_2)\dot x] = (m_1+m_2)\ddot x$ and $\partial L/\partial x = m_1 g - m_2 g$, so
 $$(m_1+m_2)\ddot x = (m_1 - m_2)g \;\Longrightarrow\; \ddot x = \frac{m_1-m_2}{m_1+m_2}\,g.$$
+
 (b) *With a multiplier.* Keep both $x_1,x_2$ (each measured downward), constraint $g = x_1 + x_2 - \ell = 0$, $\partial g/\partial x_1 = \partial g/\partial x_2 = 1$. Here $L = \tfrac12 m_1\dot x_1^2 + \tfrac12 m_2\dot x_2^2 + m_1 g x_1 + m_2 g x_2$. The two equations:
 $$m_1\ddot x_1 - m_1 g = \lambda, \qquad m_2\ddot x_2 - m_2 g = \lambda.$$
 Differentiating the constraint twice: $\ddot x_1 + \ddot x_2 = 0$, so $\ddot x_2 = -\ddot x_1$. Write $\ddot x_1 = a$. Subtract the equations: $m_1 a - m_1 g = m_2(-a) - m_2 g$, i.e. $(m_1+m_2)a = (m_1 - m_2)g$, so $a = \frac{m_1-m_2}{m_1+m_2}g$ — agreeing with (a). Then

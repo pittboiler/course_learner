@@ -161,8 +161,11 @@ So a disjoint family of total length $<\delta$ produces $F$-increments summing t
 ## Flashback
 
 **From Lesson 4.4 (Radon–Nikodym):** On $(\mathbb{R},\mathcal{B}(\mathbb{R}))$ define $\nu(E)=\int_E e^{-|x|}\,d\lambda(x)$ and let $\sigma=\delta_0$ be the Dirac point mass at $0$ (so $\sigma(E)=1$ if $0\in E$, else $0$). Put $\mu=\nu+\sigma$.
+
 (a) Show $\nu\ll\lambda$ and identify $\frac{d\nu}{d\lambda}$.
+
 (b) Show $\sigma\perp\lambda$.
+
 (c) Give the Lebesgue decomposition of $\mu$ with respect to $\lambda$ and state its absolutely continuous density.
 
 <details>

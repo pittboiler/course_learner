@@ -83,6 +83,7 @@ The tools yield no verdict. They say what each side must show: the opponent, tha
 **P2 (🟡) *(Exegetical (a) · Evaluative (b).)*** Two invented borrowers each owe 30,000 dollars to the state, which lent the money and approved both colleges for its loans. Dana enrolled at a for-profit college after it showed her job-placement rates that a regulator later found were falsified; she would not have enrolled had she known. Eli was admitted to a public university and chose a private one costing three times as much, for its prestige; his earnings disappointed. A proposal cancels both debts from general taxes.
 
 (a) For each borrower, say whether the incentive objection and the desert objection apply, whether the loss is brute or option luck, and which cell of the lesson's map the proposal puts them in. Three sentences or fewer per borrower.
+
 (b) Dana's advocate says: "Her relief is compensation for a wrong, so nobody who paid has any complaint." Assess the claim. Who owes Dana compensation? Does the reply answer a taxpayer who repaid her own loan? Does it reach Eli? Any verdict; 150 words or fewer.
 
 **P3 (🔴, optional) *(Exegetical (a) · Evaluative (b).)*** Matthew 20:12–15 (Douay–Rheims). The labourers hired at dawn complain that those hired at the eleventh hour received the same penny. The Challoner edition's note on "what I will" follows the passage.
@@ -94,6 +95,7 @@ The tools yield no verdict. They say what each side must show: the opponent, tha
 What the parable teaches about grace is theology's question. Here only the householder's argument is tested.
 
 (a) The householder gives two distinct replies. State each in one sentence and name the words that carry it. Then say, in two sentences, what the note adds to the verse.
+
 (b) A state cancels student loans from general taxes, and a graduate who repaid in full makes the labourers' complaint. Which reply carries over and which does not, and which words decide it? Does the surviving reply answer her? Any verdict; 150 words or fewer.
 
 <details>

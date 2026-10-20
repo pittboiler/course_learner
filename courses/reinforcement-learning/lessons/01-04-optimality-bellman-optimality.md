@@ -114,21 +114,29 @@ What rescues the MDP case is the policy improvement theorem: it does not ask you
 **P1 (🟢)** Using the MDP of Example 1 ($\gamma = \tfrac12$, values $V^* = (10,10)$):
 
 (a) Compute $Q^*(s_1,\text{trade})$, $Q^*(s_1,\text{idle})$, $Q^*(s_2,\text{hold})$ and $Q^*(s_2,\text{move})$.
+
 (b) State the greedy policy from your $Q^*$ table and confirm it is $C$.
+
 (c) Verify $V^*(s) = \max_a Q^*(s,a)$ at both states.
 
 **P2 (🟡)** Start from policy $A = (\text{trade}, \text{hold})$, whose value is $V^A = (10, -4)$.
 
 (a) Compute $Q^A(s_2, \text{hold})$ and $Q^A(s_2,\text{move})$.
+
 (b) State the greedy policy $\pi'$ with respect to $V^A$.
+
 (c) The policy improvement theorem guarantees $V^{\pi'} \ge V^A$ at *every* state. Verify this numerically using the table in Example 1, and state by how much each state improved.
+
 (d) Explain why the improvement at $s_1$ is zero even though the policy changed.
 
 **P3 (🔴)** An engineer proposes a shortcut: rather than evaluating $\pi$ and then being greedy, just pick, at each state independently, the action with the largest **immediate reward** $r(s,a)$ — a "greedy on reward" policy.
 
 (a) Apply this rule to the MDP of Example 1 and state the resulting policy and its value.
+
 (b) State whether it is optimal here.
+
 (c) Construct a two-state MDP where greedy-on-reward is strictly worse than optimal at some state, and give both values. (You may reuse the structure of Example 1 with different rewards.)
+
 (d) State in one sentence the precise hypothesis of the policy improvement theorem that greedy-on-reward fails to satisfy.
 
 <details>
@@ -195,8 +203,11 @@ Equivalently: greedy-on-reward is greedy with respect to $V \equiv 0$, which is 
 **From Lesson 1.3 (Value functions and the Bellman expectation equation):** A three-state chain has states $L$, $M$, $N$ with $\gamma = 0.5$. State $N$ is terminal (value $0$). From $M$, the only action moves to $N$ with reward $+6$. From $L$, the policy $\pi$ takes *forward* with probability $0.75$ (reward $-2$, moves to $M$) and *wait* with probability $0.25$ (reward $+1$, stays at $L$).
 
 (a) Compute $V^\pi(M)$.
+
 (b) Compute $Q^\pi(L,\text{forward})$ and $Q^\pi(L,\text{wait})$ in terms of $V^\pi(L)$, then solve for $V^\pi(L)$.
+
 (c) Check your answer with $V^\pi(L) = \sum_a \pi(a\mid L)Q^\pi(L,a)$.
+
 (d) State which action is greedy at $L$, and what the policy improvement theorem then guarantees about the policy "always forward".
 
 <details>

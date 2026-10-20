@@ -113,6 +113,7 @@ So "probabilities sum to 1" is not a separate axiom — it's completeness plus n
 
 **P2 (🟡)** With $\{|0\rangle,|1\rangle\}$ orthonormal, define the **rotated basis**
 $$|+\rangle = \tfrac{1}{\sqrt2}\big(|0\rangle + |1\rangle\big), \qquad |-\rangle = \tfrac{1}{\sqrt2}\big(|0\rangle - |1\rangle\big).$$
+
 (a) Verify $\{|+\rangle,|-\rangle\}$ is orthonormal. (b) Show it is complete by checking $|+\rangle\langle+| + |-\rangle\langle-| = \mathbb 1$ acts as the identity on the state $|\psi\rangle = \tfrac{3}{5}|0\rangle + \tfrac{4}{5}|1\rangle$. (c) Re-expand $|\psi\rangle$ in the $\{|+\rangle,|-\rangle\}$ basis and confirm the probabilities still sum to 1.
 
 **P3 (🔴, optional)** *(Born probabilities are basis-consistent.)* Let $\{|n\rangle\}$ be any orthonormal basis and $|\psi\rangle$ a normalized state with components $c_n = \langle n|\psi\rangle$. Prove directly from orthonormality and completeness that $\sum_n |c_n|^2 = 1$, and that the same holds in *any* other orthonormal basis $\{|\tilde n\rangle\}$ — i.e. the total probability is 1 no matter which complete set of outcomes you measure. (This is why the Born rule is consistent: it doesn't privilege a basis.)

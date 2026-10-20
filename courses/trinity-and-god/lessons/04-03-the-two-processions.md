@@ -115,8 +115,11 @@ Feel the strain honestly. The reply does not show that the processions ground a 
 **P1 (🟢) *(Exegetical.)*** Assign a level to each claim and **name the act that fixes it** — one sentence each. Where nothing magisterial proposes the claim, say so and say what it is instead.
 
 (a) The Son is begotten of the Father, not made.
+
 (b) The Holy Spirit proceeds and is not begotten.
+
 (c) The Son proceeds by an act of the divine intellect, as a concept proceeds in a mind.
+
 (d) The procession of the Spirit is by way of will, and is rightly called spiration.
 
 **P2 (🟡) *(Exegetical.)*** Two invented sentences, one from a parish hymn-sheet note and one from a confirmation handout:
@@ -180,6 +183,7 @@ Name the error in each, name the part of ST I q.27 that corrects it, and say in 
 > ... the Trinity cannot in the same way be called the Father, except perhaps metaphorically, in respect to the creature, on account of the adoption of sons. ... Neither can the Trinity in any wise be called the Son, but it can be called, in its entirety, the Holy Spirit, according to that which is written, God is a Spirit; because both the Father is a spirit and the Son is a spirit, and the Father is holy and the Son is holy. ... But yet that Holy Spirit, who is not the Trinity, but is understood as in the Trinity, is spoken of in His proper name of the Holy Spirit relatively, since He is referred both to the Father and to the Son. ... But the relation is not itself apparent in that name, but it is apparent when He is called the gift of God.
 
 (a) Which words explain why the whole Trinity may be called "the Holy Spirit" and may not be called "the Son"? Say which column each of the two uses of "Holy Spirit" falls in.
+
 (b) "The relation is not itself apparent in that name." State the difficulty Augustine is flagging and what it shows about how a term's column is settled, and name the other Book 5 term where the same trap catches his opponents.
 **Two sentences or fewer per part.**
 

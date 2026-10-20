@@ -97,19 +97,29 @@ A factor of 4.5, and not a subtle one: Gouraud misses the diffuse peak too, beca
 ## Problems
 
 **P1 (🟢)** At a point with $\mathbf{n} = (0, 0, 1)$, the light direction is $\mathbf{l} \propto (1, 0, 1)$ and the view direction $\mathbf{v} \propto (0, 1, 1)$.
+
 (a) Compute $\mathbf{h}$ and $\mathbf{n}\cdot\mathbf{h}$.
+
 (b) Compute Phong's $\mathbf{r}\cdot\mathbf{v}$.
+
 (c) Compare the Phong factor with $p = 4$ and the Blinn–Phong factor with $p' = 16$. Is the "four times" rule exact here? Why or why not?
 
 **P2 (🟡)** A floor triangle's edge runs from a vertex at $x = -1$ to a vertex at $x = 3$ (at $y = 0$, normal $(0,1,0)$). A light of intensity 1 and the eye are both at $(0, 1, 0)$. Material: $k_d = k_s = 0.5$, Blinn–Phong $p' = 10$, no ambient or falloff. View the floor orthographically, so screen-linear interpolation is exact.
+
 (a) Compute the shaded value at each vertex.
+
 (b) Compute the Gouraud value at $x = 0$.
+
 (c) Compute the Phong-shaded value at $x = 0$.
+
 (d) Name the smallest change to the mesh that would make Gouraud shading exact at $x = 0$.
 
 **P3 (🔴)** A diffuse texture stores the colour value 0.5 (sRGB). A white light of intensity 1 hits the surface with $\mathbf{n}\cdot\mathbf{l} = 0.5$.
+
 (a) Compute the displayed sRGB value when lighting is done correctly in linear space.
+
 (b) Compute the displayed value when a buggy shader multiplies the raw sRGB texture value by $\mathbf{n}\cdot\mathbf{l}$ and writes the result straight to the sRGB framebuffer. By what factor is the displayed *light* wrong?
+
 (c) An antialiased edge pixel is half covered by a white (1.0) surface and half by black. Which 8-bit value should it store, and what does storing 128 look like?
 
 <details>
@@ -157,8 +167,11 @@ $$0.75(0.369) + 0.25(0.158) = 0.277 + 0.040 = \mathbf{0.316}.$$
 ## Flashback
 
 **From Lesson 2.3 (perspective-correct interpolation):** A vertex at $w = 1.5$ is coloured red $(1, 0, 0)$ and a vertex at $w = 6$ is coloured blue $(0, 0, 1)$. A pixel lies one third of the way from the red vertex to the blue one **on screen**.
+
 (a) Give the naive screen-linear colour.
+
 (b) Give the perspective-correct colour.
+
 (c) Give the correctly interpolated depth $w$ at that pixel.
 
 <details>

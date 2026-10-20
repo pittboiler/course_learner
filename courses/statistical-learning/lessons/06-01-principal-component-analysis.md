@@ -143,20 +143,27 @@ But this data is one-dimensional. One number — the angle — reconstructs ever
 $$S = \begin{pmatrix} 10 & 3 \\ 3 & 2 \end{pmatrix}.$$
 
 (a) Give both eigenvalues (trace and determinant are enough).
+
 (b) Give PC1 as a unit vector and its explained-variance fraction.
+
 (c) Give the exact mean squared reconstruction error per point if you keep only PC1.
+
 (d) In one sentence, say what Theorems 1–2 let you claim about the number in (c) that you could not claim if PCA were only a rule of thumb.
 
 **P2 (🟡)** Prove that maximizing projected variance and minimizing squared reconstruction error are the same problem.
 
 (a) For a $k$-dimensional subspace with orthonormal basis $U$, prove kept $+$ lost $= \operatorname{tr}(S)$, and conclude the two problems have the same argmax. State where you used centring and where you used orthonormality.
+
 (b) Show the objective depends only on the subspace, not the basis: if $R$ is a $k\times k$ orthogonal matrix, then $\operatorname{tr}((UR)^\top S (UR)) = \operatorname{tr}(U^\top S U)$.
+
 (c) In one sentence, say why (a) makes "explained variance" an optimal value rather than a diagnostic.
 
 **P3 (🔴)** PCA is invariant under rotating the coordinates but not under rescaling them.
 
 (a) Let $Q$ be orthogonal and replace every $x_i$ by $Qx_i$. Prove the eigenvalues of the covariance matrix are unchanged, the optimal subspace becomes $Q$ applied to the old one, and every reconstruction error is unchanged.
+
 (b) Let $D = \operatorname{diag}(d_1,\dots,d_p)$ instead. Give a two-dimensional instance where the optimal direction moves to the direction *perpendicular* to the old one. (The full units story is [`machine-learning` 3.2](../../machine-learning/lessons/03-02-principal-component-analysis.md)'s; you only need the instance.)
+
 (c) Which of the two invariances do you actually want, and what does standardising each coordinate to unit variance commit you to? Say what it buys and what it destroys.
 
 <details>

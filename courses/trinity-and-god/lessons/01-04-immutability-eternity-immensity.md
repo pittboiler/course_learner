@@ -107,7 +107,9 @@ Two consequences. **Prayer is not pointless** — remove a cause and you remove 
 **P1 (🟢) *(Exegetical.)*** Assign a level on the ladder of [`fundamental-theology` 4.4](../../fundamental-theology/lessons/04-04-the-ladder-of-doctrinal-authority.md) to each claim, and **name the act that fixes it** (or say that no magisterial act reaches it). One sentence each.
 
 (a) God is immense.
+
 (b) God's eternity is timeless rather than everlasting.
+
 (c) God is in all things by essence, by presence and by power.
 
 **P2 (🟡) *(Exegetical.)*** From the *respondeo* of ST I q.8 a.3 (English Dominican Province), with the reply to its first objection:

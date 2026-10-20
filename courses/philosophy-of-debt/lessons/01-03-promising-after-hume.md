@@ -93,12 +93,15 @@ All three bind Tom, which is what makes the case clean. The neighbour is only th
 **P1 (🟢) *(Exegetical.)*** Jonah borrows 500 dollars from his sister Mia. For each version, say which of the three accounts (practice, assurance, authority) hold Jonah under a *promissory* obligation to repay by Christmas, and name the feature that decides. One sentence per version.
 
 (a) He writes in his diary, "I promise Mia I'll repay her by Christmas," and never tells her.
+
 (b) He tells her, "I promise I'll repay you by Christmas." She laughs, says she doesn't believe a word of it, and hands over the money anyway.
+
 (c) He makes the same promise, and she believes it. In November she tells him, "Forget Christmas. Pay me when you can."
 
 **P2 (🟡) *(Exegetical.)*** Dana is anxious about moving house on Saturday. To reassure her, her neighbour Eli says: "Stop worrying. I've hired a van for my own move that morning, I'll be done by noon, so you'll have it from then." He sees that she is reassured, and she knows that reassuring her was his aim; all this is mutual knowledge. He never says he promises or undertakes anything: he describes his plans. She had no other arrangements to drop. On Saturday Eli takes the van to the coast instead, and Dana hires one at the usual price.
 
 (a) Using F as premise 4 states it, and Owens's account as premise 6 states it, say whether each binds Eli to let Dana have the van, and why. Two sentences each.
+
 (b) Set Eli beside the Profligate Pal. Name the single premise that divides Scanlon and Owens across the two cases, and say what would move each. 100 words or fewer.
 
 **P3 (🔴, optional) *(Evaluative.)*** Build a case, not in this lesson or in 1.2, in which the practice view (premises 1–2) gives the wrong verdict or picks the wrong victim. Then say whether Kolodny and Wallace's hybrid absorbs it. Any verdict; 150 words or fewer.

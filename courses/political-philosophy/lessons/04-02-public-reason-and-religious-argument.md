@@ -113,6 +113,7 @@ Where the principles stop: none says whether Mara's convictions are reasonable e
 **P2 (🟡) *(Exegetical (a)-(b) · Evaluative (c).)*** Invented case. The town of Edrin bans commercial surrogacy. Some residents support the ban from natural-law premises about marriage and procreation; others from a feminist argument that it commodifies women's bodies; everyone else, for one reason or another, also endorses it. No single reason is accepted by all.
 *Commissioner Lund:* "The ban is publicly justified: every resident has a sufficient reason to endorse it."
 *Commissioner Saro:* "It isn't. No reason here is one we all share."
+
 (a) Name the single premise Saro asserts and Lund denies. One sentence. (b) Describe a law that Saro's view would count as justified but Lund's view might not. Two sentences. (c) Say what kind of argument could move either commissioner. Two sentences.
 
 **P3 (🔴, optional) *(Evaluative.)*** Counterexample. Build an invented case, drawing on the integrity objection, in which the exclusive view forbids a citizen's argument that most people would think admirable or plainly permissible. Do not use abolition or civil rights. Then give the best reply an exclusive-view defender can make, and say whether the case pushes toward the inclusive or wide view or against public reason altogether. 150 words or fewer.

@@ -105,16 +105,21 @@ The hearth is about 4,200 years old. The whole method is one rearrangement of th
 
 **P1** (a) In seconds, $T_{1/2}=8.02\times86400 = 6.93\times10^{5}\,\text{s}$, so
 $$\lambda = \frac{\ln 2}{T_{1/2}} = \frac{0.693}{6.93\times10^{5}\,\text{s}} = 1.00\times10^{-6}\,\text{s}^{-1}.$$
+
 (b) $N = A/\lambda = \dfrac{5.0\times10^{8}}{1.00\times10^{-6}} = 5.0\times10^{14}\ \text{atoms}.$
+
 (c) $24\,\text{d} = 24/8.02 = 2.99 \approx 3$ half-lives, so divide by $2^3=8$: $A = 5.0\times10^{8}/8 = 6.25\times10^{7}\,\text{Bq}$. (Exactly: $A_0e^{-\lambda t}$ with $\lambda t=0.693\times2.99=2.074$ gives $e^{-2.074}=0.126$, so $6.3\times10^{7}\,\text{Bq}$. ✓)
 
 **P2** (a) $\tau = \dfrac{T_{1/2}}{\ln 2} = \dfrac{30.1}{0.693} = 43.4\ \text{yr}.$
+
 (b) Solve $A/A_0 = 0.01$: $t = \tau\ln(A_0/A) = 43.4\times\ln(100) = 43.4\times4.605 = 200\ \text{yr}.$ (A tidy rule: dropping to $1\%$ takes $\ln 100/\ln 2 = 6.64$ half-lives.)
+
 (c) After one mean life, $N/N_0 = e^{-\lambda\tau} = e^{-1} = 0.368$ — about $37\%$ remain, confirming $\tau \neq T_{1/2}$.
 
 **P3** (a) Parallel first-order channels add their rate constants: $\lambda_{\text{tot}} = \lambda_\beta + \lambda_{EC}$ (decay *constants* add; half-lives do not).
 $$\lambda_\beta = \frac{0.693}{1.40\times10^{9}} = 4.95\times10^{-10}\,\text{yr}^{-1}, \quad \lambda_{EC} = \frac{0.693}{1.19\times10^{10}} = 5.83\times10^{-11}\,\text{yr}^{-1},$$
 $$\lambda_{\text{tot}} = 5.53\times10^{-10}\,\text{yr}^{-1} \;\Rightarrow\; T_{1/2} = \frac{0.693}{\lambda_{\text{tot}}} = 1.25\times10^{9}\ \text{yr}.$$
+
 (b) The Ar branch's share is its fraction of the total rate:
 $$\frac{\lambda_{EC}}{\lambda_{\text{tot}}} = \frac{5.83\times10^{-11}}{5.53\times10^{-10}} = 0.105 \approx 11\%.$$
 So about $11\%$ of $^{40}\text{K}$ atoms become argon (the rest calcium) — close to the measured $\sim10.7\%$, and exactly why trapped $^{40}\text{Ar}$ in a mineral clocks its age.

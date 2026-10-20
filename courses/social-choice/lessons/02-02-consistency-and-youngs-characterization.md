@@ -116,14 +116,17 @@ Borda, by contrast, scores $\mathbf{P}_1$ 6–6–6, $\mathbf{P}_2$ A 4, B 4, C 
 **P1 (🟢) *(Formal (a)–(b).)*** Two electorates use Borda, $s = (2, 1, 0)$. $E_1$: 3: A ≻ B ≻ C, 1: B ≻ C ≻ A, 1: C ≻ B ≻ A. $E_2$: 2: A ≻ B ≻ C, 1: B ≻ C ≻ A, 1: C ≻ B ≻ A.
 
 (a) Find the Borda winners of $E_1$, $E_2$ and $E_1 + E_2$, and confirm consistency.
+
 (b) Find the Condorcet winner of $E_1 + E_2$, if any. One sentence: what does the pair (a)–(b) illustrate?
 
 **P2 (🟡) *(Formal (a)–(b).)*** (a) Prove: if $x$ is the Condorcet winner of $\mathbf{P}_1$ and of $\mathbf{P}_2$, it is the Condorcet winner of $\mathbf{P}_1 + \mathbf{P}_2$.
+
 (b) Maximin elects $\arg\max_x \min_{y \ne x} n(x, y)$. Let $\mathbf{C}$ be one copy of Example 2's cycle: 1 each of B ≻ A ≻ C, A ≻ C ≻ B, C ≻ B ≻ A. Find an electorate $\mathbf{P}_2$ of at most three voters on which maximin elects $\{A\}$ but maximin on $\mathbf{C} + \mathbf{P}_2$ does not elect $\{A\}$. Conclude that maximin is not consistent.
 
 **P3 (🔴, optional) *(Formal (a) · Exegetical (b).)*** Rule $g$: elect the plurality winners; break ties among them by Borda score. Let $\mathbf{T}$: 1 each of A ≻ C ≻ B, B ≻ A ≻ C, C ≻ A ≻ B, and $\mathbf{S}$: 1: B ≻ C ≻ A.
 
 (a) Show $g(\mathbf{T}) = \{A\}$ but $g(\mathbf{S} + j\mathbf{T}) = \{B\}$ for every $j \ge 1$. What does plain Borda elect on $\mathbf{S} + j\mathbf{T}$ for $j \ge 2$?
+
 (b) In 80 words or fewer: which axiom of Young's theorem does $g$ fail, what does that axiom rule out, and why is $g$ still consistent?
 
 <details>

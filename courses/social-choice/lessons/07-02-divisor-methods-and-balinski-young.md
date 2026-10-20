@@ -105,11 +105,13 @@ Webster also breaks the other way: populations 790, 80, 70, 60 with $h = 5$ have
 **P1 (🟢) *(Formal (a)–(b).)*** An invented federation has four states with populations 590, 330, 190 and 90 thousand and a 10-seat house.
 
 (a) Apportion by Webster's method. Give a working divisor and the full range of working divisors.
+
 (b) Apportion by Hill–Huntington. Which state gains a seat from which, compared with (a), and why does the geometric-mean threshold decide it?
 
 **P2 (🟡) *(Formal (a)–(b).)*** Counterexample, then proof.
 
 (a) Build an apportionment problem with three states and at most four seats in which Jefferson's method gives some state more than its upper quota. Give a working divisor.
+
 (b) Prove that Adams's method never gives a state more than its upper quota.
 
 **P3 (🔴, optional) *(Exegetical (a)–(b).)*** Diagnose. An **invented** memo to the constitutional commission of an invented five-province federation, not the words of any real person or body:

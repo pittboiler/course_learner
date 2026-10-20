@@ -84,6 +84,7 @@ Slightly better than even odds. The move — "at least one" is the complement of
 <summary>Solutions</summary>
 
 **P1** (a) Sum-7 outcomes: $(1,6),(2,5),(3,4),(4,3),(5,2),(6,1)$ — six of them. So $\mathbb{P}(\text{sum }7) = \tfrac{6}{36} = \tfrac{1}{6} \approx 0.167$.
+
 (b) Use the complement. "No 6 on either die" has $5 \times 5 = 25$ outcomes, so $\mathbb{P}(\text{no }6) = \tfrac{25}{36}$ and
 
 $$\mathbb{P}(\text{at least one }6) = 1 - \tfrac{25}{36} = \tfrac{11}{36} \approx 0.306.$$
@@ -92,7 +93,9 @@ Direct check: the row and column for a 6 cover $6 + 6 - 1 = 11$ cells (inclusion
 *Sanity:* both values lie in $[0,1]$. ✓
 
 **P2** Let $C$ = coffee, $T$ = tea, with $\mathbb{P}(C) = 0.6$, $\mathbb{P}(T) = 0.4$, $\mathbb{P}(C \cap T) = 0.25$.
+
 (a) Inclusion–exclusion: $\mathbb{P}(C \cup T) = 0.6 + 0.4 - 0.25 = 0.75$.
+
 (b) "Neither" is the complement of "at least one": $\mathbb{P}((C\cup T)^c) = 1 - 0.75 = 0.25$.
 *Sanity:* both in $[0,1]$; and the four disjoint pieces — coffee-only $0.35$, tea-only $0.15$, both $0.25$, neither $0.25$ — sum to $1$. ✓
 

@@ -92,6 +92,7 @@ $$E[T] = \Big[-t\,e^{-\lambda t}\Big]_0^\infty + \int_0^\infty e^{-\lambda t}\,d
 ## Problems
 
 **P1 (🟢)** Recognition drill — for each, name the technique (with the one-line reason from the checklist) and give the antiderivative:
+
 (a) $\displaystyle\int \cos x \; e^{\sin x}\,dx$  (b) $\displaystyle\int x \sin x\,dx$  (c) $\displaystyle\int \frac{\ln x}{x}\,dx$ — careful, this one's a trap.
 
 **P2 (🟡)** A population governed by logistic growth requires the integral $\displaystyle\int \frac{dx}{x(4-x)}$ (here $4$ is the carrying capacity in thousands). Evaluate it.
@@ -102,8 +103,11 @@ $$E[T] = \Big[-t\,e^{-\lambda t}\Big]_0^\infty + \int_0^\infty e^{-\lambda t}\,d
 <summary>Solutions</summary>
 
 **P1**
+
 (a) **Substitution** — inner function $\sin x$, and its derivative $\cos x$ is a factor. With $u = \sin x$, $du = \cos x\,dx$: $\int e^u\,du = e^{\sin x} + C$.
+
 (b) **Parts** — genuine product, and $x$ dies under differentiation while $\sin x$ integrates happily. $u = x$, $dv = \sin x\,dx$, $du = dx$, $v = -\cos x$: $\int x\sin x\,dx = -x\cos x + \int \cos x\,dx = -x\cos x + \sin x + C$. Check: $\frac{d}{dx}(-x\cos x + \sin x) = -\cos x + x\sin x + \cos x = x\sin x$. ✓
+
 (c) The trap: $\ln x$ usually screams "parts," but the checklist asks about substitution *first* — the inner function $\ln x$ has derivative $\frac{1}{x}$, which is right there as a factor. **Substitution**: $u = \ln x$, $du = \frac{dx}{x}$: $\int u\,du = \frac{1}{2}(\ln x)^2 + C$.
 
 **P2** Ratio of polynomials, proper, factorable bottom → **partial fractions**:

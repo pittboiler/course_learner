@@ -100,7 +100,9 @@ $$1\mapsto3,\quad 2\mapsto5,\quad 3\mapsto6,\quad 4\mapsto4,\quad 5\mapsto2,\qua
 Write $\sigma$ in disjoint-cycle form, and find its order and its sign.
 
 **P2 (🟡)** Work in $D_5$ (order $10$), with $r$ of order $5$, $s$ of order $2$, and $sr^k = r^{-k}s$.
+
 (a) Simplify $r^2\,s\,r^3$ to the normal form $r^a$ or $r^a s$.
+
 (b) Count how many elements of $D_5$ have each possible order.
 
 **P3 (🔴)** Prove that no permutation is both even and odd — i.e. $\operatorname{sgn}$ is well-defined — so that a permutation's parity doesn't depend on how you factor it into transpositions.

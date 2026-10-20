@@ -128,6 +128,7 @@ So the two operators agree in exact arithmetic. Numerically they differ sharply:
 
 **From Lesson 5.1 (normal equations & the $\kappa^2$ blow-up):** For the design matrix
 $$A=\begin{pmatrix}1&1\\0&\delta\end{pmatrix},\qquad \delta=10^{-3},$$
+
 (a) form the normal-equations matrix $A^\top A$; (b) using $\det$ and $\operatorname{tr}$, estimate its eigenvalues and hence $\kappa_2(A^\top A)$; (c) deduce $\kappa_2(A)$ and confirm $\kappa_2(A^\top A)\approx\kappa_2(A)^2$; (d) roughly how many decimal digits does the normal-equations route cost versus the QR route, in double precision?
 
 <details>

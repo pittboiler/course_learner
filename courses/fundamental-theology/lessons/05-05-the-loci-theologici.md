@@ -126,9 +126,13 @@ The rule is not broken, because it never governed this. **The cap applies to wha
 **P1 (🟢) *(Exegetical.)*** For each source, name its locus by number and say whether it is proper or extrinsic. One clause each.
 
 (a) A canon of the Council of Trent
+
 (b) Aristotle's account of justice in the *Nicomachean Ethics*
+
 (c) The fact that by the fourth century the Church prayed for the dead in both East and West
+
 (d) A carbon-dated manuscript establishing when a text was written
+
 (e) Aquinas on the virtue of religion in the *Summa*
 
 **P2 (🟡) *(Exegetical (a), (b) · Evaluative (c).)*** An invented argument from a theology blog:

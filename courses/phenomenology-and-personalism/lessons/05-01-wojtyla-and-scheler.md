@@ -102,6 +102,7 @@ Here the description strains. Nothing in the visits themselves settles whether I
 **P1 (🟢) *(Exegetical (a) · Exegetical (b).)*** Apply to a hard case. Three weeks ago Lena promised to help her brother move flat on Saturday. On Friday a client offers her a well-paid half-day job for Saturday. She feels the pull of the money and no warmth toward the move, which will be tedious. She goes anyway, thinking "I said I would."
 
 (a) Describe the case in Scheler's terms. Say which values are in play and how they rank, which kind of ought Lena experiences according to the Source, and where the moral value of her act lies. 100 words or fewer.
+
 (b) Say what Wojtyła holds this description leaves out, in his terms. 80 words or fewer.
 
 **P2 (🟡) *(Exegetical (a) · Evaluative (b).)*** Find the crux. Two invented seminar positions:

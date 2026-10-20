@@ -93,7 +93,9 @@ That is a real position, and the African church took it. But look at the cost: a
 **P1 (🟢) *(Exegetical.)*** Three claims about Cyprian. For each, say whether it is **accurate**, **false**, or **overstated as to level**, and correct the ones that are not accurate in one sentence each.
 
 (a) "Cyprian taught that converts baptized by heretics must be baptized in the Church. Since he is a canonized martyr and a Father, this is the Church's teaching on the matter."
+
 (b) "'There is no salvation out of the Church' is Cyprian's own, from his letter to Jubaianus."
+
 (c) "When you quote *On the Unity of the Catholic Church* chapter 4 from Schaff, you are quoting what Cyprian wrote."
 
 **P2 (🟡) *(Exegetical.)*** Firmilian of Caesarea to Cyprian, autumn 256 (ANF Epistle 74.17 = Hartel Epistle 75.17; Wallis's translation):
@@ -101,6 +103,7 @@ That is a real position, and the African church took it. But look at the cost: a
 > And in this respect I am justly indignant at this so open and manifest folly of Stephen, that he who so boasts of the place of his episcopate, and contends that he holds the succession from Peter, on whom the foundations of the Church were laid, should introduce many other rocks and establish new buildings of many churches; maintaining that there is baptism in them by his authority. … Nor does he understand that the truth of the Christian Rock is overshadowed, and in some measure abolished, by him when he thus betrays and deserts unity.
 
 (a) What does Firmilian report Stephen as claiming, and what exactly does Firmilian deny? Point to the words that carry each.
+
 (b) Catholic readers and Orthodox or Protestant readers both cite this paragraph. State the reading each gives it and the words each leans on. Do not say which is right. **Two sentences per part.**
 
 **P3 (🔴, optional) *(Exegetical (a) · Evaluative (b).)*** An invented parish-bulletin note:
@@ -108,6 +111,7 @@ That is a real position, and the African church took it. But look at the cost: a
 > "St Cyprian settled this in the third century: 'He cannot have God for his Father who has not the Church for his mother,' and 'there is no salvation outside the Church.' So the answer to your neighbour who was baptized down the road is simple — whatever he received there, he received nothing, and our parish should say so plainly."
 
 (a) Name the two moves the note makes beyond what Cyprian's texts support, and give the setting each quotation actually has. **150 words or fewer.**
+
 (b) Cyprian holds that the episcopate is one and held whole by each bishop, and also that no bishop may compel a colleague. Scholars disagree about whether these two commitments are consistent. Argue either way in **150 words or fewer**, using the events of 256 as your test case.
 
 <details>
@@ -157,6 +161,7 @@ That is a real position, and the African church took it. But look at the cost: a
 **From Lesson [2.2](02-02-irenaeus-recapitulation.md) (Irenaeus: recapitulation):** *(Exegetical.)* At *Against Heresies* 3.21.10 Irenaeus notes that Adam was formed by the hand of God from soil that was untilled and as yet virgin, God not having sent rain and no man having tilled the ground. He then asks why God did not simply take dust a second time for the second Adam, but had the formation made from Mary. His answer (ANF, Roberts–Rambaut): "It was that there might not be another formation called into being, nor any other which should [require to] be saved, but that the very same formation should be summed up".
 
 (a) State the matched pair the passage sets up, and say what makes the match exact in Irenaeus's eyes — why a son of Joseph would not have served. **Two sentences.**
+
 (b) A reader concludes: "so Christ's flesh is a fresh making, a different stock from ours." Answer him from this passage, naming the words that decide it. **Two sentences.**
 
 <details>

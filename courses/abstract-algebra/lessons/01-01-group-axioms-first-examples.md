@@ -107,7 +107,9 @@ The four rules are spare, but they already pin down facts you'd otherwise take o
 ## Problems
 
 **P1 (🟢)** For each of the following, decide whether it is a group. If not, name the *first* axiom that fails and give a witness.
+
 (a) $(\mathbb{Q}, \times)$ — all rationals under multiplication.
+
 (b) The odd integers under multiplication.
 
 **P2 (🟡)** Prove directly from the axioms that inverses are unique: if $a \circ b = a \circ c = e$ and also $b \circ a = c \circ a = e$, then $b = c$. State which axiom each step uses.

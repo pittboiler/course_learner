@@ -100,6 +100,7 @@ This is exactly the structure of a physical source located wherever $g$ vanishes
 ## Problems
 
 **P1 (🟢)** Evaluate each, stating which property you use:
+
 (a) $\displaystyle\int_{-\infty}^{\infty}(x^2+2)\,\delta(2x-4)\,dx$; &nbsp; (b) $\displaystyle\int_{-\infty}^{\infty}(x^2+x)\,\delta'(x)\,dx$.
 
 **P2 (🟡)** Evaluate $\displaystyle\int_{-\infty}^{\infty}\cos(\pi x)\,\delta(x^2-1)\,dx$ using the composition rule. (Watch the two roots and the slope factor.)

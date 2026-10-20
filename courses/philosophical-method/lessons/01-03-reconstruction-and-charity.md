@@ -103,7 +103,9 @@ The load-bearing premise is P4, and once it is on its own line the standard obje
 **P1 (🟢) *(Exegetical.)*** Each of these is an enthymeme. Supply the single weakest premise that makes it valid. One line each.
 
 (a) "The measure passed without a recorded vote, so there is no way to hold anyone accountable for it."
+
 (b) "Torture is degrading, so it is wrong."
+
 (c) "The word 'trinity' appears nowhere in scripture, so the doctrine is a later addition."
 
 **P2 (🟡) *(Exegetical (a) · Evaluative (b).)*** Take this invented op-ed paragraph.

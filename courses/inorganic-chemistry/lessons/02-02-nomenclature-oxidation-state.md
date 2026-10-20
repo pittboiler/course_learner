@@ -100,19 +100,26 @@ $$\text{potassium hexacyanidoferrate(III)} \;=\; \ce{K3[Fe(CN)6]}.$$
 <summary>Solutions</summary>
 
 **P1**
+
 (a) Six $\ce{H2O}$ are neutral, bracket charge $+3$: $x + 6(0) = +3 \Rightarrow$ **Cr = +3**. Six monodentate ligands ⇒ **coordination number 6**.
+
 (b) Four $\ce{Cl-}$ give $4(-1) = -4$, bracket charge $-2$: $x + (-4) = -2 \Rightarrow$ **Pt = +2**. **Coordination number 4**.
+
 (c) The $\ce{Na+}$ is a counterion, so the complex is $\ce{[Al(OH)4]-}$ (charge $-1$ to balance one $\ce{Na+}$). Four $\ce{OH-}$ give $-4$: $x + (-4) = -1 \Rightarrow$ **Al = +3**. **Coordination number 4**.
 
 **P2**
+
 (a) $\ce{[Cr(NH3)4Cl2]Cl}$: one $\ce{Cl-}$ outside ⇒ complex is $+1$; $x + 4(0) + 2(-1) = +1 \Rightarrow$ Cr $= +3$. Cationic complex, so chromium keeps its name. Ligands alphabetically: **a**mmine (four → tetraammine) before **c**hlorido (two → dichlorido). Counterion $\ce{Cl-}$ = chloride.
 → **tetraamminedichloridochromium(III) chloride**.
+
 (b) $\ce{K4[Fe(CN)6]}$: four $\ce{K+}$ ⇒ complex is $-4$; $x + 6(-1) = -4 \Rightarrow$ Fe $= +2$. Complex is an **anion**, so iron → **ferrate**, and *(II)*. Six $\ce{CN-}$ = hexacyanido; potassium named first.
 → **potassium hexacyanidoferrate(II)**.
 
 **P3**
+
 (a) *tris(ethylenediamine)cobalt(III) chloride.* Cobalt(III) = $\ce{Co^3+}$; three **en** ligands, each neutral, so the complex charge is $+3 + 3(0) = +3$: $\ce{[Co(en)3]^3+}$. It needs three $\ce{Cl-}$ to balance ⇒ $\ce{[Co(en)3]Cl3}$.
 *Check:* $3(+1)_{\text{en}\times 0}$ — ligands add $0$; charge total $+3 + 3(-1) = 0$ ✓. (en is bidentate, so the coordination number is $3\times 2 = 6$.)
+
 (b) *potassium tetrachloridocuprate(II).* The *-ate* (Latin **cuprate** = copper) marks an anion; copper(II) = $\ce{Cu^2+}$; four $\ce{Cl-}$ give $+2 + 4(-1) = -2$: $\ce{[CuCl4]^2-}$. A $-2$ ion needs two $\ce{K+}$ ⇒ $\ce{K2[CuCl4]}$.
 *Check:* $2(+1) + (-2) = 0$ ✓. Coordination number 4.
 

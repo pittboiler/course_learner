@@ -88,6 +88,7 @@ Compare a planner who knows only the shortfall and cuts everyone by the same pro
 **P1 (🟢) *(Formal (a) · Exegetical (b).)*** Example 1's tin market at its original supply of 90 tonnes (canners $q_C=70-2p$, solder makers $q_S=50-p$, $p=10$). A battery industry appears with demand $q_B=30-2p$; supply stays at 90.
 
 (a) Find the new price and each industry's quantity, and how much each original industry cuts back.
+
 (b) A solder maker's profits fall. Reconstruct, in four or five numbered premises and a conclusion, Hayek's argument that this fall is neither just nor unjust, and flag the premise a critic would attack first. 120 words or fewer.
 
 **P2 (🟡) *(Exegetical.)*** An **invented** speech by a fictional mayor, not the words of any real person:
@@ -153,7 +154,9 @@ Compare a planner who knows only the shortfall and cuts everyone by the same pro
 **From Lesson [5.3](05-03-exploitation-in-labour-markets.md) (Exploitation in labour markets):** *(Formal (a)–(b) · Exegetical (c).)* Illustrative numbers. Four islanders each need 1 bushel of corn a season and work no more than they must. The factory turns 1 day of labour plus 1 bushel of seed into 2 bushels (net 1); the farm takes 2 days per bushel and no seed. Ola owns 2 bushels of seed, Pim owns 1, and Quin and Rae own none. The wage settles at the farm's rate. Ola hires out both her seed-days and works none; Pim works his own seed-day himself; Quin and Rae take Ola's two jobs, one day each, and farm the rest of what they need.
 
 (a) Find the wage, each islander's days of work, the island's labour per bushel, and each islander's days worked minus the labour embodied in the bushel she or he consumes. Who is labour-exploited, and who is an exploiter?
+
 (b) Run Roemer's withdrawal test for Pim alone and for the coalition of Quin and Rae, checking both sides of the test.
+
 (c) Pim works with his own hands, yet comes out an exploiter in (a). In two sentences: why, and what does that show, on Roemer's 1985 view, about what carries the moral weight and what question decides whether anything is wrong?
 
 <details>

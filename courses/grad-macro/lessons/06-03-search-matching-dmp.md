@@ -94,7 +94,9 @@ $$u^* = \frac{s}{s+f} = \frac{0.1}{0.1+1.272} = 0.073 \approx 7.3\%.$$
 **P1 (🟢)** In a labor market the monthly separation rate is $s = 0.02$ and the monthly job-finding rate is $f(\theta) = 0.38$. Compute the steady-state unemployment rate. If a recession doubles the separation rate to $s=0.04$ (holding $f$ fixed), what is the new $u$?
 
 **P2 (🟡 — Boss Problem 6)** Matching is $m(U,V)=A\,U^{\eta}V^{1-\eta}$ with $A=1,\ \eta=\tfrac12$. Parameters: $\beta=0.6,\ p=1,\ z=0.2,\ c=0.2,\ s=0.08,\ r=0.04$.
+
 (a) Write the job-creation condition and the wage equation, combine them, and solve for equilibrium tightness $\theta^*$ and unemployment $u^*$.
+
 (b) Without recomputing, sign the effect on $\theta^*$ and $u^*$ of (i) a rise in the benefit $z$, (ii) a rise in bargaining power $\beta$, and explain the common economic mechanism.
 
 **P3 (🔴)** State the **Hosios condition** for this economy (in terms of $\beta$ and the matching elasticity $\eta$), and explain the two search externalities it balances. Is the decentralized DMP equilibrium generically efficient?

@@ -111,6 +111,7 @@ So the dosed $\mathrm{H_2}$ never meaningfully drives pickup itself; it kills th
 
 **P1** (a) Parabolic law:
 $$x = \sqrt{k_p\,t} = \sqrt{0.050\times 80} = \sqrt{4.0} = 2.0\ \mu\mathrm{m}.$$
+
 (b) Transition at $x_t = 2.5\ \mu\mathrm{m}$: $\;t_t = x_t^2/k_p = (2.5)^2/0.050 = 6.25/0.050 = 125\ \mathrm{days}.$
 
 *Check.* Units: $\sqrt{(\mu\mathrm{m^2/day})\cdot\mathrm{day}} = \mu\mathrm{m}$ ✓. At 80 days ($<125$) the clad is still pre-transition and $x = 2.0 < x_t = 2.5\ \mu\mathrm{m}$ ✓ — consistent with not yet having reached breakaway.

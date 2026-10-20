@@ -81,9 +81,13 @@ The [closing rule](../reference.md#the-closing-rule) is a floor, not a grade. Pa
 Run [the closing rule](../reference.md#the-closing-rule) on each: passes, fails, or passes only with a distinction. For each, name the 1.2 clause that decides it and the question (Q1 or Q2) at which it is decided. **Two sentences per item.**
 
 **P2 (🟡)** *(Exegetical)* Assign each item a rung and name the act that fixes it. **One or two sentences each.**
+
 (a) "Jesus of Nazareth, and he alone, is the Son and Word of the Father", as *Dominus Iesus* 10 states it.
+
 (b) The Sobrino notification's judgment that specified propositions in two named books do not conform to Church doctrine.
+
 (c) A proposition of the ITC's *The Consciousness of Christ* (1985), approved by the Commission *in forma specifica*.
+
 (d) *Dei Filius*'s canon against giving a dogma a sense different from the Church's.
 
 **P3 (🔴)** *(Exegetical)* Two positions, both paraphrased:

@@ -119,22 +119,31 @@ They do not fail fast; they wait, holding connections and thread pool slots, and
 **P1 (🟢)** A 2PC transaction has a coordinator and 5 participants.
 
 (a) Give the number of messages in a successful commit, counting prepare, vote, decision and acknowledgement.
+
 (b) Give the number of forced log writes on the critical path.
+
 (c) With a 0.8 ms round trip and a 1.5 ms fsync, give the commit latency and compare it with a single-node commit needing one fsync.
+
 (d) State what happens if one participant is unreachable when `PREPARE` is sent, and why that outcome is forced.
 
 **P2 (🟡)** Coordinator $C$ with participants $P_1, P_2, P_3, P_4$. For each state, say whether the survivors can decide, what they decide, and the rule used. $C$ has crashed in every case.
 
 (a) $P_1$ prepared, $P_2$ prepared, $P_3$ prepared, $P_4$ has not voted.
+
 (b) $P_1$ committed, $P_2$ prepared, $P_3$ prepared, $P_4$ prepared.
+
 (c) $P_1$ prepared, $P_2$ prepared, $P_3$ prepared, $P_4$ prepared.
+
 (d) $P_1$ aborted, $P_2$ prepared, $P_3$ has not voted, $P_4$ prepared.
 
 **P3 (🔴, optional)** A 2PC deployment runs 500 transactions per second across two shards; 120 per second contend on one hot key. The coordinator's mean time to recovery is 45 seconds.
 
 (a) Give the number of transactions that pile up behind the held locks during one coordinator failure.
+
 (b) Construct the log state, as an ordered step list, in which **no** survivor can safely decide even with the cooperative termination protocol, naming which nodes crashed.
+
 (c) State precisely why the cooperative termination protocol cannot resolve your state.
+
 (d) The team proposes that after 60 seconds of uncertainty, participants abort. Give the execution in which this loses atomicity, and state what the participants would have to know for the rule to be safe.
 
 <details>
@@ -202,7 +211,9 @@ The correct fix is to remove the single point of failure rather than to guess ar
 **From Lesson 3.6 (state-machine replication):** A replicated key-value service applies commands from a Raft log. A developer adds a command handler containing `if random() < 0.1: sample_and_log(key)`.
 
 (a) State whether this breaks determinism, and what the observable consequence is.
+
 (b) State whether the same objection applies to `if hash(key) % 10 == 0: sample_and_log(key)`.
+
 (c) Give the general rule for placing nondeterminism in a replicated state machine.
 
 <details>

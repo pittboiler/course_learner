@@ -106,22 +106,31 @@ A concrete symptom worth recognizing: as $K$ grows, the fraction of samples in t
 **P1 (🟢)** With $\epsilon = 0.1$, compute $L^{\text{CLIP}}$ for each case.
 
 (a) $r_t = 1.05$, $\hat A_t = 2$.
+
 (b) $r_t = 1.4$, $\hat A_t = 2$.
+
 (c) $r_t = 0.6$, $\hat A_t = -3$.
+
 (d) $r_t = 1.3$, $\hat A_t = -3$.
 
 **P2 (🟡)** A PPO run reports that $60\%$ of samples are in the clipped region after the fourth epoch of each batch.
 
 (a) State what fraction of the batch is contributing a nonzero gradient in that epoch.
+
 (b) State two distinct changes to the hyperparameters that would reduce the clip fraction, and what each costs.
+
 (c) State why a clip fraction near zero in the *first* epoch would be expected, and what it would mean if it were not.
+
 (d) The run's average KL divergence from $\pi_{\theta_\text{old}}$ is rising across epochs even though every sample is clipped at $1\pm\epsilon$. Explain how both can be true.
 
 **P3 (🔴)** Consider a single state with two actions, $\pi_{\theta_\text{old}} = (0.5,\ 0.5)$, and an advantage estimate $\hat A = +1$ for $a_1$ (and $\hat A = -1$ for $a_2$). Take $\epsilon = 0.2$.
 
 (a) Compute the largest $\pi_\theta(a_1)$ that is not clipped.
+
 (b) Compute the smallest $\pi_\theta(a_2)$ that is not clipped, and check the two are consistent with probabilities summing to one.
+
 (c) State what happens to the gradient contribution of the $a_1$ samples and the $a_2$ samples once $\pi_\theta(a_1)$ exceeds your answer to (a).
+
 (d) Using (c), explain why PPO's effective step is governed by whichever constraint binds first, and what that implies for a policy over many actions.
 
 <details>
@@ -210,8 +219,11 @@ This is the practical reason PPO interacts badly with very peaked policies, and 
 **From Lesson 4.2 (A2C, A3C and advantage estimation):** A four-step segment with $\gamma = 1$, $\lambda = 0.5$, and TD errors $\delta_0 = 3$, $\delta_1 = 1$, $\delta_2 = -2$, $\delta_3 = 4$, terminating after step $3$.
 
 (a) Compute $\hat A_3$ through $\hat A_0$ by the backward recursion.
+
 (b) Verify $\hat A_0$ with the forward sum.
+
 (c) Compute $\hat A_0$ at $\lambda = 0$ and $\lambda = 1$.
+
 (d) State which value you would trust more if the critic had been trained for a long time on plentiful data, and why.
 
 <details>

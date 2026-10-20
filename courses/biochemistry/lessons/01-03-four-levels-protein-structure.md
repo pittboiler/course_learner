@@ -69,6 +69,7 @@ The recipe: read the *signs and rough sizes* of φ and ψ, then match to an isla
 ## Problems
 
 **P1 (🟢)** For each residue, name the secondary structure its backbone angles indicate:
+
 (a) $\varphi = -57^\circ,\ \psi = -47^\circ$; (b) $\varphi = -119^\circ,\ \psi = +113^\circ$; (c) $\varphi = +55^\circ,\ \psi = +45^\circ$ (and say which single amino acid you'd most expect here).
 
 **P2 (🟡)** A structural biologist mutates a **leucine buried in the hydrophobic core** to a **lysine**. Which level(s) of structure are most perturbed, and does the fold become more or less stable? Explain in terms of the hydrophobic effect. (Bridges to [1.4 The folding problem](01-04-the-folding-problem.md).)
@@ -79,8 +80,11 @@ The recipe: read the *signs and rough sizes* of φ and ψ, then match to an isla
 <summary>Solutions</summary>
 
 **P1**
+
 (a) $(-57^\circ, -47^\circ)$ — both moderately negative, lower-left island → **right-handed α-helix** (this is the canonical helix pair).
+
 (b) $(-119^\circ, +113^\circ)$ — negative φ, positive ψ, upper-left island → **β-sheet (extended strand)**.
+
 (c) $(+55^\circ, +45^\circ)$ — positive/positive, upper-right → **left-handed α-helix** region. Positive φ forces a normal side chain's $\ce{C_\beta}$ into a steric clash, so this spot is essentially reserved for **glycine**, which has no $\ce{C_\beta}$.
 
 **P2** Primary changes by one residue; the local backbone can still adopt its helix/sheet, so **secondary** structure is largely unaffected. The blow lands on **tertiary** structure (and **quaternary** if the residue is at a subunit interface). Lysine carries a long, positively charged, strongly hydrated side chain; burying it in the nonpolar core forces you to strip its hydration shell and strand its charge with no counterion — a large desolvation/electrostatic penalty. That is the **hydrophobic effect run backward** ([1.1](01-01-water-ph-buffers.md)): the core is stable precisely because greasy groups hide there and polar/charged groups stay in water. So the fold becomes **less stable** (unfavorable ΔΔG of folding) — it may loosen into a molten globule or unfold outright. Core-packing mutations like this are among the most destabilizing you can make.

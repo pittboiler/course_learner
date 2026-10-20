@@ -83,7 +83,9 @@ A **thousandfold** improvement in measurement precision merely doubled the horiz
 <summary>Solutions</summary>
 
 **P1** (a) $\displaystyle t_{\text{horizon}} \approx \frac{1}{0.9}\ln\!\frac{10}{10^{-4}} = \frac{1}{0.9}\ln(10^{5}) = \frac{11.513}{0.9} \approx 12.8$ time-units.
+
 (b) $t_2 = \dfrac{\ln 2}{\lambda} = \dfrac{0.693}{0.9} \approx 0.77$ time-units.
+
 (c) Number of doublings $= t_{\text{horizon}}/t_2 \approx 12.8/0.77 \approx 16.6$, i.e. about $16$–$17$ doublings. Check directly: the gap must grow by a factor $a/\delta_0 = 10^5$, and $\log_2(10^5) = 5\log_2 10 \approx 5(3.32) = 16.6$ doublings. ✓ (The two routes agree because $t_{\text{horizon}}/t_2 = \ln(a/\delta_0)/\ln 2 = \log_2(a/\delta_0)$.)
 
 **P2** Write the two horizons with the same $\lambda$ and $a$:

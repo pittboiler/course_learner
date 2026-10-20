@@ -107,8 +107,11 @@ It also explains a translation quarrel. *Substantia*, the natural Latin for *hyp
 **P1 (🟢) *(Exegetical.)*** For each statement, say whether it is said of God in respect of himself or toward another, and then how it must be said of the Trinity — of each person and in the singular, of one person only, or not of the Trinity at all. **One sentence each.**
 
 (a) God is eternal.
+
 (b) The Son is begotten.
+
 (c) The Holy Spirit is the Gift of God.
+
 (d) The Father is unbegotten.
 
 **P2 (🟡) *(Exegetical.)*** *De Trinitate* Book 5, ch. 7 (Haddan), answering the objection that "unbegotten" is said of the Father in respect of himself:
@@ -175,6 +178,7 @@ It also explains a translation quarrel. *Substantia*, the natural Latin for *hyp
 **From Lesson [3.3](03-03-constantinople-i-and-the-divinity-of-the-spirit.md) (Constantinople I (381) and the divinity of the Spirit):** *(Exegetical.)* The party the creed of 381 was written against had already granted the Son's uncreated divinity and refused the same step for the Spirit, holding him the highest of the things made. Three of their supports: scripture calls the Son God outright (John 1:1; John 20:28) and nowhere, in so many words, calls the Spirit God; the verbs used of the Spirit are verbs of being handled — he is sent, given, poured out; and the Church's older doxology ran "glory to the Father *through* the Son *in* the Holy Spirit", which reads on its face as a ranking.
 
 (a) Reconstruct their case in numbered premises and a conclusion — **at most four premises**, and mark the one that is not a report of evidence but the bridge to the conclusion.
+
 (b) Name one premise the Church **grants outright**, and name the predicate of the creed of 381 that defeats the conclusion **without** denying that premise. **Two sentences for (b).**
 
 <details>

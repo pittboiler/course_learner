@@ -77,20 +77,25 @@ Average: $\langle\hat A\rangle = 5\cdot\tfrac13 + (-3)\cdot\tfrac23 = \tfrac53 -
 
 **P1 (🟢)** An observable $\hat A$ has orthonormal eigenstates $|a_1\rangle,|a_2\rangle$ with eigenvalues $a_1 = 2$ and $a_2 = 7$. A system is prepared in
 $$|\psi\rangle = \tfrac{3}{5}\,|a_1\rangle + \tfrac{4}{5}\,|a_2\rangle.$$
+
 (a) Confirm $|\psi\rangle$ is normalized. (b) Find the probability of each outcome. (c) Compute $\langle\hat A\rangle$.
 
 **P2 (🟡)** For the same state as P1, compute $\langle\hat A^2\rangle$, the variance $\sigma_A^2$, and the standard deviation $\sigma_A$. Then: if the measurement returns $7$, write the post-measurement state, and state what a second, immediate measurement of $\hat A$ yields and with what probability.
 
 **P3 (🔴, optional)** An observable $\hat A$ has three orthonormal eigenstates $|u_1\rangle,|u_2\rangle,|u_3\rangle$ with eigenvalues $-1,\,0,\,+2$. A system is prepared in
 $$|\psi\rangle = \tfrac{1}{\sqrt6}\,|u_1\rangle + \tfrac{1}{\sqrt3}\,|u_2\rangle + \tfrac{1}{\sqrt2}\,|u_3\rangle.$$
+
 (a) Give the full outcome distribution $P(-1),P(0),P(2)$. (b) Compute $\langle\hat A\rangle$, $\langle\hat A^2\rangle$, and $\sigma_A$. (c) The observable is measured and returns $+2$; then it is measured a **second** time immediately afterward. Give the probability distribution of that second measurement, and explain in one line why it differs from part (a). (This idempotency of collapse — measuring twice in a row is the same as measuring once — is why $\hat P_n^2 = \hat P_n$.)
 
 <details>
 <summary>Solutions</summary>
 
 **P1.**
+
 (a) $|3/5|^2 + |4/5|^2 = \tfrac{9}{25} + \tfrac{16}{25} = 1$. ✓
+
 (b) $P(2) = |c_1|^2 = \tfrac{9}{25} = 0.36$ and $P(7) = |c_2|^2 = \tfrac{16}{25} = 0.64$.
+
 (c) $\langle\hat A\rangle = 2(0.36) + 7(0.64) = 0.72 + 4.48 = 5.2$. (Note it lies between $2$ and $7$, not on either.)
 
 **P2.** Using the same probabilities:
@@ -100,11 +105,14 @@ $$\sigma_A^2 = \langle\hat A^2\rangle - \langle\hat A\rangle^2 = 32.8 - (5.2)^2 
 Post-measurement state: outcome $7$ collapses $|\psi\rangle$ onto $|a_2\rangle$, so the state is exactly $|a_2\rangle$. A second immediate measurement of $\hat A$ then yields $7$ with probability $|\langle a_2|a_2\rangle|^2 = 1$ — certainty. The state is now determinate ($\sigma_A = 0$), an eigenstate.
 
 **P3.**
+
 (a) $P(-1) = \left(\tfrac{1}{\sqrt6}\right)^2 = \tfrac16$, $\ P(0) = \tfrac13 = \tfrac26$, $\ P(2) = \tfrac12 = \tfrac36$. They sum to $\tfrac{1+2+3}{6} = 1$. ✓
+
 (b)
 $$\langle\hat A\rangle = (-1)\tfrac16 + 0\cdot\tfrac13 + 2\cdot\tfrac12 = -\tfrac16 + 1 = \tfrac56 \approx 0.833.$$
 $$\langle\hat A^2\rangle = (-1)^2\tfrac16 + 0^2\cdot\tfrac13 + 2^2\cdot\tfrac12 = \tfrac16 + 2 = \tfrac{13}{6} \approx 2.167.$$
 $$\sigma_A^2 = \tfrac{13}{6} - \left(\tfrac56\right)^2 = \tfrac{78}{36} - \tfrac{25}{36} = \tfrac{53}{36}, \qquad \sigma_A = \tfrac{\sqrt{53}}{6} \approx 1.213.$$
+
 (c) The first measurement returned $+2$, collapsing the state to $|u_3\rangle$. The state is now an eigenstate of $\hat A$, so the second measurement gives $P(2) = 1$ and $P(-1) = P(0) = 0$ — a single certain outcome, not the spread of part (a). It differs because collapse has already committed the system: applying the projector twice is the same as applying it once ($\hat P_3^2 = \hat P_3$), so a repeated measurement reveals nothing new.
 
 </details>

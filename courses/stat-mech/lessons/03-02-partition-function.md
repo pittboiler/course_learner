@@ -141,6 +141,7 @@ From this *one* expression, every equilibrium property follows by a derivative: 
 <summary>Solutions</summary>
 
 **P1.**
+
 (a) Two states, energies $0$ and $\epsilon$:
 $$Z = e^{0} + e^{-\beta\epsilon} = 1 + e^{-\beta\epsilon}.$$
 
@@ -169,6 +170,7 @@ $$p = -\frac{\partial F}{\partial V} = Nk_BT\frac{\partial}{\partial V}\ln V = \
 *Where the $1/V$ comes from:* only the $\ln V$ piece of $F$ depends on $V$ ($\lambda$ and $N$ don't), and $\partial_V(\ln V)=1/V$; the prefactor $Nk_BT$ rides along, giving $p=Nk_BT/V$. Pressure is entirely the entropy's appetite for volume — more room means more accessible position states.
 
 **P3.**
+
 (a) $Z=\sum_s e^{-\beta E_s}$, so $\partial_\beta Z = \sum_s(-E_s)e^{-\beta E_s} = -\sum_s E_s e^{-\beta E_s}$. Therefore
 $$-\frac{\partial\ln Z}{\partial\beta} = -\frac{1}{Z}\frac{\partial Z}{\partial\beta} = \frac{1}{Z}\sum_s E_s e^{-\beta E_s} = \sum_s E_s P_s = \langle E\rangle.\ \checkmark$$
 

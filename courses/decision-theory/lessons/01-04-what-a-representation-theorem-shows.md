@@ -93,17 +93,21 @@ Where it strains: Nadia's defender says her node preference for the sure 1,000 i
 **P1 (🟢) *(Formal (a)–(b) · Exegetical (c).)*** Theo owns a kayak and has 500 dollars. He strictly prefers a telescope to the kayak, a drone to the telescope, and the kayak to the drone. He accepts a swap to the preferred good for any fee not exceeding 7 dollars (kayak to telescope), 5 (telescope to drone) and 4 (drone to kayak). A trader offers the swaps in the order kayak → telescope → drone → kayak → … and stops when Theo cannot pay.
 
 (a) The trader charges Theo's maximum on each swap. How much is extracted after $k$ full cycles? How many full cycles happen, and what does Theo hold, with how much money, when it stops?
+
 (b) The trader instead charges one uniform fee on every swap. What is the largest uniform fee Theo accepts on all three swaps? At that fee, how does it end?
+
 (c) Name the axiom the pump targets and the two further premises about Theo it relies on. Two sentences.
 
 **P2 (🟡) *(Formal (a) · Exegetical (b).)*** A spinner gives nothing with probability 3/4; with probability 1/4 Iris reaches a choice between 400 dollars for sure and a 0.85 chance of 500 (else nothing). At the choice node she takes the sure 400. Asked at the start, she prefers the plan "take the gamble at the node" to the plan "take the sure 400".
 
 (a) Reduce both plans to one-stage lotteries. Taking $u(0)=0$ and $u(500)=1$, show that no utility function makes both of her preferences expected-utility maximizing. If she is sophisticated, which plan does she end with, and how does she rank it against the other?
+
 (b) A realist says Iris has real utilities and at least one of her choices misses them. A constructivist says the tree shows only that no utility function describes her. Name the crux between them, and say what each must supply to call Iris irrational. 100 words or fewer.
 
 **P3 (🔴, optional) *(Formal (a) · Evaluative (b).)*** Take Theo from P1, with his money as $m$. Assume his preferences over goods-plus-money follow the fee limits exactly: for any amount $x$ and any $f$ (possibly negative), he strictly prefers the telescope with $x-f$ dollars to the kayak with $x$ dollars iff $f<7$, and likewise with 5 for drone over telescope and 4 for kayak over drone. More money with the same good is always better. The trader now announces the full sequence in advance: three swaps, kayak → telescope, telescope → drone, drone → kayak, 3 dollars each. Theo is sophisticated.
 
 (a) Solve by backward induction. Which swaps does Theo accept, and what does he end with?
+
 (b) Theo avoided the pump while keeping his cyclic preferences. Does that show intransitivity is rationally permissible? Any verdict passes; 150 words or fewer.
 
 <details>
@@ -173,6 +177,7 @@ Contradiction, so no $u$ fits; this is an independence violation with $\alpha=\t
 **From Lesson [1.2](01-02-from-expected-value-to-expected-utility.md) (From expected value to expected utility):** *(Formal (a)–(b).)* A biased coin lands heads with probability $h$ and is tossed until the first head. If that comes on toss $n$, the game pays $2^n$ dollars. The agent has $u(x) = \sqrt{x}$.
 
 (a) Take $h = 1/3$. Show that the expected value is infinite, then find the expected utility and the certainty equivalent exactly.
+
 (b) For which $h$ is the expected value infinite but the square-root agent's expected utility finite?
 
 <details>

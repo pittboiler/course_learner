@@ -103,11 +103,15 @@ $$\eta=\frac{\phi\tanh\phi}{\phi^2}=\frac{\tanh\phi}{\phi}.$$
 <summary>Solutions</summary>
 
 **P1** (a) $\phi=L\sqrt{k_1/D_e}=10^{-3}\sqrt{0.040/10^{-8}}=10^{-3}\sqrt{4.0\times10^{6}}=10^{-3}\cdot2000=2.0$. (Dimensionless ✓.)
+
 (b) $\eta=\tanh\phi/\phi=\tanh(2.0)/2.0=0.9640/2.0=0.482$.
+
 (c) $c_A(0)/c_{A,s}=1/\cosh\phi=1/\cosh(2.0)=1/3.762=0.266$ — only about 27 percent of the surface value reaches the center. With $\phi=2$ and $\eta\approx0.48$ this is a **moderately diffusion-limited** pellet: you're collecting under half the potential rate, and the core is noticeably starved. *Sanity:* all three numbers dimensionless, $\eta<1$, center depressed below surface ✓.
 
 **P2** (a) Reaction-limited ($\phi\ll1$): $\eta\to1$, so $R\propto L\cdot1=L$. Doubling $L$ doubles $R$ — all the extra material is active. *Check with small numbers:* $\phi=0.2\to\eta=\tanh(0.2)/0.2=0.987$; double to $\phi=0.4\to\eta=\tanh(0.4)/0.4=0.950$. Rate ratio $=\dfrac{2L\cdot0.950}{L\cdot0.987}=1.93$ — essentially double ✓.
+
 (b) Diffusion-limited ($\phi\gg1$): $\eta\to1/\phi\propto1/L$, so $R\propto L\cdot(1/L)=\text{const}$. Doubling $L$ leaves $R$ unchanged — the added interior is dead. 
+
 (c) The P1 pellet, $\phi=2\to\phi=4$. $\eta(2)=0.482$; $\eta(4)=\tanh(4)/4=0.9993/4=0.2498$. Rate ratio:
 $$\frac{R(2L)}{R(L)}=\frac{2L\cdot\eta(4)}{L\cdot\eta(2)}=\frac{2\cdot0.2498}{0.482}=\frac{0.4996}{0.482}=1.04.$$
 Doubling the thickness — twice the precious-metal catalyst — buys only about **4 percent** more conversion. The pellet is already past the sweet spot; the extra material is almost entirely dead weight. The design lesson: shrink the pellet (or make it more porous, raising $D_e$) to pull $\phi$ down toward 1, rather than adding mass.

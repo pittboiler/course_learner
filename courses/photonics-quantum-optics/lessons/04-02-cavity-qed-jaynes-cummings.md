@@ -97,6 +97,7 @@ The atom fully hands its energy to the empty cavity at $gt=\pi/2$ (photon now in
 
 **P1** (a) The vacuum ($n=0$) splitting is $2\hbar g$; in frequency units divide by $h=2\pi\hbar$, giving $2g/(2\pi) = 2\times 5\ \mathrm{MHz} = 10\ \mathrm{MHz}$. (b) $P_e=\cos^2(gt)=\tfrac12(1+\cos 2gt)$ returns to $1$ after one full cycle at $gt=\pi$, so the period is
 $$T = \frac{\pi}{g} = \frac{\pi}{2\pi\times 5\times 10^{6}\ \mathrm{s^{-1}}} = \frac{1}{10^{7}\ \mathrm{s^{-1}}} = 100\ \mathrm{ns}.$$
+
 (c) The photon is fully in the cavity when $P_e=\cos^2(gt)=0$, first at $gt=\pi/2$:
 $$t = \frac{\pi}{2g} = 50\ \mathrm{ns} = \tfrac12 T.$$
 *Check.* Halfway through a period the excitation has completely migrated to the field ($P_{g,1}=\sin^2(\pi/2)=1$); it returns to the atom at $T=100$ ns. ✓
@@ -126,8 +127,10 @@ $$\langle e,0|\psi(t)\rangle = \tfrac12\big(e^{-igt}+e^{+igt}\big) = \cos(gt)\ \
 
 (a) On resonance from the ground state, $P_e(t)=\sin^2(\Omega t/2)$. The $\pi$-pulse fully inverts the atom at $\Omega t=\pi$:
 $$t_\pi = \frac{\pi}{\Omega} = \frac{\pi}{2\pi\times 2\times 10^{6}\ \mathrm{s^{-1}}} = \frac{1}{4\times 10^{6}\ \mathrm{s^{-1}}} = 250\ \mathrm{ns}.$$
+
 (b) At $t=0.30\ \mu\mathrm{s}=300\ \mathrm{ns}$: $\Omega t = 2\pi\times 2\times 10^{6}\times 3\times10^{-7} = 1.2\pi$, so $\Omega t/2 = 0.6\pi$ and
 $$P_e = \sin^2(0.6\pi) = \sin^2(108^\circ) = (0.951)^2 \approx 0.90.$$
+
 (c) In 1.2 a *classical* field of amplitude $E_0$ drives the flop at $\Omega=dE_0/\hbar$, so switching the field off ($E_0=0$) freezes the atom; in cavity QED the atom flops at $2g$ even with **zero photons**, because the quantized vacuum, not a classical amplitude, supplies the coupling — and starting from $|e\rangle$ turns the $\sin^2$ into $\cos^2$.
 
 *Check.* At the $\pi$-pulse time $t=250$ ns, $\Omega t/2=\pi/2$ and $P_e=1$ ✓; $t=300$ ns is just past the peak, so $P_e$ has dropped slightly below 1, consistent with $0.90$. ✓

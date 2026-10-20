@@ -96,12 +96,15 @@ Now the strain. Those are the pipes that bend toward heresy, and *On First Princ
 > It begins by saying that Christ was made God's son not born; that God the Father, as He is by nature invisible, is invisible even to the Son; that the Son, who is the likeness of the invisible Father, compared with the Father is not the truth but compared with us who cannot receive the truth of the almighty Father seems a figure of the truth … The Holy Spirit he places after the Father and the Son as third in dignity and honour. And while he declares that he does not know whether the Holy Spirit is created or uncreated, he has later on given his own opinion that except God the Father alone there is nothing uncreated.
 
 (a) List what this passage reports Book I as holding about the Son and about the Spirit. **Two sentences.**
+
 (b) The Source passage above is the same book in Rufinus. Name the features of the transmission that produce the difference, and say which way each witness leans. **Two sentences.**
+
 (c) A writer cites this passage as "Origen's own words". What is wrong with that description, and what is the most a careful writer may claim from it? **Two sentences.**
 
 **P2 (🟡) *(Exegetical (a) · Evaluative (b).)*** Origen and the anathemas.
 
 (a) State precisely what happened in 543 and in 553, what is disputed among scholars about the 553 material, and what a Catholic must hold about the condemned propositions regardless of how that dispute goes. Be exact about which body did what. **100 words or fewer.**
+
 (b) A historian claims that *Origen himself* taught universal restoration as doctrine, not as inquiry. Say what evidence would have to be produced to make that claim stick, what the standing obstacles are, and give your verdict on whether the claim can be established on the evidence we have. **150 words or fewer.**
 
 **P3 (🔴, optional) *(Exegetical.)*** An invented paragraph from a parish study-group handout:

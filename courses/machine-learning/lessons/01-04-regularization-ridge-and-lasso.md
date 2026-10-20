@@ -146,19 +146,25 @@ That is the mechanism behind "ridge helps with multicollinearity", stated as ari
 **P1 (🟢)** An orthonormal design gives $\hat\beta^{\text{OLS}} = (4,\ -1.5,\ 0.6,\ -0.2)$.
 
 (a) Tabulate the ridge and lasso estimates at $\lambda = 1$ and at $\lambda = 3$.
+
 (b) At each $\lambda$, say which coefficients the lasso sets to zero.
+
 (c) One coefficient at $\lambda = 3$ lands on the threshold exactly. Which, and what does the subgradient condition say about that case?
 
 **P2 (🟡)** Two identical columns. Take $x_1 = x_2 = (1,\ 1,\ -1,\ -1)^\top$ and $y = (2,\ 2,\ -2,\ -2)^\top$, with $\lambda = 4$. (Useful: $x_1^\top y = 8$, $\lVert x_1\rVert^2 = 4$, $\lVert y\rVert^2 = 16$.)
 
 (a) Show the fit depends on $\beta$ only through $s = \beta_1 + \beta_2$, and find the lasso's optimal $s$. Then show that *every* split of that $s$ into two non-negative parts is an exact minimiser.
+
 (b) Find the ridge solution, and show it is unique.
+
 (c) Now suppose the second column is perturbed by a hair, so that $x_2^\top y = 8 + \eta$ for some tiny $\eta \ne 0$. Which feature does the lasso bring in first as $\lambda$ comes down from $\lambda_{\max}$, and what happens if $\eta$ changes sign? Say which estimator you want when the deliverable is a stable claim about *which* feature matters.
 
 **P3 (🔴)** A colleague standardises every feature column using the mean and standard deviation of the **whole** dataset, and only then runs 10-fold cross-validation to pick $\lambda$.
 
 (a) Is this a leak? Say precisely what information crosses the boundary.
+
 (b) Quantify it. For a column with population standard deviation $\sigma$, $n$ rows and $k$ folds, show that the centring constant used differs from the honest training-fold one by a random amount with standard deviation $\sigma/\sqrt{n(k-1)}$, and evaluate it at $n = 1000, k = 10$ and at $n = 50, k = 10$.
+
 (c) Contrast it with a leak that is *not* small, and state your recommendation in one sentence.
 
 <details>
@@ -220,7 +226,9 @@ bias² plus variance plus irreducible noise. (Proof: [`statistical-learning`](..
 Take the simplest possible ridge problem: one orthonormal column, true coefficient $\beta = 2$, and an OLS estimate $\hat\beta^{\text{OLS}}$ that is unbiased with variance $\tau^2 = 4$. The ridge estimate is $\hat\beta_\lambda = \hat\beta^{\text{OLS}}/(1+\lambda)$.
 
 (a) **Before computing anything:** which of the three terms does $\lambda$ move, and in which direction as $\lambda$ grows?
+
 (b) Give bias², variance and their sum as functions of $\lambda$, and evaluate at $\lambda = 0,\ 1,\ 2$.
+
 (c) Find the optimal $\lambda$ in general, in terms of $\beta$ and $\tau^2$. What does its sign tell you about whether OLS is ever the best choice here?
 
 <details>

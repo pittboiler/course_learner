@@ -259,8 +259,11 @@ $$\text{RPF} = \frac{92}{66.7+130.0} = \frac{92}{196.7} = 0.468\ \text{L/min}, \
 **P3 (🔴, bridges to 3.3 and to control theory)** A patient has bilateral renal artery narrowing: renal arterial pressure is 75 mmHg instead of 100. Use Example 2's resistances ($R_A = 66.7$, $R_E = 86.7\ \text{mmHg}\cdot\text{min/L}$), $P_v = 8$ mmHg, $P_{BS} = 18$ mmHg, $\pi_{GC} = 32$ mmHg, $K_f = 12.5\ \text{mL}/(\text{min}\cdot\text{mmHg})$.
 
 (a) With resistances unchanged, compute RPF, $P_{GC}$, NFP and GFR. Interpret the sign.
+
 (b) Angiotensin II now doubles efferent resistance to $173.3$. Recompute RPF, $P_{GC}$, NFP, GFR and the filtration fraction.
+
 (c) The patient is started on a drug that blocks angiotensin II, and their creatinine rises sharply within days. Explain the mechanism in two sentences.
+
 (d) Identify the sensor, controlled variable, and effector of the loop angiotensin II is closing here, and say why this controller is dangerous to interrupt but useful to have.
 
 <details>
@@ -368,7 +371,9 @@ The rising filtration fraction is not a side effect but a second payoff: more fi
 **From Lesson 2.3 (hemodynamics and blood pressure regulation):** A 68-year-old has a blood pressure of 158/72 mmHg at a heart rate of 60/min, with a stroke volume of 82 mL and a right atrial pressure of 4 mmHg.
 
 (a) Compute pulse pressure and mean arterial pressure (use $\text{MAP} \approx \text{DBP} + PP/3$).
+
 (b) Estimate arterial compliance, and compare it with a young adult's value of about 1.75 mL/mmHg.
+
 (c) Compute total peripheral resistance. Then say, in one sentence each, what is actually abnormal about this circulation and why the baroreflex is likely to be *less* effective in this person than in a 25-year-old.
 
 <details>

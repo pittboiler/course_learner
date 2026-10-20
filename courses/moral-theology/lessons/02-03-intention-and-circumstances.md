@@ -142,8 +142,11 @@ That is the strain. The line between *redescribing the object* and *letting the 
 ## Flashback
 
 **From Lesson [2.1](02-01-the-voluntary.md) (The voluntary):** *(Exegetical.)* Three cases written for this problem. For each, name the factor at work and say whether it increases, diminishes, removes or leaves unchanged the voluntary character of the act, citing the article. **One sentence each, then one sentence for the last part.**
+
 (a) Jonah, a building inspector, refuses a contractor's bribe for weeks. Then he accepts it, because he badly wants the money for a new car.
+
 (b) Mei watches a driver swerve into her child's bicycle. Flooded with anger, and still shaking, she chooses to scream an insult at him.
+
 (c) Piet, a lock-keeper whose job is to close the flood gate at six, stays drinking at the pub until eight, and the lower street floods. Would the verdict change if a fallen tree had blocked his only road to the gate?
 Last part: why does desire make an act *more* voluntary when fear only makes it mixed?
 

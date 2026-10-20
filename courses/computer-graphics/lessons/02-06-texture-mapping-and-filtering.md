@@ -105,14 +105,19 @@ The fix is the seam rule: give that vertex a duplicate with $u = 1.05$. Now the 
 | $j = 0$ | 0 | 100 | 200 | 100 |
 
 (a) Give the nearest and bilinear values at $(u, v) = (0.55, 0.40)$.
+
 (b) Give the bilinear value at $(u, v) = (0.05, 0.90)$, and say which texels clamping duplicated.
 
 **P2 (🟡)** For the texture coordinate $(u, v) = (1.3,\ -0.2)$, give the coordinate actually sampled under **repeat**, **clamp** and **mirror** wrapping. Then say which mode you would choose for (a) a tiling grass texture, (b) a road-sign decal, (c) a marble slab photo that must tile without visible seams.
 
 **P3 (🔴)** Earth's surface (radius 6371 km) is textured with a $2048 \times 1024$ equirectangular image.
+
 (a) How many kilometres does one texel span east–west and north–south at the equator?
+
 (b) How many kilometres east–west at latitude $60°$?
+
 (c) At what latitude is a texel one quarter as wide east–west as at the equator?
+
 (d) A modeller proposes a *planar* top-down projection instead, to avoid the pole pinch. What happens near the equator?
 
 <details>
@@ -139,7 +144,9 @@ Value $\mathbf{100}$. Clamping duplicated the corner texel $(0, 3)$ into all fou
 | mirror | $2 - 1.3 = 0.7$ | $0.2$ |
 
 (a) Tiling grass: **repeat** — the texture is authored to tile.
+
 (b) Decal: **clamp** — outside the sign, you want the border colour (often transparent), not another copy of the sign.
+
 (c) Marble photo: **mirror** — reflecting at each boundary makes neighbouring copies match along the edge, hiding the seam at the cost of visible symmetry.
 
 **P3**
@@ -157,8 +164,11 @@ Value $\mathbf{100}$. Clamping duplicated the corner texel $(0, 3)$ into all fou
 ## Flashback
 
 **From Lesson 2.4 (Phong lighting):** A surface point at the origin has normal $(0, 0, 1)$. A white point light with $I_0 = 25$ is at $(0, 3, 4)$, using physical $1/d^2$ falloff. The eye is at $(0, -3, 4)$. Material: $k_d = 0.6$, $k_s = 0.3$, $p = 30$, no ambient.
+
 (a) Compute $\mathbf{l}$, $\mathbf{v}$, $\mathbf{r}$ and the light intensity at the point.
+
 (b) Compute the shaded value.
+
 (c) Explain in one sentence why the specular factor comes out exactly 1.
 
 <details>

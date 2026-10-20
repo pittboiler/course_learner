@@ -101,7 +101,9 @@ The first-order (Shephard) estimate is $h_1\cdot\Delta p_1=10\times0.21=2.10$ �
 **P2 (🟡)** Using the general Cobb–Douglas results in Example 1, verify the duality identity $h(p,\bar u)=x\bigl(p,e(p,\bar u)\bigr)$ symbolically for good 1. (Substitute $w=e(p,\bar u)$ into Marshallian $x_1=aw/p_1$ and check you land on $h_1$.)
 
 **P3 (🔴, optional)** Cobb–Douglas again, $u=x_1^{a}x_2^{1-a}$, with $v(p,w)=a^a(1-a)^{1-a}\,w\,p_1^{-a}p_2^{-(1-a)}$.
+
 (a) Recover Marshallian demand $x_1(p,w)$ from $v$ via Roy's identity, and confirm it equals $aw/p_1$.
+
 (b) Show $e(p,\bar u)$ is concave in $p$ by computing its $2\times2$ price-Hessian and proving it is negative semidefinite. Identify the zero eigenvalue and say which property of $e$ forces it.
 
 <details>

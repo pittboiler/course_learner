@@ -144,12 +144,15 @@ That is what the literature settled: not whether the cases work, but that the in
 **P1 (🟢) *(Exegetical.)*** Three miniature cases. For each, say whether it is a Frankfurt case *as Frankfurt needs it to be*, and if not, name what has gone wrong. One or two sentences each.
 
 (a) A neuroscientist monitors Mara, and when she begins deliberating she activates the device, which forms in Mara the decision to lie. Mara lies.
+
 (b) An employer would have hired a second assassin had the first refused the job. The first accepts and shoots.
+
 (c) A device would have produced in Hal the decision to stay silent had he shown a certain prior sign. He shows the opposite sign, decides on his own to stay silent, and does. The device stays idle.
 
 **P2 (🟡) *(Exegetical (a) · Evaluative (b).)*** Ines is deciding whether to sign a false affidavit. A neurologist has a device keyed to a hormonal marker that, in Ines, precedes decisions of this kind and indicates their direction correctly about 97 per cent of the time. Had the marker indicated refusal, the device would have produced in Ines the decision to sign. The marker indicated signing; Ines signed, for her own reasons; the device stayed idle.
 
 (a) Which horn of the dilemma defence does this case fall on, and why? State the horn precisely, including what goes wrong in each of its sub-cases.
+
 (b) Redesign the case as a buffer case that escapes both horns, then say what the redesign costs. 150 words or fewer for (b), any verdict, provided you say what the buffer is a necessary condition *of*.
 
 **P3 (🔴, optional) *(Evaluative.)*** A defender of Frankfurt cases and a flicker theorist agree on every fact about the tax-evasion case — the buffer, the device, the decision — and still disagree about whether Joe's case refutes PAP. In 150 words or fewer: name the single premise they disagree about, in one line, and say what consideration or argument would actually move it. Any verdict; the crux and the mover are what is graded.
@@ -197,7 +200,9 @@ That is what the literature settled: not whether the cases work, but that the in
 **F1 (🟡) *(Exegetical (a)–(b) · Evaluative (c).)*** At 7:40 one evening Tomas forwards an email disclosing a colleague's medical records. Nobody restrained him, drugged him or threatened him. Assume determinism, and use the notation of [6.1](06-01-determinism-and-the-consequence-argument.md): **P0** for the complete state of the world at some instant in the remote past, **L** for the conjunction of the laws.
 
 (a) Run the *direct* version of the consequence argument on Tomas's forwarding the email — five numbered lines — and name the two steps a compatibilist has to attack.
+
 (b) Tomas's brother says: "Determinism is probably false anyway — the physics is indeterministic. But that wouldn't make Tomas one bit freer." Which view in 6.1's taxonomy is he stating, and what does that view hold?
+
 (c) Suppose the argument of (a) is sound, so Tomas could not have done otherwise. In 100 words or fewer, say what today's lesson implies about whether his *responsibility* follows, and what an incompatibilist needs in addition. Any verdict.
 
 <details>

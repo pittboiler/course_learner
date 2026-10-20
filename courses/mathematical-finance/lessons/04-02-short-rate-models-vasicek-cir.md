@@ -107,7 +107,9 @@ The yield $y(0,T) = -\ln P/T = (B r_0 - A)/T$ is affine in $r_0$; its $T\to\inft
 **P1.** (a) $e^{-at}=e^{-0.6}=0.5488$. Mean: $\mathbb{E}^Q[r_2]=0.05+(0.03-0.05)(0.5488)=0.05-0.01098=\mathbf{0.03902}$ (≈ 3.90%). Variance: $e^{-2at}=e^{-1.2}=0.3012$, so $\operatorname{Var}(r_2)=\dfrac{\sigma^2}{2a}(1-e^{-1.2})=\dfrac{0.0004}{0.6}(0.6988)=\mathbf{4.66\times10^{-4}}$ (SD ≈ 0.0216, about 2.16%). (b) Stationary law $r_\infty\sim\mathcal{N}\!\big(b,\ \sigma^2/2a\big)=\mathcal{N}(0.05,\ 6.67\times10^{-4})$ (SD ≈ 2.58%). (c) Because Vasicek $r_t$ is exactly Gaussian, its support is all of $\mathbb{R}$ and it assigns positive probability to $r<0$; CIR's $\sqrt{r}$ shuts the noise off as $r\to0$ while the drift $ab>0$ still pushes up, so (with $2ab\ge\sigma^2$) $r$ never reaches zero.
 
 **P2.** (a) $\tau=5$, $a\tau=1.5$, $e^{-1.5}=0.22313$. $B=\dfrac{1-0.22313}{0.3}=\dfrac{0.77687}{0.3}=\mathbf{2.5896}.$
+
 (b) $b-\dfrac{\sigma^2}{2a^2}=0.05-\dfrac{0.0004}{0.18}=0.05-0.002222=0.047778.$ Then $B-\tau=2.5896-5=-2.4104$, so the first term is $-2.4104\times0.047778=-0.115166$. Second term: $\dfrac{\sigma^2 B^2}{4a}=\dfrac{0.0004\times6.7062}{1.2}=0.0022354$. Hence $A=-0.115166-0.002235=\mathbf{-0.117401}.$
+
 (c) $\ln P = A - B r_t = -0.117401-(2.5896)(0.03)=-0.117401-0.077688=-0.195089$, so $P=e^{-0.195089}=\mathbf{0.8228}$. Yield $y=-\ln P/\tau=0.195089/5=\mathbf{0.03902}$ (≈ 3.90%). (Sanity: $y$ sits between the short rate 3% and the long yield $y_\infty=0.047778$, so the 5-year curve is upward-sloping here.)
 
 **P3.** *Setup.* $I=\int_0^T r_s\,ds$ is Gaussian (linear functional of the Gaussian OU process), so $P(0,T)=\mathbb{E}^Q[e^{-I}]=\exp(-M+\tfrac12 V)$ with $M=\mathbb{E}^Q[I],\ V=\operatorname{Var}(I)$.

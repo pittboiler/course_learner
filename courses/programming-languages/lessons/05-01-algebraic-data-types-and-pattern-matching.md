@@ -113,15 +113,21 @@ This is why a compiler is written this way, and it generalizes past compilers: a
 **P1 (🟢)** Give the number of distinct values of each type, assuming $|\mathsf{Bool}| = 2$ and $|\mathsf{Unit}| = 1$.
 
 (a) $\mathsf{Option}\ (\mathsf{Bool}\times\mathsf{Bool})$
+
 (b) $\mathsf{Bool} \to \mathsf{Option}\ \mathsf{Unit}$
+
 (c) $(\mathsf{Bool}+\mathsf{Unit}) \times \mathsf{Bool}$
+
 (d) $\mathsf{Option}\ (\mathsf{Option}\ \mathsf{Bool})$
 
 **P2 (🟡)** Write each as an algebraic data type declaration, and give its cardinality where finite.
 
 (a) A traffic light: red, amber or green.
+
 (b) A result that is either a success carrying a value of type $\alpha$ or a failure carrying an error message.
+
 (c) A binary tree whose *leaves* carry values of type $\alpha$ and whose internal nodes carry nothing.
+
 (d) A JSON value: null, a boolean, a number, a string, an array of JSON values, or an object mapping strings to JSON values.
 
 **P3 (🔴)** A codebase models a shape as
@@ -139,8 +145,11 @@ perimeter s = case s of
 ```
 
 (a) A developer adds `Triangle Double Double Double`. State exactly which of the two functions fails to compile and which silently misbehaves, and say why.
+
 (b) State the general rule this illustrates about catch-all patterns.
+
 (c) Now suppose instead the codebase used a class hierarchy with an abstract `Shape` class and one subclass per shape, each implementing `area` and `perimeter`. State what adding `Triangle` costs, and what adding a *new operation* `boundingBox` costs.
+
 (d) Name the problem that (a) and (c) are the two horns of, and state in one sentence what each approach makes cheap.
 
 <details>
@@ -212,6 +221,7 @@ The trade in one sentence: **algebraic data types make new operations cheap and 
 **From Lesson 3.2 (Church encodings and beta-reduction):** A pair is $\lambda a.\lambda b.\lambda s.\ s\,a\,b$ — a function awaiting a selector — and a boolean is its own `if`.
 
 (a) Write the Church encoding of a **sum** type: give terms $\mathsf{inl}$, $\mathsf{inr}$ and $\mathsf{case}$ such that $\mathsf{case}\ (\mathsf{inl}\ v)\ f\ g$ reduces to $f\,v$ and $\mathsf{case}\ (\mathsf{inr}\ v)\ f\ g$ reduces to $g\,v$.
+
 (b) Compare your $\mathsf{inl}$ and $\mathsf{inr}$ with $\mathsf{tru}$ and $\mathsf{fls}$, and say what the extra structure is.
 
 <details>

@@ -108,8 +108,11 @@ $$N_A=\frac{40.6\times6.3\times10^{-5}}{0.05}(0.60-0.10)=\frac{2.558\times10^{-3
 And $N_B=-N_A=-2.6\times10^{-2}\ \mathrm{mol/(m^2\,s)}$. *Units:* $(\mathrm{mol/m^3})(\mathrm{m^2/s})/\mathrm m=\mathrm{mol/(m^2\,s)}$ ✓. (Larger than Example 1 because $D_{AB}$ for H$_2$ is much bigger — hydrogen diffuses fast.)
 
 **P2** (a) $v^*=\dfrac{N_A+N_B}{c}=\dfrac{8.0\times10^{-4}}{40.6}=2.0\times10^{-5}\ \mathrm{m/s}$.
+
 (b) bulk drag $=x_A(N_A+N_B)=0.50\times8.0\times10^{-4}=4.0\times10^{-4}\ \mathrm{mol/(m^2\,s)}$.
+
 (c) $J_A^*=N_A-x_A(N_A+N_B)=8.0\times10^{-4}-4.0\times10^{-4}=4.0\times10^{-4}\ \mathrm{mol/(m^2\,s)}$.
+
 (d) $J_A^*/(1-x_A)=4.0\times10^{-4}/0.50=8.0\times10^{-4}=N_A$ ✓.
 Here bulk drag is $4.0/8.0=50\%$ of $N_A$; in Example 2 ($x_A=0.30$) it was $30\%$. The drag share equals $x_A$ exactly — the richer A is, the more of its "diffusion" is really being swept along. *Units:* $v^*$ in m/s, fluxes in mol/(m²·s) ✓.
 

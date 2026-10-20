@@ -67,7 +67,9 @@ An *infinite* stream of payments, a *finite* fair price — exactly the $\frac{1
 **P2 (🟡)** Evaluate $\displaystyle\int_0^\infty x\,e^{-x^2}\,dx$. (A 2.2 technique gets you the antiderivative; then handle the limit honestly.)
 
 **P3 (🔴, optional)** Near Earth's surface gravity pulls with force $mg$, but at distance $r$ from Earth's center the force is $F(r) = \frac{mgR^2}{r^2}$, where $R$ is Earth's radius. 
+
 (a) Show the work needed to lift a mass $m$ from the surface to *infinity* is finite, and equals $mgR$.
+
 (b) Use (a) and kinetic energy $\frac{1}{2}mv^2$ to find escape velocity, with $g = 9.8\ \mathrm{m/s^2}$, $R = 6.37\times 10^6$ m.
 
 <details>

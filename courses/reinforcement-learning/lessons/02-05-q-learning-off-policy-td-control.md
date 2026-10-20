@@ -122,22 +122,31 @@ Note that the top row is not even the best safe route — one row back is worth 
 **P1 (🟢)** An agent in state $s$ takes action $a$, gets $R = 1$, and lands in $s'$ where $Q(s',a_1) = 4$, $Q(s',a_2) = 7$, $Q(s',a_3) = 2$. Currently $Q(s,a) = 3$, with $\gamma = 0.9$ and $\alpha = 0.2$.
 
 (a) Compute the Q-learning target and the updated $Q(s,a)$.
+
 (b) The exploratory action actually taken at $s'$ was $a_3$. Compute the SARSA target and the updated $Q(s,a)$.
+
 (c) State the difference between the two updates and which is larger.
+
 (d) State the condition on the $Q$-values at $s'$ under which the two updates would coincide.
 
 **P2 (🟡)** In the cliff task, consider the cell immediately above the cliff, one column from the goal. Under $\varepsilon$-greedy with $\varepsilon = 0.1$ and four actions, the agent's intended action is *right*.
 
 (a) Compute the probability that the agent moves *down* (into the cliff) on this step.
+
 (b) Over the eleven cells along the edge route, compute the probability of at least one fall in a single traversal, assuming independence and the same per-cell risk.
+
 (c) Using $-100$ per fall, estimate the expected penalty per traversal from falls alone, and compare it with the $13$-step route's base cost.
+
 (d) Your estimate in (c) should be compared with the exact figure of $-51.81$ quoted in Example 2. State one reason the simple estimate is not exact.
 
 **P3 (🔴)** Maximization bias. A state $s'$ has $10$ actions whose **true** values are all exactly $0$. The agent's estimates $Q(s',a)$ are independent, each $\mathcal{N}(0,1)$.
 
 (a) State the value that an unbiased target would use for $\max_a Q^*(s',a)$.
+
 (b) The expected maximum of $n$ independent standard normals is approximately $\sqrt{2\ln n}$ for moderate $n$. Compute the approximate value of $\mathbb{E}[\max_a Q(s',a)]$ for $n = 10$ and state the resulting bias.
+
 (c) Explain why this bias does not vanish merely by collecting more data at $s'$ in the way an ordinary estimation error would, and state what does reduce it.
+
 (d) **Double Q-learning** keeps two independent tables $Q_A$ and $Q_B$, and uses the target $R + \gamma\, Q_B\big(s', \arg\max_a Q_A(s',a)\big)$. Explain why this is unbiased in the setting of (a), and identify the assumption the argument needs.
 
 <details>
@@ -214,8 +223,11 @@ $$(u, \text{go}, R{=}0, v),\qquad (v, \text{go}, R{=}4, \text{terminal}).$$
 Assume *go* is selected at $v$ both times.
 
 (a) Give $Q(u,\text{go})$ and $Q(v,\text{go})$ after the first episode.
+
 (b) Give them after the second.
+
 (c) State what value $Q(u,\text{go})$ is converging to, and how many episodes it takes to get within $0.5$ of it.
+
 (d) State how the answer to (b) would change if the updates within an episode were applied in reverse order.
 
 <details>

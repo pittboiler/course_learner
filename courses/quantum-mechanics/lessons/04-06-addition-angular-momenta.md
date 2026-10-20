@@ -94,6 +94,7 @@ So the single $p$-level splits into two — the **fine-structure doublet**, writ
 
 **P3 (🔴, optional)** For $\ell=1$ coupled to $s=\tfrac12$, the Clebsch–Gordan coefficients give
 $$|\tfrac32,\tfrac12\rangle = \sqrt{\tfrac13}\,|1,1\rangle|\tfrac12,-\tfrac12\rangle + \sqrt{\tfrac23}\,|1,0\rangle|\tfrac12,\tfrac12\rangle.$$
+
 (a) Confirm this is a $\hat J_z$ eigenstate with eigenvalue $\hbar/2$. (b) Write the orthogonal partner $|\tfrac12,\tfrac12\rangle$ in the same two-state subspace (Condon–Shortley: the highest-$m_1$ coefficient is positive). (c) Verify $\hat J^2|\tfrac32,\tfrac12\rangle = \tfrac{15}{4}\hbar^2|\tfrac32,\tfrac12\rangle$ using $\hat J^2 = \hat L^2+\hat S^2+2\hat L_z\hat S_z+\hat L_+\hat S_-+\hat L_-\hat S_+$.
 
 <details>

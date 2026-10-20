@@ -167,21 +167,29 @@ This is the checklist doing its best work. It does not hand you a verdict here. 
 **P1 (🟢) *(Exegetical.)*** For each act, say whether all four *Pastor Aeternus* conditions are met, and if not, name the **one** condition that most clearly fails. One clause of reason each.
 
 (a) A pope writes to the bishops of a single country instructing them on the formation of seminarians in their territory.
+
 (b) A pope, in an encyclical addressed to the whole Church, teaches at length on the morality of an economic practice, urging it strongly, and proposes nothing as definitively to be held.
+
 (c) A pope, answering a journalist's question on a flight, gives his view on a contested moral question.
+
 (d) A pope, addressing the whole Church and invoking the authority of Christ, of the apostles Peter and Paul, and his own, pronounces, declares and defines a doctrine concerning the Blessed Virgin as divinely revealed and to be believed by all the faithful.
+
 (e) Which canon of the 1983 Code tells you what to conclude when you genuinely cannot tell — and what does it require?
 
 **P2 (🟡) *(Exegetical (a)–(b) · Evaluative (c).)*** The ordinary universal magisterium.
 
 (a) List the four things that must hold of the bishops' teaching for *Lumen Gentium* 25's ordinary-universal clause to apply.
+
 (b) Say why this route is harder to verify than an *ex cathedra* act, and what canon 749 §3 does to a *claim* that something is infallible by this route.
+
 (c) A theologian argues: "Since the ordinary universal magisterium can teach infallibly with no document, no date and no definition, no Catholic can ever establish that a teaching is *not* infallible. The canon 749 §3 safeguard is therefore empty — it protects nothing." Assess in **150 words or fewer**. Any verdict.
 
 **P3 (🔴, optional) *(Exegetical.)*** Supposing each claim below is infallibly taught, say whether it would fall under the **primary** or the **secondary** object, and what assent follows on the ladder.
 
 (a) The Son is of one substance with the Father.
+
 (b) That the man elected in a particular conclave is truly the pope.
+
 (c) That the Church has no authority to confer priestly ordination on women.
 
 For (c), say why the answer is contested and name the two documents that pull in different directions. **120 words or fewer.**

@@ -102,6 +102,7 @@ Only now, the rest of the record. Augustine fought against killing. In 412, writ
 Augustine's gloss follows: by this argument, against those who "under the pretext of avoiding the society of wicked men, had severed themselves from the unity of the Church," Cyprian shows that the apostle's "great house" is the Church, "in which there should be good and bad, till at the last day it should be cleansed as a threshing-floor by the winnowing-fan."
 
 (a) State in one sentence the conclusion the quotation is being used to establish, and give the three or four words that carry it.
+
 (b) Augustine could have made this argument in his own voice. Say what he gains by making it in Cyprian's. Two sentences per part.
 
 **P2 (🟡) *(Exegetical.)*** An invented parish-bulletin note:
@@ -111,6 +112,7 @@ Augustine's gloss follows: by this argument, against those who "under the pretex
 Augustine's own sentence, from *Against the Letter of Parmenianus* III.4.24, is quoted above under "The sentence Newman heard".
 
 (a) Name what the bulletin has dropped from the sentence, and say what Augustine actually claims the world judges securely.
+
 (b) Newman reported that the words decided ecclesiastical questions "on a simpler rule than that of Antiquity" and applied beyond the Donatists. State what Newman had to add to Augustine's sentence to get a rule of that scope.
 
 120 words or fewer in total.
@@ -120,6 +122,7 @@ Augustine's own sentence, from *Against the Letter of Parmenianus* III.4.24, is 
 > she that she may correct, they that they may overthrow: she that she may recall from error, they that they may drive headlong into error.
 
 (a) Reconstruct in numbered premises the argument by which Augustine denies that the Donatists' sufferings make them martyrs. Name the premise that carries the inference, and the different premise a Donatist must deny.
+
 (b) Taking the §9 and §11 test exactly as Augustine states it, does it place any limit on what the coercer may do? Name whatever in the two sections supplies a limit and whatever does not, and say who is in a position to apply it. 120 words, any verdict.
 
 <details>

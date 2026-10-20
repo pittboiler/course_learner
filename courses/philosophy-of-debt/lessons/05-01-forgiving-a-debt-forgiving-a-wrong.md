@@ -90,7 +90,9 @@ The debt model offers one exit, at a price. A creditor who waives what is owed t
 **P1 (🟢) *(Exegetical.)*** Three invented cases. For each, say whether there has been a release, forgiveness, both or neither, and what, if anything, is still owed and to whom. **Two sentences each.**
 
 (a) A bank records an unpaid credit-card balance as a loss in its accounts ("writes it off"), keeps the legal claim, and later sells the account to a collection agency.
+
 (b) A landlord learns that his tenant forged a reference to get the flat. He tells her, "Don't worry about it, everybody does that," and goes on charging the full rent.
+
 (c) Ines is assaulted on a train. At her attacker's sentencing she tells him that she forgives him and wishes him well. The same month her lawyer files a civil claim against him for her medical costs.
 
 **P2 (🟡) *(Exegetical.)*** Butler, Sermon IX (1841 edition):

@@ -102,6 +102,7 @@ Solve for the slope: $\sqrt{1+y'^2}=y/C$, so $y'=\sqrt{y^2/C^2-1}$. Separating a
 
 **P3 (🔴)** *The brachistochrone.* A bead slides without friction from $(0,0)$ down to a lower point, starting from rest; measuring $y$ **downward** as positive, energy conservation gives speed $v=\sqrt{2gy}$, so the descent time is
 $$T[y]=\int_0^{x_1}\frac{ds}{v}=\int_0^{x_1}\sqrt{\frac{1+y'^2}{2gy}}\,dx.$$
+
 (a) Explain why Beltrami applies, and use it to derive the first integral $y\,(1+y'^2)=k$ for a constant $k$. (b) Show the parametrization $x=\tfrac{k}{2}(\theta-\sin\theta)$, $y=\tfrac{k}{2}(1-\cos\theta)$ — a **cycloid** — satisfies it.
 
 <details>

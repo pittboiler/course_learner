@@ -107,9 +107,11 @@ The $\log|a|$ terms cancel. **Mutual information — and therefore channel capac
 <summary>Solutions</summary>
 
 **P1** (a) $h(X) = \log_2 4 = 2$ bits.
+
 (b) *Direct:* $Y$ uniform on $[0,64]$ has $h(Y) = \log_2 64 = 6$ bits. *Scaling law:* $h(16X) = h(X) + \log_2 16 = 2 + 4 = 6$ bits. ✓ They agree. The extra $4$ bits are pure unit-change bookkeeping (the signal carries no more actual information) — precisely why $h$ is not an invariant.
 
 **P2** (a) $\text{Var}(Z) = \frac{(2b)^2}{12} = \frac{b^2}{3}$. Setting this equal to $\sigma^2$ gives $b = \sqrt{3}\,\sigma$.
+
 (b) Gaussian: $h(X) = \tfrac12\log_2(2\pi e\,\sigma^2)$. Numerically $2\pi e \approx 17.08$, so $h(X) = \tfrac12\log_2(17.08\,\sigma^2) = \tfrac12\big(\log_2 17.08 + \log_2\sigma^2\big) = \tfrac12(4.09) + \log_2\sigma = 2.05 + \log_2\sigma$ bits.
 Uniform on $[-b,b] = [-\sqrt3\sigma, \sqrt3\sigma]$ has width $2\sqrt3\,\sigma$, so $h(Z) = \log_2(2\sqrt3\,\sigma) = \log_2(3.46\,\sigma) = 1.79 + \log_2\sigma$ bits.
 Since $2.05 > 1.79$, $h(X) > h(Z)$ by about $0.25$ bit at equal variance — the Gaussian is more uncertain, exactly as the max-entropy property predicts. (The $\log_2\sigma$ term is common to both and cancels, so the comparison is unit-free — a difference of differential entropies, honest even though each term alone is not.)

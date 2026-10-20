@@ -128,22 +128,31 @@ Weighted importance sampling returns exactly $1.000$ in all six runs from the fi
 **P1 (🟢)** A target policy $\pi$ takes action $a_1$ with probability $0.8$ and $a_2$ with probability $0.2$. The behaviour policy $b$ is uniform over the two actions.
 
 (a) Compute the per-step ratio for each action.
+
 (b) A two-step trajectory took $a_1$ then $a_2$. Compute $\rho_{0:1}$.
+
 (c) A two-step trajectory took $a_1$ twice. Compute $\rho_{0:1}$.
+
 (d) Verify that $\mathbb{E}_b[\rho]$ over a single step equals $1$.
 
 **P2 (🟡)** Behaviour is $\varepsilon$-greedy with $\varepsilon = 0.2$ over four actions; the target is the deterministic greedy policy.
 
 (a) Compute $b(\text{greedy}\mid s)$ and the per-step ratio when the greedy action is taken.
+
 (b) Compute the probability that a $20$-step trajectory has a nonzero weight, and the weight in that case.
+
 (c) Compute the variance of $\rho_{0:19}$.
+
 (d) State the length $T$ at which fewer than one trajectory in a hundred survives, and comment on what that means for off-policy Monte Carlo on episodes of realistic length.
 
 **P3 (🔴)** An engineer wants an off-policy **$n$-step** return, arguing that since Q-learning needs no importance sampling, neither should its $n$-step version.
 
 (a) Write the $2$-step Q-learning-style target $R_{t+1} + \gamma R_{t+2} + \gamma^2\max_a Q(S_{t+2},a)$ and identify which actions in it were sampled from the behaviour policy.
+
 (b) State which of those need correcting and which do not, with the reason for each.
+
 (c) Give the importance ratio that corrects the $2$-step target.
+
 (d) **Tree backup** is an alternative that achieves an off-policy $n$-step target with *no* importance sampling, by replacing each sampled intermediate action's contribution with an expectation over the target policy. Explain in two sentences why this removes the need for a correction, and state the cost.
 
 <details>
@@ -219,8 +228,11 @@ $$(p, \text{go}, R{=}2, q), \qquad (q, \text{up}, R{=}0, \text{terminal}), \qqua
 Suppose a *different* episode sometimes occurs: $(q, \text{down}, R{=}6, \text{terminal})$.
 
 (a) After both episode types have been seen many times, give $Q(q,\text{up})$ and $Q(q,\text{down})$.
+
 (b) Give $Q(p,\text{go})$ under Q-learning.
+
 (c) Give what SARSA would converge to for $Q(p,\text{go})$ if the behaviour policy chooses *up* and *down* with probability $\tfrac12$ each at $q$.
+
 (d) Explain the difference in one sentence, and state which is $Q^*$.
 
 <details>

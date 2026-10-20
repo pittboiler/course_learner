@@ -98,6 +98,7 @@ Now drop Peltzman's hypothesis that consumers' marginal opposition is positive. 
 **P1 (🟢)** *(Formal (a)–(b).)* A water utility faces demand $Q = 30 - p$ and marginal cost 6. The regulator's support is $M = \ln \pi + 2\ln Q$: every unit consumers get earns some goodwill.
 
 (a) Find the regulated price, the profit there, and the competitive and monopoly prices.
+
 (b) A new fixed cost of 64 arrives (marginal cost unchanged). Find the new regulated price and profit. How much of the 64 do consumers absorb, and what happens to the monopoly price?
 
 **P2 (🟡)** *(Exegetical.)* A state raises the training required of licensed dog groomers from 300 to 1,200 hours, citing animal safety. Critics call it capture. In 120 words or fewer: (a) name one effect that both the public-interest and the Stigler explanations predict, so it cannot decide between them; (b) name two observables that would discriminate, and say which way each points.
@@ -105,7 +106,9 @@ Now drop Peltzman's hypothesis that consumers' marginal opposition is positive. 
 **P3 (🔴, optional)** *(Formal (a)–(b) · Exegetical (c).)* An electricity utility faces $Q = 50 - p$, marginal cost 10 and a fixed cost of 175. It asked for a price of 30; consumer advocates asked for 10. The commission set 25 and announced: "A rate that disappoints both the utility and its critics is the mark of a regulator serving the public interest."
 
 (a) Find the price that maximizes total surplus subject to the utility covering its costs, and the utility's profit at 25.
+
 (b) Show that a regulator maximizing $M = \ln \pi + \kappa \ln Q$ chooses 25 for some $\kappa > 0$, and find $\kappa$.
+
 (c) In 80 words or fewer: which model does the announcement ignore, and what assumption is doing its work?
 
 <details>
@@ -158,6 +161,7 @@ Profit is $6 \times 18 = 108$. Competitive price 6, monopoly price $(30 + 6)/2 =
 **From Lesson [4.2](04-02-career-concerns-and-pandering.md) (Career concerns and pandering):** *(Formal (a) · Exegetical (b).)* A permit commissioner decides whether to approve a pipeline. Approval is popular: the reappointment committee's prior that the pipeline is safe is above one half. She knows whether it is safe. She is either congruent, wanting the right decision, a stake worth $b = 2$ to her, or dissonant, always taking the wrong one. Reappointment is worth $W = 5$ to her. The committee reappoints iff its posterior that she is congruent exceeds that of a fresh appointee, ties going to the newcomer, and with probability $q$ it learns before the hearing whether the pipeline was safe. An invented staff memo: "The commissioner approved the pipeline although her own engineers found it unsafe. Only an official who does not share the public's interest would do that. Requiring the engineering report to be published before her hearing would not help: more scrutiny only increases the pressure to please the public."
 
 (a) For which $q$ does a congruent commissioner who knows the pipeline is unsafe approve it? Classify the current $q = 0.1$ and $q = 0.4$, its value under the publication rule, giving both payoffs in each case.
+
 (b) In two sentences, name the memo's two errors.
 
 <details>

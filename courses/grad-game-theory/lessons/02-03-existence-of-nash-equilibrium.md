@@ -101,8 +101,11 @@ $$
 With $p=\Pr_1(\text{H})$, $q=\Pr_2(\text{H})$, write $\mathrm{BR}_1(q)$ and $\mathrm{BR}_2(p)$, confirm each is convex-valued, and find the unique fixed point of $\varphi(p,q)=\mathrm{BR}_1(q)\times\mathrm{BR}_2(p)$. Why must it be interior?
 
 **P2 (🟡)** For each game, say whether Nash's theorem *guarantees* an equilibrium; if a hypothesis fails, name which one, and say whether an equilibrium happens to exist anyway.
+
 (a) Two firms simultaneously choose prices $p_i\in[0,10]$; demand goes entirely to the cheaper firm, split evenly on a tie (Bertrand with a price cap).
+
 (b) A single player chooses $x\in[0,1)$ to maximize $u(x)=x$.
+
 (c) Rock–paper–scissors (finite, $3\times3$, zero-sum).
 
 **P3 (🔴, optional)** Prove that for a finite game, $\mathrm{BR}_i(\sigma_{-i})$ is not merely convex but equals the set of all mixtures over $i$'s *pure* best responses:
@@ -119,8 +122,11 @@ $$\mathrm{BR}_2(p)=\begin{cases}\{1\}&p<\tfrac12\\ [0,1]&p=\tfrac12\\ \{0\}&p>\t
 Each value is a single point or the full interval $[0,1]$ — both convex (the payoff is linear in one's own probability, so maximizer sets are faces). **Fixed point:** if $q>\tfrac12$ then $p=1$, which forces $q=0<\tfrac12$ — contradiction; every corner attempt loops (player 1 chases, player 2 flees). The only consistent point is $p=q=\tfrac12$: then $q=\tfrac12\Rightarrow p\in[0,1]\ni\tfrac12$ ✓ and $p=\tfrac12\Rightarrow q\in[0,1]\ni\tfrac12$ ✓. Unique NE $(\tfrac12,\tfrac12)$. It **must be interior** because the pursuit structure rules out every corner; the players can only mutually best-respond where both are *indifferent*, and indifference is exactly where $\mathrm{BR}$ goes thick (convex-valued). Without that convex value the graph would leap across the diagonal and no equilibrium would exist.
 
 **P2**
+
 (a) Strategy sets $[0,10]$ are compact and convex, but the payoff is **discontinuous** (undercutting flips you from half the market to all of it, and the tie-split is a jump). Nash's finite theorem doesn't apply, and the Glicksberg extension fails on continuity. An equilibrium happens to exist anyway here — both firms pricing at marginal cost is the classic Bertrand equilibrium — but the theorem did not *guarantee* it; you must check by hand. (Small perturbations of this game can lose existence, which is the point.)
+
 (b) $K=[0,1)$ is convex but **not compact** (not closed — the endpoint $1$ is missing). The max of $u(x)=x$ is not attained ($\mathrm{BR}=\varnothing$), so no equilibrium and no guarantee — the same compactness failure as the name-the-integer game.
+
 (c) Finite ($3\times3$), so Nash's theorem **guarantees** an equilibrium. It is the fully mixed profile $(\tfrac13,\tfrac13,\tfrac13)$ for each player (each pure strategy earns $0$ against it, so all are best responses — indifference across the whole support).
 
 **P3** Fix $\sigma_{-i}$ and abbreviate $v(s_i)=U_i(s_i,\sigma_{-i})$, the expected payoff of pure strategy $s_i$. By linearity of expectation,

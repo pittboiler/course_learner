@@ -92,12 +92,17 @@ The coefficients decay like $1/n^2$, and $\sum 1/(2k+1)^2<\infty$, so by the coe
 <summary>Solutions</summary>
 
 **P1** The sawtooth is continuous on $(-\pi,\pi)$ with a jump only where the periodic copies meet, at odd multiples of $\pi$.
+
 (a) $x=0$: a continuity point, $f(0)=0$, so the series $\to 0$.
+
 (b) $x=\pi/2$: a continuity point, so the series $\to \pi/2$.
+
 (c) $x=\pi$: a jump. Approaching from the left, $f(\pi^-)=\pi$; from the right the next period gives $f(\pi^+)=f(-\pi^+)=-\pi$. The series converges to the midpoint $\tfrac12(\pi+(-\pi))=0$.
 
 **P2** (a) $J=f(\pi^+)-f(\pi^-)=-\pi-\pi=-2\pi$; the jump has magnitude $2\pi$ (a downward jump). 
+
 (b) The overshoot on the high (left) side sits above $f(\pi^-)=\pi$ by $0.0895\times 2\pi\approx 0.562$, so the partial sums peak at about $\pi+0.562\approx 3.70$ just to the *left* of $x=\pi$. That peak sits at $x\approx\pi-\dfrac{\pi}{N+1}$, sliding toward $\pi$ as $N$ grows while its height stays $\approx 3.70$. (Symmetrically, just to the right it undershoots to $\approx -3.70$.)
+
 (c) The overshoot spike keeps a fixed height but its *width* shrinks like $1/N$, so the squared error it contributes, $\int (\text{bump})^2\,dx$, tends to $0$; mean-square convergence only cares about area-under-the-square, not the pointwise peak. So a fixed-height, vanishing-width spike is invisible to the $L^2$ norm.
 
 **P3** Let $M_n=|c_n|$. For every $x$, $|c_n e^{inx}|=|c_n|=M_n$, and by hypothesis $\sum_n M_n<\infty$. By the **Weierstrass $M$-test**, the series $\sum_n c_n e^{inx}$ converges *uniformly* on $\mathbb{R}$; call the limit $S(x)$, so $S_N f\to S$ uniformly. Each partial sum $S_N f$ is a finite sum of continuous functions, hence continuous, and a **uniform limit of continuous functions is continuous**, so $S$ is continuous. (That the uniform limit $S$ equals $f$ where $f$ is continuous then follows from Dirichlet's pointwise theorem, since uniform convergence forces the same limit as pointwise convergence.) $\blacksquare$

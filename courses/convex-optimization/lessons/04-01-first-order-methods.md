@@ -100,12 +100,15 @@ From $x_0=(2,1)$: $x_1=(0.75\cdot 2,\ 0)=(1.5,\,0)$, and $x_2=(0.75\cdot 1.5,\ 0
 
 **P2.** (a) At $x=(1,1)$: $2x_1-x_2=1$ and $x_1+x_2=2$, so the *second* piece is active and $f=2$. On the interior of that region $f$ is smooth with gradient equal to that piece's gradient, $g=(1,1)$. One step: $x-t g=(1,1)-0.1(1,1)=(0.9,\,0.9)$. (b) At $x=(2,1)$ both pieces equal $3$; the subdifferential of a max of smooth functions at a tie is the convex hull of the active gradients:
 $$\partial f(2,1)=\operatorname{conv}\{(2,-1),\,(1,1)\}=\{\lambda(2,-1)+(1-\lambda)(1,1):\lambda\in[0,1]\}.$$
+
 (c) Because the objective has kinks exactly along the tie lines where the two pieces cross, the gradient is undefined there and $\nabla f$ can't be evaluated — but a subgradient always exists, so the subgradient method still makes progress. (This "max of affine functions" is the canonical nonsmooth convex objective, and the same shape appears in the SVM hinge loss of [5.2](05-02-support-vector-machines.md).)
 
 **P3.** (a) $\rho(t)=\max\{|1-tm|,|1-tL|\}$. For small $t>0$, $1-tm>0$ and (once $t>1/L$) $1-tL<0$; the two absolute values are balanced at the minimizer, where $1-tm=-(1-tL)=tL-1$. Solving, $2=t(m+L)$, so
 $$t^\star=\frac{2}{m+L}.$$
+
 (b) At $t^\star$, the factor is $\rho(t^\star)=1-t^\star m=1-\dfrac{2m}{m+L}=\dfrac{L-m}{L+m}$. Dividing top and bottom by $m$ (with $\kappa=L/m$),
 $$\rho(t^\star)=\frac{\kappa-1}{\kappa+1}.$$
+
 (c) To reach $\lVert x_k\rVert\le\epsilon\lVert x_0\rVert$ needs $\rho(t^\star)^k\le\epsilon$, i.e. $k\ge\dfrac{\log(1/\epsilon)}{\log\frac{\kappa+1}{\kappa-1}}$. For large $\kappa$, $\log\frac{\kappa+1}{\kappa-1}=\log\!\big(1+\tfrac{2}{\kappa-1}\big)\approx\tfrac{2}{\kappa}$, so $k\approx\tfrac{\kappa}{2}\log(1/\epsilon)$ — the iteration count is linear in $\kappa$, confirming why ill-conditioning is the enemy of first-order methods.
 
 </details>

@@ -122,6 +122,7 @@ P3. If a kind of property would be that anomalous and nothing requires us to pos
 P4. Nothing requires us to posit them.
 C1. So there are no such properties. (P2–P4)
 C. So all positive moral judgments are false. (P1, C1)
+
 (b) Weakest: P1. The Cornell naturalist denies that "wrong" carries built-in authority: it names a natural property, and whether you have reason to avoid it depends on you.
 
 ---

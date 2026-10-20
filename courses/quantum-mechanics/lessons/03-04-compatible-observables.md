@@ -125,7 +125,9 @@ $$\hat A = \begin{bmatrix} 2 & 0 & 0 \\ 0 & 2 & 0 \\ 0 & 0 & 5 \end{bmatrix}, \q
 (a) Confirm $[\hat A,\hat B]=0$. (b) $\hat A$ has a degenerate eigenvalue — which one, and why can't $\hat A$ alone label those states? (c) Find the common eigenbasis and the joint labels $(a,b)$, and state whether $\{\hat A,\hat B\}$ is a CSCO for this system.
 
 **P3 (🔴, optional — symmetry and conservation)** Let $\hat H$ be the Hamiltonian and $\hat A$ a time-independent Hermitian observable with $[\hat A,\hat H]=0$.
+
 (a) Starting from the time-dependent Schrödinger equation $i\hbar\,\partial_t|\psi\rangle = \hat H|\psi\rangle$, show that $\dfrac{d}{dt}\langle \hat A\rangle = \dfrac{i}{\hbar}\langle[\hat H,\hat A]\rangle$, and conclude $\langle \hat A\rangle$ is **conserved**.
+
 (b) Argue that the energy eigenstates can be chosen to be eigenstates of $\hat A$ as well, so every energy level can be labeled by an $\hat A$-eigenvalue. (c) In one sentence, connect this to Noether's theorem in classical mechanics.
 
 <details>

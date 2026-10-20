@@ -84,6 +84,7 @@ The level set $q = 1$ is therefore an **ellipse**. In eigen-coordinates it is $6
 **P1 (🟢)** Orthogonally diagonalize $A = \begin{bmatrix} 2 & 1 \\ 1 & 2 \end{bmatrix}$: find $Q$ (orthonormal columns) and $\Lambda$ with $A = Q\Lambda Q^\top$. Verify $Q^\top Q = I$ and $Q\Lambda Q^\top = A$.
 
 **P2 (🟡)** For each symmetric matrix, classify the quadratic form (definite / indefinite?) and describe the level set $q = 1$ (which conic, and its axes):
+
 (a) $A = \begin{bmatrix} 5 & 2 \\ 2 & 5 \end{bmatrix}$; (b) $B = \begin{bmatrix} 1 & 2 \\ 2 & 1 \end{bmatrix}$.
 
 **P3 (🔴, optional)** Prove that every eigenvalue of a symmetric **positive definite** matrix $A$ is positive. Then state, in one line, why this is exactly the multivariable second-derivative test of [`calc-refresher` 4.2](../../calc-refresher/lessons/04-02-multivariable-optimization-lagrange.md) (Hessian positive definite ⟺ local minimum).

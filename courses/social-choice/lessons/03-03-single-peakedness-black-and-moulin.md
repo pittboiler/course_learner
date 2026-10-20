@@ -118,15 +118,19 @@ A generalized median picks one point anyway. Place A to E at positions 1 to 5 an
 - 1: H ≻ G ≻ C
 
 (a) Up to reversal there are three axes on three alternatives. On which is the profile single-peaked? Justify using the never-last lemma.
+
 (b) Compute all three pairwise tallies and the majority ranking, and check the top against the median peak.
+
 (c) A memo says: "Since preferences on the board are single-peaked, Black's theorem guarantees majority rule will rank every option strictly, however many members the board has." Name the missing hypothesis and say what still holds without it. Two sentences.
 
 **P2 (🟡)** *(Formal.)* Four voters are single-peaked on $[0, 10]$ with peaks 1, 4, 6 and 8. The rule is a generalized median with phantoms at 2, 5, 5, 9 and 10.
 
 (a) Find the outcome.
+
 (b) For each voter, find every outcome she can reach by changing her report, and show that none of them is better for her than the truthful outcome.
 
 **P3 (🔴, optional)** *(Formal.)* (a) Prove: a generalized median with $n - 1$ phantoms always picks a point between the lowest and highest peak, and is therefore Pareto efficient on the single-peaked domain.
+
 (b) Show that P2's rule, with 5 phantoms, is not Pareto efficient: give a peak profile where its outcome is Pareto-dominated.
 
 <details>
@@ -177,6 +181,7 @@ A generalized median picks one point anyway. Place A to E at positions 1 to 5 an
 **From Lesson [3.1](03-01-manipulation-and-strategy-proofness.md) (Manipulation and the first half of Gibbard–Satterthwaite):** *(Exegetical (a) · Formal (b).)* An invented memo to a seven-member board: "We elect by Copeland, ties broken alphabetically. Copeland always elects a Condorcet winner when one exists, and raising the winner on a ballot can never unseat it. A rule that monotone gives no member a reason to misreport."
 
 (a) In two sentences: what kind of monotonicity has the memo shown, and what does 3.1 say a rule nobody can game would need?
+
 (b) The board's sincere ballots are 2: A ≻ B ≻ C, 2: B ≻ A ≻ C, 3: C ≻ B ≻ A. Find the Copeland winner, then a single voter and a misreport that gets her an outcome she strictly prefers.
 
 <details>

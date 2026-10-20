@@ -92,10 +92,13 @@ Units: turns × (Wb/s) = V. ✓ **50 V.**
 
 **P2** (a) Motional EMF:
 $$\mathcal{E} = BLv = 0.50 \times 0.20 \times 3.0 = 0.30\ \mathrm V.$$
+
 (b) The loop is a source $\mathcal{E}$ across resistance $R$:
 $$I = \frac{\mathcal{E}}{R} = \frac{0.30}{6.0} = 0.050\ \mathrm A.$$
+
 (c) A current-carrying rod in the field feels $F = BIL$ (from [3.1](03-01-magnetic-force.md)), directed to *oppose* the motion (Lenz):
 $$F = BIL = 0.50 \times 0.050 \times 0.20 = 5.0\times10^{-3}\ \mathrm N.$$
+
 (d) Mechanical power you supply against that retarding force:
 $$P_\text{mech} = Fv = 5.0\times10^{-3} \times 3.0 = 0.015\ \mathrm W.$$
 Electrical power dissipated in $R$:
@@ -104,9 +107,11 @@ Check: $P_\text{mech} = P_\text{elec} = 0.015$ W — every joule of mechanical w
 
 **P3** (a) With $\Phi_B = BA\cos\omega t$ per turn and $N$ turns,
 $$\mathcal{E} = -N\frac{d\Phi_B}{dt} = -NBA\frac{d}{dt}(\cos\omega t) = NBA\,\omega\sin\omega t.$$
+
 (b) Peak when $\sin\omega t = 1$:
 $$\mathcal{E}_\text{peak} = NBA\omega = 100 \times 0.20 \times 0.010 \times 100\pi = 20\pi \approx 63\ \mathrm V.$$
 Units: (turns)(T)(m²)(rad/s) = Wb/s = V. ✓
+
 (c) $f = \dfrac{\omega}{2\pi} = \dfrac{100\pi}{2\pi} = 50\ \mathrm{Hz}$ — standard mains frequency in much of the world. A spinning coil is a sinusoidal EMF: this is how a generator manufactures AC. ✓
 
 </details>

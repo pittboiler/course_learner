@@ -112,13 +112,17 @@ Now $3\sigma \approx 24\ \text{kg}$ — you could miss *three* SQ walking out th
 **P2** (a) Per-batch error $\varepsilon_r m = 0.008 \times 10 = 0.08\ \text{kg}$. Over 50 batches:
 $$\sigma_{\text{MUF}} = 0.08\,\sqrt{50} = 0.08 \times 7.07 = 0.566\ \text{kg}.$$
 Threshold $= 3\sigma_{\text{MUF}} = 3 \times 0.566 = 1.70\ \text{kg}$.
+
 (b) Yes — $1.70\ \text{kg}$ is far below $1\ \text{SQ} = 8\ \text{kg}$, so a full-SQ diversion is caught with margin to spare (indeed anything above ~1.7 kg trips the alarm).
+
 (c) With $n = 25$, $m = 20$: $\sigma_{\text{MUF}} = \varepsilon_r m \sqrt{n} = 0.008 \times 20 \times \sqrt{25} = 0.16 \times 5 = 0.80\ \text{kg}$ (equivalently $\varepsilon_r M/\sqrt{n} = 0.008\times500/5 = 0.80$). The noise **rises** from $0.566$ to $0.80\ \text{kg}$ (threshold $2.4\ \text{kg}$) because fewer, larger batches give random errors less room to cancel ($\sigma \propto 1/\sqrt{n}$). Coarser batching degrades detection sensitivity — inspectors want *more, smaller* accounting units, not fewer big ones.
 
 **P3** (a) $90\%$ of the HEU mass is $\ce{^{235}U}$, so one SQ of contained $\ce{^{235}U}$ sits in
 $$\frac{25\ \text{kg}}{0.90} = 27.8\ \text{kg of }90\%\ \text{HEU}.$$
+
 (b) At $4.5\%$ enrichment, $25\ \text{kg}$ of $\ce{^{235}U}$ is contained in
 $$\frac{25\ \text{kg}}{0.045} = 556\ \text{kg of LEU}.$$
+
 (c) The same 25 kg of $\ce{^{235}U}$ is a compact ~28 kg of bomb-ready metal at $90\%$ but is diluted through more than half a tonne of $\ce{^{238}U}$ at $4.5\%$ — LEU cannot go critical fast, so it is the **enrichment level** that turns a mass of $\ce{^{235}U}$ into a weapon, which is exactly why an enrichment plant (able to re-cascade LEU up to HEU) is a proliferation-sensitive node.
 
 </details>

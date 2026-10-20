@@ -270,7 +270,9 @@ $$\text{carbohydrate} = \frac{0.80 \times 1019}{4} = 204\ \text{g/hr} \quad \Lon
 **P3 (🔴, bridges to thermoregulation and to metabolic biochemistry)** A 72 kg runner holds a fixed pace requiring $\dot V_{O_2} = 3.10$ L/min at $RER = 0.90$ for one hour in hot conditions. His $HR_{\max}$ is 186 min⁻¹. At minute 10 his heart rate is 148 min⁻¹ and his stroke volume is 130 mL. At minute 55 his stroke volume has fallen to 112 mL, at the same pace.
 
 (a) Compute the fraction of energy from carbohydrate, his energy expenditure in kcal/hr, his carbohydrate use in g/hr, and the time to deplete a 500 g glycogen store.
+
 (b) Compute cardiac output at minute 10, and the heart rate needed at minute 55 to hold it constant.
+
 (c) Compute the stroke volume at which he would be forced to reduce cardiac output, and name the full feedback chain — sensor to effector — that produced the drift.
 
 <details>
@@ -378,7 +380,9 @@ $$SV_{\text{floor}} = \frac{19{,}240\ \text{mL/min}}{186\ \text{min}^{-1}} = \ma
 **From Lesson 2.2 (the cardiac cycle and cardiac output):** A resting left ventricle has end-diastolic volume 138 mL, end-systolic volume 62 mL, heart rate 58 min⁻¹, and a mean ejection pressure of 105 mmHg.
 
 (a) Compute stroke volume, ejection fraction and cardiac output.
+
 (b) Estimate the external stroke work in joules and the mean external power of the ventricle in watts. Use $1\ \text{mmHg} = 133.3$ Pa and $1\ \text{mL} = 10^{-6}\ \text{m}^3$.
+
 (c) A rapid saline infusion raises end-diastolic volume to 160 mL with contractility and afterload unchanged. Predict the new stroke volume, ejection fraction and cardiac output, and name the law responsible.
 
 <details>

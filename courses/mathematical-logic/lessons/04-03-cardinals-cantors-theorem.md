@@ -98,6 +98,7 @@ The evens being a proper subset is fine because *for infinite sets, matching a p
 
 **P2** Suppose $(0,1)$ is countable, listed as $x_1, x_2, x_3, \dots$. Write each in decimal, $x_n = 0.d_{n1}d_{n2}d_{n3}\ldots$ (choosing the non-terminating form when a number has two expansions, so each $x_n$ has one fixed representation). Build $y = 0.e_1 e_2 e_3 \ldots$ by
 $$e_n = \begin{cases} 5 & \text{if } d_{nn} \neq 5,\\ 6 & \text{if } d_{nn} = 5.\end{cases}$$
+
 (a) Position $n$ of $y$ is chosen to differ from digit $d_{nn}$ of $x_n$. (b) Every digit of $y$ is $5$ or $6$, so $y$ never ends in an all-$0$ or all-$9$ tail — it has a *unique* decimal expansion, so "$y = x_n$ as numbers" would force equal digit strings, which fails at position $n$. Also $y \in (0,1)$ (it is $0.\text{(5s and 6s)}$). Since $e_n \neq d_{nn}$ for all $n$, $y \neq x_n$ for every $n$: $y$ is on no row. Contradiction, so $(0,1)$ is uncountable. $\blacksquare$
 
 **P3** *Injection $(0,1) \to [0,1]$:* the inclusion $x \mapsto x$; it's injective since it's the identity on its domain, and every value lands in $[0,1]$. So $|(0,1)| \le |[0,1]|$.
@@ -115,7 +116,9 @@ The naive fix fails because moving the two endpoints $0,1$ "somewhere inside" di
 <summary>Solution</summary>
 
 (a) *Reflexive:* $a \mid a$ since $a = a\cdot 1$. *Antisymmetric:* if $a \mid b$ and $b \mid a$ with $a,b \ge 1$, then $b = ak$ and $a = bm$, so $a = akm$, giving $km = 1$; with positive integers this forces $k = m = 1$, hence $a = b$. *Transitive:* $a \mid b$ and $b \mid c$ give $b = ak$, $c = bj$, so $c = a(kj)$, i.e. $a \mid c$. All three hold, so $\preceq$ is a partial order.
+
 (b) *Not total:* $2$ and $3$ are incomparable — neither $2 \mid 3$ nor $3 \mid 2$. A total order would require every pair to be comparable.
+
 (c) *Yes:* $1$ is the least element, since $1 \mid b$ for every $b \ge 1$ (take $b = 1\cdot b$), so $1 \preceq b$ for all $b$. $\blacksquare$
 
 </details>

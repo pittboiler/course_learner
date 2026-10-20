@@ -100,7 +100,9 @@ Two sentences or fewer per item.
 > But the chief and special glory of Thomas, one which he has shared with none of the Catholic Doctors, is that the Fathers of Trent made it part of the order of conclave to lay upon the altar, together with sacred Scripture and the decrees of the supreme Pontiffs, the "Summa" of Thomas Aquinas, whence to seek counsel, reason, and inspiration.
 
 Pius XI repeats the story in *Studiorum Ducem* (29 June 1923, n. 11), but in a tightened form: there he says the Fathers of Trent resolved that two volumes *only*, Scripture and the *Summa*, should lie open on the altar during their deliberations.
+
 (a) Name the differences between the two tellings, and say which single difference is evidence that the story is being *transmitted* rather than *documented*.
+
 (b) Name the class of document that would settle whether it happened, and say what a careful lesson should do with the claim given that this course has not found it there.
 Two sentences or fewer per part.
 

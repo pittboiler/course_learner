@@ -112,7 +112,9 @@ The practical version: you cannot ask a parser generator whether your new gramma
 **P3 (🔴)**
 
 (a) Prove that if $L$ is context-free and $R$ is regular then $L \cap R$ is context-free. Sketch the construction and say what its state set and stack alphabet are.
+
 (b) Use (a) plus Example 1 to prove that $M = \{\,w \in \{a,b,c\}^* : \#a(w) = \#b(w) = \#c(w)\,\}$ is not context-free.
+
 (c) Explain in two sentences why (a) does **not** contradict the failure of closure under intersection in Example 2.
 
 <details>

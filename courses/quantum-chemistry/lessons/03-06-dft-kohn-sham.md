@@ -78,8 +78,11 @@ Higher rungs are generally more accurate and more expensive; hybrids (especially
 **P2 (🟡)** Explain the Kohn–Sham trick: what is the fictitious system, what property does it share with the real molecule, and why does this make DFT (a) solvable by the same self-consistent-field loop as Hartree–Fock (Lesson [2.3](02-03-self-consistent-field.md)) yet (b) able to include electron correlation, which Hartree–Fock cannot?
 
 **P3 (🔴)** Place LDA, GGA, and hybrid functionals on the accuracy/cost ladder. Then pick a sensible functional for each task and justify it in one line, naming a known DFT failure relevant to the choice:
+
 (a) thermochemistry of a medium organic molecule;
+
 (b) the binding energy of a benzene dimer (two rings stacked, held only by van der Waals forces);
+
 (c) the reaction barrier of a process where a positive charge is shared across two fragments.
 
 <details>

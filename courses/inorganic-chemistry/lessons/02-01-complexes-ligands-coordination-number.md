@@ -82,6 +82,7 @@ Here CN is still 6, but it comes from **one** ligand, not six. Two species on th
 ## Problems
 
 **P1 (🟢)** For each complex, identify the metal (and its charge), the ligand(s), the donor atom(s), the denticity of each ligand, and the coordination number:
+
 (a) $\ce{[Co(NH3)6]^3+}$  (b) $\ce{[Pt(en)2]^2+}$  (c) $\ce{[Fe(C2O4)3]^3-}$
 
 **P2 (🟡)** Consider $\ce{[Co(en)2Cl2]+}$. Count the coordination number and name the likely geometry. How many *ligands* are bonded to the metal, and why does that differ from the coordination number?

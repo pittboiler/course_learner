@@ -119,8 +119,11 @@ So $\Lambda$ took over only recently (a redshift of $\sim0.3$, a few billion yea
 ## Problems
 
 **P1 (🟢)** Take $H_0 = 70\ \mathrm{km\,s^{-1}\,Mpc^{-1}}$ (and $1\ \mathrm{Mpc}=3.086\times10^{19}\ \mathrm{km}=3.086\times10^{22}\ \mathrm m$, $c=3.0\times10^{5}\ \mathrm{km/s}$).
+
 (a) Compute the Hubble time $t_H=1/H_0$ in seconds and in Gyr.
+
 (b) Compute the Hubble distance $D_H=c/H_0$ in Mpc.
+
 (c) Estimate the recession velocity of a galaxy at $d=100$ Mpc.
 
 **P2 (🟡)** Derive the flat, $\Lambda=0$ first Friedmann equation $H^2=\tfrac{8\pi G}{3}\rho$ from Newtonian energy conservation. Consider a test galaxy of mass $m$ at the edge of a uniform expanding sphere of physical radius $r(t)$ and density $\rho(t)$, on the escape-velocity knife-edge (total energy $E=0$). Write down its energy, substitute the enclosed mass, and show the expansion rate obeys the Friedmann equation. Explain in one line why $E=0$ corresponds to the *critical* density.

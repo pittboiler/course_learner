@@ -104,8 +104,11 @@ But it strains the other side too. If existence is a first-order act of the indi
 **P1 (🟢) *(Exegetical.)*** Each claim below states, or rules out, one of the three scholastic positions. Say which, in one sentence each.
 
 (a) "Before it exists, a thing's essence is already there, waiting for existence to be added to it."
+
 (b) "In the creature there is one reality; the mind separates what it is from that it is, prompted by the fact that it need not have been."
+
 (c) "Essence and existence are not two things but two principles of one thing, as potency is to act."
+
 (d) "The distinction is in the thing and prior to the mind's work, yet not between separable realities — the nature and the being are distinct formalities of one inseparable reality."
 
 **P2 (🟡) *(Exegetical (a) · Evaluative (b).)*** An invented passage from a science magazine's de-extinction feature:

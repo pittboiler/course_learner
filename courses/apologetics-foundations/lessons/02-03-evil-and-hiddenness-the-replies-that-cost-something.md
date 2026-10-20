@@ -98,8 +98,11 @@ Now suppose she reaches instead for full skeptical theism. $O$ loses its directi
 **P3 (🔴, optional) *(Formal (a)–(c) · Evaluative (d))*** Invented numbers. An apologist holds $T : \text{HI} = 7:2$. Datum $D$: hundreds of millions of years of predation and disease before any human. She grants $\Pr(D \mid \text{HI}) = 0.7$ and $\Pr(D \mid T) = 0.2$.
 
 (a) Compute the posterior odds and $T$'s share of the two-way contest.
+
 (b) She moves to $T_C$: theism plus "God brings creation to its end through a cross that defeats suffering from within." She says $\Pr(D \mid T_C) = 0.5$. Within $T$, $T_C$ had $0.4$ of the prior; assume $D$ would not occur on $T$ without that addition. Compute $T_C : \text{HI}$ before and after $D$.
+
 (c) Suppose independent historical evidence, counted before $D$, had put $T_C : \text{HI}$ at $14:5$. Recompute.
+
 (d) In two sentences: what do (b) and (c) show about the objection that the cross "changes the subject"?
 
 <details>

@@ -145,7 +145,9 @@ That is what a well-run disputed case looks like: the disagreement located preci
 **P1 (🟢) *(Exegetical.)*** For each claim, run steps 1–3: name the act, give the rung, and say what a Catholic who denied it would be doing. One sentence each. Do not use any claim's subject matter to decide — use its act.
 
 (a) The bread and wine are changed into the body and blood of Christ. *(Trent, Session XIII, 1551, decree with attached canons.)*
+
 (b) This particular ecumenical council was legitimately celebrated. *(A dogmatic fact; the 1998 commentary's own class of example.)*
+
 (c) A teaching set out once, at length, in a papal encyclical, which the encyclical neither defines nor says is to be held definitively.
 
 **P2 (🟡) *(Exegetical (a) · Evaluative (b).)*** An invented forum post:

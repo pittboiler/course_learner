@@ -117,21 +117,29 @@ So the trade is: **laziness converts time you might not have spent into space yo
 **P1 (🟢)** For each term, say whether CBV and CBN each terminate, and give the result where one does. Recall $\Omega = (\lambda x.\,x\,x)(\lambda x.\,x\,x)$.
 
 (a) $(\lambda x.\ \overline{5})\ \Omega$
+
 (b) $(\lambda x.\ x)\ ((\lambda y.\,y)\ \overline{3})$
+
 (c) $(\lambda x.\ x\,x)\ (\lambda y.\ y)$
+
 (d) $(\lambda x.\ \Omega)\ \overline{7}$
 
 **P2 (🟡)** Let $t = (\lambda x.\ f\ x\ x\ x)\ e$, where evaluating $e$ costs $c$ units and $f$ is a variable.
 
 (a) State the number of times $e$ is evaluated under CBV, CBN and lazy.
+
 (b) Give the value of $k$ for which CBV and CBN do equal work, and say which is cheaper on either side of it.
+
 (c) Now let $e$ be a term that diverges. State what each of the three strategies does, and reconcile this with your answer to (b).
 
 **P3 (🔴)** A language designer wants call-by-name's termination behaviour without call-by-need's thunks, and proposes: "substitute the argument unreduced, but first check whether the parameter occurs more than once in the body; if it does, evaluate the argument first instead."
 
 (a) On Example 1's term, state which branch the rule takes and what it costs. Compare with lazy.
+
 (b) Give a term on which this rule **diverges** where lazy terminates. (Hint: the rule commits based on a syntactic count, before knowing whether the occurrences are reached.)
+
 (c) State the general principle your counterexample illustrates, in terms of what a syntactic occurrence count can and cannot tell you.
+
 (d) Real compilers *do* perform this optimization, under the name strictness analysis, and it is sound. State the one extra condition they establish before converting a lazy binding to a strict one, and name the lesson in this course where that analysis lives.
 
 <details>
@@ -215,6 +223,7 @@ The analysis is a **strictness analysis**, and it is an instance of [Lesson 7.5]
 **From Lesson 2.4 (Hoare logic and loop invariants):** A Hoare triple $\{P\}\,c\,\{Q\}$ asserts **partial** correctness — if $P$ holds and $c$ terminates, then $Q$ holds — and $\{\mathsf{true}\}\,c\,\{\mathsf{false}\}$ is derivable for any divergent $c$. Total correctness needs a separate variant.
 
 (a) A program is verified partially correct and then compiled by a call-by-value implementation instead of the call-by-name one it was written for. State whether the partial-correctness proof still holds, with a reason.
+
 (b) State whether the *total*-correctness proof still holds, and give a term from this lesson that settles it.
 
 <details>

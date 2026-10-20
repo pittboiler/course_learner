@@ -93,7 +93,9 @@ The honest version: coexistence is a budget, not a yes/no. Noise scales with the
 **P1 (🟢)** A receiver narrows its filter from 1 nm to 0.1 nm and its coincidence window from 1 ns to 0.3 ns. The photon is narrower than both, and the detector jitter is below 0.3 ns. By what factor does the Raman noise per window fall? Express it in dB too.
 
 **P2 (🟡)** Use the toy model with $\rho=10^{-10}$ per km per nm, classical attenuation 0.2 dB/km, and $7.80\times10^{15}$ photons/s per mW. A 20 km lit span carries 8 C-band channels at 1 mW each. The quantum path has $20\times0.33+1.4=8.0$ dB of loss, the detector efficiency is 0.90 for signal and noise alike, the filter is 0.2 nm and the window 0.5 ns. Noise photons have random polarization, so the delivered state is Werner with $p=S/(S+N)$.
+
 (a) Find $S$, $N$ and the fidelity $F$. Does the link violate CHSH (threshold $F>0.780$)?
+
 (b) The operator raises total launch power tenfold. Recompute $F$ and answer the same question.
 
 **P3 (🔴, practical)** A telco's CTO asks: "Can we put your entanglement link on our busiest metro ring?" In at most five sentences, answer: name the wavelength plan, what you need to know about their power, your filtering, and what you would measure before promising a fidelity.

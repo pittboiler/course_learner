@@ -105,6 +105,7 @@ Top: three sample cosets of $[0,1]$ (each dense, each a different colour); the r
 *One-sentence upshot:* with only nonnegative shifts the sandwich collapses to $\sum_k\ell\le\lambda([0,\tfrac32])=\tfrac32$, which $\ell=0$ satisfies happily — no contradiction — so the argument truly needs shifts of both signs to force the lower bound $\lambda(U)\ge1$. $\blacksquare$
 
 **P3.** (a) **Axiom of Choice:** the *construction of $V$ itself* — "$V$ contains exactly one element from each equivalence class." This selects one point from each of uncountably many nonempty, rule-less classes; no other step is non-constructive (the enumeration of $\mathbb{Q}\cap[-1,1]$, the translations, disjointness, and the sandwich are all explicit).
+
 (b) **Countable additivity:** the equality $\lambda(U)=\sum_{k=0}^\infty\lambda(V+q_k)=\sum_{k=0}^\infty\ell$, an infinite sum over the countable index set. *What breaks with only finite additivity:* finite additivity lets you evaluate $\lambda\big(\bigcup_{k\le N}(V+q_k)\big)=(N+1)\ell$ for each finite $N$, but a finite union of translates cannot contain $[0,1]$ (covering $[0,1]$ needs *every* rational shift in $[-1,1]$, infinitely many), so you never obtain the lower bound $\lambda(U)\ge1$. Without that lower bound, $\ell=0$ is consistent and the contradiction disappears — matching the fact that finitely-additive, translation-invariant length does extend to all subsets of $\mathbb{R}$. $\blacksquare$
 
 </details>

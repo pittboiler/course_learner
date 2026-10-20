@@ -193,11 +193,15 @@ If a refresh occupies the array for about 50 ns, the fraction of time stolen is 
 **P1 (🟢)** (a) A cache is organized as 8K × 32 bits. Give its number of address lines, number of data lines, total bits, and total size in KiB. (b) A different chip has 14 address pins and 8 data pins. State its organization in the "words × bits" form and its capacity in KiB.
 
 **P2 (🟡)** Two functions of $A, B, C$ (with $A$ most significant): $F_1 = \Sigma m(3,4,5,7)$ and $F_2 = \Sigma m(0,2,4,5)$.
+
 (a) Give the size in bits of the smallest ROM implementing **both**, and write out its stored contents.
+
 (b) Find the minimal sum-of-products for each.
+
 (c) How many product-term rows does a PLA need for both outputs, exploiting sharing? How many would a PAL need?
 
 **P3 (🔴)** You have 1K × 8 SRAM chips and must build a 4K × 8 memory system.
+
 (a) How many chips? (b) How many address lines does the system need, and how are they divided between the chips' address pins and the selection logic? (c) What logic generates the chip-select signals? (d) Separately: how would you instead wire two of these chips into a 1K × 16 memory?
 
 <details>

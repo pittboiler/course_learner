@@ -89,7 +89,9 @@ Check the invariant: $E^2-(pc)^2 = 1563^2 - 1250^2 = (2.443-1.563)\times10^6 = 0
 **P2 (🟡)** Starting from the definitions $E=\gamma mc^2$ and $\mathbf p = \gamma m\mathbf v$, verify algebraically that $E^2 = (pc)^2 + (mc^2)^2$. Then, by expanding $\gamma$ for $v\ll c$, show $E \approx mc^2 + \tfrac12 mv^2$ and identify each term.
 
 **P3 (🔴, optional)** A particle of mass $M$ sits at rest and decays into two photons.
+
 (a) Using conservation of four-momentum, find each photon's energy and show the photons fly off back-to-back.
+
 (b) Show that a single photon *cannot* decay into one massive particle (mass $m>0$), using the invariant $p\cdot p$. (Hint: what is $p\cdot p$ for a photon versus for a massive particle, and is it conserved?)
 
 <details>

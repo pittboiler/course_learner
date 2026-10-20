@@ -96,16 +96,19 @@ Now drop oddness. Four judges at 20, 40, 60 and 120: $d_2$ ties 2–2, neither $
 **P1 (🟢) *(Formal (a) · Formal (b).)*** A five-member hospital board dismisses a resident if and only if she falsified records ($p$) or endangered a patient ($q$). Members 1 and 2 accept $p$ and $\neg q$; members 3 and 4 accept $\neg p$ and $q$; member 5 accepts $\neg p$ and $\neg q$. Each applies the doctrine to her own premises.
 
 (a) Tally $p$, $q$ and $p \lor q$. Give the premise-based and conclusion-based verdicts, and name a minimally inconsistent subset of the majority set.
+
 (b) Prove that on the agenda $\{p, q, p \lor q\}$ with any odd $n$, if the premise-based procedure dismisses, so does the conclusion-based procedure. Which split is therefore the only one possible?
 
 **P2 (🟡) *(Formal (a) · Formal (b).)*** An expert panel judges $p$ "the central bank raises rates this year", $p \to q$ "if it raises rates, unemployment rises", and $q$ "unemployment rises", with negations. Recall $p \to q$ is true unless $p$ is true and $q$ false ([`proofs-primer` 1.1](../../proofs-primer/lessons/01-01-statements-connectives-implication.md)).
 
 (a) Give three consistent, complete judgment sets whose proposition-wise majority accepts $p$, $p \to q$ and $\neg q$.
+
 (b) This agenda has four complete inconsistent judgment sets. Prove that for odd $n$, $\{p,\ p \to q,\ \neg q\}$ is the only one proposition-wise majority can ever return.
 
 **P3 (🔴, optional) *(Formal (a) · Exegetical (b).)*** An invented agency memo: "Our five-member panel found the device effective (3–2) and safe (3–2). Approval requires both. The panel's verdict, approval, is therefore what the evidence supports, and it reflects the panel's collective view." Members 1, 2, 3 found it effective; members 1, 4, 5 found it safe.
 
 (a) How many members individually support approval? What does the conclusion-based procedure return?
+
 (b) In 100 words or fewer, name the procedure the memo used and the claims in it that this lesson's results do not license.
 
 <details>
@@ -160,6 +163,7 @@ Each is the truth assignment $(p, q) = (T, T)$, $(T, F)$, $(F, F)$, so each is c
 **From Lesson [4.1](04-01-sens-liberal-paradox.md) (Sen's liberal paradox):** *(Formal (a)–(b).)* Housemates Jo and Kai share a spare room. It can become Jo's studio ($j$), Kai's gym ($g$), or stay a guest room ($h$). Jo is decisive over $\{j, h\}$ and Kai over $\{g, h\}$. Society uses 4.1's minimal liberal-Paretian rule: $x \, P \, y$ iff a right or a unanimous strict preference forces it, and every other pair is indifferent.
 
 (a) Find every two-person profile (Jo's strict ranking, Kai's strict ranking) at which $P$ cycles on $\{j, g, h\}$, and prove there are no others without checking the 36 profiles one by one.
+
 (b) Add Lee, who holds no rights. How many of the $6^3 = 216$ three-person profiles produce a cycle?
 
 <details>

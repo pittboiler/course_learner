@@ -182,12 +182,17 @@ That second register is the mux-per-bit design: its clock ticks through all eigh
 ## Problems
 
 **P1 (🟢)** An 8-bit register holds `11101101`.
+
 (a) Give its value read as unsigned, and as signed two's complement.
+
 (b) Apply one logical right shift. Give the pattern and its unsigned value.
+
 (c) Apply one arithmetic right shift to the original pattern instead. Give the pattern and its signed value, and compare it with the signed value from (a) divided by two.
 
 **P2 (🟡)** A 3-bit Johnson counter has $Q_0^+ = \overline{Q_2}$, $Q_1^+ = Q_0$, $Q_2^+ = Q_1$ (states written $Q_2Q_1Q_0$).
+
 (a) Starting from `000`, list the full state sequence and give the number of distinct states. Does it match $2n$?
+
 (b) Identify the unused states and show what the counter does if it powers up in one of them.
 
 **P3 (🔴)** A 4-bit LFSR is built with taps at $Q_3$ and $Q_1$ instead: $Q_0^+ = Q_3 \oplus Q_1$, with $Q_3^+=Q_2,\ Q_2^+=Q_1,\ Q_1^+=Q_0$. Starting from `0001`, find its period. Is it maximal? What does the answer tell you about choosing taps?

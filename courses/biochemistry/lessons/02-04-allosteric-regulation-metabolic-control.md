@@ -105,8 +105,11 @@ $E_0$ (the committed step, $A\to B$) is feedback-inhibited. Suppose instead the 
 <summary>Solutions</summary>
 
 **P1.** ATCase is a K-system: effectors move $K_{0.5}$, and low affinity ↔ T, high affinity ↔ R.
+
 (a) **CTP accumulates** → end-product says "enough pyrimidines" → stabilizes **T** → **$K_{0.5}$ up** (enzyme harder to saturate, flux down). 
+
 (b) **ATP accumulates** → signals purine abundance and plenty of energy, so the cell balances its nucleotide pools by making more pyrimidines → stabilizes **R** → **$K_{0.5}$ down** (flux up). 
+
 (c) **Both high** → the effects oppose; CTP and ATP compete for the same regulatory sites, so the net position is a tug-of-war set by their relative concentrations. Directionally, high CTP tends to win (the pathway shouldn't overshoot on pyrimidines), so net **T-leaning, $K_{0.5}$ up** — but the honest answer is "intermediate, tunable by the ratio." Full credit for recognizing the antagonism.
 
 **P2.** Use $\dfrac{v}{V_{\max}}=\dfrac{[S]^{n_H}}{K_{0.5}^{n_H}+[S]^{n_H}}$ with $n_H=3$.

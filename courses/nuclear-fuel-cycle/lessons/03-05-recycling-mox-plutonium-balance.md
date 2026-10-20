@@ -79,7 +79,9 @@ total plutonium — a lot more \ce{PuO2}, dominated by dead even isotopes and \c
 **P1 (🟢)** A MOX design uses $w_{\text{Pu}} = 9\%$ total plutonium, and the spent UOX being reprocessed assays $1.2\%$ Pu by heavy metal. Working per tonne, how many tonnes of spent UOX must be reprocessed to build one tonne of MOX?
 
 **P2 (🟡)** Reactor-grade plutonium has vector $(f_{238},f_{239},f_{240},f_{241},f_{242}) = (0.02,\,0.55,\,0.24,\,0.13,\,0.06)$.
+
 (a) Compute the fissile fraction $f_{\text{fis}}$.
+
 (b) After ~14 years of storage, half of the \ce{^{241}Pu} has decayed to \ce{^{241}Am}. Recompute $f_{\text{fis}}$ (treat the total mass as unchanged; \ce{^{241}Am} is non-fissile). By how many percentage points did it drop, and what does that force MOX fabricators to do?
 
 **P3 (🔴, optional)** Using Example 1's numbers ($10$ kg Pu bred per t UOX; MOX loads $80$ kg/t and discharges $55$ kg/t), consider a fleet that reprocesses $8$ t of spent UOX to fuel $1$ t of MOX. Over that whole $8\text{ t UOX} + 1\text{ t MOX}$ chunk, how many kg of plutonium exist at the end versus the $80$ kg that were separated to start the MOX? What fraction of the fed plutonium was actually fissioned, and why does this make LWR MOX a poor *stand-alone* strategy for eliminating plutonium?
@@ -92,6 +94,7 @@ $$\frac{90}{12} = 7.5\ \text{tonnes of spent UOX per tonne of MOX}.$$
 Right in the industry's 7–8 : 1 band.
 
 **P2** (a) $f_{\text{fis}} = f_{239} + f_{241} = 0.55 + 0.13 = 0.68$.
+
 (b) Half the \ce{^{241}Pu} ($0.13$) decays: $\ce{^{241}Pu}$ falls to $0.065$, and \ce{^{241}Am} grows to $0.065$ (non-fissile). New fissile fraction
 $$f_{\text{fis}}' = 0.55 + 0.065 = 0.615.$$
 Drop $= 0.68 - 0.615 = 0.065$, i.e. **6.5 percentage points** of fissile worth lost just sitting on the shelf. It forces fabricators to use the plutonium promptly after separation (or chemically strip the in-grown \ce{^{241}Am} before pressing pellets), and to over-load $w_{\text{Pu}}$ to compensate for aging.

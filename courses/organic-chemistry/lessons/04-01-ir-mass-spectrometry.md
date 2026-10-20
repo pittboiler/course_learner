@@ -92,9 +92,13 @@ Two degrees: some combination of rings and $\pi$ bonds totaling two — e.g. one
 <summary>Solutions</summary>
 
 **P1**
+
 (a) $\ce{C4H8O2}$: $\text{DoU} = \dfrac{2(4)+2-8}{2} = \dfrac{2}{2} = 1$. One ring **or** one double bond. (Oxygens ignored.) With two oxygens, a single $\ce{C=O}$ is a strong candidate — this is the P3 compound.
+
 (b) $\ce{C7H8}$ (toluene): $\text{DoU} = \dfrac{2(7)+2-8}{2} = \dfrac{8}{2} = 4$. Four degrees = the classic aromatic signature (3 $\pi$ bonds + 1 ring). Suspect a benzene ring.
+
 (c) $\ce{C6H5Cl}$: halogen subtracts, $\text{DoU} = \dfrac{2(6)+2-5-1}{2} = \dfrac{8}{2} = 4$. Again aromatic — a benzene ring with one H replaced by Cl.
+
 (d) $\ce{C3H5N}$: nitrogen adds, $\text{DoU} = \dfrac{2(3)+2+1-5}{2} = \dfrac{4}{2} = 2$. Two degrees — e.g. a nitrile $\ce{C#N}$ (a triple bond = 2 all by itself), consistent with $\ce{CH3CH2C#N}$, propanenitrile.
 
 **P2**
@@ -119,8 +123,11 @@ One consistent structure: **ethyl acetate**, $\ce{CH3COOCH2CH3}$ (or equivalentl
 <summary>Solution</summary>
 
 (a) **Aldehyde (carbonyl).** The carbonyl carbon is **electrophilic** — the $\ce{C=O}$ is polarized and a resonance form ([1.2](01-02-resonance-formal-charge-delocalization.md)) puts $+$ on carbon. (The oxygen, with lone pairs, is the basic/nucleophilic end.) In IR this is exactly the strong $\sim 1720\ \mathrm{cm^{-1}}$ band from this lesson.
+
 (b) **Ether.** Oxygen has lone pairs (a weak base / mild nucleophile), but with no good leaving group and no acidic H it is **essentially unreactive** — a common inert solvent. No O–H, so no broad IR O–H stretch.
+
 (c) **Alkyne.** The $\ce{C#C}$ $\pi$ system is exposed electron density — a **nucleophile** that attacks electrophiles. (Its terminal $\ce{C-H}$ is also weakly acidic.) The triple bond shows the thin IR band near $2120\ \mathrm{cm^{-1}}$.
+
 (d) **Amine.** The nitrogen lone pair makes it the best neutral **nucleophile** (and a decent base). Its $\ce{N-H}$ gives the sharper $3300$–$3500\ \mathrm{cm^{-1}}$ IR band.
 
 The through-line: the same electron-rich/electron-poor bookkeeping from 2.1 that predicts *reactivity* also predicts which bonds *absorb where* — a polar $\ce{C=O}$ is both an electrophile and a strong $1700$-region IR band.

@@ -101,20 +101,26 @@ and the proper time is $\Delta\tau = \tfrac1c\sqrt{-\Delta s^2} = 2.2\,\mu\text{
 Throughout, measure time in seconds and distance in **light-seconds** (1 ls = distance light travels in 1 s), so that $c = 1$ light-second per second and numerically $\Delta s^2 = -\Delta t^2 + \Delta x^2$ (in units of ls²). This just spares us factors of $c$; put them back by dimension whenever you like.
 
 **P1 (🟢)** Event $A$ is at $(t,x)=(0,0)$. For each partner event, classify the pair (timelike / null / spacelike) and give $\Delta s^2$; for the timelike one, also find the proper time $\Delta\tau$.
+
 (a) $B=(5\ \text{s},\ 3\ \text{ls})$  (b) $C=(2\ \text{s},\ 6\ \text{ls})$  (c) $D=(4\ \text{s},\ 4\ \text{ls})$.
 
 **P2 (🟡)** Take events separated by $(\Delta t,\Delta x)=(3\ \text{s},\,5\ \text{ls})$ in frame $S$. Boost to $S'$ moving at $v=0.6c$ along $x$ using the transformation from [1.2](#/lesson/relativity/01-02-lorentz-transformations.md). Compute $\Delta t'$ and $\Delta x'$ explicitly, then verify $\Delta s'^2 = \Delta s^2$ by direct substitution. (This is Example 1 made numerical.)
 
 **P3 (🔴, optional)** Two events are **spacelike**-separated: $\Delta x > c\,\Delta t > 0$ in frame $S$ (so a signal linking them would need speed $\Delta x/\Delta t > c$). Suppose such a superluminal signal is sent from the first event (cause) to the second (effect).
+
 (a) Using $\Delta t' = \gamma\big(\Delta t - \tfrac{v}{c^2}\Delta x\big)$, find the condition on the boost speed $v$ that makes $\Delta t' < 0$ — i.e., the effect precedes the cause in $S'$.
+
 (b) Show that this required $v$ is always $< c$, so such a frame genuinely exists. Conclude why $c$ must be a universal speed limit.
 
 <details>
 <summary>Solutions</summary>
 
 **P1** Use $\Delta s^2 = -\Delta t^2 + \Delta x^2$ (ls²).
+
 (a) $-5^2 + 3^2 = -25+9 = -16 < 0$: **timelike**. Proper time $\Delta\tau = \sqrt{-\Delta s^2}/c = \sqrt{16}\ \text{s} = 4\ \text{s}$ (with $c=1$ ls/s, $\sqrt{16\ \text{ls}^2}/(1\ \text{ls/s}) = 4$ s). A clock riding the straight worldline from $A$ to $B$ ages 4 s.
+
 (b) $-2^2 + 6^2 = -4+36 = 32 > 0$: **spacelike** ($\Delta s^2 = 32\ \text{ls}^2$). No causal link; some frame makes $A$ and $C$ simultaneous. (Reaching $C$ from $A$ would need $6\ \text{ls}/2\ \text{s}=3c$.)
+
 (c) $-4^2 + 4^2 = 0$: **null** ($\Delta s^2 = 0$). Connected exactly by a light ray: $\Delta x = c\,\Delta t$ ($4\ \text{ls}$ in $4\ \text{s}$).
 
 **P2** With $v=0.6c$: $\gamma = 1/\sqrt{1-0.36} = 1/\sqrt{0.64} = 1/0.8 = 1.25$. Working in the ls/s units ($c=1$, so $v=0.6$ ls/s):

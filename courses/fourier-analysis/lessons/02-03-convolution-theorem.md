@@ -94,6 +94,7 @@ using $1-\cos\theta=2\sin^2(\theta/2)$. It matches — and squaring $\operatorna
 
 **P1** (a) With the causal support, $\hat h(\xi)=\int_0^\infty e^{-x}e^{-2\pi i x\xi}\,dx=\int_0^\infty e^{-(1+2\pi i\xi)x}\,dx$. Since $\Re(1+2\pi i\xi)=1>0$, the integral converges to
 $$\hat h(\xi)=\left[\frac{-1}{1+2\pi i\xi}e^{-(1+2\pi i\xi)x}\right]_0^\infty=\frac{1}{1+2\pi i\xi}.$$
+
 (b) $|\hat h(\xi)|=\dfrac{1}{\sqrt{1+4\pi^2\xi^2}}$. This equals $1$ at $\xi=0$ and decreases monotonically toward $0$ as $|\xi|\to\infty$, so the filter passes low frequencies near full strength and progressively attenuates high ones — a low-pass. (The half-power point $|\hat h|^2=\tfrac12$ sits at $\xi=1/2\pi$, the cutoff.)
 
 **P2** By associativity and the convolution theorem, $\widehat{B*B*B}=\hat B^{\,3}=\operatorname{sinc}^3(\xi)=\dfrac{\sin^3(\pi\xi)}{(\pi\xi)^3}$. As $|\xi|\to\infty$ the numerator is bounded by $1$, so $|\operatorname{sinc}^3(\xi)|\le \dfrac{1}{|\pi\xi|^3}$ — decay like $1/|\xi|^3$. Compared with the triangle's $\operatorname{sinc}^2$ (decay $1/\xi^2$), the spectrum falls off one power faster, so $B*B*B$ is *smoother*: each extra convolution with the box integrates once more, upgrading continuity (box: discontinuous; triangle: continuous with corners; $B*B*B$: continuously differentiable — a quadratic B-spline). Faster spectral decay $\Leftrightarrow$ more derivatives, exactly the duality from Lesson 2.2.

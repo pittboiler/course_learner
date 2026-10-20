@@ -74,10 +74,15 @@ Two claims share the passage. One is about **origin**: guilt and obligation (Sam
 **P1 (🟢) *(Exegetical.)*** An invented podcast on debt makes six claims. Label each historical, conceptual or normative, with one clause of reason. Two of them mix kinds: split those and label each part.
 
 (a) "Most of the oldest Mesopotamian tablets record who owed what to whom."
+
 (b) "A gift you must return at a fixed value is not a gift at all; it is a loan."
+
 (c) "Most people today believe it is wrong to default on a loan you could afford to repay."
+
 (d) "A lender who knew the borrower could never repay has no right to be repaid."
+
 (e) "Coinage spread with armies and slave markets, so a debt counted in money can never be a moral obligation."
+
 (f) "A debt is only an exchange left open, so it has no more moral weight than the exchange it came from."
 
 **P2 (🟡) *(Exegetical (a) · Evaluative (b).)*** Three invented relations.

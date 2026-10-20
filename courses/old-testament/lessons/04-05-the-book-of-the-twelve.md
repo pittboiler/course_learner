@@ -86,6 +86,7 @@ The two orders, with each book's setting and its [dating status](../reference.md
 > And he prayed to the Lord, and said: I beseech thee, O Lord, is not this what I said, when I was yet in my own country? therefore I went before to flee into Tharsis: for I know that thou art a gracious and merciful God, patient, and of much compassion, and easy to forgive evil. And now, O Lord, I beseech thee take my life from me: for it is better for me to die than to live. ... And the Lord said: Thou art grieved for the ivy, for which thou hast not laboured, nor made it to grow, which in one night came up, and in one night perished. And shall I not spare Ninive, that great city, in which there are more than a hundred and twenty thousand persons, that know not how to distinguish between their right hand and their left, and many beasts?
 
 (a) *(Exegetical)* Why did Jonah flee in chapter 1, according to this passage? Which earlier text does his prayer quote, and what is ironic about his quoting it here? Name two features of the passage that readers of the parable or satire view cite as genre signals. **Three sentences.**
+
 (b) *(Evaluative)* In **100 words or fewer**, say which genre reading (history, parable, satire) best explains chapter 4, and state the strongest point against your choice. Any verdict passes.
 
 **P2 (🟡)** *(Exegetical)* (a) Give the Hebrew reference for each Douay reference: Joel 2:28; Joel 2:32; Joel 3:2; Malachi 4:5; Micah 5:2. **One line.** (b) Compare Joel 2:28–29, 32 (Douay) with Acts 2:17–18, 21, 39:

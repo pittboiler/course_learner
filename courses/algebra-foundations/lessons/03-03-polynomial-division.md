@@ -125,7 +125,9 @@ and *now* the split-into-simple-fractions machinery can start. Same identity, bo
 **P2 (🟡)** Factor $x^3 - 4x^2 + x + 6$ completely. Strategy: any integer root must divide the constant term $6$, so test $c = \pm1, \pm2, \pm3, \pm6$ with the remainder theorem until one gives zero, then divide it out and finish with [3.2](03-02-factoring.md).
 
 **P3 (🔴, optional)** Two downstream setups, one technique.
+
 (a) Find the slant asymptote of $f(x) = \dfrac{2x^2 - 3x - 1}{x-2}$, and say in one sentence why the leftover term doesn't affect it.
+
 (b) Rewrite $\dfrac{x^2+3}{x^2-1}$ as a polynomial plus a proper fraction — the form `calc-refresher` needs before partial fractions. Which of the two parts can synthetic division handle, and why?
 
 <details>

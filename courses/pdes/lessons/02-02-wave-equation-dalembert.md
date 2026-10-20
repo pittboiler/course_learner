@@ -85,7 +85,9 @@ Unlike the displacement bump, this data doesn't come back down: an initial veloc
 **P2 (🟡)** Solve $u_{tt} = u_{xx}$ with $\varphi(x) = 0$ and $\psi(x) = \cos x$. Simplify to a single product, and check both initial conditions hold.
 
 **P3 (🔴, optional)** Take $\varphi$ supported on $[-1,1]$ (i.e. $\varphi = 0$ outside it), $\psi = 0$, and $c = 3$. An observer sits at $x = 10$.
+
 (a) At what time $t$ does the observer *first* feel any disturbance?
+
 (b) At what time does the observer return to complete rest, and stay there? Explain using the domain of dependence.
 
 <details>
@@ -118,7 +120,9 @@ Check the data: $u(x,0)=\cos x\cdot 0 = 0 = \varphi$ ✓. And $u_t = \cos x\cos 
 ## Flashback
 
 **From Lesson 2.1 (Deriving the heat equation):** A rod obeys $u_t = u_{xx}$.
+
 (a) At the current instant its temperature profile near a point is $u(x) = 100 - x^2$. Is that point heating up or cooling down, and why?
+
 (b) With no heat source and fixed ends $u(0) = 10$, $u(4) = 30$, what is the eventual steady-state temperature profile?
 
 <details>

@@ -121,21 +121,29 @@ Unification hits step 1 with $\alpha = t_0$ and $\tau_2 = t_0 \to t_1$, and **$t
 **P1 (🟢)** Run $\mathrm{unify}$ on each pair, giving the resulting substitution or naming the failure.
 
 (a) $\mathrm{unify}(\alpha \to \beta,\ \mathsf{Nat} \to \mathsf{Nat})$
+
 (b) $\mathrm{unify}(\alpha \to \alpha,\ \mathsf{Nat} \to \mathsf{Bool})$
+
 (c) $\mathrm{unify}(\alpha,\ \beta \to \beta)$
+
 (d) $\mathrm{unify}(\alpha \to \beta,\ \beta \to \alpha)$
 
 **P2 (🟡)** Infer the principal type of each term by generating and solving constraints. Show the constraints.
 
 (a) $\lambda x.\lambda y.\ x$
+
 (b) $\lambda f.\lambda g.\lambda x.\ f\,(g\,x)$
+
 (c) $\lambda f.\lambda x.\ f\,x\,x$
 
 **P3 (🔴)** Consider $\lambda x.\lambda y.\ x\,y\,x$.
 
 (a) Assign fresh variables and generate every constraint, labelling which application produced each.
+
 (b) Solve them, showing each unification step, and report where the algorithm stops.
+
 (c) Name the failing check and give the exact type variable and type at which it fires.
+
 (d) A colleague says the rejection shows the term is meaningless. Give a reduction of $(\lambda x.\lambda y.\ x\,y\,x)$ applied to two arguments that produces a perfectly ordinary answer, and state in one sentence the property this illustrates about the type system.
 
 <details>
@@ -240,6 +248,7 @@ This is not a defect to be engineered away — by Rice's theorem ([`theory-of-co
 Unification also runs to completion on a constraint set.
 
 (a) State whether unification is a fixed-point iteration of the same kind, and give the reason.
+
 (b) Both algorithms can fail to produce a usable result, but they fail in structurally different ways. Compare an LL(1) conflict with an occurs-check failure: what does each tell you about the input?
 
 <details>

@@ -87,16 +87,23 @@ This is the precise bridge to `probability-theory`: a probability is a measure w
 ## Problems
 
 **P1 (🟢)** On $([0,\infty),\lambda)$ define $\nu(E)=\int_E e^{-x}\,d\lambda(x)$.
+
 (a) Show $\nu\ll\lambda$ and state $\frac{d\nu}{d\lambda}$.
+
 (b) Compute $\nu([0,\ln 2])$ and $\nu([0,\infty))$.
+
 (c) Using the density, compute $\int_{[0,\infty)} x\,d\nu$. (This is the mean of an $\mathrm{Exp}(1)$ random variable — a `probability-theory` bridge.)
 
 **P2 (🟡)** On $([0,1],\lambda)$ suppose $\mu\ll\lambda$ with $\frac{d\mu}{d\lambda}=2x$, and define $\nu(E)=\int_E x\,d\mu(x)$.
+
 (a) Justify the integration formula $\int_E x\,d\mu=\int_E x\cdot 2x\,d\lambda$ (say which theorem does the work).
+
 (b) Use the chain rule to find $\frac{d\nu}{d\lambda}$, then verify your answer by computing $\nu([0,1])$ two independent ways.
 
 **P3 (🔴, optional)** Two failures of "$\nu$ has a density."
+
 (a) On $([0,1],\mathcal{B})$ with $\mu=\lambda$, let $\nu=\delta_{1/2}$. Prove $\nu\perp\lambda$ and prove no measurable $f$ satisfies $\nu(E)=\int_E f\,d\lambda$ for all Borel $E$.
+
 (b) Give the Lebesgue decomposition of $\nu=\lambda|_{[0,1]}+3\,\delta_{1/2}$ with respect to $\lambda$: identify $\nu_{ac}$, its density, and $\nu_s$.
 
 <details>

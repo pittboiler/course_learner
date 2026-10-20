@@ -100,12 +100,16 @@ Read the arrows as "made possible", not "made inevitable". Luther's protest ran 
 ## Problems
 
 **P1 (🟢)** Thesis 27 (1915 translation) reads: "They preach man who say that so soon as the penny jingles into the money-box, the soul flies out [of purgatory]." A museum placard beside an indulgence chest reads: *Tetzel told the crowds: "As soon as the coin in the coffer rings, the soul from purgatory springs."*
+
 (a) *(Exegetical)* Does thesis 27 name Tetzel? Say what it establishes about indulgence preaching in 1517 and what it cannot establish.
+
 (b) *(Exegetical)* Using the lesson's evidence, say what is wrong with the placard's wording and rewrite its caption accurately.
 Two sentences per part.
 
 **P2 (🟡)** The posting dispute.
+
 (a) *(Exegetical)* For Melanchthon's 1546 account and Rörer's note, give each one's approximate date and whether its author was an eyewitness. Then name two features of Rörer's note that give it weight Melanchthon's account lacks.
+
 (b) *(Evaluative)* Does it matter to the history of the Reformation whether the theses were posted on a door? 150 words or fewer, any verdict.
 
 **P3 (🔴, optional) *(Exegetical)*** An invented documentary voice-over:

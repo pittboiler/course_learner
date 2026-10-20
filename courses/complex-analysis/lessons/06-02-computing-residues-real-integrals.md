@@ -102,6 +102,7 @@ Take real parts: $\displaystyle\int_{-\infty}^\infty\frac{\cos x}{x^2+1}\,dx=\fr
 
 **P1** (a) $z=3i$ is a **simple** pole of $\dfrac{e^z}{z^2+9}=\dfrac{e^z}{(z-3i)(z+3i)}$. With $g=e^z$, $h=z^2+9$, $h'=2z$:
 $$\operatorname{Res}=\frac{e^z}{2z}\Big|_{3i}=\frac{e^{3i}}{6i}=\frac{\cos3+i\sin3}{6i}=\frac{\sin3-i\cos3}{6}.$$
+
 (b) $z=0$ is a pole of **order $3$** of $\dfrac{e^z}{z^3}$. Clear it: $z^3 f=e^z$; the order-$m$ formula with $m=3$ wants $\dfrac{1}{2!}\dfrac{d^2}{dz^2}e^z\big|_0=\dfrac{1}{2}e^0=\dfrac12$. (Check against the series: $e^z/z^3=\sum z^{n-3}/n!$, and the $z^{-1}$ term is $n=2$, coefficient $1/2!$. ✓)
 
 **P2** Set $z=e^{i\theta}$, so $\cos\theta=\tfrac{z+z^{-1}}{2}$ and $d\theta=\tfrac{dz}{iz}$. Then

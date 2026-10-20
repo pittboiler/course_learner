@@ -118,14 +118,19 @@ The strain is real, and the tradition knows it: exactly *how* the same person's 
 **P1 (🟢) *(Exegetical.)*** For each sentence, say which of *credere Deum*, *credere Deo*, or *credere in Deum* it most directly expresses, and say why in one clause. Then say which of the three carries the **motive** of faith.
 
 (a) "I hold the resurrection to be a fact because the God who cannot lie has testified to it."
+
 (b) "What I believe is God, and whatever is bound up with him."
+
 (c) "My believing is a reaching out to him, not a filing away of facts."
 
 **P2 (🟡) *(Exegetical.)*** Assign each claim its level on the ladder, name the act or source that fixes it, and say what assent is owed. 150 words or fewer.
 
 (a) The motive of faith is the authority of God revealing, not the intrinsic truth of the things believed as reason sees it.
+
 (b) The act of faith is one act bearing three relations to its object, named *credere Deum*, *credere Deo* and *credere in Deum*.
+
 (c) The assent of faith is free.
+
 (d) How the believer assents to God's authority without reasoning in a circle.
 
 **P3 (🔴, optional) *(Exegetical (a) · Evaluative (b).)*** An invented paragraph from a discussion board:

@@ -114,8 +114,11 @@ since $0<\beta<1$. Euler ✓ and TVC ✓, so by sufficiency this policy is the *
 **P2 (🟡 — Boss Problem 1 core)** In the log / Cobb–Douglas / full-depreciation model of Example 2, a colleague proposes the policy $c_t=(1-\alpha\beta)\,k_t^\alpha$. Verify from scratch that it satisfies **both** the Euler equation and the transversality condition, and state why those two checks are enough to conclude it is optimal.
 
 **P3 (🔴)** Stay in the log / $\delta=1$ model. Let $s_t\equiv k_{t+1}/k_t^\alpha$ be the saving rate, so $c_t=(1-s_t)k_t^\alpha$.
+
 (a) Show the Euler equation is equivalent to the recursion $s_{t+1}=1+\alpha\beta-\dfrac{\alpha\beta}{s_t}$, and that $s_t\equiv\alpha\beta$ is a constant solution (the Example-2 optimum).
+
 (b) Show this fixed point is *unstable* going forward: any path with $s_0$ slightly above $\alpha\beta$ has $s_t\to 1$ (over-accumulation toward "consume nothing").
+
 (c) Along such a path, show the transversality term $\beta^t u'(c_t)k_{t+1}$ **diverges**, so the path satisfies the Euler equation at every date yet is not optimal.
 
 <details>

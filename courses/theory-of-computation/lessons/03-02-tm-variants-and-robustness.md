@@ -107,7 +107,9 @@ That is dovetailing, and it is the same move as the enumerator construction. It 
 **P1 (🟢)** A 3-tape machine $M$ decides some language in $t(n)$ steps on inputs of length $n$.
 
 (a) Give the running time of the single-tape simulation $S$, in $O(\cdot)$ form, and derive it in one sentence.
+
 (b) If $t(n) = 5n$, what is $S$'s running time?
+
 (c) A colleague concludes: "so tapes are irrelevant — every multitape algorithm is a single-tape algorithm." State precisely what is right and what is wrong about that sentence.
 
 **P2 (🟡)** Let $N$ be an NTM whose computation tree has branching factor at most $b$ and where every accepting branch has length at most $d$.
@@ -117,9 +119,13 @@ That is dovetailing, and it is the same move as the enumerator construction. It 
 **P3 (🔴)** For each modification, say whether the class of **recognizable languages** changes, and justify — a simulation sketch if it does not, a characterization if it does.
 
 (a) The tape is infinite in **both** directions.
+
 (b) The machine has **two stacks** instead of a tape.
+
 (c) The machine may compute a cell index and **jump the head there** in one step.
+
 (d) The machine may **never write** — the head reads and moves left or right, but the tape is immutable.
+
 (e) The machine has **two heads** on one tape, moving independently.
 
 <details>

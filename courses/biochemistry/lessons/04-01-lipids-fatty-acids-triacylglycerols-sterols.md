@@ -87,6 +87,7 @@ Now **cholesterol**, wedged among the tails, does something clever *in both dire
 
 **P2** (a) One gram of glycogen brings ~3 g of water, so a "unit of glycogen store" is $1 + 3 = 4$ g of wet mass carrying $4$ kcal:
 $$\frac{4\ \text{kcal}}{4\ \text{g wet}} = 1\ \text{kcal/g}.$$
+
 (b) Fat is ~9 kcal per gram of (essentially dry) mass, so
 $$\frac{9\ \text{kcal/g}}{1\ \text{kcal/g}} \approx 9\times.$$
 Even taking the drier end (2 g water/g → $4/3 \approx 1.3$ kcal/g) still leaves fat ~**6–9× denser** per unit of actual mass. (Note the two effects compound: ~2.25× from the fuel itself being more reduced, times ~3–4× from carrying no water.) (c) Storing months of energy as glycogen would mean lugging around several times the mass in water — fat lets you carry the same energy at a fraction of the weight, which is decisive for anything that has to move.

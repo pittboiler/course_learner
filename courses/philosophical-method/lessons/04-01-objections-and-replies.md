@@ -106,8 +106,11 @@ None of the three is cheating. What separates good dialectic from bad is that ea
 **P1 (🟢) *(Exegetical.)*** Name the objection type each of these is — premise denial, counterexample, reductio, proves-too-much, self-defeat, or so-what — in a phrase each.
 
 (a) "Your definition says a promise binds only if the promisee relied on it. I promised my dying father I would visit his grave. No one relied on anything."
+
 (b) "Grant everything: the policy does raise wages. Nothing you have said shows it raises them for the workers the bill is named after."
+
 (c) "If knowledge really required certainty, you would not know your own name."
+
 (d) "Your argument assumes the council's vote was free. Two of the signatories cast it under house arrest."
 
 **P2 (🟡) *(Exegetical (a) · Evaluative (b).)*** An invented op-ed column, by no one real:

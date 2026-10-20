@@ -125,22 +125,31 @@ The right action is worth $-1$ — one step and done — against a state value o
 **P1 (🟢)** An MDP has states $\{X, Y\}$ and $\gamma = 0.5$. From $X$, the policy takes action $u$ with probability $0.6$ (reward $2$, always to $Y$) and action $d$ with probability $0.4$ (reward $0$, always to $X$). State $Y$ is absorbing with reward $1$ every step forever.
 
 (a) Compute $V^\pi(Y)$.
+
 (b) Compute $Q^\pi(X,u)$ and $Q^\pi(X,d)$ in terms of $V^\pi(X)$, then solve the Bellman expectation equation for $V^\pi(X)$.
+
 (c) Verify your answer with the identity $V^\pi(X) = \sum_a \pi(a\mid X)Q^\pi(X,a)$.
+
 (d) State which action is greedy at $X$ and by how much it beats the other.
 
 **P2 (🟡)** In the $3\times3$ gridworld of Example 2 (goal bottom-right, $-1$ per move, walls leave you in place, $\gamma = 1$, uniform random policy), the value table is the one printed above.
 
 (a) Compute all four action-values $Q^\pi(s,a)$ for the **centre** cell, whose value is $-21.5$.
+
 (b) Verify that their average is $-21.5$.
+
 (c) Name the greedy action(s) at the centre, and state the improvement in value over $V^\pi$ there.
+
 (d) The top-left corner has $V^\pi = -27$ and its two greedy actions are *down* and *right*, each worth $-26$. The improvement there is $1$, versus your answer in (c). Explain in one sentence why the improvement is smaller in the corner than in the centre.
 
 **P3 (🔴)** A policy $\pi$ is **uniformly random over all actions** in an MDP where, in some state $s$, every action leads to the same next-state distribution and earns the same expected reward — the actions are genuinely interchangeable.
 
 (a) State what this implies about $Q^\pi(s,a)$ across actions, and about the gap $\max_a Q^\pi(s,a) - V^\pi(s)$.
+
 (b) Now suppose this holds in **every** state of the MDP. State what $V^\pi$ equals for every policy $\pi$, and what this says about the control problem in such an MDP.
+
 (c) A colleague concludes that the gap $\max_a Q^\pi(s,a) - V^\pi(s)$ is therefore a useful measure of "how much decision-making matters" at state $s$. Give one MDP where this gap is zero at every state under the *optimal* policy but large under a poor one, and explain what that shows about interpreting the gap.
+
 (d) Using (c), state what the gap is actually a property of.
 
 <details>
@@ -222,7 +231,9 @@ Same MDP, same state, same set of available actions — and the gap is $0$ under
 **From Lesson 1.2 (Markov decision processes):** A thermostat controls a heater in a room. Its sensor reports only `cold` or `warm`. The heater has *hysteresis*: once switched on it stays on for exactly two time steps regardless of what the controller asks, and only then accepts a new command.
 
 (a) State whether the sensor reading alone is a Markov state, and justify it by exhibiting two histories that share the reading but differ in what happens next.
+
 (b) Give the smallest repair, and the size of the resulting state space.
+
 (c) With the repaired state space, suppose the policy switches the heater on with probability $0.3$ whenever it is free to choose. Write $p^\pi(s'\mid s)$ for the state in which the sensor says `cold` and the heater is free.
 
 <details>

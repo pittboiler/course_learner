@@ -95,11 +95,15 @@ The unbalanced split wins by a wide margin. The median split produced a right ch
 ## Problems
 
 **P1 (🟢)** A box is $[2, 5] \times [1, 3] \times [0, 4]$.
+
 (a) A ray starts at $(1, 5, 1)$ with direction $(1, -1, 0.5)$. Run the slab test; give $t_{\text{enter}}$, $t_{\text{exit}}$, and the entry and exit points.
+
 (b) A ray from the origin with direction $(1, 2, 0)$. Hit or miss? Which two slabs fail to overlap?
 
 **P2 (🟡)** A node holds seven unit cubes at $x = 0, 1, 2, 5, 6, 7, 30$ (each occupying $[x, x+1]$, unit extent in $y$ and $z$), with $C_{\text{trav}} = C_{\text{isect}} = 1$.
+
 (a) Compute the leaf cost and the SAH cost of splitting after the 3rd cube, after the 4th, and after the 6th.
+
 (b) Which split does the builder choose, and why does the "obvious" split between the two clusters of three not win?
 
 **P3 (🔴)** Construct a counterexample showing that the traversal rule "visit the nearer child; if it reports a hit, return it without visiting the farther child" can return the wrong answer. Give the two child boxes' entry and exit parameters along the ray and the $t$ of each child's triangle hit. Then state the correct rule and apply it to your example.
@@ -157,8 +161,11 @@ $L$ is the nearer child (entry 1 < 3), so it is visited first and reports a hit 
 ## Flashback
 
 **From Lesson 3.2 (shadow mapping):** A sun shadow camera sits at $(0, 20, 0)$ looking straight down (up vector $(0,0,-1)$), with an orthographic box $l = b = -10$, $r = t = 10$, $n = 1$, $f = 21$ and a $1024 \times 1024$ map.
+
 (a) Find the texture coordinates, texel and light-space depth of the ground point $(-4, 0, -6)$.
+
 (b) A shelf directly above it at height 3 was stored in that texel. What depth is stored, and is the ground point shadowed with bias $0.002$?
+
 (c) What is the world size of one texel, and what bias (in depth units) would a surface tilted $45°$ to the light need to avoid acne?
 
 <details>

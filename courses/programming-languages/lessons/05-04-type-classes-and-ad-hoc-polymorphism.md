@@ -132,22 +132,31 @@ And the trade is visible in what each gives up. Java's version cannot sort `int[
 **P1 (🟢)** For each signature, say whether it needs a constraint and why.
 
 (a) $\forall\alpha.\ [\alpha] \to \mathsf{Nat}$ (the length)
+
 (b) $\forall\alpha.\ [\alpha] \to [\alpha]$ (remove adjacent duplicates)
+
 (c) $\forall\alpha.\ [\alpha] \to \alpha$ (the maximum)
+
 (d) $\forall\alpha.\ \alpha \to [\alpha] \to [\alpha]$ (prepend)
 
 **P2 (🟡)** Elaborate each call to explicit dictionary-passing, given `instance Eq Nat`, `instance Eq a => Eq [a]`, and `instance (Eq a, Eq b) => Eq (a, b)`.
 
 (a) `eq (3 :: Nat) 4`
+
 (b) `eq [1,2] [1,3]`
+
 (c) `eq (1, [2]) (1, [3])`
+
 (d) `eq [(1,[2])] [(1,[3])]`
 
 **P3 (🔴)** Consider `sort :: Ord a => [a] -> [a]` and `reverse :: [a] -> [a]`.
 
 (a) State the free theorem for `reverse`, and verify it informally on a two-element list with $f$ an arbitrary function.
+
 (b) State why the corresponding equation fails for `sort`, giving a concrete $f$, a concrete list, and both sides' values.
+
 (c) Give the weakened theorem that *does* hold for `sort`, naming the condition on $f$.
+
 (d) A colleague proposes strengthening the signature to `sort :: [Nat] -> [Nat]` to "get parametricity back". Assess this in two sentences.
 
 <details>
@@ -222,7 +231,9 @@ The colleague has the relationship backwards: the way to get parametricity back 
 Instance resolution for `Eq [[Nat]]` also proceeds by structural recursion, against the instance heads `Eq Nat` and `Eq a => Eq [a]`.
 
 (a) Run the resolution step by step, saying at each step which instance head is matched and what the remaining goal is.
+
 (b) State what plays the role of unification here, and what plays the role of the substitution it produces.
+
 (c) Give a set of instance declarations for which resolution would **not** terminate, and say which of Robinson's two failure modes it does *not* correspond to.
 
 <details>

@@ -158,8 +158,11 @@ C G A
 ```
 
 **P2** (a) **Fitting** — every base of the read must align, while the genome's flanks are free.
+
 (b) **Global** — the claim to be checked is that the proteins correspond end to end.
+
 (c) **Local** — only one region is homologous, and its position in each protein is unknown.
+
 (d) **Overlap** — the match must reach the end of one read and the start of the other; a local hit in the middle would be a false join (Example 2).
 
 **P3** (a) Two uniform random bases match with probability $\tfrac14$. Scheme 1: $\tfrac14(+1) + \tfrac34(-1) = \mathbf{-0.5}$. Scheme 2: $\tfrac14(+1) + \tfrac34(0) = \mathbf{+0.25}$.

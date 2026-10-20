@@ -93,6 +93,7 @@ The products pair hard $\ce{Be^2+}$ with hard $\ce{F-}$ and soft $\ce{Hg^2+}$ wi
 <summary>Solutions</summary>
 
 **P1**
+
 (a) $\ce{Hg^2+}$ is large, heavy, and only doubly charged — a **soft** acid. $\ce{O^2-}$ is small and **hard**; $\ce{S^2-}$ is large and **soft**. Soft likes soft, so $\ce{Hg^2+}$ binds **$\ce{S^2-}$** far more strongly. (Confirmed by $\ce{HgS}$ being one of the most insoluble solids known, while $\ce{HgO}$ is comparatively reactive.)
 
 (b) $\ce{Al^3+}$ is tiny with a +3 charge — a very **hard** acid. $\ce{F-}$ is **hard**, $\ce{I-}$ is **soft**. Hard likes hard, so $\ce{Al^3+}$ prefers **$\ce{F-}$**. (Indeed $\ce{AlF6^3-}$ is stable; an analogous $\ce{Al-I}$ complex is not — and aluminium occurs geologically as oxide/fluoride/silicate, never as an iodide.)
@@ -104,6 +105,7 @@ The products pair hard $\ce{Be^2+}$ with hard $\ce{F-}$ and soft $\ce{Hg^2+}$ wi
 Solubility: $\ce{AgI}$ is the matched soft–soft salt — a strong, largely covalent bond that resists dissolving, so it is **very insoluble**. $\ce{AgF}$ is the mismatched soft-acid/hard-base salt — weakly held, so it is **freely soluble** in water. Ranking: $\ce{AgF} \gg \ce{AgI}$ in solubility. (Consistent with the equilibrium answer: the system wants to *make* insoluble $\ce{AgI}$.)
 
 **P3**
+
 (a) **Charge/size sets hardness, hardness sets the partner.** $\ce{Mg^2+}$ is small (radius $\approx 72$ pm) with a +2 charge — high charge density, tightly held electrons, a **hard** acid. It seeks the **hard** bases available in the crust: $\ce{O^2-}$, $\ce{CO3^2-}$, silicate oxygens. Hard–hard bonding is strong and ionic, so magnesium is locked up as $\ce{MgO}$/$\ce{MgCO3}$ (magnesite) and magnesium silicates. $\ce{Cu+}$ and $\ce{Hg^2+}$, by contrast, are large, heavy, low-charge cations with loose, polarizable electron clouds — **soft** acids. They seek the **soft** base present in the crust, sulfide $\ce{S^2-}$. Soft–soft bonding is strong and covalent, so copper and mercury are concentrated as **sulfide ores**: $\ce{Cu2S}$ (chalcocite), $\ce{HgS}$ (cinnabar). The extreme insolubility of these matched sulfides is exactly why the ores persist as discrete deposits. (This is the geochemical sorting rule — lithophile "rock-loving" hard ions to oxides/silicates, chalcophile "sulfur-loving" soft ions to sulfides.)
 
 (b) **Same rule, biological cost.** $\ce{Hg^2+}$ is a soft acid. A protein offers several donor types, but cysteine's side chain ends in a **thiol**, $\ce{-SH}$, whose donor atom is soft, polarizable **sulfur**. Soft likes soft, so $\ce{Hg^2+}$ binds cysteine sulfur avidly and essentially irreversibly, in preference to the hard N/O donors elsewhere. That hijacks the very $\ce{-SH}$ groups that enzymes use for catalysis and structure (and that normally hold soft physiological metals), denaturing or disabling the protein — the molecular basis of mercury (and, similarly, $\ce{Pb^2+}$ and $\ce{Cd^2+}$) poisoning. It also explains the antidote strategy: chelators like dimercaprol are dosed *with their own soft thiol sulfurs* to out-compete the protein and carry the mercury away.

@@ -128,15 +128,21 @@ And it prunes: ETH also says $k$-Clique has no $n^{o(k)}$ algorithm, so if your 
 **P1 (🟢)** For each claimed algorithm, state which of $\mathsf{P}\ne\mathsf{NP}$, ETH, SETH it would refute, listing all that apply.
 
 (a) 3SAT in $O(1.1^n)$.
+
 (b) 3SAT in $2^{O(n/\log n)}$.
+
 (c) CNF-SAT with unbounded width in $O(1.99^n)$.
+
 (d) Independent Set in $O(n^5)$ on $n$-vertex graphs.
 
 **P2 (🟡)** A reduction maps a 3SAT instance on $n$ variables to a graph problem on $N$ vertices. For each blow-up, say whether an ETH lower bound of $2^{o(n)}$ for 3SAT transfers to a $2^{o(N)}$ bound for the graph problem, with the reason.
 
 (a) $N = 3n$.
+
 (b) $N = n^2$.
+
 (c) $N = n\log n$.
+
 (d) $N = 2^{\sqrt n}$.
 
 **P3 (🔴, optional)** (a) Prove that ETH implies $\mathsf{P}\ne\mathsf{NP}$, and state in one sentence why the converse is not available. (b) Explain in two sentences why the sparsification lemma is needed to make "ETH" unambiguous, giving the maximum number of clauses a 3CNF on $n$ variables can have. (c) ETH implies planar vertex cover has no $2^{o(\sqrt n)}$ algorithm, and a $2^{O(\sqrt n)}$ algorithm exists. Explain what it means for a lower bound to be *tight* when it rests on a hypothesis.

@@ -82,6 +82,7 @@ In words: on a prime clock, raising to the $(p-1)$ knocks any nonzero class back
 **P2** Run extended Euclid on $\gcd(9,4)$: $9 = 2\cdot 4 + 1$, $4 = 4\cdot 1$. Back-substitute: $1 = 9 - 2\cdot 4$, so $-2\cdot 4 \equiv 1\pmod 9$, giving $4^{-1}\equiv -2\equiv 7\pmod 9$. (Agrees with Example 2.) Now $4x\equiv 5$ ⟹ $x\equiv 7\cdot 5 = 35 \equiv 8\pmod 9$. Check: $4\cdot 8 = 32 \equiv 5\pmod 9$. ✓
 
 **P3** (a) $13$ is prime, so $2^{12}\equiv 1\pmod{13}$. Reduce the exponent mod $12$: $1000 = 12\cdot 83 + 4$, so $2^{1000}\equiv 2^{4}=16\equiv 3\pmod{13}$.
+
 (b) $\gcd(6,8)=2$, and $2\nmid 5$, so **no solution**. General rule: $ax\equiv b\pmod n$ is solvable **iff** $\gcd(a,n)\mid b$ — because $ax+ny$ ranges over exactly the multiples of $\gcd(a,n)$ (Bézout, Lesson 4.2). When it is solvable, there are exactly $\gcd(a,n)$ solution classes mod $n$; when $\gcd(a,n)=1$, the inverse gives a unique one.
 
 </details>

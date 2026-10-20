@@ -111,7 +111,9 @@ Two modes today, $10^{23}$ modes tomorrow — the mechanism is identical, and it
 **P1 (🟢)** Two *identical* particles are distributed over **three** single-particle states. Enumerate the allowed many-body states by occupation number $(n_1, n_2, n_3)$ and count them, (a) for bosons and (b) for fermions. (c) For contrast, how many microstates would *distinguishable* particles give? Note which count is largest and say in one line why.
 
 **P2 (🟡)** Compute the degeneracy parameter $n\lambda^3$ and decide whether quantum statistics matters, for two cases. Use $\lambda = h/\sqrt{2\pi m k_B T}$, $h = 6.63\times10^{-34}\,\mathrm{J\,s}$, $k_B = 1.38\times10^{-23}\,\mathrm{J/K}$.
+
 (a) **Air (N$_2$) at STP:** $T = 273\,\mathrm{K}$, number density $n = 2.7\times10^{25}\,\mathrm{m^{-3}}$, molecular mass $m = 4.7\times10^{-26}\,\mathrm{kg}$.
+
 (b) **Conduction electrons in copper:** $T = 300\,\mathrm{K}$, $n = 8.5\times10^{28}\,\mathrm{m^{-3}}$, $m = 9.1\times10^{-31}\,\mathrm{kg}$.
 Which system needs Fermi–Dirac statistics, and which is safely classical? Why the enormous difference?
 

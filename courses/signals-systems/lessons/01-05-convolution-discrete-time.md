@@ -115,6 +115,7 @@ Stability comes free from the instance above: this system is BIBO stable exactly
 **P1 (🟢)** Compute $y = x \ast h$ for $x[n]=\{2,1,3\}$ (at $n=0,1,2$) and $h[n]=\{1,-1\}$ (at $n=0,1$). Verify your answer with both the length rule and the sum rule.
 
 **P2 (🟡)** For each impulse response, state whether the system is causal and whether it is BIBO stable, with the summability computation that justifies the verdict.
+
 (a) $h[n] = 2(-0.75)^n u[n]$  (b) $h[n] = u[n]$  (c) $h[n] = \dfrac{1}{n+1}u[n]$
 
 **P3 (🔴)** A discrete system obeys $y[n] = x[n] - 0.5\,y[n-1]$, initially at rest. (a) Find $h[n]$ in closed form. (b) Is it stable? (c) Using convolution, find the output for $x[n] = \delta[n] + \delta[n-1]$ for $n = 0,1,2,3$, then check your four numbers by running the difference equation directly.

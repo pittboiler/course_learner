@@ -123,22 +123,31 @@ Two further observations from the table, both practically important.
 $$X \xrightarrow{\ R=2\ } Y \xrightarrow{\ R=-1\ } Z \xrightarrow{\ R=5\ } \text{terminal}$$
 
 (a) Compute $G_t^{(1)}$, $G_t^{(2)}$ and $G_t^{(3)}$ for $X$.
+
 (b) State which equals the Monte Carlo return and why.
+
 (c) Compute $G^\lambda$ for $X$ at $\lambda = 0.5$, remembering the terminal lump.
+
 (d) Verify the weights you used sum to $1$.
 
 **P2 (🟡)** Using Example 2's table:
 
 (a) State the ratio between the best step size at $n=1$ and at $n=8$, and explain the direction of the change.
+
 (b) A colleague compares $n=1$ and $n=8$ both at $\alpha = 0.75$. State which will look better and why the comparison is invalid.
+
 (c) Using the error-reduction property, state the factor by which the $n$-step target's worst-case error beats the current estimate's, at $\gamma = 0.9$ and $n = 8$.
+
 (d) Explain why, despite (c) favouring large $n$, the measured table does not.
 
 **P3 (🔴)** Define the $\lambda$-return's **effective horizon** as the mean lookahead depth $\mathbb{E}[n] = \sum_{n\ge1}n(1-\lambda)\lambda^{n-1}$ (ignoring truncation at termination).
 
 (a) Evaluate the sum in closed form.
+
 (b) Compute the effective horizon at $\lambda = 0.9$ and at $\lambda = 0.95$.
+
 (c) The 19-state random walk's best $n$ was $2$. Give the $\lambda$ whose effective horizon is $2$.
+
 (d) A practitioner reports that $\lambda = 0.9$ works well on a task where the best fixed $n$ is about $4$, contradicting your mapping. Give the most likely explanation, in terms of the shape of the weighting rather than its mean.
 
 <details>
@@ -210,8 +219,11 @@ $$K \xrightarrow{\ 0\ } L \xrightarrow{\ 0\ } M \xrightarrow{\ 6\ } \text{termin
 repeated three times, updating online in forward order.
 
 (a) Give $V(K)$, $V(L)$, $V(M)$ after each of the three episodes.
+
 (b) State how many episodes are needed before $V(K)$ becomes nonzero, and why.
+
 (c) State what $V(K)$ would be after **one** episode under Monte Carlo with the same $\alpha$.
+
 (d) Name the mechanism from this lesson that would let TD reach $K$ in a single episode, and say which parameter setting makes it behave like your answer to (c).
 
 <details>

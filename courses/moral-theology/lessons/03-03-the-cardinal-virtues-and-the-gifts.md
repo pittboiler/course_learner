@@ -84,15 +84,22 @@ Solid arrows: reason moving the powers. Dashed arrows: the Spirit moving the sam
 ## Problems
 
 **P1 (🟢)** *(Exegetical)* A case written for the problem. A parish youth program learns that a volunteer driver has twice driven teenagers after drinking. Three staff members respond.
+
 (a) **Dana** removes him the same hour by public announcement, without asking him or anyone else what happened.
+
 (b) **Eli** investigates carefully and concludes the volunteer must stop driving. Then he does nothing, because the volunteer is the pastor's nephew.
+
 (c) **Fran** removes him quietly and correctly. Then she tells every parent at the next meeting about his drinking, though no one needed to know more than that he was no longer driving.
 For each, name the act of prudence that fails (counsel, judgment or command), or say that none does, and name any other cardinal virtue at fault. One or two sentences each.
 
 **P2 (🟡)** *(Exegetical)* Four cases written for the problem. For each, name the gift of the Holy Spirit the case illustrates *on Aquinas's account* and the virtue that gift perfects or corresponds to. Then add one sentence on why the behaviour alone cannot prove it is a gift rather than a virtue.
+
 (a) A man with a violent temper faces a painful death with a settled confidence that he will reach God, a confidence far beyond his temperament.
+
 (b) A woman turns away from an affair she has long wanted. Her reason is not prudence about consequences but a reverent dread of offending God.
+
 (c) A convert who used to pray out of duty finds herself worshipping God with the ease of a daughter speaking to her father.
+
 (d) A pastor facing a decision no rule settles judges rightly by allowing himself to be guided rather than forcing a conclusion.
 
 **P3 (🔴)** *(Exegetical)* ST I-II q.68 a.1, from the *respondeo* (English Dominican Province):

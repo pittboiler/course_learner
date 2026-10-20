@@ -119,8 +119,11 @@ Because $\kappa < \lambda < 1$, the velocity maximum sits at $r=\lambda R$ — a
 <summary>Solutions</summary>
 
 **P1.**
+
 (a) $\tau_w = \dfrac{\Delta P\,R}{2L} = \dfrac{(4.0\times10^4)(2.0\times10^{-3})}{2(1.0)} = 40\ \mathrm{Pa}$.
+
 (b) $v_{\max} = \dfrac{\Delta P\,R^2}{4\mu L} = \dfrac{(4.0\times10^4)(2.0\times10^{-3})^2}{4(1.0)(1.0)} = \dfrac{(4.0\times10^4)(4.0\times10^{-6})}{4.0} = 0.040\ \mathrm{m/s}$.
+
 (c) $Q = \dfrac{\pi\,\Delta P\,R^4}{8\mu L} = \dfrac{\pi(4.0\times10^4)(2.0\times10^{-3})^4}{8(1.0)(1.0)}$. With $R^4 = 1.6\times10^{-11}\ \mathrm{m^4}$: $Q = \dfrac{\pi(4.0\times10^4)(1.6\times10^{-11})}{8} = \dfrac{\pi(6.4\times10^{-7})}{8} \approx 2.5\times10^{-7}\ \mathrm{m^3/s}$.
 Check: $Q = \langle v\rangle\pi R^2 = (0.020)\pi(2.0\times10^{-3})^2 = 0.020\times1.257\times10^{-5} = 2.5\times10^{-7}$ ✓ (using $\langle v\rangle=\tfrac12 v_{\max}=0.020$).
 

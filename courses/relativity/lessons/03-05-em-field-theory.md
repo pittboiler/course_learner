@@ -106,7 +106,9 @@ A magnetic field has **appeared** out of a purely electric one. Physically: in t
 **P2 (🟡)** Show that the single equation $\partial_\mu F^{\mu\nu}=\mu_0 J^\nu$ contains two of Maxwell's equations: take $\nu=0$ and recover **Gauss's law** $\nabla\cdot\mathbf E=\rho/\varepsilon_0$; take $\nu=i$ (a spatial index) and recover the **Ampère–Maxwell law** $\nabla\times\mathbf B=\mu_0\mathbf J+\mu_0\varepsilon_0\,\partial_t\mathbf E$. Use $F^{0i}=-E_i/c$, $F^{ij}=-\epsilon_{ijk}B_k$, $J^\mu=(c\rho,\mathbf J)$, and $\mu_0\varepsilon_0=1/c^2$.
 
 **P3 (🔴)** Two "for free" facts.
+
 (a) Show that $\partial_\nu\partial_\mu F^{\mu\nu}=0$ *identically* — using only that $\partial_\mu\partial_\nu$ is symmetric in $(\mu,\nu)$ while $F^{\mu\nu}$ is antisymmetric — and hence that $\partial_\mu F^{\mu\nu}=\mu_0 J^\nu$ forces charge conservation $\partial_\mu J^\mu=0$.
+
 (b) Show that the gauge transformation $A_\mu\to A_\mu+\partial_\mu\chi$ (any scalar $\chi$) leaves $F_{\mu\nu}$ unchanged.
 
 <details>

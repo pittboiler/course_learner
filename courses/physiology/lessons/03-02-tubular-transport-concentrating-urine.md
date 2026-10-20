@@ -372,7 +372,9 @@ $$\text{Intact:} \quad V_{\min} = \frac{700}{1200} = \mathbf{0.58\ \text{L/day}}
 **From Lesson 3.1 (glomerular filtration and renal clearance):** A subject is infused with inulin and PAH to steady state. Urine flow is $\dot V = 2.0$ mL/min. Urine inulin is $16.5$ mg/mL against a plasma inulin of $0.30$ mg/mL; urine PAH is $4.4$ mg/mL against a plasma PAH of $0.016$ mg/mL.
 
 (a) Compute GFR and the effective renal plasma flow, then the filtration fraction. Redo the filtration fraction using a PAH extraction ratio $E_{\text{PAH}} = 0.90$.
+
 (b) A solute Z has plasma concentration $0.80$ mg/mL and urine concentration $11$ mg/mL. Compute $C_Z$ and the clearance ratio $C_Z/C_{\text{inulin}}$, then use mass balance to report the filtered load, the excretion rate, and the net rate at which the tubule reabsorbed or secreted Z, in mg/min. Could reabsorption alone have produced this ratio?
+
 (c) A drug is given that selectively **dilates** the efferent arteriole, leaving the afferent alone. State what happens to renal plasma flow, to $P_{GC}$, to GFR and to the filtration fraction, and say in one sentence what that does to proximal reabsorption in today's lesson.
 
 <details>

@@ -85,7 +85,9 @@ Read off the extremes. A clean channel, $p=0$: $H(0)=0$, so $I = 1$ bit — the 
 **P2 (🟡)** Let $X$ be uniform over four symbols $\{a,b,c,d\}$, and let $Y$ report only which *half* $X$ landed in: $Y=0$ if $X\in\{a,b\}$, $Y=1$ if $X\in\{c,d\}$. Compute $I(X;Y)$, and explain in one line why the answer equals $H(Y)$.
 
 **P3 (🔴, optional — the value of a signal)** A binary event $X$ is a fair coin. A sensor reports $Y$, correct with probability $0.8$ and wrong with probability $0.2$ (a binary symmetric channel with $p=0.2$).
+
 (a) How many bits does one reading reveal, $I(X;Y)$?
+
 (b) A vendor offers an upgraded sensor accurate with probability $0.95$. How many *additional* bits per reading does the upgrade buy? (In grad-micro, this uncertainty reduction is literally the value of the information.)
 
 <details>

@@ -94,16 +94,19 @@ Domain restriction works the way single-crossing did in [3.4](03-04-single-cross
 **P1 (🟢) *(Formal.)*** Let $D_1$ be the rule $D_1(\mathbf J) = J_1$ on the conjunctive agenda.
 
 (a) Show that $D_1$ satisfies UD, CR and systematicity.
+
 (b) Using the three-voter profile $(pq, \bar p\bar q, \bar p\bar q)$ and one permutation of the voters, show that $D_1$ violates anonymity.
 
 **P2 (🟡) *(Formal.)*** Replace $p\wedge q$ by $p \vee q$. Take $n = 7$ and suppose $F$ satisfies UD, CR, A and S, so step 1 gives a count function $g$.
 
 (a) For each $k = 0, 1, 2, 3$, give a seven-voter profile in which $p$ and $\neg(p\vee q)$ each have exactly $k$ supporters, and conclude that $g(k) = 1$ for every $k \ge 4$.
+
 (b) Give a seven-voter profile on which this $g$ produces an inconsistent collective set, naming the inconsistent propositions.
 
 **P3 (🔴, optional) *(Formal (a) · Exegetical (b).)*** Rule $F_U$ on the conjunctive agenda: accept $p$ only if every voter accepts $p$, otherwise accept $\neg p$; the same for $q$ and for $p\wedge q$.
 
 (a) Show $F_U$ satisfies UD, CR, anonymity and independence, and exhibit a two-voter profile on which it violates systematicity.
+
 (b) In 100 words or fewer: what does systematicity demand beyond independence, and what does (a) show about which half of it the List–Pettit proof uses?
 
 <details>
@@ -162,6 +165,7 @@ Violation of S: profile $(p\bar q, \bar p q)$. $p$ is supported by $\{1\}$ and $
 **From Lesson [4.2](04-02-answers-to-sen.md) (Answers to Sen):** *(Formal (a)–(b).)* Theo and Uma each decide whether to keep chickens in their own yard (C) or not (N); Theo's choice is written first. Theo: NN ≻ CC ≻ CN ≻ NC. Uma: NC ≻ NN ≻ CC ≻ CN.
 
 (a) Whose preference over his or her own feature is conditional? Under the libertarian claim alone, write the four rights verdicts and find the unbeaten state. In one sentence, say why a single unconditional person is enough to block a rights-only cycle in a two-person, two-value world.
+
 (b) Add weak Pareto. Exhibit a cycle and show every state is beaten. In one sentence, does this contradict Theorem 3 of Lesson 4.2?
 
 <details>

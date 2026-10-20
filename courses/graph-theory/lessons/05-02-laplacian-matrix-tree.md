@@ -89,6 +89,7 @@ So $\tau(C_4) = 4$ — and indeed a spanning tree of a $4$-cycle is exactly the 
 
 **P1** (a) Every vertex of $K_3$ has degree $2$ and is adjacent to the other two, so
 $$L = \begin{bmatrix} 2 & -1 & -1 \\ -1 & 2 & -1 \\ -1 & -1 & 2 \end{bmatrix}.$$
+
 (b) Delete row $3$ and column $3$: $\det\!\begin{bmatrix} 2 & -1 \\ -1 & 2 \end{bmatrix} = 4 - 1 = 3$. So $\tau(K_3) = 3$ — remove any one of the $3$ edges of the triangle and you get a spanning tree (a path on $3$ vertices), so $3$ is right. (c) Eigenvalue product: $\frac13(3\cdot 3) = \frac{9}{3} = 3$. ✓ And Cayley gives $3^{3-2} = 3^1 = 3$. All three agree.
 
 **P2** Degrees are all $1$; only edges are $12$ and $34$, so

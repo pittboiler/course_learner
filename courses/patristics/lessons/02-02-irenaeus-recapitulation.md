@@ -98,6 +98,7 @@ What you cannot do is treat [his millenarianism](../reference.md#millenarianism-
 > If, however, any one say, What then? Could not God have exhibited man as perfect from beginning? let him know that, inasmuch as God is indeed always the same and unbegotten as respects Himself, all things are possible to Him. But created things must be inferior to Him who created them, from the very fact of their later origin … Because, as these things are of later date, so are they infantile; so are they unaccustomed to, and unexercised in, perfect discipline. For as it certainly is in the power of a mother to give strong food to her infant, as the child is not yet able to receive more substantial nourishment; so also it was possible for God Himself to have made man perfect from the first, but man could not receive this perfection, being as yet an infant.
 
 (a) On this text's own account, why was man not made perfect at the start: a limit in God, a limit in the creature, or a punishment? Name the words that decide it.
+
 (b) A reader says the passage shows that for Irenaeus "the fall was a stumble on the way up, not a fall from a height." Say how much of that the passage actually supports and how much it does not. **Two sentences per part.**
 
 **P2 (🟡) *(Exegetical.)*** An invented parish bulletin note (nobody wrote this; it is built for the problem):
@@ -105,11 +106,13 @@ What you cannot do is treat [his millenarianism](../reference.md#millenarianism-
 > Our parish mission this Lent takes its motto from St Irenaeus: "The glory of God is man fully alive." The Fathers knew what we have forgotten — God is not honoured by our shrinking. Whatever makes you most yourself, most alive, most fully the person you were made to be, is what gives God glory. Come and discover your gifts.
 
 (a) Set the motto beside the sentence as the Source gives it and name **two** things the bulletin's version changes or drops.
+
 (b) Using the Source's surrounding clause, say what Irenaeus means by the "life" in question, and name the idea from this lesson that the bulletin's reading loses. **150 words or fewer in total.**
 
 **P3 (🔴, optional) *(Exegetical (a) · Evaluative (b).)*** Irenaeus expected a literal earthly kingdom of the risen righteous (5.32–36). He is a saint and, since 2022, a Doctor of the Church.
 
 (a) State precisely what those facts together do and do not establish about the standing of that expectation, and say where it sits on the ladder of [`fundamental-theology` 4.4](../../fundamental-theology/lessons/04-04-the-ladder-of-doctrinal-authority.md). **Three sentences.**
+
 (b) Some readers treat his millenarianism as a detachable period piece; others hold that it follows from the same premise as his theology of the flesh. Name the premise of the lesson's reconstruction that is at stake, argue for one reading, and say what your reading costs you. **150 words or fewer, any verdict.**
 
 <details>
@@ -159,6 +162,7 @@ What you cannot do is treat [his millenarianism](../reference.md#millenarianism-
 - **Reader B (participation).** Reason itself is a share in the Word, so a Greek could reach truth without Moses: "Those who lived reasonably are Christians … as, among the Greeks, Socrates and Heraclitus" (*First Apology* 46), and "each man spoke well in proportion to the share he had of the spermatic word" (*Second Apology* 13, ANF, Dods and Reith).
 
 (a) For each reader, name the single claim in Justin's own text he has to explain away, and point to the words that stand in his way. **One sentence each.**
+
 (b) Justin asserts both. Say in two sentences what that obliges an honest reporter of his position to say, and name one qualifier Justin himself puts on Reader B's claim.
 
 <details>

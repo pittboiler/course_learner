@@ -120,22 +120,31 @@ The caller's `tmp` has been captured by the macro's own binder. This is exactly 
 **P1 (🟢)** For each term, list $FV$ and say whether it is closed.
 
 (a) $\lambda x.\,x\,y$
+
 (b) $(\lambda x.\,x)\,x$
+
 (c) $\lambda x.\,\lambda y.\,\lambda z.\,x\,z\,(y\,z)$
+
 (d) $\lambda x.\,(\lambda y.\,y)\,z$
 
 **P2 (🟡)** Compute each substitution, applying the rename case where required and naming it when you do.
 
 (a) $[x := \lambda z.\,z]\,(\lambda y.\ x\,y)$
+
 (b) $[x := y]\,(\lambda y.\ x\,y)$
+
 (c) $[x := y\,z]\,(\lambda z.\ x)$
+
 (d) $[x := w]\,(\lambda x.\ x\,y)$
 
 **P3 (🔴)** Restore the parentheses that the conventions elide, then answer (d).
 
 (a) $\lambda x.\,x\,y\,z$
+
 (b) $(\lambda x.\,x)\,\lambda y.\,y\,w$
+
 (c) $\lambda f.\,\lambda x.\,f\,(f\,x)\,x$
+
 (d) One of (a)–(c) changes meaning if abstraction were made to extend only as far as the next application rather than as far right as possible. Say which, give both readings, and state which convention real functional languages use.
 
 <details>
@@ -210,6 +219,7 @@ Real functional languages use the **maximal-extent** convention. Haskell's `\y -
 In this lesson, a term with free variables is *not closed*.
 
 (a) Connect the two: state what a term's free variable set corresponds to in the denotational picture.
+
 (b) A closed term needs no environment. State what its denotation is a function of, and give one closed term from Example 1 whose denotation you can name outright.
 
 <details>

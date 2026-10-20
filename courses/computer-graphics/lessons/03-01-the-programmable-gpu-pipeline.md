@@ -123,16 +123,25 @@ That is **41% fewer** shader invocations for the same image — every pixel shad
 ## Problems
 
 **P1 (🟢)** Classify each as an **attribute**, **uniform**, **varying** or **texture**, with a one-clause reason.
+
 (a) The model matrix of a rock.
+
 (b) A vertex's texture coordinates as stored in the mesh.
+
 (c) The sun's direction.
+
 (d) The world-space normal as received by the fragment shader.
+
 (e) The rock's colour photograph.
+
 (f) Elapsed time in seconds, used to animate grass.
 
 **P2 (🟡)** A tree mesh has 10,000 unique vertices and 19,996 triangles (indexed). It is drawn as 3 instances. Together the instances cover 150,000 pixels, with an average depth complexity of 2.2 over those pixels (leaves overlap leaves).
+
 (a) How many times does the vertex shader run?
+
 (b) How many times does the fragment shader run with no early-z?
+
 (c) The leaf shader calls `discard` for transparent texels. With a depth-only pre-pass that writes final depths, the shading pass tests against them before shading. How many fragment shader runs now, and what extra work did the pre-pass cost?
 
 **P3 (🔴)** A stretched pillar uses $M = S(1, 4, 1)$. This shader pair produces lighting that is too bright and blows out:
@@ -147,7 +156,9 @@ in vec3 wnrm
 ```
 
 (a) Name the two bugs.
+
 (b) At a vertex with object normal $(0.6, 0.8, 0)$ and light direction $\mathbf{l} = (1, 1, 0)/\sqrt2$, compute `diffuse` for: the shader as written; with only the matrix bug fixed; with only the normalization bug fixed; with both fixed.
+
 (c) Which single fix makes the image *look* most plausible while still being wrong, and why is that the dangerous one?
 
 <details>
@@ -156,10 +167,15 @@ in vec3 wnrm
 **P1**
 
 (a) **Uniform** — one value for the whole draw call.
+
 (b) **Attribute** — it is per-vertex data stored in the mesh.
+
 (c) **Uniform** — the same for every vertex and fragment in the frame.
+
 (d) **Varying** — it was output per vertex and interpolated across the triangle.
+
 (e) **Texture** — an image sampled by coordinate.
+
 (f) **Uniform** — one number per frame, shared by every vertex.
 
 **P2**
@@ -190,8 +206,11 @@ in vec3 wnrm
 ## Flashback
 
 **From Lesson 2.5 (Blinn–Phong and sRGB):** A shader samples an sRGB albedo texel of $0.8$, lights it with $\mathbf{n}\cdot\mathbf{l} = 0.6$ and a Blinn–Phong term $k_s(\mathbf{n}\cdot\mathbf{h})^{p'}$ with $k_s = 0.04$, $\mathbf{n}\cdot\mathbf{h} = 0.98$, $p' = 64$.
+
 (a) Convert the albedo to linear.
+
 (b) Compute the linear shaded value.
+
 (c) Encode it for an sRGB display.
 
 <details>

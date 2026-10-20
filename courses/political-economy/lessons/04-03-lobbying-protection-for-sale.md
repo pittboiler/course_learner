@@ -101,16 +101,19 @@ Now organize every sector and every person: $\alpha_L = 1$, $I_j = 1$ for all $j
 - C: unorganized, $z = 1.5$, $e = 3$
 
 (a) Compute each sector's equilibrium ad valorem trade tax, and say in one sentence why B gets more than A.
+
 (b) Holding $\alpha_L$, $z$ and $e$ fixed, find the weight $a$ at which B's tariff falls to 10 percent.
 
 **P2 (🟡)** *(Formal (a)–(b).)* A government chooses F, M or H. Its welfare term is 20, 16, 6. A producer lobby's stake is 0, 9, 18; a user lobby's stake is 6, 2, 0. Both offer truthful schedules.
 
 (a) Find the equilibrium policy, each lobby's payment and net payoff, and the government's payoff. Check that the government is willing to choose the policy.
+
 (b) Remove the user lobby and recompute. In one sentence, say why a lobby that pays nothing in (a) still matters.
 
 **P3 (🔴, optional)** *(Exegetical (a) · Formal (b).)* An invented trade-association statement: "Every industry in our country now has a registered lobby. Protection bought by one industry is bid away by the industries that buy from it, so organized lobbying is self-cancelling: it leaves trade free and costs the public nothing."
 
 (a) In 100 words or fewer: which model is the statement relying on, and which two conditions must hold for "leaves trade free"?
+
 (b) Suppose every sector is organized but only 60 percent of the population owns a specific factor, with $a = 2$ and $z/e = 1$ in every sector. Compute the equilibrium tariff and say who loses.
 
 <details>

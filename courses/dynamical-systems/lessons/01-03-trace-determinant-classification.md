@@ -69,6 +69,7 @@ Since $k>0$ we always have $\Delta > 0$, so stability is decided purely by $\tau
 ## Problems
 
 **P1 (🟢)** Classify each origin as saddle / node / spiral / center, state stable or unstable, and give the eigenvalues.
+
 (a) $A = \begin{pmatrix} 3 & -2 \\ 4 & -1\end{pmatrix}$   (b) $A = \begin{pmatrix} 1 & 3 \\ 2 & 0\end{pmatrix}$
 
 **P2 (🟡)** Consider the family
@@ -76,7 +77,9 @@ $$A(a) = \begin{pmatrix} a & 1 \\ -1 & a\end{pmatrix}.$$
 Compute $\tau$ and $\Delta$ in terms of $a$, and show the origin is *always* a spiral or center — never a node or saddle. For which $a$ is it a stable spiral, a center, an unstable spiral? Interpret the transition at $a=0$ as a point moving across the trace–determinant plane.
 
 **P3 (🔴, optional)** Prove the two headline rules directly from $\lambda^2 - \tau\lambda + \Delta = 0$, without solving for the eigenvalues explicitly (use only $\lambda_1+\lambda_2=\tau$, $\lambda_1\lambda_2=\Delta$):
+
 (a) $\Delta < 0 \iff$ the origin is a saddle (two real eigenvalues of opposite sign).
+
 (b) Both eigenvalues have negative real part $\iff \tau < 0$ and $\Delta > 0$.
 This second fact is the $2\times 2$ **Routh–Hurwitz criterion** — the same stability test that [grad-micro](../../grad-micro/syllabus.md) applies to the Jacobian of Walrasian price adjustment to ask whether tâtonnement converges.
 

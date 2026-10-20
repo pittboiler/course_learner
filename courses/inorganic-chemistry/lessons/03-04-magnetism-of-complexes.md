@@ -85,6 +85,7 @@ Measured value: about $5.9\ \mu_B$ — a textbook match, and the largest moment 
 
 **P1** (a) High-spin $d^5$: each of the five $d$ orbitals holds one electron, so $n = 5$ unpaired.
 $$\mu_{so} = \sqrt{5(5+2)} = \sqrt{35} = 5.92\ \mu_B \quad\Rightarrow\quad \textbf{paramagnetic.}$$
+
 (b) Low-spin $d^6$: strong field forces $t_{2g}^6 e_g^0$, all paired, $n = 0$.
 $$\mu_{so} = \sqrt{0(0+2)} = 0 \quad\Rightarrow\quad \textbf{diamagnetic.}$$
 The two cyanide/water choices sit at opposite ends of the spectrochemical series, and the moments — $5.92$ vs $0$ — are as far apart as first-row magnetism gets.

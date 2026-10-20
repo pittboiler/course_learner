@@ -118,11 +118,13 @@ IAC builds in correlation of a different kind: the whole electorate's mix of ran
 | 2 | Z ≻ X ≻ W ≻ Y |
 
 (a) Compute all six pairwise tallies, the majority relation and the top cycle.
+
 (b) For each alternative, give an amendment agenda (an ordering of all four) under which it wins with sincere voting, or prove that none exists.
 
 **P3 (🔴, optional)** *(Exegetical (a) · Formal (b).)* An invented op-ed: "Mathematicians proved long ago that majority rule cycles more often the more people vote. A town meeting can reach a coherent verdict; a nation of 300 million almost certainly cannot. Big democracies have no majority will to discover."
 
 (a) Say exactly what is true in the first sentence, under which model, and what is false in the second. 100 words or fewer.
+
 (b) Voters are i.i.d. draws from a culture in which, for some alternative $x$ and every $y \neq x$, $q_y = P(\text{a voter ranks } x \text{ above } y) > 1/2$. Prove that $P(x \text{ is the Condorcet winner}) \to 1$ as $n \to \infty$, for fixed $m$.
 
 <details>

@@ -113,12 +113,15 @@ What is *not* open to him is the thing he did in 1.1: use the machinery, call it
 **P1 (🟢) *(Exegetical.)*** For each item, say what the **location** criterion and the **causal** criterion each deliver, and where they come apart. One or two sentences each.
 
 (a) The set whose only member is the Eiffel Tower.
+
 (b) A shadow cast on a wall.
+
 (c) The Ruy Lopez — the chess opening itself, not any game in which it is played.
 
 **P2 (🟡) *(Exegetical (a) · Evaluative (b).)*** Field and Melia both reject the conclusion of the indispensability argument.
 
 (a) Say which numbered premise each attacks, and state precisely what each still owes as a result.
+
 (b) Name the crux between Melia and the Quinean — the single claim one of them must give up — and say what would count as evidence for or against it. 150 words or fewer, any verdict.
 
 **P3 (🔴, optional) *(Evaluative.)*** A neo-Aristotelian claims the access problem dissolves: mathematical structures are instantiated in physical things, so knowing them is no stranger than knowing that this table is rectangular. In 150 words or fewer, state the strongest objection to that claim and the best reply available to the Aristotelian, and say what the reply costs. Any verdict.

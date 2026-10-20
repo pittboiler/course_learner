@@ -126,22 +126,31 @@ Each is a dial, not a switch, and tuning them is a large part of what makes deep
 **P1 (🟢)** For each algorithm, state which of the three legs it has and whether it is at risk of divergence.
 
 (a) Tabular Q-learning.
+
 (b) Gradient Monte Carlo with a neural network, on-policy.
+
 (c) Semi-gradient SARSA with a linear approximator, on-policy.
+
 (d) DQN — a neural network, TD targets, and a replay buffer.
 
 **P2 (🟡)** In Baird's counterexample the off-policy weights grow by a factor of about $1.62$ every $200$ sweeps.
 
 (a) Compute the per-sweep growth factor.
+
 (b) Starting from a largest value of $12$, compute the number of sweeps to exceed $10^6$.
+
 (c) The step size is halved to $\alpha = 0.005$. State qualitatively what happens to your answer in (b) and whether the divergence stops.
+
 (d) State what the on-policy column of the table establishes, and why it is the right control experiment.
 
 **P3 (🔴)** Consider a two-state problem with a **single** weight: $\hat V(s_1) = w$ and $\hat V(s_2) = 2w$. The dynamics are deterministic: $s_1 \to s_2$ with reward $0$, and $s_2 \to s_2$ with reward $0$. Let $\gamma = 1$ — so the true values are $V(s_1) = V(s_2) = 0$.
 
 (a) Write the semi-gradient TD update for $w$ following the transition $s_1 \to s_2$ only (an off-policy update distribution that visits $s_1$ exclusively).
+
 (b) Determine the values of $\alpha$ for which $w$ converges to $0$, and the values for which it diverges.
+
 (c) Now suppose the updates are drawn from the transition $s_2 \to s_2$ instead. Write that update and determine when it converges.
+
 (d) Explain how (b) and (c) together illustrate the triad, and identify which leg the two cases differ in.
 
 <details>
@@ -217,8 +226,11 @@ This is why "off-policy" in the triad means something broader than "behaviour po
 **From Lesson 2.6 (Off-policy learning and importance sampling):** A behaviour policy $b$ is $\varepsilon$-greedy with $\varepsilon = 0.4$ over three actions; the target policy $\pi$ is the deterministic greedy one.
 
 (a) Compute $b(\text{greedy}\mid s)$ and the per-step importance ratio when the greedy action is taken.
+
 (b) Compute the probability that a $10$-step trajectory has a nonzero weight, and the weight in that case.
+
 (c) Compute $\operatorname{Var}[\rho_{0:9}]$.
+
 (d) State how this variance would change if $\pi$ were $\varepsilon$-greedy with $\varepsilon = 0.4$ as well, and why.
 
 <details>

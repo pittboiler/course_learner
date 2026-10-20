@@ -104,13 +104,17 @@ A near-certain left victory produces almost no boom. An upset produces a deep re
 **P1 (🟢)** *(Formal.)* In the competence-signaling model of this lesson, let $\mu = 0.4$, $X = 5$, $\Delta = 5$, $c_H = 2$, $c_L = 4$.
 
 (a) Find the range of separating boosts $e_H$ and the least-cost one $e^*$. Check both types' constraints at $e^*$.
+
 (b) Compare voters' expected welfare under $e^*$ with a rule that bans the boost.
+
 (c) Holding the other parameters fixed, find the value of $X$ above which voters prefer the ban, and the value at or below which no distortion occurs.
 
 **P2 (🟡)** *(Formal.)* Party $L$ delivers 8 percent inflation and party $R$ 2 percent. Output follows $x = 0.6(\pi - \pi^e)$, and wage contracts are signed before an election that $L$ wins with probability $p = 1/4$.
 
 (a) Find $\pi^e$, the output gap after each outcome, and the expected gap.
+
 (b) Find the variance of the post-election output gap, the $p$ that maximizes it and the maximum.
+
 (c) What is the output gap in the second period of the term, after contracts reset? Why?
 
 **P3 (🟡)** *(Exegetical.)* An invented reform memo reads: *"Every pre-election tax cut is a bribe paid with voters' own money. A fiscal rule freezing visible spending and taxes for the twelve months before each election will end this at no cost to voters."* In 150 words or fewer: which model does the memo assume, what does the signaling model say a rational voter loses under the rule, and what condition decides whether the rule helps?

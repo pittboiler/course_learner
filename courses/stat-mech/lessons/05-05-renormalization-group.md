@@ -116,7 +116,9 @@ This lands exactly on the *exact* 2D Ising value $\nu = 1$. Contrast mean-field 
 <summary>Solutions</summary>
 
 **P1** (a) Relevant means $\lambda>1$ (grows, flows away): $t$ ($2.5$) and $h$ ($3.2$) are **relevant**. Irrelevant means $\lambda<1$ (shrinks, flows in): $u$ ($0.6$) and $v$ ($0.4$) are **irrelevant**.
+
 (b) You must tune every relevant coupling to zero to sit on the fixed point, so **two** knobs — physically, set $T=T_c$ (kill $t$) and $h=0$ (kill $h$). The critical point is the codimension-2 surface where both relevant variables vanish.
+
 (c) The differing microscopic couplings $u,v$ are irrelevant, so under repeated coarse-graining they shrink to zero and both magnets flow to the *same* fixed point. Sharing a fixed point means sharing its relevant eigenvalues $\lambda_t,\lambda_h$ — and since the exponents are determined by those eigenvalues alone, the two magnets have identical exponents. (This is universality.)
 
 **P2** The middle spin $s_2$ appears only through $e^{Ks_1 s_2 + K s_2 s_3}$; summing it out:

@@ -115,7 +115,9 @@ $$\left|\int f\,d\mu - \int g\,d\mu\right| \le \int |f-g|\,d\mu.$$
 
 **P1** (a) Keep the positive pieces and the sizes of the negative pieces:
 $$f^+ = 4\cdot\mathbf{1}_{[0,1)} + 3\cdot\mathbf{1}_{[4,6)}, \qquad f^- = 2\cdot\mathbf{1}_{[1,4)}.$$
+
 (b) $\int f^+ = 4\cdot\lambda[0,1) + 3\cdot\lambda[4,6) = 4\cdot1 + 3\cdot2 = 10$. $\int f^- = 2\cdot\lambda[1,4) = 2\cdot3 = 6$. So $\int f = 10-6 = 4$ and $\int|f| = 10+6 = 16$.
+
 (c) Yes: $\int|f| = 16<\infty$, so $f\in L^1(\lambda)$.
 
 **P2** Set $h = f-g$. By linearity $h\in L^1$ and $\int h = \int f - \int g$. By the triangle inequality applied to $h$,
@@ -123,7 +125,9 @@ $$\left|\int f - \int g\right| = \left|\int h\right| \le \int|h| = \int|f-g|. \q
 (The triangle inequality itself: $-|h|\le h\le|h|$ pointwise, and monotonicity gives $-\int|h|\le\int h\le\int|h|$, i.e. $|\int h|\le\int|h|$.)
 
 **P3** (a) $\sum_n \frac{(-1)^n}{n} = -1 + \tfrac12 - \tfrac13 + \cdots$ is the alternating harmonic series; its terms decrease to $0$ in absolute value, so by the alternating series test it converges (in fact to $-\ln 2$).
+
 (b) $\int|f|\,d\mu = \sum_n \frac{1}{n} = \infty$ (harmonic series). Equivalently $\int f^+\,d\mu = \sum_{n\text{ even}}\frac1n = \infty$ and $\int f^-\,d\mu = \sum_{n\text{ odd}}\frac1n = \infty$. Since $\int|f|=\infty$, $f\notin L^1(\mu)$.
+
 (c) With $\int f^+ = \int f^- = \infty$, the definition gives $\int f\,d\mu = \infty-\infty$, which is undefined. It is the discrete twin of $\sin x/x$: an object that *conditionally* sums/converges by cancellation of infinite positive and negative parts, which the Lebesgue integral — measuring $f^+$ and $f^-$ separately — refuses to assign a value. (Rearranging the alternating harmonic series can produce *any* real number, which is precisely why order-independent Lebesgue integration insists on absolute convergence.) $\blacksquare$
 
 </details>

@@ -115,20 +115,29 @@ An artist who raises $p$ from 10 to 100 to make plastic look shinier has, withou
 ## Problems
 
 **P1 (🟢)** The Sun's angular radius is $0.2665°$, and on a clear day it delivers $E = 1000$ W m$^{-2}$ to a surface facing it.
+
 (a) What solid angle does the Sun subtend?
+
 (b) Estimate the Sun's radiance.
+
 (c) With the Sun $30°$ from the zenith, what radiance does a Lambertian road of albedo $0.3$ send toward a camera (ignore sky light)?
 
 **P2 (🟡)** A floor sits under a uniform sky of radiance $L$ that is visible only within a cone of half-angle $\theta_0$ around the zenith.
+
 (a) Derive $E(\theta_0) = \pi L\sin^2\theta_0$.
+
 (b) Evaluate the fraction of full-sky irradiance for $\theta_0 = 30°, 60°, 90°$.
+
 (c) What fraction of the full hemisphere's **solid angle** does the $30°$ cap cover? Explain the difference from (b) in one sentence.
 
 **P3 (🔴)** A material is modelled as
 $$f_r = \frac{\rho_d}{\pi} + \rho_s\,\frac{p + 2}{2\pi}\cos^p\alpha,$$
 with $\alpha$ the angle from the mirror direction, and $\rho_d = 0.8$, $\rho_s = 0.5$, $p = 50$.
+
 (a) Show that at normal incidence the specular lobe alone reflects fraction $\rho_s$.
+
 (b) Is the material energy conserving at normal incidence? If not, give the simplest constraint on $\rho_d, \rho_s$ that fixes it.
+
 (c) A second artist drops the normalization, using $\rho_s\cos^p\alpha$. What fraction does *that* lobe reflect at normal incidence, and what does the highlight look like compared with (a)?
 
 <details>
@@ -171,8 +180,11 @@ $$\int_\Omega \rho_s\frac{p+2}{2\pi}\cos^p\theta_o\cos\theta_o\,d\omega_o = \rho
 ## Flashback
 
 **From Lesson 3.4 (reflection and refraction):** A ray in air strikes a diamond ($\eta = 2.42$) at $40°$ from the normal; take $\mathbf{d} = (\sin 40°,\ -\cos 40°,\ 0)$, $\mathbf{n} = (0, 1, 0)$.
+
 (a) Find the refracted direction and angle.
+
 (b) Find Schlick's reflectance.
+
 (c) Inside the diamond, a ray meets a facet at $30°$. Does it escape? Compare with the critical angle.
 
 <details>

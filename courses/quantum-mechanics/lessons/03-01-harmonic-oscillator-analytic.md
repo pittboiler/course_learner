@@ -99,6 +99,7 @@ Every absorption/emission line of this bond sits at a multiple of that single ga
 <summary>Solutions</summary>
 
 **P1** (a) $\hbar\omega=(1.055\times10^{-34})(3.0\times10^{14})=3.165\times10^{-20}\,\mathrm{J}=0.198\,\mathrm{eV}$. The spacing is $\Delta E=\hbar\omega\approx0.198\,\mathrm{eV}$, and $E_0=\tfrac12\hbar\omega\approx0.099\,\mathrm{eV}$.
+
 (b) Allowed energies are $E_n=\hbar\omega(n+\tfrac12)=\tfrac12\hbar\omega,\ \tfrac32\hbar\omega,\ \tfrac52\hbar\omega,\dots$ — the half-integer multiples. So $\tfrac32\hbar\omega$ and $\tfrac52\hbar\omega$ are allowed; $\hbar\omega$ and $2\hbar\omega$ are **not** (integer multiples never appear — the zero-point $\tfrac12$ shifts the whole ladder).
 
 **P2** (a) Normalize: $1=\int|\varphi_0|^2dx=A^2\int e^{-\alpha x^2}dx=A^2\sqrt{\pi/\alpha}$, so $A^2=\sqrt{\alpha/\pi}$ and
@@ -106,7 +107,9 @@ Every absorption/emission line of this bond sits at a multiple of that single ga
 $$A=\left(\frac{\alpha}{\pi}\right)^{1/4}=\left(\frac{m\omega}{\pi\hbar}\right)^{1/4},$$
 
 matching the boxed ground state.
+
 (b) $\langle x\rangle=A^2\int x\,e^{-\alpha x^2}dx=0$: the integrand is odd, so it vanishes. The particle is centered at the origin, as symmetry demands.
+
 (c) $\langle x^2\rangle=A^2\int x^2 e^{-\alpha x^2}dx=A^2\cdot\tfrac12\sqrt{\pi/\alpha^3}=\sqrt{\tfrac{\alpha}{\pi}}\cdot\tfrac{1}{2\alpha}\sqrt{\tfrac{\pi}{\alpha}}=\frac{1}{2\alpha}=\frac{\hbar}{2m\omega}.$
 
 So $\Delta x=\sqrt{\langle x^2\rangle}=\sqrt{\hbar/2m\omega}$. (Foreshadow: in 3.3 you'll find $\langle p^2\rangle=\tfrac12 m\hbar\omega$, giving $\Delta x\,\Delta p=\hbar/2$ — the ground state *saturates* the uncertainty bound, which is exactly why it's a Gaussian.)
@@ -135,6 +138,7 @@ Every result of this lesson then applies with this $\omega$ — the local spectr
 <summary>Solution</summary>
 
 (a) Since $E_n\propto n^2$: $\;E_2/E_1=4$ and $E_3/E_2=9/4=2.25$. The levels spread *apart*.
+
 (b) $E_{n+1}-E_n=\dfrac{\pi^2\hbar^2}{2mL^2}\big[(n+1)^2-n^2\big]=\dfrac{(2n+1)\pi^2\hbar^2}{2mL^2}$, which **grows linearly in $n$** — each rung is higher than the last. The harmonic oscillator instead has $E_{n+1}-E_n=\hbar\omega$, a **constant**. The difference traces directly to the potentials: hard walls ($V\sim$ step) versus a parabola ($V\sim x^2$). The shape of the confinement dictates how the ladder spaces out.
 
 </details>

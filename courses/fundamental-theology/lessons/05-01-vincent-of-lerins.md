@@ -137,12 +137,15 @@ Both replies are held by Catholic theologians in good standing. Which one you fi
 **P1 (🟢) *(Exegetical.)*** A theologian proposes that teaching X is a legitimate development of the apostolic faith.
 
 (a) For each of Vincent's three marks, say in one clause what the theologian would have to **demonstrate** — the actual evidence, not the slogan.
+
 (b) Suppose the mark of antiquity cannot be shown because the Fathers are divided on X. Which step of Vincent's cascade applies, and what does it direct you to?
+
 (c) Name one thing a positive verdict on all three marks would **not** establish.
 
 **P2 (🟡) *(Exegetical (a) · Evaluative (b).)*** Levels, then judgement.
 
 (a) At what level is "what has been believed everywhere, always, by all" taught? Name the clause of Vincent that **does** carry magisterial weight, the act that gives it that weight, and what assent is owed to it. Be precise about which is which.
+
 (b) Vincent's canon can be read two ways: as a **historical test** (survey the record and count) or as a **rule of interpretation** (a dogma must be readable as the faith the Church has always held, whatever the documentary record shows). Argue for one reading in **150 words or fewer**, using the Immaculate Conception as your test case, and state what your reading costs you.
 
 **P3 (🔴, optional) *(Exegetical.)*** An invented paragraph from a traditionalist newsletter:
@@ -199,7 +202,9 @@ Name the errors and correct each in one sentence. For each, say whether the clai
 **F1 (🟡) *(Exegetical.)*** From [4.4](04-04-the-ladder-of-doctrinal-authority.md). For each claim, give the **level** on the ladder, the **act or source** that fixes it, and the **assent owed**. One of the three is stated at the wrong level; say which and restate it correctly. **120 words or fewer.**
 
 (a) "There are seven sacraments of the New Law, instituted by Christ."
+
 (b) "The Council of Trent defined that transubstantiation must be explained using Aristotle's categories of substance and accident."
+
 (c) "The death penalty is inadmissible," as taught in the 2018 revision of the Catechism.
 
 <details>

@@ -158,8 +158,11 @@ Name **three** errors and correct each from the bull. 120 words or fewer.
 **From Lesson [4.4](04-04-the-extrinsic-titles.md) (The extrinsic titles):** *(Exegetical.)* Level assignment. Give each claim its level (defined; authentic ordinary magisterium; common teaching; a single theologian's teaching) and **name the act, or the absence of one, that fixes it**. If a claim misstates its source, say so. **Two sentences per item.**
 
 (a) A lender may agree in advance on compensation for a loss that the loan will actually cause him.
+
 (b) Titles that are not innate or intrinsic to the loan can concur with it and give a just ground for receiving something beyond the principal.
+
 (c) Compensation for profit forgone may never be agreed, since the lender would be selling what he does not yet have.
+
 (d) The four extrinsic titles, *damnum emergens*, *lucrum cessans*, *periculum sortis* and *poena conventionalis*, are defined Church teaching.
 
 <details>

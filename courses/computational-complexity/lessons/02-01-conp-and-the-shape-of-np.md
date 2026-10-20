@@ -104,8 +104,11 @@ The same argument, run through a different class, is what keeps graph isomorphis
 **P1 (🟢)** For each language, state whether the obvious certificate places it in NP, in coNP, in both, or in neither, and name the certificate where one exists.
 
 (a) $\{\langle G\rangle : G$ has an Eulerian circuit$\}$.
+
 (b) $\{\langle \varphi \rangle : \varphi$ is **not** satisfiable$\}$.
+
 (c) $\{\langle A, b\rangle : $ the linear system $Ax \le b$ has a real solution$\}$.
+
 (d) $\{\langle M, w, 1^t\rangle : $ the deterministic TM $M$ rejects $w$ within $t$ steps$\}$.
 
 **P2 (🟡)** Prove that if $\mathsf{NP} \ne \mathsf{coNP}$ then $\mathsf{P} \ne \mathsf{NP}$. Then give a one-sentence explanation of why the converse implication is not available, referring to what would have to be constructed.

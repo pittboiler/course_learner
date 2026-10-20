@@ -122,15 +122,21 @@ Who pays today is clear from the deployments (as of 2026): a university (Montana
 **P1 (🟢)** For each request, say whether it needs (i) entanglement, (ii) quantum memory, (iii) a high pair rate, with a one-line reason.
 
 (a) A hospital wants encryption keys refreshed every few seconds between two buildings 10 km apart.
+
 (b) A university wants two 20-qubit processors in labs 2 km apart to run one 40-qubit circuit.
+
 (c) An insurer wants its nightly backups to move faster between two data centers.
+
 (d) A metrology lab wants to compare two optical clocks 15 km apart using an entangled state shared across them.
 
 **P2 (🟡)** *(practical)* A skeptical CFO asks: "So we're buying a very expensive internet connection?" In three sentences or fewer, explain what the network actually delivers and why it cannot simply be copied or amplified like ordinary traffic.
 
 **P3 (🔴, optional)** A client wants to teleport a 1,000-qubit state to a partner. Assume each Bell pair is a Werner pair of fidelity $F$, so each teleported qubit independently arrives error-free with probability $F$. The link delivers photon–memory pairs at 1,200 per second, and the memory holds a qubit for about 2.6 µs.
+
 (a) How many Bell pairs and classical bits does the transfer need?
+
 (b) How long does it take at this rate, and how does the gap between successive pairs compare with the memory time?
+
 (c) With $F = 0.99$, what is the probability that no qubit picks up an error?
 
 <details>

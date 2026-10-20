@@ -100,11 +100,15 @@ with breeding gain $CR-1 = 0.15$ (15 extra fissile atoms per 100 burned — enou
 <summary>Solutions</summary>
 
 **P1.** (a) $M = 0.460$ tU, so energy $= B\cdot M = 50\ \tfrac{\text{GWd}}{\text{tU}}\times0.460\ \text{tU} = 23\ \text{GWd} = 23{,}000\ \text{MWd}$.
+
 (b) At ~1 g fissioned per MWd, $m \approx 23{,}000\ \text{g} = 23\ \text{kg}$ fissioned.
+
 (c) Original $^{235}$U $= 0.045\times460\ \text{kg} = 20.7\ \text{kg}$. The fissioned mass $23\ \text{kg} > 20.7\ \text{kg}$ — i.e. **more than 100%** of the original $^{235}$U, which is impossible from $^{235}$U alone. The excess is bred plutonium fissioning; the "ignore plutonium" premise breaks, which is the point. (Honestly, ~70–75% of the $^{235}$U is gone and Pu supplies the rest.)
 
 **P2.** (a) $CR = 2.20 - 1 - 0.30 = 0.90 < 1$ → **converter** (a good one, but still net-consuming fuel).
+
 (b) With $L=0.15$: $CR = 2.20 - 1 - 0.15 = 1.05 > 1$ → **yes, it breeds**, gain 0.05. Cutting losses moved a converter across the line.
+
 (c) A fast spectrum raises $\eta$ (fewer non-fission captures, higher $\nu$ per absorption) — more neutrons produced per neutron absorbed means more spare neutrons for fertile capture.
 
 **P3.** Set $dN_{49}/dt = 0$:

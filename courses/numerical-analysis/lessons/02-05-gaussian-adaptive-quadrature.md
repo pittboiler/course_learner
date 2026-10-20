@@ -110,8 +110,11 @@ Gauss is more accurate (error $8.4\times10^{-4}$ vs $1.3\times10^{-3}$) while us
 *Degree 6,* $g(t)=t^6$: $g(\pm\sqrt{3/5})=(3/5)^3=0.216$. Rule $=\tfrac{10}{9}(0.216)=0.24$. Exact: $\int_{-1}^1 t^6\,dt=\tfrac{2}{7}=0.2857143$. **Mismatch** ($0.24\neq0.2857$), error $0.0457$. So the rule is exact through degree 5 but fails at degree 6, exactly as $2n-1=5$ predicts for $n=3$. ✓
 
 **P3** With $f=e^x$:
+
 (a) $S(0,1)=\tfrac{1}{6}\big(e^0+4e^{0.5}+e^1\big)=\tfrac16(1+6.594885+2.718282)=1.7188612$.
+
 (b) Halves: $S(0,\tfrac12)=\tfrac{1/2}{6}\big(e^0+4e^{0.25}+e^{0.5}\big)=\tfrac{1}{12}(1+5.136494+1.648721)=0.6487351$; $S(\tfrac12,1)=\tfrac{1}{12}\big(e^{0.5}+4e^{0.75}+e^1\big)=\tfrac{1}{12}(1.648721+8.469632+2.718282)=1.0695886$. Sum $S_{\text{fine}}=1.7183188$.
+
 (c) Error estimate $=\dfrac{S(0,1)-S_{\text{fine}}}{15}=\dfrac{1.7188612-1.7183188}{15}=\dfrac{0.0005423}{15}=3.62\times10^{-5}$.
 Actual error of the refined value: $|1.7183188-1.7182818|=3.70\times10^{-5}$. The estimate $3.62\times10^{-5}$ tracks the true error $3.70\times10^{-5}$ to two digits — the Richardson estimate is trustworthy here, so an adaptive integrator would accept this panel once that value drops below tolerance. (Note the refined estimate's error is $\approx16\times$ smaller than the coarse one's $5.8\times10^{-4}$ — the $O(h^4)$ prediction: halving $h$ cuts Simpson's error by $2^4=16$.)
 

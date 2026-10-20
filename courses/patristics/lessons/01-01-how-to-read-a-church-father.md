@@ -120,6 +120,7 @@ The Basil quotation is genuine and correctly given. (a) Name **two** distinct th
 Athanasius was a Greek-writing bishop of Alexandria who died in 373.
 
 (a) Point to **two** features of this text that tell against his authorship, quoting the words that carry each, and say why each is decisive.
+
 (b) The text is not Athanasius's, yet it was received into the Western Office and recited for centuries. In **150 words or fewer**, any verdict: say what the misattribution costs and what it does not cost. Distinguish the uses of the text that the correction destroys from the uses that survive it.
 
 <details>

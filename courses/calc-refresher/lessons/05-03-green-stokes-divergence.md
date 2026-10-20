@@ -89,8 +89,11 @@ This is a *planimeter*: it measures the area of any region using only a trip aro
 **P2 (🟡)** Let $\mathbf F = (xy,\, yz,\, zx)$ and let $S$ be the surface of the unit cube $0 \le x,y,z \le 1$. Use the divergence theorem to find the outward flux $\oiint_S \mathbf F \cdot \mathbf n\,dS$ with a single triple integral — then appreciate that the "honest" way would be six separate face integrals.
 
 **P3 (🔴, the boss)** Let $\mathbf F = (x, y, z)$ and let $S$ be the unit sphere.
+
 (a) Compute the outward flux $\oiint_S \mathbf F \cdot \mathbf n\, dS$ **directly**, using the fact that on the unit sphere the outward normal is $\mathbf n = \mathbf r = (x,y,z)$ itself.
+
 (b) Compute the same flux via the **divergence theorem**.
+
 (c) They match. State what **Gauss's law** of electrostatics, $\oiint_S \mathbf E \cdot \mathbf n\,dS = Q_{\text{enc}}/\varepsilon_0$, is saying in this same language.
 
 <details>

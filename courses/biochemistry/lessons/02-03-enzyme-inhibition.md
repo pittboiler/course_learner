@@ -122,6 +122,7 @@ Diagnose the inhibition type, and give $V_{\max}$, $K_m$ (control), $V_{\max}^{\
 <summary>Solutions</summary>
 
 **P1.** (a) Competitive, so $\alpha' = 1$ and $\alpha = 1 + [I]/K_i = 1 + 15/5 = 4$. Apparent $K_m = \alpha K_m = 4\cdot 5 = 20$ mM.
+
 (b) With inhibitor: $v = \dfrac{200\cdot 10}{4\cdot 5 + 1\cdot 10} = \dfrac{2000}{30} = 66.7\ \mu\text{mol·min}^{-1}$. Without: $v_0 = \dfrac{200\cdot 10}{5+10} = \dfrac{2000}{15} = 133.3\ \mu\text{mol·min}^{-1}$. The competitive inhibitor halved the rate at this $[S]$, but $V_{\max}=200$ is still reachable at saturating substrate.
 
 **P2.** The slopes are identical (0.02) and the inhibited y-intercept is higher (0.03 vs 0.01) — **parallel lines shifted up = uncompetitive**.
@@ -146,6 +147,7 @@ At $x = -3/K_m$, plug into the control line: $\dfrac{1}{v} = \dfrac{K_m}{V_{\max
 <summary>Solution</summary>
 
 (a) $v = \dfrac{V_{\max}[S]}{K_m+[S]} = \dfrac{90\cdot 1}{3+1} = \dfrac{90}{4} = 22.5\ \mu\text{mol·min}^{-1}$.
+
 (b) Half-maximal means $v = V_{\max}/2$, which forces $K_m + [S] = 2[S]$, i.e. $[S] = K_m = 3$ mM. That's the defining meaning of $K_m$: the substrate concentration at half of $V_{\max}$ — the anchor every inhibition "apparent $K_m$" in this lesson is measured against.
 
 </details>

@@ -116,15 +116,21 @@ And notice what the theorem does *not* say. It says nothing about a language who
 **P2 (🟡)** Classify each language as **decidable**, **recognizable but (as far as this course shows) not decidable**, or **not recognizable**. One line of justification each. You may use, without proof, that $A_{\mathrm{TM}}$ is undecidable.
 
 (a) $\{\langle G, w\rangle : G \text{ is a CFG and } w \in L(G)\}$
+
 (b) $\{\langle D \rangle : D \text{ is a DFA and } L(D) = \Sigma^*\}$
+
 (c) $A_{\mathrm{TM}} = \{\langle M, w\rangle : M \text{ accepts } w\}$
+
 (d) $\{\langle M, w\rangle : M \text{ does not accept } w\}$
+
 (e) $\{\langle M, w\rangle : M \text{ accepts } w \text{ within } 100 \text{ steps}\}$
 
 **P3 (🔴)** Let $L$ be a language over $\Sigma$.
 
 (a) Prove: if $L$ is recognizable and $\overline{L}$ is recognizable, then $L$ is decidable. Be explicit about why running one recognizer *to completion* before the other would break the proof.
+
 (b) Suppose $L$ is **infinite** and recognizable. Prove that $L$ has an infinite **decidable** subset. *(Hint: use an enumerator for $L$ and keep only the strings that arrive in increasing order of length.)*
+
 (c) A colleague concludes from (b): "every recognizable language is decidable, since it contains a decidable subset with the same elements." Say exactly where that goes wrong.
 
 <details>

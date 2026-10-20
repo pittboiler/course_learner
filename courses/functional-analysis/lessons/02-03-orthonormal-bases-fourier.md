@@ -97,7 +97,9 @@ These $e_1, e_2, e_3$ are the **normalized Legendre polynomials** $\sqrt{\tfrac{
 ## Problems
 
 **P1 (🟢)** Let $\{e_1,e_2,e_3,\dots\}$ be an orthonormal set in a Hilbert space $H$, and suppose $x\in H$ has Fourier coefficients $c_1 = 2$, $c_2 = -1$, $c_3 = 3$ (and you know nothing about the rest).
+
 (a) What is the smallest that $\|x\|^2$ could possibly be, and which inequality forces it?
+
 (b) If in fact $\|x\|^2 = 14$ and $\{e_1,e_2,e_3\}$ is an orthonormal basis for the closed subspace $\overline{\operatorname{span}}\{e_1,e_2,e_3\}$, must $x$ lie in that subspace? Why?
 
 **P2 (🟡)** On $L^2[0,1]$ with $\langle f,g\rangle = \int_0^1 fg\,dx$, apply Gram–Schmidt to $\{1,\,x\}$ and produce the orthonormal pair $e_1, e_2$.

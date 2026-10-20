@@ -112,6 +112,7 @@ The radicands were $9, 4, 16$ — all positive, so $A$ is confirmed SPD. Check t
 $$\lambda = \frac{\tfrac43 \pm \sqrt{\tfrac{16}{9} - \tfrac13}}{2} = \frac{\tfrac43 \pm \sqrt{\tfrac{13}{9}}}{2} = \frac{1.3333 \pm 1.2019}{2}.$$
 So $\lambda_{\max} \approx 1.2676$, $\lambda_{\min} \approx 0.0657$, and (both positive)
 $$\kappa_2(H) = \frac{1.2676}{0.0657} \approx 19.3.$$
+
 (b) $\log_{10} 19.3 \approx 1.29$, so you lose **about 1–2 digits** — modest at $n=2$. (c) At $n=6$, $\log_{10}(1.5\times10^7) \approx 7.2$, so of ~16 double-precision digits only about $16 - 7 = 9$ survive. Hilbert conditioning explodes with $n$ (roughly like $e^{3.5 n}$): by $n=10$, $\kappa \approx 1.6\times10^{13}$ and barely 3 digits remain — which is exactly why fitting high-degree polynomials on equispaced points (a Hilbert-shaped problem) is a numerical disaster.
 
 **P3** The singular values of $A$ are $\sigma_1 \ge \cdots \ge \sigma_n$. Since $A^\top A$ is symmetric with eigenvalues $\sigma_i^2$, those are also its singular values, so

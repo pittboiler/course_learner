@@ -175,21 +175,33 @@ Death is respiratory — airways flooded and constricted, diaphragm paralysed.
 ## Problems
 
 **P1 (🟢)** A muscle fibre rests at $V_m = -90$ mV. ACh opens a patch of nicotinic conductance $g_{\text{ACh}} = 20$ nS. Take the reversal potential as 0 mV for parts (a)–(c).
+
 (a) Compute the driving force and state the current's direction.
+
 (b) Compute the end-plate current in pA. (Recall $1\ \text{nS}\times1\ \text{mV} = 1\ \text{pA}$.)
+
 (c) Recompute the current once the end plate has depolarized to $-20$ mV, and say what this implies about how the EPP grows.
+
 (d) Verify that $V_{\text{rev}}\approx 0$: with $[\text{Na}^+]_o=145$, $[\text{Na}^+]_i=10$, $[\text{K}^+]_o=4$, $[\text{K}^+]_i=155$ (all mM), $P_{Na}=P_K$, and the constant $61\,\text{mV}\cdot\log_{10}$, compute the channel's reversal potential.
 
 **P2 (🟡)** A muscle fibre rests at $-85$ mV and reaches threshold at $-55$ mV. Its measured EPP (recorded with the muscle action potential pharmacologically blocked) is 60 mV.
+
 (a) Compute the safety factor.
+
 (b) Myasthenia gravis destroys half the fibre's nicotinic receptors. Taking the EPP to scale with receptor number, recompute the safety factor.
+
 (c) Even a healthy terminal shows presynaptic run-down: by the fifth stimulus of a train, quantal content has fallen to 70 percent of the first. Compute the fifth EPP in both fibres and say what happens to each. Then explain why myasthenic weakness is *fatigable* rather than constant, and what a clinician would see on repetitive nerve stimulation.
+
 (d) Explain how neostigmine helps, in terms of $m$ and $q$ — and name the danger of too much of it.
 
 **P3 (🔴, optional — bridges to [2.1](02-01-cardiac-electrophysiology.md) and [4.3](04-03-exercise-integrative-physiology.md))** A resting subject has a heart rate of 70 min⁻¹. Atropine alone raises it to 105. Propranolol alone lowers it to 60. Given both drugs, the rate is 95.
+
 (a) Name the receptor each drug blocks, the cell type it sits on, and which autonomic division each drug is therefore silencing.
+
 (b) Using $\text{HR} = \text{intrinsic} + S - P$, extract the intrinsic rate and the two tonic contributions $S$ and $P$ in beats per minute, and check them against the resting rate.
+
 (c) Which division dominates at rest? Predict the fastest available mechanism for raising heart rate at the onset of exercise, and justify the speed claim from the receptor mechanisms in this lesson.
+
 (d) State one reason the additive model in (b) is an approximation.
 
 <details>
@@ -271,8 +283,11 @@ Check against rest: $95 + 10 - 35 = \mathbf{70}$ ✓.
 ## Flashback
 
 **From Lesson 1.3 (the resting membrane potential):** A cell sits at $V_m = -75$ mV with $[\text{K}^+]_i = 150$, $[\text{K}^+]_o = 5$, $[\text{Na}^+]_i = 12$, $[\text{Na}^+]_o = 145$ (all mM). Use $61\,\text{mV}\cdot\log_{10}$.
+
 (a) Compute $E_K$ and $E_{Na}$.
+
 (b) The cell's resting leak conductances are $g_K = 3$ nS and $g_{Na} = 0.3$ nS. Compute the driving force, the direction, and the size of the current carried by each, and comment on the net.
+
 (c) Now open a nicotinic receptor on this same cell ($V_{\text{rev}} = 0$). Compute its driving force and say why the current it carries dwarfs both leaks.
 
 <details>

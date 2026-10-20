@@ -103,8 +103,10 @@ Still negative, but $\Delta\Delta G = +20$ kJ/mol *less* stable — the fold now
 
 **P1.** (a) Number of shapes:
 $$2^{150} = 10^{150\log_{10}2} = 10^{150(0.301)} = 10^{45.2} \approx 1.4\times10^{45}.$$
+
 (b) Search time:
 $$t = 1.4\times10^{45} \times 10^{-13}\ \text{s} = 1.4\times10^{32}\ \text{s}.$$
+
 (c) As a multiple of the universe's age:
 $$\frac{1.4\times10^{32}}{4\times10^{17}} \approx 3.5\times10^{14}.$$
 About $3\times10^{14}$ times the age of the universe. What saves the protein is that folding is *not* a random search: the funnel-shaped landscape biases nearly every step downhill toward the native basin, so the chain reaches it in under a second.

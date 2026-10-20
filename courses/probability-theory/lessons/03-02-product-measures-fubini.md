@@ -84,8 +84,10 @@ by writing $X=\int_0^\infty \mathbf 1\{t<X\}\,dt$ and applying Tonelli to the pr
 
 **P3 (🔴, optional)** *Why the hypothesis is not optional.* On $(0,1)^2$ with Lebesgue measure, let
 $$f(x,y)=\frac{x^2-y^2}{(x^2+y^2)^2}.$$
+
 (a) Show $\displaystyle\int_0^1\!\Big(\int_0^1 f\,dy\Big)dx=\frac\pi4$ and $\displaystyle\int_0^1\!\Big(\int_0^1 f\,dx\Big)dy=-\frac\pi4$.
 (Hint: $\dfrac{\partial}{\partial y}\dfrac{y}{x^2+y^2}=f$, and $f(y,x)=-f(x,y)$.)
+
 (b) The two orders disagree. Exactly which theorem's hypothesis fails, and what is $\int_{(0,1)^2}|f|\,d\lambda$?
 
 <details>

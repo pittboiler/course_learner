@@ -109,8 +109,11 @@ And notice the move he cannot make. He cannot say the Magisterium has no busines
 **P1 (🟢) *(Exegetical.)*** For each statement, say whether *Fides et Ratio* teaches it, and if so whether its weight comes from the encyclical itself or from an earlier act the encyclical repeats. One sentence each.
 
 (a) There can be no real disagreement between faith and reason, since God is the author of both.
+
 (b) Catholic philosophers are obliged to work within the Thomistic system.
+
 (c) The Magisterium may judge that a philosophical position is incompatible with revealed truth.
+
 (d) Contemporary culture suffers from a crisis of meaning which philosophy has a duty to address.
 
 **P2 (🟡) *(Exegetical (a) · Evaluative (b).)*** (a) In one sentence each, state what n. 49 denies and what the encyclical's treatment of Aquinas nevertheless asserts, phrased so that the two do not contradict. (b) A philosopher replies that they cannot really be held together: singling out one thinker as *the* model just is canonizing his system, whatever the document says. In 150 words or fewer, assess the objection — any verdict passes, provided you say what "model" would have to mean for the two claims to be consistent, and name one fact about the Church's actual practice that bears on it.

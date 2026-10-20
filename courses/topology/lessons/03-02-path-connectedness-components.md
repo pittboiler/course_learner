@@ -85,7 +85,9 @@ They **coincide** when the space is **locally path-connected**: every point has 
 **P1 (🟢)** Prove that the continuous image of a path-connected space is path-connected. (If $f:X\to Y$ is continuous, $X$ path-connected, show $f(X)$ is.)
 
 **P2 (🟡)** Show that the "letter" subsets of the plane below have the stated path components, and in each case say whether the set is connected:
+
 (a) the union of the two coordinate axes, $\{(x,0)\}\cup\{(0,y)\}$;
+
 (b) the graph of $y=1/x$ for $x\neq 0$, i.e. $\{(x,1/x):x\neq 0\}$.
 
 **P3 (🔴, optional)** Let $S$ be the topologist's sine curve. Prove that $S$ is **not** locally connected: exhibit a point $p$ and a neighborhood $N$ of $p$ such that no connected neighborhood of $p$ fits inside $N$. (This is the deeper defect behind the failure of path-connectedness.)

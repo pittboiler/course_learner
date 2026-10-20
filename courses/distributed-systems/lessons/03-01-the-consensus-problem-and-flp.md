@@ -118,22 +118,31 @@ Five processes, at most $f = 2$ crashes, **synchronous** rounds: every message s
 **P1 (🟢)** For each proposed algorithm, state which of agreement, validity or termination it violates, and give the execution that shows it.
 
 (a) Every process immediately decides 0.
+
 (b) Every process decides its own input.
+
 (c) Every process waits to hear from all $n$ processes, then decides the minimum of the inputs received.
+
 (d) Every process broadcasts its input, waits for $n-1$ messages including its own, then decides the minimum of what it received.
 
 **P2 (🟡)** A synchronous system has 7 processes and tolerates at most $f = 3$ crashes, using the flooding algorithm.
 
 (a) Give the number of rounds required.
+
 (b) Give the total number of messages sent in a crash-free execution, counting one message per ordered pair per round.
+
 (c) State the property of a *crash-free round* that makes the algorithm correct, in one sentence.
+
 (d) The team reduces the algorithm to 3 rounds, arguing that three crashes "essentially never happen at once". State what guarantee is lost and what is retained.
 
 **P3 (🔴, optional)** Four processes $p_1, \ldots, p_4$ run a deterministic consensus algorithm in an asynchronous system with at most one crash.
 
 (a) Write the chain of initial configurations from all-zero to all-one, and state the valence of the two ends with the property that forces each.
+
 (b) Suppose $(1,1,0,0)$ is 0-valent and $(1,1,1,0)$ is 1-valent. Give the execution that contradicts this, naming the process crashed and the reason the two runs are indistinguishable.
+
 (c) State which of FLP's three assumptions a Raft cluster violates, and name the concrete mechanism.
+
 (d) A colleague proposes defeating FLP by having each process decide after a fixed 10-second timeout. State which property this buys, which it destroys, and give the execution.
 
 <details>
@@ -204,7 +213,9 @@ The execution: processes $p_1$ and $p_2$ propose 0 and 1. The network delays all
 **From Lesson 1.7 (ordered broadcast):** A team implements a replicated log by having every process broadcast its entries with **causal broadcast** and apply them in delivery order.
 
 (a) State whether two processes are guaranteed to hold the same log, with the reason.
+
 (b) State the strongest broadcast guarantee that would give identical logs, and name its cost.
+
 (c) Give the reduction from consensus to that guarantee, in two sentences.
 
 <details>

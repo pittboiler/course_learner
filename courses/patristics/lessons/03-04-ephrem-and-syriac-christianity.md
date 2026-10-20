@@ -83,6 +83,7 @@ Ephrem's own answer is not "my song is truer" but that his symbols are anchored 
 **P1 (🟢) *(Exegetical.)*** Using only the Source passage above:
 
 (a) Ephrem examines the pearl and it "proved faces on all sides." State in one sentence what he concludes from that, and quote the words that carry the conclusion.
+
 (b) The pearl's own command distinguishes two objects of search. Name them, and say which one Ephrem permits and why.
 
 Two sentences or fewer per part.
@@ -92,6 +93,7 @@ Two sentences or fewer per part.
 > Travail Adam on the woman brought, that from him had come forth. She to-day her travail ransomed, who to her a Saviour bare! To Eve our mother a man gave birth, who himself had had no birth. How much more should Eve's daughter be believed to have borne a Child without a man! The virgin earth, she bare that Adam that was head over the earth! The Virgin bare to-day the Adam that was Head over the Heavens.
 
 (a) The middle two sentences contain an argument. Reconstruct it as two numbered premises and a conclusion.
+
 (b) Name the one thing a reader must already grant for that argument to have any force, and say what is left for an opponent who refuses to grant it.
 
 **150 words or fewer** in total.
@@ -101,6 +103,7 @@ Two sentences or fewer per part.
 > "Our Lenten reading this week is St Ephrem the Syrian, from his *Homily on the Pearl*, where he tells us: 'Search thou out the sea, but search not out the Lord of the sea!' and 'leave things hidden, take things revealed.' The Syrian Fathers knew what we have forgotten — that the councils' definitions and all our theology of natures and persons are precisely the prying he condemns, and that the simple heart needs none of it."
 
 (a) Name what the note makes the quotation do, the words of the Source passage that tell against that use, and the two things wrong with the citation as given. 
+
 (b) Scholars disagree over whether Ephrem's symbolic theology is a *different method* from the Greek Fathers' or the same theology in a different genre. Take either side in **150 words or fewer**, using one piece of evidence from this lesson for your side and stating the strongest point against you.
 
 <details>

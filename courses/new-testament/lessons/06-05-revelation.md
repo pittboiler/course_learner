@@ -77,7 +77,9 @@ Most Catholic exegetes now combine two: the book is read first as addressed to f
 **P1 (🟢)** Greek letter values: alpha 1, epsilon 5, eta 8, iota 10, lambda 30, nu 50, xi 60, omicron 70, sigma 200, tau 300, upsilon 400, chi 600, and the numeral stigma 6.
 
 (a) *(Formal)* In Greek numerals 666 is written chi-xi-stigma. Irenaeus says 616 arose when the letter for sixty was mistaken for iota. Write 616 in Greek numerals and show that the sum works.
+
 (b) *(Formal)* The Sibylline Oracles give the name *Iēsous* (iota-eta-sigma-omicron-upsilon-sigma) a number. Compute it. Then compute Irenaeus's candidate *Lateinos* (lambda-alpha-tau-epsilon-iota-nu-omicron-sigma).
+
 (c) *(Exegetical)* Irenaeus blames copyists for 616. Give the rival explanation from this lesson in the form of a sum, and say in **two sentences** why it counts as evidence for the Nero solution.
 
 **P2 (🟡)** *(Exegetical)* Four **invented** readings of Revelation 20:1–6 appear in an invented study-group handout. For each, name the reading school, then state the level of doctrinal authority that bears on it. **One line each.**
@@ -92,6 +94,7 @@ Most Catholic exegetes now combine two: the book is read first as addressed to f
 > And to the angel of the church of Pergamus write: These things saith he that hath the sharp two-edged sword: I know where thou dwellest, where the seat of Satan is. And thou holdest fast my name and hast not denied my faith. Even in those days when Antipas was my faithful witness, who was slain among you, where Satan dwelleth. But I have against thee a few things: because thou hast there them that hold the doctrine of Balaam who taught Balac to cast a stumblingblock before the children of Israel, to eat and to commit fornication. So hast thou also them that hold the doctrine of the Nicolaites. In like manner do penance. If not, I will come to thee quickly and will fight against them with the sword of my mouth.
 
 (a) *(Exegetical)* Name the words that show pressure from **outside** the church and the words that show a problem **inside** it. Which does the letter treat as the thing needing repentance? **Three sentences.**
+
 (b) *(Evaluative)* Does this letter help the Domitianic date, the Neronian date, or neither? **100 words or fewer**, any verdict.
 
 <details>

@@ -98,6 +98,7 @@ so $\chi$ diverges at the critical point with exponent $\gamma = 1$. (This diver
 <summary>Solutions</summary>
 
 **P1** (a) $k_B T_c = Jz$, so triangular ($z=6$): $k_B T_c = 6J$; square ($z=4$): $k_B T_c = 4J$.
+
 (b) A nonzero root exists iff the slope of $\tanh(\beta Jz\,m)$ at the origin exceeds 1, i.e. iff $\beta Jz = T_c/T > 1$, i.e. iff $T < T_c$. At $T = 0.75\,T_c < T_c$ the slope is $T_c/T = 1.33 > 1$, so the $\tanh$ curve leaves the origin steeper than the line $y=m$ and *must* recross it at some $m_0 > 0$ (and $-m_0$). A spontaneous magnetization exists — no numerical solve needed, just the slope comparison.
 
 **P2** (a) At $h=0$, $m=\tanh(\beta Jz\,m)$. The line $y=m$ has slope 1; the curve $y=\tanh(\beta Jz\,m)$ has slope $\left.\frac{d}{dm}\tanh(\beta Jz\,m)\right|_0 = \beta Jz\,\mathrm{sech}^2(0) = \beta Jz$. A nonzero intersection is born exactly when the curve's initial slope passes through 1: $\beta Jz = 1$, i.e. $k_B T_c = Jz$. Above that slope ($T<T_c$) the curve overshoots the line and comes back to meet it; below ($T>T_c$) it stays under and only $m=0$ survives.

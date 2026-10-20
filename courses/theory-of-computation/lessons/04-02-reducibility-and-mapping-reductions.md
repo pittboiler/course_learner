@@ -128,7 +128,9 @@ That asymmetry is exactly what real tooling exhibits. A coverage tool can prove 
 **P1 (🟢)** For each proposed $f$, decide whether it is a valid mapping reduction from $A_{\mathrm{TM}}$ to the stated language $B$. If not, say which requirement fails and give a concrete instance where it fails.
 
 (a) $B = \mathit{HALT}_{\mathrm{TM}}$; $f(\langle M,w\rangle) = \langle M,w\rangle$ (the identity).
+
 (b) $B = \mathit{HALT}_{\mathrm{TM}}$; $f(\langle M,w\rangle) = \langle M', w\rangle$ where $M'$ runs $M$ on its input and loops if $M$ rejects (Example 1).
+
 (c) $B = A_{\mathrm{TM}}$; $f(\langle M,w\rangle) = $ "simulate $M$ on $w$; if it accepts output $\langle M_{\text{yes}}, \varepsilon\rangle$, else output $\langle M_{\text{no}}, \varepsilon\rangle$," where $M_{\text{yes}}$ accepts everything and $M_{\text{no}}$ rejects everything.
 
 **P2 (🟡)** Let
@@ -143,8 +145,11 @@ $$L_{01} = \{\, \langle M\rangle : M \text{ is a TM that accepts the string } 01
 > **Proof.** We reduce $E_{\mathrm{TM}}$ to $A_{\mathrm{TM}}$. Given $\langle M\rangle$, let $f(\langle M\rangle) = \langle M, \varepsilon\rangle$. If we had a decider for $A_{\mathrm{TM}}$ we could ask whether $M$ accepts $\varepsilon$. Since $A_{\mathrm{TM}}$ is undecidable, $E_{\mathrm{TM}}$ is undecidable. $\square$
 
 (a) The conclusion is true but the proof is wrong in **two** independent ways. Identify both.
+
 (b) For the direction error, state precisely what $E_{\mathrm{TM}} \le_m A_{\mathrm{TM}}$ would establish if it held, and why that is not what was wanted.
+
 (c) For the $f$ error, give a concrete $M$ on which the claimed equivalence $\langle M \rangle \in E_{\mathrm{TM}} \iff \langle M,\varepsilon\rangle \in A_{\mathrm{TM}}$ fails.
+
 (d) State the general check that would have caught both errors before writing a word of proof.
 
 <details>
@@ -199,7 +204,9 @@ Writing that sentence catches error 1 immediately — the colleague's $f$ takes 
 **From Lesson 3.4 (Decidable vs Turing-recognizable):** Let $A$ and $B$ be languages over $\Sigma$.
 
 (a) Prove that if $A$ and $B$ are both **decidable**, so are $A \cup B$, $A \cap B$ and $\overline{A}$.
+
 (b) Prove that if $A$ and $B$ are both **Turing-recognizable**, so are $A \cup B$ and $A \cap B$.
+
 (c) Show that the recognizable languages are **not** closed under complement, and say which of your constructions in (a) breaks.
 
 <details>

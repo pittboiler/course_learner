@@ -127,8 +127,11 @@ The stoichiometry $\ce{H2 + 1/2 O2 -> H2O}$ makes one mole of water per mole of 
 **P2 (🟡)** The same cell operates at $E_\text{load} = 0.72\ \mathrm{V}$. (a) Find the voltage efficiency $\eta_V$ and a combined efficiency estimate (use $\eta_\text{thermo} \approx 0.83$, $\eta_\text{fuel} \approx 1$). (b) It delivers $5.0\ \mathrm{A}$ for 20 minutes — how many moles of H₂ does it burn?
 
 **P3 (🔴, Boss-4)** A H₂/O₂ cell has $E^\circ = 1.23\ \mathrm{V}$, $n = 2$, $\Delta H^\circ = -286\ \mathrm{kJ/mol}$.
+
 (a) Confirm $\Delta G^\circ \approx -237\ \mathrm{kJ/mol}$ and $\eta_\text{thermo} \approx 0.83$.
+
 (b) Operating at $0.70\ \mathrm{V}$, find $\eta_V$ and the combined efficiency.
+
 (c) Delivering $1.0\ \mathrm{A}$ for $1.0\ \mathrm{h}$, find the moles of H₂ consumed, and identify what the $1.23 - 0.70 = 0.53\ \mathrm{V}$ shortfall physically *is*.
 
 <details>

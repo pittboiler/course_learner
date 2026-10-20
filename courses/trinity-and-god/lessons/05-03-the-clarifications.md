@@ -93,7 +93,9 @@ Now weigh it. This is a bilateral consultation of theologians, not a magisterial
 **P1 (🟢) *(Exegetical.)*** Assign a level to each of the following on the ladder of [`fundamental-theology` 4.4](../../fundamental-theology/lessons/04-04-the-ladder-of-doctrinal-authority.md), and **name the act that fixes it**. One sentence each.
 
 (a) That the Holy Spirit proceeds eternally from the Father and the Son as from one principle.
+
 (b) That *ekporeusis* and *processio* are not equivalent terms, so the *Filioque* does not contradict the monarchy of the Father.
+
 (c) That the condemnation issued by the Second Council of Lyons against those who deny the procession from the Son is no longer applicable.
 
 **P2 (🟡) *(Exegetical.)*** Two invented passages. Name the error in each, name the text that corrects it, and say in one sentence what true thing each is reaching for. Answer in 40 words or fewer per passage.

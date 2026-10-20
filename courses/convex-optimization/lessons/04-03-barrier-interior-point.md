@@ -101,6 +101,7 @@ As $t\to\infty$, $x^\star(t)\to 1 = p^\star$ from *inside* the feasible set — 
 
 **P1** (a) Barrier $\phi(x) = -\log(-f_1) = -\log(x-2)$, valid for $x>2$. Subproblem $\min_{x>2}\ t\,x - \log(x-2)$. Derivative: $t - \dfrac{1}{x-2}=0 \Rightarrow x-2 = \dfrac1t$, so
 $$x^\star(t) = 2 + \frac1t.$$
+
 (b) Multiplier $\lambda_1^\star(t) = \dfrac{1}{-t f_1(x^\star(t))} = \dfrac{1}{t\,(x^\star(t)-2)} = \dfrac{1}{t\cdot(1/t)} = 1$. Stationarity check: $f_0'(x) + \lambda_1^\star f_1'(x) = 1 + 1\cdot(-1) = 0$ ✓, and $\lambda_1^\star = 1 > 0$ is dual feasible. Gap: $p^\star = 2$ (optimum at $x=2$), so $f_0(x^\star(t)) - p^\star = (2+\tfrac1t) - 2 = \tfrac1t$, and with $m=1$ the bound $m/t = 1/t$ holds with equality. (c) $x^\star(t) = 2 + 1/t \to 2 = p^\star$ as $t\to\infty$, approached from strictly inside the feasible region.
 
 **P2** By construction $x^\star(t)$ satisfies $t\nabla f_0(x^\star(t)) + \sum_i \tfrac{1}{-f_i(x^\star(t))}\nabla f_i(x^\star(t)) = 0$; dividing by $t$ and setting $\lambda_i^\star(t) = \tfrac{1}{-t f_i(x^\star(t))}$ gives $\nabla f_0 + \sum_i \lambda_i^\star \nabla f_i = 0$, i.e. $\nabla_x L(x^\star(t),\lambda^\star(t)) = 0$ where $L(x,\lambda)=f_0(x)+\sum_i\lambda_i f_i(x)$. **Here is where convexity enters:** with each $f_i$ convex and $\lambda_i^\star(t)\ge 0$, $L(\cdot,\lambda^\star(t))$ is convex in $x$, so a stationary point is a global minimizer. Therefore

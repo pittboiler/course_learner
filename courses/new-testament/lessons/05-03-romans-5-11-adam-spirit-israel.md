@@ -84,6 +84,7 @@ The anchors on the card: [Romans 5:12 eph ho and in quo](../reference.md#romans-
 **P1 (🟢)** *(Exegetical (a) · Exegetical (b))* Romans 5:12 in Greek ends *kai houtōs eis pantas anthrōpous ho thanatos diēlthen, eph' hō pantes hēmarton*.
 
 (a) Translate the whole clause twice, once taking *eph' hō* as "in whom" and once as causal, and give two grammatical reasons most exegetes prefer the causal reading. **Two sentences.**
+
 (b) An **invented** study-Bible note reads: "Since Trent quoted the verse as 'in whom all have sinned,' Catholics are bound to that translation, and a 'because' rendering contradicts the Council." Diagnose the error and say what Trent does bind. **Two sentences.**
 
 **P2 (🟡)** *(Exegetical (a) · Evaluative (b))* Reading the "I" of Romans 7.
@@ -101,6 +102,7 @@ The anchors on the card: [Romans 5:12 eph ho and in quo](../reference.md#romans-
 - **B:** "All Israel" is the whole people of God, Jews and Gentiles together. "In this way" means through the Gentiles' coming in and the Jews it provokes to faith along the way.
 
 (a) Find the crux. Name the single premise about the word "Israel" that B must hold and A denies. Name one detail of 11:25–28 each side appeals to. **Three sentences.**
+
 (b) An **invented** catechist's handout reads: "The Church has defined that before the end every Jew will convert (see CCC 674 and Nostra Aetate)." Name two distinct level errors. **Two sentences.**
 
 <details>
@@ -151,6 +153,7 @@ The anchors on the card: [Romans 5:12 eph ho and in quo](../reference.md#romans-
 "Debtor" is *opheiletēs*, someone who owes. "Worketh" is *energoumenē*: the phrase *pistis di' agapēs energoumenē* means "faith at work through love".
 
 (a) Two readings of *erga nomou*, "works of the law", both claim 5:3. The **traditional** reading takes the phrase as the deeds the Law commands, offered as grounds for standing with God. The **identity-marker** reading (Dunn's) takes it as the practices that mark out the Jewish people: circumcision, food laws, sabbath. Say how each reading explains why circumcision makes a man "a debtor to do the whole law". **One sentence each.**
+
 (b) Verse 6 says that *neither* circumcision *nor* uncircumcision counts. Name one misreading of Galatians that the "nor uncircumcision" rules out, and say what the verse puts in the place of both. **Two sentences.**
 
 <details>

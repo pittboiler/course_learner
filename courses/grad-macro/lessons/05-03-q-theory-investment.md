@@ -104,7 +104,9 @@ So regressing $I/K$ on the observable $V/K$ recovers the structural rule $I/K = 
 ## Problems
 
 **P1 (🟢)** A firm has quadratic adjustment costs with $\varphi = 4$. Its Tobin's $q$ is currently $1.2$.
+
 (a) What is its investment rate $I/K$?
+
 (b) At what value of $q$ would the firm hold capital constant net of depreciation, if $\delta = 0.05$? (Recall $\dot K = I - \delta K$.)
 
 **P2 (🟡)** Starting from the current-value Hamiltonian $\mathcal H = \Pi(K) - I - C(I,K) + q(I-\delta K)$, derive the co-state equation and solve it forward to show

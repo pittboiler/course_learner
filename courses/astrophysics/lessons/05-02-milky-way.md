@@ -90,8 +90,11 @@ One galactic year is $\sim$230 Myr — the Sun has made only ~20 laps in the Gal
 **P2 (🟡)** The star S2 orbits Sgr A* with semi-major axis $a \approx 1000\ \mathrm{AU}$ and period $P \approx 16\ \mathrm{yr}$. Use Kepler's third law in the solar-unit shortcut $M/M_\odot = (a/\mathrm{AU})^3/(P/\mathrm{yr})^2$ to find the central mass. Why does a *single* star's orbit suffice to prove a black hole, when weighing a star cluster needs a whole velocity dispersion?
 
 **P3 (🔴, optional)** The Galaxy's rotation curve stays flat at $v\approx220\ \mathrm{km/s}$ from the Sun ($8\ \mathrm{kpc}$) out to at least $R\approx80\ \mathrm{kpc}$, traced by satellite gas and stars.
+
 (a) Using $M(R)=v^2R/G$, find the factor by which the enclosed mass grows between 8 and 80 kpc.
+
 (b) If instead *all* the mass were the visible $\sim9\times10^{10}\,M_\odot$ interior to the Sun, what speed would Kepler predict at 80 kpc? By what factor does the observed speed exceed it?
+
 (c) From (b), estimate how many times more mass the flat curve demands at 80 kpc than the visible matter provides.
 
 <details>

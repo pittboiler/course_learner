@@ -96,17 +96,21 @@ So the optimal threshold is the smallest integer $k \ge n\lambda$, and the optim
 **P1 (🟢)** *(Formal.)* A constitutional convention faces external costs $E(q) = a(1-q)$ and decision costs $D(q) = bq^3$, with $a, b > 0$ and $q \in [0,1]$ the required fraction.
 
 (a) With $a = 27$, $b = 25$, find the cost-minimizing $q^*$ and compare total cost with simple majority and unanimity.
+
 (b) Holding $a = 27$, what $b$ makes simple majority optimal?
+
 (c) Holding $b = 25$, for which $a$ is unanimity optimal?
 
 **P2 (🟡)** *(Formal.)* Rae's setting, all four assumptions.
 
 (a) For $n = 5$, compute $P_k$ for $k = 1, \dots, 5$ from the distribution of $S$, and confirm the maximizer.
+
 (b) Now keep independence, keep the others at probability $\tfrac12$, but let the voter favour each proposal with probability $\pi \in (0,1)$. Prove that raising the threshold from $k$ to $k+1$ raises her chance of getting her way if and only if $k < n(1-\pi)$. Find the optimal $k$ and her probability of getting her way for $n = 9$, $\pi = 0.7$.
 
 **P3 (🔴, optional)** *(Exegetical (a) · Formal (b).)* An invented memo to a nine-member water board: "We should keep simple majority. The Rae–Taylor theorem proves that majority rule maximizes every member's chance of getting her way." The board has two stable blocs of 5 and 4. On each proposal, each bloc's position is a fair coin flip, independent across blocs, and members always vote with their bloc.
 
 (a) Name the hypotheses of the theorem the memo applies where they fail, and the word in the memo that overstates it. Three sentences or fewer.
+
 (b) Compute the probability of getting her way under $k = 5$ and under $k = 9$ for a majority-bloc member, a minority-bloc member, and a member who does not yet know her bloc (5/9 chance of the larger one).
 
 <details>

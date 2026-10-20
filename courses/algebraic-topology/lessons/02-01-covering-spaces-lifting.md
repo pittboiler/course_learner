@@ -90,7 +90,9 @@ An even loop lifts to a loop (comes back to where it started); an odd loop switc
 ## Problems
 
 **P1 (🟢)** Using the exponential cover $p(s)=e^{2\pi i s}$:
+
 (a) Lift the loop $\gamma(t)=e^{-2\pi i\,(2t)}$ (twice around, clockwise) starting at $\tilde x_0=3$. Find $\tilde\gamma$ and $\tilde\gamma(1)$, and state the winding number.
+
 (b) The fiber over the basepoint $1$ is $p^{-1}(1)=\mathbb{Z}$. Lift the *same* loop again, now starting at $\tilde x_0=-1$. How are the two endpoints (from starts $3$ and $-1$) related, and why must the difference of endpoints equal the difference of starts?
 
 **P2 (🟡)** For the $3$-fold cover $p_3(z)=z^3$ of $S^1$, the fiber over $1$ is the cube roots of unity $F=\{1,\omega,\omega^2\}$ with $\omega=e^{2\pi i/3}$. Lift the generator loop $\gamma(t)=e^{2\pi i\,t}$ starting at each point of $F$, describe the resulting monodromy action of the generator on $F$ as a permutation, and identify the induced homomorphism $\pi_1(S^1)\cong\mathbb{Z}\to\operatorname{Sym}(F)$.

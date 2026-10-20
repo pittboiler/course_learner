@@ -126,8 +126,11 @@ $$\delta(s_2,Y) = (s_2,Y,R), \quad \delta(s_2,\sqcup) = (q_{\text{accept}},\sqcu
 **P3 (🔴)** For each machine, say whether it is a **decider**, a **recognizer that is not a decider as written**, or **neither**. Justify in one or two sentences, and for the middle case say whether a decider for the same language exists.
 
 (a) $M_a$: on input $1^x$, try $d = 2,3,4,\dots$; accept if $d$ divides $x$ with $1 < d < x$.
+
 (b) $M_b$: on input $w \in \{0,1\}^*$, sweep right to the first blank counting `1`s mod 2; accept if even, reject if odd.
+
 (c) $M_c$: on input $w$, move right one cell, then left one cell, and repeat forever; never enter a halting state.
+
 (d) $M_d$: on input $\langle p \rangle$ encoding a polynomial $p$ in one variable with integer coefficients, try integer values $x = 0, 1, -1, 2, -2, \dots$ and accept if $p(x) = 0$.
 
 Then: the Example 1 machine takes $4n^2 + 3n + 1$ steps on $a^nb^nc^n$. Derive the $n^2$ from the algorithm's structure in one sentence, and say what a second tape would buy you.

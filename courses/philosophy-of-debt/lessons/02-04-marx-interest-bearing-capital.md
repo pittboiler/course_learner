@@ -84,7 +84,9 @@ This is where the tool strains. Its core thesis, interest as a share of surplus 
 **P1 (🟢) *(Formal (a)–(b) · Exegetical (c).)*** An invented furniture workshop, read on Marx's assumptions. In a year it uses up 45,000 pounds of timber, glue and tool wear (constant capital, $c$) and pays 15,000 pounds in wages (variable capital, $v$). Its workers add new value equal to twice their wages. The capital advanced, $c + v$, turns over once in the year; 40,000 pounds of it is borrowed at 6 percent a year and the rest is the owner's.
 
 (a) Compute the surplus value $s$, the rate of surplus value $s/v$, the rate of profit $s/(c+v)$, the interest paid and the profit of enterprise. What share of $s$ goes to the lender?
+
 (b) As Marx says owners do (ch. XXIII), the owner also books interest at 6 percent on his own capital. How does $s$ divide in his books?
+
 (c) Whose labour produced the lender's interest, and which change would alter the workers' position on Marx's account: a change in the rate of interest, or in the rate of surplus value? Two sentences.
 
 **P2 (🟡) *(Exegetical.)*** Marx is answering Gilbart, author of *The History and Principles of Banking* (1834), whose words he quotes in a note: it is "a self-understood principle of natural justice" that a man who borrows money to make a profit should give the lender a portion of it. *Capital* vol. 3, ch. XXI (Untermann):

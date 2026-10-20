@@ -111,6 +111,7 @@ with the multiplication sitting below the addition, i.e. $a + (a \times a)$ — 
 **P2 (🟡)** Write a context-free grammar for each, and give a leftmost derivation of the sample string.
 
 (a) $\{\, w \in \{a,b\}^* : w = w^R \,\}$ — the palindromes. Sample: $abba$.
+
 (b) $\{\, a^i b^j c^k : i = j + k,\ j,k \ge 0 \,\}$. Sample: $aaabbc$. *(Hint: two layers of recursion — one pairs an `a` with a `c`, the other pairs an `a` with a `b`.)*
 
 **P3 (🔴)** The following grammar abstracts the `if`/`then`/`else` statement of a programming language. Terminals: `i` (for "`if` *cond* `then`"), `e` (for "`else`"), `a` (for any other statement).
@@ -118,7 +119,9 @@ with the multiplication sitting below the addition, i.e. $a + (a \times a)$ — 
 $$S \to i\,S\,e\,S \mid i\,S \mid a$$
 
 (a) Show the grammar is ambiguous by exhibiting a string with two distinct parse trees, and give both trees. Use the shortest such string.
+
 (b) Say in one sentence which real-world question the two trees disagree about.
+
 (c) Here is a proposed repair, splitting statements into **matched** ($M$: every `i` has its `e`) and **unmatched** ($U$):
 
 $$S \to M \mid U, \qquad M \to i\,M\,e\,M \mid a, \qquad U \to i\,S \mid i\,M\,e\,U.$$

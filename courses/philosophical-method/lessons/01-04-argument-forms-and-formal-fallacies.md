@@ -105,8 +105,11 @@ This is where philosophical reductios differ from mathematical ones. There the a
 **P1 (🟢) *(Exegetical.)*** Name the form and say whether it is valid. One sentence each.
 
 (a) "A law binds in conscience only if it serves the common good. This law does not serve the common good. So it does not bind in conscience."
+
 (b) "Either the quotation was copied from a source now lost, or it is a later interpolation. No lost source was available to this author. So it is a later interpolation."
+
 (c) "If the council had intended a definition, it would have used the anathema formula. It did not intend a definition. So it did not use the anathema formula."
+
 (d) "Every argument in the book has a flaw. So there is a flaw that runs through every argument in the book."
 
 **P2 (🟡) *(Exegetical (a)–(b) · Evaluative (c).)*** From an invented campus newspaper column opposing a proposed speech code:
@@ -178,6 +181,7 @@ This is where philosophical reductios differ from mathematical ones. There the a
 **From Lesson 1.2 (Validity and soundness):** Say whether each argument is valid and whether it is sound. For the invalid one, prove it invalid with a same-form counterexample — premises obviously true, conclusion obviously false.
 
 (a) **P1.** Every treaty ratified by the Senate has the force of federal law. **P2.** The Kyoto Protocol was ratified by the Senate. **∴ C.** The Kyoto Protocol has the force of federal law.
+
 (b) **P1.** Every book that changed the law was widely read. **P2.** *Uncle Tom's Cabin* was widely read. **∴ C.** *Uncle Tom's Cabin* changed the law.
 
 <details>

@@ -115,7 +115,9 @@ Ideally 11 joules of heat pumped out per joule of electricity — because the te
 <summary>Solutions</summary>
 
 **P1** (a) $\eta = 1 - T_c/T_h = 1 - 300/500 = 0.40 = 40\%.$
+
 (b) $W = \eta\,Q_h = 0.40 \times 1200 = 480\ \text{J}.$
+
 (c) $Q_c = Q_h - W = 1200 - 480 = 720\ \text{J}.$
 Entropy check: $Q_h/T_h = 1200/500 = 2.4\ \text{J/K}$ and $Q_c/T_c = 720/300 = 2.4\ \text{J/K}$. Equal — the entropy that entered on $Q_h$ left on $Q_c$, exactly, so $\oint \delta Q/T = 0$: this cycle is reversible, as a Carnot engine must be.
 

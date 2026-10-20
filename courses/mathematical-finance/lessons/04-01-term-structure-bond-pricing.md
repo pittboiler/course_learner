@@ -92,6 +92,7 @@ Find $P(0,1)$ and $P(0,2)$, then the yields $y(0,1)$ and $y(0,2)$.
 
 **P1.** (a) $y(0,T)=-\ln P(0,T)/T$:
 $$y(0,2)=-\tfrac{1}{2}\ln 0.94=-\tfrac{1}{2}(-0.06188)=3.094\%,\qquad y(0,3)=-\tfrac{1}{3}\ln 0.90=-\tfrac{1}{3}(-0.10536)=3.512\%.$$
+
 (b) $e^{f}=P(0,2)/P(0,3)=0.94/0.90=1.04444$, so $f(2\to3)=\ln 1.04444=4.349\%$. Consistency check: the 3-year yield must be the average of the two-year yield and the forward, $\tfrac{2\,y(0,2)+f}{3}=\tfrac{2(0.03094)+0.04349}{3}=\tfrac{0.10536}{3}=3.512\%=y(0,3)$. ✓ (The forward sits above both spot yields, as it must on an upward curve.)
 
 **P2.** Bond A pays $104$ at year 1, so $P(0,1)=100.88/104=0.9700.$ Bond B pays $6$ at year 1 and $106$ at year 2:

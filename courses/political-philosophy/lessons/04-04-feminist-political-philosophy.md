@@ -160,6 +160,7 @@ For each sentence, name which of the lesson's three critiques it uses (Okin's fa
 **From Lesson [4.2](04-02-public-reason-and-religious-argument.md) (Public reason and religious argument):** *(Exegetical (a)-(b).)* Find the crux. Invented case. The Republic of Corvel holds a referendum on a constitutional amendment guaranteeing every employee one common weekly day of rest. A labour federation publishes a full public case for it: workers' health, time for family life, and fair bargaining power. Teodor studies that case carefully, discusses it with critics, and finds it weak. He votes yes anyway, solely because he believes God commands a weekly day of rest. The amendment passes.
 *Commentator Hale:* "Teodor failed a moral duty he owed his fellow citizens, though the amendment is legitimate."
 *Commentator Imre:* "Teodor did nothing wrong. Legitimacy needs a public case for the law to exist, and one does."
+
 (a) Both commentators accept the liberal principle of legitimacy as a test for laws. Name the premise of 4.2's reconstruction that they divide on, say what each holds about it, and name the theorist whose view Imre takes. Three sentences. (b) Say what kind of argument could move either commentator, and why a survey showing how many yes voters shared Teodor's motive would not. Two sentences.
 
 <details>

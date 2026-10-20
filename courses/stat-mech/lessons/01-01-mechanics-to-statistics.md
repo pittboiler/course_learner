@@ -67,7 +67,9 @@ For $N = 10^{23}$ that factor is about $3\times10^{-12}$. The gas's total energy
 ## Problems
 
 **P1 (🟢)** A sealed container holds exactly one mole of argon (treat each atom as a structureless point).
+
 (a) What is the dimension of the system's phase space $\Gamma$?
+
 (b) The instantaneous microstate is a single point in $\Gamma$. Briefly, in one or two sentences, why is the goal of statistical mechanics to *integrate over* this space rather than to locate the point?
 
 **P2 (🟡)** You measure a macroscopic quantity by averaging $N$ independent, identically distributed microscopic contributions, $\bar A = \frac1N\sum_{i=1}^N A_i$, each with mean $\mu$ and standard deviation $\sigma$. Show that the *relative* fluctuation of $\bar A$ scales as $1/\sqrt N$, and evaluate it for $N = 10^{23}$ taking $\sigma/\mu \approx 1$. State in one line why this is exactly why the thermodynamic limit produces sharp laws.
@@ -79,6 +81,7 @@ For $N = 10^{23}$ that factor is about $3\times10^{-12}$. The gas's total energy
 
 **P1** (a) Each of the $N=N_A=6.022\times10^{23}$ atoms has 3 position and 3 momentum coordinates, so
 $$\dim\Gamma = 6N_A \approx 3.6\times10^{24}.$$
+
 (b) Locating the point is impossible (you can't measure $\sim10^{24}$ numbers) and pointless (no macroscopic measurement depends on which of the astronomically many equivalent microstates you're in). Every macroscopic quantity is an *average* over the microstates consistent with the fixed macroscopic constraints — an integral over $\Gamma$ (or over the energy shell) — so counting/integrating, not locating, is the operation that yields physics.
 
 **P2** By independence, variances add and constants pull out squared:

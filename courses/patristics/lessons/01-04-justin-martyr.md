@@ -84,7 +84,9 @@ It also has the sentence the next lessons need. At ch. 100 Justin sets Eve, "a v
 > And that He became man by the Virgin, in order that the disobedience which proceeded from the serpent might receive its destruction in the same manner in which it derived its origin. For Eve, who was a virgin and undefiled, having conceived the word of the serpent, brought forth disobedience and death. But the Virgin Mary received faith and joy, when the angel Gabriel announced the good tidings to her that the Spirit of the Lord would come upon her, and the power of the Highest would overshadow her: wherefore also the Holy Thing begotten of her is the Son of God; and she replied, "Be it unto me according to your word."
 
 (a) Which words carry the parallel between the two women, and what exactly is being paralleled — their state, their act, or both? Quote the words.
+
 (b) The passage gives a *reason* for the Incarnation by a virgin. State it in one sentence, in Justin's terms.
+
 (c) Name one thing about Mary this passage does **not** assert. **Two sentences per part, maximum.**
 
 **P2 (🟡) *(Exegetical.)*** An invented parish bulletin note (not a real publication):
@@ -92,12 +94,15 @@ It also has the sentence the next lessons need. At ch. 100 Justin sets Eve, "a v
 > "Saint Justin's account of the Mass around AD 155 shows that the early Roman liturgy was already what we have today. He describes the Eucharistic Prayer, the reading of the Gospel, and the ministry of deacons, and he states plainly that the bread and wine become the flesh and blood of Christ, exactly as the Church teaches. Anyone who says the Real Presence was a later invention need only read *First Apology* 66."
 
 (a) List three things the note claims that the text of *First Apology* 61, 65–67 does not support, and for each say what the text actually says.
+
 (b) Catholic, Lutheran and Reformed readers all cite chapter 66. State the reading each gives and the words in the passage each leans on. Do not say which is right. **150 words or fewer in total.**
 
 **P3 (🔴, optional) *(Exegetical.)*** A student's footnote reads: "Justin Martyr, *Epistle to Diognetus* 5, and *Second Apology* 13 (Paris gr. 450)."
 
 (a) One of the two attributions is wrong. Which, and what should the footnote say instead?
+
 (b) The other citation is to a genuine work, but the parenthesis is doing something the student probably did not intend. Say what a reader is entitled to conclude from it, and what the honest form of the claim is.
+
 (c) Give the one further fact about that manuscript a careful citer of Justin should state when the wording of a passage is the point. **120 words or fewer in total.**
 
 <details>
@@ -155,6 +160,7 @@ It also has the sentence the next lessons need. At ch. 100 Justin sets Eve, "a v
 **From Lesson [1.2](01-02-first-clement-and-the-didache.md) (1 Clement and the Didache):** *(Exegetical.)* Before it reaches the apostles, the letter argues from two everyday pictures. Soldiers (ch. 37, John Keith, *Ante-Nicene Fathers* vol. 9): "All are not prefects, nor commanders of a thousand, nor of a hundred, nor of fifty, nor the like, but each one in his own rank performs the things commanded by the king and the generals." Then the body: the head is nothing without the feet and the feet nothing without the head, the smallest members are necessary to the whole, and all work harmoniously together under "one common rule" for the preservation of the whole body. Chapter 38 draws the application — let each be subject to his neighbour according to the gift bestowed on him, the strong not despising the weak, the rich providing for the poor.
 
 (a) Set the argument of chapters 37–38 out in three numbered premises and a conclusion. **One sentence each.**
+
 (b) Name the kind of warrant these two chapters rest on, and say what the letter is *not* appealing to here. **Two sentences.**
 
 <details>

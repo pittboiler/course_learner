@@ -129,15 +129,21 @@ Each is a perfectly reasonable rule and none is expressible in a context-free gr
 **P2 (🟡)** For each language rule, state whether it can be enforced by a context-free grammar or must wait for a later phase, and give the one-sentence reason.
 
 (a) Every `(` is matched by a `)`.
+
 (b) Every variable is declared before use.
+
 (c) A `return` statement appears only inside a function body.
+
 (d) A function call passes exactly as many arguments as the function declares parameters.
+
 (e) The keyword `else` is preceded by a matching `if`.
 
 **P3 (🔴)** A language designer specifies `let` so that the initializer is resolved **before** the name is inserted, and `letrec` so that it is inserted **before**.
 
 (a) In a scope where an outer `x = 10` already exists, give the value of `let x = x + 1` and of `letrec x = x + 1`, assuming the language evaluates eagerly. For the second, say what goes wrong and name the failure.
+
 (b) Mutually recursive functions `even` and `odd` each call the other. Explain why a single `letrec` binding one name is insufficient, and state the two-pass rule that handles it.
+
 (c) The designer proposes dropping `let` entirely and making every binding a `letrec`, arguing it is strictly more expressive. Give the concrete thing this loses — a program that is legal and useful under `let` and becomes wrong under `letrec`.
 
 <details>
@@ -195,6 +201,7 @@ Under universal `letrec` the same line resolves `x` to itself and becomes a use-
 A language resolves names at compile time (lexical scope) but checks *types* at run time. Its designer claims this is incoherent — "you cannot resolve statically and check dynamically."
 
 (a) State whether the designer is right, and name a widely used language that does exactly this.
+
 (b) Say which single piece of information name resolution needs that type checking does not, and use it to explain why the two phases can be separated.
 
 <details>

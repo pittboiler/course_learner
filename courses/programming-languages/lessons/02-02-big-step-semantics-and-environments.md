@@ -104,7 +104,9 @@ This is not repairable by adding rules; it is structural. A big-step judgment re
 **P2 (🟡)** For the program `while x >= 1 do x := x - 1` in state $[x \mapsto 3]$:
 
 (a) State the depth of the big-step derivation tree, and say how many times each of $\mathsf{While\text{-}T}$ and $\mathsf{While\text{-}F}$ appears.
+
 (b) Give the general formula for the depth in terms of the initial value of $x$, for $x \ge 0$.
+
 (c) Now consider the same program in state $[x \mapsto -1]$ — and then in state $[x \mapsto 3]$ but with the body changed to `x := x + 1`. For each, say whether a derivation exists, and give its depth if so.
 
 **P3 (🔴)** A designer wants big-step semantics *and* the ability to distinguish divergence from stuckness. She proposes adding a rule
@@ -114,7 +116,9 @@ $$\frac{}{\langle c, s\rangle \Downarrow \bot}\;(\mathsf{Diverge})$$
 to be used whenever $c$ does not terminate, with $\bot$ a special result distinct from every state.
 
 (a) State the fatal problem with this rule as written. (Look at its premises.)
+
 (b) She amends it to "apply $\mathsf{Diverge}$ only when no other rule applies." State why this is not a fix, in terms of what an inductive definition is.
+
 (c) Name the semantics from this module that *does* assign a meaning to every program including divergent ones, and say in one sentence what mathematical object it uses in place of $\bot$-as-a-rule.
 
 <details>
@@ -167,6 +171,7 @@ $$\langle \mathsf{while}\ b\ \mathsf{do}\ c,\ s\rangle \to \langle \mathsf{if}\ 
 Big-step needs **two** rules for the same construct instead of one.
 
 (a) State why the small-step version gets away with one rule and the big-step version cannot.
+
 (b) For a loop that runs exactly $k$ times, compare the *sizes* of the two descriptions: roughly how many small-steps, and what derivation-tree depth.
 
 <details>

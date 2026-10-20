@@ -100,14 +100,18 @@ The strain shows in the transmission too. **Letter 38**, the fullest statement o
 > To this I reply … that possibly before a mild and gentle judge … one might be willing to offer as witness even a fellow-slave; but for a slave to be made free and called a son of God and quickened from death can only be brought about by Him who has acquired natural kinship with us, and has been changed from the rank of a slave. For how can we be made kin with God by one who is an alien? How can we be freed by one who is himself under the yoke of slavery? It follows that the mention of the Spirit and that of angels are not made under like conditions. The Spirit is called on as Lord of life, and the angels as allies of their fellow-slaves and faithful witnesses of the truth.
 
 (a) State the objection the passage answers and the distinction Basil draws to defeat it, naming the two roles he assigns.
+
 (b) Which words carry the inference from what the Spirit *does* to how he must be *ranked*?
+
 (c) Does the passage state that the Spirit is of one substance with the Father? Answer yes or no and say what it states instead.
 Two sentences or fewer per part.
 
 **P2 (🟡) *(Exegetical.)*** Nicaea's creed anathematizes anyone who says the Son is "of a different substance or essence" from the Father (NPNF 2nd series, vol. 14), where the two Greek nouns are *hypostasis* and *ousia*.
 
 (a) On the assumption that the two nouns are synonyms, what does the anathema forbid? On Basil's later distinction, what would the same sentence forbid? One sentence each.
+
 (b) Using Basil's distinction, say in one sentence each why "one hypostasis" alarmed Eastern bishops and why "three hypostases" alarmed Western ones.
+
 (c) Name one thing Basil's distinction does **not** do. One sentence.
 
 **P3 (🔴, optional) *(Exegetical.)*** An invented parish bulletin note:

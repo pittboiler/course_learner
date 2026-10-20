@@ -124,8 +124,11 @@ Move one point, so that B ≻ C ≻ A has 19 and C ≻ B ≻ A has 17. In the My
 | 15 | Z ≻ X ≻ Y |
 
 (a) Find the sincere plurality winner and all three head-to-head results.
+
 (b) List the three Duvergerian equilibria, with vote shares and winners.
+
 (c) In the equilibrium with pair {X, Y}, show from prospective ratings that a Z ≻ X ≻ Y voter votes X for every $v \in (0,1)$.
+
 (d) Prove that no Duvergerian equilibrium, in any electorate with strict rankings, elects a Condorcet loser.
 
 **P2 (🟡)** *(Formal.)* Same model; within each type $v$ is uniform on $(0,1)$:
@@ -137,8 +140,11 @@ Move one point, so that B ≻ C ≻ A has 19 and C ≻ B ≻ A has 17. In the My
 | 22 | B ≻ C ≻ A | 9 | C ≻ A ≻ B |
 
 Look for an equilibrium with $S_A > S_B = S_C$, $q_{BC} = 0$, $q_{AB} = \lambda$ and $q_{AC} = 1 - \lambda$.
+
 (a) Show that a B ≻ A ≻ C voter votes A if and only if $v > 2\lambda/(1+\lambda)$.
+
 (b) Take as given that at $\lambda = \tfrac12$ the C ≻ A ≻ B cutoff is also $\tfrac23$, and that voters ranking B and C in their top two vote sincerely. Show that $\lambda = \tfrac12$ supports a non-Duvergerian equilibrium. Give the shares and the winner.
+
 (c) Compare the winner with the head-to-head results, and say what this shows that P1(d) rules out for Duvergerian equilibria.
 
 **P3 (🟡)** *(Exegetical.)* An invented op-ed: "Under proportional representation every vote helps elect someone, so strategic voting becomes impossible. Switch our five-member districts to PR and no voter will ever again have a reason to vote for anyone but her favourite." In 100 words or fewer, name the result the op-ed contradicts, say what it predicts for these districts, and say what the op-ed gets partly right.

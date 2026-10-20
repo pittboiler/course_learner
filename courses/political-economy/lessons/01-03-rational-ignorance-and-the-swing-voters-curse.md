@@ -110,11 +110,13 @@ Vote A, for the alternative you think *less* likely. Your A vote cancels the par
 **P1 (🟢)** *(Formal (a)–(b).)* Two B-partisans and three other independents, each informed with probability $\tfrac12$; uninformed others abstain. You are an uninformed independent with prior $\mu = \tfrac13$. Majority rule, coin-flip ties.
 
 (a) Compute the probability of a correct outcome if you vote A, abstain, or vote B.
+
 (b) Show that voting A is your best action for **every** prior $\mu > 0$. Use the pivotal events, not the totals.
 
 **P2 (🟡)** *(Formal (a)–(b).)* Three independents (you and two others) and one B-partisan. $\mu = \tfrac12$, $q = \tfrac12$. In a symmetric strategy, an uninformed independent votes A with probability $\sigma$ and abstains otherwise; informed independents vote $\omega$.
 
 (a) Find the $\sigma^*$ that makes an uninformed independent indifferent between voting A and abstaining, and check that voting B is worse there.
+
 (b) Compute the probability of a correct outcome when all three independents use $\sigma^*$, and compare it with $\sigma = 0$ and $\sigma = 1$.
 
 **P3 (🟡)** *(Exegetical.)* An invented newspaper column: "A fifth of registered voters skipped the water-bond referendum, and the exit polls show they were the least informed. Laziness, plain and simple. If they had bothered to vote their gut, the result would have been more representative and more likely right."

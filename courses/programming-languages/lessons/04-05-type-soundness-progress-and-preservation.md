@@ -108,21 +108,29 @@ But **progress fails**. The term is not a value. The evaluation rules for $\math
 **P1 (🟢)** For each term, say whether it is a **value**, **steps**, or is **stuck**, and whether it is well-typed in the simply-typed calculus with $\mathsf{Nat}$ and $\mathsf{Bool}$.
 
 (a) $\lambda x{:}\mathsf{Nat}.\ x\,\overline{1}$
+
 (b) $(\lambda x{:}\mathsf{Nat}.\ x)\ \overline{4}$
+
 (c) $\mathsf{true}\ \overline{5}$
+
 (d) $\mathsf{if}\ \mathsf{true}\ \mathsf{then}\ \overline{1}\ \mathsf{else}\ \mathsf{false}$
 
 **P2 (🟡)** For each proposed change to a sound language, say which lemma breaks (progress, preservation, or neither) and give a one-line witness term.
 
 (a) Add a typing rule letting any value of type $\mathsf{Bool}$ be used where $\mathsf{Nat}$ is expected, with no new evaluation rule.
+
 (b) Add an evaluation rule $\overline{n} + \mathsf{true} \to \overline{n}$, with no new typing rule.
+
 (c) Add $\mathsf{fix}$ with the rule from [Lesson 4.1](04-01-the-simply-typed-lambda-calculus.md), plus the evaluation rule $\mathsf{fix}\ e \to e\ (\mathsf{fix}\ e)$.
 
 **P3 (🔴)** A designer adds a `head` operation on lists with the typing rule $\dfrac{\Gamma \vdash e : [\tau]}{\Gamma \vdash \mathsf{head}\ e : \tau}$ and the evaluation rule $\mathsf{head}\ (v :: vs) \to v$, saying nothing about the empty list.
 
 (a) State which lemma fails, and give the witness term.
+
 (b) Give three distinct repairs a real language could make, and name a language that takes each.
+
 (c) One of your repairs keeps the type $\tau$ and one changes it. State which, and say what the change costs the caller.
+
 (d) A fourth "repair" is to leave the behaviour undefined, as C does for reading past an array. State precisely what this does to the soundness theorem — is the language sound, unsound, or is the question altered? Answer in two sentences.
 
 <details>
@@ -187,6 +195,7 @@ What C actually does is narrow the theorem's scope: the standard's guarantees ap
 **From Lesson 2.2 (Big-step semantics and the environment model):** Big-step semantics cannot distinguish a divergent program from a stuck one — both simply have no derivation — and Example 2 there argued this is structural rather than repairable.
 
 (a) State why the soundness theorem of this lesson cannot be formulated in big-step style, referring to what its statement quantifies over.
+
 (b) A colleague proposes proving soundness in big-step form as: "if $\vdash e : \tau$ and $e \Downarrow v$ then $\vdash v : \tau$." State whether this is provable, and what it fails to rule out.
 
 <details>

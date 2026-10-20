@@ -114,13 +114,17 @@ $$k = 1 - 2.25\,(1 - 0.5) = -0.125 < 0.$$
 ## Problems
 
 **P1 (🟢)** A ray travelling in direction $(1, -1, 0)/\sqrt2$ hits a mirror floor with normal $(0, 1, 0)$.
+
 (a) Compute the reflected direction.
+
 (b) Verify that the angle of incidence equals the angle of reflection.
 
 **P2 (🟡)** (a) A ray in air hits still water ($\eta_t = 1.33$) at $60°$ from the normal; take $\mathbf{d} = (\sin 60°,\ -\cos 60°,\ 0)$ and $\mathbf{n} = (0, 1, 0)$. Compute $k$, the refracted direction and its angle, and Schlick's $F$.
+
 (b) A ray *inside* the water travels in the same direction $\mathbf{d}$ but upward, hitting the surface from below at $60°$. Does it escape? Compare with the critical angle.
 
 **P3 (🔴)** (a) Prove that a ray refracted into a solid glass sphere can never undergo total internal reflection at the point where it next meets the sphere's surface.
+
 (b) Every glass interface reflects $F = 0.04$ and transmits $0.96$; the maximum depth is 5 (the primary hit is depth 1); branches with accumulated weight below $0.01$ are pruned. How many hit nodes does one ray tree contain, and how does that compare with the unpruned tree? Would a threshold of $0.001$ change the answer?
 
 <details>
@@ -165,8 +169,11 @@ With a threshold of $0.001$: two reflections ($0.0016$, then $0.0016 \times 0.96
 ## Flashback
 
 **From Lesson 3.3 (ray–object intersection):** A ray starts at $(1, 3, 2)$ with **unnormalized** direction $(0, -1, -1)$. A sphere has centre $(1, 0, -1)$ and radius $1.5$.
+
 (a) Compute $A$, $B$, $C$ and the discriminant.
+
 (b) Find both roots, the entry point and its normal.
+
 (c) How far, in world units, is the entry point from the ray's origin?
 
 <details>

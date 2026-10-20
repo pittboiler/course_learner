@@ -105,6 +105,7 @@ So $\rho_r$ is $10.75/2\approx5.4$ times what photons alone would give. That ext
 <summary>Solutions</summary>
 
 **P1**
+
 (a) $T=(1+z)T_0=1101\times2.725\ \mathrm{K}=3000\ \mathrm{K}$ (to two significant figures). Recombination is a few thousand kelvin — cool enough for hydrogen to hold onto its electron.
 
 (b) $1\ \mathrm{MeV}=10^6\ \mathrm{eV}$, so $T=10^6\times1.16\times10^4\ \mathrm{K}=1.16\times10^{10}\ \mathrm{K}\approx1.2\times10^{10}\ \mathrm{K}$. Cosmic time from the rule: $t\approx(1)^{-2}\ \mathrm{s}=1\ \mathrm{s}$.

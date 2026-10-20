@@ -85,6 +85,7 @@ Top row: in **cis**, the two blue A ligands are $90^\circ$ apart (adjacent); in 
 **P2 (🟡)** Enumerate all stereoisomers of octahedral $\ce{[Cr(NH3)3(NO2)3]}$. Name the type of isomerism, and state whether any isomer is chiral. (Bonus: name one *structural* isomer this formula could also have, using the ambidentate $\ce{NO2}$.)
 
 **P3 (🔴)** Of the three complexes below, identify which are optically active (chiral). Justify each with a symmetry argument.
+
 (a) $\ce{[Co(en)3]^3+}$  (b) *cis*-$\ce{[Co(en)2Cl2]^+}$  (c) *trans*-$\ce{[Co(en)2Cl2]^+}$
 
 <details>

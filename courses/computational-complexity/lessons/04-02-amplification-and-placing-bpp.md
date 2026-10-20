@@ -160,7 +160,9 @@ If additionally $\mathsf{BPP}\subseteq\mathsf{NP}$, then by closure under comple
 **From Lesson 4.1 (randomness as a resource):** For each algorithm, name the class among $\mathsf{RP}$, $\mathsf{coRP}$, $\mathsf{BPP}$, $\mathsf{ZPP}$ for the stated language, and say on which side it is certain.
 
 (a) Language ISOMORPHIC-GRAPHS; algorithm: guess a random permutation and accept iff it is an isomorphism.
+
 (b) Language $L$; algorithm: run a $\mathsf{ZPP}$ machine for twice its expected time and output "reject" on timeout.
+
 (c) Language $L$; algorithm: flip a fair coin and accept iff it comes up heads.
 
 <details>

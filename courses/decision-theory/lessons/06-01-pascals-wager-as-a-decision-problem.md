@@ -96,19 +96,25 @@ which is $\infty - \infty$: undefined. The same holds for $W_2$, and $EU(A) = -\
 **P1 (🟢)** *(Formal (a)–(c).)* Take $H = 6{,}000$, $f_1 = 70$, $f_2 = 0$, $f_3 = 100$.
 
 (a) Find the threshold credence $p^*$ as an exact fraction.
+
 (b) Your credence is $p = 0.001$. For which $H$ (keeping the $f$'s fixed) does wagering win?
+
 (c) Is there any finite $H$ for which wagering wins at every positive credence? One sentence, with the reason.
 
 **P2 (🟡)** *(Formal (a)–(b) · Exegetical (c).)* Two jealous gods. States $G_1$, $G_2$, $N$ (neither) with credences $0.02$, $0.01$, $0.97$. Each god gives its own worshippers $H$ and gives everyone else $-10{,}000$. Worshipping either god yields 90 if neither exists; abstaining ($A$) yields 100.
 
 (a) With $H = 10{,}000$, compute $EU(W_1)$, $EU(W_2)$ and $EU(A)$, and give the verdict.
+
 (b) Now let $H = \infty$ with the punishment still $-10{,}000$. Compute the three expected utilities. What happened to the 2 : 1 credence ratio?
+
 (c) Does any act dominate another in this matrix? Say in two sentences which of Pascal's three argument forms survives the third column and which does not.
 
 **P3 (🔴, optional)** *(Formal (a) · Exegetical (b) · Evaluative (c).)* Strategy $D$: roll a fair die and wager for God only if it shows 6.
 
 (a) With P1's payoffs and $p = 0.01$, compute $EU(W)$, $EU(A)$ and $EU(D)$ exactly. Then set $H = \infty$ and compare $EU(W)$ with $EU(D)$.
+
 (b) Which vNM axiom does an outcome of infinite utility violate, and which axiom requires $W \succ D$ once $W \succ A$? Three sentences.
+
 (c) A wagerer replies: rank strategies first by their probability of salvation, and use finite expected utility only to break ties. Does this escape the mixed-strategy objection, and what does it give up? 80 words or fewer. Any verdict passes.
 
 <details>
@@ -194,7 +200,9 @@ So $W \succ D \succ A$, and $EU(W) - EU(D) = \tfrac56(129.3 - 99) = 25.25$. With
 **From Lesson [5.3](05-03-population-ethics-total-and-average.md) (Population ethics I: total and average):** *(Formal (a)–(b) · Exegetical (c).)* Population $P$ is 400 people at welfare 50. Population $Q$ is 600 people at $-20$, lives worse than none. In each case the option is to add 100 new people, all at welfare $v$, leaving everyone else unchanged.
 
 (a) Take $v = 30$. Using the marginal rule for averages, find the change in $P$'s average and in $P$'s total.
+
 (b) For $P$, and then for $Q$, find every $v$ at which the total view and the average view strictly disagree about adding the 100, and say which view approves.
+
 (c) Now take $v = -10$ for both populations. Give the average view's verdict on each, and name the two principles 5.3 says the total view keeps and the average view gives up, tying each to one of these verdicts. Two sentences.
 
 <details>

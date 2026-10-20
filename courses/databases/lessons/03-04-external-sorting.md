@@ -104,22 +104,31 @@ The rule is the same as Example 1's, applied one level up: halving the run count
 **P1 (🟢)** A file has $N = 108$ pages and the buffer has $B = 4$ frames.
 
 (a) Give the number of runs produced by pass 0 and their length.
+
 (b) Give the merge fan-in.
+
 (c) Give the number of runs after each merge pass, until one remains.
+
 (d) Give the total number of passes and the total I/O cost.
 
 **P2 (🟡)** A `trip` table occupies 90,000 pages.
 
 (a) Give the smallest $B$ for which the sort completes in two passes. Show the inequality you solved.
+
 (b) Give the sort cost at that $B$ and at $B - 1$, and the percentage saved by the single extra frame.
+
 (c) Give the smallest $B$ for which the sort completes in one pass, and say what that means physically.
+
 (d) At $B = 150$, give the number of passes with ordinary run generation and with replacement selection, and state whether replacement selection saves a pass.
 
 **P3 (🔴, optional)** A query is `SELECT DISTINCT carrier_id FROM shipment ORDER BY carrier_id`, over a `shipment` table of 200,000 pages with 25 rows per page. There are 400 distinct carriers. The buffer has $B = 300$ frames.
 
 (a) Give the cost of answering it by sorting the whole table, and the number of passes.
+
 (b) An unclustered B⁺-tree index on `carrier_id` exists, with 250 entries per index page and height 3. Give the cost of an index-only scan of its leaves, and say whether the result needs sorting afterwards.
+
 (c) The optimizer instead considers hashing: read the table once, keep a hash table of distinct `carrier_id` values in memory, then sort the result. Give the total cost, and state the condition on the number of distinct values that makes this plan legal.
+
 (d) Rank the three plans and state which single fact about the data makes the winner win. Then give a change to the data that would reverse the ranking of your top two.
 
 <details>
@@ -204,8 +213,11 @@ So the ranking between them does not merely swap — the hash plan stops being a
 **From Lesson 3.3 (hashing & choosing an access path):** An extendible hash index has global depth 4. A bucket at local depth 2 holds 2 keys and is full; buckets hold 2 keys.
 
 (a) Give the number of directory entries pointing at that bucket.
+
 (b) The bucket overflows. State whether the directory doubles, and give the local depths afterwards.
+
 (c) A different bucket, at local depth 4, then overflows. Give the new global depth and directory size.
+
 (d) Give the lookup cost in page reads before and after (c).
 
 <details>

@@ -190,13 +190,17 @@ $$\sigma \approx \sqrt{0.06^{2} + 0.055^{2}} = 0.081 \;\Longrightarrow\; \mathbf
 **P1 (🟢)** A 200 m marine section yields four index taxa, with ranges measured in metres above the base: **A** 0–55, **B** 30–95, **C** 80–150, **D** 130–200.
 
 (a) A sample contains B and C, and neither A nor D. What stratigraphic interval is it from, and how wide is that interval?
+
 (b) How many distinguishable assemblage zones do these four taxa define in this section?
+
 (c) Which interval is worst resolved, and what range would a fifth taxon need in order to fix it?
 
 **P2 (🟡)** A shelf succession 340 m thick makes up exactly one stage, whose base and top are calibrated at 166.1 and 161.5 Ma. Nine ammonite zones are recognized within it.
 
 (a) Find the mean sedimentation rate and the time represented by a single 12 cm bed.
+
 (b) Find the mean duration and mean thickness of one ammonite zone.
+
 (c) Worker X calls the 12 cm bed "a geologically instantaneous event." Worker Y claims to date it to $\pm 10\ \text{kyr}$ from the ammonites. Evaluate both claims, and say what would actually be needed to reach $\pm 10\ \text{kyr}$ here.
 
 **P3 (🔴, on scientific practice)** Two sections are proposed as the GSSP for the base of a new stage.
@@ -205,7 +209,9 @@ $$\sigma \approx \sqrt{0.06^{2} + 0.055^{2}} = 0.081 \;\Longrightarrow\; \mathbf
 - **Section Y:** the historical type area where the stage was originally named; a shallow-marine sandstone with sparse benthic molluscs; a thin disconformity about 1 m below the proposed level; currently inside a working quarry.
 
 (a) Choose one and justify it criterion by criterion. Does the historical priority of Section Y count for anything?
+
 (b) The proposed level is the FAD of one planktonic foraminifer. State the risk this carries and how the other features of Section X mitigate it.
+
 (c) Ten years after ratification, improved U–Pb dating moves the boundary's age from 47.8 to 47.3 Ma. For each of the following, state whether it changes: the GSSP itself; the boundary's physical position in Section X; which fossil species are assigned to the stage; the published age of the boundary; the correlation of a distant section that was matched using the magnetic reversal; the correlation of a distant section that was matched using a radiometric age of 47.8 Ma.
 
 <details>

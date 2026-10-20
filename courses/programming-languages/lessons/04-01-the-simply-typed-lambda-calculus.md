@@ -101,21 +101,29 @@ $$(\mathsf{Nat} \to \mathsf{Nat}) \to \mathsf{Nat} \to \mathsf{Nat}$$
 **P1 (🟢)** Give the type of each term, or say which rule's requirement fails.
 
 (a) $\lambda x{:}\mathsf{Bool}.\ \lambda y{:}\mathsf{Nat}.\ x$
+
 (b) $\lambda f{:}\mathsf{Nat}\to\mathsf{Bool}.\ \lambda x{:}\mathsf{Nat}.\ f\,x$
+
 (c) $\lambda f{:}\mathsf{Nat}\to\mathsf{Bool}.\ \lambda x{:}\mathsf{Nat}.\ f\,(f\,x)$
+
 (d) $\lambda g{:}(\mathsf{Nat}\to\mathsf{Nat})\to\mathsf{Nat}.\ \lambda h{:}\mathsf{Nat}\to\mathsf{Nat}.\ g\,h$
 
 **P2 (🟡)** Consider $\lambda x{:}\tau.\ x\,x$.
 
 (a) Write the equation that $\tau$ must satisfy for $\mathsf{T\text{-}App}$ to apply to the body.
+
 (b) Argue that no simple type satisfies it. Use a measure on types, and say what the measure is.
+
 (c) Name one term from Module 3 that is therefore untypable, and state which theorem of this lesson guarantees it must be.
 
 **P3 (🔴)** A designer adds the rule $\dfrac{\Gamma \vdash e : \tau \to \tau}{\Gamma \vdash \mathsf{fix}\ e : \tau}$ to the simply-typed calculus.
 
 (a) Give the type of $\mathsf{fix}\ (\lambda x{:}\mathsf{Nat}.\ x)$ and say what it evaluates to.
+
 (b) Use (a) to state precisely which theorem of this lesson is now false, and why the counterexample is decisive.
+
 (c) The designer argues the rule is harmless because "it only allows what recursion already allows in any real language". Assess this: state what the language gains and what it loses, and name the property from [Lesson 4.5](04-05-type-soundness-progress-and-preservation.md) that it *keeps*.
+
 (d) Explain in one sentence why a total language such as Agda cannot simply adopt this rule, referring to what such languages are for.
 
 <details>
@@ -192,6 +200,7 @@ The counterexample is decisive because strong normalization is a universally qua
 Annotate and type these in the simply-typed calculus.
 
 (a) Give types for $\mathsf{tru}$ and $\mathsf{fls}$ that make them the *same* type, and state what that type is with both branches at type $\tau$.
+
 (b) State the restriction this imposes on a conditional, compared with what you can write in the untyped calculus, and name the lesson that lifts it.
 
 <details>

@@ -110,6 +110,7 @@ This is **larger** than $\ln2/\ln3\approx0.63$. Right direction: you remove a *s
 **P2** (a) Total removed length $=\sum_{n\ge1}(\text{number of pieces removed at stage }n)\times(\text{length each})$. At stage $n$ there are $2^{n-1}$ surviving intervals, each donating one removed piece of length $4^{-n}$:
 $$\sum_{n=1}^{\infty}2^{n-1}\cdot 4^{-n}=\sum_{n=1}^{\infty}\frac{2^{n-1}}{4^{n}}=\frac12\sum_{n=1}^{\infty}\frac{2^{n}}{4^{n}}=\frac12\sum_{n=1}^{\infty}\left(\frac12\right)^{n}=\frac12\cdot 1=\frac12.$$
 So the remaining set has length $1-\tfrac12=\tfrac12>0$.
+
 (b) Its box-counting dimension must be **$d=1$**. A set of positive length (positive $1$-D Lebesgue measure) needs at least $\sim(\text{length})/\epsilon$ boxes to cover it, so $N(\epsilon)\gtrsim (1/2)/\epsilon\propto\epsilon^{-1}$, forcing $d\ge1$; and it sits inside $[0,1]$ so $d\le1$. Hence $d=1$ — even though the set is nowhere-dense and totally disconnected (looks like a dust, has empty interior). Moral: positive measure pins the dimension to the integer, so fractional dimension is a *measure-zero* phenomenon.
 
 **P3** Order the exponents descending: $\lambda_1=0.906,\ \lambda_2=0,\ \lambda_3=-14.57$. Partial sums: $\lambda_1=0.906\ge0$; $\lambda_1+\lambda_2=0.906\ge0$; $\lambda_1+\lambda_2+\lambda_3=0.906-14.57=-13.66<0$. The largest $k$ with a nonnegative leading sum is $k=2$. Then

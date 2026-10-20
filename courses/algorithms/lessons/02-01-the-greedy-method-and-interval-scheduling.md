@@ -146,7 +146,9 @@ $$[1,3),\ [2,5),\ [4,7),\ [1,8),\ [6,9),\ [8,10),\ [9,11).$$
 **P2 (🟡)** Three proposed rules. For each, either give a counterexample with at most four intervals (showing greedy's answer and the true optimum) or prove it correct. **At least one of them is correct** — decide which before you start hunting for counterexamples.
 
 (a) **Longest interval first.**
+
 (b) **Latest start time first.**
+
 (c) "Sort by finish time as usual, but among ties in finish time prefer the *longer* interval." 
 
 **P3 (🔴)** The **fewest-conflicts** rule repeatedly picks the remaining interval that overlaps the fewest other remaining intervals, discards everything overlapping it, and repeats. Consider this instance:

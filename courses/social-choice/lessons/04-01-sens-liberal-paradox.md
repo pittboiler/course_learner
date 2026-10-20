@@ -101,6 +101,7 @@ This is where (U) bites. The theorem is an existence claim: one profile in the d
 **P1 (🟢) *(Formal (a)–(b).)*** One free place in a winter sea-swimming course: $k$ (Kit takes it), $l$ (Lou takes it), $z$ (nobody). Kit is decisive over $\{k, z\}$, Lou over $\{l, z\}$; Mo has no rights. Rankings: Kit $z \succ k \succ l$; Lou $k \succ l \succ z$; Mo $k \succ z \succ l$.
 
 (a) List every strict social preference that (ML) and (WP) force, and show that the choice set from $\{k, l, z\}$ is empty.
+
 (b) Mo switches to $l \succ k \succ z$. Under Example 2's minimal liberal-Paretian rule, find the choice set from $\{k, l, z\}$, and show that $P$ is now acyclic but not transitive. In one sentence, say why this does not contradict Sen's theorem.
 
 **P2 (🟡) *(Formal.)*** Complete the proof: Case 2. Individual $i$ is decisive over $\{x, y\}$ and $j$ over $\{z, w\}$, all four distinct. Write down a ranking for $i$, a ranking for $j$, and a condition on every other voter's ranking, and derive a cycle step by step. Then say in one sentence why this case needs two Pareto edges where Case 1 needed one.
@@ -165,6 +166,7 @@ Given this orientation both individual rankings are forced: $i$ needs $w \succ x
 **From Lesson [3.3](03-03-single-peakedness-black-and-moulin.md) (Single-peakedness: Black and Moulin):** *(Formal (a) · Exegetical (b).)* Three voters are single-peaked on $[0, 10]$ with peaks 2, 5 and 9, and every report must lie in $[0, 10]$. A committee proposes the **mean rule**: the outcome is the average of the three reported peaks.
 
 (a) Find the truthful outcome. Show that the voter with peak 2 gains by reporting 0, and find the report that gives the voter with peak 5 exactly her peak.
+
 (b) The mean rule is peak-only and anonymous. In two sentences: what does Moulin's theorem then tell you about it, and which step of 3.3's strategy-proofness proof fails for it?
 
 <details>

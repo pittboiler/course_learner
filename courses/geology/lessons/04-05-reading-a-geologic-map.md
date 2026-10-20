@@ -219,8 +219,11 @@ $$\text{depth} = z_P - z_{oc} + L\tan\delta = 395 - 470 + 1000(0.2679) = -75 + 2
 **P3 (🔴)** A map covers 10 km east–west of nearly flat plateau. Units, oldest first: **Pms**, **Trl**, **Jss**, **Ksh**. Strike-and-dip symbols read $20^\circ$ east everywhere and all contacts run north–south. Traversing east you cross Pms, then Trl, then at easting 6.0 km a heavy north–south line with **hachures on its eastern side**; east of that line you are in Ksh. **Jss is present throughout the region but appears nowhere on this traverse.** The fault dips $62^\circ$ east. Restoring the footwall data across the fault shows that the Jss/Ksh contact, which crops out at easting 6.0 km on the hanging wall, would have cropped out at easting 8.2 km had there been no fault. Jss is 400 m thick regionally. A stream valley 150 m deep runs east across the map, falling 40 m per kilometre; where the Pms/Trl contact crosses it, the trace swings 460 m east of its interfluve position. An oval granite body with a 300 m contact aureole straddles the fault trace; the aureole is developed in **both** blocks and the granite is not offset.
 
 (a) Classify the fault, give the stress regime, and estimate the throw. Then show that this throw is enough to remove Jss from the traverse entirely.
+
 (b) Use the valley crossing to compute the dip of the Pms/Trl contact and compare it with the map symbols.
+
 (c) Give the full order of events, naming the licence for each, and say honestly which pair of events the map cannot order.
+
 (d) A well is to be drilled at easting 4.0 km, where the ground is at 300 m, to test the top of Trl. That contact crosses the 400 m contour at easting 2.8 km. How deep must the well go?
 
 <details>

@@ -112,21 +112,29 @@ The lesson generalizes: **improvement is cheap and evaluation is expensive, and 
 **P1 (🟢)** A two-state MDP has $\gamma = 0.5$. In state $X$ the policy $\pi$ always takes an action with reward $2$ that leads to $Y$; in state $Y$ it always takes an action with reward $-1$ that leads back to $X$.
 
 (a) Run iterative policy evaluation from $V_0(X) = V_0(Y) = 0$ for three sweeps, writing $V_1$, $V_2$, $V_3$.
+
 (b) Solve the two-equation linear system for $V^\pi$ exactly.
+
 (c) State the max-norm error $\lVert V_3 - V^\pi\rVert_\infty$.
 
 **P2 (🟡)** In the $3\times3$ gridworld of the examples, the sweep-2 value table is the one printed in Example 1.
 
 (a) Compute the greedy action(s) at the **bottom-middle** cell using the sweep-2 values.
+
 (b) Compute the greedy action(s) there using the converged $V^\pi$ (bottom row $-22.5, -16, 0$; middle row $-25, -21.5, -16$).
+
 (c) State whether the two agree, and what this illustrates.
+
 (d) At the **top-left corner**, the sweep-2 values give all four actions the value $-3$ except the two wall-bumps, which also give $-3$. State what the greedy step does here and why it is harmless.
 
 **P3 (🔴)** A colleague implements policy iteration but truncates evaluation to exactly **one sweep** per round, starting each round's sweep from the previous round's value estimate rather than from zero.
 
 (a) Write down the combined update this produces, in one line, by substituting the greedy policy into the evaluation sweep.
+
 (b) State which algorithm this is.
+
 (c) The termination proof given in this lesson used "finitely many policies, each strictly better". Explain why that proof does **not** apply to the colleague's version.
+
 (d) State what must be proved instead, and name the property of the update that supplies it.
 
 <details>
@@ -199,7 +207,9 @@ The property that supplies it is that the Bellman optimality operator is a **con
 **From Lesson 1.1 (The RL problem):** An agent's episode produces the reward sequence $R_1 = 3$, $R_2 = -6$, $R_3 = 3$, $R_4 = -6$, repeating that four-step block forever.
 
 (a) Compute $G_0$ at $\gamma = 0.9$. (Use the geometric-series structure rather than summing terms.)
+
 (b) Compute $G_0$ at $\gamma = 0.5$.
+
 (c) The agent may instead take a single action at $t=0$ that ends the episode immediately with reward $-4$. State which $\gamma$ of the two makes that the better choice, and why the answer is not obvious from the sign of the average reward.
 
 <details>

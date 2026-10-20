@@ -228,8 +228,11 @@ $$t = \frac{2.5}{1.28\times10^{-3}} = 1960\ \text{s} = \mathbf{33\ \text{minutes
 ## Problems
 
 **P1 (🟢)** A 75 kg person rests in a sealed room at 36 °C with air fully saturated (100 percent relative humidity). Metabolic heat $M = 105$ W, $W = 0$, $T_{sk} = 35\ ^\circ\text{C}$, $A = 1.8\ \text{m}^2$, $h = 7.0\ \text{W}\,\text{m}^{-2}\,{}^\circ\text{C}^{-1}$, tissue specific heat $c = 3.47\ \text{kJ}\,\text{kg}^{-1}\,{}^\circ\text{C}^{-1}$.
+
 (a) Compute the dry exchange $R + C + K$ with its sign and say which way heat flows.
+
 (b) Justify $E = 0$, then compute the storage rate $S$.
+
 (c) How fast does core temperature rise, in °C per hour, and how long from 37.0 to 39.0 °C?
 
 **P2 (🟡)** A resting person with $T_{sk} = 35\ ^\circ\text{C}$ (saturated vapour pressure at the skin $5.6$ kPa), $A = 1.8\ \text{m}^2$, dry coefficient $h = 7.0\ \text{W}\,\text{m}^{-2}\,{}^\circ\text{C}^{-1}$, evaporative coefficient $h_e = 60\ \text{W}\,\text{m}^{-2}\,\text{kPa}^{-1}$, skin fully wet ($w = 1$). Compare two environments:
@@ -240,12 +243,17 @@ $$t = \frac{2.5}{1.28\times10^{-3}} = 1960\ \text{s} = \mathbf{33\ \text{minutes
 | **B** — swamp | 32 °C | 95 percent | 4.8 kPa |
 
 (a) Compute $R + C + K$ in each, with sign.
+
 (b) Compute the maximum evaporative loss $E_{\max}$ in each.
+
 (c) Compute the total heat-dissipating capacity in each, and state the metabolic heat production above which each becomes untenable. Which environment is more dangerous, and why is the answer not the hotter one?
 
 **P3 (🔴, bridges to 4.3 and to clinical practice)** Two 68 kg men both reach a core temperature of 39.0 °C. Use $c = 3.47\ \text{kJ}\,\text{kg}^{-1}\,{}^\circ\text{C}^{-1}$.
+
 (a) Man 1 has influenza; PGE₂ has moved his set point from 37.0 to 39.0 °C. He shivers and vasoconstricts, giving a net storage rate of 90 W. How long does he take to reach the new set point?
+
 (b) Man 2 is running: metabolic heat 780 W, external work negligible, dry exchange a **gain** of 40 W, evaporation capped at 520 W by humidity. Compute $S$, and the time from a core of 37.2 °C to 40.0 °C.
+
 (c) One is given ibuprofen; one is packed in ice. Assign the treatments, and explain in controller language why swapping them is a mistake in *both* directions.
 
 <details>
@@ -339,7 +347,9 @@ $$t = \frac{660{,}690}{300} = 2202\ \text{s} = \mathbf{37\ \text{minutes}}.$$
 **From Lesson 3.3 (fluid, electrolyte and acid–base balance):** A 60 kg woman sweats 2.4 L over an afternoon and drinks nothing. Take total body water as 50 percent of body mass, split two-thirds intracellular and one-third extracellular; baseline plasma osmolality 285 mOsm/kg; sweat $[\text{Na}^+] = 40$ mmol/L, so with its accompanying anion the sweat has an effective osmolality of about 80 mOsm/kg. Treat 1 L of body water as 1 kg.
 
 (a) Give her compartment volumes before the loss.
+
 (b) Compute the new osmolality and the new ICF and ECF volumes, and say how the 2.4 L deficit is split between the compartments.
+
 (c) She then drinks 2.4 L of plain water. Compute the resulting osmolality and name the risk if she over-drinks — including the hormonal reason her body will not simply excrete the excess.
 
 <details>

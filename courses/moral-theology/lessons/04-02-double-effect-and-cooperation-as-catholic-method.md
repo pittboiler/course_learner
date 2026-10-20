@@ -96,8 +96,11 @@ The strain is in the word "cooperation." One cannot contribute causally to an ac
 **P1 (🟢)** *(Exegetical)* Four invented agents, each connected to the same elective abortion at a hospital. Classify each as **principal agent**, **explicit formal**, **implicit formal**, or **material** cooperation (for material, say immediate or mediate, proximate or remote). Then say whether the act is licit, illicit, or licit only given a proportionate reason. **Two sentences each.**
 
 (a) The surgeon performs the abortion because the hospital rota assigns it to him, telling colleagues he disapproves.
+
 (b) The patient's boyfriend urged the abortion and paid for it, because he does not want a child.
+
 (c) The hospital administrator personally disapproves of abortion, but to win a government contract he writes and signs the policy under which the hospital schedules elective abortions.
+
 (d) A cleaner sterilizes the operating theatres each night, including the one used for abortions among many other surgeries, because it is her job.
 
 **P2 (🟡)** *(Exegetical)* An invented case. A storm has loaded a slope above a village with snow. The rescue chief can set off a controlled avalanche now, into an empty valley, or let a larger slide come down naturally within the hour onto the occupied village road. A lone skier who ignored the closure is in the valley and cannot be warned. The controlled slide will almost certainly kill him.

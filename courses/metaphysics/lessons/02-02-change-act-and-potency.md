@@ -140,7 +140,9 @@ Now the pressure. The critic grants all that and asks what the principle is stil
 **P1 (🟢) *(Exegetical.)*** For each case, name the subject, the potency being actualized, what is in act and doing the actualizing, and say whether the change is accidental or substantial. One or two sentences each.
 
 (a) A cold iron bar is left in a forge and glows red.
+
 (b) A woman who learned Greek years ago wakes, opens Homer, and reads.
+
 (c) A lump of sodium is dropped into water and is consumed, leaving sodium hydroxide and hydrogen.
 
 **P2 (🟡) *(Exegetical (a) · Evaluative (b).)*** An invented passage from an essay on careers:

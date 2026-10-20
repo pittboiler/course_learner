@@ -96,9 +96,13 @@ Mechanically, Article 9 bans only direct purchases, and these were indirect. Whe
 **P1 (🟢) *(Exegetical (a)-(b).)*** Diagnose. Clauses from an **invented** bill to reform Wexland's monetary authority:
 
 > (1) The Monetary Board's objective is price stability. The Finance Minister shall each year specify the inflation rate that constitutes price stability.
+>
 > (2) The Board alone sets the policy interest rate.
+>
 > (3) Board members serve six-year terms, staggered so that one expires each year, and may be removed only for incapacity or serious misconduct as found by the Supreme Court.
+>
 > (4) The Board's budget is approved each year by the Finance Ministry.
+>
 > (5) In circumstances the Finance Minister declares exceptional, the Minister may direct the Board's interest-rate decisions for as long as the Minister thinks necessary.
 
 (a) For clauses 1, 2 and 3, say which kind of independence each grants or withholds: goal, instrument, or protection of tenure. One line each. (b) Name the two clauses that most weaken the Board's independence, and say how each does. Then name two safeguards in the Bank of England Act's reserve power (s.19) that clause 5 lacks. 80 words or fewer.

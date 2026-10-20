@@ -110,14 +110,19 @@ Notice what the three drop-tests actually were: three counterexamples. That patt
 **P1 (🟢)** Consider a relation `enrollment(student_id, course_id, term, grade)` recording that a student took a course in a given term and received a grade, where a student may retake the same course in a later term but not twice in one term.
 
 (a) Is `{student_id, course_id}` a superkey? Answer yes or no and, if no, give a two-row instance that proves it.
+
 (b) Name the candidate key.
+
 (c) How many attributes are in the smallest superkey that *contains* `grade`?
 
 **P2 (🟡)** A schema has `book(isbn, title, pub_id, year, price)` with `pub_id` a foreign key to `publisher(pub_id, name, city)`. Classify each of the following operations as **permitted** or **rejected by referential integrity**, and for each rejection name the single row that causes it.
 
 (a) Insert `book('B9', 'Northwind', 'ZZZ', 2024, 20.0)` when `publisher` holds only RVN, HOL and KIN.
+
 (b) Insert `book('B9', 'Northwind', NULL, 2024, 20.0)`.
+
 (c) Delete the `publisher` row `KIN`, when no book has `pub_id = 'KIN'`.
+
 (d) Delete the `publisher` row `RVN`, when three books have `pub_id = 'RVN'`.
 
 **P3 (🔴, optional)** Relations on three attributes $R(A,B,C)$.

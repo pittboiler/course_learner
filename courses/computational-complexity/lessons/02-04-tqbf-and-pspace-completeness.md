@@ -102,7 +102,9 @@ The reason this is the right example for PSPACE: notice that **evaluating the po
 **P1 (🟢)** Let $\varphi = (x_1 \vee x_2 \vee x_3) \wedge (\lnot x_1 \vee \lnot x_2 \vee \lnot x_3)$. Decide the truth of each quantified formula, and for each give either the prover's winning first choice or the adversary's.
 
 (a) $\forall x_1 \forall x_2 \exists x_3\, \varphi$.
+
 (b) $\exists x_1 \exists x_2 \forall x_3\, \varphi$.
+
 (c) $\forall x_1 \exists x_2 \forall x_3\, \varphi$.
 
 **P2 (🟡)** In the generalized geography graph $0\to1$, $0\to2$, $1\to3$, $2\to4$, $4\to5$, add the single edge $3\to 0$. (a) Does Player 1 still win, and by which opening? (b) Explain in one sentence why the no-revisiting rule is what makes the game finite. (c) Give the number of vertices a play can visit at most, and say what that bound implies about which complexity class the game sits in.
@@ -156,7 +158,9 @@ With the $\forall$ trick: $|\phi_i| = |\phi_{i-1}| + O(n^k)$, which solves to $|
 **From Lesson 2.2 (the polynomial hierarchy):** Place each problem in the tightest level among $\mathsf{P}, \Sigma_1^p, \Pi_1^p, \Sigma_2^p, \Pi_2^p$ that its natural definition yields, and give the quantifier form.
 
 (a) $\{\langle G, k\rangle : G$ has a dominating set of size $\le k\}$.
+
 (b) $\{\langle\varphi\rangle : \varphi$ is satisfiable and every satisfying assignment sets $x_1$ true$\}$.
+
 (c) $\{\langle G\rangle : $ the diameter of $G$ is at most 3$\}$.
 
 <details>

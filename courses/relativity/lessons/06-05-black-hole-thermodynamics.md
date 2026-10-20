@@ -90,8 +90,11 @@ $$T_H \approx 6.2\times10^{-8}\ \text{K}\times\frac{M_\odot}{M}.$$
 **P2 (🟡)** Compute the Hawking temperature of a **primordial** black hole of mass $M = 10^{12}$ kg (a mountain's mass squeezed to nuclear size). Compare it to the solar-mass value and to the 2.7 K CMB. Roughly, $k_B T_H$ in this case corresponds to what particle-physics energy scale (in MeV)? *(Hint: use the scaling $T_H \approx 6.2\times10^{-8}\,\text{K}\times M_\odot/M$ with $M_\odot = 1.99\times10^{30}$ kg; recall $k_B \times 1.16\times10^{10}\,\text{K} = 1$ MeV.)*
 
 **P3 (🔴, optional)** *The $M^3$ evaporation law.* Model the hole as a blackbody of area $A \propto M^2$ radiating at $T_H \propto 1/M$, so its luminosity (Stefan–Boltzmann) is $L = \sigma A T_H^4$.
+
 (a) Show $L \propto 1/M^2$, and hence that $c^2\,dM/dt = -L$ gives $M^2\,dM = -\text{const}\cdot dt$.
+
 (b) Integrate from initial mass $M_0$ to $0$ to show the lifetime is $\tau = C M_0^3$ for a constant $C$, i.e. $\tau \propto M_0^3$.
+
 (c) The full result is $\tau = \dfrac{5120\,\pi G^2 M_0^3}{\hbar c^4}$. Estimate the mass of a primordial hole whose lifetime equals the age of the universe, $\tau \approx 13.8\ \text{Gyr} = 4.35\times10^{17}\ \text{s}$ — i.e. one just finishing its evaporation *now*.
 
 <details>

@@ -93,22 +93,31 @@ Nothing failed except the assumption. Under crash-stop the argument was airtight
 **P1 (🟢)** Classify each of the following in the lattice, naming the model **and** the feature of the description that forces that classification.
 
 (a) A node returns the correct value for every request but takes 40 seconds to do it, in a system whose timeout is 2 seconds.
+
 (b) A node writes its state to disk, is power-cycled, and rejoins the cluster with the state as of its last flush.
+
 (c) A node sends `commit` to two peers and `abort` to a third, in the same round of the same protocol.
+
 (d) A load balancer's health check passes while every real request to the node returns a 500 error.
 
 **P2 (🟡)** A service is designed to tolerate $f$ simultaneous faults.
 
 (a) Give the minimum node count for $f = 2$ under crash faults, and under Byzantine faults.
+
 (b) A cluster has 7 nodes. Give the largest $f$ it tolerates under each model.
+
 (c) A team runs 4 nodes and claims it tolerates one Byzantine fault. State whether the claim holds, and give the largest node count for which the same claim would be false.
+
 (d) The same team argues that since Byzantine faults are rare, 4 nodes "tolerate one fault in practice". State precisely what their 4-node cluster does tolerate, and what it does not.
 
 **P3 (🔴, optional)** A two-node primary-backup pair uses this failover rule: *if the backup does not hear a heartbeat from the primary for 5 seconds, the backup promotes itself to primary and begins accepting writes.*
 
 (a) Give a crash-stop execution in which this rule behaves correctly, as an ordered list of steps.
+
 (b) Give a **network-partition** execution in which the same rule produces two primaries, as an ordered list of steps, and state the resulting damage to the data.
+
 (c) State why no choice of the 5-second timeout — larger or smaller — eliminates the problem in (b).
+
 (d) Give a change to the system that does eliminate it, and state what the change costs when only one node is up.
 
 <details>

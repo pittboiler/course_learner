@@ -115,22 +115,31 @@ $$(s_1, \text{a}, R{=}2, s_2),\quad (s_2, \text{b}, R{=}3, \text{terminal}).$$
 The action selected at $s_2$ was $\text{b}$.
 
 (a) Compute the update for $(s_1, \text{a})$, giving the target explicitly.
+
 (b) Compute the update for $(s_2,\text{b})$.
+
 (c) State what $Q(s_1,\text{a})$ would become if the *same* episode were replayed a second time with the updated values.
+
 (d) Explain why the first episode taught $(s_1,\text{a})$ nothing about the $+3$.
 
 **P2 (🟡)** Using Example 1's numbers ($Q(s,a)=1$, $Q(s',a_1)=10$, $Q(s',a_2)=3$, $R=2$, $\gamma = 0.9$, $\alpha = 0.5$, $\varepsilon = 0.2$, two actions):
 
 (a) Compute the expected SARSA target under the $\varepsilon$-greedy policy, and confirm it matches the table.
+
 (b) Compute the variance of SARSA's target across the two possible choices of $a'$.
+
 (c) State the variance of Expected SARSA's target, and explain the difference in one sentence.
+
 (d) Now let $\varepsilon \to 0$. State what Expected SARSA's target tends to, and which algorithm it becomes.
 
 **P3 (🔴)** An engineer runs fixed-$\varepsilon$ SARSA ($\varepsilon = 0.1$) on a task, is satisfied with the learned $Q$, and deploys the agent with exploration **switched off** — acting fully greedily with respect to the learned $Q$.
 
 (a) State whether the deployed greedy policy is optimal for the task, and why the answer is not simply "yes, greedy on $Q$ is optimal".
+
 (b) Give a qualitative description of a task where this deployment would perform *better* than the agent did during training, and one where it would perform *worse*.
+
 (c) In the trap MDP of [Lesson 2.2](02-02-monte-carlo-control.md) (action $A$ gives $+1$ and terminates; action $B$ gives $0$ then $+10$ and terminates), compute what fixed-$\varepsilon$ SARSA converges to for both action-values, and what the deployed greedy policy then earns.
+
 (d) State the general lesson about the relationship between the policy you train under and the policy you deploy.
 
 <details>
@@ -203,8 +212,11 @@ On-policy methods learn the value of the behaviour policy; if you then deploy so
 **From Lesson 2.2 (Monte Carlo control):** An agent runs $\varepsilon$-greedy Monte Carlo control with $\varepsilon = 0.25$ in a state $s$ with three actions, having learned $Q(s,a_1) = 8$, $Q(s,a_2) = 6$, $Q(s,a_3) = -2$.
 
 (a) Write the three action probabilities.
+
 (b) Compute $\sum_a \pi(a\mid s)Q(s,a)$, the expected value of one selection.
+
 (c) Compute the exploration cost — how far this falls short of $\max_a Q(s,a)$.
+
 (d) A colleague proposes cutting the cost by removing $a_3$ from the action set, since it is clearly bad. State the risk in one sentence, and name the situation in which the colleague would be right.
 
 <details>

@@ -141,8 +141,11 @@ This is why 3NF's escape hatch exists. It is not a weaker standard settled for o
 **P1 (🟢)** $R(A, B, C)$ with $F = \{A \to B\}$. For each decomposition, state **lossless** or **lossy**, and give the closure that decides it.
 
 (a) $\{AB, AC\}$
+
 (b) $\{AB, BC\}$
+
 (c) $\{AC, BC\}$
+
 (d) $\{ABC, AB\}$
 
 **P2 (🟡)** $R(\text{emp}, \text{dept}, \text{manager}, \text{budget})$ with
@@ -150,15 +153,21 @@ This is why 3NF's escape hatch exists. It is not a weaker standard settled for o
 $$H_1: \text{emp} \to \text{dept} \qquad H_2: \text{dept} \to \text{manager}, \text{budget}$$
 
 (a) Give the candidate key and the highest normal form.
+
 (b) Run the BCNF algorithm and give the resulting tables with their keys.
+
 (c) State whether the decomposition is lossless, with the test.
+
 (d) State whether it is dependency-preserving, naming where each of $H_1$ and $H_2$ ends up.
 
 **P3 (🔴, optional)** $R(A, B, C, D)$ with $F = \{AB \to C,\ C \to D,\ D \to B\}$.
 
 (a) Give every candidate key and the highest normal form.
+
 (b) Run the BCNF algorithm starting from the violation $C \to D$, and give the resulting tables.
+
 (c) Determine whether your decomposition is lossless and whether it is dependency-preserving. If a dependency is lost, name it and give two small table instances that individually satisfy every local constraint while jointly violating it.
+
 (d) Now start the algorithm from $D \to B$ instead. Give that decomposition and state whether it preserves more, fewer, or the same dependencies — then say what this shows about the algorithm.
 
 <details>
@@ -278,7 +287,9 @@ which is lossless and preserves **all three** dependencies. The price is that $\
 **From Lesson 2.2 (from ER to relational schema):** A model has `Course` and `Room` as entity sets and a `Scheduled_in` relationship recording that a course meets in a room at a stated hour. A course meets in many rooms across the week; a room hosts many courses.
 
 (a) State whether `Scheduled_in` becomes a table or a foreign-key column, and give the reason in one clause.
+
 (b) Give the table's attributes and primary key, assuming a room hosts one course at a time.
+
 (c) The registrar adds that a course meets at most once per hour across all rooms. State whether the key from (b) enforces it, and if not give the additional constraint.
 
 <details>

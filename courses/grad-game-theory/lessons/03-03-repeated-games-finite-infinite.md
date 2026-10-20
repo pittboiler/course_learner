@@ -108,6 +108,7 @@ $$c(1 + \delta + \delta^2) \ge T + \delta p + \delta^2 p.$$
 Plug in $c=3, T=5, p=1$: $3 + 3\delta + 3\delta^2 \ge 5 + \delta + \delta^2$, i.e. $2\delta^2 + 2\delta - 2 \ge 0$, i.e. $\delta^2 + \delta - 1 \ge 0$. The positive root is $\delta = \frac{-1+\sqrt{5}}{2} \approx 0.618$. So $\delta^{\ast} \approx 0.618 > 0.5$: cooperation is **harder** than under grim trigger. **Why:** a punishment that ends after two periods forgives the deviator, so the future loss from cheating is smaller — a weaker deterrent needs more patience to bite. Grim's *permanent* punishment is the maximal credible threat, hence the lowest threshold. (Both punishments are credible: two periods of the stage NE is still stage-NE play, so subgame perfection holds either way.)
 
 **P3** (a) $\delta^{\ast} = \frac{T-c}{T-p} = \frac{20-18}{20-16} = \frac{2}{4} = \frac12$. Collusion is sustainable iff the effective discount factor is at least $0.5$.
+
 (b) The effective factor is $\delta = 0.9 \times 0.95 = 0.855$. Since $0.855 \ge 0.5$, the cartel holds under grim trigger. Note how the continuation probability enters exactly like patience: a relationship likely to continue and money valued over time both push toward collusion — which is why stable, long-lived markets are the ones prone to tacit collusion.
 
 </details>

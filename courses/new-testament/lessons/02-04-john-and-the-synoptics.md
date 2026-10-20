@@ -83,8 +83,11 @@ The ministry in Mark and in John, in the order each tells it:
 ## Problems
 
 **P1 (🟢)** *(Formal (a)–(b) · Exegetical (c))* Take as given: a Jewish day runs from sunset to sunset; Passover lambs are slaughtered on the afternoon of 14 Nisan; the Passover meal is eaten after sunset, which is already 15 Nisan; all four gospels put the crucifixion on a Friday, the day before a sabbath.
+
 (a) Using Mark 14:12–17, give the Nisan date of the Last Supper and of the crucifixion, and say which Roman-reckoned evening the Supper falls on.
+
 (b) Using John 18:28 and 19:14, do the same for John, and give the Nisan date of the sabbath in John 19:31.
+
 (c) Explain in two sentences why John 19:31 calls that sabbath "a great sabbath day", and name one other verse in John that his dating serves.
 
 **P2 (🟡)** *(Exegetical)* Close reading, John 21:20–24 (Douay-Rheims):

@@ -118,14 +118,19 @@ The inference has a broken joint. Run it in two steps. *Is the proposition bindi
 **P1 (🟢) *(Exegetical.)*** For each statement, say whether the closure of public revelation denies it, and in one sentence why.
 
 (a) The Church's understanding of the deposit can deepen over the centuries.
+
 (b) A twentieth-century mystic received a genuine communication from God.
+
 (c) The Church could, in principle, define a dogma in the twenty-second century.
+
 (d) Revelation is continually constituted anew in the religious experience of believers.
 
 **P2 (🟡) *(Exegetical.)*** A diocese recognizes an apparition and permits public devotion at the site. Three claims are now made. For each, state the level of authority it carries, cite the kind of act that fixes that level, and say what assent is owed. 150 words or fewer.
 
 (a) "The Blessed Virgin appeared at this place."
+
 (b) "Nothing in the reported messages is contrary to faith or morals."
+
 (c) "The messages call for prayer for the conversion of sinners — which is therefore now part of what Catholics must believe."
 
 **P3 (🔴, optional) *(Exegetical (a) · Evaluative (b).)*** A newspaper headline reads: **"Vatican approves Marian apparition after 40-year inquiry."** The article's first line adds that "the Church has now confirmed that the visions were genuinely supernatural."
@@ -179,8 +184,11 @@ The inference has a broken joint. Run it in two steps. *Is the proposition bindi
 **F1 (🟡) *(Exegetical.)*** *Dei Filius* (Vatican I, 1870) teaches that God, the beginning and end of all things, can be known with certainty by the natural light of human reason from created things, and attaches a canon to it. For each of the following, say whether it follows from that teaching, and in one clause why.
 
 (a) Anyone who reasons carefully will in fact come to know God.
+
 (b) At least one philosophical argument for God's existence is sound.
+
 (c) Someone who holds that human reason is in principle incapable of reaching God contradicts a defined teaching.
+
 (d) Since reason can reach God, revelation about God is unnecessary.
 
 <details>

@@ -77,9 +77,13 @@ Two readings of the same decade, both held by serious people. **Recycling as suc
 ## Problems
 
 **P1 (🟢) *(Formal.)*** All figures illustrative. A developing country owes 20 billion dollars of syndicated bank debt, priced at LIBOR plus 1.0 percentage point, reset every six months, principal repaid at maturity. Its exports are 25 billion dollars a year.
+
 (a) Compute the annual interest bill when LIBOR is 8 percent and when LIBOR is 16 percent.
+
 (b) Express each as a percentage of exports.
+
 (c) By what percentage would exports have to grow to restore the ratio in (b) to its lower value?
+
 (d) If instead the extra interest in the high-rate year is met by new borrowing on the same terms, what is the following year's interest bill? One sentence: who would have borne this risk had the debt been fixed-rate bonds?
 
 **P2 (🟡) *(Exegetical.)*** The Articles' scarce-currency clause (Article VII, Section 3) provides that when demand for a member's currency threatens the Fund's ability to supply it, the Fund "shall formally declare such currency scarce," and that such a declaration authorizes any member, after consulting the Fund, "temporarily to impose limitations on the freedom of exchange operations in the scarce currency."

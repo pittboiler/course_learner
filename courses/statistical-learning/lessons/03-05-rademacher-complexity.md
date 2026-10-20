@@ -120,7 +120,9 @@ Now the *other* use, the one with no theorem attached: fit your model to random 
 **P1 (🟢)** A finite loss class with $|\mathcal F| = 5000$, bounded in $[0,1]$ so $B = 1$. Use Massart's lemma throughout; note $2\ln|\mathcal F| = 17.03$.
 
 (a) Bound $\hat{\mathfrak R}_S(\mathcal F)$ at $n = 200$ and at $n = 5000$.
+
 (b) Give the smallest $n$ for which the capacity term $2\hat{\mathfrak R}_S(\mathcal F)$ is guaranteed to be at most $1/2$.
+
 (c) A hypothesis achieves training risk $0.05$. At $\delta = 0.05$, evaluate the full bound at $n = 200$ and $n = 5000$, and say in one sentence which term dominates in each case.
 
 **P2 (🟡)** Three sample points and a class of exactly three hypotheses, given by their values on $(x_1,x_2,x_3)$:

@@ -78,6 +78,7 @@ The vertical part of the pull, $F\sin 37^\circ$, is perpendicular to the motion 
 <summary>Solutions</summary>
 
 **P1** (a) $W = Fd\cos\theta = 10 \times 5 \times \cos 60^\circ = 50 \times 0.5 = 25\ \mathrm{J}$.
+
 (b) Work–energy with $v_i = 0$: $W_{\text{net}} = \tfrac12 m v_f^2$, so $25 = \tfrac12(2)v_f^2 = v_f^2$, giving $v_f = 5\ \mathrm{m/s}$.
 *Check:* units $\mathrm{N\cdot m = J}$ ✓; $\tfrac12(2)(5)^2 = 25\ \mathrm{J}$ matches the work. ✓
 

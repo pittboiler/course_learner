@@ -103,6 +103,7 @@ Where the principle stops: "was it a choice?" comes in degrees. The driver's car
 
 **P1 (🟢) *(Formal (a) · Exegetical (b).)*** Invented well-being levels for three people:
 $X=(9,64,100)$, $Y=(25,36,49)$, $Z=(9,49,49)$. Sufficiency threshold $T=16$.
+
 (a) Rank the three by strict equality (range, smaller is better), the utilitarian sum, the prioritarian sum $\sum\sqrt u$, and pure sufficiency (fewest people below $T$). Show the numbers. (b) Which pair is a leveling-down pair, and which of the four views prefers its more equal member? Two sentences.
 
 **P2 (🟡) *(Exegetical (a) · Evaluative (b).)*** Invented case. In the Republic of Varden, Oskar is a self-employed crab fisher. The state offers subsidized disability insurance at a modest premium; he declined it to save money. He fished alone in a storm against a coastguard warning, was injured, and can no longer work. His two children, aged 6 and 9, now live in poverty with him. (a) Classify Oskar's loss and his children's loss as brute or option luck, one sentence each. (b) Give the hard-line luck egalitarian's verdict on whether Varden owes Oskar income support, then Anderson's, then the best reply a luck egalitarian can make to Anderson here, and say where that reply stops determining a verdict. 150 words or fewer. Any verdict passes.
@@ -110,6 +111,7 @@ $X=(9,64,100)$, $Y=(25,36,49)$, $Z=(9,49,49)$. Sufficiency threshold $T=16$.
 **P3 (🔴, optional) *(Exegetical.)*** Find the crux. Two invented commissioners discuss a proposed grant paid to adults whose measured earning ability is low through no fault of their own.
 *Commissioner Hale:* "Low earning ability is unchosen. It's brute luck, and justice requires that we neutralize it."
 *Commissioner Imre:* "The question is whether these people can work, take part in public life and be treated as equals. If they can, the grant is no business of justice; if they can't, give them what they need, but not because they are less able."
+
 (a) Name the single premise Imre must deny that Hale asserts. One sentence. (b) Describe a case where the two would reach the same verdict for different reasons. Two sentences. (c) What kind of consideration would move one of them? One sentence.
 
 <details>

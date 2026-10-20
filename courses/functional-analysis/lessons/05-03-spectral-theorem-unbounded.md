@@ -91,6 +91,7 @@ using that $F$ is unitary ($\langle \psi, F^{-1}(\cdot)F\psi\rangle = \langle \w
 <summary>Solutions</summary>
 
 **P1**
+
 (a) $\|\psi\|^2 = \int_{-1}^{1} \big(\tfrac{1}{\sqrt2}\big)^2\,dx = \tfrac12 \cdot 2 = 1.$ Unit vector. ✓
 
 (b) With $E_X([0,1])\psi = \mathbf 1_{[0,1]}\psi$,
@@ -100,6 +101,7 @@ Probability $= \tfrac12$. (By symmetry $\psi$ is spread evenly over $[-1,1]$, so
 (c) $E_X([0,1])\psi = \mathbf 1_{[0,1]}\cdot\psi$ is the function equal to $\tfrac{1}{\sqrt 2}$ on $[0,1]$ and $0$ elsewhere. The spectral measure $E_X$ is built from the *sets* $B$, not from eigenvectors: $E_X(B)$ is the projection "multiply by $\mathbf 1_B$," which exists for every Borel $B$ regardless of whether $X$ has eigenvectors. Continuous spectrum removes normalizable eigenstates but leaves the projection-valued measure fully intact — that is exactly why the PVM, not eigenvectors, is the right generalization.
 
 **P2**
+
 (a) $g(\lambda) = 1/(1+\lambda^2)$ is a bounded Borel function on $\mathbb{R}$: $0 < g(\lambda) \le 1$, with the maximum $1$ attained at $\lambda = 0$. By the functional calculus, $g(A)$ is bounded with
 $$\|g(A)\| = \sup_{\lambda\in\sigma(A)} |g(\lambda)| = \sup_{\lambda\in\sigma(A)} \frac{1}{1+\lambda^2} = \frac{1}{1+\operatorname{dist}(0,\sigma(A))^2},$$
 since $1/(1+\lambda^2)$ is largest at the point of $\sigma(A)$ closest to $0$ (it decreases as $|\lambda|$ grows). Because $1+\lambda^2 \ge 1$ for all real $\lambda$, this supremum is $\le 1$: $\|g(A)\|\le 1$ always, with equality iff $0\in\sigma(A)$. Note $A$ itself is allowed to be unbounded — only $g$ needs to be bounded.
@@ -109,6 +111,7 @@ $$\big(g(X)\psi\big)(x) = \frac{\psi(x)}{1+x^2}.$$
 Its norm is $\sup_{x\in\mathbb{R}} \tfrac{1}{1+x^2} = 1$ (attained at $x=0$), matching (a) since $\sigma(X)=\mathbb{R}$ contains $0$, so $\operatorname{dist}(0,\sigma(X)) = 0$. Even though $X$ is unbounded, $g(X)$ has norm $1$. ✓
 
 **P3**
+
 (a) By the functional calculus, $e^{-isP} = F^{-1} e^{-is\xi} F = F^{-1} M_{e^{-is\xi}} F$, i.e. "Fourier-transform, multiply by $e^{-is\xi}$, transform back." Apply to $\psi$:
 $$F\big(e^{-isP}\psi\big)(\xi) = e^{-is\xi}\,\widehat\psi(\xi).$$
 But the Fourier shift identity says $e^{-is\xi}\widehat\psi(\xi) = F[\psi(\cdot - s)](\xi)$. Two functions with the same Fourier transform are equal (F injective), so

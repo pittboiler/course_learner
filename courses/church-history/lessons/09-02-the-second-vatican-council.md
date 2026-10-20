@@ -80,7 +80,9 @@ O'Malley's narrative, like most recent histories, speaks instead of a majority a
 ## Problems
 
 **P1 (🟢)** On 20 November 1962 the fathers voted on the question "Should the discussion of the schema on the sources of revelation be interrupted?" Wiltgen reports 2,209 ballots: 1,368 yes, 822 no, 19 invalid. The rules required a two-thirds majority.
+
 (a) *(Formal)* Compute the number of yes votes needed and the shortfall, first taking two-thirds of all ballots cast, then two-thirds of valid ballots only. Give the yes share of all ballots to one decimal place.
+
 (b) *(Exegetical)* In two sentences: what did the vote technically decide, and what happened the next day?
 
 **P2 (🟡)** *Quanta Cura* (1864), section 3, in this lesson's translation from the Latin. Pius IX condemns the opinion, which Gregory XVI had called a madness:
@@ -88,6 +90,7 @@ O'Malley's narrative, like most recent histories, speaks instead of a majority a
 > that liberty of conscience and of worship is each man's own right, which ought to be proclaimed and asserted by law in every rightly constituted society; and that citizens have a right to every kind of liberty, to be restrained by no authority, whether ecclesiastical or civil, by which they may openly and publicly manifest and declare any of their ideas whatever, by voice, by print, or in any other way.
 
 (a) *(Exegetical)* List the distinct claims the condemned opinion joins together, and quote the words that mark each.
+
 (b) *(Exegetical)* In 1965 the Coetus argued that *Dignitatis Humanae* asserted what this sentence condemned; the drafters answered that it did not. *Dignitatis Humanae* (paraphrased) declares a right to immunity from coercion in religious matters, grounded in the dignity of the person, to be recognised in civil law, limited by just public order (sections 2 and 7), and says it leaves untouched the traditional teaching on the moral duty toward the true religion (section 1). Name the single interpretive premise the two sides disagree about, and one piece of evidence from this lesson that the Coetus reading can use. 150 words or fewer in total.
 
 **P3 (🔴, optional)** *(Exegetical)* An invented documentary voice-over:
