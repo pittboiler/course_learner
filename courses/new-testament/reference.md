@@ -180,7 +180,7 @@ weight is the weight of its evidence.
 | "Faith alone" in the sense that nothing else co-operates | anathematized (a sense, not a word) | Trent VI, canon 9 | [5.2](lessons/05-02-romans-1-4-the-righteousness-of-god.md) |
 | Good works preserve and increase justice received, not merely its fruits and signs | rung 1 | Trent VI, canon 24 | [6.3](lessons/06-03-james-faith-and-works.md) |
 | The fallen after baptism can rise again by grace | rung 1 | Trent VI, canon 29 | [6.2](lessons/06-02-hebrews.md) |
-| Original sin passes by propagation; Rom 5:12 understood as the Church always has | rung 1; binds the **sense**, not the construal of *eph' hō* | Trent, Session V, canon 4 | [5.3](lessons/05-03-romans-5-11-adam-spirit-israel.md) |
+| Original sin passes by propagation; Rom 5:12 understood as the Church always has | rung 1; binds the **sense**, not the construal of *eph' hō* | Trent, Session V, canons 3 (propagation) and 4 | [5.3](lessons/05-03-romans-5-11-adam-spirit-israel.md) |
 | A hierarchy of bishops, priests and ministers | rung 1 about the Church's order, not about first-century vocabulary | Trent XXIII, canons 6-7 | [6.1](lessons/06-01-the-disputed-pauline-letters-and-the-pastorals.md) |
 | John 6 interpretations | left open | Trent XXI, ch. 1 | [2.5](lessons/02-05-the-theology-of-john.md) |
 | Millenarianism, even mitigated | rejected; at least rung 3 | CCC 676, citing a Holy Office decree of 1944 | [6.5](lessons/06-05-revelation.md) |
@@ -2034,7 +2034,7 @@ one man, many were made sinners"); the Adam-Christ solidarity is in the paragrap
 Session V); canon 4 binds the **sense** of Rom 5:12, not the philology, so "because" is
 compatible with it on the common reading. "Trent defined *in quo*" and "the Greek
 disproves original sin" are both level errors. The doctrine is ceded to
-[`creation-grace-last-things`](../creation-grace-last-things/syllabus.md) 3.3; Augustine's
+[`creation-grace-last-things`](../creation-grace-last-things/syllabus.md) [3.3](../creation-grace-last-things/lessons/03-03-trent-session-v-the-definition.md); Augustine's
 use of the verse is [`patristics` 4.5](../patristics/lessons/04-05-augustine-against-the-pelagians.md).
 
 *Introduced:* [5.3](lessons/05-03-romans-5-11-adam-spirit-israel.md)
@@ -2470,7 +2470,7 @@ compatibility of pseudonymity with inspiration **freely disputed**.
 **Tests for a community after a split.** 1 John sets three tests: belief (4:2, "Jesus
 Christ is come in the flesh", *en sarki elēlythota*, a perfect participle), love (4:20),
 obedience (2:4). "They went out from us but they were not of us" (2:19): the leavers are
-the "many Antichrists" (2:18, 22), deniers already present, not a single end-time figure.
+the "many Antichrists" (2:18, 22), deniers already present, the expected end-time figure presupposed (2:18; 4:3).
 Brown (*The Epistles of John*, 1982): readers of the Gospel's high Christology who
 emptied Jesus's flesh and death of saving weight; compare Cerinthus, for whom Christ
 departed from Jesus before the passion (Irenaeus I.26.1); hence 5:6, "not by water only
@@ -2601,7 +2601,7 @@ the Church first and Mary "by allusion"; the Marian doctrine is
 reign before the last judgment is **rejected**, even in modified forms (CCC 676, citing a
 Holy Office decree of 1944 that mitigated millenarianism cannot safely be taught; at least
 rung 3; doctrine owned by [`creation-grace-last-things`](../creation-grace-last-things/syllabus.md)
-7.2). The choice among schools is free. Full preterism, denying a future return, is
+[7.2](../creation-grace-last-things/lessons/07-02-the-parousia-the-last-judgment-and-the-new-creation.md)). The choice among schools is free. Full preterism, denying a future return, is
 excluded; Catholic preterist readings keep the parousia.
 
 *Introduced:* [6.5](lessons/06-05-revelation.md)
@@ -2916,7 +2916,7 @@ is a bug.
 - "Disputed" Paulines confused with the ancient *antilegomena*. Douay's "priests" and "bishop" read back into Titus 1. *([6.1](lessons/06-01-the-disputed-pauline-letters-and-the-pastorals.md))*
 - "Melchizedek had no parents": Hebrews argues from Genesis's silence. "Hebrews says the old covenant was always worthless": a shadow is cast by something real. *([6.2](lessons/06-02-hebrews.md))*
 - "Luther removed James from his Bible": he demoted it and printed it last. *([6.3](lessons/06-03-james-faith-and-works.md))*
-- "Antichrist" in 1 John read as the end-time figure. "The other scriptures" in 2 Pet 3:16 read as a closed canon. Jude's "prophesied" read as canonizing Enoch. *([6.4](lessons/06-04-peter-jude-and-the-letters-of-john.md))*
+- "Antichrist" in 1 John read as only the end-time figure. "The other scriptures" in 2 Pet 3:16 read as a closed canon. Jude's "prophesied" read as canonizing Enoch. *([6.4](lessons/06-04-peter-jude-and-the-letters-of-john.md))*
 - "Preterist means it was all fulfilled in the first century": full preterism denies the return; Catholic preterist readings keep it. Quoting Irenaeus as though he denied 616 existed. *([6.5](lessons/06-05-revelation.md))*
 - "Athanasius decided the canon". Eusebius's "rejected" read as "heretical". "Leaving out" read as "suppressing" (Thomas was named and rejected, then recovered at Nag Hammadi in 1945). *([6.6](lessons/06-06-the-formation-of-the-canon.md))*
 

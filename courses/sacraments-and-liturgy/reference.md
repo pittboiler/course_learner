@@ -78,7 +78,7 @@ Every Church text the lessons cite, with the level the lessons mark, chronologic
 | Holy Office under Alexander VII, on attrition | 5 May 1667 | decree | leaves the question open: rung 5 | [4.1](lessons/04-01-penance-the-sacrament-and-its-history.md) |
 | Holy Office, on using confessional knowledge | 18 Nov 1682 | decree | condemned the contrary of can. 984 | [4.1](lessons/04-01-penance-the-sacrament-and-its-history.md) |
 | Holy Office under Alexander VIII, prop. 28 | 7 Dec 1690 | papal act, global censures | proposition excluded, **not declared heretical** | [1.2](lessons/01-02-matter-form-minister-intention.md) |
-| Pius VI, *Auctorem fidei*, prop. 29 | 28 Aug 1794 | constitution | censure below heresy on omitting "transubstantiation"; defended the schools' freedom on limbo | [2.2](lessons/02-02-necessity-infants-and-baptism-of-desire-and-blood.md), [3.3](lessons/03-03-real-presence-and-transubstantiation.md) |
+| Pius VI, *Auctorem fidei*, props. 29 and 26 | 28 Aug 1794 | constitution | censure below heresy on omitting "transubstantiation" (29); defended the schools' freedom on limbo (26) | [2.2](lessons/02-02-necessity-infants-and-baptism-of-desire-and-blood.md), [3.3](lessons/03-03-real-presence-and-transubstantiation.md) |
 | Pius IX, *Syllabus*, prop. 73 | 1864 | condemned proposition | contract and sacrament inseparable, at least rung 3 | [5.3](lessons/05-03-matrimony-sacrament-contract-indissolubility.md) |
 | Leo XIII, *Arcanum* | 10 Feb 1880 | encyclical | at least rung 3 | [5.3](lessons/05-03-matrimony-sacrament-contract-indissolubility.md) |
 | Leo XIII, *Apostolicae Curae* | 13 Sep 1896 | apostolic letter | **rung 2** (1998 commentary) | [5.1](lessons/05-01-holy-orders-the-three-degrees.md) |
@@ -729,7 +729,7 @@ Baptism takes away all that is sin, gives the life sin blocked, marks the person
 | Incorporation into Christ and the Church | LG 11; can. 204 §1 | at least rung 3 |
 | A sacramental bond of unity among all the validly reborn, only a beginning, ordered to full faith and eucharistic communion | *Unitatis Redintegratio* 22 | at least rung 3 |
 
-**What stays.** Concupiscence, the "incentive (to sin)": the Church has never understood it as "truly and properly sin" in the reborn; it is called sin "because it is of sin, and inclines to sin" (V can. 5, rung 1). Suffering and death (CCC 1264). Aquinas explains why (ST III q.69 a.3): explanation, no level. Original sin itself is [`creation-grace-last-things`](../creation-grace-last-things/syllabus.md) 3.3's. Confession is for sins after baptism; penance is "a laborious kind of baptism", as Trent reports the Fathers (XIV ch. 2).
+**What stays.** Concupiscence, the "incentive (to sin)": the Church has never understood it as "truly and properly sin" in the reborn; it is called sin "because it is of sin, and inclines to sin" (V can. 5, rung 1). Suffering and death (CCC 1264). Aquinas explains why (ST III q.69 a.3): explanation, no level. Original sin itself is [`creation-grace-last-things`](../creation-grace-last-things/syllabus.md) [3.3](../creation-grace-last-things/lessons/03-03-trent-session-v-the-definition.md)'s. Confession is for sins after baptism; penance is "a laborious kind of baptism", as Trent reports the Fathers (XIV ch. 2).
 
 The New Testament minimum ([2.1](lessons/02-01-baptism-the-rite-and-its-effects.md)): Matt 28:19 (command and formula), John 3:5 (water and the Spirit, one birth, *ex hydatos kai pneumatos*), Rom 6:3-4 ("buried together with him by baptism into death"), Titus 3:5 (*loutron palingenesias*, "a bath of rebirth", lesson's gloss; DR "laver of regeneration"), Acts 2:38, 1 Pet 3:21 (*eperōtēma*, "appeal" or "pledge", lesson's gloss; DR "examination").
 
@@ -811,7 +811,7 @@ Augustine taught such infants condemned, if to the "mildest" punishment; the sch
 
 **Does not assert:** that limbo was dogma, or that it was abolished in 2007.
 
-**Owned by:** [`creation-grace-last-things`](../creation-grace-last-things/syllabus.md) 7.3.
+**Owned by:** [`creation-grace-last-things`](../creation-grace-last-things/syllabus.md) [7.4](../creation-grace-last-things/lessons/07-04-limbo.md).
 
 *Lessons:* [2.2](lessons/02-02-necessity-infants-and-baptism-of-desire-and-blood.md)
 
@@ -2702,7 +2702,7 @@ Every row points at the course that teaches it. An assumption with nowhere to lo
 | Reconstruction and charity in stating another's position | [`philosophical-method` 1.3](../philosophical-method/lessons/01-03-reconstruction-and-charity.md) |
 | Salvation outside the visible Church; implicit desire | [`apologetics-foundations` 8.2](../apologetics-foundations/lessons/08-02-salvation-outside-the-visible-church.md) |
 | Durkheim on rite | [`social-theory` 3.3](../social-theory/lessons/03-03-religion-as-social-the-elementary-forms.md) |
-| Grace, sanctifying and actual; justification; original sin (3.3); purgatory; the fate of unbaptized infants (7.3) | [`creation-grace-last-things`](../creation-grace-last-things/syllabus.md) (not yet built) |
+| Grace, sanctifying and actual; justification; original sin (3.3); purgatory; the fate of unbaptized infants (7.4) | [`creation-grace-last-things`](../creation-grace-last-things/syllabus.md) (not yet built) |
 | The argued disputes with the Reformation traditions and Orthodoxy (real presence 6.4, Anglican orders 4.3, *oikonomia*, the Mass, confession, infant baptism) | [`apologetics-catholic-claims`](../apologetics-catholic-claims/syllabus.md) (not yet built) |
 
 ## Pitfalls

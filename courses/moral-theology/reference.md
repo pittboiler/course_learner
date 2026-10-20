@@ -2527,7 +2527,7 @@ working term and the cycle, in effect, an extended commentary on HV.
 
 **The sexed body can express love in which the person becomes a gift, and in giving
 fulfils the meaning of his existence.** Audience of 16 January 1980 (paraphrase),
-anchored in *Gaudium et Spes* 24: man, the one creature God willed for its own sake,
+anchored in *Gaudium et Spes* 24: man, the one creature on earth God willed for its own sake,
 finds himself only through a sincere gift of himself. *Familiaris Consortio* 11
 (1981): physical self-giving without total personal self-giving would be a lie.
 

@@ -707,7 +707,7 @@ Written c. 357–362 by the bishop of Alexandria, during the Arian crisis, for m
 
 The regional synod that ended the Gallic dispute over grace.
 
-**3 July 529**, led by Caesarius of Arles, a former monk of Lérins; confirmed by Pope Boniface II in 530 or 531. Its canons name no one. What it defined and at what weight belong to [`creation-grace-last-things`](../creation-grace-last-things/syllabus.md) 3.2; here it is the end of the [Massilian](#massilians) quarrel as an event.
+**3 July 529**, led by Caesarius of Arles, a former monk of Lérins; confirmed by Pope Boniface II in 530 or 531. Its canons name no Massilian (only Pelagius, can. 1). What it defined and at what weight belong to [`creation-grace-last-things`](../creation-grace-last-things/syllabus.md) [3.2](../creation-grace-last-things/lessons/03-02-pelagius-augustine-and-the-councils.md); here it is the end of the [Massilian](#massilians) quarrel as an event.
 
 *Introduced:* [2.3](lessons/02-03-the-desert-and-the-monastery.md)
 
@@ -2518,7 +2518,7 @@ The course's scope table cedes these topics. Every row points at the course that
 | Newman on the laity keeping the Nicene faith, and its qualifications | [`fundamental-theology` 5.3](../fundamental-theology/lessons/05-03-the-sensus-fidei.md) |
 | Gelasius's two powers as political theory; hierocratic readings | [`history-of-political-thought` 2.5](../history-of-political-thought/lessons/02-05-marsilius-and-conciliarism.md) |
 | Vincent of Lerins's canon, written inside the Gallic dispute | [`fundamental-theology` 5.1](../fundamental-theology/lessons/05-01-vincent-of-lerins.md) |
-| What Orange defined on grace, and at what weight; Augustine against Pelagius | [`creation-grace-last-things`](../creation-grace-last-things/syllabus.md) 3.2; [`patristics`](../patristics/syllabus.md) 4.5 |
+| What Orange defined on grace, and at what weight; Augustine against Pelagius | [`creation-grace-last-things`](../creation-grace-last-things/syllabus.md) [3.2](../creation-grace-last-things/lessons/03-02-pelagius-augustine-and-the-councils.md); [`patristics`](../patristics/syllabus.md) 4.5 |
 | Islam as a religion; the Church's teaching on Muslims with its weight | [`apologetics-foundations`](../apologetics-foundations/syllabus.md) 7.1 |
 | John of Damascus as a theologian; Gregory as pastor and exegete | [`patristics`](../patristics/syllabus.md) 5.3, 5.4 |
 | The act of faith is free (Alcuin; *Dignitatis Humanae*) | [`fundamental-theology` 2.1](../fundamental-theology/lessons/02-01-the-act-of-faith.md) |

@@ -744,7 +744,7 @@ The view that true men existed after Adam not descended from him, or that Adam s
 
 ### More than a hypothesis
 
-John Paul II's message to the Pontifical Academy of Sciences (dated 22 October 1996), §4: new knowledge leads to recognizing in the theory of evolution *plus qu'une hypothese*, more than a hypothesis.
+John Paul II's message to the Pontifical Academy of Sciences (dated 22 October 1996), §4: new knowledge leads to recognizing in the theory of evolution *plus qu'une hypothèse*, more than a hypothesis.
 
 Ground given: the unsought convergence of independent results. The first English *L'Osservatore Romano* rendering, "more than one hypothesis", reversed the point and was later acknowledged as an error (as reported at the time). The message distinguishes *theories* of evolution (materialist, reductionist, spiritualist readings), whose judgment belongs to philosophy and theology. §5 restates immediate creation of the soul and rejects theories making spirit emerge from matter or an epiphenomenon of it. §6: an ontological leap with the human being; the observational sciences cannot observe the passage to the spiritual, though they detect its signs. **Level:** a papal message to a particular body, a light genre at the low end of rung 3; it defines nothing, and its doctrinal content carries the weight of what it restates. Benedict XVI (Auronzo di Cadore, 24 July 2007): the supposed opposition of creation and evolution is an absurdity; informal remarks, no magisterial weight.
 
@@ -1923,7 +1923,7 @@ This course argues; it does not re-teach. Every fact it uses without deriving ha
 | Demarcation (Kitzmiller), confirmation, the no-miracles argument | [philosophy-of-science](../philosophy-of-science/syllabus.md) 2.6, 5.1 (syllabus only) |
 | Interpretations of quantum mechanics; chaos; Boltzmann brains and the low-entropy past | [philosophy-of-physics](../philosophy-of-physics/syllabus.md) 1.1-1.3, 2.1-2.3, 5.2, 5.5 (syllabus only) |
 | Secularization theory; Taylor as sociology | [social-theory](../social-theory/syllabus.md) Module 7 (syllabus only) |
-| Original sin, monogenism and polygenism; the immediate creation of the soul; Vienne's rung | [creation-grace-last-things](../creation-grace-last-things/syllabus.md) 2.3, 3.4 (syllabus only) |
+| Original sin, monogenism and polygenism; the immediate creation of the soul; Vienne's rung | [creation-grace-last-things](../creation-grace-last-things/syllabus.md) [2.2](../creation-grace-last-things/lessons/02-02-body-and-soul-one-substance.md), [2.3](../creation-grace-last-things/lessons/02-03-the-soul-immediately-created-and-immortal.md), [3.4](../creation-grace-last-things/lessons/03-04-monogenism-polygenism-and-the-modern-reinterpretations.md) |
 | What "the Church" means in the axiom; baptized non-Catholics | [ecclesiology-and-mariology](../ecclesiology-and-mariology/syllabus.md) 5.1-5.2 (syllabus only) |
 | Every intra-Christian dispute: papal primacy, *sola scriptura*, justification, the Orthodox case | [apologetics-catholic-claims](../apologetics-catholic-claims/syllabus.md) (syllabus only) |
 

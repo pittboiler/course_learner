@@ -58,7 +58,7 @@ ST I q.8 a.1 gives the argument. God is in all things not as part of their essen
 
 Article 3 then sorts the presence into [three modes](../reference.md#immensity-and-omnipresence), and the sorting is polemical — each mode answers a particular denial. God is in all things **by power**, inasmuch as all things are subject to him (against the Manichees, who gave visible things to a rival principle); **by presence**, inasmuch as all things are bare and open to his eyes (against those who exempted lower bodies from providence); **by essence**, inasmuch as he is present to all as the cause of their being (against those who had God create only the first creatures, which created the rest).
 
-"By essence" misfires in English. The reply to the first objection settles it: God is in things by *his own* essence, not by theirs — the same job *Dei Filius* does with "really and essentially distinct from the world", four centuries later.
+"By essence" misfires in English. The reply to the first objection settles it: God is in things by *his own* essence, not by theirs — the same job *Dei Filius* does with "really and essentially distinct from the world", six centuries later.
 
 ## The rule
 

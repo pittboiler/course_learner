@@ -164,7 +164,7 @@ weight is the weight of its evidence.
 | Childs's canonical approach; Sanders's canonical criticism | scholarly methods, no standing | | [1.4](lessons/01-04-canonical-reading-and-the-unity-of-the-testaments.md) |
 | Any particular canonical reading or harmonization | freely disputed exegetical judgment | | [1.4](lessons/01-04-canonical-reading-and-the-unity-of-the-testaments.md) |
 | God created all things | defined; owned by [`creation-grace-last-things`](../creation-grace-last-things/syllabus.md) | | [2.1](lessons/02-01-two-accounts-of-creation.md) |
-| A real primeval fault by our first parents marks all history | defined (Trent, Session V) | CCC 390 calls the language figurative, the event real | [2.3](lessons/02-03-the-primeval-history.md) |
+| A real primeval fault by "the first man, Adam" injured all his posterity | defined (Trent, Session V) | CCC 390 calls the language figurative, the event real | [2.3](lessons/02-03-the-primeval-history.md) |
 | Genesis 1-11 belongs to history "in a true sense", for exegetes to work out | rung 3 | *Humani Generis* 38 (1950) | [2.1](lessons/02-01-two-accounts-of-creation.md), [2.3](lessons/02-03-the-primeval-history.md) |
 | Gen 3:15 as the first announcement of a Redeemer | Catechism, weight of its sources | CCC 410 | [2.3](lessons/02-03-the-primeval-history.md) |
 | God called Abraham, bound himself by promise, counted his faith as righteousness | the content of Scripture as the Church reads it | CCC 59, 145-146; the Roman Canon | [2.4](lessons/02-04-the-patriarchs.md) |

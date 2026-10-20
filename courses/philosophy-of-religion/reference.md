@@ -325,7 +325,7 @@ After William of Ockham; revived by Marilyn Adams (1967) and Plantinga ("On Ockh
 
 ### Molinism
 
-God has **middle knowledge** of counterfactuals of creaturely freedom ("if Teo were in C, he would freely sign"), between his natural and his free knowledge; choosing C, God knows what Teo will do without causing it.
+God has **middle knowledge** of counterfactuals of creaturely freedom ("if Teo were in C, he would freely sign"), between his natural and his free knowledge; choosing C, God knows what Teo will do without determining it.
 
 Luis de Molina, *Concordia* (1588). A theory of how God knows, not by itself a premise-denial; Molinists usually add Ockhamism. **Grounding objection** (Robert Adams 1977; Hasker 1989): what makes the counterfactual true before Teo exists? Not God's decree (then not free), not Teo (not yet existing). Reply: such counterfactuals need no grounds beyond themselves, like many ordinary conditionals. Plantinga states the free will defense with counterfactuals of freedom, and critics list the grounding objection against it ([4.1](lessons/04-01-the-logical-problem-of-evil.md)).
 

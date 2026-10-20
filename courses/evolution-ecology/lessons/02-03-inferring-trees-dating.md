@@ -100,7 +100,7 @@ $$\boxed{\;d = 2\lambda T \quad\Longrightarrow\quad T = \frac{d}{2\lambda}\;}$$
 
 $$\textbf{So a gene tree is deeper than the species tree by roughly } 2N_e \textbf{ generations.}$$
 
-And when speciation events are close together relative to $N_e$, ancestral polymorphism can sort such that **the gene tree has a different topology from the species tree** — incomplete lineage sorting. This is not error; it is a real property of populations, and it is why roughly 30 percent of human genes place us closer to gorillas than to chimpanzees despite the species tree being unambiguous. **Species trees must be inferred from many genes, not one.**
+And when speciation events are close together relative to $N_e$, ancestral polymorphism can sort such that **the gene tree has a different topology from the species tree** — incomplete lineage sorting. This is not error; it is a real property of populations, and it is why roughly 15 percent of the human genome places us closer to gorillas than to chimpanzees despite the species tree being unambiguous. **Species trees must be inferred from many genes, not one.**
 
 ## Picture
 
@@ -191,7 +191,7 @@ Parsimony sees those shared bases and counts them as **synapomorphies** — shar
 
 **P2 (🟡)** (a) How many rooted binary trees are possible for 6 taxa? For 8? Use $T(n) = (2n-3)!/[2^{n-2}(n-2)!]$. (b) A dataset of 30 taxa is analysed exhaustively at $10^{9}$ trees per second — estimate the time required. (c) State what this implies about phylogenetic software and name the general class of algorithm used.
 
-**P3 (🔴, bridges to 1.4 and to human evolution)** Human and chimpanzee genomes differ at about 1.2 percent of aligned nucleotide sites. The human $N_e$ over the relevant period is estimated at about 10,000, generation time about 25 years, and the per-site per-generation mutation rate about $1.2\times10^{-8}$. (a) Estimate the divergence time from the sequence data. (b) The coalescence time of any two alleles predates the species split. Estimate by how much, and correct your answer to (a). (c) Explain why roughly 30 percent of human genes are closer to gorilla than to chimpanzee, and state what this means for how species trees must be inferred.
+**P3 (🔴, bridges to 1.4 and to human evolution)** Human and chimpanzee genomes differ at about 1.2 percent of aligned nucleotide sites. The human $N_e$ over the relevant period is estimated at about 10,000, generation time about 25 years, and the per-site per-generation mutation rate about $1.2\times10^{-8}$. (a) Estimate the divergence time from the sequence data. (b) The coalescence time of any two alleles predates the species split. Estimate by how much, and correct your answer to (a). (c) Explain why roughly 15 percent of the human genome is closer to gorilla than to chimpanzee, and state what this means for how species trees must be inferred.
 
 <details>
 <summary>Solutions</summary>
@@ -255,13 +255,13 @@ $$T_{\text{species}} = 12.6 - 0.5 = \mathbf{12.1\ \text{million years}}.$$
 
 $$\textbf{Sequence divergence always overestimates species divergence, and the error is } 2N_e \textbf{ generations.}$$
 
-*(A note on the number: 12 Myr is older than the 6–8 Myr usually quoted for the human–chimp split. The discrepancy is real and much argued over — it turns on whether to use the fast pedigree-derived mutation rate used here or the slower phylogenetically-calibrated rate, and it is one of the live problems in the field. The method is sound; the input rate is contested.)*
+*(A note on the number: 12 Myr is older than the 6–8 Myr usually quoted for the human–chimp split. The discrepancy is real and much argued over — it turns on whether to use the slow pedigree-derived mutation rate used here or the faster phylogenetically-calibrated rate, and it is one of the live problems in the field. The method is sound; the input rate is contested.)*
 
 **(c)** This is **incomplete lineage sorting**, and it is a property of populations rather than an error.
 
 The mechanism: the ancestral population of humans, chimps and gorillas was **polymorphic** — it carried multiple alleles at most loci. When the gorilla lineage split off, that polymorphism was inherited by both descendant populations. When the human and chimp lineages split shortly afterwards, the polymorphism was inherited again.
 
-At any given locus, the alleles now in humans, chimps and gorillas trace back to that ancestral polymorphism, and **which two coalesce first is a matter of chance.** Two-thirds of the time the human and chimp alleles coalesce first, matching the species tree; one-third of the time a human allele coalesces first with a gorilla allele instead.
+At any given locus, the alleles now in humans, chimps and gorillas trace back to that ancestral polymorphism, and **which two coalesce first is a matter of chance.** If the human and chimp alleles have not coalesced before the gorilla split, each pairing is equally likely: one-third match the species tree, one-third pair human with gorilla, one-third chimp with gorilla.
 
 **Whether this happens depends on the ratio of the internode time to $N_e$:**
 

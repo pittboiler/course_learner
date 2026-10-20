@@ -81,7 +81,7 @@ Below and alongside the magisterial rungs, the manual tradition graded claims wi
 | *sententia communis* | in itself a free question, but held by theologians generally | temerarious — theologically rash |
 | *sententia probabilis*, *bene fundata*, *pia*, *tolerata* | supported, well-founded, pious, or merely tolerated opinion | usually none |
 
-Two things to hold onto. First, the vocabulary is genuinely old and was used by the Magisterium itself — *Auctorem Fidei* (1794) condemned the propositions of the Synod of Pistoia with a list of censures applied to them collectively, leaving theologians to sort out which censure fell on which proposition. Second, and decisively: **a note is a theologian's judgment about the acts, not one of the acts.** It is evidence, it can be stale, and where Ott's note and a magisterial act disagree, the act wins. This is why 4.4's ladder keeps rungs 4 and 5 off the strict ordering: they are qualifications, not exercises of the teaching office.
+Two things to hold onto. First, the vocabulary is genuinely old and was used by the Magisterium itself — *Unigenitus* (1713) condemned 101 propositions of Quesnel with a list of censures applied to them collectively, leaving theologians to sort out which censure fell on which proposition. Second, and decisively: **a note is a theologian's judgment about the acts, not one of the acts.** It is evidence, it can be stale, and where Ott's note and a magisterial act disagree, the act wins. This is why 4.4's ladder keeps rungs 4 and 5 off the strict ordering: they are qualifications, not exercises of the teaching office.
 
 ## The two axes
 

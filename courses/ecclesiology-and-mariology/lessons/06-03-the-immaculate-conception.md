@@ -77,7 +77,7 @@ graph TD
 
 ## Problems
 
-**P1 (🟢)** *(Exegetical)* **Close reading.** Trent, Session V (17 June 1546), the paragraph closing the decree on original sin, in Schaff's translation:
+**P1 (🟢)** *(Exegetical)* **Close reading.** Trent, Session V (17 June 1546), the paragraph closing the decree on original sin, in Waterworth's translation as Schaff prints it:
 
 > This same holy Synod doth nevertheless declare, that it is not its intention to include in this decree, where original sin is treated of, the blessed and immaculate Virgin Mary, the mother of God; but that the constitutions of Pope Sixtus IV., of happy memory, are to be observed, under the pains contained in the said constitutions, which it renews.
 
