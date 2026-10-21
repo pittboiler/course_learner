@@ -293,7 +293,7 @@ changes the brief lists) → roots (`ethics`, `fundamental-theology`,
 - [x] `moral-theology` — Moral Theology (2, 28) — syllabus ✓ (2026-09-15) — **lessons ✓** (28 lessons + reference card, prepped 2026-09-25)
 - [ ] `catholic-social-teaching` — Catholic Social Teaching (2, 27) — syllabus ✓ (2026-09-15), lessons pending
 - [x] `apologetics-foundations` — Apologetics I: God, Christ & the Religions (2, 31) — syllabus ✓ (2026-09-15), built 2026-10-06 (31 lessons + reference card)
-- [ ] `apologetics-catholic-claims` — Apologetics II: The Catholic Claims (2, 29) — syllabus ✓ (2026-09-15), lessons pending
+- [x] `apologetics-catholic-claims` — Apologetics II: The Catholic Claims (2, 29) — syllabus ✓ (2026-09-15; boss problems revised 2026-10-20), built 2026-10-21 (29 lessons + reference card)
 - [x] `theology-of-debt` — Theology of Debt (2, 26) — syllabus ✓ (2026-09-15) — **lessons ✓** (26 lessons + reference card, prepped 2026-09-26)
 
 **Economics & Finance additions** · 2 courses · ~56 lessons

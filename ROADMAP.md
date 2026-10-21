@@ -410,7 +410,7 @@ Catholic theology taught from within the tradition, on the plan of a pontifical 
 | `moral-theology` | Moral Theology | 2 | ethics, fundamental-theology | Natural law in light of revelation, virtue, conscience, double effect, Veritatis Splendor, bioethics. |
 | `catholic-social-teaching` | Catholic Social Teaching | 2 | moral-theology | Rerum Novarum to Fratelli Tutti: dignity, subsidiarity, solidarity, property, labor, just war. |
 | `apologetics-foundations` | Apologetics I: God, Christ & the Religions | 2 | philosophy-of-religion, new-testament | The case against atheism and naturalism, the resurrection as history, and Christianity in dialogue with Judaism and Islam. |
-| `apologetics-catholic-claims` | Apologetics II: The Catholic Claims | 2 | ecclesiology-and-mariology, sacraments-and-liturgy | The Catholic case against Protestant (sola scriptura, sola fide, canon, Mary, purgatory) and Orthodox (primacy, filioque, Vatican I) positions, each stated at its strongest. |
+| `apologetics-catholic-claims` | Apologetics II: The Catholic Claims | 2 | ecclesiology-and-mariology, sacraments-and-liturgy | The Catholic case on authority, justification, the Church and the sacraments against Lutheran, Reformed, Anglican and Orthodox positions (sola scriptura, sola fide, the canon, the papacy and Anglican orders, the filioque and the energies, the contested distinctives), each stated at its strongest, with the hard history conceded. |
 | `theology-of-debt` | Theology of Debt | 2 | old-testament, new-testament, moral-theology | Jubilee and debt slavery, 'forgive us our debts', sin as debt, Anselm, the treasury of merit, usury from Lateran III to Vix Pervenit. Part of the debt thread. |
 
 ### The debt thread
