@@ -68,7 +68,7 @@ Solid arrows are the real road the words travelled. The dashed arrow is the misr
 
 ## Worked examples
 
-**Example 1 — the machinery on a clean case.** Sort three sentences. *(i)* "The Spirit proceeds from the Father and the Son." *(ii)* "The Spirit takes his origin from the Father alone." *(iii)* "The Son is a cause of the Holy Spirit."
+**Example 1 — the machinery on a clean case.** Sort three sentences. *(i)* "The Spirit proceeds from the Father and the Son." *(ii)* "The Spirit takes his origin from the Father alone." *(iii)* "The Son is a second cause of the Holy Spirit, beside the Father."
 
 Run the verb rule. (i) is true in the wide verb and is defined Catholic doctrine ([5.1](05-01-the-latin-doctrine.md)); in the narrow verb it would be false, which is why the Greek creed is never amended. (ii) is true in the narrow verb and is affirmed by both traditions — the Father is the sole *aitia*; in the wide verb, read as excluding the Son from the communication of divinity, it would contradict Florence. (iii) is false in either tradition: the Father and the Son are [one principle by one spiration](../reference.md#one-principle-and-one-spiration), never two causes. The lesson of the sort is that (i) and (ii) are both true and are not competitors.
 

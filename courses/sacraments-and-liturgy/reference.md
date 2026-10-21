@@ -958,7 +958,7 @@ Two monks of Corbie in the ninth century, one sacrament called figure and truth 
 
 **Level:** theologians, **no magisterial level**. Ratramnus was neither a Zwinglian nor a Thomist before his time.
 
-**Argued in:** [`apologetics-catholic-claims`](../apologetics-catholic-claims/syllabus.md) 6.4.
+**Argued in:** [`apologetics-catholic-claims`](../apologetics-catholic-claims/syllabus.md) [6.4](../apologetics-catholic-claims/lessons/06-04-the-real-presence.md).
 
 *Lessons:* [3.2](lessons/03-02-the-controversies-that-forced-precision.md)
 
@@ -1492,7 +1492,7 @@ The ladder is [`fundamental-theology` 4.4](../fundamental-theology/lessons/04-04
 | Anglican orders null | *Apostolicae Curae* (1896), listed by the 1998 commentary among truths connected to revelation by historical necessity, held definitively | **rung 2** ([5.1](lessons/05-01-holy-orders-the-three-degrees.md)) |
 | A ratified and consummated marriage cannot be dissolved by any human power | John Paul II, Address to the Roman Rota (21 January 2000) §8: to be held definitively, though not solemnly declared by a defining act | **at least rung 2** ([5.3](lessons/05-03-matrimony-sacrament-contract-indissolubility.md), [5.4](lessons/05-04-nullity-dissolution-and-the-pastoral-debates.md)) |
 
-**Not the same as** a "dogmatic fact" (the 1998 commentary attaches that label to canonizations, not to *Apostolicae Curae*). Definitive is never "settled as rung 1" and never "open".
+**Not the same as** a "dogmatic fact" (in the 1998 commentary that label closes the series ending with canonizations, not *Apostolicae Curae*). Definitive is never "settled as rung 1" and never "open".
 
 *Lessons:* [4.3](lessons/04-03-anointing-of-the-sick.md), [5.1](lessons/05-01-holy-orders-the-three-degrees.md), [5.2](lessons/05-02-the-reservation-of-priestly-ordination.md), [5.3](lessons/05-03-matrimony-sacrament-contract-indissolubility.md), [5.4](lessons/05-04-nullity-dissolution-and-the-pastoral-debates.md)
 
@@ -1574,11 +1574,11 @@ Latin discipline, not dogma: the priesthood's nature does not demand it, and the
 
 Leo XIII's apostolic letter of 1896 declaring Anglican ordinations "utterly void and wholly null", for defect of form and of intention.
 
-Leo XIII, 13 September 1896: ordinations by the Anglican rite *irritas prorsus fuisse et esse, omninoque nullas*, "utterly void and wholly null" (lesson's translation), for defect of form and of intention in the Edwardine Ordinal. Its genre is an **apostolic letter**, not a bull (so the 1998 CDF commentary; Schaff's summary and older cards say "bull"). The archbishops of Canterbury and York replied in *Saepius Officio* (1897; Schaff misprints 1877), pointing to the Ordinal's language of sacrifice and to changes in Rome's own rites (Schaff's summary, *Creeds* vol. 2). The married former Anglican ministers ordained under *Anglicanorum Coetibus* are ordained, not received as priests ([celibacy](#celibacy)).
+Leo XIII, 13 September 1896: ordinations by the Anglican rite *irritas prorsus fuisse et esse, omninoque nullas*, "utterly void and wholly null" (lesson's translation), for defect of form and of intention in the Edwardine Ordinal. Its genre is an **apostolic letter**, not a bull (so the 1998 CDF commentary; Schaff's summary and older cards say "bull"). The archbishops of Canterbury and York replied in *Saepius Officio* (1897; Schaff misprints 1877), arguing that Rome's own ancient ordination forms were no more explicit about sacrifice (ch. XII) and citing the Ordinal's preface (ch. XVII). The married former Anglican ministers ordained under *Anglicanorum Coetibus* are ordained, not received as priests ([celibacy](#celibacy)).
 
-**Level:** the CDF's *Doctrinal Commentary on the Concluding Formula of the Professio fidei* (29 June 1998) §11 lists it among truths connected with revelation by historical necessity, to be held definitively: **rung 2**. Not a "dogmatic fact" (§11 attaches that label to canonizations).
+**Level:** the CDF's *Doctrinal Commentary on the Concluding Formula of the Professio fidei* (29 June 1998) §11 lists it among truths connected with revelation by historical necessity, to be held definitively: **rung 2**. Not a "dogmatic fact" (in §11 that label closes the series ending with canonizations; *Apostolicae Curae* is listed after it).
 
-**Argued in:** [`apologetics-catholic-claims`](../apologetics-catholic-claims/syllabus.md) 4.3 (*Apostolicae Curae* against *Saepius Officio*); not argued here.
+**Argued in:** [`apologetics-catholic-claims`](../apologetics-catholic-claims/syllabus.md) [4.3](../apologetics-catholic-claims/lessons/04-03-apostolic-succession-and-the-validity-of-orders.md) (*Apostolicae Curae* against *Saepius Officio*); not argued here.
 
 *Lessons:* [5.1](lessons/05-01-holy-orders-the-three-degrees.md)
 
@@ -2375,7 +2375,7 @@ The sacraments are signs and testimonies of God's will toward us, to awaken and 
 
 Two sacraments ordained of Christ in the Gospel; five "commonly called Sacraments" that lack a visible sign ordained of God; the sacrifices of Masses rejected.
 
-**Thirty-Nine Articles** (1571), art. 25: two sacraments ordained of Christ our Lord in the Gospel, baptism and the Supper of the Lord; the "five commonly called Sacraments" (confirmation, penance, orders, matrimony, extreme unction) are not to be counted for sacraments of the Gospel, having no visible sign or ceremony ordained of God. Art. 31: the offering of Christ once made is the perfect redemption, propitiation and satisfaction for all the sins of the whole world, and there is none other satisfaction for sin but that alone; so the sacrifices of Masses for the quick and the dead "were blasphemous fables, and dangerous deceits" ([Lutheran and Reformed on the sacrifice of the Mass](#lutheran-and-reformed-on-the-sacrifice-of-the-mass)). **On Anglican orders:** the archbishops of Canterbury and York, *Saepius Officio* (1897), answering *Apostolicae Curae*, point to the Ordinal's language of sacrifice and to changes in Rome's own rites (Schaff's summary, *Creeds* vol. 2). The Church of England's ordination of women: [communions that ordain women](#communions-that-ordain-women).
+**Thirty-Nine Articles** (1571), art. 25: two sacraments ordained of Christ our Lord in the Gospel, baptism and the Supper of the Lord; the "five commonly called Sacraments" (confirmation, penance, orders, matrimony, extreme unction) are not to be counted for sacraments of the Gospel, having no visible sign or ceremony ordained of God. Art. 31: the offering of Christ once made is the perfect redemption, propitiation and satisfaction for all the sins of the whole world, and there is none other satisfaction for sin but that alone; so the sacrifices of Masses commonly said to offer Christ for the quick and the dead for remission of pain or guilt "were blasphemous fables, and dangerous deceits" ([Lutheran and Reformed on the sacrifice of the Mass](#lutheran-and-reformed-on-the-sacrifice-of-the-mass)). **On Anglican orders:** the archbishops of Canterbury and York, *Saepius Officio* (1897), answering *Apostolicae Curae*, point to the Ordinal's language of sacrifice and to changes in Rome's own rites (Schaff's summary, *Creeds* vol. 2). The Church of England's ordination of women: [communions that ordain women](#communions-that-ordain-women).
 
 *Lessons:* [1.4](lessons/01-04-why-seven.md), [3.4](lessons/03-04-the-sacrifice-of-the-mass.md), [5.1](lessons/05-01-holy-orders-the-three-degrees.md)
 
@@ -2405,7 +2405,7 @@ Three Reformation positions, all rejecting transubstantiation and differing from
 
 **The Lutheran confessions.** Augsburg Confession (1530), art. 10: the body and blood of Christ "are truly present, and are distributed to those who eat in the Supper of the Lord" (*Triglot*, 1921). Smalcald Articles (1537), III.6: the bread and wine "are the true body and blood of Christ", received "not only by the godly, but also by wicked Christians"; transubstantiation a "sophistical subtlety", for Paul still calls it bread (1 Cor 10:16). Formula of Concord (1577), Solid Declaration VII.35: "under the bread, with the bread, in the bread", to reject transubstantiation and mark the sacramental union of the bread's unchanged essence with Christ's body; "in, with and under" is the later shorthand.
 
-**Zwingli.** "This is my body" means "this signifies my body" (*est* = *significat*), argued from John 6:63 (DR 6:64), "the flesh profiteth nothing" (*Commentary on True and False Religion*, 1525); the Supper is the community's thankful commemoration of Christ's death, and his ascended body is in heaven. His *Exposition of the Faith* for Francis I (1531) still affirms Christ truly present to the believing heart, his body eaten sacramentally and spiritually (Schaff, *History of the Christian Church* VII §111). At Marburg (1529) he and Luther agreed on fourteen articles and recorded their split on the fifteenth: whether Christ's body and blood are corporally present in the bread and wine ([`church-history` 6.2](../church-history/lessons/06-02-reformations-beyond-wittenberg.md)).
+**Zwingli.** "This is my body" means "this signifies my body" (*est* = *significat*), argued from John 6:63 (DR 6:64), "the flesh profiteth nothing" (*Commentary on True and False Religion*, 1525); the Supper is the community's thankful commemoration of Christ's death, and his ascended body is in heaven. His *Exposition of the Faith* for Francis I (1531) still affirms Christ truly present to the believing heart, his body eaten sacramentally and spiritually (Schaff, *History of the Christian Church* VII §111). At Marburg (1529) he and Luther agreed on fourteen articles and most of the fifteenth, and recorded their split: whether Christ's body and blood are corporally present in the bread and wine ([`church-history` 6.2](../church-history/lessons/06-02-reformations-beyond-wittenberg.md)).
 
 **Calvin**, *Institutes* IV.17 (Beveridge's translation, 1845): the Supper is not "a vain or empty sign" (10); Christ's body is "contained in heaven" until the judgment, neither enclosed under the elements nor everywhere (12); yet his flesh truly feeds us: "what our mind does not comprehend let faith conceive—viz. that the Spirit truly unites things separated by space" (10); Christ offers the thing signified to all at the table, believers alone receive it to their benefit (10); a "true and substantial communication" of the body and blood (19).
 
@@ -2420,7 +2420,7 @@ No column records what still separates Calvin and Zwingli: whether the Supper *c
 
 **Does not license:** sorting them by the ninth-century question, figure or truth (Augsburg says "truly present", Calvin "true and substantial", the late Zwingli "truly present" to faith).
 
-**Argued in:** [`apologetics-catholic-claims`](../apologetics-catholic-claims/syllabus.md) 6.4.
+**Argued in:** [`apologetics-catholic-claims`](../apologetics-catholic-claims/syllabus.md) [6.4](../apologetics-catholic-claims/lessons/06-04-the-real-presence.md).
 
 *Lessons:* [3.2](lessons/03-02-the-controversies-that-forced-precision.md)
 
@@ -2702,8 +2702,8 @@ Every row points at the course that teaches it. An assumption with nowhere to lo
 | Reconstruction and charity in stating another's position | [`philosophical-method` 1.3](../philosophical-method/lessons/01-03-reconstruction-and-charity.md) |
 | Salvation outside the visible Church; implicit desire | [`apologetics-foundations` 8.2](../apologetics-foundations/lessons/08-02-salvation-outside-the-visible-church.md) |
 | Durkheim on rite | [`social-theory` 3.3](../social-theory/lessons/03-03-religion-as-social-the-elementary-forms.md) |
-| Grace, sanctifying and actual; justification; original sin (3.3); purgatory; the fate of unbaptized infants (7.4) | [`creation-grace-last-things`](../creation-grace-last-things/syllabus.md) (not yet built) |
-| The argued disputes with the Reformation traditions and Orthodoxy (real presence 6.4, Anglican orders 4.3, *oikonomia*, the Mass, confession, infant baptism) | [`apologetics-catholic-claims`](../apologetics-catholic-claims/syllabus.md) (not yet built) |
+| Grace, sanctifying and actual; justification; original sin (3.3); purgatory; the fate of unbaptized infants (7.4) | [`creation-grace-last-things`](../creation-grace-last-things/syllabus.md) |
+| The argued disputes with the Reformation traditions and Orthodoxy (real presence 6.4, Anglican orders 4.3, *oikonomia*, the Mass, confession; infant baptism only named, 1.1) | [`apologetics-catholic-claims`](../apologetics-catholic-claims/syllabus.md) |
 
 ## Pitfalls
 

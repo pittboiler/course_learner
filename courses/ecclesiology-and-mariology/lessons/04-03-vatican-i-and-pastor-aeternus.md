@@ -4,7 +4,7 @@
 
 ## Why this matters
 
-[4.2](04-02-the-development-of-papal-claims-read-honestly.md) followed the papal claim to the fifteenth century; in 1870 it became a definition. Most people know one sentence of [*Pastor Aeternus*](../reference.md#pastor-aeternus) and misread it. It has a prologue, four chapters, three canons and a definition, and its heaviest claim on daily Church life is in chapter 3. This lesson marks what each part defines, and what the first authoritative reading (1875) said it does *not* mean. The event is [`church-history` 8.2](../../church-history/lessons/08-02-pius-ix-vatican-i-and-the-fall-of-rome.md)'s.
+[4.2](04-02-the-development-of-papal-claims-read-honestly.md) followed the papal claim to the fifteenth century; in 1870 it became a definition. Most people know one sentence of [*Pastor Aeternus*](../reference.md#pastor-aeternus) and misread it. It has a prologue, four chapters, three canons and a definition, and its heaviest claim on daily Church life is in chapter 3. This lesson marks what each part defines, and what an early authoritative reading (1875) said it does *not* mean. The event is [`church-history` 8.2](../../church-history/lessons/08-02-pius-ix-vatican-i-and-the-fall-of-rome.md)'s.
 
 ## The idea
 
@@ -45,7 +45,7 @@ Read the shape of the act: two powers, both ordinary and immediate, over one flo
 
 **Said plainly.** The definition passed over the objection of a minority that left rather than vote against it. On 13 July, 88 fathers voted *non placet* and 62 *placet iuxta modum*; some 55 to 60 then renewed their votes by letter and went home; on 18 July the constitution passed 533 to 2 ([`church-history` 8.2](../../church-history/lessons/08-02-pius-ix-vatican-i-and-the-fall-of-rome.md)). None finally refused the decrees, though some came slowly, Josip Strossmayer of Đakovo among the slowest.
 
-7. **[The German bishops' declaration of 1875](../reference.md#german-bishops-declaration-of-1875).** Bismarck's circular note of 14 May 1872, on the next papal election, argued that the decrees had merged episcopal jurisdiction into papal. The German bishops' joint declaration (early 1875) answered, as the CDF's *The Primacy of the Successor of Peter in the Mystery of the Church* (1998, §§5, 7) and *The Bishop of Rome* §65 summarize it (DH 3112–3114):
+7. **[The German bishops' declaration of 1875](../reference.md#german-bishops-declaration-of-1875).** Bismarck's circular note of 14 May 1872, on the next papal election, argued that the decrees had merged episcopal jurisdiction into papal. The German bishops' joint declaration (early 1875) answered, as the CDF's *The Primacy of the Successor of Peter in the Mystery of the Church* (1998, §§5, 7) and *The Bishop of Rome* §65 summarize it (DH 3112–3116):
    - primacy and episcopate are in harmony;
    - the episcopate rests on the same divine institution as the papacy, so the primacy does not reduce the bishops' ordinary authority;
    - the primacy is bounded by divine law and by the Church's divinely given constitution;
@@ -84,7 +84,7 @@ graph TD
 - Ch. 3 licenses it: power over "each and all the pastors" includes replacing any of them.
 - The 1875 reading survives it: the new bishops governed by their own power, not as papal administrators.
 
-The strain: the definition subjects *each* bishop to the primacy, the 1875 reading protects the *episcopate*, and nothing says when acts against each become an act against the order. No earthly tribunal enforces the limits named, divine law and the Church's constitution. The [`apologetics-catholic-claims` syllabus](../../apologetics-catholic-claims/syllabus.md) (5.3) puts the sharper Orthodox objection here, at ch. 3; *Ut Unum Sint* opened the same ground ([4.5](04-05-vatican-ii-primacy-collegiality-synodality.md)).
+The strain: the definition subjects *each* bishop to the primacy, the 1875 reading protects the *episcopate*, and nothing says when acts against each become an act against the order. No earthly tribunal enforces the limits named, divine law and the Church's constitution. The [`apologetics-catholic-claims` syllabus](../../apologetics-catholic-claims/syllabus.md) ([5.3](../../apologetics-catholic-claims/lessons/05-03-vatican-i-read-by-orthodox-theologians.md)) puts the sharper Orthodox objection here, at ch. 3; *Ut Unum Sint* opened the same ground ([4.5](04-05-vatican-ii-primacy-collegiality-synodality.md)).
 
 ## Watch out
 
@@ -202,5 +202,5 @@ Find **four** errors. For each, give the correction and the text or act that fix
 ## Connections
 
 - **Backward:** [4.1](04-01-the-petrine-texts.md) reads the Petrine texts that chs. 1 and 4 cite (Matthew 16, John 21, Luke 22:32). [4.2](04-02-the-development-of-papal-claims-read-honestly.md) traces the claims ch. 3 renews and the conciliarism it shuts out. [`church-history` 8.2](../../church-history/lessons/08-02-pius-ix-vatican-i-and-the-fall-of-rome.md) has the event, the votes and the minority's letter. [`church-history` 8.1](../../church-history/lessons/08-01-enlightenment-revolution-and-napoleon.md) has the Four Articles and 1801. [`fundamental-theology` 4.2](../../fundamental-theology/lessons/04-02-infallibility-and-its-conditions.md) has the conditions as a test.
-- **Forward:** [4.4](04-04-infallibility-in-exercise-and-the-ordinary-universal-magisterium.md) asks which acts have met the conditions, sets Honorius against ch. 4's narrative, and reads Newman on what the definition asks. [4.5](04-05-vatican-ii-primacy-collegiality-synodality.md) writes the missing chapter on the bishops. [`apologetics-catholic-claims`](../../apologetics-catholic-claims/syllabus.md) 5.3 argues the Orthodox objection to 1870, which this lesson does not.
+- **Forward:** [4.4](04-04-infallibility-in-exercise-and-the-ordinary-universal-magisterium.md) asks which acts have met the conditions, sets Honorius against ch. 4's narrative, and reads Newman on what the definition asks. [4.5](04-05-vatican-ii-primacy-collegiality-synodality.md) writes the missing chapter on the bishops. [`apologetics-catholic-claims`](../../apologetics-catholic-claims/syllabus.md) [5.3](../../apologetics-catholic-claims/lessons/05-03-vatican-i-read-by-orthodox-theologians.md) argues the Orthodox objection to 1870, which this lesson does not.
 - **Sideways:** Weber read infallibility as a bureaucratic "competence" that works only *ex cathedra*, in office ([`social-theory` 4.4](../../social-theory/lessons/04-04-bureaucracy-rationalization-and-disenchantment.md) P1). Ch. 3's ban on appeal to a council answers Marsilius and the conciliarists of [`history-of-political-thought` 2.5](../../history-of-political-thought/lessons/02-05-marsilius-and-conciliarism.md).

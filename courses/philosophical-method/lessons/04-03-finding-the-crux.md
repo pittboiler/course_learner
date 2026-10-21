@@ -86,7 +86,7 @@ The Reformation dispute over justification. Crudely: one side says a person is j
 | | Lutheran confessional position | Catholic position, as defined at Trent |
 |---|---|---|
 | **P1** | Salvation is by grace; nothing merits the initial grace | *same* |
-| **P2** | To justify is to declare righteous — God imputes Christ's righteousness to the sinner, who is counted righteous on Christ's account | To justify is to *make* righteous — remission of sins together with sanctification and renewal of the inner man (Session VI, ch. VII; DH 1528) |
+| **P2** | To justify is to declare righteous — God imputes Christ's righteousness to the sinner, who is counted righteous on Christ's account | To justify is to *make* righteous — remission of sins together with sanctification and renewal of the inner man (Session VI, ch. VII, DH 1528; defined in substance by can. 11) |
 | **P3** | Renewal genuinely follows, as sanctification, but is a distinct work and is not what justifies | The renewal is not a separate consequence but part of what the word names |
 | **∴ C** | Faith alone justifies | Faith alone does not justify |
 

@@ -174,7 +174,7 @@ weight is the weight of its evidence.
 | 2015 reflection of the Commission for Religious Relations with the Jews | not magisterial (says so itself) | | [5.3](lessons/05-03-romans-5-11-adam-spirit-israel.md) |
 | The dilemma "Jesus erred about an immediate coming, or most gospel teaching is inauthentic" | condemned as a set, no note per proposition | *Lamentabili*, prop. 33 (July 1907) | [3.3](lessons/03-03-what-historians-broadly-agree-on.md) |
 | No one is justified by works done through the Law without grace | rung 1 | Trent VI, canon 1 | [5.1](lessons/05-01-galatians-faith-law-and-the-gentiles.md), [5.4](lessons/05-04-the-new-perspective-on-paul.md) |
-| Justification is gratuitous; faith is its beginning | rung 1 (taught in the decree) | Trent VI, ch. 8 | [5.2](lessons/05-02-romans-1-4-the-righteousness-of-god.md) |
+| Justification is gratuitous; faith is its beginning | gratuity rung 1 (canons 1–3; Orange II); faith the beginning at least rung 3 (chapter text) | Trent VI, ch. 8 | [5.2](lessons/05-02-romans-1-4-the-righteousness-of-god.md) |
 | The formal cause: the justice of God by which he makes us just | taught in the decree | Trent VI, ch. 7 (Augustine's formula) | [5.2](lessons/05-02-romans-1-4-the-righteousness-of-god.md) |
 | Justification by the *sole* imputation of Christ's justice | anathematized, rung 1 | Trent VI, canon 11 | [5.2](lessons/05-02-romans-1-4-the-righteousness-of-god.md) |
 | "Faith alone" in the sense that nothing else co-operates | anathematized (a sense, not a word) | Trent VI, canon 9 | [5.2](lessons/05-02-romans-1-4-the-righteousness-of-god.md) |
@@ -1839,8 +1839,8 @@ early; the dispute is what they show (all paraphrased):
 Galatians and Romans in their own Greek. **What is defined** (Trent, Session VI; the
 decree is owned by [`creation-grace-last-things`](../creation-grace-last-things/syllabus.md)):
 no one is justified by works done through the Law without grace (canon 1); justification
-is gratuitous and faith its beginning (ch. 8); its formal cause is the justice of God by
-which he makes us just (ch. 7); not by the *sole* imputation of Christ's justice (canon
+is gratuitous (canons 1–3; ch. 8 adds, at least rung 3, that faith is its beginning); its formal cause is the justice of God by
+which he makes us just (ch. 7, in substance canons 10–11); not by the *sole* imputation of Christ's justice (canon
 11); "faith alone" condemned in the sense that nothing else co-operates (canon 9); good
 works preserve and increase justice received (canon 24). **What is not defined:** the
 grammar of any phrase below. Trent borrowing a phrase is not Trent exegeting a verse.

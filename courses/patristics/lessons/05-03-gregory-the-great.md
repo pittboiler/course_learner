@@ -46,7 +46,7 @@ Between 595 and 602 Gregory wrote repeatedly against John the Faster, patriarch 
 |---|---|---|
 | **What Gregory refuses** | A title that would make one bishop *the* bishop and so unchurch the rest — a claim about the episcopate, not about Rome's authority | Any claim by any see, Rome included, to be bishop of the whole Church |
 | **Words it leans on** | Chalcedon "offered" the name to the popes and none "wished to be called by such a title" (Letter V.18): a title Rome could have had and declined. In V.43 Gregory approves his predecessor Pelagius II annulling John's synod "by the authority of the holy apostle Peter" — and does so in the same letter that condemns the title | Peter himself "is not called the universal apostle" though "the care and principality of the whole Church is committed to him" (V.20). Whoever "desires to be called, Universal Priest, is in his elation the precursor of Antichrist" (VII.33) — a sentence later Protestant polemic turned back on Rome |
-| **What it must explain** | Why Gregory says the honour was *offered* to Rome and refused, rather than that it belongs to Rome | Why a pope who denies that any bishop is universal annuls an Eastern synod by Peter's authority, confirms and rebukes patriarchs, and is obeyed |
+| **What it must explain** | Why Gregory says the honour was *offered* to Rome and refused, rather than that it belongs to Rome | Why a pope who denies that any bishop is universal endorses his predecessor's annulment of an Eastern synod by Peter's authority, confirms and rebukes patriarchs, and is obeyed |
 
 Both read the same letters honestly; the disagreement is over which sentence is load-bearing, and re-reading alone does not settle that — which is the lesson.
 

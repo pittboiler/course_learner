@@ -2987,7 +2987,6 @@ up is a bug.
 | The state's authority to punish | [`political-philosophy` syllabus](../political-philosophy/syllabus.md) |
 | Probability and decision under uncertainty, as mathematics | [`decision-theory` syllabus](../decision-theory/syllabus.md) |
 | Usury and the extrinsic titles | [`theology-of-debt` syllabus](../theology-of-debt/syllabus.md) |
-| The Catholic claims in dispute with Protestant critics of natural law | [`apologetics-catholic-claims` syllabus](../apologetics-catholic-claims/syllabus.md) |
 | The Blessed Virgin's privilege (Trent VI can. 23) | [`ecclesiology-and-mariology` syllabus](../ecclesiology-and-mariology/syllabus.md) |
 
 ## Pitfalls

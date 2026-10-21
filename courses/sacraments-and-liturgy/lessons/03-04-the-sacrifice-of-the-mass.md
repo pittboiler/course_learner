@@ -26,7 +26,7 @@ The Lutheran and Reformed confessions, stated as they state themselves and left 
 
 "The death of Christ alone is truly a propitiatory sacrifice." Prayer, thanksgiving, preaching and the saints' afflictions are of the second kind, which Malachi's "clean oblation" (1:11) means. The Mass may be called a daily sacrifice if the whole Mass is meant, not a ceremony profiting others *ex opere operato*.
 
-**The Reformed.** The Heidelberg Catechism, Q. 80 (1563), sets the Supper, witness to full forgiveness by Christ's one sacrifice once accomplished, against a Mass that offers forgiveness only if Christ is "still daily offered" by priests: "a denial of the one sacrifice and passion of Jesus Christ". The Thirty-Nine Articles (1571), art. 31: Christ's offering once made is the perfect redemption, propitiation and satisfaction for all sin, and there is no other; so the sacrifices of Masses for the quick and the dead "were blasphemous fables, and dangerous deceits".
+**The Reformed.** The Heidelberg Catechism, Q. 80 (1563), sets the Supper, witness to full forgiveness by Christ's one sacrifice once accomplished, against a Mass that offers forgiveness only if Christ is "still daily offered" by priests: "a denial of the one sacrifice and passion of Jesus Christ". The Thirty-Nine Articles (1571), art. 31: Christ's offering once made is the perfect redemption, propitiation and satisfaction for all sin, and there is no other; so the sacrifices of Masses commonly said to offer Christ for the quick and the dead for remission of pain or guilt "were blasphemous fables, and dangerous deceits".
 
 ## The doctrine
 

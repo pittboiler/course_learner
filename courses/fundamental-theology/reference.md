@@ -65,7 +65,8 @@ For weighing an authentic non-definitive act: **the character of the document**,
 | Apostolic letter; exhortation | Ordinary magisterium; read the operative verb |
 | Instruction (can. 34); dicastery response or note | Authentic, non-definitive; weight partly from papal approval *in forma specifica* or *communi* |
 | Motu proprio | A **mode of issuance**, not a rung |
-| Address, homily, interview, press remark | Not a teaching act of the kind the ladder grades |
+| Address, homily, audience catechesis (pope) | At its heaviest, authentic ordinary magisterium at its lightest grade; never a definition |
+| Interview, press conference, private letter, preface | Not a teaching act of the kind the ladder grades |
 | Catechism | A compendium; each claim keeps its source's weight |
 | ITC and (since 1971) PBC studies | **Advisory**; the weight of their argument, not of a teaching act |
 

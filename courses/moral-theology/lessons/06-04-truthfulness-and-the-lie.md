@@ -1,6 +1,6 @@
 # Moral Theology · Lesson 6.4: Truthfulness and the lie
 
-> ⏱ ~15 min · Module 6: Sexuality and truthfulness · Builds on: [2.3 Intention and circumstances](02-03-intention-and-circumstances.md), [4.4 Veritatis Splendor](04-04-veritatis-splendor.md) · Unlocks: Boss problem 6 in the [syllabus](../syllabus.md); [`apologetics-catholic-claims`](../../apologetics-catholic-claims/syllabus.md)
+> ⏱ ~15 min · Module 6: Sexuality and truthfulness · Builds on: [2.3 Intention and circumstances](02-03-intention-and-circumstances.md), [4.4 Veritatis Splendor](04-04-veritatis-splendor.md) · Unlocks: Boss problem 6 in the [syllabus](../syllabus.md)
 
 ## Why this matters
 
@@ -154,5 +154,5 @@ flowchart TD
 ## Connections
 
 - **Backward:** [2.2](02-02-the-moral-object.md) and [2.3](02-03-intention-and-circumstances.md) supply the object and the rule that a good end cannot redeem it, and 2.3's Source was *Against Lying* 18. [4.1](04-01-casuistry-and-the-probabilism-controversy.md) gave the casuists who built mental reservation, and [4.4](04-04-veritatis-splendor.md) the level of intrinsically evil acts. The rungs come from [`fundamental-theology` 4.4](../../fundamental-theology/lessons/04-04-the-ladder-of-doctrinal-authority.md).
-- **Forward:** Boss problem 6 in the [syllabus](../syllabus.md) reads Augustine's definition closely and puts it to the hardest case. [`apologetics-catholic-claims`](../../apologetics-catholic-claims/syllabus.md) can defend the absolute norm against its critics from the positions stated here.
+- **Forward:** Boss problem 6 in the [syllabus](../syllabus.md) reads Augustine's definition closely and puts it to the hardest case.
 - **Sideways:** Kant, Constant and the murderer at the door are [`ethics` 2.3](../../ethics/lessons/02-03-humanity-autonomy-and-the-lie.md). The dispute is the lie's version of the object question in [4.5](04-05-describing-the-object.md): is "killing an aggressor" or "false speech to a fraudster" a redescribed object or a smuggled end? Grotius's right-based definition, formed for ruses in war, belongs to the law of nations ([`philosophy-of-law`](../../philosophy-of-law/syllabus.md)).

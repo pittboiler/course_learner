@@ -1723,8 +1723,8 @@ Ephesus forbade composing a different faith as a rival to Nicaea's
 ([the prohibition of another faith](#the-prohibition-of-another-faith)); the Greek
 complaint is that part of the Church altered a creed ratified by ecumenical
 councils **without a council**. Keep the two objections apart: the canonical one
-could be granted without touching the doctrinal one — Leo III in 809 held the
-doctrine and refused the insertion. The Latin creed with *Filioque* appears in
+could be granted without touching the doctrinal one — Leo III in 810 held the
+doctrine and refused the insertion (Florence later defined the addition lawful, DS 1302). The Latin creed with *Filioque* appears in
 Visigothic Spain around the Third Council of Toledo (589), by an unknown hand;
 spread through Francia; was defended at Friuli (796) and Aachen (809); and is
 generally dated at Rome to 1014. The events belong to
@@ -2108,7 +2108,7 @@ it up is a bug.
 | The communication of idioms — the rule that makes "one of the Trinity suffered in the flesh" a legitimate sentence — the hypostatic union, Constantinople II as Christology, Christ's two wills | [`christology`](../christology/syllabus.md) 2.4, 3.2 |
 | What sanctifying grace is, the indwelling as created grace, the *imago Dei*, the beatific vision | `creation-grace-last-things` |
 | The baptismal formula and the doxologies as **sacramental and liturgical law** | `sacraments-and-liturgy` |
-| The filioque argued against Orthodox objections; the Trinity against unitarian and Islamic objections | `apologetics-catholic-claims`, [`apologetics-foundations`](../apologetics-foundations/syllabus.md) |
+| The filioque argued against Orthodox objections; the Trinity against unitarian and Islamic objections | `apologetics-catholic-claims` (the filioque), [`apologetics-foundations`](../apologetics-foundations/syllabus.md) (objections to the Trinity itself) |
 | The Church's social doctrine, argued on its own grounds rather than inferred from the processions | `catholic-social-teaching` |
 
 ### Analogy

@@ -83,7 +83,7 @@ But now the harder half, which the correction must not lose: the decree still sa
 
 ## Watch out
 
-- **You might think Trent invented the list.** It ratified one. The same enumeration had been given at Florence in 1442, and before that in North African councils of the late fourth century. What was new in 1546 was the solemn, universally binding form — and the anathema.
+- **You might think Trent invented the list.** It ratified one. The same enumeration had been given at Florence in 1442, and substantially the same (Baruch is not named) in North African councils of the late fourth century. What was new in 1546 was the solemn, universally binding form — and the anathema.
 - **You might think "deuterocanonical" means "second-class."** It records that these books' reception was contested longer. In the decree there is one list and one status.
 - **You might think the Church's approval is what makes a book Scripture.** *Dei Filius* ch. 2 forecloses it, and the two theories it forecloses were Catholic ones. Recognition, not conferral.
 - **You might think Session IV is one decree.** It is two, and they do different jobs at different levels. The famous rule against interpreting Scripture contrary to the sense the Church has held, and against the unanimous consent of the Fathers, is in the *second* decree — and belongs to [3.4](03-04-tradition.md).
@@ -147,7 +147,7 @@ But now the harder half, which the correction must not lose: the decree still sa
 **P3** *(a) exegetical — strict; (b) evaluative — any verdict.*
 
 **Must hit, strict (a):** any three of —
-1. "Created at Trent" / "added seven books": the first decree ratifies a list already given at Florence in 1442 and in the fourth-century African councils, and the enumeration has one rank with nothing marked as an addition. What was new was the binding solemn form.
+1. "Created at Trent" / "added seven books": the first decree ratifies a list already given at Florence in 1442 and, substantially, in the fourth-century African councils, and the enumeration has one rank with nothing marked as an addition. What was new was the binding solemn form.
 2. "Declared its Latin translation superior to the Hebrew and Greek": the second decree declares the Vulgate *authentic* for public lectures, disputations, sermons and expositions — a ruling about which Latin edition is standard, with no comparative claim about the originals. The same decree orders a corrected printing.
 3. "Bound to hold the Vulgate is the inspired text": no document teaches that a translation is inspired. Inspiration attaches to the composition of the books.
 4. The note collapses two decrees of different kinds — a definition of doctrine and a disciplinary ruling — into one act.
