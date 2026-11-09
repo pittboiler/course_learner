@@ -25,7 +25,7 @@ This course asks the moral and conceptual questions that debt raises and that ev
 | Harsanyi, population ethics | [`decision-theory`](../decision-theory/syllabus.md) 5.1, 5.3-5.4 | Cited in 6.2 for the non-identity problem's formal neighbours |
 | The Contracts Clause and state insolvency laws as constitutional doctrine | [`constitutional-law`](../constitutional-law/syllabus.md) 4.2 | Not taught. Bankruptcy is argued about as a moral institution (5.3) |
 | Holmes's prediction theory and Hart's reply as jurisprudence; Hohfeld's powers; will vs interest theories of rights; the paradox of mercy in punishment | [`philosophy-of-law`](../philosophy-of-law/syllabus.md) 1.2, 6.1, 6.2, 5.4 | Assumed. 1.4 applies the prediction theory to the duty to repay; 5.1 uses Hohfeldian powers and waivable claims for a creditor's release, and cites the paradox of mercy rather than re-deriving it |
-| Church teaching on international debt, property and just wages | `catholic-social-teaching`, `theology-of-debt` | Named as one position among several in 5.4 and 6.3 |
+| Church teaching on international debt, property and just wages | [`theology-of-debt` 6.2](../theology-of-debt/lessons/06-02-international-debt-and-the-jubilee-call.md) for international debt; [`catholic-social-teaching` 3.5](../catholic-social-teaching/lessons/03-05-the-universal-destination-of-goods-and-private-property.md) and [4.2](../catholic-social-teaching/lessons/04-02-the-just-wage.md) for property and the just wage | Named as one position among several in 5.4 and 6.3 |
 
 ## How practice works in this course
 

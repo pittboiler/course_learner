@@ -20,7 +20,7 @@ This course follows debt as a political institution, from Mesopotamian loan tabl
 | Hume, Smith, Hamilton, Jefferson as political theorists | `history-of-political-thought` | Their texts read as sources on public debt only |
 | The bankruptcy and contracts clauses as constitutional doctrine | `constitutional-law` | The history of bankruptcy statutes and of the cases that ended peonage (4.2–4.3) |
 | The IMF and World Bank as international organizations; theories of international cooperation | `international-relations` | Their design, and their role as creditors and crisis managers (5.3–5.5) |
-| Church teaching on international debt | `catholic-social-teaching`, `theology-of-debt` | The Jubilee 2000 campaign as a political movement, religious roots noted and cited (5.5) |
+| Church teaching on international debt | [`theology-of-debt` 6.2](../theology-of-debt/lessons/06-02-international-debt-and-the-jubilee-call.md) (`catholic-social-teaching` cedes international debt to it) | The Jubilee 2000 campaign as a political movement, religious roots noted and cited (5.5) |
 
 ## How practice works in this course
 

@@ -125,7 +125,7 @@ teaching without raising it.
 | 3 | What "usury" denotes in Vienne (loan as such, or all interest) | **not settled** by the decree; the 5.4 crux | none | [4.2](lessons/04-02-from-canon-to-council.md), [5.4](lessons/05-04-did-the-usury-doctrine-change.md) |
 | 4 | *Vix Pervenit*'s teaching | 3 at least, for the bishops of Italy; wider reach argued | encyclical of 1 Nov 1745; Holy Office 29 July 1836 reported (CE 1912) as extending it incidentally | [5.2](lessons/05-02-vix-pervenit.md), [5.4](lessons/05-04-did-the-usury-doctrine-change.md) |
 | 5 | The 1830–1838 replies and the 1873 instruction | pastoral directives to confessors, not definitions; they said so (*sub iudice*) | Pius VIII 1830 (DH 2722–2724); Holy Office 1838 (DH 2743); Propaganda 1873 (DH 3105–3109) | [5.3](lessons/05-03-not-to-be-disturbed.md) |
-| 6 | International debt: debts bind; no exaction at the price of hunger; shared responsibility; justice-duty of CCC 2439 | 3 | CA 35, SRS 19, CCC 2439, Compendium 450 | [6.2](lessons/06-02-international-debt-and-the-jubilee-call.md) |
+| 6 | International debt: debts bind; no exaction at the price of hunger; shared responsibility; justice-duty of CCC 2439 | 3 | CA 35, SRS 19, CCC 2439 (Compendium 450 locates the teaching; a compilation, not an act) | [6.2](lessons/06-02-international-debt-and-the-jubilee-call.md) |
 | 6 | Specific relief proposals (cancel for 2000, SNC 16's appeal, LS 52's energy prescription) | prudential | TMA 51, SNC 16, LS 52 | [6.2](lessons/06-02-international-debt-and-the-jubilee-call.md) |
 
 **Module 1: the Old Testament**
@@ -1471,7 +1471,7 @@ profit drawn from another's need, debt that crushes).** Close to Italian crimina
 
 | Text | Date | Content |
 |---|---|---|
-| *Rerum Novarum* 3 | 15 May 1891 | "rapacious usury ... under a different guise, but with like injustice" |
+| *Rerum Novarum* 3 | 15 May 1891 | "rapacious usury ... under a different guise, but with the like injustice" (Benziger 1903 English) |
 | *Rerum Novarum* 20 | 1891 | gathering "one's profit out of the need of another" condemned; "usurious dealing" |
 | CCC 2269 | — | usurious and greedy dealings bringing hunger and death: indirect homicide (fifth commandment; fn cites Amos 8:4–10) |
 | CCC 2409; 2438; 2449 | — | exploiting hardship; "abusive if not usurious" international systems; OT ban as care for the poor |
@@ -1492,7 +1492,7 @@ Lessons: [6.1](lessons/06-01-usury-and-finance-in-modern-teaching.md)
 
 ### Centesimus Annus 35
 
-**John Paul II (1991): "The principle that debts must be paid is certainly just"; but
+**John Paul II (1991): the obligation to repay debts is just (paraphrased); but
 payment may not be demanded when it brings hunger and despair to entire peoples. Then
 ways must be found to lighten, defer or even cancel the debt, consistent with peoples'
 right to subsistence and progress.** Debtor nations owe effort, sacrifice and

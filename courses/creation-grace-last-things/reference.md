@@ -1089,7 +1089,7 @@ An image is a copy that points back to its original; one egg exactly like anothe
 | every human being is made in God's image | **rung 1**: asserted formally in Scripture and always proposed as revealed by the ordinary universal magisterium; GS 12 reports it, and no definition was needed |
 | it survives sin and is present in every human being | **at least rung 3** (CCC 705, 1702; GS 22; DI §22); its core, free will not "lost and extinguished", **rung 1** (Trent VI can. 5) |
 | intellect and freedom manifest it; the body shares its dignity | **rung 3** (GS 12, 17; CCC 356, 363, 364, 1705) |
-| equal, indelible ontological dignity | **rung 3**: a rung-3 act ([Dignitas Infinita](#dignitas-infinita)) has spoken, so not rung 5; none proposes it as revealed, so not rung 1 (the lesson's table words it "at least rung 3") |
+| equal, indelible ontological dignity | **at least rung 3**: a rung-3 act ([Dignitas Infinita](#dignitas-infinita)) has spoken, so not rung 5; none proposes it as revealed, so not rung 1 |
 | Aquinas's grades of nature, grace and glory | **rung 4** ([three grades of the image](#three-grades-of-the-image)) |
 | the mind alone, the body a trace | **rung 5** ([image and trace](#image-and-trace)) |
 
@@ -1157,7 +1157,7 @@ The Dicastery for the Doctrine of the Faith's declaration on human dignity, date
 
 Approved by Francis at the audience of 25 March 2024, who ordered its publication: ordinary approval (*in forma communi*), so the act is the dicastery's ([`fundamental-theology` 4.5](../fundamental-theology/lessons/04-05-reading-a-documents-weight.md)). Paraphrased (in copyright): §1, an infinite dignity, inalienably grounded in the person's being; §§7-8, the [four senses of dignity](#four-senses-of-dignity); §18, the Creator has imprinted the indelible features of his image on every person, and the body participates in its own way in being in God's image; §22, Irenaeus and the Damascene distinguished image and likeness, and sin can never cancel the fact that the human being is created in God's image and likeness; §24, dignity cannot hang on a judgement of the person's ability to understand and act freely; the only prerequisite is membership of the human species.
 
-**Level:** **rung 3**: taught, not defined, by a declaration with ordinary papal approval. It closes a question once arguable from Aquinas (II-II q.64 a.2 ad 3), so indelible ontological dignity is not rung 5; no act proposes it as revealed, so it is not rung 1.
+**Level:** **rung 3** as an act, and its teaching of indelible ontological dignity **at least rung 3**: taught, not defined, by a declaration with ordinary papal approval. It closes a question once arguable from Aquinas (II-II q.64 a.2 ad 3), so indelible ontological dignity is not rung 5; no act proposes it as revealed, so it is not rung 1.
 
 *Lessons:* [2.1](lessons/02-01-the-image-of-god.md)
 
@@ -1167,7 +1167,7 @@ Approved by Francis at the audience of 25 March 2024, who ordered its publicatio
 
 DI §§7-8, paraphrased. *Ontological*: the person's simply because she exists and is willed, created and loved by God; indelible. *Moral*: how freedom is exercised; it can in fact be "lost" by grave evil. *Social*: the quality of one's living conditions ("undignified" poverty judges the situation, not the person). *Existential*: one's experience of one's own life as dignified or not. Its use (2.1 Ex 2): it separates what Aquinas ran together, the grave sinner who "falls away from the dignity of his manhood" and may be killed "even as it is to kill a beast" (II-II q.64 a.2 ad 3), from his own image of nature "found in all men" (I q.93 a.4). The resolution is the declaration's distinction, not Aquinas's. Reaching from indelible dignity to the death penalty's being "inadmissible" (CCC 2267, revised 2018) took a further judgement about what punishment is for ([`moral-theology` 5.4](../moral-theology/lessons/05-04-the-death-penalty-and-ccc-2267.md)).
 
-**Level:** the distinction is the declaration's analytic tool; the teaching it serves, indelible ontological dignity, is **rung 3**.
+**Level:** the distinction is the declaration's analytic tool; the teaching it serves, indelible ontological dignity, is **at least rung 3**.
 
 *Lessons:* [2.1](lessons/02-01-the-image-of-god.md)
 
@@ -3956,7 +3956,7 @@ Every row points at the course that teaches it; an assumption with nowhere to lo
 | Whether the intellect is immaterial; hylomorphism against dualism and functionalism | [`philosophy-of-mind`](../philosophy-of-mind/syllabus.md) (not yet built) |
 | Whether a science can rule a cause in or out; what genetic data license | [`philosophy-of-science`](../philosophy-of-science/syllabus.md) (not yet built) |
 | The argued disputes: *sola fide*, imputation and assurance; free will against the Reformers; election; purgatory, indulgences and the invocation of saints against Protestant and Orthodox objections | [`apologetics-catholic-claims`](../apologetics-catholic-claims/syllabus.md) |
-| The image and the social order; what the renewal of creation asks of Christians now | [`catholic-social-teaching`](../catholic-social-teaching/syllabus.md) (not yet built) |
+| The image and the social order; what the renewal of creation asks of Christians now | [`catholic-social-teaching` 3.1](../catholic-social-teaching/lessons/03-01-human-dignity.md) (the image and the social order), [6.1](../catholic-social-teaching/lessons/06-01-integral-ecology-laudato-si.md) (care for creation now) |
 
 ## Pitfalls
 

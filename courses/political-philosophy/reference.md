@@ -2754,7 +2754,7 @@ ignoring a duty the able owe.
 
 **What smaller and lower bodies can do should not be absorbed by larger and higher ones, and the higher
 body owes them help (*subsidium*).** *Quadragesimo Anno* (1931), paraphrased; taught from within at
-[`catholic-social-teaching`](../catholic-social-teaching/syllabus.md) 3.3.
+[`catholic-social-teaching` 3.3](../catholic-social-teaching/lessons/03-03-subsidiarity.md).
 
 - **Binds both ways:** a restraint and an obligation on the state; not a presumption for small
   government. Withdrawing help in its name misreads it.
@@ -2770,7 +2770,7 @@ body owes them help (*subsidium*).** *Quadragesimo Anno* (1931), paraphrased; ta
 
 **The earth's goods are meant for all; private property is the ordinary, legitimate means to that end, not
 its rival; when property fails to serve it, need comes first.** Catholic social teaching, taught from
-within at [`catholic-social-teaching`](../catholic-social-teaching/syllabus.md) 3.5. Also grounds the
+within at [`catholic-social-teaching`](../catholic-social-teaching/syllabus.md) [3.5](../catholic-social-teaching/lessons/03-05-the-universal-destination-of-goods-and-private-property.md). Also grounds the
 CST cosmopolitan position with solidarity ([6.1](lessons/06-01-global-justice-cosmopolitans-and-statists.md)).
 
 *Lessons:* [6.1](lessons/06-01-global-justice-cosmopolitans-and-statists.md), [6.4](lessons/06-04-welfare-property-and-subsidiarity.md)

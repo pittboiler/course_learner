@@ -81,7 +81,7 @@ Run P4 on the taxpayer a century on. Had the choice gone the other way she would
 - **Standpoints.** Contractualists such as Rahul Kumar ask whether a principle could be reasonably rejected from the standpoint of a *type* of person, here whoever pays this tax in a century ([ethics 5.2](../../ethics/lessons/05-02-contractualism-what-no-one-could-reasonably-reject.md)'s generic reasons).
 - **Bite the bullet.** David Boonin accepts that such choices, if they leave lives worth living, wrong no one; objections must rest on people who exist either way.
 
-Catholic social teaching extends the common good to future generations and calls intergenerational solidarity a matter of justice (*Laudato Si'* 159, 2015, paraphrased; [`catholic-social-teaching`](../../catholic-social-teaching/syllabus.md) 6.1), a ground that, like the impersonal and standpoint replies, needs no victim made worse off.
+Catholic social teaching extends the common good to future generations and calls intergenerational solidarity a matter of justice (*Laudato Si'* 159, 2015, paraphrased; [`catholic-social-teaching`](../../catholic-social-teaching/syllabus.md) [6.1](../../catholic-social-teaching/lessons/06-01-integral-ecology-laudato-si.md)), a ground that, like the impersonal and standpoint replies, needs no victim made worse off.
 
 ## Watch out
 

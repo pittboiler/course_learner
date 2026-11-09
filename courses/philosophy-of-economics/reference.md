@@ -2004,9 +2004,9 @@ fans freely pay to watch a star; his large income is just because the transfers 
 ### Just wage
 
 **Free wage agreement is bounded by natural justice: a floor set by need, independent of
-contribution and of agreement.** *Rerum Novarum* (Leo XIII, 1891, §45, Vatican translation): wages
-"ought not to be insufficient to support a frugal and well-behaved wage-earner". One position among
-several here; the teaching is `catholic-social-teaching`'s.
+contribution and of agreement.** *Rerum Novarum* (Leo XIII, 1891, §45 in the Vatican numbering; Benziger 1903 English):
+"remuneration ought to be sufficient to support a frugal and well-behaved wage-earner". One position among
+several here; the teaching is [`catholic-social-teaching` 4.2](../catholic-social-teaching/lessons/04-02-the-just-wage.md)'s.
 
 *Lessons:* [5.4](lessons/05-04-markets-and-desert.md)
 
@@ -2527,7 +2527,7 @@ Everything else is paraphrased.
 |---|---|---|---|---|
 | Mill, "On the Definition of Political Economy; and on the Method of Investigation Proper to It" (Essay V of *Essays on Some Unsettled Questions of Political Economy*) | written by 1830; first printed 1836; collected 1844 | Project Gutenberg text of the 1844 collection; **public domain** | "solely as a being who desires to possess wealth"; "true in the abstract … with proper allowances"; the tendency and exceptions passage (Gutenberg's stray "ably" dropped as a transcription slip) | [6.1](lessons/06-01-idealization-and-isolation.md) |
 | Marx, *Capital* vol. 1 | 1867 | Moore and Aveling translation; **public domain** | ch. 6 (labour-power bought at its value; the "very Eden of the innate rights of man"); ch. IX (rate of surplus value); ch. XXVI (the "frugal elite" fable) | [5.3](lessons/05-03-exploitation-in-labour-markets.md) |
-| Leo XIII, *Rerum Novarum* | 1891 | Vatican English translation (§45 in its numbering) | §45, the just wage | [5.4](lessons/05-04-markets-and-desert.md) |
+| Leo XIII, *Rerum Novarum* | 1891 | *The Great Encyclical Letters of Pope Leo XIII* (Benziger, New York, 1903); **public domain**; cited by the vatican.va section numbers | §45, the just wage | [5.4](lessons/05-04-markets-and-desert.md) |
 | J. B. Clark, *The Distribution of Wealth* | 1899 | **public domain** | preface (the natural law giving each agent "the amount of wealth which that agent creates"); ch. I ("pure fact", "by right of creation", "institutional robbery") | [5.4](lessons/05-04-markets-and-desert.md) |
 | Sidgwick, *The Methods of Ethics* | 7th ed., 1907 | Project Gutenberg #46743; **public domain** | Book IV ch. 1 (time and the value of happiness from a universal point of view); Book III ch. 13 (prudence; certainty and "means or capacities of happiness") | [4.1](lessons/04-01-why-discount.md) |
 | Pigou, *The Economics of Welfare* | 1920 | first edition; **public domain** | Part I ch. II §3 (the defective telescopic faculty; satisfactions, not objects); §5 (the state's duty, reserved for Boss 4(c)) | [4.1](lessons/04-01-why-discount.md) |
@@ -2702,7 +2702,7 @@ the syllabus gives.
 | Rawls and undeserved endowments (2.2-2.3); Nozick (2.4); capabilities as the currency of justice (2.5); luck egalitarianism (2.6); soft and hard paternalism (3.2-3.3); Young's structural injustice (4.4) | [`political-philosophy`](../political-philosophy/syllabus.md) |
 | Polanyi's fictitious commodities; commodification as social theory (2.3, 5.3) | [`social-theory`](../social-theory/syllabus.md) |
 | Explanation (D-N, causal, unification) 4.1-4.3; realism and instrumentalism 5.1-5.4 | [`philosophy-of-science`](../philosophy-of-science/syllabus.md) |
-| The just wage and the universal destination of goods (4.2) | [`catholic-social-teaching`](../catholic-social-teaching/syllabus.md) |
+| The just wage (4.2) and the universal destination of goods (3.5) | [`catholic-social-teaching`](../catholic-social-teaching/syllabus.md) |
 | Collective action, where no participant chose the aggregate (3.1-3.2) | [`political-economy`](../political-economy/syllabus.md) |
 | Marx's alienated labour and theory of history | [`history-of-political-thought` 6.5](../history-of-political-thought/lessons/06-05-marx-from-hegel-to-historical-materialism.md) |
 

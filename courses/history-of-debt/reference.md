@@ -1337,7 +1337,7 @@ A refresher may assume; it may not hide. Every ceded topic points at the course 
 | The IMF and World Bank as international organizations with members, votes and mandates; the politics of conditionality | [international-relations](../international-relations/syllabus.md) |
 | The Monroe Doctrine, arbitration and intervention as problems of international order; sovereign immunity and the treaty-making an SDRM would have needed | [international-relations](../international-relations/syllabus.md) |
 | The bankruptcy and contracts clauses as constitutional doctrine; the Thirteenth Amendment and Congress's enforcement power; the limits of executive authority; today's criminal-justice debt | [constitutional-law](../constitutional-law/syllabus.md) |
-| Church teaching on international debt, and the papal appeals of 1994–2000 | [catholic-social-teaching](../catholic-social-teaching/syllabus.md), [theology-of-debt](../theology-of-debt/syllabus.md) |
+| Church teaching on international debt, and the papal appeals of 1994–2000 | [theology-of-debt 6.2](../theology-of-debt/lessons/06-02-international-debt-and-the-jubilee-call.md) (the call is theology-of-debt's, not catholic-social-teaching's) |
 | Hume, Smith, Hamilton, Madison and Jefferson as political theorists; Machiavelli the republican rather than the historian of Genoa; Aristotle on legislators from the middle; Locke on self-enslavement | [history-of-political-thought](../history-of-political-thought/syllabus.md) |
 | The composition and dating of the Pentateuchal codes | [old-testament](../old-testament/syllabus.md) 2.2, 2.6 |
 | Lateran IV and the medieval Church's treatment of Jews as church history | [church-history](../church-history/syllabus.md) 5.1, 5.3 |

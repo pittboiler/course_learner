@@ -3243,7 +3243,7 @@ two centuries and much worse after, yet worse for no one.
   objections must rest on people who exist either way).
 - **Catholic social teaching** extends the common good to future generations and calls
   intergenerational solidarity a matter of justice (*Laudato Si'* 159, 2015, paraphrased;
-  [`catholic-social-teaching`](../catholic-social-teaching/syllabus.md) 6.1), a ground that, like the
+  [`catholic-social-teaching`](../catholic-social-teaching/syllabus.md) [6.1](../catholic-social-teaching/lessons/06-01-integral-ecology-laudato-si.md)), a ground that, like the
   impersonal and standpoint replies, needs no victim made worse off.
 - **It does not license burdening the far future:** it removes one explanation of the wrong, the
   person-affecting one, and leaves the others standing.
@@ -3800,8 +3800,8 @@ number the syllabus gives.
 | Simmel on credit as trust | [`social-theory`](../social-theory/syllabus.md) [5.2](../social-theory/lessons/05-02-simmels-philosophy-of-money.md) |
 | Polanyi's embeddedness | [`social-theory`](../social-theory/syllabus.md) [5.3](../social-theory/lessons/05-03-polanyis-great-transformation.md) |
 | The Contracts Clause and state insolvency laws as doctrine | [`constitutional-law`](../constitutional-law/syllabus.md) 4.2 |
-| The universal destination of goods | [`catholic-social-teaching`](../catholic-social-teaching/syllabus.md) 3.5 |
-| Intergenerational solidarity (*Laudato Si'* 159) | [`catholic-social-teaching`](../catholic-social-teaching/syllabus.md) 6.1 |
+| The universal destination of goods | [`catholic-social-teaching`](../catholic-social-teaching/syllabus.md) [3.5](../catholic-social-teaching/lessons/03-05-the-universal-destination-of-goods-and-private-property.md) |
+| Intergenerational solidarity (*Laudato Si'* 159) | [`catholic-social-teaching`](../catholic-social-teaching/syllabus.md) [6.1](../catholic-social-teaching/lessons/06-01-integral-ecology-laudato-si.md) |
 
 **Economics and game theory**
 

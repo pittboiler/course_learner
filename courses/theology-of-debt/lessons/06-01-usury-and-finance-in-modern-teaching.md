@@ -19,9 +19,9 @@ What joins them is history. The nineteenth-century responses told confessors not
 
 ## Source
 
-*Rerum Novarum* (Leo XIII, 15 May 1891), §3 in the Vatican numbering, Vatican English translation (public domain). The pope is listing what has left workers "surrendered, isolated and helpless":
+*Rerum Novarum* (Leo XIII, 15 May 1891), §3 in the Vatican numbering, in the English of *The Great Encyclical Letters of Pope Leo XIII* (Benziger, New York, 1903), public domain. The pope is listing what has left workers "surrendered, all isolated and helpless":
 
-> "The mischief has been increased by rapacious usury, which, although more than once condemned by the Church, is nevertheless, under a different guise, but with like injustice, still practiced by covetous and grasping men."
+> "The mischief has been increased by rapacious usury, which, although more than once condemned by the Church, is nevertheless, under a different guise, but with the like injustice, still practised by covetous and grasping men."
 
 And §20, among the duties of the rich:
 

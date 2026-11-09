@@ -63,7 +63,7 @@ For weighing an authentic non-definitive act: **the character of the document**,
 | Pastoral constitution; declaration | Conciliar teaching; weight read from the language |
 | Encyclical | Authentic ordinary magisterium; normally defines nothing |
 | Apostolic letter; exhortation | Ordinary magisterium; read the operative verb |
-| Instruction (can. 34); dicastery response or note | Authentic, non-definitive; weight partly from papal approval *in forma specifica* or *communi* |
+| Instruction (can. 34), or a CDF *doctrinal* instruction (*Donum Vitae*, *Libertatis Nuntius*, *Libertatis Conscientia*, *Donum Veritatis*); dicastery response or note | Authentic, non-definitive; weight partly from papal approval *in forma specifica* or *communi* |
 | Motu proprio | A **mode of issuance**, not a rung |
 | Address, homily, audience catechesis (pope) | At its heaviest, authentic ordinary magisterium at its lightest grade; never a definition |
 | Interview, press conference, private letter, preface | Not a teaching act of the kind the ladder grades |
