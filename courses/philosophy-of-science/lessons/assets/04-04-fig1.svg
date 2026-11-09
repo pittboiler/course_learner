@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="800" height="500" fill="#ffffff"/>
+<line x1="92" y1="412" x2="780" y2="412" stroke="#111" stroke-width="1.5"/>
+<line x1="92" y1="412" x2="92" y2="28" stroke="#111" stroke-width="1.5"/>
+<line x1="92" y1="143.2" x2="780" y2="143.2" stroke="#333" stroke-width="1.2" stroke-dasharray="6 5"/>
+<text x="780" y="159.2" text-anchor="end" font-size="12" fill="#333">Strict reading (Earman and Roberts, Beatty): laws only above this line</text>
+<circle cx="745.6" cy="51.0" r="5.5" fill="#1a6fb5"/>
+<text x="735.6" y="43.0" text-anchor="end" font-size="12" fill="#111">Einstein&#39;s field equations</text>
+<circle cx="697.4" cy="104.8" r="5.5" fill="#1a6fb5"/>
+<text x="687.4" y="108.8" text-anchor="end" font-size="12" fill="#111">Uranium spheres under a mile</text>
+<circle cx="209.0" cy="81.8" r="5.5" fill="#1a6fb5"/>
+<text x="219.0" y="85.8" text-anchor="start" font-size="12" fill="#111">Free fall near the Earth</text>
+<circle cx="525.4" cy="181.6" r="5.5" fill="#2e8b57"/>
+<text x="535.4" y="185.6" text-anchor="start" font-size="12" fill="#111">Snell&#39;s law</text>
+<circle cx="346.6" cy="208.5" r="5.5" fill="#2e8b57"/>
+<text x="356.6" y="212.5" text-anchor="start" font-size="12" fill="#111">Mendel&#39;s segregation</text>
+<circle cx="470.4" cy="262.2" r="5.5" fill="#2e8b57"/>
+<text x="480.4" y="266.2" text-anchor="start" font-size="12" fill="#111">Law of demand</text>
+<circle cx="264.0" cy="273.8" r="5.5" fill="#2e8b57"/>
+<text x="274.0" y="277.8" text-anchor="start" font-size="12" fill="#111">Island area law</text>
+<circle cx="711.2" cy="362.1" r="5.5" fill="#d1495b"/>
+<text x="701.2" y="366.1" text-anchor="end" font-size="12" fill="#111">Gold spheres under a mile</text>
+<circle cx="277.8" cy="354.4" r="5.5" fill="#d1495b"/>
+<text x="287.8" y="358.4" text-anchor="start" font-size="12" fill="#111">Moas die before fifty</text>
+<circle cx="133.3" cy="389.0" r="5.5" fill="#d1495b"/>
+<text x="143.3" y="393.0" text-anchor="start" font-size="12" fill="#111">Apollo moonwalkers&#39; birth years</text>
+<text x="436.0" y="446" text-anchor="middle" font-size="13" fill="#111">Scope: how much of the world it is about</text>
+<text x="92" y="430" font-size="11" fill="#333">narrow</text>
+<text x="780" y="430" text-anchor="end" font-size="11" fill="#333">universal</text>
+<text x="26" y="220.0" text-anchor="middle" font-size="13" fill="#111" transform="rotate(-90 26 220.0)">Necessity: how far it would survive changed conditions</text>
+<text x="84" y="38" text-anchor="end" font-size="11" fill="#333">high</text>
+<text x="84" y="412" text-anchor="end" font-size="11" fill="#333">low</text>
+<circle cx="98" cy="466" r="5.5" fill="#1a6fb5"/>
+<text x="110" y="470" font-size="12" fill="#111">strict law, if true</text>
+<circle cx="288" cy="466" r="5.5" fill="#2e8b57"/>
+<text x="300" y="470" font-size="12" fill="#111">hedged or historically contingent</text>
+<circle cx="568" cy="466" r="5.5" fill="#d1495b"/>
+<text x="580" y="470" font-size="12" fill="#111">accidental</text>
+</svg>

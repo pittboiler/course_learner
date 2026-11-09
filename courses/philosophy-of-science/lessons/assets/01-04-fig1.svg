@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 322" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="820" height="322" fill="#ffffff"/>
+<text x="164" y="28" font-size="14" font-weight="bold" fill="#111" text-anchor="middle">Every raven black (H)</text>
+<text x="120.0" y="62" font-size="12" fill="#333" text-anchor="middle">black</text>
+<text x="208.0" y="62" font-size="12" fill="#333" text-anchor="middle">non-black</text>
+<text x="68" y="102.0" font-size="12" fill="#333" text-anchor="end">raven</text>
+<text x="68" y="154.0" font-size="12" fill="#333" text-anchor="end">non-raven</text>
+<rect x="76" y="72" width="88" height="52" fill="#ffffff" stroke="#333" stroke-width="1"/>
+<text x="120.0" y="103.0" font-size="13" fill="#111" text-anchor="middle">1,200</text>
+<rect x="164" y="72" width="88" height="52" fill="#ffffff" stroke="#333" stroke-width="1"/>
+<text x="208.0" y="103.0" font-size="13" fill="#111" text-anchor="middle">0</text>
+<rect x="76" y="124" width="88" height="52" fill="#ffffff" stroke="#333" stroke-width="1"/>
+<text x="120.0" y="155.0" font-size="13" fill="#111" text-anchor="middle">13,998,800</text>
+<rect x="164" y="124" width="88" height="52" fill="#ffffff" stroke="#333" stroke-width="1"/>
+<text x="208.0" y="155.0" font-size="13" fill="#111" text-anchor="middle">6,000,000</text>
+<rect x="165.5" y="125.5" width="85" height="49" fill="none" stroke="#1a6fb5" stroke-width="3"/>
+<text x="422" y="28" font-size="14" font-weight="bold" fill="#111" text-anchor="middle">Rival: frozen non-ravens</text>
+<text x="378.0" y="62" font-size="12" fill="#333" text-anchor="middle">black</text>
+<text x="466.0" y="62" font-size="12" fill="#333" text-anchor="middle">non-black</text>
+<text x="326" y="102.0" font-size="12" fill="#333" text-anchor="end">raven</text>
+<text x="326" y="154.0" font-size="12" fill="#333" text-anchor="end">non-raven</text>
+<rect x="334" y="72" width="88" height="52" fill="#fbe3e6" stroke="#333" stroke-width="1"/>
+<text x="378.0" y="103.0" font-size="13" fill="#111" text-anchor="middle">900</text>
+<rect x="422" y="72" width="88" height="52" fill="#fbe3e6" stroke="#333" stroke-width="1"/>
+<text x="466.0" y="103.0" font-size="13" fill="#111" text-anchor="middle">300</text>
+<rect x="334" y="124" width="88" height="52" fill="#ffffff" stroke="#333" stroke-width="1"/>
+<text x="378.0" y="155.0" font-size="13" fill="#111" text-anchor="middle">13,998,800</text>
+<rect x="422" y="124" width="88" height="52" fill="#ffffff" stroke="#333" stroke-width="1"/>
+<text x="466.0" y="155.0" font-size="13" fill="#111" text-anchor="middle">6,000,000</text>
+<rect x="423.5" y="125.5" width="85" height="49" fill="none" stroke="#1a6fb5" stroke-width="3"/>
+<text x="274" y="202" font-size="11.5" fill="#111">Non-raven drawn, non-black: LR 1</text>
+<text x="274" y="220" font-size="11.5" fill="#111">Random object, non-black non-raven: LR 1</text>
+<text x="680" y="28" font-size="14" font-weight="bold" fill="#111" text-anchor="middle">Rival: frozen margins</text>
+<text x="636.0" y="62" font-size="12" fill="#333" text-anchor="middle">black</text>
+<text x="724.0" y="62" font-size="12" fill="#333" text-anchor="middle">non-black</text>
+<text x="584" y="102.0" font-size="12" fill="#333" text-anchor="end">raven</text>
+<text x="584" y="154.0" font-size="12" fill="#333" text-anchor="end">non-raven</text>
+<rect x="592" y="72" width="88" height="52" fill="#fbe3e6" stroke="#333" stroke-width="1"/>
+<text x="636.0" y="103.0" font-size="13" fill="#111" text-anchor="middle">900</text>
+<rect x="680" y="72" width="88" height="52" fill="#fbe3e6" stroke="#333" stroke-width="1"/>
+<text x="724.0" y="103.0" font-size="13" fill="#111" text-anchor="middle">300</text>
+<rect x="592" y="124" width="88" height="52" fill="#fbe3e6" stroke="#333" stroke-width="1"/>
+<text x="636.0" y="155.0" font-size="13" fill="#111" text-anchor="middle">13,999,100</text>
+<rect x="680" y="124" width="88" height="52" fill="#fbe3e6" stroke="#333" stroke-width="1"/>
+<text x="724.0" y="155.0" font-size="13" fill="#111" text-anchor="middle">5,999,700</text>
+<rect x="681.5" y="125.5" width="85" height="49" fill="none" stroke="#1a6fb5" stroke-width="3"/>
+<text x="532" y="202" font-size="11.5" fill="#111">Non-raven drawn, non-black: LR 1.00005</text>
+<text x="532" y="220" font-size="11.5" fill="#111">Random object, non-black non-raven: LR 1.00005</text>
+<rect x="16" y="267" width="16" height="14" fill="none" stroke="#1a6fb5" stroke-width="3"/>
+<text x="40" y="278" font-size="12" fill="#111">The white shoe: the non-black non-raven cell.</text>
+<rect x="16" y="289" width="16" height="14" fill="#fbe3e6" stroke="#333" stroke-width="1"/>
+<text x="40" y="300" font-size="12" fill="#111">A cell the rival changes. Each world has 20,000,000 objects and 1,200 ravens; the rival whitens 300 of them.</text>
+</svg>

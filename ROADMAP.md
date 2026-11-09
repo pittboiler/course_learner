@@ -383,7 +383,7 @@ The analytic core plus its history, taught verdict-neutral: every position at th
 | `decision-theory` | Decision Theory | 1 | prob-stat-refresher, philosophical-method | vNM & Savage axioms, Newcomb's problem, ambiguity, Harsanyi's aggregation theorem, population ethics. |
 | `philosophy-of-religion` | Philosophy of Religion | 1 | metaphysics, epistemology | Arguments for God, the problem of evil, miracles, reformed epistemology, divine attributes. |
 | `philosophy-of-mind` | Philosophy of Mind | 2 | metaphysics | Mind-body problem, consciousness, intentionality, personal identity, and machine minds. |
-| `philosophy-of-science` | Philosophy of Science | 2 | epistemology, prob-stat-refresher | Induction, Bayesian confirmation, explanation, scientific realism, Kuhn, demarcation. |
+| `philosophy-of-science` | Philosophy of Science | 2 | epistemology, prob-stat-refresher | Confirmation and the new riddle, Popper to Feyerabend, the statistics wars, explanation and laws, scientific realism. |
 | `philosophy-of-physics` | Philosophy of Physics | 2 | philosophy-of-science, quantum-mechanics | Interpretations of quantum mechanics, the nature of spacetime, time's arrow, probability in statistical mechanics. |
 | `philosophy-of-language-and-logic` | Philosophy of Language & Logic | 2 | philosophical-method, mathematical-logic | Frege, Russell, Kripke; meaning and reference; modal logic and possible worlds. |
 | `phenomenology-and-personalism` | Phenomenology & Personalism | 2 | modern-philosophy | Husserl, Heidegger, Scheler, Edith Stein, Wojtyla — the road into John Paul II's thought. |
