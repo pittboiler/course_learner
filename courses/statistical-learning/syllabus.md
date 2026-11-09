@@ -201,7 +201,7 @@ that asks for something the card states is forbidden by the `OPEN_BOOK` clause i
   derive and the card states. It now applies effective degrees of freedom to a concrete
   spectrum, uses the MAP identity $\lambda = \sigma^2_{\text{noise}}/\tau^2_{\text{prior}}$
   to *choose* $\lambda$, and ends on the credible-interval-vs-confidence-interval trap that
-  points at [`econometrics`](../econometrics/syllabus.md).
+  points at [`philosophy-of-science`](../philosophy-of-science/syllabus.md) [3.1](../philosophy-of-science/lessons/03-01-two-schools-of-statistical-inference.md).
 - **Boss 3** used axis-aligned rectangles, which is the canonical worked class 3.3 would
   otherwise use. Fixed by reserving rectangles for the boss and steering 3.3 to intervals
   and half-planes. The boss now also evaluates three different sample-complexity bounds on

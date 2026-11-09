@@ -1806,7 +1806,7 @@ This course uses these without teaching them. Each row points at the course that
 | Debunking and the third-factor reply (Street, Enoch) | [ethics 6.4](../ethics/lessons/06-04-constructivism-and-debunking.md) |
 | Divine command theory and the Euthyphro dilemma; Aquinas on the lord of life | [ethics 6.5](../ethics/lessons/06-05-god-and-morality-the-euthyphro-dilemma.md) |
 | Pascal's wager as a decision problem; its matrices and objections | [decision-theory 6.1](../decision-theory/lessons/06-01-pascals-wager-as-a-decision-problem.md) |
-| Likelihood principle and observation selection effects in general | [philosophy-of-science](../philosophy-of-science/syllabus.md) 3.2 (syllabus only) |
+| Likelihood principle and observation selection effects in general | [philosophy-of-science](../philosophy-of-science/syllabus.md) [3.2](../philosophy-of-science/lessons/03-02-the-likelihood-principle.md) |
 | Hot Big Bang; the 13.8-billion-year expansion | [cosmology 2.1](../cosmology/lessons/02-01-hot-big-bang-thermal-equilibrium.md), [1.5](../cosmology/lessons/01-05-cosmic-energy-budget-lambda-cdm.md) |
 | Horizon and flatness problems | [cosmology 4.1](../cosmology/lessons/04-01-horizon-flatness-problems.md) |
 | Inflation | [cosmology 4.2](../cosmology/lessons/04-02-inflationary-mechanism.md) |

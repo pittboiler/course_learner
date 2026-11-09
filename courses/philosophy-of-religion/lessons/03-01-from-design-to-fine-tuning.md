@@ -16,7 +16,7 @@ Darwin changed the second number for biology. Physics seems to make it small aga
 
 ## The argument
 
-**From analogy to likelihood.** Paley's watch and Hume's analogy objections are reloaded from [philosophical-method 2.2](../../philosophical-method/lessons/02-02-arguments-from-analogy.md): read as an analogy, the argument is only as good as the relevance premise linking artifacts to organisms, and Philo attacks that premise with rival analogies. Elliott Sober ("The Design Argument", 2003) proposed reading Paley differently, as a contest between two hypotheses. The tool is the [likelihood principle](../reference.md#likelihood-principle):
+**From analogy to likelihood.** Paley's watch and Hume's analogy objections are reloaded from [philosophical-method 2.2](../../philosophical-method/lessons/02-02-arguments-from-analogy.md): read as an analogy, the argument is only as good as the relevance premise linking artifacts to organisms, and Philo attacks that premise with rival analogies. Elliott Sober ("The Design Argument", 2003) proposed reading Paley differently, as a contest between two hypotheses. The tool is the [likelihood principle](../reference.md#likelihood-principle) (what the general literature calls the law of likelihood; the likelihood principle proper is a different thesis, [`philosophy-of-science` 3.2](../../philosophy-of-science/lessons/03-02-the-likelihood-principle.md)):
 
 $$\frac{P(E \mid D)}{P(E \mid C)} > 1$$
 

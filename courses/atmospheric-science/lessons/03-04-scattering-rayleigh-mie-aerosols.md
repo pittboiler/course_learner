@@ -69,11 +69,12 @@ $$x_{\text{droplet}} = \frac{2\pi \times 1\times10^{-5}}{5\times10^{-7}} = 126 \
 
 **Example 2 (why you'd care — why the sky is not violet).** Violet light (400 nm) has a shorter wavelength than blue (450 nm), so by $\lambda^{-4}$ it should scatter $(450/400)^4 = 1.60$ times *more*. Why isn't the sky violet?
 
-Three reasons compound, and none is the scattering physics:
+Two reasons compound, and neither is the scattering physics:
 
 1. **The solar spectrum falls off.** The Sun's 5772 K Planck curve peaks near 500 nm and has less power at 400 nm than at 450, so there is less violet to scatter in the first place.
-2. **Ozone absorbs in the Chappuis band.** A weak but broad absorption across 450 to 700 nm preferentially removes some longer wavelengths, and stratospheric ozone measurably deepens the sky's blue — the subject of [3.6](03-06-ozone-photochemistry-stratosphere.md).
-3. **Human colour vision.** The eye's three cone types respond to the whole scattered spectrum at once. A mixture rich in violet *and* blue *and* containing some green is perceived as sky-blue, not violet — our S-cones peak near 420 nm but are far less sensitive than the M- and L-cones, so a violet-dominant physical spectrum still reads as blue.
+2. **Human colour vision.** The eye's three cone types respond to the whole scattered spectrum at once. A mixture rich in violet *and* blue *and* containing some green is perceived as sky-blue, not violet — our S-cones peak near 420 nm but are far less sensitive than the M- and L-cones, so a violet-dominant physical spectrum still reads as blue.
+
+Ozone ([3.6](03-06-ozone-photochemistry-stratosphere.md)) is a separate ingredient of the colour. Its Chappuis band, a weak but broad absorption across 450 to 700 nm, preferentially removes some longer wavelengths and measurably deepens the sky's blue, but it does not reduce violet relative to blue, so it is no part of why the sky is not violet.
 
 *The general lesson.* "Blue sky" is the composition of a physical law, a source spectrum, an absorber and a detector. Getting the $\lambda^{-4}$ right predicts that short wavelengths dominate; predicting the actual perceived colour needs all four. This is worth remembering whenever a clean scaling law is asked to explain an observation.
 

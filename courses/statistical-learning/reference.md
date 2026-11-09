@@ -469,8 +469,9 @@ Every parameter you fit absorbs about one unit of noise variance, which is
 
 Both halves are $\operatorname{tr}(H) = p$ used twice, with opposite signs. Three
 readings: the optimism is exactly **twice** the average $\operatorname{Var}(\hat y_i) = p\sigma^2/n$,
-i.e. the variance term counted once on each side of the ledger; Mallows' $C_p$, AIC
-and adjusted $R^2$ are all this correction wearing different hats; and past $p = n$
+i.e. the variance term counted once on each side of the ledger; Mallows' $C_p$ and AIC
+are this correction wearing different hats (adjusted $R^2$ applies a smaller one of
+the same general kind); and past $p = n$
 the formula would go negative, which is the algebra reporting that its hypothesis has
 failed.
 
@@ -2529,10 +2530,12 @@ follow the link rather than expecting a derivation here. Everything ceded is sti
   buy. The clean case where the two give contradictory advice and are both right is
   [2.1](lessons/02-01-linear-regression-as-learning.md)'s feature with a genuinely
   nonzero $\beta_j$ that you should still omit because $\beta_j^2 < \sigma^2/n$.
-  Econometrics also owns the **credible-versus-confidence** distinction that
-  [2.5](lessons/02-05-regularization-as-a-bayesian-prior.md) fences, and **inference
-  after selection**, which is what makes "the lasso selected these eight" not a
-  finding.
+  **Inference after selection**, which is what makes "the lasso selected these eight"
+  not a finding, is only touched on: [`econometrics` 2.7](../econometrics/lessons/02-07-multiple-testing-specification-search.md)
+  has the specification-search version, [3.2](../econometrics/lessons/03-02-selection-on-observables-propensity-score.md)
+  names the debiased-learning literature, and no course here teaches it in full. The **credible-versus-confidence**
+  distinction that [2.5](lessons/02-05-regularization-as-a-bayesian-prior.md) fences
+  belongs to [`philosophy-of-science` 3.1](../philosophy-of-science/lessons/03-01-two-schools-of-statistical-inference.md).
 - **Architectures, initialization and training dynamics** go to
   [`deep-learning`](../deep-learning/syllabus.md).
   [5.4](lessons/05-04-neural-networks-and-backpropagation.md) treats a network only as
@@ -2683,8 +2686,8 @@ follow the link rather than expecting a derivation here. Everything ceded is sti
 - **Adding parameters always improves the fit you can see and eventually destroys the
   one you cannot.** At $n = 200$, $p = 10$, appending **50 columns of pure noise**
   raises training $R^2$ from $0.30$ to about $0.48$ and expected test MSE by 24
-  percent. The rise was guaranteed in advance; $C_p$ or adjusted $R^2$ leaves it flat
-  in expectation. *([2.1](lessons/02-01-linear-regression-as-learning.md))*
+  percent. The rise was guaranteed in advance; adjusted $R^2$ stays flat in expectation,
+  and $C_p$ goes up with the test error. *([2.1](lessons/02-01-linear-regression-as-learning.md))*
 - **Optimism is not a symptom of bad features.** The theorem assumes a perfectly
   well-specified model where every coefficient is real, and the optimism is
   $2p\sigma^2/n$ regardless. Useless features are the special case $\beta_j = 0$,

@@ -35,7 +35,7 @@ You met the ancestor of this split in [4.5](04-05-the-new-natural-law-theory.md)
 - **The paradox of analysis.** A *trivial* analysis is closed; an *informative* one feels open. Any analysis worth having tells competent speakers something they did not know they knew, so the openness in step 3 may show only that the analysis is not obvious. *In words:* step 2 proves too much.
 - **Synthetic identity.** "Water" does not *mean* H₂O. "Is water H₂O?" was an open question for centuries, and water is H₂O. The identity was discovered, not read off the concept. *In words:* step 4 shows at most that "good" and "N" differ in meaning, not that goodness and N are different properties.
 
-The second reply founds **Cornell realism** (Richard Boyd, Nicholas Sturgeon, David Brink, *Moral Realism and the Foundations of Ethics*, 1989). Moral properties are natural properties, most likely complex clusters of the features that make human lives go well or badly. The identities are *synthetic a posteriori*, discovered by the same reflective equilibrium between theory and case that science uses for its kinds.
+The second reply founds **Cornell realism** (Richard Boyd, "How to Be a Moral Realist", 1988; Nicholas Sturgeon, "Moral Explanations", 1985; David Brink, *Moral Realism and the Foundations of Ethics*, 1989). Moral properties are natural properties, most likely complex clusters of the features that make human lives go well or badly. The identities are *synthetic a posteriori*, discovered by the same reflective equilibrium between theory and case that science uses for its kinds.
 
 **Harman's explanation challenge** (*The Nature of Morality*, 1977, ch. 1). This argument presses on realists of both kinds.
 

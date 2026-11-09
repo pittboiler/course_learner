@@ -1891,7 +1891,7 @@ Naming the premise Scotus must deny is Boss 8. Ockham allows the formal distinct
 | Newton's first law and inertia | [mechanics-refresher 1.2](../mechanics-refresher/lessons/01-02-newtons-laws.md) |
 | Universities, friars, the 1277 condemnation, Ockham at Avignon and Munich, as events | [church-history](../church-history/syllabus.md) 5.2 |
 | Descartes's *cogito* and doubt; innate ideas; Montaigne and Hume's Pyrrhonism; Kant on the ontological argument; Berkeley on abstract ideas; Leibniz's identity of indiscernibles; corpuscularians | [modern-philosophy](../modern-philosophy/syllabus.md) 1.1–1.3, 4.4, 6.3 |
-| Teleology and function in biology; natural selection; natural kinds; simplicity in theory choice | [philosophy-of-science](../philosophy-of-science/syllabus.md) |
+| Teleology and function in biology; natural selection; natural kinds; simplicity in theory choice | [philosophy-of-science 4.2](../philosophy-of-science/lessons/04-02-causal-explanation.md) (teleology, function), [1.2](../philosophy-of-science/lessons/01-02-the-new-riddle-of-induction.md) (natural kinds), [1.6](../philosophy-of-science/lessons/01-06-simplicity-and-curve-fitting.md) (simplicity); [general-biology 4.1](../general-biology/lessons/04-01-natural-selection.md) (natural selection) |
 | Immortality of the soul as Catholic doctrine | [creation-grace-last-things](../creation-grace-last-things/syllabus.md) |
 | Modal logic and theories of meaning | [philosophy-of-language-and-logic](../philosophy-of-language-and-logic/syllabus.md) |
 | Aristotle on money and interest | [philosophy-of-debt](../philosophy-of-debt/syllabus.md) |

@@ -3402,7 +3402,7 @@ Vatican II's Declaration on Religious Freedom (7 December 1965): the human perso
 
 The charge that whenever the Church errs, the erring act is reclassified as not having met infallibility's conditions, or filed under "discipline", so that the claim can never be falsified: the ladder as "a device for retreating".
 
-Sent to this course by [`fundamental-theology` 4.4](../fundamental-theology/lessons/04-04-the-ladder-of-doctrinal-authority.md); the crux of 7.1. A claim no record can falsify claims nothing; it is ad hoc protection of a theory's core in Popper's and Lakatos's sense ([`philosophy-of-science`](../philosophy-of-science/syllabus.md)).
+Sent to this course by [`fundamental-theology` 4.4](../fundamental-theology/lessons/04-04-the-ladder-of-doctrinal-authority.md); the crux of 7.1. A claim no record can falsify claims nothing; saving it by adjustments that predict nothing new is what Popper calls a conventionalist stratagem and Lakatos a degenerating problem shift ([`philosophy-of-science`](../philosophy-of-science/syllabus.md)).
 
 **What a Catholic must show (7.1):** that the conditions were fixed independently of the failures, and what would falsify the claim, named in advance: a definition meeting *Pastor Aeternus* ch. 4's conditions, shown false. The critic's best evidence: the 1633 court called the 1616 judgment "declared and defined to be contrary to Holy Scripture".
 

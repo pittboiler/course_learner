@@ -8,6 +8,8 @@ Every remaining lesson in this course leans on plate tectonics. But the reason t
 
 Alfred Wegener assembled, by 1915, an evidential case that most geologists today would find persuasive. It was voted down. The usual telling makes his opponents into stubborn old men, and that telling is wrong and worth demolishing, because the actual reason is a general lesson: **a correlation without a viable mechanism is not enough to overturn a working paradigm.** What eventually won was not a better correlation. It was a hypothesis that made a *forced prediction* — one that could only come out one way if it were true, and could not plausibly come out that way if it were false — and then the prediction was tested at sea.
 
+Whether the rejection was reasonable is contested: Arthur Holmes had proposed mantle convection as a mechanism by 1931, and Naomi Oreskes (*The Rejection of Continental Drift*, 1999) argues that American geologists rejected drift because it conflicted with their standards of practice, not for want of a mechanism.
+
 ## The idea
 
 The argument runs in three acts, and they are separated by decades.
@@ -146,7 +148,7 @@ $$\frac{F_{\text{avail}}}{F_{\text{req}}} = \frac{4.3\times10^{15}}{1.75\times10
 
 ## Watch out
 
-- **You might think geologists rejected drift out of dogmatism.** They rejected it because its only proposed mechanism was quantitatively impossible, and because a rival explanation (land bridges) existed. The failure was collective imagination about *what else could be moving*, not stubbornness. Treating it as a morality tale about closed minds gets the actual lesson exactly backwards.
+- **You might think geologists rejected drift out of dogmatism.** They rejected it because Wegener's proposed mechanism was quantitatively impossible, and because a rival explanation (land bridges) existed. The failure was collective imagination about *what else could be moving*, not stubbornness. Treating it as a morality tale about closed minds gets the actual lesson exactly backwards.
 - **You might think continental drift and plate tectonics are the same theory.** Wegener's continents ploughed through a static seafloor. In plate tectonics **the seafloor is the moving thing** and continents are passengers embedded in plates. Wegener was right about the reconstruction and wrong about the physics, and the correction is not a detail.
 - **You might picture the magnetic stripes as bands of different rock.** They are the same basalt everywhere. What alternates is the direction of the frozen-in remanent magnetization: where it parallels today's field it *adds* to the measured total field, where it opposes it *subtracts*. **The stripes are anomalies in a measurement, not layers you could see in an outcrop.**
 - **You might treat the coastline fit as the strong evidence.** It is the weakest of Wegener's four, because coastlines are erosional accidents at whatever sea level happens to be. The fit made at the shelf edge is far better, and in any case the force comes from **the things that match across the join**, not from the join itself.

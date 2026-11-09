@@ -1569,7 +1569,7 @@ fallibly and defeasibly, like a perceptual seeming; insight is a source of basic
   unexplained faculty facing the access worry of [metaphysics 1.2](../metaphysics/lessons/01-02-abstract-objects.md).
 - **Hard case: the parallel postulate.** Seemed self-evident for two thousand years; general relativity
   made physical space non-Euclidean. Rationalist: the insight was mathematical, the error the a
-  posteriori claim about space. Quinean: nothing told the two apart before 1915. What the rationalist
+  posteriori claim about space. Quinean: nothing told the two apart before non-Euclidean geometry. What the rationalist
   owes: a way to tell genuine insight from conviction before experience sorts them.
 - **Applied to induction** (BonJour): a long unbroken regularity is a priori, though fallibly, better
   explained by a stable law than by chance (attacks Hume's P3, [4.2](lessons/04-02-humes-problem-of-induction.md)).
@@ -1728,7 +1728,7 @@ is good.
 **A predicate that fits every observed emerald exactly as well as "green" but projects the opposite
 way for unobserved ones.** Nelson Goodman, *Fact, Fiction, and Forecast* (1955). Any answer to Hume must
 already favour some predicates, or "follow the observed frequency" gives contradictory forecasts. Owned
-by [`philosophy-of-science`](../philosophy-of-science/syllabus.md) 1.2.
+by [`philosophy-of-science`](../philosophy-of-science/syllabus.md) [1.2](../philosophy-of-science/lessons/01-02-the-new-riddle-of-induction.md).
 
 - **In 5.4:** a prior symmetric between green and grue conditionalizes the same data into opposite
   forecasts; only the prior can break the tie. Conditionalization does not solve it.
@@ -2774,7 +2774,7 @@ the owner's card has the entry, it is linked too.
 | Imprecise credence as a decision model; Ellsberg and Keynes's urn; the Laplace rule under ignorance; moral uncertainty; Harsanyi's weighted sum | [decision-theory 3.2](../decision-theory/lessons/03-02-models-of-ambiguity.md), [3.1](../decision-theory/lessons/03-01-the-ellsberg-paradox.md), [3.3](../decision-theory/lessons/03-03-decisions-under-ignorance.md), [6.3](../decision-theory/lessons/06-03-moral-uncertainty.md), [5.1](../decision-theory/lessons/05-01-harsanyis-aggregation-theorem.md) |
 | Kolmogorov axioms, sample spaces | [prob-stat-refresher 1.1](../prob-stat-refresher/lessons/01-01-sample-spaces-events-axioms.md) ([card](../prob-stat-refresher/reference.md#kolmogorov-axioms)) |
 | Conditional probability, Bayes' theorem, the law of total probability | [prob-stat-refresher 1.2](../prob-stat-refresher/lessons/01-02-conditional-probability-bayes.md) ([card](../prob-stat-refresher/reference.md#conditional-probability)) |
-| The beta distribution; reference classes in frequentist probability | [prob-stat-refresher](../prob-stat-refresher/syllabus.md) |
+| The beta distribution; reference classes in frequentist probability | [prob-stat-refresher](../prob-stat-refresher/syllabus.md) (beta distribution); [philosophy-of-science 3.1](../philosophy-of-science/lessons/03-01-two-schools-of-statistical-inference.md) (reference classes) |
 | The no-free-lunch theorem and inductive bias | [statistical-learning 1.4](../statistical-learning/lessons/01-04-no-free-lunch-and-inductive-bias.md) |
 | Proper losses for classifiers (cross-entropy versus hinge); regularization as a prior | [statistical-learning 2.2](../statistical-learning/lessons/02-02-logistic-regression-and-classification.md), [2.5](../statistical-learning/lessons/02-05-regularization-as-a-bayesian-prior.md) |
 | The equal weight view (first statement), spinelessness, Elga's self-exemption; Ross's intuitionism; moral disagreement | [ethics 6.6](../ethics/lessons/06-06-moral-knowledge-and-disagreement.md) ([card](../ethics/reference.md#disagreement-as-evidence)) |
@@ -2783,7 +2783,7 @@ the owner's card has the entry, it is linked too.
 | Axiom of foundation; Godel's second incompleteness theorem | [mathematical-logic 3.3](../mathematical-logic/lessons/03-03-infinity-replacement-foundation.md), [5.2](../mathematical-logic/lessons/05-02-second-theorem-undecidability.md) |
 | Condorcet's jury theorem | [political-philosophy 5.1](../political-philosophy/lessons/05-01-why-democracy.md) |
 | Testimony to revelation and the act of faith | [fundamental-theology 2.1](../fundamental-theology/lessons/02-01-the-act-of-faith.md) |
-| Grue and the new riddle (1.2); confirmation theory; IBE in science; hypothetico-deductive confirmation | [philosophy-of-science](../philosophy-of-science/syllabus.md) (syllabus only) |
+| Grue and the new riddle (1.2); confirmation theory; IBE in science; hypothetico-deductive confirmation | [philosophy-of-science](../philosophy-of-science/syllabus.md) |
 | Evidentialism and Plantinga's critique of classical foundationalism (5.1); proper function and design (5.2); religious diversity as disagreement (5.5); fine-tuning's indifference prior; Hume on miracles | [philosophy-of-religion](../philosophy-of-religion/syllabus.md) |
 | Descartes's system and method of doubt as history; Kant's synthetic a priori; Hume's system and custom (section V) | [modern-philosophy](../modern-philosophy/syllabus.md) (syllabus only) |
 | Putnam's semantic reply to the BIV; McKinsey-style arguments; Quine's web and the semantics of analyticity; coherence theory of truth; context-sensitivity and gradable adjectives | [philosophy-of-language-and-logic](../philosophy-of-language-and-logic/syllabus.md) (syllabus only) |

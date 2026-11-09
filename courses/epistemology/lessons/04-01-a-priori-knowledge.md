@@ -74,7 +74,7 @@ The classical empiricist allowed only the top-left and bottom-right cells. Kripk
 **Ex 2: where insight strains.** For two thousand years the parallel postulate seemed to geometers as self-evidently necessary as anything could be. That is a textbook apparent rational insight. Kant treated Euclidean geometry as synthetic a priori knowledge of space. Then general relativity described physical space as non-Euclidean.
 
 - *Moderate rationalist:* the insight concerned a mathematical claim, that the postulate holds in Euclidean geometry, and that claim is still necessary and a priori. The error lay in an a posteriori claim, that physical space is Euclidean. Experience corrected the second claim, not the first.
-- *Quinean:* that reply was available only after the fact. Before 1915 nothing in the "insight" told the two claims apart. A faculty whose deliverances are sorted only by later empirical success is hard to tell from a well-entrenched part of the web.
+- *Quinean:* that reply was available only after the fact. Before non-Euclidean geometry nothing in the "insight" told the two claims apart. A faculty whose deliverances are sorted only by later empirical success is hard to tell from a well-entrenched part of the web.
 
 Here the view stops giving a verdict. The rationalist can always redescribe a failed insight as a misdescribed one. What the rationalist owes is a way to tell genuine insight from conviction *before* experience does the sorting.
 
