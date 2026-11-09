@@ -291,7 +291,7 @@ changes the brief lists) → roots (`ethics`, `fundamental-theology`,
 - [x] `ecclesiology-and-mariology` — The Church & Mary (2, 25) — syllabus ✓ (2026-09-15), built 2026-10-10 (25 lessons + reference card)
 - [x] `sacraments-and-liturgy` — Sacraments & Liturgy (2, 25) — syllabus ✓ (2026-09-15), built 2026-10-12 (25 lessons + reference card)
 - [x] `moral-theology` — Moral Theology (2, 28) — syllabus ✓ (2026-09-15) — **lessons ✓** (28 lessons + reference card, prepped 2026-09-25)
-- [ ] `catholic-social-teaching` — Catholic Social Teaching (2, 27) — syllabus ✓ (2026-09-15), lessons pending
+- [x] `catholic-social-teaching` — Catholic Social Teaching (2, 28) — syllabus ✓ (2026-09-15; boss problems revised and 4.5 added 2026-10-21), built 2026-11-08 (28 lessons + reference card)
 - [x] `apologetics-foundations` — Apologetics I: God, Christ & the Religions (2, 31) — syllabus ✓ (2026-09-15), built 2026-10-06 (31 lessons + reference card)
 - [x] `apologetics-catholic-claims` — Apologetics II: The Catholic Claims (2, 29) — syllabus ✓ (2026-09-15; boss problems revised 2026-10-20), built 2026-10-21 (29 lessons + reference card)
 - [x] `theology-of-debt` — Theology of Debt (2, 26) — syllabus ✓ (2026-09-15) — **lessons ✓** (26 lessons + reference card, prepped 2026-09-26)

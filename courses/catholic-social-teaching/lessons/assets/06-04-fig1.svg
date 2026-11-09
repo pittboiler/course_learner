@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 540" width="800" height="540" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="800" height="540" fill="#ffffff"/>
+  <text x="400" y="26" text-anchor="middle" font-size="16" font-weight="bold" fill="#111">Four positions on two open questions</text>
+
+  <!-- plot frame and dividers -->
+  <rect x="150" y="45" width="630" height="360" fill="none" stroke="#333" stroke-width="1.5"/>
+  <line x1="465" y1="45" x2="465" y2="405" stroke="#333" stroke-width="1" stroke-dasharray="5,4"/>
+  <line x1="150" y1="225" x2="780" y2="225" stroke="#333" stroke-width="1" stroke-dasharray="5,4"/>
+
+  <!-- vertical axis labels -->
+  <text x="14" y="62" font-size="12" font-weight="bold" fill="#111">MARKET ECONOMY</text>
+  <text x="14" y="100" font-size="13" font-weight="bold" fill="#111">Conditioned</text>
+  <text x="14" y="117" font-size="11" fill="#333">accepted inside</text>
+  <text x="14" y="131" font-size="11" fill="#333">CA 42&#8217;s legal and</text>
+  <text x="14" y="145" font-size="11" fill="#333">moral frame</text>
+  <text x="14" y="285" font-size="13" font-weight="bold" fill="#111">Judged</text>
+  <text x="14" y="302" font-size="11" fill="#333">the economy that</text>
+  <text x="14" y="316" font-size="11" fill="#333">exists is indicted</text>
+  <text x="14" y="330" font-size="11" fill="#333">(EG 53, MH 163)</text>
+
+  <!-- horizontal axis labels -->
+  <text x="307" y="424" text-anchor="middle" font-size="12" font-weight="bold" fill="#111">State&#8217;s duty toward religion met by</text>
+  <text x="307" y="440" text-anchor="middle" font-size="11" fill="#333">guaranteeing religious freedom (DH read broadly)</text>
+  <text x="622" y="424" text-anchor="middle" font-size="12" font-weight="bold" fill="#111">State&#8217;s duty includes public profession</text>
+  <text x="622" y="440" text-anchor="middle" font-size="11" fill="#333">where possible (Leo XIII governs)</text>
+
+  <!-- Catholic liberal: top left -->
+  <rect x="175" y="70" width="265" height="120" rx="6" fill="#ffffff" stroke="#1a6fb5" stroke-width="2"/>
+  <text x="307" y="94" text-anchor="middle" font-size="15" font-weight="bold" fill="#1a6fb5">Catholic liberal</text>
+  <text x="307" y="116" text-anchor="middle" font-size="12" fill="#111">Maritain, Murray (state and religion)</text>
+  <text x="307" y="134" text-anchor="middle" font-size="12" fill="#111">Novak, Weigel, Neuhaus (market)</text>
+  <text x="307" y="158" text-anchor="middle" font-size="11" fill="#333">reads through: DH 2, CA 42, CA 46</text>
+  <text x="307" y="175" text-anchor="middle" font-size="11" fill="#333">key premise: rung 5</text>
+
+  <!-- empty quadrant: top right -->
+  <text x="622" y="128" text-anchor="middle" font-size="12" font-style="italic" fill="#333">No reading in this lesson</text>
+  <text x="622" y="145" text-anchor="middle" font-size="12" font-style="italic" fill="#333">sits here</text>
+
+  <!-- progressive: bottom left -->
+  <rect x="175" y="242" width="265" height="98" rx="6" fill="#ffffff" stroke="#d1495b" stroke-width="2"/>
+  <text x="307" y="266" text-anchor="middle" font-size="15" font-weight="bold" fill="#d1495b">Progressive</text>
+  <text x="307" y="288" text-anchor="middle" font-size="12" fill="#111">Curran, Dorr</text>
+  <text x="307" y="310" text-anchor="middle" font-size="11" fill="#333">reads through: SRS 36&#8211;42, EG, LS, FT</text>
+  <text x="307" y="327" text-anchor="middle" font-size="11" fill="#333">key premise: rung 5</text>
+
+  <!-- integralist: bottom right -->
+  <rect x="490" y="242" width="265" height="98" rx="6" fill="#ffffff" stroke="#2e8b57" stroke-width="2"/>
+  <text x="622" y="266" text-anchor="middle" font-size="15" font-weight="bold" fill="#2e8b57">Integralist</text>
+  <text x="622" y="288" text-anchor="middle" font-size="12" fill="#111">Pink, Crean and Fimister, The Josias</text>
+  <text x="622" y="310" text-anchor="middle" font-size="11" fill="#333">reads through: ID 6, Libertas 21, DH 1</text>
+  <text x="622" y="327" text-anchor="middle" font-size="11" fill="#333">thesis rung 5; duty at least rung 3</text>
+
+  <!-- distributism: straddling, bottom -->
+  <rect x="347" y="352" width="236" height="44" rx="6" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+  <text x="465" y="370" text-anchor="middle" font-size="13" font-weight="bold" fill="#111">Distributism (6.3)</text>
+  <text x="465" y="387" text-anchor="middle" font-size="11" fill="#333">judges the market; silent on the state</text>
+
+  <!-- common-good constitutionalism: neighbour -->
+  <rect x="592" y="352" width="180" height="44" rx="6" fill="#ffffff" stroke="#2e8b57" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="682" y="370" text-anchor="middle" font-size="11" fill="#111">Neighbour: Vermeule&#8217;s</text>
+  <text x="682" y="386" text-anchor="middle" font-size="11" fill="#111">common-good constitutionalism</text>
+
+  <!-- the floor -->
+  <rect x="20" y="460" width="760" height="66" rx="6" fill="#f2f2f2" stroke="#333" stroke-width="1"/>
+  <text x="400" y="480" text-anchor="middle" font-size="12" font-weight="bold" fill="#111">The floor every reading must keep (rung 3 unless marked)</text>
+  <text x="400" y="498" text-anchor="middle" font-size="11" fill="#333">DH 2 religious freedom &#183; DH 1 the duty of societies, untouched (at least rung 3) &#183; no regime mandated (GS 74)</text>
+  <text x="400" y="515" text-anchor="middle" font-size="11" fill="#333">socialism condemned (QA 117&#8211;120) &#183; CA 42 read whole &#183; the option for the poor (SRS 42) &#183; no model, no system (CA 43)</text>
+</svg>
