@@ -252,7 +252,7 @@ changes the brief lists) → roots (`ethics`, `fundamental-theology`,
 - [x] `metaphysics` — Metaphysics (1, 26) — syllabus ✓ (2026-09-15) — **lessons ✓** (26 lessons + reference card, prepped 2026-09-16)
 - [x] `decision-theory` — Decision Theory (1, 23) — syllabus ✓ (2026-09-15), built 2026-10-01 (23 lessons + reference card)
 - [x] `philosophy-of-religion` — Philosophy of Religion (1, 24) — syllabus ✓ (2026-09-15), built 2026-10-05 (24 lessons + reference card)
-- [ ] `philosophy-of-mind` — Philosophy of Mind (2, 25) — syllabus ✓ (2026-09-15), lessons pending
+- [x] `philosophy-of-mind` — Philosophy of Mind (2, 25) — syllabus ✓ (2026-09-15; boss problems revised 2026-11-09), built 2026-11-10 (25 lessons + reference card)
 - [x] `philosophy-of-science` — Philosophy of Science (2, 26) — syllabus ✓ (2026-09-15; boss problems revised 2026-11-09), built 2026-11-09 (26 lessons + reference card)
 - [ ] `philosophy-of-physics` — Philosophy of Physics (2, 25) — syllabus ✓ (2026-09-15), lessons pending
 - [ ] `philosophy-of-language-and-logic` — Philosophy of Language & Logic (2, 23) — syllabus ✓ (2026-09-15), lessons pending

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 310" width="640" height="310" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="640" height="310" fill="#ffffff"/>
+<rect x="40" y="24" width="260" height="200" fill="#111111"/>
+<rect x="122" y="76" width="96" height="96" fill="#808080"/>
+<text x="170" y="246" font-size="14" fill="#333333" text-anchor="middle">black surround</text>
+<rect x="340" y="24" width="260" height="200" fill="#ffffff" stroke="#333333" stroke-width="2"/>
+<rect x="422" y="76" width="96" height="96" fill="#808080"/>
+<text x="470" y="246" font-size="14" fill="#333333" text-anchor="middle">white surround</text>
+<text x="320" y="274" font-size="14" fill="#111111" text-anchor="middle">Both inner squares are the same grey (RGB 128, 128, 128).</text>
+<text x="320" y="294" font-size="13" fill="#333333" text-anchor="middle">Cover the surrounds with two fingers and they match.</text>
+</svg>
