@@ -149,7 +149,7 @@ Consciousness is always consciousness *of* something: fear of the dog, belief th
 
 **Everyone downstream uses it.** Heidegger rebuilds it as [being-in-the-world](#being-in-the-world); Sartre makes it the emptiness of the [for-itself](#in-itself-and-for-itself); Scheler extends it to [feeling values](#feeling-and-preferring); Stein to [empathy](#empathy); Wojtyła to [action](#mirroring-and-reflexive-functions); Levinas claims the face [overflows](#idea-of-the-infinite) it.
 
-*Lessons:* [1.1](lessons/01-01-intentionality-from-brentano-to-husserl.md), [1.2](lessons/01-02-the-anatomy-of-an-experience.md). Brentano's thesis as a live claim about minds (are pains and moods intentional?): [philosophy-of-mind syllabus](../philosophy-of-mind/syllabus.md), 4.1.
+*Lessons:* [1.1](lessons/01-01-intentionality-from-brentano-to-husserl.md), [1.2](lessons/01-02-the-anatomy-of-an-experience.md). Brentano's thesis as a live claim about minds (are pains and moods intentional?): [philosophy-of-mind syllabus](../philosophy-of-mind/syllabus.md), [4.1](../philosophy-of-mind/lessons/04-01-intentionality-and-folk-psychology.md).
 
 ### Intentional inexistence
 
@@ -616,7 +616,7 @@ SZ §§2-21, 43.
 
 **Pressure point: 5 with 4** (is mindful regard derivative?). Hubert Dreyfus (*Being-in-the-World*; APA presidential address "Overcoming the Myth of the Mental", 2005) reads 4 as absorbed, non-conceptual skilful coping. John McDowell ("What Myth?", *Inquiry*, 2007): conceptual capacities are at work even in absorbed activity, so there is no mindless layer for theory to derive from. Dreyfus: expert coping shows no detached "I". **Heideggerian third move:** §15 says use "is not blind"; grant that coping is intelligent and deny its intelligence is the staring of premise 5. Whether circumspection is conceptual is live.
 
-*Lessons:* [2.2](lessons/02-02-heidegger-dasein-and-being-in-the-world.md). The computational theory of mind Dreyfus attacked, and extended mind: [philosophy-of-mind syllabus](../philosophy-of-mind/syllabus.md) 6.1, 4.3.
+*Lessons:* [2.2](lessons/02-02-heidegger-dasein-and-being-in-the-world.md). The computational theory of mind Dreyfus attacked, and extended mind: [philosophy-of-mind syllabus](../philosophy-of-mind/syllabus.md) [6.1](../philosophy-of-mind/lessons/06-01-computationalism-and-the-turing-test.md), [4.3](../philosophy-of-mind/lessons/04-03-externalism-narrow-content-and-the-extended-mind.md).
 
 ### Das Man
 
@@ -1506,7 +1506,7 @@ Vertical transcendence (self-determination rising above one's dynamisms, bound t
 
 The person takes his somatic and psychic dynamisms *into* the act, so the action belongs to the whole man; the complement of transcendence.
 
-*The Acting Person* Part III (ch. 5 "Integration and the soma"; ch. 6 "Personal integration and the psyche"). **Soma:** *reactivity*, the body responding to stimuli by itself (pulse, reflex, growth, rhythms), plus movement action can use. **Psyche:** *emotivity*, excitations, feelings and emotions, read as responses to values. Neither is the enemy: under self-possession and self-governance they serve the act (trained hands that obey, fear that sharpens attention). **Disintegration** is the failure of self-governance (panic, compulsion, a body out of control), not a defect of the body. Generalizes [5.3](lessons/05-03-the-anatomy-of-love.md)'s demand that sensuality and affectivity be taken up into love. Whether integration needs a soul as form: [thomistic-synthesis 5.3](../thomistic-synthesis/lessons/05-03-the-human-soul-in-the-system.md); embodiment in analytic form: [philosophy-of-mind syllabus](../philosophy-of-mind/syllabus.md).
+*The Acting Person* Part III (ch. 5 "Integration and the soma"; ch. 6 "Personal integration and the psyche"). **Soma:** *reactivity*, the body responding to stimuli by itself (pulse, reflex, growth, rhythms), plus movement action can use. **Psyche:** *emotivity*, excitations, feelings and emotions, read as responses to values. Neither is the enemy: under self-possession and self-governance they serve the act (trained hands that obey, fear that sharpens attention). **Disintegration** is the failure of self-governance (panic, compulsion, a body out of control), not a defect of the body. Generalizes [5.3](lessons/05-03-the-anatomy-of-love.md)'s demand that sensuality and affectivity be taken up into love. Whether integration needs a soul as form: [thomistic-synthesis 5.3](../thomistic-synthesis/lessons/05-03-the-human-soul-in-the-system.md); embodied cognition, named: [philosophy-of-mind 4.3](../philosophy-of-mind/lessons/04-03-externalism-narrow-content-and-the-extended-mind.md), set apart from the hylomorphist's body in [5.1](../philosophy-of-mind/lessons/05-01-the-soul-as-the-form-of-the-body.md).
 
 *Lessons:* [5.5](lessons/05-05-integration-participation-and-the-bridge.md)
 
@@ -1724,7 +1724,7 @@ This course reads the texts historically and descriptively. Wherever a lesson us
 | Durkheim's social facts (contrast with das Man) | [social-theory 1.1](../social-theory/lessons/01-01-individuals-and-social-facts.md) |
 | Tocqueville's tyranny of the majority over opinion (cousin of levelling) | [history-of-political-thought 6.3](../history-of-political-thought/lessons/06-03-tocqueville-tyranny-of-the-majority-and-soft-despotism.md) |
 | Negative absolute temperature (warmth vs temperature) | [stat-mech 1.4](../stat-mech/lessons/01-04-temperature-pressure-chemical-potential.md) |
-| Intentionality as a live thesis; other minds, simulation and theory-theory; the computational theory of mind; extended mind; embodiment; the sense of agency | [philosophy-of-mind syllabus](../philosophy-of-mind/syllabus.md) (4.1, 4.3, 6.1) |
+| Intentionality as a live thesis; other minds, simulation and theory-theory; the computational theory of mind; extended mind; embodiment; the sense of agency | [philosophy-of-mind syllabus](../philosophy-of-mind/syllabus.md) ([4.1](../philosophy-of-mind/lessons/04-01-intentionality-and-folk-psychology.md), [4.3](../philosophy-of-mind/lessons/04-03-externalism-narrow-content-and-the-extended-mind.md), [6.1](../philosophy-of-mind/lessons/06-01-computationalism-and-the-turing-test.md); other minds [6.2](../philosophy-of-mind/lessons/06-02-the-chinese-room.md); sense of agency named in [3.3](../philosophy-of-mind/lessons/03-03-global-workspace-and-the-science-of-consciousness.md)) |
 | Solidarity as a social principle; the subjective dimension of work; the common good | [catholic-social-teaching syllabus](../catholic-social-teaching/syllabus.md) (3.4, 4.1) |
 | Frege's sense and reference (the model for the Fregean noema) | [philosophy-of-language-and-logic syllabus](../philosophy-of-language-and-logic/syllabus.md) |
 | Scientific realism: does the scientific or the lived image say what exists? | [philosophy-of-science syllabus](../philosophy-of-science/syllabus.md) (Module 5), [philosophy-of-physics syllabus](../philosophy-of-physics/syllabus.md) |

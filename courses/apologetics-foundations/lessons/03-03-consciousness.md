@@ -1,6 +1,6 @@
 # Apologetics I · Lesson 3.3: Consciousness
 
-> ⏱ ~15 min · Module 3: The burdens of naturalism · Builds on: [3.1 Naturalism at its best](03-01-naturalism-at-its-best.md), [3.2 Reason](03-02-reason.md), [`philosophy-of-mind`](../../philosophy-of-mind/syllabus.md) 3.1, 3.4–3.5, 5.1 · Unlocks: [3.4 Morality](03-04-morality.md)
+> ⏱ ~15 min · Module 3: The burdens of naturalism · Builds on: [3.1 Naturalism at its best](03-01-naturalism-at-its-best.md), [3.2 Reason](03-02-reason.md), [`philosophy-of-mind`](../../philosophy-of-mind/syllabus.md) [3.1](../../philosophy-of-mind/lessons/03-01-the-hard-problem.md), 3.4–3.5, 5.1 · Unlocks: [3.4 Morality](03-04-morality.md)
 
 ## Why this matters
 
@@ -172,6 +172,6 @@ Name the two errors about Catholic teaching and the one error about the Thomist 
 
 ## Connections
 
-- **Backward:** the hard problem, illusionism and panpsychism are taught in [`philosophy-of-mind`](../../philosophy-of-mind/syllabus.md) 3.1, 3.4 and 3.5; here they are used as apologetic premises. The genuine-burden test is [3.1](03-01-naturalism-at-its-best.md)'s; the parity strategy and the comparison of whole theories are [2.2](02-02-answering-the-atheist-philosophers.md)'s; C-inductive support is [`philosophy-of-religion` 1.1](../../philosophy-of-religion/lessons/01-01-which-god-and-what-an-argument-must-do.md).
+- **Backward:** the hard problem, illusionism and panpsychism are taught in [`philosophy-of-mind`](../../philosophy-of-mind/syllabus.md) [3.1](../../philosophy-of-mind/lessons/03-01-the-hard-problem.md), [3.4](../../philosophy-of-mind/lessons/03-04-illusionism.md) and [3.5](../../philosophy-of-mind/lessons/03-05-panpsychism-and-russellian-monism.md); here they are used as apologetic premises. The genuine-burden test is [3.1](03-01-naturalism-at-its-best.md)'s; the parity strategy and the comparison of whole theories are [2.2](02-02-answering-the-atheist-philosophers.md)'s; C-inductive support is [`philosophy-of-religion` 1.1](../../philosophy-of-religion/lessons/01-01-which-god-and-what-an-argument-must-do.md).
 - **Forward:** [3.4](03-04-morality.md) runs the same shape of argument on moral obligation, where Wielenberg's brute necessary truths play the part of Ines's brute laws. The Thomist turn in Example 2 is why the immateriality of intellect stays with [3.2](03-02-reason.md), and why [4.2](04-02-evolution-design-and-the-human-person.md) can treat the soul's origin without a design inference.
 - **Sideways:** the soul as form of the body is [`thomistic-synthesis` 5.3](../../thomistic-synthesis/lessons/05-03-the-human-soul-in-the-system.md), and what a person is, [`metaphysics` 6.5](../../metaphysics/lessons/06-05-what-a-person-is.md). Russell's point that physics gives structure, not intrinsic nature, is the observation a physicist makes when saying a field is whatever satisfies its equations.

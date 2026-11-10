@@ -483,9 +483,9 @@ Conflating them is the commonest error on the topic, made by both sides. **Uses:
 
 ### Physicalism
 
-Everything is physical: any world that duplicates ours physically duplicates it in every respect.
+Everything is physical: any world that duplicates ours physically, and contains nothing further, duplicates it in every respect.
 
-Supervenience formulation (Stoljar, SEP "Physicalism"). **Hempel's dilemma** (1969): if "physical" means current physics, physicalism is probably false (physics is incomplete); if it means a completed physics, it is close to empty. Its main support is [causal closure](#causal-closure). Sellars ("Philosophy and the Scientific Image of Man", lectures 1960, published 1962) set the manifest image beside the scientific image; in "Empiricism and the Philosophy of Mind" (1956, §41) science is the measure of all things (paraphrased; he aimed to join the language of norms to the scientific image, not to eliminate it).
+Supervenience formulation (Stoljar, SEP "Physicalism"; the "nothing further" clause is Jackson's minimal physical duplicate, 1998). **Hempel's dilemma** (1969): if "physical" means current physics, physicalism is probably false (physics is incomplete); if it means a completed physics, it is close to empty. Its main support is [causal closure](#causal-closure). Sellars ("Philosophy and the Scientific Image of Man", lectures 1960, published 1962) set the manifest image beside the scientific image; in "Empiricism and the Philosophy of Mind" (1956, §41) science is the measure of all things (paraphrased; he aimed to join the language of norms to the scientific image, not to eliminate it).
 
 *Lessons:* [3.1](lessons/03-01-naturalism-at-its-best.md)
 
@@ -587,7 +587,7 @@ Millikan, *Language, Thought, and Other Biological Categories* (1984); Papineau 
 
 James Ross: some thinking is determinate (I add, not "quadd"); no physical process is determinate among incompossible functions; so some thinking is not wholly physical.
 
-Ross, "Immaterial Aspects of Thought", *Journal of Philosophy* 89 (1992); Feser, *American Catholic Philosophical Quarterly* (2013). Every finite physical history fits rival functions as "grue" fits green emeralds; Ross reads Kripke's plus/quus as showing machines do not determinately add, not that nobody does. **Turns on** the proves-too-much charge: Kripke's sceptic found no fact *of any kind*, mental or physical, fixing plus over quus, so the argument works against an immaterial intellect too or fails for brains as well. Feser: Kripke's candidates are images and dispositions, which the Thomist already counts indeterminate; concepts are neither. That reply is the crux.
+Ross, "Immaterial Aspects of Thought", *Journal of Philosophy* 89 (1992); Feser, *American Catholic Philosophical Quarterly* (2013). Every finite physical history fits rival functions as "grue" fits green emeralds; Ross reads Kripke's plus/quus as showing machines do not determinately add, not that nobody does. **Turns on** the proves-too-much charge: Kripke's sceptic found no fact *of any kind*, mental or physical, fixing plus over quus, so the argument works against an immaterial intellect too or fails for brains as well. Feser: Kripke's candidates are images and dispositions, which the Thomist already counts indeterminate; concepts are neither. Kripke also considered and dismissed a primitive meaning state as mysterious (1982: 51–53), so the crux is whether that dismissal holds.
 
 *Lessons:* [3.2](lessons/03-02-reason.md)
 
@@ -1919,7 +1919,7 @@ This course argues; it does not re-teach. Every fact it uses without deriving ha
 | The collapse postulate and measurement | [quantum-mechanics 1.5](../quantum-mechanics/lessons/01-05-measurement-expectation-values.md) |
 | Brute facts and necessary existence | [metaphysics 3.3](../metaphysics/lessons/03-03-brute-facts-and-necessary-existence.md) |
 | Avicenna, Averroes, Maimonides as philosophers; al-Ghazali's *Incoherence* | [ancient-medieval-philosophy 6.3](../ancient-medieval-philosophy/lessons/06-03-averroes-and-maimonides.md) |
-| Causal closure and exclusion, the hard problem, illusionism, panpsychism, naturalized content, the intellect (Ross) | [philosophy-of-mind](../philosophy-of-mind/syllabus.md) 1.2, 2.4, 3.1, 3.4-3.5, 4.2, 5.2 (syllabus only) |
+| Causal closure and exclusion, the hard problem, illusionism, panpsychism, naturalized content, the intellect (Ross) | [philosophy-of-mind](../philosophy-of-mind/syllabus.md) [1.2](../philosophy-of-mind/lessons/01-02-substance-dualism-today.md), [2.4](../philosophy-of-mind/lessons/02-04-mental-causation-and-the-exclusion-problem.md), [3.1](../philosophy-of-mind/lessons/03-01-the-hard-problem.md), 3.4-3.5, 4.2, 5.2 |
 | Demarcation (Kitzmiller), confirmation, the no-miracles argument | [philosophy-of-science](../philosophy-of-science/syllabus.md) [1.3](../philosophy-of-science/lessons/01-03-confirmation-as-probability-raising.md), [2.6](../philosophy-of-science/lessons/02-06-demarcation-after-popper.md), [5.1](../philosophy-of-science/lessons/05-01-realism-and-the-no-miracles-argument.md) |
 | Interpretations of quantum mechanics; chaos; Boltzmann brains and the low-entropy past | [philosophy-of-physics](../philosophy-of-physics/syllabus.md) 1.1-1.3, 2.1-2.3, 5.2, 5.5 (syllabus only) |
 | Secularization theory; Taylor as sociology | [social-theory](../social-theory/syllabus.md) Module 7 (syllabus only) |

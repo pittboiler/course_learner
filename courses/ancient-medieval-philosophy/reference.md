@@ -1883,7 +1883,7 @@ Naming the premise Scotus must deny is Boss 8. Ockham allows the formal distinct
 | Preambles of faith and credibility as doctrine | [fundamental-theology 2.2](../fundamental-theology/lessons/02-02-credibility-and-the-preambles-of-faith.md) |
 | Fideism and rationalism rejected | [fundamental-theology 2.3](../fundamental-theology/lessons/02-03-fideism-and-rationalism.md) |
 | Skepticism, relativism about truth, Agrippa's trilemma and the value problem as live problems | [epistemology](../epistemology/syllabus.md) 1.3, 2.1, Module 3 |
-| Hylomorphism as a theory of mind; cognitive theories of emotion; language of thought; the flying man as a live case | [philosophy-of-mind](../philosophy-of-mind/syllabus.md) 4.1, Module 5 |
+| Hylomorphism as a theory of mind; language of thought; the flying man as the ancestor of arguments from conceiving oneself without a body | [philosophy-of-mind](../philosophy-of-mind/syllabus.md) [1.2](../philosophy-of-mind/lessons/01-02-substance-dualism-today.md), [4.1](../philosophy-of-mind/lessons/04-01-intentionality-and-folk-psychology.md), Module 5 |
 | Propositional logic, connectives and truth tables | [mathematical-logic 1.1](../mathematical-logic/lessons/01-01-syntax-connectives.md), [1.2](../mathematical-logic/lessons/01-02-semantics-truth-tables.md) |
 | Quantifiers; translation into first-order logic and existential import | [mathematical-logic 2.1](../mathematical-logic/lessons/02-01-quantifiers-syntax.md), [2.3](../mathematical-logic/lessons/02-03-translation-quantifier-order.md) |
 | Geometric series | [calc-refresher 3.1](../calc-refresher/lessons/03-01-series-convergence-tests.md) |

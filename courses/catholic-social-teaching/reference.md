@@ -4346,7 +4346,7 @@ Every ceded topic and where it is taught. The course uses these without deriving
 | Federal, unitary and devolved systems; peak-association corporatism | [`political-institutions` 5.1](../political-institutions/lessons/05-01-federal-unitary-devolved.md), [`political-institutions` 6.4](../political-institutions/lessons/06-04-majoritarian-and-consensus-democracy.md) |
 | Religious parties as political actors | [`comparative-politics` 6.4](../comparative-politics/syllabus.md) |
 | The Free Exercise and Establishment Clauses | [`constitutional-law` Module 7](../constitutional-law/syllabus.md) |
-| Whether a language model understands | [`philosophy-of-mind` 6.2-6.3](../philosophy-of-mind/syllabus.md) |
+| Whether a language model understands; whether an AI system has any experience | [`philosophy-of-mind` 6.2-6.3](../philosophy-of-mind/syllabus.md); [6.4](../philosophy-of-mind/lessons/06-04-could-a-machine-be-conscious.md) |
 | **Economics and science** | |
 | Capabilities as a welfare metric (Sen) | [`philosophy-of-economics` 1.3](../philosophy-of-economics/lessons/01-03-capabilities-as-a-welfare-metric.md) |
 | Stern against Nordhaus on discounting | [`philosophy-of-economics` 4.2](../philosophy-of-economics/lessons/04-02-the-ramsey-equation-and-the-stern-nordhaus-debate.md) |

@@ -5203,7 +5203,7 @@ The lessons use these without deriving them, or hand them to the course that own
 | "Mechanism" as a chain of steps through what people do | [social-theory 1.4](../social-theory/lessons/01-04-testing-a-social-explanation.md) |
 | Popper and Lakatos applied to Marxism; the Wright case | [social-theory 2.3](../social-theory/lessons/02-03-capitalism-and-the-test-of-history.md) |
 | Kuhn's reception in the social sciences | [social-theory](../social-theory/syllabus.md) |
-| Multiple realizability of the mental (2.2), weak and strong emergence applied to mind (2.3); functionalism, supervenience; reasons as causes | [philosophy-of-mind](../philosophy-of-mind/syllabus.md) |
+| Multiple realizability of the mental (2.2), weak and strong emergence applied to mind (2.3, 3.5); functionalism, supervenience; reasons as causes (2.3) | [philosophy-of-mind](../philosophy-of-mind/syllabus.md) |
 | Interpretations of quantum mechanics; spacetime substantivalism; probability in statistical mechanics and in physics; ontic structural realism in particles and fields (6.2-6.3); the evidential problem of many-worlds; laws in fundamental physics | [philosophy-of-physics](../philosophy-of-physics/syllabus.md) |
 | Idealization and tendency laws | [philosophy-of-economics 6.1](../philosophy-of-economics/lessons/06-01-idealization-and-isolation.md) |
 | Friedman's "as if" instrumentalism; finding the value judgment inside a technique | [philosophy-of-economics 6.2](../philosophy-of-economics/lessons/06-02-friedmans-as-if-and-its-critics.md) |

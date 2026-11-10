@@ -54,7 +54,7 @@ $$T \nvdash G \qquad\text{and}\qquad T \nvdash \neg G,$$
 
 and moreover $G$ is *true* in the standard model $\mathbb{N}$.
 
-*In words:* such a $T$ can neither prove nor refute the sentence $G$ — it is formally undecided by $T$ — yet $G$ is genuinely true about the natural numbers. (Historically Gödel needed a slightly stronger hypothesis, $\omega$-consistency, to rule out $T\vdash\neg G$; Rosser later reduced it to plain consistency. We state the clean modern version.)
+*In words:* such a $T$ can neither prove nor refute the sentence $G$ — it is formally undecided by $T$ — yet $G$ is genuinely true about the natural numbers. (Historically Gödel needed a stronger hypothesis, $\omega$-consistency, to rule out $T\vdash\neg G$; Rosser later reduced it to plain consistency by changing the sentence. The clean modern version stated here holds for Rosser's sentence; for Gödel's own $G$, plain consistency is not enough: $\mathrm{PA}+\neg\operatorname{Con}(\mathrm{PA})$ is consistent if PA is, yet refutes its own Gödel sentence.)
 
 **The sketch (not the full proof).** Apply the diagonal lemma to $\psi(x) := \neg\operatorname{Prov}_T(x)$, "$x$ is not provable." It yields a sentence
 
@@ -64,7 +64,7 @@ so $G$ provably asserts *"my own code is not provable."* Now argue:
 
 - **$T \nvdash G$.** Suppose $T \vdash G$. Then some number $m$ codes a proof of $G$, so $\operatorname{Proof}_T(\overline m, \ulcorner G\urcorner)$ is a true, hence ($T$-provable) fact, giving $T \vdash \operatorname{Prov}_T(\ulcorner G\urcorner)$. But the fixed-point equivalence gives $T \vdash \neg\operatorname{Prov}_T(\ulcorner G\urcorner)$. Now $T$ proves both a statement and its negation — $T$ is inconsistent, contradicting our hypothesis. So $T \nvdash G$.
 - **$G$ is true.** We just showed $T$ does not prove $G$. That is *precisely* what $G$ asserts about itself. So $G$ is a true statement (about $\mathbb{N}$).
-- **$T \nvdash \neg G$.** If $T$ proved $\neg G$, then $T$ would prove the false statement $\neg G$ (since $G$ is true) — impossible for a sound theory over $\mathbb{N}$. (This is the step Gödel originally secured with $\omega$-consistency; the conclusion is the same.)
+- **$T \nvdash \neg G$.** If $T$ proved $\neg G$, then $T$ would prove the false statement $\neg G$ (since $G$ is true) — impossible for a sound theory over $\mathbb{N}$. (This step assumes soundness, more than the theorem's hypothesis; Gödel secured it with the weaker $\omega$-consistency, and Rosser's modified sentence needs only consistency.)
 
 Hence $T$ decides neither $G$ nor $\neg G$. $\blacksquare$
 

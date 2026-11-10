@@ -55,7 +55,7 @@ Its bill: **arbitrary scattered objects**, an inventory bloated beyond anything 
 | **Mark Johnston** | A thing is its parts *under a principle of unity*; the principle is what the thing's kind supplies | That "parts" and "whole" can be related without a unifying principle |
 | **Michael Rea** | Hylomorphism as the best solution to the **material-constitution** puzzles (statue and lump) | That constitution puzzles can be solved with mereology alone |
 
-Add Koons and Jaworski, who put structure to work in physics and biology respectively. None of them is doing exegesis of Aristotle; they are arguing that mereology alone under-describes the world.
+Add Koons and Jaworski, who put structure to work in physics and in biology and the mind respectively. None of them is doing exegesis of Aristotle; they are arguing that mereology alone under-describes the world.
 
 **The homonymy principle.** Aristotle's consequence, at *Politics* I.2 and again in the *Meteorology*: a severed hand is a hand in name only. A hand is defined by what it does, and what it does it can only do attached — so the thing on the table shares the word and not the nature, like a hand carved in stone.
 

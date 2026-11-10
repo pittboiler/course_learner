@@ -10,7 +10,7 @@ Every rung of the [ladder of beings](../reference.md#the-ladder-of-beings) from 
 
 Two claims, held together.
 
-**The soul is the form of the body.** Not a mover inside it, not a pilot in a ship: the principle by which this matter is one living thing of this kind, so that the same subject digests, sees and understands (ST I q.76 a.1 — argued as a theory of mind in [`philosophy-of-mind`](../../philosophy-of-mind/syllabus.md) 5.1, cited, not redone).
+**The soul is the form of the body.** Not a mover inside it, not a pilot in a ship: the principle by which this matter is one living thing of this kind, so that the same subject digests, sees and understands (ST I q.76 a.1 — argued as a theory of mind in [`philosophy-of-mind`](../../philosophy-of-mind/syllabus.md) [5.1](../../philosophy-of-mind/lessons/05-01-the-soul-as-the-form-of-the-body.md), cited, not redone).
 
 **The soul is subsistent.** It has one operation, understanding, that no bodily organ performs; and what operates on its own has existence on its own (q.75 a.2, likewise cited). So it is not a form that perishes when its matter is spoiled.
 

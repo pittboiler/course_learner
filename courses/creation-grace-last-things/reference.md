@@ -3953,7 +3953,7 @@ Every row points at the course that teaches it; an assumption with nowhere to lo
 | The apologetic argument from desire | [`apologetics-foundations` 8.3](../apologetics-foundations/lessons/08-03-apologetics-in-a-secular-age.md) |
 | Drift, effective population size and bottlenecks | [`evolution-ecology` 1.4](../evolution-ecology/lessons/01-04-drift-ne-gene-flow.md) |
 | Macroevolution and the history of life | [`evolution-ecology` 2.4](../evolution-ecology/lessons/02-04-macroevolution-history-of-life.md) |
-| Whether the intellect is immaterial; hylomorphism against dualism and functionalism | [`philosophy-of-mind`](../philosophy-of-mind/syllabus.md) (not yet built) |
+| Whether the intellect is immaterial; hylomorphism against dualism and functionalism | [`philosophy-of-mind`](../philosophy-of-mind/syllabus.md) |
 | Whether a science can rule a cause in or out; what genetic data license | [`philosophy-of-science` 2.6](../philosophy-of-science/lessons/02-06-demarcation-after-popper.md); [`evolution-ecology` 1.4](../evolution-ecology/lessons/01-04-drift-ne-gene-flow.md) |
 | The argued disputes: *sola fide*, imputation and assurance; free will against the Reformers; election; purgatory, indulgences and the invocation of saints against Protestant and Orthodox objections | [`apologetics-catholic-claims`](../apologetics-catholic-claims/syllabus.md) |
 | The image and the social order; what the renewal of creation asks of Christians now | [`catholic-social-teaching` 3.1](../catholic-social-teaching/lessons/03-01-human-dignity.md) (the image and the social order), [6.1](../catholic-social-teaching/lessons/06-01-integral-ecology-laudato-si.md) (care for creation now) |

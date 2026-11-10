@@ -1295,7 +1295,7 @@ An agent-centred prerogative lets you weight your own interests $M$ times as hea
 | Free will and moral responsibility | [metaphysics 6.1](../metaphysics/lessons/06-01-determinism-and-the-consequence-argument.md) onward |
 | Compositional semantics (what Frege-Geach demands) | [philosophy-of-language-and-logic](../philosophy-of-language-and-logic/syllabus.md) 4.1 |
 | Deflationary truth (quasi-realism's minimal truth) | [philosophy-of-language-and-logic](../philosophy-of-language-and-logic/syllabus.md) 5.2 |
-| Humean theory of motivation: reason alone cannot move to action | [modern-philosophy](../modern-philosophy/syllabus.md) 4.4 (Hume's text); belief-desire psychology in [philosophy-of-mind](../philosophy-of-mind/syllabus.md) 4.1 |
+| Humean theory of motivation: reason alone cannot move to action | [modern-philosophy](../modern-philosophy/syllabus.md) 4.4 (Hume's text); belief-desire psychology in [philosophy-of-mind](../philosophy-of-mind/syllabus.md) [4.1](../philosophy-of-mind/lessons/04-01-intentionality-and-folk-psychology.md) |
 | Kant's and Hume's systems as history; Hume's projectivism as text | [modern-philosophy](../modern-philosophy/syllabus.md) |
 | Aristotle's wider system; Protagoras's relativism; Ockham | [ancient-medieval-philosophy](../ancient-medieval-philosophy/syllabus.md) 1.3, 8.4 |
 | Aquinas's whole system | [thomistic-synthesis](../thomistic-synthesis/syllabus.md) |

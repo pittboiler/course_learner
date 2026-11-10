@@ -29,7 +29,7 @@ Each strength is a range of possibilities. To say *P* is necessary in a given se
 | **Metaphysical** | *P* holds in every possible world, full stop — every way reality could have been | Water is H2O; Hesperus is Phosphorus; gold has atomic number 79 | Nothing travels faster than light |
 | **Physical (nomological)** | *P* holds in every world with our laws of nature | Nothing accelerates past light speed; energy is conserved | There are eight planets |
 
-They **nest**, from the most permissive range outward to the narrowest:
+They **nest**, from the narrowest range outward to the most permissive:
 
 > physically possible ⊂ metaphysically possible ⊂ conceptually possible ⊂ logically possible
 
