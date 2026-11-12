@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 640" width="780" height="640">
+<rect x="0" y="0" width="780" height="640" fill="#ffffff"/>
+<line x1="70.0" y1="427.0" x2="720.0" y2="427.0" stroke="#333" stroke-width="1.2"/>
+<line x1="200.0" y1="518.0" x2="200.0" y2="50.0" stroke="#333" stroke-width="1.2"/>
+<text x="716.0" y="461.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#333" text-anchor="end" font-weight="normal">x (km)</text>
+<text x="208.0" y="64.0" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#333" text-anchor="start" font-weight="normal">ct (km)</text>
+<line x1="330.0" y1="432.2" x2="330.0" y2="421.8" stroke="#333" stroke-width="1.2"/>
+<text x="330.0" y="445.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle" font-weight="normal">0.5</text>
+<line x1="460.0" y1="432.2" x2="460.0" y2="421.8" stroke="#333" stroke-width="1.2"/>
+<text x="460.0" y="445.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle" font-weight="normal">1</text>
+<line x1="590.0" y1="432.2" x2="590.0" y2="421.8" stroke="#333" stroke-width="1.2"/>
+<text x="590.0" y="445.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle" font-weight="normal">1.5</text>
+<line x1="720.0" y1="432.2" x2="720.0" y2="421.8" stroke="#333" stroke-width="1.2"/>
+<text x="720.0" y="445.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle" font-weight="normal">2</text>
+<line x1="194.8" y1="297.0" x2="205.2" y2="297.0" stroke="#333" stroke-width="1.2"/>
+<text x="192.0" y="301.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#333" text-anchor="end" font-weight="normal">0.5</text>
+<line x1="194.8" y1="167.0" x2="205.2" y2="167.0" stroke="#333" stroke-width="1.2"/>
+<text x="192.0" y="171.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#333" text-anchor="end" font-weight="normal">1</text>
+<line x1="200.0" y1="427.0" x2="577.0" y2="50.0" stroke="#777" stroke-width="1.4" stroke-dasharray="6 5"/>
+<line x1="200.0" y1="427.0" x2="291.0" y2="518.0" stroke="#777" stroke-width="1.4" stroke-dasharray="6 5"/>
+<line x1="200.0" y1="427.0" x2="70.0" y2="297.0" stroke="#777" stroke-width="1.4" stroke-dasharray="6 5"/>
+<line x1="200.0" y1="427.0" x2="109.0" y2="518.0" stroke="#777" stroke-width="1.4" stroke-dasharray="6 5"/>
+<text x="530.2" y="83.8" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#555" text-anchor="end" font-weight="normal">light cone of A</text>
+<line x1="590.0" y1="271.0" x2="343.0" y2="518.0" stroke="#999" stroke-width="1.1" stroke-dasharray="2 4"/>
+<line x1="590.0" y1="271.0" x2="720.0" y2="401.0" stroke="#999" stroke-width="1.1" stroke-dasharray="2 4"/>
+<text x="382.0" y="497.2" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#555" text-anchor="start" font-weight="normal">past light cone of B</text>
+<line x1="70.0" y1="427.0" x2="720.0" y2="427.0" stroke="#1a6fb5" stroke-width="2.4"/>
+<line x1="70.0" y1="479.0" x2="720.0" y2="219.0" stroke="#2e8b57" stroke-width="2.4" stroke-dasharray="9 4"/>
+<line x1="86.3" y1="518.0" x2="671.2" y2="50.0" stroke="#d1495b" stroke-width="2.4"/>
+<line x1="70.0" y1="271.0" x2="720.0" y2="271.0" stroke="#1a6fb5" stroke-width="1.2" stroke-dasharray="3 4"/>
+<circle cx="200.0" cy="427.0" r="6" fill="#111"/>
+<circle cx="590.0" cy="271.0" r="6" fill="#111"/>
+<text x="188.0" y="417.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#111" text-anchor="end" font-weight="bold">A</text>
+<text x="600.0" y="291.0" font-family="Helvetica, Arial, sans-serif" font-size="15" fill="#111" text-anchor="start" font-weight="bold">B</text>
+<rect x="50" y="530.0" width="690" height="84" fill="#ffffff" stroke="#bbb"/>
+<line x1="80" y1="548.0" x2="114" y2="548.0" stroke="#1a6fb5" stroke-width="2.4"/>
+<text x="122.0" y="552.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111" text-anchor="start" font-weight="normal">lab frame (v = 0): A before B</text>
+<line x1="80" y1="570.0" x2="114" y2="570.0" stroke="#2e8b57" stroke-width="2.4" stroke-dasharray="9 4"/>
+<text x="122.0" y="574.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111" text-anchor="start" font-weight="normal">v = 0.4c: A and B simultaneous</text>
+<line x1="80" y1="592.0" x2="114" y2="592.0" stroke="#d1495b" stroke-width="2.4"/>
+<text x="122.0" y="596.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111" text-anchor="start" font-weight="normal">v = 0.8c: B before A</text>
+<line x1="410" y1="548.0" x2="444" y2="548.0" stroke="#1a6fb5" stroke-width="2.4" stroke-dasharray="3 4"/>
+<text x="452.0" y="552.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111" text-anchor="start" font-weight="normal">lab frame&#8217;s now through B</text>
+<line x1="410" y1="570.0" x2="444" y2="570.0" stroke="#777" stroke-width="1.4" stroke-dasharray="6 5"/>
+<text x="452.0" y="574.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111" text-anchor="start" font-weight="normal">light cones (45&#176;)</text>
+<text x="410.0" y="596.0" font-family="Helvetica, Arial, sans-serif" font-size="12" fill="#111" text-anchor="start" font-weight="normal">A: Alice measures; B: Bob, 1.5 km away, 2.0 &#956;s later</text>
+<text x="390.0" y="26.0" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#111" text-anchor="middle" font-weight="bold">Each frame&#8217;s &#8220;now&#8221; through A: which measurement is first depends on the frame</text>
+</svg>

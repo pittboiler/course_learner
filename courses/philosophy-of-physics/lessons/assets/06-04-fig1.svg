@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 330" width="800" height="330" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="800" height="330" fill="#ffffff"/>
+<text x="400.0" y="22" font-size="14" text-anchor="middle" fill="#111">Effective theories on a log energy scale (GeV)</text>
+<line x1="70" y1="270" x2="770" y2="270" stroke="#111" stroke-width="1.5"/>
+<line x1="70.0" y1="270" x2="70.0" y2="274" stroke="#111" stroke-width="1"/>
+<line x1="100.4" y1="270" x2="100.4" y2="274" stroke="#111" stroke-width="1"/>
+<line x1="130.9" y1="270" x2="130.9" y2="274" stroke="#111" stroke-width="1"/>
+<line x1="161.3" y1="270" x2="161.3" y2="277" stroke="#111" stroke-width="1"/>
+<text x="161.3" y="294" font-size="12" text-anchor="middle" fill="#111">10<tspan dy="-6" font-size="11">0</tspan></text>
+<line x1="191.7" y1="270" x2="191.7" y2="274" stroke="#111" stroke-width="1"/>
+<line x1="222.2" y1="270" x2="222.2" y2="274" stroke="#111" stroke-width="1"/>
+<line x1="252.6" y1="270" x2="252.6" y2="274" stroke="#111" stroke-width="1"/>
+<line x1="283.0" y1="270" x2="283.0" y2="274" stroke="#111" stroke-width="1"/>
+<line x1="313.5" y1="270" x2="313.5" y2="277" stroke="#111" stroke-width="1"/>
+<text x="313.5" y="294" font-size="12" text-anchor="middle" fill="#111">10<tspan dy="-6" font-size="11">5</tspan></text>
+<line x1="343.9" y1="270" x2="343.9" y2="274" stroke="#111" stroke-width="1"/>
+<line x1="374.3" y1="270" x2="374.3" y2="274" stroke="#111" stroke-width="1"/>
+<line x1="404.8" y1="270" x2="404.8" y2="274" stroke="#111" stroke-width="1"/>
+<line x1="435.2" y1="270" x2="435.2" y2="274" stroke="#111" stroke-width="1"/>
+<line x1="465.7" y1="270" x2="465.7" y2="277" stroke="#111" stroke-width="1"/>
+<text x="465.7" y="294" font-size="12" text-anchor="middle" fill="#111">10<tspan dy="-6" font-size="11">10</tspan></text>
+<line x1="496.1" y1="270" x2="496.1" y2="274" stroke="#111" stroke-width="1"/>
+<line x1="526.5" y1="270" x2="526.5" y2="274" stroke="#111" stroke-width="1"/>
+<line x1="557.0" y1="270" x2="557.0" y2="274" stroke="#111" stroke-width="1"/>
+<line x1="587.4" y1="270" x2="587.4" y2="274" stroke="#111" stroke-width="1"/>
+<line x1="617.8" y1="270" x2="617.8" y2="277" stroke="#111" stroke-width="1"/>
+<text x="617.8" y="294" font-size="12" text-anchor="middle" fill="#111">10<tspan dy="-6" font-size="11">15</tspan></text>
+<line x1="648.3" y1="270" x2="648.3" y2="274" stroke="#111" stroke-width="1"/>
+<line x1="678.7" y1="270" x2="678.7" y2="274" stroke="#111" stroke-width="1"/>
+<line x1="709.1" y1="270" x2="709.1" y2="274" stroke="#111" stroke-width="1"/>
+<line x1="739.6" y1="270" x2="739.6" y2="274" stroke="#111" stroke-width="1"/>
+<line x1="770.0" y1="270" x2="770.0" y2="277" stroke="#111" stroke-width="1"/>
+<text x="770.0" y="294" font-size="12" text-anchor="middle" fill="#111">10<tspan dy="-6" font-size="11">20</tspan></text>
+<text x="770" y="316" font-size="12" text-anchor="end" fill="#333">energy E in GeV (1 GeV is about a proton mass)</text>
+<line x1="219.3" y1="44" x2="219.3" y2="270" stroke="#1a6fb5" stroke-width="1" stroke-dasharray="3,3"/>
+<line x1="287.1" y1="44" x2="287.1" y2="270" stroke="#333" stroke-width="1" stroke-dasharray="3,3"/>
+<line x1="648.3" y1="44" x2="648.3" y2="270" stroke="#333" stroke-width="1" stroke-dasharray="3,3"/>
+<line x1="742.2" y1="44" x2="742.2" y2="270" stroke="#d1495b" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="215.3" y="42" font-size="12" text-anchor="end" fill="#1a6fb5">M<tspan dy="3" font-size="11">W</tspan><tspan dy="-3"> = 80.4</tspan></text>
+<text x="291.1" y="42" font-size="12" text-anchor="start" fill="#333">LHC 13.6 TeV</text>
+<text x="644.3" y="60" font-size="12" text-anchor="end" fill="#333">10<tspan dy="-6" font-size="11">16</tspan><tspan dy="6"> GeV</tspan></text>
+<text x="742.2" y="42" font-size="12" text-anchor="end" fill="#d1495b">M<tspan dy="3" font-size="11">Pl</tspan><tspan dy="-3"> = 1.22 &#215; 10</tspan><tspan dy="-6" font-size="11">19</tspan></text>
+<line x1="70.0" y1="92" x2="219.3" y2="92" stroke="#1a6fb5" stroke-width="9" stroke-linecap="butt"/>
+<line x1="219.3" y1="92" x2="236.4" y2="92" stroke="#1a6fb5" stroke-width="3" stroke-dasharray="6,5"/>
+<text x="70.0" y="82" font-size="13" fill="#111">Fermi theory (weak decays as contact interactions)</text>
+<text x="242.4" y="96" font-size="12" fill="#1a6fb5">its own bound: G<tspan dy="3" font-size="11">F</tspan><tspan dy="-9" font-size="11">&#8722;1/2</tspan><tspan dy="6"> &#8776; 293 GeV</tspan></text>
+<line x1="70.0" y1="152" x2="287.1" y2="152" stroke="#2e8b57" stroke-width="9" stroke-linecap="butt"/>
+<line x1="287.1" y1="152" x2="742.2" y2="152" stroke="#2e8b57" stroke-width="3" stroke-dasharray="6,5"/>
+<text x="70.0" y="142" font-size="13" fill="#111">Standard Model (tested up to collider energies)</text>
+<text x="465.7" y="174" font-size="12" fill="#2e8b57">upper end unknown</text>
+<line x1="70.0" y1="212" x2="742.2" y2="212" stroke="#d1495b" stroke-width="9" stroke-linecap="butt"/>
+<text x="70.0" y="202" font-size="13" fill="#111">General relativity as an EFT: corrections of order (E/M<tspan dy="3" font-size="11">Pl</tspan><tspan dy="-3">)</tspan><tspan dy="-6" font-size="11">2</tspan></text>
+<text x="738.2" y="234" font-size="12" text-anchor="end" fill="#d1495b">expansion fails here</text>
+</svg>
