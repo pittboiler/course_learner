@@ -2105,7 +2105,7 @@ Notation for the module: $P(x;\theta)$, with a semicolon, is the sampling probab
 
 - **A coin's one-half reads either way.** "The probability that this hypothesis is true" reads only the second way.
 - **Both Fisher and Neyman-Pearson start from probabilities of data under a fixed hypothesis,** so both must say which series of data they mean ([reference-class problem](#reference-class-problem)).
-- Probability in physics belongs to [philosophy-of-physics](../philosophy-of-physics/syllabus.md).
+- Probability in physics belongs to [philosophy-of-physics 5.6](../philosophy-of-physics/lessons/05-06-probability-in-statistical-mechanics.md).
 
 *Lessons:* [3.1](lessons/03-01-two-schools-of-statistical-inference.md)
 
@@ -3530,7 +3530,7 @@ N1 of [Nagel's model](#nagelian-reduction). Nagel lists three things a bridge mi
 
 - **Factual, on the lesson's reading.** Thermometers fixed "temperature" long before anyone connected it to molecular motion, so the link could have been false.
 - **Restricted.** It holds for a dilute gas at equilibrium. Radiation and nuclear spins have temperatures with no such story, and the general link is $1/T = \partial S/\partial E$, for entropy $S$ and energy $E$. Lawrence Sklar and John Bickle press the moral: temperature, the showcase reduction, is itself multiply realized.
-- **Extra premises.** The second law needs a probabilistic assumption mechanics does not supply, a matter for [`philosophy-of-physics`](../philosophy-of-physics/syllabus.md).
+- **Extra premises.** The second law needs a probabilistic assumption mechanics does not supply, a matter for [`philosophy-of-physics` 5.4](../philosophy-of-physics/lessons/05-04-boltzmann-entropy-and-the-past-hypothesis.md).
 
 **Must a bridge be a biconditional?** [Fodor's target](#multiple-realizability) demands one physical partner per kind. Robert Richardson (1979) argued that Nagel's derivability needs only one-way links, physical sufficient conditions for each higher predicate, so the derivation can run realizer by realizer. Elliott Sober and Jeremy Butterfield (2011) add that a disjunctive bridge blocks neither deduction nor explanation, though Butterfield reads Nagel himself as wanting the bridge's physical side to be a working term of the reducing theory.
 
@@ -3910,7 +3910,7 @@ A positive coefficient means the transverse electric field, for $s$, or magnetic
 - **Objections.** [Relations without relata](#relations-without-relata). Van Fraassen (2006): with nothing non-structural, the difference between physical and mathematical structure disappears.
 - **Against Newman.** Ladyman and Ross say modal structure was never a set of pairs, so the [construction](#newman-objection) misses its target.
 - **Trap.** Only OSR's eliminative form denies that ordinary objects exist.
-- **Handoff.** The further motivations, from the identity of quantum particles and spacetime points, are [`philosophy-of-physics`](../philosophy-of-physics/syllabus.md) 6.2–6.3.
+- **Handoff.** The further motivations, from the identity of quantum particles and spacetime points, are [`philosophy-of-physics`](../philosophy-of-physics/syllabus.md) [6.3](../philosophy-of-physics/lessons/06-03-particles-fields-or-structure.md) and [4.5](../philosophy-of-physics/lessons/04-05-the-hole-argument.md); that course also applies OSR to gauge fields in 6.2.
 
 *Lessons:* [5.3](lessons/05-03-structural-realism.md)
 

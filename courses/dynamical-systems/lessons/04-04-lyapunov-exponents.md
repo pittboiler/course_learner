@@ -94,7 +94,7 @@ The rule of thumb: **any $\lambda_i>0$ means chaos**; if the largest is $0$ you'
 
 ## Problems
 
-**P1 (🟢)** Two trajectories on an attractor start $\lVert\delta_0\rVert=2\times10^{-6}$ apart and, before saturating, reach $\lVert\delta(t)\rVert=2\times10^{-2}$ at $t=8$. Estimate the largest Lyapunov exponent $\lambda_1$, state whether the system is chaotic, and give the approximate "prediction horizon" — the time for an initial uncertainty to grow by a factor of $e$.
+**P1 (🟢)** Two trajectories on an attractor start $\lVert\delta_0\rVert=2\times10^{-6}$ apart and, before saturating, reach $\lVert\delta(t)\rVert=2\times10^{-2}$ at $t=8$. Estimate the largest Lyapunov exponent $\lambda_1$, state whether the system is chaotic, and give the $e$-folding (Lyapunov) time — the time for an initial uncertainty to grow by a factor of $e$.
 
 **P2 (🟡)** A dissipative 3-D flow has constant divergence $\nabla\!\cdot\mathbf f=-3$ everywhere, and its attractor is measured to have $\lambda_1=+0.4$. Using the spectrum's structural facts, determine $\lambda_2$ and $\lambda_3$ (assume the attractor is a bounded strange attractor, not a fixed point or cycle). What is the sign pattern, and what kind of object is it?
 
@@ -105,7 +105,7 @@ The rule of thumb: **any $\lambda_i>0$ means chaos**; if the largest is $0$ you'
 
 **P1** Fit the slope of $\ln$-separation:
 $$\lambda_1\approx\frac{1}{t}\ln\frac{\lVert\delta(t)\rVert}{\lVert\delta_0\rVert}=\frac{1}{8}\ln\frac{2\times10^{-2}}{2\times10^{-6}}=\frac{1}{8}\ln\!\big(10^{4}\big)=\frac{4\ln 10}{8}=\frac{9.21}{8}\approx 1.15.$$
-Positive, so the system is **chaotic**. The prediction horizon is the $e$-folding time $\tau=1/\lambda_1\approx 1/1.15\approx 0.87$ time units: after roughly that long, any initial uncertainty has grown by a factor $e$, and after a handful of $\tau$ it fills the attractor and prediction fails.
+Positive, so the system is **chaotic**. The $e$-folding (Lyapunov) time is $\tau=1/\lambda_1\approx 1/1.15\approx 0.87$ time units: after roughly that long, any initial uncertainty has grown by a factor $e$, and after a handful of $\tau$ it fills the attractor and prediction fails (the prediction horizon of [Lesson 4.2](04-02-sensitive-dependence.md) is $\tau\ln(a/\lVert\delta_0\rVert)$, that handful).
 
 **P2** Structural facts for a bounded non-fixed-point flow:
 - At least one exponent is $0$ (flow direction). Since it's a strange attractor with $\lambda_1=+0.4>0$, the zero must be the *second* exponent: $\lambda_2=0$.

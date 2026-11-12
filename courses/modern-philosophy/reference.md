@@ -1910,7 +1910,7 @@ This course reads the arguments historically. Wherever a lesson uses a fact, met
 | Curvature measured from inside a space; angle excess of a curved triangle (non-Euclidean geometry) | [differential-geometry 1.4](../differential-geometry/lessons/01-04-gaussian-curvature-theorema-egregium.md), [4.2](../differential-geometry/lessons/04-02-parallel-transport.md) |
 | Light bending near the Sun; invariant causal order of timelike-separated events | [relativity 6.2](../relativity/lessons/06-02-orbits-precession-light-bending.md), [1.4](../relativity/lessons/01-04-spacetime-interval-causality.md) |
 | Whether dualism is true; interaction as a live objection; the zombie argument; the mill; the bundle self; arguments from illusion | [philosophy-of-mind syllabus](../philosophy-of-mind/syllabus.md) (1.1-1.4, 4.4-4.5) |
-| Leibniz-Clarke on space; Poincaré's conventionalism | [philosophy-of-physics syllabus](../philosophy-of-physics/syllabus.md) (4.4) |
+| Leibniz-Clarke on space; Poincaré's conventionalism | [philosophy-of-physics syllabus](../philosophy-of-physics/syllabus.md) (4.1, 4.4) |
 | Causal explanation in science; epistemic structural realism (cousin of Langton's Kant) | [philosophy-of-science syllabus](../philosophy-of-science/syllabus.md) ([5.3](../philosophy-of-science/lessons/05-03-structural-realism.md)) |
 | Husserl's epoché, categorial intuition, transcendental ego, "to the things themselves"; Scheler's *ressentiment* | [phenomenology-and-personalism syllabus](../phenomenology-and-personalism/syllabus.md) (1.2, 1.3, 4.1) |
 | Causal theory of natural-kind terms; whether there are meaningless sentences | [philosophy-of-language-and-logic syllabus](../philosophy-of-language-and-logic/syllabus.md) (3.3) |

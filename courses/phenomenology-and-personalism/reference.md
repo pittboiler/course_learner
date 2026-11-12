@@ -353,7 +353,7 @@ Husserl's name for the self-interpretation on which the method's product is real
 
 The target of the *Crisis*, not physics' results. It inverts the order of founding, treating what is founded as the foundation. The cure is reflection on origins, not less physics. The complaint is the reverse of relativism: Husserl wants science's sense secured by tracing it to evidence anyone can check. Sellars's *scientia mensura* (1956) states the view Husserl rejects.
 
-*Lessons:* [1.4](lessons/01-04-the-lifeworld-and-the-crisis-of-the-sciences.md). The live realism debate: [philosophy-of-science syllabus](../philosophy-of-science/syllabus.md) Module 5; [philosophy-of-physics syllabus](../philosophy-of-physics/syllabus.md).
+*Lessons:* [1.4](lessons/01-04-the-lifeworld-and-the-crisis-of-the-sciences.md). The live realism debate: [philosophy-of-science syllabus](../philosophy-of-science/syllabus.md) Module 5; [philosophy-of-physics 2.2](../philosophy-of-physics/lessons/02-02-collapse-theories-grw-and-csl.md) (the primitive-ontology demand).
 
 ### Argument against psychologism
 
@@ -1727,7 +1727,7 @@ This course reads the texts historically and descriptively. Wherever a lesson us
 | Intentionality as a live thesis; other minds, simulation and theory-theory; the computational theory of mind; extended mind; embodiment; the sense of agency | [philosophy-of-mind syllabus](../philosophy-of-mind/syllabus.md) ([4.1](../philosophy-of-mind/lessons/04-01-intentionality-and-folk-psychology.md), [4.3](../philosophy-of-mind/lessons/04-03-externalism-narrow-content-and-the-extended-mind.md), [6.1](../philosophy-of-mind/lessons/06-01-computationalism-and-the-turing-test.md); other minds [6.2](../philosophy-of-mind/lessons/06-02-the-chinese-room.md); sense of agency named in [3.3](../philosophy-of-mind/lessons/03-03-global-workspace-and-the-science-of-consciousness.md)) |
 | Solidarity as a social principle; the subjective dimension of work; the common good | [catholic-social-teaching syllabus](../catholic-social-teaching/syllabus.md) (3.4, 4.1) |
 | Frege's sense and reference (the model for the Fregean noema) | [philosophy-of-language-and-logic syllabus](../philosophy-of-language-and-logic/syllabus.md) |
-| Scientific realism: does the scientific or the lived image say what exists? | [philosophy-of-science syllabus](../philosophy-of-science/syllabus.md) (Module 5), [philosophy-of-physics syllabus](../philosophy-of-physics/syllabus.md) |
+| Scientific realism: does the scientific or the lived image say what exists? | [philosophy-of-science syllabus](../philosophy-of-science/syllabus.md) (Module 5), [philosophy-of-physics 2.2](../philosophy-of-physics/lessons/02-02-collapse-theories-grw-and-csl.md) (primitive ontology) |
 
 ## Pitfalls
 

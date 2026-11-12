@@ -768,4 +768,4 @@ above and that table is their only home.
 - Diffusion is slower than "distance = speed × time": $\langle x^2\rangle\propto t$, so typical displacement grows like $\sqrt t$. The $t^2$ law is only the pre-collision ballistic regime. *([6.1](lessons/06-01-brownian-langevin.md))*
 - Gibbs and Boltzmann entropy are the same quantity; use Gibbs whenever the microstates are not equally likely (anything canonical or grand canonical). *([6.2](lessons/06-02-entropy-information-arrow.md))*
 - Prefer "missing information about the microstate given the macrostate" to "disorder" — the first is computable, the second misleads. *([6.2](lessons/06-02-entropy-information-arrow.md))*
-- The arrow of time does not come from irreversible microscopic laws (there are none). It comes from coarse-graining plus the universe's low-entropy start. *([6.2](lessons/06-02-entropy-information-arrow.md))*
+- The arrow of time does not come from irreversible microscopic laws (the known T-violation, in weak interactions, is far too small and of the wrong kind to produce it). It comes from coarse-graining plus the universe's low-entropy start. *([6.2](lessons/06-02-entropy-information-arrow.md))*

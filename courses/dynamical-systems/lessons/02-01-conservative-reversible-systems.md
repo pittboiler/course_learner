@@ -36,7 +36,7 @@ is conserved: $\dot E = y\,\dot y + V'(x)\,\dot x = y(-V'(x)) + V'(x)\,y = 0.$
 **Reversibility.** A system is **time-reversible** under the reflection $(x,y)\mapsto(x,-y)$ if running it backward in time looks the same after flipping the sign of $y$. Concretely, that holds when $f$ is **odd** in $y$ and $g$ is **even** in $y$:
 $$f(x,-y) = -f(x,y), \qquad g(x,-y) = g(x,y).$$
 
-*In words:* reverse the velocity and reverse the clock, and the movie is unchanged. Any mechanical system $\dot x = y,\ \dot y = -V'(x)$ qualifies ($f=y$ is odd; $g=-V'(x)$ has no $y$, so it's even), which is why conservative mechanical flows are automatically reversible — but reversibility is the broader condition and catches systems that have no obvious energy.
+*In words:* reverse the velocity and reverse the clock, and the movie is unchanged. Any mechanical system $\dot x = y,\ \dot y = -V'(x)$ qualifies ($f=y$ is odd; $g=-V'(x)$ has no $y$, so it's even), which is why conservative mechanical flows of this form are automatically reversible — but reversibility is the broader condition and catches systems that have no obvious energy.
 
 **Theorem (reversibility forces centers).** If the origin is a linear center of a reversible system, then it is a true nonlinear center: nearby orbits are closed, and the phase portrait is symmetric under $y\to -y$.
 
@@ -76,7 +76,7 @@ The saddle's level set $E=0$ is a **figure-eight**: two homoclinic loops, one ar
 - You might think pure-imaginary eigenvalues *always* mean a center — but for a generic nonlinear system that's the untrustworthy borderline case (a hidden spiral is possible). It is a *true* center only when you have extra structure: a conserved quantity or reversibility. Never call a nonlinear fixed point a center on eigenvalues alone.
 - You might think "conserved" means $E$ is one fixed number everywhere — but $\dot E = 0$ only forbids change *along each trajectory*. Different orbits carry different values of $E$; that's why distinct level sets are distinct orbits.
 - Watch the sign in $\ddot x = -V'(x)$. Force points *downhill*, toward lower $V$. Flip it and you'll turn every center into a saddle and vice versa — you'd be studying $+V'(x)$, an upside-down potential.
-- Conservative $\Rightarrow$ reversible, but not the reverse. Reversibility is the more general tool: some reversible systems have no natural energy yet are still forced to have centers and symmetric orbits (see P2).
+- Conservative mechanical systems $\dot x = y,\ \dot y = -V'(x)$ are reversible, but conservation alone does not imply reversibility ($\dot x = x + y,\ \dot y = -y$ conserves $E = \tfrac12 y^2 + xy$ yet $f(x,-y) \neq -f(x,y)$), and reversibility does not imply conservation. Reversibility is the more general tool: some reversible systems have no natural energy yet are still forced to have centers and symmetric orbits (see P2).
 
 ## One-liner
 

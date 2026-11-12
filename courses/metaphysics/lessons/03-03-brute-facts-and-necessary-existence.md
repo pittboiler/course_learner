@@ -74,7 +74,7 @@ graph TD
 
 ## Worked examples
 
-**Example 1 (mechanical — running the versions on one fact).** A particular radium atom decays at 3:04. The laws give a half-life and nothing more: no antecedent condition distinguishes this atom from an identical one that did not decay.
+**Example 1 (mechanical — running the versions on one fact).** A particular radium atom decays at 3:04. The laws give a half-life and nothing more: on collapse readings, no antecedent condition distinguishes this atom from an identical one that did not decay.
 
 Work down the table. The **strong** and **contingency** versions both demand an explanation of *this* fact, which is contingent — and the only candidate is "the law assigns it a chance," which explains why decay was to be expected in some atoms but not why it happened in this one at this time. That is the difference between an explanation and a **contrastive** explanation, and it is where the argument actually sits: the rationalist says a chance is a genuine explanation of a chancy outcome, so the PSR survives quantum mechanics untouched; the Humean says calling it an explanation drains the word, and that this is a clean, uncontroversial brute fact. The **causal** version is not engaged at all — it asks for a cause of the atom's *existence*, which the atom has. The **restricted** version passes trivially if fundamental physical facts are the exception it carves out, which shows how much work the choice of K is doing.
 

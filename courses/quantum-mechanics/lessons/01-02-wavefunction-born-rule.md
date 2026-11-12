@@ -44,7 +44,7 @@ where $\hbar$ is the reduced Planck constant and $m$ the particle's mass. It obe
 $$
 \frac{\partial |\psi|^2}{\partial t} + \frac{\partial j}{\partial x} = 0 .
 $$
-*In words: probability behaves like an incompressible fluid — if the density in a region drops, it's because probability flowed out through the edges, carried by the current $j$; none is created or destroyed.* This is what *guarantees* normalization stays true for all time: integrate over all space and the current terms vanish at infinity, so $\frac{d}{dt}\int|\psi|^2\,dx = 0$. (The derivation uses the Schrödinger equation, which arrives in [2.1](#/lesson/quantum-mechanics/02-01-schrodinger-equation.md); for now, read it as the statement that probability is locally conserved.)
+*In words: probability behaves like a conserved fluid — if the density in a region drops, it's because probability flowed out through the edges, carried by the current $j$; none is created or destroyed.* This is what *guarantees* normalization stays true for all time: integrate over all space and the current terms vanish at infinity, so $\frac{d}{dt}\int|\psi|^2\,dx = 0$. (The derivation uses the Schrödinger equation, which arrives in [2.1](#/lesson/quantum-mechanics/02-01-schrodinger-equation.md); for now, read it as the statement that probability is locally conserved.)
 
 ## Picture
 

@@ -60,7 +60,7 @@ for $n=0,1,\dots,10$, summing to $2^{10}=1024$ total microstates (every distinct
 $$P(n{=}5)=\frac{252}{1024}\approx 0.246,\qquad P(n{=}0)=\frac{1}{1024}\approx 0.001 .$$
 "All up" is a perfectly legal microstate with the *same* probability $1/1024$ as any single other microstate — but as a *macrostate* it is $252\times$ rarer than the even split, because the even split is realized $252$ different ways and "all up" only one. Microstates are democratic; macrostates are not.
 
-**Example 2 (why you'd care — the gas that never uncompresses).** Put $N$ gas molecules in a box and ask: what's the chance they all wander into the left half at once? That macrostate has one... well, $\Omega \sim 1$-ish share: each molecule independently has probability $\tfrac12$ to be left, so
+**Example 2 (why you'd care — the gas that never uncompresses).** Put $N$ gas molecules in a box and ask: what's the chance they all wander into the left half at once? That macrostate is a single left/right assignment out of $2^N$: each molecule independently has probability $\tfrac12$ to be left, so
 $$P(\text{all left}) = 2^{-N}.$$
 For a mere $N=100$ that's $10^{-30}$; for a real $N=10^{23}$ it is $2^{-10^{23}}$ — a number so small the age of the universe rounds to zero against it. This is why you never see a room's air spontaneously pile into one corner, even though *no law of mechanics forbids it*. The reverse (spreading out) happens because the spread-out macrostate owns essentially all the microstates. Equilibrium isn't a force; it's a landslide of counting. In [1.3](#/lesson/stat-mech/01-03-entropy-microcanonical.md) we take $\ln$ of these multiplicities and this landslide becomes $\Delta S \ge 0$.
 

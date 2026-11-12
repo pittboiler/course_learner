@@ -4,7 +4,7 @@
 
 ## Why this matters
 
-Every equation in this course is deterministic. Given the state of the atmosphere now, they say what it will be later — so in principle a good enough model and a good enough measurement should forecast indefinitely. In practice no forecast has useful skill beyond about two weeks, and this is not an engineering shortfall that better computers will fix. It is a *property of the equations*, discovered by Edward Lorenz in 1963, and it can be estimated from a single number: how fast small errors double. This lesson closes the course with that estimate, with what forecasters do about it, and with the distinction that makes climate projection a legitimate enterprise despite it — which is exactly the bridge to [`climate-science`](../../climate-science/syllabus.md).
+Every equation in this course is deterministic. Given the state of the atmosphere now, they say what it will be later — so in principle a good enough model and a good enough measurement should forecast indefinitely. In practice no forecast has useful skill beyond about two weeks, and this is not an engineering shortfall that better computers will fix. It is a *property of the equations* (Edward Lorenz found the sensitivity behind it in 1963, and in 1969 showed that a flow with many scales of motion has a finite range of predictability that a smaller initial error cannot lengthen), and it can be estimated from a single number: how fast small errors double. This lesson closes the course with that estimate, with what forecasters do about it, and with the distinction that makes climate projection a legitimate enterprise despite it — which is exactly the bridge to [`climate-science`](../../climate-science/syllabus.md).
 
 ## The idea
 

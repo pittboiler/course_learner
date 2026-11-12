@@ -293,7 +293,7 @@ The honest comparison in this course is not which view explains most but which p
 | Historical exegesis of Plato, Aristotle, the scholastics | [ancient-medieval-philosophy](../ancient-medieval-philosophy/syllabus.md) |
 | Locke on persons, Hume's two definitions, Leibniz's principles, Kant on existence — as texts | [modern-philosophy](../modern-philosophy/syllabus.md) 2.3, 3.2–3.3, 4.2, 6.3 |
 | Mind-body problem, consciousness, machine minds | [philosophy-of-mind](../philosophy-of-mind/syllabus.md) |
-| Relativity and simultaneity; four-dimensionalism in physics | [relativity](../relativity/syllabus.md) 1.1; [philosophy-of-physics](../philosophy-of-physics/syllabus.md) |
+| Relativity and simultaneity; four-dimensionalism in physics | [relativity](../relativity/syllabus.md) 1.1; [philosophy-of-physics](../philosophy-of-physics/syllabus.md) [4.3](../philosophy-of-physics/lessons/04-03-the-conventionality-of-simultaneity.md) |
 | Laws in scientific practice, explanation, induction | [philosophy-of-science](../philosophy-of-science/syllabus.md) |
 | Substance and accident applied to the Eucharist | [sacraments-and-liturgy](../sacraments-and-liturgy/syllabus.md) |
 
