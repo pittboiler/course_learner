@@ -338,7 +338,7 @@ The arguments themselves are assessed in [philosophy-of-religion](../philosophy-
 
 An argument whose key premise can be credited only by someone already persuaded of the conclusion: it may be sound, but it adds nothing to a case addressed to the unpersuaded.
 
-The ontological arguments are the course's example. In S5 the modal argument's "possibly God" is equivalent to its conclusion; Mackie: grounds for the premise can be no better than grounds for God, and "possibly no maximal being" looks just as conceivable ([philosophy-of-religion 2.2](../philosophy-of-religion/lessons/02-02-the-modal-ontological-argument.md)). Plantinga himself claimed only rational acceptability. So they enter the cable at a ratio of about 1. "Spent" is not "unsound".
+The ontological arguments are the course's example. In S5, given its premise $\Box(G \to \Box G)$ (from the definition of maximal greatness), the modal argument's "possibly God" is equivalent to its conclusion; Mackie: grounds for the premise can be no better than grounds for God, and "possibly no maximal being" looks just as conceivable ([philosophy-of-religion 2.2](../philosophy-of-religion/lessons/02-02-the-modal-ontological-argument.md)). Plantinga himself claimed only rational acceptability. So they enter the cable at a ratio of about 1. "Spent" is not "unsound".
 
 *Lessons:* [2.1](lessons/02-01-assembling-the-case.md)
 

@@ -452,8 +452,9 @@ catalogues and PSPACE ([computational-complexity](../computational-complexity/sy
 LR/LL parsing tables and lexer/parser generators, type systems and abstract
 interpretation ([programming-languages](../programming-languages/syllabus.md));
 KMP and string matching, dynamic programming and CYK
-([algorithms](../algorithms/syllabus.md)); Gödel's incompleteness theorems and
-Tarski undefinability ([mathematical-logic](../mathematical-logic/syllabus.md)).
+([algorithms](../algorithms/syllabus.md)); Gödel's incompleteness theorems
+([mathematical-logic](../mathematical-logic/syllabus.md)) and Tarski undefinability
+([philosophy-of-language-and-logic 5.1](../philosophy-of-language-and-logic/lessons/05-01-tarskis-theory-as-philosophy.md)).
 
 ## Pitfalls
 

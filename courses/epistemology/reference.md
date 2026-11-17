@@ -1146,7 +1146,7 @@ and (ii) predicts exactly the experiences you are having. The skeptic needs only
 it is false, not that it is likely. Descartes, *Meditations* I (1641): the dream and the "malignant
 demon"; the BIV case got its standard form in Hilary Putnam, *Reason, Truth and History* (1981), who
 used it against skepticism via semantic externalism (that reply belongs to
-[`philosophy-of-language-and-logic`](../philosophy-of-language-and-logic/syllabus.md)).
+[`philosophy-of-language-and-logic` 3.3](../philosophy-of-language-and-logic/lessons/03-03-the-necessary-a-posteriori-and-natural-kinds.md)).
 
 1. **P1.** $\neg K(\neg B)$: I don't know that I'm not a handless BIV.
 2. **P2.** $K(H) \to K(\neg B)$: if I know I have hands, I know I'm not a handless BIV (SPC, given the obvious deduction).
@@ -1342,7 +1342,7 @@ presupposes prior warrant for the conclusion** (information-dependence).
 - **The conservative's charge against Moore:** sound but not cogent. Not closure failure: there *is*
   warrant for $\neg SK$ (the entitlement); the proof is just not where it comes from.
 - Wright also turned it on McKinsey's and Putnam's arguments from semantic externalism
-  ([`philosophy-of-language-and-logic`](../philosophy-of-language-and-logic/syllabus.md)).
+  ([`philosophy-of-mind` 4.3](../philosophy-of-mind/lessons/04-03-externalism-narrow-content-and-the-extended-mind.md) for McKinsey; [`philosophy-of-language-and-logic` 3.3](../philosophy-of-language-and-logic/lessons/03-03-the-necessary-a-posteriori-and-natural-kinds.md) for Putnam).
 
 *Lessons:* [3.1](lessons/03-01-the-closure-argument.md), [3.3](lessons/03-03-moore-and-the-dogmatist.md)
 
@@ -2786,7 +2786,8 @@ the owner's card has the entry, it is linked too.
 | Grue and the new riddle (1.2); confirmation theory; IBE in science; hypothetico-deductive confirmation | [philosophy-of-science](../philosophy-of-science/syllabus.md) |
 | Evidentialism and Plantinga's critique of classical foundationalism (5.1); proper function and design (5.2); religious diversity as disagreement (5.5); fine-tuning's indifference prior; Hume on miracles | [philosophy-of-religion](../philosophy-of-religion/syllabus.md) |
 | Descartes's system and method of doubt as history; Kant's synthetic a priori; Hume's system and custom (section V) | [modern-philosophy](../modern-philosophy/syllabus.md) (syllabus only) |
-| Putnam's semantic reply to the BIV; McKinsey-style arguments; Quine's web and the semantics of analyticity; coherence theory of truth; context-sensitivity and gradable adjectives | [philosophy-of-language-and-logic](../philosophy-of-language-and-logic/syllabus.md) (syllabus only) |
+| Putnam's semantic reply to the BIV; Quine's web and the semantics of analyticity; coherence theory of truth; context-sensitivity and gradable adjectives | [philosophy-of-language-and-logic 3.3](../philosophy-of-language-and-logic/lessons/03-03-the-necessary-a-posteriori-and-natural-kinds.md), [4.5](../philosophy-of-language-and-logic/lessons/04-05-analyticity-and-two-dogmas.md), [5.2](../philosophy-of-language-and-logic/lessons/05-02-deflationism.md), [3.4](../philosophy-of-language-and-logic/lessons/03-04-indexicals-and-the-return-of-freges-puzzle.md) |
+| McKinsey-style arguments (externalism plus privileged access) | [philosophy-of-mind 4.3](../philosophy-of-mind/lessons/04-03-externalism-narrow-content-and-the-extended-mind.md) |
 | Judgment aggregation | [social-choice](../social-choice/syllabus.md) |
 | Who counts in public deliberation (the credibility economy) | [political-philosophy](../political-philosophy/syllabus.md) |
 

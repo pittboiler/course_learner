@@ -401,7 +401,7 @@ Scope bought with patches costs simplicity; the ad hoc test asks whether the pat
 | Fact | Where it's taught |
 |---|---|
 | Truth-table semantics, first-order logic, soundness and completeness of a proof system | [mathematical-logic](../mathematical-logic/syllabus.md) |
-| Modal logic and possible-worlds semantics | [philosophy-of-language-and-logic](../philosophy-of-language-and-logic/syllabus.md) |
+| Modal logic and possible-worlds semantics | [philosophy-of-language-and-logic 2.1](../philosophy-of-language-and-logic/lessons/02-01-kripke-semantics-and-the-system-k.md), [2.2](../philosophy-of-language-and-logic/lessons/02-02-axioms-and-frames-t-s4-s5.md) |
 | Probability rules behind the odds form (conditional probability, independence) | [prob-stat-refresher](../prob-stat-refresher/syllabus.md) |
 | Bayesian confirmation theory, the problem of induction as a live problem | [epistemology](../epistemology/syllabus.md), [philosophy-of-science](../philosophy-of-science/syllabus.md) |
 | The repairs to justified true belief after Gettier | [epistemology](../epistemology/syllabus.md) |

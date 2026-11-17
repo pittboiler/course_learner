@@ -165,7 +165,7 @@ The crux is narrow: does a strong PSR demand contrastive explanation? If it does
 1. $p$ is true at $w$. (W1)
 2. $p$ is a conjunction of every actual contingent truth, so $w$ agrees with the actual world on every contingent truth, so $w$ is the actual world. (both stipulations)
 3. $q$ is necessary or contingent. (excluded middle)
-4. Case 1, $\Box q$. With E, $\Box(q \to p)$, so $\Box p$. But $p$ is contingent ($\Diamond \neg p$), which is a contradiction. (as in line 6; in S5, a contingency holding at the actual world holds at every world)
+4. Case 1, $\Box q$. With E, $\Box(q \to p)$, so $\Box p$. But $p$ is contingent ($\Diamond \neg p$), which is a contradiction. (as in line 6; by step 2, $w$ is the actual world, where $p$ is contingent)
 5. Case 2, $q$ contingent and true at $w$. By step 2, $q$ is an actual contingent truth, so it is a conjunct of $p$ and helps explain itself. (as in line 7)
 6. Both cases fail while E holds. So the weak-PSR argument must deny E and allow non-entailing explanation, here an intentional act, exactly as the strong-PSR defender does. (3, 4, 5)
 

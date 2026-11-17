@@ -286,7 +286,7 @@ The honest comparison in this course is not which view explains most but which p
 |---|---|
 | Argument reconstruction, conceptual analysis, thought experiments, reflective equilibrium, the verbal-dispute test | [philosophical-method](../philosophical-method/syllabus.md) 1.3, 3.1–3.4 |
 | Quantifiers, domains, sets and Russell's paradox | [mathematical-logic](../mathematical-logic/syllabus.md) 2.1–2.3, 3.1 |
-| Modal logic as a formal system; rigid designation and the theory of reference | [philosophy-of-language-and-logic](../philosophy-of-language-and-logic/syllabus.md) |
+| Modal logic as a formal system; rigid designation and the theory of reference | [philosophy-of-language-and-logic](../philosophy-of-language-and-logic/syllabus.md) [2.1](../philosophy-of-language-and-logic/lessons/02-01-kripke-semantics-and-the-system-k.md), [2.2](../philosophy-of-language-and-logic/lessons/02-02-axioms-and-frames-t-s4-s5.md); [3.1](../philosophy-of-language-and-logic/lessons/03-01-against-descriptivism.md), [3.2](../philosophy-of-language-and-logic/lessons/03-02-rigid-designation-and-the-causal-picture.md) |
 | The necessary a posteriori as a category of knowledge | [epistemology](../epistemology/syllabus.md) 4.1 |
 | Arguments for God; the PSR weighed as a premise; the per se regress argument; modal collapse | [philosophy-of-religion](../philosophy-of-religion/syllabus.md) 2.1–2.5 |
 | Aquinas's system: analogy, participation, the real distinction's role | [thomistic-synthesis](../thomistic-synthesis/syllabus.md) |

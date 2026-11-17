@@ -855,7 +855,7 @@ Kripke's picture: once God has fixed every physical fact, does he have more to d
 
 ### Two-dimensional semantics
 
-**A term has two intensions: what it would pick out at a world if that world turned out to be actual (primary), and what, given its actual referent, it picks out at a world considered as counterfactual (secondary).** Chalmers, and Frank Jackson (1998), who built the same machinery. The semantics belongs to [`philosophy-of-language-and-logic`](../philosophy-of-language-and-logic/syllabus.md) (syllabus only); [1.4](lessons/01-04-zombies-conceivability-and-kripke.md) carries the minimal step.
+**A term has two intensions: what it would pick out at a world if that world turned out to be actual (primary), and what, given its actual referent, it picks out at a world considered as counterfactual (secondary).** Chalmers, and Frank Jackson (1998), who built the same machinery. The semantics belongs to [`philosophy-of-language-and-logic` 3.3](../philosophy-of-language-and-logic/lessons/03-03-the-necessary-a-posteriori-and-natural-kinds.md); [1.4](lessons/01-04-zombies-conceivability-and-kripke.md) carries the minimal step.
 
 | "water" at | Earth (H2O in the lakes) | Twin Earth (XYZ in the lakes) |
 |---|---|---|
@@ -884,7 +884,7 @@ Kripke's picture: once God has fixed every physical fact, does he have more to d
 
 ### Rigid designation
 
-**A rigid designator picks out the same thing at every possible world where that thing exists.** Saul Kripke (1972/1980). A true identity between rigid designators is necessary ([`metaphysics` 3.1](../metaphysics/lessons/03-01-kinds-of-necessity.md)). The theory of reference belongs to [`philosophy-of-language-and-logic`](../philosophy-of-language-and-logic/syllabus.md) (syllabus only).
+**A rigid designator picks out the same thing at every possible world where that thing exists.** Saul Kripke (1972/1980). A true identity between rigid designators is necessary ([`metaphysics` 3.1](../metaphysics/lessons/03-01-kinds-of-necessity.md)). The theory of reference belongs to [`philosophy-of-language-and-logic` 3.1](../philosophy-of-language-and-logic/lessons/03-01-against-descriptivism.md) and [3.2](../philosophy-of-language-and-logic/lessons/03-02-rigid-designation-and-the-causal-picture.md).
 
 - **"Pain", "heat", "water" and "C-fibre stimulation"** are treated as rigid in [1.4](lessons/01-04-zombies-conceivability-and-kripke.md). So if both terms are rigid, an identity claim must be "necessary, known a posteriori", not contingent as Place and Smart said ([2.1](lessons/02-01-behaviourism-and-the-identity-theory.md)).
 - **Rigid is not the same as fixed by an essential property.** "Heat" is rigid though its reference is fixed by a contingent property; "pain", on Kripke's view, is fixed by how pain feels, which is essential to it ([Kripke's argument](#kripkes-argument)).
@@ -2277,7 +2277,7 @@ where the channel conditions are the stable background the signal's reliability 
 - **The objections:** holism, since if every inference counts, any change of belief changes every meaning (Fodor and Lepore, *Holism: A Shopper's Guide*, 1992); and roles alone fix no truth conditions. It fits *and* better than *horse*.
 - **In 4.3** it is a candidate for [narrow content](#narrow-and-wide-content) (Block, 1986).
 - **In 6.3,** on a language model: a model that reliably draws the inferences a word licenses has the word's role, but roles fix no truth conditions, so a two-factor theorist still needs a referential factor. Tracking and role come apart most sharply there: a model can be rich in role and poor in reference.
-- **Inferentialism about linguistic meaning** is [`philosophy-of-language-and-logic`](../philosophy-of-language-and-logic/syllabus.md) 4.2's.
+- **Inferentialism about linguistic meaning** is [`philosophy-of-language-and-logic`](../philosophy-of-language-and-logic/syllabus.md) [4.2](../philosophy-of-language-and-logic/lessons/04-02-meaning-as-use.md)'s.
 
 *Lessons:* [4.2](lessons/04-02-naturalizing-content.md), [4.3](lessons/04-03-externalism-narrow-content-and-the-extended-mind.md), [6.3](lessons/06-03-do-language-models-understand.md)
 
@@ -2293,7 +2293,7 @@ where the channel conditions are the stable background the signal's reliability 
 - **Where it is weakest:** P3, the step from words to thoughts, which Putnam himself did not endorse. The strongest objection is Fodor's: content explains behaviour, causal powers are intrinsic, and the twins act alike, so psychology needs a shared content ([narrow and wide content](#narrow-and-wide-content)). The strongest reply is Burge's (1986, 1989): working psychology, such as Marr's theory of vision, individuates states by their normal environment.
 - **Concessions.** The externalist: something shared explains why the twins act alike, and an account is owed of why it is not content. The internalist: the shared item fixes no truth conditions until a context is added (Stalnaker; Block).
 - **The conclusion is about individuation, not location.** A burn is a sunburn only if the sun caused it, yet it is located on the skin (Davidson, 1987).
-- **Owned elsewhere.** Twin Earth for kind terms, the division of linguistic labour and two-dimensional semantics are [`philosophy-of-language-and-logic`](../philosophy-of-language-and-logic/syllabus.md) 3.3 (unbuilt); the necessity of water's being H2O is [`metaphysics` 3.1](../metaphysics/lessons/03-01-kinds-of-necessity.md). Horgan and Timmons's moral twin earth ([`ethics` 6.1](../ethics/lessons/06-01-moral-realism.md)) runs the same test on moral terms.
+- **Owned elsewhere.** Twin Earth for kind terms, the division of linguistic labour and two-dimensional semantics are [`philosophy-of-language-and-logic`](../philosophy-of-language-and-logic/syllabus.md) [3.3](../philosophy-of-language-and-logic/lessons/03-03-the-necessary-a-posteriori-and-natural-kinds.md); the necessity of water's being H2O is [`metaphysics` 3.1](../metaphysics/lessons/03-01-kinds-of-necessity.md). Horgan and Timmons's moral twin earth ([`ethics` 6.1](../ethics/lessons/06-01-moral-realism.md)) runs the same test on moral terms.
 - **The 2020 PhilPapers survey** (target group, N = 1,514): 58 percent accepted or leaned towards content externalism, 26 percent towards internalism.
 
 *Lessons:* [4.3](lessons/04-03-externalism-narrow-content-and-the-extended-mind.md)
@@ -2883,7 +2883,7 @@ $$x \oplus y = \begin{cases} x + y & \text{if } x, y < 57 \\ 5 & \text{otherwise
 So $68 + 57 = 125$ but $68 \oplus 57 = 5$, and a record of sums on numbers below 57 fits both.
 
 - **Grue for functions.** Every green emerald examined so far is also grue ([`philosophy-of-science` 1.2](../philosophy-of-science/lessons/01-02-the-new-riddle-of-induction.md)); every finite record of sums is also a record of quus.
-- **Owner.** The paradox and its replies belong to [`philosophy-of-language-and-logic`](../philosophy-of-language-and-logic/syllabus.md) 4.3. 5.2 borrows the case for Ross's R2 ([determinacy argument](#determinacy-argument)).
+- **Owner.** The paradox and its replies belong to [`philosophy-of-language-and-logic`](../philosophy-of-language-and-logic/syllabus.md) [4.3](../philosophy-of-language-and-logic/lessons/04-03-the-rule-following-paradox.md). 5.2 borrows the case for Ross's R2 ([determinacy argument](#determinacy-argument)).
 - **What could fix plus over quus**, on 5.2's replies: dispositions ([finitude and error problems](#finitude-and-error-problems)), naturalness ([naturalness reply](#naturalness-reply)), or, for Ross, nothing physical. Kripke also considered a primitive state of meaning (1982: 51) and called it mysterious ([proves-too-much objection](#proves-too-much-objection)).
 
 *Lessons:* [5.2](lessons/05-02-is-the-intellect-a-bodily-power.md)
@@ -3622,7 +3622,7 @@ For natural numbers $x, y$, quus, written $\oplus$:
 
 $$x \oplus y = \begin{cases} x + y & \text{if } x, y < 57 \\ 5 & \text{otherwise.} \end{cases}$$
 
-So $68 + 57 = 125$ but $68 \oplus 57 = 5$, and any record of sums with both arguments below 57 fits both functions. Kripke's case (1982); [plus and quus](#plus-and-quus). Ross's premise R2 is that no physical process is determinate between functions like these ([determinacy argument](#determinacy-argument)). The rule-following paradox itself is [`philosophy-of-language-and-logic`](../philosophy-of-language-and-logic/syllabus.md) 4.3's (syllabus only).
+So $68 + 57 = 125$ but $68 \oplus 57 = 5$, and any record of sums with both arguments below 57 fits both functions. Kripke's case (1982); [plus and quus](#plus-and-quus). Ross's premise R2 is that no physical process is determinate between functions like these ([determinacy argument](#determinacy-argument)). The rule-following paradox itself is [`philosophy-of-language-and-logic`](../philosophy-of-language-and-logic/syllabus.md) [4.3](../philosophy-of-language-and-logic/lessons/04-03-the-rule-following-paradox.md)'s.
 
 *Lessons:* [5.2](lessons/05-02-is-the-intellect-a-bodily-power.md)
 
@@ -4616,8 +4616,8 @@ The lessons use these without deriving them, or hand them to the course that own
 | The brain in a vat and the closure argument | [epistemology 3.1](../epistemology/lessons/03-01-the-closure-argument.md) |
 | Dogmatism about experience; transmission failure (Wright on McKinsey-style arguments) | [epistemology 3.3](../epistemology/lessons/03-03-moore-and-the-dogmatist.md) |
 | A priori as a property of a route | [epistemology 4.1](../epistemology/lessons/04-01-a-priori-knowledge.md) |
-| Meaning and reference; rigid designation; two-dimensional semantics; Twin Earth as a claim about kind terms; indexicals | [philosophy-of-language-and-logic](../philosophy-of-language-and-logic/syllabus.md) 3.3 (syllabus only) |
-| The rule-following paradox (plus and quus) and its replies; inferentialism about linguistic meaning; meaning as use | [philosophy-of-language-and-logic](../philosophy-of-language-and-logic/syllabus.md) 4.2-4.3 (syllabus only) |
+| Meaning and reference; rigid designation; two-dimensional semantics; Twin Earth as a claim about kind terms; indexicals | [philosophy-of-language-and-logic](../philosophy-of-language-and-logic/syllabus.md) [3.2](../philosophy-of-language-and-logic/lessons/03-02-rigid-designation-and-the-causal-picture.md), [3.3](../philosophy-of-language-and-logic/lessons/03-03-the-necessary-a-posteriori-and-natural-kinds.md), [3.4](../philosophy-of-language-and-logic/lessons/03-04-indexicals-and-the-return-of-freges-puzzle.md) |
+| The rule-following paradox (plus and quus) and its replies; inferentialism about linguistic meaning; meaning as use | [philosophy-of-language-and-logic](../philosophy-of-language-and-logic/syllabus.md) [4.2](../philosophy-of-language-and-logic/lessons/04-02-meaning-as-use.md), [4.3](../philosophy-of-language-and-logic/lessons/04-03-the-rule-following-paradox.md) |
 | What physics says about charge and fields; Everettian branches as real patterns | [philosophy-of-physics](../philosophy-of-physics/syllabus.md) [6.3](../philosophy-of-physics/lessons/06-03-particles-fields-or-structure.md), [2.3](../philosophy-of-physics/lessons/02-03-many-worlds-branching.md) |
 | Intentionality from Brentano to Husserl; Brentano's school | [phenomenology-and-personalism 1.1](../phenomenology-and-personalism/lessons/01-01-intentionality-from-brentano-to-husserl.md) |
 | Husserl on perception: the thing itself, one-sidedly; fulfilment and disappointment | [phenomenology-and-personalism 1.2](../phenomenology-and-personalism/lessons/01-02-the-anatomy-of-an-experience.md) |

@@ -5259,7 +5259,7 @@ The lessons use these without deriving them, or hand them to the course that own
 | Popper's *Open Society* on Plato | [history-of-political-thought 1.1](../history-of-political-thought/lessons/01-01-platos-republic-justice-in-city-and-soul.md) |
 | Establishment Clause tests | [constitutional-law](../constitutional-law/syllabus.md) |
 | Waltz's structural realism in international relations, an unrelated doctrine | [international-relations](../international-relations/syllabus.md) |
-| Analyticity; reference and meaning change in general | [philosophy-of-language-and-logic](../philosophy-of-language-and-logic/syllabus.md) |
+| Analyticity; reference and meaning change in general | [philosophy-of-language-and-logic 4.5](../philosophy-of-language-and-logic/lessons/04-05-analyticity-and-two-dogmas.md), [3.2](../philosophy-of-language-and-logic/lessons/03-02-rigid-designation-and-the-causal-picture.md) |
 
 ## Pitfalls
 

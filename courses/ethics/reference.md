@@ -1290,11 +1290,11 @@ An agent-centred prerogative lets you weight your own interests $M$ times as hea
 | Promising and what is owed | [philosophy-of-debt](../philosophy-of-debt/syllabus.md) 1.1–1.3 |
 | Reductionism about personal identity (Parfit's reply) | [metaphysics 6.6](../metaphysics/lessons/06-06-personal-identity-over-time.md) |
 | Act and potency; *hexis* as first actuality; the teleology of inclinations | [metaphysics 2.2](../metaphysics/lessons/02-02-change-act-and-potency.md) |
-| Synthetic a posteriori identity (water = H2O), used by Cornell realism and Adams | [metaphysics 3.1](../metaphysics/lessons/03-01-kinds-of-necessity.md); [philosophy-of-language-and-logic](../philosophy-of-language-and-logic/syllabus.md) 3.3 |
+| Synthetic a posteriori identity (water = H2O), used by Cornell realism and Adams | [metaphysics 3.1](../metaphysics/lessons/03-01-kinds-of-necessity.md); [philosophy-of-language-and-logic](../philosophy-of-language-and-logic/syllabus.md) [3.3](../philosophy-of-language-and-logic/lessons/03-03-the-necessary-a-posteriori-and-natural-kinds.md) |
 | Fictionalism about abstract objects | [metaphysics 1.2](../metaphysics/lessons/01-02-abstract-objects.md) |
 | Free will and moral responsibility | [metaphysics 6.1](../metaphysics/lessons/06-01-determinism-and-the-consequence-argument.md) onward |
-| Compositional semantics (what Frege-Geach demands) | [philosophy-of-language-and-logic](../philosophy-of-language-and-logic/syllabus.md) 4.1 |
-| Deflationary truth (quasi-realism's minimal truth) | [philosophy-of-language-and-logic](../philosophy-of-language-and-logic/syllabus.md) 5.2 |
+| Compositional semantics (what Frege-Geach demands) | [philosophy-of-language-and-logic](../philosophy-of-language-and-logic/syllabus.md) [4.1](../philosophy-of-language-and-logic/lessons/04-01-truth-conditional-semantics-and-davidson.md) |
+| Deflationary truth (quasi-realism's minimal truth) | [philosophy-of-language-and-logic](../philosophy-of-language-and-logic/syllabus.md) [5.2](../philosophy-of-language-and-logic/lessons/05-02-deflationism.md) |
 | Humean theory of motivation: reason alone cannot move to action | [modern-philosophy](../modern-philosophy/syllabus.md) 4.4 (Hume's text); belief-desire psychology in [philosophy-of-mind](../philosophy-of-mind/syllabus.md) [4.1](../philosophy-of-mind/lessons/04-01-intentionality-and-folk-psychology.md) |
 | Kant's and Hume's systems as history; Hume's projectivism as text | [modern-philosophy](../modern-philosophy/syllabus.md) |
 | Aristotle's wider system; Protagoras's relativism; Ockham | [ancient-medieval-philosophy](../ancient-medieval-philosophy/syllabus.md) 1.3, 8.4 |

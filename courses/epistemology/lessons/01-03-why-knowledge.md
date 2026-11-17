@@ -81,7 +81,7 @@ graph TD
 
 **Example 2 (hard case: a margin-for-error toy).** A sailor judges by eye how far a buoy is. Her estimates are reliable to within $m = 50$ metres; the buoy is in fact $x = 400$ metres away. Let $L$ be the true distance and consider $p$: "the buoy is more than 340 metres away."
 
-Model M: she knows "$L > y$" in a case with true distance $x$ only if $L > y$ in every case whose true distance lies within $m$ of $x$, that is, iff $x - m > y$.
+Model M (stipulated for the toy): she knows "$L > y$" in a case with true distance $x$ exactly when $L > y$ in every case whose true distance lies within $m$ of $x$, that is, iff $x - m > y$.
 
 - **Does she know $p$?** $x - m = 400 - 50 = 350 > 340$. Yes.
 - **Does she know that she knows $p$?** She must know $p$ in every close case, including the case with true distance $350$. There, $350 - 50 = 300$, and $300 > 340$ is false. So she does not know $p$ at that case, and she does not know that she knows $p$ at the actual one. In general, $KKp$ requires $x - 2m > y$; here $400 - 100 = 300$.

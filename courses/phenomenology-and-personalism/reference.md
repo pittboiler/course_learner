@@ -167,7 +167,7 @@ The view that the theoretical foundations of logic lie in psychology, so that lo
 
 Husserl's *Philosophy of Arithmetic* (1891) sought a psychological foundation for number; Frege's 1894 review charged it with psychologism. Many commentators read Husserl's change of mind as a response to Frege; J. N. Mohanty (1982) found the seeds in Husserl's own development. The *Prolegomena* (1900) confesses the conversion (with a line from Goethe about being strictest against errors just laid aside). The refutation is the [argument against psychologism](#argument-against-psychologism). The neo-Kantians were already anti-psychologist ([neo-Kantianism](#neo-kantianism)); Husserl got there by description, not transcendental deduction.
 
-*Lessons:* [1.1](lessons/01-01-intentionality-from-brentano-to-husserl.md). Frege's side (sense and reference): [philosophy-of-language-and-logic syllabus](../philosophy-of-language-and-logic/syllabus.md).
+*Lessons:* [1.1](lessons/01-01-intentionality-from-brentano-to-husserl.md). Frege's side (sense and reference): [philosophy-of-language-and-logic 1.1](../philosophy-of-language-and-logic/lessons/01-01-freges-puzzle-sense-and-reference.md).
 
 ### Neo-Kantianism
 
@@ -1726,7 +1726,7 @@ This course reads the texts historically and descriptively. Wherever a lesson us
 | Negative absolute temperature (warmth vs temperature) | [stat-mech 1.4](../stat-mech/lessons/01-04-temperature-pressure-chemical-potential.md) |
 | Intentionality as a live thesis; other minds, simulation and theory-theory; the computational theory of mind; extended mind; embodiment; the sense of agency | [philosophy-of-mind syllabus](../philosophy-of-mind/syllabus.md) ([4.1](../philosophy-of-mind/lessons/04-01-intentionality-and-folk-psychology.md), [4.3](../philosophy-of-mind/lessons/04-03-externalism-narrow-content-and-the-extended-mind.md), [6.1](../philosophy-of-mind/lessons/06-01-computationalism-and-the-turing-test.md); other minds [6.2](../philosophy-of-mind/lessons/06-02-the-chinese-room.md); sense of agency named in [3.3](../philosophy-of-mind/lessons/03-03-global-workspace-and-the-science-of-consciousness.md)) |
 | Solidarity as a social principle; the subjective dimension of work; the common good | [catholic-social-teaching syllabus](../catholic-social-teaching/syllabus.md) (3.4, 4.1) |
-| Frege's sense and reference (the model for the Fregean noema) | [philosophy-of-language-and-logic syllabus](../philosophy-of-language-and-logic/syllabus.md) |
+| Frege's sense and reference (the model for the Fregean noema) | [philosophy-of-language-and-logic 1.1](../philosophy-of-language-and-logic/lessons/01-01-freges-puzzle-sense-and-reference.md) |
 | Scientific realism: does the scientific or the lived image say what exists? | [philosophy-of-science syllabus](../philosophy-of-science/syllabus.md) (Module 5), [philosophy-of-physics 2.2](../philosophy-of-physics/lessons/02-02-collapse-theories-grw-and-csl.md) (primitive ontology) |
 
 ## Pitfalls

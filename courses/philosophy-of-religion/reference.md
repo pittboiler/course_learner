@@ -505,7 +505,7 @@ Plantinga, *The Nature of Necessity* (1974). A de re property of a being, so $\B
 
 S5's characteristic axiom is 5: $\Diamond p \to \Box\Diamond p$ (what is possible is necessarily possible). Its dual form $\Diamond\Box p \to \Box p$ is the step the modal ontological argument uses.
 
-Semantically, in S5 every world sees every world. B already proves $\Diamond\Box p \to p$, which suffices for the conclusion; the forward argument fails in S4. The reverse argument needs only K and T. S5 as a formal system belongs to [philosophy-of-language-and-logic](../philosophy-of-language-and-logic/syllabus.md). Steps in [S5 steps](#s5-steps).
+Semantically, in S5 every world sees every world. B already proves $\Diamond\Box p \to p$, which suffices for the conclusion; the forward argument fails in S4. The reverse argument needs only K and T. S5 as a formal system belongs to [philosophy-of-language-and-logic 2.2](../philosophy-of-language-and-logic/lessons/02-02-axioms-and-frames-t-s4-s5.md). Steps in [S5 steps](#s5-steps).
 
 *Introduced:* [2.2](lessons/02-02-the-modal-ontological-argument.md); used in [2.4](lessons/02-04-cosmological-arguments-sufficient-reason.md) (weak PSR)
 
@@ -1578,7 +1578,7 @@ The principles 2.2 uses, and which system each direction needs.
 
 | Principle | Statement |
 |---|---|
-| K | from $\Box(A \to B)$ and $\Diamond A$, infer $\Diamond B$ |
+| K | from $\Box(A \to B)$ and $\Diamond A$, infer $\Diamond B$ (derived from the axiom $\Box(p \to q) \to (\Box p \to \Box q)$ with duality) |
 | T | $\Box p \to p$ |
 | Duality | $\Diamond A \leftrightarrow \neg\Box\neg A$ |
 | B validates | $\Diamond\Box p \to p$ |
@@ -1760,7 +1760,7 @@ This course uses these without teaching them. Each row points at the course that
 | Distinguo; the scholastic answer to the stone | [philosophical-method 3.2](../philosophical-method/lessons/03-02-distinctions-and-verbal-disputes.md) |
 | The five reply types, reductio, proves-too-much | [philosophical-method 4.1](../philosophical-method/lessons/04-01-objections-and-replies.md) |
 | Burden of proof (Flew's presumption of atheism) | [philosophical-method 4.2](../philosophical-method/lessons/04-02-steelmanning-and-the-burden-of-proof.md) |
-| Modal logic as a formal system: K, T, B, S4, S5 and their frames | [philosophy-of-language-and-logic](../philosophy-of-language-and-logic/syllabus.md) Module 2 (syllabus only) |
+| Modal logic as a formal system: K, T, B, S4, S5 and their frames | [philosophy-of-language-and-logic 2.1](../philosophy-of-language-and-logic/lessons/02-01-kripke-semantics-and-the-system-k.md), [2.2](../philosophy-of-language-and-logic/lessons/02-02-axioms-and-frames-t-s4-s5.md), [2.3](../philosophy-of-language-and-logic/lessons/02-03-which-logic-for-which-modality.md) |
 | Cardinals, one-to-one correspondence, $\aleph_0$ arithmetic (Hilbert's Hotel) | [mathematical-logic 4.3](../mathematical-logic/lessons/04-03-cardinals-cantors-theorem.md), [4.4](../mathematical-logic/lessons/04-04-continuum-cardinal-arithmetic.md) |
 
 ### Metaphysics

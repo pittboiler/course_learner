@@ -129,5 +129,5 @@ But "odd" was doing further work — it was a step in an argument about symmetry
 ## Connections
 
 - **Forward:** [1.2](01-02-abstract-objects.md) runs the criterion on the hardest case, numbers, where paraphrase is most strained; [1.3](01-03-universals-the-realists-case.md) and [1.4](01-04-nominalism-and-tropes.md) do the same for properties.
-- **Sideways:** the quantifiers themselves belong to [`mathematical-logic`](../../mathematical-logic/syllabus.md) (2.1–2.3), which this course uses informally; whether "exists" means one thing everywhere is taken up in `philosophy-of-language-and-logic`.
+- **Sideways:** the quantifiers themselves belong to [`mathematical-logic`](../../mathematical-logic/syllabus.md) (2.1–2.3), which this course uses informally; whether "exists" means one thing everywhere is the assumption flagged above, and [`philosophy-of-language-and-logic` 1.3](../../philosophy-of-language-and-logic/lessons/01-03-russells-theory-of-descriptions.md) states the quantificational analysis of "exists" that makes it and names the pluralist alternative.
 - **Method:** the paraphrase move is a distinction drawn to dissolve a dispute — [`philosophical-method`](../../philosophical-method/syllabus.md) 3.2 — and P3 turns on that lesson's test for a verbal dispute.

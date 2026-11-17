@@ -52,7 +52,7 @@ $$R \in R \;\leftrightarrow\; R \notin R. \tag{$\ast$}$$
 
 *Case B: suppose $R \notin R$.* Reading ($\ast$) right-to-left, $R \notin R$ implies $R \in R$. So again both $R \in R$ and $R \notin R$ — contradiction.
 
-By the law of excluded middle exactly one of $R \in R$, $R \notin R$ holds; both lead to $\bot$. Therefore the *existence* of $R$ is impossible. But comprehension asserted that existence. Hence comprehension is the false premise. $\blacksquare$
+By the law of excluded middle at least one of $R \in R$, $R \notin R$ holds; both lead to $\bot$. Therefore the *existence* of $R$ is impossible. But comprehension asserted that existence. Hence comprehension is the false premise. $\blacksquare$
 
 Notice there is no arithmetic, no infinity, no clever trick — just one instance of the axiom schema and pure propositional logic. That's what makes it lethal: you cannot blame some exotic corner of mathematics.
 

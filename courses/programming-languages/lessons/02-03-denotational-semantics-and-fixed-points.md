@@ -186,7 +186,7 @@ This is correct: the program terminates on no input, so its denotation should be
 
 (d) Since every partial function is a fixed point, the greatest is the largest element of the order — but the order $\sqsubseteq$ on *partial functions* has no single greatest element in general (any two total functions that differ are incomparable, and neither extends the other). In the standard setting where the greatest fixed point is wanted, one works in a domain with a top element, and there $\mathrm{gfp}\,F$ would be $\top$: the meaning that is defined everywhere with an arbitrary, unconstrained result.
 
-What it would claim is that the program terminates on every input, with a result nothing pins down. That is exactly backwards for a semantics of a programming language, which is why the least fixed point is standard here. (Greatest fixed points are the right tool elsewhere — for *coinductive* definitions such as bisimulation of infinite processes, or the "may" analyses of [Lesson 7.3](07-03-dataflow-analysis-as-a-fixed-point.md), where the question is what can *never* be ruled out rather than what is forced.)
+What it would claim is that the program terminates on every input, with a result nothing pins down. That is exactly backwards for a semantics of a programming language, which is why the least fixed point is standard here. (Greatest fixed points are the right tool elsewhere — for *coinductive* definitions such as bisimulation of infinite processes, or the "must" analyses of [Lesson 7.3](07-03-dataflow-analysis-as-a-fixed-point.md) (available expressions, very busy expressions), where the question is what can *never* be ruled out rather than what is forced.)
 
 </details>
 
