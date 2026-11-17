@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 334" width="760" height="334" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="760" height="334" fill="#ffffff"/>
+<text x="380" y="24" font-size="15" text-anchor="middle" fill="#111">Example 1: what &#8220;true&#8221; is applied to, or denied of, at each stage</text>
+<text x="355" y="58" font-size="13" text-anchor="middle" fill="#111">stage 0</text>
+<text x="465" y="58" font-size="13" text-anchor="middle" fill="#111">stage 1</text>
+<text x="575" y="58" font-size="13" text-anchor="middle" fill="#111">stage 2</text>
+<text x="685" y="58" font-size="13" text-anchor="middle" fill="#111">stage 3</text>
+<text x="12" y="92" font-size="13" fill="#111">g: grass is green</text>
+<rect x="304" y="74" width="102" height="28" rx="4" fill="#eeeeee" stroke="#333" stroke-width="0.6"/>
+<text x="355" y="92" font-size="12" text-anchor="middle" fill="#333">neither</text>
+<rect x="414" y="74" width="102" height="28" rx="4" fill="#1a6fb5" stroke="#333" stroke-width="0.6"/>
+<text x="465" y="92" font-size="12" text-anchor="middle" fill="#ffffff">extension</text>
+<rect x="524" y="74" width="102" height="28" rx="4" fill="#1a6fb5" stroke="#333" stroke-width="0.6"/>
+<text x="575" y="92" font-size="12" text-anchor="middle" fill="#ffffff">extension</text>
+<rect x="634" y="74" width="102" height="28" rx="4" fill="#1a6fb5" stroke="#333" stroke-width="0.6"/>
+<text x="685" y="92" font-size="12" text-anchor="middle" fill="#ffffff">extension</text>
+<text x="12" y="126" font-size="13" fill="#111">g1: &#8220;g&#8221; is true</text>
+<rect x="304" y="108" width="102" height="28" rx="4" fill="#eeeeee" stroke="#333" stroke-width="0.6"/>
+<text x="355" y="126" font-size="12" text-anchor="middle" fill="#333">neither</text>
+<rect x="414" y="108" width="102" height="28" rx="4" fill="#eeeeee" stroke="#333" stroke-width="0.6"/>
+<text x="465" y="126" font-size="12" text-anchor="middle" fill="#333">neither</text>
+<rect x="524" y="108" width="102" height="28" rx="4" fill="#1a6fb5" stroke="#333" stroke-width="0.6"/>
+<text x="575" y="126" font-size="12" text-anchor="middle" fill="#ffffff">extension</text>
+<rect x="634" y="108" width="102" height="28" rx="4" fill="#1a6fb5" stroke="#333" stroke-width="0.6"/>
+<text x="685" y="126" font-size="12" text-anchor="middle" fill="#ffffff">extension</text>
+<text x="12" y="160" font-size="13" fill="#111">g2: g1 is not true</text>
+<rect x="304" y="142" width="102" height="28" rx="4" fill="#eeeeee" stroke="#333" stroke-width="0.6"/>
+<text x="355" y="160" font-size="12" text-anchor="middle" fill="#333">neither</text>
+<rect x="414" y="142" width="102" height="28" rx="4" fill="#eeeeee" stroke="#333" stroke-width="0.6"/>
+<text x="465" y="160" font-size="12" text-anchor="middle" fill="#333">neither</text>
+<rect x="524" y="142" width="102" height="28" rx="4" fill="#eeeeee" stroke="#333" stroke-width="0.6"/>
+<text x="575" y="160" font-size="12" text-anchor="middle" fill="#333">neither</text>
+<rect x="634" y="142" width="102" height="28" rx="4" fill="#d1495b" stroke="#333" stroke-width="0.6"/>
+<text x="685" y="160" font-size="12" text-anchor="middle" fill="#ffffff">anti-extension</text>
+<text x="12" y="194" font-size="13" fill="#111">L: L is not true</text>
+<rect x="304" y="176" width="102" height="28" rx="4" fill="#eeeeee" stroke="#333" stroke-width="0.6"/>
+<text x="355" y="194" font-size="12" text-anchor="middle" fill="#333">neither</text>
+<rect x="414" y="176" width="102" height="28" rx="4" fill="#eeeeee" stroke="#333" stroke-width="0.6"/>
+<text x="465" y="194" font-size="12" text-anchor="middle" fill="#333">neither</text>
+<rect x="524" y="176" width="102" height="28" rx="4" fill="#eeeeee" stroke="#333" stroke-width="0.6"/>
+<text x="575" y="194" font-size="12" text-anchor="middle" fill="#333">neither</text>
+<rect x="634" y="176" width="102" height="28" rx="4" fill="#eeeeee" stroke="#333" stroke-width="0.6"/>
+<text x="685" y="194" font-size="12" text-anchor="middle" fill="#333">neither</text>
+<text x="12" y="228" font-size="13" fill="#111">d: L is true or g is true</text>
+<rect x="304" y="210" width="102" height="28" rx="4" fill="#eeeeee" stroke="#333" stroke-width="0.6"/>
+<text x="355" y="228" font-size="12" text-anchor="middle" fill="#333">neither</text>
+<rect x="414" y="210" width="102" height="28" rx="4" fill="#eeeeee" stroke="#333" stroke-width="0.6"/>
+<text x="465" y="228" font-size="12" text-anchor="middle" fill="#333">neither</text>
+<rect x="524" y="210" width="102" height="28" rx="4" fill="#1a6fb5" stroke="#333" stroke-width="0.6"/>
+<text x="575" y="228" font-size="12" text-anchor="middle" fill="#ffffff">extension</text>
+<rect x="634" y="210" width="102" height="28" rx="4" fill="#1a6fb5" stroke="#333" stroke-width="0.6"/>
+<text x="685" y="228" font-size="12" text-anchor="middle" fill="#ffffff">extension</text>
+<text x="12" y="262" font-size="13" fill="#111">e: L is true and g is true</text>
+<rect x="304" y="244" width="102" height="28" rx="4" fill="#eeeeee" stroke="#333" stroke-width="0.6"/>
+<text x="355" y="262" font-size="12" text-anchor="middle" fill="#333">neither</text>
+<rect x="414" y="244" width="102" height="28" rx="4" fill="#eeeeee" stroke="#333" stroke-width="0.6"/>
+<text x="465" y="262" font-size="12" text-anchor="middle" fill="#333">neither</text>
+<rect x="524" y="244" width="102" height="28" rx="4" fill="#eeeeee" stroke="#333" stroke-width="0.6"/>
+<text x="575" y="262" font-size="12" text-anchor="middle" fill="#333">neither</text>
+<rect x="634" y="244" width="102" height="28" rx="4" fill="#eeeeee" stroke="#333" stroke-width="0.6"/>
+<text x="685" y="262" font-size="12" text-anchor="middle" fill="#333">neither</text>
+<text x="380" y="304" font-size="12" text-anchor="middle" fill="#333">Stage 4 repeats stage 3: the least fixed point. Once a sentence enters a set, it never leaves.</text>
+<text x="380" y="322" font-size="12" text-anchor="middle" fill="#333">L and e are never sorted; d enters the extension at stage 2, though it mentions L.</text>
+</svg>

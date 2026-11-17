@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 400" width="820" height="400" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="820" height="400" fill="#ffffff"/>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker></defs>
+<text x="20" y="30" font-size="15" font-weight="bold" fill="#111">Frege&#8217;s medians (1892, p. 26)</text>
+<polygon points="50.0,330.0 390.0,330.0 160.0,70.0" fill="none" stroke="#111" stroke-width="2"/>
+<line x1="50.0" y1="330.0" x2="275.0" y2="200.0" stroke="#1a6fb5" stroke-width="2.5"/>
+<circle cx="275.0" cy="200.0" r="3.5" fill="#1a6fb5"/>
+<text x="121.0" y="276.7" font-size="16" font-style="italic" font-weight="bold" fill="#1a6fb5">a</text>
+<line x1="390.0" y1="330.0" x2="105.0" y2="200.0" stroke="#d1495b" stroke-width="2.5"/>
+<circle cx="105.0" cy="200.0" r="3.5" fill="#d1495b"/>
+<text x="320.8" y="288.5" font-size="16" font-style="italic" font-weight="bold" fill="#d1495b">b</text>
+<line x1="160.0" y1="70.0" x2="220.0" y2="330.0" stroke="#2e8b57" stroke-width="2.5"/>
+<circle cx="220.0" cy="330.0" r="3.5" fill="#2e8b57"/>
+<text x="218.0" y="290.7" font-size="16" font-style="italic" font-weight="bold" fill="#2e8b57">c</text>
+<line x1="98" y1="146" x2="195.0" y2="239.3" stroke="#333" stroke-width="1.2" stroke-dasharray="4 3" marker-end="url(#arr)"/>
+<line x1="318" y1="146" x2="205.0" y2="239.3" stroke="#333" stroke-width="1.2" stroke-dasharray="4 3" marker-end="url(#arr)"/>
+<circle cx="200.0" cy="243.3" r="5.5" fill="#111"/>
+<text x="209.0" y="261.3" font-size="15" font-weight="bold" fill="#111">G</text>
+<text x="16" y="114" font-size="13" fill="#1a6fb5">&#8220;the intersection</text>
+<text x="16" y="131" font-size="13" fill="#1a6fb5">of <tspan font-style="italic">a</tspan> and <tspan font-style="italic">b</tspan>&#8221;</text>
+<text x="262" y="114" font-size="13" fill="#d1495b">&#8220;the intersection</text>
+<text x="262" y="131" font-size="13" fill="#d1495b">of <tspan font-style="italic">b</tspan> and <tspan font-style="italic">c</tspan>&#8221;</text>
+<text x="20" y="372" font-size="12" fill="#333">Each median joins a corner to the midpoint of the</text>
+<text x="20" y="388" font-size="12" fill="#333">opposite side; all three meet at one point, G.</text>
+<line x1="420" y1="20" x2="420" y2="388" stroke="#bbbbbb" stroke-width="1"/>
+<text x="432" y="30" font-size="15" font-weight="bold" fill="#111">Two signs, two senses, one reference</text>
+<text x="432" y="72" font-size="13" font-weight="bold" fill="#111">sign</text>
+<text x="432" y="152" font-size="13" font-weight="bold" fill="#111">sense</text>
+<text x="432" y="168" font-size="12" font-style="italic" fill="#333">(Sinn)</text>
+<text x="432" y="242" font-size="13" font-weight="bold" fill="#111">reference</text>
+<text x="432" y="258" font-size="12" font-style="italic" fill="#333">(Bedeutung)</text>
+<text x="432" y="320" font-size="13" font-weight="bold" fill="#111">idea</text>
+<text x="432" y="336" font-size="12" font-style="italic" fill="#333">(Vorstellung)</text>
+<rect x="528" y="52" width="134" height="46" rx="6" fill="#ffffff" stroke="#1a6fb5" stroke-width="2"/>
+<text x="595.0" y="71" font-size="12" text-anchor="middle" fill="#111">&#8220;the intersection</text>
+<text x="595.0" y="88" font-size="12" text-anchor="middle" fill="#111">of a and b&#8221;</text>
+<line x1="595.0" y1="98" x2="595.0" y2="130" stroke="#333" stroke-width="1.5" marker-end="url(#arr)"/>
+<rect x="528" y="132" width="134" height="46" rx="6" fill="#ffffff" stroke="#1a6fb5" stroke-width="2"/>
+<text x="595.0" y="151" font-size="12" text-anchor="middle" fill="#111">given as where</text>
+<text x="595.0" y="168" font-size="12" text-anchor="middle" fill="#111">a crosses b</text>
+<rect x="672" y="52" width="134" height="46" rx="6" fill="#ffffff" stroke="#d1495b" stroke-width="2"/>
+<text x="739.0" y="71" font-size="12" text-anchor="middle" fill="#111">&#8220;the intersection</text>
+<text x="739.0" y="88" font-size="12" text-anchor="middle" fill="#111">of b and c&#8221;</text>
+<line x1="739.0" y1="98" x2="739.0" y2="130" stroke="#333" stroke-width="1.5" marker-end="url(#arr)"/>
+<rect x="672" y="132" width="134" height="46" rx="6" fill="#ffffff" stroke="#d1495b" stroke-width="2"/>
+<text x="739.0" y="151" font-size="12" text-anchor="middle" fill="#111">given as where</text>
+<text x="739.0" y="168" font-size="12" text-anchor="middle" fill="#111">b crosses c</text>
+<line x1="595.0" y1="178" x2="620" y2="220" stroke="#333" stroke-width="1.5" marker-end="url(#arr)"/>
+<line x1="739.0" y1="178" x2="714" y2="220" stroke="#333" stroke-width="1.5" marker-end="url(#arr)"/>
+<rect x="580" y="222" width="174" height="40" rx="6" fill="#f2f2f2" stroke="#111" stroke-width="2"/>
+<text x="667.0" y="247" font-size="13" font-weight="bold" text-anchor="middle" fill="#111">the point G</text>
+<rect x="528" y="300" width="278" height="44" rx="6" fill="#ffffff" stroke="#333" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="667" y="318" font-size="12" text-anchor="middle" fill="#111">each reader&#8217;s mental picture of the</text>
+<text x="667" y="335" font-size="12" text-anchor="middle" fill="#111">drawing: private, and not part of the sense</text>
+<text x="432" y="372" font-size="12" fill="#333">Frege&#8217;s telescope: the moon is the reference, the</text>
+<text x="432" y="388" font-size="12" fill="#333">image inside the tube the sense, the retinal image the idea.</text>
+</svg>

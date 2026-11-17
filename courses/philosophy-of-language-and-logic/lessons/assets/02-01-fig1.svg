@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" width="720" height="330" font-family="Helvetica, Arial, sans-serif">
+<rect x="0" y="0" width="720" height="330" fill="#ffffff"/>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#111"/></marker></defs>
+<text x="360" y="24" font-size="14" text-anchor="middle" fill="#111">Example 1: w0 sees w1 and w2; w1 and w2 see each other</text>
+<line x1="131.9" y1="216.0" x2="308.1" y2="104.0" stroke="#111" stroke-width="1.6" marker-end="url(#ah)"/>
+<line x1="135.8" y1="227.0" x2="604.2" y2="173.0" stroke="#111" stroke-width="1.6" marker-end="url(#ah)"/>
+<path d="M353.1,104.4 Q474.3,151.3 602.8,171.0" fill="none" stroke="#111" stroke-width="1.6" marker-end="url(#ah)"/>
+<path d="M606.9,155.6 Q485.7,108.7 357.2,89.0" fill="none" stroke="#111" stroke-width="1.6" marker-end="url(#ah)"/>
+<circle cx="110.0" cy="230.0" r="26" fill="#ffffff" stroke="#1a6fb5" stroke-width="2"/>
+<text x="110.0" y="235.0" font-size="15" text-anchor="middle" fill="#111">w0</text>
+<text x="110.0" y="276.0" font-size="13" text-anchor="middle" fill="#333">p true, q false</text>
+<text x="110.0" y="294.0" font-size="13" text-anchor="middle" fill="#333">&#9633;(p &#8594; &#9671;q): F</text>
+<circle cx="330.0" cy="90.0" r="26" fill="#ffffff" stroke="#1a6fb5" stroke-width="2"/>
+<text x="330.0" y="95.0" font-size="15" text-anchor="middle" fill="#111">w1</text>
+<text x="330.0" y="136.0" font-size="13" text-anchor="middle" fill="#333">p true, q true</text>
+<text x="330.0" y="154.0" font-size="13" text-anchor="middle" fill="#333">&#9633;(p &#8594; &#9671;q): T</text>
+<circle cx="630.0" cy="170.0" r="26" fill="#ffffff" stroke="#1a6fb5" stroke-width="2"/>
+<text x="630.0" y="175.0" font-size="15" text-anchor="middle" fill="#111">w2</text>
+<text x="630.0" y="216.0" font-size="13" text-anchor="middle" fill="#333">p false, q false</text>
+<text x="630.0" y="234.0" font-size="13" text-anchor="middle" fill="#333">&#9633;(p &#8594; &#9671;q): F</text>
+<text x="360" y="318" font-size="12" text-anchor="middle" fill="#333">An arrow from w to v means w sees v. No world sees itself.</text>
+</svg>
